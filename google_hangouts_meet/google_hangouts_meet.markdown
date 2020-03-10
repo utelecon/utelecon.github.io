@@ -44,7 +44,7 @@
    <blockquote>
      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" width="400"></a>
    </blockquote>
-* 「ミーティングを開始」を押すとこのような画面が現れます. 会議名をつけたければ記入(空欄でも可)し, 「続行」を押します.
+1. 「ミーティングを開始」を押すとこのような画面が現れます. 会議名をつけたければ記入(空欄でも可)し, 「続行」を押します.
    <blockquote>
      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_name.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_name.png" width="400"></a>
    </blockquote>
