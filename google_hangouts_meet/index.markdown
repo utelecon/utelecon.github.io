@@ -30,15 +30,15 @@
 1. 無事ログインできたら, 以下のように, 「ミーティングに参加または開始」 ボタンが現れますので, それを押してミーティングを設定してください.
 
    <blockquote>
-     <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_start.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_start.png" width="400"></a>
+     <a href="img/meet_start.png" target="_blank"><img src="img/meet_start.png" width="400"></a>
    </blockquote>
   * 注1: もし以下のように, 「新しいミーティングを開始できるアカウントでログインしていません (You're not logged in with an account that can start a meeting)」 と表示されたら, 右上の「ログイン」(Sign in) リンクから, G Suiteアカウント (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
    <blockquote>
-     <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_no_login.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_no_login.png" width="250"></a>
+     <a href="img/meet_no_login.png" target="_blank"><img src="img/meet_no_login.png" width="250"></a>
    </blockquote>
   * 注2: もし以下のように, 「ご利用のアカウントではミーティングへの参加のみ許可されています」 と表示されたら, それはおそらく, G Suiteのアカウント (xxxx@g.ecc.u-tokyo.ac.jp) ではなく, 普段使っているアカウント (xxxx@gmail.com) でログイン中であるためです. 右上のアイコンからアカウントを変更するか, 一旦ログアウトして, G Suiteのアカウントでログインし直してください.
    <blockquote>
-     <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_participate_only.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_participate_only.png" width="250"></a>
+     <a href="img/meet_participate_only.png" target="_blank"><img src="img/meet_participate_only.png" width="250"></a>
    </blockquote>
 1. 「ミーティングに参加または開始」を押します. カメラやマイクへのアクセス許可を求める窓が出てきたら, &quot;Allow&quot; (許可)を押します. これでミーティング開始の準備が出来ました.
    <blockquote>
@@ -46,11 +46,11 @@
    </blockquote>
 1. 「ミーティングを開始」を押すとこのような画面が現れます. 会議名をつけたければ記入(空欄でも可)し, 「続行」を押します.
    <blockquote>
-     <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_name.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_name.png" width="400"></a>
+     <a href="img/meet_name.png" target="_blank"><img src="img/meet_name.png" width="400"></a>
    </blockquote>
 1. このような画面が出ますので, 参加者に, 表示されているURL (<a href="https://meet.google.com/xxx-xxxx-xxx" target="_blank">https://meet.google.com/xxx-xxxx-xxx</a>) を参加者へ, メールなどでお知らせください. 「参加に必要な情報をコピー」を押すとURLがコピーされるので, お使いのメールソフトの編集画面に行って, 「貼り付け」れば, 簡単にお知らせメールが出来ます.
    <blockquote>
-      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_copy.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/03/meet_copy.png" width="400"></a>
+      <a href="img/meet_copy.png" target="_blank"><img src="img/meet_copy.png" width="400"></a>
    </blockquote>
 
 ### 会議への参加(join)
