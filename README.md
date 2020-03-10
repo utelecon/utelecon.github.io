@@ -1,5 +1,7 @@
 # utelecon (UTokyo Portal for Teleconference Tools)
 
+https://utelecon.github.io/
+
 ## 書き方
 
 * 拡張子(.markdown)のファイル (xxxxxx.markdown) をマークダウン形式で書いてgit commit/push
@@ -21,7 +23,4 @@ git push
 
 * 節番号とか自動的にふれないの?
 * 目次とか生成できないの?
-
-
-
-
+* トップページへのリンクとか全ページに出したい
