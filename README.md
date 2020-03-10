@@ -13,8 +13,15 @@
 ```
 git clone git@github.com:utelecon/utelecon.github.io.git
 # edit files (e.g., index.markdown)
-git commit index.markdown -m "add introduction" -a
+git commit -m "add introduction" -a
 git push
 ```
+
+## よくわからないこと
+
+* 節番号とか自動的にふれないの?
+* 目次とか生成できないの?
+
+
 
 
