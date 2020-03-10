@@ -11,7 +11,7 @@ https://utelecon.github.io/
   * theme は設定画面 https://github.com/utelecon/utelecon.github.io  の settings のページの下の方 (github pages) から変更できる
 * 経験上, commit/push してからサイトに反映されるまで長いと数十秒かかる
 * markdown中には普通のhtmlも書けるのでmarkdownで書きにくいものはhtmlを書けば良い
-* markdown記法 [https://qiita.com/tbpgr/items/989c6badefff69377da7]
+* markdown記法 https://qiita.com/tbpgr/items/989c6badefff69377da7
 
 ```
 git clone git@github.com:utelecon/utelecon.github.io.git
