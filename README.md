@@ -16,6 +16,7 @@ https://utelecon.github.io/
 * 経験上, commit/push してからサイトに反映されるまで長いと数十秒かかる
 * markdown中には普通のhtmlも書けるのでmarkdownで書きにくいものはhtmlを書けば良い
 * markdown記法 https://qiita.com/tbpgr/items/989c6badefff69377da7
+* markdown記法 https://qiita.com/t_wkm2/items/372fd1c851c4d221b1f3
 
 ```
 git clone git@github.com:utelecon/utelecon.github.io.git
@@ -25,10 +26,8 @@ git push
 ```
 
 ## Markdown チートシート
-* \# 見出し 
-* \[タイトル\](url)\{:target="_blank"\} リンク（Jekyll の機能で{}で属性を渡せそう）
-* \!\[タイトル\](url)\{:width="200px"\} 画像（{}で width の指定をできることは確認済み）
-* https://qiita.com/t_wkm2/items/372fd1c851c4d221b1f3
+* \[タイトル\](url)\{:target="_blank"\} リンク（Jekyll の機能で{}で属性を渡せそう．残念ながらリスト内では属性を渡せない）
+* \!\[タイトル\](url)\{:width="200px"\} 画像（{}で width の指定をできることは確認済み．おそらくこれもリスト内では属性を渡せなさそう）
 
 
 ## 気になっていること
