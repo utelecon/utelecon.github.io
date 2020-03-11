@@ -24,6 +24,16 @@ git commit -m "add introduction" -a
 git push
 ```
 
+## Markdown チートシート
+* \# 見出し 
+* \[タイトル\](url)\{:target="_blank"\} リンク（{}で属性を渡せそう）
+* \!\[タイトル\](url)\{:width="200px"\} 画像（{}で width の指定をできることは確認済み）
+* 参考 https://qiita.com/t_wkm2/items/372fd1c851c4d221b1f3
+
+
+## 気になっていること
+* 今のままだと README.md が見えてしまうから docs フォルダ内を公開というような設定を今後したい
+
 
 ## よくわからないこと
 
