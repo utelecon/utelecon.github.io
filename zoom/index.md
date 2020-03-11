@@ -1,17 +1,8 @@
 # ビデオ会議 ZOOM の使い方
 
-[リンク](https://gsuite.google.co.jp/intl/ja/products/meet/){:target="_blank"}
-[リンク](/zoom){:target="_blank"}
-
-![](img/meet_camera.png){:width="300px", :height="400px"}
-
-![](img/meet_camera.png){:width="300px" :height="400px"}
-
-![](img/meet_camera.png){:width="300px"}
-
 ## はじめに
 
-* 東京大学の教職員・学生 (u-tokyoアカウント保持者) であれば誰でも <a href="https://gsuite.google.co.jp/intl/ja/products/meet/" target="_blank">Google ハングアウト Meet</a> を使うことが出来, 以下のことが行なえます.
+* 現在，ZOOM では [リンク](https://zoom.us/jp-jp/education.html){target="_blank"}
   * ビデオ会議: 双方向のビデオ通話・音声通話・資料(画面)表示が可能. 一人が会議を開催(start)し, 残りは参加(join)します. 開催者はu-tokyoアカウントを用います. 残りの参加者は誰でも(u-tokyoアカウント保持者でなくても)良い.
   * ライブ配信: 開催者から残り全員へのビデオ・音声・資料(画面)の配信. つまり双方向ではなく, 一方向の通信
   * 録画配信: ビデオ会議やライブ配信を録画しておいて, 録画されたビデオをGoogle DriveやYouTubeを使って配信
