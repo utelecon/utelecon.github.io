@@ -1,8 +1,6 @@
 ---
-title: WebEx
+title: Web会議 WebEx の使い方
 ---
-
-# ビデオ会議 WebEx の使い方
 
 [リンク](https://www.webex.com/ja/video-conferencing.html)
 
@@ -11,6 +9,17 @@ title: WebEx
 * WebExとは
 	* 遠隔の人同士で会議を行ったり，授業を行うのに使えるオンラインの会議システムです．
 	* 本学のGoogleメールが使える人ならば，７月末まで誰でも無料で利用することができます．
+ここでは Web会議システム WebEx の特徴や使い方について説明します．
+2020年3月11日現在，2020年7月1日までは 本学のGoogleメール（共通ID10桁@g.ecc.u-tokyo.ac.jp）のメールアドレスで WebExアカウントを作成し，WebExを用いることができます．WebExによってオンラインで会議や授業を行うことができます．
+
+## 特徴（TODO あとで）
+* 会議室の URL からアクセスすることで Web 会議室に参加可能（TODO 全部同じだから共通の情報としてくくり出して良いかも，やはり最初のページに比較表がほしい）
+* 同時接続可能数は
+* 参加者はアカウントを作らなくても参加可能（開催者はアカウントを作り必要あり．また，開催者および参加者双方ソフトウェアをインストールする必要あり）
+
+
+## 目次
+
 * WebExを使う前に必要なこと 
 	* Googleメールの有効化が必要です．GoogleのG Suite for Education (本学では「ECCSクラウドメール」と呼ばれている)を有効にする必要があります(一度だけの作業. オンラインで完結します).有効化は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a>から行います．詳細は，<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/04/01_2159.html" target="_blank">ECCSクラウドメール利用方法ー初期設定</a>を御覧ください．
 	* 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
