@@ -28,7 +28,7 @@ git push
 * \# 見出し 
 * \[タイトル\](url)\{:target="_blank"\} リンク（{}で属性を渡せそう）
 * \!\[タイトル\](url)\{:width="200px"\} 画像（{}で width の指定をできることは確認済み）
-* 参考 https://qiita.com/t_wkm2/items/372fd1c851c4d221b1f3
+* [参考サイト](https://qiita.com/t_wkm2/items/372fd1c851c4d221b1f3){:target="_blank"}
 
 
 ## 気になっていること
