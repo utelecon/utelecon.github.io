@@ -47,12 +47,17 @@ title: Web会議 WebEx の使い方
 
 ![パスワード設定画面](img/webex_pw_setting.PNG){:width="600px"}
 
-* パスワード先変更では，任意のパスワードを設定します．パスワードの設定条件をクリアできると無事設定できましたというメッセージ画面が現れます．
+* パスワード先変更では，任意のパスワードを設定します．パスワードの設定条件をクリアできると無事設定できましたというメッセージ画面が現れます．右下にある「ログイン」ボタンをおして，ログイン画面に進みます．
 
 ![この画面がでたら成功です](img/webex_pw_success.PNG){:width="600px"}
 
 ## WebExへのログインと会議の設定
 
+* ログイン画面では，ユーザー名とパスワードを入力します．ユーザー名は，パスワード変更手続きのメールに記載してありますが．"UTOKYOxxxx(10桁ID）"というUTokyoに10桁の数字が続く形式のものです．パスワードは上記で設定したパスワードを入力します．
+
+![ログイン画面](img/webex_login.PNG){:width="600px"}
+
+* ログインができると下記のようなウェブサイトに入れます．
 
 
 
@@ -61,11 +66,6 @@ title: Web会議 WebEx の使い方
   * ライブ配信: 開催者から残り全員へのビデオ・音声・資料(画面)の配信. つまり双方向ではなく, 一方向の通信
   * 録画配信: ビデオ会議やライブ配信を録画しておいて, 録画されたビデオをGoogle DriveやYouTubeを使って配信
 
-* 必要なツール
-  * PC+通常のWWWブラウザだけあれば開催・参加できます
-  * 一台のPCを同じ部屋の複数人で共有したり, 講義室で登壇する人の姿を写したりする場合など, PCと参加者の距離が遠い場合, 外付けのUSBカメラや高感度マイクを接続することを推奨します
-  * スマートフォン用には専用のアプリもあります(開催にはPCを推奨)
-  * どこにいても(学内・学外問わず)開催・参加可能です
 
 ## ビデオ会議編
 
@@ -75,22 +75,8 @@ title: Web会議 WebEx の使い方
 
 誰か一人が会議の開催者となって, 以下の作業を行ってください.
 
-1. もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています. 開催者が(教職員ではなく)学生の場合は, ECCSの <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります.
-1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
-1. 無事有効化されたら, <a href="https://meet.google.com/" target="_blank">meetのトップページ</a> にアクセスし, ページ上部の「ログイン」または"Sign in"から, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
-1. 無事ログインできたら, 以下のように, 「ミーティングに参加または開始」 ボタンが現れますので, それを押してミーティングを設定してください.
 
-   <blockquote>
-     <a href="img/meet_start.png" target="_blank"><img src="img/meet_start.png" width="400"></a>
-   </blockquote>
-  * 注1: もし以下のように, 「新しいミーティングを開始できるアカウントでログインしていません (You're not logged in with an account that can start a meeting)」 と表示されたら, 右上の「ログイン」(Sign in) リンクから, G Suiteアカウント (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
-   <blockquote>
-     <a href="img/meet_no_login.png" target="_blank"><img src="img/meet_no_login.png" width="250"></a>
-   </blockquote>
-  * 注2: もし以下のように, 「ご利用のアカウントではミーティングへの参加のみ許可されています」 と表示されたら, それはおそらく, G Suiteのアカウント (xxxx@g.ecc.u-tokyo.ac.jp) ではなく, 普段使っているアカウント (xxxx@gmail.com) でログイン中であるためです. 右上のアイコンからアカウントを変更するか, 一旦ログアウトして, G Suiteのアカウントでログインし直してください.
-   <blockquote>
-     <a href="img/meet_participate_only.png" target="_blank"><img src="img/meet_participate_only.png" width="250"></a>
-   </blockquote>
+
 1. 「ミーティングに参加または開始」を押します. カメラやマイクへのアクセス許可を求める窓が出てきたら, &quot;Allow&quot; (許可)を押します. これでミーティング開始の準備が出来ました.
    <blockquote>
      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" width="400"></a>
