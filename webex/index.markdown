@@ -30,16 +30,16 @@ title: Web会議 WebEx の使い方
   * PC，タブレット，スマートフォンなど接続用デバイスを用意する
     * マイクやカメラが内蔵されていない場合はそれらも用意する
     * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します
-  * Web ブラウザ（Chrome，Firefoxなど）を用意する
-  * （必要に応じて）デスクトップアプリやアプリを接続用デバイスへインストールする
+  * Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールする
   * 主催者より送られた会議室ID等を用いて，会議室へ参加する
 
 ## ECCSクラウドメールの有効化とWebExアカウント設定 
-	* 本学のECCSアカウントメール(本学では「ECCSクラウドメール」と呼ばれている)を有効にする必要があります(一度だけの作業. オンラインで完結します).有効化は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a>から行います．詳細は，<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/04/01_2159.html" target="_blank">ECCSクラウドメール利用方法ー初期設定</a>を御覧ください．
-	  * 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
-	  * 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を要する場合があります.
+
+* 本学のECCSアカウントメール(本学では「ECCSクラウドメール」と呼ばれている)を有効にする必要があります(一度だけの作業. オンラインで完結します).有効化は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a>から行います．詳細は，<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/04/01_2159.html" target="_blank">ECCSクラウドメール利用方法ー初期設定</a>を御覧ください．
+  * 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
+  * 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を要する場合があります.
 	  
-	* 無事有効化されたら, WebExパスワード設定のページ（下図）にいき，パスワード設定手続きを行います．このときメールアドレスは、たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.「送信」を押すとECCSクラウドメールにメールが送られます．**注意：共通IDの部分を変更されている人はもとの10桁の共通IDではじまるメールアドレスをいれる点ご注意ください．これは，<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a>で確認できます．**
+* 無事有効化されたら, WebExパスワード設定のページ（下図）にいき，パスワード設定手続きを行います．このときメールアドレスは、たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.「送信」を押すとECCSクラウドメールにメールが送られます．**注意：共通IDの部分を変更されている人はもとの10桁の共通IDではじまるメールアドレスをいれる点ご注意ください．これは，<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a>で確認できます．**
 
 ![パスワード変更手続き画面](img/webex_pw_change.PNG){:width="600px"}
 
