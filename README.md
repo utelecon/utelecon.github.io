@@ -2,6 +2,10 @@
 
 https://utelecon.github.io/
 
+
+## 共通ルール
+* 句読点は「，．」にする（吉田栗田はまずは全角で対応）
+
 ## 書き方
 
 * 拡張子(.markdown)のファイル (xxxxxx.markdown) をマークダウン形式で書いてgit commit/push
@@ -20,9 +24,10 @@ git commit -m "add introduction" -a
 git push
 ```
 
+
 ## よくわからないこと
 
 * 節番号とか自動的にふれないの?
 * 目次とか生成できないの?
-* トップページへのリンクとか全ページに出したい
-* リンクを別タブで開くようにしたい. htmlなら <a href="xxxx.html" target="_blank"> ... </a> とするやつ
+* トップページへのリンクとか全ページに出したい → 
+* リンクを別タブで開くようにしたい. htmlなら <a href="xxxx.html" target="_blank"> ... </a> とするやつ → [タイトル](url){:target="_blank"} の記法で行けそうです
