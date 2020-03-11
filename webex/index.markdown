@@ -1,5 +1,5 @@
 ---
-title:WebEx
+title: WebEx
 ---
 
 # ビデオ会議 WebEx の使い方
