@@ -8,6 +8,7 @@
 * 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
 * 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を要する場合があります.
 * 無事有効化されたら, パスワード設定のページ（下図）にいき，パスワード設定を行います．このときメールアドレスは、たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.「送信」を押すとECCSクラウドメールにメールが送られます．注意：共通IDの部分を変更されている方ももとの10桁の共通IDではじまるメールアドレスをいれてください．これは，<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a>で確認できます．
+![タイトル](img/webex_pw_change.PNG){:width="200px"}
 
 
 
