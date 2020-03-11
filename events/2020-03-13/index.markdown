@@ -10,4 +10,4 @@
 -->
 
 * 開催案内 3/10 通知「授業のオンライン化を念頭に置いた、TV会議ツールと使い方説明会のお知らせ」をご覧ください
-* 説明会スライド [pdf](online_lecture.pdf), [pptx](online_lecture.pptx)
+* 説明会スライド(直前まで執筆中) [pdf](online_lecture.pdf), [pptx](online_lecture.pptx)
