@@ -16,222 +16,68 @@ title: Web 会議ツール ZOOM の使い方
 * 参加者はアカウントを作らなくても参加可能（開催者はアカウントを作り必要あり．また，開催者および参加者双方ソフトウェアをインストールする必要あり）
 
 
+## 機能の説明
+TODO 画面を出しながらどのような機能があるかを説明
+
 ## 利用の流れ
-* 主催者・参加者共通
+* 開催者・参加者共通
   * PC，タブレット，スマートフォンなど接続用デバイスを用意する
     * マイクやカメラが内蔵されていない場合はそれらも用意する
     * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します
   * ZOOM ソフトウェアやアプリを接続用デバイスへインストールする
   * 会議室へ参加する
-* 主催者
+* 開催者
   * 会議室を作成する
   * 会議室の情報を周知する
 
-## （主催者・参加者共通）ソフトウェアをインストールする
-### PC の場合
-  * 会議室の URL を知っている場合
-    * 会議室の URL にアクセスしてください
-	* ZOOM がインストールされていない場合は以下のような画面が出て，自動的にダウンロードが始まるか，始まらない場合はダウンロードリンクをクリックするとダウンロードできるので，ダウンロードしたファイルを用いて ZOOM をインストールしてください
-	* ![](img/zoom_install_pc_with_url.png)
-  * 会議室の URL を知らない場合
-    * <a href="https://zoom.us/download" target="_blank">ダウンロードページ</a>へ移動して，ミーティング用Zoomクライアントをダウンロードして ZOOM をインストールしてください
-	* ![](img/zoom_install_pc_with_url.png) 
+## （開催者・参加者共通）ソフトウェアをインストールする
+
+* PC の場合
+  * <a href="https://zoom.us/download" target="_blank">ダウンロードページ</a>へ移動して，ミーティング用Zoomクライアントをダウンロードして ZOOM をインストールしてください
+  *![](img/zoom_install_pc_with_url.png) 
 	
-### スマートフォン・タブレットの場合
-  * 会議室の URL を知っている場合
-    * 会議室の URL にアクセスしてください
-	* アプリをダウンロードする画面へ移行するので，その画面で ZOOM アプリをインストールしてください
-  * 会議室の URL を知らない場合
-    * <a href="https://zoom.us/download#mobile_app" target="_blank">ダウンロードページ</a>へ移動して，ミーティング用Zoomクライアントを ZOOM アプリをインストールしてください
+* スマートフォン・タブレットの場合
+  * <a href="https://zoom.us/download#mobile_app" target="_blank">ダウンロードページ</a>へ移動して，Zoomモバイルアプリをインストールしてください
 
-## （主催者・参加者共通）会議室へ参加する
+## （開催者・参加者共通）会議室へ参加する
+
 ### PC の場合
-  
-  * 会議室の URL を知っている場合
-    * 
+URL（https://zoom.us/j/xxxxxxxxxx xは数字）を使って入る方法と ID（9～10桁の数字） を使って入る方法があるため，それぞれについて説明します．
 
-  * 会議室の ID を知っている場合
+* URL を使って参加する
+  * 会議室の URL にアクセスする
+  * Web ブラウザー上で Zoom Meetings を開くを押す（ZOOM がインストールされてない場合は，その画面からダウンロード可能であるため，そのままダウンロードして ZOOM をインストールする）
+    * ![](img/zoom_join_pc_url_browser.png)
+  * 名前を設定していない場合，名前設定を促されるため名前の設定をする
+    * ![](img/zoom_join_pc_url_name.png)
+  * URL・ID 共通の流れへ
+
+* ID を使って参加する
+  * ZOOM を起動する
+  * 「ミーティングに参加」を押す
+    * ![](img/zoom_join_pc_id_top.png)
+  * ①にミーティングID（9～10桁の数字）を入力，②に名前を入力して，「参加」を押す
+    * ![](img/zoom_join_pc_id_join_add.png)
+  * URL・ID 共通の流れへ
+
+* URL・ID 共通の流れ
+  * カメラがついていて，ビデオプレビューダイアログを表示する設定になっている場合，ビデオ付きで参加するかビデオなしで参加するか選択できるため，希望の方を選択する
+    * ![](img/zoom_join_pc_camera.png)
+  * オーディオ（音声）の参加方法を聞かれた場合，「コンピューターでオーディオに参加」を選択する
+    * ![](img/zoom_join_pc_browser_mic.png)
+  * 以上の流れで参加できる
+
+### タブレット・スマートフォン の場合
+TODO
 
 
+## （開催者）会議室を作成する
 
-## （主催者）会議室を作成する
 
-
-## （主催者）会議室の情報を周知する
+## （開催者）会議室の情報を周知する
 
 
 ## 授業で使える機能
 
 
-
-
-* ZOOM は
-2020年3月11日現在，本学のドメイン（xxxx@xxx.u-tokyo.ac.jp）で作成した ZOOM の無料アカウントで時間無制限 (https://zoom.us/jp-jp/education.html){target="_blank"}
-  * ビデオ会議: 双方向のビデオ通話・音声通話・資料(画面)表示が可能. 一人が会議を開催(start)し, 残りは参加(join)します. 開催者はu-tokyoアカウントを用います. 残りの参加者は誰でも(u-tokyoアカウント保持者でなくても)良い.
-  * ライブ配信: 開催者から残り全員へのビデオ・音声・資料(画面)の配信. つまり双方向ではなく, 一方向の通信
-  * 録画配信: ビデオ会議やライブ配信を録画しておいて, 録画されたビデオをGoogle DriveやYouTubeを使って配信
-
-* 使うためには, Googleの, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">G Suite for Education (本学では「ECCSクラウドメール」と呼ばれている)</a>を有効にする必要があります(一度だけの作業. オンラインで完結します).
-  * 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
-* 必要なツール
-  * PC+通常のWWWブラウザだけあれば開催・参加できます
-  * 一台のPCを同じ部屋の複数人で共有したり, 講義室で登壇する人の姿を写したりする場合など, PCと参加者の距離が遠い場合, 外付けのUSBカメラや高感度マイクを接続することを推奨します
-  * スマートフォン用には専用のアプリもあります(開催にはPCを推奨)
-  * どこにいても(学内・学外問わず)開催・参加可能です
-* ハングアウト Meetに関する<a href="https://support.google.com/meet/#topic=7306097" target="_blank">ヘルプ
-
-## ビデオ会議編
-
-ビデオ会議は開催者と参加者すべての人が, 動画, 音声, 資料(画面)を送りあえる形態で, 「双方向(N &lt;-&gt; N)通信」ができることが特徴です. ハングアウト Meet の用語では「ミーティング」と呼ばれます.
-
-### ビデオ会議の開催
-
-誰か一人が会議の開催者となって, 以下の作業を行ってください.
-
-1. もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています. 開催者が(教職員ではなく)学生の場合は, ECCSの <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります.
-1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
-1. 無事有効化されたら, <a href="https://meet.google.com/" target="_blank">meetのトップページ</a> にアクセスし, ページ上部の「ログイン」または"Sign in"から, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
-1. 無事ログインできたら, 以下のように, 「ミーティングに参加または開始」 ボタンが現れますので, それを押してミーティングを設定してください.
-
-   <blockquote>
-     <a href="img/meet_start.png" target="_blank"><img src="img/meet_start.png" width="400"></a>
-   </blockquote>
-  * 注1: もし以下のように, 「新しいミーティングを開始できるアカウントでログインしていません (You're not logged in with an account that can start a meeting)」 と表示されたら, 右上の「ログイン」(Sign in) リンクから, G Suiteアカウント (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
-   <blockquote>
-     <a href="img/meet_no_login.png" target="_blank"><img src="img/meet_no_login.png" width="250"></a>
-   </blockquote>
-  * 注2: もし以下のように, 「ご利用のアカウントではミーティングへの参加のみ許可されています」 と表示されたら, それはおそらく, G Suiteのアカウント (xxxx@g.ecc.u-tokyo.ac.jp) ではなく, 普段使っているアカウント (xxxx@gmail.com) でログイン中であるためです. 右上のアイコンからアカウントを変更するか, 一旦ログアウトして, G Suiteのアカウントでログインし直してください.
-   <blockquote>
-     <a href="img/meet_participate_only.png" target="_blank"><img src="img/meet_participate_only.png" width="250"></a>
-   </blockquote>
-1. 「ミーティングに参加または開始」を押します. カメラやマイクへのアクセス許可を求める窓が出てきたら, &quot;Allow&quot; (許可)を押します. これでミーティング開始の準備が出来ました.
-   <blockquote>
-     <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" width="400"></a>
-   </blockquote>
-1. 「ミーティングを開始」を押すとこのような画面が現れます. 会議名をつけたければ記入(空欄でも可)し, 「続行」を押します.
-   <blockquote>
-     <a href="img/meet_name.png" target="_blank"><img src="img/meet_name.png" width="400"></a>
-   </blockquote>
-1. このような画面が出ますので, 参加者に, 表示されているURL (<a href="https://meet.google.com/xxx-xxxx-xxx" target="_blank">https://meet.google.com/xxx-xxxx-xxx</a>) を参加者へ, メールなどでお知らせください. 「参加に必要な情報をコピー」を押すとURLがコピーされるので, お使いのメールソフトの編集画面に行って, 「貼り付け」れば, 簡単にお知らせメールが出来ます.
-   <blockquote>
-      <a href="img/meet_copy.png" target="_blank"><img src="img/meet_copy.png" width="400"></a>
-   </blockquote>
-
-### 会議への参加(join)
-
-1. 会議の開催者から, 会議のURLを, (メールなどで)受け取り, そこにアクセスしてください. 例えば以下のようなメールを受け取ったとします
-    <blockquote>
-      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" border=2 width="400"></a>
-    </blockquote>
-1. URLをブラウザで開いて会議に参加します. このとき,
-  * 参加者が, ECCSクラウドメールのアカウント(xxx@g.ecc.u-tokyo.ac.jp) でGoogleにログインしていれば, 直ちに会議に参加できます
-  * そうでない場合, 開催者の画面に, 許可・不許可を促す画面が現れ, 許可されれば会議に参加できます. 一定時間許可がないと参加できずエラーになります
-  * したがって, 非常に多数の, 不特定多数の人数が参加する会議に対しては, 参加者にECCSクラウドメールのアカウントでログインすることを必須とすることが現実的です. 従ってこの場合, 会議に参加できるのは東京大学の教職員・学生(+ 少数の, 明示的に許可する参加者)ということになります
-
-### 資料(画面)の表示
-
-会議中に右下隅「今すぐ表示」を押すと, 画面を参加者に送信できます. 画面全体を送信することも特定のウィンドウだけを送信することも出来ます. プレゼンテーションや講義資料などを表示するのに使います.
-
-### 録画
-
-会議中に右下隅のメニューから「ミーティングを録画」を選ぶと, 画像と音声を録画できます. 録画が終了すると, 動画ファイルがGoogle Driveに保存されます.
-
-## ライブ配信編
-
-ライブ配信は, 一人の開催者から残りの参加者に動画, 音声, 資料(画面)などを送る形態で, 「一方向(1 -&gt; N)通信」が特徴です. ビデオ会議と比べ, 多人数に情報を配信するのに適しています. Meetでは, 「ライブストリーミング」と呼ばれています. Meetのライブストリーミングでは, 参加者(聴衆)から開催者に向けた通信を行うことはできません. また, 配信の内容が聴衆に届くまでに15秒程度の遅れが生じるようです. 
-
-### ライブ配信の開催
-
-配信をする人が, 以下の作業を行ってください.
-
-1. もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています. 開催者が(教職員ではなく)学生の場合は, ECCSの <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります.
-1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
-1. 無事有効化されたら,
-    <a href="https://calendar.google.com/" target="_blank">
-      Googleカレンダーのトップページ
-    </a>に行ってください.
-  * 注1: 以下のようなログイン画面が現れたら, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) のアカウントでGoogleにログインしてください.
-     <blockquote>
-       <img src="img/login_menu.png" width="400"/>
-     </blockquote>
-  * 注2: 普段ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) 以外のGoogleアカウント(xxxx@gmail.com)でGoogleをお使いの場合, 一旦ログアウトして, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でログインし直してください.
-無事, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) でログインした状態のカレンダー(右上隅の "ECCS2016" に注目)です.
-
-    <blockquote>
-      <img src="img/login_calendar.png" width="400"/>
-    </blockquote>
-
-    以降の手順は <a href="https://support.google.com/meet/answer/9308681" target="_blank">Google によるマニュアル</a>に準じます.
-1. カレンダー上の適当な場所を左クリックしてイベントを作ります. もちろん普通は, ライブ配信をする日時に合わせて作るのでしょうが, 実際にはどこでも構いません(配信自体は日時と関係なくできますし, イベントの日時に自動的に配信が始まるわけでもありません).
-    <blockquote>
-      <img src="img/create_event.png" width="400"/>
-    </blockquote>
-1. 「その他のオプション」を選択
-    <blockquote>
-      <img src="img/create_event.png" width="400"/>
-    </blockquote>
-1. 「ビデオ会議を追加」を選択
-    <blockquote>
-      <img src="img/add_video_conf.png" width="400"/>
-    </blockquote>
-1. 「ビデオ会議を追加」 -&gt; 「Hangouts Meet」
-    <blockquote>
-      <img src="img/add_hangouts_meet.png" width="400"/>
-    </blockquote>
-1. <img src="img/downarrow.png" /> をクリック -&gt;「ライブストリームを追加」
-    <blockquote>
-      <img src="img/add_live_stream.png" width="400"/>
-    </blockquote>
-1. イベントを「保存」. ここまでで, 準備が出来ました
-1. <b>配信を開始:</b> カレンダー上で再びイベントを開き,「Hangouts Meetに参加」
-    <blockquote>
-      <img src="img/join_hangouts_meet.png" width="400"/>
-    </blockquote>
-1.「ミーティングに参加」
-    <blockquote>
-      <img src="img/join_meeting.png" width="400"/>
-    </blockquote>
-1. 以下のようなメッセージ「主催者によって, このミーティングはストリーミングするようにスケジュール設定されています」が現れますので, ただちに配信をスタートしたければ「ストリーミングを開始」を選びます.
-    <blockquote>
-      <img src="img/ask_streaing.png" width="400"/>
-    </blockquote>
-1. ただちに配信しない場合は一旦「閉じる」を選択して, 後から -&gt; 「ストリーミングを開始」としてもよいです.
-    <blockquote>
-      <img src="img/streaming_start.png" width="400"/>
-    </blockquote>
-1. <b>聴衆への案内:</b> 左下隅のメニュー<img src="img/downarrow" /> から「ストリーミング情報をコピー」
-    <blockquote>
-      <img src="img/streaming_start.png" width="400"/>
-    </blockquote>
-
-    すると, URLがクリップボードにコピーされますので, それを適当な場所(例えばお使いのメールソフトのメール編集画面)に「貼り付け」ます. 授業に参加する学生に伝えるには, ITC-LMSの「お知らせ」機能で,「メール・LINE通知」をONにすることにより, 授業参加者にのみURLを伝えることが出来ます.
-1. <font color="red">ストリーミングを聴講できるのは, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインしているユーザだけ(従って東京大学の教職員および学生だけ)</font>です. 案内の際にご注意ください. 以下は文例です.
-
-```
-      「◯◯◯◯◯」に関する講義をストリーミング配信します.
-      聴講するには,
-      ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインした
-      状態で, 次のリンクをクリックしてください。
-      https://stream.meet.google.com/stream/e91f3dd7-xxxx-xxxx-xxxx-7d47c54c1660
-
-      注1: ECCSクラウドメールを使ったことがない人は
-      <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">
-        https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html
-      </a>から有効化を行ってください(作業はすぐに終わりますが有効になるまで,
-      最大で1時間程度の待ち時間が生じます).
-      
-      注2: 学生(教職員でない人)は,
-      ECCSのオンライン新規利用者講習
-      (<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">
-        https://www.ecc.u-tokyo.ac.jp/onlineseminar.html</a>)
-      を終えている必要がありますので,
-      こちらもやっておいてください.
-```
-
-
-### ライブ配信の視聴
-
-1. 基本は, ライブ配信(ライブストリーミング)のURL (主催者から何らかの手段で送られてくる)を入手し, そのURLをブラウザでアクセスするだけです. ただし,
-1. もしまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています. 学生の場合は, ECCSの <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります.
-1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
 
