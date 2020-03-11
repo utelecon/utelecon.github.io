@@ -3,6 +3,8 @@
 [リンク](https://gsuite.google.co.jp/intl/ja/products/meet/){:target="_blank"}
 [リンク](/zoom){:target="_blank"}
 
+![](img/meet_camera.png)
+
 ## はじめに
 
 * 東京大学の教職員・学生 (u-tokyoアカウント保持者) であれば誰でも <a href="https://gsuite.google.co.jp/intl/ja/products/meet/" target="_blank">Google ハングアウト Meet</a> を使うことが出来, 以下のことが行なえます.
