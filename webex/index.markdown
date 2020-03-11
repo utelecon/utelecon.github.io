@@ -1,22 +1,36 @@
-# ビデオ会議 webex の使い方
+# ビデオ会議 WebEx の使い方
 
-[リンク](https://gsuite.google.co.jp/intl/ja/products/meet/){:target="_blank"}
+[リンク](https://www.webex.com/ja/video-conferencing.html)
 
 ## はじめに
 
-* 東京大学の教職員・学生 (u-tokyoアカウント保持者) であれば誰でも <a href="https://gsuite.google.co.jp/intl/ja/products/meet/" target="_blank">Google ハングアウト Meet</a> を使うことが出来, 以下のことが行なえます.
+* WebExとは
+	* 遠隔の人同士で会議を行ったり，授業を行うのに使えるオンラインの会議システムです．
+	* 本学のGoogleメールが使える人ならば，７月末まで誰でも無料で利用することができます．
+* WebExを使う前に必要なこと 
+	* Googleメールの有効化が必要です．GoogleのG Suite for Education (本学では「ECCSクラウドメール」と呼ばれている)を有効にする必要があります(一度だけの作業. オンラインで完結します).有効化は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a>から行います．詳細は，<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/04/01_2159.html" target="_blank">ECCSクラウドメール利用方法ー初期設定</a>を御覧ください．
+	* 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
+	* 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を要する場合があります.
+	* 無事有効化されたら, WebExパスワード設定のページ（下図）にいき，パスワード設定を行います．このときメールアドレスは、たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.「送信」を押すとECCSクラウドメールにメールが送られます．**注意：共通IDの部分を変更されている人はもとの10桁の共通IDではじまるメールアドレスをいれる点ご注意ください．これは，<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a>で確認できます．**
+
+![パスワード設定画面](img/webex_pw_change.PNG){:width="600px"}
+
+* Googleメールアドレス（10桁の共通IDにg.ecc.u-tokyo.ac.jpがついたもの，もしくはこの10桁の部分を任意に変更されたアドレス）に，**Webex アカウント情報のリクエスト**というメールが届きます．そこにあるパスワード変更のリンク先でパスワードを変更します．
+
+![パスワード設定画面](img/webex_pw_setting.PNG){:width="600px"}
+
+
+
+* 東京大学の教職員・学生 (u-tokyoアカウント保持者) であれば誰でもWebExを使うことができ，以下のことが行なえます．
   * ビデオ会議: 双方向のビデオ通話・音声通話・資料(画面)表示が可能. 一人が会議を開催(start)し, 残りは参加(join)します. 開催者はu-tokyoアカウントを用います. 残りの参加者は誰でも(u-tokyoアカウント保持者でなくても)良い.
   * ライブ配信: 開催者から残り全員へのビデオ・音声・資料(画面)の配信. つまり双方向ではなく, 一方向の通信
   * 録画配信: ビデオ会議やライブ配信を録画しておいて, 録画されたビデオをGoogle DriveやYouTubeを使って配信
 
-* 使うためには, Googleの, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">G Suite for Education (本学では「ECCSクラウドメール」と呼ばれている)</a>を有効にする必要があります(一度だけの作業. オンラインで完結します).
-  * 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
 * 必要なツール
   * PC+通常のWWWブラウザだけあれば開催・参加できます
   * 一台のPCを同じ部屋の複数人で共有したり, 講義室で登壇する人の姿を写したりする場合など, PCと参加者の距離が遠い場合, 外付けのUSBカメラや高感度マイクを接続することを推奨します
   * スマートフォン用には専用のアプリもあります(開催にはPCを推奨)
   * どこにいても(学内・学外問わず)開催・参加可能です
-* ハングアウト Meetに関する<a href="https://support.google.com/meet/#topic=7306097" target="_blank">ヘルプ
 
 ## ビデオ会議編
 
