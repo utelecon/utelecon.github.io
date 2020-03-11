@@ -1,4 +1,4 @@
-# ビデオ会議 ZOOM の使い方
+# ビデオ会議 webex の使い方
 
 [リンク](https://gsuite.google.co.jp/intl/ja/products/meet/){:target="_blank"}
 
