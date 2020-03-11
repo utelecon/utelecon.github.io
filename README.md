@@ -16,7 +16,10 @@ https://utelecon.github.io/
 * 経験上, commit/push してからサイトに反映されるまで長いと数十秒かかる
 * markdown中には普通のhtmlも書けるのでmarkdownで書きにくいものはhtmlを書けば良い
 * markdown記法 https://qiita.com/tbpgr/items/989c6badefff69377da7
-* markdown記法 https://qiita.com/t_wkm2/items/372fd1c851c4d221b1f3
+  * \[タイトル\](url)\{:target="_blank"\} リンク（Jekyll の機能で{}で属性を渡せそう．残念ながらリスト内では属性を渡せない）
+  * \!\[タイトル\](url)\{:width="200px"\} 画像（{}で width の指定をできることは確認済み．おそらくこれもリスト内では属性を渡せなさそう）
+  * 他の参考サイト https://qiita.com/t_wkm2/items/372fd1c851c4d221b1f3
+* ページトップに --- （改行） title: ZOOM （改行） --- などと入力することで，ページに関するメタ情報を入力できる
 
 ```
 git clone git@github.com:utelecon/utelecon.github.io.git
@@ -24,11 +27,6 @@ git clone git@github.com:utelecon/utelecon.github.io.git
 git commit -m "add introduction" -a
 git push
 ```
-
-## Markdown チートシート
-* \[タイトル\](url)\{:target="_blank"\} リンク（Jekyll の機能で{}で属性を渡せそう．残念ながらリスト内では属性を渡せない）
-* \!\[タイトル\](url)\{:width="200px"\} 画像（{}で width の指定をできることは確認済み．おそらくこれもリスト内では属性を渡せなさそう）
-
 
 ## 気になっていること
 * 今のままだと README.md が見えてしまうから docs フォルダ内を公開というような設定を今後したい
