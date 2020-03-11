@@ -29,5 +29,5 @@ git push
 
 * 節番号とか自動的にふれないの?
 * 目次とか生成できないの?
-* トップページへのリンクとか全ページに出したい → 
+* トップページへのリンクとか全ページに出したい → /_layouts/default.html を追加しました（https://github.com/pages-themes/cayman/blob/master/_layouts/default.html からひっぱってきました）．これをいじればヘッダーなど共通して修正できそうです．このファイルが default でテンプレートになるみたいです．これがない場合は github pages が勝手に補完してくれるみたいです．
 * リンクを別タブで開くようにしたい. htmlなら <a href="xxxx.html" target="_blank"> ... </a> とするやつ → [タイトル](url){:target="_blank"} の記法で行けそうです
