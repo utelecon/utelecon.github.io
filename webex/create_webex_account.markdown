@@ -18,7 +18,7 @@
 　　![ログイン画面](img/webex_login.PNG){:width="500px"}
 
 * ログインができると下記のようなホーム画面に入れます．
-
+　　　
 　　![WebExのホーム画面](img/webex_toppage.PNG){:width="700px"}
 
 <br>
