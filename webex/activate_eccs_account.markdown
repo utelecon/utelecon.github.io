@@ -5,8 +5,9 @@
   * 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を要する場合があります.
   
   
-
-* <a href="index" target="_blank">WebExの使い方ページに戻る<a/>  
+<br>
+<br>
+<a href="index" target="_blank">WebExの使い方ページに戻る<a/>  
 
   
   
