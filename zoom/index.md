@@ -1,5 +1,5 @@
 ---
-title: ZOOM の使い方
+title: ZOOM
 ---
 
 ## はじめに
@@ -16,7 +16,7 @@ title: ZOOM の使い方
 * <a href="create_room" target="_blank">会議室の作り方と周知の仕方（開催者用）<a/>  
 * <a href="join" target="_blank">会議室の入り方<a/>  
 * ZOOM の使い方
-  * <a href="how_to_use" target="_blank">開催者・参加者共通の使い方<a/>TODO  
+  * <a href="how_to_use" target="_blank">開催者・参加者共通の使い方<a/>  
   * <a href="how_to_use_host" target="_blank">開催者特有の使い方<a/>TODO  
   * <a href="how_to_use_classroom" target="_blank">授業での使い方<a/>TODO  
 
