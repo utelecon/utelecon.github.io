@@ -32,10 +32,10 @@ title: Web会議 WebEx の使い方
   * PC，タブレット，スマートフォンなど接続用デバイスを用意します．
     * マイクやカメラが内蔵されていない場合はそれらも用意します．
     * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します
-  * ECCSクラウドメールを有効化します．具体的な方法は<a href="activate_eccs_account" target="_blank">こちら</a>）
+  * ECCSクラウドメールを有効化します．(具体的な方法は<a href="activate_eccs_account" target="_blank">こちら</a>）
   * Web ブラウザ（Chrome，Firefoxなど）を用意します．
-  * WebExアカウントを作成し，ログインします．具体的な方法は<a href="create_webex_account" target="_blank">こちら</a>）
-  * 会議室を設定します．具体的な方法は<a href="create_meeting" target="_blank">こちら</a>）
+  * WebExアカウントを作成し，ログインします．(具体的な方法は<a href="create_webex_account" target="_blank">こちら</a>）
+  * 会議室を設定します．(具体的な方法は<a href="create_meeting" target="_blank">こちら</a>）
   * 会議室を開き，会議を開催します．
   
 * 参加者
@@ -43,7 +43,7 @@ title: Web会議 WebEx の使い方
     * マイクやカメラが内蔵されていない場合はそれらも用意します．
     * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します，
   * Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールします．
-  * 主催者より送られた会議室ID等を用いて，会議室へ参加します．
+  * 主催者より送られた会議室ID等を用いて，会議室へ参加します．(具体的な方法は<a href="join_meeting" target="_blank">こちら</a>）
 　
 
 
