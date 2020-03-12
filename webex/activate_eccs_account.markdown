@@ -4,3 +4,9 @@
   * 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
   * 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を要する場合があります.
   
+  
+
+* <a href="index" target="_blank">WebExの使い方ページに戻る<a/>  
+
+  
+  
