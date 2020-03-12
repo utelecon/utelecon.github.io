@@ -2,27 +2,23 @@
 title: ZOOM の使い方
 ---
 
-{{ page.title }}
-
 ## はじめに
 
 * ここでは Web会議ツール ZOOM の特徴や利用の流れについて説明します．また，具体的な使い方が載ったサブページもあるため，適宜そちらをご参照ください．
 * 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで ZOOM を使えます
 * 2020年3月11日現在，2020年4月30日までは 本学のドメイン（xxxx@xxx.u-tokyo.ac.jp）のメールアドレスで作成した ZOOM の無料アカウントを用いることで時間無制限で利用できます（通常は連続利用40分の制限あり）
+* 以下の画像は会議の様子です．画像では参加者のビデオをオフにしていますが，オンにすると「Member1」などの文字からそれぞれのカメラ映像が見えるようになります．
+  ![](img/zoom_main_people.png) TODO
 
 
-## サブページ一覧（TODO）
-* <a href="" target="_blank">アカウントの作り方（開催者用）<a/>  
-* <a href="" target="_blank">会議室の作り方と周知の仕方（開催者用）<a/>  
-* <a href="" target="_blank">会議室の入り方<a/>  
+## サブページ一覧
+* <a href="create_account" target="_blank">アカウントの作り方（開催者用）<a/>  
+* <a href="create_room" target="_blank">会議室の作り方と周知の仕方（開催者用）<a/>  
+* <a href="join" target="_blank">会議室の入り方<a/>  
 * ZOOM の使い方
-  * <a href="" target="_blank">開催者・参加者共通の使い方<a/>  
-  * <a href="" target="_blank">開催者特有の使い方<a/>  
-  * <a href="" target="_blank">授業での使い方<a/>  
-
-
-## 特徴（TODO あとで）（画面提示+主な機能紹介）
-* 参加者はアカウントを作らなくても参加可能（開催者はアカウントを作る必要あり．また，開催者および参加者双方ソフトウェアをインストールする必要あり）
+  * <a href="how_to_use" target="_blank">開催者・参加者共通の使い方<a/>TODO  
+  * <a href="how_to_use_host" target="_blank">開催者特有の使い方<a/>TODO  
+  * <a href="how_to_use_classroom" target="_blank">授業での使い方<a/>TODO  
 
 
 ## 利用の流れ
