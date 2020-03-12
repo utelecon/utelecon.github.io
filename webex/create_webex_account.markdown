@@ -19,3 +19,7 @@
 * ログインができると下記のようなホーム画面に入れます．
 
 　　![WebExのホーム画面](img/webex_toppage.PNG){:width="700px"}
+
+<br>
+<br>
+<a href="index" target="_blank">WebExの使い方ページに戻る<a/>  
