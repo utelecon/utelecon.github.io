@@ -14,8 +14,9 @@ title: Web会議 WebEx の使い方
 * <a href="create_webex_account" target="_blank">WebExアカウントの作り方（開催者）<a/>  
 * <a href="create_meeting" target="_blank">会議室の作り方と周知の仕方（開催者）<a/> 
 * <a href="open_meeting" target="_blank">会議の始め方（開催者）<a/> 
-* <a href="join_meeting" target="_blank">会議室の入り方（参加者）<a/>  
-* <a href="on_meeting" target="_blank">会議中の使い方<a/>  
+* <a href="join_meeting" target="_blank">会議室の入り方（参加者）<a/> 
+* <a href="do_meeting_participant" target="_blank">会議室でできること（参加者）<a/> 
+* <a href="do_meeting_owner" target="_blank">会議室でできること（開催者）<a/> 
 
 
 ## 特徴（TODO あとで）
@@ -34,12 +35,13 @@ title: Web会議 WebEx の使い方
   * Web ブラウザ（Chrome，Firefoxなど）を用意します．
   * WebExアカウントを作成し，ログインします．(具体的な方法は<a href="create_webex_account" target="_blank">こちら</a>）
   * 会議室を設定します．(具体的な方法は<a href="create_meeting" target="_blank">こちら</a>）
-  * 会議室を開き，会議を開催します．
+  * 会議室を開き(具体的な方法は<a href="open_meeting" target="_blank">こちら</a>），会議室に入ります(具体的な方法は<a href="join_meeting" target="_blank">こちら</a>）.
+  * 会議を行います(具体的な方法は<a href="do_meeting_owner" target="_blank">こちら</a>）．
   
 ### 参加者
   * PC，タブレット，スマートフォンなど接続用デバイスを用意します．
     * マイクやカメラが内蔵されていない場合はそれらも用意します．
     * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します，
   * Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールします．
-  * 主催者より送られた会議室ID等を用いて，会議室へ参加します．(具体的な方法は<a href="join_meeting" target="_blank">こちら</a>）
+  * 主催者より送られた会議室ID等を用いて，会議室へ入り(具体的な方法は<a href="join_meeting" target="_blank">こちら</a>），会議に参加します会議を行います(具体的な方法は<a href="do_meeting_participant" target="_blank">こちら</a>）．
 　
