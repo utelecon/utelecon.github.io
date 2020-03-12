@@ -1,5 +1,6 @@
 ---
 title: ZOOM アカウントの作り方
+layout: zoom
 ---
 
 ここでは，ZOOM アカウントの作り方を説明します．  

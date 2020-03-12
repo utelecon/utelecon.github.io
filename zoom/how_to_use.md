@@ -1,7 +1,7 @@
 ---
 title: ZOOM の使い方
+layout: zoom
 ---
-<a href="https://utelecon.github.io/zoom/">ZOOM</a> > {{page.title}}  
 
 
 ここでは，ZOOM の会議室の具体的な使い方を説明します（今後，動画でも使い方を紹介する予定です）．  

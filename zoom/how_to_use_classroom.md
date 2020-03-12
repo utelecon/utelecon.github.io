@@ -1,8 +1,7 @@
 ---
 title: ZOOM の使い方（授業編）
+layout: zoom
 ---
-<a href="https://utelecon.github.io/zoom/">ZOOM</a> > {{page.title}}  
-
 
 授業での利用の流れを例を用いて具体的に説明します（あくまでも例であり，これが公式な方法というわけではないことご了承ください）．  
 基本的な使い方については<a href="how_to_use" target="_blank">こちら</a>をご覧ください． 

@@ -1,7 +1,7 @@
 ---
 title: ZOOM の使い方（開催者用）
+layout: zoom
 ---
-<a href="https://utelecon.github.io/zoom/">ZOOM</a> > {{page.title}}  
 
 
 ここでは，開催者特有の ZOOM の使い方を説明します．  
