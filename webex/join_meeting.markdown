@@ -10,6 +10,10 @@
 
 　 ![名前の入力画面](img/webex_userlogin.PNG){:width="500px"}
 
+* 次にWebExがスピーカーやカメラの使用許可をもとめてきますので「許可」をおして次に進みます．
+
+　 ![AVの使用許可](img/webex_avcheck.PNG){:width="500px"}
+
   
 ### プレビュー画面
   
