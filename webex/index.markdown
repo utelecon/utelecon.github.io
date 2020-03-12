@@ -12,10 +12,10 @@ title: Web会議 WebEx の使い方
 ## サブページ一覧
 * <a href="activate_eccs_account" target="_blank">ECCSクラウドメールの有効化<a/>  
 * <a href="create_webex_account" target="_blank">WebExアカウントの作り方<a/>  
-* <a href="set_meeting" target="_blank">会議室の作り方と周知の仕方<a/>  
-* <a href="" target="_blank">会議室の入り方<a/>  
-* ZOOM の使い方
-  * <a href="" target="_blank">開催者・参加者共通の使い方<a/>  
+* <a href="create_meeting" target="_blank">会議室の作り方と周知の仕方<a/> 
+* <a href="open_meeting" target="_blank">会議の始め方<a/> 
+* <a href="join_meeting" target="_blank">会議室の入り方<a/>  
+* WebEx の使い方
   * <a href="" target="_blank">開催者特有の使い方<a/>  
   * <a href="" target="_blank">授業での使い方<a/>  
 
