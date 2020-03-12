@@ -7,31 +7,31 @@ title: WebEx アカウントの作成とログイン
 * <a href="activate_eccs_account" target="_blank">ECCSクラウドメールが有効化</a>されたら, <a href="https://apj27.webex.com/mw3300/mywebex/forgotpwd.do?siteurl=apj27-jp" target="_blank">パスワード設定のページ</a>（下図）にいき，パスワード設定手続きを行います．このときメールアドレスは、たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.（画面が「ユーザ名またはパスワードを忘れた」となっており違和感を感じられるかと思いますが，プロセスは正しいので気ににせず手続きを進めてください．）「送信」を押すとECCSクラウドメールにパスワード再設定のためのメールが送られます．
  * **注意：共通IDの部分変更後のアドレスは認識されません．もとの10桁の共通IDではじまるメールアドレスをいれる点ご注意ください．**
 
-　　![パスワード変更手続き画面](img/webex_pw_change.PNG){:width="200px"}
+　　![パスワード変更手続き画面](img/webex_pw_change.PNG){:width="350px"}
 
 <br>
 
 * ECCSクラウドメール（10桁の共通IDにg.ecc.u-tokyo.ac.jpがついたもの，もしくはこの10桁の部分を任意に変更されたアドレス）に，**Webex アカウント情報のリクエスト**という件名のメールが届きます．そこにあるパスワード変更のリンク先は下記のような画面です．ここで，パスワードを設定します．
  * 10桁の共通ID部分を変更していても，その変更後のアドレスにメールは届きます．
 
-　　![パスワード設定画面](img/webex_pw_setting.PNG){:width="200px"}
+　　![パスワード設定画面](img/webex_pw_setting.PNG){:width="350px"}
 
 <br>
 
 * パスワード変更では，任意のパスワードを設定します．パスワードの設定条件をクリアできると「無事設定できました」という画面に変わります．この画面右下にある「ログイン」ボタンをおして，ログイン画面に進みます．
 
-　　![この画面がでたら成功です](img/webex_pw_success.PNG){:width="300px"}
+　　![この画面がでたら成功です](img/webex_pw_success.PNG){:width="400px"}
 
 ## WebExへログインする
 * ログイン画面では，ユーザー名とパスワードを入力します．ユーザー名は，パスワード変更手続きのメールに記載してありますが．"UTokyoxxxx(10桁ID）"というUTokyoに10桁の数字が続く形式のものです．パスワードは先程のプロセスで設定したパスワードを入力します．
 
-　　![ログイン画面](img/webex_login.PNG){:width="200px"}
+　　![ログイン画面](img/webex_login.PNG){:width="350px"}
 
 <br>
 
 * ログインができると下記のようなホーム画面に入れます．
 　　　
-　　![WebExのホーム画面](img/webex_toppage.PNG){:width="200px"}
+　　![WebExのホーム画面](img/webex_toppage.PNG){:width="350px"}
 
 <br>
 
