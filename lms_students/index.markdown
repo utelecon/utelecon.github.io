@@ -11,20 +11,25 @@ title: 学習管理システム ITC-LMS の使い方（学生向け）
 ## ITC-LMS にログインする
 
 1.<a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">https://itc-lms.ecc.u-tokyo.ac.jp/login</a> にブラウザでアクセスし，`ログイン`ボタンを押してください．
-　![LMSログイン画面](img/login.png)
+
+![LMSログイン画面](img/login.png)
 
 2.以下の画面が表示されたら, 共通ID（学生証右下にある18桁の数字の下10桁）とパスワードを入力し, `サインイン`ボタンを押してください.
-　![UTokyo Accountログイン画面](img/UTAC.png)
+
+![UTokyo Accountログイン画面](img/UTAC.png)
 
 ## お知らせの通知先を設定する
 
 1.ITC-LMSにログインすると時間割の画面が表示されます．右上の`Settings`ボタンを押してください.
-　![時間割](img/schedule.png)
+
+![時間割](img/schedule.png)
 
 2.以下のような設定画面が表示され，LINEやメールで ITC-LMS の通知を受け取るための設定を行うことができます．以下，各項目の説明を行います．
-　![設定画面](img/settings.png)
+
+![設定画面](img/settings.png)
 
 3.お知らせをメールで受け取る場合，この画面で`転送先メールアドレス`を設定します．学務システム UTAS に登録された連絡先（`[E-Mail1]`）を通知先に使いたい場合には，`連絡メールアドレス`を指定してください．それ以外のアドレスを使いたい場合には，`手動登録メールアドレス`を指定し，直下のボックス（以下の図では表示されていない）にメールアドレスを入力してください．
-　![メールアドレスの設定](img/mail_address.png)
+
+![メールアドレスの設定](img/mail_address.png)
 
 ## ITC-LMS のマニュアル（to do）
