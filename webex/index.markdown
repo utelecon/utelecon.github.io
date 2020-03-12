@@ -10,9 +10,9 @@ title: Web会議 WebEx の使い方
 * 参考：[90days cisco WebExについてのお知らせ](https://www.u-tokyo.ac.jp/adm/dics/ja/90dayswebex.html)
 
 ## サブページ一覧
-* <a href="create_eccs_account" target="_blank">ECCSクラウドメールの有効化<a/>  
-* <a href="" target="_blank">WebExアカウントの作り方<a/>  
-* <a href="" target="_blank">会議室の作り方と周知の仕方（開催者用）<a/>  
+* <a href="activate_eccs_account" target="_blank">ECCSクラウドメールの有効化<a/>  
+* <a href="create_webex_account" target="_blank">WebExアカウントの作り方<a/>  
+* <a href="set_meeting" target="_blank">会議室の作り方と周知の仕方<a/>  
 * <a href="" target="_blank">会議室の入り方<a/>  
 * ZOOM の使い方
   * <a href="" target="_blank">開催者・参加者共通の使い方<a/>  
@@ -34,8 +34,8 @@ title: Web会議 WebEx の使い方
     * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します
   * ECCSクラウドメールを有効化します．具体的な方法は<a href="activate_eccs_account" target="_blank">こちら</a>）
   * Web ブラウザ（Chrome，Firefoxなど）を用意します．
-  * WebExへログインし，会議室を作成します．具体的な方法は<a href="create_webex_account" target="_blank">こちら</a>）
-  * 会議室の情報を周知します．
+  * WebExアカウントを作成し，ログインします．具体的な方法は<a href="create_webex_account" target="_blank">こちら</a>）
+  * 会議室を設定します．具体的な方法は<a href="set_meeting" target="_blank">こちら</a>）
   * 会議室を開き，会議を開催します．
   
 * 参加者
@@ -45,30 +45,8 @@ title: Web会議 WebEx の使い方
   * Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールします．
   * 主催者より送られた会議室ID等を用いて，会議室へ参加します．
 　
-## WebExへログインする  
-* ECCSクラウドメールが有効化されたら, <a href="https://apj27.webex.com/mw3300/mywebex/forgotpwd.do?siteurl=apj27-jpWebEx" target="_blank">パスワード設定のページ</a>（下図）にいき，パスワード設定手続きを行います．このときメールアドレスは、たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.（画面が「ユーザ名またはパスワードを忘れた」となっており違和感を感じられるかと思いますが，プロセスは正しいので気ににせず手続きを進めてください．）「送信」を押すとECCSクラウドメールにメールが送られます．**注意：共通IDの部分を変更されている人はもとの10桁の共通IDではじまるメールアドレスをいれる点ご注意ください．**
 
-　　![パスワード変更手続き画面](img/webex_pw_change.PNG){:width="500px"}
 
-* Googleメールアドレス（10桁の共通IDにg.ecc.u-tokyo.ac.jpがついたもの，もしくはこの10桁の部分を任意に変更されたアドレス）に，**Webex アカウント情報のリクエスト**というメールが届きます．そこにあるパスワード変更のリンク先にいくと下記のような画面になりますのでここで，パスワードを設定します．
-
-　　![パスワード設定画面](img/webex_pw_setting.PNG){:width="500px"}
-
-* パスワード変更では，任意のパスワードを設定します．パスワードの設定条件をクリアできると「無事設定できました」という画面に変わります．この画面右下にある「ログイン」ボタンをおして，ログイン画面に進みます．
-
-　　![この画面がでたら成功です](img/webex_pw_success.PNG){:width="500px"}
-
-## WebExへのログインする
-
-### ここではまず，WebExの利用方法のうちブラウザによるログインと会議設定の方法を説明しています.
-
-* ログイン画面では，ユーザー名とパスワードを入力します．ユーザー名は，パスワード変更手続きのメールに記載してありますが．"UTOKYOxxxx(10桁ID）"というUTokyoに10桁の数字が続く形式のものです．パスワードは上記で設定したパスワードを入力します．
-
-　　![ログイン画面](img/webex_login.PNG){:width="500px"}
-
-* ログインができると下記のようなホーム画面に入れます．
-
-　　![WebExのホーム画面](img/webex_toppage.PNG){:width="700px"}
 
 ## 会議室を作成する
 * 会議をスケジュールするには，ホーム画面の「スケジュールする」ボタンを押して，各種設定を行います．
