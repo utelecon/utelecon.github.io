@@ -23,7 +23,7 @@ Web会議サービス
 (書ける範囲で)
 
 * ITC-LMS
-  * <a href="lms-students/">学生向け</a>
+  * <a href="lms_students/">学生向け</a>
   * 教員向け
 * 多人数会議運営上のtips
   * 全ミュート
