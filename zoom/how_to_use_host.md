@@ -1,12 +1,14 @@
 ---
 title: ZOOM の使い方（開催者用）
 ---
+<a href="https://utelecon.github.io/zoom/">ZOOM</a> > {{page.title}}  
+
 
 ここでは，開催者特有の ZOOM の使い方を説明します．  
 基本的な使い方については<a href="how_to_use" target="_blank">こちら</a>をご覧ください．  
 
 ## 開催者特有のメニュー項目の表示方法
-
+  TODO  
 
 ## 参加者の管理
 
