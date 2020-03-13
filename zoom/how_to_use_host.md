@@ -1,6 +1,5 @@
 ---
 title: ZOOM の使い方（開催者用）
-layout: zoom
 ---
 
 
