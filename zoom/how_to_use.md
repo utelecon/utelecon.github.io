@@ -1,6 +1,5 @@
 ---
 title: ZOOM の使い方
-layout: zoom
 ---
 
 
