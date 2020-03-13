@@ -27,7 +27,7 @@ Web会議サービス
 
 * ITC-LMS
   * <a href="lms_students/">学生向け</a>
-  * 教員向け
+  * <a href="lms_teachers/">教員向け</a>
 * 多人数会議運営上のtips
   * 全ミュート
 * 動画配信授業(録画形式)
