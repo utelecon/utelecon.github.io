@@ -1,5 +1,5 @@
 ---
-title: ZOOM 会議室の入り方
+title: Zoom 会議室の入り方
 ---
 
 ここでは，会議室への入り方を説明します．  
@@ -9,7 +9,7 @@ URL（https://zoom.us/j/xxxxxxxxxx xは数字）を使って入る方法と ID�
 
 ## URL を使って入る
 * 会議室の URL（https://zoom.us/j/xxxxxxxxxx xは数字）にアクセスします
-* Web ブラウザー上で「Zoom Meetings を開く」を押します（ZOOM がインストールされてない場合は，その画面からダウンロード可能であるため，そのままダウンロードして ZOOM をインストールします）  
+* Web ブラウザー上で「Zoom Meetings を開く」を押します（Zoom がインストールされてない場合は，その画面からダウンロード可能であるため，そのままダウンロードして Zoom をインストールします）  
   ![](img/zoom_join_pc_url_browser.png) 
     
 * （名前を設定していない場合）名前の設定をします  
@@ -26,7 +26,7 @@ URL（https://zoom.us/j/xxxxxxxxxx xは数字）を使って入る方法と ID�
 
 
 ## ID を使って入る
-* ZOOM を起動します
+* Zoom を起動します
 * 「ミーティングに参加」を押します  
   ![](img/zoom_join_pc_id_top.png)
   
