@@ -5,7 +5,7 @@ title: Zoom アカウントの作り方（開催者用）
 ここでは，東京大学のアカウントを用いた Zoom アカウントの作り方を説明します（参加者はアカウントがなくても会議に参加できるため基本的に作成の必要はありません）．  
 
 ## 事前準備
-* ECCS クラウドメールにアクセスできるようにしておいてください（具体的な方法は<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/04/01_2159.html" target="_blank">こちら</a>）
+* ECCS クラウドメールを利用できるようにしておいてください（具体的な方法は<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/04/01_2159.html" target="_blank">こちら</a>）
 
 ## アカウントの作り方
 
