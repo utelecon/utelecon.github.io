@@ -5,11 +5,12 @@ title: Zoom アカウントの作り方（開催者用）
 ここでは，東京大学のアカウントを用いた Zoom アカウントの作り方を説明します（参加者はアカウントがなくても会議に参加できるため基本的に作成の必要はありません）．  
 
 ## 事前準備
-* ECCS クラウドメールを利用できるようにしておいてください（具体的な方法は<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/04/01_2159.html" target="_blank">こちら</a>）
+ECCS クラウドメールを利用できるようにしておいてください（具体的な方法は<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/04/01_2159.html" target="_blank">こちら</a>）
+  * ECCS クラウドメールとは UTokyo Account を持っている人が使える Gmail 仕様のメールサービスです
 
 ## アカウントの作り方
 
-1. ECCSクラウドメールに以下の画像のようにZoomからの招待メールが届きます
+1. 2020年3月16日（予定）に**UTokyo Account 保持者全員に**以下の画像のようなZoomからの招待メールがECCSクラウドメールに届きます
   ![](img/zoom_account_email.png)  
 
 
