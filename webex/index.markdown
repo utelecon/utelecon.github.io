@@ -44,4 +44,7 @@ title: Web会議 WebEx の使い方
     * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します，
   * Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールします．
   * 主催者より送られた会議室ID等を用いて，会議室へ入り(具体的な方法は<a href="join_meeting" target="_blank">こちら</a>），会議に参加します会議を行います(具体的な方法は<a href="do_meeting_participant" target="_blank">こちら</a>）．
-　
+
+## 授業の例
+* 授業例は<a href="browse_samples" target="_blank">こちら</a>
+  
