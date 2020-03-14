@@ -10,7 +10,7 @@ ECCS クラウドメール（xxxx@g.ecc.u-tokyo.ac.jp）を利用できるよう
 
 ## アカウントの作り方
 
-1. 2020年3月16日（予定）に**UTokyo Account 保持者全員を対象として**以下の画像のような招待メールがZoomからECCSクラウドメールに届きます
+1. 2020年3月16日（予定）に**UTokyo Account 保持者を対象として**以下の画像のような招待メールがZoomからECCSクラウドメールに届きます
   ![](img/zoom_account_email.png)  
 
 
