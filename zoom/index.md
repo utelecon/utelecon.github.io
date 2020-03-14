@@ -15,7 +15,7 @@ title: ZOOM
 
 ## サブページ一覧
 * <a href="create_account" target="_blank">アカウントの作り方（開催者用）<a/>  
-* <a href="create_room" target="_blank">会議室の作り方と周知の仕方（開催者用）<a/>  
+* <a href="create_room" target="_blank">会議室の作り方（開催者用）<a/>  
 * <a href="join" target="_blank">会議室の入り方<a/>  
 * ZOOM の使い方
   * <a href="how_to_use" target="_blank">開催者・参加者共通の使い方<a/>  
