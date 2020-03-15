@@ -14,7 +14,7 @@ title: Zoom
 
 
 ## サブページ一覧
-* <a href="install" target="_blank">イントールの方法（開催者用）<a/>  
+* <a href="install" target="_blank">インストールの方法<a/>  
 * <a href="create_account" target="_blank">アカウントの作り方（開催者用）<a/>  
 * <a href="create_room" target="_blank">会議室の作り方（開催者用）<a/>  
 * <a href="join" target="_blank">会議室の入り方<a/>  
