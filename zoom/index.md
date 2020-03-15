@@ -14,6 +14,7 @@ title: Zoom
 
 
 ## サブページ一覧
+* <a href="install" target="_blank">イントールの方法（開催者用）<a/>  
 * <a href="create_account" target="_blank">アカウントの作り方（開催者用）<a/>  
 * <a href="create_room" target="_blank">会議室の作り方（開催者用）<a/>  
 * <a href="join" target="_blank">会議室の入り方<a/>  
@@ -30,19 +31,19 @@ title: Zoom
     * マイクやカメラがデバイスに内蔵されていない場合はそれらも用意します
     * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します  
 	  
-  * Zoom ソフトウェアを接続用デバイスへインストールします
-    * <a href="https://zoom.us/download" target="_blank">ダウンロードページ</a>へ移動して，ミーティング用Zoomクライアントをダウンロードして Zoom をインストールしてください
   
 * 開催者
-  * アカウントを作成します（具体的な方法は<a href="create_account" target="_blank">こちら</a>）
-  * 会議室を作成して，会議室の情報（URLなど）を周知します（具体的な方法は<a href="create_room" target="_blank">こちら</a>）
-  * 会議室へ入ります（具体的な方法は<a href="join" target="_blank">こちら</a>）
-  * ミーティングを行います
+  1. Zoom をインストールします（具体的な方法は<a href="install" target="_blank">こちら</a>）  
+  1. アカウントを作成します（具体的な方法は<a href="create_account" target="_blank">こちら</a>）
+  1. 会議室を作成して，会議室の情報（URLなど）を周知します（具体的な方法は<a href="create_room" target="_blank">こちら</a>）
+  1. 会議室へ入ります（具体的な方法は<a href="join" target="_blank">こちら</a>）
+  1. ミーティングを行います
     * 開催者・参加者共通の使い方は<a href="how_to_use" target="_blank">こちら</a>
 	* 開催者特有の使い方は<a href="how_to_use_host" target="_blank">こちら</a>
 	* 授業での使い方は<a href="how_to_use_classroom" target="_blank">こちら</a>
   
 * 参加者
-  * 会議室の情報（URLなど）をメールなどを用いて開催者から得ます
-  * 会議室へ入ります（具体的な方法は<a href="join" target="_blank">こちら</a>）
-  * ミーティングを行います（具体的なZoomの使い方は<a href="how_to_use" target="_blank">こちら</a>）
+  1. Zoom をインストールします（具体的な方法は<a href="install" target="_blank">こちら</a>）  
+  1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます
+  1. 会議室へ入ります（具体的な方法は<a href="join" target="_blank">こちら</a>）
+  1. ミーティングを行います（具体的なZoomの使い方は<a href="how_to_use" target="_blank">こちら</a>）
