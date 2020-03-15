@@ -9,19 +9,16 @@ title: Zoom
 * 参加するだけあればアカウントを作る必要はありません
 * 2020年4月30日までは ECCS クラウドメール（xxxx@g.ecc.u-tokyo.ac.jp）のメールアドレスで作成した Zoom アカウントを用いることで最大参加人数500名で時間無制限の会議室を使えるようになります（2020年3月16日に利用可能になる予定）
 
-<!-- * 以下の画像は会議の様子です．画像では参加者のビデオをオフにしていますが，オンにすると「Member1」などの文字からそれぞれのカメラ映像が見えるようになります．  
-  ![](img/zoom_main_people.png) TODO -->
-
 
 ## サブページ一覧
-* <a href="install" target="_blank">インストールの方法<a/>  
-* <a href="create_account" target="_blank">アカウントの作り方（開催者用）<a/>  
-* <a href="create_room" target="_blank">会議室の作り方（開催者用）<a/>  
-* <a href="join" target="_blank">会議室の入り方<a/>  
+* <a href="install" target="">インストールの方法<a/>  
+* <a href="create_account" target="">アカウントの作り方（開催者用）<a/>  
+* <a href="create_room" target="">会議室の作り方（開催者用）<a/>  
+* <a href="join" target="">会議室の入り方<a/>  
 * Zoom の使い方
-  * <a href="how_to_use" target="_blank">開催者・参加者共通の使い方<a/>  
-  * <a href="how_to_use_host" target="_blank">開催者特有の使い方<a/>  
-  * <a href="how_to_use_classroom" target="_blank">授業での使い方<a/>  
+  * <a href="how_to_use" target="">開催者・参加者共通の使い方<a/>  
+  * <a href="how_to_use_host" target="">開催者特有の使い方<a/>  
+  * <a href="how_to_use_classroom" target="">授業での使い方<a/>  
 
 
 ## 利用の流れ
@@ -33,17 +30,17 @@ title: Zoom
 	  
   
 * 開催者
-  1. Zoom をインストールします（具体的な方法は<a href="install" target="_blank">こちら</a>）  
-  1. アカウントを作成します（具体的な方法は<a href="create_account" target="_blank">こちら</a>）
-  1. 会議室を作成して，会議室の情報（URLなど）を周知します（具体的な方法は<a href="create_room" target="_blank">こちら</a>）
-  1. 会議室へ入ります（具体的な方法は<a href="join" target="_blank">こちら</a>）
+  1. Zoom をインストールします（具体的な方法は<a href="install" target="">こちら</a>）  
+  1. アカウントを作成します（具体的な方法は<a href="create_account" target="">こちら</a>）
+  1. 会議室を作成して，会議室の情報（URLなど）を周知します（具体的な方法は<a href="create_room" target="">こちら</a>）
+  1. 会議室へ入ります（具体的な方法は<a href="join" target="">こちら</a>）
   1. ミーティングを行います
-    * 開催者・参加者共通の使い方は<a href="how_to_use" target="_blank">こちら</a>
-	* 開催者特有の使い方は<a href="how_to_use_host" target="_blank">こちら</a>
-	* 授業での使い方は<a href="how_to_use_classroom" target="_blank">こちら</a>
+    * 開催者・参加者共通の使い方は<a href="how_to_use" target="">こちら</a>
+	* 開催者特有の使い方は<a href="how_to_use_host" target="">こちら</a>
+	* 授業での使い方は<a href="how_to_use_classroom" target="">こちら</a>
   
 * 参加者
-  1. Zoom をインストールします（具体的な方法は<a href="install" target="_blank">こちら</a>）  
+  1. Zoom をインストールします（具体的な方法は<a href="install" target="">こちら</a>）  
   1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます
-  1. 会議室へ入ります（具体的な方法は<a href="join" target="_blank">こちら</a>）
-  1. ミーティングを行います（具体的なZoomの使い方は<a href="how_to_use" target="_blank">こちら</a>）
+  1. 会議室へ入ります（具体的な方法は<a href="join" target="">こちら</a>）
+  1. ミーティングを行います（具体的なZoomの使い方は<a href="how_to_use" target="">こちら</a>）
