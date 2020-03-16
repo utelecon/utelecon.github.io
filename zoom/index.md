@@ -18,7 +18,12 @@ title: Zoom
 * Zoom の使い方
   * <a href="how_to_use" target="">開催者・参加者共通の使い方<a/>  
   * <a href="how_to_use_host" target="">開催者特有の使い方<a/>  
-  * <a href="how_to_use_classroom" target="">授業での使い方<a/>  
+* 授業での使い方  
+  * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）<a/>  
+  * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）<a/>  
+  * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）<a/>  
+  * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）<a/>  
+  * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）<a/>  
 
 
 ## 利用の流れ
@@ -37,7 +42,12 @@ title: Zoom
   1. ミーティングを行います
     * 開催者・参加者共通の使い方は<a href="how_to_use" target="">こちら</a>
 	* 開催者特有の使い方は<a href="how_to_use_host" target="">こちら</a>
-	* 授業での使い方は<a href="how_to_use_classroom" target="">こちら</a>
+	* 授業での使い方は以下の通り
+      * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）<a/>  
+      * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）<a/>  
+      * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）<a/>  
+      * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）<a/>  
+      * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）<a/>  
   
 * 参加者
   1. Zoom をインストールします（具体的な方法は<a href="install" target="">こちら</a>）  
