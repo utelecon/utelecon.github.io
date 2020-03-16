@@ -10,9 +10,9 @@ title: オンライン授業, Web会議 ポータルサイト @ 東京大学
 What's New (<font color="blue">青字</font>は掲載日. 最近のものが上)
 ---------------------------
 
- * <font color="blue">3/17</font> : 全教職員 <a href="zoom/">Zoom Proが利用可能</a>になりました.
- * <font color="blue">3/16</font> : 「授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会」の<a href="events/2020-03-13/online_lecture.pdf">スライド</a>を更新しています.
- * <font color="blue">2020/3/11</font> : サイト開設
+ * <font color="blue">3/17</font> 全教職員 <a href="zoom/">Zoom Proが利用可能</a>になりました.
+ * <font color="blue">3/16</font> 「授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会」の<a href="events/2020-03-13/online_lecture.pdf">スライド</a>を更新しています.
+ * <font color="blue">2020/3/11</font> サイト開設
 
 Web会議サービス
 ---------------------------
