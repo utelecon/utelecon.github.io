@@ -75,6 +75,7 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
  <a href="img/recover_2.png"><img src="img/recover_2.png" width=300></a>
 <br />
 「サインアウト」をクリックする.
+<br />
    1. 再び[Zoomホームページ](https://zoom.us/) へ行くと今度は以下のように「サインイン」ボタンが現れる
 <br />
  <a href="img/recover_3.png"><img src="img/recover_3.png" width=300></a>
@@ -84,6 +85,7 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
  <a href="img/recover_4.png"><img src="img/recover_4.png" width=300></a>
 <br />
 <font color="red">「パスワードをお忘れですか」</font>へ進む(ここがポイント).
+<br />
    1. 以下のメールアドレスの窓に,
 <br />
      <a href="img/recover_5.png"><img src="img/recover_5.png" width=300></a>
