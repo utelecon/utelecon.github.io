@@ -35,6 +35,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * ITC-LMS
   * <a href="lms_students/">学生向け</a>
   * <a href="lms_teachers/">教員向け</a>
+* <a href="browse_samples/">オンライン授業の実際</a>
 * 多人数会議運営上のtips
   * 全ミュート
 * 動画配信授業(録画形式)
