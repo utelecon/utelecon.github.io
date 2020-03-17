@@ -27,20 +27,20 @@ title: Zoom
   1. 会議室を作成して，会議室の情報（URLなど）を周知します（<a href="create_room" target="">詳細</a>）
   1. 会議室へ入ります（<a href="join" target="">詳細</a>）
   1. ミーティングを行います
-    * 開催者・参加者共通の使い方は<a href="how_to_use" target="">詳細</a>
-	* 開催者特有の使い方は<a href="how_to_use_host" target="">詳細</a>
+    * <a href="how_to_use" target="">開催者・参加者共通の使い方</a>
+	* <a href="how_to_use_host" target="">開催者特有の使い方</a>
 	* 授業での使い方は以下の通り
-        * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）</a>
-        * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）</a>
-        * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）</a>
-        * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）</a>
-        * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）</a>
+      * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）</a>
+      * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）</a>
+      * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）</a>
+      * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）</a>
+      * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）</a>
   
 * 参加者
   1. Zoom をインストールします（<a href="install" target="">詳細</a>）  
   1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます
   1. 会議室へ入ります（<a href="join" target="">詳細</a>）
-  1. ミーティングを行います（具体的なZoomの使い方は<a href="how_to_use" target="">詳細</a>）
+  1. ミーティングを行います（<a href="how_to_use" target="">具体的なZoomの使い方</a>）
 
 
 ## サブページ一覧
