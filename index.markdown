@@ -39,6 +39,8 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * G Suite for Education (ECCSクラウドメール)
 * Office 365
 
+
+
 <!--
 (種類別) オンライン授業を実施する・受講する人のための最低限の手引
 ---------------------------
