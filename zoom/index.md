@@ -5,7 +5,7 @@ title: Zoom
 ## はじめに
 
 * 2020年4月30日まで（今後については現在検討中）は **本学のGoogleメール（共通ID数字10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールと呼びます）で作成した Zoom アカウントを用いることで最大参加人数500名で時間無制限の会議室を使えるようになりました**  
-  * 2020年3月16日に全教職員の ECCS クラウドメールに Zoom から招待メールが送られているため，<a href="create_account" >アカウントの作り方<a/>を参考にして，アカウントをご作成ください（学生には後日送付いたします）．  
+  * 2020年3月16日に全教職員の ECCS クラウドメールに Zoom から招待メールが送られているため，<a href="create_account" >アカウントの作り方</a>を参考にして，アカウントをご作成ください（学生には後日送付いたします）．  
    
    
 * ここでは Web会議ツール Zoom の特徴や利用の流れについて説明します．また，具体的な使い方が載ったサブページもあるため，適宜そちらをご参照ください．  
@@ -15,7 +15,7 @@ title: Zoom
 
 ## 大学アカウント特有の事項について
 インストールする方法や会議に参加する方法は，通常の方法とほとんど変わりませんが，**大学アカウントと連携した Zoom アカウントの作成方法は，通常の作成方法とは大きく異なります**  
-そのため，<span style="font-size:2rem;">アカウントを作る際は<a href="create_account" target="">このページ<a/>をよく読みながら作ってください</span>．
+そのため，<span style="font-size:2rem;">アカウントを作る際は<a href="create_account" target="">このページ</a>をよく読みながら作ってください</span>．
   
 
 ## 利用の流れ
@@ -35,11 +35,11 @@ title: Zoom
     * 開催者・参加者共通の使い方は<a href="how_to_use" target="">こちら</a>
 	* 開催者特有の使い方は<a href="how_to_use_host" target="">こちら</a>
 	* 授業での使い方は以下の通り
-        * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）<a/>
-        * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）<a/>
-        * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）<a/>
-        * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）<a/>
-        * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）<a/>
+        * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）</a>
+        * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）</a>
+        * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）</a>
+        * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）</a>
+        * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）</a>
   
 * 参加者
   1. Zoom をインストールします（具体的な方法は<a href="install" target="">こちら</a>）  
@@ -49,16 +49,16 @@ title: Zoom
 
 
 ## サブページ一覧
-* <a href="install" target="">インストールの方法<a/>  
-* <a href="create_account" target="">アカウントの作り方（開催者用）<a/>  
-* <a href="create_room" target="">会議室の作り方（開催者用）<a/>  
-* <a href="join" target="">会議室の入り方<a/>  
+* <a href="install" target="">インストールの方法</a>  
+* <a href="create_account" target="">アカウントの作り方（開催者用）</a>  
+* <a href="create_room" target="">会議室の作り方（開催者用）</a>  
+* <a href="join" target="">会議室の入り方</a>  
 * Zoom の使い方
-  * <a href="how_to_use" target="">開催者・参加者共通の使い方<a/>  
-  * <a href="how_to_use_host" target="">開催者特有の使い方<a/>  
+  * <a href="how_to_use" target="">開催者・参加者共通の使い方</a>  
+  * <a href="how_to_use_host" target="">開催者特有の使い方</a>  
 * 授業での使い方  
-  * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）<a/>  
-  * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）<a/>  
-  * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）<a/>  
-  * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）<a/>  
-  * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）<a/>  
+  * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）</a>  
+  * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）</a>  
+  * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）</a>  
+  * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）</a>  
+  * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）</a>  
