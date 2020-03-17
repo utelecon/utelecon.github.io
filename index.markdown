@@ -23,8 +23,8 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 以下のシステムは全構成員(学生・教職員)が利用可能です.  
 
-* <a href="google_hangouts_meet/">GoogleハングアウトMeet</a>
 * <a href="zoom/">Zoom</a>
+* <a href="google_hangouts_meet/">GoogleハングアウトMeet</a>
 * <a href="webex/">WebEx</a>
 * <a href="compare">3ツールの比較</a>
 
