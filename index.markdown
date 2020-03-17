@@ -9,8 +9,8 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
   
 教職員のみなさんへ
 ---------------------------
-  * **<span style="font-size:1.5rem">オンライン授業・Web会議を行うための準備は[こちら](for_staffs_setup)．</span>**  
-  * **<span style="font-size:1.5rem">オンライン授業について知りたい方はこちら（作成中）<!--[こちら](for_staffs_online_course/)-->を御覧ください</span>**  
+  * **<span style="font-size:1.5rem">【重要】オンライン授業・Web会議を行うための準備は[こちら](for_staffs_setup)．</span>**  
+  * **<span style="font-size:1.5rem">【重要】オンライン授業を行いたい方はこちら（作成中）<!--[こちら](for_staffs_online_course/)--></span>**  
   * Web 会議を行いたい方は各 Web 会議システムの使い方を御覧ください．
 
 
@@ -30,6 +30,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
  * <span style="color:blue;">2020/3/16:</span> 「授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会」の<a href="events/2020-03-13/online_lecture.pdf">スライド</a>を更新しています.
  * <span style="color:blue;">2020/3/11:</span> サイト開設
 
+
 利用できるWeb会議システム
 ---------------------------
 
@@ -47,7 +48,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 (書ける範囲で)
 
-* ITC-LMS
+* ITC-LMS: 東京大学の学習管理システム（教材の配布や出席管理などが可能）
   * <a href="lms_students/">学生向け</a>
   * <a href="lms_teachers/">教員向け</a>
 * <a href="browse_samples">オンライン授業の実際</a>
