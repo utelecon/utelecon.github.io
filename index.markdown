@@ -4,13 +4,12 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 学生のみなさんへ
 ---------------------------
-  * **<span style="font-size:1.5rem">【重要】オンライン授業を受けるための準備は[こちら](oc)．</span>**  
+  * **<span style="font-size:1.5rem">【重要】オンライン授業を受けるには[こちら](oc)．</span>**  
   
   
 教職員のみなさんへ
 ---------------------------
-  * **<span style="font-size:1.5rem">【重要】オンライン授業・Web会議を行うための準備は[こちら](for_staffs_setup)．</span>**  
-  * **<span style="font-size:1.5rem">【重要】オンライン授業を行いたい方はこちら（作成中）<!--[こちら](for_staffs_online_course/)--></span>**  
+  * **<span style="font-size:1.5rem">【重要】オンライン授業・Web会議を行うには[こちら](for_staffs/)</span>**  
   * Web 会議を行いたい方は各 Web 会議システムの使い方を御覧ください．
 
 
