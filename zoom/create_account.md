@@ -68,15 +68,20 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
    1. [Zoomホームページ](https://zoom.us/) へ行く
    1. もし Sign In 中であれば, 以下のように「マイアカウント」というボタンが現れる
  <a href="img/recover_1.png"><img src="img/recover_1.png" width=300></a>
+
 ので, それを押す. 以下のような画面になるので
  <a href="img/recover_2.png"><img src="img/recover_2.png" width=300></a>
+
 「サインアウト」をクリックする.
    1. 再び[Zoomホームページ](https://zoom.us/) へ行くと今度は以下のように「サインイン」ボタンが現れる
  <a href="img/recover_3.png"><img src="img/recover_3.png" width=300></a>
+
 ので, それを押して, 以下のように入力画面を表示し,
  <a href="img/recover_4.png"><img src="img/recover_4.png" width=300></a>
+
 <font color="red">「パスワードをお忘れですか」</font>へ進む(ここがポイント).
    1. 以下のメールアドレスの窓に,
      <a href="img/recover_5.png"><img src="img/recover_5.png" width=300></a>
-<font color="red">10桁の共通ID@g.ecc.u-tokyo.ac.jp</font> を入力. 「送信」すると，アクティベーション用のリンクがあなたのECCSクラウドメールアカウント (xxxx@g.ecc.u-tokyo.ac.jp) に送られてきます.  <font color="red">注:</font> 指定するメールアドレスは, 10桁の共通ID@g.ecc.u-tokyo.ac.jp ですが, 実際にはあなたがECCSを初期設定した際に指定したアカウントで読むことができます(両者はエイリアスになっています. [説明](https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html){:target="_blank"}).
+
+<font color="red">10桁の共通ID@g.ecc.u-tokyo.ac.jp</font> を入力. 「送信」すると，アクティベーション用のリンクがあなたのECCSクラウドメールアカウント (xxxx@g.ecc.u-tokyo.ac.jp) に送られてきます.  <font color="red">注:</font> 指定するメールアドレスは, 10桁の共通ID@g.ecc.u-tokyo.ac.jp ですが, 実際にはあなたがECCSを初期設定した際に指定したアカウントで読むことができます(両者はエイリアスになっています. (<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html" target="_blank">説明</a>).
  
