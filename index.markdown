@@ -10,7 +10,7 @@ title: オンライン授業, Web会議 ポータルサイト @ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
- * <span style="color:blue;">2020/3/19:</span> [オンライン基礎講座 Zoom の使い方](events/2020-03-19/)を実施します．  
+ * <span style="color:blue;">2020/3/17:</span> 2020年3月19日に[オンライン基礎講座 Zoom の使い方](events/2020-03-19/)を実施します．  
  * <span style="color:blue;">2020/3/17:</span> 全教職員 <a href="zoom/">Zoom Pro (500接続まで)</a>が利用可能になりました.
  * <span style="color:blue;">2020/3/16:</span> 「授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会」の<a href="events/2020-03-13/online_lecture.pdf">スライド</a>を更新しています.
  * <span style="color:blue;">2020/3/11:</span> サイト開設
