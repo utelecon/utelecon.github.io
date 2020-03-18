@@ -39,7 +39,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * G Suite for Education (ECCSクラウドメール): Google の各種サービス利用可
 * Office 365: Word，Excel，PowerPointなど利用可
 <!--
-* [上記5つのシステムの説明と関係性](systems_for_online_teaching)
+* [上記5つのシステムの説明と関係性](systems_for_online_teaching)  
 -->
 
 <!--
@@ -87,3 +87,11 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 * 2020/03/19 [オンライン基礎講座 Zoom の使い方](events/2020-03-19/)  
 * 2020/03/13 [説明会](events/2020-03-13/)
+
+
+お問い合わせ
+---------------------------
+
+* <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
+* <a href="" target="_blank">ポータルサイトへのご要望・コメント</a> 
+
