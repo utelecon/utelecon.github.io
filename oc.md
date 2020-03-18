@@ -16,7 +16,7 @@ title: （学生向け）オンライン授業・Web会議の手引き
       ECCS クラウドメールは，本学のGoogleメール（<span style ="color:magenta;">UTokyo Account の数字10桁@g.ecc.u-tokyo.ac.jp</span> もしくは，<span style ="color:magenta;">自分で設定した文字列@g.ecc.u-tokyo.ac.jp</span>）のことで，授業で用いる Web 会議システムを利用するために必要になります． </li> 
      
 <b><div style="text-align: center; margin: 15px">
-UTokyo Accountでできること</div><b>
+UTokyo Accountでできること</div></b>
 
 ![](img/2-1.png)
 
