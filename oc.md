@@ -5,23 +5,22 @@ title: （学生向け）オンライン授業・Web会議の手引き
 ## オンライン授業を受けるための準備
 
 <ol>
-  <li> **（2020年度新入生のみ）UTokyo Account を有効化します**（具体的な方法は<a href="" target="_blank">こちら（リンク作成中）</a>）．  
-     * UTokyo Account は本学の情報サービスが利用できるようになる，本学の構成員（学生および教職員）用の重要なアカウントです． </li> 
+  <li> <b>（2020年度新入生のみ） <a href="">UTokyo Account を有効化します</a></b><br><br> </li> 
 	 
 	 
-  <li> **ECCS 新規利用者講習を受講します**（具体的な方法は<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">こちら</a>）．  
-     * ECCS とは教育や研究で利用可能な本学のコンピュータやネットワークなどの設備のことで，次に説明する ECCS クラウドメールを有効化するために講習を受ける必要があります．</li>  
+  <li> <b><a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">ECCS 新規利用者講習を受講します</a></b><br>
+     ECCS クラウドメールを有効化するために必要です．<br><br></li>  
 	 
 	 
-  <li> **ECCS クラウドメールを有効化します**（具体的な方法は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら</a>）．  
-     * ECCS クラウドメールは，本学のGoogleメール（UTokyo Account の数字10桁@g.ecc.u-tokyo.ac.jp もしくは，自分で設定した文字列@g.ecc.u-tokyo.ac.jp）のことで，授業で用いる Web 会議システムを利用するために必要になります． </li> 
+  <li> <b><a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCS クラウドメールを有効化します</a></b><br>  
+      ECCS クラウドメールは，本学のGoogleメール（UTokyo Account の数字10桁@g.ecc.u-tokyo.ac.jp もしくは，自分で設定した文字列@g.ecc.u-tokyo.ac.jp）のことで，授業で用いる Web 会議システムを利用するために必要になります． </li> 
      
-<div style="text-align: center; margin: 12px">
-UTokyo Accountでできること</div>
+<div style="text-align: center; margin: 15px">
+<b>UTokyo Accountでできること</B></div>
 
 ![](img/2-1.png)
 
-各サービスの活用については，[『東京大学ICT活用ハンドブック』](https://fye.c.u-tokyo.ac.jp/students/?action=common_download_main&upload_id=1316)（2019年版．随時更新します）を参照して下さい．
+各サービスの活用については，[『東京大学ICT活用ハンドブック』](https://fye.c.u-tokyo.ac.jp/students/?action=common_download_main&upload_id=1316)（2019年版．随時更新します）を参照して下さい．<br><br>
      
   <li> 各授業で，担当する教員から指定されたシステムをご利用ください．
 </ol>
