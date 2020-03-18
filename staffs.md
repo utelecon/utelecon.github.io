@@ -16,13 +16,11 @@ title: （教職員向け）オンライン授業・Web会議の手引き
 
 
 ## 大学が提供している，教員が授業で利用できる主なシステム  
-  * **ITC-LMS**: 学生の学習管理システム．教材の配布や出席管理などが可能．
-    * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/index.html" target="_blank">ITC-LMSの詳細</a>，<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html" target="_blank">ITC-LMS の Q&A</a>
+  * **UTAS**: シラバス登録, 履修登録．教材の配布や出席管理などが可能（<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/index.html" target="_blank">ITC-LMSの詳細</a>，<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html" target="_blank">Q&A</a>）．
+  * **ITC-LMS**: 学生の学習管理システム．教材の配布や出席管理などが可能（<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/index.html" target="_blank">ITC-LMSの詳細</a>，<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html" target="_blank">Q&A</a>）．
   * **Web会議システム**: リアルタイムに会議・授業ができるシステム．現在 GoogleハングアウトMeet，Zoom，Webex の3種類が利用できる．使い方については本ポータルサイトでそれぞれ説明．
-  * **G Suite for Education**: 本学の Googleアカウント（ECCS クラウドメール）で利用できる Google のクラウドサービス．ファイルを共有するための Google Drive，文書ファイルを協働編集するための Google Docs などが使える．
-    * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/26_2495.html" target="_blank">サービス詳細</a>，<a href="http://www.itc.u-tokyo.ac.jp/DigitalLife/perFile/12_ec_gakusei-cloud.pdf" target="_blank">利活用方法の例</a>  
-  * **Office 365**: 本学のアカウント（UTokyo Account）で利用できる Microsoft のサービス．文書作成ソフトの Word，表計算ソフトの Excel，プレゼンテーションソフトの PowerPoint などが利用できる．
-    * <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">Office 365 の詳細</a>（タイトルは UTokyo Microsoft License となっていますが Office 365 について説明があります）
+  * **G Suite for Education**: 本学の Googleアカウント（ECCS クラウドメール）で利用できる Google のクラウドサービス．ファイルを共有するための Google Drive，文書ファイルを協働編集するための Google Docs などが使える（<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/26_2495.html" target="_blank">サービス詳細</a>，<a href="http://www.itc.u-tokyo.ac.jp/DigitalLife/perFile/12_ec_gakusei-cloud.pdf" target="_blank">利活用方法の例</a>）．  
+  * **Office 365**: 本学のアカウント（UTokyo Account）で利用できる Microsoft のサービス．文書作成ソフトの Word，表計算ソフトの Excel，プレゼンテーションソフトの PowerPoint などが利用できる（<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">Office 365 の詳細</a>: タイトルは UTokyo Microsoft License となっていますが Office 365 について説明があります）．
 
 
 ## オンライン授業の形態  
