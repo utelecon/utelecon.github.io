@@ -1,5 +1,5 @@
 
-<div align="right">[English]({{ "http://translate.google.com/translate?langpair=en%7Cja&hl=en&u=" + site.url + page.url }})</div>
+<div align="right"><a href="{{ "http://translate.google.com/translate?langpair=en%7Cja&hl=en&u=" + site.url + page.url }}">English</a></div>
 
 
  * <font color="blue">2020/3/17:</font> 全教職員 <a href="zoom/">Zoom Pro (500接続まで)</a>が利用可能になりました.
