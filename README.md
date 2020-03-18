@@ -27,6 +27,7 @@ git clone git@github.com:utelecon/utelecon.github.io.git
 git commit -m "add introduction" -a
 git push
 ```
+git clone https:// ... の方が分かりやすいです
 
 ## 今後やること
 * 今のままだと README.md が見えてしまうから docs フォルダ内を公開というような設定を今後したい
@@ -38,5 +39,8 @@ git push
 
 * 節番号とか自動的にふれないの?
 * 目次とか生成できないの?
+＞これ使う感じです（勉強中）
+https://shd101wyy.github.io/markdown-preview-enhanced/#/toc
+
 * トップページへのリンクとか全ページに出したい → /_layouts/default.html を追加しました（https://github.com/pages-themes/cayman/blob/master/_layouts/default.html からひっぱってきました）．これをいじればヘッダーなど共通して修正できそうです．このファイルが default でテンプレートになるみたいです．これがない場合は github pages が勝手に補完してくれるみたいです．
 * リンクを別タブで開くようにしたい. htmlなら <a href="xxxx.html" target="_blank"> ... </a> とするやつ
