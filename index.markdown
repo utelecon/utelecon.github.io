@@ -36,18 +36,22 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * ITC-LMS: 学習管理システム（教材の配布や出席管理）
   * <a href="lms_students/">学生向け</a>
   * <a href="lms_teachers/">教員向け</a>
-* G Suite for Education (ECCSクラウドメール)
-* Office 365
-
-
+* G Suite for Education (ECCSクラウドメール): Google の各種サービス利用可
+* Office 365: Word，Excel，PowerPointなど利用可
+<!--
+* [上記5つのシステムの説明と関係性](systems_for_online_teaching)
+-->
 
 <!--
-(種類別) オンライン授業を実施する・受講する人のための最低限の手引
+
+オンライン授業・Web会議の手引
 ---------------------------
 
-* [教員](instructors)向け
 * [新入生](oc)向け
-* [在学生](students)向け
+* [在学生](oc)向け
+* [教員](staffs)向け
+* [職員](staffs)向け
+
 
 様々なオンライン授業の形式とそのための手引
 ---------------------------
