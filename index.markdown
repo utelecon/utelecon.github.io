@@ -31,6 +31,10 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 東京大学 オンライン授業に必須のシステム
 ---------------------------
 
+* [学生](oc)用
+* 教員用 (執筆中)
+
+<!--
 * UTokyo Account: 様々なシステムの共通アカウント
 * UTAS: シラバス登録, 履修登録
 * ITC-LMS: 学習管理システム（教材の配布や出席管理）
@@ -38,9 +42,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
   * <a href="lms_teachers/">教員向け</a>
 * G Suite for Education (ECCSクラウドメール): Google の各種サービス利用可
 * Office 365: Word，Excel，PowerPointなど利用可  
-<!-- [上記5つのシステムの説明と関係性](systems_for_online_teaching)  -->
-
-<!--
+ [上記5つのシステムの説明と関係性](systems_for_online_teaching)
 
 オンライン授業・Web会議の手引
 ---------------------------
