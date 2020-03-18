@@ -91,5 +91,5 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 ---------------------------
 
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
-* <a href="" target="_blank">ポータルサイトへのご要望・コメント</a> 
+* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
 
