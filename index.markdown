@@ -37,7 +37,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
   * <a href="lms_students/">学生向け</a>
   * <a href="lms_teachers/">教員向け</a>
 * G Suite for Education (ECCSクラウドメール): Google の各種サービス利用可
-* Office 365: Word，Excel，PowerPointなど利用可
+* Office 365: Word，Excel，PowerPointなど利用可  
 <!--
 * [上記5つのシステムの説明と関係性](systems_for_online_teaching)  
 -->
