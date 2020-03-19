@@ -93,9 +93,10 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * 2020/03/13 [説明会](events/2020-03-13/)
 
 
-お問い合わせ
+連絡チャネル
 ---------------------------
 
+* [QAフォーラムとメーリングリスト](forums/)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
 * <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
 
