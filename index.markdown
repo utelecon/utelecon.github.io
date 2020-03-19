@@ -5,7 +5,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 本サイトについて
 ---------------------------
 
-* Many aplogies for the site primarily in Japanese (yet).  Working around the clock to put everything barely in good shape ...
+* Many apologies for the site primarily in Japanese (yet).  Working around the clock to put everything barely in good shape ...
 * We will work on translations, but meanwhile, please use the "English (Google Translation)" link to machine-translate the page.
 
 * 本サイトは，東京大学の学生・教職員に向けた，オンライン授業やWeb会議に関する情報をワンストップで得られることを目指すサイトです．  
