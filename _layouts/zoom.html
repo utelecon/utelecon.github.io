@@ -25,14 +25,20 @@
 
 
 	<style>
+	
 		.gnav {
 			display: flex;
 			height: 2rem;
 			margin: 0 auto;
 			width: 1000px;
+			padding-inline-start: 0px;
 		}
-		.gnav > li {/*親階層のみ幅を25%にする*/
+		.gnav > li {
 			width: 25%;
+		}
+		
+		.gnav > li > ul{
+			padding-inline-start: 0px;
 		}
 
 		.gnav li {
@@ -40,7 +46,6 @@
 			position: relative;
 		}
 		.gnav li a {
-			background: #001b34;
 			border-right: 1px solid #eee;
 			color: #fff;
 			display: block;
@@ -51,7 +56,6 @@
 			width: 100%;
 		}
 		
-		/*子階層以降共通*/
 		.gnav li li {
 			height: 0;
 			overflow: hidden;
