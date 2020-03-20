@@ -32,7 +32,6 @@ title: Google ハングアウト Meet
 1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
 1. 無事有効化されたら, <a href="https://meet.google.com/" target="_blank">meetのトップページ</a> にアクセスし, ページ上部の「ログイン」または"Sign in"から, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
 1. 無事ログインできたら, 以下のように, 「ミーティングに参加または開始」 ボタンが現れますので, それを押してミーティングを設定してください.
-
    <blockquote>
      <a href="img/meet_start.png" target="_blank"><img src="img/meet_start.png" width="400"></a>
    </blockquote>
