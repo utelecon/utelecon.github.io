@@ -97,7 +97,7 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 
  * この, [Microsoft Excel のシート](https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=wIpLXu)が見られるかどうか, リンクをクリックして確かめてみてください. 見られれば, UTokyo Account の設定ができています
  * この, [Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing)が見られるかどうか, リンクをクリックして確かめてみてください. 見られれば, G Suite for Education (ECCSクラウドメール)の有効化ができています. ただし, 現在中国にいる人はこのシートにはつなげません. Microsoft Excelの方だけ確認してください
- * できたら, どちらかのシート(どちらでもよいです)に書かれている, Zoom, WebEx, GoogleハングアウトMeet の横にある URL をクリックして, それぞれの TV 会議システムにつないでみましょう. クリックすると, スマホでもPCでもMacでも, ブラウザの中で始まるかも知れませんし, 何かアプリを入れるように言われるかもしれません. 言われたら入れてください. 入れ方がわからなくなったら, このサイト内にある, Zoom, WebEx, GoogleハングアウトMeetのページを参照して入れて, もう一度やってみてください. ただし中国にいる人は, GoogleハングアウトMeetにはつなげません. 
+ * (<font color="red">3/20 ここから先はまだ準備中です</font>) できたら, どちらかのシート(どちらでもよいです)に書かれている, Zoom, WebEx, GoogleハングアウトMeet の横にある URL をクリックして, それぞれの TV 会議システムにつないでみましょう. クリックすると, スマホでもPCでもMacでも, ブラウザの中で始まるかも知れませんし, 何かアプリを入れるように言われるかもしれません. 言われたら入れてください. 入れ方がわからなくなったら, このサイト内にある, Zoom, WebEx, GoogleハングアウトMeetのページを参照して入れて, もう一度やってみてください. ただし中国にいる人は, GoogleハングアウトMeetにはつなげません. 
 
 なにかおかしい, 接続できない場合は
 ---------------------------
