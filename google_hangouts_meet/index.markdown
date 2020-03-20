@@ -61,7 +61,7 @@ title: Google ハングアウト Meet
 
 1. 会議の開催者から, 会議のURLを, (メールなどで)受け取り, そこにアクセスしてください. 例えば以下のようなメールを受け取ったとします
     <blockquote>
-      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" border=2 width="400"></a>
+      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" border="2" width="400"></a>
     </blockquote>
 1. URLをブラウザで開いて会議に参加します. このとき,
   * 参加者が, ECCSクラウドメールのアカウント(xxx@g.ecc.u-tokyo.ac.jp) でGoogleにログインしていれば, 直ちに会議に参加できます
