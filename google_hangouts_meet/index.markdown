@@ -1,3 +1,7 @@
+---
+title: Google ハングアウト Meet
+---
+
 # ビデオ会議 Google ハングアウト Meetの使い方
 
 ## はじめに
@@ -28,7 +32,6 @@
 1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
 1. 無事有効化されたら, <a href="https://meet.google.com/" target="_blank">meetのトップページ</a> にアクセスし, ページ上部の「ログイン」または"Sign in"から, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
 1. 無事ログインできたら, 以下のように, 「ミーティングに参加または開始」 ボタンが現れますので, それを押してミーティングを設定してください.
-
    <blockquote>
      <a href="img/meet_start.png" target="_blank"><img src="img/meet_start.png" width="400"></a>
    </blockquote>
@@ -57,7 +60,7 @@
 
 1. 会議の開催者から, 会議のURLを, (メールなどで)受け取り, そこにアクセスしてください. 例えば以下のようなメールを受け取ったとします
     <blockquote>
-      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" border=2 width="400"></a>
+      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" border="2" width="400"></a>
     </blockquote>
 1. URLをブラウザで開いて会議に参加します. このとき,
   * 参加者が, ECCSクラウドメールのアカウント(xxx@g.ecc.u-tokyo.ac.jp) でGoogleにログインしていれば, 直ちに会議に参加できます
