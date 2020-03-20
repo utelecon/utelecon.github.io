@@ -29,6 +29,16 @@ git push
 ```
 git clone https:// ... の方が分かりやすいです
 
+### ローカル環境で表示を確認する
+[Testing your GitHub Pages site locally with Jekyll - GitHub ヘルプ](https://help.github.com/ja/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+
+```bash
+$ cd utelecon.github.io
+$ bundle install
+$ bundle exec jekyll serve
+  # Open http://localhost:4000/ in your browser
+```
+
 ## 今後やること
 * 今のままだと README.md が見えてしまうから docs フォルダ内を公開というような設定を今後したい
 * メニューとパンくずリストの作成
