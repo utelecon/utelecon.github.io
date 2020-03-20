@@ -101,7 +101,7 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
  * この, [Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing)が見られるかどうか, リンクをクリックして確かめてみてください.
    * もしこのような画面ができたらそれは, Googleに, 大学のアカウントでログインしていないのが理由です. 
 
-    <img src="img/google-ask-permission.png" width=300 />
+<img src="img/google-ask-permission.png" width=300 />
 
 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでログインして下さい. 「アクセス権限のリクエスト」**ではありません.**  すでに何人かの人が「アクセス権限のリクエスト」を送っているようですが, 気にせずもう一度上記からアクセスして, **「アカウントを切り替える」**を選び直して下さい. <font color="red">それ以降やり方がよくわからない人, 先へ進むのが不安な人は, もう少ししたらその手順動画(作業中)をアップするので, しばらく放っておいて後でまたやってください. </font>
    * 無事見られれば, G Suite for Education (ECCSクラウドメール)の有効化ができています. ただし, 現在中国にいる人はこのシートにはつなげません. Microsoft Excelの方だけ確認してください
