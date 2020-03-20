@@ -19,34 +19,29 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-
-  </head>
-  <body>
-
-
 	<style>
 	
 		.gnav {
+			font-size: 1.25rem;
 			display: flex;
 			height: 2rem;
 			margin: 0 auto;
 			width: 1000px;
 			padding-inline-start: 0px;
 		}
-		.gnav > li {
-			width: 25%;
-		}
 		
-		.gnav > li > ul{
-			padding-inline-start: 0px;
+		.gnav > li {
+			width: 50%;
 		}
 
 		.gnav li {
 			list-style: none;
 			position: relative;
 		}
+		
 		.gnav li a {
 			border-right: 1px solid #eee;
+			border-left: 1px solid #eee;
 			color: #fff;
 			display: block;
 			height: 2rem;
@@ -55,24 +50,39 @@
 			text-decoration: none;
 			width: 100%;
 		}
-		
-		.gnav li ul {
-			background: #4d6675;
+
+		// 子要素
+
+		.gnav ul{
+			padding-inline-start: 0px;
 		}
+		
 		.gnav li li {
+			background: #4d6675;
 			height: 0;
 			overflow: hidden;
 			transition: .5s;
 		}
+		
 		.gnav li li a {
 			border-top: 1px solid #eee;
+			border-bottom: 1px solid #eee;
 		}
+		
+		.gnav li > ul{
+			padding-inline-start: 0px;
+		}
+		
 		.gnav li:hover > ul > li {
 			height: 2rem;
 			overflow: visible;
 		}
 		
+		
 	</style>
+
+  </head>
+  <body>
 
     <header class="page-header" role="banner">
 	  <div align="right"><a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}{{page.url}}" style="color:white;">English (Google Translation)</a></div>
