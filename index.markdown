@@ -5,6 +5,9 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 本サイトについて
 ---------------------------
 
+* Many apologies for the site primarily in Japanese (yet).  Working around the clock to put everything barely in good shape ...
+* We will work on translations, but meanwhile, please use the "English (Google Translation)" link to machine-translate the page.
+
 * 本サイトは，東京大学の学生・教職員に向けた，オンライン授業やWeb会議に関する情報をワンストップで得られることを目指すサイトです．  
 * 日々状況が変わっており，また急遽作成していることから，作成途中のところがあったり，頻繁に内容が更新されたりする点，ご了承ください．
 * 本サイトは東京大学情報基盤センターと大学総合教育研究センターが立ち上げましたが，さらなる協力者を歓迎しています．
@@ -12,6 +15,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
+ * <span style="color:blue;">2020/3/19:</span> [QAフォーラムとメーリングリスト](forums/) 開設
  * <span style="color:blue;">2020/3/17:</span> 2020年3月19日に[オンライン基礎講座 Zoom の使い方](events/2020-03-19/)を実施します．  
  * <span style="color:blue;">2020/3/17:</span> 全教職員 <a href="zoom/">Zoom Pro (500接続まで)</a>が利用可能になりました.
  * <span style="color:blue;">2020/3/16:</span> 「授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会」の<a href="events/2020-03-13/online_lecture.pdf">スライド</a>を更新しています.
@@ -31,6 +35,10 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 東京大学 オンライン授業に必須のシステム
 ---------------------------
 
+* [学生](oc)用
+* 教員用 (執筆中ですが, 実際の作業はほぼ[学生](oc)用と同じです)
+
+<!--
 * UTokyo Account: 様々なシステムの共通アカウント
 * UTAS: シラバス登録, 履修登録
 * ITC-LMS: 学習管理システム（教材の配布や出席管理）
@@ -38,9 +46,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
   * <a href="lms_teachers/">教員向け</a>
 * G Suite for Education (ECCSクラウドメール): Google の各種サービス利用可
 * Office 365: Word，Excel，PowerPointなど利用可  
-<!-- [上記5つのシステムの説明と関係性](systems_for_online_teaching)  -->
-
-<!--
+ [上記5つのシステムの説明と関係性](systems_for_online_teaching)
 
 オンライン授業・Web会議の手引
 ---------------------------
@@ -87,9 +93,10 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * 2020/03/13 [説明会](events/2020-03-13/)
 
 
-お問い合わせ
+連絡チャネル
 ---------------------------
 
+* [QAフォーラムとメーリングリスト](forums/)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
 * <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
 
