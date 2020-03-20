@@ -41,7 +41,7 @@ title: 学習管理システム ITC-LMS の使い方（学生向け）
 
 ![メールアドレスの設定](img/mail_address.png)
 
-4.LINEで受け取る場合，以下の図の`LINEから通知を受け取る`を押してください．
+4.LINEで受け取る場合，以下の図の`LINEから通知を受け取る`を押してください．**（注） iPhone等のiOS機器では以下の LINEの設定ができません．PC（Windows または macOS）からお試しください．**
 
 ![LINEの設定](img/LINE.png)
 
