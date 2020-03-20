@@ -65,8 +65,8 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 
 両システムの有効化の手順は上の動画でも説明していますが, それらのシステムでどんなことができるかも含め, 東京大学[初年次ゼミナールのページ](https://fye.c.u-tokyo.ac.jp/students/)にある, 『東京大学ICT活用ハンドブック（文理共通）』 ([2019年度版](pdf/01_2019_ict.pdf))で詳しく説明しています. 以下の, 最低限必要な節だけは必ず読んで指示に従ってください. もうじき2020年度版が発行されますので, 上記ページを小まめに訪れてください.
 
- * Step 1.3 マイクロソフトアカウントの有効化
- * Step 1.4 ECCS クラウドメールの設定
+ * Step 1.3 **マイクロソフトアカウント**の有効化
+ * Step 1.4 **ECCS クラウドメール**の設定
 
 なお, 「ECCS クラウドメール」は東京大学におけるG Suite for Educationの名称です.
 
@@ -95,8 +95,16 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 <a name="check-online-ready"> </a>
 ### オンライン授業を受ける準備ができているかのチェック
 
- * この, [Microsoft Excel のシート](https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=wIpLXu)が見られるかどうか, リンクをクリックして確かめてみてください. 見られれば, UTokyo Account の設定ができています
- * この, [Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing)が見られるかどうか, リンクをクリックして確かめてみてください. 見られれば, G Suite for Education (ECCSクラウドメール)の有効化ができています. ただし, 現在中国にいる人はこのシートにはつなげません. Microsoft Excelの方だけ確認してください
+
+
+ * この, [Microsoft Excel のシート](https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq)が見られるかどうか, リンクをクリックして確かめてみてください. 見られれば, UTokyo Account の設定ができています
+ * この, [Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing)が見られるかどうか, リンクをクリックして確かめてみてください.
+   * もしこのような画面ができたらそれは, Googleに, 大学のアカウントでログインしていないのが理由です. 
+
+    <img src="img/google-ask-permission.png" width=300 />
+
+右にある, **「アカウントを切り替える」**を選んで, 大学のアカウントでログインして下さい. 「アクセス権限のリクエスト」**ではありません.**  すでに何人かの人が「アクセス権限のリクエスト」を送っていますが, 気にせずもう一度上記からアクセスして, **「アカウントを切り替える」**を選び直して下さい. <font color="red">それ以降やり方がよくわからない人, 先へ進むのが不安な人は, もう少ししたらその手順動画(作業中)をアップするので, しばらく放っておいて後でまたやってください. </font>
+   * 無事見られれば, G Suite for Education (ECCSクラウドメール)の有効化ができています. ただし, 現在中国にいる人はこのシートにはつなげません. Microsoft Excelの方だけ確認してください
  * (<font color="red">3/20 ここから先はまだ準備中です</font>) できたら, どちらかのシート(どちらでもよいです)に書かれている, Zoom, WebEx, GoogleハングアウトMeet の横にある URL をクリックして, それぞれの TV 会議システムにつないでみましょう. クリックすると, スマホでもPCでもMacでも, ブラウザの中で始まるかも知れませんし, 何かアプリを入れるように言われるかもしれません. 言われたら入れてください. 入れ方がわからなくなったら, このサイト内にある, Zoom, WebEx, GoogleハングアウトMeetのページを参照して入れて, もう一度やってみてください. ただし中国にいる人は, GoogleハングアウトMeetにはつなげません. 
 
 なにかおかしい, 接続できない場合は
