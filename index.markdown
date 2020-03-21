@@ -15,6 +15,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
+ * <span style="color:blue;">2020/3/21:</span> [オンライン基礎講座 Zoom の使い方の実施報告](events/2020-03-19/report)を公開しました．  
  * <span style="color:blue;">2020/3/19:</span> [オンライン基礎講座 Zoom の使い方](events/2020-03-19/)を実施しました．  
  * <span style="color:blue;">2020/3/19:</span> [QAフォーラムとメーリングリスト](forums/) 開設
  * <span style="color:blue;">2020/3/17:</span> 全教職員 <a href="zoom/">Zoom Pro (500接続まで)</a>が利用可能になりました.

@@ -9,5 +9,5 @@ title: 2020/03/19 オンライン基礎講座 Zoom の使い方
 
 
 <a href="workshop_how_to_use_zoom.pdf">発表資料</a>  
-<a href="">開催報告（作成中）</a>．
+<a href="report">開催報告</a>．
 
