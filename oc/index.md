@@ -96,9 +96,11 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 <a name="check-online-ready"> </a>
 ### オンライン授業を受ける準備ができているかのチェック
 
-
-
- * この, [Microsoft Excel のシート](https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq)が見られるかどうか, リンクをクリックして確かめてみてください. UTokyo Accountのアカウント名とパスワードを入力する画面が出てきたら設定した内容を入力して下さい. それで無事見られれば, UTokyo Account の設定ができています
+ * この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. (<font color="red">3/22更新: もし東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれたら,
+```
+UTokyo Accountのアカウント名@utac.u-tokyo.ac.jp
+```
+と記入して先へ進んで下さい. なお詳細はわかりませんがこの窓は出てこないこともあります.</font> 次にUTokyo Accountのアカウント名とパスワードを入力する画面が出てきたら, 自分で設定したUTokyo Accountのアカウント名とパスワードを入力して下さい. それで無事見られれば, UTokyo Accountの設定ができています (<a href="https://youtu.be/iJbq6unDIOA" target="_blank"</a>). 
  * この, [Google スプレッドシート](https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing)が見られるかどうか, リンクをクリックして確かめてみてください.
    * もしこのような画面ができたらそれは, Googleに, 大学のアカウントでログインしていないのが理由です. 
 
