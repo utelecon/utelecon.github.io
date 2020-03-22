@@ -5,6 +5,9 @@ title: 2020/03/13 授業のオンライン化を念頭に置いたTV会議ツー
 # 2020/03/13 授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会
 
 
+<!--
+* 説明会 <a href=" " target="_blank">ビデオ</a>
+-->
 * 説明会スライド<font color="red">(3/16更新しています)</font> [pdf](online_lecture.pdf), [pptx](online_lecture.pptx) 
 * [質問箱](https://app.sli.do/event/utdcfwlc/live/questions)
 
