@@ -40,6 +40,9 @@ title: Zoom
   1. 会議室へ入ります（<a href="join" target="">詳細</a>）
   1. ミーティングを行います（<a href="how_to_use" target="">具体的なZoomの使い方</a>）
 
+## 参考情報
+Q&A（作成中）[](qa)  
+
 
 ## サブページ一覧
 * <a href="install" target="">インストールの方法</a>  
