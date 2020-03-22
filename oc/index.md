@@ -96,14 +96,18 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 <a name="check-online-ready"> </a>
 ### オンライン授業を受ける準備ができているかのチェック
 
+ <a name="check-excel"> </a>
  * この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. <font color="red">3/22更新: もし東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれたら,</font>
 ```
 UTokyo Accountのアカウント番号@utac.u-tokyo.ac.jp
 ```
 と記入して先へ進んで下さい. UTokyo Accountのアカウント番号は10桁の数字です. なお詳細はわかりませんがこの窓が出てこないこともあります. 次にUTokyo Accountのアカウント名とパスワードを入力する画面が出てきたら, 自分で設定したUTokyo Accountのアカウント名とパスワードを入力して下さい. それで無事見られれば, UTokyo Accountの設定ができています (<a href="https://youtu.be/iJbq6unDIOA" target="_blank">手順動画</a>). 
+ <a name="check-google-spreadsheet"> </a>
  * この, <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>が見られるかどうか, リンクをクリックして確かめてみてください. このときもし,
    * **パターン1:** 今回作った大学のアカウント(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインしている場合は直ちにアクセスできます
+    <a name="check-google-spreadsheet-pattern-2"> </a>
    * **パターン2:** Googleに別のアカウント(例えば自分が普段使っているyyyy@gmail.com)でログインしている場合は「権限が必要です」という窓が出てきます. 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでログインして下さい. 「アクセス権限のリクエスト」**ではありません.**  すでに何人かの人が「アクセス権限のリクエスト」を送っているようですが, 気にせずもう一度上記からアクセスして, **「アカウントを切り替える」**を選び直して下さい(この場合の<a href="https://youtu.be/yLQcnfZo_24" target="_blank">手順動画</a>).
+    <a name="check-google-spreadsheet-pattern-3"> </a>
    * **パターン3:** そもそもGoogleにログインしていない場合は「ユーザ認証に失敗しました」と表示された後, Googleへのログインを促す画面が出てくるので大学のアカウントでログインして下さい(この場合の<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">手順動画</a>).  
    * どうであれ無事見られれば, G Suite for Education (ECCSクラウドメール)の有効化ができています. ただし, 現在中国にいる人はこのシートにはつなげません. Microsoft Excelの方だけ確認してください
  * (<font color="red">3/20 ここから先はまだ準備中です</font>) できたら, どちらかのシート(どちらでもよいです)に書かれている, Zoom, WebEx, GoogleハングアウトMeet の横にある URL をクリックして, それぞれの TV 会議システムにつないでみましょう. クリックすると, スマホでもPCでもMacでも, ブラウザの中で始まるかも知れませんし, 何かアプリを入れるように言われるかもしれません. 言われたら入れてください. 入れ方がわからなくなったら, このサイト内にある, Zoom, WebEx, GoogleハングアウトMeetのページを参照して入れて, もう一度やってみてください. ただし中国にいる人は, GoogleハングアウトMeetにはつなげません. 
