@@ -11,8 +11,8 @@ title: オンライン授業の実例・参考情報
 * 
 
 -->
-提供いただいた資料
----------------------------
+
+##提供いただいた資料
 
 * [PC1台でできるオンライン講義](materials/online_example_1pc.pptx) \[Powerpoint\] (工学系・川原先生)
 * [Zoom利用の手引き0.3](materials/zoom_v03.docx) \[Word\]（工学系・相田先生）
