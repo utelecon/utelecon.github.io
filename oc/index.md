@@ -19,6 +19,13 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 
 本ポータル編集に参画する教職員一同
 
+
+教養学部長からのメッセージ
+---------------------------
+
+ * 4月から大学一年生になる新入生とご家族への, <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_black">太田邦史教養学部長からのメッセージ</a>です
+ * <a href="http://www.todaishimbun.org/coronavirus20200319/" target="_blank">東大新聞 教養・総合文化、オンライン授業の大規模な導入へ　新入生に事前準備を要請</a>
+
 オンライン授業って?
 ---------------------------
 
