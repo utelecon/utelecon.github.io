@@ -13,7 +13,7 @@ title: QAフォーラム及びアナウンス用メーリングリストにつ�
 加入の仕方 (以下のどれでも良い)
 ---------------------------
 
-**方法1:** <font color="red">以下のフォーム (UTokyo Accountが必要です. 入力を求められたらUTokyo Accountとパスワードを入力してください) にご記入下さい
+**方法1:** 以下のフォーム (UTokyo Accountが必要です. 入力を求められたらUTokyo Accountとパスワードを入力してください) にご記入下さい
 
 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUMFJEVjVPVFdVM0VZNUlVRlNJRk5ROU9OSC4u" target="_blank"> 加入フォーム (UTokyo Account必要) </a>
 
