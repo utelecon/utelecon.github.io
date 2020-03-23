@@ -1,12 +1,11 @@
 ---
 title: 教員のための，オンライン授業を行うにあたって
 ---
-更新日: 2020年3月23日
+更新日: 2020年3月23日 12:30
 
 
 * [はじめに](#はじめに)
 * [授業を行う上で必要な本学システムの利用準備](#授業を行う上で必要な本学システムの利用準備)
-
 * [オンライン授業の主な形態]() 
 * [各授業方法のオンライン化（執筆中）] 
   * 質疑応答のオンライン化（執筆中）
@@ -21,32 +20,37 @@ title: 教員のための，オンライン授業を行うにあたって
 ## はじめに  
 　
 
-## 授業を行う上で必要な本学システムの利用準備
-
-  1. **（2020年度の新規教員のみ）UTokyo Account を有効化する**（<a href="" target="_blank">詳細（リンク作成中）</a>）．  
-     * UTokyo Account は本学の情報サービスが利用できるようになる，本学の構成員（学生および教職員）用の重要なアカウントです． 
-	 
-	 
-  1. **ECCS クラウドメールを有効化する**（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">詳細</a>）．  
-     * ECCS クラウドメールは，本学のGoogleメール（UTokyo Account の数字10桁@g.ecc.u-tokyo.ac.jp もしくは，自分で設定した文字列@g.ecc.u-tokyo.ac.jp）のことで，Web 会議システムを利用するために必要になります．  
-  
-  1. 以上の設定をした上で，各システムをご利用ください  
-    * Web会議については，利用できる<a href="compare">3システムの要件</a>をふまえて，目的にあったものをご利用ください．
+## 東京大学における教育のためのICTシステムを利用するために
 
 
-## 大学が提供している，教員が授業で利用できる主なシステム  
-  * **UTAS**: シラバス登録, 履修登録．教材の配布や出席管理などが可能（<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/index.html" target="_blank">ITC-LMSの詳細</a>，<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html" target="_blank">Q&A</a>）．
-  * **ITC-LMS**: 学生の学習管理システム．教材の配布や出席管理などが可能（<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/index.html" target="_blank">ITC-LMSの詳細</a>，<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html" target="_blank">Q&A</a>）．
-  * **Web会議システム**: リアルタイムに会議・授業ができるシステム．現在 GoogleハングアウトMeet，Zoom，Webex の3種類が利用できる．使い方については本ポータルサイトでそれぞれ説明．
-  * **G Suite for Education**: 本学の Googleアカウント（ECCS クラウドメール）で利用できる Google のクラウドサービス．ファイルを共有するための Google Drive，文書ファイルを協働編集するための Google Docs などが使える（<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/26_2495.html" target="_blank">サービス詳細</a>，<a href="http://www.itc.u-tokyo.ac.jp/DigitalLife/perFile/12_ec_gakusei-cloud.pdf" target="_blank">利活用方法の例</a>）．  
-  * **Office 365**: 本学のアカウント（UTokyo Account）で利用できる Microsoft のサービス．文書作成ソフトの Word，表計算ソフトの Excel，プレゼンテーションソフトの PowerPoint などが利用できる（<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">Office 365 の詳細</a>: タイトルは UTokyo Microsoft License となっていますが Office 365 について説明があります）．
+![](img/service-overview.png)
+
+全体像は上記の図のようになっています. 以下で作業をしてほしい要素に限って説明します. 以下の作業中, このページに書かれている通りにならないなど, 問題を見つけた場合は [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) まで連絡を下さい. その際, (a) 以下のどのステップで, (b) 自分が何をしたら, (c) どんな結果になったか, を含めて下さい(「できませんでした」というだけの情報だとこちらで問題がわからない場合が多いです). 
+
+1. **UTokyo Account:** 他のサービスすべてのもととなる, 「あなたが東京大学の構成員である」ことを示すアカウントになります. 教職員であれば, これを使ったことがないという人はいないはずです. 令和2年度新規の教職員には, 2020/4/1 以降に配られる書類に, あなたのアカウント番号(10桁の数字. 共通IDという)と初期パスワードが書かれています.
+  * **作業:** [（新規の教職員向け）初期パスワードを変更](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)してください. [手順動画](https://youtu.be/tTpAlqVhEXQ)
+1. **UTAS (学務システム):** シラバスを登録したり, 成績の登録をしたりするのに使うシステムです. オンライン授業に関する情報も, このシステムを経由して提供することになるでしょう. 使うためにはUTokyo Accountが正しく設定されている必要があります.
+ * **作業:** UTokyo Account が使えれば，特に利用するための作業はありません.
+1. **ITC-LMS (学習管理システム):** 自分が担当する授業に関して, 資料を掲示したり, 課題を提出させたり, 出席を管理したりなどの用途に使います. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(シラバス登録)と後(成績登録), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 使うためにはUTokyo Accountが正しく設定されている必要があります. 
+ * **作業:** ITC-LMS [教員向けページ](../lms_teachers/)の指示に従い, お知らせの通知先を設定して下さい. [手順動画TODO](https://youtu.be/xAur5zar5Sc)
+1. **ECCS クラウドメール (G Suite for Education のことで，平たく言うと本学の構成員が持つ Google アカウントです):** 全教職員が利用できます．本学のWeb会議システムのアカウントを使うためには必須になります．また，Google アカウントであることから，ファイル置き場の Google Drive，文書作成サービスの Google Docs，表計算サービスの Google Spreadsheet，動画配信サービスの YouTube などが使えます．使うためにはUTokyo Accountが正しく設定されている必要があるのと, 使い始める際にシステムの有効化を行う必要があります.
+  * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (**手順動画作成中**).
+  * **作業:** 上記が終わってから実際にG Suite for Education が使える(Googleにログインできる)ようになるまで, 最大1時間ほどお待ち下さい（毎時0分に更新で反映まで5分程度かかります）. 待ったら, ログインしてどんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい([手順動画](https://youtu.be/mVMPFpTuemY))
+1. **Office 365 (Microsoft):** 文書作成ソフトの Word, 表計算ソフトの Excel， プレゼンテーションソフトの PowerPoint などが利用できるようになります．使うためにはUTokyo Accountが正しく設定されている必要があるのと, 使い始める際にシステムの有効化を行う必要があります.
+  * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) から「Office 365 ProPlus利用許諾」に合意し, Office 365の有効化をして下さい ([手順動画](https://youtu.be/OYl5P67mDYI)). できたらExcelのBookを一つ作ってみて下さい([手順動画](https://youtu.be/PcHlb-t2Dr8))
+
+
+ここで，注意してほしいのは, GoogleもMicrosoftも, すでに自分で使っているという人もいるとおもいますが, そういう人も**大学のアカウントで使えるように**しないといけないということです. オンライン授業をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, そういう場合, 普段使っているGoogleやMicrosoftのアカウントでログインしている状態では見られない, ということになり得ます.
+
+
+ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順は上の動画でも説明していますが, それらのシステムでどんなことができるかも含め, 東京大学[初年次ゼミナールのページ](https://fye.c.u-tokyo.ac.jp/students/)にある, 『東京大学ICT活用ハンドブック（文理共通）』 ([2019年度版](pdf/01_2019_ict.pdf))で詳しく説明しています. 以下の, 最低限必要な節だけは必ず読んで指示に従ってください. もうじき2020年度版が発行されますので, 上記ページを小まめに訪れてください.
+
+ * Step 1.3 **マイクロソフトアカウント**の有効化
+ * Step 1.4 **ECCS クラウドメール**の設定
 
 
 ## オンライン授業の主な形態  
 　ここでは，従来の授業と比較しながら，オンライン授業の主な形態3つを紹介し，それぞれの形態の説明と配慮が必要な[著作権（執筆中）]()とオンライン授業（メディア授業）としての要件の説明を行います．  
-
-## オンライン授業の主な形態
-　ここでは，オンライン授業の主な形態を3つ紹介します．オンライン授業を実施するにあたって，参考にしていただければ幸いです．  
 
 ![従来の授業とオンライン授業の主な形態](img/types_overview.png)
 
@@ -82,8 +86,23 @@ title: 教員のための，オンライン授業を行うにあたって
     1. 当該授業に関する学生の意見交換の機会の確保が必要（学習管理システム ITC-LMS の掲示板機能で実現可能）
 
 
-　
+## 各授業方法のオンライン化（執筆中）
 
 
+## 著作権について（執筆中）
 
+
+## 機材について （執筆中）
+
+
+## 実践例・参考情報（作成中）
+
+ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  
+資料をお持ちの方でご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  
+現時点では，箇条書きでご紹介させていただきますが，情報が増えてきましたら別途整理などさせていただく予定です．
+
+
+* [PC1台でできるオンライン講義](materials/online_example_1pc.pptx) \[Powerpoint\] (工学系・川原先生)
+* [Zoom利用の手引き0.3](materials/zoom_v03.docx) \[Word\]（工学系・相田先生）
+* [Google meetを使ったグループワーク型授業の例](materials/google_meet_groupwork.pptx) \[Powerpoint\] (工学系・柳澤先生)
 
