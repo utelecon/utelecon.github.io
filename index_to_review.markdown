@@ -107,6 +107,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 オンライン授業関連
 ---------------------------
+
 * [オンライン授業の実例・参考情報](online_teaching/resources)
 
 連絡チャネル
