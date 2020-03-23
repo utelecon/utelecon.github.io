@@ -8,6 +8,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 * Many apologies for the site primarily in Japanese (yet).  Working around the clock to put everything barely in good shape ...
 * We will work on translations, but meanwhile, please use the "English (Google Translation)" link to machine-translate the page.
 
+* 本学において，「対面での講義は最小限とし、オンライン化を奨励し推進する」という方針が<a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">発表</a>されました．
 * 本サイトは，東京大学の学生・教職員に向けた，オンライン授業やWeb会議に関する情報をワンストップで得られることを目指すサイトです．  
 * 日々状況が変わっており，また急遽作成していることから，作成途中のところがあったり，頻繁に内容が更新されたりする点，ご了承ください．
 * 本サイトは東京大学情報基盤センターと大学総合教育研究センターが立ち上げましたが，さらなる協力者を歓迎しています．
