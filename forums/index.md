@@ -15,7 +15,7 @@ title: QAフォーラム及びアナウンス用メーリングリストにつ�
 
 **方法1:** <font color="red">以下のフォーム(アクセスすると, UTokyo Accountでのログインを求められます)にご記入下さい
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUMFJEVjVPVFdVM0VZNUlVRlNJRk5ROU9OSC4u"> 加入フォーム(UTokyo Account必要) </a>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUMFJEVjVPVFdVM0VZNUlVRlNJRk5ROU9OSC4u" target="_blank"> 加入フォーム(UTokyo Account必要) </a>
 
 **方法2:** 上記のフォームへアクセスできない(UTokyo Accountアカウントがよくわからない)場合は, 情報システム部 情報戦略課情報戦略チーム  jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp へメールをお送りください.
 
