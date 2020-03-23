@@ -13,12 +13,13 @@ title: QAフォーラム及びアナウンス用メーリングリストにつ�
 加入の仕方 (以下のどれでも良い)
 ---------------------------
 
-**方法1:** <font color="red">準備中です. できるまでは方法2か3をご利用下さい.</font> 以下のフォーム(アクセスすると, UTokyo Accountでのログインを求められます)にご記入下さい
+**方法1:** 以下のフォーム(アクセスすると, UTokyo Accountでのログインを求められます)にご記入下さい
+* [QAフォーラム，アナウンスのためのメーリングリストへの登録フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUMFJEVjVPVFdVM0VZNUlVRlNJRk5ROU9OSC4u)
 
-**方法2:** 上記のフォームへアクセスできない(UTokyo Accountアカウントがよくわからない)場合は, 情報システム部 情報戦略課情報戦略チーム jouhousoumu.adm@gs.mail.u-tokyo.ac.jp へメールをお送りください.
+**方法2:** 上記のフォームへアクセスできない(UTokyo Accountアカウントがよくわからない)場合は, 情報システム部 情報戦略課情報戦略チーム jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp へメールをお送りください.
 
 ```
-To: jouhousoumu.adm@gs.mail.u-tokyo.ac.jp
+To: jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp
 
 
 情報システム部 情報戦略課情報戦略チーム 御中
@@ -31,4 +32,5 @@ To: jouhousoumu.adm@gs.mail.u-tokyo.ac.jp
 
 * [https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group)
 * [https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-announce-group](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group)
+
 
