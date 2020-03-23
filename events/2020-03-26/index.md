@@ -11,7 +11,8 @@ title: 2020/03/26 説明会: オンライン授業の学生への通知方法
 内容:
  * 挨拶(3分) 大久保達也 工学系研究科長, 次期教育担当理事
  * 説明(37分) 田浦健次朗 情報基盤センター長
- * 質疑(50分) 
+ * 休憩(5分)
+ * 質疑(45分) 
 
 参加いただきたい方:
  * 研究科・学部など教務担当, 学科・専攻など教務ご担当
@@ -23,4 +24,5 @@ title: 2020/03/26 説明会: オンライン授業の学生への通知方法
 * 説明会スライド <!-- [pdf](xxxx.pdf), [pptx](xxxx.pptx) -->
 * 参加申し込み <!-- [参加申し込み](https://tinyurl.com/xxxxxx) -->
 * [質問箱](https://admin.sli.do/event/5lger88n/questions) (sli.do へ行き, イベントコード tsuuchi )
-* [接続トラブル報告](https://tinyurl.com/rpf3brz)
+* [接続トラブルの場合](https://tinyurl.com/rpf3brz)
+* [実験 (UTokyo Accountでアクセス)](https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq)
