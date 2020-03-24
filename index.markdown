@@ -16,6 +16,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 ---------------------------
 
  * <span style="color:blue;">2020/3/24:</span> 3/26 に [説明会: オンライン授業の学生への通知方法](events/2020-03-26/) を行います.
+ * <span style="color:blue;">2020/3/24:</span> 2020/3/19の<a href="https://utelecon.github.io/events/2020-03-13/" target="_blank">説明会動画</a>を限定公開しました
  * <span style="color:blue;">2020/3/21:</span> 4月から大学一年生になる新入生およびご家族への, <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_blank">太田邦史教養学部長からのメッセージ</a> (3/19発表)
  * <span style="color:blue;">2020/3/21:</span> <a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">総長メッセージ</a> (3/18発表)
  * <span style="color:blue;">2020/3/21:</span> [オンライン基礎講座 Zoom の使い方の実施報告](events/2020-03-19/report)を公開しました．  
