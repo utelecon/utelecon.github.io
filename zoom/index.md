@@ -27,7 +27,12 @@ title: Zoom
   1. ミーティングを行います
     * <a href="how_to_use" target="">開催者・参加者共通の使い方</a>
 	* <a href="how_to_use_host" target="">開催者特有の使い方</a>
-	* 授業での使い方は以下の通り
+	* 授業での使い方（共通編）
+	  * <a href="how_to_use_in_classroom_common#use_mic_and_camera">マイクとカメラの設定を変更する（ミュートする，マイクのチェックする，カメラをオンオフするなど）</a>
+	* 授業での使い方（学生編）
+	  * <a href="">手を挙げる方法（作成中）</a>
+	* 授業での使い方（教員編）
+	  * <a href="how_to_use_in_classroom_faculty_members#schedule">授業をスケジュールする</a>
       * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）</a>
       * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）</a>
       * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）</a>
