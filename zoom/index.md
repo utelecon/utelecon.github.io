@@ -43,11 +43,11 @@ title: Zoom
   <br>
 * 授業での使い方（教員編）
   * <a href="how_to_use_in_classroom_faculty_members#schedule">授業をスケジュールする</a>
-  * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）</a>
-  * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）</a>
-  * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）</a>
-  * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）</a>
-  * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）</a>
+  * <a href="" target="">［画面共有］資料を提示する（作成中）</a>
+  * <a href="" target="">［チャット］質問を受け付ける（作成中）</a>
+  * <a href="" target="">［投票］学生に質問する（作成中）</a>
+  * <a href="" target="">［ブレイクアウト］グループワークを促す（作成中）</a>
+  * <a href="" target="">［レコーディング］授業を録画する（作成中）</a>
 
 
 ## 参考情報
