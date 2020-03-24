@@ -7,7 +7,8 @@ title: Zoom 授業での使い方（教員編）
 また，できるだけ多くの動画を作ることを目指していることから，簡単な編集になっていること，ご了承いただければ幸いです．   
 
 <a name="schedule"> </a>
-## 授業で使う部屋（会議室）を予約する
+## 全13回の授業で使う部屋（会議室）を予約する
 
 <iframe width="978" height="611" src="https://www.youtube.com/embed/rf_Tw0L5PLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
