@@ -17,8 +17,7 @@ title: Zoom
   * PC，タブレット，スマートフォンなど接続用デバイスを用意します
     * マイクやカメラがデバイスに内蔵されていない場合はそれらも用意します
     * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します  
-  
-  
+    
 * 開催者
   1. Zoom をインストールします（<a href="install" target="">詳細</a>）  
   1. アカウントを作成します（<a href="create_account" target="">詳細</a>）
@@ -27,23 +26,29 @@ title: Zoom
   1. ミーティングを行います
     * <a href="how_to_use" target="">開催者・参加者共通の使い方</a>
 	* <a href="how_to_use_host" target="">開催者特有の使い方</a>
-	* 授業での使い方（共通編）
-	  * <a href="how_to_use_in_classroom_common#use_mic_and_camera">マイクとカメラの設定を変更する（ミュートする，マイクのチェックする，カメラをオンオフするなど）</a>
-	* 授業での使い方（学生編）
-	  * <a href="">手を挙げる方法（作成中）</a>
-	* 授業での使い方（教員編）
-	  * <a href="how_to_use_in_classroom_faculty_members#schedule">授業をスケジュールする</a>
-      * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）</a>
-      * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）</a>
-      * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）</a>
-      * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）</a>
-      * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）</a>
   
 * 参加者
   1. Zoom をインストールします（<a href="install" target="">詳細</a>）  
   1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます
   1. 会議室へ入ります（<a href="join" target="">詳細</a>）
   1. ミーティングを行います（<a href="how_to_use" target="">具体的なZoomの使い方</a>）
+
+## 授業での使い方
+
+* 学生・教員共通編
+  * <a href="how_to_use_in_classroom_common#use_mic_and_camera">マイクとカメラの設定を変更する（ミュートする，マイクのチェックする，カメラをオンオフするなど）</a>
+	<br>
+* 授業での使い方（学生編）
+  * <a href="">手を挙げる方法（作成中）</a>
+  <br>
+* 授業での使い方（教員編）
+  * <a href="how_to_use_in_classroom_faculty_members#schedule">授業をスケジュールする</a>
+  * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）</a>
+  * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）</a>
+  * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）</a>
+  * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）</a>
+  * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）</a>
+
 
 ## 参考情報
 [Q&A](qa)  
