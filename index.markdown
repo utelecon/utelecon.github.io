@@ -15,6 +15,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
+ * <span style="color:blue;">2020/3/25:</span> <a href="https://komabataskforce.wixsite.com/forstudents" target="_blank">教養学部・大学院総合文化研究科 講義オンライン化に関する情報サイト</a> (3/24公開)
  * <span style="color:blue;">2020/3/24:</span> 3/26 に [説明会: オンライン授業の学生への通知方法](events/2020-03-26/) を行います.
  * <span style="color:blue;">2020/3/24:</span> 3/13の<a href="https://utelecon.github.io/events/2020-03-13/" target="_blank">説明会動画</a>を限定公開しました
  * <span style="color:blue;">2020/3/21:</span> 4月から大学一年生になる新入生およびご家族への, <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_blank">太田邦史教養学部長からのメッセージ</a> (3/19発表)
