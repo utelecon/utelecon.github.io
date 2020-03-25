@@ -1,19 +1,17 @@
 ---
-title: FAQ: よくある質問
+title: FAQ よくある質問
 ---
 
-このページでは，よくある質問に回答していきます．  
-
-Q. **ITC-LMSって何ですか？**
+Q. **ITC-LMSって何ですか？**  
 A. 本学の学習管理システムです．学生は，自分が履修した授業に関して，教員が配布した資料を閲覧できたり，課題を提出したり，教員が作っていた場合は掲示板で議論したり質問したり，アンケートに答えたり，試験を受けたりできます．参考リンク: <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/index.html" target="_blank">ITC-LMSについて</a>，<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html" target="_blank">よくある質問</a>   
 
   
 
-Q. **ECCSクラウドメールって何ですか？**
+Q. **ECCSクラウドメールって何ですか？**  
 A. 平たく言うと本学のGoogleメールです．つまり，このアカウントは Google のアカウントなので，Google のサービスである Google Drive（ファイル置き場），Google Docs（Word に似たもの），Googleスプレッドシート（Excel に似たもの），Google フォーム（Webアンケート），YouTube などが使えます．参考リンク: <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/26_2495.html" target="_blank">利用の手引</a>，<a href="http://www.itc.u-tokyo.ac.jp/DigitalLife/perFile/12_ec_gakusei-cloud.pdf" target="_blank">ECCSクラウドメールの利活用</a>  
   
   
-Q. **出席はどうやってとればよいの？**
+Q. **出席はどうやってとればよいの？**  
 A. 以下のような方法があります．
   * ITC-LMS の<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1904.html" target="_blank">出席管理</a>を使う
   * Googleフォームや Microsoft Forms などのWebアンケートを使う
