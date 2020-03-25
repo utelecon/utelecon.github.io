@@ -8,10 +8,10 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
 の説明に従って利用申請をして下さい。
 
 ## 利用の流れ
- 1. ITC-LMSにログインします (<a href="login" target="">詳細</a>)
- 1. 通知の設定をします．(<a href="information" target="">詳細</a>)
- 1. 出講表から自分の講義を選びます (<a href="timetable" target="">詳細</a>)
- 1. コースの設定をします．(<a href="course_settings" target="">（作成中）</a>)
+ 1. ITC-LMSにログインする (<a href="login" target="">詳細</a>)
+ 1. 通知の設定をする (<a href="information" target="">詳細</a>)
+ 1. 出講表から自分の講義を選ぶ (<a href="timetable" target="">詳細</a>)
+ 1. コースの設定をする(<a href="course_settings" target="">（作成中）</a>)
 
 ## 授業準備の流れ
  1. 教材を置く (<a href="course_materials" target="">（作成中）</a>)
