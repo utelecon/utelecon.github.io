@@ -13,6 +13,7 @@ title: オンライン授業の実例・参考情報
 * Google meetを使ったグループワーク型授業の例 [\[PDF\]](materials/google_meet_groupwork.pdf)  (工学系・柳澤先生)
 
 
-## リンク集（作成中）
+## リンク集（随時追加中）
 
+* 教養学部・大学院総合文化研究科 講義オンライン化に関する情報サイト（学生向け情報）: <a href="https://komabataskforce.wixsite.com/forstudents" target="_blank">https://komabataskforce.wixsite.com/forstudents</a>  
 
