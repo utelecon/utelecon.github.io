@@ -24,7 +24,7 @@ title: 2020/03/26 説明会: オンライン授業の学生への通知方法
 * 説明会スライド [pdf](notification.pdf), [pptx](notification.pptx)
 * [参加申し込み](https://tinyurl.com/vzfpuv8)
 * [オンライン会議参加](https://tinyurl.com/sfru5xl) 13:00ごろから参加可能の予定です
-* [質問箱](https://admin.sli.do/event/5lger88n/questions) (sli.do へ行き, イベントコード tsuuchi )
+* [質問箱](https://sli.do/event/5lger88n/questions) (sli.do へ行き, イベントコード tsuuchi )
 * [接続トラブルの場合](https://tinyurl.com/rpf3brz)
 
 * 動画
