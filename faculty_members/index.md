@@ -101,10 +101,6 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 ## 各授業方法のオンライン化（執筆中）
 
 
-## 著作権について（執筆中）
-
-
-## 機材について （執筆中）
 
 
 ## 実践例・参考情報（作成中）
@@ -114,7 +110,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 現時点では，箇条書きでご紹介させていただきますが，情報が増えてきましたら別途整理などさせていただく予定です．
 
 
-* [PC1台でできるオンライン講義](materials/online_example_1pc.pptx) \[Powerpoint\] (工学系・川原先生)
-* [Zoom利用の手引き0.3](materials/zoom_v03.pdf) \[PDF\]（工学系・相田先生）
-* [Google meetを使ったグループワーク型授業の例](materials/google_meet_groupwork.pdf) \[PDF\] (工学系・柳澤先生)
+* PC1台でできるオンライン講義 [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[MPEG4\]](materials/online_example_1pc.mp4) (工学系・川原先生)
+* Zoom利用の手引き0.3 [\[PDF\]](materials/zoom_v03.pdf)（工学系・相田先生）
+* Google meetを使ったグループワーク型授業の例 [\[PDF\]](materials/google_meet_groupwork.pdf)  (工学系・柳澤先生)
 

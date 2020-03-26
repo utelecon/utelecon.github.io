@@ -13,7 +13,7 @@ A. 2つの方法があります．
   
   
 Q. **ECCS 端末で Zoom を利用可能でしょうか？**  
-A.  イヤホンやヘッドセットを持参すれば利用可能です．本格的なオンライン授業の開始に向けて，マイクの利用形態については現在検討中です．当面は，周りの迷惑にならない範囲でご利用ください．ECCS端末の入出力端子については https://userguide.ecc.u-tokyo.ac.jp/current/C3BCCBF62FC6FEBDD0CECFB4C4B6AD.html でご確認ください．
+A.  イヤホンやヘッドセットを持参すれば利用可能です．本格的なオンライン授業の開始に向けて，マイクの利用形態については現在検討中です．当面は，周りの迷惑にならない範囲でご利用ください．ECCS端末の入出力端子については https://userguide.ecc.u-tokyo.ac.jp/current/C3BCCBF62FC6FEBDD0CECFB4C4B6AD.html でご確認ください．（参考ページ: <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/23_3147.html" target="_blank">ECCS端末でのオンライン授業・Web会議への参加</a>）
 
 
 

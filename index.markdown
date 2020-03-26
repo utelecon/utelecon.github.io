@@ -15,6 +15,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
+ * <span style="color:blue;">2020/3/24:</span> 3/19の<a href="https://utelecon.github.io/events/2020-03-19/" target="_blank">Zoom 基礎講座の動画（暫定版）</a>を限定公開しました
  * <span style="color:blue;">2020/3/24:</span> 3/26 に [説明会: オンライン授業の学生への通知方法](events/2020-03-26/) を行います.
  * <span style="color:blue;">2020/3/24:</span> 3/13の<a href="https://utelecon.github.io/events/2020-03-13/" target="_blank">説明会動画</a>を限定公開しました
  * <span style="color:blue;">2020/3/21:</span> 4月から大学一年生になる新入生およびご家族への, <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_blank">太田邦史教養学部長からのメッセージ</a> (3/19発表)
@@ -37,11 +38,36 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * <a href="webex/">WebEx</a>
 * <a href="compare">3ツールの比較</a>
 
-東京大学 オンライン授業に必須のシステム
+オンライン授業に向けて
 ---------------------------
 
-* [学生](oc)用
-* 教員用 (執筆中ですが, 実際の作業はほぼ[学生](oc)用と同じです)
+* [新入生・在学生のための, オンライン授業を受けるための準備](oc)
+* 教員の準備 (執筆中ですが, 実際の作業はほぼ[学生](oc)用と同じです)
+* [オンライン授業の実例・参考情報](resources/)  
+
+
+イベント
+---------------------------
+
+* 2020/03/26 [説明会: オンライン授業の学生への通知方法](events/2020-03-26/)  
+* 2020/03/19 [オンライン基礎講座 Zoom の使い方](events/2020-03-19/)  
+* 2020/03/13 [授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会](events/2020-03-13/)
+
+
+連絡チャネル
+---------------------------
+
+* [QAフォーラムとメーリングリスト](forums/)
+* <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
+* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
+
+
+
+
+
+<!--
+* [FAQ: よくある質問](resources/faq)
+-->
 
 <!--
 * UTokyo Account: 様々なシステムの共通アカウント
@@ -90,18 +116,4 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
   * TV会議を録画
   * パワーポイント講義を録画
  -->
-
-イベント
----------------------------
-
-* 2020/03/19 [オンライン基礎講座 Zoom の使い方](events/2020-03-19/)  
-* 2020/03/13 [授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会](events/2020-03-13/)
-
-
-連絡チャネル
----------------------------
-
-* [QAフォーラムとメーリングリスト](forums/)
-* <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
-* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
 
