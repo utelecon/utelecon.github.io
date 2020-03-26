@@ -44,6 +44,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * [新入生・在学生のための, オンライン授業を受けるための準備](oc)
 * 教員の準備 (執筆中ですが, 実際の作業はほぼ[学生](oc)用と同じです)
 * [オンライン授業の実例・参考情報](resources/)  
+* [FAQ: よくある質問](resources/faq)
 
 
 イベント
@@ -66,7 +67,6 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 
 <!--
-* [FAQ: よくある質問](resources/faq)
 -->
 
 <!--
