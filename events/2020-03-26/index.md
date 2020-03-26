@@ -28,8 +28,9 @@ title: 2020/03/26 説明会: オンライン授業の学生への通知方法
 * [接続トラブルの場合](https://tinyurl.com/rpf3brz)
 
 * 動画
-  * (教員またはその代理) [オンライン授業URL登録](https://youtu.be/rlHrutdrjbo)
-  
+  * (教員またはその代理) [オンライン授業のURLをUTASに登録する](https://youtu.be/rlHrutdrjbo)
+  * (学生) [UTASでオンライン授業URLを得る](https://youtu.be/J9dnXmFiIcI)
+
 
 <!--
 * [UTokyo AccountでExcelシートへアクセスする実験](https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq)
