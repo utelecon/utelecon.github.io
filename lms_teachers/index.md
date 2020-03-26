@@ -11,13 +11,13 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
  1. ITC-LMSにログインする (<a href="login" target="">詳細</a>)
  1. 通知の設定をする (<a href="information" target="">詳細</a>)
  1. 出講表から自分の講義を選ぶ (<a href="timetable" target="">詳細</a>)
- 1. コースの設定をする(<a href="course_settings" target="">（作成中）</a>)
+ 1. コースの設定をする(<a href="course_settings" target="">詳細</a>)
 
 ## 授業準備の流れ
- 1. 教材を置く (<a href="course_materials" target="">（作成中）</a>)
- 1. 授業中に出席を取る準備をする (<a href="prepare_attendances" target="">（作成中）</a>)
- 1. 小テストを作成する (<a href="prepare_quizzes" target="">（作成中）</a>)
- 1. 課題を作成する (<a href="assignments" target="">（作成中）</a>)
+ 1. 教材を置く (<a href="course_materials" target="">詳細</a>)
+ 1. 授業中に出席を取る準備をする (<a href="prepare_attendances" target="">詳細</a>)
+ 1. 小テストを作成する (<a href="prepare_quizzes" target="">（作成中）</a>)<!-- 品川先生 -->
+ 1. 課題を作成する (<a href="assignments" target="">（作成中）</a>)<!-- 品川先生 -->
 
 ## 授業中の流れ
  1. 出席管理のためのコードを学生に知らせる  (<a href="attendances" target="">（作成中）</a>)
@@ -29,3 +29,15 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
 * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
 * ITC-LMSの教員用マニュアルはログイン後にダウンロードできます．
 
+## サブページ一覧
+* <a href="login" target="">ITC-LMS へのログイン</a>  
+* <a href="information" target="">お知らせの通知先を設定する</a>  
+* <a href="timetable" target="">出講表の確認</a>  
+* <a href="course_settings" target="">コースの設定をする</a>  
+* <a href="course_materials" target="">教材を置く</a>
+* <a href="prepare_attendances" target="">授業中に出席を取る準備をする</a>
+* <a href="prepare_quizzes" target="">小テストを作成する</a>
+* <a href="assignments" target="">課題を作成する</a>
+* <a href="attendances" target="">出席管理のためのコードを学生に知らせる</a>)
+* <a href="view_attendances" target="">出席状況を確認する</a>
+* <a href="quizzes" target="">小テストを実施する</a>
