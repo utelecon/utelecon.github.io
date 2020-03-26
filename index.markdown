@@ -47,7 +47,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 参考情報
 ---------------------------
-* [オンライン授業の実例・参考情報](resources/)
+* [オンライン授業の実例・参考情報](resources/)  
 <!--
 * [FAQ: よくある質問](resources/faq)
 -->
