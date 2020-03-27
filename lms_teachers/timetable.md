@@ -28,3 +28,9 @@ title: 出講表の確認
   * 出講表の下の方にある「集中コース等」にコースが含まれてないかどうか確認してください．
 
 
+## 参考情報
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/03/12_1822.html">ITC-LMSを利用するにはどうしたら良いですか？（教員）</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/09/03_1946.html">ITC-LMS で前学期の時間割を表示したい (学生・教員)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/08/22_1942.html">ITC-LMS のコース登録時期について</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/03/30_2026.html">ITC-LMS のコース登録について (学務システムとの自動連携機能)</a>
