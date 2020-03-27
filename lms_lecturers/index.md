@@ -17,7 +17,7 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
 ## 授業準備の流れ
  1. 教材を置く (<a href="course_materials" target="">詳細</a>)
  1. 授業中に出席を取る準備をする (<a href="prepare_attendances" target="">詳細</a>)
- 1. 小テストを作成する (<a href="prepare_quizzes" target="">（作成中）</a>)
+ 1. 小テストを作成する (<a href="prepare_quizzes" target="">詳細</a>)
  1. 課題を作成する (<a href="assignments" target="">（作成中）</a>)
 
 ## 授業中の流れ
