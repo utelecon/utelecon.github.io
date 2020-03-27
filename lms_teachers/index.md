@@ -4,6 +4,7 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
 
 ## はじめに
 * 東京大学のUTokyo Account保持者であれば，誰でも学習管理システム <a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">ITC-LMS</a> を使うことができます．
+* ここでは，オンライン講義でITC-LMSを使う場合に主に利用する機能に限って，最低限の利用法を説明します．詳しい説明に関しては，ITC-LMSにログイン後にダウンロードできる教員用マニュアルを参照してください．
 * 講義で使う場合，UTAS に登録されている科目は、自動的に ITC-LMS にコースとして登録されています。それ以外の講義やセミナー等で ITC-LMS をご利用になる場合は、<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/" target="_blank">広報サイト</a>
 の説明に従って利用申請をして下さい。
 
@@ -20,8 +21,8 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
  1. 課題を作成する (<a href="assignments" target="">（作成中）</a>)<!-- 品川先生 -->
 
 ## 授業中の流れ
- 1. 出席管理のためのコードを学生に知らせる  (<a href="attendances" target="">（作成中）</a>)
- 1. 出席状況を確認する  (<a href="view_attendances" target="">（作成中）</a>)
+ 1. 出席管理のためのコードを学生に知らせる  (<a href="attendances" target="">（詳細) </a>)
+ 1. 出席状況を確認する  (<a href="view_attendances" target=""> (詳細) </a>)
  1. 小テストを実施する  (<a href="quizzes" target="">（作成中）</a>)
 
 ## 参考情報
