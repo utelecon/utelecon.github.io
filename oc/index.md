@@ -126,10 +126,10 @@ UTokyo Accountのアカウント番号@utac.u-tokyo.ac.jp
     <a name="check-google-spreadsheet-pattern-2"> </a>
    * **パターン2:** Googleに別のアカウント(例えば自分が普段使っているyyyy@gmail.com)でログインしている場合は「権限が必要です」という窓が出てきます.
      * PC/Macの場合: 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでログインして下さい. 「アクセス権限のリクエスト」**ではありません.**  すでに何人かの人が「アクセス権限のリクエスト」を送っているようですが, 気にせずもう一度上記からアクセスして, **「アカウントを切り替える」**を選び直して下さい(この場合の<a href="https://youtu.be/yLQcnfZo_24" target="_blank">手順動画</a>).
-     * <font color="red">(3/27)</font> Androidの場合: Gmailの受信トレイ -&gt; 右上のアイコン -&gt; 「別のアカウントを追加」 -&gt; Google を選び, ログイン画面で今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください. (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">手順動画</a>)
+     * **(3/27追加)** Androidの場合: Gmailの受信トレイ -&gt; 右上のアイコン -&gt; 「別のアカウントを追加」 -&gt; Google を選び, ログイン画面で今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください. (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">手順動画</a>)
     <a name="check-google-spreadsheet-pattern-3"> </a>
    * **パターン3:** そもそもGoogleにログインしていない場合は「ユーザ認証に失敗しました」と表示された後, Googleへのログインを促す画面が出てくるので大学のアカウントでログインして下さい(この場合の<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">手順動画</a>).  
-     * <font color="red">(3/27)</font> Androidの場合: Gmailの受信トレイ -&gt; 右上のアイコン -&gt; 「別のアカウントを追加」 -&gt; Google を選び, ログイン画面で今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください. (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">手順動画</a>)
+     * **(3/27追加)** Androidの場合: Gmailの受信トレイ -&gt; 右上のアイコン -&gt; 「別のアカウントを追加」 -&gt; Google を選び, ログイン画面で今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください. (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">手順動画</a>)
    * どうであれ無事見られれば, G Suite for Education (ECCSクラウドメール)の有効化ができています. ただし, 現在中国にいる人はこのシートにはつなげません. Microsoft Excelの方だけ確認してください
  * <font color="red">3/25 NEW</font> Zoomにつないでみよう: できたら, どちらかのシート(どちらでもよいです)に書かれている, Zoomの横にある URL をクリックして, それぞれの TV 会議システムにつないでみましょう. クリックすると, スマホでもPCでもMacでも, ブラウザの中で始まるかも知れませんし, 何かアプリを入れるように言われるかもしれません. 言われたら入れてください. 入れ方がわからなくなったらブラウザの中で見ても良いですし, このサイト内にある[Zoom](../zoom/)のページを見てインストールしてみて下さい. 
    * つなぐとナレーション付きの, TV会議ソフト使い方スライドショーが流れています.
