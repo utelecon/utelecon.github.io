@@ -1,50 +1,162 @@
 ---
-title: Web会議 WebEx の使い方
+title: Web会議 Webex の使い方
 ---
 
 
 ## はじめに
-* ここでは Web会議システム WebEx の特徴や利用の流れについて説明します．このページでは全体的な特徴や大まかな流れを説明し,具体的な部分はサブページで説明します.
-* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで WebEx を使えます.
-* 2020年3月11日現在，2020年6月8日までは 本学のGoogleメール（共通ID10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールと呼びます）のメールアドレスで WebExアカウントを作成し，WebExによってオンラインで会議や授業を行うことができます．
-* 参考：[90days cisco WebExについてのお知らせ](https://www.u-tokyo.ac.jp/adm/dics/ja/90dayswebex.html)
 
-## サブページ一覧
-* <a href="activate_eccs_account" target="_blank">ECCSクラウドメールの有効化（開催者）<a/>  
-* <a href="create_webex_account" target="_blank">WebExアカウントの作り方（開催者）<a/>  
-* <a href="create_meeting" target="_blank">会議室の作り方と周知の仕方（開催者）<a/> 
-* <a href="open_meeting" target="_blank">会議の始め方（開催者）<a/> 
-* <a href="join_meeting" target="_blank">会議室の入り方（参加者）<a/> 
-* <a href="do_meeting_participant" target="_blank">会議室でできること（参加者）<a/> 
-* <a href="do_meeting_owner" target="_blank">会議室でできること（開催者）<a/> 
-
-
-## 特徴
-* 会議または授業（以降会議）の開催者はアカウントを作成することで，会議を開催できます．
-* 会議室の URL からアクセスすることでアカウントを作成しなくても参加者は会議に参加可能です．
+* 会議室に参加するだけであればアカウントを作る必要はありません	
+* 2020年6月8日まで（それ以降は検討中）は本学のGoogleメール（共通ID10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールと呼びます）のメールアドレスで Webexアカウントを作成し，Webexによってオンラインで会議や授業を行うことができます．
 * 同時接続可能数は1000です．
-* WebExは6月8日まで利用可能であることが決まっています（その先は未定です）．
+* **Webex Meetingsを使用する場合，最大200台までテレビ会議システム（いわゆるPolycom等）を接続することができますが，6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．また，テレビ会議システムから何でもかんでもできるわけではありません．テレビ会議システムからの参加は事前に十分味見をしてからどうぞ．**
+* ここでは Web会議システム Webex の特徴や利用の流れについて説明します．このページでは全体的な特徴や大まかな流れを説明し,具体的な部分はサブページで説明します.
+* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで WebEx を使えます.
+* 参考：[UTokyo 90 Days Cisco Webex](https://www.u-tokyo.ac.jp/adm/dics/ja/90dayswebex.html)
 
-## 利用の流れ
+### Webexサービスについて
 
-### 開催者
-  * PC，タブレット，スマートフォンなど接続用デバイスを用意します．
-    * マイクやカメラが内蔵されていない場合はそれらも用意します．
-    * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します
-  * ECCSクラウドメールを有効化します．(具体的な方法は<a href="activate_eccs_account" target="_blank">こちら</a>）
-  * Web ブラウザ（Chrome，Firefoxなど）を用意します．
-  * WebExアカウントを作成し，ログインします．(具体的な方法は<a href="create_webex_account" target="_blank">こちら</a>）
-  * 会議室を設定します．(具体的な方法は<a href="create_meeting" target="_blank">こちら</a>）
-  * 会議室を開き(具体的な方法は<a href="open_meeting" target="_blank">こちら</a>），会議室に入ります(具体的な方法は<a href="join_meeting" target="_blank">こちら</a>）.
-  * 会議を行います(具体的な方法は<a href="do_meeting_owner" target="_blank">こちら</a>）．
-  
-### 参加者
-  * PC，タブレット，スマートフォンなど接続用デバイスを用意します．
-    * マイクやカメラが内蔵されていない場合はそれらも用意します．
-    * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します，
-  * Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールします．
-  * 主催者より送られた会議室ID等を用いて，会議室へ入り(具体的な方法は<a href="join_meeting" target="_blank">こちら</a>），会議に参加します会議を行います(具体的な方法は<a href="do_meeting_participant" target="_blank">こちら</a>）．
+* Webexは，一般的には**Webex Meetings**が使われていますが，ほかにも**Webex Training**，**Webex Events**，**Webex Support**の全部で４種類があります．それぞれ長短があります．
+	* [詳細な比較はこちらから](https://www.cisco.com/c/ja_jp/products/conferencing/product_comparison.html)
+
+* **Webex Meetings**
+	* 最大参加者数は1,000．うちテレビ会議システムからの接続最大200を含む．
+	* **テレビ会議システム（いわゆるPolycom等）からの接続が可能．**
+	* 参加者同士が同じ立場で，双方向でやりとりのある会議等に使われることが多い．
+* **Webex Training**
+	* 最大参加者数は1,000．
+	* **ブレイクアウトセッションをおこなうことができる．**
+	* ブレイクアウトセッションが必要なインタラクティブな講義等に使われることが多い．
+* **Webex Events**
+	* 最大参加者数は1,000．{% comment %}
+	* **プレゼンターはテレビ会議システム（いわゆるPolycom等）からの接続が可能．**
+{% endcomment %}
+	* 1対nで，nが25を超えるような中～大規模なイベント等に用いられる．
+* Webex Support
+	* 1セッション5名、同時最大8セッション開催可能
+	* タブレット・スマートホンは不可．
+	* 基本的に1:1のITサポートに用いられる．
+
+
+## Webex Meetings利用の流れ
+
+* 開催者・参加者共通
+	* PC，タブレット，スマートフォンなど接続用デバイスを用意します．
+		* マイクやカメラが内蔵されていない場合はそれらも用意します．
+		* 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します．
+
+* 開催者
+	1. Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールします．
+	1. ECCSクラウドメールを有効化します（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">詳細</a>）
+	1. WebExアカウントを作成し，ログインします（<a href="create_webex_account" target="_blank">詳細</a>）
+	1. 会議室を設定します（<a href="create_meeting" target="_blank">詳細</a>）
+	1. 会議を開きます（<a href="open_meeting" target="_blank">詳細</a>）
+		* **会議を開始するためには，開催者が明示的に「開始」する必要があります．**
+		* <a href="do_meeting" target="_blank">会議室でできること（開催者・参加者）</a>
+		* <a href="do_meeting_host" target="_blank">会議室でできること（開催者）</a>
+{% comment %}
+		* 授業での使い方
+			* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
+			* <a href="classroom_chat" target="">［チャット］質問を受け付ける</a>執筆中
+			* <a href="classroom_poll" target="">［投票］学生に質問する</a>執筆中
+			* <a href="classroom_record" target="">［レコーディング］授業を録画する</a>執筆中
+{% endcomment %}
+
+	* <a href="open_meeting_vc" target="_blank">テレビ会議システムで会議を開きます</a>
+		* <a href="do_meeting_vc" target="_blank">会議室でできること（テレビ会議システムからの開催者・参加者）</a>
+{% comment %}
+		* 授業での使い方	
+			* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>	
+{% endcomment %}
+
+* 参加者
+	1. Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールします．
+	1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます．
+	1. 会議室へ入ります（<a href="join_meeting" target="_blank">詳細</a>）
+		* 開催者が会議を開始していない場合，会議の情報が表示されるだけで，会議室へは入れません．
+		* <a href="do_meeting" target="_blank">会議室でできること（開催者・参加者）</a>
+
+	* <a href="join_meeting_vc" target="_blank">テレビ会議システムで会議室へ入ります</a>
+		* 開催者が会議を開始していない場合，会議室に入れずにテレビ会議が切断されます．
+		* <a href="do_meeting_vc" target="_blank">会議室でできること（テレビ会議システムからの開催者・参加者）</a>
+
+## Webex Training利用の流れ
+
+執筆中
+
+{% comment %}
+
+* 開催者・参加者共通
+	* PC，タブレット，スマートフォンなど接続用デバイスを用意します．
+		* マイクやカメラが内蔵されていない場合はそれらも用意します．
+		* 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します．
+
+* 開催者
+	1. デスクトップアプリを接続用デバイスへインストールします．
+	1. ECCSクラウドメールを有効化します（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">詳細</a>）
+	1. WebExアカウントを作成し，ログインします（<a href="create_webex_account" target="_blank">詳細</a>）
+	1. トレーニングを設定します（<a href="create_training" target="_blank">詳細</a>）
+	1. トレーニングを開始します（<a href="open_training" target="_blank">詳細</a>）
+		* **トレーニングを開始するためには，開催者が明示的に「開始」する必要があります．**
+		* <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
+		* <a href="do_training_host" target="_blank">トレーニングでできること（開催者）</a>
+
+* 参加者
+	1. Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールします．
+	1. トレーニングの情報（URLなど）をメールなどを用いて開催者から得ます．
+	1. トレーニングに参加します（<a href="join_training" target="_blank">詳細</a>）
+		* 開催者がトレーニングを開始していない場合，情報が表示されるだけで，会議室へは入れません．
+		* <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
+{% endcomment %}
+
+## Webex Events利用の流れ
+
+執筆中
+
+{% comment %}
+
+* 開催者・参加者共通
+	* PC，タブレット，スマートフォンなど接続用デバイスを用意します．
+		* マイクやカメラが内蔵されていない場合はそれらも用意します．
+		* 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します．
+
+* 開催者
+	1. デスクトップアプリを接続用デバイスへインストールします．
+	1. ECCSクラウドメールを有効化します（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">詳細</a>）
+	1. WebExアカウントを作成し，ログインします（<a href="create_webex_account" target="_blank">詳細</a>）
+	1. イベントを設定します（<a href="create_events" target="_blank">詳細</a>）
+	1. イベントを開始します（<a href="open_events" target="_blank">詳細</a>）
+		* **イベントを開始するためには，開催者が明示的に「開始」する必要があります．**
+		* <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
+		* イベントでできること（開催者） 執筆中
+
+* 参加者
+	1. Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールします．
+	1. イベントの情報（URLなど）をメールなどを用いて開催者から得ます．
+	1. イベントに参加します（詳細） 執筆中
+		* 開催者がイベントを開始していない場合，情報が表示されるだけで，会議室へは入れません．
+		* <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
+{% endcomment %}
 
 ## 授業の例
+
 * 授業例は<a href="browse_samples" target="_blank">こちら</a>
-  
+
+## サブページ一覧
+* <a href="create_webex_account" target="_blank">Webex アカウントの作成とログイン</a>	
+* <a href="create_meeting" target="_blank">会議室を作成する</a> 
+* <a href="open_meeting" target="_blank">Webex 会議の開始</a> 
+* <a href="open_meeting_vc" target="_blank">Webex 会議の開始 （テレビ会議システム）</a> 
+* <a href="join_meeting" target="_blank">Webex 会議への参加</a> 
+* <a href="join_meeting_vc" target="_blank">Webex 会議への参加 （テレビ会議システム）</a> 
+* <a href="do_meeting" target="_blank">Webex 会議室でできること（開催者・参加者）</a> 
+* <a href="do_meeting_vc" target="_blank">Webex 会議室でできること（テレビ会議システムからの開催者・参加者）</a>
+* <a href="do_meeting_host" target="_blank">Webex 会議室でできること（開催者）</a> 
+{% comment %}
+* 授業での使い方
+	* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
+	* <a href="classroom_chat" target="">［チャット］質問を受け付ける</a>執筆中
+	* <a href="classroom_poll" target="">［投票］学生に質問する</a>執筆中
+	* <a href="classroom_record" target="">［レコーディング］授業を録画する</a>執筆中
+	* Webex Trainingのみ：<a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す</a>執筆中
+{% endcomment %}
+
