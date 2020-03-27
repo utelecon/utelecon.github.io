@@ -50,3 +50,8 @@ title: 教材を置く
 1. 「教材 登録内容確認」の画面になるので、内容を確認の上、「登録する」ボタンを押してください．
 
     ![教材 登録内容確認](img/material4.png)
+
+## 参考情報
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/16_1866.html">ITC-LMS に複数ファイルをアップロードしたい (学生・教員)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/18_1876.html">ITC-LMS で公開している教材の公開期間を変更したい (教員)</a>
