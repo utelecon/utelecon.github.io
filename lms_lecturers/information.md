@@ -1,5 +1,5 @@
 ---
-title: ## お知らせの通知先を設定する
+title: お知らせの通知先を設定する
 ---
 
 ITC-LMSにログインすると，受講者の活動(担当教員へのメッセージ送付，課題提出)を「お知らせ」として知ることができますが，あらかじめ設定をしておくと，メールやLINEで受け取ることができます．以下に，その方法を説明します．
@@ -61,3 +61,6 @@ ITC-LMSにログインすると，受講者の活動(担当教員へのメッセ
 
 ![LINEの設定](../lms_students/img/last.png)
 
+## 参考情報
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/21_1886.html">ITC-LMS のお知らせメールが英語で届く (教員・学生)</a>

@@ -24,26 +24,33 @@
 		.gnav {
 			font-size: 1.1rem;
 			display: flex;
-			height: 2rem;
+			max-height: 4rem;
 			margin: 0 auto;
 			padding-inline-start: 0px;
 		}
-		
-		.gnav > li {
+
+		@media (min-width: 672px) {
+			.gnav {
+				max-height: 2rem;
+			}
+		}
+
+
+		.gnav>li {
 			width: 50%;
 		}
 
 		.gnav li {
+			display: block;
 			list-style: none;
 			position: relative;
-		}
-		
-		.gnav li a {
 			border-right: 1px solid #eee;
 			border-left: 1px solid #eee;
+		}
+
+		.gnav li a {
 			color: #fff;
 			display: block;
-			height: 2rem;
 			line-height: 2rem;
 			text-align: center;
 			text-decoration: none;
@@ -52,32 +59,30 @@
 
 		// 子要素
 
-		.gnav ul{
+		.gnav ul {
 			padding-inline-start: 0px;
 		}
-		
+
 		.gnav li li {
 			background: #4d6675;
-			height: 0;
+			max-height: 0;
 			overflow: hidden;
-			transition: .5s;
+			transition: 1s;
 		}
-		
+
 		.gnav li li a {
 			border-top: 1px solid #eee;
 			border-bottom: 1px solid #eee;
 		}
-		
-		.gnav li > ul{
+
+		.gnav li>ul {
 			padding-inline-start: 0px;
 		}
-		
-		.gnav li:hover > ul > li {
-			height: 2rem;
+
+		.gnav li:hover>ul>li {
+			max-height: 12rem;
 			overflow: visible;
 		}
-		
-		
 	</style>
 	
   </head>
@@ -99,14 +104,14 @@
 		  <li>
 		    <a href="https://utelecon.github.io/">HOME</a>
 		  </li>
-		  <li>
+		  <li ontouchstart="">
 		    <a>オンライン授業</a>
 		    <ul>
 		      <li><a href="https://utelecon.github.io/oc">学生用</a></li>
 		      <li><a href="">教員用（執筆中）</a></li>
 		    </ul>
 		  </li>
-		  <li>
+		  <li ontouchstart="">
 		    <a>Web会議</a>
 		    <ul>
 		      <li>
@@ -120,7 +125,7 @@
 		      </li>
 		    </ul>
 		  </li>
-		  <li>
+		  <li ontouchstart="">
 		    <a>イベント・説明会</a>
 		    <ul>
 		      <li>
