@@ -3,7 +3,7 @@ title: Webex アカウントの作成とログイン
 ---
 
 ## Webexアカウントを作成する	
-* <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールが有効化</a>されたら, <a href="https://apj27.webex.com/mw3300/mywebex/forgotpwd.do?siteurl=apj27-jp" target="_blank">パスワード設定のページ</a>（下図）にいき，パスワード設定手続きを行います．このときメールアドレスは、たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.（画面が「ユーザ名またはパスワードを忘れた」となっており違和感を感じられるかと思いますが，プロセスは正しいので気ににせず手続きを進めてください．）「送信」を押すとECCSクラウドメールにパスワード再設定のためのメールが送られます．
+* <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールが有効化</a>されたら, <a href="https://apj27.webex.com/mw3300/mywebex/forgotpwd.do?siteurl=apj27-jp" target="_blank">パスワード設定のページ</a>（下図）にいき，パスワード設定手続きを行います．このときメールアドレスは，たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.（画面が「ユーザ名またはパスワードを忘れた」となっており違和感を感じられるかと思いますが，プロセスは正しいので気ににせず手続きを進めてください．）「送信」を押すとECCSクラウドメールにパスワード再設定のためのメールが送られます．
 	* **注意：共通IDの部分変更後のアドレスは認識されません．もとの10桁の共通IDではじまるメールアドレスをいれる点ご注意ください．**
 
 	![パスワード変更手続き画面](img/webex_pw_change.PNG){:width="700px"}
