@@ -131,6 +131,7 @@ title: Web会議 Webex の使い方
 {% endcomment %}
 ## サブページ一覧
 * <a href="create_webex_account" target="_blank">Webex アカウントの作成とログイン</a>	
+
 * <a href="create_meeting" target="_blank">会議室を作成する</a> 
 * <a href="open_meeting" target="_blank">Webex 会議の開始</a> 
 * <a href="open_meeting_vc" target="_blank">Webex 会議の開始 （テレビ会議システム）</a> 
@@ -139,6 +140,19 @@ title: Web会議 Webex の使い方
 * <a href="do_meeting" target="_blank">Webex 会議室でできること（開催者・参加者）</a> 
 * <a href="do_meeting_vc" target="_blank">Webex 会議室でできること（テレビ会議システムからの開催者・参加者）</a>
 * <a href="do_meeting_host" target="_blank">Webex 会議室でできること（開催者）</a> 
+
+* <a href="create_training" target="_blank">トレーニングを作成する</a> 
+* <a href="open_training" target="_blank">Webex Trainingの開始</a> 
+* <a href="join_training" target="_blank">Webex Trainingへの参加</a> 
+* <a href="do_training" target="_blank">Webex Trainingでできること（開催者・参加者）</a> 
+* Webex 会議室でできること（開催者） 執筆中
+
+* <a href="create_events" target="_blank">イベントを作成する</a> 
+* <a href="open_events" target="_blank">Webex Eventsの開始</a> 
+* <a href="join_events" target="_blank">Webex Eventsへの参加</a> 
+* <a href="join_events_vc" target="_blank">Webex Eventsへの参加 （テレビ会議システム）</a> 
+* <a href="do_events" target="_blank">Webex Eventsでできること（開催者・参加者）</a> 
+* Webex 会議室でできること（開催者） 執筆中
 {% comment %}
 * 授業での使い方
 	* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
