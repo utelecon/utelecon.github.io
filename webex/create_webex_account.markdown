@@ -32,7 +32,7 @@ title: Webex アカウントの作成とログイン
 
 * ログインができると下記のようなホーム画面に入れます．
 
-	![WebExのホーム画面](img/webex_toppage.PNG){:width="700px"}
+	![WebExのホーム画面](img/webex_home.png){:width="700px"}
 
 <br>
 
