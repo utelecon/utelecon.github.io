@@ -97,7 +97,7 @@ title: Web会議 Webex の使い方
 	1. トレーニングを開始します（<a href="open_training" target="_blank">詳細</a>）
 		* **トレーニングを開始するためには，開催者が明示的に「開始」する必要があります．**
 		* <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
-		* トレーニングでできること（開催者） 執筆中
+		* <a href="do_training_host" target="_blank">トレーニングでできること（開催者）</a>
 
 * 参加者
 	1. トレーニングの情報（URLなど）をメールなどを用いて開催者から得ます．
@@ -113,7 +113,7 @@ title: Web会議 Webex の使い方
 	1. イベントを開始します（<a href="open_events" target="_blank">詳細</a>）
 		* **イベントを開始するためには，開催者が明示的に「開始」する必要があります．**
 		* <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
-		* イベントでできること（開催者） 執筆中
+		* <a href="do_events_host" target="_blank">イベントでできること（開催者）</a>
 
 	* <a href="join_events_vc" target="_blank">テレビ会議システムでパネリストとして参加します</a> **6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．パネリストとしての参加しかできません．**
 
@@ -145,14 +145,14 @@ title: Web会議 Webex の使い方
 * <a href="open_training" target="_blank">Webex Trainingの開始</a> 
 * <a href="join_training" target="_blank">Webex Trainingへの参加</a> 
 * <a href="do_training" target="_blank">Webex Trainingでできること（開催者・参加者）</a> 
-* Webex 会議室でできること（開催者） 執筆中
+* <a href="do_training_host" target="_blank">Webex Trainingでできること（開催者）</a> 
 
 * <a href="create_events" target="_blank">イベントを作成する</a> 
 * <a href="open_events" target="_blank">Webex Eventsの開始</a> 
 * <a href="join_events" target="_blank">Webex Eventsへの参加</a> 
 * <a href="join_events_vc" target="_blank">Webex Eventsへの参加 （テレビ会議システム）</a> 
 * <a href="do_events" target="_blank">Webex Eventsでできること（開催者・参加者）</a> 
-* Webex 会議室でできること（開催者） 執筆中
+* <a href="do_events_host" target="_blank">Webex Eventsでできること（開催者）</a> 
 {% comment %}
 * 授業での使い方
 	* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
