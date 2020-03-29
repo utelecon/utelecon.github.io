@@ -28,6 +28,7 @@ title: 2020/03/26 説明会: オンライン授業の学生への通知方法
 * [接続トラブルの場合](https://tinyurl.com/rpf3brz)
 
 * 動画
+  * [説明会動画](https://drive.google.com/open?id=1BsaPc-qBNUQOAB4wXP09SyrMIKuraPGv)(要ECCSクラウドメール)
   * (教員またはその代理) [オンライン授業のURLをUTASに登録する](https://youtu.be/rlHrutdrjbo)
   * (学生) [UTASでオンライン授業URLを得る](https://youtu.be/J9dnXmFiIcI)
 
