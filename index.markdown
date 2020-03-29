@@ -15,6 +15,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
+ * <span style="color:blue;">2020/3/29:</span> <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
  * <span style="color:blue;">2020/3/28:</span> 3/27に[オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」および「語学学習に特化したオンライン授業相談会」](events/2020-03-27/) を実施しました．また，動画（暫定版）も限定公開しました．  
  * <span style="color:blue;">2020/3/24:</span> 3/19の<a href="https://utelecon.github.io/events/2020-03-19/" target="_blank">Zoom 基礎講座の動画（暫定版）</a>を限定公開しました
  * <span style="color:blue;">2020/3/24:</span> 3/26 に [説明会: オンライン授業の学生への通知方法](events/2020-03-26/) を行います.
