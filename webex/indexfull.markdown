@@ -1,5 +1,5 @@
 ---
-title: Web会議 WebEx の使い方
+title: Deprecated Web会議 WebEx の使い方
 ---
 
 
@@ -22,31 +22,31 @@ title: Web会議 WebEx の使い方
 
 ## 利用の流れ
 * 主催者
-  * PC，タブレット，スマートフォンなど接続用デバイスを用意する
-    * マイクやカメラが内蔵されていない場合はそれらも用意する
-    * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します
-  * ECCSクラウドメールを有効化する
-  * Web ブラウザ（Chrome，Firefoxなど）を用意する
-  * WebExへログインし，会議室を作成する
-  * 会議室の情報を周知する
-  * 会議室へ参加する
-  
+	* PC，タブレット，スマートフォンなど接続用デバイスを用意する
+		* マイクやカメラが内蔵されていない場合はそれらも用意する
+		* 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します
+	* ECCSクラウドメールを有効化する
+	* Web ブラウザ（Chrome，Firefoxなど）を用意する
+	* WebExへログインし，会議室を作成する
+	* 会議室の情報を周知する
+	* 会議室へ参加する
+	
 * 参加者
-  * PC，タブレット，スマートフォンなど接続用デバイスを用意する
-    * マイクやカメラが内蔵されていない場合はそれらも用意する
-    * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します
-  * Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールする
-  * 主催者より送られた会議室ID等を用いて，会議室へ参加する
+	* PC，タブレット，スマートフォンなど接続用デバイスを用意する
+		* マイクやカメラが内蔵されていない場合はそれらも用意する
+		* 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します
+	* Web ブラウザ（Chrome，Firefoxなど）を用意する，あるいはデスクトップアプリやアプリを接続用デバイスへインストールする
+	* 主催者より送られた会議室ID等を用いて，会議室へ参加する
 　
 * **以下に，上記の各項目について必要に応じて説明していきます．**
 
 ## ECCSクラウドメールを有効化する
 
 * 本学のECCSクラウドメールを有効にする必要があります(一度だけの作業. オンラインで完結します).有効化は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a>から行います．詳細は，<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/04/01_2159.html" target="_blank">ECCSクラウドメール利用方法ー初期設定</a>を御覧ください．
-  * 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
-  * 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を要する場合があります.
+	* 学生は, ECCSの<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります(これもオンラインで完結します)
+	* 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を要する場合があります.
 
-## WebExへログインする  
+## WebExへログインする	
 * ECCSクラウドメールが有効化されたら, <a href="https://apj27.webex.com/mw3300/mywebex/forgotpwd.do?siteurl=apj27-jpWebEx" target="_blank">パスワード設定のページ</a>（下図）にいき，パスワード設定手続きを行います．このときメールアドレスは、たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.（画面が「ユーザ名またはパスワードを忘れた」となっており違和感を感じられるかと思いますが，プロセスは正しいので気ににせず手続きを進めてください．）「送信」を押すとECCSクラウドメールにメールが送られます．**注意：共通IDの部分を変更されている人はもとの10桁の共通IDではじまるメールアドレスをいれる点ご注意ください．**
 
 　　![パスワード変更手続き画面](img/webex_pw_change.PNG){:width="500px"}
@@ -73,8 +73,8 @@ title: Web会議 WebEx の使い方
 
 ## 会議室を作成する
 * 会議をスケジュールするには，ホーム画面の「スケジュールする」ボタンを押して，各種設定を行います．
-  * 「ミーティングのスケジュール」画面では，議題，パスワード，日時，出席者などを設定することができます．各項目について説明します．
-    * **議題**： この会議の名称を入力します．必須項目です．
+	* 「ミーティングのスケジュール」画面では，議題，パスワード，日時，出席者などを設定することができます．各項目について説明します．
+		* **議題**： この会議の名称を入力します．必須項目です．
 	* **ミーティング・パスワード**： 任意の文字列が入っていますが，変更可能です．また，ブランクにしてパスワード不要とすることもできます．
 	* **日時**： この画面を開いた直近の時間が入っていますが，右端の記号をおすことで，変更することができます．また，繰り返しにすることもできます．繰り返しのチェックボックスをオンにすると，繰り返しの規則について設定する項目があらわれます．
 	* **出席者**： メールアドレスをここに記入します．この設定が完了すると自動的にメールで連絡されます．
@@ -85,19 +85,19 @@ title: Web会議 WebEx の使い方
 
 * 一通りの設定を終えて「開始」ボタンを押すと，待機状態になります．この画面はプレビューですので，カメラやマイクの設定はここで確認しておきます．
 　　* 右下で，オーディオ，マイク，カメラの設定を行います．ヘッドセットを装着しているときなど，どの機材でオーディオやマイクを使うのかの設定切り替えをここで行います．
-    * プレビュー画面に何もうつっていない場合には，カメラが認識されていない可能性がありますので，右下にあるカメラ設定を確認します．
+		* プレビュー画面に何もうつっていない場合には，カメラが認識されていない可能性がありますので，右下にあるカメラ設定を確認します．
 	* マイクがうまく聞こえるかどうかをここで確認しておきます．音を出したときマイクの下のインジケータに反応があれば音をひろえています．
-  * 画面内にあるマイクとビデオのボタンは， それぞれ，ミュートの解除・設定とビデオ停止・開始を行います．デフォルトは音が聞こえ，ビデオがうつっている状態です．
-  * ここで「ミーティングを開始する」を押すと即座に会議を開始することができます．
-  
+	* 画面内にあるマイクとビデオのボタンは， それぞれ，ミュートの解除・設定とビデオ停止・開始を行います．デフォルトは音が聞こえ，ビデオがうつっている状態です．
+	* ここで「ミーティングを開始する」を押すと即座に会議を開始することができます．
+	
 * 開始を押すと次のような画面でミーティングの概要が表示されます．
 
-  ![会議設定結果の画面](img/webex_meeting_description.PNG){:width="700px"}
+	![会議設定結果の画面](img/webex_meeting_description.PNG){:width="700px"}
 
 * また，「ミーティングのスケジュール」画面で設定された出席者に下記のようなメールが自動的に送られます．
 
-  ![会議招待メール](img/webex_invitation.PNG){:width="700px"}
-  
+	![会議招待メール](img/webex_invitation.PNG){:width="700px"}
+	
  
 ## 会議を行う　
 * 会議を行う場合にはスケジュールされているものを実施する場合とただちに始める方法があります．
@@ -108,17 +108,17 @@ title: Web会議 WebEx の使い方
 ## 会議へ参加する
 * 開催者から送られてきたメールにある「ミーティングに参加」をクリックすると，windows PC や MAC であれば，デフォルトのブラウザでWebExへの参加画面が表示されます．
 * このとき，webex.exeのアプリインストールをおすすめされますが，**基本的には無視して「ブラウザから参加」を選択してください．** アンチウイルスソフトにひっかかりインストールできないことが多いです．
-  * なお，Firefoxの場合は，webex.exeのダウンロードをしないと「ブラウザから参加してください」の文言が画面にあらわれませんので，ダウンロードまではしてください．
+	* なお，Firefoxの場合は，webex.exeのダウンロードをしないと「ブラウザから参加してください」の文言が画面にあらわれませんので，ダウンロードまではしてください．
 * ブラウザから参加をクリックすると，プレビュー画面に移行します．
 　　* 右下で，オーディオ，マイク，カメラの設定を行います．ヘッドセットを装着しているときなど，どの機材でオーディオやマイクを使うのかの設定切り替えをここで行います．
-    * プレビュー画面に何もうつっていない場合には，カメラが認識されていない可能性がありますので，右下にあるカメラ設定を確認します．
+		* プレビュー画面に何もうつっていない場合には，カメラが認識されていない可能性がありますので，右下にあるカメラ設定を確認します．
 	* マイクがうまく聞こえるかどうかをここで確認しておきます．音を出したときマイクの下のインジケータに反応があれば音をひろえています．
-  * 画面内にあるマイクとビデオのボタンは， それぞれ，ミュートの解除・設定とビデオ停止・開始を行います．デフォルトは音が聞こえ，ビデオがうつっている状態です．
-  * ここで「ミーティングを開始する」を押すと会議に参加することができます．
-    * このときに，パスワードが予め設定されていればそれを入力する必要があります．
-    * 開催者が開催していない場合には時間を過ぎている場合であっても参加することができません．
+	* 画面内にあるマイクとビデオのボタンは， それぞれ，ミュートの解除・設定とビデオ停止・開始を行います．デフォルトは音が聞こえ，ビデオがうつっている状態です．
+	* ここで「ミーティングを開始する」を押すと会議に参加することができます．
+		* このときに，パスワードが予め設定されていればそれを入力する必要があります．
+		* 開催者が開催していない場合には時間を過ぎている場合であっても参加することができません．
 
-  
+	
 
 
 
@@ -144,85 +144,85 @@ title: Web会議 WebEx の使い方
 1. もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています. 開催者が(教職員ではなく)学生の場合は, ECCSの <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります.
 1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
 1. 無事有効化されたら,
-    <a href="https://calendar.google.com/" target="_blank">
-      Googleカレンダーのトップページ
-    </a>に行ってください.
-  * 注1: 以下のようなログイン画面が現れたら, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) のアカウントでGoogleにログインしてください.
-     <blockquote>
-       <img src="img/login_menu.png" width="400"/>
-     </blockquote>
-  * 注2: 普段ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) 以外のGoogleアカウント(xxxx@gmail.com)でGoogleをお使いの場合, 一旦ログアウトして, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でログインし直してください.
+		<a href="https://calendar.google.com/" target="_blank">
+			Googleカレンダーのトップページ
+		</a>に行ってください.
+	* 注1: 以下のようなログイン画面が現れたら, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) のアカウントでGoogleにログインしてください.
+		 <blockquote>
+			 <img src="img/login_menu.png" width="400"/>
+		 </blockquote>
+	* 注2: 普段ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) 以外のGoogleアカウント(xxxx@gmail.com)でGoogleをお使いの場合, 一旦ログアウトして, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でログインし直してください.
 無事, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) でログインした状態のカレンダー(右上隅の "ECCS2016" に注目)です.
 
-    <blockquote>
-      <img src="img/login_calendar.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/login_calendar.png" width="400"/>
+		</blockquote>
 
-    以降の手順は <a href="https://support.google.com/meet/answer/9308681" target="_blank">Google によるマニュアル</a>に準じます.
+		以降の手順は <a href="https://support.google.com/meet/answer/9308681" target="_blank">Google によるマニュアル</a>に準じます.
 1. カレンダー上の適当な場所を左クリックしてイベントを作ります. もちろん普通は, ライブ配信をする日時に合わせて作るのでしょうが, 実際にはどこでも構いません(配信自体は日時と関係なくできますし, イベントの日時に自動的に配信が始まるわけでもありません).
-    <blockquote>
-      <img src="img/create_event.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/create_event.png" width="400"/>
+		</blockquote>
 1. 「その他のオプション」を選択
-    <blockquote>
-      <img src="img/create_event.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/create_event.png" width="400"/>
+		</blockquote>
 1. 「ビデオ会議を追加」を選択
-    <blockquote>
-      <img src="img/add_video_conf.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/add_video_conf.png" width="400"/>
+		</blockquote>
 1. 「ビデオ会議を追加」 -&gt; 「Hangouts Meet」
-    <blockquote>
-      <img src="img/add_hangouts_meet.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/add_hangouts_meet.png" width="400"/>
+		</blockquote>
 1. <img src="img/downarrow.png" /> をクリック -&gt;「ライブストリームを追加」
-    <blockquote>
-      <img src="img/add_live_stream.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/add_live_stream.png" width="400"/>
+		</blockquote>
 1. イベントを「保存」. ここまでで, 準備が出来ました
 1. <b>配信を開始:</b> カレンダー上で再びイベントを開き,「Hangouts Meetに参加」
-    <blockquote>
-      <img src="img/join_hangouts_meet.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/join_hangouts_meet.png" width="400"/>
+		</blockquote>
 1.「ミーティングに参加」
-    <blockquote>
-      <img src="img/join_meeting.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/join_meeting.png" width="400"/>
+		</blockquote>
 1. 以下のようなメッセージ「主催者によって, このミーティングはストリーミングするようにスケジュール設定されています」が現れますので, ただちに配信をスタートしたければ「ストリーミングを開始」を選びます.
-    <blockquote>
-      <img src="img/ask_streaing.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/ask_streaing.png" width="400"/>
+		</blockquote>
 1. ただちに配信しない場合は一旦「閉じる」を選択して, 後から -&gt; 「ストリーミングを開始」としてもよいです.
-    <blockquote>
-      <img src="img/streaming_start.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/streaming_start.png" width="400"/>
+		</blockquote>
 1. <b>聴衆への案内:</b> 左下隅のメニュー<img src="img/downarrow" /> から「ストリーミング情報をコピー」
-    <blockquote>
-      <img src="img/streaming_start.png" width="400"/>
-    </blockquote>
+		<blockquote>
+			<img src="img/streaming_start.png" width="400"/>
+		</blockquote>
 
-    すると, URLがクリップボードにコピーされますので, それを適当な場所(例えばお使いのメールソフトのメール編集画面)に「貼り付け」ます. 授業に参加する学生に伝えるには, ITC-LMSの「お知らせ」機能で,「メール・LINE通知」をONにすることにより, 授業参加者にのみURLを伝えることが出来ます.
+		すると, URLがクリップボードにコピーされますので, それを適当な場所(例えばお使いのメールソフトのメール編集画面)に「貼り付け」ます. 授業に参加する学生に伝えるには, ITC-LMSの「お知らせ」機能で,「メール・LINE通知」をONにすることにより, 授業参加者にのみURLを伝えることが出来ます.
 1. <font color="red">ストリーミングを聴講できるのは, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインしているユーザだけ(従って東京大学の教職員および学生だけ)</font>です. 案内の際にご注意ください. 以下は文例です.
 
 ```
-      「◯◯◯◯◯」に関する講義をストリーミング配信します.
-      聴講するには,
-      ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインした
-      状態で, 次のリンクをクリックしてください。
-      https://stream.meet.google.com/stream/e91f3dd7-xxxx-xxxx-xxxx-7d47c54c1660
+			「◯◯◯◯◯」に関する講義をストリーミング配信します.
+			聴講するには,
+			ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインした
+			状態で, 次のリンクをクリックしてください。
+			https://stream.meet.google.com/stream/e91f3dd7-xxxx-xxxx-xxxx-7d47c54c1660
 
-      注1: ECCSクラウドメールを使ったことがない人は
-      <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">
-        https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html
-      </a>から有効化を行ってください(作業はすぐに終わりますが有効になるまで,
-      最大で1時間程度の待ち時間が生じます).
-      
-      注2: 学生(教職員でない人)は,
-      ECCSのオンライン新規利用者講習
-      (<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">
-        https://www.ecc.u-tokyo.ac.jp/onlineseminar.html</a>)
-      を終えている必要がありますので,
-      こちらもやっておいてください.
+			注1: ECCSクラウドメールを使ったことがない人は
+			<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">
+				https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html
+			</a>から有効化を行ってください(作業はすぐに終わりますが有効になるまで,
+			最大で1時間程度の待ち時間が生じます).
+			
+			注2: 学生(教職員でない人)は,
+			ECCSのオンライン新規利用者講習
+			(<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">
+				https://www.ecc.u-tokyo.ac.jp/onlineseminar.html</a>)
+			を終えている必要がありますので,
+			こちらもやっておいてください.
 ```
 
 
