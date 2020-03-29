@@ -45,8 +45,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 * [新入生・在学生のための, オンライン授業を受けるための準備](oc)
 * [教員のためのオンライン授業を行うにあたって](faculty_members)
-* [オンライン授業の実例・参考情報](resources/)  
-* [FAQ: よくある質問](resources/faq)
+* [FAQ: よくある質問](faq)
 
 
 イベント
@@ -64,6 +63,13 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * [QAフォーラムとメーリングリスト](forums/)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
 * <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
+
+
+リンク集（随時追加中）
+---------------------------
+
+* 教養学部・大学院総合文化研究科 講義オンライン化に関する情報サイト（学生向け情報）: <a href="https://komabataskforce.wixsite.com/forstudents" target="_blank">https://komabataskforce.wixsite.com/forstudents</a>  
+
 
 
 
