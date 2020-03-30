@@ -2,10 +2,16 @@
 title: 大学の Zoom アカウントの作り方
 ---
 
-<span style="font-size:1.5rem;">2020年3月24日から25日にかけて**全学生**に対して会議ツール Zoom登録を行いました。学生の皆さんの ECCSクラウドメールに招待状が届いています。本ページを参考にアカウントを作成してください。</span>  
-  * アカウントが正しく作成されていないというトラブルも報告されております。招待状の「zoomアカウントをアクティベートする」をクリックすると、「ユーザが存在しません」とのエラーが出るというものです。現在Zoom社と原因究明を図っておりますが若干時間がかかる見込みです。そのほか問題が生じた場合は、utelecon-inquiries@googlegroups.com までご連絡ください。  
-2020年3月16日に、Zoomアカウントの招待メールを**本学の教職員全員**のGoogleメール（共通ID数字10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールと呼びます）に発送しました．   
-ZoomでWeb会議や授業を実施する予定の教職員は, そのメールを開き, Zoom のアカウントを以下の方法で作成するだけで，Zoomが利用可能になります（注：他の人が開催した会議へ参加するだけであればアカウント作成の必要はありません）．
+## お知らせ
+
+* 授業を行うためにZoomの会議を<font color="green">開催する人</font>(またはそれを代行する人)は, <a href="create_account" target="">Zoomのアカウントのアクティベーション</a>が<font color="green">必要</font>です
+* 授業に<font color="purple">参加するだけの人</font>(正確には誰かが開催したZoom会議に参加(join)するだけの人)はZoomアカウントは<font color="purple">不要</font>です
+
+* 教職員および学生のECCSクラウドメール(G Suite for Education)のGmailアドレス (xxxxx@g.ecc.u-tokyo.ac.jp)に, 大学で契約するZoom Pro (500人までの会議とWebinarが可能) の招待メールが届いています(3/16 教職員あて, 3/24-25 学生あてに発出)
+ * アカウントのアクティベーションが必要(授業や会議の開催, その代行をする人), またはしたい人は, ECCSクラウドメールを開いてそのメールを取得し, 本ページを参考にアクティベーションを行って下さい. <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/">ECCSクラウドメールの設定</a>をしていない方はして下さい.
+ * アクティベーションしようとしたら<font color="red">「ユーザが存在しません」というエラーが出る</font>という事例が多く報告されております. そうなったら<a href="https://tinyurl.com/v5pvzb5">現在わかっている最善の対処方法</a>をご覧いただき, フォームへの質問にもお答えください. 解決しない場合は utelecon-inquiries@googlegroups.com へご連絡下さい.
+
+* そのほか問題が生じた場合も、utelecon-inquiries@googlegroups.com までご連絡ください。
 
 
 ## 本メールによってアクティベートされるZoomのライセンス
