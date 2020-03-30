@@ -58,9 +58,11 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * 2020/03/13 [授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会](events/2020-03-13/)
 
 
-連絡チャネル
+お知らせ/連絡チャネル
 ---------------------------
 
+* 部局のWebページへのリンクを作るための<a href="https://tinyurl.com/vjfuxs3" target="_blank">申し込みフォーム</a>
+* <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
 * [QAフォーラムとメーリングリスト](forums/)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
 * <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
@@ -70,58 +72,4 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 ---------------------------
 
 * 教養学部・大学院総合文化研究科 講義オンライン化に関する情報サイト（学生向け情報）: <a href="https://komabataskforce.wixsite.com/forstudents" target="_blank">https://komabataskforce.wixsite.com/forstudents</a>  
-
-
-
-
-<!--
--->
-
-<!--
-* UTokyo Account: 様々なシステムの共通アカウント
-* UTAS: シラバス登録, 履修登録
-* ITC-LMS: 学習管理システム（教材の配布や出席管理）
-  * <a href="lms_students/">学生向け</a>
-  * <a href="lms_teachers/">教員向け</a>
-* G Suite for Education (ECCSクラウドメール): Google の各種サービス利用可
-* Office 365: Word，Excel，PowerPointなど利用可  
- [上記5つのシステムの説明と関係性](systems_for_online_teaching)
-
-オンライン授業・Web会議の手引
----------------------------
-
-* [新入生](oc)向け
-* [在学生](oc)向け
-* [教員](staffs)向け
-* [職員](staffs)向け
-
-
-様々なオンライン授業の形式とそのための手引
----------------------------
-
-* ライブ双方向形式
-* ライブ配信(Webinar)形式
-* 録画配信形式
- * TV会議を録画配信
- * パワーポイント＋ナレーションの録画配信
-
--->
-
-<!--
-オンライン授業に備えて
----------------------------
-
- * <span style="font-size:1.5rem">[新入生用情報](oc)</span>
- * <span style="font-size:1.5rem">[教員用情報](for_staffs_setup)</span>
-
-* ITC-LMS: 東京大学の学習管理システム（教材の配布や出席管理などが可能）
-  * <a href="lms_students/">学生向け</a>
-  * <a href="lms_teachers/">教員向け</a>
-* <a href="browse_samples">オンライン授業の実際</a>
-* 多人数会議運営上のtips
-  * 全ミュート
-* 動画配信授業(録画形式)
-  * TV会議を録画
-  * パワーポイント講義を録画
- -->
 
