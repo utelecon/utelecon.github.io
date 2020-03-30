@@ -9,7 +9,7 @@ URL（https://zoom.us/j/xxxxxxxxxx xは数字）を使って入る方法と ID�
 
 ## URL を使って入る
 1. 会議室の URL（https://zoom.us/j/xxxxxxxxxx xは数字）にアクセスします
-1. eb ブラウザー上で「Zoom Meetings を開く」を押します（Zoom がインストールされてない場合は，その画面からダウンロード可能であるため，そのままダウンロードして Zoom をインストールします）  
+1. Web ブラウザー上で「Zoom Meetings を開く」を押します（Zoom がインストールされてない場合は，その画面からダウンロード可能であるため，そのままダウンロードして Zoom をインストールします）  
   ![](img/zoom_join_pc_url_browser.png) 
     
 1. （名前を設定していない場合）名前の設定をします  
