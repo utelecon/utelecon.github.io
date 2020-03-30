@@ -25,7 +25,7 @@ ITC-LMSにログインすると，受講者の活動(担当教員へのメッセ
 
 ![メールアドレスの設定](../lms_students/img/mail_address.png)
 
-4.LINEで受け取る場合，以下の図の`LINEから通知を受け取る`を押してください．
+4.LINEで受け取る場合，以下の図の`LINEから通知を受け取る`を押してください．**（注） iPhone等のiOS機器では以下の LINEの設定ができないことがあります．そのような場合には，PC（Windows または macOS）からお試しください．**
 
 ![LINEの設定](../lms_students/img/LINE.png)
 
