@@ -1,5 +1,5 @@
 ---
-How to create a college Zoom account
+title: How to create a college Zoom account
 ---
 
 ## お知らせ
