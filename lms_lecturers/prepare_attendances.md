@@ -35,7 +35,7 @@ title: 授業中に出席を取る準備をする
   * 「ワンタイムパスワード」は，学生が出席送信をする際に入力させるパスワードになります．毎回同じパスワードを使うのではなくて，オンライン授業中に画面，音声，コメント，チャット等で提示することが想定されています．毎回違うパスワードを考えるのが面倒な場合は，自動生成を選択すると乱数でパスワードが生成されます．
 5. 登録します．
 ![時間帯の設定](pa4.png)
-[手順動画] (https://youtu.be/QHTF-pG886w)
+[手順動画](https://youtu.be/QHTF-pG886w)
 ## 参考情報
 * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1904.html">ITC-LMS で出席確認を行う方法について (教員)</a>
