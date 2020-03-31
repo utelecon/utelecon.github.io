@@ -1,10 +1,10 @@
 ---
-title: 大学の Zoom アカウントの作り方
+title: How to create an UTokyo Zoom account
 ---
 
-## お知らせ
+## Notice
 
-* 授業を行うためにZoomの会議を<font color="green">開催する人</font>(またはそれを代行する人)は, <a href="create_account" target="">Zoomのアカウントのアクティベーション</a>が<font color="green">必要</font>です
+* In order to <font color="green">host a meeting</font>(or co-host it), it is <font color="green">necessary</font>to<a href="create_account" target="">activate your Zoom account</a>.
 * 授業に<font color="purple">参加するだけの人</font>(正確には誰かが開催したZoom会議に参加(join)するだけの人)はZoomアカウントのアクティベーションは<font color="purple">不要</font>です
 
 * 教職員および3/24時点でUTokyo Accountを持っていた学生のECCSクラウドメール(G Suite for Education)のGmailアドレス (xxxxx@g.ecc.u-tokyo.ac.jp)に, 大学で契約するZoom Pro (500人までの会議とWebinarが可能) のアカウントのアクティベーションを招待するメールが届いています(3/16 教職員あて, 3/24-25 学生あてに発出)
