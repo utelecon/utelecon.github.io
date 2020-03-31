@@ -61,6 +61,8 @@ ITC-LMSにログインすると，受講者の活動(担当教員へのメッセ
 
 ![LINEの設定](../lms_students/img/last.png)
 
+[手順動画](https://youtu.be/xAur5zar5Sc)
+
 ## 参考情報
 * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/21_1886.html">ITC-LMS のお知らせメールが英語で届く (教員・学生)</a>
