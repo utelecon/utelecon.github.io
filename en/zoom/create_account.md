@@ -20,30 +20,30 @@ title: 大学の Zoom アカウントの作り方
  * Allows up to 500 participants per meeting 
  * Valid until 4/30 April. Whether or not the contractContract is continuation continued after that this date is currently under consideration.
 
-## Advanced preparation 
+## Preparation in advance 
 
 If you have not yet activated your <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCS Cloud Email」 (G Suite for Education)</a>, go to the <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account user menu</a> (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank"> details on the procedure </a>). Xxxx@g.ecc.u-tokyo.ac.jp If you can use this email address, it is already activated. 
 
-## アカウントの作り方
+## How to create an account 
 
-1. 以下のような招待メールが教職員全員（2020年3月16日），学生全員（2020年3月24日から25日，一部の学生は作成できていないようで現在原因究明有です）にZoomからあなたのECCSクラウドメールに届いています．GmailにECCSクラウドメールアカウントでログインし、開封してください（学生には後日送付予定です）．
+1. The following invitation e-mail was will be sent to all faculty academic and administrative staff members (March 16, 2020) and all students (March 24 to 25, 2020, some students have may not be been able to create them their account and we are currently investigating the cause)., Has arrived in your to their ECCS cCloud eEmail. Please Log into Gmail with your ECCS cloud email account and to open it the invitation (students invitation will be sent at a later date). 
   ![](img/zoom_account_email.png)  
 
 
-1. メールの「Zoomアカウントのアクティベート」をクリックします  
+1. Click "Activate Zoom Account" in the email.  
   
-1. Web ブラウザーで以下の画面が出てきますので，下の「パスワードでサインアップ」をクリックします．  
-  * 以前の画面で「Googleでサインイン」を押して[間違えて作ってしまった人へ](#if_you_create_a_wrong_account)
+1. The following screen will appear on the web browser. Click on the "Sign up with password" below.   
+  * To[any person who by mistake pressed "Sign in with Google](#if_you_create_a_wrong_account) on the previous screen
   ![](img/zoom_account_browser1.png)
   
-1. 氏名とパスワードを設定し，「続ける」を押します  
+1. Set your name and password and press "Continue"  
   ![](img/zoom_account_browser2.png)
   
-1. アカウントの設定は終了です．必要に応じて「Zoomミーティングを今すぐ始める」か「マイアカウント」で細かい設定をしてください  
+1. The account setting ishas been completed. If necessary, make dDetailed settings can be made using in "Start Zoom Meeting Now" or "My Account" if necessary. 
   ![](img/zoom_account_browser3.png)
   
   
-以上の流れで，アカウントを作成できます．
+With the above flow, you can create an account. 
 
 <a name="if_you_create_a_wrong_account"> </a>
 ## 間違えて作ってしまった人は
