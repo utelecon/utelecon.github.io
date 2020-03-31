@@ -5,13 +5,13 @@ title: How to create an UTokyo Zoom account
 ## Notice
 
 * In order to <font color="green">host a meeting </font>(or co-host it), it is <font color="green"> necessary</font> to<a href="create_account" target=""> activate your Zoom account</a>.
-* 授業に<font color="purple">参加するだけの人</font>(正確には誰かが開催したZoom会議に参加(join)するだけの人)はZoomアカウントのアクティベーションは<font color="purple">不要</font>です
+* <font color="purple">For participants</font>(i.e. those joining a meeting hosted by someone else) there is <font color="purple">no need</font> of account activation.
 
-* 教職員および3/24時点でUTokyo Accountを持っていた学生のECCSクラウドメール(G Suite for Education)のGmailアドレス (xxxxx@g.ecc.u-tokyo.ac.jp)に, 大学で契約するZoom Pro (500人までの会議とWebinarが可能) のアカウントのアクティベーションを招待するメールが届いています(3/16 教職員あて, 3/24-25 学生あてに発出)
- * アカウントのアクティベーションが必要(授業や会議の開催, その代行をする人), またはしたい人は, ECCSクラウドメールを開いてそのメールを取得し, 本ページを参考にアクティベーションを行って下さい. <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/">ECCSクラウドメールの設定</a>をしていない方はして下さい.
- * アクティベーションしようとしたら<font color="red">「ユーザが存在しません」というエラーが出る</font>という事例が多く報告されております. そうなったら<a href="https://tinyurl.com/v5pvzb5">現在わかっている最善の対処方法</a>をご覧いただき, フォームへの質問にもお答えください. 解決しない場合は utelecon-inquiries@googlegroups.com へご連絡下さい.
+* School has made a contract with Zoom Pro and the account activation URL (allowing access to Webinars and meetings with up to 500 participants) was already sent to all teaching staff members and students with a UTokyo account valid from March 24th (March 16th for teaching staff). The activation URL was sent to the ECCS Cloud Mail (G Suite for Education) gmail's address (xxxxx@g.ecc.u-tokyo.ac.jp).
+ * For those who need or want to activate their account (to hold meetings as a host or co-host), open your ECCS Cloud Mail and the email sent with the activation code, and follow the instructions described in the following link. Please, <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/">set your ECCS Cloud Mail account</a> in case you did not do it yet.
+ * Now, there are many cases reporting <font color="red">an error message "user not exist" </font>when trying to activate an account. In this case, check the <a href="https://tinyurl.com/v5pvzb5">troubleshooting assistant </a>and answer the survey at the end. In case you still cannot solve the problem, please contact utelecon-inquiries@googlegroups.com.
 
-* そのほか問題が生じた場合も、utelecon-inquiries@googlegroups.com までご連絡ください。
+* Any other inquiries: utelecon-inquiries@googlegroups.com.
 
 
 ## Zoom license activated by this email 
