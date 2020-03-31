@@ -6,7 +6,9 @@ def anchorize(s):
     """
     文字列 s 中の http://... の部分をアンカー<a href="...">...</a>にする
     """
-    url = re.compile("https?://[\w/:%#\$&\?\(\)~\.=\+\-]+")
+    #url = re.compile("https?://[\w/:%#\$&\?\(\)~\.=\+\-]+")
+    # 日本語はダメバージョン
+    url = re.compile("https?://[0-9A-Za-z/:%#\$&\?\(\)~\.=\+\-]+")
     lines = []
     for line in s.split("\n"):
         frags = []
