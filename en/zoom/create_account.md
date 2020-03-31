@@ -1,10 +1,10 @@
 ---
-title: 大学の Zoom アカウントの作り方
+title: How to create an UTokyo Zoom account
 ---
 
-## お知らせ
+## Notice
 
-* 授業を行うためにZoomの会議を<font color="green">開催する人</font>(またはそれを代行する人)は, <a href="create_account" target="">Zoomのアカウントのアクティベーション</a>が<font color="green">必要</font>です
+* In order to <font color="green">host a meeting </font>(or co-host it), it is <font color="green"> necessary</font> to<a href="create_account" target=""> activate your Zoom account</a>.
 * 授業に<font color="purple">参加するだけの人</font>(正確には誰かが開催したZoom会議に参加(join)するだけの人)はZoomアカウントのアクティベーションは<font color="purple">不要</font>です
 
 * 教職員および3/24時点でUTokyo Accountを持っていた学生のECCSクラウドメール(G Suite for Education)のGmailアドレス (xxxxx@g.ecc.u-tokyo.ac.jp)に, 大学で契約するZoom Pro (500人までの会議とWebinarが可能) のアカウントのアクティベーションを招待するメールが届いています(3/16 教職員あて, 3/24-25 学生あてに発出)
@@ -20,39 +20,39 @@ title: 大学の Zoom アカウントの作り方
  * Allows up to 500 participants per meeting 
  * Valid until 4/30 April. Whether or not the contractContract is continuation continued after that this date is currently under consideration.
 
-## Advanced preparation 
+## Preparation in advance 
 
 If you have not yet activated your <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCS Cloud Email」 (G Suite for Education)</a>, go to the <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account user menu</a> (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank"> details on the procedure </a>). Xxxx@g.ecc.u-tokyo.ac.jp If you can use this email address, it is already activated. 
 
-## アカウントの作り方
+## How to create an account 
 
-1. 以下のような招待メールが教職員全員（2020年3月16日），学生全員（2020年3月24日から25日，一部の学生は作成できていないようで現在原因究明有です）にZoomからあなたのECCSクラウドメールに届いています．GmailにECCSクラウドメールアカウントでログインし、開封してください（学生には後日送付予定です）．
+1. The following invitation e-mail was will be sent to all faculty academic and administrative staff members (March 16, 2020) and all students (March 24 to 25, 2020, some students have may not be been able to create them their account and we are currently investigating the cause)., Has arrived in your to their ECCS cCloud eEmail. Please Log into Gmail with your ECCS cloud email account and to open it the invitation (students invitation will be sent at a later date). 
   ![](img/zoom_account_email.png)  
 
 
-1. メールの「Zoomアカウントのアクティベート」をクリックします  
+1. Click "Activate Zoom Account" in the email.  
   
-1. Web ブラウザーで以下の画面が出てきますので，下の「パスワードでサインアップ」をクリックします．  
-  * 以前の画面で「Googleでサインイン」を押して[間違えて作ってしまった人へ](#if_you_create_a_wrong_account)
+1. The following screen will appear on the web browser. Click on the "Sign up with password" below.   
+  * To [any person who by mistake pressed "Sign in with Google](#if_you_create_a_wrong_account) on the previous screen
   ![](img/zoom_account_browser1.png)
   
-1. 氏名とパスワードを設定し，「続ける」を押します  
+1. Set your name and password and press "Continue"  
   ![](img/zoom_account_browser2.png)
   
-1. アカウントの設定は終了です．必要に応じて「Zoomミーティングを今すぐ始める」か「マイアカウント」で細かい設定をしてください  
+1. The account setting ishas been completed. If necessary, make detailed settings can be made using in "Start Zoom Meeting Now" or "My Account" if necessary. 
   ![](img/zoom_account_browser3.png)
   
   
-以上の流れで，アカウントを作成できます．
+With the above flow, you can create an account. 
 
 <a name="if_you_create_a_wrong_account"> </a>
-## 間違えて作ってしまった人は
+## If you create a wrong account
 
-上記で「Googleのサインイン」でアカウントをアクティベートしてしまうと, 正しくZoom Proのライセンスが有効になりません. 回復するために以下のどちらかを行ってください.
+If you activate your account with "Sign in with Google" in the previous step, your Zoom Pro license will not be valid. Please do one of the following to recover. 
 
-### 回復方法1: アクティベーションメールを再送してもらう.
+### Recovery method 1: Have your activation email resent. 
 
-情報戦略チーム jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp へ以下の文面で連絡をお送りください
+Please contact the Information Strategy Team jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp with the following text 
 
 ```
 ◯◯(所属)の◯◯です
@@ -62,7 +62,7 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
 
 ```
 
-例:
+Example:
 
 ```
 情報基盤センターの田浦健次朗です
@@ -72,19 +72,19 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
 
 ```
 
-### 回復方法2: 自力で回復する
-1. [Zoomホームページ](https://zoom.us/) へ行く
-1. もし Sign In 中であれば, 以下のように「マイアカウント」というボタンが現れる
+### Recovery Method 2: Recover on your own 
+1. Go to [Zoom HomePage](https://zoom.us/)
+1. If you are in the process of signing in,  
  ![](img/recover_1.png)
-ので, それを押す. 以下のような画面になるので
+the button "My Account" button appears as shown below.
  ![](img/recover_2.png)
-「サインアウト」をクリックする.
-1. 再び[Zoomホームページ](https://zoom.us/) へ行くと今度は以下のように「サインイン」ボタンが現れる
+Click on the “My Account” button, then click on “`` Sign out” ''. 
+1. When you go to the [Zoom HomePage](https://zoom.us/) again, this time the "Sign in" button appears as follows 
  ![](img/recover_3.png)
-ので, それを押して, 以下のように入力画面を表示し,
+So, click it to display the input screen as below, 
  ![](img/recover_4.png)
-<font color="red">「パスワードをお忘れですか」</font>へ進む(ここがポイント).
-1. 以下のメールアドレスの窓に,
+and click on the <font color="red">"Did you forget your password?" </font>to proceed to the next screen (Important!).
+1. Enter your <font color="red">10-digit common ID@g.ecc.u-tokyo.ac.jp</font> email address in the box in the next screen,  and enter "Send" so an activation link will be sent to your ECCS cloud email account (xxxx@g.ecc.u-tokyo.ac.jp).
  ![](img/recover_5.png)
-<font color="red">10桁の共通ID@g.ecc.u-tokyo.ac.jp</font> を入力. 「送信」すると，アクティベーション用のリンクがあなたのECCSクラウドメールアカウント (xxxx@g.ecc.u-tokyo.ac.jp) に送られてきます.  <font color="red">注:</font> 指定するメールアドレスは, 10桁の共通ID@g.ecc.u-tokyo.ac.jp ですが, 実際にはあなたがECCSを初期設定した際に指定したアカウントで読むことができます(両者はエイリアスになっています. (<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html" target="_blank">説明</a>).
+  <font color="red">Note:</font> The email address you specify should be the [ 10-digit It is the common ID of the digit @ g.ecc.u-tokyo.ac.jp], but you can actually read it using the account you specified when you initially set up the ECCS (both are aliases.  (<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html" target="_blank">Description</a>).
  
