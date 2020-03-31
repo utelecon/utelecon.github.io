@@ -14,15 +14,15 @@ title: 大学の Zoom アカウントの作り方
 * そのほか問題が生じた場合も、utelecon-inquiries@googlegroups.com までご連絡ください。
 
 
-## 本メールによってアクティベートされるZoomのライセンス
+## Zoom license activated by this email 
 
  * [Zoom Pro](https://www.zoom.us/pricing/?zcid=2502&creative=372836060623&keyword=%2Bzoom%20%E8%A8%98%E9%8C%B2&matchtype=b&network=g&device=c&gclid=Cj0KCQjwx7zzBRCcARIsABPRscOD9-6-XKTSyUy5gK7SieIY89abNP-_0OcXGIezRfUuLq-BCwSJfCAaAiN9EALw_wcB)
- * 1会議に500参加者まで
- * 4/30まで. それ以降の契約継続も検討中
+ * Allows up to 500 participants per meeting 
+ * Valid until 4/30 April. Whether or not the contractContract is continuation continued after that this date is currently under consideration.
 
-## 事前準備
+## Advanced preparation 
 
-もしまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています．
+If you have not yet activated your <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCS Cloud Email」 (G Suite for Education)</a>, go to the <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account user menu</a> (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank"> details on the procedure </a>). Xxxx@g.ecc.u-tokyo.ac.jp If you can use this email address, it is already activated. 
 
 ## アカウントの作り方
 
