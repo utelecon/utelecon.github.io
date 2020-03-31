@@ -12,5 +12,6 @@ title: ITC-LMS へのログイン
 
 ![UTokyo Accountログイン画面](../lms_students/img/UTAC.png)
 
+[手順動画](https://youtu.be/xAur5zar5Sc)
 ## 参考情報
 * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
