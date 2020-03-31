@@ -1,25 +1,25 @@
 ---
-title: Zoom 会議室の作り方
+title: Creating a Zoom meeting room
 ---
 
-* 2020/03/28 に更新しました
-* 以前掲載していた Zoom  ソフトウェアを用いた作り方は[こちら](create_room_software)をご覧ください．  
+* Updated on 2020/03/28
+* Click [here](create_room_software)for information on how to use the Zoom software.  
 
 
-ここでは，Web ブラウザを用いて Zoom の会議室を作る方法を説明します（参考: [全13回の授業で使う URL が変わらない部屋（会議室）を予約する方法](how_to_use_in_classroom_faculty_members#schedule)）．  
+This section describes how to create a Zoom conference room using a Web browser（Reference: [Reserve a room (meeting room) where the URL used for all 13 lessons does not change](how_to_use_in_classroom_faculty_members#schedule)）．  
 
-１．Web ブラウザで<a href="https://zoom.us/profile" target="_blank"> Zoom のマイページ</a>へ移動し（サインインしていない場合は，Zoom のアカウントでサインインします），右上の「ミーティングをスケジュールする」を押します．  ![ミーティングのスケジュール開始](img/zoom_create_room_browser_1_schedule.png)  
+１．Open a web browser and goo to the <a href="https://zoom.us/profile" target="_blank"> Zoom my account</a>page(if you are not signed in, sign in with your Zoom account),and press "Schedule a Meeting" on the top right.  ![ミーティングのスケジュール開始](img/zoom_create_room_browser_1_schedule.png)  
 
 
 
-２．条件を設定して，下にある「保存」を押すことで，ミーティングをスケジュールします．  
-（設定の一部）  
+２．Schedule the meeting by setting the conditions and pressing "Save" below.
+(Part of settings)    
   ![ミーティング設定1](img/zoom_create_room_browser_2_option.png)  
   ![ミーティング設定2](img/zoom_create_room_browser_3_option.png)  
 
-以下，特に必要だと思われる点に絞って補足します．  
+The following is a supplementary explanation focusing on points that are particularly necessary.  
 
-  * **定期ミーティング**: 週ごと，毎日，毎月など定期的なスケジュールを設定できます（参考: [全13回の授業で使う URL が変わらない部屋（会議室）を予約する方法](how_to_use_in_classroom_faculty_members#schedule)）．
+  * **Recurrent meeting**: Allows you to schedule daily, weekly or monthly meetings.（Reference: [Reserve a room (meeting room) where the URL used for all 13 lessons does not change](how_to_use_in_classroom_faculty_members#schedule)）．
   * **ミーティングパスワード**: 設定しても構いませんが，初期設定では URL にパスワードの情報が埋め込まれているため，パスワードを設定していたとしても URL を共有するだけで，参加者は会議室へ入ることができます．
   * **ミーティングオプション**:  
     * **ホストより前の参加を有効にする**: オフにするとホストが入らないと他の参加者も会議室に入れない．他の参加者が早めに入って少し話しても良いのであれば ON にすることを推奨  
