@@ -19,7 +19,7 @@ This section describes how to create a Zoom conference room using a Web browser�
 
 The following is a supplementary explanation focusing on points that are particularly necessary.  
 
-  * **Recurrent meeting**: Allows you to schedule daily, weekly or monthly meetings.（Reference: [Reserve a room (meeting room) where the URL used for all 13 lessons does not change](how_to_use_in_classroom_faculty_members#schedule)）．
+  * **Recurring meeting**: Allows you to schedule daily, weekly or monthly meetings.（Reference: [Reserve a room (meeting room) where the URL used for all 13 lessons does not change](how_to_use_in_classroom_faculty_members#schedule)）．
   * **Meeting password**: You can set a password, but, by default, the password information is already embedded in the URL. Even if you set a password, participants can enter the meeting room by clicking on the URL you have shared.
   * **Meeting options**:  
     * **Enable participation before host**: When unchecked, no other participants can enter the conference room without the host. It is recommended to turn it on if you wish to allow other participants enter early. 
@@ -29,9 +29,9 @@ The following is a supplementary explanation focusing on points that are particu
 ３．After saving, copy the **invitation URL** and send it by email to the participants.
 ![スケジュール結果](img/zoom_create_room_browser_4_result.png)  
 
-  * 初期設定では **URL にパスワード情報が入っている**ため，パスワードを設定していたとしても別途パスワードを共有する必要はありません
-  * 「招待状をコピーする」で得られる文章には，電話での参加方法など多様な情報が含まれているため，招待状をコピーではなく，**会議室の URL だけを共有することをおすすめ**します．  
-  * 定期的なミーティングをスケジュールした場合は，「予定項目を全て表示」を押すことによって，例外的な日時設定をすることができます（例えば，毎週火曜日にスケジュールしているけれども，ある週は木曜日にしたいなど）．
+  * By default, the 初期設定では **URL contains password information**, so there is no need to share a separate password even if you have set a password.
+  * The text obtained from "Copy Invitation" contains not necessarily vital information (such as how to participate over the phone),**so we recommend that you share ONLY the URL of the meeting room** instead of copying the whole invitation. 
+  * If you have scheduled a recurring meeting, you can set an exceptional date and time setting by pressing “Show All Scheduled Items”（ex. you have a recurring meeting for Tuesdays, but will have an extra class on the next Thursday).
 
 
 
