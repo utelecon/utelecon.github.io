@@ -84,7 +84,7 @@ Click on the “My Account” button, then click on “`` Sign out” ''.
 So, click it to display the input screen as below, 
  ![](img/recover_4.png)
 and click on the <font color="red">"Did you forget your password?" </font>to proceed to the next screen (Important!).
-1. Enter your
+1. Enter your <font color="red">10-digit common ID@g.ecc.u-tokyo.ac.jp</font> email address in the box in the next screen,  and enter "Send" so an activation link will be sent to your ECCS cloud email account (xxxx@g.ecc.u-tokyo.ac.jp).
  ![](img/recover_5.png)
-<font color="red">10-digit common ID@g.ecc.u-tokyo.ac.jp</font> email address Iinn the window with the following email address,  「Enter "Send" and an activation link will be sent to your ECCS cloud email account (xxxx@g.ecc.u-tokyo.ac.jp).  <font color="red">Note:</font> The email address you specify should be the [ 10-digit It is the common ID of the digit @ g.ecc.u-tokyo.ac.jp], but you can actually read it using the account you specified when you initially set up the ECCS (both are aliases.  (<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html" target="_blank">Description</a>).
+  <font color="red">Note:</font> The email address you specify should be the [ 10-digit It is the common ID of the digit @ g.ecc.u-tokyo.ac.jp], but you can actually read it using the account you specified when you initially set up the ECCS (both are aliases.  (<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html" target="_blank">Description</a>).
  
