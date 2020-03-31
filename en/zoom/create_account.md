@@ -33,26 +33,26 @@ If you have not yet activated your <a href="https://www.ecc.u-tokyo.ac.jp/announ
 1. Click "Activate Zoom Account" in the email.  
   
 1. The following screen will appear on the web browser. Click on the "Sign up with password" below.   
-  * To[any person who by mistake pressed "Sign in with Google](#if_you_create_a_wrong_account) on the previous screen
+  * To [any person who by mistake pressed "Sign in with Google](#if_you_create_a_wrong_account) on the previous screen
   ![](img/zoom_account_browser1.png)
   
 1. Set your name and password and press "Continue"  
   ![](img/zoom_account_browser2.png)
   
-1. The account setting ishas been completed. If necessary, make dDetailed settings can be made using in "Start Zoom Meeting Now" or "My Account" if necessary. 
+1. The account setting ishas been completed. If necessary, make detailed settings can be made using in "Start Zoom Meeting Now" or "My Account" if necessary. 
   ![](img/zoom_account_browser3.png)
   
   
 With the above flow, you can create an account. 
 
 <a name="if_you_create_a_wrong_account"> </a>
-## 間違えて作ってしまった人は
+## If you create a wrong account
 
-上記で「Googleのサインイン」でアカウントをアクティベートしてしまうと, 正しくZoom Proのライセンスが有効になりません. 回復するために以下のどちらかを行ってください.
+If you activate your account with "Sign in with Google" in the previous step, your Zoom Pro license will not be valid. Please do one of the following to recover. 
 
-### 回復方法1: アクティベーションメールを再送してもらう.
+### Recovery method 1: Have your activation email resent. 
 
-情報戦略チーム jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp へ以下の文面で連絡をお送りください
+Please contact the Information Strategy Team jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp with the following text 
 
 ```
 ◯◯(所属)の◯◯です
@@ -62,7 +62,7 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
 
 ```
 
-例:
+Example:
 
 ```
 情報基盤センターの田浦健次朗です
@@ -72,18 +72,18 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
 
 ```
 
-### 回復方法2: 自力で回復する
-1. [Zoomホームページ](https://zoom.us/) へ行く
-1. もし Sign In 中であれば, 以下のように「マイアカウント」というボタンが現れる
+### Recovery Method 2: Recover on your own 
+1. Go to [Zoom HomePage](https://zoom.us/)
+1. If you are in the process of signing in,  
  ![](img/recover_1.png)
-ので, それを押す. 以下のような画面になるので
+the button "My Account" button appears as shown below.
  ![](img/recover_2.png)
-「サインアウト」をクリックする.
-1. 再び[Zoomホームページ](https://zoom.us/) へ行くと今度は以下のように「サインイン」ボタンが現れる
+Click on the “My Account” button, then click on “`` Sign out” ''. 
+1. When you go to the [Zoom HomePage](https://zoom.us/) again, this time the "Sign in" button appears as follows 
  ![](img/recover_3.png)
-ので, それを押して, 以下のように入力画面を表示し,
+So, click it to display the input screen as below, 
  ![](img/recover_4.png)
-<font color="red">「パスワードをお忘れですか」</font>へ進む(ここがポイント).
+and click on the <font color="red">"Did you forget your password?" </font>to proceed to the next screen (Important!).
 1. 以下のメールアドレスの窓に,
  ![](img/recover_5.png)
 <font color="red">10桁の共通ID@g.ecc.u-tokyo.ac.jp</font> を入力. 「送信」すると，アクティベーション用のリンクがあなたのECCSクラウドメールアカウント (xxxx@g.ecc.u-tokyo.ac.jp) に送られてきます.  <font color="red">注:</font> 指定するメールアドレスは, 10桁の共通ID@g.ecc.u-tokyo.ac.jp ですが, 実際にはあなたがECCSを初期設定した際に指定したアカウントで読むことができます(両者はエイリアスになっています. (<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html" target="_blank">説明</a>).
