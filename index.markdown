@@ -14,6 +14,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+ 
  * <span style="color:blue;">2020/3/31:</span> 本日３月３１日は、学籍異動日のため，進学者（前期→後期）は、UTASが利用できません.ご不便をおかけしますがどうぞよろしくお願いいたします
  * <span style="color:blue;">2020/3/30:</span> 部局のWebページへのリンクを作るための<a href="https://tinyurl.com/vjfuxs3" target="_blank">申し込みフォーム</a>
  * <span style="color:blue;">2020/3/29:</span> <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
