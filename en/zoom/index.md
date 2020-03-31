@@ -15,27 +15,27 @@ title: Zoom
 * This section describes the features and usage flow of the Web conferencing tool in Zoom. In addition, there are sub-pages with specific instructions, so please refer to them as necessary.
 * This page basically describes the use of Zoom on a PC, but you can also use the Zoom application on tablets and smartphones..
 
-## 利用の流れ
+## How to use
 
-* 開催者・参加者共通  
-  * PC，タブレット，スマートフォンなど接続用デバイスを用意します
-    * マイクやカメラがデバイスに内蔵されていない場合はそれらも用意します
-    * 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します  
+* Organizers and participants 
+  * Prepare connection devices such as PC, tablet and smartphone
+    * If your device does not have a built-in microphone or camera, prepare them as well
+    * If the distance between the PC and the participant is long, such as when sharing a single PC among multiple people in the same room or when taking a picture of a person speaking in the lecture room, it is recommended to use an external USB camera or high-sensitivity microphone. 
     
-* 開催者
-  1. Zoom をインストールします（<a href="install" target="">詳細</a>）  
-  1. アカウントを作成します（<a href="create_account" target="">詳細</a>）
-  1. 会議室を作成して，会議室の情報（URLなど）を周知します（<a href="create_room" target="">詳細</a>）
-  1. 会議室へ入ります（<a href="join" target="">詳細</a>）
-  1. ミーティングを行います
-    * <a href="how_to_use" target="">開催者・参加者共通の使い方</a>
-	* <a href="how_to_use_host" target="">開催者特有の使い方</a>
+* Organizer
+  1. Install zoom（<a href="install" target="">details</a>）  
+  1. Create an account（<a href="create_account" target="">details</a>）
+  1. Create and share a conference room（<a href="create_room" target="">details</a>）
+  1. Enter the meeting room（<a href="join" target="">details</a>）
+  1. Start the meeting
+    * <a href="how_to_use" target="">Organizer・Participant common guidelines</a>
+	* <a href="how_to_use_host" target="">Organizer specific guidelines</a>
   
-* 参加者
-  1. Zoom をインストールします（<a href="install" target="">詳細</a>）  
-  1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます
-  1. 会議室へ入ります（<a href="join" target="">詳細</a>）
-  1. ミーティングを行います（<a href="how_to_use" target="">具体的なZoomの使い方</a>）
+* Participant
+  1. Install zoom（<a href="install" target="">details</a>）  
+  1. Obtain meeting room information (URL, etc.) from the organizer using e-mail etc.
+  1. Enter the meeting room（<a href="join" target="">details</a>）
+  1. Start the meeting（<a href="how_to_use" target="">specific guidelines on use</a>）
 
 ## 授業での使い方
 
