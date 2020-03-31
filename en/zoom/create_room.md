@@ -29,7 +29,7 @@ The following is a supplementary explanation focusing on points that are particu
 ３．After saving, copy the **invitation URL** and send it by email to the participants.
 ![スケジュール結果](img/zoom_create_room_browser_4_result.png)  
 
-  * By default, the 初期設定では **URL contains password information**, so there is no need to share a separate password even if you have set a password.
+  * By default, the **URL contains password information**, so there is no need to share a separate password even if you have set a password.
   * The text obtained from "Copy Invitation" contains not necessarily vital information (such as how to participate over the phone),**so we recommend that you share ONLY the URL of the meeting room** instead of copying the whole invitation. 
   * If you have scheduled a recurring meeting, you can set an exceptional date and time setting by pressing “Show All Scheduled Items”（ex. you have a recurring meeting for Tuesdays, but will have an extra class on the next Thursday).
 
