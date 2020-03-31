@@ -37,38 +37,38 @@ title: Zoom
   1. Enter the meeting room（<a href="join" target="">details</a>）
   1. Start the meeting（<a href="how_to_use" target="">specific guidelines on use</a>）
 
-## 授業での使い方
+## How to use in class
 
-* 学生・教員共通編
-  * <a href="how_to_use_in_classroom_common#use_mic_and_camera">マイクとカメラの設定を変更する（ミュートする，マイクのチェックする，カメラをオンオフするなど）</a>
+* Student・Faculty common Edition
+  * <a href="how_to_use_in_classroom_common#use_mic_and_camera">Change microphone and camera settings (mute, check microphone, turn camera on / off, etc.)</a>
 	<br>
-* 授業での使い方（学生編）
-  * <a href="">手を挙げる方法（作成中）</a>
+* How to use in class (Student Edition)
+  * <a href="">How to raise your hand (under construction)</a>
   <br>
-* 授業での使い方（教員編）
-  * <a href="how_to_use_in_classroom_faculty_members#schedule">授業をスケジュールする</a>
-  * <a href="" target="">［画面共有］資料を提示する（作成中）</a>
-  * <a href="" target="">［チャット］質問を受け付ける（作成中）</a>
-  * <a href="" target="">［投票］学生に質問する（作成中）</a>
-  * <a href="" target="">［ブレイクアウト］グループワークを促す（作成中）</a>
-  * <a href="" target="">［レコーディング］授業を録画する（作成中）</a>
+* How to use in class（Teacher Edition）
+  * <a href="how_to_use_in_classroom_faculty_members#schedule">Schedule lessons</a>
+  * <a href="" target="">［Screen sharing］Presenting materials（under construction）</a>
+  * <a href="" target="">［Chat］Accepting questions（under construction）</a>
+  * <a href="" target="">［Poll］Ask questions to students（under construction）</a>
+  * <a href="" target="">［Breakout］Encourage group work（under construction）</a>
+  * <a href="" target="">［Recording］Record classes（under construction）</a>
 
 
-## 参考情報
+## Reference information
 [Q&A](qa)  
 
 
-## サブページ一覧
-* <a href="install" target="">インストールの方法</a>  
-* <a href="create_account" target="">アカウントの作り方（開催者用）</a>  
-* <a href="create_room" target="">会議室の作り方（開催者用）</a>  
-* <a href="join" target="">会議室の入り方</a>  
-* Zoom の使い方
-  * <a href="how_to_use" target="">開催者・参加者共通の使い方</a>  
-  * <a href="how_to_use_host" target="">開催者特有の使い方</a>  
-* 授業での使い方  
-  * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する（作成中）</a>  
-  * <a href="classroom_chat" target="">［チャット］質問を受け付ける（作成中）</a>  
-  * <a href="classroom_poll" target="">［投票］学生に質問する（作成中）</a>  
-  * <a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す（作成中）</a>  
-  * <a href="classroom_record" target="">［レコーディング］授業を録画する（作成中）</a>  
+## Subpage list
+* <a href="install" target="">How to install</a>  
+* <a href="create_account" target="">How to create an account（for organizers）</a>  
+* <a href="create_room" target="">How to create a meeting room（for organizers）</a>  
+* <a href="join" target="">How to enter a meeting room</a>  
+* How to use Zoom
+  * <a href="how_to_use" target="">Organizer・Participant common guidelines</a>  
+  * <a href="how_to_use_host" target="">Organizer specific guidelines</a>  
+* How to use in class  
+  * <a href="classroom_screen_sharing" target="">［Screen sharing］Presenting materials（under construction）</a>  
+  * <a href="classroom_chat" target="">［Chat］Accepting questions（under construction）</a>  
+  * <a href="classroom_poll" target="">［Poll］Ask questions to students（under construction）</a>  
+  * <a href="classroom_breakout" target="">［Breakout］Encourage group work（under construction）</a>  
+  * <a href="classroom_record" target="">［Recording］Record classes（under construction）</a>  
