@@ -2,18 +2,18 @@
 title: Zoom
 ---
 
-## お知らせ
+## Notice
 
-* 授業を行うためにZoomの会議を<font color="green">開催する人</font>(またはそれを代行する人)は, <a href="create_account" target="">Zoomのアカウントのアクティベーション</a>が<font color="green">必要</font>です
-* 授業に<font color="purple">参加するだけの人</font>(正確には誰かが開催したZoom会議に参加(join)するだけの人)はZoomアカウントは<font color="purple">不要</font>です
-* 大学が配布したアカウントを, <a href="create_account">大学の Zoom アカウントの作り方</a>に従ってアクティベーションしようとしたら<font color="red">「ユーザが存在しません」というエラーが出る</font>という事例が多く報告されております. そうなったら<a href="https://tinyurl.com/v5pvzb5">現在わかっている最善の対処方法</a>をご覧いただき, フォームへの質問にもお答えください. 解決しない場合は utelecon-inquiries@googlegroups.com へご連絡下さい.
-* そのほか問題が生じた場合も、utelecon-inquiries@googlegroups.com までご連絡ください。
+* The person <font color="green">hosting the meeting</font>(or co-hosting) <font color="green">must</font> <a href="create_account" target="">activate its zoom account</a>.
+* Those<font color="purple">participating of a zoom meeting as guests</font>(i.e., joining a meeting)<font color="purple">do not need</font> a zoom account.
+* Now, there are many cases reporting <font color="red">an error message "user not exist" </font>when trying to activate an account. In this case, check the <a href="https://tinyurl.com/v5pvzb5">troubleshooting assistant </a>and answer the survey at the end. In case you still cannot solve the problem, please contact utelecon-inquiries@googlegroups.com.
+* Any other inquiries: utelecon-inquiries@googlegroups.com.
 
-## はじめに
+## Introduction
 
-* 2020年4月30日まで（今後については現在検討中）は，**本学のGoogleメール（共通ID数字10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールと呼びます）で作成した Zoom アカウントを用いることで最大参加人数500名で時間無制限の会議室を使えるようになりました**   
-* ここでは Web会議ツール Zoom の特徴や利用の流れについて説明します．また，具体的な使い方が載ったサブページもあるため，適宜そちらをご参照ください．  
-* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで Zoom を使えます  
+* You can use an unlimited time conference room with a maximum of 500 participants until April 30th, 2020 (extension under consideration) by**University's Google mail (10 digits of common ID number @ g.ecc.u-tokyo.ac.jp, hereinafter referred to as ECCS cloud mail)**   
+* This section describes the features and usage flow of the Web conferencing tool in Zoom. In addition, there are sub-pages with specific instructions, so please refer to them as necessary.
+* This page basically describes the use of Zoom on a PC, but you can also use the Zoom application on tablets and smartphones..
 
 ## 利用の流れ
 
