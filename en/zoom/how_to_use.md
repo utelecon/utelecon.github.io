@@ -52,26 +52,25 @@ When you press the menu "Share screen", the options of screens to be shared appe
   ![](img/zoom_main_share_focus.png)
   ![](img/zoom_main_share.png)
   
-  * 「画面」を選択すると，共有する人の画面そのものが全員に共有されます（画像のようにマルチモニタなどで画面が複数ある場合は画面1，画面2と選択肢が増えます）．
-  * 「ホワイトボード」を選択すると自由に描けるホワイトボードが全員に共有されます．
-  * 「iPhone/iPad」を選択すると iPhone/iPad の画面共有ができるようになります（プラグインが必要）．同じ WiFi ネットーワーク内にあるデバイスから AirPlay 経由で共有できます．
-  * 現在開いているウィンドウも選択肢に表示されます．ウィンドウ単位で画面共有することもできます．ウィンドウ以外の場所を見られたくない場合は，そのウィンドウを選択して画面共有することをおすすめします．
+  * When "Screen" is selected, the screen of the person sharing the image itself is shared with everyone (If there are multiple screens such as a multi-monitor like an image, screen 1 and screen 2 have more options).
+  * If you select "Whiteboard", a whiteboard in which you can draw freely will be shared with everyone.
+  * Selecting "iPhone / iPad" will allow you to share your iPhone / iPad screen (plug-in required). You can share via AirPlay from devices in the same WiFi network.
+  * The currently open window is also displayed as an option. You can also share the screen in window units. If you don't want others to see all of your computer windows, we recommend that you select the window unity you want to share.
   
   
 ## Participants
   
-メニュー「参加者」を押すと，参加者一覧が見られる画面が出てきます．
+Pressing the menu "Participants" will bring up a screen where you can see a list of participants.
   ![](img/zoom_main_member.png)  
   
-  * 「手を挙げる」: これを押すと，開催者および参加者が「手を挙げている」ことがわかるようになります．
-  * 自分の名前のところにマウスカーソルを合わせると，ミュートのオン，オフ，詳細より表示される名前の変更
-  
+  * "Raise Hand": Pressing this will tell the organizer and participants that they are "raising hands."
+  * Hover the mouse cursor over your name to turn mute on / off and change the name displayed by clicking on "details"
 
   
 ## Chat
   
-メニュー「チャット」を押すと，テキストチャットができるようになります．ここで，注意が必要なのは，途中からログインすると過去のテキストチャットが確認できない点です．そのため，テキストを送付したいメンバーが全員いる状態でテキストを送付することが重要になります．
+If you press the menu "Chat", text chat will be available. It is important to note that if you log in from the middle of a meeting, you will not be able to see past text chats. Therefore, it is important to wait and send texts after every member has joined the meeting.
   ![](img/zoom_main_chat.png)  
   
-  * 「送信先」を変更することで，メッセージの送信先を「全員」や個人に変更できます．デフォルトでは全員に送信されるようになっています．
-  * 「ファイル」を選択することによって，コンピュータにあるファイルや Dropbox などにあるファイルを送信できるようになります．
+  * By clicking the "Send to" button, you can change the destination of the message from "Everyone" to an individual. By default, messages are sent to everyone.
+  * By selecting "File", you can send files from your computer or files from an online drive.
