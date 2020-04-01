@@ -52,7 +52,7 @@ Towards online classes
 * [FAQ: Frequently Asked Questions](faq)
 
 
-イベント
+Events
 ---------------------------
 
 * 2020/03/27 [Online basic course "How to make on-demand online lessons using videos and texts" and "Online lesson counseling specialized in language learning"](events/2020-03-27/)  
