@@ -24,15 +24,15 @@ At this point, we have no idea what the world will be like in April, May, or Jun
 
 The preparation by the university is not yet complete. This is the first attempt for teachers and staff, and we are proceeding with trial and error.   We would like students to do what they can and participate in this initiative. 
 
-- Faculty and staff participating in the making of this Portal
+- A message from all the members editing this Portal
 
 
 
-教養学部長からのメッセージ
+Message from the Dean of the College of Arts and Sciences
 ---------------------------
 
- * 4月から大学一年生になる新入生とご家族への, <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_black">太田邦史教養学部長からのメッセージ</a>です
- * <a href="http://www.todaishimbun.org/coronavirus20200319/" target="_blank">東大新聞 教養・総合文化、オンライン授業の大規模な導入へ　新入生に事前準備を要請</a>
+ * <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_black">A message from Prof. Kunihiro Ota, Dean of the College of Arts and Sciences </a>to all the new students enrolling at the University of Tokyo in April and their parents.
+ * <a href="http://www.todaishimbun.org/coronavirus20200319/" target="_blank">Request for all new students to make preparations in advance for the large-scale introduction of online classes at the College of Arts and Sciences, Graduate School of Arts and Sciences and the University of Tokyo Newspaper.</a>
 
 What are Online Classes?
 ---------------------------
@@ -57,13 +57,13 @@ We need you to do these two things before the new semester starts.
 
 * The second is to prepare equipment to connect to a [video conference system](#teleconf)and [confirm that you can operate it by yourself](#check-online-ready). “Equipment” does not mean anything special. If you often watch videos on your laptop or smartphone, you wouldn’t have any problems with using the video conference system.  We recommend using a laptop to take online classes, but you can use your smartphone as well to take classes and to do preparations explained below. 
 
-<font color="blue">注:</font>
+<font color="blue">Note:</font>
 
-* 以下の作業は, 授業に使うパソコンを入手する前でも実行可能です
+* The following process can be done even before you obtain the PC you will be using for classes.
 
-* 今ある手持ちのスマホでも, iPadやタブレット, (家にある)パソコンなどで実行可能です
+* Smartphones, tablets that you already have or your PC at home can be used.
 
-* 設定したパスワードなどは忘れぬよう, メモして安全なところへ保管してください
+* Please make sure you do not forget your passwords etc. Please note it down and keep it in a safe place.
 
 ***
 
@@ -72,7 +72,7 @@ We need you to do these two things before the new semester starts.
 
 ![](img/service-overview.png)
 
-全体像は上記の図のようになっています. 以下で作業をしてほしい要素に限って説明します. 以下の作業中, このページに書かれている通りにならないなど, 問題を見つけた場合は [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) まで連絡を下さい. その際, (a) 以下のどのステップで, (b) 自分が何をしたら, (c) どんな結果になったか, を含めて下さい(「できませんでした」というだけの情報だとこちらで問題がわからない場合が多いです).
+The overall image is shown above. The description below has only the elements which need to be worked on. Please contact[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) if you have any problems or things do not go as described below. When doing so, please state: a) which step you were at, b) what you did, and c) what was the result (we will not be able to provide much help if all the information we are given is “I couldn’t do it” or “it doesn’t work”).
 
 1. **UTokyo Account:** This is the most essential system for an online learning system at U-Tokyo. The UTokyo account indicates that you are a member of the University of Tokyo and is the basis for all other services. If you are a current student, you must have used it before.
  * For students who will be enrolling at UTokyo for the first time in April 2020, your account number (10-digit number listed as “Common ID”) and initial password was provided in the information registration website for successful candidates that became available on 19 March 2020.
