@@ -126,16 +126,16 @@ Note: March is a season when the number of internet applications increase causin
 ### Checking to see if you are ready to take online classes
 
  <a name="check-excel"> </a>
- * この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. <font color="red">3/22更新: もし東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれたら,</font>
+ * Click on the link to check whether or not you are able to see the  <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel sheet</a>. <font color="red">22 Mar Update: If a UTokyo “Sign In” window pops up requesting “email, phone number, Skype”, </font>, enter:
 ```
-UTokyo Accountのアカウント番号@utac.u-tokyo.ac.jp
+「UTokyo Account ID@utac.u-tokyo.ac.jp」
 ```
-と記入して先へ進んで下さい. UTokyo Accountのアカウント番号は10桁の数字です. なお詳細はわかりませんがこの窓が出てこないこともあります. 次にUTokyo Accountのアカウント名とパスワードを入力する画面が出てきたら, 自分で設定したUTokyo Accountのアカウント名とパスワードを入力して下さい. それで無事見られれば, UTokyo Accountの設定ができています (<a href="https://youtu.be/iJbq6unDIOA" target="_blank">手順動画</a>).
+and continue. The UTokyo Account ID is a 10-digit number. We are not certain of the cause, but occasionally this window does not appear. When a new window opens requesting your UTokyo Account name and password, please type in the account name and password that you set yourself. If you can see the spreadsheet your UTokyo Account has been successfully set up.  (<a href="https://youtu.be/iJbq6unDIOA" target="_blank">video</a>).
  <a name="check-google-spreadsheet"> </a>
- * この, <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>が見られるかどうか, リンクをクリックして確かめてみてください. このときもし,
-   * **パターン1:** 今回作った大学のアカウント(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインしている場合は直ちにアクセスできます
+ * Click on the link to check whether or not you are able to see the  <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google spreadsheet</a>. Then,
+   * **Pattern 1:** If you are already logged in to Google with the university account you recently made (xxxx@g.ecc.u-tokyo.ac.jp) then you should be able to access it immediately.
     <a name="check-google-spreadsheet-pattern-2"> </a>
-   * **パターン2:** Googleに別のアカウント(例えば自分が普段使っているyyyy@gmail.com)でログインしている場合は「権限が必要です」という窓が出てきます.
+   * **Pattern 2:** If you are logged in to Google using a different account (your usual personal account – yyyy@gmail.com) a window will pop up stating “authorization required”.
      * パソコンの場合: 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでログインして下さい. 「アクセス権限のリクエスト」**ではありません.**  すでに何人かの人が「アクセス権限のリクエスト」を送っているようですが, 気にせずもう一度上記からアクセスして, **「アカウントを切り替える」**を選び直して下さい(この場合の<a href="https://youtu.be/yLQcnfZo_24" target="_blank">手順動画</a>).
      * **(3/27追加)** Androidの場合: Gmailの受信トレイ -&gt; 右上のアイコン -&gt; 「別のアカウントを追加」 -&gt; Google を選び, ログイン画面で今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください. (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">手順動画</a>)
     <a name="check-google-spreadsheet-pattern-3"> </a>
