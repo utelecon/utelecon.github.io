@@ -1,6 +1,7 @@
 
 授業URLの通知の仕方 〜 授業で教員と学生た混乱なく出会うための共通ルール
 =========================================
+
 How to let your students know your online class URL -- Ground rules to safely meet instructors and students
 =========================================
 
@@ -39,7 +40,7 @@ How to let your students know your online class URL -- Ground rules to safely me
 そのため, URL 1つを超える複雑な情報を伝える場合, 現時点では以下のいずれかを使う(各教員が最も安心・確実と思うものを選択)
 
   1. UTASの他の欄 (例: 授業シラバス -> 詳細情報 -> 「備考」)にテキストとして書く. URLを書いてもリンクにはならないので学生にとっては面倒
-  1. (ITC-LMSを使う先生向け) ITC-LMS上の「お知らせ」機能を使う. 授業ページへのダイレクトリンクをオンライン授業URL欄に書く. ITC-LMS上で受講登録するように指示する. <a href="https://youtu.be/Ek92-2Pn698">学生から見た図</a>
+  1. (ITC-LMSを使う先生向け) ITC-LMS上の「お知らせ」機能を使う. 授業ページへのダイレクトリンクをオンライン授業URL欄に書く. ITC-LMS上で受講登録するように指示する. 
   1. (学生含め慣れた人向け) UTASには共有 Google Spreadsheet または Microsoft Excel Online の workbook へのリンクを書き, そこに情報を書き込む. この際シートには, 学外者からのアクセスができないようにする.
     * ただし, 学生が正しくそれらのシートにアクセスできないと, 講義に入れなくなってしまう. やり方の周知徹底, そのための練習なしに, 初回にいきなりこれをやるのはおすすめできない
 
