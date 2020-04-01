@@ -4,10 +4,14 @@ title: Zoom
 
 ## Notice
 
+* <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoom FAQs on setting issues</a>
+
+<!--
 * The person <font color="green">hosting the meeting</font>(or co-hosting) <font color="green">must</font> <a href="create_account" target="">activate its zoom account</a>.
 * Those<font color="purple">participating of a zoom meeting as guests</font>(i.e., joining a meeting)<font color="purple">do not need</font> a zoom account.
 * Now, there are many cases reporting <font color="red">an error message "user not exist" </font>when trying to activate an account. In this case, check the <a href="https://tinyurl.com/v5pvzb5">troubleshooting assistant </a>and answer the survey at the end. In case you still cannot solve the problem, please contact utelecon-inquiries@googlegroups.com.
 * Any other inquiries: utelecon-inquiries@googlegroups.com.
+-->
 
 ## Introduction
 

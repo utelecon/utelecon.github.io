@@ -4,11 +4,15 @@ title: How to create an UTokyo Zoom account
 
 ## Notice
 
+* <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoom FAQs on setting issues</a>
+
+<!--
 * In order to <font color="green">host a meeting </font>(or co-host it), it is <font color="green"> necessary</font> to<a href="create_account" target=""> activate your Zoom account</a>.
 * <font color="purple">For participants</font>(i.e. those joining a meeting hosted by someone else) there is <font color="purple">no need</font> of account activation.
+-->
 
 * School has made a contract with Zoom Pro and the account activation URL (allowing access to Webinars and meetings with up to 500 participants) was already sent to all teaching staff members and students with a UTokyo account valid from March 24th (March 16th for teaching staff). The activation URL was sent to the ECCS Cloud Mail (G Suite for Education) gmail's address (xxxxx@g.ecc.u-tokyo.ac.jp).
- * For those who need or want to activate their account (to hold meetings as a host or co-host), open your ECCS Cloud Mail and the email sent with the activation code, and follow the instructions described in the following link. Please, <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/">set your ECCS Cloud Mail account</a> in case you did not do it yet.
+ * For those who need or want to activate their account, open your ECCS Cloud Mail and the email sent with the activation code, and follow the instructions described in the following link. Please, <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/">set your ECCS Cloud Mail account</a> in case you did not do it yet.
  * Now, there are many cases reporting <font color="red">an error message "user not exist" </font>when trying to activate an account. In this case, check the <a href="https://tinyurl.com/v5pvzb5">troubleshooting assistant </a>and answer the survey at the end. In case you still cannot solve the problem, please contact utelecon-inquiries@googlegroups.com.
 
 * Any other inquiries: utelecon-inquiries@googlegroups.com.
