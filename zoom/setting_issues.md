@@ -33,9 +33,10 @@ ECCSクラウドメール(なんとか@g.ecc.u-tokyo.ac.jp)をチェックした
 -->
 * それもうまく行かなければ<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNUhHRjdZRjI0NzVNV1FSTVZXT09YOU5UTy4u" target="_blank"> 再送を依頼</a>して下さい
 
+<a name="user_not_exist"> </a>
+
 アカウントのアクティベーションを招待するメールを受取り, アクティベートするボタンを押したが「そのようなユーザはいない」と言われた
 -----------------
-<a name="user_not_exist"> </a>
 
 * 原因は不明ですがかなりの人に発生しています. ここに書かれている<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">対処</a>で直ったという話がありますのでやってみて下さい
 
