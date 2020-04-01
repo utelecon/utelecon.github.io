@@ -37,19 +37,19 @@ What's New (<span style="color:blue;">blue letters</span>highlight the date of p
 Available Web conferencing system
 ---------------------------
 
-以下のシステムは全構成員(学生・教職員)が利用可能です.  
+The following system is available to all members (students and faculty). 
 
 * <a href="zoom/">Zoom</a>
 * <a href="google_hangouts_meet/">GoogleハングアウトMeet</a>
 * <a href="webex/">WebEx</a>
-* <a href="compare">3ツールの比較</a>
+* <a href="compare">Comparison of 3 tools</a>
 
-オンライン授業に向けて
+Towards online classes
 ---------------------------
 
-* [新入生・在学生のための, オンライン授業を受けるための準備](oc)
-* [教員のためのオンライン授業を行うにあたって](faculty_members)
-* [FAQ: よくある質問](faq)
+* [Preparing for online classes for new and currently enrolled students](oc)
+* [In conducting online classes for teachers](faculty_members)
+* [FAQ: Frequently Asked Questions](faq)
 
 
 イベント
