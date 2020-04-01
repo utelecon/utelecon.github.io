@@ -1,6 +1,6 @@
 ---
 title: Test
-layout: zoom
+layout: en
 ---
 
 Hi

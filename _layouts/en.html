@@ -90,13 +90,8 @@
 
     <header class="page-header" role="banner">
 	  <div align="right">
-
-		{% assign en_urls = "" | split: "|" %}
-		{% assign en_urls = en_urls | push: "/" %}		
-		{% assign en_urls = en_urls | push: "/oc" %}		
-		{% assign en_urls = en_urls | push: "/zoom" %}		
 	  
-		<a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}{{page.url}}" style="color:white;">English (Google Translation)</a>
+		<a href="{{site.url}}{{page.url | replace: '/en/', '/'}}" style="color:white;">Japanese</a>
 	  </div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
