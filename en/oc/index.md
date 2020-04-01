@@ -1,12 +1,11 @@
 ---
-title: 新入生・在学生のための, オンライン授業を受けるための準備
+title: Preparing for online classes for new and currently enrolled students
 ---
 
-注意
+Note
 ---------------------------
-* <font color="red">下記，ITC-LMS の緊急システムメンテナンスは終了しました．ご協力ありがとうございました．</font>
-* 2020年度のオンライン授業の準備のため，ITC-LMS の緊急システムメンテナンスを に本日，9:00から11:00(予定)
-まで行います．この間 ITC-LMS のサービスを一時停止します．ご不便をお掛けしますが，ご理解とご協力をよろしくお願いいたします．
+* <font color="red">The following emergency system maintenance of ITC-LMS has been completed. Thank you for your cooperation.</font>
+* To prepare for the online classes in 2020, ITC-LMS emergency system maintenance will be held today from 9:00 to 11:00 (planned). During this time, the ITC-LMS service will be suspended. We apologize for any inconvenience, and thank you for your understanding.
 
 
 Introduction
@@ -44,7 +43,7 @@ What are Online Classes?
   * **Document delivery type** : Watching narrated lecture materials (slides, etc.) and asking questions/ having discussions through other platforms (email, bulletin board, etc.)
   * **Self-study centered type** : Studying by yourself and solving exercises using textbooks and asking questions/ having discussions through other platforms (email, bulletin board, etc.).
   
-* また, オンライン授業を導入すると言っても, 最初の1, 2回は, 限られた人数の登校を許可して必要最低限のガイダンスを行うという授業もあるかもしれません. 一部の学生は先生と同じ教室や, 大学の端末室にいるということもありえます. 形式は様々です. 自分が所属する学科や, 自分が履修する予定の講義がどのような形式で開講されるのか, をよく見ておいてください.
+* Additionally, even if online lessons are introduced, it is possible that for the first one or two classes, there will be some lessons where a limited number of students are allowed to be present physically onsite and receive minimal guidance. Some students may then be in the same room as the teacher, or in a separate computer room of the university. There are a variety of styles. Please check to see what style is being offered by the department to which you belong or the lectures you are planning to register for.
 
 The rest of this page explains what students should do to attend online classes. Many of the explanations are the same for both current and new students. Information that should be noted especially for those who will be students of the University of Tokyo from this spring is described separately.
 
@@ -142,7 +141,7 @@ and continue. The UTokyo Account ID is a 10-digit number. We are not certain of 
    * **Pattern 3:** If you were not logged into Google and the message “User Authorization Failed” is displayed, you will see a screen prompting you to log into Google. Please log in using the university account you created (<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">video</a>).  
      * **(3/27 update)** If using Android: Select Gmail Inbox → Icon in the top right → “Add another account” → Select Google, and log in using the university account you created (xxxx@g.ecc.u-tokyo.ac.jp) (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">video</a>).
    * If you can see the spreadsheet, you have successfully activate your G Suite for Education (ECCS Cloud Mail). However, those who are in China will not be able to connect to this sheet. Please confirm with the Microsoft Excel only.
- * **Connect to Zoom:** If possible, using either of the sheets from above (it does not matter which) connect to Zoom using the link on the right of the cell with “Zoom” under the title “Connect to TV Conferencing”. When you click on the link you may start through your browser on your PC or smartphone, or you may be requested to install an app. Please install the app if requested. If you are uncertain how to install the app, you can still view it from the browser or see the instructions on how to [install](../zoom/)from this site. 
+ * **Connect to Zoom:** If possible, using either of the sheets from above (it does not matter which) connect to Zoom using the link on the right of the cell with “Zoom” under the title “Connect to TV Conferencing”. When you click on the link you may start through your browser on your PC or smartphone, or you may be requested to install an app. Please install the app if requested. If you are uncertain how to install the app, you can still view it from the browser or see the instructions on how to [install](../zoom/) from this site. 
    * Once you connect, there will be a slideshow with narration running on how to use the TV conferencing software.
    * In particular, please make sure that you can hear the sounds.
    * As this is a TV conference, there may be other people connected at the same time.
