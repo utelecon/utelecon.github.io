@@ -15,13 +15,12 @@ About this Site
 
 What's New (<span style="color:blue;">blue letters</span>highlight the date of publication. Recent entries come above)
 ---------------------------
-* <span style="color:blue;">2020/4/1:</span> <font color="red">下記，ITC-LMS の緊急システムメンテナンスは終了しました．ご協力ありがとうございました．(11:44am)</font>
-* <span style="color:blue;">2020/4/1:</span> 2020年度のオンライン授業の準備のため，ITC-LMS の緊急システムメンテナンスを に本日，9:00から11:00(予定)
-まで行います．この間 ITC-LMS のサービスを一時停止します．ご不便をお掛けしますが，ご理解とご協力をよろしくお願いいたします．
- * <span style="color:blue;">2020/3/31:本日3月31日は学籍異動日のため，進学者(前期から後期へ)は UTAS が利用できません. ご不便をおかけしますがどうぞよろしくお願いいたします．
- * <span style="color:blue;">2020/3/30:</span> 部局のWebページへのリンクを作るための<a href="https://tinyurl.com/vjfuxs3" target="_blank">申し込みフォーム</a>
- * <span style="color:blue;">2020/3/29:</span> <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
- * <span style="color:blue;">2020/3/28:</span> 3/27に[オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」および「語学学習に特化したオンライン授業相談会」](events/2020-03-27/) を実施しました．また，動画（暫定版）も限定公開しました．  
+* <span style="color:blue;">2020/4/1:</span> <font color="red">The following emergency system maintenance of ITC-LMS has been completed. Thank you for your cooperation. (11:44 am)</font>
+* <span style="color:blue;">2020/4/1:</span> prepare for online class in 2020, ITC-LMS emergency system maintenance will be held today from 9:00 to 11:00 (planned). During this time, the ITC-LMS service will be suspended. We apologize for any inconvenience, but thank you for your understanding and cooperation.
+ * <span style="color:blue;">2020/3/31:</span> Today, March 31 is a student transfer date, so UTAS is not available for new students (from the first semester to the second semester).
+ * <span style="color:blue;">2020/3/30:</span> <a href="https://tinyurl.com/vjfuxs3" target="_blank">Application form</a> to create a link to the department's web page.
+ * <span style="color:blue;">2020/3/29:</span> Please answer the <a href="questionnaire/">student questionnaire</a> (The same is posted on UTAS. Those who have already answered do not need to answer it again).
+ * <span style="color:blue;">2020/3/28:</span> On 3/27 an [online basic lecture "How to make an on-demand online class using videos and texts" and "Online class consultation specialized in language learning"」](events/2020-03-27/) will be held. In addition, a video (provisional version) has been released for limited use. 
  * <span style="color:blue;">2020/3/24:</span> 3/19の<a href="https://utelecon.github.io/events/2020-03-19/" target="_blank">Zoom 基礎講座の動画（暫定版）</a>を限定公開しました
  * <span style="color:blue;">2020/3/24:</span> 3/26 に [説明会: オンライン授業の学生への通知方法](events/2020-03-26/) を行います.
  * <span style="color:blue;">2020/3/24:</span> 3/13の<a href="https://utelecon.github.io/events/2020-03-13/" target="_blank">説明会動画</a>を限定公開しました
