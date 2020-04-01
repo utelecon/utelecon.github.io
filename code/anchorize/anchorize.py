@@ -62,7 +62,7 @@ def make_index(txts, htmls, out_file):
         
     
 def main():
-    n = 5
+    n = 6
     txts = [ "p%d.txt" % i for i in range(n) ]
     htmls = [ "p%d.html" % i for i in range(n) ]
     for txt,html in zip(txts, htmls):
