@@ -89,14 +89,28 @@
   <body>
 
     <header class="page-header" role="banner">
-	  <div align="right">
+	
+		{% assign has_en_page = false %}
 
-		{% assign en_urls = "" | split: "|" %}
-		{% assign en_urls = en_urls | push: "/" %}		
-		{% assign en_urls = en_urls | push: "/oc" %}		
-		{% assign en_urls = en_urls | push: "/zoom" %}		
-	  
-		<a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}{{page.url}}" style="color:white;">English (Google Translation)</a>
+		{% if page.url == "/" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
+		{% if page.url contains "/oc" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
+		{% if page.url contains "/zoom" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
+	  <div align="right">
+		{{page.url}}  
+	    {% if has_en_page %}
+			<a href="{{site.url}}/en{{page.url}}" style="color:white;">English </a>
+		{% else %}
+			<a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}{{page.url}}" style="color:white;">English (Google Translation)</a>
+		{% endif %}
 	  </div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
