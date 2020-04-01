@@ -1,36 +1,36 @@
 ---
-title: Zoom の使い方（開催者用）
+title: How to use Zoom (for organizers)
 ---
 
 
-ここでは，開催者特有の Zoom の使い方を説明します．  
-基本的な使い方については<a href="how_to_use" target="_blank">こちら</a>をご覧ください．  
+This section describes how meeting organizers can use Zoom.  
+Click <a href="how_to_use" target="_blank">here</a> for basic guidelines.  
   
 
-## 追加機能の設定方法とおすすめ設定
-個別に設定することによって，参加者に対して質問できる「投票」やグループで議論できる「ブレイクアウト」などの機能を追加で使えるようになります．  
-そこで，ここでは，追加機能の設定方法とおすすめの設定を紹介します．
+## How to set additional functions and recommended settings
+By setting configurations individually, you can use additional functions such as "voting" for asking questions to participants and "breakout" for discussing in groups. 
+Therefore, here we will introduce how to set additional functions and recommended settings.
   
-1. Zoom アカウントの<a href="https://zoom.us/profile/setting" target="_blank">設定ページ</a>（個人の「設定」→「ミーティング」）へ行きます．
-  * 取得したアカウントでログインしてください  
+1. Go to Zoom account <a href="https://zoom.us/profile/setting" target="_blank">settings page</a> (Personal “Settings” → “Meeting”).
+  * Please log in with the account you obtained from school
   ![](img/zoom_host_setting.png)  
   
-1. 必要な設定を ON にします．おすすめの設定は以下のとおりです．
-  * （必要に応じて ON）**認証されているユーザーしかミーティングに参加できません**: これを ON にして「大学アカウントでサインイン」を選択すると，ECCS クラウドメール（xxxx@g.ecc.u-tokyo.ac.jp）のアカウントでサインインしている人のみ入室できるように制限ができます
-  * （基本 ON 推奨）**チャット自動保存**: ON にするとチャットを自動で保存してくれます（逆にしていないと手動で保存しない限り手元にチャットのテキストが残りません）．くわしくは<a href="https://support.zoom.us/hc/ja/articles/115004792763-%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E5%86%85%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B" target="_blank">Zoom ヘルプセンター「ミーティング内チャットを保存する」</a> も参照のこと
-  * （基本 ON 推奨）**投票中です**: 開催者から参加者に対して質問をすることができます（詳しくは後述）．
-  * （基本 ON 推奨）**ブレイクアウトルーム**: 参加者をサブグループに分けて議論や作業するよう促せます（詳しくは後述）．
-  * （必要に応じて ON）**字幕機能**: 音声を文字で補足したい時に利用できます．
+1. Turn on the required settings. Recommended settings are as follows.
+  * （ON when necessary）**Only authenticated users can join the meeting**: If you turn this on and select "Sign in with University Account", access will be restricted to those with an ECCS cloud email (xxxx@g.ecc.u-tokyo.ac. jp) 
+  * （ON recommended）**Chat auto save**: When turned on, the chat will be saved automatically（otherwise, the chat text will not be kept unless you save it manually）. See also <a href="https://support.zoom.us/hc/ja/articles/115004792763-%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E5%86%85%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B" target="_blank">Zoom Help Center "Save in-meeting chat"</a> for details.
+  * （ON recommended）**Polls**:  The organizer can ask questions to the participants (more on this later).
+  * （ON recommended）**Breakout room**: Divides participants into subgroups to encourage discussion and work (more on this later).
+  * （ON when necessary）**Subtitle function**: It can be used when you want to supplement audio with text.
 
 
-## 開催者特有のメニュー
+## Organizer-specific menu
   
-開催者特有のメニューについてそれぞれ簡単に説明します（バージョンによってはメニュー項目の一部がない場合もあります．また，上記のように別途設定が必要な項目もあります）．    
+Here is a brief description of the menus specific to the organizer. 
   ![](img/zoom_host_main_menu.png)  
   
-  1. **参加者の管理** : ある参加者をミュートにしたり，全員ミュートにしたり，参加者に自分でミュート解除できないようにしたり，それ以上参加者が増えないようにミーティングをロックしたりできます．
-  1. **投票（設定必要）** : 参加者に対して投票を促すことができます．質問自体は Web ブラウザで作成する必要があり，「編集」や初めて質問を作る場合は「質問の追加」を押すことで，質問を作成することができるようになります．
-  1. **レコーディング** : ミーティングの様子をレコーディングできます．
-  1. **ブレイクアウト（設定必要）** : 参加者をサブグループに分けることができます．人数を決めて自動で割り当てることもできますし，手動で割り当てることもできます．
+  1. **Participant management** : You can mute a participant, mute all participants, prevent participants from unmuting themselves, or lock a meeting so that there are no more participants.
+  1. **Polls（setting required）** : Allows participants to respond to polls. The questions themselves need to be created with a web browser, and you can create a question by pressing "Edit" or "Add question", when you are creating a question for the first time.
+  1. **Recording** : You can record the state of the meeting.
+  1. **Breakout（setting required）** : Participants can be divided into subgroups. You can decide the number of people and assign them automatically, or you can assign them manually.
   
 
