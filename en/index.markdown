@@ -55,24 +55,24 @@ Towards online classes
 イベント
 ---------------------------
 
-* 2020/03/27 [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」および「語学学習に特化したオンライン授業相談会」](events/2020-03-27/)  
-* 2020/03/26 [説明会: オンライン授業の学生への通知方法](events/2020-03-26/)  
-* 2020/03/19 [オンライン基礎講座 Zoom の使い方](events/2020-03-19/)  
-* 2020/03/13 [授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会](events/2020-03-13/)
+* 2020/03/27 [Online basic course "How to make on-demand online lessons using videos and texts" and "Online lesson counseling specialized in language learning"](events/2020-03-27/)  
+* 2020/03/26 [Briefing: How to notify students of online classes](events/2020-03-26/)  
+* 2020/03/19 [Online Course How to use Zoom](events/2020-03-19/)  
+* 2020/03/13 [Video conferencing tools and briefings online](events/2020-03-13/)
 
 
-お知らせ/連絡チャネル
+News / Contact Channel
 ---------------------------
 
-* 部局のWebページへのリンクを作るための<a href="https://tinyurl.com/vjfuxs3" target="_blank">申し込みフォーム</a>
-* <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
-* [QAフォーラムとメーリングリスト](forums/)
-* <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
-* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
+* <a href="https://tinyurl.com/vjfuxs3" target="_blank">Application Form</a> to create a link to the department's web page
+* Please answer the <a href="questionnaire/">"Student Questionnaire"</a> (The same is posted on UTAS. Those who have already answered it do not need to do it again)
+* [Q&A forums and mailing lists](forums/)
+* <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">Requests and comments on the portal site</a>  
+* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">Request for briefings and workshops</a> 
 
 
-リンク集（随時追加中）
+Links (added as needed)
 ---------------------------
 
-* 教養学部・大学院総合文化研究科 講義オンライン化に関する情報サイト（学生向け情報）: <a href="https://komabataskforce.wixsite.com/forstudents" target="_blank">https://komabataskforce.wixsite.com/forstudents</a>  
+* College of Liberal Arts / Graduate School of Arts and Sciences Information site for online lectures (for students):: <a href="https://komabataskforce.wixsite.com/forstudents" target="_blank">https://komabataskforce.wixsite.com/forstudents</a>  
 
