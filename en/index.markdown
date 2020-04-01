@@ -27,14 +27,14 @@ What's New (<span style="color:blue;">blue letters</span>highlight the date of p
  * <span style="color:blue;">2020/3/21:</span> Message from <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_blank">Kunio Ota, Dean of the College of Liberal Arts </a> to freshmen and their families( Announced on March 19).
  * <span style="color:blue;">2020/3/21:</span> <a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">Message from the President</a> (announced on March 18)
  * <span style="color:blue;">2020/3/21:</span> An [online basic course Zoom usage report](events/2020-03-19/report)has been released.  
- * <span style="color:blue;">2020/3/19:</span> [オンライン基礎講座 Zoom の使い方](events/2020-03-19/)を実施しました．  
- * <span style="color:blue;">2020/3/19:</span> [QAフォーラムとメーリングリスト](forums/) 開設
- * <span style="color:blue;">2020/3/17:</span> 全教職員 <a href="zoom/">Zoom Pro (500接続まで)</a>が利用可能になりました.
- * <span style="color:blue;">2020/3/16:</span> 「授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会」の<a href="events/2020-03-13/online_lecture.pdf">スライド</a>を更新しています.
- * <span style="color:blue;">2020/3/11:</span> 2020年3月13日に[授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会](events/2020-03-13)を実施します.
- * <span style="color:blue;">2020/3/11:</span> サイト開設
+ * <span style="color:blue;">2020/3/19:</span> [Online course How to use Zoom](events/2020-03-19/)を実施しました．  
+ * <span style="color:blue;">2020/3/19:</span> [Forum and Q&A](forums/) open.
+ * <span style="color:blue;">2020/3/17:</span> <a href="zoom/">Zoom Pro (up to 500 connections) </a> is now available for all faculty members.
+ * <span style="color:blue;">2020/3/16:</span> Updated <a href="events/2020-03-13/online_lecture.pdf">slides</a> on "Video conferencing tools and manage briefings online".
+ * <span style="color:blue;">2020/3/11:</span> On March 13, 2020, we will hold a [ a video conferencing tool and usage briefing session](events/2020-03-13).
+ * <span style="color:blue;">2020/3/11:</span> Website is open
 
-利用できるWeb会議システム
+Available Web conferencing system
 ---------------------------
 
 以下のシステムは全構成員(学生・教職員)が利用可能です.  
