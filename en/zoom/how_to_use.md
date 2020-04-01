@@ -3,26 +3,26 @@ title: How to use Zoom
 ---
 
 
-ここでは，Zoom の会議室の具体的な使い方を説明します（今後，動画でも使い方を紹介する予定です）．  
+In this section we give concrete directions on how to use Zoom.  
 
 
-会議室に入ると以下のような画面になります（画像は参加者1名です）．  
-Zoom の画面にマウスカーソルを合わせると下にメニューが出てきます．  
+The following screen is displayed when entering a meeting room（this screenshot shows a meeting room with only 1 participant）.
+If you move the mouse cursor over the Zoom screen, the menu bar shown in the figure below will pop up.  
   ![](img/zoom_main_numbering.png)  
-メニューについて左から順にそれぞれ簡単に説明します（バージョンによってはメニュー項目の一部がない場合もあります）．
-  1. **マイクマーク** : これを押すことによってミュート（消音）にしたり，ミュートを解除できたりします（画面では現在ミュート状態であるため「ミュート解除」と表示されています）．横にある上マークを押すとマイクに関する設定ができるようになります．
-  1. **ビデオマーク** : これを押すことによってビデオをオンやオフにできます（画面では現在カメラがオフ状態であるため「ビデオの開始」と表示されています）．横にある上マークを押すとビデオに関する設定ができるようになります．
-  1. **招待** : メールなどを使って招待を送れます．開催者および参加者は基本的に会議室の URL を知っているため，それを共有すれば招待できることから，このボタンはそこまで使いません．
-  1. **画面を共有** : 自身のデバイスの画面を共有できます．
-  1. **反応** : 「拍手」や「賛成」の意思を表明できます．
-  1. **詳細** : 画面に入りきれなかったメニューがここに入ります（画面の横幅が十分大きい場合は全てのメニューが画面内に表示されて「詳細」が表示されないことがあります．  
-      **参加者** : 参加者一覧を表示します．  
-	  **チャット** : テキストチャットを行います．  
-	  **このコンピューターにレコーディング** : ホストが許可をしている場合レコーディングができます．このボタンは開催関係者以外は利用しないことが多いです．  
-  1. **ミーティングを退出** : ミーティングを退出します．押した後確認画面が出るため，ボタンを押したらいきなり退出するわけではありません．
+The menu buttons are explained from left to right （some version may not display all the buttons as here）．
+  1. **Microphone mark** : Press this to mute (mute) or unmute (the screen shows "mute off" because it is currently muted). Pressing the arrow mark next to it enables you to make settings related to the microphone.
+  1. **Video mark** : Press to turn the video on or off (the screen shows "Start Video" because the camera is currently off). Pressing the up mark next to it will allow you to make video settings.
+  1. **Invitation** : You can send an invitation by e-mail. Since the organizer and participants already know the URL of the conference room, they can invite others by sharing the meeting URL.
+  1. **Screen Share** : You can share screens in your device.
+  1. **Reactions** : You can express reactions by sending "applause" or "agree" emoji.
+  1. **Details** : Menus that could not fit on the screen are included here (If the screen width is large enough, all menus will be displayed on the screen and "Details" may not be displayed).
+      **Participants** : Displays a list of participants.  
+	  **Chat** : text chat.  
+	  **Record on this computer** : You can record if your host allows it. This button is often not used by anyone other than the organizer.  
+  1. **Leave meeting** : Leave the meeting. A confirmation screen appears after you press it, so you do not exit immediately when you press the button.
   
   
-以下，主に利用するメニュー項目について，追加で詳細を説明します．
+The following describes the details of the menu items mostly used.
 
 ## マイクの詳細設定
   
