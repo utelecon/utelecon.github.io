@@ -16,8 +16,8 @@ Zoomの初期設定・利用開始時のトラブルに関するFAQ
 
 * ECCSクラウドメール (なんとか@g.ecc.u-tokyo.ac.jp というアドレス) にとどいています. 「なんとか」はECCSクラウドメールの初期設定で自分で設定した文字列です.
 * ECCSクラウドメールを使ったことがない人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">設定</a>して下さい
-* その後 [Gmail](https://gmail.com) から上記アカウントでログインして下さい. すでに他のGmailアカウントをお持ちの場合は一旦ログアウトして下さい
-* こちらから[ログイン](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)することもできます
+* その後 <a href="https://gmail.com" target="_blank">Gmail</a> から上記アカウントでログインして下さい. すでに他のGmailアカウントをお持ちの場合は一旦ログアウトして下さい
+* こちらから<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank">ログイン</a>することもできます
 
 ECCSクラウドメール(なんとか@g.ecc.u-tokyo.ac.jp)をチェックしたが「アカウントのアクティベーションを招待するメール」が見当たらない
 -----------------
