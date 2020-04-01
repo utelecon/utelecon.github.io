@@ -12,7 +12,7 @@ How to let your students know your online class URL -- Ground rules to safely me
 * 必ず
   1. UTASの授業シラバス -> **「詳細情報」** -> **「オンライン授業URL」**を見て ([手順](https://youtu.be/J9dnXmFiIcI)) 聴講する授業に参加する
   1. ITC-LMS上で, 出席する講義に受講登録 (**「コース検索」** -> **「受講登録」**)しておく. それによりその授業関連の情報を読み, 受け取れるようになる ([手順](https://youtu.be/sPmkBQOXeR4))　
-  　注：UTASで「お気に入り登録」をしていれば，ITC-LMSの受講登録に自動的に反映されるが，それには1日程度かかる
+  (注：UTASで「お気に入り登録」をしていれば，ITC-LMSの受講登録に自動的に反映されるが，それには1日程度かかる)
   1. UTASの「現住所等変更入力」でE-MAILを設定してUTAS経由の知らせが届くようにしておく
   1. ITC-LMSの「設定 (Settings)」->「お知らせ通知」でメールやラインでのお知らせ受取りを設定 ([手順](https://youtu.be/xAur5zar5Sc)) して, ITC-LMS経由の知らせが届くようにしておく
   1. 詳細ルールは所属の専攻や学科により違うかも知れないので必ず**専攻・学科の指示も読み, 従う**
