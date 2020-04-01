@@ -104,8 +104,11 @@
 			{% assign has_en_page = true %}
 		{% endif %}
 
+		{% if page.url contains "/en" %}
+			{% assign has_en_page = false %}
+		{% endif %}
+
 	  <div align="right">
-		{{page.url}}  
 	    {% if has_en_page %}
 			<a href="{{site.url}}/en{{page.url}}" style="color:white;">English </a>
 		{% else %}
