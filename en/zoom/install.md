@@ -3,7 +3,7 @@ title: Ho to install Zoom
 ---
 
 This section describes how to install Zoom.  
-There are two ways to do this, based on whether or not you have access to the meeting URL(https://zoom.us/j/xxxxxxxxxx xは数字).  
+There are two ways to do this, based on whether or not you have access to the meeting URL(https://zoom.us/j/xxxxxxxxxx x are numbers).  
 
 
 ## In case you have access to the meeting URL
