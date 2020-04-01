@@ -48,13 +48,14 @@ What are Online Classes?
 
 The rest of this page explains what students should do to attend online classes. Many of the explanations are the same for both current and new students. Information that should be noted especially for those who will be students of the University of Tokyo from this spring is described separately.
 
-学生の皆さんにしておいてもらいたい準備
+Preparation for taking online classes
 ---------------------------
 
-オンライン授業を受けるための準備は大きく言って二つです
+We need you to do these two things before the new semester starts.
 
-* ひとつは, これまでも[東京大学で使われている, 教育のための情報(ICT)システム](#utokyo-edu-ict)を, 正しく使えるようにすることです. キャンパスで毎日顔を合わせていれば, ぼうっとしていても, 重要な情報を教室の中で友達から教えてもらったり, サークルの先輩から教えてもらったり, 他の人の会話から偶然得たりすることが出来るものですが, 登校が制限されているとそういうわけには行きません. 各自がチェックすべき情報源を正しくチェックしていることや, 自分の連絡先(メールアドレスなど)が然るべき場所に登録され, 連絡がつくようになっている, ということがとても大事になります.
-* もうひとつは, [TV会議システム](#teleconf)につなげる機器を準備しTV会議に[ちゃんとつなげることを確認しておく](#check-online-ready)ことです. 上でも述べましたが「機器」は特別なものではなく, 普段パソコンやスマホなどで動画を見ていれば, TV会議のソフトが使えると思って良いです(授業を受けるにはスマホではなくパソコンをおすすめしますが, ここに書いてある準備はスマホでもできます). 普段からスマホを軽やかに使いこなしている若者には決して難しいことではないのですが, 機器にはトラブルがつきものです. 必ず「ちゃんとつなげることを確認しておく. 確認された機器で授業に臨む」のが大事です. 詳しくは, 下で述べます.
+* First thing to do is to [make sure that you can use the educational information (ICT) system](#utokyo-edu-ict)without any problems. When taking classes offline, you may get important information from your friends in the classroom, from your club's seniors, and from other people. However in this situation, you must check the information by yourself, and for that it is very important that your contact information (email address, etc) is correctly registered at the University so that we can deliver the important information to you.
+
+* The second is to prepare equipment to connect to a [video conference system](#teleconf)and [confirm that you can operate it by yourself](#check-online-ready). “Equipment” does not mean anything special. If you often watch videos on your laptop or smartphone, you wouldn’t have any problems with using the video conference system.  We recommend using a laptop to take online classes, but you can use your smartphone as well to take classes and to do preparations explained below. 
 
 <font color="blue">注:</font>
 
@@ -67,16 +68,16 @@ The rest of this page explains what students should do to attend online classes.
 ***
 
 <a name="utokyo-edu-ict"> </a>
-### 東京大学で使われている, 教育のためのICTシステム
+### ICT system for education of the University of Tokyo
 
 ![](img/service-overview.png)
 
 全体像は上記の図のようになっています. 以下で作業をしてほしい要素に限って説明します. 以下の作業中, このページに書かれている通りにならないなど, 問題を見つけた場合は [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) まで連絡を下さい. その際, (a) 以下のどのステップで, (b) 自分が何をしたら, (c) どんな結果になったか, を含めて下さい(「できませんでした」というだけの情報だとこちらで問題がわからない場合が多いです).
 
-1. **UTokyo Account:** 他のサービスすべてのもととなる, 「あなたが東京大学の構成員である」ことを示すアカウントになります. 在学生であれば, これを使ったことがないという人はいないはずです.
- * 2020年度4月に大学1年生になる予定の新入生には, 2020/3/19 に閲覧可能になる合格者情報登録URLの中に, あなたのアカウント番号(10桁の数字. 共通IDという)と初期パスワードが書かれています.
- * 2020年度4月に大学院や編入など, 他の学年の新入生になる予定の人, どのようにそのアカウントが発行されるかが, 入学する研究科や学科によって異なります. ともかく, UTokyo Account が入手でき次第, 以下の処理を行ってください.
- * **作業:** [初期パスワードを変更](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)してください. [手順動画](https://youtu.be/tTpAlqVhEXQ)
+1. **UTokyo Account:** This is the most essential system for an online learning system at U-Tokyo. The UTokyo account indicates that you are a member of the University of Tokyo and is the basis for all other services. If you are a current student, you must have used it before.
+ * For students who will be enrolling at UTokyo for the first time in April 2020, your account number (10-digit number listed as “Common ID”) and initial password was provided in the information registration website for successful candidates that became available on 19 March 2020.
+ * For people who are enrolling as graduate students or transferring in to UTokyo other than as freshmen in April 2020, how their accounts will be issued depends on which faculty or graduate school they will enter. Whatever the case, please proceed as below as soon as you can access your UTokyo Account.
+ * **Task:** [Update your initial password](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) [demonstration video](https://youtu.be/tTpAlqVhEXQ)
 1. **UTAS (学務システム):** 授業の内容(シラバス)を参照して受ける授業を選び, 履修の登録をしたり, 成績を見たりするのに使うシステムです. オンライン授業に関する情報も, このシステムを経由して得ることになるでしょう. 使うためにはUTokyo Accountが正しく設定されている必要があります.
  * **作業:**  [UTASにログイン](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main)し, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. <font color="red">UTASがログイン可能になるタイミングは自分の所属によって異なります. 新大学1年生はすでに可能です. すでに東大に在籍している人も可能です. 現在東大でない, 大学院入学予定の人は, 大学院からの連絡を待つか, 問い合わせをして下さい</font>
 1. **ITC-LMS (学習管理システム):** 自分が履修した講義に関して, 課題が掲示されたり, 課題を提出したり, などの用途に使います. また, 講義資料がここにアップされたり, ここで出欠管理をする場合もあります. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 使うためにはUTokyo Accountが正しく設定されている必要があります. 授業期間が始まった後, 授業に関するお知らせがITC-LMSを経由して流れてくることが多くなります.
