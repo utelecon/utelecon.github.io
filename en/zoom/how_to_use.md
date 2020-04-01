@@ -1,5 +1,5 @@
 ---
-title: Zoom の使い方
+title: How to use Zoom
 ---
 
 
