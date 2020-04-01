@@ -21,12 +21,12 @@ What's New (<span style="color:blue;">blue letters</span>highlight the date of p
  * <span style="color:blue;">2020/3/30:</span> <a href="https://tinyurl.com/vjfuxs3" target="_blank">Application form</a> to create a link to the department's web page.
  * <span style="color:blue;">2020/3/29:</span> Please answer the <a href="questionnaire/">student questionnaire</a> (The same is posted on UTAS. Those who have already answered do not need to answer it again).
  * <span style="color:blue;">2020/3/28:</span> On 3/27 an [online basic lecture "How to make an on-demand online class using videos and texts" and "Online class consultation specialized in language learning"」](events/2020-03-27/) will be held. In addition, a video (provisional version) has been released for limited use. 
- * <span style="color:blue;">2020/3/24:</span> 3/19の<a href="https://utelecon.github.io/events/2020-03-19/" target="_blank">Zoom 基礎講座の動画（暫定版）</a>を限定公開しました
- * <span style="color:blue;">2020/3/24:</span> 3/26 に [説明会: オンライン授業の学生への通知方法](events/2020-03-26/) を行います.
- * <span style="color:blue;">2020/3/24:</span> 3/13の<a href="https://utelecon.github.io/events/2020-03-13/" target="_blank">説明会動画</a>を限定公開しました
- * <span style="color:blue;">2020/3/21:</span> 4月から大学一年生になる新入生およびご家族への, <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_blank">太田邦史教養学部長からのメッセージ</a> (3/19発表)
- * <span style="color:blue;">2020/3/21:</span> <a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">総長メッセージ</a> (3/18発表)
- * <span style="color:blue;">2020/3/21:</span> [オンライン基礎講座 Zoom の使い方の実施報告](events/2020-03-19/report)を公開しました．  
+ * <span style="color:blue;">2020/3/24:</span> 3/19の<a href="https://utelecon.github.io/events/2020-03-19/" target="_blank">Zoom Basic Course video (provisional version)</a>has been released.
+ * <span style="color:blue;">2020/3/24:</span> Briefing on 3/26 : [ How to notify students of online classes](events/2020-03-26/).
+ * <span style="color:blue;">2020/3/24:</span> On 3/13, <a href="https://utelecon.github.io/events/2020-03-13/" target="_blank">briefing video</a>has been released.
+ * <span style="color:blue;">2020/3/21:</span> Message from <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_blank">Kunio Ota, Dean of the College of Liberal Arts </a> to freshmen and their families( Announced on March 19).
+ * <span style="color:blue;">2020/3/21:</span> <a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">Message from the President</a> (announced on March 18)
+ * <span style="color:blue;">2020/3/21:</span> An [online basic course Zoom usage report](events/2020-03-19/report)has been released.  
  * <span style="color:blue;">2020/3/19:</span> [オンライン基礎講座 Zoom の使い方](events/2020-03-19/)を実施しました．  
  * <span style="color:blue;">2020/3/19:</span> [QAフォーラムとメーリングリスト](forums/) 開設
  * <span style="color:blue;">2020/3/17:</span> 全教職員 <a href="zoom/">Zoom Pro (500接続まで)</a>が利用可能になりました.
