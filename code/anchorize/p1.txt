@@ -10,9 +10,11 @@ URL=https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a759954f566fc7160c25b86c
 [点]
 URL=https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a759954f566fc7160c25b86c6、パスワードは「ほげほげ」
 [まる]
-URL=https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a759954f566fc7160c25b86c6。パスワードは「ほげほげ」
+URL=https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a79294f5436cf7160c25b86c6。パスワードは「ほげほげ」
 [半角スペース]
-URL=https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a759954f566fc7160c25b86c6 パスワードは「ほげほげ」
+URL=https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a79294f5436cf7160c25b86c6 パスワードは「ほげほげ」
 [全角スペース]
-URL=https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a759954f566fc7160c25b86c6　パスワードは「ほげほげ」
+URL=https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a79294f5436cf7160c25b86c6　パスワードは「ほげほげ」
+[その他日本語]
+URLはhttps://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a79294f5436cf7160c25b86c6ですよ. パスワードは「ほげほげ」
 
