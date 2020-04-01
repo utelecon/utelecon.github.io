@@ -1,18 +1,19 @@
 ---
-title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
+title: Online Class/ Web Conference Portal Site<br>@ the University of Tokyo
+layout: en
 ---
 
-本サイトについて
+About this Site
 ---------------------------
 
 * Many apologies for the site primarily in Japanese (yet).  Working around the clock to put everything barely in good shape ...
 * We will work on translations, but meanwhile, please use the "English (Google Translation)" link to machine-translate the page.
 
-* 本サイトは，東京大学の学生・教職員に向けた，オンライン授業やWeb会議に関する情報をワンストップで得られることを目指すサイトです．  
-* 日々状況が変わっており，また急遽作成していることから，作成途中のところがあったり，頻繁に内容が更新されたりする点，ご了承ください．
-* 本サイトは東京大学情報基盤センターと大学総合教育研究センターが立ち上げましたが，さらなる協力者を歓迎しています．
+* This site aims to provide information on online classes and Web conferences for students and faculty at the University of Tokyo.  
+* Please understand that the situation is changing every day and that this Portal has being created in a hurry, so you will find places still under construction or with content being frequently updated.
+* This site has been set up by the Information Technology Center of the University of Tokyo and the University Education and Research Center, and welcomes further collaborators.
 
-What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
+What's New (<span style="color:blue;">blue letters</span>highlight the date of publication. Recent entries come above)
 ---------------------------
 * <span style="color:blue;">2020/4/1:</span> <font color="red">下記，ITC-LMS の緊急システムメンテナンスは終了しました．ご協力ありがとうございました．(11:44am)</font>
 * <span style="color:blue;">2020/4/1:</span> 2020年度のオンライン授業の準備のため，ITC-LMS の緊急システムメンテナンスを に本日，9:00から11:00(予定)
