@@ -14,6 +14,7 @@ There are two available ways: using a URL（https://zoom.us/j/xxxxxxxxxx x are n
     
 1. Set a name (in case you did not do it yet)
 
+
   ![](img/zoom_join_pc_url_name.png)
     
 1. You can choose to join with or without video (in case you have a camera and the meeting is set to show the video preview dialog)  
@@ -32,6 +33,7 @@ Congrats! You have joined the meeting!
   ![](img/zoom_join_pc_id_top.png)
   
 1. Enter the meeting ID (9-10 digits) in ①, enter you name in ②, and press "Join" (in case a password has been set, ask the host for it)
+
 
   ![](img/zoom_join_pc_id_join_add.png)
   
