@@ -24,31 +24,31 @@ The menu buttons are explained from left to right （some version may not displa
   
 The following describes the details of the menu items mostly used.
 
-## マイクの詳細設定
+## Microphone advanced settings
   
   ![](img/zoom_main_mic_speaker.png)
   
-マイクマーク横の上マークを押すと，追加でメニューが出てきます．以下，それぞれについて簡単に説明します．
-  * **マイク** : 使いたいマイクを選択できます（別途マイクを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．
-  * **スピーカー** : 使いたいスピーカーを選択できます（別途スピーカーを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．
-  * **スピーカーとマイクをテストする** : メニュー名の通り，スピーカーとマイクをテストできます．
-  * **電話のオーディオに切り替える** : 電話で参加するための情報が出てきます．基本的には使いません．
-  * **コンピューターのオーディオから退出** : メニュー名の通り，コンピュータのオーディオから退出します．ミュートと異なり，退出してしまうため，ミュートにしたい場合はマイクマークを押してください．基本的には使いません．
-  * **オーディオ設定** : オーディオに関する設定ができます．「ミーティングの参加時にマイクをミュートに設定」「スペースキーを長押しして，一時的に自分をミュート解除」など詳細な設定ができます．
+If you press the upper mark next to the microphone mark, an additional menu will appear. Below is a brief description of each command.
+  * **Microphone** : You can select the microphone you want to use (if you have a separate microphone, you will have multiple choices, so choose the one you wish to use).
+  * **Speaker** : You can select the speaker you want to use (if you have a separate speaker, you will have multiple choices, please select the one you wish to use)
+  * **Test speaker and microphone** : You can test speaker and microphone as the menu name suggests.
+  * **Switch to phone audio** : You will get information on how to join a meeting by phone (basically not used).
+  * **Exit from computer audio** : As the menu name suggests, you exit from computer audio. If you want to mute, please press the microphone mark instead (basically not used).
+  * **Audio Settings** : Configure audio settings. You can choose detailed settings such as "Mute microphone when joining a meeting" and "Press and hold the space key to temporarily unmute yourself".
   
   
-## ビデオの詳細設定
+## Advanced video settings
   
   ![](img/zoom_main_camera.png)
   
-ビデオマーク横の上マークを押すと，追加でメニューが出てきます．以下，それぞれについて簡単に説明します．
-  * **カメラ** : 使いたいカメラを選択できます（別途カメラを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．
-  * **ビデオ設定** : ビデオに関する設定ができます．「ミーティングの参加時にビデオをミュートに設定」「ビデオに参加者の名前を常に表示」など詳細な設定ができます．
+If you press the upper mark next to the video mark, an additional menu will appear. Below is a brief description of each option. 
+  * **Camera** : You can select the camera you want to use (if you have a separate camera, you will have multiple choices, please select the one you wish to use).
+  * **Video setting** : You can choose between video settings, such as "Mute video when joining a meeting" and "Always show participant names in video".
   
   
-## 画面の共有
+## Screen sharing
   
-メニュー「画面の共有」を押すと，共有する画面の選択肢が出てきます．希望のものを選択して「共有」を押すと，画面の共有が始まります．
+When you press the menu "Share screen", the options of screens to be shared appear. Select the desired one and press "Share" to start sharing the screen.
   ![](img/zoom_main_share_focus.png)
   ![](img/zoom_main_share.png)
   
@@ -58,7 +58,7 @@ The following describes the details of the menu items mostly used.
   * 現在開いているウィンドウも選択肢に表示されます．ウィンドウ単位で画面共有することもできます．ウィンドウ以外の場所を見られたくない場合は，そのウィンドウを選択して画面共有することをおすすめします．
   
   
-## 参加者
+## Participants
   
 メニュー「参加者」を押すと，参加者一覧が見られる画面が出てきます．
   ![](img/zoom_main_member.png)  
@@ -68,7 +68,7 @@ The following describes the details of the menu items mostly used.
   
 
   
-## チャット
+## Chat
   
 メニュー「チャット」を押すと，テキストチャットができるようになります．ここで，注意が必要なのは，途中からログインすると過去のテキストチャットが確認できない点です．そのため，テキストを送付したいメンバーが全員いる状態でテキストを送付することが重要になります．
   ![](img/zoom_main_chat.png)  
