@@ -8,7 +8,7 @@ def anchorize(s):
     """
     #url = re.compile("https?://[\w/:%#\$&\?\(\)~\.=\+\-]+")
     # 日本語はダメバージョン
-    url = re.compile("https?://[0-9A-Za-z/:%#\$&\?\(\)~\.=\+\-]+")
+    url = re.compile("https?://[0-9A-Za-z/:%#\$&\?\(\)~\.=\+\-@]+")
     lines = []
     for line in s.split("\n"):
         frags = []
@@ -62,7 +62,7 @@ def make_index(txts, htmls, out_file):
         
     
 def main():
-    n = 4
+    n = 5
     txts = [ "p%d.txt" % i for i in range(n) ]
     htmls = [ "p%d.html" % i for i in range(n) ]
     for txt,html in zip(txts, htmls):
