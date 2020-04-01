@@ -14,8 +14,9 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
-* <span style="color:blue;">2020/4/1:</span> <font color="red">2020年度のオンライン授業の準備のため，ITC-LMS の緊急システムメンテナンスを に本日，9:00から11:00(予定)
-まで行います．この間 ITC-LMS のサービスを一時停止します．ご不便をお掛けしますが，ご理解とご協力をよろしくお願いいたします．</font>
+* <span style="color:blue;">2020/4/1:</span> <font color="red">下記，ITC-LMS の緊急システムメンテナンスは終了しました．ご協力ありがとうございました．(11:44am)</font>
+* <span style="color:blue;">2020/4/1:</span> 2020年度のオンライン授業の準備のため，ITC-LMS の緊急システムメンテナンスを に本日，9:00から11:00(予定)
+まで行います．この間 ITC-LMS のサービスを一時停止します．ご不便をお掛けしますが，ご理解とご協力をよろしくお願いいたします．
  * <span style="color:blue;">2020/3/31:本日3月31日は学籍異動日のため，進学者(前期から後期へ)は UTAS が利用できません. ご不便をおかけしますがどうぞよろしくお願いいたします．
  * <span style="color:blue;">2020/3/30:</span> 部局のWebページへのリンクを作るための<a href="https://tinyurl.com/vjfuxs3" target="_blank">申し込みフォーム</a>
  * <span style="color:blue;">2020/3/29:</span> <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
