@@ -11,7 +11,7 @@ title: 2020/03/27 オンライン基礎講座「ライブ配信ではない，�
 　授業のオンライン化に向けて、授業を予め録画やテキストを作成して，それを学生が好きな時間に学習するタイプの授業の作り方に関するオンライン基礎講座を実施いたします．
 　具体的には、オンデマンド型オンライン授業のデザインの方法，動画の作成方法（PowerPointでも十分動画を作成できます），録画した動画の公開方法について，実際にプロセスを示しながら，具体的に説明していきます．
 
-**発表資料:** <a href="seminar_ondemand,pdf">pdf</a>  
+**発表資料:** <a href="seminar_ondemand.pdf">pdf</a>  
   
   
 **動画:** <a href="https://drive.google.com/open?id=1HsmRHGaQmFfceWLAJA1zYsO2FpVroJrb">動画ファイル（要 ECCS クラウドメール）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  
