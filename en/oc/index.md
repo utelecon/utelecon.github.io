@@ -101,28 +101,29 @@ Obs.:"ECCS Cloud Mail" is the other name for the "UTokyo G Suite for Education".
 ***
 
 <a name="teleconf"> </a>
-### TV会議システム
+### Video conference systems
 
-本題の TV会議システム です. これに関する情報は今後このページにアップします. 今後もこのページをおとずれるようにしてください. それまでは以下を見ておいて下さい.
+The following is the video conferencing system being discussed. Information concerning this will be uploaded on this page in the future. Please make sure to view this page regularly. For the moment please access the following
 
  * [Zoom](../zoom/join)
  * [WebEx](../webex/join_meeting.markdown)
- * [GoogleハングアウトMeet](../google_hangouts_meet/)
+ * [Google Hangouts Meet](../google_hangouts_meet/)
 
-以上ができたと思ったら, ページ下部の[オンライン授業を受ける準備ができているかのチェック](#check-online-ready)に進んでください.
+Once the above have been completed, please [proceed to check if you are ready to take the online classes ](#check-online-ready)by following the section below.
 
-特に新入生の皆さんにしておいてもらいたい準備
+Specific preparations required from new students
 ---------------------------
 
-* ネット環境 : 自宅から授業を受けるためには, 大量の動画を見ても大丈夫な環境が必要です. 家ではスマホをWifiにつなげているという人は大丈夫ですが, モバイル(LTEなど)でしかつなげていない人は注意してください. 「ギガ不足」になってしまうと, 動画が視聴できない, 視聴しようと思ってギガを購入するとお金がかかる, ということにならないよう, 十分な容量または無制限のネット環境を引くことをおすすめします. 
-* パソコン : スマホで動画を視聴することは可能ですから, スマホだけでオンライン授業を視聴することは可能です. しかし, 大学での学習のためにはレポートの作成などでパソコン (Windows, Mac, Linuxなど) の環境が望ましいです. また, オンライン授業中の活動の中には, 動画を視聴しながらちょっとした作業や演習をする機会が増えます. 大きな画面の中に動画と他の作業用の窓を同居できるように, パソコンの環境を用意しましょう.
+* Internet environment: In order to take classes from home, you must have an internet environment where you are able to view large amount of videos. If you are able to connect your smartphone to the Wi-Fi there will be no problem but please be careful if you only have a mobile connection (LTE etc.). Please make sure you have sufficient access limit or an unlimited access with your internet environment, since if you end up “lacking Giga”, you may not be able to view the videos or will have to purchase additional access in order to view the videos.
 
-注意: この時期(3月)はインターネットの申込みが増えるシーズンで, 申し込みをしてから開通までに時間がかかります. 数週間が普通と言われているので, 早めに申込みをしてください.
+* Computers: Since it is possible to view videos on your smartphones, it is also possible for you to take the online classes with your smartphones. However, as you will be required to make reports as part of your university studies, it is preferable for you to have access to a personal computer (Windows, Mac, Linux etc.). Furthermore, there will be cases where you will be required to do certain tasks during your online classes. Therefore, please prepare a computer environment with a sufficiently large screen so you will be able open several windows in addition to the video feed.
+
+Note: March is a season when the number of internet applications increase causing a need for extra time before access is granted. As several weeks are said to be normal, please apply as soon as possible.
 
 ***
 
 <a name="check-online-ready"> </a>
-### オンライン授業を受ける準備ができているかのチェック
+### Checking to see if you are ready to take online classes
 
  <a name="check-excel"> </a>
  * この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. <font color="red">3/22更新: もし東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれたら,</font>
