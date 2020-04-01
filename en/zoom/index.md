@@ -40,7 +40,7 @@ title: Zoom
 ## How to use in class
 
 * Student・Faculty common Edition
-  * <a href="how_to_use_in_classroom_common#use_mic_and_camera">Change microphone and camera settings (mute, check microphone, turn camera on / off, etc.)</a>
+  * <a href="how_to_use_in_classroom_common#use_mic_and_camera">Change microphone and camera settings (mute, check microphone, turn camera on / off, etc.)</a> (Japanese version only)
 	<br>
 * How to use in class (Student Edition)
   * <a href="">How to raise your hand (under construction)</a>
