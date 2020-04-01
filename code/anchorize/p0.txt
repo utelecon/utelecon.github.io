@@ -1,5 +1,6 @@
+=== Zoom ===
 Join Zoom Meeting
-https://zoom.us/j/983899356?pwd=dCtweG5NaWZDSkxiTy9ISTVuV0FQUT09
+https://zoom.us/j/983899356?pwd=dCtweG5NaWZDSkxixxxxxxV0FQUT09
 
 Meeting ID: 983 899 356
 Password: 384154
@@ -12,18 +13,21 @@ Dial by your location
         +81 3 4578 1488 Japan
         +81 524 564 439 Japan
 Meeting ID: 983 899 356
-Find your local number: https://zoom.us/u/acMKI8y2Jl
+Find your local number: https://zoom.us/u/acMxxxxx2Jl
 
+=== Google ===
 
-ビデオ通話に参加するには次のリンクをクリックしてください。https://meet.google.com/mzu-spbc-gkx
+ビデオ通話に参加するには次のリンクをクリックしてください。https://meet.google.com/nza-sxby-gqx
 スマートフォンで参加する場合は、+1 219-316-1493 とダイヤルし、PIN（807 885 558#）を入力してください
 
-    https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a759954f566fc7160c25b86c6
+=== WebEx ===
+
+    https://apj27.webex.com/apj27-jp/j.php?MTID=m915bb21a75995111111111111111186c6
 
 ミーティング番号:
-    573 656 096
+    492 656 123
 パスワード:
-    CfKEWSb7D76 (23539727 は電話から参加)
+    CfKXYZWZD76 (21233457 は電話から参加)
 主催者キー:
-    115340 
+    112430 
 

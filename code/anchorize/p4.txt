@@ -1,0 +1,4 @@
+
+Basic認証パスワードを埋め込むパターン
+
+https://user:password@example.com/index.html
