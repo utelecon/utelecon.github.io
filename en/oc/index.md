@@ -12,19 +12,20 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 Introduction
 ---------------------------
 
-新型コロナウィルス感染症COVID-19拡大を防止するため, 東京大学は2020年度の夏学期にオンライン授業を本格導入することになりました.
+To prevent the spread of the new coronavirus COVID-19, the University of Tokyo has decided to introduce online classes in the summer semester of 2020.
 
-学生の皆さんは, 登校が制限され, キャンパスで学ぶ楽しさや友達と語り合う楽しさの多くを奪われた状態で新学期をスタートしなくてはならなくなりました.
+Students were forced to start a new semester unable to spend time at school and deprived of much of the fun of studying on campus and talking with friends.
 
-オンライン授業の実施は, 新型コロナウィルスによって, たとえキャンパスに来る機会が奪われても, 勉強をする機会は奪われてなるものかという, 大学の戦いであり, 構成員全員が一丸となって取り組む共同作業です.
+The implementation of online classes is a battle of the university to make sure that even when deprived of the opportunity to come to campus, we are not deprived of our opportunity to study.  This can be done only through the cooperation of all those involved.  
 
-先生, 職員, 学生, 全員で, 学びの場所である大学を守るための努力です.
+Teachers, staff, students … everyone is working hard to protect the university where they study.
 
-4月, 5月, 6月に世界がどういう状況にあるのか今はまったくわかりません. 先生や職員が考えていることは「今準備をせずに無策に授業をキャンセルし, このまま感染拡大が長引いたら, 一体夏学期はどうなってしまうのか, そして大学はどうなってしまうのか?」ということです.
+At this point, we have no idea what the world will be like in April, May, or June. What the teachers and staff think is, "What if we cancel classes without preparations or alternative teaching courses while the virus continues to spread? What will happen to the summer semester and what will happen to the university? "
 
-大学の準備が万端に整っているわけではありません. 先生・職員にとっても初めての試みであり, 試行錯誤をしながら進めています. 授業を受ける学生も自分たちにできることをして, この取り組みに参画してほしいと思います.
+The preparation by the university is not yet complete. This is the first attempt for teachers and staff, and we are proceeding with trial and error.   We would like students to do what they can and participate in this initiative. 
 
-本ポータル編集に参画する教職員一同
+- Faculty and staff participating in the making of this Portal
+
 
 
 教養学部長からのメッセージ
@@ -33,18 +34,19 @@ Introduction
  * 4月から大学一年生になる新入生とご家族への, <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_black">太田邦史教養学部長からのメッセージ</a>です
  * <a href="http://www.todaishimbun.org/coronavirus20200319/" target="_blank">東大新聞 教養・総合文化、オンライン授業の大規模な導入へ　新入生に事前準備を要請</a>
 
-オンライン授業って?
+What are Online Classes?
 ---------------------------
 
-* オンライン授業にもいろいろな形態がありますが, 基本形は教員と学生が, インターネットを介してつながった状態で, リアルタイムに音声や動画で双方向のやりとりをする形態です**(同時双方向型)**. 授業への参加は通常, TV会議システムと呼ばれるソフト(アプリ)を使って行います. TV会議システムといっても, パソコンや, スマホでも見られるただのソフトで, 特別な機器が必要なわけではありません. LINEなどで複数人の友達とつながって多人数会話をすることがあるとおもいますが, あれの大きなやつだと思ってください(1クラス分全員, 数十人から数百人がつながる). 具体的には下記でも説明しますし, このポータル全体がそれを説明するために作られています.
-* その他の形態としては,
-  * **録画配信(オンデマンド)型** : 授業を録画したビデオを視聴して, 別の手段(メールや掲示板など)で質問や議論を行う
-  * **資料配信型** : ナレーション付きの講義資料(スライドなど)を視聴して, 別の手段(メールや掲示板など)で質問や議論を行う
-  * **自習中心型** : 教科書による自習, 演習などを中心として, 別の手段(メールや掲示板など)で質問や議論を行う
-などの形態があります.
+* There are various forms of online classes, but the basic form is the one in which teachers and students interact in real time with voice and video connected via the Internet**(synchronous type)**. Class participation is usually done using a software (app) called a TV conference system. You may connect with multiple friends through apps like LINE and have a conversation with multiple people. Think of it as a larger version of that (i.e., one class consisting dozens to hundreds of people). The details are  mentioned below, and the whole portal is made to explain how this works.
+
+* Other forms of online classes include:
+  * **Recorded (on-demand) type** : Watching the recorded video of the lecture  and asking questions/ having discussions through other platforms (email, bulletin board, etc.)
+  * **Document delivery type** : Watching narrated lecture materials (slides, etc.) and asking questions/ having discussions through other platforms (email, bulletin board, etc.)
+  * **Self-study centered type** : Studying by yourself and solving exercises using textbooks and asking questions/ having discussions through other platforms (email, bulletin board, etc.).
+  
 * また, オンライン授業を導入すると言っても, 最初の1, 2回は, 限られた人数の登校を許可して必要最低限のガイダンスを行うという授業もあるかもしれません. 一部の学生は先生と同じ教室や, 大学の端末室にいるということもありえます. 形式は様々です. 自分が所属する学科や, 自分が履修する予定の講義がどのような形式で開講されるのか, をよく見ておいてください.
 
-このページの残りの部分では, 「オンライン授業を無事受けられるようにするには, 学生は何をしておけばよいのか」を説明します. 多くの部分は在学生でも, 新入生でも共通です. 特にこの春から東大生になる人に注意しておいて欲しい情報は別に記述します.
+The rest of this page explains what students should do to attend online classes. Many of the explanations are the same for both current and new students. Information that should be noted especially for those who will be students of the University of Tokyo from this spring is described separately.
 
 学生の皆さんにしておいてもらいたい準備
 ---------------------------
