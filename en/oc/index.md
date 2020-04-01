@@ -126,7 +126,7 @@ Note: March is a season when the number of internet applications increase causin
 ### Checking to see if you are ready to take online classes
 
  <a name="check-excel"> </a>
- * Click on the link to check whether or not you are able to see the  <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel sheet</a>. <font color="red">22 Mar Update: If a UTokyo “Sign In” window pops up requesting “email, phone number, Skype”, </font>, enter:
+ * Click on the link to check whether or not you are able to see the  <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel sheet</a>. <font color="red">22 Mar Update: If a UTokyo “Sign In” window pops up requesting “email, phone number, Skype” </font>, enter:
 ```
 「UTokyo Account ID@utac.u-tokyo.ac.jp」
 ```
@@ -136,12 +136,12 @@ and continue. The UTokyo Account ID is a 10-digit number. We are not certain of 
    * **Pattern 1:** If you are already logged in to Google with the university account you recently made (xxxx@g.ecc.u-tokyo.ac.jp) then you should be able to access it immediately.
     <a name="check-google-spreadsheet-pattern-2"> </a>
    * **Pattern 2:** If you are logged in to Google using a different account (your usual personal account – yyyy@gmail.com) a window will pop up stating “authorization required”.
-     * パソコンの場合: 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでログインして下さい. 「アクセス権限のリクエスト」**ではありません.**  すでに何人かの人が「アクセス権限のリクエスト」を送っているようですが, 気にせずもう一度上記からアクセスして, **「アカウントを切り替える」**を選び直して下さい(この場合の<a href="https://youtu.be/yLQcnfZo_24" target="_blank">手順動画</a>).
-     * **(3/27追加)** Androidの場合: Gmailの受信トレイ -&gt; 右上のアイコン -&gt; 「別のアカウントを追加」 -&gt; Google を選び, ログイン画面で今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください. (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">手順動画</a>)
+     * If using PC:  Select **"Switch Account"** available to the right and log in using your university account. Please note **not to click on**  the “Request for access privileges”. We have already received “request for access privileges” from several people. Please do not worry if you have, simply return to the above step and select **"Switch Account"** (<a href="https://youtu.be/yLQcnfZo_24" target="_blank">video</a>).
+     * **(3/27 update)** If using Android: Select Gmail Inbox → Icon in the top right → “Add another account” → Select Google, and log in using the university account you created (xxxx@g.ecc.u-tokyo.ac.jp) (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">video</a>).
     <a name="check-google-spreadsheet-pattern-3"> </a>
-   * **パターン3:** そもそもGoogleにログインしていない場合は「ユーザ認証に失敗しました」と表示された後, Googleへのログインを促す画面が出てくるので大学のアカウントでログインして下さい(この場合の<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">手順動画</a>).  
-     * **(3/27追加)** Androidの場合: Gmailの受信トレイ -&gt; 右上のアイコン -&gt; 「別のアカウントを追加」 -&gt; Google を選び, ログイン画面で今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください. (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">手順動画</a>)
-   * どうであれ無事見られれば, G Suite for Education (ECCSクラウドメール)の有効化ができています. ただし, 現在中国にいる人はこのシートにはつなげません. Microsoft Excelの方だけ確認してください
+   * **Pattern 3:** If you were not logged into Google and the message “User Authorization Failed” is displayed, you will see a screen prompting you to log into Google. Please log in using the university account you created (<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">video</a>).  
+     * **(3/27 update)** If using Android: Select Gmail Inbox → Icon in the top right → “Add another account” → Select Google, and log in using the university account you created (xxxx@g.ecc.u-tokyo.ac.jp) (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">video</a>).
+   * If you can see the spreadsheet, you have successfully activate your G Suite for Education (ECCS Cloud Mail). However, those who are in China will not be able to connect to this sheet. Please confirm with the Microsoft Excel only.
  * **Zoomにつないでみよう:** できたら, どちらかのシート(どちらでもよいです)に書かれている, 「TV会議につないでみよう」の下の方にある 「Zoom」と書かれたセルの右にある URL をクリックして, それぞれの TV 会議システムにつないでみましょう. クリックすると, スマホでもパソコンでも, ブラウザの中で始まるかも知れませんし, 何かアプリを入れるように言われるかもしれません. 言われたら入れてください. 入れ方がわからなくなったらブラウザの中で見ても良いですし, このサイト内にある[Zoom](../zoom/)のページを見てインストールしてみて下さい. 
    * つなぐとナレーション付きの, TV会議ソフト使い方スライドショーが流れています.
    * 特に, 音が鳴るかを確かめて下さい.
