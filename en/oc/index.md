@@ -142,20 +142,20 @@ and continue. The UTokyo Account ID is a 10-digit number. We are not certain of 
    * **Pattern 3:** If you were not logged into Google and the message “User Authorization Failed” is displayed, you will see a screen prompting you to log into Google. Please log in using the university account you created (<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">video</a>).  
      * **(3/27 update)** If using Android: Select Gmail Inbox → Icon in the top right → “Add another account” → Select Google, and log in using the university account you created (xxxx@g.ecc.u-tokyo.ac.jp) (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">video</a>).
    * If you can see the spreadsheet, you have successfully activate your G Suite for Education (ECCS Cloud Mail). However, those who are in China will not be able to connect to this sheet. Please confirm with the Microsoft Excel only.
- * **Zoomにつないでみよう:** できたら, どちらかのシート(どちらでもよいです)に書かれている, 「TV会議につないでみよう」の下の方にある 「Zoom」と書かれたセルの右にある URL をクリックして, それぞれの TV 会議システムにつないでみましょう. クリックすると, スマホでもパソコンでも, ブラウザの中で始まるかも知れませんし, 何かアプリを入れるように言われるかもしれません. 言われたら入れてください. 入れ方がわからなくなったらブラウザの中で見ても良いですし, このサイト内にある[Zoom](../zoom/)のページを見てインストールしてみて下さい. 
-   * つなぐとナレーション付きの, TV会議ソフト使い方スライドショーが流れています.
-   * 特に, 音が鳴るかを確かめて下さい.
-   * これはTV会議ですので別の人も同時につながっているかもしれません.
-   * つないだすぐの状態で, あなたの姿や音が流れることはないようにあらかじめ設定していますが万が一にも写ってほしくないものや, 聞かれたくない音がある状態では繋げないようにしましょう.
-   * つながったあと, カメラやマイクをオン・オフする練習をしたければしてください. カメラやマイクをオンにしている間はカメラの先にあるものやそこに流れている音が流れますので, 流れても構わない状態で練習してください(何も写らないようにしたければカメラの前を塞ぐなりしてください)
-   * つなげて音が流れることが確認できたら, 好きなときに退室して構いませんが, 時間があればスライドを見て使い方を学び, 実際に試してみて下さい.
-   * 一日に一回程度, 検査・修正などのために停止しているので, アクセスして繋げなかったらあなたの問題だと思わず, しばらくしてもう一度アクセスして見て下さい. 何度やっても繋がらない, なにかおかしいと思ったら, 連絡を下さい (右のメールアドレス).
+ * **Connect to Zoom:** If possible, using either of the sheets from above (it does not matter which) connect to Zoom using the link on the right of the cell with “Zoom” under the title “Connect to TV Conferencing”. When you click on the link you may start through your browser on your PC or smartphone, or you may be requested to install an app. Please install the app if requested. If you are uncertain how to install the app, you can still view it from the browser or see the instructions on how to [install](../zoom/)from this site. 
+   * Once you connect, there will be a slideshow with narration running on how to use the TV conferencing software.
+   * In particular, please make sure that you can hear the sounds.
+   * As this is a TV conference, there may be other people connected at the same time.
+   * The system has been preset so that your camera or microphone does not automatically come on when you connect, but make sure that there is nothing in the background that you do not want seen or heard when you connect.
+   * Once you are connected, please practice turning your camera and mike on and off. When you have the camera and mike on, whatever you have on in the background will be seen or heard. Please make sure you do not have anything you do not want seen near the camera.
+   * Once you have confirmed that you are receiving sound and mike are connected, you can disconnect whenever you wish. If you have the time please look at the slide and learn and try out how to use the system.
+   * The system will be shut-down one a day for inspection, maintenance etc. If you are not able to connect, please do not think it is your problem but try again after a little while. Please contact us using the email to the right if you are still unable to connect after several attempts and think there is something wrong.
 
- * (<font color="red">ここから先はまだ準備中です</font>) 同じようにWebExやGoogleハングアウトMeetでもやってみましょう. ただし中国にいる人は, GoogleハングアウトMeetにはつなげません.
+ * (<font color="red">Still under construction from this point</font>) Please try the same with WebEx and Google Hangouts Meet. However, please note that those in China will not be able to connect to Google Hangouts Meet.
 
-なにかおかしい, 接続できない場合は
+Troubleshooting, not connecting
 ---------------------------
 
-* 少し頑張っても問題が解決しないとか, このページに間違いがあるのでは? と思ったら, [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) へメールをお送りください. その際, 新入生か, 在校生(その場合学年, 学科, 専攻など)か, (a) どのステップで, (b) 自分が何をしたら, (c) どんな結果になったか, を含めて下さい(「できませんでした」というだけの情報だとこちらで問題がわからない場合が多いです).
+* Please contact us by mail [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) ) if you think there is a problem with this page or if you cannot solve a problem no matter what you do. Please state whether you are a new student, current student (in which case please also state your year, major, department, etc.) as well as a) which step you have reached, b) what you did, and c) what was the result. (We will not be able to be of much help if we only receive “I couldn’t do it”.)
 
-* チャットなどでもヘルプを求める手段を準備しています. 少々お待ち下さい.
+* We are also preparing means to offer support through “chats”. Please wait for a while.
