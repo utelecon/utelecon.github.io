@@ -1,45 +1,50 @@
 ---
-title: Zoom 会議室の入り方
+title: How to join a Zoom meeting room
 ---
 
-ここでは，会議室への入り方を説明します．  
-URL（https://zoom.us/j/xxxxxxxxxx xは数字）を使って入る方法と ID（9～10桁の数字） を使って入る方法があるため，それぞれについて説明します．
+In this section we explain how to join a meeting room.  
+There are two available ways: using a URL（https://zoom.us/j/xxxxxxxxxx x are numbers）provided by the host; or entering a 9-10 digits ID also provided by the host.
 
 
 
-## URL を使って入る
-1. 会議室の URL（https://zoom.us/j/xxxxxxxxxx xは数字）にアクセスします
-1. Web ブラウザー上で「Zoom Meetings を開く」を押します（Zoom がインストールされてない場合は，その画面からダウンロード可能であるため，そのままダウンロードして Zoom をインストールします）  
+## Joining with a URL
+1. Access the meeting room URL (https://zoom.us/j/xxxxxxxxxx x are numbers）
+1. Press "Open Zoom Meetings" on the Web browser (if Zoom is yet not installed, you can download and install it from this screen)  
+
+
   ![](img/zoom_join_pc_url_browser.png) 
     
-1. （名前を設定していない場合）名前の設定をします  
+1. Set a name (in case you did not do it yet)
+
+
   ![](img/zoom_join_pc_url_name.png)
     
-1. （カメラがついていて，ビデオプレビューダイアログを表示する設定になっている場合）ビデオ付きで参加するかビデオなしで参加するか選択できるため，希望の方を選択します  
+1. You can choose to join with or without video (in case you have a camera and the meeting is set to show the video preview dialog)  
   ![](img/zoom_join_pc_camera.png)
   
-1. （オーディオ（音声）の参加方法が未定の場合）「コンピューターでオーディオに参加」を選択します  
+1. Select "Join with Computer Audio" (if the audio settings are not set by the host)  
   ![](img/zoom_join_pc_mic.png)
   
-以上の流れで会議室へ入れます
+Congrats! You have joined the meeting!
 
 
 
-## ID を使って入る
-1. Zoom を起動します
-1. 「ミーティングに参加」を押します  
+## Using an ID
+1. Start Zoom
+1. Press "Join Meeting"
   ![](img/zoom_join_pc_id_top.png)
   
-1. ①にミーティングID（9～10桁の数字）を入力，②に名前を入力して，「参加」を押します（パスワードが設定されている場合は，パスワードも知らせてもらってパスワードを入力します）  
+1. Enter the meeting ID (9-10 digits) in ①, enter you name in ②, and press "Join" (in case a password has been set, ask the host for it)
+
+
   ![](img/zoom_join_pc_id_join_add.png)
   
-1. （カメラがついていて，ビデオプレビューダイアログを表示する設定になっている場合）ビデオ付きで参加するかビデオなしで参加するか選択できるため，希望の方を選択します
-  ![](img/zoom_join_pc_camera.png)
+1. You can choose to join with or without video (in case you have a camera and the meeting is set to show the video preview dialog)    ![](img/zoom_join_pc_camera.png)
   
-1. （オーディオ（音声）の参加方法が未定の場合）「コンピューターでオーディオに参加」を選択します  
+1. Select "Join with Computer Audio" (if the audio settings are not set by the host)    
   ![](img/zoom_join_pc_mic.png)
   
-以上の流れで参加できます
+Congrats! You have joined the meeting!
 
 
 
