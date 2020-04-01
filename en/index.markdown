@@ -15,6 +15,7 @@ About this Site
 
 What's New (<span style="color:blue;">blue letters</span>highlight the date of publication. Recent entries come above)
 ---------------------------
+* <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoom FAQs on setting issues</a>
 * <span style="color:blue;">2020/4/1:</span> <font color="red">The following emergency system maintenance of ITC-LMS has been completed. Thank you for your cooperation. (11:44 am)</font>
 * <span style="color:blue;">2020/4/1:</span> prepare for online class in 2020, ITC-LMS emergency system maintenance will be held today from 9:00 to 11:00 (planned). During this time, the ITC-LMS service will be suspended. We apologize for any inconvenience, but thank you for your understanding and cooperation.
  * <span style="color:blue;">2020/3/31:</span> Today, March 31 is a student transfer date, so UTAS is not available for new students (from the first semester to the second semester).
