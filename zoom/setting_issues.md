@@ -3,6 +3,7 @@
 Zoomの初期設定・利用開始時のトラブルに関するFAQ
 =================
 
+<a name="should_i_activate"> </a>
 私はZoomのアカウントを作る(アクティベートする)必要あるの?
 -----------------
 
@@ -11,6 +12,7 @@ Zoomの初期設定・利用開始時のトラブルに関するFAQ
 * それ以外の会議に, 参加するだけの人は不要です
 
 
+<a name="how_to_get_invitation"> </a>
 「アカウントのアクティベーションを招待するメール」が送られていると聞いたがどう受け取れば良い?
 -----------------
 
@@ -19,6 +21,7 @@ Zoomの初期設定・利用開始時のトラブルに関するFAQ
 * その後 <a href="https://gmail.com" target="_blank">Gmail</a> から上記アカウントでログインして下さい. すでに他のGmailアカウントをお持ちの場合は一旦ログアウトして下さい
 * こちらから<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank">ログイン</a>することもできます
 
+<a name="I_dont_find_invitation"> </a>
 ECCSクラウドメール(なんとか@g.ecc.u-tokyo.ac.jp)をチェックしたが「アカウントのアクティベーションを招待するメール」が見当たらない
 -----------------
 
@@ -30,16 +33,19 @@ ECCSクラウドメール(なんとか@g.ecc.u-tokyo.ac.jp)をチェックした
 -->
 * それもうまく行かなければ<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNUhHRjdZRjI0NzVNV1FSTVZXT09YOU5UTy4u" target="_blank"> 再送を依頼</a>して下さい
 
+<a name="user_not_exist"> </a>
 アカウントのアクティベーションを招待するメールを受取り, アクティベートするボタンを押したが「そのようなユーザはいない」と言われた
 -----------------
 
 * 原因は不明ですがかなりの人に発生しています. ここに書かれている<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">対処</a>で直ったという話がありますのでやってみて下さい
 
+<a name="invitation_expired"> </a>
 メールを受取り, アクティベートするボタンを押したが「期限切れ」と言われた
 -----------------
 
 * <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">ここに書かれている対処</a>で直るかもしれません
 
+<a name="still_basic"> </a>
 User TypeがLicensedではなくBasicになってしまっている
 -----------------
 
@@ -53,6 +59,7 @@ User TypeがLicensedではなくBasicになってしまっている
 * 他のアカウントでサインインしていた場合, 一旦サインアウトして, 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインし直して下さい
 * 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインできなければ, <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">ここに書いてある対処</a>でアクティベート出来るかも知れません
 
+<a name="when_everything_fails"> </a>
 以上すべてがうまく行かなかったら
 -----------------
 
