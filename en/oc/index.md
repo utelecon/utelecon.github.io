@@ -1,6 +1,5 @@
 ---
 title: Preparing for online classes for new and currently enrolled students
-layout: en
 ---
 
 Note
