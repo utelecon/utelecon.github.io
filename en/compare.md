@@ -1,5 +1,6 @@
 ---
 title: Comparison between systems
+layout: en
 ---
 
 # Comparison between systems
