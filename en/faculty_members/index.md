@@ -1,59 +1,60 @@
 ---
-title: 教員のためのオンライン授業を行うにあたって
+title: a教員のためのオンライン授業を行うにあたって
 ---
 更新日: 2020年4月2日
 
 
-## はじめに  
+## Introduction
 
-東京大学では，<a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">総長のメッセージ</a>にある通り，新型コロナウィルスCOVID-19感染拡大を防止するため, 2020年度のSセメスターにオンライン授業を本格導入することになりました.メッセージにおいては，授業に関し「対面での講義は最小限とし、オンライン化を奨励し推進する」とされています．しかしながら，メッセージが出た3月18日以降，事態は深刻さを増し，全面的なオンライン授業実施に備えざるを得なくなってきています．
+As stated by the <a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">Dean's message</a>  the University of Tokyo has decided to introduce online classes to the S semester in 2020 in order to prevent the spread of the new coronavirus COVID-19. It says that "Face-to-face lectures will be minimized and online classes will be encouraged and promoted. " However, since the message was issued on March 18, the situation has become more serious and it has become necessary to prepare for a full online class scenario.
 
-オンライン授業の実施は多くの教職員にとって，初めてのことでありかつ備える時間も非常に限られています．そのような中，大学という学びの環境を変わらず提供したいという思いのもと，これまで既に各所で様々な取り組みが進んでいることと思います．
+This is the first time for many faculty members to conduct online classes and the time available for preparation is very limited. Under such circumstances, various efforts have already been made in various places in order to provide students with the same learning environment.
 
-本ポータルは，本学が授業のオンライン化をすすめるにあたり，教職員の負担を減らす一助としていただくために「走りながら」つくってしております．本ポータルでは，対面で行っていた授業をスムーズにオンライン化することに有用と思われる，次のような情報提供を行おうとしています．
+This portal has been created in an attempt to help reduce the burden on faculty and staff when the university promotes online classes. In this portal, we are going to provide the following information that is useful for smoothly bringing online the lessons we have been conducting in-person.
 
-* 何をもってオンライン授業というのか
-* 本学でどういったシステム環境が使えるのか
-* そのシステムでは実際にどういうことができるのか
-* どういった具体的工夫があるのか
-* リソースにはどのようなものがあるか
+* What is an online class
+* What kind of system environment is available at our university
+* What can the system actually do
+* Specific ways to teach online courses
+* What resources are available
 
-しかしながら，まだまだ不十分です．そこでお願いがあります．既に授業をオンラインで実施されている先生方もいらっしゃると思います．ぜひそうした先生方には「こんな方法を知っている」「こんな工夫ができる」「こうすればうまくいく」といったことを[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)宛にお送りいただけると幸いです．本ポータルにおいてそうした情報を必要とする方々に届けていきたいと思います．
+However, it is still not enough. There is a way you could help. Some teachers may have already started classes online; if you are one of them, we would be grateful if you could send a message to [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)telling us what you know, and suggesting methods. In this portal, we would like to share such information with those who need it.
 
-先生方の知が本ポータルに結集し共有され，本ポータルがオンライン化を成し遂げるコミュニティとなっていくことが，学生に対し質の高い学習環境の維持あるいは向上の支えになると信じております．
+We believe that the knowledge accumulated and shared in this portal will help create a community that achieves our goal of an online system, and  will ultimately support maintaining or improving a high-quality learning environment for our students.
 
-本ポータル編集に参画する教職員一同
+A message from all the members editing this Portal
 　
 
 <a name="utokyo-edu-ict"></a>
-## 東京大学における教育のためのICTシステムを利用するために
+## To use the ICT system for Education at the University of Tokyo
 
-東京大学における教育のための ICT システムは複数あります．  
+There are several ICT systems for education at the University of Tokyo  
 
-![教育のためのICTシステム](img/service-overview.png)
+![ICT Systems for Education](img/service-overview.png)
 
-全体像は上記の図のようになっています. 東京大学の構成員であることを示す UTokyo Account が多数のサービスを利用するための基礎となります．シラバス登録などを行う UTAS，教材配布や出席管理を行う ITC-LMS は UTokyo Account を保持していれば利用可能ですが，Word や Excel が利用できる Office 365 や Google のサービスを利用できる ECCS クラウドメールは別途有効化が必要です．また，本学のアカウントで Web 会議システム（Zoom，Webex，GoogleハングアウトMeet）を利用したい場合は，ECCSクラウドメールを用いて有効化する必要があります．  
-Office 365 や Google のアカウントを既にお持ちの方でも，学生に対して学内限定で動画ファイルを共有したい，容量を気にせず Google Drive（ファイル置き場）を利用したい場合は，それぞれ有効化することをおすすめします．  
+The broad picture is as shown above. The UTokyo Account, which indicates that you are a member of the University of Tokyo,  is the basis for using many services. UTAS for syllabus registration, and ITC-LMS for distributing teaching materials and attendance management can be used if you have a UTokyo Account. However, activation is required separately for Office 365 (which gives you access to Word and Excel) and ECCS Cloud Mail (which gives you access to Google services). Also, if you want to use the video conferencing system (Zoom, Webex, Google Hangouts Meet) with your University account, you will need to activate it using ECCS Cloud Mail.
 
-以下，それぞれのサービスの説明とサービスを利用するための作業を説明します. 以下の作業中, このページに書かれている通りにならないなど, 問題を見つけた場合は [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) までご連絡下さい. その際, (a) 以下のどのステップで, (b) 自分が何をしたら, (c) どのような結果になったか, を含めていただければ幸いです(「できませんでした」というだけの情報ですとこちらで問題がわからない場合が多いです). 
+Even if you already have an Office 365 or Google account, if you want to share video files with students only within members of the university, or want to use Google Drive (file storage) without worrying about capacity, please enable each account.    
 
-1. **UTokyo Account:** 他のサービスすべてのもととなる, 「あなたが東京大学の構成員である」ことを示すアカウントです. 令和2年度新規の教職員には, 2020/4/1 以降に配られる書類に, あなたのアカウント番号(10桁の数字. 共通IDという)と初期パスワードが書かれています.
-  * **（新規の教職員用）作業:** [初期パスワードを変更](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)してください. [手順動画](https://youtu.be/tTpAlqVhEXQ)
-1. **UTAS (学務システム):** シラバスを登録したり, 成績の登録をしたりするのに使うシステムです. オンライン授業に関する情報も, このシステムを経由して提供することになるでしょう. 使うためにはUTokyo Accountが正しく設定されている必要があります.
- * **作業:** UTokyo Account を利用できれば，特に利用するための作業はありません.
-1. **ITC-LMS (学習管理システム):** 自分が担当する授業に関して, 資料を掲示したり, 課題を提出させたり, 出席を管理したりなどの用途に使います. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(シラバス登録)と後(成績登録), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 使うためにはUTokyo Accountが正しく設定されている必要があります. 
- * **作業:** UTokyo Account を利用できれば，特に利用するための作業はありません（参考:  [ITC-LMS 教員向けページ](../lms_lecturers/)）
-1. **ECCS クラウドメール (Googleメール，正確に言うと G Suite for Education):** 全教職員が利用できる Google のサービスで，全教職員に本学の Google アカウント（ECCS クラウドメールアカウント）が発行されています．本学のWeb会議システムのアカウントを使うためには必須になります．また，Google アカウントであることから，ファイル置き場の Google Drive，文書作成サービスの Google Docs，表計算サービスの Google Spreadsheet，動画配信サービスの YouTube などが使えます．使うためにはUTokyo Accountが正しく設定されている必要があるのと, 使い始める際にシステムの有効化を行う必要があります.  
-  * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>).
-  * **作業:** 上記が終わってから実際にG Suite for Education が使える(Googleにログインできる)ようになるまで, 最大1時間ほどお待ち下さい（毎時0分に更新で反映まで5分程度かかります）. その後，<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank">ECCSクラウドメール</a>に移動して，設定したアカウント名（ご自身が設定した英数字）とパスワードを入力して，Gmail にログインできることを確認してください．
-1. **Office 365 (Microsoft):** 文書作成ソフトの Word, 表計算ソフトの Excel， プレゼンテーションソフトの PowerPoint などが利用できるようになります．使うためにはUTokyo Accountが正しく設定されている必要があるのと, 使い始める際にシステムの有効化を行う必要があります.
-  * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) から「Office 365 ProPlus利用許諾」に合意し, Office 365の有効化をして下さい ([手順動画](https://youtu.be/OYl5P67mDYI)). 
-1. **Web会議システム:** リアルタイムにオンラインで授業を配信したり，授業用の動画を録画するために利用できます．本学では，[Zoom](../zoom/)，[Webex](../webex)，[GoogleハングアウトMeet](google_hangouts_meet) が利用できます．どれにしようか迷われている方は，利用しやすい Zoom をおすすめします．利用する準備方法はそれぞれのページをご覧ください．
+The following is a description of each service and procedures required to use them. If you encounter any problems during the following procedures, notify us at[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) Please include (a) in which steps below, (b) what you did, and (c) what was the result. (If you only tell us that it didn't work, we often cannot figure out what the problem was).
+
+1. **UTokyo Account:** This account indicates that "you are a member of the University of Tokyo", which is the basis for all other services. If you are a new faculty member, you will find your account number (10 digits, common ID) and initial password on the documents that are handed to you after April 1, 2020.
+  * **（New faculty members）Task:** [Change the initial password](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)[video](https://youtu.be/tTpAlqVhEXQ)
+1. **UTAS (Academic Affairs System):** A system used to register syllabi and grades. Information regarding online classes will most likely be provided via this system as well. Your UTokyo Account must be set correctly in order to use this. 
+ * **Task:** If you can use your UTokyo Account, there is no need to do anything in particular.
+1. **ITC-LMS (Learning Management System):** Used for posting materials, submitting assignments, and managing attendance for the class in which you are responsible. UTAS is usually used before the course starts (syllabus registration) and after the course ends (grades registration), whereas ITC-LMS is used during the course period. Your UTokyo Account must be set correctly in order to use this system. 
+ * **Task:** If you can use your UTokyo Account, there is no need to do anything in particular. (Reference: [ITC-LMS teacher page](../lms_lecturers/)）
+1. **ECCS Cloud Mail (Google Mail/ G Suite for Education):**  A Google service that is available to all faculty and staff. A Google account (ECCS cloud mail account) is issued to all faculty and staff. This is required to use the University's video conferencing system account. Also, because it is a Google account, you can use Google Drive for file storage, Google Docs for document  service, Google Spreadsheet for spreadsheet service, YouTube for video distribution service, etc. To use this, you need to have set up UTokyo Account correctly, and activate the system when you start using it. 
+  * **Task:** Set an account name from "ECCS Cloud Mail " and a password from "ECCS Cloud Mail (Change Password) '' in the [UTokyo Account user menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) to activate G Suite for Education  (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">details</a>).
+  * **Task:** After completing the above, wait up to 1 hour until you can actually use G Suite for Education (log in to Google) (It is updated every hour and will take about 5 minutes until it shows). Go to <a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank">ECCS Cloud Mail</a>enter the account name (alphanumeric characters that you set) and password, and confirm that you can log in to Gmail.
+1. **Office 365 (Microsoft):** This will give you access to the Word software, Excel spreadsheet software, and PowerPoint presentation software. In order to use it, you need to set up your UTokyo Account correctly, and you need to activate the system when you start using it.
+  * **Task:** From the[UTokyo Account user menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) agree to "Office 365 ProPlus License Agreement '' and activate Office 365 ([video](https://youtu.be/OYl5P67mDYI)). 
+1. **Video conferencing system:** This can be used to stream classes online in real time or to record videos for classes. In our university, [Zoom](../zoom/)，[Webex](../webex)，and[GoogleハングアウトMeet](google_hangouts_meet) are available. If you are not sure which one to use, we recommend Zoom. Please check each page for directions on how to use each system.
 
 
-ここで，注意してほしいのは, Google，Microsoft，Zoomも, すでに自分で使っているという方もいらっしゃると思いますが, そういった方も**大学のアカウントで使えるように**していただくことが重要です．これらのアカウントを使えるようにすることで，本学構成員向けのサービスを利用できるようになり，例えば，Google Drive で学内限定で共有されたファイルを閲覧したり，学生に学内限定でファイルを共有したり，Zoom で通常アカウントでは参加者数の上限が100名のところ，500名の会議を行うことができたりするようになります.
+Some of you may already be using Google, Microsoft, and Zoom on your own, but it is important for users to be able to use **their university accounts**. By using your university accounts, services created only for the members of the University will be available to you. For example, users can view files shared only within university members with Google Drive or share files with students only within the university. Also, you can hold video conferences with the maximum participants of 500 people on Zoom with your university account, where it is usually up to 100 people with a normal account.
 
-ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順は前述していますが, それらのシステムでどんなことができるかも含め, 東京大学[初年次ゼミナールのページ](https://fye.c.u-tokyo.ac.jp/students/)にある, 『東京大学ICT活用ハンドブック（文理共通）』 ([2019年度版](pdf/01_2019_ict.pdf))で詳しく説明しているため，必要に応じて御覧ください． 
+The procedure for activating ECCS Cloud Email (Google) and Office 365 (Microsoft) has been described above, but to see other information on what you can do with those systems, refer to the " The University of Tokyo ICT Handbook (Humanities & Sciences) ”[2019 version](pdf/01_2019_ict.pdf) on ([The University of Tokyo's First Year Seminar page](https://fye.c.u-tokyo.ac.jp/students/)) as necessary. 
 
 
 ## オンライン授業の主な形態  
