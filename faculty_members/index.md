@@ -137,7 +137,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 * 2020-03-31配布版ーこれだけマニュアル-自習で最低限のオンライン講義ができるようになる [\[PowerPoint(Google Drive)\]](https://drive.google.com/file/d/1u1lpIx56wkBRUL1LliV5rh0vcGiowv7g/view) (農学生命科学・田野井先生，中嶋先生)：「ECCSクラウドメール開設編」「ZOOM開設・設定編」「ZOOM利用編」「ITC-LMS利用編」「履修前の学生教員間情報共有編」「オムニバス講義編」とそれぞれのトピックに関する説明がコンパクトにわかりやすくまとまっている資料です．
 * 農学生命科学研究科・農学部 オンライン授業 教員講習会・相談会 [\[資料\]](https://docs.google.com/document/d/1brSo7Jn7WNMzMTe69PxMgtq-2n9iPVABOcaER61Wgik/edit)	
  [\[動画リスト\]](https://docs.google.com/document/d/1brSo7Jn7WNMzMTe69PxMgtq-2n9iPVABOcaER61Wgik/edit) (農学生命科学・田野井先生，中嶋先生，笹部先生，中西先生)：農学生命科学研究科で行われた講習会・相談会に関する資料です．幅広いトピックを扱ってくださっているため，まず資料をご覧いただくと会の全体像がわかるかと思います．その後，特に知りたいところを動画リストから見ていただくのがよいかと思います．
-
+* 都市工学専攻・オンライン講義マニュアル [\[PDF\]](materials/online_lecture_20200331_2.pdf)  (工学系研究科・都市工学専攻) : 工学系研究科都市工学専攻でまとめられたオンライン講義マニュアルです．Zoom を用いて講義を行う一連の流れが記載されています．
 
 
 ## リンク集（随時募集中）
