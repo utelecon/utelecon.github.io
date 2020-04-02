@@ -1,5 +1,5 @@
 ---
-title: 学習管理システム ITC-LMS の使い方（教員向け）
+title: How to use the Learning Management System ITC-LMS（for instructors）
 layout: en
 ---
 
