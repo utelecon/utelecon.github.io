@@ -4,10 +4,14 @@ title: Zoom
 
 ## お知らせ
 
+* Zoomアカウントの<a href="setting_issues">初期設定時のトラブルに関するFAQ</a>
+
+<!--
 * 授業を行うためにZoomの会議を<font color="green">開催する人</font>(またはそれを代行する人)は, <a href="create_account" target="">Zoomのアカウントのアクティベーション</a>が<font color="green">必要</font>です
 * 授業に<font color="purple">参加するだけの人</font>(正確には誰かが開催したZoom会議に参加(join)するだけの人)はZoomアカウントは<font color="purple">不要</font>です
 * 大学が配布したアカウントを, <a href="create_account">大学の Zoom アカウントの作り方</a>に従ってアクティベーションしようとしたら<font color="red">「ユーザが存在しません」というエラーが出る</font>という事例が多く報告されております. そうなったら<a href="https://tinyurl.com/v5pvzb5">現在わかっている最善の対処方法</a>をご覧いただき, フォームへの質問にもお答えください. 解決しない場合は utelecon-inquiries@googlegroups.com へご連絡下さい.
 * そのほか問題が生じた場合も、utelecon-inquiries@googlegroups.com までご連絡ください。
+-->
 
 ## はじめに
 
