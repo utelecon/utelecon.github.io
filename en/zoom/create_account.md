@@ -1,5 +1,6 @@
 ---
 title: How to create an UTokyo Zoom account
+layout: en
 ---
 
 ## Notice
