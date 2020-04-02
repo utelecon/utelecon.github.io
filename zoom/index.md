@@ -52,14 +52,16 @@ title: Zoom
   1. ミーティングを行います（<a href="how_to_use" target="">具体的なZoomの使い方</a>）
 
 ## 授業での使い方
+授業における使い方について，まだ個別の動画が出来上がっていませんが，[オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)に動画（限定公開）があるため，そちらも合わせて御覧ください． 
+ただ，[会議室のスケジュール](how_to_use_in_classroom_faculty_members#schedule)の方法は以下のものをご参考にしていただいた方が実際の授業に合っているかと思いますので，そちらをご参照ください． 
 
-* 学生・教員共通編
+* [学生・教員共通編](how_to_use_in_classroom_common)
   * <a href="how_to_use_in_classroom_common#use_mic_and_camera">マイクとカメラの設定を変更する（ミュートする，マイクのチェックする，カメラをオンオフするなど）</a>
 	<br>
 * 授業での使い方（学生編）
   * <a href="">手を挙げる方法（作成中）</a>
   <br>
-* 授業での使い方（教員編）
+* [授業での使い方（教員編）](how_to_use_in_classroom_faculty_members)
   * <a href="how_to_use_in_classroom_faculty_members#schedule">授業をスケジュールする</a>
   * <a href="" target="">［画面共有］資料を提示する（作成中）</a>
   * <a href="" target="">［チャット］質問を受け付ける（作成中）</a>
