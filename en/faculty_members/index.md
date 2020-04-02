@@ -1,5 +1,5 @@
 ---
-title: a教員のためのオンライン授業を行うにあたって
+title: 教員のためのオンライン授業を行うにあたって
 ---
 更新日: 2020年4月2日
 
@@ -134,12 +134,8 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 * スマートフォンと書画カメラで手書き講義をPCで行う方法 [\[PDF\]](materials/doc-cam-lecture.pdf) (工学系・古関先生): A4の紙をリアルタイムの板書がわりとして書画カメラで撮影し配信する方法が説明されています
 * PCとタブレットを使って黒板ライクに講義をする方法 [\[PDF\]](materials/pc+ipad.pdf) (工学系・熊田先生, 鈴木先生): タブレット上にホワイトボード的に板書，必要に応じてタブレット画面をスライドやPDFの資料にも切り替えて行う方法が紹介されています
 * ペンタッチ機能をもったWindowsタブレット一台（Surfaceなど）で資料に手書きをしながら配信する方法 [\[動画(YouTube)\]](https://www.youtube.com/watch?v=gj-xBZEgt-A) (情報理工学系・川原研博士課程・笹谷さん)：授業pdfを開き画面共有しながらそこに書き込んだり，OneNoteなどを共有して直接書き込む方法の紹介です．
-* 2020-03-31配布版ーこれだけマニュアル-自習で最低限のオンライン講義ができるようになる [\[PowerPoint(Google Drive)\]](https://drive.google.com/file/d/1u1lpIx56wkBRUL1LliV5rh0vcGiowv7g/view) (農学生命科学・田野井先生，中嶋先生)：「ECCSクラウドメール開設編」「ZOOM開設・設定編」「ZOOM利用編」「ITC-LMS利用編」「履修前の学生教員間情報共有編」「オムニバス講義編」とそれぞれのトピックに関する説明がコンパクトにわかりやすくまとまっている資料です．
-* 農学生命科学研究科・農学部 オンライン授業 教員講習会・相談会 [\[資料\]](https://docs.google.com/document/d/1brSo7Jn7WNMzMTe69PxMgtq-2n9iPVABOcaER61Wgik/edit)	
- [\[動画リスト\]](https://docs.google.com/document/d/1brSo7Jn7WNMzMTe69PxMgtq-2n9iPVABOcaER61Wgik/edit) (農学生命科学・田野井先生，中嶋先生，笹部先生，中西先生)：農学生命科学研究科で行われた講習会・相談会に関する資料です．幅広いトピックを扱ってくださっているため，まず資料をご覧いただくと会の全体像がわかるかと思います．その後，特に知りたいところを動画リストから見ていただくのがよいかと思います．
-
 
 
 ## リンク集（随時募集中）
 
-* [農学生命科学研究科・農学部 オンライン授業ページ](https://www.a.u-tokyo.ac.jp/online_lectures/)
+
