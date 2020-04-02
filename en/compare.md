@@ -1,18 +1,22 @@
 ---
-title: Web会議システム比較表
+title: Comparison between systems
 ---
 
-# Web サービス比較表
+# Comparison between systems
 
-|  観点  |  GoogleハングアウトMeet  |  Zoom  |  WebEx  |  
+| Aspects |  Google Hangouts Meet  |  Zoom  |  WebEx  |  
 |---|---|---|---|  
-|  最大同時接続数  |   100（通常時）<br>250（2020年7月1日まで）  | 500（大学アカウント）  |    1000（ビデオON時）<br>3000（ビデオOFF時）  |  
-|  大学アカウントの利用可能期限  |  期限なし（一部機能は2020年7月1日まで）  |  2020年4月30日まで\*  |  2020年6月8日まで\*  |   
-|  本学構成員（ECCSアカウント保持者）のみ入室制限  |  ○（明示的に承認すれば非保持者の参加可）  |  ○  |  ×（手動でユーザー強制退室は可）  |  
-|  画面共有  |  ○  |  ○  |  ○  |  
-|  テキストチャット  |  ○  |  ○  |  ○  |  
-|  会議の録画  |  ○（2020年7月1日まで）  |  ○  |  ○  |  
+|  Maximum number of participants  |   100*
+ (* regular plan)
+）<br> 250*
+（* Until the end of June 2020）
+  | 500（University account）  |    1000（On-screen）<br>3000（Off-screen）  |  
+|  University's account expiration  |  None（Some features will not be available by the end of June 2020)  |  By the end of  April 2020.  |  By June 8th 2020  |   
+|  Access restrictions  |  ○  |  ○  |  ×hosts can cancel or unsubscribe inappropriate  accounts  |  
+|  Screen sharing |  ○  |  ○  |  ○  |  
+|  Text chat  |  ○  |  ○  |  ○  |  
+|  Meeting recording  |  ○（Until 1st July, 2020)  |  ○  |  ○  |  
 
-\* 2020年3月17日現在での予定（期限後については未定．本部と協議中）
+\* * To be announced (updated on: March 17th 2020)
   
 
