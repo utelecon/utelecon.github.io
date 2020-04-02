@@ -94,39 +94,41 @@ In this section, we will introduce three main forms of online classes, compare t
   * Reference: [Online Basic Course "How to Create On-Demand Online Classes Using Videos and Texts, Not Live Streaming"](https://utelecon.github.io/events/2020-03-27/)
 
 
-## 各授業方法のオンライン化（執筆中）
+## How to apply each teaching method online (in progress)
 
-* 質疑応答のオンライン化
-* [板書のオンライン化](how_to_teach_online_handwriting)
-* 輪読のオンライン化
-* グループワークのオンライン化
+* Online Q & A session
+* [Online Handwriting](how_to_teach_online_handwriting)
+* Reading online
+* Group work online
 
 
-## 具体的なツールの使い方（執筆中）
+## How to use specific tools (in progress)
 
-* 学習環境の整え方
-  * [ITC-LMSの使い方](../lms_lecturers/)
-  * Google Classroom の使い方
+* How to set up a learning environment
+  * [How to use ITC-LMS](../lms_lecturers/)
+  * How to use Google Classroom
   <br>
   <br>
-* 教材の作り方
-  * [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)にてそれぞれのトピックを説明しているため，記事が出来上がるまではそちらの動画を御覧ください
-  * Googleドキュメントの音声認識を使った素早いテキスト入力の方法
-  * PowerPoint を用いた簡単な動画の作り方
-  * Web 会議システムを使った動画の作り方
+* How to design teaching materials
+  * Each topic is explained in [the Online Basic Course "How to create on-demand online classes using videos and texts instead of live distribution."](https://utelecon.github.io/events/2020-03-27/)Please watch that video until the article is completed.
+  * A quick way to enter text using Google Docs speech recognition
+  * How to make a simple video using PowerPoint
+  * How to make a video using the web conferencing system
   <br>
   <br>
-* ファイルのアップロードと共有方法
-  * Google Drive の使い方
-  * One Drive の使い方
+* How to upload and share files
+  * How to use Google Drive
+  * How to use One Drive
 
-## ご共有いただいた実践例・参考情報（随時募集中）
+## 
+Practical examples and references (call for more information)
 
-ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  
-資料をお持ちの方でご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  
-もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，以下のリストに情報を付け加えていただき，pull request を送っていただければ幸いです．  
-現時点では，箇条書きでご紹介させていただきますが，情報が増えてきましたら別途整理などさせていただく予定です．  
-また，各授業方法のオンライン化の項目などで別途ご紹介させていただく可能性があること，ご了承いただければ幸いです．  
+
+Here, we introduce the materials shared by professors. We greatly appreciate professors who provided us with this information. 
+If you have any useful materials on online conference systems, please contact us at [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com).  
+Alternatively, you can send us pull requests via[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)by forking information below.
+We introduce the information in a bulleted list for now, but we will organize them after we have got more materials.  
+In addition, we ask for your understanding that there is a possibility that each class method might be introduce separately in the online section.
 
 
 * PC1台でできるオンライン講義 [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](materials/online_example_1pc.mp4) (工学系・川原先生): 板書の授業をオンラインで行うための方法を動画付きで説明いただいています
