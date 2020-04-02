@@ -14,6 +14,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/4/2:</span> <a href="faculty_members/let_students_know_your_url">授業URLの通知の仕方 〜 授業で教員と学生た混乱なく出会うための共通ルール</a> をアップしました
 * <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoomの初期設定・利用開始時のトラブルに関するFAQ</a>
 * <span style="color:blue;">2020/4/1:</span> <font color="red">下記，ITC-LMS の緊急システムメンテナンスは終了しました．ご協力ありがとうございました．(11:44am)</font>
 * <span style="color:blue;">2020/4/1:</span> 2020年度のオンライン授業の準備のため，ITC-LMS の緊急システムメンテナンスを に本日，9:00から11:00(予定)
@@ -50,6 +51,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 * [新入生・在学生のための, オンライン授業を受けるための準備](oc)
 * [教員のためのオンライン授業を行うにあたって](faculty_members)
+* [授業URLの通知の仕方 〜 授業で教員と学生た混乱なく出会うための共通ルール](faculty_members/let_students_know_your_url)
 * [FAQ: よくある質問](faq)
 
 
