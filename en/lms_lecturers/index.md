@@ -3,43 +3,42 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
 layout: en
 ---
 
-## はじめに
-* 東京大学のUTokyo Account保持者であれば，誰でも学習管理システム <a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">ITC-LMS</a> を使うことができます．
-* ここでは，オンライン授業でITC-LMSを使う場合に主に利用する機能に限って，最低限の利用法を説明します．詳しい説明に関しては，ITC-LMSにログイン後にダウンロードできる教員用マニュアルを参照してください．
-* 授業で使う場合，UTAS に登録されている科目は、自動的に ITC-LMS にコースとして登録されています。それ以外の授業やセミナー等で ITC-LMS をご利用になる場合は、<a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/" target="_blank">広報サイト</a>
-の説明に従って利用申請をして下さい。
+## Introduction
+* Any UTokyo Account holder can use <a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">ITC-LMS</a>.
+* Here we explain basic ways to use ITC-LMS. for your online-classes. For more detail on how to use ITC-LMS, please refer to Teacher's manual after you log into the system.
+* When you use ITC-LMS in class, all subjects registered for UTAS are automatically registered as ITC-LMS courses.  Other subjects or seminars are required to apply via <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/" target="_blank"> ECCS website</a>, in order for you to use ITC-LMS. 
 
-## 利用の流れ
- 1. ITC-LMSにログインする (<a href="login" target="">詳細</a>)
- 1. 通知の設定をする (<a href="information" target="">詳細</a>)
- 1. 出講表から自分の授業を選ぶ (<a href="timetable" target="">詳細</a>)
- 1. コースの設定をする(<a href="course_settings" target="">詳細</a>)
+## How to use
+ 1. Log in ITC-LMS (<a href="login" target="">details</a>)
+ 1. Set the notifications (<a href="information" target="">details</a>)
+ 1. Choose your on your timetable (<a href="timetable" target="">details</a>)
+ 1. Set the courses(<a href="course_settings" target="">details</a>)
 
-## 授業準備の流れ
- 1. 教材を置く (<a href="course_materials" target="">詳細</a>)
- 1. 授業中に出席を取る準備をする (<a href="prepare_attendances" target="">詳細</a>)
- 1. 小テストを作成する (<a href="prepare_quizzes" target="">詳細</a>)
- 1. 課題を作成する (<a href="assignments" target="">詳細</a>)
+## How to prepare for classes
+ 1. Upload handouts (<a href="course_materials" target="">details</a>)
+ 1. Prepare for confirming attendance in classes (<a href="prepare_attendances" target="">details</a>)
+ 1. Prepare quizzes (<a href="prepare_quizzes" target="">details</a>)
+ 1. Prepare assignments (<a href="assignments" target="">details</a>)
 
-## 授業中の流れ
- 1. 出席管理のためのコードを学生に知らせる  (<a href="attendances" target="">詳細</a>)
- 1. 出席状況を確認する  (<a href="view_attendances" target="">詳細</a>)
- 1. 小テストを実施する  (<a href="quizzes" target="">（作成中）</a>)
+## During classes
+ 1. Let your students know the code for attendance  (<a href="attendances" target="">details</a>)
+ 1. Confirm attendance  (<a href="view_attendances" target="">details</a>)
+ 1. Apply quizzes  (<a href="quizzes" target="">（under construction）</a>)
 
-## 参考情報
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/">ITC-LMS広報ページ</a>
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
-* ITC-LMSの教員用マニュアルはログイン後にダウンロードできます．
+## Reference information
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/">ITC-LMS website</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: ITC-LMS</a>
+* After you log in ITC-LMS, you can download the teacher's manual.
 
-## サブページ一覧
-* <a href="login" target="">ITC-LMS へのログイン</a>  
-* <a href="information" target="">お知らせの通知先を設定する</a>  
-* <a href="timetable" target="">出講表の確認</a>  
-* <a href="course_settings" target="">コースの設定をする</a>  
-* <a href="course_materials" target="">教材を置く</a>
-* <a href="prepare_attendances" target="">授業中に出席を取る準備をする</a>
-* <a href="prepare_quizzes" target="">小テストを作成する</a>
-* <a href="assignments" target="">課題を作成する</a>
-* <a href="attendances" target="">出席管理のためのコードを学生に知らせる</a>)
-* <a href="view_attendances" target="">出席状況を確認する</a>
-* <a href="quizzes" target="">小テストを実施する</a>
+## Subpages list
+* <a href="login" target="">How to log in ITC-LMS</a>  
+* <a href="information" target="">Set the Notifications</a>  
+* <a href="timetable" target="">Checking attendances</a>  
+* <a href="course_settings" target="">Set the course</a>  
+* <a href="course_materials" target="">Upload handouts</a>
+* <a href="prepare_attendances" target="">Prepare for confirming attendance in classes</a>
+* <a href="prepare_quizzes" target="">Prepare quizzes</a>
+* <a href="assignments" target="">Prepare assignments</a>
+* <a href="attendances" target="">Let your students know the code for attendance</a>)
+* <a href="view_attendances" target="">Confirm attendance</a>
+* <a href="quizzes" target="">Apply quizzes</a>
