@@ -1,9 +1,9 @@
 ---
-title: Online Whiteboards
+title: Online Handwriting
 layout: en
 ---
 
-Here, we will introduce how to teach using an online whiteboard.
+Here, we will introduce how to teach using online handwriting.
 We greatly appreciate teachers for sharing these methods.
 As of today, March 31, we are planning to add other methods.  
 
