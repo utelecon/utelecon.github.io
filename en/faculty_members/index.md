@@ -132,7 +132,7 @@ We introduce the information in a bulleted list for now, but we will organize th
 In addition, we ask for your understanding that there is a possibility that each class method might be introduce separately in the online section.
 
 
-* How to Teach Online Lecture on Laptop: [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[video(MPEG4)\]](materials/online_example_1pc.mp4) (工学系・川原先生): (Engineering, Professor Kawahara): Explains how to teach using an online blackboard.
+* How to Teach Online Lecture on Laptop: [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[video(MPEG4)\]](materials/online_example_1pc.mp4) (Engineering, Professor Kawahara): Explains how to teach using an online blackboard.
 * Zoom User Guide 0.3 [\[PDF\]](materials/zoom_v03.pdf) (Engineering, Professor Aida): Explains how to use Zoom with multiple Mac screenshots.
 * How to Teach Online Group Work Lesson Using Google Meet[\[PDF\]](materials/google_meet_groupwork.pdf)  (Engineering Professor Yanagisawa): Explains how to do group work online (Zoom Breakout cannot not convey the voice of teachers, but this teaching method makes it possible).
 * How to Give Handwritten Notes on a Laptop, Using a Smartphone and a OH Camera [\[PDF\]](materials/doc-cam-lecture.pdf) (Engineering, Professor Koseki): Explains how to shoot your handwritten notes on A4 paper with an OH camera and distribute them as your real-time board writing.
