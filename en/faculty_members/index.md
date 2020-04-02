@@ -1,7 +1,8 @@
 ---
-title: a教員のためのオンライン授業を行うにあたって
+title: Online teaching for instructors
+layout: en
 ---
-更新日: 2020年4月2日
+Last update: 2020/4/2
 
 
 ## Introduction
@@ -136,7 +137,7 @@ In addition, we ask for your understanding that there is a possibility that each
 * How to Teach Online Group Work Lesson Using Google Meet[\[PDF\]](materials/google_meet_groupwork.pdf)  (Engineering Professor Yanagisawa): Explains how to do group work online (Zoom Breakout cannot not convey the voice of teachers, but this teaching method makes it possible).
 * How to Give Handwritten Notes on a Laptop, Using a Smartphone and a OH Camera [\[PDF\]](materials/doc-cam-lecture.pdf) (Engineering, Professor Koseki): Explains how to shoot your handwritten notes on A4 paper with an OH camera and distribute them as your real-time board writing.
 * How to Give a Blackboard Lecture On a Laptop and a Tablet [\[PDF\]](materials/pc+ipad.pdf) (工学系・熊田先生, 鈴木先生): (Engineering, Professor Kumada, Professor Suzuki): Explains how to write on a tablet like a whiteboard, and how to switch the tablet screen with slides and PDF files.
-* ペンタッチ機能をもったWindowsタブレット一台（Surfaceなど）で資料に手書きをしながら配信する方法 [\[動画(YouTube)\]](https://www.youtube.com/watch?v=gj-xBZEgt-A) (情報理工学系・川原研博士課程・笹谷さん)：授業pdfを開き画面共有しながらそこに書き込んだり，OneNoteなどを共有して直接書き込む方法の紹介です．
+* A method of handwriting and distributing documents using a Windows tablet with a pen touch function (ex. Surface)[\[video(YouTube)\]](https://www.youtube.com/watch?v=gj-xBZEgt-A) (Information Science and Technology, Ph.D. student, Sasaya): A method showing how to use and share PDF files in class, while writing directly over it, or sharing OneNote.
 
 
 ## Links (call for more information)
