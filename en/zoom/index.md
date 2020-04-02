@@ -1,5 +1,6 @@
 ---
 title: Zoom
+layout: en
 ---
 
 ## Notice
