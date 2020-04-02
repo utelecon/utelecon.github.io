@@ -104,6 +104,18 @@
 			{% assign has_en_page = true %}
 		{% endif %}
 
+		{% if page.url contains "/faculty_members" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
+		{% if page.url == "/lms_lecturers" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
+		{% if page.url == "/compare" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
 		{% if page.url contains "/en" %}
 			{% assign has_en_page = false %}
 		{% endif %}
