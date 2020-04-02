@@ -1,5 +1,6 @@
 ---
 title: Creating a Zoom meeting room
+layout: en
 ---
 
 * Updated on 2020/03/28
