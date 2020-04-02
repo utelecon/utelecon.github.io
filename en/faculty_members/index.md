@@ -4,25 +4,25 @@ title: a教員のためのオンライン授業を行うにあたって
 更新日: 2020年4月2日
 
 
-## はじめに  
+## Introduction
 
-東京大学では，<a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">総長のメッセージ</a>にある通り，新型コロナウィルスCOVID-19感染拡大を防止するため, 2020年度のSセメスターにオンライン授業を本格導入することになりました.メッセージにおいては，授業に関し「対面での講義は最小限とし、オンライン化を奨励し推進する」とされています．しかしながら，メッセージが出た3月18日以降，事態は深刻さを増し，全面的なオンライン授業実施に備えざるを得なくなってきています．
+As stated by the <a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">Dean's message</a>  the University of Tokyo has decided to introduce online classes to the S semester in 2020 in order to prevent the spread of the new coronavirus COVID-19. It says that "Face-to-face lectures will be minimized and online classes will be encouraged and promoted. " However, since the message was issued on March 18, the situation has become more serious and it has become necessary to prepare for a full online class scenario.
 
-オンライン授業の実施は多くの教職員にとって，初めてのことでありかつ備える時間も非常に限られています．そのような中，大学という学びの環境を変わらず提供したいという思いのもと，これまで既に各所で様々な取り組みが進んでいることと思います．
+This is the first time for many faculty members to conduct online classes and the time available for preparation is very limited. Under such circumstances, various efforts have already been made in various places in order to provide students with the same learning environment.
 
-本ポータルは，本学が授業のオンライン化をすすめるにあたり，教職員の負担を減らす一助としていただくために「走りながら」つくってしております．本ポータルでは，対面で行っていた授業をスムーズにオンライン化することに有用と思われる，次のような情報提供を行おうとしています．
+This portal has been created in an attempt to help reduce the burden on faculty and staff when the university promotes online classes. In this portal, we are going to provide the following information that is useful for smoothly bringing online the lessons we have been conducting in-person.
 
-* 何をもってオンライン授業というのか
-* 本学でどういったシステム環境が使えるのか
-* そのシステムでは実際にどういうことができるのか
-* どういった具体的工夫があるのか
-* リソースにはどのようなものがあるか
+* What is an online class
+* What kind of system environment is available at our university
+* What can the system actually do
+* Specific ways to teach online courses
+* What resources are available
 
-しかしながら，まだまだ不十分です．そこでお願いがあります．既に授業をオンラインで実施されている先生方もいらっしゃると思います．ぜひそうした先生方には「こんな方法を知っている」「こんな工夫ができる」「こうすればうまくいく」といったことを[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)宛にお送りいただけると幸いです．本ポータルにおいてそうした情報を必要とする方々に届けていきたいと思います．
+However, it is still not enough. There is a way you could help. Some teachers may have already started classes online; if you are one of them, we would be grateful if you could send a message to [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)telling us what you know, and suggesting methods. In this portal, we would like to share such information with those who need it.
 
-先生方の知が本ポータルに結集し共有され，本ポータルがオンライン化を成し遂げるコミュニティとなっていくことが，学生に対し質の高い学習環境の維持あるいは向上の支えになると信じております．
+We believe that the knowledge accumulated and shared in this portal will help create a community that achieves our goal of an online system, and  will ultimately support maintaining or improving a high-quality learning environment for our students.
 
-本ポータル編集に参画する教職員一同
+A message from all the members editing this Portal
 　
 
 <a name="utokyo-edu-ict"></a>
