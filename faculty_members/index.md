@@ -123,7 +123,9 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 
 ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  
 資料をお持ちの方でご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  
-現時点では，箇条書きでご紹介させていただきますが，情報が増えてきましたら別途整理などさせていただく予定です．
+もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，以下のリストに情報を付け加えていただき，pull request を送っていただければ幸いです．  
+現時点では，箇条書きでご紹介させていただきますが，情報が増えてきましたら別途整理などさせていただく予定です．  
+また，各授業方法のオンライン化の項目などで別途ご紹介させていただく可能性があること，ご了承いただければ幸いです．  
 
 
 * PC1台でできるオンライン講義 [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](materials/online_example_1pc.mp4) (工学系・川原先生): 板書の授業をオンラインで行うための方法を動画付きで説明いただいています
