@@ -131,14 +131,14 @@ We introduce the information in a bulleted list for now, but we will organize th
 In addition, we ask for your understanding that there is a possibility that each class method might be introduce separately in the online section.
 
 
-* PC1台でできるオンライン講義 [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](materials/online_example_1pc.mp4) (工学系・川原先生): 板書の授業をオンラインで行うための方法を動画付きで説明いただいています
-* Zoom利用の手引き0.3 [\[PDF\]](materials/zoom_v03.pdf)（工学系・相田先生）: Mac のスクリーンショットを多用した Zoom の使い方を解説いただいています
-* Google meetを使ったグループワーク型授業の例 [\[PDF\]](materials/google_meet_groupwork.pdf)  (工学系・柳澤先生): オンラインにおいてグループワークをする方法が説明されています（Zoomのブレークアウトでは教員の声などを伝えられませんが，その点を克服している画期的な方法です）
-* スマートフォンと書画カメラで手書き講義をPCで行う方法 [\[PDF\]](materials/doc-cam-lecture.pdf) (工学系・古関先生): A4の紙をリアルタイムの板書がわりとして書画カメラで撮影し配信する方法が説明されています
-* PCとタブレットを使って黒板ライクに講義をする方法 [\[PDF\]](materials/pc+ipad.pdf) (工学系・熊田先生, 鈴木先生): タブレット上にホワイトボード的に板書，必要に応じてタブレット画面をスライドやPDFの資料にも切り替えて行う方法が紹介されています
+* How to Teach Online Lecture on Laptop: [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[video(MPEG4)\]](materials/online_example_1pc.mp4) (工学系・川原先生): (Engineering, Professor Kawahara): Explains how to teach using an online blackboard.
+* Zoom User Guide 0.3 [\[PDF\]](materials/zoom_v03.pdf) (Engineering, Professor Aida): Explains how to use Zoom with multiple Mac screenshots.
+* How to Teach Online Group Work Lesson Using Google Meet[\[PDF\]](materials/google_meet_groupwork.pdf)  (Engineering Professor Yanagisawa): Explains how to do group work online (Zoom Breakout cannot not convey the voice of teachers, but this teaching method makes it possible).
+* How to Give Handwritten Notes on a Laptop, Using a Smartphone and a OH Camera [\[PDF\]](materials/doc-cam-lecture.pdf) (Engineering, Professor Koseki): Explains how to shoot your handwritten notes on A4 paper with an OH camera and distribute them as your real-time board writing.
+* How to Give a Blackboard Lecture On a Laptop and a Tablet [\[PDF\]](materials/pc+ipad.pdf) (工学系・熊田先生, 鈴木先生): (Engineering, Professor Kumada, Professor Suzuki): Explains how to write on a tablet like a whiteboard, and how to switch the tablet screen with slides and PDF files.
 * ペンタッチ機能をもったWindowsタブレット一台（Surfaceなど）で資料に手書きをしながら配信する方法 [\[動画(YouTube)\]](https://www.youtube.com/watch?v=gj-xBZEgt-A) (情報理工学系・川原研博士課程・笹谷さん)：授業pdfを開き画面共有しながらそこに書き込んだり，OneNoteなどを共有して直接書き込む方法の紹介です．
 
 
-## リンク集（随時募集中）
+## Links (call for more information)
 
 
