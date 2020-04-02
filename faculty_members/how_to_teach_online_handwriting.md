@@ -1,18 +1,17 @@
 ---
-title: Online Whiteboards
-layout: en
+title: 板書のオンライン化
 ---
 
-Here, we will introduce how to teach using an online whiteboard.
-We greatly appreciate teachers for sharing these methods.
-As of today, March 31, we are planning to add other methods.  
+ここでは，板書のオンライン化の方法を紹介していきます．
+方法をご共有いただいた先生方誠にありがとうございました．
+3月31日現在，他の方法も追加予定です．
 
-## How to make a whiteboard or blackboard online 
-You can make your whiteboard or blackboard online by setting your PC in front of the board. 
-This method only requires a PC and a whiteboard / blackboard. Also it is better to have a  microphone with a high sound collection or a pin microphone.  
+## PC，ホワイトボードや黒板を用いてオンライン化する
+ホワイトボードや黒板の前にPCをセッティングすることで，オンライン化ができます．
+この方法だと，必要な機材は，PC，ホワイトボードや黒板であり，あればより良いのは，集音性の高いマイクかピンマイクです．
 
-* Dr. Yoshihiro Kawahara of the Graduate School of Engineering summarizes the method with one PowerPoint slide. He also records what it looks like[\[Powerpoint\]](materials/online_example_1pc.pptx) [\[video(MPEG4)\]](materials/online_example_1pc.mp4)  
-* Dr. Hitoshi Aida of the Graduate School of Engineering has introduced this method on a video including how to set up a PC and a blackboard. He appears between 1:14:57 and 1:24:30 of[a video recording of a consultation meeting on teaching languages online, held on March 27, 2020](../events/2020-03-27/)（We will trim out the section of the video including his part anytime soon）.
+* 工学系研究科の川原圭博先生が，その方法をパワーポイント1枚でまとめてくださっています．また，実際にどのように見えるのかも動画として記録してくださっています[\[Powerpoint\]](materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](materials/online_example_1pc.mp4)  
+* 工学系研究科の相田仁先生が，そのセッティング方法を含めて動画でご紹介してくださっています．2020年3月27日に行われた[語学学習に特化したオンライン授業相談会](../events/2020-03-27/)の動画で，1:14:57～1:24:30 の間にご登場いただいたいおります（今後は当該部分を切り抜きなどしたいと考えております）
 
 <!--
 
