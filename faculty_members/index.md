@@ -137,7 +137,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 * 2020-03-31配布版ーこれだけマニュアル-自習で最低限のオンライン講義ができるようになる [\[PowerPoint(Google Drive)\]](https://drive.google.com/file/d/1u1lpIx56wkBRUL1LliV5rh0vcGiowv7g/view) (農学生命科学・田野井先生，中嶋先生)：「ECCSクラウドメール開設編」「ZOOM開設・設定編」「ZOOM利用編」「ITC-LMS利用編」「履修前の学生教員間情報共有編」「オムニバス講義編」とそれぞれのトピックに関する説明がコンパクトにわかりやすくまとまっている資料です．
 * 都市工学専攻・オンライン講義マニュアル [\[PDF\]](materials/online_lecture_20200331_2.pdf)  (工学系研究科・都市工学専攻) : 工学系研究科都市工学専攻でまとめられたオンライン講義マニュアルです．Zoom を用いて講義を行う一連の流れが記載されています．
 * オンライン講義の通信量 \[[Webページ](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F)\] (人文社会系・大向先生)：Zoom を用いた際の通信量を，講義時（画面共有），雑談時（カメラ映像），音声のみの講義時，参加者の発言を許可した時など場合分けして計測したデータが記載されています．
-
+* Eindhoven工科大学におけるZoom講義の一例 \[[PDF](materials/lecture_example_Technische_Universiteit_Eindhoven.pdf)\] (工学系・大西先生)：大西先生が実際に受けたEindhoven工科大学におけるZoom講義の感想が記載されています．講義の流れ，講師の運営体制，講義を受けた上での懸念点などが載っています．
 
 
 ## リンク集（随時募集中）
