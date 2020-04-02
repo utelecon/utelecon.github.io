@@ -76,13 +76,12 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
  * 2020年度4月に大学院や編入など, 他の学年の新入生になる予定の人, どのようにそのアカウントが発行されるかが, 入学する研究科や学科によって異なります. ともかく, UTokyo Account が入手でき次第, 以下の処理を行ってください.
  * **作業:** [初期パスワードを変更](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)してください. [手順動画](https://youtu.be/tTpAlqVhEXQ)
 1. **UTAS (学務システム):** 授業の内容(シラバス)を参照して受ける授業を選び, 履修の登録をしたり, 成績を見たりするのに使うシステムです. オンライン授業に関する情報も, このシステムを経由して得ることになるでしょう. 使うためにはUTokyo Accountが正しく設定されている必要があります.
- * **作業:**  [UTASにログイン](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main)し, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. <font color="red">UTASがログイン可能になるタイミングは自分の所属によって異なります. 新大学1年生はすでに可能です. すでに東大に在籍している人も可能です. 現在東大でない, 大学院入学予定の人は, 大学院からの連絡を待つか, 問い合わせをして下さい</font>
+ * **作業:**  [UTASにログイン](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main)し, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. <font color="red">4/2 今, UTASにログインできなかったら, ご自分の所属する学科や専攻にまずは問い合わせてください.</font>
 1. **ITC-LMS (学習管理システム):** 自分が履修した講義に関して, 課題が掲示されたり, 課題を提出したり, などの用途に使います. また, 講義資料がここにアップされたり, ここで出欠管理をする場合もあります. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 使うためにはUTokyo Accountが正しく設定されている必要があります. 授業期間が始まった後, 授業に関するお知らせがITC-LMSを経由して流れてくることが多くなります.
  * **作業:** ITC-LMS [学生向けページ](../lms_students/)の指示に従い, お知らせの通知先を設定して下さい. [手順動画](https://youtu.be/xAur5zar5Sc)
 1. **ECCSオンライン新規利用者講習:** 15分ほどのビデオで学内の端末室の使い方を学びます. これを後回しにして先に進んでもOKです. 今やる場合は, [オンライン新規利用者講習の受講方法](https://www.ecc.u-tokyo.ac.jp/onlineseminar.html)に従って受講し, パスして下さい.
 1. **Office 365 (Microsoft) と G Suite for Education (Google):** これらはレポートやプレゼンテーションの作成など, いろいろなことに使えます. 使うためにはUTokyo Accountが正しく設定されている必要があるのと, どちらも使い始める際にそれぞれのシステムの有効化を一度ずつ行う必要があります.
-  * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) から「Office 365 ProPlus利用許諾」に合意し, Office 365の有効化をして下さい ([手順動画](https://youtu.be/OYl5P67mDYI)). できたらExcelのBookを一つ作ってみて下さい([手順動画](https://youtu.be/PcHlb-t2Dr8))
-  * 新大学一年生へ注: 事前に郵送されていた文書の「情報サービスの利用設定手順」で, 「1-5については授業開始日までに完了しておきましょう。また、6 (注：Office 365のこと) についはライセンス契約上<font color="red">4/1以降</font>に設定してください。」という指示がありましたがそれは<font color="red">気にせず, すぐに作業をはじめて構いません(それを推奨します). </font>
+  * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) から「Office 365 ProPlus利用許諾」に合意し, Office 365の有効化をして下さい ([手順動画](https://youtu.be/OYl5P67mDYI)). このあと実際にExcelなどのアプリケーションが使えるようになるまで, 日中は最大3時間, 夜は翌朝11:00までお待ちください(正確には, 11:00, 14:00, 17:00, 20:00にこれまでの利用許諾が反映されます). できたらExcelのBookを一つ作ってみて下さい([手順動画](https://youtu.be/PcHlb-t2Dr8))
   * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (**手順動画作成中**).
   * **作業:** 上記が終わってから実際にG Suite for Education が使える(Googleにログインできる)ようになるまで, 最大1時間ほどお待ち下さい. 待ったら, ログインしてどんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい([手順動画](https://youtu.be/mVMPFpTuemY))
 
