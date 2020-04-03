@@ -18,7 +18,7 @@ title: 教材を置く
 
 ### 動画
 
-[![教材を置く](https://img.youtube.com/vi/c8EbJmp64aE/0.jpg)](https://www.youtube.com/watch?v=c8EbJmp64aE)
+[![教材を置く](https://img.youtube.com/vi/ykUV4ZU9QzY/0.jpg)](https://www.youtube.com/watch?v=ykUV4ZU9QzY)
 
 ### 画像
 
