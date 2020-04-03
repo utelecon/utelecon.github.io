@@ -4,7 +4,7 @@ title: 大学の Zoom アカウントの作り方
 
 ## お知らせ
 
-* Zoomアカウントの<a href="setting_issues">初期設定時のトラブルに関するFAQ</a>
+* **Zoomアカウントの<a href="setting_issues">初期設定時のトラブルに関するFAQ</a>**
 
 <!--
 * 授業を行うためにZoomの会議を<font color="green">開催する人</font>(またはそれを代行する人)は, <a href="create_account" target="">Zoomのアカウントのアクティベーション</a>が<font color="green">必要</font>です

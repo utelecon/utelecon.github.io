@@ -57,8 +57,8 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
 
 
-リンク集（随時追加中）
+参考情報
 ---------------------------
 
-* 教養学部・大学院総合文化研究科 講義オンライン化に関する情報サイト（学生向け情報）: <a href="https://komabataskforce.wixsite.com/forstudents" target="_blank">https://komabataskforce.wixsite.com/forstudents</a>  
-
+* [ご共有いただいた実践例・参考情報（随時募集中）](faculty_members#shared_materials)
+* [リンク集（教員用，随時追加中）](faculty_members#links)
