@@ -58,6 +58,8 @@ User TypeがLicensedではなくBasicになってしまっている
   * [Zoomホームページ](https://zoom.us/) にアクセス
   * MY ACCOUNT でプロフィールを見て, Sign-In Emailが10桁の共通ID@g.ecc.u-tokyo.ac.jp となっていることを確認する
   * その場合, User Type が Licensed, 容量 (Capacity) が Meeting 500, Webinar 500と表示されるはずである
+  * 「アカウントプロフィール」の画面では**無料トライアル**と表示されますが, 問題ありません
+  ![](img/zoom_accountprofile.png)
 <!-- * **** そうなっていなかったら **** (例えばZoomに登録していない状態で10桁@g.ecc.u-tokyo.ac.jp でサインアップしちゃったら?) -->
 * 他のアカウントでサインインしていた場合, 一旦サインアウトして, 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインし直して下さい
 * 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインできなければ, <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">ここに書いてある対処</a>でアクティベート出来るかも知れません
