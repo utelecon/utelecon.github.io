@@ -119,6 +119,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
   * Google Drive の使い方
   * One Drive の使い方
 
+<a name="shared_materials"> </a>
 ## ご共有いただいた実践例・参考情報（随時募集中）
 
 ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  
@@ -140,6 +141,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 * Eindhoven工科大学におけるZoom講義の一例 \[[PDF](materials/lecture_example_Technische_Universiteit_Eindhoven.pdf)\] (工学系・大西先生)：大西先生が実際に受けられたEindhoven工科大学におけるZoom講義の感想が記載されています．講義の流れ，講師の運営体制，講義を受けた上での懸念点などが載っています．
 
 
+<a name="links"> </a>
 ## リンク集（随時募集中）
 
 * [農学生命科学研究科・農学部 オンライン授業ページ](https://www.a.u-tokyo.ac.jp/online_lectures/)
