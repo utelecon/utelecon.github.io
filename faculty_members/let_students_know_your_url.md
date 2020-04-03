@@ -1,5 +1,5 @@
 
-授業URLの通知の仕方 〜 授業で教員と学生た混乱なく出会うための共通ルール
+授業URLの通知の仕方 〜 授業で教員と学生が混乱なく出会うための共通ルール
 =========================================
 
 How to let your students know your online class URL -- Ground rules to safely meet instructors and students
