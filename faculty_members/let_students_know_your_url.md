@@ -42,9 +42,7 @@ How to let your students know your online class URL -- Ground rules to safely me
 * <font color="red">4/3 UTASが多数のユーザからの同時アクセスに耐えられないという問題がある.</font> 増強を進めているがUTASへの負荷を減らすこと自体も必要になっている. 従ってITC-LMSを用いた以下の方法1が出来る教員にはそれを推奨する. 何週かして授業に参加するメンバーが固定され, 安全かつ漏れのない情報共有の手段が, 教員と学生の間で確立されればやり方は柔軟で良い(その場合でもITC-LMSを用いた方法は, 大概の他の方法より優れている. やり方の詳細は以降本ページに記します).
 
   1. ITC-LMS上の「お知らせ」欄に詳細な情報を記載し，そのウェブページURLを，UTASの**オンライン授業URL**の欄に記載する. 受講登録していなければ，リンクをクリックすると受講登録画面に誘導され，登録することによりその授業内のページが見られるようになる ([教員の手順](https://youtu.be/hKlQPODT8DQ)).
-
 <!-- iframe width="560" height="315" src="https://youtu.be/hKlQPODT8DQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-
   1. (ITC-LMSを使わない先生向け) UTASの他の欄 (例: 授業シラバス -> 詳細情報 -> 「備考」)にテキストとして書く. 「オンライン授業URL」欄には，どこの欄に記載があるか明確に示す．
 
 
