@@ -7,7 +7,7 @@ How to let your students know your online class URL -- Ground rules to safely me
 
 
 学生の基本 / Basics for Students
-=========================================
+--------------------------------------------
 
 * 必ず
   1. UTASの授業シラバス -> **「詳細情報」** -> **「オンライン授業URL」**を見て ([手順](https://youtu.be/J9dnXmFiIcI)) 聴講する授業に参加する
@@ -26,6 +26,7 @@ How to let your students know your online class URL -- Ground rules to safely me
 これら手順はすべて, [新入生・在学生のための, オンライン授業を受けるための準備](../../oc/)に説明している.
  
 教員の基本 / Basics for Instructors
+--------------------------------------------
 
 1. UTASの授業シラバス -> **「詳細情報」** -> **「オンライン授業URL」**欄にURLを書き込む
 <!--1. UTASで教員の連絡先を登録する. 個別に連絡を取りたがっている学生がいるかも知れないことに常に注意を払う.-->
