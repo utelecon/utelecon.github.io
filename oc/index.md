@@ -82,7 +82,7 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 1. **ECCSオンライン新規利用者講習:** 15分ほどのビデオで学内の端末室の使い方を学びます. これを後回しにして先に進んでもOKです. 今やる場合は, [オンライン新規利用者講習の受講方法](https://www.ecc.u-tokyo.ac.jp/onlineseminar.html)に従って受講し, パスして下さい.
 1. **Office 365 (Microsoft) と G Suite for Education (Google):** これらはレポートやプレゼンテーションの作成など, いろいろなことに使えます. 使うためにはUTokyo Accountが正しく設定されている必要があるのと, どちらも使い始める際にそれぞれのシステムの有効化を一度ずつ行う必要があります.
   * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) から「Office 365 ProPlus利用許諾」に合意し, Office 365の有効化をして下さい ([手順動画](https://youtu.be/OYl5P67mDYI)). このあと実際にExcelなどのアプリケーションが使えるようになるまで, 日中は最大3時間, 夜は翌朝11:00までお待ちください(正確には, 11:00, 14:00, 17:00, 20:00にこれまでの利用許諾が反映されます). できたらExcelのBookを一つ作ってみて下さい([手順動画](https://youtu.be/PcHlb-t2Dr8))
-  * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (**手順動画作成中**).
+  * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい ([手順動画](https://youtu.be/geDmW6XVMjY)).
   * **作業:** 上記が終わってから実際にG Suite for Education が使える(Googleにログインできる)ようになるまで, 最大1時間ほどお待ち下さい. 待ったら, ログインしてどんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい([手順動画](https://youtu.be/mVMPFpTuemY))
 
 注意してほしいのは, MicrosoftもGoogleも, すでに自分で使っているという人もいるとおもいますが, そういう人も**大学のアカウントで使えるように**しないといけないということです. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, そういう場合, 普段使っているGoogleやMicrosoftのアカウントでログインしている状態では見られない, ということになり得るのです.
