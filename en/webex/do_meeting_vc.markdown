@@ -3,21 +3,21 @@ title: What is possible with Webex Meetings?（Instructors and Participants from
 layout: en
 ---
 
-* ここでは会議の開催者・参加者や授業をする教員ができることについて説明します．
-* ブラウザや，デスクトップアプリ，タブレット・スマートホンアプリで開催するときよりも機能は限定されます．
+* In this section, we will explain what the host / participants of the meeting and the teachers can do in class.
+* The functions are more limited than when using a browser, desktop application, or tablet / smartphone application.
 
-## 授業で使える便利な機能
+## Useful functions that can be used in class
 
-### コンテンツ共有
+### Sharing Contents
 
-* テレビ会議システムからコンテンツ共有を開始すると，Webexで参加している開催者・参加者にもコンテンツが共有されます．
-* Webexで参加している開催者・参加者からコンテンツの共有がおこなわれると，テレビ会議システムからの開催者・参加者にもコンテンツが共有されます．
+* When you start sharing contents from the video conferencing system, the content is also shared with the host / participants on Webex.
+* When the content is shared from the host / participants on Webex, the content is also shared with the host / participants from the video conference system.
 
-### ミュートの設定・解除
+### Mute / Unmute Settings
 
-* **テレビ会議システムのミュート設定（テレビ会議システムからWebexに音声を送るかどうか）のほかに，Webex側でテレビ会議システムをミュートすることが可能です．**
-* 主催者側で「全員をミュート」などをやると，Webex側でテレビ会議システムがミュートになります．
-* テレビ会議システムからこのミュートを設定・解除するには，ダイヤルパッドで「*6」を入力します．
+* **In addition to the mute setting on the video conference system (whether the audio is sent from the video conference system to Webex), it is possible to mute the video conference system on Webex.**
+* If the host presses "Mute all", Webex will mute the video conferencing system.
+* To set / cancel the mute from the video conference system, enter "* 6" with the dial pad.
 
 
 
@@ -26,7 +26,7 @@ layout: en
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Go back to How to Use WeBex</a>
 
 
 
