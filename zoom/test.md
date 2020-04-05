@@ -148,3 +148,10 @@ UTokyo Accountのアカウント番号@utac.u-tokyo.ac.jp
 * <font color="blue">3/20</font> 少し頑張っても問題が解決しないとか, このページに間違いがあるのでは? と思ったら, [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) へメールをお送りください. その際, 新入生か, 在校生(その場合学年, 学科, 専攻など)か, (a) どのステップで, (b) 自分が何をしたら, (c) どんな結果になったか, を含めて下さい(「できませんでした」というだけの情報だとこちらで問題がわからない場合が多いです).
 
 * チャットなどでもヘルプを求める手段を準備しています. 少々お待ち下さい.
+
+<script>
+  window._slaaskSettings = {
+    key: "spk-00bfdb3c-7564-4831-986b-36c1f77add27",
+  };
+</script>
+<script src="https://cdn.slaask.com/chat_loader.js" async="true"></script>       
