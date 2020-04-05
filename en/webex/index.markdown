@@ -14,27 +14,27 @@ layout: en
 * This page basically describes the use of Webex on a PC, but you can also use Webex application on tablets and smartphones. 
 * Reference：[UTokyo 90 Days Cisco Webex](https://www.u-tokyo.ac.jp/adm/dics/ja/90dayswebex.html)
 
-### Webexサービスについて
+### Webex services
 
-* Webexは，一般的には**Webex Meetings**が使われていますが，ほかにも**Webex Training**，**Webex Events**，**Webex Support**の全部で４種類があります．それぞれ長短があります．
-	* [詳細な比較はこちらから](https://www.cisco.com/c/ja_jp/products/conferencing/product_comparison.html)
+* Webex offers 4 services: **Webex Meetings** (often used)，**Webex Training**，**Webex Events**，**Webex Support**. Each service has strengths and weaknesses.
+	* [Comparison between Webex services](https://www.cisco.com/c/ja_jp/products/conferencing/product_comparison.html)
 
 * **Webex Meetings**
-	* 最大参加者数は1,000．うちテレビ会議システムからの接続最大200を含む．
-	* **テレビ会議システム（いわゆるPolycom等）からの接続が可能．**
-	* 参加者同士が同じ立場で，双方向でやりとりのある会議等に使われることが多い．
+	* A Maximum of 1000 participants, including 200 participants who connect TV conference systems (i.e., Polycom etc.)  
+	* **Webex Meetings can connect TV conference systems（i.e. Polycom etc.）.**
+	* Webex Meetings is most likely to avail at meetings which communicate among participants interactively.
 * **Webex Training**
-	* 最大参加者数は1,000．
-	* **ブレイクアウトセッションをおこなうことができる．**
-	* ブレイクアウトセッションが必要なインタラクティブな講義等に使われることが多い．
+	* A Maximum of 1000 participants can connect simultaneously.
+	* **Like Zoom, organizers can create breakout sessions.**
+	* Webex Training is most likely to use classes which aimed to create breakout session.
 * **Webex Events**
-	* 最大参加者数は1,000．
-	* **プレゼンターはテレビ会議システム（いわゆるPolycom等）からの接続が可能．**
-	* 1対nで，nが25を超えるような中～大規模なイベント等に用いられる．
+	*  A Maximum of 1000 participants can connect simultaneously.
+	* **Presenters can connect through TV conference systems．**
+	* Webex Events is most likely to be used for presentations(e.g., 1 speaker and over 25 participants in audience).
 * Webex Support
-	* 1セッション5名，同時最大8セッション開催可能
-	* タブレット・スマートホンは不可．
-	* 基本的に1:1のITサポートに用いられる．
+	* 5 participants for 1 session. You can hold 8 sessions at the same time. 
+	* Tablets and smartphones are not compatible.
+	* Webex Support is most likely to be used for 1 on 1 support sessions.
 
 ## Webexサービスを利用するための事前準備
 {% comment %}
