@@ -38,7 +38,7 @@ Available Web conferencing system
 The following system is available to all members (students and faculty). 
 
 * <a href="zoom/">Zoom</a>
-* <a href="google_hangouts_meet/">GoogleハングアウトMeet</a>
+* <a href="google_hangouts_meet/">Google Hangouts Meet</a>
 * <a href="webex/">WebEx</a>
 * <a href="compare">Comparison of 3 tools</a>
 
