@@ -116,7 +116,7 @@ layout: en
 		* <a href="do_events" target="_blank">What is possible with Webex Events?（for Instructors・Participants)</a>
 		* <a href="do_events_host" target="_blank">What is possible with Webex Events?（for Instructors)</a>
 
-	* <a href="join_events_vc" target="_blank">テレビ会議システムでパネリストとして参加します</a> **6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．パネリストとしての参加しかできません．**
+	* <a href="join_events_vc" target="_blank">Join as a pannelist in TV conferences</a> **Webex Meetings and participation as a pannelist via ECCS Cloud Mail are not available until 8th June.**
 
 * Participants
 	1. Obtain  meeting room information (URL, etc.) from the organizer using e-mail etc.
