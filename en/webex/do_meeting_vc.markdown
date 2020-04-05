@@ -1,5 +1,6 @@
 ---
-title: Webex 会議室でできること（テレビ会議システムからの開催者・参加者）
+title: What is possible with Webex Meetings?（Instructors and Participants from TV conference systems）
+layout: en
 ---
 
 * ここでは会議の開催者・参加者や授業をする教員ができることについて説明します．
