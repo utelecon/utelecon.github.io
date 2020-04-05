@@ -1,5 +1,6 @@
 ---
-title: Web会議 Webex の使い方
+title: How to use Webex
+layout: en
 ---
 
 
