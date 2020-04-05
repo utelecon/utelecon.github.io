@@ -1,5 +1,6 @@
 ---
-title: Webex 会議への参加 （テレビ会議システム）
+title: How to join Webex Meetings （TV conference systems）
+layout: en
 ---
 
 ## テレビ会議システムで会議に参加する
