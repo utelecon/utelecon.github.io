@@ -36,7 +36,7 @@ layout: en
 	* Tablets and smartphones are not compatible.
 	* Webex Support is most likely to be used for 1 on 1 support sessions.
 
-## Webexサービスを利用するための事前準備
+## Before using Webex service
 {% comment %}
 * PC，タブレット，スマートフォンなど接続用デバイスを用意します．
 	* マイクやカメラが内蔵されていない場合はそれらも用意します．
@@ -45,26 +45,26 @@ layout: en
 	* 従量課金だと通信料の高額請求につながる恐れがあります．
 	* 基本的には，接続しているインターネット環境に応じて画質等が自動的に変更され，あらゆる帯域の環境でも利用できますが，YouTubeがスムーズに見れないほどの厳しい環境では利用は厳しいかも知れません．
 {% endcomment %}
-* 開催者
-	1. デスクトップアプリやアプリを接続用デバイスへインストールします．
-		* <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
-		* Webex Meetingsの場合には，アプリケーションがインストールできない場合はWebブラウザ（FirefoxまたはGoogle Chromeを推奨）でも利用可能ですが，一部機能が制限されます．
-	1. ECCSクラウドメールを有効化します（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">詳細</a>）
-	1. WebExアカウントを作成します（<a href="create_webex_account" target="_blank">詳細</a>）
-* 参加者
-	1. デスクトップアプリやアプリを接続用デバイスへインストールします．
-		* <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
-		* Webex Meetingsの場合には，アプリケーションがインストールできない場合はWebブラウザ（FirefoxまたはGoogle Chromeを推奨）でも利用可能ですが，一部機能が制限されます．
+* Organizers 
+	1. Prepare connection devices such as PC, tablet and smartphone
+		* Download <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex</a>
+		* If you can not install the application of Webex Meetings, you can use Webex Meetings web browser instead  (Firefox or Google Chrome is preferred), although Some functions are limited．
+	1. Activate ECCS cloud mail（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">details</a>）
+	1. How to create WebEx account（<a href="create_webex_account" target="_blank">details</a>）
+* Participants
+	1. Prepare connection devices such as PC, tablet and smartphone
+		* Download <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex</a>.
+		* If you can not install the application of Webex Meetings, you can use Webex Meetings web browser instead  (Firefox or Google Chrome is preferred), although Some functions are limited．
 
-## Webex Meetings利用の流れ
+## How to use Webex Meetings
 
-* 開催者
-	1. WebExにログインします（<a href="create_webex_account" target="_blank">詳細</a>）
-	1. 会議室を設定します（<a href="create_meeting" target="_blank">詳細</a>）
-	1. 会議を開きます（<a href="open_meeting" target="_blank">詳細</a>）
-		* **会議を開始するためには，開催者が明示的に「開始」する必要があります．**
-		* <a href="do_meeting" target="_blank">会議室でできること（開催者・参加者）</a>
-		* <a href="do_meeting_host" target="_blank">会議室でできること（開催者）</a>
+* Organizers
+	1. Log in WebEx（<a href="create_webex_account" target="_blank">details</a>）
+	1. Create and share a conference room（<a href="create_meeting" target="_blank">details</a>）
+	1. Start the meeting（<a href="open_meeting" target="_blank">details</a>）
+		* **In order to start the meeting, organizers must start the meeting.**
+		* <a href="do_meeting" target="_blank">What can be done with Webex Meetings?（for Instructors・Participants）</a>
+		* <a href="do_meeting_host" target="_blank">What  can Webex Meetings do （for Instructors）</a>
 {% comment %}
 		* 授業での使い方
 			* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
@@ -73,14 +73,14 @@ layout: en
 			* <a href="classroom_record" target="">［レコーディング］授業を録画する</a>執筆中
 {% endcomment %}
 
-	* <a href="open_meeting_vc" target="_blank">テレビ会議システムで会議を開きます</a> **6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．**
-		* <a href="do_meeting_vc" target="_blank">会議室でできること（テレビ会議システムからの開催者・参加者）</a>
+	* <a href="open_meeting_vc" target="_blank">Holding TV system conferences</a> **You cannot use Webex Meetings based on ECCS cloud mail until June 8th 2020.．**
+		* <a href="do_meeting_vc" target="_blank">What can be done with Webex Meetings?（Instructors and Participants from TV conference systems）</a>
 {% comment %}
 		* 授業での使い方	
 			* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>	
 {% endcomment %}
 
-* 参加者
+* Participants
 	1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます．
 	1. 会議室へ入ります（<a href="join_meeting" target="_blank">詳細</a>）
 		* 開催者が会議を開始していない場合，会議の情報が表示されるだけで，会議室へは入れません．
