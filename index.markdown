@@ -33,7 +33,8 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 ---------------------------
 
 * [新入生・在学生のための, オンライン授業を受けるための準備](oc)
-* [教員のためのオンライン授業を行うにあたって](faculty_members)
+* [教員のための、オンライン授業を行うにあたって](faculty_members)
+  * [（教員向け）学習管理システム ITC-LMS の使い方](lms_lecturers)
 * [授業URLの通知の仕方 〜 授業で教員と学生た混乱なく出会うための共通ルール](faculty_members/let_students_know_your_url)
 * [FAQ: よくある質問](faq)
 
