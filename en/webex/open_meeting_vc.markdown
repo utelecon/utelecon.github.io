@@ -1,5 +1,6 @@
 ---
-title: Webex 会議の開始 （テレビ会議システム）
+title: How to start Webex Meetings （TV conference systems）
+layout: en
 ---
 
 ## テレビ会議システムで会議を開始する
