@@ -1,5 +1,6 @@
 ---
-title: Webex 会議への参加
+title: How to join Webex Meetings
+layout: en
 ---
 
 ## 会議へ参加する
