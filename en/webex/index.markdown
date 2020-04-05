@@ -63,8 +63,8 @@ layout: en
 	1. Create and share a conference room（<a href="create_meeting" target="_blank">details</a>）
 	1. Start the meeting（<a href="open_meeting" target="_blank">details</a>）
 		* **In order to start the meeting, organizers must start the meeting.**
-		* <a href="do_meeting" target="_blank">What can be done with Webex Meetings?（for Instructors・Participants）</a>
-		* <a href="do_meeting_host" target="_blank">What  can Webex Meetings do （for Instructors）</a>
+		* <a href="do_meeting" target="_blank">What is possible with Webex Meetings?（for Instructors・Participants）</a>
+		* <a href="do_meeting_host" target="_blank">What is possible with Webex Meetings?（for Instructors）</a>
 {% comment %}
 		* 授業での使い方
 			* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
@@ -74,39 +74,39 @@ layout: en
 {% endcomment %}
 
 	* <a href="open_meeting_vc" target="_blank">Holding TV system conferences</a> **You cannot use Webex Meetings based on ECCS cloud mail until June 8th 2020.．**
-		* <a href="do_meeting_vc" target="_blank">What can be done with Webex Meetings?（Instructors and Participants from TV conference systems）</a>
+		* <a href="do_meeting_vc" target="_blank">What is possible with Webex Meetings?（Instructors and Participants from TV conference systems）</a>
 {% comment %}
 		* 授業での使い方	
 			* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>	
 {% endcomment %}
 
 * Participants
-	1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます．
-	1. 会議室へ入ります（<a href="join_meeting" target="_blank">詳細</a>）
-		* 開催者が会議を開始していない場合，会議の情報が表示されるだけで，会議室へは入れません．
-		* <a href="do_meeting" target="_blank">会議室でできること（開催者・参加者）</a>
+	1. Obtain  meeting room information (URL, etc.) from the organizer using e-mail etc.
+	1. Enter the meeting room（<a href="join_meeting" target="_blank">details</a>）
+		* If organizers do not start the meeting, participants cannot enter the meeting room and may only see information of the meetings. 
+		* <a href="do_meeting" target="_blank">What is possible with Webex Meetings?（for Instructors・Participants)</a>
 
-	* <a href="join_meeting_vc" target="_blank">テレビ会議システムで会議室へ入ります</a> **6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．**
-		* 開催者が会議を開始していない場合，会議室に入れずにテレビ会議が切断されます．
-		* <a href="do_meeting_vc" target="_blank">会議室でできること（テレビ会議システムからの開催者・参加者）</a>
+	* <a href="join_meeting_vc" target="_blank">Enter TV system conference</a> **You cannot use Webex Meetings based on ECCS cloud mail until June 8th 2020.．**
+		* If organizers do not start the meeting, participants cannot enter the meeting room and TV meeting is shut down．
+		* <a href="do_meeting_vc" target="_blank">What is possible with Webex Meetings?（Instructors and Participants from TV conference systems）</a>
 
-## Webex Training利用の流れ
+## How to use Webex Training
 
-* 開催者
-	1. WebExにログインします（<a href="create_webex_account" target="_blank">詳細</a>）
-	1. トレーニングを設定します（<a href="create_training" target="_blank">詳細</a>）
-	1. トレーニングを開始します（<a href="open_training" target="_blank">詳細</a>）
-		* **トレーニングを開始するためには，開催者が明示的に「開始」する必要があります．**
-		* <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
-		* <a href="do_training_host" target="_blank">トレーニングでできること（開催者）</a>
+* Instructors
+	1. Log in WebEx（<a href="create_webex_account" target="_blank">details</a>）
+	1. Set the training session（<a href="create_training" target="_blank">details</a>）
+	1. Start the training（<a href="open_training" target="_blank">details</a>）
+		* **Organizers must press "start the training."．**
+		* <a href="do_training" target="_blank">What is possible with Webex Training?（for Instructors・Participants)</a>
+		* <a href="do_training_host" target="_blank">What is possible with Webex Training?（for Instructors)</a>
 
-* 参加者
-	1. トレーニングの情報（URLなど）をメールなどを用いて開催者から得ます．
-	1. トレーニングに参加します（<a href="join_training" target="_blank">詳細</a>）
-		* 開催者がトレーニングを開始していない場合，情報が表示されるだけで，会議室へは入れません．
-		* <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
+* Participants
+	1. Obtain  meeting room information (URL, etc.) from the organizer using e-mail etc.
+	1. Enter the meeting room（<a href="join_training" target="_blank">details</a>）
+		* If organizers do not start the meeting, participants cannot enter the meeting room and may only see information of the meetings. 
+		* <a href="do_training" target="_blank">What is possible with Webex Training?（for Instructors・Participants)</a>
 
-## Webex Events利用の流れ
+## How to use Webex Events
 
 * 開催者
 	1. WebExにログインします（<a href="create_webex_account" target="_blank">詳細</a>）
