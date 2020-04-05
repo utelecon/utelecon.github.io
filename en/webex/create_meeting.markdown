@@ -1,5 +1,6 @@
 ---
-title: 会議室を作成する
+title: How to set the meeting room
+layout: en
 ---
 
 ## 会議室を作成する
