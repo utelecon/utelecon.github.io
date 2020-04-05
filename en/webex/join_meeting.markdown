@@ -3,21 +3,23 @@ title: How to join Webex Meetings
 layout: en
 ---
 
-## 会議へ参加する
-* 開催者から送られてきたメールにある「ミーティングに参加」をクリックすると，デフォルトのブラウザが開き，Webex Meetingsアプリが起動します．
-* 名前の入力を進むとプレビュー画面に移行します．
+## Join a meeting
+* Clicking "Join a meeting" in the email sent by the host will open your default browser and launch the Webex Meetings app.
+* The screen will move to the preview screen as you enter your name.
 
 	 ![プレビュー画面](img/webex_meeting_preview.png){:width="500px"}
 
-* 右下で，オーディオ，マイク，カメラの設定を行います．ヘッドセットを装着する場合など，どの機材でオーディオやマイクを使うのかの設定切り替えをここで行います．ここでうまくいかなくても，ミーティングに参加してからでも変更できます．
-	 * プレビュー画面に何もうつっていない場合には，カメラが認識されていない可能性がありますので，右下にあるカメラ設定を確認します．
-	 * マイクがうまく聞こえるかどうかをここで確認しておきます．音を出したときマイクの下のインジケータに反応があれば音をひろえています．
-* 画面内にあるマイクとビデオのボタンは， それぞれ，ミュートの解除・設定とビデオ停止・開始を行います．デフォルトは音が聞こえ，ビデオがうつっている状態です．
-* ここで「ミーティングに参加」を押すと会議に参加することができます．開催者の場合は会議を開始することができます．
-* 開催者が開催していない場合には時間を過ぎている場合であっても参加することができません．（開催者が開始前に入室可能という設定をすることもできます．）
+* Set the audio, microphone and camera settings in the lower right section of the preview screen. Here, you can change the settings of the equipment to use the audio and microphone. Even if you cannot correctly change the setting, you can change it after joining the meeting.
+
+	 * If there is nothing on the preview screen, your PC may fail to recognize your camera. Check the camera settings at the lower right.
+	 * Check if the microphone sounds good. If the indicator below the microphone responds when you make a sound, the microphone is picking up the sound.
+* The microphone and video buttons on the screen allow you to unmute / mute your microphone and stop / start a video. Microphone and video are on by the default setting.
+* You can join the meeting by selecting "Join meeting". If you are the host, you can start the meeting.
+* If the host has not started the meeting yet, you will not be able to participate even if the time has run over the starting time (the host can change the setting to allow participants to join before the host).
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
-<a href="meeting_participant" target="_blank">会議でできること（参加者）をみる</a>
-<a href="meeting_owner" target="_blank">会議でできること（開催者）をみる</a>
+<a href="index" target="_blank">Return to How to Use WeBex</a>
+<a href="meeting_participant" target="_blank">See What is possible with WeBex Meetings?（for Participants）</a>
+<a href="meeting_owner" target="_blank">See What is possible with WeBex Meetings?（for 
+Instructors）</a>
