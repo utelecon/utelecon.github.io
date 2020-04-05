@@ -3,13 +3,13 @@ title: How to start Webex Meetings （TV conference systems）
 layout: en
 ---
 
-## テレビ会議システムで会議を開始する
-1. テレビ会議システムから 210.4.202.4 にコールします
-1. ミーティング番号を入力するようアナウンスが流れるので，<a href="create_meeting" target="">会議室を設定します</a>で作成したミーティング番号を入力し，最後に # を入力します
-1. 会議が開始されていない場合は，主催者キーの入力を求めるアナウンスが流れます．<a href="create_meeting" target="">会議室を設定します</a>で生成された主催者キーを入力して，最後に # を入力します
-	* 主催者キーを入力することで，会議を「開始」することになります．
+## How to Start the Meeting of TV Conference systems
+1. Call 210.4.202.4 through TV conference systems.
+1. You may hear the announcement to fill in the meeting number and you then press the meeting number <a href="create_meeting" target="">created for the Webex Meeting</a>. After pressing the meeting number, please press #.
+1.  If you fail to start the meeting, you may hear the announcement to ask the organizers' key number. In that case, input the organizers' key for <a href="create_meeting" target="">setting the Webex Meeting</a>. After pressing the meeting number, please press #.
+	* Input the organizers' key and the meeting starts.
 
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Back to How to Use WeBex</a>
