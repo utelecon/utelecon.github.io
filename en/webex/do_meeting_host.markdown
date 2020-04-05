@@ -41,47 +41,47 @@ layout: en
 
 	![自動録画](img/webex_meeting_auto_record.png){:width="400px"}
 
-* 録画された動画ファイルは，MP4形式で自動的に保存され，ホーム画面の録画メニューの領域に保存されます．ダウンロードすることもできますし，共有するためのパスワード付きのリンク（URL）を取得することもできます．
+* Recorded video files are automatically saved in MP4 format and saved in the recording menu area on the home screen. You can download it or you can get a link (URL) with a password to share.
 
 	![録画メニュー](img/webex_meeting_record_1.png){:width="400px"}
 	![録画一覧](img/webex_meeting_record_2.png){:width="700px"}
 
-### 主催者を取り戻す
+### Return as the "Host"
 
-* 主催者がネットワークトラブル等で切断してしまうと，他の参加者に主催者が移ります．
-* そんなときは，参加者として再度参加後，「参加者」メニューから「主催者の役割を取り戻す」を押し，会議を作成したときに表示されている「主催者キー」を入力すると，主催者に戻ることができます．
+* If the host disconnects from the meeting due to network trouble, etc., the role of the  "Host" will be assigned to another participant.
+* In that case, after re joining as a participant, press "Regain the role of the host" from the "Participant" menu and enter the "Host Key" that was displayed when the meeting was created. Then, you can reassume the role as the "Host."
 
 	![](img/webex_participants_regain_host.png){:width="300px"}
 
-* 会議のスケジュール時に「スケジューリングオプション」の中の「主催者より先に参加」を設定しておくと，主催者が会議を開始していなくても参加者は会議室に入ることができます．ここで参加者が「主催者の役割を取り戻す」をすると，主催者になって会議を進めることができるようになります．
+* If you set "Join before host" in "Scheduling options" when scheduling a meeting, participants can enter the meeting room before the host has started the meeting. If the participant does "Regain the role of the host" here, it becomes possible for the participant to become the "Host" and proceed with the conference.
 
 	![](img/webex_meetings_join_before_host.png){:width="700px"}
 
-### 出席者
+### Participants
 
-* 会議に参加した人と時間の記録をダウンロードすることができます．
-* 会議が終了してから出席者のレポートが生成されるまでには時間がかかります．
+* You can download a record of who attended the meeting at what time.
+* It will take some time after the meeting ends for the report of the attendees to be generated.
 
-1. ホーム画面の「分析」から，右上の「すべて表示」をクリックします．
+1. From "Analysis" on the home screen, click "Show all" on the upper right.
 ![](img/webex_participants_list_1.png){:width="700px"}
-1. 「使用レポート」をクリックします．
+1. Click on "Usage Report".
 ![](img/webex_participants_list_2.png){:width="500px"}
-1. 開催した会議を検索します．日付や議題を入力し，「レポートを表示」をクリックします．
+1. Search for the meeting you held. Enter the date and agenda and click "View Report".
 ![](img/webex_participants_list_3.png){:width="500px"}
-1. 会議の一覧が表示されます．このときに，「使用要約レポート（暫定版）」に表示されている場合は，まだちゃんとしたレポートが生成されていません．「使用要約レポート（最終版）」に表示されるようになるのをお待ちください．議題の所をクリックします．
+1. A list of meetings will be displayed. If it is displayed in the "Usage summary report (provisional version)", a proper report has not been generated yet. Please wait for it to be displayed in the “Usage Summary Report (final version)”. Click on the agenda name.
 ![](img/webex_participants_list_4.png){:width="500px"}
-1. 参加者の出席の様子がリスト表示されます．また，「レポートのエクスポート」をクリックすると，表示されている内容がCSVファイルでダウンロードできます．
+1. A list of participants' attendance will be displayed. Click "Export Report" to download the displayed content as a CSV file.
 ![](img/webex_participants_list_5.png){:width="700px"}
 
-## 授業で使う場合にWebex Meetingsができないこと
+## What Webex Meetings cannot do 
 
-* グループへの分割機能をもっていないため，グループワークができません．グループ活動をしてもらいたいときには，<a href="https://utelecon.github.io/zoom/ZOOM" target="_blank">ZOOM</a>やWebex Trainingをおすすめします．
+* It is not possible to conduct group work on WebEx because it does not have the function to divide participants into groups. If you want to do group activities, we recommend ，<a href="https://utelecon.github.io/zoom/ZOOM" target="_blank">ZOOM</a> or Webex Training.
 
 
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Return to "How to use WebEx"</a>
 
 
 
