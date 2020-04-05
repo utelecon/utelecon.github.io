@@ -108,21 +108,21 @@ layout: en
 
 ## How to use Webex Events
 
-* 開催者
-	1. WebExにログインします（<a href="create_webex_account" target="_blank">詳細</a>）
-	1. イベントを設定します（<a href="create_events" target="_blank">詳細</a>）
-	1. イベントを開始します（<a href="open_events" target="_blank">詳細</a>）
-		* **イベントを開始するためには，開催者が明示的に「開始」する必要があります．**
-		* <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
-		* <a href="do_events_host" target="_blank">イベントでできること（開催者）</a>
+* Instructors
+	1. Log in WebEx（<a href="create_webex_account" target="_blank">details</a>）
+	1. Set the event（<a href="create_events" target="_blank">details</a>）
+	1. Start the event（<a href="open_events" target="_blank">details</a>）
+		* **Organizers must press "start the event".**
+		* <a href="do_events" target="_blank">What is possible with Webex Events?（for Instructors・Participants)</a>
+		* <a href="do_events_host" target="_blank">What is possible with Webex Events?（for Instructors)</a>
 
 	* <a href="join_events_vc" target="_blank">テレビ会議システムでパネリストとして参加します</a> **6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．パネリストとしての参加しかできません．**
 
-* 参加者
-	1. イベントの情報（URLなど）をメールなどを用いて開催者から得ます．
-	1. イベントに参加します（<a href="join_events" target="_blank">詳細</a>）
-		* 開催者がイベントを開始していない場合，情報が表示されるだけで，会議室へは入れません．
-		* <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
+* Participants
+	1. Obtain  meeting room information (URL, etc.) from the organizer using e-mail etc.
+	1. Enter the event（<a href="join_events" target="_blank">details</a>）
+		* If organizers start the event, you cannot enter the meeting room and can only see information of the event.
+		* <a href="do_events" target="_blank">What is possible with Webex Events?（for Instructors)</a>
 
 {% comment %}
 ## 授業の例
@@ -131,29 +131,29 @@ layout: en
 
 {% endcomment %}
 ## サブページ一覧
-* <a href="create_webex_account" target="_blank">Webex アカウントの作成とログイン</a>	
+* <a href="create_webex_account" target="_blank">How to Log in and Create an UTokyo Webex account</a>	
 
-* <a href="create_meeting" target="_blank">会議室を作成する</a> 
-* <a href="open_meeting" target="_blank">Webex 会議の開始</a> 
-* <a href="open_meeting_vc" target="_blank">Webex 会議の開始 （テレビ会議システム）</a> 
-* <a href="join_meeting" target="_blank">Webex 会議への参加</a> 
-* <a href="join_meeting_vc" target="_blank">Webex 会議への参加 （テレビ会議システム）</a> 
-* <a href="do_meeting" target="_blank">Webex 会議室でできること（開催者・参加者）</a> 
-* <a href="do_meeting_vc" target="_blank">Webex 会議室でできること（テレビ会議システムからの開催者・参加者）</a>
-* <a href="do_meeting_host" target="_blank">Webex 会議室でできること（開催者）</a> 
+* <a href="create_meeting" target="_blank">How to set the meeting room</a> 
+* <a href="open_meeting" target="_blank">How to start Webex Meetings</a> 
+* <a href="open_meeting_vc" target="_blank">How to start Webex Meetings  （TV conference systems）</a> 
+* <a href="join_meeting" target="_blank">How to join Webex Meetings</a> 
+* <a href="join_meeting_vc" target="_blank">How to join Webex Meetings （TV conference systems）</a> 
+* <a href="do_meeting" target="_blank">What is possible with Webex Meetings?（for Instructors・Participants)</a> 
+* <a href="do_meeting_vc" target="_blank">What is possible with Webex Meetings?（Instructors and Participants from TV conference systems）</a>
+* <a href="do_meeting_host" target="_blank">What is possible with Webex Meetings?（for Instructors)</a> 
 
-* <a href="create_training" target="_blank">トレーニングを作成する</a> 
-* <a href="open_training" target="_blank">Webex Trainingの開始</a> 
-* <a href="join_training" target="_blank">Webex Trainingへの参加</a> 
-* <a href="do_training" target="_blank">Webex Trainingでできること（開催者・参加者）</a> 
-* <a href="do_training_host" target="_blank">Webex Trainingでできること（開催者）</a> 
+* <a href="create_training" target="_blank">How to create Webex training</a> 
+* <a href="open_training" target="_blank">How to start Webex Training</a> 
+* <a href="join_training" target="_blank">How to join Webex Training</a> 
+* <a href="do_training" target="_blank">What is possible with Webex Training?（for Instructors・Participants)</a> 
+* <a href="do_training_host" target="_blank">What is possible with Webex Training?（for Instructors)</a> 
 
-* <a href="create_events" target="_blank">イベントを作成する</a> 
-* <a href="open_events" target="_blank">Webex Eventsの開始</a> 
-* <a href="join_events" target="_blank">Webex Eventsへの参加</a> 
-* <a href="join_events_vc" target="_blank">Webex Eventsへの参加 （テレビ会議システム）</a> 
-* <a href="do_events" target="_blank">Webex Eventsでできること（開催者・参加者）</a> 
-* <a href="do_events_host" target="_blank">Webex Eventsでできること（開催者）</a> 
+* <a href="create_events" target="_blank">How to create Webex Events</a> 
+* <a href="open_events" target="_blank">How to start Webex Events</a> 
+* <a href="join_events" target="_blank">How to join Webex Events</a> 
+* <a href="join_events_vc" target="_blank">How to join Webex Events （TV Conference Systems）</a> 
+* <a href="do_events" target="_blank">What is possible with Webex Events?（for Instructors・Participants)</a> 
+* <a href="do_events_host" target="_blank">What is possible with Webex Events?（for Instructors)</a> 
 {% comment %}
 * 授業での使い方
 	* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
