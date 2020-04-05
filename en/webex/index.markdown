@@ -4,15 +4,15 @@ layout: en
 ---
 
 
-## はじめに
+## Introduction
 
-* 会議室に参加するだけであればアカウントを作る必要はありません	
-* 2020年6月8日まで（それ以降は検討中）は本学のGoogleメール（共通ID10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールと呼びます）のメールアドレスで Webexアカウントを作成し，Webexによってオンラインで会議や授業を行うことができます．
-* 同時接続可能数は1000です．
-* **Webex MeetingsとWebex Eventsを使用する場合，最大200台までテレビ会議システム（いわゆるPolycom等）を接続することができますが，6月8日までのECCSクラウドメールベースのWebex Meetings/Webex Eventsでは利用できません．また，テレビ会議システムから何でもかんでもできるわけではありません．テレビ会議システムからの参加は事前に十分味見をしてからどうぞ．**
-* ここでは Web会議システム Webex の特徴や利用の流れについて説明します．このページでは全体的な特徴や大まかな流れを説明し,具体的な部分はサブページで説明します.
-* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで WebEx を使えます.
-* 参考：[UTokyo 90 Days Cisco Webex](https://www.u-tokyo.ac.jp/adm/dics/ja/90dayswebex.html)
+* You do not need to create an UTokyo Webex account if you just participate in the meeting.
+* Until June 8th 2020  (extension under consideration), you can organize online meetings and classes if you create an account by University’s Google mail (10 digits of common ID number @ g.ecc.u-tokyo.ac.jp, hereinafter referred to as ECCS cloud mail).
+* A maximum of 1000 participants can connect simultaneously.
+* **When you use Webex Meetings and Webex Events at the same time,  a maximum  200 participants can connect TV conference systems (i.e., Polycom etc.)  However, Webex Meetings and Webex Events is not available for ECCS cloud mail until June 8th 2020. Moreover, TV conference systems have some limitations. Please check in advance what Webex Meetings and Webex Events can be applied for.**
+* This section describes the features and usage flow of the Web conferencing tool in Webex. In addition, there are sub-pages with specific instructions, so please refer to them as necessary.
+* This page basically describes the use of Webex on a PC, but you can also use Webex application on tablets and smartphones. 
+* Reference：[UTokyo 90 Days Cisco Webex](https://www.u-tokyo.ac.jp/adm/dics/ja/90dayswebex.html)
 
 ### Webexサービスについて
 
