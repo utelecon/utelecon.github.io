@@ -3,32 +3,32 @@ title: What is possible with Webex Meetings?（for Instructors・Participants)
 layout: en
 ---
 
-## 役割
+## Roles
 
-Webex Meetingsには以下の権限があります．
-* **主催者**： イベントの開始・終了をする他，プレゼンター権限の設定をすることができます．また，参加者のマイクミュートの設定もできますが，参加者が自分で解除することもできます．
-* **プレゼンター**： コンテンツの共有をすることができます．主催者が「誰でも共有可」の設定をしていない時は，コンテンツの共有をするとその人が自動的にプレゼンターになります．「誰でも共有可」の設定がされている時は，主催者が設定したプレゼンターのみがコンテンツ共有ができます．
-* **参加者**： 自分でマイクミュートの解除も，カメラ映像の送信もすることができます．相互にチャットをすることもできます．
+Webex Meetings has the following roles.
+* **Host**： can start / end a meeting and assign users to “Presenter. ” They can also mute / unmute microphones of participants, but participants can cancel it themselves.
+* **Presenter**： can share the contents. If the host has chosen the setting “Anyone Can Share,” the participant who shared the content automatically becomes the presenter. When "Anyone can share" is on, any participant can share content in the meeting.
+* **Participants**： can mute / unmute the microphone and send the camera image. They can chat with other participants and the host.
 
-## 画面の構成
+## Screen composition
 
-* 会議室に入ると下記のような画面になります．（他の参加者が既に入室していると違って見えます．）
+* When you enter the conference room, the following screen will be displayed (It looks different if another participant is already in the room).
 
 	![](img/webex_meeting_entryview.png){:width="400px"}
 
-* 画面の下部にボタンが並んでいます．マウスをボタンにあわせると名称が表示されます．左から順番に説明します．
+* Buttons are lined up at the bottom of the screen. Hover the mouse over the button to display the name. We will explain from left to right.
 
 	![](img/webex_meeting_entryview_numbering.png){:width="500px"}
-	1. **ミュート**： 黒くなっているときはマイクがオンになっています．ミュートのときは赤くなります．**発言しない場合には基本的にミュート（アイコンを赤くする）にしておきましょう．思わぬ音が他の参加者にもれてしまっていることがあります．**
-	1. **ビデオを停止**： 黒くなっているときはカメラがオンになっています．カメラがオフになっているときは赤くなります．**ネット環境が不安定な場合，ビデオを停止（アイコンを赤くする）しましょう．**
-	1. **コンテンツの共有**： 画面共有を行い，他の参加者に資料を共有するための機能です．手元のPCの画面をそのまま共有する，特定のアプリケーションウィンドウを共有する，Chrome の特定のタブを共有するという３つのオプションがあります．手元のパワーポイント資料を見せたり，動画を見せたり，書画カメラなどに接続して書くものを示したり，といったときに用いますまた，ホワイトボード機能もあり，その場で手書きしたものを共有することもできます．
-	1. **会議の録画**： 会議の様子を録画して残すことができます．クラウド上（Webexのサーバー上）に残すことも，手元のコンピューター上に残すこともできますが，設定によっては手元のコンピューター上への録画は無効になっていることもあります．
-	1. **参加者**： 参加者ボタンを押すと参加者一覧が表示されます．参加者一覧では，それぞれの名前にマウスを重ねると，その参加者だけにメッセージを送れたり，プルダウンメニューで退出させることができます．
-	1. **チャット**： チャットボタンを押すとチャットウィンドウが現れて，全員や特定の人にメッセージを送ることができます．
-	1. **他のオプション**： ここにはその他のオプションがあります．会議室への入室をさせないようにする（一定時間以上の遅刻を認めないなどのときに利用します），参加者の入室時に，音を鳴らしたり，ミュートで入ってもらう設定などを行うことができます．投票機能はブラウザでは行うことができずデスクトップアプリが必要になります．
-	1. **退出**： 会議室から退出します．
+	1. **Mute**： This button turns black when the microphone is on, and  turns red when muted. **Mute your microphone (make the icon red) when you don’t speak. Unexpected sounds may be leaked to other participants if you do not mute the mic.**
+	1. **Stop video**： This button turns black when the camera is on, turns red when the camera is off.**If the connection environment is unstable, stop the video (make the icon red).**
+	1. **Share contents**： Share your screens to share materials with other participants. There are three options: share your PC screen, share specific application windows, or share specific Chrome tabs. It is also used to show a PowerPoint document at hand, to show a video, and to show your writing by connecting to a OH camera, etc. There is also a whiteboard function, so you can share material you have handwritten on your device.
+	1. **Record meeting**： You can record your meeting. You can save it to the cloud (on the Webex server) or your computer, but sometimes it does not allow you to save it to your computer, depending on the setting.
+	1. **Participants**： Press the participant button to display a list of participants. In the participant list, you can hover your mouse over each name to send a direct message to that participant or to make that participant leave the meeting from a pull-down menu.
+	1. **Chat**： Pressing the chat button will bring up a chat window where you can send a message to everyone or a specific person.
+	1. **Other options**： There are other options here. You can prevent the entry to the conference room (when participants are not allowed to be late for a certain period of time, etc.), mute participants or generate a sound when someone new enters the meeting, etc. The voting function cannot be performed in the browser, and requires a desktop application.
+	1. **Leave**：  Leave the conference room.
 
-以下，主に利用するメニュー項目について，追加で詳細を説明します．
+The following describes the additional details of the menu items used mainly.
 
 ## 画面の共有
 	
