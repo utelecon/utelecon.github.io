@@ -1,5 +1,6 @@
 ---
-title: Webex 会議室でできること（開催者）
+title: Webex meeting room 101（for instructors）
+layout: en
 ---
 
 * ここでは，開催者特有のWebex Meetingsの機能を説明します．	
