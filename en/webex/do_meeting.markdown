@@ -30,46 +30,46 @@ Webex Meetings has the following roles.
 
 The following describes the additional details of the menu items used mainly.
 
-## 画面の共有
+## Screen sharing
 	
-「コンテンツの共有」を押すと，共有する画面の選択肢が出てきます．希望のものを選択して「共有」を押すと，画面の共有が始まります．
+When you press "Share Content", the screen options to share will appear. Select the one you want to share and click "Share" to start sharing the screen.
 
 ![](img/webex_share.png){:width="400px"}
 	
-* 「画面1」を選択すると，共有する人の画面そのものが全員に共有されます（マルチモニタなどで画面が複数ある場合は画面1，画面2…と選択肢が増えます）．
-* 現在開いているウィンドウも選択肢に表示されます．ウィンドウ単位で画面共有することもできます．ウィンドウ以外の場所を見られたくない場合は，そのウィンドウを選択して画面共有することをおすすめします．
-* 「新しいホワイトボード」を選択すると自由に描けるホワイトボードが全員に共有されます．
+* When "Screen 1" is selected, a screen which the person is literally looking at is shared with everyone (If there are multiple screens such as when using a multi-monitor, the number of options increases like “Screen 1,” “Screen 2,” ...).
+* The currently open window/app is also displayed as an option. You can  share a specific window/app to share. If you don't want participants to see the whole screen, select only the window/app you want to share.
+* If you select "New Whiteboard", a whiteboard that participants can draw freely will be shared with everyone.
 
-## スピーカー・マイク・カメラの詳細設定
+## Detailed Settings for Speaker, Microphone and Camera
 
 ![](img/webex_more_sound.png)
 ![](img/webex_config_sound.png){:width="300px"}
 
 
-「他のオプション」をクリックし，「スピーカー、マイク、カメラ」をクリックすると，スピーカー・マイク・カメラについての設定・確認ができます．
-* **スピーカー** : 使いたいスピーカーを選択できます（別途スピーカーを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．「テスト」をクリックすると確認音が流れます．
-* **マイク** : 使いたいマイクを選択できます（別途マイクを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．正しくマイクから音が拾えていれば下のメーターが振れますので確認することができます．必要に応じて「音声を自動調整する」にチェックを入れて下さい．
-* **カメラ** : 使いたいカメラを選択できます（別途マイクを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．すぐ下にカメラのプレビューが表示されますので確認できます．
+Click "Other Options" and then "Speakers, Microphones, Cameras" to set and check the speaker, microphone and camera.
+* **Speaker** : You can select the speaker you want to use (You will have multiple choices in case you have a separate speaker on your PC. Select the one you want). Click "Test" to hear a confirmation sound.
+* **Microphone** : You can select the microphone you want to use (You will have multiple choices in case you have a separate microphone on your PC. Select the one you want). If the microphone properly collects sound, the meter below will oscillate. Check "Automatically adjust volume" box if necessary.
+* **Camera** : You can select the camera you want to use (You will have multiple choices in case you have a separate camera on your PC. Select the one you want). A preview of the camera is displayed down below.
 
-## 参加者
+## Participants
 
-「参加者」を押すと，参加者一覧が見られる画面が出てきます．
+Pressing "Participants" will bring up a screen where you can see a list of participants.
 
 ![](img/webex_participants_host.png)
 ![](img/webex_participants_attendee.png)
 
-左側が主催者側の様子，右側が参加者側の様子です．
-* **手のアイコン**： 主催者以外の参加者は手のアイコンを押すと「手を挙げている」ことになり，主催者にも手を挙げていることがわかります．上の図では，test attendeeが手を挙げています．
-* **マイクのアイコン**： マイクのアイコンが赤くなっている参加者は，マイクがミュート状態になっています．主催者は，参加者のマイクをミュートすることもできます．上の図では，test attendeeのマイクはミュート状態になっています．
+The left side shows the host’s view, and the right side the participant's view.
+* **Hand icon**： When the participants (other than the host) press the hand icon, they can raise their hands. The host can check who is raising a hand. In the figure above, the test attendee is raising his/her hand.
+* **Microphone icon**： Participants with a red microphone icon have their microphones muted. The host can also mute participants' microphones. In the above figure, the microphone of the test attendee is muted.
 
-## チャット
+## Chat
 	
-「チャット」を押すと，テキストチャットができるようになります．自分が参加する以前のチャットの履歴は読むことができません．
+Press "Chat" to enable text chat. You cannot read the chat history before you join.
 
 ![](img/webex_chat.png)
 	
-* **保存先**： 日本語が変ですが，送信する相手を変更できます．「全員」を選択すれば全員に送信されます．
+* **Recipient**： Select the recipient of the message. If you select "Everyone", it will be sent to everyone.
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Return to How to Use WeBex</a>
