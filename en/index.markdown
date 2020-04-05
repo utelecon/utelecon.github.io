@@ -25,7 +25,7 @@ What's New (<span style="color:blue;">blue letters</span>highlight the date of p
  * <span style="color:blue;">2020/3/21:</span> Message from <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_blank">Kunio Ota, Dean of the College of Liberal Arts </a> to freshmen and their families( Announced on March 19).
  * <span style="color:blue;">2020/3/21:</span> <a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">Message from the President</a> (announced on March 18)
  * <span style="color:blue;">2020/3/21:</span> An [online basic course Zoom usage report](events/2020-03-19/report)has been released.  
- * <span style="color:blue;">2020/3/19:</span> [Online course How to use Zoom](events/2020-03-19/)を実施しました．  
+ * <span style="color:blue;">2020/3/19:</span> Conducted [Online course How to use Zoom](events/2020-03-19/)
  * <span style="color:blue;">2020/3/19:</span> [Forum and Q&A](forums/) open.
  * <span style="color:blue;">2020/3/17:</span> <a href="zoom/">Zoom Pro (up to 500 connections) </a> is now available for all faculty members.
  * <span style="color:blue;">2020/3/16:</span> Updated <a href="events/2020-03-13/online_lecture.pdf">slides</a> on "Video conferencing tools and manage briefings online".
