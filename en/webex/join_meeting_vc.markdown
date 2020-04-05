@@ -3,12 +3,12 @@ title: How to join Webex Meetings （TV conference systems）
 layout: en
 ---
 
-## テレビ会議システムで会議に参加する
+## How to Participate in the TV Conference Systems
 
-1. テレビ会議システムから 210.4.202.4 にコールします
-1. ミーティング番号を入力するようアナウンスが流れるので，開催者から送られてきたミーティング番号を入力し，最後に # を入力します
-1. 会議にパスワードが設定されている場合は，パスワードの入力を求めるアナウンスが流れますので，開催者から送られてきたパスワードを入力し，最後に # を入力します
-* 会議が開始されていない場合は，自動的に切断されます
+1. Call 210.4.202.4 through TV conference systems.
+1. You may hear the announcement to fill in the meeting number and you then press the meeting number that you received from the organizer. After pressing the meeting number, please press #. 
+1. If the TV Conference is requiring to answer a Password, you may hear the announcement to fill in the form. Participants input the Password from organizers. After pressing the meeting number, please press #. 
+* If the TV conference is not open, the conference automatically is cut off.
 
 
 
@@ -16,6 +16,6 @@ layout: en
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
-<a href="meeting_participant" target="_blank">会議でできること（参加者）をみる</a>
-<a href="meeting_owner" target="_blank">会議でできること（開催者）をみる</a>
+<a href="index" target="_blank">Go back to How to Use WeBex</a>
+<a href="meeting_participant" target="_blank">See What is possible with Webex Meetings?（for Participants)</a>
+<a href="meeting_owner" target="_blank">What is possible with Webex Meetings?（for Instructors)</a>
