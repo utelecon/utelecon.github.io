@@ -3,41 +3,41 @@ title: Webex meeting room 101（for instructors）
 layout: en
 ---
 
-* ここでは，開催者特有のWebex Meetingsの機能を説明します．	
-* 基本的な使い方については<a href="do_meeting" target="_blank">こちら</a>をご覧ください．
+* In this section, we will explain the Webex Meetings functions that are unique to the Host of the meeting.
+* Click <a href="do_meeting" target="_blank">here</a> to see the basic features of Webex.
 
-## 開催者特有のメニュー
+## Options unique to the host
 
-### 参加者全員のミュート
+### Mute all participants
 
-* ミーティングの最初の設定において，入室時にミュートにすることができます．
-* 会議が開始されてからも，「参加者」メニューに「参加時にミュート」という機能があります．
+* In the initial setting of the meeting, you can turn on "Mute" when entering the room.
+* Even after the meeting starts, the "Participant" menu has a function called "Mute when joining".
 
 	![](img/webex_mute_on_join.png)	
 
-* 「参加者」メニューに「全員をミュート」という機能があり，全員を即座にミュートにすることができます．
+* The "Participant" menu has a function called "Mute all", so you can mute everyone immediately.
 
 	![](img/webex_all_mute.png)
 
-### コンテンツ共有の制限
+### Content sharing restrictions
 
-* 主催者が「プレゼンタ」として役割を割り当てた人以外からのコンテンツ共有を制限することができます．
-* 「参加者」メニューに「誰でも共有可」という機能があり，このチェックを外しておくと，想定していない参加者からのコンテンツ共有を防ぐことができます．
+* You can restrict content sharing by anyone other than the person who is assigned as the "Presenter" by the host.
+* The "Participant" menu has a function called "Anyone can share". If you uncheck this, you can prevent content sharing from unexpected participants.
 
 	![](img/webex_share_all.png)
 
-### 参加者の入退室時のサウンド
+### Participant entry / exit sound
 
-* 参加者が入退室する時にサウンドを鳴らすことができます．気づかないうちに予期せぬ参加者が紛れ込むことを防ぐことができますが，参加者の多い会議では煩わしくなります．
-* ミーティングの最初の設定において，入退室時のサウンドを設定することができます．
-* 「参加者」メニューの「入退室のサウンド」で設定します．
+* Sounds can be played when participants enter and leave the room. It can prevent unexpected participants from joining unnoticed, but can be disrupting in conferences with many participants.
+* In the initial setting of the meeting, you can set the sound for entering and leaving the room.
+* Go to the "Sound of entry / exit" in the "Participant" settings.
 
 	![](img/webex_sound_on_join.png)
 
-### 録画
+### Recording
 
-* 会議を全て録画しておき，ITC-LMS等で公開（公開方法 TODO）することで，通信状態の悪かった学生や復習用の教材として活用することができます．
-* 録画は会議の設定時に「自動録画」を設定するか，会議中に録画のアイコンをクリックすることでの任意の時間に行うことが可能です．
+* By recording the entire meeting and publishing it on ITC-LMS etc. (publication method TODO), it can be used as a learning material for students who had poor network conditions or for the students to revise afterwards.
+* Recording can be done at any time by setting "Automatic Recording" when setting up the conference, or by clicking the recording icon during the conference.
 
 	![自動録画](img/webex_meeting_auto_record.png){:width="400px"}
 
