@@ -6,9 +6,6 @@ layout: en
 About this Site
 ---------------------------
 
-* Many apologies for the site primarily in Japanese (yet).  Working around the clock to put everything barely in good shape ...
-* We will work on translations, but meanwhile, please use the "English (Google Translation)" link to machine-translate the page.
-
 * This site aims to provide information on online classes and Web conferences for students and faculty at the University of Tokyo.  
 * Please understand that the situation is changing every day and that this Portal has being created in a hurry, so you will find places still under construction or with content being frequently updated.
 * This site has been set up by the Information Technology Center of the University of Tokyo and the University Education and Research Center, and welcomes further collaborators.
