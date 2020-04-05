@@ -1,5 +1,6 @@
 ---
-title: Webex 会議室でできること（開催者・参加者）
+title: What is possible with Webex Meetings?（for Instructors・Participants)
+layout: en
 ---
 
 ## 役割
