@@ -3,37 +3,37 @@ title: How to set the meeting room
 layout: en
 ---
 
-## 会議室を作成する
-* 会議をスケジュールするには，ホーム画面の「スケジュールする」ボタンを押して，各種設定を行います．
-	* 「ミーティングのスケジュール」画面では，議題，パスワード，日時，出席者などを設定することができます．各項目について説明します．
-	* **議題**： この会議の名称を入力します．必須項目です．
-	* **ミーティング・パスワード**： 任意の文字列が表示されていますが，変更可能です．
-	* **日時**： この画面を開いた直近の時間が表示されていますが，右端の記号をおすことで，変更することができます．また，繰り返しにすることもできます．繰り返しのチェックボックスをオンにすると，繰り返しの規則について設定する項目があらわれます．
-	* **出席者**： メールアドレスをここに記入します．この設定全体が完了すると自動的にここで設定された参加者にメールでコード等が連絡されます．
-	* **トラッキングレコード**： 使用しないので特に変更しません．
-	* **詳細設定を表示する**： 音声接続オプション，協議事項，スケジューリングオプションが設定できます．この中では，たとえば，自動で録画をはじめたり，主催者より先に参加できるようにする設定，出席者登録，リマインドメールの設定などができます．
+## How to create an Webex Meeting room 
+* Press "plan the schedule" to start planning the conference schedule.
+	* In the screen,  "Meeting schedule", you can set the agenda, Meeting Password, date of meetings, and participants.  Details are below.
+	* **Agenda**： The name of conference. This is the required item.
+	* **Meeting password**：There is a given text strings for the first time you open this setting, but you can change the Password. 
+	* **Date and Time**： You may see the time that you open the browser. You can change the date  just pressing right top symbol. Moreover, you can repeat the meeting if you check the button "repeat". After you press the button, you fill in the form for further details. 
+	* **Participants**： Please fill participants' mail address here. After finishing the settings, participants automatically obtain the invitation code through email. 
+	* **Tracking Record**： No need to use this function.
+	* **Show the detail settings**： You can set audio connect options, the agenda, and schedule options. For example, you can set automatic recording and participants enter the meeting in advance to the organizers. In addition, you can set the  attendance registration,and send reminders to participants. 
 
 	![会議設定の画面](img/webex_meeting_setting.PNG){:width="700px"}
 
-* 一通りの設定を終えて「スケジュールする」ボタンを押すと，ミーティング番号が作成されます．
-	* 出席者に入力したメールアドレスには招待メールが送信されます．
-	* 出席者に入力していない出席者にも，表示されたミーティングリンク・ミーティング番号・パスワード等をメールで周知することができます．主催者キーは，主催者のみが知るべき番号なので，一般の出席者には周知すべきではありません．
+* After finishing settings, press "plan the schedule". You will obtain a meeting number．
+	* At the same time, participants obtain the invitation email.
+	* You can add other participants to the meeting by sharing the link of meeting, meeting number and password. However, do not let participants know the organizers' key number.
 
 	![会議設定結果の画面](img/webex_meeting_description.PNG){:width="700px"}
 
-* 設定した日時が近すぎる（10分以内）と，「スケジュールする」ボタンではなく「開始」ボタンになり，すぐに会議が開始できます．
-	* 「開始」ボタンを押すと待機状態になります．この画面はプレビューですので，カメラやマイクの設定はここで確認しておきます．
-	* 右下で，オーディオ，マイク，カメラの設定を行います．ヘッドセットを装着しているときなど，どの機材でオーディオやマイクを使うのかの設定切り替えをここで行います．
-	 * プレビュー画面に何もうつっていない場合には，カメラが認識されていない可能性がありますので，右下にあるカメラ設定を確認します．
-	 * マイクがうまく聞こえるかどうかをここで確認しておきます．音を出したときマイクの下のインジケータに反応があれば音をひろえています．
-	* 画面内にあるマイクとビデオのボタンは， それぞれ，ミュートの解除・設定とビデオ停止・開始を行います．デフォルトは音が聞こえ，ビデオがうつっている状態です．
-	* ここで「ミーティングを開始する」を押すと即座に会議を開始することができます．
+* If you set the meeting within 10 minutes, "Start" button appears instead of "plan to schedule". If you want to start the meeting quickly, please set the meeting within 10 minutes.
+	* Press "Start" button and the meeting room will become idle.This preview screen aims to adjust the setting of camera and microphone.
+	* You can adjust audio, microphone and camera on the lower right button and you may switch from PC's or tablet's audio to headset as well. 
+	 * If the screen shows nothing at the preview, the camera may need setting adjustments.  Please press lower right button to check camera settings.
+	 * You can confirm the microphone settings at preview setting. If the indicator captures your voice, participants will be able to hear your voice.
+	* The microphone button on the screen can mute or unmute and the video button can stop or start the clip. As a default setting, microphones and videos are ON.
+	* Press "Start the meeting" to start the meetings immediately.
 
-* また，「ミーティングのスケジュール」画面で設定された出席者に下記のようなメールが自動的に送られます．
+* Participants obtain the below invitation email to Webex.．
 
 	![会議招待メール](img/webex_invitation.PNG){:width="700px"}
 
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Go back to How to Use WeBex</a>
