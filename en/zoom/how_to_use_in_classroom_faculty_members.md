@@ -1,5 +1,6 @@
 ---
 title: Using Zoom in class（for instructors）
+layout: en
 ---
 
 In this section, we introduce how teachers can use Zoom in classroom through interactive videos.   
@@ -18,27 +19,33 @@ Please refer to the following for details on how to use this function.
 
 
 <a name="sharing_screen_materials"> </a>
-## PowerPoint，Word などの資料を提示する（画面共有）
-授業中に Zoom メニュー「画面の共有」→「画面」→「共有」と押すと，教員の見ている画面をそのまま学生は見ることができます．  
-その状態で，PowerPoint のスライドショーを始めたり，Word の資料を開いたりしながら説明を行うことで，授業を進められます．  
-画面の共有を終える際は，画面の上部か下部に出ている「共有の停止」を押します．  
-  * 上記の方法だと画面全体が表示されてしまうため，意図せず個人情報が見えてしまうことがあります．ここで，画面を共有する際，画面全体ではなく，ウィンドウ単位で共有することもできます．そこで，目的のウィンドウに絞って画面共有することで，その心配が少し減ります．
-  * 画面共有中はメニューが画面の上部か下部に隠れてしまうので，「共有の停止」の左に表示されているミーティング ID のところにマウスカーソルを当てると「参加者の管理」などのメニューが出てきます．
-  * 画面共有中は学生の PC の画面は基本的に全画面表示になってしまい，他のウィンドウに移動することができなくなります．ここで，学生が Zoom の画面をダブルクリックすると全画面表示ではなくなり，他のウィンドウに移動しやすくなります．もし教員が画面共有している間に学生には Web ブラウザなど Zoom 以外のウィンドウを使ってもらいたい際には，Zoom の画面をダブルクリックしてもらうよう指示出しすることをおすすめします．
+## Presenting PowerPoint and Word materials（Screen sharing）
+During class, students can see the screen the teacher is looking at by pressing the Zoom menu "Share screen" → "Screen" → "Share".  
+Like that, you can continue your lecture while showing Powerpoint presentations or Word files.
+When you finish sharing the screen, press "Stop Sharing" at the top or bottom of the screen. 
+  * With the method described above, the entire screen is displayed, so you may unintentionally share your personal information. Instead, it is possible to share not the entire screen but only the window of interest. Like that, you do not need to worry about opening personal information to participants.
+  * 
+While sharing the screen, the menu is hidden at the top or bottom of the screen. Hover the mouse icon over the meeting ID displayed to the left of “Stop sharing” to display other menu such as “Manage participants”. 
+  * 
+During screen sharing, the screen of the student's PC is set as full screen and cannot be moved to another window. Here, if the student double-clicks on the Zoom screen, it will not be displayed in full screen, and it will be easier to move to another window.If you want your students to use a window other than Zoom, such as a web browser, while the teacher is sharing the screen, we recommend you to instruct participants to double-click the Zoom screen.
 
 <a name="chat"> </a>
-## チャットで質問を受け付ける（チャット）
-授業中に Zoom メニュー「チャット」を押すと，全員とテキストチャットができます．この機能を使うと，チャットを用いて学生に質問を出してもらうことができます．授業の合間に，適宜チャットを確認して，学生からの質問に回答することができます．
+## Questions via Chat（Chat）
+
+You can text chat with everyone by pressing the "Chat" menu during the class. This feature allows students to ask questions using chat. You can check the chat and answer questions from students during classes as necessary.
 
 
 <a name="poll"> </a>
-## 投票を使って学生に対して質問する（投票）
-Zoom の投票機能を使うと学生に対して多肢選択の質問をできるようになります．  
-1. Zoom メニュー「投票」を押す
-2. 投票画面の右上の「編集」を押す
-3. Webブラウザが立ち上がるので，その中でタイトル，質問，選択肢を入力して「保存」を押す
-4. もし追加で質問を行いたかったら，Webブラウザ上で右上にある「追加」ボタンを押して，3と同様の方法で質問を設定する
-5. Zoom に戻り，「投票の起動」を押すことで，投票を開始する
-6. 学生が投票するのを待ち，時間が経ったところで「投票の終了」を押す
-7. 投票結果が教員に表示される
-8. 学生にも投票結果を共有したいときは左下の「結果の共有」を押す
+## Ask students questions using polls（Poll）
+Zoom's voting feature allows students to answer multiple-choice questions.
+1. Press "Poll" on Zoom menu.
+2. In the upper right side of the poll screen, press "edit"
+3. When the web browser opens, enter the title, question, and choices, and press "Save"
+4. If you want to ask additional questions, click the "Add" button on the top right of the web browser and set the questions in the same way as in 3.
+5. 
+Start poll by returning to Zoom and pressing "Launch poll"
+6. 
+Wait for the student to answer and press "end poll" after a while
+7. Poll results are displayed to teachers
+8. 
+If you want to share the poll results with students, press "Share results" at the bottom left
