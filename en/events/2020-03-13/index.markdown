@@ -1,13 +1,14 @@
 ---
-title: 2020/03/13 授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会
+title: 2020/03/13 Briefing on How to host Video Conferences when aiming for Online Classes
+layout: en
 ---
 
-# 2020/03/13 授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会
+# 2020/03/13 Briefing on How to host Video Conferences when aiming for Online Classes
 
 
-* 説明会 <a href="https://todai.tv/contents-list/lecture/online-teaching/01" target="_blank">動画（限定公開: 要UTokyo Account）</a>
-* 説明会スライド<font color="red">(3/16更新しています)</font> [pdf](online_lecture.pdf), [pptx](online_lecture.pptx) 
-* [質問箱](https://app.sli.do/event/utdcfwlc/live/questions)
+* Briefing session <a href="https://todai.tv/contents-list/lecture/online-teaching/01" target="_blank">video（Limited release: UTokyo Account required）</a>
+* Briefing session slides<font color="red">(updated on 3/16)</font> [pdf](online_lecture.pdf), [pptx](online_lecture.pptx) 
+* [Questions](https://app.sli.do/event/utdcfwlc/live/questions)
 
 <!--
 
