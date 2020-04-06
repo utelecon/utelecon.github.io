@@ -90,7 +90,7 @@
 
     <header class="page-header" role="banner">
 
-		{% assign has_en_page = true %}
+		{% assign has_en_page = false %}
 
 		{% if page.url == "/" %}
 			{% assign has_en_page = true %}
@@ -116,8 +116,12 @@
 			{% assign has_en_page = true %}
 		{% endif %}
 
-		{% if page.url contains "/en" %}
+		{% if page.url contains "/webex" %}
 			{% assign has_en_page = true %}
+		{% endif %}
+
+		{% if page.url contains "/en" %}
+			{% assign has_en_page = false %}
 		{% endif %}
 
 	  <div align="right">
