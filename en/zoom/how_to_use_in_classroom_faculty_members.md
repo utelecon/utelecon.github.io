@@ -13,7 +13,7 @@ By scheduling regular meetings, you can create a conference room with a common U
 However, it is important to note that you can set up a recurring meeting **only from a Web browser**.  
 First, sign in to your <a href="https://zoom.us/profile" target="_blank">Zoom My Page</a> with your account and press "Schedule a Meeting" in the upper right corner.
 Check the box "Regular Meeting" in the settings, so you can schedule a regular meeting using the same URL.
-Please refer to the following for details on how to use this function.  
+Please refer to the following video (in Japanese) for details on how to use this function.  
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/rf_Tw0L5PLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
