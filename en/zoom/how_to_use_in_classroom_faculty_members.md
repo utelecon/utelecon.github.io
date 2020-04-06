@@ -1,18 +1,19 @@
 ---
-title: Zoom 授業での使い方（教員編）
+title: Using Zoom in class（for instructors）
+layout: en
 ---
 
-授業における，教員の Zoom の使い方を対話形式の動画で紹介します．  
-授業に特化しているため，一般的な Web 会議の利用方法と異なる点があること，ご了承いただければ幸いです．  
-また，できるだけ多くの動画を作ることを目指していることから，簡単な編集になっていること，ご了承いただければ幸いです．   
+In this section, we introduce how teachers can use Zoom in classroom through interactive videos.   
+We hope that you understand that there are some differences from general web conference usage when compared to specialized in classes.  
+Also, since we aim to make as many videos as possible, we hope that you understand that the editing is simple. 
 
 <a name="schedule"> </a>
-## 全13回の授業で使う URL が変わらない部屋（会議室）を予約する
-定期的なミーティングをスケジュールすることで，全13回 URL が変わらない会議室を作ることができます．  
-ただ注意が必要なのは，**Web ブラウザからのみ**，定期的なミーティングを詳細に設定できます．  
-まず，<a href="https://zoom.us/profile" target="_blank">Zoom のマイページ</a>にご自身のアカウントでサインインいただいた後，右上にある「ミーティングをスケジュールする」を押してください．  
-その設定の中で「定期的なミーティング」という項目があり，こちらをチェックしていただくと，URL が変わらない定期的なミーティングをスケジュールすることができます．  
-詳しい使い方に関しては以下をご参考にしてください．  
+## Creating a recurrent meeting for a 13 classes courses, and using a single URL
+By scheduling regular meetings, you can create a conference room with a common URL to be used over the semester.  
+However, it is important to note that you can set up a recurring meeting **only from a Web browser**.  
+First, sign in to your <a href="https://zoom.us/profile" target="_blank">Zoom My Page</a> with your account and press "Schedule a Meeting" in the upper right corner.
+Check the box "Regular Meeting" in the settings, so you can schedule a regular meeting using the same URL.
+Please refer to the following for details on how to use this function.  
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/rf_Tw0L5PLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
