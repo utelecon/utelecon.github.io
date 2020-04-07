@@ -149,10 +149,19 @@ UTokyo Accountのアカウント番号@utac.u-tokyo.ac.jp
 
 * チャットなどでもヘルプを求める手段を準備しています. 少々お待ち下さい.
 
-<script>(function(){
-var w=window,d=document;
-var s="https://app.chatplus.jp/cp.js";
-d["__cp_d"]="https://app.chatplus.jp";
-d["__cp_c"]="0525a1ec_1";
-var a=d.createElement("script"), m=d.getElementsByTagName("script")[0];
-a.async=true,a.src=s,m.parentNode.insertBefore(a,m);})();</script>
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+  window.__lc = window.__lc || {};
+  window.__lc.license = 11848911;
+  (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+  })();
+</script>
+<noscript>
+<a href="https://www.livechatinc.com/chat-with/11848911/" rel="nofollow">Chat with us</a>,
+powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->
