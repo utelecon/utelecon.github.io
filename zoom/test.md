@@ -149,9 +149,10 @@ UTokyo Accountのアカウント番号@utac.u-tokyo.ac.jp
 
 * チャットなどでもヘルプを求める手段を準備しています. 少々お待ち下さい.
 
-<script>
-  window._slaaskSettings = {
-    key: "spk-00bfdb3c-7564-4831-986b-36c1f77add27",
-  };
-</script>
-<script src="https://cdn.slaask.com/chat_loader.js" async="true"></script>       
+<script>(function(){
+var w=window,d=document;
+var s="https://app.chatplus.jp/cp.js";
+d["__cp_d"]="https://app.chatplus.jp";
+d["__cp_c"]="0525a1ec_1";
+var a=d.createElement("script"), m=d.getElementsByTagName("script")[0];
+a.async=true,a.src=s,m.parentNode.insertBefore(a,m);})();</script>
