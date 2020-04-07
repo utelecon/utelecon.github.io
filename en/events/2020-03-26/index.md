@@ -1,5 +1,4 @@
 ---
-
 title: 2020/03/26 Briefing: How to notify students of online classes
 layout: en
 ---
