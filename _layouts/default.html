@@ -119,6 +119,10 @@
 		{% if page.url contains "/webex" %}
 			{% assign has_en_page = true %}
 		{% endif %}
+	    
+	        {% if page.url contains "/events" %}
+			{% assign has_en_page = true %}
+		{% endif %}
 
 		{% if page.url contains "/en" %}
 			{% assign has_en_page = false %}
