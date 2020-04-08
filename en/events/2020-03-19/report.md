@@ -20,20 +20,20 @@ title: 2020/3/19 Online Course Report
 　Following the flow of the presentation materials, people were able to get to know about various functions while actually experiencing Zoom.
 In addition, because it is difficult for participants to work together only with Zoom, we implemented Google Spreadsheets, so participants could share information on copyright-free materials and their own experience using Zoom in lessons. 
 
-* 基本的にうまくいったところ
-  * 音声，映像トラブルなしに進められました（一部，音声が聞こえないというコメントがありましたが，参加者側のデバイス設定が原因でした）  
-  * チャットも問題なく使えていました（後半になるにつれ，チャットの画面が少々重くなっていきましたが使えました）．
-  * 手を挙げる機能もうまく働いていました．  
-  * 投票機能（開催者から参加者に多肢選択の質問をする機能）は開催者側は問題なく使えました．しかし，一部の参加者が回答できない場合があったようです．  
-  * レコーディングもうまくいっていました（2時間30分のmp4ファイルで，サイズは376MBでした）  
+* What worked well
+  * It proceeded without audio and video troubles (some participants commented that the audio could not be heard, but it was due to the device settings on the participant side) 
+  * We were able to use the chat without any problems (the chat screen became a little heavier in the second half).
+  * The hand-raising function also worked well.  
+  * The poll function (function for asking multiple-choice questions from the organizer to the participants) was used without any problems by the organizer. However, it seems that some participants could not answer the poll.
+  * Recording was also fine (2 hours 30 minutes mp4 file, size 376MB, was generated). 
 <br>
-* うまくいかなかったところ
-  * Google スプレッドシートが機能しなかった
-    * Some tools might be unavailable due to heavy traffic in this file と出てしまい，書き込めなかった
-	* 現在アクセスログを分析して，何人ぐらいで書き込めなくなるのかを調べようと思っています（2020年3月19日現在では，1000人がスプレッドシートで協働するのは難しいようです）  
-  * ブレークアウトセッションが機能しなかった
-    * セッションの割り当て後に「すべてのセッションを開始」を押しても無反応でした
-    * 基礎講座後に個別相談をそのまま行っていたのですが，200名ほどになった時に再度試したところ，開始することができました
+* What did not work
+  * Google Sheets did not work.
+    * Some tools might be unavailable due to heavy traffic in the file.
+	* We are currently analyzing the access log to find out what is the limit of people able to access and edit the file at the same time (as of March 19, 2020, it seems difficult for 1000 people to collaborate on spreadsheets).
+  * Breakout session did not work
+    * Pressing "Start All Sessions" after assigning sessions resulted in no response from the system.
+    * After the basic course, we had been doing individual consultations, and the breakout room function worked well in classes with 200 participants.
 <br>
 <br>
     
