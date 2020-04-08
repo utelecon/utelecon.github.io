@@ -1,5 +1,6 @@
 ---
 title: 2020/3/19 Online Course Report
+layout: en
 ---
 
 　An online course on  "How to use Zoom with online class in mind" was conducted on March 19, 2020, from 15:00 to 17:00. 
@@ -37,19 +38,19 @@ In addition, because it is difficult for participants to work together only with
 <br>
 <br>
     
-## アンケート結果
-　120名が事後アンケートにご回答してくださいました．  
-　参加者の8割が教員と多く，全体評価として有用であったと回答いただいた方が9割を超えました．  
-　改善の余地はあるものの，評価いただけて講師陣は少しほっとしています．  
+## Questionnaire results
+　120 participants answered the questionnaire.  
+　80% percent of the participants were faculty members, and more than 90% of the respondents answered that the online course was useful.  
+　Although there is room for improvement, the instructors were relieved with the feedback. 
 
 ![アンケート結果（参加者の属性）](img/survey_role.png)  
 
 ![アンケート結果（全体評価）](img/survey_evaluation.png)  
 
     
-## おわりに
-　1000人のオンラインワークショップは初めての試みでしたが，基本的には問題なく進められて良かったです．特に大人数授業をされる方にとって今回の開催報告が役立てば幸いです．  
-　参加者のみなさま，またポータルサイト構築に携わっている多くの方々，ご参加・ご協力本当にありがとうございました．  
-　これからも意義ある講座や情報提供をしていきたいと思っておりますので，引き続きどうぞよろしくお願いいたします．  
+## In conclusion
+It was our first attempt on an online course for 1000 people. an we are happy that the course went well and without any problems. we hope this report will be especially useful for those who are giving large online classes.　
+Thank you all the participants and many people who are involved in the construction of the portal site.
+We would like to continue providing meaningful lectures and information in the future, so we look forward to your continued support.
 
-（吉田塁，栗田佳代子）
+（Lui Yoshida，Kayoko Kurita）
