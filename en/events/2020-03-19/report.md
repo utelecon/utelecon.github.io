@@ -8,18 +8,17 @@ title: 2020/3/19 Online Course Report
 　Specifically, we first described the main forms of online classes, and the basic flow of a simple online lesson using Zoom (how to create a room, how to enter and exit, etc.). After that, as a practical part, microphone and camera settings, participant management (mute control), screen sharing (material presentation), chat (question and answer), raising hand (question and answer), voting (question from teacher) , Breakout (group work) and other functions were introduced.  
   
   
-　開始後すぐに1000人を超えてしまい，参加できなかった方々におかれましては申し訳ございませんでした．後日，講座の動画を公開予定ですので，そちらをご覧いただければ幸いです．  
-　また，当日ご参加いただいた方，ありがとうございました．基礎講座後も個別相談の時間を設けたところ，開始から30分ほど経っても500名が残ってくださり，開始から1時間30分ほど経っても200名が残ってくださいました．長時間に渡るご参加，誠にありがとうございました．  
+　we are sorry for those who could not participate because the meeting exceeded 1000 people immediately after the start. We will release a video of the course at a later date, so we hope you can watch it.  
+　Also, thank you for those who participated on the day. Even after the basic course, individual consultation time was set up, and 500 people remained for about 30 minutes from the start, and 200 people remained for about 1 hour and 30 minutes from the start. Thank you for your participation. 
   
-[発表資料](workshop_how_to_use_zoom.pdf)  
+[Handouts](workshop_how_to_use_zoom.pdf)  
   
-## 当日の運営体制
-　基本的には，講師の一人がスライドに沿って説明し，もう一人の講師がチャットを確認し，チャットで回答しつつも適宜重要な質問を全体で共有したり，補足をしたりする体制をとりました．
-　また，情報基盤センター長の田浦先生にもチャットで出てくる質問に対してチャットでご対応していただきました．   
+## Operation system on the day
+　The operation on the day was coordinated by two instructors: one instructor explained along the slide, and the other instructor constantly checked the chat, sharing important questions and comments as needed. took. In addition, Dr. Taura, Director of the Information Technology Center, responded to questions that came up by chat.   
     
-## 1000人のオンライン基礎講座をやってわかったこと
-　発表資料の流れに沿って，実際に Zoom の体験してもらいながら，様々な機能を知ってもらう設計にしていました．  
-　また，Zoom だけでは参加者同士の共同作業が難しいため，Google スプレッドシートを用いて，参加者の方々にも著作権のフリー素材の情報や Zoom の機能を使った授業の工夫を共有してもらう予定でした．  
+## What we have learning from the online course with 1000 participants
+　Following the flow of the presentation materials, people were able to get to know about various functions while actually experiencing Zoom.
+In addition, because it is difficult for participants to work together only with Zoom, we implemented Google Spreadsheets, so participants could share information on copyright-free materials and their own experience using Zoom in lessons. 
 
 * 基本的にうまくいったところ
   * 音声，映像トラブルなしに進められました（一部，音声が聞こえないというコメントがありましたが，参加者側のデバイス設定が原因でした）  
