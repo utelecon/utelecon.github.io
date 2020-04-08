@@ -1,56 +1,56 @@
 ---
-title: 2020年3月19日 オンライン基礎講座の開催報告
+title: 2020/3/19 Online Course Report
+layout: en
 ---
 
-　2020年3月19日15時～17時で，オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」を実施いたしました．  
+　An online course on  "How to use Zoom with online class in mind" was conducted on March 19, 2020, from 15:00 to 17:00. 
   
   
-　具体的には，まずオンライン授業のイメージを持ってもらうために主な形態について説明しました．そして，Zoom を用いたオンライン授業の簡単な流れ（部屋の作り方，入退出の方法など）を基本編として説明しました．その後は，実践編として，マイクやカメラの設定，参加者の管理（ミュート制御），画面共有（資料提示），チャット（質疑応答），手を挙げる（質疑応答），投票（教員からの質問），ブレイクアウト（グループワーク）などの機能について体験を交えながら紹介しました．  
+　Specifically, we first described the main forms of online classes, and the basic flow of a simple online lesson using Zoom (how to create a room, how to enter and exit, etc.). After that, as a practical part, microphone and camera settings, participant management (mute control), screen sharing (material presentation), chat (question and answer), raising hand (question and answer), voting (question from teacher) , Breakout (group work) and other functions were introduced.  
   
   
-　開始後すぐに1000人を超えてしまい，参加できなかった方々におかれましては申し訳ございませんでした．後日，講座の動画を公開予定ですので，そちらをご覧いただければ幸いです．  
-　また，当日ご参加いただいた方，ありがとうございました．基礎講座後も個別相談の時間を設けたところ，開始から30分ほど経っても500名が残ってくださり，開始から1時間30分ほど経っても200名が残ってくださいました．長時間に渡るご参加，誠にありがとうございました．  
+　we are sorry for those who could not participate because the meeting exceeded 1000 people immediately after the start. We will release a video of the course at a later date, so we hope you can watch it.  
+　Also, thank you for those who participated on the day. Even after the basic course, individual consultation time was set up, and 500 people remained for about 30 minutes from the start, and 200 people remained for about 1 hour and 30 minutes from the start. Thank you for your participation. 
   
-[発表資料](workshop_how_to_use_zoom.pdf)  
+[Handouts](workshop_how_to_use_zoom.pdf)  
   
-## 当日の運営体制
-　基本的には，講師の一人がスライドに沿って説明し，もう一人の講師がチャットを確認し，チャットで回答しつつも適宜重要な質問を全体で共有したり，補足をしたりする体制をとりました．
-　また，情報基盤センター長の田浦先生にもチャットで出てくる質問に対してチャットでご対応していただきました．   
+## Operation system on the day
+　The operation on the day was coordinated by two instructors: one instructor explained along the slide, and the other instructor constantly checked the chat, sharing important questions and comments as needed. took. In addition, Dr. Taura, Director of the Information Technology Center, responded to questions that came up by chat.   
     
-## 1000人のオンライン基礎講座をやってわかったこと
-　発表資料の流れに沿って，実際に Zoom の体験してもらいながら，様々な機能を知ってもらう設計にしていました．  
-　また，Zoom だけでは参加者同士の共同作業が難しいため，Google スプレッドシートを用いて，参加者の方々にも著作権のフリー素材の情報や Zoom の機能を使った授業の工夫を共有してもらう予定でした．  
+## What we have learning from the online course with 1000 participants
+　Following the flow of the presentation materials, people were able to get to know about various functions while actually experiencing Zoom.
+In addition, because it is difficult for participants to work together only with Zoom, we implemented Google Spreadsheets, so participants could share information on copyright-free materials and their own experience using Zoom in lessons. 
 
-* 基本的にうまくいったところ
-  * 音声，映像トラブルなしに進められました（一部，音声が聞こえないというコメントがありましたが，参加者側のデバイス設定が原因でした）  
-  * チャットも問題なく使えていました（後半になるにつれ，チャットの画面が少々重くなっていきましたが使えました）．
-  * 手を挙げる機能もうまく働いていました．  
-  * 投票機能（開催者から参加者に多肢選択の質問をする機能）は開催者側は問題なく使えました．しかし，一部の参加者が回答できない場合があったようです．  
-  * レコーディングもうまくいっていました（2時間30分のmp4ファイルで，サイズは376MBでした）  
+* What worked well
+  * It proceeded without audio and video troubles (some participants commented that the audio could not be heard, but it was due to the device settings on the participant side) 
+  * We were able to use the chat without any problems (the chat screen became a little heavier in the second half).
+  * The hand-raising function also worked well.  
+  * The poll function (function for asking multiple-choice questions from the organizer to the participants) was used without any problems by the organizer. However, it seems that some participants could not answer the poll.
+  * Recording was also fine (2 hours 30 minutes mp4 file, size 376MB, was generated). 
 <br>
-* うまくいかなかったところ
-  * Google スプレッドシートが機能しなかった
-    * Some tools might be unavailable due to heavy traffic in this file と出てしまい，書き込めなかった
-	* 現在アクセスログを分析して，何人ぐらいで書き込めなくなるのかを調べようと思っています（2020年3月19日現在では，1000人がスプレッドシートで協働するのは難しいようです）  
-  * ブレークアウトセッションが機能しなかった
-    * セッションの割り当て後に「すべてのセッションを開始」を押しても無反応でした
-    * 基礎講座後に個別相談をそのまま行っていたのですが，200名ほどになった時に再度試したところ，開始することができました
+* What did not work
+  * Google Sheets did not work.
+    * Some tools might be unavailable due to heavy traffic in the file.
+	* We are currently analyzing the access log to find out what is the limit of people able to access and edit the file at the same time (as of March 19, 2020, it seems difficult for 1000 people to collaborate on spreadsheets).
+  * Breakout session did not work
+    * Pressing "Start All Sessions" after assigning sessions resulted in no response from the system.
+    * After the basic course, we had been doing individual consultations, and the breakout room function worked well in classes with 200 participants.
 <br>
 <br>
     
-## アンケート結果
-　120名が事後アンケートにご回答してくださいました．  
-　参加者の8割が教員と多く，全体評価として有用であったと回答いただいた方が9割を超えました．  
-　改善の余地はあるものの，評価いただけて講師陣は少しほっとしています．  
+## Questionnaire results
+　120 participants answered the questionnaire.  
+　80% percent of the participants were faculty members, and more than 90% of the respondents answered that the online course was useful.  
+　Although there is room for improvement, the instructors were relieved with the feedback. 
 
 ![アンケート結果（参加者の属性）](img/survey_role.png)  
 
 ![アンケート結果（全体評価）](img/survey_evaluation.png)  
 
     
-## おわりに
-　1000人のオンラインワークショップは初めての試みでしたが，基本的には問題なく進められて良かったです．特に大人数授業をされる方にとって今回の開催報告が役立てば幸いです．  
-　参加者のみなさま，またポータルサイト構築に携わっている多くの方々，ご参加・ご協力本当にありがとうございました．  
-　これからも意義ある講座や情報提供をしていきたいと思っておりますので，引き続きどうぞよろしくお願いいたします．  
+## In conclusion
+It was our first attempt on an online course for 1000 people. an we are happy that the course went well and without any problems. we hope this report will be especially useful for those who are giving large online classes.　
+Thank you all the participants and many people who are involved in the construction of the portal site.
+We would like to continue providing meaningful lectures and information in the future, so we look forward to your continued support.
 
-（吉田塁，栗田佳代子）
+（Lui Yoshida，Kayoko Kurita）
