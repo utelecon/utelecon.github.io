@@ -22,5 +22,5 @@ title: 学生ケア 学科・専攻 担当登録フォーム
 
 * <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhKiEyE2V_T1Ao4OzeJJKaG1UMVk1UEVJRVc4S0hUWFZHOFE0TUJOQktIUy4u" target="_blank">
 
-<iframe width="800px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhKiEyE2V_T1Ao4OzeJJKaG1UMVk1UEVJRVc4S0hUWFZHOFE0TUJOQktIUy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<iframe width="800px" height= "1200px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhKiEyE2V_T1Ao4OzeJJKaG1UMVk1UEVJRVc4S0hUWFZHOFE0TUJOQktIUy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
