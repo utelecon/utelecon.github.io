@@ -1,33 +1,34 @@
 ---
-title: イベントを作成する
+title: How to Create Webex events
+layout: en
 ---
 
-## イベントを作成する
-1. イベントのメニューを表示するには，ホーム画面の「Webex Events」をクリックします．
+## Create an event
+1. To display the events menu, click "Webex Events" on the home screen.
 
 	![Webex Eventsを表示する](img/webex_toppage_events.png){:width="700px"}
 
-2. 「イベントのスケジュール」をクリックします．
+2. Click on "Event Schedule".
 
 	![イベントのスケジュールをクリック](img/webex_events_top.png){:width="500px"}
 
 
-3. 各種設定を行います．
-	* **イベント名**： このイベントの名称を入力します．**必須項目です．**
-	* **イベントパスワード**： 任意の文字列が表示されていますが，**変更可能です．**
-	* **日付と時刻**： この画面を開いた直近の時間が表示されていますが，変更することができます．
-	* あとは特に変更する必要はないはずです．使い慣れてきたらカスタマイズに挑戦してみてください．
+3. Make various settings.
+	* **Event title**： Enter a title of this event.**Required field.**
+	* **Event password**： A random set of alphabets is displayed, but **it can be changed.**
+	* **Date and time**： It will display the time of your last access to this screen, but you can change it.
+	* No further changes should be necessary. Try customizing once you get used to it.   
 	![イベント設定の画面](img/webex_events_setting.png){:width="700px"}
-	* 「イベントをスケジュール」を押すと，イベントが作成され，URL等の情報が表示されます．
-	* パネリストは，イベント中に運営やプレゼンテーションをする役割を持ちます．
-		* パネリストには，パネリスト用のアドレスを伝えるか，イベント番号とパネリスト用のパスワードを伝えます．パネリストはテレビ会議システム（いわゆるPolycom等）からも接続できます．ビデオアドレスとパネリスト用のパスワードを伝えます．
-		* それ以外の参加者には，参加者用のアドレスを伝えるか，イベント番号とイベントパスワードを伝えます．
-		* 主催者キーは，主催者が万が一接続トラブル等で切断されてしまったときに再度接続して主催者に復帰するときに使用します．主催者になり得る人にしか教えない方が良いです．
+	* Press "Schedule Event" to create an event and display information such as the URL.
+	* Panelists are responsible for organizing and presenting during the event.
+		* Provide panelists with the event address or the event number and the password. Panelists can also connect from a video conference system (Polycom, etc.). Give the video address and the password for the panelists.
+		* For other participants, give the participant's address or the event number and event password.
+		* The host key is used to return as the host when re connecting to a meeting if the host is disconnected due to a connection problem. Only share the host key to those who may become organizers of the event.
 	![イベント情報の画面](img/webex_events_create_finish.png){:width="700px"}
-	* このイベント情報は，ホーム画面の該当のイベント名をクリックすると再度表示することができます．（開始を押すと始まってしまいます．）
+	* This event information can be displayed again by clicking the event name on the home screen (If you press “Start”, the event will resume).
 	![イベント情報の画面](img/webex_events_open.png){:width="700px"}
 
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Back to How to Use Webex</a>
