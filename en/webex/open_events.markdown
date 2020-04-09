@@ -1,16 +1,17 @@
 ---
-title: Webex Eventsの開始
+title: How to start Webex events
+layout: en
 ---
 
-## イベントを行う
-* **イベントを開始するためには，開催者が明示的に開始する必要があります．**
-* スケジュールされているイベントは，ホーム画面に表示されているので，該当するイベントの「開始」ボタンを押すと，プレビュー画面が表示されますのでそこで接続機器や音声などの確認をしてから，「イベントを開始する」ボタンで即座に始めることができます．
+## Start an event
+* **To start an event, the organizer must resume it.**
+* The scheduled event will be displayed on the home screen; press the "Start" button of the corresponding event. A preview screen will be displayed. Once you check the connected devices and audio, you can start immediately with the "Start the event" button.
 
 	![ホーム画面イベント開始](img/webex_events_open.png){:width="700px"}
 
-* スケジュールしてあるイベントであっても，開催者が「イベントを開始する」をクリックして開始してなければ，参加者は会議に参加することができません．
+* Participants will not be able to join the meeting, even a scheduled one, until the organizer clicks "Start the Event" and starts the meeting.．
 
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Back to How to Use Webex</a>
