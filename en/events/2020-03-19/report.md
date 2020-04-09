@@ -9,7 +9,7 @@ layout: en
 　We first described the main types of online teaching, and the basic flow of a simple online class using Zoom (how to create a room, how to enter and exit, etc.). After that, as a practical part, microphone and camera settings, participant management (mute control), screen sharing (material presentation), chat (question and answer), raising hand (question and answer), polling (question from teacher) , Breakout (group work) and other functions were introduced.  
   
   
-　we are sorry for those who could not participate because the meeting exceeded 1000 people immediately after the start. We released a recorded video of the workshop, so if you are interested, please watch it.  
+　We are sorry for those who could not participate because the meeting exceeded 1000 people immediately after the start. We released a recorded video of the workshop, so if you are interested, please watch it.  
 　Also, thank you for those who participated on the day. Even after the basic course, individual consultation time was set up, and 500 people remained for about 30 minutes from the end of the workshop, and 200 people remained for about 1 hour and 30 minutes from the end. Thank you for your participation. 
   
 [Handouts](workshop_how_to_use_zoom.pdf)  
@@ -49,8 +49,8 @@ In addition, because it is difficult for participants to work together only with
 
     
 ## In conclusion
-It was our first attempt on an online workshop for 1000 people. We are happy that the course went well and without any big problems. we hope this report will be especially useful for those who are giving large online courses.　
-We appriciate all the participants and many people who are involved in the construction of the portal site.
+It was our first attempt on an online workshop for 1000 people. We are happy that the course went well and without any big problems. We hope this report will be especially useful for those who are giving large online courses.　
+We appreciate all the participants and many people who are involved in the construction of the portal site.
 We would like to continue trying to provide meaningful workshops and information in the future. Thank you for your kind support.
 
 (Lui Yoshida，Kayoko Kurita)
