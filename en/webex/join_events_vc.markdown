@@ -29,6 +29,8 @@ layout: en
 <br>
 <br>
 <a href="index" target="_blank">Back to How to Use Webex</a>
+<br>
 <a href="meeting_participant" target="_blank">Go to What you can do in a meeting (for Participant)　</a>
+<br>
 <a href="meeting_owner" target="_blank">Go to What you can do in a meeting (for Instructor) </a>
 
