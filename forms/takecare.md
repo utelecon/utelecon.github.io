@@ -16,7 +16,11 @@ title: 学生ケア 学科・専攻 担当登録フォーム
 
 場合によると個人的事情を含んだ連絡が送られることになるかも知れないため, 教職員の方の登録をお願いします.
 
-オンライン授業・Web会議 ポータルサイト
+オンライン授業・Web会議 ポータルサイト 編集者一同
 
-<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhKiEyE2V_T1Ao4OzeJJKaG1UMVk1UEVJRVc4S0hUWFZHOFE0TUJOQktIUy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+以下がうまく表示できていない場合, 以下のリンクをご利用下さい
+
+* <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhKiEyE2V_T1Ao4OzeJJKaG1UMVk1UEVJRVc4S0hUWFZHOFE0TUJOQktIUy4u" target="_blank">
+
+<iframe width="800px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhKiEyE2V_T1Ao4OzeJJKaG1UMVk1UEVJRVc4S0hUWFZHOFE0TUJOQktIUy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
