@@ -1,33 +1,36 @@
 ---
-title: Webex Eventsへの参加 （テレビ会議システム）
+title: How to join Webex Events （TV Conference Systems）
+layout: en
 ---
 
-## テレビ会議システムで会議に参加する
+## Join a meeting with a video conferencing system
 
-1. テレビ会議システムから 210.4.202.4 にコールします
-1. ミーティング番号を入力するようアナウンスが流れるので，開催者から送られてきたミーティング番号を入力し，最後に # を入力します
-1. イベントにパネリスト用パスワードが設定されている場合は，パスワードの入力を求めるアナウンスが流れますので，開催者から送られてきたパスワードを入力し，最後に # を入力します
-* イベントが開始されていない場合は，自動的に切断されます
+1. Call 210.4.202.4 from the video conferencing system
+1. An announcement will prompt you to enter the meeting number. Enter the meeting number sent from the host and press "#" at the end.
+1. If a panelist password is set for the event, an announcement will ask you to enter the password. Enter the password sent by the organizer and press "#" at the end.
+* If the event has not started yet, you will be automatically disconnected.
 
-## 使える機能
+## Functions
 
-* ブラウザや，デスクトップアプリ，タブレット・スマートホンアプリで開催するときよりも機能は限定されます．
+* The functions are more limited than when using a browser, desktop application, or tablet / smartphone application.
 
-### コンテンツ共有
+### Contents sharing
 
-* テレビ会議システムからコンテンツ共有を開始すると，Webex Trainingで参加している開催者・参加者にもコンテンツが共有されます．
-* Webexで参加している開催者・参加者からコンテンツの共有がおこなわれると，テレビ会議システムからの開催者・参加者にもコンテンツが共有されます．
+* When you start contents sharing from the video conference system, the contents are also shared with hosts & participants from Webex Training.
+* When content are shared from the host & participants on Webex, the contents are also shared with the host & participants from the video conference system.
 
-### ミュートの設定・解除
+### Mute / Unmute Settings
 
-* **テレビ会議システムのミュート設定（テレビ会議システムからWebexに音声を送るかどうか）のほかに，Webex側でテレビ会議システムをミュートすることが可能です．**
-* 主催者側で「全員をミュート」などをやると，Webex側でテレビ会議システムがミュートになります．
-* テレビ会議システムからこのミュートを設定・解除するには，ダイヤルパッドで「*6」を入力します．
+* **In addition to the mute setting of the video conference system (whether to send audio from the video conference system to Webex), it is possible to mute the video conference system from the Webex side.**
+* When the host presses  "Mute all", Webex will mute the video conferencing system.
+* To set / cancel this mute from the video conference system, enter "* 6" with the dial pad.
 
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
-<a href="meeting_participant" target="_blank">会議でできること（参加者）をみる</a>
-<a href="meeting_owner" target="_blank">会議でできること（開催者）をみる</a>
+<a href="index" target="_blank">Back to How to Use Webex</a>
+<br>
+<a href="meeting_participant" target="_blank">Go to What you can do in a meeting (for Participant)　</a>
+<br>
+<a href="meeting_owner" target="_blank">Go to What you can do in a meeting (for Instructor) </a>
 

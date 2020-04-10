@@ -1,24 +1,29 @@
 ---
-title: Webex Eventsへの参加
+title: How to Join Events
+layout: en
 ---
 
-## Eventsへ参加する
-* 開催者から送られてきたメールにあるリンクをクリックすると，デフォルトのブラウザが開き，イベントの情報が表示されます．開催者がイベントを開始していない場合，セッション状態が「未開始」となり，右のフォームに入力ができないようになっています．
+## Attending Events
+* Clicking on the link in the email sent by the host will open the default browser and display the event information. If the host has not started the event, the session status will be "Not started," and you will not be able to fill out the form on the right side of the screen.
 
 	 ![情報入力画面](img/webex_events_participate.png){:width="700px"}
 
-* 名前・メールアドレス・開催者から得たパスワードを入力し，「今すぐ参加」をクリックします．
+* Enter your name, e-mail address and password obtained from the host and click "Join now".
 
 	 ![プレビュー画面](img/webex_events_participate2.png){:width="700px"}
 
-* 右下で，オーディオ，マイクの設定を行います．ヘッドセットを装着する場合など，どの機材でオーディオやマイクを使うのかの設定切り替えをここで行います．ここでうまくいかなくても，参加してからでも変更できます．
-	 * マイクがうまく聞こえるかどうかをここで確認しておきます．音を出したときマイクの下のインジケータに反応があれば音をひろえています．
-* 画面内にあるマイクのボタンはミュートの解除・設定を行います．デフォルトは音が聞こえている状態です．
-* ここで「イベントへの参加」を押すと会議に参加することができます．
-* 開催者が開催していない場合には時間を過ぎている場合であっても参加することができません．
+* Set the audio and microphone settings in the lower right section of the preview screen. Here, you can change the settings of the equipment to use the audio and microphone. Even if you cannot correctly change the settings, you can change it after joining the meeting.
+	 * Check if the microphone sounds good. If the indicator below the microphone responds when you make a sound, that means the microphone is picking up the sound.
+* The microphone button in the screen mutes / unmutes your microphone. It is unmuted by the default setting.
+* You can join the event by selecting "Attend Event".
+* If the host has not joined yet, you will not be able to participate even if the time has run over the starting time.
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
-<a href="meeting_participant" target="_blank">会議でできること（参加者）をみる</a>
-<a href="meeting_owner" target="_blank">会議でできること（開催者）をみる</a>
+<a href="index" target="_blank">Back to How to Use Webex</a>
+<br>
+<br>
+<a href="meeting_participant" target="_blank">Go to What you can do in a meeting (for Participant)</a>
+<br>
+<br>
+<a href="meeting_owner" target="_blank"> Go to What you can do in a meeting (for Instructor)</a>
