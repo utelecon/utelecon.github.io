@@ -30,44 +30,44 @@ There are four main roles in Webex Training．
 
 ### Chat Panel
 
-* チャットパネルでは，主催者・プレゼンタなど，送信先を切り替えながらチャットをすることができます．すべての参加者とチャットすることもできます．
+*  Chat panel allows all attendees to send messages. You can send a message to organizers or presenters by switching the email destiny. 
 
 	![](img/webex_training_chat.png){:width="300px"}
 
-### レコーダーパネル
+### Recorder Panel
 
-* レコーダーパネルでは，サーバーへの録画をコントロールできます．
+* In the recorder panel,  you can manipulate recording on the server.
 
 	![](img/webex_training_recorder.png){:width="300px"}
 
-### Q&Aパネル
+### Q&A Panel
 
-* Q&Aパネルでは，参加者からの質問に答えることができます．質問に対する答えが揃うと，他の参加者にも読めるようになります．また，途中からトレーニングに参加した人も，それまでに出たQ&Aを読み返すことができます．
+* Q&A allows participants ask questions to panelists, presenters and organizers. Answered questions can be seen on the other participants' screen.  Those who have just entered the session can read all Q&As.
 
 	![](img/webex_training_qa.png){:width="300px"}
 
-### 投票パネル
+### Poll Panel
 
-* 投票パネルでは，出席者にクイズを出したり，アンケートを取ったりするなどできます．プレゼンターのみが投票を開始することができます．
+* Poll panel allows participants to answer quizzes and questionnaires. Only presenters can start polling．
 
 	![](img/webex_training_poll.png){:width="300px"}
 
-### ブレイクアウトセッションパネル
+### Breakout Session Panel
 
-* ブレイクアウトセッションパネルでは，主催者とプレゼンターがブレイクアウトセッションをオーガナイズすることができます．
+*  At the breakout session panel, organizers and presenters can organize breakout sessions.
 
 	![](img/webex_training_breakout.png){:width="300px"}
 
-### 全画面表示中の操作方法
+### Operating on Maximized Screen
 
-* プレゼンタからコンテンツ共有をしている間は，すべての参加者に全画面でコンテンツが表示されます．また，カメラ映像をダブルクリックすると，全画面で表示されます．
-* その間は，マウスカーソルを画面上部に持って行くと各機能のボタンが表示され，各種ウィンドウを表示できるようになります．
+* When presenters share the contents with participants or participants double-click the camera screen, all participants view the maximized screen.
+* In Maximized screen mode, place the cursor over the upper screen and then you can see buttons below.
 
 	![](img/webex_training_fullscreen_buttons_host.png)
 	![](img/webex_training_fullscreen_buttons_participant.png)
 
-* 上が主催者側，下が出席者側の様子です．
+* Above: Organizers' monitor; Below: Attendees' monitor
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Back to How to Use Webex</a>
