@@ -1,93 +1,96 @@
 ---
-title: Webex Eventsでできること（開催者・参加者）
+title: What is possible with Webex Events?（for Instructors・Participants)
+layout: en
 ---
 
-## 役割
+## Roles
 
-Webex Eventは以下の権限があります．
-* **主催者**： イベントの開始・終了をする他，他の参加者の権限を設定することができます．
-* **プレゼンター**： コンテンツの共有をすることができます．自分のミュートの設定・解除はすることができます．
-* **パネリスト**： 参加者からのQ&Aに回答することができます．自分のミュートの設定・解除はすることができます．
-* **投票担当者**： 主催者・プレゼンター・パネリストの中のいずれか一人がなることができ，投票の
-* **参加者**： カメラ映像は送信されず，主催者がミュートを解除しないと，自分でもミュートを解除できません．また，参加者同士は完全に見知らぬ相手同士が同じイベントに参加している想定なので，チャットは参加者同士ではできず，主催者・パネリスト・プレゼンターのみとしかできません．唯一，Q&Aのみ他の参加者のやりとりも見ることができます．
+Webex Event has the following roles.
+* **Host**： In addition to starting and ending the event, you have control over the roles of other participants.
+* **Presenter**： You can share content with others, and can also mute/unmute yourself.  
+* **Panelist**： You can answer Q & A from participants, and can also mute/unmute yourself.  
+* **Managing Polls**：  Any one of the host, presenter, or the panelists can be in charge of creating a poll.
+* **Participants**： Video images of the participants will not be shown (the participants' camera will be turned off completely), and they cannot unmute themselves unless the host does. Also, since it is assumed that participants of the event do not know each other, chatting is not possible between the participants.  The participants can only chat with the host, the panelists and the presenter. The Q&A is the only platform on which participants can view other participants' messages.
 
-## 画面の構成
 
-* イベントに入ると下記のような画面になります．
+## Screen composition
+
+* Once you join an event, the screen will look as the following:
 
 	![](img/webex_events_entryview.png){:width="400px"}
 
-* 画面の下部にボタンが並んでいます．この画面は主催者の見た目で，参加者はボタンが少なくなります．マウスをボタンにあわせると名称が表示されます．左から順番に説明します．
+* There are buttons at the bottom of the screen. This screen is what it looks like for the host; Participants have fewer buttons. Move the mouse over the button to display the name. We will explain each icon from left to right.
 
 	![](img/webex_meeting_entryview_numbering.png){:width="500px"}
-	1. **ミュート**： 黒くなっているときはマイクがオンになっています．ミュートのときは赤くなります．**参加者は自分でミュートを解除することはできません．**
-	1. **ビデオを停止**： 黒くなっているときはカメラがオンになっています．カメラがオフになっているときは赤くなります．
-	1. **コンテンツの共有**： 共有できるのはプレゼンターだけです．画面共有を行い，他の参加者に資料を共有するための機能です．
-	1. **会議の録画**： 録画の開始・終了は主催者のみができます．会議の様子を録画して残すことができます．クラウド上（Webexのサーバー上）に残すことも，手元のコンピューター上に残すこともできますが，設定によっては手元のコンピューター上への録画は無効になっていることもあります．
-	1. **参加者**： 参加者ボタンを押すと参加者一覧が表示されます．
-	1. **チャット**： チャットボタンを押すとチャットウィンドウが現れて，全員や特定の人にメッセージを送ることができます．なお，参加者は主催者・プレゼンター・パネリストとのみチャットすることができます．
-	1. **他のオプション**： ここにはその他のオプションがあります．イベントへ参加をさせないようにする，参加者の入室時に，音を鳴らしたり，ミュートで入ってもらう設定などを行うことができます．投票機能はブラウザでは行うことができずデスクトップアプリが必要になります．
-	1. **退出**： 会議室から退出します．
+	1. **Mute**： When black, the microphone is on. It turns red when muted. **Participants cannot unmute themselves**
+	1. **Stop video**： When black, the camera is on. It turns red when the camera is off.
+	1. **Contents sharing**： Only presenters can share contents. This is a function for sharing screens and sharing materials with other participants.
+	1. **Recording the meeting**： Only the organizer can start and stop recording. You can record the meeting. You can leave it either on the cloud (Webex server) or on your computer, but depending on your settings, recording on your computer may be disabled.
+	1. **Participants**： Press the participant button to display the list of participants.
+	1. **Chat**： Pressing the chat button will bring up a chat window where you can send a message to everyone or a specific person. Participants can only chat with the host, presenters and panelists.
+	1. **Other settings**： There are other settings here. You can make settings such as stopping anyone else from joining the event, playing a sound when a  participant enters the room, or have participants enter on mute. The voting function cannot be performed in a browser, and requires a desktop application.
+	1. **Leave**： Leave the meeting.
 
 以下，主に利用するメニュー項目について，追加で詳細を説明します．
 
-## 画面の共有
+## Screen sharing
 	
-「コンテンツの共有」を押すと，共有する画面の選択肢が出てきます．希望のものを選択して「共有」を押すと，画面の共有が始まります．
+When you press "Share Content", the options of which screen to share will appear. Select the one to share and press "Share" to start.
 
 ![](img/webex_share.png){:width="400px"}
 	
-* 「画面1」を選択すると，共有する人の画面そのものが全員に共有されます（マルチモニタなどで画面が複数ある場合は画面1，画面2…と選択肢が増えます）．
-* 現在開いているウィンドウも選択肢に表示されます．ウィンドウ単位で画面共有することもできます．ウィンドウ以外の場所を見られたくない場合は，そのウィンドウを選択して画面共有することをおすすめします．
-* 「新しいホワイトボード」を選択すると自由に描けるホワイトボードが全員に共有されます．
+* When "Screen 1" is selected, the screen of the person sharing the screen itself is shared with everyone (If you have multiple screens on a multi-monitor, the number of choices increases to Screen 1, Screen 2, and so on).
+* The window that is currently open is also displayed as an option. You can also share the screen in window units. If you don't want to show anywhere other than one window, we recommend that you select the window to share.
+* If you select "New Whiteboard", a whiteboard that you can draw on freely will be shared with everyone.
 
-## スピーカー・マイク・カメラの詳細設定
+## Advanced settings for speaker, microphone and camera
 
 ![](img/webex_more_sound.png)
 ![](img/webex_config_sound.png){:width="300px"}
 
 
-「他のオプション」をクリックし，「スピーカー、マイク、カメラ」をクリックすると，スピーカー・マイク・カメラについての設定・確認ができます．出席者はカメラ映像の送信はできないので，「スピーカー、マイク」になり，カメラの設定はできません．
-* **スピーカー** : 使いたいスピーカーを選択できます（別途スピーカーを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．「テスト」をクリックすると確認音が流れます．
-* **マイク** : 使いたいマイクを選択できます（別途マイクを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．正しくマイクから音が拾えていれば下のメーターが振れますので確認することができます．必要に応じて「音声を自動調整する」にチェックを入れて下さい．
-* **カメラ** : 使いたいカメラを選択できます（別途マイクを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．すぐ下にカメラのプレビューが表示されますので確認できます．
+Click on "Other Options" and then "Speakers, Microphones, Cameras" to set and check the speaker / microphone / camera. Since attendees cannot send video images, their settings become only "speakers and microphones" and cannot set cameras.
 
-## 参加者
+* **Speaker** : You can select the speaker you want to use (if you have a separate speaker, you will have multiple choices, so select the one you want to use). Click "Test" to hear a confirmation sound.
+* **Microphone** : You can select the microphone you want to use (if you have a separate microphone, you will have multiple choices, so select the one you want to use). If the sound is properly picked up from the microphone, the meter below will swing. Check "Automatically adjust audio" if necessary.
+* **Camera** : You can select the camera you want to use (if you have a separate microphone, you will have multiple choices, so select the one you want to use). A preview of the camera view is displayed immediately below.
 
-「参加者」を押すと，参加者一覧が見られる画面が出てきます．
+## Participants
+
+Pressing "Participants" will bring up a screen where you can see a list of participants.
 
 ![](img/webex_participants_event_host.png)
 ![](img/webex_participants_event_list.png){:width="400px"}
 
-左側が主催者側の様子，右側が「すべての出席者を表示…」をクリックすると表示されるウィンドウです．
+The left is how the window will look like from the host side, and the right side is the window displayed when you click "Show all attendees...".
 
 ![](img/webex_participants_event_participant.png)
 
-参加者側の様子です．
+How it looks from the Participants' side:
 
-* **手のアイコン**： 右下の手のアイコンを押すと「手を挙げている」ことになり，主催者にも手を挙げていることがわかります．上の図では，タブレットから参加している参加者が手を挙げています．手を挙げていない参加者は，「すべての出席者を表示…」をクリックすると，一覧表示されます．
-* **マイクのアイコン**： マイクのアイコンが赤くなっている参加者は，マイクがミュート状態になっています．主催者は，参加者のマイクをミュートすることもできます．上の図では，test attendeeのマイクはミュート状態になっています．
-* **メガホンのアイコン**： 主催者・プレゼンター・パネリストにフィードバック（リアクション）を送ることができます．
-* パネリストへの昇格： 出席者リストを表示している時に参加者を選択して「パネリストに指名」を押すとパネリストに変更することができます．パネリストになると，そこからさらにプレゼンターに変更することもできます．
+* **Hand icon**： Pressing the hand icon in the lower right means "raising your hand", which will show the host that you are raising your hand. In the figure above, the person participating from the tablet is raising his hand. The list of participants who have not raised their hands can be seen by clicking "Show all attendees ...".
+* **Microphone icon**： A red microphone icon indicates that the participant's microphone is muted. The host can also mute participants' microphones. In the figure above, the microphone of a test attendee is muted.
+* **Megaphone icon**： You can send feedback (reaction) to the host, presenter and panelists.
+* **Panelist promotion**： While viewing the attendees list, select a participant and press "Promote to panelist" to change to a panelist. Once you become a panelist, you can also change to a presenter from there.
 
-## チャット
+## Chat
 	
-「チャット」を押すと，テキストチャットができるようになります．自分が参加する以前のチャットの履歴は読むことができません．
+Press "Chat" to enable text chat. You cannot read the chat history before you have joined. 
 
 ![](img/webex_chat.png)
 	
-* **保存先**： 日本語が変ですが，送信する相手を変更できます．
+* **Save to**： You can change the recipient of the chat message.
 
 ## Q&A
 	
-「Q&A」を押すと，主催者・プレゼンター・パネリストに質問を送ることができます．
+Press "Q & A" to send a question to the host, presenter and panelist.
 
 ![](img/webex_events_qa_host.png)
 ![](img/webex_events_qa_participant.png)
 
-* 左側が主催者側の様子，右側が参加者側からの様子です．質問に対する回答が揃うと，両方が全参加者に共有されます．途中からイベントに参加した参加者も過去のQ&Aを読むこともできます．
-* 質問する相手を主催者だけ，など選択することができます．
+* The left photo shows how the host's screen looks like, and the right photo is the participant's screen. Once the questions have been answered, both the questions and answers will be shared to all participants. People who participated in the event midway can also read the past Q & As.
+* You can choose to send questions to only the host, and not to the other participants of the meeting.
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Back to How to Use Webex</a>
