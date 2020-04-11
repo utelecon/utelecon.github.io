@@ -17,5 +17,9 @@ layout: en
 <br>
 <br>
 <a href="index" target="_blank">Return to How to Use Webex</a>
+<br>
+<br>
 <a href="meeting_participant" target="_blank">Go to What you can do in a meeting (for Participant)　</a>
+<br>
+<br>
 <a href="meeting_owner" target="_blank">Go to What you can do in a meeting (for Instructor)</a>
