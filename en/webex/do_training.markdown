@@ -1,33 +1,34 @@
 ---
-title: Webex Trainingでできること（開催者・参加者）
+title: What is possible with Webex Training?（for Instructors・Participants)
+layout: en
 ---
 
-## 役割
+## Roles
 
-Webex Trainingは以下の権限があります．
-* **主催者**： イベントの開始・終了をする他，他の参加者の権限を設定することができますが，コンテンツの共有と投票はできません．ブレークアウトセッションを作ることができます．
-* **プレゼンタ**： コンテンツの共有や他の参加者の権限を設定することができます．また投票を作ってオーガナイズすることができます．ブレークアウトセッションを作ることができます．
-* **パネリスト**： 出席者からのQ&Aに回答することができます．
-* **出席者**： カメラ映像の送信，マイクミュートの設定・解除をすることができます．が，主催者かプレゼンタにミュートされたら，自分でミュートを解除することはできません．
+There are four main roles in Webex Training．
+* **Host**： Hosts can start/ close the event,  change the other participants' authorizations and build breakout session.  However, hosts cannot share the contents, nor participate in a poll. 
+* **Presenter**： Presenters can share the contents and change the other participants' authorizations. Presenters can also make and organize polls and breakout sessions.
+* **Panelist**： Panelists can answer questions from participants.
+* **Participant**： Participants can share their camera screen and mute/ unmute their microphone. However, if organizers or presenters mute participants, the unmute function becomes locked. 
 
-## 画面の構成
+## Webex Training Screen
 
-* トレーニングに入ると下記のような画面になります．このページでは小さく表示していますが，実際は全画面の大きさで表示されます．
-	* トレーニングに入った最初は「スピーカー/マイクの音声テスト」が表示されます．利用したいスピーカー・マイクを選択し，OKを押します．それぞれテストをすることができます．
+* Below is the Webex Training screen. Although this screenshot looks small, the actual brower can be a maximum screen.
+	* Entering the training session, the screen shows "Test your speaker/ microphone". Choose the speaker and mirophone that you want to use. Click OK button and test your speaker and microphone.
 	![](img/webex_training_view.png){:width="700px"}
 
-* プレゼンターは以下のような画面になり，「自分のデスクトップを共有」をクリックするとデスクトップを参加者に共有できます．「自分のデスクトップを共有」の右の下向き矢印をクリックすると，特定のアプリケーションのみ共有する等もできます．
+* For presenters, you can see the screen below. Click "Share your desktop screen", and share your screen with participants. Click the arrow next to "Share your desktop,"  and presenters can share designated applications.
 	![](img/webex_training_presenterview.png){:width="700px"}
 
-### 参加者パネル
+### Participants Panel
 
-* 参加者パネルでは，参加者の一覧を見ることができるほか，主催者とプレゼンタは出席者のマイクミュートを制御したり，（右クリックで）権限を設定することができます．
-* いずれかの参加者がカメラ映像を送信していると，図のように発話者のカメラ映像が表示されます．カメラ映像をダブルクリックすると全画面で見ることができるようになります．
-* 下に並んでいるアイコンを押すと，主催者側にフィードバックを返すことができます．
+* On the participant panel, you can see the list of participants. Hosts and presenters can mute or give the authorizations to attendees on right click.
+* If a partcipant shares their camera screen, the shared screen is shown as below. If you double-click the screen, the clip maximize on your computer / tablets.
+* Press the icon on the bottom and you can give feedback to organizers.
 
 	![](img/webex_training_participants.png){:width="300px"}
 
-### チャットパネル
+### Chat Panel
 
 * チャットパネルでは，主催者・プレゼンタなど，送信先を切り替えながらチャットをすることができます．すべての参加者とチャットすることもできます．
 
