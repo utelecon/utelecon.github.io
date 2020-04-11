@@ -1,19 +1,21 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[3]:
 
 
 from pandas import DataFrame, read_excel, concat
 from glob import glob
 
-outdated_Q3 = {'0.   いずれもなし／分からない', '1．上記のいずれかを購入予定である／入荷待ちである', 
-               '2．iPadなどのタブレット（キーボードを用意して下さい）', 
+outdated_Q3 = {'0.   いずれもなし／分からない', 
+               '1.   スマートフォン（SoftBankデータプラン50GB+, auデータMAX)',
+               '1.   スマートフォン（SoftBankデータプラン50GB+, auデータMAXプランなど）：月50GB程度速度制限無しで使用できるもの',
+               '2. モバイルWiFiルータ：速度制限無しで使える容量が月50GBに満たないもの',
                '3．モバイルWiFiルータ（WiMax, ポケットWiFiなど）：月50GB程度速度制限無しで使用できるもの',
                '4．自宅や寮に，光ファイバー・ケーブルテレビなど固定の高速回線が来ており，それにスマートフォンやPCをWiFiでつなぐことで動画の視聴に問題がない'
               }
 
-answers = glob('in_data/*')
+answers = glob('in_data/*.xlsx')
 students = 'students.xlsx'
 
 df_students = read_excel(students, dtype=str).fillna('')
@@ -42,4 +44,10 @@ departments = df_merge.groupby(['学部名', '学科名'])
 for s, d in departments.groups:
     df = departments.get_group((s, d)).sort_values([q6, q3])
     df.to_csv(f'out_data/{s}{d}.csv', encoding='utf_8_sig')
+
+
+# In[ ]:
+
+
+
 
