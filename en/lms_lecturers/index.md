@@ -29,7 +29,7 @@ layout: en
 * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/">ITC-LMS website</a>
 * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: ITC-LMS</a>
 * After you log in ITC-LMS, you can download the teacher's manual.
-
+a
 ## Subpages list
 * <a href="login" target="">How to log in ITC-LMS (TBA)</a>  
 * <a href="information" target="">Set the Notifications (TBA)</a>  
