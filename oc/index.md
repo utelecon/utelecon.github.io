@@ -88,7 +88,7 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 1. **G Suite for Education (Google):** これはメール(Gmail), カレンダーの他, レポートやプレゼンテーションの作成など, いろいろなことに使えます. やはりUTokyo Accountが正しく設定されている必要があるのと, 有効化を行う必要があります.
   * **作業:** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a> の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (<a href="https://youtu.be/89_fjWDdzQ4" target="_blank">手順動画</a>).
   * このあと実際にG Suite for Education が使える(Googleにログインできる)ようになるまで, 最大1時間ほどお待ち下さい. 
-  * **作業:** 最大1時間待ったら, <a href="https://google.com/" target="_blank">Google</a>にログインして見て下さい (手順 <a href="https://youtu.be/rFciRfoU2KA" target="_blank">パソコン</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank">スマホ</a>). もしすでに別の(例えば普段自分が使っている)アカウントでログインしていたら, 一度ログアウトしてから大学のアカウントでログインします(手順 <a href="https://youtu.be/I0yL_9sqdjs" target="_blank">パソコン</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank">スマホ</a>). 
+  * **作業:** 最大1時間待ったら, <a href="https://google.com/" target="_blank">Google</a>にログインして見て下さい (手順 <a href="https://youtu.be/rFciRfoU2KA" target="_blank">パソコン</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank">スマホ</a>). もしすでに別の(例えば普段自分が使っている)アカウントでサインインしていたら, 大学のアカウントを追加します(手順 <a href="https://youtu.be/I0yL_9sqdjs" target="_blank">パソコン</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank">スマホ</a>). 
   * **作業:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank">手順動画</a>)
 
 **注意:** MicrosoftもGoogleも, すでに自分で使っているという人もいるとおもいます. そういう人も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank">Google</a>) をマスターしましょう. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, そういう場合, 普段使っていたGoogleやMicrosoftのアカウントでログインしている状態では見られない, ということになり得るのです.
@@ -102,58 +102,47 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 
 ***
 
-<a name="teleconf"> </a>
-### TV会議システム
-
-本題の TV会議システム です. これに関する情報は今後このページにアップします. 今後もこのページをおとずれるようにしてください. それまでは以下を見ておいて下さい.
-
- * [Zoom](../zoom/join)
- * [WebEx](../webex/join_meeting.markdown)
- * [GoogleハングアウトMeet](../google_hangouts_meet/)
-
-以上ができたと思ったら, ページ下部の[オンライン授業を受ける準備ができているかのチェック](#check-online-ready)に進んでください.
-
 特に新入生の皆さんにしておいてもらいたい準備
 ---------------------------
 
 * ネット環境 : 自宅から授業を受けるためには, 大量の動画を見ても大丈夫な環境が必要です. 家ではスマホをWifiにつなげているという人は大丈夫ですが, モバイル(LTEなど)でしかつなげていない人は注意してください. 「ギガ不足」になってしまうと, 動画が視聴できない, 視聴しようと思ってギガを購入するとお金がかかる, ということにならないよう, 十分な容量または無制限のネット環境を引くことをおすすめします. 
 * パソコン : スマホで動画を視聴することは可能ですから, スマホだけでオンライン授業を視聴することは可能です. しかし, 大学での学習のためにはレポートの作成などでパソコン (Windows, Mac, Linuxなど) の環境が望ましいです. また, オンライン授業中の活動の中には, 動画を視聴しながらちょっとした作業や演習をする機会が増えます. 大きな画面の中に動画と他の作業用の窓を同居できるように, パソコンの環境を用意しましょう.
 
-注意: この時期(3月)はインターネットの申込みが増えるシーズンで, 申し込みをしてから開通までに時間がかかります. 数週間が普通と言われているので, 早めに申込みをしてください.
-
 ***
 
 <a name="check-online-ready"> </a>
 ### オンライン授業を受ける準備ができているかのチェック
 
- <a name="check-excel"> </a>
- * この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. <font color="red">3/22更新: もし東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれたら,</font>
+<a name="check-itc-lms"> </a>
+* オンライン授業URLにつないでみよう. この, <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank">ITC-LMS</a>のページを見て, そのページに書かれているオンライン授業URL (各種)をクリック・タップしてみてください. これは自分のブラウザやアプリなどが授業で使うシステムに対応しているかどうかのチェックです. つないでも誰もいない部屋につながるだけで, 画像や音などは流れません. つなげることがが確認できたらすぐに退席しましょう. 音が聞こえるかどうかなどは授業に少し前につないでみたり, 事前に友達・知り合いと試すチャンスがあれば試してみてください.
+
+以下は必須ではありませんが, 授業によって使うので余力があれば試してください.
+
+<a name="check-excel"> </a>
+* この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. Officeへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
+  * **パターン1:** office.comに大学のアカウント (UTokyo Account)でサインインしていればすぐに見られます.
+  * **パターン2:** エラーになる. "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory." みたいなことを言われる. これは大学以外のアカウント(例: 個人でこれまで使っていたアカウント)でサインインした状態になっている場合におきます. 一旦サインアウトして大学のアカウントでサインインして, やり直してください.
+    * <a href="https://youtu.be/SiOS0M9FChk" target="_blank">パソコン</a>
+    * <a href="https://youtu.be/https://youtu.be/QZGGHcQvUXU" target="_blank">スマホ</a>
+  * **パターン3:** 東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれる. どのアカウントでもサインインしていない場合におきます.
+
 ```
 UTokyo AccountのID (10桁の数字)@utac.u-tokyo.ac.jp
 ```
-と記入して先へ進んで下さい. UTokyo AccountのIDは10桁の数字です. なお詳細はわかりませんがこの窓が出てこないこともあります. 次にUTokyo AccountのIDとパスワードを入力する画面が出てきたら, 自分で設定したUTokyo AccountのIDとパスワードを入力して下さい. それで無事見られれば, Office 365の設定ができています (<a href="https://youtu.be/iJbq6unDIOA" target="_blank">手順動画</a>).
 
- <a name="check-google-spreadsheet"> </a>
- * この, <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>が見られるかどうか, リンクをクリックして確かめてみてください. このときもし,
-   * **パターン1:** 今回作った大学のアカウント(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインしている場合は直ちにアクセスできます
+と記入して先へ進んで下さい. UTokyo AccountのIDは10桁の数字です. 次にUTokyo AccountのIDとパスワードを入力する画面が出てきたら, 自分で設定したUTokyo AccountのIDとパスワードを入力して下さい(<a href="https://youtu.be/iJbq6unDIOA" target="_blank">手順動画</a>). そしてやり直してください.
+
+<a name="check-google-spreadsheet"> </a>
+* この, <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>が見られるかどうか, リンクをクリックして確かめてみてください. ただし現在中国にいる人はこのシートにはつなげません. Googleへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
+  * **パターン1:** ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにサインインしている場合は直ちにアクセスできます
     <a name="check-google-spreadsheet-pattern-2"> </a>
-   * **パターン2:** Googleに別のアカウント(例えば自分が普段使っているyyyy@gmail.com)でログインしている場合は「権限が必要です」という窓が出てきます.
-     * パソコンの場合: 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでログインして下さい. 「アクセス権限のリクエスト」**ではありません.**  すでに何人かの人が「アクセス権限のリクエスト」を送っているようですが, 気にせずもう一度上記からアクセスして, **「アカウントを切り替える」**を選び直して下さい(この場合の<a href="https://youtu.be/yLQcnfZo_24" target="_blank">手順動画</a>).
-     * **(3/27追加)** Androidの場合: Gmailの受信トレイ -&gt; 右上のアイコン -&gt; 「別のアカウントを追加」 -&gt; Google を選び, ログイン画面で今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください. (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">手順動画</a>)
+  * **パターン2:** 「権限が必要です」という窓が出てくる. これは, Googleに別のアカウント(例えば自分が普段使っているyyyy@gmail.com)でサインインしている場合におきます.
+     * **パソコンの場合:** 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでサインインして下さい. 「アクセス権限のリクエスト」**を押してもアクセスできません.**  (この場合の<a href="https://youtu.be/yLQcnfZo_24" target="_blank">手順動画</a>).
+     * **Androidの場合:** ブラウザでgoogle.comを開いて今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でサインインしてください(<a href="https://youtu.be/I0yL_9sqdjs" target="_blank">手順動画</a>)
     <a name="check-google-spreadsheet-pattern-3"> </a>
-   * **パターン3:** そもそもGoogleにログインしていない場合は「ユーザ認証に失敗しました」と表示された後, Googleへのログインを促す画面が出てくるので大学のアカウントでログインして下さい(この場合の<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">手順動画</a>).  
-     * **(3/27追加)** Androidの場合: Gmailの受信トレイ -&gt; 右上のアイコン -&gt; 「別のアカウントを追加」 -&gt; Google を選び, ログイン画面で今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください. (<a href="https://youtu.be/HU3Rv9gTJrw" target="_blank">手順動画</a>)
-   * どうであれ無事見られれば, G Suite for Education (ECCSクラウドメール)の有効化ができています. ただし, 現在中国にいる人はこのシートにはつなげません. Microsoft Excelの方だけ確認してください
- * **Zoomにつないでみよう:** できたら, どちらかのシート(どちらでもよいです)に書かれている, 「TV会議につないでみよう」の下の方にある 「Zoom」と書かれたセルの右にある URL をクリックして, それぞれの TV 会議システムにつないでみましょう. クリックすると, スマホでもパソコンでも, ブラウザの中で始まるかも知れませんし, 何かアプリを入れるように言われるかもしれません. 言われたら入れてください. 入れ方がわからなくなったらブラウザの中で見ても良いですし, このサイト内にある[Zoom](../zoom/)のページを見てインストールしてみて下さい. 
-   * つなぐとナレーション付きの, TV会議ソフト使い方スライドショーが流れています.
-   * 特に, 音が鳴るかを確かめて下さい.
-   * これはTV会議ですので別の人も同時につながっているかもしれません.
-   * つないだすぐの状態で, あなたの姿や音が流れることはないようにあらかじめ設定していますが万が一にも写ってほしくないものや, 聞かれたくない音がある状態では繋げないようにしましょう.
-   * つながったあと, カメラやマイクをオン・オフする練習をしたければしてください. カメラやマイクをオンにしている間はカメラの先にあるものやそこに流れている音が流れますので, 流れても構わない状態で練習してください(何も写らないようにしたければカメラの前を塞ぐなりしてください)
-   * つなげて音が流れることが確認できたら, 好きなときに退室して構いませんが, 時間があればスライドを見て使い方を学び, 実際に試してみて下さい.
-   * 一日に一回程度, 検査・修正などのために停止しているので, アクセスして繋げなかったらあなたの問題だと思わず, しばらくしてもう一度アクセスして見て下さい. 何度やっても繋がらない, なにかおかしいと思ったら, 連絡を下さい (右のメールアドレス).
-
- * (<font color="red">ここから先はまだ準備中です</font>) 同じようにWebExやGoogleハングアウトMeetでもやってみましょう. ただし中国にいる人は, GoogleハングアウトMeetにはつなげません.
+  * **パターン3:** 「ユーザ認証に失敗しました」と表示される. これは, そもそもGoogleにログインしていない場合におきます.
+     * **パソコンの場合:** Googleへのログインを促す画面が出てくるので大学のアカウントでログインして下さい(この場合の<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">手順動画</a>).  
+     * **Androidの場合:** ブラウザでgoogle.comを開いて今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でサインインしてください(<a href="https://youtu.be/5WJvv3aaOwE" target="_blank">手順動画</a>)
 
 なにかおかしい, 接続できない場合は
 ---------------------------
