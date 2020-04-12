@@ -111,17 +111,14 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 ***
 
 <a name="check-online-ready"> </a>
-### オンライン授業を受ける準備ができているかのチェック
+### オンライン授業(TV会議)につなげるかのチェック
 
 <a name="check-itc-lms"> </a>
 * オンライン授業URLにつないでみよう. この, <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank">ITC-LMS</a>のページを見て, そのページに書かれているオンライン授業URL (各種)をクリック・タップしてみてください. これは自分のブラウザやアプリなどが授業で使うシステムに対応しているかどうかのチェックです. つないでも誰もいない部屋につながるだけで, 画像や音などは流れません. つなげることがが確認できたらすぐに退席しましょう. 音が聞こえるかどうかなどは授業に少し前につないでみたり, 事前に友達・知り合いと試すチャンスがあれば試してみてください.
 
-<a name="check-office-gsuite-ready"> </a>
+<a name="check-google-spreadsheet"> </a>
 ### G Suite for EducationやOffice 365が使えるかのチェック
 
-以下は必須ではありませんが, 授業によって使うので余力があれば試してください.
-
-<a name="check-google-spreadsheet"> </a>
 * G Suite for Educationが使えるかのチェック: この, <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>が見られるかどうか, リンクをクリックして確かめてみてください. ただし現在中国にいる人はこのシートにはつなげません. Googleへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
   * **パターン1:** ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにサインインしている場合は直ちにアクセスできます
 <a name="check-google-spreadsheet-pattern-2"> </a>
@@ -136,6 +133,8 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
      * <a href="https://youtu.be/APvrKzxHmLc" target="_blank">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
 
 <a name="check-excel"> </a>
+### Office 365が使えるかのチェック
+
 * Office 365が使えるかのチェック: この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. Officeへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
   * **パターン1:** office.comに大学のアカウント (UTokyo Account)でサインインしていればすぐに見られます.
   * **パターン2:** エラーになる. "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory." みたいなことを言われる. これは大学以外のアカウント(例: 個人でこれまで使っていたアカウント)でサインインした状態になっている場合におきます. 一旦サインアウトして大学のアカウントでサインインして, やり直してください.
