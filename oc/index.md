@@ -138,11 +138,11 @@ UTokyo AccountのID (10桁の数字)@utac.u-tokyo.ac.jp
     <a name="check-google-spreadsheet-pattern-2"> </a>
   * **パターン2:** 「権限が必要です」という窓が出てくる. これは, Googleに別のアカウント(例えば自分が普段使っているyyyy@gmail.com)でサインインしている場合におきます.
      * **パソコンの場合:** 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでサインインして下さい. 「アクセス権限のリクエスト」**を押してもアクセスできません.**  (この場合の<a href="https://youtu.be/yLQcnfZo_24" target="_blank">手順動画</a>).
-     * **Androidの場合:** ブラウザでgoogle.comを開いて今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でサインインしてください(<a href="https://youtu.be/I0yL_9sqdjs" target="_blank">手順動画</a>)
+     * **Androidの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/emnkVSWwScg" target="_blank">手順動画</a>)してからアクセスしてください
     <a name="check-google-spreadsheet-pattern-3"> </a>
   * **パターン3:** 「ユーザ認証に失敗しました」と表示される. これは, そもそもGoogleにログインしていない場合におきます.
      * **パソコンの場合:** Googleへのログインを促す画面が出てくるので大学のアカウントでログインして下さい(この場合の<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">手順動画</a>).  
-     * **Androidの場合:** ブラウザでgoogle.comを開いて今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) でサインインしてください(<a href="https://youtu.be/5WJvv3aaOwE" target="_blank">手順動画</a>)
+     * **Androidの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/emnkVSWwScg" target="_blank">手順動画</a>)してからアクセスしてください
 
 なにかおかしい, 接続できない場合は
 ---------------------------
