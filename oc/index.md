@@ -96,6 +96,7 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
     * パソコン: Googleにサインインしていなければ<a href="https://youtu.be/rFciRfoU2KA" target="_blank">サインインする</a>, すでにほかのアカウントでGoogleにサインインしていれば<a href="https://youtu.be/I0yL_9sqdjs" target="_blank">一旦サインアウトしてサインインする</a>
     * <a href="https://youtu.be/cl8QBaVCaxo" target="_blank">Android</a> Googleアカウントを追加する
     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank">iPhone</a> Googleアカウントを追加する
+
   * **作業:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank">手順動画</a>)
 
 **注意:** MicrosoftもGoogleも, すでに自分で使っているという人もいるとおもいます. そういう人も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank">Google</a>) をマスターしましょう. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, そういう場合, 普段使っていたGoogleやMicrosoftのアカウントでログインしている状態では見られない, ということになり得るのです.
