@@ -88,7 +88,10 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 1. **G Suite for Education (Google):** これはメール(Gmail), カレンダーの他, レポートやプレゼンテーションの作成など, いろいろなことに使えます. やはりUTokyo Accountが正しく設定されている必要があるのと, 有効化を行う必要があります.
   * **作業:** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a> の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (<a href="https://youtu.be/89_fjWDdzQ4" target="_blank">手順動画</a>).
   * このあと実際にG Suite for Education が使える(Googleにログインできる)ようになるまで, 最大1時間ほどお待ち下さい. 
-  * **作業:** 最大1時間待ったら, <a href="https://google.com/" target="_blank">Google</a>にログインして見て下さい (手順 <a href="https://youtu.be/rFciRfoU2KA" target="_blank">パソコン</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank">Android</a>). もしすでに別の(例えば普段自分が使っている)アカウントでサインインしていたら, 大学のアカウントを追加します(手順 <a href="https://youtu.be/I0yL_9sqdjs" target="_blank">パソコン</a>, <a href="https://youtu.be/1xEgqY_364Y" target="_blank">Android</a>). また, Androidではブラウザ以外のアプリ用にもGoogleアカウントの追加をしてください(<a href="https://youtu.be/cl8QBaVCaxo" target="_blank">手順</a>).
+  * **作業:** 最大1時間待ったら, <a href="https://google.com/" target="_blank">Google</a>にログインして見て下さい.
+    * <a href="https://youtu.be/rFciRfoU2KA" target="_blank">パソコンの手順</a>
+    * <a href="https://youtu.be/cl8QBaVCaxo" target="_blank">Androidの手順</a> Googleアカウントの追加をしてください
+    * <a href="https://youtu.be/APvrKzxHmLc" target="_blank">iPhoneの手順</a> Googleアカウントの追加をしてください
   * **作業:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank">手順動画</a>)
 
 **注意:** MicrosoftもGoogleも, すでに自分で使っているという人もいるとおもいます. そういう人も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank">Google</a>) をマスターしましょう. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, そういう場合, 普段使っていたGoogleやMicrosoftのアカウントでログインしている状態では見られない, ということになり得るのです.
@@ -140,9 +143,11 @@ UTokyo AccountのID (10桁の数字)@utac.u-tokyo.ac.jp
      * **パソコンの場合:** 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでサインインして下さい. 「アクセス権限のリクエスト」**を押してもアクセスできません.**  (この場合の<a href="https://youtu.be/yLQcnfZo_24" target="_blank">手順動画</a>).
      * **Androidの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/emnkVSWwScg" target="_blank">手順動画</a>)してからアクセスしてください
     <a name="check-google-spreadsheet-pattern-3"> </a>
+     * **iPhoneの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/APvrKzxHmLc" target="_blank">手順動画</a>)してからアクセスしてください
   * **パターン3:** 「ユーザ認証に失敗しました」と表示される. これは, そもそもGoogleにログインしていない場合におきます.
      * **パソコンの場合:** Googleへのログインを促す画面が出てくるので大学のアカウントでログインして下さい(この場合の<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">手順動画</a>).  
      * **Androidの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/emnkVSWwScg" target="_blank">手順動画</a>)してからアクセスしてください
+     * **iPhoneの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/APvrKzxHmLc" target="_blank">手順動画</a>)してからアクセスしてください
 
 なにかおかしい, 接続できない場合は
 ---------------------------
