@@ -123,7 +123,7 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
   * **パターン1:** office.comに大学のアカウント (UTokyo Account)でサインインしていればすぐに見られます.
   * **パターン2:** エラーになる. "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory." みたいなことを言われる. これは大学以外のアカウント(例: 個人でこれまで使っていたアカウント)でサインインした状態になっている場合におきます. 一旦サインアウトして大学のアカウントでサインインして, やり直してください.
     * <a href="https://youtu.be/SiOS0M9FChk" target="_blank">パソコン</a>
-    * <a href="https://youtu.be/https://youtu.be/QZGGHcQvUXU" target="_blank">スマホ</a>
+    * <a href="https://youtu.be/QZGGHcQvUXU" target="_blank">スマホ</a>
   * **パターン3:** 東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれる. どのアカウントでもサインインしていない場合におきます.
 
 ```
