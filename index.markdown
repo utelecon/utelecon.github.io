@@ -14,6 +14,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/4/12:</span> 授業目的公衆送信補償金等管理協会SARTRASが<a href="https://sartras.or.jp/archives/20200406/" target="_blank">「授業目的公衆送信補償金制度」施行のための補償金の「無償」による認可申請</a>を決定しました.
 * <span style="color:blue;">2020/4/2:</span> <a href="faculty_members/let_students_know_your_url">授業URLの通知の仕方 〜 授業で教員と学生が混乱なく出会うための共通ルール</a> をアップしました. **授業に出たい, けどどこにつないだら良いのか? という人は読んでください**
 * <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoomの初期設定・利用開始時のトラブルに関するFAQ</a>
 
