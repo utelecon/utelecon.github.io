@@ -138,16 +138,16 @@ UTokyo AccountのID (10桁の数字)@utac.u-tokyo.ac.jp
 <a name="check-google-spreadsheet"> </a>
 * この, <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>が見られるかどうか, リンクをクリックして確かめてみてください. ただし現在中国にいる人はこのシートにはつなげません. Googleへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
   * **パターン1:** ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにサインインしている場合は直ちにアクセスできます
-    <a name="check-google-spreadsheet-pattern-2"> </a>
+<a name="check-google-spreadsheet-pattern-2"> </a>
   * **パターン2:** 「権限が必要です」という窓が出てくる. これは, Googleに別のアカウント(例えば自分が普段使っているyyyy@gmail.com)でサインインしている場合におきます.
-     * **パソコンの場合:** 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでサインインして下さい. 「アクセス権限のリクエスト」**を押してもアクセスできません.**  (この場合の<a href="https://youtu.be/yLQcnfZo_24" target="_blank">手順動画</a>).
-     * **Androidの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/emnkVSWwScg" target="_blank">手順動画</a>)してからアクセスしてください
-    <a name="check-google-spreadsheet-pattern-3"> </a>
-     * **iPhoneの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/APvrKzxHmLc" target="_blank">手順動画</a>)してからアクセスしてください
+     * <a href="https://youtu.be/yLQcnfZo_24" target="_blank">パソコンの場合:</a> 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでサインインして下さい. 「アクセス権限のリクエスト」**を押してもアクセスできません.**
+     * <a href="https://youtu.be/emnkVSWwScg" target="_blank">Androidの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
+     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
+<a name="check-google-spreadsheet-pattern-3"> </a>
   * **パターン3:** 「ユーザ認証に失敗しました」と表示される. これは, そもそもGoogleにログインしていない場合におきます.
-     * **パソコンの場合:** Googleへのログインを促す画面が出てくるので大学のアカウントでログインして下さい(この場合の<a href="https://youtu.be/Gz5kObGuXMw" target="_blank">手順動画</a>).  
-     * **Androidの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/emnkVSWwScg" target="_blank">手順動画</a>)してからアクセスしてください
-     * **iPhoneの場合:** Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加(<a href="https://youtu.be/APvrKzxHmLc" target="_blank">手順動画</a>)してからアクセスしてください
+     * <a href="https://youtu.be/Gz5kObGuXMw" target="_blank">パソコンの場合:</a> Googleへのログインを促す画面が出てくるので大学のアカウントでログインして下さい
+     * <a href="https://youtu.be/emnkVSWwScg" target="_blank">Androidの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
+     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
 
 なにかおかしい, 接続できない場合は
 ---------------------------
