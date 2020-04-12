@@ -117,7 +117,7 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 * オンライン授業URLにつないでみよう. この, <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank">ITC-LMS</a>のページを見て, そのページに書かれているオンライン授業URL (各種)をクリック・タップしてみてください. これは自分のブラウザやアプリなどが授業で使うシステムに対応しているかどうかのチェックです. つないでも誰もいない部屋につながるだけで, 画像や音などは流れません. つなげることがが確認できたらすぐに退席しましょう. 音が聞こえるかどうかなどは授業に少し前につないでみたり, 事前に友達・知り合いと試すチャンスがあれば試してみてください.
 
 <a name="check-google-spreadsheet"> </a>
-### G Suite for EducationやOffice 365が使えるかのチェック
+### G Suite for Educationが使えるかのチェック
 
 * G Suite for Educationが使えるかのチェック: この, <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>が見られるかどうか, リンクをクリックして確かめてみてください. ただし現在中国にいる人はこのシートにはつなげません. Googleへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
   * **パターン1:** ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにサインインしている場合は直ちにアクセスできます
