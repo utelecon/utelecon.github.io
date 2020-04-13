@@ -11,13 +11,13 @@ title: カメラに映る背景を隠すためにバーチャル背景（仮想�
 ## 授業前に設定する方法
 
 1. Zoomアプリケーションを立ち上げ，設定を開きます．  
-![open_setting](img/Virtual_BG_common_1_1-2.png){height: 300px}
+![open_setting](img/Virtual_BG_common_1_1-2.png)
 
 2. バーチャル背景（仮想背景）を選びます．  
-![open_setting](img/Virtual_BG_common_2_1-3.png){height: 300px}
+![open_setting](img/Virtual_BG_common_2_1-3.png)
 
 3. 画像をクリックして好きなバーチャル背景（仮想背景）を選択します．「＋」の部分をタップすると背景をオリジナルの画像に差し替えもできます．図のように出来るだけ実際の背景が無地であると，背景が上手く消える可能性が高いです．
-![open_setting](img/Virtual_BG_common_3_1-3.png){height: 300px}
+![open_setting](img/Virtual_BG_common_3_1-3.png
 
 ## 授業中に設定する方法
 
@@ -28,6 +28,6 @@ title: カメラに映る背景を隠すためにバーチャル背景（仮想�
 ![open_setting](img/Virtual_BG_common_5_2-1.png)  
 
 3. 画像をクリックして好きなバーチャル背景（仮想背景）を選択します．「＋」の部分をタップすると背景をオリジナルの画像に差し替えもできます．図のように出来るだけ実際の背景が無地であると，背景が上手く消える可能性が高いです．
-![open_setting](img/Virtual_BG_common_3_1-3.png){height: 300px}
+![open_setting](img/Virtual_BG_common_3_1-3.png)
 
 
