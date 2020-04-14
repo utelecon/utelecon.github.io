@@ -10,6 +10,10 @@ title: Webex アカウントの作成とログイン
 
 <br>
 
+* <span style="color:red; font-size:150%;">「送信」を押したときに「あなたのアカウントは非アクティブです．サイト管理者に連絡してください。」と表示された時は，<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUQzZRMDg4QTRTSkI3NjBIT0IwNVpNTUtTTi4u" target="_blank">リクエストフォーム</a>からご連絡ください．</span>
+
+<br>
+
 * ECCSクラウドメールに，**Webexアカウント情報のリクエスト**という件名のメールが届きます．そこにあるパスワード変更のリンク先は下記のような画面です．ここで，パスワードを設定します．
 	* 10桁の共通IDではじまるアドレスでWebExに登録しても，その変更後のアドレスにメールが届きます．
 

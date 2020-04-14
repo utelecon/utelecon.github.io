@@ -61,9 +61,10 @@ title: Zoom
 
 * [学生・教員共通編](how_to_use_in_classroom_common)
   * <a href="how_to_use_in_classroom_common#use_mic_and_camera">マイクとカメラの設定を変更する（ミュートする，マイクのチェックする，カメラをオンオフするなど）</a>
-	<br>
+  * [カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how_to_use_in_classroom_common_virtual_background)  
+  <br>
 * 授業での使い方（学生編）
-  * <a href="">手を挙げる方法（作成中）</a>
+  * <a href="">手を挙げる方法（作成中）</a>  
   <br>
 * [授業での使い方（教員編）](how_to_use_in_classroom_faculty_members)
   * [授業をスケジュールする](how_to_use_in_classroom_faculty_members#schedule)
