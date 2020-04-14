@@ -14,6 +14,8 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+
+* <span style="color:blue;">2020/4/14:</span> <a href="events/2020-04-16/">「説明会: Sセメスタ開始2週間を経て」</a>をオンラインで実施いたします
 * <span style="color:blue;">2020/4/14:</span> UTASの「オンライン授業URL」，「オンライン授業内容」の情報を簡単に閲覧できる<a href="https://utelecon-directory.adm.u-tokyo.ac.jp/"> 東京大学オンライン講義検索システム </a> の運用を開始しました．利用上の注意点は<a href="faculty_members/let_students_know_your_url.md"> こちら </a>をご覧ください．
 * <span style="color:blue;">2020/4/12:</span> 4/6に, 授業目的公衆送信補償金等管理協会SARTRASが<a href="https://sartras.or.jp/archives/20200406/" target="_blank">「授業目的公衆送信補償金制度」施行のための補償金の「無償」による認可申請</a>を決定しました.
 * <span style="color:blue;">2020/4/2:</span> <a href="faculty_members/let_students_know_your_url">授業URLの通知の仕方 〜 授業で教員と学生が混乱なく出会うための共通ルール</a> をアップしました. **授業に出たい, けどどこにつないだら良いのか? という人は読んでください**
