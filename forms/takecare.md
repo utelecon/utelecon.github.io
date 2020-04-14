@@ -18,9 +18,9 @@ title: 学生ケア 学科・専攻 担当登録フォーム
 
 オンライン授業・Web会議 ポータルサイト 編集者一同
 
-以下がうまく表示できていない場合, 以下をご利用下さい.
+以下が<a href="https://forms.gle/2wyS5Ut3RKaPoP4E7" target="_blank">うまく表示できていない場合</a>のページ
 
-* <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhKiEyE2V_T1Ao4OzeJJKaG1UMVk1UEVJRVc4S0hUWFZHOFE0TUJOQktIUy4u" target="_blank">UTokyo Accountを使える方用</a>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2hRb_HA45NwC3xnnxXmGjp1_HOwyYzcK8xMBkh99qmsPcQg/viewform?embedded=true" width="700" height="1200" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
 
-<iframe width="800px" height= "1200px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhKiEyE2V_T1Ao4OzeJJKaG1UMVk1UEVJRVc4S0hUWFZHOFE0TUJOQktIUy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
 
