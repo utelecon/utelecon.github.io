@@ -33,7 +33,7 @@ Sセメスターが開始されて約2週間がたちました. 一部の授業�
 ## 資料など
 
 * 説明会スライド: pdf ..., pptx ... 当日までにアップ予定
-* 参加申し込み: ...
-* オンライン会議へ参加: UTポータル経由での通知をご覧ください
-* 質問箱: ... または sli.do へ行き, イベントコード onlineall
-* 接続トラブルの場合: ...
+* 参加申し込み: <!-- https://docs.google.com/forms/d/e/1FAIpQLSfXT6e1r75kg79AteBmGaP1nXAgFxcRa4ZTQjtAbxe1wnIGYA/viewform -->
+* オンライン説明会Zoom URL: UTポータル経由での通知をご覧ください <!-- https://tinyurl.com/utngedy -->
+* 質問箱: [https://app.sli.do/event/opl1cd1r/live/questions](https://app.sli.do/event/opl1cd1r/live/questions) にて受付け(または sli.do へ行き, イベントコード onlineall)
+* 当日接続トラブルの場合: <!-- https://tinyurl.com/vts6ybk -->
