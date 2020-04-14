@@ -75,12 +75,12 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 (依頼があったものを掲載しています. ここになくても各研究科・学部がそのような情報をまとめている場合があるので所属部局へお尋ねください)
 
-* 理学系研究科: <a href="http://jimubu.adm.s.u-tokyo.ac.jp/public/index.php/%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%84%E3%83%BC%E3%83%AB" target="_blank">「理学系研究科情報システムチーム　コラボレーションツール」</a>, <a href="http://jimubu.adm.s.u-tokyo.ac.jp/public/index.php/Collaboration_tool">「The School of Science - Collaboration tool」</a>
-* 理学系研究科物理専攻: <a href="https://sugino.issp.u-tokyo.ac.jp/computational-physics-course/">授業関連ページ</a>
-* 人文社会系研究科・文学部: <a href="http://www.l.u-tokyo.ac.jp/news/notice/9966.html">【重要】2020年度Sセメスター開講授業の開始時期について</a>
-* 農学生命科学研究科・農学部: <a href="https://www.a.u-tokyo.ac.jp/online_lectures/">農学生命科学研究科・農学部　オンライン授業関連ページ</a>
-* 新領域創成科学研究科: <a href="https://sites.google.com/a/adm.k.u-tokyo.ac.jp/gsfs-portal/home/kyomu/kyomu/classes/onlineclasses">【事務ポータルサイト内　教務チームポータルサイト】　オンライン授業に関する情報ページ</a> <font size=-2>(新領域創成科学研究科所属学生のみ閲覧できます。 新領域アカウント(FApps)にログインした状態でアクセスできます。随時更新中です。) </font>
-* 薬学系研究科: <a href="http://www.f.u-tokyo.ac.jp/">ホームページ</a>
+* 理学系研究科: <a href="http://jimubu.adm.s.u-tokyo.ac.jp/public/index.php/%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%84%E3%83%BC%E3%83%AB" target="_blank">「理学系研究科情報システムチーム　コラボレーションツール」</a>, <a href="http://jimubu.adm.s.u-tokyo.ac.jp/public/index.php/Collaboration_tool" target="_blank">「The School of Science - Collaboration tool」</a>
+* 理学系研究科物理専攻: <a href="https://sugino.issp.u-tokyo.ac.jp/computational-physics-course/" target="_blank">授業関連ページ</a>
+* 人文社会系研究科・文学部: <a href="http://www.l.u-tokyo.ac.jp/news/notice/9966.html" target="_blank">【重要】2020年度Sセメスター開講授業の開始時期について</a>
+* 農学生命科学研究科・農学部: <a href="https://www.a.u-tokyo.ac.jp/online_lectures/" target="_blank">農学生命科学研究科・農学部　オンライン授業関連ページ</a>
+* 新領域創成科学研究科: <a href="https://sites.google.com/a/adm.k.u-tokyo.ac.jp/gsfs-portal/home/kyomu/kyomu/classes/onlineclasses" target="_blank">【事務ポータルサイト内　教務チームポータルサイト】　オンライン授業に関する情報ページ</a> <font size=-2>(新領域創成科学研究科所属学生のみ閲覧できます。 新領域アカウント(FApps)にログインした状態でアクセスできます。随時更新中です。) </font>
+* 薬学系研究科: <a href="http://www.f.u-tokyo.ac.jp/" target="_blank">ホームページ</a>
 
 参考情報
 ---------------------------
