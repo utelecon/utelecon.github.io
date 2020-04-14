@@ -20,7 +20,7 @@ title: 学生ケア 学科・専攻 担当登録フォーム
 
 以下が<a href="https://forms.gle/2wyS5Ut3RKaPoP4E7" target="_blank">うまく表示できていない場合</a>のページ
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2hRb_HA45NwC3xnnxXmGjp1_HOwyYzcK8xMBkh99qmsPcQg/viewform?embedded=true" width="700" height="1200" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2hRb_HA45NwC3xnnxXmGjp1_HOwyYzcK8xMBkh99qmsPcQg/viewform?embedded=true" width="700" height="2000" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
 
 
 
