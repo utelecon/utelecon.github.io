@@ -41,4 +41,4 @@ Sセメスターが開始されて約2週間がたちました. 一部の授業�
   * utelecon-announceメーリングリスト
   * 部局あてのメール
 * 質問箱: [https://app.sli.do/event/opl1cd1r/live/questions](https://app.sli.do/event/opl1cd1r/live/questions) にて受付け(または sli.do へ行き, イベントコード onlineall)
-* 当日接続トラブルの場合: <!-- https://tinyurl.com/vts6ybk -->
+* 当日接続トラブルの場合: https://tinyurl.com/vts6ybk
