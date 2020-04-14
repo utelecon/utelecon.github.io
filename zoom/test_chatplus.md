@@ -4,6 +4,8 @@ layout: ja_test
 ---
 
 Chatplus テスト
+Chatplus テスト
+
 
 <script>(function(){
 var w=window,d=document;
