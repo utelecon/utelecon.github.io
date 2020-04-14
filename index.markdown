@@ -43,7 +43,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * [新入生・在学生のための, オンライン授業を受けるための準備](oc)
 * [教員のための、オンライン授業を行うにあたって](faculty_members)
   * [（教員向け）学習管理システム ITC-LMS の使い方](lms_lecturers)
-* [授業URLの通知の仕方 〜 授業で教員と学生た混乱なく出会うための共通ルール](faculty_members/let_students_know_your_url)
+* [授業URLの通知の仕方 〜 授業で教員と学生が混乱なく出会うための共通ルール](faculty_members/let_students_know_your_url)
 * [FAQ: よくある質問](faq)
 
 
@@ -60,6 +60,10 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 お知らせ/連絡チャネル
 ---------------------------
 
+<!--
+* <span style="color:blue;">2020/4/14:</span> <a href="forms/et">授業入室時トラブル報告フォーム</a>
+* <span style="color:blue;">2020/4/14:</span> <a href="forms/takecarestudents">学生ケアの学科・専攻担当登録フォーム</a>
+-->
 * 部局のWebページへのリンクを作るための<a href="https://tinyurl.com/vjfuxs3" target="_blank">申し込みフォーム</a>
 * <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
 * [QAフォーラムとメーリングリスト](forums/)
