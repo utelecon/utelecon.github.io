@@ -36,8 +36,8 @@ Sセメスターが開始されて約2週間がたちました. 一部の授業�
 * <a href="https://forms.gle/hrGjsSXJSYXhChQd8">参加申し込み</a>
 * オンライン説明会Zoom URL: 以下で通知しています
   * <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank">ITC-LMS</a>
-  * <a href="https://docs.google.com/spreadsheets/d/1GCohoPpwhIpxYIZuO6ZGwjwAjGFVpaiVa4TKYN4VoPk/edit?usp=sharing">Googleスプレッドシート</a> (ECCSクラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります)
-  * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ESEjHc7AYBpPqjooTPGoJMsBqcl0bN20iSUVwunnTGL2hg?e=pKORAl">Excelオンライン </a>(UTokyo Account 10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります)
+  * <a href="https://docs.google.com/spreadsheets/d/1GCohoPpwhIpxYIZuO6ZGwjwAjGFVpaiVa4TKYN4VoPk/edit?usp=sharing" target="_blank">Googleスプレッドシート</a> (ECCSクラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります)
+  * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ESEjHc7AYBpPqjooTPGoJMsBqcl0bN20iSUVwunnTGL2hg?e=pKORAl" target="_blank">Excelオンライン </a>(UTokyo Account 10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります)
   * utelecon-announceメーリングリスト
   * 部局あてのメール
 * 質問箱: [https://app.sli.do/event/opl1cd1r/live/questions](https://app.sli.do/event/opl1cd1r/live/questions) にて受付け(または sli.do へ行き, イベントコード onlineall)
