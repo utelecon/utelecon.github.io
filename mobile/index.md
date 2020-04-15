@@ -2,9 +2,9 @@
 title: オンライン授業受講のためのネットワーク環境支援ついて  
  / The network environment support for taking online classes 
 ---
-オンライン授業検討会 / Committee for Online classes 
+**オンライン授業検討会 / Committee for Online classes**
 
-#　（目的 / Purpose） 
+# 目的 / Purpose 
 
 COVID-19の影響を抑え教育活動を維持するため、緊急の授業オンライン化が必要となっています。授業オンライン化には、学生が受講するための環境が必要であり、特にネットワーク環境の確保が重要となっています。本学では緊急の授業オンライン化のため、ネットワーク環境が整っていない学生に対してモバイルWiFiを提供する支援を行うことといたしました。 
 
@@ -47,6 +47,7 @@ It will be offered to students subject to the above conditions.
 **Deadline: Tuesday, April 21, 23:59 PM**
 
 支援対象が決まり次第連絡します。（対象とならなかった場合も連絡します。） 
+
 We will contact you as soon as we find out whom we can provide the support. (We'll let you know if you're not eligible.) 
 
 
