@@ -20,18 +20,20 @@ Renting a mobile WiFi router with up to 50GB of high-speed communication per mon
 
 #　（提供条件 / Terms of Offer） 
 
-1.本学が実施するオンライン授業参加のために利用すること 
-1.提供期間中にオンライン授業参加に必要な環境整備を行うこと 
-1.本学が支援を終了する場合には速やかに返却すること 
+1. 本学が実施するオンライン授業参加のために利用すること 
+1. 提供期間中にオンライン授業参加に必要な環境整備を行うこと 
+1. 本学が支援を終了する場合には速やかに返却すること 
 （現在は、1年間を想定。状況により延長する可能性があります。） 
-1.支援期間中に本学を離れることとなった場合も返却すること 
+1. 支援期間中に本学を離れることとなった場合も返却すること 
+
 上記の条件を守ることを条件に学生に提供します。 
 
-1.To use for participation in online classes offered by the University. 
-1.Prepare the necessary environment for participation in online classes during the period of provision. 
-1.Return router promptly when the University terminates this support. 
+1. To use for participation in online classes offered by the University. 
+1. Prepare the necessary environment for participation in online classes during the period of provision. 
+1. Return router promptly when the University terminates this support. 
 (1 year. Term may be extended depending on circumstances). 
-1.If you decide to leave the university during the support period, you must also return it. 
+1. If you decide to leave the university during the support period, you must also return it. 
+
 It will be offered to students subject to the above conditions. 
 
 #　（申し込み / Application） 
