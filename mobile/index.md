@@ -36,8 +36,8 @@ It will be offered to students subject to the above conditions.
 
 #　（申し込み / Application） 
 
-UTASの掲示から申し込みください。
-Please apply from the notice in UTAS. 
+[UTAS](https://utas.adm.u-tokyo.ac.jp/)の掲示から申し込みください。
+Please apply from the notice in [UTAS](https://utas.adm.u-tokyo.ac.jp). 
 
 締め切り　4月21日（火曜日）23時59分 
 Deadline: Tuesday, April 21, 23:59 PM 
