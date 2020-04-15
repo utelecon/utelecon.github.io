@@ -40,7 +40,7 @@ It will be offered to students subject to the above conditions.
 
 **[UTAS](https://utas.adm.u-tokyo.ac.jp/)の掲示から申し込みください。**
 
-**Please apply from the notice in [UTAS](https://utas.adm.u-tokyo.ac.jp). **
+**Please apply from the notice in [UTAS](https://utas.adm.u-tokyo.ac.jp).**
 
 **締め切り　4月21日（火曜日）23時59分**
 
