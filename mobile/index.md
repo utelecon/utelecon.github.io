@@ -38,11 +38,13 @@ It will be offered to students subject to the above conditions.
 
 # 申し込み / Application 
 
-[UTAS](https://utas.adm.u-tokyo.ac.jp/)の掲示から申し込みください。
-Please apply from the notice in [UTAS](https://utas.adm.u-tokyo.ac.jp). 
+**[UTAS](https://utas.adm.u-tokyo.ac.jp/)の掲示から申し込みください。**
 
-締め切り　4月21日（火曜日）23時59分 
-Deadline: Tuesday, April 21, 23:59 PM 
+**Please apply from the notice in [UTAS](https://utas.adm.u-tokyo.ac.jp). **
+
+**締め切り　4月21日（火曜日）23時59分**
+
+**Deadline: Tuesday, April 21, 23:59 PM**
 
 支援対象が決まり次第連絡します。（対象とならなかった場合も連絡します。） 
 We will contact you as soon as we find out whom we can provide the support. (We'll let you know if you're not eligible.) 
