@@ -49,5 +49,6 @@ Sセメスターが開始されて約2週間がたちました. 一部の授業�
   * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ESEjHc7AYBpPqjooTPGoJMsBqcl0bN20iSUVwunnTGL2hg?e=pKORAl" target="_blank">Excelオンライン </a>(UTokyo Account 10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります)
   * utelecon-announceメーリングリスト
   * 部局あてのメール
+* 1000人を超えたら[こちら(YouTube Live)](https://www.youtube.com/watch?v=6QCW0YoUMzo) 
 * 質問箱: [https://app.sli.do/event/opl1cd1r/live/questions](https://app.sli.do/event/opl1cd1r/live/questions) にて受付け(または sli.do へ行き, イベントコード onlineall)
 * [当日接続トラブル](https://tinyurl.com/vts6ybk)の場合
