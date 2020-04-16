@@ -152,6 +152,9 @@
     </header>
 
     <main id="content" class="main-content" role="main">
+      <h3>Table of Contents</h3>
+      {% include toc.html html=content %}
+
       {{ content }}
 
       <footer class="site-footer">
