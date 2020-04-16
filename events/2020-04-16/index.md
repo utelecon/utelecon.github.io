@@ -32,7 +32,16 @@ Sセメスターが開始されて約2週間がたちました. 一部の授業�
 
 ## 資料など
 
-* 説明会スライド: pdf ..., pptx ... 当日までにアップ予定
+* 説明スライド:
+  * [目次 説明会：Sセメスタ開始2週間を経て](00-index.pdf)
+  * [オンライン授業URL通知方法（更新）](01-URL-notification.pdf)
+  * [学生のケアと学科・専攻の連絡体制](02-care.pdf)
+  * [オンライン授業受講のためのネットワーク環境支援ついて](03-net.pdf)
+  * [クラスサポータについて](04-supporters.pdf)
+  * [著作物の利用に関するSARTRAS決定](05-SARTRAS.pptx)
+  
+
+pdf ..., pptx ... 当日までにアップ予定
 * <a href="https://forms.gle/hrGjsSXJSYXhChQd8">参加申し込み</a>
 * オンライン説明会Zoom URL: 以下で通知しています
   * <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank">ITC-LMS</a>
