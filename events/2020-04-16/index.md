@@ -8,6 +8,8 @@ title: 2020/04/16 説明会: Sセメスタ開始2週間を経て
 
 * **場所:** オンライン(Zoom)のみ
 
+* **動画:** <a href="https://drive.google.com/open?id=1HsmRHGaQmFfceWLAJA1zYsO2FpVroJrb">動画ファイル（要 ECCS クラウドメール）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  
+
 **開催趣旨:**
 
 Sセメスターが開始されて約2週間がたちました. 一部の授業では実際にオンラインでの授業が始まっています。今後, 授業を円滑に進めていくために、これまでに認識されている課題, 今後課題となるであろう点について, 広く情報共有・議論するための説明会を開催します。尚、本説明会は本学の活動規制レベルに従い, オンライン参加のみで実施します。
@@ -41,12 +43,11 @@ Sセメスターが開始されて約2週間がたちました. 一部の授業�
 ## 参加申込みなど
 
 * <a href="https://forms.gle/hrGjsSXJSYXhChQd8">参加申し込み</a>
-* オンライン説明会Zoom URL: 直前なのでここに書きます [https://tinyurl.com/utngedy](https://tinyurl.com/utngedy) 以下でも通知しています
+* オンライン説明会Zoom URL: 以下でも通知しています
   * <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank">ITC-LMS</a>
   * <a href="https://docs.google.com/spreadsheets/d/1GCohoPpwhIpxYIZuO6ZGwjwAjGFVpaiVa4TKYN4VoPk/edit?usp=sharing" target="_blank">Googleスプレッドシート</a> (ECCSクラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります)
   * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ESEjHc7AYBpPqjooTPGoJMsBqcl0bN20iSUVwunnTGL2hg?e=pKORAl" target="_blank">Excelオンライン </a>(UTokyo Account 10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります)
   * utelecon-announceメーリングリスト
   * 部局あてのメール
-* 参加者1000人を超えて，Zoom に入れなくなったら[こちら(YouTube Live)](https://www.youtube.com/watch?v=6QCW0YoUMzo) 
 * 質問箱: [https://app.sli.do/event/opl1cd1r/live/questions](https://app.sli.do/event/opl1cd1r/live/questions) にて受付け(または sli.do へ行き, イベントコード onlineall)
 * [当日接続トラブル](https://tinyurl.com/vts6ybk)の場合
