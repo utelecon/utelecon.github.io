@@ -84,7 +84,7 @@ Live broadcasting can send the participants to video clip, voice and handouts an
 Organizers should prepare for broadcasting as follows.
 
 1. Organizers need to  have valid <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank"> ECCS Cloud Mail  (G Suite for Education)</a>. Please create the account <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">here</a>.(<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">details</a>). If you already have the university's mail address (i.e., xxxx@g.ecc.u-tokyo.ac.jp ), you can use ECCS Cloud Mail. Student organizers must take <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">Online Training Session</a>.
-1. If you obtain valid ECCS Cloud Mail account, please be wait for one hour until the server register for your account.
+1. If you obtain valid ECCS Cloud Mail account, please wait for one hour until the server register for your account.
 1. After you obtain valid ECCS Cloud Mail account, go on to
     <a href="https://calendar.google.com/" target="_blank">
       Google Calendar
@@ -166,6 +166,6 @@ Organizers should prepare for broadcasting as follows.
 ### Watch Live streaming
 
 1. To watch live streaming, you obtain URL from the organizer and just click URL.
-1. もしまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています. 学生の場合は, ECCSの <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります.
-1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
+1. If you did not activate yet your <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank"> ECCS Cloud Mail (G Suite for Education)</a>, you can do it at <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account User Menu</a>  (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">details</a>). The service is already validated for "xxxx@g.ecc.u-tokyo.ac.jp" email address users. Student organizers must take <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">Online Training Session</a>.
+1. If you obtain valid ECCS Cloud Mail account, please wait for one hour until the server register for your account.
 
