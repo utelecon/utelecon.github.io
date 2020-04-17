@@ -1,5 +1,6 @@
 ---
-title: Google ハングアウト Meet
+title: How to Use Google Hangouts Meet  
+layout: en
 ---
 
 # ビデオ会議 Google ハングアウト Meetの使い方
