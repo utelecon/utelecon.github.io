@@ -22,32 +22,32 @@ layout: en
 
 ## Video Conference
 
-ビデオ会議は開催者と参加者すべての人が, 動画, 音声, 資料(画面)を送りあえる形態で, 「双方向(N &lt;-&gt; N)通信」ができることが特徴です. ハングアウト Meet の用語では「ミーティング」と呼ばれます.
+Video conference enables organizers and participants to share video clip, voice and handouts (data) interactively. this function is called "Meeting"in Hangouts Meet.
 
-### ビデオ会議の開催
+### Organize a Video Conference
 
-誰か一人が会議の開催者となって, 以下の作業を行ってください.
+One should be the organizer at the conference. The organizers arrange the meeting as follows.
 
-1. もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています. 開催者が(教職員ではなく)学生の場合は, ECCSの <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります.
-1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
-1. 無事有効化されたら, <a href="https://meet.google.com/" target="_blank">meetのトップページ</a> にアクセスし, ページ上部の「ログイン」または"Sign in"から, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
-1. 無事ログインできたら, 以下のように, 「ミーティングに参加または開始」 ボタンが現れますので, それを押してミーティングを設定してください.
+1. Organizers need to  have valid  <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">ECCS Cloud Mail  (G Suite for Education) </a>  account. Please create the account <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">here</a>  (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">details</a>).  If you already have the university's mail address (i.e., xxxx@g.ecc.u-tokyo.ac.jp ), you can use ECCS Cloud Mail. Student organizers must take <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">Online Training Session</a>.	
+1. If you obtain valid ECCS Cloud Mail account, please be wait for one hour until the server register for your account.
+1. After you obtain valid ECCS Cloud Mail account, access to the top page of <a href="https://meet.google.com/" target="_blank">meet</a> Please click "login" on the top or click "Sign in" on ECCS Cloud Mail account (xxxx@g.ecc.u-tokyo.ac.jp) .
+1. After you log in, the screen appears " participate or start the meeting". You can set the meeting here.
    <blockquote>
      <a href="img/meet_start.png" target="_blank"><img src="img/meet_start.png" width="400"></a>
    </blockquote>
-  * 注1: もし以下のように, 「新しいミーティングを開始できるアカウントでログインしていません (You're not logged in with an account that can start a meeting)」 と表示されたら, 右上の「ログイン」(Sign in) リンクから, G Suiteアカウント (xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
+  * Caution 1: if the screen shows "You’re not logged in with an account that can start a meeting," please switch to a G suite account (xxxx@g.ecc.u-tokyo.ac.jp) on top right. 
    <blockquote>
      <a href="img/meet_no_login.png" target="_blank"><img src="img/meet_no_login.png" width="250"></a>
    </blockquote>
-  * 注2: もし以下のように, 「ご利用のアカウントではミーティングへの参加のみ許可されています」 と表示されたら, それはおそらく, G Suiteのアカウント (xxxx@g.ecc.u-tokyo.ac.jp) ではなく, 普段使っているアカウント (xxxx@gmail.com) でログイン中であるためです. 右上のアイコンからアカウントを変更するか, 一旦ログアウトして, G Suiteのアカウントでログインし直してください.
+  * Caution 2: If the screen shows " this account can participate in the meeting only" then you check your accont. You may log in your private account (i.e. xxxx@gmail.com). Please switch your account to  G Suite account (xxxx@g.ecc.u-tokyo.ac.jp)." You can switch account on top right button (See below) or you re-enter  G Suite account.
    <blockquote>
      <a href="img/meet_participate_only.png" target="_blank"><img src="img/meet_participate_only.png" width="250"></a>
    </blockquote>
-1. 「ミーティングに参加または開始」を押します. カメラやマイクへのアクセス許可を求める窓が出てきたら, &quot;Allow&quot; (許可)を押します. これでミーティング開始の準備が出来ました.
+1. Click "participate or start the meeting". You permit to access to camera and microphone and then you are ready to start the meeting.
    <blockquote>
      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" width="400"></a>
    </blockquote>
-1. 「ミーティングを開始」を押すとこのような画面が現れます. 会議名をつけたければ記入(空欄でも可)し, 「続行」を押します.
+1. After you click "start the meeting", you can see this screen below. Fill in the meeting name, if needed (no name is fine). Click " continue".
    <blockquote>
      <a href="img/meet_name.png" target="_blank"><img src="img/meet_name.png" width="400"></a>
    </blockquote>
