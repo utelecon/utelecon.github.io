@@ -146,30 +146,26 @@ Organizers should prepare for broadcasting as follows.
 1. <font color="red">Only ECCS Cloud Mail holders (e.g. xxxx@g.ecc.u-tokyo.ac.jp) can see live streaming.</font> Below is an example of the invitation (HTML versiton). 
 
 ```
-      「◯◯◯◯◯」に関する講義をストリーミング配信します.
-      聴講するには,
-      ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインした
-      状態で, 次のリンクをクリックしてください。
+      Invitation of Live streaming: 「◯◯◯◯◯」
+      
+      If you want to watch or hear this class, log into ECCS Cloud Mail account(xxxx@g.ecc.u-tokyo.ac.jp) on Google and click the link below.
       https://stream.meet.google.com/stream/e91f3dd7-xxxx-xxxx-xxxx-7d47c54c1660
 
-      注1: ECCSクラウドメールを使ったことがない人は
+      Caution 1: Those who do not use ECCS
       <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">
         https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html
-      </a>から有効化を行ってください(作業はすぐに終わりますが有効になるまで,
-      最大で1時間程度の待ち時間が生じます).
+      </a>please access to be activate the account (You need to wait for updating account up to 1 hour).
       
-      注2: 学生(教職員でない人)は,
-      ECCSのオンライン新規利用者講習
+      Caution 2: Student(or not lecture)organizers must take ECCS online training.
       (<a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">
         https://www.ecc.u-tokyo.ac.jp/onlineseminar.html</a>)
-      を終えている必要がありますので,
-      こちらもやっておいてください.
+      
 ```
 
 
-### ライブ配信の視聴
+### Watch Live streaming
 
-1. 基本は, ライブ配信(ライブストリーミング)のURL (主催者から何らかの手段で送られてくる)を入手し, そのURLをブラウザでアクセスするだけです. ただし,
+1. To watch live streaming, you obtain URL from the organizer and just click URL.
 1. もしまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています. 学生の場合は, ECCSの <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります.
 1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
 
