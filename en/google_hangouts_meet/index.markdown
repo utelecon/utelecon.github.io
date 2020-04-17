@@ -79,72 +79,71 @@ At the meeting, click "record the meeting" and then you can record the screen an
 
 Live broadcasting can send the participants to video clip, voice and handouts and hence, live broadcasting is one direction media (one organizer to many participants).  Comparing to the video conference,  live broadcasting is applicable to send information to many participants. This is called "live streaming" in this Hangout Meet. However, the participants on live streaming cannot send video clips, voices and so on. In addition, the image may have 15 second delay from organizers to the participants. 
 
-### ライブ配信の開催
+### Organize live broadcasting
 
-配信をする人が, 以下の作業を行ってください.
+Organizers should prepare for broadcasting as follows.
 
-1. もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています. 開催者が(教職員ではなく)学生の場合は, ECCSの <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習</a> を終えている必要があります.
-1. 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください.
-1. 無事有効化されたら,
+1. Organizers need to  have valid <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank"> ECCS Cloud Mail  (G Suite for Education)</a>. Please create the account <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">here</a>.(<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">details</a>). If you already have the university's mail address (i.e., xxxx@g.ecc.u-tokyo.ac.jp ), you can use ECCS Cloud Mail. Student organizers must take <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">Online Training Session</a>.
+1. If you obtain valid ECCS Cloud Mail account, please be wait for one hour until the server register for your account.
+1. After you obtain valid ECCS Cloud Mail account, go on to
     <a href="https://calendar.google.com/" target="_blank">
-      Googleカレンダーのトップページ
-    </a>に行ってください.
-  * 注1: 以下のようなログイン画面が現れたら, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) のアカウントでGoogleにログインしてください.
+      Google Calendar
+    </a> page.
+  * Caution 1: If you see the screen below, please log into Google account by ECCS Cloud Mail (xxxx@g.ecc.u-tokyo.ac.jp).
      <blockquote>
        <img src="img/login_menu.png" width="400"/>
      </blockquote>
-  * 注2: 普段ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) 以外のGoogleアカウント(xxxx@gmail.com)でGoogleをお使いの場合, 一旦ログアウトして, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でログインし直してください.
-無事, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp) でログインした状態のカレンダー(右上隅の "ECCS2016" に注目)です.
+  * Caution 2: If you use your private account, please log out your account and then you log into ECCS Cloud Mail account (xxxx@g.ecc.u-tokyo.ac.jp) . If you success to enter your ECCS account, you can see the mark on the right top (See below).
 
     <blockquote>
       <img src="img/login_calendar.png" width="400"/>
     </blockquote>
 
-    以降の手順は <a href="https://support.google.com/meet/answer/9308681" target="_blank">Google によるマニュアル</a>に準じます.
-1. カレンダー上の適当な場所を左クリックしてイベントを作ります. もちろん普通は, ライブ配信をする日時に合わせて作るのでしょうが, 実際にはどこでも構いません(配信自体は日時と関係なくできますし, イベントの日時に自動的に配信が始まるわけでもありません).
+    Details are <a href="https://support.google.com/meet/answer/9308681" target="_blank">here</a>.
+1. Please left-click the given day of  Google calendar to schedule the event (you can broadcast independently of the event day and even if you schedule  the event, the broadcasting do not start automatically).
     <blockquote>
       <img src="img/create_event.png" width="400"/>
     </blockquote>
-1. 「その他のオプション」を選択
+1. Select "other options".
     <blockquote>
       <img src="img/create_event.png" width="400"/>
     </blockquote>
-1. 「ビデオ会議を追加」を選択
+1. Select "add video conference".
     <blockquote>
       <img src="img/add_video_conf.png" width="400"/>
     </blockquote>
-1. 「ビデオ会議を追加」 -&gt; 「Hangouts Meet」
+1. "Add video conference" -&gt; 「Hangouts Meet」
     <blockquote>
       <img src="img/add_hangouts_meet.png" width="400"/>
     </blockquote>
-1. <img src="img/downarrow.png" /> をクリック -&gt;「ライブストリームを追加」
+1. Click <img src="img/downarrow.png" />  -&gt; "Add live stream"
     <blockquote>
       <img src="img/add_live_stream.png" width="400"/>
     </blockquote>
-1. イベントを「保存」. ここまでで, 準備が出来ました
-1. <b>配信を開始:</b> カレンダー上で再びイベントを開き,「Hangouts Meetに参加」
+1. Click "Save". You are read preparing the meeting.
+1. <b>Start broadcasting:</b> open your calendar and click " Join Hangouts Meet."
     <blockquote>
       <img src="img/join_hangouts_meet.png" width="400"/>
     </blockquote>
-1.「ミーティングに参加」
+1."Join Meeting"
     <blockquote>
       <img src="img/join_meeting.png" width="400"/>
     </blockquote>
-1. 以下のようなメッセージ「主催者によって, このミーティングはストリーミングするようにスケジュール設定されています」が現れますので, ただちに配信をスタートしたければ「ストリーミングを開始」を選びます.
+1. Here you see "This meeting is scheduled to live stream by the organizer" on the screen. If you want to start immediately, select "start live streaming".
     <blockquote>
       <img src="img/ask_streaing.png" width="400"/>
     </blockquote>
-1. ただちに配信しない場合は一旦「閉じる」を選択して, 後から -&gt; 「ストリーミングを開始」としてもよいです.
+1. In case the live stream do not start, close the browser and click "start live streaming".
     <blockquote>
       <img src="img/streaming_start.png" width="400"/>
     </blockquote>
-1. <b>聴衆への案内:</b> 左下隅のメニュー<img src="img/downarrow" /> から「ストリーミング情報をコピー」
+1. <b>Direction to attendees:</b> Click <img src="img/downarrow" /> button for "copy streaming information".
     <blockquote>
       <img src="img/streaming_start.png" width="400"/>
     </blockquote>
 
-    すると, URLがクリップボードにコピーされますので, それを適当な場所(例えばお使いのメールソフトのメール編集画面)に「貼り付け」ます. 授業に参加する学生に伝えるには, ITC-LMSの「お知らせ」機能で,「メール・LINE通知」をONにすることにより, 授業参加者にのみURLを伝えることが出来ます.
-1. <font color="red">ストリーミングを聴講できるのは, ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにログインしているユーザだけ(従って東京大学の教職員および学生だけ)</font>です. 案内の際にご注意ください. 以下は文例です.
+    By doing so, URL has been copied onto the clipboard. You now can paste on the information in the given email. You can use ICT-LMS to let students know the URL. Switch on "Mail and LINE notification" on "nofitication", and then only class participants will obtain URL.
+1. <font color="red">Only ECCS Cloud Mail holders (e.g. xxxx@g.ecc.u-tokyo.ac.jp) can see live streaming.</font> Below is an example of the invitation (HTML versiton). 
 
 ```
       「◯◯◯◯◯」に関する講義をストリーミング配信します.
