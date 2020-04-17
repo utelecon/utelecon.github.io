@@ -51,33 +51,33 @@ One should be the organizer at the conference. The organizers arrange the meetin
    <blockquote>
      <a href="img/meet_name.png" target="_blank"><img src="img/meet_name.png" width="400"></a>
    </blockquote>
-1. このような画面が出ますので, 参加者に, 表示されているURL (<a href="https://meet.google.com/xxx-xxxx-xxx" target="_blank">https://meet.google.com/xxx-xxxx-xxx</a>) を参加者へ, メールなどでお知らせください. 「参加に必要な情報をコピー」を押すとURLがコピーされるので, お使いのメールソフトの編集画面に行って, 「貼り付け」れば, 簡単にお知らせメールが出来ます.
+1. You see the screen above. You notify URL (e.g.   (<a href="https://meet.google.com/xxx-xxxx-xxx" target="_blank">https://meet.google.com/xxx-xxxx-xxx</a>)  to your participants by email. You can copy the URL and paste directly onto the email. 
    <blockquote>
       <a href="img/meet_copy.png" target="_blank"><img src="img/meet_copy.png" width="400"></a>
    </blockquote>
 
-### 会議への参加(join)
+### Join a meeting
 
-1. 会議の開催者から, 会議のURLを, (メールなどで)受け取り, そこにアクセスしてください. 例えば以下のようなメールを受け取ったとします
+1. Participants acquire URL from organizers (see below) and click on it.
     <blockquote>
       <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" border="2" width="400"></a>
     </blockquote>
-1. URLをブラウザで開いて会議に参加します. このとき,
-  * 参加者が, ECCSクラウドメールのアカウント(xxx@g.ecc.u-tokyo.ac.jp) でGoogleにログインしていれば, 直ちに会議に参加できます
-  * そうでない場合, 開催者の画面に, 許可・不許可を促す画面が現れ, 許可されれば会議に参加できます. 一定時間許可がないと参加できずエラーになります
-  * したがって, 非常に多数の, 不特定多数の人数が参加する会議に対しては, 参加者にECCSクラウドメールのアカウントでログインすることを必須とすることが現実的です. 従ってこの場合, 会議に参加できるのは東京大学の教職員・学生(+ 少数の, 明示的に許可する参加者)ということになります
+1. Click URL and participate in the meeting. 
+  * If participants log into ECCS Cloud Mail account (xxx@g.ecc.u-tokyo.ac.jp) , you immediately join the meeting.
+  * Otherwise, you need the organizer's permission. After you are allowed to enter the meeting by the organizer, you join the meeting. However, if the organizer do not permit for a long time, your screen shows an error message. Please try again.
+  * To skip the organizer's permission step, all participants are recommended to enter by ECCS Cloud mail. By doing so, those who enter the meeting are only UTokyo students / teachers plus someone who are allowed to join the meeting by the organizer.
 
-### 資料(画面)の表示
+### Share the handouts on screens
 
-会議中に右下隅「今すぐ表示」を押すと, 画面を参加者に送信できます. 画面全体を送信することも特定のウィンドウだけを送信することも出来ます. プレゼンテーションや講義資料などを表示するのに使います.
+At the meeting, click "share now" on the bottom right. You can share the screen with the participants.  You can choose full-screen mode or a given window.  This enable us to share the presentation screen or handouts.
 
-### 録画
+### Recording
 
-会議中に右下隅のメニューから「ミーティングを録画」を選ぶと, 画像と音声を録画できます. 録画が終了すると, 動画ファイルがGoogle Driveに保存されます.
+At the meeting, click "record the meeting" and then you can record the screen and voice. The recording data are available on Google drive. 
 
-## ライブ配信編
+## Live Broadcasting 
 
-ライブ配信は, 一人の開催者から残りの参加者に動画, 音声, 資料(画面)などを送る形態で, 「一方向(1 -&gt; N)通信」が特徴です. ビデオ会議と比べ, 多人数に情報を配信するのに適しています. Meetでは, 「ライブストリーミング」と呼ばれています. Meetのライブストリーミングでは, 参加者(聴衆)から開催者に向けた通信を行うことはできません. また, 配信の内容が聴衆に届くまでに15秒程度の遅れが生じるようです. 
+Live broadcasting can send the participants to video clip, voice and handouts and hence, live broadcasting is one direction media (one organizer to many participants).  Comparing to the video conference,  live broadcasting is applicable to send information to many participants. This is called "live streaming" in this Hangout Meet. However, the participants on live streaming cannot send video clips, voices and so on. In addition, the image may have 15 second delay from organizers to the participants. 
 
 ### ライブ配信の開催
 
