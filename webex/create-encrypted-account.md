@@ -10,11 +10,11 @@ title: Webexの安全な会議のためのアカウントアクティベーシ�
 ## はじめてアカウントが作られた場合
 </a>
 安全な会議を開催するためのWebexアカウントの申請を受け付けたあと、以下の手順に従ってアカウントの初期化を行います。
-1. あなたのECCSクラウドメール（xxxxxx@g.ecc.u-tokyo.ac.jp）にCisco社から“The University of Tokyo has invited you to Cisco Webex”というタイトルのメールが届きます。![Cisco社からのメール!](img/ca-user1.png "Mail from Cisco")
+1. あなたのECCSクラウドメール（xxxxxx@g.ecc.u-tokyo.ac.jp）にCisco社から“The University of Tokyo has invited you to Cisco Webex”というタイトルのメールが届きます。![Cisco社からのメール!](/webex/img/ca-user1.png "Mail from Cisco")
 2. メールを開くと、内容は“Get started with Cisco Webex.”というものですので、下にある”Activate“ボタンを押します。
-3. ブラウザが起動して、「新しいパスワードを作成」と表示されますので、パスワードを2回入力し「保存＆サインイン」を押します。![新しいパスワードを付ける!](img/ca-user2.png "New Password")
+3. ブラウザが起動して、「新しいパスワードを作成」と表示されますので、パスワードを2回入力し「保存＆サインイン」を押します。![新しいパスワードを付ける!](/webex/img/ca-user2.png "New Password")
 4. 切り替わった画面右上の「サインイン」ボタンを押してサインインします。
-![サインイン!](img/ca-user3.png "sign-in")
+![サインイン!](/webex/img/ca-user3.png "sign-in")
 5. サインインしたら、右上にある“undefined”と書かれた部分を選び、自分のプロファイルを選択します。開いたページの中央下側に表示される”プロファイルを編集する“を選択し、表示名（オンライン会議で表示されます）や姓名（システム管理で用いらます）を設定します。（注意：メールアドレスを変更すると大学のライセンスではなくなります。）
 6. 以上で、初期設定は終了です。
 [安全な会議のひらき方](https://utelecon.github.io/webex/encrypted_meeting.html)を参考にしてお使いください。
