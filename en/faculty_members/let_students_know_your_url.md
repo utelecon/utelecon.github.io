@@ -1,31 +1,34 @@
 
-授業URLの通知の仕方 〜 授業で教員と学生た混乱なく出会うための共通ルール
+How to let your students know your online class URL – Ground rules to safely meet instructors and students
+layout: en
 =========================================
 
 How to let your students know your online class URL -- Ground rules to safely meet instructors and students
 =========================================
 
 
-基本(学生) / Basics (Students)
+Basics (for Students)
 =========================================
 
-* 必ず
-  1. UTASの授業シラバス -> **「詳細情報」** -> **「オンライン授業URL」**を見て ([手順](https://youtu.be/J9dnXmFiIcI)) 聴講する授業に参加する
-  1. ITC-LMS上で, 出席する講義に受講登録 (**「コース検索」** -> **「受講登録」**)しておく. それによりその授業関連の情報を読み, 受け取れるようになる ([手順](https://youtu.be/sPmkBQOXeR4))　
-  (注：UTASで「お気に入り登録」をしていれば，ITC-LMSの受講登録に自動的に反映されるが，それには1日程度かかる)
-  1. UTASの「現住所等変更入力」でE-MAILを設定してUTAS経由の知らせが届くようにしておく
-  1. ITC-LMSの「設定 (Settings)」->「お知らせ通知」でメールやラインでのお知らせ受取りを設定 ([手順](https://youtu.be/xAur5zar5Sc)) して, ITC-LMS経由の知らせが届くようにしておく
-  1. 詳細ルールは所属の専攻や学科により違うかも知れないので必ず**専攻・学科の指示も読み, 従う**
+* You MUST
+  1. Check UTAS on syllabus  -> **"Details"** -> **"Online Class URL"** and finally look at ([procedures](https://youtu.be/J9dnXmFiIcI)) and then participate in the class. 
+  1. On ITC-LMS, students register for the class and click (**"Search courses"** -> **"Class Registration"**). Like this, students can read and obtain class information ([procedures](https://youtu.be/sPmkBQOXeR4)).　
+  (Caution：If students save as bookmark on UTAS, the students can see on ITC-LMS automatically but it will take 1 day to show up.)
+  1. Arranging your adress on UTAS enables you to receive information from UTAS. 
+  1. On ITC-LMS, click "Settings"-> "notifications". Then you can set a given email address. ([Procedure](https://youtu.be/xAur5zar5Sc)). 
+  1. Rule and details may vary depending on your school/ department. **Please read and follow instructions from your school/ department.**
 
-* 極力
-  1. **Office 365**を大学のアカウント (10桁@utac.u-tokyo.ac.jp) で使えるようにしておく (注: ブラウザで使うonline版が使えればよく, OfficeソフトウェアをPCにダウンロードしてインストールする必要はない)
-  1. **ECCSクラウドメール** (Google を大学のアカウント xxxx@g.ecc.u-tokyo.ac.jp で) を使えるようにしておく
-  1. これらは, 大学外の人に教えてはいけない情報を教員が学生と共有するために使われる
-  1. 学科, 専攻, 授業によってはこれらを必須にしているかもしれないので注意
+* As much as possible,
+  1. Students should activate **Office 365**, obtained by 10 digit number university's account (10-digit number@utac.u-tokyo.ac.jp). Caution: There is no need to download office software to your computer, since you can use it online with your browser.
 
-これら手順はすべて, [新入生・在学生のための, オンライン授業を受けるための準備](../../oc/)に説明している.
+  1. Students should use **ECCS Cloud Mail** (xxxx@g.ecc.u-tokyo.ac.jp).
+  1. 1. and 2. above are to share the important information between students and teachers.
+  1. Some department, faculty, and classes require the use of 1. and 2.
+
+Procedures are described in [ Preparing for online classes for new and currently enrolled students
+](../../oc/).
  
-基本(教員) / Basics (Instructors)
+ Basics (for Instructors)
 =========================================
 
 1. UTASの授業シラバス -> **「詳細情報」** -> **「オンライン授業URL」**欄にURLを書き込む
