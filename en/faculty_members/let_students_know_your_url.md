@@ -1,7 +1,8 @@
 
-title: How to let your students know your online class URL – Ground rules to safely meet instructors and students
+---
+title: How to let your students know your online class URL
 layout: en
-=========================================
+---
 
 How to let your students know your online class URL -- Ground rules to safely meet instructors and students
 =========================================
