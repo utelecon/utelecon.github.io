@@ -6,7 +6,9 @@ title: Webexの安全な会議のためのアカウントアクティベーシ�
 
 # 安全な会議機能のある webex アカウントのアクティベーション
 
-<a name="new">## はじめてアカウントが作られた場合</a>
+<a name="new">
+## はじめてアカウントが作られた場合
+</a>
 安全な会議を開催するためのWebexアカウントの申請を受け付けたあと、以下の手順に従ってアカウントの初期化を行います。
 1. あなたのECCSクラウドメール（xxxxxx@g.ecc.u-tokyo.ac.jp）にCisco社から“The University of Tokyo has invited you to Cisco Webex”というタイトルのメールが届きます。![Cisco社からのメール!](img/ca-user1.png "Mail from Cisco")
 2. メールを開くと、内容は“Get started with Cisco Webex.”というものですので、下にある”Activate“ボタンを押します。
@@ -17,7 +19,9 @@ title: Webexの安全な会議のためのアカウントアクティベーシ�
 6. 以上で、初期設定は終了です。
 [安全な会議のひらき方](https://utelecon.github.io/webex/encrypted_meeting.html)を参考にしてお使いください。
 
-<a name="convert">## なんらかのアカウント情報があった場合（間違えてログインしたときなど、気づかぬうちに作っていることがあります。） </a>
+<a name="convert">
+## なんらかのアカウント情報があった場合（間違えてログインしたときなど、気づかぬうちに作っていることがあります。）
+</a>
 
 安全な会議を開催するためのWebexアカウントの申請を受け付けたあと、以下の手順に従ってアカウントの初期化を行います。
 1. あなたのECCSクラウドメール（xxxxxx@g.ecc.u-tokyo.ac.jp）にCisco社から“Convert to Enterprise Account”というタイトルのメールが届きます。
