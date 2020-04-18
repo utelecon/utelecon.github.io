@@ -49,22 +49,22 @@ Because of the reasons above, if you tell one more URL to students,you must do a
   1. (For non ITC-LMS users) You can add the URL to other columns in UTAS (ex: Class Syllabus -> Details -> "notes"). Teachers need to make clear where the "Online Class URL" will be posted.
 
 
-General Consideration for restricted access to classes
+General Consideration for access restriction to classes
 --------------------------------------------
 
-ちょうどよいアクセス制限は非常に難しい問題.
+Access restriction is one of the difficult question in terms of security and accessibility.
 
-* アクセス制御をしなければ部外者に入ってこられる危険がある
-* アクセス制御をすると, (例えばIDやパスワードを忘れる, 入力すべきIDやパスワードを誤解するなどの理由も含め), 間違えて入ってこれない学生が生じうる. **学生が正しくマスターしているアクセス制御**をする必要がある
+* If there is NO access restriction, outsiders can easily enter the classroom.
+* On the other hand, if there are strict access restrictions,  **some students may not be able  to enter the classroom**. (e.g., Forget ID or password, mistyping IDs or password). 
 
-* 最も確実なのは, 会議室自身へのアクセスを制御すること
-  * Zoomには, 「Zoomにサインインしている(認証された)ユーザのみ接続を許す」という設定, さらに, 「@g.ecc.u-tokyo.ac.jpでサインインしたユーザのみ接続を許す」という設定がる
-  * GoogleハングアウトMeetは, ECCSクラウドメールアカウント(xxxx@g.ecc.u-tokyo.ac.jp)以外のユーザがつなげると, 開催者に承諾を求める画面が出る. 承諾をしなければECCSクラウドメールアカウントを持たない人が入ってくることはない
-  * WebExは?
+* The most reliable way is to restrict access to the meeting room itself.
+  * Zoom have the setting,  "accept  only authorized Zoom users". Additionally, Zoom also have " accept only  @g.ecc.u-tokyo.ac.jp user".Zoom
+  * If someone who does not use ECCS Cloud Mail account (xxxx@g.ecc.u-tokyo.ac.jp) enter Google Hangouts Meet,  organizers give permission to enter the room. Therefore, the organizer can protect the meeting room from outsiders.  
+  * How about Webex?
 
-* もう一つの方法は, 会議室自身は, リンクがあれば誰で入ってこれるようにしておき, そのリンクを, 認証されたユーザしかアクセスできない場所に書く. それが UTASであり, ITC-LMSである.
+* Another way is that the meeting URL is open to everyone but the link paste on UTAS and/or  ICT-LMS. As a result, only UTokyo students have access to the URL.
 
-その他の注意
+Other notes
 -----------------------
 
-* GoogleハングアウトMeetは中国からはアクセスできない. 中国にいて入国できない学生がいる場合は使えない
+* Those (i.e., students) who live in Republic of China can not access Google Hangouts Meet.
