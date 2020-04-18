@@ -1,5 +1,5 @@
 
-How to let your students know your online class URL – Ground rules to safely meet instructors and students
+title: How to let your students know your online class URL – Ground rules to safely meet instructors and students
 layout: en
 =========================================
 
@@ -31,25 +31,25 @@ Procedures are described in [ Preparing for online classes for new and currently
  Basics (for Instructors)
 =========================================
 
-1. UTASの授業シラバス -> **「詳細情報」** -> **「オンライン授業URL」**欄にURLを書き込む
+1. Syllabus on UTAS -> **"Details"** -> **"Online Class URL"** -> input your class URL here.
 <!--
 1. UTASで教員の連絡先を登録する. 個別に連絡を取りたがっている学生がいるかも知れないことに常に注意を払う.
 -->
-1. 各回の授業の**実施・不実施はUTASで休講を登録**する (上部メニューの 「休講・補講スケジュール」->「休講・補講登録」) ことにより確実に, 正式に伝える
+1. Register **Classes schedule/ cancellation** (On the upper menu: "Cancellation / supplementary schedule" -> "Register cancellations/ makeup classes").
 
-現在のUTASの制限とその回避方法について
+UTAS limitations and how to avoid it
 --------------------------------------------
 
-* 現在UTASの「オンライン授業URL」欄には URL 1つだけを書け, それ以外のものは一切書けない
-* 全回分のURLを一覧表にしたり, パスワードをつけたり, もっと柔軟な記述ができることが必要であり, 改修に着手しているがすぐにはできない
+* You can fill in ONLY ONE URL on "Online class URL" on UTAS.
+* We are still studying alternatives in order to make possible a list for all classroom URLs and ask password for protection.
 
-そのため, URL 1つを超える複雑な情報を伝える場合, 現時点では以下のいずれかを使う(各教員が最も安心・確実と思うものを選択)
+Because of the reasons above, if you tell one more URL to students,you must do as follows (Teachers must choose one way that you feel to be safe and reliable).
 
-  1. ITC-LMS上の「お知らせ」欄に詳細な情報を記載し，そのウェブページURLを，UTASの**オンライン授業URL**の欄に記載する. 受講登録していなければ，リンクをクリックすると受講登録画面に誘導され，登録することによりその授業内のページが見られるようになる. ([手順](https://youtu.be/Ek92-2Pn698))
-  1. (ITC-LMSを使わない先生向け) UTASの他の欄 (例: 授業シラバス -> 詳細情報 -> 「備考」)にテキストとして書く. 「オンライン授業URL」欄には，どこの欄に記載があるか明確に示す．
+  1. On ITC-LMS, you can register the **Online Class URL** in "notification" . If students are not registered for the class, they will be directed to the registration screen by clicking on the link. If registered, students will be led to the class page.  ([Procedure](https://youtu.be/Ek92-2Pn698))
+  1. (For non ITC-LMS users) You can add the URL to other columns in UTAS (ex: Class Syllabus -> Details -> "notes"). Teachers need to make clear where the "Online Class URL" will be posted.
 
 
-講義へのアクセス制限についての一般論
+General Consideration for restricted access to classes
 --------------------------------------------
 
 ちょうどよいアクセス制限は非常に難しい問題.
