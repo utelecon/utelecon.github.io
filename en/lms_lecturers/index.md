@@ -31,9 +31,9 @@ layout: en
 * After you log in ITC-LMS, you can download the teacher's manual.
 
 ## Subpages list
-* <a href="login" target="">How to log in ITC-LMS (TBA)</a>  
-* <a href="information" target="">Set the Notifications (TBA)</a>  
-* <a href="timetable" target="">Checking attendances (TBA)</a>  
+* <a href="login" target="">How to log in ITC-LMS</a>  
+* <a href="information" target="">Set the Notifications</a>  
+* <a href="timetable" target="">Checking attendances</a>  
 * <a href="course_settings" target="">Set the course (TBA)</a>  
 * <a href="course_materials" target="">Upload handouts (TBA)</a>
 * <a href="prepare_attendances" target="">Prepare for confirming attendance in classes (TBA)</a>
