@@ -1,5 +1,5 @@
 ---
-title: Checking attendances
+title: Timetable
 layout: en
 ---
 
