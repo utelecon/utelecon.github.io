@@ -53,8 +53,11 @@ Zoomミーティングにはブラウザのみで参加することもできま�
   ![](img/zoom_win_authreq.png) ![](img/zoom_win_authchange.png)
 
 ## サインインして参加できるかどうかのテスト
-* 以下の「認証テストミーティング」をクリックすると，g.ecc.u-tokyo.ac.jpでサインインしていないと参加できないミーティングにつながります．テストに使用してください．
-  * <font color="red">運用停止中</font>です
+* 以下のGoogle スプレッドシートもしくはOffice 365のMicrosoft Excelシート（いずれも大学アカウントでの認証が必要です）の、「g.ecc.u-tokyo.ac.jp でZoomへのサインインが必要な会議室」につなげるかどうかで、確認できます。テストに使用してください．
+
+  * <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>
+
+  * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a>
 
 * このミーティングは，普段は参加者がいないため，参加するとWindows/Macでは以下のような画面が出ます．
   ![](img/zoom_win_auth_test.png)
