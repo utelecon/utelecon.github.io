@@ -15,7 +15,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
-* <span style="color:blue;">2020/4/16:</span> (学生・教員用)<a href="supporters/class/">クラスサポーター制度</a>を立ち上げました
+* <span style="color:blue;">2020/4/16:</span> (学生・教員用)<a href="supporters/class">クラスサポーター制度</a>を立ち上げました
 * <span style="color:blue;">2020/4/16:</span> (学生用)<a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
 * <span style="color:blue;">2020/4/16:</span> (学生用)<a href="forms/et">授業入室時トラブル報告フォーム</a>を作りました
 * <span style="color:blue;">2020/4/16:</span> (学科・専攻向け)<a href="forms/takecarestudents">学生ケアの学科・専攻担当登録フォーム</a>を作りました
@@ -61,7 +61,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 ---------------------------
 
 * <a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
-* <a href="supporters/class/">クラスサポーター制度</a>
+* <a href="supporters/class">クラスサポーター制度</a>
 * <a href="forms/et">授業入室時トラブル報告フォーム</a>
 * <a href="forms/takecarestudents">学生ケアの学科・専攻担当登録フォーム</a>
 * 部局のWebページへのリンクを作るための<a href="https://tinyurl.com/vjfuxs3" target="_blank">申し込みフォーム</a>
