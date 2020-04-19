@@ -62,7 +62,7 @@ Teachers and TAs who are not registered on UTAS but are jointly in charge of the
 ![選択](cs13.png)
 8. Select "Register."
 ![選択](cs14.png)
-[手順動画](https://youtu.be/TYCXBRzPpAA)
+[Procedure](https://youtu.be/TYCXBRzPpAA)
 
 * When searching for faculty members, search by the "Common ID" instead of "Student ID number".
 * You can also use batch registration using Excel files.
