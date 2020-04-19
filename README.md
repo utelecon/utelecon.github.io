@@ -38,7 +38,7 @@ $ bundle install
 $ bundle exec jekyll serve
   # Open http://localhost:4000/ in your browser
 ```
-###CSSの変更の仕方
+### CSSの変更の仕方
 * /assets/css/style.scss  (CSSではない！)の中にSCSS形式で追記していきます
 * オリジナルのテンプレート（[cayman/_sass/jekyll-theme-cayman.scss](https://github.com/pages-themes/cayman/blob/master/_sass/jekyll-theme-cayman.scss)をoverrideしたいときは、*@import "{{ site.theme }}";*　の上に，継承したい場合はその下に追記していきます）
 
