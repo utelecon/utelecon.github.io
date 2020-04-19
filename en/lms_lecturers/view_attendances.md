@@ -1,19 +1,20 @@
 ---
-title: 出席状況を確認する
+title: Confirm attendance
+layout: en
 ---
-学生に「出席送信」ボタンを押して，ワンタイムパスワードを入力するように求めたあとに，状況を確認するには以下のようにおこなえます．
+After asking the student to press the "Send Attendance" button and to enter a one-time password, follow the instructions below to check their status.
 
-1. コースの画面で左上の三本線のアイコンを選択してメニューを出します．
+1. On the course screen, select the three line icon at the top left to bring up the menu.
 ![メニューの表示](cs1.png)
-2. 「コースコンテンツ」を展開して，「出席管理」を選択します．
+2. Expand "Course Content" and select "Attendance Management".
 ![出席管理の選択](pa1.png)
-3. 該当する授業日の「出席」が0以上になっていることを確認します．更新をするには，ブラウザで「再読み込み」をしてください．
+3. Make sure that the "Attendance" of the relevant class day is 0 or more. To update, "reload" the browser.
 ![出席状況の確認](va1.png)
-4. 個々の受講者の出席状況を確認するには，出席管理の画面で該当する授業日の「操作」から，「出席登録」を選択してください．
+4. To check the attendance status of each student, select “Registration” from “Operation” on the relevant class day on the attendance management screen.
 ![出席登録](va2.png)
-5. 「出席登録」の画面の下の方に，個々の学生の出席状況 (出席日時，更新日時)を確認できます．学生にコメントを書かせた場合は，この画面で確認できます．
+5. At the bottom of the "Attendance Registration" screen, you can check the attendance status (attendance date, update date and time) of each student. If you have students write comments, you can also check on this screen.
 ![出席確認](va3.png)
 
-## 参考情報
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1904.html">ITC-LMS で出席確認を行う方法について (教員)</a>
+## References
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1904.html">How to confirm attendance at ITC-LMS (for instructors)</a>
