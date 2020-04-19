@@ -36,7 +36,7 @@ layout: en
 * <a href="timetable" target="">Timetable</a>  
 * <a href="course_settings" target="">Set the course</a>  
 * <a href="course_materials" target="">Upload materials</a>
-* <a href="prepare_attendances" target="">Prepare for confirming attendance in classes (TBA)</a>
+* <a href="prepare_attendances" target="">Prepare for confirming attendance in classes</a>
 * <a href="prepare_quizzes" target="">Prepare quizzes (TBA)</a>
 * <a href="assignments" target="">Prepare assignments (TBA)</a>
 * <a href="attendances" target="">Let your students know the code for attendance (TBA)</a> 
