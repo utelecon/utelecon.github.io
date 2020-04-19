@@ -22,19 +22,17 @@ title: 2020/03/26 説明会: オンライン授業の学生への通知方法
 **開催趣旨および予定内容:** 新型コロナウィルスCOVID-19感染拡大を防止するために本学は, 来学期, 対面授業を極力避け, オンライン授業の本格実施をすることになりました. 様々な課題があるものの喫緊の課題として, ある授業をオンライン開催する際, どこに繋いだらよいかを学生に確実に伝えることがあります. 全学で標準のやり方を決め, 学生がそれに従えばどの授業へも迷うことなく参加できるように決まりを作る必要があります. さもないと, 特に一度も登校したことがない新入生(学部1年生, 学士入学生, 他大学から進学する大学院生など)が, どうやって授業を受けたら良いかわからないということになってしまいます. 本説明会ではその「標準のやり方」を提案し, それを実現するための役割分担のイメージ(教務事務, 授業をする教員, 支援する技術職員)を提案いたします. 
 
 * 説明会スライド [pdf](notification.pdf), [pptx](notification.pptx)
+* 動画
+  * [説明会動画](https://drive.google.com/open?id=1BsaPc-qBNUQOAB4wXP09SyrMIKuraPGv)(要ECCSクラウドメール)
+  * (教員またはその代理) [オンライン授業のURLをUTASに登録する](https://youtu.be/rlHrutdrjbo)
+  * (学生) [UTASでオンライン授業URLを得る](https://youtu.be/J9dnXmFiIcI)
+
 <!--
 * [参加申し込み](https://tinyurl.com/vzfpuv8)
 * [オンライン会議参加](https://tinyurl.com/sfru5xl) 13:00ごろから参加可能の予定です
 * [質問箱](https://sli.do/event/5lger88n/questions) (sli.do へ行き, イベントコード tsuuchi )
 * [接続トラブルの場合](https://tinyurl.com/rpf3brz)
 -->
-
-* 動画
-  * [説明会動画](https://drive.google.com/open?id=1BsaPc-qBNUQOAB4wXP09SyrMIKuraPGv)(要ECCSクラウドメール)
-  * (教員またはその代理) [オンライン授業のURLをUTASに登録する](https://youtu.be/rlHrutdrjbo)
-  * (学生) [UTASでオンライン授業URLを得る](https://youtu.be/J9dnXmFiIcI)
-
-
 <!--
 * [UTokyo AccountでExcelシートへアクセスする実験](https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq)
 -->
