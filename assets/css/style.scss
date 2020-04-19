@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+a {
+    &:visited {
+      color: navy ;
+    }
+  }
+
+/* cayman/_sass/jekyll-theme-cayman.scss  がオリジナル*/
+
