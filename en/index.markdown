@@ -10,7 +10,7 @@ About this Site
 * Please understand that the situation is changing every day and that this Portal has being created in a hurry, so you will find places still under construction or with content being frequently updated.
 * This site has been set up by the Information Technology Center of the University of Tokyo and the University Education and Research Center, and welcomes further collaborators.
 
-What's New (<span style="color:blue;">blue letters</span>highlight the date of publication. Recent entries come above)
+What's New (<span style="color:blue;">blue letters</span> highlight the date of publication. Recent entries come above)
 ---------------------------
 * <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoom FAQs on setting issues</a>
 * <span style="color:blue;">2020/4/1:</span> <font color="red">The following emergency system maintenance of ITC-LMS has been completed. Thank you for your cooperation. (11:44 am)</font>
