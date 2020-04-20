@@ -60,112 +60,112 @@ layout: en
 
 
 
-3. 「設問作成」の「⊕新規作成」で必要な数だけ設問を追加します。
+3. Add as many questions as you need in "⊕ Create New" in "Create Question".
 ![テスト 新規登録](img/quiz3.png)
-   1. 以下の4種類から選んで設問を作成します。
-      - 単一選択形式（ラジオボタン）
-      - 複数選択形式（チェックボックス）
-      - フリーテキスト形式（テキストエリア）
-      - 穴埋め形式
-   2. <u>単一選択形式（ラジオボタン）の作り方</u>
-      1. 「設問設定」で「単一選択形式（ラジオボタン）」を選択します。
-      2. 「タイトル」を入力します。
-      	 - 問1などのタイトルであって、設問そのものではありません。
-      3. 「設問内容」 で実際の問題文を入力します。
-      4. 解答の項目数（選択肢の数）を選択します。
-      5. 解答項目（解答の選択肢）を必要な数だけ入力します。
-      6. 正解の解答項目のチェックボックスをチェックします。
-      7. 解説文を入力します。提出後、採点後、解答期間終了時に学生が参照できます。
-      8. 配点を入力します。問題総数や合格点、重要度に応じて決めて下さい。
-      	 - 合計点数が何点になるかは事前に確認しておいて下さい。
-      9. 「登録する」ボタンを押す
+   1. There are four formats available for setting quizzes.
+      - Single selection format quiz (radio button)
+      - Multiple selection format quiz (check box)
+      - free text format quiz (text area)
+      - Fill-in-the-blank quiz
+   2. <u>How to make a single selection format quiz (radio button)</u>
+      1. Select "Single selection format (radio button)" in "Question setting".
+      2. Enter a "Title".
+      	 - This is the title for specific questions (such as Question 1), not the question itself.
+      3. Enter the actual questions in "Question".
+      4. Select the number of answer items (number of choices).
+      5. Enter answer items (answer choices).
+      6. Check the box of the correct answer item.
+      7. Enter a commentary. Students can refer after submitting, scoring, and after the answer period ends.
+      8. Enter the allocation of marks. Allocate according to the total number of questions, the passing score, and the importance of each question.
+      	 - Check in advance how many points the full score should be.
+      9. Press the "Register" button.
 
       ![ラジオボタン](img/quiz4.png)
    
    
    
-   3. <u>複数選択形式（チェックボックス）の作り方</u>
+   3. <u>How to make multiple selection format quiz (check box)</u>
    　 <b>※正解が複数あるだけで、ラジオボタンとほとんど同じです。</b>
-      1. 「設問設定」で「複数選択形式（チェックボックス）」を選択します。
-      2. 「タイトル」を入力します。
-      	 - 問1などのタイトルであって、設問そのものではありません。
-      3. 「設問内容」 で実際の問題文を入力します。
-      4. 解答の項目数（選択肢の数）を選択します。
-      5. 解答項目（解答の選択肢）を必要な数だけ入力します。</b>
-      6. <b>正解の解答項目のチェックボックスをすべてチェックします。</b>
-      7. 解説文を入力します。提出後、採点後、解答期間終了時に学生が参照できます。
-      8. 配点を入力します。問題総数や合格点、重要度に応じて決めて下さい。
-      	 - 合計点数が何点になるかは事前に確認しておいて下さい。
-      9. 「登録する」ボタンを押す
+      1. Select "Multiple selection format (check box)" in "Question setting".
+      2. Enter a "Title".
+      	 - This is the title for specific questions (such as Question 1), not the question itself.
+      3. Enter the actual questions in "Question".
+      4. Select the number of answer items (number of choices).
+      5. Enter answer items (answer choices).</b>
+      6. <b>Check all the checkboxes of the correct answer items.</b>
+      7. Enter a commentary. Students can refer after submitting, scoring, and after the answer period ends.
+      8. Enter the allocation of marks. Allocate according to the total number of questions, the passing score, and the importance of each question.
+      	 - Check in advance how many points the full score should be.
+      9. Press the "Register" button.
 
       ![チェックボックス](img/quiz5.png)
    
    
    
-   4. <u>フリーテキスト形式（テキストエリア）の作り方</u>
-   　 <b>※正解が文章になっているだけで、ラジオボタンやチェックボックスとほとんど同じです。自動採点は出来ません。</b>
-      1. 「設問設定」で「フリーテキスト形式（テキストエリア）」を選択します。
-      2. 「タイトル」を入力します。
-      	 - 問1などのタイトルであって、設問そのものではありません。
-      3. 「設問内容」 で実際の問題文を入力します。
-      4. <b>正解の文章を入力します。</b>
-      5. 解説文を入力します。提出後、採点後、解答期間終了時に学生が参照できます。
-      6. 配点を入力します。問題総数や合格点、重要度に応じて決めて下さい。
-      	 - 合計点数が何点になるかは事前に確認しておいて下さい。
-      7. 「登録する」ボタンを押す
+   4. <u>How to make free text format quiz (text area)</u>
+   　 <b>※It is almost the same as a radio button or checkbox, except that the correct answer is a written sentence. Automatic scoring is not possible.</b>
+      1. Select "Free text format (text area)" in "Question setting".
+      2. Enter a "title".
+      	 - This is the title for specific questions (such as Question 1), not the question itself.
+      3. Enter the actual questions in "Question".
+      4. <b>Enter an answer sentence.</b>
+      5. Enter a commentary. Students can refer after submitting, scoring, and after the answer period ends.
+      6. Enter the allocation of marks. Allocate according to the total number of questions, the passing score, and the importance of each question.
+      	 - Check in advance how many points the full score should be.
+      7. Press the "Register" button.
 
       ![テキストエリア](img/quiz6.png)
    
    
    
-   4. <u>穴埋め形式の作り方</u>
-   　 <b>※設問への入力欄の挿入の仕方や自動採点方式の選択などが他と異なります。</b>
-      1. 「設問設定」で「穴埋め形式」を選択します。
-      2. 「タイトル」を入力します。
-      	 - 問1などのタイトルであって、設問そのものではありません。
-      3. <b>「設問内容」 で実際の問題文を入力します。</b>
-         - 解答の入力欄（穴）を挿入したい場所で「穴埋めタグ追加」ボタンを押します（[fb]という文字列が挿入されます）。
-      4. <b>解答項目数（穴の数）を指定します。</b>
-      5. <b>正解の文字列を必要な数だけ入力します。</b>
-         - 問題文から一意な文字列になるように出題の仕方を注意します。
-      6. <b>自動採点方式を指定します。</b>
-         - 不正解の解答があった場合の点数の付け方を変えられます。
-      7. 解説文を入力します。提出後、採点後、解答期間終了時に学生が参照できます。
-      8. 配点を入力します。問題総数や合格点、重要度に応じて決めて下さい。
-      	 - 合計点数が何点になるかは事前に確認しておいて下さい。
-      9. 「登録する」ボタンを押す
+   4. <u>How to make a fill-in-the-blank quiz</u>
+   　 <b>※Some settings are different here from other formats, such as how to set up questions and select the automatic scoring.</b>
+      1. Select "Fill-in-the-blank" in "Question setting".
+      2. Enter a "title".
+      	 - This is the title of question 1 and not the question itself.
+      3. <b>Enter the actual questions in "Question".</b>
+         - Click the "Add tag" button where you want to insert the answer field (blank). (The character string “[fb]” will be inserted.)
+      4. <b>Specify the number of answer items (the number of blanks).</b>
+      5. <b>Enter the correct strings of characters.</b>
+         - Pay attention to make the questions mean unique and clear. 
+      6. <b>Select the automatic scoring method.</b>
+         - You can change the method of scoring when there is an incorrect answer.
+      7. Enter a description. Students can refer after submitting, scoring, and at the end of the answer period.
+      8. Enter the score. Decide according to the total number of questions, the passing score, and the importance.
+      	 - Check in advance how many points you will have.
+      9. Press the "Register" button.
 
       ![穴埋め形式](img/quiz7.png)
 
 
 
 
-4. 受験シュミレーションをします。
-   - 「テスト 新規登録」の画面で「受験シュミレーション」ボタンを押します。
-   - 一通り試験を受験してみて内容を確かめてみて下さい。
+4. Take a quiz simulation.
+   - Click the "Simulation" button on the "New Quiz Registration" screen.
+   - Take the quiz and check the contents.
    ![受験シュミレーション](img/quiz8.png)
 
 
 
 
-5. 確認画面に進みます。
-   - 「テスト 新規登録」の画面で「確認画面に進む」ボタンを押します。
+5. Proceed to the confirmation screen.
+   - Press the "Proceed to confirmation screen" button on the "Quiz new registration" screen.
    ![確認画面に進む](img/quiz9.png)
 
 
 
 
-6. 確認してテストを登録します。
-   - 「確認」ボタンを押します。
+6. Confirm and register the quiz.
+   - Click the "Confirm" button.
    ![確認](img/quiz10.png)
 
 
 
-## 参考情報
+## References
 
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/04/08_2029.html">ITC-LMS のテンプレートを別のコースや違うアカウントでも使いたい （教員）</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/10_1858.html">ITC-LMS で作成したテストを確認する方法 (教員)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1889.html">ITC-LMS のテストや課題の評価で利用できる文字について (教員)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1888.html">ITC-LMSのテストで、複数の穴埋めを用意した問題を作成したい(教員)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1890.html">ITC-LMSのテストで出題時に配点を表示させたい(教員)</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/04/08_2029.html">How to use the ITC-LMS template for different courses or different accounts (for instructors）</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/10_1858.html">How to check the quiz created in ITC-LMS (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1889.html">Characters that can be used in ITC-LMS quiz and task evaluations (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1888.html">How to create a question with multiple fill-in holes in ITC-LMS test (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1890.html">How to display the allocation of the score when students answering in the ITC-LMS quiz (for instructors)</a>
