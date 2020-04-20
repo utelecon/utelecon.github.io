@@ -37,7 +37,7 @@ layout: en
 * <a href="course_settings" target="">Set the course</a>  
 * <a href="course_materials" target="">Upload materials</a>
 * <a href="prepare_attendances" target="">Prepare for confirming attendance in classes</a>
-* <a href="prepare_quizzes" target="">Prepare quizzes (TBA)</a>
+* <a href="prepare_quizzes" target="">Prepare quizzes</a>
 * <a href="assignments" target="">Prepare assignments</a>
 * <a href="attendances" target="">Let your students know the code for attendance</a> 
 * <a href="view_attendances" target="">Confirm attendance</a>
