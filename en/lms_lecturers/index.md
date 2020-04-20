@@ -39,6 +39,6 @@ layout: en
 * <a href="prepare_attendances" target="">Prepare for confirming attendance in classes</a>
 * <a href="prepare_quizzes" target="">Prepare quizzes (TBA)</a>
 * <a href="assignments" target="">Prepare assignments (TBA)</a>
-* <a href="attendances" target="">Let your students know the code for attendance (TBA)</a> 
+* <a href="attendances" target="">Let your students know the code for attendance</a> 
 * <a href="view_attendances" target="">Confirm attendance</a>
 * <a href="quizzes" target="">Apply quizzes (TBA)</a>
