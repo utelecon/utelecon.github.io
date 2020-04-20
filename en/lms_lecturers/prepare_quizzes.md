@@ -1,5 +1,6 @@
 ---
-title: 小テストを作成する
+title: Preparing quizzes
+layout: en
 ---
 
 ## 概要
