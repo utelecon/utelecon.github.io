@@ -3,58 +3,58 @@ title: Preparing quizzes
 layout: en
 ---
 
-## 概要
+## Overview
 
-* 「小テスト」では，1問1答形式の問題を出題することが出来ます．
-  * 授業をちゃんと聞いていたか，どの程度まで理解したか，などを確認する目的に使えます．
-    * カンニングの問題などがあるので、成績に反映させる場合は実施方法に注意が必要です。
-    * 出席確認の代わりに使うなど、カジュアルな使い方のほうが向いていると思います。
-  * 提出できない等のトラブルに対して，予め対応を決めておく必要があります．
-    * 学生が操作に不慣れな場合，システムの過負荷による場合など，様々なケースが想定されます．
-    * 教員・学生の双方が慣れるまでは、点数を厳密に扱わないほうが安全です．
-  * 様々な条件を設定できるので、作成前にテストの性質をよく考えておく必要があります．
-    * 学生が自主的に学ぶため、授業中に理解度を確認するため、成績をつけるため、など．
-  * 「課題」と違って解答期間を過ぎて提出することはできません．
-    * 例えば，遅れた人にも減点ありで解答させたい場合は，解答期間を別にしたテストをもう一つ作成しておく必要があります．
+* In the "quiz" menu, you can ask questions in a question-and-answer format.
+  *This function can be used to check whether students have listened to the class properly and how much students have understood.
+    * Due to cheating issues, you need to be careful about how to apply the results of the quiz to your grades.
+    * We suppose it is more suitable for casual use such as using it instead of attendance confirmation.
+  * It is necessary to decide in advance how to deal with troubles such as not being able to submit answers to a quiz.
+    * Various cases are envisioned, such as when a student is unfamiliar with the operation or when the system is overloaded.
+    * It is safer not to treat scores strictly until both teachers and students are used to the system.
+  * Since various conditions can be set, it is necessary to carefully consider the nature of the quiz before creating it.
+    * For students to study on their own, to check their understanding during class, to give grades, etc.
+  * Unlike "Assignment", students cannot submit after the deadline.
+    * For example, if you want students who did not make it to the deadline to do a quiz with a penalty point, you need to create another quiz with another deadline.
 
 
 
-## 「小テスト」の作り方
+## How to create quizzes
 
-1. 「コースの概要説明/Course Summary」の画面の上から5つ目にある「小テスト」の左下にある⊕ボタンを押します．
-   - 新しい「小テスト」を作成できます。
+1. Click the ⊕ button at the bottom left of the "quiz," the fifth section from the top of the "Course Summary" screen.
+   - Create a new "quiz".
 
    ![小テスト](img/quiz1.png)
 
 
 
-2. 「テスト 新規登録」のページになるので、以下の内容を設定します。
+2. On the "Test new registration" page, set the following contents.
 
-   1. 「タイトル」では、小テストのタイトルを記入します。
-   2. 「テスト内容」では、テストの内容の説明を記入します。省略可能です。
-   3. 「解答期間」では、小テストに解答できる期間を設定します．
-      - 「再受験」を「可」または「合格点に達するまで可」にすると、この期間内で何度も受験できます．
-      - 「再受験」を不可にすると、この期間内で１度だけ受験できます．
-      - 具体的には，(1) 授業時間中のみ、(2) 次回の授業開始時まで、といった設定が考えられます。
-      - 期間が始まってしまうと止められないので、開始時間はよく考えて設定してください。
-   4. 「制限時間」では小テスト全体の解答時間を設定できます．
-      - 「あり」の場合、制限時間を超えると強制的に解答が打ち切られて、その時点の回答内容が送られます。
-   5. 「解答待ち時間」では，解答を始めるまでに待たせる時間を設定できます．
-      - 受験開始前に説明を読ませるなどの場合に使います。
-      - 最初は「なし」で良いと思います．
-   6. 「ランダム出題」を「あり」に設定すると，予め複数作成しておいた設問の中から，指定した数の設問をランダムに出題させることが出来ます．
-      - テストを繰り返し行う場合に，答えを順番で丸暗記するなどの対策を防ぐことが出来ます．
-   7. 「合格点」を「あり」に設定すると，合格点に達するまで繰り返し受験させることが出来ます．
-   8. 「採点結果の参照」では、学生が解答後に採点結果の点数を参照可能にするかどうかや、参照させるタイミングを設定します。
-      - 参照不可（「不可 」）、「提出時」（自動採点の場合）あるいは「採点後」（手動採点の場合）、全員が回答し終わった後（「解答期間終了時」）から選択できます．
-   9. 「正解の参照」では、学生に正解や解説を参照させるかどうかや、参照させるタイミングを設定します。
-      - 参照不可（「不可」）、「提出時」（手動採点の場合は採点前）、「採点後」、全員が回答し終わった後（「解答期間終了時」）から選択できます．
-      - 正解を参照可能にすると、解答が他の受験中の学生に知られてしまう可能性があるので，テストの性質に応じて適切に設定してください。
-   10. 「自動採点」では、解答時にシステムが自動で採点するか、教員が手動で採点するかを設定します。
-       - 自動採点をするためには、選択式や一意の文字列に定まる穴埋め問題（全角・半角の違い等に注意）である必要があります。
-   11. 「再受験」では、2回以上繰り返し受験できるかどうかを設定します。
-       - 自主研鑽のためのテストの場合は、再受験を「可」や「合格点に達するまで可」にすると良いでしょう。
-       - 成績に反映させる場合は、再受験を「不可」にするとよいでしょう。
+   1. In "Title", enter the title of the quiz.
+   2. In "Quiz content", enter a description of the content of the quiz. It can be omitted.
+   3. In the "Answer period", set the period during which students can answer the quiz.
+      - If you set "OK" or "OK until reaching the passing score" to "Retake", students can take the quiz as many times they want during this period.
+      - If "Retake" is disabled, students can take the quiz only once during this period.
+      - For example, you can set the answer period to (1) only during class hours, or (2) until the next class starts, etc.
+      - You cannot withdraw the quiz once the answer period starts. Set the start time carefully.
+   4. "Time limit" allows you to set the answer time for the entire quiz.
+      - In case you choose "Yes", the answer is forcibly terminated when students go over the time limit and the answer at that time will be submitted.
+   5. In "Waiting Time", you can set the time to wait before starting the answer.
+      - You can use this setting when you want students to read the explanation before starting the quiz.
+      - You don’t necessarily have to use this function.
+   6. If you choose "Yes" to "Random questions" and select a specific number of questions to ask, the number of questions will randomly be selected from the questions you have prepared in advance.
+      - You can use this setting when you want students to take the quiz repeatedly and want to prevent them from using cheating methods such as memorizing the answers in order.
+   7. If you choose “Yes” to "Passing Grade", students will take the exam repeatedly until they reach the passing score.
+   8. In the "Referring of the scoring result," you set whether or not students are able to refer to their own score after answering, and when they can check the score.
+      - You can select from “not possible” (students cannot check their own scores), “at the time of submission” (for automatic scoring), “after scoring” (for manual scoring), or “at the end of the answer period” (after all students have answered).
+   9. "Refer to correct answer" allows you to set whether or not students should refer to the correct answer and commentary, and when to refer to it.
+      - You can select from “not possible” (students cannot check the correct answers), “at the time of submission” (before scoring in the case of manual scoring), “after scoring”, or “at the end of the answer period” (after all members have answered).
+      - When students can refer to the correct answer, the answer may be known to other students who have not / are taking the exam, so please set it appropriately.
+   10. In "Automatic scoring", set whether the system will grade automatically when students finish answering the questions, or whether the teacher will grade manually.
+       - In order to perform automatic scoring, it is necessary to make all the questions closed questions or a fill-in-the-blank style whose answers should be unique strings of characters (note orthographic variants, such as a difference between full-width and half-width).
+   11. In "Retake", set whether students can take the quiz more than once.
+       - If the purpose of the quiz is self-improvement, it is a good idea to set the retake as "OK" or "OK until the passing score is reached".
+       - If you want to reflect the result of the quiz on students’ grades, it is better to set the quiz retake as "not possible".
 
    ![テスト 新規登録](img/quiz2.png)
 
