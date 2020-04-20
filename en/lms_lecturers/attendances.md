@@ -1,17 +1,18 @@
 ---
-title: 出席管理のためのコードを学生に知らせる．
+title: Let your students know the code for attendance (TBA)
+layout: en
 ---
-1. <a href="prepare_attendances" target="">授業中に出席を取る準備をする</a>で設定した「送信可能日時」の開始時間後に，学生がITC-LMSにログインして，該当コースの「コースTOP」画面を表示すると以下のように「出席送信」ボタンが現れます．
+1. After the start time of “Date and time for submission” set in <a href="prepare_attendances" target="">Preparations for taking attendance during class</a>, the "Submit Attendance" button will appear when the student logs in to ITC-LMS and displays the “Course TOP” screen of the course.
 ![出席送信](at1.png)
-  * 学生がすでにログインして「コースTOP」画面を表示している場合は，ブラウザの再読み込みで再表示させるように指示してください．開始時間に自動的に「出席送信」ボタンが現れるということはありません．
-  * 教員のITC-LMS画面は開始時間になっても変化はありません．開始時間は<a href="prepare_attendances" target="">授業中に出席を取る準備をする</a>の「出席管理」の一覧画面で該当する授業を編集すると確認できます．[手順動画](https://youtu.be/uKfoTtTSuUU)
-2. 学生が「出席送信」ボタンを押すと以下のようにワンタイムパスワードの入力を求められます．<a href="prepare_attendances" target="">授業中に出席を取る準備をする</a>で設定したワンタイムパスワードを，受講している学生に知らせます．教員が設定したワンタイムパスワードを忘れてしまったときは<a href="prepare_attendances" target="">授業中に出席を取る準備をする</a>の「出席管理」の一覧画面で該当する授業を編集すると見ることができます．学生の画面にはコメント入力案もあります．コメントに書かせることがある場合は，そのように指示します．
+  * If the student has already logged in and displayed the "Course TOP" screen, instruct the student to reload the browser. The "Submit Attendance" button does not necessarily appear at the class start time.
+  * The teacher's ITC-LMS screen will not change. You can check the class start time by editing the class on the "Attendance Management" list screen of <a href="prepare_attendances" target="">Preparations for taking attendance During Class</a>.[Procedure](https://youtu.be/uKfoTtTSuUU)
+2. When students press the "Submit Attendance" button, they will be asked to enter a one-time password as shown below. Tell your students taking the class the one-time password that you set in <a href="prepare_attendances" target="">Preparations for taking attendance During Class</a>. If you have forgotten the one-time password set by the teacher, you can view it by editing the class on the "Attendance Management" list screen of <a href="prepare_attendances" target="">Preparations for taking attendance During Class</a>. There is also a commenting area on students' screens. If you want the students to comment, tell them to do so here.
 ![ワンタイムパスワードの入力](at2.png)
-  * ワンタイムパスワードを大きな字で書いたスライドをあらかじめ作っておくのがお勧めです．オンラインで受講している学生の環境によっては，小さい文字が見にくいケースがあります．
-  * Web会議システムのチャット機能を使ってワンタイムパスワードを流すと，学生がコピー・アンド・ペーストで入力できる分，入力ミスは減ります．ただ，チャット機能は，参加前のチャットをさかのぼって見ることができないため，通信の不具合で一度Web会議システムを抜けてしまい，入り直した学生が見られないという問題があります．
+  * It is recommended that you make a slide with the one-time password written in large letters in advance. Depending on the environment of students taking the course online, small letters may be difficult to see.
+  * If a one-time password is sent in chat on the video conferencing system, typing errors can be reduced because students can copy and paste. However, students cannot see what was written in the chat before they participate in the class; if a network failure causes a student to leave the video conferencing system, he or she will not be able to see the password written in the chat after re-entering the class.
 
 ## 参考情報
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1905.html">ITC-LMS で「出席送信」ボタンがありません (学生)</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1905.html">There is no "Submit Attendance" button on ITC-LMS (for students)</a>
 
 
