@@ -40,6 +40,8 @@ layout: default
 {% endfor %}
 </ol>
 
+{% assign pagelist = site.pages | sort: 'url' %}
+
 <h2 id="JPN-URL">ページリスト（URL順）</h2>
 <ul>
   {% for page in pagelist %}
