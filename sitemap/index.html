@@ -1,0 +1,60 @@
+---
+title: サイトマップ
+layout: default
+---
+
+{% assign pagelist = site.pages | sort: 'url' %}
+
+{% comment %}
+<ul>
+  {% for page in pagelist %}
+  <li>{{ page }}</li>
+  {% endfor %}
+</ul>
+{% endcomment %}
+
+<h2 id="JPN-URL">ページリスト（URL順）</h2>
+<ul>
+  {% for page in pagelist %}
+  {% assign lang = page.url | truncate: 4, "" %}
+  {% if lang != '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
+  <li>{{page.title}}<br/>
+  <a href="{{ page.url }}">{{ page.url }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<h2 id="ENG-URL">List of Pages (sorted by URL)</h2>
+<ul>
+  {% for page in pagelist %}
+  {% assign lang = page.url | truncate: 4, "" %}
+  {% if lang == '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
+  <li>{{page.title}}<br/>
+  <a href="{{ page.url }}">{{ page.url }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+{% assign pagelist = site.pages | sort: 'title' %}
+
+<h2 id="JPN-Title">ページリスト（タイトル順）</h2>
+<ul>
+  {% for page in pagelist %}
+  {% assign lang = page.url | truncate: 4, "" %}
+  {% if lang != '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
+  <li>{{page.title}}<br/>
+  <a href="{{ page.url }}">{{ page.url }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<h2 id="ENG-Title">List of Pages (sorted by title)</h2>
+<ul>
+  {% for page in pagelist %}
+  {% assign lang = page.url | truncate: 4, "" %}
+  {% if lang == '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
+  <li>{{page.title}}<br/>
+  <a href="{{ page.url }}">{{ page.url }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ul>
