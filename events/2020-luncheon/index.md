@@ -16,7 +16,7 @@ title: オンライン授業情報交換会
   * ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります
   * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください．
   * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
-* [Excelオンライン](https://tinyurl.com/ybs6l9qo) 
+* [Excelオンライン](https://tinyurl.com/y8wdd9ku) 
   * UTokyo Account10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります．
   * 上手くアクセスできない場合は[こちら](https://www.office.com/)に行き，（サインインしている場合は一度サインアウトして）UTokyo Account10桁のID@utac.u-tokyo.ac.jpでサインインしてください
 
