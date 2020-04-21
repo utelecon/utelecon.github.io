@@ -1,5 +1,6 @@
 ---
 title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
+sitemap: false
 ---
 
 本サイトについて
@@ -115,5 +116,4 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 * [QAフォーラムとメーリングリスト](forums/)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
-* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
-
+* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a>
