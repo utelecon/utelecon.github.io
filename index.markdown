@@ -15,6 +15,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
+* <span style="color:blue;">2020/4/21:</span> (教員用)4/22 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/4/16:</span> (学生・教員用)<a href="supporters/class">クラスサポーター制度</a>を立ち上げました
 * <span style="color:blue;">2020/4/16:</span> (学生用)<a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
 * <span style="color:blue;">2020/4/16:</span> (学生用)<a href="forms/et">授業入室時トラブル報告フォーム</a>を作りました
