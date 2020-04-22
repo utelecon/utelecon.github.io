@@ -6,7 +6,7 @@ sitemap: false
 
 {% comment %}
 {% assign pagelist = site.pages %}
-<h3>for debug</h3>
+<h3>sitemap:false</h3>
 <ol>
   {% for page in pagelist %}
     {% if page.sitemap != false %}
@@ -15,6 +15,17 @@ sitemap: false
   {% endfor %}
 </ol>
 {% endcomment %}
+
+{% comment %}
+{% assign tmplist = site.pages | where_exp:"sitemap", "sitemap != false" %}
+<h3>tmplist</h3>
+<ol>
+  {% for page in tmplist %}
+      <li><a href="{{ page.url }}">{{ page.url }}</a>
+  {% endfor %}
+</ol>
+{% endcomment %}
+
 
 {% comment %}
 <ul>
@@ -29,52 +40,112 @@ sitemap: false
 
 {% assign pagelist = site.pages | sort: 'title' %}
 
-<h2 id="JPN-Title">ページリスト（タイトル順）</h2>
+<h2 id="oc">オンライン授業（学生）</h2>
 <ol>
 {% for page in pagelist %}
-  {% assign lang = page.url | truncate: 4, "" %}
-  {% if lang != '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a>
-    {% include toc.html html=page.content baseurl=page.url %}
-  {% endif %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains 'oc' and page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a>
+      {% include toc.html html=page.content baseurl=page.url %}
+    {% endif %}
+  {% endunless %}
 {% endfor %}
 </ol>
 
-{% comment %}
-<h2 id="ENG-Title">List of Pages (sorted by title)</h2>
+<h2 id="faculty_members">オンライン授業（教員）</h2>
 <ol>
 {% for page in pagelist %}
-  {% assign lang = page.url | truncate: 4, "" %}
-  {% if lang == '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a>
-    {% include toc.html html=page.content baseurl=page.url %}
-  {% endif %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains 'faculty_members' and page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a>
+      {% include toc.html html=page.content baseurl=page.url %}
+    {% endif %}
+  {% endunless %}
 {% endfor %}
 </ol>
-{% endcomment %}
 
-{% assign pagelist = site.pages | sort: 'url' %}
-
-<h2 id="JPN-URL">ページリスト（URL順）</h2>
+<h2 id="let_students_know_your_url">授業URL通知の仕方（学生・教員）</h2>
 <ol>
-  {% for page in pagelist %}
-  {% assign lang = page.url | truncate: 4, "" %}
-  {% if lang != '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
-  <li>{{page.title}}<br/>
-  <a href="{{ page.url }}">{{ page.url }}</a></li>
-  {% endif %}
-  {% endfor %}
+{% for page in pagelist %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains 'let_students_know_your_url' and page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a>
+      {% include toc.html html=page.content baseurl=page.url %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
 </ol>
 
-{% comment %}
-<h2 id="ENG-URL">List of Pages (sorted by URL)</h2>
+<h2 id="itc_lms">ITC-LMS（教員）</h2>
 <ol>
-  {% for page in pagelist %}
-  {% assign lang = page.url | truncate: 4, "" %}
-  {% if lang == '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
-  <li>{{page.title}}<br/>
-  <a href="{{ page.url }}">{{ page.url }}</a></li>
-  {% endif %}
-  {% endfor %}
+{% for page in pagelist %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains 'lms_lecturers' and page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a>
+      {% include toc.html html=page.content baseurl=page.url %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
 </ol>
-{% endcomment %}
+
+<h2 id="Zoom">Zoom</h2>
+<ol>
+{% for page in pagelist %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains 'zoom' and page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a>
+      {% include toc.html html=page.content baseurl=page.url %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ol>
+
+<h2 id="Meet">Google Hangouts Meet</h2>
+<ol>
+{% for page in pagelist %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains 'google_hangouts_meet' and page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a>
+      {% include toc.html html=page.content baseurl=page.url %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ol>
+
+<h2 id="Webex">Webex</h2>
+<ol>
+{% for page in pagelist %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains 'webex' and page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a>
+      {% include toc.html html=page.content baseurl=page.url %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ol>
+
+<h2 id="events">イベント・説明会</h2>
+<ol>
+{% for page in pagelist %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains '/events/' and page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a>
+      {% include toc.html html=page.content baseurl=page.url %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ol>
+
+<h2 id="others">その他</h2>
+<ol>
+{% for page in pagelist %}
+  {% unless page.url contains '/en/' %}
+    {% if page.sitemap != false %}
+      {% unless page.url contains 'oc' or page.url contains 'faculty_members' or page.url contains 'lms_lecturers' or page.url contains 'let_students_know_your_url' or page.url contains 'zoom' or page.url contains 'google_hangouts_meet' or page.url contains 'webex' or page.url contains '/events/' or page.url contains 'style.css' %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a>
+        {% include toc.html html=page.content baseurl=page.url %}
+      {% endunless %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ol>
