@@ -1,6 +1,7 @@
 ---
 title: Test
 layout: ja_test
+sitemap: false
 ---
 
 Chatplus テスト

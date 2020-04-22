@@ -1,5 +1,6 @@
 ---
 title: Webex Meetingsを使った安全な会議の開き方
+sitemap: false
 ---
 
 このページでは，Webex Meetingsのエンド・エンド間暗号化（End to End Encrypted Meeting）機能を用いたオンライン会議の開き方を説明します．
@@ -60,4 +61,3 @@ Webex Meetingsには，クライアント間で暗号化された（途中で復
 
 * 本当に安全ですか。
 	* 検証中です。
-

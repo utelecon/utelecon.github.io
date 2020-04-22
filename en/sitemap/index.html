@@ -1,6 +1,6 @@
 ---
-title: サイトマップ
-layout: default
+title: Sitemap
+layout: en
 sitemap: false
 ---
 
@@ -27,8 +27,10 @@ sitemap: false
 </ul>
 {% endcomment %}
 
+
 {% assign pagelist = site.pages | sort: 'title' %}
 
+{% comment %}
 <h2 id="JPN-Title">ページリスト（タイトル順）</h2>
 <ol>
 {% for page in pagelist %}
@@ -39,8 +41,8 @@ sitemap: false
   {% endif %}
 {% endfor %}
 </ol>
+{% endcomment %}
 
-{% comment %}
 <h2 id="ENG-Title">List of Pages (sorted by title)</h2>
 <ol>
 {% for page in pagelist %}
@@ -51,10 +53,10 @@ sitemap: false
   {% endif %}
 {% endfor %}
 </ol>
-{% endcomment %}
 
 {% assign pagelist = site.pages | sort: 'url' %}
 
+{% comment %}
 <h2 id="JPN-URL">ページリスト（URL順）</h2>
 <ol>
   {% for page in pagelist %}
@@ -65,8 +67,8 @@ sitemap: false
   {% endif %}
   {% endfor %}
 </ol>
+{% endcomment %}
 
-{% comment %}
 <h2 id="ENG-URL">List of Pages (sorted by URL)</h2>
 <ol>
   {% for page in pagelist %}
@@ -77,4 +79,3 @@ sitemap: false
   {% endif %}
   {% endfor %}
 </ol>
-{% endcomment %}
