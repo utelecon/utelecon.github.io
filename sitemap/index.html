@@ -26,15 +26,15 @@ sitemap: false
 </ol>
 {% endcomment %}
 
-
 {% comment %}
 <ul>
-  {% for page in pagelist %}
-  {% if page.url == "/lms_lecturers/prepare_quizzes.html" %}
-  {{ page.title }}
-  {% include search_link.html html=content baseurl=page.url %}
-  {% endif %}
-  {% endfor %}
+{% for page in pagelist %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains 'oc' and page.sitemap != false %}
+      <li>{{ page.name }}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
 </ul>
 {% endcomment %}
 
@@ -44,7 +44,7 @@ sitemap: false
 <ol>
 {% for page in pagelist %}
   {% unless page.url contains '/en/' %}
-    {% if page.url contains 'oc' and page.sitemap != false %}
+    {% if page.url contains '/oc/' and page.sitemap != false %}
       <li><a href="{{ page.url }}">{{ page.title }}</a>
       {% include toc.html html=page.content baseurl=page.url %}
     {% endif %}
@@ -56,7 +56,7 @@ sitemap: false
 <ol>
 {% for page in pagelist %}
   {% unless page.url contains '/en/' %}
-    {% if page.url contains 'faculty_members' and page.sitemap != false %}
+    {% if page.url contains '/faculty_members/' and page.sitemap != false and page.name != 'let_students_know_your_url.md'%}
       <li><a href="{{ page.url }}">{{ page.title }}</a>
       {% include toc.html html=page.content baseurl=page.url %}
     {% endif %}
@@ -80,7 +80,7 @@ sitemap: false
 <ol>
 {% for page in pagelist %}
   {% unless page.url contains '/en/' %}
-    {% if page.url contains 'lms_lecturers' and page.sitemap != false %}
+    {% if page.url contains '/lms_lecturers/' and page.sitemap != false %}
       <li><a href="{{ page.url }}">{{ page.title }}</a>
       {% include toc.html html=page.content baseurl=page.url %}
     {% endif %}
@@ -92,7 +92,7 @@ sitemap: false
 <ol>
 {% for page in pagelist %}
   {% unless page.url contains '/en/' %}
-    {% if page.url contains 'zoom' and page.sitemap != false %}
+    {% if page.url contains '/zoom/' and page.sitemap != false %}
       <li><a href="{{ page.url }}">{{ page.title }}</a>
       {% include toc.html html=page.content baseurl=page.url %}
     {% endif %}
@@ -104,7 +104,7 @@ sitemap: false
 <ol>
 {% for page in pagelist %}
   {% unless page.url contains '/en/' %}
-    {% if page.url contains 'google_hangouts_meet' and page.sitemap != false %}
+    {% if page.url contains '/google_hangouts_meet/' and page.sitemap != false %}
       <li><a href="{{ page.url }}">{{ page.title }}</a>
       {% include toc.html html=page.content baseurl=page.url %}
     {% endif %}
@@ -116,7 +116,7 @@ sitemap: false
 <ol>
 {% for page in pagelist %}
   {% unless page.url contains '/en/' %}
-    {% if page.url contains 'webex' and page.sitemap != false %}
+    {% if page.url contains '/webex/' and page.sitemap != false %}
       <li><a href="{{ page.url }}">{{ page.title }}</a>
       {% include toc.html html=page.content baseurl=page.url %}
     {% endif %}
@@ -141,7 +141,7 @@ sitemap: false
 {% for page in pagelist %}
   {% unless page.url contains '/en/' %}
     {% if page.sitemap != false %}
-      {% unless page.url contains 'oc' or page.url contains 'faculty_members' or page.url contains 'lms_lecturers' or page.url contains 'let_students_know_your_url' or page.url contains 'zoom' or page.url contains 'google_hangouts_meet' or page.url contains 'webex' or page.url contains '/events/' or page.url contains 'style.css' %}
+      {% unless page.url contains '/oc/' or page.url contains '/faculty_members/' or page.url contains '/lms_lecturers/' or page.url contains 'let_students_know_your_url' or page.url contains '/zoom/' or page.url contains '/google_hangouts_meet/' or page.url contains '/webex/' or page.url contains '/events/' or page.url contains 'style.css' %}
         <li><a href="{{ page.url }}">{{ page.title }}</a>
         {% include toc.html html=page.content baseurl=page.url %}
       {% endunless %}
