@@ -128,7 +128,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 現時点では，箇条書きでご紹介させていただきますが，情報が増えてきましたら別途整理などさせていただく予定です．  
 また，各授業方法のオンライン化の項目などで別途ご紹介させていただく可能性があること，ご了承いただければ幸いです．  
 
-
+* 板書のオンライン化（タブレットあるいは電子ホワイトボードを利用した方法）の実践例[\[Website\]](http://noneq.c.u-tokyo.ac.jp/online_lecture.html)(工学系・沙川先生)
 * PC1台でできるオンライン講義 [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](materials/online_example_1pc.mp4) (工学系・川原先生): 板書の授業をオンラインで行うための方法を動画付きで説明いただいています
 * Zoom利用の手引き0.3 [\[PDF\]](materials/zoom_v03.pdf)（工学系・相田先生）: Mac のスクリーンショットを多用した Zoom の使い方を解説いただいています
 * Google meetを使ったグループワーク型授業の例 [\[PDF\]](materials/google_meet_groupwork.pdf)  (工学系・柳澤先生): オンラインにおいてグループワークをする方法が説明されています（Zoomのブレークアウトでは教員の声などを伝えられませんが，その点を克服している画期的な方法です）
