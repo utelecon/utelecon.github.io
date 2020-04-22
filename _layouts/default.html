@@ -18,9 +18,9 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-	
+
 	<style>
-	
+
 		.gnav {
 			font-size: 1.1rem;
 			display: flex;
@@ -84,7 +84,7 @@
 			overflow: visible;
 		}
 	</style>
-	
+
   </head>
   <body>
 
@@ -119,7 +119,7 @@
 		{% if page.url contains "/webex" %}
 			{% assign has_en_page = true %}
 		{% endif %}
-	    
+
 	        {% if page.url contains "/events" %}
 			{% assign has_en_page = true %}
 		{% endif %}
@@ -134,8 +134,8 @@
 		{% else %}
 			<a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}{{page.url}}" style="color:white;">English (Google Translation)</a>
 		{% endif %}
-	  </div>	
-	  
+	  </div>
+
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
@@ -195,6 +195,9 @@
 				<a href="/events/2020-03-13/">3/13 授業オンライン化説明会</a>
 		      </li>
 		    </ul>
+		  </li>
+      <li>
+		    <a href="https://utelecon.github.io/sitemap/">サイトマップ</a>
 		  </li>
 		</ul>
 
