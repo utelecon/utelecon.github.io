@@ -4,13 +4,23 @@ layout: default
 sitemap: false
 ---
 
-{% assign pagelist = site.pages | sort: 'url' %}
+{% comment %}
+{% assign pagelist = site.pages %}
+<h3>for debug</h3>
+<ol>
+  {% for page in pagelist %}
+    {% if page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.url }}</a>
+    {% endif %}
+  {% endfor %}
+</ol>
+{% endcomment %}
 
 {% comment %}
 <ul>
   {% for page in pagelist %}
   {% if page.url == "/lms_lecturers/prepare_quizzes.html" %}
-  {{page.title}}
+  {{ page.title }}
   {% include search_link.html html=content baseurl=page.url %}
   {% endif %}
   {% endfor %}
@@ -24,27 +34,29 @@ sitemap: false
 {% for page in pagelist %}
   {% assign lang = page.url | truncate: 4, "" %}
   {% if lang != '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
-    <li><a href="{{ page.url }}">{{page.title}}</a>
+    <li><a href="{{ page.url }}">{{ page.title }}</a>
     {% include toc.html html=page.content baseurl=page.url %}
   {% endif %}
 {% endfor %}
 </ol>
 
+{% comment %}
 <h2 id="ENG-Title">List of Pages (sorted by title)</h2>
 <ol>
 {% for page in pagelist %}
   {% assign lang = page.url | truncate: 4, "" %}
   {% if lang == '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
-    <li><a href="{{ page.url }}">{{page.title}}</a>
+    <li><a href="{{ page.url }}">{{ page.title }}</a>
     {% include toc.html html=page.content baseurl=page.url %}
   {% endif %}
 {% endfor %}
 </ol>
+{% endcomment %}
 
 {% assign pagelist = site.pages | sort: 'url' %}
 
 <h2 id="JPN-URL">ページリスト（URL順）</h2>
-<ul>
+<ol>
   {% for page in pagelist %}
   {% assign lang = page.url | truncate: 4, "" %}
   {% if lang != '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
@@ -52,10 +64,11 @@ sitemap: false
   <a href="{{ page.url }}">{{ page.url }}</a></li>
   {% endif %}
   {% endfor %}
-</ul>
+</ol>
 
+{% comment %}
 <h2 id="ENG-URL">List of Pages (sorted by URL)</h2>
-<ul>
+<ol>
   {% for page in pagelist %}
   {% assign lang = page.url | truncate: 4, "" %}
   {% if lang == '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
@@ -63,4 +76,5 @@ sitemap: false
   <a href="{{ page.url }}">{{ page.url }}</a></li>
   {% endif %}
   {% endfor %}
-</ul>
+</ol>
+{% endcomment %}
