@@ -2,12 +2,9 @@
 title: FAQ よくある質問
 ---
 
-<!-- Place this tag where you want the Awesome Table Widget to render -->
+<!-- Place this tag where you want the Awesome Table Widget to render 
 <div data-type="AwesomeTableView" data-viewID="-M4UKmWyICiQ1ngLHEGf"></div>
-
-
-
-以下, 一応残します. 徐々に消していきます.
+-->
 
 UTokyo Account
 ==============
@@ -136,6 +133,7 @@ A. 以下のような方法があります．
     * （代返対策）ECCS クラウドメールのアカウント（本学のGoogleアカウント）で<a href="https://docs.google.com/forms/u/0/?tgif=d" target="_blank">Google フォーム</a>を作成する際，フォームの編集画面にて「設定（歯車マーク）」の中の「メールアドレスを収集する」と「東京大学ECCSクラウドメールと信頼できる組織のユーザーに限定する」をオンにする（こうすると学生は自身のECCSクラウドメールでログインした上でアンケートに回答する必要があるため，代返のリスクを下げることができます）
   * Web会議システムを使う場合で，人数的に可能ならば，直接点呼する（その際，ビデオをオンにしてもらって直接顔を確認するなども可能）
 
-<!-- Place this within the <head> tag or just before the end of your <body> tag. -->
+<!-- Place this within the <head> tag or just before the end of your <body> tag. 
 <script src="https://awesome-table.com/AwesomeTableInclude.js"></script>
+-->
 
