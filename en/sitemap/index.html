@@ -1,0 +1,81 @@
+---
+title: Sitemap
+layout: en
+sitemap: false
+---
+
+{% comment %}
+{% assign pagelist = site.pages %}
+<h3>for debug</h3>
+<ol>
+  {% for page in pagelist %}
+    {% if page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.url }}</a>
+    {% endif %}
+  {% endfor %}
+</ol>
+{% endcomment %}
+
+{% comment %}
+<ul>
+  {% for page in pagelist %}
+  {% if page.url == "/lms_lecturers/prepare_quizzes.html" %}
+  {{ page.title }}
+  {% include search_link.html html=content baseurl=page.url %}
+  {% endif %}
+  {% endfor %}
+</ul>
+{% endcomment %}
+
+
+{% assign pagelist = site.pages | sort: 'title' %}
+
+{% comment %}
+<h2 id="JPN-Title">ページリスト（タイトル順）</h2>
+<ol>
+{% for page in pagelist %}
+  {% assign lang = page.url | truncate: 4, "" %}
+  {% if lang != '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a>
+    {% include toc.html html=page.content baseurl=page.url %}
+  {% endif %}
+{% endfor %}
+</ol>
+{% endcomment %}
+
+<h2 id="ENG-Title">List of Pages (sorted by title)</h2>
+<ol>
+{% for page in pagelist %}
+  {% assign lang = page.url | truncate: 4, "" %}
+  {% if lang == '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a>
+    {% include toc.html html=page.content baseurl=page.url %}
+  {% endif %}
+{% endfor %}
+</ol>
+
+{% assign pagelist = site.pages | sort: 'url' %}
+
+{% comment %}
+<h2 id="JPN-URL">ページリスト（URL順）</h2>
+<ol>
+  {% for page in pagelist %}
+  {% assign lang = page.url | truncate: 4, "" %}
+  {% if lang != '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
+  <li>{{page.title}}<br/>
+  <a href="{{ page.url }}">{{ page.url }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ol>
+{% endcomment %}
+
+<h2 id="ENG-URL">List of Pages (sorted by URL)</h2>
+<ol>
+  {% for page in pagelist %}
+  {% assign lang = page.url | truncate: 4, "" %}
+  {% if lang == '/en/' and page.title != "" and page.name != "style.scss" and page.sitemap != false %}
+  <li>{{page.title}}<br/>
+  <a href="{{ page.url }}">{{ page.url }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ol>
