@@ -1,5 +1,6 @@
 ---
 title: Deprecated Webex 会議室でできること（参加者）
+sitemap: false
 ---
 
 ## 画面の構成
