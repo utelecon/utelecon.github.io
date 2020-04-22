@@ -120,7 +120,11 @@
 			{% assign has_en_page = true %}
 		{% endif %}
 
-	        {% if page.url contains "/events" %}
+	  {% if page.url contains "/events" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
+    {% if page.url contains "/sitemap" %}
 			{% assign has_en_page = true %}
 		{% endif %}
 
