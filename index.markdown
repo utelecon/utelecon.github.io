@@ -2,13 +2,21 @@
 title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 ---
 
-お知らせ・新着情報
+What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
-* Zoom: <font color="red"><b><u>xxxxxx@gcc.u-tokyo.ac.jpアカウントでのサインインにはGoogle連携機能は使えません！！</u></b></font>
-  * @gcc.u-tokyo.ac.jpのメールアドレスでサインアップされているアカウントの，東京大学ライセンスへの移行が行われました．東京大学ライセンスでは，外部連携機能によるサインインが行えません．これまで外部連携機能（Googleでサインイン，Facebookでサインイン）を使っていた人はサインインできなくなっています．
-xxxxxx@gcc.u-tokyo.ac.jp あてに送られてきた招待メールを使ってサインアップした，<font color="red"><b><u>数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスのアカウント使ってサインインしてください．パスワードの再設定も可能です．</u></b></font>
-  * Zoomのパスワードを再設定するには，<a href="https://zoom.us/forgot_password"> パスワード再設定のページhttps://zoom.us/forgot_password</a>で，数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスを入力して下さい．再設定のためのメールが，ECCSクラウドメールのアドレス(自分で設定した文字列@g.ecc.u-tokyo.ac.jp)に届きます．
 
+* <span style="color:blue;">2020/4/22:</span> <blink><font color="red">緊急</font></blink>
+<font color="purple">「この方法でZoomアカウントにログインできません. IT管理者にお問い合わせください」</font> について
+  * 東京大学ライセンスのアカウントでのサインインにはGoogle連携機能が使えなくなっています．xxxxxx@g.ecc.u-tokyo.ac.jp あてに送られてきた招待メールを使って作成(サインアップ)した，数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスのアカウント使って「Googleでサインイン」を使わずにサインインしてください．
+  * その際、Zoomのパスワードを再設定するには，パスワード再設定のページhttps://zoom.us/forgot_passwordで，数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスを入力して下さい．
+再設定のためのメールが，ECCSクラウドメールのアドレス xxxxxx@g.ecc.u-tokyo.ac.jp に届きます．xxxxxx は自分で設定したECCSクラウドメールのアドレスで, 数字10桁の共通IDではありません. 上記で解決しないようでしたら、utelecon-inquiries AT googlegroups.com あてにお問い合わせください
+* <span style="color:blue;">2020/4/21:</span> (教員用)4/22 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
+* <span style="color:blue;">2020/4/16:</span> (学生・教員用)<a href="supporters/class">クラスサポーター制度</a>を立ち上げました
+* <span style="color:blue;">2020/4/16:</span> (学生用)<a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
+* <span style="color:blue;">2020/4/16:</span> (学生用)<a href="forms/et">授業入室時トラブル報告フォーム</a>を作りました
+* <span style="color:blue;">2020/4/16:</span> (学科・専攻向け)<a href="forms/takecarestudents">学生ケアの学科・専攻担当登録フォーム</a>を作りました
+
+[過去のエントリ](whats_not_new)
 
 本サイトについて
 ---------------------------
@@ -20,22 +28,6 @@ xxxxxx@gcc.u-tokyo.ac.jp あてに送られてきた招待メールを使って�
 * 本サイトは，東京大学の学生・教職員に向けた，オンライン授業やWeb会議に関する情報をワンストップで得られることを目指すサイトです．  
 * 日々状況が変わっており，また急遽作成していることから，作成途中のところがあったり，頻繁に内容が更新されたりする点，ご了承ください．
 * 本サイトは東京大学情報基盤センターと大学総合教育研究センターが立ち上げましたが，さらなる協力者を歓迎しています．
-
-What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
----------------------------
-
-* <span style="color:blue;">2020/4/21:</span> (教員用)4/22 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
-* <span style="color:blue;">2020/4/16:</span> (学生・教員用)<a href="supporters/class">クラスサポーター制度</a>を立ち上げました
-* <span style="color:blue;">2020/4/16:</span> (学生用)<a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
-* <span style="color:blue;">2020/4/16:</span> (学生用)<a href="forms/et">授業入室時トラブル報告フォーム</a>を作りました
-* <span style="color:blue;">2020/4/16:</span> (学科・専攻向け)<a href="forms/takecarestudents">学生ケアの学科・専攻担当登録フォーム</a>を作りました
-* <span style="color:blue;">2020/4/14:</span> <a href="events/2020-04-16/">「説明会: Sセメスタ開始2週間を経て」</a>をオンラインで実施いたします
-* <span style="color:blue;">2020/4/14:</span> UTASの「オンライン授業URL」，「オンライン授業内容」の情報を簡単に閲覧できる<a href="https://utelecon-directory.adm.u-tokyo.ac.jp/" target="_blank">東京大学オンライン講義検索システム (UTAS Lite)</a> の運用を開始しました．利用上の注意点は<a href="faculty_members/let_students_know_your_url"> こちら </a>をご覧ください．
-* <span style="color:blue;">2020/4/12:</span> 4/6に, 授業目的公衆送信補償金等管理協会SARTRASが<a href="https://sartras.or.jp/archives/20200406/" target="_blank">「授業目的公衆送信補償金制度」施行のための補償金の「無償」による認可申請</a>を決定しました.
-* <span style="color:blue;">2020/4/2:</span> <a href="faculty_members/let_students_know_your_url">授業URLの通知の仕方 〜 授業で教員と学生が混乱なく出会うための共通ルール</a> をアップしました. **授業に出たい, けどどこにつないだら良いのか? という人は読んでください**
-* <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoomの初期設定・利用開始時のトラブルに関するFAQ</a>
-
-[過去のエントリ](whats_not_new)
 
 利用できるWeb会議システム
 ---------------------------
