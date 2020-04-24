@@ -88,6 +88,18 @@ sitemap: false
 {% endfor %}
 </ol>
 
+<h2 id="itc_lms">ITC-LMS（学生）</h2>
+<ol>
+{% for page in pagelist %}
+  {% unless page.url contains '/en/' %}
+    {% if page.url contains '/lms_students/' and page.sitemap != false %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a>
+      {% include toc.html html=page.content baseurl=page.url %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ol>
+
 <h2 id="Zoom">Zoom</h2>
 <ol>
 {% for page in pagelist %}
@@ -141,7 +153,7 @@ sitemap: false
 {% for page in pagelist %}
   {% unless page.url contains '/en/' %}
     {% if page.sitemap != false %}
-      {% unless page.url contains '/oc/' or page.url contains '/faculty_members/' or page.url contains '/lms_lecturers/' or page.url contains 'let_students_know_your_url' or page.url contains '/zoom/' or page.url contains '/google_hangouts_meet/' or page.url contains '/webex/' or page.url contains '/events/' or page.url contains 'style.css' %}
+      {% unless page.url contains '/oc/' or page.url contains '/faculty_members/' or page.url contains '/lms_lecturers/' or page.url contains '/lms_students/' or page.url contains 'let_students_know_your_url' or page.url contains '/zoom/' or page.url contains '/google_hangouts_meet/' or page.url contains '/webex/' or page.url contains '/events/' or page.url contains 'style.css' %}
         <li><a href="{{ page.url }}">{{ page.title }}</a>
         {% include toc.html html=page.content baseurl=page.url %}
       {% endunless %}
