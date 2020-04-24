@@ -3,7 +3,7 @@ title: Web会議 Webex の使い方
 ---
 
 ## お知らせ
-* <a href="notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
+* <a href="../notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
 
 ## はじめに
 
