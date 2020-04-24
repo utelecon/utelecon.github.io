@@ -5,7 +5,10 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
-* <span style="color:blue;">2020/4/22:</span> <blink><font color="red">緊急</font></blink>
+* <span style="color:blue;">2020/4/24:</span> <font color="red">お願い</font> -inquiries への質問が多様化するとともに, FAQ (同じ件に質問)が大量発生しています. -inquiries へ質問する前に以下をお考えください.
+  * <a href="https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group">utelecon-questions</a> フォーラムへの質問をご検討ください. 
+
+* <span style="color:blue;">2020/4/22:</span> <font color="red">緊急</font>
 <font color="red"><b>「この方法でZoomアカウントにログインできません. IT管理者にお問い合わせください」</b></font> について
   * 東京大学ライセンスのアカウントでのサインインにはGoogle連携機能が使えなくなっています．xxxxxx@g.ecc.u-tokyo.ac.jp あてに送られてきた招待メールを使って作成(サインアップ)した，<u><b>数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスのアカウント使って「Googleでサインイン」を使わずに</b></u>サインインしてください．
   * その際、Zoomのパスワードを再設定するには，<u><b>パスワード再設定のページ</b></u> https://zoom.us/forgot_passwordで，数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスを入力して下さい．
