@@ -73,7 +73,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
 * <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a>
 
-各研究科・学部などのオンライン講義情報
+各部局のオンライン講義情報など
 ---------------------------
 
 (依頼があったものを掲載しています. ここになくても各研究科・学部がそのような情報をまとめている場合があるので所属部局へお尋ねください)
