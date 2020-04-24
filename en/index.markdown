@@ -72,5 +72,5 @@ News / Contact Channel
 Links (added as needed)
 ---------------------------
 
-* College of Liberal Arts / Graduate School of Arts and Sciences Information site for online lectures (for students):: <a href="https://komabataskforce.wixsite.com/forstudents" target="_blank">https://komabataskforce.wixsite.com/forstudents</a>  
+* Department of Arts and Sciences, Graduate School of Arts and Sciences: <a href="https://komabataskforce.wixsite.com/forstudents/students-en" target="_blank">Resources for online lectures</a>  
 * University of Tokyo Library System: <a href="https://www.lib.u-tokyo.ac.jp/en/library/contents/studyathome" target="_blank">Guide for Online Study & Remote Work</a>
