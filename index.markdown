@@ -4,7 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
-
+* <span style="color:blue;">2020/4/24:</span> 「授業目的公衆送信補償金制度」について「一般社団法人授業目的公衆送信補償金等管理協会」から文化庁長官への補償金額の認可申請，文化審議会での審議，文化庁長官による認可など，必要な所要の手続を経て，令和2年4月28日から施行することとなりました．[リンク](https://www.bunka.go.jp/seisaku/chosakuken/92169601.html)
 * <span style="color:blue;">2020/4/22:</span> <blink><font color="red">緊急</font></blink>
 <font color="red"><b>「この方法でZoomアカウントにログインできません. IT管理者にお問い合わせください」</b></font> について
   * 東京大学ライセンスのアカウントでのサインインにはGoogle連携機能が使えなくなっています．xxxxxx@g.ecc.u-tokyo.ac.jp あてに送られてきた招待メールを使って作成(サインアップ)した，<u><b>数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスのアカウント使って「Googleでサインイン」を使わずに</b></u>サインインしてください．
