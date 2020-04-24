@@ -8,6 +8,21 @@ title: QAフォーラム及びアナウンス用メーリングリストにつ�
 以下のQAフォーラムとメーリングリストを作っています
 
 * [QAフォーラム](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group) : 質問, 議論のためのフォーラム
+
+<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/embed/?place=forum/utelecon-questions-group'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
+
 * [メーリングリスト](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-announce-group) : アナウンスのためのメーリングリスト
 
 加入の仕方 (以下のどれでも良い)
