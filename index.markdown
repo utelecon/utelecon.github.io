@@ -82,7 +82,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * 理学系研究科物理専攻: <a href="https://sugino.issp.u-tokyo.ac.jp/computational-physics-course/" target="_blank">授業関連ページ</a>
 * 人文社会系研究科・文学部: <a href="http://www.l.u-tokyo.ac.jp/news/notice/9966.html" target="_blank">【重要】2020年度Sセメスター開講授業の開始時期について</a>
 * 農学生命科学研究科・農学部: <a href="https://www.a.u-tokyo.ac.jp/online_lectures/" target="_blank">農学生命科学研究科・農学部　オンライン授業関連ページ</a>
-* 新領域創成科学研究科: <a href="https://sites.google.com/a/adm.k.u-tokyo.ac.jp/gsfs-portal/home/kyomu/kyomu/classes/onlineclasses" target="_blank">【事務ポータルサイト内　教務チームポータルサイト】　オンライン授業に関する情報ページ</a> <font size=-2>(新領域創成科学研究科所属学生のみ閲覧できます． 新領域アカウント(FApps)にログインした状態でアクセスできます．随時更新中です．) </font>
+* 新領域創成科学研究科: <a href="https://sites.google.com/a/adm.k.u-tokyo.ac.jp/gsfs-portal/home/kyomu/kyomu/classes/onlineclasses" target="_blank">【事務ポータルサイト内　教務チームポータルサイト】　オンライン授業に関する情報ページ</a> <span style="font-size: 80%">(新領域創成科学研究科所属学生のみ閲覧できます． 新領域アカウント(FApps)にログインした状態でアクセスできます．随時更新中です．) </span>
 * 薬学系研究科: <a href="http://www.f.u-tokyo.ac.jp/" target="_blank">ホームページ</a>
 * 総合図書館: <a href="https://www.lib.u-tokyo.ac.jp/ja/library/contents/studyathome" target="_blank">オンライン学習、在宅研究・勤務で利用できるオンラインサービスのご案内</a>
 
