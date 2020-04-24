@@ -62,6 +62,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 お知らせ/連絡チャネル
 ---------------------------
 
+* <a href="notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
 * <a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
 * <a href="supporters/class">クラスサポーター制度</a>
 * <a href="forms/et">授業入室時トラブル報告フォーム</a>

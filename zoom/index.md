@@ -10,6 +10,7 @@ xxxxxx@gcc.u-tokyo.ac.jp あてに送られてきた招待メールを使って�
 
 
 * <font color="red">Zoomアカウントの<a href="setting_issues">初期設定時のトラブルに関するFAQ</a></font>
+* <a href="../notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
 
 <!--
 * 授業を行うためにZoomの会議を<font color="green">開催する人</font>(またはそれを代行する人)は, <a href="create_account" target="">Zoomのアカウントのアクティベーション</a>が<font color="green">必要</font>です
@@ -20,7 +21,7 @@ xxxxxx@gcc.u-tokyo.ac.jp あてに送られてきた招待メールを使って�
 
 ## はじめに
 
-* 2020年4月30日まで（今後については前向きに検討中）は，**本学のGoogleメール（共通ID数字10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールと呼びます）で作成した Zoom アカウントを用いることで最大参加人数500名で時間無制限の会議室を使えるようになりました**   
+* 2020年度は，**本学のGoogleメール（共通ID数字10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールと呼びます）で作成した Zoom アカウントを用いることで最大参加人数500名で時間無制限の会議室を使えるようになりました**   
 * ここでは Web会議ツール Zoom の特徴や利用の流れについて説明します．また，具体的な使い方が載ったサブページもあるため，適宜そちらをご参照ください．  
 * 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで Zoom を使えます  
 
