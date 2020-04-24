@@ -18,7 +18,7 @@ What's New (<span style="color:blue;">blue letters</span> highlight the date of 
  * <span style="color:blue;">2020/3/31:</span> Today, March 31 is a student transfer date, so UTAS is not available for new students (from the first semester to the second semester).
  * <span style="color:blue;">2020/3/30:</span> <a href="https://tinyurl.com/vjfuxs3" target="_blank">Application form</a> to create a link to the department's web page.
  * <span style="color:blue;">2020/3/29:</span> Please answer the <a href="questionnaire/">student questionnaire</a> (The same is posted on UTAS. Those who have already answered do not need to answer it again).
- * <span style="color:blue;">2020/3/28:</span> On 3/27 an [online basic lecture "How to make an on-demand online class using videos and texts" and "Online class consultation specialized in language learning"」](events/2020-03-27/) will be held. In addition, a video (provisional version) has been released for limited use. 
+ * <span style="color:blue;">2020/3/28:</span> On 3/27 an [online basic lecture "How to make an on-demand online class using videos and texts" and "Online class consultation specialized in language learning"」](events/2020-03-27/) will be held. In addition, a video (provisional version) has been released for limited use.
  * <span style="color:blue;">2020/3/24:</span> 3/19の<a href="https://utelecon.github.io/events/2020-03-19/" target="_blank">Zoom Basic Course video (provisional version)</a>has been released.
  * <span style="color:blue;">2020/3/24:</span> Briefing on 3/26 : [ How to notify students of online classes](events/2020-03-26/).
  * <span style="color:blue;">2020/3/24:</span> On 3/13, <a href="https://utelecon.github.io/events/2020-03-13/" target="_blank">briefing video</a>has been released.
@@ -35,7 +35,7 @@ What's New (<span style="color:blue;">blue letters</span> highlight the date of 
 Available Web conferencing system
 ---------------------------
 
-The following system is available to all members (students and faculty). 
+The following system is available to all members (students and faculty).
 
 * <a href="zoom/">Zoom</a>
 * <a href="google_hangouts_meet/">GoogleハングアウトMeet</a>
@@ -66,11 +66,11 @@ News / Contact Channel
 * Please answer the <a href="questionnaire/">"Student Questionnaire"</a> (The same is posted on UTAS. Those who have already answered it do not need to do it again)
 * [Q&A forums and mailing lists](forums/)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">Requests and comments on the portal site</a>  
-* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">Request for briefings and workshops</a> 
+* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">Request for briefings and workshops</a>
 
 
 Links (added as needed)
 ---------------------------
 
 * College of Liberal Arts / Graduate School of Arts and Sciences Information site for online lectures (for students):: <a href="https://komabataskforce.wixsite.com/forstudents" target="_blank">https://komabataskforce.wixsite.com/forstudents</a>  
-
+* University of Tokyo Library System: <a href="https://www.lib.u-tokyo.ac.jp/en/library/contents/studyathome" target="_blank">Guide for Online Study & Remote Work</a>

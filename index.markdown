@@ -71,7 +71,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
 * [QAフォーラムとメーリングリスト](forums/)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
-* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a> 
+* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a>
 
 各研究科・学部などのオンライン講義情報
 ---------------------------
@@ -84,6 +84,8 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * 農学生命科学研究科・農学部: <a href="https://www.a.u-tokyo.ac.jp/online_lectures/" target="_blank">農学生命科学研究科・農学部　オンライン授業関連ページ</a>
 * 新領域創成科学研究科: <a href="https://sites.google.com/a/adm.k.u-tokyo.ac.jp/gsfs-portal/home/kyomu/kyomu/classes/onlineclasses" target="_blank">【事務ポータルサイト内　教務チームポータルサイト】　オンライン授業に関する情報ページ</a> <font size=-2>(新領域創成科学研究科所属学生のみ閲覧できます． 新領域アカウント(FApps)にログインした状態でアクセスできます．随時更新中です．) </font>
 * 薬学系研究科: <a href="http://www.f.u-tokyo.ac.jp/" target="_blank">ホームページ</a>
+* 総合図書館: <a href="https://www.lib.u-tokyo.ac.jp/ja/library/contents/studyathome" target="_blank">オンライン学習、在宅研究・勤務で利用できるオンラインサービスのご案内</a>
+
 
 参考情報
 ---------------------------
