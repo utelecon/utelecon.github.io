@@ -4,9 +4,9 @@ title: Zoom
 
 ## お知らせ
 
-* <font color="red"><b><u>xxxxxx@gcc.u-tokyo.ac.jpアカウントでのサインインにはGoogle連携機能は使えません！！</u></b></font>
-  * @gcc.u-tokyo.ac.jpのメールアドレスでサインアップされているアカウントの，東京大学ライセンスへの移行が行われました．東京大学ライセンスでは，外部連携機能によるサインインが行えません．これまで外部連携機能（Googleでサインイン，Facebookでサインイン）を使っていた人はサインインできなくなっています．
-xxxxxx@gcc.u-tokyo.ac.jp あてに送られてきた招待メールを使ってサインアップした，<font color="red"><b><u>数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスのアカウント使ってサインインしてください．パスワードの再設定も可能です．</u></b></font>
+* <font color="red"><b><u>xxxxxx@g.ecc.u-tokyo.ac.jpアカウントでのサインインにはGoogle連携機能は使えません！！</u></b></font>
+  * @g.ecc.u-tokyo.ac.jpのメールアドレスでサインアップされているアカウントの，東京大学ライセンスへの移行が行われました．東京大学ライセンスでは，外部連携機能によるサインインが行えません．これまで外部連携機能（Googleでサインイン，Facebookでサインイン）を使っていた人はサインインできなくなっています．
+xxxxxx@g.ecc.u-tokyo.ac.jp あてに送られてきた招待メールを使ってサインアップした，<font color="red"><b><u>数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスのアカウント使ってサインインしてください．パスワードの再設定も可能です．</u></b></font>
 
 
 * <font color="red">Zoomアカウントの<a href="setting_issues">初期設定時のトラブルに関するFAQ</a></font>
