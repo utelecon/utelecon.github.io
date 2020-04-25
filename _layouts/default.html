@@ -19,6 +19,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
+    <script async src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"></script>
+
 	<style>
 
 		.gnav {
@@ -83,10 +85,13 @@
 			max-height: 12rem;
 			overflow: visible;
 		}
+    
 	</style>
 
   </head>
   <body>
+
+    <div class="gcse-search"></div>
 
     <header class="page-header" role="banner">
 
@@ -141,6 +146,10 @@
 	  </div>
 
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+
+
+
+{% comment %}
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -149,6 +158,7 @@
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
+{% endcomment %}
 
 		<ul class="gnav">
 		  <li>
@@ -205,10 +215,10 @@
 		  </li>
 		</ul>
 
-
     </header>
 
     <main id="content" class="main-content" role="main">
+
       <h3>Table of Contents</h3>
       {% include toc.html html=content %}
 
