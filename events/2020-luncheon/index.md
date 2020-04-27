@@ -7,10 +7,6 @@ title: オンライン授業情報交換会
 今後もトピックを決めて週1－2回で実施していきます．
 本会は録画した上でその動画を学内公開する点，ご了承の上，ご参加下さい．
 
-
-◆ 第2回
-
-【日時】2020年4月27日　12:10-12:50  
 【場所】Zoom（URL は以下のいずれかの場所で確認することができます） 
 * [Googleスプレッドシート](https://tinyurl.com/ybs6l9qo)
   * ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります
@@ -20,8 +16,23 @@ title: オンライン授業情報交換会
   * UTokyo Account10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります．
   * 上手くアクセスできない場合は[こちら](https://www.office.com/)に行き，（サインインしている場合は一度サインアウトして）UTokyo Account10桁のID@utac.u-tokyo.ac.jpでサインインしてください
 
+
+◆ 第3回
+
+【日時】2020年4月30日　12:10-12:50  
+【トピック】動画作成  
+<!--【スライド】[pdfファイル](luncheon_2_slides.pdf)  
+【動画】[mp4ファイル](https://drive.google.com/file/d/17IUDz-vHi3Ferq9UUk_4ATAP8pZZN9gm/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    -->
+【対象】本学の授業を担当する教員や授業支援をする方々  
+【概要】動画教材の作り方について紹介します（予定: PowerPoint，Google Meet，Zoom，OBS: Open Broadcaster Software を使った動画作成）．
+
+
+◆ 第2回
+
+【日時】2020年4月27日　12:10-12:50  
 【トピック】グループワークをする（続き）  
 【スライド】[pdfファイル](luncheon_2_slides.pdf)  
+【動画】[mp4ファイル](https://drive.google.com/file/d/17IUDz-vHi3Ferq9UUk_4ATAP8pZZN9gm/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    
 【対象】本学の授業を担当する教員や授業支援をする方々  
 【概要】オンライン授業においてどのようにグループワークを進めればよいでしょうか．設定の仕方や指示の方法，グループ分けの工夫などについてあつかいます．
 
