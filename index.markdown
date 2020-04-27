@@ -5,6 +5,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
+* <span style="color:blue;">2020/4/27:</span> (教員用)4/27 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/4/24:</span> <a href="notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
 * <span style="color:blue;">2020/4/24:</span> 「授業目的公衆送信補償金制度」について「一般社団法人授業目的公衆送信補償金等管理協会」から文化庁長官への補償金額の認可申請，文化審議会での審議，文化庁長官による認可など，必要な所要の手続を経て，令和2年4月28日から施行することとなりました．[リンクはこちら](https://www.bunka.go.jp/seisaku/chosakuken/92169601.html)
 * <span style="color:blue;">2020/4/22:</span> <font color="red">緊急 「この方法でZoomアカウントにログインできません. IT管理者にお問い合わせください」</font> について
