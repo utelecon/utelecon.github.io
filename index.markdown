@@ -61,18 +61,23 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * 2020/03/13 [授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会](events/2020-03-13/)
 
 
-お知らせ/連絡チャネル
+種々申し込みページ/アンケート/QAフォーラム/メーリングリスト
 ---------------------------
 
-* <a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
+* [QAフォーラムとメーリングリスト](forums/)
 * <a href="supporters/class">クラスサポーター制度</a>
 * <a href="forms/et">授業入室時トラブル報告フォーム</a>
 * <a href="forms/takecarestudents">学生ケアの学科・専攻担当登録フォーム</a>
 * 部局のWebページへのリンクを作るための<a href="https://tinyurl.com/vjfuxs3" target="_blank">申し込みフォーム</a>
 * <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
-* [QAフォーラムとメーリングリスト](forums/)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
 * <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a>
+* <a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
+
+<!--
+<a href="mobile/">教育・研究活動のためのネットワーク環境支援について / The network environment support for education and research</a>
+-->
+
 
 各部局のオンライン講義情報など
 ---------------------------
