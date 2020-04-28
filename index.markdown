@@ -72,10 +72,10 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
 * <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a>
-* <a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
+* <a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて</a>(締切済み)
 
 <!--
-<a href="mobile/">教育・研究活動のためのネットワーク環境支援について / The network environment support for education and research</a>
+<a href="mobile/">教育・研究活動のためのネットワーク環境支援について
 -->
 
 
