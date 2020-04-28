@@ -55,9 +55,3 @@ Please access the application form through either of the following.
 We will contact you as soon as we find out whom we can provide the support. (We'll let you know if you're not eligible.) 
 
 
-J
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJRWAzVqa33Lvz23NlzrJ_i99JWYreOq06aCRKTzAw-Ox-Lg/viewform?embedded=true" width="640" height="5411" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-
-E
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdaM931CQtPoEoxRrrgmqym9V8BQ2LEJoj8tXpal4HmSRguIQ/viewform?embedded=true" width="640" height="5031" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-
