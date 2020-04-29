@@ -175,11 +175,11 @@
 		{% endif %}
 
     <div class="bar-menu">
-      <div class="bar-btn-normal">
+      <!--div class="bar-btn-normal">
         <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
         <span class="hiraku-open-btn-line"></span>
         </button>
-      </div>
+      </div-->
       <div class="bar-btn-search"><div class="search-box"><div class="gcse-search"></div></div></div>
       <div class="bar-btn-normal"><a href="https://utelecon.github.io/"><img width=25 src="/image/home.png" alt="Home"></a></div>
       <div class="bar-btn-normal"><a href="https://utelecon.github.io/sitemap/"><img width=25 src="/image/sitemap.png" alt="Sitemap"></a></div>
@@ -203,7 +203,7 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
 
-<nav class="menu-container">
+<!--nav class="menu-container"-->
 		<ul class="gnav">
 		  <li ontouchstart="">
 		    <a>オンライン授業</a>
@@ -252,7 +252,7 @@
         </ul>
       </li>
 		</ul>
-    </nav>
+    <!--/nav-->
 
     </header>
 
@@ -263,6 +263,7 @@
 
       {{ content }}
 
+{% comment %}
       <!-- for drawer -->
           <div class="offcanvas-left">
             <ul>
@@ -310,6 +311,7 @@
           });
           </script>
       <!-- for drawer -->
+{% endcomment%}
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
