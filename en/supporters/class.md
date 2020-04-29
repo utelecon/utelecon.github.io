@@ -1,81 +1,80 @@
 ---
-title: クラスサポーター制度のご案内
+title: Online Class Supporters Program
+layout: en
 ---
 
-クラスサポーターとは
+What is a Class Supporter
 ---------------------------
 
-オンライン授業を行う先生や授業の進行を支援する学生です。
+Class supporters are the students who support the teachers who conduct online lecture and help with the class.
 
-制度の趣旨と目標
+Purpose and goal of the program
 ---------------------------
 
-* いわゆるTAほど重い仕事を想定していません
-* 迅速にマッチング・仕事開始ができることを目標に立案しています
-* 学科や専攻を越えたhelpのつながりもできることを目指しています
-* 学科や専攻でTAを割り当てていない場合でも，希望するすべての授業に1名のクラスサポーターを本部予算でつけられるようにしています
-* 学科や専攻ですでにオンライン授業サポートのためのTAがついている場合, クラスサポーターは不要(冗長)な場合が多いと思われます(禁止するものではありません)
+* Class supporters are not meant to have as heavy workloads as the TAs.
+* The purpose Class Supporters is to help quickly match and start work. 
+* We also aim to be able to connect help beyond the subject and major.
+* Even if you have not assigned a TA to the department or major, you can have one class supporter in each of your lectures, under the school budget.
+* Class supporters are often unnecessary (redundant) if the department or major already has TA for online class support (that does not mean that class supporters will not be provided for these cases).
 
-クラスサポーターの仕事内容の範囲(想定している仕事の例)
+What the class supporters can do (examples of specific tasks)
 ---------------------------
 
-* 授業時間外に，教員とWeb会議システムを用いた授業の<font color="green">事前練習や試行錯誤</font>を教員と一緒に行う. 例:
-  * 音の聞こえ具合のチェック
-  * カメラの映り具合のチェック
-  * 会議システムの機能を使ってみたときの見え方の確認
-* 授業中に生じる基本的なトラブルに反応して<font color="green">介入</font>する. 例:
-  * 教員の声が聴こえない時「先生、聴こえ（見え）ていませんよ」と声をかける
-  * 画面を共有したつもりでできていない時に「先生、見えていませんよ」と声をかける
-  * (授業形態により) chat質問のチェック
-  * 一言で言えば最悪な事故(声が通っていないと知らずに30分喋り続ける)の防止です
-  * 出来る範囲でのWeb会議システムへの習熟, 出来る範囲でのトラブル解決
-* 関連<font color="green">情報のゆるやかな収集と共有</font>. 例:
-  * 「昨晩Zoomのアップデートがあったみたいですよ」などと情報共有する
-  * 「uteleconでこんな情報が出ていました」などと情報共有する
-* 注: 授業中のサポートは<font color="green">授業を受けながらでも出来る程度のもの</font>を想定している
+* •	Conducting a <font color="green">trial online lecture </font> with the professor using the Web conference system outside of class time. Examples of tasks:
+  * Checking the sound quality
+  * Checking the image quality of the camera
+  * Check how things appear when using the functions of the conference system
+* <font color="green">Intervene</font> in response to basic problems that occur during class, such as:
+  * When students cannot hear the professor's voice; "Professor, we cannot hear (see) you."
+  * When the professor thinks he has shared his screen but has not; "Professor, the screen sharing is not turned on."
+  * Check chat questions (depending on class type).
+  * In short, this is to help prevent the worst accident (talking for 30 minutes straight without knowing your sound is not on).
+  * Being familiar with the Web conferencing system and troubleshooting as much as possible.
+* <font color="green">Collecting and sharing </font> relevant information such as:
+  * Information on Zoom updates
+  * New information shared on utelecon
+* Note: Support during the class is assumed to be <font color="green">possible while taking classes</font>.
 
-想定していない仕事内容
+Work contents that are NOT expected of Class Supporters
 ---------------------------
 
-* 先生がWeb会議システムを<font color="red">全く知らなくても済む</font>ようにWeb会議の設定などを毎回整える, などは<u>想定していません</u>
-* 黒板前で動き回る教員を<font color="red">カメラで追従して撮影する</font>, などは<u>想定していません</u>
-* 授業に入れない学生, 音が鳴らない学生などへの個別対応が, 授業を受けられなくなる数発生した場合に<font color="red">すべて対応する(受講に支障があるレベル)</font>, などの仕事は<u>想定していません</u>(もちろん授業中の教員がやることも<u>想定していません</u>)
-* <font color="red">登校が必須</font>になるような仕事は一切<u>想定していません</u>
+* The class supporter will NOT adjust the web conference settings every time so that <font color="red">the teacher does not need to know the web conference system at all</font>.</u>
+* The Class Supporter will NOT do <font color="red"> camera work for the teacher</font>.</u>
+* The class supporter will NOT give  individual support for students who cannot enter the class, who do not make a sound when entering the class, etc. <font color="red"> every time the student fails to attend class for over a specific amount of times (the level that hinders attendance) </font>, (Nor do we anticipate that teachers in class to do it</u>)
+* <font color="red">The class supporter will NOT conduct work that </font> requires going to the campus physically<u>.</u>
 
 
+Technically, the class supporters are meant to “Help professors prepare for online classes, help with the trials before the start of classes, notify the professor when/If there are trouble during the lecture that the professor may not notice. (e.g. sound muted)”. If you need further assistance, consult with the subject/major and the student him/her-self, or hire a TA separately.
 
-あくまで「先生がオンライン授業に備える, その準備に付き合う(試行錯誤の相手をする), 先生が授業中に気づきにくい(音が届いていないなどの)トラブルを学生側から介入する」などの仕事を想定しています. それ以上の仕事は学科, 専攻, 本人とも同意の上, 別途TAを雇うなどしてください.
-
-(教員用) 制度利用の流れ
+(For academic staff) Flow of using the program
 ---------------------------
 
-* お願いできるクラスサポーターを先生自ら<font color="green">見つけられる場合</font>:
-  * 謝金 1授業あたり13,000円   
-  * 最大で10時間分の仕事(研修2時間込み)をお願いする
-  * 支払いが8月以降になる
-ことを理解してもらった上で仕事の相談をしてください. 例えば研究室の学生, 専攻の学生, 授業の受講生, などでやってくれる学生がいたらこれをおすすめします. 同意できたら学生または先生が, <a href="https://tinyurl.com/ugrxm4r" target="_blank">クラスサポーター活動開始報告</a>へご記入ください.
+* If you <font color="green">CAN find a class supporter on your own</font>:
+  * 13,000 yen per class.  
+  * Ask for a maximum of 10 hours of work (including 2 hours of training).
+  * Notify them that the payment will be made after August when consulting with the class supporter. For example, if you have students in the laboratory, major students, students in the class, etc., this is recommended. If the student agrees, the student or teacher should fill in the  <a href="https://tinyurl.com/ugrxm4r" target="_blank">class supporter activity start report</a>.
 
-* お願いできるクラスサポーターが<font color="green">見つからない場合</font>:
-  * <a href="https://tinyurl.com/rcu2lgz" target="_blank">クラスサポーター割当て希望フォーム</a>にご記入ください．その情報をもとに制度運営側がマッチングを行い，クラスサポーターを割り当てます．
+* If you <font color="green">CANNOT find a class supporter on your own</font>:
+  * Fill out the <a href="https://tinyurl.com/rcu2lgz" target="_blank">Class Supporter Assignment Request Form</a>. Based on this information, the system management side will perform matching and assign class supporters.
  
-**注意:**
+**Note:**
 
-* クラスサポーターの仕事内容は，TAと一部重複しますが，TAほどの重い仕事を想定していません
-* クラスサポーターは研修を2時間受け一通りのサポート内容を理解していますが，必ずしも高度なITスキルを持つことを要求してはいません. 先生の授業をhelpしたい意志があり, オンライン授業に参加できている学生なら誰でもできるものを想定しています.
-* 1授業あたり1人, 10時間(研修2時間込み)までとしてください
-* 8 (10-2)時間で何をしていただくかの詳細はクラスサポーターとご相談ください. 8時間には授業前の準備や, 実際の授業中に必要な手伝いが含まれます. 授業中の手伝いは, 授業を受けながら出来る程度のものを想定しているため, 授業時間すべてをカウントする必要はありません
-* 終了後に完了報告を出していただきますので, クラスサポーターにお願いした仕事の時間と内容を大まかに記録していただくようお願いします
-* クラスサポーターの謝金は本部予算から支払います（1授業あたり13,000円）
-* 事務手続きの都合上，謝金はSセメスター終了後の8月以降に支払われます
-* 留学生は他の労働時間も含めて週28時間が上限と定められているため，それを超えないように調整してください
+* The work content of class supporters partially overlaps with the TA’s, but the workload should not be as heavy.
+* Class supporters receive training for 2 hours and understand the general support contents, but advanced IT skills are not required. The requirements are that he or she wants to help the teacher's class, and are able to attend online classes.
+* Maximum of 1 person per class, 10 hours max. (including 2 hours of training; due to the budget for the time being) .
+* For more information on what you can do in 8 (10-2) hours, please discuss with your class supporter. 8 hours includes pre-class preparation and any help you may need during the actual lesson. It is assumed that you will be able to help while you are taking the lecture, so you do not need to count all your lecture hours.
+* •We will issue a completion report after the end of lectures, so please make a record of the time and content of the work requested to the class supporter.
+* Class supporters will be paid from the headquarters budget (13,000 yen per lesson).
+* •	Due to administrative procedures, the payment will be made after August, after the end of the S semester.
+* •	International students’ working hours are limited to maximum 28 hours a week including other jobs (within or outside of the university), so please make sure it does not exceed that amount of time.
 
-クラスサポーターになるには
+When you become a class supporter
 ---------------------------------------------
-* ITに習熟していることを要求・期待していません. オンライン授業に参加できており, 先生の授業をhelpしたいという意志があり, 必要に応じて学ぶ意志があれば充分です.
-* 受けている授業の先生や, 研究室の先生などから頼まれたら, 意志と時間との許す範囲で引き受けてください
-  * 合意が取れたら, 学生または先生が<a href="https://tinyurl.com/ugrxm4r" target="_blank">クラスサポーター活動開始報告フォーム</a>に記入します
-* それ以外に, 空き時間などを利用して自分が履修していない授業や, 個人的に頼まれた先生以外の授業でクラスサポーターを行ってみたい場合
-  * <a href="https://tinyurl.com/vob4dzp">クラスサポーター志願フォーム / Class Facilitator Volunteer Sign Up Form</a>でエントリーしてください．クラスサポーターをお探しの教員とマッチングを行います．
-* 先生も, 学生にこの制度の存在を知らせ, 先生以外のクラスをサポートをしてもよいという学生に応募を促してください.
+* You are not expected to be proficient in IT. You are expected to be able to participate in online classes, have a desire to help the teacher's classes, and have a willingness to learn as needed.
+* If the teacher in your class or the teacher in your laboratory asks you, please undertake as much as your will and time allow.
+  * Once agreed, the student or teacher will complete the <a href="https://tinyurl.com/ugrxm4r" target="_blank">Class Supporter Activity Start Report Form</a>.
+* Other than that, if you want to use your spare time as a class supporter in a class that you have not taken, or in a class other than the teacher personally asked you:
+  * Fill out the <a href="https://tinyurl.com/vob4dzp">Class Facilitator Volunteer Sign Up Form</a>. We will match with teachers who are looking for class supporters.
+* Teachers should also inform their students of the existence of this system and encourage students to apply for classes other than yours.
 
 
