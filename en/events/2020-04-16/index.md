@@ -1,45 +1,46 @@
 ---
-title: 2020/04/16 説明会: Sセメスタ開始2週間を経て
+title: 2020/04/16 Briefing session - Two weeks after the start of S semester
+layout: en
 ---
 
-# 2020/04/16  説明会: Sセメスタ開始2週間を経て
+# 2020/04/16 Briefing session: Two weeks after the start of S semester
 
-* **日時:** 4/16(木) 17:00-18:30 
+* **Date:** 4/16 (Thursday) 17: 00-18: 30
 
-* **場所:** オンライン(Zoom)のみ
+* **Place:** Online (Zoom) only
 
-* **動画:** <a href="https://drive.google.com/file/d/1Cv-01to0m5svwjhUV7kIt9vZUXOUdg42/view?usp=sharing">動画ファイル（要 ECCS クラウドメール）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  
+* **Video:** <a href="https://drive.google.com/file/d/1Cv-01to0m5svwjhUV7kIt9vZUXOUdg42/view?usp=sharing">Video file (ECCS cloud mail required) </a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCS cloud mail setting</a>）  
 
-**開催趣旨:**
+**Event Summary:**
 
-Sセメスターが開始されて約2週間がたちました. 一部の授業では実際にオンラインでの授業が始まっています。今後, 授業を円滑に進めていくために、これまでに認識されている課題, 今後課題となるであろう点について, 広く情報共有・議論するための説明会を開催します。尚、本説明会は本学の活動規制レベルに従い, オンライン参加のみで実施します。
+It has been about two weeks since the S semester started. Some courses have actually started online classes. In order to promote the lesson smoothly in the future, we will hold a briefing session to widely share information and discuss the issues that have been recognized so far and the upcoming challenges. This briefing session will be held only through online participation according to the activity regulation level of the University.
 
-## 内容(予定)
+## Contents (planned)
 
-説明項目が多岐に渡ることから, 説明中心で, 質問の時間があまり取れないことが予想されますが,
-  * 所定時間終了後も, 残っていただいた方からの質問を時間が許す限り受け付けます
-  * sli.do や chat での質問にも, 後日なるべくお答えします
+Since there are many topics to be discussed in this briefing, it is expected that we will focus on explanation and will not be able to spend much time asking questions, but
+  * We will accept questions as long as the time allows, even after the designated time
+  * We will try to answer questions on sli.do and chat at a later date.
 
-<font color="red">資料はギリギリまで更新中</font>です
+These <font color="red">handouts will be updated</font> until the last minute.
 
-[目次 説明会：Sセメスタ開始2週間を経て](00-index.pdf) (田浦)
+[Contents Briefing: Two weeks after the start of S semester](00-index.pdf) (Taura)
 
-1. [オンライン授業URL通知方法（更新）](01-URL-notification.pdf) (田浦)
-1. [学生のケアと学科・専攻の連絡体制](02-care.pdf) (田浦)
-1. [オンライン授業受講のためのネットワーク環境支援ついて](03-net.pdf) (田浦)
-1. [クラスサポータについて](04-supporters.pdf) (田浦)
-1. [著作物の利用に関するSARTRAS決定](05-SARTRAS.pdf) (田浦)
-1. [アカウントとメールアドレス](06-Accounts.pdf) (工藤)
-1. [オンライン授業の通信量](07-Traffic.pdf) (工藤)
-1. [Zoom に関するアップデート](08-Zoom.pdf) (吉田)
-1. [オンライン授業 Tips](09-Tips.pdf) (吉田)
-1. [おわりに](10.pdf)
+1. [Online class URL notification method (update) ](01-URL-notification.pdf) (Taura)
+1. [Student care and communication system between departments and majors](02-care.pdf) (Taura)
+1. [Network environment support for online classes](03-net.pdf) (Taura)
+1. [About class supporters](04-supporters.pdf) (Taura)
+1. [SARTRAS decision regarding the use of copyrighted material](05-SARTRAS.pdf) (Taura)
+1. [Account and email address](06-Accounts.pdf) (Kudo)
+1. [Online class communication volume](07-Traffic.pdf) (Kudo)
+1. [Update about Zoom](08-Zoom.pdf) (Yoshida)
+1. [Online Class Tips](09-Tips.pdf) (Yoshida)
+1. [Conclusion](10.pdf)
 
-## 参加いただきたい方
-* 4月から授業をする教員
-* 教育支援に携わる教職員
-* TA, クラスサポータ
+## Eligibility/ Target
+* Teachers who start classes from April
+* Faculty members involved in educational support
+* TA, class supporters
 
-## 参加申込みなど
+## Application
 
-* 質問箱: [https://app.sli.do/event/opl1cd1r/live/questions](https://app.sli.do/event/opl1cd1r/live/questions) にて受付け(または sli.do へ行き, イベントコード onlineall)
+* Question box: [https://app.sli.do/event/opl1cd1r/live/questions](https://app.sli.do/event/opl1cd1r/live/questions) (or go to sli.do and enter event code: onlineall).
