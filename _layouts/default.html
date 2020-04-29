@@ -85,17 +85,33 @@
 			max-height: 12rem;
 			overflow: visible;
 		}
-    
+
+    .header-menu {
+      display: table;
+      text-align: center;
+      width: 100%;
+      background-color: #666666;
+    }
+    .btn-N,.btn-S,.btn-G {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .btn-N {
+      width: 70px;
+    }
+    .btn-G {
+      width: 180px;
+    }
+    .search {
+      width: 100%;
+      margin: 0 auto;
+      text-align: left;
+    }
 	</style>
 
   </head>
   <body>
-
-    <div class="gcse-search"></div>
-
-    <header class="page-header" role="banner">
-
-		{% assign has_en_page = false %}
+    {% assign has_en_page = false %}
 
 		{% if page.url == "/" %}
 			{% assign has_en_page = true %}
@@ -137,19 +153,21 @@
 			{% assign has_en_page = false %}
 		{% endif %}
 
-	  <div align="right">
-	    {% if has_en_page %}
-			<a href="{{site.url}}/en{{page.url}}" style="color:white;">English </a>
-		{% else %}
-			<a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}{{page.url}}" style="color:white;">English (Google Translation)</a>
-		{% endif %}
-	  </div>
+    <div class="header-menu">
+      <div class="btn-S"><div class="search"><div class="gcse-search"></div></div></div>
+      <div class="btn-N"><a href="/"><img width=25 src="/image/home.png" alt="Home"></a></div>
+      <div class="btn-N"><a href="/sitemap/"><img width=25 src="/image/sitemap.png" alt="Sitemap"></a></div>
+  {% if has_en_page %}
+      <div class="btn-N"><a href="{{site.url}}/en{{page.url}}"><img width=25 src="/image/en.png" alt="en"></a></div>
+  {% else %}
+      <div class="btn-G"><a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}/en{{page.url}}"><img width=25 src="/image/en.png" alt="en" style="vertical-align: middle;"}><font color="white" size="2"> (by Google Trans.)</font></a></div>
+  {% endif %}
+    </div>
+
+    <header class="page-header" role="banner">
 
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
 
-
-
-{% comment %}
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -158,88 +176,54 @@
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
-{% endcomment %}
 
 		<ul class="gnav">
-		  <li>
-		    <a href="https://utelecon.github.io/">HOME</a>
-		  </li>
 		  <li ontouchstart="">
 		    <a>オンライン授業</a>
 		    <ul>
 		      <li><a href="https://utelecon.github.io/oc">学生用</a></li>
 		      <li><a href="https://utelecon.github.io/faculty_members">教員用</a></li>
-                      <li><a href="https://utelecon.github.io/lms_lecturers/">ITC-LMS 教員用</a></li>
-                      <li><a href="https://utelecon.github.io/faculty_members/let_students_know_your_url">授業URL通知の仕方(教員-学生)</a></li>
+          <li><a href="https://utelecon.github.io/lms_lecturers/">ITC-LMS 教員用</a></li>
+          <li><a href="https://utelecon.github.io/faculty_members/let_students_know_your_url">授業URL通知の仕方(教員-学生)</a></li>
 		    </ul>
 		  </li>
+
 		  <li ontouchstart="">
 		    <a>Web会議</a>
 		    <ul>
-		      <li>
-			<a href="https://utelecon.github.io/zoom">Zoom</a>
-		      </li>
-		      <li>
-			<a href="https://utelecon.github.io/google_hangouts_meet">GoogleハングアウトMeet</a>
-		      </li>
-		      <li>
-			<a href="https://utelecon.github.io/webex">Webex</a>
-		      </li>
+          <li><a href="https://utelecon.github.io/zoom">Zoom</a></li>
+		      <li><a href="https://utelecon.github.io/google_hangouts_meet">GoogleハングアウトMeet</a></li>
+		      <li><a href="https://utelecon.github.io/webex">Webex</a></li>
 		    </ul>
 		  </li>
+
 		  <li ontouchstart="">
 		    <a>イベント・説明会</a>
 		    <ul>
-		      <li>
-				<a href="/events/2020-luncheon/">4/27 オンライン授業情報交換会</a>
-		      </li>
-		      <li>
-				<a href="/events/2020-04-16/">4/16 授業開始後2週間説明会</a>
-		      </li>
-		      <li>
-				<a href="/events/2020-03-27/">3/27 オンデマンド講座・語学教育相談会</a>
-		      </li>
-		      <li>
-				<a href="/events/2020-03-26/">3/26 URL渡し方説明会</a>
-		      </li>
-		      <li>
-				<a href="/events/2020-03-19/">3/19 Zoom基礎講座</a>
-		      </li>
-		      <li>
-				<a href="/events/2020-03-13/">3/13 授業オンライン化説明会</a>
-		      </li>
+		      <li><a href="/events/2020-luncheon/">4/27 オンライン授業情報交換会</a></li>
+		      <li><a href="/events/2020-04-16/">4/16 授業開始後2週間説明会</a></li>
+		      <li><a href="/events/2020-03-27/">3/27 オンデマンド講座・語学教育相談会</a></li>
+		      <li><a href="/events/2020-03-26/">3/26 URL渡し方説明会</a></li>
+		      <li><a href="/events/2020-03-19/">3/19 Zoom基礎講座</a></li>
+		      <li><a href="/events/2020-03-13/">3/13 授業オンライン化説明会</a></li>
 		    </ul>
 		  </li>
 
 		  <li ontouchstart="">
 		    <a>申し込み・報告フォーム/QAフォーラム/メーリングリストなど</a>
 		    <ul>
-                      <li>
-                        <a href="/forums/">QAフォーラム, メーリングリストなど</a>
-                      </li>
-                      <li>
-                        <!--
-                            <a href="mobile/mobile2">ネットワーク環境支援</a>
-                        -->
-                        <a href="/mobile/">ネットワーク環境支援</a>
-                      </li>
-                      <li>
-                        <a href="/supporters/class">クラスサポーター制度</a>
-                      </li>
-                      <li>
-                        <a href="/forms/et">授業入室時トラブル報告</a>
-                      </li>
-                      <li>
-                        <a href="/forms/takecarestudents">学生ケアの学科・専攻担当登録</a>
-                      </li>
-                      <li>
-                        <a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへのリンク登録</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-		    <a href="/sitemap/">サイトマップ</a>
-		  </li>
+          <li><a href="/forums/">QAフォーラム, メーリングリストなど</a></li>
+          <li>
+            <!--
+                <a href="mobile/mobile2">ネットワーク環境支援</a>
+            -->
+            <a href="/mobile/">ネットワーク環境支援</a></li>
+          <li><a href="/supporters/class">クラスサポーター制度</a></li>
+          <li><a href="/forms/et">授業入室時トラブル報告</a></li>
+          <li><a href="/forms/takecarestudents">学生ケアの学科・専攻担当登録</a></li>
+          <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへのリンク登録</a></li>
+        </ul>
+      </li>
 		</ul>
     </header>
 

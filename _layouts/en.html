@@ -85,17 +85,41 @@
 			max-height: 12rem;
 			overflow: visible;
 		}
+
+    .header-menu {
+      display: table;
+      text-align: center;
+      width: 100%;
+      background-color: #666666;
+    }
+    .btn-N,.btn-S,.btn-G {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .btn-N {
+      width: 70px;
+    }
+    .btn-G {
+      width: 180px;
+    }
+    .search {
+      width: 100%;
+      margin: 0 auto;
+      text-align: left;
+    }
 	</style>
 
   </head>
   <body>
 
-    <div class="gcse-search"></div>
-    
+    <div class="header-menu">
+      <div class="btn-S"><div class="search"><div class="gcse-search"></div></div></div>
+      <div class="btn-N"><a href="/en/"><img width=25 src="/image/home.png" alt="Home"></a></div>
+      <div class="btn-N"><a href="/en/sitemap/"><img width=25 src="/image/sitemap.png" alt="Sitemap"></a></div>
+      <div class="btn-N"><a href="{{site.url}}{{page.url | replace: '/en/', '/'}}"><img width=25 src="/image/jpn.png" alt="jpn"></a></div>
+    </div>
+
     <header class="page-header" role="banner">
-	  <div align="right">
-		<a href="{{site.url}}{{page.url | replace: '/en/', '/'}}" style="color:white;">日本語</a>
-	  </div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
@@ -107,9 +131,6 @@
       {% endif %}
 
 		<ul class="gnav">
-		  <li>
-		    <a href="https://utelecon.github.io/en/">HOME</a>
-		  </li>
 		  <li ontouchstart="">
 		    <a>Online Classes</a>
 		    <ul>
@@ -119,45 +140,26 @@
 		      <li><a href="https://utelecon.github.io/en/faculty_members/let_students_know_your_url">Sharing Class  URL (for students/ instructors)</a></li>
 		    </ul>
 		  </li>
+
 		  <li ontouchstart="">
 		    <a>Webinars</a>
 		    <ul>
-		      <li>
-			<a href="https://utelecon.github.io/en/zoom">Zoom</a>
-		      </li>
-		      <li>
-			<a href="https://utelecon.github.io/en/google_hangouts_meet">Google Hangouts Meet</a>
-		      </li>
-		      <li>
-			<a href="https://utelecon.github.io/en/webex">Webex</a>
-		      </li>
+		      <li><a href="https://utelecon.github.io/en/zoom">Zoom</a></li>
+		      <li><a href="https://utelecon.github.io/en/google_hangouts_meet">Google Hangouts Meet</a></li>
+		      <li><a href="https://utelecon.github.io/en/webex">Webex</a></li>
 		    </ul>
 		  </li>
+
 		  <li ontouchstart="">
 		    <a>Events</a>
 		    <ul>
-		      <li>
-			      <a href="/en/events/2020-luncheon/">4/27 Lunch time discussion</a>
-		      </li>
-		      <li>
-			        <a href="/en/events/2020-04-16/">2020/4/16</a>
-		      </li>
-		      <li>
-			        <a href="/en/events/2020-03-27/">2020/3/27</a>
-		      </li>
-		      <li>
-				<a href="/en/events/2020-03-26/">2020/3/26</a>
-		      </li>
-		      <li>
-				<a href="/en/events/2020-03-19/">2020/3/19</a>
-		      </li>
-		      <li>
-				<a href="/en/events/2020-03-13/">2020/3/13</a>
-		      </li>
+		      <li><a href="/en/events/2020-luncheon/">4/27 Lunch time discussion</a></li>
+		      <li><a href="/en/events/2020-04-16/">2020/4/16</a></li>
+		      <li><a href="/en/events/2020-03-27/">2020/3/27</a></li>
+		      <li><a href="/en/events/2020-03-26/">2020/3/26</a></li>
+		      <li><a href="/en/events/2020-03-19/">2020/3/19</a></li>
+		      <li><a href="/en/events/2020-03-13/">2020/3/13</a></li>
 		    </ul>
-		  </li>
-      <li>
-		    <a href="https://utelecon.github.io/en/sitemap/">Sitemap</a>
 		  </li>
 		</ul>
 
