@@ -1,47 +1,47 @@
 ---
-title: オンライン授業情報交換会
+title: Lunch time information exchange meeting
+layout: en
 ---
 
-お昼の時間に情報交換を行う会をはじめます．  
-簡単にセンターから情報提供をした後に，参加者の方にも実践例などご共有いただく予定です．
-今後もトピックを決めて週1－2回で実施していきます．
-本会は録画した上でその動画を学内公開する点，ご了承の上，ご参加下さい．
+We have started meetings to exchange information at lunch time.
+After providing information from the center, participants will share practical examples. 
+We will continue to set topics and hold meetings once or twice a week.
+Please be aware that the session will be recorded and then the video will be shown within the campus.
 
-【場所】Zoom（URL は以下のいずれかの場所で確認することができます） 
-* [Googleスプレッドシート](https://tinyurl.com/ybs6l9qo)
-  * ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります
-  * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください．
-  * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
-* [Excelオンライン](https://tinyurl.com/y8wdd9ku) 
-  * UTokyo Account10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります．
-  * 上手くアクセスできない場合は[こちら](https://www.office.com/)に行き，（サインインしている場合は一度サインアウトして）UTokyo Account10桁のID@utac.u-tokyo.ac.jpでサインインしてください
-
-
-◆ 第3回
-
-【日時】2020年4月30日　12:10-12:50  
-【トピック】動画作成  
-<!--【スライド】[pdfファイル](luncheon_2_slides.pdf)  
-【動画】[mp4ファイル](https://drive.google.com/file/d/17IUDz-vHi3Ferq9UUk_4ATAP8pZZN9gm/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    -->
-【対象】本学の授業を担当する教員や授業支援をする方々  
-【概要】動画教材の作り方について紹介します（予定: PowerPoint，Google Meet，Zoom，OBS: Open Broadcaster Software を使った動画作成）．
+【Place】Zoom（you can find the URL in one of the access points below） 
+* [Google Spreadsheet](https://tinyurl.com/ybs6l9qo)
+  * You need to sign in to your ECCS Cloud Mail (xxx@g.ecc.u-tokyo.ac.jp) account.
+  * In case of trouble accessing, click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp) and sign in using your ECCS account.
+  * In case you have not yet used your Cloud Mail account, click [here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/) and undergo the initial setup for your account.
+* [Excel Online](https://tinyurl.com/y8wdd9ku) 
+  * You need to sign in to Office.com using  your UTokyo Account with '10-digitsID@utac.u-tokyo.ac.jp'.
+  * In case you have not yet used your Cloud Mail account, click [here](https://www.office.com/), and sign in using  your UTokyo Account with '10-digitsID@utac.u-tokyo.ac.jp'（if you are already signed in to other account, please sign out first).
 
 
-◆ 第2回
+◆ 3rd Meeting
 
-【日時】2020年4月27日　12:10-12:50  
-【トピック】グループワークをする（続き）  
-【スライド】[pdfファイル](luncheon_2_slides.pdf)  
-【動画】[mp4ファイル](https://drive.google.com/file/d/17IUDz-vHi3Ferq9UUk_4ATAP8pZZN9gm/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    
-【対象】本学の授業を担当する教員や授業支援をする方々  
-【概要】オンライン授業においてどのようにグループワークを進めればよいでしょうか．設定の仕方や指示の方法，グループ分けの工夫などについてあつかいます．
+【Date and Time】2020/4/30　12:10-12:50  
+【Topic】Recording videos 
+<!--【Slides】[pdf file](luncheon_2_slides.pdf)  
+【Video】[mp4 file](https://drive.google.com/file/d/17IUDz-vHi3Ferq9UUk_4ATAP8pZZN9gm/view?usp=sharing)ECCS cloud mail required）（Click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp) to sign in with ECCS cloud mail (https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．Click <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">here</a>）for those who have not yet completed the initial settings (ECCS cloud mail setting method).   -->
+【Target】Faculty members in charge of classes at our university, and those who support classes 
+【Summary】We will introduce ways to record class material videos (e.g., PowerPoint, Google Meets, Zoom. We will focus on the video production on Open Broadcast Software).
 
-◆ 第1回
+◆ 2nd Meeting
+
+【Date and Time】2020/4/27　12:10-12:50  
+【Topic】Online Group Work（Continuation）  
+【Slides】[pdf file](luncheon_2_slides.pdf)  
+【Video】[mp4 file](https://drive.google.com/file/d/17IUDz-vHi3Ferq9UUk_4ATAP8pZZN9gm/view?usp=sharing)ECCS cloud mail required）（Click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)to sign in with ECCS cloud mail (https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．Click <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">here</a> for those who have not yet completed the initial settings (ECCS cloud mail setting method).
+【Target】Faculty members in charge of classes at our university, and those who support classes  
+【Summary】How should we proceed with group work in online classes? We will discuss how to set up, how to give instructions, and ideas for grouping.
+
+◆ 1st Meeting
 
 
-【日時】2020年4月22日　12:10-12:50  
-【トピック】グループワークをする  
-【スライド】[pdfファイル](luncheon_1_slides.pdf)  
-【動画】[mp4ファイル](https://drive.google.com/file/d/1YNCYvCSDNBn8iuPgYZ8av_U1q7qPtqJd/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    
-【対象】本学の授業を担当する教員や授業支援をする方々  
-【概要】オンライン授業においてどのようにグループワークを進めればよいでしょうか．設定の仕方や指示の方法，グループ分けの工夫などについてあつかいます．
+【Date and time】2020/4/22　12:10-12:50  
+【Topic】Online Group work 
+【Slides】[pdf file](luncheon_1_slides.pdf)  
+【Video】[mp4 file](https://drive.google.com/file/d/1YNCYvCSDNBn8iuPgYZ8av_U1q7qPtqJd/view?usp=sharing) ECCS cloud mail required）（Click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)to sign in with ECCS cloud mail (https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．Click <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">here</a> for those who have not yet completed the initial settings (ECCS cloud mail setting method).
+【Target】Faculty members in charge of classes at our university, and those who support classes 
+【Summary】How should we proceed with group work in online classes? We will discuss how to set up, how to give instructions, and ideas for grouping.
