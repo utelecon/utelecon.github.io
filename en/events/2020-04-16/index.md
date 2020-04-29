@@ -1,5 +1,5 @@
 ---
-title: 2020/04/16 Briefing session: Two weeks after the start of S semester
+title: 2020/04/16 Briefing session - Two weeks after the start of S semester
 layout: en
 ---
 

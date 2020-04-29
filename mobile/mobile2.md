@@ -22,7 +22,8 @@ Renting a mobile WiFi router with up to 50GB of high-speed communication per mon
 1. 研究活動のための利用が主である場合, 研究室, 学科(専攻), 学部(研究科)などから受けられる支援も合わせて調査・検討すること
 1. 応募多数で希望に添えない場合に備え, 可能な範囲で自助努力も行うこと
 1. 本学が支援を終了する場合には速やかに返却すること （現在は、本年度終了時を想定。状況により延長する可能性があります。）
-1. 支援期間中に本学を離れることとなった場合(休学期間中も含む)も返却すること
+1. 支援期間中に本学を離れることとなった場合も返却すること
+1. 休学期間中の人は応募できません
 
 上記の条件を守ることを条件に学生に提供します。 
 
@@ -30,7 +31,8 @@ Renting a mobile WiFi router with up to 50GB of high-speed communication per mon
 1. If the main purpose is research, you also seek help from your laboratory, department, and faculty (school)
 1. To the extent possible, you make an effort to support yourself, in case you are not selected 
 1. You return it when the university terminates the support (which will happen at the end of this fiscal year but may extend depending on the situation)
-1. You return it when you leave the university (including leave of absence) during the support period
+1. You return it when you leave the university during the support period
+1. You are not on leave of absence
 
 It will be offered to students subject to the above conditions. 
 
