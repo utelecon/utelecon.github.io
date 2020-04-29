@@ -1,0 +1,21 @@
+.bar-menu {
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: #666666;
+}
+.bar-btn-normal,.bar-btn-search,.bar-btn-gtrans {
+  display: table-cell;
+  vertical-align: middle;
+}
+.bar-btn-normal {
+  width: 60px;
+}
+.bar-btn-gtrans {
+  width: 180px;
+}
+.search-box {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
