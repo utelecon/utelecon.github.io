@@ -5,6 +5,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
+* <span style="color:blue;">2020/4/30:</span> (学生用)<a href="mobile/">教育・研究活動のためのネットワーク環境支援について / The network environment support for education and research</a>
 * <span style="color:blue;">2020/4/30:</span> (教員用)4/30 12:10から[オンライン授業情報交換会(トピック：動画作成)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/4/27:</span> (教員用)4/27 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/4/24:</span> <a href="notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
