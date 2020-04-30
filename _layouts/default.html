@@ -169,6 +169,10 @@
     {% if page.url contains "/sitemap" %}
 			{% assign has_en_page = true %}
 		{% endif %}
+	  
+	   {% if page.url contains "/supporters" %}
+			{% assign has_en_page = true %}
+		{% endif %}
 
 		{% if page.url contains "/en" %}
 			{% assign has_en_page = false %}
