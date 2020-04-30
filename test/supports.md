@@ -95,3 +95,4 @@ sitemap: false
  c) どのような問題が発生していますか？
 ```
 
+<script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
