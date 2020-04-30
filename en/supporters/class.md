@@ -41,7 +41,7 @@ Work contents that are NOT expected of Class Supporters
 * The class supporter will NOT adjust the web conference settings every time so that <font color="red">the teacher does not need to know the web conference system at all</font>.
 * The Class Supporter will NOT do <font color="red"> camera work for the teacher</font>.
 * The class supporter will NOT give  individual support for students who cannot enter the class, who do not make a sound when entering the class, etc. <font color="red"> every time the student fails to attend class for over a specific amount of times (the level that hinders attendance) </font>, (Nor do we anticipate that teachers in class to do it)
-* <font color="red">The class supporter will NOT conduct work that</font> requires going to the campus physically.
+* The class supporter will NOT conduct work that<font color="red"> requires going to the campus physically</font>.
 
 
 Technically, the class supporters are meant to “Help professors prepare for online classes, help with the trials before the start of classes, notify the professor when/If there are trouble during the lecture that the professor may not notice. (e.g. sound muted)”. If you need further assistance, consult with the subject/major and the student him/her-self, or hire a TA separately.
