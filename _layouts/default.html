@@ -173,6 +173,14 @@
 	   {% if page.url contains "/supporters" %}
 			{% assign has_en_page = true %}
 		{% endif %}
+	  
+	   {% if page.url contains "/forums" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+	  
+	   {% if page.url contains "/faq" %}
+			{% assign has_en_page = true %}
+		{% endif %}
 
 		{% if page.url contains "/en" %}
 			{% assign has_en_page = false %}
