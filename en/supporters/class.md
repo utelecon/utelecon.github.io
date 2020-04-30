@@ -1,5 +1,5 @@
 ---
-title: Online Class Supporters Program
+title: Online Class Supporters
 layout: en
 ---
 
