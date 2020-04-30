@@ -63,10 +63,10 @@ Technically, the class supporters are meant to “Help professors prepare for on
 * Class supporters receive training for 2 hours and understand the general support contents, but advanced IT skills are not required. The requirements are that he or she wants to help the teacher's class, and are able to attend online classes.
 * Maximum of 1 person per class, 10 hours max. (including 2 hours of training; due to the budget for the time being) .
 * For more information on what you can do in 8 (10-2) hours, please discuss with your class supporter. 8 hours includes pre-class preparation and any help you may need during the actual lesson. It is assumed that you will be able to help while you are taking the lecture, so you do not need to count all your lecture hours.
-* •We will issue a completion report after the end of lectures, so please make a record of the time and content of the work requested to the class supporter.
+* We will issue a completion report after the end of lectures, so please make a record of the time and content of the work requested to the class supporter.
 * Class supporters will be paid from the headquarters budget (13,000 yen per lesson).
-* •	Due to administrative procedures, the payment will be made after August, after the end of the S semester.
-* •	International students’ working hours are limited to maximum 28 hours a week including other jobs (within or outside of the university), so please make sure it does not exceed that amount of time.
+* Due to administrative procedures, the payment will be made after August, after the end of the S semester.
+* International students’ working hours are limited to maximum 28 hours a week including other jobs (within or outside of the university), so please make sure it does not exceed that amount of time.
 
 When you become a class supporter
 ---------------------------------------------
