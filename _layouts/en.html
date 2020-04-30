@@ -21,6 +21,11 @@
 
     <script async src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"></script>
 
+    <link rel="stylesheet" type="text/css" href="/assets/css/bar.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/hiraku.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="/assets/js/hiraku.js"></script>
+
 	<style>
 
 		.gnav {
@@ -86,37 +91,57 @@
 			overflow: visible;
 		}
 
-    .header-menu {
-      display: table;
-      text-align: center;
-      width: 100%;
-      background-color: #666666;
+    @media screen and (max-width: 768px) {
+      .menu-container .gnav {
+        display: none;
+        position: absolute;
+        width: 100%;
+      }
     }
-    .btn-N,.btn-S,.btn-G {
-      display: table-cell;
-      vertical-align: middle;
+
+    .js-hiraku-offcanvas-body-right .js-hiraku-header-fixed {
+      margin-left: -300px;
     }
-    .btn-N {
-      width: 70px;
+
+    .js-hiraku-offcanvas-body-left .js-hiraku-header-fixed {
+      margin-left: 300px;
     }
-    .btn-G {
-      width: 180px;
+
+    .js-hiraku-offcanvas .js-hiraku-offcanvas-sidebar-left {
+      margin-left:-300px;
     }
-    .search {
-      width: 100%;
-      margin: 0 auto;
-      text-align: left;
+
+    .js-hiraku-offcanvas .js-hiraku-offcanvas-sidebar-right {
+      margin-right:300px;
     }
+
+    .js-hiraku-offcanvas .js-hiraku-offcanvas-sidebar {
+      width:300px;
+    }
+
+    .js-hiraku-offcanvas-body-left {
+      left:300px;
+    }
+
+    .js-hiraku-offcanvas-body-right {
+      right:300px;
+    }
+
 	</style>
 
   </head>
   <body>
 
-    <div class="header-menu">
-      <div class="btn-S"><div class="search"><div class="gcse-search"></div></div></div>
-      <div class="btn-N"><a href="https://utelecon.github.io/en/"><img width=25 src="/image/home.png" alt="Home"></a></div>
-      <div class="btn-N"><a href="https://utelecon.github.io/en/sitemap/"><img width=25 src="/image/sitemap.png" alt="Sitemap"></a></div>
-      <div class="btn-N"><a href="{{site.url}}{{page.url | replace: '/en/', '/'}}"><img width=25 src="/image/jpn.png" alt="jpn"></a></div>
+    <div class="bar-menu">
+      <div class="bar-btn-normal">
+        <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
+        <span class="hiraku-open-btn-line"></span>
+        </button>
+      </div>
+      <div class="bar-btn-search"><div class="search-box"><div class="gcse-search"></div></div></div>
+      <div class="bar-btn-normal"><a href="https://utelecon.github.io/en/"><img width=25 src="/image/home.png" alt="Home"></a></div>
+      <div class="bar-btn-normal"><a href="https://utelecon.github.io/en/sitemap/"><img width=25 src="/image/sitemap.png" alt="Sitemap"></a></div>
+      <div class="bar-btn-normal"><a href="{{site.url}}{{page.url | replace: '/en/', '/'}}"><img width=25 src="/image/jpn.png" alt="jpn"></a></div>
     </div>
 
     <header class="page-header" role="banner">
@@ -130,6 +155,7 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
 
+<nav class="menu-container">
 		<ul class="gnav">
 		  <li ontouchstart="">
 		    <a>Online Classes</a>
@@ -145,7 +171,7 @@
 		    <a>Webinars</a>
 		    <ul>
 		      <li><a href="https://utelecon.github.io/en/zoom">Zoom</a></li>
-		      <li><a href="https://utelecon.github.io/en/google_hangouts_meet">Google Hangouts Meet</a></li>
+		      <li><a href="https://utelecon.github.io/en/google_hangouts_meet">Google Meet</a></li>
 		      <li><a href="https://utelecon.github.io/en/webex">Webex</a></li>
 		    </ul>
 		  </li>
@@ -162,7 +188,7 @@
 		    </ul>
 		  </li>
 		</ul>
-
+    </nav>
 
     </header>
 
@@ -171,6 +197,45 @@
       {% include toc.html html=content %}
 
       {{ content }}
+
+      <!-- for drawer -->
+          <div class="offcanvas-left">
+            <ul>
+              <li><a href="/en/">Home</a>
+          	  <li>Online Classes</li>
+          		<ul>
+          		  <li><a href="https://utelecon.github.io/en/oc">for students</a></li>
+          		  <li><a href="https://utelecon.github.io/en/faculty_members">for instructors</a></li>
+                <li><a href="https://utelecon.github.io/en/lms_lecturers/">ITC-LMS (for instructors)</a></li>
+                <li><a href="https://utelecon.github.io/en/faculty_members/let_students_know_your_url">Sharing Class  URL<br>(for students/ instructors)</a></li>
+          		</ul>
+              <li>Webinars</li>
+      		    <ul>
+      		      <li><a href="https://utelecon.github.io/en/zoom">Zoom</a></li>
+      		      <li><a href="https://utelecon.github.io/en/google_hangouts_meet">Google Meet</a></li>
+      		      <li><a href="https://utelecon.github.io/en/webex">Webex</a></li>
+      		    </ul>
+              <li>Events</li>
+      		    <ul>
+      		      <li><a href="/en/events/2020-luncheon/">4/27 Lunch time discussion</a></li>
+      		      <li><a href="/en/events/2020-04-16/">2020/4/16</a></li>
+      		      <li><a href="/en/events/2020-03-27/">2020/3/27</a></li>
+      		      <li><a href="/en/events/2020-03-26/">2020/3/26</a></li>
+      		      <li><a href="/en/events/2020-03-19/">2020/3/19</a></li>
+      		      <li><a href="/en/events/2020-03-13/">2020/3/13</a></li>
+      		    </ul>
+              <li><a href="/en/sitemap/">Sitemap</a>
+            </ul>
+      </li>
+            </ul>
+          </div>
+          <script>
+          $(".offcanvas-left").hiraku({
+              btn:"#offcanvas-btn-left",
+              direction:"left"
+          });
+          </script>
+      <!-- for drawer -->
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
