@@ -20,7 +20,7 @@ Purpose and goal of the program
 What the class supporters can do (examples of specific tasks)
 ---------------------------
 
-* •	Conducting a <font color="green">trial online lecture </font> with the professor using the Web conference system outside of class time. Examples of tasks:
+* Conducting a <font color="green">trial online lecture </font> with the professor using the Web conference system outside of class time. Examples of tasks:
   * Checking the sound quality
   * Checking the image quality of the camera
   * Check how things appear when using the functions of the conference system
@@ -41,7 +41,7 @@ Work contents that are NOT expected of Class Supporters
 * The class supporter will NOT adjust the web conference settings every time so that <font color="red">the teacher does not need to know the web conference system at all</font>.
 * The Class Supporter will NOT do <font color="red"> camera work for the teacher</font>.
 * The class supporter will NOT give  individual support for students who cannot enter the class, who do not make a sound when entering the class, etc. <font color="red"> every time the student fails to attend class for over a specific amount of times (the level that hinders attendance) </font>, (Nor do we anticipate that teachers in class to do it)
-* <font color="red">The class supporter will NOT conduct work that </font>requires going to the campus physically<u>.
+* The class supporter will NOT conduct work that<font color="red"> requires going to the campus physically</font>.
 
 
 Technically, the class supporters are meant to “Help professors prepare for online classes, help with the trials before the start of classes, notify the professor when/If there are trouble during the lecture that the professor may not notice. (e.g. sound muted)”. If you need further assistance, consult with the subject/major and the student him/her-self, or hire a TA separately.
@@ -63,10 +63,10 @@ Technically, the class supporters are meant to “Help professors prepare for on
 * Class supporters receive training for 2 hours and understand the general support contents, but advanced IT skills are not required. The requirements are that he or she wants to help the teacher's class, and are able to attend online classes.
 * Maximum of 1 person per class, 10 hours max. (including 2 hours of training; due to the budget for the time being) .
 * For more information on what you can do in 8 (10-2) hours, please discuss with your class supporter. 8 hours includes pre-class preparation and any help you may need during the actual lesson. It is assumed that you will be able to help while you are taking the lecture, so you do not need to count all your lecture hours.
-* •We will issue a completion report after the end of lectures, so please make a record of the time and content of the work requested to the class supporter.
+* We will issue a completion report after the end of lectures, so please make a record of the time and content of the work requested to the class supporter.
 * Class supporters will be paid from the headquarters budget (13,000 yen per lesson).
-* •	Due to administrative procedures, the payment will be made after August, after the end of the S semester.
-* •	International students’ working hours are limited to maximum 28 hours a week including other jobs (within or outside of the university), so please make sure it does not exceed that amount of time.
+* Due to administrative procedures, the payment will be made after August, after the end of the S semester.
+* International students’ working hours are limited to maximum 28 hours a week including other jobs (within or outside of the university), so please make sure it does not exceed that amount of time.
 
 When you become a class supporter
 ---------------------------------------------
