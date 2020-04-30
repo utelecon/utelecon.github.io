@@ -22,7 +22,8 @@ title: オンライン授業情報交換会
 【日時】2020年4月30日　12:10-12:50  
 【トピック】動画作成  
 【スライド】[pdfファイル](luncheon_3_slides.pdf)  
-<!--【動画】[mp4ファイル](https://drive.google.com/file/d/17IUDz-vHi3Ferq9UUk_4ATAP8pZZN9gm/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    -->
+【動画】[mp4ファイル](https://drive.google.com/file/d/12C48fVT-w7TT6DmC7DqZMmRYkxPNANuj/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）   
+<font color="red">注: 動画内で mp3 ファイルを iPhone の Chrome ブラウザで確認できたと吉田が述べていますが，Chrome ではなく，Google Drvie アプリの間違いでした</font>．申し訳ございません．  
 【対象】本学の授業を担当する教員や授業支援をする方々  
 【概要】動画教材の作り方について紹介します（予定: PowerPoint，Google Meet，Zoom，OBS: Open Broadcaster Software を使った動画作成）．
 
