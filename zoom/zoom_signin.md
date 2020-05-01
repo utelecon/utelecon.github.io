@@ -13,7 +13,7 @@ title: Zoomのアカウントとライセンスに関する注意点
 
 ## 2つのECCSクラウドメールアドレス
 * ECCSクラウドメールのメールアドレスは，ab12345678@g.ecc.u-tokyo.ac.jpのような当初に割り当てられたアドレスか，sanshiro-hongo@g.ecc.u-tokyo.ac.jpのようなこれを変更したアドレスになっていると思います．
-* これとは別に，1234567890@g.ecc.u-tokyo.ac.jp のような，数字10桁の<a href="https://utlecon.github.io/glossary">共通ID</a>で始まるのメールアドレスがあります．
+* これとは別に，1234567890@g.ecc.u-tokyo.ac.jp のような，数字10桁の<a href="https://utlecon.github.io/glossary">共通ID</a>で始まるメールアドレスがあります．
 * この2つのメールアドレスは，どちらに送っても同じECCSクラウドメールに届く有効なメールアドレスです．
 
 ## Zoomのライセンスとメールアドレス
