@@ -127,6 +127,13 @@
       right:300px;
     }
 
+    #pagetop{
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      cursor: pointer;
+    }
+
 	</style>
 
   </head>
@@ -325,6 +332,29 @@
           });
           </script>
       <!-- for drawer -->
+
+      <!-- jump to page top -->
+      <div id="pagetop">
+        <img width="70" src="/image/top.png">
+      </div>
+      <script>
+      $(function(){
+        // scroll
+        $('#pagetop').click(function() {
+          $("html,body").animate({scrollTop:0},"300");
+        });
+        // show/hide
+        $('#pagetop').hide();
+        $(window).scroll(function() {
+          if($(window).scrollTop() > 0) {
+            $('#pagetop').slideDown(600);
+          } else {
+            $('#pagetop').slideUp(600);
+          }
+        });
+      });
+      </script>
+      <!-- jump to page top -->
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
