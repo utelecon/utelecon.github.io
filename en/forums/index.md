@@ -2,55 +2,56 @@
 title: QAフォーラム及びアナウンス用メーリングリストについて
 ---
 
-はじめに
+Introduction
 ---------------------------
 
-以下のQAフォーラムとメーリングリストを作っています
+We have created the following QA forums and mailing lists:
 
-* [QAフォーラム](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group) : 質問, 議論のためのフォーラム
-* [メーリングリスト](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-announce-group) : アナウンスのためのメーリングリスト
+* [QA Forum](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group) : Forum for questions, discussions
+* [Mailing List](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-announce-group) : A mailing list for announcements.
 
-(4/24) <font color="red">【お願い】</font> 今後の質問, 問い合わせの受付体制について
+(4/24) <font color="red">【Request】</font> How to send inquiries
 ---------------------------
 
-現在, 色々なお問合わせや質問を utelecon-inquiries (ポータルサイト運営) メーリングリストに頂いておりますが, ZoomやMicrosoft Officeに関する頻出する質問も多く, それらは utelecon-questions フォーラムに加入している皆様の力を借り, かつ質問とその答えをフォーラムで閲覧可能にすることにより自己解決可能にすることで対処していきたいと思っています.
+Currently, we are receiving several inquiries and questions to the utelecon-inquiries (operating portal site) maiing list, and many of the frequently asked question are about zoom and Microsoft Office. We are addressing these questions by making it self-solvable by using a readable forum.
 
-また, 授業実施に直接関係する重要なアナウンス (例えばZoomのアップデートによって挙動が変わるなどして多数の人に発生している事象など) は utelecon-announce に流すことにより迅速に届けたいと思っております. そこで, 授業を実施している, より多くの先生方に加入していただきたいと思っています.
+Also, we would like to deliver important announcements directly related to lesson implementation (e.g., issues affecting a large number of people, related to zoom software updates) through utelecon-announce. Thus, we ask for teachers to join the mailing list.
 
-そこで改めて, ***なるべく多くの皆様に上記フォーラム, メーリングリストにお入りいただきたい***と思っています.
-また, 専攻長, 学科長, 専攻や学科の教務担当, 教務事務の皆様には(もちろんそれ以外の先生, 学生, 職員の皆様も必要に応じて), ***このページをなるべく多くの先生や学生へお知らせいただきたい***と思っています.
+So, again, we ask for ***as many people as possible to join the forum and mailing list mentioned above***.
+Also, we ask for school and department heads, and administrative staff to ***inform as many students as possible about this website***.
 
-目指す状態は以下です.
+The following is what we are looking for:
 
-  * utelecon-questions : トラブル発生や技術的な質問をするための第一のチャネルとして機能させる. これまで utelecon-inquiries に届く質問の多くを utelecon-questions に誘導する. トラフィックは大. 質問への回答に協力していただける方には質問をメール配信する(自身で設定可能)
-  * utelecon-announce : 授業を実施しているほとんどの教員が所属しており, UTAS, ITC-LMSのメンテナンス情報, Zoomのアップデートなどで授業への影響が大きい(多くの学生に影響する)と予想される情報を迅速に流す
-  * utelecon-inquiries : 事情により広く共有できない質問をするためのメーリングリスト
+  * utelecon-questions : Serves as a primary channel for issues and technical questions. Directs many of the questions that reach utelecon-inquiries to utelecon-questions. Traffic is large. Sends questions to people by email (can be set by yourself).
+ * utelecon-announce : Intended for sharing information and questions related to aspects that largely affect students and other users, like issues related to UTAS, ITC-LMS maintenance information, and Zoom updates.
+  * utelecon-inquiries : Mailing list for asking questions that cannot be widely shared.
 
-加入の仕方 (以下のどれでも良い)
+How to join (any of the following is acceptable)
 ---------------------------
 
-**方法0:** (推奨) ECCSクラウドメール (xxxx@g.ecc.u-tokyo.ac.jp) でサインインして以下のページにアクセスし, 自分で登録する
+**Method 0:** (Recommended) Sign in with your ECCS Cloud Mail (xxxx@g.ecc.u-tokyo.ac.jp), and register to the links below:
 
 * [utelecon-questions](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group)
 * [utelecon-announce](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-announce-group)
 
-**方法1:** 以下のフォーム (UTokyo Accountが必要です. 入力を求められたらUTokyo Accountとパスワードを入力してください) にご記入下さい
+**Method 1:** Fill out the form below (UTokyo Account required; enter UTokyo Account and password when prompted).
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUMFJEVjVPVFdVM0VZNUlVRlNJRk5ROU9OSC4u" target="_blank"> 加入フォーム (UTokyo Account必要) </a>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUMFJEVjVPVFdVM0VZNUlVRlNJRk5ROU9OSC4u" target="_blank"> Subscription Form (UTokyo Account required) </a>
 
-**方法2:** 上記のフォームへアクセスできない(UTokyo Accountアカウントがよくわからない)場合は, 情報システム部 情報戦略課情報戦略チーム  jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp へメールをお送りください.
-
+**Method 2:** If you cannot access the form above (e.g. not knowing your UTokyo Account), please send an email to jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp, Information Strategy Team of the Information Strategy Division, Information Strategy Department.
 ```
 To: jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp
 
 
-情報システム部 情報戦略課情報戦略チーム 御中
+To the Information Systems Department / Information Strategy Division, Information Strategy Team,
 
-  ◯◯(所属)の◯◯(お名前)です.
-  私のアドレス xxxxx@xxxxx.xxxxx を utelecon-questions-group (またはutelecon-announce-group) に加えてください
+
+  This is ◯◯ (name) of ◯◯ (affiliation).
+  Please add my address xxxxx@xxxxx.xxxxx to utelecon-questions-group (or utelecon-announce-group)
+  
 ```
 
-**方法3:** 以下はGoogle Groupsに慣れている人向けの説明です. すでにメンバーになっている人(Hさんとします)で, 登録されているアドレスがGoogleアカウントまたはその別名である場合は, その人に加えてもらうことが可能です. Hさんがグループのホームページを訪れて作業をして下さい. 専攻で多人数を登録する場合, こちらをやっていただけると人手による処理が分散されますのでご協力いただけると幸いです.
+**Method 3:** The following is an explanation for those who are already familiar with Google Groups. If someone is already a member (let's say Mr./Ms. H) and the registered address is a Google account or its alias, that person can be added to the group.  Mr./Ms. H can visit the group’s homepage to edit.  If you are registering a large number of people, using this method will help disperse the number of registrations that would otherwise be necessary. 
 
 * [https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group)
 * [https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-announce-group](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/forum/#!forum/utelecon-questions-group)
