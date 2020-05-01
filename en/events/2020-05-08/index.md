@@ -1,43 +1,44 @@
 ---
-title: 2020/05/08 説明会: オンライン授業における著作物利用
+title: 2020/05/08 Briefing session: Using copyrighted materials in online classes
+layout: en
 ---
 
-# 2020/05/08  説明会: オンライン授業における著作物利用
+# 2020/05/08  Briefing session: Using copyrighted materials in online classes
 
-* **日時:** 5/8(金) 17:00-18:30 
+* **Date and time:** Friday, May 8 17: 00-18: 30
 
-* **場所:** オンライン(Zoom)およびyoutube  <br>
-　　　本ページ下部にある[説明会情報掲載シートへ]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing )
-
-
-## 開催趣旨
-
-新型コロナウイルス感染拡大防止のため，オンラインによる授業が開始されて1ヶ月が経過しました．著作物利用に関しては，現況に鑑み2020年4月28日に改正著作権法が早期施行されることとなりました．今回の施行により，オンライン授業においてどのように著作物の利用が可能となったのかについて，基本的な理解をあらためて行う機会として，本説明会を開催します．<br>
-　各部局で実際に教育を担当する教員，教育を支援する職員やTAの皆さんを対象としています．<br>
-　尚，現在本学では新型コロナウイルス感染拡大防止に向けてレベル３で対応中であることから，Zoomを用いた参加という形で実施します．
-
-## 講師
-情報学環　酒井麻千子　准教授
+* **Palce:** Online (Zoom) and youtube  <br>
+　　　Check the[Information sheet] at the bottom of the page( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing )
 
 
-## 内容(予定)
+## Goals
 
-「オンライン授業における著作物利用」が今回の内容となります．通常の対面型における著作物利用の基本的な考え方に加えて，今回の改正著作権法施行のポイントなど，40分ほど酒井先生より説明をいただいた後に，質疑応答の時間とします．説明の時間においても質問をファシリテーターがとりあげる形で適宜対話的に進めていきます．
-  * 所定時間終了後も, 残っていただいた方からの質問を時間が許す限り受け付けます
-  * sli.do や chat での質問にも, 後日なるべくお答えします
-  * youtube 側はコメントをオフにしますので，youtube を視聴の方は，質問がある場合 sli.do にてお願いします．
+One month has passed since the online class started, in response to the spread of new coronavirus infection. Regarding the use of copyrighted materials, a revised Copyright Act will be put into force early on April 28, 2020 in light of the current situation. We will hold this briefing session as an opportunity to give a basic understanding of how it became possible to use copyrighted works in online classes.<br>
+　This briefing is intended for teachers who are actually in charge of education in each department, staff who support education, and TAs.<br>
+　At our university, we are currently working on Level 3 to prevent the spread of new coronavirus infections, so we will use Zoom for the briefing.
+
+## Lecturer
+III/GSII　Machiko SAKAI　Associate Professor
+
+
+## Contents(Planned)
+
+"Use of copyrighted material in online classes" is the content for this briefing. In addition to the basic idea of ​​using copyrighted works a face-to-face style, Dr. Sakai will explain about the points of enforcement of the revised copyright law for about 40 minutes, following with time for questions and answers. Even during the explanation time, the facilitator will take up the question interactively as appropriate.
+  * We will accept questions from those who have left over as long as time allows, even after the specified time.
+  * We will answer questions on sli.do and chat at a later date.
+  * Comments will be turned off on the youtube side, so if you have any questions, please visit sli.do if you have any questions.
 
 
 
-## 参加いただきたい方
-* 授業を担当している教員
-* 教育支援に携わる教職員
-* TA, クラスサポーター
+## Who can participate?
+* Teachers in charge of classes
+* Faculty members involved in educational support
+* TAs, Class Supporters
 
-## 参加申込みなど
+## Application form
 
-* [説明会情報掲載シートへ]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing ) (参加者数把握のため、このURLにあるエクセルシート上部の参加申込みフォームリンクから5月8日（金）開始前までにお申し込みください。)
+* [Briefing Session Information Sheet]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing ) (To grasp the number of participants, please apply from the participation application form link at the top of the Excel sheet at this URL before May 8)
 
-  * **アクセスするには，ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります．**
-  * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください．
-  * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
+  * **To access, you need to be signed in to Google with an ECCS cloud mail (xxx@g.ecc.u-tokyo.ac.jp) account.**
+  * If you have trouble accessing it, please sign in with ECCS Cloud Email[here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp).
+  * If you have never used ECCS cloud email, please click [here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)to make initial settings for account use.
