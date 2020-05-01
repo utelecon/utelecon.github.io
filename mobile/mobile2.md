@@ -14,7 +14,7 @@ As part of our effort to urgently make classes online, the University of Tokyo h
 
 1か月50GBまで高速通信が可能なモバイルWiFiルータの貸し出し
 
-Renting a mobile WiFi router with up to 50GB of high-speed communication per month 
+A mobile WiFi router with up to 50GB of high-speed communication per month 
 
 # 提供条件 / Terms of Offer 
 
@@ -48,9 +48,9 @@ Please access the application form through either of the following.
 * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ESEjHc7AYBpPqjooTPGoJMsBqcl0bN20iSUVwunnTGL2hg?e=pKORAl" target="_blank">Excelオンライン / Excel Online</a>(UTokyo Account 10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります / You need to sign in office.com with your UTokyo Account (10-digit-ID@utac.u-tokyo.ac.jp)
 * 本部学務課からのメール
 
-**締め切り　5月xx日（火曜日）23時59分**
+**締め切り　5月13日（水曜日）23時59分**
 
-**Deadline: Tuesday, May xx, 23:59 PM**
+**Deadline: Tuesday, May 13th, 23:59 PM**
 
 支援対象が決まり次第連絡します。（対象とならなかった場合も連絡します。） 
 

@@ -13,13 +13,18 @@
     {% endif %}
     <meta charset="UTF-8">
 
-{% seo %}
+    {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     <script async src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"></script>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/bar.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/hiraku.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="/assets/js/hiraku.js"></script>
 
 	<style>
 
@@ -86,31 +91,47 @@
 			overflow: visible;
 		}
 
-    .header-menu {
-      display: table;
-      text-align: center;
-      width: 100%;
-      background-color: #666666;
+    @media screen and (max-width: 650px) {
+      .menu-container .gnav {
+        display: none;
+        position: absolute;
+        width: 100%;
+      }
     }
-    .btn-N,.btn-S,.btn-G {
-      display: table-cell;
-      vertical-align: middle;
+
+    .js-hiraku-offcanvas-body-right .js-hiraku-header-fixed {
+      margin-left: -300px;
     }
-    .btn-N {
-      width: 70px;
+
+    .js-hiraku-offcanvas-body-left .js-hiraku-header-fixed {
+      margin-left: 300px;
     }
-    .btn-G {
-      width: 180px;
+
+    .js-hiraku-offcanvas .js-hiraku-offcanvas-sidebar-left {
+      margin-left:-300px;
     }
-    .search {
-      width: 100%;
-      margin: 0 auto;
-      text-align: left;
+
+    .js-hiraku-offcanvas .js-hiraku-offcanvas-sidebar-right {
+      margin-right:300px;
     }
+
+    .js-hiraku-offcanvas .js-hiraku-offcanvas-sidebar {
+      width:300px;
+    }
+
+    .js-hiraku-offcanvas-body-left {
+      left:300px;
+    }
+
+    .js-hiraku-offcanvas-body-right {
+      right:300px;
+    }
+
 	</style>
 
   </head>
   <body>
+
     {% assign has_en_page = false %}
 
 		{% if page.url == "/" %}
@@ -149,19 +170,40 @@
 			{% assign has_en_page = true %}
 		{% endif %}
 
+	   {% if page.url contains "/supporters" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
+	   {% if page.url contains "/forums" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
+	   {% if page.url contains "/faq" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
+	  {% if page.url contains "/forms" %}
+			{% assign has_en_page = true %}
+		{% endif %}
+
 		{% if page.url contains "/en" %}
 			{% assign has_en_page = false %}
 		{% endif %}
 
-    <div class="header-menu">
-      <div class="btn-S"><div class="search"><div class="gcse-search"></div></div></div>
-      <div class="btn-N"><a href="https://utelecon.github.io/"><img width=25 src="/image/home.png" alt="Home"></a></div>
-      <div class="btn-N"><a href="https://utelecon.github.io/sitemap/"><img width=25 src="/image/sitemap.png" alt="Sitemap"></a></div>
-  {% if has_en_page %}
-      <div class="btn-N"><a href="{{site.url}}/en{{page.url}}"><img width=25 src="/image/en.png" alt="en"></a></div>
-  {% else %}
-      <div class="btn-G"><a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}/en{{page.url}}"><img width=25 src="/image/en.png" alt="en" style="vertical-align: middle;"}><font color="white" size="2"> (by Google Trans.)</font></a></div>
-  {% endif %}
+    <div class="bar-menu">
+      <div class="bar-btn-normal">
+        <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
+        <span class="hiraku-open-btn-line"></span>
+      </button><div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
+      </div>
+      <div class="bar-btn-search"><div class="search-box"><div class="gcse-search"></div></div></div>
+      <div class="bar-btn-normal"><a href="https://utelecon.github.io/" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/home.png" alt="Home"><br>Home</div></a></div>
+      <div class="bar-btn-normal"><a href="https://utelecon.github.io/sitemap/" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/sitemap.png" alt="Sitemap"><br>Sitemap</div></a></div>
+{% if has_en_page %}
+      <div class="bar-btn-normal"><a href="{{site.url}}/en{{page.url}}" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/en.png" alt="en"><br>English</div></a></div>
+{% else %}
+      <div class="bar-btn-gtrans"><a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}/en{{page.url}}" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/en.png" alt="en"><br>(Google Trans.)</div></a></div>
+{% endif %}
     </div>
 
     <header class="page-header" role="banner">
@@ -177,6 +219,7 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
 
+<nav class="menu-container">
 		<ul class="gnav">
 		  <li ontouchstart="">
 		    <a>オンライン授業</a>
@@ -192,7 +235,7 @@
 		    <a>Web会議</a>
 		    <ul>
           <li><a href="https://utelecon.github.io/zoom">Zoom</a></li>
-		      <li><a href="https://utelecon.github.io/google_hangouts_meet">GoogleハングアウトMeet</a></li>
+		      <li><a href="https://utelecon.github.io/google_hangouts_meet">Google Meet</a></li>
 		      <li><a href="https://utelecon.github.io/webex">Webex</a></li>
 		    </ul>
 		  </li>
@@ -200,7 +243,8 @@
 		  <li ontouchstart="">
 		    <a>イベント・説明会</a>
 		    <ul>
-		      <li><a href="/events/2020-luncheon/">4/27 オンライン授業情報交換会</a></li>
+		      <li><a href="/events/2020-05-08/">5/8 著作権説明会</a></li>
+		      <li><a href="/events/2020-luncheon/">4/30 オンライン授業情報交換会</a></li>
 		      <li><a href="/events/2020-04-16/">4/16 授業開始後2週間説明会</a></li>
 		      <li><a href="/events/2020-03-27/">3/27 オンデマンド講座・語学教育相談会</a></li>
 		      <li><a href="/events/2020-03-26/">3/26 URL渡し方説明会</a></li>
@@ -212,19 +256,17 @@
 		  <li ontouchstart="">
 		    <a>各種申請・報告フォーム</a>
 		    <ul>
-          <li><a href="/forums/">QAフォーラム, MLなど</a></li>
-          <li>
-            <!--
-                <a href="mobile/mobile2">ネットワーク環境支援</a>
-            -->
-            <a href="/mobile/">ネットワーク環境支援</a></li>
-          <li><a href="/supporters/class">クラスサポーター制度</a></li>
-          <li><a href="/forms/et">授業入室時トラブル報告</a></li>
-          <li><a href="/forms/takecarestudents">学生ケアの学科・専攻担当登録</a></li>
-          <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへのリンク登録</a></li>
-        </ul>
-      </li>
+                      <li><a href="/forums/">QAフォーラム, MLなど</a></li>
+                      <li><a href="/mobile/mobile2">ネットワーク環境支援</a></li>
+                      <li><a href="/supporters/class">クラスサポーター制度</a></li>
+                      <li><a href="/forms/et">授業入室時トラブル報告</a></li>
+                      <li><a href="/forms/takecarestudents">学科・専攻の学生ケア担当登録</a></li>
+                      <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへのリンク登録</a></li>
+                    </ul>
+                  </li>
 		</ul>
+    </nav>
+
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -233,6 +275,56 @@
       {% include toc.html html=content %}
 
       {{ content }}
+
+      <!-- for drawer -->
+          <div class="offcanvas-left">
+            <ul>
+              <div style="text-indent: -2em">MENU</div>
+              <li><a href="/">Home</a>
+          	  <li>オンライン授業</li>
+          		<ul>
+          		  <li><a href="https://utelecon.github.io/oc">学生用</a></li>
+          		  <li><a href="https://utelecon.github.io/faculty_members">教員用</a></li>
+                <li><a href="https://utelecon.github.io/lms_lecturers/">ITC-LMS 教員用</a></li>
+                <li><a href="https://utelecon.github.io/faculty_members/let_students_know_your_url">授業URL通知の仕方<br>(教員-学生)</a></li>
+          		</ul>
+              <li>Web会議</li>
+      		    <ul>
+      		      <li><a href="https://utelecon.github.io/zoom">Zoom</a></li>
+      		      <li><a href="https://utelecon.github.io/google_hangouts_meet">Google Meet</a></li>
+      		      <li><a href="https://utelecon.github.io/webex">Webex</a></li>
+      		    </ul>
+              <li>イベント・説明会</li>
+      		    <ul>
+      		      <li><a href="/events/2020-05-08/">5/8 著作権説明会</a></li>
+      		      <li><a href="/events/2020-luncheon/">4/30 オンライン授業情報<br>交換会</a></li>
+      		      <li><a href="/events/2020-04-16/">4/16 授業開始後2週間説明会</a></li>
+      		      <li><a href="/events/2020-03-27/">3/27 オンデマンド講座・<br>語学教育相談会</a></li>
+      		      <li><a href="/events/2020-03-26/">3/26 URL渡し方説明会</a></li>
+      		      <li><a href="/events/2020-03-19/">3/19 Zoom基礎講座</a></li>
+      		      <li><a href="/events/2020-03-13/">3/13 授業オンライン化説明会</a></li>
+      		    </ul>
+              <li>各種申請・報告フォーム</li>
+      		    <ul>
+                <li><a href="/forums/">QAフォーラム, MLなど</a></li>
+                <li><a href="/mobile/">ネットワーク環境支援</a></li>
+                <li><a href="/supporters/class">クラスサポーター制度</a></li>
+                <li><a href="/forms/et">授業入室時トラブル報告</a></li>
+                <li><a href="/forms/takecarestudents">学科・専攻の学生ケア<br>担当登録</a></li>
+                <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへの<br>リンク登録</a></li>
+              </ul>
+              <li><a href="/sitemap/">サイトマップ</a>
+            </ul>
+      </li>
+            </ul>
+          </div>
+          <script>
+          $(".offcanvas-left").hiraku({
+              btn:"#offcanvas-btn-left",
+              direction:"left"
+          });
+          </script>
+      <!-- for drawer -->
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}

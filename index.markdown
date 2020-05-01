@@ -4,7 +4,8 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
-
+* <span style="color:blue;">2020/5/1:</span> (教員用)5/8 17:00から[説明会「オンライン授業における著作物利用」](events/2020-05-08/)を実施いたします．
+* <span style="color:blue;">2020/4/30:</span> (学生用)<a href="mobile/mobile2">第2回ネットワーク環境支援: 教育・研究活動のためのネットワーク環境支援について / The network environment support for education and research</a>
 * <span style="color:blue;">2020/4/30:</span> (教員用)4/30 12:10から[オンライン授業情報交換会(トピック：動画作成)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/4/27:</span> (教員用)4/27 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/4/24:</span> <a href="notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
@@ -55,6 +56,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 イベント
 ---------------------------
 
+* 2020/05/08 [説明会: オンライン授業における著作物利用](events/2020-05-08/)
 * 2020/04/16 [説明会: Sセメスタ開始2週間を経て](events/2020-04-16/)
 * 2020/03/27 [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」および「語学学習に特化したオンライン授業相談会」](events/2020-03-27/)  
 * 2020/03/26 [説明会: オンライン授業の学生への通知方法](events/2020-03-26/)  
@@ -73,11 +75,8 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * <a href="questionnaire/">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)
 * <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">ポータルサイトへのご要望・コメント</a>  
 * <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">説明会・ワークショップのご依頼</a>
-* <a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて</a>(締切済み)
-
-<!--
-<a href="mobile/">教育・研究活動のためのネットワーク環境支援について
--->
+* <a href="mobile/mobile2">ネットワーク環境支援(第2回) 教育・研究活動のためのネットワーク環境支援について</a>
+* <a href="mobile/">ネットワーク環境支援(第1回) オンライン授業受講のためのネットワーク環境支援ついて</a>(締切済み)
 
 
 各部局のオンライン講義情報など
