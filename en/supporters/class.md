@@ -6,14 +6,14 @@ layout: en
 What is a Class Supporter
 ---------------------------
 
-Class supporters are the students who support the teachers who conduct online lecture and help with the class.
+Class supporters are students who support the teachers who conduct online lecture, helping with the online class.
 
 Purpose and goal of the program
 ---------------------------
 
-* Class supporters are not meant to have as heavy workloads as the TAs.
-* The purpose Class Supporters is to help quickly match and start work. 
-* We also aim to be able to connect help beyond the subject and major.
+* Class supporters are not meant to have as heavy workloads as regular TAs.
+* The purpose of Class Supporters is to quickly help teachers start work. 
+* We also aim to be able to connect assistance across subjects and majors.
 * Even if you have not assigned a TA to the department or major, you can have one class supporter in each of your lectures, under the school budget.
 * Class supporters are often unnecessary (redundant) if the department or major already has TA for online class support (that does not mean that class supporters will not be provided for these cases).
 
@@ -24,13 +24,13 @@ What the class supporters can do (examples of specific tasks)
   * Checking the sound quality
   * Checking the image quality of the camera
   * Check how things appear when using the functions of the conference system
-* <font color="green">Intervene</font> in response to basic problems that occur during class, such as:
+* <font color="green">Intervene</font>in response to basic problems that occur during class, such as:
   * When students cannot hear the professor's voice; "Professor, we cannot hear (see) you."
   * When the professor thinks he has shared his screen but has not; "Professor, the screen sharing is not turned on."
   * Check chat questions (depending on class type).
   * In short, this is to help prevent the worst accident (talking for 30 minutes straight without knowing your sound is not on).
   * Being familiar with the Web conferencing system and troubleshooting as much as possible.
-* <font color="green">Collecting and sharing </font> relevant information such as:
+* <font color="green">Collecting and sharing </font>relevant information such as:
   * Information on Zoom updates
   * New information shared on utelecon
 * Note: Support during the class is assumed to be <font color="green">possible while taking classes</font>.
