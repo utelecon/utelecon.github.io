@@ -6,7 +6,8 @@ title: 2020/05/8 説明会: オンライン授業における著作物利用
 
 * **日時:** 5/8(金) 17:00-18:30 
 
-* **場所:** オンライン(Zoom)およびyoutube
+* **場所:** オンライン(Zoom)およびyoutube  <br>
+　　　本ページ下部にある[説明会情報掲載シートへ]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing )
 
 
 ## 開催趣旨
@@ -35,5 +36,8 @@ title: 2020/05/8 説明会: オンライン授業における著作物利用
 
 ## 参加申込みなど
 
-* [参加申込フォーム]( https://forms.gle/mie1JPF5GY2E4K1Q8 ) (参加者数把握のため、上記URLから5月8日（金）開始前までにお申し込みください。)
+* [説明会情報掲載シートへ]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing ) (参加者数把握のため、このURLにあるエクセルシート上部の参加申込みフォームリンクから5月8日（金）開始前までにお申し込みください。)
 
+  * **アクセスするには，ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります．**
+  * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください．
+  * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
