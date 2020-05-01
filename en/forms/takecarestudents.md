@@ -26,10 +26,6 @@ If we get too many inquiries, we will consider distributing them between departm
  
  The University of Tokyo Online Class Support Group
 
-場合によると個人的事情を含んだ連絡が送られることになるかも知れないため, 登録は教職員の方をお願いします.
-
-東京大学オンライン授業検討会
-
 Below you can find what is seem when <a href="https://forms.gle/2wyS5Ut3RKaPoP4E7" target="_blank">the page is not properly displayed</a>
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2hRb_HA45NwC3xnnxXmGjp1_HOwyYzcK8xMBkh99qmsPcQg/viewform?embedded=true" width="700" height="2000" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
