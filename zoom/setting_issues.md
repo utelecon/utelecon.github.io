@@ -61,12 +61,12 @@ User TypeがLicensedではなくBasic（基本）になっている
   ![](img/zoom_accountprofile.png)
 <!-- * **** そうなっていなかったら **** (例えばZoomに登録していない状態で10桁@g.ecc.u-tokyo.ac.jp でサインアップしちゃったら?) -->
 * 他のアカウントでサインインしていた場合, 一旦サインアウトして, 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインし直して下さい
-* 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインできなければ,以下の手順でアカウントを作成してください。
-  * <a href="https://zoom.us/"> https://zoom.us/ </a>から、（もし何らかのアカウントでサインインしていたら、サインアウトしてください）「サインアップは無料です」を選んで、
-10桁の共通ID@g.ecc.u-tokyo.ac.jp　で、サインアップしてください。この時、「Googleでサインイン」等は選ばないでください。
-  * ここで作成されるアカウントは、作成時点ではBasic（基本）ライセンスになります
-* <b><u>10桁の共通ID@g.ecc.u-tokyo.ac.jp のアカウントは定期的（原則毎営業日）にLicensedへの変更を行っています。アカウント登録後しばらくお待ちください。</u></b>
-  * Basic（基本）のままでも授業やミーティングに参加することができます。説明は<a href="https://utelecon.github.io/zoom/zoom_signin"> こちら </a>
+* 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインできなければ,以下の手順でアカウントを作成してください．
+  * <a href="https://zoom.us/"> https://zoom.us/ </a>から，（もし何らかのアカウントでサインインしていたら，サインアウトしてください）「サインアップは無料です」を選んで，
+10桁の共通ID@g.ecc.u-tokyo.ac.jp　で，サインアップしてください．この時，「Googleでサインイン」等は選ばないでください．
+  * ここで作成されるアカウントは，作成時点ではBasic（基本）ライセンスになります
+* <b><u>10桁の共通ID@g.ecc.u-tokyo.ac.jp のアカウントは定期的（原則毎営業日）にLicensedへの変更を行っています．アカウント登録後しばらくお待ちください．</u></b>
+  * Basic（基本）のままでも授業やミーティングに参加することができます．説明は<a href="https://utelecon.github.io/zoom/zoom_signin"> こちら </a>
 
 <!-- <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">ここに書いてある対処</a>でアクティベート出来るかも知れません
 
