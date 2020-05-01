@@ -1,5 +1,6 @@
 ---
-title: QAフォーラム及びアナウンス用メーリングリストについて
+title: QA Forum and Mailing List for Announcements
+layout: en
 ---
 
 Introduction
