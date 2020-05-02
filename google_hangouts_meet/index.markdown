@@ -140,7 +140,7 @@ title: Google ハングアウト Meet
     <blockquote>
       <img src="img/streaming_start.png" width="400"/>
     </blockquote>
-1. <b>聴衆への案内:</b> 左下隅のメニュー<img src="img/downarrow" /> から「ストリーミング情報をコピー」
+1. <b>聴衆への案内:</b> 左下隅のメニュー<img src="img/downarrow.png" /> から「ストリーミング情報をコピー」
     <blockquote>
       <img src="img/streaming_start.png" width="400"/>
     </blockquote>
