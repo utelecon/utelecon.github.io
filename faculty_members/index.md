@@ -140,7 +140,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 * 都市工学専攻・オンライン講義マニュアル [\[PDF\]](materials/online_lecture_20200331_2.pdf)  (工学系研究科・都市工学専攻) : 工学系研究科都市工学専攻でまとめられたオンライン講義マニュアルです．Zoom を用いて講義を行う一連の流れが記載されています．
 * オンライン講義の通信量 \[[Webページ](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F)\] (人文社会系・大向先生)：Zoom を用いた際の通信量を，講義時（画面共有），雑談時（カメラ映像），音声のみの講義時，参加者の発言を許可した時など場合分けして計測したデータが記載されています．
 * Eindhoven工科大学におけるZoom講義の一例 \[[PDF](materials/lecture_example_Technische_Universiteit_Eindhoven.pdf)\] (工学系・大西先生)：大西先生が実際に受けられたEindhoven工科大学におけるZoom講義の感想が記載されています．講義の流れ，講師の運営体制，講義を受けた上での懸念点などが載っています．
-* [VRセンターが教えるclusterで簡単にVR会議を開く方法](materials/VR_center_VRWebConf.pdf) (バーチャルリアリティー教育研究センター 相澤先生) まじめな会議や授業用ではありませんがZoomとは違うfunも提供できるものです．clusterは無料でつかえるツールです．[学生有志主催による本年3月のVR卒業式](https://www.youtube.com/watch?v=6Yij2rj59do)でも使われました. 
+* [VRセンターが教えるclusterで簡単にVR会議を開く方法](https://vr.u-tokyo.ac.jp/instructionvrsns/) (バーチャルリアリティー教育研究センター 相澤先生) まじめな会議や授業用ではありませんがZoomとは違うfunも提供できるものです．clusterは無料でつかえるツールです．[学生有志主催による本年3月のVR卒業式](https://www.youtube.com/watch?v=6Yij2rj59do)でも使われました. 
 * 事前登録について [\[PDF\]](materials/zoom_v04.pdf) （工学系・相田先生）: 参加者の管理を厳密に行いたい場合の事前登録機能についての紹介です．
 
 
