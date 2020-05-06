@@ -4,6 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/5/6:</span> [オンライン授業・Web会議に関するトラブルサポート窓口](supports)を公開しました．
 * <span style="color:blue;">2020/5/1:</span> (教員用)5/8 17:00から[説明会「オンライン授業における著作物利用」](events/2020-05-08/)を実施いたします．
 * <span style="color:blue;">2020/4/30:</span> (学生用)<a href="mobile/mobile2">第2回ネットワーク環境支援: 教育・研究活動のためのネットワーク環境支援について / The network environment support for education and research</a>
 * <span style="color:blue;">2020/4/30:</span> (教員用)4/30 12:10から[オンライン授業情報交換会(トピック：動画作成)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
@@ -67,6 +68,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 申し込み・報告フォーム/QAフォーラム/メーリングリストなど
 ---------------------------
 
+* [オンライン授業・Web会議に関するトラブルサポート窓口](supports)
 * [QAフォーラムとメーリングリスト](forums/)
 * <a href="supporters/class">クラスサポーター制度</a>
 * <a href="forms/et">授業入室時トラブル報告フォーム</a>
