@@ -21,7 +21,7 @@ title: オンライン授業情報交換会
 【日時】2020年5月7日　12:10-12:50  
 【トピック】通信量  
 【スライド】[pdfファイル](luncheon_4_slides.pdf)  
-【動画】後日共有 <br>
+【動画】[mp4ファイル](https://drive.google.com/file/d/1iSMQ-hQAK7xTIqfz_-ip1xVgLcXxRbcV/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）   
 【対象】本学の授業を担当する教員や授業支援をする方々  
 【概要】リアルタイムのオンライン授業の場合，学生のネット環境への配慮とともに，より広く社会全体といった観点からも，通信量の節約が望まれます．今回は，Zoomの通信量に関して，Zoomの配信の要素（動画，画面共有，音声）やデバイスも例に示しつつ，どのような節約の工夫がありうるのかについて，とりあげます．
 
