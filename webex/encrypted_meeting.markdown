@@ -22,7 +22,7 @@ Webex Meetingsには，クライアント間で暗号化された（途中で復
 
 安全な会議を開くためのWebexアカウントは新規に必要です．（手動で作成しているため若干時間がかかります．）申請をすると，はじめに事務局からアカウント手続きに関するメールが届きます．その後，システムからのメールが届きます．正確に手続きしないとトラブルシューティングが必要となってしまうため、はじめに届く事務局からのメールを読んでからシステムのメールを開いてください．
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">こちらのフォーム</a>から申請してください．
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">こちらのフォーム</a>から申請してください．フォームへのアクセスにはUTokyo Account（10桁の共通ID@utac.u-tokyo.ac.jp）でのログインが必要です． 
 
 [アカウントアクティベーションに関する説明ページ](create_utelecon_account.html)
 
