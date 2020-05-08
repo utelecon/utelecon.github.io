@@ -31,14 +31,14 @@ layout: en
 * After you log in ITC-LMS, you can download the teacher's manual.
 
 ## Subpages list
-* <a href="login" target="">How to log in ITC-LMS (TBA)</a>  
-* <a href="information" target="">Set the Notifications (TBA)</a>  
-* <a href="timetable" target="">Checking attendances (TBA)</a>  
-* <a href="course_settings" target="">Set the course (TBA)</a>  
-* <a href="course_materials" target="">Upload handouts (TBA)</a>
-* <a href="prepare_attendances" target="">Prepare for confirming attendance in classes (TBA)</a>
-* <a href="prepare_quizzes" target="">Prepare quizzes (TBA)</a>
-* <a href="assignments" target="">Prepare assignments (TBA)</a>
-* <a href="attendances" target="">Let your students know the code for attendance (TBA)</a> 
-* <a href="view_attendances" target="">Confirm attendance (TBA)</a>
+* <a href="login" target="">How to log in ITC-LMS</a>  
+* <a href="information" target="">Set the Notifications</a>  
+* <a href="timetable" target="">Timetable</a>  
+* <a href="course_settings" target="">Set the course</a>  
+* <a href="course_materials" target="">Upload materials</a>
+* <a href="prepare_attendances" target="">Prepare for confirming attendance in classes</a>
+* <a href="prepare_quizzes" target="">Prepare quizzes</a>
+* <a href="assignments" target="">Prepare assignments</a>
+* <a href="attendances" target="">Let your students know the code for attendance</a> 
+* <a href="view_attendances" target="">Confirm attendance</a>
 * <a href="quizzes" target="">Apply quizzes (TBA)</a>

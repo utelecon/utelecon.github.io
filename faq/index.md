@@ -1,15 +1,10 @@
-
-
 ---
 title: FAQ よくある質問
 ---
 
-<!-- Place this tag where you want the Awesome Table Widget to render -->
+<!-- Place this tag where you want the Awesome Table Widget to render 
 <div data-type="AwesomeTableView" data-viewID="-M4UKmWyICiQ1ngLHEGf"></div>
-
-
-
-以下, 一応残します. 徐々に消していきます.
+-->
 
 UTokyo Account
 ==============
@@ -76,11 +71,12 @@ Microsoft Officeにサインインできない. 「サインイン」の画面�
 * 利用許諾から実際に使えるようになるまでに時間がかかります. 日中は最大3時間, 夜は翌朝の11:00までお待ち下さい(正確には「はい」にして保存から直近の11:00, 14:00, 17:00, 20:00ごろまでお待ち下さい).
 * それでもダメという場合, 一度「利用規約に合意し利用権を申請する」の「いいえ」を選んで「保存」してから, また「はい」を選んで保存する(そして上記の時間待つ)とうまくいくことがあります
 
-<a href="https://www.office.com/?auth=2" target="_blank">officeにサインインした画面</a>でExcel, Wordなどのアプリのアイコンがでてこない
+<a href="https://www.office.com/?auth=2" target="_blank">Officeにサインインした画面</a>でExcel, Wordなどのアプリのアイコンがでてこない
 --------------
 
 * 一度も起動したことのないアプリのアイコンは出てこないようなので, 左上のタイルメニューを開いてみて下さい. 
 
+<!--
 学内者限定のExcel Workbookにアクセスできない
 --------------
 
@@ -114,10 +110,7 @@ User TypeがLicensedではなくBasicになってしまっている
 
 100人を越えたので授業に入れなかった
 --------------
-
-
-
-
+-->
 
 Q. **ITC-LMSって何ですか？**  
 A. 本学の学習管理システムです．学生が，自分が履修した授業に関して，教員が配布した資料を閲覧できたり，課題を提出したり，教員が作っていた場合は掲示板で議論したり質問したり，アンケートに答えたり，試験を受けたりできます．  
@@ -138,6 +131,7 @@ A. 以下のような方法があります．
     * （代返対策）ECCS クラウドメールのアカウント（本学のGoogleアカウント）で<a href="https://docs.google.com/forms/u/0/?tgif=d" target="_blank">Google フォーム</a>を作成する際，フォームの編集画面にて「設定（歯車マーク）」の中の「メールアドレスを収集する」と「東京大学ECCSクラウドメールと信頼できる組織のユーザーに限定する」をオンにする（こうすると学生は自身のECCSクラウドメールでログインした上でアンケートに回答する必要があるため，代返のリスクを下げることができます）
   * Web会議システムを使う場合で，人数的に可能ならば，直接点呼する（その際，ビデオをオンにしてもらって直接顔を確認するなども可能）
 
-<!-- Place this within the <head> tag or just before the end of your <body> tag. -->
+<!-- Place this within the <head> tag or just before the end of your <body> tag. 
 <script src="https://awesome-table.com/AwesomeTableInclude.js"></script>
+-->
 

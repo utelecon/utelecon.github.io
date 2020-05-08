@@ -20,7 +20,7 @@ title: 大学の Zoom アカウントの作り方
 
  * [Zoom Pro](https://www.zoom.us/pricing/?zcid=2502&creative=372836060623&keyword=%2Bzoom%20%E8%A8%98%E9%8C%B2&matchtype=b&network=g&device=c&gclid=Cj0KCQjwx7zzBRCcARIsABPRscOD9-6-XKTSyUy5gK7SieIY89abNP-_0OcXGIezRfUuLq-BCwSJfCAaAiN9EALw_wcB)
  * 1会議に500参加者まで
- * 4/30まで. それ以降の契約継続も検討中
+ * 2020年度末まで利用可能予定
 
 ## 事前準備
 

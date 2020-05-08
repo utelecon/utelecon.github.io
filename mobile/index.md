@@ -4,6 +4,12 @@ title: オンライン授業受講のためのネットワーク環境支援つ�
 ---
 **オンライン授業検討会 / Committee for Online classes**
 
+<font size="+2" color="red">
+本募集は締め切っています.
+</font>
+
+現在は[第2回目の応募](mobile2)を受け付けています.
+
 # 目的 / Purpose 
 
 COVID-19の影響を抑え教育活動を維持するため、緊急の授業オンライン化が必要となっています。授業オンライン化には、学生が受講するための環境が必要であり、特にネットワーク環境の確保が重要となっています。本学では緊急の授業オンライン化のため、ネットワーク環境が整っていない学生に対してモバイルWiFiを提供する支援を行うことといたしました。 
@@ -38,9 +44,15 @@ It will be offered to students subject to the above conditions.
 
 # 申し込み / Application 
 
-**[UTAS](https://utas.adm.u-tokyo.ac.jp/)の掲示から申し込みください。**
+以下のいずれかから申し込みフォームにアクセスして下さい.
 
-**Please apply from the notice in [UTAS](https://utas.adm.u-tokyo.ac.jp).**
+Please access the application form through either of the following.
+
+* [UTAS](https://utas.adm.u-tokyo.ac.jp/) の掲示版 / The notice of [UTAS](https://utas.adm.u-tokyo.ac.jp/)
+* <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank">ITC-LMS</a>
+* <a href="https://docs.google.com/spreadsheets/d/1GCohoPpwhIpxYIZuO6ZGwjwAjGFVpaiVa4TKYN4VoPk/edit?usp=sharing" target="_blank">Google Spreadsheet</a> (ECCSクラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります / You need to sign in Google with your ECCS Cloud Mail Account (xxx@g.ecc.u-tokyo.ac.jp))
+* <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ESEjHc7AYBpPqjooTPGoJMsBqcl0bN20iSUVwunnTGL2hg?e=pKORAl" target="_blank">Excelオンライン / Excel Online</a>(UTokyo Account 10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります / You need to sign in office.com with your UTokyo Account (10-digit-ID@utac.u-tokyo.ac.jp)
+* 本部学務課からのメール
 
 **締め切り　4月21日（火曜日）23時59分**
 

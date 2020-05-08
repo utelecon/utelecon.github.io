@@ -1,56 +1,57 @@
 ---
-title: 課題を作成する
+title: Prepare assignments
+layout: en
 ---
 
-## 概要
+## Overview
 
-- 「課題」では、提出期限を定めてレポートなどを提出させることが出来ます。
-  - 提出物の形式は、ファイル（レポート、画像、プログラムなど）とテキスト直接入力が選べます。
-- 期限を過ぎても提出できるように設定することが出来ます。
-  - 期限を過ぎたレポートは区別できるので、減点するなどの対応が可能です。
+- In "Assignment", you can set a deadline for submission and students can submit their papers.
+  - You can select a file (report, image, program, etc.) or directly text entry.
+- You can allow students to submit after the deadline by setting.
+  - Papers that are overdue can be distinguished on the system, so you can take measures toward these papers such as deducting points.
 
 
 
-## 「課題」の作り方
+## How to Make Assignments
 
-1. 「コースの概要説明/Course Summary」の画面の上から3つ目にある「課題」の左下にある⊕ボタンを押します．
+1. Click the ⊕ button at the bottom left of the “Assignment”, which is the third from the top of the “Course Summary” screen.
 
-   - 新しい「課題」を作成できます。
+   - Create a new "Assignment"
 
    ![課題](img/assignment1.png)
 
 
 
-2. 「課題 新規登録」のページになるので、以下の内容を設定します。
+2. You will move to the page of "Registration new registration." Set the following contents.
 
-   1. 「タイトル」では、課題のタイトルを記入します。
-   2. 「内容」では、課題の内容を記入します。
-   3. 「提出期間」では、課題を提出できる期間を設定します．
-      - 具体的には，授業開始時から次回授業の開始時まで、といった設定が考えられます。
-   4. 「提出方法」では、提出方法を選択します．
-      - 「ファイルアップロード」では、最大100MBまでのファイルを複数アップロードできます。
-        - 教員は後で一括でファイルをzip形式でダウンロードすることが出来ます。
-      - 「テキスト直接入力」では、ブラウザからテキストを10000文字まで直接入力できます。
-   5. 「期間後の提出」では，期間が過ぎても提出を認めるかどうかを指定します。
-      - 提出間際にトラブルが発生する場合があるので、「可」にしておいた方が安全です。
-      - 遅れて提出した学生は減点するなどの対応をすることが出来ます。
-   6. 「評価の参照」では、教員の評価結果を学生が参照できるかどうかを指定します。
-      - 学生へのフィードバックに使用できます。
-   7. 最後に「確認画面に進む」ボタンを押します。
+   1. 「In "Title", enter the title of the assignment.
+   2. In “Contents”, enter the contents of the assignment.
+   3. In “Submission Period”, set the period during which students can submit their assignment.
+      - For example, the setting such as from the start of the class to the start of the next class can be considered.
+   4. In "Submission method", select the submission method.
+      - "File Upload" allows students to upload multiple files up to 100MB.
+        - Instructors can later download all the files submitted in zip format at once.
+      - In "Text Direct Input", students can directly input text up to 10,000 characters from the browser.
+   5. In "Submission after period", specify whether to allow submission after the period.
+      - It is safer to set "OK" because trouble may occur on the system just before the deadline.
+      - You can take measures for students who submit late such as deducting points.
+   6. "Referral of evaluation" specifies whether or not students can refer to the evaluation results of teachers.
+      - This function can be used for feedback to students.
+   7. Finally, press the "Proceed to confirmation screen" button.
 
    ![課題 新規作成](img/assignment2.png)
 
-3. 内容を確認して登録します。
+3. Check the contents and register.
 
-   - 必要に応じて「提出画面プレビュー」を確認して下さい。
-   - 提出期間をよく確認して下さい。
-     - 開始日時や終了日時は、その日時を過ぎると後から変更できません。
-   - 「登録する」ボタンを押します。
+   - Check "Preview of Submission Screen" if necessary.
+   - Please check the submission period carefully.
+     - The start date and time and the end date and time cannot be changed after that the submission period starts / ends.
+   - Click the "Register" button.
 
    ![登録する](img/assignment3.png)
 
 
 
-## 参考情報
+## References
 
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>

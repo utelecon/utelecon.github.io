@@ -13,7 +13,7 @@ title: Zoomのアカウントとライセンスに関する注意点
 
 ## 2つのECCSクラウドメールアドレス
 * ECCSクラウドメールのメールアドレスは，ab12345678@g.ecc.u-tokyo.ac.jpのような当初に割り当てられたアドレスか，sanshiro-hongo@g.ecc.u-tokyo.ac.jpのようなこれを変更したアドレスになっていると思います．
-* これとは別に，1234567890@g.ecc.u-tokyo.ac.jp のような，数字10桁の<a href="https://utlecon.github.io/glossary">共通ID</a>で始まるのメールアドレスがあります．
+* これとは別に，1234567890@g.ecc.u-tokyo.ac.jp のような，数字10桁の<a href="https://utlecon.github.io/glossary">共通ID</a>で始まるメールアドレスがあります．
 * この2つのメールアドレスは，どちらに送っても同じECCSクラウドメールに届く有効なメールアドレスです．
 
 ## Zoomのライセンスとメールアドレス
@@ -21,7 +21,7 @@ title: Zoomのアカウントとライセンスに関する注意点
 * <font color="red"><b><u>ZoomとECCSクラウドメールは，システムとしては連動していません．</u></b></font>
 * <font color="red"><b><u> 数字10桁の共通IDで始まるアドレスでサインアップしないと，東大ライセンスを使うことはできません．ECCSクラウドメールのパスワードとZoomのパスワードも別々です．片方を変更してももう一方は変更されません．</u></b></font>
 * また，数字10桁の共通IDで始まるメールアドレスと，普段ECCSクラウドメールで使っているメールアドレスの関係はZoomにはわからないので，この２つのアドレスでそれぞれZoomにサインアップすることもできてしまいます．この場合，後者のアドレスのライセンスは東大ライセンスにはなりません．
-* さらにややこしいことに，Zoomは，サインアップした後で登録メールアドレスを変更することもできます．この変更先のメールアドレスにECCSで普段使っているメールアドレスを使うと，このメールアドレスで東大ライセンスを使えることになります．
+<!-- * さらにややこしいことに，Zoomは，サインアップした後で登録メールアドレスを変更することもできます．この変更先のメールアドレスにECCSで普段使っているメールアドレスを使うと，このメールアドレスで東大ライセンスを使えることになります．-->
 * 東大ライセンスになっているかどうかは，パソコンでは，<a href="https://zoom.us/profile">https://zoom.us/profile</a>でユーザータイプがLicensedになっていることで確認できます．
 * 東大ライセンスでのサインアップに関するトラブルシューティングについては<a href="https://utelecon.github.io/zoom/setting_issues">ここ</a>をクリックしてください。
 
@@ -43,8 +43,9 @@ Zoomミーティングにはブラウザのみで参加することもできま�
 * 東京大学と関係のない第三者がオンライン講義に参加して講義を妨害する行為を防ぐために，「認証」による参加制限をしている講義があります．
 * 「認証」による参加制限がないZoomミーティングには，どのようなメールアドレスでサインアップしたアカウントからも，また，サインインしていない状態でも参加できます．
 * 「認証」を要求しているミーティングでは，指定のメールアドレスドメインでサインインした状態でミーティングに参加する必要があります．東京大学のオンライン講義では，xxxxx@g.ecc.u-tokyo.ac.jpのメールアドレスでサインインした状態で参加します．
+<!--
 * <font color="red"><b><u> xxxxx@g.ecc.u-tokyo.ac.jpでサインインしていれば，東大ライセンスでないアカウントでも「認証」が必要な講義に参加できます．</u></b></font>
-
+-->
 
 
 ## 認証に失敗したとき
@@ -53,9 +54,12 @@ Zoomミーティングにはブラウザのみで参加することもできま�
   ![](img/zoom_win_authreq.png) ![](img/zoom_win_authchange.png)
 
 ## サインインして参加できるかどうかのテスト
-* 以下の「認証テストミーティング」をクリックすると，g.ecc.u-tokyo.ac.jpでサインインしていないと参加できないミーティングにつながります．テストに使用してください．
+* 以下のGoogle スプレッドシートもしくはOffice 365のMicrosoft Excelシート（いずれも大学アカウントでの認証が必要です）の、「g.ecc.u-tokyo.ac.jp でZoomへのサインインが必要な会議室」につなげるかどうかで、確認できます。テストに使用してください．
 
-  * <a href="https://zoom.us/j/363388121?pwd=d2Q5ZWEveFd3VWg4Z0RkVytMOExPQT09"> 認証テストミーティング </a>
+  * <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>
+
+  * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a>
+
 * このミーティングは，普段は参加者がいないため，参加するとWindows/Macでは以下のような画面が出ます．
   ![](img/zoom_win_auth_test.png)
 * iPhoneなどでは，以下のような画面になります．

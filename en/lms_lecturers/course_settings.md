@@ -1,41 +1,42 @@
 ---
-title: コース設定
+title: Set the course
+layout: en
 ---
-ITC-LMSではタームやセメスター単位で開講される科目のことを「コース」と呼びます．自分の担当する科目に合わせて，まずはコースの設定をします．
+In ITC-LMS, lectures offered in terms and semesters are called "Courses". First, set up the course according to your subject.
 
-## コースの概要説明
+## Course Summary
 
-学生がITC-LMS上でコース検索した時や，時間割から該当授業のコースを選択したトップ画面に表示するドキュメントを設定できます．
+You can set a document to be displayed on the top screen when a student searches for a course on the ITC-LMS, or select it from the timetable.
 
-* 固定的に学生に伝えたいことは，ここにに書くと良いでしょう．
-* テレビ会議システムを使う時の URL をここに書く学生が見つけやすいのですが，学生はコース検索の機能を使うと，コース登録しなくてもこの説明は見ることができます．コース受講者以外に見せたくない場合は，登録後に見られるようになる「教材」に書いた方が良いでしょう．
+* It is a good idea to write down the basic information you want to tell your students here.
+* Students can easily find the online course URL if you write it down here, but they can also use the course search function to view this without registering for the course. If you do not want to show it to anyone other than the students registering for the class, you should write it in the "Course material" tab that will be available after registration.
 
-1. コースの画面で左上の三本線のアイコンを選択してメニューを出します．
+1. On the course screen, select the three line icon at the top left to bring out the menu options.
 ![メニューの表示](cs1.png)
-2. 「コース設定」を展開して，「コースの概要説明」を選択します．
+2. Expand "Course Settings" and select "Course Summary".
 ![コースの概要説明の選択](cs2.png)
-3. 「内容」に説明を書き込んで「確認画面に進む」を選択してください．テキストのみではなく，書体の変更や，箇条書き，リンクなどが指定できます．
+3. Write the course description in "Contents" and select "Go to confirmation screen". In addition to writing text, you can change the font, list items, links, etc.
 ![書き込み](cs3.png)
-4. 書き込んだ説明が，どのように表示されるかを確認の上で，「登録する」を選択してください．
+4. After confirming how the summary is displayed, select "Register".
 ![登録](cs4.png)
 [手順動画](https://youtu.be/Sdqtw2m1j48)
 
-## 履修登録方法の設定
+## Setting for course registration, message usage
 
-UTASで科目に本登録した学生は該当するコースに自動的に登録されますが，必修の科目以外はUTAS上での本登録は開講後しばらくしてからになります．そのため，はじめの数回の授業で使えるようにするためには，そのように設定する必要があります．
+Students enrolled in UTAS courses will be automatically enrolled in the relevant courses. However, for non-compulsory courses, registration on UTAS will be performed shortly after the course starts. Therefore, in order to be able to use it in the first few lessons, it is necessary to make such settings.
 
-1. コースの画面で左上の三本線のアイコンを選択してメニューを出します．
+1. On the course screen, select the three line icon at the top left to bring out the menu options.
 ![メニューの表示](cs1.png)
-2. 「コース設定」を展開して，「コース設定」を選択します．
+2. Expand "Course Settings" and select "Course Summary". 
 ![コース設定の選択](cs5.png)
-3. 下の画面は典型的な設定になります．主な項目の説明をします．
-  * 履修者範囲設定は「履修登録者+仮登録者」としています．UTAS上で「お気に入り」に該当科目をした学生が「仮登録者」として，このコースに参加できます．「履修登録者のみ」とするとUTAS上で本登録をしていない学生はこのコースに参加できません．
-  * 自己登録を「許可する」としています．UTAS上で登録しなくても，学生はコース検索でこのコースを見つけて自己登録すると「仮登録者」になり，コースに参加できます．第1回の授業の当日にUTASに「お気に入り」登録をした学生を受講させるには，「許可する」としておくと，学生本人が登録可能になります．
+3. The screen below shows the typical settings. We will explain the basic functions.
+  * The enrollee range setting is made for  "Registration + temporary registration". Students who have chosen a subject as a "Favorite" on UTAS can participate in this course as a "temporary registrant". If you select "Registered students only", students who have not registered on UTAS will not be able to participate in this course.
+  * Self-registration is "Permitted". Even if you do not register on UTAS, if you find this course by searching for a course and self-register, you will become a "temporary registrant" and can participate in the course. To let students who have registered the course as  "Favorite" on UTAS participate from the first lecture, set to "Permit". Students will, then, be able to register themselves.Self-registration is "Permitted". Even if you do not register on UTAS, if you find this course by searching for a course and self-register, you will become a "temporary registrant" and can participate in the course. To let students who have registered the course as  "Favorite" on UTAS participate from the first lecture, set to "Permit". The students will then be able to register themselves.
 ![コース設定](cs6.png)
-  * 「履修確定以降」を「「履修者範囲設定」を自動的に「履修者登録者のみ」に変更する」とすると，UTAS上で履修が確定した時点で，「履修者範囲設定」が自動的に「履修登録者のみ」になります．なお，あとから，「履修登録者+仮登録者」に戻すことはできます．
-4. 「確認画面に進む」を選択します．
+  * If you change “After course Registration” to “Automatically change 'Enrollee range setting' to 'Registered students only' ", the “Enrollee range setting” is automatically set for students whose registration is confirmed on UTAS. You can change it back to "Registration + temporary registration" later if necessary.
+4. Select "Go to confirmation page." 
 ![コース設定](cs7.png)
-5. 「登録する」を選択します．
+5. Select "Register."
 ![コース設定](cs8.png)
 
 
@@ -44,41 +45,39 @@ UTASで科目に本登録した学生は該当するコースに自動的に登�
 「履修者範囲設定」，「自己登録」，「履修確定以降」，「メッセージ利用」についてお勧め設定と，変更するとどうなるかの説明をする
 -->
 
-## 教員による参加者登録
-UTASに登録されていないが，科目を共同で担当している教員，TAは担当教員によるコース参加者登録が必要になります．また，UTASに科目を登録していない時点で，担当教員が学生をコースに参加させることができます．
+## Participant registration by the instructor
+Teachers and TAs who are not registered on UTAS but are jointly in charge of the course need to be registered as a course participant by the instructor. In addition, the instructor can invite students to participate in the course even if the student has not registered yet on UTAS.
 
-1. コースの画面で左上の三本線のアイコンを選択してメニューを出します．
+1. On the course screen, select the three line icon at the top left to bring out the menu options.
 ![メニューの表示](cs1.png)
-2. 「コース設定」を展開して，「コース参加者登録」を選択します．
+2. Expand "Course Settings" and select "Course Summary".
 ![コース参加者登録の選択](cs9.png)
-3. 「コース参加者登録」の画面で「学生検索」か「教員検索」を選択します．
+3. Select "Search Student" or "Search Instructor" on the "Course Participant Registration" screen.
 ![学生選択](cs10.png)
-4. 「学生検索」を選ぶと「学生証番号」か「氏名」で検索できます．氏名を入力して検索してみます．
+4. If you select "Search Student", you can search by either "Student ID Number" or "Name". Here, we have searched by the student's name.
 ![氏名選択](cs11.png)
-5. 該当する学生が表示されるので，該当する学生 (同姓同名に注意) のチェックボックスを選択し，「権限指定」を「担当教員」，「TA」，「履修者」の中から選び「指定」を選択します
+5. The student is displayed. Select the check box of the applicable student (note that there may be multiple students with the same name), and select “Authority” out of “Teacher”, “TA”, or “Student” and click “Confirm”. 
 ![選択](cs12.png)
-6. 該当する学生が表示されるので，該当する学生 (同姓同名に注意) のチェックボックスを選択し，「権限指定」を「担当教員」，「TA」，「履修者」の中から選び「指定」を選択します
-![選択](cs12.png)
-7. 「確認画面に進む」を選択します
+7. Select "Go to confirmation page".
 ![選択](cs13.png)
-8. 「登録する」を選択します
+8. Select "Register."
 ![選択](cs14.png)
-[手順動画](https://youtu.be/TYCXBRzPpAA)
+[Procedure](https://youtu.be/TYCXBRzPpAA)
 
-* 教員の検索のときは「学生証番号」の代わりに「共通ID」で検索できます．
-* Excelのファイルを使っての一括登録の機能もあります．
-* 教員の検索をして，同じ氏名で，数字10桁以外の「ユーザID」が表示されることがあります．これは旧ITC-LMSのコンテンツを参照するために残っているもので，ログインできないので，その教員にコース参加して欲しい場合は，数字10桁のユーザIDの方を登録してください．
-* 学生や教員の検索機能は，本当に必要な時以外は使わないようにしてください．
+* When searching for faculty members, search by the "Common ID" instead of "Student ID number".
+* You can also use batch registration using Excel files.
+* When searching for a faculty member, a "User ID" with the same name but a number other than 10 digits may come up. This is left to refer to the contents of the old ITC-LMS.  Instructors can no longer login to the old UTAS, so if you want the instructor to participate in the course, register the  10 digit number for the user ID.
+* Do not use the search function for students or faculty members unless you really need it.
 
 <!-- 
 コース参加者登録で何ができるか．TAや他の担当教員の登録．
 自己登録を許さない場合での手動登録などの説明
 -->
 
-## 参考情報
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/08/11_2065.html">ITC-LMS の「履修者範囲設定」とは何ですか？（教員）</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/16_1870.html">ITC-LMS の自己登録を不許可としたい (教員)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/03/10_2012.html">ITC-LMS のコースに教員・学生を追加したい（教員）</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/08/11_2066.html">ITC-LMSの「仮登録」とは何ですか？</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/16_1863.html">ITC-LMS と学務システム（UTAS）の履修者自動登録について</a>
+## References
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/08/11_2065.html">What is "Enrollee Range Setting?" (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/16_1870.html">Settings for Self-registration on ITC-LMS (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/03/10_2012.html">How to add staff or students to a course on ITC-LMS (for instructors) </a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/08/11_2066.html">What is "Temporary Enrollment Registration" on ITC-LMS? </a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/16_1863.html">Automatic enrollment of students on ITC-LMS and the Academic Affairs System</a>

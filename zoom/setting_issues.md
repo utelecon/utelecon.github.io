@@ -13,7 +13,7 @@ Zoomの初期設定・利用開始時のトラブルに関するFAQ
 * それ以外の会議に, 参加するだけの人は不要です
 
 
-<a name="how_to_get_invitation"> </a>
+<!-- <a name="how_to_get_invitation"> </a>
 
 「アカウントのアクティベーションを招待するメール」が送られていると聞いたがどう受け取れば良い?
 -----------------
@@ -23,21 +23,21 @@ Zoomの初期設定・利用開始時のトラブルに関するFAQ
 * その後 <a href="https://gmail.com" target="_blank">Gmail</a> から上記アカウントでログインして下さい. すでに他のGmailアカウントをお持ちの場合は一旦ログアウトして下さい
 * こちらから<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank">ログイン</a>することもできます
 
-<a name="I_dont_find_invitation"> </a>
+<a name="I_dont_find_invitation"> </a> -->
 
-ECCSクラウドメール(なんとか@g.ecc.u-tokyo.ac.jp)をチェックしたが「アカウントのアクティベーションを招待するメール」が見当たらない
+<!-- ECCSクラウドメール(なんとか@g.ecc.u-tokyo.ac.jp)をチェックしたが「アカウントのアクティベーションを招待するメール」が見当たらない
 -----------------
 
 * 迷惑メールフォルダに入っていないかご確認下さい
 * 教職員には3/16, 学生には3/24-25にお送りしており, その時点でUTokyo Accountのなかった方にはメールが送られていない可能性があります
-* 2020年4月からの新入生もUTokyo Accountは, 通常はその時点で割り当てられているはずですが, 所属により, そうでないこともあるかもしれません
+* 2020年4月からの新入生もUTokyo Accountは, 通常はその時点で割り当てられているはずですが, 所属により, そうでないこともあるかもしれません -->
 <!--* 本当に登録されてないのにアクティベートすると危険?-->
 <!--* ここに書かれている<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">対処</a>をすることでアクティベート出来る可能性があります-->
-* それもうまく行かなければ<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNUhHRjdZRjI0NzVNV1FSTVZXT09YOU5UTy4u" target="_blank"> 再送を依頼</a>して下さい
+<!-- * それもうまく行かなければ<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNUhHRjdZRjI0NzVNV1FSTVZXT09YOU5UTy4u" target="_blank"> 再送を依頼</a>して下さい
 
-<a name="user_not_exist"> </a>
+<a name="user_not_exist"> </a> -->
 
-アカウントのアクティベーションを招待するメールを受取り, アクティベートするボタンを押したが「そのようなユーザはいない」と言われた
+<!-- アカウントのアクティベーションを招待するメールを受取り, アクティベートするボタンを押したが「そのようなユーザはいない」と言われた
 -----------------
 
 * 原因は不明ですがかなりの人に発生しています. ここに書かれている<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">対処</a>で直ったという話がありますのでやってみて下さい
@@ -49,11 +49,10 @@ ECCSクラウドメール(なんとか@g.ecc.u-tokyo.ac.jp)をチェックした
 
 * <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">ここに書かれている対処</a>で直るかもしれません
 
-<a name="still_basic"> </a>
+<a name="still_basic"> </a> --> 
 
-User TypeがLicensedではなくBasicになってしまっている
+User TypeがLicensedではなくBasic（基本）になっている
 -----------------
-
 * Zoomに, 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインしているかご確認下さい. 確認方法
   * [Zoomホームページ](https://zoom.us/) にアクセス
   * MY ACCOUNT でプロフィールを見て, Sign-In Emailが10桁の共通ID@g.ecc.u-tokyo.ac.jp となっていることを確認する
@@ -62,13 +61,19 @@ User TypeがLicensedではなくBasicになってしまっている
   ![](img/zoom_accountprofile.png)
 <!-- * **** そうなっていなかったら **** (例えばZoomに登録していない状態で10桁@g.ecc.u-tokyo.ac.jp でサインアップしちゃったら?) -->
 * 他のアカウントでサインインしていた場合, 一旦サインアウトして, 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインし直して下さい
-* 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインできなければ, <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">ここに書いてある対処</a>でアクティベート出来るかも知れません
+* 10桁の共通ID@g.ecc.u-tokyo.ac.jp でサインインできなければ,以下の手順でアカウントを作成してください．
+  * <a href="https://zoom.us/"> https://zoom.us/ </a>から，（もし何らかのアカウントでサインインしていたら，サインアウトしてください）「サインアップは無料です」を選んで，
+10桁の共通ID@g.ecc.u-tokyo.ac.jp　で，サインアップしてください．この時，「Googleでサインイン」等は選ばないでください．
+  * ここで作成されるアカウントは，作成時点ではBasic（基本）ライセンスになります
+* <b><u>10桁の共通ID@g.ecc.u-tokyo.ac.jp のアカウントは定期的（原則毎営業日）にLicensedへの変更を行っています．アカウント登録後しばらくお待ちください．</u></b>
+  * Basic（基本）のままでも授業やミーティングに参加することができます．説明は<a href="https://utelecon.github.io/zoom/zoom_signin"> こちら </a>
 
-<a name="when_everything_fails"> </a>
+<!-- <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUxJQ1VWMjhDSTZKTUU1Wk1LVEUyNTlLUS4u" target="_blank">ここに書いてある対処</a>でアクティベート出来るかも知れません
+
+<a name="when_everything_fails"> </a> -->
 
 以上すべてがうまく行かなかったら
 -----------------
-
 * utelecon-inquiries@googlegroups.com へご連絡下さい
 * その際解決のヒントとするため, 以下をお知らせ下さい
   * UTokyo Account (10桁の数字. 共通ID)

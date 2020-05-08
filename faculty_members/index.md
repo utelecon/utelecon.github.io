@@ -128,7 +128,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 現時点では，箇条書きでご紹介させていただきますが，情報が増えてきましたら別途整理などさせていただく予定です．  
 また，各授業方法のオンライン化の項目などで別途ご紹介させていただく可能性があること，ご了承いただければ幸いです．  
 
-
+* 板書のオンライン化（タブレットあるいは電子ホワイトボードを利用した方法）の実践例[\[Website\]](http://noneq.c.u-tokyo.ac.jp/online_lecture.html)(工学系・沙川先生)
 * PC1台でできるオンライン講義 [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](materials/online_example_1pc.mp4) (工学系・川原先生): 板書の授業をオンラインで行うための方法を動画付きで説明いただいています
 * Zoom利用の手引き0.3 [\[PDF\]](materials/zoom_v03.pdf)（工学系・相田先生）: Mac のスクリーンショットを多用した Zoom の使い方を解説いただいています
 * Google meetを使ったグループワーク型授業の例 [\[PDF\]](materials/google_meet_groupwork.pdf)  (工学系・柳澤先生): オンラインにおいてグループワークをする方法が説明されています（Zoomのブレークアウトでは教員の声などを伝えられませんが，その点を克服している画期的な方法です）
@@ -141,6 +141,8 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 * オンライン講義の通信量 \[[Webページ](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F)\] (人文社会系・大向先生)：Zoom を用いた際の通信量を，講義時（画面共有），雑談時（カメラ映像），音声のみの講義時，参加者の発言を許可した時など場合分けして計測したデータが記載されています．
 * Eindhoven工科大学におけるZoom講義の一例 \[[PDF](materials/lecture_example_Technische_Universiteit_Eindhoven.pdf)\] (工学系・大西先生)：大西先生が実際に受けられたEindhoven工科大学におけるZoom講義の感想が記載されています．講義の流れ，講師の運営体制，講義を受けた上での懸念点などが載っています．
 * 計算機実習のための環境整備 [https://utphys-comp.github.io](https://utphys-comp.github.io) (理学部物理学科): 自宅でシミュレーションなどの実習を行うために必要となる環境の準備に関する情報
+* [VRセンターが教えるclusterで簡単にVR会議を開く方法](https://vr.u-tokyo.ac.jp/instructionvrsns/) (バーチャルリアリティー教育研究センター 相澤先生) まじめな会議や授業用ではありませんがZoomとは違うfunも提供できるものです．clusterは無料でつかえるツールです．[学生有志主催による本年3月のVR卒業式](https://www.youtube.com/watch?v=6Yij2rj59do)でも使われました. 
+* 事前登録について [\[PDF\]](materials/zoom_v04.pdf) （工学系・相田先生）: 参加者の管理を厳密に行いたい場合の事前登録機能についての紹介です．
 
 <a name="links"> </a>
 ## リンク集（随時募集中）

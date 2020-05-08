@@ -1,170 +1,171 @@
 ---
-title: 小テストを作成する
+title: Preparing quizzes
+layout: en
 ---
 
-## 概要
+## Overview
 
-* 「小テスト」では，1問1答形式の問題を出題することが出来ます．
-  * 授業をちゃんと聞いていたか，どの程度まで理解したか，などを確認する目的に使えます．
-    * カンニングの問題などがあるので、成績に反映させる場合は実施方法に注意が必要です。
-    * 出席確認の代わりに使うなど、カジュアルな使い方のほうが向いていると思います。
-  * 提出できない等のトラブルに対して，予め対応を決めておく必要があります．
-    * 学生が操作に不慣れな場合，システムの過負荷による場合など，様々なケースが想定されます．
-    * 教員・学生の双方が慣れるまでは、点数を厳密に扱わないほうが安全です．
-  * 様々な条件を設定できるので、作成前にテストの性質をよく考えておく必要があります．
-    * 学生が自主的に学ぶため、授業中に理解度を確認するため、成績をつけるため、など．
-  * 「課題」と違って解答期間を過ぎて提出することはできません．
-    * 例えば，遅れた人にも減点ありで解答させたい場合は，解答期間を別にしたテストをもう一つ作成しておく必要があります．
+* In the "quiz" menu, you can ask questions in a question-and-answer format.
+  *This function can be used to check whether students have listened to the class properly and how much students have understood.
+    * Due to cheating issues, you need to be careful about how to apply the results of the quiz to your grades.
+    * We suppose it is more suitable for casual use such as using it instead of attendance confirmation.
+  * It is necessary to decide in advance how to deal with troubles such as not being able to submit answers to a quiz.
+    * Various cases are envisioned, such as when a student is unfamiliar with the operation or when the system is overloaded.
+    * It is safer not to treat scores strictly until both teachers and students are used to the system.
+  * Since various conditions can be set, it is necessary to carefully consider the nature of the quiz before creating it.
+    * For students to study on their own, to check their understanding during class, to give grades, etc.
+  * Unlike "Assignment", students cannot submit after the deadline.
+    * For example, if you want students who did not make it to the deadline to do a quiz with a penalty point, you need to create another quiz with another deadline.
 
 
 
-## 「小テスト」の作り方
+## How to create quizzes
 
-1. 「コースの概要説明/Course Summary」の画面の上から5つ目にある「小テスト」の左下にある⊕ボタンを押します．
-   - 新しい「小テスト」を作成できます。
+1. Click the ⊕ button at the bottom left of the "quiz," the fifth section from the top of the "Course Summary" screen.
+   - Create a new "quiz".
 
    ![小テスト](img/quiz1.png)
 
 
 
-2. 「テスト 新規登録」のページになるので、以下の内容を設定します。
+2. On the "Test new registration" page, set the following contents.
 
-   1. 「タイトル」では、小テストのタイトルを記入します。
-   2. 「テスト内容」では、テストの内容の説明を記入します。省略可能です。
-   3. 「解答期間」では、小テストに解答できる期間を設定します．
-      - 「再受験」を「可」または「合格点に達するまで可」にすると、この期間内で何度も受験できます．
-      - 「再受験」を不可にすると、この期間内で１度だけ受験できます．
-      - 具体的には，(1) 授業時間中のみ、(2) 次回の授業開始時まで、といった設定が考えられます。
-      - 期間が始まってしまうと止められないので、開始時間はよく考えて設定してください。
-   4. 「制限時間」では小テスト全体の解答時間を設定できます．
-      - 「あり」の場合、制限時間を超えると強制的に解答が打ち切られて、その時点の回答内容が送られます。
-   5. 「解答待ち時間」では，解答を始めるまでに待たせる時間を設定できます．
-      - 受験開始前に説明を読ませるなどの場合に使います。
-      - 最初は「なし」で良いと思います．
-   6. 「ランダム出題」を「あり」に設定すると，予め複数作成しておいた設問の中から，指定した数の設問をランダムに出題させることが出来ます．
-      - テストを繰り返し行う場合に，答えを順番で丸暗記するなどの対策を防ぐことが出来ます．
-   7. 「合格点」を「あり」に設定すると，合格点に達するまで繰り返し受験させることが出来ます．
-   8. 「採点結果の参照」では、学生が解答後に採点結果の点数を参照可能にするかどうかや、参照させるタイミングを設定します。
-      - 参照不可（「不可 」）、「提出時」（自動採点の場合）あるいは「採点後」（手動採点の場合）、全員が回答し終わった後（「解答期間終了時」）から選択できます．
-   9. 「正解の参照」では、学生に正解や解説を参照させるかどうかや、参照させるタイミングを設定します。
-      - 参照不可（「不可」）、「提出時」（手動採点の場合は採点前）、「採点後」、全員が回答し終わった後（「解答期間終了時」）から選択できます．
-      - 正解を参照可能にすると、解答が他の受験中の学生に知られてしまう可能性があるので，テストの性質に応じて適切に設定してください。
-   10. 「自動採点」では、解答時にシステムが自動で採点するか、教員が手動で採点するかを設定します。
-       - 自動採点をするためには、選択式や一意の文字列に定まる穴埋め問題（全角・半角の違い等に注意）である必要があります。
-   11. 「再受験」では、2回以上繰り返し受験できるかどうかを設定します。
-       - 自主研鑽のためのテストの場合は、再受験を「可」や「合格点に達するまで可」にすると良いでしょう。
-       - 成績に反映させる場合は、再受験を「不可」にするとよいでしょう。
+   1. In "Title", enter the title of the quiz.
+   2. In "Quiz content", enter a description of the content of the quiz. It can be omitted.
+   3. In the "Answer period", set the period during which students can answer the quiz.
+      - If you set "OK" or "OK until reaching the passing score" to "Retake", students can take the quiz as many times they want during this period.
+      - If "Retake" is disabled, students can take the quiz only once during this period.
+      - For example, you can set the answer period to (1) only during class hours, or (2) until the next class starts, etc.
+      - You cannot withdraw the quiz once the answer period starts. Set the start time carefully.
+   4. "Time limit" allows you to set the answer time for the entire quiz.
+      - In case you choose "Yes", the answer is forcibly terminated when students go over the time limit and the answer at that time will be submitted.
+   5. In "Waiting Time", you can set the time to wait before starting the answer.
+      - You can use this setting when you want students to read the explanation before starting the quiz.
+      - You don’t necessarily have to use this function.
+   6. If you choose "Yes" to "Random questions" and select a specific number of questions to ask, the number of questions will randomly be selected from the questions you have prepared in advance.
+      - You can use this setting when you want students to take the quiz repeatedly and want to prevent them from using cheating methods such as memorizing the answers in order.
+   7. If you choose “Yes” to "Passing Grade", students will take the exam repeatedly until they reach the passing score.
+   8. In the "Referring of the scoring result," you set whether or not students are able to refer to their own score after answering, and when they can check the score.
+      - You can select from “not possible” (students cannot check their own scores), “at the time of submission” (for automatic scoring), “after scoring” (for manual scoring), or “at the end of the answer period” (after all students have answered).
+   9. "Refer to correct answer" allows you to set whether or not students should refer to the correct answer and commentary, and when to refer to it.
+      - You can select from “not possible” (students cannot check the correct answers), “at the time of submission” (before scoring in the case of manual scoring), “after scoring”, or “at the end of the answer period” (after all members have answered).
+      - When students can refer to the correct answer, the answer may be known to other students who have not / are taking the exam, so please set it appropriately.
+   10. In "Automatic scoring", set whether the system will grade automatically when students finish answering the questions, or whether the teacher will grade manually.
+       - In order to perform automatic scoring, it is necessary to make all the questions closed questions or a fill-in-the-blank style whose answers should be unique strings of characters (note orthographic variants, such as a difference between full-width and half-width).
+   11. In "Retake", set whether students can take the quiz more than once.
+       - If the purpose of the quiz is self-improvement, it is a good idea to set the retake as "OK" or "OK until the passing score is reached".
+       - If you want to reflect the result of the quiz on students’ grades, it is better to set the quiz retake as "not possible".
 
    ![テスト 新規登録](img/quiz2.png)
 
 
 
-3. 「設問作成」の「⊕新規作成」で必要な数だけ設問を追加します。
+3. Add as many questions as you need in "⊕ Create New" in "Create Question".
 ![テスト 新規登録](img/quiz3.png)
-   1. 以下の4種類から選んで設問を作成します。
-      - 単一選択形式（ラジオボタン）
-      - 複数選択形式（チェックボックス）
-      - フリーテキスト形式（テキストエリア）
-      - 穴埋め形式
-   2. <u>単一選択形式（ラジオボタン）の作り方</u>
-      1. 「設問設定」で「単一選択形式（ラジオボタン）」を選択します。
-      2. 「タイトル」を入力します。
-      	 - 問1などのタイトルであって、設問そのものではありません。
-      3. 「設問内容」 で実際の問題文を入力します。
-      4. 解答の項目数（選択肢の数）を選択します。
-      5. 解答項目（解答の選択肢）を必要な数だけ入力します。
-      6. 正解の解答項目のチェックボックスをチェックします。
-      7. 解説文を入力します。提出後、採点後、解答期間終了時に学生が参照できます。
-      8. 配点を入力します。問題総数や合格点、重要度に応じて決めて下さい。
-      	 - 合計点数が何点になるかは事前に確認しておいて下さい。
-      9. 「登録する」ボタンを押す
+   1. There are four formats available for setting quizzes.
+      - Single selection format quiz (radio button)
+      - Multiple selection format quiz (check box)
+      - free text format quiz (text area)
+      - Fill-in-the-blank quiz
+   2. <u>How to make a single selection format quiz (radio button)</u>
+      1. Select "Single selection format (radio button)" in "Question setting".
+      2. Enter a "Title".
+      	 - This is the title for specific questions (such as Question 1), not the question itself.
+      3. Enter the actual questions in "Question".
+      4. Select the number of answer items (number of choices).
+      5. Enter answer items (answer choices).
+      6. Check the box of the correct answer item.
+      7. Enter a commentary. Students can refer after submitting, scoring, and after the answer period ends.
+      8. Enter the allocation of marks. Allocate according to the total number of questions, the passing score, and the importance of each question.
+      	 - Check in advance how many points the full score should be.
+      9. Press the "Register" button.
 
       ![ラジオボタン](img/quiz4.png)
    
    
    
-   3. <u>複数選択形式（チェックボックス）の作り方</u>
+   3. <u>How to make multiple selection format quiz (check box)</u>
    　 <b>※正解が複数あるだけで、ラジオボタンとほとんど同じです。</b>
-      1. 「設問設定」で「複数選択形式（チェックボックス）」を選択します。
-      2. 「タイトル」を入力します。
-      	 - 問1などのタイトルであって、設問そのものではありません。
-      3. 「設問内容」 で実際の問題文を入力します。
-      4. 解答の項目数（選択肢の数）を選択します。
-      5. 解答項目（解答の選択肢）を必要な数だけ入力します。</b>
-      6. <b>正解の解答項目のチェックボックスをすべてチェックします。</b>
-      7. 解説文を入力します。提出後、採点後、解答期間終了時に学生が参照できます。
-      8. 配点を入力します。問題総数や合格点、重要度に応じて決めて下さい。
-      	 - 合計点数が何点になるかは事前に確認しておいて下さい。
-      9. 「登録する」ボタンを押す
+      1. Select "Multiple selection format (check box)" in "Question setting".
+      2. Enter a "Title".
+      	 - This is the title for specific questions (such as Question 1), not the question itself.
+      3. Enter the actual questions in "Question".
+      4. Select the number of answer items (number of choices).
+      5. Enter answer items (answer choices).</b>
+      6. <b>Check all the checkboxes of the correct answer items.</b>
+      7. Enter a commentary. Students can refer after submitting, scoring, and after the answer period ends.
+      8. Enter the allocation of marks. Allocate according to the total number of questions, the passing score, and the importance of each question.
+      	 - Check in advance how many points the full score should be.
+      9. Press the "Register" button.
 
       ![チェックボックス](img/quiz5.png)
    
    
    
-   4. <u>フリーテキスト形式（テキストエリア）の作り方</u>
-   　 <b>※正解が文章になっているだけで、ラジオボタンやチェックボックスとほとんど同じです。自動採点は出来ません。</b>
-      1. 「設問設定」で「フリーテキスト形式（テキストエリア）」を選択します。
-      2. 「タイトル」を入力します。
-      	 - 問1などのタイトルであって、設問そのものではありません。
-      3. 「設問内容」 で実際の問題文を入力します。
-      4. <b>正解の文章を入力します。</b>
-      5. 解説文を入力します。提出後、採点後、解答期間終了時に学生が参照できます。
-      6. 配点を入力します。問題総数や合格点、重要度に応じて決めて下さい。
-      	 - 合計点数が何点になるかは事前に確認しておいて下さい。
-      7. 「登録する」ボタンを押す
+   4. <u>How to make free text format quiz (text area)</u>
+   　 <b>※It is almost the same as a radio button or checkbox, except that the correct answer is a written sentence. Automatic scoring is not possible.</b>
+      1. Select "Free text format (text area)" in "Question setting".
+      2. Enter a "title".
+      	 - This is the title for specific questions (such as Question 1), not the question itself.
+      3. Enter the actual questions in "Question".
+      4. <b>Enter an answer sentence.</b>
+      5. Enter a commentary. Students can refer after submitting, scoring, and after the answer period ends.
+      6. Enter the allocation of marks. Allocate according to the total number of questions, the passing score, and the importance of each question.
+      	 - Check in advance how many points the full score should be.
+      7. Press the "Register" button.
 
       ![テキストエリア](img/quiz6.png)
    
    
    
-   4. <u>穴埋め形式の作り方</u>
-   　 <b>※設問への入力欄の挿入の仕方や自動採点方式の選択などが他と異なります。</b>
-      1. 「設問設定」で「穴埋め形式」を選択します。
-      2. 「タイトル」を入力します。
-      	 - 問1などのタイトルであって、設問そのものではありません。
-      3. <b>「設問内容」 で実際の問題文を入力します。</b>
-         - 解答の入力欄（穴）を挿入したい場所で「穴埋めタグ追加」ボタンを押します（[fb]という文字列が挿入されます）。
-      4. <b>解答項目数（穴の数）を指定します。</b>
-      5. <b>正解の文字列を必要な数だけ入力します。</b>
-         - 問題文から一意な文字列になるように出題の仕方を注意します。
-      6. <b>自動採点方式を指定します。</b>
-         - 不正解の解答があった場合の点数の付け方を変えられます。
-      7. 解説文を入力します。提出後、採点後、解答期間終了時に学生が参照できます。
-      8. 配点を入力します。問題総数や合格点、重要度に応じて決めて下さい。
-      	 - 合計点数が何点になるかは事前に確認しておいて下さい。
-      9. 「登録する」ボタンを押す
+   4. <u>How to make a fill-in-the-blank quiz</u>
+   　 <b>※Some settings are different here from other formats, such as how to set up questions and select the automatic scoring.</b>
+      1. Select "Fill-in-the-blank" in "Question setting".
+      2. Enter a "title".
+      	 - This is the title of question 1 and not the question itself.
+      3. <b>Enter the actual questions in "Question".</b>
+         - Click the "Add tag" button where you want to insert the answer field (blank). (The character string “[fb]” will be inserted.)
+      4. <b>Specify the number of answer items (the number of blanks).</b>
+      5. <b>Enter the correct strings of characters.</b>
+         - Pay attention to make the questions mean unique and clear. 
+      6. <b>Select the automatic scoring method.</b>
+         - You can change the method of scoring when there is an incorrect answer.
+      7. Enter a description. Students can refer after submitting, scoring, and at the end of the answer period.
+      8. Enter the score. Decide according to the total number of questions, the passing score, and the importance.
+      	 - Check in advance how many points you will have.
+      9. Press the "Register" button.
 
       ![穴埋め形式](img/quiz7.png)
 
 
 
 
-4. 受験シュミレーションをします。
-   - 「テスト 新規登録」の画面で「受験シュミレーション」ボタンを押します。
-   - 一通り試験を受験してみて内容を確かめてみて下さい。
+4. Take a quiz simulation.
+   - Click the "Simulation" button on the "New Quiz Registration" screen.
+   - Take the quiz and check the contents.
    ![受験シュミレーション](img/quiz8.png)
 
 
 
 
-5. 確認画面に進みます。
-   - 「テスト 新規登録」の画面で「確認画面に進む」ボタンを押します。
+5. Proceed to the confirmation screen.
+   - Press the "Proceed to confirmation screen" button on the "Quiz new registration" screen.
    ![確認画面に進む](img/quiz9.png)
 
 
 
 
-6. 確認してテストを登録します。
-   - 「確認」ボタンを押します。
+6. Confirm and register the quiz.
+   - Click the "Confirm" button.
    ![確認](img/quiz10.png)
 
 
 
-## 参考情報
+## References
 
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/04/08_2029.html">ITC-LMS のテンプレートを別のコースや違うアカウントでも使いたい （教員）</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/10_1858.html">ITC-LMS で作成したテストを確認する方法 (教員)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1889.html">ITC-LMS のテストや課題の評価で利用できる文字について (教員)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1888.html">ITC-LMSのテストで、複数の穴埋めを用意した問題を作成したい(教員)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1890.html">ITC-LMSのテストで出題時に配点を表示させたい(教員)</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/04/08_2029.html">How to use the ITC-LMS template for different courses or different accounts (for instructors）</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/10_1858.html">How to check the quiz created in ITC-LMS (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1889.html">Characters that can be used in ITC-LMS quiz and task evaluations (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1888.html">How to create a question with multiple fill-in holes in ITC-LMS test (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1890.html">How to display the allocation of the score when students answering in the ITC-LMS quiz (for instructors)</a>
