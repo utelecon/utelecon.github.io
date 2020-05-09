@@ -12,10 +12,10 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * <span style="color:blue;">2020/4/27:</span> (教員用)4/27 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/4/24:</span> <a href="notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
 * <span style="color:blue;">2020/4/24:</span> 「授業目的公衆送信補償金制度」について「一般社団法人授業目的公衆送信補償金等管理協会」から文化庁長官への補償金額の認可申請，文化審議会での審議，文化庁長官による認可など，必要な所要の手続を経て，令和2年4月28日から施行することとなりました．[リンクはこちら](https://www.bunka.go.jp/seisaku/chosakuken/92169601.html)
-* <span style="color:blue;">2020/4/22:</span> <font color="red">緊急 「この方法でZoomアカウントにログインできません. IT管理者にお問い合わせください」</font> について
+* <span style="color:blue;">2020/4/22:</span> <font color="red">(2020/5/9 現在はサインインできます)<s>緊急 「この方法でZoomアカウントにログインできません. IT管理者にお問い合わせください」</font> について
   * 4/22ごろから東京大学ライセンスのアカウントでのサインインにはGoogle連携機能が使えなくなっています．xxxxxx@g.ecc.u-tokyo.ac.jp あてに送られてきた招待メールを使って作成(サインアップ)した，<u><b>数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスのアカウント使って「Googleでサインイン」を使わずに</b></u>サインインしてください．
   * その際、Zoomのパスワードを再設定するには，<u><b>パスワード再設定のページ</b></u> https://zoom.us/forgot_passwordで，数字10桁の共通ID@g.ecc.u-tokyo.ac.jpのメールアドレスを入力して下さい．
-再設定のためのメールが，ECCSクラウドメールのアドレス xxxxxx@g.ecc.u-tokyo.ac.jp に届きます．xxxxxx は自分で設定したECCSクラウドメールのアドレスで, 数字10桁の共通IDではありません. 上記で解決しないようでしたら、utelecon-inquiries AT googlegroups.com あてにお問い合わせください
+再設定のためのメールが，ECCSクラウドメールのアドレス xxxxxx@g.ecc.u-tokyo.ac.jp に届きます．xxxxxx は自分で設定したECCSクラウドメールのアドレスで, 数字10桁の共通IDではありません. 上記で解決しないようでしたら、utelecon-inquiries AT googlegroups.com あてにお問い合わせください</s>
 * <span style="color:blue;">2020/4/21:</span> (教員用)4/22 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/4/16:</span> (学生・教員用)<a href="supporters/class">クラスサポーター制度</a>を立ち上げました
 * <span style="color:blue;">2020/4/16:</span> (学生用)<a href="mobile/">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>
