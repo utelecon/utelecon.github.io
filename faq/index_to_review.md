@@ -6,7 +6,7 @@ title: FAQ よくある質問
 
 ### Q. オンライン授業に入れない
 * UTAS でその授業の詳細情報タブの「オンライン授業URL」「オンライン授業内容」や他の欄をご確認ください
-  * UTAS が重い場合は、UTAS Lite https://utelecon-directory.adm.u-tokyo.ac.jp/login/?next=/ をご利用ください
+  * UTAS が重い場合は、UTAS Lite [https://utelecon-directory.adm.u-tokyo.ac.jp/login/?next=/](https://utelecon-directory.adm.u-tokyo.ac.jp/login/?next=/) をご利用ください
 * それでも見つからない場合は、ITC-LMS のその授業情報で URL が共有されていないかご確認ください
 * それでも見つからない場合は、念のためそもそもオンライン授業がリアルタイムにあるのか、UTAS や ITC-LMS でご確認ください（動画を各自で視聴するといったオンデマンド型の可能性もあります）
 
@@ -39,6 +39,8 @@ title: FAQ よくある質問
 
 ### 初期設定
 
+<!--
+
 #### Q. Zoom のアカウント招待メールがない
 
 * ECCS クラウドメール（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp）にメールが届いているため，こちらのページ（[https://mail.google.com/a/g.ecc.u-tokyo.ac.jp](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)）から Google にログインしてメールを探してみてください
@@ -51,6 +53,10 @@ title: FAQ よくある質問
 2. 再度招待メールを開きます
 3. Zoom のプロフィールページ（[https://zoom.us/profile](https://zoom.us/profile)）にサインイン後，「ユーザータイプ」が Licensed，機能 大規模ミーティング500、ウェビナー500となっていれば完了です
 
+#### Q. ユーザータイプが Licensed ではなく Basic になってしまっている
+
+-->
+
 #### Q. パスワードがわからない
 * 以下の手順で作業してください
 
@@ -59,8 +65,6 @@ title: FAQ よくある質問
 3. メールのリンクを用いて新たなパスワードを設定する
 4. Zoom のサインインページ（[https://zoom.us/signin](https://zoom.us/signin)）にて、メールアドレスは 共通ID10桁@g.ecc.u-tokyo.ac.jp（注: ご自身が設定した文字列@g.ecc ではありません）、パスワードは先程設定したものを入力して「サインイン」を押す
 5. 無事サインインできれば完了です
-
-#### Q. ユーザータイプが Licensed ではなく Basic になってしまっている
 
 
 
