@@ -4,6 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/5/10:</span> (教員用) [Webexで安全性の高い会議を行うためのプラクティス](webex/how_to_open_secure_meetings)
 * <span style="color:blue;">2020/5/6:</span> (教員用)5/7 12:10から[オンライン授業情報交換会(トピック：通信量)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/5/6:</span> [オンライン授業・Web会議に関するトラブルサポート窓口](supports)を公開しました．
 * <span style="color:blue;">2020/5/1:</span> (教員用)5/8 17:00から[説明会「オンライン授業における著作物利用」](events/2020-05-08/)を実施いたします．
