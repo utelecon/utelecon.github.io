@@ -1,6 +1,5 @@
 ---
-title: Webex Meetingsを使った安全な会議の開き方
-sitemap: false
+title: Webex Meetingsでのエンド・エンド間暗号化機能
 ---
 
 このページでは，Webex Meetingsのエンド・エンド間暗号化（End to End Encrypted Meeting）機能を用いたオンライン会議の開き方を説明します．
@@ -22,15 +21,21 @@ Webex Meetingsには，クライアント間で暗号化された（途中で復
 
 安全な会議を開くためのWebexアカウントは新規に必要です．（手動で作成しているため若干時間がかかります．）申請をすると，はじめに事務局からアカウント手続きに関するメールが届きます．その後，システムからのメールが届きます．正確に手続きしないとトラブルシューティングが必要となってしまうため、はじめに届く事務局からのメールを読んでからシステムのメールを開いてください．
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">こちらのフォーム</a>から申請してください．
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">こちらのフォーム</a>から申請してください．フォームへのアクセスにはUTokyo Account（10桁の共通ID@utac.u-tokyo.ac.jp）でのログインが必要です． 
 
 [アカウントアクティベーションに関する説明ページ](create_utelecon_account.html)
 
 ### アカウントの説明
 
-提供するアカウントは，共通ID@g.ecc.u-tokyo.ac.jp というアカウントです．（ほかのものには変えられません．）オンライン会議のドメインは https://utelecon.webex.com になります．
+提供するアカウントは，**共通ID@g.ecc.u-tokyo.ac.jp** というアカウントです．（ほかのものには変えられません．）オンライン会議のドメインは **https://utelecon.webex.com** になります．
 
 3月から利用しているapj27.webex.com（通常のwebex機能）のアカウントと併用することができます．ログインするときに選択する画面がでますので，利用するものを選択してください．
+
+## アカウントの初期設定
+
+安全な会議のためのWebexアカウントは以下の手順で利用開始してください。
+
+[アカウントの初期設定手順](create_utelecon_account)
 
 ## 接続テスト
 
@@ -38,26 +43,15 @@ Webex Meetingsには，クライアント間で暗号化された（途中で復
 
 ## 使い方
 
-安全な会議を開くには，スケジュールして会議を開くことが必要です．
-* ミーティングのスケジュールで，ミーティングタイプとして「Webex Meetings Encrypted Meeting」を選択します．
+安全な会議は以下の手順で利用してください。
 
-	![暗号化設定の画面](img/webex_encrypted_schedule.png){:width="700px"}
-
-* この画面で出席者を登録する場合は，「詳細設定を表示する」の「スケジューリングオプション」の中の「招待メールにパスワードを含めない」をチェックし，パスワードは何か別の方法（電話，対面，FAX，電報，etc.）で周知します
-
-	![暗号化設定詳細の画面](img/webex_encrypted_detail.png){:width="700px"}
-
-* その他必要な項目を入力して「スケジュールする」を押すと会議の情報が表示されますが，このときに「強化されたセキュリティ：エンドツーエンド暗号化ミーティング」と表示されていることを確認します．
-
-	![暗号化確認](img/webex_encrypted_confirm.png){:width="700px"}
-
-* 会議の参加者にはミーティングリンクは周知せず，ミーティング番号とパスワードをそれぞれ別の方法で周知することも有効と考えられます．
-
-* 使用方法は通常のWebex Meetingsと同じです．なお，暗号化されたミーティングでは，Webex Meetingsのウィンドウ右上に南京錠のマークが付きます．
-
-	![暗号化確認](img/webex_encrypted_inmeeting.png){:width="700px"}
+[Webexで安全性の高い会議を行うためのプラクティス](how_to_open_secure_meetings)
 
 ## FAQ
 
+* Zoomとの違いはどこですか。
+	* 現在の Zoom のサービスでの暗号化はクライアント暗号化（サーバとクライアント間の通信の暗号化）です。サーバで復号化されています。（Webexも通常の利用方法ではクライアント暗号化をします）
+* End to End 暗号化の詳細を教えてください。
+	* Cisco社の[説明のページ](https://help.webex.com/ja-jp/WBX44739/What-Does-End-to-End-Encryption-Do)を参照してください。
 * 本当に安全ですか。
 	* 検証中です。
