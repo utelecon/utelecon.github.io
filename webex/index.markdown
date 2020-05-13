@@ -9,14 +9,14 @@ title: Web会議 Webex の使い方
 
 * 会議室に参加するだけであればアカウントを作る必要はありません．	
 * 2020年度春学期は本学のGoogleメール（共通ID10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールエイリアスと呼びます）をIDとして Webexアカウントを作成し，Webexによってオンラインで会議や授業を行うことができます．
-* 現在のWebexサービスでは2種類のサービスが利用可能です．
-	* 通常サービス（90日無償サービス：2020年6月8日まで利用可能として利用開始したもの）
-		* Webex MeetingsとWebex Eventsが同時接続可能数は1000で利用できます．（ただし、通常のWebexで利用可能なテレビ会議システム（いわゆるPolycom等）との接続はできません．）
-		* 参考：[UTokyo 90 Days Cisco Webex](https://www.u-tokyo.ac.jp/adm/dics/ja/90dayswebex.html)
-		* アカウントの取得方法は[Webex アカウントの作成とログイン](create_webex_account)を参照してください.
+* 現在のWebexサービスでは2種類のサービスが利用可能です．両方のサービスでアカウントを持っている場合は，ログインする時に選択する画面が表示されます．
 	* 安全性追加サービス（180日の無償サービス：追加でサービスを開始したもの）
-		* End to End 暗号化された会議が開けます. 
-		* 使い方は[Webexで安全性の高い会議を行うためのプラクティス](how_to_open_secure_meetings)を参照してください．
+		* End to End 暗号化された会議も開けます．詳細は[Webex Meetingsでのエンド・エンド間暗号化機能](encrypted_meeting)を参照してください．
+		* アカウントの取得方法は[Webex アカウントの作成とログイン](create_utelecon_account)を参照してください.
+	* 通常サービス（90日無償サービス：2020年6月8日まで利用可能なもの）
+		* End to End 暗号化された会議は開催することはできません．
+		* Webex MeetingsとWebex Eventsが同時接続可能数は1000で利用できます．（ただし、通常のWebexで利用可能なテレビ会議システム（いわゆるPolycom等）との接続はできません．）
+		* アカウントの新規取得はもうサポートされません．
 * ここでは Web会議システム Webex の特徴や利用の流れについて説明します．このページでは全体的な特徴や大まかな流れを説明し,具体的な部分はサブページで説明します．
 	* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで WebEx を使えます.
 	* Webex MeetingsとWebex Eventsを使用する場合，最大200台までテレビ会議システム（いわゆるPolycom等）を接続することができます．**また，テレビ会議システムから何でもかんでもできるわけではありません．テレビ会議システムからの参加は事前に十分味見をしてからどうぞ．**
@@ -57,7 +57,7 @@ title: Web会議 Webex の使い方
 		* <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
 		* Webex Meetingsの場合には，アプリケーションがインストールできない場合はWebブラウザ（FirefoxまたはGoogle Chromeを推奨）でも利用可能ですが，一部機能が制限されます．
 	1. ECCSクラウドメールを有効化します（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">詳細</a>）
-	1. WebExアカウントを作成します（<a href="create_webex_account" target="_blank">詳細</a>）
+	1. Webexアカウントを作成します（<a href="create_utelecon_account" target="_blank">詳細</a>）
 * 参加者
 	1. デスクトップアプリやアプリを接続用デバイスへインストールします．
 		* <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
@@ -66,7 +66,7 @@ title: Web会議 Webex の使い方
 ## Webex Meetings利用の流れ
 
 * 開催者
-	1. WebExにログインします（<a href="create_webex_account" target="_blank">詳細</a>）
+	1. Webexにログインします（<a href="create_utelecon_account" target="_blank">詳細</a>）
 	1. 会議室を設定します（<a href="create_meeting" target="_blank">詳細</a>）
 	1. 会議を開きます（<a href="open_meeting" target="_blank">詳細</a>）
 		* **会議を開始するためには，開催者が明示的に「開始」する必要があります．**
@@ -100,7 +100,7 @@ title: Web会議 Webex の使い方
 ## Webex Training利用の流れ
 
 * 開催者
-	1. WebExにログインします（<a href="create_webex_account" target="_blank">詳細</a>）
+	1. Webexにログインします（<a href="create_utelecon_account" target="_blank">詳細</a>）
 	1. トレーニングを設定します（<a href="create_training" target="_blank">詳細</a>）
 	1. トレーニングを開始します（<a href="open_training" target="_blank">詳細</a>）
 		* **トレーニングを開始するためには，開催者が明示的に「開始」する必要があります．**
@@ -116,7 +116,7 @@ title: Web会議 Webex の使い方
 ## Webex Events利用の流れ
 
 * 開催者
-	1. WebExにログインします（<a href="create_webex_account" target="_blank">詳細</a>）
+	1. Webexにログインします（<a href="create_utelecon_account" target="_blank">詳細</a>）
 	1. イベントを設定します（<a href="create_events" target="_blank">詳細</a>）
 	1. イベントを開始します（<a href="open_events" target="_blank">詳細</a>）
 		* **イベントを開始するためには，開催者が明示的に「開始」する必要があります．**
@@ -138,7 +138,7 @@ title: Web会議 Webex の使い方
 
 {% endcomment %}
 ## サブページ一覧
-* <a href="create_webex_account" target="_blank">Webex アカウントの作成とログイン</a>	
+* <a href="create_utelecon_account" target="_blank">Webex アカウントの作成とログイン</a>	
 
 * <a href="create_meeting" target="_blank">会議室を作成する</a> 
 * <a href="open_meeting" target="_blank">Webex 会議の開始</a> 
@@ -148,6 +148,9 @@ title: Web会議 Webex の使い方
 * <a href="do_meeting" target="_blank">Webex 会議室でできること（開催者・参加者）</a> 
 * <a href="do_meeting_vc" target="_blank">Webex 会議室でできること（テレビ会議システムからの開催者・参加者）</a>
 * <a href="do_meeting_host" target="_blank">Webex 会議室でできること（開催者）</a> 
+
+* <a href="encrypted_meeting" target="_blank">Webex Meetingsでのエンド・エンド間暗号化機能</a>
+* <a href="how_to_open_secure_meetings" target="_blank">Webexで安全性の高い会議を行うためのプラクティス</a>
 
 * <a href="create_training" target="_blank">トレーニングを作成する</a> 
 * <a href="open_training" target="_blank">Webex Trainingの開始</a> 
