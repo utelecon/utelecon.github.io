@@ -159,8 +159,9 @@ title: FAQ よくある質問
 * 利用許諾から実際に使えるようになるまでに時間がかかります. 日中は最大3時間, 夜は翌朝の11:00までお待ち下さい(正確には「はい」にして保存から直近の11:00, 14:00, 17:00, 20:00ごろまでお待ち下さい).
 * それでもダメという場合, 一度「利用規約に合意し利用権を申請する」の「いいえ」を選んで「保存」してから, また「はい」を選んで保存する(そして上記の時間待つ)とうまくいくことがあります
 
-### Q. <a href="https://www.office.com/?auth=2" target="_blank">Officeにサインインした画面</a>でExcel, Wordなどのアプリのアイコンがでてこない
+### Q. Officeにサインインした画面でExcel, Wordなどのアプリのアイコンがでてこない
 
+* 参考: <a href="https://www.office.com/?auth=2" target="_blank">Officeにサインインした画面</a>
 * 一度も起動したことのないアプリのアイコンは出てこないようなので, 左上のタイルメニューを開いてみて下さい. 
 
 <!--
@@ -175,8 +176,9 @@ title: FAQ よくある質問
 
 ## UTAS
 
-### Q. <a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do" target="_blank">UTAS</a>にログインできない
+### Q. UTAS にログインできない
 
+* 参考: <a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do" target="_blank">UTAS</a>
 * <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>や<a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">ITC-LMS</a>にログインできるか確かめてみてください
   * それらはログインできるのにUTASに出来ない場合:
     * 稀に, UTokyo Accountが発行されているのにUTASのアカウントが発行されていない場合があります. 所属の事務室に, 10桁の共通IDとともに, 自分にUTASのアカウントが発行されているかを尋ねて下さい
@@ -200,8 +202,9 @@ title: FAQ よくある質問
 
 ## UTokyo Account
 
-### Q. <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>にログインできない
+### Q. UTokyo Account利用者メニューにログインできない
 
+* 参考: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>
 * ユーザ名にUTokyo Accountの共通ID <font color=""green"">「10桁の数字」</font>を入力していることを確認してください
   * 10桁の数字@utac.u-tokyo.ac.jp <font color=""red"">ではありません</font>
 * ユーザ名を正しく入力しているのにエラーが出る(ユーザID・パスワードが不正です。)と出る場合, パスワードが間違っているのかも知れませんので, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみてください
