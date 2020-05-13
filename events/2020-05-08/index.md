@@ -20,7 +20,10 @@ title: 2020/05/08 説明会: オンライン授業における著作物利用
 情報学環　酒井麻千子　准教授
 
 ## 資料
-[pdf ファイル](copyright_200511.pdf)
+[pdf ファイル](https://drive.google.com/file/d/1qnf8epOoWG-LC8Q0h8Kq6YFjJkNybTmJ/view?usp=sharing)（学内限定公開） 
+  * 閲覧するためには ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります
+  * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください
+  * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
 
 ## 内容(予定)
 
