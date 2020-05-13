@@ -15,7 +15,7 @@ title: Web会議 Webex の使い方
 		* アカウントの取得方法は[Webex アカウントの作成とログイン](create_utelecon_account)を参照してください.
 	* 通常サービス（90日無償サービス：2020年6月8日まで利用可能なもの）
 		* End to End 暗号化された会議は開催することはできません．
-		* Webex MeetingsとWebex Eventsが同時接続可能数は1000で利用できます．（ただし、通常のWebexで利用可能なテレビ会議システム（いわゆるPolycom等）との接続はできません．）
+		* Webex MeetingsとWebex Eventsが同時接続可能数は1000で利用できます．（ただし，通常のWebexで利用可能なテレビ会議システム（いわゆるPolycom等）との接続はできません．）
 		* アカウントの新規取得はもうサポートされません．
 * ここでは Web会議システム Webex の特徴や利用の流れについて説明します．このページでは全体的な特徴や大まかな流れを説明し,具体的な部分はサブページで説明します．
 	* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで WebEx を使えます.
@@ -62,6 +62,10 @@ title: Web会議 Webex の使い方
 	1. デスクトップアプリやアプリを接続用デバイスへインストールします．
 		* <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
 		* Webex Meetingsの場合には，アプリケーションがインストールできない場合はWebブラウザ（FirefoxまたはGoogle Chromeを推奨）でも利用可能ですが，一部機能が制限されます．
+
+## 接続テスト
+
+利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために<a href="https://utelecon.webex.com/utelecon/j.php?MTID=mc31b90b0055bbe703d079f3a31239ca3" target="_blank">こちらのサイト</a>を用意しています．接続してみてください．
 
 ## Webex Meetings利用の流れ
 
