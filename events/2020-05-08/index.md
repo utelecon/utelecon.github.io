@@ -6,7 +6,7 @@ title: 2020/05/08 説明会: オンライン授業における著作物利用
 
 * **日時:** 5/8(金) 17:00-18:30 
 
-* **場所:** オンライン(Zoom)およびyoutube  <br>
+* **場所:** オンライン(Zoom)　<br>
 　　　本ページ下部にある[説明会情報掲載シートへ]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing )
 
 
