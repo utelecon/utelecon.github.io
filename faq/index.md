@@ -168,12 +168,6 @@ title: FAQ よくある質問
 学内者限定のExcel Workbookにアクセスできない
 -->
 
-
-### ECCSクラウドメールにログインできない
-
-### 学内者限定のGoogle Spreadsheetにアクセスできない
-
-
 ## UTAS
 
 ### Q. UTAS にログインできない
