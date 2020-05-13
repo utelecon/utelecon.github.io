@@ -63,6 +63,10 @@ title: Web会議 Webex の使い方
 		* <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
 		* Webex Meetingsの場合には，アプリケーションがインストールできない場合はWebブラウザ（FirefoxまたはGoogle Chromeを推奨）でも利用可能ですが，一部機能が制限されます．
 
+## 接続テスト
+
+利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために<a href="https://utelecon.webex.com/utelecon/j.php?MTID=mc31b90b0055bbe703d079f3a31239ca3" target="_blank">こちらのサイト</a>を用意しています．接続してみてください．
+
 ## Webex Meetings利用の流れ
 
 * 開催者
@@ -96,10 +100,6 @@ title: Web会議 Webex の使い方
 	* <a href="join_meeting_vc" target="_blank">テレビ会議システムで会議室へ入ります</a> **6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．**
 		* 開催者が会議を開始していない場合，会議室に入れずにテレビ会議が切断されます．
 		* <a href="do_meeting_vc" target="_blank">会議室でできること（テレビ会議システムからの開催者・参加者）</a>
-
-## 接続テスト
-
-利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために<a href="https://utelecon.webex.com/utelecon/j.php?MTID=mc31b90b0055bbe703d079f3a31239ca3" target="_blank">こちらのサイト</a>を用意しています．接続してみてください．
 
 ## Webex Training利用の流れ
 
