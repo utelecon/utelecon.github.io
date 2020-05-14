@@ -1,38 +1,38 @@
 ---
-title: 2020/05/20 研修: クラスサポーター
+title: 2020/05/20 Training: Class Supporters
+layout: en
 ---
 
-# 2020/05/20  研修: クラスサポーター
+# 2020/05/20  Training: Class Supporters
 
-* **日時:** 5/20(水) 15:00-17:00（当日授業などで受講できない場合には，後日録画を公開しますので，それを視聴してください）
+* **Time:** 5/20(Wed) 15:00-17:00(a recording of the training will be released at a later date, for those who cannot attend the training on this day)
 
-* **場所:** オンライン(Zoom)およびyoutube  <br>
-　　　本ページ下部にある研修情報掲載シートへ
+* **Place:** Online (Zoom) and YouTube  <br>
+　　　Check the "Briefing Session Information Sheet" at the bottom of this page
 
-## 開催趣旨
+## Summary
 
-　4月16日よりクラスサポーター制度を開始しており，現在多くの方々にご利用いただきはじめたところです．クラスサポーター制度開始より遅れてしまいましたが，クラスサポーターについての研修会を下記の通り開催いたします．<br>　
-　内容としては，クラスサポーター制度の趣旨や仕事内容を扱い，質疑応答に多く時間をとる構成です．クラスサポーターとして授業で活動している学生等の方々にご周知をいただけますと幸いです．<br>
-　尚，現在本学では新型コロナウイルス感染拡大防止に向けてレベル３で対応中であることから，Zoomを用いた参加という形で実施します．
+The class supporter program started on April 16, and many teachers are already implementing it in their classes. Although delayed since the start of the program, we will hold a workshop for training of class supporters as follows. <br>　
+　 　The contents deal with the purpose and work contents of the class supporter system, and we will open a lot of time for questions and answers. We hope this is an opportunity for teachers and students enrolled as class supporters to know each other. <br>　
+　In addition, since our university is currently working on Level 3 to prevent the spread of new coronavirus infection, participation in the training will be provided via Zoom.
 
-## 内容(予定)
+## Contents(Scheduled)
 
-クラスサポーター制度の趣旨説明，制度の概要，手続き，仕事内容について説明します．また，質問を受け付けお答えする予定です．　
+We will explain the purpose of the class supporter program, the outline of the program, procedures, and work contents. We also plan to accept and answer questions.　
 
+## Who MUST attend the training?
 
-## 参加必須の方
+* **Those who are class supporters**
+* If you become a class supporter, please make the possible to attend this training. If you are unable to attend the class on the day of the event, please watch the recording as it will be made available later.
 
-* **クラスサポーターになっている方**
-* 本研修はクラスサポーターになられる方はできるかぎり受講をお願いします．当日授業などで受講できない場合には，後日録画を公開しますので，それを視聴してください．
+## Who else can attend?
+* **Those planning to become class supporters soon**（NOTE: this will be a non-paid training）
+* **Faculty members that want to know more about the class supporters** (NOTE: this training is designed for the class supporters)
 
-## 参加してもよい方
-* **これからクラスサポーターになろうと考えている方**（受講に対して謝金は発生いたしません．）
-* （本研修はクラスサポーター向けに設計されておりますが）**クラスサポーターについて知りたい教職員**
+## Application
 
-## 参加申込みなど
+* [Briefing Session Information Sheet]( https://tinyurl.com/y7te4k3j ) (Please apply from the participation application form link at the top of this Excel sheet in this URL before the start of Wednesday, May 20. Like this, we can have an idea of the number of participants).
 
-* [説明会情報掲載シートへ]( https://tinyurl.com/y7te4k3j ) (参加者数把握のため、このURLにあるエクセルシート上部の参加申込みフォームリンクから5月20日（水）開始前までにお申し込みください。)
-
-  * **アクセスするには，ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります．**
-  * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください．
-  * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
+  * **To access, you need to be signed in to Google with an ECCS cloud mail (xxx@g.ecc.u-tokyo.ac.jp) account.**
+  * If you have trouble accessing it, please sign in with ECCS Cloud Email [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp).
+  * If you have never used ECCS cloud email, [click here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)to make initial settings for account use.
