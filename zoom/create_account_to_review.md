@@ -19,7 +19,7 @@ title: 大学の Zoom アカウントの作り方
 ## アカウントの作り方
 
 1. Zoom のサインアップ（アカウント作成）ページ [https://zoom.us/signup] に移動し，誕生日を入力後，メールアドレス入力欄に **共通ID10桁@g.ecc.u-tokyo.ac.jp（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp ではありません）** を入力して，「サインアップ」を押して下さい（**「Google でサインイン」を押さないでください**）<br>
-[うまく作成できない場合はこちら](#ng_signup)
+[うまく作成できない場合はこちら](#ng_signup)  
  ![signup_enter_email_address](img/create_account_20200515_1.png)  
 
 1. [ECCSクラウドメール](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)にログインして，Zoom からメール「Zoomアカウントをアクティベートしてください」を開き，「アクティブなアカウント」をクリックして，アカウントを作成してください．  
@@ -30,7 +30,7 @@ title: 大学の Zoom アカウントの作り方
 
 1. Zoom のアカウントプロフィールページ(https://zoom.us/account) にて「アカウント名」が「UTokyo Zoom」になっていれば，作成成功です．
   * 「無料トライアル」と書かれていても問題ありません
-  * 作成直後にユーザータイプが Basic になっていても，1時間以内に Licensed に変更されますので少々お待ちください
+  * 作成直後にユーザータイプが Basic になっていても，1時間以内に Licensed に変更されますので少々お待ちください  
   ![signup_enter_email_address](img/create_account_20200515_4.png)  
   
   
@@ -48,5 +48,5 @@ title: 大学の Zoom アカウントの作り方
 
 ## どうしても上手くいかない場合は
 * 右下のチャットサポートをご利用下さい
-* それでも上手くいかないときは，[トラブルサポート窓口](https://utelecon.github.io/supports/) の Zoom 専用テンプレートを用いて「メールによるサポート」を受けてうけてください．
+* それでも上手くいかないときは，[トラブルサポート窓口](https://utelecon.github.io/supports/) の Zoom 専用テンプレートを用いて「メールによるサポート」を受けてください．
 
