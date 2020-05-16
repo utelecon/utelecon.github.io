@@ -76,7 +76,6 @@ title: Zoom
   
 
 ## 参考情報
-[Q&A](qa)  
 [オンライン講義の通信量](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F)（人文社会系・大向先生）
 
 ## サブページ一覧
