@@ -18,7 +18,7 @@ title: 大学の Zoom アカウントの作り方
 
 ## アカウントの作り方
 
-1. [Zoom のサインアップ（アカウント作成）ページ] (https://zoom.us/signup) に移動し，誕生日を入力後，メールアドレス入力欄に **共通ID10桁@g.ecc.u-tokyo.ac.jp（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp ではありません）** を入力して，「サインアップ」を押して下さい（**「Google でサインイン」を押さないでください**）<br>
+1. [Zoom のサインアップ（アカウント作成）ページ](https://zoom.us/signup) に移動し，誕生日を入力後，メールアドレス入力欄に **共通ID10桁@g.ecc.u-tokyo.ac.jp（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp ではありません）** を入力して，「サインアップ」を押して下さい（**「Google でサインイン」を押さないでください**）<br>
 [うまく作成できない場合はこちら](#ng_signup)  
  ![signup_enter_email_address](img/create_account_20200515_1.png)  
 
