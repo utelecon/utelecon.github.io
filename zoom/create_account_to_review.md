@@ -18,17 +18,17 @@ title: 大学の Zoom アカウントの作り方
 
 ## アカウントの作り方
 
-1. Zoom のサインアップ（アカウント作成）ページ [https://zoom.us/signup] に移動し，誕生日を入力後，メールアドレス入力欄に **共通ID10桁@g.ecc.u-tokyo.ac.jp（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp ではありません）** を入力して，「サインアップ」を押して下さい（**「Google でサインイン」を押さないでください**）<br>
+1. [Zoom のサインアップ（アカウント作成）ページ] (https://zoom.us/signup) に移動し，誕生日を入力後，メールアドレス入力欄に **共通ID10桁@g.ecc.u-tokyo.ac.jp（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp ではありません）** を入力して，「サインアップ」を押して下さい（**「Google でサインイン」を押さないでください**）<br>
 [うまく作成できない場合はこちら](#ng_signup)  
  ![signup_enter_email_address](img/create_account_20200515_1.png)  
 
 1. [ECCSクラウドメール](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)にログインして，Zoom からメール「Zoomアカウントをアクティベートしてください」を開き，「アクティブなアカウント」をクリックして，アカウントを作成してください．  
   ![signup_enter_email_address](img/create_account_20200515_2.png)  
   
-1. アカウント作成後，Zoom のサインインページ(https://zoom.us/signin) からサインインすると，以下の画像のように「UTokyo ZoomのZoomアカウントに参加」と出てくるので，「アカウントに参加」を押して，「続ける」を押してください．  
+1. アカウント作成後，[Zoom のサインインページ](https://zoom.us/signin) からサインインすると，以下の画像のように「UTokyo ZoomのZoomアカウントに参加」と出てくるので，「アカウントに参加」を押して，「続ける」を押してください．  
   ![signup_enter_email_address](img/create_account_20200515_3.png)  
 
-1. Zoom のアカウントプロフィールページ(https://zoom.us/account) にて「アカウント名」が「UTokyo Zoom」になっていれば，作成成功です．
+1. [Zoom のアカウントプロフィールページ](https://zoom.us/account) にて「アカウント名」が「UTokyo Zoom」になっていれば，作成成功です．
   * 「無料トライアル」と書かれていても問題ありません
   * 作成直後にユーザータイプが Basic になっていても，1時間以内に Licensed に変更されますので少々お待ちください  
   ![signup_enter_email_address](img/create_account_20200515_4.png)  
@@ -39,8 +39,8 @@ title: 大学の Zoom アカウントの作り方
 <a name="ng_signup"> </a>
 ### Zoom のサインアップがうまくできない
 * 既に 共通ID10桁@g.ecc.u-tokyo.ac.jp のアカウントを作っていないかご確認ください
-  * Zoom のサインインページ(https://zoom.us/signin)にて 共通ID10桁@g.ecc.u-tokyo.ac.jp のアドレスでサインインを試してみて下さい（他のアカウントでサインインしている場合はサインアウトしてください）
-  * パスワードがわからない場合は，パスワード再発行ページ(https://zoom.us/forgot_password)にて，共通ID10桁@g.ecc.u-tokyo.ac.jp のアドレスを入力して，ECCSクラウドメールに来た Zoom からのメールを用いてパスワードを再設定してください
+  * [Zoom のサインインページ](https://zoom.us/signin)にて 共通ID10桁@g.ecc.u-tokyo.ac.jp のアドレスでサインインを試してみて下さい（他のアカウントでサインインしている場合はサインアウトしてください）
+  * パスワードがわからない場合は，[パスワード再発行ページ](https://zoom.us/forgot_password)にて，共通ID10桁@g.ecc.u-tokyo.ac.jp のアドレスを入力して，ECCSクラウドメールに来た Zoom からのメールを用いてパスワードを再設定してください
 
 ### ユーザータイプが Licensed ではなく Basic になってしまっている
 * 共通ID10桁@g.ecc.u-tokyo.ac.jp の Zoom アカウントであれば，1時間以内に Licensed になりますので，少々お待ち下さい
