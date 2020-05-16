@@ -65,7 +65,7 @@ title: Web会議 Webex の使い方
 
 ## 接続テスト
 
-利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために<a href="https://utelecon.webex.com/utelecon/j.php?MTID=mc31b90b0055bbe703d079f3a31239ca3" target="_blank">こちらのサイト</a>を用意しています．接続してみてください．
+利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために，Cisco社に協力頂き，<a href="https://hiono-sandbox.webex.com/join/narumi" target="_blank">テストサイト</a>（平日の9:00～17:00）を用意しています．接続してみてください．（東京大学以外の方もぜひどうぞ！）
 
 ## Webex Meetings利用の流れ
 
