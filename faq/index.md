@@ -18,7 +18,7 @@ title: FAQ よくある質問
     * （代返対策）ECCS クラウドメールのアカウント（本学のGoogleアカウント）で<a href="https://docs.google.com/forms/u/0/?tgif=d" target="_blank">Google フォーム</a>を作成する際，フォームの編集画面にて「設定（歯車マーク）」の中の「メールアドレスを収集する」と「東京大学ECCSクラウドメールと信頼できる組織のユーザーに限定する」をオンにする（こうすると学生は自身のECCSクラウドメールでログインした上でアンケートに回答する必要があるため，代返のリスクを下げることができます）
   * Web会議システムを使う場合で，人数的に可能ならば，直接点呼する（その際，ビデオをオンにしてもらって直接顔を確認するなども可能）
 
-
+<a name="zoom"> </a>
 ## Zoom
 
 ### 全般
@@ -36,26 +36,21 @@ title: FAQ よくある質問
 * Zoomの機能を用いて学内限定に設定された会議に参加する人は必要です．一部の授業ではオンライン授業へのアクセスを制御するためにこうしていますので，そのような授業に参加する場合は作って下さい
 * それ以外の会議に参加するだけの人は不要です
 
+#### Q. サインインを何度か失敗し「アカウントがロックされました」と表示された​​
+5回連続でサインインに失敗するとロックされますが，30分経過すれば再度ログイン可能になりますので，30分ほどお待ち下さい．
 
+<a name="zoom_create_account"> </a>
 ### 初期設定
 
-<!--
-
 #### Q. Zoom のアカウント招待メールがない
-
-* ECCS クラウドメール（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp）にメールが届いているため，こちらのページ（[https://mail.google.com/a/g.ecc.u-tokyo.ac.jp](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)）から Google にログインしてメールを探してみてください
-  * ない場合は，迷惑メールボックスに入っていないかご確認ください．
-  * もしくは，Gmail 内で「Zoom 招待 in:all」と検索してご確認ください（in:all オプションを付けると迷惑フォルダも含めてメールを検索できます）
+* 東大の Zoom アカウントは，招待メールを使わずに作成可能です．[アカウントの作り方ページ](https://utelecon.github.io/zoom/create_account)をご覧ください
 
 #### Q. 招待メールのボタンを押すと「ユーザが存在しません」「期限切れ」と出た
-* 以下の手順で作業をしてみてください
-1. Zoom のサインアップページ（[https://zoom.us/signup](https://zoom.us/signup)）で，共通ID10桁@g.ecc.u-tokyo.ac.jp のメールアドレスを使ってアカウントを作成します
-2. 再度招待メールを開きます
-3. Zoom のプロフィールページ（[https://zoom.us/profile](https://zoom.us/profile)）にサインイン後，「ユーザータイプ」が Licensed，機能 大規模ミーティング500、ウェビナー500となっていれば完了です
+* 東大の Zoom アカウントは，招待メールを使わずに作成可能です．[アカウントの作り方ページ](https://utelecon.github.io/zoom/create_account)をご覧ください
 
 #### Q. ユーザータイプが Licensed ではなく Basic になってしまっている
-
--->
+* 共通ID10桁@g.ecc.u-tokyo.ac.jp の Zoom アカウントであれば，1時間以内に Licensed になりますので，少々お待ち下さい
+* ご自身で設定された文字列@g.ecc.u-tokyo.ac.jp の Zoom アカウントは Licensed になりませんので，[アカウントの作り方ページ](https://utelecon.github.io/zoom/create_account)を読んで，共通ID10桁@g.ecc.u-tokyo.ac.jp の Zoom アカウントをご作成ください
 
 #### Q. パスワードがわからない
 * 以下の手順で作業してください
@@ -69,13 +64,6 @@ title: FAQ よくある質問
 
 
 ### 入室トラブル
-#### Q. 100人を越えたので授業に入れなかった
-
-#### Q. 入室しようとしたら「このミーティングの対象者は権限のある参加者のみです」「社内ミーティング専用」と言われた
-* Zoom の会議室が学内限定公開になっているため，起こるエラーです．以下の手順を試してみてください
-  1. 
-      * 専用アプリで入室しようとしている場合，そのアプリで上記のアカウントを用いてサインインしてください
-  2. サインイン後に再度 Zoom の会議室に入室してみてください
 
 #### Q. ミーティングに参加しようとしたら「このミーティングの対象者は権限のある参加者のみです」と出て参加できないのですがどうすればよいでしょうか？  
 * 開催者（ホスト）が東京大学の Zoom アカウントを持ったユーザーしか入れない設定にしているためだと思われます
@@ -159,24 +147,20 @@ title: FAQ よくある質問
 * 利用許諾から実際に使えるようになるまでに時間がかかります. 日中は最大3時間, 夜は翌朝の11:00までお待ち下さい(正確には「はい」にして保存から直近の11:00, 14:00, 17:00, 20:00ごろまでお待ち下さい).
 * それでもダメという場合, 一度「利用規約に合意し利用権を申請する」の「いいえ」を選んで「保存」してから, また「はい」を選んで保存する(そして上記の時間待つ)とうまくいくことがあります
 
-### Q. <a href="https://www.office.com/?auth=2" target="_blank">Officeにサインインした画面</a>でExcel, Wordなどのアプリのアイコンがでてこない
+### Q. Officeにサインインした画面でExcel, Wordなどのアプリのアイコンがでてこない
 
+* 参考: <a href="https://www.office.com/?auth=2" target="_blank">Officeにサインインした画面</a>
 * 一度も起動したことのないアプリのアイコンは出てこないようなので, 左上のタイルメニューを開いてみて下さい. 
 
 <!--
 学内者限定のExcel Workbookにアクセスできない
 -->
 
-
-### ECCSクラウドメールにログインできない
-
-### 学内者限定のGoogle Spreadsheetにアクセスできない
-
-
 ## UTAS
 
-### Q. <a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do" target="_blank">UTAS</a>にログインできない
+### Q. UTAS にログインできない
 
+* 参考: <a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do" target="_blank">UTAS</a>
 * <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>や<a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">ITC-LMS</a>にログインできるか確かめてみてください
   * それらはログインできるのにUTASに出来ない場合:
     * 稀に, UTokyo Accountが発行されているのにUTASのアカウントが発行されていない場合があります. 所属の事務室に, 10桁の共通IDとともに, 自分にUTASのアカウントが発行されているかを尋ねて下さい
@@ -200,8 +184,9 @@ title: FAQ よくある質問
 
 ## UTokyo Account
 
-### Q. <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>にログインできない
+### Q. UTokyo Account利用者メニューにログインできない
 
+* 参考: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>
 * ユーザ名にUTokyo Accountの共通ID <font color=""green"">「10桁の数字」</font>を入力していることを確認してください
   * 10桁の数字@utac.u-tokyo.ac.jp <font color=""red"">ではありません</font>
 * ユーザ名を正しく入力しているのにエラーが出る(ユーザID・パスワードが不正です。)と出る場合, パスワードが間違っているのかも知れませんので, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみてください
