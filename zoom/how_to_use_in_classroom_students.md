@@ -3,14 +3,20 @@ title: Zoom 授業での使い方（学生編）
 ---
 
 授業における，学生の Zoom の使い方を紹介します．  
-[学生・教員共通の使い方](how_to_use_in_classroom_common)も必要に応じてご参照下さい．
 
 # 授業前
+## [[バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how/common/virtual_background)
+
+# 授業中
+<a name="use_mic_and_camera"> </a>
+## [マイクとカメラを使う](how/common/use_mic_and_camera)
 
 
 # 授業中
 
 <a name="hand_reaction"> </a>
-## [学生に手を挙げる・反応する](how/students/hand_reaction)
+## [[挙手・反応] 手を挙げる・反応する](how/students/hand_reaction)
+
+## [[バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how/common/virtual_background)
 
 # 授業後

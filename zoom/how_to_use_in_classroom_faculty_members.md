@@ -7,23 +7,28 @@ title: Zoom 授業での使い方（教員編）
 
 # 授業前
 <a name="schedule"> </a>
-## [複数回利用できる URL が変わらない会議室を予約する](how/faculty_members/schedule)
+## [[スケジュール] 複数回利用できる URL が変わらない会議室を予約する](how/faculty_members/schedule)
+
+## [[バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how/common/virtual_background)
+
 
 # 授業中
 
+## [マイクとカメラを使う](how/common/use_mic_and_camera)
+
 <a name="sharing_screen_materials"> </a>
-## [画面共有を用いて PowerPoint，Word などの資料を提示する](how/faculty_members/sharing_screen)
+## [[画面共有] PowerPoint，Word などの資料を提示する](how/faculty_members/sharing_screen)
 
 <a name="hand_reaction"> </a>
-## [学生に手を挙げてもらう・反応してもらう](how/faculty_members/hand_reaction)
+## [[挙手・反応] 学生に手を挙げてもらう・反応してもらう](how/faculty_members/hand_reaction)
 
 <a name="chat"> </a>
-## [チャットで学生とコミュニケーションをとる](how/faculty_members/chat)
+## [[チャット] 学生とコミュニケーションをとる](how/faculty_members/chat)
 
 <a name="poll"> </a>
-## [投票を使って学生に多肢選択の質問を行う](how/faculty_members/poll)
+## [[投票] 学生に多肢選択の質問を行う](how/faculty_members/poll)
 
 # 授業後
 
 <a name="attendance"> </a>
-## [出席管理を行う](how/faculty_members/attendance)
+## [[レポート] 出席管理を行う](how/faculty_members/attendance)
