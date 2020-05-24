@@ -9,10 +9,7 @@ title: Zoom 授業での使い方（学生編）
 
 # 授業中
 <a name="use_mic_and_camera"> </a>
-## [マイクとカメラを使う](how/common/use_mic_and_camera)
-
-
-# 授業中
+## [[マイク・カメラ] マイクとカメラを使う](how/common/use_mic_and_camera)
 
 <a name="hand_reaction"> </a>
 ## [[挙手・反応] 手を挙げる・反応する](how/students/hand_reaction)

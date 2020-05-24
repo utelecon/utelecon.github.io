@@ -55,48 +55,41 @@ title: Zoom
   1. ミーティングを行います（<a href="how_to_use" target="">具体的なZoomの使い方</a>）
 
 ## 授業での使い方
-授業における使い方について，まだ個別の動画が出来上がっていませんが，[オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)に動画（限定公開）があるため，そちらも合わせて御覧ください． 
-ただ，[会議室のスケジュール](how_to_use_in_classroom_faculty_members#schedule)の方法は以下のものをご参考にしていただいた方が実際の授業に合っているかと思いますので，そちらをご参照ください． 
+授業における使い方について，[オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)に動画（限定公開）も合わせてご覧ください． 
+ただ，[会議室のスケジュール](how_to_use_in_classroom_faculty_members#schedule)の方法は[本リンク](how_to_use_in_classroom_faculty_members#schedule)の方が実際の授業に合っているかと思いますので，そちらをご参照ください． 
 
-* [学生・教員共通編](how_to_use_in_classroom_common)
-  * <a href="how_to_use_in_classroom_common#use_mic_and_camera">マイクとカメラの設定を変更する（ミュートする，マイクのチェックする，カメラをオンオフするなど）</a>
-  * [カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how_to_use_in_classroom_common_virtual_background)  
-  <br>
-* 授業での使い方（学生編）
-  * <a href="">手を挙げる方法（作成中）</a>  
+* [授業での使い方（学生編）](how_to_use_in_classroom_students)
+  * 授業前
+    * [バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する
+  * 授業中
+    * [マイク・カメラ] マイクとカメラを使う
+    * [挙手・反応] 手を挙げる・反応する
+    * [バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する  
   <br>
 * [授業での使い方（教員編）](how_to_use_in_classroom_faculty_members)
-  * [授業をスケジュールする](how_to_use_in_classroom_faculty_members#schedule)
-  * [PowerPoint，Word などの資料を提示する（画面共有）](how_to_use_in_classroom_faculty_members#sharing_screen_materials)
-  * [質問を受け付ける（チャット）](how_to_use_in_classroom_faculty_members#chat)
-  * [学生に対して多肢選択の質問する（投票）](how_to_use_in_classroom_faculty_members#poll)
-  * グループワークを行う（ブレイクアウト，作成中）
-  * 授業を録画する（レコーディング，作成中）
-  * [出席を確認する（レポート）](how_to_use_in_classroom_faculty_members#attendance)
-  
+  * 授業前
+    * [スケジュール] 複数回利用できる URL が変わらない会議室を予約する
+    * [バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する
+  * 授業中
+    * [マイク・カメラ] マイクとカメラを使う
+    * [画面共有] PowerPoint，Word などの資料を提示する
+    * [挙手・反応] 学生に手を挙げてもらう・反応してもらう
+    * [チャット] 学生とコミュニケーションをとる
+    * [投票] 学生に多肢選択の質問を行う
+  * 授業後
+    * [レポート] 出席管理を行う  
 
 ## 参考情報
 [オンライン講義の通信量](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F)（人文社会系・大向先生）
 
 ## サブページ一覧
+* <a href="create_account" target="">大学のアカウントの作り方</a>  
+* [Zoomのアカウントとライセンスに関する注意点](https://utelecon.github.io/zoom/zoom_signin)
 * <a href="install" target="">インストールの方法</a>  
-* <a href="create_account" target="">アカウントの作り方（開催者用）</a>  
 * <a href="create_room" target="">会議室の作り方（開催者用）</a>  
 * <a href="join" target="">会議室の入り方</a>  
 * Zoom の使い方
   * <a href="how_to_use" target="">開催者・参加者共通の使い方</a>  
   * <a href="how_to_use_host" target="">開催者特有の使い方</a>  
-* [授業での使い方（学生・教員共通編）](how_to_use_in_classroom_common)
-  * <a href="how_to_use_in_classroom_common#use_mic_and_camera">マイクとカメラの設定を変更する（ミュートする，マイクのチェックする，カメラをオンオフするなど）</a>
-	<br>
-* 授業での使い方（学生編）
-  * <a href="">手を挙げる方法（作成中）</a>
-  <br>
+* [授業での使い方（学生編）](how_to_use_in_classroom_students)
 * [授業での使い方（教員編）](how_to_use_in_classroom_faculty_members)
-  * [授業をスケジュールする](how_to_use_in_classroom_faculty_members#schedule)
-  * [PowerPoint，Word などの資料を提示する（画面共有）](how_to_use_in_classroom_faculty_members#sharing_screen_materials)
-  * [質問を受け付ける（チャット）](how_to_use_in_classroom_faculty_members#chat)
-  * [学生に対して多肢選択の質問する（投票）](how_to_use_in_classroom_faculty_members#poll)
-  * グループワークを行う（ブレイクアウト，作成中）
-  * 授業を録画する（レコーディング，作成中）
-  * [出席を確認する（レポート）](how_to_use_in_classroom_faculty_members#attendance)
