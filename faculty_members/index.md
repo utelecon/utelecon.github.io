@@ -115,9 +115,9 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
   * Web 会議システムを使った動画の作り方
   <br>
   <br>
-* ファイルのアップロードと共有方法
-  * Google Drive の使い方
-  * One Drive の使い方
+* 動画ファイルのアップロードと共有方法
+  * [Google Drive の使い方](how/google/share_video)
+  * Zoom クラウドレコーディングの使い方
 
 <a name="shared_materials"> </a>
 ## ご共有いただいた実践例・参考情報（随時募集中）

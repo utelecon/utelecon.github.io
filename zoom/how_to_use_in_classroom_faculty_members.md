@@ -28,7 +28,11 @@ title: Zoom 授業での使い方（教員編）
 <a name="poll"> </a>
 ## [[投票] 学生に多肢選択の質問を行う](how/faculty_members/poll)
 
+## [[レコーディング] クラウドに録画する](how/faculty_members/recording_cloud)
+
 # 授業後
+
+## [[レコーディング] クラウドに録画して共有する](how/faculty_members/recording_cloud)
 
 <a name="attendance"> </a>
 ## [[レポート] 出席管理を行う](how/faculty_members/attendance)
