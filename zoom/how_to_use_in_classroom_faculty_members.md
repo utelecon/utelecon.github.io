@@ -12,7 +12,7 @@ title: Zoom 授業での使い方（教員編）
 # 授業中
 
 <a name="sharing_screen_materials"> </a>
-## [画面共有を用いて PowerPoint，Word などの資料を提示する](sharing_screen)
+## [画面共有を用いて PowerPoint，Word などの資料を提示する](how/faculty_members/sharing_screen)
 
 <a name="hand_reaction"> </a>
 ## [学生に手を挙げてもらう・反応してもらう](how/faculty_members/hand_reaction)

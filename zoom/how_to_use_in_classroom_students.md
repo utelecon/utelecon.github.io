@@ -11,6 +11,6 @@ title: Zoom 授業での使い方（学生編）
 # 授業中
 
 <a name="hand_reaction"> </a>
-## [学生に手を挙げる・反応する](how/faculty_members/hand_reaction)
+## [学生に手を挙げる・反応する](how/students/hand_reaction)
 
 # 授業後
