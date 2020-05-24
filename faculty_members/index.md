@@ -1,8 +1,6 @@
 ---
 title: 教員のための、オンライン授業を行うにあたって
 ---
-更新日: 2020年4月3日
-
 
 ## はじめに  
 
@@ -101,23 +99,26 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 * グループワークのオンライン化
 
 
-## 具体的なツールの使い方（執筆中）
+## 具体的なツールの使い方
 
 * 学習環境の整え方
   * [ITC-LMSの使い方](../lms_lecturers/)
-  * Google Classroom の使い方
-  <br>
-  <br>
+  * [Google Classroom の使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)
+  <br><br>
 * 教材の作り方
-  * [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)にてそれぞれのトピックを説明しているため，記事が出来上がるまではそちらの動画を御覧ください
-  * Googleドキュメントの音声認識を使った素早いテキスト入力の方法
-  * PowerPoint を用いた簡単な動画の作り方
-  * Web 会議システムを使った動画の作り方
-  <br>
-  <br>
-* 動画ファイルのアップロードと共有方法
-  * [Google Drive の使い方](how/google/share_video)
-  * Zoom クラウドレコーディングの使い方
+  * [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)にてそれぞれのトピックを説明しているため，そちらの動画も御覧ください
+  * [Googleドキュメントの音声認識を使った素早いテキスト入力の方法（外部サイト）](http://google.tku.ac.jp/docs/4/6)
+  * [PowerPoint を用いた簡単な動画の作り方（外部サイト）](https://kagakucafe.com/202004095777.html)
+  * [Zoom を使った動画の作り方（外部サイト）](https://media.tebiki.jp/022)
+  <br><br>
+* 動画ファイルの共有方法
+  * [Google Drive に動画ファイルをアップロードして共有する方法](how/google/share_video)
+  * [Zoom クラウドに録画して共有する方法](https://utelecon.github.io/zoom/how/faculty_members/recording_cloud)
+  <br><br>
+* Web 会議システムの使い方
+  * [Zoom](https://utelecon.github.io/zoom/)
+  * [Webex](https://utelecon.github.io/webex/)
+  * [Google Meet](https://utelecon.github.io/google_hangouts_meet/)
 
 <a name="shared_materials"> </a>
 ## ご共有いただいた実践例・参考情報（随時募集中）
