@@ -123,9 +123,12 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 <a name="shared_materials"> </a>
 ## ご共有いただいた実践例・参考情報（随時募集中）
 
-ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  
-資料をお持ちの方でご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  
-もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，以下のリストに情報を付け加えていただき，pull request を送っていただければ幸いです．  
+### はじめに 
+
+ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  <BR>
+
+資料をお持ちの方でご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，以下のリストに情報を付け加えていただき，pull request を送っていただければ幸いです．  <BR>
+
 現時点では，箇条書きでご紹介させていただきますが，情報が増えてきましたら別途整理などさせていただく予定です．  
 また，各授業方法のオンライン化の項目などで別途ご紹介させていただく可能性があること，ご了承いただければ幸いです．  
 
