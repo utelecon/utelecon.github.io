@@ -121,15 +121,18 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
   * [Google Meet](https://utelecon.github.io/google_hangouts_meet/)
 
 <a name="shared_materials"> </a>
-## ご共有いただいた実践例・参考情報（随時募集中）
+## ご共有いただいた資料・実践例・参考情報（随時募集中）
 
 ### はじめに 
 
 ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  <BR>
 
-また，あらたに資料をご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，以下のリストに情報を付け加えていただき，pull request を送っていただければ幸いです．  <BR>
+また，あらたに資料をご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，下記にあります**新しい情報** のエリアに情報を付け加えていただき，pull request を送っていただければ幸いです．**新しい情報** にいただいた情報は適宜当方にて整理させていただきます，  <BR>
 
-下記，見出しをつけて整理した形で紹介します．
+### 新しい情報 
+新しくお寄せいただける情報がこちらへお願いします．
+
+
 
 ### オンライン授業を行うための総合的な資料
 
@@ -176,6 +179,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 
 ### オンライン授業の事例
 * **Eindhoven工科大学におけるZoom講義の一例** \[[PDF](materials/lecture_example_Technische_Universiteit_Eindhoven.pdf)\] (工学系研究科 大西先生)：大西先生が実際に受けられたEindhoven工科大学におけるZoom講義の感想が記載されています．講義の流れ，講師の運営体制，講義を受けた上での懸念点などが載っています．
+
 
 
 <a name="links"> </a>
