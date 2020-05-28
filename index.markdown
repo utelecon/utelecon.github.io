@@ -4,6 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/5/27:</span> クラスサポーター研修の動画が（限定）公開されました．不参加だったクラスサポーターの方は視聴してください．（[クラスサポーター研修](https://utelecon.github.io/events/2020-05-20/)）
 * <span style="color:blue;">2020/5/26:</span> 5/30より後に Zoom 5.0.0 未満のバージョンではミーティングの主催・参加ができなくなるため，Zoom の更新をお願いします（[更新方法](https://did2memo.net/2020/04/10/zoom-update/)，[「Zoom 5.0」よくある質問（FAQ）](https://symphonict.nesic.co.jp/zoom/wp-content/uploads/2020/05/Zoom_5.0-FAQ.pdf)）
 * <span style="color:blue;">2020/5/19:</span> (教員用)5/20 12:10から[オンライン授業情報交換会(トピック：評価)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/5/13:</span> (5/18 締め切りました)<s>(学生用)5/17〆切 トラブルに対応する学生のコモンサポーターを募集中</s>
