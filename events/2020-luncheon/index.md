@@ -12,9 +12,20 @@ title: オンライン授業情報交換会
   * ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります
   * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください．
   * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
-* [Excelオンライン](https://tinyurl.com/y8wdd9ku) 
+* [Excelオンライン](https://tinyurl.com/yaqkvu83) 
   * UTokyo Account10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります．
   * 上手くアクセスできない場合は[こちら](https://www.office.com/)に行き，（サインインしている場合は一度サインアウトして）UTokyo Account10桁のID@utac.u-tokyo.ac.jpでサインインしてください
+
+
+◆ 第7回
+
+【日時】2020年5月29日　12:10-12:50 <br>
+【トピック】 授業の工夫の共有 <br>
+【スライド】　当日 <br>
+【動画】 後日 <br>
+【対象】本学の授業を担当する教員や授業支援をする方々 <br>
+【概要】オンライン授業が始まって約2ヶ月が経過しました．ここで，どういった授業を行い，どんな工夫をしたか互いに共有をしませんか．普段話したことのない人と話をするチャンスでもあります．「他の人の話をただ聞きたい」人も参加できるような設計にしておりますのでどうぞお気軽にご参加ください．
+
 
 ◆ 第6回
 
