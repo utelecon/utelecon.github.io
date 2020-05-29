@@ -8,7 +8,7 @@ title: Webex アカウントの作成とログイン
 1. <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールを有効化</a>します．
 1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">フォーム</a>からアカウントを申請します．
 
-	* フォームへのアクセスにはUTokyo Account（10桁の共通ID@utac.u-tokyo.ac.jp）でのログインが必要です．
+	* フォームへのアクセスにはUTokyo Account（10桁の共通ID@utac.u-tokyo.ac.jp）でのログインが必要です．フォームにアクセスできなかった場合は[こちらのトラブルシューテ ィングのページ](../faq/msaccount-troubleshooting)の手順を行ってください.
 	* アカウントは手動で作成しているため，若干時間がかかります．
 	* 申請をすると，はじめに事務局からアカウント手続きに関するメールが届きます．その後，システムからのメールが届きます．正確に手続きしないとトラブルシューティングが必要となってしまうため，はじめに届く事務局からのメールを読んでからシステムのメールを開いてください．
 
