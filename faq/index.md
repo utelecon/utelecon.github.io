@@ -188,8 +188,8 @@ title: FAQ よくある質問
 ### Q. UTokyo Account利用者メニューにログインできない
 
 * 参考: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>
-* ユーザ名にUTokyo Accountの共通ID <font color=""green"">「10桁の数字」</font>を入力していることを確認してください
-  * 10桁の数字@utac.u-tokyo.ac.jp <font color=""red"">ではありません</font>
+* ユーザ名にUTokyo Accountの共通ID <span style="color:green;">「10桁の数字」</span>を入力していることを確認してください
+  * 10桁の数字@utac.u-tokyo.ac.jp <span style="color:red;">ではありません</span>
 * ユーザ名を正しく入力しているのにエラーが出る(ユーザID・パスワードが不正です。)と出る場合, パスワードが間違っているのかも知れませんので, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみてください
 
 ### Q. UTokyo Accountのパスワード再設定でUser ID入力欄でエラーになる
