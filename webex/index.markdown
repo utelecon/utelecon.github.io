@@ -15,8 +15,8 @@ title: Web会議 Webex の使い方
 		* 参考：[UTokyo 90 Days Cisco Webex](https://www.u-tokyo.ac.jp/adm/dics/ja/90dayswebex.html)
 		* アカウントの取得方法は[Webex アカウントの作成とログイン](create_webex_account)を参照してください.
 	* 安全性追加サービス（180日の無償サービス：追加でサービスを開始したもの）
-		* End to End 暗号化された会議が開けます. 
-		* アカウントの取得方法は[Webex Meetingsを使った安全な会議の開き方](encrypted_meeting)を参照してください．
+		* [End to End 暗号化された会議](encrypted_meeting)が開けます. 
+		* [アカウントの取得方法](encrypted_meeting)
 * ここでは Web会議システム Webex の特徴や利用の流れについて説明します．このページでは全体的な特徴や大まかな流れを説明し,具体的な部分はサブページで説明します．
 	* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで WebEx を使えます.
 	* Webex MeetingsとWebex Eventsを使用する場合，最大200台までテレビ会議システム（いわゆるPolycom等）を接続することができます．**また，テレビ会議システムから何でもかんでもできるわけではありません．テレビ会議システムからの参加は事前に十分味見をしてからどうぞ．**
