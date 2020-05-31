@@ -4,17 +4,8 @@ title: 大学の Zoom アカウントの作り方
 
 ## お知らせ
 
-* **Zoomアカウントの<a href="setting_issues">初期設定時のトラブルに関するFAQ</a>**
-
-<!--
-* 授業を行うためにZoomの会議を<font color="green">開催する人</font>(またはそれを代行する人)は, <a href="create_account" target="">Zoomのアカウントのアクティベーション</a>が<font color="green">必要</font>です
-* 授業に<font color="purple">参加するだけの人</font>(正確には誰かが開催したZoom会議に参加(join)するだけの人)はZoomアカウントのアクティベーションは<font color="purple">不要</font>です
--->
-
-* 教職員および3/24時点でUTokyo Accountを持っていた学生のECCSクラウドメール(G Suite for Education)のGmailアドレス (xxxxx@g.ecc.u-tokyo.ac.jp)に, 大学で契約するZoom Pro (500人までの会議とWebinarが可能) のアカウントのアクティベーションを招待するメールが届いています(3/16 教職員あて, 3/24-25 学生あてに発出)
- * アカウントのアクティベーションが必要, またはしたい人は, ECCSクラウドメールを開いてそのメールを取得し, 本ページを参考にアクティベーションを行って下さい. <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/">ECCSクラウドメールの設定</a>をしていない方はして下さい.
- * アクティベーションしようとしたら<font color="red">「ユーザが存在しません」というエラーが出る</font>という事例が多く報告されております.
- * この事例またはその他のトラブルに遭遇したら, Zoomアカウントの<a href="setting_issues.md">初期設定に関するFAQ</a>に関する情報をご覧ください
+* **アカウントの作成方法が大きく変わりました．招待メールを使わないで作成できます**
+* 2020/05/16 の夜に個別にメールで招待メールを発行された方は[こちら](create_account_invitation)をご覧ください
 
 ## 本メールによってアクティベートされるZoomのライセンス
 
@@ -28,65 +19,35 @@ title: 大学の Zoom アカウントの作り方
 
 ## アカウントの作り方
 
-1. 以下のような招待メールが教職員全員（2020年3月16日），学生全員（2020年3月24日から25日，一部の学生は作成できていないようで現在原因究明有です）にZoomからあなたのECCSクラウドメールに届いています．GmailにECCSクラウドメールアカウントでログインし、開封してください．
-  ![](img/zoom_account_email.png)  
+1. [Zoom のサインアップ（アカウント作成）ページ](https://zoom.us/signup) に移動し，誕生日を入力後，メールアドレス入力欄に **共通ID10桁@g.ecc.u-tokyo.ac.jp（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp ではありません）** を入力して，「サインアップ」を押して下さい（**「Google でサインイン」を押さないでください**）<br>
+[うまく作成できない場合はこちら](#ng_signup)  
+ ![signup_enter_email_address](img/create_account_20200515_1.png)  
 
-
-1. メールの「Zoomアカウントのアクティベート」をクリックします  
+1. [ECCSクラウドメール](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)にログインして，Zoom からメール「Zoomアカウントをアクティベートしてください」を開き，「アクティブなアカウント」をクリックして，アカウントを作成してください．  
+  ![press_active_account](img/create_account_20200515_2.png)  
   
-1. Web ブラウザーで以下の画面が出てきますので，下の「パスワードでサインアップ」をクリックします．  
-  * 以前の画面で「Googleでサインイン」を押して[間違えて作ってしまった人へ](#if_you_create_a_wrong_account)
-  ![](img/zoom_account_browser1.png)
-  
-1. 氏名とパスワードを設定し，「続ける」を押します  
-  ![](img/zoom_account_browser2.png)
-  
-1. アカウントの設定は終了です．必要に応じて「Zoomミーティングを今すぐ始める」か「マイアカウント」で細かい設定をしてください  
-  ![](img/zoom_account_browser3.png)
+1. アカウント作成後，[Zoom のサインインページ](https://zoom.us/signin) からサインインすると，以下の画像のように「UTokyo ZoomのZoomアカウントに参加」と出てくるので，「アカウントに参加」を押して，「続ける」を押してください．  
+  ![press_join_the_account](img/create_account_20200515_3.png)  
+
+1. [Zoom のアカウントプロフィールページ](https://zoom.us/account) にて「アカウント名」が「UTokyo Zoom」になっていれば，作成成功です．
+  * 「無料トライアル」と書かれていても問題ありません
+  * 作成直後にユーザータイプが Basic になっていても，1時間以内に Licensed に変更されますので少々お待ちください  
+  ![check_account_name](img/create_account_20200515_4.png)  
   
   
-以上の流れで，アカウントを作成できます．
+## うまく作成できない場合は
 
-<a name="if_you_create_a_wrong_account"> </a>
-## 間違えて作ってしまった人は
+<a name="ng_signup"> </a>
+### Zoom のサインアップがうまくできない
+* 既に 共通ID10桁@g.ecc.u-tokyo.ac.jp のアカウントを作っていないかご確認ください
+  * [Zoom のサインインページ](https://zoom.us/signin)にて 共通ID10桁@g.ecc.u-tokyo.ac.jp のアドレスでサインインを試してみて下さい（他のアカウントでサインインしている場合はサインアウトしてください）
+  * パスワードがわからない場合は，[パスワード再発行ページ](https://zoom.us/forgot_password)にて，共通ID10桁@g.ecc.u-tokyo.ac.jp のアドレスを入力して，ECCSクラウドメールに来た Zoom からのメールを用いてパスワードを再設定してください
 
-上記で「Googleのサインイン」でアカウントをアクティベートしてしまうと, 正しくZoom Proのライセンスが有効になりません. 回復するために以下のどちらかを行ってください.
+### ユーザータイプが Licensed ではなく Basic になってしまっている
+* 共通ID10桁@g.ecc.u-tokyo.ac.jp の Zoom アカウントであれば，1時間以内に Licensed になりますので，少々お待ち下さい
 
-### 回復方法1: アクティベーションメールを再送してもらう.
 
-情報戦略チーム jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp へ以下の文面で連絡をお送りください　（非常勤講師の方の所属は、東京大学での講義を担当している部局を書いてください）
+## どうしても上手くいかない場合は
+* 右下のチャットサポートをご利用下さい
+* それでも上手くいかないときは，[トラブルサポート窓口](https://utelecon.github.io/supports/) の Zoom 専用テンプレートを用いて「メールによるサポート」を受けてください．
 
-```
-◯◯(所属、身分)の◯◯です
-UTokyo Account (10桁の共通ID)は, ◯◯◯◯◯◯◯◯◯◯です
-
-Zoomアカウントを間違えてアクティベートしたので, アクティベーションのメールを再送してください
-
-```
-
-例:
-
-```
-情報基盤センター教授の田浦健次朗です
-UTokyo Account (10桁の共通ID)は, 261....608です
-
-Zoomアカウントを間違えてアクティベートしたので, アクティベーションのメールを再送してください
-
-```
-
-### 回復方法2: 自力で回復する
-1. [Zoomホームページ](https://zoom.us/) へ行く
-1. もし Sign In 中であれば, 以下のように「マイアカウント」というボタンが現れる
- ![](img/recover_1.png)
-ので, それを押す. 以下のような画面になるので
- ![](img/recover_2.png)
-「サインアウト」をクリックする.
-1. 再び[Zoomホームページ](https://zoom.us/) へ行くと今度は以下のように「サインイン」ボタンが現れる
- ![](img/recover_3.png)
-ので, それを押して, 以下のように入力画面を表示し,
- ![](img/recover_4.png)
-<font color="red">「パスワードをお忘れですか」</font>へ進む(ここがポイント).
-1. 以下のメールアドレスの窓に,
- ![](img/recover_5.png)
-<font color="red">10桁の共通ID@g.ecc.u-tokyo.ac.jp</font> を入力. 「送信」すると，アクティベーション用のリンクがあなたのECCSクラウドメールアカウント (xxxx@g.ecc.u-tokyo.ac.jp) に送られてきます.  <font color="red">注:</font> 指定するメールアドレスは, 10桁の共通ID@g.ecc.u-tokyo.ac.jp ですが, 実際にはあなたがECCSを初期設定した際に指定したアカウントで読むことができます(両者はエイリアスになっています. (<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html" target="_blank">説明</a>).
- 

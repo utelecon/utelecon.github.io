@@ -1,6 +1,9 @@
 ---
-title: Webex アカウントの作成とログイン
+title: Webex アカウントの作成とログイン（廃止）
+sitemap: false
 ---
+
+<span style="color:red; font-size:150%;">以下の内容は，2020年6月8日まで利用可能なWebexサービスを利用するためのアカウントの取得方法です．サポートされません．[Webexの安全な会議のためのアカウントアクティベーション手順](create_utelecon_account)を参照してください．</span>
 
 ## Webexアカウントを作成する	
 * <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールが有効化</a>されたら, <a href="https://apj27.webex.com/mw3300/mywebex/forgotpwd.do?siteurl=apj27-jp" target="_blank">パスワード設定のページ</a>（下図）にいき，パスワード設定手続きを行います．このときメールアドレスは，たとえば，共通IDが 1234567890 の方は 1234567890@g.ecc.u-tokyo.ac.jp という形で入れてください.（画面が「ユーザ名またはパスワードを忘れた」となっており違和感を感じられるかと思いますが，プロセスは正しいので気ににせず手続きを進めてください．）「送信」を押すとECCSクラウドメールにパスワード再設定のためのメールが送られます．

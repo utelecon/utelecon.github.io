@@ -1,5 +1,5 @@
 ---
-title: Ho to install Zoom
+title: How to install Zoom
 layout: en
 ---
 

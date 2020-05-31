@@ -19,11 +19,11 @@ Webex Meetingsには，クライアント間で暗号化された（途中で復
 
 ## アカウントの申請
 
-安全な会議を開くためのWebexアカウントは新規に必要です．（手動で作成しているため若干時間がかかります．）申請をすると，はじめに事務局からアカウント手続きに関するメールが届きます．その後，システムからのメールが届きます．正確に手続きしないとトラブルシューティングが必要となってしまうため、はじめに届く事務局からのメールを読んでからシステムのメールを開いてください．
+安全な会議を開くためのWebexアカウントは新規に必要です．（手動で作成しているため若干時間がかかります．）申請をすると，はじめに事務局からアカウント手続きに関するメールが届きます．その後，システムからのメールが届きます．正確に手続きしないとトラブルシューティングが必要となってしまうため，以下の手順でアカウント取得をしてください．
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">こちらのフォーム</a>から申請してください．フォームへのアクセスにはUTokyo Account（10桁の共通ID@utac.u-tokyo.ac.jp）でのログインが必要です． 
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">こちらのフォーム</a>から申請してください．フォームへのアクセスにはUTokyo Account（10桁の共通ID@utac.u-tokyo.ac.jp）でのログインが必要です．フォームにアクセスできなかった場合は[こちらのトラブルシューティングのページ](../faq/msaccount-troubleshooting)の手順を行ってください. 
 
-[アカウントアクティベーションに関する説明ページ](create_utelecon_account.html)
+システムのメールが届いた後の手順は[Webex アカウントの作成とログイン](create_utelecon_account)に従って初期設定をしてください.
 
 ### アカウントの説明
 
@@ -31,27 +31,22 @@ Webex Meetingsには，クライアント間で暗号化された（途中で復
 
 3月から利用しているapj27.webex.com（通常のwebex機能）のアカウントと併用することができます．ログインするときに選択する画面がでますので，利用するものを選択してください．
 
-## アカウントの初期設定
-
-安全な会議のためのWebexアカウントは以下の手順で利用開始してください。
-
-[アカウントの初期設定手順](create_utelecon_account)
-
 ## 接続テスト
 
-利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために<a href="https://utelecon.webex.com/utelecon/j.php?MTID=mc31b90b0055bbe703d079f3a31239ca3" target="_blank">こちらのサイト</a>を用意しています．接続してみてください．
+利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために，Cisco社に協力頂き，<a href="https://hiono-sandbox.webex.com/join/narumi" target="_blank">テストサイト</a>（平日の9:00～17:00）を用意しています．接続してみてください．（東京大学以外の方もぜひどうぞ！）
 
 ## 使い方
 
-安全な会議は以下の手順で利用してください。
+安全な会議は以下の手順で利用してください．
 
 [Webexで安全性の高い会議を行うためのプラクティス](how_to_open_secure_meetings)
 
 ## FAQ
 
-* Zoomとの違いはどこですか。
-	* 現在の Zoom のサービスでの暗号化はクライアント暗号化（サーバとクライアント間の通信の暗号化）です。サーバで復号化されています。（Webexも通常の利用方法ではクライアント暗号化をします）
-* End to End 暗号化の詳細を教えてください。
-	* Cisco社の[説明のページ](https://help.webex.com/ja-jp/WBX44739/What-Does-End-to-End-Encryption-Do)を参照してください。
-* 本当に安全ですか。
-	* 検証中です。
+* Zoomとの違いはどこですか．
+	* 現在の Zoom のサービスでの暗号化はクライアント暗号化（サーバとクライアント間の通信の暗号化）です．サーバで復号化されています．（Webexも通常の利用方法ではクライアント暗号化をします）
+* End to End 暗号化の詳細を教えてください．
+	* Cisco社の[説明のページ](https://help.webex.com/ja-jp/WBX44739/What-Does-End-to-End-Encryption-Do)を参照してください．
+* 本当に安全ですか．
+	* 検証中です．
+

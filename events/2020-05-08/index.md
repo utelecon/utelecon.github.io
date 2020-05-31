@@ -6,7 +6,7 @@ title: 2020/05/08 説明会: オンライン授業における著作物利用
 
 * **日時:** 5/8(金) 17:00-18:30 
 
-* **場所:** オンライン(Zoom)およびyoutube  <br>
+* **場所:** オンライン(Zoom)　<br>
 　　　本ページ下部にある[説明会情報掲載シートへ]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing )
 
 
@@ -19,6 +19,12 @@ title: 2020/05/08 説明会: オンライン授業における著作物利用
 ## 講師
 情報学環　酒井麻千子　准教授
 
+## 動画・資料
+動画: [mp4 ファイル](https://drive.google.com/file/d/1HXmC57WFCKD4z-S0IF1xLY_eSdndLt9I/view?usp=sharing)（学内限定公開）  
+資料: [pdf ファイル](https://drive.google.com/file/d/1qnf8epOoWG-LC8Q0h8Kq6YFjJkNybTmJ/view?usp=sharing)（学内限定公開） 
+  * 閲覧するためには ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります
+  * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください
+  * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
 
 ## 内容(予定)
 

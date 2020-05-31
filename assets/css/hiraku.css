@@ -122,7 +122,7 @@
 .hiraku-open-btn {
 	padding: 6px;
 	cursor: pointer;
-	border: 1px solid #ccc;
+	border: 0px solid #ccc;
 	border-radius: 3px;
 	background: transparent;
 }

@@ -1,8 +1,6 @@
 ---
 title: 教員のための、オンライン授業を行うにあたって
 ---
-更新日: 2020年4月3日
-
 
 ## はじめに  
 
@@ -35,7 +33,7 @@ title: 教員のための、オンライン授業を行うにあたって
 全体像は上記の図のようになっています. 東京大学の構成員であることを示す UTokyo Account が多数のサービスを利用するための基礎となります．シラバス登録などを行う UTAS，教材配布や出席管理を行う ITC-LMS は UTokyo Account を保持していれば利用可能ですが，Word や Excel が利用できる Office 365 や Google のサービスを利用できる ECCS クラウドメールは別途有効化が必要です．また，本学のアカウントで Web 会議システム（Zoom，Webex，GoogleハングアウトMeet）を利用したい場合は，ECCSクラウドメールを用いて有効化する必要があります．  
 Office 365 や Google のアカウントを既にお持ちの方でも，学生に対して学内限定で動画ファイルを共有したい，容量を気にせず Google Drive（ファイル置き場）を利用したい場合は，それぞれ有効化することをおすすめします．  
 
-以下，それぞれのサービスの説明とサービスを利用するための作業を説明します. 以下の作業中, このページに書かれている通りにならないなど, 問題を見つけた場合は [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com) までご連絡下さい. その際, (a) 以下のどのステップで, (b) 自分が何をしたら, (c) どのような結果になったか, を含めていただければ幸いです(「できませんでした」というだけの情報ですとこちらで問題がわからない場合が多いです). 
+以下，それぞれのサービスの説明とサービスを利用するための作業を説明します. 以下の作業中, このページに書かれている通りにならないなど, 問題を見つけた場合は[サポートページ](https://utelecon.github.io/supports)にアクセスしてトラブル解決の方法を試してください. 
 
 1. **UTokyo Account:** 他のサービスすべてのもととなる, 「あなたが東京大学の構成員である」ことを示すアカウントです. 令和2年度新規の教職員には, 2020/4/1 以降に配られる書類に, あなたのアカウント番号(10桁の数字. 共通IDという)と初期パスワードが書かれています.
   * **（新規の教職員用）作業:** [初期パスワードを変更](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)してください. [手順動画](https://youtu.be/tTpAlqVhEXQ)
@@ -101,48 +99,88 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 * グループワークのオンライン化
 
 
-## 具体的なツールの使い方（執筆中）
+## 具体的なツールの使い方
 
 * 学習環境の整え方
   * [ITC-LMSの使い方](../lms_lecturers/)
-  * Google Classroom の使い方
-  <br>
-  <br>
+  * [Google Classroom の使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)
+  <br><br>
 * 教材の作り方
-  * [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)にてそれぞれのトピックを説明しているため，記事が出来上がるまではそちらの動画を御覧ください
-  * Googleドキュメントの音声認識を使った素早いテキスト入力の方法
-  * PowerPoint を用いた簡単な動画の作り方
-  * Web 会議システムを使った動画の作り方
-  <br>
-  <br>
-* ファイルのアップロードと共有方法
-  * Google Drive の使い方
-  * One Drive の使い方
+  * [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)にてそれぞれのトピックを説明しているため，そちらの動画も御覧ください
+  * [Googleドキュメントの音声認識を使った素早いテキスト入力の方法（外部サイト）](http://google.tku.ac.jp/docs/4/6)
+  * [PowerPoint を用いた簡単な動画の作り方（外部サイト）](https://kagakucafe.com/202004095777.html)
+  * [Zoom を使った動画の作り方（外部サイト）](https://media.tebiki.jp/022)
+  <br><br>
+* 動画ファイルの共有方法
+  * [Google Drive に動画ファイルをアップロードして共有する方法](how/google/share_video)
+  * [Zoom クラウドに録画して共有する方法](https://utelecon.github.io/zoom/how/faculty_members/recording_cloud)
+  <br><br>
+* Web 会議システムの使い方
+  * [Zoom](https://utelecon.github.io/zoom/)
+  * [Webex](https://utelecon.github.io/webex/)
+  * [Google Meet](https://utelecon.github.io/google_hangouts_meet/)
 
 <a name="shared_materials"> </a>
-## ご共有いただいた実践例・参考情報（随時募集中）
+## ご共有いただいた資料・実践例・参考情報（随時募集中）
 
-ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  
-資料をお持ちの方でご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  
-もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，以下のリストに情報を付け加えていただき，pull request を送っていただければ幸いです．  
-現時点では，箇条書きでご紹介させていただきますが，情報が増えてきましたら別途整理などさせていただく予定です．  
-また，各授業方法のオンライン化の項目などで別途ご紹介させていただく可能性があること，ご了承いただければ幸いです．  
+### はじめに 
 
-* 板書のオンライン化（タブレットあるいは電子ホワイトボードを利用した方法）の実践例[\[Website\]](http://noneq.c.u-tokyo.ac.jp/online_lecture.html)(工学系・沙川先生)
-* PC1台でできるオンライン講義 [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](materials/online_example_1pc.mp4) (工学系・川原先生): 板書の授業をオンラインで行うための方法を動画付きで説明いただいています
-* Zoom利用の手引き0.3 [\[PDF\]](materials/zoom_v03.pdf)（工学系・相田先生）: Mac のスクリーンショットを多用した Zoom の使い方を解説いただいています
-* Google meetを使ったグループワーク型授業の例 [\[PDF\]](materials/google_meet_groupwork.pdf)  (工学系・柳澤先生): オンラインにおいてグループワークをする方法が説明されています（Zoomのブレークアウトでは教員の声などを伝えられませんが，その点を克服している画期的な方法です）
-* スマートフォンと書画カメラで手書き講義をPCで行う方法 [\[PDF\]](materials/doc-cam-lecture.pdf) (工学系・古関先生): A4の紙をリアルタイムの板書がわりとして書画カメラで撮影し配信する方法が説明されています
-* PCとタブレットを使って黒板ライクに講義をする方法 [\[PDF\]](materials/pc+ipad.pdf) (工学系・熊田先生, 鈴木先生): タブレット上にホワイトボード的に板書，必要に応じてタブレット画面をスライドやPDFの資料にも切り替えて行う方法が紹介されています
-* ペンタッチ機能をもったWindowsタブレット一台（Surfaceなど）で資料に手書きをしながら配信する方法 [\[動画(YouTube)\]](https://www.youtube.com/watch?v=gj-xBZEgt-A) (情報理工学系・川原研博士課程・笹谷さん)：授業pdfを開き画面共有しながらそこに書き込んだり，OneNoteなどを共有して直接書き込む方法の紹介です．
-* 2020-03-31配布版ーこれだけマニュアル-自習で最低限のオンライン講義ができるようになる [\[PowerPoint(Google Drive)\]](https://drive.google.com/file/d/1u1lpIx56wkBRUL1LliV5rh0vcGiowv7g/view) (農学生命科学・田野井先生，中嶋先生)：「ECCSクラウドメール開設編」「ZOOM開設・設定編」「ZOOM利用編」「ITC-LMS利用編」「履修前の学生教員間情報共有編」「オムニバス講義編」とそれぞれのトピックに関する説明がコンパクトにわかりやすくまとまっている資料です．
-* 農学生命科学研究科・農学部 オンライン授業 教員講習会・相談会  [\[動画リスト\]](https://www.youtube.com/playlist?list=PL77zY9Ue8XbaL1lqxT0zzKLLfIjaj6a7V) (農学生命科学・田野井先生，中嶋先生，笹部先生，中西先生)：農学生命科学研究科で行われた講習会・相談会の動画リストです．オンライン授業のやり方 基本形の説明，「授業」として成り立つための条件など幅広いトピックを扱ってくださっています．
-* 都市工学専攻・オンライン講義マニュアル [\[PDF\]](materials/online_lecture_20200331_2.pdf)  (工学系研究科・都市工学専攻) : 工学系研究科都市工学専攻でまとめられたオンライン講義マニュアルです．Zoom を用いて講義を行う一連の流れが記載されています．
-* オンライン講義の通信量 \[[Webページ](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F)\] (人文社会系・大向先生)：Zoom を用いた際の通信量を，講義時（画面共有），雑談時（カメラ映像），音声のみの講義時，参加者の発言を許可した時など場合分けして計測したデータが記載されています．
-* Eindhoven工科大学におけるZoom講義の一例 \[[PDF](materials/lecture_example_Technische_Universiteit_Eindhoven.pdf)\] (工学系・大西先生)：大西先生が実際に受けられたEindhoven工科大学におけるZoom講義の感想が記載されています．講義の流れ，講師の運営体制，講義を受けた上での懸念点などが載っています．
-* 計算機実習のための環境整備 [https://utphys-comp.github.io](https://utphys-comp.github.io) (理学部物理学科): 自宅でシミュレーションなどの実習を行うために必要となる環境の準備に関する情報
-* [VRセンターが教えるclusterで簡単にVR会議を開く方法](https://vr.u-tokyo.ac.jp/instructionvrsns/) (バーチャルリアリティー教育研究センター 相澤先生) まじめな会議や授業用ではありませんがZoomとは違うfunも提供できるものです．clusterは無料でつかえるツールです．[学生有志主催による本年3月のVR卒業式](https://www.youtube.com/watch?v=6Yij2rj59do)でも使われました. 
-* 事前登録について [\[PDF\]](materials/zoom_v04.pdf) （工学系・相田先生）: 参加者の管理を厳密に行いたい場合の事前登録機能についての紹介です．
+ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  <BR>
+
+また，あらたに資料をご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，下記にあります**新しい情報** のエリアに情報を付け加えていただき，pull request を送っていただければ幸いです．**新しい情報** にいただいた情報は適宜当方にて整理させていただきます，  <BR>
+
+### 新しい情報 
+新しくお寄せいただける情報はこちらへお願いします．
+
+
+
+### オンライン授業を行うための総合的な資料
+
+* **これだけで授業ができる！教員用，自習教材パック** [\[PowerPoint(Google Drive)\]](https://drive.google.com/file/d/1u1lpIx56wkBRUL1LliV5rh0vcGiowv7g/view) (農学生命科学研究科 田野井先生，中嶋先生)：「ECCSクラウドメール開設編」「ZOOM開設・設定編」「ZOOM利用編」「ITC-LMS利用編」「履修前の学生教員間情報共有編」「オムニバス講義編」とそれぞれのトピックに関する説明がスライド資料としてコンパクトにわかりやすくまとまっている資料です．
+
+* **農学部/農学生命科学研究科_講義オンライン化に向けた教員講習会・相談会**  [\[動画リスト\]](https://www.youtube.com/playlist?list=PL77zY9Ue8XbaL1lqxT0zzKLLfIjaj6a7V) (農学生命科学研究科 田野井先生，中嶋先生，笹部先生，中西先生)：農学生命科学研究科で行われた講習会・相談会の4本の動画リストです．オンライン授業のやり方 基本形の説明，「授業」として成り立つための条件など幅広いトピックを扱っています．
+
+* **都市工学専攻・オンライン講義マニュアル** [\[PDF\]](materials/online_lecture_20200331_2.pdf)  (工学系研究科都市工学専攻) : 工学系研究科都市工学専攻でまとめられたオンライン講義マニュアルです．大学アカウントの設定からZoom を用いて講義を行うまでの一連の流れがスライド資料としてまとめられています．
+
+* **Zoom利用の手引き0.3** [\[PDF\]](materials/zoom_v03.pdf)（工学系研究科 相田先生）: Zoomの使いかたについて，インストールから実際に授業での操作方法までMac のスクリーンショットが多用され丁寧に解説された総合的な説明文書（40ページ）です．
+
+* **心理職におけるオンライン教育の教え方・学び方**[\[Website\]](https://note.com/inext/n/nc852e556efcf?magazine_key=m71869b115aa0)(教育学研究科 下山先生, 北原先生) 下山研究室が発行している臨床心理マガジンiNEXTの特集として，Zoomの使いかたの解説および特に，臨床心理学分野のオンライン授業について説明されています．
+
+### オンライン授業における配慮
+
+* **視覚障害のある学生のためのアクセシブルなオンライン講義**[\[Website\]](https://psylab.hc.keio.ac.jp/AOL4SVI/)[\[Website\]](https://psylab.hc.keio.ac.jp/4vi/)(医学系研究科 加藤先生) 「視覚障害学生のオンライン授業を支援する会」によって視覚障害のある学生特に新入生のための情報収集・公開を目的としたウェブサイトです．
+
+
+### オンライン授業で実現する板書や手書き
+
+* **スマートフォンと書画カメラで手書き講義をPCで行う方法** [\[PDF\]](materials/doc-cam-lecture.pdf) (工学系・古関先生): A4の紙をリアルタイムの板書がわりとして書画カメラで撮影し配信する方法が説明されています．具体的なツールの照会や実際に撮影されている動画も提供されています．
+
+* **PCとタブレットを使って黒板ライクに講義をする方法** [\[PDF\]](materials/pc+ipad.pdf) (工学系・熊田先生, 鈴木先生): タブレット(iPad)上にホワイトボード的に板書，必要に応じてタブレット画面をスライドやPDFの資料にも切り替えて行う方法が紹介されています．
+
+* **タブレットあるいは電子ホワイトボードを利用した板書のオンライン化の実践例**[\[Website\]](http://noneq.c.u-tokyo.ac.jp/online_lecture.html)(工学系研究科 沙川先生) タブレットや電子ホワイトボードを使用して授業を行った場合の短所長所についてまとめられています．
+
+* **PC1台でできるオンライン講義** [\[Powerpoint\]](materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](materials/online_example_1pc.mp4) (工学系研究科 川原先生): 板書の授業をオンラインで行うための方法が動画付きで説明されています．
+
+### オンライン授業をより豊かにする方法
+
+* **ペンタッチ機能をもったWindowsタブレット一台（Surfaceなど）で資料に手書きをしながら配信する方法** [\[動画(YouTube)\]](https://www.youtube.com/watch?v=gj-xBZEgt-A) (情報理工学系 川原研博士課程・笹谷さん)：授業pdfを開き画面共有しながらそこに書き込んだり，OneNoteなどを共有して直接書き込む方法の紹介です．
+
+* **Google meetを使ったグループワーク型授業の例** [\[PDF\]](materials/google_meet_groupwork.pdf)  (工学系・柳澤先生): オンラインにおいてグループワークをする方法が説明されています（Zoomのブレークアウトでは教員の声などを伝えられませんが，その点を克服している画期的な方法です）
+
+* **VRセンターが教えるclusterで簡単にVR会議を開く方法**[\[Website\]](https://vr.u-tokyo.ac.jp/instructionvrsns/) (バーチャルリアリティー教育研究センター 相澤先生) まじめな会議や授業用ではありませんがZoomとは違うfunも提供できるものです．clusterは無料でつかえるツールです．[学生有志主催による本年3月のVR卒業式](https://www.youtube.com/watch?v=6Yij2rj59do)でも使われました. 
+
+* **計算機実習のための環境整備** [\[Website\]](https://utphys-comp.github.io) (理学部物理学科): 自宅でシミュレーションなどの実習を行うために必要となる環境の準備に関する情報がまとまっています．
+
+* **Zoomにおける事前登録** [\[PDF\]](materials/zoom_v04.pdf) （工学系・相田先生）: 参加者の管理を厳密に行いたい場合の事前登録機能についての紹介です．
+
+### オンライン授業における参考情報
+
+* **オンライン講義の通信量** \[[Website](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F)\] (人文社会系・大向先生)：Zoom を用いた際の通信量を，講義時（画面共有），雑談時（カメラ映像），音声のみの講義時，参加者の発言を許可した時など場合分けして計測したデータが記載されています．
+
+### オンライン授業の事例
+* **Eindhoven工科大学におけるZoom講義の一例** \[[PDF](materials/lecture_example_Technische_Universiteit_Eindhoven.pdf)\] (工学系研究科 大西先生)：大西先生が実際に受けられたEindhoven工科大学におけるZoom講義の感想が記載されています．講義の流れ，講師の運営体制，講義を受けた上での懸念点などが載っています．
+
+
 
 <a name="links"> </a>
 ## リンク集（随時募集中）
