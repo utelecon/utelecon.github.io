@@ -31,7 +31,6 @@ A mobile WiFi router with up to 50GB of high-speed communication per month
 1. To the extent possible, you make an effort to support yourself, in case you are not selected 
 1. You return it when the university terminates the support (which will happen at the end of this fiscal year but may extend depending on the situation)
 1. You return it when you leave the university during the support period
-1. You are not on leave of absence
 
 It will be offered to students subject to the above conditions. 
 
