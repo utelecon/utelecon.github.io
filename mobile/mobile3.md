@@ -1,6 +1,6 @@
 ---
-title: 教育・研究活動のためのネットワーク環境支援について
- / The network environment support for education and research
+title: 教育・研究活動のためのネットワーク環境支援 継続
+ / Continuing the network environment support for education and research
 ---
 **オンライン授業検討会 / Committee for Online classes**
 
