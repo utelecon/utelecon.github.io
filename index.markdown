@@ -4,6 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/6/3:</span> (学生用)<a href="mobile/mobile3">ネットワーク環境支援 : 教育・研究活動のためのネットワーク環境支援 継続 について / The network environment support for education and research</a>
 * <span style="color:blue;">2020/6/2:</span> (教員用)6/3 12:10から[オンライン授業情報交換会(トピック：授業の工夫の共有(2))](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/5/27:</span> クラスサポーター研修の動画が（限定）公開されました．不参加だったクラスサポーターの方は視聴してください．（[クラスサポーター研修](https://utelecon.github.io/events/2020-05-20/)）
 * <span style="color:blue;">2020/5/26:</span> 5/30より後に Zoom 5.0.0 未満のバージョンではミーティングの主催・参加ができなくなるため，Zoom の更新をお願いします（[更新方法](https://did2memo.net/2020/04/10/zoom-update/)，[「Zoom 5.0」よくある質問（FAQ）](https://symphonict.nesic.co.jp/zoom/wp-content/uploads/2020/05/Zoom_5.0-FAQ.pdf)）
@@ -15,13 +16,6 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 * <span style="color:blue;">2020/5/6:</span> (教員用)5/7 12:10から[オンライン授業情報交換会(トピック：通信量)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/5/6:</span> [オンライン授業・Web会議に関するトラブルサポート窓口](supports)を公開しました．
 * <span style="color:blue;">2020/5/1:</span> (教員用)5/8 17:00から[説明会「オンライン授業における著作物利用」](events/2020-05-08/)を実施いたします．
-* <span style="color:blue;">2020/4/30:</span> (学生用)<a href="mobile/mobile2">第2回ネットワーク環境支援: 教育・研究活動のためのネットワーク環境支援について / The network environment support for education and research</a>
-* <span style="color:blue;">2020/4/30:</span> (教員用)4/30 12:10から[オンライン授業情報交換会(トピック：動画作成)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
-* <span style="color:blue;">2020/4/27:</span> (教員用)4/27 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
-* <span style="color:blue;">2020/4/24:</span> <a href="notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
-* <span style="color:blue;">2020/4/24:</span> 「授業目的公衆送信補償金制度」について「一般社団法人授業目的公衆送信補償金等管理協会」から文化庁長官への補償金額の認可申請，文化審議会での審議，文化庁長官による認可など，必要な所要の手続を経て，令和2年4月28日から施行することとなりました．[リンクはこちら](https://www.bunka.go.jp/seisaku/chosakuken/92169601.html)
-* <span style="color:blue;">2020/4/22:</span> <font color="red">(2020/5/9 現在はサインインできます)<s>緊急 「この方法でZoomアカウントにログインできません. IT管理者にお問い合わせください」</font> について</s>
-
 
 [過去のエントリ](whats_not_new)
 
