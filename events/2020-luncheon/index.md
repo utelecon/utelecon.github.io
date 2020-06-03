@@ -30,8 +30,8 @@ title: オンライン授業情報交換会
 
 【日時】2020年5月29日　12:10-12:50 <br>
 【トピック】 授業の工夫の共有 <br>
-【スライド】　当日 <br>
-【動画】 後日 <br>
+【スライド】　[pdfファイル](luncheon_7_slides.pdf) <br>
+【動画】[mp4ファイル](https://drive.google.com/file/d/1M6FN3GwH1JF-oMJ8fTc_dlaClhJAM8KT/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    
 【対象】本学の授業を担当する教員や授業支援をする方々 <br>
 【概要】オンライン授業が始まって約2ヶ月が経過しました．ここで，どういった授業を行い，どんな工夫をしたか互いに共有をしませんか．普段話したことのない人と話をするチャンスでもあります．「他の人の話をただ聞きたい」人も参加できるような設計にしておりますのでどうぞお気軽にご参加ください．
 
