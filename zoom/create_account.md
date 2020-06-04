@@ -30,9 +30,8 @@ title: 大学の Zoom アカウントの作り方
   ![press_join_the_account](img/create_account_20200515_3.png)  
 
 1. [Zoom のアカウントプロフィールページ](https://zoom.us/account) にて「アカウント名」が「UTokyo Zoom」になっていれば，作成成功です．
-  * 「無料トライアル」と書かれていても問題ありません
-  * 作成直後にユーザータイプが Basic になっていても，1時間以内に Licensed に変更されますので少々お待ちください  
-  ![check_account_name](img/create_account_20200515_4.png)  
+  * 作成直後にプロフィールページ（[https://zoom.us/profile](https://zoom.us/profile)）でユーザータイプが Basic になっていても，1時間以内に Licensed に変更されますので少々お待ちください  
+  * Licensed に変更されても，アカウントプロフィールページ（[https://zoom.us/account](https://zoom.us/account)）にて「無料トライアル」と書かれておりますが，それは問題ありません
   
   
 ## うまく作成できない場合は
