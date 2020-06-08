@@ -46,6 +46,7 @@ Office 365 や Google のアカウントを既にお持ちの方でも，学生�
   * **作業:** 上記が終わってから実際にG Suite for Education が使える(Googleにログインできる)ようになるまで, 最大1時間ほどお待ち下さい（毎時0分に更新で反映まで5分程度かかります）. その後，<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank">ECCSクラウドメール</a>に移動して，設定したアカウント名（ご自身が設定した英数字）とパスワードを入力して，Gmail にログインできることを確認してください．
 1. **Office 365 (Microsoft):** 文書作成ソフトの Word, 表計算ソフトの Excel， プレゼンテーションソフトの PowerPoint などが利用できるようになります．使うためにはUTokyo Accountが正しく設定されている必要があるのと, 使い始める際にシステムの有効化を行う必要があります.
   * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) から「Office 365 ProPlus利用許諾」に合意し, Office 365の有効化をして下さい ([手順動画](https://youtu.be/OYl5P67mDYI)). 
+  * **作業:** 有効化された後、[Office 365 ポータル](https://portal.office.com/)からアクセスしてください．Office 365にアクセスできなかった場合は[こちらのトラブルシューティングのページ](../faq/msaccount-troubleshooting)の手順を行ってください.
 1. **Web会議システム:** リアルタイムにオンラインで授業を配信したり，授業用の動画を録画するために利用できます．本学では，[Zoom](../zoom/)，[Webex](../webex)，[GoogleハングアウトMeet](google_hangouts_meet) が利用できます．どれにしようか迷われている方は，利用しやすい Zoom をおすすめします．利用する準備方法はそれぞれのページをご覧ください．
 
 
