@@ -3,7 +3,6 @@ title: Zoom
 ---
 
 ## お知らせ
-* 2020年5月30日より後に Zoom 5.0.0 未満のバージョンではミーティングの主催・参加ができなくなるため，Zoom の更新をお願いします（[更新方法](https://did2memo.net/2020/04/10/zoom-update/)，[「Zoom 5.0」よくある質問（FAQ）](https://symphonict.nesic.co.jp/zoom/wp-content/uploads/2020/05/Zoom_5.0-FAQ.pdf)）
 * 大学のアカウントは，[アカウントの作り方](create_account)をよく読みながら作成してください．
 * <font color="red">Zoomアカウントの<a href="../faq/#zoom">初期設定時のトラブルに関するFAQ</a></font>
 * <a href="../notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
