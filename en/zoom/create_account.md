@@ -22,7 +22,7 @@ If you have not yet activated your <a href="https://www.ecc.u-tokyo.ac.jp/announ
 
 1. Go to [Zoom's sign-up (account creation) page](https://zoom.us/signup), enter your birthday, and then enter the  **common ID 10 digits @g.ecc.u-tokyo.ac.jp (please use the original 10-digits email, even if you have altered it)**. Press "Sign up"（**do not press "sign in with Google"**).<br>
 [Click here in case of trouble](#ng_signup)  
- ![signup_enter_email_address](img/)  
+ ![signup_enter_email_address](img/create_account_20200515_1.png)  
 
 1. Log in to [ECCS Cloud Email](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp), open the email "Activate your Zoom account" from Zoom, and click "Active Account" to create an account.  
   ![press_active_account](img/create_account_20200515_2.png)  
