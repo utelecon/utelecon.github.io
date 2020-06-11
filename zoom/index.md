@@ -58,6 +58,9 @@ title: Zoom
 授業における使い方について，[オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)に動画（限定公開）も合わせてご覧ください． 
 ただ，[会議室のスケジュール](how_to_use_in_classroom_faculty_members#schedule)の方法は[本リンク](how_to_use_in_classroom_faculty_members#schedule)の方が実際の授業に合っているかと思いますので，そちらをご参照ください． 
 
+* 基礎知識
+  * [ホスト，共同ホストができること](https://utelecon.github.io/zoom/how/common/host_cohost)
+  <br>
 * [授業での使い方（学生編）](how_to_use_in_classroom_students)
   * 授業前
     * [バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する
