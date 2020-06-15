@@ -14,6 +14,13 @@ title: Zoom 授業での使い方（学生編）
 <a name="hand_reaction"> </a>
 ## [[挙手・反応] 手を挙げる・反応する](how/students/hand_reaction)
 
+## [[チャット] チャットを使う](how/common/chat)
+
+## [[画面共有] 画面を共有する](how/common/sharing_screen)
+
+<a name="breakout"> </a>
+## [[ブレークアウト] グループワークを行う](how/students/breakout)
+
 ## [[バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how/common/virtual_background)
 
 # 授業後
