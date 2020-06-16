@@ -1,0 +1,63 @@
+//---------------------------------------------------------------------------
+// ファイル作成
+// 引数: スプレッドシート名, フォルダ名
+// 戻値: スプレッドシート
+// 説明: カレントフォルダにSpreadseetを指定名で作成
+// : 指定フォルダにファイルをコピーする
+// : カレントフォルダのSpreadsheetを削除
+//---------------------------------------------------------------------------
+function createSpreadsheet(ssName, folderId) {
+var folderId="1UJ40LNSRhLdFZuttyimxIZbYcagosQZD"; //変更箇所1　フォルダID
+ for(var i = 1; i <= 3; i++){                     //変更箇所2 連番の最初の数、最後の数
+   var number = ('0' + i).slice(-2);              //変更箇所3 連番のフォーマット
+   var ssName  = '0504_' + number;                //変更箇所4 ファイル名
+var folder = DriveApp.getFolderById(folderId);
+var ss = 0;
+if (folder.getFilesByName(ssName).hasNext()) {
+Logger.log(ssName+"があります");
+} else {
+Logger.log(ssName+"を作成");
+var ssId = SpreadsheetApp.create(ssName).getId();
+var file = DriveApp.getFileById(ssId);
+folder.addFile(file);
+DriveApp.getRootFolder().removeFile(file);
+var ss = SpreadsheetApp.openById(ssId);
+}
+}  
+  return ss;
+}
+
+
+function getFileListInFolder() {
+  Logger.log("2つ目のfunction");
+  var folder_id = "1UJ40LNSRhLdFZuttyimxIZbYcagosQZD"; //変更箇所5　フォルダID
+  var url = 'https://drive.google.com/drive/folders/' + folder_id,  // URL of Google Drive folder.
+      paths = url.split('/'), // Separate URL into an array of strings by separating the string into substrings. 
+      folderId = paths[paths.length - 1], // Get a last element of paths array.
+      folder = DriveApp.getFolderById(folderId),
+      files = folder.getFiles(),
+      list = [],
+      rowIndex = 1, // The starting row of a range.
+      colIndex = 1, // The starting row of a column.
+      ss, sheet,range,
+      sheetName = 'シート1';
+
+  // Creating a data array from a files iterator.
+  // Note: Latest file is the first.
+  while(files.hasNext()) {
+    var buff = files.next();
+    list.push([buff.getName(), "https://drive.google.com/open?id="+buff.getId()]);
+  };
+
+  // folder.getFiles()では、ファイルは新しいものが最初に来ます
+  // 登録された順にしたいので、reverse() で調整します
+  list = list.reverse()
+
+  ss = SpreadsheetApp.getActive();
+  sheet = ss.getSheetByName(sheetName);
+  range = sheet.getRange(rowIndex, colIndex, list.length, list[0].length);
+
+  // 対象の範囲にまとめて書き出します
+  range.setValues(list);
+}
+
