@@ -8,14 +8,15 @@ title: 今後のウェブ会議システムの提供について
 ## [Zoom](https://utelecon.github.io/zoom/)
 
 **ライセンスの切り替えを8月頭に想定しています。**
-1. 切り替え後、共通ID@g.ecc.u-tokyo.ac.jp 形式のアカウントに、継続してライセンス付与をします。それ以外のメールアドレスでログインしている利用者はログインメールアドレスの修正（ログイン後、プロフィール内の修正メニューで変更できます）をお願いします。
+
+1. 切り替え後、10桁の共通ID@g.ecc.u-tokyo.ac.jp 形式のアカウントに、継続してライセンス付与をします。それ以外のメールアドレスでログインしている利用者はログインメールアドレスの修正（ログイン後、プロフィール内の修正メニューで変更できます）をお願いします。
 1. 切り替え後に付与するライセンスは「同時接続数300 人までのミーティング」になります。（これまでの500人から減少します。また,ウェビナーは提供しません）
-1. 授業のために同時接続数301人以上のライセンスが必要な場合は教員本人の申し込みに応じて必要なライセンスを付与します。
-[Zoomライセンス申し込みフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMjNZQTZJWThKUFo1MFBNVzNCRFlTVUQ2SS4u)
+1. 授業のために同時接続数301人以上のライセンスが必要な場合は教員本人の申し込み（ [301名以上の授業での利用申し込みフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMjNZQTZJWThKUFo1MFBNVzNCRFlTVUQ2SS4u) から）に応じて必要なライセンスを付与します。
+
 
 ## [Webex](https://utelecon.github.io/webex/)
 
-「安全な会議のためのwebexアカウント申請フォーム」から申請したアカウントはそのまま継続利用できます。していない方は同ページから申し込んでください。
+[「安全な会議のためのwebexアカウント申請フォーム」](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u)から申請したアカウントはそのまま継続利用できます。していない方は同ページから申し込んでください。
 
 教職員学生が 同時接続数1000 人までの meetings, trainings, events機能を利用できます。
 
