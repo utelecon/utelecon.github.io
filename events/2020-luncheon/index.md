@@ -19,7 +19,7 @@ title: オンライン授業情報交換会
 
 【日時】2020年6月29日（月）12:10-12:50<br>
 【トピック】 コモンサポーターの活動紹介<br>
-【スライド】　当日<br>
+【スライド】　[pdfファイル](luncheon_12_slides.pdf) <br>
 【動画】 後日<br>
 【対象】本学の授業を担当する教員や授業支援をする方々<br>
 【概要】今回は，全学的なトラブルサポートの1つである，チャットボットやチャットサービスを運営している学生サポーター（コモンサポーター）について，実際に活動している学生がその内容について紹介します．<br>
@@ -31,7 +31,7 @@ title: オンライン授業情報交換会
 【日時】2020年6月24日　12:10-12:50 <br>
 【スライド】　[pdfファイル](luncheon_11_slides.pdf) <br>
 【資料】[GAS ファイルコピー](luncheon_11_copyFiles.txt)，[GAS フォルダコピー](luncheon_11_copyFolder.txt) <br>
-【動画】後日 <br>
+【動画】[mp4ファイル](https://drive.google.com/file/d/11l1LRzt8Xa_0iKQegCGtWr9L2AtJJ6gl/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生 <br>
 【概要】今回はオンライン授業において，学生の学びを促し，より効果的・効率的な実施を助けるアプリケーションを紹介します．先生方におかれましてももし，お使いの便利なツールなどございましたら[こちら](https://forms.gle/MFmzrPQqRYWJuTJ59)にて教えて下さい．<br>
 
