@@ -108,6 +108,12 @@ title: FAQ よくある質問
 * 参考ページ: <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/23_3147.html" target="_blank">ECCS端末でのオンライン授業・Web会議への参加</a>）
 -->
 
+<a name="webex"> </a>
+## Cisco Webex
+### [アカウント申請](https://utelecon.github.io/webex/create_utelecon_account)をしたが, メールが届かない
+* 招待メールはECCSクラウドメール (ドメインがg.ecc.u-tokyo.ac.jpのもの) に届きます. 正しいアカウントでGmailにログインしているかどうか, また迷惑メールなどに誤って振り分けられていないかを確認してください.
+* アカウント作成には手動のプロセスが含まれており, 数日程度時間を要することがあります. 会議などで必要になる場合は余裕をもってアカウント申請を行ってください.
+
 ## ECCSクラウドメール (G Suite for Education)
 
 ### Q. ECCSクラウドメールって何ですか？
