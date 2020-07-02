@@ -17,7 +17,7 @@ title: Zoom 授業での使い方（教員編）
 ## [[マイク・カメラ] マイクとカメラを使う](how/common/use_mic_and_camera)
 
 <a name="sharing_screen_materials"> </a>
-## [[画面共有] PowerPoint，Word などの資料を提示する](how/faculty_members/sharing_screen)
+## [[画面共有] PowerPoint，Word などの資料を提示する](how/common/sharing_screen)
 
 ## [[画面共有] 画面を共有する](how/common/sharing_screen)
 
