@@ -46,15 +46,14 @@ Please access the application form through either of the following.
 * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ESEjHc7AYBpPqjooTPGoJMsBqcl0bN20iSUVwunnTGL2hg?e=pKORAl" target="_blank">Excelオンライン / Excel Online</a>(UTokyo Account 10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります / You need to sign in office.com with your UTokyo Account (10-digit-ID@utac.u-tokyo.ac.jp)
 * 本部学務課からのメール
 
-**締め切り　6月30日（火曜日）23時59分**
+**締め切り　7月1日以降も受け付けています**
 
 毎週木曜日までの申込分について、原則翌週月曜日に発送することにしています。
 ※今後の発送予定は以下のとおりです。なお、作業の都合上発送が遅れる場合があります。
-　6/8, 6/15, 6/22, 6/29, 7/3
 
-**Deadline: Tuesday, June 30th, 23:59 PM**
+**Deadline: After 1,July, we continuously accept the application.**
 
-Every Thursday, we will process applications received so far and send the routers to accepted applications.  Scheduled shipping dates are June 8th, June 15th, June 22nd, June 29th and July 3rd.  Anticipate delays due to our workloads.
+Every Thursday, we will process applications received so far and send the routers to accepted applications. Anticipate delays due to our workloads.
 
 支援対象が決まり次第連絡します。（対象とならなかった場合も連絡します。） 
 
