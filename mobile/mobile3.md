@@ -49,7 +49,7 @@ Please access the application form through either of the following.
 **締め切り　7月1日以降も受け付けています**
 
 毎週木曜日までの申込分について、原則翌週月曜日に発送することにしています。
-※今後の発送予定は以下のとおりです。なお、作業の都合上発送が遅れる場合があります。
+なお、作業の都合上発送が遅れる場合があります。
 
 **Deadline: After 1,July, we continuously accept the application.**
 
