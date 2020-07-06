@@ -29,6 +29,7 @@ title: オンライン授業情報交換会
 ◆ 第11回
 
 【日時】2020年6月24日　12:10-12:50 <br>
+【トピック】 オンライン授業で使えるツール<br>
 【スライド】　[pdfファイル](luncheon_11_slides.pdf) <br>
 【資料】[GAS ファイルコピー](luncheon_11_copyFiles.txt)，[GAS フォルダコピー](luncheon_11_copyFolder.txt) <br>
 【動画】[mp4ファイル](https://drive.google.com/file/d/11l1LRzt8Xa_0iKQegCGtWr9L2AtJJ6gl/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    
