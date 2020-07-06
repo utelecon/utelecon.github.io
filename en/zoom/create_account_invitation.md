@@ -40,13 +40,13 @@ If you have not activated your <a href="https://www.ecc.u-tokyo.ac.jp/announceme
 Like that, you can create an account.
 
 <a name="if_you_create_a_wrong_account"> </a>
-## 間違えて「Googleでサインイン」を押してアカウントを作ってしまった人は
+## In case you made a mistake and clicked on "Sign in with Google" to create an account
 
-「Googleのサインイン」でアカウントをアクティベートしてしまうと, 正しくZoom Proのライセンスが有効になりません. 回復するために以下のどちらかを行ってください.
+If you activated your account with "Google Sign-in", the Zoom Pro license will not be activated correctly. Please do either of the following to recover the correct account.
 
-### 回復方法1: アクティベーションメールを再送してもらう.
+### Recovery method 1: Have the activation email resent.
 
-情報戦略チーム jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp へ以下の文面で連絡をお送りください　（非常勤講師の方の所属は、東京大学での講義を担当している部局を書いてください）
+Please contact the Information Strategy Team jouhousenryaku.adm@gs.mail.u-tokyo.ac.jp with the following text (For part-time lecturers, write the department in charge of the lecture at the University of Tokyo).
 
 ```
 ◯◯(所属、身分)の◯◯です
@@ -56,7 +56,7 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
 
 ```
 
-例:
+Example:
 
 ```
 情報基盤センター教授の田浦健次朗です
@@ -66,7 +66,7 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
 
 ```
 
-### 回復方法2: 自力で回復する
+### Recovery method 2: Recover by yourself
 1. [Zoomホームページ](https://zoom.us/) へ行く
 1. もし Sign In 中であれば, 以下のように「マイアカウント」というボタンが現れる
  ![](img/recover_1.png)
