@@ -5,7 +5,7 @@ layout: en
 
 ## Notice
 
-* As of May 16, 2020, **you can [create and account](create_account)without using an invitation email**
+* As of May 16, 2020, **you can [create and account](create_account) without using an invitation email**
 * This page is intended for those who sent an invitation email individually on the evening of May 16, 2020, so please read the [account creation page](create_account)and create it.
 
 ## Zoom license activated by this email
@@ -14,30 +14,30 @@ layout: en
  * Up to 500 participants in one meeting
  * Available until the end of 2020
 
-## 事前準備
+## Preparations
 
-もしまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています．
+If you have not activated your <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCS Cloud Mail」 (G Suite for Education)</a> yet, please go to <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account User Menu</a> and activate your account(<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">details</a>). Those who can use the xxxx@g.ecc.u-tokyo.ac.jp email have already activated their account.
 
-## アカウントの作り方
+## How to create an account
 
-1. 以下のような招待メールがZoomからあなたのECCSクラウドメールに届いています．GmailにECCSクラウドメールアカウントで[ログイン](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)し、開封してください．
+1. The following invitation email has arrived from Zoom in your ECCS cloud email. [Log in](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp) to Gmail with your ECCS cloud email account and open it.
   ![](img/zoom_account_email.png)  
 
 
-1. メールの「Zoomアカウントのアクティベート」をクリックします  
+1. Click on "Activate Zoom Account" in the email. 
 
-1. Web ブラウザーで以下の画面が出てきますので，下の「パスワードでサインアップ」をクリックします（「Google でサインイン」を押さないでください）．  
-  * 間違えて「Googleでサインイン」を押して[アカウントを作ってしまった人へ](#if_you_create_a_wrong_account)
+1. The following screen will appear in your web browser. Click "Sign up with password" below (do not press "Sign in with Google"). 
+  * To those who [mistakenly pressed "Sign in with Google"](#if_you_create_a_wrong_account) to create an account.
   ![](img/zoom_account_browser1_old.png)
   
-1. 氏名とパスワードを設定し，「続ける」を押します  
+1. Set your name and password and press "Continue"  .
   ![](img/zoom_account_browser2.png)
   
-1. アカウントの設定は終了です．必要に応じて「Zoomミーティングを今すぐ始める」か「マイアカウント」で細かい設定をしてください  
+1. The account setting is completed. If necessary, set detailed settings in "Start Zoom meeting now" or "My account".
   ![](img/zoom_account_browser3.png)
   
   
-以上の流れで，アカウントを作成できます．
+Like that, you can create an account.
 
 <a name="if_you_create_a_wrong_account"> </a>
 ## 間違えて「Googleでサインイン」を押してアカウントを作ってしまった人は
