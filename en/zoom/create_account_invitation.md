@@ -67,18 +67,19 @@ Zoomアカウントを間違えてアクティベートしたので, アクテ�
 ```
 
 ### Recovery method 2: Recover by yourself
-1. [Zoomホームページ](https://zoom.us/) へ行く
-1. もし Sign In 中であれば, 以下のように「マイアカウント」というボタンが現れる
+1. go to [Zoom home page](https://zoom.us/)
+1. If you are signed in, press the "My Account" button that appears as shown below 
  ![](img/recover_1.png)
-ので, それを押す. 以下のような画面になるので
+press the "My Account" button that appears as shown below 
  ![](img/recover_2.png)
-「サインアウト」をクリックする.
-1. 再び[Zoomホームページ](https://zoom.us/) へ行くと今度は以下のように「サインイン」ボタンが現れる
+and click on "Sign out" in the screen below.
+1. When you go to the [Zoom home page](https://zoom.us/) again,this time the "Sign in" button will appear, 
  ![](img/recover_3.png)
-ので, それを押して, 以下のように入力画面を表示し,
+so press it to display the input screen as shown below.
  ![](img/recover_4.png)
-<font color="red">「パスワードをお忘れですか」</font>へ進む(ここがポイント).
-1. 以下のメールアドレスの窓に,
+Continue to <font color="red">"Did you forget your password"</font> (this step is critical).
+1. In the window of the following email address,
  ![](img/recover_5.png)
-<font color="red">10桁の共通ID@g.ecc.u-tokyo.ac.jp</font> を入力. 「送信」すると，アクティベーション用のリンクがあなたのECCSクラウドメールアカウント (xxxx@g.ecc.u-tokyo.ac.jp) に送られてきます.  <font color="red">注:</font> 指定するメールアドレスは, 10桁の共通ID@g.ecc.u-tokyo.ac.jp ですが, 実際にはあなたがECCSを初期設定した際に指定したアカウントで読むことができます(両者はエイリアスになっています. (<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html" target="_blank">説明</a>).
+Enter your <font color="red">10-digit common ID@g.ecc.u-tokyo.ac.jp</font>. 
+The activation link will be sent to your ECCS cloud email account (xxxx@g.ecc.u-tokyo.ac.jp).  <font color="red">Note:</font> Although the email address you specify is the 10-digitscommon ID @g.ecc.u-tokyo.ac.jp, you can read it with the account you specified when you initially set up the ECCS account (both IDs are eligible (<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2020/03/12_3139.html" target="_blank">Description</a>).
  
