@@ -4,6 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/7/14:</span> (教員用)7/15 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(3)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/7/6:</span> (教員用)7/8 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(2)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/7/2:</span> [Microsoft Onedriveで学外者とファイルの共有が可能になります](notice/onedrive20200702)
 * <span style="color:blue;">2020/7/2:</span> [今後のウェブ会議システムの提供について](notice/webmeetingaccount)
@@ -58,7 +59,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 イベント
 ---------------------------
-* 2020/06/29 [オンライン授業情報交換会:コモンサポーターの活動紹介](events/2020-luncheon/)
+* 2020/07/15 [オンライン授業情報交換会:コモンサポーターの活動紹介](events/2020-luncheon/)
 * 2020/05/20 [クラスサポーター研修](events/2020-5-20)
 * 2020/05/08 [説明会: オンライン授業における著作物利用](events/2020-05-08/)
 * 2020/04/16 [説明会: Sセメスタ開始2週間を経て](events/2020-04-16/)
