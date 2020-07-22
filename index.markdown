@@ -4,6 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/7/22:</span> (学生・研究者)[「オンライン授業・在宅研究に関するアンケート」](questionnaire/2020summer)を開始しました．（締め切り8月20日木曜日23：59）
 * <span style="color:blue;">2020/7/14:</span> (教員用)7/15 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(3)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/7/6:</span> (教員用)7/8 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(2)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/7/2:</span> [Microsoft Onedriveで学外者とファイルの共有が可能になります](notice/onedrive20200702)
