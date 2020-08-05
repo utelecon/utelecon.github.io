@@ -20,7 +20,7 @@ title: オンライン授業情報交換会
 【日時】2020年8月5日（水）　12:10-12:50 <br>
 【トピック】 オンライン授業の振り返り <br>
 【スライド】　[pdfファイル](luncheon_15_slides.pdf) <br>
-【動画】後日     <br>
+【動画】[mp4ファイル](https://drive.google.com/file/d/13Hz06gR2D7wpKNiUS7M7r7dod-Lgm4vH/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生 <br>
 【概要】今回はSセメスターで実施してきたオンライン授業についての振り返りです.うまくいったこと, いかなかったことなどを共有できる機会提供を行います.<br>
 今学期は今回をもって一旦区切りをつけ, この情報交換会も区切りをつけまた来学期に再開の予定です. <br>
