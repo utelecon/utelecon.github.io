@@ -19,7 +19,7 @@ title: オンライン授業情報交換会
 
 【日時】2020年8月5日（水）　12:10-12:50 <br>
 【トピック】 オンライン授業の振り返り <br>
-【スライド】 当日 <br>
+【スライド】　[pdfファイル](luncheon_15_slides.pdf) <br>
 【動画】後日     <br>
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生 <br>
 【概要】今回はSセメスターで実施してきたオンライン授業についての振り返りです.うまくいったこと, いかなかったことなどを共有できる機会提供を行います.<br>
@@ -29,7 +29,7 @@ title: オンライン授業情報交換会
 
 【日時】2020年7月15日（水）　12:10-12:50 <br>
 【トピック】 オンライン授業で使えるツール(3)<br>
-【スライド】 当日 <br>
+【スライド】　[pdfファイル](luncheon_14_slides.pdf) <br>
 【動画】[mp4ファイル](https://drive.google.com/file/d/1Jkh3mewBVI0IWjKAEQ83X4i3b_qeAkBJ/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）     
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生 <br>
 【概要】今回は前回の続きです。オンライン授業において，学生の学びを促し，より効果的・効率的な実施を助けるアプリケーションとしてGoogle Classroomを紹介します．先生方におかれましてももし，お使いの便利なツールなどございましたら[こちら](https://forms.gle/MFmzrPQqRYWJuTJ59)にて教えて下さい．<br>
@@ -39,7 +39,7 @@ title: オンライン授業情報交換会
 
 【日時】2020年7月8日（水）　12:10-12:50 <br>
 【トピック】 オンライン授業で使えるツール(2)<br>
-【スライド】 なし <br>
+【スライド】　[pdfファイル](luncheon_13_slides.pdf) <br>
 【動画】[mp4ファイル](https://drive.google.com/file/d/1wuVw1B9numCNxlSv7exXZF0I6VafWdqD/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）    
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生 <br>
 【概要】今回は6/24の続きです。オンライン授業において，学生の学びを促し，より効果的・効率的な実施を助けるアプリケーションを紹介します．先生方におかれましてももし，お使いの便利なツールなどございましたら[こちら](https://forms.gle/MFmzrPQqRYWJuTJ59)にて教えて下さい．<br>
