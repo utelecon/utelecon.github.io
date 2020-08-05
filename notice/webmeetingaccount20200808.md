@@ -17,9 +17,9 @@ title: 今後のウェブ会議システムの提供について（2020/08/08）
 
 ## Zoomライセンス切り替えでユーザごとに必要な対応
 
-1. アカウント（サインインメールアドレス）が共通ID10桁@g.ecc.u-tokyo.ac.jp を使っていて、301人以上の授業が無い方　→　なにもする必要はありません。
-1. アカウント（サインインメールアドレス）が共通ID10桁@g.ecc.u-tokyo.ac.jp を使っていて、301人以上の授業がある方　→　次のフォームからライセンス申請をしてください。（ [Zoom:大人数授業が開催できるライセンスのリクエストフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMjNZQTZJWThKUFo1MFBNVzNCRFlTVUQ2SS4u) から。UTokyo Account(共通ID10桁@utac.u-tokyo.ac.jp）でのログインが必要です）
-1. アカウント（サインインメールアドレス）が共通ID10桁@g.ecc.u-tokyo.ac.jp を使っていない方　→　次の意向調査にお答えください。[こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUOU9DSTBaT0kxTTkzQkNFWDU0QUNGRzBHTC4u)　利用を続ける場合はサインインアドレスの変更をしてください。
+1. **アカウントが共通ID10桁@g.ecc.u-tokyo.ac.jp を使っていて、301人以上の授業が無い方**　→　なにもする必要はありません。
+1. **アカウントが共通ID10桁@g.ecc.u-tokyo.ac.jp を使っていて、301人以上の授業がある方**　→　次のフォームからライセンス申請をしてください。 [Zoom:大人数授業が開催できるライセンスのリクエストフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMjNZQTZJWThKUFo1MFBNVzNCRFlTVUQ2SS4u) 
+1. **アカウントが共通ID10桁@g.ecc.u-tokyo.ac.jp を使っていない方**　→　次の意向調査にお答えください。[こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUOU9DSTBaT0kxTTkzQkNFWDU0QUNGRzBHTC4u)　利用を続ける場合はサインインアドレスの変更をしてください。
 
 ## [Webex](https://utelecon.github.io/webex/)
 
