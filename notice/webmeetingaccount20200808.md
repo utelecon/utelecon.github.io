@@ -15,7 +15,7 @@ title: 今後のウェブ会議システムの提供について（2020/08/08）
 	1. 9月15日以降、授業のために同時接続数301人以上のライセンスが必要な場合は教員本人の申し込み（ [Zoom:大人数授業が開催できるライセンスのリクエストフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMjNZQTZJWThKUFo1MFBNVzNCRFlTVUQ2SS4u) から。UTokyo Account(共通ID10桁@utac.u-tokyo.ac.jp）でのログインが必要です）に応じて必要なライセンスを付与します。
 1. **それ10桁の共通ID@g.ecc.u-tokyo.ac.jp以外のメールアドレスでサインインし、大学ライセンスを利用している利用者には、今後、メールで連絡し、利用中のアカウントの今後の意向を確認します。** [こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUOU9DSTBaT0kxTTkzQkNFWDU0QUNGRzBHTC4u)から現在使用中のアカウントをどうされるか回答ください。なお、サインインメールアドレスの修正はユーザ自身でサインイン後、プロフィール内の修正メニューで変更できます。詳しくは[こちらの手順](zoom-address)を参照ください。
 
-###　Zoomライセンス切り替えでユーザごとに必要な対応
+##　Zoomライセンス切り替えでユーザごとに必要な対応
 1. アカウント（サインインメールアドレス）が共通ID10桁@g.ecc.u-tokyo.ac.jp を使っていて、301人以上の授業が無い方　→　なにもする必要はありません。
 1. アカウント（サインインメールアドレス）が共通ID10桁@g.ecc.u-tokyo.ac.jp を使っていて、301人以上の授業がある方　→　ライセンス申請をしてください。
 1. アカウント（サインインメールアドレス）が共通ID10桁@g.ecc.u-tokyo.ac.jp を使っていない方　→　意向調査にお答えください。利用を続ける場合はサインインアドレスの変更をしてください。
