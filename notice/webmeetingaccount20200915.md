@@ -1,5 +1,5 @@
 ---
-title: 今後のウェブ会議システムの提供について（2020/08/08）
+title: 今後のウェブ会議システムの提供について（2020/09/15）
 ---
 **オンライン授業検討会**
 
@@ -13,13 +13,13 @@ title: 今後のウェブ会議システムの提供について（2020/08/08）
 1. 切り替え後、共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp 形式のアカウントに、継続してライセンス付与をします。
 	1. 切り替え後に付与されるライセンスは「同時接続数300 人までのミーティング」になります。（これまでの500人から減少します。**また,ウェビナーは原則ユーザに付与されなくなります。これまでウェビナーは別途購入いただくよう周知していましたが、多数の問い合わせをいただいたため、授業や試験のほか、大学主催のイベント等でも一時的に利用できるよう検討しています。詳細は8月中に別途連絡します。**）
 	1. 9月15日以降、授業のために同時接続数301人以上のライセンスが必要な場合は教員本人の申し込み（ [Zoom:大人数授業が開催できるライセンスのリクエストフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMjNZQTZJWThKUFo1MFBNVzNCRFlTVUQ2SS4u) から。UTokyo Account(共通ID（数字10桁）@utac.u-tokyo.ac.jp）でのログインが必要です）に応じて必要なライセンスを付与します。
-1. **共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp以外のメールアドレスでサインインし、大学ライセンスを利用しているユーザーには、今後、メールで連絡し、利用中のアカウントの今後の意向を確認します。** [こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUOU9DSTBaT0kxTTkzQkNFWDU0QUNGRzBHTC4u)から現在使用中のアカウントをどうされるか回答ください。なお、サインインメールアドレスの修正はユーザ自身でサインイン後、プロフィール内の修正メニューで変更できます。詳しくは[こちらの手順](zoom-address)を参照ください。
+1. **共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp以外のメールアドレスでサインインし、大学ライセンスを利用しているユーザーには、今後、メールで連絡し、利用中のアカウントの今後の意向を確認します。** なお、サインインメールアドレスの修正はユーザ自身でサインイン後、プロフィール内の修正メニューで変更できます。詳しくは[こちらの手順](zoom-address)を参照ください。
 
 ## Zoomライセンス切り替えでユーザごとに必要な対応
 
 1. **アカウントに共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp を使っていて、301人以上の授業が無い方**　→　なにもする必要はありません。
 1. **アカウントに共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp を使っていて、301人以上の授業がある方**　→　次のフォームからライセンス申請をしてください。 [Zoom:大人数授業が開催できるライセンスのリクエストフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMjNZQTZJWThKUFo1MFBNVzNCRFlTVUQ2SS4u) 
-1. **アカウントに共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp 以外の形式のアカウントを使っている方**　→　次の意向調査にお答えください。[こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUOU9DSTBaT0kxTTkzQkNFWDU0QUNGRzBHTC4u)　利用を続ける場合はサインインメールアドレスの変更をしてください。
+1. **アカウントに共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp 以外の形式のアカウントを使っている方**　→　利用を続ける場合は[こちらの手順](zoom-address)を参照して共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp形式のサインインメールアドレスに変更してください。
 
 ## [Webex](https://utelecon.github.io/webex/)
 
