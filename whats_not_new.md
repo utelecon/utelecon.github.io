@@ -4,7 +4,16 @@ title: What's (no longer) New
 
 What's (no longer) New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
-
+* <span style="color:blue;">2020/5/27:</span> クラスサポーター研修の動画が（限定）公開されました．不参加だったクラスサポーターの方は視聴してください．（[クラスサポーター研修](https://utelecon.github.io/events/2020-05-20/)）
+* <span style="color:blue;">2020/5/26:</span> 5/30より後に Zoom 5.0.0 未満のバージョンではミーティングの主催・参加ができなくなるため，Zoom の更新をお願いします（[更新方法](https://did2memo.net/2020/04/10/zoom-update/)，[「Zoom 5.0」よくある質問（FAQ）](https://symphonict.nesic.co.jp/zoom/wp-content/uploads/2020/05/Zoom_5.0-FAQ.pdf)）
+* <span style="color:blue;">2020/5/19:</span> (教員用)5/20 12:10から[オンライン授業情報交換会(トピック：評価)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
+* <span style="color:blue;">2020/5/13:</span> (5/18 締め切りました)<s>(学生用)5/17〆切 トラブルに対応する学生のコモンサポーターを募集中</s>
+* <span style="color:blue;">2020/5/13:</span> (学生用)5/20 15:00から[クラスサポーター研修](events/2020-05-20)を実施いたします．
+* <span style="color:blue;">2020/5/13:</span> (教員用)5/14 12:10から[オンライン授業情報交換会(トピック：評価)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
+* <span style="color:blue;">2020/5/10:</span> (教員用) [Webexで安全性の高い会議を行うためのプラクティス](webex/how_to_open_secure_meetings)
+* <span style="color:blue;">2020/5/6:</span> (教員用)5/7 12:10から[オンライン授業情報交換会(トピック：通信量)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
+* <span style="color:blue;">2020/5/6:</span> [オンライン授業・Web会議に関するトラブルサポート窓口](supports)を公開しました．
+* <span style="color:blue;">2020/5/1:</span> (教員用)5/8 17:00から[説明会「オンライン授業における著作物利用」](events/2020-05-08/)を実施いたします．
 * <span style="color:blue;">2020/4/30:</span> (学生用)<a href="mobile/mobile2">第2回ネットワーク環境支援: 教育・研究活動のためのネットワーク環境支援について / The network environment support for education and research</a>
 * <span style="color:blue;">2020/4/30:</span> (教員用)4/30 12:10から[オンライン授業情報交換会(トピック：動画作成)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/4/27:</span> (教員用)4/27 12:10から[オンライン授業情報交換会](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
