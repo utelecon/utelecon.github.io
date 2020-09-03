@@ -4,10 +4,8 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
-<!--  
-* <span style="color:blue;">2020/9/3:</span> (教員用)[「オンライン授業・在宅研究に関するアンケート」](questionnaire/2020summer_f)を開始しました．（締め切り9月16日水曜日23：59）
--->
 
+* <span style="color:blue;">2020/9/3:</span> (教員用)[「オンライン授業・在宅研究に関するアンケート」](questionnaire/2020summer_f)を開始しました．（締め切り9月16日水曜日23：59）
 * <span style="color:blue;">2020/8/28:</span> [Zoomウェビナーの提供](notice/zoom-webinar)をいたします.
 * <span style="color:blue;">2020/8/6:</span> [Zoomライセンス切り替えの延期・今後のウェブ会議システムの提供について(更新)](notice/webmeetingaccount20200915)
 * <span style="color:blue;">2020/8/4:</span> (教員用)8/5 12:10から[オンライン授業情報交換会(トピック：オンライン授業の振り返り](events/2020-luncheon/)を実施いたします．
