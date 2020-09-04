@@ -52,7 +52,7 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
 ## 参加申込み
 
 出席者数を把握するために、事前の参加申込をお願いします．
-申し込みフォームを準備中です
+以下のフォームからお申込みください。参加URLをお送りします。
 
 * UTokyo Account をお持ちの方は　[https://tinyurl.com/y6bfeoy9](https://tinyurl.com/y6bfeoy9)<br>
 * UTokyo Account をお持ちでない方は [https://tinyurl.com/y5oymvn6](https://tinyurl.com/y5oymvn6)
