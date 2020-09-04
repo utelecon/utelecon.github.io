@@ -54,8 +54,8 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
 出席者数を把握するために、事前の参加申込をお願いします．
 以下のフォームからお申込みください。参加URLをお送りします。
 
-* UTokyo Account をお持ちの方は　[https://tinyurl.com/y6bfeoy9](https://tinyurl.com/y6bfeoy9)<br>
-（Microsoftサインイン画面ではUTokyoAccount(10桁の数字)@utac.u-tokyo.ac.jpを入力.ログインできない方は[こちら](../faq/msaccount-troubleshooting）をご確認ください<br>
+* UTokyo Account をお持ちの方は　[https://tinyurl.com/y6bfeoy9](https://tinyurl.com/y6bfeoy9)
+（Microsoftサインイン画面ではUTokyoAccount(10桁の数字)@utac.u-tokyo.ac.jpを入力.ログインできない方は [こちら](https://utelecon.github.io/faq/msaccount-troubleshooting) をご確認ください<br>
 * UTokyo Account をお持ちでない方は [https://tinyurl.com/y5oymvn6](https://tinyurl.com/y5oymvn6)
 
 
