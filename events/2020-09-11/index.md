@@ -43,7 +43,7 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
 * 情報基盤センター 田浦健次朗 センター長
 * 情報基盤センター 柴山悦哉 教授
 * 大学総合教育研究センター 吉田塁 特任講師
-* 情報システム本部 玉造潤二 准教授 
+* 情報システム本部 玉造潤史 准教授 
 
 ## 資料
 
@@ -54,8 +54,8 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
 出席者数を把握するために、事前の参加申込をお願いします．
 申し込みフォームを準備中です
 
-* UTokyo Account をお持ちの方は　[https://tinyurl.com/y6bfeoy9] (https://tinyurl.com/y6bfeoy9)<br>
-* UTokyo Account をお持ちでない方は [https://tinyurl.com/y5oymvn6] (https://tinyurl.com/y5oymvn6)
+* UTokyo Account をお持ちの方は　[https://tinyurl.com/y6bfeoy9](https://tinyurl.com/y6bfeoy9)<br>
+* UTokyo Account をお持ちでない方は [https://tinyurl.com/y5oymvn6](https://tinyurl.com/y5oymvn6)
 
 
 
