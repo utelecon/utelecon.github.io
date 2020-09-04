@@ -5,7 +5,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
 
-* <span style="color:blue;">2020/9/4:</span> (教員向け説明会)9/11 15:00から[「説明会：Aセメスターのオンライン・ハイブリッド授業に向けて― Sセメスターの経験をふまえて」](events/2020-09-11)を開催いたします．
+* <span style="color:blue;">2020/9/4:</span> (教員用)9/11 15:00から[「説明会：Aセメスターのオンライン・ハイブリッド授業に向けて― Sセメスターの経験をふまえて」](events/2020-09-11)を開催いたします．
 * <span style="color:blue;">2020/9/3:</span> (教員用)[「オンライン授業・在宅研究に関するアンケート」](questionnaire/2020summer_f)を開始しました．（締め切り9月16日水曜日23：59）
 * <span style="color:blue;">2020/8/28:</span> [Zoomウェビナーの提供](notice/zoom-webinar)をいたします.
 * <span style="color:blue;">2020/8/6:</span> [Zoomライセンス切り替えの延期・今後のウェブ会議システムの提供について(更新)](notice/webmeetingaccount20200915)
