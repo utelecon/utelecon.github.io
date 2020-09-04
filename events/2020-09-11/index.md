@@ -18,24 +18,24 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
 ## 内容（予定）
 
 1. 挨拶 (大久保達也 教育担当理事・副学長)
-1. [授業に必要なICTシステムの概要] (slides/00-index.pdf) (田浦; 20分)
+1. <a href="slides/01-ict-overview.pdf">授業に必要なICTシステムの概要</a> (田浦; 20分)
   * UTokyo Account
   * 各種システム(UTAS, ITC-LMS, Google, Microsoft, Zoom, WebEx)とアカウント
   * Sセメスタからのサービス変更点まとめ
-1. Aセメスタ実施にあたり + Sセメスタの振り返り (田浦; 15分)
+1. <a href="slides/02-review-last-semester.pdf">Sセメスタの振り返り</a> (田浦; 15分)
   * 入室トラブル件数
   * アンケート
   * 学生の声・要望
-1. 教育用ICTの活用 (柴山; 20分)
+1. <!-- a href="slides/03-using-ict.pdf" -->教育用ICTの活用<!-- /a --> (柴山; 20分)
   * ITC-LMS, G Suite
   * 授業URL通知方法
   * 試験などでの利用に関する注意
-1. 各種授業形式とポイント (吉田; 20分)
+1. <!-- a href="slides/04-lecture-formats.pdf" -->各種授業形式とポイント<!-- /a --> (吉田; 20分)
   * オンライン リアルタイム授業, Zoom活用のポイント
   * オンデマンド授業
   * ハイブリッド(対面, オンラインの混合)授業
-1. クラスサポータ, chatbot, コモンサポータ (吉田; 5分)
-1. キャンパスWiFi (UTokyo-Wifi)について (玉造; 10分)
+1. <!-- a href="slides/05-supporters.pdf" -->クラスサポータ, chatbot, コモンサポータ<!-- /a --> (吉田; 5分)
+1. <!-- a href="slides/06-wifi.pdf" -->キャンパスWiFi (UTokyo-Wifi)について<!-- /a --> (玉造; 10分)
 1. 質疑応答 (終了予定時刻後も受け付けます)
 
 話者:
