@@ -8,15 +8,12 @@ title: Web会議 Webex の使い方
 
 ## はじめに
 
-* 会議室に参加するだけであればアカウントを作る必要はありません．	
-* 2020年度春学期は本学のGoogleメール（共通ID10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールエイリアスと呼びます）をIDとして Webexアカウントを作成し，Webexによってオンラインで会議や授業を行うことができます．
-* 現在は安全性追加サービス（180日の無償サービス：4月に追加でサービスを開始したもの）のみが使用可能です．3月に開始されたサービスは2020年6月8日をもって終了しました．
-	* End to End 暗号化された会議も開けます．詳細は[Webex Meetingsでのエンド・エンド間暗号化機能](encrypted_meeting)を参照してください．
-	* アカウントの取得方法は[Webex アカウントの作成とログイン](create_utelecon_account)を参照してください.
-	* Webex MeetingsとWebex Eventsが同時接続可能数は1000で利用できます．通常のWebexで利用可能なテレビ会議システム（いわゆるPolycom等）との接続もできます．
 * ここでは Web会議システム Webex の特徴や利用の流れについて説明します．このページでは全体的な特徴や大まかな流れを説明し,具体的な部分はサブページで説明します．
-	* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで WebEx を使えます.
-	* Webex MeetingsとWebex Eventsを使用する場合，最大200台までテレビ会議システム（いわゆるPolycom等）を接続することができます．**また，テレビ会議システムから何でもかんでもできるわけではありません．テレビ会議システムからの参加は事前に十分味見をしてからどうぞ．**
+* 本学のGoogleメール（共通ID10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールエイリアスと呼びます）をIDとして Webexアカウントを作成し，Webexによってオンラインで会議や授業を行うことができます．アカウントの取得方法は[Webex アカウントの作成とログイン](create_utelecon_account)を参照してください.
+* 会議室に参加するだけであればアカウントを作る必要はありません．
+* End to End 暗号化された会議も開けます．詳細は[Webex Meetingsでのエンド・エンド間暗号化機能](encrypted_meeting)を参照してください．
+* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで Webex を使えます.
+* Webex MeetingsとWebex Eventsを使用する場合，最大200台までテレビ会議システム（いわゆるPolycom等）を接続することができます．**テレビ会議システムから何でもかんでもできるわけではありません．テレビ会議システムからの参加は事前に十分味見をしてからどうぞ．**
 
 ### Webexサービスについて
 
@@ -25,12 +22,12 @@ title: Web会議 Webex の使い方
 
 * **Webex Meetings**
 	* 最大参加者数は1,000．うちテレビ会議システムからの接続最大200を含む．
-	* **テレビ会議システム（いわゆるPolycom等）からの接続が可能．**
+	* **テレビ会議システム（いわゆるPolycom等）からの接続が可能．ブレイクアウトセッションをおこなうこともできる．**
 	* 参加者同士が同じ立場で，双方向でやりとりのある会議等に使われることが多い．
-* **Webex Training**
+* Webex Training
 	* 最大参加者数は1,000．
-	* **ブレイクアウトセッションやテスト等をおこなうことができる．**
-	* ブレイクアウトセッションが必要なインタラクティブな講義等に使われることが多い．
+	* ブレイクアウトセッションや**テスト等**をおこなうことができる．
+	* パネリストやテストが必要なインタラクティブな講義等に使われることもある．
 * **Webex Events**
 	* 最大参加者数は1,000．
 	* **プレゼンターはテレビ会議システム（いわゆるPolycom等）からの接続が可能．**
@@ -51,13 +48,13 @@ title: Web会議 Webex の使い方
 {% endcomment %}
 * 開催者
 	1. デスクトップアプリやアプリを接続用デバイスへインストールします．
-		* <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
+		* <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
 		* Webex Meetingsの場合には，アプリケーションがインストールできない場合はWebブラウザ（FirefoxまたはGoogle Chromeを推奨）でも利用可能ですが，一部機能が制限されます．
 	1. ECCSクラウドメールを有効化します（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">詳細</a>）
 	1. Webexアカウントを作成します（<a href="create_utelecon_account" target="_blank">詳細</a>）
 * 参加者
 	1. デスクトップアプリやアプリを接続用デバイスへインストールします．
-		* <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
+		* <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="_blank">Cisco Webex ダウンロード</a> からCisco Webex Meetingsアプリをダウンロードすることができます．
 		* Webex Meetingsの場合には，アプリケーションがインストールできない場合はWebブラウザ（FirefoxまたはGoogle Chromeを推奨）でも利用可能ですが，一部機能が制限されます．
 
 ## 接続テスト
@@ -81,7 +78,7 @@ title: Web会議 Webex の使い方
 			* <a href="classroom_record" target="">［レコーディング］授業を録画する</a>執筆中
 {% endcomment %}
 
-	* <a href="open_meeting_vc" target="_blank">テレビ会議システムで会議を開きます</a> **6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．**
+	* <a href="open_meeting_vc" target="_blank">テレビ会議システムで会議を開きます</a>
 		* <a href="do_meeting_vc" target="_blank">会議室でできること（テレビ会議システムからの開催者・参加者）</a>
 {% comment %}
 		* 授業での使い方	
@@ -94,7 +91,7 @@ title: Web会議 Webex の使い方
 		* 開催者が会議を開始していない場合，会議の情報が表示されるだけで，会議室へは入れません．
 		* <a href="do_meeting" target="_blank">会議室でできること（開催者・参加者）</a>
 
-	* <a href="join_meeting_vc" target="_blank">テレビ会議システムで会議室へ入ります</a> **6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．**
+	* <a href="join_meeting_vc" target="_blank">テレビ会議システムで会議室へ入ります</a>
 		* 開催者が会議を開始していない場合，会議室に入れずにテレビ会議が切断されます．
 		* <a href="do_meeting_vc" target="_blank">会議室でできること（テレビ会議システムからの開催者・参加者）</a>
 
@@ -124,7 +121,7 @@ title: Web会議 Webex の使い方
 		* <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
 		* <a href="do_events_host" target="_blank">イベントでできること（開催者）</a>
 
-	* <a href="join_events_vc" target="_blank">テレビ会議システムでパネリストとして参加します</a> **6月8日までのECCSクラウドメールベースのWebex Meetingsでは利用できません．パネリストとしての参加しかできません．**
+	* <a href="join_events_vc" target="_blank">テレビ会議システムでパネリストとして参加します</a>
 
 * 参加者
 	1. イベントの情報（URLなど）をメールなどを用いて開催者から得ます．
