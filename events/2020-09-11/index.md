@@ -31,17 +31,17 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
   * アンケート
   * 学生の声・要望
 
-3．<a href="slides/03-using-ict.pdf">教育用ICTシステムの活用</a> (柴山; 20分)
+3．<!-- a href="slides/03-using-ict.pdf" -->教育用ICTシステムの活用<!-- /a --> (柴山; 20分)
   * ITC-LMS, G Suite
   * 授業URL通知方法
   * 試験などでの利用に関する注意
 
-4．<a href="slides/04-course-types.pdf">各種授業形態と実施のポイント</a> (吉田; 20分)
+4．<!--<a href="slides/04-course-types.pdf">-->各種授業形態と実施のポイント<!--</a>--> (吉田; 20分)
   * オンライン リアルタイム授業, Zoom活用のポイント
   * オンデマンド授業
   * ハイブリッド(対面, オンラインの混合)授業
 
-5．<a href="slides/05-supporters.pdf"> 学生サポーター制度（クラスサポーター, コモンサポーター）</a> (吉田; 5分)
+5．<!--<a href="slides/05-supporters.pdf">-->  学生サポーター制度（クラスサポーター, コモンサポーター）<!--</a>--> (吉田; 5分)
 
 6．<!-- a href="slides/06-wifi.pdf" -->キャンパスWiFi (UTokyo-Wifi)について<!-- /a --> (玉造; 10分)
 
