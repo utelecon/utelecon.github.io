@@ -67,6 +67,14 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
 （Microsoftサインイン画面ではUTokyoAccount(10桁の数字)@utac.u-tokyo.ac.jpを入力.ログインできない方は [こちら](https://utelecon.github.io/faq/msaccount-troubleshooting) をご確認ください<br>
 * UTokyo Account をお持ちでない方は [https://tinyurl.com/y5oymvn6](https://tinyurl.com/y5oymvn6)
 
+## 説明会Zoom URL
+
+* 以下のいずれかにアクセスできる方はいずれかから接続できます
+  * <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02">ITC-LMS 経由 (要UTokyo Account)</a>
+  * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ES_EpS5oc8dKtWKgZ6iM7PQBWaUtEbp6tdIoEmFg7kNqpw?e=SXDgj1">Microsoft Excel 経由 (要UTokyo Account)</a>
+  * <a href="https://docs.google.com/spreadsheets/d/1gKcSIZXsiS9voBoKUAwAeMBba9YtSg5UxFY5y0QAsIU/edit?usp=sharing">Google spreadsheet経由 (要ECCSクラウドメール)</a>
+* 上記にアクセスできない方は, 申込み後に送られたメールをご覧ください
+
 
 
 
