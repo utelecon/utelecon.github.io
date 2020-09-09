@@ -20,8 +20,10 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
 ## 内容（予定）
 
 挨拶 (大久保達也 教育担当理事・副学長)
+
+<a href="slides/00-index.pdf">目次</a>
   
-1．<!-- a href="slides/01-ict-overview.pdf" -->授業に必要なICTシステムの概要<!-- /a --> (田浦; 20分)
+1．<a href="slides/01-ict-overview.pdf">授業に必要なICTシステムの概要</a> (田浦; 20分)
   * UTokyo Account
   * 各種システム(UTAS, ITC-LMS, Google, Microsoft, Zoom, WebEx)とアカウント
   * Sセメスタからのサービス変更点まとめ
