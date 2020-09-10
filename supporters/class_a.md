@@ -10,7 +10,8 @@ title: クラスサポーター制度（Aセメスター）のご案内
 
 <br>
 
-**このページにリンクされているフォームにアクセスするにはoffice 365にログインしている必要があります．<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">こちら</a>を参照いただき、大学のマイクロソフトライセンスを有効化してログインの上アクセスをお願いします．あわせて，<a href="https://utelecon.github.io/oc/ " target="_blank">手順動画、およびログインできたかをチェックできるシート</a>もご利用ください．
+**<font color="red">重要！！</font>** <br>
+**このページにリンクされているフォームにアクセスするにはoffice 365にログインしている必要があります．<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">こちら</a>を参照いただき、大学のマイクロソフトライセンスを有効化してログインの上アクセスをお願いします．あわせて，<a href="https://utelecon.github.io/oc/#office-365%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%81%AE%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF " target="_blank">手順動画、およびログインできたかをチェックできるシート</a>もご利用ください．
 どうしてもアクセスできない場合には，クラスサポーター授業担当（末尾に連絡先があります）にご連絡ください．**
 
 
