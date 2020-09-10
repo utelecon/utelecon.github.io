@@ -28,12 +28,12 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
   * 各種システム(UTAS, ITC-LMS, Google, Microsoft, Zoom, WebEx)とアカウント
   * Sセメスタからのサービス変更点まとめ
 
-2．<a href="slides/02-review-last-semester.pdf">Sセメスタの振り返り</a> (田浦; 15分)
+2．<a href="slides/02-review-last-semester.pdf">Sセメスタの振り返り</a> (田浦; 20分)
   * 入室トラブル件数
   * アンケート
   * 学生の声・要望
 
-3．<a href="slides/03-using-ict.pdf">教育用ICTシステムの活用</a> (柴山; 20分)
+3．<a href="slides/03-using-ict.pdf">教育用ICTシステムの活用</a> (柴山; 25分)
   * ITC-LMS, G Suite
   * 授業URL通知方法
   * 試験などでの利用に関する注意
