@@ -38,14 +38,16 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
   * 授業URL通知方法
   * 試験などでの利用に関する注意
 
-4．<a href="slides/04-course-types.pdf">各種授業形態と実施のポイント</a> (吉田; 25分)
+4．<a href="slides/04-course-types.pdf">各種授業形態とポイント</a> (吉田; 25分)
   * オンライン リアルタイム授業, Zoom活用のポイント
   * オンデマンド授業
   * ハイブリッド(対面, オンラインの混合)授業
 
-5．<a href="slides/05-supporters.pdf">  学生サポーター制度（クラスサポーター, コモンサポーター）</a> (吉田; 5分)
+5．<a href="slides/05-supporters.pdf">  学生サポーター制度</a> (吉田; 5分)
+  * クラスサポーター
+  * コモンサポーター
 
-6．<a href="slides/06-wifi.pdf">キャンパスWiFi (UTokyo-Wifi)について</a> (玉造; 10分)
+6．<a href="slides/06-campus-wifi.pdf">キャンパスWiFi (UTokyo-Wifi)について</a> (玉造; 10分)
 
 質疑応答 (終了予定時刻後も受け付けます)
 
