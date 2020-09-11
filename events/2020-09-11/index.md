@@ -76,6 +76,8 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
   * <a href="https://docs.google.com/spreadsheets/d/1gKcSIZXsiS9voBoKUAwAeMBba9YtSg5UxFY5y0QAsIU/edit?usp=sharing" target="_blank">Google spreadsheet経由 (要ECCSクラウドメール)</a>
 * 上記にアクセスできない方は, 申込み後に送られたメールをご覧ください
 
+## 事後アンケート
 
+<a href="https://forms.gle/61rPydacY4Asf96u7">事後アンケート</a>へのご回答, よろしくおねがいします
 
 
