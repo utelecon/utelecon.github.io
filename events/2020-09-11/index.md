@@ -42,6 +42,7 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
   * オンライン リアルタイム授業, Zoom活用のポイント
   * オンデマンド授業
   * ハイブリッド(対面, オンラインの混合)授業
+    * [教養学部 対面・オンライン混合授業講習会 資料（学内限定公開 要ECCSクラウドメール）](https://drive.google.com/file/d/12gpNprhRGoIBs1atdGoPSLmKQH4JKEDq/view?usp=sharing) (ご共有いただき誠にありがとうございます)
 
 5．<a href="slides/05-supporters.pdf">  学生サポーター制度</a> (吉田; 5分)
   * クラスサポーター
@@ -75,6 +76,8 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
   * <a href="https://docs.google.com/spreadsheets/d/1gKcSIZXsiS9voBoKUAwAeMBba9YtSg5UxFY5y0QAsIU/edit?usp=sharing" target="_blank">Google spreadsheet経由 (要ECCSクラウドメール)</a>
 * 上記にアクセスできない方は, 申込み後に送られたメールをご覧ください
 
+## 事後アンケート
 
+<a href="https://forms.gle/61rPydacY4Asf96u7">事後アンケート</a>へのご回答, よろしくおねがいします
 
 
