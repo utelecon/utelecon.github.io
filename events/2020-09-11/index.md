@@ -47,7 +47,7 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
   * クラスサポーター
   * コモンサポーター
 
-6．<a href="slides/06-wifi.pdf">キャンパスWiFi (UTokyo-Wifi)について</a> (玉造; 10分)
+6．<a href="slides/06-cacmpus-wifi.pdf">キャンパスWiFi (UTokyo-Wifi)について</a> (玉造; 10分)
 
 質疑応答 (終了予定時刻後も受け付けます)
 
