@@ -15,6 +15,7 @@ title: オンライン授業で用いる外部サービスの運用状況
 * Webex
 1. [Webex Service Status](https://status.webex.com/service/status?lang=en_US)
 1. [日本向け Service Status](https://www.cisco.com/c/m/ja_jp/products/webex/status.html)
+1. [What's New](https://help.webex.com/en-us/xcwws1/What-s-New-for-the-Latest-Channel-of-Webex-Meetings)
 
 いつもはつながるサービスにつながらない場合はこれらのページを確認して下さい。
 （最も高い稼働目標のサービスでも99.9%ですので、1か月の0.1% 約43分は停止する可能性があります。
