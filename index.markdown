@@ -4,6 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/9/16:</span> [Zoomライセンス切り替えの再々延期・今後のウェブ会議システムの提供について(更新)](notice/webmeetingaccount20200916)
 * <span style="color:blue;">2020/9/11:</span> [クラスサポーター制度（Aセメスター）申込](supporters/class_a)を開始しました．
 * <span style="color:blue;">2020/9/11:</span> (学生用)9/18〆切 トラブルに対応する学生の[コモンサポーターを募集中](supporters/common_2020A)
 * <span style="color:blue;">2020/9/4:</span> (教員用)9/11 15:00から[「説明会：Aセメスターのオンライン・ハイブリッド授業に向けて― Sセメスターの経験をふまえて」](events/2020-09-11)を開催いたします．
