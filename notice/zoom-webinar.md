@@ -30,7 +30,7 @@ title: Zoom ウェビナーライセンスの提供
 申込〆切：ライセンス付与開始の2週間前まで 
 - 申し込みの時点で希望期間におけるライセンスの残数がない場合は、付与することができません。すでに確定している予定については早めに申請してください。 
 
-申請フォーム： [こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOTdIMFdKOTY5UjJHNzdFQlJVQ1NSTjJSNy4u) 
+申請フォーム： [こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUtWOE9PNkVXN1QzOVcxSFlJMFozTzRZQy4u) 
 - Microsoftのサインイン画面では 共通ID（10桁の数字）@utac.u-tokyo.ac.jp を入力してください。サインインできなかった場合は[こちらのトラブルシューティング](../faq/msaccount-troubleshooting)を参照してください。 
 
 申請の流れ（例）： 
