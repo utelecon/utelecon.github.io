@@ -6,7 +6,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 ---------------------------
 * <span style="color:blue;">2020/9/16:</span> [Zoomライセンス切り替えの再々延期・今後のウェブ会議システムの提供について(更新)](notice/webmeetingaccount20200916)
 * <span style="color:blue;">2020/9/11:</span> [クラスサポーター制度（Aセメスター）申込](supporters/class_a)を開始しました．
-* <span style="color:blue;">2020/9/11:</span> (学生用)9/18〆切 トラブルに対応する学生の[コモンサポーターを募集中](supporters/common_2020A)
+* <span style="color:blue;">2020/9/11:</span> (学生用)9/25正午〆切 トラブルに対応する学生の[コモンサポーターを募集中](supporters/common_2020A)
 * <span style="color:blue;">2020/9/4:</span> (教員用)9/11 15:00から[「説明会：Aセメスターのオンライン・ハイブリッド授業に向けて― Sセメスターの経験をふまえて」](events/2020-09-11)を開催いたします．
 * <span style="color:blue;">2020/9/3:</span> (教員用)[「オンライン授業・在宅研究に関するアンケート」](questionnaire/2020summer_f)を開始しました．（締め切り9月16日水曜日23：59）
 * <span style="color:blue;">2020/8/28:</span> [Zoomウェビナーの提供](notice/zoom-webinar)をいたします.
