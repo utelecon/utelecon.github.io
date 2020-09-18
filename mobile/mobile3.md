@@ -46,12 +46,12 @@ Please access the application form through either of the following.
 * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ESEjHc7AYBpPqjooTPGoJMsBqcl0bN20iSUVwunnTGL2hg?e=pKORAl" target="_blank">Excelオンライン / Excel Online</a>(UTokyo Account 10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります / You need to sign in office.com with your UTokyo Account (10-digit-ID@utac.u-tokyo.ac.jp)
 * 本部学務課からのメール
 
-**締め切り　7月1日以降も受け付けています**
+**締め切り　2020年Aターム以降も受け付けています**
 
 毎週木曜日までの申込分について、原則翌週月曜日に発送することにしています。
 なお、作業の都合上発送が遅れる場合があります。
 
-**Deadline: After 1,July, we continuously accept the application.**
+**Deadline: During 2020 A-Term, we continuously accept the application.**
 
 Every Thursday, we will process applications received so far and send the routers to accepted applications. Anticipate delays due to our workloads.
 
