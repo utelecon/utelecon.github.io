@@ -62,7 +62,7 @@ title: Webex
   * タブレット・スマートホンは不可．
   * 基本的に1:1のITサポートに用いられる．
 
-## Webex Training利用の流れ
+### Webex Training利用の流れ
 
 * 開催者
   1. (初期設定) <a href="create_utelecon_account" target="">アカウントを作成</a>
@@ -80,7 +80,7 @@ title: Webex
     * 開催者がトレーニングを開始していない場合，情報が表示されるだけで，会議室へは入れません．
     * <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
 
-## Webex Events利用の流れ
+### Webex Events利用の流れ
 
 * 開催者
   1. (初期設定) <a href="create_utelecon_account" target="">アカウントを作成</a>
