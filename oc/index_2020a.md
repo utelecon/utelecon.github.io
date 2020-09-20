@@ -676,6 +676,22 @@ UTokyo Account が入手でき次第, 以下の処理を行ってください.
 <a name="check-itc-lms"> </a>
 * オンライン授業URLにつないでみよう. この, <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank">ITC-LMS</a>のページを見て, そのページに書かれているオンライン授業URL (各種)をクリック・タップしてみてください. これは自分のブラウザやアプリなどが授業で使うシステムに対応しているかどうかのチェックです. つないでも誰もいない部屋につながるだけで, 画像や音などは流れません. つなげることがが確認できたらすぐに退席しましょう. 音が聞こえるかどうかなどは授業に少し前につないでみたり, 事前に友達・知り合いと試すチャンスがあれば試してみてください.
 
+<a name="check-excel"> </a>
+### Microsoft 365が使えるかのチェック
+
+* Microsoft 365が使えるかのチェック: この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. Officeへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
+  * **パターン1:** office.comに大学のアカウント (UTokyo Account)でサインインしていればすぐに見られます.
+  * **パターン2:** エラーになる. "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory." みたいなことを言われる. これは大学以外のアカウント(例: 個人でこれまで使っていたアカウント)でサインインした状態になっている場合におきます. 一旦サインアウトして大学のアカウントでサインインして, やり直してください.
+    * <a href="https://youtu.be/SiOS0M9FChk" target="_blank">パソコン</a>
+    * <a href="https://youtu.be/QZGGHcQvUXU" target="_blank">スマホ</a>
+  * **パターン3:** 東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれる. どのアカウントでもサインインしていない場合におきます.
+
+```
+UTokyo AccountのID (10桁の数字)@utac.u-tokyo.ac.jp
+```
+
+と記入して先へ進んで下さい. UTokyo AccountのIDは10桁の数字です. 次にUTokyo AccountのIDとパスワードを入力する画面が出てきたら, 自分で設定したUTokyo AccountのIDとパスワードを入力して下さい(<a href="https://youtu.be/iJbq6unDIOA" target="_blank">手順動画</a>). そしてやり直してください.
+
 <a name="check-google-spreadsheet"> </a>
 ### G Suite for Educationが使えるかのチェック
 
@@ -692,21 +708,6 @@ UTokyo Account が入手でき次第, 以下の処理を行ってください.
      * <a href="https://youtu.be/emnkVSWwScg" target="_blank">Androidの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
      * <a href="https://youtu.be/APvrKzxHmLc" target="_blank">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
 
-<a name="check-excel"> </a>
-### Office 365が使えるかのチェック
-
-* Office 365が使えるかのチェック: この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. Officeへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
-  * **パターン1:** office.comに大学のアカウント (UTokyo Account)でサインインしていればすぐに見られます.
-  * **パターン2:** エラーになる. "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory." みたいなことを言われる. これは大学以外のアカウント(例: 個人でこれまで使っていたアカウント)でサインインした状態になっている場合におきます. 一旦サインアウトして大学のアカウントでサインインして, やり直してください.
-    * <a href="https://youtu.be/SiOS0M9FChk" target="_blank">パソコン</a>
-    * <a href="https://youtu.be/QZGGHcQvUXU" target="_blank">スマホ</a>
-  * **パターン3:** 東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれる. どのアカウントでもサインインしていない場合におきます.
-
-```
-UTokyo AccountのID (10桁の数字)@utac.u-tokyo.ac.jp
-```
-
-と記入して先へ進んで下さい. UTokyo AccountのIDは10桁の数字です. 次にUTokyo AccountのIDとパスワードを入力する画面が出てきたら, 自分で設定したUTokyo AccountのIDとパスワードを入力して下さい(<a href="https://youtu.be/iJbq6unDIOA" target="_blank">手順動画</a>). そしてやり直してください.
 
 なにかおかしい, 接続できない場合は
 ---------------------------
