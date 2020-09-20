@@ -101,7 +101,7 @@ Sセメスターでのオンライン授業に対する学生・教員の反応�
   <a
      id="a4817"
      xlink:href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet"
-     target="_blank">
+     target="_blank" rel="noopener">
     <text
        y="451"
        x="149.101"
@@ -143,7 +143,7 @@ Sセメスターでのオンライン授業に対する学生・教員の反応�
   <a
      id="a4838"
      xlink:href="https://utas.adm.u-tokyo.ac.jp/"
-     target="_blank">
+     target="_blank" rel="noopener">
     <text
        y="225"
        x="58.524101"
@@ -183,7 +183,7 @@ Sセメスターでのオンライン授業に対する学生・教員の反応�
   <a
      id="a4841"
      xlink:href="https://itc-lms.ecc.u-tokyo.ac.jp/"
-     target="_blank">
+     target="_blank" rel="noopener">
     <text
        y="225"
        x="231.08299"
@@ -265,7 +265,7 @@ LMS</text>
   <a
      id="a4875"
      xlink:href="https://utelecon.webex.com/"
-     target="_blank">
+     target="_blank" rel="noopener">
     <text
        y="45"
        x="781.5"
@@ -294,7 +294,7 @@ LMS</text>
   <a
      id="a4872"
      xlink:href="https://utelecon.github.io/webex/create_utelecon_account"
-     target="_blank">
+     target="_blank" rel="noopener">
     <text
        y="19"
        x="754.72699"
@@ -372,7 +372,7 @@ LMS</text>
   <a
      id="a4845"
      xlink:href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet"
-     target="_blank">
+     target="_blank" rel="noopener">
     <text
        y="188"
        x="407.677"
@@ -403,7 +403,7 @@ LMS</text>
   <a
      id="a4861"
      xlink:href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp"
-     target="_blank">
+     target="_blank" rel="noopener">
     <text
        y="226"
        x="673.12097"
@@ -452,7 +452,7 @@ LMS</text>
   <a
      id="a4855"
      xlink:href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet"
-     target="_blank">
+     target="_blank" rel="noopener">
     <text
        y="188"
        x="685.52802"
@@ -489,7 +489,7 @@ LMS</text>
   <a
      id="a4869"
      xlink:href="https://zoom.us/"
-     target="_blank">
+     target="_blank" rel="noopener">
     <text
        y="47"
        x="582.97498"
@@ -629,31 +629,31 @@ LMS</text>
  * 常勤の教員には着任時に自動的に発行されているはずです.
  * 非常勤講師の先生にも授業で必要ならば発行するのが原則です. ない場合は所属専攻の事務に発行をお願いしてください.
 UTokyo Account が入手でき次第, 以下の処理を行ってください.
- * **作業:** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">初期パスワードを変更</a>してください. <a href="https://youtu.be/tTpAlqVhEXQ" target="_blank">手順動画</a>
+ * **作業:** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">初期パスワードを変更</a>してください. <a href="https://youtu.be/tTpAlqVhEXQ" target="_blank" rel="noopener">手順動画</a>
 1. **UTAS (学務システム):** 授業の内容(シラバス)を登録したり, 成績を入力したりするのに使うシステムです. 
- * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. 
-1. **ITC-LMS (学習管理システム):** 自分の授業で, 学生にお知らせをする, 課題を出す・回収する, 出欠を取る, などの用途に使います. <a href="https://utelecon.github.io/faculty_members/let_students_know_your_url">オンライン授業のURLに関する情報も, このシステムを用いて学生に教える</a>ことになるでしょう. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 
+ * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank" rel="noopener">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. 
+1. **ITC-LMS (学習管理システム):** 自分の授業で, 学生にお知らせをする, 課題を出す・回収する, 出欠を取る, などの用途に使います. <a href="https://utelecon.github.io/faculty_members/url_2020_a">オンライン授業のURLに関する情報も, このシステムを用いて学生に教える</a>ことになるでしょう. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 
  * **作業(サインイン):** UTokyo Accountで<a href="https://itc-lms.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ITC-LMS</a>にサインインしてください.
  * ITC-LMSについての<a href="https://utelecon.github.io/lms_lecturers/">詳細</a>, <a href="https://utelecon.github.io/events/2020-09-11/">9/11説明会</a> での説明(<a href="https://utelecon.github.io/events/2020-09-11/slides/03-using-ict.pdf" target="_blank" rel="noopener">資料</a>, <a href="https://youtu.be/DwPtqldvBpg" target="_blank" rel="noopener">動画</a>)
 1. **Microsoft 365:** Microsoftのサービスです. 講義資料やプレゼンテーションの作成など, いろいろなことに使えます.
- * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a> から「Office 365 ProPlus利用許諾」に合意し, Microsoft 365の有効化をして下さい (<a href="https://youtu.be/OYl5P67mDYI" target="_blank">手順動画</a>).
+ * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">UTokyo Account利用者メニュー</a> から「Office 365 ProPlus利用許諾」に合意し, Microsoft 365の有効化をして下さい (<a href="https://youtu.be/OYl5P67mDYI" target="_blank" rel="noopener">手順動画</a>).
   * このあと実際にExcelなどのアプリケーションが使えるようになるまで, 日中は最大3時間, 夜は翌朝11:00までお待ちください(正確には, 11:00, 14:00, 17:00, 20:00にこれまでの利用許諾が反映されます).
-  * **作業(サインイン):** 待ったら<a href="https://www.office.com/" targt="_blank">www.office.com にサインイン</a>してください. UTokyo Accountがあればサインインできるのですが, UTokyo Accountのサインイン画面の前にMicrosoftのSign-InでEmail, Phone, or Skypeと聞かれたら xxx@utac.u-tokyo.ac.jp と入れてください(そうするとUTokyo Accountのサインインページにたどり着きます). xxxの部分は何でも良いです (手順 <a href="https://youtu.be/cqQlaDLD9v0" target="_blank">パソコン</a>, <a href="https://youtu.be/https://youtu.be/IeGju3cb2E4" target="_blank">スマホ</a>). もしすでに別の(例えば普段自分が使っている)アカウントでサインインしていたら, 一度サインアウトしてから大学のアカウントでサインインします(手順 <a href="https://youtu.be/SiOS0M9FChk" target="_blank">パソコン</a>, <a href="https://youtu.be/https://youtu.be/QZGGHcQvUXU" target="_blank">スマホ</a>).
-  * **練習:** できたらExcelのBookを一つ作ってみてください(<a href="https://youtu.be/PcHlb-t2Dr8" target="_blank">手順動画</a>)
+  * **作業(サインイン):** 待ったら<a href="https://www.office.com/" target="_blank" rel="noopener">www.office.com にサインイン</a>してください. UTokyo Accountがあればサインインできるのですが, UTokyo Accountのサインイン画面の前にMicrosoftのSign-InでEmail, Phone, or Skypeと聞かれたら xxx@utac.u-tokyo.ac.jp と入れてください(そうするとUTokyo Accountのサインインページにたどり着きます). xxxの部分は何でも良いです (手順 <a href="https://youtu.be/cqQlaDLD9v0" target="_blank" rel="noopener">パソコン</a>, <a href="https://youtu.be/https://youtu.be/IeGju3cb2E4" target="_blank" rel="noopener">スマホ</a>). もしすでに別の(例えば普段自分が使っている)アカウントでサインインしていたら, 一度サインアウトしてから大学のアカウントでサインインします(手順 <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">パソコン</a>, <a href="https://youtu.be/https://youtu.be/QZGGHcQvUXU" target="_blank" rel="noopener">スマホ</a>).
+  * **練習:** できたらExcelのBookを一つ作ってみてください(<a href="https://youtu.be/PcHlb-t2Dr8" target="_blank" rel="noopener">手順動画</a>)
 1. **G Suite for Education (Google):** Googleのサービスです. メール(Gmail), カレンダーの他, レポートやプレゼンテーションの作成など, いろいろなことに使えます. 
-  * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a> の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (<a href="https://youtu.be/89_fjWDdzQ4" target="_blank">手順動画</a>).
+  * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">UTokyo Account利用者メニュー</a> の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (<a href="https://youtu.be/89_fjWDdzQ4" target="_blank" rel="noopener">手順動画</a>).
   * このあと実際にG Suite for Education が使える(Googleにサインインできる)ようになるまで, 最大1時間ほどお待ち下さい. 
-  * **作業(サインイン):** 最大1時間待ったら, <a href="https://google.com/" target="_blank">Google</a>にサインインして見て下さい.
-    * パソコン: Googleにサインインしていなければ<a href="https://youtu.be/rFciRfoU2KA" target="_blank">サインインする</a>, すでにほかのアカウントでGoogleにサインインしていれば<a href="https://youtu.be/I0yL_9sqdjs" target="_blank">一旦サインアウトしてサインインする</a>
-    * <a href="https://youtu.be/cl8QBaVCaxo" target="_blank">Android</a> Googleアカウントを追加する
-    * <a href="https://youtu.be/APvrKzxHmLc" target="_blank">iPhone</a> Googleアカウントを追加する
-  * **練習:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank">手順動画</a>)
+  * **作業(サインイン):** 最大1時間待ったら, <a href="https://google.com/" target="_blank" rel="noopener">Google</a>にサインインして見て下さい.
+    * パソコン: Googleにサインインしていなければ<a href="https://youtu.be/rFciRfoU2KA" target="_blank" rel="noopener">サインインする</a>, すでにほかのアカウントでGoogleにサインインしていれば<a href="https://youtu.be/I0yL_9sqdjs" target="_blank" rel="noopener">一旦サインアウトしてサインインする</a>
+    * <a href="https://youtu.be/cl8QBaVCaxo" target="_blank" rel="noopener">Android</a> Googleアカウントを追加する
+    * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhone</a> Googleアカウントを追加する
+  * **練習:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank" rel="noopener">手順動画</a>)
 1. **Zoom:** Web会議システムです. 多くのオンライン授業がZoomを使って行われています.
   * **作業(有効化):** <a href="https://utelecon.github.io/zoom/create_account">大学の Zoom アカウントの作り方</a>のページに従い, 大学のZoomアカウントを取得してください.
 1. **WebEx:** another Web会議システムです. 授業で使われる場合は前もって有効化(アカウント作成)してください.
   * **作業(有効化):** <a href="https://utelecon.github.io/webex/create_utelecon_account">WebExアカウントの作成とログイン</a>のページに従い, 大学のWebExアカウントを取得してください.
 
-**注意:** MicrosoftもGoogleも, すでに自分で使っているという方も多いとおもいます. そういう場合も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank">Google</a>) をマスターしてください. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, 大学アカウントを使えば, 大学メンバー間でのみ共有できる文書を作ることができます.
+**注意:** MicrosoftもGoogleも, すでに自分で使っているという方も多いとおもいます. そういう場合も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank" rel="noopener">Google</a>) をマスターしてください. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, 大学アカウントを使えば, 大学メンバー間でのみ共有できる文書を作ることができます.
 
 なお, 「ECCS クラウドメール」は東京大学におけるG Suite for Educationの名称です.
 
