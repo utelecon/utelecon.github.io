@@ -23,32 +23,32 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
 
 <a href="slides/00-index.pdf">目次</a>
   
-1．<a href="slides/01-ict-overview.pdf">授業に必要なICTシステムの概要</a> (田浦; 20分)
+1．<a href="slides/01-ict-overview.pdf">授業に必要なICTシステムの概要</a> (田浦; <a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">動画</a> 23分) 
   * UTokyo Account
   * 各種システム(UTAS, ITC-LMS, Google, Microsoft, Zoom, WebEx)とアカウント
   * Sセメスタからのサービス変更点まとめ
 
-2．<a href="slides/02-review-last-semester.pdf">Sセメスタの振り返り</a> (田浦; 20分)
+2．<a href="slides/02-review-last-semester.pdf">Sセメスタの振り返り</a> (田浦; <a href="https://youtu.be/sKRoV_Y9tUI" target="_blank" rel="noopener">動画</a> 12分)
   * 入室トラブル件数
   * アンケート
   * 学生の声・要望
 
-3．<a href="slides/03-using-ict.pdf">教育用ICTシステムの活用</a> (柴山; 25分)
+3．<a href="slides/03-using-ict.pdf">教育用ICTシステムの活用</a> (柴山; <a href="https://youtu.be/DwPtqldvBpg" target="_blank" rel="noopener">動画</a> 25分)
   * ITC-LMS, G Suite
   * 授業URL通知方法
   * 試験などでの利用に関する注意
 
-4．<a href="slides/04-course-types.pdf">各種授業形態とポイント</a> (吉田; 25分)
+4．<a href="slides/04-course-types.pdf">各種授業形態とポイント</a> (吉田; <a href="https://youtu.be/O2g44UTeiwU" target="_blank" rel="noopener">動画</a> 25分)
   * オンライン リアルタイム授業, Zoom活用のポイント
   * オンデマンド授業
   * ハイブリッド(対面, オンラインの混合)授業
     * [教養学部 対面・オンライン混合授業講習会 資料（学内限定公開 要ECCSクラウドメール）](https://drive.google.com/file/d/12gpNprhRGoIBs1atdGoPSLmKQH4JKEDq/view?usp=sharing) (ご共有いただき誠にありがとうございます)
 
-5．<a href="slides/05-supporters.pdf">  学生サポーター制度</a> (吉田; 5分)
+5．<a href="slides/05-supporters.pdf">学生サポーター制度</a> (吉田; <a href="https://youtu.be/TbGnLRXtdx4" target="_blank" rel="noopener">動画</a> 2分)
   * クラスサポーター
   * コモンサポーター
 
-6．<a href="slides/06-campus-wifi.pdf">キャンパスWiFi (UTokyo-Wifi)について</a> (玉造; 10分)
+6．<a href="slides/06-campus-wifi.pdf">キャンパスWiFi (UTokyo-Wifi)について</a> (玉造; <a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">動画</a> 8分)
 
 質疑応答 (終了予定時刻後も受け付けます)
 
@@ -61,6 +61,9 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
 
 ## 参加申込み
 
+終了しました
+
+<!--
 出席者数を把握するために、事前の参加申込をお願いします．
 以下のフォームからお申込みください。参加URLをお送りします。
 
@@ -75,6 +78,7 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
   * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/ES_EpS5oc8dKtWKgZ6iM7PQBWaUtEbp6tdIoEmFg7kNqpw?e=SXDgj1" target="_blank">Microsoft Excel 経由 (要UTokyo Account)</a>
   * <a href="https://docs.google.com/spreadsheets/d/1gKcSIZXsiS9voBoKUAwAeMBba9YtSg5UxFY5y0QAsIU/edit?usp=sharing" target="_blank">Google spreadsheet経由 (要ECCSクラウドメール)</a>
 * 上記にアクセスできない方は, 申込み後に送られたメールをご覧ください
+-->
 
 ## 事後アンケート
 
