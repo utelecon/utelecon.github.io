@@ -8,36 +8,36 @@ title: Webex
 (初期設定)はまだやったことがない場合のみ行ってください(毎回行う必要はありません).
 
 * 開催者
-  1. (初期設定) <a href="create_utelecon_account" target="">アカウントを作成</a>
-  1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="">Cisco Webex Meetingsアプリをインストール.</a>  アプリをインストールせず, Webブラウザ（FirefoxまたはGoogle Chromeを推奨）でも, 一部機能が制限されますが利用可能です.
-  1. Webexに<a href="https://utelecon.webex.com/" target="_blank">ログイン</a>
-  1. <a href="create_meeting" target="_blank">ミーティングを作成</a>
-  1. <a href="open_meeting" target="_blank">ミーティングを開始</a>
+  1. (初期設定) <a href="create_utelecon_account">アカウントを作成</a>
+  1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="_blank" rel="noopener">Cisco Webex Meetingsアプリをインストール.</a>  アプリをインストールせず, Webブラウザ（FirefoxまたはGoogle Chromeを推奨）でも, 一部機能が制限されますが利用可能です.
+  1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>
+  1. <a href="create_meeting">ミーティングを作成</a>
+  1. <a href="open_meeting">ミーティングを開始</a>
     * 開催者が明示的に「開始」するまで他の参加者はつなげません
-    * <a href="do_meeting" target="_blank">ミーティングでできること（開催者・参加者）</a>
-    * <a href="do_meeting_host" target="_blank">ミーティングでできること（開催者）</a>
+    * <a href="do_meeting">ミーティングでできること（開催者・参加者）</a>
+    * <a href="do_meeting_host">ミーティングでできること（開催者）</a>
 {% comment %}
     * 授業での使い方
-      * <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
-      * <a href="classroom_chat" target="">［チャット］質問を受け付ける</a>執筆中
-      * <a href="classroom_poll" target="">［投票］学生に質問する</a>執筆中
-      * <a href="classroom_record" target="">［レコーディング］授業を録画する</a>執筆中
+      * <a href="classroom_screen_sharing">［画面共有］資料を提示する</a>執筆中
+      * <a href="classroom_chat">［チャット］質問を受け付ける</a>執筆中
+      * <a href="classroom_poll">［投票］学生に質問する</a>執筆中
+      * <a href="classroom_record">［レコーディング］授業を録画する</a>執筆中
 {% endcomment %}
 {% comment %}
-      * <a href="open_meeting_vc" target="_blank">テレビ会議システムで会議を開きます</a>
-        * <a href="do_meeting_vc" target="_blank">会議室でできること（テレビ会議システムからの開催者・参加者）</a>
+      * <a href="open_meeting_vc">テレビ会議システムで会議を開きます</a>
+        * <a href="do_meeting_vc">会議室でできること（テレビ会議システムからの開催者・参加者）</a>
 {% endcomment %}
   
 * 参加者
-  1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="">Cisco Webex Meetingsアプリをインストール.</a>  アプリをインストールせず, Webブラウザ（FirefoxまたはGoogle Chromeを推奨）でも, 一部機能が制限されますが利用可能です.
+  1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="_blank" rel="noopener">Cisco Webex Meetingsアプリをインストール.</a>  アプリをインストールせず, Webブラウザ（FirefoxまたはGoogle Chromeを推奨）でも, 一部機能が制限されますが利用可能です.
   1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます．
-  1. 会議へ<a href="join_meeting" target="_blank">参加</a>
+  1. 会議へ<a href="join_meeting">参加</a>
     * 開催者が会議を開始していない場合，会議の情報が表示されるだけで，会議室へは入れません
-    * <a href="do_meeting" target="_blank">会議室でできること（開催者・参加者）</a>
+    * <a href="do_meeting">会議室でできること（開催者・参加者）</a>
 
 ## 接続テスト
 
-利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために，Cisco社に協力頂き，<a href="https://hiono-sandbox.webex.com/join/narumi" target="_blank">テストサイト</a>（平日の9:00～17:00）を用意しています．接続してみてください．（東京大学以外の方もぜひどうぞ！）
+利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために，Cisco社に協力頂き，<a href="https://hiono-sandbox.webex.com/join/narumi" target="_blank" rel="noopener">テストサイト</a>（平日の9:00～17:00）を用意しています．接続してみてください．（東京大学以外の方もぜひどうぞ！）
 
 
 ## その他のWebexサービスについて
@@ -65,81 +65,81 @@ title: Webex
 ### Webex Training利用の流れ
 
 * 開催者
-  1. (初期設定) <a href="create_utelecon_account" target="">アカウントを作成</a>
-  1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="">Cisco Webex Meetingsアプリをインストール</a>
+  1. (初期設定) <a href="create_utelecon_account">アカウントを作成</a>
+  1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="_blank" rel="noopener">Cisco Webex Meetingsアプリをインストール</a>
   1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>
-  1. <a href="create_training" target="_blank">トレーニングを作成</a>
-  1. <a href="open_training" target="_blank">トレーニングを開始</a>
+  1. <a href="create_training">トレーニングを作成</a>
+  1. <a href="open_training">トレーニングを開始</a>
     * 開催者が明示的に「開始」するまで他の参加者はつなげません
-    * <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
-    * <a href="do_training_host" target="_blank">トレーニングでできること（開催者）</a>
+    * <a href="do_training">トレーニングでできること（開催者・参加者）</a>
+    * <a href="do_training_host">トレーニングでできること（開催者）</a>
 
 * 参加者
   1. トレーニングの情報（URLなど）をメールなどを用いて開催者から得ます．
-  1. トレーニングに<a href="join_training" target="_blank">参加</a>
+  1. トレーニングに<a href="join_training">参加</a>
     * 開催者がトレーニングを開始していない場合，情報が表示されるだけで，会議室へは入れません．
-    * <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
+    * <a href="do_training">トレーニングでできること（開催者・参加者）</a>
 
 ### Webex Events利用の流れ
 
 * 開催者
-  1. (初期設定) <a href="create_utelecon_account" target="">アカウントを作成</a>
-  1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="">Cisco Webex Meetingsアプリをインストール</a>
+  1. (初期設定) <a href="create_utelecon_account">アカウントを作成</a>
+  1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="_blank" rel="noopener">Cisco Webex Meetingsアプリをインストール</a>
   1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>
-  1. <a href="create_events" target="_blank">イベントを作成</a>
-  1. <a href="open_events" target="_blank">イベントを開始</a>
+  1. <a href="create_events">イベントを作成</a>
+  1. <a href="open_events">イベントを開始</a>
     * 開催者が明示的に「開始」するまで他の参加者はつなげません
-    * <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
-    * <a href="do_events_host" target="_blank">イベントでできること（開催者）</a>
-    * <a href="join_events_vc" target="_blank">テレビ会議システムでパネリストとして参加します</a>
+    * <a href="do_events">イベントでできること（開催者・参加者）</a>
+    * <a href="do_events_host">イベントでできること（開催者）</a>
+    * <a href="join_events_vc">テレビ会議システムでパネリストとして参加します</a>
 
 * 参加者
   1. イベントの情報（URLなど）をメールなどを用いて開催者から得ます．
-  1. イベントに<a href="join_events" target="_blank">参加</a>
+  1. イベントに<a href="join_events">参加</a>
     * 開催者がイベントを開始していない場合，情報が表示されるだけで，会議室へは入れません．
-    * <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
+    * <a href="do_events">イベントでできること（開催者・参加者）</a>
 {% comment %}
 ## 授業の例
-* 授業例は<a href="browse_samples" target="_blank">こちら</a>
+* 授業例は<a href="browse_samples">こちら</a>
 {% endcomment %}
 
 {% comment %}
 ## サブページ一覧
-* <a href="create_utelecon_account" target="_blank">Webex アカウントの作成とログイン</a>	
+* <a href="create_utelecon_account">Webex アカウントの作成とログイン</a>	
 
-* <a href="create_meeting" target="_blank">会議室を作成する</a> 
-* <a href="open_meeting" target="_blank">Webex 会議の開始</a> 
-* <a href="open_meeting_vc" target="_blank">Webex 会議の開始 （テレビ会議システム）</a> 
-* <a href="join_meeting" target="_blank">Webex 会議への参加</a> 
-* <a href="join_meeting_vc" target="_blank">Webex 会議への参加 （テレビ会議システム）</a> 
-* <a href="do_meeting" target="_blank">Webex 会議室でできること（開催者・参加者）</a> 
-* <a href="do_meeting_vc" target="_blank">Webex 会議室でできること（テレビ会議システムからの開催者・参加者）</a>
-* <a href="do_meeting_host" target="_blank">Webex 会議室でできること（開催者）</a> 
+* <a href="create_meeting">会議室を作成する</a> 
+* <a href="open_meeting">Webex 会議の開始</a> 
+* <a href="open_meeting_vc">Webex 会議の開始 （テレビ会議システム）</a> 
+* <a href="join_meeting">Webex 会議への参加</a> 
+* <a href="join_meeting_vc">Webex 会議への参加 （テレビ会議システム）</a> 
+* <a href="do_meeting">Webex 会議室でできること（開催者・参加者）</a> 
+* <a href="do_meeting_vc">Webex 会議室でできること（テレビ会議システムからの開催者・参加者）</a>
+* <a href="do_meeting_host">Webex 会議室でできること（開催者）</a> 
 
-* <a href="encrypted_meeting" target="_blank">Webex Meetingsでのエンド・エンド間暗号化機能</a>
-* <a href="how_to_open_secure_meetings" target="_blank">Webexで安全性の高い会議を行うためのプラクティス</a>
+* <a href="encrypted_meeting">Webex Meetingsでのエンド・エンド間暗号化機能</a>
+* <a href="how_to_open_secure_meetings">Webexで安全性の高い会議を行うためのプラクティス</a>
 
-* <a href="create_training" target="_blank">トレーニングを作成する</a> 
-* <a href="open_training" target="_blank">Webex Trainingの開始</a> 
-* <a href="join_training" target="_blank">Webex Trainingへの参加</a> 
-* <a href="do_training" target="_blank">Webex Trainingでできること（開催者・参加者）</a> 
-* <a href="do_training_host" target="_blank">Webex Trainingでできること（開催者）</a> 
+* <a href="create_training">トレーニングを作成する</a> 
+* <a href="open_training">Webex Trainingの開始</a> 
+* <a href="join_training">Webex Trainingへの参加</a> 
+* <a href="do_training">Webex Trainingでできること（開催者・参加者）</a> 
+* <a href="do_training_host">Webex Trainingでできること（開催者）</a> 
 
-* <a href="create_events" target="_blank">イベントを作成する</a> 
-* <a href="open_events" target="_blank">Webex Eventsの開始</a> 
-* <a href="join_events" target="_blank">Webex Eventsへの参加</a> 
-* <a href="join_events_vc" target="_blank">Webex Eventsへの参加 （テレビ会議システム）</a> 
-* <a href="do_events" target="_blank">Webex Eventsでできること（開催者・参加者）</a> 
-* <a href="do_events_host" target="_blank">Webex Eventsでできること（開催者）</a> 
+* <a href="create_events">イベントを作成する</a> 
+* <a href="open_events">Webex Eventsの開始</a> 
+* <a href="join_events">Webex Eventsへの参加</a> 
+* <a href="join_events_vc">Webex Eventsへの参加 （テレビ会議システム）</a> 
+* <a href="do_events">Webex Eventsでできること（開催者・参加者）</a> 
+* <a href="do_events_host">Webex Eventsでできること（開催者）</a> 
 {% endcomment %}
 
 {% comment %}
 * 授業での使い方
-	* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
-	* <a href="classroom_chat" target="">［チャット］質問を受け付ける</a>執筆中
-	* <a href="classroom_poll" target="">［投票］学生に質問する</a>執筆中
-	* <a href="classroom_record" target="">［レコーディング］授業を録画する</a>執筆中
-	* Webex Trainingのみ：<a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す</a>執筆中
+	* <a href="classroom_screen_sharing">［画面共有］資料を提示する</a>執筆中
+	* <a href="classroom_chat">［チャット］質問を受け付ける</a>執筆中
+	* <a href="classroom_poll">［投票］学生に質問する</a>執筆中
+	* <a href="classroom_record">［レコーディング］授業を録画する</a>執筆中
+	* Webex Trainingのみ：<a href="classroom_breakout">［ブレイクアウト］グループワークを促す</a>執筆中
 {% endcomment %}
 
 {% comment %}
