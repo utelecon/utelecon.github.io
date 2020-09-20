@@ -657,8 +657,7 @@ LMS</text>
 1. **UTokyo Account:** 他のサービスすべてのもととなるアカウントになります.
 在学生であれば, これを使ったことがないという人はいないはずです.
  * 新入生には入学に伴って事務から配布されます. どのように配布されるかは専攻や学科によって異なります. これまでは入学して最初の登校日に紙で配布されていることが多かったとおもいますが, 登校が困難なことと, 授業のために以下のシステムを使う準備時間が必要なため, 登校初日に先立って郵送もしくは電子配布されることが多いと思われます. 不安であれば入学予定の専攻や学科にお問い合わせください.
-UTokyo Account が入手でき次第, 以下の処理を行ってください.
- * **作業:** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">初期パスワードを変更</a>してください. <a href="https://youtu.be/tTpAlqVhEXQ" target="_blank" rel="noopener">手順動画</a>
+ * **作業:** まだ一度も使ったことがない人は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">初期パスワードを変更</a>してください. <a href="https://youtu.be/tTpAlqVhEXQ" target="_blank" rel="noopener">手順動画</a>
 1. **UTAS (学務システム):** 授業の内容(シラバス)を参照して受ける授業を選び, 履修の登録をしたり, 成績を見たりするのに使うシステムです. 
  * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank" rel="noopener">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. 
 1. **ITC-LMS (学習管理システム):** 自分が履修した講義に関して, 課題が掲示されたり, 課題を提出したり, などの用途に使います. オンライン授業に関する情報も, このシステムを経由して得ることになるでしょう. また, 講義資料がここにアップされたり, ここで出欠管理をする場合もあります. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 授業期間が始まった後, 授業に関するお知らせがITC-LMSを経由して流れてくることが多くなります.
