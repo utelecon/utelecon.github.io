@@ -24,7 +24,7 @@ Sセメスターでのオンライン授業に対する学生・教員の反応�
 
 全体像は下図のようになっています.
 * システム名をクリックすると各システムへサインインするページに行けます.
-* 矢印は依存関係を示しており, A $\rightarrow$ B は, 最初にAを使えるようにしてからBを使う必要があることを示しています(例えばZoomを使うにはG Suiteが使える必要があり, そのためにはUTokyo Accountが必要です).
+* 矢印は依存関係を示しており, A -> B は, 最初にAを使えるようにしてからBを使う必要があることを示しています(例えばZoomを使うにはG Suiteが使える必要があり, そのためにはUTokyo Accountが必要です).
 * 「要有効化」という印があるシステムは初めて使う際に初期設定作業が必要です. 「要有効化」をクリックするとそのページに行けます.
 * 詳細は <a href="https://utelecon.github.io/events/2020-09-11/" target="_blank" rel="noopener">9/11 説明会</a>の<a href="https://utelecon.github.io/events/2020-09-11/slides/01-ict-overview.pdf" target="_blank" rel="noopener">第一部: 授業に必要なICTシステムの概要</a> (<a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">動画</a>) で説明していますのでご覧ください
 
