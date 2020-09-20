@@ -10,7 +10,7 @@ title: Webex
 * 開催者
   1. (初期設定) <a href="create_utelecon_account" target="">アカウントを作成</a>
   1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="">Cisco Webex Meetingsアプリをインストール.</a>  アプリをインストールせず, Webブラウザ（FirefoxまたはGoogle Chromeを推奨）でも, 一部機能が制限されますが利用可能です.
-  1. <a href="create_utelecon_account" target="_blank">Webexにログイン</a>
+  1. <a href="https://utelecon.webex.com/" target="_blank">Webexにログイン</a>
   1. <a href="create_meeting" target="_blank">会議室を設定</a>
   1. <a href="open_meeting" target="_blank">会議を開始</a>
     * 開催者が明示的に「開始」するまで他の参加者はつなげません
@@ -67,9 +67,9 @@ title: Webex
 * 開催者
   1. (初期設定) <a href="create_utelecon_account" target="">アカウントを作成</a>
   1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="">Cisco Webex Meetingsアプリをインストール</a>
-  1. Webexにログインします（<a href="create_utelecon_account" target="_blank">詳細</a>）
-  1. トレーニングを設定します（<a href="create_training" target="_blank">詳細</a>）
-  1. トレーニングを開始します（<a href="open_training" target="_blank">詳細</a>）
+  1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>
+  1. <a href="create_training" target="_blank">トレーニングを設定</a>
+  1. <a href="open_training" target="_blank">トレーニングを開始</a>
     * 開催者が明示的に「開始」するまで他の参加者はつなげません
     * <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
     * <a href="do_training_host" target="_blank">トレーニングでできること（開催者）</a>
@@ -85,9 +85,9 @@ title: Webex
 * 開催者
   1. (初期設定) <a href="create_utelecon_account" target="">アカウントを作成</a>
   1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="">Cisco Webex Meetingsアプリをインストール</a>
-  1. Webexにログインします（<a href="create_utelecon_account" target="_blank">詳細</a>）
-  1. イベントを設定します（<a href="create_events" target="_blank">詳細</a>）
-  1. イベントを開始します（<a href="open_events" target="_blank">詳細</a>）
+  1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>
+  1. <a href="create_events" target="_blank">イベントを設定</a>
+  1. <a href="open_events" target="_blank">イベントを開始</a>
     * 開催者が明示的に「開始」するまで他の参加者はつなげません
     * <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
     * <a href="do_events_host" target="_blank">イベントでできること（開催者）</a>
