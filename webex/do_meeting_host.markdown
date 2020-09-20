@@ -1,5 +1,5 @@
 ---
-title: Webex 会議室でできること（開催者）
+title: Webex ミーティングでできること（開催者）
 ---
 
 * ここでは，開催者特有のWebex Meetingsの機能を説明します．	
