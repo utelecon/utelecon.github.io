@@ -634,6 +634,7 @@ UTokyo Account が入手でき次第, 以下の処理を行ってください.
  * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. 
 1. **ITC-LMS (学習管理システム):** 自分の授業で, 学生にお知らせをする, 課題を出す・回収する, 出欠を取る, などの用途に使います. <a href="https://utelecon.github.io/faculty_members/let_students_know_your_url">オンライン授業のURLに関する情報も, このシステムを用いて学生に教える</a>ことになるでしょう. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 
  * **作業(サインイン):** UTokyo Accountで<a href="https://itc-lms.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ITC-LMS</a>にサインインしてください.
+ * ITC-LMSについての<a href="https://utelecon.github.io/lms_lecturers/">詳細</a>, <a href="https://utelecon.github.io/events/2020-09-11/">9/11説明会</a> での説明(<a href="https://utelecon.github.io/events/2020-09-11/slides/03-using-ict.pdf" target="_blank" rel="noopener">資料</a>, <a href="https://youtu.be/DwPtqldvBpg" target="_blank" rel="noopener">動画</a>)
 1. **Microsoft 365:** Microsoftのサービスです. 講義資料やプレゼンテーションの作成など, いろいろなことに使えます.
  * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a> から「Office 365 ProPlus利用許諾」に合意し, Microsoft 365の有効化をして下さい (<a href="https://youtu.be/OYl5P67mDYI" target="_blank">手順動画</a>).
   * このあと実際にExcelなどのアプリケーションが使えるようになるまで, 日中は最大3時間, 夜は翌朝11:00までお待ちください(正確には, 11:00, 14:00, 17:00, 20:00にこれまでの利用許諾が反映されます).
