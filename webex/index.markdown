@@ -31,7 +31,7 @@ title: Webex
 * 参加者
   1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="">Cisco Webex Meetingsアプリをインストール.</a>  アプリをインストールせず, Webブラウザ（FirefoxまたはGoogle Chromeを推奨）でも, 一部機能が制限されますが利用可能です.
   1. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます．
-  1. 会議室へ入ります（<a href="join_meeting" target="_blank">詳細</a>）
+  1. 会議へ<a href="join_meeting" target="_blank">参加</a>
     * 開催者が会議を開始していない場合，会議の情報が表示されるだけで，会議室へは入れません
     * <a href="do_meeting" target="_blank">会議室でできること（開催者・参加者）</a>
 
@@ -76,7 +76,7 @@ title: Webex
 
 * 参加者
   1. トレーニングの情報（URLなど）をメールなどを用いて開催者から得ます．
-  1. トレーニングに参加します（<a href="join_training" target="_blank">詳細</a>）
+  1. トレーニングに<a href="join_training" target="_blank">参加</a>
     * 開催者がトレーニングを開始していない場合，情報が表示されるだけで，会議室へは入れません．
     * <a href="do_training" target="_blank">トレーニングでできること（開催者・参加者）</a>
 
@@ -95,7 +95,7 @@ title: Webex
 
 * 参加者
   1. イベントの情報（URLなど）をメールなどを用いて開催者から得ます．
-  1. イベントに参加します（<a href="join_events" target="_blank">詳細</a>）
+  1. イベントに<a href="join_events" target="_blank">参加</a>
     * 開催者がイベントを開始していない場合，情報が表示されるだけで，会議室へは入れません．
     * <a href="do_events" target="_blank">イベントでできること（開催者・参加者）</a>
 {% comment %}
