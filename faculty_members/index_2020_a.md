@@ -1,4 +1,4 @@
----
+当該授業の終了後すみやかに---
 title: 教員のための、授業を行うにあたって (2020 Aセメスター版)
 ---
 
@@ -627,10 +627,10 @@ LMS</text>
 1. **UTokyo Account:** 他のサービスすべてのもととなるアカウントになります.
  * 一度でも授業を受け持てば, これを使ったことがないという人はいないはずです.
  * 常勤の教員には着任時に自動的に発行されているはずです.
- * 非常勤講師の先生にも授業で必要ならば発行するのが原則です. ない場合は所属専攻の事務に発行をお願いしてください.
+ * 非常勤講師の先生にも授業で必要ならば発行するのが原則です. ない場合は授業を開講する学科・専攻の事務に発行をお願いしてください.
  * **作業:** まだ一度も使ったことがない人は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">初期パスワードを変更</a>してください. <a href="https://youtu.be/tTpAlqVhEXQ" target="_blank" rel="noopener">手順動画</a>
 1. **UTAS (学務システム):** 授業の内容(シラバス)を登録したり, 成績を入力したりするのに使うシステムです. 
- * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank" rel="noopener">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. 
+ <!-- * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank" rel="noopener">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. -->
 1. **ITC-LMS (学習管理システム):** 自分の授業で, 学生にお知らせをする, 課題を出す・回収する, 出欠を取る, などの用途に使います. <a href="https://utelecon.github.io/faculty_members/url_2020_a">オンライン授業のURLに関する情報も, このシステムを用いて学生に教える</a>ことになるでしょう. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 
  * **作業(サインイン):** UTokyo Accountで<a href="https://itc-lms.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ITC-LMS</a>にサインインしてください.
  * ITC-LMSについての<a href="https://utelecon.github.io/lms_lecturers/">詳細</a>, <a href="https://utelecon.github.io/events/2020-09-11/">9/11説明会</a> での説明(<a href="https://utelecon.github.io/events/2020-09-11/slides/03-using-ict.pdf" target="_blank" rel="noopener">資料</a>, <a href="https://youtu.be/DwPtqldvBpg" target="_blank" rel="noopener">動画</a>)
