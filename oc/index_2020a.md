@@ -673,43 +673,6 @@ UTokyo Account が入手でき次第, 以下の処理を行ってください.
 
 ***
 
-<a name="check-online-ready"> </a>-weight:400;font-size:14px;font-family:Cambria, Cambria_MSFontService, sans-serif;fill:#00b050"
-     id="text185"
-     font-size="14"
-     font-weight="400"
-     x="81.713997"
-     y="246">10桁<tspan
-   style="font-family:Meiryo, Meiryo_MSFontService, sans-serif"
-   id="tspan183"
-   y="246"
-   x="97.380699" />
-</text>
-  <path
-     style="fill:#ccffcc;fill-rule:evenodd"
-     inkscape:connector-curvature="0"
-     id="path187"
-     d="M 804,53.167 C 804,51.418 805.418,50 807.167,50 h 68.666 c 1.749,0 3.167,1.418 3.167,3.167 V 65.833 C 879,67.582 877.582,69 875.833,69 H 807.167 C 805.418,69 804,67.582 804,65.833 Z" />
-  <text
-     style="font-weight:400;font-size:14px;font-family:Cambria, Cambria_MSFontService, sans-serif;fill:#00b050"
-     id="text193"
-     font-size="14"
-     font-weight="400"
-     x="817.35303"
-     y="63">10桁@g</text>
-  <path
-     style="fill:#ccffcc;fill-rule:evenodd"
-     inkscape:connector-curvature="0"
-     id="path195"
-     d="m 588,54 c 0,-1.657 1.343,-3 3,-3 h 69 c 1.657,0 3,1.343 3,3 v 12 c 0,1.657 -1.343,3 -3,3 h -69 c -1.657,0 -3,-1.343 -3,-3 z" />
-  <text
-     style="font-weight:400;font-size:14px;font-family:Cambria, Cambria_MSFontService, sans-serif;fill:#00b050"
-     id="text199"
-     font-size="14"
-     font-weight="400"
-     x="601.026"
-     y="64">10桁@g</text>
-</svg>
-
 以下で各システムで必要な作業について簡単に説明します. 以下の作業中, このページに書かれている通りにならないなど, 問題を見つけた場合はまずはこのページにあらわれているchatbotをお試しください(chatbotで解決しない場合はサポートチームに連絡できます).
 
 1. **UTokyo Account:** 他のサービスすべてのもととなるアカウントになります.
