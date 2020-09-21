@@ -2,6 +2,8 @@
 title: グッドプラクティスの共有
 ---
 
+<!--  Source codes of css and javascript were from https://www.tam-tam.co.jp/tipsnote/javascript/post14636.html. Thank you for the great codes -->
+
 <style type="text/css">
 
 .search-box_label {
@@ -102,9 +104,13 @@ function array_match_check(arr1, arr2) {
 </script>
 ## お知らせ
 
-- 2020年9月21日 新しい記事を公開しました．
+- 2020年9月22日 新しい記事を公開しました．
 
 ## はじめに
+* このページは，本学で行われたオンライン授業のグッドプラクティスを共有するためのページです．  
+* オンライン授業に関する学生アンケートに設置されていた「やり方の良かった授業」の自由記述欄において，多くのポジティブなコメントが寄せられていた先生方へのインタビュー記事が掲載されています．
+* 2020年9月21日現在，14名の先生方にインタビューをし終わった状況で，記事を順次公開予定です．
+* これらの情報がみなさまの実践の参考になれば幸いです．
 
 ## 記事一覧
 以下のチェックボックスを使うことで記事の絞り込みができます．<br>
@@ -127,13 +133,14 @@ function array_match_check(arr1, arr2) {
         <input type="checkbox" name="tool" value="itc-lms">ITC-LMS　
         <input type="checkbox" name="tool" value="google-classroom">Google Classroom　
         <input type="checkbox" name="tool" value="slack">Slack　<br>
-        <input type="checkbox" name="tool" value="zoom">Zoom　
+        　　　<input type="checkbox" name="tool" value="zoom">Zoom　
         <input type="checkbox" name="tool" value="webex">Webex　
         <input type="checkbox" name="tool" value="google-meet">Google Meet　<br>
-        <input type="checkbox" name="tool" value="google-document">Google Document　
+        　　　<input type="checkbox" name="tool" value="google-document">Google Document　
         <input type="checkbox" name="tool" value="google-sheets">Google Sheets　
         <input type="checkbox" name="tool" value="google-slides">Google Slides　
-        <input type="checkbox" name="tool" value="google-forms">Google Forms　
+        <input type="checkbox" name="tool" value="google-forms">Google Forms<br>
+        　　　<input type="checkbox" name="tool" value="slido">Slido　<br>
     </div>
     <div class="search-box">
         <span class="search-box_label">キーワード:</span>
@@ -146,12 +153,13 @@ function array_match_check(arr1, arr2) {
 <ul class="list">  
 <br>
     <li class="list_item" data-format='["realtime_online", "ondemand"]' data-number='lt30' data-tool='["zoom", "slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
-        <a href="./kurita">栗田佳代子 先生・「学びの場」づくり（教育学部）</a><br>
+        <a href="./kurita">栗田佳代子 先生の授業: 「学びの場」づくり（教育学部 20名程度）</a><br>
         <ul>
-            <li>約20名履修　リアルタイムとオンデマンドの組み合わせ　グループワーク</li>
-            <li>利用ツール: Zoom, Slido, Google Documents, Sheets, Slides, Forms, Google Classroom</li>
+            <li>ポイント: リアルタイムとオンデマンドの組み合わせ　グループワーク</li>
+            <li>利用ツール: Google Classroom, Zoom, Slido, Google Documents, Sheets, Slides, Forms</li>
         </ul>
     </li>
+    <!--
     <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100' data-tool='["slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
         <a href="./kurita">栗田佳代子 先生・「学びの場」づくり（教育学部）</a><br>
         <ul>
@@ -166,6 +174,7 @@ function array_match_check(arr1, arr2) {
             <li>利用ツール: Zoom, Slido, Slides, Forms, Google Classroom</li>
         </ul>
     </li>
+    -->
 
 </ul>
 
