@@ -39,8 +39,11 @@ title: Google Meet
 <a name="signin"></a>
 ## ECCSクラウドメールのアカウント(xxx@g.ecc.u-tokyo.ac.jp)でGoogleにログイン
 
-* 適当なGoogleのサービス (Gmail, カレンダー, Meetなど) にアクセスし, ページ上部の「ログイン」または"Sign in"から, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
+* 適当なGoogleのサービス (<a href="https://mail.google.com/" target="_blank" rel="noopener">Gmail</a>, <a href="https://calendar.google.com/" target="_blank" rel="noopener">カレンダー</a>など) にアクセスし, ページ上部の「ログイン」または"Sign in"から, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
   * すでに他の(例えば個人の)Googleアカウントでサインインしている場合は, アカウントを切り替えたり, アカウントを追加して, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でログインしてください.
+* 以下は「ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でのサインイン」を強制するためのリンクです
+  * <a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">Gmail</a>
+  * <a href="https://calendar.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">カレンダー</a>
 
 <a name="create_meeting"></a>
 ## 会議の作成
