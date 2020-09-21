@@ -145,27 +145,27 @@ function array_match_check(arr1, arr2) {
 </form>
 
 
-<ul class="list">
-    <li class="list_item" data-format='["realtime_online", "ondemand"]' data-number='lt30', data-tool='["zoom", "slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
+<ul class="list">  
+<li class="list_item" data-format='["realtime_online", "ondemand"]' data-number='lt30', data-tool='["zoom", "slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
         [栗田佳代子 先生・「学びの場」づくり（教育学部）](kurita)<br>
-        <ul>
-            <li>約20名履修　リアルタイムとオンデマンドの組み合わせ　グループワーク</li>
-            <li>利用ツール: Zoom, Slido, Google Documents, Sheets, Slides, Forms, Google Classroom</li>
-        </ul>
-    </li>
-    <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100', data-tool='["slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
-        [栗田佳代子 先生・「学びの場」づくり（教育学部）](kurita)<br>
-        <ul>
-            <li>約80名履修　リアルタイム　グループワーク</li>
-            <li>利用ツール: Slido, Google Documents, Sheets, Slides, Forms, Google Classroom</li>
-        </ul>
-    </li>
-    <li class="list_item" data-format='["ondemand"]' data-number='mt100', data-tool='["zoom", "slido", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
-        [栗田佳代子 先生・「学びの場」づくり（教育学部）](kurita)<br>
-        <ul>
-            <li>約120名履修　オンデマンド　グループワーク</li>
-            <li>利用ツール: Zoom, Slido, Slides, Forms, Google Classroom</li>
-        </ul>
-    </li>
+    <ul>
+        <li>約20名履修　リアルタイムとオンデマンドの組み合わせ　グループワーク</li>
+        <li>利用ツール: Zoom, Slido, Google Documents, Sheets, Slides, Forms, Google Classroom</li>
+    </ul>
+</li>
+<li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100', data-tool='["slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
+    [栗田佳代子 先生・「学びの場」づくり（教育学部）](kurita)<br>
+    <ul>
+        <li>約80名履修　リアルタイム　グループワーク</li>
+        <li>利用ツール: Slido, Google Documents, Sheets, Slides, Forms, Google Classroom</li>
+    </ul>
+</li>
+<li class="list_item" data-format='["ondemand"]' data-number='mt100', data-tool='["zoom", "slido", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
+    [栗田佳代子 先生・「学びの場」づくり（教育学部）](kurita)<br>
+    <ul>
+        <li>約120名履修　オンデマンド　グループワーク</li>
+        <li>利用ツール: Zoom, Slido, Slides, Forms, Google Classroom</li>
+    </ul>
+</li>
 
 </ul>
