@@ -4,24 +4,12 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/9/21:</span> (学生・教員用) Aセメスターの授業をする教員・受ける学生は [授業URLの通知の仕方 - 2020 Aセメスター版](faculty_members/url_2020_a) をご覧ください
 * <span style="color:blue;">2020/9/16:</span> [Zoomライセンス切り替えの再々延期・今後のウェブ会議システムの提供について(更新)](notice/webmeetingaccount20200916)
 * <span style="color:blue;">2020/9/11:</span> [クラスサポーター制度（Aセメスター）申込](supporters/class_a)を開始しました．
 * <span style="color:blue;">2020/9/11:</span> (学生用)9/25正午〆切 トラブルに対応する学生の[コモンサポーターを募集中](supporters/common_2020A)
 * <span style="color:blue;">2020/9/4:</span> (教員用)9/11 15:00から[「説明会：Aセメスターのオンライン・ハイブリッド授業に向けて― Sセメスターの経験をふまえて」](events/2020-09-11)を開催いたします．
 * <span style="color:blue;">2020/9/3:</span> (教員用)[「オンライン授業・在宅研究に関するアンケート」](questionnaire/2020summer_f)を開始しました．（締め切り9月16日水曜日23：59）
-* <span style="color:blue;">2020/8/28:</span> [Zoomウェビナーの提供](notice/zoom-webinar)をいたします.
-* <span style="color:blue;">2020/8/6:</span> [Zoomライセンス切り替えの延期・今後のウェブ会議システムの提供について(更新)](notice/webmeetingaccount20200915)
-* <span style="color:blue;">2020/8/4:</span> (教員用)8/5 12:10から[オンライン授業情報交換会(トピック：オンライン授業の振り返り](events/2020-luncheon/)を実施いたします．
-* <span style="color:blue;">2020/7/22:</span> (学生・研究者)[「オンライン授業・在宅研究に関するアンケート」](questionnaire/2020summer)を開始しました．（締め切り8月20日木曜日23：59）
-* <span style="color:blue;">2020/7/14:</span> (教員用)7/15 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(3)](events/2020-luncheon/)を実施いたします．
-* <span style="color:blue;">2020/7/6:</span> (教員用)7/8 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(2)](events/2020-luncheon/)を実施いたします．
-* <span style="color:blue;">2020/7/2:</span> [Microsoft Onedriveで学外者とファイルの共有が可能になります](notice/onedrive20200702)
-* <span style="color:blue;">2020/7/2:</span> [今後のウェブ会議システムの提供について](notice/webmeetingaccount)
-* <span style="color:blue;">2020/6/25:</span> (教員用)6/29 12:10から[オンライン授業情報交換会(トピック：コモンサポーターの活動紹介](events/2020-luncheon/)を実施いたします．
-* <span style="color:blue;">2020/6/21:</span> (教員用)6/24 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール](events/2020-luncheon/)を実施いたします．
-* <span style="color:blue;">2020/6/8:</span> (教員用)6/11 12:10から[オンライン授業情報交換会(トピック：オンライン授業における障害学生への配慮～聴覚障害のケース～）](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
-* <span style="color:blue;">2020/6/3:</span> (学生用)<a href="mobile/mobile3">ネットワーク環境支援 : 教育・研究活動のためのネットワーク環境支援 継続 について / The network environment support for education and research</a>
-* <span style="color:blue;">2020/6/2:</span> (教員用)6/3 12:10から[オンライン授業情報交換会(トピック：授業の工夫の共有(2))](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 
 
 [過去のエントリ](whats_not_new)
