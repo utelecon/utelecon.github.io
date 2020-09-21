@@ -107,65 +107,76 @@ function array_match_check(arr1, arr2) {
 ## はじめに
 
 ## 記事一覧
-
-* [栗田佳代子 先生・「学びの場」づくり（教育学部）](kurita)
-  * 約20名履修　リアルタイム中心
-  * 利用ツール: Zoom，Slido，Google Documents, Sheets, Slides, Forms，Google Classroom
-
+以下のチェックボックスを使うことで記事の絞り込みができます．<br>
 
 <form>
     <div class="search-box">
         <span class="search-box_label">形態:</span>
-        <input type="checkbox" name="format" value="realtime_online">リアルタイム（オンライン）
-        <input type="checkbox" name="format" value="ondemand">オンデマンド
+        <input type="checkbox" name="format" value="realtime_online">リアルタイム（オンライン）　
+        <input type="checkbox" name="format" value="ondemand">オンデマンド　
     </div>
     <div class="search-box">
         <span class="search-box_label">学生数:</span>
-        <input type="checkbox" name="number" value="lt30">30名以下
-        <input type="checkbox" name="number" value="mt30-lt100">31名～100名
-        <input type="checkbox" name="number" value="mt100">101名以上
+        <input type="checkbox" name="number" value="lt30">30名以下　
+        <input type="checkbox" name="number" value="mt30-lt100">31名～100名　
+        <input type="checkbox" name="number" value="mt100">101名以上　
     </div>
     <div class="search-box">
         <span class="search-box_label">ツール:</span>
-        <input type="checkbox" name="tool" value="">全て
-        <input type="checkbox" name="tool" value="zoom">Zoom
-        <input type="checkbox" name="tool" value="slido">Slido
-        <input type="checkbox" name="tool" value="google-document">Google Document
-        <input type="checkbox" name="tool" value="google-sheets">Google Sheets
-        <input type="checkbox" name="tool" value="google-slides">Google Slides
-        <input type="checkbox" name="tool" value="google-forms">Google Forms
-        <input type="checkbox" name="tool" value="google-classroom">Google Classroom
+        <!-- <input type="checkbox" name="tool" value="">全て -->
+        <input type="checkbox" name="tool" value="itc-lms">ITC-LMS　
+        <input type="checkbox" name="tool" value="google-classroom">Google Classroom　
+        <input type="checkbox" name="tool" value="slack">Slack　<br>
+        <input type="checkbox" name="tool" value="zoom">Zoom　
+        <input type="checkbox" name="tool" value="webex">Webex　
+        <input type="checkbox" name="tool" value="google-meet">Google Meet　<br>
+        <input type="checkbox" name="tool" value="google-document">Google Document　
+        <input type="checkbox" name="tool" value="google-sheets">Google Sheets　
+        <input type="checkbox" name="tool" value="google-slides">Google Slides　
+        <input type="checkbox" name="tool" value="google-forms">Google Forms　
     </div>
     <div class="search-box">
         <span class="search-box_label">キーワード:</span>
-        <input type="checkbox" name="keyword" value="hand-writing">板書
-        <input type="checkbox" name="keyword" value="experiment">実験・実習
-        <input type="checkbox" name="keyword" value="group-work">グループワーク
+        <input type="checkbox" name="keyword" value="hand-writing">板書　
+        <input type="checkbox" name="keyword" value="experiment">実験・実習　
+        <input type="checkbox" name="keyword" value="group-work">グループワーク　
     </div>
-</form>
-
-
+</form>  
+  
 <ul class="list">  
-<li class="list_item" data-format='["realtime_online", "ondemand"]' data-number='lt30', data-tool='["zoom", "slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
-        [栗田佳代子 先生・「学びの場」づくり（教育学部）](kurita)<br>
-    <ul>
-        <li>約20名履修　リアルタイムとオンデマンドの組み合わせ　グループワーク</li>
-        <li>利用ツール: Zoom, Slido, Google Documents, Sheets, Slides, Forms, Google Classroom</li>
-    </ul>
-</li>
-<li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100', data-tool='["slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
-    [栗田佳代子 先生・「学びの場」づくり（教育学部）](kurita)<br>
-    <ul>
-        <li>約80名履修　リアルタイム　グループワーク</li>
-        <li>利用ツール: Slido, Google Documents, Sheets, Slides, Forms, Google Classroom</li>
-    </ul>
-</li>
-<li class="list_item" data-format='["ondemand"]' data-number='mt100', data-tool='["zoom", "slido", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
-    [栗田佳代子 先生・「学びの場」づくり（教育学部）](kurita)<br>
-    <ul>
-        <li>約120名履修　オンデマンド　グループワーク</li>
-        <li>利用ツール: Zoom, Slido, Slides, Forms, Google Classroom</li>
-    </ul>
-</li>
+<br>
+    <li class="list_item" data-format='["realtime_online", "ondemand"]' data-number='lt30' data-tool='["zoom", "slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
+        <a href="./kurita">栗田佳代子 先生・「学びの場」づくり（教育学部）</a><br>
+        <ul>
+            <li>約20名履修　リアルタイムとオンデマンドの組み合わせ　グループワーク</li>
+            <li>利用ツール: Zoom, Slido, Google Documents, Sheets, Slides, Forms, Google Classroom</li>
+        </ul>
+    </li>
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100' data-tool='["slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
+        <a href="./kurita">栗田佳代子 先生・「学びの場」づくり（教育学部）</a><br>
+        <ul>
+            <li>約80名履修　リアルタイム　グループワーク</li>
+            <li>利用ツール: Slido, Google Documents, Sheets, Slides, Forms, Google Classroom</li>
+        </ul>
+    </li>
+    <li class="list_item" data-format='["ondemand"]' data-number='mt100' data-tool='["zoom", "slido", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
+        <a href="./kurita">栗田佳代子 先生・「学びの場」づくり（教育学部）</a><br>
+        <ul>
+            <li>約120名履修　オンデマンド　グループワーク</li>
+            <li>利用ツール: Zoom, Slido, Slides, Forms, Google Classroom</li>
+        </ul>
+    </li>
 
 </ul>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
