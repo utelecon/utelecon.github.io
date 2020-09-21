@@ -4,6 +4,20 @@ title: What's (no longer) New
 
 What's (no longer) New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+
+* <span style="color:blue;">2020/8/28:</span> [Zoomウェビナーの提供](notice/zoom-webinar)をいたします.
+* <span style="color:blue;">2020/8/6:</span> [Zoomライセンス切り替えの延期・今後のウェブ会議システムの提供について(更新)](notice/webmeetingaccount20200915)
+* <span style="color:blue;">2020/8/4:</span> (教員用)8/5 12:10から[オンライン授業情報交換会(トピック：オンライン授業の振り返り](events/2020-luncheon/)を実施いたします．
+* <span style="color:blue;">2020/7/22:</span> (学生・研究者)[「オンライン授業・在宅研究に関するアンケート」](questionnaire/2020summer)を開始しました．（締め切り8月20日木曜日23：59）
+* <span style="color:blue;">2020/7/14:</span> (教員用)7/15 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(3)](events/2020-luncheon/)を実施いたします．
+* <span style="color:blue;">2020/7/6:</span> (教員用)7/8 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(2)](events/2020-luncheon/)を実施いたします．
+* <span style="color:blue;">2020/7/2:</span> [Microsoft Onedriveで学外者とファイルの共有が可能になります](notice/onedrive20200702)
+* <span style="color:blue;">2020/7/2:</span> [今後のウェブ会議システムの提供について](notice/webmeetingaccount)
+* <span style="color:blue;">2020/6/25:</span> (教員用)6/29 12:10から[オンライン授業情報交換会(トピック：コモンサポーターの活動紹介](events/2020-luncheon/)を実施いたします．
+* <span style="color:blue;">2020/6/21:</span> (教員用)6/24 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール](events/2020-luncheon/)を実施いたします．
+* <span style="color:blue;">2020/6/8:</span> (教員用)6/11 12:10から[オンライン授業情報交換会(トピック：オンライン授業における障害学生への配慮～聴覚障害のケース～）](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
+* <span style="color:blue;">2020/6/3:</span> (学生用)<a href="mobile/mobile3">ネットワーク環境支援 : 教育・研究活動のためのネットワーク環境支援 継続 について / The network environment support for education and research</a>
+* <span style="color:blue;">2020/6/2:</span> (教員用)6/3 12:10から[オンライン授業情報交換会(トピック：授業の工夫の共有(2))](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
 * <span style="color:blue;">2020/5/27:</span> クラスサポーター研修の動画が（限定）公開されました．不参加だったクラスサポーターの方は視聴してください．（[クラスサポーター研修](https://utelecon.github.io/events/2020-05-20/)）
 * <span style="color:blue;">2020/5/26:</span> 5/30より後に Zoom 5.0.0 未満のバージョンではミーティングの主催・参加ができなくなるため，Zoom の更新をお願いします（[更新方法](https://did2memo.net/2020/04/10/zoom-update/)，[「Zoom 5.0」よくある質問（FAQ）](https://symphonict.nesic.co.jp/zoom/wp-content/uploads/2020/05/Zoom_5.0-FAQ.pdf)）
 * <span style="color:blue;">2020/5/19:</span> (教員用)5/20 12:10から[オンライン授業情報交換会(トピック：評価)](events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．
