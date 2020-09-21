@@ -112,9 +112,23 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
   * [PowerPoint を用いた簡単な動画の作り方（外部サイト）](https://kagakucafe.com/202004095777.html)
   * [Zoom を使った動画の作り方（外部サイト）](https://media.tebiki.jp/022)
   <br><br>
+* 動画ファイルの編集方法
+  * LosslessCut で短時間で動画をカットする
+    * [オンライン授業情報交換会](https://utelecon.github.io/events/2020-luncheon/) 第11回 スライド3，動画7:23～ をご参照ください
+  * Mac の iMovie で動画編集する
+    * [動画の作成・公開方法](https://utelecon.github.io/events/2020-09-02/) スライド17，動画52:58～ をご参照ください
+  * Windows の フォト で動画編集する
+    * [動画の作成・公開方法](https://utelecon.github.io/events/2020-09-02/) スライド17，動画1:02:01～ をご参照ください
+  <br><br>
+* 動画ファイルの圧縮方法
+  * YouTube に動画をアップロードして，当該動画をダウンロードする（アップロードされた動画が処理されて容量が小さくなります）
+  * VLC Player を用いて手元の動画ファイルを圧縮する（例: ビデオ映像 3.57GB → 0.30GB）
+    * [動画の作成・公開方法](https://utelecon.github.io/events/2020-09-02/) スライド27，動画1:41:50～ をご参照ください
 * 動画ファイルの共有方法
   * [Google Drive に動画ファイルをアップロードして共有する方法](how/google/share_video)
   * [Zoom クラウドに録画して共有する方法](https://utelecon.github.io/zoom/how/faculty_members/recording_cloud)
+  * [YouTube で動画を学内限定公開する方法（ECCS システム相談員のページ）](https://www.sodan.ecc.u-tokyo.ac.jp/hack/youtube-utokyo-only/)
+    * [（上記の動画を見られない人用） 学内限定公開された動画を視聴する方法（ECCS システム相談員のページ）](https://www.sodan.ecc.u-tokyo.ac.jp/hack/watching-youtube-contents-limited-to-utokyo-members/)
   <br><br>
 * Web 会議システムの使い方
   * [Zoom](https://utelecon.github.io/zoom/)
@@ -129,9 +143,6 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  <BR>
 
 また，あらたに資料をご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，下記にあります**新しい情報** のエリアに情報を付け加えていただき，pull request を送っていただければ幸いです．**新しい情報** にいただいた情報は適宜当方にて整理させていただきます，  <BR>
-
-### 新しい情報 
-新しくお寄せいただける情報はこちらへお願いします．
 
 
 
@@ -185,6 +196,8 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 ### オンライン授業の事例
 * **Eindhoven工科大学におけるZoom講義の一例** \[[PDF](materials/lecture_example_Technische_Universiteit_Eindhoven.pdf)\] (工学系研究科 大西先生)：大西先生が実際に受けられたEindhoven工科大学におけるZoom講義の感想が記載されています．講義の流れ，講師の運営体制，講義を受けた上での懸念点などが載っています．
 
+### 新しい情報 
+新しくお寄せいただける情報はこちらへお願いします．
 
 
 <a name="links"> </a>
