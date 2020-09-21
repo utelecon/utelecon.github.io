@@ -143,7 +143,7 @@ function array_match_check(arr1, arr2) {
         　　　<input type="checkbox" name="tool" value="slido">Slido　<br>
     </div>
     <div class="search-box">
-        <span class="search-box_label">キーワード:</span>
+        <span class="search-box_label">タグ:</span>
         <input type="checkbox" name="keyword" value="hand-writing">板書　
         <input type="checkbox" name="keyword" value="experiment">実験・実習　
         <input type="checkbox" name="keyword" value="group-work">グループワーク　
@@ -153,7 +153,7 @@ function array_match_check(arr1, arr2) {
 <ul class="list">  
 <br>
     <li class="list_item" data-format='["realtime_online", "ondemand"]' data-number='lt30' data-tool='["zoom", "slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]' data-keyword='["group-work"]'>
-        <a href="./kurita">栗田佳代子 先生の授業: 「学びの場」づくり（教育学部 20名程度）</a><br>
+        <a href="./interview/kurita">栗田佳代子 先生の授業: 「学びの場」づくり（教育学部 20名程度）</a><br>
         <ul>
             <li>ポイント: リアルタイムとオンデマンドの組み合わせ　グループワーク</li>
             <li>利用ツール: Google Classroom, Zoom, Slido, Google Documents, Sheets, Slides, Forms</li>
