@@ -46,7 +46,7 @@ title: Zoom
 <a name="create_account"></a>
 ## Zoomアカウントの作成
 
-<a href="https://youtu.be/ZdZH9_isFjA" target="_blank" rel="noopener">動画</a>
+* <a href="https://youtu.be/ZdZH9_isFjA" target="_blank" rel="noopener">動画</a>もご覧ください
 
 * <a href="https://zoom.us/signup" target="_blank" rel="noopener">Zoom のサインアップ（アカウント作成）ページ</a>に行く
   * なお上記をクリックするとユーザプロファイル画面が現れる場合, すでに(おそらく別のアカウントで)Zoomにサインインしています. 画面右上のアイコンをクリックして一旦「サインアウト」し, サインアップボタンを押してください

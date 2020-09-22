@@ -54,7 +54,7 @@ Googleアプリであるため, Googleカレンダー, GmailなどGoogleアプ�
 
 ### 方法1: Meetのトップページ経由
 
-<a href="https://youtu.be/rysK8GiH3KM" target="_blank" rel="noopener">動画</a>
+* <a href="https://youtu.be/rysK8GiH3KM" target="_blank" rel="noopener">動画</a>
 
 1. ECCSクラウドメールアカウント(xxxx@g.ecc.u-tokyo.ac.jp)にサインインした状態で, Gmailなど適当なサービスでGoogleアプリアイコンからMeetを選び, <a href="https://meet.google.com/" target="_blank">meetのトップページ</a>を表示
 1. 「ミーティングに参加または開始」ボタンを押す.
@@ -65,7 +65,7 @@ Googleアプリであるため, Googleカレンダー, GmailなどGoogleアプ�
 
 ### 方法2: Gmail経由
 
-<a href="https://youtu.be/3xfHobXsj2Q" target="_blank" rel="noopener">動画</a>
+* <a href="https://youtu.be/3xfHobXsj2Q" target="_blank" rel="noopener">動画</a>
 
 1. <a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">Gmail</a>を表示
 1. 「会議を新規作成」ボタンを押す
@@ -74,7 +74,7 @@ Googleアプリであるため, Googleカレンダー, GmailなどGoogleアプ�
 
 ### 方法3: カレンダー経由
 
-<a href="https://youtu.be/VQs4Ps6Zsz0" target="_blank" rel="noopener">動画</a>
+* <a href="https://youtu.be/VQs4Ps6Zsz0" target="_blank" rel="noopener">動画</a>
 
 1. <a href="https://calendar.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">Googleカレンダー</a>を表示
 1. 適当な場所を左クリックしてイベントを作成し, 表示される窓で「Google Meetのビデオ会議を追加」ボタンを押し, 保存
@@ -118,7 +118,7 @@ Googleアプリであるため, Googleカレンダー, GmailなどGoogleアプ�
 <a name="create_streaming"> </a>
 ## ライブストリーミングの作成
 
-<a href="https://youtu.be/0KWQEtezojw" target="_blank" rel="noopener">動画</a>
+* <a href="https://youtu.be/0KWQEtezojw" target="_blank" rel="noopener">動画</a>
 
 カレンダー経由で作成するのが基本のようです
 
