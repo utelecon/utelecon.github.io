@@ -1,12 +1,20 @@
 ---
 title: Zoom
 ---
+## はじめに
+
+* 最もシェアの大きいWeb会議システムです. 東京大学でも最も多くの授業で使われています
+* 投票, ブレークアウト, 待機室, 全員ミュート, 参加者の操作制限(画面共有の許可・不許可など)など, 機能が豊富です
+* アプリをインストールせずWebブラウザだけでも使えますが一部機能が制限されます
+* アプリはWindows, Mac, Linux, iOS, Androidなど多くのプラットフォームに対応しています
+* 複数の会議に同時に参加できません, 複数の会議を同時に開催できません
 
 ## 利用の流れ
 
 * 開催者
-  1. <a href="create_account" target="">アカウントを作成</a>
-  1. <a href="install" target="">Zoom をインストール</a>
+  1. (初期設定) <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">ECCSクラウドメール</a> (本学でのG Suite for Education契約の名称) を<a href="#g_suite">有効化</a>
+  1. (初期設定) <a href="#create_account" target="">Zoom アカウントを作成</a>
+  1. (初期設定) <a href="install" target="">Zoom をインストール</a>
   1. <a href="create_room" target="">会議室を作成</a>して，会議室の情報（URLなど）を周知
   1. <a href="join" target="">会議室へ入室</a>
   1. ミーティングを行います
@@ -14,14 +22,45 @@ title: Zoom
     * <a href="how_to_use_host" target="">開催者特有の使い方</a>
   
 * 参加者
-  1. <a href="install" target="">Zoom をインストール</a>
+  1. (初期設定) <a href="install" target="">Zoom をインストール</a>
+  1. (初期設定. 必要な場合) <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">ECCSクラウドメール</a> (本学でのG Suite for Education契約の名称) を<a href="#g_suite">有効化</a>
+  1. (初期設定. 必要な場合) <a href="#create_account" target="">Zoom アカウントを作成</a>
   1. 会議室の情報（URLなど）をメールなどを用いて入手
   1. <a href="join" target="">会議室へ入室</a>
   1. ミーティングを行う. <a href="how_to_use" target="">具体的なZoomの使い方</a>
 
+なお, <a href="#create_account" target="">Zoom アカウントを作成</a>する必要があるのは
+
+  * 授業などで会議を「開催」する必要がある場合
+  * 大学のアカウントでサインインしないと参加できないよう設定された会議や授業に参加する場合
+
+です.
+
+<a name="g_suite"></a>
+## ECCSクラウドメール (G Suite for Education)の有効化
+
+もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています.
+
+有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください(毎時00分に, それ以前の有効化がGoogleに伝搬・反映されます).
+
+<a name="create_account"></a>
+## Zoomアカウントの作成
+
+* <a href="https://youtu.be/ZdZH9_isFjA" target="_blank" rel="noopener">動画</a>もご覧ください
+
+* <a href="https://zoom.us/signup" target="_blank" rel="noopener">Zoom のサインアップ（アカウント作成）ページ</a>に行く
+  * なお上記をクリックするとユーザプロファイル画面が現れる場合, すでに(おそらく別のアカウントで)Zoomにサインインしています. 画面右上のアイコンをクリックして一旦「サインアウト」し, サインアップボタンを押してください
+* 誕生日を入力後，メールアドレス入力欄に <font color="purple"><b>共通ID10桁@g.ecc.u-tokyo.ac.jp</b></font>（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp では<font color="red">ありません</font>）を入力して，「サインアップ」を押す
+* Zoomからの招待メールが<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">ECCSクラウドメール</a>に届くので, 指示に従います. メールが届くアドレスは<font color="purple">ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp</font>です (共通ID10桁@g.ecc.u-tokyo.ac.jp では<font color="red">ありません.</font> わかりにくくすみません).
+* その後いくつか意味不明の指示や質問をされることがあり, 質問も状況によって異なる場合がありますが, 以下のように答えてください
+  * 「アクティブなアカウント」というボタンつきのメールが来たらそのボタンを押す(おそらく "Activate Account"の誤訳)
+  * 「アカウントに参加」するか「メールアドレスを変えるか」みたいなことを聞かれたら<font color="green">「アカウントに参加」</font>する方を選ぶ(おそらく「大学管理下に入るか」という意味)
+  * 「大学の代わりにサインアップしていますか?」と聞かれたら<font color="green">「いいえ」</font>(おそらく大学を代表してあらたにドメインを作る場合に「はい」と答える)
+  * SSO, Google, Facebookなどでサインインするか, それとも(パスワードで)サインアップするかと聞かれたら<font color="green">「サインアップ」</font>を押す(SSO, Google, Facebookとは連携<font color="red">しない</font>)
+
 ## 大学アカウントのルールとライセンス
 
-* 必ず <font color="purple">10桁@g.ecc.u-tokyo.ac.jp</font> の形式のメールアドレスで<a href="create_account" target="">アカウントを作成</a>してください
+* 必ず <font color="purple">10桁@g.ecc.u-tokyo.ac.jp</font> の形式のメールアドレスで<a href="create_account" target="">アカウントを作成</a>してください. それ以外の形式は<a href="https://utelecon.github.io/notice/webmeetingaccount20200916">いずれ無効</a>にして行きます
 * 作成すると300人までのZoomミーティングが開催可能(詳細は<a href="https://utelecon.github.io/notice/webmeetingaccount20200916">「今後のウェブ会議システムの提供について」</a>を参照)
 * <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUtWOE9PNkVXN1QzOVcxSFlJMFozTzRZQy4u" target="_blank" rel="noopener">それ以上(ウェビナーや, 301人以上のミーティング)を開きたい場合</a>は申し込んでください
 
