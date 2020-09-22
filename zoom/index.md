@@ -31,8 +31,8 @@ title: Zoom
 
 * <a href="https://zoom.us/signup" target="_blank" rel="noopener">Zoom のサインアップ（アカウント作成）ページ</a>に行く
   * なお上記をクリックするとユーザプロファイル画面が現れる場合, すでに(おそらく別のアカウントで)Zoomにサインインしています. 画面右上のアイコンをクリックして一旦「サインアウト」し, サインアップボタンを押してください
-* 誕生日を入力後，メールアドレス入力欄に **<font color="purple">共通ID10桁@g.ecc.u-tokyo.ac.jp</font>（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp では<font color="red">ありません</a>）** を入力して，「サインアップ」を押す
-* Zoomからの招待メールが<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">ECCSクラウドメール</a>に届くので, 指示に従います. アカウントは「ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp」です(紛らわしくすみません).
+* 誕生日を入力後，メールアドレス入力欄に <font color="purple"><b>共通ID10桁@g.ecc.u-tokyo.ac.jp</b></font>（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp では<font color="red">ありません</a>）を入力して，「サインアップ」を押す
+* Zoomからの招待メールが<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">ECCSクラウドメール</a>に届くので, 指示に従います. メールが届くアドレスは<font color="purple">ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp</font>です (共通ID10桁@g.ecc.u-tokyo.ac.jp では<font color="red">ありません.</font> わかりにくくすみません).
   * 「アクティブなアカウント」ボタンを押す
   * 「大学の代わりにサインアップしていますか」いいえ
 
