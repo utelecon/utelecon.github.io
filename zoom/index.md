@@ -12,8 +12,9 @@ title: Zoom
 ## 利用の流れ
 
 * 開催者
-  1. <a href="create_account" target="">アカウントを作成</a>
-  1. <a href="install" target="">Zoom をインストール</a>
+  1. (初期設定) <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">ECCSクラウドメール</a> (本学でのG Suite for Education契約の名称) を<a href="#signup">有効化</a>
+  1. (初期設定) <a href="#create_account" target="">Zoom アカウントを作成</a>
+  1. (初期設定) <a href="install" target="">Zoom をインストール</a>
   1. <a href="create_room" target="">会議室を作成</a>して，会議室の情報（URLなど）を周知
   1. <a href="join" target="">会議室へ入室</a>
   1. ミーティングを行います
@@ -21,20 +22,26 @@ title: Zoom
     * <a href="how_to_use_host" target="">開催者特有の使い方</a>
   
 * 参加者
-  1. <a href="install" target="">Zoom をインストール</a>
+  1. (初期設定) <a href="install" target="">Zoom をインストール</a>
+  1. (初期設定. 必要な場合) <a href="#create_account" target="">Zoom アカウントを作成</a>
   1. 会議室の情報（URLなど）をメールなどを用いて入手
   1. <a href="join" target="">会議室へ入室</a>
   1. ミーティングを行う. <a href="how_to_use" target="">具体的なZoomの使い方</a>
 
 <a name="create_account"></a>
-## アカウントの作成
+## Zoomアカウントの作成
+
+<a href="https://youtu.be/ZdZH9_isFjA" target="_blank" rel="noopener">動画</a>
 
 * <a href="https://zoom.us/signup" target="_blank" rel="noopener">Zoom のサインアップ（アカウント作成）ページ</a>に行く
   * なお上記をクリックするとユーザプロファイル画面が現れる場合, すでに(おそらく別のアカウントで)Zoomにサインインしています. 画面右上のアイコンをクリックして一旦「サインアウト」し, サインアップボタンを押してください
 * 誕生日を入力後，メールアドレス入力欄に <font color="purple"><b>共通ID10桁@g.ecc.u-tokyo.ac.jp</b></font>（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp では<font color="red">ありません</font>）を入力して，「サインアップ」を押す
 * Zoomからの招待メールが<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">ECCSクラウドメール</a>に届くので, 指示に従います. メールが届くアドレスは<font color="purple">ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp</font>です (共通ID10桁@g.ecc.u-tokyo.ac.jp では<font color="red">ありません.</font> わかりにくくすみません).
-  * 「アクティブなアカウント」ボタンを押す
-  * 「大学の代わりにサインアップしていますか」いいえ
+* その後いくつか意味不明の指示や質問をされることがあり, 質問も状況によって異なる場合がありますが, 以下のように答えてください
+  * 「アクティブなアカウント」というボタンつきのメールが来たらそのボタンを押す(おそらく "Activate Account"の誤訳)
+  * 「アカウントに参加」するか「メールアドレスを変えるか」みたいなことを聞かれたら「参加する」方を選ぶ(おそらく「大学管理下に入るか」という意味)
+  * 「大学の代わりにサインアップしていますか?」と聞かれたら「いいえ」(おそらく大学を代表してあらたにドメインを作る場合に「はい」と答える)
+  * SSO, Google, Facebookなどでサインインするか, それともパスワードでサインアップするかと聞かれたら「サインアップ」を押す(GoogleやFacebookとは連携しない)
 
 ## 大学アカウントのルールとライセンス
 
