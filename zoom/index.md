@@ -12,7 +12,7 @@ title: Zoom
 ## 利用の流れ
 
 * 開催者
-  1. (初期設定) <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">ECCSクラウドメール</a> (本学でのG Suite for Education契約の名称) を<a href="#signup">有効化</a>
+  1. (初期設定) <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">ECCSクラウドメール</a> (本学でのG Suite for Education契約の名称) を<a href="#g_suite">有効化</a>
   1. (初期設定) <a href="#create_account" target="">Zoom アカウントを作成</a>
   1. (初期設定) <a href="install" target="">Zoom をインストール</a>
   1. <a href="create_room" target="">会議室を作成</a>して，会議室の情報（URLなど）を周知
@@ -23,10 +23,25 @@ title: Zoom
   
 * 参加者
   1. (初期設定) <a href="install" target="">Zoom をインストール</a>
+  1. (初期設定. 必要な場合) <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">ECCSクラウドメール</a> (本学でのG Suite for Education契約の名称) を<a href="#g_suite">有効化</a>
   1. (初期設定. 必要な場合) <a href="#create_account" target="">Zoom アカウントを作成</a>
   1. 会議室の情報（URLなど）をメールなどを用いて入手
   1. <a href="join" target="">会議室へ入室</a>
   1. ミーティングを行う. <a href="how_to_use" target="">具体的なZoomの使い方</a>
+
+なお, <a href="#create_account" target="">Zoom アカウントを作成</a>する必要があるのは
+
+  * 授業などで会議を「開催」する必要がある場合
+  * 大学のアカウントでサインインしないと参加できないよう設定された会議や授業に参加する場合
+
+です.
+
+<a name="g_suite"></a>
+## ECCSクラウドメール (G Suite for Education)の有効化
+
+もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています.
+
+有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください(毎時00分に, それ以前の有効化がGoogleに伝搬・反映されます).
 
 <a name="create_account"></a>
 ## Zoomアカウントの作成
