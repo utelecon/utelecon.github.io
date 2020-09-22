@@ -2,16 +2,16 @@
 title: Webex アカウントの作成とログイン
 ---
 
-このページでは，2020年4月頃から提供の始まった，End to End 暗号化された会議も利用できるWebexのアカウントの作成方法を説明しています．
+このページでは，2020年4月頃から提供の始まった，End to End 暗号化された会議も利用できるWebexのアカウントの作成方法を説明しています．（2020年9月からアカウント申請は自動処理になりました.）
 
 ## アカウントを申請する
 1. <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールを有効化</a>します．
 1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">フォーム</a>からアカウントを申請します．
 
-	* フォームへのアクセスにはUTokyo Account（10桁の共通ID@utac.u-tokyo.ac.jp）でのログインが必要です．フォームにアクセスできなかった場合は[こちらのトラブルシューテ ィングのページ](../faq/msaccount-troubleshooting)の手順を行ってください.
-	* アカウントは手動で作成しているため，若干時間がかかります．
-	* アカウントが作成されると，システムからメールが届きます．以下のアクティベーション手順に従って利用を開始してください．
+	* フォームへのアクセスにはUTokyo Account（共通ID(数字10桁)@utac.u-tokyo.ac.jp）でのログインが必要です．フォームにアクセスできなかった場合は[こちらのトラブルシューテ ィングのページ](../faq/msaccount-troubleshooting)の手順を行ってください.
+	* フォームに登録されると自動的にアカウントが作成され，システムからECCSクラウドメールに招待状が届きます．以下のアクティベーション手順に従って利用を開始してください．
 	* 招待状は15日を過ぎると無効となります．それまでに登録をしてください．期限を越えてしまったら招待状の再送信の申請をしてください．
+　　　　* 1時間を過ぎてもECCSクラウドメールに招待状が届かない場合は utelecon-inquiries@googlegroups.com にご連絡ください.
 	* パスワードが分からなくなってしまった場合は，webex のサインインのページで，IDとして **共通ID@g.ecc.u-tokyo.ac.jp** を入力するとパスワード入力ページ遷移し， **パスワードを忘れた場合** のリンクが表示されます．こちらをクリックするとシステムからECCSクラウドメールにパスワード再設定のメールが届きます．
 
 <a id="activation"></a>
