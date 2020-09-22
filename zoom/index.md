@@ -26,6 +26,16 @@ title: Zoom
   1. <a href="join" target="">会議室へ入室</a>
   1. ミーティングを行う. <a href="how_to_use" target="">具体的なZoomの使い方</a>
 
+<a name="create_account"></a>
+## アカウントの作成
+
+* <a href="https://zoom.us/signup" target="_blank" rel="noopener">Zoom のサインアップ（アカウント作成）ページ</a>に行く
+  * なお上記をクリックするとユーザプロファイル画面が現れる場合, すでに(おそらく別のアカウントで)Zoomにサインインしています. 画面右上のアイコンをクリックして一旦「サインアウト」し, サインアップボタンを押してください
+* 誕生日を入力後，メールアドレス入力欄に **<font color="purple">共通ID10桁@g.ecc.u-tokyo.ac.jp</font>（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp では<font color="red">ありません</a>）** を入力して，「サインアップ」を押す
+* Zoomからの招待メールが<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">ECCSクラウドメール</a>に届くので, 指示に従います. アカウントは「ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp」です(紛らわしくすみません).
+  * 「アクティブなアカウント」ボタンを押す
+  * 「大学の代わりにサインアップしていますか」いいえ
+
 ## 大学アカウントのルールとライセンス
 
 * 必ず <font color="purple">10桁@g.ecc.u-tokyo.ac.jp</font> の形式のメールアドレスで<a href="create_account" target="">アカウントを作成</a>してください. それ以外の形式は<a href="https://utelecon.github.io/notice/webmeetingaccount20200916">いずれ無効</a>にして行きます
