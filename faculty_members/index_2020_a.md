@@ -792,7 +792,7 @@ LMS</text>
 * Web 会議システムの使い方
   * [Zoom](https://utelecon.github.io/zoom/)
   * [Webex](https://utelecon.github.io/webex/)
-  * [Google Meet](https://utelecon.github.io/google_hangouts_meet/)
+  * [Google Meet](https://utelecon.github.io/meet/)
 
 <a name="shared_materials"> </a>
 ## ご共有いただいた資料・実践例・参考情報（随時募集中）

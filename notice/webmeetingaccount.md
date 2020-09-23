@@ -20,7 +20,7 @@ title: 今後のウェブ会議システムの提供について
 
 教職員学生が 同時接続数1000 人までの meetings, trainings, events機能を利用できます。
 
-## [Google Meet](https://utelecon.github.io/google_hangouts_meet/)
+## [Google Meet](https://utelecon.github.io/meet/)
 
 現在のライセンスを継続して利用できます。 ECCSクラウドメールのアカウントで同時接続数250 人までの Meet機能、高解像度の録画機能などが利用できます。
 
