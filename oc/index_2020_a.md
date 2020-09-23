@@ -560,7 +560,7 @@ LMS</text>
      d="m 528.16657,6.999665 c 0,-2.117 1.716,-3.833 3.833,-3.833 h 89.334 c 2.117,0 3.833,1.716 3.833,3.833 v 15.334 c 0,2.117 -1.716,3.833 -3.833,3.833 h -89.334 c -2.117,0 -3.833,-1.716 -3.833,-3.833 z" />
   <a
      id="a4866"
-     xlink:href="https://utelecon.github.io/zoom/create_account"
+     xlink:href="https://utelecon.github.io/zoom/#create_account"
      target="_blank"
      xlink:type=""
      xlink:role=""
