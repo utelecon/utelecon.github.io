@@ -48,7 +48,7 @@ Sセメスターでは、短い準備期間で、授業のオンライン化を�
   * クラスサポーター
   * コモンサポーター
 
-6．<a href="slides/06-campus-wifi.pdf">キャンパスWiFi (UTokyo-Wifi)について</a> (玉造; <a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">動画</a> 8分)
+6．<a href="slides/06-campus-wifi.pdf">キャンパスWiFi (UTokyo-Wifi)について</a> (玉造; <a href="https://youtu.be/rpNkyXVShfw" target="_blank" rel="noopener">動画</a> 8分)
 
 質疑応答 (終了予定時刻後も受け付けます)
 
