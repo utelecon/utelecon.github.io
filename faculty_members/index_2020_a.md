@@ -792,7 +792,7 @@ LMS</text>
 * Web 会議システムの使い方
   * [Zoom](https://utelecon.github.io/zoom/)
   * [Webex](https://utelecon.github.io/webex/)
-  * [Google Meet](https://utelecon.github.io/google_hangouts_meet/)
+  * [Google Meet](https://utelecon.github.io/meet/)
 
 <a name="shared_materials"> </a>
 ## ご共有いただいた資料・実践例・参考情報（随時募集中）
@@ -819,6 +819,8 @@ LMS</text>
 * **Zoom利用の手引き0.3** [\[PDF\]](materials/zoom_v03.pdf)（工学系研究科 相田先生）: Zoomの使いかたについて，インストールから実際に授業での操作方法までMac のスクリーンショットが多用され丁寧に解説された総合的な説明文書（40ページ）です．
 
 * **心理職におけるオンライン教育の教え方・学び方**[\[Website\]](https://note.com/inext/n/nc852e556efcf?magazine_key=m71869b115aa0)(教育学研究科 下山先生, 北原先生) 下山研究室が発行している臨床心理マガジンiNEXTの特集として，Zoomの使いかたの解説および特に，臨床心理学分野のオンライン授業について説明されています．
+
+* **教育用計算機システムを使った講義からオンライン講義への移行ガイド**[\[Website\]](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/09_3206.html)(情報基盤センター情報メディア教育部門) 昨年度まで情報基盤センターの教育用計算機システムの演習室を使っておこなっていた講義をZoom等を使ったオンライン講義に切り替える場合に有用と思われる情報をまとめたものです．
 
 ### オンライン授業における配慮
 

@@ -46,7 +46,7 @@ Office 365 や Google のアカウントを既にお持ちの方でも，学生�
   * **作業:** 上記が終わってから実際にG Suite for Education が使える(Googleにログインできる)ようになるまで, 最大1時間ほどお待ち下さい（毎時0分に更新で反映まで5分程度かかります）. その後，<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank">ECCSクラウドメール</a>に移動して，設定したアカウント名（ご自身が設定した英数字）とパスワードを入力して，Gmail にログインできることを確認してください．
 1. **Office 365 (Microsoft):** 文書作成ソフトの Word, 表計算ソフトの Excel， プレゼンテーションソフトの PowerPoint などが利用できるようになります．使うためにはUTokyo Accountが正しく設定されている必要があるのと, 使い始める際にシステムの有効化を行う必要があります.
   * **作業:** [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) から「Office 365 ProPlus利用許諾」に合意し, Office 365の有効化をして下さい ([手順動画](https://youtu.be/OYl5P67mDYI)). 
-1. **Web会議システム:** リアルタイムにオンラインで授業を配信したり，授業用の動画を録画するために利用できます．本学では，[Zoom](../zoom/)，[Webex](../webex)，[GoogleハングアウトMeet](google_hangouts_meet) が利用できます．どれにしようか迷われている方は，利用しやすい Zoom をおすすめします．利用する準備方法はそれぞれのページをご覧ください．
+1. **Web会議システム:** リアルタイムにオンラインで授業を配信したり，授業用の動画を録画するために利用できます．本学では，[Zoom](../zoom/)，[Webex](../webex)，[GoogleハングアウトMeet](../meet) が利用できます．どれにしようか迷われている方は，利用しやすい Zoom をおすすめします．利用する準備方法はそれぞれのページをご覧ください．
 
 
 ここで，注意してほしいのは, Google，Microsoft，Zoomも, すでに自分で使っているという方もいらっしゃると思いますが, そういった方も**大学のアカウントで使えるように**していただくことが重要です．これらのアカウントを使えるようにすることで，本学構成員向けのサービスを利用できるようになり，例えば，Google Drive で学内限定で共有されたファイルを閲覧したり，学生に学内限定でファイルを共有したり，Zoom で通常アカウントでは参加者数の上限が100名のところ，500名の会議を行うことができたりするようになります.
@@ -118,7 +118,7 @@ ECCSクラウドメール(Google)とOffice 365(Microsoft)の有効化の手順�
 * Web 会議システムの使い方
   * [Zoom](https://utelecon.github.io/zoom/)
   * [Webex](https://utelecon.github.io/webex/)
-  * [Google Meet](https://utelecon.github.io/google_hangouts_meet/)
+  * [Google Meet](https://utelecon.github.io/meet/)
 
 <a name="shared_materials"> </a>
 ## ご共有いただいた資料・実践例・参考情報（随時募集中）

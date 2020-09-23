@@ -102,7 +102,7 @@ sitemap: false
 
  * [Zoom](../zoom/join)
  * [WebEx](../webex/join_meeting.markdown)
- * [GoogleハングアウトMeet](../google_hangouts_meet/)
+ * [GoogleハングアウトMeet](../meet/)
 
 以上ができたと思ったら, ページ下部の[オンライン授業を受ける準備ができているかのチェック](#check-online-ready)に進んでください.
 
