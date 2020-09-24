@@ -753,13 +753,12 @@ LMS</text>
   * **作業(有効化):** <a href="https://utelecon.github.io/webex/create_utelecon_account">WebExアカウントの作成とログイン</a>のページに従い, 大学のWebExアカウントを取得してください.
 1. <a name="utokyo_wifi"></a>**UTokyo Wifi** は東京大学のキャンパス内無線LANです. キャンパスでネットに繋ぐ時, とくにキャンパスでオンライン授業を受ける際に必要になることがおいでしょう. 
  * <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo Wifiのページ</a>を読む
- * **作業(UTokyo Wifiパスワード取得):** あ
-  * キャンパスに来る前に以下の手順でUTokyo Wifiのパスワード取得をしておいてください
-  * <a href="#utas">UTAS</a>へメールアドレス登録を済ませたか確認してください
-  * <a href="https://netacm.adm.u-tokyo.ac.jp/user/user_applies/main_index/1">UTokyo Wifiのパスワードを発行</a>するページに行き, "Application" ボタンを押すと, 登録されたメールアドレスにパスワードが届きますのでそれを受け取ってメモ(または印刷)してキャンパスに持参
- * **作業(実際のWifi設定):** あ
-  * <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo Wifiのページ</a>に説明があるのでそのとおり, PCやスマホのWifiを設定します(このページをスマホにブックマークしておくか, 設定内容を印刷してキャンパスに来ることを推奨)
-  * <font color="green">駒場キャンパスの7号館 721, 13号館 1321</font>で<a href="https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-trouble-shooting/">接続サポート</a>をしています(月〜金 10:25‒16:40). <a href="https://www.sodan.ecc.u-tokyo.ac.jp/gm/view.cgi?c=kom"  target="_blank" rel="noopener">開室状況</a>も見ておいてください
+ * **作業(家での準備):** キャンパスに来る前に以下の手順でUTokyo Wifiのパスワード取得, 設定のメモをしておいてください
+  - <a href="#utas">UTAS</a>へメールアドレス登録を済ませたか確認してください
+  - <a href="https://netacm.adm.u-tokyo.ac.jp/user/user_applies/main_index/1">UTokyo Wifiのパスワードを発行</a>するページに行き, "Application" ボタンを押すと, 登録されたメールアドレスにパスワードが届きますのでそれを受け取ってメモ(または印刷)してキャンパスに持参
+  - 設定は<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo Wifiのページ</a>に説明があるのでそれに従います. このページをスマホにブックマークしておくか, 設定内容を印刷してキャンパスに来ることを推奨
+ * **作業(実際のWifi設定):** キャンパスでUTokyo Wifiの電波が飛んでいる所(多くの教室で飛んでいます)へ行き, 上記の設定とパスワードでPCやスマホを接続します
+  - <font color="green">駒場キャンパスの7号館 721, 13号館 1321</font>で<a href="https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-trouble-shooting/">接続サポート</a>をしています(月〜金 10:25‒16:40). <a href="https://www.sodan.ecc.u-tokyo.ac.jp/gm/view.cgi?c=kom"  target="_blank" rel="noopener">開室状況</a>も見ておいてください
  * **注:** UTokyo Wifiにつながらない場合にモバイルWifiルータやテザリングを大勢が使うと電波が干渉して全員が損をするという状態になります. 電波を持ち込まず, 極力皆がUTokyo Wifiを使いましょう
 
 **注意:** MicrosoftもGoogleも, すでに自分で使っているという人も多いとおもいます. そういう人も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank" rel="noopener">Google</a>) をマスターしましょう. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, そういう場合, 普段使っていたGoogleやMicrosoftのアカウントでサインインしている状態では見られない, ということになり得るのです.
