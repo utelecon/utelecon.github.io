@@ -52,6 +52,7 @@ title: Zoom
 * <a href="https://youtu.be/ZdZH9_isFjA" target="_blank" rel="noopener">動画</a>もご覧ください
 
 * <a href="https://zoom.us/signup" target="_blank" rel="noopener">Zoom のサインアップ（アカウント作成）ページ</a>に行く
+  * <span style="color:blue;">2020/9/25:</span> On Zoom sign up page, if you see <font color="purple">"We regret to inform you that Zoom has suspended all new FREE user registration in China. From May 20th onwards, all free users in China can only join meetings. If you need to host a meeting, please contact sales in China to purchase licenses,"</font> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUQU8xUVJSUkxSWU85NkQ3RjQ0UkNFWE9SSC4u" target="_blank" rel="noopener">send a request</a> to us.
   * なお上記をクリックするとユーザプロファイル画面が現れる場合, すでに(おそらく別のアカウントで)Zoomにサインインしています. 画面右上のアイコンをクリックして一旦「サインアウト」し, サインアップボタンを押してください
 * 誕生日を入力後，メールアドレス入力欄に <font color="purple"><b>共通ID10桁@g.ecc.u-tokyo.ac.jp</b></font>（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp では<font color="red">ありません</font>）を入力して，「サインアップ」を押す
 * Zoomからの招待メールが<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">ECCSクラウドメール</a>に届くので, 指示に従います. メールが届くアドレスは<font color="purple">ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp</font>です (共通ID10桁@g.ecc.u-tokyo.ac.jp では<font color="red">ありません.</font> わかりにくくすみません).
