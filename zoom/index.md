@@ -20,6 +20,7 @@ title: Zoom
   1. ミーティングを行います
     * <a href="how_to_use" target="">開催者・参加者共通の使い方</a>
     * <a href="how_to_use_host" target="">開催者特有の使い方</a>
+    * スライドによる説明 (<a href="files/Zoom-how.pptx">pptx</a>, <a href="files/Zoom-how.pptx">pdf</a>)
   
 * 参加者
   1. (初期設定) <a href="install" target="">Zoom をインストール</a>
@@ -27,7 +28,9 @@ title: Zoom
   1. (初期設定. 必要な場合) <a href="#create_account" target="">Zoom アカウントを作成</a>
   1. 会議室の情報（URLなど）をメールなどを用いて入手
   1. <a href="join" target="">会議室へ入室</a>
-  1. ミーティングを行う. <a href="how_to_use" target="">具体的なZoomの使い方</a>
+  1. ミーティングを行う.
+    * <a href="how_to_use" target="">開催者・参加者共通の使い方</a>
+    * スライドによる説明 (<a href="files/Zoom-how.pptx">pptx</a>, <a href="files/Zoom-how.pptx">pdf</a>)
 
 なお, <a href="#create_account" target="">Zoom アカウントを作成</a>する必要があるのは
 
