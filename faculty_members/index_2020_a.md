@@ -720,7 +720,7 @@ LMS</text>
   * **練習:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank" rel="noopener">手順動画</a>)
 1. <a name="zoom"></a>**Zoom:** Web会議システムです. 多くのオンライン授業がZoomを使って行われています.
   * **作業(有効化):** <a href="https://utelecon.github.io/zoom/#create_account">大学の Zoom アカウントの作り方</a>のページに従い, 大学のZoomアカウントを取得してください.
-  * 授業で学生にZoomの操作を説明したい(そのためのスライドが欲しい)という先生のための, スライド(<a href="files/Zoom-how.pptx">pptx</a>, <a href="files/Zoom-how.pptx">pdf</a>)
+  * 授業で学生にZoomの操作を説明したい(そのためのスライドが欲しい)という先生のための, スライド(<a href="files/Zoom-how.pptx">pptx</a>, <a href="files/Zoom-how.pdf">pdf</a>)
 1. <a name="webex"></a>**WebEx:** another Web会議システムです. 授業で使われる場合は前もって有効化(アカウント作成)してください.
   * **作業(有効化):** <a href="https://utelecon.github.io/webex/create_utelecon_account">WebExアカウントの作成とログイン</a>のページに従い, 大学のWebExアカウントを取得してください.
 
