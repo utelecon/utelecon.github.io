@@ -197,6 +197,10 @@
 			{% assign has_en_page = false %}
 		{% endif %}
 
+		{% if page.url contains "/supports" %}
+			{% assign has_en_page = false %}
+		{% endif %}
+
     <div class="bar-menu">
       <div class="bar-btn-normal">
         <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
