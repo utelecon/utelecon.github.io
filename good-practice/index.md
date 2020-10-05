@@ -110,6 +110,7 @@ function array_match_check(arr1, arr2) {
 * これらの情報がみなさまの実践の参考になれば幸いです．
 
 ## お知らせ
+- 2020年10月5日 新しい記事1件を公開しました．
 - 2020年9月22日 新しい記事3件を公開しました．
 - 2020年9月21日 新しい記事1件を公開しました．
 
@@ -158,7 +159,6 @@ function array_match_check(arr1, arr2) {
   
 <ul class="list">  
 <br>
-    <!--
     <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "adobe-captivate", "imovie"]' data-keyword='["experiment", "ta"]'>
         <a href="./interview/kono">河野望 先生の授業: 薬学実習IV（薬学部 80名程度）</a><br>
         <ul>
@@ -166,7 +166,6 @@ function array_match_check(arr1, arr2) {
             <li>利用ツール: ITC-LMS, Zoom, Adobe Captivate, iMovie</li>
         </ul>
     </li>
-    -->
     <li class="list_item" data-format='["realtime_online", "ondemand"]' data-number='lt30' data-tool='["itc-lms", "zoom", "line", "youtube"]' data-keyword='[]'>
         <a href="./interview/yonezawa">米澤智洋 先生の授業: 内分泌病学Ⅰ（農学部 30名程度）</a><br>
         <ul>
