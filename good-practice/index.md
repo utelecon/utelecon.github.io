@@ -110,10 +110,7 @@ function array_match_check(arr1, arr2) {
 * これらの情報がみなさまの実践の参考になれば幸いです．
 
 ## お知らせ
-<<<<<<< HEAD
 - 2020年10月8日 新しい記事4件を公開しました．
-=======
->>>>>>> parent of 4db333c... 加藤先生，入江先生追加
 - 2020年10月5日 新しい記事1件を公開しました．
 - 2020年9月22日 新しい記事3件を公開しました．
 - 2020年9月21日 新しい記事1件を公開しました．
@@ -149,7 +146,6 @@ function array_match_check(arr1, arr2) {
         <input type="checkbox" name="tool" value="google-slides">Google Slides　
         <input type="checkbox" name="tool" value="google-forms">Google Forms<br>
         　　　<input type="checkbox" name="tool" value="slido">Slido　
-<<<<<<< HEAD
         <input type="checkbox" name="tool" value="line">LINE　
         <input type="checkbox" name="tool" value="imovie">iMovie　
         <input type="checkbox" name="tool" value="youtube">YouTube　
@@ -158,12 +154,6 @@ function array_match_check(arr1, arr2) {
         <input type="checkbox" name="tool" value="mathematica">Mathematica　 
         <input type="checkbox" name="tool" value="a-illustrator">Adobe Illustrator　
         <input type="checkbox" name="tool" value="onenote">Microsoft OneNote  <br>
-=======
-        <input type="checkbox" name="tool" value="line">LINE　<br>
-        　　　<input type="checkbox" name="tool" value="imovie">iMovie　
-        <input type="checkbox" name="tool" value="youtube">YouTube　<br>
-        　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　<br>
->>>>>>> parent of 4db333c... 加藤先生，入江先生追加
     </div>
     <div class="search-box">
         <span class="search-box_label">タグ:</span>
@@ -238,11 +228,6 @@ function array_match_check(arr1, arr2) {
             <li>利用ツール: Google Classroom, Zoom, Slido, Google Documents, Sheets, Slides, Forms</li>
         </ul>
     </li>
-<<<<<<< HEAD
-
-    
-=======
->>>>>>> parent of 4db333c... 加藤先生，入江先生追加
 
 </ul>
 
