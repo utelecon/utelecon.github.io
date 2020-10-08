@@ -110,6 +110,7 @@ function array_match_check(arr1, arr2) {
 * これらの情報がみなさまの実践の参考になれば幸いです．
 
 ## お知らせ
+- 2020年10月8日 新しい記事3件を公開しました．
 - 2020年10月5日 新しい記事1件を公開しました．
 - 2020年9月22日 新しい記事3件を公開しました．
 - 2020年9月21日 新しい記事1件を公開しました．
@@ -146,7 +147,11 @@ function array_match_check(arr1, arr2) {
         <input type="checkbox" name="tool" value="line">LINE　<br>
         　　　<input type="checkbox" name="tool" value="imovie">iMovie　
         <input type="checkbox" name="tool" value="youtube">YouTube　<br>
-        　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　<br>
+        　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　
+        <input type="checkbox" name="tool" value="a-illustrator">Adobe Illustrator　<br>
+        　　　<input type="checkbox" name="tool" value="onenote">Microsoft OneNote　<br>
+        　　　<input type="checkbox" name="tool" value="tex">TeX　
+        <input type="checkbox" name="tool" value="mathematica">Mathematica　 <br>
     </div>
     <div class="search-box">
         <span class="search-box_label">タグ:</span>
@@ -159,6 +164,27 @@ function array_match_check(arr1, arr2) {
   
 <ul class="list">  
 <br>
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom", "google-forms", "utas", "google-drive"]' data-keyword='["text"]'>
+        <a href="./interview/ohtsuki">大槻久 先生の授業: 適応⾏動論（教養学部 前期課程 670名程度）</a><br>
+        <ul>
+            <li>ポイント: テスト設計の工夫　アクセスしやすい授業設計(音声・データ量低減)　質問による双方向授業</li>
+            <li>利用ツール: ITC-LMS, Zoom, Google Forms, UTAS, Google Drive</li>
+        </ul>
+    </li>
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom", "tex", "a-illustrator:" "mathematica"]' data-keyword='["text"]'>
+        <a href="./interview/kato">加藤晃史 先生の授業: ベクトル解析（教養学部 前期課程 200名程度）</a><br>
+        <ul>
+            <li>ポイント: 充実した授業資料　録画を用いた学習支援　課題への成績評価</li>
+            <li>利用ツール: ITC-LMS, Zoom, TeX, Adobe Illustrator, Mathematica</li>
+        </ul>
+    </li>
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom", "onenote"]' data-keyword='["hand-writing"]'>
+        <a href="./interview/irie">⼊江薫 先生の授業: 数理統計I、II（経済学部 数理統計 I 約 200 名、数理統計 II 約 150 名 ）</a><br>
+        <ul>
+            <li>ポイント: リアルタイム　板書　学生の声による授業改善</li>
+            <li>利用ツール: ITC-LMS, Zoom, Microsoft OneNote</li>
+        </ul>
+    </li>
     <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "adobe-captivate", "imovie"]' data-keyword='["experiment", "ta"]'>
         <a href="./interview/kono">河野望 先生の授業: 薬学実習IV（薬学部 80名程度）</a><br>
         <ul>
