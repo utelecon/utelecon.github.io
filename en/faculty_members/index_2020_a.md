@@ -721,57 +721,58 @@ Below is a brief description of what you need to do to use each system. If you f
 1. <a name="webex"></a>**WebEx:** another web conferencing system. If you want to use this system in your class, you need to activate it beforehand.
   * **Activation:** Follow <a href="https://utelecon.github.io/webex/create_utelecon_account">the Create a WebEx account and login</a>page to get your university WebEx account.
 
-**Note:** MicrosoftもGoogleも, すでに自分で使っているという方も多いとおもいます. そういう場合も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank" rel="noopener">Google</a>) をマスターしてください. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, 大学アカウントを使えば, 大学メンバー間でのみ共有できる文書を作ることができます.
+**Note:** Many of you may be already using Microsoft and Google on your own. Even so, you should still be able to **use them with your university account**and learn how to switch between your account and the university's account (see the instructional video above: <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank" rel="noopener">Google</a>) In your online lectures, you may often share important information exclusively with your university members. By using your university account, you can create a document which can be shared only among the university members.
 
-なお, 「ECCS クラウドメール」は東京大学におけるG Suite for Educationの名称です.
+The "ECCS cloud mail" is the name of the G Suite for Education in the University of Tokyo.
 
-
-## オンライン授業の主な形態  
-　ここでは，従来の授業と比較しながら，オンライン授業の主な形態3つを紹介し，それぞれの形態の説明とオンライン授業（メディア授業）としての要件の説明を行います．各形態でポイントとなる点について, <a href="https://utelecon.github.io/events/2020-09-11/">9/11の説明会</a> の <a href="https://utelecon.github.io/events/2020-09-11/slides/04-course-types.pdf"  target="_blank" rel="noopener">第4部: 各種授業形態とポイント</a> (<a href="https://youtu.be/O2g44UTeiwU" target="_blank" rel="noopener">動画</a>)でも説明しています.
+## Main forms of online classes
+　In this section, we will introduce three main forms of online classes in comparison to traditional classes, explaining each form and the requirements for online classes. The main points of each format are also explained in the <a href="https://utelecon.github.io/events/2020-09-11/slides/04-course-types.pdf"  target="_blank" rel="noopener">part 4 "The main points of each format"</a> (<a href="https://youtu.be/O2g44UTeiwU" target="_blank" rel="noopener">video</a>) of the <a href="https://utelecon.github.io/events/2020-09-11/">9/11 Briefing</a>.
 
 ![従来の授業とオンライン授業の主な形態](img/types_overview.png)
 
-　従来の授業は，リアルタイムに対面で行うものです．一方，オンライン授業には大きく分けて，リアルタイムに対面かつオンラインで行う形態（同期ハイブリッド型），リアルタイムにオンラインのみで行う形態（同期オンライン型），学生が自身のペース（オンデマンド）でオンライン学習する形態（非同期オンライン型）があります．  
-　以下，それぞれについて説明します．
+　Traditional classes are conducted in real time, face-to-face. On the other hand, there are three main types of online classes: real-time face-to-face and online (synchronous hybrid), real-time online only (synchronous online), and self-paced (on-demand) learning (asynchronous online).
+
+Each of these is described below.
   
   
-* リアルタイム（対面+オンライン）型（同期ハイブリッド型）
-  * 実際の教室で授業をして，Web会議システムなどでその内容を配信する形態です．  
-  * この形態のオンライン授業（メディア授業）としての要件は，「同時かつ双方向に行われる」ことです．Web会議システムを利用すれば，チャットや音声による通話ができるためその要件を満たせますし，映像配信であったとしてもコメントなどを受け付ける機能があれば，その要件を満たすことができます．
-  * 参考: リアルタイム（対面+オンライン）型（同期ハイブリッド型）の準備方法（途中）[](classroom_type_synchronous_hybrid)
-  * 参考: [オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)
+* Real-time (face-to-face + online) (synchronous hybrid)
+  * This is a form of teaching that takes place in an actual classroom and transmits the content of the class via a web conferencing system.  
+  * The requirement for this form of online class (media class) is that it must be simultaneous and interactive. A web conferencing system allows for chat and voice communication to meet this requirement. Even if you choose a pre-recorded video delivery style, the class can still meet the requirements if the system has the ability to accept comments, etc.
+  * Note:  How to prepare for a real-time (face-to-face + online) (synchronous hybrid) model (in progress）[](classroom_type_synchronous_hybrid)
+  * Reference: [Online Basic Course "How to use Zoom to get your classes online](https://utelecon.github.io/events/2020-03-19/)
   <br>
   <br>
-* リアルタイム（オンライン）型（同期オンライン型）
-  * Web会議システムなどを用いて教員と学生全員がオンラインでつながり授業を行う形態です．  
-  * この形態のオンライン授業（メディア授業）としての要件は，「同時かつ双方向に行われる」ことです．Web会議システムを利用すれば，チャットや音声による通話ができるためその要件を満たせますし，映像配信であったとしてもコメントなどを受け付ける機能があれば，その要件を満たすことができます．
-  * 参考: リアルタイム（オンライン）型（同期オンライン型）の準備方法（途中）[](classroom_type_synchronous_online)
-  * 参考: [オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)
+* Real-time (Online) type (Synchronous Online type)
+  * In this type of class, all instructors and students are connected online via a web conferencing system at the same time. 
+  * The requirement for this form of online class (media class) is that it must be simultaneous and interactive, and a web conferencing system allows for chat and voice communication to meet this requirement. Even if you choose a pre-recorded video delivery style, the class can still meet the requirements if the system has the ability to accept comments, etc.
+  * Note: How to prepare for the real time (online) type (synchronous online type) (in progress)）[](classroom_type_synchronous_online)
+  * Reference: [Online Basic Course "How to use Zoom to get your classes online](https://utelecon.github.io/events/2020-03-19/)
   <br>
   <br>  
-* オンデマンド（オンライン）型（非同期オンライン型）
-  * 学習管理システムなどで教員が用意した教材をもとに学生が個別に学習する形態です．例えば，以下のような方法が考えられます．
-    * 学生は教員が作成した動画教材，もしくは OCW（Open Course Ware）や MOOC（Massive Open Online Course）などの既存の動画教材を毎週決められた範囲で視聴し，別途課題提出や掲示板での質疑応答を行う
-    * Web会議システムを用いてリアルタイムに行った授業の録画を後から視聴して，課題提出や掲示板での質疑応答を行う
-  * この形態のオンライン授業（メディア授業）としての要件は，以下の2つです．例えば，教員が Web 掲示板（ITC-LMSにその機能有）を用意して学生同士が意見交換できるよう促し，適宜授業内容に関して小テスト，問いかけ，質疑応答などを行うことで要件を満たせます．
-    1. 以下の2つの方法どちらかを用いて，設問解答、添削指導、質疑応答等による十分な指導を併せ行うことが必要
-      * 毎回の授業の実施に当たって、指導補助者が教室等以外の場所において学生等に対面すること
-	  * **又は**，当該授業を行う教員若しくは指導補助者が当該授業の終了後すみやかにインターネットその他の適切な方法を利用すること
+* On-demand (online) type (asynchronous online)
+  * Students study individually based on textbooks prepared by professors in a learning management system. For example, the following methods are possible．
+
+    * Students are required to watch video materials prepared by the instructor or existing video materials such as OCW (OpenCourseWare) and MOOC (Massive Open Online Course) within their weekly schedule, and submit assignments and answer questions on the discussion board.
+    * OR, students will be able to watch a recording of the class conducted in real time using the web conferencing system later. Students will also submit assignments and answer questions on the board.
+  * There are two following requirements for this form of online class (media class). For example, faculty members can provide a web bulletin board (ITC-LMS has this function) to encourage students to exchange their opinions with each other, and they can conduct quizzes and questions and answers about the course content as appropriate to meet these requirements.
+    1. Adequate instruction (such as quizzes, corrective guidance, and question-and-answer sessions) should be provided using either of the following two methods.
+      * The teaching assistant meets the students at a location other than the classroom when conducting each class.
+	  * **OR**，the teacher or teaching assistant must provide guidance to the students via the Internet or other appropriate methods promptly after the class ends.
   
-    1. 当該授業に関する学生の意見交換の機会の確保が必要（学習管理システム ITC-LMS の掲示板機能で実現可能）
-  * 参考: オンデマンド（オンライン）型（非同期オンライン型）の準備方法（途中）[](classroom_type_asynchronous_online)
-  * 参考: [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)
+    1. It is necessary to ensure that students have the opportunity to exchange their opinions about the class (this can be achieved with the bulletin board function of the ITC-LMS learning management system).
+  * Note: How to prepare for the on-demand (online) type (asynchronous online type) (in progress)
+  * Reference: [Online Basic Course "How to create an on-demand online class using video and textbooks, not live streaming" ](https://utelecon.github.io/events/2020-03-27/)
 
 
-## 各授業方法のオンライン化（執筆中）
+## How to moving your teaching methods online (in progress)
 
-* 質疑応答のオンライン化
-* [板書のオンライン化](how_to_teach_online_handwriting)
-* 輪読のオンライン化
-* グループワークのオンライン化
+* Online Question and Answer Session
+* [Online Hand Writing](how_to_teach_online_handwriting)
+* Online Reading Circle
+* Online Group Work
 
 
-## 具体的なツールの使い方
+## How to use tools
 
 * 学習環境の整え方
   * [ITC-LMSの使い方](../lms_lecturers/)
