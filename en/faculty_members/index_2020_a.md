@@ -774,40 +774,39 @@ Each of these is described below.
 
 ## How to use tools
 
-* 学習環境の整え方
-  * [ITC-LMSの使い方](../lms_lecturers/)
-  * [Google Classroom の使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)
+* How to create a learning environment
+  * [How to use the ITC-LMS](../lms_lecturers/)
+  * [How to use Google Classroom (external site)](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)
   <br><br>
-* 教材の作り方
-  * [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)にてそれぞれのトピックを説明しているため，そちらの動画も御覧ください
-  * [Googleドキュメントの音声認識を使った素早いテキスト入力の方法（外部サイト）](http://google.tku.ac.jp/docs/4/6)
-  * [PowerPoint を用いた簡単な動画の作り方（外部サイト）](https://kagakucafe.com/202004095777.html)
-  * [Zoom を使った動画の作り方（外部サイト）](https://media.tebiki.jp/022)
+* How to create your teaching materials
+  * Please refer to the[Online Basic Course "How to create an on-demand online class using video and textbooks, not live streaming"](https://utelecon.github.io/events/2020-03-27/), which explains each topic.
+  * [How to use Google Docs speech recognition for quick text input (external site)](http://google.tku.ac.jp/docs/4/6)
+  * [How to make a video using PowerPoint (external site)](https://kagakucafe.com/202004095777.html)
+  * [How to create a video with Zoom (external site)](https://media.tebiki.jp/022)
   <br><br>
-* 動画ファイルの共有方法
-  * [Google Drive に動画ファイルをアップロードして共有する方法](how/google/share_video)
-  * [Zoom クラウドに録画して共有する方法](https://utelecon.github.io/zoom/how/faculty_members/recording_cloud)
+* How to share a video file
+  * [How to upload and share video files to Google Drive](how/google/share_video)
+  * [How to record and share to the Zoom cloud](https://utelecon.github.io/zoom/how/faculty_members/recording_cloud)
   <br><br>
-* Web 会議システムの使い方
+* How to use web conferencing systems
   * [Zoom](https://utelecon.github.io/zoom/)
   * [Webex](https://utelecon.github.io/webex/)
   * [Google Meet](https://utelecon.github.io/meet/)
 
 <a name="shared_materials"> </a>
-## ご共有いただいた資料・実践例・参考情報（随時募集中）
+## Materials, practices, and reference information shared with us (call for more information)
 
-### はじめに 
+### Introduction
 
-ここで，ご共有いただいた資料を紹介いたします．ご共有いただいた先生方，誠にありがとうございます．  <BR>
+Here are some of the materials that were shared with us. Thank you very much for sharing this information with us.  <BR>
 
-また，あらたに資料をご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．  もしくは，Github に詳しい方は，[utelecon の Github](https://github.com/utelecon/utelecon.github.io/)を fork して，下記にあります**新しい情報** のエリアに情報を付け加えていただき，pull request を送っていただければ幸いです．**新しい情報** にいただいた情報は適宜当方にて整理させていただきます，  <BR>
+And if you'd like to share further material, please contact us at [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com). Or if you are familiar with Github, fork [the utelecon Github](https://github.com/utelecon/utelecon.github.io/), add your information to the **What's New** area below and send us a pull request. We will sort out and publish the information in the **What's New** area.  <BR>
 
-### 新しい情報 
-新しくお寄せいただける情報はこちらへお願いします．
+### What’s New 
+If you would like to send us new information, please contact us here.
 
 
-
-### オンライン授業を行うための総合的な資料
+### A comprehensive resource for conducting online classes
 
 * **これだけで授業ができる！教員用，自習教材パック** [\[PowerPoint(Google Drive)\]](https://drive.google.com/file/d/1u1lpIx56wkBRUL1LliV5rh0vcGiowv7g/view) (農学生命科学研究科 田野井先生，中嶋先生)：「ECCSクラウドメール開設編」「ZOOM開設・設定編」「ZOOM利用編」「ITC-LMS利用編」「履修前の学生教員間情報共有編」「オムニバス講義編」とそれぞれのトピックに関する説明がスライド資料としてコンパクトにわかりやすくまとまっている資料です．
 
