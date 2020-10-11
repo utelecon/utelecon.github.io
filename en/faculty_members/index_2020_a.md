@@ -1,5 +1,6 @@
 ---
-title: 教員のための、授業を行うにあたって (2020 Aセメスター版)
+title: Online teaching for instructors (2020 A Semester)
+layout: en
 ---
 
 ## Introduction  
