@@ -707,21 +707,21 @@ Below is a brief description of what you need to do to use each system. If you f
   * After you activate your account, please wait for up to 3 hours during the day and up to 11:00 in the evening until you can actually use applications such as Excel, etc. (To be precise, the permissions you have given so far will be reflected at 11:00, 14:00, 17:00 and 20:00).
   * **Sign in:** After your permissions are reflected, please sign in at<a href="https://www.office.com/" target="_blank" rel="noopener">www.office.com</a>. If you have a UTokyo Account, you will be able to sign in. Just make sure that when Microsoft asks you to "Email, Phone, or Skype" on the Sign-In page before you sign in to the UTokyo Account, you need to enter xxx@utac.u-tokyo.ac.jp (this will bring you to the UTokyo Account sign-in page ). You can use any character in replacement for the xxx part  (Instructions <a href="https://youtu.be/cqQlaDLD9v0" target="_blank" rel="noopener">PC</a>, <a href="https://youtu.be/https://youtu.be/IeGju3cb2E4" target="_blank" rel="noopener">Smartphone</a>). If you have already signed in with another account (e.g. your usual account), sign out and sign in again with your university account (Instructions <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">PC</a>, <a href="https://youtu.be/https://youtu.be/QZGGHcQvUXU" target="_blank" rel="noopener">Smartphone</a>).
   * **Practice:** once you have signed in with your university account, create an Excel book(<a href="https://youtu.be/PcHlb-t2Dr8" target="_blank" rel="noopener">Video</a>)
-1. <a name="g_suite"></a>**G Suite for Education (Google):** Googleのサービスです. メール(Gmail), カレンダーの他, レポートやプレゼンテーションの作成など, いろいろなことに使えます. 
-  * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">UTokyo Account利用者メニュー</a> の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (<a href="https://youtu.be/89_fjWDdzQ4" target="_blank" rel="noopener">手順動画</a>).
-  * このあと実際にG Suite for Education が使える(Googleにサインインできる)ようになるまで, 最大1時間ほどお待ち下さい. 
-  * **作業(サインイン):** 最大1時間待ったら, <a href="https://google.com/" target="_blank" rel="noopener">Google</a>にサインインして見て下さい.
-    * パソコン: Googleにサインインしていなければ<a href="https://youtu.be/rFciRfoU2KA" target="_blank" rel="noopener">サインインする</a>, すでにほかのアカウントでGoogleにサインインしていれば<a href="https://youtu.be/I0yL_9sqdjs" target="_blank" rel="noopener">一旦サインアウトしてサインインする</a>
-    * <a href="https://youtu.be/cl8QBaVCaxo" target="_blank" rel="noopener">Android</a> Googleアカウントを追加する
-    * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhone</a> Googleアカウントを追加する
-  * **練習:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank" rel="noopener">手順動画</a>)
-1. <a name="zoom"></a>**Zoom:** Web会議システムです. 多くのオンライン授業がZoomを使って行われています.
-  * **作業(有効化):** <a href="https://utelecon.github.io/zoom/#create_account">大学の Zoom アカウントの作り方</a>のページに従い, 大学のZoomアカウントを取得してください.
-  * 授業で学生にZoomの操作を説明したい(そのためのスライドが欲しい)という先生のための, スライド(<a href="files/Zoom-how.pptx">pptx</a>, <a href="files/Zoom-how.pdf">pdf</a>)
-1. <a name="webex"></a>**WebEx:** another Web会議システムです. 授業で使われる場合は前もって有効化(アカウント作成)してください.
-  * **作業(有効化):** <a href="https://utelecon.github.io/webex/create_utelecon_account">WebExアカウントの作成とログイン</a>のページに従い, 大学のWebExアカウントを取得してください.
+1. <a name="g_suite"></a>**G Suite for Education (Google):** A service from Google. It can be used for email (Gmail), calendaring, report and presentation writing, and much more.
+  * **Activation:** Go to <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">the UTokyo Account user menu</a> and enter your account name at "ECCS Cloud Mail" and then enter your password at "ECCS Cloud Mail (Change Password)" to activate your G Suite for Education (<a href="https://youtu.be/89_fjWDdzQ4" target="_blank" rel="noopener">Procedure video</a>).
+  * Please wait for up to 1 hour until you are actually able to use G Suite for Education (i.e. you can sign in to Google). 
+  * **Sign in:** After waiting up to one hour, sign in to <a href="https://google.com/" target="_blank" rel="noopener">Google</a>and take a look.
+    * PC: <a href="https://youtu.be/rFciRfoU2KA" target="_blank" rel="noopener">Sign in with your ECCS cloud mail</a>if you're not already signed in to Google. If you are already signed in to Google with another account,<a href="https://youtu.be/I0yL_9sqdjs" target="_blank" rel="noopener">sign out and then sign in with ECCS Cloud Mail</a>.
+    * Add an <a href="https://youtu.be/cl8QBaVCaxo" target="_blank" rel="noopener">Android</a> Google account.
+    * Add an<a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhone</a> Google account.
+  * **Practice:** check out what apps you can use and create one Google spreadsheet (like Excel) (<a href="https://youtu.be/mVMPFpTuemY" target="_blank" rel="noopener">Video</a>)
+1. <a name="zoom"></a>**Zoom:** A web conferencing system. A lot of online classes are held using Zoom.
+  * **Activation:** Please follow the instructions on <a href="https://utelecon.github.io/zoom/#create_account">how to create a university Zoom account</a>.
+  * For teachers who want to explain Zoom to their students in their classes (and would like to have some slides for that purpose), here is a set of slides (<a href="files/Zoom-how.pptx">pptx</a>, <a href="files/Zoom-how.pdf">pdf</a>)
+1. <a name="webex"></a>**WebEx:** another web conferencing system. If you want to use this system in your class, you need to activate it beforehand.
+  * **Activation:** Follow <a href="https://utelecon.github.io/webex/create_utelecon_account">the Create a WebEx account and login</a>page to get your university WebEx account.
 
-**注意:** MicrosoftもGoogleも, すでに自分で使っているという方も多いとおもいます. そういう場合も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank" rel="noopener">Google</a>) をマスターしてください. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, 大学アカウントを使えば, 大学メンバー間でのみ共有できる文書を作ることができます.
+**Note:** MicrosoftもGoogleも, すでに自分で使っているという方も多いとおもいます. そういう場合も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank" rel="noopener">Google</a>) をマスターしてください. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, 大学アカウントを使えば, 大学メンバー間でのみ共有できる文書を作ることができます.
 
 なお, 「ECCS クラウドメール」は東京大学におけるG Suite for Educationの名称です.
 
