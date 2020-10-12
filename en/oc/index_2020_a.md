@@ -1,38 +1,29 @@
 ---
-title: 新入生・在学生のための, 授業を受けるための準備 (2020 Aセメスター版)
+title: Preparing for online classes for new and currently enrolled students (2020 A Semester)
+layout: en
 ---
 
-はじめに
+Introduction
 ---------------------------
 
-2020 Aセメスターが始まります.
-東京大学では，2020年度のSセメスターにオンライン授業を本格導入することとなりました.
-Sセメスターの授業を通じ, 学生からも教員からも, オンライン授業には利点が多くあり, 決して活動自粛期間だけの形態ではないとの声が聞かれています.
-一方で多くのみなさんがキャンパスに行けないことや, 新しい友達と出会えないことの苦しみを体験することになりました.
-この問題は大学全体で認識されており, 2020 Aセメスターでは多くの学科で実験やゼミなどを中心として一部授業の一部対面(ハイブリッド, ハイフレックス)化を進めています[<a href="https://www.nii.ac.jp/event/upload/20200911-08_Fukuda.pdf" target="_blank" rel="noopener">東京大学のCOVID-19感染防止と教育の両立に向けた試み</a>].
+The 2020 A semester will soon begin. At the University of Tokyo, we have decided to introduce online classes in the S semester in 2020. As a result of online classes held in the S semester, we have heard both faculty members and students saying there were many advantages to conducting online classes, and that it can be conducted even when the country is not under quarantine. On the other hand, many of you are experiencing the pain of not being able to go to campus and meet new friends. This problem is recognized throughout the university, and in the 2020 A semester, many departments have decided to recommence some face-to-face (hybrid, high-flex) classes, most of which is centered on experiments and seminars[<a href="https://www.nii.ac.jp/event/upload/20200911-08_Fukuda.pdf" target="_blank" rel="noopener">The University of Tokyo's Attempt to balance the prevention of COVID-19 and education</a>].
 
-しかしながら現在の状況で無制限に対面授業を行うことはできません.
-大学生は高校生, 中学生などと比べると, キャンパス外の活動範囲も広く, キャンパス内での行動のパターンも非常に多様で多くの人と混じり合う生活をしています.
-飲食店のように一人の人が一つの席で小1時間滞在してそのまま退室するわけではないので, 感染対策と言ってもひとりひとりの行動にずっと目を光らせるようなことは, 難しいのです.
-大学生の感染については授業外での活動での感染が多いとも言われています(もっとも対面授業の数自体が少なければ当たり前かもしれませんが) [cf. <a href="https://www.nii.ac.jp/event/upload/20200911-05_Aoki.pdf" target="_blank" rel="noopener">東北大学の調査</a> スライド13].
+However, under the current situation, we can not conduct face-to-face classes fully. Compared to high school students and junior high school students, university students engage in a wider range of activities outside the campus, and the patterns of behavior on campus are very diverse and they interact with many people. Unlike  in restaurants where a person stays in a seat for an hour and leaves the room, it is difficult to keep track of each and every student's action at the University as a part of COVID-19 prevention measure. It is said that many university students are infected while doing activities outside of university (although it may be because there are so few face-to-face classes being conducted in the first place) [cf. <a href="https://www.nii.ac.jp/event/upload/20200911-05_Aoki.pdf" target="_blank" rel="noopener">Tohoku University Survey slide</a> Slide 13].
 
-大学における感染対策は教室内で距離を取ると言った(比較的やりやすい)ことだけでは不十分で, それ以外の時間を含めて大学全体の環境をいかに整備し, 大学全体の人数を管理して人々の行動を誘導出来るかと言ったことにかかってきます.
-また現在は, 大学に来たくても同居している家族の事情や一人暮らし用アパートを引き払っているなどの事情で, 大学に来難い人もいます. 似たような事情が教員の側にある場合もあります.
-従って現在の状況では, 非常に多様な要求を満たす授業形態を設計する必要があります.
-このような制約の中, 大学は「どこをどのくらい対面にしても大丈夫か」という複雑なパズルを解いている, ということを学生の皆さんにはご理解いただきたいと思います(決して世間で一部言われているような, 「感染者を出して世間から叩かれたくない」などという低次元の理由ではないということを理解していただきたいと思います).
+Infection prevention measures at the university such as keeping social distance in the classroom ( which is relatively easy to follow) is not enough; it relies on how we can control the University environment even outside of class hours, and manage the number of people in the whole university and their actions.  Also, even if there are students who want to come to campus, some find it difficult to because they have family members living with them or because they don't have an accommodation near the university. Some members of the faculty may be under similar circumstances as well. Therefore, in the current situation, it is necessary to design a classroom format that meets a wide variety of requirements. Under these limitations, we would like the students to understand that the University staff are solving the complicated puzzle of "To what extent can we allow conducting face-to-face classes?" ( We would like you to understand that this is not because of a low-level reason such as "We don't want to be bashed by the public by not having inadequate prevention measures" as some people may say).
 
-もとよりSセメスターでのオンライン授業に対する反応からは, すべての授業を対面で行うことが大学の目指す終着地点ではないことも明らかです. オンライン授業のいい所(通学が不要, キャンパスをまたがった履修, 講義資料や録画のデジタル化, 黒板よりも見やすく大教室よりも聞きやすいなど), 対面が必須なところ, そして何よりも大切な, 人と人とが巡り合う場としてのキャンパスを両立させていくことが目標となります.
+It is clear from the reactions to online lessons conducted in the S semester that conducting face-to-face classes fully is not the goal of the university. Our goal is to balance the pros of online lessons (No commuting necessary, being able to take classes from different campuses, digitalization of course materials and class recordings, easier to see class resumes than on blackboards, easier to hear than in large classrooms, etc.), with other elements such as determining where face-to-face classes are essential, and most importantly, creating the campus as a place where people can interact.
 
-Aセメスターにおける対面授業の割合や形態は学科ごとに様々ですが, このページでは, およそどんな形態の場合でも必要になる教育ICTシステム, (自宅あるいはキャンパスから)授業にオンライン参加する場合の基本について説明します.
+The proportion and form of face-to-face classes in the A semester varies from department to department, but this page explains the educational ICT system that is required in almost any form, and the basics of attending classes online (from home or campus). 
 
-[2020 Sセメスター用のページ](./)では, そもそもオンライン授業とは何かと言うようなことから説明していますので初めての人はご覧ください.
+The [page for the 2020 S semester ](./)explains what an online class is in the first place, so please take a look if you are new to this system.
 
-本ポータル編集に参画する教職員・学生有志一同
+All faculty members and students participating in the editing of this portal
 
-学生の皆さんにしておいてもらいたい準備
+Preparations for students 
 ---------------------------
 
-授業を受けるための準備は大きく言って二つです
+Preparations for taking online classes are broadly in 2 parts 
 
 * ひとつは, [東京大学で使われている, 教育のための情報(ICT)システム](#utokyo-edu-ict)を, 正しく使えるようにすることです. キャンパスで毎日顔を合わせていれば, ぼうっとしていても, 重要な情報を教室の中で友達から教えてもらったり, サークルの先輩から教えてもらったり, 他の人の会話から偶然得たりすることが出来るものですが, 登校が制限されているとそういうわけには行きません. 各自がチェックすべき情報源を正しくチェックしていることや, 自分の連絡先(メールアドレスなど)が然るべき場所に登録され, 連絡がつくようになっている, ということがとても大事になります.
 * もうひとつは, Web会議システムにつなげる機器を準備しWeb会議に[ちゃんとつなげることを確認しておく](#check-online-ready)ことです. 「機器」は特別なものではなく, 普段パソコンやスマホなどで動画を見ていれば, Web会議のソフトが使えると思って良いです(授業を受けるにはスマホではなくパソコンをおすすめしますが, ここに書いてある準備はスマホでもできます). 難しいことではないのですが機器にはトラブルがつきものです. 必ず「ちゃんとつなげることを確認しておく. 確認された機器で授業に臨む」のが大事です. 詳しくは, 下で述べます.
