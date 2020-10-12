@@ -756,45 +756,45 @@ Below is a brief description of what you need to do on each system. If you encou
 "ECCS Cloud Mail" is the name of G Suite for Education at the University of Tokyo.
 
 <a name="check-online-ready"> </a>
-### オンライン授業(Web会議)につなげるかのチェック
+### Checking to see if you can connect to online classes (Web conference)
 
 <a name="check-itc-lms"> </a>
-* オンライン授業URLにつないでみよう. この, <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank" rel="noopener">ITC-LMS</a>のページを見て, そのページに書かれているオンライン授業URL (各種)をクリック・タップしてみてください. これは自分のブラウザやアプリなどが授業で使うシステムに対応しているかどうかのチェックです. つないでも誰もいない部屋につながるだけで, 画像や音などは流れません. つなげることがが確認できたらすぐに退席しましょう. 音が聞こえるかどうかなどは授業に少し前につないでみたり, 事前に友達・知り合いと試すチャンスがあれば試してみてください.
+* Connect to the online class URL. Look at your class page on  <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course/syllabus?idnumber=20197J919010V02" target="_blank" rel="noopener">ITC-LMS</a> and click / tap the online lesson URL (various types). This is to check whether your browser, application, etc. is compatible with the system used for class. Even if you do connect it, it will only connect to an empty room, and no images or sounds will be visible/audible. Leave the room as soon as you can confirm that you can connect.  Try connecting to the class a little early before class, or if you have a chance to try with friends and acquaintances in advance, to make sure you can connect to the audio.
 
 <a name="check-excel"> </a>
-### Microsoft 365が使えるかのチェック
+### Checking to see if you can use Microsoft 365
 
-* Microsoft 365が使えるかのチェック: この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank" rel="noopener">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. Officeへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
-  * **パターン1:** office.comに大学のアカウント (UTokyo Account)でサインインしていればすぐに見られます.
-  * **パターン2:** エラーになる. "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory." みたいなことを言われる. これは大学以外のアカウント(例: 個人でこれまで使っていたアカウント)でサインインした状態になっている場合におきます. 一旦サインアウトして大学のアカウントでサインインして, やり直してください.
-    * <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">パソコン</a>
-    * <a href="https://youtu.be/QZGGHcQvUXU" target="_blank" rel="noopener">スマホ</a>
-  * **パターン3:** 東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれる. どのアカウントでもサインインしていない場合におきます.
+* Checking to see if you can use Microsoft 365: To see if you can access this <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank" rel="noopener"> Microsoft Excel sheet</a>, click on the link. Depending on the sign-in status on Office, you will encounter either one of the following patterns.
+  * **Pattern 1:** You will be able to access the Excel sheet  immediately if you are signed in to office.com with your UTokyo Account.
+  * **Pattern 2:** Receive an error / a message saying "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory.”. This means you are signed in with a non-university account ( For example, your personal account). First sign out, sign in again this time using your college account, and try again.
+    * <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">PC</a>
+    * <a href="https://youtu.be/QZGGHcQvUXU" target="_blank" rel="noopener">Smatphone</a>
+  * **Pattern 3:** The University of Tokyo "Sign in" window pops up asking for your "email, phone number, Skype", etc. This happens when you are not signed in to any of your accounts.
 
 ```
-UTokyo AccountのID (10桁の数字)@utac.u-tokyo.ac.jp
+UTokyo Account ID (10-digit number) @ utac.u-tokyo.ac.jp
 ```
 
-と記入して先へ進んで下さい. UTokyo AccountのIDは10桁の数字です. 次にUTokyo AccountのIDとパスワードを入力する画面が出てきたら, 自分で設定したUTokyo AccountのIDとパスワードを入力して下さい(<a href="https://youtu.be/iJbq6unDIOA" target="_blank" rel="noopener">手順動画</a>). そしてやり直してください.
+Type in the UTokyo Account ID is a 10-digit number as shown above. Next, when the screen for entering the UTokyo Account ID and password appears, enter the UTokyo Account ID and password you set yourself (<a href="https://youtu.be/iJbq6unDIOA" target="_blank" rel="noopener">video</a>) and try again.
 
 <a name="check-google-spreadsheet"> </a>
-### G Suite for Educationが使えるかのチェック
+### Checking to see if you can use G Suite for Education
 
-* G Suite for Educationが使えるかのチェック: この, <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank" rel="noopener">Google スプレッドシート</a>が見られるかどうか, リンクをクリックして確かめてみてください. ただし現在中国にいる人はこのシートにはつなげません. Googleへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
-  * **パターン1:** ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにサインインしている場合は直ちにアクセスできます
+* Checking to see if you can use G Suite for Education: Click on this  <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank" rel="noopener">link</a> to check if you can access this Google Spreadsheet. However, if you are currently in China, you will not be able to connect to this sheet. Depending on the Google sign-in state, you will encounter either of the following patterns. 
+  * **Pattern 1:** If you are signed in to Google via ECCS cloud email (xxxx@g.ecc.u-tokyo.ac.jp), you will have access to it immediately.
 <a name="check-google-spreadsheet-pattern-2"> </a>
-  * **パターン2:** 「権限が必要です」という窓が出てくる. これは, Googleに別のアカウント(例えば自分が普段使っているyyyy@gmail.com)でサインインしている場合におきます.
-     * <a href="https://youtu.be/yLQcnfZo_24" target="_blank" rel="noopener">パソコンの場合:</a> 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでサインインして下さい. 「アクセス権限のリクエスト」**を押してもアクセスできません.**
-     * <a href="https://youtu.be/emnkVSWwScg" target="_blank" rel="noopener">Androidの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
-     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
+  * **Pattern 2:** A "permission required" window pops up. This happens if you're signed in to Google with a different account (for example, your personal account).
+     * <a href="https://youtu.be/yLQcnfZo_24" target="_blank" rel="noopener">For PC:</a> Select **Switch Account** on the right and sign in with your university account. You cannot access it by pressing **"Request Access Permission"**.
+     * <a href="https://youtu.be/emnkVSWwScg" target="_blank" rel="noopener">For Android:</a> Add the email address you created this time (xxxx@g.ecc.u-tokyo.ac.jp) to your Google account before accessing.
+     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">For iPhone:</a> Please add the email address you created this time (xxxx@g.ecc.u-tokyo.ac.jp) to your Google account before accessing.
 <a name="check-google-spreadsheet-pattern-3"> </a>
-  * **パターン3:** 「ユーザ認証に失敗しました」と表示される. これは, そもそもGoogleにサインインしていない場合におきます.
-     * <a href="https://youtu.be/Gz5kObGuXMw" target="_blank" rel="noopener">パソコンの場合:</a> Googleへのサインインを促す画面が出てくるので大学のアカウントでサインインして下さい
-     * <a href="https://youtu.be/emnkVSWwScg" target="_blank" rel="noopener">Androidの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
-     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
+  * **Pattern 3:** "User authentication failed" pops up. This happens if you are not signed in to Google in the first place.
+     * <a href="https://youtu.be/Gz5kObGuXMw" target="_blank" rel="noopener">For PC:</a> A screen will appear prompting you to sign in to Google, so sign in with your university account.
+     * <a href="https://youtu.be/emnkVSWwScg" target="_blank" rel="noopener">For Android:</a> Add the email address you created this time (xxxx@g.ecc.u-tokyo.ac.jp) to your Google account before accessing.
+     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">For iPhone:</a> Add the email address you created this time (xxxx@g.ecc.u-tokyo.ac.jp) to your Google account before accessing.
 
 
-なにかおかしい, 接続できない場合は
+If something is wrong/ If you can’t connect 
 ---------------------------
 
-* 少し頑張っても問題が解決しない場合, このページ右下にあるチャットサポートや[サポートページ](https://utelecon.github.io/supports)にアクセスしてトラブル解決の方法を試してください.
+* If you encounter a problem you can’t solve, try using the Chat Support that is displayed on the bottom-right of the page or access the [Support Page](https://utelecon.github.io/supports) to receive help.
