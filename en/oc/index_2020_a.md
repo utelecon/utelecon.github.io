@@ -32,22 +32,22 @@ Preparations for taking online classes are broadly in 2 parts
   * PC: Since it is possible to watch videos on a smartphone, you can also watch online lessons on a smartphone. However, for studying at a university,we recommend owning a PC (Windows, Mac, Linux, etc.) for writing reports, etc. Also, during online lesson activities, you will have more opportunities to do small tasks and exercises while watching videos. Prepare a computer environment so that you can have your online class and a different window for other tasks both on your large screen.
   * Internet environment: To take classes from home, you need an environment where you can watch videos. Check the capacity of the Internet and/or smartphone. Be careful if you connect your smartphone directly to mobile (LTE etc.) If you do not have enough data capacity or an unlimited internet environment, you will not be able to watch the video when you run out of giga, or it will cost you money to buy giga to keep watching. We recommend having enough or unlimited internet. We have a <a href="https://utelecon.github.io/mobile/mobile3">support system</a> for those in need.
 
-<font color="blue">注:</font>
+<font color="blue">Note</font>
 
-* 以下の初期設定作業は, 授業に使うパソコンを入手する前でも実行可能です
-* 今ある手持ちのスマホでも, iPadやタブレット, (家にある)パソコンなどで実行可能です
-* 設定したパスワードなどは忘れぬよう, メモして安全なところへ保管してください
+* The following initial setup work can be done before you get a computer to use for class.
+* You can run it on the smartphone, iPad, tablet, PC (at home), etc. that you already own. 
+* Make a note of the password you have set and keep it in a safe place.
 
 ***
 
 <a name="utokyo-edu-ict"> </a>
-### 東京大学で使われている, 教育のためのICTシステム
+### ICT system for education used at the University of Tokyo
 
-全体像は下図のようになっています.
-* システム名をクリックすると各システムへサインインするページに行けます.
-* 矢印は依存関係を示しており, A -> B は, 最初にAを使えるようにしてからBを使う必要があることを示しています(例えばZoomを使うにはG Suiteが使える必要があり, そのためにはUTokyo Accountが必要です).
-* 「要有効化」という印があるシステムは初めて使う際に初期設定作業が必要です. 「要有効化」をクリックするとそのページに行けます.
-* 詳細は <a href="https://utelecon.github.io/events/2020-09-11/" target="_blank" rel="noopener">9/11 説明会</a>の<a href="https://utelecon.github.io/events/2020-09-11/slides/01-ict-overview.pdf" target="_blank" rel="noopener">第一部: 授業に必要なICTシステムの概要</a> (<a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">動画</a>) で説明していますのでご覧ください
+The whole picture is as shown in the figure below.
+* Click the system name to go to sign in page to each system.
+* The arrows indicate how each element is related, and A-> B indicates that you must first enable A and to use B (for example, to use Zoom you need to be able to use G Suite, for which you need a UTokyo Account).
+* Systems marked "Enable" require initial setup when used for the first time. Click "Enable" to go to that page.
+* For details, please see <a href="https://utelecon.github.io/events/2020-09-11/" target="_blank" rel="noopener">Part 1 of the 9/11 briefing session: </a>の<a href="https://utelecon.github.io/events/2020-09-11/slides/01-ict-overview.pdf" target="_blank" rel="noopener">Overview of ICT system required for class</a> (<a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">video</a>).
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -714,7 +714,7 @@ LMS</text>
   </a>
 </svg>
 
-以下で各システムで必要な作業について簡単に説明します. 以下の作業中, このページに書かれている通りにならないなど, 問題を見つけた場合は, まずはこのページにも現れているチャットサポートをお試しください(チャットサポートで解決しない場合はサポートチームに連絡できます).
+Below is a brief description of what you need to do on each system. If you encounter any problems while conducting the tasks below, such as not getting results as written on this page, ask for help using the chat support that will appear on the page. (you can contact the support team if chat support doesn't work).
 
 1. <a name="utokyo_account"></a>**UTokyo Account:** 他のサービスすべてのもととなるアカウントになります.
 在学生であれば, これを使ったことがないという人はいないはずです.
