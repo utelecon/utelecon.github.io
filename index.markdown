@@ -4,6 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/10/16:</span> (教員用)10/20 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(1) 概念の整理とゼミにおける実践例](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/9/25:</span> On Zoom sign up page, if you see <font color="purple">"We regret to inform you that Zoom has suspended all new FREE user registration in China. From May 20th onwards, all free users in China can only join meetings. If you need to host a meeting, please contact sales in China to purchase licenses,"</font> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUQU8xUVJSUkxSWU85NkQ3RjQ0UkNFWE9SSC4u" target="_blank" rel="noopener">send a request</a> to us.  The form requires you to sign in to Microsoft with UTokyo Account.  <a href="https://utelecon.github.io/oc/index_2020_a#microsoft_365" target="_blank" rel="noopener">If you don't know how to do it.</a>
 * <span style="color:blue;">2020/9/25:</span> 授業で学生にZoomの操作を説明したい(そのためのスライドが欲しい)という人のための, 説明スライド(<a href="zoom/files/Zoom-how.pptx">pptx</a>, <a href="zoom/files/Zoom-how.pdf">pdf</a>)を公開しました. また, [3/19の説明会資料](events/2020-03-19)もご覧ください
 * <span style="color:blue;">2020/9/25:</span> [オンライン授業のグッドプラクティス](good-practice/)を順次公開しています
@@ -52,9 +53,9 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 イベント
 ---------------------------
+* 2020/10/20 [オンライン授業情報交換会:ハイブリッド授業(1) 概念の整理とゼミにおける実践例](events/2020-luncheon/)
 * 2020/09/11 [説明会：Aセメスターのオンライン・ハイブリッド授業に向けて― Sセメスターの経験をふまえて](events/2020-09-11/)
 * 2020/08/05 [情報システムゼミ: 業務における動画の作成・公開方法](events/2020-09-02/)
-* 2020/08/05 [オンライン授業情報交換会:オンライン授業の振り返り](events/2020-luncheon/)
 * 2020/05/20 [クラスサポーター研修](events/2020-5-20)
 * 2020/05/08 [説明会: オンライン授業における著作物利用](events/2020-05-08/)
 * 2020/04/16 [説明会: Sセメスタ開始2週間を経て](events/2020-04-16/)
