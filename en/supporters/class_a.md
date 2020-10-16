@@ -1,25 +1,25 @@
 ---
-title: クラスサポーター制度（Aセメスター）のご案内
+title: Online Class Supporters Program (2020 A Semester)
+layout: en
 ---
 
-お知らせ
+Notifications
 ---------------------------
 
-* <span style="color:blue;">2020/10/4:</span> マッチングについては、学生の志願者が少ないためマッチング作業が遅れております。ご理解の程よろしくお願いいたします。
-* <span style="color:blue;">2020/9/11:</span> **Aセメスターのクラスサポーター制度を開始しました**
-* <span style="color:blue;">2020/9/11:</span> Sセメスターのクラスサポーターの謝金支払いについては現在手続き中のため、支払い完了まで時間を要します.ご不便をおかけしますがご了承のほどよろしくお願いします.旧ページの情報は<a href="https://utelecon.github.io/supporters/class" target="_blank">こちら</a>
+* <span style="color:blue;">2020/10/4:</span> We apologize that allocating the class supporters has been delayed  because the number of applicants is much less than the number of what the lecturers need. 
+* <span style="color:blue;">2020/9/11:</span> **We started A semester's class supporter system. **
+* <span style="color:blue;">2020/9/11:</span> We now process the payment of class supporters on S semester.We apologize for your inconvenience. Click on the previous information <a href="https://utelecon.github.io/supporters/class" target="_blank">here</a>
 
 <br>
 
-**<font color="red">重要！！</font>** <br>
-**このページにリンクされているフォームにアクセスするにはoffice 365にログインしている必要があります．<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">こちら</a>を参照いただき、大学のマイクロソフトライセンスを有効化してログインの上アクセスをお願いします．あわせて，<a href="https://utelecon.github.io/oc/#office-365%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%81%AE%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF " target="_blank">手順動画、およびログインできたかをチェックできるシート</a>もご利用ください．
-どうしてもアクセスできない場合には，クラスサポーター授業担当（末尾に連絡先があります）にご連絡ください．**
+**<font color="red">Important！！</font>** <br>
+**If you want to access the forms below, please log in office 365 in advance. <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">Please refer to this link</a>  and  you can get the office 365 licence. In addition, <a href="https://utelecon.github.io/oc/#office-365%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%81%AE%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF " target="_blank">Please refer to the checksheet whether you can log in to your account.  You can also find video clips to set-ups. </a> Still you cannot access the office 365, please contact the manager of the class supporters (See the end of this page).**
 
 
-クラスサポーターとは
+What is a Class Supporter?
 ---------------------------
 
-オンライン授業を行う先生や授業の進行を支援する学生です. 本学に在籍をしている学部生・大学院生・研究生・ポストドクター等がクラスサポーターになることができます．クラスサポーター制度を利用する場合，下記をよくお読みになり，制度の理解をした上でお申込みください．
+Every undergraduate / graduate student and postdoctoral researcher belonging to the University of Tokyo can become Class Supporters. The job of Class Supporters is to support the lecturers' online courses. If you are interested in availing the Class Supporer, please read carefully the text below to understand the system of the class supporter.  
 
 制度の趣旨と目標
 ---------------------------
