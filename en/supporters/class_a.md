@@ -21,68 +21,66 @@ What is a Class Supporter?
 
 Every undergraduate / graduate student and postdoctoral researcher belonging to the University of Tokyo can become Class Supporters. The job of Class Supporters is to support the lecturers' online courses. If you are interested in availing the Class Supporer, please read carefully the text below to understand the system of the class supporter.  
 
-制度の趣旨と目標
+Aims and the Goal of Class Supporters
 ---------------------------
 
-* いわゆるTAほど重い仕事を想定していません
-* 迅速にマッチング・仕事開始ができることを目標に立案しています
-* 学科や専攻を越えたhelpのつながりもできることを目指しています
-* 学科や専攻でTAを割り当てていない場合でも，希望する全ての授業に1名のクラスサポーターを本部予算でつけられるようにしています
-* 学科や専攻ですでにオンライン授業サポートのためのTAがついている場合, クラスサポーターは不要(冗長)な場合が多いと思われます(禁止するものではありません)
+* Class Supporters are NOT a TA. We do not expect that Class Supporters  work hard as well as TAs are supposed to do.
+* We aim to match the lectures and the Class Supporters as soon as possible.
+* We also aim to make interdisciplinary connections through the system of the Class supporter.
+* The budget of the Class supporter system is independently of any departments. Therefore, all lecturers can be  allocated to the Class Supporter without any budget restrictions of their department.
+* The lectures can hire both Class Supporters and TAs. However, if there are TAs already at your online class, the Class Supporters may not be necessary.  
 
-クラスサポーターの仕事内容の範囲(想定している仕事の例)
+The Work for Class Supporter (Examples of the expected work)
 ---------------------------
 
-* 授業時間外に，<font color="green">Web会議システムを用いた授業やハイブリッド授業の事前練習や試行錯誤</font>を教員と一緒に行う. 例:
-  * 音の聞こえ具合のチェック
-  * カメラの映り具合のチェック
-  * 会議システムの機能を使ってみたときの見え方のチェック
-  * ハイブリッド授業の進行についての予行演習
-* 授業中に生じる基本的なトラブルに反応して<font color="green">介入</font>する. 例:
-  * 教員の声が聴こえない時「先生、聴こえ（見え）ていませんよ」と声をかける
-  * 画面を共有したつもりでできていない時に「先生、見えていませんよ」と声をかける
-  * (授業形態により) chat質問のチェック
-  * 一言で言えば最悪な事故(声が通っていないと知らずに30分喋り続ける)の防止です
-  * 出来る範囲でのWeb会議システムへの習熟, 出来る範囲でのトラブル解決
-* <font color="green">関連情報のゆるやかな収集と共有する．</font> 例:
-  * 「昨晩Zoomのアップデートがあったみたいですよ」などと情報共有する
-  * 「uteleconでこんな情報が出ていました」などと情報共有す
-* <span style="color: red">ハイブリッド授業など登校が必須になるような仕事については<u>クラスサポーターとなる学生が無理なく引き受けられる場合に限ります</u></span>
+* The Class Supporter will <font color="green">prepare for the online classes and/or the hybrid classes with the lecturers</font> outside of class hours. Here is  the example below:
+  * check the audio settings
+  * check how the camera works
+  * check how the screen works when using online meeting systems.
+  * communicate how the hybrid class carries out with the lectures.
+* Class Supporters will <font color="green">intervene</font> when you find some fundamental troubles at your class as follows: 
+  * If class supporters realize the lecturers mute, please say "Teacher, I cannot hear your voice/ see your shared screen. Please unmute/ reset your shared screen." 
+  * Checking chat sent by the students. (Depending on the class style) 
+  * The job of class supporters, in a word, is to prevent from occuring the worst case of happening (e.g. the lecturers spoke 30 minutes without noticing theri unmute)
+  * The Class Supporter masters the very fundamental troubleshooting on the online conference systems.  
+* <font color="green">Collecting information regarding online conference systems and sharing with it, if the Class Supporter affard to do．</font> For example:
+  * The Class Supporter "I received the notification of  the Zoom update last night."
+  * The Class Supporter "I found information at utelecon."
+* <span style="color: red">Hybrid classes that require class supporters to come to school should take in consideration whether the class supporter student can commute to campus or not.<u></u></span>
   
-* 注: 授業中のサポートは<font color="green">授業を受けながらでも出来る程度のもの</font>を想定しています
+* Caution: As a premise,<font color="green">the amount of work as class supporters should not be hard </font>and, therefore, the class supporter should be able to take classes as well as a student.
 
-クラスサポーターとして想定していない仕事内容
+List of non-expected duties as a Class Supporter
 ---------------------------
 
-* 先生がWeb会議システムを<font color="red">全く知らなくても済む</font>ようにWeb会議の設定などを毎回整える, などは<u>想定していません</u>
-* 黒板前で動き回る教員を<font color="red">カメラで追従して撮影する</font>, などは<u>想定していません</u>
-* 授業に入れない学生, 音が鳴らない学生などへの個別対応が, 授業を受けられなくなる数発生した場合に<font color="red">すべて対応する(受講に支障があるレベル)</font>, などの仕事は<u>想定していません</u>(もちろん授業中の教員がやることも<u>想定していません</u>)
+* We do not expect that Class Supporters master anything about the online conference systems. Therefore, <font color="red">the lecturers should understand the online conference systems and know how to set the systems</font>.<u></u>
+* We do not expect that Class Supporters to<font color="red">take a  movie and follow the lecturers move </font>in front of the blackboard<u>.</u>
+* We do not expect that Class Supporters <font color="red">cope with all troubleshooting on the online conference system</font> (e.g. Some students cannot enter the online classroom or cannot hear the lectures voice)<u>.</u>(Of course, we do not think that the lecturers should cope with all troubles at the online classroom<u>.</u>)
 
+What the Class Supporters duty  is  (1) to prepare for the online classes with the lecturers and (2) to cope with the problems if the lecturers do not notice them (e.g. Audio trouble, forget to unmute).If the lecturers want Class Supporters to do some more duties, please consent to the Class Supporter or hire another person as a TA. Lecturers should not ask the duties no more than 10 hours including 2 hour training sessions. 
 
-あくまで「先生がオンライン授業に備える, その準備に付き合う(試行錯誤の相手をする), 先生が授業中に気づきにくい(音が届いていないなどの)トラブルを学生側から介入する」などの仕事を想定しています. それ以上の仕事は学科, 専攻, 本人とも同意の上, 別途TAを雇うなどしてください. 10時間（研修2時間含）を超えるサポートをクラスサポーターにお願いしないでください．
-
-(教員用) 制度利用の流れ
+How to Find a Class Supporter? (For Lecturers) 
 ---------------------------
 
-制度を利用するには，下記の通り2つの方法があります．
+There are two ways to find Class Supporters. 
 
-**教員自身がサポーターを見つけられた場合**
+**Lectures find the Class Supporter on their own.**
 
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhE94RPB63wNJlBYuMusGyS9UNFBUWk5RUkQ0NFFHQUpaSkdaVlNDMU43OC4u" target="_blank">クラスサポーター獲得報告フォーム</a>で利用申請を行ってください．
-    * 満期退学者など，本学の所属でない人はクラスサポーターに指名できません．
-    * 留学生は資格外活動許可を有していることが必要です．
-1. しばらくすると承認メールが届きます．クラスサポーターの活動は、承認メール到着前に開始してかまいません．
-    *  後日あらためて、追加的に情報入力をいただくフォームを2種類お送りします。これは1つは、謝金支払いに必要な情報を学生が記入するためのものです．学生も同じリンクを受け取っているはずですが，学生がフォームに記入したかを確認してあげてください．もう1つは業務完了報告フォームです。こちらは先生ご自身で記入いただくものです。
-1. クラスサポーターの業務が完了したら、業務完了報告フォームを提出してください．業務完了報告フォームの提出がないと謝金の支払いができません．
+1. Please fill in <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhE94RPB63wNJlBYuMusGyS9UNFBUWk5RUkQ0NFFHQUpaSkdaVlNDMU43OC4u" target="_blank">this Class Supporters Application form</a>.
+    * You cannot designate those who do not register for a student at the University of Tokyo, including the people who complete doctoral coursework at the University of Tokyo but  do not have a student registration.
+    *  International students are required to have "the permission to engage in activity other than that permitted under the status of residence previously granted"．
+1. After a short time, the lecturers will receive the approval notification. The  Class Supporters can start their duty before receiving the approval notification.
+    *  After approving, we will send two types of forms to lectures. One is to confirm how to undergo the payment, so that the students must fill in the form. The students who become a Class Supporter also have this form but please ask them whether they fill in and submit the form. Another is to report to notify the completion of the Class Supporters' duty. The lecturer should fill in this form after finishing their duty.
+1. Please submit the latter form after finishing their job because we cannot pay for a Class Supporters reward unless the lectures submit this form.
 
-**クラスサポーターをマッチングしてほしい場合**
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhE94RPB63wNJlBYuMusGyS9URDJDMVFIUEhVSExOUTBWNlU2TFZBNEpNQy4u" target="_blank">クラスサポーター割当希望フォーム</a>で制度の利用申請を行ってください．
-1. 事務局でクラスサポーターのマッチングを行い，条件に合致したクラスサポーターをご案内するメールを<font color="red">マッチングが成立次第</font>お送りします．
-    * メールが届いたら，その学生と連絡をとり，クラスのサポート活動を開始してもらってください．
-    *  承認メールにある情報入力フォームリンクは謝金支払いに必要な情報を学生が記入するためのものです．学生も同じリンクを受け取っているはずですが，学生がフォームに記入したかを確認してあげてください．
-1. クラスサポーターの業務が完了したら、業務完了報告フォームを提出してください．業務完了報告フォームの提出がないと謝金の支払いができません．
+**Lecturers aks for help to find Class Supporters**
+1. Please fill in <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhE94RPB63wNJlBYuMusGyS9URDJDMVFIUEhVSExOUTBWNlU2TFZBNEpNQy4u" target="_blank">the Class Supporter Request form</a>.
+1. We will find the Class Supporter who can match your request in the classroom. If we find the Class Supporter based on your request, then we will <font color="red">send you an email</font> to notify who will be the Class Supporters.
+    * Please contact your Class Supporter as soon as you receive our message．
+    *  After receiving an approved email from us, we will send two types of forms to lectures. One is to confirm how to undergo payment so that the students must fill in the form. The students who become a Class Supporter also have this form but please ask them whether they fill in and submit the form. Another is to report to notify the completion of the Class Supporters' duty. The lecturer should fill in this form after finishing their duty. 
+1. Please submit the latter form after finishing their job because we cannot pay for a Class Supporters reward unless the lectures submit this form.
 
-**留意事項**
+**An Important Notice **
 * 制度利用の申請（フォームへの入力）は11月30日までにお願いします．
 * ご自身でサポーターを見つける場合，下記を学生に理解していただいた上でご利用ください．
   * 謝金 1授業あたり13,000円であること  
