@@ -80,32 +80,33 @@ There are two ways to find Class Supporters.
     *  After receiving an approved email from us, we will send two types of forms to lectures. One is to confirm how to undergo payment so that the students must fill in the form. The students who become a Class Supporter also have this form but please ask them whether they fill in and submit the form. Another is to report to notify the completion of the Class Supporters' duty. The lecturer should fill in this form after finishing their duty. 
 1. Please submit the latter form after finishing their job because we cannot pay for a Class Supporters reward unless the lectures submit this form.
 
-**An Important Notice **
-* 制度利用の申請（フォームへの入力）は11月30日までにお願いします．
-* ご自身でサポーターを見つける場合，下記を学生に理解していただいた上でご利用ください．
-  * 謝金 1授業あたり13,000円であること  
-  * 最大で10時間分の活動(研修2時間込み)であること
-  * 支払いが2月以降となること
-* クラスサポーターは研修を2時間受け一通りのサポート内容を理解していますが，必ずしも高度なITスキルを持つことを要求してはいません. 先生の授業をhelpしたい意志があり, オンライン授業に参加できている学生なら誰でもできるものを想定しています
-* 8 (研修2時間を減じたもの)時間で何をしていただくかの詳細はクラスサポーターとご相談ください. 8時間には授業前の準備や, 実際の授業中に必要な手伝いが含まれます. 授業中の手伝いは, 授業を受けながら出来る程度のものを想定しているため, 授業時間すべてをカウントする必要はありません
-* 留学生は他の労働時間も含めて週28時間が上限と定められているため，それを超えないように調整してください
-* 留学生は資格外活動許可を取得していることが必要です．未取得の場合はすぐに取得手続きを行ってください．また，留学生で休学中の場合はは資格外活動が認められていないためクラスサポーターになることができません
+**Important Notice**
+* The lecturers should apply for the Class Supporter System by November 30 in A semester 2020, through the application form．
+* If the lecturers find the Class Supporter on your own, please consent the students to these conditions below.
+  * Reward is 13000 Yen for each class.
+  * The maximum working hour is 10 including 2 hour training sessions outside of the class.
+  * Payment will take 2 months after the Class Supporter finished their duties.
+* Class Supporters will take the training session about 2 hours to understand what the Class Supporter should do and not do at the class. However, the Class Supporters are not necessary to have high-level IT skills. We expect that the Class Supporter is willing to help the lecturers' online class and that those who participate in the online class can support without any high-level IT skills.
+* Lecturers contact their Class Supporters to share what to do at their class within 8 hours (deducting 2 hour training from 10 hour total working hours).  Class preparations and duties at the classes are included in 8 hours. We expect that the duty of the Class Supporters in the class is  not so heavy that the Class Supporters are able to take their class as well. Therefore, the lectures do not have to count as the Class Supporter's working hour in the class. 
+* International students cannot work in total more than 28 hours /  week.Therefore, please pay attention not to exceed 28 hours / week.
+* International students are required to have "the permission to engage in activity other than that permitted under the status of residence previously granted." If the international students do not acquire the permission, please proceed as soon as possible. In addition, international students who on a leave of absence cannot acquire the permission so that such students cannot be a Class Supporter.  
 
 
-(学生用)クラスサポーターとしての活動の流れと留意点
+A series of  Duties and Important points as a Class Supporters (For Student)
 ---------------------------------------------
-* ITに習熟していることを要求・期待していません. オンライン授業に参加できており, 先生の授業をhelpしたいという意志があり, 必要に応じて学ぶ意志があれば充分です.学習に支障のない範囲で引き受けたり，志望したり，してください．
-* 教員からの依頼を受けてクラスサポーターになる場合には，教員が<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhE94RPB63wNJlBYuMusGyS9UNFBUWk5RUkQ0NFFHQUpaSkdaVlNDMU43OC4u" target="_blank">クラスサポーター獲得報告フォーム</a>に記入します
-    * 教員の申請が承認されると，謝金支払いに必要なフォームが届きます．速やかに必要事項を記入してください
-    * できるだけ活動開始前に<a href="https://utelecon.github.io/events/2020-05-20/" target="_blank">クラスサポーター制度研修のページ</a>にある動画を視聴してください．これが2時間の研修に該当します．2科目以上のクラスサポーターを引き受ける場合でも動画視聴は1回で結構です．また、Sセメスターに受講済の場合は再度受講の必要はありません。特に動画視聴を申告したり，証明するものはありませんが，制度理解のために必ず視聴してください．
-* クラスサポーターとしての活動修了後，教員が活動完了報告フォームを送ります．活動完了報告フォームは謝金支払いに必要な書類ですので，教員が提出をしたかどうか，確認してください．   
-* 空き時間などを利用して自分が履修していない授業や, 個人的に頼まれた教員以外の授業でクラスサポーターを行ってみたい場合は<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhE94RPB63wNJlBYuMusGyS9UNVhJUFpTTU0wSlYyVU9TQkVRNDJFQ1BCNi4u" target="_blank">クラスサポーター志願フォーム</a>でエントリーしてください．クラスサポーターをお探しの教員とマッチングを行います．教員の条件に応じたマッチング（授業実施曜限など）を行うため，志望してもクラスサポーターとして割り当てられないこともある点ご了承ください．
+* We do not ask Class Supporters to adapt to IT skills.  Class Supporters participate in the class and are willing to help with their lectures. In addition to that, We expect that Class Supporters are willing to acquire how to use the online conference systems, if necessary. Therefore, if you are interested, please apply to the Class Supporter as long as you can help with your lectures.
+* If the lectures ask you to become the Class Supporter, the lecturers have to fill in<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhE94RPB63wNJlBYuMusGyS9UNFBUWk5RUkQ0NFFHQUpaSkdaVlNDMU43OC4u" target="_blank">the Class Supporters Application form</a>.
+    * After the application form is approved, you receive the form for payment. Please fill in the form as soon as possible.
+    * Please watch the video clips at the Class Supporter's web page <a href="https://utelecon.github.io/events/2020-05-20/" target="_blank">here</a>. Watching this video are considered to be 2 hour training sessions. If you become a Class Supporter more than 2 classes, you just watch the video only once. If you take the training session on S semester 2020, you do not have to watch the video again. You do not have to notify or prove watching the video. However, PLEASE watch the video for understanding your duties.
+* After you finished your duties as a Class Supporter, the lecturers will submit the report for finishing Class Supporters' duties. The form submitted by the lecturers is required to complete the payment, so please confirm with your lecturer the report submission.
+* If you are interested in becoming Class Supporters for a class you do not take, please submit a <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhE94RPB63wNJlBYuMusGyS9UNVhJUFpTTU0wSlYyVU9TQkVRNDJFQ1BCNi4u" target="_blank">Class Supporters' application form </a> and then we will match the lectures who look for the class supporter and you. Note that in response to the conditions of the class (e.g. day and hour of the class) , we will allocate you a class. Therefore, even if you wish to become a Class Supporter, we cannot allocate you as a Class Supporter.
 
 
-問い合わせ先
+
+Contact us
 ---------------------------------------------
 
-オンライン授業学生担当
+Class supporters Management
 class-support@he.u-tokyo.ac.jp
 
 
