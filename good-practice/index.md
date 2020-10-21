@@ -110,6 +110,7 @@ function array_match_check(arr1, arr2) {
 * これらの情報がみなさまの実践の参考になれば幸いです．
 
 ## お知らせ
+- 2020年10月21日 新しい記事1件を公開しました．
 - 2020年10月8日 新しい記事3件を公開しました．
 - 2020年10月5日 新しい記事1件を公開しました．
 - 2020年9月22日 新しい記事3件を公開しました．
@@ -150,8 +151,6 @@ function array_match_check(arr1, arr2) {
         　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　
         <input type="checkbox" name="tool" value="a-illustrator">Adobe Illustrator　<br>
         　　　<input type="checkbox" name="tool" value="onenote">Microsoft OneNote　<br>
-        　　　<input type="checkbox" name="tool" value="tex">TeX　
-        <input type="checkbox" name="tool" value="mathematica">Mathematica　 <br>
     </div>
     <div class="search-box">
         <span class="search-box_label">タグ:</span>
