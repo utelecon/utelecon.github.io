@@ -110,6 +110,7 @@ function array_match_check(arr1, arr2) {
 * これらの情報がみなさまの実践の参考になれば幸いです．
 
 ## お知らせ
+- 2020年10月21日 新しい記事1件を公開しました．
 - 2020年10月8日 新しい記事3件を公開しました．
 - 2020年10月5日 新しい記事1件を公開しました．
 - 2020年9月22日 新しい記事3件を公開しました．
@@ -150,8 +151,6 @@ function array_match_check(arr1, arr2) {
         　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　
         <input type="checkbox" name="tool" value="a-illustrator">Adobe Illustrator　<br>
         　　　<input type="checkbox" name="tool" value="onenote">Microsoft OneNote　<br>
-        　　　<input type="checkbox" name="tool" value="tex">TeX　
-        <input type="checkbox" name="tool" value="mathematica">Mathematica　 <br>
     </div>
     <div class="search-box">
         <span class="search-box_label">タグ:</span>
@@ -164,6 +163,13 @@ function array_match_check(arr1, arr2) {
   
 <ul class="list">  
 <br>
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "line"]' data-keyword='[]'>
+        <a href="./interview/hirose">廣瀬敬 先生の授業: 固体地球科学（理学部・理学系研究科 約70名）</a><br>
+        <ul>
+            <li>ポイント: リアルタイム　匿名LINEオープンチャットによる質問　スライドの工夫</li>
+            <li>利用ツール: ITC-LMS, Zoom, LINE オープンチャット</li>
+        </ul>
+    </li>  
     <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom", "google-forms", "utas", "google-drive"]' data-keyword='["text"]'>
         <a href="./interview/ohtsuki">大槻久 先生の授業: 適応⾏動論（教養学部 前期課程 670名程度）</a><br>
         <ul>
