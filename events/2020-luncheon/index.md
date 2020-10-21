@@ -20,6 +20,7 @@ title: オンライン授業情報交換会
 【日時】2020年10月20日（火）　12:10-12:50 <br>
 【トピック】 ハイブリッド授業(1) 概念の整理とゼミにおける実践例 <br>
 【スライド】　[pdfファイル](luncheon_16_slides.pdf) <br>
+【動画】[mp4ファイル](https://drive.google.com/file/d/1-vAXDbi_HlRQHqjmj2CiYyU0xxCDAVmh/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）     
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生 <br>
 【概要】Sセメスターで実施してきた情報交換会を今期も行っていきます．<br>
 今回は，教育工学を専門とされている情報学環の山内祐平先生より，ハイブリッド授業に関する概念の整理や15名程度のハイブリッドゼミ実践について情報を共有いただきます．<br>
