@@ -164,6 +164,13 @@ function array_match_check(arr1, arr2) {
   
 <ul class="list">  
 <br>
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "line"]' data-keyword='[]'>
+        <a href="./interview/hirose">廣瀬敬 先生の授業: 固体地球科学（理学部・理学系研究科 約70名）</a><br>
+        <ul>
+            <li>ポイント: リアルタイム　匿名LINEオープンチャットによる質問　スライドの工夫</li>
+            <li>利用ツール: ITC-LMS, Zoom, LINE オープンチャット</li>
+        </ul>
+    </li>  
     <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom", "google-forms", "utas", "google-drive"]' data-keyword='["text"]'>
         <a href="./interview/ohtsuki">大槻久 先生の授業: 適応⾏動論（教養学部 前期課程 670名程度）</a><br>
         <ul>
