@@ -4,6 +4,7 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
+* <span style="color:blue;">2020/10/23:</span> [Zoomライセンス切り替え(11/20)・今後のウェブ会議システムの提供について(更新)](notice/webmeetingaccount20201120)
 * <span style="color:blue;">2020/10/23:</span> (教員用)10/29 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(2) 大人数授業における実践例](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/10/16:</span> (教員用)10/20 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(1) 概念の整理とゼミにおける実践例](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/9/25:</span> On Zoom sign up page, if you see <font color="purple">"We regret to inform you that Zoom has suspended all new FREE user registration in China. From May 20th onwards, all free users in China can only join meetings. If you need to host a meeting, please contact sales in China to purchase licenses,"</font> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUQU8xUVJSUkxSWU85NkQ3RjQ0UkNFWE9SSC4u" target="_blank" rel="noopener">send a request</a> to us.  The form requires you to sign in to Microsoft with UTokyo Account.  <a href="https://utelecon.github.io/oc/index_2020_a#microsoft_365" target="_blank" rel="noopener">If you don't know how to do it.</a>
