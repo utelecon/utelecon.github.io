@@ -8,20 +8,21 @@ title: 今後のウェブ会議システムの提供について（2020/11/20以
 ## [Zoom](https://utelecon.github.io/zoom/)
 
 **11月20日に利用者全員に付与される大学ライセンスが変わります**
+
 11月20日の変更によってZoomにサインインできなくなる、開催中のミーティングが切断される、予約したミーティングURLが無効になることはありません。（ウェビナーはURLを作成していても開催できなくなります。）
 
-1. **11月20日まで** 、 現在の利用条件（同時接続数500までのミーティング、同時接続数500までのウェビナー）で利用可能です。
+1. **11月20日まで** 、 現在の利用条件（同時接続数500までのミーティングとウェビナー）で利用可能です。
 1. **11月20日以降** 、<span style="color: green;">共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp 形式のアカウント</span> には今後継続して大学ライセンス付与をします。
 	1. 大学ライセンスは「同時接続数300 人までのミーティング」になります。（これまでのミーティング同時接続数500人から減少します。ウェビナーはなくなります。）
 	1. 同時接続数301以上の大規模ミーティングライセンスとウェビナーライセンスは利用時にのみ申請によって付与します。オンライン授業やイベントのためにこれらが必要な場合、教職員の申し込み（ <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUtWOE9PNkVXN1QzOVcxSFlJMFozTzRZQy4u" target="_blank" rel="noopener">Zoomミーティング・ウェビナー：大学ライセンスのリクエストフォーム</a> から。UTokyo Account(共通ID（数字10桁）@utac.u-tokyo.ac.jp）でのサインインが必要です）に応じて必要な大学ライセンスを付与します。
 	1. 300人までのオンライン授業では原則ウェビナーではなくミーティングをお使いください。
-1. <span style="color: red;">共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp以外のアカウント</span> でサインインし、大学ライセンスを利用しているユーザーには当座、ライセンス付与をします。しかし、共通IDでないものは利用者を確認できないため、継続して大学ライセンスを利用される方は、共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp形式のサインインメールアドレスに変更をお願いします。今後、該当する（変更が必要な）アカウントのユーザーにはメールを送付し利用中のアカウントの今後の意向を確認します。なお、サインインメールアドレスの修正はユーザー自身でサインイン後、プロフィール内の修正メニューで変更できます。詳しくは[こちらの手順](zoom-address)を参照ください。
+1. <span style="color: red;">共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp以外のアカウント</span> でサインインし、大学ライセンスを利用しているユーザーには当座、ライセンス付与をします。しかし、共通IDでないものは利用者を確認できないため、継続して大学ライセンスを利用される方は、<span style="color: green;">共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp形式のサインインメールアドレス</span>に変更をお願いします。今後、該当する（変更が必要な）アカウントのユーザーにはメールを送付し利用中のアカウントの今後の意向を確認します。なお、サインインメールアドレスの修正はユーザー自身でサインイン後、プロフィール内の修正メニューで変更できます。詳しくは[こちらの手順](zoom-address)を参照ください。
 
 ## Zoom大学ライセンス切り替えでユーザーごとに必要な対応
 
 1. **<span style="color: green;">アカウントに共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp</span> を使っていて、301人以上の授業が無い方**　→　なにもする必要はありません。
 1. **<span style="color: green;">アカウントに共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp</span> を使っていて、301人以上の授業がある方**　→　次のフォームから申請をしてください。<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUtWOE9PNkVXN1QzOVcxSFlJMFozTzRZQy4u" target="_blank" rel="noopener">Zoomミーティング・ウェビナー：大学ライセンスのリクエストフォーム</a> 
-1. **<span style="color: red;">アカウントに共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp 以外の形式</span>のアカウントを使っている方**　→　利用を続ける場合は[こちらの手順](zoom-address)を参照して共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp形式のサインインメールアドレスに変更してください。
+1. **<span style="color: red;">アカウントに共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp 以外の形式のアカウント</span>を使っている方**　→　利用を続ける場合は[こちらの手順](zoom-address)を参照して共通ID（数字10桁）@g.ecc.u-tokyo.ac.jp形式のサインインメールアドレスに変更してください。
 
 ## [Webex](https://utelecon.github.io/webex/)
 
