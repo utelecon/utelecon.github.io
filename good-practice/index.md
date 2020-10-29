@@ -159,17 +159,24 @@ function array_match_check(arr1, arr2) {
         <input type="checkbox" name="keyword" value="group-work">グループワーク　
         <input type="checkbox" name="keyword" value="ta">TA　
     </div>
-</form>  
+</form> 
   
 <ul class="list">  
 <br>
+    <li class="list_item" data-format='["ondemand"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "slack","youtube"]' data-keyword='[]'>
+        <a href="./interview/saito">齊藤宣一 先生の授業: 　計算数理I・計算数理（理学部数学科・教養学部 約70名）</a><br>
+        <ul>
+            <li>ポイント: オンデマンド　Slackでの質問対応　iPadを用いた板書</li>
+            <li>利用ツール: ITC-LMS, Slack, YouTube, Google Drive, Zoom, iPad Pro, GoodNote5, Apple Pencil 2 </li>
+        </ul>
+    </li>  
     <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "line"]' data-keyword='[]'>
         <a href="./interview/hirose">廣瀬敬 先生の授業: 固体地球科学（理学部・理学系研究科 約70名）</a><br>
         <ul>
             <li>ポイント: リアルタイム　匿名LINEオープンチャットによる質問　スライドの工夫</li>
             <li>利用ツール: ITC-LMS, Zoom, LINE オープンチャット</li>
         </ul>
-    </li>  
+    </li> 
     <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom", "google-forms", "utas", "google-drive"]' data-keyword='["text"]'>
         <a href="./interview/ohtsuki">大槻久 先生の授業: 適応⾏動論（教養学部 前期課程 670名程度）</a><br>
         <ul>
