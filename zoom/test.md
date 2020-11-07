@@ -2,6 +2,7 @@
 title: Test
 layout: ja_test
 sitemap: false
+redirect_from: "https://utelecon.github.io/"
 ---
 
 テストのためタイトルを変更しています。
