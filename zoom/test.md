@@ -2,9 +2,10 @@
 title: Test
 layout: ja_test
 sitemap: false
-redirect_from: "https://utelecon.github.io/"
+redirect_to: "https://utelecon.github.io/"
 ---
 
+2020年11月7日 14:46
 テストのためタイトルを変更しています。
 ---------------------------
 
