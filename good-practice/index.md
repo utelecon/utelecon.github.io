@@ -151,6 +151,7 @@ function array_match_check(arr1, arr2) {
         　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　
         <input type="checkbox" name="tool" value="a-illustrator">Adobe Illustrator　<br>
         　　　<input type="checkbox" name="tool" value="onenote">Microsoft OneNote　<br>
+        <input type="checkbox" name="tool" value="comment-screen">Comment Screen　<br>
     </div>
     <div class="search-box">
         <span class="search-box_label">タグ:</span>
@@ -163,6 +164,13 @@ function array_match_check(arr1, arr2) {
   
 <ul class="list">  
 <br>
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "comment-screen"]' data-keyword='[]'>
+        <a href="./interview/sugita">杉田直彦 先生の授業: 　生産システム（工学部 約100名）</a><br>
+        <ul>
+            <li>ポイント: オンライン　Comment Screenの活用　演習の活用</li>
+            <li>利用ツール: ITC-LMS, Zoom, Comment Screen </li>
+        </ul>
+    </li>
     <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom"]' data-keyword='["group-work"]'>
         <a href="./interview/higuchi">樋口亮介 先生の授業: 刑法第2部（法学部 約300名）</a><br>
         <ul>
