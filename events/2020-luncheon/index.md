@@ -19,6 +19,7 @@ title: オンライン授業情報交換会
 
 【日時】2020年11月10日（火）　12:10-12:50 <br>
 【トピック】 グッドプラクティス事例(1) 大人数のオンライン授業におけるインタラクションの工夫 <br>
+【動画】[mp4ファイル](https://drive.google.com/file/d/1iILYgUZ2awlT_nBjlIPYnL032L86pe_g/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）  
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生  <br>
 【概要】今回より，Sセメスターの学生アンケートから選出されたオンライン授業のグッドプラクティスについて，実際に授業を行った先生方にご登場頂き，情報共有をいただきます．グッドプラクティスの内容は，本学のオンライン授業に関する情報ポータル「オンライン授業・Web会議 ポータルサイト @ 東京大学 (utelecon)」にて，紹介しております（リンクは[こちら](https://utelecon.github.io/good-practice/)です）．  <br>
 その初回である今回は，350名の学生が履修する学部前期の授業「心理I」にて行われた，大人数のオンライン授業におけるインタラクションの工夫を総合文化研究科の四本裕子先生にご共有いたきます．先生の取り組みについての記事は，[こちら](https://utelecon.github.io/good-practice/interview/yotsumoto)にございます．  <br>
