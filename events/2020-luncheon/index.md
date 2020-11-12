@@ -15,11 +15,21 @@ title: オンライン授業情報交換会
   * UTokyo Account10桁のID@utac.u-tokyo.ac.jpでoffice.comにサインインしている必要があります．
   * 上手くアクセスできない場合は[こちら](https://www.office.com/)に行き，（サインインしている場合は一度サインアウトして）UTokyo Account10桁のID@utac.u-tokyo.ac.jpでサインインしてください
 
+◆ 第19回
+
+【日時】2020年11月10日（火）　12:10-12:50 <br>
+【トピック】 グッドプラクティス事例(1) 大人数のオンライン授業におけるインタラクションの工夫 <br>
+【動画】[mp4ファイル](https://drive.google.com/file/d/1iILYgUZ2awlT_nBjlIPYnL032L86pe_g/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）  
+【対象】本学の授業を担当する教員や授業支援をする方々及び学生  <br>
+【概要】今回より，Sセメスターの学生アンケートから選出されたオンライン授業のグッドプラクティスについて，実際に授業を行った先生方にご登場頂き，情報共有をいただきます．グッドプラクティスの内容は，本学のオンライン授業に関する情報ポータル「オンライン授業・Web会議 ポータルサイト @ 東京大学 (utelecon)」にて，紹介しております（リンクは[こちら](https://utelecon.github.io/good-practice/)です）．  <br>
+その初回である今回は，350名の学生が履修する学部前期の授業「心理I」にて行われた，大人数のオンライン授業におけるインタラクションの工夫を総合文化研究科の四本裕子先生にご共有いたきます．先生の取り組みについての記事は，[こちら](https://utelecon.github.io/good-practice/interview/yotsumoto)にございます．  <br>
+
 ◆ 第18回
 
 【日時】2020年11月6日（金）　12:10-12:50 <br>
 【トピック】 ハイブリッド授業(3) 遠隔と対面の学生の対話を促す授業の実践例 <br>
-【スライド】　pdfファイル <br>
+【スライド】　[pdfファイル](luncheon_18_slides.pdf) <br>
+【動画】[mp4ファイル](https://drive.google.com/file/d/145qVSy51PEf-omWr9g4hHx3sgqBQeQne/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）  
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生  <br>
 【概要】ハイブリッド授業について3回目にあたる今回は，語学に関する授業において遠隔と対面の学生のインタラクションをどう生むか，教養学部で授業担当をしている先生方に提供している機材とそれらを用いた実践例を，角野浩史先生にご共有いただきます． <br>
 
