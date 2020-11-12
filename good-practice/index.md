@@ -151,6 +151,7 @@ function array_match_check(arr1, arr2) {
         　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　
         <input type="checkbox" name="tool" value="a-illustrator">Adobe Illustrator　<br>
         　　　<input type="checkbox" name="tool" value="onenote">Microsoft OneNote　<br>
+        <input type="checkbox" name="tool" value="comment-screen">Comment Screen　<br>
     </div>
     <div class="search-box">
         <span class="search-box_label">タグ:</span>
