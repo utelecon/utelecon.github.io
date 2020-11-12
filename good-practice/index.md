@@ -109,6 +109,7 @@ function array_match_check(arr1, arr2) {
 * これらの情報がみなさまの実践の参考になれば幸いです．
 
 ## お知らせ
+- 2020年11月12日 新しい記事3件を公開しました．
 - 2020年11月4日 新しい記事1件を公開しました．
 - 2020年10月21日 新しい記事1件を公開しました．
 - 2020年10月8日 新しい記事3件を公開しました．
@@ -151,7 +152,7 @@ function array_match_check(arr1, arr2) {
         　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　
         <input type="checkbox" name="tool" value="a-illustrator">Adobe Illustrator　<br>
         　　　<input type="checkbox" name="tool" value="onenote">Microsoft OneNote　<br>
-        <input type="checkbox" name="tool" value="comment-screen">Comment Screen　<br>
+        　　　<input type="checkbox" name="tool" value="comment-screen">Comment Screen　<br>
     </div>
     <div class="search-box">
         <span class="search-box_label">タグ:</span>
@@ -164,6 +165,27 @@ function array_match_check(arr1, arr2) {
   
 <ul class="list">  
 <br>
+    <li class="list_item" data-format='["ondemand"]' data-number='mt30-lt100' data-tool='["itc-lms", "slack", "youtube", "zoom", "ipad-pro", "goodnotes"]' data-keyword='[]'>
+        <a href="./interview/saito">齊藤宣一 先生の授業: 計算数理I・計算数理（理学部数学科・教養学部(後期課程) 約70名）</a><br>
+        <ul>
+            <li>ポイント: オンデマンド型授業 講義ノートの工夫</li>
+            <li>利用ツール: ITC-LMS, Slack, YouTube, Google Drive, Zoom, iPad Pro, Apple Pencil 2, GoodNotes 5</li>
+        </ul>
+    </li> 
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom", "comment-screen"]' data-keyword='[]'>
+        <a href="./interview/sugita">杉田直彦 先生の授業: 生産システム（工学部 約100名）</a><br>
+        <ul>
+            <li>ポイント: インタラクションの工夫 演習の工夫</li>
+            <li>利用ツール: ITC-LMS, Zoom, Comment Screen</li>
+        </ul>
+    </li> 
+    <li class="list_item" data-format='["realtime_online", "ondemand"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "youtube"]' data-keyword='[]'>
+        <a href="./interview/nishimura">⻄村明 先生の授業: 宗教学概論 II（⽂学部 約70名）</a><br>
+        <ul>
+            <li>ポイント: リアルタイムとオンデマンドの組み合わせ 教材収録の工夫 インタラクションの工夫</li>
+            <li>利用ツール: ITC-LMS, Zoom, YouTube</li>
+        </ul>
+    </li> 
     <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom"]' data-keyword='["group-work"]'>
         <a href="./interview/higuchi">樋口亮介 先生の授業: 刑法第2部（法学部 約300名）</a><br>
         <ul>
