@@ -15,7 +15,6 @@ title: グッドプラクティスの共有
 
 </style>
 
-
 <script type="text/javascript">
 
 var searchBox = '.search-box'; // 絞り込む項目を選択するエリア
@@ -106,10 +105,11 @@ function array_match_check(arr1, arr2) {
 ## はじめに
 * このページは，本学で行われたオンライン授業のグッドプラクティスを共有するためのページです．  
 * オンライン授業に関する学生アンケートに設置されていた「やり方の良かった授業」の自由記述欄において，多くのポジティブなコメントが寄せられていた先生方へのインタビュー記事が掲載されています．
-* 2020年9月21日現在，14名の先生方にインタビューをし終わった状況で，記事を順次公開予定です．
+* 今後も記事を順次作成および公開していく予定です．
 * これらの情報がみなさまの実践の参考になれば幸いです．
 
 ## お知らせ
+- 2020年11月4日 新しい記事1件を公開しました．
 - 2020年10月21日 新しい記事1件を公開しました．
 - 2020年10月8日 新しい記事3件を公開しました．
 - 2020年10月5日 新しい記事1件を公開しました．
@@ -163,13 +163,13 @@ function array_match_check(arr1, arr2) {
   
 <ul class="list">  
 <br>
-    <li class="list_item" data-format='["ondemand"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "slack","youtube"]' data-keyword='[]'>
-        <a href="./interview/saito">齊藤宣一 先生の授業: 　計算数理I・計算数理（理学部数学科・教養学部 約70名）</a><br>
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "zoom"]' data-keyword='["group-work"]'>
+        <a href="./interview/higuchi">樋口亮介 先生の授業: 刑法第2部（法学部 約300名）</a><br>
         <ul>
-            <li>ポイント: オンデマンド　Slackでの質問対応　iPadを用いた板書</li>
-            <li>利用ツール: ITC-LMS, Slack, YouTube, Google Drive, Zoom, iPad Pro, GoodNote5, Apple Pencil 2 </li>
+            <li>ポイント: 授業設計の工夫　大人数講義でのインタラクションの工夫(議論・チャット・投票)　録画による学習支援</li>
+            <li>利用ツール: ITC-LMS, Zoom</li>
         </ul>
-    </li>  
+    </li>   
     <li class="list_item" data-format='["realtime_online"]' data-number='mt30-lt100' data-tool='["itc-lms", "zoom", "line"]' data-keyword='[]'>
         <a href="./interview/hirose">廣瀬敬 先生の授業: 固体地球科学（理学部・理学系研究科 約70名）</a><br>
         <ul>
