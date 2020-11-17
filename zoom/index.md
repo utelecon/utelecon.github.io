@@ -64,8 +64,8 @@ title: Zoom
 
 ## 大学アカウントのルールとライセンス
 
-* 必ず <font color="purple">10桁@g.ecc.u-tokyo.ac.jp</font> の形式のメールアドレスで<a href="create_account" target="">アカウントを作成</a>してください. それ以外の形式は<a href="https://utelecon.github.io/notice/webmeetingaccount20200916">いずれ無効</a>にして行きます
-* 作成すると300人までのZoomミーティングが開催可能(詳細は<a href="https://utelecon.github.io/notice/webmeetingaccount20200916">「今後のウェブ会議システムの提供について」</a>を参照)
+* 必ず <font color="purple">10桁@g.ecc.u-tokyo.ac.jp</font> の形式のメールアドレスで<a href="create_account" target="">アカウントを作成</a>してください. それ以外の形式は **いずれ無効** にして行きます(アカウント形式変更の手順は<a href="https://utelecon.github.io/notice/zoom-address">「Zoom のサインインメールアドレスの変更について」</a>を参照)
+* 作成すると300人までのZoomミーティングが開催可能(詳細は<a href="https://utelecon.github.io/notice/webmeetingaccount20201120">「今後のウェブ会議システムの提供について（2020/11/20以降）」</a>を参照)
 * <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUtWOE9PNkVXN1QzOVcxSFlJMFozTzRZQy4u" target="_blank" rel="noopener">それ以上(ウェビナーや, 301人以上のミーティング)を開きたい場合</a>は申し込んでください
 
 ## 授業での使い方
