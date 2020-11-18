@@ -19,7 +19,7 @@ title: オンライン授業情報交換会
 
 【日時】2020年11月18日（水）　12:10-12:50 <br>
 【トピック】 グッドプラクティス事例(2) 学生の声を活かした授業設計の工夫 <br>
-【資料】[グッドプラクティス紹介 入江薫先生の授業  数理統計I，II](https://utelecon.github.io/good-practice/interview/irie)
+【資料】[グッドプラクティス紹介 入江薫先生の授業  数理統計I，II](https://utelecon.github.io/good-practice/interview/irie)  <br>
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生  <br>
 【概要】Sセメスターで優れた工夫・取り組みのあったオンライン授業(グッドプラクティス)紹介の2回目です．Sセメスターで実施した学生アンケートから選出されたグッドプラクティスについて，実際に授業を行った先生方にご登場頂き，情報共有をいただきます．  <br>
 今回は，150~200名の学生が履修する経済学部の授業「数理統計I」と「数理統計II」にて行われた，学生の声を活かした授業設計の工夫を，経済学研究科の入江薫先生にご共有頂きます．オンラインでの板書や録画配信の取り組みなどについてもお話頂く予定です．先生の取り組みについての記事は，[こちら](https://utelecon.github.io/good-practice/interview/irie)にございます．  <br>
@@ -28,7 +28,7 @@ title: オンライン授業情報交換会
 
 【日時】2020年11月10日（火）　12:10-12:50 <br>
 【トピック】 グッドプラクティス事例(1) 大人数のオンライン授業におけるインタラクションの工夫 <br>
-【資料】[グッドプラクティス紹介 四本裕子 先生の授業 心理I](https://utelecon.github.io/good-practice/interview/yotsumoto)
+【資料】[グッドプラクティス紹介 四本裕子 先生の授業 心理I](https://utelecon.github.io/good-practice/interview/yotsumoto)  <br>
 【動画】[mp4ファイル](https://drive.google.com/file/d/1iILYgUZ2awlT_nBjlIPYnL032L86pe_g/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）  
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生  <br>
 【概要】今回より，Sセメスターに実施した学生アンケートから選出されたオンライン授業のグッドプラクティスについて，実際に授業を行った先生方にご登場頂き，情報共有をいただきます．グッドプラクティスの内容は，本学のオンライン授業に関する情報ポータル「オンライン授業・Web会議 ポータルサイト @ 東京大学 (utelecon)」にて，紹介しております（リンクは[こちら](https://utelecon.github.io/good-practice/)です）． <br>
