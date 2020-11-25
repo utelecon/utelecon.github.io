@@ -17,7 +17,6 @@ title: Webex ミーティングでできること（開催者）
 
 * 「ブレイクアウトセッション」ボタンを押すと，ブレイクアウトセッションの割り当てウィンドウが表示されます．
 	* 「自動」を選択すると，参加者はランダムに割り当てられます．
-	* 参加者を事前に割り振る機能は，今後実装されるらしいです．
 
 	![](img/webex_breakout_new.png){:width="400px"}
 
@@ -29,6 +28,12 @@ title: Webex ミーティングでできること（開催者）
 	![](img/webex_breakout_manage.png){:width="650px"}
 	![](img/webex_breakout_setting.png){:width="350px"}
 	![](img/webex_breakout_reset.png){:width="350px"}
+
+* ミーティングの作成時に「ブレイクアウトセッションの事前割当て」をクリックすると，招待した参加者を各ブレイクアウトセッションに割り当てることができます．CSVで割り当てを読み込むこともできます．
+
+	![](img/webex_breakout_preassign1.png){:width="500px"}
+	![](img/webex_breakout_preassign2.png){:width="350px"}
+	![](img/webex_breakout_preassign3.png){:width="750px"}
 
 * 「ブレイクアウトセッションを開始」を押すと開始します．
 	* 参加者の一覧がメインミーティングとブレイクアウトセッションに分かれます．ブレイクアウトセッションには各セッションごとに参加者が一覧表示されます．
