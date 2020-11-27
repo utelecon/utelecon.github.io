@@ -173,7 +173,7 @@ function array_match_check(arr1, arr2) {
             <li>ポイント: 授業資料を Scrapbox で公開 海外の方も含めた学外ゲストの登壇</li>
             <li>利用ツール: ITC-LMS, Scrapbox, Zoom, Mixlr, TwitCasting, YouTube, GoodNotes 5, Google Forms, Slack</li>
         </ul>
-    </li>
+    </li> 
     <li class="list_item" data-format='["ondemand"]' data-number='mt30-lt100' data-tool='["itc-lms", "slack", "youtube", "zoom", "ipad-pro", "goodnotes"]' data-keyword='[]'>
         <a href="./interview/saito">齊藤宣一 先生の授業: 計算数理I・計算数理（理学部数学科・教養学部(後期課程) 約70名）</a><br>
         <ul>
