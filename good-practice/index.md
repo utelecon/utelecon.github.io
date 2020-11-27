@@ -109,6 +109,7 @@ function array_match_check(arr1, arr2) {
 * これらの情報がみなさまの実践の参考になれば幸いです．
 
 ## お知らせ
+- 2020年11月27日 新しい記事1件を公開しました．
 - 2020年11月12日 新しい記事3件を公開しました．
 - 2020年11月4日 新しい記事1件を公開しました．
 - 2020年10月21日 新しい記事1件を公開しました．
@@ -152,6 +153,7 @@ function array_match_check(arr1, arr2) {
         　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　
         <input type="checkbox" name="tool" value="a-illustrator">Adobe Illustrator　<br>
         　　　<input type="checkbox" name="tool" value="onenote">Microsoft OneNote　<br>
+        　　　<input type="checkbox" name="tool" value="goodnotes">Good Notes　<br>
         　　　<input type="checkbox" name="tool" value="comment-screen">Comment Screen　<br>
     </div>
     <div class="search-box">
@@ -165,6 +167,13 @@ function array_match_check(arr1, arr2) {
   
 <ul class="list">  
 <br>
+    <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "scrapbox", "zoom", "mixlr", "twitcasting", "youtube", "goodnotes", "google-forms", "slack"]' data-keyword='[]'>
+        <a href="./interview/saito">⽩⽯忠志 先生の授業: 法I（教養学部 前期課程 約400名）</a><br>
+        <ul>
+            <li>ポイント: 授業資料を Scrapbox で公開 海外の方も含めた学外ゲストの登壇</li>
+            <li>利用ツール: ITC-LMS, Scrapbox, Zoom, Mixlr, TwitCasting, YouTube, GoodNotes 5, Google Forms, Slack</li>
+        </ul>
+    </li>
     <li class="list_item" data-format='["ondemand"]' data-number='mt30-lt100' data-tool='["itc-lms", "slack", "youtube", "zoom", "ipad-pro", "goodnotes"]' data-keyword='[]'>
         <a href="./interview/saito">齊藤宣一 先生の授業: 計算数理I・計算数理（理学部数学科・教養学部(後期課程) 約70名）</a><br>
         <ul>
