@@ -152,8 +152,8 @@ function array_match_check(arr1, arr2) {
         <input type="checkbox" name="tool" value="youtube">YouTube　<br>
         　　　<input type="checkbox" name="tool" value="adobe-captivate">Adobe Captivate　
         <input type="checkbox" name="tool" value="a-illustrator">Adobe Illustrator　<br>
-        　　　<input type="checkbox" name="tool" value="onenote">Microsoft OneNote　<br>
-        　　　<input type="checkbox" name="tool" value="goodnotes">Good Notes　<br>
+        　　　<input type="checkbox" name="tool" value="onenote">Microsoft OneNote　
+        <input type="checkbox" name="tool" value="goodnotes">Good Notes　<br>
         　　　<input type="checkbox" name="tool" value="comment-screen">Comment Screen　<br>
     </div>
     <div class="search-box">
