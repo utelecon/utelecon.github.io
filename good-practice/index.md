@@ -168,7 +168,7 @@ function array_match_check(arr1, arr2) {
 <ul class="list">  
 <br>
     <li class="list_item" data-format='["realtime_online"]' data-number='mt100' data-tool='["itc-lms", "scrapbox", "zoom", "mixlr", "twitcasting", "youtube", "goodnotes", "google-forms", "slack"]' data-keyword='[]'>
-        <a href="./interview/saito">⽩⽯忠志 先生の授業: 法I（教養学部 前期課程 約400名）</a><br>
+        <a href="./interview/shiraishi">⽩⽯忠志 先生の授業: 法I（教養学部 前期課程 約400名）</a><br>
         <ul>
             <li>ポイント: 授業資料を Scrapbox で公開 海外の方も含めた学外ゲストの登壇</li>
             <li>利用ツール: ITC-LMS, Scrapbox, Zoom, Mixlr, TwitCasting, YouTube, GoodNotes 5, Google Forms, Slack</li>
