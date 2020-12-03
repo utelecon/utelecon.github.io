@@ -20,6 +20,7 @@ title: オンライン授業情報交換会
 【日時】2020年11月30日（月）　12:10-12:50 <br>
 【トピック】 オンライン授業に役立つ東京大学のデジタル化資料の探し方 <br>
 【スライド】　[pdfファイル](luncheon_22_slides.pdf) <br>
+【動画】[mp4ファイル](https://drive.google.com/file/u/3/d/159MbiJZyT7OnlFPop9KmIH1wqNwEBser/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）  
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生  <br>
 【概要】今回は，オンライン授業に役立つ東京大学のデジタル化資料の探し方がテーマです．授業の教材や課題を作成する際，画像やテキストなどの素材を探すのに困ったことはありませんでしょうか．<br>
 学内には，附属図書館が提供し幅広い分野の紙資料・標本・画像・動画を検索できる[「東京大学学術資産等アーカイブズポータル」](https://da.dl.itc.u-tokyo.ac.jp/portal/)など，オンライン授業の作成に役立つ仕組みがあります．今回は，学内で提供しているデジタル化資料の種類とその探し方について，アーカイブズポータルの構築時からシステム制作に携わっていらっしゃった東京大学史料編纂所の中村覚先生より情報を共有頂きます． <br>
@@ -29,6 +30,7 @@ title: オンライン授業情報交換会
 【日時】2020年11月27日（金）　12:10-12:50 <br>
 【トピック】 グッドプラクティス事例(3) ライブ授業でのインタラクションを活発化する工夫 <br>
 【資料】[グッドプラクティス紹介 杉田直彦先生の授業  生産システム](https://utelecon.github.io/good-practice/interview/sugita) <br>
+【動画】[mp4ファイル](https://drive.google.com/file/d/157JvoRDEISYKF_OpmoxBTD6pvSFXgfvG/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）  
 【対象】本学の授業を担当する教員や授業支援をする方々及び学生 <br>
 【概要】Sセメスターで優れた工夫・取り組みのあったオンライン授業(グッドプラクティス)紹介の3回目です．Sセメスターに実施した学生アンケートから選出されたグッドプラクティスについて，実際に授業を行った先生方にご登場頂き，情報共有をいただきます． <br>
 今回は，100名の学生が履修する工学部の授業「生産システム」にて行われた，オンラインでのライブ授業でのインタラクションを活発化する工夫を，工学系研究科の杉田直彦先生にご共有頂きます．先生が使用されたツールComment Screenの紹介に加え，オンラインでの数値解析演習などについてもお話いただく予定です．先生の取り組みについての記事は，[こちら](https://utelecon.github.io/good-practice/interview/sugita) にございます． <br>
