@@ -1,3 +1,3 @@
 ---
-redirect_to: " https://utelecon.github.io/zoom/#create_account"
+redirect_to: "https://utelecon.github.io/zoom/#create_account"
 ---
