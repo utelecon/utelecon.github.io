@@ -70,10 +70,11 @@ We have decided to extend the loan period to "until the end of 2021.
 - Those who continue to need the router for online classes or research (including those who plan to take a leave of absence) may continue to use the router. If you want to continue using the router, you still need to fill out the form. 
 - Please select "Return" if you will be graduating in the AY 2020, or you will no longer be registered at the university, or you are ready to use the Internet environment. If you have any special circumstances, please enter them in the "Remarks" section of the form or contact us at the address below. 
 
-## (Appendix） 
+## (Reference） 
 
 - [Continuing the network environment support for education and research  utelecon.github.io](https://utelecon.github.io/mobile/mobile3)
-- [About classes for the next year for students　理事・副学長メッセージ  東京大学 (u-tokyo.ac.jp) ](https://www.u-tokyo.ac.jp/ja/general/COVID-19-message-20201125.html)
+- [Regarding classes to be held in the upcoming academic year:
+Message from the Executive Vice President in charge of Education and Student Affairs](https://www.u-tokyo.ac.jp/en/general/COVID-19-message-20201125.html)
  
 ## Contacts
 
