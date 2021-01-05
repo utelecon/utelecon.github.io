@@ -38,8 +38,8 @@ If you have already returned the router, please let us know.
 
 ## （参考） 
 
--[教育・研究活動のためのネットワーク環境支援 継続 / Continuing the network environment support for education and research | utelecon.github.io](https://utelecon.github.io/mobile/mobile3)
--[来年度の授業について 学生の皆さんへ　理事・副学長メッセージ | 東京大学 (u-tokyo.ac.jp) ](https://www.u-tokyo.ac.jp/ja/general/COVID-19-message-20201125.html)
+-[教育・研究活動のためのネットワーク環境支援 継続 / Continuing the network environment support for education and research  utelecon.github.io](https://utelecon.github.io/mobile/mobile3)
+-[来年度の授業について 学生の皆さんへ　理事・副学長メッセージ  東京大学 (u-tokyo.ac.jp) ](https://www.u-tokyo.ac.jp/ja/general/COVID-19-message-20201125.html)
  
 ## 問い合わせ先 
 
