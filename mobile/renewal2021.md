@@ -11,10 +11,9 @@ If you have already returned the router, please let us know.
 
 ------------------------ 
 
-教育・研究活動のためのネットワーク環境支援対象者　各位 / To students,faculties and staffs requiring network environment support for education and research activities
+教育・研究活動のためのネットワーク環境支援対象者　各位 /
 
-教育・情報システム担当理事
- 
+ To students,faculties and staffs requiring network environment support for education and research activities
 
 # 2021年4月以降のモバイルWiFiルーター利用の意向調査の実施について  
 
@@ -25,6 +24,7 @@ If you have already returned the router, please let us know.
 [＜意向調査回答フォーム (English version available) ＞](https://tinyurl.com/y76zv37g)
 
 **※回答〆切：1月24日（日）**
+
 ※Microsoftのサインイン画面では、 共通ID(10桁の数字)@utac.u-tokyo.ac.jp を入力してください。 
 
 
