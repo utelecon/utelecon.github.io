@@ -3,11 +3,10 @@ title: 2021年4月以降のモバイルWiFiルーター利用の意向調査の�
  / Survey on intentions to continue using mobile WiFi routers in AY 2021
 ---
 
-※このおしらせは大学からモバイルWiFiルーターを貸し出している方にお送りしています。 
-すでに返却した方に届いている場合は、恐れ入りますがその旨をご返信ください。 
+※このおしらせは大学からモバイルWiFiルーターを貸し出している方にお送りしました。 
 
-This notice is being sent to those who have borrowed a mobile WiFi router from the university. 
-If you have already returned the router, please let us know. 
+This notice is being sent to those who have provided a mobile WiFi router from the university. 
+
 
 ------------------------ 
 
