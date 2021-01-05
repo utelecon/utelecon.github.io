@@ -21,7 +21,7 @@ If you have already returned the router, please let us know.
 　そこで、現在貸し出し中のルーターについて、「返却」か「継続利用」かを調査します。下記＜意向調査回答フォーム＞から、2021年4月以降のご自身の予定（在学、卒業など）とルーター継続利用希望の有無を回答してください。回答時点で分かっている範囲で構いません。〆切以降もこの回答フォームは開けておきますので、回答後に状況が変わった場合には、再度ご回答ください。 
 
 
-[＜意向調査回答フォーム (English version available) ＞](https://tinyurl.com/y76zv37g)
+** [＜意向調査回答フォーム (English version available) ＞](https://tinyurl.com/y76zv37g) **
 
 **※回答〆切：1月24日（日）**
 
@@ -58,7 +58,7 @@ At that time, we announced that the router would be provided until the end of th
 We have decided to extend the loan period to "until the end of 2021. 
 　Therefore, we would like to ask you whether you would like to "return" or "continue using" the routers that are currently on provided. Please fill out the "Survey Response Form" below. Please show your plans (school, graduation, etc.) after April 2021 and whether or not you wish to continue using the router. You can answer as much as you know at the time of answering. We will keep this form open after the deadline, so if your situation changes after answering, please answer again. 
 
-[＜Survey Response Form(English version available) ＞](https://tinyurl.com/y76zv37g)
+** [＜Survey Response Form(English version available) ＞](https://tinyurl.com/y76zv37g) **
 
 **※Deadline：1/24(Sunday)**
 
