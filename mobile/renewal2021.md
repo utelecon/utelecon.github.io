@@ -32,8 +32,8 @@ This notice is being sent to those who have provided a mobile WiFi router from t
 - 一人一回、必ず回答してください。〆切までに回答がなかった場合は、継続利用の希望がなかったものとして対応させていただきます。あらかじめご了承ください。 
 - 引き続きオンライン授業や研究のためにルーターが必要な方（休学予定者含む）は継続利用が可能です。継続利用の場合でも、フォームからの回答が必要です。 
 - 2020年度で卒業する方、本学に籍がなくなる方、ネット環境が整った方は、「返却」を選択してください。特別な事情がある場合は、フォーム内「備考欄」に入力するか、下記問い合わせ先までご連絡ください。 
+- 〆切(1月24日)までに継続利用希望の回答をいただいた方には、2月10日頃に利用許可をメールでご連絡いたします。
 
- 
 
 ## （参考） 
 
@@ -69,6 +69,7 @@ Therefore, we would like to ask you whether you would like to "return" or "conti
 - Please be sure to answer the question once per person. If you do not respond by the deadline, we will assume that  **you do not wish to continue using the router.** 
 - Those who continue to need the router for online classes or research (including those who plan to take a leave of absence) may continue to use the router. If you want to continue using the router, you still need to fill out the form. 
 - Please select "Return" if you will be graduating in the AY 2020, or you will no longer be registered at the university, or you are ready to use the Internet environment. If you have any special circumstances, please enter them in the "Remarks" section of the form or contact us at the address below. 
+- If you answer the Form till 1/24, we'll send the permission to use by e-mail around 2/10.
 
 ## (Reference） 
 
