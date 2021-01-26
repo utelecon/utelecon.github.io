@@ -12,6 +12,7 @@ About this Site
 
 What's New (<span style="color:blue;">blue letters</span> highlight the date of publication. Recent entries come above)
 ---------------------------
+* <span style="color:blue;">2021/1/26:</span> <a href="notice/20210126-domain-change">The domain of this site will be changed from 17:30 to 22:00 on January 26, 2021. If you are unable to connect to the site, please try to access it after a while. Even after the domain change, existing links (i.e. https://utelecon.github.io/en/ ) and bookmarks will continue to work via the old URL. </a>
 * <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoom FAQs on setting issues</a>
 * <span style="color:blue;">2020/4/1:</span> <font color="red">The following emergency system maintenance of ITC-LMS has been completed. Thank you for your cooperation. (11:44 am)</font>
 * <span style="color:blue;">2020/4/1:</span> prepare for online class in 2020, ITC-LMS emergency system maintenance will be held today from 9:00 to 11:00 (planned). During this time, the ITC-LMS service will be suspended. We apologize for any inconvenience, but thank you for your understanding and cooperation.
