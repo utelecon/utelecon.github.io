@@ -4,22 +4,22 @@ title: オンライン授業・Web会議 ポータルサイト<br>@ 東京大学
 
 What's New (<span style="color:blue;">青字</span>は掲載日. 最近のものが上)
 ---------------------------
-<span style="color:blue;">2021/01/26:</span>「オンライン授業・Web会議ポータルサイト (utelecon)」のURLの変更作業中です．一時的にアクセスできない・しにくくなる場合がありますが，しばらくたってからアクセス頂けますと幸いです．変更作業後も，これまでのリンク・ブックマークは引き続き機能する予定です．[詳細はこちら](/notice/20210126-domain-change)
+* <span style="color:blue;">2021/01/26:</span>「オンライン授業・Web会議ポータルサイト (utelecon)」のURLが変わりました．既存のリンクやブックマーク等は引き続き利用できます．[詳細はこちら](/notice/20210126-domain-change)
 * <span style="color:blue;">2021/01/22:</span> (教員用) 1/28 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(8) オンデマンドとライブ形式を組み合わせた授業設計の工夫)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2021/01/19:</span> (教員用) 1/20 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(7) オンデマンド教材の制作の取り組み)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2021/01/13:</span> (教員用) 1/15 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(6) 大人数のオンライン授業の実施とテストの工夫)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/12/18:</span> (教員用)12/23 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(5) 多様なツールを用いて授業を活発化・円滑化する工夫)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/12/14:</span> (教員用)12/15 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(4) TAを活かした質問の場づくり)](events/2020-luncheon/)を実施いたします．
-* <span style="color:blue;">2020/12/7:</span> (教員用)12/11 12:10から[オンライン授業情報交換会(トピック：東大生協からのオンライン授業に役立つ機材紹介)](events/2020-luncheon/)を実施いたします．
+* <span style="color:blue;">2020/12/07:</span> (教員用)12/11 12:10から[オンライン授業情報交換会(トピック：東大生協からのオンライン授業に役立つ機材紹介)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/11/27:</span> (教員用)11/30 12:10から[オンライン授業情報交換会(トピック：オンライン授業に役立つ東京大学のデジタル化資料の探し方)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/11/24:</span> (教員用)11/27 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(3) ライブ授業でのインタラクションを活発化する工夫)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/11/16:</span> (教員用)11/18 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(2) 学生の声を活かした授業設計の工夫)](events/2020-luncheon/)を実施いたします．
-* <span style="color:blue;">2020/11/6:</span> (教員用)11/10 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(1) 大人数のオンライン授業におけるインタラクションの工夫)](events/2020-luncheon/)を実施いたします．
-* <span style="color:blue;">2020/11/2:</span> (教員用)11/6 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(3) 遠隔と対面の学生の対話を促す授業の実践例)](events/2020-luncheon/)を実施いたします．
+* <span style="color:blue;">2020/11/06:</span> (教員用)11/10 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(1) 大人数のオンライン授業におけるインタラクションの工夫)](events/2020-luncheon/)を実施いたします．
+* <span style="color:blue;">2020/11/02:</span> (教員用)11/6 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(3) 遠隔と対面の学生の対話を促す授業の実践例)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/10/23:</span> [Zoomライセンス切り替え(11/20)・今後のウェブ会議システムの提供について(更新)](notice/webmeetingaccount20201120)
 * <span style="color:blue;">2020/10/23:</span> (教員用)10/29 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(2) 大人数授業における実践例)](events/2020-luncheon/)を実施いたします．
 * <span style="color:blue;">2020/10/16:</span> (教員用)10/20 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(1) 概念の整理とゼミにおける実践例)](events/2020-luncheon/)を実施いたします．
-* <span style="color:blue;">2020/9/25:</span> On Zoom sign up page, if you see <font color="purple">"We regret to inform you that Zoom has suspended all new FREE user registration in China. From May 20th onwards, all free users in China can only join meetings. If you need to host a meeting, please contact sales in China to purchase licenses,"</font> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUQU8xUVJSUkxSWU85NkQ3RjQ0UkNFWE9SSC4u" target="_blank" rel="noopener">send a request</a> to us.  The form requires you to sign in to Microsoft with UTokyo Account.  <a href="https://utelecon.github.io/oc/index_2020_a#microsoft_365" target="_blank" rel="noopener">If you don't know how to do it.</a>
+* <span style="color:blue;">2020/09/25:</span> On Zoom sign up page, if you see <font color="purple">"We regret to inform you that Zoom has suspended all new FREE user registration in China. From May 20th onwards, all free users in China can only join meetings. If you need to host a meeting, please contact sales in China to purchase licenses,"</font> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUQU8xUVJSUkxSWU85NkQ3RjQ0UkNFWE9SSC4u" target="_blank" rel="noopener">send a request</a> to us.  The form requires you to sign in to Microsoft with UTokyo Account.  <a href="https://utelecon.github.io/oc/index_2020_a#microsoft_365" target="_blank" rel="noopener">If you don't know how to do it.</a>
 * <span style="color:blue;">2020/9/25:</span> 授業で学生にZoomの操作を説明したい(そのためのスライドが欲しい)という人のための, 説明スライド(<a href="zoom/files/Zoom-how.pptx">pptx</a>, <a href="zoom/files/Zoom-how.pdf">pdf</a>)を公開しました. また, [3/19の説明会資料](events/2020-03-19)もご覧ください
 * <span style="color:blue;">2020/9/25:</span> [オンライン授業のグッドプラクティス](good-practice/)を順次公開しています
 * <span style="color:blue;">2020/9/21:</span> (学生・教員用) Aセメスターの授業をする教員・受ける学生は [授業URLの通知の仕方 - 2020 Aセメスター版](faculty_members/url_2020_a) をご覧ください
