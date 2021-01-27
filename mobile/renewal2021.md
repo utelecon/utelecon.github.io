@@ -23,7 +23,7 @@ This notice is being sent to those who have provided a mobile WiFi router from t
 
 **[＜意向調査回答フォーム＞](https://tinyurl.com/y76zv37g)**
 
-**※回答〆切：1月24日（日）**
+**※回答〆切：~~1月24日（日）~~ 2月5日(金)に延長しました**
 
 ※Microsoftのサインイン画面では、 共通ID(10桁の数字)@utac.u-tokyo.ac.jp を入力してください。 
 
