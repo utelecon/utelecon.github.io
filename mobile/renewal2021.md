@@ -59,7 +59,7 @@ Therefore, we would like to ask you whether you would like to "return" or "conti
 
 **[＜Survey Response Form＞](https://tinyurl.com/y76zv37g)**
 
-**※Deadline：1/24(Sunday)**
+**※Deadline：2/4(Friday)**
 
 ※Please type "commonID(10digit)@utac.u-tokyo.ac.jp" on Microsoft Sing-in Page
 
@@ -68,7 +68,7 @@ Therefore, we would like to ask you whether you would like to "return" or "conti
 - Please be sure to answer the question once per person. If you do not respond by the deadline, we will assume that  **you do not wish to continue using the router.** 
 - Those who continue to need the router for online classes or research (including those who plan to take a leave of absence) may continue to use the router. If you want to continue using the router, you still need to fill out the form. 
 - Please select "Return" if you will be graduating in the AY 2020, or you will no longer be registered at the university, or you are ready to use the Internet environment. If you have any special circumstances, please enter them in the "Remarks" section of the form or contact us at the address below. 
-- If you answer the Form till 1/24, we'll send the permission to use by e-mail around 2/10.
+- If you answer the Form till 2/4, we'll send the permission to use by e-mail around 2/10.
 
 ## (Reference） 
 
