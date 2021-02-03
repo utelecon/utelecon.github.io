@@ -55,7 +55,7 @@ title: オンライン授業・Web会議に関するトラブルサポート窓�
 
 * Zoomを用いたサポートについて   
   * **2/3 12:20-16:45** に開室します．以下の内容を確認した上で，下のリンク先に掲載している会議室情報でアクセスしてください．   
-    * [会議室情報（Googleドキュメント）](https://docs.google.com/document/d/1hN0VpQj3engH5lAZUJ_gIsNTnJBkrUkUXgoV_T03Iec/edit?usp=sharing)   
+    * [会議室情報（ECCSクラウドメールでのログインが必要です）](https://docs.google.com/document/d/1hN0VpQj3engH5lAZUJ_gIsNTnJBkrUkUXgoV_T03Iec/edit?usp=sharing)   
   * 学生スタッフ（コモンサポーター）がオペレータとして対応し，音声・チャット・画面共有を利用して質問・相談を受け付けます．   
   * Zoomの会議室にアクセスすると，まずは待機室に送られます．その後，順次一人ずつ案内致しますが，混雑状況によっては，案内までに少々お時間を頂く場合もございます．その場合はチャットサービスやメールへお問い合わせいただくか，時間を開けて再度お問い合わせください．   
 * 注意事項   
