@@ -275,7 +275,7 @@ LMS</text>
      d="m 735.16657,4.999665 c 0,-2.117 1.716,-3.833 3.833,-3.833 h 89.334 c 2.117,0 3.833,1.716 3.833,3.833 v 15.334 c 0,2.117 -1.716,3.833 -3.833,3.833 h -89.334 c -2.117,0 -3.833,-1.716 -3.833,-3.833 z" />
   <a
      id="a4872"
-     xlink:href="https://utelecon.github.io/webex/create_utelecon_account"
+     xlink:href="/webex/create_utelecon_account"
      target="_blank"
      transform="translate(-0.83343416,-1.833335)">
     <text
@@ -501,7 +501,7 @@ LMS</text>
      d="m 528.16657,6.999665 c 0,-2.117 1.716,-3.833 3.833,-3.833 h 89.334 c 2.117,0 3.833,1.716 3.833,3.833 v 15.334 c 0,2.117 -1.716,3.833 -3.833,3.833 h -89.334 c -2.117,0 -3.833,-1.716 -3.833,-3.833 z" />
   <a
      id="a4866"
-     xlink:href="https://utelecon.github.io/zoom/create_account"
+     xlink:href="/zoom/create_account"
      target="_blank"
      xlink:type=""
      xlink:role=""

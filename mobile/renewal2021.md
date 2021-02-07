@@ -36,7 +36,7 @@ This notice is being sent to those who have provided a mobile WiFi router from t
 
 ## （参考） 
 
-- [教育・研究活動のためのネットワーク環境支援 継続 / Continuing the network environment support for education and research  utelecon.github.io](https://utelecon.github.io/mobile/mobile3)
+- [教育・研究活動のためのネットワーク環境支援 継続 / Continuing the network environment support for education and research  utelecon.github.io](/mobile/mobile3)
 - [来年度の授業について 学生の皆さんへ　理事・副学長メッセージ  東京大学 (u-tokyo.ac.jp) ](https://www.u-tokyo.ac.jp/ja/general/COVID-19-message-20201125.html)
  
 ## 問い合わせ先 
@@ -72,7 +72,7 @@ Therefore, we would like to ask you whether you would like to "return" or "conti
 
 ## (Reference） 
 
-- [Continuing the network environment support for education and research  utelecon.github.io](https://utelecon.github.io/mobile/mobile3)
+- [Continuing the network environment support for education and research  utelecon.github.io](/mobile/mobile3)
 - [Regarding classes to be held in the upcoming academic year:
 Message from the Executive Vice President in charge of Education and Student Affairs](https://www.u-tokyo.ac.jp/en/general/COVID-19-message-20201125.html)
  
