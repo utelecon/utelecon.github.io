@@ -55,6 +55,7 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
   * [（教員向け）学習管理システム ITC-LMS の使い方](lms_lecturers)
 * [授業URLの通知の仕方 〜 授業で教員と学生が混乱なく出会うための共通ルール](faculty_members/url_2020_a)
 * [FAQ: よくある質問](faq)
+* [2021年春のシステム変更](change2021s)
 
 
 利用できるWeb会議システム
