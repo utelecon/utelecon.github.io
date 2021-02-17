@@ -1,3 +1,7 @@
 ---
-redirect_to: "https://utelecon.github.io/faculty_members/index_2020_a"
+title: 東京大学でオンライン授業を始めるために
 ---
+
+2021年度Sセメスター版の教員向けページ「東京大学でオンライン授業を始めるために」を準備中です．「**[教員のための、授業を行うにあたって (2020 Aセメスター版)](/faculty_members/index_2020_a)**」をご覧ください．
+
+（なお，以前この場所で公開していた2020年度Sセメスター版（古い内容です）は[こちらに移動しました](/faculty_members/index_2020_s)）
