@@ -52,7 +52,7 @@ title: Zoom
 * <a href="https://youtu.be/ZdZH9_isFjA" target="_blank" rel="noopener">動画</a>もご覧ください
 
 * <a href="https://zoom.us/signup" target="_blank" rel="noopener">Zoom のサインアップ（アカウント作成）ページ</a>に行く
-  * <span style="color:blue;">2020/9/25:</span> On Zoom sign up page, if you see <font color="purple">"We regret to inform you that Zoom has suspended all new FREE user registration in China. From May 20th onwards, all free users in China can only join meetings. If you need to host a meeting, please contact sales in China to purchase licenses,"</font> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUQU8xUVJSUkxSWU85NkQ3RjQ0UkNFWE9SSC4u" target="_blank" rel="noopener">send a request</a> to us.  The form requires you to sign in to Microsoft with UTokyo Account.  <a href="https://utelecon.github.io/oc/index_2020_a#microsoft_365" target="_blank" rel="noopener">If you don't know how to do it.</a>
+  * <span style="color:blue;">2020/9/25:</span> On Zoom sign up page, if you see <font color="purple">"We regret to inform you that Zoom has suspended all new FREE user registration in China. From May 20th onwards, all free users in China can only join meetings. If you need to host a meeting, please contact sales in China to purchase licenses,"</font> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUQU8xUVJSUkxSWU85NkQ3RjQ0UkNFWE9SSC4u" target="_blank" rel="noopener">send a request</a> to us.  The form requires you to sign in to Microsoft with UTokyo Account.  <a href="/oc/index_2020_a#microsoft_365" target="_blank" rel="noopener">If you don't know how to do it.</a>
   * なお上記をクリックするとユーザプロファイル画面が現れる場合, すでに(おそらく別のアカウントで)Zoomにサインインしています. 画面右上のアイコンをクリックして一旦「サインアウト」し, サインアップボタンを押してください
 * 誕生日を入力後，メールアドレス入力欄に <font color="purple"><b>共通ID10桁@g.ecc.u-tokyo.ac.jp</b></font>（ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp では<font color="red">ありません</font>）を入力して，「サインアップ」を押す
 * Zoomからの招待メールが<a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">ECCSクラウドメール</a>に届くので, 指示に従います. メールが届くアドレスは<font color="purple">ご自身で設定した文字列@g.ecc.u-tokyo.ac.jp</font>です (共通ID10桁@g.ecc.u-tokyo.ac.jp では<font color="red">ありません.</font> わかりにくくすみません).
@@ -64,16 +64,16 @@ title: Zoom
 
 ## 大学アカウントのルールとライセンス
 
-* 必ず <font color="purple">10桁@g.ecc.u-tokyo.ac.jp</font> の形式のメールアドレスで<a href="create_account" target="">アカウントを作成</a>してください. それ以外の形式は **いずれ無効** にして行きます(アカウント形式変更の手順は<a href="https://utelecon.github.io/notice/zoom-address">「Zoom のサインインメールアドレスの変更について」</a>を参照)
-* 作成すると300人までのZoomミーティングが開催可能(詳細は<a href="https://utelecon.github.io/notice/webmeetingaccount20201120">「今後のウェブ会議システムの提供について（2020/11/20以降）」</a>を参照)
+* 必ず <font color="purple">10桁@g.ecc.u-tokyo.ac.jp</font> の形式のメールアドレスで<a href="create_account" target="">アカウントを作成</a>してください. それ以外の形式は **いずれ無効** にして行きます(アカウント形式変更の手順は<a href="/notice/zoom-address">「Zoom のサインインメールアドレスの変更について」</a>を参照)
+* 作成すると300人までのZoomミーティングが開催可能(詳細は<a href="/notice/webmeetingaccount20201120">「今後のウェブ会議システムの提供について（2020/11/20以降）」</a>を参照)
 * <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUtWOE9PNkVXN1QzOVcxSFlJMFozTzRZQy4u" target="_blank" rel="noopener">それ以上(ウェビナーや, 301人以上のミーティング)を開きたい場合</a>は申し込んでください
 
 ## 授業での使い方
 [会議室のスケジュールの方法](how_to_use_in_classroom_faculty_members#schedule)で, 授業向きに同じURLで何度も会議を開催する方法を説明しています.
-それ以外の授業における使い方について，[オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)に動画（限定公開）もご覧ください． 
+それ以外の授業における使い方について，[オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](/events/2020-03-19/)に動画（限定公開）もご覧ください． 
 
 * 基礎知識
-  * [ホスト，共同ホストができること](https://utelecon.github.io/zoom/how/common/host_cohost)
+  * [ホスト，共同ホストができること](/zoom/how/common/host_cohost)
   <br>
 * [授業での使い方（学生編）](how_to_use_in_classroom_students)
   * 授業前
@@ -109,7 +109,7 @@ title: Zoom
 <!--
 ## サブページ一覧
 * <a href="create_account" target="">大学のアカウントの作り方</a>  
-* [Zoomのアカウントとライセンスに関する注意点](https://utelecon.github.io/zoom/zoom_signin)
+* [Zoomのアカウントとライセンスに関する注意点](/zoom/zoom_signin)
 * <a href="install" target="">インストールの方法</a>  
 * <a href="create_room" target="">会議室の作り方（開催者用）</a>  
 * <a href="join" target="">会議室の入り方</a>  

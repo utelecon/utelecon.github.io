@@ -9,7 +9,7 @@ The University of Tokyo has decided to introduce online classes in the S semeste
 
 We believe that this A semester should be a period of time when all layers, universities, faculties and graduate schools, and departments/majors are working on the following issues: adopting face-to-face (hybrid) methods for some classes, combining on-campus classes with measures to prevent the spread of infection (e.g., managing the number of students on campus, conducting face-to-face classes with some online learning activities, etc.), and understanding and sharing the burden of students among faculty members. [<a href="https://www.nii.ac.jp/event/other/decs/" target="_blank" rel="noopener">A cyber symposium to share initiatives on university online classes starting in April.</a> <a href="https://www.nii.ac.jp/event/upload/20200911-08_Fukuda.pdf" target="_blank" rel="noopener">The University of Tokyo’s approach to balance COVID-19 infection prevention and education</a>].
 
-It is clear from the reactions of students and faculty to online classes in S semester that having all classes in a face-to-face format is not the endpoint the university is aiming for.[<a href="https://utelecon.github.io/events/2020-09-11/" target="_blank" rel="noopener">9/11 Briefing</a> の <a href="https://utelecon.github.io/events/2020-09-11/slides/02-review-last-semester.pdf" target="_blank" rel="noopener">Part 2 of the 9/11 information session: reflection on S Semester, video</a>, <a href="https://youtu.be/sKRoV_Y9tUI" target="_blank" rel="noopener">Video</a>] . Here are our goals for the future: Balancing the benefits of online classes with the in-person activities some classes require, and most importantly, getting back the values of the campus as a place for people to meet - thereby creating an environment that allows students to grow to their best human and academic potential. The A Semester is the first step to free students from the loneliness and suffering they have experienced during the S Semester, while at the same time taking advantage of the benefits of online classes that we have discovered during the S Semester.
+It is clear from the reactions of students and faculty to online classes in S semester that having all classes in a face-to-face format is not the endpoint the university is aiming for.[<a href="/events/2020-09-11/" target="_blank" rel="noopener">9/11 Briefing</a> の <a href="/events/2020-09-11/slides/02-review-last-semester.pdf" target="_blank" rel="noopener">Part 2 of the 9/11 information session: reflection on S Semester, video</a>, <a href="https://youtu.be/sKRoV_Y9tUI" target="_blank" rel="noopener">Video</a>] . Here are our goals for the future: Balancing the benefits of online classes with the in-person activities some classes require, and most importantly, getting back the values of the campus as a place for people to meet - thereby creating an environment that allows students to grow to their best human and academic potential. The A Semester is the first step to free students from the loneliness and suffering they have experienced during the S Semester, while at the same time taking advantage of the benefits of online classes that we have discovered during the S Semester.
 
 We believe that this portal will become a community for achieving high quality online courses. The results of the teachers' efforts will be gathered and shared on this portal, which we anticipate will help to maintain or improve the quality of the learning environment for students.
 
@@ -24,7 +24,7 @@ The whole picture is shown below.
 * Clicking the system name to move to the sign-in page for each system.
 * The arrows indicate dependencies, A -> B means that you need to get A enabled first to use B. (For example, to use Zoom, you need to have G Suite available, and to activate G Suite you need a UTokyo Account). 
 * Systems marked "activation required" require some initial setup to be used for the first time. Click the "activation required" button to go to that page.
-* For more details, please refer to the <a href="https://utelecon.github.io/events/2020-09-11/" target="_blank" rel="noopener">9/11 説明会</a>の<a href="https://utelecon.github.io/events/2020-09-11/slides/01-ict-overview.pdf" target="_blank" rel="noopener">Information Session on 11th September, Part 1: Overview of the ICT system for the class</a> (<a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">video</a>).
+* For more details, please refer to the <a href="/events/2020-09-11/" target="_blank" rel="noopener">9/11 説明会</a>の<a href="/events/2020-09-11/slides/01-ict-overview.pdf" target="_blank" rel="noopener">Information Session on 11th September, Part 1: Overview of the ICT system for the class</a> (<a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">video</a>).
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -302,7 +302,7 @@ LMS</text>
      d="m 735.16657,4.999665 c 0,-2.117 1.716,-3.833 3.833,-3.833 h 89.334 c 2.117,0 3.833,1.716 3.833,3.833 v 15.334 c 0,2.117 -1.716,3.833 -3.833,3.833 h -89.334 c -2.117,0 -3.833,-1.716 -3.833,-3.833 z" />
   <a
      id="a4872"
-     xlink:href="https://utelecon.github.io/webex/create_utelecon_account"
+     xlink:href="/webex/create_utelecon_account"
      target="_blank"
      transform="translate(-0.83343416,-1.833335)">
     <text
@@ -528,7 +528,7 @@ LMS</text>
      d="m 528.16657,6.999665 c 0,-2.117 1.716,-3.833 3.833,-3.833 h 89.334 c 2.117,0 3.833,1.716 3.833,3.833 v 15.334 c 0,2.117 -1.716,3.833 -3.833,3.833 h -89.334 c -2.117,0 -3.833,-1.716 -3.833,-3.833 z" />
   <a
      id="a4866"
-     xlink:href="https://utelecon.github.io/zoom/create_account"
+     xlink:href="/zoom/create_account"
      target="_blank"
      xlink:type=""
      xlink:role=""
@@ -700,9 +700,9 @@ Below is a brief description of what you need to do to use each system. If you f
  * **Request:** If you have never used your account before,<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">please change your initial password</a>. <a href="https://youtu.be/tTpAlqVhEXQ" target="_blank" rel="noopener">Procedure video</a>
 1. <a name="utas"></a>**UTAS (UTokyo Academic affairs System):** This system is used to register the syllabus and input the grades of the classes.
  <!-- * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank" rel="noopener">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. -->
-1. <a name="itclms"></a>**ITC-LMS (Learning Management System):** This system is used to inform students, collect assignments, and take attendance in your class.  <a href="https://utelecon.github.io/faculty_members/url_2020_a">The information about the URLs of the online classes should be also given to the students using this system. Looks similar to UTAS, which is confusing, but roughly speaking, UTAS is used before the start of a class (registration) and after (grade checking), while ITC-LMS is used during the class period.
+1. <a name="itclms"></a>**ITC-LMS (Learning Management System):** This system is used to inform students, collect assignments, and take attendance in your class.  <a href="/faculty_members/url_2020_a">The information about the URLs of the online classes should be also given to the students using this system. Looks similar to UTAS, which is confusing, but roughly speaking, UTAS is used before the start of a class (registration) and after (grade checking), while ITC-LMS is used during the class period.
  * **Sign in:** Please sign in to the <a href="https://itc-lms.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ITC-LMS</a>with your UTokyo Account.
- *  <a href="https://utelecon.github.io/lms_lecturers/">Learn more about ITC-LMS...</a>, <a href="https://utelecon.github.io/events/2020-09-11/">Sept. 11 briefing</a> (<a href="https://utelecon.github.io/events/2020-09-11/slides/03-using-ict.pdf" target="_blank" rel="noopener">PPT</a>, <a href="https://youtu.be/DwPtqldvBpg" target="_blank" rel="noopener">Video</a>)
+ *  <a href="/lms_lecturers/">Learn more about ITC-LMS...</a>, <a href="/events/2020-09-11/">Sept. 11 briefing</a> (<a href="/events/2020-09-11/slides/03-using-ict.pdf" target="_blank" rel="noopener">PPT</a>, <a href="https://youtu.be/DwPtqldvBpg" target="_blank" rel="noopener">Video</a>)
 1. <a name="microsoft_365"></a>**Microsoft 365:** A service from Microsoft. You can use it to create lecture materials, presentations, and many other things.
  * **Activation:** Go to <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">the UTokyo Account User Menu</a> and accept the "Office 365 ProPlus License" to activate your Microsoft 365  (<a href="https://youtu.be/OYl5P67mDYI" target="_blank" rel="noopener">Procedure video</a>).
   * After you activate your account, please wait for up to 3 hours during the day and up to 11:00 in the evening until you can actually use applications such as Excel, etc. (To be precise, the permissions you have given so far will be reflected at 11:00, 14:00, 17:00 and 20:00).
@@ -717,17 +717,17 @@ Below is a brief description of what you need to do to use each system. If you f
     * Add an<a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhone</a> Google account.
   * **Practice:** check out what apps you can use and create one Google spreadsheet (like Excel) (<a href="https://youtu.be/mVMPFpTuemY" target="_blank" rel="noopener">Video</a>)
 1. <a name="zoom"></a>**Zoom:** A web conferencing system. A lot of online classes are held using Zoom.
-  * **Activation:** Please follow the instructions on <a href="https://utelecon.github.io/zoom/#create_account">how to create a university Zoom account</a>.
+  * **Activation:** Please follow the instructions on <a href="/zoom/#create_account">how to create a university Zoom account</a>.
   * For teachers who want to explain Zoom to their students in their classes (and would like to have some slides for that purpose), here is a set of slides (<a href="files/Zoom-how.pptx">pptx</a>, <a href="files/Zoom-how.pdf">pdf</a>)
 1. <a name="webex"></a>**WebEx:** another web conferencing system. If you want to use this system in your class, you need to activate it beforehand.
-  * **Activation:** Follow <a href="https://utelecon.github.io/webex/create_utelecon_account">the Create a WebEx account and login</a>page to get your university WebEx account.
+  * **Activation:** Follow <a href="/webex/create_utelecon_account">the Create a WebEx account and login</a>page to get your university WebEx account.
 
 **Note:** Many of you may be already using Microsoft and Google on your own. Even so, you should still be able to **use them with your university account**and learn how to switch between your account and the university's account (see the instructional video above: <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank" rel="noopener">Google</a>) In your online lectures, you may often share important information exclusively with your university members. By using your university account, you can create a document which can be shared only among the university members.
 
 The "ECCS cloud mail" is the name of the G Suite for Education in the University of Tokyo.
 
 ## Main forms of online classes
-　In this section, we will introduce three main forms of online classes in comparison to traditional classes, explaining each form and the requirements for online classes. The main points of each format are also explained in the <a href="https://utelecon.github.io/events/2020-09-11/slides/04-course-types.pdf"  target="_blank" rel="noopener">part 4 "The main points of each format"</a> (<a href="https://youtu.be/O2g44UTeiwU" target="_blank" rel="noopener">video</a>) of the <a href="https://utelecon.github.io/events/2020-09-11/">9/11 Briefing</a>.
+　In this section, we will introduce three main forms of online classes in comparison to traditional classes, explaining each form and the requirements for online classes. The main points of each format are also explained in the <a href="/events/2020-09-11/slides/04-course-types.pdf"  target="_blank" rel="noopener">part 4 "The main points of each format"</a> (<a href="https://youtu.be/O2g44UTeiwU" target="_blank" rel="noopener">video</a>) of the <a href="/events/2020-09-11/">9/11 Briefing</a>.
 
 ![従来の授業とオンライン授業の主な形態](img/types_overview.png)
 
@@ -740,14 +740,14 @@ Each of these is described below.
   * This is a form of teaching that takes place in an actual classroom and transmits the content of the class via a web conferencing system.  
   * The requirement for this form of online class (media class) is that it must be simultaneous and interactive. A web conferencing system allows for chat and voice communication to meet this requirement. Even if you choose a pre-recorded video delivery style, the class can still meet the requirements if the system has the ability to accept comments, etc.
   * Note:  How to prepare for a real-time (face-to-face + online) (synchronous hybrid) model (in progress）[](classroom_type_synchronous_hybrid)
-  * Reference: [Online Basic Course "How to use Zoom to get your classes online](https://utelecon.github.io/events/2020-03-19/)
+  * Reference: [Online Basic Course "How to use Zoom to get your classes online](/events/2020-03-19/)
   <br>
   <br>
 * Real-time (Online) type (Synchronous Online type)
   * In this type of class, all instructors and students are connected online via a web conferencing system at the same time. 
   * The requirement for this form of online class (media class) is that it must be simultaneous and interactive, and a web conferencing system allows for chat and voice communication to meet this requirement. Even if you choose a pre-recorded video delivery style, the class can still meet the requirements if the system has the ability to accept comments, etc.
   * Note: How to prepare for the real time (online) type (synchronous online type) (in progress)）[](classroom_type_synchronous_online)
-  * Reference: [Online Basic Course "How to use Zoom to get your classes online](https://utelecon.github.io/events/2020-03-19/)
+  * Reference: [Online Basic Course "How to use Zoom to get your classes online](/events/2020-03-19/)
   <br>
   <br>  
 * On-demand (online) type (asynchronous online)
@@ -762,7 +762,7 @@ Each of these is described below.
   
     1. It is necessary to ensure that students have the opportunity to exchange their opinions about the class (this can be achieved with the bulletin board function of the ITC-LMS learning management system).
   * Note: How to prepare for the on-demand (online) type (asynchronous online type) (in progress)
-  * Reference: [Online Basic Course "How to create an on-demand online class using video and textbooks, not live streaming" ](https://utelecon.github.io/events/2020-03-27/)
+  * Reference: [Online Basic Course "How to create an on-demand online class using video and textbooks, not live streaming" ](/events/2020-03-27/)
 
 
 ## How to moving your teaching methods online (in progress)
@@ -780,19 +780,19 @@ Each of these is described below.
   * [How to use Google Classroom (external site)](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)
   <br><br>
 * How to create your teaching materials
-  * Please refer to the[Online Basic Course "How to create an on-demand online class using video and textbooks, not live streaming"](https://utelecon.github.io/events/2020-03-27/), which explains each topic.
+  * Please refer to the[Online Basic Course "How to create an on-demand online class using video and textbooks, not live streaming"](/events/2020-03-27/), which explains each topic.
   * [How to use Google Docs speech recognition for quick text input (external site)](http://google.tku.ac.jp/docs/4/6)
   * [How to make a video using PowerPoint (external site)](https://kagakucafe.com/202004095777.html)
   * [How to create a video with Zoom (external site)](https://media.tebiki.jp/022)
   <br><br>
 * How to share a video file
   * [How to upload and share video files to Google Drive](how/google/share_video)
-  * [How to record and share to the Zoom cloud](https://utelecon.github.io/zoom/how/faculty_members/recording_cloud)
+  * [How to record and share to the Zoom cloud](/zoom/how/faculty_members/recording_cloud)
   <br><br>
 * How to use web conferencing systems
-  * [Zoom](https://utelecon.github.io/zoom/)
-  * [Webex](https://utelecon.github.io/webex/)
-  * [Google Meet](https://utelecon.github.io/meet/)
+  * [Zoom](/zoom/)
+  * [Webex](/webex/)
+  * [Google Meet](/meet/)
 
 <a name="shared_materials"> </a>
 ## Materials, practices, and reference information shared with us (call for more information)

@@ -71,14 +71,14 @@ In this section, we will introduce three main forms of online classes, compare t
   * This is a form in which classes are given in an actual classroom and the contents are distributed via a web conference system.  
   * The requirement for this form of online lesson (media lesson) is that it is "simultaneous and interactive." A web conference system meets this requirement by allowing teachers and students to use online chat and voice calls. Even if it is a video distribution, or if there is a function to accept comments, the requirements can be met.
   * Reference: Reference: How to prepare for real-time (face-to-face + online) type (synchronous hybrid type) (in progress)[](classroom_type_synchronous_hybrid)
-  * Reference: [Online Basic Course "How to use Zoom to teach online class sessions"](https://utelecon.github.io/events/2020-03-19/)
+  * Reference: [Online Basic Course "How to use Zoom to teach online class sessions"](/events/2020-03-19/)
   <br>
   <br>
 * Real-time online only (synchronous online type)
   * This is a form in which all teachers and students connect online and conduct classes using a web conference system.  
   * The requirement for this form of online lesson (media lesson) is that it is "simultaneous and interactive." A web conference system meets this requirement by allowing teachers and students to use online chat and voice calls. Even if it is a video distribution, or if there is a function to accept comments, the requirements can be met.
   * Reference: How to prepare for real-time online only (synchronous online type) (in progress)[](classroom_type_synchronous_online)
-  * Reference: [Online Basic Course "How to use Zoom to teach online class sessions"](https://utelecon.github.io/events/2020-03-19/)
+  * Reference: [Online Basic Course "How to use Zoom to teach online class sessions"](/events/2020-03-19/)
   <br>
   <br>  
 * On-demand (online) type (asynchronous online type)
@@ -92,7 +92,7 @@ In this section, we will introduce three main forms of online classes, compare t
   
     1. It is necessary to secure the opportunity for students to exchange opinions about the class (the bulletin board function on ITC-LMS meets this requirement).
   * Reference: Reference: On-demand (online) type (asynchronous online type) preparation method (in progress)[](classroom_type_asynchronous_online)
-  * Reference: [Online Basic Course "How to Create On-Demand Online Classes Using Videos and Texts, Not Live Streaming"](https://utelecon.github.io/events/2020-03-27/)
+  * Reference: [Online Basic Course "How to Create On-Demand Online Classes Using Videos and Texts, Not Live Streaming"](/events/2020-03-27/)
 
 
 ## How to apply each teaching method online (in progress)
@@ -111,7 +111,7 @@ In this section, we will introduce three main forms of online classes, compare t
   <br>
   <br>
 * How to design teaching materials
-  * Each topic is explained in [the Online Basic Course "How to create on-demand online classes using videos and texts instead of live distribution."](https://utelecon.github.io/events/2020-03-27/)Please watch that video until the article is completed.
+  * Each topic is explained in [the Online Basic Course "How to create on-demand online classes using videos and texts instead of live distribution."](/events/2020-03-27/)Please watch that video until the article is completed.
   * A quick way to enter text using Google Docs speech recognition
   * How to make a simple video using PowerPoint
   * How to make a video using the web conferencing system

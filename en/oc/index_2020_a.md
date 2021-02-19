@@ -27,10 +27,10 @@ Preparations for taking online classes are broadly in 2 parts
 
 * Step 1 is to make sure that you can correctly use the [information (ICT) System for Education used at the University of Tokyo](#utokyo-edu-ict). If you were able to go to campus every day, you would be able to get important information from your friends in the classroom, from your seniors in the circle, or hear by chance from other people's conversations, but that's not the case if you are restricted from attending school. It is very important that each and every student correctly checks the information source, and that his / her contact information (email address, etc.) is registered in the appropriate place so that he / she can be reached when necessary. 
 * Step 2 is to prepare a device that can be connected to the web meeting system and [make sure that it can be connected properly](#check-online-ready). The "device" isn't anything special; if you usually watch videos on your computer or smartphone, you can access the web meeting software used for online classes (Computers are recommended, but the preparations described here can also be done on a smartphone). It is not a difficult task, but electronics tend to be troublesome to use. It is important to make sure that you can connect properly and to attend class with the confirmed equipment. Details are described below.
-* After completing these settings, check the form and method of the class you are attending, and if it is conducted online, obtain the information for connecting to class (URL). You can get it on the ITC-LMS explained below. For details, see <a href="https://utelecon.github.io/faculty_members/url_2020_a">How to be notified of the lesson URL --2020 A semester version</a>.
+* After completing these settings, check the form and method of the class you are attending, and if it is conducted online, obtain the information for connecting to class (URL). You can get it on the ITC-LMS explained below. For details, see <a href="/faculty_members/url_2020_a">How to be notified of the lesson URL --2020 A semester version</a>.
 * You will need the following equipment. If you cannot get them on time or have difficulty getting them, contact the staff at your department or major.
   * PC: Since it is possible to watch videos on a smartphone, you can also watch online lessons on a smartphone. However, for studying at a university,we recommend owning a PC (Windows, Mac, Linux, etc.) for writing reports, etc. Also, during online lesson activities, you will have more opportunities to do small tasks and exercises while watching videos. Prepare a computer environment so that you can have your online class and a different window for other tasks both on your large screen.
-  * Internet environment: To take classes from home, you need an environment where you can watch videos. Check the capacity of the Internet and/or smartphone. Be careful if you connect your smartphone directly to mobile (LTE etc.) If you do not have enough data capacity or an unlimited internet environment, you will not be able to watch the video when you run out of giga, or it will cost you money to buy giga to keep watching. We recommend having enough or unlimited internet. We have a <a href="https://utelecon.github.io/mobile/mobile3">support system</a> for those in need.
+  * Internet environment: To take classes from home, you need an environment where you can watch videos. Check the capacity of the Internet and/or smartphone. Be careful if you connect your smartphone directly to mobile (LTE etc.) If you do not have enough data capacity or an unlimited internet environment, you will not be able to watch the video when you run out of giga, or it will cost you money to buy giga to keep watching. We recommend having enough or unlimited internet. We have a <a href="/mobile/mobile3">support system</a> for those in need.
 
 <font color="blue">Note</font>
 
@@ -47,7 +47,7 @@ The whole picture is as shown in the figure below.
 * Click the system name to go to sign in page to each system.
 * The arrows indicate how each element is related, and A-> B indicates that you must first enable A and to use B (for example, to use Zoom you need to be able to use G Suite, for which you need a UTokyo Account).
 * Systems marked "Enable" require initial setup when used for the first time. Click "Enable" to go to that page.
-* For details, please see <a href="https://utelecon.github.io/events/2020-09-11/" target="_blank" rel="noopener">Part 1 of the 9/11 briefing session: </a>の<a href="https://utelecon.github.io/events/2020-09-11/slides/01-ict-overview.pdf" target="_blank" rel="noopener">Overview of ICT system required for class</a> (<a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">video</a>).
+* For details, please see <a href="/events/2020-09-11/" target="_blank" rel="noopener">Part 1 of the 9/11 briefing session: </a>の<a href="/events/2020-09-11/slides/01-ict-overview.pdf" target="_blank" rel="noopener">Overview of ICT system required for class</a> (<a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">video</a>).
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -325,7 +325,7 @@ LMS</text>
      d="m 735.16657,4.999665 c 0,-2.117 1.716,-3.833 3.833,-3.833 h 89.334 c 2.117,0 3.833,1.716 3.833,3.833 v 15.334 c 0,2.117 -1.716,3.833 -3.833,3.833 h -89.334 c -2.117,0 -3.833,-1.716 -3.833,-3.833 z" />
   <a
      id="a4872"
-     xlink:href="https://utelecon.github.io/webex/create_utelecon_account"
+     xlink:href="/webex/create_utelecon_account"
      target="_blank"
      transform="translate(-0.83343416,-1.833335)">
     <text
@@ -551,7 +551,7 @@ LMS</text>
      d="m 528.16657,6.999665 c 0,-2.117 1.716,-3.833 3.833,-3.833 h 89.334 c 2.117,0 3.833,1.716 3.833,3.833 v 15.334 c 0,2.117 -1.716,3.833 -3.833,3.833 h -89.334 c -2.117,0 -3.833,-1.716 -3.833,-3.833 z" />
   <a
      id="a4866"
-     xlink:href="https://utelecon.github.io/zoom/#create_account"
+     xlink:href="/zoom/#create_account"
      target="_blank"
      xlink:type=""
      xlink:role=""
@@ -738,9 +738,9 @@ Below is a brief description of what you need to do on each system. If you encou
     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhone</a> Add a Google account.
   * **Practice:** Look over which apps you can use and create a Google spreadsheet (like Excel)(<a href="https://youtu.be/mVMPFpTuemY" target="_blank" rel="noopener">Procedure video</a>)
 1. <a name="zoom"></a>**Zoom:** A web conferencing system. Many online classes will be conducted using Zoom.
-  * **Task (Activation):** Follow the instructions on <a href="https://utelecon.github.io/zoom/create_account">How to create a university Zoom account</a> to get a university Zoom account.
+  * **Task (Activation):** Follow the instructions on <a href="/zoom/create_account">How to create a university Zoom account</a> to get a university Zoom account.
 1. <a name="webex"></a>**WebEx:** Web conferencing system. Get it in advance if you want to use it in class.
-  * **Task (Activation):** Follow the procedure on <a href="https://utelecon.github.io/webex/create_utelecon_account">How to Create a New UTokyo Webex Account</a> to get a university WebEx account.
+  * **Task (Activation):** Follow the procedure on <a href="/webex/create_utelecon_account">How to Create a New UTokyo Webex Account</a> to get a university WebEx account.
 1. <a name="utokyo_wifi"></a>**UTokyo Wifi** is a wireless LAN on campus at the University of Tokyo. You will need it when you connect to the internet on campus, especially when you take online classes.
  * <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">Read the UTokyo Wifi page</a>.
  * **Task (Preparation at home):** Before coming to campus, follow the steps below to get a UTokyo Wifi password and make a note of the settings.
@@ -797,4 +797,4 @@ Type in the UTokyo Account ID is a 10-digit number as shown above. Next, when th
 If something is wrong/ If you can’t connect 
 ---------------------------
 
-* If you encounter a problem you can’t solve, try using the Chat Support that is displayed on the bottom-right of the page or access the [Support Page](https://utelecon.github.io/supports) to receive help.
+* If you encounter a problem you can’t solve, try using the Chat Support that is displayed on the bottom-right of the page or access the [Support Page](/supports) to receive help.

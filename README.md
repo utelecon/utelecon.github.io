@@ -1,6 +1,6 @@
 # utelecon (UTokyo Portal for Teleconference Tools)
 
-https://utelecon.github.io/
+https://utelecon.adm.u-tokyo.ac.jp/
 
 
 ## 共通ルール
@@ -9,8 +9,8 @@ https://utelecon.github.io/
 ## 書き方
 
 * 拡張子(.markdown)のファイル (xxxxxx.markdown) をマークダウン形式で書いてgit commit/push
-* xxxxxx.markdown をcommit/pushするとそれは, https://utelecon.github.io/xxxxxx というパスで参照できるようになる
-* hoge/foo/bar/index.markdown をcommit/pushすると, https://utelecon.github.io/hoge/foo/bar/  で参照できる
+* xxxxxx.markdown をcommit/pushするとそれは, https://utelecon.adm.u-tokyo.ac.jp/xxxxxx というパスで参照できるようになる
+* hoge/foo/bar/index.markdown をcommit/pushすると, https://utelecon.adm.u-tokyo.ac.jp/hoge/foo/bar/  で参照できる
 * xxxxxx.markdown ファイルに対しては統一的な theme が自動的に適用される
   * theme は設定画面 https://github.com/utelecon/utelecon.github.io  の settings のページの下の方 (github pages) から変更できる
 * 経験上, commit/push してからサイトに反映されるまで長いと数十秒かかる

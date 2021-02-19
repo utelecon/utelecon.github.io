@@ -2,7 +2,7 @@
 title: Test
 layout: ja_test
 sitemap: false
-redirect_to: "https://utelecon.github.io/"
+redirect_to: "/"
 ---
 
 2020年11月7日 14:46

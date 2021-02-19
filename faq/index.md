@@ -25,7 +25,7 @@ title: FAQ よくある質問
 
 #### Q. 大学のアカウントを作成したい
 * 大学のアカウントの作り方は特殊です
-* このページ [https://utelecon.github.io/zoom/create_account](https://utelecon.github.io/zoom/create_account) を注意深く読みながらアカウントを作成してください
+* このページ [/zoom/create_account](/zoom/create_account) を注意深く読みながらアカウントを作成してください
 
 #### Q. 料金は必要ですか？  
 * 大学の Zoom アカウントは無料で使えます
@@ -43,14 +43,14 @@ title: FAQ よくある質問
 ### 初期設定
 
 #### Q. Zoom のアカウント招待メールがない
-* 東大の Zoom アカウントは，招待メールを使わずに作成可能です．[アカウントの作り方ページ](https://utelecon.github.io/zoom/create_account)をご覧ください
+* 東大の Zoom アカウントは，招待メールを使わずに作成可能です．[アカウントの作り方ページ](/zoom/create_account)をご覧ください
 
 #### Q. 招待メールのボタンを押すと「ユーザが存在しません」「期限切れ」と出た
-* 東大の Zoom アカウントは，招待メールを使わずに作成可能です．[アカウントの作り方ページ](https://utelecon.github.io/zoom/create_account)をご覧ください
+* 東大の Zoom アカウントは，招待メールを使わずに作成可能です．[アカウントの作り方ページ](/zoom/create_account)をご覧ください
 
 #### Q. ユーザータイプが Licensed ではなく Basic になってしまっている
 * 共通ID10桁@g.ecc.u-tokyo.ac.jp の Zoom アカウントであれば，1時間以内に Licensed になりますので，少々お待ち下さい
-* ご自身で設定された文字列@g.ecc.u-tokyo.ac.jp の Zoom アカウントは Licensed になりませんので，[アカウントの作り方ページ](https://utelecon.github.io/zoom/create_account)を読んで，共通ID10桁@g.ecc.u-tokyo.ac.jp の Zoom アカウントをご作成ください
+* ご自身で設定された文字列@g.ecc.u-tokyo.ac.jp の Zoom アカウントは Licensed になりませんので，[アカウントの作り方ページ](/zoom/create_account)を読んで，共通ID10桁@g.ecc.u-tokyo.ac.jp の Zoom アカウントをご作成ください
 
 #### Q. パスワードがわからない
 * 以下の手順で作業してください
@@ -69,7 +69,7 @@ title: FAQ よくある質問
 * 開催者（ホスト）が東京大学の Zoom アカウントを持ったユーザーしか入れない設定にしているためだと思われます
 * そのため，Zoom のページ [https://zoom.us/profile](https://zoom.us/profile) に xxxx@g.ecc.u-tokyo.ac.jp のアカウントでサインインしてください
   * もしくは，インストールされている Zoom のアプリに「共通ID10桁@g.ecc.u-tokyo.ac.jp」の Zoom アカウントでサインインしてください  
-* もし「共通ID10桁@g.ecc.u-tokyo.ac.jp」の Zoom アカウントをまだ作成していなかったら，[アカウントの作成方法](https://utelecon.github.io/zoom/create_account)のページを注意深く読みながら，大学の Zoom アカウントをご作成ください．
+* もし「共通ID10桁@g.ecc.u-tokyo.ac.jp」の Zoom アカウントをまだ作成していなかったら，[アカウントの作成方法](/zoom/create_account)のページを注意深く読みながら，大学の Zoom アカウントをご作成ください．
 
 ### 具体的な使い方
 
@@ -110,7 +110,7 @@ title: FAQ よくある質問
 
 <a name="webex"> </a>
 ## Cisco Webex
-### [アカウント申請](https://utelecon.github.io/webex/create_utelecon_account)をしたが, メールが届かない
+### [アカウント申請](/webex/create_utelecon_account)をしたが, メールが届かない
 * 招待メールはECCSクラウドメール (ドメインがg.ecc.u-tokyo.ac.jpのもの) に届きます. 正しいアカウントでGmailにログインしているかどうか, また迷惑メールなどに誤って振り分けられていないかを確認してください.
 * アカウント作成には手動のプロセスが含まれており, 数日程度時間を要することがあります. 会議などで必要になる場合は余裕をもってアカウント申請を行ってください.
 
