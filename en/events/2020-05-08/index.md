@@ -1,5 +1,5 @@
 ---
-title: 2020/05/08 Briefing session: Using copyrighted materials in online classes
+title: "2020/05/08 Briefing session: Using copyrighted materials in online classes"
 layout: en
 ---
 
