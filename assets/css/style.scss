@@ -1,12 +1,9 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "cayman/jekyll-theme-cayman";
 a {
     &:visited {
       color: navy ;
     }
   }
-
-/* cayman/_sass/jekyll-theme-cayman.scss  がオリジナル*/
-
