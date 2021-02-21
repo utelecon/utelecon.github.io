@@ -169,7 +169,7 @@
 			{% assign has_en_page = true %}
 		{% endif %}
 
-	  {% if page.url contains "/events" %}
+    {% if page.url contains "/events" %}
 			{% assign has_en_page = true %}
 		{% endif %}
 
@@ -177,19 +177,19 @@
 			{% assign has_en_page = true %}
 		{% endif %}
 
-	   {% if page.url contains "/supporters" %}
+    {% if page.url contains "/supporters" %}
 			{% assign has_en_page = true %}
 		{% endif %}
 
-	   {% if page.url contains "/forums" %}
+    {% if page.url contains "/forums" %}
 			{% assign has_en_page = true %}
 		{% endif %}
 
-	   {% if page.url contains "/faq" %}
+    {% if page.url contains "/faq" %}
 			{% assign has_en_page = true %}
 		{% endif %}
 
-	  {% if page.url contains "/forms" %}
+    {% if page.url contains "/forms" %}
 			{% assign has_en_page = true %}
 		{% endif %}
 
@@ -205,16 +205,50 @@
       <div class="bar-btn-normal">
         <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
         <span class="hiraku-open-btn-line"></span>
-      </button><div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
+        </button>
+        <div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
       </div>
-      <div class="bar-btn-normal"><a href="/" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/home.png" alt="Home"><br>Home</div></a></div>
-      <div class="bar-btn-search"><div class="search-box"><div class="gcse-search"></div></div></div>
-      <div class="bar-btn-normal"><a href="/sitemap/" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/sitemap.png" alt="Sitemap"><br>Sitemap</div></a></div>
-{% if has_en_page %}
-      <div class="bar-btn-normal"><a href="/en{{page.url}}" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/en.png" alt="en"><br>English</div></a></div>
-{% else %}
-      <div class="bar-btn-gtrans"><a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}{{page.url}}" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/en.png" alt="en"><br>(Google Trans.)</div></a></div>
-{% endif %}
+      <div class="bar-btn-normal">
+        <a href="/" style="color: white;text-decoration: none;">
+          <div style="line-height: 10px;font-size: 12px;">
+            <img width=25 src="/image/home.png" alt="Home">
+            <br>Home
+          </div>
+        </a>
+      </div>
+      <div class="bar-btn-search">
+        <div class="search-box">
+          <div class="gcse-search">
+          </div>
+        </div>
+      </div>
+      <div class="bar-btn-normal">
+        <a href="/sitemap/" style="color: white;text-decoration: none;">
+          <div style="line-height: 10px;font-size: 12px;">
+            <img width=25 src="/image/sitemap.png" alt="Sitemap">
+            <br>Sitemap
+          </div>
+        </a>
+      </div>
+      {% if has_en_page %}
+        <div class="bar-btn-normal">
+          <a href="/en{{page.url}}" style="color: white;text-decoration: none;">
+            <div style="line-height: 10px;font-size: 12px;">
+              <img width=25 src="/image/en.png" alt="en">
+              <br>English
+            </div>
+          </a>
+        </div>
+      {% else %}
+        <div class="bar-btn-gtrans">
+          <a href="http://translate.google.com/translate?langpair=ja%7Cen&hl=en&u={{site.url}}{{page.url}}" style="color: white;text-decoration: none;">
+            <div style="line-height: 10px;font-size: 12px;">
+              <img width=25 src="/image/en.png" alt="en">
+              <br>(Google Trans.)
+            </div>
+          </a>
+        </div>
+      {% endif %}
     </div>
 
     <header class="page-header" role="banner">
@@ -230,116 +264,107 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
 
-<nav class="menu-container">
-		<ul class="gnav">
-		  <li ontouchstart="">
-		    <a>教育用ICT</a>
-		    <ul>
-		      <li><a href="/oc/">学生用 <font size="-1">(2020 Aセメスター版)</font></a></li>
-		      <li><a href="/faculty_members/">教員用 <font size="-1">(2020 Aセメスター版)</font></a></li>
-		      <li><a href="/good-practice">グッドプラクティス</a></li>
-                      <li><a href="/lms_students/">ITC-LMS 学生用</a></li>
-                      <li><a href="/lms_lecturers/">ITC-LMS 教員用</a></li>
-                      <li><a href="/faculty_members/url_2020_a">授業URL通知 <font size="-1">(2020 Aセメスター版)</font></a></li>
-		      <li><a href="/faq/">よくある質問（FAQ）</a></li>
- 		      <li><a href="/change2021s/">2021年春のシステム変更</a></li>
-		    </ul>
-		  </li>
+      <nav class="menu-container">
+        <ul class="gnav">
+          <li ontouchstart="">
+            <a>教育用ICT</a>
+            <ul>
+              <li><a href="/oc/">学生用 <font size="-1">(2020 Aセメスター版)</font></a></li>
+              <li><a href="/faculty_members/">教員用 <font size="-1">(2020 Aセメスター版)</font></a></li>
+              <li><a href="/good-practice">グッドプラクティス</a></li>
+              <li><a href="/lms_students/">ITC-LMS 学生用</a></li>
+              <li><a href="/lms_lecturers/">ITC-LMS 教員用</a></li>
+              <li><a href="/faculty_members/url_2020_a">授業URL通知 <font size="-1">(2020 Aセメスター版)</font></a></li>
+              <li><a href="/faq/">よくある質問（FAQ）</a></li>
+              <li><a href="/change2021s/">2021年春のシステム変更</a></li>
+            </ul>
+          </li>
 
-		  <li ontouchstart="">
-		    <a>Web会議</a>
-		    <ul>
-                      <li><a href="/zoom">Zoom</a></li>
-		      <li><a href="/webex">Webex</a></li>
-		      <li><a href="/meet">Google Meet</a></li>
-		    </ul>
-		  </li>
+          <li ontouchstart="">
+            <a>Web会議</a>
+            <ul>
+              <li><a href="/zoom">Zoom</a></li>
+              <li><a href="/webex">Webex</a></li>
+              <li><a href="/meet">Google Meet</a></li>
+            </ul>
+          </li>
 
-		  <li ontouchstart="">
-		    <a>イベント・説明会</a>
-		    <ul>
-                      <li><a href="/events/2020-luncheon/">オンライン授業情報交換会</a></li>
-                      <li><a href="/events/2020-09-11/">9/11 説明会: Aセメスターに向けて</a></li>
-                      <li><a href="/events/2020-09-02/">9/2 ゼミ: 動画の作成・公開方法</a></li>
-                      <li><a href="/#events">過去のイベント</a></li>
-		    </ul>
-		  </li>
+          <li ontouchstart="">
+            <a>イベント・説明会</a>
+            <ul>
+              <li><a href="/events/2020-luncheon/">オンライン授業情報交換会</a></li>
+              <li><a href="/events/2020-09-11/">9/11 説明会: Aセメスターに向けて</a></li>
+              <li><a href="/events/2020-09-02/">9/2 ゼミ: 動画の作成・公開方法</a></li>
+              <li><a href="/#events">過去のイベント</a></li>
+            </ul>
+          </li>
 
-		  <li ontouchstart="">
-		    <a>各種申請・報告フォーム</a>
-		    <ul>
-                      <li><a href="/supports">トラブルサポート窓口</a></li>
-                      <li><a href="/forums/">QAフォーラム, MLなど</a></li>
-                      <li><a href="/mobile/">継続: ネットワーク環境支援</a></li>
-                      <li><a href="/supporters/class_a">クラスサポーター制度</a></li>
-                      <li><a href="/forms/et">授業入室時トラブル報告</a></li>
-                      <li><a href="/forms/takecarestudents">学科・専攻の学生ケア担当登録</a></li>
-                      <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへのリンク登録</a></li>
-                    </ul>
-                  </li>
-		</ul>
-    </nav>
+          <li ontouchstart="">
+            <a>各種申請・報告フォーム</a>
+            <ul>
+              <li><a href="/supports">トラブルサポート窓口</a></li>
+              <li><a href="/forums/">QAフォーラム, MLなど</a></li>
+              <li><a href="/mobile/">継続: ネットワーク環境支援</a></li>
+              <li><a href="/supporters/class_a">クラスサポーター制度</a></li>
+              <li><a href="/forms/et">授業入室時トラブル報告</a></li>
+              <li><a href="/forms/takecarestudents">学科・専攻の学生ケア担当登録</a></li>
+              <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへのリンク登録</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
 
     </header>
 
     <main id="content" class="main-content" role="main">
 
-      <h3>Table of Contents</h3>
+      <h3>目次</h3>
       {% include toc.html html=content %}
 
       {{ content }}
 
       <!-- for drawer -->
-          <div class="offcanvas-left">
+      <div class="offcanvas-left">
+        <ul>
+          <div style="text-indent: -2em">MENU</div>
+          <li><a href="/">Home</a>
+          <li>オンライン授業</li>
             <ul>
-              <div style="text-indent: -2em">MENU</div>
-              <li><a href="/">Home</a>
-              <li>オンライン授業</li>
-              <ul>
-<<<<<<< HEAD
-		<li><a href="https://utelecon.github.io/oc/">学生用 <font size="-1">(2020 Aセメスター版)</font></a></li>
-		<li><a href="https://utelecon.github.io/faculty_members/">教員用 <font size="-1">(2020 Aセメスター版)</font></a></li>
-       <li><a href="https://utelecon.github.io/good-practice">グッドプラクティス</a></li>
-                <li><a href="https://utelecon.github.io/lms_students/">ITC-LMS 学生用</a></li>
-                <li><a href="https://utelecon.github.io/lms_lecturers/">ITC-LMS 教員用</a></li>
-                <li><a href="https://utelecon.github.io/faculty_members/url_2020_a">授業URL通知 <font size="-1">(2020 Aセメスター版)</font></a></li>
-=======
-		<li><a href="/oc/index_2020_a">学生用 <font size="-1">(2020 Aセメスター版)</font></a></li>
-		<li><a href="/faculty_members/index_2020_a">教員用 <font size="-1">(2020 Aセメスター版)</font></a></li>
-       <li><a href="/good-practice">グッドプラクティス</a></li>
-                <li><a href="/lms_students/">ITC-LMS 学生用</a></li>
-                <li><a href="/lms_lecturers/">ITC-LMS 教員用</a></li>
-                <li><a href="/faculty_members/url_2020_a">授業URL通知 <font size="-1">(2020 Aセメスター版)</font></a></li>
->>>>>>> f87e7a3... remove/replace old domain utelecon.github.io
-		<li><a href="/faq/">よくある質問（FAQ）</a></li>
-    <li><a href="/change2021s/">2021年春のシステム変更</a></li>
-              </ul>
-              <li>Web会議</li>
-      	      <ul>
-      		<li><a href="/zoom">Zoom</a></li>
-      		<li><a href="/webex">Webex</a></li>
-      		<li><a href="/meet">Google Meet</a></li>
-      	      </ul>
-              <li>イベント・説明会</li>
-      	      <ul>
-                <li><a href="/events/2020-luncheon/">オンライン授業情報交換会</a></li>
-                <li><a href="/events/2020-09-11/">9/11 説明会: Aセメスターに向けて</a></li>
-                <li><a href="/events/2020-09-02/">9/2 ゼミ: 動画の作成・公開方法</a></li>
-                <li><a href="/#events">過去のイベント</a></li>
-      	      </ul>
-              <li>各種申請・報告フォーム</li>
-      	      <ul>
-                <li><a href="/supports">トラブルサポート窓口</a></li>
-                <li><a href="/forums/">QAフォーラム, MLなど</a></li>
-                <li><a href="/mobile/">ネットワーク環境支援</a></li>
-                <li><a href="/supporters/class_a">クラスサポーター制度</a></li>
-                <li><a href="/forms/et">授業入室時トラブル報告</a></li>
-                <li><a href="/forms/takecarestudents">学科・専攻の学生ケア<br>担当登録</a></li>
-                <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへの<br>リンク登録</a></li>
-              </ul>
-              <li><a href="/sitemap/">サイトマップ</a></li>
+              <li><a href="/oc/index_2020_a">学生用 <font size="-1">(2020 Aセメスター版)</font></a></li>
+              <li><a href="/faculty_members/index_2020_a">教員用 <font size="-1">(2020 Aセメスター版)</font></a></li>
+              <li><a href="/good-practice">グッドプラクティス</a></li>
+              <li><a href="/lms_students/">ITC-LMS 学生用</a></li>
+              <li><a href="/lms_lecturers/">ITC-LMS 教員用</a></li>
+              <li><a href="/faculty_members/url_2020_a">授業URL通知 <font size="-1">(2020 Aセメスター版)</font></a></li>
+              <li><a href="/faq/">よくある質問（FAQ）</a></li>
+              <li><a href="/change2021s/">2021年春のシステム変更</a></li>
             </ul>
-          </div>
+          <li>Web会議</li>
+            <ul>
+              <li><a href="/zoom">Zoom</a></li>
+              <li><a href="/webex">Webex</a></li>
+              <li><a href="/meet">Google Meet</a></li>
+            </ul>
+          <li>イベント・説明会</li>
+            <ul>
+              <li><a href="/events/2020-luncheon/">オンライン授業情報交換会</a></li>
+              <li><a href="/events/2020-09-11/">9/11 説明会: Aセメスターに向けて</a></li>
+              <li><a href="/events/2020-09-02/">9/2 ゼミ: 動画の作成・公開方法</a></li>
+              <li><a href="/#events">過去のイベント</a></li>
+            </ul>
+          <li>各種申請・報告フォーム</li>
+          <ul>
+            <li><a href="/supports">トラブルサポート窓口</a></li>
+            <li><a href="/forums/">QAフォーラム, MLなど</a></li>
+            <li><a href="/mobile/">ネットワーク環境支援</a></li>
+            <li><a href="/supporters/class_a">クラスサポーター制度</a></li>
+            <li><a href="/forms/et">授業入室時トラブル報告</a></li>
+            <li><a href="/forms/takecarestudents">学科・専攻の学生ケア<br>担当登録</a></li>
+            <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへの<br>リンク登録</a></li>
+          </ul>
+          <li><a href="/sitemap/">サイトマップ</a></li>
+        </ul>
+      </div>
           <script>
           $(".offcanvas-left").hiraku({
               btn:"#offcanvas-btn-left",
@@ -373,14 +398,12 @@
 
 		<!-- chat support -->
 		<script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
-
-
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
     </main>
+    <footer class="site-footer">
+      {% if site.github.is_project_page %}
+        <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+      {% endif %}
+      <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+    </footer>
   </body>
 </html>

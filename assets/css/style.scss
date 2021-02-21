@@ -2,8 +2,9 @@
 ---
 
 @import "cayman/jekyll-theme-cayman";
+@import "layout/default";
 a {
-    &:visited {
-      color: navy ;
-    }
+  &:visited {
+    color: navy;
   }
+}
