@@ -1,1 +1,266 @@
+.container {
+  max-width: 960px;
+  margin: auto;
+}
 
+//header
+.new-page-header {
+  color: white;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(
+    120deg,
+    $header-bg-color-secondary,
+    $header-bg-color
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  .header-left {
+    display: flex;
+    align-items: center;
+    .bar-btn-normal {
+      display: none;
+    }
+    img {
+      margin: 10px;
+      width: 100px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .header-right {
+    padding: 10px;
+    img {
+      width: 18px;
+      margin: 0 5px;
+    }
+    a {
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
+
+//footer
+.new-page_footer {
+  background-color: black;
+  padding: 80px 0 20px;
+  .logo_wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 20px;
+    img {
+      display: block;
+      width: 200px;
+    }
+  }
+  .footer_sitemap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-inline-start: 0;
+    &_title_list {
+      padding: 20px 0;
+      .title {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+      }
+      ul {
+        max-width: 210px;
+        list-style: none;
+        padding-inline-start: 0;
+        li {
+          a {
+            color: white;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .copy-right {
+    text-align: center;
+    color: white;
+    padding: 60px 0 0;
+  }
+}
+
+// navigationバーの実装
+.top_menu {
+  background-color: $header-bg-color;
+  background-image: linear-gradient(
+    120deg,
+    $header-bg-color-secondary,
+    $header-bg-color
+  );
+}
+
+.menu {
+  color: white;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding-inline-start: 0;
+  .menu__single {
+    list-style: none;
+    border-right: white thin solid;
+    border-left: white thin solid;
+    &:first-child {
+      border-left: none;
+    }
+    &:last-child {
+      border-right: none;
+    }
+  }
+  & > li {
+    float: left;
+    width: 25%; /* グローバルナビ4つの場合 */
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    &:hover {
+      // background: #072a24;
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+    a {
+      display: block;
+      color: #fff;
+      &:hover {
+        color: #999;
+      }
+    }
+  }
+}
+
+ul.menu__second-level {
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  padding: 0;
+  li {
+    border-top: 1px solid #111;
+    a:hover {
+      background: #111;
+    }
+  }
+}
+
+.menu__third-level li {
+  border-top: 1px solid #111;
+}
+
+/* 下矢印 */
+.init-bottom:after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 0 0 15px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* floatクリア */
+.menu:before,
+.menu:after {
+  content: " ";
+  display: table;
+}
+
+.menu:after {
+  clear: both;
+}
+
+.menu {
+  *zoom: 1;
+}
+
+.menu > li.menu__single {
+  position: relative;
+}
+
+li.menu__single ul.menu__second-level {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  background: #072a24;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+li.menu__single:hover ul.menu__second-level {
+  top: 50px;
+  visibility: visible;
+  opacity: 1;
+}
+
+#pagetop {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  cursor: pointer;
+}
+
+@media (max-width: 1001px) {
+  .container {
+    width: 90%;
+  }
+  .new-page_footer {
+    .logo_wrapper {
+      img {
+        display: block;
+        width: 150px;
+      }
+    }
+    .footer_sitemap {
+      &_title_list {
+        width: 100%;
+        border-bottom: white thin solid;
+        .title {
+          font-size: 14px;
+        }
+        ul {
+          max-width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          li {
+            width: 250px;
+          }
+        }
+      }
+    }
+    .copy-right {
+      padding: 20px 0 0;
+    }
+  }
+}
+
+@media (max-width: 801px) {
+  .new-page-header {
+    .header-left {
+      .bar-btn-normal {
+        display: block;
+      }
+      img {
+        margin: 10px;
+        width: 80px;
+      }
+    }
+    .header-right {
+      display: none;
+    }
+  }
+
+  .top_menu {
+    display: none;
+  }
+}
