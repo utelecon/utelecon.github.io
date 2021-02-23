@@ -1,5 +1,5 @@
 ---
-title: 2020/05/20 Training: Class Supporters
+title: "2020/05/20 Training: Class Supporters"
 layout: en
 ---
 
