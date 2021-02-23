@@ -1,0 +1,77 @@
+{% comment %}
+このファイルについての詳細はこのディレクトリのREADME.mdを参照してください
+{% endcomment %}
+
+{% if page.procedure == "oc" or page.procedure == "faculty_members" %}
+<div style="border: 2px solid currentcolor; margin-bottom: 0.5em; padding: 0.5em; font-weight: bold; font-size: larger">
+以下の手順は3月中旬に予定されている<a href="/change2021s/">システム変更</a>の後のものです．現在の手順は「<a href="/zoom/#create_account">Zoomアカウントの作成</a>」のページをご覧ください．
+</div>
+{% endif %}
+
+<ul class="procedure">
+<li><strong>確認：サインインしてみる</strong>
+<ol>
+<li><a href="https://u-tokyo-ac-jp.zoom.us/">UTokyo Zoom</a>のページにアクセスしてください（これは東京大学専用のZoomのページで，通常のZoomのサインインページとは異なるので，注意してください）．</li>
+<li>「UTokyo Zoom」と書かれたページが表示されるので，そのページにある「Config」と書かれたボタンを押してください．</li>
+<li>ユーザ名とパスワードの入力を求められたら，UTokyo Account{% if page.procedure != "oc" and page.procedure != "faculty_members" %}（10桁の共通ID）{% endif %}の情報を入力してください．</li>
+<li>自分の名前が書かれたプロフィール画面が表示されればOKです．また，プロフィール画面の「ライセンスタイプ」という欄に「ライセンスあり ミーティング 300参加者」と書かれていることを確認してください．</li>
+</ol>
+<ul>
+<li>
+  <details>
+    <summary>この手順がうまくいかないときのヘルプ</summary>
+    <ul>
+      <li><strong>上のリンクにアクセスしても「UTokyo Zoom」と書かれたページが表示されない場合</strong>：前から持っていた自分のアカウントで既にZoomにサインインしているときに起きます．<a href="https://zoom.us/profile">Zoomの設定画面</a>の右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）をクリックして，「サインアウト」してください．その後，アクセスし直してみてください．</li>
+    </ul>
+    これらを確認して，それでもうまくいかなければ，<a href="/supports/">サポート窓口</a>に相談してください．
+  </details>
+</li>
+</ul>
+</li>
+<li><strong>作業：パソコンにアプリをインストールする</strong>
+<ol>
+<li>Zoomの「<a href="https://zoom.us/download#client_4meeting">ダウンロードセンター</a>」にアクセスしてください．</li>
+<li>一番上の「ミーティング用Zoomクライアント」にある「ダウンロード」ボタンを押してください．</li>
+<li>以後の手順は場合によって異なります．インストールの完了まで自動で進むこともあれば，確認ボタンを押したり，ダウンロードしたファイルを自分で開いたりといった操作の必要があるかもしれません．</li>
+</ol>
+<ul>
+<li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
+</ul>
+</li>
+<li><strong>任意の作業：スマホにアプリをインストールする</strong>{% if page.procedure == "oc" %}（必須ではありませんが，やっておくと，パソコンの調子がおかしいときなど，いざというときに安心です）{% endif %}
+<ol>
+<li>Androidの人は<a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings">Google Play</a>から，iPhoneの人は<a href="https://itunes.apple.com/us/app/id546505307">App Store</a>からインストールしてください．</li>
+</ol>
+<ul>
+<li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
+</ul>
+</li>
+<li><strong>確認：会議室に入ってみる</strong>{% if page.procedure == "oc" %}（実際に授業で使う予定の機器でやっておきましょう．また，予備としてパソコンだけでなくスマホでもやっておくと安心です）{% endif %}
+<ol>
+<li>会議室では，あなたのマイクの音声やカメラの映像が他の人に送られることがあります（ここで使うテスト用の会議室では，入っただけではそうならないようになっていますが，いろいろ試しているうちにそういうことがあるかもしれません）．気になる人は，音声や映像が送られても大丈夫な状況で行ってください．</li>
+<li><mark><a href="https://u-tokyo-ac-jp.zoom.us/j/xxxxxxxxx?pwd=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">https://u-tokyo-ac-jp.zoom.us/j/xxxxxxxxx?pwd=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</a></mark> にアクセスしてください．</li>
+<li><mark>作成中</mark></li>
+</ol>
+<ul>
+<li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
+</ul>
+</li>
+<li><strong>任意の作業：アプリにサインインする</strong>（自分で会議を開く機会がある人などには便利です）
+<ol>
+<li><mark>作成中</mark></li>
+</ol>
+<ul>
+<li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
+</ul>
+</li>
+{% if page.procedure != "oc" %}
+<li><strong>練習：会議室を作ってみる</strong>
+<ol>
+<li><mark>作成中</mark></li>
+</ol>
+<ul>
+<li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
+</ul>
+</li>
+{% endif %}
+</ul>
