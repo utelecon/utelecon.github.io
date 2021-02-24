@@ -55,6 +55,7 @@ procedure: faculty_members # 手順を外部ファイルからincludeすると�
 {% endcomment %}
 
 ### UTokyo Account
+{:#utokyo_account}
 
 {{ about_utokyo_account }}
 
@@ -67,6 +68,7 @@ procedure: faculty_members # 手順を外部ファイルからincludeすると�
 {% include procedures/utas.html %}
 
 ### ITC-LMS
+{:#itc_lms}
 
 {{ about_itc_lms }}
 
@@ -91,24 +93,28 @@ procedure: faculty_members # 手順を外部ファイルからincludeすると�
 詳細な使い方については，[このサイトのWebexについてのページ](/webex/)もご覧ください．
 
 ### ECCSクラウドメール (G Suite)
+{:#google}
 
 {{ about_google }}
 
 {% include procedures/google.html %}
 
 ### UTokyo Microsoft License (Microsoft 365)
+{:#microsoft}
 
 {{ about_microsoft }}
 
 {% include procedures/microsoft.html %}
 
 ### UTokyo WiFi
+{:#utokyo_wifi}
 
 {{ about_utokyo_wifi }}
 
 {% include procedures/utokyo_wifi.html %}
 
 ### ECCS端末
+{:#eccs}
 
 {{ about_eccs }}
 
