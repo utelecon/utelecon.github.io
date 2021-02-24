@@ -80,7 +80,7 @@ procedure: faculty_members # 手順を外部ファイルからincludeすると�
 
 {% include procedures/zoom.html %}
 
-詳細な使い方については，[このサイトのZoomについてのページ](/webex/)もご覧ください．
+詳細な使い方については，[このサイトのZoomについてのページ](/zoom/)もご覧ください．
 
 ### Webex
 
