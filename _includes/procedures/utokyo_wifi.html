@@ -2,8 +2,10 @@
 このファイルについての詳細はこのディレクトリのREADME.mdを参照してください
 {% endcomment %}
 
-<ul class="procedure">
-<li><strong>作業：アカウントを申請する</strong>
+{% assign part = include.part %}
+{% assign system = "UTokyo WiFi" %}
+
+{% capture apply_for_account %}
 <ul>
 <li>{%
   case page.slug %}{%
@@ -53,8 +55,9 @@
 </details>
 </li>
 </ul>
-</li>
-<li><strong>作業：ユーザーIDとパスワードを確認する</strong>
+{% endcapture %}
+
+{% capture confirm_user_id_and_password %}
 <ol>
 <li>アカウントの申請後しばらくすると，注意事項やユーザーID・パスワードなどの情報が書かれた通知メールが届くので，確認してください．</li>
 </ol>
@@ -80,7 +83,14 @@
 </details>
 </li>
 </ul>
-</li>
+{% endcapture %}
+
+{% unless include.part == "important" %}
+<ul class="procedure">
+{% endunless %}
+{% include procedures/_important.html procedure=apply_for_account type="作業" heading="アカウントを申請する" %}
+{% include procedures/_important.html procedure=confirm_user_id_and_password type="作業" heading="ユーザーIDとパスワードを確認する" %}
+{% unless include.part == "important" %}
 <li><strong>作業：実際につないでみる</strong>
 <ul>
 <li>この作業はキャンパス内のUTokyo WiFiが使える場所でしかできません．</li>
@@ -108,3 +118,4 @@
 </ul>
 </li>
 </ul>
+{% endunless %}

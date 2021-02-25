@@ -2,8 +2,10 @@
 このファイルについての詳細はこのディレクトリのREADME.mdを参照してください
 {% endcomment %}
 
-<ul class="procedure">
-<li><strong>作業：パスワードとメールアドレスを設定する</strong>
+{% assign part = include.part %}
+{% assign system = "ECCSクラウドメール" %}
+
+{% capture configure_password_and_email_address %}
 <ol>
 <li><mark><a href="https://www.ecc.u-tokyo.ac.jp/announcement/2021/02/09_3258.html">ECCS利用者メニュー</a></mark>にアクセスしてください．</li>
 <li>ユーザ名とパスワードの入力を求められたら，UTokyo Accountの情報を入力してください．</li>
@@ -13,7 +15,13 @@
 <ul>
 <li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
 </ul>
-</li>
+{% endcapture %}
+
+{% unless include.part == "important" %}
+<ul class="procedure">
+{% endunless %}
+{% include procedures/_important.html procedure=change_initial_password type="作業" heading="パスワードとメールアドレスを設定する" %}
+{% unless include.part == "important" %}
 <li><strong>確認：ログインしてみる</strong>
 <ol>
 <li>パスワードとメールアドレスを設定してから，反映に1時間かかるので，それまでしばらく待ってください．</li>
@@ -62,3 +70,4 @@
 </ul>
 </li>
 </ul>
+{% endunless %}
