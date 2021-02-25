@@ -8,7 +8,7 @@ This page explains how to create a Webex account that can use meetings with end-
 1. <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/06/07_2195.html" target="_blank">Validate your ECCS Cloud Email.</a>
 1. Apply for a Webex account using <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">the account applying form</a> (Japanese only).
 
-  * To access the form, you need to log in with your UTokyo Account (10 digit ID @utac.u-tokyo.ac.jp). If you cannot access the form, please follow the instructions of this [troubleshooting page](https://utelecon.github.io/faq/msaccount-troubleshooting) (Japanese only).
+  * To access the form, you need to log in with your UTokyo Account (10 digit ID @utac.u-tokyo.ac.jp). If you cannot access the form, please follow the instructions of this [troubleshooting page](/faq/msaccount-troubleshooting) (Japanese only).
   * When you register in the form, your new account is automatically created and you will receive an invitation mail to your ECCS Cloud Email. Follow the activation procedure below to start using Webex.
   * The invitation email will become ineffective after 15 days. Please activate your account within the time limit. If you have passed the time limit, please apply for retransmission of the invitation email (from the account applying form). 
   * If you have not received an invitation to your ECCS Cloud Email after one hour, please contact utelecon-inquiries@googlegroups.com.

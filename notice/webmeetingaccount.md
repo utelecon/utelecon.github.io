@@ -1,3 +1,3 @@
 ---
-redirect_to: "https://utelecon.github.io/notice/webmeetingaccount20201120"
+redirect_to: "/notice/webmeetingaccount20201120"
 ---

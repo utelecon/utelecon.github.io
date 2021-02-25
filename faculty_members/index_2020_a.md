@@ -11,7 +11,7 @@ Sセメスターの授業を通じ, 学生からも教員からも, オンライ
 
 Aセメスターはそのためにも一部の授業に対面(ハイブリッド)方式を取り入れる, 登校と感染拡大対策(登校人数の管理, オンライン授業との併用)を合わせて行う, 学生の負担を教員間で把握・共有する, などの課題にあらゆるレイヤ --- 大学で, 各学部・研究科で, 各学科・専攻で --- で取り組む期間となるのではないかと思います[<a href="https://www.nii.ac.jp/event/other/decs/" target="_blank" rel="noopener">4月からの大学等遠隔授業に関する取組状況共有サイバーシンポジウム</a> <a href="https://www.nii.ac.jp/event/upload/20200911-08_Fukuda.pdf" target="_blank" rel="noopener">東京大学のCOVID-19感染防止と教育の両立に向けた試み</a>].
 
-Sセメスターでのオンライン授業に対する学生・教員の反応からは, すべての授業を対面で行うことが大学の目指す終着地点ではないことも明らかです[<a href="https://utelecon.github.io/events/2020-09-11/" target="_blank" rel="noopener">9/11説明会</a> の <a href="https://utelecon.github.io/events/2020-09-11/slides/02-review-last-semester.pdf" target="_blank" rel="noopener">第2部: Sセメスタの振り返り</a>, <a href="https://youtu.be/sKRoV_Y9tUI" target="_blank" rel="noopener">動画</a>] . オンライン授業の利点, 対面が必須なところ, そして何よりも大切な, 人と人とが巡り合う場としてのキャンパスを両立させていく --- それによって学生が人間的にも学問的にも最高の成長を遂げることが出来る環境を作ること --- が目標となって行くことと思います. Aセメスターはその第一歩として, 学生を, Sセメスターの自粛生活で味わった孤独や苦しみから開放しながら, Sセメスターで発見したオンライン授業の利点も伸ばしていく期間となるのではないかと思います.
+Sセメスターでのオンライン授業に対する学生・教員の反応からは, すべての授業を対面で行うことが大学の目指す終着地点ではないことも明らかです[<a href="/events/2020-09-11/" target="_blank" rel="noopener">9/11説明会</a> の <a href="/events/2020-09-11/slides/02-review-last-semester.pdf" target="_blank" rel="noopener">第2部: Sセメスタの振り返り</a>, <a href="https://youtu.be/sKRoV_Y9tUI" target="_blank" rel="noopener">動画</a>] . オンライン授業の利点, 対面が必須なところ, そして何よりも大切な, 人と人とが巡り合う場としてのキャンパスを両立させていく --- それによって学生が人間的にも学問的にも最高の成長を遂げることが出来る環境を作ること --- が目標となって行くことと思います. Aセメスターはその第一歩として, 学生を, Sセメスターの自粛生活で味わった孤独や苦しみから開放しながら, Sセメスターで発見したオンライン授業の利点も伸ばしていく期間となるのではないかと思います.
 
 先生方の努力の結果が本ポータルに結集し共有され，本ポータルがオンライン化を成し遂げるコミュニティとなっていくことが，学生に対し質の高い学習環境の維持あるいは向上の支えになると信じております．
 
@@ -26,7 +26,7 @@ Sセメスターでのオンライン授業に対する学生・教員の反応�
 * システム名をクリックすると各システムへサインインするページに行けます.
 * 矢印は依存関係を示しており, A -> B は, 最初にAを使えるようにしてからBを使う必要があることを示しています(例えばZoomを使うにはG Suiteが使える必要があり, そのためにはUTokyo Accountが必要です).
 * 「要有効化」という印があるシステムは初めて使う際に初期設定作業が必要です. 「要有効化」をクリックするとそのページに行けます.
-* 詳細は <a href="https://utelecon.github.io/events/2020-09-11/" target="_blank" rel="noopener">9/11 説明会</a>の<a href="https://utelecon.github.io/events/2020-09-11/slides/01-ict-overview.pdf" target="_blank" rel="noopener">第一部: 授業に必要なICTシステムの概要</a> (<a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">動画</a>) で説明していますのでご覧ください
+* 詳細は <a href="/events/2020-09-11/" target="_blank" rel="noopener">9/11 説明会</a>の<a href="/events/2020-09-11/slides/01-ict-overview.pdf" target="_blank" rel="noopener">第一部: 授業に必要なICTシステムの概要</a> (<a href="https://youtu.be/GyakfzUL1Vs" target="_blank" rel="noopener">動画</a>) で説明していますのでご覧ください
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -304,7 +304,7 @@ LMS</text>
      d="m 735.16657,4.999665 c 0,-2.117 1.716,-3.833 3.833,-3.833 h 89.334 c 2.117,0 3.833,1.716 3.833,3.833 v 15.334 c 0,2.117 -1.716,3.833 -3.833,3.833 h -89.334 c -2.117,0 -3.833,-1.716 -3.833,-3.833 z" />
   <a
      id="a4872"
-     xlink:href="https://utelecon.github.io/webex/create_utelecon_account"
+     xlink:href="/webex/create_utelecon_account"
      target="_blank"
      transform="translate(-0.83343416,-1.833335)">
     <text
@@ -530,7 +530,7 @@ LMS</text>
      d="m 528.16657,6.999665 c 0,-2.117 1.716,-3.833 3.833,-3.833 h 89.334 c 2.117,0 3.833,1.716 3.833,3.833 v 15.334 c 0,2.117 -1.716,3.833 -3.833,3.833 h -89.334 c -2.117,0 -3.833,-1.716 -3.833,-3.833 z" />
   <a
      id="a4866"
-     xlink:href="https://utelecon.github.io/zoom/create_account"
+     xlink:href="/zoom/create_account"
      target="_blank"
      xlink:type=""
      xlink:role=""
@@ -702,9 +702,9 @@ LMS</text>
  * **作業:** まだ一度も使ったことがない人は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">初期パスワードを変更</a>してください. <a href="https://youtu.be/tTpAlqVhEXQ" target="_blank" rel="noopener">手順動画</a>
 1. <a name="utas"></a>**UTAS (学務システム):** 授業の内容(シラバス)を登録したり, 成績を入力したりするのに使うシステムです. 
  <!-- * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank" rel="noopener">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. -->
-1. <a name="itclms"></a>**ITC-LMS (学習管理システム):** 自分の授業で, 学生にお知らせをする, 課題を出す・回収する, 出欠を取る, などの用途に使います. <a href="https://utelecon.github.io/faculty_members/url_2020_a">オンライン授業のURLに関する情報も, このシステムを用いて学生に教える</a>ことになるでしょう. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 
+1. <a name="itclms"></a>**ITC-LMS (学習管理システム):** 自分の授業で, 学生にお知らせをする, 課題を出す・回収する, 出欠を取る, などの用途に使います. <a href="/faculty_members/url_2020_a">オンライン授業のURLに関する情報も, このシステムを用いて学生に教える</a>ことになるでしょう. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 
  * **作業(サインイン):** UTokyo Accountで<a href="https://itc-lms.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ITC-LMS</a>にサインインしてください.
- * ITC-LMSについての<a href="https://utelecon.github.io/lms_lecturers/">詳細</a>, <a href="https://utelecon.github.io/events/2020-09-11/">9/11説明会</a> での説明(<a href="https://utelecon.github.io/events/2020-09-11/slides/03-using-ict.pdf" target="_blank" rel="noopener">資料</a>, <a href="https://youtu.be/DwPtqldvBpg" target="_blank" rel="noopener">動画</a>)
+ * ITC-LMSについての<a href="/lms_lecturers/">詳細</a>, <a href="/events/2020-09-11/">9/11説明会</a> での説明(<a href="/events/2020-09-11/slides/03-using-ict.pdf" target="_blank" rel="noopener">資料</a>, <a href="https://youtu.be/DwPtqldvBpg" target="_blank" rel="noopener">動画</a>)
 1. <a name="microsoft_365"></a>**Microsoft 365:** Microsoftのサービスです. 講義資料やプレゼンテーションの作成など, いろいろなことに使えます.
  * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">UTokyo Account利用者メニュー</a> から「Office 365 ProPlus利用許諾」に合意し, Microsoft 365の有効化をして下さい (<a href="https://youtu.be/OYl5P67mDYI" target="_blank" rel="noopener">手順動画</a>).
   * このあと実際にExcelなどのアプリケーションが使えるようになるまで, 日中は最大3時間, 夜は翌朝11:00までお待ちください(正確には, 11:00, 14:00, 17:00, 20:00にこれまでの利用許諾が反映されます).
@@ -719,10 +719,10 @@ LMS</text>
     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhone</a> Googleアカウントを追加する
   * **練習:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank" rel="noopener">手順動画</a>)
 1. <a name="zoom"></a>**Zoom:** Web会議システムです. 多くのオンライン授業がZoomを使って行われています.
-  * **作業(有効化):** <a href="https://utelecon.github.io/zoom/#create_account">大学の Zoom アカウントの作り方</a>のページに従い, 大学のZoomアカウントを取得してください.
+  * **作業(有効化):** <a href="/zoom/#create_account">大学の Zoom アカウントの作り方</a>のページに従い, 大学のZoomアカウントを取得してください.
   * 授業で学生にZoomの操作を説明したい(そのためのスライドが欲しい)という先生のための, スライド(<a href="files/Zoom-how.pptx">pptx</a>, <a href="files/Zoom-how.pdf">pdf</a>)
 1. <a name="webex"></a>**WebEx:** another Web会議システムです. 授業で使われる場合は前もって有効化(アカウント作成)してください.
-  * **作業(有効化):** <a href="https://utelecon.github.io/webex/create_utelecon_account">WebExアカウントの作成とログイン</a>のページに従い, 大学のWebExアカウントを取得してください.
+  * **作業(有効化):** <a href="/webex/create_utelecon_account">WebExアカウントの作成とログイン</a>のページに従い, 大学のWebExアカウントを取得してください.
 
 **注意:** MicrosoftもGoogleも, すでに自分で使っているという方も多いとおもいます. そういう場合も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank" rel="noopener">Google</a>) をマスターしてください. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, 大学アカウントを使えば, 大学メンバー間でのみ共有できる文書を作ることができます.
 
@@ -730,7 +730,7 @@ LMS</text>
 
 
 ## オンライン授業の主な形態  
-　ここでは，従来の授業と比較しながら，オンライン授業の主な形態3つを紹介し，それぞれの形態の説明とオンライン授業（メディア授業）としての要件の説明を行います．各形態でポイントとなる点について, <a href="https://utelecon.github.io/events/2020-09-11/">9/11の説明会</a> の <a href="https://utelecon.github.io/events/2020-09-11/slides/04-course-types.pdf"  target="_blank" rel="noopener">第4部: 各種授業形態とポイント</a> (<a href="https://youtu.be/O2g44UTeiwU" target="_blank" rel="noopener">動画</a>)でも説明しています.
+　ここでは，従来の授業と比較しながら，オンライン授業の主な形態3つを紹介し，それぞれの形態の説明とオンライン授業（メディア授業）としての要件の説明を行います．各形態でポイントとなる点について, <a href="/events/2020-09-11/">9/11の説明会</a> の <a href="/events/2020-09-11/slides/04-course-types.pdf"  target="_blank" rel="noopener">第4部: 各種授業形態とポイント</a> (<a href="https://youtu.be/O2g44UTeiwU" target="_blank" rel="noopener">動画</a>)でも説明しています.
 
 ![従来の授業とオンライン授業の主な形態](img/types_overview.png)
 
@@ -742,14 +742,14 @@ LMS</text>
   * 実際の教室で授業をして，Web会議システムなどでその内容を配信する形態です．  
   * この形態のオンライン授業（メディア授業）としての要件は，「同時かつ双方向に行われる」ことです．Web会議システムを利用すれば，チャットや音声による通話ができるためその要件を満たせますし，映像配信であったとしてもコメントなどを受け付ける機能があれば，その要件を満たすことができます．
   * 参考: リアルタイム（対面+オンライン）型（同期ハイブリッド型）の準備方法（途中）[](classroom_type_synchronous_hybrid)
-  * 参考: [オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)
+  * 参考: [オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](/events/2020-03-19/)
   <br>
   <br>
 * リアルタイム（オンライン）型（同期オンライン型）
   * Web会議システムなどを用いて教員と学生全員がオンラインでつながり授業を行う形態です．  
   * この形態のオンライン授業（メディア授業）としての要件は，「同時かつ双方向に行われる」ことです．Web会議システムを利用すれば，チャットや音声による通話ができるためその要件を満たせますし，映像配信であったとしてもコメントなどを受け付ける機能があれば，その要件を満たすことができます．
   * 参考: リアルタイム（オンライン）型（同期オンライン型）の準備方法（途中）[](classroom_type_synchronous_online)
-  * 参考: [オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)
+  * 参考: [オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](/events/2020-03-19/)
   <br>
   <br>  
 * オンデマンド（オンライン）型（非同期オンライン型）
@@ -763,7 +763,7 @@ LMS</text>
   
     1. 当該授業に関する学生の意見交換の機会の確保が必要（学習管理システム ITC-LMS の掲示板機能で実現可能）
   * 参考: オンデマンド（オンライン）型（非同期オンライン型）の準備方法（途中）[](classroom_type_asynchronous_online)
-  * 参考: [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)
+  * 参考: [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](/events/2020-03-27/)
 
 
 ## 各授業方法のオンライン化（執筆中）
@@ -781,19 +781,19 @@ LMS</text>
   * [Google Classroom の使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)
   <br><br>
 * 教材の作り方
-  * [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)にてそれぞれのトピックを説明しているため，そちらの動画も御覧ください
+  * [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](/events/2020-03-27/)にてそれぞれのトピックを説明しているため，そちらの動画も御覧ください
   * [Googleドキュメントの音声認識を使った素早いテキスト入力の方法（外部サイト）](http://google.tku.ac.jp/docs/4/6)
   * [PowerPoint を用いた簡単な動画の作り方（外部サイト）](https://kagakucafe.com/202004095777.html)
   * [Zoom を使った動画の作り方（外部サイト）](https://media.tebiki.jp/022)
   <br><br>
 * 動画ファイルの共有方法
   * [Google Drive に動画ファイルをアップロードして共有する方法](how/google/share_video)
-  * [Zoom クラウドに録画して共有する方法](https://utelecon.github.io/zoom/how/faculty_members/recording_cloud)
+  * [Zoom クラウドに録画して共有する方法](/zoom/how/faculty_members/recording_cloud)
   <br><br>
 * Web 会議システムの使い方
-  * [Zoom](https://utelecon.github.io/zoom/)
-  * [Webex](https://utelecon.github.io/webex/)
-  * [Google Meet](https://utelecon.github.io/meet/)
+  * [Zoom](/zoom/)
+  * [Webex](/webex/)
+  * [Google Meet](/meet/)
 
 <a name="shared_materials"> </a>
 ## ご共有いただいた資料・実践例・参考情報（随時募集中）
