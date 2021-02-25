@@ -12,6 +12,10 @@ a {
 
 summary {
   cursor: pointer;
+  color: $body-link-color;
+  &:hover {
+    text-decoration: underline;
+  }
 
   /*
     "display" property for "summary" element should be "list-item", not "block"
