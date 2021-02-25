@@ -17,15 +17,15 @@
 ```
 ---
 title: オンライン授業を受けるために
-procedure: oc
+slug: oc
 ---
 ```
 
-のように書いたものが，このディレクトリのファイルからは `page.procedure` として読めます．
+のように書いたものが，このディレクトリのファイルからは `page.slug` として読めます．
 
 ```
-{% if page.procedure == "oc" %}
-この中は，冒頭に `procedure: oc` と書いたページでだけ表示される
+{% if page.slug == "oc" %}
+この中は，冒頭に `slug: oc` と書いたページでだけ表示される
 {% endif %}
 ```
 
@@ -34,7 +34,7 @@ procedure: oc
 switch/caseは，Ruby流のcase/whenで書きます．
 
 ```
-{% case page.procedure %}
+{% case page.slug %}
     {% when "oc" %}
         ここはocでだけ
     {% when "faculty_members" %}

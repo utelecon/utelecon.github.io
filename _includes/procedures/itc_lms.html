@@ -3,14 +3,14 @@
 {% endcomment %}
 
 <ul class="procedure">
-{% if page.procedure == "oc" %}
+{% if page.slug == "oc" %}
 <li><a href="https://youtu.be/xAur5zar5Sc">以下の手順の動画</a></li>
 {% endif %}
 <li><strong>練習：ログインしてみる</strong>
 <ol>
 <li><a href="https://itc-lms.ecc.u-tokyo.ac.jp/login">ITC-LMS</a>にアクセスして，「ログイン」を押してください．</li>
 <li>{%
-  if page.procedure == "oc" or page.procedure == "faculty_members"
+  if page.slug == "oc" or page.slug == "faculty_members"
     %}ユーザ名とパスワードの入力を求められたら，UTASの場合と同様に，UTokyo Accountの情報を入力してください（既に一度入力していれば，システムがその情報を覚えてくれていて，入力を求められないこともあります）．{%
   else
     %}ユーザ名とパスワードの入力を求められたら，UTokyo Account（10桁の共通ID）の情報を入力してください．{%
@@ -21,7 +21,7 @@
 <li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
 </ul>
 </li>
-{% if page.procedure == "oc" %}
+{% if page.slug == "oc" %}
 <li><strong>任意の作業：LINEと通知を連携する</strong>
 <ol>
 <li>ログインした後，右上の「Settings」を押してください．</li>

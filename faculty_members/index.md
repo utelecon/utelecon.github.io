@@ -1,6 +1,6 @@
 ---
 title: 東京大学でオンライン授業を始めるために
-procedure: faculty_members # 手順を外部ファイルからincludeするときに使う
+slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 ---
 
 ## はじめに

@@ -7,7 +7,7 @@
 <ol>
 <li><a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">UTAS</a>にアクセスして，「ログイン」を押してください．</li>
 <li>{%
-  if page.procedure == "oc" or page.procedure == "faculty_members"
+  if page.slug == "oc" or page.slug == "faculty_members"
     %}ユーザ名とパスワードの入力を求められるので，UTokyo Accountのユーザ名（10桁の数字）とパスワード（自分で設定したもの）を入力してください．{%
   else
     %}ユーザ名とパスワードの入力を求められたら，UTokyo Account（10桁の共通ID）の情報を入力してください．{%
@@ -18,8 +18,8 @@
 <li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
 </ul>
 </li>
-{% if page.procedure != "faculty_members" %}
-<li><strong>確認：メールアドレスが登録されているか確認する</strong>{% if page.procedure != "oc" %}（学生のみ）{% endif %}
+{% if page.slug != "faculty_members" %}
+<li><strong>確認：メールアドレスが登録されているか確認する</strong>{% if page.slug != "oc" %}（学生のみ）{% endif %}
 <ol>
 <li>ログインした後，上部のメニューで「学生情報」「現住所等変更入力」を順に押してください．</li>
 <li>その画面の「E-MAIL 1」という欄に，あなたに確実に届くメールアドレスが登録されているか確認してください．</li>

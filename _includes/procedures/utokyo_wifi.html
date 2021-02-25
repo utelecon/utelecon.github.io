@@ -6,7 +6,7 @@
 <li><strong>作業：アカウントを申請する</strong>
 <ul>
 <li>{%
-  case page.procedure %}{%
+  case page.slug %}{%
     when "oc"
       %}UTASにメールアドレスを登録した翌日以降に作業してください（まだ登録していない人は，<a href="#utas">UTAS</a>のところに書かれている手順で登録してください）．{%
     when "faculty_members"
@@ -19,10 +19,10 @@
 <ol>
 <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html">UTokyo WiFiのページ</a>にアクセスして，注意事項をよく読んでください．</li>
 <li>ページ内の「UTokyo WiFi アカウントメニュー」ボタンを押してください．</li>
-<li>ユーザ名とパスワードの入力を求められたら，UTokyo Account{% if page.procedure != "oc" and page.procedure != "faculty_members" %}（10桁の共通ID）{% endif %}の情報を入力してください．</li>
+<li>ユーザ名とパスワードの入力を求められたら，UTokyo Account{% if page.slug != "oc" and page.slug != "faculty_members" %}（10桁の共通ID）{% endif %}の情報を入力してください．</li>
 <li>「新規申請」ボタンを押してください．</li>
 <li>「通知用メールアドレス」の欄に，{%
-    case page.procedure %}{%
+    case page.slug %}{%
       when "oc"
         %}UTASで登録したメールアドレス{%
       when "faculty_members"
@@ -39,7 +39,7 @@
   <summary>この手順がうまくいかないときのヘルプ</summary>
   <ul>
     <li><strong>「通知用メールアドレス」の欄にメールアドレスが表示されない場合</strong>：メールアドレスが登録できていません．{%
-      case page.procedure %}{%
+      case page.slug %}{%
         when "oc"
           %}UTASにメールアドレスを登録した翌日以降に作業してください（まだ登録していない人は，<a href="#UTAS">UTAS</a>のところに書かれている手順で登録してください）．{%
         when "faculty_members"
@@ -65,7 +65,7 @@
   <ul>
     <li>迷惑メールを確認してください．</li>
     <li>メールは，申請画面の「通知用メールアドレス」欄に表示されているメールアドレス（{%
-        case page.procedure %}{%
+        case page.slug %}{%
           when "oc"
             %}UTASの「E-MAIL 1」に登録したメールアドレス{%
           when "faculty_members"

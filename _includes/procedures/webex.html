@@ -2,7 +2,7 @@
 このファイルについての詳細はこのディレクトリのREADME.mdを参照してください
 {% endcomment %}
 
-{% if page.procedure == "oc" or page.procedure == "faculty_members" %}
+{% if page.slug == "oc" or page.slug == "faculty_members" %}
 <div style="border: 2px solid currentcolor; margin-bottom: 0.5em; padding: 0.5em; font-weight: bold; font-size: larger">
 以下の手順は3月中旬に予定されている<a href="/change2021s/">システム変更</a>の後のものです．現在の手順は「<a href="/webex/create_utelecon_account">Webexアカウントの作成とログイン</a>」のページをご覧ください．
 </div>
@@ -39,12 +39,12 @@
 <li><mark>作成中</mark></li>
 </ul>
 </li>
-<li><strong>任意の作業：アプリにサインインする</strong>{% if page.procedure == "oc" %}（自分で会議を開く機会がある人などには便利です）{% endif %}
+<li><strong>任意の作業：アプリにサインインする</strong>{% if page.slug == "oc" %}（自分で会議を開く機会がある人などには便利です）{% endif %}
 <ul>
 <li>この項目の説明は準備中です．</li>
 </ul>
 </li>
-{% if page.procedure != "oc" %}
+{% if page.slug != "oc" %}
 <li><strong>練習：会議室を作ってみる</strong>
 <ol>
 <li><mark>作成中</mark></li>

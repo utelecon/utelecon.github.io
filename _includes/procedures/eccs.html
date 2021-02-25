@@ -3,8 +3,8 @@
 {% endcomment %}
 
 <ul>
-{% if page.procedure != "faculty_members" %}
-<li><strong>作業：「新規利用者講習」を受講する</strong>{% if page.procedure != "oc" %}（学生）{% endif %}
+{% if page.slug != "faculty_members" %}
+<li><strong>作業：「新規利用者講習」を受講する</strong>{% if page.slug != "oc" %}（学生）{% endif %}
 <ol>
 <li><a href="https://itc-lms.ecc.u-tokyo.ac.jp/login">ITC-LMS</a>にログインしてください．</li>
 <li>下の方の「講習」という欄にある「ECCS新規利用者講習会」を選んでください．</li>
@@ -24,8 +24,8 @@
 </ul>
 </li>
 {% endif %}
-{% if page.procedure != "oc" %}
-<li><strong>作業：利用権を申請する</strong>{% if page.procedure != "faculty_members" %}（教職員）{% endif %}
+{% if page.slug != "oc" %}
+<li><strong>作業：利用権を申請する</strong>{% if page.slug != "faculty_members" %}（教職員）{% endif %}
 <ol>
 <li>ECCSのページ「<a href="https://www.ecc.u-tokyo.ac.jp/doc/announce/newuser_staff.html">新規アカウントの発行について (教職員等)</a>」をご覧ください．</li>
 </ol>
@@ -36,8 +36,8 @@
 <li>この手順はECCS端末を使います．<a href="https://userguide.ecc.u-tokyo.ac.jp/current/C3BCCBF6A4CEC7DBC3D6C5F92FC3BCCBF6A4CEC7DBC3D6.html">キャンパス内のECCS端末が設置されている場所</a>を確認してください．</li>
 </ul>
 <ol>
-{% if page.procedure != "faculty_members" %}
-<li>{% if page.procedure != "oc" %}（学生の場合）{% endif %}「新規利用者講習」に合格してから，反映に1時間かかるので，それまで待ってください．</li>
+{% if page.slug != "faculty_members" %}
+<li>{% if page.slug != "oc" %}（学生の場合）{% endif %}「新規利用者講習」に合格してから，反映に1時間かかるので，それまで待ってください．</li>
 {% endif %}
 <li>設置されているECCS端末の電源ボタンを押して電源を入れてください．</li>
 <li>しばらく待つとログイン画面が表示されます．UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．</li>
