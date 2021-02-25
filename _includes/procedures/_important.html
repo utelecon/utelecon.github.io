@@ -1,11 +1,7 @@
 <li>
 {%
   if part != "important" and page.slug == "oc" or page.slug == "faculty_members"
-    %}<details><summary>{%
-  endif
-%}{%
-  if part != "important" and page.slug == "oc" or page.slug == "faculty_members"
-    %}（再掲）{%
+    %}<details><summary>（再掲）{%
   endif
 %}<strong>{%
   if part == "important"
