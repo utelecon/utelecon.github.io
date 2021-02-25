@@ -12,7 +12,7 @@
 </ul>
 {% elsif page.slug == "oc" and part != "important" %}
 <ul>
-<li>UTASでのメールアドレス登録がされていない場合，申請できません．まだの場合は，<a href="#UTAS">UTAS</a>のところに書かれている手順で登録を行い，その翌日以降に作業してください．</li>
+<li>UTASでのメールアドレス登録がされていない場合，申請できません．まだの場合は，<a href="#utas">UTAS</a>のところに書かれている手順で登録を行い，その翌日以降に作業してください．</li>
 </ul>
 {% elsif page.slug != "oc" and page.slug != "faculty_members" %}
 <ul>
@@ -49,7 +49,7 @@
     <li><strong>「通知用メールアドレス」の欄にメールアドレスが表示されない場合</strong>：メールアドレスが登録できていません．{%
       case page.slug %}{%
         when "oc"
-          %}<a href="#UTAS">UTAS</a>のところに書かれている手順でメールアドレスを登録し，その翌日以降に作業してください．{%
+          %}<a href="#utas">UTAS</a>のところに書かれている手順でメールアドレスを登録し，その翌日以降に作業してください．{%
         when "faculty_members"
           %}人事情報MyWebにメールアドレスを登録した翌日以降に作業してください{%
         else
