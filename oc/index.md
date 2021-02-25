@@ -104,6 +104,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 <ul class="procedure">
 {% include procedures/utokyo_account.html part="important" %}
 {% include procedures/google.html part="important" %}
+{% include procedures/utas.html part="important" %}
 {% include procedures/utokyo_wifi.html part="important" %}
 </ul>
 

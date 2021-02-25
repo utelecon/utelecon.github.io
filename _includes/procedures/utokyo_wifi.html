@@ -6,24 +6,29 @@
 {% assign system = "UTokyo WiFi" %}
 
 {% capture apply_for_account %}
-{% if page.slug == "faculty_members" %}
 <ul>
-<li>人事情報MyWebでのメールアドレス登録がされていない場合，申請できません．まだの場合はあらかじめ登録を済ませ，その翌日以降に作業してください．</li>
+<li>{%
+  case page.slug %}{%
+    when "oc"
+      %}UTASにメールアドレスを登録した翌日以降に作業してください（まだ登録していない人は，{%
+        if include.part == "important"
+          %}上の{%
+        else
+          %}<a href="#utas">UTAS</a>のところに書かれている{%
+        endif
+      %}手順で登録してください）．{%
+    when "faculty_members"
+      %}人事情報MyWebにメールアドレスが登録されていない場合，申請できません．まだの場合はあらかじめ登録を済ませ，その翌日以降に作業してください．{%
+    else
+      %}学生はUTASでの，教職員は人事情報MyWebでのメールアドレス登録がされていない場合，申請できません．まだの場合はあらかじめ登録を済ませ，その翌日以降に作業してください．{%
+  endcase
+%}</li>
 </ul>
-{% elsif page.slug == "oc" and part != "important" %}
-<ul>
-<li>UTASでのメールアドレス登録がされていない場合，申請できません．まだの場合は，<a href="#utas">UTAS</a>のところに書かれている手順で登録を行い，その翌日以降に作業してください．</li>
-</ul>
-{% elsif page.slug != "oc" and page.slug != "faculty_members" %}
-<ul>
-<li>学生はUTASでの，教職員は人事情報MyWebでのメールアドレス登録がされていない場合，申請できません．まだの場合はあらかじめ登録を済ませ，その翌日以降に作業してください．</li>
-</ul>
-{% endif %}
 <ol>
 <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html">UTokyo WiFiのページ</a>にアクセスして，注意事項をよく読んでください．</li>
 <li>ページ内の「UTokyo WiFi アカウントメニュー」ボタンを押してください．</li>
 <li>サインインを求められたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください{%
-  if part == "important"
+  if part == "important" and page.slug == "faculty_members"
     %}（既に一度入力していれば，システムがその情報を覚えてくれていて，入力を求められないこともあります）{%
   endif
 %}．</li>
@@ -31,13 +36,13 @@
 <li>「通知用メールアドレス」の欄に，{%
     case page.slug %}{%
       when "oc"
-        %}{% if include.part == "important" %}自分に確実に届くメールアドレスが表示されていることを{% else %}UTASで登録したメールアドレスが表示されているので，{% endif %}{%
+        %}UTASで登録したメールアドレス{%
       when "faculty_members"
-        %}人事情報MyWebで登録したメールアドレスが表示されているので，{%
+        %}人事情報MyWebで登録したメールアドレス{%
       else
-        %}メールアドレス（学生はUTASで登録したもの，教職員は人事情報MyWebで登録したもの）が表示されているので，{%
+        %}メールアドレス（学生はUTASで登録したもの，教職員は人事情報MyWebで登録したもの）{%
     endcase
-  %}確認してください．このメールアドレスにパスワードなどの情報が届きます．</li>
+  %}が表示されているので，確認してください．このメールアドレスにパスワードなどの情報が届きます．</li>
 <li>「申請」ボタンを押してください．</li>
 <li>しばらくすると，注意事項やユーザーID・パスワードなどの情報が書かれた通知メールが届くので，確認してください．</li>
 </ol>
@@ -49,7 +54,13 @@
     <li><strong>「通知用メールアドレス」の欄にメールアドレスが表示されない場合</strong>：メールアドレスが登録できていません．{%
       case page.slug %}{%
         when "oc"
-          %}<a href="#utas">UTAS</a>のところに書かれている手順でメールアドレスを登録し，その翌日以降に作業してください．{%
+          %}{%
+            if include.part == "important"
+              %}上の手順でUTASに{%
+            else
+              %}<a href="#utas">UTAS</a>のところに書かれている手順で{%
+            endif
+          %}メールアドレスを登録し，その翌日以降に作業してください．{%
         when "faculty_members"
           %}人事情報MyWebにメールアドレスを登録した翌日以降に作業してください{%
         else
@@ -59,16 +70,16 @@
     <li><strong>通知メールが届かない場合</strong>：
       <ul>
         <li>迷惑メールを確認してください．</li>
-        <li>メールは，申請画面の「通知用メールアドレス」欄に表示されているメールアドレス{%
+        <li>メールは，申請画面の「通知用メールアドレス」欄に表示されているメールアドレス（{%
             case page.slug %}{%
               when "oc"
-                %}{% unless include.part == "important" %}UTASの「E-MAIL 1」に登録したメールアドレス{% endunless %}{%
+                %}UTASの「E-MAIL 1」に登録したメールアドレス{%
               when "faculty_members"
-                %}（人事情報MyWebで登録したメールアドレス）{%
+                %}人事情報MyWebで登録したメールアドレス{%
               else
-                %}（学生はUTASの「E-MAIL 1」に登録したメールアドレス，教職員は人事情報MyWebで登録したメールアドレス）{%
+                %}学生はUTASの「E-MAIL 1」に登録したメールアドレス，教職員は人事情報MyWebで登録したメールアドレス{%
             endcase
-          %}に届きます．違うメールアドレスを見ていないか確認してください．</li>
+          %}）に届きます．違うメールアドレスを見ていないか確認してください．</li>
         <li>メールアドレスによっては、メールが届かなかったり遅れて届く場合があります． @icloud.com のメールアドレスには届かないことがわかっています．また，Gmail (@gmail.com) のメールアドレスには遅れて届く場合が多いことがわかっています．メールアドレスの登録を他のものに変更して，翌日以降に再度申請してください．登録するメールアドレスはECCSクラウドメール (@g.ecc.u-tokyo.ac.jp) が推奨です．</li>
       </ul>
     </li>
