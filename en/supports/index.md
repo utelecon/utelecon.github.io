@@ -9,7 +9,7 @@ layout: en
 ## To find a solution to your problem
 At present, following services are provided to find a solution to your problem．
 
-* [FAQ](https://utelecon.github.io/faq) (Japanese only. Click [here](https://utelecon.github.io/en/faq/) for an excerpted English version.)
+* [FAQ](/faq) (Japanese only. Click [here](/en/faq/) for an excerpted English version.)
   * This is a list of frequently asked questions and the ways to handle them.
 * Chat Support
   * First, the chatbot will ask you questions to identify your problem and give you solutions. Then, if your problem cannot be solved by the chatbot, you will be connected to the live chat support by student operators called “common supporters”. 
@@ -20,14 +20,14 @@ At present, following services are provided to find a solution to your problem�
   * Please be aware that it may take time due to the long line.
 
 Please try solving the problem following the current shown below.
-1. First, please read the [FAQ](https://utelecon.github.io/faq) (Japanese only. Click [here](https://utelecon.github.io/en/faq/) for an excerpted English version.) and look for similar troubles.
+1. First, please read the [FAQ](/faq) (Japanese only. Click [here](/en/faq/) for an excerpted English version.) and look for similar troubles.
 1. If you couldn’t solve your problem, please try out the Chat Support at the right bottom corner of this page.
 1. If your problem couldn’t be solved by the Chat Support, please post your question at the Q&A Forum.
 1. If all of the above steps didn’t work out, please go on to the Support by Email.
 
 ## FAQ 
-Frequently asked questions and their answers are listed on the [FAQ page](https://utelecon.github.io/en/faq). But we’re sorry that this English version does not contain as much information as the Japanese version. You can also refer to the [Japanese version](https://utelecon.github.io/faq).  
-[https://utelecon.github.io/faq](https://utelecon.github.io/faq)
+Frequently asked questions and their answers are listed on the [FAQ page](/en/faq). But we’re sorry that this English version does not contain as much information as the Japanese version. You can also refer to the [Japanese version](/faq).  
+[/faq](/faq)
 
 ## Chat Support
 * About this service
@@ -49,7 +49,7 @@ Frequently asked questions and their answers are listed on the [FAQ page](https:
 ## Q&A Forum
 As a forum for questions and discussion is in use, please join it and check the past discussions for similar problems. You can also post new questions, so please consider using the forum.
 For information about how to join the forum, please visit the site below. 
-[https://utelecon.github.io/en/forums/](https://utelecon.github.io/en/forums/)
+[/en/forums/](/en/forums/)
 
 ## Support by Email
 If your problem couldn’t be solved by the ways above, please contact us by email after having considered the following notices.
