@@ -3,6 +3,10 @@ title: 東京大学でオンライン授業を始めるために
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 ---
 
+<div style="border: 2px solid currentcolor; margin-bottom: 0.5em; padding: 0.5em; font-weight: bold; font-size: larger">
+このページの内容の一部は3月中旬までに予定されている<a href="/change2021s/">システム変更</a>の後のものです．新たに構成員になる人へ向けたマニュアルを作成される方のために公開しています．
+</div>
+
 ## はじめに
 
 新たに教職員になられた皆様
