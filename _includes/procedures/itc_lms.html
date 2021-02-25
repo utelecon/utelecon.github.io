@@ -9,11 +9,7 @@
 <li><strong>練習：ログインしてみる</strong>
 <ol>
 <li><a href="https://itc-lms.ecc.u-tokyo.ac.jp/login">ITC-LMS</a>にアクセスして，「ログイン」を押してください．</li>
-<li>サインインを求められたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください{%
-  if page.slug == "oc" or page.slug == "faculty_members"
-    %}（既に一度入力していれば，システムがその情報を覚えてくれていて，入力を求められないこともあります）{%
-  endif
-%}．</li>
+<li>ユーザ名とパスワードの入力を求められたら，UTokyo Account{% if page.slug != "oc" and page.slug != "faculty_members" %}（10桁の共通ID）{% endif %}の情報を入力してください．</li>
 </ol>
 <ul>
 <li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
