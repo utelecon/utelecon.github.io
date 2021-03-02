@@ -16,9 +16,9 @@ title: サポート窓口
 * 問い合わせで得た情報は，回答を行うために利用するほか，今後のサポート向上のため内部で共有することや，個人が特定できないようにした上で事例として公開することがあります．法令上の例外を除き，これ以外の利用を行うことはありません．
 * 学生スタッフによる情報の取扱いについては，必要な文書を取り交わした上で，教職員の管理・監督のもと行っています．
 * チャット窓口（オペレータ対応）・Zoom窓口では，混雑状況により，ご案内までにお時間をいただく場合があります．その場合はメールフォームで問い合わせいただくか，時間をあけて再度お問い合わせください．
-* チャット窓口において，オペレータとのチャットを開始したページから別のページに移動した場合，メッセージが受信できなくなることがあります．相談中は，オペレータとのチャットを開始したページを閉じないでください．
+* チャット窓口において，オペレータとのチャットを開始したページから別のページに移動した場合，メッセージが受信できなくなることがあります．やり取りの間は，オペレータとのチャットを開始したページを閉じないでください．
 
-<div style="border: 2px solid #159957; margin: 2em -1em 0; padding: 1em;">
+<div class="support-channel-main">
 
 <h2 id="chat">チャットで相談する</h2>
 
@@ -28,11 +28,11 @@ title: サポート窓口
 対応時間（オペレータ対応）：平日 10時20分から16時45分まで
 
 </div>
-<div style="border: 2px solid #159957; margin: -2px -1em 2em; padding: 0.5em 1em; text-align: center; font-weight: bolder">
+<div class="support-channel-link">
 画面右下のウィジェット<br>「チャットサポートで質問できます」から
 </div>
 
-<div style="border: 2px solid #159957; margin: 2em -1em 0; padding: 1em;">
+<div class="support-channel-main">
 
 <h2 id="zoom">Zoomで相談する</h2>
 
@@ -42,12 +42,17 @@ title: サポート窓口
 
 </div>
 
+<<<<<<< HEAD
 <div style="border: 2px solid #159957; margin: -2px -1em 2em; padding: 0.5em 1em; text-align: center; font-weight: bolder">
 <a href="https://docs.google.com/document/d/1hN0VpQj3engH5lAZUJ_gIsNTnJBkrUkUXgoV_T03Iec/edit?usp=sharing">会議室情報（要ECCSクラウドメール）</a>
+=======
+<div class="support-channel-link">
+<a href="#">会議室情報（要ECCSクラウドメール）</a>
+>>>>>>> 717a4b7ddf7101530cc65e094b030f4f8472a264
 </div>
 
 
-<div style="margin: 2em -1em 0; padding: 1em; border: 2px solid #159957;">
+<div class="support-channel-main">
 
 <h2 id="email-form">メールフォームで相談する</h2>
 
@@ -58,8 +63,13 @@ title: サポート窓口
 受付時間：24時間
 
 </div>
+<<<<<<< HEAD
 <div style="border: 2px solid #159957; margin: -2px -1em 2em; padding: 0.5em 1em; text-align: center; font-weight: bolder">
 <a href="https://forms.gle/UmtsPRfGvW1nsXDS7">メールフォーム</a>
+=======
+<div class="support-channel-link">
+<a href="#">メールフォーム</a>
+>>>>>>> 717a4b7ddf7101530cc65e094b030f4f8472a264
 </div>
 
 ## そのほかのサポート
