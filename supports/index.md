@@ -41,16 +41,9 @@ title: サポート窓口
 対応時間：平日 10時20分から16時45分まで
 
 </div>
-
-<<<<<<< HEAD
-<div style="border: 2px solid #159957; margin: -2px -1em 2em; padding: 0.5em 1em; text-align: center; font-weight: bolder">
-<a href="https://docs.google.com/document/d/1hN0VpQj3engH5lAZUJ_gIsNTnJBkrUkUXgoV_T03Iec/edit?usp=sharing">会議室情報（要ECCSクラウドメール）</a>
-=======
 <div class="support-channel-link">
-<a href="#">会議室情報（要ECCSクラウドメール）</a>
->>>>>>> 717a4b7ddf7101530cc65e094b030f4f8472a264
+<a href="https://docs.google.com/document/d/1hN0VpQj3engH5lAZUJ_gIsNTnJBkrUkUXgoV_T03Iec/edit?usp=sharing">会議室情報（要ECCSクラウドメール）</a>
 </div>
-
 
 <div class="support-channel-main">
 
@@ -63,13 +56,8 @@ title: サポート窓口
 受付時間：24時間
 
 </div>
-<<<<<<< HEAD
-<div style="border: 2px solid #159957; margin: -2px -1em 2em; padding: 0.5em 1em; text-align: center; font-weight: bolder">
-<a href="https://forms.gle/UmtsPRfGvW1nsXDS7">メールフォーム</a>
-=======
 <div class="support-channel-link">
-<a href="#">メールフォーム</a>
->>>>>>> 717a4b7ddf7101530cc65e094b030f4f8472a264
+<a href="https://forms.gle/UmtsPRfGvW1nsXDS7">メールフォーム</a>
 </div>
 
 ## そのほかのサポート
