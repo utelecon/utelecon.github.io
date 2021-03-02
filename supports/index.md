@@ -71,12 +71,12 @@ title: サポート窓口
 
 ### メールによる問い合わせ
 
-メールフォームにアクセスできない場合は，サポート窓口（utelecon-inquiries@googlegroups.com）までメールをお送りいただくこともできます．問い合わせを教職員が確認して返信します．
+上のメールフォーム窓口が利用できない（アクセスできない，送信できない）場合は， utelecon-inquiries@googlegroups.com 宛にメールをお送りいただくこともできます．問い合わせを教職員が確認して返信します．
 
-その際，本文は以下のテンプレートを用いてください．Zoom 専用と共通のテンプレートがあります．
+その際，本文は以下のテンプレートを用いてください．Zoomに関する問い合わせ用とそれ以外の問い合わせ用のテンプレートがあります．
 
 <details>
-<summary>Zoom 専用テンプレート</summary>
+<summary>問い合わせメールのテンプレート（Zoomに関する問い合わせ用）</summary>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
 >氏名 : 
@@ -93,7 +93,7 @@ Zoom に関してどのような問題が発生していますか？ :
 </details>
 
 <details>
-<summary>共通テンプレート</summary>
+<summary>問い合わせメールのテンプレート（それ以外の問い合わせ用）</summary>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
 >氏名 : 
