@@ -75,9 +75,11 @@ title: サポート窓口
 
 その際，本文は以下のテンプレートを用いてください．Zoom 専用と共通のテンプレートがあります．
 
-#### Zoom 専用テンプレート
-```
-氏名 : 
+<details>
+<summary>Zoom 専用テンプレート</summary>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
+>氏名 : 
 所属 : 所属部局・学部・研究科等を記入してください．
 構成員分類 : 教職員か学生かを記入してください．
 身分・学年 : 
@@ -86,12 +88,15 @@ ECCSクラウドメールアドレス: ご自身で設定された文字列@g.ec
 共通ID数字10桁@g.ecc.u-tokyo.ac.jp でZoomにサインインできますか？: はい，いいえ（どちらかを消してください）
 サインインできる場合, User Type, 容量 (Capacity) がどう表示されていますか？
 Zoom に関してどのような問題が発生していますか？ : 
-```
+</code></pre></div></div>
 
-#### 共通テンプレート
+</details>
 
-```
-氏名 : 
+<details>
+<summary>共通テンプレート</summary>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
+>氏名 : 
 所属 : 所属部局・学部・研究科等を記入してください．
 構成員分類 : 教職員か学生かを記入してください．
 身分・学年 : 
@@ -102,4 +107,6 @@ Zoom に関してどのような問題が発生していますか？ :
 a) どのシステムに関する質問ですか？
 b) 何をしようとしましたか？可能であれば，参考にした資料（Webサイトなど）も記入してください．
 c) どのような問題が発生していますか？
-```
+</code></pre></div></div>
+
+</details>
