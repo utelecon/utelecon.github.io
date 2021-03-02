@@ -17,7 +17,7 @@ title: サポート窓口
 * チャット窓口（オペレータ対応）・Zoom窓口では，混雑状況により，ご案内までにお時間をいただく場合があります．その場合はメールフォームで問い合わせいただくか，時間をあけて再度お問い合わせください．
 * チャット窓口において，オペレータとのチャットを開始したページから別のページに移動した場合，メッセージが受信できなくなることがあります．やり取りの間は，オペレータとのチャットを開始したページを閉じないでください．
 
-<div style="border: 2px solid #159957; margin: 2em -1em 0; padding: 1em;">
+<div class="support-channel-main">
 
 <h2 id="chat">チャットで相談する</h2>
 
@@ -27,11 +27,11 @@ title: サポート窓口
 対応時間（オペレータ対応）：平日 10時20分から16時45分まで
 
 </div>
-<div style="border: 2px solid #159957; margin: -2px -1em 2em; padding: 0.5em 1em; text-align: center; font-weight: bolder">
+<div class="support-channel-link">
 画面右下のウィジェット<br>「チャットサポートで質問できます」から
 </div>
 
-<div style="border: 2px solid #159957; margin: 2em -1em 0; padding: 1em;">
+<div class="support-channel-main">
 
 <h2 id="zoom">Zoomで相談する</h2>
 
@@ -41,12 +41,12 @@ title: サポート窓口
 
 </div>
 
-<div style="border: 2px solid #159957; margin: -2px -1em 2em; padding: 0.5em 1em; text-align: center; font-weight: bolder">
+<div class="support-channel-link">
 <a href="#">会議室情報（要ECCSクラウドメール）</a>
 </div>
 
 
-<div style="margin: 2em -1em 0; padding: 1em; border: 2px solid #159957;">
+<div class="support-channel-main">
 
 <h2 id="email-form">メールフォームで相談する</h2>
 
@@ -57,7 +57,7 @@ title: サポート窓口
 受付時間：24時間
 
 </div>
-<div style="border: 2px solid #159957; margin: -2px -1em 2em; padding: 0.5em 1em; text-align: center; font-weight: bolder">
+<div class="support-channel-link">
 <a href="#">メールフォーム</a>
 </div>
 
