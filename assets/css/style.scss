@@ -25,3 +25,26 @@ summary {
   */
   display: list-item;
 }
+
+/* supportsページ用 */
+.support-channel-main {
+  border: 2px solid #159957;
+  margin: 2em -1em 0;
+  padding: 1em;
+}
+.support-channel-link {
+  border: 2px solid #159957;
+  margin: -2px -1em 2em;
+  padding: 0.5em 1em;
+  text-align: center;
+  font-weight: bolder;
+}
+@media screen and (max-width: 42em) {
+  .support-channel-main,
+  .support-channel-link {
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
