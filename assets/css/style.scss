@@ -15,14 +15,6 @@ summary {
   &:hover {
     text-decoration: underline;
   }
-
-  /*
-    "display" property for "summary" element should be "list-item", not "block"
-    (Since cayman theme uses old normalize.css, we override its value here)
-    https://github.com/necolas/normalize.css/commit/55ed05a79c0fd7a9a2c330c6925b982a7d5b307c
-    https://html.spec.whatwg.org/multipage/rendering.html#the-details-and-summary-elements
-  */
-  display: list-item;
 }
 
 /* supportsページ用 */
