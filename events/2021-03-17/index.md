@@ -20,8 +20,8 @@ title: 2021/03/17 説明会:2021年度のオンライン授業に向けて ― 2
 
 ## 内容（予定）
 
-
 <a href="slides/00-index.pdf">目次</a>
+
 1. 挨拶 (大久保達也 教育・情報システム担当理事・副学長)
   
 2．<a href="slides/#">2021年度のオンライン授業(資料準備中)</a> (田浦) 
@@ -55,7 +55,7 @@ title: 2021/03/17 説明会:2021年度のオンライン授業に向けて ― 2
 
 ## 参加申込み
 
-* こちらからお申込みください　[説明会参加申し込み](https://u-tokyo-ac-jp.zoom.us/webinar/register/2016142429185/WN_cHTxJz9TSrSsA3iSDcmWRQ)
+* こちらからお申込みください　[説明会参加申し込みページ](https://u-tokyo-ac-jp.zoom.us/webinar/register/2016142429185/WN_cHTxJz9TSrSsA3iSDcmWRQ)
 
 
 ## 事後アンケート
