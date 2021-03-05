@@ -36,19 +36,23 @@
           </button>
           <div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
         </div>
-        <a href="/"><img src="/assets/images/utelecon.svg" alt="logo"></a>
-        <p>オンライン授業・web会議ポータルサイト@東京大学</p>
+        <div class="header-logo">
+          <a href="/"><img src="/assets/images/utelecon.svg" alt="logo"></a>
+          <p>オンライン授業・web会議ポータルサイト@東京大学</p>
+        </div>
       </div>
-      <div class="header-right">
-        <a href="/sitemap/">このサイトについて</a> | <img src="/assets/images/translation.svg" alt=""><a href="/en{{page.url}}">English</a>
-      </div>
+      <div class="header-right" style="display: flex; align-items: center;">
+        <div class="gcse-search"></div>
+        <div>
+          <a href="/sitemap/">このサイトについて</a> | <a href="/en{{page.url}}">English</a>
+        </div>
       </div>
     </header>
 
     <nav class="top_menu">
       <ul class="menu">
           <li class="menu__single">
-              <a href="#" class="init-bottom">教育用ICT</a>
+              <a href="" class="init-bottom">教育用ICT</a>
               <ul class="menu__second-level">
                   <li><a href="/oc/">学生用(2020 Aセメスター版)</a></li>
                   <li><a href="/faculty_members/">教員用(2020 Aセメスター版)</a></li>
@@ -61,7 +65,7 @@
               </ul>
           </li>
           <li class="menu__single">
-              <a href="#" class="init-bottom">Web会議</a>
+              <a href="" class="init-bottom">Web会議</a>
               <ul class="menu__second-level">
                   <li><a href="/zoom">Zoom</a></li>
                   <li><a href="/webex">Webex</a></li>
@@ -69,7 +73,7 @@
               </ul>
           </li>
           <li class="menu__single">
-              <a href="#" class="init-bottom">イベント・説明会</a>
+              <a href="" class="init-bottom">イベント・説明会</a>
               <ul class="menu__second-level">
                   <li><a href="/events/2020-luncheon/">オンライン授業情報交換会</a></li>
                   <li><a href="/events/2020-09-11/">9/11 説明会: Aセメスターに向けて</a></li>
@@ -78,7 +82,7 @@
               </ul>
           </li>
           <li class="menu__single">
-              <a href="#" class="init-bottom">各種申請・報告フォーム</a>
+              <a href="" class="init-bottom">各種申請・報告フォーム</a>
               <ul class="menu__second-level">
                   <li><a href="/supports">トラブルサポート窓口</a></li>
                   <li><a href="/forums/">QAフォーラム, MLなど</a></li>
@@ -93,14 +97,21 @@
     </nav>
 
     <main id="content" class="main-content" role="main">
-      <div class="container" style="border-bottom: black thin solid;">
+      <div class="container" style="border-bottom:  #ececec thin solid;">
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-
-        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
       </div>
 
-      <h3>目次</h3>
-      {% include toc.html html=content %}
+      {% assign is_toc_valid = true %}
+
+      {% if page.url == "/" %}
+        {% assign is_toc_valid = false %}
+      {% endif %}
+
+      {% if is_toc_valid %}
+        <h3>目次</h3>
+        {% include toc.html html=content %}
+      {% endif %}
 
       {{ content }}
 
@@ -191,7 +202,7 @@
         </div>
         <ul class="footer_sitemap">
           <li class="footer_sitemap_title_list">
-              <a href="#" class="title">教育用ICT</a>
+              <p class="title">教育用ICT</p>
               <ul class="">
                   <li><a href="/oc/">学生用(2020 Aセメスター版)</a></li>
                   <li><a href="/faculty_members/">教員用(2020 Aセメスター版)</a></li>
@@ -204,7 +215,7 @@
               </ul>
           </li>
           <li class="footer_sitemap_title_list">
-              <a href="#" class="title">Web会議</a>
+              <p class="title">Web会議</p>
               <ul class="">
                   <li><a href="/zoom">Zoom</a></li>
                   <li><a href="/webex">Webex</a></li>
@@ -212,7 +223,7 @@
               </ul>
           </li>
           <li class="footer_sitemap_title_list">
-              <a href="#" class="title">イベント・説明会</a>
+              <p class="title">イベント・説明会</p>
               <ul class="">
                   <li><a href="/events/2020-luncheon/">オンライン授業情報交換会</a></li>
                   <li><a href="/events/2020-09-11/">9/11 説明会: Aセメスターに向けて</a></li>
@@ -221,7 +232,7 @@
               </ul>
           </li>
           <li class="footer_sitemap_title_list">
-              <a href="#" class="title">各種申請・報告フォーム</a>
+              <p class="title">各種申請・報告フォーム</p>
               <ul class="">
                   <li><a href="/supports">トラブルサポート窓口</a></li>
                   <li><a href="/forums/">QAフォーラム, MLなど</a></li>

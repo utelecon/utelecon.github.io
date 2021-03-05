@@ -22,23 +22,31 @@
     .bar-btn-normal {
       display: none;
     }
-    img {
-      margin: 10px;
-      width: 100px;
-    }
-    p {
-      font-size: 12px;
+    .header-logo {
+      margin: 10px 0 0 10px;
+      a {
+        display: block;
+      }
+      img {
+        margin: 0 0 5px;
+        width: 100px;
+        display: block;
+      }
+      p {
+        font-size: 12px;
+        margin: 0;
+      }
     }
   }
   .header-right {
-    padding: 10px;
+    padding: 0 10px;
     img {
       width: 18px;
       margin: 0 5px;
     }
     a {
       color: white;
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 }
@@ -68,6 +76,8 @@
         color: white;
         font-size: 18px;
         font-weight: 700;
+        text-decoration: none;
+        margin: 0;
       }
       ul {
         max-width: 210px;
@@ -77,6 +87,9 @@
           a {
             color: white;
             font-size: 14px;
+            &:hover {
+              text-decoration: underline;
+            }
           }
         }
       }
@@ -89,7 +102,46 @@
   }
 }
 
-// navigationバーの実装
+//search-box
+.gsc-input .gsc-input-box {
+  height: 30px !important;
+  width: 100% !important;
+  border-radius: 20px 0 0 20px !important;
+  color: black;
+}
+
+.gsc-search-button .gsc-search-button-v2 {
+  height: 30px !important;
+  border-radius: 0 20px 20px 0 !important;
+}
+
+.gsc-control-cse {
+  border: none !important;
+  background: none !important;
+}
+.gsc-input-box {
+  .gsc-input {
+    border-radius: 20px !important;
+  }
+}
+.gsc-input {
+  padding-right: 0 !important;
+}
+
+.gsc-control-cse.gsc-control-cse-ja {
+  padding: 0;
+  height: 30px;
+  margin: 0 10px 0 0;
+}
+
+.gsc-search-button {
+  margin-left: 0 !important;
+}
+.gsib_a {
+  padding: 2px !important;
+}
+
+// navigation bar
 .top_menu {
   background-color: $header-bg-color;
   background-image: linear-gradient(
@@ -124,7 +176,6 @@
     line-height: 50px;
     text-align: center;
     &:hover {
-      // background: #072a24;
       -webkit-transition: all 0.5s;
       transition: all 0.5s;
     }
@@ -132,7 +183,8 @@
       display: block;
       color: #fff;
       &:hover {
-        color: #999;
+        cursor: default;
+        text-decoration: none;
       }
     }
   }
@@ -144,15 +196,15 @@ ul.menu__second-level {
   z-index: 1;
   padding: 0;
   li {
-    border-top: 1px solid #111;
+    border-top: 1px solid white;
     a:hover {
-      background: #111;
+      background: darken($header-bg-color-secondary, 10%);
     }
   }
 }
 
 .menu__third-level li {
-  border-top: 1px solid #111;
+  border-top: 1px solid white;
 }
 
 /* 下矢印 */
@@ -192,7 +244,7 @@ li.menu__single ul.menu__second-level {
   position: absolute;
   top: 40px;
   width: 100%;
-  background: #072a24;
+  background: $header-bg-color-secondary;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
@@ -256,7 +308,7 @@ li.menu__single:hover ul.menu__second-level {
       }
     }
     .header-right {
-      display: none;
+      display: none !important;
     }
   }
 
