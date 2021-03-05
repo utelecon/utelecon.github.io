@@ -208,7 +208,16 @@ a {
     color: black;
   }
 
-  h2,
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: black;
+    border-left: thick solid $header-bg-color-secondary;
+    margin: 40px 0 20px;
+    padding: 0 0 0 20px;
+  }
+
   h3,
   h4,
   h5,

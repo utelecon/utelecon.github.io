@@ -160,7 +160,7 @@ title: オンライン授業・Web会議 ポータルサイト@ 東京大学
     </a>
     <a href="#" class="small-card-anchor">
       <div class="small-card">
-        <h3の他</h3>
+        <h3>その他</h3>
         <p>その他東大で利用可能なアプリケーション</p>
       </div>
     </a>

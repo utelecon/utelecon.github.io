@@ -28,7 +28,7 @@
 
   </head>
   <body>
-    <header class="new-page-header">
+    <header>
       <div class="header-left">
         <div class="bar-btn-normal">
           <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
@@ -109,8 +109,10 @@
       {% endif %}
 
       {% if is_toc_valid %}
-        <h3>目次</h3>
-        {% include toc.html html=content %}
+        <div class="table-of-contents">
+          <h3>目次</h3>
+          {% include toc.html html=content %}
+        </div>
       {% endif %}
 
       {{ content }}
@@ -194,7 +196,7 @@
       <script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
     </main>
 
-    <footer class="new-page_footer">
+    <footer>
       <div class="container">
         <div class="logo_wrapper">
           <img src="/assets/images/utokyo_logo.png" alt="utokyo logo">
@@ -244,8 +246,6 @@
               </ul>
           </li>
         </ul>
-        <div class="copy-right">
-        </div>
       </div>
     </footer>
   </body>

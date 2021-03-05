@@ -3,8 +3,7 @@
   margin: auto;
 }
 
-//header
-.new-page-header {
+header {
   color: white;
   background-color: $header-bg-color;
   background-image: linear-gradient(
@@ -51,8 +50,7 @@
   }
 }
 
-//footer
-.new-page_footer {
+footer {
   background-color: black;
   padding: 80px 0 20px;
   .logo_wrapper {
@@ -94,11 +92,6 @@
         }
       }
     }
-  }
-  .copy-right {
-    text-align: center;
-    color: white;
-    padding: 60px 0 0;
   }
 }
 
@@ -171,7 +164,7 @@
   }
   & > li {
     float: left;
-    width: 25%; /* グローバルナビ4つの場合 */
+    width: 25%;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -207,7 +200,6 @@ ul.menu__second-level {
   border-top: 1px solid white;
 }
 
-/* 下矢印 */
 .init-bottom:after {
   content: "";
   display: inline-block;
@@ -221,7 +213,6 @@ ul.menu__second-level {
   transform: rotate(45deg);
 }
 
-/* floatクリア */
 .menu:before,
 .menu:after {
   content: " ";
@@ -255,6 +246,34 @@ li.menu__single:hover ul.menu__second-level {
   opacity: 1;
 }
 
+.table-of-contents {
+  background-color: #f7f9f9;
+  margin: 36px 0;
+  padding: 20px 0;
+  border-radius: 20px;
+  h3 {
+    margin: 10px 30px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+  }
+  ul {
+    list-style: none;
+    padding: 0 30px;
+    li {
+      padding: 5px;
+      border-bottom: thin solid #ececec;
+      a {
+        color: #bec3cc;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
 #pagetop {
   position: fixed;
   right: 20px;
@@ -266,7 +285,7 @@ li.menu__single:hover ul.menu__second-level {
   .container {
     width: 90%;
   }
-  .new-page_footer {
+  footer {
     .logo_wrapper {
       img {
         display: block;
@@ -297,7 +316,7 @@ li.menu__single:hover ul.menu__second-level {
 }
 
 @media (max-width: 801px) {
-  .new-page-header {
+  header {
     .header-left {
       .bar-btn-normal {
         display: block;
@@ -314,5 +333,12 @@ li.menu__single:hover ul.menu__second-level {
 
   .top_menu {
     display: none;
+  }
+}
+@media (max-width: 561px) {
+  .table-of-contents {
+    h3 {
+      font-size: 18px;
+    }
   }
 }
