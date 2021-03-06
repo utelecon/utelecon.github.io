@@ -11,9 +11,9 @@ title: 2021年春のシステム変更
 ## 一覧とスケジュール
 
 - 2月25日 [ECCSに関する設定画面が移動します](#eccs)
+- 3月4日 [UTokyo Microsoft Licenseの利用開始時に申請が不要になります](#microsoft)
 - 3月中旬頃 [Zoom・WebexがUTokyo Accountでログインするようになります](#zoom_webex)
 - 4月以降 [UTokyo Accountに多要素認証を導入します](#mfa)
-- 日時未定 [UTokyo Microsoft Licenseの利用開始時に申請が不要になります](#microsoft)
 - 日時未定 [「東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)」がUTokyo Accountでログインできるようになります](#lite)
 
 ## Zoom・Webex：UTokyo Accountでログインするようになります
@@ -39,16 +39,17 @@ Web会議ツールの**ZoomとWebex**について，これまでECCSクラウド
     - 2021年2月25日から，ECCSクラウドメールのパスワード変更など，これまでUTokyo Account利用者メニューにあったECCSに関する設定画面が，新たな設定ページ「ECCS利用者メニュー」に移動します．
     - 詳細はECCSのお知らせ「[ECCS 利用者メニュー及び ECCS 申請メニューのサービス開始について](https://www.ecc.u-tokyo.ac.jp/announcement/2021/02/09_3258.html)」をご覧ください．
 - <span id="microsoft">**UTokyo Microsoft Licenseの利用開始時に申請が不要になります**</span>
-    - Microsoft OfficeのダウンロードやMicrosoftの各種オンラインツールを提供していたUTokyo Microsoft Licenseについて，利用開始時に申請が必要でしたが，不要となります．既に使っている人はこれまでどおり使えます．
-    - 実施日は後日お知らせします．
+    - Microsoft OfficeのダウンロードやMicrosoftの各種オンラインツールを提供していたUTokyo Microsoft Licenseについて，利用開始時に申請が必要でしたが，3月4日12時より不要となっています．既に使っている人はこれまでどおり使えます．
 - <span id="lite">**「東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)」がUTokyo Accountでログインできるようになります**</span>
     - 「[東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)」にはこれまでECCSクラウドメールでログインしていましたが，UTASやITC-LMSと同じようにUTokyo Accountでログインするようになります．
     - 実施日は後日お知らせします．
 
 ### 変更後のシステムでのアカウントの作り方
 
-新入生など新たに構成員となる人へ向けてマニュアルを作成される方のために，変更後のシステムでのアカウントの作り方をこのページで公開する予定です．2月中の公開を目指してただいま準備しておりますので，もうしばらくお待ちください．
+2021年度Sセメスターの新入生向けページ「[オンライン授業を受けるために](/oc/)」・教員向けページ「[オンライン授業を始めるために](/faculty_members/)」において，変更後のシステムでのアカウントの作り方を掲載しています．部局内でのマニュアル作成等，Sセメスターへ向けての準備のためにより詳細な情報が必要な方は，情報システム本部 dics-senryaku.adm@gs.mail.u-tokyo.ac.jp までお問い合わせください．
 
-## このページの更新情報
+## このページの主な更新情報
 
 - 2021/02/19 Zoom会議室のURL変更について追記しました．
+- 2021/03/04 UTokyo Microsoft Licenseの利用開始時の申請不要化について実施日を記載しました．
+- 2021/03/04 変更後のシステムでのアカウントの作り方の記載を更新しました．

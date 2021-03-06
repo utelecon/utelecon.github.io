@@ -1,0 +1,72 @@
+{% comment %}
+このファイルについての詳細はこのディレクトリのREADME.mdを参照してください
+{% endcomment %}
+
+{% assign part = include.part %}
+{% assign system = "ECCSクラウドメール" %}
+
+{% capture configure_password_and_email_address %}
+<ol>
+<li><a href="https://idm.ecc.u-tokyo.ac.jp/webmtn/">ECCS利用者メニュー</a>にアクセスしてください．</li>
+<li>サインインを求められたら，UTokyo Accountのユーザ名（10桁の数字）とパスワード{% if include.part == "important" %}（上で設定したもの）{% endif %}を入力してください．</li>
+<li>左のメニューにある「ECCSクラウドメール（パスワード変更）」を押すとパスワードの設定画面が表示されます．自身でパスワードを決め，設定してください．これはECCSクラウドメール専用のパスワードです．</li>
+<li>左のメニューにある「ECCSクラウドメール」を押すとメールアドレスの設定画面が表示されます．名前をもとに自動で作られた初期メールアドレスが「現在のメールアドレス」という欄に表示されているので，これをそのまま使うこともできますし，好みのものに変更することもできます．変更する場合は，「メールアドレス」欄に新しいメールアドレスを入力して，「保存」ボタンを押してください．変更しない場合は，表示されている「現在のメールアドレス」を確認しておいてください．</li>
+</ol>
+<ul>
+<li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
+</ul>
+{% endcapture %}
+
+{% unless include.part == "important" %}
+<ul class="procedure">
+{% endunless %}
+{% include procedures/_important.html procedure=configure_password_and_email_address type="作業" heading="パスワードとメールアドレスを設定する" %}
+{% unless include.part == "important" %}
+<li><strong>確認：ログインしてみる</strong>
+<ol>
+<li>パスワードとメールアドレスを設定してから，反映に1時間かかるので，それまでしばらく待ってください．</li>
+<li><a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp">Googleのログイン画面</a>にアクセスしてください．</li>
+<li>メールアドレス（上の手順で確認・変更したもの）を入力してください．</li>
+<li>パスワード入力欄が現れるので，上の手順で設定したパスワードを入力してください．</li>
+</ol>
+<ul>
+<li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
+</ul>
+</li>
+<li><strong>確認：東大のアカウント専用のページにアクセスできるか確認する</strong>
+<ol>
+<li><a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing">ECCSクラウドメール専用のテストページ（Googleスプレッドシート）</a>にアクセスしてください．</li>
+<li>もしログインしていなければ，メールアドレスとパスワードの入力を求められるので，上で設定したECCSクラウドメールのメールアドレスとパスワードを入力してください．</li>
+<li>ページ（スプレッドシート）の内容を見ることができればOKです．</li>
+</ol>
+<ul>
+<li>
+<details>
+  <summary>この手順がうまくいかないときのヘルプ</summary>
+  <ul>
+    <li><strong>（パソコン・スマホで）「アクセス権が必要です」と出て，下の方に「ログイン名: example@gmail.com」のような表示がある画面になる場合</strong>：前から持っていた自分のアカウントで既にGoogleにログインしているときに起きることがあります．下の方に表示されている「ログイン名: example@gmail.com」というところを押すと，「Choose an account to use with Google Drive」という画面が出てアカウントが切り替えられるので，ECCSクラウドメールのアカウント (xxxx@g.ecc.u-tokyo.ac.jp) を選んでください．ECCSクラウドメールのアカウントが出てこない場合は，「Sign in to another account」を選んでECCSクラウドメールにログインしてください．</li>
+    <li><strong>（スマホで）「権限が必要です」や「アクセス権をリクエスト」という画面になる場合</strong>：前から持っていた自分のアカウントで既にGoogleにログインしているときに起きることがあります．下の「スマホでログインする」の手順を行った後，アクセスし直してみてください．</li>
+  </ul>これらを確認して，それでもうまくいかなければ，<a href="/supports/">サポート窓口</a>に相談してください．
+</details>
+</li>
+</ul>
+</li>
+<li><strong>任意の作業：スマホでログインする</strong>（GmailなどGoogleのアプリを使っている人向け）
+<ol>
+<li>GmailなどGoogleのアプリを開き，右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）を押してください．</li>
+<li>「別のアカウントを追加」を押して，Googleアカウントを追加します．</li>
+<li>メールアドレスとパスワードの入力を求められるので，上で設定したECCSクラウドメールのメールアドレスとパスワードを入力してください．</li>
+</ol>
+</li>
+<li><strong>練習：メールを使ってみる</strong>（Gmailで xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスが使えます）
+<ol>
+<li><a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp">Gmail</a>にアクセスしてください．</li>
+<li>もしログインしていなければログインを求められるので，上の手順と同じようにしてログインしてください．</li>
+<li>普通のGmailと同じように使えます．自分の他のメールアドレスにメールを送ってみたり，自分の他のメールアドレスから送ったメールが届くか確かめてみましょう．</li>
+</ol>
+<ul>
+<li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
+</ul>
+</li>
+</ul>
+{% endunless %}

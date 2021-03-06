@@ -17,7 +17,7 @@ title: （Zoom 学生・教員共通編）カメラに映る背景を隠すた�
 ![open_setting](img/Virtual_BG_common_2_1-3.png)
 
 3. 画像をクリックして好きなバーチャル背景（仮想背景）を選択します．「＋」の部分をタップすると背景をオリジナルの画像に差し替えもできます．図のように出来るだけ実際の背景が無地であると，背景が上手く消える可能性が高いです．
-![open_setting](img/Virtual_BG_common_3_1-3.png
+![open_setting](img/Virtual_BG_common_3_1-3.png)
 
 ## 授業中に設定する方法
 
