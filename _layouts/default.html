@@ -51,48 +51,16 @@
 
     <nav class="top_menu">
       <ul class="menu">
+        {% for item in site.data.nav %}
           <li class="menu__single">
-              <a href="" class="init-bottom">教育用ICT</a>
-              <ul class="menu__second-level">
-                  <li><a href="/oc/">学生用(2020 Aセメスター版)</a></li>
-                  <li><a href="/faculty_members/">教員用(2020 Aセメスター版)</a></li>
-                  <li><a href="/good-practice">グッドプラクティス</a></li>
-                  <li><a href="/lms_students/">ITC-LMS 学生用</a></li>
-                  <li><a href="/lms_lecturers/">ITC-LMS 教員用</a></li>
-                  <li><a href="/faculty_members/url_2020_a">授業URL通知(2020 Aセメスター版)</a></li>
-                  <li><a href="/faq/">よくある質問（FAQ）</a></li>
-                  <li><a href="/change2021s/">2021年春のシステム変更</a></li>
-              </ul>
+            <a href="" class="init-bottom">{{ item.name }}</a>
+            <ul class="menu__second-level">
+              {% for second in item.contents %}
+                <li><a href="{{ second.url }}">{{ second.name }}</a></li>
+              {% endfor %}
+            </ul>
           </li>
-          <li class="menu__single">
-              <a href="" class="init-bottom">Web会議</a>
-              <ul class="menu__second-level">
-                  <li><a href="/zoom">Zoom</a></li>
-                  <li><a href="/webex">Webex</a></li>
-                  <li><a href="/meet">Google Meet</a></li>
-              </ul>
-          </li>
-          <li class="menu__single">
-              <a href="" class="init-bottom">イベント・説明会</a>
-              <ul class="menu__second-level">
-                  <li><a href="/events/2020-luncheon/">オンライン授業情報交換会</a></li>
-                  <li><a href="/events/2020-09-11/">9/11 説明会: Aセメスターに向けて</a></li>
-                  <li><a href="/events/2020-09-02/">9/2 ゼミ: 動画の作成・公開方法</a></li>
-                  <li><a href="/#events">過去のイベント</a></li>
-              </ul>
-          </li>
-          <li class="menu__single">
-              <a href="" class="init-bottom">各種申請・報告フォーム</a>
-              <ul class="menu__second-level">
-                  <li><a href="/supports">トラブルサポート窓口</a></li>
-                  <li><a href="/forums/">QAフォーラム, MLなど</a></li>
-                  <li><a href="/mobile/">継続: ネットワーク環境支援</a></li>
-                  <li><a href="/supporters/class_a">クラスサポーター制度</a></li>
-                  <li><a href="/forms/et">授業入室時トラブル報告</a></li>
-                  <li><a href="/forms/takecarestudents">学科・専攻の学生ケア担当登録</a></li>
-                  <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへのリンク登録</a></li>
-              </ul>
-          </li>
+        {% endfor %}
       </ul>
     </nav>
 
@@ -122,41 +90,14 @@
         <ul>
           <div style="text-indent: -2em">MENU</div>
           <li><a href="/">Home</a>
-          <li>オンライン授業</li>
+          {% for item in site.data.nav %}
+            <li>{{ item.name }}</li>
             <ul>
-
-              <li><a href="/oc/index_2020_a">学生用(2020 Aセメスター版)</a></li>
-              <li><a href="/faculty_members/index_2020_a">教員用(2020 Aセメスター版)</a></li>
-              <li><a href="/good-practice">グッドプラクティス</a></li>
-              <li><a href="/lms_students/">ITC-LMS 学生用</a></li>
-              <li><a href="/lms_lecturers/">ITC-LMS 教員用</a></li>
-              <li><a href="/faculty_members/url_2020_a">授業URL通知(2020 Aセメスター版)</a></li>
-              <li><a href="/faq/">よくある質問（FAQ）</a></li>
-              <li><a href="/change2021s/">2021年春のシステム変更</a></li>
+              {% for second in item.contents %}
+                <li><a href="{{ second.url }}">{{ second.name | markdownify }}</a></li>
+              {% endfor %}
             </ul>
-          <li>Web会議</li>
-            <ul>
-              <li><a href="/zoom">Zoom</a></li>
-              <li><a href="/webex">Webex</a></li>
-              <li><a href="/meet">Google Meet</a></li>
-            </ul>
-          <li>イベント・説明会</li>
-            <ul>
-              <li><a href="/events/2020-luncheon/">オンライン授業情報交換会</a></li>
-              <li><a href="/events/2020-09-11/">9/11 説明会: Aセメスターに向けて</a></li>
-              <li><a href="/events/2020-09-02/">9/2 ゼミ: 動画の作成・公開方法</a></li>
-              <li><a href="/#events">過去のイベント</a></li>
-            </ul>
-          <li>各種申請・報告フォーム</li>
-          <ul>
-            <li><a href="/supports">トラブルサポート窓口</a></li>
-            <li><a href="/forums/">QAフォーラム, MLなど</a></li>
-            <li><a href="/mobile/">ネットワーク環境支援</a></li>
-            <li><a href="/supporters/class_a">クラスサポーター制度</a></li>
-            <li><a href="/forms/et">授業入室時トラブル報告</a></li>
-            <li><a href="/forms/takecarestudents">学科・専攻の学生ケア<br>担当登録</a></li>
-            <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへの<br>リンク登録</a></li>
-          </ul>
+          {% endfor %}
           <li><a href="/sitemap/">サイトマップ</a></li>
           <li><img src="/assets/images/translation.svg" alt=""><a href="/en{{page.url}}">English</a></li>
         </ul>
@@ -203,48 +144,16 @@
           <img src="/assets/images/utelecon.svg" alt="utelecon logo">
         </div>
         <ul class="footer_sitemap">
-          <li class="footer_sitemap_title_list">
-              <p class="title">教育用ICT</p>
+          {% for item in site.data.nav %}
+            <li class="footer_sitemap_title_list">
+              <p class="title">{{ item.name }}</p>
               <ul class="">
-                  <li><a href="/oc/">学生用(2020 Aセメスター版)</a></li>
-                  <li><a href="/faculty_members/">教員用(2020 Aセメスター版)</a></li>
-                  <li><a href="/good-practice">グッドプラクティス</a></li>
-                  <li><a href="/lms_students/">ITC-LMS 学生用</a></li>
-                  <li><a href="/lms_lecturers/">ITC-LMS 教員用</a></li>
-                  <li><a href="/faculty_members/url_2020_a">授業URL通知(2020 Aセメスター版)</a></li>
-                  <li><a href="/faq/">よくある質問（FAQ）</a></li>
-                  <li><a href="/change2021s/">2021年春のシステム変更</a></li>
+                {% for second in item.contents %}
+                  <li><a href="{{ second.url }}">{{ second.name }}</a></li>
+                {% endfor %}
               </ul>
-          </li>
-          <li class="footer_sitemap_title_list">
-              <p class="title">Web会議</p>
-              <ul class="">
-                  <li><a href="/zoom">Zoom</a></li>
-                  <li><a href="/webex">Webex</a></li>
-                  <li><a href="/meet">Google Meet</a></li>
-              </ul>
-          </li>
-          <li class="footer_sitemap_title_list">
-              <p class="title">イベント・説明会</p>
-              <ul class="">
-                  <li><a href="/events/2020-luncheon/">オンライン授業情報交換会</a></li>
-                  <li><a href="/events/2020-09-11/">9/11 説明会: Aセメスターに向けて</a></li>
-                  <li><a href="/events/2020-09-02/">9/2 ゼミ: 動画の作成・公開方法</a></li>
-                  <li><a href="/#events">過去のイベント</a></li>
-              </ul>
-          </li>
-          <li class="footer_sitemap_title_list">
-              <p class="title">各種申請・報告フォーム</p>
-              <ul class="">
-                  <li><a href="/supports">トラブルサポート窓口</a></li>
-                  <li><a href="/forums/">QAフォーラム, MLなど</a></li>
-                  <li><a href="/mobile/">継続: ネットワーク環境支援</a></li>
-                  <li><a href="/supporters/class_a">クラスサポーター制度</a></li>
-                  <li><a href="/forms/et">授業入室時トラブル報告</a></li>
-                  <li><a href="/forms/takecarestudents">学科・専攻の学生ケア担当登録</a></li>
-                  <li><a href="https://tinyurl.com/vjfuxs3" target="_blank">部局のWebページへのリンク登録</a></li>
-              </ul>
-          </li>
+            </li>
+          {% endfor %}
         </ul>
       </div>
     </footer>
