@@ -1,81 +1,90 @@
 -
-  name: "教育用ICT"
+  name: "まずはここから"
   contents:
     -
-      name: "オンライン授業を受けるために<small>（2021S・学生用）</small>"
+      name: "オンライン授業を受けるために<small>（学生向け）</small>"
       url: "/oc/"
     -
-      name: "オンライン授業を始めるために<small>（2021S・教員用）</small></small>"
+      name: "オンライン授業を始めるために<small>（教員向け）</small>"
       url: "/faculty_members/"
     -
-      name: "グッドプラクティス"
-      url: "/good-practice"
+      name: "よりよいオンライン授業をするために<small>（教員向け）</small>"
+      url: "/improvement/"
     -
-      name: "ITC-LMS 学生用"
-      url: "/lms_students/"
-    -
-      name: "ITC-LMS 教員用"
-      url: "/lms_lecturers/"
-    -
-      name: "授業URL通知 <font size=\"-1\">(2020 Aセメスター版)</font>"
-      url: "/faculty_members/url_2020_a"
-    -
-      name: "よくある質問（FAQ）"
-      url: "/faq/"
+      name: "サポート窓口"
+      url: "/supports/"
     -
       name: "2021年春のシステム変更"
       url: "/change2021s/"
 -
-  name: "Web会議"
-  contents:
-    -
-      name: "Zoom"
-      url: "/zoom"
-    -
-      name: "Webex"
-      url: "/webex"
-    -
-      name: "Google Meet"
-      url: "/meet"
--
-  name: "イベント・説明会"
+  name: "お知らせ・イベント"
   contents: 
+    -
+      name: "お知らせ"
+      url: "/notice/"
     -
       name: "オンライン授業情報交換会"
       url: "/events/2020-luncheon/"
     -
-      name: "3/17 説明会: 2021年度に向けて"
-      url: "/events/2021-03-17/"
-    -
-      name: "9/11 説明会: Aセメスターに向けて"
-      url: "/events/2020-09-11/"
-    -
-      name: "9/2 ゼミ: 動画の作成・公開方法"
-      url: "/events/2020-09-02/"
-    -
-      name: "過去のイベント"
-      url: "/#events"
+      name: "説明会等"
+      url: "/events/"
 -
-  name: "各種申請・報告フォーム"
+  name: "授業で使うシステム"
   contents:
     -
-      name: "トラブルサポート窓口"
+      name: "UTokyo Account"
+      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/account.html"
+    -
+      name: "UTAS"
+      url: "/systems/utas"
+    -
+      name: "ITC-LMS"
+      url: "/systems/itc_lms"
+    -
+      name: "Zoom"
+      url: "/zoom/"
+    -
+      name: "Webex"
+      url: "/webex/"
+    -
+      name: "ECCSクラウドメール<small> (Google Workspace)</small>"
+      url: "/systems/eccs_cloud_email"
+    -
+      name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
+      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html"
+    -
+      name: "UTokyo WiFi"
+      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html"
+    -
+      name: "ECCS端末"
+      url: "https://www.ecc.u-tokyo.ac.jp/"
+-
+  name: "よりよい授業のために"
+  contents:
+    -
+      name: "よりよいオンライン授業をするために"
+      url: "/improvement/"
+    -
+      name: "グッドプラクティス"
+      url: "/good-practice/"
+    -
+      name: "オンライン授業情報交換会"
+      url: "/events/2020-luncheon/"
+-
+  name: "サポート"
+  contents:
+    -
+      name: "サポート窓口"
       url: "/supports/"
     -
-      name: "QAフォーラム, MLなど"
-      url: "/forums/"
+      name: "よくある質問 (FAQ)"
+      url: "/faq/"
     -
-      name: "継続: ネットワーク環境支援"
-      url: "/mobile/"
-    -
-      name: "クラスサポーター制度"
-      url: "/supporters/class_a"
-    -
-      name: "授業入室時トラブル報告"
+      name: "授業入室トラブル報告"
       url: "/forms/et"
     -
-      name: "学科・専攻の学生ケア担当登録"
-      url: "/forms/takecarestudents"
+      name: "ネットワーク環境支援"
+      url: "/mobile/"
     -
-      name: "部局のWebページへのリンク登録"
-      url: "https://tinyurl.com/vjfuxs3"
+      name: "クラスサポーター"
+      url: "/supporters/class"
