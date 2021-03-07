@@ -3,7 +3,7 @@ title: 2020/03/27 Online Course "How to Prepare (Asynchronous) On-Demand Online 
 layout: en
 ---
 
-# "How to Prepare (Asynchronous) On-Demand Online Classes Using Videos and Texts"
+## "How to Prepare (Asynchronous) On-Demand Online Classes Using Videos and Texts"
 
 **Date:** 3/27(金) 10:00-12:00 
   
@@ -17,7 +17,7 @@ In order to prepare for asynchronous online classes, we will conduct an online b
 **Video:** <a href="https://drive.google.com/open?id=1HsmRHGaQmFfceWLAJA1zYsO2FpVroJrb">Video file（ECCS Cloud Mail required）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">How to set up ECCS Cloud Mail</a>）  
 
 
-# Online class consultation specializing in language learning
+## Online class consultation specializing in language learning
 
 **Date:** 3/27(金) 13:00-15:00  
   

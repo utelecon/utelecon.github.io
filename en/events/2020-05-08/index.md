@@ -3,8 +3,6 @@ title: "2020/05/08 Briefing session: Using copyrighted materials in online class
 layout: en
 ---
 
-# 2020/05/08  Briefing session: Using copyrighted materials in online classes
-
 * **Date and time:** Friday, May 8 17: 00-18: 30
 
 * **Palce:** Online (Zoom) and youtube  <br>

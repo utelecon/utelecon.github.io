@@ -1,9 +1,7 @@
 ---
-title: How to Use Google Hangouts Meet  
+title: Google Hangouts Meet  
 layout: en
 ---
-
-# How to Use Video Conference on Google Hangouts Meet  
 
 ## Introduction
 
