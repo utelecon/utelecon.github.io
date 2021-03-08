@@ -16,7 +16,7 @@ title: 今後のウェブ会議システムの提供について（2021/3/15以�
 	1. <span style="color: green;">オンライン授業では原則ウェビナーではなくミーティングをお使いください。</span> ウェビナーを申請される際には、本当にZoomウェビナーが必要かどうか、ZoomミーティングやWebex Eventsの利用も併せてご検討ください。
 
 **申し込みフォーム：**　<br>
-<a href="https://login.adm.u-tokyo.ac.jp/s/iA384J" target="_blank" rel="noopener">ウェビナー・301人以上の大規模ミーティングを開催できる大学ライセンスのリクエストフォーム</a> <br>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUtWOE9PNkVXN1QzOVcxSFlJMFozTzRZQy4u" target="_blank" rel="noopener">ウェビナー・301人以上の大規模ミーティングを開催できる大学ライセンスのリクエストフォーム</a> <br>
 （フォームにはUTokyo Accountでのサインインが必要です）
 
 ## [Webex](/webex/)
