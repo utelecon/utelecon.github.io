@@ -26,6 +26,12 @@ summary {
   display: list-item;
 }
 
+code em {
+  font-style: normal;
+  font-weight: bold;
+  background-color: yellow;
+}
+
 .important-box {
   border: 2px solid currentcolor;
   margin-bottom: 0.5em;
