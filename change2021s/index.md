@@ -2,7 +2,7 @@
 title: 2021年春のシステム変更
 ---
 
-<div style="border: 2px solid currentcolor; margin-bottom: 0.5em; padding: 0.5em; font-weight: bold; font-size: larger">UTokyo AccountやZoomなど東大の情報システムの利用方法が変わります</div>
+<div class="important-box">UTokyo AccountやZoomなど東大の情報システムの利用方法が変わります</div>
 
 オンライン授業の円滑な実施を目的として，東京大学が提供する各種情報システムについて，ログイン方法を可能な限り UTokyo Account （数字10桁の共通ID）に統一してわかりやすくするとともに，その他必要な変更を行います．
 
