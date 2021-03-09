@@ -1,9 +1,7 @@
 ---
-title: 2020/03/19 Online course on How to use Zoom
+title: 2020/03/19 Online course "How to use Zoom for online classes"
 layout: en
 ---
-
-# 2020/03/19 Online course「 How to use Zoom for online classes」
 
 The online course will be held on MArch 19, 2020, from 15pm to 17pm. Please check <a href="https://www.ut-portal.u-tokyo.ac.jp/notice/index.php?q=32134" target="_blank">here（on campus access restricted）</a> for details on details and application.
   
