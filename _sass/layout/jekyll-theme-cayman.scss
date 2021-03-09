@@ -1,7 +1,7 @@
 @import "normalize";
-@import "rouge-github";
-@import "variables";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import "cayman/rouge-github";
+@import "cayman/variables";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -55,10 +55,6 @@ body {
 a {
   color: $body-link-color;
   text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 .btn {
@@ -109,7 +105,11 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-image: linear-gradient(
+    120deg,
+    $header-bg-color-secondary,
+    $header-bg-color
+  );
 
   @include large {
     padding: 5rem 6rem;
@@ -182,7 +182,7 @@ a {
     padding: 2rem 1rem;
     font-size: 1rem;
   }
-  
+
   kbd {
     background-color: #fafbfc;
     border: 1px solid #c6cbd1;
@@ -201,8 +201,23 @@ a {
     max-width: 100%;
   }
 
-  h1,
-  h2,
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: black;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: black;
+    border-left: thick solid $header-bg-color-secondary;
+    margin: 40px 0 20px;
+    padding: 0 0 0 20px;
+  }
+
   h3,
   h4,
   h5,
