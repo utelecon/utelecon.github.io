@@ -47,11 +47,11 @@
       </div>
 
       <nav class="header__nav">
-        <ul class="menu">
+        <ul>
           {% for item in site.data.nav %}
-            <li class="menu__single">
-              <a href="" class="init-bottom">{{ item.name }}</a>
-              <ul class="menu__second-level">
+            <li>
+              <div class="header_nav_text">{{ item.name }}</div>
+              <ul>
                 {% for second in item.contents %}
                   <li><a href="{{ second.url }}">{{ second.name }}</a></li>
                 {% endfor %}
