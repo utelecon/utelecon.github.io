@@ -1,6 +1,9 @@
 .container {
   max-width: 960px;
   margin: auto;
+  @media (max-width: 1001px) {
+    width: 90%;
+  }
 }
 
 header {
@@ -21,6 +24,7 @@ header {
     .bar-btn-normal {
       display: none;
     }
+
     .header-logo {
       margin: 10px 0 0 10px;
       a {
@@ -48,6 +52,20 @@ header {
       font-size: 14px;
     }
   }
+  @media (max-width: 801px) {
+    .header-left {
+      .bar-btn-normal {
+        display: block;
+      }
+      img {
+        margin: 10px;
+        width: 80px;
+      }
+    }
+    .header-right {
+      display: none !important;
+    }
+  }
 }
 
 footer {
@@ -60,6 +78,9 @@ footer {
     img {
       display: block;
       width: 200px;
+      @media (max-width: 1001px) {
+        width: 150px;
+      }
     }
   }
   .footer_sitemap {
@@ -88,6 +109,21 @@ footer {
             &:hover {
               text-decoration: underline;
             }
+          }
+        }
+      }
+      @media (max-width: 1001px) {
+        width: 100%;
+        border-bottom: white thin solid;
+        .title {
+          font-size: 14px;
+        }
+        ul {
+          max-width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          li {
+            width: 250px;
           }
         }
       }
@@ -257,6 +293,9 @@ li.menu__single:hover ul.menu__second-level {
     font-size: 24px;
     font-weight: 700;
     color: black;
+    @media (max-width: 561px) {
+      font-size: 18px;
+    }
   }
   ul {
     list-style: none;
@@ -279,66 +318,4 @@ li.menu__single:hover ul.menu__second-level {
   right: 20px;
   bottom: 50px;
   cursor: pointer;
-}
-
-@media (max-width: 1001px) {
-  .container {
-    width: 90%;
-  }
-  footer {
-    .logo_wrapper {
-      img {
-        display: block;
-        width: 150px;
-      }
-    }
-    .footer_sitemap {
-      &_title_list {
-        width: 100%;
-        border-bottom: white thin solid;
-        .title {
-          font-size: 14px;
-        }
-        ul {
-          max-width: 100%;
-          display: flex;
-          flex-wrap: wrap;
-          li {
-            width: 250px;
-          }
-        }
-      }
-    }
-    .copy-right {
-      padding: 20px 0 0;
-    }
-  }
-}
-
-@media (max-width: 801px) {
-  header {
-    .header-left {
-      .bar-btn-normal {
-        display: block;
-      }
-      img {
-        margin: 10px;
-        width: 80px;
-      }
-    }
-    .header-right {
-      display: none !important;
-    }
-  }
-
-  .top_menu {
-    display: none;
-  }
-}
-@media (max-width: 561px) {
-  .table-of-contents {
-    h3 {
-      font-size: 18px;
-    }
-  }
 }
