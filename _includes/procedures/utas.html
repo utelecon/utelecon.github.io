@@ -24,6 +24,7 @@
 </ul>
 {% endcapture %}
 
+
 {% capture login %}
 <ol>
 {{ login_steps }}
@@ -44,14 +45,32 @@
 {{ support }}
 {% endcapture %}
 
+
 {% if include.part == "important" and page.slug == "oc" %}
+
 {% include procedures/_important.html procedure= login_and_confirm_email_address_registration heading="ログインしてメールアドレスが登録されているか確認する" %}
+
 {% elsif page.slug == "oc" %}
+
 <ul class="procedure">
 {% include procedures/_important.html procedure=login type="練習" heading="ログインしてみる" %}
 {% include procedures/_important.html procedure=confirm_email_address_registration type="確認" heading="メールアドレスが登録されているか確認する" %}
 </ul>
+
+{% elsif include.part == "login" %}
+
+<ol>
+{{ login_steps }}
+</ol>>
+
+{% elsif include.part == "confirm_email_address_registration" %}
+
+<ol>
+{{ confirm_email_address_registration_steps }}
+</ol>>
+
 {% else %}
+
 <ul>
 <li><strong>練習：ログインしてみる</strong>
 {{ login }}
@@ -62,4 +81,5 @@
 </li>
 {% endif %}
 </ul>
+
 {% endif %}
