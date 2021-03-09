@@ -1,0 +1,46 @@
+.container {
+  max-width: 960px;
+  margin: auto;
+  @media (max-width: 1001px) {
+    width: 90%;
+  }
+}
+
+
+.table-of-contents {
+  background-color: #f7f9f9;
+  margin: 36px 0;
+  padding: 20px 0;
+  border-radius: 20px;
+  h3 {
+    margin: 10px 30px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    @media (max-width: 561px) {
+      font-size: 18px;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0 30px;
+    li {
+      padding: 5px;
+      border-bottom: thin solid #ececec;
+      a {
+        color: #bec3cc;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+#pagetop {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  cursor: pointer;
+}
