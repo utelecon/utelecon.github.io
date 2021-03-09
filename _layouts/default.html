@@ -29,40 +29,42 @@
   </head>
   <body>
     <header>
-      <div class="header-left">
-        <div class="bar-btn-normal">
-          <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
-          <span class="hiraku-open-btn-line"></span>
-          </button>
-          <div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
+      <div class="header__main">
+        <div class="header-left">
+          <div class="bar-btn-normal">
+            <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
+            <span class="hiraku-open-btn-line"></span>
+            </button>
+            <div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
+          </div>
+          <div class="header-logo">
+            <a href="/"><img src="/assets/images/utelecon.svg" alt="logo"></a>
+            <p>オンライン授業・web会議ポータルサイト@東京大学</p>
+          </div>
         </div>
-        <div class="header-logo">
-          <a href="/"><img src="/assets/images/utelecon.svg" alt="logo"></a>
-          <p>オンライン授業・web会議ポータルサイト@東京大学</p>
+        <div class="header-right" style="display: flex; align-items: center;">
+          <div class="gcse-search"></div>
+          <div>
+            <a href="/sitemap/">このサイトについて</a> | <a href="/en{{page.url}}">English</a>
+          </div>
         </div>
       </div>
-      <div class="header-right" style="display: flex; align-items: center;">
-        <div class="gcse-search"></div>
-        <div>
-          <a href="/sitemap/">このサイトについて</a> | <a href="/en{{page.url}}">English</a>
-        </div>
-      </div>
-    </header>
 
-    <nav class="top_menu">
-      <ul class="menu">
-        {% for item in site.data.nav %}
-          <li class="menu__single">
-            <a href="" class="init-bottom">{{ item.name }}</a>
-            <ul class="menu__second-level">
-              {% for second in item.contents %}
-                <li><a href="{{ second.url }}">{{ second.name }}</a></li>
-              {% endfor %}
-            </ul>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
+      <nav class="top_menu">
+        <ul class="menu">
+          {% for item in site.data.nav %}
+            <li class="menu__single">
+              <a href="" class="init-bottom">{{ item.name }}</a>
+              <ul class="menu__second-level">
+                {% for second in item.contents %}
+                  <li><a href="{{ second.url }}">{{ second.name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
 
     <main id="content" class="main-content" role="main">
       <div class="container" style="border-bottom:  #ececec thin solid;">
@@ -142,18 +144,20 @@
         <div class="logo_wrapper">
           <img src="/assets/images/utokyo_logo.png" alt="utokyo logo">
         </div>
-        <ul class="footer_sitemap">
-          {% for item in site.data.nav %}
-            <li class="footer_sitemap_title_list">
-              <p class="title">{{ item.name }}</p>
-              <ul class="">
-                {% for second in item.contents %}
-                  <li><a href="{{ second.url }}">{{ second.name }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
-          {% endfor %}
-        </ul>
+        <nav>
+          <ul class="footer_sitemap">
+            {% for item in site.data.nav %}
+              <li class="footer_sitemap_title_list">
+                <p class="title">{{ item.name }}</p>
+                <ul class="">
+                  {% for second in item.contents %}
+                    <li><a href="{{ second.url }}">{{ second.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
       </div>
     </footer>
   </body>
