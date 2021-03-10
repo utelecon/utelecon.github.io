@@ -67,15 +67,9 @@
         <h1 class="title">{{ page.title }}</h1>
       {% endif %}
 
-      {% assign is_toc_valid = true %}
-
-      {% if page.url == "/" %}
-        {% assign is_toc_valid = false %}
-      {% endif %}
-
-      {% if is_toc_valid %}
-        <div class="table-of-contents">
-          <h3>目次</h3>
+      {% if page.toc != false and page.url != "/" and page.url != "/en/" %}
+        <div class="main__toc">
+          <h2>目次</h2>
           {% include toc.html html=content %}
         </div>
       {% endif %}
