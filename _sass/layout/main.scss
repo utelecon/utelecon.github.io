@@ -1,14 +1,41 @@
-.container {
-  max-width: 960px;
-  margin: auto;
-  @media (max-width: 1001px) {
-    width: 90%;
-  }
-}
+$body-text-color: #606c71 !default;
+$body-link-color: #1e6bb8 !default;
 
 main {
-  .title {
+  text-align: justify;
+  word-wrap: break-word;
+
+  color: $body-text-color;
+  font-size: 1.125rem;
+  :link {
+    color: $body-link-color;
+  }
+  :visited {
+    color: navy;
+  }
+  :link, :visited {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  padding: 2rem 4rem;
+  @media (min-width: 64rem) {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+  }
+  @media (max-width: 48rem) {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+
+  :first-child {
     margin-top: 0;
+  }
+
+  .title {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #ececec;
@@ -35,6 +62,37 @@ main {
     margin-bottom: 1rem;
     font-weight: normal;
     color: $section-headings-color;
+  }
+
+  summary {
+    cursor: pointer;
+    color: $body-link-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  /* supportsページ用 */
+  .support-channel-main {
+    border: 2px solid $section-headings-color;
+    margin: 2em -1em 0;
+    padding: 1em;
+  }
+  .support-channel-link {
+    border: 2px solid $section-headings-color;
+    margin: -2px -1em 2em;
+    padding: 0.5em 1em;
+    text-align: center;
+    font-weight: bolder;
+  }
+  @media screen and (max-width: 48rem) {
+    .support-channel-main,
+    .support-channel-link {
+      margin-left: -0.5em;
+      margin-right: -0.5em;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
   }
 }
 

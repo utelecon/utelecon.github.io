@@ -1,3 +1,6 @@
+@import "normalize";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -6,14 +9,9 @@ html {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $body-text-color;
 }
 
-a {
-  color: $body-link-color;
-  text-decoration: none;
-}
-
+@import "layout/jekyll-theme-cayman";
 @import "layout/main";
 @import "layout/header";
 @import "layout/footer";

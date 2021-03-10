@@ -3,6 +3,7 @@ footer {
   color: white;
   :link, :visited {
     color: white;
+    text-decoration: none;
   }
   padding: 2rem 4rem;
 }
@@ -17,6 +18,9 @@ footer {
   }
 }
 .footer__nav {
+  :link:hover, :visited:hover {
+    text-decoration: underline;
+  }
   & > ul {
     column-count: 2;
     column-gap: 4rem;

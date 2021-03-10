@@ -1,3 +1,6 @@
+$header-bg-color: #159957 !default;
+$header-bg-color-secondary: #155799 !default;
+
 header {
   display: grid;
 }
@@ -40,6 +43,7 @@ header {
   color: white;
   :link, :visited {
     color: white;
+    text-decoration: none;
   }
   background-color: $header-bg-color;
   background-image: linear-gradient(
@@ -51,6 +55,9 @@ header {
 
 .header__title {
   padding: 0.5rem 0 0.25rem 2rem;
+  :link, :visited {
+    text-decoration: none !important;
+  }
   &__main {
     font-size: 2rem;
     font-weight: bold;
@@ -68,6 +75,9 @@ header {
   align-items: center;
   padding: 0.5rem 2rem 0.25rem 0;
   font-size: 0.875rem;
+  :link:hover, :visited:hover {
+    text-decoration: underline;
+  }
 }
 
 .header__nav {
