@@ -74,5 +74,5 @@ Links (added as needed)
 ---------------------------
 
 * School of Science: <a href="http://jimubu.adm.s.u-tokyo.ac.jp/public/index.php/Collaboration_tool" target="_blank">「Collaboration tool」</a>
-* Department of Arts and Sciences, Graduate School of Arts and Sciences: <a href="https://komabataskforce.wixsite.com/forstudents/students-en" target="_blank">Resources for online lectures</a>  
+* Department of Arts and Sciences, Graduate School of Arts and Sciences: <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/no3-zenki/%E3%83%9B%E3%83%BC%E3%83%A0" target="_blank">Junior Division Section Academic Affairs Division (Japanese version only)</a>  
 * University of Tokyo Library System: <a href="https://www.lib.u-tokyo.ac.jp/en/library/contents/studyathome" target="_blank">Guide for Online Study & Remote Work</a>
