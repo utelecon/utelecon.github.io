@@ -45,17 +45,37 @@ main {
   }
 
   h2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    padding-left: 0.5em;
     color: black;
-    border-left: thick solid $heading-color;
-    margin: 40px 0 20px;
-    padding: 0 0 0 20px;
+    border-left: 0.5em solid $heading-color;
+    border-bottom: 3px solid $heading-color;
   }
 
-  h3,
-  h4,
+  h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    padding-left: 0.9em;
+    color: black;
+    border-left: 0.3em solid $heading-color;
+  }
+
+  h4 {
+    font-size: 1.125em;
+    font-weight: bold;
+    margin-top: 0.89em;
+    margin-bottom: 0.89em;
+    padding-left: 0.5em;
+    color: black;
+    // border-left: 2px solid $heading-color;
+    background-color: #ededed;
+  }
+
   h5,
   h6 {
     margin-top: 2rem;
@@ -105,7 +125,7 @@ main {
   & > h2 {
     margin: 0 0 0.4em 0.8em;
     padding: 0;
-    border-left: none;
+    border: none;
     font-size: 1.25em;
     font-weight: bold;
     color: $text-color;
