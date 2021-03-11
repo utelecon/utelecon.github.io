@@ -100,6 +100,16 @@ header {
   }
 }
 
+.top__systems {
+  column-count: 2;
+  @media (max-width: 48rem) {
+    column-count: auto;
+  }
+  li {
+    break-inside: avoid;
+  }
+}
+
 /*
 .top__pick-up {
   display: flex;
