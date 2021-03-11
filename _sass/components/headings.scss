@@ -29,10 +29,18 @@ h4 {
   background-color: $white-gray-light;
 }
 
-h5,
+h5 {
+  font-size: 1.125em;
+  font-weight: bold;
+  margin-top: 0.89em;
+  margin-bottom: 0.89em;
+  color: black;
+}
+
 h6 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: normal;
-  color: $section-headings-color;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 0.89em;
+  margin-bottom: 0.89em;
+  color: black;
 }
