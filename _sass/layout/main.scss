@@ -43,6 +43,12 @@ main {
 
   @import "components/headings";
 
+  @media (max-width: 40rem) {
+    ul, ol {
+      padding-left: 20px;
+    }
+  }
+
   summary {
     cursor: pointer;
     color: $body-link-color;
