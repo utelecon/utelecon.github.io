@@ -110,11 +110,11 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 * 理学系研究科: <a href="http://jimubu.adm.s.u-tokyo.ac.jp/public/index.php/%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%84%E3%83%BC%E3%83%AB" target="_blank">「理学系研究科情報システムチーム　コラボレーションツール」</a>, <a href="http://jimubu.adm.s.u-tokyo.ac.jp/public/index.php/Collaboration_tool" target="_blank">「The School of Science - Collaboration tool」</a>
 * 理学系研究科物理専攻: <a href="https://www.phys.s.u-tokyo.ac.jp/g_info/22290/" target="_blank">授業関連ページ</a>
-* 人文社会系研究科・文学部: <a href="http://www.l.u-tokyo.ac.jp/news/notice/9966.html" target="_blank">【重要】2020年度Sセメスター開講授業の開始時期について</a>
+* 人文社会系研究科・文学部: <a href="http://www.l.u-tokyo.ac.jp/student/announce2021.html" target="_blank">【重要】新年度（2021年度）の授業・手続きについて</a>
 * 農学生命科学研究科・農学部: <a href="https://www.a.u-tokyo.ac.jp/online_lectures/" target="_blank">農学生命科学研究科・農学部　オンライン授業関連ページ</a>
 * 新領域創成科学研究科: <a href="https://sites.google.com/a/adm.k.u-tokyo.ac.jp/gsfs-portal/home/kyomu/kyomu/classes/onlineclasses" target="_blank">【事務ポータルサイト内　教務チームポータルサイト】　オンライン授業に関する情報ページ</a> <span style="font-size: 80%">(新領域創成科学研究科所属学生のみ閲覧できます． 新領域アカウント(FApps)にログインした状態でアクセスできます．随時更新中です．) </span>
 * 薬学系研究科: <a href="http://www.f.u-tokyo.ac.jp/" target="_blank">ホームページ</a>
-* 教養学部・大学院総合文化研究科: <a href="https://komabataskforce.wixsite.com/forstudents/" target="_blank">講義オンライン化に関する情報サイト</a>
+* 教養学部・大学院総合文化研究科: <a href="https://www.c.u-tokyo.ac.jp/info/sst/index.html" target="_blank">オンライン授業について</a>，<a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/no3-zenki/%E3%83%9B%E3%83%BC%E3%83%A0" target="_blank">教養学部前期課程特設FAQ</a>
 * 総合図書館: <a href="https://www.lib.u-tokyo.ac.jp/ja/library/contents/studyathome" target="_blank">オンライン学習、在宅研究・勤務で利用できるオンラインサービスのご案内</a>
 
 
@@ -123,3 +123,4 @@ What's New (<span style="color:blue;">青字</span>は掲載日. 最近のもの
 
 * [ご共有いただいた実践例・参考情報（随時募集中）](faculty_members#shared_materials)
 * [リンク集（教員用，随時追加中）](faculty_members#links)
+
