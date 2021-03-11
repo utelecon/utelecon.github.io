@@ -1,160 +1,25 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "ja" }}">
-  <head>
+{% capture content %}
+{% include layouts/header.html %}
 
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
+<main id="content">
+  {% if page.title %}
+    <h1 class="title">{{ page.title }}</h1>
+  {% endif %}
 
-    {% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% if page.toc != false %}
+    <section class="main__toc">
+      <h2>目次</h2>
+{% include toc.html html=content %}
+    </section>
+  {% endif %}
 
-    <script async src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"></script>
+{% if page.target_blank != false %}
+{% include layouts/target_blank.html %}
+{% else %}
+{{ content }}
+{% endif %}
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/bar.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/hiraku.css">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="/assets/js/hiraku.js"></script>
+</main>
 
-  </head>
-  <body>
-    <header>
-      <div class="header-left">
-        <div class="bar-btn-normal">
-          <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
-          <span class="hiraku-open-btn-line"></span>
-          </button>
-          <div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
-        </div>
-        <div class="header-logo">
-          <a href="/"><img src="/assets/images/utelecon.svg" alt="logo"></a>
-          <p>オンライン授業・web会議ポータルサイト@東京大学</p>
-        </div>
-      </div>
-      <div class="header-right" style="display: flex; align-items: center;">
-        <div class="gcse-search"></div>
-        <div>
-          <a href="/sitemap/">このサイトについて</a> | <a href="/en{{page.url}}">English</a>
-        </div>
-      </div>
-    </header>
-
-    <nav class="top_menu">
-      <ul class="menu">
-        {% for item in site.data.nav %}
-          <li class="menu__single">
-            <a href="" class="init-bottom">{{ item.name }}</a>
-            <ul class="menu__second-level">
-              {% for second in item.contents %}
-                <li><a href="{{ second.url }}">{{ second.name }}</a></li>
-              {% endfor %}
-            </ul>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-
-    <main id="content" class="main-content" role="main">
-      <div class="container" style="border-bottom:  #ececec thin solid;">
-        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
-      </div>
-
-      {% assign is_toc_valid = true %}
-
-      {% if page.url == "/" %}
-        {% assign is_toc_valid = false %}
-      {% endif %}
-
-      {% if is_toc_valid %}
-        <div class="table-of-contents">
-          <h3>目次</h3>
-          {% include toc.html html=content %}
-        </div>
-      {% endif %}
-
-      {{ content }}
-
-      <!-- for drawer -->
-      <div class="offcanvas-left">
-        <ul>
-          <div style="text-indent: -2em">MENU</div>
-          <li><a href="/">Home</a>
-          {% for item in site.data.nav %}
-            <li>{{ item.name }}</li>
-            <ul>
-              {% for second in item.contents %}
-                <li><a href="{{ second.url }}">{{ second.name | markdownify }}</a></li>
-              {% endfor %}
-            </ul>
-          {% endfor %}
-          <li><a href="/sitemap/">サイトマップ</a></li>
-          <li><img src="/assets/images/translation.svg" alt=""><a href="/en{{page.url}}">English</a></li>
-        </ul>
-      </div>
-      <script>
-          $(".offcanvas-left").hiraku({
-              btn:"#offcanvas-btn-left",
-              direction:"left"
-          });
-      </script>
-      <!-- for drawer -->
-
-      <!-- jump to page top -->
-      <div id="pagetop">
-        <img width="70" src="/assets/images/top.png">
-      </div>
-      <script>
-      $(function(){
-        // scroll
-        $('#pagetop').click(function() {
-          $("html,body").animate({scrollTop:0},"300");
-        });
-        // show/hide
-        $('#pagetop').hide();
-        $(window).scroll(function() {
-          if($(window).scrollTop() > 0) {
-            $('#pagetop').slideDown(600);
-          } else {
-            $('#pagetop').slideUp(600);
-          }
-        });
-      });
-      </script>
-      <!-- jump to page top -->
-
-      <!-- chat support -->
-      <script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
-    </main>
-
-    <footer>
-      <div class="container">
-        <div class="logo_wrapper">
-          <img src="/assets/images/utokyo_logo.png" alt="utokyo logo">
-        </div>
-        <ul class="footer_sitemap">
-          {% for item in site.data.nav %}
-            <li class="footer_sitemap_title_list">
-              <p class="title">{{ item.name }}</p>
-              <ul class="">
-                {% for second in item.contents %}
-                  <li><a href="{{ second.url }}">{{ second.name }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </footer>
-  </body>
-</html>
+{% include layouts/footer.html %}
+{% endcapture %}{% include layouts/common.html %}

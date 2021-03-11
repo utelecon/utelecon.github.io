@@ -2,7 +2,7 @@
 title: 2021年春のシステム変更
 ---
 
-<div style="border: 2px solid currentcolor; margin-bottom: 0.5em; padding: 0.5em; font-weight: bold; font-size: larger">UTokyo AccountやZoomなど東大の情報システムの利用方法が変わります</div>
+<div class="important-box">3月15日からZoomが，3月13日からWebexが，それぞれUTokyo Accountでサインインするようになり，これまでの方法ではサインインできなくなります．</div>
 
 オンライン授業の円滑な実施を目的として，東京大学が提供する各種情報システムについて，ログイン方法を可能な限り UTokyo Account （数字10桁の共通ID）に統一してわかりやすくするとともに，その他必要な変更を行います．
 
@@ -12,20 +12,35 @@ title: 2021年春のシステム変更
 
 - 2月25日 [ECCSに関する設定画面が移動します](#eccs)
 - 3月4日 [UTokyo Microsoft Licenseの利用開始時に申請が不要になります](#microsoft)
-- 3月中旬頃 [Zoom・WebexがUTokyo Accountでログインするようになります](#zoom_webex)
+- 3月12日 [WebexがUTokyo Accountでサインインするようになります](#zoom_webex)
+- 3月14日 [ZoomがUTokyo Accountでサインインするようになります](#zoom_webex)
 - 4月以降 [UTokyo Accountに多要素認証を導入します](#mfa)
 - 日時未定 [「東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)」がUTokyo Accountでログインできるようになります](#lite)
 
-## Zoom・Webex：UTokyo Accountでログインするようになります
+## Zoom・Webex：UTokyo Accountでサインインするようになります
 {:#zoom_webex}
 
-Web会議ツールの**ZoomとWebex**について，これまでECCSクラウドメール (1234567890@g.ecc.u-tokyo.ac.jp) とそれぞれ専用のパスワードでログインするようになっていましたが，これらを不要とし，**UTokyo Accountのアカウントがそのまま使えるようにします**．
+Web会議ツールの**ZoomとWebex**について，これまでECCSクラウドメール (1234567890@g.ecc.u-tokyo.ac.jp) とそれぞれ専用のパスワードでサインインするようになっていましたが，これらを不要とし，**UTokyo Accountのアカウントがそのまま使えるようにします**．
 
-現在ご利用いただいているアカウントは，UTokyo Accountで使えるように移行を行う予定です．
+以下の日程で切り替えを行い，現在ご利用いただいている10桁の共通IDのアカウントは，UTokyo Accountで使えるように移行します．
 
-3月中旬頃に切り替え作業を予定しております．詳細は後日あらためてこのページでお知らせします．
+- **Zoom 2021年3月14日 22時 ～ 3月15日 6時 （予定）**
+- **Webex 2021年3月12日 20時 ～ 24時 （予定）**
 
-なお，準備のため，2月中旬より，Zoomについて，東大のアカウントで作成した会議室のURLが https://u-tokyo-ac-jp.zoom.us/j/xxxxxxxxx?pwd=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx という形式に変わっています（現時点では，利用方法等は変わりなく，URLの変化以外に利用者への影響はありません）．
+### Zoomの新しいサインイン方法
+{:#zoom_sign_in}
+
+{% include_relative _zoom_sign_in.md %}
+
+### Webexの新しいサインイン方法
+{:#webex_sign_in}
+
+{% include_relative _webex_sign_in.md %}
+
+### ZoomとWebexのシステム変更に関する詳細
+{:#zoom_webex_details}
+
+切り替え時間中の各システムの利用や，アカウント作成方法の変更などについては，それぞれ**[Zoomのシステム変更に関する詳細ページ](zoom)**，**[Webexのシステム変更に関する詳細ページ](webex)**をご覧ください．
 
 ## UTokyo Accountに多要素認証を導入します
 {:#mfa}
@@ -53,3 +68,4 @@ Web会議ツールの**ZoomとWebex**について，これまでECCSクラウド
 - 2021/02/19 Zoom会議室のURL変更について追記しました．
 - 2021/03/04 UTokyo Microsoft Licenseの利用開始時の申請不要化について実施日を記載しました．
 - 2021/03/04 変更後のシステムでのアカウントの作り方の記載を更新しました．
+- 2021/03/08 ZoomとWebexのシステム変更について詳細を追記しました．

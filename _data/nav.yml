@@ -36,10 +36,10 @@
       url: "https://www.u-tokyo.ac.jp/adm/dics/ja/account.html"
     -
       name: "UTAS"
-      url: "/systems/utas"
+      url: "/utas"
     -
       name: "ITC-LMS"
-      url: "/systems/itc_lms"
+      url: "/itc_lms"
     -
       name: "Zoom"
       url: "/zoom/"
@@ -48,7 +48,7 @@
       url: "/webex/"
     -
       name: "ECCSクラウドメール<small> (Google Workspace)</small>"
-      url: "/systems/eccs_cloud_email"
+      url: "/eccs_cloud_email"
     -
       name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
       url: "https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html"
