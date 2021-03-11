@@ -3,7 +3,7 @@ $header-hamburger-breakpoint: 48rem;
 @import "hiraku/_variables";
 @import "hiraku/_button";
 
-header {
+.header {
   display: grid;
 }
 .header__hamburger-button {
@@ -26,7 +26,7 @@ header {
   display: contents;
 }
 @media (max-width: $header-hamburger-breakpoint) {
-  header {
+  .header {
     grid-template-columns: auto 1fr;
   }
   .header__hamburger-button {
@@ -43,7 +43,7 @@ header {
   @import "hiraku/_base";
 }
 
-header {
+.header {
   color: white;
   :link, :visited {
     color: white;
