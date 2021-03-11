@@ -146,8 +146,12 @@ $header-hamburger-breakpoint: 48rem;
         transition: all 0.1875s ease;
         & > li {
           display: block;
-          padding: 0.5rem 0;
+          padding: 0;
           border-top: 1px solid white;
+          & > a {
+            display: block;
+            padding: 0.5rem 0;
+          }
         }
       }
       &:hover > ul {
