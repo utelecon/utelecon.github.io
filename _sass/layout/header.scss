@@ -105,7 +105,7 @@ $header-hamburger-breakpoint: 48rem;
     padding: 0;
     & > li {
       display: block;
-      flex: 1;
+      flex: auto;
       position: relative;
       height: 3rem;
       text-align: center;
@@ -114,7 +114,14 @@ $header-hamburger-breakpoint: 48rem;
         padding: 1rem 0;
         line-height: 1rem;
         &:after {
-          content: " ▼";
+          content: "";
+          display: inline-block;
+          width: 0.5rem;
+          height: 0.5rem;
+          margin-left: 0.5rem;
+          border-right: 1.5px solid white;
+          border-bottom: 1.5px solid white;
+          transform: translateY(-0.25rem) rotate(45deg);
         }
       }
       & > ul {
@@ -122,11 +129,14 @@ $header-hamburger-breakpoint: 48rem;
         position: absolute;
         z-index: 1;
         opacity: 0;
-        top: 2.25rem;
         width: 100%;
+        min-width: 20vw;
+        top: 2.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0 auto;
         padding: 0;
         background: darken($header-bg-color-secondary, 6.25%);
-        -webkit-transition: all 0.1875s ease;
         transition: all 0.1875s ease;
         & > li {
           display: block;
@@ -138,6 +148,26 @@ $header-hamburger-breakpoint: 48rem;
         visibility: visible;
         top: 3rem;
         opacity: 1;
+      }
+      &:first-child > ul {
+        left: 0;
+        transform: none;
+      }
+      &:last-child > ul {
+        left: auto;
+        right: 0;
+        transform: none;
+      }
+      @media (min-width: 64rem) {
+        flex: 1;
+        &, &:first-child, &:last-child {
+          & > ul {
+            min-width: auto;
+            left: auto;
+            right: auto;
+            transform: none;
+          }
+        }
       }
     }
   }
