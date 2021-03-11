@@ -89,6 +89,11 @@ $header-hamburger-breakpoint: 48rem;
   :link:hover, :visited:hover {
     text-decoration: underline;
   }
+  @media (max-width: $header-hamburger-breakpoint) {
+    flex-direction: column;
+    color: $text-color;
+    @import "components/link";
+  }
 }
 
 :not(.js-hiraku-offcanvas-open)
