@@ -5,6 +5,7 @@ $header-hamburger-breakpoint: 48rem;
 
 .header {
   display: grid;
+  grid-template-columns: auto 1fr;
 }
 .header__hamburger-button {
   display: none;
@@ -59,12 +60,16 @@ $header-hamburger-breakpoint: 48rem;
 
 .header__hamburger-button {
   padding: 0.5rem 1rem;
+  @media (max-width: 24rem) {
+    padding: 0.5rem;
+  }
 }
 
 .header__title {
-  padding: 0.5rem 0 0.25rem 2rem;
+  margin: 0.5rem 2rem 0.25rem 2rem;
   @media (max-width: $header-hamburger-breakpoint) {
-    padding-left: 0.5rem;
+    margin-left: 0;
+    margin-right: 1rem;
   }
   :link, :visited {
     text-decoration: none !important;
@@ -180,19 +185,16 @@ $header-hamburger-breakpoint: 48rem;
   }
 }
 
-//search-box
 .gsc-input .gsc-input-box {
   height: 30px !important;
   width: 100% !important;
   border-radius: 20px 0 0 20px !important;
   color: black;
 }
-
 .gsc-search-button .gsc-search-button-v2 {
   height: 30px !important;
   border-radius: 0 20px 20px 0 !important;
 }
-
 .gsc-control-cse {
   border: none !important;
   background: none !important;
@@ -205,16 +207,21 @@ $header-hamburger-breakpoint: 48rem;
 .gsc-input {
   padding-right: 0 !important;
 }
-
 .gsc-control-cse.gsc-control-cse-ja {
   padding: 0;
   height: 30px;
   margin: 0 10px 0 0;
 }
-
 .gsc-search-button {
   margin-left: 0 !important;
 }
 .gsib_a {
   padding: 2px !important;
+}
+td.gsc-input {
+  width: 10rem;
+}
+input.gsc-input {
+  width: calc(100% - 10px) !important;
+  margin-left: 10px !important;
 }
