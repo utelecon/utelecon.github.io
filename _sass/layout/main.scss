@@ -8,21 +8,6 @@ main {
     text-align: left;
   }
 
-  color: $text-color;
-  font-size: 1.125rem;
-  :link {
-    color: $link-color;
-  }
-  :visited {
-    color: $visited-color;
-  }
-  :link, :visited {
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
   padding: 2rem 4rem;
   @media (min-width: 64rem) {
     max-width: 64rem;
@@ -38,6 +23,10 @@ main {
     margin-top: 0;
   }
 
+  color: $text-color;
+  font-size: 1.125rem;
+  @import "components/link";
+
   .title {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
@@ -47,45 +36,7 @@ main {
     color: black;
   }
 
-  h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    padding-left: 0.5em;
-    color: black;
-    border-left: 0.5em solid $heading-color;
-    border-bottom: 3px solid $heading-color;
-  }
-
-  h3 {
-    font-size: 1.25em;
-    font-weight: bold;
-    margin-top: 0.8em;
-    margin-bottom: 0.8em;
-    padding-left: 0.9em;
-    color: black;
-    border-left: 0.3em solid $heading-color;
-  }
-
-  h4 {
-    font-size: 1.125em;
-    font-weight: bold;
-    margin-top: 0.89em;
-    margin-bottom: 0.89em;
-    padding-left: 0.5em;
-    color: black;
-    // border-left: 2px solid $heading-color;
-    background-color: #ededed;
-  }
-
-  h5,
-  h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: $section-headings-color;
-  }
+  @import "components/headings";
 
   summary {
     cursor: pointer;
