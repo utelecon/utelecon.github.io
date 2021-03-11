@@ -8,6 +8,43 @@ header {
   display: contents;
 }
 
+.top__cards {
+  grid-row: 3 / 4;
+  grid-column: 1 / 3;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  @media (min-width: 96rem) {
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 120rem;
+    justify-self: center;
+  }
+  @media (max-width: 56rem) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 40rem) {
+    grid-template-columns: 1fr;
+  }
+  grid-auto-rows: 1fr;
+  grid-gap: 1em;
+
+  padding: 2em;
+  border-top: 2px solid white;
+
+  color: black;
+  @import "components/link";
+  font-size: 1.25rem;
+
+  a {
+    background-color: white;
+    display: block;
+    border: 1px solid $black-gray;
+    border-left: 4px solid $heading-color;
+    font-weight: bold;
+    padding: 0.5em;
+  }
+}
+
 .container {
   word-wrap: break-word;
   text-align: justify;
