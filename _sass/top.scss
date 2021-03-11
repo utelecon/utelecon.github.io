@@ -42,6 +42,45 @@ header {
   @import "components/headings";
 }
 
+.top__pick-up {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 56rem) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 40rem) {
+    grid-template-columns: 1fr;
+  }
+  grid-auto-rows: 1fr;
+  grid-gap: 1em;
+  margin: 1em 0 2em;
+  a {
+    display: block;
+    border: 1px solid $black-gray;
+    border-left: 4px solid $heading-color;
+    font-weight: bold;
+    padding: 0.5em;
+  }
+}
+
+/*
+.top__pick-up {
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    display: block;
+    flex: auto;
+    border: 1px solid $black-gray;
+    border-radius: 1em;
+    width: 16em;
+    height: 8em;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 0 0.5em;
+  }
+}
+*/
+
 .top-page-top-wrapper {
   display: flex;
   flex-wrap: wrap;
