@@ -7,6 +7,10 @@
   color: navy;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 summary {
   cursor: pointer;
   color: $body-link-color;
