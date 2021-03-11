@@ -19,28 +19,6 @@
 {{ content }}
 {% endif %}
 
-  <!-- jump to page top -->
-  <div id="pagetop">
-    <img width="70" src="/assets/images/top.png">
-  </div>
-  <script>
-  $(function(){
-    // scroll
-    $('#pagetop').click(function() {
-      $("html,body").animate({scrollTop:0},"300");
-    });
-    // show/hide
-    $('#pagetop').hide();
-    $(window).scroll(function() {
-      if($(window).scrollTop() > 0) {
-        $('#pagetop').slideDown(600);
-      } else {
-        $('#pagetop').slideUp(600);
-      }
-    });
-  });
-  </script>
-  <!-- jump to page top -->
 </main>
 
 {% include layouts/footer.html %}
