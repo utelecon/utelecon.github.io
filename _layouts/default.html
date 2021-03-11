@@ -22,14 +22,13 @@
     <script async src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"></script>
 
     <link rel="stylesheet" type="text/css" href="/assets/css/bar.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/hiraku.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="/assets/js/hiraku.js"></script>
 
   </head>
   <body>
     <header>
-      <div class="header__hamburger">
+      <div class="header__hamburger-button">
         <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
         <span class="hiraku-open-btn-line"></span>
         </button>
@@ -39,27 +38,34 @@
         <div class="header__title__main"><a href="/{% if page.lang == "en" %}en/{% endif %}">utelecon</a></div>
         <div class="header__title__sub">オンライン授業・Web会議ポータルサイト @ 東京大学</div>
       </div>
-      <div class="header__links">
-        <div class="gcse-search"></div>
-        <div>
-          <a href="/sitemap/">このサイトについて</a> | <a href="/en{{page.url}}">English</a>
+      <div class="header__hamburger-contents">
+        <div class="header__links">
+          <div class="gcse-search"></div>
+          <div>
+            <a href="/sitemap/">このサイトについて</a> | <a href="/en{{page.url}}">English</a>
+          </div>
         </div>
+        <nav class="header__nav">
+          <ul>
+            {% for item in site.data.nav %}
+              <li>
+                <div class="header_nav_text">{{ item.name }}</div>
+                <ul>
+                  {% for second in item.contents %}
+                    <li><a href="{{ second.url }}">{{ second.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
       </div>
-
-      <nav class="header__nav">
-        <ul>
-          {% for item in site.data.nav %}
-            <li>
-              <div class="header_nav_text">{{ item.name }}</div>
-              <ul>
-                {% for second in item.contents %}
-                  <li><a href="{{ second.url }}">{{ second.name }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
+      <script>
+        $(".header__hamburger-contents").hiraku({
+          btn:"#offcanvas-btn-left",
+          direction:"left"
+        });
+      </script>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -75,31 +81,6 @@
       {% endif %}
 
       {{ content }}
-
-      <!-- for drawer -->
-      <div class="offcanvas-left">
-        <ul>
-          <div style="text-indent: -2em">MENU</div>
-          <li><a href="/">Home</a>
-          {% for item in site.data.nav %}
-            <li>{{ item.name }}</li>
-            <ul>
-              {% for second in item.contents %}
-                <li><a href="{{ second.url }}">{{ second.name | markdownify }}</a></li>
-              {% endfor %}
-            </ul>
-          {% endfor %}
-          <li><a href="/sitemap/">サイトマップ</a></li>
-          <li><img src="/assets/images/translation.svg" alt=""><a href="/en{{page.url}}">English</a></li>
-        </ul>
-      </div>
-      <script>
-          $(".offcanvas-left").hiraku({
-              btn:"#offcanvas-btn-left",
-              direction:"left"
-          });
-      </script>
-      <!-- for drawer -->
 
       <!-- jump to page top -->
       <div id="pagetop">
