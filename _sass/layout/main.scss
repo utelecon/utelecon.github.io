@@ -56,6 +56,20 @@ main {
       text-decoration: underline;
     }
   }
+
+  code em {
+    font-style: normal;
+    font-weight: bold;
+    background-color: yellow;
+  }
+  
+  .important-box {
+    border: 2px solid currentcolor;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: larger;
+  }
 }
 
 .main__toc {

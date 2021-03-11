@@ -1,92 +1,112 @@
 ---
-title: Trouble Support on Online Classes and Web Conferences
+title: Technical Support Desk
 layout: en
 ---
-## About this page
+
+<div style="border: 2px solid currentcolor; margin-bottom: 0.5em; padding: 0.5em; font-weight: bold; font-size: larger;">To expand our support services for the new academic year, we have introduced a new support desk which is co-operated by the student staff ("common supporters") and faculty members.</div>
+
 * This page aims to respond to various inquiries related to online classes and web conferences from students and faculties of the University of Tokyo. 
-* The gleaned information will be used for rapid troubleshooting and technical support related to online classes and web conferences. 
+* Normally, student staff (i.e. common supporters) will respond to your inquiry, but it might be handed over to faculty members when deemed necessary.
+* You might contact us through chats, Zoom, and email form. For consultation, please pick any means that is of your convenience.
 
-## To find a solution to your problem
-At present, following services are provided to find a solution to your problem．
+## Regulations
 
-* [FAQ](/faq) (Japanese only. Click [here](/en/faq/) for an excerpted English version.)
-  * This is a list of frequently asked questions and the ways to handle them.
-* Chat Support
-  * First, the chatbot will ask you questions to identify your problem and give you solutions. Then, if your problem cannot be solved by the chatbot, you will be connected to the live chat support by student operators called “common supporters”. 
-* Q&A Forum
-  * This is a Google Group for asking and answering each other’s questions. If you ask general questions in this Q&A forum, members within the Group will give you solutions and new ideas. 
-* Support by Email
-  * Please use the email support system as a last resort when all three means above couldn’t solve your problem.
-  * Please be aware that it may take time due to the long line.
+* To ensure prompt response, each support desk is generally staffed by students. Please keep this in mind and **DO NOT include any information which is inappropriate to share with students.**
+* If you have a question that is inappropriate for students, such as a question about your grades, **please check the "I would like to receive support from faculty members" box on the email form. A faculty member will respond directly.** However, please understand that it may take time in such cases.
+* **If you have any questions or concerns about examinations, please first contact your instructor or the department/graduate school that offers the examinations.** Regarding examinations, we only accept inquiries from the email form.
+* For support via Zoom, we do not record voices or videos. **Users are also requested not to do any recording or video recording**.
+* Information obtained from inquiries will be used for replying and related tasks, and may also be shared internally to improve support services in the future. In addition, they may be disclosed in the form of case studies and statistical information, etc., for the purpose of introducing support initiatives in a manner that prevents identification of individuals. We will not use the information for any other purposes except for the exceptions specified by law.
+* Student staff, who signed confidentiality agreements, handle the information under the control and supervision of faculty staff.
+* Please note that it may take some time to receive responses from the operators through chats and Zoom, depending on how busy they are. Under such circumstances, please contact us with the email form or try again later.
+* If you leave the chat page, you may not be able to receive messages from the operator. Please do not close the chat page during the exchange.
 
-Please try solving the problem following the current shown below.
-1. First, please read the [FAQ](/faq) (Japanese only. Click [here](/en/faq/) for an excerpted English version.) and look for similar troubles.
-1. If you couldn’t solve your problem, please try out the Chat Support at the right bottom corner of this page.
-1. If your problem couldn’t be solved by the Chat Support, please post your question at the Q&A Forum.
-1. If all of the above steps didn’t work out, please go on to the Support by Email.
+<div class="support-channel-main">
 
-## FAQ 
-Frequently asked questions and their answers are listed on the [FAQ page](/en/faq). But we’re sorry that this English version does not contain as much information as the Japanese version. You can also refer to the [Japanese version](/faq).  
-[/faq](/faq)
+<h2 id="chat">Chat Support</h2>
 
-## Chat Support
-* About this service
-  * Please click the “ “ shown at the right bottom corner of this page to start.
-  * First, the chatbot (auto-replying robot) will ask you questions. Please answer the questions using the given choices.
-  * When it is difficult to solve your problem by the chatbot, you will be connected to the operator. 
-   * Before connecting to the operator, you will be asked to write your name, affiliation, etc. Please follow the instructions and fill in the demanded information. 
-  * If your problem couldn’t be solved by the Chat Support, please go on to the recommended support desk.
-* Precautions 
-  * In this Chat Support, student operators (called “common supporters”) will answer you when in need. Please understand that there is a limit to the number of people the operators can assist at the same time.   
-    * As the operators are students and not professors, the Chat Support basically doesn’t answer questions about exams. If you have questions or something to consult about exams, please contact the teacher, faculty or department in charge.
-  * The operators are basically available from 8:30 to18:35 (JST) on weekdays. However, please understand that unavailable time might occur due to work shift gaps. (Chat Support by the chatbot is available 24hours.)
-  * When many people demand support by the operator at once, you might not be able to reach the operator. Please try again after sometime, or use the Support by Email. 
-  * All questions and comments during the Chat Support are recorded.
-  * Please be careful when handling your personal information. To be specific, please DO NOT write your UTokyo Account (10 digit), student ID, age, or gender in the Chat Support System.
-  * When personal information as mentioned above is necessary to solve your problem, the operator will guide you to the Support by Email. Please follow the instructions at Support by Email and contact us by email.
-  * The building of the chatbot and the response to the chats are mainly handled by Japanese speaking students. We apologize if there are any incorrect or confusing expressions (if any, please inform us). Also, please forgive us if we do not have students who can speak English fluently at certain times of the day.
+<p>You can ask questions and consult with chatbot (an automatic response robot) or human operators. First, the chatbot will try to solve the problem. When it fails, a student operator (also called a “common supporter”) will take over and answer you.</p> 
 
-## Q&A Forum
-As a forum for questions and discussion is in use, please join it and check the past discussions for similar problems. You can also post new questions, so please consider using the forum.
-For information about how to join the forum, please visit the site below. 
-[/en/forums/](/en/forums/)
+Response time (automatic response): 24 hours<br>
+Response time (operator response): 10:20 a.m. to 4:45 p.m. on weekdays
 
-## Support by Email
-If your problem couldn’t be solved by the ways above, please contact us by email after having considered the following notices.
+</div>
+<div class="support-channel-link">
+From the widget<br>"Chat Support Available (チャットサポートで質問できます)" at the bottom right of the screen.
+</div>
 
-* As we get a large number of emails requiring support, it takes a while before we can reply to your email. Thank you for your understanding. 
-* If you have general questions not including any personal information, please use the Q&A Forum.
-* Before using the email support system, please consider contacting the teacher in charge of the class, your friends, colleagues, the teachers and office of your department or faculty. 
+<div class="support-channel-main">
 
-If you desire to contact us about your problem by email, please send an email to utelecon-inquiries@googlegroups.com (Troubleshooting Template required).
-For the Troubleshooting Template, choose from the two templates below;  one for Zoom and another for all other problems. 
+<h2 id="zoom">Consult via Zoom</h2>
 
-## Zoom Troubleshooting Template
-```
- Your Name : 
- Affiliation : Please write the department, faculty, course, etc that you belong to.
- Classification : Select between “faculty and staff” and “student”. 
- Position or grade: 
- UTokyo Account(10 digit): 
- ECCS Cloud Email Address: (character string of your choice) @g.ecc.u-tokyo.ac.jp
- Can you sign in Zoom with (UTokyo Account(10 digit))@g.ecc.u-tokyo.ac.jp ?: Select between “Yes” and “No”.
- If “Yes”, please tell us what your User Type and Capacity say :
- Please describe your issue of Zoom : 
-```
+<p>In the Zoom conference room, student staff (common supporters) will act as operators to answer questions and offer consultation. You can speak, exchange texts, and share screens with the operators. When you access the conference room, you will first be taken to a waiting room. Please wait to be let in.</p> 
 
-## Common Troubleshooting Template
+Available hours: Weekdays from 10:20 a.m. to 4:45 p.m.
 
-```
- Name : 
- Affiliation : Please write the department, faculty, course, etc that you belong to.
- Classification : Select between “faculty and staff” and “student”. 
- Position or grade: 
- UTokyo Account(10 digit):
- Details of inquiry :  
- Please fill in the following a,b and c as much as possible．
+</div>
+<div class="support-channel-link">
+<a href="https://docs.google.com/document/d/1hN0VpQj3engH5lAZUJ_gIsNTnJBkrUkUXgoV_T03Iec/edit?usp=sharing">Meeting Room Information (ECCS Cloud Email Required)</a>
+</div>
 
- a) To what system (ex. UTAS,Webex...) is your question related to?
- b) What did you try to do? If possible, please write the materials and websites that you referred to.
- c) Please describe the problem that occured in detail.
-```
+<div class="support-channel-main">
 
+<h2 id="email-form">Consulting via Email Form</h2>.
+
+<p>Student operators (also called “common supporters”) will reply to the received email inquiries. When it is difficult for student staff to resolve the issue, a faculty member will take over the consultation.</p>
+
+<p>For questions which include information that is inappropriate to students, such as grades or personal information, faculty members will respond directly. If you want a faculty member to respond to you, please check the "I would like to receive support from faculty members" box on the email form.</p> 
+
+Opening hours: 24 hours
+
+</div>
+<div class="support-channel-link">
+<a href="https://forms.gle/UmtsPRfGvW1nsXDS7">Mail form</a>
+</div>
+
+## Other Support
+
+### FAQ (Frequently Asked Questions)
+
+Frequently asked questions and their respective answers are listed in [FAQ page](/en/faq/).
+But we’re sorry that this English version does not contain as much information as the Japanese version. You can also refer to the [Japanese version](/faq/).
+
+### Q&A Forum
+We have a Q&A forum for questions and discussions. After registration, you can view past discussions and post questions. Please see "[QA Forum and Mailing List for Announcements](/en/forums/)" for more information on how to register.
+
+### Contact by Email
+
+In the case that the email form is not responding, send a direct email to utelecon-inquiries@googlegroups.com.
+Please send your email with either the Zoom troubleshooting template or the common troubleshooting template below.
+
+<details>
+<summary>Zoom Troubleshooting Template</summary>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+Name: 
+Affiliation: (Department/Faculty/Course taken/Any other else)
+Position or Grade: ”Faculty Staff”/ “Student (B1, B2, etc.)”
+UTokyo Account(10 digits): 
+ECCS Cloud Email Address: ***********(characters/numbers of your choice) @g.ecc.u-tokyo.ac.jp
+Can you sign in Zoom with (UTokyo Account(10 digits))@g.ecc.u-tokyo.ac.jp? "Yes"/ "No"
+If "Yes", please tell us your user type and capacity:
+Details of inquiry:
+</code></pre></div></div>
+
+</details>
+
+<details>
+<summary>Common Troubleshooting Template</summary>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+Name: 
+Affiliation: (Department/Faculty/Course taken/Any other else)
+Position or Grade: : ”Faculty Staff”/ “Student (B1, B2, etc.)”
+UTokyo Account(10 digits):
+Details of inquiry :  
+Please provide the following information as far as possible.
+
+a) Which system (e.g. UTAS, Webex) support are you seeking?
+b) What did you try to do? If possible, please name the materials and websites that you referred to.
+c) Please describe the problem in detail.
+</code></pre></div></div>
+
+</details>
