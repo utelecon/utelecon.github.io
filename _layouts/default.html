@@ -6,7 +6,7 @@
     <h1 class="title">{{ page.title }}</h1>
   {% endif %}
 
-  {% if page.toc != false and page.url != "/" and page.url != "/en/" %}
+  {% if page.toc != false %}
     <div class="main__toc">
       <h2>目次</h2>
       {% include toc.html html=content %}
@@ -37,9 +37,6 @@
   });
   </script>
   <!-- jump to page top -->
-
-  <!-- chat support -->
-  <script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
 </main>
 
 {% include layouts/footer.html %}

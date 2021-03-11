@@ -1,6 +1,9 @@
 ---
 title: オンライン授業・Web会議 ポータルサイト@ 東京大学
+layout: common
 ---
+
+{% include layouts/header.html %}
 
 <section class="top-page-section-wrapper">
   <div class="top-page-top-wrapper">
@@ -190,3 +193,5 @@ title: オンライン授業・Web会議 ポータルサイト@ 東京大学
     </a>
   </div>
 </section>
+
+{% include layouts/footer.html %}
