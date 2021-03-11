@@ -1,0 +1,20 @@
+<footer>
+  <div class="footer__logo">
+    <a href="https://www.u-tokyo.ac.jp/" target="_blank" rel="noopener"><img class="footer__logo__utokyo" src="/assets/images/UTlogo.png" alt="東京大学 the University of Tokyo"></a>
+    <div class="footer__logo__utelecon">オンライン授業・Web会議ポータルサイト utelecon</div>
+  </div>
+  <nav class="footer__nav">
+    <ul>
+      {% for item in site.data.nav %}
+        <li>
+          <div>{{ item.name }}</div>
+          <ul class="">
+            {% for second in item.contents %}
+              <li><a href="{{ second.url }}">{{ second.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</footer>
