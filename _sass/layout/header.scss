@@ -140,7 +140,7 @@ $header-hamburger-breakpoint: 48rem;
 
 @media (max-width: $header-hamburger-breakpoint) {
   .header__nav {
-    color: black;
+    color: $text-color;
     @import "components/link";
   }
 }

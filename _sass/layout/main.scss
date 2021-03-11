@@ -35,7 +35,7 @@ main {
   .title {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid $white-gray;
+    border-bottom: 1px solid $white-gray-dark;
     font-size: 2rem;
     font-weight: bold;
     color: black;
@@ -80,7 +80,7 @@ main {
   margin: 2.29em 0;
   font-size: 0.875em;
   border-radius: 1em;
-  background-color: #ededed;
+  background-color: $white-gray-light;
   & > h2 {
     margin: 0 0 0.4em 0.8em;
     padding: 0;
@@ -103,7 +103,7 @@ main {
     padding: 0.25em 1em 0.25em 0;
     &:hover {
       color: $link-color;
-      background-color: $white-gray;
+      background-color: $white-gray-dark;
     }
     @media (pointer: coarse) {
       padding: 0.75em 1em 0.75em 0;

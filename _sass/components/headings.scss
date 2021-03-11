@@ -6,7 +6,7 @@ h2 {
   padding-left: 0.5em;
   color: black;
   border-left: 0.5em solid $heading-color;
-  border-bottom: 3px solid $heading-color;
+  border-bottom: 2px solid $heading-color;
 }
 
 h3 {
@@ -26,8 +26,7 @@ h4 {
   margin-bottom: 0.89em;
   padding-left: 0.5em;
   color: black;
-  // border-left: 2px solid $heading-color;
-  background-color: #ededed;
+  background-color: $white-gray-light;
 }
 
 h5,
