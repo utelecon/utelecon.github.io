@@ -11,9 +11,11 @@ layout: common
       </button>
       <div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
     </div>
-    <h1 class="header__title">
-      <div class="header__title__main"><a href="/{% if page.lang == "en" %}en/{% endif %}">utelecon</a></div>
-      <div class="header__title__sub">オンライン授業・Web会議ポータルサイト @ 東京大学</div>
+    <h1>
+      <a class="header__title" href="/{% if page.lang == "en" %}en/{% endif %}">
+        <div class="header__title__main">utelecon</div>
+        <div class="header__title__sub">オンライン授業・Web会議ポータルサイト @ 東京大学</div>
+      </a>
     </h1>
     <div class="header__hamburger-contents">
       <div class="header__links">

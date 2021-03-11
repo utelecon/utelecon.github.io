@@ -6,6 +6,9 @@ h1 {
 
 header {
   display: contents;
+  & > h1 {
+    display: contents;
+  }
 }
 
 .top__cards {

@@ -66,6 +66,7 @@ $header-hamburger-breakpoint: 48rem;
 }
 
 .header__title {
+  display: block;
   margin: 0.5rem 2rem 0.25rem 2rem;
   @media (max-width: $header-hamburger-breakpoint) {
     margin-left: 0;
