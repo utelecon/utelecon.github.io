@@ -94,6 +94,9 @@ main {
     font-size: 1.25em;
     font-weight: bold;
     color: $text-color;
+    &:only-child {
+      padding-bottom: 0.8em;
+    }
   }
   ul {
     margin: 0;
