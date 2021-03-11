@@ -9,11 +9,15 @@
   {% if page.toc != false %}
     <div class="main__toc">
       <h2>目次</h2>
-      {% include toc.html html=content %}
+{% include toc.html html=content %}
     </div>
   {% endif %}
 
-  {{ content }}
+{% if page.target_blank != false %}
+{% include layouts/target_blank.html %}
+{% else %}
+{{ content }}
+{% endif %}
 
   <!-- jump to page top -->
   <div id="pagetop">
