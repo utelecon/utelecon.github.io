@@ -21,7 +21,7 @@ layout: common
       <div class="header__links">
         <div class="gcse-search"></div>
         <div>
-          <a href="/sitemap/">このサイトについて</a> | <a href="/en{{page.url}}">English</a>
+            <a href="/{% if page.lang == "en" %}en/{% endif %}">TOP</a> | <a href="/en{{page.url}}">English</a>
         </div>
       </div>
       <nav class="header__nav">
