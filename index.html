@@ -4,17 +4,17 @@ layout: common
 ---
 
 <div class="header">
-  <header style="display: contents;">
+  <header>
     <div class="header__hamburger-button">
       <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
       <span class="hiraku-open-btn-line"></span>
       </button>
       <div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
     </div>
-    <div class="header__title">
+    <h1 class="header__title">
       <div class="header__title__main"><a href="/{% if page.lang == "en" %}en/{% endif %}">utelecon</a></div>
       <div class="header__title__sub">オンライン授業・Web会議ポータルサイト @ 東京大学</div>
-    </div>
+    </h1>
     <div class="header__hamburger-contents">
       <div class="header__links">
         <div class="gcse-search"></div>
@@ -91,58 +91,60 @@ layout: common
   </div>
 </div>
 
-<div style="max-width: 64rem; padding: 2rem 6rem;">
+<div class="container">
   <p class="about_this_site">
     uteleconは東大のオンライン授業・web会議支援情報ポータルサイトです。
   </p>
 
   <section class="top-page-section-wrapper">
-    <h2>お知らせ・イベント</h2>
-    <table>
-      <tr>
-        <th>日付</th>
-        <th>内容</th>
-      </tr>
-      <tr>
-        <td>2021/02/15</td>
-        <td>
-          <a href="change2021s/"> 「2021年春のシステム変更」 </a>
-          を公開しました。
-        </td>
-      </tr>
-      <tr>
-        <td>2021/02/08</td>
-        <td>
-          (教員用) 2/10 12:10から
-          <a href="events/2020-luncheon/">
-            オンライン授業情報交換会(トピック：VR(仮想現実)教室で行う授業の実践例
-          </a>
-          実施いたします．
-        </td>
-      </tr>
-      <tr>
-        <td>2021/02/03</td>
-        <td>
-          2/8以降，平日の10:20-16:45に
-          <a
-            href="supports/#zoom%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88"
-          >
-            Zoomを用いたサポート
-          </a>
-          の試行を行っています．学生（コモンサポーター）がオペレータとして対応し，音声・チャット・画面共有を利用して質問・相談を受け付けます．
-        </td>
-      </tr>
-    </table>
-    <p>
-      関連リンク：
-      <a href="notice/">お知らせ</a>
-      、
-      <a href="events/2020-luncheon/">オンライン授業情報交換会</a>
-      、
-      <a href="events/">説明会他</a>
-    </p>
+    <h2>ハイライト</h2>
+    <div class="normal-card-wrapper">
+      <a href="#" class="normal-card-anchor">
+        <div class="normal-card">
+          <img src="/assets/images/hoge.svg" alt="utelecon-logo" />
+          <h3>グッドプラクティス</h3>
+        </div>
+      </a>
+      <a href="#" class="normal-card-anchor">
+        <div class="normal-card">
+          <img src="/assets/images/hoge.svg" alt="utelecon-logo" />
+          <h3>オンライン授業情報交換会</h3>
+        </div>
+      </a>
+      <a href="#" class="normal-card-anchor">
+        <div class="normal-card">
+          <img src="/assets/images/hoge.svg" alt="utelecon-logo" />
+          <h3>オンライン授業に関するアンケート結果</h3>
+        </div>
+      </a>
+    </div>
   </section>
 
+  <h2>お知らせ</h2>
+  <ul>
+    <li><span style="color:blue;">2021/02/15:</span> <a href="change2021s/">「2021年春のシステム変更」</a>を公開しました．</li>
+    <li><span style="color:blue;">2021/02/08:</span> (教員用) 2/10 12:10から<a href="events/2020-luncheon/">オンライン授業情報交換会(トピック：VR(仮想現実)教室で行う授業の実践例</a>を実施いたします．</li>
+    <li><span style="color:blue;">2021/02/03:</span> 2/8以降，平日の10:20-16:45に<a href="supports/#zoom%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88">Zoomを用いたサポート</a>の試行を行っています．学生（コモンサポーター）がオペレータとして対応し，音声・チャット・画面共有を利用して質問・相談を受け付けます．</li>
+    <li><span style="color:blue;">2021/02/03:</span> (教員用) 2/3 12:10から<a href="events/2020-luncheon/">オンライン授業情報交換会(トピック：グッドプラクティス事例(9) 実習形式の授業のオンライン化の工夫</a>を実施いたします．</li>
+    <li><span style="color:blue;">2021/01/26:</span>「オンライン授業・Web会議ポータルサイト (utelecon)」のURLが変わりました．既存のリンクやブックマーク等は引き続き利用できます．<a href="/notice/20210126-domain-change">詳細はこちら</a></li>
+  </ul>
+
+  <h2>授業で使うシステム</h2>
+  <div style="column-count: 2;">
+    <ul>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/account.html">UTokyo Account</a></li>
+      <li><a href="/systems/utas">UTAS</a></li>
+      <li><a href="/systems/itc_lms">ITC-LMS</a></li>
+      <li><a href="/zoom/">Zoom</a></li>
+      <li><a href="/webex/">Webex</a></li>
+      <li><a href="/systems/eccs_cloud_email">ECCSクラウドメール<small> (Google Workspace)</small></a></li>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html">UTokyo Microsoft License<small> (Microsoft 365)</small></a></li>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html">UTokyo WiFi</a></li>
+      <li><a href="https://www.ecc.u-tokyo.ac.jp/">ECCS端末</a></li>
+    </ul>
+  </div>
+
+<!--
   <section class="top-page-section-wrapper">
     <h2>授業で使うシステム</h2>
     <p class="top-page-section-description">
@@ -211,30 +213,7 @@ layout: common
       </a>
     </div>
   </section>
-
-  <section class="top-page-section-wrapper">
-    <h2>ハイライト</h2>
-    <div class="normal-card-wrapper">
-      <a href="#" class="normal-card-anchor">
-        <div class="normal-card">
-          <img src="/assets/images/hoge.svg" alt="utelecon-logo" />
-          <h3>グッドプラクティス</h3>
-        </div>
-      </a>
-      <a href="#" class="normal-card-anchor">
-        <div class="normal-card">
-          <img src="/assets/images/hoge.svg" alt="utelecon-logo" />
-          <h3>オンライン授業情報交換会</h3>
-        </div>
-      </a>
-      <a href="#" class="normal-card-anchor">
-        <div class="normal-card">
-          <img src="/assets/images/hoge.svg" alt="utelecon-logo" />
-          <h3>オンライン授業に関するアンケート結果</h3>
-        </div>
-      </a>
-    </div>
-  </section>
+-->
 </div>
 
 {% include layouts/footer.html %}

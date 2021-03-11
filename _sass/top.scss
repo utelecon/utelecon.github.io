@@ -1,3 +1,43 @@
+h1 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+header {
+  display: contents;
+}
+
+.container {
+  word-wrap: break-word;
+  text-align: justify;
+  @media (max-width: 48rem) {
+    text-align: left;
+  }
+
+  color: $text-color;
+  @import "components/link";
+  font-size: 1.125rem;
+
+  padding: 2rem 4rem;
+
+  @media (min-width: 64rem) {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+  }
+  @media (max-width: 48rem) {
+    font-size: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  @import "components/headings";
+}
+
 .top-page-top-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +90,7 @@
 .top-page-section-wrapper {
   padding: 40px 0;
   color: black;
+  /*
   h2 {
     border-left: thick solid $header-bg-color-secondary;
     margin: 40px 0;
@@ -57,6 +98,7 @@
     font-weight: 700;
     color: black;
   }
+  */
   table {
     box-shadow: 0 3px 10px -8px rgba(0, 0, 0, 0.4);
     color: black;
