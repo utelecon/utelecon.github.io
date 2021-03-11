@@ -23,11 +23,15 @@ header {
 
   @media (min-width: 64rem) {
     max-width: 64rem;
-    padding: 2rem 6rem;
     margin: 0 auto;
   }
   @media (max-width: 48rem) {
+    padding: 2rem 2rem;
+  }
+  @media (max-width: 40rem) {
     font-size: 1rem;
+  }
+  @media (max-width: 32rem) {
     padding: 2rem 1rem;
   }
 

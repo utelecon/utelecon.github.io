@@ -4,28 +4,33 @@ $body-link-color: #003498;
 main {
   word-wrap: break-word;
   text-align: justify;
-  @media (max-width: 48rem) {
+  @media (max-width: 40rem) {
     text-align: left;
   }
 
+  color: $text-color;
+  @import "components/link";
+  font-size: 1.125rem;
+
   padding: 2rem 4rem;
+
   @media (min-width: 64rem) {
     max-width: 64rem;
-    padding: 2rem 6rem;
     margin: 0 auto;
   }
   @media (max-width: 48rem) {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
+  }
+  @media (max-width: 40rem) {
     font-size: 1rem;
+  }
+  @media (max-width: 32rem) {
+    padding: 2rem 1rem;
   }
 
   :first-child {
     margin-top: 0;
   }
-
-  color: $text-color;
-  font-size: 1.125rem;
-  @import "components/link";
 
   .title {
     margin-bottom: 2rem;
