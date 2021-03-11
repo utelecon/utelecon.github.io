@@ -11,6 +11,10 @@ html {
   line-height: 1.5;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 @import "layout/jekyll-theme-cayman";
 @import "layout/main";
 @import "layout/header";
