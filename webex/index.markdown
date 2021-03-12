@@ -2,6 +2,8 @@
 title: Webex
 ---
 
+{% include sso.html %}
+
 ## はじめに
 
 * <a href="https://www.datanyze.com/market-share/web-conferencing--52" target="_blank" rel="noopener">3番目にシェアの大きい</a>Web会議システムです
