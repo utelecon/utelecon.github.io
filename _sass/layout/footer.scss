@@ -53,7 +53,9 @@ footer {
     }
     @media (min-width: 96rem) {
       display: flex;
+      justify-content: space-around;
       column-count: auto;
+      column-gap: normal;
     }
   }
 }
