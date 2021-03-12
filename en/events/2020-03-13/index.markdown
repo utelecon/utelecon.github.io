@@ -3,8 +3,6 @@ title: 2020/03/13 Briefing on How to host Video Conferences when aiming for Onli
 layout: en
 ---
 
-# 2020/03/13 Briefing on How to host Video Conferences when aiming for Online Classes
-
 
 * Briefing session <a href="https://todai.tv/contents-list/lecture/online-teaching/01" target="_blank">video（Limited release: UTokyo Account required）</a>
 * Briefing session slides<font color="red">(updated on 3/16)</font> [pdf](online_lecture.pdf), [pptx](online_lecture.pptx) 

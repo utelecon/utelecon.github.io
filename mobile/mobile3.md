@@ -10,19 +10,19 @@ title: 教育・研究活動のためのネットワーク環境支援 継続
 2021年度4月以降の新規申請は3月中旬から受付予定です。
 </span>
 
-# 目的 / Purpose 
+## 目的 / Purpose 
 
 本学では、緊急の授業のオンライン化に際し、ネットワーク環境の整っていない学生に対してモバイルWiFiルータを提供する支援を行っています。​これまでも2回、申込みを受けつけ、発送を行っています。引き続き継続して必要な人への支援を続けます。​なお、貸出できる機器には限りがあるため、応募多数の場合には、これまで通り授業の受講など全学としての支援の必要性の高い方を優先することとします。主に研究で利用する場合, 研究室, 学科(専攻), 学部(研究科)などから支援が受けられないかも合わせて検討くださるようお願いいたします.
 
 As part of our effort to urgently make classes online, the University of Tokyo has offered mobile WiFi routers to students who do not have a networking environment with high data capacity.  We received applications and sent equipements twice.  We continue to do so.  Note, however, that the number of routers we can offer is limited and the priority will be given to those who need the university level support, such as students who otherwise would have difficulties in taking courses.  If it is mainly used for research, please also seek help from your laboratory, department, and faculty (school).
 
-# 提供する支援 / Support provided 
+## 提供する支援 / Support provided 
 
 1か月50GBまで高速通信が可能なモバイルWiFiルータの貸し出し
 
 A mobile WiFi router with up to 50GB of high-speed communication per month 
 
-# 提供条件 / Terms of Offer 
+## 提供条件 / Terms of Offer 
 
 1. 本学における教育・研究活動に参加するために利用すること
 1. 研究活動のための利用が主である場合, 研究室, 学科(専攻), 学部(研究科)などから受けられる支援も合わせて調査・検討すること
@@ -40,7 +40,7 @@ A mobile WiFi router with up to 50GB of high-speed communication per month
 
 It will be offered to students subject to the above conditions. 
 
-# 申し込み / Application 
+## 申し込み / Application 
 <span style="color: red; ">
 **【重要】**
 2020年度の新規申し込みは終了しました。

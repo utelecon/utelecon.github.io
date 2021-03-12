@@ -1,5 +1,7 @@
-theme: jekyll-theme-cayman
 google_analytics: UA-160716658-1
 gems:
     - jekyll-redirect-from
+sass:
+    sass_dir: _sass
+lang: ja
 title: utelecon

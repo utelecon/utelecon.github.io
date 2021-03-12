@@ -1,0 +1,90 @@
+-
+  name: "まずはここから"
+  contents:
+    -
+      name: "オンライン授業を受けるために<small>（学生向け）</small>"
+      url: "/oc/"
+    -
+      name: "オンライン授業を始めるために<small>（教員向け）</small>"
+      url: "/faculty_members/"
+    -
+      name: "よりよいオンライン授業をするために<small>（教員向け）</small>"
+      url: "/improvement/"
+    -
+      name: "サポート窓口"
+      url: "/supports/"
+    -
+      name: "2021年春のシステム変更"
+      url: "/change2021s/"
+-
+  name: "お知らせ・イベント"
+  contents: 
+    -
+      name: "お知らせ"
+      url: "/notice/"
+    -
+      name: "オンライン授業情報交換会"
+      url: "/events/2020-luncheon/"
+    -
+      name: "説明会等"
+      url: "/events/"
+-
+  name: "授業で使うシステム"
+  contents:
+    -
+      name: "UTokyo Account"
+      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/account.html"
+    -
+      name: "UTAS"
+      url: "/utas"
+    -
+      name: "ITC-LMS"
+      url: "/itc_lms"
+    -
+      name: "Zoom"
+      url: "/zoom/"
+    -
+      name: "Webex"
+      url: "/webex/"
+    -
+      name: "ECCSクラウドメール<small> (Google Workspace)</small>"
+      url: "/eccs_cloud_email"
+    -
+      name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
+      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html"
+    -
+      name: "UTokyo WiFi"
+      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html"
+    -
+      name: "ECCS端末"
+      url: "https://www.ecc.u-tokyo.ac.jp/"
+-
+  name: "よりよい授業のために"
+  contents:
+    -
+      name: "よりよいオンライン授業をするために"
+      url: "/improvement/"
+    -
+      name: "グッドプラクティス"
+      url: "/good-practice/"
+    -
+      name: "オンライン授業情報交換会"
+      url: "/events/2020-luncheon/"
+-
+  name: "サポート"
+  contents:
+    -
+      name: "サポート窓口"
+      url: "/supports/"
+    -
+      name: "よくある質問 (FAQ)"
+      url: "/faq/"
+    -
+      name: "授業入室トラブル報告"
+      url: "/forms/et"
+    -
+      name: "ネットワーク環境支援"
+      url: "/mobile/"
+    -
+      name: "クラスサポーター"
+      url: "/supporters/class"

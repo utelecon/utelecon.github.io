@@ -1,0 +1,97 @@
+---
+title: オンライン授業・Web会議 ポータルサイト @ 東京大学
+layout: common
+---
+
+<header class="header">
+  <div class="header__hamburger-button">
+    <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
+    <span class="hiraku-open-btn-line"></span>
+    </button>
+    <div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
+  </div>
+  <h1 class="top-h1">
+    <a class="header__title" href="/{% if page.lang == "en" %}en/{% endif %}">
+      <div class="header__title__main">utelecon</div>
+      <div class="header__title__sub">オンライン授業・Web会議ポータルサイト @ 東京大学</div>
+    </a>
+  </h1>
+  <div class="header__hamburger-contents">
+    <div class="header__links">
+      <div class="gcse-search"></div>
+      <div>
+          <a href="/{% if page.lang == "en" %}en/{% endif %}">TOP</a> | <a href="/en{{page.url}}">English</a>
+      </div>
+    </div>
+    <nav class="header__nav">
+      <ul>
+        {% for item in site.data.nav %}
+          <li>
+            <div class="header_nav_text">{{ item.name }}</div>
+            <ul>
+              {% for second in item.contents %}
+                <li><a href="{{ second.url }}"{%
+                  assign url_slice = second.url | slice: 0, 4
+                %}{%
+                  if url_slice == "http"
+                %} target="_blank" rel="noopener"{%
+                  endif
+                %}>{{ second.name }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+  <script>
+    $(".header__hamburger-contents").hiraku({
+      btn:"#offcanvas-btn-left",
+      direction:"left"
+    });
+  </script>
+</header>
+
+<main id="content">
+  <h2>まずはここから</h2>
+  <div class="top__cards">
+    <a href="/oc/">オンライン授業を受けるために<small>（学生向け）</small></a>
+    <a href="/faculty_members/">オンライン授業を始めるために<small>（教員向け）</small></a>
+    <a href="/improvement/">よりよいオンライン授業をするために<small>（教員向け）</small></a>
+    <a href="/supports/">サポート窓口</a>
+    <a href="/change2021s/">2021年春のシステム変更</a>
+  </div>
+
+  <h2>ピックアップ</h2>
+  <div class="top__cards">
+    <a href="/events/2021-03-17">2021/03/17 説明会:2021年度のオンライン授業に向けて ― 2020年の経験をふまえて</a>
+    <a href="/good-practice/">グッドプラクティス</a>
+    <a href="/events/2020-luncheon/">オンライン授業情報交換会</a>
+  </div>
+
+  <h2>お知らせ</h2>
+  <ul>
+    <li><span style="color:blue;">2021/03/12:</span> オンライン授業・Web会議ポータルサイト (utelecon) のデザインをリニューアルしました．</li>
+    <li><span style="color:blue;">2021/03/04:</span> 2021年度Sセメスターの新入生向けページ「<a href="/oc/">オンライン授業を受けるために</a>」と教員向けページ「<a href="/faculty_members/">オンライン授業を始めるために</a>」を公開しました．</li>
+    <li><span style="color:blue;">2021/03/03:</span> (教員用) 3/17 15:30から<a href="events/2021-03-17">「説明会:2021年度のオンライン授業に向けて ― 2020年の経験をふまえて」</a>を開催いたします．</li>
+    <li><span style="color:blue;">2021/02/15:</span> <a href="change2021s/">「2021年春のシステム変更」</a>を公開しました．</li>
+    <li><span style="color:blue;">2021/02/08:</span> (教員用) 2/10 12:10から<a href="events/2020-luncheon/">オンライン授業情報交換会(トピック：VR(仮想現実)教室で行う授業の実践例</a>を実施いたします．</li>
+  </ul>
+
+  <h2>授業で使うシステム</h2>
+  <div class="top__systems">
+    <ul>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/account.html" target="_blank" rel="noopener">UTokyo Account</a></li>
+      <li><a href="/utas">UTAS</a></li>
+      <li><a href="/itc_lms">ITC-LMS</a></li>
+      <li><a href="/zoom/">Zoom</a></li>
+      <li><a href="/webex/">Webex</a></li>
+      <li><a href="/eccs_cloud_email">ECCSクラウドメール<small> (Google Workspace)</small></a></li>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank" rel="noopener">UTokyo Microsoft License<small> (Microsoft 365)</small></a></li>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo WiFi</a></li>
+      <li><a href="https://www.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ECCS端末</a></li>
+    </ul>
+  </div>
+</main>
+
+{% include layouts/footer.html %}

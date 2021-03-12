@@ -3,8 +3,6 @@ title: Comparison between systems
 layout: en
 ---
 
-# Comparison between systems
-
 |              Aspects               |                          Google Hangouts Meet                   |  Zoom  |  WebEx  |  
 |------------------------------------|-----------------------------------------------------------------|--------|---------|  
 |   Maximum number of participants   |   100* (* regular plan）<br> 250*（ *Until the end of June 2020）| 500（University account）  |    1000（On-screen）<br>3000（Off-screen）  |  
