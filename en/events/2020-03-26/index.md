@@ -3,8 +3,6 @@ title: 2020/03/26 Briefing - How to notify students of online classes
 layout: en
 ---
 
-# 2020/03/26  Briefing: How to notify students of online classes
-
 **Date:** 3/26(Thu) 15:30-17:00 
 
 **Place:**  Lecture Room 285, Science Department Bldg. 1, East Blg. (Available Online)

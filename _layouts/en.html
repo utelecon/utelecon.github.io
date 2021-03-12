@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
   <head>
 
     {% if site.google_analytics %}
@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/en.css?v=' | append: site.github.build_revision | relative_url }}">
 
     <script async src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"></script>
 
@@ -138,17 +138,16 @@
 
   </head>
   <body>
-
     <div class="bar-menu">
       <div class="bar-btn-normal">
         <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
         <span class="hiraku-open-btn-line"></span>
         </button><div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
       </div>
-      <div class="bar-btn-normal"><a href="/en/" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/home.png" alt="Home"><br>Home</div></a></div>
+      <div class="bar-btn-normal"><a href="/en/" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/assets/images/home.png" alt="Home"><br>Home</div></a></div>
       <div class="bar-btn-search"><div class="search-box"><div class="gcse-search"></div></div></div>
-      <div class="bar-btn-normal"><a href="/en/sitemap/" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/sitemap.png" alt="Sitemap"><br>Sitemap</div></a></div>
-      <div class="bar-btn-normal"><a href="{{page.url | replace: '/en/', '/'}}" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/image/jpn.png" alt="jpn"><br>日本語</div></a></div>
+      <div class="bar-btn-normal"><a href="/en/sitemap/" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/assets/images/sitemap.png" alt="Sitemap"><br>Sitemap</div></a></div>
+      <div class="bar-btn-normal"><a href="{{page.url | replace: '/en/', '/'}}" style="color: white;text-decoration: none;"><div style="line-height: 10px;font-size: 12px;"><img width=25 src="/assets/images/jpn.png" alt="jpn"><br>日本語</div></a></div>
     </div>
 
     <header class="page-header" role="banner">
@@ -275,7 +274,7 @@
 
       <!-- jump to page top -->
       <div id="pagetop">
-        <img width="70" src="/image/top.png">
+        <img width="70" src="/assets/images/top.png">
       </div>
       <script>
       $(function(){

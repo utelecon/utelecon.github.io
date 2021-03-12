@@ -2,8 +2,6 @@
 title: Web会議システム比較表
 ---
 
-# Web サービス比較表
-
 |  観点  |  Google Meet  |  Zoom  |  WebEx  |  
 |---|---|---|---|  
 |  最大同時接続数  |   100  | 300 <br>1000 （[申請フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUtWOE9PNkVXN1QzOVcxSFlJMFozTzRZQy4u) で申請時） |    1000（ビデオON時）<br>3000（ビデオOFF時）  |  

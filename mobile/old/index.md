@@ -10,13 +10,13 @@ title: オンライン授業受講のためのネットワーク環境支援つ�
 
 現在は[第2回目の応募](mobile2)を受け付けています.
 
-# 目的 / Purpose 
+## 目的 / Purpose 
 
 COVID-19の影響を抑え教育活動を維持するため、緊急の授業オンライン化が必要となっています。授業オンライン化には、学生が受講するための環境が必要であり、特にネットワーク環境の確保が重要となっています。本学では緊急の授業オンライン化のため、ネットワーク環境が整っていない学生に対してモバイルWiFiを提供する支援を行うことといたしました。 
 
 There is an urgent need to provide online classes in order to limit the impact of COVID-19 and maintain educational activities. Online class requires an education environment for students to take classes, and it is especially important to ensure a network environment. For online classes, the University of Tokyo has decided to provide mobile WiFi support for students who do not have a network environment. 
 
-# 提供する支援 / Support provided 
+## 提供する支援 / Support provided 
 
 1か月50GBまで高速通信が可能なモバイルWiFiルータの貸し出し 
 （通常の会議システムによるオンライン授業に必要な通信量です） 
@@ -24,7 +24,7 @@ There is an urgent need to provide online classes in order to limit the impact o
 Renting a mobile WiFi router with up to 50GB of high-speed communication per month 
 (This is the amount of communication required for regular online classes using a video conferencing service)  
 
-# 提供条件 / Terms of Offer 
+## 提供条件 / Terms of Offer 
 
 1. 本学が実施するオンライン授業参加のために利用すること 
 1. 提供期間中にオンライン授業参加に必要な環境整備を行うこと 
@@ -42,7 +42,7 @@ Renting a mobile WiFi router with up to 50GB of high-speed communication per mon
 
 It will be offered to students subject to the above conditions. 
 
-# 申し込み / Application 
+## 申し込み / Application 
 
 以下のいずれかから申し込みフォームにアクセスして下さい.
 

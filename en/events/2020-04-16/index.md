@@ -3,8 +3,6 @@ title: 2020/04/16 Briefing session - Two weeks after the start of S semester
 layout: en
 ---
 
-# 2020/04/16 Briefing session: Two weeks after the start of S semester
-
 * **Date:** 4/16 (Thursday) 17: 00-18: 30
 
 * **Place:** Online (Zoom) only

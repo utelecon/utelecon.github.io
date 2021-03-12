@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "ja" }}">
+  <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <script async src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"></script>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/bar.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="/assets/js/hiraku.js"></script>
+
+  </head>
+  <body>
+{{ content }}
+  </body>
+</html>
