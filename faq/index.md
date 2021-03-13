@@ -2,6 +2,8 @@
 title: FAQ よくある質問
 ---
 
+{% include sso.html %}
+
 ## 授業全般
 
 ### Q. オンライン授業に入れない
