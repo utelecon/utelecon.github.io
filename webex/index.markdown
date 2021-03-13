@@ -21,9 +21,9 @@ title: Webex
 (初期設定)はまだやったことがない場合のみ行ってください(毎回行う必要はありません).
 
 * 開催者
-  1. (初期設定) <a href="create_utelecon_account">アカウントを作成</a>
+<!--  1. (初期設定) <a href="create_utelecon_account">アカウントを作成</a>-->
   1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="_blank" rel="noopener">Cisco Webex Meetingsアプリをインストール.</a>  アプリをインストールせず, Webブラウザ（FirefoxまたはGoogle Chromeを推奨）でも, 一部機能が制限されますが利用可能です.
-  1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>
+  1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>．UTokyo Accountによるログインです．メールアドレスの欄には 共通ID（10桁ID）@utac.u-tokyo.ac.jp を入力してください．
   1. <a href="create_meeting">ミーティングを作成</a>
   1. <a href="open_meeting">ミーティングを開始</a>
     * 開催者が明示的に「開始」するまで他の参加者はつなげません
@@ -78,9 +78,9 @@ title: Webex
 ### Webex Training利用の流れ
 
 * 開催者
-  1. (初期設定) <a href="create_utelecon_account">アカウントを作成</a>
+<!--  1. (初期設定) <a href="create_utelecon_account">アカウントを作成</a>-->
   1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="_blank" rel="noopener">Cisco Webex Meetingsアプリをインストール</a>
-  1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>
+  1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>．UTokyo Accountによるログインです．メールアドレスの欄には 共通ID（10桁ID）@utac.u-tokyo.ac.jp を入力してください．
   1. <a href="create_training">トレーニングを作成</a>
   1. <a href="open_training">トレーニングを開始</a>
     * 開催者が明示的に「開始」するまで他の参加者はつなげません
@@ -96,9 +96,9 @@ title: Webex
 ### Webex Events利用の流れ
 
 * 開催者
-  1. (初期設定) <a href="create_utelecon_account">アカウントを作成</a>
+<!--  1. (初期設定) <a href="create_utelecon_account">アカウントを作成</a>-->
   1. (初期設定) <a href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download" target="_blank" rel="noopener">Cisco Webex Meetingsアプリをインストール</a>
-  1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>
+  1. Webexに<a href="https://utelecon.webex.com/" target="_blank" rel="noopener">ログイン</a>．UTokyo Accountによるログインです．メールアドレスの欄には 共通ID（10桁ID）@utac.u-tokyo.ac.jp を入力してください．
   1. <a href="create_events">イベントを作成</a>
   1. <a href="open_events">イベントを開始</a>
     * 開催者が明示的に「開始」するまで他の参加者はつなげません
