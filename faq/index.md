@@ -2,6 +2,8 @@
 title: FAQ よくある質問
 ---
 
+{% include sso.html %}
+
 ## 授業全般
 
 ### Q. オンライン授業に入れない
@@ -15,7 +17,7 @@ title: FAQ よくある質問
   * ITC-LMS の<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1904.html" target="_blank">出席管理</a>を使う
   * Googleフォームや Microsoft Forms などのWebアンケートを使う
     * （代返対策）授業内容に関する質問に回答することや授業の感想を記入することを必須にする
-    * （代返対策）ECCS クラウドメールのアカウント（本学のGoogleアカウント）で<a href="https://docs.google.com/forms/u/0/?tgif=d" target="_blank">Google フォーム</a>を作成する際，フォームの編集画面にて「設定（歯車マーク）」の中の「メールアドレスを収集する」と「東京大学ECCSクラウドメールと信頼できる組織のユーザーに限定する」をオンにする（こうすると学生は自身のECCSクラウドメールでログインした上でアンケートに回答する必要があるため，代返のリスクを下げることができます）
+    * （代返対策）ECCS クラウドメールのアカウント（本学のGoogleアカウント）で<a href="https://docs.google.com/forms/u/0/?tgif=d" target="_blank">Google フォーム</a>を作成する際，フォームの編集画面にて「設定（歯車マーク）」の中の「メールアドレスを収集する」と「東京大学ECCSクラウドメールと信頼できる組織のユーザーに限定する」をオンにする（こうすると学生は自身のECCSクラウドメールでログインした上でアンケートに回答する必要があるため，代返のハードルを上げることができます）
   * Web会議システムを使う場合で，人数的に可能ならば，直接点呼する（その際，ビデオをオンにしてもらって直接顔を確認するなども可能）
   * Zoom のレポート機能を使うことで，誰がいつ入室して，いつ退室したのかが一覧で把握できます．それを使うと出席の管理ができます．詳しくは<a href="https://utelecon.adm.u-tokyo.ac.jp/zoom/how/faculty_members/attendance" target="_blank">（Zoom 教員編）出席管理を行う</a>をご覧ください
 

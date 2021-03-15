@@ -2,6 +2,8 @@
 title: サポート窓口
 ---
 
+{% include sso.html %}
+
 <div class="important-box">新年度に向けてサポートの拡充を図るため，学生スタッフ「コモンサポーター」と教職員が共同で対応する新たな体制でサポートを行っています．</div>
 
 東京大学のオンライン授業・Web会議に関連した様々な質問や相談に対応します．原則として学生スタッフ（コモンサポーター）がオペレータとして対応し，必要に応じて教職員に引き継ぎます．
@@ -24,7 +26,7 @@ title: サポート窓口
 チャットボット（自動応答ロボット）および有人オペレータとのチャットで質問・相談に対応します．まずチャットボット（自動応答ロボット）が問題解決を試み，それが困難であると判断された場合，学生スタッフ（コモンサポーター）が有人オペレータとして対応を引き継ぎます．
 
 <div>対応時間（自動応答）：24時間</div>
-<div>対応時間（オペレータ対応）：平日 10時20分から16時45分まで</div>
+<div>対応時間（オペレータ対応）：平日 8時25分から18時40分まで，休日 10時20分から16時45分まで</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 画面右下のウィジェット<br>「チャットサポートで質問できます」から
@@ -35,7 +37,7 @@ title: サポート窓口
 
 Zoomの会議室において，学生スタッフ（コモンサポーター）がオペレータとして対応し，音声・チャット・画面共有を利用して質問・相談を受け付けます．会議室にアクセスするとまずは待機室に入室するので，案内されるのをお待ちください．
 
-<div>対応時間：平日 10時20分から16時45分まで</div>
+<div>対応時間：平日 8時25分から18時40分まで，休日 10時20分から16時45分まで</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 <a href="https://docs.google.com/document/d/1hN0VpQj3engH5lAZUJ_gIsNTnJBkrUkUXgoV_T03Iec/edit?usp=sharing">会議室情報（要ECCSクラウドメール）</a>
