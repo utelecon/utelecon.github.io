@@ -27,8 +27,9 @@ layout: en
 <p>You can ask questions and consult with chatbot (an automatic response robot) or human operators. First, the chatbot will try to solve the problem. When it fails, a student operator (also called a “common supporter”) will take over and answer you.</p> 
 
 Response time (automatic response): 24 hours<br>
-Response time (operator response): 10:20 a.m. to 4:45 p.m. on weekdays
-
+Response time (operator response): <br>
+Mon - Fri: 8:25 a.m. - 6:40 p.m. <br>
+Sat, Sun, Holidays: 10:20 a.m. - 4:45 p.m. 
 </div>
 <div class="support-channel-link">
 From the widget<br>"Chat Support Available (チャットサポートで質問できます)" at the bottom right of the screen.
@@ -40,7 +41,9 @@ From the widget<br>"Chat Support Available (チャットサポートで質問で
 
 <p>In the Zoom conference room, student staff (common supporters) will act as operators to answer questions and offer consultation. You can speak, exchange texts, and share screens with the operators. When you access the conference room, you will first be taken to a waiting room. Please wait to be let in.</p> 
 
-Available hours: Weekdays from 10:20 a.m. to 4:45 p.m.
+Available hours: <br>
+Mon - Fri: 8:25 a.m. - 6:40 p.m. <br>
+Sat, Sun, Holidays: 10:20 a.m. - 4:45 p.m. 
 
 </div>
 <div class="support-channel-link">
@@ -49,7 +52,7 @@ Available hours: Weekdays from 10:20 a.m. to 4:45 p.m.
 
 <div class="support-channel-main">
 
-<h2 id="email-form">Consulting via Email Form</h2>.
+<h2 id="email-form">Consulting via Email Form</h2>
 
 <p>Student operators (also called “common supporters”) will reply to the received email inquiries. When it is difficult for student staff to resolve the issue, a faculty member will take over the consultation.</p>
 
