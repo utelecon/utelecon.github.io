@@ -2,21 +2,45 @@
 title: System Change for Spring 2021 
 layout: en
 ---
-<div style="border: 2px solid currentcolor; margin-bottom: 0.5em; padding: 0.5em; font-weight: bold; font-size: larger">Existing use of UTokyo ICT systems such as UTokyo Account and Zoom would be changed.</div>
+
+<div class="important-box">UTokyo Account login service will begin on March 15 for Zoom and March 13 for Webex. Previous login methods will no longer be available.</div>
 
 To facilitate online teaching and simplify technical operation, it is attempted to unify existing  login methods for UTokyo ICT systems into UTokyo Account (10-digit number) along with other necessary changes.
 This webpage provides information about the system changes. Updates are available anytime. Please check it out whenever necessary.
+
 ## Table of Contents and Schedule
+
 - February 25 [ECCS Setting Page Relocated.](#eccs)
-- ~ Mid-March [Zoom/Webex Made Accessible for UTokyo Account](#zoom_webex)
+- March 12 [Webex Made Accessible for UTokyo Account](#zoom_webex)
+- March 14 [Zoom Made Accessible for UTokyo Account](#zoom_webex)
 - After April [Implementation of Multi-Factor Authentication (MFA) to UTokyo Account.](#mfa)
 - Yet to be Confirmed [ Application for UTokyo Microsoft License Made Unnecessary for the Use of Microsoft 365.](#microsoft)
 - Yet to be Confirmed [UTokyo Online Class Search (UTAS Lite2, UTIL Lite) Made Accessible for UTokyo Account.](#lite)
 
 ## Zoom/Webex Made Accessible for UTokyo Account
 {:#zoom_webex}
+
 For the use of web conferencing tools such as **Zoom and Webex**, ECCS cloud email (1234567890@g.ecc.u-tokyo.ac.jp) and its password were previously indispensable. This is however no longer necessary. **Logging in with UTokyo Account is now possible**.
-Your current account is scheduled to be transferred to your UTokyo Account in mid-March. Details will be announced on this page in due course.
+
+Your current account (10 digits-ID) will be transferred to your UTokyo Account following the schedule below.
+
+- **Zoom March 14, 2021, 22:00 - March 15, 2021, 6:00 (Scheduled)**
+- **Webex March 12, 2021, 20:00 - March 13, 2021, 0:00 (Scheduled)**
+
+### New Sign-In Method for Zoom
+{:#zoom_sign_in}
+
+{% include_relative _zoom_sign_in.md %}
+
+### New Sign-In Method for Webex
+{:#webex_sign_in}
+
+{% include_relative _webex_sign_in.md %}
+
+### Details on Zoom and Webex System Change {:#zoom_webex_details}
+
+For more information (such as the use of these services during the transfer and how to create a new account), please check **[Details on Zoom System Change](zoom)** and **[Details on Webex System Change](webex)**.
+
 
 ## Implementation of Multi-Factor Authentication (MFA) to UTokyo Account
 {:#mfa}
