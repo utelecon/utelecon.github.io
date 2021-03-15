@@ -47,7 +47,7 @@ It will be offered to students subject to the above conditions.
 
 
 以下の申し込みフォームから申請してください。 
-メールアドレスは可能な限りECCSクラウドメールを使用してください。 
+メールアドレスは可能な限り[ECCSクラウドメール](https://utelecon.adm.u-tokyo.ac.jp/oc/index.html#google)を使用してください。 
 
 [【2021年度・学生用】東京大学 モバイルWiFiルーター貸与申込 / Application for a mobile WiFi router for UTokyo Students](https://docs.google.com/forms/d/e/1FAIpQLScu3rlbC_uhITS8hxFoNsUXvkP-Q-VieKb58Id7bJmJUyf0BA/formResponse)
 
