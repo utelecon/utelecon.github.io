@@ -54,14 +54,13 @@ It will be offered to students subject to the above conditions.
 ## スケジュール / Schedule
 <span style="color: red; ">
 **■■■重要・受付スケジュール■■■** 
+</span>
 
 **第1弾 　3/25(木)〆切、29(月)発送 / 3/25(Thu) Close, 3/29(Mon) Send**
 
 **第2弾　4/1(木) 〆切、5(月)発送 / 4/1(Thu) Close, 4/5(Mon) Send**
 
 **第3弾 　4/8(木)〆切、12(月)発送 / 4/8(Thu) Close, 4/12(Mon) Send**
-
-</span>
   
 オンライン授業受講に支障がある場合については、第３弾以降も継続的に受け付けます。 
 【毎週木曜日まで】の申込分について、原則【翌週月曜日】に発送することにしています。 
