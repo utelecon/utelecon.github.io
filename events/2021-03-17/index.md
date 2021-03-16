@@ -22,19 +22,19 @@ title: "2021/03/17 説明会:2021年度のオンライン授業に向けて ― 
 
 挨拶 (大久保達也 教育・情報システム担当理事・副学長)
 
- <!-- * <a href="slides/00-index.pdf">目次</a> -->
+ * <a href="slides/00-index.pdf">目次</a>
  
- 1. 授業に使うICT概要 (20分 田浦<!--<a href="slides/01-ict-overview.pdf">;資料</a>-->)
+ 1. 授業に使うICT概要 (20分 田浦<a href="slides/01-ict-overview.pdf">;資料</a>)
 
- 2. 2020年度の振り返り (15分 田浦<!--<a href="slides/02-review-2020.pdf">;資料</a>-->)
+ 2. 2020年度の振り返り (20分 田浦<!--<a href="slides/02-review-2020.pdf">;資料</a>-->)
 
- 3. ITC-LMSの活用 (25分 柴山<!--<a href="slides/03-using-ict.pdf">;資料</a>-->)
+ 3. ITC-LMSの活用 (20分 柴山<!--<a href="slides/03-using-ict.pdf">;資料</a>-->)
 
  4. よりよいオンライン授業に向けて (25分 吉田<!--<a href="04-online-courses.pdf">;資料</a>-->)
 
  5. 学生サポーター (5分 吉田<!--<a href="05-supporters.pdf">;資料</a>-->)
 
- 6. ハイブリッド授業の実施 (15分 角野<!--<a href="slides/06-hybrid.pdf">;資料</a>-->)
+ 6. ハイブリッド授業の実施 (20分 角野<!--<a href="slides/06-hybrid.pdf">;資料</a>-->)
 
 質疑応答 (質問はZoomウェビナーのQ and Aにお書きください。終了予定時刻後も受け付けます)
 
