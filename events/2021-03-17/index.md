@@ -28,13 +28,13 @@ title: "2021/03/17 説明会:2021年度のオンライン授業に向けて ― 
 
  2. 2020年度の振り返り (15分 田浦<!--<a href="slides/02-review-2020.pdf">;資料</a>-->)
 
- 3. ITC-LMSの活用 (15分 柴山<!--<a href="slides/03-using-ict.pdf">;資料</a>-->)
+ 3. ITC-LMSの活用 (20分 柴山<!--<a href="slides/03-using-ict.pdf">;資料</a>-->)
 
- 4. 各種オンライン授業ツール (20分 吉田<!--<a href="04-course-types.pdf">;資料</a>-->)
+ 4. よりよいオンライン授業に向けて (20分 吉田<!--<a href="04-online-courses.pdf">;資料</a>-->)
 
- 5. 学生サポーター制度 (5分 吉田<!--<a href="05-supporters.pdf">;資料</a>-->)
+ 5. 学生サポーター (5分 吉田<!--<a href="05-supporters.pdf">;資料</a>-->)
 
- 6. ハイブリッド授業の実施 (15分 角野<!--<a href="slides/06-hybrid.pdf">;資料</a>-->)
+ 6. ハイブリッド授業の実施 (20分 角野<!--<a href="slides/06-hybrid.pdf">;資料</a>-->)
 
 質疑応答 (質問はZoomウェビナーのQ and Aにお書きください。終了予定時刻後も受け付けます)
 
