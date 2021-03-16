@@ -22,9 +22,9 @@ title: "2021/03/17 説明会:2021年度のオンライン授業に向けて ― 
 
 挨拶 (大久保達也 教育・情報システム担当理事・副学長)
 
- <!-- * <a href="slides/00-index.pdf">目次</a> -->
+ * <a href="slides/00-index.pdf">目次</a>
  
- 1. 授業に使うICT概要 (20分 田浦<!--<a href="slides/01-ict-overview.pdf">;資料</a>-->)
+ 1. 授業に使うICT概要 (20分 田浦<a href="slides/01-ict-overview.pdf">;資料</a>)
 
  2. 2020年度の振り返り (20分 田浦<!--<a href="slides/02-review-2020.pdf">;資料</a>-->)
 
