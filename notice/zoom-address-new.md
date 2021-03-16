@@ -5,6 +5,7 @@ title: Zoom のサインイン用メールアドレスの変更について
 所定の東大のZoomアカウントである10桁の共通IDとは異なる，**ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` などのZoomアカウントで東大のZoomを利用している皆様には，10桁の共通IDのアカウントへ変更し今後はそちらを利用するようお願いしています．以下の手順に従って変更してください．**
 
 ## 現在のアカウント（10桁の共通IDではないもの）が不要の場合
+{:#existing-account-is-unnecessary}
 
 現在利用している，10桁の共通IDではないZoomアカウント（ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` などのZoomアカウント）が不要の場合，新たに10桁の共通IDのアカウントを利用開始し，今後はそちらを利用していただければ十分です．
 
@@ -13,6 +14,7 @@ title: Zoom のサインイン用メールアドレスの変更について
 なお，10桁の共通IDではないZoomアカウントについては，管理者の方で削除しますので，[不要なZoomアカウント削除フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNTBGSjJPN0ZWN0RIVFI2TVZZODZNT0xRRy4u)からご連絡ください．
 
 ## 現在のアカウント（10桁の共通IDではないもの）から情報を引き継ぎたい場合
+{:#change-email-of-existing-account}
 
 現在利用している，10桁の共通IDではないZoomアカウント（ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` などのZoomアカウント）で設定した会議室の情報やクラウド録画などを引き続き利用したい場合は，以下の手順でメールアドレスの変更を行ってください．
 
