@@ -13,10 +13,8 @@ title: Webex
 * アプリはWindows, Mac, iOS, Androidに対応しています(Linuxには対応していません)
 * 複数の会議への同時参加,および複数の会議の同時開催が可能です
 
-
-<a name="webex_meetings"></a>
-
 ## Webexサービスについて
+
 * Webexは，一般的にはWebex Meetingsが使われていますが，他にもWebex Training，Webex Events，Webex Supportがあり, 全部で4種類があります．それぞれ長短があります．
 	* [詳細な比較はこちらから](https://utelecon.adm.u-tokyo.ac.jp/zoom/join)
 * Webex Meetings
@@ -39,6 +37,7 @@ title: Webex
 * 以下では授業で使用される可能性が極めて低いWebex Support以外の3つのサービスについて,利用方法を説明していきます.
 
 ## 利用開始の手順
+
 * 以下の手順は参加者が東大アカウントに限定されている会議に参加する場合のみ必要な手順です。特に参加制限のない会議に参加するだけの場合は開催者からもらったURL等を開くだけで参加することが可能です。
 
 **Webex Meetings利用の流れ**
@@ -96,67 +95,3 @@ title: Webex
 ## 接続テスト
 
 利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために，Cisco社に協力頂き，<a href="https://hiono-sandbox.webex.com/join/narumi" target="_blank" rel="noopener">テストサイト</a>（平日の9:00～17:00）を用意しています．接続してみてください．（東京大学以外の方もぜひどうぞ！）
-
-
-
-
-
-{% comment %}
-## 授業の例
-* 授業例は<a href="browse_samples">こちら</a>
-{% endcomment %}
-
-{% comment %}
-## サブページ一覧
-* <a href="create_utelecon_account">Webex アカウントの作成とログイン</a>	
-
-* <a href="create_meeting">会議室を作成する</a> 
-* <a href="open_meeting">Webex 会議の開始</a> 
-* <a href="open_meeting_vc">Webex 会議の開始 （テレビ会議システム）</a> 
-* <a href="join_meeting">Webex 会議への参加</a> 
-* <a href="join_meeting_vc">Webex 会議への参加 （テレビ会議システム）</a> 
-* <a href="do_meeting">Webex 会議室でできること（開催者・参加者）</a> 
-* <a href="do_meeting_vc">Webex 会議室でできること（テレビ会議システムからの開催者・参加者）</a>
-* <a href="do_meeting_host">Webex 会議室でできること（開催者）</a> 
-
-* <a href="encrypted_meeting">Webex Meetingsでのエンド・エンド間暗号化機能</a>
-* <a href="how_to_open_secure_meetings">Webexで安全性の高い会議を行うためのプラクティス</a>
-
-* <a href="create_training">トレーニングを作成する</a> 
-* <a href="open_training">Webex Trainingの開始</a> 
-* <a href="join_training">Webex Trainingへの参加</a> 
-* <a href="do_training">Webex Trainingでできること（開催者・参加者）</a> 
-* <a href="do_training_host">Webex Trainingでできること（開催者）</a> 
-
-* <a href="create_events">イベントを作成する</a> 
-* <a href="open_events">Webex Eventsの開始</a> 
-* <a href="join_events">Webex Eventsへの参加</a> 
-* <a href="join_events_vc">Webex Eventsへの参加 （テレビ会議システム）</a> 
-* <a href="do_events">Webex Eventsでできること（開催者・参加者）</a> 
-* <a href="do_events_host">Webex Eventsでできること（開催者）</a> 
-{% endcomment %}
-
-{% comment %}
-* 授業での使い方
-	* <a href="classroom_screen_sharing">［画面共有］資料を提示する</a>執筆中
-	* <a href="classroom_chat">［チャット］質問を受け付ける</a>執筆中
-	* <a href="classroom_poll">［投票］学生に質問する</a>執筆中
-	* <a href="classroom_record">［レコーディング］授業を録画する</a>執筆中
-	* Webex Trainingのみ：<a href="classroom_breakout">［ブレイクアウト］グループワークを促す</a>執筆中
-{% endcomment %}
-
-{% comment %}
-## お知らせ
-* <a href="../notice/webex20200601">UTokyo 90Days Cisco Webexサービスの継続利用について</a>
-* <a href="../notice/webmeetingtools">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>
-
-## はじめに
-
-* ここでは Web会議システム Webex の特徴や利用の流れについて説明します．このページでは全体的な特徴や大まかな流れを説明し,具体的な部分はサブページで説明します．
-* 本学のGoogleメール（共通ID10桁@g.ecc.u-tokyo.ac.jp, 以下ECCSクラウドメールエイリアスと呼びます）をIDとして Webexアカウントを作成し，Webexによってオンラインで会議や授業を行うことができます．アカウントの取得方法は[Webex アカウントの作成とログイン](create_utelecon_account)を参照してください.
-* 会議室に参加するだけであればアカウントを作る必要はありません．
-* End to End 暗号化された会議も開けます．詳細は[Webex Meetingsでのエンド・エンド間暗号化機能](encrypted_meeting)を参照してください．
-* 本ページでは基本的に PC での利用について説明しますが，タブレットやスマートフォンでもアプリを用いることで Webex を使えます.
-* Webex MeetingsとWebex Eventsを使用する場合，最大200台までテレビ会議システム（いわゆるPolycom等）を接続することができます．**テレビ会議システムから何でもかんでもできるわけではありません．テレビ会議システムからの参加は事前に十分味見をしてからどうぞ．**
-{% endcomment %}
-
