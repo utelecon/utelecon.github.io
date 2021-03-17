@@ -2,6 +2,8 @@
 title: 大槻久 先生　適応行動論
 ---
 
+<div class="important-box"><small>このグッドプラクティスは，2020年度オンライン授業情報交換会<a href="https://utelecon.adm.u-tokyo.ac.jp/events/2020-luncheon/#%E7%AC%AC26%E5%9B%9E-%E3%82%B0%E3%83%83%E3%83%89%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9%E4%BA%8B%E4%BE%8B6-%E5%A4%A7%E4%BA%BA%E6%95%B0%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E6%8E%88%E6%A5%AD%E3%81%AE%E5%AE%9F%E6%96%BD%E3%81%A8%E3%83%86%E3%82%B9%E3%83%88%E3%81%AE%E5%B7%A5%E5%A4%AB" target="_blank" rel="noopener noreferrer">「第26回 大人数のオンライン授業の実施とテストの工夫」</a>にて，大槻先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</small></div>
+
 ## 授業の基本情報
 
 授業名　　:　適応行動論<br>
