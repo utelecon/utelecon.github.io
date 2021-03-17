@@ -1,3 +1,3 @@
 ---
-redirect_to: "/zoom/index.html#create_account"
+redirect_to: "/zoom/zoom_signin"
 ---
