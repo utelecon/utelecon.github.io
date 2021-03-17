@@ -15,8 +15,10 @@ title: Webex
 
 ## Webexサービスについて
 
-* Webexは，一般的にはWebex Meetingsが使われていますが，他にもWebex Training，Webex Events，Webex Supportがあり, 全部で4種類があります．それぞれ長短があります．
-	* [詳細な比較はこちらから](https://utelecon.adm.u-tokyo.ac.jp/zoom/join)
+Webexは，一般的にはWebex Meetingsが使われていますが，他にもWebex Training，Webex Events，Webex Supportがあり, 全部で4種類があります．それぞれ長短があります．
+
+[詳細な比較はこちらから](https://www.cisco.com/c/ja_jp/products/conferencing/product_comparison.html)
+
 * Webex Meetings
 	* 最大参加者数は1,000．うちテレビ会議システムからの接続最大200を含む．
 	* テレビ会議システム（いわゆるPolycom等）からの接続が可能．ブレイクアウトセッションをおこなうこともできる
@@ -34,63 +36,52 @@ title: Webex
 	* タブレット・スマートホンは不可．
 	* 基本的に1:1のITサポートに用いられる．
 
-* 以下では授業で使用される可能性が極めて低いWebex Support以外の3つのサービスについて,利用方法を説明していきます.
+以下では授業で使用される可能性が極めて低いWebex Support以外の3つのサービスについて, 利用方法を説明していきます.
 
-## 利用開始の手順
+## 利用方法
 
-* 以下の手順は参加者が東大アカウントに限定されている会議に参加する場合のみ必要な手順です。特に参加制限のない会議に参加するだけの場合は開催者からもらったURL等を開くだけで参加することが可能です。
+### Webex Meetingsへの参加
 
-**Webex Meetings利用の流れ**
-* 開催者
-1. [Webexにサインイン](signin)
-2. [ミーティングを作成](/webex/create_meeting)
-3. [ミーティングを開始](/webex/open_meeting)
+1. 開催者から会議室の情報（URLなど）を得る．
+    - 授業の場合は[授業URLの連絡方法（学生向け）](/oc/url)をご参照ください．
+1. [会議室へ参加](join_meeting)
+	- 会議室によっては[東京大学のアカウントへのサインイン](signin)が必要です．
+	- 主催者が明示的に「開始」するまで他の参加者はつなげません
+1. 会議室を使う
+	* [ミーティングで出来ること（開催者・参加者共通）](do_meeting)
+
+### Webex Meetingsの開催
+
+1. [東京大学のアカウントへのサインイン](signin)
+1. [会議室を作成](create_meeting)
+1. 会議室の情報（URLなど）を参加者に周知
+    - 授業の場合は[授業URLの連絡方法（教員向け）](/faculty_members/url)をご参照ください．
+1. [会議室を開始](open_meeting)
 	* 開催者が明示的に「開始」するまで他の参加者はつなげません
-	* [ミーティングで出来ること（開催者・参加者共通）](/webex/do_meeting)
-	* [ミーティングでできること（開催者限定）](/webex/do_meeting_host)
+1. 会議室を使う
+	* [ミーティングで出来ること（開催者・参加者共通）](do_meeting)
+	* [ミーティングでできること（開催者限定）](do_meeting_host)
 
-*参加者
-1. [Webexにサインイン](signin)
-2. ミーティングの情報（URLなど）をメールなどを用いて開催者から得ます．
-3. [ミーティングへ参加](/webex/join_meeting)
-4. ミーティングをおこないます
-  	* 開催者が明示的に「開始」するまで他の参加者はつなげません
-  	* [ミーティングで出来ること（開催者・参加者共通）](/webex/do_meeting)
+###  Webex Training
 
-**Webex Training利用の流れ**
-* 開催者
-1. [Webexにサインイン](signin)
-2. [トレーニングを作成](/webex/create_training)
-3. [トレーニングを開始](/webex/open_training)
-  	* 開催者が明示的に「開始」するまで他の参加者はつなげません
-  	* [トレーニングで出来ること（開催者・参加者共通）](/webex/do_training)
-  	- [トレーニングでできること（開催者限定）](/webex/do_training_host)
+基本的な流れはWebex Meetingsと同じです．
 
-*参加者
-1. [Webexにサインイン](signin)
-2. トレーニングの情報（URLなど）をメールなどを用いて開催者から得ます．
-3. [トレーニングへ参加](/webex/join_training)
-4. トレーニングをおこないます
-  	- 開催者が明示的に「開始」するまで他の参加者はつなげません
-  	- [トレーニングで出来ること（開催者・参加者共通）](/webex/do_training)
+- （開催者）[トレーニングを作成](create_training)
+- （開催者）[トレーニングを開始](open_training)
+- （参加者）[トレーニングへ参加](join_training)
+- [トレーニングで出来ること（開催者・参加者共通）](do_training)
+- [トレーニングでできること（開催者限定）](do_training_host)
 
-**Webex Events利用の流れ**
-* 開催者
-1. [Webexにサインイン](signin)
-2. [イベントを作成](/webex/create_events)
-3. [イベントを開始](/webex/open_events)
-  	- 開催者が明示的に「開始」するまで他の参加者はつなげません
-  	- [イベントで出来ること（開催者・参加者共通）](/webex/do_events)
-  	- [イベントでできること（開催者限定）](/webex/do_events_host)
-  	- [Webexではないテレビ会議システムで参加する](/webex/join_events_vc)
+### Webex Events
 
-*参加者
-1. [Webexにサインイン](signin)
-2. イベントの情報（URLなど）をメールなどを用いて開催者から得ます．
-3. [イベントへ参加](/webex/join_events)
-4. イベントをおこないます
-	* 開催者が明示的に「開始」するまで他の参加者はつなげません
-	* [イベントで出来ること（開催者・参加者共通）](/webex/do_events)
+基本的な流れはWebex Meetingsと同じです．
+
+- （開催者）[イベントを作成](create_events)
+- （開催者）[イベントを開始](open_events)
+- （参加者）[イベントへ参加](join_events)
+- [イベントで出来ること（開催者・参加者共通）](do_events)
+- [イベントでできること（開催者限定）](do_events_host)
+- [Webexではないテレビ会議システムで参加する](join_events_vc)
 
 ## 接続テスト
 
