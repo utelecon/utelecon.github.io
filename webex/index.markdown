@@ -46,44 +46,44 @@ title: Webex
 1. [Webexにサインイン](/oc/#Webex)
 2. [ミーティングを作成](/webex/create_meeting)
 3. [ミーティングを開始](/webex/open_meeting)
-  - 開催者が明示的に「開始」するまで他の参加者はつなげません
-  - [ミーティングで出来ること（開催者・参加者共通）](/webex/do_meeting)
-  - [ミーティングでできること（開催者限定）](/webex/do_meeting_host)
+	* 開催者が明示的に「開始」するまで他の参加者はつなげません
+	* [ミーティングで出来ること（開催者・参加者共通）](/webex/do_meeting)
+	* [ミーティングでできること（開催者限定）](/webex/do_meeting_host)
 
 *参加者
 1. [Webexにサインイン](/oc/#Webex)
 2. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます．
 3. [会議へ参加](/webex/join_meeting)
 4. ミーティングをおこないます
-  - 開催者が明示的に「開始」するまで他の参加者はつなげません
-  - [ミーティングで出来ること（開催者・参加者共通）](/webex/do_meeting)
+  	* 開催者が明示的に「開始」するまで他の参加者はつなげません
+  	* [ミーティングで出来ること（開催者・参加者共通）](/webex/do_meeting)
 
 **Webex Training利用の流れ**
 * 開催者
 1. [Webexにサインイン](/oc/#Webex)
 2. [トレーニングを作成](/webex/create_training)
 3. [トレーニングを開始](/webex/open_training)
-  - 開催者が明示的に「開始」するまで他の参加者はつなげません
-  - [トレーニングで出来ること（開催者・参加者共通）](/webex/do_training)
-  - [トレーニングでできること（開催者限定）](/webex/do_training_host)
+  	* 開催者が明示的に「開始」するまで他の参加者はつなげません
+  	* [トレーニングで出来ること（開催者・参加者共通）](/webex/do_training)
+  	- [トレーニングでできること（開催者限定）](/webex/do_training_host)
 
 *参加者
 1. [Webexにサインイン](/oc/#Webex)
 2. 会議室の情報（URLなど）をメールなどを用いて開催者から得ます．
 3. [トレーニングへ参加](/webex/join_training)
 4. トレーニングをおこないます
-  - 開催者が明示的に「開始」するまで他の参加者はつなげません
-  - [トレーニングで出来ること（開催者・参加者共通）](/webex/do_training)
+  	- 開催者が明示的に「開始」するまで他の参加者はつなげません
+  	- [トレーニングで出来ること（開催者・参加者共通）](/webex/do_training)
 
 **Webex Events利用の流れ**
 * 開催者
 1. [Webexにサインイン](/oc/#Webex)
 2. [イベントを作成](/webex/create_events)
 3. [イベントを開始](/webex/open_events)
-  - 開催者が明示的に「開始」するまで他の参加者はつなげません
-  - [イベントで出来ること（開催者・参加者共通）](/webex/do_events)
-  - [イベントでできること（開催者限定）](/webex/do_events_host)
-　- [Webexではないテレビ会議システムで参加する](/webex/join_events_vc)
+  	- 開催者が明示的に「開始」するまで他の参加者はつなげません
+  	- [イベントで出来ること（開催者・参加者共通）](/webex/do_events)
+  	- [イベントでできること（開催者限定）](/webex/do_events_host)
+  	- [Webexではないテレビ会議システムで参加する](/webex/join_events_vc)
 
 *参加者
 1. [Webexにサインイン](/oc/#Webex)
