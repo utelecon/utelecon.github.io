@@ -30,7 +30,7 @@ title: よりよいオンライン授業をするために
     * [Google Classroom の使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)
 * 教材の作り方
     * [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](/events/2020-03-27/)
-    * [Googleドキュメントの音声認識を使った素早いテキスト入力の方法（外部サイト）](http://google.tku.ac.jp/docs/4/6)
+    * [Googleドキュメントの音声認識を使った素早いテキスト入力の方法（外部サイト）](https://google.tku.ac.jp/2-%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96/2-4%E5%90%84%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AE%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95/google%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%81%A7%E9%9F%B3%E5%A3%B0%E5%85%A5%E5%8A%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99)
     * [PowerPoint を用いた簡単な動画の作り方（外部サイト）](https://kagakucafe.com/202004095777.html)
     * [Zoom を使った動画の作り方（外部サイト）](https://media.tebiki.jp/022)
     * [板書のオンライン化](how_to_teach_online_handwriting)
