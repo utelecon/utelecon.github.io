@@ -2,6 +2,8 @@
 title: 白石忠志 先生　法Ⅰ
 ---
 
+<div class="important-box"><small>このグッドプラクティスは，2020年度オンライン授業情報交換会<a href="https://utelecon.adm.u-tokyo.ac.jp/events/2020-luncheon/#%E7%AC%AC25%E5%9B%9E-%E3%82%B0%E3%83%83%E3%83%89%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9%E4%BA%8B%E4%BE%8B5-%E5%A4%9A%E6%A7%98%E3%81%AA%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6%E6%8E%88%E6%A5%AD%E3%82%92%E6%B4%BB%E7%99%BA%E5%8C%96%E5%86%86%E6%BB%91%E5%8C%96%E3%81%99%E3%82%8B%E5%B7%A5%E5%A4%AB" target="_blank" rel="noopener noreferrer">「第25回 多様なツールを用いて授業を活発化・円滑化する工夫」</a>にて，白石先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</small></div>
+
 ## 授業の基本情報
 
 授業名　　:　法 Ⅰ  

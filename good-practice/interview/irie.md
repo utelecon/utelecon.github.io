@@ -2,6 +2,8 @@
 title: 入江薫 先生　数理統計I、II
 ---
 
+<div class="important-box"><small>このグッドプラクティスは，2020年度オンライン授業情報交換会<a href="https://utelecon.adm.u-tokyo.ac.jp/events/2020-luncheon/#%E7%AC%AC20%E5%9B%9E-%E3%82%B0%E3%83%83%E3%83%89%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9%E4%BA%8B%E4%BE%8B2-%E5%AD%A6%E7%94%9F%E3%81%AE%E5%A3%B0%E3%82%92%E6%B4%BB%E3%81%8B%E3%81%97%E3%81%9F%E6%8E%88%E6%A5%AD%E8%A8%AD%E8%A8%88%E3%81%AE%E5%B7%A5%E5%A4%AB" target="_blank" rel="noopener noreferrer">「第20回 学生の声を活かした授業設計の工夫」</a>にて，入江先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</small></div>
+
 ## 授業の基本情報
 
 授業名　　:　数理統計 I（S1）、II（S2）<br>
