@@ -1,5 +1,6 @@
 ---
 title: サポート窓口
+sinclo: true
 ---
 
 {% include sso.html %}

@@ -295,8 +295,14 @@
       </script>
       <!-- jump to page top -->
 
-		<!-- chat support -->
-		<script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
+    <!-- chat support -->
+    {% if page.sinclo %}
+      <script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
+    {% else %}
+      <a class="support-link" href="/en/supports/" target="_blank">
+        Need Help? Contact the Support Desk
+      </a>
+    {% endif %}
 
 
       <footer class="site-footer">
