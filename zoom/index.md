@@ -13,7 +13,7 @@ Zoomは,東京大学でも最も多くの授業で使われているWeb会議シ
 1. [UTokyo Account の初期パスワードを変更する](https://utelecon.adm.u-tokyo.ac.jp/oc/#utokyo_account)
   - 既にUTokyo Accountを取得している場合,この手順は不要です.
 
-2. 大学のライセンスが付与されるアカウントを作成する. [手順](https://utelecon.adm.u-tokyo.ac.jp/oc/#zoom)
+2. 大学のライセンスが付与されるアカウントを作成する. [手順](zoom_signin)
 3. [会議室を作成](https://utelecon.adm.u-tokyo.ac.jp/zoom/create_room)して,会議室の情報（URLなど）を周知
 4. [会議室へ入室](https://utelecon.adm.u-tokyo.ac.jp/zoom/join)
 5. ミーティングをおこないます
@@ -26,7 +26,7 @@ Zoomは,東京大学でも最も多くの授業で使われているWeb会議シ
 1. [UTokyo Account の初期パスワードを変更する](https://utelecon.adm.u-tokyo.ac.jp/oc/#utokyo_account)
   - 既にUTokyo Accountを取得している場合,この手順は不要です.
   - また, 参加する会議が大学のアカウントでサインインしていなくとも参加できるように設定されている場合は，手順1,2は不要です．
-2. 大学のライセンスが付与されるアカウントを作成する. [手順](https://utelecon.adm.u-tokyo.ac.jp/oc/#zoom)
+2. 大学のライセンスが付与されるアカウントを作成する. [手順](zoom_signin)
 3. [会議室へ入室](https://utelecon.adm.u-tokyo.ac.jp/zoom/join)
 4. ミーティングをおこないます
   - [開催者・参加者共通の使い方](https://utelecon.adm.u-tokyo.ac.jp/zoom/how_to_use)
