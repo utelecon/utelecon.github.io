@@ -43,7 +43,7 @@ title: Webex
 
 **Webex Meetings利用の流れ**
 * 開催者
-1. [Webexにサインイン](/oc/#Webex)
+1. [Webexにサインイン](signin)
 2. [ミーティングを作成](/webex/create_meeting)
 3. [ミーティングを開始](/webex/open_meeting)
 	* 開催者が明示的に「開始」するまで他の参加者はつなげません
@@ -51,7 +51,7 @@ title: Webex
 	* [ミーティングでできること（開催者限定）](/webex/do_meeting_host)
 
 *参加者
-1. [Webexにサインイン](/oc/#Webex)
+1. [Webexにサインイン](signin)
 2. ミーティングの情報（URLなど）をメールなどを用いて開催者から得ます．
 3. [ミーティングへ参加](/webex/join_meeting)
 4. ミーティングをおこないます
@@ -60,7 +60,7 @@ title: Webex
 
 **Webex Training利用の流れ**
 * 開催者
-1. [Webexにサインイン](/oc/#Webex)
+1. [Webexにサインイン](signin)
 2. [トレーニングを作成](/webex/create_training)
 3. [トレーニングを開始](/webex/open_training)
   	* 開催者が明示的に「開始」するまで他の参加者はつなげません
@@ -68,7 +68,7 @@ title: Webex
   	- [トレーニングでできること（開催者限定）](/webex/do_training_host)
 
 *参加者
-1. [Webexにサインイン](/oc/#Webex)
+1. [Webexにサインイン](signin)
 2. トレーニングの情報（URLなど）をメールなどを用いて開催者から得ます．
 3. [トレーニングへ参加](/webex/join_training)
 4. トレーニングをおこないます
@@ -77,7 +77,7 @@ title: Webex
 
 **Webex Events利用の流れ**
 * 開催者
-1. [Webexにサインイン](/oc/#Webex)
+1. [Webexにサインイン](signin)
 2. [イベントを作成](/webex/create_events)
 3. [イベントを開始](/webex/open_events)
   	- 開催者が明示的に「開始」するまで他の参加者はつなげません
@@ -86,7 +86,7 @@ title: Webex
   	- [Webexではないテレビ会議システムで参加する](/webex/join_events_vc)
 
 *参加者
-1. [Webexにサインイン](/oc/#Webex)
+1. [Webexにサインイン](signin)
 2. イベントの情報（URLなど）をメールなどを用いて開催者から得ます．
 3. [イベントへ参加](/webex/join_events)
 4. イベントをおこないます
