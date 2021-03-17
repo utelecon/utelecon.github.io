@@ -15,8 +15,16 @@ footer {
 }
 .footer__logo {
   text-align: center;
+  &__utokyo {
+    width: 16rem;
+    max-width: 62.5%;
+  }
   &__utelecon {
-    margin: 1rem;
+    display: block;
+    margin: 2rem;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 .footer__nav {

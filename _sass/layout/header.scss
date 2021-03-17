@@ -81,6 +81,7 @@ $header-hamburger-breakpoint: 48rem;
     text-decoration: none !important;
   }
   &__main {
+    display: block;
     font-size: 2rem;
     font-weight: bold;
     height: 1em;
@@ -88,6 +89,7 @@ $header-hamburger-breakpoint: 48rem;
     margin-bottom: 0.25rem;
   }
   &__sub {
+    display: block;
     font-size: 0.75rem;
   }
 }
