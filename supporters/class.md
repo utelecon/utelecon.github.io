@@ -1,4 +1,4 @@
 ---
-redirect_to: "/supporters/class_a"
+redirect_to: "/supporters/class_2021"
 ---
 

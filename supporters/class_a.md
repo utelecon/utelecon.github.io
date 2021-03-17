@@ -1,5 +1,6 @@
 ---
 title: クラスサポーター制度（Aセメスター）のご案内
+redirect_to: "/supporters/class_2021"
 ---
 
 お知らせ
