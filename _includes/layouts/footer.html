@@ -1,3 +1,9 @@
+{% unless page.sinclo %}
+<a class="support-link" href="{% if page.lang == "en" %}/en{% endif %}/supports/" target="_blank">
+  困ったときはサポート窓口へ<small>（別ページが開きます）</small>
+</a>
+{% endunless %}
+
 <footer>
   <div class="footer__logo">
     <div class="footer__logo__utelecon">utelecon: オンライン授業・Web会議ポータルサイト @ 東京大学</div>
@@ -24,4 +30,6 @@
   </nav>
 </footer>
 
+{% if page.sinclo %}
 <script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
+{% endif %}

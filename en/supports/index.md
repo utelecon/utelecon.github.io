@@ -1,6 +1,7 @@
 ---
 title: Technical Support Desk
 layout: en
+sinclo: true
 ---
 
 <div style="border: 2px solid currentcolor; margin-bottom: 0.5em; padding: 0.5em; font-weight: bold; font-size: larger;">To expand our support services for the new academic year, we have introduced a new support desk which is co-operated by the student staff ("common supporters") and faculty members.</div>
