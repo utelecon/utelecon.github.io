@@ -61,4 +61,4 @@ title: Webex アカウントの作成とログイン
 1. https://www.webex.com に行き，「サインイン」から Meetings を選択して，サインインしてください．
 1. ログインができると下記のようなホーム画面に入れます．
 
-	![WebExのホーム画面](img/webex_home.png){:width="700px"}
+	![Webexのホーム画面](img/webex_home.png){:width="700px"}
