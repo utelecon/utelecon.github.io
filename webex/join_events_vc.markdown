@@ -27,7 +27,7 @@ title: Webex Eventsへの参加 （テレビ会議システム）
 
 <br>
 <br>
-<a href="index" target="_blank">Webexの使い方ページに戻る</a>
+<a href="index" target="_blank">WebExの使い方ページに戻る</a>
 <a href="meeting_participant" target="_blank">会議でできること（参加者）をみる</a>
 <a href="meeting_owner" target="_blank">会議でできること（開催者）をみる</a>
 
