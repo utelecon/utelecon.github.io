@@ -69,7 +69,7 @@ title: Webex Trainingでできること（開催者）
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Webexの使い方ページに戻る</a>
 
 
 
