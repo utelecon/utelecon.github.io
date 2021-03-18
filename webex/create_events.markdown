@@ -30,4 +30,4 @@ title: Webex イベントを作成する
 
 <br>
 <br>
-<a href="index" target="_blank">WebExの使い方ページに戻る</a>
+<a href="index" target="_blank">Webexの使い方ページに戻る</a>
