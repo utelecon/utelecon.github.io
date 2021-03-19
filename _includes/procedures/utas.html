@@ -26,9 +26,11 @@
 
 
 {% capture login %}
+{% if page.slug == "oc" %}
 <ul>
 <li><strong style="color: red;">現在，アカウント情報登録作業中のため，「[Error] あなたは現在このシステムを利用することができません」と表示される場合があります．</strong></li>
 </ul>
+{% endif %}
 <ol>
 {{ login_steps }}
 </ol>
