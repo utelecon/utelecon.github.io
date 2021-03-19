@@ -26,6 +26,9 @@
 
 
 {% capture login %}
+<ul>
+<li><strong style="color: red;">現在，アカウント情報登録作業中のため，「[Error] あなたは現在このシステムを利用することができません」と表示される場合があります．</strong></li>
+</ul>
 <ol>
 {{ login_steps }}
 </ol>
@@ -38,6 +41,9 @@
 {{ support }}
 {% endcapture %}
 {% capture login_and_confirm_email_address_registration %}
+<ul>
+<li><strong style="color: red;">現在，アカウント情報登録作業中のため，「[Error] あなたは現在このシステムを利用することができません」と表示される場合があります．</strong></li>
+</ul>
 <ol>
 {{ login_steps }}
 {{ confirm_email_address_registration_steps }}
