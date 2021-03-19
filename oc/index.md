@@ -150,6 +150,8 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 
 {{ about_microsoft }}
 
+<span style="color:red"> 現在一時的なライセンス不足により「アカウントが存在しません」と表示されます。対処中ですので時間をおいてお試しください．</span>
+
 {% include procedures/microsoft.html %}
 
 ### UTokyo WiFi
