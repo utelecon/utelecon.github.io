@@ -7,6 +7,8 @@ toc: false
 
 Zoomへのサインインには，[UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)が必要です．
 
+東大の所定のZoomアカウントとは異なる，<strong style="color: red;">10桁の共通IDではないメールアドレス（ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` など）のアカウントを利用している場合，以下の方法ではサインインできません．「[10桁の共通IDではないZoomアカウントの利用について](/notice/zoom-address-new)」の案内をご覧ください．</strong>
+
 <ul>
 <li><strong>東大アカウント専用のページからサインインする方法</strong>（普段はこの方法が簡単です）
 <ol>
