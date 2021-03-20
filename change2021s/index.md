@@ -30,7 +30,7 @@ Web会議ツールの**ZoomとWebex**について，これまでECCSクラウド
 ### Zoomの新しいサインイン方法
 {:#zoom_sign_in}
 
-{% include_relative _zoom_sign_in.md %}
+{% include_relative _zoom_sign_in.md heading="####" %}
 
 ### Webexの新しいサインイン方法
 {:#webex_sign_in}
