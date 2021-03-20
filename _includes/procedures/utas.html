@@ -26,6 +26,11 @@
 
 
 {% capture login %}
+{% if page.slug == "oc" %}
+<ul>
+<li><strong style="color: red;">現在，「[Error] あなたは現在このシステムを利用することができません」と表示されてログインできない，というトラブルが発生する場合があります．調査中ですので，お手数ですが，後でもう一度試していただけますようお願いいたします．</strong></li>
+</ul>
+{% endif %}
 <ol>
 {{ login_steps }}
 </ol>
@@ -38,6 +43,9 @@
 {{ support }}
 {% endcapture %}
 {% capture login_and_confirm_email_address_registration %}
+<ul>
+<li><strong style="color: red;">現在，「[Error] あなたは現在このシステムを利用することができません」と表示されてログインできない，というトラブルが発生する場合があります．調査中ですので，お手数ですが，後でもう一度試していただけますようお願いいたします．</strong></li>
+</ul>
 <ol>
 {{ login_steps }}
 {{ confirm_email_address_registration_steps }}
