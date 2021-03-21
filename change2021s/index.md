@@ -4,9 +4,6 @@ title: 2021年春のシステム変更
 
 <div class="important-box">3月15日からZoomが，3月13日からWebexが，それぞれUTokyo Accountでサインインするようになり，これまでの方法ではサインインできなくなります．</div>
 
-{% include_relative _zoom_flash.md %}
-{% include_relative _webex_flash.md %}
-
 オンライン授業の円滑な実施を目的として，東京大学が提供する各種情報システムについて，ログイン方法を可能な限り UTokyo Account （数字10桁の共通ID）に統一してわかりやすくするとともに，その他必要な変更を行います．
 
 このページでは，これらのシステム変更に関する情報を提供しています．随時新しい情報をお知らせしていきますので，必要に応じてご確認ください．
@@ -30,20 +27,17 @@ Web会議ツールの**ZoomとWebex**について，これまでECCSクラウド
 - **Zoom 2021年3月14日 22時 ～ 3月15日 6時 （予定）**
 - **Webex 2021年3月12日 20時 ～ 24時 （予定）**
 
+切り替え後の新しいサインイン方法は以下で説明しています．また，切り替え時間中の各システムの利用やアカウント作成方法の変更などについては，それぞれ**[Zoomのシステム変更に関する詳細ページ](zoom)**，**[Webexのシステム変更に関する詳細ページ](webex)**をご覧ください．
+
 ### Zoomの新しいサインイン方法
 {:#zoom_sign_in}
 
-{% include_relative _zoom_sign_in.md %}
+{% include_relative _zoom_sign_in.md heading="####" %}
 
 ### Webexの新しいサインイン方法
 {:#webex_sign_in}
 
 {% include_relative _webex_sign_in.md %}
-
-### ZoomとWebexのシステム変更に関する詳細
-{:#zoom_webex_details}
-
-切り替え時間中の各システムの利用や，アカウント作成方法の変更などについては，それぞれ**[Zoomのシステム変更に関する詳細ページ](zoom)**，**[Webexのシステム変更に関する詳細ページ](webex)**をご覧ください．
 
 ## UTokyo Accountに多要素認証を導入します
 {:#mfa}

@@ -3,7 +3,7 @@
 1. [東京大学のWebexページ](https://utelecon.webex.com/)で「サインイン」ボタンを押すなどして，Webexのサインイン画面を開いてください．
 2. <code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code> のように，10桁の共通IDの後に東京大学であることを表す記号 <code>@<em>utac</em>.u-tokyo.ac.jp</code> を付けたものを入力してください．
     - ECCSクラウドメール（ <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> ）ではありません．
-3. UTASなどと同じような東京大学のユーザ名とパスワードを入力する画面（安田講堂の画面）が出たら，UTokyo Account（10桁の共通ID）の情報を入力してください．
+3. UTASなどと同じような東京大学のユーザ名とパスワードを入力する画面（安田講堂の画面）が出たら，UTokyo Account（10桁の共通ID）の情報を入力してください（この画面は，既に入力済みなら出ないこともあります）．
     - ECCSクラウドメール（<code>@<em>g.ecc</em>.u-tokyo.ac.jp</code>）ではありません．
     - これまで使っていたWebex専用のパスワードではありません．
 
