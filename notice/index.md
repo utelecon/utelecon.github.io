@@ -2,6 +2,8 @@
 title: お知らせ
 toc: false
 ---
+
+* <span style="color:blue;">2021/03/21:</span> （教員用）3/25 10:00から<a href="/events/2021-03-25">オンライン講座「オンライン授業における Zoom の使い方」</a>を開催いたします．
 * <span style="color:blue;">2021/03/15:</span> 東京大学の情報システムとそのサポート体制について新入生に向けて説明する資料<a href="/notice/getting_ready_for_online_classes_2021s.pdf">「オンライン授業を受けるために」 (PDF) </a>を作成しました．
 * <span style="color:blue;">2021/03/12:</span> オンライン授業・Web会議ポータルサイト (utelecon) のデザインをリニューアルしました．
 * <span style="color:blue;">2021/03/04:</span> 2021年度Sセメスターの新入生向けページ「[オンライン授業を受けるために](/oc/)」と教員向けページ「[オンライン授業を始めるために](/faculty_members/)」を公開しました．
