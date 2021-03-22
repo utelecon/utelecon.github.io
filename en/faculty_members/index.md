@@ -215,6 +215,6 @@ For more information on how to use Webex, please refer to [the Webex page on thi
 
 This site, "**Online Class / Web Conference Portal Site @ The University of Tokyo**", also known as "**utelecon**", presents you lots of information on how to use the information systems mentioned in this page and other useful information for online classes.
 
-In particular, the "**[For Better Online Classes](/en/improvement/)**" page covers the use of various information systems in the classroom, practical examples of online classes, and other information that will help you take the next step toward online classes. 
+In particular, the "**For Better Online Classes**" page (in preparation) covers the use of various information systems in the classroom, practical examples of online classes, and other information that will help you take the next step toward online classes. 
 
 We also run a **[support desk](/en/supports/)**. If you have any problems with the above procedures, please contact us.
