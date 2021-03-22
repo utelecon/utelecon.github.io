@@ -14,7 +14,7 @@ title: 2021年春のシステム変更
 - 3月4日 [UTokyo Microsoft Licenseの利用開始時に申請が不要になります](#microsoft)
 - 3月12日 [WebexがUTokyo Accountでサインインするようになります](#zoom_webex)
 - 3月14日 [ZoomがUTokyo Accountでサインインするようになります](#zoom_webex)
-- 4月以降 [UTokyo Accountに多要素認証を導入します](#mfa)
+- 4月以降 [UTokyo Accountに多要素認証を利用可能にします](#mfa)
 - 日時未定 [「東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)」がUTokyo Accountでログインできるようになります](#lite)
 
 ## Zoom・Webex：UTokyo Accountでサインインするようになります
@@ -39,10 +39,10 @@ Web会議ツールの**ZoomとWebex**について，これまでECCSクラウド
 
 {% include_relative _webex_sign_in.md %}
 
-## UTokyo Accountに多要素認証を導入します
+## UTokyo Accountに多要素認証を利用可能にします
 {:#mfa}
 
-セキュリティの向上のため，2021年4月以降に，UTokyo Accountのログインにおいて **多要素認証** を導入する予定です．多要素認証を設定すると，ログイン時に，電話やSMSで受け取った認証コードの入力が求められるようになります．詳細は後日あらためてこのページでお知らせします．
+セキュリティの向上のため，2021年4月以降に，UTokyo Accountのログインにおいて **多要素認証** を利用可能にする予定です．多要素認証を設定すると，サインイン時に，スマホアプリ、電話（音声メッセージ）やSMSで受け取った認証コードの入力が求められるようになります．詳細は後日あらためてこのページでお知らせします．（全学的な周知を行います.）
 
 ## その他
 {:#others}
