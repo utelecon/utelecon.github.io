@@ -11,7 +11,7 @@ title: 教育・研究活動のためのネットワーク環境支援2021
 
 ## 目的 / Purpose 
 
-本学では、緊急の授業のオンライン化に際し、ネットワーク環境の整っていない学生に対してモバイルWiFiルータを提供する支援を行っています。なお、貸出できる機器には限りがあるため、貸し出しは一人一台、応募多数の場合には、これまで通り授業の受講など全学としての支援の必要性の高い方を優先することとします。主に研究で利用する場合, 研究室, 学科(専攻), 学部(研究科)などから支援が受けられないかも合わせて検討くださるようお願いいたします.
+本学では、緊急の授業のオンライン化に際し、ネットワーク環境の整っていない学生に対してモバイルWiFiルータを提供する支援を行っています。なお、貸出できる機器には限りがあるため、貸し出しは<span style="color:red;">**一人一台**</span>、応募多数の場合には、これまで通り授業の受講など全学としての支援の必要性の高い方を優先することとします。主に研究で利用する場合, 研究室, 学科(専攻), 学部(研究科)などから支援が受けられないかも合わせて検討くださるようお願いいたします.
 
 As part of our effort to urgently make classes online, the University of Tokyo has offered mobile WiFi routers to students who do not have a networking environment with high data capacity.Note, however, that the number of routers we can offer is limited and the priority will be given to those who need the university level support, such as students who otherwise would have difficulties in taking courses. If it is mainly used for research, please also seek help from your laboratory, department, and faculty (school). 
 
@@ -46,7 +46,7 @@ It will be offered to students subject to the above conditions.
 ## 申し込み / Application 
 
 
-以下の申し込みフォームから申請してください。 
+以下の申し込みフォームから申請してください。**(注:2台目の申し込みは受け付けておりません）**
 メールアドレスは可能な限り[ECCSクラウドメール](https://utelecon.adm.u-tokyo.ac.jp/oc/index.html#google)を使用してください。 
     
 Please apply using the form below. If possible, You soould use [ECCS cloud mail](https://utelecon.adm.u-tokyo.ac.jp/oc/index.html#google).
