@@ -13,6 +13,25 @@
   endif
 %}．</li>
 {% endcapture %}
+{% capture login_help %}
+<details>
+  <summary>この手順がうまくいかないときのヘルプ</summary>
+  <ul>
+    <li><strong>「[Error] あなたは現在このシステムを利用することができません」と表示されてログインできない場合</strong>：
+      <ul>
+        {% if page.slug != "faculty_members" %}
+          <li>学部から大学院に進学するなど所属が変わる場合は，切り替えのため一時的にUTASにアクセスできない期間があります．時間をおいてもう一度試してみてください．</li>
+          <li>それに該当しない場合は，所属の学部・研究科等に問い合わせてください．</li>
+        {% endif %}
+        {% if page.slug != "oc" %}
+          <li>一部の教職員（主に授業を担当されない方）にはUTASのアカウントが登録されていません．所属部局の事務に確認してみてください．</li>
+        {% endif %}
+      </ul>
+    </li>
+  </ul>
+  これらを確認して，それでもうまくいかなければ，<a href="/supports/">サポート窓口</a>に相談してください．
+</details>
+{% endcapture %}
 {% capture confirm_email_address_registration_steps %}
 <li>{% if include.part != "important" %}ログインした後，{% endif %}上部のメニューで「学生情報」「現住所等変更入力」を順に押してください．</li>
 <li>その画面の「E-MAIL 1」という欄に，あなたに確実に届くメールアドレスが登録されているか確認してください．</li>
@@ -26,15 +45,14 @@
 
 
 {% capture login %}
-{% if page.slug == "oc" %}
-<ul>
-<li><strong style="color: red;">現在，「[Error] あなたは現在このシステムを利用することができません」と表示されてログインできない，というトラブルが発生する場合があります．調査中ですので，お手数ですが，後でもう一度試していただけますようお願いいたします．</strong></li>
-</ul>
-{% endif %}
 <ol>
 {{ login_steps }}
 </ol>
-{{ support }}
+<ul>
+<li>
+{{ login_help }}
+</li>
+</ul>
 {% endcapture %}
 {% capture confirm_email_address_registration %}
 <ol>
@@ -43,14 +61,15 @@
 {{ support }}
 {% endcapture %}
 {% capture login_and_confirm_email_address_registration %}
-<ul>
-<li><strong style="color: red;">現在，「[Error] あなたは現在このシステムを利用することができません」と表示されてログインできない，というトラブルが発生する場合があります．調査中ですので，お手数ですが，後でもう一度試していただけますようお願いいたします．</strong></li>
-</ul>
 <ol>
 {{ login_steps }}
 {{ confirm_email_address_registration_steps }}
 </ol>
-{{ support }}
+<ul>
+<li>
+{{ login_help }}
+</li>
+</ul>
 {% endcapture %}
 
 
@@ -70,6 +89,7 @@
 <ol>
 {{ login_steps }}
 </ol>>
+{{ login_help }}
 
 {% elsif include.part == "confirm_email_address_registration" %}
 
