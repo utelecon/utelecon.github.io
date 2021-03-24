@@ -101,8 +101,7 @@ title: クラスサポーター制度のご案内
 
 **クラスサポーターをマッチングしてほしい場合**
 1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">クラスサポーター割当希望フォーム</a>で制度の利用申請を行います。
-1. <font color="red">マッチング成立後</font>
-、クラスサポーターをご案内するメールが届きます。
+1. <font color="red">マッチング成立後</font>にクラスサポーターをご案内するメールが届きます。
 1. 学生と連絡をとり、開始日・科目名・時間割コード・曜限などを互いに確認します。
 1. 双方が同意しましたら、獲得報告フォームを提出してください。
 1. クラスサポーター担当から2種類のフォームが届きますので確認します。
