@@ -3,9 +3,6 @@ title: UTokyo Account認証サービスの利用不能時間について
 ---
 <div style="text-align: right;">令和3年3月24日</div> 
 
-<div style="text-align: left;">各部局長　　殿</div> 
-<div style="text-align: left;">本部各部長　殿</div> 
-
 <div style="text-align: right;">情報システム担当理事（CIO）・情報システム本部長</div> 
 <div style="text-align: right;">大久保　達也</div> 
 
@@ -29,7 +26,5 @@ title: UTokyo Account認証サービスの利用不能時間について
 移設工事に関する詳細および当日の状況については、情報基盤センターウェブサイトのネットワーク移設に関する通知　https://www.itc.u-tokyo.ac.jp/network/2021/03/08/post-390/　を参照ください。 
 
 UTokyo Account 認証を利用しているサービスにおいては利用者への周知をお願いします。  
-
-情報システム本部
 
  
