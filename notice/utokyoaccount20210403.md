@@ -1,7 +1,6 @@
 ---
-title: UTokyo 90days Cisco Webex サービスの継続利用について
+title: UTokyo Account認証サービスの利用不能時間について
 ---
-**オンライン授業検討会**
 <div style="text-align: right;">令和3年3月24日</div> 
 
 <div style="text-align: left;">各部局長　　殿</div> 
@@ -11,7 +10,7 @@ title: UTokyo 90days Cisco Webex サービスの継続利用について
 <div style="text-align: right;">大久保　達也</div> 
 
 
-## UTokyo Account認証サービスの利用不能時間について  
+# UTokyo Account認証サービスの利用不能時間について  
 
  日頃よりUTokyo Accountを活用頂きありがとうございます。 
 
@@ -19,10 +18,13 @@ title: UTokyo 90days Cisco Webex サービスの継続利用について
 
 　なお、 UTNETのネットワークサービスの復旧後、 UTokyo Account の認証サービスも回復いたします。 
 
-- サービス利用不能時間 
-  2021年4月3日（土）20時から4月4日（日）2時（6時間） 
-- サービスが不安定になる可能性がある時間 
-  2021年4月4日（日）9時から18時（9時間） 
+## サービス利用不能時間 
+
+  **2021年4月3日（土）20時から4月4日（日）2時（6時間）**
+
+## サービスが不安定になる可能性がある時間 
+
+  **2021年4月4日（日）9時から18時（9時間）**
 
 移設工事に関する詳細および当日の状況については、情報基盤センターウェブサイトのネットワーク移設に関する通知　https://www.itc.u-tokyo.ac.jp/network/2021/03/08/post-390/　を参照ください。 
 
