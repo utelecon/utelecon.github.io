@@ -40,5 +40,5 @@ URL は以下のシートから確認できます<br>
 
 ## 事後アンケート
 
-準備中です。
+[事後アンケート](https://forms.gle/vdH8WHedzPEEME1w5)
 
