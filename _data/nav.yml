@@ -8,7 +8,7 @@
       name: "オンライン授業を始めるために<small>（教員向け）</small>"
       url: "/faculty_members/"
     -
-      name: "よりよいオンライン授業をするために<small>（教員向け）</small>"
+      name: "よりよいオンライン授業をするために"
       url: "/improvement/"
     -
       name: "サポート窓口"
@@ -17,17 +17,17 @@
       name: "2021年春のシステム変更"
       url: "/change2021s/"
 -
-  name: "お知らせ・イベント"
-  contents: 
+  name: "よりよい授業のために"
+  contents:
     -
-      name: "お知らせ"
-      url: "/notice/"
+      name: "よりよいオンライン授業をするために"
+      url: "/improvement/"
+    -
+      name: "グッドプラクティス"
+      url: "/good-practice/"
     -
       name: "オンライン授業情報交換会"
       url: "/events/2020-luncheon/"
-    -
-      name: "説明会等"
-      url: "/events/"
 -
   name: "授業で使うシステム"
   contents:
@@ -59,17 +59,17 @@
       name: "ECCS端末"
       url: "https://www.ecc.u-tokyo.ac.jp/"
 -
-  name: "よりよい授業のために"
-  contents:
+  name: "お知らせ・イベント"
+  contents: 
     -
-      name: "よりよいオンライン授業をするために"
-      url: "/improvement/"
-    -
-      name: "グッドプラクティス"
-      url: "/good-practice/"
+      name: "お知らせ"
+      url: "/notice/"
     -
       name: "オンライン授業情報交換会"
       url: "/events/2020-luncheon/"
+    -
+      name: "説明会等"
+      url: "/events/"
 -
   name: "サポート"
   contents:
