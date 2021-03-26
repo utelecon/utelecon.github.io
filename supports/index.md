@@ -40,12 +40,12 @@ Zoomの会議室において，学生スタッフ（コモンサポーター）�
 
 * 混雑状況により，ご案内までにお時間をいただく場合があります．その場合はメールフォームで問い合わせいただくか，時間をあけて再度お問い合わせください．
 * 会議室の録音・録画は行っておりません．利用者も**録音・録画等の行為を行わないでください**．
-* 会議室情報へのアクセスには[ECCSクラウドメール](/eccs_cloud_email)のアカウントが必要です．
+* 会議室情報へのアクセスには，UTokyo Accountでのサインインが必要です．
 
 <div>対応時間：平日 8時25分から18時40分まで，休日 10時20分から16時45分まで</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
-<a href="https://docs.google.com/document/d/1hN0VpQj3engH5lAZUJ_gIsNTnJBkrUkUXgoV_T03Iec/edit?usp=sharing">会議室情報（要ECCSクラウドメール）</a>
+<a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">会議室情報（リンク先の「Zoomサポートの会議室情報」を確認してください）</a>
 </div>
 
 ## メールフォームで相談する
