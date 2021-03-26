@@ -48,7 +48,7 @@ Sat, Sun, Holidays: 10:20 a.m. - 4:45 p.m.
 
 </div>
 <div class="support-channel-link">
-<a href="https://docs.google.com/document/d/1hN0VpQj3engH5lAZUJ_gIsNTnJBkrUkUXgoV_T03Iec/edit?usp=sharing">Meeting Room Information (ECCS Cloud Email Required)</a>
+<a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">Meeting Room Information (Check the "Meeting room information of Zoom support" on the page)</a>
 </div>
 
 <div class="support-channel-main">
