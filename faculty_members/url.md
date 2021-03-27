@@ -8,9 +8,9 @@ title: 授業URLの連絡方法（教員向け）
 
 教員から学生にオンライン授業のURL（Zoomなどの会議室のURL）を連絡する際は，**[ITC-LMS](/itc_lms)の「オンライン授業情報」欄**を利用するのが原則です．
 
-- [手順動画](https://youtu.be/JeBwwDfhJJw)
 - [ある授業の例](https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=2020FEN-EE3d16L10J01)
-- ITC-LMSのお知らせ「[「オンライン授業情報」の追加について](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/16_3208.html)」もご覧ください．
+- [手順動画](https://youtu.be/JeBwwDfhJJw)
+- 手順などの詳細は，ITC-LMSのお知らせ「[「オンライン授業情報」の追加について](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/16_3208.html)」もご覧ください．
 - 全学のガイドライン「[2021年Sセメスターにおけるオンライン授業向けツールの利用ガイドライン](/notice/guideline)」でもITC-LMSを利用することになっています．
 - 「お知らせ」や「掲示板」等の他の欄ではなく「オンライン授業情報」欄を利用してください．
     - 学生側の画面では，「オンライン授業情報」欄に掲載された情報は，登録したすべての授業を一覧で表示できるようになっています．他の欄では一覧に載らず，学生にとって不便です．
