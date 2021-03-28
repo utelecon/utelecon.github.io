@@ -3,9 +3,7 @@ title: Zoom
 layout: en
 ---
 
-## Notice
 
-* <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoom FAQs on setting issues</a>
 
 <!--
 * The person <font color="green">hosting the meeting</font>(or co-hosting) <font color="green">must</font> <a href="create_account" target="">activate its Zoom account</a>.
