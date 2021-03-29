@@ -18,7 +18,7 @@ title: 今後のウェブ会議システムの提供について（2020/11/20以
 	1. <span style="color: green;">オンライン授業では原則ウェビナーではなくミーティングをお使いください。</span> ウェビナーを申請される際には、本当にZoomウェビナーが必要かどうか、ZoomミーティングやWebex Eventsの利用も併せてご検討ください。
 
 **申し込みフォーム：**　<br>
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhI_ifmf7qdFDpTYBBcm0ltJUOUtWOE9PNkVXN1QzOVcxSFlJMFozTzRZQy4u" target="_blank" rel="noopener">ウェビナー・301人以上の大規模ミーティングを開催できる大学ライセンスのリクエストフォーム</a> <br>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhAOryJfPzL1FjzXqqqmbJCVUNFdHNUlYR1ZFNkdSUTRGVVBPWVc3NlRYTC4u" target="_blank" rel="noopener">ウェビナー・301人以上の大規模ミーティングを開催できる大学ライセンスのリクエストフォーム</a> <br>
 （フォームには **共通ID（数字10桁）@utac.u-tokyo.ac.jp** でのサインインが必要です）
 
 **<span style="color: red;">注意：</span>**　<br>
@@ -30,7 +30,7 @@ title: 今後のウェブ会議システムの提供について（2020/11/20以
 
 ## [Webex](/webex/)
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank" rel="noopener">「安全な会議のためのwebexアカウント申請フォーム」</a>から申請したアカウントはそのまま継続利用できます。していない方は同ページから申し込んでください。
+Webex の利用については申請は不要となりました。
 
 教職員学生が 同時接続数1000 人までの meetings, trainings, events機能を利用できます。
 
