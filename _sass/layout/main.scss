@@ -57,6 +57,23 @@ main {
     }
   }
 
+  img {
+    display: block;
+  }
+
+  img.inline {
+    display: inline;
+  }
+
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  figcaption {
+    font-size: 0.75em;
+  }
+
   code em {
     font-style: normal;
     font-weight: bold;
