@@ -57,6 +57,14 @@ main {
     }
   }
 
+  img {
+    display: block;
+  }
+
+  img.inline {
+    display: inline;
+  }
+
   code em {
     font-style: normal;
     font-weight: bold;
