@@ -1,3 +1,16 @@
+h1:not(.title) {
+  font-size: 1.75em;
+  font-weight: bold;
+  margin-top: 0.57em;
+  margin-bottom: 0.57em;
+  padding-left: 0.43em;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
+  color: black;
+  border-left: 0.43em solid $heading-color;
+  border-bottom: 2px solid $heading-color;
+}
+
 h2 {
   font-size: 1.5em;
   font-weight: bold;
