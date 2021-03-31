@@ -57,6 +57,9 @@ code em {
       display: none;
     }
   }
+  @media print {
+    display: none;
+  }
 }
 
 /* supportsページ用 */
