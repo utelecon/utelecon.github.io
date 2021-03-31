@@ -28,6 +28,9 @@
     -
       name: "オンライン授業情報交換会"
       url: "/events/2020-luncheon/"
+    -
+      name: "オンライン授業に関するアンケート"
+      url: "/questionnaire/"
 -
   name: "授業で使うシステム"
   contents:
