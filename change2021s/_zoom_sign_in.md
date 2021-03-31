@@ -5,8 +5,6 @@
 - **東大アカウント専用のページからサインインする方法**（普段はこの方法が簡単です）
     1. 東京大学専用のZoomのページ [https://u-tokyo-ac-jp.zoom.us/](https://u-tokyo-ac-jp.zoom.us/) にアクセスしてください．
     1. 「UTokyo Zoom」と書かれたページが表示されるので，そのページにある「Config」と書かれたボタンを押してください．
-    1. 東京大学のユーザー名を入力する画面が現れたら， <code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code> のように，10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号 <code>@<em>utac</em>.u-tokyo.ac.jp</code> を付けたものを入力してください（この画面は，既に入力済みなら出ないこともあります）．
-        - ECCSクラウドメール（<code>@<em>g.ecc</em>.u-tokyo.ac.jp</code>）ではありません．
     1. UTASなどと同じような東京大学のユーザ名とパスワードを入力する画面（安田講堂の画面）が出たら，UTokyo Account（10桁の共通ID）の情報を入力してください（この画面は，既に入力済みなら出ないこともあります）．
         - ECCSクラウドメール（<code>@<em>g.ecc</em>.u-tokyo.ac.jp</code>）ではありません．
         - これまで使っていたZoom専用のパスワードではありません．
