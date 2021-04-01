@@ -2,6 +2,8 @@
 title: UTAS
 ---
 
+{% include utnet.html system="UTAS" %}
+
 ## UTASとは
 
 [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)は東京大学の学務システムです．学生にとってはシラバス閲覧・履修登録・成績確認などを行うシステムであり，教員にとってはシラバス登録・履修者名簿確認・成績登録などを行うシステムです．
