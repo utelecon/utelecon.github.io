@@ -19,7 +19,7 @@ UTokyo Accountをまだ設定していない人は，[東京大学でオンラ�
     <summary>この手順がうまくいかないときのヘルプ</summary>
     <ul>
       <li><strong>上のリンクにアクセスしても「UTokyo Zoom」と書かれたページが表示されない場合</strong>：前から持っていた自分のアカウントで既にZoomにサインインしているときに発生します<a href="https://zoom.us/profile">Zoomの設定画面</a>の右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）をクリックして，「サインアウト」してから，アクセスし直してください．</li>
-      ![](img/zoom_signin_3.png)
+      <img src="img/zoom_signin_3.png" alt="" />
     </ul>
     これらを確認して，それでもうまくいかなければ，<a href="/supports/">サポート窓口</a>に相談してください．
   </details>
