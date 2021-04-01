@@ -1,44 +1,38 @@
 ---
-title: Zoom サインインの仕方
+title: Zoom サインイン方法
 toc: false
 ---
 
-{% include sso.html %}
+東京大学のZoomアカウントでのサインインには，[UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)が必要です．
+UTokyo Accountをまだ設定していない人は，[東京大学でオンライン授業を受けるために](/oc/)を確認してください．
 
-Zoomへのサインインには，[UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)が必要です．
+また，10桁の共通IDではないメールアドレス（ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` など）のアカウントを利用している場合，以下の方法ではサインインできません．「[10桁の共通IDではないZoomアカウントの利用について](/notice/zoom-address-new)」の案内をご覧ください．
 
-東大の所定のZoomアカウントとは異なる，<strong style="color: red;">10桁の共通IDではないメールアドレス（ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` など）のアカウントを利用している場合，以下の方法ではサインインできません．「[10桁の共通IDではないZoomアカウントの利用について](/notice/zoom-address-new)」の案内をご覧ください．</strong>
+## ブラウザからサインインする方法
+1. 東京大学専用のZoomのページ <a href="https://u-tokyo-ac-jp.zoom.us/">https://u-tokyo-ac-jp.zoom.us/</a>にアクセスしてください．
+2. 「UTokyo Zoom」と書かれたページが表示されるので，そのページにある「Config」と書かれたボタンを押してください．
+![](img/zoom_signin_1.png)
+3. UTokyo Accountでサインインしてください（UTokyo Accountにサインイン済みの場合はそのままサインインが完了します）．
+![](img/zoom_signin_2.png)
 
-<ul>
-<li><strong>東大アカウント専用のページからサインインする方法</strong>（普段はこの方法が簡単です）
-<ol>
-<li>東京大学専用のZoomのページ <a href="https://u-tokyo-ac-jp.zoom.us/">UTokyo Zoom</a>のページにアクセスしてください．</li>
-<li>「UTokyo Zoom」と書かれたページが表示されるので，そのページにある「Config」と書かれたボタンを押してください．</li>
-<li>UTASなどと同じような東京大学のユーザ名とパスワードを入力する画面が出たら，UTokyo Accountの情報を入力してください（この画面は，既に入力済みなら出ないこともあります）．</li>
-<li>自分の名前が書かれたプロフィール画面が表示されればOKです．また，プロフィール画面の「ライセンスタイプ」という欄に「ライセンスあり ミーティング 300参加者」と書かれていることを確認してください．</li>
-</ol>
-<ul>
-<li>
-  <details>
+* <details>
     <summary>この手順がうまくいかないときのヘルプ</summary>
     <ul>
-      <li><strong>上のリンクにアクセスしても「UTokyo Zoom」と書かれたページが表示されない場合</strong>：前から持っていた自分のアカウントで既にZoomにサインインしているときに起きます．<a href="https://zoom.us/profile">Zoomの設定画面</a>の右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）をクリックして，「サインアウト」してください．その後，アクセスし直してみてください．</li>
+      <li><strong>上のリンクにアクセスしても「UTokyo Zoom」と書かれたページが表示されない場合</strong>：前から持っていた自分のアカウントで既にZoomにサインインしているときに発生します<a href="https://zoom.us/profile">Zoomの設定画面</a>の右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）をクリックして，「サインアウト」してから，アクセスし直してください．</li>
+      ![](img/zoom_signin_3.png)
     </ul>
     これらを確認して，それでもうまくいかなければ，<a href="/supports/">サポート窓口</a>に相談してください．
   </details>
-</li>
-</ul>
-</li>
-<li><strong>Zoomの通常のサインイン画面からサインインする方法</strong>（アプリからサインインする場合などはこの方法です）
-<ol>
-<li>Zoomアプリで「サインイン」ボタンを押すなどして，Zoomのサインイン画面を開いてください．</li>
-<li>サインイン画面で，「SSO」または「SSOでサインイン」と書かれた文字を探して押してください（この画面のメールアドレス・パスワード欄にUTokyo Accountの情報を入力してもサインインできません）．</li>
-<li>「会社のメール」という欄が表示されていたら， <code>1234567890@utac.u-tokyo.ac.jp</code> のように，10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号 <code>@utac.u-tokyo.ac.jp</code> を付けたものを入力してください．もし，「会社のメール」ではなく「会社のドメイン」という欄が表示されていたら， <code>u-tokyo-ac-jp</code> と入力してください．</li>
-<li>UTASなどと同じような東京大学のユーザ名とパスワードを入力する画面が出たら，UTokyo Accountの情報を入力してください（この画面は，既に入力済みなら出ないこともあります）．</li>
-<li>パソコンのアプリでは右上のアイコン（自分のアイコンか，設定していない場合は人のマーク），スマホのアプリでは右下の「設定」を押して表示される画面で，自分の名前の隣に「ライセンスあり」と表示されたら，正しくサインインできています．</li>
-</ol>
-<ul>
-<li>この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．</li>
-</ul>
-</li>
-</ul>
+
+
+## アプリからサインインする方法
+1. Zoomアプリで「サインイン」ボタンを押すなどして，Zoomのサインイン画面を開いてください．
+![](img/zoom_signin_4.png)
+2. サインイン画面で，<strong style="color: red;">「SSO」または「SSOでサインイン」</strong>と書かれた文字を探して押してください（この画面のメールアドレス・パスワード欄にUTokyo Accountの情報を入力してもサインインできません）．
+![](img/zoom_signin_5.png)
+3. 「会社のドメイン」欄に <strong style="color: red;">u-tokyo-ac-jp と入力</strong>してください（ac の前後はピリオドではなくハイフンであることに注意してください）．
+![](img/zoom_signin_6.png)
+4. ブラウザに移動するので，UTokyo Accoutでサインインしてください（UTokyo Accountにサインイン済みの場合はそのままサインインが完了します）．
+![](img/zoom_signin_2.png)
+
+* この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．
