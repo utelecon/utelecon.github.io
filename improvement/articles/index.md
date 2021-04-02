@@ -1,0 +1,46 @@
+---
+title: よりよいオンライン授業をするために 記事一覧
+toc: false
+---
+
+* [オンライン講座「オンライン授業における Zoom の使い方」](/events/2021-03-25/)
+* [Google Classroom の使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)
+* [Googleドキュメントの音声認識を使った素早いテキスト入力の方法（外部サイト）](https://google.tku.ac.jp/2-%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96/2-4%E5%90%84%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AE%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95/google%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%81%A7%E9%9F%B3%E5%A3%B0%E5%85%A5%E5%8A%9B%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99)
+* [PowerPoint を用いた簡単な動画の作り方（外部サイト）](https://kagakucafe.com/202004095777.html)
+* [Zoom を使った動画の作り方（外部サイト）](https://media.tebiki.jp/022)
+* [板書のオンライン化](/improvement/how_to_teach_online_handwriting)
+* [Google Drive に動画ファイルをアップロードして共有する方法](/faculty_members/how/google/share_video)
+* [Zoom クラウドに録画して共有する方法](/zoom/how/faculty_members/recording_cloud)
+* [グッドプラクティス 栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)
+* ⋮
+* [グッドプラクティス 白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)
+* [Zoom バーチャル背景](/zoom/how/common/virtual_background)
+* [Zoom 画面共有](/zoom/how/common/sharing_screen)
+* ⋮
+* [Zoom 出席レポート](/zoom/how/faculty_members/attendance)
+* [オンライン授業情報交換会 第1回 グループワークをする(1)](/events/luncheon/2020-04-22)：オンライン授業においてどのようにグループワークを進めればよいでしょうか．設定の仕方や指示の方法，グループ分けの工夫などについてあつかいます．
+* ⋮
+* [オンライン授業情報交換会 第30回 VR(仮想現実)教室で行う授業の実践例](/events/luncheon/2021-02-10)：今学期の最終回となります今回は，工学部電子情報工学科・電気電子工学科の授業「ディジタル回路」にて行われた，VR(仮想現実)教室で行う授業の実践例を，情報理工学系研究科の入江英嗣先生にご登場頂き，情報共有頂きます．先生が行われた授業の様子をお見せ頂きながら，先進的な取り組みやハイブリッド化の工夫の実際を共有頂く予定です。先生の取り組みについての記事はこちらにございます． 
+* **これだけで授業ができる！教員用，自習教材パック** [\[PowerPoint(Google Drive)\]](https://drive.google.com/file/d/1u1lpIx56wkBRUL1LliV5rh0vcGiowv7g/view) (農学生命科学研究科 田野井先生，中嶋先生)：「ECCSクラウドメール開設編」「ZOOM開設・設定編」「ZOOM利用編」「ITC-LMS利用編」「履修前の学生教員間情報共有編」「オムニバス講義編」とそれぞれのトピックに関する説明がスライド資料としてコンパクトにわかりやすくまとまっている資料です．
+* **農学部/農学生命科学研究科_講義オンライン化に向けた教員講習会・相談会**  [\[動画リスト\]](https://www.youtube.com/playlist?list=PL77zY9Ue8XbaL1lqxT0zzKLLfIjaj6a7V) (農学生命科学研究科 田野井先生，中嶋先生，笹部先生，中西先生)：農学生命科学研究科で行われた講習会・相談会の4本の動画リストです．オンライン授業のやり方 基本形の説明，「授業」として成り立つための条件など幅広いトピックを扱っています．
+* **都市工学専攻・オンライン講義マニュアル** [\[PDF\]](/faculty_members/materials/online_lecture_20200331_2.pdf)  (工学系研究科都市工学専攻) : 工学系研究科都市工学専攻でまとめられたオンライン講義マニュアルです．大学アカウントの設定からZoom を用いて講義を行うまでの一連の流れがスライド資料としてまとめられています．
+* **Zoom利用の手引き0.3** [\[PDF\]](/faculty_members/materials/zoom_v03.pdf)（工学系研究科 相田先生）: Zoomの使いかたについて，インストールから実際に授業での操作方法までMac のスクリーンショットが多用され丁寧に解説された総合的な説明文書（40ページ）です．
+* **心理職におけるオンライン教育の教え方・学び方**[\[Website\]](https://note.com/inext/n/nc852e556efcf?magazine_key=m71869b115aa0)(教育学研究科 下山先生, 北原先生) 下山研究室が発行している臨床心理マガジンiNEXTの特集として，Zoomの使いかたの解説および特に，臨床心理学分野のオンライン授業について説明されています．
+* **教育用計算機システムを使った講義からオンライン講義への移行ガイド**[\[Website\]](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/09_3206.html)(情報基盤センター情報メディア教育部門) 昨年度まで情報基盤センターの教育用計算機システムの演習室を使っておこなっていた講義をZoom等を使ったオンライン講義に切り替える場合に有用と思われる情報をまとめたものです．
+* **視覚障害のある学生のためのアクセシブルなオンライン講義**[\[Website\]](https://psylab.hc.keio.ac.jp/AOL4SVI/)[\[Website\]](https://psylab.hc.keio.ac.jp/4vi/)(医学系研究科 加藤先生) 「視覚障害学生のオンライン授業を支援する会」によって視覚障害のある学生特に新入生のための情報収集・公開を目的としたウェブサイトです．
+* **手書き板書用のホワイトボードツール**  [\[hmtl\]](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/inklecture/index-j.html) (情報理工学系研究科 五十嵐先生): タブレットＰＣやディスプレイタブレットを使用して板書でオンライン講義を行うためのツール（ソフトウェア）InkLecture（無限にスクロール可能な電子白版）が紹介されています。
+* **スマートフォンと書画カメラで手書き講義をPCで行う方法** [\[PDF\]](/faculty_members/materials/doc-cam-lecture.pdf) (工学系・古関先生): A4の紙をリアルタイムの板書がわりとして書画カメラで撮影し配信する方法が説明されています．具体的なツールの照会や実際に撮影されている動画も提供されています．
+* **PCとタブレットを使って黒板ライクに講義をする方法** [\[PDF\]](/faculty_members/materials/pc+ipad.pdf) (工学系・熊田先生, 鈴木先生): タブレット(iPad)上にホワイトボード的に板書，必要に応じてタブレット画面をスライドやPDFの資料にも切り替えて行う方法が紹介されています．
+* **タブレットあるいは電子ホワイトボードを利用した板書のオンライン化の実践例**[\[Website\]](http://noneq.c.u-tokyo.ac.jp/online_lecture.html)(工学系研究科 沙川先生) タブレットや電子ホワイトボードを使用して授業を行った場合の短所長所についてまとめられています．
+* **PC1台でできるオンライン講義** [\[Powerpoint\]](/faculty_members/materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](/faculty_members/materials/online_example_1pc.mp4) (工学系研究科 川原先生): 板書の授業をオンラインで行うための方法が動画付きで説明されています．
+* **ペンタッチ機能をもったWindowsタブレット一台（Surfaceなど）で資料に手書きをしながら配信する方法** [\[動画(YouTube)\]](https://www.youtube.com/watch?v=gj-xBZEgt-A) (情報理工学系 川原研博士課程・笹谷さん)：授業pdfを開き画面共有しながらそこに書き込んだり，OneNoteなどを共有して直接書き込む方法の紹介です．
+* **Google meetを使ったグループワーク型授業の例** [\[PDF\]](/faculty_members/materials/google_meet_groupwork.pdf)  (工学系・柳澤先生): オンラインにおいてグループワークをする方法が説明されています（Zoomのブレークアウトでは教員の声などを伝えられませんが，その点を克服している画期的な方法です）
+* **VRセンターが教えるclusterで簡単にVR会議を開く方法**[\[Website\]](https://vr.u-tokyo.ac.jp/instructionvrsns/) (バーチャルリアリティー教育研究センター 相澤先生) まじめな会議や授業用ではありませんがZoomとは違うfunも提供できるものです．clusterは無料でつかえるツールです．[学生有志主催による本年3月のVR卒業式](https://www.youtube.com/watch?v=6Yij2rj59do)でも使われました. 
+* **計算機実習のための環境整備** [\[Website\]](https://utphys-comp.github.io) (理学部物理学科): 自宅でシミュレーションなどの実習を行うために必要となる環境の準備に関する情報がまとまっています．
+* **Zoomにおける事前登録** [\[PDF\]](/faculty_members/materials/zoom_v04.pdf) （工学系・相田先生）: 参加者の管理を厳密に行いたい場合の事前登録機能についての紹介です．
+* **学会オンライン化の記録** [\[PDF\]](/faculty_members/materials/hybrid_conference_report.pdf) (総合文化研究科/生命科学ネットワーク・新冨先生):「オンライン」からでも「講演会場」からでも参加可能なニューノーマルの学会スタイル，「ハイブリッド式講演会」の実施についてのノウハウの紹介です．オンライン講演会・オンラインポスターセッション・ポスター審査といった要素を含む約700人規模の講演会を，どのような機材・システムで運営されたか，具体的に記載されています．また，ハイブリッド講演会のデモ動画も共有頂きました．[mp4ファイル](https://drive.google.com/file/d/1a6buklw0lC7kS_5d8Rn6dwSnQdNaq34D/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）     
+* **Google スプレッドシートの複数のファイルを連番で自動作成し、「共有可能なリンク」の URL のリストを自動で取得する方法** [[pdfファイル](/faculty_members//faculty_members/materials/saito_gas.pdf), [スクリプト](materials/saito_script.txt)] (総合文化・齋藤先生)
+* **オンライン講義の通信量** \[[Website](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F)\] (人文社会系・大向先生)：Zoom を用いた際の通信量を，講義時（画面共有），雑談時（カメラ映像），音声のみの講義時，参加者の発言を許可した時など場合分けして計測したデータが記載されています．
+* **Eindhoven工科大学におけるZoom講義の一例** \[[PDF](/faculty_members/materials/lecture_example_Technische_Universiteit_Eindhoven.pdf)\] (工学系研究科 大西先生)：大西先生が実際に受けられたEindhoven工科大学におけるZoom講義の感想が記載されています．講義の流れ，講師の運営体制，講義を受けた上での懸念点などが載っています．
+* [農学生命科学研究科・農学部 オンライン授業ページ](https://www.a.u-tokyo.ac.jp/online_lectures/)
+
