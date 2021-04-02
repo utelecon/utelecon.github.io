@@ -27,7 +27,7 @@
       url: "/good-practice/"
     -
       name: "オンライン授業情報交換会"
-      url: "/events/2020-luncheon/"
+      url: "/events/luncheon/"
     -
       name: "オンライン授業に関するアンケート"
       url: "/questionnaire/"
@@ -37,6 +37,9 @@
     -
       name: "目的別"
       url: "/improvement/topics"
+    -
+      name: "記事一覧"
+      url: "/improvement/articles"
 -
   name: "東京大学のシステム"
   contents:
@@ -75,7 +78,7 @@
       url: "/notice/"
     -
       name: "オンライン授業情報交換会"
-      url: "/events/2020-luncheon/"
+      url: "/events/luncheon/"
     -
       name: "説明会等"
       url: "/events/"
