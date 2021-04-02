@@ -61,6 +61,18 @@ main {
     display: block;
   }
 
+  img.large {
+    width: 100%;
+  }
+
+  img.medium {
+    width: 40rem;
+  }
+
+  img.small {
+    width: 30rem;
+  }
+
   img.inline {
     display: inline;
   }
