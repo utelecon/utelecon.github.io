@@ -31,8 +31,14 @@
     -
       name: "オンライン授業に関するアンケート"
       url: "/questionnaire/"
+    -
+      name: "ツール別"
+      url: "/improvement/tools"
+    -
+      name: "目的別"
+      url: "/improvement/topics"
 -
-  name: "授業で使うシステム"
+  name: "東京大学のシステム"
   contents:
     -
       name: "UTokyo Account"

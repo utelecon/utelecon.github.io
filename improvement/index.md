@@ -34,7 +34,7 @@ title: よりよいオンライン授業をするために
 
 - [Zoom](/zoom/)
 - [Webex](/webex/)
-- [sli.do](slido)
+- [sli.do](#)
 - ︙
 
 ### 目的別紹介
