@@ -39,3 +39,8 @@ title: Zoom サインイン方法
 ![](img/zoom_signin_2.png){:.medium}
 
 この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．
+
+## 手順動画
+<div style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5QIg6dU1cYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
