@@ -2,7 +2,6 @@
 title: Zoom
 ---
 
-{% include utnet.html %}
 {% include sso.html %}
 
 ## はじめに

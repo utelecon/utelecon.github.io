@@ -3,7 +3,6 @@ title: サポート窓口
 sinclo: true
 ---
 
-{% include utnet.html %}
 {% include sso.html %}
 
 <div class="important-box">新年度に向けてサポートの拡充を図るため，学生スタッフ「コモンサポーター」と教職員が共同で対応する新たな体制でサポートを行っています．</div>
