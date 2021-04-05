@@ -4,7 +4,8 @@ title: クラスサポーター制度のご案内
 
 お知らせ
 ---------------------------
-* <span style="color:blue;">2021/04/5:</span> 本日よりSセメスターのクラスサポーター制度の受付を開始します．本ページをよくお読みになり先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。各フォームの締め切りは以下の通りとなります.<br>
+* <span style="color:blue;">2021/04/5:</span> 本日よりSセメスターのクラスサポーター制度の受付を開始します．本ページをよくお読みになり、先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。<br>
+各フォームの締め切りは以下の通りとなります.<br>
 　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
 　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
 　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">「クラスサポーター志願フォーム」</a>：いずれも5月31日<br>
