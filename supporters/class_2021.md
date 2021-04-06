@@ -4,11 +4,18 @@ title: クラスサポーター制度のご案内
 
 お知らせ
 ---------------------------
+* <span style="color:blue;">2021/04/06:</span> <span style="color:red;">**＜登録停止中＞　ただいまシステムの不具合によりフォームの受付を停止中です。<br>クラスサポーターの利用は開始してかまいませんが、明日以降にフォームへのご記入をお願いします。なお、昨晩より現在まで、フォーム入力後に自動返信メールを受け取っていない方もデータ受信未了の可能性があります。状況および再開については、このお知らせ欄において告知します。ご迷惑をおかけしましても申し訳ございません。（ただいまフォームへのリンクはオフにしてあります）**</span><br>
 * <span style="color:blue;">2021/04/05:</span> 本日よりSセメスターのクラスサポーター制度の受付を開始します．本ページをよくお読みになり、先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。<br>
 各フォームの締め切りは以下の通りとなります.<br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
+「クラスサポーター獲得報告フォーム」<br>
+「クラスサポーター割当希望フォーム」 <br>
+「クラスサポーター志願フォーム」：いずれも5月31日<br>
+
+<!--　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
 　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
 　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">「クラスサポーター志願フォーム」</a>：いずれも5月31日<br>
+-->
+
 　（下記は申込後の返信にてお知らせします）<br>
 　謝金支払い情報フォーム：6月30日<br>
 　業務完了報告フォーム：7月31日
@@ -80,7 +87,7 @@ title: クラスサポーター制度のご案内
 
 **教員自身がサポーターを見つけられた場合**
 
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">クラスサポーター獲得報告フォーム</a>で利用申請を行います．
+1. <!--<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">クラスサポーター獲得報告フォーム</a> -->クラスサポーター獲得報告フォームで利用申請を行います．
     * 満期退学者など，本学の所属でない人はクラスサポーターに指名できません．
     * 留学生へ依頼する場合には，資格外活動許可を有していることが必須です．
     * 基本的には1授業につき1サポーターです．2人以上必要な場合には，事前にクラスサポーター担当までご連絡ください．class-support@he.u-tokyo.ac.jp    
@@ -100,7 +107,7 @@ title: クラスサポーター制度のご案内
 <br> 　業務が完了していれば，授業終了日前でも報告可能です． 
 
 **クラスサポーターをマッチングしてほしい場合**
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">クラスサポーター割当希望フォーム</a>で制度の利用申請を行います．
+1. <!-- <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">クラスサポーター割当希望フォーム</a> -->クラスサポーター割当希望フォームで制度の利用申請を行います．
 2. <span style="color:red;">マッチング成立後</span>，クラスサポーターをご案内するメールが届きます．
 3. 学生と連絡をとり，開始日・科目名・時間割コード・曜限などを互いに確認します．
 4. 双方が同意しましたら，獲得報告フォームを提出してください．
@@ -152,7 +159,7 @@ title: クラスサポーター制度のご案内
 **クラスサポーターを行ってみたい場合**
 <br>
 ※空き時間などを利用して自分が履修していない授業や， 個人的に頼まれた教員以外の授業．
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">クラスサポーター志願フォーム</a>でエントリーします．
+1. <!-- <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">クラスサポーター志願フォーム</a> --> クラスサポーター志願フォームでエントリーします．
 1. マッチング成立後，詳細をご案内するメールが届きます．
 <br>
 教員の条件に応じたマッチング（授業実施曜限など）を行うため，志望してもクラスサポーターとして割り当てられないこともある点ご了承ください．  
