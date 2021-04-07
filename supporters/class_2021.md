@@ -5,7 +5,7 @@ title: クラスサポーター制度のご案内
 お知らせ
 ---------------------------
 
-* <span style="color:blue;">2021/04/07:</span> フォームの受付を再開いたしました.
+* <span style="color:blue;">2021/04/07:</span> **フォームの受付を再開いたしました.**
 ご迷惑をおかけして申し訳ございません.
 下記のリンク先より申請が可能です.<br>
 　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
