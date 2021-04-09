@@ -5,7 +5,7 @@ toc: false
 
 * <span style="color:blue;">2021/04/09:</span> <a href="/notice/20210409-zoom-settings">オンライン授業などでのZoomの設定確認（認証・待機室・人数上限）のお願い</a>
 * <span style="color:blue;">2021/04/01:</span> <a href="/questionnaire/">2020年度Sセメスターオンライン授業に関するアンケート結果概要を公開しました．</a>
-* <span style="color:blue;">2021/04/01:</span> 2021年度が始まりました．</a>
+* <span style="color:blue;">2021/04/01:</span> 2021年度が始まりました．
 * <span style="color:blue;">2021/03/30:</span> <a href="/notice/20210403-utnet">4/3～4にかけて，機器・回線移設作業に伴うシステムの停止が発生します．</a>
 * <span style="color:blue;">2021/03/21:</span> （教員用）3/25 10:00から<a href="/events/2021-03-25">オンライン講座「オンライン授業における Zoom の使い方」</a>を開催いたします．
 * <span style="color:blue;">2021/03/15:</span> 東京大学の情報システムとそのサポート体制について新入生に向けて説明する資料<a href="/notice/getting_ready_for_online_classes_2021s.pdf">「オンライン授業を受けるために」 (PDF) </a>を作成しました．
