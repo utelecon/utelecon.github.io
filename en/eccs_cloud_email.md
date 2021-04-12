@@ -31,17 +31,17 @@ Once you create a ECCS Cloud Email account, you can change your sharing settings
 More information will be posted shortly. 
 
 - General
-    - [Information on ECCS Cloud Email](https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/06/07_2197.html)（ECCS News）
+    - [Information on ECCS Cloud Email](https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/06/07_2197.html) (ECCS News)
     - [Google Help](https://support.google.com/)
 - Gmail
-    - [Reading and Writing email using Gmail](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/gmail/)（HYPER WORKBOOK）(Japanese Only)
+    - [Reading and Writing email using Gmail](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/gmail/) (HYPER WORKBOOK; Japanese Only)
 - Google Drive
-    - [Using Google Drive](https://www.ecc.u-tokyo.ac.jp/en/announcement/2017/05/17_2530.html)（ECCS News）
+    - [Using Google Drive](https://www.ecc.u-tokyo.ac.jp/en/announcement/2017/05/17_2530.html) (ECCS News)
     - [Uploading recorded video file to Google Drive](/faculty_members/how/google/share_video) (Japanese only)
-    - [Use of Team Drives（Supplementary Service for ECCS Cloud Email）](https://www.ecc.u-tokyo.ac.jp/en/announcement/2018/07/11_2822.html)（ECCS News）
+    - [Use of Team Drives (Supplementary Service for ECCS Cloud Email)](https://www.ecc.u-tokyo.ac.jp/en/announcement/2018/07/11_2822.html) (ECCS News)
 - Google Meet
     - [Google Meet](/meet/) (Japanese only)
 - Google Group
-    - [How to Use the Google Group](https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/10/31_2362.html)（ECCS News）
+    - [How to Use the Google Group](https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/10/31_2362.html) (ECCS News)
 - Google Calendar
-    - [Using Google Calendar](https://www.ecc.u-tokyo.ac.jp/en/announcement/2017/05/17_2526.html)（ECCS News）
+    - [Using Google Calendar](https://www.ecc.u-tokyo.ac.jp/en/announcement/2017/05/17_2526.html) (ECCS News)

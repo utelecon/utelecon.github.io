@@ -19,4 +19,4 @@ Students are required to register their own email address in UTAS. This email ad
 
 ## Manual
 
-To download the UTAS manual, click “Other” in the top menu and then "Download Center".
+To download the UTAS manual, click "Other" in the top menu and then "Download Center".
