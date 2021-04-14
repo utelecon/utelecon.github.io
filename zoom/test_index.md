@@ -68,9 +68,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
     - [[チャット] チャットを使う](how/common/chat)
     - [[投票] 学生に多肢選択の質問を行う](how/faculty_members/poll)
     - [[ブレークアウト] グループワークを行う](how/faculty_members/breakout)
-    - [[レコーディング] クラウドに録画する](how/faculty_members/recording_cloud)
 - 授業後
-    - [[レコーディング] クラウドに録画して共有する](how/faculty_members/recording_cloud)
     - [[レポート] 出席管理を行う](how/faculty_members/attendance)
 
 
