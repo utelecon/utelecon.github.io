@@ -52,7 +52,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 - **UTAS**：{{ about_utas }}
 - **ITC-LMS**：{{ about_itc_lms }}
 - **Zoom**, **Webex**：「同時双方向型」のオンライン授業で使うWeb会議システムです．基本的にはZoomを使いますが，授業によってはWebexを使うこともあります．
-- **ECCSクラウドメール (G Suite)**：{{ about_google }}
+- **ECCSクラウドメール (Google Workspace (旧 G Suite))**：{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
 - **UTokyo WiFi**：{{ about_utokyo_wifi }}
 - **ECCS端末**：{{ about_eccs }}
@@ -145,7 +145,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 
 {% include procedures/webex.html %}
 
-### ECCSクラウドメール (G Suite)
+### ECCSクラウドメール (Google Workspace (旧 G Suite)))
 {:#google}
 
 {{ about_google }}
