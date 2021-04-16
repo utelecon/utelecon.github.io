@@ -1,60 +1,9 @@
 ---
-title: Online Class/ Web Conference Portal Site<br>@ the University of Tokyo
+title: Online Class / Web Conference Portal Site @ the University of Tokyo
 layout: en
 ---
 
-<header class="header">
-  <div class="header__hamburger-button">
-    <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
-    <span class="hiraku-open-btn-line"></span>
-    </button>
-    <div style="line-height: 10px;font-size: 12px;color: white;">Menu</div>
-  </div>
-  <h1 class="top-h1">
-    <a class="header__title" href="/{% if page.lang == "en" %}en/{% endif %}">
-      <span class="header__title__main">utelecon</span>
-      <span class="header__title__sub">Online Class/ Web Conference Portal Site @ the University of Tokyo</span>
-    </a>
-  </h1>
-  <div class="header__hamburger-contents">
-    <div class="header__links">
-      <div class="gcse-search"></div>
-      <div>
-          <a href="/{% if page.lang == "en" %}en/{% endif %}">TOP</a> | <a href="/{{page.url}}">English</a>
-      </div>
-    </div>
-    <nav class="header__nav">
-      <ul>
-        {% for item in site.data.nav %}
-          <li>
-            <div class="header_nav_text">{{ item.name }}</div>
-            <ul>
-              {% for second in item.contents %}
-                <li><a href="{{ second.url }}"{%
-                  assign url_slice = second.url | slice: 0, 4
-                %}{%
-                  if url_slice == "http"
-                %} target="_blank" rel="noopener"{%
-                  endif
-                %}>{{ second.name }}</a></li>
-              {% endfor %}
-            </ul>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </div>
-  <script>
-    $(".header__hamburger-contents").hiraku({
-      btn:"#offcanvas-btn-left",
-      direction:"left"
-    });
-  </script>
-</header>
-
 <main id="content">
-
-{% include sso.html %}
 
   <h2>Getting Ready for Online Classes</h2>
   <div class="top__cards">
@@ -92,5 +41,3 @@ layout: en
     </ul>
   </div>
 </main>
-
-{% include layouts/footer.html %}
