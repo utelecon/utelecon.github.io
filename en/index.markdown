@@ -1,78 +1,43 @@
 ---
-title: Online Class/ Web Conference Portal Site<br>@ the University of Tokyo
+title: Online Class / Web Conference Portal Site @ the University of Tokyo
 layout: en
 ---
 
-About this Site
----------------------------
+<main id="content">
 
-* This site aims to provide information on online classes and Web conferences for students and faculty at the University of Tokyo.  
-* Please understand that the situation is changing every day and that this Portal has being created in a hurry, so you will find places still under construction or with content being frequently updated.
-* This site has been set up by the Information Technology Center of the University of Tokyo and the University Education and Research Center, and welcomes further collaborators.
+  <h2>Getting Ready for Online Classes</h2>
+  <div class="top__cards">
+    <a href="/oc/">For Students</a>
+    <a href="/faculty_members/">For Staff</a>
+    <a href="/improvement/">Improving Online Classes</a>
+    <a href="/supports/">Support Desk</a>
+    <a href="/change2021s/">System Change for Spring 2021</a>
+  </div>
 
-What's New (<span style="color:blue;">blue letters</span> highlight the date of publication. Recent entries come above)
----------------------------
-* <span style="color:blue;">2021/1/26:</span> <a href="https://utelecon.adm.u-tokyo.ac.jp/notice/20210126-domain-change">The domain name of this site has been changed to https://utelecon.adm.u-tokyo.ac.jp/.</a> Existing links (i.e. https://utelecon.github.io/en/ ) and bookmarks will continue to work via the old URL. 
-* <span style="color:blue;">2020/4/2:</span> <a href="zoom/setting_issues">Zoom FAQs on setting issues</a>
-* <span style="color:blue;">2020/4/1:</span> <font color="red">The following emergency system maintenance of ITC-LMS has been completed. Thank you for your cooperation. (11:44 am)</font>
-* <span style="color:blue;">2020/4/1:</span> prepare for online class in 2020, ITC-LMS emergency system maintenance will be held today from 9:00 to 11:00 (planned). During this time, the ITC-LMS service will be suspended. We apologize for any inconvenience, but thank you for your understanding and cooperation.
- * <span style="color:blue;">2020/3/31:</span> Today, March 31 is a student transfer date, so UTAS is not available for new students (from the first semester to the second semester).
- * <span style="color:blue;">2020/3/30:</span> <a href="https://tinyurl.com/vjfuxs3" target="_blank">Application form</a> to create a link to the department's web page.
- * <span style="color:blue;">2020/3/29:</span> Please answer the <a href="questionnaire/">student questionnaire</a> (The same is posted on UTAS. Those who have already answered do not need to answer it again).
- * <span style="color:blue;">2020/3/28:</span> On 3/27 an [online basic lecture "How to make an on-demand online class using videos and texts" and "Online class consultation specialized in language learning"」](events/2020-03-27/) will be held. In addition, a video (provisional version) has been released for limited use.
- * <span style="color:blue;">2020/3/24:</span> 3/19の<a href="https://utelecon.github.io/events/2020-03-19/" target="_blank">Zoom Basic Course video (provisional version)</a>has been released.
- * <span style="color:blue;">2020/3/24:</span> Briefing on 3/26 : [ How to notify students of online classes](events/2020-03-26/).
- * <span style="color:blue;">2020/3/24:</span> On 3/13, <a href="https://utelecon.github.io/events/2020-03-13/" target="_blank">briefing video</a>has been released.
- * <span style="color:blue;">2020/3/21:</span> Message from <a href="http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf" target="_blank">Kunio Ota, Dean of the College of Liberal Arts </a> to freshmen and their families( Announced on March 19).
- * <span style="color:blue;">2020/3/21:</span> <a href="https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html" target="_blank">Message from the President</a> (announced on March 18)
- * <span style="color:blue;">2020/3/21:</span> An [online basic course Zoom usage report](events/2020-03-19/report)has been released.  
- * <span style="color:blue;">2020/3/19:</span> Conducted [Online course How to use Zoom](events/2020-03-19/)
- * <span style="color:blue;">2020/3/19:</span> [Forum and Q&A](forums/) open.
- * <span style="color:blue;">2020/3/17:</span> <a href="zoom/">Zoom Pro (up to 500 connections) </a> is now available for all faculty members.
- * <span style="color:blue;">2020/3/16:</span> Updated <a href="events/2020-03-13/online_lecture.pdf">slides</a> on "Video conferencing tools and manage briefings online".
- * <span style="color:blue;">2020/3/11:</span> On March 13, 2020, we will hold a [ a video conferencing tool and usage briefing session](events/2020-03-13).
- * <span style="color:blue;">2020/3/11:</span> Website is open
+  <h2>Pickup</h2>
+  <div class="top__cards">
+    <a href="/events/2021-03-17">2021/03/17 Orientations: For Online Classes in 2021 (Japanese Only)</a>
+    <a href="/events/2021-03-25">2021/03/25 Seminars: How to use Zoom in online classes (Japanese Only)
+</a>
+  </div>
 
-Available Web conferencing system
----------------------------
+  <h2>Notice</h2>
+  <ul>
+    <li><span style="color:blue;">2021/1/26:</span> <a href="https://utelecon.adm.u-tokyo.ac.jp/notice/20210126-domain-change">The domain name of this site has been changed to https://utelecon.adm.u-tokyo.ac.jp/.</a> Existing links (i.e. https://utelecon.github.io/en/ ) and bookmarks will continue to work via the old URL.</li>
+  </ul>
 
-The following system is available to all members (students and faculty).
-
-* <a href="zoom/">Zoom</a>
-* <a href="google_hangouts_meet/">Google Hangouts Meet</a>
-* <a href="webex/">WebEx</a>
-* <a href="compare">Comparison of 3 tools</a>
-
-Towards online classes
----------------------------
-
-* [Preparing for online classes for new and currently enrolled students](oc)
-* [In conducting online classes for teachers](faculty_members)
-* [FAQ: Frequently Asked Questions](faq)
-
-
-Events
----------------------------
-
-* 2020/03/27 [Online basic course "How to make on-demand online lessons using videos and texts" and "Online lesson counseling specialized in language learning"](events/2020-03-27/)  
-* 2020/03/26 [Briefing: How to notify students of online classes](events/2020-03-26/)  
-* 2020/03/19 [Online Course How to use Zoom](events/2020-03-19/)  
-* 2020/03/13 [Video conferencing tools and briefings online](events/2020-03-13/)
-
-
-News / Contact Channel
----------------------------
-
-* <a href="https://tinyurl.com/vjfuxs3" target="_blank">Application Form</a> to create a link to the department's web page
-* Please answer the <a href="questionnaire/">"Student Questionnaire"</a> (The same is posted on UTAS. Those who have already answered it do not need to do it again)
-* [Q&A forums and mailing lists](forums/)
-* <a href="https://forms.gle/hsyvqzsYpCCvEQRo9" target="_blank">Requests and comments on the portal site</a>  
-* <a href="https://forms.gle/RYv5oFBn8cvYrgBF7" target="_blank">Request for briefings and workshops</a>
-
-
-Links (added as needed)
----------------------------
-
-* School of Science: <a href="http://jimubu.adm.s.u-tokyo.ac.jp/public/index.php/Collaboration_tool" target="_blank">「Collaboration tool」</a>
-* Department of Arts and Sciences, Graduate School of Arts and Sciences: <a href="https://www.c.u-tokyo.ac.jp/eng_site/info/covid_19/" target="_blank">About online classes</a>, <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/no3-zenki/%E3%83%9B%E3%83%BC%E3%83%A0" target="_blank">FAQ for students in the junior division (Japanese version only)</a>  
-* University of Tokyo Library System: <a href="https://www.lib.u-tokyo.ac.jp/en/library/contents/studyathome" target="_blank">Guide for Online Study & Remote Work</a>
+  <h2>ICT Systems</h2>
+  <div class="top__systems">
+    <ul>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/account.html" target="_blank" rel="noopener">UTokyo Account</a></li>
+      <li><a href="/utas">UTAS</a></li>
+      <li><a href="/itc_lms">ITC-LMS</a></li>
+      <li><a href="/zoom/">Zoom</a></li>
+      <li><a href="/webex/">Webex</a></li>
+      <li><a href="/eccs_cloud_email">ECCS Cloud Email<small> (Google Workspace)</small></a></li>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank" rel="noopener">UTokyo Microsoft License<small> (Microsoft 365)</small></a></li>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo WiFi</a></li>
+      <li><a href="https://www.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ECCS Terminals</a></li>
+    </ul>
+  </div>
+</main>

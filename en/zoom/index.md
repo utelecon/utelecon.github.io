@@ -14,7 +14,8 @@ layout: en
 
 ## Introduction
 
-* You can use an unlimited time conference room with a maximum of 500 participants until April 30th, 2020 (extension under consideration) by **University's Google mail (10 digits of common ID number @ g.ecc.u-tokyo.ac.jp, hereinafter referred to as ECCS cloud mail)**   
+* You can use an unlimited time conference room with a maximum of 500 participants until April 30th, 2020 (extension under consideration) by University's Google mail (10 digits of common ID number @ g.ecc.u-tokyo.ac.jp, hereinafter referred to as ECCS cloud mail)
+* **The sign-in methods for zoom have changed. Please refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin.html)**
 * This section describes the features and usage flow of the Web conferencing tool in Zoom. In addition, there are sub-pages with specific instructions, so please refer to them as necessary.
 * This page basically describes the use of Zoom on a PC, but you can also use the Zoom application on tablets and smartphones..
 
