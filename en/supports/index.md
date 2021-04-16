@@ -29,8 +29,7 @@ sinclo: true
 
 Response time (automatic response): 24 hours<br>
 Response time (operator response): <br>
-Mon - Fri: 8:25 a.m. - 6:40 p.m. <br>
-Sat, Sun, Holidays: 10:20 a.m. - 4:45 p.m. 
+Mon - Fri: 8:25 a.m. - 6:40 p.m. 
 </div>
 <div class="support-channel-link">
 From the widget<br>"Chat Support Available (チャットサポートで質問できます)" at the bottom right of the screen.
@@ -43,8 +42,7 @@ From the widget<br>"Chat Support Available (チャットサポートで質問で
 <p>In the Zoom conference room, student staff (common supporters) will act as operators to answer questions and offer consultation. You can speak, exchange texts, and share screens with the operators. When you access the conference room, you will first be taken to a waiting room. Please wait to be let in.</p> 
 
 Available hours: <br>
-Mon - Fri: 8:25 a.m. - 6:40 p.m. <br>
-Sat, Sun, Holidays: 10:20 a.m. - 4:45 p.m. 
+Mon - Fri: 8:25 a.m. - 6:40 p.m. 
 
 </div>
 <div class="support-channel-link">
@@ -90,7 +88,7 @@ Affiliation: (Department/Faculty/Course taken/Any other else)
 Position or Grade: ”Faculty Staff”/ “Student (B1, B2, etc.)”
 UTokyo Account(10 digits): 
 ECCS Cloud Email Address: ***********(characters/numbers of your choice) @g.ecc.u-tokyo.ac.jp
-Can you sign in Zoom with (UTokyo Account(10 digits))@g.ecc.u-tokyo.ac.jp? "Yes"/ "No"
+Can you sign in Zoom with (UTokyo Account(10 digits))@utac.u-tokyo.ac.jp? "Yes"/ "No"
 If "Yes", please tell us your user type and capacity:
 Details of inquiry:
 </code></pre></div></div>
