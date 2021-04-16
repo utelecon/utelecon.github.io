@@ -17,7 +17,7 @@ Therefore, here we will introduce how to set additional functions and recommende
   ![](img/zoom_host_setting.png)  
   
 1. Turn on the required settings. Recommended settings are as follows.
-  * （ON when necessary）**Only authenticated users can join the meeting**: If you turn this on and select "Sign in with University Account", access will be restricted to those with an ECCS cloud email (xxxx@g.ecc.u-tokyo.ac. jp) 
+  * （ON when necessary）**Only authenticated users can join the meeting**: If you turn this on and select "Sign in with University Account", access will be restricted to those with an ECCS cloud email (xxxx@utac.u-tokyo.ac. jp) 
   * （ON recommended）**Chat auto save**: When turned on, the chat will be saved automatically（otherwise, the chat text will not be kept unless you save it manually）. See also <a href="https://support.zoom.us/hc/ja/articles/115004792763-%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E5%86%85%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B" target="_blank">Zoom Help Center "Save in-meeting chat"</a> for details.
   * （ON recommended）**Polls**:  The organizer can ask questions to the participants (more on this later).
   * （ON recommended）**Breakout room**: Divides participants into subgroups to encourage discussion and work (more on this later).
