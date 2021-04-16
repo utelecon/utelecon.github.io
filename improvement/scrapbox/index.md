@@ -34,6 +34,8 @@ title: Scrapboxで授業資料を作成する方法
 <figcaption>太字・箇条書き・画像挿入などを行うことが出来ます。</figcaption>
 </figure>
 
+#### 仕様
+
 - 提供元：Nota株式会社
 - 使用可能な環境
     - 端末・OS：
