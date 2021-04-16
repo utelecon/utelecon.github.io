@@ -34,74 +34,22 @@ title: Scrapboxで授業資料を作成する方法
 <figcaption>太字・箇条書き・画像挿入などを行うことが出来ます。</figcaption>
 </figure>
 
-<table>
-  <tr>
-   <td>提供元
-   </td>
-   <td>Nota株式会社
-   </td>
-  </tr>
-  <tr>
-   <td colspan="2" >使用可能な環境
-   </td>
-  </tr>
-  <tr>
-   <td>端末・OS
-   </td>
-   <td>Windows(Chrome,Firefox)
-<br>
-Mac(Chrome,Firefox,Safari)
-<br>
-iOS(Safari)
-<br>
-Android(Chrome)
-<br>
-指定以外のブラウザでは動作しない可能性あり
-   </td>
-  </tr>
-  <tr>
-   <td>インストールに必要なドライブ容量
-   </td>
-   <td>0バイト
-<br>
-（ブラウザ上で動作する）
-   </td>
-  </tr>
-  <tr>
-   <td>使用するメモリ
-   </td>
-   <td>懸念の必要無し。
-   </td>
-  </tr>
-  <tr>
-   <td>オプションのアクセサリ
-   </td>
-   <td>タブレットでのタッチペン（ドローイング時の利用）
-   </td>
-  </tr>
-  <tr>
-   <td colspan="2" >運用コスト
-   </td>
-  </tr>
-  <tr>
-   <td>費用
-   </td>
-   <td>無料（教育利用に限る）
-   </td>
-  </tr>
-  <tr>
-   <td>通信量の例
-   </td>
-   <td>省略
-   </td>
-  </tr>
-  <tr>
-   <td>授業を受ける学生側が準備すること
-   </td>
-   <td>インターネット環境が整っていれば、指定URLへのアクセスのみ。
-   </td>
-  </tr>
-</table>
+- 提供元：Nota株式会社
+- 使用可能な環境
+    - 端末・OS：
+        - Windows(Chrome,Firefox)
+        - Mac(Chrome,Firefox,Safari)
+        - iOS(Safari)
+        - Android(Chrome)
+        - 指定以外のブラウザでは動作しない可能性あり
+    - インストールに必要なドライブ容量：
+        - 0バイト（ブラウザ上で動作する）
+    - 使用するメモリ：懸念の必要無し。
+    - オプションのアクセサリ：タブレットでのタッチペン（ドローイング時の利用）
+- 運用コスト
+    - 費用：無料（教育利用に限る）
+    - 通信量の例：省略
+    - 授業を受ける学生側が準備すること：インターネット環境が整っていれば、指定URLへのアクセスのみ。
 
 ### インストール方法や起動方法
 
