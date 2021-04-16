@@ -1,3 +1,4 @@
+{% include layouts/lang.html %}
 {% capture content %}
 {% include layouts/header.html %}
 
@@ -8,7 +9,7 @@
 
   {% if page.toc != false %}
     <section class="main__toc">
-      <h2>目次</h2>
+      <h2>{% if lang == "en" %}Table of Contents{% else %}目次{% endif %}</h2>
 {% include toc.html html=content %}
     </section>
   {% endif %}
