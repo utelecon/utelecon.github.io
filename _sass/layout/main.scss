@@ -65,6 +65,11 @@ main {
     display: inline;
   }
 
+  img.logo {
+    display: inline;
+    max-height: 2em;
+  }
+
   figure {
     margin-left: 0;
     margin-right: 0;
