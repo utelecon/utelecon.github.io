@@ -1,6 +1,6 @@
 ---
 title: How to Join Events
-layout: en
+lang: en
 ---
 
 ## Attending Events

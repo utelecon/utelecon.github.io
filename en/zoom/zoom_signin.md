@@ -1,6 +1,6 @@
 ---
 title: Sign-in Methods for Zoom
-layout: en
+lang: en
 toc: false
 ---
 

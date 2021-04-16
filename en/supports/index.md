@@ -1,6 +1,6 @@
 ---
 title: Technical Support Desk
-layout: en
+lang: en
 sinclo: true
 ---
 

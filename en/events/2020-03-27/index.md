@@ -1,6 +1,6 @@
 ---
 title: 2020/03/27 Online Course "How to Prepare (Asynchronous) On-Demand Online Classes Using Videos and Texts" and "Online Class Consultation Meetings Specializing in Language Learning"
-layout: en
+lang: en
 ---
 
 ## "How to Prepare (Asynchronous) On-Demand Online Classes Using Videos and Texts"

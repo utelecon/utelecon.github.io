@@ -1,6 +1,6 @@
 ---
 title: Online Class / Web Conference Portal Site @ the University of Tokyo
-layout: en
+lang: en
 ---
 
 <main id="content">

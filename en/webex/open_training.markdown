@@ -1,6 +1,6 @@
 ---
 title: How to start Webex Training
-layout: en
+lang: en
 ---
 
 ## Start Webex Training

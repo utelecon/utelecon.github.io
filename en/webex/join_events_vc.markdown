@@ -1,6 +1,6 @@
 ---
 title: How to join Webex Events （TV Conference Systems）
-layout: en
+lang: en
 ---
 
 ## Join a meeting with a video conferencing system

@@ -1,6 +1,6 @@
 ---
 title: How to Create a New UTokyo Webex Account and Log in to it
-layout: en
+lang: en
 ---
 This page explains how to create a Webex account that can use meetings with end-to-end encryption. (Accounts of this type are being offered since April 2020.) (Account requests will be processed automatically from September 2020.)
 

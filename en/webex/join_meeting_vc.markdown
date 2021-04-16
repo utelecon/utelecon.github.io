@@ -1,6 +1,6 @@
 ---
 title: How to join Webex Meetings （TV conference systems）
-layout: en
+lang: en
 ---
 
 ## How to Participate in the TV Conference Systems

@@ -1,6 +1,6 @@
 ---
 title: How to install Zoom
-layout: en
+lang: en
 ---
 
 This section describes how to install Zoom.  

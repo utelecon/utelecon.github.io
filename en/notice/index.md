@@ -1,6 +1,6 @@
 ---
 title: Notice
-layout: en
+lang: en
 toc: false
 ---
 

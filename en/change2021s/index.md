@@ -1,6 +1,6 @@
 ---
 title: System Change for Spring 2021 
-layout: en
+lang: en
 ---
 
 <div class="important-box">UTokyo Account login service will begin on March 15 for Zoom and March 13 for Webex. Previous login methods will no longer be available.</div>

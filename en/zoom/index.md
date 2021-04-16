@@ -1,6 +1,6 @@
 ---
 title: Zoom
-layout: en
+lang: en
 ---
 
 
