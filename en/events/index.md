@@ -1,5 +1,6 @@
 ---
 title: Orientations / Seminars
+layout: en
 toc: false
 ---
 
