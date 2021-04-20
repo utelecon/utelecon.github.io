@@ -33,12 +33,24 @@ main {
   }
 
   .title {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid $white-gray-dark;
     font-size: 2rem;
     font-weight: bold;
     color: black;
+  }
+
+  .diplay-date{
+    color: black;
+    text-align: right;
+    margin:0rem;
+  }
+
+  .author{
+    color: black;
+    text-align: right;
+    margin:0rem;
   }
 
   @import "components/headings";
