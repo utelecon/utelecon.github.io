@@ -1,6 +1,6 @@
 ---
 title: Details on Zoom System Change for Spring 2021
-layout: en
+lang: en
 ---
 
 To facilitate online teaching and simplify technical operation, UTokyo ICT systems changes are in progress. This page is about the changes in the use of Zoom. For information about other ICT systems, see “**[System Change for Spring 2021](/en/change2021s/)**”.

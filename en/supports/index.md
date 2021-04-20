@@ -1,6 +1,6 @@
 ---
 title: Technical Support Desk
-layout: en
+lang: en
 sinclo: true
 ---
 
@@ -21,46 +21,44 @@ sinclo: true
 * Please note that it may take some time to receive responses from the operators through chats and Zoom, depending on how busy they are. Under such circumstances, please contact us with the email form or try again later.
 * If you leave the chat page, you may not be able to receive messages from the operator. Please do not close the chat page during the exchange.
 
-<div class="support-channel-main">
 
-<h2 id="chat">Chat Support</h2>
+## Chat Support
+{:#chat}
 
-<p>You can ask questions and consult with chatbot (an automatic response robot) or human operators. First, the chatbot will try to solve the problem. When it fails, a student operator (also called a “common supporter”) will take over and answer you.</p> 
+You can ask questions and consult with chatbot (an automatic response robot) or human operators. First, the chatbot will try to solve the problem. When it fails, a student operator (also called a “common supporter”) will take over and answer you.
 
 Response time (automatic response): 24 hours<br>
 Response time (operator response): <br>
 Mon - Fri: 8:25 a.m. - 6:40 p.m. 
-</div>
-<div class="support-channel-link">
+
+<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 From the widget<br>"Chat Support Available (チャットサポートで質問できます)" at the bottom right of the screen.
 </div>
 
-<div class="support-channel-main">
 
-<h2 id="zoom">Consult via Zoom</h2>
+## Consult via Zoom
+{:#zoom}
 
-<p>In the Zoom conference room, student staff (common supporters) will act as operators to answer questions and offer consultation. You can speak, exchange texts, and share screens with the operators. When you access the conference room, you will first be taken to a waiting room. Please wait to be let in.</p> 
+In the Zoom conference room, student staff (common supporters) will act as operators to answer questions and offer consultation. You can speak, exchange texts, and share screens with the operators. When you access the conference room, you will first be taken to a waiting room. Please wait to be let in.
 
 Available hours: <br>
 Mon - Fri: 8:25 a.m. - 6:40 p.m. 
 
-</div>
-<div class="support-channel-link">
+<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">Meeting Room Information (Check the "Meeting room information of Zoom support" on the page)</a>
 </div>
 
-<div class="support-channel-main">
 
-<h2 id="email-form">Consulting via Email Form</h2>
+## Consulting via Email Form
+{:#email-form}
 
-<p>Student operators (also called “common supporters”) will reply to the received email inquiries. When it is difficult for student staff to resolve the issue, a faculty member will take over the consultation.</p>
+Student operators (also called “common supporters”) will reply to the received email inquiries. When it is difficult for student staff to resolve the issue, a faculty member will take over the consultation.
 
-<p>For questions which include information that is inappropriate to students, such as grades or personal information, faculty members will respond directly. If you want a faculty member to respond to you, please check the "I would like to receive support from faculty members" box on the email form.</p> 
+For questions which include information that is inappropriate to students, such as grades or personal information, faculty members will respond directly. If you want a faculty member to respond to you, please check the "I would like to receive support from faculty members" box on the email form.
 
 Opening hours: 24 hours
 
-</div>
-<div class="support-channel-link">
+<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 <a href="https://forms.gle/UmtsPRfGvW1nsXDS7">Mail form</a>
 </div>
 

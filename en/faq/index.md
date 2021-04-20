@@ -1,6 +1,6 @@
 ---
 title: FAQ
-layout: en
+lang: en
 ---
 
 <!-- Place this tag where you want the Awesome Table Widget to render 

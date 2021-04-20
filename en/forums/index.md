@@ -1,6 +1,6 @@
 ---
 title: QA Forum and Mailing List for Announcements
-layout: en
+lang: en
 ---
 
 Introduction
