@@ -8,7 +8,7 @@
       name: "オンライン授業を始めるために<small>（教員向け）</small>"
       url: "/faculty_members/"
     -
-      name: "よりよいオンライン授業をするために"
+      name: "オンラインを活用するために"
       url: "/improvement/"
     -
       name: "サポート窓口"
@@ -17,20 +17,20 @@
       name: "2021年春のシステム変更"
       url: "/change2021s/"
 -
-  name: "よりよい授業のために"
+  name: "オンラインを活用する"
   contents:
     -
-      name: "よりよいオンライン授業をするために"
+      name: "オンラインを活用するために"
       url: "/improvement/"
     -
-      name: "グッドプラクティス"
-      url: "/good-practice/"
+      name: "リアルタイム型の授業をしたい"
+      url: "/improvement/realtime/"
     -
-      name: "オンライン授業情報交換会"
-      url: "/events/luncheon/"
+      name: "ハイブリッド型の授業をしたい"
+      url: "/improvement/hybrid/"
     -
-      name: "オンライン授業に関するアンケート"
-      url: "/questionnaire/"
+      name: "オンデマンド型の授業をしたい"
+      url: "/improvement/on-demand/"
     -
       name: "ツール別"
       url: "/improvement/tools"
