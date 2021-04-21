@@ -67,9 +67,9 @@ Please apply using the form below. If possible, You soould use [ECCS cloud mail]
 
 **第８弾　6/3(木)〆切、7(月)発送 / 6/3(Thu) Close, 6/7(Mon) Send**
 
-オンライン授業受講に支障がある場合については、第３弾以降も継続的に受け付けます。 
-【毎週木曜日まで】の申込分について、原則【翌週月曜日】に発送することにしています。 
+オンライン授業受講に支障がある場合については継続的に受け付けます。 
+【隔週木曜日まで】の申込分について、原則【翌週月曜日】に発送することにしています。 
 作業の都合上発送が遅れる場合があります。 
 
 We continuously accept the application for taking online classes.  
-Every Thursday, we will process applications received so far and send the routers to accepted applications.   Anticipate delays due to our workloads. 
+Each Thursday, we will process applications received so far and send the routers to accepted applications at next monday.   Anticipate delays due to our workloads. 
