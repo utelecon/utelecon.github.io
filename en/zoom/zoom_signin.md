@@ -6,7 +6,7 @@ toc: false
 
 
 To sign into Zoom, an [UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html) is required.
-<strong style="color: red;"> The following sign-in method is not available for users using emails other than the 10 digits-ID email addresses “1234567890@g.ecc.u-tokyo.ac.jp” (e.g.  ECCS Cloud Email named after your choice “xxxx@g.ecc.u-tokyo.ac.jp”). Please read the instructions in [Use of Zoom accounts with non-10 digits-ID email addresses. (10桁の共通IDではないZoomアカウントの利用について)](/notice/zoom-address-new) </strong>
+<strong style="color: red;"> The following sign-in method is not available for users using emails other than the 10 digits-ID email addresses “1234567890@g.ecc.u-tokyo.ac.jp” (e.g.  ECCS Cloud Email named after your choice “xxxx@g.ecc.u-tokyo.ac.jp”). Please read the instructions in [Signing in to Zoom with a non-UTokyo ID. (10桁の共通IDではないZoomアカウントの利用について)](/en/notice/zoom-address-new) </strong>
 <ul>
 <li><strong>Sign in from the UTokyo Account Zoom Webpage</strong> (The Simpler Method)
 <ol>
