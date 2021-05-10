@@ -17,14 +17,14 @@
       name: "2021年春のシステム変更"
       url: "/change2021s/"
 -
-  name: "オンラインを活用する"
+  name: "オンラインの活用"
   contents:
     -
       name: "オンラインを活用するために"
       url: "/improvement/"
     -
       name: "授業形態について知りたい"
-      url: "/improvement#type"
+      url: "/improvement/#type"
     -
       name: "使えるツールを知りたい"
       url: "/improvement/tools"
@@ -33,13 +33,13 @@
       url: "/improvement/topics"
     -
       name: "東大の実践を知りたい"
-      url: "/improvement#utokyo"
+      url: "/improvement/#utokyo"
     -
       name: "著作権について知りたい"
-      url: "/improvement/copyright"
+      url: "/articles/copyright/"
     -
       name: "過去の記事を一覧したい"
-      url: "/improvement/articles"
+      url: "/articles/"
 -
   name: "東京大学のシステム"
   contents:
