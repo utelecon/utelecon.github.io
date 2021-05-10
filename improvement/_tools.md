@@ -12,5 +12,10 @@
 以下の記事は，具体的なサービスの活用方法を説明しています．
 
 - [Googleフォームで小テストやアンケートを実施する](/articles/google-form)
+    - こんな記事です．
 
 {{ include.heading | default: "##" }} Slack
+「Slack」は，ぶらぶらぶら．
+
+- [Slackで学生とコミュニケーションを取る方法](/articles/slack-communication)
+    - こんな記事です．

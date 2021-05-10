@@ -1,6 +1,7 @@
 ---
 title: よりよいオンライン授業をするために ツール別紹介
-toc: false
 ---
+
+## はじめに
 
 {% include_relative _tools.md %}

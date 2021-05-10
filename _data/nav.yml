@@ -30,7 +30,7 @@
       url: "/improvement/tools"
     -
       name: "目的に応じた方法を知りたい"
-      url: "/improvement#topics"
+      url: "/improvement/topics"
     -
       name: "東大の実践を知りたい"
       url: "/improvement#utokyo"

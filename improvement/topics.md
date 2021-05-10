@@ -1,6 +1,7 @@
 ---
 title: よりよいオンライン授業をするために 目的別紹介
-toc: false
 ---
+
+## はじめに
 
 {% include_relative _topics.md %}
