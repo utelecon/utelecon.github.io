@@ -5,8 +5,13 @@
   {% if page.title %}
     <h1 class="title">{{ page.title }}</h1>
   {% endif %}
-  {% if page.diplay-date %}
-    <p class="diplay-date">{{ page.diplay-date }}</p>
+  {% if page.lastmod %}
+    {% assign lastmod = page.lastmod %}
+    <p class="diplay-date">{{ lastmod }}</p>
+  {% else %}
+    {% assign lastmod = page.date %}
+    <p class="diplay-date">{{ lastmod }}</p>
+  {% endif %}
   {% endif %}
   {% if page.author %}
     <p class="author">{{ page.author }}</p>
