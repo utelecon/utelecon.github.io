@@ -23,22 +23,22 @@
       name: "オンラインを活用するために"
       url: "/improvement/"
     -
-      name: "リアルタイム型の授業をしたい"
-      url: "/improvement/realtime/"
+      name: "授業形態について知りたい"
+      url: "/improvement#type"
     -
-      name: "ハイブリッド型の授業をしたい"
-      url: "/improvement/hybrid/"
-    -
-      name: "オンデマンド型の授業をしたい"
-      url: "/improvement/on-demand/"
-    -
-      name: "ツール別"
+      name: "使えるツールを知りたい"
       url: "/improvement/tools"
     -
-      name: "目的別"
-      url: "/improvement/topics"
+      name: "目的に応じた方法を知りたい"
+      url: "/improvement#topics"
     -
-      name: "記事一覧"
+      name: "東大の実践を知りたい"
+      url: "/improvement#utokyo"
+    -
+      name: "著作権について知りたい"
+      url: "/improvement/copyright"
+    -
+      name: "過去の記事を一覧したい"
       url: "/improvement/articles"
 -
   name: "東京大学のシステム"
