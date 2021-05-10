@@ -25,4 +25,8 @@ title: UTokyo Account認証サービスの利用不能時間について
 
 移設工事に関する詳細および当日の状況については、情報基盤センターウェブサイトの[ネットワーク移設に関する通知](https://www.itc.u-tokyo.ac.jp/network/2021/03/08/post-390/)を参照ください。 
 
-UTokyo Account 認証を利用しているサービスにおいては利用者への周知をお願いします。  
+UTokyo Account 認証を利用しているサービスにおいては利用者への周知をお願いします。
+
+<div class="important-box">
+影響を受けるサービスの一覧は，<a href="/notice/20210403-utnet">別のお知らせページ</a>をご覧ください．
+</div>

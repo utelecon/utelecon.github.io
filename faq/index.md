@@ -2,6 +2,7 @@
 title: FAQ よくある質問
 ---
 
+{% include utnet.html %}
 {% include sso.html %}
 
 ## 授業全般
