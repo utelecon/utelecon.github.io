@@ -1,6 +1,6 @@
 ---
 title: What is possible with Webex Training?（for Instructors・Participants)
-layout: en
+lang: en
 ---
 
 ## Roles

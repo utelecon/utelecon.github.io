@@ -1,6 +1,6 @@
 ---
 title: Preparing for online classes at the University of Tokyo (for new students enrolled in AY2021)
-layout: en
+lang: en
 slug: oc # 手順を外部ファイルからincludeするときに使う
 ---
 

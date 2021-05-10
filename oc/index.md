@@ -52,7 +52,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 - **UTAS**：{{ about_utas }}
 - **ITC-LMS**：{{ about_itc_lms }}
 - **Zoom**, **Webex**：「同時双方向型」のオンライン授業で使うWeb会議システムです．基本的にはZoomを使いますが，授業によってはWebexを使うこともあります．
-- **ECCSクラウドメール (G Suite)**：{{ about_google }}
+- **ECCSクラウドメール (Google Workspace (旧 G Suite))**：{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
 - **UTokyo WiFi**：{{ about_utokyo_wifi }}
 - **ECCS端末**：{{ about_eccs }}
@@ -100,8 +100,6 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 
 ## 情報システムを使うために必須の手順
 
-{% include utnet.html %}
-
 上で紹介した各種情報システムの準備について，まず，アカウントの作成などの，絶対に行っておくベき重要な作業を説明します．授業開始に間に合うよう，余裕を持って作業してください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/supports/)**に相談してください．
 
 <ul class="procedure">
@@ -112,8 +110,6 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 </ul>
 
 ## 情報システムに関するその他の準備手順
-
-{% include utnet.html %}
 
 つづいて，各種情報システムについて，それぞれのシステムへのログインや，東大のアカウント専用のページへのアクセスなどといった，もう少し細かい確認や作業の手順を説明します．万全の状態で授業を受けられるよう，これらの手順も授業開始までにできるだけ行っておくようにしてください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/supports/)**に相談してください．
 
@@ -149,7 +145,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 
 {% include procedures/webex.html %}
 
-### ECCSクラウドメール (G Suite)
+### ECCSクラウドメール (Google Workspace (旧 G Suite)))
 {:#google}
 
 {{ about_google }}

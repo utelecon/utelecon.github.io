@@ -1,6 +1,6 @@
 ---
 title: Online teaching for instructors
-layout: en
+lang: en
 ---
 Last update: 2020/4/2
 

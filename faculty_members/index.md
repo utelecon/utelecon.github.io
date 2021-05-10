@@ -89,7 +89,7 @@ slug: faculty_members # 手順を外部ファイルからincludeするときに�
 {% capture about_utokyo_account %}東大の情報システムで使う，「共通ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．{% endcapture %}
 {% capture about_utas %}シラバスの登録や成績の登録などに使うシステム（学務システム）です．{% endcapture %}
 {% capture about_itc_lms %}授業資料の配布や課題の回収などが行えるシステム（学習管理システム）です．UTASと似ていますが，UTASは主に授業が始まる前（シラバス登録）と後（成績登録）に利用するのに対し，ITC-LMSは主に授業期間中に利用するシステムになります．{% endcapture %}
-{% capture about_google %}Googleのシステムを東大のアカウントで利用するもの (G Suite for Education) です．東大のメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) が使えるGmail，ファイル置き場のGoogleドライブ，文書作成サービスのGoogleドキュメント，表計算サービスのGoogleスプレッドシート，フォーム作成サービスのGoogleフォーム，動画配信サービスのYouTube，Web会議のGoogle Meet，などのさまざまな機能が使えます．東大のアカウントを作成すると，通常のGoogleアカウントでは不可能な，東大のアカウントに限って公開するという共有の設定（限定公開）ができます．{% endcapture %}
+{% capture about_google %}Googleのシステムを東大のアカウントで利用するもの (Google Workspace (旧 G Suite)) です．東大のメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) が使えるGmail，ファイル置き場のGoogleドライブ，文書作成サービスのGoogleドキュメント，表計算サービスのGoogleスプレッドシート，フォーム作成サービスのGoogleフォーム，動画配信サービスのYouTube，Web会議のGoogle Meet，などのさまざまな機能が使えます．東大のアカウントを作成すると，通常のGoogleアカウントでは不可能な，東大のアカウントに限って公開するという共有の設定（限定公開）ができます．{% endcapture %}
 {% capture about_microsoft %}Microsoftのシステムを東大のアカウントで利用するものです．WordやExcelなどのMicrosoft Officeアプリのダウンロードを提供しているほか，これらのWeb版であるOffice Online，ファイル置き場のOneDrive，フォーム作成サービスのMicrosoft Formsなどのさまざまな機能が使えます．Googleと同じく，東大のアカウントに限って公開するという共有の設定（限定公開）ができます．{% endcapture %}
 {% capture about_utokyo_wifi %}キャンパス内で提供されているWi-Fiです．学内限定のデータベースや電子ジャーナルへのアクセスが可能です．事前にアカウントを作っていないと使えないので注意してください．{% endcapture %}
 {% capture about_eccs %}キャンパス内に設置されているパソコンです．学内限定のデータベースや電子ジャーナルへのアクセスが可能です．教職員の利用には事前に手続きが必要です．{% endcapture %}
@@ -98,7 +98,7 @@ slug: faculty_members # 手順を外部ファイルからincludeするときに�
 - **UTAS**：{{ about_utas }}
 - **ITC-LMS**：{{ about_itc_lms }}
 - **Zoom**, **Webex**：同時双方向型のオンライン授業で使うWeb会議システムです．本学では，Zoom，Webexともにライセンスの契約を行っていますが，通常の授業ではZoomを利用するケースの方が多いようです．学生も慣れていますので，どちらを利用すべきか判断がつかない場合は，Zoomをおすすめします．
-- **ECCSクラウドメール (G Suite)**：{{ about_google }}
+- **ECCSクラウドメール (Google Workspace (旧G Suite))**：{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
 - **UTokyo WiFi**：{{ about_utokyo_wifi }}
 - **ECCS端末**：{{ about_eccs }}
@@ -125,8 +125,6 @@ slug: faculty_members # 手順を外部ファイルからincludeするときに�
 
 ## 情報システムを使うために必須の手順
 
-{% include utnet.html %}
-
 上で紹介した各種情報システムの準備について，まず，アカウントの作成などの，システムを利用するために必要となる重要な作業を説明します．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/supports/)**に相談してください．
 
 <ul class="procedure">
@@ -136,8 +134,6 @@ slug: faculty_members # 手順を外部ファイルからincludeするときに�
 </ul>
 
 ## 情報システムに関するその他の準備手順
-
-{% include utnet.html %}
 
 つづいて，各種情報システムについて，それぞれのシステムへのログインや，東大のアカウント専用のページへのアクセスなどといった，もう少し細かい確認や作業の手順を説明します．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/supports/)**に相談してください．
 
@@ -179,7 +175,7 @@ slug: faculty_members # 手順を外部ファイルからincludeするときに�
 
 詳細な使い方については，[このサイトのWebexについてのページ](/webex/)もご覧ください．
 
-### ECCSクラウドメール (G Suite)
+### ECCSクラウドメール (Google Workspace(旧 G Suite))
 {:#google}
 
 {{ about_google }}

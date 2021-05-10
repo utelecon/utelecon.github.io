@@ -1,6 +1,6 @@
 ---
 title: Online teaching for instructors (2020 A Semester)
-layout: en
+lang: en
 ---
 
 ## Introduction  

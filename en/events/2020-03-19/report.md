@@ -1,6 +1,6 @@
 ---
 title: 2020/3/19 Online Course Report
-layout: en
+lang: en
 ---
 
 　An online workshop on  "How to use Zoom in online courses in mind" was conducted on March 19, 2020, from 15:00 to 17:00. 

@@ -1,6 +1,6 @@
 ---
 title: How to start Webex events
-layout: en
+lang: en
 ---
 
 ## Start an event

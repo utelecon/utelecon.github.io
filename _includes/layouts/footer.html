@@ -1,17 +1,28 @@
+{% include layouts/lang.html %}
 {% unless page.sinclo %}
-<a class="support-link" href="{% if page.lang == "en" %}/en{% endif %}/supports/" target="_blank">
-  困ったときはサポート窓口へ<small>（別ページが開きます）</small>
-</a>
+<a class="support-link" href="{% if lang == "en" %}/en{% endif %}/supports/" target="_blank">{%
+  if lang == "en"
+    %}Need Help? Contact the Support Desk{%
+  else
+    %}困ったときはサポート窓口へ<small>（別ページが開きます）</small>{%
+  endif
+%}</a>
 {% endunless %}
 
 <footer>
   <div class="footer__logo">
     <a href="https://www.u-tokyo.ac.jp/" target="_blank" rel="noopener"><img class="footer__logo__utokyo" src="/assets/images/UTlogo.png" alt="東京大学 the University of Tokyo"></a>
-    <a class="footer__logo__utelecon" href="/{% if page.lang == "en" %}en/{% endif %}">utelecon: オンライン授業・Web会議ポータルサイト</a>
+    <a class="footer__logo__utelecon" href="/{% if lang == "en" %}en/{% endif %}">{%
+      if lang == "en"
+        %}utelecon: Online Class / Web Conference Portal Site{%
+      else
+        %}utelecon: オンライン授業・Web会議ポータルサイト{%
+      endif
+    %}</a>
   </div>
   <nav class="footer__nav">
     <ul>
-      {% for item in site.data.nav %}
+      {% for item in site.data.nav[lang] %}
         <li>
           <div>{{ item.name }}</div>
           <ul class="">
@@ -33,4 +44,8 @@
 
 {% if page.sinclo %}
 <script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
+{% endif %}
+
+{% if page.zendesk %}
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a5b5df88-828a-409d-8f22-e7a996c58b1d"> </script>
 {% endif %}
