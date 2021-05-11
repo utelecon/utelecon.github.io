@@ -35,7 +35,7 @@ title: よりよいオンライン授業をするために
     * [Zoom を使った動画の作り方（外部サイト）](https://media.tebiki.jp/022)
     * [板書のオンライン化](how_to_teach_online_handwriting)
 * 動画ファイルの共有方法
-    * [Google Drive に動画ファイルをアップロードして共有する方法](how/google/share_video)
+    * [Google Drive に動画ファイルをアップロードして共有する方法](/faculty_members/how/google/share_video)
     * [Zoom クラウドに録画して共有する方法](/zoom/how/faculty_members/recording_cloud)
 * 各種Web会議システムの使い方
     * [Zoom](/zoom/)
