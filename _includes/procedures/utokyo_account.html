@@ -7,7 +7,9 @@
 
 {% capture change_initial_password %}
 <ul>
-<li><a href="https://youtu.be/tTpAlqVhEXQ">手順動画</a></li>
+{% case page.slug %}{% when "oc" %}
+<li><a href="/oc/movies/#utokyo_account">手順動画</a></li>
+{% endcase %}
 </ul>
 <ol>
 <li>所属の学部・研究科等から，初期パスワードが記載された「パスワード通知書」を受け取ってください{%
