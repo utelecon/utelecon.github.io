@@ -70,7 +70,7 @@ title: よりよいオンライン授業をするために
 
 * **アクセシビリティに配慮した資料の作成方法**[\[Website\]](https://support.microsoft.com/ja-jp/office/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%E5%BC%B7%E5%8C%96%E3%81%AE%E3%83%93%E3%83%87%E3%82%AA-%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0-71572a1d-5656-4e01-8fce-53e35c3caaf4)(情報基盤センター 小川先生) PowerPoint などでアクセシビリティに配慮した資料を作成するための説明がマイクロソフトから提供されています．
 
-* **アクセシビリティのためのデザイン**[\[pdf\]](/faculty_members/materials/accessibility-posters-set_ja.pdf)(情報基盤センター 小川先生) 英国内務省（UK Home Office）が制作した，アクセシビリティの啓発ポスターの日本語訳です．色使いやフォント，説明の書き方などが簡潔に紹介されています．
+* **アクセシビリティのためのデザイン**[\[PDF\]](/faculty_members/materials/accessibility-posters-set_ja.pdf)(情報基盤センター 小川先生) 英国内務省（UK Home Office）が制作した，アクセシビリティの啓発ポスターの日本語訳です．色使いやフォント，説明の書き方などが簡潔に紹介されています．
 
 
 ### オンライン授業で実現する板書や手書き
