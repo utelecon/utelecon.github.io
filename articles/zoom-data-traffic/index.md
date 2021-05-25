@@ -176,3 +176,13 @@ title: オンライン授業において Zoom の通信量を抑えるには
   * 教員のみビデオ ON にする場合（例2）も，全員 ON にする場合（例3）も，どちらも教員の通信量の方が高い結果となりました．そのため，ビデオを用いる際は，特に教員側の通信環境に配慮する必要がありそうです
 
 これで，Zoom の通信量に関する説明は以上です．みなさまのオンライン授業の参考になれば幸いです．
+
+## 参考情報
+
+* 井上仁（2020）「Zoomを利用したオンライン授業におけるネットワークトラフィック調査」第2回 4月からの大学等遠隔授業に関する取組状況共有サイバーシンポジウム，[https://www.nii.ac.jp/news/upload/20200403-6_Inoue.pdf](https://www.nii.ac.jp/news/upload/20200403-6_Inoue.pdf)（アクセス日 2021年5月25日）
+* 井上仁（2020）facebook 投稿（画面共有時の通信量）[https://www.facebook.com/groups/146940180042907/permalink/163466895056902/](https://www.facebook.com/groups/146940180042907/permalink/163466895056902/)（アクセス日 2021年5月25日）
+* 工藤知宏（2020）「オンライン授業の通信量」東京大学 説明会: Sセメスタ開始2週間を経て，[https://utelecon.github.io/events/2020-04-16/07-Traffic.pdf](https://utelecon.github.io/events/2020-04-16/07-Traffic.pdf)（アクセス日 2021年5月25日）
+* 福田健作（2020）「帯域逼迫するネットワークの状況」 第3回 4月からの大学等遠隔授業に関する取組状況共有サイバーシンポジウム，[https://www.nii.ac.jp/news/upload/20200410-2_Fukuda.pdf](https://www.nii.ac.jp/news/upload/20200410-2_Fukuda.pdf)（アクセス日 2021年5月25日）
+* 長健二朗（2020）「その後の新型コロナウイルスのフレッツトラフィックへの影響」，[https://eng-blog.iij.ad.jp/archives/5813](https://eng-blog.iij.ad.jp/archives/5813) （アクセス日 2021年5月25日）
+* 吉田塁，栗田佳代子（2020）「学びを促すオンライン授業に向けたZoom講座」，[https://sites.google.com/view/enhance-learning/home](https://sites.google.com/view/enhance-learning/home)（アクセス日 2021年5月25日）
+  * スライド資料: [http://edulab.t.u-tokyo.ac.jp/resource/2020.05.05_slides_v2.pdf](http://edulab.t.u-tokyo.ac.jp/resource/2020.05.05_slides_v2.pdf)（アクセス日 2021年5月25日）
