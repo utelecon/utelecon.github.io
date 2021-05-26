@@ -1,6 +1,5 @@
 ---
-title: How to create an UTokyo Zoom account
-lang: en
+redirect_to: "en/zoom/zoom_signin.html"
 ---
 
 ## Notice
