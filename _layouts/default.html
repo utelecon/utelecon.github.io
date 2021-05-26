@@ -5,17 +5,15 @@
   {% if page.title %}
     <h1 class="title">{{ page.title }}</h1>
   {% endif %}
-  {% if page.lastmod %}
-    {% assign lastmod = page.lastmod %}
-    <p class="diplay-date">{{ lastmod }}</p>
-  {% else %}
-    {% assign lastmod = page.date %}
-    <p class="diplay-date">{{ lastmod }}</p>
-  {% endif %}
+  <div class="props">
+  {% if page.date %}
+  <div>{{ page.date }}</div>
   {% endif %}
   {% if page.author %}
-    <p class="author">{{ page.author }}</p>
+  <div>{{ page.author }}</div>
   {% endif %}
+  </div>
+  </div>
   {% if page.toc != false %}
     <section class="main__toc">
       <h2>目次</h2>
