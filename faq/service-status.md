@@ -1,9 +1,9 @@
 ---
-title: オンライン授業で用いる外部サービスの運用状況
+title: オンライン授業で用いるサービスの運用状況
 ---
 
-* さまざまなサービス
-1. [downdetector](https://downdetector.jp/shougai/office-365/)
+* さまざまな情報サービスの状況
+1. [downdetector](https://downdetector.jp/)
 
 * Office365
 1. [Office365 service status](https://portal.office.com/servicestatus)
