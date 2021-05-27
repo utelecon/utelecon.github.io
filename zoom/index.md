@@ -60,6 +60,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
 - 授業前
     - [[スケジュール] 複数回利用できる URL が変わらない会議室を予約する](how/faculty_members/schedule)
     - [[バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how/common/virtual_background)
+    - [クラウドに録画する](how/faculty_members/recording_cloud)
 - 授業中
     - [[マイク・カメラ] マイクとカメラを使う](how/common/use_mic_and_camera)
     - [[画面共有] PowerPoint，Word などの資料を提示する](how/common/sharing_screen)
