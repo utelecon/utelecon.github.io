@@ -2,8 +2,11 @@
 title: オンライン授業で用いる外部サービスの運用状況
 ---
 
-* Office365　( 正規な情報はtwitter の Microsoft 365 Status (@MSFT365Status) )
+* さまざまなサービス
 1. [downdetector](https://downdetector.jp/shougai/office-365/)
+
+* Office365
+1. [Office365 service status](https://portal.office.com/servicestatus)
 
 * G Suite (ECCSクラウドメール、Meetsなど）
 1. [S Suite Service Status](https://www.google.com/appsstatus#hl=ja&v=status)
@@ -14,8 +17,10 @@ title: オンライン授業で用いる外部サービスの運用状況
 
 * Webex
 1. [Webex Service Status](https://status.webex.com/service/status?lang=en_US)
-1. [日本向け Service Status](https://www.cisco.com/c/m/ja_jp/products/webex/status.html)
 1. [What's New](https://help.webex.com/en-us/xcwws1/What-s-New-for-the-Latest-Channel-of-Webex-Meetings)
+
+* 東京大学情報基盤センター
+1. [障害停止情報](https://www.itc.u-tokyo.ac.jp/services/system-failure/)
 
 いつもはつながるサービスにつながらない場合はこれらのページを確認して下さい。
 （最も高い稼働目標のサービスでも99.9%ですので、1か月の0.1% 約43分は停止する可能性があります。
