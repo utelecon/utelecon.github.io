@@ -6,7 +6,7 @@ title: クラスサポーター制度のご案内
 ---------------------------
 
 
-* <span style="color:blue;">2021/05/31:</span> 以下のフォームの申請は5/31日が締め切りとなっております。
+* <span style="color:blue;">2021/05/31:</span> 以下のフォームの申請は5/31日が締め切りとなっております。 
 <br>
 各フォームの締め切りは以下の通りとなります.<br>
 　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
