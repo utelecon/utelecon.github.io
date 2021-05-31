@@ -9,10 +9,13 @@ title: オンラインを活用するために 目的に応じた方法を知り
 ## 板書をしたい
 板書はぶらぶらぶら
 
-- [Goodnotes 5で板書をとる](#)
-    - こんな記事です．
-- [Scrapboxで板書をとる](#)
-    - こんな記事です．
+- **[Goodnotes 5で板書をとる (utelecon)](#)**: こんな記事です．
+- **[Scrapboxで板書をとる (utelecon)](#)**: こんな記事です．
+- **手書き板書用のホワイトボードツール**  [\[hmtl\]](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/inklecture/index-j.html) (情報理工学系研究科 五十嵐先生): タブレットＰＣやディスプレイタブレットを使用して板書でオンライン講義を行うためのツール（ソフトウェア）InkLecture（無限にスクロール可能な電子白版）が紹介されています。
+- **スマートフォンと書画カメラで手書き講義をPCで行う方法** [\[PDF\]](/faculty_members/materials/doc-cam-lecture.pdf) (工学系・古関先生): A4の紙をリアルタイムの板書がわりとして書画カメラで撮影し配信する方法が説明されています．具体的なツールの照会や実際に撮影されている動画も提供されています．
+- **PCとタブレットを使って黒板ライクに講義をする方法** [\[PDF\]](/faculty_members/materials/pc+ipad.pdf) (工学系・熊田先生, 鈴木先生): タブレット(iPad)上にホワイトボード的に板書，必要に応じてタブレット画面をスライドやPDFの資料にも切り替えて行う方法が紹介されています．
+- **タブレットあるいは電子ホワイトボードを利用した板書のオンライン化の実践例**[\[Website\]](http://noneq.c.u-tokyo.ac.jp/online_lecture.html)(工学系研究科 沙川先生) タブレットや電子ホワイトボードを使用して授業を行った場合の短所長所についてまとめられています．
+- **PC1台でできるオンライン講義** [\[Powerpoint\]](/faculty_members/materials/online_example_1pc.pptx) [\[動画(MPEG4)\]](/faculty_members/materials/online_example_1pc.mp4) (工学系研究科 川原先生): 板書の授業をオンラインで行うための方法が動画付きで説明されています．
 
 ## 動画を共有したい
 動画の共有はぶらぶらぶら
