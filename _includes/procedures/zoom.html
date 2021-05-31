@@ -3,6 +3,9 @@
 {% endcomment %}
 
 <ul class="procedure">
+{% case page.slug %}{% when "oc" %}
+<li><a href="/oc/movies#zoom">手順動画</a></li>
+{% endcase %}
 <li><strong>確認：サインインしてみる</strong>
 <ol>
 <li><a href="https://u-tokyo-ac-jp.zoom.us/">UTokyo Zoom</a>のページにアクセスしてください（これは東京大学専用のZoomのページで，通常のZoomのサインインページとは異なるので，注意してください）．</li>

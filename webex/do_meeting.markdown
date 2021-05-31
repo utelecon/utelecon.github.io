@@ -113,7 +113,7 @@ Webex Meetingsには以下の権限があります．
 
 ミーティングがロックされているときに参加者が参加しようとすると，いったんロビーに送られます．
 
-**ブレイクアウトセッション機能は，End-to-End Encrypted Meetingでは利用できません．**
+**End-to-End Encrypted Meetingでは，いったん会議室に入った参加者をロビーに送ることができません．**
 
 ![](img/webex_lobby.png){:width="600px"}
 
