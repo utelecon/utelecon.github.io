@@ -35,10 +35,7 @@
       name: "東大の実践を知りたい"
       url: "/improvement/#utokyo"
     -
-      name: "著作権について知りたい"
-      url: "/articles/copyright/"
-    -
-      name: "過去の記事を一覧したい"
+      name: "全ての記事を一覧したい"
       url: "/articles/"
 -
   name: "東京大学のシステム"
