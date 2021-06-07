@@ -23,7 +23,7 @@
       name: "オンラインを活用するために"
       url: "/online/"
     -
-      name: "授業形態について知りたい"
+      name: "オンライン授業について知りたい"
       url: "/online/courses"
     -
       name: "使えるツールを知りたい"
@@ -35,7 +35,7 @@
       name: "東大の実践を知りたい"
       url: "/online/#utokyo"
     -
-      name: "全ての記事を一覧したい"
+      name: "記事一覧"
       url: "/articles/"
 -
   name: "東京大学のシステム"
