@@ -1,7 +1,87 @@
 ---
-title: オンラインを活用するために 使えるツールを知りたい
+title: オンラインを活用するために使えるツールを知りたい
 ---
 
-## はじめに
+このページでは，オンラインで活用できるツールを紹介します．
 
-{% include_relative _tools.md %}
+## Web会議システム
+
+### Zoom
+Zoomは，東京大学でも最も多くの授業で使われているWeb会議システムです．  
+以下のページに Zoom の使い方がまとまっています．
+
+→ **[Zoom](/zoom/)**
+
+### Webex
+Webexはデフォルトで1000人まで参加可能で，複数の会議への同時参加,および複数の会議の同時開催が可能です．  
+以下のページに Webex の使い方がまとまっています．
+
+→ **[Webex](/webex/)**
+
+### Google Meet
+Google MeetはGoogleが提供するWeb会議システムです．
+以下のページに Google Meet の使い方がまとまっています．
+
+→ **[Google Meet](/meet/)**
+
+## 学習管理システム
+
+### ITC-LMS
+ITC-LMS は東京大学システムです．ITC-LMSは「教材配布」，「課題提示/提出」，「オンラインテスト」等の機能を持つ学習管理システムです．
+
+参考URL
+- **[ITC-LMS](/itc_lms/)**
+
+### Google Classroom
+
+Google Classroomでは，教員がクラスを作成して学生(生徒)に参加してもらうことができます．「教材配布」，「課題提示/提出」等の機能を利用できます．
+
+参考URL
+
+
+## その他コミュニケーション
+### Slack
+
+「Slack」は，チーム内でコミュニケーションをとるためのソーシャル・ネットワーキング・サービスです．
+
+参考URL
+- **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication)**
+
+### Slido
+
+「Slido」は，会議やイベント会場などで参加者と双方向でQ＆Aやライブ投票、アンケートなどを行えるクラウドサービスです.
+
+参考URL
+
+
+### Scrapbox
+
+Scrapboxは，ドキュメントなどの情報管理のためのクラウドサービスです.
+
+参考URL
+
+
+### ECCSクラウドメール (Google Workspace)
+<p style="color:red"> ＊このツールは東京大学の学内システムです．</p>
+
+「ECCSクラウドメール」は，Googleのシステムを東京大学のアカウントで利用するもの (Google Workspace for Education) です．
+
+参考URL
+- システムの概要と利用開始の手順は**[ECCSクラウドメール (Google Workspace)](/eccs_cloud_email)**を参照してください．
+
+
+
+<!--
+## （メモ）
+
+https://docs.google.com/spreadsheets/d/1erqYSjet7RJIZGwMzF6PugoxCzm9e7qxctCa8SQ8Un8/edit?usp=sharing
+
+
+- 東大限定を表す文言は統一した方が良い
+    - 東大だけで使えるシステム (UTAS, ITC-LMS)
+        - <p style="color:red"> ＊このツールは東京大学の学内システムです．</p>
+    - 東大が契約している外部サービス (Zoom, Webex)
+        - <p style="color:red"> ＊このツールは東京大学で有料ライセンスを購入しているものです．</p>
+    - 個別の教員の判断で使うシステム (Slido, Slack)
+        - ＊「注なし．」
+-->

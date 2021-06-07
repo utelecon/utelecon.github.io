@@ -9,7 +9,7 @@
       url: "/faculty_members/"
     -
       name: "オンラインを活用するために"
-      url: "/improvement/"
+      url: "/online/"
     -
       name: "サポート窓口"
       url: "/supports/"
@@ -21,19 +21,19 @@
   contents:
     -
       name: "オンラインを活用するために"
-      url: "/improvement/"
+      url: "/online/"
     -
       name: "授業形態について知りたい"
-      url: "/improvement/#type"
+      url: "/online/courses"
     -
       name: "使えるツールを知りたい"
-      url: "/improvement/tools"
+      url: "/online/tools"
     -
       name: "目的に応じた方法を知りたい"
-      url: "/improvement/topics"
+      url: "/online/topics"
     -
       name: "東大の実践を知りたい"
-      url: "/improvement/#utokyo"
+      url: "/online/#utokyo"
     -
       name: "全ての記事を一覧したい"
       url: "/articles/"

@@ -1,14 +1,10 @@
 ---
-title: オンラインを活用するために 共有いただいた資料
+title: 学内の教職員からご共有いただいた資料
 ---
 
 学内のみなさまからご共有いただいた資料を紹介します．ご共有いただいた先生方，誠にありがとうございます． 
-あらたに資料をご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．もしくは，Github に詳しい方は，utelecon の Githubを fork して，下記にあります新しい情報 のエリアに情報を付け加えていただき，pull request を送っていただければ幸いです．新しい情報 にいただいた情報は適宜当方にて整理させていただきます．
+あらたに資料をご共有いただける場合は[utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com)にご連絡いただけると幸いです．もしくは，Github に詳しい方は，utelecon の Githubを fork して，下記にあります「新しい情報」のエリアに情報を付け加えていただき，pull request を送っていただければ幸いです．新しい情報 にいただいた情報は適宜当方にて整理させていただきます．
 
-
-
-## 新しい情報
-新しくお寄せいただける情報はこちらへお願いします．
 
 ## オンライン授業を行うための総合的な資料
 
@@ -72,3 +68,5 @@ title: オンラインを活用するために 共有いただいた資料
 
 * [農学生命科学研究科・農学部 オンライン授業ページ](https://www.a.u-tokyo.ac.jp/online_lectures/)
 
+## 新しい情報
+新しくお寄せいただける情報はこちらへお願いします．
