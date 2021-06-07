@@ -29,14 +29,13 @@ Google MeetはGoogleが提供するWeb会議システムです．
 ### ITC-LMS
 ITC-LMS は東京大学システムです．ITC-LMSは「教材配布」，「課題提示/提出」，「オンラインテスト」等の機能を持つ学習管理システムです．
 
-参考URL
-- **[ITC-LMS](/itc_lms/)**
+→ **[ITC-LMS](/itc_lms/)**
 
 ### Google Classroom
 
 Google Classroomでは，教員がクラスを作成して学生(生徒)に参加してもらうことができます．「教材配布」，「課題提示/提出」等の機能を利用できます．
 
-参考URL
+→ 参考URL
 
 
 ## その他コミュニケーション
@@ -44,22 +43,25 @@ Google Classroomでは，教員がクラスを作成して学生(生徒)に参�
 
 「Slack」は，チーム内でコミュニケーションをとるためのソーシャル・ネットワーキング・サービスです．
 
-参考URL
-- **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication)**
+→ **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication)**
 
 ### Slido
 
 「Slido」は，会議やイベント会場などで参加者と双方向でQ＆Aやライブ投票、アンケートなどを行えるクラウドサービスです.
 
-参考URL
+→ 参考URL
 
 
 ### Scrapbox
 
 Scrapboxは，ドキュメントなどの情報管理のためのクラウドサービスです.
 
-参考URL
+→ 参考URL
 
+
+<!--
+
+## 保存用
 
 ### ECCSクラウドメール (Google Workspace)
 <p style="color:red"> ＊このツールは東京大学の学内システムです．</p>
@@ -70,9 +72,8 @@ Scrapboxは，ドキュメントなどの情報管理のためのクラウドサ
 - システムの概要と利用開始の手順は**[ECCSクラウドメール (Google Workspace)](/eccs_cloud_email)**を参照してください．
 
 
-
-<!--
 ## （メモ）
+
 
 https://docs.google.com/spreadsheets/d/1erqYSjet7RJIZGwMzF6PugoxCzm9e7qxctCa8SQ8Un8/edit?usp=sharing
 
