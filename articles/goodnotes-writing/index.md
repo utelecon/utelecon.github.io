@@ -161,8 +161,6 @@ GoodNotes 5はiPad，iPhone，Macなどで利用できますが，板書をす�
 <img src="pic17.jpeg">
 </figure>
 
-
-
 ### シェイプツール
 
 <figure>
