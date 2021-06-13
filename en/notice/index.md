@@ -1,7 +1,6 @@
 ---
 title: Notice
 lang: en
-toc: false
 ---
 
 * <span style="color:blue;">2021/1/26:</span> <a href="/notice/20210126-domain-change">The domain name of this site has been changed to https://utelecon.adm.u-tokyo.ac.jp/.</a> Existing links (i.e. https://utelecon.github.io/en/ ) and bookmarks will continue to work via the old URL. 

@@ -5,6 +5,15 @@ title: クラスサポーター制度のご案内
 お知らせ
 ---------------------------
 
+
+* <span style="color:blue;">2021/05/31:</span> 以下のフォームの申請は5/31日が締め切りとなっております。 
+<br>
+各フォームの締め切りは以下の通りとなります.<br>
+　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
+　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
+　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">「クラスサポーター志願フォーム」</a>：いずれも5月31日<br>
+締め切り後のクラスサポーターの申し込みについては承れません。各部局にて、措置頂くようお願い致します。
+
 * <span style="color:blue;">2021/04/07:</span> **フォームの受付を再開いたしました.**
 ご迷惑をおかけして申し訳ございません.
 下記のリンク先より申請が可能です.<br>

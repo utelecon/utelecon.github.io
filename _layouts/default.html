@@ -7,10 +7,12 @@
     <h1 class="title">{{ page.title }}</h1>
   {% endif %}
 
-  {% if page.toc != false %}
+  {% capture toc %}{% include toc.html html=content %}{% endcapture %}
+  {% assign toc = toc | rstrip %}
+  {% if toc != "" and page.toc != false %}
     <section class="main__toc">
       <h2>{% if lang == "en" %}Table of Contents{% else %}目次{% endif %}</h2>
-{% include toc.html html=content %}
+{{ toc }}
     </section>
   {% endif %}
 
