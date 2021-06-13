@@ -13,8 +13,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
 - 東京大学のライセンスでは，参加者数の上限が300人，時間の上限が30時間のミーティングを開催できます．
 - 301人以上のミーティングやウェビナーを申請により限定的に提供しています．詳細は「[Zoomのライセンス](license)」のページをご覧ください．
 
-
-## 利用方法（会議室に参加する場合）
+## 基本的な使い方（会議室に参加する場合）
 
 1. 開催者から会議室の情報（URLなど）を得る．
     - 授業の場合は[授業URLの連絡方法（学生向け）](/oc/url)をご参照ください．
@@ -24,7 +23,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
     - [開催者・参加者共通の使い方](how_to_use)
     - スライドによる説明 ([pptx](files/Zoom-how.pptx), [pdf](files/Zoom-how.pdf))
 
-## 利用方法（会議室を開く場合）
+## 基本的な使い方（会議室を開く場合）
 
 1. [東京大学のアカウントへのサインイン](zoom_signin)
 1. [会議室を作成](create_room)
@@ -39,39 +38,22 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
     - [開催者特有の使い方](how_to_use_host)
     - スライドによる説明 ([pptx](files/Zoom-how.pptx), [pdf](files/Zoom-how.pdf))
 
-## 授業での使い方（学生編）
-授業における，学生の Zoom の使い方を紹介します．  
+## さまざまな機能の使い方
 
-- 授業前
-    - [[バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how/common/virtual_background)
-- 授業中
+- 全員に共通の機能
     - [[マイク・カメラ] マイクとカメラを使う](how/common/use_mic_and_camera)
     - [[挙手・反応] 手を挙げる・反応する](how/students/hand_reaction)
     - [[チャット] チャットを使う](how/common/chat)
     - [[画面共有] 画面を共有する](how/common/sharing_screen)
-    - [[ブレークアウト] グループワークを行う](how/students/breakout)
+    - [[ブレークアウト] グループワークに参加する](how/students/breakout)
     - [[バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how/common/virtual_background)
-
-
-## 授業での使い方（教員編）
-
-授業における，教員の Zoom の使い方を紹介します．
-
-- 授業前
+- ホスト（主催者）向けの機能
     - [[スケジュール] 複数回利用できる URL が変わらない会議室を予約する](how/faculty_members/schedule)
-    - [[バーチャル背景] カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する](how/common/virtual_background)
     - [クラウドに録画する](how/faculty_members/recording_cloud)
-- 授業中
-    - [[マイク・カメラ] マイクとカメラを使う](how/common/use_mic_and_camera)
-    - [[画面共有] PowerPoint，Word などの資料を提示する](how/common/sharing_screen)
-    - [[画面共有] 画面を共有する](how/common/sharing_screen)
     - [[挙手・反応] 学生に手を挙げてもらう・反応してもらう](how/faculty_members/hand_reaction)
-    - [[チャット] チャットを使う](how/common/chat)
     - [[投票] 学生に多肢選択の質問を行う](how/faculty_members/poll)
-    - [[ブレークアウト] グループワークを行う](how/faculty_members/breakout)
-- 授業後
+    - [[ブレークアウト] グループワークをしてもらう](how/faculty_members/breakout)
     - [[レポート] 出席管理を行う](how/faculty_members/attendance)
-
 
 ## その他の情報
 

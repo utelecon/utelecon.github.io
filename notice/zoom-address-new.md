@@ -33,7 +33,7 @@ title: 10桁の共通IDではないZoomアカウントの利用について
 1. [Zoomのプロフィールページ](https://zoom.us/profile) にアクセス（サインインしていない場合はサインイン）して，「サインイン用メールアドレス」の欄の右の方にある「編集」を押してください．<br>
 ![](image/zoom-signinaddress.png)
 1. 新しいメールアドレスとして，<code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code>のように，10桁の共通IDの後に<code>@<em>utac</em>.u-tokyo.ac.jp</code>を付けたものを入力してください．<br>
-![](image/zoom-signinaddress-confirm.png)
+![](image/zoom_address_confirm.png)
 1. ECCSクラウドメールにメールが届きます．そのメール内の確認ボタンを押すと完了です．
 
 上の手順で，**メールアドレス「1234567890@utac.u-tokyo.ac.jp」は使用されています，という表示が出た場合**は，既に<code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code>というアカウントが存在しているため，先にそちらを削除する必要があります．[10桁の共通ID@utac.u-tokyo.ac.jpのアカウント削除フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUOUJaRDVGUEdDVERDNVozSUw1WEJTSE9ONi4u)を入力・送信してください．削除が完了したらメールが届きますので，その後あらためて上の手順でメールアドレスを変更してください．
