@@ -37,7 +37,7 @@ If you have issues signing in, please reach out to <a href="/en/supports/">Techn
 1. You will be taken to the UTokyo Account sign-in page, where you enter your ID and password. (The sign-in page will not show up if you are already signed in with your UTokyo Account.)
 ![](img/zoom_signin_2.png){:.medium}
 
-If you have issues signing in, please reach out to <a href="/en/supports/">Technical Support Desk< for assistance.
+If you have issues signing in, please reach out to <a href="/en/supports/">Technical Support Desk</a> for assistance.
 
 Tutorial Video
 <div style="text-align: center">
