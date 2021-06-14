@@ -1,5 +1,5 @@
 ---
-redirect_to:"/zoom/create_room_software"
+redirect_to: "/zoom/create_room_software"
 ---
 
 ここでは，Zoom の会議室を作る方法を説明します．  
