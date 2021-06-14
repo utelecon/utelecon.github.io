@@ -30,6 +30,7 @@ A mobile WiFi router with up to 50GB of high-speed communication per month
 5. ルーターを紛失、故障した場合は速やかに下記連絡先へ連絡すること  
 6. 貸し出しについて、本学から連絡があった場合には速やかに返答すること   
 7. ルーター本体だけでなく、付属のコード、アダプターも適切に管理すること 
+8. USIMカードを大学からの指示なく無断で外さないこと
 
 上記の条件を守ることを条件に学生に提供します。 
 
@@ -40,6 +41,7 @@ A mobile WiFi router with up to 50GB of high-speed communication per month
 5. You must inform us as soon as possible when you lost it and it broke.  
 6. You must reply to our contact about rental it. 
 7. You must keep not only a router but also accessories (a power code and a charger) 
+8. Do not remove the USIM card without the directions from the university.
 
 It will be offered to students subject to the above conditions. 
 
@@ -61,13 +63,13 @@ If you are a faculty/staff member and wish to borrow a mobile WiFi router, pleas
 **■■■重要・受付スケジュール■■■** 
 </span>
 
-**第５弾 　4/22(木)〆切、26(月)発送 / 4/22(Thu) Close, 4/26(Mon) Send**
-
-**第６弾　5/6(木) 〆切、5/10(月)発送 / 5/6(Thu) Close, 5/10(Mon) Send**
-
-**第７弾 　5/20(木)〆切、24(月)発送 / 5/20(Thu) Close, 5/24(Mon) Send**
-
 **第８弾　6/3(木)〆切、7(月)発送 / 6/3(Thu) Close, 6/7(Mon) Send**
+
+**第９弾　6/17(木)〆切、21(月)発送 / 6/17(Thu) Close, 6/21(Mon) Send**
+
+**第10弾　7/1(木)〆切、5(月)発送 / 7/1(Thu) Close, 7/5(Mon) Send**
+
+**第11弾　7/22(木)〆切、26(月)発送 / 7/22(Thu) Close, 7/26(Mon) Send**
 
 オンライン授業受講に支障がある場合については継続的に受け付けます。 
 【隔週木曜日まで】の申込分について、原則【翌週月曜日】に発送することにしています。 
