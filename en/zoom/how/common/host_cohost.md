@@ -11,7 +11,7 @@ The host is the user (teacher) who scheduled the meeting (class). The host has f
 The co-host is a user who has similar hosting privileges as the host. The host can assign a participant as co-host.
 In a Zoom class session, it is recommended that someone with a class assisting role (e.g. a teaching assistant) be the co-host.
 
-## Host and co-host Controls
+## Host and Co-host Controls
 ### Host (Teacher) Only Controls
 1. Promote participant to co-host
 1. Start polling
