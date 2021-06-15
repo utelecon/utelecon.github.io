@@ -40,7 +40,6 @@ Click "Participants" on the Zoom screen (1).  The participant list will appear o
 1. Participant list
 ![participant_list](img/sharing_screen_faculty_members_2.png)
 
-
 ## How to Assign Co-Hosts
 1. In the participants window, click “Participants” in the meeting controls, and open the participant list.
 1. Hover over the name of the participant who is going to be a co-host, and choose “More”. (When you select a participant, it will be highlighted and the “More” choice will appear. )
