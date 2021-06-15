@@ -7,7 +7,7 @@ lang: en
 The host is the user (teacher) who scheduled the meeting (class). The host has full permission to manage the meeting.
 (Please click here to schedule a meeting.)
 
-## What is co-host?
+## What is Co-host?
 The co-host is a user who has similar hosting privileges as the host. The host can assign a participant as co-host.
 In a Zoom class session, it is recommended that someone with a class assisting role (e.g. a teaching assistant) be the co-host.
 
