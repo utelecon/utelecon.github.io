@@ -3,7 +3,7 @@ title: Host and Co-host Controls in a Zoom Meeting
 lang: en
 ---
 
-## What is a host?
+## What is a Host?
 The host is the user (teacher) who scheduled the meeting (class). The host has full permission to manage the meeting.
 (Please click here to schedule a meeting.)
 
