@@ -117,7 +117,7 @@ Some options for taking attendance are:
 * You can set up irregular meeting dates/times in a recurring meeting.  (For example, you may change the day of a meeting regularly scheduled on Tuesdays to a Thursday for a specific week.) In the Zoom web portal, open the recurring meeting you want to edit. In the “Time” section, click “Show all occurrences”, and then “Edit” on the occurrence you want to change.
 
 #### Q. Can I host multiple meetings at the same time?
-* You can host up to a maximum of 2 meetings at the same time with an UTokyo Zoom Account. Both meetings need to be started by the original host; alternative hosts cannot start the meeting.  
+* You can host up to a maximum of 2 meetings at the same time with an UTokyo Zoom Account. Both meetings need to be started by the original meeting host or by an alternative host.
 * For more information, please refer to [“Can I Host Concurrent Meetings?"](https://support.zoom.us/hc/en-us/articles/206122046-Can-I-Host-Concurrent-Meetings-) or [ECCS Tutor’s page](https://www.sodan.ecc.u-tokyo.ac.jp/hack/can-i-host-concurrent-meetings/).
 
 #### Q. How can I assign an alternative host?
