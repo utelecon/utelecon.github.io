@@ -52,7 +52,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 - **UTAS**：{{ about_utas }}
 - **ITC-LMS**：{{ about_itc_lms }}
 - **Zoom**, **Webex**：「同時双方向型」のオンライン授業で使うWeb会議システムです．基本的にはZoomを使いますが，授業によってはWebexを使うこともあります．
-- **ECCSクラウドメール (G Suite)**：{{ about_google }}
+- **ECCSクラウドメール (Google Workspace (旧 G Suite))**：{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
 - **UTokyo WiFi**：{{ about_utokyo_wifi }}
 - **ECCS端末**：{{ about_eccs }}
@@ -99,10 +99,11 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 {% endcomment %}
 
 ## 情報システムを使うために必須の手順
-
-{% include utnet.html %}
+{:#important}
 
 上で紹介した各種情報システムの準備について，まず，アカウントの作成などの，絶対に行っておくベき重要な作業を説明します．授業開始に間に合うよう，余裕を持って作業してください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/supports/)**に相談してください．
+
+「[東京大学でオンライン授業を受けるために（2021年度新入生向け） 手順動画集](movies)」のページでは，以下の手順を動画で説明していますので，必要に応じて確認してください．
 
 <ul class="procedure">
 {% include procedures/utokyo_account.html part="important" %}
@@ -113,9 +114,10 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 
 ## 情報システムに関するその他の準備手順
 
-{% include utnet.html %}
-
 つづいて，各種情報システムについて，それぞれのシステムへのログインや，東大のアカウント専用のページへのアクセスなどといった，もう少し細かい確認や作業の手順を説明します．万全の状態で授業を受けられるよう，これらの手順も授業開始までにできるだけ行っておくようにしてください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/supports/)**に相談してください．
+
+「[東京大学でオンライン授業を受けるために（2021年度新入生向け） 手順動画集](movies)」のページでは，以下の手順の一部を動画で説明していますので，必要に応じて確認してください．
+
 
 ### UTokyo Account
 {:#utokyo_account}
@@ -125,6 +127,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 {% include procedures/utokyo_account.html %}
 
 ### UTAS
+{:#utas}
 
 {{ about_utas }}
 
@@ -138,18 +141,20 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 {% include procedures/itc_lms.html %}
 
 ### Zoom
+{:#zoom}
 
 「同時双方向型」授業のほとんどで使うWeb会議システムです．
 
 {% include procedures/zoom.html %}
 
 ### Webex
+{:#webex}
 
 一部の「同時双方向型」授業で使うWeb会議システムです．使うことは少ないので，必要になってから作業しても問題ありません．
 
 {% include procedures/webex.html %}
 
-### ECCSクラウドメール (G Suite)
+### ECCSクラウドメール (Google Workspace (旧 G Suite)))
 {:#google}
 
 {{ about_google }}

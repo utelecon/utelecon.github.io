@@ -1,3 +1,4 @@
+{% include layouts/lang.html %}
 {% capture content %}
 {% include layouts/header.html %}
 
@@ -5,11 +6,22 @@
   {% if page.title %}
     <h1 class="title">{{ page.title }}</h1>
   {% endif %}
+  
+  <div class="props">
+  {% if page.date %}
+  <div>{{ page.date }}</div>
+  {% endif %}
+  {% if page.author %}
+  <div>{{ page.author }}</div>
+  {% endif %}
+  </div>
 
-  {% if page.toc != false %}
+  {% capture toc %}{% include toc.html html=content %}{% endcapture %}
+  {% assign toc = toc | rstrip %}
+  {% if toc != "" and page.toc != false %}
     <section class="main__toc">
-      <h2>目次</h2>
-{% include toc.html html=content %}
+      <h2>{% if lang == "en" %}Table of Contents{% else %}目次{% endif %}</h2>
+{{ toc }}
     </section>
   {% endif %}
 

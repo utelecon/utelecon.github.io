@@ -1,6 +1,6 @@
 ---
 title: Set the notifications
-layout: en
+lang: en
 ---
 
 When you log into ITC-LMS, you can see students’ activity (e.g. message to teachers,  or  whether a student submits a homework or not) as a “Notification".  In addition, you can accept the notification by email or LINE application.  Here we introduce how to set the information.

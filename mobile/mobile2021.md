@@ -30,6 +30,7 @@ A mobile WiFi router with up to 50GB of high-speed communication per month
 5. ルーターを紛失、故障した場合は速やかに下記連絡先へ連絡すること  
 6. 貸し出しについて、本学から連絡があった場合には速やかに返答すること   
 7. ルーター本体だけでなく、付属のコード、アダプターも適切に管理すること 
+8. USIMカードを大学からの指示なく無断で外さないこと
 
 上記の条件を守ることを条件に学生に提供します。 
 
@@ -40,6 +41,7 @@ A mobile WiFi router with up to 50GB of high-speed communication per month
 5. You must inform us as soon as possible when you lost it and it broke.  
 6. You must reply to our contact about rental it. 
 7. You must keep not only a router but also accessories (a power code and a charger) 
+8. Do not remove the USIM card without the directions from the university.
 
 It will be offered to students subject to the above conditions. 
 
@@ -48,26 +50,30 @@ It will be offered to students subject to the above conditions.
 
 以下の申し込みフォームから申請してください。**(注:2台目の申し込みは受け付けておりません）**
 メールアドレスは可能な限り[ECCSクラウドメール](https://utelecon.adm.u-tokyo.ac.jp/oc/index.html#google)を使用してください。 
+教職員でモバイルWiFiルーターの貸与を希望する方は，各部局の総務にお問い合わせください． 
     
 Please apply using the form below. If possible, You soould use [ECCS cloud mail](https://utelecon.adm.u-tokyo.ac.jp/oc/index.html#google).
-
+If you are a faculty/staff member and wish to borrow a mobile WiFi router, please contact the general affairs office of your department.
 
 [【2021年度・学生用】東京大学 モバイルWiFiルーター貸与申込 / Application for a mobile WiFi router for UTokyo Students](https://docs.google.com/forms/d/e/1FAIpQLScu3rlbC_uhITS8hxFoNsUXvkP-Q-VieKb58Id7bJmJUyf0BA/formResponse)
+
 
 ## スケジュール / Schedule
 <span style="color: red; ">
 **■■■重要・受付スケジュール■■■** 
 </span>
 
-**第1弾 　3/25(木)〆切、29(月)発送 / 3/25(Thu) Close, 3/29(Mon) Send**
+**第８弾　6/3(木)〆切、7(月)発送 / 6/3(Thu) Close, 6/7(Mon) Send**
 
-**第2弾　4/1(木) 〆切、5(月)発送 / 4/1(Thu) Close, 4/5(Mon) Send**
+**第９弾　6/17(木)〆切、21(月)発送 / 6/17(Thu) Close, 6/21(Mon) Send**
 
-**第3弾 　4/8(木)〆切、12(月)発送 / 4/8(Thu) Close, 4/12(Mon) Send**
-  
-オンライン授業受講に支障がある場合については、第３弾以降も継続的に受け付けます。 
-【毎週木曜日まで】の申込分について、原則【翌週月曜日】に発送することにしています。 
+**第10弾　7/1(木)〆切、5(月)発送 / 7/1(Thu) Close, 7/5(Mon) Send**
+
+**第11弾　7/22(木)〆切、26(月)発送 / 7/22(Thu) Close, 7/26(Mon) Send**
+
+オンライン授業受講に支障がある場合については継続的に受け付けます。 
+【隔週木曜日まで】の申込分について、原則【翌週月曜日】に発送することにしています。 
 作業の都合上発送が遅れる場合があります。 
 
 We continuously accept the application for taking online classes.  
-Every Thursday, we will process applications received so far and send the routers to accepted applications.   Anticipate delays due to our workloads. 
+Each Thursday, we will process applications received so far and send the routers to accepted applications at next monday.   Anticipate delays due to our workloads. 

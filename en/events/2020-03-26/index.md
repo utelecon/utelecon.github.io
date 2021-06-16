@@ -1,6 +1,6 @@
 ---
 title: 2020/03/26 Briefing - How to notify students of online classes
-layout: en
+lang: en
 ---
 
 **Date:** 3/26(Thu) 15:30-17:00 

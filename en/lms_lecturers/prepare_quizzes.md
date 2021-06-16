@@ -1,6 +1,6 @@
 ---
 title: Preparing quizzes
-layout: en
+lang: en
 ---
 
 ## Overview

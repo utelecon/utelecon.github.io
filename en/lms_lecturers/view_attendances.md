@@ -1,6 +1,6 @@
 ---
 title: Confirm attendance
-layout: en
+lang: en
 ---
 After asking the student to press the "Send Attendance" button and to enter a one-time password, follow the instructions below to check their status.
 
