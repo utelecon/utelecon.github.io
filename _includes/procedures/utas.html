@@ -43,7 +43,6 @@
 </ul>
 {% endcapture %}
 
-
 {% capture login %}
 <ol>
 {{ login_steps }}
@@ -61,6 +60,9 @@
 {{ support }}
 {% endcapture %}
 {% capture login_and_confirm_email_address_registration %}
+{% case page.slug %}{% when "oc" %}
+<ul><li><a href="/oc/movies#utas">手順動画</a></li></ul>
+{% endcase %}
 <ol>
 {{ login_steps }}
 {{ confirm_email_address_registration_steps }}
@@ -74,7 +76,6 @@
 
 
 {% if include.part == "important" and page.slug == "oc" %}
-
 {% include procedures/_important.html procedure= login_and_confirm_email_address_registration heading="ログインしてメールアドレスが登録されているか確認する" %}
 
 {% elsif page.slug == "oc" %}

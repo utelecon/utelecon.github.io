@@ -1,6 +1,5 @@
 ---
 title: お知らせ
-toc: false
 ---
 
 * <span style="color:blue;">2021/05/13:</span> <a href="/notice/utokyoaccount20210520">5/20 20時から20時30分 UTokyo Account 認証基盤メンテナンスによる認証サービス停止について</a>
