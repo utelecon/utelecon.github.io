@@ -166,7 +166,10 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 * You are already signed into Google with a different email address. To switch to your ECCS Cloud Email, click on the email address under “You’re signed in as”. After you are taken to the “Choose an account” page, select your ECCS Cloud Email address (xxx@g.ecc.u-tokyo.ac.jp). If your ECCS Cloud Email address does not appear in the choices, click on “Use another account” and enter your ECCS Cloud Email address to sign in.
 
 * (On your smartphone) If you are taken to pages showing “You need permission” or “Request access”:
- * This can happen when you are already signed in with another Google account. Follow “Sign in with smartphone” procedures, and try accessing the drive/file again.  
+ * This can happen when you are already signed in with another Google account. Follow the procedures below, and try accessing the drive/file again.  
+  1. Open a Google App such as Gmail, and press the icon in the upper right corner (either your own icon, or a human symbol if you have not set one up).
+  2. Tap "Add another account" to add your Google account.
+  3. You will be prompted to enter your email address and password, so enter your ECCS Cloud Email email address and password that you set up above.
 
 
 * If you are taken to the “You need access” page, but you are already signed in with ECCS Cloud Email, and your ECCS Cloud Email address (xxx@g.ecc.u-tokyo.ac.jp) shows up under “You’re signed in as”:
