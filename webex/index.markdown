@@ -2,7 +2,6 @@
 title: Webex
 ---
 
-{% include utnet.html %}
 {% include sso.html %}
 
 ## はじめに
@@ -24,14 +23,14 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 	* 最大参加者数は1,000．うちテレビ会議システムからの接続最大200を含む．
 	* テレビ会議システム（いわゆるPolycom等）からの接続が可能．ブレイクアウトセッションをおこなうこともできる
 	* 参加者同士が同じ立場で，双方向でやりとりのある会議等に使われることが多い．
-* Webex Training
-	* 最大参加者数は1,000．
-	* ブレイクアウトセッションやテスト等をおこなうことができる．
-	* パネリストやテストが必要なインタラクティブな講義等に使われることもある．
 * Webex Events
 	* 最大参加者数は1,000．
 	* プレゼンターはテレビ会議システム（いわゆるPolycom等）からの接続が可能．
 	* 1対nで，nが25を超えるような中～大規模なイベント等に用いられる.
+* Webex Training
+	* 最大参加者数は1,000．
+	* ブレイクアウトセッションやテスト等をおこなうことができる．
+	* パネリストやテストが必要なインタラクティブな講義等に使われることもある．
 * Webex Support
 	* 1セッション5名，同時最大8セッション開催可能
 	* タブレット・スマートホンは不可．
@@ -63,16 +62,6 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 	* [ミーティングで出来ること（開催者・参加者共通）](do_meeting)
 	* [ミーティングでできること（開催者限定）](do_meeting_host)
 
-###  Webex Training
-
-基本的な流れはWebex Meetingsと同じです．
-
-- （開催者）[トレーニングを作成](create_training)
-- （開催者）[トレーニングを開始](open_training)
-- （参加者）[トレーニングへ参加](join_training)
-- [トレーニングで出来ること（開催者・参加者共通）](do_training)
-- [トレーニングでできること（開催者限定）](do_training_host)
-
 ### Webex Events
 
 基本的な流れはWebex Meetingsと同じです．
@@ -84,6 +73,13 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 - [イベントでできること（開催者限定）](do_events_host)
 - [Webexではないテレビ会議システムで参加する](join_events_vc)
 
-## 接続テスト
+###  Webex Training
 
-利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために，Cisco社に協力頂き，<a href="https://hiono-sandbox.webex.com/join/narumi" target="_blank" rel="noopener">テストサイト</a>（平日の9:00～17:00）を用意しています．接続してみてください．（東京大学以外の方もぜひどうぞ！）
+基本的な流れはWebex Meetingsと同じです．
+
+- （開催者）[トレーニングを作成](create_training)
+- （開催者）[トレーニングを開始](open_training)
+- （参加者）[トレーニングへ参加](join_training)
+- [トレーニングで出来ること（開催者・参加者共通）](do_training)
+- [トレーニングでできること（開催者限定）](do_training_host)
+

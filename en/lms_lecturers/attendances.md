@@ -1,6 +1,6 @@
 ---
 title: Let your students know the code for attendance (TBA)
-layout: en
+lang: en
 ---
 1. After the start time of “Date and time for submission” set in <a href="prepare_attendances" target="">Preparations for taking attendance during class</a>, the "Submit Attendance" button will appear when the student logs in to ITC-LMS and displays the “Course TOP” screen of the course.
 ![出席送信](at1.png)

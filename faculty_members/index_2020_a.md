@@ -1,6 +1,9 @@
 ---
 title: 教員のための、授業を行うにあたって (2020 Aセメスター版)
+sitemap: false
 ---
+
+<div class="very-important-box">このページは2020年度Aセメスターのものです．最新版の「<a href="/faculty_members/">東京大学でオンライン授業を始めるために</a>」のページをご覧ください．</div>
 
 ## はじめに  
 

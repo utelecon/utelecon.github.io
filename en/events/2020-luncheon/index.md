@@ -1,6 +1,6 @@
 ---
 title: Lunch time information exchange meeting
-layout: en
+lang: en
 ---
 
 We have started meetings to exchange information at lunch time.

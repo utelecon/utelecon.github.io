@@ -1,6 +1,6 @@
 ---
 title: How to Create a University Zoom Account Using Invitation Email
-layout: en
+lang: en
 ---
 
 ## Notice

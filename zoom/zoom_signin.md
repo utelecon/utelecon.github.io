@@ -2,8 +2,6 @@
 title: Zoom サインイン方法
 ---
 
-{% include utnet.html %}
-
 東京大学のZoomアカウントでのサインインには，[UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)が必要です．UTokyo Accountをまだ使ったことがなければ，「（学生向け）[オンライン授業を受けるために](/oc/)」「（教職員向け）[オンライン授業を始めるために](/faculty_members)」に書かれている手順を確認してください．
 
 <div class="box" style="font-weight: normal; border-width: 1.5px;">
@@ -39,3 +37,8 @@ title: Zoom サインイン方法
 ![](img/zoom_signin_2.png){:.medium}
 
 この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．
+
+## 手順動画
+<div style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5QIg6dU1cYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

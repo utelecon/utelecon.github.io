@@ -1,6 +1,6 @@
 ---
 title: Test
-layout: en
+lang: en
 sitemap: false
 ---
 

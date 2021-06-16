@@ -1,6 +1,6 @@
 ---
 title: How to join Webex Meetings
-layout: en
+lang: en
 ---
 
 ## Join a meeting

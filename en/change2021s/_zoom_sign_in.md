@@ -6,7 +6,7 @@ After the transfer (scheduled on March 15, 6:00), for the use of UTokyo Zoom Acc
     1. When a sign-in page which requires your UTokyo Account username and password (same as UTAS, the website with the picture of Yasuda Auditorium) appears, enter your UTokyo Account (10 digits-ID) information accordingly.
         - Not the ECCS Cloud Email (<code>@<em>g.ecc</em>.u-tokyo.ac.jp</code>).
         - Not with the existing Zoom password.
-    1. Sign-in is successful if the profile screen shows your name.
+    1. When your Zoom profile page shows up, check that your “License Type” is set to “Licensed”, and “Meeting” to “300 participants”. If these show up, you have successfully signed in.
 - **Sign in from the Zoom Sign-in Page** (also applicable to the Zoom app)
     1. On the Zoom sign-in page, press “SSO”, or “Sign in with SSO”.
         - Signing in with UTokyo Accounts is unavailable with this page.

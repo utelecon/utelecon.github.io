@@ -6,6 +6,11 @@
 {% assign system = "ECCSクラウドメール" %}
 
 {% capture configure_password_and_email_address %}
+{% case page.slug %}{% when "oc" %}
+<ul>
+  <li><a href="/oc/movies/#google">手順動画</a></li>
+</ul>
+{% endcase %}
 <ol>
 <li>UTokyo Accountの初期パスワードを変更してから，反映に約10分かかるので，それまでしばらく待ってください．</li>
 <li><a href="https://idm.ecc.u-tokyo.ac.jp/webmtn/">ECCS利用者メニュー</a>にアクセスしてください．</li>

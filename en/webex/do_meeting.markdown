@@ -1,6 +1,6 @@
 ---
 title: What is possible with Webex Meetings?（for Instructors・Participants)
-layout: en
+lang: en
 ---
 
 ## Roles
