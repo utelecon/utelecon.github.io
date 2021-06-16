@@ -1,7 +1,6 @@
 ---
 title: Orientations / Seminars
 lang: en
-toc: false
 ---
 
 * 2021/03/25 [Online Course How to use Zoom 2021 (Japanese Only)](/events/2021-03-25/)

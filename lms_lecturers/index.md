@@ -42,6 +42,6 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
 * <a href="prepare_attendances" target="">授業中に出席を取る準備をする</a>
 * <a href="prepare_quizzes" target="">小テストを作成する</a>
 * <a href="assignments" target="">課題を作成する</a>
-* <a href="attendances" target="">出席管理のためのコードを学生に知らせる</a>)
+* <a href="attendances" target="">出席管理のためのコードを学生に知らせる</a>
 * <a href="view_attendances" target="">出席状況を確認する</a>
 * <a href="quizzes" target="">小テストを実施する</a>

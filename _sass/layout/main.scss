@@ -41,6 +41,11 @@ main {
     color: black;
   }
 
+  .props{
+    margin-top: -1rem;
+    text-align: right;
+  }
+
   @import "components/headings";
 
   @media (max-width: 40rem) {
