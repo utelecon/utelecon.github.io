@@ -1,5 +1,5 @@
 ---
-title: オンラインを活用するために：使えるツールを知りたい
+title: オンラインを活用するために：使えるツールから探す
 ---
 
 ## はじめに
@@ -14,42 +14,45 @@ title: オンラインを活用するために：使えるツールを知りた�
 
 ### Zoom
 Zoomは，東京大学でも最も多くの授業で使われているWeb会議システムです．  
-以下のページに Zoom の使い方がまとまっています．
 
-→ **[Zoom](/zoom/)**
+* **[Zoom 説明ページ](/zoom/)**: 基本的な使い方や様々な機能の使い方などが載っています
 
 ### Webex
 Webexはデフォルトで1000人まで参加可能で，複数の会議への同時参加,および複数の会議の同時開催が可能です．  
-以下のページに Webex の使い方がまとまっています．
 
-→ **[Webex](/webex/)**
+* **[Webex 説明ページ](/webex/)**: 基本的な使い方がまとまっています．
 
 ### Google Meet
 Google MeetはGoogleが提供するWeb会議システムです．
-以下のページに Google Meet の使い方がまとまっています．
 
-→ **[Google Meet](/meet/)**
+* **[Google Meet 説明ページ](/meet/)**: 基本的な使い方がまとまっています．
 
 ## 学習管理システム
 
 ### ITC-LMS
 ITC-LMS は東京大学システムです．ITC-LMSは「教材配布」，「課題提示/提出」，「オンラインテスト」等の機能を持つ学習管理システムです．
 
-→ **[ITC-LMS](/itc_lms/)**
+* **[ITC-LMS 説明ページ](/itc_lms/)**: ITC-LMS の使い方がまとまっています．
 
 ### Google Classroom
 
 Google Classroomでは，教員がクラスを作成して学生(生徒)に参加してもらうことができます．「教材配布」，「課題提示/提出」等の機能を利用できます．
 
-→ 参考URL
+* **[Google Classroomの使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)**: 基本的な使い方がまとまっています．
+* **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](https://utelecon.adm.u-tokyo.ac.jp/events/2020-luncheon/#%E7%AC%AC14%E5%9B%9E-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E6%8E%88%E6%A5%AD%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8B%E3%83%84%E3%83%BC%E3%83%AB3)**: Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）
 
 
-## その他コミュニケーション
+## コミュニケーションツール
 ### Slack
 
 「Slack」は，チーム内でコミュニケーションをとるためのソーシャル・ネットワーキング・サービスです．
 
-→ **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication)**
+* **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication)**: Slack の基本的な使い方などがまとまっています．
+* **[オンライン授業のグッドプラクティス 斎藤宣一先生　計算数理Ⅰ](/good-practice/interview/saito)** : オンデマンド形式の授業でSlackを使用されており，Slackで授業内容に関する質問を募っている実例です．
+* **[オンライン授業のグッドプラクティス 白石忠志先生　法Ⅰ](/good-practice/interview/shiraishi)**: Slack で質問や相談を受けた実例です．
+
+
+<!--
 
 ### Slido
 
@@ -65,7 +68,6 @@ Scrapboxは，ドキュメントなどの情報管理のためのクラウドサ
 → 参考URL
 
 
-<!--
 
 ## 保存用
 
