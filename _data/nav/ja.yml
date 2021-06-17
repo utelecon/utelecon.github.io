@@ -17,24 +17,6 @@
       name: "2021年春のシステム変更"
       url: "/change2021s/"
 -
-  name: "オンラインの活用"
-  contents:
-    -
-      name: "オンラインを活用するために"
-      url: "/online/"
-    -
-      name: "オンライン授業の実施について知りたい"
-      url: "/online/courses"
-    -
-      name: "使えるツールを知りたい"
-      url: "/online/tools"
-    -
-      name: "目的に応じた方法を知りたい"
-      url: "/online/topics"
-    -
-      name: "東大の実践を知りたい"
-      url: "/online/#utokyo"
--
   name: "東京大学のシステム"
   contents:
     -
@@ -64,6 +46,25 @@
     -
       name: "ECCS端末"
       url: "https://www.ecc.u-tokyo.ac.jp/"
+-
+  name: "オンラインの活用"
+  contents:
+    -
+      name: "オンラインを活用するために"
+      url: "/online/"
+    -
+      name: "よりよいオンライン授業のために"
+      url: "/online/courses"
+    -
+      name: "使えるツールから探す"
+      url: "/online/tools"
+    -
+      name: "やりたいことから探す"
+      url: "/online/topics"
+    -
+      name: "東大の実践を知る"
+      url: "/online/#utokyo"
+
 -
   name: "お知らせ・イベント"
   contents: 
