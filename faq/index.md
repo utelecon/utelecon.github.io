@@ -187,8 +187,8 @@ A. 共同ホストも，ホストと同様，ブレークアウトルーム間�
 
 
 ### Q. 学内限定の Google スプレッドシートや Drive などにアクセスできない
-* （パソコン・スマホで）「アクセス権が必要です」と出て，下の方に「ログイン名: example@gmail.com」のように @g.ecc.u-tokyo.ac.jp ではないメールアドレスが表示される場合
-  * 前から持っていた自分のアカウントで既にGoogleにログインしているため生じています．下の方に表示されている「ログイン名: example@gmail.com」のところを押すと，「Choose an account to use with Google Drive」という画面が出てアカウントが切り替えられるので，ECCSクラウドメールのアカウント (xxxx@g.ecc.u-tokyo.ac.jp) を選んでください．ECCSクラウドメールのアカウントが出てこない場合は，「Sign in to another account」を選んでECCSクラウドメールにログインしてください．
+* （パソコン・スマホで）「アクセス権が必要です」と出て，下の方の「ログイン名:」のところに @<em style="font-style: normal; background-color: yellow;">g.ecc</em>.u-tokyo.ac.jp ではないメールアドレス<small>（ @gmail.com や @<em style="font-style: normal; background-color: yellow;">edu.k</em>.u-tokyo.ac.jp など）</small>が表示される場合
+  * 前から持っていた自分のアカウントなど，ECCSクラウドメール以外のGoogleアカウントでログインしているため生じています．下の方の「ログイン名: example@gmail.com」のように表示されているところを押すと，「Choose an account to use with Google Drive」という画面が出てアカウントが切り替えられるので，ECCSクラウドメールのアカウント (xxxx@<em style="font-style: normal; background-color: yellow;">g.ecc</em>.u-tokyo.ac.jp) を選んでください．ECCSクラウドメールのアカウントが出てこない場合は，「Sign in to another account」を選んでECCSクラウドメールにログインしてください．
 * （スマホで）「権限が必要です」や「アクセス権をリクエスト」という画面になる場合
   * 前から持っていた自分のアカウントで既にGoogleにログインしているときに起きることがあります．下の「スマホでログインする」の手順を行った後，アクセスし直してみてください．
 * 正しくECCSクラウドメールにログインできている（「ログイン名: 」のところがECCSクラウドメールのメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) になっている）のに「アクセス権が必要です」のように出る場合
