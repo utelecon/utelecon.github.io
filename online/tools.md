@@ -39,7 +39,7 @@ ITC-LMS は東京大学システムです．ITC-LMSは「教材配布」，「�
 Google Classroomでは，教員がクラスを作成して学生(生徒)に参加してもらうことができます．「教材配布」，「課題提示/提出」等の機能を利用できます．
 
 * **[Google Classroomの使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)**: 基本的な使い方がまとまっています．
-* **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](https://utelecon.adm.u-tokyo.ac.jp/events/2020-luncheon/#%E7%AC%AC14%E5%9B%9E-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E6%8E%88%E6%A5%AD%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8B%E3%83%84%E3%83%BC%E3%83%AB3)**: Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）
+* **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](/events/luncheon/2020-07-15/)**: Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）
 
 
 ## コミュニケーションツール
