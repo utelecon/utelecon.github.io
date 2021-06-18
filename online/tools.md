@@ -41,6 +41,19 @@ Google Classroomでは，教員がクラスを作成して学生(生徒)に参�
 * **[Google Classroomの使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)**: 基本的な使い方がまとまっています．
 * **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](/events/luncheon/2020-07-15/)**: Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）
 
+## クラウドサービス
+
+### Google Workspace（ECCSクラウドメール）
+
+Google Workspaceは，GmailやGoogleドライブ・Googleドキュメント・GoogleスプレッドシートなどのGoogleサービスの総称です．東京大学では有料ライセンスを契約しており，「ECCSクラウドメール」の名称で提供しています．
+
+→ **[ECCSクラウドメール (Google Workspace) 説明ページ](/eccs_cloud_email)**：ECCSクラウドメール (Google Workspace)の使い方がまとまっています．
+
+### Microsoft 365
+
+Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサービスの総称です．東京大学では有料ライセンスを契約しており，「UTokyo Microsoft License」の名称で提供しています．
+
+→ **[UTokyo Microsoft Licenseのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)**：東京大学におけるUTokyo Microsoft License利用上の注意事項などがまとまっています．
 
 ## コミュニケーションツール
 
