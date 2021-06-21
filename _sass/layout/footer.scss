@@ -78,16 +78,6 @@ footer {
   &:hover {
     text-decoration: underline;
   }
-  @media (max-width: 48rem) {
-    left: 0;
-    right: 0;
-    width: auto;
-    padding: 0.5rem 0;
-    border-radius: 0;
-    & > small {
-      display: none;
-    }
-  }
   @media print {
     display: none;
   }
@@ -107,16 +97,6 @@ footer {
   &:hover {
     text-decoration: underline;
   }
-  @media (max-width: 48rem) {
-    left: 0;
-    right: 0;
-    width: auto;
-    padding: 0.5rem 0;
-    border-radius: 0;
-    & > small {
-      display: none;
-    }
-  }
   @media print {
     display: none;
   }
@@ -135,16 +115,6 @@ footer {
   text-decoration: none;
   &:hover {
     text-decoration: underline;
-  }
-  @media (max-width: 48rem) {
-    left: 0;
-    right: 0;
-    width: auto;
-    padding: 0.5rem 0;
-    border-radius: 0;
-    & > small {
-      display: none;
-    }
   }
   @media print {
     display: none;
