@@ -1,7 +1,7 @@
 {% include layouts/lang.html %}
 
 <a class="top-link" href="#"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/arrow_upward/v10/24px.svg"></a>
-<a class="feedback-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url&entry.1839091442={{ page.url }}" target="_blank"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/feedback/v11/24px.svg"></a>
+<a class="feedback-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url&entry.1839091442={{ site.url }}{{ page.url }}" target="_blank"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/feedback/v11/24px.svg"></a>
 {% unless page.sinclo %}
 <a class="support-link" href="{% if lang == "en" %}/en{% endif %}/supports/" target="_blank"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/contact_support/v12/24px.svg"></a>
 {% endunless %}
