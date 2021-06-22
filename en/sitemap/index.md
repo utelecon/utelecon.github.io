@@ -182,15 +182,3 @@ sitemap: false
   {% endif %}
 {% endfor %}
 </ul>
-
-## sitemap: false
-
-<ul>
-{% for page in pages %}
-  {% if page.url contains '/en/' and page.sitemap == false %}
-    {% unless page.redirect_to %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title | default: page.url }}</a></li>
-    {% endunless %}
-  {% endif %}
-{% endfor %}
-</ul>
