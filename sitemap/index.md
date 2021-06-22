@@ -79,7 +79,7 @@ sitemap: false
 <ul>
 {% for page in pages %}
   {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/itc_lms' or page.url contains 'lms_lecturers' or page.url contains 'lms_studetns' %}
+    {% if page.url contains '/itc_lms' or page.url contains '/lms_lecturers/' or page.url contains '/lms_students/' %}
       <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
     {% endif %}
   {% endunless %}
