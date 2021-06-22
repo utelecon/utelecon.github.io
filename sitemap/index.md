@@ -29,37 +29,6 @@ sitemap: false
 {% endfor %}
 </ul>
 
-## オンラインを活用するために
-
-<ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/online/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
-    {% endif %}
-  {% endunless %}
-{% endfor %}
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/articles/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
-    {% endif %}
-  {% endunless %}
-{% endfor %}
-</ul>
-
-### グッドプラクティス
-
-<ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/good-practice/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
-    {% endif %}
-  {% endunless %}
-{% endfor %}
-</ul>
-
 ## 東京大学のシステム
 
 ### UTAS
@@ -116,6 +85,37 @@ sitemap: false
 {% for page in pages %}
   {% unless page.url contains '/en/' or page.sitemap == false %}
     {% if page.url contains '/eccs_cloud_email' or page.url contains '/meet/' %}
+      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
+## オンラインを活用するために
+
+<ul>
+{% for page in pages %}
+  {% unless page.url contains '/en/' or page.sitemap == false %}
+    {% if page.url contains '/online/' %}
+      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+{% for page in pages %}
+  {% unless page.url contains '/en/' or page.sitemap == false %}
+    {% if page.url contains '/articles/' %}
+      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
+### グッドプラクティス
+
+<ul>
+{% for page in pages %}
+  {% unless page.url contains '/en/' or page.sitemap == false %}
+    {% if page.url contains '/good-practice/' %}
       <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
     {% endif %}
   {% endunless %}
