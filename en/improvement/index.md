@@ -44,7 +44,7 @@ We will update it as needed, so please keep checking regularly.
 * How to use web conferencing systems
     * [Zoom](/en/zoom/)
     * [Webex](/en/webex/)
-    * [Google Meet](/en/google_hangouts_meet/)
+    * [Google Meet](/en/meet/)
 
 ## Resources shared with us
  
