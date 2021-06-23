@@ -9,6 +9,7 @@ title: Zoom サインイン方法
 </div>
 
 ## ブラウザからサインインする方法
+{:#browser}
 
 1. 東京大学専用のZoomのページ [https://u-tokyo-ac-jp.zoom.us/](https://u-tokyo-ac-jp.zoom.us/) にアクセスしてください．
 2. 「UTokyo Zoom」と書かれたページが表示されるので，そのページにある「Config」と書かれたボタンを押してください．
@@ -26,6 +27,7 @@ title: Zoom サインイン方法
 
 
 ## アプリからサインインする方法
+{:#app}
 
 1. Zoomアプリで「サインイン」ボタンを押すなどして，Zoomのサインイン画面を開いてください．
 ![](img/zoom_signin_4.png){:.medium}
@@ -39,6 +41,7 @@ title: Zoom サインイン方法
 この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．
 
 ## 手順動画
+{:#movie}
 <div style="text-align: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5QIg6dU1cYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
