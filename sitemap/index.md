@@ -8,10 +8,10 @@ sitemap: false
 ## オンライン授業全般（学生向け）
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/oc/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/oc/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -20,10 +20,10 @@ sitemap: false
 ## オンライン授業全般（教員向け）
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false or page.url contains '/zoom/' %}
-    {% if page.url contains '/faculty_members/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false or p.url contains '/zoom/' %}
+    {% if p.url contains '/faculty_members/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -34,10 +34,10 @@ sitemap: false
 ### UTAS
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/utas' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/utas' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -46,10 +46,10 @@ sitemap: false
 ### ITC-LMS
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/itc_lms' or page.url contains '/lms_lecturers/' or page.url contains '/lms_students/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/itc_lms' or p.url contains '/lms_lecturers/' or p.url contains '/lms_students/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -58,10 +58,10 @@ sitemap: false
 ### Zoom
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/zoom/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/zoom/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -70,10 +70,10 @@ sitemap: false
 ### Webex
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/webex/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/webex/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -82,10 +82,10 @@ sitemap: false
 ### ECCSクラウドメール (Google Workspace)
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/eccs_cloud_email' or page.url contains '/meet/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/eccs_cloud_email' or p.url contains '/meet/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -94,17 +94,17 @@ sitemap: false
 ## オンラインを活用するために
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/online/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/online/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/articles/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/articles/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -113,10 +113,10 @@ sitemap: false
 ### グッドプラクティス
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/good-practice/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/good-practice/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -125,10 +125,10 @@ sitemap: false
 ## お知らせ
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/notice/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/notice/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -137,10 +137,10 @@ sitemap: false
 ## イベント・説明会等
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false or page.url contains '/events/luncheon/' %}
-    {% if page.url contains '/events/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false or p.url contains '/events/luncheon/' %}
+    {% if p.url contains '/events/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -149,10 +149,10 @@ sitemap: false
 ### オンライン授業情報交換会
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% if page.url contains '/events/luncheon/' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% if p.url contains '/events/luncheon/' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endif %}
   {% endunless %}
 {% endfor %}
@@ -161,10 +161,10 @@ sitemap: false
 ## その他
 
 <ul>
-{% for page in pages %}
-  {% unless page.url contains '/en/' or page.sitemap == false %}
-    {% unless page.url contains '/oc/' or page.url contains '/faculty_members/' or page.url contains '/online/' or page.url contains '/articles/' or page.url contains '/good-practice/' or page.url contains '/utas' or page.url contains '/itc_lms' or page.url contains '/lms_lecturers/' or page.url contains '/lms_students/' or page.url contains '/zoom/' or page.url contains '/webex/' or page.url contains '/eccs_cloud_email' or page.url contains '/meet/' or page.url contains '/notice/' or page.url contains '/events/' or page.url contains '/redirects.json' %}
-      <li><a href="{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>
+{% for p in pages %}
+  {% unless p.url contains '/en/' or p.sitemap == false %}
+    {% unless p.url contains '/oc/' or p.url contains '/faculty_members/' or p.url contains '/online/' or p.url contains '/articles/' or p.url contains '/good-practice/' or p.url contains '/utas' or p.url contains '/itc_lms' or p.url contains '/lms_lecturers/' or p.url contains '/lms_students/' or p.url contains '/zoom/' or p.url contains '/webex/' or p.url contains '/eccs_cloud_email' or p.url contains '/meet/' or p.url contains '/notice/' or p.url contains '/events/' or p.url contains '/redirects.json' %}
+      <li><a href="{{ p.url | replace: '.html', '' }}">{{ p.title }}</a></li>
     {% endunless %}
   {% endunless %}
 {% endfor %}
