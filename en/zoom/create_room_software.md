@@ -1,37 +1,32 @@
 ---
-title: Zoom 会議室の作り方
-sitemap: false
+title: Scheduling a Zoom Meeting (Zoom App)
 ---
+This page provides information on how to schedule a Zoom Meeting with the Zoom App. Settings options may be restricted when scheduling a meeting with the Zoom App. On such occasions, read the instructions in “[Scheduling a Zoom Meeting(Web Portal)](create_room)” and schedule your meetings on the Zoom webpage. For information on scheduling regular meetings, see “[How to set up a room with the same URL for all lectures] (how/faculty_members/schedule).”
 
-ここでは，Zoom の会議室を作る方法を説明します．  
-授業などの定期的なミーティングを設定する方法は[こちら](how_to_use_in_classroom_faculty_members)を御覧ください．  
-
-
-1. Zoom を起動します
-1. （サインインしていない場合）「サインイン」を押します  
-  ![](img/zoom_join_pc_id_top.png)
-
-1. （サインインしていない場合）作成したアカウントの「メールアドレス」「パスワード」を入力して「サインイン」を押します  
-  ![](img/zoom_signin.png)
-
-1. 「スケジュール」を押します  
+1. Open the Zoom App.
+2. Click “Sign In” to access the Zoom sign-in page.
+  ![](img/zoom_signin_4.png)
+3. On the Zoom sign-in page, press “SSO”, or “Sign in with SSO”. (Signing in with UTokyo Account email address and password via Zoom App is unavailable)
+  ![](img/zoom_signin_5.png)
+4. Enter `u-tokyo-ac-jp` in the “Company Domain” field. (Note that `ac` is preceded and followed by a hyphen, not a period.)
+  ![](img/zoom_signin_6.png)
+5. You will be redirected to the UTokyo Account sign-in webpage. Sign in to your UTokyo account. (It is possible that this page will not appear if you have already signed into your UTokyo Account.)
+  ![](img/zoom_signin_2.png)
+6. Press “Schedule”.
   ![](img/zoom_top2.png)
-
-1. 以下の情報を設定してミーティングをスケジュールします．  
+7. Schedule the meetings with the information as follows.
   ![](img/zoom_schedule.png)  
-  ![](img/zoom_schedule_detail.png)   
+  ![](img/zoom_schedule_detail.png) 
 
+The following are some supplementary explanations.
+1. **Video**: Whether to have video on or off at the beginning of the meeting can be set for both host and participants individually.
+2. **Audio**: Selecting “Computer Audio” is recommended unless there are special needs to connect to Zoom from telephones.
+3. **Calender**: Synchronizing with Outlook or Google Calendar is also possible. However, it is recommended to select “Other Calendars” to copy and paste the meeting information.
+4. **Advanced Options**: 
+**Allow participants to join anytime**: Participants are not allowed to join the meeting before the host if this option is disabled. We recommend that you enable this option if you would like other participants to join the meeting earlier and have a talk.
+**Mute participants upon entry**: We recommend that you enable this option if you would like to announce something at the beginning of the meeting.
+5. Check the meeting information and **copy the Zoom meeting URL** listed under “Join Zoom Meeting”. Send email notifications to participants.
+  ![](img/zoom_schedule_info.png)
 
-  以下，特に補足が必要な点に絞って説明します．  
-  1. **ビデオ**: ミーティング開始時にビデオを最初からオンにするかオフにするか，ホスト（開催者）と参加者別に設定可能
-  1. **オーディオ**: 電話でも Zoom に繋げられてしまうため，特別な理由がない限り「コンピューターオーディオ」のみを選択することを推奨
-  1. **カレンダー**: Outlook や Google カレンダーと連携可能だが，ミーティングの情報をコピー&ペーストするためにも「他のカレンダー」を選択することを推奨
-  1. **詳細オプション**:  
-    **ホストより前の参加を有効にする**: オフにするとホストが入らないと他の参加者も会議室に入れない．他の参加者が早めに入って少し話しても良いのであれば ON にすることを推奨  
-    **エントリー時に参加者をミュート**: 最初は一方向的に説明したいときなどに ON にすること推奨  
-
-1. スケジュールの情報を確認して，「Zoomミーティングに参加する」の下に記載されている**会議室の URL を抜き出して**，メールなどを用いて参加者に通知します
-  ![](img/zoom_schedule_info.png)  
-
-  * 初期設定では **URL にパスワード情報が入っている**ため，パスワードを設定していたとしても別途パスワードを共有する必要はありません
-  * ここで 上記 URL 以外も共有してしまうと「市内番号を検索」の右に記載されている URL にアクセスしてしまう参加者もいるため，招待情報全てではなく，**会議室の URL を抜き出して共有することをおすすめ**します  
+* **The password information is included in the URL** by default. Therefore, sharing the password separately is not required. 
+* Some participants may access the Zoom meeting with the URL listed on the right of “Find your local number” if you also shared information other than the abovementioned URL. We recommend that you **only share the URL of the meetings**, instead of copying the whole invitation.

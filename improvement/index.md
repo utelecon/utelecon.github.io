@@ -35,7 +35,7 @@ title: よりよいオンライン授業をするために
     * [Zoom を使った動画の作り方（外部サイト）](https://media.tebiki.jp/022)
     * [板書のオンライン化](how_to_teach_online_handwriting)
 * 動画ファイルの共有方法
-    * [Google Drive に動画ファイルをアップロードして共有する方法](how/google/share_video)
+    * [Google Drive に動画ファイルをアップロードして共有する方法](/faculty_members/how/google/share_video)
     * [Zoom クラウドに録画して共有する方法](/zoom/how/faculty_members/recording_cloud)
 * 各種Web会議システムの使い方
     * [Zoom](/zoom/)
@@ -68,10 +68,14 @@ title: よりよいオンライン授業をするために
 
 * **視覚障害のある学生のためのアクセシブルなオンライン講義**[\[Website\]](https://psylab.hc.keio.ac.jp/AOL4SVI/)[\[Website\]](https://psylab.hc.keio.ac.jp/4vi/)(医学系研究科 加藤先生) 「視覚障害学生のオンライン授業を支援する会」によって視覚障害のある学生特に新入生のための情報収集・公開を目的としたウェブサイトです．
 
+* **アクセシビリティに配慮した資料の作成方法**[\[Website\]](https://support.microsoft.com/ja-jp/office/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%E5%BC%B7%E5%8C%96%E3%81%AE%E3%83%93%E3%83%87%E3%82%AA-%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0-71572a1d-5656-4e01-8fce-53e35c3caaf4)(情報基盤センター 小川先生) PowerPoint などでアクセシビリティに配慮した資料を作成するための説明がマイクロソフトから提供されています．
+
+* **アクセシビリティのためのデザイン**[\[PDF\]](/faculty_members/materials/accessibility-posters-set_ja.pdf)(情報基盤センター 小川先生) 英国内務省（UK Home Office）が制作した，アクセシビリティの啓発ポスターの日本語訳です．色使いやフォント，説明の書き方などが簡潔に紹介されています．
+
 
 ### オンライン授業で実現する板書や手書き
 
-* **手書き板書用のホワイトボードツール**  [\[hmtl\]](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/inklecture/index-j.html) (情報理工学系研究科 五十嵐先生): タブレットＰＣやディスプレイタブレットを使用して板書でオンライン講義を行うためのツール（ソフトウェア）InkLecture（無限にスクロール可能な電子白版）が紹介されています。
+* **手書き板書用のホワイトボードツール**  [\[html\]](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/inklecture/index-j.html) (情報理工学系研究科 五十嵐先生): タブレットＰＣやディスプレイタブレットを使用して板書でオンライン講義を行うためのツール（ソフトウェア）InkLecture（無限にスクロール可能な電子白版）が紹介されています。
 
 * **スマートフォンと書画カメラで手書き講義をPCで行う方法** [\[PDF\]](/faculty_members/materials/doc-cam-lecture.pdf) (工学系・古関先生): A4の紙をリアルタイムの板書がわりとして書画カメラで撮影し配信する方法が説明されています．具体的なツールの照会や実際に撮影されている動画も提供されています．
 
@@ -97,7 +101,7 @@ title: よりよいオンライン授業をするために
 * **学会オンライン化の記録** [\[PDF\]](/faculty_members/materials/hybrid_conference_report.pdf) (総合文化研究科/生命科学ネットワーク・新冨先生):「オンライン」からでも「講演会場」からでも参加可能なニューノーマルの学会スタイル，「ハイブリッド式講演会」の実施についてのノウハウの紹介です．オンライン講演会・オンラインポスターセッション・ポスター審査といった要素を含む約700人規模の講演会を，どのような機材・システムで運営されたか，具体的に記載されています．また，ハイブリッド講演会のデモ動画も共有頂きました．[mp4ファイル](https://drive.google.com/file/d/1a6buklw0lC7kS_5d8Rn6dwSnQdNaq34D/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）      
 
 ### 作業を効率化する方法
-* **Google スプレッドシートの複数のファイルを連番で自動作成し、「共有可能なリンク」の URL のリストを自動で取得する方法** [[pdfファイル](/faculty_members//faculty_members/materials/saito_gas.pdf), [スクリプト](materials/saito_script.txt)] (総合文化・齋藤先生)
+* **Google スプレッドシートの複数のファイルを連番で自動作成し、「共有可能なリンク」の URL のリストを自動で取得する方法** [[pdfファイル](/faculty_members/materials/saito_gas.pdf), [スクリプト](/faculty_members/materials/saito_script.txt)] (総合文化・齋藤先生)
 
 
 ### オンライン授業における参考情報

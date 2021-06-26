@@ -7,6 +7,9 @@
 
 {% capture apply_for_account %}
 <ul>
+  {% case page.slug %}{% when "oc" %}
+  <li><a href="/oc/movies#utokyo_wifi">手順動画</a></li>
+  {% endcase %}
 <li>{%
   case page.slug %}{%
     when "oc"
