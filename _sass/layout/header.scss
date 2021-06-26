@@ -257,6 +257,33 @@ $header-hamburger-breakpoint: 48rem;
   .header__hamburger-contents {
     background-color: $header-nav-bg-color;
   }
+  .header__nav {
+    & > ul {
+      display: block;
+      margin: 0;
+      padding: 0;
+      border-bottom: 2px solid white;
+      & > li {
+        display: block;
+        & > .header_nav_text {
+          padding: 0.5em 1em;
+          border-top: 2px solid white;
+        }
+        & > ul {
+          display: block;
+          padding: 0;
+          & > li {
+            display: block;
+            border-top: 1px solid white;
+            & > a {
+              display: block;
+              padding: 0.5em 1em 0.5em 2em;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .gsc-input .gsc-input-box {
