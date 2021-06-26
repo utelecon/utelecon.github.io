@@ -1,8 +1,5 @@
 $header-hamburger-breakpoint: 48rem;
 
-@import "hiraku/_variables";
-@import "hiraku/_button";
-
 .header {
   display: grid;
   grid-template-columns: auto 1fr;
