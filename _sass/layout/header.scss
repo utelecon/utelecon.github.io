@@ -86,6 +86,9 @@ $header-hamburger-breakpoint: 48rem;
   .header__primary {
     @include header-background;
   }
+  .header__hamburger-contents {
+    background-color: $header-nav-bg-color;
+  }
 }
 
 .header__hamburger-button {
@@ -172,8 +175,8 @@ $header-hamburger-breakpoint: 48rem;
   }
 }
 
-@media not all and (max-width: $header-hamburger-breakpoint) {
-  .header__nav {
+.header__nav {
+  @media not all and (max-width: $header-hamburger-breakpoint) {
     & > ul {
       display: flex;
       margin: 0;
@@ -254,13 +257,8 @@ $header-hamburger-breakpoint: 48rem;
       }
     }
   }
-}
 
-@media (max-width: $header-hamburger-breakpoint) {
-  .header__hamburger-contents {
-    background-color: $header-nav-bg-color;
-  }
-  .header__nav {
+  @media (max-width: $header-hamburger-breakpoint) {
     & > ul {
       display: block;
       margin: 0;
