@@ -167,8 +167,8 @@ $header-hamburger-breakpoint: 48rem;
   }
   @media (max-width: $header-hamburger-breakpoint) {
     flex-direction: column;
-    color: $text-color;
-    @import "components/link";
+    row-gap: 1em;
+    padding: 1em;
   }
 }
 
@@ -220,6 +220,9 @@ $header-hamburger-breakpoint: 48rem;
             & > a {
               display: block;
               padding: 0.5rem 0;
+              &:hover {
+                background: $header-nav-bg-color-dark;
+              }
             }
           }
         }
@@ -262,22 +265,25 @@ $header-hamburger-breakpoint: 48rem;
       display: block;
       margin: 0;
       padding: 0;
-      border-bottom: 2px solid white;
+      border-bottom: 1px solid $white-gray-dark;
       & > li {
         display: block;
         & > .header_nav_text {
           padding: 0.5em 1em;
-          border-top: 2px solid white;
+          border-top: 1px solid $white-gray-dark;
         }
         & > ul {
           display: block;
           padding: 0;
           & > li {
             display: block;
-            border-top: 1px solid white;
+            border-top: 1px solid $gray;
             & > a {
               display: block;
               padding: 0.5em 1em 0.5em 2em;
+              &:hover {
+                background: $header-nav-bg-color-dark;
+              }
             }
           }
         }
