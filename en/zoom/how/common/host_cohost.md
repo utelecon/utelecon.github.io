@@ -3,15 +3,15 @@ title: Host and Co-host Controls in a Zoom Meeting
 lang: en
 ---
 
-## What is a host?
+## What is a Host?
 The host is the user (teacher) who scheduled the meeting (class). The host has full permission to manage the meeting.
 (Please click here to schedule a meeting.)
 
-## What is co-host?
+## What is Co-host?
 The co-host is a user who has similar hosting privileges as the host. The host can assign a participant as co-host.
 In a Zoom class session, it is recommended that someone with a class assisting role (e.g. a teaching assistant) be the co-host.
 
-## Host and co-host Controls
+## Host and Co-host Controls
 ### Host (Teacher) Only Controls
 1. Promote participant to co-host
 1. Start polling
@@ -40,9 +40,8 @@ Click "Participants" on the Zoom screen (1).  The participant list will appear o
 1. Participant list
 ![participant_list](img/sharing_screen_faculty_members_2.png)
 
-
 ## How to Assign Co-Hosts
 1. In the participants window, click “Participants” in the meeting controls, and open the participant list.
 1. Hover over the name of the participant who is going to be a co-host, and choose “More”. (When you select a participant, it will be highlighted and the “More” choice will appear. )
-3.Click “Make Co-Host”.
+1. Click “Make Co-Host”.
 

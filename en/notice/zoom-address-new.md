@@ -1,5 +1,6 @@
 ---
 title: Signing in to Zoom with a non-UTokyo ID
+lang: en
 ---
 Due to system changes, **signing in to UTokyo Zoom using non-UTokyo IDs will no longer be available**.  
 

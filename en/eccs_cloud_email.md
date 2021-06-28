@@ -40,7 +40,7 @@ More information will be posted shortly.
     - [Uploading recorded video file to Google Drive](/faculty_members/how/google/share_video) (Japanese only)
     - [Use of Team Drives (Supplementary Service for ECCS Cloud Email)](https://www.ecc.u-tokyo.ac.jp/en/announcement/2018/07/11_2822.html) (ECCS News)
 - Google Meet
-    - [Google Meet](/meet/) (Japanese only)
+    - [Google Meet](/en/meet/)
 - Google Group
     - [How to Use the Google Group](https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/10/31_2362.html) (ECCS News)
 - Google Calendar
