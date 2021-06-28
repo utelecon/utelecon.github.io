@@ -74,13 +74,9 @@ footer {
   }
 }
 .footer-link {
-  bottom: 0;
-  width: 3rem;
-  padding: 0.25rem 0;
+  bottom: 1rem;
   margin: 0 0.25rem;
-  border-radius: 0.5rem 0.5rem 0 0;
-  background-color: #578300;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -91,17 +87,18 @@ footer {
   src: url(https://fonts.gstatic.com/s/materialicons/v92/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
 }
 
-.material-icons {
+.icon {
   font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
   font-size: 19px;
-  letter-spacing: normal;
   text-transform: none;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
   display: inline-block;
   white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
