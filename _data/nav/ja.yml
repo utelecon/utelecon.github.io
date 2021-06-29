@@ -8,8 +8,8 @@
       name: "オンライン授業を始めるために<small>（教員向け）</small>"
       url: "/faculty_members/"
     -
-      name: "よりよいオンライン授業をするために"
-      url: "/improvement/"
+      name: "オンラインを活用するために"
+      url: "/online/"
     -
       name: "サポート窓口"
       url: "/supports/"
@@ -17,22 +17,7 @@
       name: "2021年春のシステム変更"
       url: "/change2021s/"
 -
-  name: "よりよい授業のために"
-  contents:
-    -
-      name: "よりよいオンライン授業をするために"
-      url: "/improvement/"
-    -
-      name: "グッドプラクティス"
-      url: "/good-practice/"
-    -
-      name: "オンライン授業情報交換会"
-      url: "/events/2020-luncheon/"
-    -
-      name: "オンライン授業に関するアンケート"
-      url: "/questionnaire/"
--
-  name: "授業で使うシステム"
+  name: "東京大学のシステム"
   contents:
     -
       name: "UTokyo Account"
@@ -62,6 +47,25 @@
       name: "ECCS端末"
       url: "https://www.ecc.u-tokyo.ac.jp/"
 -
+  name: "オンラインの活用"
+  contents:
+    -
+      name: "オンラインを活用するために"
+      url: "/online/"
+    -
+      name: "よりよいオンライン授業のために"
+      url: "/online/courses"
+    -
+      name: "使えるツールから探す"
+      url: "/online/tools"
+    -
+      name: "やりたいことから探す"
+      url: "/online/topics"
+    -
+      name: "東大の実践を知る"
+      url: "/online/#utokyo"
+
+-
   name: "お知らせ・イベント"
   contents: 
     -
@@ -69,7 +73,7 @@
       url: "/notice/"
     -
       name: "オンライン授業情報交換会"
-      url: "/events/2020-luncheon/"
+      url: "/events/luncheon/"
     -
       name: "説明会等"
       url: "/events/"

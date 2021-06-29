@@ -1,5 +1,6 @@
 ---
 title: 2021年度のuteleconサイトでのサポートについて
+sitemap: false
 ---
 **uteleconプロジェクト**
 
