@@ -1,5 +1,5 @@
 ---
-title: Zoomのライセンス
+title: Zoomの追加ライセンス
 ---
 
 ## 概要
