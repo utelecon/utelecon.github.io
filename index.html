@@ -33,14 +33,14 @@ sitemap: false
     {% assign i = 0 %}
     {% assign j = 0 %}
     {% for item in site.data.notice.ja %}
-      {% unless i < 16 and j < 8 %}
-        {% break %}
-      {% endunless %}
       {% assign i = i | plus: 1 %}
-      {% unless i < 4 or item.important %}
+      {% unless i <= 4 or item.important %}
         {% continue %}
       {% endunless %}
       {% assign j = j | plus: 1 %}
+      {% unless i <= 16 and j <= 8 %}
+        {% break %}
+      {% endunless %}
       <li>
         <span class="notice-date">{{ item.date }}</span>
         {{ item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
