@@ -35,6 +35,6 @@ All courses registered in UTAS are automatically registered in ITC-LMS for use.
 - Apply quizzes(coming soon)
 
 ## Reference information
-- [ITC-LMS website](https://www.ecc.u-tokyo.ac.jp/itc-lms/)
-- [FAQ: ITC-LMS](https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html)
+- [ITC-LMS website](https://www.ecc.u-tokyo.ac.jp/en/itc-lms.html)
+- [FAQ: ITC-LMS](https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html)
 - After you log in ITC-LMS, you can download the teacher's manual.
