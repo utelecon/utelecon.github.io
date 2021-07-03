@@ -38,6 +38,6 @@ If you want to check  the attendance in class, you will need to stop the class. 
 ![時間帯の設定](pa4.png)
 [Procedure](https://youtu.be/QHTF-pG886w)
 ## References
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1904.html">How to check the attendance on ITC-LMS (for instructors)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/18_1881.html">Importance notice on ITC-LMS attendance checking system (for instructors).</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2983.html">How to check the attendance on ITC-LMS (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2964.html">Importance notice on ITC-LMS attendance checking system (for instructors).</a>
