@@ -1,7 +1,8 @@
 footer {
   background-color: $footer-background-color;
   color: white;
-  :link, :visited {
+  :link,
+  :visited {
     color: white;
     text-decoration: none;
   }
@@ -28,7 +29,8 @@ footer {
   }
 }
 .footer__nav {
-  :link:hover, :visited:hover {
+  :link:hover,
+  :visited:hover {
     text-decoration: underline;
   }
   & > ul {
@@ -65,40 +67,115 @@ footer {
 }
 .footer-wrap {
   display: flex;
-  justify-content: space-evenly;
+  // justify-content: space-evenly;
   position: fixed;
-  right: 0.625rem;
+  right: 0;
   bottom: 0;
+  
   @media print {
     display: none;
   }
-}
-.footer-link {
-  bottom: 1rem;
-  margin: 0 0.25rem;
-  color: black;
-  text-align: center;
+
+  padding: 12px 4px 10px;
+
+  @media (min-width: 32rem) {
+    background-color: #fff;
+    border: solid 1px #ccc;
+
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0 3px 6px 0;
+
+    right: 1rem;
+  }
+
+  .pc-only {
+    @media (max-width: 32rem) {
+      display: none;
+    }
+  }
+
+  .footer-item {
+    width: 90px;
+    flex: 1 1 0%;
+    text-align: center;
+
+    cursor: pointer;
+
+    @media (max-width: 32rem) {
+      width: 60px;
+    }
+
+    .footer-link {
+      // display: inline-block;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+
+      // bottom: 1rem;
+      // margin: 0 0.25rem;
+      // color: black;
+
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background-color: $footer-background-color;
+
+      @media (max-width: 32rem) {
+        border: solid 1px #fff;
+        box-shadow: rgba(0, 0, 0, 0.4) 0 3px 6px 0;
+      }
+
+      text-decoration: none;
+
+      transition: all 0.2s ease-in-out;
+
+      .icon {
+        display: block;
+        margin: 0 auto;
+
+        font-family: "Material Icons";
+        font-size: 22px;
+        text-transform: none;
+        // align-items: center;
+        color: white;
+        // display: inline-block;
+        white-space: nowrap;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+    }
+
+    .footer-description {
+      text-align: center;
+      margin-top: 6px;
+
+      font-size: 12px;
+
+      white-space: nowrap;
+
+      @media (max-width: 32rem) {
+        display: none;
+      }
+    }
+
+    &:hover {
+      .footer-link {
+        background-color: $body-link-color;
+      }
+
+      .footer-description {
+        color: $body-link-color;
+      }
+    }
+  }
 }
 
 @font-face {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialicons/v92/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
-}
-
-.icon {
-  font-family: 'Material Icons';
-  font-size: 19px;
-  text-transform: none;
-  align-items: center;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: black;
-  color: white;
-  display: inline-block;
-  white-space: nowrap;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+  src: url(https://fonts.gstatic.com/s/materialicons/v92/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
+    format("woff2");
 }

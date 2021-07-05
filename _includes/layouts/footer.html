@@ -1,11 +1,22 @@
 {% include layouts/lang.html %}
 
 <div class="footer-wrap">
-<a class="footer-link" href="#"><span class="icon">arrow_upward</span></a>
-<a class="footer-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url&entry.1839091442={{ page.url }}" target="_blank"><span class="icon">feedback</span></a>
-{% unless page.sinclo %}
-<a class="footer-link" href="{% if lang == "en" %}/en{% endif %}/supports/" target="_blank"><span class="icon">contact_support</span></a>
-{% endunless %}
+  <div class="footer-item">
+    <a class="footer-link" href="#"><span class="icon">arrow_upward</span></a>
+    <div class="footer-description">上に戻る</div>
+  </div>
+
+  <div class="footer-item pc-only">
+    <a class="footer-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url&entry.1839091442={{ page.url }}" target="_blank"><span class="icon">feedback</span></a>
+    <div class="footer-description">フィードバック</div>
+  </div>
+
+  {% unless page.sinclo %}
+    <div class="footer-item">
+      <a class="footer-link" href="{% if lang == "en" %}/en{% endif %}/supports/" target="_blank"><span class="icon">contact_support</span></a>
+      <div class="footer-description">サポート窓口</div>
+    </div>
+  {% endunless %}
 </div>
 
 <footer>
