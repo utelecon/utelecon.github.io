@@ -14,6 +14,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
 - 301人以上のミーティングやウェビナーを申請により限定的に提供しています．詳細は「[Zoomの追加ライセンス](license)」のページをご覧ください．
 
 ## 基本的な使い方（会議室に参加する場合）
+{:#join}
 
 1. 開催者から会議室の情報（URLなど）を得る．
     - 授業の場合は[授業URLの連絡方法（学生向け）](/oc/url)をご参照ください．
@@ -24,6 +25,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
     - スライドによる説明 ([pptx](files/Zoom-how.pptx), [pdf](files/Zoom-how.pdf))
 
 ## 基本的な使い方（会議室を開く場合）
+{:#host}
 
 1. [東京大学のアカウントへのサインイン](zoom_signin)
 1. [会議室を作成](create_room)
@@ -39,6 +41,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
     - スライドによる説明 ([pptx](files/Zoom-how.pptx), [pdf](files/Zoom-how.pdf))
 
 ## さまざまな機能の使い方
+{:#features}
 
 - 全員に共通の機能
     - [[マイク・カメラ] マイクとカメラを使う](how/common/use_mic_and_camera)
@@ -55,6 +58,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
     - [[レポート] 出席管理を行う](how/faculty_members/attendance)
 
 ## その他の情報
+{:#others}
 
 - [ホスト，共同ホストができること](how/common/host_cohost)
 - [オンライン授業において Zoom の通信量を抑えるには](/articles/zoom-data-traffic)
