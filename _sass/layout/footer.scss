@@ -79,15 +79,8 @@ footer {
   padding: 12px 4px 10px;
 
   @media (min-width: 32rem) {
-    background-color: #fff;
-    border: solid 1px #ccc;
-
-    border-top-left-radius: 0.3rem;
-    border-top-right-radius: 0.3rem;
-
-    box-shadow: rgba(0, 0, 0, 0.4) 0 3px 6px 0;
-
     right: 1rem;
+    padding: 12px 4px 0;
   }
 
   .pc-only {
@@ -97,7 +90,7 @@ footer {
   }
 
   .footer-item {
-    width: 90px;
+    width: 100px;
     flex: 1 1 0%;
     text-align: center;
 
@@ -105,6 +98,19 @@ footer {
 
     @media (max-width: 32rem) {
       width: 60px;
+    }
+
+    @media (min-width: 32rem) {
+      padding: 10px 4px;
+      margin: 0 8px;
+
+      background-color: #fff;
+      border: solid 1px #ccc;
+
+      border-top-left-radius: 0.3rem;
+      border-top-right-radius: 0.3rem;
+
+      box-shadow: rgba(0, 0, 0, 0.2) 0 3px 6px 0;
     }
 
     .footer-link {
