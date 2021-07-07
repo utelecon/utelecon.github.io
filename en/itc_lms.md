@@ -32,7 +32,7 @@ All courses registered in UTAS are automatically registered in ITC-LMS for use.
 ### During classes
 - [Let your students know the code for attendance](/en/lms_lecturers/attendances)
 - [Confirm attendance](/en/lms_lecturers/view_attendances)
-- [Apply quizzes](/en/lms_lecturers/itc-quizzes)
+- Apply quizzes(coming soon)
 
 ## Reference information
 - [ITC-LMS website](https://www.ecc.u-tokyo.ac.jp/itc-lms/)
