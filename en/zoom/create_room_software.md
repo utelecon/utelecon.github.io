@@ -6,18 +6,18 @@ This page provides information on how to schedule a Zoom Meeting with the Zoom A
 
 1. Open the Zoom App.
 2. Click “Sign In” to access the Zoom sign-in page.
-  ![](img/zoom_signin_4.png)
+  ![](/zoom/img/zoom_signin_4.png)
 3. On the Zoom sign-in page, press “SSO”, or “Sign in with SSO”. (Signing in with UTokyo Account email address and password via Zoom App is unavailable)
-  ![](img/zoom_signin_5.png)
+  ![](/zoom/img/zoom_signin_5.png)
 4. Enter `u-tokyo-ac-jp` in the “Company Domain” field. (Note that `ac` is preceded and followed by a hyphen, not a period.)
-  ![](img/zoom_signin_6.png)
+  ![](/zoom/img/zoom_signin_6.png)
 5. You will be redirected to the UTokyo Account sign-in webpage. Sign in to your UTokyo account. (It is possible that this page will not appear if you have already signed into your UTokyo Account.)
-  ![](img/zoom_signin_2.png)
+  ![](/zoom/img/zoom_signin_2.png)
 6. Press “Schedule”.
-  ![](img/zoom_top2.png)
+  ![](/zoom/img/zoom_top2.png)
 7. Schedule the meetings with the information as follows.
-  ![](img/zoom_schedule.png)  
-  ![](img/zoom_schedule_detail.png) 
+  ![](/zoom/img/zoom_schedule.png)  
+  ![](/zoom/img/zoom_schedule_detail.png) 
 
 The following are some supplementary explanations.
 1. **Video**: Whether to have video on or off at the beginning of the meeting can be set for both host and participants individually.
@@ -27,7 +27,7 @@ The following are some supplementary explanations.
 **Allow participants to join anytime**: Participants are not allowed to join the meeting before the host if this option is disabled. We recommend that you enable this option if you would like other participants to join the meeting earlier and have a talk.
 **Mute participants upon entry**: We recommend that you enable this option if you would like to announce something at the beginning of the meeting.
 5. Check the meeting information and **copy the Zoom meeting URL** listed under “Join Zoom Meeting”. Send email notifications to participants.
-  ![](img/zoom_schedule_info.png)
+  ![](/zoom/img/zoom_schedule_info.png)
 
 * **The password information is included in the URL** by default. Therefore, sharing the password separately is not required. 
 * Some participants may access the Zoom meeting with the URL listed on the right of “Find your local number” if you also shared information other than the abovementioned URL. We recommend that you **only share the URL of the meetings**, instead of copying the whole invitation.
