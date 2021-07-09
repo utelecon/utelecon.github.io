@@ -1,6 +1,6 @@
 ---
 title: FAQ
-lang:en
+lang: en
 ---
 
 {% include sso.html %}

@@ -24,9 +24,9 @@
       <div>
         <a href="/{% if lang == "en" %}en/{% endif %}">TOP</a> | {%
           if lang == "en"
-            %}<a href="{{ page.url | replace_first: "en/", "" }}">日本語</a>{%
+            %}<a href="{{ page.url | replace: '.html', '' | replace_first: 'en/', '' }}">日本語</a>{%
           else
-            %}<a href="/en{{page.url}}">English</a>{%
+            %}<a href="/en{{ page.url | replace: '.html', '' }}">English</a>{%
           endif
         %}
       </div>
