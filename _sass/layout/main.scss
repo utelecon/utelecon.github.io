@@ -1,6 +1,3 @@
-$text-color: $black-gray;
-$body-link-color: #003498;
-
 main {
   word-wrap: break-word;
   text-align: justify;
@@ -57,7 +54,7 @@ main {
 
   summary {
     cursor: pointer;
-    color: $body-link-color;
+    color: $link-color;
     &:hover {
       text-decoration: underline;
     }
@@ -140,7 +137,7 @@ main {
   li > a {
     display: block;
     border-top: 1px solid white;
-    color: #0056be;
+    color: $link-color-light;
     padding: 0.25em 1em 0.25em 0;
     &:hover {
       color: $link-color;
