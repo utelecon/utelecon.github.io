@@ -40,6 +40,9 @@ sitemap: false
     {% assign i = 0 %}
     {% assign j = 0 %}
     {% for item in site.data.notice.ja %}
+      {% if item.outdated %}
+        {% continue %}
+      {% endif %}
       {% assign i = i | plus: 1 %}
       {% unless i <= 4 or item.important %}
         {% continue %}
