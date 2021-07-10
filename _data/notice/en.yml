@@ -1,3 +1,6 @@
+# contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
+# "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
+# "outdated: true"を含めるとトップページに表示されなくなります（通常の利用は想定していない隠し機能です）．
 -
   date: 2021-01-26
   content: "<a href=\"/notice/20210126-domain-change\">The domain name of this site has been changed to https://utelecon.adm.u-tokyo.ac.jp/.</a> Existing links (i.e. https://utelecon.github.io/en/ ) and bookmarks will continue to work via the old URL."

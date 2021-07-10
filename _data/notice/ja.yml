@@ -1,3 +1,5 @@
+# contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
+# "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
   date: 2021-06-30
   content: "<a href=\"/notice/20210630-site-change\">utelecon ポータルサイト更新のお知らせ</a>"

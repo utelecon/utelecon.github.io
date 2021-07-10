@@ -3,6 +3,8 @@ title: Notice
 lang: en
 ---
 
+{% comment %} To add notice here, edit `_data/notice/en.yml` {% endcomment %}
+
 <ul>
   {% for item in site.data.notice.en %}
     <li>
