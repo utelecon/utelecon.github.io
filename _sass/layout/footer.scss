@@ -89,10 +89,11 @@ footer {
     }
   }
 
-  .footer-item {
+  .footer-link {
     width: 100px;
     flex: 1 1 0%;
     text-align: center;
+    text-decoration: none;
 
     cursor: pointer;
 
@@ -113,7 +114,7 @@ footer {
       box-shadow: rgba(0, 0, 0, 0.2) 0 3px 6px 0;
     }
 
-    .footer-link {
+    .footer-icon {
       // display: inline-block;
       display: flex;
       align-items: center;
@@ -132,8 +133,6 @@ footer {
         border: solid 1px #fff;
         box-shadow: rgba(0, 0, 0, 0.4) 0 3px 6px 0;
       }
-
-      text-decoration: none;
 
       transition: all 0.2s ease-in-out;
 
@@ -160,6 +159,7 @@ footer {
       font-size: 12px;
 
       white-space: nowrap;
+      color: $footer-background-color;
 
       @media (max-width: 32rem) {
         display: none;
@@ -167,7 +167,7 @@ footer {
     }
 
     &:hover {
-      .footer-link {
+      .footer-icon {
         background-color: $body-link-color;
       }
 

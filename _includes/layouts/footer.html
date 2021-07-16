@@ -1,21 +1,21 @@
 {% include layouts/lang.html %}
 
 <div class="footer-wrap">
-  <div class="footer-item pc-only">
-    <a class="footer-link" href="javascript: scroll({top: 0, behavior: 'smooth'});"><span class="icon">arrow_upward</span></a>
+  <a class="footer-link pc-only" href="javascript: scroll({top: 0, behavior: 'smooth'});">
+    <div class="footer-icon"><span class="icon">arrow_upward</span></div>
     <div class="footer-description">上に戻る</div>
-  </div>
+  </a>
 
-  <div class="footer-item pc-only">
-    <a class="footer-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url&entry.1839091442={{ page.url }}" target="_blank"><span class="icon">feedback</span></a>
+  <a class="footer-link pc-only" href="https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url&entry.1839091442={{ page.url }}" target="_blank">
+    <div class="footer-icon"><span class="icon">feedback</span></div>
     <div class="footer-description">フィードバック</div>
-  </div>
+  </a>
 
   {% unless page.sinclo %}
-    <div class="footer-item">
-      <a class="footer-link" href="{% if lang == "en" %}/en{% endif %}/supports/" target="_blank"><span class="icon">contact_support</span></a>
+    <a class="footer-link" href="{% if lang == "en" %}/en{% endif %}/supports/" target="_blank">
+      <div class="footer-icon"><span class="icon">contact_support</span></div>
       <div class="footer-description">サポート窓口</div>
-    </div>
+    </a>
   {% endunless %}
 </div>
 
