@@ -5,7 +5,7 @@ lang: en
 
 {% include sso.html %}
 
-If this FAQ cannot solve your problem, please contact the [Technical Support Desk](/en/supports).
+If this FAQ cannot solve your problem, please contact the [Technical Support Desk](/en/support/).
 
 ## Questions regarding classes in general
 
@@ -40,13 +40,13 @@ Some options for taking attendance are:
 * Please refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin) for instructions on how to sign in.
 
 #### Q. I received the error message “ Error AADSTS50105…” and cannot sign in to Zoom.
-* Please retry after a while. If the problem persists, kindly contact the [Technical Support Desk](/en/supports).
+* Please retry after a while. If the problem persists, kindly contact the [Technical Support Desk](/en/support/).
 
 
 #### Q. My account license type is shown as “Basic”, instead of “Licensed”.
 * You are likely not signed in properly to your UTokyo Zoom Account. Please consult [Sign-in Methods for Zoom](/en/zoom/zoom_signin) and try again.
 * If you are using a non-10-digit Common ID Zoom account, please refer to [Signing in to Zoom with a non-UTokyo ID](/en/notice/zoom-address-new). Your license type should become “licensed” after switching your sign-in email to [10-digit Common ID]@utac.u-tokyo.ac.jp.
-* If your license type remains “Basic” even after signing in with [10-digit Common ID]@utac.u-tokyo.ac.jp, please contact the [Technical Support Desk](/en/supports) for assistance.
+* If your license type remains “Basic” even after signing in with [10-digit Common ID]@utac.u-tokyo.ac.jp, please contact the [Technical Support Desk](/en/support/) for assistance.
 
 ### Trouble joining a meeting
 
@@ -172,7 +172,7 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 
 
 * If you are taken to the “You need access” page, but you are already signed in with ECCS Cloud Email, and your ECCS Cloud Email address (xxx@g.ecc.u-tokyo.ac.jp) shows up under “You’re signed in as”:
-  * We are currently experiencing issues with some ECCS Cloud Email accounts not being able to access UTokyo-exclusive websites even though they are correctly signed in. Your account may be affected by this issue. We will need to reset your account to resolve the issue. To do so, please contact the Technical Support Desk using the [email form](/en/supports/#email-form). For more details, please refer to [ECCS News](https://www.ecc.u-tokyo.ac.jp/announcement/2021/03/30_3304.html)(Japanese only). Apologies for the inconvenience.
+  * We are currently experiencing issues with some ECCS Cloud Email accounts not being able to access UTokyo-exclusive websites even though they are correctly signed in. Your account may be affected by this issue. We will need to reset your account to resolve the issue. To do so, please contact the Technical Support Desk using the [email form](/en/support/#email-form). For more details, please refer to [ECCS News](https://www.ecc.u-tokyo.ac.jp/announcement/2021/03/30_3304.html)(Japanese only). Apologies for the inconvenience.
 
 
 ### Q. I forgot my password / I cannot change my password. What can I do?

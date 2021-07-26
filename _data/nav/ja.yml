@@ -12,7 +12,7 @@
       url: "/online/"
     -
       name: "サポート窓口"
-      url: "/supports/"
+      url: "/support/"
     -
       name: "2021年春のシステム変更"
       url: "/change2021s/"
@@ -82,13 +82,13 @@
   contents:
     -
       name: "サポート窓口"
-      url: "/supports/"
+      url: "/support/"
     -
       name: "よくある質問 (FAQ)"
       url: "/faq/"
     -
       name: "システム運用状況（障害情報等）"
-      url: "/supports/service-status"
+      url: "/support/service-status"
     -
       name: "授業入室トラブル報告"
       url: "/forms/et"
