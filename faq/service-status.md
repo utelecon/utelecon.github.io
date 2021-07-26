@@ -1,27 +1,29 @@
 ---
-title: オンライン授業で用いるサービスの運用状況
+title: システム運用状況（障害情報等）一覧
 ---
 
-* さまざまな情報サービスの状況
-1. [downdetector](https://downdetector.jp/)
+東京大学で運用・契約している主な情報システムについて，運用状況（障害情報等）を掲載しているページを挙げます．
 
-* Office365
-1. [Office365 service status](https://portal.office.com/servicestatus)
+- **UTokyo Account**
+    - [UTokyo Accountのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)
+- **ITC-LMS・ECCS端末**
+    - [広報](https://www.ecc.u-tokyo.ac.jp/announcement/daily.html)
+    - [障害情報](https://www.ecc.u-tokyo.ac.jp/announcement/trouble.html)
+- **Zoom**
+    - [Zoom Service Status](https://status.zoom.us/)
+    - [Zoom Release Notes](https://support.zoom.us/hc/en-us/sections/201214205-Release-Notes)
+- **Webex**
+    - [Webex Service Status](https://status.webex.com/service/status?lang=en_US)
+    - [What's New](https://help.webex.com/en-us/xcwws1/What-s-New-for-the-Latest-Channel-of-Webex-Meetings)
+- **ECCSクラウドメール (Google Workspace)**
+    - [Google Workspace ステータス ダッシュボード](https://www.google.co.jp/appsstatus/dashboard/)
+    - [ECCSの広報](https://www.ecc.u-tokyo.ac.jp/announcement/daily.html)
+    - [ECCSの障害情報](https://www.ecc.u-tokyo.ac.jp/announcement/trouble.html)
+- **UTokyo Microsoft License (Microsoft 365)**
+    - [Service Status](https://portal.office.com/servicestatus)
+- **UTokyo WiFi**
+    - [UTokyo WiFiのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html)
+- **UTNET**（UTokyo WiFiを含むキャンパス内のネットワーク）
+    - [お知らせ](https://www.nc.u-tokyo.ac.jp/infoall)
 
-* G Suite (ECCSクラウドメール、Meetsなど）
-1. [S Suite Service Status](https://www.google.com/appsstatus#hl=ja&v=status)
-
-* Zoom
-1. [Zoom Service Status](https://status.zoom.us/)
-1. [Zoom Release Notes](https://support.zoom.us/hc/en-us/sections/201214205-Release-Notes)
-
-* Webex
-1. [Webex Service Status](https://status.webex.com/service/status?lang=en_US)
-1. [What's New](https://help.webex.com/en-us/xcwws1/What-s-New-for-the-Latest-Channel-of-Webex-Meetings)
-
-* 東京大学情報基盤センター
-1. [障害停止情報](https://www.itc.u-tokyo.ac.jp/services/system-failure/)
-
-いつもはつながるサービスにつながらない場合はこれらのページを確認して下さい。
-（最も高い稼働目標のサービスでも99.9%ですので、1か月の0.1% 約43分は停止する可能性があります。
-そのことを認識してトラブル時の対応（代替手段を確保しておくなど）をお願いします。)
+また，学外事業者の提供するZoom・Webex・ECCSクラウドメール (Google Workspace)・UTokyo Microsoft License (Microsoft 365) の各システムについては，SNSの書き込みをもとに障害の可能性を表示するサービスである「[Downdetector](https://downdetector.jp/)」の情報も，障害が発生しているかどうかの判断の参考となるかもしれません（各システムの提供元からの公式の情報ではないことに留意して利用してください）．
