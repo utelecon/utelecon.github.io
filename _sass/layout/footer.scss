@@ -67,7 +67,6 @@ footer {
 }
 .footer-wrap {
   display: flex;
-  // justify-content: space-evenly;
   position: fixed;
   right: 0;
   bottom: 0;
@@ -78,12 +77,12 @@ footer {
 
   padding: 12px 4px 10px;
 
-  @media (min-width: 32rem) {
+  @media not all and (max-width: 32rem) {
     right: 1rem;
     padding: 12px 4px 0;
   }
 
-  .pc-only {
+  .wide-only {
     @media (max-width: 32rem) {
       display: none;
     }
@@ -91,17 +90,15 @@ footer {
 
   .footer-link {
     width: 100px;
-    flex: 1 1 0%;
+    display: block;
     text-align: center;
     text-decoration: none;
-
-    cursor: pointer;
 
     @media (max-width: 32rem) {
       width: 60px;
     }
 
-    @media (min-width: 32rem) {
+    @media not all and (max-width: 32rem) {
       padding: 10px 4px;
       margin: 0 8px;
 
@@ -115,14 +112,9 @@ footer {
     }
 
     .footer-icon {
-      // display: inline-block;
       display: flex;
       align-items: center;
       margin: 0 auto;
-
-      // bottom: 1rem;
-      // margin: 0 0.25rem;
-      // color: black;
 
       width: 3rem;
       height: 3rem;
@@ -134,22 +126,20 @@ footer {
         box-shadow: rgba(0, 0, 0, 0.4) 0 3px 6px 0;
       }
 
-      transition: all 0.2s ease-in-out;
-
-      .icon {
+      .material-icon {
         display: block;
         margin: 0 auto;
 
         font-family: "Material Icons";
         font-size: 22px;
         text-transform: none;
-        // align-items: center;
         color: white;
-        // display: inline-block;
         white-space: nowrap;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
       }
+
+      transition: all 0.2s ease-in-out;
     }
 
     .footer-description {
@@ -164,6 +154,8 @@ footer {
       @media (max-width: 32rem) {
         display: none;
       }
+
+      transition: all 0.2s ease-in-out;
     }
 
     &:hover {
