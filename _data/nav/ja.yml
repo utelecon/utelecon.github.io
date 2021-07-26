@@ -87,6 +87,9 @@
       name: "よくある質問 (FAQ)"
       url: "/faq/"
     -
+      name: "システム運用状況（障害情報等）"
+      url: "/supports/service-status"
+    -
       name: "授業入室トラブル報告"
       url: "/forms/et"
     -
