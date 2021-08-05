@@ -27,7 +27,7 @@ sinclo: true
 * メディアリンク社のsincloサービスを利用しています．接続が不安定となる場合がありますが，お待ちいただいても改善しない場合には，Zoom窓口・メールフォーム窓口をご利用ください．
 
 <div>対応時間（自動応答）：24時間</div>
-<div>対応時間（オペレータ対応）：平日 8時25分から18時40分まで</div>
+<div>対応時間（オペレータ対応）：平日 10時20分から16時45分まで</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 画面右下のウィジェット<br>「チャットサポートで質問できます」から
@@ -42,7 +42,7 @@ Zoomの会議室において，学生スタッフ（コモンサポーター）�
 * 会議室の録音・録画は行っておりません．利用者も**録音・録画等の行為を行わないでください**．
 * 会議室情報へのアクセスには，UTokyo Accountでのサインインが必要です．
 
-<div>対応時間：平日 8時25分から18時40分まで</div>
+<div>対応時間：平日 10時20分から16時45分まで</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">会議室情報（リンク先の「Zoomサポートの会議室情報」を確認してください）</a>
