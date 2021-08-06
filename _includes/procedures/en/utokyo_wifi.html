@@ -115,35 +115,43 @@
 
 
 {% unless include.part == "important" %}
-<ul class="procedure">
+    <ul class="procedure">
 {% endunless %}
+        
 {% include procedures/en/_important.html procedure=apply_for_account type="Task" heading="Apply for an account" %}
-{% unless include.part == "important" %}
-<li><strong>Task: Try to connect to it</strong>
-<ul>
-<li>This work can be done only in places on campus where UTokyo WiFi is available.</li>
-</ul>
-<ol>
-<li>UTokyo WiFi is a Wi-Fi service whose name (SSID) is <code>UTokyo-WiFi</code>. Please select this on the Wi-Fi connection screen of your device (smartphone or computer).</li>
-<li>Depending on the device, you may need to take some steps such as checking the certificate.</li>
-<li>When asked to enter your user ID and password, enter the user ID and password written in the email notification you received after your application (not your UTokyo Account information).</li>
-<li>Once the connection is established, you can use it just like a normal Wi-Fi connection.</li>
-</ol>
-<ul>
-<li>
-<details>
-  <summary>Help for when this procedure does not work</summary>
-  <ul>
-    <li>If the network is weak, the connection may be interrupted while you are working and it may not work. Please try a different location or time of day.</li>
-    <li>User ID is an 8-digit alphanumeric character starting with the letter "s" or "w". Make sure to include the letters of the alphabet.</li>
-    <li>Make sure that you have entered the correct symbols in the password. Try copying and pasting the password from the notification email.</li>
-    <li>If you are copying and pasting from a notification email, make sure that there are no extra spaces before or after it.</li>
-    <li>If you have applied for an account more than once, only one of the accounts will be valid. Please make sure that only the account listed on the UTokyo WiFi account menu will be valid.</li>
-  </ul>
-  If you are still having trouble, please contact the support desk for help. <a href="https://www.sodan.ecc.u-tokyo.ac.jp/about-us/tutors-working/">There are student ECCS tutors available at various locations on campus</a>, and you can consult with them in person. You can also consult at the <a href="/supports/">support desk</a> on this site.
-</details>
-</li>
-</ul>
-</li>
+
+<!-- 実際につないでみる手順 -->
+{% unless include.part == "important" %} 
+    <li><strong>Task: Try Connecting to the WiFi</strong>
+        <ul>
+            <li>This task can be done only on campus where UTokyo WiFi is available.</li>
+        </ul>
+
+        <ol>
+            <li>The name (SSID) of the UTokyo WiFi service is <code>UTokyo-WiFi</code>. 
+                Please select this name on the Wi-Fi connection screen of your device (smartphone or computer). </li>
+            <li>Depending on the device, you may need to take additional steps such as checking the certificate.</li>
+            <li>When asked to enter your user ID and password, enter the user ID and password in the notification email you received after application (not your UTokyo Account information).</li>
+            <li>Once the connection is established, you can use it just like a normal Wi-Fi connection.</li>
+        </ol>
+
+        <ul> <!-- 手順がうまくいかないときのヘルプ-->
+            <li>
+                <details> <!-- 折りたたみ部分 -->
+                    <summary>Help for when this procedure does not work</summary>
+                    <ul>
+                        <li>If the network is weak, you may get disconnected during the task. Please try at a different location or time of the day.</li>
+                        <li>The user ID is an 8-digit alphanumeric character starting with the letter "s" or "w". Make sure to include the letters of the alphabet.</li>
+                        <li>Make sure that you have entered the correct symbols in the password. Try copying and pasting the password from the notification email.</li>
+                        <li>If you are copying and pasting from the notification email, make sure that there are no extra spaces before or after the copied characters.</li>
+                        <li>If you have applied for an account more than once, only one of the accounts will be valid. Please make sure to use only the account listed on the UTokyo WiFi account menu.</li>
+                    </ul>
+                    If you are still having trouble, please contact the support desk for help. 
+                    There are <a href="https://www.sodan.ecc.u-tokyo.ac.jp/about-us/tutors-working/">student ECCS tutors available at various locations on campus</a>. You can consult with them in person. 
+                    You can also consult the <a href="/en/supports/">Technical Support Desk</a> on this site.
+                </details>
+            </li>
+        </ul>
+    </li>
 </ul>
 {% endunless %}
