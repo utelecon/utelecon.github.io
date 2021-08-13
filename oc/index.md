@@ -152,7 +152,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 
 {% include procedures/webex.html %}
 
-### ECCSクラウドメール (Google Workspace))
+### ECCSクラウドメール (Google Workspace)
 {:#google}
 
 {{ about_google }}
