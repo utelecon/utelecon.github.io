@@ -2,8 +2,6 @@
 title: Webexへのサインイン
 ---
 
-{% include sso.html %}
-
 Webexへのサインインには，[UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)が必要です．
 
 1. [東京大学のWebexページ](https://utelecon.webex.com/)で「サインイン」ボタンを押すなどして，Webexのサインイン画面を開いてください．

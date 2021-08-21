@@ -3,8 +3,6 @@ title: Signing in to Webex
 lang: en
 toc: false
 ---
-{% include sso.html %}
-
 
 An [UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html) is necessary to sign into Webex.
 
