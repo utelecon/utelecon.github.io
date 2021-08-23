@@ -3,8 +3,6 @@ title: FAQ
 lang: en
 ---
 
-{% include sso.html %}
-
 If this FAQ cannot solve your problem, please contact the [Technical Support Desk](/en/support/).
 
 ## Questions regarding classes in general
