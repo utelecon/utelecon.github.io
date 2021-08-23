@@ -20,6 +20,8 @@ title: 授業URLの連絡方法（教員向け）
 
 手順については，以下をご確認ください．
 
+【授業URL追加の手順】
+
 - [手順動画](https://youtu.be/JeBwwDfhJJw)
 - ITC-LMSのお知らせ「[「オンライン授業情報」の追加について](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/16_3208.html)」でも手順などの詳細を案内しています．
 
