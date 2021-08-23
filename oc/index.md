@@ -22,7 +22,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 
 ---
 
-（学部1年生向け）教養学部次期学部長メッセージ「[東京大学入学予定者とそのご家族のみなさまへ](https://www.c.u-tokyo.ac.jp/zenki/news/kyoumu/newstudentsandfamilies_20210319.pdf)」もご覧ください．
+（学部1年生向け）教養学部次期学部長メッセージ「[東京大学入学予定者とそのご家族のみなさまへ](https://www.c.u-tokyo.ac.jp/zenki/news/kyoumu/newstudentsandfamilies_20210319.pdf)」（2021年3月19日）もご覧ください．
 
 ## 東京大学におけるオンライン授業
 
@@ -52,7 +52,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 - **UTAS**：{{ about_utas }}
 - **ITC-LMS**：{{ about_itc_lms }}
 - **Zoom**, **Webex**：「同時双方向型」のオンライン授業で使うWeb会議システムです．基本的にはZoomを使いますが，授業によってはWebexを使うこともあります．
-- **ECCSクラウドメール (Google Workspace (旧 G Suite))**：{{ about_google }}
+- **ECCSクラウドメール (Google Workspace)**：{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
 - **UTokyo WiFi**：{{ about_utokyo_wifi }}
 - **ECCS端末**：{{ about_eccs }}
@@ -81,9 +81,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 
 - 授業に関しては，時間割や授業登録の手続きについてなど，所属の学部・研究科が出す情報もあります．こうした情報がどのように知らされるのか把握し，常に確認するようにしてください（わからない場合は所属の学部・研究科に問い合わせてください）．
 - キャンパスに入構する際には，[COVID-19 e-learning](https://www.u-tokyo.ac.jp/ja/general/COVID-19-elearning.html)を受講した上で，事前に[入構申請](https://www.u-tokyo.ac.jp/ja/general/COVID-19-entry-restrictions.html)が必要です．なお，これらの中には，各種情報システムのアカウントがないと利用できないものもありますので，そのためにも，大学のシステムを使えるようにしておく必要があります．
-  
-<div class="box">2021年度より入学される皆様へ：2021年度より新たに構成員になる方には，COVID-19 e-learningについて，2021年度版の受講をお願いいたします．2021年度版は，3月30日より公開されました．なお，2020年度版をすでに受けられた方は，2021年度版の差し替え分（動画教材1および動画教材2のpart1とpart4）を受講の上，確認テストを受けていただけますと幸いです．</div>
-  
+
 ## 困ったときは
 
 オンライン授業に関して，トラブルやうまくいかないこと，不安なことがあれば，**[サポート窓口](/support/)**にご相談ください．チャット・Web会議システムZoom・メールフォームの3つの方法で相談を受け付けており，学生スタッフ「コモンサポーター」と教職員が問題解決のお手伝いをします．
@@ -154,7 +152,7 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 
 {% include procedures/webex.html %}
 
-### ECCSクラウドメール (Google Workspace (旧 G Suite)))
+### ECCSクラウドメール (Google Workspace)
 {:#google}
 
 {{ about_google }}
