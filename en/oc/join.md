@@ -1,5 +1,5 @@
 --- 
-tittle: How to join a online class
+title: How to join a online class
 lang: en
 ---
 
