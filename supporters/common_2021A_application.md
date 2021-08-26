@@ -1,12 +1,11 @@
-
 ---
 title: 2021年度Aセメスター「コモンサポーター」募集のお知らせ
 ---
 
 <div style="text-align: right;">2021年8月31日</div>
-学生の皆さん　（または学生各位）
+学生の皆さん
 <div style="text-align: right;">情報システム本部
-2</div>　　　　　　　　　　　　　　　　　
+</div>　　　　　　　　　　　　　　　　　
 <div style="text-align: right;">コモンサポーター業務統括チーム（csadmin）</div>　　　　　　　　　　　　　　　　　
 
 
