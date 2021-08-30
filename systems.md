@@ -39,9 +39,9 @@ title: 東京大学のシステム
 ### 図書館・電子ジャーナル関連
 
 - **[東京大学OPAC](https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_search/)**：図書館の蔵書検索や貸出・予約等の手続きを行うシステムです．
-- 【学生向け】**[SSL-VPN Gatewayサービス](https://gateway2.itc.u-tokyo.ac.jp/)**：東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです．
+- **[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)**：東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです．
 - 【教職員向け】**[認証GWサービス](https://www.u-tokyo.ac.jp/adm/dics/ja/gateway.html)**：学内ネットワーク専用の事務システムや東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです．
-- [**GACoS** (Gateway to Academic Contents System)](https://www.dl.itc.u-tokyo.ac.jp/gacos/)：論文などの学術情報を探す際の「入り口」となるサイトです．
+- **[Literacy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy)**：論文などの学術情報を探す際の「入り口」となるサイトです．
 - [**TREE** (UTokyo REsource Explorer)](https://tokyo.summon.serialssolutions.com/)：さまざまなデータベース・電子ジャーナルを横断して学術情報を検索できる，東大構成員のためのシステムです．
 - **[E-journal & E-book Portal](https://vs2ga4mq9g.search.serialssolutions.com/)**：東京大学の契約している電子ジャーナル・電子ブックを探すためのシステムです．
 
