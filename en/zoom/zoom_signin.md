@@ -14,30 +14,31 @@ To sign in with <strong style="color: red;"> alternative email addresses (e.g. E
 ## Signing in from the UTokyo Account Zoom Webpage
 1. Access the UTokyo Zoom webpage [https://u-tokyo-ac-jp.zoom.us/](https://u-tokyo-ac-jp.zoom.us/).
 1. When the “UTokyo Zoom” page appears, click the “Config” button.
-![](img/zoom_signin_1.png){:.medium}
+![](/zoom/img/zoom_signin_1.png){:.medium}
 1. Sign in to your UTokyo Account. (The sign-in page will not show up if you are already signed in with your UTokyo Account.)
-![](img/zoom_signin_2.png){:.medium}
+![](/zoom/img/zoom_signin_2.png){:.medium}
 
 <details>
   <summary>Tips for resolving sign-in issues</summary>
   <ul>
-  <li><strong>If you cannot access the “UTokyo Zoom” page from the above link</strong>: This issue occurs when you are already signed in to Zoom with another account. To sign out, go to your <a href="https://zoom.us/profile">Zoom setting page</a>, click your profile picture (either your icon or the default person image) in the top-right corner, and click “Sign Out”. Then try accessing “UTokyo Zoom” again. <img src="img/zoom_signin_3.png" alt="" class="medium"></li>
+  <li><strong>If you cannot access the “UTokyo Zoom” page from the above link</strong>: This issue occurs when you are already signed in to Zoom with another account. To sign out, go to your <a href="https://zoom.us/profile">Zoom setting page</a>, click your profile picture (either your icon or the default person image) in the top-right corner, and click “Sign Out”. Then try accessing “UTokyo Zoom” again. <img src="/zoom/img/zoom_signin_3.png" alt="" class="medium"></li>
   </ul>
-If you have issues signing in, please reach out to <a href="/en/supports/">Technical Support Desk</a> for assistance.
+If you have issues signing in, please reach out to <a href="/en/support/">Technical Support Desk</a> for assistance.
 </details>
 
 ## Signing in from the Zoom App
 
 1. Click “Sign In” on the Zoom app, and open the Zoom sign-in screen.
-![](img/zoom_signin_4.png){:.medium}
+![](/zoom/img/zoom_signin_4.png){:.medium}
 1. On the Zoom sign-in screen, click “SSO” or “Sign in with SSO”. (You cannot sign in by entering your UTokyo Account email address and password.)
-![](img/zoom_signin_5.png){:.medium}
+![](/zoom/img/zoom_signin_5.png){:.medium}
+![](/zoom/img/zoom_signin_5_1.png){:.medium}
 1. Enter “u-tokyo-ac-jp” as your “company domain”. (Note that the characters before and after “ac” are hyphens, not underscores.)
-![](img/zoom_signin_6.png){:.medium}
+![](/zoom/img/zoom_signin_6.png){:.medium}
 1. You will be taken to the UTokyo Account sign-in page, where you enter your ID and password. (The sign-in page will not show up if you are already signed in with your UTokyo Account.)
-![](img/zoom_signin_2.png){:.medium}
+![](/zoom/img/zoom_signin_2.png){:.medium}
 
-If you have issues signing in, please reach out to <a href="/en/supports/">Technical Support Desk</a> for assistance.
+If you have issues signing in, please reach out to <a href="/en/support/">Technical Support Desk</a> for assistance.
 
 Tutorial Video
 <div style="text-align: center">

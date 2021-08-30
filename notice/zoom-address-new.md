@@ -30,10 +30,40 @@ title: 10桁の共通IDではないZoomアカウントの利用について
 
 現在利用している，10桁の共通IDではないZoomアカウント（ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` などのZoomアカウント）で作成・設定した会議室の情報やクラウド録画などを引き続き利用したい場合は，以下の手順でメールアドレスの変更を行ってください．
 
-1. [Zoomのプロフィールページ](https://zoom.us/profile) にアクセス（サインインしていない場合はサインイン）して，「サインイン用メールアドレス」の欄の右の方にある「編集」を押してください．<br>
-![](image/zoom-signinaddress.png)
-1. 新しいメールアドレスとして，<code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code>のように，10桁の共通IDの後に<code>@<em>utac</em>.u-tokyo.ac.jp</code>を付けたものを入力してください．<br>
-![](image/zoom_address_confirm.png)
-1. ECCSクラウドメールにメールが届きます．そのメール内の確認ボタンを押すと完了です．
+<ol>
+    <li>
+        <a href="https://zoom.us/profile">Zoomのプロフィールページ</a> にアクセス（サインインしていない場合はサインイン）して，「サインイン用メールアドレス」の欄の右の方にある「編集」を押してください．
+        <img src="image/zoom-signinaddress.png">
+    </li>
+    <li>
+        新しいメールアドレスとして，<code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code>のように，10桁の共通IDの後に<code>@<em>utac</em>.u-tokyo.ac.jp</code>を付けたものを入力してください．<img src="image/zoom_address_confirm.png">
+        <details>
+            <summary>ヘルプ：この手順で，メールアドレス「1234567890@utac.u-tokyo.ac.jp」は使用されています，と表示された場合</summary>
+            既に<code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code>というアカウントが存在しているため，先にそちらを削除する必要があります．<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUOUJaRDVGUEdDVERDNVozSUw1WEJTSE9ONi4u">10桁の共通ID@utac.u-tokyo.ac.jpのアカウント削除フォーム</a>を入力・送信してください．削除が完了したらメールが届きますので，その後あらためて上の手順でメールアドレスを変更してください．
+        </details>
+    </li>
+    <li>
+        ECCSクラウドメールにメールアドレス変更の確認メールが届きますので，そのメール内の確認ボタンを押してください．
+    </li>
+    <li>
+        <a href="https://zoom.us/profile">Zoomのプロフィールページ</a>の右上の人のマーク（自分のアイコンを設定している場合はアイコン）を押して「サインアウト」を選択し，Zoomから一度サインアウトしてください．
+    </li>
+    <li>
+        東京大学専用のZoomページ <a href="https://u-tokyo-ac-jp.zoom.us/">https://u-tokyo-ac-jp.zoom.us/</a>で「Config」ボタンを押して，UTokyo Accountでサインインしてください（<a href="/zoom/zoom_signin#browser">「Zoom サインイン方法」のページの「ブラウザからサインインする方法」</a>と同じ手順です）．
+        <img src="/zoom/img/zoom_signin_1.png">
+        <details>
+            <summary>ヘルプ：この手順でサインイン直後に「メールアドレスの確認」などと表示された場合</summary>
+            <img src="image/zoom_sso_update_email.png">
+            アカウントを東京大学の組織アカウント (UTokyo Zoom) に切り替えるためにメールによる確認が必要です．「メールアドレスの確認」ボタンを押して少し待つとECCSクラウドメールにメールが届くので，メールの指示に従って作業を行ってください．
+        </details>
+    </li>
+    <li>
+        <a href="https://zoom.us/profile">Zoomのプロフィールページ</a>で「ライセンスタイプ」という欄に「ライセンスあり ミーティング 300参加者」と書かれていればOKです．
+        <details>
+            <summary>ヘルプ：ライセンスタイプが「ベーシック」と表示されている場合</summary>
+            アカウント切り替え後にライセンスが付与されるまで約5分かかることがあるので，それまでしばらく待ってから，再読み込みしてもう一度確認してみてください．
+        </details>
+    </li>
+</ol>
 
-上の手順で，**メールアドレス「1234567890@utac.u-tokyo.ac.jp」は使用されています，という表示が出た場合**は，既に<code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code>というアカウントが存在しているため，先にそちらを削除する必要があります．[10桁の共通ID@utac.u-tokyo.ac.jpのアカウント削除フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUOUJaRDVGUEdDVERDNVozSUw1WEJTSE9ONi4u)を入力・送信してください．削除が完了したらメールが届きますので，その後あらためて上の手順でメールアドレスを変更してください．
+以上の手順でうまくいかないことがある場合は，[サポート窓口](/support/)に相談してください．

@@ -7,14 +7,12 @@
     <h1 class="title">{{ page.title }}</h1>
   {% endif %}
   
-  <div class="props">
-  {% if page.date %}
-  <div>{{ page.date }}</div>
+  {% if page.date or page.author %}
+    <div class="props">
+      {% if page.date %}<div>{{ page.date }}</div>{% endif %}
+      {% if page.author %}<div>{{ page.author }}</div>{% endif %}
+    </div>
   {% endif %}
-  {% if page.author %}
-  <div>{{ page.author }}</div>
-  {% endif %}
-  </div>
 
   {% capture toc %}{% include toc.html html=content %}{% endcapture %}
   {% assign toc = toc | rstrip %}

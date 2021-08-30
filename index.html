@@ -1,20 +1,19 @@
 ---
 title: オンライン授業・Web会議 ポータルサイト @ 東京大学
 layout: common
+sitemap: false
 ---
 
 {% include layouts/header.html is_top = true %}
 
 <main id="content">
 
-{% include sso.html %}
-
   <h2>まずはここから</h2>
   <div class="top__cards">
     <a href="/oc/">オンライン授業を受けるために<small>（学生向け）</small></a>
     <a href="/faculty_members/">オンライン授業を始めるために<small>（教員向け）</small></a>
     <a href="/online/">オンラインを活用するために</a>
-    <a href="/supports/">サポート窓口</a>
+    <a href="/support/">サポート窓口</a>
     <a href="/change2021s/">2021年春のシステム変更</a>
   </div>
 
@@ -25,17 +24,37 @@ layout: common
     <a href="/good-practice/">グッドプラクティス</a>
     <a href="/events/luncheon/">オンライン授業情報交換会</a>
     <a href="/questionnaire/">オンライン授業に関するアンケート</a>
-    <a href="/articles/copyright-overview">オンライン授業資料における著作物の取り扱い</a>
+  </div>
+
+  <h2>新着記事</h2>
+  <div class="top__cards">
+    <a href="/articles/google-form/">Googleフォームで小テストやアンケートを実施する</a>
+    <a href="/articles/slack-communication/">Slackで学生とコミュニケーションを取る方法</a>
+    <a href="/articles/zoom-data-traffic/">オンライン授業において Zoom の通信量を抑えるには</a>
   </div>
 
   <h2>お知らせ</h2>
+  {% comment %} お知らせの追加は `_data/notice/ja.yml` を編集してください {% endcomment %}
   <ul>
-    <li><span style="color:blue;">2021/05/13:</span> <a href="/notice/utokyoaccount20210520">5/20 20時から20時30分 UTokyo Account 認証基盤メンテナンスによる認証サービス停止について</a></li>
-    <li><span style="color:blue;">2021/04/09:</span> <a href="/notice/20210409-zoom-settings">オンライン授業などでのZoomの設定確認（認証・待機室・人数上限）のお願い</a></li>
-    <li><span style="color:blue;">2021/04/01:</span> <a href="/questionnaire/">2020年度Sセメスターオンライン授業に関するアンケート結果概要を公開しました．</a></li>
-    <li><span style="color:blue;">2021/03/30:</span> <a href="/notice/20210403-utnet">4/3～4にかけて，機器・回線移設作業に伴うシステムの停止が発生します．</a></li>
-    <li><span style="color:blue;">2021/03/21:</span> （教員用）3/25 10:00から<a href="/events/2021-03-25">オンライン講座「オンライン授業における Zoom の使い方」</a>を開催いたします．</li>
-    <li><span style="color:blue;">2021/03/15:</span> 東京大学の情報システムとそのサポート体制について新入生に向けて説明する資料<a href="/notice/getting_ready_for_online_classes_2021s.pdf">「オンライン授業を受けるために」 (PDF) </a>を作成しました．</li>
+    {% assign i = 0 %}
+    {% assign j = 0 %}
+    {% for item in site.data.notice.ja %}
+      {% if item.outdated %}
+        {% continue %}
+      {% endif %}
+      {% assign i = i | plus: 1 %}
+      {% unless i <= 4 or item.important %}
+        {% continue %}
+      {% endunless %}
+      {% assign j = j | plus: 1 %}
+      {% unless i <= 16 and j <= 8 %}
+        {% break %}
+      {% endunless %}
+      <li>
+        <span class="notice-date">{{ item.date }}</span>
+        {{ item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+      </li>
+    {% endfor %}
   </ul>
 
   <h2>東京大学のシステム</h2>
