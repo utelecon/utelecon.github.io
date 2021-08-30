@@ -1,6 +1,6 @@
 ---
 title: サポート窓口
-sinclo: true
+slug: support
 ---
 
 <div class="important-box">サポートの拡充を図るため，学生スタッフ「コモンサポーター」と教職員が共同で対応する新たな体制でサポートを行っています．</div>
