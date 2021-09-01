@@ -38,7 +38,7 @@ Please also remember **NOT to add your online class URL to sections in UTAS othe
 ### "UTokyo Online Class Search (UTAS Lite2, UTIL Lite)"
 {:#lite}
 
-The "[UTokyo Online Class Search (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)" (リンク貼り直しお願いします) is a system mainly used by students to obtain online class URLs when it is difficult to access ITC-LMS or UTAS. Information added to ITC-LMS's "Online course information" section and to UTAS's "Online Class URL" and "Online Class Information" sections are automatically added to this system.
+The "[UTokyo Online Class Search (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)" is a system mainly used by students to obtain online class URLs when it is difficult to access ITC-LMS or UTAS. Information added to ITC-LMS's "Online course information" section and to UTAS's "Online Class URL" and "Online Class Information" sections are automatically added to this system.
 There is no need for faculty members to add/edit the online class URL in this system. 
 
 ## Changing the Online Class URL
