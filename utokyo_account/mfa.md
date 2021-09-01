@@ -18,7 +18,7 @@ UTokyo Accountにおける多要素認証に関する情報はこのページで
 
 多要素認証を設定すると，それ以降UTokyo Accountにサインインする際，毎回，設定したSMSや専用のアプリなどで本人確認することが求められるようになります．
 
-セキュリティの観点からは多要素認証を設定することを推奨しますが，現時点においては多要素認証の設定は必須ではなく，多要素認証を設定しなくてもこれまで通りUTokyo Accountを利用することができます．ただし，新たに導入される教職員向けUTokyo VPNの利用には多要素認証の設定が必須となるので，UTokyo VPNを利用したい教職員は多要素認証を設定する必要があります（UTokyo VPNについての詳細は，[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)を参照してください）．
+セキュリティの観点からは多要素認証を設定することを推奨しますが，現時点においては多要素認証の設定は必須ではなく，多要素認証を設定しなくてもこれまで通りUTokyo Accountを利用することができます．ただし，新たに導入される教職員向けUTokyo VPNの利用には多要素認証の設定が必須となるので，UTokyo VPNを利用したい教職員は多要素認証を設定する必要があります（UTokyo VPNについての詳細は，[UTokyo Portalのページ（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_VPN.aspx)を参照してください）．
 
 ## UTokyo Accountにおける多要素認証の設定方法
 
