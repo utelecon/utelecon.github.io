@@ -13,7 +13,7 @@ title: "2021/09/15 説明会：2021年度秋学期 教育ICT/オンライン・�
 * **日時**：2021/9/15(水) 15:00-17:00 (終了後も質問を受け付けます)
 * **場所**：オンライン (Zoomミーティング; 下の「参加申込み」からお申し込みください)
 * **資料・録画**：このページで提供します.
-* **質疑応答**：Slidoで受け付けます. [https://app.sli.do/event/34ofdqya](https://app.sli.do/event/34ofdqya) (イベントコード `#utelecon20210915`` )からご参加ください.
+* **質疑応答**：Slidoで受け付けます. [https://app.sli.do/event/34ofdqya](https://app.sli.do/event/34ofdqya) (イベントコード `#utelecon20210915` )からご参加ください.
 
 ## 内容（予定）
 
