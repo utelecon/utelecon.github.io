@@ -1,6 +1,10 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2021-09-02
+  content: "[Aセメスターのクラスサポーター制度申し込みを開始しました](/supporters/class_2021)"
+  important: true
+-
   date: 2021-09-01
   content: "[2021年9月27日からUTokyo Accountに多要素認証を導入します](/utokyo_account/mfa)"
   important: true
