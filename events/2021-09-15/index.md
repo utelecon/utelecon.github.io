@@ -41,7 +41,7 @@ title: "2021/09/15 説明会：2021年度秋学期 教育ICT/オンライン・�
 
 ## 参加申込み
 
-こちらからお申込みください [説明会参加申し込みページ](https://u-tokyo-ac-jp.zoom.us/webinar/register/... )
+こちらからお申込みください [説明会参加申し込みページ](https://u-tokyo-ac-jp.zoom.us/meeting/register/tZUpcO2pqTwjGtXrXqsECv7qojaC2vaAl1e1)
 
 <!-- できるだけやる
 ## 事後アンケート

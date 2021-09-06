@@ -3,6 +3,7 @@ title: Orientations / Seminars
 lang: en
 ---
 
+* 2021/03/17 [Briefing session: Online Classes for 2021 A semester - Educational ICT and Online / Hybrid Classes (Japanese Only)](/events/2021-09-15/)
 * 2021/03/25 [Online Course How to use Zoom 2021 (Japanese Only)](/events/2021-03-25/)
 * 2021/03/17 [Briefing session: Toward an Online Classes for 2021 - Based on the Experiense of 2020 (Japanese Only)](/events/2021-03-17/)
 * 2020/09/11 [Briefing session: Toward an Online/ Hybrid Classes for A Semester - Based on the Experience of S emester (Japanese Only)](/events/2020-09-11/)
