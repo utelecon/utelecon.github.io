@@ -14,7 +14,8 @@ For students, please refer to "[How to Obtain the Online Class URL (for Students
 ## Important Rule: Use the ITC-LMS's "Online course information" section
 
 - Add/edit the online class URL **only on the ITC-LMS course page** and **only under the "Online course information" section**. ([Example of an ITC-LMS course page](https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=2020FEN-EE3d16L10J01))
-    - Please note that only entering the URL will not create a link. Click the pencil icon on the "Online Course Update" screen and bring up the "Create Link" screen to complete the link creation process.
+    - Please note that only entering the URL will not create a link. Click the link icon on the "Online Course Update" screen and bring up the "Create Link" screen to complete the link creation process.
+
     - It is helpful to input the meeting ID and passcode along with the online class URL, so that students can also easily join from applications on tablets. 
 - **Avoid adding the online class URL to sections other than the "Online course information" (do not add URL to sections such as "Information", "Forums", etc.)** for the following reasons:
     - In students' ITC-LMS, the "Online course information" section appears as a column in their list of registered classes. By adding the online class URL to the "Online course information" section, students can check the online class URL by just looking through the list and not having to open each course page.  
