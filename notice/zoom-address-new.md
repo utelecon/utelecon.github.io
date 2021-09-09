@@ -6,7 +6,7 @@ title: 10桁の共通IDではないZoomアカウントの利用について
 
 <details>
 <summary><code>1234567890@<em>g.ecc</em>.u-tokyo.ac.jp</code>のような10桁の共通IDのECCSクラウドメールのZoomアカウントをお使いの場合</summary>
-<code>1234567890@<em>g.ecc</em>.u-tokyo.ac.jp</code>のような10桁の共通IDのECCSクラウドメールのZoomアカウントは，原則として<a href="/change2021s/">2021年春のシステム変更</a>で<code>@<em>utac</em>.u-tokyo.ac.jp</code>に変更され，UTokyo Accountでサインインできるようになっていますので，このページで案内している作業を行う必要はありません．システム変更後にアカウントを作成したなどの理由で，現在も<code>1234567890@<em>g.ecc</em>.u-tokyo.ac.jp</code>のような10桁の共通IDのECCSクラウドメールのZoomアカウントを利用している場合は，UTokyo Accountでサインインすることはできませんので，このページの案内に従って変更をお願いいたします．
+<code>1234567890@<em>g.ecc</em>.u-tokyo.ac.jp</code>のような10桁の共通IDのECCSクラウドメールのZoomアカウントは，原則として<a href="/change2021s/">2021年春のシステム変更</a>において自動で<code>@<em>utac</em>.u-tokyo.ac.jp</code>に変更され，UTokyo Accountでサインインできるようになっていますので，このページで案内している作業を行う必要はありません．システム変更後に手動でアカウントを作成したなどの理由で，現在も<code>1234567890@<em>g.ecc</em>.u-tokyo.ac.jp</code>のような10桁の共通IDのECCSクラウドメールのZoomアカウントを利用している場合は，UTokyo Accountでサインインすることはできませんので，このページの案内に従って変更をお願いいたします．
 </details>
 
 ## 現在のアカウント（10桁の共通IDではないもの）が不要の場合
