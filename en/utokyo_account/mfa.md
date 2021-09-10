@@ -68,13 +68,13 @@ You will be directed to the authentication method setup page when you sign in to
                 <li>
                     The next procedure differs by the device that you working on.
                     <ul>
-                        <li><strong>Smart Phone (the same device where you installed the Microsoft Authenticator app)</strong>：
-                            Click "このリンクをクリックして、アカウントをアプリにペアリングします".
-                            <!-- Please 1. check the exact English words that appear and 
-                                        2. take a snapshot -->
-                            Check that your UTokyo Account appears in the Microsoft Authenticator app.
-                            <img src="xxxxxxxxxxxxxxxxx.png"></li>
-                        
+                        <li><strong>Smart Phone (the same device where you installed the Microsoft Authenticator app)</strong>：  
+                            <ol>
+                               <li> Click "このリンクをクリックして、アカウントをアプリにペアリングします". </li>
+                                    <!-- Please 1. check the exact English words that appear and 2. take a snapshot -->
+                               <li> Check that your UTokyo Account appears in the Microsoft Authenticator app. </li>
+                            </ol>
+                            <img src="xxxxxxxxxxxxxxxxx.png"></li> 
                         <li><strong>Other Devices (PC etc.)</strong>
                             <ol>
                                 <li>Read the instructions to add your UTokyo Account 
@@ -89,8 +89,7 @@ You will be directed to the authentication method setup page when you sign in to
                                 <li>Check that your UTokyo Account appears on the app. 
                                     <img src="xxxxxxxxxxxxxx.png"></li>
                             </ol>
-                        </li>
-                        
+                        </li>                        
                     </ul>
                 </li>
             </ol>
