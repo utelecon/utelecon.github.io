@@ -3,11 +3,6 @@ title: Using Multi-Factor Authentication for UTokyo Accounts
 lang: en
 ---
 
-{% capture test_capture %}
-test test
-{% endcapture%}
-
-{{ test_capture}}
 
 ## Introduction
 
@@ -42,7 +37,7 @@ To start using MFA for your UTokyo Account, please submit an application form.
 3. Click the "MFA Application Form"<!--Replace form name later --> in the menu on the left. 
 4. Read the MFA instructions carefully, then find "Enable MFA?" at the bottom of the page. Answer "Yes" and click "Save".<!-- item4 needs amendment later to match the actual form layout --> 
 
-### Step 2： Set Up the First Authentication Method
+### Step 2: Set Up the First Authentication Method
 <!-- 「本人確認方法」はMicrosoftのMFAウェブページの表現"authentication method"を採用 -->
 
 The next step is to set up the authentication method for MFA.
@@ -58,7 +53,7 @@ You will be directed to the authentication method setup page when you sign in to
     The setup procedure varies depending on the authentication method you add. 
     - **Microsoft Authenticator App**:
         Using the Microsoft Authenticator app is convenient 
-        because MFA for UTokyo Account uses Microsoft's services. 
+        since MFA for UTokyo Account uses Microsoft's services. 
         <!-- probably better to say "We recommend using Microsoft Authenticator app because .... ". 
             Need to check if we are recommending it? --> 
         <details>
@@ -73,19 +68,22 @@ You will be directed to the authentication method setup page when you sign in to
                 <li>After installing the app, go back to the setup page. Click "Next" to continue setup for the Microsoft Authenticator setup. </li>
                 <li>
                     The next procedure differs by the device that you working on.
+                    {% capture MSAuthenticatorSetupByDevice %}  
                     <ul>
-                        <li><strong>Smart Phone (the same device where you installed the Microsoft Authenticator app)</strong>：  
+                        <li><strong>Smart Phone (the same device where you installed the Microsoft Authenticator app)</strong>：
                             <ol>
-                               <li> Click "このリンクをクリックして、アカウントをアプリにペアリングします". </li>
-                                    <!-- Please 1. check the exact English words that appear and 2. take a snapshot -->
-                               <li> Check that your UTokyo Account appears in the Microsoft Authenticator app. </li>
+                                <li>Click "このリンクをクリックして、アカウントをアプリにペアリングします".</li>
+                                    <!-- Please 1. check the exact English words that appear and 
+                                            2. take a snapshot -->
+                                <li>Check that your UTokyo Account appears in the 
+                                    Microsoft Authenticator app.
+                                    <img src="xxxxxxxxxxxxxxxxx.png"></li>
                             </ol>
-                            <img src="xxxxxxxxxxxxxxxxx.png"></li> 
+                        </li>
                         <li><strong>Other Devices (PC etc.)</strong>
                             <ol>
-                                <li>Read the instructions to add your UTokyo Account 
-                                    in the Microsoft Authenticator app, 
-                                    and click "Next" to go to the QR code page.  
+                                <li>Read the instructions and  
+                                    click "Next" to go to the QR code page.  
                                     <img src="InitSetup_AuthenticatorApp02.png"></li>
                                 <li>Open the Microsoft Authenticator app on your smart phone, 
                                     select "Add account" from the icon in the upper-right, 
@@ -95,8 +93,9 @@ You will be directed to the authentication method setup page when you sign in to
                                 <li>Check that your UTokyo Account appears on the app. 
                                     <img src="xxxxxxxxxxxxxx.png"></li>
                             </ol>
-                        </li>                        
-                    </ul>
+                        </li>   
+                    </ul>{% endcapture %}
+                    {{ MSAuthenticatorSetupByDevice }} <!-- render caputured content -->
                 </li>
             </ol>
         </details>
@@ -111,21 +110,21 @@ You will be directed to the authentication method setup page when you sign in to
                     <img src="InitSetup_AuthenticatorApp01.png"></li>
                 <li>Follow the instructions until you reach the QR code page. </li>
                 <li>Scan the QR code with your authenticator app and 
-                    add complete the setup procedure. </li>
+                    complete the setup procedure. </li>
             </ol>
         </details>
 
     - **Phone Number**: 
-        You can add your phone number, and receive a call or text message to verify your identity．
+        You can add your phone number and receive a call or text message to verify your identity．
         <details>
             <summary>Setup Procedure</summary>
             <ol>
-                <li>Click "I want to use a different authenticator app" in the middle of the setup page.                     
-                    <img src="InitSetup_AuthenticatorApp01.png"></li>
-                <li>When asked "Which method would you like to add?", select "Phone", 
+                <li>Click "I want to use a different authenticator app" in the middle of the setup page.                     <img src="InitSetup_AuthenticatorApp01.png"></li>
+                <li>For "Which method would you like to add?", select "Phone", 
                     and then click "Add".
                     <img src="xxxxxxxxxxxxxxxxx.png"></li>
-                <li>When asked "What phone number would you like to use?", 
+                {% capture PhoneNumberSetup %}
+                <li>For "What phone number would you like to use?", 
                     select the appropriate country code (+81 for Japan) and 
                     input your phone number. Also choose to either 
                     receive a text message with a verification code ("Text me a code") 
@@ -142,6 +141,8 @@ You will be directed to the authentication method setup page when you sign in to
                         your identity." -->
                     <!-- <mark>「#」を押せと言われるので，スマホでのキーパッドの出し方を説明しないと
                         立ち往生する人が出る．</mark> -->
+                {% endcapture %}
+                {{ PhoneNumberSetup }} <!-- render captured content -->
             </ol>
         </details>
 
@@ -159,5 +160,82 @@ You will be directed to the authentication method setup page when you sign in to
         <img src="InitSetup_Completed01.png">
     8. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
 
+### Step3: Add Alternative Authentication Methods
+** Multiple authentication methods can be set up for MFA. We recommend that you add more than one method.** 
+Setting up multiple authentication methods reduces the risk of being completely locked out of your UTokyo Account. Even if your usual authentication method does not work (due to malfunction, changed phone number, etc.), you will still be able to sign in using other methods if you have set them up in advance. 
 
-<!-- Step 3以降 coming soon -->
+<!-- 「多要素認証の設定画面」は画面トップに"Security info"と書いてあるので、"Security info page"と訳した。-->
+Alternative authentication methods can be added from **[Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**. 
+Below are the procedures to add different authentication methods.
+<!-- <mark>TODO この手順がうまくいかないときのヘルプ：サインインが求められてしかも本人確認が求められたら？</mark> -->
+
+- **Microsoft Authenticator App**: Using the Microsoft Authenticator app is convenient 
+        since MFA for UTokyo Account uses Microsoft's services. If you possess more than one smart phone, you may add those phones as alternative authentication methods. 
+    <details>
+           <summary>Setup Procedure</summary>
+            <ol>
+                <li>
+                    Install the Microsoft Authenticator app on your smart phone 
+                    (if you haven't already done so).
+                    The Android version can be downloaded from 
+                    <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a> 
+                    and the iPhone version from 
+                    <a href="https://apps.apple.com/app/microsoft-authenticator/id983156458">App Store</a>. </li>
+                <li>Click "Add method" in the 
+                    <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Security info page</a>.
+                    <img src="InitSetup_Completed02.png"></li>
+                <li>For "Which method would you like to add?", 
+                    select "Authenticator app", and click "Add".</li>
+                <li>Click "Next" on the "Start by getting the app" screen. </li>
+                <li>
+                    The next procedure differs by the device that you working on.
+                    {{ MSAuthenticatorSetupByDevice }} 
+                    <!-- Reusing the same explanation in Step2 -->
+                </li>
+            </ol>
+        </details>
+
+- **Other Authenticator Apps**: 
+    <details>
+        <summary>Setup Procedure</summary>
+        <ol>
+            <li>Click "Add method" in the 
+                <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Security info page</a>.
+                <img src="InitSetup_Completed02.png"></li>
+                <li>For "Which method would you like to add?", 
+                    select "Authenticator app", and click "Add".</li>
+            <li>Click "I want to use a different authenticator app".</li>
+            <li>Follow the instructions until you reach the QR code page. </li>
+            <li>Scan the QR code with your authenticator app and 
+                complete the setup procedure. </li>
+        </ol>
+    </details>
+
+- **Phone Number**:
+    You can add your phone number and receive a call or text message to verify your identity．
+    There are three types of phones that can be added- "Phone", "Alternate phone", and "Office phone". 
+    You may add one phone number of each type 
+    (i.e. a total of three phone numbers can be added as your authentication method). 
+    The description of each phone type is as follows: 
+    - **Phone**：This is your main phone, such as your mobile phone. You can verify your identity either by receiving an SMS message or phone call. If you added your phone number as your first authentication method, it should be automatically become "Phone".
+    - **"Alternate phone"**：This is a backup phone you can add, such as your landline. You can only receive phone calls (SMS is not available) to verify your identity using this phone.
+    - **Office phone**：This is another backup phone you can add, such as your company (university)
+         phone. You can only receive phone calls (SMS is not available) to verify your identity 
+         using this phone. You can add your extension number (a short number that you input after
+         calling main office number to reach a specific person, team, etc. within the office). 
+        <!-- 「内線番号」の説明を少し変えました。当たり前なので必要ないかもしれません。-->
+        <details>
+            <summary>Setup Procedure</summary>
+            <ol>
+                <li>Click "Add method" in the 
+                    <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Security info page</a>.
+                    <img src="InitSetup_Completed02.png"></li>
+                <li>For "Which method would you like to add?", 
+                    select "Authenticator app", and click "Add".</li>
+                {{ PhoneNumberSetup }} <!--  reuse the same content in Step2 -->
+            </ol>
+        </details>
+
+In the screen that appears after clicking "Add method", "App password" and "Email" will also show up as choices for "Which method would you like to add?". However, please be aware that these cannot be used for sign-in authentication (they are for other purposes).
+
+<!-- Step 4 coming soon-->
