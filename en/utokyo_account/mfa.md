@@ -21,8 +21,6 @@ MFA will be available for all UTokyo Accounts after the MFA launch date. Users c
 
 It is recommended to have MFA set up for better security of your UTokyo Account. However, MFA setup is not mandatory at this time, and you can continue to use your UTokyo Account without MFA. The only exception is users of the new UTokyo VPN for faculty members. The new UTokyo VPN will require MFA, so faculty members who wish to use the system will need to set up MFA. (For more information about UTokyo VPN, please refer to the [UTokyo Portal page (for faculty members only)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_VPN.aspx).)
 
-
-## Setup Procedures
 ## MFA Initial Setup Procedure
 <!-- 
 英語版画像フォルダ：https://drive.google.com/drive/folders/1hEoxKmJBbxFKtPao5jvTZ81gaLQFUifw?usp=sharing 
