@@ -119,7 +119,8 @@ You will be directed to the authentication method setup page when you sign in to
         <details>
             <summary>Setup Procedure</summary>
             <ol>
-                <li>Click "I want to use a different authenticator app" in the middle of the setup page.                     <img src="InitSetup_AuthenticatorApp01.png"></li>
+                <li>Click "I want to use a different authenticator app" in the middle of the setup page.                     
+                     <img src="InitSetup_AuthenticatorApp01.png"></li>
                 <li>For "Which method would you like to add?", select "Phone", 
                     and then click "Add".
                     <img src="xxxxxxxxxxxxxxxxx.png"></li>
@@ -145,22 +146,21 @@ You will be directed to the authentication method setup page when you sign in to
                 {{ PhoneNumberSetup }} <!-- render captured content -->
             </ol>
         </details>
+5. You will be prompted to input your email address (if you haven't already done so).
+   Please input an email address address OTHER THAN your ECCS Cloud Email if possible, 
+   and click "Next".
+   <img src="InitSetup_Email01.png">
+   Input the 6-digit code sent to your email address, and click "Next".
+   <img src="InitSetup_Email02.png">
+6. Next you will be taken to the "App Password" page, and asked to input your "app password name". 
+   (The system may skip this step.) Input any name you like using alphanumeric charancters 
+    and click "Next".（This "App Password" is used when signing in to apps or devices that don't support MFA. It will not be used for signing in with UTokyo Accounts.) 
+    <img src="InitSetup_AppPassword01.png">
+7. A screen showing that you have successfully set up your security info will appear. Click "Done".
+   <img src="InitSetup_Completed01.png">
+8. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
 
-    5. You will be prompted to input your email address (if you haven't already done so).
-        Please input an email address address OTHER THAN your ECCS Cloud Email if possible, 
-        and click "Next".
-        <img src="InitSetup_Email01.png">
-        Input the 6-digit code sent to your email address, and click "Next".
-        <img src="InitSetup_Email02.png">
-    6. Next you will be taken to the "App Password" page, and asked to input your "app password name". 
-        (The system may skip this step.) Input any name you like using alphanumeric charancters 
-        and click "Next".（This "App Password" is used when signing in to apps or devices that don't support MFA. It will not be used for signing in with UTokyo Accounts.) 
-        <img src="InitSetup_AppPassword01.png">
-    7. A screen showing that you have successfully set up your security info will appear. Click "Done".
-        <img src="InitSetup_Completed01.png">
-    8. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
-
-### Step3: Add Alternative Authentication Methods
+### Step 3: Add Alternative Authentication Methods
 **Multiple authentication methods can be set up for MFA. We recommend that you add more than one method.** 
 Setting up multiple authentication methods reduces the risk of being completely locked out of your UTokyo Account. Even if your usual authentication method does not work (due to malfunction, changed phone number, etc.), you will still be able to sign in using other methods if you have set them up in advance. 
 
