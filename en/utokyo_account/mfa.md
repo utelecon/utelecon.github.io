@@ -29,7 +29,7 @@ It is recommended to have MFA set up for better security of your UTokyo Account.
 PC上での一つ目のサインイン方法設定の画像まで収集できています。この先の収集お願いします！
 -->
 
-### Step1: Apply for MFA Use 
+### Step 1: Apply for MFA Use 
 <!--or "Apply to Enable MFA" -->
 To start using MFA for your UTokyo Account, please submit an application form. 
 
@@ -117,7 +117,8 @@ You will be directed to the authentication method setup page when you sign in to
         <details>
             <summary>Setup Procedure</summary>
             <ol>
-                <li>Click "I want to use a different authenticator app" in the middle of the setup page.                     <img src="InitSetup_AuthenticatorApp01.png"></li>
+                <li>Click "I want to use a different authenticator app" in the middle of the setup page.                     
+                    <img src="InitSetup_AuthenticatorApp01.png"></li>
                 <li>When asked "Which method would you like to add?", select "Phone", 
                     and then click "Add".
                     <img src="xxxxxxxxxxxxxxxxx.png"></li>
