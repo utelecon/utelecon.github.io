@@ -60,7 +60,7 @@ You will be directed to the authentication method setup page when you sign in to
             <summary>Setup Procedure</summary>
             <ol>
                 <li>
-                    Install the Microsoft Authenticator app on your smart phone.
+                    Install the Microsoft Authenticator app on your smartphone.
                     The Android version can be downloaded from 
                     <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a> 
                     and the iPhone version from 
@@ -70,7 +70,7 @@ You will be directed to the authentication method setup page when you sign in to
                     The next procedure differs by the device that you working on.
                     {% capture MSAuthenticatorSetupByDevice %}  
                     <ul>
-                        <li><strong>Smart Phone (the same device where you installed the Microsoft Authenticator app)</strong>：
+                        <li><strong>Smartphone (the same device where you installed the Microsoft Authenticator app)</strong>：
                             <ol>
                                 <li>Click "このリンクをクリックして、アカウントをアプリにペアリングします".</li>
                                     <!-- Please 1. check the exact English words that appear and 
@@ -85,7 +85,7 @@ You will be directed to the authentication method setup page when you sign in to
                                 <li>Read the instructions and  
                                     click "Next" to go to the QR code page.  
                                     <img src="InitSetup_AuthenticatorApp02.png"></li>
-                                <li>Open the Microsoft Authenticator app on your smart phone, 
+                                <li>Open the Microsoft Authenticator app on your smartphone, 
                                     select "Add account" from the icon in the upper-right, 
                                     then "Work or school account", and "Scan QR code".
                                     <img src="xxxxxxxxxxxxxxxxx.png"></li>
@@ -133,7 +133,7 @@ You will be directed to the authentication method setup page when you sign in to
                 <li>Click "Next".</li>
                 <li>You will receive a text or call on your phone to verify your identity. 
                     If you selected "Text me a code", you will receive an SMS message 
-                    including a 6-digit verification code. Input the code in the setup page. 
+                    with a 6-digit verification code. Input the code in the setup page. 
                     If you selected "Call me", you will receive a call. 
                     Follow the instructions to verify your identity．</li>
                     <!-- Microsoft's page says, "You'll receive a phone call from Microsoft, 
@@ -161,7 +161,7 @@ You will be directed to the authentication method setup page when you sign in to
     8. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
 
 ### Step3: Add Alternative Authentication Methods
-** Multiple authentication methods can be set up for MFA. We recommend that you add more than one method.** 
+**Multiple authentication methods can be set up for MFA. We recommend that you add more than one method.** 
 Setting up multiple authentication methods reduces the risk of being completely locked out of your UTokyo Account. Even if your usual authentication method does not work (due to malfunction, changed phone number, etc.), you will still be able to sign in using other methods if you have set them up in advance. 
 
 <!-- 「多要素認証の設定画面」は画面トップに"Security info"と書いてあるので、"Security info page"と訳した。-->
@@ -170,12 +170,13 @@ Below are the procedures to add different authentication methods.
 <!-- <mark>TODO この手順がうまくいかないときのヘルプ：サインインが求められてしかも本人確認が求められたら？</mark> -->
 
 - **Microsoft Authenticator App**: Using the Microsoft Authenticator app is convenient 
-        since MFA for UTokyo Account uses Microsoft's services. If you possess more than one smart phone, you may add those phones as alternative authentication methods. 
+        since MFA for UTokyo Account uses Microsoft's services. If you possess more than one smartphone,
+        you may add those phones as alternative authentication methods. 
     <details>
            <summary>Setup Procedure</summary>
             <ol>
                 <li>
-                    Install the Microsoft Authenticator app on your smart phone 
+                    Install the Microsoft Authenticator app on your smartphone 
                     (if you haven't already done so).
                     The Android version can be downloaded from 
                     <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a> 
@@ -238,4 +239,25 @@ Below are the procedures to add different authentication methods.
 
 In the screen that appears after clicking "Add method", "App password" and "Email" will also show up as choices for "Which method would you like to add?". However, please be aware that these cannot be used for sign-in authentication (they are for other purposes).
 
-<!-- Step 4 coming soon-->
+### Step 4: Try Signing In
+
+The last step of the initial setup procedure is checking that you can sign in to your UTokyo Accouwt using MFA.
+
+1. Access the [UTokyo Account Sign-in page](https://login.adm.u-tokyo.ac.jp/utokyoaccount).
+2. **Only for users taken to the "UTokyo Account Service Directory" page** (Users who see the sign-in screen can skip this step): Click the circle in the upper-right corner that shows either your user photo, initials, or an icon of a person. Then click "Sign out". 
+<img src="xxxxxxxxxxxxxxx.png">
+ Once you are signed out, access the [UTokyo Account Sign-in page](https://login.adm.u-tokyo.ac.jp/utokyoaccount) again.
+3. If the sign-in screen appears, enter your UTokyo Account username (10-digit Common ID) and password and click "Sign in".
+4. Verify your identity using MFA. The procedure differs by the authentication method you use. Please follow the instructions on your screen. 
+    - **Microsoft Authenticator App**：A notification will be sent to your phone to approve the sign-in request in the app. Click "Approve". <img src="xxxxxxxxxxxxxxx.png"> 
+    - **Other Authenticator Apps**：You will see a 6-digit code for your account in the authenticator app. Enter the code in the sign-in page. <img src="xxxxxxxxxxxxxxx.png">
+    - **Phone Number (verification via text)**：An SMS message with a 6-digit code will be sent to your phone. Enter the code in the sign-in page and click "Verify". <img src="xxxxxxxxxxxxxxx.png">
+    - **Phone Number (verification via call)**： You will receive a phone call, asking you to press the pound key (#) on your phone. Press the key and end the call.（To display the pound key on your smartphone during the call, press the "keypad" button.)
+5. You have successfully signed in if you are taken to the "UTokyo Account Service Directory" page. 
+
+When you sign in, one of the methods you set (usually the first one you set) will be automatically selected as the default identification method. If you want to use a different identification method, click on the "Having trouble? Click on the "Sign in with another method" link on the screen. If you want to change the default method, please follow the instructions below.
+
+Please note that your default sign-in method is automatically chosen from the authentification methods you set up (usually the method added first is chosen). If you wish to sign in with a different method, click the "Having trouble? Sign in another way" link. The default sign-in method can also be changed following the procedure in the next section.
+
+
+<!-- more to come -->
