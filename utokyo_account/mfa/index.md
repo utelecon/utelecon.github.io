@@ -40,26 +40,26 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 ここでは，まず1個目の本人確認方法を追加します（この後の手順3で2個目以降を設定します）．なお，ここで設定する1個目の本人確認方法がデフォルト（自動で選ばれる方法）になるので，最もよく使う本人確認方法を登録するのがいいでしょう．
 
 1. [UTokyo Accountのサインインページ](https://login.adm.u-tokyo.ac.jp/utokyoaccount)にアクセスしてください．
-2. UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力して「サインイン」を押すと，「詳細情報が必要」という画面が表示されるので，「次へ」を押してください． ![]()
+2. UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力して「サインイン」を押すと，「詳細情報が必要」という画面が表示されるので，「次へ」を押してください． <img src="first.png">
     - この手順がうまくいかないときのヘルプ
         - サインイン画面ではなく「UTokyo Account Service Directory」というページが表示される場合：右上にある丸いアイコン（自分のアイコンか，設定していない場合はイニシャルあるいは人のマーク）を押して「サインアウト」を選んでください．その後，アクセスし直してください．
         - 「詳細情報が必要」という画面が出ずに「UTokyo Account Service Directory」というページが表示される場合：手順1で行った申請の反映が遅れているのかもしれません．しばらく待ってからアクセスし直してみてください．
-3. 多要素認証の本人確認方法を設定する画面になります．設定の手順は本人確認方法の種類によって異なります． ![]()
+3. 多要素認証の本人確認方法を設定する画面になります．設定の手順は本人確認方法の種類によって異なります． <img src="first_ms_auth.png">
 - **「Microsoft Authenticator」アプリを使う方法**：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのサービスを利用しているため，このアプリを本人確認方法として使うのが便利です．
 <details>
 <summary>設定手順</summary>
 <ol>
 <li>スマホに「Microsoft Authenticator」アプリをインストールしてください．Androidの人は<a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a>から，iPhoneの人は<a href="https://apps.apple.com/app/microsoft-authenticator/id983156458">App Store</a>からダウンロードできます．</li>
-<li>アプリのインストールを終えたら元の画面に戻って作業を続けます．デフォルトでMicrosoft Authenticatorの設定をする画面になっているので，そのまま「次へ」を押してください．</li>
+<li>アプリのインストールを終えたら元の画面に戻って作業を続けます．デフォルトでMicrosoft Authenticatorの設定をする画面になっているので，そのまま「次へ」を押してください．</li><img src="first_ms_auth_next.png">
 <li>以降の手順はこの作業をスマホ（Microsoft Authenticatorアプリをインストールしたもの）でしているかそれ以外（パソコンなど）でしているかによって異なります．
 <ul>
-<li><strong>スマホでこの作業をしている場合</strong>：「このリンクをクリックして、アカウントをアプリにペアリングします。」を押してください．Microsoft Authenticatorアプリに移動し，自分のUTokyo Accountが表示されればOKです．<img src=""></li>
+<li><strong>スマホでこの作業をしている場合</strong>：「このリンクをクリックして、アカウントをアプリにペアリングします。」を押してください．Microsoft Authenticatorアプリに移動し，自分のUTokyo Accountが表示されればOKです．<img src="first_ms_auth_link.png"></li>
 <li><strong>スマホ以外（パソコンなど）でこの作業をしている場合</strong>
 <ol>
-<li>画面の指示に従ってQRコードを表示してください．</li>
-<li>スマホでMicrosoft Authenticatorアプリを開き，「アカウントを追加」「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．<img src=""></li>
+<li>画面の指示に従ってQRコードを表示してください．<img src="first_ms_auth_qr.png"></li>
+<li>スマホでMicrosoft Authenticatorアプリを開き，「アカウントを追加」「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．<img src="ms_auth_screen.png"></li>
 <li>QRコードを読み取ってください．</li>
-<li>アプリ上に自分のUTokyo Accountが表示されればOKです．<img src=""></li>
+<li>アプリ上に自分のUTokyo Accountが表示されればOKです．<img src="ms_auth_list.png"></li>
 </ol>
 </li>
 </ul>
@@ -69,11 +69,12 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 
 - **「Microsoft Authenticator」以外の認証アプリを使う方法**：もし既に「Google Authenticator」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．
 
+
 <details>
 <summary>設定手順</summary>
 <ol>
-<li>画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．</li>
-<li>画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．</li>
+<li>画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．<img src="first_auth_app.png"></li>
+<li>画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<img src="first_auth_app_qr.png"></li>
 </ol>
 </details>
 
@@ -81,19 +82,19 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 <details>
 <summary>設定手順</summary>
 <ol>
-<li>画面の下の方にある「別の方法を設定します」というリンクを探して押してください．</li>
-<li>「どの方法を使用しますか?」欄で「電話」を選び，「確認」を押してください．<img src="">
+<li>画面の下の方にある「別の方法を設定します」というリンクを探して押してください．<img src="first_another_method.png"></li>
+<li>「どの方法を使用しますか?」欄で「電話」を選び，「確認」を押してください．<img src="first_select_phone.png">
 </li>
-<li>「どの電話番号を使用しますか?」欄は，適切な国番号（日本の場合は「Japan (+81)」）を選択してから，自分の電話番号を入力してください．また，この電話番号を使って本人確認を行う方法として，「コードをSMSで送信する」と「電話する」のうちから好みの方を選んでください．<img src=""></li>
+<li>「どの電話番号を使用しますか?」欄は，適切な国番号（日本の場合は「Japan (+81)」）を選択してから，自分の電話番号を入力してください．また，この電話番号を使って本人確認を行う方法として，「コードをSMSで送信する」と「電話する」のうちから好みの方を選んでください．<img src="first_phone_method.png"></li>
 <li>「次へ」を押してください．</li>
 <li>電話番号の確認が行われます．「コードをSMSで送信する」を選んだ場合は，SMSに確認コード（6桁の数字）が届き，それを画面に入力するよう求められるので，そのようにしてください．「電話する」を選んだ場合は，音声通話が着信し，自動音声ガイダンスで「#」ボタンを押すように言われるので，そのようにしてください（スマホで通話中に「#」ボタンを表示するには，画面に表示されている「キーパッド」ボタンを押します）．</li>
 </ol>
 </details>
 
-4. （既に登録しているのでなければ）メールアドレスの入力を求められます．なるべくECCSクラウドメール以外のメールアドレスを入力してください．続いてそのメールアドレスに送られてくる「コード」（6桁の数字）を入力するよう求められるので，そのようにしてください．
-5. 「アプリ パスワード」という画面が出て，「アプリ パスワード名」を入力するよう求められることがあります（この画面が出ないこともあります）．適当な英数字を入力して「次へ」を押してください．（「アプリ パスワード」とは多要素認証に非対応のシステムを利用するためのものですが，UTokyo Accountでは利用しないので，特に気にせずに適当に入力して問題ありません）
-6. 「アプリ パスワード」の画面が出た場合は，引き続き「アプリ パスワードが正常に作成されました。パスワードをクリップボードにコピーし、アプリに貼り付けます。」と表示されますが，無視して「完了」を押してください．
-7. サインインが完了し，「UTokyo Account Service Directory」が表示されればOKです．
+1. （既に登録しているのでなければ）メールアドレスの入力を求められます．なるべくECCSクラウドメール以外のメールアドレスを入力してください．続いてそのメールアドレスに送られてくる「コード」（6桁の数字）を入力するよう求められるので，そのようにしてください．<img src="first_email.png">
+2. 「アプリ パスワード」という画面が出て，「アプリ パスワード名」を入力するよう求められることがあります（この画面が出ないこともあります）．適当な英数字を入力して「次へ」を押してください．（「アプリ パスワード」とは多要素認証に非対応のシステムを利用するためのものですが，UTokyo Accountでは利用しないので，特に気にせずに適当に入力して問題ありません）<img src="first_app_password.png">
+3. 「アプリ パスワード」の画面が出た場合は，引き続き「アプリ パスワードが正常に作成されました。パスワードをクリップボードにコピーし、アプリに貼り付けます。」と表示されますが，無視して「完了」を押してください．
+4. 画面上に「成功」と表示されたらOKです．<img src="first_success.png">
 
 ### 手順3：追加の本人確認方法を設定する
 
@@ -108,17 +109,18 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 <summary>設定手順</summary>
 <ol>
 <li>（まだしていなければ）スマホに「Microsoft Authenticator」アプリをインストールしてください．Androidの人は<a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a>から，iPhoneの人は<a href="https://apps.apple.com/app/microsoft-authenticator/id983156458">App Store</a>からダウンロードできます．</li>
-<li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．</li>
-<li>「どの方法を使用しますか?」欄で「認証アプリ」を選び，「追加」を押してください．</li><li>Microsoft Authenticatorの設定をする画面が出るので，そのまま「次へ」を押してください．</li>
+<li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．<img src="alt_add_method.png"></li>
+<li>「どの方法を使用しますか?」欄で「認証アプリ」を選び，「追加」を押してください．<img src="alt_add_method_pull_down.png"></li>
+<li>Microsoft Authenticatorの設定をする画面が出るので，そのまま「次へ」を押してください．<img src="alt_ms_auth_next.png"></li>
 <li>以降の手順はこの作業をスマホ（Microsoft Authenticatorアプリをインストールしたもの）でしているかそれ以外（パソコンなど）でしているかによって異なります．
 <ul>
-<li><strong>スマホでこの作業をしている場合</strong>：「このリンクをクリックして、アカウントをアプリにペアリングします。」を押してください．Microsoft Authenticatorアプリに移動し，自分のUTokyo Accountが表示されればOKです．</li>
+<li><strong>スマホでこの作業をしている場合</strong>：「このリンクをクリックして、アカウントをアプリにペアリングします。」を押してください．Microsoft Authenticatorアプリに移動し，自分のUTokyo Accountが表示されればOKです．<img src="alt_ms_auth_link.png"></li>
 <li><strong>スマホ以外（パソコンなど）でこの作業をしている場合</strong>
 <ol>
-<li>画面の指示に従って進み，QRコードを表示してください．</li>
-<li>スマホでMicrosoft Authenticatorアプリを開き，「アカウントを追加」「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．<img src=""></li>
+<li>画面の指示に従って進み，QRコードを表示してください．<img src="alt_ms_auth_qr.png"></li>
+<li>スマホでMicrosoft Authenticatorアプリを開き，「アカウントを追加」「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．<img src="ms_auth_screen.png"></li>
 <li>QRコードを読み取ってください．</li>
-<li>アプリ上に自分のUTokyo Accountが表示されればOKです．<img src=""></li>
+<li>アプリ上に自分のUTokyo Accountが表示されればOKです．<img src="ms_auth_list.png"></li>
 </ol>
 </li>
 </ul>
@@ -132,8 +134,9 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 <summary>設定手順</summary>
 <ol>
 <li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．</li>
-<li>「どの方法を使用しますか?」欄で「認証アプリ」を選び，「追加」を押してください．</li><li>「別の認証アプリを使用します」というリンクを探して押してください．</li>
-<li>画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．</li>
+<li>「どの方法を使用しますか?」欄で「認証アプリ」を選び，「追加」を押してください．</li>
+<li>「別の認証アプリを使用します」というリンクを探して押してください．<img src="alt_auth_app.png"></li>
+<li>画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<img src="alt_auth_app_qr.png"></li>
 </ol>
 </details>
 
@@ -147,7 +150,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 <ol>
 <li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．</li>
 <li>「どの方法を使用しますか?」欄で設定したい種類の電話番号を選び，「追加」を押してください．</li>
-<li>「どの電話番号を使用しますか?」欄は，適切な国番号（日本の場合は「Japan (+81)」）を選択してから，自分の電話番号を入力してください．また，電話番号の種類として「電話」を選んだ場合は，この電話番号を使って本人確認を行う方法として「コードをSMSで送信する」と「電話する」のうちから好みの方を選んでください．</li>
+<li>「どの電話番号を使用しますか?」欄は，適切な国番号（日本の場合は「Japan (+81)」）を選択してから，自分の電話番号を入力してください．また，電話番号の種類として「電話」を選んだ場合は，この電話番号を使って本人確認を行う方法として「コードをSMSで送信する」と「電話する」のうちから好みの方を選んでください．<img src="alt_phone.png"></li>
 <li>電話番号の確認が行われます．SMSの場合は，SMSに確認コード（6桁の数字）が届き，それを画面に入力するよう求められるので，そのようにしてください．音声通話の場合は，電話が着信し，音声ガイダンスで「#」ボタンを押すように言われるので，そのようにしてください（スマホで通話中に「#」ボタンを表示するには，画面に表示されている「キーパッド」ボタンを押します）．</li>
 </ol>
 </details>
@@ -163,7 +166,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 以上で多要素認証の初期設定は完了です．最後に，多要素認証を利用してUTokyo Accountにサインインすることができるか確認しておきましょう．
 
 1. [UTokyo Accountのページ](https://login.adm.u-tokyo.ac.jp/utokyoaccount)にアクセスしてください．
-2. **サインイン済みの場合のみの手順**（直接サインイン画面が表示された場合は不要です）：表示された「UTokyo Account Serivce Directory」のページで，右上にある丸いアイコン（自分のアイコンか，設定していない場合はイニシャルあるいは人のマーク）を押して「サインアウト」を選んでください．サインアウトしたら，[UTokyo Accountのページ](https://login.adm.u-tokyo.ac.jp/utokyoaccount)にアクセスし直してください．
+2. **サインイン済みの場合のみの手順**（直接サインイン画面が表示された場合は不要です）：表示された「UTokyo Account Serivce Directory」のページで，右上にある丸いアイコン（自分のアイコンか，設定していない場合はイニシャルあるいは人のマーク）を押して「サインアウト」を選んでください．サインアウトしたら，[UTokyo Accountのページ](https://login.adm.u-tokyo.ac.jp/utokyoaccount)にアクセスし直してください．<img src="signout.png">
 3. サインイン画面が表示されたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
 4. 続いて多要素認証の本人確認が行われます．本人確認方法により手順が異なりますので，画面の指示に従って操作してください．
     - **「Microsoft Authenticator」アプリの場合**：スマホに通知が送られ，アプリ上でサインインを承認するように求められるので，そのようにしてください．
@@ -183,11 +186,11 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 **[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**にアクセスすると，本人確認方法の設定を変更することができます．
 
 ### 本人確認方法を追加する
-
+<img src="alt_add_method.png">
 [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)にアクセスすると，上に書かれている初期設定手順の中の「手順3：追加の本人確認方法を設定する」と同じ要領で本人確認方法を追加することができます．
 
 ### 既定（デフォルト）の本人確認方法を変更する
-
+<img src="alt_change_default_signin_method.png">
 本人確認方法を複数設定した場合は，そのうちいずれか（通常，最初に設定したもの）が「既定」（デフォルト）の本人確認方法として扱われ，サインイン時の本人確認ではその方法が自動的に選ばれます．この「既定」の本人確認方法は，次の手順で変更することができます．
 
 1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)の上の方にある「既定のサインイン方法:」という欄を探してください．
@@ -195,6 +198,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 3. 「どの方法を使用してサインインしますか?」の欄で，既定（デフォルト）にしたい本人確認方法を選び，「確認」を押してください．
 
 ### 設定済みの本人確認方法を変更する
+<img src="alt_method_change.png">
 
 本人確認方法のうち，「電話」「代替の電話」「会社電話」の3種類の電話番号については，次の手順で変更することができます．
 
@@ -205,6 +209,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 なお，Microsoft AuthenticatorやGoogle Authenticatorなどの認証アプリには「変更」画面がありません．認証アプリの設定を変更したい場合は，代わりに新しい設定を追加してから古い設定を削除するという操作を行ってください．
 
 ### 本人確認方法を削除する
+<img src="alt_delete_method.png">
 
 次の手順で，不要になった本人確認方法を削除することができます．
 
