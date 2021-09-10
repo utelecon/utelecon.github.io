@@ -3,6 +3,12 @@ title: Using Multi-Factor Authentication for UTokyo Accounts
 lang: en
 ---
 
+{% capture test_capture %}
+test test
+{% endcapture%}
+
+{{ test_capture}}
+
 ## Introduction
 
 In order to improve the security of UTokyo's IT systems, multi-factor authentication will be available for UTokyo Accounts starting September 27, 2021.
