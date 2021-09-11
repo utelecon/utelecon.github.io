@@ -22,11 +22,13 @@ UTokyo Accountにおける多要素認証に関する情報はこのページで
 
 ## 多要素認証の初期設定手順
 
+<div class="very-important-box">以下の手順は，多要素認証の開始日である9月27日以降に利用可能となります．</div>
+
 ### 手順1：多要素認証の利用を申請する
 
 UTokyo Accountで多要素認証を利用するには，はじめに多要素認証の利用申請を行います．
 
-なお，この申請を行うと，現在サインイン中のUTokyo Accountから強制的にサインアウトされ，多要素認証の初期設定を終えるまで再びサインインすることができません．時間の余裕があるときに行うなど，このことを踏まえて作業するようお願いいたします．
+なお，この申請を行ったあと最初にUTokyo Accountにサインインする際，多要素認証の初期設定を行うよう求められ，設定を終えるまでサインインすることができなくなります．時間の余裕があるときに行うなど，このことを踏まえて作業するようお願いいたします．
 
 1. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)にアクセスしてください．
 2. サインインを求められたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
@@ -55,7 +57,7 @@ UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力し�
 多要素認証の本人確認方法を設定する画面になります．設定の手順は本人確認方法の種類によって異なります．<img src="first_ms_auth.png">
 <ul>
 <li>
-<strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのサービスを利用しているため，このアプリを本人確認方法として使うのが便利です．
+<strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，このアプリを本人確認方法として使うのが便利です．
 <details>
 <summary>設定手順</summary>
 <ol>
@@ -117,7 +119,7 @@ UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力し�
 
 <ul>
 <li>
-<strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのサービスを利用しているため，このアプリを本人確認方法として使うのが便利です．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で設定することもできます．
+<strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，このアプリを本人確認方法として使うのが便利です．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で設定することもできます．
 <details>
 <summary>設定手順</summary>
 <ol>
