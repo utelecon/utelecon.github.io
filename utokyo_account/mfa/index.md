@@ -204,34 +204,34 @@ UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力し�
 **[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**にアクセスすると，本人確認方法の設定を変更することができます．
 
 ### 本人確認方法を追加する
-<img src="alt_add_method.png">
+
 [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)にアクセスすると，上に書かれている初期設定手順の中の「手順3：追加の本人確認方法を設定する」と同じ要領で本人確認方法を追加することができます．
 
+<img src="alt_add_method.png">
+
 ### 既定（デフォルト）の本人確認方法を変更する
-<img src="alt_change_default_signin_method.png">
+
 本人確認方法を複数設定した場合は，そのうちいずれか（通常，最初に設定したもの）が「既定」（デフォルト）の本人確認方法として扱われ，サインイン時の本人確認ではその方法が自動的に選ばれます．この「既定」の本人確認方法は，次の手順で変更することができます．
 
-1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)の上の方にある「既定のサインイン方法:」という欄を探してください．
+1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)の上の方にある「既定のサインイン方法:」という欄を探してください．<img src="alt_change_default_signin_method.png">
 2. その欄の右の方にある「変更」を押してください．
 3. 「どの方法を使用してサインインしますか?」の欄で，既定（デフォルト）にしたい本人確認方法を選び，「確認」を押してください．
 
 ### 設定済みの本人確認方法を変更する
-<img src="alt_method_change.png">
 
 本人確認方法のうち，「電話」「代替の電話」「会社電話」の3種類の電話番号については，次の手順で変更することができます．
 
-1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)に表示されている本人確認方法の一覧から変更したいものを探し，その右の方にある「変更」を押してください．
+1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)に表示されている本人確認方法の一覧から変更したいものを探し，その右の方にある「変更」を押してください．<img src="alt_method_change.png">
 2. 新しい電話番号を入力する画面が表示されるので，入力してください．
 3. 電話番号の確認（SMSまたは音声通話）が行われます．追加（新規に設定）する場合と同様の要領で作業してください．
 
 なお，Microsoft AuthenticatorやGoogle Authenticatorなどの認証アプリには「変更」画面がありません．認証アプリの設定を変更したい場合は，代わりに新しい設定を追加してから古い設定を削除するという操作を行ってください．
 
 ### 本人確認方法を削除する
-<img src="alt_delete_method.png">
 
 次の手順で，不要になった本人確認方法を削除することができます．
 
-1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)に表示されている本人確認方法の一覧から削除したいものを探し，その右の方にある「削除」を押してください．
+1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)に表示されている本人確認方法の一覧から削除したいものを探し，その右の方にある「削除」を押してください．<img src="alt_delete_method.png">
 2. 「ご使用のアカウントでこの方法を削除しますか?」と表示されるので，「OK」を押してください．
 
 なお，本人確認方法として利用できる項目（認証アプリと電話）をすべて削除してしまうと，次にサインインするときに本人確認方法の初期設定を求められますので，注意してください（「メールアドレス」と「アプリパスワード」の項目は多要素認証の本人確認方法としては利用できません）．
