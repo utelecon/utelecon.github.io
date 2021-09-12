@@ -62,7 +62,7 @@ Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサ�
 ### Google ドキュメント
 Google ドキュメントは，Google Workspaceに含まれる文章作成ツールです．クラウド上に文章を保存するため，複数人が共同で編集をしたり，URLを使って文書を共有したりすることが簡単にできます．
 
-* **[Google ドキュメントを活用する](/articles/google-document)**: 授業やサークル活動における基本的なGoogle ドキュメントの活用方法が紹介されています．
+* **[Google ドキュメントの基本的な使い方](/articles/google-document)**: 基本的なGoogle ドキュメントの使い方が紹介されています．
 
 ### OneNote
 OneNoteは，Microsoft 365に含まれる電子ノートツールです．文章だけでなく，図やイラストなどを手書きで書くこともできます．
