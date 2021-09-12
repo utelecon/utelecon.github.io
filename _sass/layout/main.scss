@@ -80,6 +80,20 @@ main {
     display: inline;
   }
 
+  img.logo {
+    display: inline;
+    max-height: 2em;
+  }
+
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  figcaption {
+    font-size: 0.75em;
+  }
+
   code em {
     font-style: normal;
     font-weight: bold;
