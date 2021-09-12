@@ -18,7 +18,7 @@ title: オンライン会議ツールを使って交流する
 ## Discord
 
 <figure>
-<img src="pic01.png">
+<img src="pic01.png" width="200px">
 </figure>
 
 ### Discordとは
@@ -47,7 +47,7 @@ title: オンライン会議ツールを使って交流する
 4. ビデオチャット：個人同士のビデオチャットだけでなく，事前にグループDMを設定しておけば，複数人でのビデオ通話も可能です．
 5. ショートカット：これらの機能を使いこなすために，ショートカットキーが採用されており，例えば「Alt+↑」または「Alt+↓」でチャンネル間を移動できる，「Ctrl+Enter」で着信に応答できる，などのコマンドが備わっています．議事録の作成や他の作業をしているときに素早い操作ができ，会議を円滑に進める手助けになります。
 
-### 参考資料：
+### 参考資料
 
 * Discord - [https://discord.com](https://discord.com)
 * Discord Support - [https://support.discord.com/hc/en-us](https://support.discord.com/hc/en-us)
@@ -55,7 +55,7 @@ title: オンライン会議ツールを使って交流する
 ## Wonder.me
 
 <figure>
-<img src="pic04.png">
+<img src="pic04.png" width="200px">
 </figure>
 
 ### Wonder.meとは
@@ -80,7 +80,7 @@ title: オンライン会議ツールを使って交流する
 4. ブロードキャスト：部屋にいる全員に話しかけることのできる機能です．最大6人まで同時にこの機能を使うことができるため，パネルディスカッションなどの際に有用な機能と言えそうです．
 5. テキストチャット：個人間でのダイレクトメッセージやCircle内の人へのメッセージ，さらに全体へのメッセージを送ることができます．Circle内でのアイデアの書き出し，グループディスカッション中の時間のリマインドなどなどに利用できます．
 
-### 参考資料：
+### 参考資料
 
 * Wonder - [https://www.wonder.me/](https://www.wonder.me/)
 * Wonder Help - [https://help.wonder.me/en/](https://help.wonder.me/en/)
@@ -88,10 +88,10 @@ title: オンライン会議ツールを使って交流する
 ## Gather Town
 
 <figure>
-<img src="pic06.png">
+<img src="pic06.png" width="200px">
 </figure>
 
-**Gather Townとは**
+### Gather Townとは
 
 レトロゲーム風の遊び心のあるUIが特徴のオンラインコミュニケーションツールです．自分のアバターを操作して部屋を自在に行き来することができ，出勤やオフィスでの勤務を仮想的に体験することができます．バーチャルオフィスという実際のオフィスの環境をネット上に作るサービスの一つです．
 
@@ -112,17 +112,17 @@ title: オンライン会議ツールを使って交流する
 3. 画面共有：オフィス内の特定の部屋に他の人と入れば，ビデオチャットや音声通話はもちろん，画面共有を使ったディスカッションをすることもできます．
 4. 自分が実際に働いているオフィスを再現する：”mapmaker”という機能を使うことで，独自にスペースを作成することができ，自分の理想のオフィスや、自分の職場によく似たスペースを作ることができます．
 
-### 参考資料：
+### 参考資料
 
-* [Gather Media Ki](https://drive.google.com/drive/folders/1YRefTkMZmT5mq4ItVdbX8NT850JcnZLw)<span style="text-decoration:underline;">t</span>
-* Video for new users to learn how to use Gather[ - https://youtu.be/89at5EvCE](https://youtu.be/89at5EvCEvk)<span style="text-decoration:underline;">vk</span> 
-* Any images and gifs in our changelog are available for media as well[ - https://gathertown.canny.io/changel](https://gathertown.canny.io/changelog)<span style="text-decoration:underline;">og</span>  
-* Our promotional Gather product hunt video (slightly outdated[) - https://youtu.be/8orexZsFR](https://youtu.be/8orexZsFRxs)<span style="text-decoration:underline;">xs</span>   
+* [Gather Media Kit](https://drive.google.com/drive/folders/1YRefTkMZmT5mq4ItVdbX8NT850JcnZLw)
+* Video for new users to learn how to use Gather[ - https://youtu.be/89at5EvCEvk](https://youtu.be/89at5EvCEvk)
+* Any images and gifs in our changelog are available for media as well[ - https://gathertown.canny.io/changelog](https://gathertown.canny.io/changelog) 
+* Our promotional Gather product hunt video (slightly outdated)[) - https://youtu.be/8orexZsFRxs](https://youtu.be/8orexZsFRxs)
 
 
 ## Remo
 <figure>
-<img src="pic08.png">
+<img src="pic08.png" width="200px">
 </figure>
 
 ### Remoとは
@@ -145,7 +145,7 @@ title: オンライン会議ツールを使って交流する
 2. イベントの作成：Remo上で行うイベントを事前に設定しておくことができ，招待URLを取得して共有することで他の人を招くことができます．
 3. プレゼンテーション：主催者がプレゼンテーションを行うことができ，画面共有，動画のシェア，ホワイトボード，タイマーなどのツールを用いて行うことができます．
 
-### 参考資料：
+### 参考資料
 
 * 【資料】Remo ご案内：[https://hi.remo.co/deck-jp](https://hi.remo.co/deck-jp)
 * 【ガイド】主催者用：[https://hi.remo.co/host-guide-jp](https://hi.remo.co/host-guide-jp)
@@ -158,7 +158,7 @@ title: オンライン会議ツールを使って交流する
 * 【動画】トラブルシューティング：[https://www.youtube.com/watch?v=r5WVj07y4mU](https://www.youtube.com/watch?v=r5WVj07y4mU)」
 
 
-### 4つのツールの比較
+## 4つのツールの比較
 
 ここまで紹介してきた4つのツールの特徴を，以下の表にまとめました．
 
@@ -181,7 +181,7 @@ title: オンライン会議ツールを使って交流する
    </td>
    <td>無料
    </td>
-   <td>秋から有料化予定
+   <td>無料
    </td>
    <td>無料
    </td>
@@ -249,7 +249,7 @@ title: オンライン会議ツールを使って交流する
    </td>
   </tr>
   <tr>
-   <td>　おすすめのケース
+   <td>おすすめのケース
    </td>
    <td>音声で十分なときや、別で資料を見ながら会議をしたいとき
    </td>
