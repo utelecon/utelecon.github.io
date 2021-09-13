@@ -10,39 +10,46 @@ title: 使えるツールから探す
 2020年度のオンライン授業を踏まえ，各種ツールのオンライン授業での活用方法や実践例などの情報を今後充実させていく予定です．このページは随時更新しますので，今後も継続的にご確認ください．
 
 **本ポータルサイト (utelecon) では，よりよいオンラインでの授業・活動に役立つ情報をまとめています．「[オンラインを活用するために](/online/)」のページにさまざまな情報をまとめていますので，あわせてご覧ください．**
+
 ## Web会議システム
 
 ### Zoom
-Zoomは，東京大学でも最も多くの授業で使われているWeb会議システムです．  
 
-→ **[Zoom 説明ページ](/zoom/)**：基本的な使い方や様々な機能の使い方などが載っています
+Zoomは，最もポピュラーと思われるWeb会議システムで，東京大学でも多くの授業で使われています．
 
-#### Zoomの活用に関する情報
-* **[オンライン授業において Zoom の通信量を抑えるには](/articles/zoom-data-traffic)**：Zoomの通信量の目安と，オンライン授業において通信量を抑えるためのコツについて紹介しています．
+- **[Zoom 説明ページ](/zoom/)**：基本的な使い方や様々な機能の使い方をまとめています．
+- Zoomに関するピックアップ情報
+    - **[オンライン講座「オンライン授業における Zoom の使い方」](/events/2021-03-25/)**：授業における使い方を説明（動画は限定公開）
+    - **[オンライン授業において Zoom の通信量を抑えるには](/articles/zoom-data-traffic)**：Zoomの通信量の目安と，オンライン授業において通信量を抑えるためのコツについて紹介しています．
 
 ### Webex
-Webexはデフォルトで1000人まで参加可能で，複数の会議への同時参加,および複数の会議の同時開催が可能です．  
 
-→ **[Webex 説明ページ](/webex/)**：基本的な使い方がまとまっています．
+WebexはCisco社の提供するWeb会議システムです．東京大学のライセンスでは参加人数の上限がZoomより多い1000人となっています．また，E2E (End to End) 暗号化と呼ばれる安全性が高いとされる方法で会議を開催することができます．
+
+→ **[Webex 説明ページ](/webex/)**：使い方をまとめています．
 
 ### Google Meet
-Google MeetはGoogleが提供するWeb会議システムです．
 
-→ **[Google Meet 説明ページ](/meet/)**：基本的な使い方がまとまっています．
+Google Meetは，GoogleがGoogle Workspaceの一部として提供しているWeb会議システムです．GoogleカレンダーなどGoogleの各種サービスとの連携が充実していることが特徴です．
+
+→ **[Google Meet 説明ページ](/meet/)**：使い方をまとめています．
 
 ## 学習管理システム
 
-### ITC-LMS
-ITC-LMS は東京大学が運用している学習管理システムです．「教材配布」，「課題提示/提出」，「オンラインテスト」等の機能があります．
+「学習管理システム」は，授業における学生と教員の間でのデータや情報のやり取り（資料の配布・課題提出など）を支援するシステムです．
 
-→ **[ITC-LMS 説明ページ](/itc_lms/)**：ITC-LMS の使い方がまとまっています．
+### ITC-LMS
+
+ITC-LMSは東京大学の学習管理システムです．授業資料の配布・課題提出・オンライン試験・教員から学生へのお知らせ通知などの機能があります．東京大学のアカウント (UTokyo Account) および履修登録などを行う学務システム (UTAS) と連携しているため，**「東京大学の学生だけに」あるいは「その授業の履修者だけに」情報を渡すことが簡単**に行えます．学生への浸透率も高いので，授業資料の配布・課題のやり取りなどには，まずITC-LMSのご利用をお考えください．
+
+→ **[ITC-LMS 説明ページ](/itc_lms/)**：使い方をまとめています．
 
 ### Google Classroom
 
-Google Classroomでは，教員がクラスを作成して学生(生徒)に参加してもらうことができます．「教材配布」，「課題提示/提出」等の機能を利用できます．
+Google Classroomは，GoogleがGoogle Workspaceの一部として提供しているツールで，授業における資料の配布・課題提出などが行えるものです．
 
-* **[Google Classroomの使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)**：基本的な使い方がまとまっています．
-* **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](/events/luncheon/2020-07-15/)**：Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）
+- **[Google Classroomの使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)**：基本的な使い方がまとまっています．
+- **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](/events/luncheon/2020-07-15/)**：Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）．
 
 ## クラウドサービス
 
@@ -50,7 +57,7 @@ Google Classroomでは，教員がクラスを作成して学生(生徒)に参�
 
 Google Workspaceは，GmailやGoogleドライブ・Googleドキュメント・GoogleスプレッドシートなどのGoogleサービスの総称です．東京大学では有料ライセンスを契約しており，「ECCSクラウドメール」の名称で提供しています．
 
-→ **[ECCSクラウドメール (Google Workspace) 説明ページ](/eccs_cloud_email)**：ECCSクラウドメール (Google Workspace)の使い方がまとまっています．
+→ **[ECCSクラウドメール (Google Workspace) 説明ページ](/eccs_cloud_email)**：ECCSクラウドメール (Google Workspace) に関する情報をまとめています．
 
 ### Microsoft 365
 
@@ -58,30 +65,77 @@ Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサ�
 
 → **[UTokyo Microsoft Licenseのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)**：東京大学におけるUTokyo Microsoft License利用上の注意事項などがまとまっています．
 
-## 文書共有ツール
-### Google ドキュメント
-Google ドキュメントは，Google Workspaceに含まれる文章作成ツールです．クラウド上に文章を保存するため，複数人が共同で編集をしたり，URLを使って文書を共有したりすることが簡単にできます．
 
-* **[Google ドキュメントの基本的な使い方](/articles/google-document)**：基本的なGoogle ドキュメントの使い方が紹介されています．
+## フォーム作成
+
+オンラインのフォームを簡単に作成することができるツールを紹介します．アンケートや投票，小テストなどに利用することができます．
+
+### Google フォーム
+
+GoogleフォームはGoogle Workspaceに含まれているフォーム作成サービスです．東大のアカウントを使うと，回答できる人の範囲を東大のアカウントに限定したフォームを作成することもできます．
+
+→ **[Googleフォームで小テストやアンケートを実施する](/articles/google-form)**：Google フォームを用いた小テストやアンケートの作成について紹介しています.
+
+### Microsoft Forms
+
+Microsoft FormsはMicrosoft 365に含まれているフォーム作成サービスです．回答できる人の範囲を個人単位で指定したり，選択肢によって質問が変化する分岐を一つのページの中で作成したりすることができるのが特徴です．
+
+→ **[Microsoft Forms のヘルプとラーニング（Microsoftサポート）](https://support.microsoft.com/ja-jp/forms)**：Microsoft Formsに関するMicrosoftの説明ページです．
+
+## 文書作成・共有ツール
+
+オンラインで文書を作成・共有することができるツールです．多くのツールが複数人での同時編集に対応しており，会議やグループワークの際のメモ書きを行うのに非常に適しています．
+
+### Googleドキュメント
+
+Googleドキュメントは，Google Workspaceに含まれる文書作成ツールです．クラウド（Googleドライブ）上に文書を保存するため，複数人が同時編集をしたり，URLを使って文書を共有したりすることが簡単にできます．
+
+- **[Google ドキュメントの基本的な使い方](/articles/google-document)**：基本的なGoogle ドキュメントの使い方が紹介されています．
+
+Googleドキュメントのほかに，表計算サービスの「Googleスプレッドシート」，プレゼンテーション作成サービスの「Googleスライド」なども同じように使うことができます．
+
+### Word Online
+
+Word Onlineは，Microsoft Wordのオンライン版です．Wordファイルをそのままクラウド (OneDrive) 上に保存して，複数人が同時編集をしたり，URLを使って文書を共有したりすることができます．
+
+- **[Web 用 Word で文書を作成する（Microsoftサポート）](https://support.microsoft.com/ja-jp/office/web-%E7%94%A8-word-%E3%81%A7%E6%96%87%E6%9B%B8%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B-b406a6f9-341e-45f2-b9ac-ed85b6f7b8f6)**：Word Onlineに関するMicrosoftの説明ページです．
+
+Wordだけでなく，ExcelやPowerPointも同様にオンライン版を利用できます．
+
+### Scrapbox
+
+Scrapboxは，オンラインで多数のメモ書きやノートを保存して整理するためのツールです．複数人が共同で同時編集をしたり，URLを使って内容を共有したりすることができます．「リンク」や「タグ」などを使って多数のページを簡単に繋げることができるのが特徴で，これを活用して，オンライン授業で資料をまとめたポータルサイトのように使うことができます．
+
+- **[Scrapboxで授業資料を作成する方法](/articles/scrapbox-handout)**：Scrapboxの基本的な使い方と，授業資料の作成方法が紹介されています．
+- <!--https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/shiraishi-->
+
+## 手書きノート・ホワイトボード
+
+タブレットやタッチパネル対応のPCを使って，手書きで文字や図をかくためのツールです．オンライン授業で手書きの「板書」をしたいという場合に使えるツールです．また，同時編集の機能が充実しているツールであれば，グループワークなどでも活用することができます．
+
+<!-- /online/topics#handwriting -->
+
+### GoodNote 5
+
+- <!--https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/saito-->
 
 ### OneNote
-OneNoteは，Microsoft 365に含まれる電子ノートツールです．文章だけでなく，図やイラストなどを手書きで書くこともできます．
+
+OneNoteは，Microsoft 365に含まれる電子ノートツールです．（使い勝手は悪いですが）Webブラウザからも同時編集をすることができます．
 
 * **[OneNoteで板書する](/articles/onenote-whiteboard)**：OneNoteの基本的な使い方と，板書での活用方法が紹介されています．
 
-### Scrapbox
-Scrapboxは，リンクやタグなどを使うことで情報の整理を容易にできる，オンラインノートツールです．
+<!--https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/irie-->
 
-* **[Scrapboxで授業資料を作成する方法](/articles/scrapbox-handout)**：Scrapboxの基本的な使い方と，授業資料の作成方法が紹介されています．
+### その他の手書きノート・ホワイトボード
 
-## アンケートツール
-### Google フォーム
-Google フォームはアンケートや投票，小テストを簡単に作ることができるツールで，Google Workspaceに含まれています．
+miro
 
+Padlet
 
-* **[Googleフォームで小テストやアンケートを実施する](/articles/google-form)**：Google フォームを用いた小テストやアンケートの作成について紹介しています.
+Google Jamboard（同時アクセス25）
 
-## コミュニケーションツール
+## Web会議で双方向コミュニケーション
 
 ### Slido
 
@@ -92,6 +146,12 @@ Google フォームはアンケートや投票，小テストを簡単に作る�
 * **[オンライン授業のグッドプラクティス 四本裕子 先生の授業：心理I](/good-practice/interview/yotsumoto)**：教養学部の授業にて匿名での質問や相談を受け付ける実践です．
 * **[オンライン授業のグッドプラクティス 田中庸介 先生の授業：解剖学第3 (神経)](/good-practice/interview/tanaka)**：医学部の授業にて匿名での質問や相談を受け付ける実践です．
 * **[オンライン授業のグッドプラクティス 栗田佳代子 先生の授業：「学びの場」づくり](/good-practice/interview/kurita)**：教育学部の授業にて匿名での質問や相談を受け付ける実践です．
+
+### CommentScreen
+
+<!--https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/sugita-->
+
+## チャットでコミュニケーション
 
 ### Slack
 
@@ -104,9 +164,17 @@ Google フォームはアンケートや投票，小テストを簡単に作る�
 
 ### Discord
 
-「Discord」は，オンラインでボイスチャット（音声を通じた会話）ができるツールです．
+<!--「Discord」は，オンラインでボイスチャット（音声を通じた会話）ができるツールです．-->
 
 * **[オンライン会議ツールを使って交流する](/articles/online-interaction)**：Discordを含めた様々なオンライン会議ツールの使い方を紹介しています．
+
+### LINEオープンチャット
+
+<!--https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/saito-->
+
+## 多人数での通話・交流
+
+### Discord
 
 ### Wonder.me
 
@@ -125,3 +193,4 @@ Google フォームはアンケートや投票，小テストを簡単に作る�
 「Remo」とは，オンラインコミュニケケーションツールです．画面上にある自分のアイコンを動かすことで，擬似的な「テーブル」を移動できることが特徴です．
 
 * **[オンライン会議ツールを使って交流する](/articles/online-interaction)**：Remoを含めた様々なオンライン会議ツールの使い方を紹介しています．
+
