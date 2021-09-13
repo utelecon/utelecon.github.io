@@ -83,7 +83,7 @@ Here you will add the first verification method (the second and subsequent metho
                     <ul>
                         <li><strong>Smartphone (the same device where you installed the Microsoft Authenticator app)</strong>：
                             <ol>
-                                <li>Click "このリンクをクリックして、アカウントをアプリにペアリングします".</li>
+                               <li>Click <mark>"このリンクをクリックして、アカウントをアプリにペアリングします"</mark>.</li>
                                     <!-- Please 1. check the exact English words that appear and 
                                             2. take a snapshot -->
                                 <li>Check that your UTokyo Account appears in the 
