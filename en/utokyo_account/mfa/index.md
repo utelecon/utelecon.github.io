@@ -348,7 +348,7 @@ When you sign in to UTokyo Account for the first time after the reset, you will 
 
 ## Q&A
 
-### How Can I Cancel my MFA application or Terminate Use of MFA?
+### How can I cancel my MFA application or terminate the use of MFA?
 We recommend that you use MFA for security reasons, and we normally will not terminate the use of MFA. However, if you need to terminate MFA use for unavoidable circumstances, please contact the [Technical Support Desk via email](/support/#email-form). (Please note that we may not be able to accomodate all requests.) 
 
 Note that although you can change <mark>"Enable MFA?"</mark><!-- change to actual question --> to "No" on the <mark>"MFA Application Form"</mark><!--Replace form name later --> in the UTokyo Account User Menu, this does not actually turn off MFA completely. Please do not make this change, as it may affect the use of some systems.
