@@ -130,7 +130,8 @@ Here you will add the first verification method (the second and subsequent metho
         <details>
             <summary>Setup Procedure</summary>
             <ol>
-                <li>Click "I want to use a different authenticator app" in the middle of the setup page.                     <img src="InitSetup_AuthenticatorApp01.png"></li>
+                <li>Click "I want to use a different authenticator app" in the middle of the setup page.                     
+                   <img src="InitSetup_AuthenticatorApp01.png"></li>
                 <li>For "Which method would you like to add?", select "Phone", 
                     and then click "Add".
                     <img src="xxxxxxxxxxxxxxxxx.png"></li>
@@ -145,7 +146,8 @@ Here you will add the first verification method (the second and subsequent metho
                 <li>You will receive a text or call on your phone to verify your identity. 
                     If you selected "Text me a code", you will receive an SMS message 
                     with a 6-digit verification code. Input the code in the setup page. 
-                    If you selected "Call me", you will receive a phone call asking you press the pound key (#) on your phone to verify your identity. Press the key and end the call.（To display the pound key on your smartphone during the call, press the "keypad" button.) </li>
+                    If you selected "Call me", you will receive a phone call asking you press the pound key (#) on your phone to verify your identity. 
+                    Press the key and end the call.（To display the pound key on your smartphone during the call, press the "keypad" button.) </li>
                 {% endcapture %}
                 {{ PhoneNumberSetup }} <!-- render captured content -->
             </ol>
@@ -157,11 +159,11 @@ Here you will add the first verification method (the second and subsequent metho
     Input the 6-digit code sent to your email address, and click "Next".
     <img src="InitSetup_Email02.png">
 6. Next you will be taken to the "App Password" page, and asked to input your "app password name". 
-    (The system may skip this step.) Input any name you like using alphanumeric charancters 
+    (The system may skip this step.) Input any name you like using alphanumeric characters 
     and click "Next".（This "App Password" is used when signing in to apps or devices that don't 
     support MFA. It will not be used for signing in with UTokyo Accounts.) 
     <img src="InitSetup_AppPassword01.png">
-7. A screen showing that you have successfully set up your security info will appear. Click "Done".
+7. A screen showing that you have successfully set up your security information will appear. Click "Done".
    <img src="InitSetup_Completed01.png">
 8. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
 
