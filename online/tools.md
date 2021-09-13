@@ -108,7 +108,8 @@ Word Onlineは，Microsoft Wordのオンライン版です．Wordファイルを
 
 Scrapboxは，オンラインで多数のメモ書きやノートを保存して整理するためのツールです．複数人が共同で同時編集をしたり，URLを使って内容を共有したりすることができます．「リンク」や「タグ」などを使って多数のページを簡単に繋げることができるのが特徴で，これを活用して，オンライン授業で資料をまとめたポータルサイトのように使うことができます．
 
-- **[Scrapboxで授業資料を作成する方法](/articles/scrapbox-handout/)**：Scrapboxの基本的な使い方と，授業資料の作成方法を紹介しています．
+- **[Scrapboxの基本的な使い方](/articles/scrapbox)**：Scrapboxの基本的な使い方を紹介しています．
+- **[Scrapboxで授業資料を作成する方法](/articles/scrapbox-handout/)**：Scrapboxで授業資料を作成する方法を紹介しています．
 - **[オンライン授業のグッドプラクティス 白石忠志先生の授業 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてScrapboxで資料を共有する実践例です．
 
 ## 手書きノート・ホワイトボード
