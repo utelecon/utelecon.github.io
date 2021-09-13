@@ -28,6 +28,9 @@ It is recommended to have MFA set up for better security of your UTokyo Account.
 PC上での一つ目のサインイン方法設定の画像まで収集できています。この先の収集お願いします！
 -->
 
+<div class="very-important-box">The following procedure will be available only after September 27, the MFA launch date. </div>
+
+
 ### Step 1: Apply for MFA Use 
 <!--or "Apply to Enable MFA" -->
 To start using MFA for your UTokyo Account, please submit an application form. 
