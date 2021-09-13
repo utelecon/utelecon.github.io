@@ -40,7 +40,7 @@ Google Meetは，GoogleがGoogle Workspaceの一部として提供しているWe
 
 ### ITC-LMS
 
-ITC-LMSは東京大学の学習管理システムです．授業資料の配布・課題提出・オンライン試験・教員から学生へのお知らせ通知などの機能があります．東京大学のアカウント (UTokyo Account) および履修登録などを行う学務システム (UTAS) と連携しているため，**「東京大学の学生だけに」あるいは「その授業の履修者だけに」情報を渡すことが簡単**に行えます．学生への浸透率も高いので，授業資料の配布・課題のやり取りなどには，まずITC-LMSのご利用をお考えください．
+ITC-LMSは東京大学の学習管理システムです．授業資料の配布・課題提出・オンライン試験・教員から学生へのお知らせ通知などの機能があります．東京大学のアカウント (UTokyo Account) および履修登録などを行う学務システム (UTAS) と連携しているため，**「東京大学の学生だけに」あるいは「その授業の履修者だけに」情報を渡すことが簡単**に行えます．**学生への浸透率も高い**ので，授業資料の配布・課題のやり取りなどには，まずITC-LMSのご利用をお考えください．
 
 → **[ITC-LMS 説明ページ](/itc_lms/)**：使い方をまとめています．
 
@@ -59,7 +59,7 @@ Google Workspaceは，GmailやGoogleドライブ・Googleドキュメント・Go
 
 → **[ECCSクラウドメール (Google Workspace) 説明ページ](/eccs_cloud_email)**：ECCSクラウドメール (Google Workspace) に関する情報をまとめています．
 
-### Microsoft 365
+### Microsoft 365 (UTokyo Microsoft License)
 
 Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサービスの総称です．東京大学では有料ライセンスを契約しており，「UTokyo Microsoft License」の名称で提供しています．
 
@@ -74,7 +74,7 @@ Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサ�
 
 GoogleフォームはGoogle Workspaceに含まれているフォーム作成サービスです．東大のアカウントを使うと，回答できる人の範囲を東大のアカウントに限定したフォームを作成することもできます．
 
-→ **[Googleフォームで小テストやアンケートを実施する](/articles/google-form/)**：Google フォームを用いた小テストやアンケートの作成について紹介しています.
+→ **[Googleフォームで小テストやアンケートを実施する](/articles/google-form/)**：小テストやアンケートを想定して基本的な使い方を説明しています.
 
 ### Microsoft Forms
 
@@ -92,7 +92,8 @@ Googleドキュメントは，Google Workspaceに含まれる文書作成ツー�
 
 Googleドキュメントのほかに，表計算サービスの「Googleスプレッドシート」，プレゼンテーション作成サービスの「Googleスライド」なども同じように使うことができます．
 
-- **[Google ドキュメントの基本的な使い方](/articles/google-document/)**：基本的なGoogle ドキュメントの使い方が紹介されています．
+- **[Google ドキュメントの基本的な使い方](/articles/google-document/)**：基本的な使い方を説明しています．
+- **[Google Driveの基本的な使い方](/articles/google-drive/)**：Googleドキュメントで作成した文書の「置き場」となるGoogleドライブの使い方を説明しています．
 - **[オンライン授業のグッドプラクティス 栗田佳代子 先生の授業 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った実践例です．
 
 ### Word Online
@@ -103,13 +104,12 @@ Word Onlineは，Microsoft Wordのオンライン版です．Wordファイルを
 
 → **[Web 用 Word で文書を作成する（Microsoftサポート）](https://support.microsoft.com/ja-jp/office/web-%E7%94%A8-word-%E3%81%A7%E6%96%87%E6%9B%B8%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B-b406a6f9-341e-45f2-b9ac-ed85b6f7b8f6)**：Word Onlineに関するMicrosoftの説明ページです．
 
-
 ### Scrapbox
 
 Scrapboxは，オンラインで多数のメモ書きやノートを保存して整理するためのツールです．複数人が共同で同時編集をしたり，URLを使って内容を共有したりすることができます．「リンク」や「タグ」などを使って多数のページを簡単に繋げることができるのが特徴で，これを活用して，オンライン授業で資料をまとめたポータルサイトのように使うことができます．
 
-- **[Scrapboxの基本的な使い方](/articles/scrapbox)**：Scrapboxの基本的な使い方を紹介しています．
-- **[Scrapboxで授業資料を作成する方法](/articles/scrapbox-handout/)**：Scrapboxで授業資料を作成する方法を紹介しています．
+- **[Scrapboxの基本的な使い方](/articles/scrapbox/)**：基本的な使い方を説明しています．
+- **[Scrapboxで授業資料を作成する方法](/articles/scrapbox-handout/)**：Scrapboxで授業資料を作成する方法を説明しています．
 - **[オンライン授業のグッドプラクティス 白石忠志先生の授業 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてScrapboxで資料を共有する実践例です．
 
 ## 手書きノート・ホワイトボード
@@ -122,7 +122,7 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 
 iPadで使える，最もポピュラーと思われる手書きノートアプリです．有料アプリで，980円で購入できます．
 
-- **[GoodNotes 5で板書をする](/articles/goodnotes-writing/)**：基本的な使い方と板書での活用方法をまとめています．
+- **[GoodNotes 5で板書をする](/articles/goodnotes-writing/)**：基本的な使い方と板書での活用方法を説明しています．
 - **[オンライン授業のグッドプラクティス 白石忠志先生の授業 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてGoodNotes 5で板書をする実践例です．
 - **[オンライン授業のグッドプラクティス 齊藤宣一先生の授業 計算数理I・計算数理](/good-practice/interview/saito)**：授業においてGoodNotes 5で板書をする実践例です．
 
@@ -130,7 +130,7 @@ iPadで使える，最もポピュラーと思われる手書きノートアプ�
 
 OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブラウザからも（使い勝手は悪いですが）同時編集をすることができます．
 
-- **[OneNoteで板書する](/articles/onenote-whiteboard/)**：基本的な使い方と板書での活用方法をまとめています．
+- **[OneNoteで板書する](/articles/onenote-whiteboard/)**：基本的な使い方と板書での活用方法を説明しています．
 - **[オンライン授業のグッドプラクティス 入江薫先生の授業 数理統計I、II](/good-practice/interview/irie)**：授業においてOneNoteで板書をする実践例です．
 
 ### その他の手書きノート・ホワイトボード
@@ -164,7 +164,7 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 
 「Slack」はグループウェアと呼ばれるアプリの一種で，グループやチームの中でさまざまなテキストメッセージをやり取りしコミュニケーションを取るためのツールです．授業でもさまざまな活用は
 
-- **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication/)**：Slack の基本的な使い方などをまとめています．
+- **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication/)**：基本的な使い方などを説明しています．
 - **[ゼミ形式の授業でSlackを活用する](/articles/slack-seminar/)**：特にゼミ形式の授業において，Slackを活用する方法を紹介しています．
 - **[オンライン授業のグッドプラクティス 斎藤宣一先生の授業 計算数理I・計算数理](/good-practice/interview/saito)** ：オンデマンド形式の授業でSlackを使用されており，Slackで授業内容に関する質問を募っている実践例です．
 - **[オンライン授業のグッドプラクティス 白石忠志先生の授業 法Ⅰ](/good-practice/interview/shiraishi)**：Slackで質問や相談を受けた実践例です．
