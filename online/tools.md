@@ -12,6 +12,7 @@ title: 使えるツールから探す
 **本ポータルサイト (utelecon) では，よりよいオンラインでの授業・活動に役立つ情報をまとめています．「[オンラインを活用するために](/online/)」のページにさまざまな情報をまとめていますので，あわせてご覧ください．**
 
 ## Web会議システム
+{:#web-conf}
 
 ### Zoom
 
@@ -35,6 +36,7 @@ Google Meetは，GoogleがGoogle Workspaceの一部として提供しているWe
 → **[Google Meet 説明ページ](/meet/)**：使い方をまとめています．
 
 ## 学習管理システム
+{:#lms}
 
 「学習管理システム」は，授業における学生と教員の間でのデータや情報のやり取り（資料の配布・課題提出など）を支援するシステムです．
 
@@ -52,25 +54,29 @@ Google Classroomは，GoogleがGoogle Workspaceの一部として提供してい
 - **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](/events/luncheon/2020-07-15/)**：Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）．
 
 ## クラウドサービス
+{:#cloud-service}
 
 ### Google Workspace（ECCSクラウドメール）
+{:#google-workspace}
 
 Google Workspaceは，GmailやGoogleドライブ・Googleドキュメント・GoogleスプレッドシートなどのGoogleサービスの総称です．東京大学では有料ライセンスを契約しており，「ECCSクラウドメール」の名称で提供しています．
 
 → **[ECCSクラウドメール (Google Workspace) 説明ページ](/eccs_cloud_email)**：ECCSクラウドメール (Google Workspace) に関する情報をまとめています．
 
 ### Microsoft 365 (UTokyo Microsoft License)
+{:#microsoft-365}
 
 Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサービスの総称です．東京大学では有料ライセンスを契約しており，「UTokyo Microsoft License」の名称で提供しています．
 
 → **[UTokyo Microsoft Licenseのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)**：東京大学におけるUTokyo Microsoft License利用上の注意事項などがまとまっています．
 
-
 ## フォーム作成
+{:#forms}
 
 オンラインのフォームを簡単に作成することができるツールを紹介します．アンケートや投票，小テストなどに利用することができます．
 
 ### Google フォーム
+{:#google-forms}
 
 GoogleフォームはGoogle Workspaceに含まれているフォーム作成サービスです．東大のアカウントを使うと，回答できる人の範囲を東大のアカウントに限定したフォームを作成することもできます．
 
@@ -83,10 +89,12 @@ Microsoft FormsはMicrosoft 365に含まれているフォーム作成サービ�
 → **[Microsoft Forms のヘルプとラーニング（Microsoftサポート）](https://support.microsoft.com/ja-jp/forms)**：Microsoft Formsに関するMicrosoftの説明ページです．
 
 ## 文書作成・共有
+{:#docs}
 
 オンラインで文書を作成・共有することができるツールです．多くのツールが複数人での同時編集に対応しており，会議やグループワークの際のメモ書きを行うのに非常に適しています．
 
 ### Googleドキュメント
+{:#google-docs}
 
 Googleドキュメントは，Google Workspaceに含まれる文書作成ツールです．クラウド（Googleドライブ）上に文書を保存するため，複数人が同時編集をしたり，URLを使って文書を共有したりすることが簡単にできます．
 
@@ -113,6 +121,7 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 - **[オンライン授業のグッドプラクティス 白石忠志先生の授業 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてScrapboxで資料を共有する実践例です．
 
 ## 手書きノート・ホワイトボード
+{:#handwriting}
 
 タブレットやタッチパネル対応のPCを使って，手書きで文字や図をかくためのツールです．オンライン授業で手書きの「板書」をしたいという場合に使えるツールです．また，同時編集の機能が充実しているツールであれば，グループワークなどでも活用することができます．
 
@@ -134,10 +143,12 @@ OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブ
 - **[オンライン授業のグッドプラクティス 入江薫先生の授業 数理統計I、II](/good-practice/interview/irie)**：授業においてOneNoteで板書をする実践例です．
 
 ### その他の手書きノート・ホワイトボード
+{:#handwriting-others}
 
 この他に，**[miro](https://miro.com/)**，**[Padlet](https://padlet.com/)**，**[Google Jamboard](https://jamboard.google.com/)**などのホワイトボードツールがあります．紹介記事を今後追加していく予定です．
 
 ## Web会議で双方向コミュニケーション
+{:#web-conf-interactive-com}
 
 Web会議ツールと併用することで学生と教員の双方向のコミュニケーションを活性化させることに役立つツールを紹介します．
 
@@ -159,6 +170,7 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 - **[オンライン授業のグッドプラクティス 杉田直彦 先生の授業 生産システム](/good-practice/interview/sugita)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
 
 ## チャットでコミュニケーション
+{:#chat-com}
 
 ### Slack
 
@@ -177,6 +189,7 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 - **[オンライン会議ツールを使って交流する](/articles/online-interaction/)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### LINEオープンチャット
+{:#line-openchat}
 
 「LINEオープンチャット」は，チャットアプリ「LINE」の機能で，あらかじめLINEの「友だち」として登録していなくても指定の「コード」を共有して参加できるチャットルーム（トークルーム）を作ることができるものです．また，オープンチャットのトークルームでは，LINE全体のプロフィールとは異なるプロフィールを設定できるため，プライベートなプロフィールを見せないでよく（匿名にすることもできる），学生も参加しやすいです．
 
@@ -184,6 +197,7 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 - **[オンライン授業のグッドプラクティス 廣瀬敬先生の授業 固体地球科学](/good-practice/interview/hirose)**：授業においてLINEオープンチャットで匿名の質問を受け付けた実践例です．
 
 ## 多人数での通話・交流
+{:#voice-chat}
 
 - **[オンライン会議ツールを使って交流する](/articles/online-interaction/)**：ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールを紹介しています．紹介しているツールは以下の4種類です．
     - **[Discord](https://discord.com/)**：通話（ボイスチャット）だけでなく日常的なテキストチャットも行えるオンラインの交流ツールです．
