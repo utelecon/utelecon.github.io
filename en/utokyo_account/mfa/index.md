@@ -349,7 +349,7 @@ When you sign in to your UTokyo Account for the first time after the reset, you 
 ### How can I cancel my MFA application or terminate the use of MFA?
 We strongly recommend that you use MFA for security reasons, and we normally will not terminate the use of MFA. However, if you need to terminate MFA use for unavoidable circumstances, please contact the [Technical Support Desk via email](/en/support/#email-form). (Please note that we may not be able to accommodate all requests.) 
 
-Note that although you can change "Use MFA" to “No” on the <mark>"Multi-Factor Authentication Setting</mark> in the UTokyo Account User Menu, this operation does not actually turn off MFA completely. Please do not click “No”, as it may cause problems in your systems’ authentication process.
+Note that although you can change "Use MFA" to “No” on the <mark>"Multi-Factor Authentication Setting"</mark> in the UTokyo Account User Menu, this operation does not actually turn off MFA completely. Please do not click “No”, as it may cause problems in your systems’ authentication process.
 
 ### Why is MFA identity verification sometimes not requested upon sign-in?
 
