@@ -24,6 +24,8 @@ GoodNotes 5は，読み込んだスライドや文書（PDF，Power Point，Word
 
 GoodNotes 5はiPad，iPhone，Macなどで利用できますが，板書をする場合にはiPad上での利用を推奨します．iPhoneの場合は画面サイズが小さいため，タッチペン等を別途購入して使用したとしても，細かい板書はしにくく不向きだと考えられます．またMacの場合は，ペンタブレットを別途購入すれば板書は可能ですが，iPadのように画面に直接タッチして書き込むことはできません．
 
+アプリケーションは，[App Store](https://apps.apple.com/app/goodnotes-5/id1444383602#?platform=ipad)から購入することができます．
+
 本記事では，iPad上でApple Pencil（別売）を用いてGoodNotes 5を使用する方法について説明します．
 
 （注）Apple PencilはApple純正のタッチペンで，iPadのみに対応しています．2021年3月現在では，iPhoneおよびMac共に，Apple Pencilには対応していません．
@@ -32,22 +34,15 @@ GoodNotes 5はiPad，iPhone，Macなどで利用できますが，板書をす�
 * 提供元
     * Time Base Technology Limited
     * 公式サイト　[https://www.goodnotes.com/](https://www.goodnotes.com/)
-
 * 使用可能な環境
     * 端末・OS 
         * iPad：iPadOS 12.0 以降
         * iPhoneまたはiPod touch：iOS 12.0 以降
         * Mac：MacOS 10.15 以降
-        * ※Windows非対応
-    * インストールに必要なドライブ容量（目安）
-        * iPad：154.4 MB
-        * iPhone：163.5 MB
-        * Mac：167.7 MB
-        * ※別途読み込んだファイルの保存域が必要
+        * Windowsには対応していません
     * 必須またはオプションのアクセサリ
         * 必須ではないがApple Pencilの使用を推奨
         * オンライン授業で使用する場合は，Zoom等のビデオ会議用ツールが別途必要
-
 * 運用コスト
     * 費用
         * アプリケーションを購入する必要があります（980円で購入できます）
@@ -55,28 +50,13 @@ GoodNotes 5はiPad，iPhone，Macなどで利用できますが，板書をす�
             * Apple Pencil（第1世代）10,800円（税別）
             * Apple Pencil（第2世代）14,500円（税別）
         * （非推奨）iPhoneの場合はタッチペン（100円〜5,000円程度），Macの場合はペンタブレット（5,000〜20,000円程度）を別途購入することにより，ペンを用いた板書が可能です．
-    * 通信量の例
-        * 0 MB（GoodNotes 5自体はオフラインで使用可）
 * 授業を受ける学生側が準備すること
     * なし
 
-## インストール方法と起動方法
-{:#install}
 
-以下ではiPadでの使⽤⽅法を記載します．説明は省略しますが，iPhone，iPod touchまたはMacでも使⽤することができます．
-* App Storeにて「[GoodNotes 5](https://apps.apple.com/app/goodnotes-5/id1444383602#?platform=ipad)」を購入する．
+## 基本的なツールの使い方
+{:#tools}
 
-<figure>
-<img src="pic02.jpeg">
-</figure>
-
-* 「GoodNotes」と表示されたアイコンをタッチして起動する．
-
-<figure>
-<img src="pic03.jpeg">
-</figure>
-
-## 基本的なツールについて
 基本的な操作は，[GoodNotesの公式サイト](https://support.goodnotes.com/hc/en-us/articles/360000690095-Getting-started-with-GoodNotes-5)に載っています（英語，繁体字，簡体字のみ）．
 
 以下では，基本的なツールと簡単な使用方法を記載します．
@@ -281,18 +261,12 @@ GoodNotes 5はiPad，iPhone，Macなどで利用できますが，板書をす�
 
 ## 想定される授業でのGoodNotes 5の使用法
 {:#in_class}
-### Zoomの授業でGoodNotes 5の画面を共有する場合
+### ZoomでGoodNotes 5の画面を共有する
 {:#with_zoom}
 
-本記事で紹介する画面共有の方法は，初心者でも簡単にできると思われる方法です．本記事では詳述しませんが，中上級者の方は，「AirPlay（またはそのミラーリングソフト）」を用いた画面共有等の方法を用いることで，Macや一部のWidowsPCからiPadの画面を共有することも可能です．
+本記事で紹介する画面共有の方法は，初心者でも簡単にできると思われる方法です．本記事では詳述しませんが，中上級者の方は，「AirPlay（またはそのミラーリングソフト）」を用いた画面共有等の方法を用いることで，Macや一部のWidowsPCからiPadの画面を共有することも可能です．一般的なZoomの使い方については，「[Zoom](/zoom/)」を参考にしてください．
 
-まず，App Storeで「ZOOM Cloud Meetings」を入手します．
-
-（注）アプリケーションは無料で入手できます．
-
-「Zoom」と表示されたアイコンをタップしてZoomを起動します．
-
-メニューバーの「共有」をタップし，続いて表示される「画面」をタップします．
+iPadでZoomの会議室を開き，メニューバーから「共有」をタップしてから，「画面」を選択してください．．
 
 <figure>
 <img src="pic37.jpeg">
@@ -317,10 +291,7 @@ GoodNotes 5に切り替えます．
 <img src="pic40.jpeg">
 </figure>
 
-### Google ドライブ上に保存した事前作成資料（PDF，PowerPoint，Wordなど）を開き，その上に板書する場合
-{:#with_google_drive}
-
-#### １. ファイルを開く方法
+### Google ドライブ上に保存したPDFなどの資料をGoodNotes 5に読み込む
 
 まず，App Storeにて「Google ドライブ - 安全なオンライン ストレージ」を入手します．  
 （注）Google ドライブのアプリは無料で入手可能です．
@@ -371,9 +342,10 @@ GoodNotes 5に切り替えます．
 <img src="pic40.jpeg">
 </figure>
 
-#### ２. 基本的な板書の方法
+### 事前に読み込んだ資料の上に板書をする
 
-スライド間の移動は，画⾯横⽅向へのスワイプ動作，またはサムネイル（上段メニューバーの左から2番⽬のアイコンをタップして表⽰）から移りたいスライドを選択することで⾏うことができます．
+スライド間の移動は，画⾯のスワイプ動作，またはサムネイル（上段メニューバーの左から2番⽬のアイコンをタップして表⽰）から移りたいスライドを選択することで⾏うことができます．
+
 <figure>
 <img src="pic47.jpeg">
 </figure>
@@ -392,23 +364,13 @@ GoodNotes 5に切り替えます．
 <img src="pic49.jpeg">
 </figure>
 
-「カスタム」ではより詳細に色を規定できます．
-
-<figure>
-<img src="pic50.jpeg">
-</figure>
-
-下段ツールバーの右側に表示される線形アイコンをタップすることで「Pen Thickness」が表示されます．スライダーをスライドすることでペンの太さを規定できます．
-
-<figure>
-<img src="pic51.jpeg">
-</figure>
+板書で使うことのできるツールについては，上記の「[基本的なツールについて](#tools)」も参考にしてください．
 
 次の動画は，授業中にリアルタイムに板書をするデモンストレーションです．GoodNotes 5を使って板書している教員の共有画面が受講している学生の画面に映し出される様子が再現されています．マーカーツール，ペンツール，消しゴムツール，テキストツールを使用している様子をご確認ください．
 
 [https://drive.google.com/file/d/1MQ8Ib_lYkUzHV9ayQ_aPJvdRbANx0Y2I/view?usp=sharing](https://drive.google.com/file/d/1MQ8Ib_lYkUzHV9ayQ_aPJvdRbANx0Y2I/view?usp=sharing)
 
-### ホワイトボードのようなまっさらな画面に板書する場合
+### ホワイトボードのようなまっさらな画面に板書をする
 
 「新規...」をタップします．
 
@@ -430,7 +392,7 @@ GoodNotes 5に切り替えます．
 
 白紙のノートが表示されるので，ペンツールを用いて板書を行います．
 
-ペンツールの使用方法は，上述の「[Google Drive上に保存した事前作成資料（PDF，PowerPoint，Wordなど）を開き，その上に板書する場合](#with_google_drive)」の項をご参照ください．
+ペンツールをはじめとした板書で使うことのできるツールについては，上記の「[基本的なツールについて](#tools)」も参考にしてください．
 
 <figure>
 <img src="pic55.jpeg">
