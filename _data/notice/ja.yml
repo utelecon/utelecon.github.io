@@ -1,5 +1,8 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
+-
+  date: 2021-09-15
+  content: "2021年7月より，授業やイベントで使えるQ&Aツール「Slido」がWebexと連携し，東京大学のWebexアカウントで有料機能が使えるようになりました．また，これにあわせ[Slidoの使い方や活用事例をまとめたページ](/slido/)を作成しました．"
 - date: 2021-09-09
   content: "東京大学の情報システムとそのサポート体制について説明する資料[「オンライン授業を受けるために（学生向け）」 (PDF)](/notice/getting_ready_for_online_classes_students_2021a.pdf)と[「オンライン授業を受けるために（教員向け）」 (PDF)](/notice/getting_ready_for_online_classes_faculty_2021a.pdf)を公開しました．"
   important: true
