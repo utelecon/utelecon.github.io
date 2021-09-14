@@ -28,7 +28,7 @@ It is recommended to have MFA set up for better security of your UTokyo Account.
 PC上での一つ目のサインイン方法設定の画像まで収集できています。この先の収集お願いします！
 -->
 
-<div class="very-important-box">MFA setup will be available only after September 27, 2021, the MFA launch date. </div>
+<div class="very-important-box">MFA setup will only be available after September 27, 2021, the MFA launch date. </div>
 
 
 ### Step 1: Apply for MFA Use 
