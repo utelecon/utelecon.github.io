@@ -35,9 +35,6 @@
       name: "Webex"
       url: "/webex/"
     -
-      name: "Slido"
-      url: "/slido/"
-    -
       name: "ECCSクラウドメール<small> (Google Workspace)</small>"
       url: "/eccs_cloud_email"
     -
@@ -49,6 +46,9 @@
     -
       name: "ECCS端末"
       url: "https://www.ecc.u-tokyo.ac.jp/"
+    -
+      name: "その他"
+      url: "/systems#others"
 -
   name: "オンラインの活用"
   contents:
