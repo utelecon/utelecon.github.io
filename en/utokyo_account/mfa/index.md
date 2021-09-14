@@ -226,7 +226,7 @@ Below are the procedures to add different verification methods.
     You may add one phone number for each type 
     (i.e. a total of three phone numbers can be added as your verification method). 
     The description of each phone type is as follows: 
-    - **Phone**：This is your main phone, such as your mobile phone. You can verify your identity either by receiving an SMS message or phone call. If you added your phone number as your first verification method, it should be automatically become "Phone".
+    - **Phone**：This is your main phone, such as your mobile phone. You can verify your identity either by receiving an SMS message or phone call. If you added your phone number as your first verification method, it should automatically become "Phone".
     - **"Alternate phone"**：This is a backup phone you can add, such as your landline. You can only receive phone calls (SMS unavailable) to verify your identity using this phone.
     - **Office phone**：This is another backup phone you can add, such as your company (university)
          phone. You can only receive phone calls (SMS unavailable) to verify your identity 
