@@ -33,14 +33,14 @@ PC上での一つ目のサインイン方法設定の画像まで収集できて
 
 ### Step 1: Apply for MFA Use 
 <!--or "Apply to Enable MFA" -->
-To start using MFA for your UTokyo Account, please submit an application form. 
+To start using MFA for your UTokyo Account, please submit an application. 
 
 Upon the first sign-in to your UTokyo Account after submitting the application, you will be prompted to complete the MFA initial setup procedure. Please be aware that you will not be able to sign in until the setup is completed. Spare enough time to sign in and complete the setup. 
 
 1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet).
 2. Sign in with your UTokyo Account username (10-digit Common ID) and password if prompted. 
-3. Click <mark>"MFA Application Form"</mark><!--Replace form name later --> in the left menu. 
-4. Read the MFA instructions carefully, and find <mark>"Enable MFA?"</mark> at the bottom of the page. Answer "Yes" and click "Save".<!-- item4 needs amendment later to match the actual form layout --> 
+3. Click <mark>"Multi-Factor Authentication Setting"</mark> in the left menu. 
+4. Read the MFA instructions carefully, and find "Use MFA" at the bottom of the page. Answer "Yes" and click "SAVE". 
 
 ### Step 2: Set Up the First Verification Method
 <!-- 「本人確認方法」は"verification method"を採用 -->
@@ -349,7 +349,7 @@ When you sign in to your UTokyo Account for the first time after the reset, you 
 ### How can I cancel my MFA application or terminate the use of MFA?
 We strongly recommend that you use MFA for security reasons, and we normally will not terminate the use of MFA. However, if you need to terminate MFA use for unavoidable circumstances, please contact the [Technical Support Desk via email](/en/support/#email-form). (Please note that we may not be able to accommodate all requests.) 
 
-Note that although you can change <mark>"Enable MFA?"</mark><!-- change to actual question --> to “No” on the <mark>"MFA Application Form"</mark><!--Replace form name later --> in the UTokyo Account User Menu, this operation does not actually turn off MFA completely. Please do not click “No”, as it may cause problems in your systems’ authentication process.
+Note that although you can change "Use MFA" to “No” on the <mark>"Multi-Factor Authentication Setting</mark> in the UTokyo Account User Menu, this operation does not actually turn off MFA completely. Please do not click “No”, as it may cause problems in your systems’ authentication process.
 
 ### Why is MFA identity verification sometimes not requested upon sign-in?
 
