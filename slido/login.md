@@ -1,10 +1,10 @@
 ---
-title: "UTokyo Accountを用いてSlidoにサインインする"
+title: "UTokyo AccountでSlidoにサインインする"
 ---
 
 自身でイベントを主催する場合は，Slidoへのログインが必要です．イベントに参加するだけであれば，この手順は必要ありません．
 
-Slidoには，個人のアカウントを利用してサインインすることもできますが，以下の手順に従ってUTokyo Accountを用いてサインインすることで，追加の機能を利用できるようになります．
+Slidoには，個人のアカウントを利用してサインインすることもできますが，以下の手順に従ってUTokyo Accountでサインインすることで，有料機能を利用できるようになります．
 
 1. [公式サイト](https://www.sli.do/jp)にアクセスしてください．<img src="img/slido_top_page.png">
 2. 画面右上の「サインイン」をクリックしてから，「Log in with Webex」をクリックしてください．この画面の「Your email」の欄は利用しません．<img src="img/login01.png">
