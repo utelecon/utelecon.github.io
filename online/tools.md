@@ -102,7 +102,7 @@ Googleドキュメントのほかに，表計算サービスの「Googleスプ�
 
 - **[Google ドキュメントの基本的な使い方](/articles/google-document/)**：基本的な使い方を説明しています．
 - **[Google Driveの基本的な使い方](/articles/google-drive/)**：Googleドキュメントで作成した文書の「置き場」となるGoogleドライブの使い方を説明しています．
-- **[オンライン授業のグッドプラクティス 栗田佳代子 先生の授業 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った実践例です．
+- **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った授業の実践例です．
 
 ### Word Online
 
@@ -118,7 +118,7 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 
 - **[Scrapboxの基本的な使い方](/articles/scrapbox/)**：基本的な使い方を説明しています．
 - **[Scrapboxで授業資料を作成する方法](/articles/scrapbox-handout/)**：Scrapboxで授業資料を作成する方法を説明しています．
-- **[オンライン授業のグッドプラクティス 白石忠志先生の授業 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてScrapboxで資料を共有する実践例です．
+- **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてScrapboxで資料を共有する実践例です．
 
 ## 手書きノート・ホワイトボード
 {:#handwriting}
@@ -132,15 +132,15 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 iPadで使える，最もポピュラーと思われる手書きノートアプリです．有料アプリで，980円で購入できます．
 
 - **[GoodNotes 5で板書をする](/articles/goodnotes-writing/)**：基本的な使い方と板書での活用方法を説明しています．
-- **[オンライン授業のグッドプラクティス 白石忠志先生の授業 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてGoodNotes 5で板書をする実践例です．
-- **[オンライン授業のグッドプラクティス 齊藤宣一先生の授業 計算数理I・計算数理](/good-practice/interview/saito)**：授業においてGoodNotes 5で板書をする実践例です．
+- **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてGoodNotes 5で板書をする実践例です．
+- **[オンライン授業のグッドプラクティス／齊藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito)**：授業においてGoodNotes 5で板書をする実践例です．
 
 ### OneNote
 
 OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブラウザからも（使い勝手は悪いですが）同時編集をすることができます．
 
 - **[OneNoteで板書する](/articles/onenote-whiteboard/)**：基本的な使い方と板書での活用方法を説明しています．
-- **[オンライン授業のグッドプラクティス 入江薫先生の授業 数理統計I、II](/good-practice/interview/irie)**：授業においてOneNoteで板書をする実践例です．
+- **[オンライン授業のグッドプラクティス／入江薫先生 数理統計I、II](/good-practice/interview/irie)**：授業においてOneNoteで板書をする実践例です．
 
 ### その他の手書きノート・ホワイトボード
 {:#handwriting-others}
@@ -163,7 +163,7 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 「CommentScreen」は，オンライン授業をしている画面上に，直接学生の質問やコメントを匿名・リアルタイムで表示することができるツールです．
 
 - **[CommentScreen](https://commentscreen.com/)**：公式ウェブサイトです．
-- **[オンライン授業のグッドプラクティス 杉田直彦 先生の授業 生産システム](/good-practice/interview/sugita)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
+- **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
 
 ## チャットでコミュニケーション
 {:#chat-com}
@@ -174,8 +174,8 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 
 - **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication/)**：基本的な使い方などを説明しています．
 - **[ゼミ形式の授業でSlackを活用する](/articles/slack-seminar/)**：特にゼミ形式の授業において，Slackを活用する方法を紹介しています．
-- **[オンライン授業のグッドプラクティス 斎藤宣一先生の授業 計算数理I・計算数理](/good-practice/interview/saito)** ：オンデマンド形式の授業でSlackを使用されており，Slackで授業内容に関する質問を募っている実践例です．
-- **[オンライン授業のグッドプラクティス 白石忠志先生の授業 法Ⅰ](/good-practice/interview/shiraishi)**：Slackで質問や相談を受けた実践例です．
+- **[オンライン授業のグッドプラクティス／斎藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito)** ：オンデマンド形式の授業でSlackを使用されており，Slackで授業内容に関する質問を募っている実践例です．
+- **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：Slackで質問や相談を受けた授業の実践例です．
 
 ### Discord
 
@@ -190,7 +190,7 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 「LINEオープンチャット」は，チャットアプリ「LINE」の機能で，あらかじめLINEの「友だち」として登録していなくても指定の「コード」を共有して参加できるチャットルーム（トークルーム）を作ることができるものです．また，オープンチャットのトークルームでは，LINE全体のプロフィールとは異なるプロフィールを設定できるため，プライベートなプロフィールを見せないでよく（匿名にすることもできる），学生も参加しやすいです．
 
 - **[オープンチャットを利用する（LINEみんなの使い方ガイド）](https://guide.line.me/ja/services/openchat.html)**：オープンチャットに関するLINEの説明ページです．
-- **[オンライン授業のグッドプラクティス 廣瀬敬先生の授業 固体地球科学](/good-practice/interview/hirose)**：授業においてLINEオープンチャットで匿名の質問を受け付けた実践例です．
+- **[オンライン授業のグッドプラクティス／廣瀬敬先生 固体地球科学](/good-practice/interview/hirose)**：授業においてLINEオープンチャットで匿名の質問を受け付けた実践例です．
 
 ## 多人数での通話・交流
 {:#voice-chat}
