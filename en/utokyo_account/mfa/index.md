@@ -57,7 +57,7 @@ Here you will add the first verification method (the second and subsequent metho
        <summary>Troubleshooting Tips</summary>
        <ul>
             <li><strong>If the "UTokyo Account Service Directory" page appears instead of the sign-in page</strong>: Click the circle in the upper-right corner that shows either your user photo, initials, or an icon of a person. Click "Sign out", and then sign back in.</li>
-           <li><strong>If the "UTokyo Account Service Directory" page appears instead of the "More information required" page</strong>: Your application in Step 1 may not be reflected in the system yet. properly. Please wait for a while and try again.</li>
+           <li><strong>If the "UTokyo Account Service Directory" page appears instead of the "More information required" page</strong>: Your application in Step 1 may not be reflected in the system yet. Please wait for a while and try again.</li>
        </ul>
    </details>
 3. Add the first verification method in the setup page. 
@@ -65,7 +65,7 @@ Here you will add the first verification method (the second and subsequent metho
 
     The setup procedure varies depending on the verification method you add. 
     - **Microsoft Authenticator App**:
-        "Microsoft Authenticator" is an MFA authentication app provided by Microsoft. Using this app is convenient 
+        "Microsoft Authenticator" is an MFA authentication application provided by Microsoft. Using this app is convenient 
         since UTokyo Account's MFA adopts Microsoft's system. 
         <details>
             <summary>Setup Procedure</summary>
@@ -76,9 +76,9 @@ Here you will add the first verification method (the second and subsequent metho
                     <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a> 
                     and the iPhone version from 
                     <a href="https://apps.apple.com/app/microsoft-authenticator/id983156458">App Store</a>. </li>
-                <li>After installing the app, go back to the setup page. Click "Next" to continue setup for the Microsoft Authenticator setup. </li>
+                <li>After installing the app, go back to the setup page. Click "Next" to continue setup for the Microsoft Authenticator app. </li>
                 <li>
-                    The next procedure differs by the device that you working on.
+                    The next procedure differs by the device that you are working on.
                     {% capture MSAuthenticatorSetupByDevice %}  
                     <ul>
                         <li><strong>Smartphone (the same device where you installed the Microsoft Authenticator app)</strong>：
@@ -152,14 +152,14 @@ Here you will add the first verification method (the second and subsequent metho
                 {{ PhoneNumberSetup }} <!-- render captured content -->
             </ol>
         </details>
-5. You will be prompted to input your email address (if you haven't already done so).
-   Please input an email address OTHER THAN your ECCS Cloud Email if possible, 
+5. You will be prompted to enter your email address (if you haven't already done so).
+   Please enter an email address OTHER THAN your ECCS Cloud Email if possible, 
     and click "Next".
     <img src="InitSetup_Email01.png">
-    Input the 6-digit code sent to your email address, and click "Next".
+    Enter the 6-digit code sent to your email address, and click "Next".
     <img src="InitSetup_Email02.png">
-6. Next you will be taken to the "App Password" page, and asked to input your "app password name". 
-    (The system may skip this step.) Input any name you like using alphanumeric characters 
+6. Next you will be taken to the "App Password" page, and asked to enter your "app password name". 
+    (The system may skip this step.) Enter any name you like using alphanumeric characters 
     and click "Next".（This "App Password" is used when signing in to apps or devices that don't 
     support MFA. It will not be used for signing in with UTokyo Accounts.) 
     <img src="InitSetup_AppPassword01.png">
@@ -221,9 +221,8 @@ Below are the procedures to add different verification methods.
     </details>
 
 - **Phone Number**:
-    You can add your phone number and receive a call or text message to verify your identity．
-    There are three types of phones that can be added- "Phone", "Alternate phone", and "Office phone". 
-    You may add one phone number for each type 
+    You can add your phone number and receive a call or text message to verify your identity. 
+    There are three types of phones that can be added- "Phone", "Alternate phone", and "Office phone". You may add one phone number for each type 
     (i.e. a total of three phone numbers can be added as your verification method). 
     The description of each phone type is as follows: 
     - **Phone**：This is your main phone, such as your mobile phone. You can verify your identity either by receiving an SMS message or phone call. If you added your phone number as your first verification method, it should automatically become "Phone".
@@ -264,11 +263,11 @@ The last step of the initial setup procedure is to check that you can sign in to
  Once you are signed out, access the [UTokyo Account Sign-in page](https://login.adm.u-tokyo.ac.jp/utokyoaccount) again.
 3. If the sign-in screen appears, enter your UTokyo Account username (10-digit Common ID) and password and click "Sign in".
 4. Verify your identity using MFA. The procedure differs by the verification method you use. Please follow the instructions on your screen. 
-    - **Microsoft Authenticator App**：A notification will be sent to your phone to approve the sign-in request in the app. Click "Approve". <img src="xxxxxxxxxxxxxxx.png"> 
-    - **Other Authenticator Apps**：You will see a 6-digit code for your account in the authenticator app. Enter the code in the sign-in page. <img src="xxxxxxxxxxxxxxx.png">
-    - **Phone Number (verification via text)**：An SMS message with a 6-digit code will be sent to your phone. Enter the code in the sign-in page and click "Verify". <img src="xxxxxxxxxxxxxxx.png">
-    - **Phone Number (verification via call)**： You will receive a phone call, asking you to press the pound key (#) on your phone. Press the key and end the call.（To display the pound key on your smartphone during the call, press the "keypad" button.)
-5. You have successfully signed in if you are taken to the "UTokyo Account Service Directory" page. 
+    - **Microsoft Authenticator App**: A notification will be sent to your phone to approve the sign-in request in the app. Click "Approve". <img src="xxxxxxxxxxxxxxx.png"> 
+    - **Other Authenticator Apps**: You will see a 6-digit code for your account in the authenticator app. Enter the code in the sign-in page. <img src="xxxxxxxxxxxxxxx.png">
+    - **Phone Number (verification via text)**: An SMS message with a 6-digit code will be sent to your phone. Enter the code in the sign-in page and click "Verify". <img src="xxxxxxxxxxxxxxx.png">
+    - **Phone Number (verification via call)**: You will receive a phone call, asking you to press the pound key (#) on your phone. Press the key and end the call.（To display the pound key on your smartphone during the call, press the "keypad" button.)
+5. If you are taken to the "UTokyo Account Service Directory" page, you have successfully signed in . 
 
 Note that one of the added verification methods (usually the first method added) will automatically become your "default sign-in method". When you sign in, the system will ask you to verify your identity using the default sign-in method. If you wish to sign in with a different method, click the "Having trouble? Sign in another way" link. 
 The default sign-in method can also be changed by following the procedure described below in the "Changing the Default Sign-in Method" section.
@@ -295,13 +294,13 @@ The default sign-in method can be changed following the steps below.
 
 1.  Find "Default sign-in method:" on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp).
 2. Click "Change" on the right of the default sign-in method.
-3. For "Which method would you like to use to sign in?", select the authentication method you wish to use, and click "Confirm".
+3. For "Which method would you like to use to sign in?", select the verification method you wish to use, and click "Confirm".
 
 ### Editing Verification Methods 
 
 The verification methods, "Phone", "Alternate phone", and "Office phone" can be edited by following the steps below.
 
-1. Find the authentication you wish to edit in the list of verification methods on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp), and click "Change" on the right of the specific method. 
+1. Find the method you wish to edit in the list of verification methods on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp), and click "Change" on the right of the specific method. 
 2. Enter your new phone number in the popup screen, and click "Next".
 3. Verify your phone number (via text or call). Follow the same procedure as when adding a new phone number. 
 
@@ -311,7 +310,7 @@ Note that authenticator apps, such as Microsoft Authenticator and Google Authent
 
 Please follow the steps below to delete verification methods you no longer want to use.
 
-1. Find the authentication you wish to edit in the list of verification methods on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp), and click "Delete" on the very right of it. 
+1. Find the method you wish to edit in the list of verification methods on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp), and click "Delete" on the very right of it. 
 2. For "Are you sure you would like to delete this method for your account?", click "Yes".
 
 Note that if you delete all the verification methods (i.e. all authenticator apps and phones) on the list, you will be prompted to go through the initial setup procedure upon the next sign-in. (Even if "Email" and "App password" are left in the list, they do not work as verification methods.)
@@ -337,7 +336,7 @@ To sign in with other verification methods, click the "Having trouble? Sign in a
 
 ### Reset your MFA Settings
 
-If none of the verification methods that you set up are available for use, you need to reset your MFA settings. Please contact the office of academic affairs of your faculty/graduate school (for students) or your division's human resources team (for faculty members) to reset your multi-factor authentication.
+If none of the verification methods that you set up are available for use, you need to reset your MFA settings. Please contact the office of academic affairs of your faculty/graduate school (for students) or your division's human resources team (for faculty members) for reset.
 
 When you sign in to your UTokyo Account for the first time after the reset, you will be prompted to go through the initial setup procedure again. Please follow the instructions of "Step 2: Set up the First Verification Method" and "Step 3: Add Alternative Verification Methods" in the "MFA Initial Setup Procedure" section to set up new verification methods, and sign in to UTokyo Account using them going forward.
 
@@ -348,7 +347,7 @@ When you sign in to your UTokyo Account for the first time after the reset, you 
 ## Q&A
 
 ### How can I cancel my MFA application or terminate the use of MFA?
-We strongly recommend that you use MFA for security reasons, and we normally will not terminate the use of MFA. However, if you need to terminate MFA use for unavoidable circumstances, please contact the [Technical Support Desk via email](/support/#email-form). (Please note that we may not be able to accommodate all requests.) 
+We strongly recommend that you use MFA for security reasons, and we normally will not terminate the use of MFA. However, if you need to terminate MFA use for unavoidable circumstances, please contact the [Technical Support Desk via email](/en/support/#email-form). (Please note that we may not be able to accommodate all requests.) 
 
 Note that although you can change <mark>"Enable MFA?"</mark><!-- change to actual question --> to “No” on the <mark>"MFA Application Form"</mark><!--Replace form name later --> in the UTokyo Account User Menu, this operation does not actually turn off MFA completely. Please do not click “No”, as it may cause problems in your systems’ authentication process.
 
