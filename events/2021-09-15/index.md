@@ -13,21 +13,21 @@ title: "2021/09/15 説明会：2021年度秋学期 教育ICT/オンライン・�
 * **日時**：2021/9/15(水) 15:00-17:00 (終了後も質問を受け付けます)
 * **場所**：オンライン (Zoomミーティング; 下の「参加申込み」からお申し込みください)
 * **資料・録画**：このページで提供します.
-* **質疑応答**：Slidoで受け付けます. [https://app.sli.do/event/34ofdqya](https://app.sli.do/event/34ofdqya) (イベントコード `#utelecon20210915` )からアクセスしてください.
+* **質疑応答**：Slidoで受け付けます. [https://app.sli.do/event/34ofdqya](https://app.sli.do/event/34ofdqya) (またはイベントコード `#utelecon20210915` )からアクセスしてください. (参考: [Slidoの使い方ページ](/slido/))
 
 ## 内容（予定）
 
-資料は当日までに, 録画は後日アップされます. 録画の閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です.
+資料は当日までに(直前まで更新中), 録画は後日アップされます. 録画の閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です.
 
 * 挨拶 (大久保 達也 教育・情報システム担当理事・副学長<!--; **[動画](https://youtu.be/...)**-->)
 * 目次 (**[資料](slides/00-index.pdf)**)
-  1. 授業に使うICT概要 (20分 田浦**[資料](slides/01-ict-overview.pdf)**<!--; ・**[動画](https://youtu.be/...)**-->)
-  2. 多要素認証とセキュリティ強化について (10分 田浦**[資料](slides/02-security.pdf)**・[おまけ 乱数パスワード生成Excel](slides/乱数パスワード生成.xlsx) <!--; ・**[動画](https://youtu.be/...)**-->)
-  3. VPN, WiFi (10分 玉造**[資料](slides/03-vpn-wifi.pdf)**<!--;・**[動画](https://youtu.be/...)**-->)
-  4. ITC-LMSの活用 (20分 柴山**[資料](slides/04-using-ict.pdf)**<!--;・**[動画](https://youtu.be/...)**-->)
-  5. よりよいオンライン授業に向けて (30分 吉田**[資料](slides/05-online-courses.pdf)**<!-- ・**[動画](https://youtu.be/...)**-->)
+  1. 授業に使うICT概要 (20分 田浦; **[資料](slides/01-ict-overview.pdf)**<!--・**[動画](https://youtu.be/...)**-->)
+  2. 多要素認証とセキュリティ強化について (10分 田浦; **[資料](slides/02-security.pdf)**・[おまけ 乱数パスワード生成Excel](slides/乱数パスワード生成.xlsx) <!--・**[動画](https://youtu.be/...)**-->)
+  3. VPN・WiFi・Zoomの追加ライセンス (10分 玉造; **[資料](slides/03-vpn-wifi.pdf)**<!--**[動画](https://youtu.be/...)**-->)
+  4. ITC-LMSの活用 (20分 柴山; **[資料](slides/04-using-ict.pdf)**<!--**[動画](https://youtu.be/...)**-->)
+  5. よりよいオンライン授業に向けて (30分 吉田; **[資料](slides/05-online-courses.pdf)**<!--・**[動画](https://youtu.be/...)**-->)
   <!-- sli.do を含める -->
-  6. 学生サポーター (5分 吉田**[資料](slides/06-supporters.pdf)**<!-- ・**[動画](https://youtu.be/...)**-->)
+  6. 学生サポーター (5分 吉田; **[資料](slides/06-supporters.pdf)**<!--・**[動画](https://youtu.be/...)**-->)
 * 挨拶 (太田 邦史 情報システム本部長<!--; **[動画](https://youtu.be/...)**-->)
 * 質疑応答 <!--(**[動画](https://youtu.be/...)**)-->
 
