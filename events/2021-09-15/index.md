@@ -25,9 +25,9 @@ title: "2021/09/15 説明会：2021年度秋学期 教育ICT/オンライン・�
   2. 多要素認証とセキュリティ強化について (10分 田浦**[資料](slides/02-security.pdf)**・[おまけ 乱数パスワード生成Excel](slides/乱数パスワード生成.xlsx) <!--; ・**[動画](https://youtu.be/...)**-->)
   3. VPN, WiFi (10分 玉造**[資料](slides/03-vpn-wifi.pdf)**<!--;・**[動画](https://youtu.be/...)**-->)
   4. ITC-LMSの活用 (20分 柴山**[資料](slides/04-using-ict.pdf)**<!--;・**[動画](https://youtu.be/...)**-->)
-  5. よりよいオンライン授業に向けて (30分 吉田<!--; **[資料](slides/05-online-courses.pdf)**・**[動画](https://youtu.be/...)**-->)
+  5. よりよいオンライン授業に向けて (30分 吉田**[資料](slides/05-online-courses.pdf)**<!-- ・**[動画](https://youtu.be/...)**-->)
   <!-- sli.do を含める -->
-  6. 学生サポーター (5分 吉田<!--; **[資料](slides/06-supporters.pdf)**・**[動画](https://youtu.be/...)**-->)
+  6. 学生サポーター (5分 吉田**[資料](slides/06-supporters.pdf)**<!-- ・**[動画](https://youtu.be/...)**-->)
 * 挨拶 (太田 邦史 情報システム本部長<!--; **[動画](https://youtu.be/...)**-->)
 * 質疑応答 <!--(**[動画](https://youtu.be/...)**)-->
 
