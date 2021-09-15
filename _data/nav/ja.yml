@@ -43,6 +43,9 @@
     -
       name: "ECCS端末"
       url: "https://www.ecc.u-tokyo.ac.jp/"
+    -
+      name: "その他"
+      url: "/systems#others"
 -
   name: "オンラインの活用"
   contents:
