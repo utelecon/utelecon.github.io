@@ -62,7 +62,7 @@
             <summary>Help for when this procedure does not work</summary>
             <ul>
                 <!--通知用メールアドレスが登録できていない場合-->
-                <li><strong>If your email address is not displayed in the "Notification Mail Address" field</strong>：<br>
+                <li><strong>If your email address is not displayed in the "Notification Mail Address" field</strong>:<br>
                     Your email address has not been registered. 
                     Please register your email address
                     {%case page.slug %}
@@ -81,15 +81,15 @@
                 </li>
 
                 <!--通知用メールアドレスが届かない場合-->
-                <li><strong>If you do not receive the notification email</strong>：<br>
+                <li><strong>If you do not receive the notification email</strong>:<br>
                     <ul>
                         <li>Please check your spam mail.</li>
                         <li>Email will be sent to the email address shown in the "Notification Mail Address" field on the application page 
                             (the email address registered in   
                             {%case page.slug %} 
-                                {%when "oc"%}　<!--学生の場合-->
+                                {%when "oc"%} <!--学生の場合-->
                                     UTAS "E-MAIL 1"
-                                {%when "faculty_members"%}　<!--教職員の場合-->
+                                {%when "faculty_members"%} <!--教職員の場合-->
                                     the Personnel Information MyWeb
                                 {%else%}
                                     UTAS "E-MAIL 1"(students) / the Personnel Information MyWeb (faculty members)
