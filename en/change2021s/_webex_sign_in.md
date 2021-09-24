@@ -7,6 +7,6 @@ After the transfer (scheduled on March 13, 0:00), for the use of UTokyo Webex Ac
     - Not the ECCS cloud email (<code>@<em>g.ecc</em>.u-tokyo.ac.jp</code>).
     - Not with the previous password for Webex.
 
-If you encounter any problems, please contact **[Technical Support Desk](/en/supports/)**.
+If you encounter any problems, please contact **[Technical Support Desk](/en/support/)**.
 
 **Signing in with ECCS Cloud Email (the use of <code>1234567890@<em>g.ecc</em>.u-tokyo.ac.jp</code> and existing Webex password) will be terminated after the transfer. Please sign in with the new methods.**

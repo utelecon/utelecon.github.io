@@ -15,6 +15,6 @@ After the transfer (scheduled on March 15, 6:00), for the use of UTokyo Zoom Acc
         - If “Company Domain” appears, enter “u-tokyo-ac-jp”.
     1. When a sign-in page which requires your UTokyo Account username and password (same as UTAS, the website with the picture of Yasuda Auditorium) appears, enter your UTokyo Account (10 digits-ID) information accordingly.
 
-If you encounter any problems, please contact **[Technical Support Desk](/en/supports/)**.
+If you encounter any problems, please contact **[Technical Support Desk](/en/support/)**.
 
 **Signing in with ECCS Cloud Email (the use of <code>1234567890@<em>g.ecc</em>.u-tokyo.ac.jp</code> and existing Zoom password) will be terminated after the transfer. Please sign in with the new methods.**

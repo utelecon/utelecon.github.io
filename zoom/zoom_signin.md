@@ -22,7 +22,7 @@ title: Zoom サインイン方法
   <ul>
     <li><strong>上のリンクにアクセスしても「UTokyo Zoom」と書かれたページが表示されない場合</strong>：前から持っていた自分のアカウントで既にZoomにサインインしているときに起きます．<a href="https://zoom.us/profile">Zoomの設定画面</a>の右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）をクリックして，「サインアウト」してから，アクセスし直してください．<img src="img/zoom_signin_3.png" alt="" class="medium"></li>
   </ul>
-  これらを確認して，それでもうまくいかなければ，<a href="/supports/">サポート窓口</a>に相談してください．
+  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
 </details>
 
 
@@ -39,7 +39,7 @@ title: Zoom サインイン方法
 4. ブラウザに移動するので，UTokyo Accoutでサインインしてください（UTokyo Accountにサインイン済みの場合は，この画面を経ずにそのままサインインが完了します）．
 ![](img/zoom_signin_2.png){:.medium}
 
-この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．
+この手順がうまくいかないときは<a href="/support/">サポート窓口</a>に相談してください．
 
 ## 手順動画
 {:#movie}

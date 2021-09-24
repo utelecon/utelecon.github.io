@@ -23,7 +23,7 @@ To sign in with <strong style="color: red;"> alternative email addresses (e.g. E
   <ul>
   <li><strong>If you cannot access the “UTokyo Zoom” page from the above link</strong>: This issue occurs when you are already signed in to Zoom with another account. To sign out, go to your <a href="https://zoom.us/profile">Zoom setting page</a>, click your profile picture (either your icon or the default person image) in the top-right corner, and click “Sign Out”. Then try accessing “UTokyo Zoom” again. <img src="/zoom/img/zoom_signin_3.png" alt="" class="medium"></li>
   </ul>
-If you have issues signing in, please reach out to <a href="/en/supports/">Technical Support Desk</a> for assistance.
+If you have issues signing in, please reach out to <a href="/en/support/">Technical Support Desk</a> for assistance.
 </details>
 
 ## Signing in from the Zoom App
@@ -38,7 +38,7 @@ If you have issues signing in, please reach out to <a href="/en/supports/">Techn
 1. You will be taken to the UTokyo Account sign-in page, where you enter your ID and password. (The sign-in page will not show up if you are already signed in with your UTokyo Account.)
 ![](/zoom/img/zoom_signin_2.png){:.medium}
 
-If you have issues signing in, please reach out to <a href="/en/supports/">Technical Support Desk</a> for assistance.
+If you have issues signing in, please reach out to <a href="/en/support/">Technical Support Desk</a> for assistance.
 
 Tutorial Video
 <div style="text-align: center">

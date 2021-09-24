@@ -2,8 +2,6 @@
 title: Webexへのサインイン
 ---
 
-{% include sso.html %}
-
 Webexへのサインインには，[UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)が必要です．
 
 1. [東京大学のWebexページ](https://utelecon.webex.com/)で「サインイン」ボタンを押すなどして，Webexのサインイン画面を開いてください．
@@ -11,6 +9,6 @@ Webexへのサインインには，[UTokyo Account](https://www.u-tokyo.ac.jp/ad
 1. UTASなどと同じような東京大学のユーザ名とパスワードを入力する画面が出たら，UTokyo Account（10桁の共通ID）の情報を入力してください（この画面は，既に入力済みなら出ないこともあります）．
 1. 自分の名前や「ミーティングを開始する」ボタンが表示されている画面になればOKです．
 
-この手順がうまくいかない場合は，**[サポート窓口](/supports/)**へお問い合わせください．
+この手順がうまくいかない場合は，**[サポート窓口](/support/)**へお問い合わせください．
 
 サインインした後の利用方法については，[このサイトのWebexのページ](/webex/)をご覧ください．
