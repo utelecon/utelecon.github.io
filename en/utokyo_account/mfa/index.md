@@ -5,34 +5,37 @@ lang: en
 
 
 ## Introduction
+{:#introduction}
 
 In order to improve the security of UTokyo's IT systems, multi-factor authentication will be available for UTokyo Accounts starting September 27, 2021.
 
 This page provides information about multi-factor authentication for UTokyo Accounts. Please check this page for any updates.
 
 ### Multi-Factor Authentication
+{:#introduction-about}
 
 Multi-factor authentication (MFA) is a security process in which users prove their identity by at least two pieces of evidence. In addition to passwords, users are asked to verify their identity via SMS, authentication applications, and other methods when signing in to their accounts.
 
 MFA assures the user’s identity at a higher level and improves the account security. This reduces the risk of unauthorized sign-ins even if your password has been compromised.
 
 ## Implementation of Multi-Factor Authentication for UTokyo Accounts
+{:#implementation}
 
 MFA will be available for all UTokyo Accounts after the MFA launch date. Users can then set up MFA for their accounts following the procedure in the next section. Once MFA is enabled, users will be required to verify their identity via SMS or an authentication application every time they sign in to their UTokyo Accounts.
 
 It is recommended to have MFA set up for better security of your UTokyo Account. However, MFA setup is not mandatory at this time, and you can continue to use your UTokyo Account without MFA. The only exception is users of the new UTokyo VPN for faculty members. The new UTokyo VPN will require MFA, so faculty members who wish to use the system will need to set up MFA. (For more information about UTokyo VPN, please refer to the [UTokyo Portal page (for faculty members only)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_VPN.aspx).)
 
 ## MFA Initial Setup Procedure
-<!-- 
-英語版画像フォルダ：https://drive.google.com/drive/folders/1hEoxKmJBbxFKtPao5jvTZ81gaLQFUifw?usp=sharing 
-PC上での一つ目のサインイン方法設定の画像まで収集できています。この先の収集お願いします！
--->
+{:#initial}
 
 <div class="very-important-box">MFA setup will only be available after September 27, 2021, the MFA launch date. </div>
 
 
-### Step 1: Apply for MFA Use 
+### Step 1: Apply for MFA Use
+{:#initial-apply}
+
 <!--or "Apply to Enable MFA" -->
+
 To start using MFA for your UTokyo Account, please submit an application. 
 
 Upon the first sign-in to your UTokyo Account after submitting the application, you will be prompted to complete the MFA initial setup procedure. Please be aware that you will not be able to sign in until the setup is completed. Spare enough time to sign in and complete the setup. 
@@ -43,6 +46,8 @@ Upon the first sign-in to your UTokyo Account after submitting the application, 
 4. Read the MFA instructions carefully, and find "Use MFA" at the bottom of the page. Answer "Yes" and click "SAVE". 
 
 ### Step 2: Set Up the First Verification Method
+{:#initial-first}
+
 <!-- 「本人確認方法」は"verification method"を採用 -->
 
 The next step is to set up the verification method for MFA.
@@ -160,6 +165,7 @@ Here you will add the first verification method (the second and subsequent metho
 7. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
 
 ### Step3: Add Alternative Verification Methods
+{:#initial-alternative}
 
 <!-- 「多要素認証の設定画面」は画面トップに"Security info"と書いてあるので、"Security info page"と訳した。-->
 Next, add alternative verification methods (second and subsequent methods) from the **[Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**. 
@@ -245,6 +251,7 @@ In the screen that appears after clicking "Add method", "App password" and "Emai
 
 
 ### Step 4: Try Signing In
+{:#initial-try}
 
 The last step of the initial setup procedure is to check that you can sign in to your UTokyo Account using MFA.
 
@@ -263,7 +270,9 @@ Note that one of the added verification methods (usually the first method added)
 The default sign-in method can also be changed by following the procedure described below in the "Changing the Default Sign-in Method" section.
 
 <img src="signin_with_another_method.png">
+
 ## Changing MFA Settings
+{:#change}
 
 Below are the procedures for changing the settings of your verification methods.
 
@@ -275,12 +284,15 @@ Identity verification is necessary even to change your verification method.
 Settings can be changed in the **[Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**.
 
 ### Adding More Verification Methods
+{:#change-add}
 
 In the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp), you can add more verification methods by following the procedure in "Step 3: Add Alternative Verification Methods" under "MFA Initial Setup Procedure".
 
 <img src="alt_add_method.png">
 
 ### Changing the Default Sign-in Method
+{:#change-default}
+
 One of your verification methods (usually the first method added) will become your "default sign-in method". When you sign in, the system will automatically choose the default sign-in method as your verification method. 
 The default sign-in method can be changed following the steps below.
 
@@ -289,6 +301,7 @@ The default sign-in method can be changed following the steps below.
 3. For "Which method would you like to use to sign in?", select the verification method you wish to use, and click "Confirm".
 
 ### Editing Verification Methods 
+{:#change-edit}
 
 The verification methods, "Phone", "Alternate phone", and "Office phone" can be edited by following the steps below.
 
@@ -299,6 +312,7 @@ The verification methods, "Phone", "Alternate phone", and "Office phone" can be 
 Note that authenticator apps, such as Microsoft Authenticator and Google Authenticator, do not have a "Change" screen. If you wish to change the settings of an authenticator app, add a new authenticator app with new settings and then delete the old authenticator app.
 
 ### Deleting Verification Methods
+{:#change-delete}
 
 Please follow the steps below to delete verification methods you no longer want to use.
 
@@ -310,7 +324,8 @@ Note that if you delete all the verification methods (i.e. all authenticator app
 
 
 
-## Troubleshooting MFA Verification Issues 
+## Troubleshooting MFA Verification Issues
+{:#troubleshooting}
 
 Below are procedures to recover your UTokyo Account when you cannot sign in using MFA due to malfunction, phone number change, etc.
 
@@ -318,6 +333,7 @@ Once you have recovered your account, it is strongly recommended that you change
 Your settings can be changed in the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp) as explained in the above "Changing MFA Settings" section. 
 
 ### Use Alternative Verification Methods
+{:#troubleshooting-alternative}
 
 If other verification methods are already set up, first try signing in with those methods. 
 
@@ -327,6 +343,7 @@ To sign in with other verification methods, click the "Having trouble? Sign in a
 - If none of the methods in the list are available, you need to reset your MFA settings. Please read the "Reset your MFA Settings" section below.
 
 ### Reset your MFA Settings
+{:#troubleshooting-reset}
 
 If none of the verification methods that you set up are available for use, you need to reset your MFA settings. Please contact the office of academic affairs of your faculty/graduate school (for students) or your division's human resources team (for faculty members) for reset.
 
@@ -337,8 +354,11 @@ When you sign in to your UTokyo Account for the first time after the reset, you 
 
 
 ## Q&A
+{:#qa}
 
 ### How can I cancel my MFA application or terminate the use of MFA?
+{:#qa-terminate}
+
 We strongly recommend that you use MFA for security reasons, and we normally will not terminate the use of MFA. However, if you need to terminate MFA use for unavoidable circumstances, please contact the [Technical Support Desk via email](/en/support/#email-form). (Please note that we may not be able to accommodate all requests.) 
 
 Note that although you can change "Use MFA" to “No” on the "multi-factor authentication setting" in the UTokyo Account User Menu, this operation does not actually turn off MFA completely. Please do not click “No”, as it may cause problems in your systems’ authentication process.
