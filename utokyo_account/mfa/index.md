@@ -52,7 +52,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 <ol>
 <li><a href="https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout">UTokyo Accountのサインアウトページ</a>にアクセスしてください．</li>
 <li>「サインアウト 正常にサインアウトしました」という画面が表示されるまでしばらく待ってください．</li>
-<!--<li><a href="https://login.adm.u-tokyo.ac.jp/utokyoaccount">UTokyo Accountのサインインページ</a>にアクセスしてください．</li>--><li><a href="https://itc-lms.ecc.u-tokyo.ac.jp">ITC-LMS</a>へアクセスし，ログインしてください．</li>
+<!--<li><a href="https://login.adm.u-tokyo.ac.jp/utokyoaccount">UTokyo Accountのサインインページ</a>にアクセスしてください．</li>--><li><a href="https://idm.ecc.u-tokyo.ac.jp/webmtn/">ECCS利用者メニュー</a>へアクセスしてください<small>（UTokyo Accountへサインインするにあたり，システム間の連携処理の都合上，ここではECCS利用者メニューを用いてサインインを行う手順となります）</small>．</li>
 <li>UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力して「サインイン」を押すと，「詳細情報が必要」という画面が表示されるので，「次へ」を押してください．<img src="first.png"></li>
 <li>
 多要素認証の本人確認方法を設定する画面になります．設定の手順は本人確認方法の種類によって異なります．<img src="first_ms_auth.png">
@@ -192,7 +192,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 
 1. [UTokyo Accountのサインアウトページ](https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout)にアクセスしてください．
 1. 「サインアウト 正常にサインアウトしました」という画面が表示されるまでしばらく待ってください．
-1. <!--[UTokyo Accountのページ](https://login.adm.u-tokyo.ac.jp/utokyoaccount)にアクセスしてください．-->[ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/)へアクセスし，ログインしてください．
+1. <!--[UTokyo Accountのページ](https://login.adm.u-tokyo.ac.jp/utokyoaccount)にアクセスしてください．-->[ECCS利用者メニュー](https://idm.ecc.u-tokyo.ac.jp/webmtn/)へアクセスしてください<small>（UTokyo Accountへサインインするにあたり，システム間の連携処理の都合上，ここではECCS利用者メニューを用いてサインインを行う手順となります）</small>
 1. サインイン画面が表示されたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
 1. 続いて多要素認証の本人確認が行われます．本人確認方法により手順が異なりますので，画面の指示に従って操作してください．
     - **「Microsoft Authenticator」アプリの場合**：スマホに通知が送られ，アプリ上でサインインを承認するように求められるので，そのようにしてください．
