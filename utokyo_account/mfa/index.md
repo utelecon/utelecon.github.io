@@ -52,7 +52,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 <ol>
 <li><a href="https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout">UTokyo Accountのサインアウトページ</a>にアクセスしてください．</li>
 <li>「サインアウト 正常にサインアウトしました」という画面が表示されるまでしばらく待ってください．</li>
-<li><a href="https://login.adm.u-tokyo.ac.jp/utokyoaccount">UTokyo Accountのサインインページ</a>にアクセスしてください．</li>
+<!--<li><a href="https://login.adm.u-tokyo.ac.jp/utokyoaccount">UTokyo Accountのサインインページ</a>にアクセスしてください．</li>--><li><a href="https://itc-lms.ecc.u-tokyo.ac.jp">ITC-LMS</a>へアクセスし，ログインしてください．</li>
 <li>UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力して「サインイン」を押すと，「詳細情報が必要」という画面が表示されるので，「次へ」を押してください．<img src="first.png"></li>
 <li>
 多要素認証の本人確認方法を設定する画面になります．設定の手順は本人確認方法の種類によって異なります．<img src="first_ms_auth.png">
@@ -192,14 +192,14 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 
 1. [UTokyo Accountのサインアウトページ](https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout)にアクセスしてください．
 1. 「サインアウト 正常にサインアウトしました」という画面が表示されるまでしばらく待ってください．
-1. [UTokyo Accountのページ](https://login.adm.u-tokyo.ac.jp/utokyoaccount)にアクセスしてください．
+1. <!--[UTokyo Accountのページ](https://login.adm.u-tokyo.ac.jp/utokyoaccount)にアクセスしてください．-->[ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/)へアクセスし，ログインしてください．
 1. サインイン画面が表示されたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
 1. 続いて多要素認証の本人確認が行われます．本人確認方法により手順が異なりますので，画面の指示に従って操作してください．
     - **「Microsoft Authenticator」アプリの場合**：スマホに通知が送られ，アプリ上でサインインを承認するように求められるので，そのようにしてください．
     - **「Microsoft Authenticator」以外の認証アプリの場合**：アプリに表示されるコード（6桁の数字）を入力するように求められるので，そのようにしてください．
     - **電話番号でSMSを使う場合**：SMSにコード（6桁の数字）が送られ，それを入力するように求められるので，そのようにしてください．
     - **電話番号で音声通話を使う場合**：電話が着信し，音声ガイダンスで「#」ボタンを押すように言われるので，そのようにしてください（スマホで通話中に「#」ボタンを表示するには，画面に表示されている「キーパッド」ボタンを押します）．
-1. サインインが完了し，「UTokyo Account Service Directory」が表示されればOKです．
+1. <!--サインインが完了し，「UTokyo Account Service Directory」が表示されればOKです．-->サインインが完了し，ITC-LMSの時間割あるいは出講表が表示されればOKです．
 
 なお，サインイン時の本人確認方法は，設定した方法のいずれか（通常，最初に設定したもの）がデフォルトとして自動的に選ばれます．他の本人確認方法を使いたい場合は，画面上の「別の確認オプションを使用する」あるいは「問題がありますか? 別の方法でサインインする」というリンクを押してください．
 <img src="signin_with_another_method.png">
