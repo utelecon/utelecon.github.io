@@ -267,7 +267,7 @@ The last step of the initial setup procedure is to check that you can sign in to
 
 
 Note that one of the added verification methods (usually the first method added) will automatically become your "default sign-in method". When you sign in, the system will ask you to verify your identity using the default sign-in method. If you wish to sign in with a different method, click the "Having trouble? Sign in another way" link. 
-The default sign-in method can also be changed by following the procedure described below in the "Changing the Default Sign-in Method" section.
+The default sign-in method can also be changed by following the procedure described below in the "[Changing the Default Sign-in Method](#change-default)" section.
 
 <img src="signin_with_another_method.png">
 
@@ -286,7 +286,7 @@ Settings can be changed in the **[Security info page](https://mysignins.microsof
 ### Adding More Verification Methods
 {:#change-add}
 
-In the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp), you can add more verification methods by following the procedure in "Step 3: Add Alternative Verification Methods" under "MFA Initial Setup Procedure".
+In the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp), you can add more verification methods by following the procedure in "[Step 3: Add Alternative Verification Methods](#initial-alternative)" under "MFA Initial Setup Procedure".
 
 <img src="alt_add_method.png">
 
@@ -330,7 +330,7 @@ Note that if you delete all the verification methods (i.e. all authenticator app
 Below are procedures to recover your UTokyo Account when you cannot sign in using MFA due to malfunction, phone number change, etc.
 
 Once you have recovered your account, it is strongly recommended that you change your MFA settings so that multiple verification methods are available.
-Your settings can be changed in the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp) as explained in the above "Changing MFA Settings" section. 
+Your settings can be changed in the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp) as explained in the above "[Changing MFA Settings](#change)" section. 
 
 ### Use Alternative Verification Methods
 {:#troubleshooting-alternative}
@@ -347,7 +347,7 @@ To sign in with other verification methods, click the "Having trouble? Sign in a
 
 If none of the verification methods that you set up are available for use, you need to reset your MFA settings. Please contact the office of academic affairs of your faculty/graduate school (for students) or your division's human resources team (for faculty members) for reset.
 
-When you sign in to your UTokyo Account for the first time after the reset, you will be prompted to go through the initial setup procedure again. Please follow the instructions of "Step 2: Set up the First Verification Method" and "Step 3: Add Alternative Verification Methods" in the "MFA Initial Setup Procedure" section to set up new verification methods, and sign in to UTokyo Account using them going forward.
+When you sign in to your UTokyo Account for the first time after the reset, you will be prompted to go through the initial setup procedure again. Please follow the instructions of "[Step 2: Set up the First Verification Method](#initial-first)" and "[Step 3: Add Alternative Verification Methods](#initial-alternative)" in the "MFA Initial Setup Procedure" section to set up new verification methods, and sign in to UTokyo Account using them going forward.
 
 
 
