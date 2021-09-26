@@ -29,7 +29,7 @@ A chatbot (an automated response robot) or a human operator will respond to your
 * We use MEDiA LiNK. Co.,Ltd. 's sinclo chat service. Connection may sometimes become unstable. If connection does not improve after a certain period of time, please contact us through Zoom or the email form. 
 
 <div>Business hours (Automated response): 24 hours</div>
-<div>Businees hours (Operator): Mon-Fri, 10:20 a.m. - 4:45 p.m.</div>
+<div>Businees hours (Operator): Mon-Fri, 8:25 a.m. - 6:40 p.m.</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 Start a chat (Click on the “Chat Support Available (チャットサポートで質問できます)” widget at the bottom right of your screen)
@@ -44,7 +44,7 @@ When you access the Zoom meeting room, you will first be taken to a waiting room
 * We do not record voices or videos of the Zoom meeting. Users are also requested not to record any voices or videos of the meeting.
 * Signing into an UTokyo Account is required to access meeting room information.
 
-<div>Business hours: Mon-Fri, 10:20 a.m. - 4:45 p.m.</div>
+<div>Business hours: Mon-Fri, 8:25 a.m. - 6:40 p.m.</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">Access the Zoom meeting room (Click on the link under “Meeting room information of Zoom support” on the “Online Course Information” page)</a> 
