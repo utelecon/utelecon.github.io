@@ -11,7 +11,7 @@ In order to improve the security of UTokyo's IT systems, multi-factor authentica
 
 This page provides information about multi-factor authentication for UTokyo Accounts. Please check this page for any updates.
 
-<div class="very-important-box">Since 9:30 p.m. on September 27, users who use MFA cannot sign in due to a trouble on the authentication infrastructure. We apologize for any inconvenience, and MFA setups are not available.</div>
+<div class="very-important-box">2021/9/27, 22:30 The problem that prevented users using MFA from signing in due to a trouble on the authentication infrastructure has been resolved. We apologize for any inconvenience.</div>
 
 ### Multi-Factor Authentication
 {:#introduction-about}
