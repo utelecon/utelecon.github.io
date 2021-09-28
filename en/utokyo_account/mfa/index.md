@@ -100,7 +100,7 @@ Here you will add the first verification method (the second and subsequent metho
                             click "Next" to go to the QR code page.  
                             <img src="first_ms_auth_qr.png"></li>
                         <li>Open the Microsoft Authenticator app on your smartphone, 
-                            select "Add account" from the icon in the upper-right, 
+                            select "+" from the icon in the upper-right, 
                             then "Work or school account", and "Scan QR code".
                             <img src="ms_auth_screen.png"></li>
                         <li>Scan the QR code with your device's camera.</li>

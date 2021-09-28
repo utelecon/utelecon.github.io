@@ -73,7 +73,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 <li><strong>スマホ以外（パソコンなど）でこの作業をしている場合</strong>
 <ol>
 <li>画面の指示に従ってQRコードを表示してください．<img src="first_ms_auth_qr.png"></li>
-<li>スマホでMicrosoft Authenticatorアプリを開き，「アカウントを追加」「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．<img src="ms_auth_screen.png"></li>
+<li>スマホでMicrosoft Authenticatorアプリを開き，画面右上の「+」をタップしてから，「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．<img src="ms_auth_screen.png"></li>
 <li>QRコードを読み取ってください．</li>
 <li>アプリ上に自分のUTokyo Accountが表示されればOKです．<img src="ms_auth_list.png"></li>
 </ol>
