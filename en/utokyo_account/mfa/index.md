@@ -30,8 +30,7 @@ It is recommended to have MFA set up for better security of your UTokyo Account.
 ## MFA Initial Setup Procedure
 {:#initial}
 
-<div class="very-important-box">MFA setup will only be available after September 27, 2021, the MFA launch date. </div>
-
+<div class="very-important-box"> Due to current system issues, setting up MFA will disable certificate issuance using the automatic certificate issuing machine. If you plan to use the automatic certificate issuing machine, please do NOT perform the initial setup procedure until the issue is resolved．</div>
 
 ### Step 1: Apply for MFA Use
 {:#initial-apply}
@@ -57,8 +56,10 @@ You will be directed to the verification method setup page upon the first sign-i
 
 Here you will add the first verification method (the second and subsequent methods will be added in Step 3). The first verification method will become the default (automatically selected) method, so it is best to register the method you will use most often.
 
-1. Access the [UTokyo Account Sign-in Page](https://login.adm.u-tokyo.ac.jp/utokyoaccount).
-2. Sign in with your UTokyo Account username (10-digit Common ID) and password, and click "Next" in the "More information required" page. 
+1. Access the [UTokyo Account Sign-out Page](https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout).
+2. Wait for the “Sign out   You have successfully signed out” message to appear.
+3. Access the [ECCS User Menu](https://idm.ecc.u-tokyo.ac.jp/webmtn/). (Here the sign-in to your UTokyo Account is from the ECCS User Menu due to the inter-system linkage process.)
+4. Enter your UTokyo Account username (10-digit Common ID) and password and click “Sign in”. Then click “Next” in the “More information required” page. 
    <img src="first.png">
    <details>
        <summary>Troubleshooting Tips</summary>
@@ -67,7 +68,7 @@ Here you will add the first verification method (the second and subsequent metho
        <li><strong>If the "UTokyo Account Service Directory" page appears instead of the "More information required" page</strong>: Your application in Step 1 may not be reflected in the system yet. Please wait for a while and try again.</li>
        </ul>
    </details>
-3. Add the first verification method in the setup page. The setup procedure varies depending on the verification method you add. <img src="first_ms_auth.png">
+5. Add the first verification method in the setup page. The setup procedure varies depending on the verification method you add. <img src="first_ms_auth.png">
     - **Microsoft Authenticator App**:
         "Microsoft Authenticator" is an MFA authentication application provided by Microsoft. Using this app is convenient 
         since UTokyo Account's MFA adopts Microsoft's system. 
@@ -154,17 +155,17 @@ Here you will add the first verification method (the second and subsequent metho
                 {{ PhoneNumberSetup }} <!-- render captured content -->
             </ol>
         </details>
-4. You will be prompted to enter your email address (if you haven't already done so).
+6. You will be prompted to enter your email address (if you haven't already done so).
    Please enter an email address OTHER THAN your ECCS Cloud Email if possible, 
     and click "Next".
     <img src="first_email.png">
     Enter the 6-digit code sent to your email address, and click "Next".
-5. Next you will be taken to the "App Password" page, and asked to enter your "app password name". 
+7. Next you will be taken to the "App Password" page, and asked to enter your "app password name". 
     (The system may skip this step.) Enter any name you like using alphanumeric characters 
     and click "Next".（This "App Password" is used when signing in to apps or devices that don't 
     support MFA. It will not be used for signing in with UTokyo Accounts.) 
-6. A screen showing that you have successfully set up your security information will appear. Click "Done".
-7. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
+8. A screen showing that you have successfully set up your security information will appear. Click "Done".
+9. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
 
 ### Step3: Add Alternative Verification Methods
 {:#initial-alternative}
@@ -257,18 +258,18 @@ In the screen that appears after clicking "Add method", "App password" and "Emai
 
 The last step of the initial setup procedure is to check that you can sign in to your UTokyo Account using MFA.
 
-1. Access the [UTokyo Account Sign-in page](https://login.adm.u-tokyo.ac.jp/utokyoaccount).
-2. **Only for users taken to the "UTokyo Account Service Directory" page** (Users who see the sign-in screen can skip this step): Click the circle in the upper-right corner that shows either your user photo, initials, or an icon of a person. Then click "Sign out". <img src="signout.png">Once you are signed out, access the [UTokyo Account Sign-in page](https://login.adm.u-tokyo.ac.jp/utokyoaccount) again.
-3. If the sign-in screen appears, enter your UTokyo Account username (10-digit Common ID) and password and click "Sign in".
-4. Verify your identity using MFA. The procedure differs by the verification method you use. Please follow the instructions on your screen. 
+1. Access the [UTokyo Account Sign-out Page](https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout).
+2. Wait for the “Sign out   You have successfully signed out” message to appear.
+3. Access the [ECCS User Menu](https://idm.ecc.u-tokyo.ac.jp/webmtn/).(Here the sign-in to your UTokyo Account is from the ECCS User Menu due to the inter-system linkage process.)
+4. Enter your UTokyo Account username (10-digit Common ID) and password in the sign-in page.
+5. Verify your identity using MFA. The procedure differs by the verification method you use. Please follow the instructions on your screen. 
     - **Microsoft Authenticator App**: A notification will be sent to your phone to approve the sign-in request in the app. Click "Approve". 
     - **Other Authenticator Apps**: You will see a 6-digit code for your account in the authenticator app. Enter the code in the sign-in page. 
     - **Phone Number (verification via text)**: An SMS message with a 6-digit code will be sent to your phone. Enter the code in the sign-in page and click "Verify". 
     - **Phone Number (verification via call)**: You will receive a phone call, asking you to press the pound key (#) on your phone. Press the key and end the call.（To display the pound key on your smartphone during the call, press the "keypad" button.)
-5. If you are taken to the "UTokyo Account Service Directory" page, you have successfully signed in . 
+6. If you are taken to the “ECCS User Menu”, you have successfully signed in.
 
-
-Note that one of the added verification methods (usually the first method added) will automatically become your "default sign-in method". When you sign in, the system will ask you to verify your identity using the default sign-in method. If you wish to sign in with a different method, click the "Having trouble? Sign in another way" link. 
+Note that one of the added verification methods (usually the first method added) will automatically become your "default sign-in method". When you sign in, the system will ask you to verify your identity using the default sign-in method. If you wish to sign in with a different method, click the “Use a different verification option” or “Having trouble? Sign in another way” link. 
 The default sign-in method can also be changed by following the procedure described below in the "[Changing the Default Sign-in Method](#change-default)" section.
 
 <img src="signin_with_another_method.png">
@@ -326,7 +327,7 @@ Note that if you delete all the verification methods (i.e. all authenticator app
 
 
 
-## Troubleshooting MFA Verification Issues
+## Troubleshooting MFA Verification and Account Lockout Issues
 {:#troubleshooting}
 
 Below are procedures to recover your UTokyo Account when you cannot sign in using MFA due to malfunction, phone number change, etc.
@@ -339,7 +340,7 @@ Your settings can be changed in the [Security info page](https://mysignins.micro
 
 If other verification methods are already set up, first try signing in with those methods. 
 
-To sign in with other verification methods, click the "Having trouble? Sign in another way" link in the verification screen that appears (after entering your password). A list of verification methods that you set up (including the default sign-in method) will be displayed. 
+To sign in with other verification methods, click the “Having trouble? Sign in another way” or “Use a different verification option” link in the verification screen that appears (after entering your password). A list of verification methods that you set up (including the default sign-in method) will be displayed. 
 
 - If any of the verification methods in the list are available for use, you can use the method to sign in to your UTokyo Account.
 - If none of the methods in the list are available, you need to reset your MFA settings. Please read the "Reset your MFA Settings" section below.
@@ -351,21 +352,21 @@ If none of the verification methods that you set up are available for use, you n
 
 When you sign in to your UTokyo Account for the first time after the reset, you will be prompted to go through the initial setup procedure again. Please follow the instructions of "[Step 2: Set up the First Verification Method](#initial-first)" and "[Step 3: Add Alternative Verification Methods](#initial-alternative)" in the "MFA Initial Setup Procedure" section to set up new verification methods, and sign in to UTokyo Account using them going forward.
 
+## Others
+{:#others}
 
+### How to Cancel MFA Application / Terminate MFA Use
 
+We strongly recommend that you use MFA for security reasons, but if you need to terminate MFA use for unavoidable circumstances, please contact the office of academic affairs of your faculty/graduate school (for students) or your division’s human resources team (for faculty members).
 
+If you cannot verify your identity using MFA and are locked out of your account, you can resolve the issue by resetting your MFA settings as mentioned in the above [Troubleshooting MFA Verification and Account Lockout Issues](#troubleshooting) section. In this case, there is no need to terminate MFA use.   
 
-## Q&A
-{:#qa}
+### Different Identity Verification Procedures at Sign-in
 
-### How can I cancel my MFA application or terminate the use of MFA?
-{:#qa-terminate}
+The normal procedure of signing in using MFA is first entering your password and then verifying your identity using your MFA verification method.
 
-We strongly recommend that you use MFA for security reasons, and we normally will not terminate the use of MFA. However, if you need to terminate MFA use for unavoidable circumstances, please contact the [Technical Support Desk via email](/en/support/#email-form). (Please note that we may not be able to accommodate all requests.) 
-
-Note that although you can change "Use MFA" to “No” on the "multi-factor authentication setting" in the UTokyo Account User Menu, this operation does not actually turn off MFA completely. Please do not click “No”, as it may cause problems in your systems’ authentication process.
-
-### Why is MFA identity verification sometimes not requested upon sign-in?
-
-If you have already verified your identity earlier and the information has been saved in the system, you may not be asked to verify your identity again.
-(This may happen in some systems using UTokyo Account and not in others because the retention period of the sign-in information is different on each system.)
+However, the identity verification procedure at sign-in may differ as follows.
+- MFA identity verification is requested twice in a row.
+- Password is not required (password input step is skipped), and only MFA identity verification is requested. 
+- Password is required, but MFA identity verification is not.  
+Such difference in procedures is due to the linkage process between systems related to the UTokyo Account. Please follow the instructions on the screen to sign in to your UTokyo Account. 
