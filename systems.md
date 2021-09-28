@@ -27,7 +27,7 @@ title: 東京大学のシステム
 
 - **[東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)**：オンライン授業URLを確認するためのシステムです．詳細は「[授業URLの連絡方法（学生向け）](/oc/url)」「[授業URLの連絡方法（教員向け）](/faculty_members/url)」のページもご覧ください．
 - 【教職員向け】**[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**：教職員向けの学内ポータルサイトです．
-- 【教職員向け】**[認証GWサービス](https://www.u-tokyo.ac.jp/adm/dics/ja/gateway.html)**：学内ネットワーク専用の事務システムや東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです．
+- 【教職員向け】**[UTokyo VPN](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_VPN.aspx)**：学内ネットワーク専用の事務システムなどにキャンパス外からアクセスするためのシステムです．
 
 ### 各種サービス・ソフトウェアのライセンス
 
@@ -40,7 +40,6 @@ title: 東京大学のシステム
 
 - **[東京大学OPAC](https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_search/)**：図書館の蔵書検索や貸出・予約等の手続きを行うシステムです．
 - **[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)**：東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです．
-- 【教職員向け】**[認証GWサービス](https://www.u-tokyo.ac.jp/adm/dics/ja/gateway.html)**：学内ネットワーク専用の事務システムや東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです．
 - **[Literacy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy)**：論文などの学術情報を探す際の「入り口」となるサイトです．
 - [**TREE** (UTokyo REsource Explorer)](https://tokyo.summon.serialssolutions.com/)：さまざまなデータベース・電子ジャーナルを横断して学術情報を検索できる，東大構成員のためのシステムです．
 - **[E-journal & E-book Portal](https://vs2ga4mq9g.search.serialssolutions.com/)**：東京大学の契約している電子ジャーナル・電子ブックを探すためのシステムです．

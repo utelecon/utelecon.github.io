@@ -1,6 +1,9 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2021-09-28
+  content: "9月27日より，[UTokyo Accountの多要素認証](/utokyo_account/mfa/)および[UTokyo VPN](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_VPN.aspx)の提供を開始しました．"
+-
   date: 2021-09-15
   content: "2021年7月より，授業やイベントで使えるQ&Aツール「Slido」がWebexと連携し，東京大学のWebexアカウントで有料機能が使えるようになりました．また，これにあわせ[Slidoの使い方や活用事例をまとめたページ](/slido/)を作成しました．"
 -
