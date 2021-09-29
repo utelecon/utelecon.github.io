@@ -62,6 +62,7 @@ main {
 
   img {
     display: block;
+    max-height: 40rem;
   }
 
   img.large {
@@ -74,6 +75,7 @@ main {
 
   img.small {
     width: 30rem;
+    max-height: 30rem;
   }
 
   img.inline {
