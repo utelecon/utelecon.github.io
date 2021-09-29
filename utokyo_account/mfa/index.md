@@ -1,5 +1,6 @@
 ---
 title: UTokyo Accountにおける多要素認証の利用について
+css: [mfa]
 ---
 
 ## はじめに
@@ -31,7 +32,7 @@ UTokyo Accountにおける多要素認証に関する情報はこのページで
 <div class="very-important-box">現在，不具合のため，多要素認証の申請・設定を行うと，証明書自動発行機が利用できなくなります．証明書自動発行機を利用する予定のある方は，以下の手順は行わないでください．</div>
 
 ### 手順1：多要素認証の利用を申請する
-{:#initial-apply}
+{:#initial-apply.mfa-initial-step-heading}
 
 UTokyo Accountで多要素認証を利用するには，はじめに多要素認証の利用申請を行います．
 
@@ -43,15 +44,16 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 2. サインインを求められたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
 3. 左のメニューにある「多要素認証利用申請」を押してください．
 4. 表示される多要素認証に関する説明をよく読んでから，下の方にある「多要素認証を利用する」を「はい」にして，「保存」を押してください．
+{:.mfa-initial-procedure}
 
 ### 手順2：1個目の本人確認方法を設定する
-{:#initial-first}
+{:#initial-first.mfa-initial-step-heading}
 
 次に，多要素認証で使う本人確認方法（SMSや専用の認証アプリ）を設定します．この設定は，多要素認証の利用を申請したあと初めてUTokyo Accountにサインインする際に行います（設定を終えるまでサインインすることができません）．
 
 ここでは，まず1個目の本人確認方法を追加します（この後の手順3で2個目以降を設定します）．なお，ここで設定する1個目の本人確認方法がデフォルト（自動で選ばれる方法）になるので，最もよく使う本人確認方法を登録するのがいいでしょう．
 
-<ol>
+<ol class="mfa-initial-procedure">
 <li><a href="https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout">UTokyo Accountのサインアウトページ</a>にアクセスしてください．</li>
 <li>「サインアウト 正常にサインアウトしました」という画面が表示されるまでしばらく待ってください．</li>
 <!--<li><a href="https://login.adm.u-tokyo.ac.jp/utokyoaccount">UTokyo Accountのサインインページ</a>にアクセスしてください．</li>--><li><a href="https://idm.ecc.u-tokyo.ac.jp/webmtn/">ECCS利用者メニュー</a>へアクセスしてください<small>（UTokyo Accountへサインインするにあたり，システム間の連携処理の都合上，ここではECCS利用者メニューを用いてサインインを行う手順となります）</small>．</li>
@@ -115,13 +117,13 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 </ol>
 
 ### 手順3：追加の本人確認方法を設定する
-{:#initial-alternative}
+{:#initial-alternative.mfa-initial-step-heading}
 
 続いて，**[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**から，追加の（2個目以降の）本人確認方法を設定します．
 
 本人確認方法を1個しか設定していなくても多要素認証を利用することはできますが，（故障や機種変更などで）設定した本人確認方法が使えなくなった場合，UTokyo Accountにサインインできなくなってしまいます．このような事態を防ぐため，**複数の本人確認方法を設定することを強く推奨します**．
 
-<ul>
+<ul class="mfa-initial-procedure">
 <li>
 <strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，このアプリを本人確認方法として使うのが便利です．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で設定することもできます．
 <details>
@@ -187,7 +189,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 なお，「方法の追加」を押した後に表示される「どの方法を使用しますか?」欄で，上記の他に「電子メール」と「アプリ パスワード」を選ぶことができますが，これらは多要素認証の本人確認方法とは異なる用途のためのもので，サインイン時の本人確認に使うことはできません．
 
 ### 手順4：サインインできるか確認する
-{:#initial-try}
+{:#initial-try.mfa-initial-step-heading}
 
 以上で多要素認証の初期設定は完了です．最後に，多要素認証を利用してUTokyo Accountにサインインすることができるか確認しておきましょう．
 
@@ -202,6 +204,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
     - **電話番号でSMSを使う場合**：SMSにコード（6桁の数字）が送られ，それを入力するように求められるので，そのようにしてください．
     - **電話番号で音声通話を使う場合**：電話が着信し，音声ガイダンスで「#」ボタンを押すように言われるので，そのようにしてください（スマホで通話中に「#」ボタンを表示するには，画面に表示されている「キーパッド」ボタンを押します）．
 1. <!--サインインが完了し，「UTokyo Account Service Directory」が表示されればOKです．-->サインインが完了し，「ECCS利用者メニュー」が表示されればOKです．
+{:.mfa-initial-procedure}
 
 なお，サインイン時の本人確認方法は，設定した方法のいずれか（通常，最初に設定したもの）がデフォルトとして自動的に選ばれます．他の本人確認方法を使いたい場合は，画面上の「別の確認オプションを使用する」あるいは「問題がありますか? 別の方法でサインインする」というリンクを押してください．
 <img src="signin_with_another_method.png">

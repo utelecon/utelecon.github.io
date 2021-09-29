@@ -1,0 +1,57 @@
+---
+sitemap: false
+---
+
+@counter-style mfa-initial {
+  system: numeric;
+}
+
+@mixin mfa-initial-procedure-ol-item {
+  counter-increment: mfa-initial;
+  &::marker {
+    content: counters(mfa-initial, "-") ". ";
+  }
+}
+
+@mixin mfa-initial-procedure-ul-item {
+  counter-increment: mfa-initial;
+}
+
+@mixin mfa-initial-procedure {
+  ol {
+    counter-reset: mfa-initial;
+  }
+  ul {
+    counter-reset: mfa-initial;
+  }
+  ol > li {
+    @include mfa-initial-procedure-ol-item;
+  }
+  ul > li {
+    @include mfa-initial-procedure-ul-item;
+  }
+}
+
+ol.mfa-initial-procedure {
+  & > li:first-child {
+    counter-reset: mfa-initial;
+  }
+  & > li {
+    @include mfa-initial-procedure-ol-item;
+  }
+  @include mfa-initial-procedure;
+}
+
+ul.mfa-initial-procedure {
+  & > li:first-child {
+    counter-reset: mfa-initial;
+  }
+  & > li {
+    @include mfa-initial-procedure-ul-item;
+  }
+  @include mfa-initial-procedure;
+}
+
+.mfa-initial-step-heading {
+  counter-increment: mfa-initial;
+}
