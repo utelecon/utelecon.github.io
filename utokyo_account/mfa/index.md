@@ -52,10 +52,13 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 ここでは，まず1個目の本人確認方法を追加します（この後の手順3で2個目以降を設定します）．なお，ここで設定する1個目の本人確認方法がデフォルト（自動で選ばれる方法）になるので，最もよく使う本人確認方法を登録するのがいいでしょう．
 
 <ol>
+<!--
 <li><a href="https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout">UTokyo Accountのサインアウトページ</a>にアクセスしてください．</li>
 <li>「サインアウト 正常にサインアウトしました」という画面が表示されるまでしばらく待ってください．</li>
-<!--<li><a href="https://login.adm.u-tokyo.ac.jp/utokyoaccount">UTokyo Accountのサインインページ</a>にアクセスしてください．</li>--><li><a href="https://idm.ecc.u-tokyo.ac.jp/webmtn/">ECCS利用者メニュー</a>へアクセスしてください<small>（UTokyo Accountへサインインするにあたり，システム間の連携処理の都合上，ここではECCS利用者メニューを用いてサインインを行う手順となります）</small>．</li>
-<li>UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力して「サインイン」を押すと，「詳細情報が必要」という画面が表示されるので，「次へ」を押してください．<img src="first.png"></li>
+-->
+<li><a href="https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp">UTokyo Accountの多要素認証用のサインインページ</a>にアクセスしてください．</li>
+<li>（サインイン済みでなければ）サインイン画面が表示されるので，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．</li>
+<li>「詳細情報が必要」という画面が表示されるので，「次へ」を押してください．<img src="first.png"></li>
 <li>
 多要素認証の本人確認方法を設定する画面になります．設定の手順は本人確認方法の種類によって異なります．<img src="first_ms_auth.png">
 <ul>

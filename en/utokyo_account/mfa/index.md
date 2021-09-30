@@ -56,19 +56,10 @@ You will be directed to the verification method setup page upon the first sign-i
 
 Here you will add the first verification method (the second and subsequent methods will be added in Step 3). The first verification method will become the default (automatically selected) method, so it is best to register the method you will use most often.
 
-1. Access the [UTokyo Account Sign-out Page](https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout).
-2. Wait for the “Sign out   You have successfully signed out” message to appear.
-3. Access the [ECCS User Menu](https://idm.ecc.u-tokyo.ac.jp/webmtn/). (Here the sign-in to your UTokyo Account is from the ECCS User Menu due to the inter-system linkage process.)
-4. Enter your UTokyo Account username (10-digit Common ID) and password and click “Sign in”. Then click “Next” in the “More information required” page. 
-   <img src="first.png">
-   <details>
-       <summary>Troubleshooting Tips</summary>
-       <ul>
-       <li><strong>If the "UTokyo Account Service Directory" page appears instead of the sign-in page</strong>: Click the circle in the upper-right corner that shows either your user photo, initials, or an icon of a person. Click "Sign out", and then sign back in.</li>
-       <li><strong>If the "UTokyo Account Service Directory" page appears instead of the "More information required" page</strong>: Your application in Step 1 may not be reflected in the system yet. Please wait for a while and try again.</li>
-       </ul>
-   </details>
-5. Add the first verification method in the setup page. The setup procedure varies depending on the verification method you add. <img src="first_ms_auth.png">
+1. Access the [UTokyo Account sign-in page for MFA](https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp).
+1. Enter your UTokyo Account username (10-digit Common ID) and password and click “Sign in”.
+1. Click “Next” in the “More information required” page. <img src="first.png">
+1. Add the first verification method in the setup page. The setup procedure varies depending on the verification method you add. <img src="first_ms_auth.png">
     - **Microsoft Authenticator App**:
         "Microsoft Authenticator" is an MFA authentication application provided by Microsoft. Using this app is convenient 
         since UTokyo Account's MFA adopts Microsoft's system. 
@@ -155,17 +146,17 @@ Here you will add the first verification method (the second and subsequent metho
                 {{ PhoneNumberSetup }} <!-- render captured content -->
             </ol>
         </details>
-6. You will be prompted to enter your email address (if you haven't already done so).
+1. You will be prompted to enter your email address (if you haven't already done so).
    Please enter an email address OTHER THAN your ECCS Cloud Email if possible, 
     and click "Next".
     <img src="first_email.png">
     Enter the 6-digit code sent to your email address, and click "Next".
-7. Next you will be taken to the "App Password" page, and asked to enter your "app password name". 
+1. Next you will be taken to the "App Password" page, and asked to enter your "app password name". 
     (The system may skip this step.) Enter any name you like using alphanumeric characters 
     and click "Next".（This "App Password" is used when signing in to apps or devices that don't 
     support MFA. It will not be used for signing in with UTokyo Accounts.) 
-8. A screen showing that you have successfully set up your security information will appear. Click "Done".
-9. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
+1. A screen showing that you have successfully set up your security information will appear. Click "Done".
+1. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
 
 ### Step3: Add Alternative Verification Methods
 {:#initial-alternative}
