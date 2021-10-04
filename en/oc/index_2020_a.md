@@ -764,7 +764,7 @@ Below is a brief description of what you need to do on each system. If you encou
 <a name="check-excel"> </a>
 ### Checking to see if you can use Microsoft 365
 
-* Checking to see if you can use Microsoft 365: To see if you can access this <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank" rel="noopener"> Microsoft Excel sheet</a>, click on the link. Depending on the sign-in status on Office, you will encounter either one of the following patterns.
+* Checking to see if you can use Microsoft 365: To see if you can access this <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EeRg4N80tF1Iio3x8m9AbHgB92l-V1rMyEcNHFs-lvU5rA?e=yVa1Q0" target="_blank" rel="noopener"> Microsoft Excel sheet</a>, click on the link. Depending on the sign-in status on Office, you will encounter either one of the following patterns.
   * **Pattern 1:** You will be able to access the Excel sheet  immediately if you are signed in to office.com with your UTokyo Account.
   * **Pattern 2:** Receive an error / a message saying "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory.”. This means you are signed in with a non-university account ( For example, your personal account). First sign out, sign in again this time using your college account, and try again.
     * <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">PC</a>

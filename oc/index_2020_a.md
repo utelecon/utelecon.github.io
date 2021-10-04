@@ -776,7 +776,7 @@ LMS</text>
 <a name="check-excel"> </a>
 ### Microsoft 365が使えるかのチェック
 
-* Microsoft 365が使えるかのチェック: この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank" rel="noopener">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. Officeへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
+* Microsoft 365が使えるかのチェック: この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EeRg4N80tF1Iio3x8m9AbHgB92l-V1rMyEcNHFs-lvU5rA?e=yVa1Q0" target="_blank" rel="noopener">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. Officeへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
   * **パターン1:** office.comに大学のアカウント (UTokyo Account)でサインインしていればすぐに見られます.
   * **パターン2:** エラーになる. "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory." みたいなことを言われる. これは大学以外のアカウント(例: 個人でこれまで使っていたアカウント)でサインインした状態になっている場合におきます. 一旦サインアウトして大学のアカウントでサインインして, やり直してください.
     * <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">パソコン</a>

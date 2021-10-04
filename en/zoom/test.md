@@ -119,7 +119,7 @@ Hi
 ### オンライン授業を受ける準備ができているかのチェック
 
  <a name="check-excel"> </a>
- * この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. <font color="red">3/22更新: もし東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれたら,</font>
+ * この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EeRg4N80tF1Iio3x8m9AbHgB92l-V1rMyEcNHFs-lvU5rA?e=yVa1Q0" target="_blank">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. <font color="red">3/22更新: もし東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれたら,</font>
 ```
 UTokyo Accountのアカウント番号@utac.u-tokyo.ac.jp
 ```

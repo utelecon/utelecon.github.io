@@ -126,7 +126,7 @@ Note: March is a season when the number of internet applications increase causin
 ### Checking to see if you are ready to take online classes
 
  <a name="check-excel"> </a>
- * Click on the link to check whether or not you are able to see the  <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel sheet</a>. <font color="red">22 Mar Update: If a UTokyo “Sign In” window pops up requesting “email, phone number, Skype” </font>, enter:
+ * Click on the link to check whether or not you are able to see the  <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EeRg4N80tF1Iio3x8m9AbHgB92l-V1rMyEcNHFs-lvU5rA?e=yVa1Q0" target="_blank">Microsoft Excel sheet</a>. <font color="red">22 Mar Update: If a UTokyo “Sign In” window pops up requesting “email, phone number, Skype” </font>, enter:
 ```
 「UTokyo Account ID@utac.u-tokyo.ac.jp」
 ```

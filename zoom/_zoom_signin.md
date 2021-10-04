@@ -58,7 +58,7 @@ Zoomミーティングにはブラウザのみで参加することもできま�
 
   * <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank">Google スプレッドシート</a>
 
-  * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank">Microsoft Excel のシート</a>
+  * <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EeRg4N80tF1Iio3x8m9AbHgB92l-V1rMyEcNHFs-lvU5rA?e=yVa1Q0" target="_blank">Microsoft Excel のシート</a>
 
 * このミーティングは，普段は参加者がいないため，参加するとWindows/Macでは以下のような画面が出ます．
   ![](img/zoom_win_auth_test.png)
