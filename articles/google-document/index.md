@@ -17,7 +17,7 @@ Google ドキュメントはオンラインでドキュメントの作成，編�
     - 端末・OS：PC，タブレット，スマートフォンで使用可能．
     - 対応しているOS・ブラウザのバージョンについては[こちら（Googleドライブ公式ヘルプページ）](https://support.google.com/drive/answer/2375082?co=GENIE.Platform%3DDesktop&hl=ja&oco=1)を確認してください．
 - 運用コスト
-    - 費用：無料（容量を増やす場合は有料だが，ECCSクラウドメールのアカウントは容量無制限）
+    - 費用：無料（容量を増やす場合は通常有料だが，ECCSクラウドメールのアカウントは容量無制限）
 
 ## インストール方法
 Google ドキュメントを作成・共有するには，Googleアカウントが必要になります．（Googleアカウントの作成方法については[こちら（Googleアカウント公式ヘルプページ）](https://support.google.com/accounts/answer/27441?hl=ja) を確認してください．
