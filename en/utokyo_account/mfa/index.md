@@ -43,8 +43,8 @@ Upon the first sign-in to your UTokyo Account after submitting the application, 
 
 1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet).
 2. Sign in with your UTokyo Account username (10-digit Common ID) and password if prompted. 
-3. Click "multi-factor authentication setting" in the left menu. 
-4. Read the MFA instructions carefully, and find "Use MFA" at the bottom of the page. Answer "Yes" and click "SAVE". 
+3. Click "multi-factor authentication setting" in the left menu. <img src="user_menu_1.png">
+4. Read the MFA instructions carefully, and find "Use MFA" at the bottom of the page. Answer "Yes" and click "SAVE". <img src="user_menu_2.png">
 
 ### Step 2: Set Up the First Verification Method
 {:#initial-first}
