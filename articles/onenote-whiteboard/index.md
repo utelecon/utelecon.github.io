@@ -22,7 +22,7 @@ OneNoteはMicrosoft社が提供するアプリケーションの一つで，電�
     * Microsoft 
     * 公式サイト：[Microsoft OneNote デジタル ノート アプリ](https://www.microsoft.com/ja-jp/microsoft-365/onenote/digital-note-taking-app)
 * 使用可能な環境
-    * 端末・OS（詳細は[公式サイト}(https://www.microsoft.com/ja-jp/microsoft-365/microsoft-365-and-office-resources)をご覧ください．
+    * 端末・OS（詳細は[公式サイト](https://www.microsoft.com/ja-jp/microsoft-365/microsoft-365-and-office-resources)をご覧ください）
         * Windows （PC，タブレット，Phone等）
         * iOS （Mac，iPad， iPhone等）
         * Android （スマートフォン）
