@@ -244,9 +244,10 @@ Windows搭載PCでデスクトップ版を利用してページのサイズの�
         
 OneNoteではPowerPointなどで作成したファイル(PDF化した状態で)を読み込んで，そこに書き込みを加えていくことができます．ファイルのインポートは，上で紹介したPDFの挿入方法を参考にしてください．事前に用意しておいた資料を読み込んでおき，授業で書き込みをすると以下の画像のようになります．
 
+【用意しておいた資料を読み込み，書き込みをした例】
 <figure>
 <img src="pic27.PNG">
-<figcaption>用意しておいた資料を読み込み，書き込みをした例</figcaption>
+<figcaption> </figcaption>
 </figure>
         
 #### 事前にOneNoteのページを作成しておく
@@ -255,15 +256,15 @@ OneNoteを用いて予め授業資料を作っておくことも可能です．�
 
 ### 画面共有
 
-受講している学生とリアルタイムで板書を共有する最も簡単な方法は，OneNoteを利用している画面をそのままZoomで画面共有することです．
-
-Zoomでの画面共有の方法は，uteleconの「[画面共有](https://utelecon.admu-tokyo.ac.jp/zoom/how/common/sharing_screen)」を参考にしてください．  
+受講している学生とリアルタイムで板書を共有する最も簡単な方法は，OneNoteを利用している画面をそのままZoomで画面共有することです．   
+Zoomでの画面共有の方法は，uteleconの「[画面共有](https://utelecon.adm.u-tokyo.ac.jp/zoom/how/common/sharing_screen.html)」を参考にしてください．  
 
 以下の画像はZoomを用いてOneNoteの画面共有を行った様子です．
 
+【Zoomを用いた画面共有】
 <figure>
 <img src="pic28.PNG">
-<figcaption>Zoomを用いた画面共有</figcaption>
+<figcaption> </figcaption>
 </figure>
 
 本記事では詳述しませんが，OneNoteをiPadを使用している場合は，「AirPlay（またはその他のミラーリングソフト）」を用いた画面共有を行うこともできます．
@@ -271,15 +272,12 @@ Zoomでの画面共有の方法は，uteleconの「[画面共有](https://utelec
 ### 板書をする
 
 準備，共有ができたら実際に授業を行います．  
-
 これまでに紹介したツール等を用いて好きなように板書をすることができます．  
-
 実際に描画している様子については，[公式サイトの動画](https://support.microsoft.com/ja-jp/office/%E3%83%93%E3%83%87%E3%82%AA-onenote-%E3%81%A7%E6%8F%8F%E7%94%BB%E3%81%8A%E3%82%88%E3%81%B3%E3%82%B9%E3%82%B1%E3%83%83%E3%83%81%E3%82%92%E8%A1%8C%E3%81%86-e5d9e43e-96a0-442a-85e9-298e029aa76c?wt.mc_id=otc_onenote)もご参照ください．  
 
 ### 資料配布
 
-オンライン授業では受講生の様子が分かりにくいことからも，授業資料を配布することは非常に有効です．
-
+オンライン授業では受講生の様子が分かりにくいことからも，授業資料を配布することは非常に有効です．   
 ここではリンクを共有して資料を配布する方法とpdfとして配布する方法を紹介します．
 
 #### リンクを共有する
@@ -290,27 +288,28 @@ Zoomでの画面共有の方法は，uteleconの「[画面共有](https://utelec
 
 リンクを共有する方法については以下の画像をご参照ください．  
 
+【リンクの送信の方法】
 <figure>
 <img src="pic29.PNG">
-<figcaption>リンクの送信の方法</figcaption>
+<figcaption> </figcaption>
 </figure>
 
+【公開範囲・編集の許可】
 <figure>
 <img src="pic30.PNG">
-<figcaption>公開範囲・編集の許可</figcaption>
+<figcaption> </figcaption>
 </figure>
 
 #### PDFとして配布する
 
 OneNoteの画面はPDFとして配布することも可能です．  
-
 PDFで配布することのメリットは，受講生が扱い慣れていることが多いため，管理や使用が楽な点にあります．  
-
 以下の画像の「ページのコピーを送信」から共有，または保存すると，PDF化されます．  
 
+【PDF化して配布】
 <figure>
 <img src="pic31.PNG">
-<figcaption>PDF化して配布</figcaption>
+<figcaption> </figcaption>
 </figure>
 
 ## グッドプラクティス・応用例の紹介
