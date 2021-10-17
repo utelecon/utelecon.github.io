@@ -1,6 +1,7 @@
 ---
 title: Using Multi-Factor Authentication for UTokyo Accounts
 lang: en
+css: [mfa]
 ---
 
 
@@ -33,7 +34,7 @@ It is recommended to have MFA set up for better security of your UTokyo Account.
 <div class="very-important-box"> Due to current system issues, setting up MFA will disable certificate issuance using the automatic certificate issuing machine. If you plan to use the automatic certificate issuing machine, please do NOT perform the initial setup procedure until the issue is resolved．</div>
 
 ### Step 1: Apply for MFA Use
-{:#initial-apply}
+{:#initial-apply.mfa-initial-step-heading}
 
 <!--or "Apply to Enable MFA" -->
 
@@ -44,10 +45,11 @@ Upon the first sign-in to your UTokyo Account after submitting the application, 
 1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet).
 2. Sign in with your UTokyo Account username (10-digit Common ID) and password if prompted. 
 3. Click "multi-factor authentication setting" in the left menu. 
-4. Read the MFA instructions carefully, and find "Use MFA" at the bottom of the page. Answer "Yes" and click "SAVE". 
+4. Read the MFA instructions carefully, and find "Use MFA" at the bottom of the page. Answer "Yes" and click "SAVE".
+{:.mfa-initial-procedure}
 
 ### Step 2: Set Up the First Verification Method
-{:#initial-first}
+{:#initial-first.mfa-initial-step-heading}
 
 <!-- 「本人確認方法」は"verification method"を採用 -->
 
@@ -166,9 +168,10 @@ Here you will add the first verification method (the second and subsequent metho
     support MFA. It will not be used for signing in with UTokyo Accounts.) 
 8. A screen showing that you have successfully set up your security information will appear. Click "Done".
 9. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
+{:.mfa-initial-procedure}
 
 ### Step3: Add Alternative Verification Methods
-{:#initial-alternative}
+{:#initial-alternative.mfa-initial-step-heading}
 
 <!-- 「多要素認証の設定画面」は画面トップに"Security info"と書いてあるので、"Security info page"と訳した。-->
 Next, add alternative verification methods (second and subsequent methods) from the **[Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**. 
@@ -232,18 +235,19 @@ Below are the procedures to add different verification methods.
          phone. You can only receive phone calls (SMS unavailable) to verify your identity 
          using this phone. You can add your extension number (a short number that you input after
          calling main office number to reach a specific person, team, etc. within the office). 
-        <details>
-            <summary>Setup Procedure</summary>
-            <ol>
-                <li>Click "Add method" in the 
-                    <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Security info page</a>.
-                    <img src="alt_add_method_pull_down.png"></li>
-                <li>For "Which method would you like to add?", 
-                    select "Authenticator app", and click "Add".<img src="alt_add_method_pull_down.png"></li>
-                {{ PhoneNumberSetup }} <!--  reuse the same content in Step2 -->
-            </ol>
-        </details>
-        
+    <details>
+        <summary>Setup Procedure</summary>
+        <ol>
+            <li>Click "Add method" in the 
+                <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Security info page</a>.
+                <img src="alt_add_method_pull_down.png"></li>
+            <li>For "Which method would you like to add?", 
+                select "Authenticator app", and click "Add".<img src="alt_add_method_pull_down.png"></li>
+            {{ PhoneNumberSetup }} <!--  reuse the same content in Step2 -->
+        </ol>
+    </details>
+{:.mfa-initial-procedure}
+
 <!-- <details>
     <summary><mark>ヘルプ：「多要素認証の設定ページ」にアクセスする際にサインインを求められ，多要素認証の本人確認が求められる場合</mark></summary>
     TODO
@@ -254,7 +258,7 @@ In the screen that appears after clicking "Add method", "App password" and "Emai
 
 
 ### Step 4: Try Signing In
-{:#initial-try}
+{:#initial-try.mfa-initial-step-heading}
 
 The last step of the initial setup procedure is to check that you can sign in to your UTokyo Account using MFA.
 
@@ -268,6 +272,7 @@ The last step of the initial setup procedure is to check that you can sign in to
     - **Phone Number (verification via text)**: An SMS message with a 6-digit code will be sent to your phone. Enter the code in the sign-in page and click "Verify". 
     - **Phone Number (verification via call)**: You will receive a phone call, asking you to press the pound key (#) on your phone. Press the key and end the call.（To display the pound key on your smartphone during the call, press the "keypad" button.)
 6. If you are taken to the “ECCS User Menu”, you have successfully signed in.
+{:.mfa-initial-procedure}
 
 Note that one of the added verification methods (usually the first method added) will automatically become your "default sign-in method". When you sign in, the system will ask you to verify your identity using the default sign-in method. If you wish to sign in with a different method, click the “Use a different verification option” or “Having trouble? Sign in another way” link. 
 The default sign-in method can also be changed by following the procedure described below in the "[Changing the Default Sign-in Method](#change-default)" section.
