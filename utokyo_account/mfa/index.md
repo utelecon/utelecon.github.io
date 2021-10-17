@@ -1,5 +1,6 @@
 ---
 title: UTokyo Accountにおける多要素認証の利用について
+css: [mfa]
 ---
 
 ## はじめに
@@ -30,33 +31,21 @@ UTokyo Accountにおける多要素認証に関する情報はこのページで
 
 <div class="very-important-box">現在，不具合のため，多要素認証の申請・設定を行うと，証明書自動発行機が利用できなくなります．証明書自動発行機を利用する予定のある方は，以下の手順は行わないでください．</div>
 
-### 手順1：多要素認証の利用を申請する
-{:#initial-apply}
+<div class="box" style="color: red;">2021-10-18 以下の手順について，順序を入れ替えるなど，大幅な変更を行いました．</div>
 
-UTokyo Accountで多要素認証を利用するには，はじめに多要素認証の利用申請を行います．
+多要素認証の初期設定手順を，手順1から手順4までに分けて説明します．手順1から順に，手順4までのすべての作業を行ってください．
 
-なお，この申請を行ったあと最初にUTokyo Accountにサインインする際，多要素認証の初期設定を行うよう求められ，設定を終えるまでサインインすることができなくなります．時間の余裕があるときに行うなど，このことを踏まえて作業するようお願いいたします．
+### 手順1：1個目の本人確認方法を設定する
+{:#initial-first.mfa-initial-step-heading}
 
-また，事務業務端末（職員向け）のリモートアクセスが接続中の場合，多要素認証の利用申請を行うと接続が強制的に切断されるため，あらかじめ接続を終了（サインアウト）してから以下の手順を行ってください．
+まず，多要素認証で使う本人確認方法（SMSや専用の認証アプリ）を設定します．ここではまず1個目の本人確認方法を設定し，この後の手順2で2個目以降を設定します．なお，ここで設定する1個目の本人確認方法がデフォルト（自動で選ばれる方法）になるので，最もよく使う本人確認方法を登録するのがいいでしょう．
 
-1. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)にアクセスしてください．
-2. サインインを求められたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
-3. 左のメニューにある「多要素認証利用申請」を押してください．<img src="user_menu_1.png">
-4. 表示される多要素認証に関する説明をよく読んでから，下の方にある「多要素認証を利用する」を「はい」にして，「保存」を押してください．<img src="user_menu_2.png">
-
-### 手順2：1個目の本人確認方法を設定する
-{:#initial-first}
-
-次に，多要素認証で使う本人確認方法（SMSや専用の認証アプリ）を設定します．この設定は，多要素認証の利用を申請したあと初めてUTokyo Accountにサインインする際に行います（設定を終えるまでサインインすることができません）．
-
-ここでは，まず1個目の本人確認方法を追加します（この後の手順3で2個目以降を設定します）．なお，ここで設定する1個目の本人確認方法がデフォルト（自動で選ばれる方法）になるので，最もよく使う本人確認方法を登録するのがいいでしょう．
-
-<ol>
+<ol class="mfa-initial-procedure">
 <!--
 <li><a href="https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout">UTokyo Accountのサインアウトページ</a>にアクセスしてください．</li>
 <li>「サインアウト 正常にサインアウトしました」という画面が表示されるまでしばらく待ってください．</li>
 -->
-<li><a href="https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp">UTokyo Accountの多要素認証用のサインインページ</a>にアクセスしてください．</li>
+<li><a href="https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>にアクセスしてください．</li>
 <li>（サインイン済みでなければ）サインイン画面が表示されるので，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．</li>
 <li>「詳細情報が必要」という画面が表示されるので，「次へ」を押してください．<img src="first.png"></li>
 <li>
@@ -117,14 +106,16 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 <li>画面上に「成功」と表示されたらOKです．<img src="first_success.png"></li>
 </ol>
 
-### 手順3：追加の本人確認方法を設定する
-{:#initial-alternative}
+<div class="box">設定はまだ完了していません．次の手順2へ進んでください．</div>
+
+### 手順2：追加の本人確認方法を設定する
+{:#initial-alternative.mfa-initial-step-heading}
 
 続いて，**[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**から，追加の（2個目以降の）本人確認方法を設定します．
 
 本人確認方法を1個しか設定していなくても多要素認証を利用することはできますが，（故障や機種変更などで）設定した本人確認方法が使えなくなった場合，UTokyo Accountにサインインできなくなってしまいます．このような事態を防ぐため，**複数の本人確認方法を設定することを強く推奨します**．
 
-<ul>
+<ul class="mfa-initial-procedure">
 <li>
 <strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，このアプリを本人確認方法として使うのが便利です．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で設定することもできます．
 <details>
@@ -189,26 +180,45 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 
 なお，「方法の追加」を押した後に表示される「どの方法を使用しますか?」欄で，上記の他に「電子メール」と「アプリ パスワード」を選ぶことができますが，これらは多要素認証の本人確認方法とは異なる用途のためのもので，サインイン時の本人確認に使うことはできません．
 
-### 手順4：サインインできるか確認する
-{:#initial-try}
+<div class="box">設定はまだ完了していません．次の手順3へ進んでください．</div>
 
-以上で多要素認証の初期設定は完了です．最後に，多要素認証を利用してUTokyo Accountにサインインすることができるか確認しておきましょう．
+### 手順3：サインインできるか確認する
+{:#initial-try.mfa-initial-step-heading}
 
+次に，ここまでに設定した本人確認方法を利用してUTokyo Accountにサインインすることができるか確認します．
 
-1. [UTokyo Accountのサインアウトページ](https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout)にアクセスしてください．
-1. 「サインアウト 正常にサインアウトしました」という画面が表示されるまでしばらく待ってください．
-1. <!--[UTokyo Accountのページ](https://login.adm.u-tokyo.ac.jp/utokyoaccount)にアクセスしてください．-->[ECCS利用者メニュー](https://idm.ecc.u-tokyo.ac.jp/webmtn/)へアクセスしてください<small>（UTokyo Accountへサインインするにあたり，システム間の連携処理の都合上，ここではECCS利用者メニューを用いてサインインを行う手順となります）</small>．
+1. [UTokyo Accountのサインアウトページ](https://univtokyo.sharepoint.com/sites/utokyoaccount/_layouts/15/SignOut.aspx)にアクセスしてください．
+1. 「サインアウトしました」という画面が表示されるまでしばらく待ってください．
+1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)へアクセスしてください．
 1. サインイン画面が表示されたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
 1. 続いて多要素認証の本人確認が行われます．本人確認方法により手順が異なりますので，画面の指示に従って操作してください．
     - **「Microsoft Authenticator」アプリの場合**：スマホに通知が送られ，アプリ上でサインインを承認するように求められるので，そのようにしてください．
     - **「Microsoft Authenticator」以外の認証アプリの場合**：アプリに表示されるコード（6桁の数字）を入力するように求められるので，そのようにしてください．
     - **電話番号でSMSを使う場合**：SMSにコード（6桁の数字）が送られ，それを入力するように求められるので，そのようにしてください．
     - **電話番号で音声通話を使う場合**：電話が着信し，音声ガイダンスで「#」ボタンを押すように言われるので，そのようにしてください（スマホで通話中に「#」ボタンを表示するには，画面に表示されている「キーパッド」ボタンを押します）．
-1. <!--サインインが完了し，「UTokyo Account Service Directory」が表示されればOKです．-->サインインが完了し，「ECCS利用者メニュー」が表示されればOKです．
+1. 「セキュリティ情報」と書かれた多要素認証の設定ページが表示されればOKです．
+{:.mfa-initial-procedure}
 
 なお，サインイン時の本人確認方法は，設定した方法のいずれか（通常，最初に設定したもの）がデフォルトとして自動的に選ばれます．他の本人確認方法を使いたい場合は，画面上の「別の確認オプションを使用する」あるいは「問題がありますか? 別の方法でサインインする」というリンクを押してください．
 <img src="signin_with_another_method.png">
 また，デフォルトの方法を変更したい場合は，下の「[既定（デフォルト）の本人確認方法を変更する](#change-default)」の説明に従って作業してください．
+
+<div class="box">設定はまだ完了していません．次の手順4へ進んでください．</div>
+
+### 手順4：多要素認証の利用を申請する
+{:#initial-apply.mfa-initial-step-heading}
+
+最後に，多要素認証の利用申請を行います．この申請を行うと，以降，UTokyo Accountにサインインする際に毎回，上の手順3と同様の手順による本人確認が求められるようになります．
+
+なお，事務業務端末（職員向け）のリモートアクセスが接続中の場合，多要素認証の利用申請を行うと接続が強制的に切断されるため，あらかじめ接続を終了（サインアウト）してから以下の手順を行ってください．
+
+1. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)にアクセスしてください．
+2. サインインを求められたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
+3. 左のメニューにある「多要素認証利用申請」を押してください．<img src="user_menu_1.png">
+4. 表示される多要素認証に関する説明をよく読んでから，下の方にある「多要素認証を利用する」を「はい」にして，「保存」を押してください．<img src="user_menu_2.png">
+{:.mfa-initial-procedure}
+
+<div class="box">以上で多要素認証の初期設定は完了です．</div>
 
 ## 多要素認証の設定変更手順
 {:#change}
@@ -222,7 +232,7 @@ UTokyo Accountで多要素認証を利用するには，はじめに多要素認
 ### 本人確認方法を追加する
 {:#change-add}
 
-[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)にアクセスすると，上に書かれている初期設定手順の中の「[手順3：追加の本人確認方法を設定する](#initial-alternative)」と同じ要領で本人確認方法を追加することができます．
+[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)にアクセスすると，上に書かれている初期設定手順の中の「[手順2：追加の本人確認方法を設定する](#initial-alternative)」と同じ要領で本人確認方法を追加することができます．
 
 <img src="alt_add_method.png">
 
