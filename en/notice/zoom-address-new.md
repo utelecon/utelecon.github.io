@@ -72,7 +72,7 @@ If you are currently signing in to Zoom using the ECCS Cloud Email with the user
             <img src="/zoom/img/zoom_signin_1.png">
             <details>
                 <summary>If you see the message "Confirm your email address” right after you sign in </summary>
-                <img src="image/zoom_sso_update_email.png">
+                <img src="/notice/image/zoom_sso_update_email.png">
                 You need to perform email confirmation to switch to UTokyo Account sign-in. 
                 Click the “Confirm your email address” button, and wait for an email to be sent to your ECCS Cloud Email. 
                 Follow the instructions in the received email. 
