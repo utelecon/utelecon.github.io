@@ -52,11 +52,11 @@ If you are currently signing in to Zoom using the ECCS Cloud Email with the user
     <ol>
         <li>
             Access the <a href="https://zoom.us/profile">Zoom profile page</a> (sign in if necessary), and click “Edit” next to “Sign-in Email”. 
-            <img src="image/zoom-signinaddress.png">
+            <img src="image/zoom-signinaddress_en.png">
         </li>
         <li>
             Enter <code>[10-digit Common ID]@utac.u-tokyo.ac.jp</code>, (e.g. <code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code>) as your new sign-in email address. 
-            <img src="image/zoom_address_confirm.png">
+            <img src="image/zoom_address_confirm_en.png">
             <details>
                 <summary>If you see the message "The email address "1234567890@utac.u-tokyo.ac.jp" is already in use"</summary>
                 An account using <code>1234567890@utac.u-tokyo.ac.jp</code> already exists. This account needs to be deleted. 
