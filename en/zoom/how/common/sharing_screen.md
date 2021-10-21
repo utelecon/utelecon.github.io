@@ -23,7 +23,7 @@ In the "Basic" tab, choose to share your entire desktop or specific application 
   * **[Share Sound]** If checked, you can share the sound played on your computer during screen sharing.
   * **[Optimize for video clip]** If checked, participants can see the optimized form of video clips played in full screen during screen sharing.
 
-1. Select the screen you want to share and click the green "New Share" button at the bottom right corner.   
+4. Select the screen you want to share and click the blue "Share" button at the bottom right corner.   
 ![ The "Share Screen" button starts screen sharing](img/sharing_screen_04.png)
 
 
@@ -136,7 +136,7 @@ Click “Annotate” from the screen sharing controls to annotate the shared scr
 
   + Clear All Drawings: Clear all annotations on the shared screen.
   + Clear My Drawings: Clear all your annotations.
-  + Erase Viewers’ Drawings: (Teachers only) Clear all participants' annotations.
+  + Clear Viewers’ Drawings: (Teachers only) Clear all participants' annotations.
  * **[Save]** Save all annotations on the screen as a screenshot. The screenshot is saved to the local recording location.
 
 ## Participants’ controls
