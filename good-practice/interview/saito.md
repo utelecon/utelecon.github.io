@@ -1,5 +1,6 @@
 ---
 title: 齊藤宣一 先生　計算数理I・計算数理
+vimeoId: 631770348
 ---
 
 ## 授業の基本情報
@@ -62,6 +63,11 @@ title: 齊藤宣一 先生　計算数理I・計算数理
 
 ## 工夫したところ
 ### Apple Pencil 2で講義ノートに書き込みを入れた
+
+<div style="padding:75% 0 0 0;position:relative;">
+<iframe src="https://player.vimeo.com/video/631770348?h=c1d7526347&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="na21-02_utelecon用_v2.mp4"></iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
 
 授業日程に合わせて、講義ノートと、授業を録画した動画ファイル・録音した音声ファイルをITC-LMSにアップロードしました。授業の核は講義ノートとし、動画の視聴や音声の利用は任意としました。
 
@@ -207,6 +213,7 @@ ITC-LMSを利用したオンデマンド方式で行いました。
 ### 講義ノート
 [http://www.infsup.jp/saito/ns/notes.html](http://www.infsup.jp/saito/ns/notes.html)
 
-
+### 講義映像（UTokyo OCWで公開中）
+[https://ocw.u-tokyo.ac.jp/course_11452/](https://ocw.u-tokyo.ac.jp/course_11452/)
 
 
