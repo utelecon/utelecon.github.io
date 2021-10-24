@@ -12,8 +12,6 @@ In order to improve the security of UTokyo's IT systems, multi-factor authentica
 
 This page provides information about multi-factor authentication for UTokyo Accounts. Please check this page for any updates.
 
-<div class="box" style="color: red;">2021/9/27, 22:30 The problem that prevented users using MFA from signing in due to a trouble on the authentication infrastructure has been resolved. We apologize for any inconvenience.</div>
-
 ### Multi-Factor Authentication
 {:#introduction-about}
 
@@ -30,8 +28,6 @@ It is recommended to have MFA set up for better security of your UTokyo Account.
 
 ## MFA Initial Setup Procedure
 {:#initial}
-
-<div class="very-important-box"> Due to current system issues, setting up MFA will disable certificate issuance using the automatic certificate issuing machine. If you plan to use the automatic certificate issuing machine, please do NOT perform the initial setup procedure until the issue is resolved．</div>
 
 <div class="box" style="color: red;">2021-10-18 The procedure has changed significantly, such as changing the order.</div>
 
