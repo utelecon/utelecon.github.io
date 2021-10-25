@@ -1,6 +1,5 @@
 ---
 title: 齊藤宣一 先生　計算数理I・計算数理
-vimeoId: 631770348
 ---
 
 ## 授業の基本情報
@@ -204,7 +203,7 @@ ITC-LMSを利用したオンデマンド方式で行いました。
 
 **「レポートについて」（齊藤先生のWebサイト参考）**
 
-[http://www.infsup.jp/saito/ns/20keisan1.html](http://www.infsup.jp/saito/ns/20keisan1.html）
+[http://www.infsup.jp/saito/ns/20keisan1.html](http://www.infsup.jp/saito/ns/20keisan1.html)
 
 > 6月29日(月）の朝に期末レポート問題を『課題』で公開します。締め切りは8月5日(水) 23:55です。配点は各問に記してあります。成績の評価はこのレポートの得点のみに基づいて行います。必ず提出してください。
 
