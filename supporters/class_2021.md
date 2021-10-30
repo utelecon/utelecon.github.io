@@ -11,7 +11,7 @@ title: クラスサポーター制度のご案内
 ## お知らせ
 
 
-* <span style="color:blue;">2021/10/30:</span> Aセメスターのクラスサポーター制度申込の締め切りは10月31日となっております。先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。　<br>
+* <span style="color:blue;">2021/10/30:</span> <span style="color:red;">Aセメスターのクラスサポーター制度申込の締め切りは10月31日となっております。</span>先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。　<br>
 　<a href="https://forms.office.com/r/tsHGEWBXBW" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
 　<a href="https://forms.office.com/r/M8vQjrSwtt" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
 　<a href="https://forms.office.com/r/xTEaaSZFMY" target="_blank">「クラスサポーター志願フォーム」</a>
