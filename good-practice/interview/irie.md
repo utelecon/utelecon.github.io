@@ -55,11 +55,14 @@ title: 入江薫 先生　数理統計I、II
 
 音声を配信するのに用いていたノート PC とは別に、Microsoft Surface を用いて専用のタッチペン（別売）で板書しました。２端末で Zoom に入室し、ノート PC をホスト、Surface を共同ホストに設定して、画面共有機能を使って配信する形式です。OneNote を使うのはこれが初めてでしたが、すぐにある程度使いこなすことができました。手書きとは感覚が異なるので、多少の慣れが必要だったくらいです。特定部分を指示するために指差しができないのは不便でしたが、マーカー機能で代用しました。
 
-<div style="margin:40px 0px">
-<img src="img/irie_2.png" alt="" width="600px" style="display: block; margin : 0 auto">
+<div style="padding:56.25% 0 0 0;position:relative;">
+<iframe src="https://player.vimeo.com/video/637737919?h=a1dcf3469c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="good-practice_irie">
+</iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
 <div style="text-align: center;">
 公開された授業の録画。色を使い分かりやすい板書がなされています
-</div>
 </div>
 
 ところで、こちらとしても初めてのオンライン授業ということで、学生にもチャット等を用いての授業運営に対するアドバイスを積極的に求めていたのですが、この板書の方式は、学生のアドバイスによって授業が改善されたものの好例です。
