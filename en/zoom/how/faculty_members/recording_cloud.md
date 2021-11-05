@@ -3,7 +3,7 @@ title: (Zoom for Faculty Members) Cloud Recording
 lang: en
 ---
 
-UTokyo Zoom account (10-digit Common ID @utac.u-tokyo.ac.jp) supports cloud recording.
+UTokyo Zoom account (`10-digit Common ID @utac.u-tokyo.ac.jp`) supports cloud recording.
 Here are procedures on how to record a Zoom meeting to the cloud and set up internal sharing.
 
 1.  In your meeting, select "Record to the Cloud" ([If you do not see "Record to the Cloud"](#no_menu)).
@@ -26,7 +26,7 @@ Kindly note that the above wording differs from the current one due to the lates
 5. Turn off "Viewers can download". If you welcome students to download, keep it on.
 
 6. Copy the sharing information and share it via ITC-LMS or email.
-  * The URL and password indicated in "Recording Link Information" and the notification email under "Share recordings with viewers" are the same
+  * The URL and password indicated in "Recording Link Information" and the notification email under "Share recordings with viewers" are the same.
 
 
 Reference URL: [Zoom Help Center Cloud Recording](https://support.zoom.us/hc/en-us/articles/203741855-%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E8%A8%98%E9%8C%B2)
