@@ -70,7 +70,7 @@ If you want the students to use other windows other than Zoom while the teacher�
 You can prevent participants from annotating l by selecting "Disable Annotation for Others" from "More" of the meeting controls.
 
 #### Displaying names of annotators
-By selecting "Show Names of Annotators" from "More" of the meeting controls, participants’ names will appear next to their annotations on the shared screen.<br>
+By selecting "Show/Hide Names of Annotators" from "More" of the meeting controls, participants’ names will appear/disappear next to their annotations on the shared screen.<br>
 ![Show names of annotators](img/sharing_screen_08.png)
 
 ### Configuring screen sharing settings
@@ -142,12 +142,12 @@ Click “Annotate” from the screen sharing controls to annotate the shared scr
 ## Participants’ controls
 
 Participants can annotate the shared screen and change the screen settings during sharing on their own devices.<br>
-Tap “Change View” on the controller to choose the layout or toggle the icon to switch between different views.
+Click the "∨" mark next to "View Options" at the top of the sharing screen, to the right of the green "You are viewing xxxx's screen" field, and open the pulldown.
 
 ![Participants’ controls](img/sharing_screen_23.png)
 
 ### Annotation on a shared screen
-Click “Annotate” from the screen sharing controls to annotate the shared screen with a set of annotation tools.Details are explained in “Screen Annotation” above. <br>
+Click “Annotate” from the screen sharing controls to annotate the shared screen with a set of annotation tools. Details are explained in “Screen Annotation” above. <br>
 However, if "Disable Annotation for Others” is enabled, no annotations can be added.
 
 ### Screen settings during sharing
