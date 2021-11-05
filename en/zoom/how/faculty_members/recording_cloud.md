@@ -8,20 +8,20 @@ Here are procedures on how to record a Zoom meeting to the cloud and set up inte
 
 1.  In your meeting, select "Record to the Cloud" ([If you do not see "Record to the Cloud"](#no_menu)).
 
-![Select "Record to the Cloud"](/zoom/img/en_videosharing_zoomcloud_faculty_members_3.png)
+![Select "Record to the Cloud"](img/videosharing_zoomcloud_faculty_members_3.png)
 
 2. As the meeting ends, you will receive a notification email from Zoom once the recording file becomes available. Click on the link "this link can be used only by the host" in the email to access the "Recordings" page of your Zoom account ([https://zoom.us/recording](https://zoom.us/recording)).
   * It may take some time to receive the email notification, as Zoom renders the video.
 
-![this link can be used only by the host](/zoom/img/en_videosharing_zoomcloud_faculty_members_4.png)
+![this link can be used only by the host](img/videosharing_zoomcloud_faculty_members_4.png)
 
 3. Click "Share".
 
-![Click "Share"](/zoom/img/en_videosharing_zoomcloud_faculty_members_5.png)
+![Click "Share"](img/videosharing_zoomcloud_faculty_members_5.png)
 
 4. Under "Share this recording", select "Only authenticated users can view" to restrict access to Zoom users whose email addresses use the domain `*.u-tokyo.ac.jp`.
 
-![Check the sign-in user](/zoom/img/en_videosharing_zoomcloud_faculty_members_6.png)
+![Check the sign-in user](img/videosharing_zoomcloud_faculty_members_6.png)
 Kindly note that the above wording differs from the current one due to the latest updates.
 5. Turn off "Viewers can download". If you welcome students to download, keep it on.
 
@@ -39,13 +39,13 @@ This section explains how to stop cloud sharing a recording (i.e. disabling the 
 
 2. Select the "Recordings" tab, and open the "Share" menu of the recording you want to stop sharing.
 
-![Open the "Share" menu of the recording you want to stop sharing](/zoom/img/en_videosharing_zoomcloud_faculty_members_7.png)
+![Open the "Share" menu of the recording you want to stop sharing](img/videosharing_zoomcloud_faculty_members_7.png)
 
 3. Click "Share this recording".
 
-!["Share this record"](/zoom/img/en_videosharing_zoomcloud_faculty_members_8.png)
+!["Share this record"](img/videosharing_zoomcloud_faculty_members_8.png)
 
-![Turn off "Share this record"](/zoom/img/en_videosharing_zoomcloud_faculty_members_9.png)
+![Turn off "Share this record"](img/videosharing_zoomcloud_faculty_members_9.png)
 
 4. Announce the link expiration via ITC-LMS or email, or delete the link.
 
@@ -59,12 +59,12 @@ Since the storage capacity of Zoom cloud is limited, it is recommended to delete
 
 2. Select "Settings" from the menu on the left, and open the "Recording" page.
 
-![Settings of "Records" page①](/zoom/img/en_videosharing_zoomcloud_faculty_members_1.png)
+![Settings of "Records" page①](img/videosharing_zoomcloud_faculty_members_1.png)
 
 3. Turn on "Cloud recording".
 
 4. Make sure that "Require passcode to access shared cloud recordings" is turned on in advance to restrict recording access to internal use only.
 
-![Settings on the "Records" page (2)](/zoom/img/en_videosharing_zoomcloud_faculty_members_2.png)
+![Settings on the "Records" page (2)](img/videosharing_zoomcloud_faculty_members_2.png)
 
 Kindly note that the above wording differs from the current one due to the latest updates.
