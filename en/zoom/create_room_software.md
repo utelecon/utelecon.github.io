@@ -25,8 +25,8 @@ This page provides information on how to schedule a Zoom Meeting with the Zoom A
   - **Audio** : Selecting “Computer Audio” is recommended unless there are special needs to connect to Zoom from telephones.  
   - **Calender** : Synchronizing with Outlook or Google Calendar is also possible. However, it is recommended to select “Other Calendars” to copy and paste the meeting information.   
   - **Advanced Options**:   
-    - **Allow participants to join anytime**: Participants are not allowed to join the meeting before the host if this option is disabled. We recommend that you enable this option if you would like other participants to join the meeting earlier and have a talk.   
-    - **Mute participants upon entry**: We recommend that you enable this option if you would like to announce something at the beginning of the meeting.
+    -  **Allow participants to join anytime**: Participants are not allowed to join the meeting before the host if this option is disabled. We recommend that you enable this option if you would like other participants to join the meeting earlier and have a talk.   
+    -  **Mute participants upon entry**: We recommend that you enable this option if you would like to announce something at the beginning of the meeting.
 
 8. Check the meeting information and **copy the Zoom meeting URL** listed under “Join Zoom Meeting”. Send email notifications to participants.
 
