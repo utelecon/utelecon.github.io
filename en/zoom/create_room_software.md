@@ -20,16 +20,14 @@ This page provides information on how to schedule a Zoom Meeting with the Zoom A
   ![](img/en_zoom_schedule.png)  
   ![](img/en_zoom_schedule_detail.png) 
 
-  The following are some supplementary explanations.
-  <ul>
-    <li> **Video** : Whether to have video on or off at the beginning of the meeting can be set for both host and participants individually.</li>
-    <li> **Audio** : Selecting “Computer Audio” is recommended unless there are special needs to connect to Zoom from telephones.</li>
-    <li>**Calender** : Synchronizing with Outlook or Google Calendar is also possible. However, it is recommended to select “Other Calendars” to copy and paste the meeting information.</li>
-    <li>**Advanced Options**: <br>
-      - **Allow participants to join anytime**: Participants are not allowed to join the meeting before the host if this option is disabled. We recommend that you enable this option if you would like other participants to join the meeting earlier and have a talk. <br>
-      - **Mute participants upon entry**: We recommend that you enable this option if you would like to announce something at the beginning of the meeting.
-    </li>
-  </ul>
+  The following are some supplementary explanations.  
+  - **Video** : Whether to have video on or off at the beginning of the meeting can be set for both host and participants individually.  
+  - **Audio** : Selecting “Computer Audio” is recommended unless there are special needs to connect to Zoom from telephones.  
+  - **Calender** : Synchronizing with Outlook or Google Calendar is also possible. However, it is recommended to select “Other Calendars” to copy and paste the meeting information.   
+  - **Advanced Options**:   
+    - **Allow participants to join anytime**: Participants are not allowed to join the meeting before the host if this option is disabled. We recommend that you enable this option if you would like other participants to join the meeting earlier and have a talk.   
+    - **Mute participants upon entry**: We recommend that you enable this option if you would like to announce something at the beginning of the meeting.
+
 8. Check the meeting information and **copy the Zoom meeting URL** listed under “Join Zoom Meeting”. Send email notifications to participants.
 
   ![](/zoom/img/zoom_schedule_info.png)
