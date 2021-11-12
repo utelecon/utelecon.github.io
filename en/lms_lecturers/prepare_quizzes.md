@@ -166,6 +166,6 @@ lang: en
 * <a href="https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html">FAQ (ITC-LMS)</a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2990.html">How to use the ITC-LMS template for different courses or different accounts (for instructors）</a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2987.html">How to check the quiz created in ITC-LMS (for instructors)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1889.html">Characters that can be used in ITC-LMS quiz and task evaluations (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1889.html">Characters that can be used in ITC-LMS quiz and task evaluations (for instructors)</a> (in Japanese only)
   * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2973.html">How to create a question with multiple fill-in holes in ITC-LMS test (for instructors)</a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2981.html">How to display the allocation of the score when students answering in the ITC-LMS quiz (for instructors)</a>
