@@ -18,12 +18,15 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% if page.css %}
+      {% for c in page.css %}
+        <link rel="stylesheet" href="{{ '/assets/css/' | append: c | append: '.css?v=' | append: site.github.build_revision | relative_url }}">
+      {% endfor %}
+    {% endif %}
 
     <script async src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"></script>
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/bar.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="/assets/js/hiraku.js"></script>
 
   </head>
   <body>

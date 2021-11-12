@@ -2,58 +2,73 @@
 title: クラスサポーター制度のご案内
 ---
 
-お知らせ
----------------------------
+<div style="border: solid 4px red;">
+  <div style="margin: 20px;">
+    <div>
+      <span style="font-weight: bold; color: blue;">【クラスサポーター制度とは】</span>
+    </div>
+    <div style="font-weight: bold;">
+      この要領は，全学的なオンライン授業を導入するにあたり，オンライン授業に限りその補助業務を行うクラスサポーターについて必要な事項を定め，授業の円滑な実施を図ることを目的とします．
+    </div>
+  </div>
+  <div style="margin: 20px;">
+    <div>
+      <span style="font-weight: bold; color: blue;">【クラスサポーターとは】</span>
+    </div>
+    <div>
+      オンライン授業を行う先生を支援する学生です．「先生がオンライン授業に備える，その準備に付き合う，先生が授業中に気づきにくい（音が届いていないなどの）トラブルを学生側から介入する」等，オンラインの操作が不慣れな先生への，初期動作を学生がサポートするという仕事を想定しています．
+    </div>
+  </div>
+  <div style="margin: 20px;">
+    <div>
+      <span style="font-weight: bold; color: blue;">【クラスサポーターの仕事内容の範囲（想定している仕事例）】</span>
+      <small>※本文より一部抜粋</small>
+    </div>
+    <div>
+      <ul>
+        <li>音の聞こえ具合やカメラの映り具合のチェック</li>
+        <li>会議システムの機能を使ったときの見え方のチェック</li>
+        <li>教員の声が聴こえない時「先生，聴こえ（見え）ていませんよ」と声をかける</li>
+        <li>画面を共有したつもりでできていない時に「先生，見えていませんよ」と声をかける</li>
+        <li>最悪な事故（声が通っていないと知らずに30分しゃべり続ける，など）を防止する</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+本学に在籍をしている学部生・大学院生・研究生・ポストドクターなどがクラスサポーターになることができます．<br>
+クラスサポーター制度を利用する場合には，下記をよくお読みになり，制度を理解した上でお申し込みください．
+
+## お知らせ
 
 
-* <span style="color:blue;">2021/05/31:</span> 以下のフォームの申請は5/31日が締め切りとなっております。 
-<br>
+* <span style="color:blue;">2021/10/30:</span> <span style="color:red;">Aセメスターのクラスサポーター制度申込の締め切りは10月31日となっております。</span>先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。　<br>
+　<a href="https://forms.office.com/r/tsHGEWBXBW" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
+　<a href="https://forms.office.com/r/M8vQjrSwtt" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
+　<a href="https://forms.office.com/r/xTEaaSZFMY" target="_blank">「クラスサポーター志願フォーム」</a>
+* <span style="color:blue;">2021/09/01:</span> 本日よりAセメスターのクラスサポーター制度の受付を開始します．本ページをよくお読みになり、先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。<br>
 各フォームの締め切りは以下の通りとなります.<br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">「クラスサポーター志願フォーム」</a>：いずれも5月31日<br>
-締め切り後のクラスサポーターの申し込みについては承れません。各部局にて、措置頂くようお願い致します。
-
-* <span style="color:blue;">2021/04/07:</span> **フォームの受付を再開いたしました.**
-ご迷惑をおかけして申し訳ございません.
-下記のリンク先より申請が可能です.<br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">「クラスサポーター志願フォーム」</a>：いずれも5月31日締切<br>
-**4月6日 に入力された方へ** <br>
-改めて【再：件名ｘｘｘｘｘ】という件名で回答受領メールを送らせていただきます.<br>
-正しく回答受領メールを受信されている方へは重複になり申し訳ございません.
-お手数をおかけしますが破棄して頂くようお願い致します.<br>
-今日中にメールを送らせていただきますが,申請したのにメールが何も届かない場合はメールアドレスが間違っているか,正しく申請されていない可能性がございますのでクラスサポーター担当までご連絡ください.
-* <span style="color:blue;">2021/04/06:</span> <span style="color:red;">**＜登録停止中＞　ただいまシステムの不具合によりフォームの受付を停止中です。<br>クラスサポーターの利用は開始してかまいませんが、明日以降にフォームへのご記入をお願いします。なお、昨晩より現在まで、フォーム入力後に自動返信メールを受け取っていない方もデータ受信未了の可能性があります。状況および再開については、このお知らせ欄において告知します。ご迷惑をおかけしましても申し訳ございません。（ただいまフォームへのリンクはオフにしてあります）**</span><br>
-* <span style="color:blue;">2021/04/05:</span> 本日よりSセメスターのクラスサポーター制度の受付を開始します．本ページをよくお読みになり、先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。<br>
-各フォームの締め切りは以下の通りとなります.<br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
-　<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">「クラスサポーター志願フォーム」</a>：いずれも5月31日<br>
+　<a href="https://forms.office.com/r/tsHGEWBXBW" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
+　<a href="https://forms.office.com/r/M8vQjrSwtt" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
+　<a href="https://forms.office.com/r/xTEaaSZFMY" target="_blank">「クラスサポーター志願フォーム」</a>：いずれも10月31日<br>
 
 
 　（下記は申込後の返信にてお知らせします）<br>
-　謝金支払い情報フォーム：6月30日<br>
-　業務完了報告フォーム：7月31日
-
-* <span style="color:blue;">2021/03/25:</span> 4月1日よりSセメスターのクラスサポーター制度を開始します．
-* <span style="color:blue;">2021/03/17:</span> 2021年度の利用に向けて情報を更新しました（4月に利用開始できるよう現在準備中です）．2020年度分の支払いについては3月17日に完了いたしました．
+　謝金支払い情報フォーム：11月30日<br>
+　業務完了報告フォーム：2022年1月15日
 
 
+* <span style="color:blue;">2021/08/30:</span> 9月1日よりAセメスターのクラスサポーター制度を開始します．
 
-重要なポイント
----------------------------
-* このページにリンクされているフォームにアクセスするにはoffice 365にログインしている必要があります．<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">こちら</a>を参照いただき，ログインの上アクセスをお願いします．[よくある質問と回答](#anchor1)にもログイン関連をまとめていますので，ご利用下さい．
+## 重要なポイント
+
+* <span style="color:red;">**通年授業の場合は1年を通して1コマの扱いとなります.**</span>　既にSセメで利用されている場合はAセメで改めてお申込みすることは出来ませんのでご注意下さい.
+* このページにリンクされているフォームにアクセスするにはoffice 365にログインしている必要があります．<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">こちら</a>を参照いただき，ログインの上アクセスをお願いします．[よくある質問と回答](#faq)にもログイン関連をまとめていますので，ご利用下さい．
 * どうしてもアクセスできない場合には，チャットサポート（この画面の右下をクリック）で相談するか，クラスサポーター授業担当（末尾に連絡先があります）にご連絡ください．
 * 非常勤講師の方は10桁のIDを部局の事務にご確認の上，ご利用ください．
 * 各フォームにご登録頂く際には，通常使用されている<span style="color:red;">**必ず連絡のつく**</span>メールアドレスをご登録ください．
 
-クラスサポーターとは
----------------------------
 
-オンライン授業を行う先生を支援する学生です．本学に在籍をしている学部生・大学院生・研究生・ポストドクターなどがクラスサポーターになることができます．
-クラスサポーター制度を利用する場合には，下記をよくお読みになり，制度を理解した上でお申し込みください． 
 
 ## 制度の趣旨と目標
 
@@ -65,8 +80,7 @@ title: クラスサポーター制度のご案内
 * 学科や専攻で既にオンライン授業サポートのためのTAがついている場合， クラスサポーターは不要(冗長)な場合が多いと思われます(禁止するものではありません)． 
 * <span style="color: red; ">**クラスサポーターになることが成績評価に影響することはありません．**</span>
 
-クラスサポーターの仕事内容の範囲(想定している仕事の例)
----------------------------
+### クラスサポーターの仕事内容の範囲(想定している仕事の例)
 
 * 授業時間外に，<font color="green">Web会議システムを用いた授業やハイブリッド授業の事前練習や試行錯誤</font>を教員と一緒に行う. 例:
   * 音の聞こえ具合のチェック
@@ -86,8 +100,7 @@ title: クラスサポーター制度のご案内
   
 * 注意: 授業中のサポートは<span style="color:green;">授業を受けながらでも出来る程度のもの</span>を想定しています
 
-クラスサポーターとして想定していない仕事内容
----------------------------
+### クラスサポーターとして想定していない仕事内容
 
 * 「先生がWeb会議システムを<span style="color:red;">全く知らなくても済む</span>ようにWeb会議の設定などを毎回整える」 などは<u>想定していません</u>
 * 「黒板前で動き回る教員を<span style="color:red;">カメラで追従して撮影する</span>, などは<u>想定していません</u>
@@ -99,15 +112,18 @@ title: クラスサポーター制度のご案内
 ## 制度利用の流れ 
 ![フローチャート](img/flowchart.png)
 
-<h4 class="no_toc">【教員用】 </h4>
+### 教員用
+{:.no_toc}
+
 制度を利用するには，下記の通り2つの方法があります．
 
-**教員自身がサポーターを見つけられた場合**
+#### 教員自身がサポーターを見つけられた場合
+{:.no_toc}
 
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">クラスサポーター獲得報告フォーム</a> で利用申請を行います．
+1. <a href="https://forms.office.com/r/tsHGEWBXBW" target="_blank">クラスサポーター獲得報告フォーム</a> で利用申請を行います．
     * 満期退学者など，本学の所属でない人はクラスサポーターに指名できません．
     * 留学生へ依頼する場合には，資格外活動許可を有していることが必須です．
-    * 基本的には1授業につき1サポーターです．2人以上必要な場合には，事前にクラスサポーター担当までご連絡ください．class-support@he.u-tokyo.ac.jp    
+    * 基本的には1授業につき1サポーターです．2人以上必要な場合には，事前にクラスサポーター担当までご連絡ください．class-support.adm[at]gs.mail.u-tokyo.ac.jp    
 1. クラスサポーター担当から2種類のフォームが届きます． 
 <br>
    ※獲得フォームにて申請後，クラスサポーター担当から受領メールが自動配信されます． 
@@ -123,8 +139,10 @@ title: クラスサポーター制度のご案内
 <br> 　クラスサポーター業務完了前に報告した場合には再提出をお願いしていますのでご注意ください． 
 <br> 　業務が完了していれば，授業終了日前でも報告可能です． 
 
-**クラスサポーターをマッチングしてほしい場合**
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">クラスサポーター割当希望フォーム</a> で制度の利用申請を行います．
+#### クラスサポーターをマッチングしてほしい場合
+{:.no_toc}
+
+1. <a href="https://forms.office.com/r/M8vQjrSwtt" target="_blank">クラスサポーター割当希望フォーム</a> で制度の利用申請を行います．
 2. <span style="color:red;">マッチング成立後</span>，クラスサポーターをご案内するメールが届きます．
 3. 学生と連絡をとり，開始日・科目名・時間割コード・曜限などを互いに確認します．
 4. 双方が同意しましたら，獲得報告フォームを提出してください．
@@ -141,7 +159,9 @@ title: クラスサポーター制度のご案内
   * クラスサポーター業務完了前に報告した場合には再提出をお願いしていますのでご注意ください． 
   * 業務が完了していれば，授業終了日前でも報告可能です．
 
-**【留意事項】**
+#### 留意事項
+{:.no_toc}
+
 * 制度利用の申請（フォームへの入力）はこのサイトTOPにある「お知らせ」に記載の期限までにお願いします．
 * ご自身でサポーターを見つけた場合，下記を学生に理解頂けましたらクラスサポーター制度を利用することができます．
   * 謝金支払い情報を登録する際，住所などの個人情報の他，マイナンバー，口座番号確認する書類の提出が必要となります（画像のアップロード） 
@@ -153,11 +173,14 @@ title: クラスサポーター制度のご案内
 * 留学生は他の労働時間も含めて週28時間が上限と定められているため，それを超えないように調整してください．
 * 留学生は資格外活動許可を取得していることが必要です．未取得の場合はすぐに取得手続きを行ってください．取得後でないと業務を開始することはできません．留学生で休学中の場合は資格外活動が認められていないためクラスサポーターになることができません．
 
-<h4 class="no_toc">【学生用】 </h4>
-- ITに習熟していることを要求・期待していません．オンライン授業に参加できており，先生の授業をhelpしたいという意志があり， 必要に応じて学ぶ意志があれば充分です．学習に支障のない範囲で引き受けたり，志望したりしてください．
-<br>
+### 学生用
+{:.no_toc}
 
-**教員からの依頼を受けてクラスサポーターになる場合**　　　<br>
+- ITに習熟していることを要求・期待していません．オンライン授業に参加できており，先生の授業をhelpしたいという意志があり， 必要に応じて学ぶ意志があれば充分です．学習に支障のない範囲で引き受けたり，志望したりしてください．
+
+#### 教員からの依頼を受けてクラスサポーターになる場合
+{:.no_toc}
+
 1. 教員の申請後に届く，謝金支払い情報フォームに到着後1週間をめどに，速やかに必要事項を記入します．<br>
 ※支払いには，学生証・口座情報・マイナンバー・留学生は在留カードと資格外活動許可書が必要です．必ず準備してから必要事項を入力してください．
 1. <a href="https://utelecon.adm.u-tokyo.ac.jp/events/2020-05-20/" target="_blank">クラスサポーター制度研修ページの動画</a>を視聴します．
@@ -171,12 +194,13 @@ title: クラスサポーター制度のご案内
 動画視聴を<span style="color:green;">申告する必要はありませんが，制度理解のために必ず視聴してください．</span><br>
 1. 謝金の支払い
 <br>
-クラスサポーター業務終了後，教員からの業務完了報告の後に謝金のお支払い手続きをとります．<br>
+クラスサポーター業務終了後，教員からの業務完了報告の後に謝金のお支払い手続きをとります．
 
-**クラスサポーターを行ってみたい場合**
-<br>
+#### クラスサポーターを行ってみたい場合
+{:.no_toc}
+
 ※空き時間などを利用して自分が履修していない授業や， 個人的に頼まれた教員以外の授業．
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">クラスサポーター志願フォーム</a> でエントリーします．
+1. <a href="https://forms.office.com/r/xTEaaSZFMY" target="_blank">クラスサポーター志願フォーム</a> でエントリーします．
 1. マッチング成立後，詳細をご案内するメールが届きます．
 <br>
 教員の条件に応じたマッチング（授業実施曜限など）を行うため，志望してもクラスサポーターとして割り当てられないこともある点ご了承ください．  
@@ -199,7 +223,8 @@ title: クラスサポーター制度のご案内
 <br>
 クラスサポーター業務終了後，教員からの業務完了報告の後に謝金のお支払い手続きをとります．
 
-**【留意事項】**
+#### 留意事項
+{:.no_toc}
 
 * 下記をご理解していただいた場合のみ，クラスサポーター活動を行うことができます．
   * 謝金支払い情報を登録する際，住所などの個人情報の他，マイナンバー，口座番号確認する書類の提出が必要となります（画像のアップロード） 
@@ -211,17 +236,15 @@ title: クラスサポーター制度のご案内
 * 留学生は他の労働時間も含めて週28時間が上限と定められているため，それを超えないように調整してください．
 * 留学生は資格外活動許可を取得していることが必要です．未取得の場合はすぐに取得手続きを行ってください．取得後でないと業務を開始することはできません．留学生で休学中の場合は資格外活動が認められていないためクラスサポーターになることができません．
 
-
-<a id="anchor1"></a>
-
 ## よくある質問と回答例
+{:#faq}
 
-**【教員・学生 共通】**   
+### 教員・学生 共通
+{:.no_toc}
+
 <details>
-<summary><span style="color:blue;"><u>Q. フォームにアクセスができない </u></span> </summary>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->  - 手順は2つです. 
+<summary>Q. フォームにアクセスができない</summary>
+手順は2つです. 
 <br>1.サインインする 
 <br>2.リンク先をクリック
 <p style="padding-left:2em">
@@ -240,102 +263,77 @@ title: クラスサポーター制度のご案内
   <br><a href="https://utelecon.github.io/" target="_blank">https://utelecon.github.io/</a> 
   <br>平日ですと有人で相談することができ,その場で順を追って解決してもらえるので,お困りの際にはどうぞご活用ください. 
 </p>
-</code></pre></div></div>
 </details>
 
 
 <details>
-<summary><span style="color:blue;"><u>Q. 申請・登録・報告時の控えの受領メールについて </u></span> </summary>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->  - 令和3年から,フォームで入力された「通常ご使用なさっているメールアドレス （連絡が確実に届くもの）」に記載したアドレスに自動配信されます.しばらくしても届かない場合はクラスサポーター担当へお問い合わせ下さい
-</code></pre></div></div>
+<summary>Q. 申請・登録・報告時の控えの受領メールについて</summary>
+令和3年から,フォームで入力された「通常ご使用なさっているメールアドレス （連絡が確実に届くもの）」に記載したアドレスに自動配信されます.しばらくしても届かない場合はクラスサポーター担当へお問い合わせ下さい
 </details>
 
 <details>
-<summary><span style="color:blue;"><u>Q. クラスサポーター業務時間のカウントについて </u></span> </summary>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->  - クラスサポーター活動時間の上限は10時間です.授業の途中であっても10時間に達した時点で活動終了となります.一方「授業中の時間をすべてカウントする必要はない」ということも示しておりますので,実働に応じてカウントしていただくなど,適宜ご判断いただければと思います.
-</code></pre></div></div>
+<summary>Q. クラスサポーター業務時間のカウントについて</summary>
+クラスサポーター活動時間の上限は10時間です.授業の途中であっても10時間に達した時点で活動終了となります.一方「授業中の時間をすべてカウントする必要はない」ということも示しておりますので,実働に応じてカウントしていただくなど,適宜ご判断いただければと思います.
 </details>
 <details>
-<summary><span style="color:blue;"><u>Q. 10時間以下の謝金支払いについて </u></span> </summary>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->  - 謝金は1つの科目に対しての単価ですので 1科目あたり,13,000円（税込み）です. 3時間でも10時間でも,同一です.
-</code></pre></div></div>
+<summary>Q. 10時間以下の謝金支払いについて</summary>
+謝金は1つの科目に対しての単価ですので 1科目あたり,13,000円（税込み）です. 3時間でも10時間でも,同一です.
 </details>
 <details>
-<summary><span style="color:blue;"><u>Q. マッチングについて </u></span> </summary>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->  - 曜限などの条件が適合する志願学生を探しています.見つかり次第ご案内メールをお送りしますのでお待ちください.見つからない場合もございますので,ご理解願います.
-</code></pre></div></div>
+<summary>Q. マッチングについて</summary>
+曜限などの条件が適合する志願学生を探しています.見つかり次第ご案内メールをお送りしますのでお待ちください.見つからない場合もございますので,ご理解願います.
 </details>
 
+### 教員
+{:.no_toc}
 
-<br>
-
-**【教員】**
 <details>
-<summary><span style="color:blue;"><u>Q. 締め切り後のクラスサポーターの申し込みについて </u></span> </summary>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->  - 所属の部局でご相談ください．　　　
-</code></pre></div></div>
-
-</details>
-<details>
-<summary><span style="color:blue;"><u>Q. 業務完了報告の提出日  </u></span> </summary>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->  - クラスサポーター業務の完了後です.完了前の報告は,再提出をお願いしています. 
-</code></pre></div></div>
+<summary>Q. 通年授業の場合、SセメとAセメの申し込みが必要ですか</summary>
+通年授業の場合は1年を通して1科目（1コマ）の扱いとなります.ご利用されるタイミングに合わせて、SセメもしくはAセメのどちらかでお申込みください．
 </details>
 
-<br>
-
-**【学生】** 
 <details>
-<summary><span style="color:blue;"><u>Q. 謝金支払い情報登録時のマイナンバーのWEB登録をしたくありません.</u></span></summary>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->  - 限定された職員のみがマイナンバーの確認作業を行っております.セメスターごとの情報管理をしており,作業終了後にその都度,情報を破棄しております. 安心してご登録をお願いしたいのですが,「ウェブ画面に入力または 添付したくない」という場合は,第2本部棟3階311号室にあります「大学総合教育研究センター」事務室まで厳封してお持ちいただくか,以下への郵送での提出も可能です.  
+<summary>Q. 締め切り後のクラスサポーターの申し込みについて</summary>
+所属の部局でご相談ください．
+</details>
+
+<details>
+<summary>Q. 業務完了報告の提出日</summary>
+クラスサポーター業務の完了後です.完了前の報告は,再提出をお願いしています. 
+</details>
+
+### 学生
+{:.no_toc}
+
+<details>
+<summary>Q. 謝金支払い情報登録時のマイナンバーのWEB登録をしたくありません.</summary>
+限定された職員のみがマイナンバーの確認作業を行っております.セメスターごとの情報管理をしており,作業終了後にその都度,情報を破棄しております. 安心してご登録をお願いしたいのですが,「ウェブ画面に入力または 添付したくない」という場合は,第2本部棟3階311号室にあります「大学総合教育研究センター」事務室まで厳封してお持ちいただくか,以下への郵送での提出も可能です.  
   <br>　〒113-0033　東京都文京区本郷 7-3-1
   <br>　東京大学　大学総合教育研究センター
   <br>　クラスサポーター謝金担当　宛
-</code></pre></div></div>
 </details>
 
 <details>
-<summary><span style="color:blue;"><u>Q. 謝金入金日はいつですか. </u></span></summary>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->    - 教員による業務完了報告提出後,手続きします.
-</code></pre></div></div>
+<summary>Q. 謝金入金日はいつですか.</summary>
+教員による業務完了報告提出後,手続きします.
 </details>
 
 <details>
-<summary><span style="color:blue;"><u>Q. 謝金の入金金額と明細について</u></span></summary>  
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->    - 13000円より,税金分3.063％に相当する金額がひかれています.確定申告をすれば戻りますので,お手数ですが,手続きをお願いいたします.なお,明細書は学部（大学院）ごとに学内便で配布予定です.1月末ごろになりましたら源泉徴収票も出る予定です. 
-</code></pre></div></div>
+<summary>Q. 謝金の入金金額と明細について</summary>
+13000円より,税金分3.063％に相当する金額がひかれています.確定申告をすれば戻りますので,お手数ですが,手続きをお願いいたします.なお,明細書は学部（大学院）ごとに学内便で配布予定です.1月末ごろになりましたら源泉徴収票も出る予定です. 
 </details>
-  
+
 <details>
-<summary><span style="color:blue;"><u>Q. クラスサポーターの謝金を振込以外で受け取りについて</u></span></summary>  
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
->    - 謝礼は口座振り込みのみです.
-</code></pre></div></div>
+<summary>Q. クラスサポーターの謝金の受け取りについて</summary>
+謝礼は口座振り込みのみです.
 </details>
 
+## 問い合わせ先
 
-問い合わせ先
----------------------------------------------
 オンライン授業学生担当  
-class-support [at] he.u-tokyo.ac.jp  
+class-support.adm[at]gs.mail.u-tokyo.ac.jp  
 <details>
-<summary><span style="color:blue;"><u>問い合わせメールのテンプレート</u></span></summary>
-
+<summary>問い合わせメールのテンプレート</summary>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code
 >氏名 : 
 所属 : 所属部局・学部・研究科等を記入してください．
@@ -348,5 +346,4 @@ class-support [at] he.u-tokyo.ac.jp
 a) どのような質問ですか？　　　
 b) 依頼前・依頼後・マッチング後・採用後など状況を教えてください．　　　
 </code></pre></div></div>
-
 </details>

@@ -22,7 +22,7 @@ title: Zoom サインイン方法
   <ul>
     <li><strong>上のリンクにアクセスしても「UTokyo Zoom」と書かれたページが表示されない場合</strong>：前から持っていた自分のアカウントで既にZoomにサインインしているときに起きます．<a href="https://zoom.us/profile">Zoomの設定画面</a>の右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）をクリックして，「サインアウト」してから，アクセスし直してください．<img src="img/zoom_signin_3.png" alt="" class="medium"></li>
   </ul>
-  これらを確認して，それでもうまくいかなければ，<a href="/supports/">サポート窓口</a>に相談してください．
+  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
 </details>
 
 
@@ -31,14 +31,15 @@ title: Zoom サインイン方法
 
 1. Zoomアプリで「サインイン」ボタンを押すなどして，Zoomのサインイン画面を開いてください．
 ![](img/zoom_signin_4.png){:.medium}
-2. サインイン画面で，「SSO」または「SSOでサインイン」と書かれた文字を探して押してください（この画面のメールアドレス・パスワード欄にUTokyo Accountの情報を入力してもサインインできません）．
+2. サインイン画面で，「SSO」または「SSOでサインイン」と書かれた文字を探して押してください（使っている端末やアプリのバージョンによって異なります）．この画面のメールアドレス・パスワード欄にUTokyo Accountの情報を入力してもサインインできません．
 ![](img/zoom_signin_5.png){:.medium}
+![](img/zoom_signin_5_1.png){:.medium}
 3. 「会社のドメイン」欄に `u-tokyo-ac-jp` と入力してください（ `ac` の前後はピリオドではなくハイフンであることに注意してください）．
 ![](img/zoom_signin_6.png){:.medium}
 4. ブラウザに移動するので，UTokyo Accoutでサインインしてください（UTokyo Accountにサインイン済みの場合は，この画面を経ずにそのままサインインが完了します）．
 ![](img/zoom_signin_2.png){:.medium}
 
-この手順がうまくいかないときは<a href="/supports/">サポート窓口</a>に相談してください．
+この手順がうまくいかないときは<a href="/support/">サポート窓口</a>に相談してください．
 
 ## 手順動画
 {:#movie}

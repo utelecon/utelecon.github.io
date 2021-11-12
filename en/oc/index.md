@@ -79,7 +79,7 @@ This section is coming soon.
 
 ## Need help
 
-If you have any problems, difficulties, or concerns about online classes, please contact the **[support desk](/en/supports/)**. Common Supporters (student staff) and faculty members will assist you in solving your problems.
+If you have any problems, difficulties, or concerns about online classes, please contact the **[support desk](/en/support/)**. Common Supporters (student staff) and faculty members will assist you in solving your problems.
 
 For example, the following questions and consultations are welcome.
 
@@ -93,7 +93,7 @@ For example, the following questions and consultations are welcome.
 
 ## Required procedures to use the information system
 
-We will start by explaining  essential tasks that must be done in order to use the information systems, such as creating an account. Please make sure to spare sufficient time to complete them before classes start. If you have any problems with the procedure, please consult the **[support desk](/en/supports/)**.
+We will start by explaining  essential tasks that must be done in order to use the information systems, such as creating an account. Please make sure to spare sufficient time to complete them before classes start. If you have any problems with the procedure, please consult the **[support desk](/en/support/)**.
 
 <ul class="procedure">
 {% include procedures/en/utokyo_account.html part="important" %}
@@ -104,7 +104,7 @@ We will start by explaining  essential tasks that must be done in order to use t
 
 ## Other procedures to use the information systems
 
-Next, we will explain the procedures for checking and working with the various information systems in more detail, such as logging in to each system and accessing the pages dedicated to Todai accounts. Please make sure to complete the subsequent procedures before the start of classes so that you can take classes under perfect condition. If you have any problems during the procedure, please consult the **[support desk](/en/supports/)**.
+Next, we will explain the procedures for checking and working with the various information systems in more detail, such as logging in to each system and accessing the pages dedicated to Todai accounts. Please make sure to complete the subsequent procedures before the start of classes so that you can take classes under perfect condition. If you have any problems during the procedure, please consult the **[support desk](/en/support/)**.
 
 ### UTokyo Account
 {:#utokyo_account}
@@ -168,6 +168,6 @@ This is a web conferencing system used for some "simultaneous interactive" class
 
 ## More information
 
-Thank you for your time. If you have any trouble with any of the steps so far, please consult the **[support desk](/en/supports/)**.
+Thank you for your time. If you have any trouble with any of the steps so far, please consult the **[support desk](/en/support/)**.
 
 This concludes the preparation procedures for taking online classes. The site, "**Online Class / Web Conference Portal Site @ The University of Tokyo**", nicknamed "**utelecon**", introduces a lot of information on how to use the information systems mentioned in this page. If you have any questions about the information systems in your classes, or if you are a member of a club or a study group, you may have opportunities to use web conferencing and other information systems on your own. Please visit this site to find out more.
