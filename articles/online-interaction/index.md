@@ -10,7 +10,6 @@ title: オンライン会議ツールを使って交流する
 
 * 他の先生とディスカッションしながら話を進めたいが，どんなサービスを使えば円滑に進むか分からず，迷っている．
 * アイデアを共有しつつオンライン会議を進めたいが，どんなツールを使えばいいか迷っている．
-* 直感的なメモをオンライン上で使いたくて，いいサービスがないか探している．
 * ズームのブレイクアウトセッションの割り振りなどに手間取ってしまうので，もっと簡単かつ直感的に部屋分けができる様にしたい．
 
 以下では，オンラインミーティングや会議を進めるのに役立つ会議ツールについて，Discord，Wonder.me，Gather Town，そしてRemoの四つのツールを比較していきます．
@@ -115,9 +114,9 @@ title: オンライン会議ツールを使って交流する
 ### 参考資料
 
 * [Gather Media Kit](https://drive.google.com/drive/folders/1YRefTkMZmT5mq4ItVdbX8NT850JcnZLw)
-* Video for new users to learn how to use Gather[ - https://youtu.be/89at5EvCEvk](https://youtu.be/89at5EvCEvk)
-* Any images and gifs in our changelog are available for media as well[ - https://gathertown.canny.io/changelog](https://gathertown.canny.io/changelog) 
-* Our promotional Gather product hunt video (slightly outdated)[) - https://youtu.be/8orexZsFRxs](https://youtu.be/8orexZsFRxs)
+* 新規ユーザーのためのチュートリアル動画(英語)[ - https://youtu.be/89at5EvCEvk](https://youtu.be/89at5EvCEvk)
+* Gatherの製品更新情報[ - https://gathertown.canny.io/changelog](https://gathertown.canny.io/changelog) 
+* Gatherの製品プロモーション動画(一部古い情報有り)[) - https://youtu.be/8orexZsFRxs](https://youtu.be/8orexZsFRxs)
 
 
 ## Remo
@@ -141,7 +140,7 @@ title: オンライン会議ツールを使って交流する
 
 ### Remoでできること
 
-1. 卓内での会議：zoomなどの会議ツールに組み込まれている基本的なツールはほとんど備わっており，ビデオ通話，ボイスチャット，テキストチャット，会議のレコーディング，ホワイトボードツール，挙手機能など充実しています．
+1. 卓内での会議：Zoomなどの会議ツールに組み込まれている基本的なツールはほとんど備わっており，ビデオ通話，ボイスチャット，テキストチャット，会議のレコーディング，ホワイトボードツール，挙手機能など充実しています．
 2. イベントの作成：Remo上で行うイベントを事前に設定しておくことができ，招待URLを取得して共有することで他の人を招くことができます．
 3. プレゼンテーション：主催者がプレゼンテーションを行うことができ，画面共有，動画のシェア，ホワイトボード，タイマーなどのツールを用いて行うことができます．
 
