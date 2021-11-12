@@ -12,7 +12,5 @@ lang: en
   * If a one-time password is sent in chat on the video conferencing system, typing errors can be reduced because students can copy and paste. However, students cannot see what was written in the chat before they participate in the class; if a network failure causes a student to leave the video conferencing system, he or she will not be able to see the password written in the chat after re-entering the class.
 
 ## References
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1905.html">There is no "Submit Attendance" button on ITC-LMS (for students)</a>
-
-
+* <a href="https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2985.html">There is no "Submit Attendance" button on ITC-LMS (for students)</a>

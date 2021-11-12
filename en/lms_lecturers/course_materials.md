@@ -53,6 +53,6 @@ lang: en
     ![教材 登録内容確認](img/material4.png)
 
 ## References
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/16_1866.html">How to upload multiple files (for instructors/ students)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/18_1876.html">How to change the publication period for course materials on ITC-LMS (for instructors)</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/08/08_2280.html">How to upload multiple files (for instructors/ students)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/26_3017.html">How to change the publication period for course materials on ITC-LMS (for instructors)</a>
