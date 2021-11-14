@@ -75,7 +75,8 @@ footer {
   }
 
   @media (max-width: 32rem) {
-    margin: 0.75rem 0;
+    margin: 0.75rem;
+    left: 0;
 
     border: solid 1px #ccc;
     border-width: 1px 0 1px 1px;
@@ -93,7 +94,7 @@ footer {
     padding: 0.75rem 0.25rem 0;
   }
 
-  .wide-only {
+  .footer-link.wide-only {
     @media (max-width: 32rem) {
       display: none;
     }
@@ -107,6 +108,7 @@ footer {
     @media (max-width: 32rem) {
       padding: 0 0.5rem;
       display: flex;
+      justify-content: center;
       align-items: center;
       color: #000;
       
