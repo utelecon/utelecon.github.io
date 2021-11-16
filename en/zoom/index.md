@@ -3,21 +3,16 @@ title: Zoom
 lang: en
 ---
 
-
-
-<!--
-* The person <font color="green">hosting the meeting</font>(or co-hosting) <font color="green">must</font> <a href="create_account" target="">activate its Zoom account</a>.
-* Those<font color="purple">participating of a Zoom meeting as guests</font>(i.e., joining a meeting)<font color="purple">do not need</font> a Zoom account.
-* Now, there are many cases reporting <font color="red">an error message "user not exist" </font>when trying to activate an account. In this case, check the <a href="https://tinyurl.com/v5pvzb5">troubleshooting assistant </a>and answer the survey at the end. In case you still cannot solve the problem, please contact utelecon-inquiries@googlegroups.com.
-* Any other inquiries: utelecon-inquiries@googlegroups.com.
--->
-
 ## Introduction
 
-* You can use an unlimited time conference room with a maximum of 500 participants until April 30th, 2020 (extension under consideration) by University's Google mail (10 digits of common ID number @ g.ecc.u-tokyo.ac.jp, hereinafter referred to as ECCS cloud mail)
-* **The sign-in methods for zoom have changed. Please refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin.html)**
-* This section describes the features and usage flow of the Web conferencing tool in Zoom. In addition, there are sub-pages with specific instructions, so please refer to them as necessary.
-* This page basically describes the use of Zoom on a PC, but you can also use the Zoom application on tablets and smartphones..
+Zoom is the most frequently used web conference system for online classes at UTokyo. Zoom can be used by either accessing the Zoom website or by installing the Zoom application. However, please note that some functions are not available on the website version.
+
+### UTokyo Zoom Account and License
+
+* To sign in to Zoom with UTokyo Zoom accounts, please refer to the [“Sign-in Methods for Zoom”](zoom_signin) page. 
+* With your UTokyo Zoom account, you can hold meetings with a maximum capacity of 300 participants and a duration of 30 hours.
+  * Please note that the sign-in method has been changed from March 2021 (all users need to sign in using their UTokyo Account). For further details, please refer to the [“System Change for Spring 2021”](/en/change2021s) page.
+* To hold meetings for a capacity of more than 300 participants, a limited number of licenses for large Zoom meetings and Webinars are offered. To use the license, please submit an application. For further details, please access the [“Zoom License for Large Meetings/Webinars”](license) page. 
 
 ## How to use
 
