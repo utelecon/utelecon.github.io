@@ -31,6 +31,7 @@ title: Zoom アプリでの会議室の作り方
         </ul>
       </li>
     </ul>
+  </li>
   <li> スケジュールの情報を確認して，「Zoomミーティングに参加する」の下に記載されている<strong>会議室の URL を抜き出して</strong>，メールなどを用いて参加者に通知します．<br>
     <img src="img/zoom_schedule_info.png"> 
     <ul>
