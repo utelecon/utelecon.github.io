@@ -72,16 +72,6 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 - [イベントでできること（開催者限定）](do_events_host)
 - [Webexではないテレビ会議システムで参加する](join_events_vc)
 
-###  Webex Training
-
-基本的な流れはWebex Meetingsと同じです．
-
-- （開催者）[トレーニングを作成](create_training)
-- （開催者）[トレーニングを開始](open_training)
-- （参加者）[トレーニングへ参加](join_training)
-- [トレーニングで出来ること（開催者・参加者共通）](do_training)
-- [トレーニングでできること（開催者限定）](do_training_host)
-
 ## WebexでSlidoを利用する
 
 - Webexでは，開催中にSlidoを起動して直接操作することができます．操作はウェブで利用する時と同じです．Slidoについての一般的な説明・操作方法は[「Slido」](/slido/)をご覧下さい．
