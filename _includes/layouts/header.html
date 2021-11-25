@@ -22,7 +22,7 @@
     <div class="header__links">
       <div class="gcse-search"></div>
       <div>
-        <a href="/{% if lang == "en" %}en/{% endif %}">TOP</a> | <a href="/{% if lang == "en" %}en/{% endif %}about/">about</a> | {%
+        <a href="/{% if lang == "en" %}en/{% endif %}">TOP</a> {% unless lang == "en" %} | <a href="/about/">About</a> {% endunless %} | {%
           if lang == "en"
             %}<a href="{{ page.url | replace: '.html', '' | replace_first: 'en/', '' }}">日本語</a>{%
           else
