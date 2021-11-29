@@ -28,7 +28,7 @@ Zoomを用いて質問を募集するには，基本的に発声で質問して�
 チャットを用いる場合，受講者が授業中の好きなタイミングで質問でき，それが文字として残ります．  
 
 <figure>
-<figcaption>Zoomのチャットを用いた質疑応答の例の画像</figcaption>
+<figcaption>Zoomのチャットを用いた質疑応答の例</figcaption>
 <img src="pic01.png">
 </figure>
 
@@ -58,7 +58,7 @@ CommentScreenは投稿されたコメントを，ZoomなどのWeb会議システ
 質問を投稿してもらうことで，画面上に質問を流すことができるため，スライドなどを共有しながらでも質問を読み，答えることができます．
 
 <figure>
-<figcaption>CommentScreenの使用例の画像</figcaption>
+<figcaption>CommentScreenの使用例</figcaption>
 <img src="pic02.png">
 </figure>
 
@@ -91,7 +91,7 @@ SlidoはQ&A機能や投票機能を備え，授業や講演会などで参加者
 Slidoにはいくつかの機能がありますが，ここでは「Q&A」の機能を用いた質問募集の例に限って紹介します．
 
 <figure>
-<figcaption>Slidoで質問を受け付けた例の画像</figcaption>
+<figcaption>Slidoで質問を受け付けた例</figcaption>
 <img src="pic03.png">
 </figure>
 
@@ -137,7 +137,7 @@ Slackでは，まずグループの「ワークスペース」を作り，その
 そのため，まず授業の「ワークスペース」を作り，その中で質問を募集する「チャンネル」を作成することで，質疑応答を行うことができます．
 
 <figure>
-<figcaption>Slackを用いた質疑応答の例の画像</figcaption>
+<figcaption>Slackを用いた質疑応答の例</figcaption>
 <img src="pic04.png">
 </figure>
 
@@ -173,7 +173,7 @@ LINEオープンチャットでは，友達登録されていない人たちとU
 授業用のルームを作成し，リンクやQRコード等を用いて受講者を招待することで，ルーム内で質疑応答を行うことができます．
 
 <figure>
-<figcaption>LINEオープンチャットを用いた質疑応答の例の画像</figcaption>
+<figcaption>LINEオープンチャットを用いた質疑応答の例</figcaption>
 <img src="pic05.jpg">
 </figure>
 
