@@ -49,5 +49,5 @@ If you have not yet activated your <a href="https://www.ecc.u-tokyo.ac.jp/announ
 
 ## In case it still does not work
 * Please use the chat support at the bottom right
-* If that does not work , please use the email-specific [trouble support](/supports/) provided by Zoom.
+* If that does not work , please use the email-specific [trouble support](/en/support/) provided by Zoom.
  

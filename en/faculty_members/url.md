@@ -5,7 +5,7 @@ lang: en
 
 This page explains how instructors announce the online class URL (the URL of web conference rooms such as Zoom) to students. 
 
-Faculty members used to announce the online class URLs to their students differently, which had caused confusion. It was hence decided to unify the announcement method among all faculty members. The "[Guideline for Using Online Tools for AY2021S Semester Classes (Japanese only)](/notice/guideline)" was also established following the decision.
+Faculty members used to announce the online class URLs to their students differently, which had caused confusion. It was hence decided to unify the announcement method among all faculty members. The "[Guideline for Using Online Tools for AY2021S Semester Classes](/en/notice/guideline)" was also established following the decision.
 
 Below is the announcement method based on the aforementioned guideline. Your cooperation to adopt the specified method is kindly appreciated.
 
@@ -50,4 +50,4 @@ It is NOT recommended to change the online class URL for every class you hold or
 ## Related Pages
 
 - "[How to Obtain the Online Class URL (for Students)](/en/oc/url)": The student's page on online class URL announcement
-- "[授業におけるZoom会議室の入室制限 (Japanese Only)](/faculty_members/zoom_access_control)": A page explaining when and how to restrict meeting room access to UTokyo members only when scheduling a Zoom meeting.
+- "[Restricting Access to Zoom Meeting Rooms for Online Classes](zoom_access_control)": A page explaining when and how to restrict meeting room access to UTokyo members only when scheduling a Zoom meeting.
