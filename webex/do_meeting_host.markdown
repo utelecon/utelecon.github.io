@@ -26,13 +26,13 @@ title: Webex ミーティングでできること（開催者）
 	* 「設定」をクリックすると，参加者のブレイクアウトへの途中参加や途中退出（メインミーティングへの移動）を許可するか，セッションの制限時間，時間切れまでのカウントダウンタイマーの設定をすることができます．
 
 	![](img/webex_breakout_manage.png){:width="650px"}
-	![](img/webex_breakout_setting.png){:width="350px"}
-	![](img/webex_breakout_reset.png){:width="350px"}
+	![](img/webex_breakout_setting.png){:width="500px"}
+	![](img/webex_breakout_reset.png){:width="500px"}
 
 * ミーティングの作成時に「ブレイクアウトセッションの事前割当て」をクリックすると，招待した参加者を各ブレイクアウトセッションに割り当てることができます．CSVで割り当てを読み込むこともできます．
 
 	![](img/webex_breakout_preassign1.png){:width="500px"}
-	![](img/webex_breakout_preassign2.png){:width="350px"}
+	![](img/webex_breakout_preassign2.png){:width="500px"}
 	![](img/webex_breakout_preassign3.png){:width="750px"}
 
 * 「ブレイクアウトセッションを開始」を押すと開始します．

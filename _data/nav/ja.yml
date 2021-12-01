@@ -53,14 +53,14 @@
       name: "オンラインを活用するために"
       url: "/online/"
     -
-      name: "よりよいオンライン授業のために"
-      url: "/online/courses"
-    -
       name: "使えるツールから探す"
       url: "/online/tools"
     -
       name: "やりたいことから探す"
       url: "/online/topics"
+    -
+      name: "よりよい授業の実施方法を探す"
+      url: "/online/courses"
     -
       name: "東大の実践を知る"
       url: "/online/#utokyo"
