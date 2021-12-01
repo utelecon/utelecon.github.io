@@ -1,12 +1,20 @@
 {% include layouts/lang.html %}
-{% unless page.sinclo %}
-<a class="support-link" href="{% if lang == "en" %}/en{% endif %}/support/" target="_blank">{%
-  if lang == "en"
-    %}Need Help? Contact the Support Desk{%
-  else
-    %}困ったときはサポート窓口へ<small>（別ページが開きます）</small>{%
-  endif
-%}</a>
+
+{% unless page.slug == "support" %}
+<div class="footer-wrap">
+  <a class="footer-link wide-only" href="javascript: scroll({top: 0, behavior: 'smooth'});">
+    <div class="footer-icon"><span class="material-icon">arrow_upward</span></div>
+    <div class="footer-description">上に戻る</div>
+  </a>
+  <a class="footer-link wide-only" href="https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url&entry.1839091442={{ site.url }}{{ page.url }}" target="_blank">
+    <div class="footer-icon"><span class="material-icon">feedback</span></div>
+    <div class="footer-description">フィードバック</div>
+  </a>
+  <a class="footer-link" href="{% if lang == "en" %}/en{% endif %}/support/" target="_blank">
+    <div class="footer-icon"><span class="material-icon">contact_support</span></div>
+    <div class="footer-description">サポート窓口</div>
+  </a>
+</div>
 {% endunless %}
 
 <footer>
@@ -42,7 +50,7 @@
   </nav>
 </footer>
 
-{% if page.sinclo %}
+{% if page.slug == "support" %}
 <script type="text/javascript" src="https://ws1.sinclo.jp/client/5e8c740062643.js"></script>
 {% endif %}
 
