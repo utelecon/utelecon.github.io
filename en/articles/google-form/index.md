@@ -61,7 +61,7 @@ After clicking, you will see a screen like the one below.
 
 #### Setting up as a Quiz
 
-Click on the Settings (a blue circle in the picture below) and turn on the "Make this a quiz". If you turn on "Make this a quiz", you can use automatic scoring (see step 5). You can also set the method of grade disclosure and other options.
+Click on the Settings (a blue circle in the picture below) and turn on the "Make this a quiz". If you turn on "Make this a quiz", you can use automatic scoring (see [Apply automatic scoring](https://utelecon.adm.u-tokyo.ac.jp/en/articles/google-form/#apply-automatic-scoring)). You can also set the method of grade disclosure and other options.
 
 <figure>
 <img src="photo_04.png">
@@ -83,7 +83,7 @@ Click on the "︙" (a red circle in the lower right corner), and select "Shuffle
 <img src="photo_06.png">
 </figure>
 
-※Automatic grading is possible. For details, see "Applying automatic grading in (4)".
+※Automatic grading is possible. For details, see [Apply automatic scoring](https://utelecon.adm.u-tokyo.ac.jp/en/articles/google-form/#apply-automatic-scoring).
 
 ##### Create multiple answer questions with "Checkboxes"
 
@@ -93,7 +93,7 @@ To input questions and answers, follow the same procedure as creating single-cho
 
 Shuffling answer order is possible.
 
-※Automatic grading is available. For details, see "Applying automatic grading in (4)".
+※Automatic grading is available. For details, see [Apply automatic scoring](https://utelecon.adm.u-tokyo.ac.jp/en/articles/google-form/#apply-automatic-scoring).
 
 ##### Create short descriptive questions with "Short answer" 
 
@@ -149,7 +149,7 @@ If you want to add more questions, click on the right cross button icon (the lig
 <img src="photo_12.png">
 </figure>
 
-You can also shuffle the test questions themselves by clicking “Settings” (the red circle in the image below) and turning on  the "Shuffle question order" under “Presentation” (shuffling question order is effective in preventing cheating).
+You can also shuffle the test questions themselves by clicking “Settings” (the light blue rectangle in the image below) and turning on  the "Shuffle question order" under “Presentation” (shuffling question order is effective in preventing cheating).
 
 <figure>
 <img src="photo_13.png">
