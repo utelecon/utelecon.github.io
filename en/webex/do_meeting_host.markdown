@@ -75,7 +75,7 @@ lang: en
 
 ## What Webex Meetings cannot do 
 
-* It is not possible to conduct group work on WebEx because it does not have the function to divide participants into groups. If you want to do group activities, we recommend ，<a href="/zoom/ZOOM" target="_blank">ZOOM</a> or Webex Training.
+* It is not possible to conduct group work on WebEx because it does not have the function to divide participants into groups. If you want to do group activities, we recommend ，<a href="/en/zoom/" target="_blank">ZOOM</a> or Webex Training.
 
 
 
