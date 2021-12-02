@@ -73,7 +73,7 @@ The tool images included in this article are based on the use of OneNote for iOS
 
 ##### Pen, highlighter
 
-! [Pen, highlighter icon](pic02.PNG)
+![Pen, highlighter icon](pic02.PNG)
 
 These are the most basic tools used for handwriting. There are two types of pen and highlighter, and you can use them just like a real pen or highlighter. You can also change the colour and thickness of the pen and highlighter.  
 
@@ -81,19 +81,19 @@ You can change the colour and thickness of the pen.
 
 Using the pen and highlighter
 
-! [How to use the pen and highlighter](pic03.PNG)
+![How to use the pen and highlighter](pic03.PNG)
 
 You can change the thickness and colour of the pen and highlighter by touching the pen icon.  
 
 [How to change the colour and thickness 
 
-! [How to change the colour and thickness](pic04.PNG)  
-! [How to change the colour and thickness](pic05.PNG)
+![How to change the colour and thickness](pic04.PNG)  
+![How to change the colour and thickness](pic05.PNG)
 
 
 ##### Eraser
 
-! [Eraser Icon](pic06.PNG)
+![Eraser Icon](pic06.PNG)
 
 You can erase text and lines drawn with a pen or highlighter. You can use this tool just like a real eraser.  
 
@@ -103,11 +103,11 @@ The following shows how to change the size of the eraser.
 
 Changing the eraser size  
 
-! [Switch Eraser Size](pic07.PNG)
+![Switch Eraser Size](pic07.PNG)
 
 ##### Text mode
 
-! [Text mode icon](pic08.PNG)
+![Text mode icon](pic08.PNG)
 
 In text mode, you can select any place on the note and type text there using the keyboard. This function is similar to the text box in Word and PowerPoint, which are also Microsoft applications.  
 
@@ -117,15 +117,15 @@ The following shows a scene of text input and the editing screen.
 
 Text input
 
-! [How the text is input](pic09.PNG)
+![How the text is input](pic09.PNG)
 
 The edit screen of the text] !
 
-! [The edit screen of the text](pic10.PNG)
+![The edit screen of the text](pic10.PNG)
 
 ##### Lasso Selection
 
-! [Icon of Lasso Selection](pic11.PNG)
+![Icon of Lasso Selection](pic11.PNG)
 
 You can move, zoom in and out, and copy and paste all the text you have entered or drawn.  
 
@@ -135,12 +135,12 @@ The following is an example of using the Lasso Selection.
 
 How to use the Lasso Selection
 
-! [Using Lasso Selection](pic12.PNG)
-! [How to use the lasso selection](pic13.PNG) !
+![Using Lasso Selection](pic12.PNG)
+![How to use the lasso selection](pic13.PNG) !
 
 ##### Figure
 
-! [Shape, Ink to Shape icon](pic14.PNG)
+![Shape, Ink to Shape icon](pic14.PNG)
 
 You can draw straight lines, circles and other shapes nicely by using the Shape tool in the drawing.  
 
@@ -148,17 +148,17 @@ You can draw straight lines, arrows, circles and others as shown in the followin
 
 Drawing a shape using the shape tool.
 
-! [How to draw a shape using the shape tool](pic15.PNG)
+![How to draw a shape using the shape tool](pic15.PNG)
 
 If you draw a circle or a triangle with "Convert Ink to Shape" selected, it will be perfected in great shape.  
 
 (Handwritten shape before conversion)
 
-! [Handwriting before conversion](pic16.PNG)
+![Handwriting before conversion](pic16.PNG)
 
 Figure corrected by "Ink to Figure"] !
 
-! [Figure corrected by 'Ink to Figure'](pic17.PNG)
+![Figure corrected by 'Ink to Figure'](pic17.PNG)
 
 ### Changing the paper design
 
@@ -172,11 +172,11 @@ The following image shows how page design is changed.
 
 Change paper colour
 
-! [Change Paper Color](pic18.PNG)
+![Change Paper Color](pic18.PNG)
 
 Change paper style
 
-! [Change Paper Style](pic19.PNG)
+![Change Paper Style](pic19.PNG)
 
 
 
@@ -193,11 +193,11 @@ Please refer to the following image for how to set the page size using the deskt
 
 Select the "View" tab.
 
-! [Select View Tab](pic20.PNG)
+![Select View Tab](pic20.PNG)
 
 [After selecting the View tab, select "Paper Size"] !
 
-! [Select the View tab and then select 'Paper size'](pic21.PNG)
+![Select the View tab and then select 'Paper size'](pic21.PNG)
 
 ### Setting up notebook sections and pages
 
@@ -208,19 +208,19 @@ A page is the smallest unit. A section is a collection of pages, and a notebook 
 You can use it in any way you like. The following image provides an example.  
 
 Example of notebook, section and page classification
-! [Example of Notebook, Section and Page Classification](pic22.PNG)
+![Example of Notebook, Section and Page Classification](pic22.PNG)
 
 You can insert various images and files by selecting the desired position and choosing the "Insert" tab.  
 
 #### image
 
-! [Image, camera, online image icon](pic23.PNG)
+![Image, camera, online image icon](pic23.PNG)
 
 If you select "Image", you can insert an image saved on your device. You can also use "Online Images" to search images on the Internet and insert them. (Please be aware of copyright infringement.)
 
 #### files, PDF
 
-! [File, PDF icon](pic24.PNG)
+![File, PDF icon](pic24.PNG)
 
 From "File", you can insert not only images and movies but also documents.  
 
@@ -230,8 +230,8 @@ The following image shows how a file is inserted.
 
 Inserting a PDF file
 
-! [Inserting a PDF file](pic25.PNG)
-! [How to insert PDF](pic26.PNG)
+![Inserting a PDF file](pic25.PNG)
+![How to insert PDF](pic26.PNG)
 
 When you select the file you want to insert, it will be inserted like this.  
 
