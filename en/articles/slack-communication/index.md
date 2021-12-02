@@ -182,7 +182,8 @@ To make sure you get responded, it is a good idea to mention the teacher. You ca
 
 #### Chatting with other students (#chat)
 {:#chat}
-You can also create channels for casual chat among students `
+You can also create channels for casual chat among students.
+
 ### Tips: Creating operational rules
 
 When using workspace in a class, it is a good idea to share the operation rules with students in advance. In particular, please be careful about handling personal information such as email addresses ([Slack Help: Manage Email Display](https://slack.com/help/articles/228020667-Manage-email-display)).
