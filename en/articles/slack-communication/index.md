@@ -110,7 +110,7 @@ Here we introduce how to use Slack effectively in existing lectures "Introductio
 ### How to use the channel in the classroom (for teachers)
 {:#for_teachers}
 
-#### Class communication and casual surveys (#General communication).
+#### Class communication and casual surveys (#General communication)
 {:#announce}
 
 <figure>
@@ -161,7 +161,7 @@ If you have a question about the class, you can ask it in "channel" where other 
 {:#public_channel}
 You can share text and documents within groups. Through public channels, teachers and students of other groups can follow the progress of each group (even if they are not in that channel). It can also be made a private channel for teachers and group members only.
 
-#### To contact a student individually (direct message).
+#### To contact a student individually (direct message)
 {:#dm}
 If you need to contact a student individually, such as when an assignment has not been submitted, you can do so via DM.
 
@@ -169,7 +169,7 @@ If you need to contact a student individually, such as when an assignment has no
 {:#zoom}
 You can find out how to connect here ([Slack official site](https://slack.com/help/articles/115004062463-Zoom-for-Slack)). If you connect, you can start Zoom smoothly from Slack.
 
-### How to use the channel in class [students].
+### How to use the channel in class [students]
 {:#for_students}
 #### Ask a question to a teacher (#question)
 {:#question_students}
