@@ -85,7 +85,7 @@ Using the pen and highlighter
 
 You can change the thickness and colour of the pen and highlighter by touching the pen icon.  
 
-[How to change the colour and thickness 
+[How to change the colour and thickness]
 
 ![How to change the colour and thickness](pic04.PNG)  
 ![How to change the colour and thickness](pic05.PNG)
@@ -119,7 +119,7 @@ Text input
 
 ![How the text is input](pic09.PNG)
 
-The edit screen of the text] !
+[The edit screen of the text]
 
 ![The edit screen of the text](pic10.PNG)
 
@@ -136,7 +136,7 @@ The following is an example of using the Lasso Selection.
 How to use the Lasso Selection
 
 ![Using Lasso Selection](pic12.PNG)
-![How to use the lasso selection](pic13.PNG) !
+![How to use the lasso selection](pic13.PNG)
 
 ##### Figure
 
@@ -156,7 +156,7 @@ If you draw a circle or a triangle with "Convert Ink to Shape" selected, it will
 
 ![Handwriting before conversion](pic16.PNG)
 
-Figure corrected by "Ink to Figure"] !
+Figure corrected by "Ink to Figure"
 
 ![Figure corrected by 'Ink to Figure'](pic17.PNG)
 
@@ -195,7 +195,7 @@ Select the "View" tab.
 
 ![Select View Tab](pic20.PNG)
 
-[After selecting the View tab, select "Paper Size"] !
+[After selecting the View tab, select "Paper Size"]
 
 ![Select the View tab and then select 'Paper size'](pic21.PNG)
 
@@ -261,7 +261,7 @@ It is possible to create class materials in advance using OneNote. If you have a
 
 The easiest way to share your notes with students in real time is to share your OneNote screen in Zoom.
 
-Please refer to "[Screen Sharing](https://utelecon.admu-tokyo.ac.jp/zoom/how/common/sharing_screen)" of utelecon on how to screen share via Zoom.  
+Please refer to "[Screen Sharing](https://utelecon.adm.u-tokyo.ac.jp/zoom/how/common/sharing_screen)" of utelecon on how to screen share via Zoom.  
 
 The following image shows the Zoom screen sharing of OneNote.
 
