@@ -57,7 +57,7 @@ Install Microsoft365 from
 
 ## How to use - Basics
 
-## About the tools
+### About the tools
 The basic operation of OneNote can be found on the official website.
 * [Basic tasks in OneNote for Windows 10](https://support.microsoft.com/en-us/office/basic-tasks-in-onenote-for-windows-10-081573f8-2e8f-45e5-bf16-0900d4d3331f)
 * [Basic tasks in OneNote for Mac](https://support.microsoft.com/en-us/office/basic-tasks-in-onenote-for-mac-0206acf2-77da-42ab-a2e8-b69ae450f6a0)
@@ -237,7 +237,7 @@ When you select the file you want to insert, it will be inserted like this.
 
 ## How to use in class
 
-## Preparation
+### Preparation
 
 #### Board writing
 
