@@ -1,5 +1,6 @@
 ---
-title: Writing on OneNote  
+title: Writing on OneNote
+lang: en
 ---
 
 ## Highlights 
@@ -268,7 +269,7 @@ The following image shows the Zoom screen sharing of OneNote.
 【Zoom-based screen sharing】
 <figure>
 <img src="pic28.PNG">
-<figcaption> </figcaption>.
+<figcaption> </figcaption>
 </figure>
 
 If you are using OneNote with an iPad, you can also use "AirPlay (or other mirroring software)" for screen sharing, although it is not described in detail in this article.
@@ -279,7 +280,7 @@ Once you have prepared and shared your work, you can actually teach.
 
 You can write on the board freely using the tools we have introduced so far.  
 
-You might refer to the official video(https://support.microsoft.com/en-us/office/video-draw-and-sketch-in-onenote-e5d9e43e-96a0-442a-85e9-298e029aa76c?wt.mc_id=otc_onenote).  
+You might refer to the [official video](https://support.microsoft.com/en-us/office/video-draw-and-sketch-in-onenote-e5d9e43e-96a0-442a-85e9-298e029aa76c?wt.mc_id=otc_onenote).  
 
 ### Distributing materials
 
@@ -296,16 +297,16 @@ One advantage of this method is that once the link is shared, the students will 
 See the image below for instructions on how to share a link.  
 
 【How to send a link】
-<figure>.
+<figure>
 <img src="pic29.PNG">
-<figcaption> </figcaption>.
+<figcaption> </figcaption>
 </figure>
 
 【Publication scope and editing permissions】
 <figure>
 <img src="pic30.PNG">
 <figcaption> </figcaption>
-</figure>.
+</figure>
 
 #### Distributing as PDF
 
@@ -316,15 +317,15 @@ The advantage of distributing them as PDFs is that they are easier to manage and
 You can share or save a PDF by clicking on "Send a copy of the page" in the image below.  
 
 【Distribute as PDF】
-<figure>.
+<figure>
 <img src="pic31.PNG">
-<figcaption> </figcaption>.
+<figcaption> </figcaption>
 </figure>
 
 ## Examples of good practices and application
 
 * [Professor Kaoru Irie: Mathematical Statistics I, II, Japanese Only](/good-practice/interview/irie)
-  *   * OneNote is used as a digital whiteboard and shared via Zoom.  
+  * OneNote is used as a digital whiteboard and shared via Zoom.  
     * Microsoft Surface and SurfacePen are used to write on the board.
     * To cover the inconvenience of pointing to specific pieces of information, the marker function is utilized.
     * Vertical orientation is adopted in consideration of the little amount of text displayed in one  time and fast scrolling with horizontal orientation.
