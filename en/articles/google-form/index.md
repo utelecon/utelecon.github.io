@@ -254,7 +254,7 @@ Below are steps to create a matrix questionnaire.
 ## Tips on Actual Implementation
 {:#implementation_tips}
 
-Professor Hisashi Otsuki - Adaptive Behavior Theory (/good-practice/interview/ohtsuki) ([Online Class Information Exchange #26 (only in Japanese)](/events/luncheon/2021-01-15/))
+[Professor Hisashi Ohtsuki - Adaptive Behavior Theory (only in Japanese)](/good-practice/interview/ohtsuki)  ([Online Class Information Exchange #26 (only in Japanese)](/events/luncheon/2021-01-15/))
 
 There were more than 600 students in Professor Ohtsuki's class and he conducted Google Forms quizzes twice per class. Here are his tips.
 
