@@ -31,7 +31,7 @@ Google Forms is a tool provided by Google that allows you to easily create quest
 
 If you are logged in to your Google account (ECCS Cloud Email account), you can use the application from your browser (the following explanation assumes that you are logged in to your ECCS Cloud Email account).
 
-※For information on how to use your ECCS Cloud  Email account, see "[ECCS Cloud Email](https://utelecon.adm.u-tokyo.ac.jp/en/eccs_cloud_email)" in the "Initial Setup Procedures" section.
+※For information on how to use your ECCS Cloud  Email account, see "[ECCS Cloud Email](/en/eccs_cloud_email)" in the "Initial Setup Procedures" section.
 
 On the Google page, click the square with six dots next to your Google account icon in the upper right corner, and then "Forms" to start.
 
@@ -61,7 +61,7 @@ After clicking, you will see a screen like the one below.
 
 #### Setting up as a Quiz
 
-Click on the Settings (a blue circle in the picture below) and turn on the "Make this a quiz". If you turn on "Make this a quiz", you can use automatic scoring (see [Apply automatic scoring](https://utelecon.adm.u-tokyo.ac.jp/en/articles/google-form/#apply-automatic-scoring)). You can also set the method of grade disclosure and other options.
+Click on the Settings (a blue circle in the picture below) and turn on the "Make this a quiz". If you turn on "Make this a quiz", you can use automatic scoring (see [Apply automatic scoring](#apply-automatic-scoring)). You can also set the method of grade disclosure and other options.
 
 <figure>
 <img src="photo_04.png">
@@ -83,7 +83,7 @@ Click on the "︙" (a red circle in the lower right corner), and select "Shuffle
 <img src="photo_06.png">
 </figure>
 
-※Automatic grading is possible. For details, see [Apply automatic scoring](https://utelecon.adm.u-tokyo.ac.jp/en/articles/google-form/#apply-automatic-scoring).
+※Automatic grading is possible. For details, see [Apply automatic scoring](#apply-automatic-scoring).
 
 ##### Create multiple answer questions with "Checkboxes"
 
@@ -93,7 +93,7 @@ To input questions and answers, follow the same procedure as creating single-cho
 
 Shuffling answer order is possible.
 
-※Automatic grading is available. For details, see [Apply automatic scoring](https://utelecon.adm.u-tokyo.ac.jp/en/articles/google-form/#apply-automatic-scoring).
+※Automatic grading is available. For details, see [Apply automatic scoring](#apply-automatic-scoring).
 
 ##### Create short descriptive questions with "Short answer" 
 
@@ -109,11 +109,12 @@ Enter a question in the green frame below.
 
 Select "Paragraph" from the arrow icon on the right (the red circle in the image above).
 
-To prevent answers from being deleted mistakenly while inputting, it is recommended to write answers in a separate file on students’ computers before copying and pasting to Google Forms. (For details, see [good-practice (Prof. Yotsumoto)(only in Japanese)](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/yotsumoto)).
+To prevent answers from being deleted mistakenly while inputting, it is recommended to write answers in a separate file on students’ computers before copying and pasting to Google Forms. (For details, see [good-practice (Prof. Yotsumoto)(only in Japanese)](/good-practice/interview/yotsumoto)).
 
 Note that the automatic grading function (explanation in next section) cannot be used for paragraph questions.
 
 ##### Apply automatic scoring
+{:#apply-automatic-scoring}
 
 In Google Forms, you can enter model answers in advance for automatic scoring. Despite that such function is inapplicable to paragraph questions (e.g. long descriptive questions), it is useful for multiple choice and short answer questions (e.g. calculated formula questions).
 
@@ -191,7 +192,7 @@ Click on the eye symbol icon on the right (the red circle below) to preview  you
 
 Click "Send" on the right, and then the link symbol (the blue circle in below) to retrieve the link. You can copy and paste it into the chat box of ITC-LMS or Zoom.
 
-In a large class, it is suggested to duplicate the form for access divide to avoid link breakdown due to heavy internet traffic. For more details, see [Yuko Yotsumoto's good practice (only in Japanese)](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/yotsumoto).
+In a large class, it is suggested to duplicate the form for access divide to avoid link breakdown due to heavy internet traffic. For more details, see [Yuko Yotsumoto's good practice (only in Japanese)](/good-practice/interview/yotsumoto).
 
 <figure>
 <img src="photo_17.png">
@@ -245,13 +246,13 @@ Below are steps to create a matrix questionnaire.
 * Google Forms facilitate class interaction by enabling real time collection and sharing of responses among students.
 * It can serve as a means for reaction papers to collect students’ feedback on class.
 * It can serve as a means for attendance taking by requesting submission in class.
-* It can serve as a means for peer assessment of student presentations and group work (Source: [Online Class Information Exchange Meeting #6 (only in Japanese)](https://utelecon.adm.u-tokyo.ac.jp/events/luncheon/2020-05-20/)).
+* It can serve as a means for peer assessment of student presentations and group work (Source: [Online Class Information Exchange Meeting #6 (only in Japanese)](/events/luncheon/2020-05-20/)).
 
     Check out how to use rubrics for peer assessment here. → [Todai FD (only in Japanese)](https://www.utokyofd.com/en/?mov=kn-40)
 
 ## Tips on Actual Implementation
 
-Professor Hisashi Otsuki - Adaptive Behavior Theory (https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/ohtsuki) ([Online Class Information Exchange #26 (only in Japanese)](https://utelecon.adm.u-tokyo.ac.jp/events/luncheon/2021-01-15/))
+Professor Hisashi Otsuki - Adaptive Behavior Theory (/good-practice/interview/ohtsuki) ([Online Class Information Exchange #26 (only in Japanese)](/events/luncheon/2021-01-15/))
 
 There were more than 600 students in Professor Ohtsuki's class and he conducted Google Forms quizzes twice per class. Here are his tips.
 
