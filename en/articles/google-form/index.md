@@ -164,8 +164,8 @@ If you do not want to do this, you can skip this section.
 
 ##### Restrict respondents to UTokyo members only (ECCS Cloud Email account holders)
 
-1. Click on “Settings” (the red circle in the image below) and open “Responses”. 
-2.Make sure that the "Restrict to users in 東京大学ECCSクラウドメール and its trusted organisations" is turned on. If you turn on "Collect email addresses", the ECCS email address of respondents will be automatically recorded.
+1. Click on “Settings” (the red circle in the image below) and open “Responses”.
+2. Make sure that the "Restrict to users in 東京大学ECCSクラウドメール and its trusted organisations" is turned on. If you turn on "Collect email addresses", the ECCS email address of respondents will be automatically recorded.
 
 <figure>
 <img src="photo_14.png">
