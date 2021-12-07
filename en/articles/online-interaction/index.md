@@ -17,7 +17,7 @@ In the following, we will compare four meeting tools to help you organize online
 
 ## Discord
 
-<figure
+<figure>
 <img src="images/pic01.png" width="200px">
 </figure>
 
@@ -25,12 +25,8 @@ In the following, we will compare four meeting tools to help you organize online
 
 Discord is a tool for online voice chat (conversation through voice). It can be used not only for individual chatting, but also for multiple people talking as well as exchanging text, images and videos. It is often used as a chat application during gameplay, but it is also a very useful tool for general calls.
 
-<figure
-<img src="pic02.png">
-</figure>
-
 <figure> <img src="images/pic02.png"> </figure>
-<img src="images/pic03.png"> <figure> <img src="pic03.png">
+ <figure> <img src="images/pic03.png">
 </figure>
 
 ### Basic usage of Discord
@@ -62,7 +58,7 @@ Discord is a tool for online voice chat (conversation through voice). It can be 
 
 Wonder.me is a relatively new conference tool that allows you to intuitively move between rooms (breakout rooms in Zoom) by moving your icon on the screen. You can also create rooms with hundreds of people, and within those rooms, individuals can talk to everyone. The main advantage is that you can intuitively change who you are talking to by moving your icon on the screen.
 
-<figure> <img src="pic
+<figure> 
 <img src="images/pic05.png">
 </figure>
 
@@ -87,7 +83,7 @@ Wonder.me is a relatively new conference tool that allows you to intuitively mov
 
 ## Gather Town
 
-<figure
+<figure>
 <img src="images/pic06.png" width="200px">
 </figure>
 
@@ -95,7 +91,7 @@ Wonder.me is a relatively new conference tool that allows you to intuitively mov
 
 Gather Town is an online communication tool with a retro-game style playful UI, where you can control your avatar to move freely between rooms and virtually experience going to work or working in an office. It is a part of the Virtual Office service, which creates a real office environment on the Internet.
 
-<figure
+<figure>
 <img src="images/pic07.png">
 </figure>
 
@@ -121,7 +117,7 @@ You can move your avatar around the space you have created, work in your own pri
 
 
 ## Remo
-<figure
+<figure>
 <img src="images/pic08.png" width="200px">
 </figure>
 
@@ -129,7 +125,7 @@ You can move your avatar around the space you have created, work in your own pri
 
 Remo is an online communication tool that allows you to enter a virtual room with many tables surrounded by six chairs, and to conduct a meeting by talking at each table or by the organizer talking to everyone.
 
-<figure
+<figure>
 <img src="images/pic09.png">
 </figure>
 
