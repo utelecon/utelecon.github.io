@@ -1,7 +1,7 @@
 ---
 title: Technical Support Desk
 lang: en
-sinclo: true
+slug: support
 ---
 
 <div class="important-box">To expand our support services , we have introduced a new support desk which is co-operated by student staff ("common supporters") and faculty members.</div>

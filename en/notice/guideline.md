@@ -1,5 +1,6 @@
 ---
 title: The tools usage guideline for online class since S semester 2021
+lang: en
 --- 
 This is english translation of Japanese document.
 
