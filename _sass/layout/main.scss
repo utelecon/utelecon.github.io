@@ -1,13 +1,38 @@
 main {
+
   word-wrap: break-word;
   text-align: justify;
   @media (max-width: 40rem) {
     text-align: left;
   }
-
-  color: $text-color;
-  @import "components/link";
   font-size: 1.125rem;
+  color: $text-color;
+
+  @import "components/box";
+  @import "components/headings";
+  @import "components/img";
+  @import "components/link";
+
+  summary {
+    cursor: pointer;
+    color: $link-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  code em {
+    font-style: normal;
+    font-weight: bold;
+    background-color: yellow;
+  }
+
+  @media (max-width: 40rem) {
+    ul, ol {
+      padding-left: 20px;
+    }
+  }
+
 
   padding: 2rem 4rem;
 
@@ -29,6 +54,7 @@ main {
     margin-top: 0;
   }
 
+
   .title {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
@@ -44,86 +70,6 @@ main {
     text-align: right;
   }
 
-  @import "components/headings";
-
-  @media (max-width: 40rem) {
-    ul, ol {
-      padding-left: 20px;
-    }
-  }
-
-  summary {
-    cursor: pointer;
-    color: $link-color;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  img {
-    display: block;
-    max-height: 40rem;
-  }
-
-  img.large {
-    width: 100%;
-  }
-
-  img.medium {
-    width: 40rem;
-  }
-
-  img.small {
-    width: 30rem;
-    max-height: 30rem;
-  }
-
-  img.inline {
-    display: inline;
-  }
-
-  img.logo {
-    display: inline;
-    max-height: 2em;
-  }
-
-  figure {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  figcaption {
-    font-size: 0.75em;
-  }
-
-  code em {
-    font-style: normal;
-    font-weight: bold;
-    background-color: yellow;
-  }
-
-  @mixin box {
-    display: block;
-    border: 2px solid currentcolor;
-    margin-bottom: 1em;
-    padding: 0.5em;
-    font-weight: bold;
-  }
-
-  .box {
-    @include box;
-  }
-
-  .important-box {
-    @include box;
-    font-size: larger;
-  }
-
-  .very-important-box {
-    @include box;
-    font-size: larger;
-    color: red;
-  }
 }
 
 .main__toc {

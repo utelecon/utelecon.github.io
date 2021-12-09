@@ -1,0 +1,22 @@
+@mixin box {
+  display: block;
+  border: 2px solid currentcolor;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.box {
+  @include box;
+}
+
+.important-box {
+  @include box;
+  font-size: larger;
+}
+
+.very-important-box {
+  @include box;
+  font-size: larger;
+  color: red;
+}
