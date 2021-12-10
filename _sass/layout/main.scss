@@ -1,9 +1,14 @@
 main {
 
   word-wrap: break-word;
-  text-align: justify;
-  @media (max-width: 640px) {
-    text-align: left;
+  :lang(ja) {
+    text-align: justify;
+    @media (max-width: 640px) {
+      text-align: left;
+    }
+  }
+  :lang(en) {
+    hyphens: auto;
   }
   font-size: 1.125rem;
   color: $text-color;
@@ -22,6 +27,12 @@ main {
     color: $link-color;
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  code, pre {
+    &, &:lang(en) {
+      hyphens: none;
     }
   }
 
