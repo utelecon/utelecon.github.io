@@ -20,7 +20,7 @@ UTokyo Accountにおける多要素認証に関する情報はこのページで
 
 多要素認証の開始日以降に，利用者が各自で設定することにより，UTokyo Accountで多要素認証が利用できるようになります．
 
-多要素認証を設定すると，それ以降UTokyo Accountにサインインする際，毎回，設定したSMSや専用のアプリなどで本人確認することが求められるようになります．
+多要素認証を設定すると，それ以降**UTokyo Accountにサインインする際，毎回，設定したSMSや専用のアプリなどで本人確認することが求められる**ようになります．
 
 セキュリティの観点からは多要素認証を設定することを推奨しますが，現時点においては多要素認証の設定は必須ではなく，多要素認証を設定しなくてもこれまで通りUTokyo Accountを利用することができます．ただし，新たに導入される教職員向けUTokyo VPNの利用には多要素認証の設定が必須となるので，UTokyo VPNを利用したい教職員は多要素認証を設定する必要があります（UTokyo VPNについての詳細は，[UTokyo Portalのページ（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_VPN.aspx)を参照してください）．
 
@@ -30,6 +30,8 @@ UTokyo Accountにおける多要素認証に関する情報はこのページで
 <div class="box" style="color: red;">2021-10-18 以下の手順について，順序を入れ替えるなど，大幅な変更を行いました．</div>
 
 多要素認証の初期設定手順を，手順1から手順4までに分けて説明します．手順1から順に，手順4までのすべての作業を行ってください．
+
+なお，手順1から手順3は準備の作業で，最後の手順4がお使いのUTokyo Accountのアカウント全体で多要素認証の利用を開始するための作業です（手順4の作業を行うまでは，これまで通りパスワードのみでUTokyo Accountにサインインできます）．
 
 ### 手順1：1個目の本人確認方法を設定する
 {:#initial-first.mfa-initial-step-heading}
@@ -61,7 +63,7 @@ UTokyo Accountにおける多要素認証に関する情報はこのページで
 <li><strong>スマホ以外（パソコンなど）でこの作業をしている場合</strong>
 <ol>
 <li>画面の指示に従ってQRコードを表示してください．<img src="first_ms_auth_qr.png"></li>
-<li>スマホでMicrosoft Authenticatorアプリを開き，画面右上の「+」をタップしてから，「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．<img src="ms_auth_screen.png"></li>
+<li>スマホでMicrosoft Authenticatorアプリを開き，画面右上の「+」を押してから，「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．<img src="ms_auth_screen.png"></li>
 <li>QRコードを読み取ってください．</li>
 <li>アプリ上に自分のUTokyo Accountが表示されればOKです．<img src="ms_auth_list.png"></li>
 </ol>
@@ -214,7 +216,10 @@ UTokyo Accountにおける多要素認証に関する情報はこのページで
 4. 表示される多要素認証に関する説明をよく読んでから，下の方にある「多要素認証を利用する」を「はい」にして，「保存」を押してください．<img src="user_menu_2.png">
 {:.mfa-initial-procedure}
 
-<div class="box">以上で多要素認証の初期設定は完了です．</div>
+<div class="box">
+以上で多要素認証の初期設定は完了です．<br><br>
+なお，教職員向けUTokyo VPNを利用したい場合は，<a href="https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_VPN_Manual.aspx">UTokyo VPNのマニュアル（教職員専用）</a>に記載されている作業も必要です．多要素認証の設定がシステムに反映されるまで約40分かかるのでそれまで待ってから，引き続き作業を行うようお願いします．
+</div>
 
 ## 多要素認証の設定変更手順
 {:#change}
