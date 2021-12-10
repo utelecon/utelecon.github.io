@@ -13,6 +13,10 @@ main {
   @import "components/img";
   @import "components/link";
 
+  .alert {
+    color: $red;
+  }
+
   summary {
     cursor: pointer;
     color: $link-color;

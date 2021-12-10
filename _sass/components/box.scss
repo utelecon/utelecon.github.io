@@ -1,22 +1,30 @@
 @mixin box {
   display: block;
-  border: 2px solid currentcolor;
+  border: 1px solid currentcolor;
   margin-bottom: 1em;
   padding: 0.5em;
+}
+
+@mixin box--bold {
+  @include box;
+  border-width: 2px;
   font-weight: bold;
 }
 
 .box {
   @include box;
+
+  &--important {
+    @include box--bold;
+    font-size: larger;
+  }
+
+  &--alert {
+    @include box--bold;
+    color: $red;
+  }
 }
 
-.important-box {
-  @include box;
-  font-size: larger;
-}
-
-.very-important-box {
-  @include box;
-  font-size: larger;
-  color: $red;
+strong.box, b.box {
+  @include box--bold;
 }
