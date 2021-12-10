@@ -18,5 +18,5 @@
 .very-important-box {
   @include box;
   font-size: larger;
-  color: red;
+  color: $red;
 }
