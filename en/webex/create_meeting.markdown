@@ -1,6 +1,5 @@
 ---
 title: How to set the meeting room
-lang: en
 ---
 
 ## How to create an Webex Meeting room 

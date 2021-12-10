@@ -1,6 +1,5 @@
 ---
 title: Timetable
-lang: en
 ---
 
 When you log in, the following time table will be displayed.

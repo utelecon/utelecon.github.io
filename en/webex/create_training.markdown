@@ -1,6 +1,5 @@
 ---
 title: How to create Webex training
-lang: en
 ---
 
 ## How to Create Webex Training

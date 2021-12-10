@@ -1,6 +1,5 @@
 ---
 title: Restricting Access to Zoom Meeting Rooms for Online Classes
-lang: en
 ---
 
 This page introduces methods to prevent unintended participants (so-called "trolls" or Zoom Bombing) from joining Zoom meeting rooms used for online classes.

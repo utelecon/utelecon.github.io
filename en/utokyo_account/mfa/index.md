@@ -1,6 +1,5 @@
 ---
 title: Using Multi-Factor Authentication for UTokyo Accounts
-lang: en
 css: [mfa]
 ---
 

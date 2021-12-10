@@ -1,6 +1,5 @@
 ---
 title: How to start Webex Meetings （TV conference systems）
-lang: en
 ---
 
 ## How to Start the Meeting of TV Conference systems

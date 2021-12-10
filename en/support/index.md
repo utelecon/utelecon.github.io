@@ -1,6 +1,5 @@
 ---
 title: Technical Support Desk
-lang: en
 slug: support
 ---
 

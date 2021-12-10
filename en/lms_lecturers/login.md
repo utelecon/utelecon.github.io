@@ -1,6 +1,5 @@
 ---
 title: How to log in ITC-LMS
-lang: en
 ---
 
 Here we are going to introduce you how to log into ICT-LMS.  The login method is the same for teachers and students.
