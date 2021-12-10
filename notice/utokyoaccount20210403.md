@@ -27,6 +27,6 @@ title: UTokyo Account認証サービスの利用不能時間について
 
 UTokyo Account 認証を利用しているサービスにおいては利用者への周知をお願いします。
 
-<div class="important-box">
+<div class="box--important">
 影響を受けるサービスの一覧は，<a href="/notice/20210403-utnet">別のお知らせページ</a>をご覧ください．
 </div>

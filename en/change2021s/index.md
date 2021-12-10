@@ -3,7 +3,7 @@ title: System Change for Spring 2021
 lang: en
 ---
 
-<div class="important-box">UTokyo Account login service will begin on March 15 for Zoom and March 13 for Webex. Previous login methods will no longer be available.</div>
+<div class="box--important">UTokyo Account login service will begin on March 15 for Zoom and March 13 for Webex. Previous login methods will no longer be available.</div>
 
 To facilitate online teaching and simplify technical operation, it is attempted to unify existing  login methods for UTokyo ICT systems into UTokyo Account (10-digit number) along with other necessary changes.
 This webpage provides information about the system changes. Updates are available anytime. Please check it out whenever necessary.
