@@ -2,7 +2,7 @@ main {
 
   word-wrap: break-word;
   text-align: justify;
-  @media (max-width: 40rem) {
+  @media (max-width: 640px) {
     text-align: left;
   }
   font-size: 1.125rem;
@@ -31,7 +31,7 @@ main {
     background-color: yellow;
   }
 
-  @media (max-width: 40rem) {
+  @media (max-width: 640px) {
     ul, ol {
       padding-left: 20px;
     }
@@ -40,17 +40,17 @@ main {
 
   padding: 2rem 4rem;
 
-  @media (min-width: 64rem) {
+  @media (min-width: 1024px) {
     max-width: 64rem;
     margin: 0 auto;
   }
-  @media (max-width: 48rem) {
+  @media (max-width: 768px) {
     padding: 2rem 2rem;
   }
-  @media (max-width: 40rem) {
+  @media (max-width: 640px) {
     font-size: 1rem;
   }
-  @media (max-width: 32rem) {
+  @media (max-width: 512px) {
     padding: 2rem 1rem;
   }
 
