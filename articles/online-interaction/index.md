@@ -146,6 +146,7 @@ title: オンライン会議ツールを使って交流する
 
 ### 参考資料
 
+* 【公式サイト】Remo：[https://remo.co/](https://remo.co/)
 * 【資料】Remo ご案内：[https://hi.remo.co/deck-jp](https://hi.remo.co/deck-jp)
 * 【ガイド】主催者用：[https://hi.remo.co/host-guide-jp](https://hi.remo.co/host-guide-jp)
 * 【ガイド】参加者用：[https://hi.remo.co/guest-guide-jp](https://hi.remo.co/guest-guide-jp)
@@ -154,13 +155,12 @@ title: オンライン会議ツールを使って交流する
 * 【動画】イベントへ参加しよう：[https://youtu.be/gKQAjahCJow](https://youtu.be/gKQAjahCJow)
 * 【動画】イベントを作ろう：[https://youtu.be/NP6DJodI53s](https://youtu.be/NP6DJodI53s)
 * 【動画】バナーの作り方：[https://youtu.be/O_VDogj5ZnU](https://youtu.be/O_VDogj5ZnU)
-* 【動画】トラブルシューティング：[https://www.youtube.com/watch?v=r5WVj07y4mU](https://www.youtube.com/watch?v=r5WVj07y4mU)」
+* 【動画】トラブルシューティング：[https://www.youtube.com/watch?v=r5WVj07y4mU](https://www.youtube.com/watch?v=r5WVj07y4mU)
 
 
 ## 4つのツールの比較
 
 ここまで紹介してきた4つのツールの特徴を，以下の表にまとめました．
-
 
 <table>
   <tr>
