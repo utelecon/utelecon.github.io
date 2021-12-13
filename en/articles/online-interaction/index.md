@@ -158,103 +158,62 @@ Remo is an online communication tool that allows you to enter a virtual room wit
 
 The features of the four tools introduced so far are summarized in the table below.
 
-
-<table> <tr
-  <tr> <td>
-   <td>
-   </td>
-   <td>Discord
-   </td>
-   <td>Wonder.me
-   </td>
-   <td>Gather.town
-   </td>
-   <td>Remo
-   </td>
-  </tr>
-  <tr>.
-   <td>Prices
-   </td>
-   <td>Free
-   </td>
-   <td>Free
-   </td>
-   <td>Free
-   </td>
-   <td>Monthly (100$/month for the cheapest plan, free trial available)
-   </td>
+<table> 
+  <tr>
+   <td></td>
+   <td>Discord</td>
+   <td>Wonder.me</td>
+   <td>Gather.town</td>
+   <td>Remo</td>
   </tr>
   <tr>
-   <td>Access
-   </td>
-   <td>Downloading Application
-   </td>
-   <td>On web browser
-   </td>
-   <td>On web browser
-   </td>
-   <td>On web browser
-   </td>
+   <td>Prices</td>
+   <td>Free</td>
+   <td>Free</td>
+   <td>Free</td>
+   <td>Monthly (100$/month for the cheapest plan, free trial available)</td>
   </tr>
   <tr>
-   <td>Voice and video calls
-   </td>
-   <td>◯
-   </td>
-   <td>◯
-   </td>
-   <td>◯
-   </td>
-   <td>◯
-   </td>
+   <td>Access</td>
+   <td>Downloading Application</td>
+   <td>On web browser</td>
+   <td>On web browser</td>
+   <td>On web browser</td>
   </tr>
   <tr>
-   <td>Screen sharing
-   </td>
-   <td>◯
-   </td>
-   <td>◯
-   </td>
-   <td>◯
-   </td>
-   <td>◯
-   </td>
+   <td>Voice and video calls</td>
+   <td>◯</td>
+   <td>◯</td>
+   <td>◯</td>
+   <td>◯</td>
   </tr>
   <tr>
-   <td>Whiteboard
-   </td>
-   <td>×
-   </td>
-   <td>×
-   </td>
-   <td>◯
-   </td>
-   <td>◯
-   </td>
+   <td>Screen sharing</td>
+   <td>◯</td>
+   <td>◯</td>
+   <td>◯</td>
+   <td>◯</td>
   </tr>
   <tr>
-   <td>General notification
-   </td>
-   <td>Text channels
-   </td>
-   <td>Broadcast function
-   </td>
-   <td>×
-   </td>
-   <td>Presentation function
-   </td>
+   <td>Whiteboard</td>
+   <td>×</td>
+   <td>×</td>
+   <td>◯</td>
+   <td>◯</td>
   </tr>
   <tr>
-   <td>Recommended practice 
-   </td>
-   <td> When audio-only meeting is appropriate, or when you want to have a meeting while viewing documents separately.
-   </td>
-   <td>For meetings with a large number of people or when changing room assignments frequently
-   </td>
-   <td>When you want to feel that you are working with your colleagues in a playful UI
-   </td>
-   <td>For workshops and other activities with groups of about four people
-   </td>
+   <td>General notification</td>
+   <td>Text channels</td>
+   <td>Broadcast function</td>
+   <td>×</td>
+   <td>Presentation function</td>
+  </tr>
+  <tr>
+   <td>Recommended practice </td>
+   <td> When audio-only meeting is appropriate, or when you want to have a meeting while viewing documents separately.</td>
+   <td>For meetings with a large number of people or when changing room assignments frequently</td>
+   <td>When you want to feel that you are working with your colleagues in a playful UI</td>
+   <td>For workshops and other activities with groups of about four people</td>
   </tr>
 </table>
 
