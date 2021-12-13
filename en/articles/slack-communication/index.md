@@ -73,7 +73,7 @@ Below, we will show you how to use the app version.
 2. You will see the following screen in your browser. Press "Continue with Google" and sign in with your ECCS Cloud Email account (or your personal email address). <img src="Pic2.png"> 
 3. Press "Create another workspace" at the bottom of the page. <img src="Pic3.png"> 
 4. Set up the workspace (e.g. class name). The "company or team name" will be the name of the workspace. If you use the workspace for a class, the workspace name should be easily recognizable. In this demonstration, the workspace is named "Seminar". <img src="Pic4.png"> 
-5. "What the team is working on now" is the name of the "channel" in the workspace. If you use it in class, it is useful to set up a channel such as "Basic Information" (see this article ["How to use channels in class"](we'll do that later). Here we will create a "Ask me about my assignment" channel. <img src="Pic5.png">
+5. "What the team is working on now" is the name of the "channel" in the workspace. If you use it in class, it is useful to set up a channel such as "Basic Information" (see this article ["How to use channels in class"](#for_teachers). Here we will create a "Ask me about my assignment" channel. <img src="Pic5.png">
 6. Next, you will see a screen that asks you who are the users of the channel you have just created, "Who do you email most about?” This is where you enter the email addresses of the people you want to invite to your workspace. Steps on sending invitations will be introduced later. <img src="Pic6.png">
 7.The class workspace setup is now complete. <img src="Pic7.png">
 
@@ -98,7 +98,7 @@ Here we introduce how to use Slack effectively in existing lectures "Introductio
 <img src="Pic9.png">
 </figure>
 
-* How to create a channel<br>Channels can also be created from the + icon (① in the above figure). In this class (workspace),  five channels are created.
+* How to create a channel<br>Channels can also be created from the + icon ((1) in the above figure). In this class (workspace),  five channels are created.
     * \# General communication
     * \# Basic information
     * \# Questions
@@ -169,7 +169,7 @@ If you need to contact a student individually, such as when an assignment has no
 {:#zoom}
 You can find out how to connect here ([Slack official site](https://slack.com/help/articles/115004062463-Zoom-for-Slack)). If you connect, you can start Zoom smoothly from Slack.
 
-### How to use the channel in class [students]
+### How to Use Channels in the Classroom (for students)
 {:#for_students}
 #### Ask a question to a teacher (#question)
 {:#question_students}
