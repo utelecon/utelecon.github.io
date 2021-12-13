@@ -1,6 +1,5 @@
 ---
 title: Prepare assignments
-lang: en
 ---
 
 ## Overview

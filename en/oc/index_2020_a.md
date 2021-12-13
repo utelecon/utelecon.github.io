@@ -1,6 +1,5 @@
 ---
 title: Preparing for online classes for new and currently enrolled students (2020 A Semester)
-lang: en
 ---
 
 Introduction

@@ -1,6 +1,5 @@
 ---
 title: How to start Webex Meetings
-lang: en
 ---
 
 ## How to Begin a Meeting

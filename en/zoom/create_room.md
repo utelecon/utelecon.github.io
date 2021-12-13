@@ -1,6 +1,5 @@
 ---
 title: Scheduling a Zoom Meeting (Web Portal)
-lang: en
 ---
 
 ## Scheduling Meetings

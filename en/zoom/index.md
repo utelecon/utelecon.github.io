@@ -1,6 +1,5 @@
 ---
 title: Zoom
-lang: en
 ---
 
 ## Introduction

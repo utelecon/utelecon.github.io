@@ -1,6 +1,5 @@
 ---
 title: ITC-LMS
-lang: en
 ---
 
 ## What is ITC-LMS

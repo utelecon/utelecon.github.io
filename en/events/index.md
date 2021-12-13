@@ -1,6 +1,5 @@
 ---
 title: Orientations / Seminars
-lang: en
 ---
 
 * 2021/09/15 [Briefing session: Online Classes for 2021 A semester - Educational ICT and Online / Hybrid Classes (Japanese Only)](/events/2021-09-15/)

@@ -1,6 +1,5 @@
 ---
 title: Upload Materials
-lang: en
 ---
 
 ## Summary

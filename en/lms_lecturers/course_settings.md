@@ -1,6 +1,5 @@
 ---
 title: Set the course
-lang: en
 ---
 In ITC-LMS, lectures offered in terms and semesters are called "Courses". First, set up the course according to your subject.
 

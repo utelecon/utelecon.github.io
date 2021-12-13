@@ -1,6 +1,5 @@
 ---
 title: Conducting Quizzes and Surveys with Google Forms
-lang: en
 ---
 
 ## Highlights of This Article

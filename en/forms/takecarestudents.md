@@ -1,6 +1,5 @@
 ---
 title: Student Care・Department/School Registration Form
-lang: en
 ---
 
 The following inquiries are increasing after the classes start.

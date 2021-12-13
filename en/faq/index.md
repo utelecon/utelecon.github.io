@@ -1,6 +1,5 @@
 ---
 title: FAQ
-lang: en
 ---
 
 If this FAQ cannot solve your problem, please contact the [Technical Support Desk](/en/support/).

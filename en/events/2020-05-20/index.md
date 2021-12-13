@@ -1,6 +1,5 @@
 ---
 title: "2020/05/20 Training: Class Supporters"
-lang: en
 ---
 
 * **Time:** 5/20(Wed) 15:00-17:00(a recording of the training will be released at a later date, for those who cannot attend the training on this day)
