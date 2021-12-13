@@ -6,3 +6,9 @@ sass:
 lang: ja
 title: utelecon
 repository: utelecon/utelecon.github.io
+defaults:
+  -
+    scope:
+      path: en
+    values:
+      lang: en
