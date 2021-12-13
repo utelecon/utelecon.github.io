@@ -3,7 +3,7 @@ title: Technical Support Desk
 slug: support
 ---
 
-<div class="important-box">To expand our support services , we have introduced a new support desk which is co-operated by student staff ("common supporters") and faculty members.</div>
+<div class="box">To expand our support services , we have introduced a new support desk which is co-operated by student staff ("common supporters") and faculty members.</div>
 
 * The Technical Support Desk aims to respond to inquiries regarding online classes and web conferences.
 * Most inquiries will be handled by student staff (i.e. common supporters), but faculty members will take over depending on the nature of the inquiry.

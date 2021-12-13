@@ -7,10 +7,10 @@ footer {
     text-decoration: none;
   }
   padding: 2rem 4rem 8rem;
-  @media (max-width: 48rem) {
+  @media (max-width: 768px) {
     padding: 2rem 2rem 8rem;
   }
-  @media (max-width: 32rem) {
+  @media (max-width: 512px) {
     padding: 2rem 1rem;
   }
 }
@@ -51,13 +51,13 @@ footer {
         }
       }
     }
-    @media (max-width: 48rem) {
+    @media (max-width: 768px) {
       column-count: auto;
     }
-    @media (min-width: 72rem) {
+    @media (min-width: 1152px) {
       column-count: 3;
     }
-    @media (min-width: 96rem) {
+    @media (min-width: 1536px) {
       display: flex;
       justify-content: space-around;
       column-count: auto;
@@ -74,7 +74,7 @@ footer {
     display: none;
   }
 
-  @media (max-width: 32rem) {
+  @media (max-width: 768px) {
     margin: 0.75rem;
     left: 0;
 
@@ -87,14 +87,14 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.2) 0 0.25rem 0.5rem 0;
   }
 
-  @media not all and (max-width: 32rem) {
+  @media not all and (max-width: 768px) {
     display: flex;
     right: 1rem;
     padding: 0.75rem 0.25rem 0;
   }
 
   .footer-link.wide-only {
-    @media (max-width: 32rem) {
+    @media (max-width: 768px) {
       display: none;
     }
   }
@@ -104,7 +104,7 @@ footer {
     text-align: center;
     text-decoration: none;
 
-    @media (max-width: 32rem) {
+    @media (max-width: 768px) {
       padding: 0 0.5rem;
       display: flex;
       justify-content: center;
@@ -123,7 +123,7 @@ footer {
       }
     }
 
-    @media not all and (max-width: 32rem) {
+    @media not all and (max-width: 768px) {
       width: 100px;
       padding: 0.75rem 0.25rem;
       margin: 0 8px;
@@ -141,7 +141,7 @@ footer {
       display: flex;
       align-items: center;
 
-      @media not all and (max-width: 32rem) {
+      @media not all and (max-width: 768px) {
         background-color: $footer-background-color;
         margin: 0 auto;
 
@@ -150,7 +150,7 @@ footer {
         border-radius: 50%;
       }
 
-      @media (max-width: 32rem) {
+      @media (max-width: 768px) {
         flex: 0 1 auto;
       }
 
@@ -165,7 +165,7 @@ footer {
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
 
-        @media not all and (max-width: 32rem) {
+        @media not all and (max-width: 768px) {
           color: #fff;
         }
       }
@@ -176,13 +176,13 @@ footer {
     .footer-description {
       text-align: center;
 
-      @media not all and (max-width: 32rem) {
+      @media not all and (max-width: 768px) {
         margin-top: 0.375rem;
         color: $footer-background-color;
         font-size: 0.75rem;
       }
 
-      @media (max-width: 32rem) {
+      @media (max-width: 768px) {
         padding: 0 0.5rem;
         font-size: 1.25rem;
       }
@@ -193,7 +193,7 @@ footer {
       transition: all 0.2s ease-in-out;
     }
 
-    @media not all and (max-width: 32rem) {
+    @media not all and (max-width: 768px) {
       &:hover {
         .footer-icon {
           background-color: $body-link-color;
