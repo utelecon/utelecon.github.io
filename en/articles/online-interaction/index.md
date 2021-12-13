@@ -7,7 +7,7 @@ title: Using Online Meeting Tools to Interact
 
 A comparison of online interaction tools that may be useful for online conferences and meetings.
 
-Recommended for students and teachers who:
+**Recommended for students and teachers who:**
 * Want to discuss matters with other teachers, but are unsure what services to use
 * Want to share ideas and facilitate online meetings, but are unsure what tools to use
 * Want to be able to assign rooms more easily and intuitively, as assigning breakout sessions in Zoom is difficult
