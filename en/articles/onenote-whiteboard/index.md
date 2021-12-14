@@ -105,6 +105,8 @@ The following shows how to change the size of the eraser.
 
 ![Switch Eraser Size](pic07.PNG)
 
+<br>
+
 ##### Text Mode
 
 ![Text mode icon](pic08.PNG)
@@ -123,6 +125,8 @@ The following shows a scene of text input and the editing screen.
 
 ![The edit screen of the text](pic10.PNG)
 
+<br>
+
 ##### Lasso Selection
 
 ![Icon of Lasso Selection](pic11.PNG)
@@ -135,6 +139,8 @@ The following is an example of using the Lasso Selection.
 
 ![Using Lasso Selection](pic12.PNG)
 ![How to use the lasso selection](pic13.PNG)
+
+<br>
 
 ##### Figure
 
@@ -158,6 +164,8 @@ If you draw a circle or a triangle with "Convert Ink to Shape" selected, it will
 
 ![Figure corrected by 'Ink to Figure'](pic17.PNG)
 
+<br>
+
 ### Changing the Paper Design
 
 #### Page Design
@@ -173,6 +181,7 @@ The following image shows how page design is changed.
 
 ![Change Paper Style](pic19.PNG)
 
+<br>
 
 #### Paper Size
 
@@ -186,9 +195,11 @@ Please refer to the following image for how to set the page size using the deskt
 
 <ol>
    <li> Select the "View" tab. 
-      ![Select View Tab](pic20.PNG) </li>
-   <li> After selecting the View tab, select "Paper Size".   
-      ![Select the View tab and then select 'Paper size'](pic21.PNG) </li>
+      <img src="pic20.PNG" alt="Select View Tab">
+   </li>
+   <li> After selecting the View tab, select "Paper Size". 
+      <img src="pic21.PNG" alt="Select the View tab and then select 'Paper size'">
+   </li>
 </ol>
 
 ### Setting up Notebook Sections and Pages
@@ -205,11 +216,15 @@ You can use it in any way you like. The following image provides an example.
 
 You can insert various images and files by selecting the desired position and choosing the "Insert" tab.  
 
+<br>
+
 #### Image
 
 ![Image, camera, online image icon](pic23.PNG)
 
 If you select "Image", you can insert an image saved on your device. You can also use "Online Images" to search images on the Internet and insert them. (Please be aware of copyright infringement.)
+
+<br>
 
 #### Files, PDF
 
@@ -229,6 +244,8 @@ The following image shows how a file is inserted.
 
 When you select the file you want to insert, it will be inserted as shown in the above image.  
 
+<br>
+
 ## How to Use in Class
 
 ### Preparation
@@ -237,16 +254,16 @@ When you select the file you want to insert, it will be inserted as shown in the
 
 By writing on a blank page in real time, you can reproduce the writing on a whiteboard or a blackboard in a face-to-face class on OneNote. In this case, you can basically start from the initial state. If you want to change the thickness of the pen or the style of the paper, you can do so before the class.
 
-#### Import PowerPoint or PDF Files You have Prepared in Advance
+#### Import PowerPoint or PDF Files You Have Prepared in Advance
         
 In OneNote, you can import PowerPoint or PDF files and write on them. To import files, please refer to the procedure described above. The following image shows how to write on a prepared document in class.
 
 [An example of reading and writing on a prepared document]
-<figure>.
+<figure>
 <img src="pic27.PNG">
 <figcaption> </figcaption>
 </figure>
-        
+
 #### Create a OneNote Page in Advance
 
 It is possible to create class materials in advance using OneNote. If you have a lot of notes to write on the board, you can write a rough outline before the class to reduce the burden of writing in class. It is also possible to create materials with many illustrations and diagrams by using the tools introduced so far.  
@@ -271,7 +288,7 @@ If you are using OneNote with an iPad, you can also use "AirPlay (or other mirro
 
 Once you have prepared and shared your work, you can actually teach.  
 You can write on the board freely using the tools we have introduced so far.   
-You might refer to the [official video](https://support.microsoft.com/en-us/office/video-draw-and-sketch-in-onenote-e5d9e43e-96a0-442a-85e9-298e029aa76c?wt.mc_id=otc_onenote).  
+Please also refer to the [official video](https://support.microsoft.com/en-us/office/video-draw-and-sketch-in-onenote-e5d9e43e-96a0-442a-85e9-298e029aa76c?wt.mc_id=otc_onenote).  
 
 ### Distributing Materials
 
@@ -310,7 +327,9 @@ You can share or save a PDF by clicking on "Send a copy of the page" in the imag
 <figcaption> </figcaption>
 </figure>
 
-## Examples of Good practices and Application
+<br>
+
+## Examples of Good Practices and Application
 
 * [Professor Kaoru Irie: Mathematical Statistics I, II (Japanese Only)](/good-practice/interview/irie)
   * OneNote is used as a digital whiteboard and shared via Zoom.  
