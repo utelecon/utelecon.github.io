@@ -1,6 +1,5 @@
 ---
 title: Writing on OneNote
-lang: en
 ---
 
 ## Highlights 
