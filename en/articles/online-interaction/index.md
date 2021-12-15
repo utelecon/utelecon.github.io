@@ -12,7 +12,7 @@ A comparison of online interaction tools that may be useful for online conferenc
 * Want to share ideas and facilitate online meetings, but are unsure what tools to use
 * Want to be able to assign rooms more easily and intuitively, as assigning breakout sessions in Zoom is difficult
 
-In the following sections, we will compare four meeting tools to help you organize online meetings and conferences: Discord, Wonder.me, Gather Town, and Remo.
+In the following sections, we will compare four meeting tools to help you organize online meetings and conferences: Discord, Wonder, Gather Town, and Remo.
 
 ## Discord
 
@@ -34,7 +34,7 @@ Discord is a tool for online voice chat (conversation through voice). It can be 
 2. Press the + button on the left side of the screen to create a server (a room where you can chat). We recommend that you set the server name to the name of your community or organization. 
 3. Invite your friends to the server and start chatting.
 
-### What you can do in Discord
+### What You Can Do in Discord
 
 1. **Voice Chat**: You can create a voice channel and enjoy voice calls with multiple people. Noise reduction and easy grouping are available. 
 2. **Text chat**: You can also use the text channel to conduct a text conversation.
@@ -47,29 +47,29 @@ Discord is a tool for online voice chat (conversation through voice). It can be 
 * Discord - [https://discord.com](https://discord.com)
 * Discord Support - [https://support.discord.com/hc/en-us](https://support.discord.com/hc/en-us)
 
-## Wonder.me
+## Wonder
 
 <figure>
 <img src="images/pic04.png" width="200px">
 </figure>
 
-### What Is Wonder.me?
+### What Is Wonder?
 
-Wonder.me is a relatively new conference tool that allows you to intuitively move between rooms (equivalent to breakout rooms in Zoom) by moving your icon on the screen. You can also create rooms with hundreds of people, and within those rooms, individuals can talk to everyone. The main advantage is that you can intuitively change who you are talking to by moving your icon on the screen.
+Wonder is a relatively new conference tool that allows you to intuitively move between rooms (equivalent to breakout rooms in Zoom) by moving your icon on the screen. You can also create rooms with hundreds of people, and within those rooms, individuals can talk to everyone. The main advantage is that you can intuitively change who you are talking to by moving your icon on the screen.
 
 <figure> 
 <img src="images/pic05.png">
 </figure>
 
-### Basic Usage of Wonder.me
+### Basic Usage of Wonder
 
-1. Go to the [Wonder.me site](https://www.wonder.me/), click the "Get a room" button, register your name and email address, and create a room. 
+1. Go to the [Wonder site](https://www.wonder.me/), click the "Get a room" button, register your name and email address, and create a room. 
 2. Share the URL with the person you want to chat with, and ask them to enter the room. 
 3. In addition to the normal chatting function, you can divide a room into smaller rooms, and a specific person can speak to all the audience.
 
-### Things You Can Do With Wonder.me
+### Things You Can Do With Wonder
 
-1. **Large meetings**: Wonder.me can hold up to 1500 participants at once. You can create a room and then create a smaller room called Circle, so you don't have to deal with too many participants. 
+1. **Large meetings**: Wonder can hold up to 1500 participants at once. You can create a room and then create a smaller room called Circle, so you don't have to deal with too many participants. 
 2. **Smooth room movement**: Participants can see who is talking to whom, and can join others conversations by moving between Circles. You can also invite specific participants to your Circle. 
 3. **Screen sharing**: You can share your computer screen as in other services. 
 4. **Broadcast**: You can talk to everyone in the room. Up to six participants can use this feature at the same time, making it useful for panel discussions. 
@@ -80,29 +80,29 @@ Wonder.me is a relatively new conference tool that allows you to intuitively mov
 * Wonder - [https://www.wonder.me/](https://www.wonder.me/)
 * Wonder Help - [https://help.wonder.me/en/](https://help.wonder.me/en/)
 
-## Gather Town
+## Gather
 
 <figure>
 <img src="images/pic06.png" width="200px">
 </figure>
 
-## What Is Gather Town?
+## What Is Gather?
 
-Gather Town is an online communication tool with a retro-game style playful UI, where you can control your avatar to move freely between rooms and virtually experience going to work or working in an office. It is a part of the Virtual Office service, which creates a real office environment on the Internet.
+Gather is an online communication tool with a retro-game style playful UI, where you can control your avatar to move freely between rooms and virtually experience going to work or working in an office. It is a part of the Virtual Office service, which creates a real office environment on the Internet.
 
 <figure>
 <img src="images/pic07.png">
 </figure>
 
-### Basic Usage of Gather Town
+### Basic Usage of Gather
 
 1. Go to the [Gather website](https://www.gather.town/) on your browser and create a room by inputting your name and the purpose of using the office. You do not need to sign in to create a room.
 2. Create your own avatar and join the Gather world.
 You can move your avatar around the space you have created, work in your own private space, or go to a conference room to talk and discuss with others.
 
-### What You Can Do in Gather Town
+### What You Can Do in Gather
 
-1. **Playful virtual office experience**: Gather Town's unique dot-graphic UI makes you feel as if you are actually working in an office. 
+1. **Playful virtual office experience**: Gather's unique dot-graphic UI makes you feel as if you are actually working in an office. 
 2. **Group chat**: Enjoy the benefits of a real office, such as the ability to go into a meeting room and make a video call if you have a topic you want to discuss, or sit around a table in the cafeteria and chat.
 3. **Screen sharing**: You can enter a specific room in the office with other people and have a video chat, voice call or even a discussion using screen sharing.
 4. **Recreate your own office**: You can use the "mapmaker" feature to create your own space, your ideal office or a space that closely resembles your own workplace.
@@ -162,8 +162,8 @@ The features of the four tools introduced so far are summarized in the table bel
   <tr>
    <td></td>
    <td>Discord</td>
-   <td>Wonder.me</td>
-   <td>Gather.town</td>
+   <td>Wonder</td>
+   <td>Gather</td>
    <td>Remo</td>
   </tr>
   <tr>
