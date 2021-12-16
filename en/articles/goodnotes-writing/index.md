@@ -17,6 +17,10 @@ title: Writing on GoodNotes 5
 
 GoodNotes 5 is a note-taking/drawing application that allows you to annotate imported slides and documents (PDF, Power Point, Word, etc.) with your handwriting. By using it in combination with Zoom, you can conduct lectures while handwriting on the board.
 
+<figure>
+<img src="pic01.jpeg">
+</figure>
+
 While GoodNotes 5 can be used on an iPad, iPhone, or Mac, we recommend using it on an iPad when writing on the board. The small screen size of an iPhone makes it difficult to write detailed notes on the board, even with a stylus. Likewise, it is possible to write on the board with a Mac with a separately purchased graphic tablet, but it is not possible to write by  directly touching the screen like on an iPad.
 
 You can purchase this app from [App Store](https://apps.apple.com/app/goodnotes-5/id1444383602#?platform=ipad).
@@ -57,60 +61,177 @@ Below is a brief description of how to use the basic tools.
 
 ### Pen Tool  
 
+<figure>
+<img src="pic04.jpeg">
+</figure>
+
 The Pen tool is the most basic handwriting tool on the page. You can choose from three pen options: fountain pen, ball pen and brush pen.
 
 The handwriting of each pen is as shown in the images below.
 
+<figure>
+<img src="pic05.jpeg">
+</figure>
+
+<figure>
+<img src="pic06.jpeg">
+</figure>
+
+<figure>
+<img src="pic07.jpeg">
+</figure>
 
 As shown in the image below, you can change the pen color and pen thickness.
 
+<figure>
+<img src="pic08.jpeg">
+</figure>   
+
+<figure>
+<img src="pic09.jpeg">
+</figure>
+
+<figure>
+<img src="pic10.jpeg">
+</figure>
 
 ### Eraser
+
+<figure>
+<img src="pic11.jpeg">
+</figure>
 
 The Eraser lets you erase text or lines drawn by the pen tool or the highlighter (described below).
 
 By double-tapping the Eraser icon, an option menu will appear as shown in the image below. If you enable the options, it allows you to erase the entire stroke or only erase the highlighting.
 
+<figure>
+<img src="pic12.jpeg">
+</figure>
+
 ### Highlighter
   
+<figure>
+<img src="pic13.jpeg">
+</figure>
+
 With the Highlighter, you can draw over and emphasize original drawings or PDF text. The line will show through the drawing or text.
 
 By double-tapping the Highlighter icon, an option menu with the option “Draw in Straight Line” will appear as shown in the image below. If it is enabled, lines you draw will be straightened automatically even if it is slightly blurred.
 
+<figure>
+<img src="pic14.jpeg">
+</figure>
+
 Same as the Pen tool, you can change the color and the thickness of the Highlighter, as shown in the images below.
 
+<figure>
+<img src="pic15.jpeg">
+</figure>  
+
+<figure>
+<img src="pic16.jpeg">
+</figure>
+
+<figure>
+<img src="pic17.jpeg">
+</figure>
 
 ### Shape Tool
+
+<figure>
+<img src="pic18.jpeg">
+</figure>
 
 Shape tool allows you to draw geometric shapes on the page.
 
 When the tool is used to draw an eclipse, circle, rectangle, triangle or any other shapes, it will automatically correct the shape to a close match, as shown in the image below.
 
+<figure>
+<img src="pic19.jpeg">
+</figure>
 
 ### Lasso Tool
+
+<figure>
+<img src="pic20.jpeg">
+</figure>
 
 This tool allows you to select and move drawn text and graphics, as well as to resize them.
 
 (Example) The image below shows the lasso tool moving an ellipse created with the Shape tool. The lasso tool is selecting the ellipse by circling it.
 
-
+<figure>
+<img src="pic21.jpeg">
+</figure>
 
 ### Image Tool
 
+<figure>
+<img src="pic22.jpeg">
+</figure>
+
 This tool allows you to select and insert images on the page, which can be selected from "Photos" or "Files" on your iPad.
 
+<figure>
+<img src="pic23.jpeg">
+</figure>
 
 ### Camera Tool
+
+<figure>
+<img src="pic24.jpeg">
+</figure>
 
 The Camera tool allows you to insert photos from the camera directly onto the page.
 
 ### Text Tool
 
+<figure>
+<img src="pic25.jpeg">
+</figure>
+
 The Text tool allows you to insert text using the keyboard.
    
+<figure>
+<img src="pic26.jpeg">
+</figure>
+
 As shown in the image below, you can change the word font, word size, paragraph, text color, and text box style.
 
+<figure>
+<img src="pic27.jpeg">
+</figure>
+
+<figure>
+<img src="pic28.jpeg">
+</figure>
+
+<figure>
+<img src="pic29.jpeg">
+</figure>
+
+<figure>
+<img src="pic30.jpeg">
+</figure>
+
+<figure>
+<img src="pic31.jpeg">
+</figure>
+
+<figure>
+<img src="pic32.jpeg">
+</figure>
+
+<figure>
+<img src="pic33.jpeg">
+</figure>
+
 ### Pointer Tool 
+
+<figure>
+<img src="pic34.jpeg">
+</figure>
 
 The Pointer tool displays a pointer at the touched position.
 
@@ -119,8 +240,15 @@ Two types of pointers are available: one is a pointer that follows the touch ope
 
 ↓the pointer that follows the touch operation
 
+<figure>
+<img src="pic35.jpeg">
+</figure>
+
 ↓the pointer that displays a trail remaining after the touch operation, until the Apple Pencil is released from the screen
 
+<figure>
+<img src="pic36.jpeg">
+</figure>
 
 ## How to Use in Class
 {:#in_class}
@@ -155,6 +283,10 @@ The following section explains how to import files saved on Google Drive into Go
 8. GoodNotes 5 will open automatically with the screen "Import to GoodNotes" appearing. Select the location where you want to save the file in GoodNotes 5, and tap “Import as New Document".
 
 (Note) If you have opened another file in GoodNotes 5, you will see the option "Import into Current Document" in addition to "Import as New Document". If you want to combine the document currently opened in GoodNotes 5 with a premade document, select "Import into Current Document".
+
+<figure>
+<img src="pic46.jpeg">
+</figure>
 
 ### Screen Sharing
 {:#with_zoom}
@@ -193,7 +325,31 @@ The following are some of the tips shared by the professors.
 By exporting the notes to PDF or image files (.jpeg), you can share the notes with your students as a review material after the class. The following is a description of the procedure for creating a document.
 
 1. Tap "Share and Export", and then tap "Export All" or "Export This Page". If you select "Export All", all pages will be documented. If you select "Export This page", you can export only the page you are viewing as a document.
+
+<figure>
+<img src="pic56.jpeg">
+</figure>
+
 2. Select the file format you want to export from among PDF, image (.jpeg), and GoodNotes files. Enter a file name in the "FILENAME" field, and tap "Export".
+
+<figure>
+<img src="pic57.jpeg">
+</figure>
+
 3. Tap the application you want to open the exported file. You can save the exported file to Google Drive, or send it as an attachment via Slack or email. In this article, we will show you how to save the file to Google Drive.
+
+<figure>
+<img src="pic58.jpeg">
+</figure>
+
 4. Select the destination folder in Google Drive, and tap "Save here".
+
+<figure>
+<img src="pic59.jpeg">
+</figure>
+
 5. Tap “Upload”.
+
+<figure>
+<img src="pic60.jpeg">
+</figure>
