@@ -151,7 +151,7 @@ The following section explains how to import files saved on Google Drive into Go
 4. Tap "Open in" from the menu that appears．<img src="pic42.jpeg">
 5. The message "Preparing to export" will be displayed. Wait until the download is ready. <img src="pic43.jpeg">
 6. Tap “Open in GoodNotes” from the menu that appears. <img src="pic44.jpeg">
-7. A confirmation screen will appear asking, "Do you want to open this file in GoodNotes?". Tap "Open". <img src="pic45.jpeg">
+7. A confirmation screen will appear asking, "Do you want to open this file in GoodNotes?". Tap "Open". 
 8. GoodNotes 5 will open automatically with the screen "Import to GoodNotes" appearing. Select the location where you want to save the file in GoodNotes 5, and tap “Import as New Document".
 
 (Note) If you have opened another file in GoodNotes 5, you will see the option "Import into Current Document" in addition to "Import as New Document". If you want to combine the document currently opened in GoodNotes 5 with a premade document, select "Import into Current Document".
