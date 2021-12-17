@@ -120,7 +120,7 @@ With the Highlighter, you can draw over and emphasize original drawings or PDF t
 By double-tapping the Highlighter icon, an option menu with the option “Draw in Straight Line” will appear as shown in the image below. If it is enabled, lines you draw will be straightened automatically even if it is slightly blurred.
 
 <figure>
-<img src="pic14.jpeg">
+<img src="pic14.jpg">
 </figure>
 
 Same as the Pen tool, you can change the color and the thickness of the Highlighter, as shown in the images below.
@@ -276,7 +276,7 @@ The following section explains how to import files saved on Google Drive into Go
 2. Open Google Drive on your iPad.
    * You can install Google Drive from [App Store](https://apps.apple.com/jp/app/google-%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96-%E5%AE%89%E5%85%A8%E3%81%AA%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8/id507874739).
 3. Navigate to the folder that contains the file you want to open in Google Drive (PDF, Power Point, or Word file), and tap the "..." button next to the file name of the file. <img src="pic41.jpeg">
-4. Tap "Open in" from the menu that appears．<img src="pic42.jpeg">
+4. Tap "Open in" from the menu that appears．<img src="pic42.jpg">
 5. The message "Preparing to export" will be displayed. Wait until the download is ready. <img src="pic43.jpeg">
 6. Tap “Open in GoodNotes” from the menu that appears. <img src="pic44.jpeg">
 7. A confirmation screen will appear asking, "Do you want to open this file in GoodNotes?". Tap "Open". 
@@ -325,31 +325,16 @@ The following are some of the tips shared by the professors.
 By exporting the notes to PDF or image files (.jpeg), you can share the notes with your students as a review material after the class. The following is a description of the procedure for creating a document.
 
 1. Tap "Share and Export", and then tap "Export All" or "Export This Page". If you select "Export All", all pages will be documented. If you select "Export This page", you can export only the page you are viewing as a document.
-
-<figure>
 <img src="pic56.jpeg">
-</figure>
 
-2. Select the file format you want to export from among PDF, image (.jpeg), and GoodNotes files. Enter a file name in the "FILENAME" field, and tap "Export".
-
-<figure>
+1. Select the file format you want to export from among PDF, image (.jpeg), and GoodNotes files. Enter a file name in the "FILENAME" field, and tap "Export".
 <img src="pic57.jpeg">
-</figure>
 
-3. Tap the application you want to open the exported file. You can save the exported file to Google Drive, or send it as an attachment via Slack or email. In this article, we will show you how to save the file to Google Drive.
-
-<figure>
+1. Tap the application you want to open the exported file. You can save the exported file to Google Drive, or send it as an attachment via Slack or email. In this article, we will show you how to save the file to Google Drive.
 <img src="pic58.jpeg">
-</figure>
 
-4. Select the destination folder in Google Drive, and tap "Save here".
-
-<figure>
+1. Select the destination folder in Google Drive, and tap "Save here".
 <img src="pic59.jpeg">
-</figure>
 
-5. Tap “Upload”.
-
-<figure>
+1. Tap “Upload”.
 <img src="pic60.jpeg">
-</figure>
