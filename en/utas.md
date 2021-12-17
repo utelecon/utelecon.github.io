@@ -1,6 +1,5 @@
 ---
 title: UTAS
-lang: en
 ---
 
 ## What is UTAS?

@@ -1,6 +1,5 @@
 ---
 title: ECCS Cloud Email (Google Workspace)
-lang: en
 ---
 
 ## What is ECCS Cloud Email?

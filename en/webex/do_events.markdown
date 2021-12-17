@@ -1,6 +1,5 @@
 ---
 title: What is possible with Webex Events?（for Instructors・Participants)
-lang: en
 ---
 
 ## Roles

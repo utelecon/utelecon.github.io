@@ -2,15 +2,50 @@
 title: クラスサポーター制度のご案内
 ---
 
-![](2021-08-26-11-46-40.png)
-
+<div style="border: solid 4px red;">
+  <div style="margin: 20px;">
+    <div>
+      <span style="font-weight: bold; color: blue;">【クラスサポーター制度とは】</span>
+    </div>
+    <div style="font-weight: bold;">
+      この要領は，全学的なオンライン授業を導入するにあたり，オンライン授業に限りその補助業務を行うクラスサポーターについて必要な事項を定め，授業の円滑な実施を図ることを目的とします．
+    </div>
+  </div>
+  <div style="margin: 20px;">
+    <div>
+      <span style="font-weight: bold; color: blue;">【クラスサポーターとは】</span>
+    </div>
+    <div>
+      オンライン授業を行う先生を支援する学生です．「先生がオンライン授業に備える，その準備に付き合う，先生が授業中に気づきにくい（音が届いていないなどの）トラブルを学生側から介入する」等，オンラインの操作が不慣れな先生への，初期動作を学生がサポートするという仕事を想定しています．
+    </div>
+  </div>
+  <div style="margin: 20px;">
+    <div>
+      <span style="font-weight: bold; color: blue;">【クラスサポーターの仕事内容の範囲（想定している仕事例）】</span>
+      <small>※本文より一部抜粋</small>
+    </div>
+    <div>
+      <ul>
+        <li>音の聞こえ具合やカメラの映り具合のチェック</li>
+        <li>会議システムの機能を使ったときの見え方のチェック</li>
+        <li>教員の声が聴こえない時「先生，聴こえ（見え）ていませんよ」と声をかける</li>
+        <li>画面を共有したつもりでできていない時に「先生，見えていませんよ」と声をかける</li>
+        <li>最悪な事故（声が通っていないと知らずに30分しゃべり続ける，など）を防止する</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 本学に在籍をしている学部生・大学院生・研究生・ポストドクターなどがクラスサポーターになることができます．<br>
 クラスサポーター制度を利用する場合には，下記をよくお読みになり，制度を理解した上でお申し込みください．
 
 ## お知らせ
 
-<!--
+
+* <span style="color:blue;">2021/10/30:</span> <span style="color:red;">Aセメスターのクラスサポーター制度申込の締め切りは10月31日となっております。</span>先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。　<br>
+　<a href="https://forms.office.com/r/tsHGEWBXBW" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
+　<a href="https://forms.office.com/r/M8vQjrSwtt" target="_blank">「クラスサポーター割当希望フォーム」</a> <br>
+　<a href="https://forms.office.com/r/xTEaaSZFMY" target="_blank">「クラスサポーター志願フォーム」</a>
 * <span style="color:blue;">2021/09/01:</span> 本日よりAセメスターのクラスサポーター制度の受付を開始します．本ページをよくお読みになり、先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」, クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします。<br>
 各フォームの締め切りは以下の通りとなります.<br>
 　<a href="https://forms.office.com/r/tsHGEWBXBW" target="_blank">「クラスサポーター獲得報告フォーム」</a> <br>
@@ -21,7 +56,7 @@ title: クラスサポーター制度のご案内
 　（下記は申込後の返信にてお知らせします）<br>
 　謝金支払い情報フォーム：11月30日<br>
 　業務完了報告フォーム：2022年1月15日
--->
+
 
 * <span style="color:blue;">2021/08/30:</span> 9月1日よりAセメスターのクラスサポーター制度を開始します．
 
@@ -85,7 +120,7 @@ title: クラスサポーター制度のご案内
 #### 教員自身がサポーターを見つけられた場合
 {:.no_toc}
 
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUMDNHUTBXQkNNNTI2UTdUUEE5UE9CUjlJNS4u" target="_blank">クラスサポーター獲得報告フォーム</a> で利用申請を行います．
+1. <a href="https://forms.office.com/r/tsHGEWBXBW" target="_blank">クラスサポーター獲得報告フォーム</a> で利用申請を行います．
     * 満期退学者など，本学の所属でない人はクラスサポーターに指名できません．
     * 留学生へ依頼する場合には，資格外活動許可を有していることが必須です．
     * 基本的には1授業につき1サポーターです．2人以上必要な場合には，事前にクラスサポーター担当までご連絡ください．class-support.adm[at]gs.mail.u-tokyo.ac.jp    
@@ -107,7 +142,7 @@ title: クラスサポーター制度のご案内
 #### クラスサポーターをマッチングしてほしい場合
 {:.no_toc}
 
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUQ1dFNEk4SkhSQk1JUDYwMlNUOEdGQVhQNS4u" target="_blank">クラスサポーター割当希望フォーム</a> で制度の利用申請を行います．
+1. <a href="https://forms.office.com/r/M8vQjrSwtt" target="_blank">クラスサポーター割当希望フォーム</a> で制度の利用申請を行います．
 2. <span style="color:red;">マッチング成立後</span>，クラスサポーターをご案内するメールが届きます．
 3. 学生と連絡をとり，開始日・科目名・時間割コード・曜限などを互いに確認します．
 4. 双方が同意しましたら，獲得報告フォームを提出してください．
@@ -165,7 +200,7 @@ title: クラスサポーター制度のご案内
 {:.no_toc}
 
 ※空き時間などを利用して自分が履修していない授業や， 個人的に頼まれた教員以外の授業．
-1. <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhG_-y0NZJIdLrpnoE8C1CBNUNDlFTTdZMExWUU1MVTAyOUhSUFM0RkxCRy4u" target="_blank">クラスサポーター志願フォーム</a> でエントリーします．
+1. <a href="https://forms.office.com/r/xTEaaSZFMY" target="_blank">クラスサポーター志願フォーム</a> でエントリーします．
 1. マッチング成立後，詳細をご案内するメールが届きます．
 <br>
 教員の条件に応じたマッチング（授業実施曜限など）を行うため，志望してもクラスサポーターとして割り当てられないこともある点ご了承ください．  

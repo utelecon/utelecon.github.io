@@ -1,6 +1,5 @@
 ---
 title: Screen Sharing
-lang: en
 ---
 
 Zoom's screen sharing enables you to share your screen with others. You can share the screen you are viewing on your PC or mobile device with all participants. If you open a Word or Power Point file on the shared screen, you can make your presentation showing the document to the participants.
@@ -9,39 +8,39 @@ Zoom's screen sharing enables you to share your screen with others. You can shar
 ## Start screen sharing
 
 1. Click "Share Screen" in the meeting controls.<br>
-![Zoom menu "Share Screen"](img/sharing_screen_common_1_menu.png)
+![Zoom menu "Share Screen"](img/sharing_screen_01.png)
 
 2. You will be given various options for sharing.<br>
 In the "Basic" tab, choose to share your entire desktop or specific application window.  
-![Select from "Basic" tab](img/sharing_screen_common_2_basic1.png)
+![Select from "Basic" tab](img/sharing_screen_02.png)
   * **[Desktop]** Share your full desktop.
   * **[Individual application]** Share an individual application you have opened on your computer such as Word, PowerPoint, web browser, etc.. It is useful when you only want to share an individual file from a specific location.
 
 3. Check the option at the bottom of the window if necessary. (You can also set it up during screen sharing from the "More" in the meeting controls.)
-![Check the option if necessary](img/sharing_screen_common_3_basic2.png)
+![Check the option if necessary](img/sharing_screen_03.png)
 
   * **[Share Sound]** If checked, you can share the sound played on your computer during screen sharing.
   * **[Optimize for video clip]** If checked, participants can see the optimized form of video clips played in full screen during screen sharing.
 
-4. Select the screen you want to share and click the green "New Share" button at the bottom right corner.   
-![ The "Share Screen" button starts screen sharing](img/sharing_screen_common_4_basic3.png)
+4. Select the screen you want to share and click the blue "Share" button at the bottom right corner.   
+![ The "Share Screen" button starts screen sharing](img/sharing_screen_04.png)
 
 
 ## Stop screen sharing
 
 To end the screen sharing, click “Stop Share” at the bottom of the screen sharing controls. This will bring you back to your regular Zoom view.
 
-![Stop screen sharing](img/sharing_screen_common_16_stopshare.png)
+![Stop screen sharing](img/sharing_screen_05.png)
 
 
 ## Screen sharing controls
 
 Screen sharing controls are displayed at either the top or bottom of the screen during screen sharing. The following explains how the controls work.
 
-![Screen sharing controls](img/sharing_screen_common_7_sharescreenmenu.png)  
+![Screen sharing controls](img/sharing_screen_06.png)  
 * **[Annotate]** You can annotate the shared screen with the set of annotation tools provided. Tools include a text tool to type text onto the screen, a hand-drawing tool, a stamp tool, and a spotlight tool for highlighting the location of your cursor.
 * **[More]** Click to display advanced options. <br>
-![Advanced Options](img/sharing_screen_common_8_sharescreenmenu2.png)
+![Advanced Options](img/sharing_screen_07.png)
 
   + Advanced options available only for teachers (hosts).
       + **Disable Annotation for Others**: You can prevent participants from annotating the shared screen using the annotation tools.
@@ -70,15 +69,15 @@ If you want the students to use other windows other than Zoom while the teacher�
 You can prevent participants from annotating l by selecting "Disable Annotation for Others" from "More" of the meeting controls.
 
 #### Displaying names of annotators
-By selecting "Show Names of Annotators" from "More" of the meeting controls, participants’ names will appear next to their annotations on the shared screen.<br>
-![Show names of annotators](img/sharing_screen_common_23_details.png)
+By selecting "Show/Hide Names of Annotators" from "More" of the meeting controls, participants’ names will appear/disappear next to their annotations on the shared screen.<br>
+![Show names of annotators](img/sharing_screen_08.png)
 
 ### Configuring screen sharing settings
 1. Hit the small green ^ button in the “Share Screen” button and select "Advanced Sharing Options" from the drop-down menu.  
-![Advanced Sharing Options](img/sharing_screen_common_19_advancedshareoptions1.png)
+![Advanced Sharing Options](img/sharing_screen_09.png)
 
-2. "Advanced Sharing Options" window will open. <br>
-![Advanced Sharing Options](img/sharing_screen_common_20_advancedshareoptions2.png)
+1. "Advanced Sharing Options" window will open. <br>
+![Advanced Sharing Options](img/sharing_screen_10.png)
 
 #### Settings for sharing multiple screens simultaneously.
 + In “Advanced Sharing Options” under "How many participants can share at the same time?”, you can choose between "One participant can share at a time" and "Multiple participants can share simultaneously (dual monitors recommended).)".<br>
@@ -87,7 +86,7 @@ Hitting the small green ^ button in the “Share Screen” button will also lead
 + When multiple screens are sharing simultaneously, participants using dual monitors will see the two most recently shared screens on each monitor.<br>
 This feature is useful when you want to compare multiple documents at the same time.<br>
 You can set it as default by checking "Use Dual Monitors" in "Settings" →"General" of the Zoom application.
-![Using Dual Monitors](img/sharing_screen_common_21_dualmonitor.png)
+![Using Dual Monitors](img/sharing_screen_11.png)
 + Participants using a single monitor will see the most recently shared screen.<br>
 Participants can select “View Options” to change the screen they are viewing.
 
@@ -99,7 +98,7 @@ Also, when multiple participants are sharing their screens at the same time, the
 If "One participant can share at a time" is selected, you can choose between "Only host" and "All participants" under "Who can share?” in “Advanced Sharing Options”.<br>
 For "Host Only", non-teaching participants are prohibited from screen sharing. <br>
 You can also go to “Security” in the meeting controls and check/uncheck the "(Allow participants to Share screen" checkbox from the drop-down menu.
-![Setting up who can share screen](img/sharing_screen_common_22_security.png)
+![Setting up who can share screen](img/sharing_screen_12.png)
 
 #### Starting a new share when someone is sharing.
 If the setting is "Only one participant can share at a time", you can select "Host only" or "All participants" under "Who can start sharing when someone else is sharing?” in “Advanced Sharing Options”.<br>
@@ -107,50 +106,51 @@ If you choose "All participants", everyone can start a new share when someone is
 
 ### Screen Annotation
 Click “Annotate” from the screen sharing controls to annotate the shared screen with a set of annotation tools.
-![Screen sharing menu "Add a comment"](img/sharing_screen_common_9_annotationtools.png)
+![Screen sharing menu "Add a comment"](img/sharing_screen_13.png)
 
 * **[Mouse]** Deactivate annotation tools and switch to your mouse pointer.
 * **[Select]** Select, move, or resize your annotations.
 * **[Text]** Insert text. Textformat can be changed from "Format".
-![“Annotate” Text](img/sharing_screen_common_10_annotationtools_text.png)  
+![“Annotate” Text](img/sharing_screen_14.png)  
 
 * **[Draw]** Insert lines, arrows, and shapes..
-![“Annotate” Draw](img/sharing_screen_common_11_annotationtools_draw.png)
+![“Annotate” Draw](img/sharing_screen_16.png)
 
 * **[Stamp]** Insert predefined icons like a check mark or star.
-!["Annotate" Stamp ](img/sharing_screen_common_12_annotationtools_stamp.png)
+
+!["Annotate" Stamp ](img/sharing_screen_18.png)
 
 * **[Spotlight]** Turn your cursor into a spotlight or arrow. Display your mouse pointer to all participants when your mouse is within the area being shared. Use this to point out parts of the screen to other participants.
-!["Annotate" spotlight](img/sharing_screen_common_13_annotationtools_spotlight.png)
+!["Annotate" spotlight](img/sharing_screen_20.png)
 
 * **[Eraser]** Click and drag to erase parts of your annotation.
 
 * **[Format]** Change the formatting options of annotations tools like color, line width, and font.
-!["Annotate" Format](img/sharing_screen_common_14_annotationtools_format.png)
+!["Annotate" Format](img/sharing_screen_21.png)
 
 * **[Undo]** Undo your latest annotation.
 * **[Redo]** Redo your latest annotation that you undid.
 * **[Clear]** Delete all annotations.<br>
-!["Annotate" Clear](img/sharing_screen_common_15_annotationtools_clear.png)
+!["Annotate" Clear](img/sharing_screen_22.png)
 
   + Clear All Drawings: Clear all annotations on the shared screen.
   + Clear My Drawings: Clear all your annotations.
-  + Erase Viewers’ Drawings: (Teachers only) Clear all participants' annotations.
+  + Clear Viewers’ Drawings: (Teachers only) Clear all participants' annotations.
  * **[Save]** Save all annotations on the screen as a screenshot. The screenshot is saved to the local recording location.
 
 ## Participants’ controls
 
 Participants can annotate the shared screen and change the screen settings during sharing on their own devices.<br>
-Tap “Change View” on the controller to choose the layout or toggle the icon to switch between different views.
+Click the "∨" mark next to "View Options" at the top of the sharing screen, to the right of the green "You are viewing xxxx's screen" field, and open the pulldown.
 
-![Participants’ controls](img/sharing_screen_common_17_participantsmenu.png)
+![Participants’ controls](img/sharing_screen_23.png)
 
 ### Annotation on a shared screen
-Click “Annotate” from the screen sharing controls to annotate the shared screen with a set of annotation tools.Details are explained in “Screen Annotation” above. <br>
+Click “Annotate” from the screen sharing controls to annotate the shared screen with a set of annotation tools. Details are explained in “Screen Annotation” above. <br>
 However, if "Disable Annotation for Others” is enabled, no annotations can be added.
 
 ### Screen settings during sharing
 You can choose the window size when screen sharing from the list of “Fullscreen mode”, “Maximize window”, and “Maintain current size”.<br>
 If "Side-by-side Mode" is selected, the shared screen will appear on the left while the speaker on the right. You can adjust the relative space devoted to the shared screen by dragging the vertical gray bar. To set it as default, go to "Settings","Share Screen", and select "Side-by-side Mode" in the Zoom application.
 
-![Screen settings during sharing](img/sharing_screen_common_18_sidebysidemode.png)
+![Screen settings during sharing](img/sharing_screen_24.png)

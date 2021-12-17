@@ -1,6 +1,5 @@
 ---
 title: Sitemap
-lang: en
 sitemap: false
 ---
 

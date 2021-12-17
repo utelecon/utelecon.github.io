@@ -1,6 +1,5 @@
 ---
 title: Timetable
-lang: en
 ---
 
 When you log in, the following time table will be displayed.
@@ -29,8 +28,8 @@ We have listed some possible reasons & solutions in case your class does not sho
 
 
 ## References
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/03/12_1822.html">How do I use ITC-LMS? (for instructors)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/09/03_1946.html">How to to display the timetable of the past course schedule on ITC-LMS (for instructors/ students)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/08/22_1942.html">ITC-LMS course registration periods</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/03/30_2026.html">ITC-LMS Course Registration (Automatic Linkage with Academic Affairs System)</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2984.html">How do I use ITC-LMS? (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/08/30_2301.html">How to to display the timetable of the past course schedule on ITC-LMS (for instructors/ students)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/08/08_2284.html">ITC-LMS course registration periods</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/08/09_2286.html">ITC-LMS Course Registration (Automatic Linkage with Academic Affairs System)</a>

@@ -9,7 +9,7 @@
   }
   grid-auto-rows: 1fr;
   grid-gap: 1em;
-  margin: 1em 0 2em;
+  margin: 1em 0;
   a {
     display: block;
     border: 1px solid $black-gray;
@@ -17,6 +17,10 @@
     font-weight: bold;
     padding: 0.5em;
   }
+}
+
+.top__cards + h2 {
+  margin-top: 1.6em;
 }
 
 .top__systems {

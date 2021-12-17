@@ -1,6 +1,5 @@
 ---
 title: Confirm attendance
-lang: en
 ---
 After asking the student to press the "Send Attendance" button and to enter a one-time password, follow the instructions below to check their status.
 
@@ -16,5 +15,5 @@ After asking the student to press the "Send Attendance" button and to enter a on
 ![出席確認](va3.png)
 
 ## References
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1904.html">How to confirm attendance at ITC-LMS (for instructors)</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2983.html">How to confirm attendance in ITC-LMS (for instructors)</a>

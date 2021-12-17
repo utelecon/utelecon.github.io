@@ -1,6 +1,5 @@
 ---
 title: Comparison between systems
-lang: en
 ---
 
 |              Aspects               |                          Google Hangouts Meet                   |  Zoom  |  WebEx  |  

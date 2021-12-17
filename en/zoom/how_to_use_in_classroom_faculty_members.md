@@ -1,6 +1,5 @@
 ---
 title: Using Zoom in class（for instructors）
-lang: en
 ---
 
 In this section, we introduce how teachers can use Zoom in classroom through interactive videos.   

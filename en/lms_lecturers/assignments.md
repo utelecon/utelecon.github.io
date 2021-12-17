@@ -1,6 +1,5 @@
 ---
 title: Prepare assignments
-lang: en
 ---
 
 ## Overview
@@ -54,4 +53,4 @@ lang: en
 
 ## References
 
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html">FAQ (ITC-LMS)</a>

@@ -1,5 +1,3 @@
-{% include layouts/lang.html %}
-
 {% unless page.slug == "support" %}
 <div class="footer-wrap">
   <a class="footer-link wide-only" href="javascript: scroll({top: 0, behavior: 'smooth'});">
@@ -10,7 +8,7 @@
     <div class="footer-icon"><span class="material-icon">feedback</span></div>
     <div class="footer-description">{% if lang == "en" %}Feedback{% else %}フィードバック{% endif %}</div>
   </a>
-  <a class="footer-link" href="{% if lang == "en" %}/en{% endif %}/support/" target="_blank">
+  <a class="footer-link" href="{% if page.lang == "en" %}/en{% endif %}/support/" target="_blank">
     <div class="footer-icon"><span class="material-icon">contact_support</span></div>
     <div class="footer-description">{% if lang == "en" %}Support Desk{% else %}サポート窓口{% endif %}</div>
   </a>
@@ -20,8 +18,8 @@
 <footer>
   <div class="footer__logo">
     <a href="https://www.u-tokyo.ac.jp/" target="_blank" rel="noopener"><img class="footer__logo__utokyo" src="/assets/images/UTlogo.png" alt="東京大学 the University of Tokyo"></a>
-    <a class="footer__logo__utelecon" href="/{% if lang == "en" %}en/{% endif %}">{%
-      if lang == "en"
+    <a class="footer__logo__utelecon" href="/{% if page.lang == "en" %}en/{% endif %}">{%
+      if page.lang == "en"
         %}utelecon: Online Class / Web Conference Portal Site{%
       else
         %}utelecon: オンライン授業・Web会議ポータルサイト{%
@@ -30,7 +28,7 @@
   </div>
   <nav class="footer__nav">
     <ul>
-      {% for item in site.data.nav[lang] %}
+      {% for item in site.data.nav[page.lang] %}
         <li>
           <div>{{ item.name }}</div>
           <ul class="">

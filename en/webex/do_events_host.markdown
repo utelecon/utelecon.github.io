@@ -1,6 +1,5 @@
 ---
 title: What is possible with Webex Events?（for Instructors)
-lang: en
 ---
 
 * This section describes the Webex Events functions only available to the host.	
