@@ -32,7 +32,7 @@ title: サークル活動に使えるオンラインツール
     - **アルバムを使用する** <br>
         LINEのアルバムでは，いつでも見返すことが可能な画像をグループに投稿することができます．
         ノートよりも画像を一覧しやすいため，プロフィール紹介を画像で行う場合はこちらの機能を使用するのがオススメです．
-        アルバムの作成方法は，公式の[LINEみんなの使い方ガイド](https://guide.line.me/ja/chats-calls-notifications/chats/create-albums.html)を参照してください．
+        アルバムの作成方法は，公式の[LINEみんなの使い方ガイド](https://guide.line.me/ja/chats-calls-notifications/chats/create-albums.html)を参照してください．  
         【プロフィール紹介画像の例】<br>
             ![fig2.jpg](fig2.jpg) <br>
         画像でのプロフィール紹介は自由度が高く，人柄や個性が表れやすくなる一方，作成コストが高く，メンバーの負担が重くなる傾向にあります．
