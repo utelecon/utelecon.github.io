@@ -65,7 +65,7 @@ Below is a brief description of how to use the basic tools.
 <img src="pic04.jpeg">
 </figure>
 
-The Pen tool is the most basic handwriting tool on the page. You can choose from three pen options: fountain pen, ball pen and brush pen.
+The Pen Tool is the most basic handwriting tool on the page. You can choose from three pen options: fountain pen, ball pen and brush pen.
 
 The handwriting of each pen is as shown in the images below.
 
@@ -123,7 +123,7 @@ By double-tapping the Highlighter icon, an option menu with the option “Draw i
 <img src="pic14.jpg">
 </figure>
 
-Same as the Pen tool, you can change the color and the thickness of the Highlighter, as shown in the images below.
+Same as the Pen Tool, you can change the color and the thickness of the Highlighter, as shown in the images below.
 
 <figure>
 <img src="pic15.jpeg">
@@ -143,7 +143,7 @@ Same as the Pen tool, you can change the color and the thickness of the Highligh
 <img src="pic18.jpeg">
 </figure>
 
-Shape tool allows you to draw geometric shapes on the page.
+Shape Tool allows you to draw geometric shapes on the page.
 
 When the tool is used to draw an eclipse, circle, rectangle, triangle or any other shapes, it will automatically correct the shape to a close match, as shown in the image below.
 
@@ -159,7 +159,7 @@ When the tool is used to draw an eclipse, circle, rectangle, triangle or any oth
 
 This tool allows you to select and move drawn text and graphics, as well as to resize them.
 
-(Example) The image below shows the lasso tool moving an ellipse created with the Shape tool. The lasso tool is selecting the ellipse by circling it.
+(Example) The image below shows the Lasso Tool moving an ellipse created with the Shape tool. The Lasso Tool is selecting the ellipse by circling it.
 
 <figure>
 <img src="pic21.jpeg">
@@ -171,19 +171,19 @@ This tool allows you to select and move drawn text and graphics, as well as to r
 <img src="pic22.jpeg">
 </figure>
 
-This tool allows you to select and insert images on the page, which can be selected from "Photos" or "Files" on your iPad.
-
+This tool allows you to select and insert images on the page, which can be selected from "Photos" or "Files" on your iPad. 
+ To insert photos from the camera directly onto the page, you may use the Camera Tool, which can be found in the Image Tool’s contextual section.
+ 
 <figure>
 <img src="pic23.jpeg">
 </figure>
 
-### Camera Tool
-
+<!---- CAMERA TOOL ICON
 <figure>
 <img src="pic24.jpeg">
 </figure>
+---->
 
-The Camera tool allows you to insert photos from the camera directly onto the page.
 
 ### Text Tool
 
@@ -191,7 +191,7 @@ The Camera tool allows you to insert photos from the camera directly onto the pa
 <img src="pic25.jpeg">
 </figure>
 
-The Text tool allows you to insert text using the keyboard.
+The Text Tool allows you to insert text using the keyboard.
    
 <figure>
 <img src="pic26.jpeg">
@@ -233,18 +233,17 @@ As shown in the image below, you can change the word font, word size, paragraph,
 <img src="pic34.jpeg">
 </figure>
 
-The Pointer tool displays a pointer at the touched position.
-
+The Pointer Tool displays a pointer at the touched position.
 
 Two types of pointers are available: one is a pointer that follows the touch operation, while the other displays a trail that remains after the touch operation until the Apple Pencil is released from the screen.
 
-↓the pointer that follows the touch operation
+[The pointer that follows the touch operation]
 
 <figure>
 <img src="pic35.jpeg">
 </figure>
 
-↓the pointer that displays a trail remaining after the touch operation, until the Apple Pencil is released from the screen
+[The pointer that displays a trail remaining after the touch operation, until the Apple Pencil is released from the screen]
 
 <figure>
 <img src="pic36.jpeg">
@@ -279,8 +278,7 @@ The following section explains how to import files saved on Google Drive into Go
 4. Tap "Open in" from the menu that appears．<img src="pic42.jpg">
 5. The message "Preparing to export" will be displayed. Wait until the download is ready. <img src="pic43.jpeg">
 6. Tap “Open in GoodNotes” from the menu that appears. <img src="pic44.jpeg">
-7. A confirmation screen will appear asking, "Do you want to open this file in GoodNotes?". Tap "Open". 
-8. GoodNotes 5 will open automatically with the screen "Import to GoodNotes" appearing. Select the location where you want to save the file in GoodNotes 5, and tap “Import as New Document".
+7. GoodNotes 5 will open automatically with the screen "Import to GoodNotes" appearing. Select the location where you want to save the file in GoodNotes 5, and tap “Import as New Document".
 
 (Note) If you have opened another file in GoodNotes 5, you will see the option "Import into Current Document" in addition to "Import as New Document". If you want to combine the document currently opened in GoodNotes 5 with a premade document, select "Import into Current Document".
 
