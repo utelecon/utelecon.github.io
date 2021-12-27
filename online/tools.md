@@ -117,9 +117,9 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 - **[Scrapboxの基本的な使い方](/articles/scrapbox/)**：Scrapboxの基本的な使い方を説明しています．
 - **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてScrapboxで資料を共有する実践例です．
 
-## <mark>その他の資料作成・共有ツール</mark>
-- Google スライド
-    - **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った授業の実践例です．
+## <mark>その他の資料作成・共有</mark>
+### Google スライド
+- **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った授業の実践例です．
 
 
 ## <mark>資料の保存・共有</mark>
@@ -168,23 +168,23 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 
 <mark>「授業における質問の受け付け方の工夫」へのリンクを削除</mark>
 
-### Slido
+### <mark>Slido</mark>
 
 「Slido」は，Q&Aやライブ投票・アンケートなど，授業や会議・講演会などでの参加者との双方向コミュニケーションに役立つ機能を提供しているWebサービスです．
 
 - **[Slido 説明ページ](/slido/)**：使い方や活用事例をまとめています．
-- <mark>**[Slidoを用いた授業における質問の受け付け方](/articles/question-tools#Slido)** </mark>
+- **[Slidoを用いた授業における質問の受け付け方](/articles/question-tools#Slido)**
 
-### CommentScreen
+### <mark>CommentScreen</mark>
 
 「CommentScreen」は，オンライン授業をしている画面上に，直接学生の質問やコメントを匿名・リアルタイムで表示することができるツールです．
 
 - **[CommentScreen](https://commentscreen.com/)**：公式ウェブサイトです．
 - **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
-- <mark>**[CommentScreenを用いた授業における質問の受け付け方](/articles/question-tools#CommentScreen)** </mark>
+- **[CommentScreenを用いた授業における質問の受け付け方](/articles/question-tools#CommentScreen)**
 
 
-## <mark>コミュニケーションツール</mark>
+## <mark>コミュニケーションのためのプラットホーム</mark>
 {:#chat-com}
 {:#voice-chat}
 
@@ -194,18 +194,21 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 <mark>「授業における質問の受け付け方の工夫」へのリンクを削除</mark>
 
 
-### Slack
+### <mark>Slack</mark>
 
-「Slack」はグループウェアと呼ばれるアプリの一種で，グループやチームの中でテキストメッセージをやり取りしコミュニケーションを取るためのツールです．テキストメッセージを投稿できる「チャンネル」という場所を複数作って別々のやり取りを同時並行で行えるのが特徴です．研究室や学科・専攻内でのコミュニケーションでは特に有効に活用できる可能性が高いです（もちろん授業で利用することも考えられます）．
+<mark> **[要内容修正]**
+「Slack」はグループウェアと呼ばれるアプリの一種で，グループやチームの中でテキストメッセージをやり取りしコミュニケーションを取るためのツールです．
+</mark>
+テキストメッセージを投稿できる「チャンネル」という場所を複数作って別々のやり取りを同時並行で行えるのが特徴です．研究室や学科・専攻内でのコミュニケーションでは特に有効に活用できる可能性が高いです（もちろん授業で利用することも考えられます）．
 
 - **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication/)**：基本的な使い方などを説明しています．
 - **[ゼミ形式の授業でSlackを活用する](/articles/slack-seminar/)**：特にゼミ形式の授業において，Slackを活用する方法を紹介しています．
 - **[オンライン授業のグッドプラクティス／斎藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito)** ：オンデマンド形式の授業でSlackを使用されており，Slackで授業内容に関する質問を募っている実践例です．
 - **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：Slackで質問や相談を受けた授業の実践例です．
-- <mark>**[Slackでの授業における質問の受け付け方](/articles/question-tools#Slack)** </mark>
+- **[Slackでの授業における質問の受け付け方](/articles/question-tools#Slack)**
 
 
-### Discord
+### <mark>Discord</mark>
 
 <mark> **[要内容修正]**
 通話（ボイスチャット）だけでなく日常的なテキストチャットも行えるオンラインの交流ツールです．
@@ -216,14 +219,14 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 - **[オンライン会議ツールを使って交流する](/articles/online-interaction/)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 - **[Discordを使って交流する](/articles/online-interaction#Discord)**
 
-### LINEオープンチャット
+### <mark>LINEオープンチャット</mark>
 {:#line-openchat}
 
 「LINEオープンチャット」は，チャットアプリ「LINE」の機能で，あらかじめLINEの「友だち」として登録していなくても指定の「コード」を共有して参加できるチャットルーム（トークルーム）を作ることができるものです．また，オープンチャットのトークルームでは，LINE全体のプロフィールとは異なるプロフィールを設定できるため，プライベートなプロフィールを見せないでよく（匿名にすることもできる），学生も参加しやすいです．
 
 - **[オープンチャットを利用する（LINEみんなの使い方ガイド）](https://guide.line.me/ja/services/openchat.html)**：オープンチャットに関するLINE公式の説明ページです．
 - **[オンライン授業のグッドプラクティス／廣瀬敬先生 固体地球科学](/good-practice/interview/hirose)**：授業においてLINEオープンチャットで匿名の質問を受け付けた実践例です．
-- <mark>**[LINEオープンチャットでの授業における質問の受け付け方](/articles/question-tools#LINEopenchat)** </mark>
+- **[LINEオープンチャットでの授業における質問の受け付け方](/articles/question-tools#LINEopenchat)** 
 
 
 ### <mark>Wonder</mark>
