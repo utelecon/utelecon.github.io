@@ -99,10 +99,7 @@ Microsoft FormsはMicrosoft 365に含まれているフォーム作成サービ�
 Googleドキュメントは，Google Workspaceに含まれる文書作成ツールです．クラウド（Googleドライブ）上に文書を保存するため，複数人が同時編集をしたり，URLを使って文書を共有したりすることが簡単にできます．
 
 Googleドキュメントのほかに，表計算サービスの「Googleスプレッドシート」，プレゼンテーション作成サービスの「Googleスライド」なども同じように使うことができます．
-
 - **[Google ドキュメントの基本的な使い方](/articles/google-document/)**：基本的な使い方を説明しています．
-- **[Google Driveの基本的な使い方](/articles/google-drive/)**：Googleドキュメントで作成した文書の「置き場」となるGoogleドライブの使い方を説明しています．
-- **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った授業の実践例です．
 - **[オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)**：グループワークで活用するために雛形ファイルのコピーを複数作る，という作業を自動化するスクリプト（簡単なプログラム）が紹介されています．
 
 ### Word Online
@@ -120,12 +117,22 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 - **[Scrapboxの基本的な使い方](/articles/scrapbox/)**：Scrapboxの基本的な使い方を説明しています．
 - **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてScrapboxで資料を共有する実践例です．
 
+## <mark>その他の資料作成・共有ツール</mark>
+- Google スライド
+    - **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った授業の実践例です．
+
+
+## <mark>資料の保存・共有</mark>
+### Google ドライブ
+- **[Google Driveの基本的な使い方](/articles/google-drive/)**：Googleドキュメントで作成した文書の「置き場」となるGoogleドライブの使い方を説明しています．
+
+
 ## 手書きノート・ホワイトボード
 {:#handwriting}
 
 タブレットやタッチパネル対応のPCを使って，手書きで文字や図をかくためのツールです．オンライン授業で手書きの「板書」をしたいという場合に使えるツールです．また，同時編集の機能が充実しているツールであれば，グループワークなどでも活用することができます．
 
-→ **[やりたいことから探す／手書きの「板書」で説明したい](/online/topics#handwriting)**：オンライン授業における手書きの「板書」について，さまざまな方法を紹介しています．
+<mark>「やりたいことから探す/手書きの「板書」で説明したい」へのリンクを削除</mark>
 
 ### GoodNotes 5
 
@@ -142,23 +149,31 @@ OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブ
 - **[OneNoteで板書する](/articles/onenote-whiteboard/)**：基本的な使い方と板書での活用方法を説明しています．
 - **[オンライン授業のグッドプラクティス／入江薫先生 数理統計I、II](/good-practice/interview/irie)**：授業においてOneNoteで板書をする実践例です．
 
-### その他の手書きノート・ホワイトボード
-{:#handwriting-others}
+<mark>以下、miro, Padlet, Google JamboardのレベルをGoodNotes 5, OneNoteと揃えた。 </mark>
 
-この他に，**[miro](https://miro.com/)**，**[Padlet](https://padlet.com/)**，**[Google Jamboard](https://jamboard.google.com/)**などのホワイトボードツールがあります．紹介記事を今後追加していく予定です．
+### miro
+- **[公式サイト](https://miro.com/)**
+
+### Padlet
+- **[公式サイト](https://padlet.com/)**
+
+### Google Jamboard 
+- **[公式サイト](https://jamboard.google.com/)**
+
 
 ## Web会議で双方向コミュニケーション
 {:#web-conf-interactive-com}
 
 Web会議ツールと併用することで学生と教員の双方向のコミュニケーションを活性化させることに役立つツールを紹介します．
 
-→**[授業における質問の受け付け方の工夫](/articles/question-tools/)**：授業において質問を受け付けることを特に念頭に置いて，利用できるツールをまとめ，良い点や注意点などを挙げて詳しく比較しています．
+<mark>「授業における質問の受け付け方の工夫」へのリンクを削除</mark>
 
 ### Slido
 
 「Slido」は，Q&Aやライブ投票・アンケートなど，授業や会議・講演会などでの参加者との双方向コミュニケーションに役立つ機能を提供しているWebサービスです．
 
-→ **[Slido 説明ページ](/slido/)**：使い方や活用事例をまとめています．
+- **[Slido 説明ページ](/slido/)**：使い方や活用事例をまとめています．
+- <mark>**[Slidoを用いた授業における質問の受け付け方](/articles/question-tools#Slido)** </mark>
 
 ### CommentScreen
 
@@ -166,13 +181,18 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 
 - **[CommentScreen](https://commentscreen.com/)**：公式ウェブサイトです．
 - **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
+- <mark>**[CommentScreenを用いた授業における質問の受け付け方](/articles/question-tools#CommentScreen)** </mark>
 
-## チャットでコミュニケーション
+
+## <mark>コミュニケーションツール</mark>
 {:#chat-com}
+{:#voice-chat}
 
-チャット（テキストメッセージ）をやり取りしてコミュニケーションすることができるツールを紹介します．これらのツールは，授業以外でも，研究室や学科・専攻内，サークルなど，さまざまな場面で活用することができます．
+<mark> **[要内容修正]**
+チャット（テキストメッセージ）、音声チャット、ビデオ通話などで様々な方法でやり取りしてコミュニケーションをとることができるツールを紹介します．これらのツールは，授業以外でも，研究室や学科・専攻内，サークルなど，さまざまな場面で活用することができます．</mark>
 
-→**[授業における質問の受け付け方の工夫](/articles/question-tools/)**：授業において質問を受け付けることを特に念頭に置いて，利用できるツールをまとめ，良い点や注意点などを挙げて詳しく比較しています．
+<mark>「授業における質問の受け付け方の工夫」へのリンクを削除</mark>
+
 
 ### Slack
 
@@ -182,13 +202,19 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 - **[ゼミ形式の授業でSlackを活用する](/articles/slack-seminar/)**：特にゼミ形式の授業において，Slackを活用する方法を紹介しています．
 - **[オンライン授業のグッドプラクティス／斎藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito)** ：オンデマンド形式の授業でSlackを使用されており，Slackで授業内容に関する質問を募っている実践例です．
 - **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：Slackで質問や相談を受けた授業の実践例です．
+- <mark>**[Slackでの授業における質問の受け付け方](/articles/question-tools#Slack)** </mark>
+
 
 ### Discord
 
+<mark> **[要内容修正]**
+通話（ボイスチャット）だけでなく日常的なテキストチャットも行えるオンラインの交流ツールです．
 「Discord」もグループやチームの中でコミュニケーションを取るためのツールです．Slackに似た「チャンネル」でテキストチャットがやり取りできるほか，ボイスチャット（音声による通話）も可能で，仲間内で気軽なWeb会議のように使うこともできます．
+</mark>
 
 - **[Discord](https://discord.com/)**：公式ウェブサイトです．
 - **[オンライン会議ツールを使って交流する](/articles/online-interaction/)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Discordを使って交流する](/articles/online-interaction#Discord)**
 
 ### LINEオープンチャット
 {:#line-openchat}
@@ -197,14 +223,26 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 
 - **[オープンチャットを利用する（LINEみんなの使い方ガイド）](https://guide.line.me/ja/services/openchat.html)**：オープンチャットに関するLINE公式の説明ページです．
 - **[オンライン授業のグッドプラクティス／廣瀬敬先生 固体地球科学](/good-practice/interview/hirose)**：授業においてLINEオープンチャットで匿名の質問を受け付けた実践例です．
+- <mark>**[LINEオープンチャットでの授業における質問の受け付け方](/articles/question-tools#LINEopenchat)** </mark>
 
-## 多人数での通話・交流
-{:#voice-chat}
 
-- **[オンライン会議ツールを使って交流する](/articles/online-interaction/)**：ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールを紹介しています．紹介しているツールは以下の4種類です．
-    - **[Discord](https://discord.com/)**：通話（ボイスチャット）だけでなく日常的なテキストチャットも行えるオンラインの交流ツールです．
-    - **[Wonder.me](https://www.wonder.me/)**：画面上にある自分のアイコンを動かすことで部屋を移動できることが特徴の会議ツールです．
-    - **[Gather](https://www.gather.town/)**：レトロゲーム風の遊び心のあるUIが特徴の会議ツールです．
-    - **[Remo](https://jp.remo.co/)**：画面上にある自分のアイコンを動かすことで擬似的な「テーブル」を移動できることが特徴の会議ツールです．
+### <mark>Wonder</mark>
+画面上にある自分のアイコンを動かすことで部屋を移動できることが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
+- **[公式サイト](https://www.wonder.me/)**
+- **[Wonderを使って交流する](/articles/online-interaction#Wonder)**
 
-このほか，画面上での他の人との「距離」によって音量が変化する会議ツール「**[SpatialChat](https://spatial.chat/)**」などもあります．
+### <mark>Gather</mark> 
+レトロゲーム風の遊び心のあるUIが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
+- **[公式サイト](https://www.gather.town/)**
+- **[Gatherを使って交流する](/articles/online-interaction#Gather)**
+
+### <mark>Remo</mark>
+画面上にある自分のアイコンを動かすことで擬似的な「テーブル」を移動できることが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
+- **[公式サイト](https://jp.remo.co/)**
+- **[Remoを使って交流する](/articles/online-interaction#Remo)**
+
+### <mark>SpatialChat</mark>
+画面上での他の人との「距離」によって音量が変化する会議ツールです．
+- **[公式サイト](https://spatial.chat/)**
+
+
