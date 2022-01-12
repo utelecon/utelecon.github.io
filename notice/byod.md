@@ -9,8 +9,6 @@ title: 東京大学のBYOD方針
 
 ## 基本的な性能要件
 ### 新規に購入する場合
-| 項目 | 内容 |
-|:-:|:-:|
 | OS | 最新のものでよい。 Windows 10/11, macOS 12.0 など |
 | CPU | Intel Core i5 または Apple M1 以上 |
 | メモリ | 8GB 以上 |
@@ -37,3 +35,8 @@ title: 東京大学のBYOD方針
 以下の部局については個別の要件がありますのでご確認ください。
 - 工学部・工学系研究科
 - 情報理工学研究科
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
