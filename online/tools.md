@@ -216,8 +216,8 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 </mark>
 
 - **[Discord](https://discord.com/)**：公式ウェブサイトです．
-- **[オンライン会議ツールを使って交流する](/articles/online-interaction/)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
-- **[Discordを使って交流する](/articles/online-interaction#Discord)**
+- **[Discordを使って交流する](/articles/online-interaction#Discord)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- 
 
 ### <mark>LINEオープンチャット</mark>
 {:#line-openchat}
