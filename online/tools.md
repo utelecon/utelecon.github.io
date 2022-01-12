@@ -27,13 +27,13 @@ Zoomは，最もポピュラーと思われるWeb会議システムで，東京�
 
 WebexはCisco社の提供するWeb会議システムです．東京大学のライセンスでは参加人数の上限がZoomより多い1000人となっています．また，E2E (End to End) 暗号化と呼ばれる安全性が高いとされる方法で会議を開催することができます．
 
-→ **[Webex 説明ページ](/webex/)**：使い方をまとめています．
+- **[Webex 説明ページ](/webex/)**：使い方をまとめています．
 
 ### Google Meet
 
 Google Meetは，GoogleがGoogle Workspaceの一部として提供しているWeb会議システムです．GoogleカレンダーなどGoogleの各種サービスとの連携が充実していることが特徴です．
 
-→ **[Google Meet 説明ページ](/meet/)**：使い方をまとめています．
+- **[Google Meet 説明ページ](/meet/)**：使い方をまとめています．
 
 ## 学習管理システム
 {:#lms}
@@ -44,7 +44,7 @@ Google Meetは，GoogleがGoogle Workspaceの一部として提供しているWe
 
 ITC-LMSは東京大学の学習管理システムです．授業資料の配布・課題提出・オンライン試験・教員から学生へのお知らせ通知などの機能があります．東京大学のアカウント (UTokyo Account) および履修登録などを行う学務システム (UTAS) と連携しているため，**「東京大学の学生だけに」あるいは「その授業の履修者だけに」情報を渡すことが簡単**に行えます．**学生への浸透率も高い**ので，授業資料の配布・課題のやり取りなどには，まずITC-LMSのご利用をお考えください．
 
-→ **[ITC-LMS 説明ページ](/itc_lms)**：使い方をまとめています．
+- **[ITC-LMS 説明ページ](/itc_lms)**：使い方をまとめています．
 
 ### Google Classroom
 
@@ -61,14 +61,15 @@ Google Classroomは，GoogleがGoogle Workspaceの一部として提供してい
 
 Google Workspaceは，GmailやGoogleドライブ・Googleドキュメント・GoogleスプレッドシートなどのGoogleサービスの総称です．東京大学では有料ライセンスを契約しており，「ECCSクラウドメール」の名称で提供しています．
 
-→ **[ECCSクラウドメール (Google Workspace) 説明ページ](/eccs_cloud_email)**：ECCSクラウドメール (Google Workspace) に関する情報をまとめています．
+- **[ECCSクラウドメール (Google Workspace) 説明ページ](/eccs_cloud_email)**：ECCSクラウドメール (Google Workspace) に関する情報をまとめています．
 
 ### Microsoft 365 (UTokyo Microsoft License)
 {:#microsoft-365}
 
 Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサービスの総称です．東京大学では有料ライセンスを契約しており，「UTokyo Microsoft License」の名称で提供しています．
 
-→ **[UTokyo Microsoft Licenseのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)**：東京大学におけるUTokyo Microsoft License利用上の注意事項などがまとまっています．
+- **[UTokyo Microsoft Licenseのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)**：東京大学におけるUTokyo Microsoft License利用上の注意事項などがまとまっています．
+
 
 ## フォーム作成
 {:#forms}
@@ -80,35 +81,49 @@ Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサ�
 
 GoogleフォームはGoogle Workspaceに含まれているフォーム作成サービスです．東大のアカウントを使うと，回答できる人の範囲を東大のアカウントに限定したフォームを作成することもできます．
 
-→ **[Googleフォームで小テストやアンケートを実施する](/articles/google-form/)**：小テストやアンケートを想定して基本的な使い方を説明しています.
+- **[Googleフォームで小テストやアンケートを実施する](/articles/google-form/)**：小テストやアンケートを想定して基本的な使い方を説明しています.
 
 ### Microsoft Forms
 
 Microsoft FormsはMicrosoft 365に含まれているフォーム作成サービスです．回答できる人の範囲を個人単位で指定したり，選択肢によって質問が変化する分岐を一つのページの中で作成したりすることができるのが特徴です．
 
-→ **[Microsoft Forms のヘルプとラーニング（Microsoftサポート）](https://support.microsoft.com/ja-jp/forms)**：Microsoft Formsに関するMicrosoftの説明ページです．
+- **[Microsoft Forms のヘルプとラーニング（Microsoftサポート）](https://support.microsoft.com/ja-jp/forms)**：Microsoft Formsに関するMicrosoftの説明ページです．
 
-## 文書作成・共有
+
+## 資料作成・共有
 {:#docs}
 
-オンラインで文書を作成・共有することができるツールです．多くのツールが複数人での同時編集に対応しており，会議やグループワークの際のメモ書きを行うのに非常に適しています．
+オンラインで資料を作成・共有することができるツールです．多くのツールが複数人での同時編集に対応しており，会議やグループワークの際のメモ書きを行うのに非常に適しています．
 
-### Googleドキュメント
+### Google Workspaceに含まれるツール
+
+#### Googleドキュメント
 {:#google-docs}
 
 Googleドキュメントは，Google Workspaceに含まれる文書作成ツールです．クラウド（Googleドライブ）上に文書を保存するため，複数人が同時編集をしたり，URLを使って文書を共有したりすることが簡単にできます．
 
-Googleドキュメントのほかに，表計算サービスの「Googleスプレッドシート」，プレゼンテーション作成サービスの「Googleスライド」なども同じように使うことができます．
 - **[Google ドキュメントの基本的な使い方](/articles/google-document/)**：基本的な使い方を説明しています．
-- **[オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)**：グループワークで活用するために雛形ファイルのコピーを複数作る，という作業を自動化するスクリプト（簡単なプログラム）が紹介されています．
+- **[オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)**：グループワークで活用するために，Google ドキュメントなどで作成した雛形ファイルのコピーを複数作るという作業を自動化するスクリプト（簡単なプログラム）が紹介されています．
 
-### Word Online
+#### Google スライド
+{:#google-slides}
+
+- **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った授業の実践例です．
+- **[オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)**：グループワークで活用するために，Google スライドなどで作成した雛形ファイルのコピーを複数作るという作業を自動化するスクリプト（簡単なプログラム）が紹介されています．
+
+上記以外にも，表計算サービスの「Googleスプレッドシート」，プレゼンテーション作成サービスの「Googleスライド」なども同じように使うことができます．
+
+
+### Microsoft Officeに含まれるツール
+
+#### Word Online
 
 Word Onlineは，Microsoft Wordのオンライン版です．Wordファイルをそのままクラウド (OneDrive) 上に保存して，複数人が同時編集をしたり，URLを使って文書を共有したりすることができます．
 
+- **[Web 用 Word で文書を作成する（Microsoftサポート）](https://support.microsoft.com/ja-jp/office/web-%E7%94%A8-word-%E3%81%A7%E6%96%87%E6%9B%B8%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B-b406a6f9-341e-45f2-b9ac-ed85b6f7b8f6)**：Word Onlineに関するMicrosoft公式の説明ページです．
+
 なお，Wordだけでなく，ExcelやPowerPointでも同様にオンライン版を利用できます．
 
-→ **[Web 用 Word で文書を作成する（Microsoftサポート）](https://support.microsoft.com/ja-jp/office/web-%E7%94%A8-word-%E3%81%A7%E6%96%87%E6%9B%B8%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B-b406a6f9-341e-45f2-b9ac-ed85b6f7b8f6)**：Word Onlineに関するMicrosoft公式の説明ページです．
 
 ### Scrapbox
 
@@ -116,11 +131,6 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 
 - **[Scrapboxの基本的な使い方](/articles/scrapbox/)**：Scrapboxの基本的な使い方を説明しています．
 - **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてScrapboxで資料を共有する実践例です．
-
-## <mark>その他の資料作成・共有</mark>
-### Google スライド
-- **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った授業の実践例です．
-
 
 ## <mark>資料の保存・共有</mark>
 ### Google ドライブ
@@ -131,8 +141,6 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 {:#handwriting}
 
 タブレットやタッチパネル対応のPCを使って，手書きで文字や図をかくためのツールです．オンライン授業で手書きの「板書」をしたいという場合に使えるツールです．また，同時編集の機能が充実しているツールであれば，グループワークなどでも活用することができます．
-
-<mark>「やりたいことから探す/手書きの「板書」で説明したい」へのリンクを削除</mark>
 
 ### GoodNotes 5
 
@@ -149,7 +157,6 @@ OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブ
 - **[OneNoteで板書する](/articles/onenote-whiteboard/)**：基本的な使い方と板書での活用方法を説明しています．
 - **[オンライン授業のグッドプラクティス／入江薫先生 数理統計I、II](/good-practice/interview/irie)**：授業においてOneNoteで板書をする実践例です．
 
-<mark>以下、miro, Padlet, Google JamboardのレベルをGoodNotes 5, OneNoteと揃えた。 </mark>
 
 ### miro
 - **[公式サイト](https://miro.com/)**
@@ -161,12 +168,11 @@ OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブ
 - **[公式サイト](https://jamboard.google.com/)**
 
 
+
 ## Web会議で双方向コミュニケーション
 {:#web-conf-interactive-com}
 
 Web会議ツールと併用することで学生と教員の双方向のコミュニケーションを活性化させることに役立つツールを紹介します．
-
-<mark>「授業における質問の受け付け方の工夫」へのリンクを削除</mark>
 
 ### <mark>Slido</mark>
 
@@ -190,8 +196,6 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 
 <mark> **[要内容修正]**
 チャット（テキストメッセージ）、音声チャット、ビデオ通話などで様々な方法でやり取りしてコミュニケーションをとることができるツールを紹介します．これらのツールは，授業以外でも，研究室や学科・専攻内，サークルなど，さまざまな場面で活用することができます．</mark>
-
-<mark>「授業における質問の受け付け方の工夫」へのリンクを削除</mark>
 
 
 ### <mark>Slack</mark>
