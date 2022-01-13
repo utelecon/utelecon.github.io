@@ -158,7 +158,7 @@ OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブ
 - **[OneNoteで板書する](/articles/onenote-whiteboard/)**：基本的な使い方と板書での活用方法を説明しています．
 - **[オンライン授業のグッドプラクティス／入江薫先生 数理統計I、II](/good-practice/interview/irie)**：授業においてOneNoteで板書をする実践例です．
 
-### miro
+### Miro
 Miro社が提供するオンラインのホワイトボードツールです．
 - **[Miro（外部サイト）](https://miro.com/)**：Miroの公式サイトです．
 
