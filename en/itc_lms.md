@@ -1,10 +1,9 @@
 ---
 title: ITC-LMS
-lang: en
 ---
 
 ## What is ITC-LMS
-[ITC-LMS] (https://itc-lms.ecc.u-tokyo.ac.jp/) is a learning management system of the University of Tokyo. Features of ITC-LMS include distribution of lecture materials, submission of assignments, online examinations, and notification from faculty members to students. Students need to be able to use this system to take online classes smoothly. In particular, to receive notices from instructors, students should enable notification settings following the instructions below.
+[ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/) is a learning management system of the University of Tokyo. Features of ITC-LMS include distribution of lecture materials, submission of assignments, online examinations, and notification from faculty members to students. Students need to be able to use this system to take online classes smoothly. In particular, to receive notices from instructors, students should enable notification settings following the instructions below.
 
 ### (For instructors) Advantages of using ITC-LMS
 Services of ITC-LMS are similar to other ICT class support tools. Noteworthy is that the system is linked to UTokyo Account and the Academic Affair System (UTAS) for course registration. **This makes it very easy to pass information only to “students of UTokyo” or only to “students enrolled in the course”.** It is presumed that almost every first or second year undergraduates  have used this system. In other words, **the penetration rate of ITC-LMS is high among students**. When distributing lecture materials and collecting/returning assignments, using ITC-LMS is highly recommended.
@@ -13,7 +12,7 @@ Services of ITC-LMS are similar to other ICT class support tools. Noteworthy is 
 {% include procedures/en/itc_lms.html part="login" %}
 
 ## Notification Settings
-To receive notices from instructors, students should enable the notification function following the instructions below. LINE notification is also available. If  instructors enable the notification function, they will also  receive notifications concerning assignment submissions. 
+To receive notices from instructors, students should enable the notification function following the instructions below. LINE notification is also available. If  instructors enable the notification function, they will also receive notifications to receive messages from students and concerning assignment submissions. 
 {% include procedures/en/itc_lms.html part="notification" %}
 
 ## (For Instructors) How to Use

@@ -1,6 +1,5 @@
 ---
 title: Prepare for confirming attendance in classes
-lang: en
 ---
 In online classes, you can set “check the attendance” on ITC-LMS. You can use as follows:
 

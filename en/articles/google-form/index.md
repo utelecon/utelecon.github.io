@@ -1,6 +1,5 @@
 ---
 title: Conducting Quizzes and Surveys with Google Forms
-lang: en
 ---
 
 ## Highlights of This Article
@@ -62,7 +61,7 @@ After clicking, you will see a screen like the one below.
 
 #### Setting up as a Quiz
 
-Click on the Settings (a blue circle in the picture below) and turn on the "Make this a quiz". If you turn on "Make this a quiz", you can use automatic scoring (see [Apply automatic scoring](#apply-automatic-scoring)). You can also set the method of grade disclosure and other options.
+Click on the Settings (the blue circle in the picture below) and turn on the "Make this a quiz". If you turn on "Make this a quiz", you can use automatic scoring (see [Apply automatic scoring](#apply-automatic-scoring)). You can also set the method of grade disclosure and other options.
 
 <figure>
 <img src="photo_04.png">
@@ -70,7 +69,7 @@ Click on the Settings (a blue circle in the picture below) and turn on the "Make
 
 #### Create a Question
 
-##### Create Single-choice Questions with“Multiple Choice”
+##### Create Single-choice Questions with “Multiple Choice”
 
 Click on the arrow icon on the right of the question form (the red circle as shown in the image below) and select "Multiple Choice". Enter the question in the green frame and answers in the light blue frame.
 
@@ -110,7 +109,7 @@ Enter a question in the green frame below.
 
 Select "Paragraph" from the arrow icon on the right (the red circle in the image above).
 
-To prevent answers from being deleted mistakenly while inputting, it is recommended to write answers in a separate file on students’ computers before copying and pasting to Google Forms. (For details, see [Prof. Yotsumoto's Good Practice(only in Japanese)](/good-practice/interview/yotsumoto)).
+To prevent answers from being deleted mistakenly while inputting, it is recommended to write answers in a separate file on students’ computers before copying and pasting to Google Forms. (For details, see [Prof. Yotsumoto's Good Practice (only in Japanese)](/good-practice/interview/yotsumoto)).
 
 Note that the automatic grading function (explanation in next section) cannot be used for paragraph questions.
 

@@ -1,6 +1,5 @@
 ---
 title: How to Log in and Create an UTokyo Webex account
-lang: en
 ---
 
 ## Create a Webex Account	

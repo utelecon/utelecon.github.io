@@ -1,6 +1,5 @@
 ---
 title: (Zoom for Faculty members ) Managing Attendance
-lang: en
 ---
 
 Using the report function of Zoom, you can see a list of participants and their respective join/leave time. You can use it to manage attendance. 

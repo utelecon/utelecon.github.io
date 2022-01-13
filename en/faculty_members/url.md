@@ -1,6 +1,5 @@
 ---
 title: How to Announce Online Class URL  (for Faculty Members)
-lang: en
 ---
 
 This page explains how instructors announce the online class URL (the URL of web conference rooms such as Zoom) to students. 

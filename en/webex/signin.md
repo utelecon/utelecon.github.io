@@ -1,6 +1,5 @@
 ---
 title: Signing in to Webex
-lang: en
 toc: false
 ---
 
