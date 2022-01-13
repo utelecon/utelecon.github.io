@@ -192,7 +192,6 @@ Discordは，グループやチーム内でコミュニケーション用ツー�
 
 - **[Discord（外部サイト）](https://discord.com/)**：公式ウェブサイトです．
 - **[Discordを使って交流する](/articles/online-interaction#Discord)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
-- 
 
 ### LINEオープンチャット
 {:#line-openchat}
