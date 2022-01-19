@@ -33,7 +33,7 @@ Please choose the most appropriate method based on the nature of your class and 
 ### Fields to Edit
 You can restrict access to a Zoom meeting room by editing the following fields (1) to (3).
 
-* (1) ”Waiting Room” & (2) ”Require authentication to join”: These fields can be found under the “Security” section in the “Schedule a Meeting” page. Please also refer to the “[Scheduling a Zoom Meeting (Web Portal)](/en/zoom/create_room.md)” page for procedures to schedule a meeting.
+* (1) ”Waiting Room” & (2) ”Require authentication to join”: These fields can be found under the “Security” section in the “Schedule a Meeting” page. Please also refer to the “[Scheduling a Zoom Meeting (Web Portal)](/en/zoom/create_room.html)” page for procedures to schedule a meeting.
 ![](/en/zoom/img/zoom_access_1.png){:.medium}
 * (3) ”Who should go in the waiting room?”: This field can be found in the Zoom Settings page.
     1. In your web browser, access [Zoom Setting page](https://u-tokyo-ac-jp.zoom.us/profile/setting).
@@ -57,4 +57,4 @@ You can restrict access to a Zoom meeting room by editing the following fields (
     * (3) Who should go in the waiting room?: “Everyone”
 
 * Method D (**Not recommended**): Only admit participants signed in with university accounts into the meeting room
-    * (2) Require authentication to join: Turn on this option and select ”大学アカウントでサインイン”(Sign in with university account) , and confirm that the domain showing up below is ‘*.u-tokyo.ac.jp’.（[Details](/en/zoom/auth.md)）
+    * (2) Require authentication to join: Turn on this option and select ”大学アカウントでサインイン”(Sign in with university account) , and confirm that the domain showing up below is ‘*.u-tokyo.ac.jp’.（[Details](/en/zoom/auth.html)）
