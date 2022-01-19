@@ -17,7 +17,7 @@ Some options for taking attendance are:
 * To avoid fake attendance, require students to answer questions related to the contents of lecture or give feedback on the class.
 * To avoid faking attendance, enable the “Collect emails” function when creating Google forms with ECCS Cloud Email account (UTokyo G Suite). Students’ email addresses would be collected for identity confirmation, making it harder for students to fake attendance. To do this, go to “Settings (the gear icon)”, check the box next to "Collect emails" and select “Restrict to users of UTokyo ECCS Cloud Email and its trusted organizations”.
 * Call the roll (suitable for smaller size classes using web conference systems). You might have the participants turn on cameras and confirm their identities.
-* Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/en/zoom/how/faculty_members/attendance" target="_blank"> Zoom for staff: Attendance management</a>.
+* Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/en/zoom/how/faculty_members/attendance" target="_blank"> Zoom for staff: Managing Attendance</a>.
 
 <a name="zoom"> </a>
 ## Zoom
@@ -90,7 +90,7 @@ Some options for taking attendance are:
   1. Click "Report" [https://zoom.us/account/report](https://zoom.us/account/report) on the left menu of Zoom My Page, and then "Use".
   1. Click the number in the "Attendee" column of the meeting you want to confirm the attendance of.
   1. Names, join time, leave time, scheduling time, and Zoom account email address of attendees would be displayed.
-* For more details, check [how to check attendance in itc-lms](/en/lms_lecturers/prepare_attendances).
+* For more details, check [Prepare for confirming attendance in classes](/en/lms_lecturers/prepare_attendances).
 
 #### Q. How can I assign omnibus speakers or TAs as hosts?  
 * There are two ways to handle this.  
