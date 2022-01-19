@@ -10,9 +10,11 @@ _site/
 .ruby-version
 *.gem
 Gemfile.lock
+vendor/
 
 # Files
 .analysis
 .DS_Store
 *.swp
 *~
+.vscode/
