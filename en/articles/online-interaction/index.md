@@ -171,7 +171,7 @@ The features of the four tools introduced so far are summarized in the table bel
    <td>Free</td>
    <td>Free</td>
    <td>Free</td>
-   <td>Monthly (100$/month for the cheapest plan, free trial available)</td>
+   <td>Free</td>
   </tr>
   <tr>
    <td>Access</td>
