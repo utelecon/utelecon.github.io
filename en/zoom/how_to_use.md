@@ -1,6 +1,5 @@
 ---
 title: How to use Zoom
-lang: en
 ---
 
 

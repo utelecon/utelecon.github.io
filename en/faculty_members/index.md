@@ -1,6 +1,5 @@
 ---
 title: Preparing for online classes at the University of Tokyo (for faculty members)
-lang: en
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 ---
 

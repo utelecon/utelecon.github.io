@@ -1,5 +1,5 @@
-{% include layouts/lang.html %}<!DOCTYPE html>
-<html lang="{{ lang }}"{% if lang == "en" %} class="en"{% endif %}>
+<!DOCTYPE html>
+<html lang="{{ page.lang }}"{% if page.lang == "en" %} class="en"{% endif %}>
   <head>
 
     {% if site.google_analytics %}

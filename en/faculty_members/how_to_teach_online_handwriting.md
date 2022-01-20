@@ -1,6 +1,5 @@
 ---
 title: Online Handwriting
-lang: en
 ---
 
 Here, we will introduce how to teach using online handwriting.

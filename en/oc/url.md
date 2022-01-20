@@ -1,6 +1,5 @@
 ---
 title: How to Obtain the Online Class URL (for Students)
-lang: en
 ---
  
 A specific URL is essential to participate in a “simultaneous interactive” online class. This page explains how to obtain the class URL. 

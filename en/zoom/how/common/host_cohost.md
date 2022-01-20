@@ -1,6 +1,5 @@
 ---
 title: Host and Co-host Controls in a Zoom Meeting
-lang: en
 ---
 
 ## What is a Host?

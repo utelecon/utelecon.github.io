@@ -1,6 +1,5 @@
 ---
 title: Using Multi-Factor Authentication for UTokyo Accounts
-lang: en
 css: [mfa]
 ---
 
@@ -29,7 +28,7 @@ It is recommended to have MFA set up for better security of your UTokyo Account.
 ## MFA Initial Setup Procedure
 {:#initial}
 
-<div class="box" style="color: red;">2021-10-18 The procedure has changed significantly, such as changing the order.</div>
+<strong class="box--alert">2021-10-18 The procedure has changed significantly, such as changing the order.</strong>
 
 ### Step 1: Set Up the First Verification Method
 {:#initial-first.mfa-initial-step-heading}

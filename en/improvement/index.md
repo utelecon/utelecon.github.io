@@ -1,6 +1,5 @@
 ---
 title: Improving Online Classes
-lang: en
 ---
 
 ## Introduction

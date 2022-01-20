@@ -1,6 +1,5 @@
 ---
 title: Set the course
-lang: en
 ---
 In ITC-LMS, lectures offered in terms and semesters are called "Courses". First, set up the course according to your subject.
 
@@ -22,6 +21,8 @@ You can set a document to be displayed on the top screen when a student searches
 [手順動画](https://youtu.be/Sdqtw2m1j48)
 
 ## Setting for course registration, message usage
+
+<div class="box">The default setting for this message function has been change to "Accept contact from students" after December 22, 2021. If you do not wish to receive messages from students, please change the setting by unchecking the check box for "Accept contacts from students".</div>
 
 Students enrolled in UTAS courses will be automatically enrolled in the relevant courses. However, for non-compulsory courses, registration on UTAS will be performed shortly after the course starts. Therefore, in order to be able to use it in the first few lessons, it is necessary to make such settings.
 

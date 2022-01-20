@@ -1,6 +1,5 @@
 ---
 title: How to join Webex Training
-lang: en
 ---
 
 ## Join a meeting
