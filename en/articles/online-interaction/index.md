@@ -40,7 +40,7 @@ Discord is a tool for online voice chat (conversation through voice). It can be 
 2. **Text chat**: You can also use the text channel to conduct a text conversation.
 3. **Screen sharing**: During voice chat, you can share your computer screen with your caller by clicking on the TV icon. 
 4. **Video chatting**: You can use video chatting not only between individuals, but also between multiple people by setting up a group DM in advance.
-5. **Shortcuts**: In order to use these functions, shortcut keys are adopted, for example, "Alt+↑" or "Alt+↓" to move between channels, "Ctrl+Enter" to answer incoming calls, and so on. This allows you to take quick actions when you are taking minutes or doing other tasks, and helps to facilitate meetings.
+5. **Shortcuts**: In order to use these functions, shortcut keys are adopted, for example, "Alt+&uarr;" or "Alt+&darr;" to move between channels, "Ctrl+Enter" to answer incoming calls, and so on. This allows you to take quick actions when you are taking minutes or doing other tasks, and helps to facilitate meetings.
 
 ### References
 
@@ -176,30 +176,30 @@ The features of the four tools introduced so far are summarized in the table bel
   </tr>
   <tr>
    <td>Voice and video calls</td>
-   <td>◯</td>
-   <td>◯</td>
-   <td>◯</td>
-   <td>◯</td>
+   <td>&check;</td>
+   <td>&check;</td>
+   <td>&check;</td>
+   <td>&check;</td>
   </tr>
   <tr>
    <td>Screen sharing</td>
-   <td>◯</td>
-   <td>◯</td>
-   <td>◯</td>
-   <td>◯</td>
+   <td>&check;</td>
+   <td>&check;</td>
+   <td>&check;</td>
+   <td>&check;</td>
   </tr>
   <tr>
    <td>Whiteboard</td>
-   <td>×</td>
-   <td>×</td>
-   <td>◯</td>
-   <td>◯</td>
+   <td>x</td>
+   <td>x</td>
+   <td>&check;</td>
+   <td>&check;</td>
   </tr>
   <tr>
    <td>General notification</td>
    <td>Text channels</td>
    <td>Broadcast function</td>
-   <td>×</td>
+   <td>x</td>
    <td>Presentation function</td>
   </tr>
   <tr>
