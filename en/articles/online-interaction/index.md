@@ -12,7 +12,7 @@ A comparison of online interaction tools that may be useful for online conferenc
 * Want to share ideas and facilitate online meetings, but are unsure what tools to use
 * Want to be able to assign rooms more easily and intuitively, as assigning breakout sessions in Zoom is difficult
 
-In the following sections, we will compare four meeting tools to help you organize online meetings and conferences: Discord, Wonder, Gather Town, and Remo.
+In the following sections, we will compare four meeting tools to help you organize online meetings and conferences: Discord, Wonder, Gather, and Remo.
 
 ## Discord
 
@@ -144,14 +144,8 @@ Remo is an online communication tool that allows you to enter a virtual room wit
 ### References
 
 * [Document] Remo guide: [https://hi.remo.co/deck-jp](https://hi.remo.co/deck-jp)
-* [Guide] For organizers: [https://hi.remo.co/host-guide-jp](https://hi.remo.co/host-guide-jp)
-* [Guide] For participants: [https://hi.remo.co/guest-guide-jp](https://hi.remo.co/guest-guide-jp)
-* [Guide] For speakers: [https://hi.remo.co/speaker-guide-jp
-* [Manual] Using sponsors: [https://hi.remo.co/sponsor-guide-jp](https://hi.remo.co/sponsor-guide-jp)
-* [Video] Joining an event: [https://youtu.be/gKQAjahCJow](https://youtu.be/gKQAjahCJow)
-* [Video] Creating an event: [https://youtu.be/NP6DJodI53s](https://youtu.be/NP6DJodI53s)
-* [Video] How to make a banner: [https://youtu.be/O_VDogj5ZnU](https://youtu.be/O_VDogj5ZnU)
-* [Video] Troubleshooting: [https://www.youtube.com/watch?v=r5WVj07y4mU](https://www.youtube.com/watch?v=r5WVj07y4mU)"
+* [Guide] Remo Helpdesk: [https://help.remo.co/en/support/home](https://help.remo.co/en/support/home)
+* [Video] Remo 101: [https://www.youtube.com/watch?v=iXdefdYMJlE&list=PL0OTlNhIJiS2FBg7UT93w1w51dUUmSUSs](https://www.youtube.com/watch?v=iXdefdYMJlE&list=PL0OTlNhIJiS2FBg7UT93w1w51dUUmSUSs)
 
 
 ## Comparison of the Four Tools
