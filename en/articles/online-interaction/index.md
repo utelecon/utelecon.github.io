@@ -36,7 +36,7 @@ Discord is a tool for online voice chat (conversation through voice). It can be 
 
 ### What You Can Do in Discord
 
-1. **Voice Chat**: You can create a voice channel and enjoy voice calls with multiple people. Noise reduction and easy grouping are available. 
+1. **Voice chat**: You can create a voice channel and enjoy voice calls with multiple people. Noise reduction and easy grouping are available. 
 2. **Text chat**: You can also use the text channel to conduct a text conversation.
 3. **Screen sharing**: During voice chat, you can share your computer screen with your caller by clicking on the TV icon. 
 4. **Video chatting**: You can use video chatting not only between individuals, but also between multiple people by setting up a group DM in advance.
@@ -70,10 +70,10 @@ Wonder is a relatively new conference tool that allows you to intuitively move b
 ### Things You Can Do With Wonder
 
 1. **Large meetings**: Wonder can hold up to 1500 participants at once. You can create a room and then create a smaller room called Circle, so you don't have to deal with too many participants. 
-2. **Smooth room movement**: Participants can see who is talking to whom, and can join others conversations by moving between Circles. You can also invite specific participants to your Circle. 
+2. **Smooth room movement**: Participants can see who is talking to whom, and can join other conversations by moving between Circles. You can also invite specific participants to your Circle. 
 3. **Screen sharing**: You can share your computer screen as in other services. 
 4. **Broadcast**: You can talk to everyone in the room. Up to six participants can use this feature at the same time, making it useful for panel discussions. 
-5. **Text chat**: You can send messages to specific individuals directly, participants within the Circle and all participants, which is useful for note taking ideas in the circle, reminding people of the time during group discussions, and many others.
+5. **Text chat**: You can send messages to specific individuals directly, to participants within the Circle and to all participants, which is useful for note taking ideas in the circle, reminding people of the time during group discussions, and many others.
 
 ### References
 
@@ -88,7 +88,7 @@ Wonder is a relatively new conference tool that allows you to intuitively move b
 
 ## What Is Gather?
 
-Gather is an online communication tool with a retro-game style playful UI, where you can control your avatar to move freely between rooms and virtually experience going to work or working in an office. It is a part of the Virtual Office service, which creates a real office environment on the Internet.
+Gather is an online communication tool with a playful retro-game style UI, where you can control your avatar to move freely between rooms and virtually experience going to work or working in an office. It is a part of the Virtual Office service, which creates a real office environment on the Internet.
 
 <figure>
 <img src="images/pic07.png">
@@ -145,7 +145,7 @@ Remo is an online communication tool that allows you to enter a virtual room wit
 
 * [Document] Remo guide: [https://hi.remo.co/deck-jp](https://hi.remo.co/deck-jp)
 * [Guide] Remo Helpdesk: [https://help.remo.co/en/support/home](https://help.remo.co/en/support/home)
-* [Video] Remo 101: [https://www.youtube.com/watch?v=iXdefdYMJlE&list=PL0OTlNhIJiS2FBg7UT93w1w51dUUmSUSs](https://www.youtube.com/watch?v=iXdefdYMJlE&list=PL0OTlNhIJiS2FBg7UT93w1w51dUUmSUSs)
+* [Video] Remo 101: <br>[https://www.youtube.com/watch?v=iXdefdYMJlE&list=PL0OTlNhIJiS2FBg7UT93w1w51dUUmSUSs&index=1](https://www.youtube.com/watch?v=iXdefdYMJlE&list=PL0OTlNhIJiS2FBg7UT93w1w51dUUmSUSs&index=1)
 
 
 ## Comparison of the Four Tools
@@ -169,7 +169,7 @@ The features of the four tools introduced so far are summarized in the table bel
   </tr>
   <tr>
    <td>Access</td>
-   <td>Downloading Application</td>
+   <td>Downloading application</td>
    <td>On web browser</td>
    <td>On web browser</td>
    <td>On web browser</td>
