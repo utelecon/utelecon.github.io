@@ -1,9 +1,9 @@
 ---
 title: The tools usage guideline for online class since S semester 2021
 --- 
-This is english translation of Japanese document.
+This is the English translation of the Japanese document.
 
-**2021/3/8 education commitee **
+**2021/3/8 Education Commitee**
 
 ## Guideline
 1. For online classes, the online class information section in ITC-LMS should be used to notify the URL. Online class URLs are also automatically registered in UTAS Lite: [University of Tokyo Online Lecture Search](https://utelecon-directory.adm.u-tokyo.ac.jp), so that they can be communicated to students when ITC-LMS is not available. 
@@ -21,6 +21,6 @@ Please instruct participants to use a display name that identifies them for secu
 
 ## (Reference) Setting restrictions on access to web conferencing for classes
 
-- For Zoom: See the page "[Restrictions on access to Zoom conference rooms in classes](/faculty_members/zoom_access_control)".
+- For Zoom: See the page "[Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control)".
 - For Webex: Set this in the "Unlocked Meetings" section of the settings.
-![](image/webex-waitingroom.png)
+![](/notice/image/webex-waitingroom.png)
