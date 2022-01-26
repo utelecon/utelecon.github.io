@@ -14,7 +14,7 @@ title: Zoom サインイン方法
 1. 東京大学専用のZoomのページ [https://u-tokyo-ac-jp.zoom.us/](https://u-tokyo-ac-jp.zoom.us/) にアクセスしてください．
 2. 「UTokyo Zoom」と書かれたページが表示されるので，そのページにある「Config」と書かれたボタンを押してください．
 ![](img/zoom_signin_1.png){:.medium}
-3. UTokyo Accountでサインインしてください（UTokyo Accountにサインイン済みの場合は，この画面を経ずにそのままサインインが完了します）．
+3. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 ![](img/zoom_signin_2.png){:.medium}
 
 <details>
@@ -36,7 +36,7 @@ title: Zoom サインイン方法
 ![](img/zoom_signin_5_1.png){:.medium}
 3. 「会社のドメイン」欄に `u-tokyo-ac-jp` と入力してください（ `ac` の前後はピリオドではなくハイフンであることに注意してください）．
 ![](img/zoom_signin_6.png){:.medium}
-4. ブラウザに移動するので，UTokyo Accoutでサインインしてください（UTokyo Accountにサインイン済みの場合は，この画面を経ずにそのままサインインが完了します）．
+1. ブラウザでUTokyo Accountのサインイン画面が表示されるので，サインインしてください（UTokyo Accountにサインイン済みの場合は，この画面を経ずにそのままサインインが完了します）．
 ![](img/zoom_signin_2.png){:.medium}
 
 この手順がうまくいかないときは<a href="/support/">サポート窓口</a>に相談してください．
