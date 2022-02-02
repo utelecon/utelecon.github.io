@@ -1,6 +1,5 @@
 ---
 title: Online Class Supporters Program (2020 A Semester)
-lang: en
 ---
 
 Notifications

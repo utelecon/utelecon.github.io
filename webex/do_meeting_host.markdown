@@ -26,13 +26,13 @@ title: Webex ミーティングでできること（開催者）
 	* 「設定」をクリックすると，参加者のブレイクアウトへの途中参加や途中退出（メインミーティングへの移動）を許可するか，セッションの制限時間，時間切れまでのカウントダウンタイマーの設定をすることができます．
 
 	![](img/webex_breakout_manage.png){:width="650px"}
-	![](img/webex_breakout_setting.png){:width="350px"}
-	![](img/webex_breakout_reset.png){:width="350px"}
+	![](img/webex_breakout_setting.png){:width="500px"}
+	![](img/webex_breakout_reset.png){:width="500px"}
 
 * ミーティングの作成時に「ブレイクアウトセッションの事前割当て」をクリックすると，招待した参加者を各ブレイクアウトセッションに割り当てることができます．CSVで割り当てを読み込むこともできます．
 
 	![](img/webex_breakout_preassign1.png){:width="500px"}
-	![](img/webex_breakout_preassign2.png){:width="350px"}
+	![](img/webex_breakout_preassign2.png){:width="500px"}
 	![](img/webex_breakout_preassign3.png){:width="750px"}
 
 * 「ブレイクアウトセッションを開始」を押すと開始します．
@@ -157,7 +157,39 @@ title: Webex ミーティングでできること（開催者）
 1. 参加者の出席の様子がリスト表示されます．また，「レポートのエクスポート」をクリックすると，表示されている内容がCSVファイルでダウンロードできます．
 ![](img/webex_participants_list_5.png){:width="700px"}
 
+### Slidoを起動する
 
+* End-to-End Encrypted Meetingでは利用できません．
+* 主催者のみSlidoを起動できます．(共同主催者は起動できません．)
+* 主催者はデスクトップアプリからSlidoを起動する必要があります．（モバイルアプリ・ウェブアプリでは起動できません．）
+
+1. Webex Meeting開催中に画面下メニューのアプリボタンを押します．
+![](img/webex_slido_open_host_bar_m.png)
+1. アプリ画面が表示されますので，Slido(Polling and Q&A)を選択します．
+![](img/webex_slido_open_host_select_m.png){:width="300px"}
+1. Slidoの画面が起動します．
+![](img/webex_slido_open_host_apl_m.png){:width="300px"}
+	1. 事前に主催者のSlidoイベント一覧のページで用意したイベントを選択できます．
+	1. Create new Slidoボタンで，新規にイベントを作成できます．
+	* Webex上で作成したSlidoイベントは，主催者のSlidoイベント一覧のページに保存されます．
+
+### Slidoを操作する
+
+![](img/webex_slido_do_host_main.png){:width="300px"}
+
+1. PollとQ&Aを切替える
+![](img/webex_slido_do_host_tab.png){:width="300px"}
+	* タブでPoolsとQ&Aを切替えることができます．
+1. Pollsを操作する
+![](img/webex_slido_do_host_poll_m.png){:width="300px"}
+	* Listタブの①実行/停止ボタンでPollの実行/停止を操作します.
+	* Listタブの②Poll追加ボタンで，Pollを追加することもできます．
+	* 投票結果は③Liveタブで確認できます．
+	* 基本的な操作はウェブで実施する時と同じです．
+1. Q&Aを操作する
+![](img/webex_slido_do_host_qa.png){:width="300px"}
+	* Q&Aタブで質問の回答や管理を実施します．
+	* 基本的な操作はウェブで実施するSlidoと同じ操作です．
 
 
 <br>

@@ -2,12 +2,17 @@ $gray: #777777;
 $black-gray: #212121;
 $white-gray-dark: #dbdbdb;
 $white-gray-light: #ededed;
+$red: #cf4b00;
+:root {
+  --red: #{$red};
+}
 
 $text-color: $black-gray;
-$link-color: #003a85;
-$visited-color: #6e006f;
+$link-color: #003598;
+$link-color-light: #004fda;
+$visited-color: #680082;
 
-$heading-color: #005a8d;
+$heading-color: #005e94;
 
 $header-background-color-primary: #159957;
 $header-background-color-secondary: #155799;

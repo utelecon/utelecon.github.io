@@ -1,6 +1,5 @@
 ---
 title: Let your students know the code for attendance (TBA)
-lang: en
 ---
 1. After the start time of “Date and time for submission” set in <a href="prepare_attendances" target="">Preparations for taking attendance during class</a>, the "Submit Attendance" button will appear when the student logs in to ITC-LMS and displays the “Course TOP” screen of the course.
 ![出席送信](at1.png)
@@ -12,7 +11,5 @@ lang: en
   * If a one-time password is sent in chat on the video conferencing system, typing errors can be reduced because students can copy and paste. However, students cannot see what was written in the chat before they participate in the class; if a network failure causes a student to leave the video conferencing system, he or she will not be able to see the password written in the chat after re-entering the class.
 
 ## References
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1905.html">There is no "Submit Attendance" button on ITC-LMS (for students)</a>
-
-
+* <a href="https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/24_2985.html">There is no "Submit Attendance" button on ITC-LMS (for students)</a>

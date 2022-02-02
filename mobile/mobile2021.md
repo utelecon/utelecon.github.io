@@ -63,13 +63,11 @@ If you are a faculty/staff member and wish to borrow a mobile WiFi router, pleas
 **■■■重要・受付スケジュール■■■** 
 </span>
 
-**第８弾　6/3(木)〆切、7(月)発送 / 6/3(Thu) Close, 6/7(Mon) Send**
+**第21弾　11/25(木)〆切、11/29(月)発送 / 11/25(Thu) Close, 11/29(Mon) Send**
 
-**第９弾　6/17(木)〆切、21(月)発送 / 6/17(Thu) Close, 6/21(Mon) Send**
+**第22弾　12/9(木)〆切、12/13(月)発送 / 12/9(Thu) Close, 12/13(Mon) Send**
 
-**第10弾　7/1(木)〆切、5(月)発送 / 7/1(Thu) Close, 7/5(Mon) Send**
-
-**第11弾　7/22(木)〆切、26(月)発送 / 7/22(Thu) Close, 7/26(Mon) Send**
+**第23弾　1/6(木)〆切、1/11(火)発送 / 1/6(Thu) Close, 1/11(Tue) Send**
 
 オンライン授業受講に支障がある場合については継続的に受け付けます。 
 【隔週木曜日まで】の申込分について、原則【翌週月曜日】に発送することにしています。 

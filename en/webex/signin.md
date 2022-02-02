@@ -1,10 +1,7 @@
 ---
 title: Signing in to Webex
-lang: en
 toc: false
 ---
-{% include sso.html %}
-
 
 An [UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html) is necessary to sign into Webex.
 
@@ -13,6 +10,6 @@ An [UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html) is neces
  1. You will be taken to the UTokyo Account sign in page. It is the same page you access for signing in to UTAS etc.. Enter your 10-digit Common ID as username and your UTokyo Account password. (This step will be skipped if you are already signed in.)
 1. You have successfully signed in if you are taken to a page showing your name and “Start a Meeting” button.
 
-Please contact the **[Technical Support Desk](/supports/)** if you have issues signing in with the above method.
+Please contact the **[Technical Support Desk](/en/support/)** if you have issues signing in with the above method.
 
-Please visit the [utelecon Webex page](/webex/) to learn how to use Webex for your meetings. 
+Please visit the [utelecon Webex page](.) to learn how to use Webex for your meetings. 

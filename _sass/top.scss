@@ -1,15 +1,15 @@
 .top__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  @media (max-width: 56rem) {
+  @media (max-width: 896px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  @media (max-width: 40rem) {
+  @media (max-width: 640px) {
     grid-template-columns: 1fr;
   }
   grid-auto-rows: 1fr;
   grid-gap: 1em;
-  margin: 1em 0 2em;
+  margin: 1em 0;
   a {
     display: block;
     border: 1px solid $black-gray;
@@ -19,9 +19,13 @@
   }
 }
 
+.top__cards + h2 {
+  margin-top: 1.6em;
+}
+
 .top__systems {
   column-count: 2;
-  @media (max-width: 48rem) {
+  @media (max-width: 768px) {
     column-count: auto;
   }
   li {

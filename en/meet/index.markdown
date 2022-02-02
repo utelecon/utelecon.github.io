@@ -1,6 +1,5 @@
 ---
 title: Google Hangouts Meet  
-lang: en
 ---
 
 ## Introduction

@@ -1,6 +1,5 @@
 ---
 title: Host and Co-host Controls in a Zoom Meeting
-lang: en
 ---
 
 ## What is a Host?
@@ -36,9 +35,9 @@ Teachers and teaching assistants should confirm with each other their respective
 ## How to Check Who the (Co-)Host is
 Click "Participants" on the Zoom screen (1).  The participant list will appear on the right side of your screen, with your name showing up at the top. Below your name are the host’s and co-host’s names, with their roles specified next to their names (2).
 1. Click “Participants”
-![co-host](img/sharing_screen_faculty_members_1.png)
+![co-host](/zoom/how/common/img/sharing_screen_faculty_members_1.png)
 1. Participant list
-![participant_list](img/sharing_screen_faculty_members_2.png)
+![participant_list](/zoom/how/common/img/sharing_screen_faculty_members_2.png)
 
 ## How to Assign Co-Hosts
 1. In the participants window, click “Participants” in the meeting controls, and open the participant list.

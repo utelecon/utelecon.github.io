@@ -12,19 +12,7 @@
       url: "/en/improvement/"
     -
       name: "Support Desk"
-      url: "/en/supports/"
-    -
-      name: "System Change for Spring 2021"
-      url: "/en/change2021s/"
--
-  name: "Teaching Excellence"
-  contents:
-    -
-      name: "Improving Online Classes"
-      url: "/en/improvement/"
-    -
-      name: "Community of Practice for Online Education"
-      url: "/en/events/2020-luncheon/"
+      url: "/en/support/"
 -
   name: "ICT Systems"
   contents:
@@ -56,6 +44,15 @@
       name: "ECCS Terminals"
       url: "https://www.ecc.u-tokyo.ac.jp/en/"
 -
+  name: "Teaching Excellence"
+  contents:
+    -
+      name: "Improving Online Classes"
+      url: "/en/improvement/"
+    -
+      name: "Community of Practice for Online Education"
+      url: "/en/events/2020-luncheon/"
+-
   name: "Notice / Events"
   contents: 
     -
@@ -72,7 +69,7 @@
   contents:
     -
       name: "Support Desk"
-      url: "/en/supports/"
+      url: "/en/support/"
     -
       name: "FAQ"
       url: "/en/faq/"

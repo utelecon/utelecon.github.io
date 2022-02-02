@@ -1,6 +1,5 @@
 ---
 title: How to Create Webex events
-lang: en
 ---
 
 ## Create an event

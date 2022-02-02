@@ -1,6 +1,5 @@
 ---
 title: Form for students facing trouble when Joining Classes
-lang: en
 ---
 
 Please report here in case if you have tried to attend a class but could not enter it.  We will contact the faculty member of the department / school.

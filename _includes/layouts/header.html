@@ -1,4 +1,3 @@
-{% include layouts/lang.html %}
 <header id="header" class="header">
   <div class="header__primary">
     <button id="header__hamburger-button" class="header__hamburger-button">
@@ -6,10 +5,10 @@
       <span class="header__hamburger-button__text">Menu</span>
     </button>
     <{% if include.is_top %}h1{% else %}div{% endif %} class="header__title">
-      <a class="header__title__link" href="/{% if lang == "en" %}en/{% endif %}">
+      <a class="header__title__link" href="/{% if page.lang == "en" %}en/{% endif %}">
         <span class="header__title__main">utelecon</span>
         <span class="header__title__sub">{%
-          if lang == "en"
+          if page.lang == "en"
             %}Online Class / Web Conference Portal Site @ the University of Tokyo{%
           else
             %}オンライン授業・Web会議ポータルサイト @ 東京大学{%
@@ -22,18 +21,18 @@
     <div class="header__links">
       <div class="gcse-search"></div>
       <div>
-        <a href="/{% if lang == "en" %}en/{% endif %}">TOP</a> | {%
-          if lang == "en"
-            %}<a href="{{ page.url | replace_first: "en/", "" }}">日本語</a>{%
+        <a href="/{% if page.lang == "en" %}en/{% endif %}">TOP</a> | {%
+          if page.lang == "en"
+            %}<a href="{{ page.url | replace: '.html', '' | replace_first: 'en/', '' }}">日本語</a>{%
           else
-            %}<a href="/en{{page.url}}">English</a>{%
+            %}<a href="/about/">About</a> | <a href="/en{{ page.url | replace: '.html', '' }}">English</a>{%
           endif
         %}
       </div>
     </div>
     <nav class="header__nav">
       <ul>
-        {% for item in site.data.nav[lang] %}
+        {% for item in site.data.nav[page.lang] %}
           <li>
             <div class="header_nav_text">{{ item.name }}</div>
             <ul>

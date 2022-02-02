@@ -1,6 +1,5 @@
 ---
 title: Set the course
-lang: en
 ---
 In ITC-LMS, lectures offered in terms and semesters are called "Courses". First, set up the course according to your subject.
 
@@ -22,6 +21,8 @@ You can set a document to be displayed on the top screen when a student searches
 [手順動画](https://youtu.be/Sdqtw2m1j48)
 
 ## Setting for course registration, message usage
+
+<div class="box">The default setting for this message function has been change to "Accept contact from students" after December 22, 2021. If you do not wish to receive messages from students, please change the setting by unchecking the check box for "Accept contacts from students".</div>
 
 Students enrolled in UTAS courses will be automatically enrolled in the relevant courses. However, for non-compulsory courses, registration on UTAS will be performed shortly after the course starts. Therefore, in order to be able to use it in the first few lessons, it is necessary to make such settings.
 
@@ -75,9 +76,9 @@ Teachers and TAs who are not registered on UTAS but are jointly in charge of the
 -->
 
 ## References
-* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ (ITC-LMS)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/08/11_2065.html">What is "Enrollee Range Setting?" (for instructors)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/16_1870.html">Settings for Self-registration on ITC-LMS (for instructors)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/03/10_2012.html">How to add staff or students to a course on ITC-LMS (for instructors) </a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/08/11_2066.html">What is "Temporary Enrollment Registration" on ITC-LMS? </a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/16_1863.html">Automatic enrollment of students on ITC-LMS and the Academic Affairs System</a>
+* <a href="https://www.ecc.u-tokyo.ac.jp/en/itc-lms/faq.html">FAQ (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2017/05/17_2521.html">What is "Enrollee Range Setting?" (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/26_3014.html">Settings for Self-registration on ITC-LMS (for instructors)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/08/08_2282.html">How to add staff or students to a course on ITC-LMS (for instructors) </a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/08/10_2288.html">What is "Temporary Enrollment Registration" on ITC-LMS? </a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/26_3010.html">Automatic enrollment of students on ITC-LMS and the Academic Affairs System</a>

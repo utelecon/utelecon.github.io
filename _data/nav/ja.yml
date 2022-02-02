@@ -12,10 +12,7 @@
       url: "/online/"
     -
       name: "サポート窓口"
-      url: "/supports/"
-    -
-      name: "2021年春のシステム変更"
-      url: "/change2021s/"
+      url: "/support/"
 -
   name: "東京大学のシステム"
   contents:
@@ -46,6 +43,9 @@
     -
       name: "ECCS端末"
       url: "https://www.ecc.u-tokyo.ac.jp/"
+    -
+      name: "その他"
+      url: "/systems#others"
 -
   name: "オンラインの活用"
   contents:
@@ -53,14 +53,14 @@
       name: "オンラインを活用するために"
       url: "/online/"
     -
-      name: "よりよいオンライン授業のために"
-      url: "/online/courses"
-    -
       name: "使えるツールから探す"
       url: "/online/tools"
     -
       name: "やりたいことから探す"
       url: "/online/topics"
+    -
+      name: "よりよい授業の実施方法を探す"
+      url: "/online/courses"
     -
       name: "東大の実践を知る"
       url: "/online/#utokyo"
@@ -82,10 +82,13 @@
   contents:
     -
       name: "サポート窓口"
-      url: "/supports/"
+      url: "/support/"
     -
       name: "よくある質問 (FAQ)"
       url: "/faq/"
+    -
+      name: "システム運用状況（障害情報等）"
+      url: "/support/service-status"
     -
       name: "授業入室トラブル報告"
       url: "/forms/et"

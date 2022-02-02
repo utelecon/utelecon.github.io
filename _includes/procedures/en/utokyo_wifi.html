@@ -5,121 +5,150 @@
 {% assign part = include.part %}
 {% assign system = "UTokyo WiFi" %}
 
-{% capture apply_for_account %}
+{% capture apply_for_account %} <!-- アカウント申請 -->
 <ul>
-<li>{%
-  case page.slug %}{%
-    when "oc"
-      %}Apply a day after your email address registration on UTAS (if you have not registered your email address yet, please follow the steps{%
-        if include.part == "important"
-          %}above{%
-        else
-          %} as explained in <a href="#utas">UTAS</a> section{%
-        endif
-      %}).{%
-    when "faculty_members"
-      %}If you have not registered your email address in personnel information system, you will not be able to apply. Please register and apply again the next day.{%
-    else
-      %}学生はUTASでの，教職員は人事情報MyWebでのメールアドレス登録がされていない場合，申請できません．まだの場合はあらかじめ登録を済ませ，その翌日以降に作業してください．{%
-  endcase
-%}</li>
-</ul>
-<ol>
-<li>Please access the <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html">UTokyo WiFi page</a> and read the instructions carefully.</li>
-<li>Click the "UTokyo WiFi Account Menu" button on the page.</li>
-<li>When asked to sign in, please enter your UTokyo Account username (10 digits) and password.{%
-  if part == "important" and page.slug == "faculty_members"
-    %} (if you have already entered this information once, the system may remember it and not ask you to enter it){%
-  endif
-%}．</li>
-<li>Click the "New Application" button.</li>
-<li>Confirm that the email address you have registered in {%
-    case page.slug %}{%
-      when "oc"
-        %}UTAS{%
-      when "faculty_members"
-        %}personnel information system{%
-      else
-        %}UTAS or personnel information system{%
-    endcase
-  %} is displayed properly in the "Notification Mail Address" field. Password and other information will be sent to this email address.</li>
-<li>Click the "Application" button.</li>
-<li>After a while, check if you receive an email with your user ID and password.</li>
-</ol>
-<ul>
-<li>
-<details>
-  <summary>Help for when this procedure does not work</summary>
-  <ul>
-    <li><strong>If your email address is not displayed in the "Notification Mail Address" field</strong>: Your email address has not been registered. Please register your email address {%
-      case page.slug %}{%
-        when "oc"
-          %}{%
-            if include.part == "important"
-              %}on UTAS following the above procedure{%
-            else
-              %}as explained in <a href="#utas">UTAS</a> section{%
-            endif
-          %}, then try again the next day.{%
-        when "faculty_members"
-          %}Please register your email address on Personnel Information MyWeb and try again the next day.{%
-        else
-          %}学生はUTASでの登録，教職員は人事情報MyWebでの登録を（まだの場合）あらかじめ済ませ，その翌日以降に作業してください．{%
-      endcase
-    %}</li>
-    <li><strong>If you do not receive the notification email</strong>:
-      <ul>
-        <li>Please check your spam mail.</li>
-        <li>Email will be sent to the email address shown in the "Notification Mail Address" field on the application page (the email address registered {%
-            case page.slug %}{%
-              when "oc"
-                %}on UTAS "E-MAIL 1"{%
-              when "faculty_members"
-                %}in the personnel information system{%
-              else
-                %}学生はUTASの「E-MAIL 1」に登録したメールアドレス，教職員は人事情報MyWebで登録したメールアドレス{%
-            endcase
-          %}). Please make sure you are checking the correct mailbox.</li>
-        <li>Depending on the email address, you may not receive the email or it may arrive late. Please note that the notification email cannot reach "@icloud.com". It is also known that there is often a delay for Gmail (@gmail.com). Please change your email address to another one and apply again the next day. Using ECCS Cloud Email (@g.ecc.u-tokyo.ac.jp) for registration is recommended.</li>
-      </ul>
+    {% case page.slug %} <!--申請の手順動画を表示 -->
+        {% when "oc" %} <!-- 学生の場合 --> 
+        <li><a href="/oc/movies#utokyo_wifi">Tutorial video</a></li>
+    {% endcase %}
+
+    <li>
+        {%case page.slug %} <!-- 申請前のメールアドレス登録について-->
+            {%when "oc"%} <!-- 学生の場合 -->
+                Please apply one day after your email address registration in UTAS. 
+                (If you have not registered your email address in UTAS yet, please follow the steps
+                {%if include.part == "important"%}
+                    above
+                {%else%}
+                    as explained in the <a href="#utas">UTAS</a> section
+                {%endif%}               
+                ).
+            {%when "faculty_members"%} <!-- 教職員の場合 -->
+                Registration of your email in the Personnel Information System is necessary for application. 
+                Please register first and apply again on the following day.            
+            {%else%} 
+                Registration of email address in UTAS(students)/Personnel Information System(faculty members) is necessary for application.
+                Please first register your email address, and apply again on the following day.
+        {%endcase%}
     </li>
-  </ul>
-  If this does not work, please contact the <a href="/en/supports/">support desk</a>.
-</details>
-</li>
+</ul>
+
+<ol> <!--アカウント申請の手順 -->
+    <li>Access the <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html">UTokyo WiFi page</a> and read the instructions carefully.</li>
+    <li>Click the "UTokyo WiFi Account Menu" button on the page.</li>
+    <li>Sign in to your UTokyo Account from the sign-in page that appears. (This step will be skipped if you have signed in earlier.)</li>
+    <li>Click the "New Application" button.</li>
+    <li>Confirm that the email address you have registered in
+        {%case page.slug %}
+            {%when "oc"%} <!--学生の場合-->
+                UTAS
+            {%when "faculty_members"%} <!--教職員の場合-->
+                The Personnel Information System
+            {%else%}
+                UTAS(students) or the Personnel Information System(faculty members)
+        {%endcase%}
+        is displayed properly in the "Notification Mail Address" field. 
+        A notification email including your password and other information will be sent to this email address. </li>
+    <li>Click the "Application" button.</li>
+    <li>After a while, check that you have received the notification email. </li>
+</ol>
+
+<ul> <!--手順がうまくいかないときのヘルプ-->
+    <li>
+        <details> <!--折りたたみ部分-->
+            <summary>Help for when this procedure does not work</summary>
+            <ul>
+                <!--通知用メールアドレスが登録できていない場合-->
+                <li><strong>If your email address is not displayed in the "Notification Mail Address" field</strong>:<br>
+                    Your email address has not been registered. 
+                    Please register your email address
+                    {%case page.slug %}
+                        {%when "oc"%} <!--学生の場合-->
+                            {%if include.part == "important"%}
+                                in UTAS following the above procedure
+                            {%else%}
+                                as explained in <a href="#utas">UTAS</a> section
+                            {%endif%}
+                            , and try again on the following day.
+                        {%when "faculty_members"%} <!--教職員の場合-->
+                            Please register your email address on the Personnel Information MyWeb and try again on the following day.
+                        {%else%}
+                            Please first register your email address in UTAS(students)/Personnel Information MyWeb(faculty members), and apply again on the following day.
+                    {%endcase%}
+                </li>
+
+                <!--通知用メールアドレスが届かない場合-->
+                <li><strong>If you do not receive the notification email</strong>:<br>
+                    <ul>
+                        <li>Please check your spam mail.</li>
+                        <li>Email will be sent to the email address shown in the "Notification Mail Address" field on the application page 
+                            (the email address registered in   
+                            {%case page.slug %} 
+                                {%when "oc"%} <!--学生の場合-->
+                                    UTAS "E-MAIL 1"
+                                {%when "faculty_members"%} <!--教職員の場合-->
+                                    the Personnel Information MyWeb
+                                {%else%}
+                                    UTAS "E-MAIL 1"(students) / the Personnel Information MyWeb (faculty members)
+                            {%endcase%}
+                            ). Please make sure you are checking the correct mailbox.
+                        </li>
+                        <li>
+                            Depending on the email address, you may not receive the email or it may arrive late. 
+                            It is known that the notification email cannot reach "@icloud.com", 
+                            and that there is often a delay in reaching Gmail (@gmail.com). 
+                            Using the ECCS Cloud Email (@g.ecc.u-tokyo.ac.jp) is recommended.
+                            Please try changing your email address and apply again on the following day. 
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            If this does not work, please contact the <a href="/en/support/">Technical Support Desk</a>.
+        </details>
+    </li>
 </ul>
 {% endcapture %}
+
+
 
 {% unless include.part == "important" %}
 <ul class="procedure">
 {% endunless %}
+        
 {% include procedures/en/_important.html procedure=apply_for_account type="Task" heading="Apply for an account" %}
-{% unless include.part == "important" %}
-<li><strong>Task: Try to connect to it</strong>
-<ul>
-<li>This work can be done only in places on campus where UTokyo WiFi is available.</li>
-</ul>
-<ol>
-<li>UTokyo WiFi is a Wi-Fi service whose name (SSID) is <code>UTokyo-WiFi</code>. Please select this on the Wi-Fi connection screen of your device (smartphone or computer).</li>
-<li>Depending on the device, you may need to take some steps such as checking the certificate.</li>
-<li>When asked to enter your user ID and password, enter the user ID and password written in the email notification you received after your application (not your UTokyo Account information).</li>
-<li>Once the connection is established, you can use it just like a normal Wi-Fi connection.</li>
-</ol>
-<ul>
-<li>
-<details>
-  <summary>Help for when this procedure does not work</summary>
-  <ul>
-    <li>If the network is weak, the connection may be interrupted while you are working and it may not work. Please try a different location or time of day.</li>
-    <li>User ID is an 8-digit alphanumeric character starting with the letter "s" or "w". Make sure to include the letters of the alphabet.</li>
-    <li>Make sure that you have entered the correct symbols in the password. Try copying and pasting the password from the notification email.</li>
-    <li>If you are copying and pasting from a notification email, make sure that there are no extra spaces before or after it.</li>
-    <li>If you have applied for an account more than once, only one of the accounts will be valid. Please make sure that only the account listed on the UTokyo WiFi account menu will be valid.</li>
-  </ul>
-  If you are still having trouble, please contact the support desk for help. <a href="https://www.sodan.ecc.u-tokyo.ac.jp/about-us/tutors-working/">There are student ECCS tutors available at various locations on campus</a>, and you can consult with them in person. You can also consult at the <a href="/supports/">support desk</a> on this site.
-</details>
-</li>
-</ul>
-</li>
+
+<!-- 実際につないでみる手順 -->
+{% unless include.part == "important" %} 
+    <li><strong>Task: Try Connecting to the WiFi</strong>
+        <ul>
+            <li>This task can be done only on campus where UTokyo WiFi is available.</li>
+        </ul>
+
+        <ol>
+            <li>The name (SSID) of the UTokyo WiFi service is <code>UTokyo-WiFi</code>. 
+                Please select this name on the Wi-Fi connection screen of your device (smartphone or computer). </li>
+            <li>Depending on the device, you may need to take additional steps such as checking the certificate.</li>
+            <li>When asked to enter your user ID and password, enter the user ID and password in the notification email you received after application (not your UTokyo Account information).</li>
+            <li>Once the connection is established, you can use it just like a normal Wi-Fi connection.</li>
+        </ol>
+
+        <ul> <!-- 手順がうまくいかないときのヘルプ-->
+            <li>
+                <details> <!-- 折りたたみ部分 -->
+                    <summary>Help for when this procedure does not work</summary>
+                    <ul>
+                        <li>If the network is weak, you may get disconnected during the task. Please try at a different location or time of the day.</li>
+                        <li>The user ID is an 8-digit alphanumeric character starting with the letter "s" or "w". Make sure to include the letters of the alphabet.</li>
+                        <li>Make sure that you have entered the correct symbols in the password. Try copying and pasting the password from the notification email.</li>
+                        <li>If you are copying and pasting from the notification email, make sure that there are no extra spaces before or after the copied characters.</li>
+                        <li>If you have applied for an account more than once, only one of the accounts will be valid. Please make sure to use only the account listed on the UTokyo WiFi account menu.</li>
+                    </ul>
+                    If you are still having trouble, please contact the support desk for help. 
+                    There are <a href="https://www.sodan.ecc.u-tokyo.ac.jp/about-us/tutors-working/">student ECCS tutors available at various locations on campus</a>. You can consult with them in person. 
+                    You can also consult the <a href="/en/support/">Technical Support Desk</a> on this site.
+                </details>
+            </li>
+        </ul>
+    </li>
 </ul>
 {% endunless %}

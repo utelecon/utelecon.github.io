@@ -1,16 +1,13 @@
 ---
 title: FAQ
-lang:en
 ---
 
-{% include sso.html %}
-
-If this FAQ cannot solve your problem, please contact the [Technical Support Desk](/en/supports).
+If this FAQ cannot solve your problem, please contact the [Technical Support Desk](/en/support/).
 
 ## Questions regarding classes in general
 
 ### Q. What should I do if I cannot join an online class?
-* Please consult the following link “[How to join an online class](/oc/join)”. It contains information on how to search for online class URLs, common problems, and where to contact when you cannot join a class.
+* Please consult the following link “[How to join an online class](/en/oc/join)”. It contains information on how to search for online class URLs, common problems, and where to contact when you cannot join a class.
 
 ### Q. How do I take attendance?
 Some options for taking attendance are:
@@ -19,7 +16,7 @@ Some options for taking attendance are:
 * To avoid fake attendance, require students to answer questions related to the contents of lecture or give feedback on the class.
 * To avoid faking attendance, enable the “Collect emails” function when creating Google forms with ECCS Cloud Email account (UTokyo G Suite). Students’ email addresses would be collected for identity confirmation, making it harder for students to fake attendance. To do this, go to “Settings (the gear icon)”, check the box next to "Collect emails" and select “Restrict to users of UTokyo ECCS Cloud Email and its trusted organizations”.
 * Call the roll (suitable for smaller size classes using web conference systems). You might have the participants turn on cameras and confirm their identities.
-* Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/zoom/how/faculty_members/attendance" target="_blank"> Zoom for staff: Attendance management</a>.
+* Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/en/zoom/how/faculty_members/attendance" target="_blank"> Zoom for staff: Managing Attendance</a>.
 
 <a name="zoom"> </a>
 ## Zoom
@@ -40,13 +37,13 @@ Some options for taking attendance are:
 * Please refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin) for instructions on how to sign in.
 
 #### Q. I received the error message “ Error AADSTS50105…” and cannot sign in to Zoom.
-* Please retry after a while. If the problem persists, kindly contact the [Technical Support Desk](/en/supports).
+* Please retry after a while. If the problem persists, kindly contact the [Technical Support Desk](/en/support/).
 
 
 #### Q. My account license type is shown as “Basic”, instead of “Licensed”.
 * You are likely not signed in properly to your UTokyo Zoom Account. Please consult [Sign-in Methods for Zoom](/en/zoom/zoom_signin) and try again.
 * If you are using a non-10-digit Common ID Zoom account, please refer to [Signing in to Zoom with a non-UTokyo ID](/en/notice/zoom-address-new). Your license type should become “licensed” after switching your sign-in email to [10-digit Common ID]@utac.u-tokyo.ac.jp.
-* If your license type remains “Basic” even after signing in with [10-digit Common ID]@utac.u-tokyo.ac.jp, please contact the [Technical Support Desk](/en/supports) for assistance.
+* If your license type remains “Basic” even after signing in with [10-digit Common ID]@utac.u-tokyo.ac.jp, please contact the [Technical Support Desk](/en/support/) for assistance.
 
 ### Trouble joining a meeting
 
@@ -70,11 +67,11 @@ Some options for taking attendance are:
 
 #### Q. “Enter Meeting Passcode” is displayed.
 * I"Passcode" is required in addition to the URL to join a Zoom meeting.
-* Please check if the passcode is sent with the class URL. If not, report it to "[Report on Attendance Issues](/oc/join#form)".
+* Please check if the passcode is sent with the class URL. If not, report it to "[Report on Attendance Issues](/en/oc/join#form)".
 
 #### Q. "This meeting is locked by the host” is displayed.
 * The teacher has “locked” the meeting room so that no entry is permitted during the meeting.
-* Please report to "[Report on Attendance Issues](/oc/join#form)".
+* Please report to "[Report on Attendance Issues](/en/oc/join#form)".
 
 #### Q. "Invalid address" is displayed.
 * Several cases below display such a message.
@@ -85,14 +82,14 @@ Some options for taking attendance are:
 ### Specific Use
 
 #### Q. How can I restrict the meeting room to on-campus access only?
-* Please refer to [here](/faculty_members/zoom_access_control) for details. Several methods are introduced.
+* Please refer to [here](/en/faculty_members/zoom_access_control) for details. Several methods are introduced.
 
 #### Q. How can I take attendance using Zoom?  
 * You can get a list of  meeting participants through the following procedure.
   1. Click "Report" [https://zoom.us/account/report](https://zoom.us/account/report) on the left menu of Zoom My Page, and then "Use".
   1. Click the number in the "Attendee" column of the meeting you want to confirm the attendance of.
   1. Names, join time, leave time, scheduling time, and Zoom account email address of attendees would be displayed.
-* For more details, check [how to check attendance in itc-lms](/lms_lecturers/prepare_attendances).
+* For more details, check [Prepare for confirming attendance in classes](/en/lms_lecturers/prepare_attendances).
 
 #### Q. How can I assign omnibus speakers or TAs as hosts?  
 * There are two ways to handle this.  
@@ -106,7 +103,7 @@ Some options for taking attendance are:
 
 #### Q. How can I host a large meeting (more than 301 people) in zoom?
 * Prior application for a large meeting license is essential. With such license, you can hold a zoom meeting beyond normal capacity and gain access to additional features.
-* Please refer to [here](/zoom/license) for the application procedure.
+* Please refer to [here](/en/zoom/license) for the application procedure.
 
 #### Q. Can I use my UTokyo Zoom account to host meetings and events outside the university?
 * Please refer to the bottom of [this page](/notice/webmeetingaccount20201120.html) for related information before making a decision.
@@ -172,12 +169,12 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 
 
 * If you are taken to the “You need access” page, but you are already signed in with ECCS Cloud Email, and your ECCS Cloud Email address (xxx@g.ecc.u-tokyo.ac.jp) shows up under “You’re signed in as”:
-  * We are currently experiencing issues with some ECCS Cloud Email accounts not being able to access UTokyo-exclusive websites even though they are correctly signed in. Your account may be affected by this issue. We will need to reset your account to resolve the issue. To do so, please contact the Technical Support Desk using the [email form](/en/supports/#email-form). For more details, please refer to [ECCS News](https://www.ecc.u-tokyo.ac.jp/announcement/2021/03/30_3304.html)(Japanese only). Apologies for the inconvenience.
+  * We are currently experiencing issues with some ECCS Cloud Email accounts not being able to access UTokyo-exclusive websites even though they are correctly signed in. Your account may be affected by this issue. We will need to reset your account to resolve the issue. To do so, please contact the Technical Support Desk using the [email form](/en/support/#email-form). For more details, please refer to [ECCS News](https://www.ecc.u-tokyo.ac.jp/announcement/2021/03/30_3304.html)(Japanese only). Apologies for the inconvenience.
 
 
 ### Q. I forgot my password / I cannot change my password. What can I do?
 
-* See [ECCS Cloud Email](/eccs_cloud_email) – “Initial Setup Procedures”, and follow the instructions in “Task: Set your password and email address”.
+* See [ECCS Cloud Email – “Initial Setup Procedures”](/en/eccs_cloud_email#initial-setup-procedures), and follow the instructions in “Task: Set your password and email address”.
 
 ### Q. What is the difference among 10 digits-ID@utac, 10 digits-ID@g.ecc, and xxxx@g.ecc (email address named after your choice) email addresses?
 * 10 digits-ID@utac.u-tokyo.ac.jp（e.g.1234567890@utac.u-tokyo.ac.jp）
