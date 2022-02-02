@@ -56,12 +56,8 @@
       "use strict";
       const headerElement = document.getElementById("header");
       document.getElementById("header__hamburger-button").addEventListener("click", function () {
-        if (headerElement.classList.contains("header--hamburger-open")) {
-          headerElement.classList.remove("header--hamburger-open");
-        } else {
-          headerElement.classList.add("header--hamburger-open");
-        }
-      })
+        headerElement.classList.toggle("header--hamburger-open");
+      });
     })
   </script>
 </header>
