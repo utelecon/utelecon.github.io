@@ -6,6 +6,8 @@ sass:
 lang: ja
 title: utelecon
 repository: utelecon/utelecon.github.io
+twitter:
+  card: summary
 defaults:
   -
     scope:

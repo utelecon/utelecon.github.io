@@ -1,0 +1,24 @@
+{%- unless page.description -%}
+
+{%- assign description = '' -%}
+{%- assign nodes = content | split: '<h2' -%}
+
+{%- for node in nodes -%}
+  {%- unless node contains '</h2>' -%}
+    {%- continue -%}
+  {%- endunless -%}
+
+  {%- assign split = node | split: '>' -%}
+  {%- assign header = split[1] | remove_first: '</h2'| escape -%}
+  {%- if header == "目次" -%}
+    {%- continue -%}
+  {%- endif -%}
+  {%- assign description = description | append: ' | ' | append: header -%}
+{%- endfor -%}
+
+{%- assign description = description | remove_first: ' | ' -%}
+
+<meta name="description" content="{{ description }}">
+<meta name="og:description" content="{{ description }}">
+
+{%- endunless -%}
