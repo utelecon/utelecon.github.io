@@ -18,7 +18,9 @@
 
 {%- assign description = description | remove_first: ' | ' -%}
 
+{%- if description -%}
 <meta name="description" content="{{ description }}">
 <meta name="og:description" content="{{ description }}">
+{%- endif -%}
 
 {%- endunless -%}
