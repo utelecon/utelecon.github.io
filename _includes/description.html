@@ -2,6 +2,7 @@
 
 {%- assign description = '' -%}
 {%- assign nodes = content | split: '<h2' -%}
+{%- assign toc = page.toc | default: true -%}
 
 {%- for node in nodes -%}
   {%- unless node contains '</h2>' -%}
@@ -10,7 +11,8 @@
 
   {%- assign split = node | split: '>' -%}
   {%- assign header = split[1] | remove_first: '</h2'| escape -%}
-  {%- if header == "目次" -%}
+  {%- if toc -%}
+    {%- assign toc = false -%}
     {%- continue -%}
   {%- endif -%}
   {%- assign description = description | append: ' | ' | append: header -%}
