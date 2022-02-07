@@ -347,7 +347,7 @@ UTokyo Accountの多要素認証を有効にしてください．
 
 #### Q. 着任時には情報セキュリティ教育の受講期間が終了していた
 
-- 着任時からUTokyo VPNを利用可能です．[情報セキュリティ教育 代替教材](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Information_Security_Education.aspx)をよくお読みの上，ご利用ください．
+- 着任時からUTokyo VPNを利用可能です．[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)のページにある「情報セキュリティ教育 教材」をよくお読みの上，ご利用ください．
 
 #### Q. UTokyo VPN の利用申請は学外からも可能か
 
@@ -358,8 +358,8 @@ UTokyo Accountの多要素認証を有効にしてください．
 
 ## 規定
 
-- [UTokyo VPN運用規定](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/UTokyo_VPN/UTokyoVPN%E9%81%8B%E7%94%A8%E8%A6%8F%E7%A8%8B.pdf)
-- [UTokyo VPN利用規定](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/UTokyo_VPN/UTokyoVPN%E5%88%A9%E7%94%A8%E8%A6%8F%E7%A8%8B.pdf)
+- [UTokyo VPN利用規定](terms/UTokyoVPN-User-Term.pdf)
+- [UTokyo VPN運用規定](terms/UTokyoVPN-Operation-Term.pdf)
 
 
 ## お問合せフォーム
