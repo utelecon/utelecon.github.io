@@ -1,20 +1,17 @@
 ---
 title: How to communicate with students on Slack
-lang: en
 ---
 
 ## Highlights of This Article
 
 This article introduces how to use Slack to communicate with students and more.
 
-### Recommended Use Cases
-<!----Old title: The use of Slack is recommended in the following situations: ---->
-
-* Prompt students to ask questions in on-demand or live classes
-* Give class instructions to students
-* Increase student-teacher interaction
-* Facilitate student communication outside class for better group work
-* Support communication with students and seminar members
+### Applicable Situations
+* (Faculty member) Prompt students to ask questions in on-demand or live classes
+* (Faculty member) Give class instructions to students
+* (Faculty member) Increase student-teacher interaction
+* (Faculty member) Facilitate student communication outside class for better group work
+* (Student) Communicate with other students and seminar members
 
 ### Limitations of Slack
 
