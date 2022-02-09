@@ -18,7 +18,7 @@
   {%- assign description = description | append: ' | ' | append: header -%}
 {%- endfor -%}
 
-{%- assign description = description | remove_first: ' | ' -%}
+{%- assign description = description | remove_first: ' | ' | truncate: 100, '...' -%}
 
 {%- if description -%}
 <meta name="description" content="{{ description }}">
