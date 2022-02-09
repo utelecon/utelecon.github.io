@@ -14,10 +14,10 @@ defaults:
       path: ""
     values:
       lang: ja
-      image: /ogp-image.png
+      image: /assets/images/ogp.png
   -
     scope:
       path: en
     values:
       lang: en
-      image: /ogp-image.png
+      image: /assets/images/ogp.png
