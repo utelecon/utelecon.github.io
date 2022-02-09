@@ -83,78 +83,87 @@ Below, we will show how to use the app version. (The procedure is mostly the sam
 
 ## How to Use Slack in Class
 {:#in_class}
-
-Here we introduce how to use Slack effectively in class using a fictitious course called "Political Science".
+Here we introduce how to use Slack effectively in class. As an example, we will use a fictitious course called "Political Science".
 
 <figure>
 <img src="Pic9.png">
 </figure>
 
-* How to Create a Channel 
-  <br>Channels can also be created from the + icon (1 in the above figure). In this class (workspace),  the below channels are created.
-    * \# General communication
+* How to create a channel 
+  <br>Channels can also be created from the + icon ((1) in the above figure). In this class (workspace),  the below channels are created.
+    * \# announce-all
+    * \# introduction
+    * \# questions
+    * \# team-professor
+    * \# group-01 / # group-02 / # group-03
+<!----
+   * \# General communication
     * \# Basic information
     * \# Questions
     * \# Teachers/TAs
     * \# Presentation group 1 / # Presentation group 2 / # Presentation group 3
+---->
 
-* How to send a message<br>To send a message, use the aeroplane symbol (2 in the above figure) on each channel. You can also use bold or italic text to emphasize your message, or attach a file (select the file from the clip symbol) if necessary.
+* How to send a message
+  <br>To send a message, use the aeroplane symbol ((2) in the above figure) on each channel. You can also use bold or italic text to emphasize your message, or attach a file (select the file from the clip symbol) if necessary.
 
 ### How to Use Channels in the Classroom (for teachers)
 {:#for_teachers}
 
-#### Class Communication and Casual Surveys (#General Communication)
+#### Class Communication and Casual Surveys (#announce-all)
 {:#announce}
 
 <figure>
 <img src="Pic10.png">
 </figure>
 
-* Change the channel name of #general to "#general contact".
-    * To change the channel name of an existing channel, open the relevant channel and press the ⓘ symbol in the top right corner, then press "More > Change channel name" on your computer, or "Edit" on your phone.
-* This is the channel for communicating class assignments.
+* This is a channel for communicating class assignments.
 * You can also use this channel to conduct surveys.
-    * Make use of the pictogram reactions.
-    * This is the channel where you can see the results of the questionnaire and communicate with other students after class.
-        
-#### Compilation of Class Information to improve the list (#Basic Information)
+    * Make use of emoji reactions to conduct quick surveys.
+    * You can also see the results of questionnaires and communicate with other students after class in this channel.
+* Change the name of the #general channel to "#announce-all".
+    * To change the channel name of an existing channel, open the relevant channel, click the channel name in the channel header, go to the "Channel name" section and click "Edit". (Note that you need to be the workspace owner or admin to rename the #general channel. For details, see ["Rename a channel (Slack help center)"](https://slack.com/help/articles/201654073-Rename-a-channel).)        
+
+#### Compile and Organize Course Information (#introduction)
 {:#info_list}
-* Class information on the ITC-LMS
+* This is a channel for posting all information necessary for your course.
+* You can repost the course information that you posted on the ITC-LMS.
+* You can also compile links to class materials. 
 
-
-#### Take questions (#questions)
+#### Receive Questions (#questions)
 {:#question_teachers}
 <figure>
 <img src="Pic11.png">
 </figure>
 
 * This is a channel for students to ask questions about the class or assignments.
-* This channel is not only for real time but also on demand questioning.
-* The benefit of such a setup is that you can aggregate your questions and search the question log after the class is over.
+* This channel can be used for answering questions of both real-time and on-demand classes.
+* The benefit of setting up a questions channel is that you can aggregate questions and search the question log after the class is over.
 * You can attach reference materials for students to learn more after class.
-* You can also mention students who have asked questions by prefixing their registered name in Slack with @.
+* You can also mention(notify) students who have asked questions by prefixing their registered name in Slack with @.
 
 
-**Tips: We encourage you to ask questions in the channel**.
-
-If you have a question about the class, you can ask it in "channel" where other students can also see it.
+**Tips: We encourage you to receive questions in channels**.  
+If you discuss questions about the class on a "channel", the questions will be visible to other students. This helps reduce the number of similar questions and hence the burden of responding to many questions. It may also lead to new discussions and promote interactive learning. (DM is recommended for communication of students' personal matters such as grades and assignment submission.)
 
 <figure>
 <img src="Pic12.png">
 </figure>
 
-#### Having Private Conversations Between Teachers and Teaching Assistants (🔒 teachers and TAs).
+#### Have Private Conversations Between Faculty Members and Teaching Assistants (🔒 team-professor).
 {:#private_channel}
-* If you want to share information only with faculty and TAs, you can set up a private channel ([Slack help](https://slack.com/help/articles/213185467-Convert-a-channel-to-private)).
+* If you want to share information only with faculty members and TAs, you can set up a private channel (See [Slack help center](https://slack.com/help/articles/213185467-Convert-a-channel-to-private)).
 * In a private channel, only people of the same workspace who are invited to the channel can freely join or search the message content.
 * You can create a private channel by turning on the "Make private channel" option when you create a channel.
 * Once a channel is set as a private channel, it cannot be changed back to a public channel.
 
-#### I want to share materials within groups (#Presentation group 1, 2......)
+#### Share Materials Within Groups (#group-01, 02, 03, ...)
 {:#public_channel}
-You can share text and documents within groups. Through public channels, teachers and students of other groups can follow the progress of each group (even if they are not in that channel). It can also be made a private channel for teachers and group members only.
+* You can share texts and documents within groups by setting up channels for each group. 
+* By setting up the channels as public channels, teachers and students of other groups can view the progress of each group (even if they are have not joined the channel). 
+* Private channels for teachers and group members only can also be created.
 
-#### Contacting Students Individually (Direct Message)
+#### Contact Students Individually (Direct Message)
 {:#dm}
 If you need to contact a student individually, such as when an assignment has not been submitted, you can do so via DM.
 
