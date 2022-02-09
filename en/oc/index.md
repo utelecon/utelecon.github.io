@@ -46,7 +46,7 @@ You will be using a variety of information systems in your classes at the Univer
 - **UTAS**: {{ about_utas }}
 - **ITC-LMS**: {{ about_itc_lms }}
 - **Zoom**, **Webex**: Web conferencing systems used for "simultaneous interactive" online classes. Basically Zoom is used, but Webex may also be used depending on the class.
-- **ECCS Cloud Email (G Suite)**: *{{ about_google }}
+- **ECCS Cloud Email (Google Workspace)**: *{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**: {{ about_microsoft }}
 - **UTokyo WiFi**: {{ about_utokyo_wifi }}
 - **ECCS terminals**: {{ about_eccs }}
@@ -137,7 +137,7 @@ This is a web conferencing system used for some "simultaneous interactive" class
 
 {% include procedures/en/webex.html %}
 
-### ECCS Cloud Email (G Suite)
+### ECCS Cloud Email (Google Workspace)
 {:#google}
 
 {{ about_google }}
