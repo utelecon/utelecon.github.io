@@ -1,5 +1,6 @@
 ---
 title: グッドプラクティスの共有
+description: このページは，本学で行われたオンライン授業のグッドプラクティスを共有するためのページです．タグ等で絞り込めるようになっています．
 ---
 
 <!--  Source codes of css and javascript were from https://www.tam-tam.co.jp/tipsnote/javascript/post14636.html. Thank you for the great codes -->
