@@ -15,14 +15,20 @@
     {%- assign toc = false -%}
     {%- continue -%}
   {%- endif -%}
-  {%- assign description = description | append: ' | ' | append: header -%}
+  {%- assign description = description | append: '; ' | append: header -%}
 {%- endfor -%}
 
-{%- assign description = description | remove_first: ' | ' | truncate: 100, '...' -%}
+{%- assign description = description | remove_first: '; ' -%}
 
-{%- if description -%}
+{%- unless description == '' -%}
+{%- if page.lang == 'en' -%}
+  {%- assign description = description | prepend: 'Table of Contents: ' -%}
+{%- else -%}
+  {%- assign description = description | prepend: '目次: ' -%}
+{%- endif -%}
+{%- assign description = description | truncate: 100, '...' -%}
 <meta name="description" content="{{ description }}">
 <meta name="og:description" content="{{ description }}">
-{%- endif -%}
+{%- endunless -%}
 
 {%- endunless -%}
