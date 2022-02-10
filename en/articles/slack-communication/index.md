@@ -167,41 +167,39 @@ If you discuss questions about the class on a "channel", the questions will be v
 {:#dm}
 If you need to contact a student individually, such as when an assignment has not been submitted, you can do so via DM.
 
-#### (Application) Connecting with Zoom
+#### (Advanced) Link with Zoom
 {:#zoom}
-You can find out how to connect here ([Slack official site](https://slack.com/help/articles/115004062463-Zoom-for-Slack)). If you connect, you can start Zoom smoothly from Slack.
+You can find out how to link ([here (Slack help center)](https://slack.com/help/articles/115004062463-Zoom-for-Slack)). By linking, you can start Zoom smoothly from Slack.
 
 ### How to Use Channels in the Classroom (for students)
 {:#for_students}
-#### Ask a question to a teacher (#question)
+
+#### Ask a Question to the Teacher (#question)
 {:#question_students}
 
 <figure>
 <img src="Pic11.png">
 </figure>
 
-To make sure you get responded, it is a good idea to mention the teacher. You can do this by putting @ in front of your Slack display name as shown in the red circle.
+To make sure you get a response, it is a good idea to mention the teacher. You can do this by putting @ in front of the teacher's Slack name as shown in the red circle.
 
-#### Chatting with other students (#chat)
+#### Chat With Other Students (#chat)
 {:#chat}
-You can also create channels for casual chat among students.
+You can also create channels for casual chat among students. It is suggested that you avoid talking about topics unrelated to the class on other channels.
 
-### Tips: Creating operational rules
+### Tips: Creating Class Rules
+When using a Slack workspace in class, it is a good idea to set class rules for using the workspace, and to share the rules with students in advance. In particular, please be careful of handling personal information such as email addresses (See [Manage Email Display (Slack help center)](https://slack.com/help/articles/228020667-Manage-email-display).).
 
-When using workspace in a class, it is a good idea to share the operation rules with students in advance. In particular, please be careful about handling personal information such as email addresses ([Slack Help: Manage Email Display](https://slack.com/help/articles/228020667-Manage-email-display)).
+### Good Practices and Examples of Applications
 
-### Good Practices and examples of applications
+* [Prof. Saito, Computational Mathematics I (in Japanese)](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/saito)
+    * Slack was used in an Prof. Saito's on-demand style class. He called for questions regarding class content and answered them on Slack. Students seemed to be more active in asking questions online than face-to-face. He believes that Slack reduces the psychological burden to ask questions because users can edit or delete their messages.
+* [Prof. Shiraishi, Law I (in Japanese)](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/shiraishi.html)
+    * Since use of Slack was optional, only about 10% of the students actually joined Slack. However, many questions and consultations were received via DM. Prof. Shiraishi believes that being able to communicate privately was a factor for students to ask questions easily.
+    * Materials were uploaded to Slack and ITC-LMS five days before the class, and students were asked to post questions on Slack by noon of the day before the class. As a result, the professor was able to answer questions in the class and give explanations based on the questions, which helped the professor structure the class.
 
-* [Dr. Nobukazu Saito, Computational Mathematics I](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/saito, Japanese Only)
-    * We used Slack in an on-demand style class; we elicited questions regarding class content and encouraged students to answer them on Slack. Students seemed to be more active in asking questions online than in face-to-face classes. It was believed that Slack causes little psychological burden as users might edit or delete their messages.
-* [Professor Tadashi Shiraishi, Law I, Japanese Only](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/shiraishi.html)
-    * Owing to the voluntary nature, only about 10% of the students joined Slack. However, we received a lot of questions and consultations via DM.
-    * Five days before the class, we uploaded materials to Slack and ITC-LMS, and asked students to ask questions on Slack by noon the day before.
-
-
-### Useful links
-
-* [Slack help](https://slack.com/help)
-* [Introduction to Slack - Improving work efficiency!, Japanese Only](https://ascii.jp/serialarticles/3000637/)
+### Useful Links
+* [Slack help center](https://slack.com/help)
+* [Introduction to Slack - Improving work efficiency! (in Japanese)](https://ascii.jp/serialarticles/3000637/)
 
 **We would like to thank Slack Japan K.K. for providing us with images and other support in creating this article. Thank you for your kind cooperation.**
