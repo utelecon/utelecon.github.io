@@ -14,36 +14,36 @@ This article introduces how to use Slack to communicate with students and more.
 * (Student) Communicate with other students and seminar members
 
 ### Limitations of Slack
-* There is no automatic way to know who has already read your chat or how many people have read it (as an alternative solution, you can ask people to react/reply with emoji when they read your chat).
+* There is no automatic way to know who has already read your chat or how many people have read it. (As an alternative solution, you can ask people to react/reply with emoji when they read your chat.)
 * In the free version, you can only read/search the last 10,000 messages, send up to 5GB of files to one workspace, and link up to 10 apps.
 
 ## What is Slack?
 ### App Description
-Slack is a messaging platform that allows you to communicate in real time. In the platform called **"Workspace"**, you can exchange and manage messages in separate **"Channels"** for different topics and people.
+Slack is a messaging platform that allows you to communicate in real time. In the platform called **"workspace"**, you can exchange and manage messages in separate **"channels"** for different topics and people.
 
 #### (1) Sharing Information via Channels
-You can create a "channel" for each theme or content to communicate. (See ["How to Use Slack in Class - How to create a channel"](#in_class) section for details.)
-Separate channels allow you to share information within your team by topic, and organize information as well as interactions. (See [How to Use Channels in the Classroom (for teachers)](#for_teachers) section for details.)
+You can create a "channel" for each theme or content to communicate. (For details, see the ["How to create a channel" section](#in_class).)
+Separate channels allow you to share information within your team by topic, and organize information as well as interactions. (For details, see the ["How to Use Channels in the Classroom (for teachers)" section](#for_teachers).)
 
-There are two types of channels: **public channels** and **private channels**. If you set a channel to private, you can create a closed space where only authorized users can search and join the same workspace.(See ["How to Use Slack in Class - Having Private Conversations Between Teachers and Teaching Assistants"](#private_channel) section for details.)
+There are two types of channels: **public channels** and **private channels**. If you set a channel to private, you can create a closed space where only authorized users can search and join the same workspace. (For details, see the ["Have Private Conversations Between Faculty Members and Teaching Assistants" section](#private_channel).)
 
 
 #### (2) Using DM and Mention Functions to Send Messages
 
-You can also use **Direct messages (DM)** to send private messages. (See ["How to Use Slack in Class - Contacting Students Individually"](#dm) section for details.)
+You can also use **Direct messages (DM)** to send private messages. (For details, see the ["Contact Students Individually" section](#dm).)
 
-If you want to respond to a specific person in the channel, or if you want to notify them, you can use the **mentions** function to make it easier for them to see your message. (See ["How to Use Channels in the Classroom - Taking Questions"](#question _teachers) section for details.)
+If you want to respond to a specific person in the channel, or if you want to notify them, you can use the **mentions** function to make it easier for them to see your message. (For details, see the ["Receive Questions" section](#question_teachers).)
 
 #### (3) Using Emoji for Casual Communication
 
-**Emoji** can be added to react to a message. You can ask students to react when they read an announcement, which can be used to prevent communication from going unanswered or to conduct surveys in class. (See ["How to Use Channels in the Classroom - Class Communication and Casual Surveys"](#announce) section for details.)
+**Emoji** can be added to react to a message. You can ask students to react when they read an announcement, which can be used to prevent communication from going unanswered or to conduct surveys in class. (For details, see the ["Class Communication and Casual Surveys" section](#announce).)
 
 #### Specifications
 
 * Provider: Slack Technologies Inc.
 * Available Environment
     * Devices/OS: Available on PCs, tablets and smartphones.
-    * For more information about OS and browser versions access the [Slack official help page)](https://slack.com/help/articles/115002037526-System-requirements-for-using-Slack)
+    * For more information about OS and browser versions access the [System requirements for using Slack (Slack help center)](https://slack.com/help/articles/115002037526-System-requirements-for-using-Slack)
     * Required drive space for installation: 0MB for web browser and 158.1MB for app download.
     * Required or optional accessories: None
 * Operational Costs
@@ -56,7 +56,7 @@ If you want to respond to a specific person in the channel, or if you want to no
 ## How to Install Slack and Create a Workspace
 ## Installing the Slack App
 * To use the web browser version, register and sign in from the [Slack homepage](https://slack.com/get-started#/create).
-* To use the app version, install it from the Slack download page. ([Windows version](https://slack.com/downloads/windows) ([Mac version](https://slack.com/downloads/mac))
+* To use the app version, install it from the Slack download page. ([Windows version](https://slack.com/downloads/windows))  ([Mac version](https://slack.com/downloads/mac))
 
 Below, we will show how to use the app version. (The procedure is mostly the same for the web version.)
     
@@ -65,7 +65,7 @@ Below, we will show how to use the app version. (The procedure is mostly the sam
 2. You will see the following screen in your browser. Press "Continue with Google" and sign in with your ECCS Cloud Email account (or your personal email address). <img src="Pic2.png"> 
 3. Press "Create another workspace" at the bottom of the page. <img src="Pic3.png"> 
 4. Set up the workspace (e.g. class name). The "company or team name" will be the name of the workspace. It is recommended that you use a workspace name that makes its purpose easily recognizable  (e.g. which class the workspace is for). In this example, the workspace is named "xxxx Seminar". <img src="Pic4.png"> 
-5. "What the team is working on now" is the name of the "channel" in the workspace. If using in a class, it is useful to set up channels such as "Basic Information" (see this article ["How to Use Channels in the Classroom (for teachers)"](#for_teachers). Here we will create a "questions-on-assignments" channel. <img src="Pic5.png">
+5. "What the team is working on now" is the name of the "channel" in the workspace. If using in a class, it is useful to set up channels such as "Basic Information" (For details, see the ["How to Use Channels in the Classroom (for teachers)" section](#for_teachers). Here we created a "questions-on-assignments" channel. <img src="Pic5.png">
 6. Next, you will see a screen that asks you who the users of the new channel are, "Who do you email most about?”. This is where you enter the email addresses of the people you want to invite to your workspace. Steps on sending invitations will be introduced in the next section. <img src="Pic6.png">
 7.The class workspace setup is now complete. <img src="Pic7.png">
 
@@ -75,11 +75,11 @@ Below, we will show how to use the app version. (The procedure is mostly the sam
 </figure>
 
 * If you have collected the email addresses of the students you want to invite, send invitations to their email addresses. Press **"Add teammates"**, which is below "Direct messages", and enter the email addresses of the students you want to invite.
-* If you wish to share by link, share the invitation link to your class through ITC-LMS or other means ("[Share an invitation link (Slack help center)](https://slack.com/help/articles/201330256-Invite-new-members-to-your-workspace#share-an-invitation-link)".
+* If you wish to share by link, share the invitation link to your class through ITC-LMS or other means (See "[Share an invitation link (Slack help center)](https://slack.com/help/articles/201330256-Invite-new-members-to-your-workspace#share-an-invitation-link)".
  * Ensure there are no invitation link leakages and remind students to be careful.
- * Remember to set your students' email addresses invisible. (See "[Manage email visibility (Slack Help)](https://slack.com/intl/ja-jp/help/articles/228020667-%E3%83%A1%E3% 83%BC%E3%83%AB%E3%81%AE%E8%A1%A8%E7%A4%BA%E3%82%92%E7%AE%A1%E7%90%86)".)
+ * Remember to set your students' email addresses invisible. (See "[Manage email display (Slack help center)](https://slack.com/help/articles/228020667-Manage-email-display)".)
 * Students would join the workspace via the link in the invitation email.
-* For instructions on how to accept the invitation, see "[Slack Help](https://slack.com/help/articles/360049769934-Accept-an-invitation-to-join-another-companys-channel)".
+* For instructions on how to accept the invitation, see "[Accept a Slack Connect channel invitation (Slack help center)](https://slack.com/help/articles/360049769934-Accept-an-invitation-to-join-another-companys-channel)".
 
 ## How to Use Slack in Class
 {:#in_class}
@@ -96,13 +96,6 @@ Here we introduce how to use Slack effectively in class. As an example, we will 
     * \# questions
     * \# team-professor
     * \# group-01 / # group-02 / # group-03
-<!----
-   * \# General communication
-    * \# Basic information
-    * \# Questions
-    * \# Teachers/TAs
-    * \# Presentation group 1 / # Presentation group 2 / # Presentation group 3
----->
 
 * How to send a message
   <br>To send a message, use the aeroplane symbol ((2) in the above figure) on each channel. You can also use bold or italic text to emphasize your message, or attach a file (select the file from the clip symbol) if necessary.
@@ -132,6 +125,7 @@ Here we introduce how to use Slack effectively in class. As an example, we will 
 
 #### Receive Questions (#questions)
 {:#question_teachers}
+
 <figure>
 <img src="Pic11.png">
 </figure>
@@ -152,7 +146,7 @@ If you discuss questions about the class on a "channel", the questions will be v
 
 #### Have Private Conversations Between Faculty Members and Teaching Assistants (🔒 team-professor).
 {:#private_channel}
-* If you want to share information only with faculty members and TAs, you can set up a private channel (See [Slack help center](https://slack.com/help/articles/213185467-Convert-a-channel-to-private)).
+* If you want to share information only with faculty members and TAs, you can set up a private channel (See [Convert a channel to private (Slack help center)](https://slack.com/help/articles/213185467-Convert-a-channel-to-private)).
 * In a private channel, only people of the same workspace who are invited to the channel can freely join or search the message content.
 * You can create a private channel by turning on the "Make private channel" option when you create a channel.
 * Once a channel is set as a private channel, it cannot be changed back to a public channel.
@@ -169,7 +163,7 @@ If you need to contact a student individually, such as when an assignment has no
 
 #### (Advanced) Link with Zoom
 {:#zoom}
-You can find out how to link ([here (Slack help center)](https://slack.com/help/articles/115004062463-Zoom-for-Slack)). By linking, you can start Zoom smoothly from Slack.
+You can find out how to link in ([Zoom for Slack (Slack help center)](https://slack.com/help/articles/115004062463-Zoom-for-Slack)). By linking, you can start Zoom smoothly from Slack.
 
 ### How to Use Channels in the Classroom (for students)
 {:#for_students}
@@ -188,7 +182,7 @@ To make sure you get a response, it is a good idea to mention the teacher. You c
 You can also create channels for casual chat among students. It is suggested that you avoid talking about topics unrelated to the class on other channels.
 
 ### Tips: Creating Class Rules
-When using a Slack workspace in class, it is a good idea to set class rules for using the workspace, and to share the rules with students in advance. In particular, please be careful of handling personal information such as email addresses (See [Manage Email Display (Slack help center)](https://slack.com/help/articles/228020667-Manage-email-display).).
+When using a Slack workspace in class, it is a good idea to set class rules for using the workspace, and to share the rules with students in advance. In particular, please be careful of handling personal information such as email addresses (See [Manage email display (Slack help center)](https://slack.com/help/articles/228020667-Manage-email-display).).
 
 ### Good Practices and Examples of Applications
 
