@@ -1,5 +1,5 @@
 ---
-title: How to communicate with students on Slack
+title: How to Communicate With Students on Slack
 ---
 
 ## Highlights of This Article
