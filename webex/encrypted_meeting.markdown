@@ -14,32 +14,13 @@ Webex Meetingsには，クライアント間で暗号化された（途中で復
 
 ### できなくなること
 
-* クラウド録画（サーバ側で復号化しないのできません）
-* テレビ会議システムや電話との接続（エンド・エンド間で暗号化できないため）
+* クラウド録画（サーバ側で復号化しないのでできません）
+* テレビ会議システム（H323/SIPによる接続）や電話との接続（エンド・エンド間で暗号化できないため）
 * ウェブブラウザ, Linux での利用など
-
-<!--
-## アカウントの申請
-
-安全な会議を開くためのWebexアカウントは新規に必要です．（手動で作成しているため若干時間がかかります．）申請をすると，はじめに事務局からアカウント手続きに関するメールが届きます．その後，システムからのメールが届きます．正確に手続きしないとトラブルシューティングが必要となってしまうため，以下の手順でアカウント取得をしてください．
-
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUMUhVRzlRODBIRkczUUpYVlZTM1lRU1kzNy4u" target="_blank">こちらのフォーム</a>から申請してください．フォームへのアクセスにはUTokyo Account（共通ID(数字10桁)@utac.u-tokyo.ac.jp）でのサインインが必要です．フォームにアクセスできなかった場合は[こちらのトラブルシューティングのページ](../faq/msaccount-troubleshooting)の手順を行ってください. 
-
-システムのメールが届いた後の手順は[Webex アカウントの作成とログイン](create_utelecon_account)に従って初期設定をしてください.
-
-### アカウントの説明
-
-提供するアカウントは，**共通ID(数字10桁)@g.ecc.u-tokyo.ac.jp** というアカウントです．（ほかのものには変えられません．）オンライン会議のドメインは **https://utelecon.webex.com** になります．
--->
 
 ## アカウントについて
 
 WebexにはUTokyo Accountでログインします．Webexのサイト **<a href="https://utelecon.webex.com" target="_blank">https://utelecon.webex.com</a>** の右上の「サインイン」をクリックし，メールアドレス欄に 共通ID（10桁ID）@utac.u-tokyo.ac.jp を入力して「次へ」をクリックすると，UTokyo Accountのログインフォームが表示されます．
-
-
-## 接続テスト
-
-利用するコンピュータがWebexのオンライン会議に接続できるかどうかを確認するために，Cisco社に協力頂き，<a href="https://hiono-sandbox.webex.com/join/narumi" target="_blank">テストサイト</a>（平日の9:00～17:00）を用意しています．接続してみてください．（東京大学以外の方もぜひどうぞ！）
 
 ## 使い方
 
@@ -49,12 +30,10 @@ WebexにはUTokyo Accountでログインします．Webexのサイト **<a href=
 
 ## FAQ
 
-* Zoomとの違いはどこですか．
-	* 現在の Zoom のサービスでの暗号化はクライアント暗号化（サーバとクライアント間の通信の暗号化）です．サーバで復号化されています．（Webexも通常の利用方法ではクライアント暗号化をします）
 * End to End 暗号化の詳細を教えてください．
-	* Cisco社の[説明のページ](https://help.webex.com/ja-jp/WBX44739/What-Does-End-to-End-Encryption-Do)を参照してください．
+	* Cisco社の以下のページを参照してください．
+		* [エンドツーエンドの暗号化が行うことは?](https://help.webex.com/ja-jp/WBX44739/)
+		* [Zero-Trust Security for Webex White Paper](https://www.cisco.com/c/en/us/solutions/collateral/collaboration/white-paper-c11-744553.html)
 * 本当に安全ですか．
 	* 検証中です．
-* 事務業務端末で利用できますか？
-	* 利用できません. ノートPCなどにアプリケーションをインストールして利用してください．
 
