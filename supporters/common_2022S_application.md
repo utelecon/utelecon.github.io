@@ -35,7 +35,7 @@ title: 2022年度Sセメスター「コモンサポーター」募集のお知�
 ~~詳細情報は，[別紙の募集要項](https://www.google.com/url?q=https://drive.google.com/file/d/13lTDDFBvFUmkvTTWoqtOwN7OkXBNUMBj/view?usp%3Dsharing&sa=D&source=docs&ust=1642758091006753&usg=AOvVaw3JHnUpax1FLl8iw5Z4zpKL)（ECCSクラウドメールにログインした状態で閲覧可能）に記載されておりますので，ご確認ください．~~
 
 * 応募方法：募集要項の「3 応募要領」にある応募フォームとシフト希望調査に入力・提出してください．
-* 応募期限：~~2022年2月9日(水)13:00です．~~ <font color="red"> ~~2022年2月15日(火)13:00まで延長しました。~~</font>
+* 応募期限：~~2022年2月9日(水)13:00です．~~ ~~2022年2月15日(火)13:00まで延長しました。~~
 * ＊今期の募集は締め切りました
 
 ## 問い合わせ先
