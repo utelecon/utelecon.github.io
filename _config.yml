@@ -6,14 +6,18 @@ sass:
 lang: ja
 title: utelecon
 repository: utelecon/utelecon.github.io
+twitter:
+  card: summary
 defaults:
   -
     scope:
       path: ""
     values:
       lang: ja
+      image: /assets/images/ogp.png
   -
     scope:
       path: en
     values:
       lang: en
+      image: /assets/images/ogp.png
