@@ -76,7 +76,7 @@ CommentScreenは投稿されたコメントを，ZoomなどのWeb会議システ
 * コメント（質問）が多い場合，多くのコメントが表示されて見にくくなったり質問が流れてしまう．
 
 （参考ページ）
-* uteleconの記事：coming soon...
+* **[CommentScreenで学生とコミュニケーションをとる](/articles/commentscreen/)**：サービスの概要と基本的な使い方をまとめています．
 * **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita)**：授業においてCommentScreenを活用して，質問を受け付ける実践例です．
 * **[CommentScreen 公式サイト](https://commentscreen.com/)**：システムについての概要がまとまっています．
 

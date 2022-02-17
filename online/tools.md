@@ -238,7 +238,7 @@ Slidoは，Q&Aやライブ投票・アンケートなど，授業や会議・講
 ### CommentScreen
 CommentScreenは，オンライン授業をしている画面上に，直接学生の質問やコメントを匿名・リアルタイムで表示することができるツールです．
 
-- **[CommentScreen（外部サイト）](https://commentscreen.com/)**：公式ウェブサイトです．
+- **[CommentScreenで学生とコミュニケーションをとる](/articles/commentscreen/)**：基本的な使い方をを説明しています．
 - **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
 - **[CommentScreenを用いた授業における質問の受け付け方](/articles/question-tools#CommentScreen)**：実際の授業でのCommentScreen活用例として，質問を受け付ける方法とそのコツを紹介しています．
 
