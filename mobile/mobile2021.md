@@ -6,7 +6,7 @@ title: 教育・研究活動のためのネットワーク環境支援2021
 
 <span style="color: red; ">
 **【重要】**
-2021年度4月以降の新規申請はこのページです。
+2021年度の受付は終了しました。
 </span>
 
 ## 目的 / Purpose 
@@ -55,7 +55,7 @@ It will be offered to students subject to the above conditions.
 Please apply using the form below. If possible, You soould use [ECCS cloud mail](https://utelecon.adm.u-tokyo.ac.jp/oc/index.html#google).
 If you are a faculty/staff member and wish to borrow a mobile WiFi router, please contact the general affairs office of your department.
 
-[【2021年度・学生用】東京大学 モバイルWiFiルーター貸与申込 / Application for a mobile WiFi router for UTokyo Students](https://docs.google.com/forms/d/e/1FAIpQLScu3rlbC_uhITS8hxFoNsUXvkP-Q-VieKb58Id7bJmJUyf0BA/formResponse)
+~~【2021年度・学生用】東京大学 モバイルWiFiルーター貸与申込 / Application for a mobile WiFi router for UTokyo Students ~~
 
 
 ## スケジュール / Schedule
