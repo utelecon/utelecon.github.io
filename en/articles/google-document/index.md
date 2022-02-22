@@ -51,7 +51,7 @@ Open [Google Docs Home Page](https://docs.google.com/document/u/0/). A new docum
 
 ## How to Use
 Write your content in the same way as on document editors such as Microsoft Word.  
-! [](pic2.png)  
+![](pic2.png)  
 
 ### Setting Headings
 Setting captions enables you to unify the appearance of headings and construct your document hierarchically.  
@@ -59,7 +59,7 @@ Select the part you want to mark as heading, and click on "Normal Text".
 You will see the following options. Choose the appropriate heading and set the heading.  
 <img src="pic3.png" width="600px">
 <br>
- [](pic4.png)  
+![](pic4.png)  
 In the above example, "[Minutes]" is set to "Heading 2", and "Flow of the meeting", "Previous flow", "Progress report of each group", "Future policy", and "Summary" as "Heading 3" respectively.  
 You can also use the shortcut keys "Ctrl+Alt+(1-6)" on Windows and "⌘+option+(1-6)" on Mac to create headings.
 
@@ -67,19 +67,19 @@ You can also use the shortcut keys "Ctrl+Alt+(1-6)" on Windows and "⌘+option+(
 #### Numbered List
 Select the area you want to number and choose "Numbered list" from the menu.  
 Alternatively, you can use the shortcut “Ctrl+Shift+7” on Windows or “⌘+Shift+7” on Mac to set up a numbered list.  
-! [](pic5_1.png)
+![](pic5_1.png)
 
 #### Bulleted List
 Select the area you want to bullet and select "Bulleted list" from the menu.  
 Alternatively, you can use the shortcut keys “Ctrl+Shift+8” on Windows or” ⌘+Shift+8” on Mac to set the bulleted list.  
-! [](pic6_1.png)  
+![](pic6_1.png)  
 To add a deeper level of bullets, press the Enter key to add a bullet, then press the Tab key.  
 To add a bullet with a shallower level of detail, press the Shift key and the Tab key.  
-! [](pic7.png)  
+![](pic7.png)  
 
 ### Sharing Your Document
 You can share your Google Docs document to collaborate with others.  
-! [](pic13.png)  
+![](pic13.png)  
 
 When you share a document and edit it at the same time, the other users’ cursors appear in different colors so that you can see who is editing where.
 
@@ -98,7 +98,7 @@ One "Editor" has been added. The editing permission of an added user can be chan
 
 #### Get Link
 You can share a document by sharing a link to access the document.  
-! [](pic11.png)  
+![](pic11.png)  
 Under “Get link”, select the range of users to be granted access (either "Restricted", which grants access only to added users, or "東京大学ECCSクラウドメール” (University of Tokyo ECCS Cloud Email), which grants access to users of UTokyo’s ECCS Cloud Email, and "Anyone with link", which grants access to all users you share the link with).  
-! [](pic12.png)  
+![](pic12.png)  
 Select the type of editing permission to be granted for users who the link is shared with.  
