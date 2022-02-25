@@ -1,6 +1,5 @@
 ---
 title: Details on Zoom System Change for Spring 2021
-lang: en
 ---
 
 To facilitate online teaching and simplify technical operation, UTokyo ICT systems changes are in progress. This page is about the changes in the use of Zoom. For information about other ICT systems, see “**[System Change for Spring 2021](/en/change2021s/)**”.
@@ -61,7 +60,7 @@ If you are using UTokyo Zoom with an email other than the 10 digits-ID ECCS Clou
 
 If you wish to use this email address, signing in from the Zoom sign-in page [https://zoom.us/signin](https://zoom.us/signin) with its password is temporarily available. Please note that it is impossible to sign in from UTokyo Zoom page using a non-10 digits-ID account.
 
-As previously announced, these Zoom accounts are to be terminated. You are advised to switch to the 10 digits-ID account. Please read “[Changing the Zoom Email Address](/notice/zoom-address-new.html)” (currently Japanese only) on how to switch to the 10 digits-ID UTokyo Account “1234567890@utac.u-tokyo.ac.jp”, after the transfer.
+As previously announced, these Zoom accounts are to be terminated. You are advised to switch to the 10 digits-ID account. Please read “[Using Zoom with Non-UTokyo Account Sign-in](/en/notice/zoom-address-new)” on how to switch to the 10 digits-ID UTokyo Account “1234567890@utac.u-tokyo.ac.jp”, after the transfer.
 
 ### Change in Zoom Meeting URLs
 

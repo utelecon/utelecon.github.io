@@ -1,6 +1,5 @@
 ---
 title: What is possible with Webex Training?（for Instructors)
-lang: en
 ---
 
 * This section describes the Webex Training functions only available to the host.	

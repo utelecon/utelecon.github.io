@@ -1,6 +1,5 @@
 ---
 title: How to use Zoom (for organizers)
-lang: en
 ---
 
 

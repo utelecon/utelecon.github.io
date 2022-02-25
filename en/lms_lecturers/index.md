@@ -1,6 +1,5 @@
 ---
 title: How to use the Learning Management System ITC-LMS（for instructors）
-lang: en
 ---
 
 ## Introduction

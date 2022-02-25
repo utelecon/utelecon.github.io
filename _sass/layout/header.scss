@@ -1,4 +1,4 @@
-$header-hamburger-breakpoint: 48rem;
+$header-hamburger-breakpoint: 768px;
 
 .header {
   display: grid;
@@ -125,7 +125,7 @@ $header-hamburger-breakpoint: 48rem;
     text-align: center;
     font-size: 0.75em;
   }
-  @media (max-width: 24rem) {
+  @media (max-width: 384px) {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
@@ -240,7 +240,7 @@ $header-hamburger-breakpoint: 48rem;
           right: 0;
           transform: none;
         }
-        @media (min-width: 64rem) {
+        @media (min-width: 1024px) {
           flex: 1;
           &, &:first-child, &:last-child {
             & > ul {

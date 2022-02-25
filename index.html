@@ -2,11 +2,14 @@
 title: オンライン授業・Web会議 ポータルサイト @ 東京大学
 layout: common
 sitemap: false
+description: 本サイトは，東京大学におけるオンライン授業やWeb会議に関する情報をワンストップで得られることを目指すサイトです．
 ---
 
 {% include layouts/header.html is_top = true %}
 
 <main id="content">
+
+  {% include emergency.html %}
 
   <h2>まずはここから</h2>
   <div class="top__cards">
@@ -33,14 +36,17 @@ sitemap: false
   </div>
 
   <h3>新着記事</h3>
+  <!--
+    概ね次の基準で掲載する
+    - /articles/ 以下のページのみを「記事」と考え掲載対象とする
+    - 新しい記事から古い記事の順に掲載する
+    - 同時に公開された記事は同時に掲載開始し同時に掲載終了する
+    - 常に2記事以上を掲載する
+    - 目安としては3記事から6記事程度を掲載する
+  -->
   <div class="top__cards">
-    <a href="/articles/goodnotes-writing/">GoodNotes 5 で板書をする</a>
-    <a href="/articles/onenote-whiteboard/">OneNoteで板書する</a>
-    <a href="/articles/scrapbox/">Scrapboxの基本的な使い方</a>
-    <a href="/articles/slack-seminar/">ゼミ形式の授業でSlackを活用する</a>
-    <a href="/articles/google-document/">Google ドキュメントの基本的な使い方</a>
-    <a href="/articles/google-drive/">Google Driveの基本的な使い方</a>
-    <a href="/articles/online-interaction/">オンライン会議ツールを使って交流する</a>
+    <a href="/articles/club-activity/">サークル活動に使えるオンラインツール</a>
+    <a href="/articles/question-tools/">授業における質問の受け付け方の工夫</a>
   </div>
 
   <h3>オンライン授業の実践など</h3>

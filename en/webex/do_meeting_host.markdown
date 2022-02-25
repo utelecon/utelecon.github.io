@@ -1,6 +1,5 @@
 ---
 title: Webex meeting room 101（for instructors）
-lang: en
 ---
 
 * In this section, we will explain the Webex Meetings functions that are unique to the Host of the meeting.
@@ -75,7 +74,7 @@ lang: en
 
 ## What Webex Meetings cannot do 
 
-* It is not possible to conduct group work on WebEx because it does not have the function to divide participants into groups. If you want to do group activities, we recommend ，<a href="/zoom/ZOOM" target="_blank">ZOOM</a> or Webex Training.
+* It is not possible to conduct group work on WebEx because it does not have the function to divide participants into groups. If you want to do group activities, we recommend <a href="/en/zoom/" target="_blank">Zoom</a> or Webex Training.
 
 
 

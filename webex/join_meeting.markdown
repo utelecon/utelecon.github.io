@@ -3,7 +3,7 @@ title: Webex ミーティングへの参加
 ---
 
 ## ミーティングへ参加する
-* 開催者から送られてきたメールにある「ミーティングに参加」をクリックすると，デフォルトのブラウザが開き，Webex Meetingsアプリが起動します．
+* 開催者から送られてきたメールにある「ミーティングに参加」をクリックすると，デフォルトのブラウザが開き，Webexアプリが起動します．
 * 名前の入力を進むとプレビュー画面に移行します．
 
 	 ![プレビュー画面](img/webex_meeting_preview.png)
@@ -18,5 +18,5 @@ title: Webex ミーティングへの参加
 <br>
 <br>
 <a href="index" target="_blank">Webexの使い方ページに戻る</a>
-<a href="meeting_participant" target="_blank">会議でできること（参加者）をみる</a>
-<a href="meeting_owner" target="_blank">会議でできること（開催者）をみる</a>
+<a href="do_meeting" target="_blank">ミーティングでできること（開催者・参加者共通）をみる</a>
+<a href="do_meeting_host" target="_blank">ミーティングでできること（開催者）をみる</a>

@@ -1,6 +1,5 @@
 ---
 title: Online Class Supporters Program
-lang: en
 ---
 
 What is a Class Supporter

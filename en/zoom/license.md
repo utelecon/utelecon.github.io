@@ -1,6 +1,5 @@
 ---
 title: Zoom License for Large Meetings/Webinars
-lang: en
 ---
 
 ## Overview

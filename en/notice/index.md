@@ -1,6 +1,5 @@
 ---
 title: Notice
-lang: en
 ---
 
 {% comment %} To add notice here, edit `_data/notice/en.yml` {% endcomment %}
