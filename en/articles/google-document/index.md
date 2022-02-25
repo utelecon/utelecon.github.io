@@ -26,7 +26,7 @@ Google Docs is a software that enables you to create and edit documents online. 
 ## How to Install
 To create and share Google Docs documents, you need a Google account. (For more information on how to create a Google account, please refer to the [official Google account help page](https://support.google.com/accounts/answer/27441?hl=en).
 
-If you are a UTokyo member, we recommend that you sign in with your ECCS Cloud Email account, which grants you unlimited storage and functions such as restricted sharing among UTokyo account holders. For more information on how to use ECCS Cloud Email, please check "[ECCS Cloud Email (Google Workspace)](/eccs_cloud_email)".
+If you are a UTokyo member, we recommend that you sign in with your ECCS Cloud Email account, which grants you unlimited storage and functions such as restricted sharing among UTokyo account holders. For more information on how to use ECCS Cloud Email, please check "[ECCS Cloud Email (Google Workspace)](/en/eccs_cloud_email)".
 
 You can use the visitor function to view and edit documents shared by others, even if you do not have a Google account.
 
@@ -36,7 +36,7 @@ Please install the Google Docs application.
 
 ### Using Google Docs on a PC
 If you use Google Docs on your PC, you can create a document using a web browser.
-Open the [Google Docs Home Page](https://docs.google.com/document/u/0/).
+Open the [Google Docs Home Page](https://docs.google.com/document/).
 
 ## How to Create a Document
 ## Using a Smartphone
@@ -47,7 +47,7 @@ Tap the New icon in the bottom right corner. Tap [Choose template].
 Tap the template you want to use.
 
 ### Using a PC
-Open [Google Docs Home Page](https://docs.google.com/document/u/0/). A new document can be created by selecting a template in the “Start a new document” section at the top of the page.
+Open [Google Docs Home Page](https://docs.google.com/document/). A new document can be created by selecting a template in the “Start a new document” section at the top of the page.
 
 ## How to Use
 Write your content in the same way as on document editors such as Microsoft Word.  
