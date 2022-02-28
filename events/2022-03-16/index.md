@@ -13,7 +13,7 @@ title: "2022/03/16 説明会「オンライン授業だけじゃない！　教�
 * **日時**：2022/3/16(水) 15:00-17:00 (終了後も質問を受け付けます)
 * **場所**：オンライン (Zoomウェビナー; 下の「参加申込み」からお申し込みください)
 * **資料・録画**：このページで提供します.
-* **質疑応答**：Slidoで受け付けます. このページで案内します. <!--[https://app.sli.do/event/...](https://app.sli.do/event/...) (またはイベントコード `#...` )からアクセスしてください. (参考: [Slidoの使い方ページ](/slido/))-->
+* **質疑応答**：Slidoで受け付けます. このページで案内します. [https://app.sli.do/event/tgEEMDQot8CP3hGxsCjhip](https://app.sli.do/event/tgEEMDQot8CP3hGxsCjhip) (またはイベントコード `#utelecon20220316` )からアクセスしてください. (参考: [Slidoの使い方ページ](/slido/))
 
 ## 内容（予定）
 
@@ -39,11 +39,7 @@ title: "2022/03/16 説明会「オンライン授業だけじゃない！　教�
 
 ## 参加申込み
 
-準備中です。
-
-<!--
-こちらからお申込みください [説明会参加申し込みページ](https://u-tokyo-ac-jp.zoom.us/webinar/register/...)
--->
+[Zoomウェビナー登録ページ](https://u-tokyo-ac-jp.zoom.us/webinar/register/WN_SqIEjYx4S6uV9YaVef5ryg)を入力・送信してください。
 
 ## 事後アンケート
 
