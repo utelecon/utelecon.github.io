@@ -16,7 +16,7 @@ To sign in with <strong class="alert"> alternative email addresses (e.g. ECCS Cl
 1. Access the UTokyo Zoom webpage [https://u-tokyo-ac-jp.zoom.us/](https://u-tokyo-ac-jp.zoom.us/).
 1. When the “UTokyo Zoom” page appears, click the “Config” button.
 ![](img/zoom_signin_1.png){:.medium}
-1. Sign in to your UTokyo Account. (The sign-in page will not show up if you are already signed in with your UTokyo Account.)
+1. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
 ![](img/zoom_signin_2.png){:.medium}
 
 <details>
@@ -37,7 +37,7 @@ If you have issues signing in, please reach out to <a href="/en/support/">Techni
 ![](img/zoom_signin_5_1.png){:.medium}
 1. Enter “u-tokyo-ac-jp” as your “company domain”. (Note that the characters before and after “ac” are hyphens, not underscores.)
 ![](img/zoom_signin_6.png){:.medium}
-1. You will be taken to the UTokyo Account sign-in page, where you enter your ID and password. (The sign-in page will not show up if you are already signed in with your UTokyo Account.)
+1. The UTokyo Account sign-in page will be displayed in the browser. Please sign in. (The sign-in page will not show up if you are already signed in with your UTokyo Account.)
 ![](img/zoom_signin_2.png){:.medium}
 
 If you have issues signing in, please reach out to <a href="/en/support/">Technical Support Desk</a> for assistance.
