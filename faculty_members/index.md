@@ -174,6 +174,12 @@ UTokyo WiFiは東京大学のキャンパス内で提供されている学内向
 - **[新規アカウントの発行について (教職員等)](https://www.ecc.u-tokyo.ac.jp/doc/announce/newuser_staff.html)**：ECCSの利用開始手続きについての説明です．
 - **[情報基盤センターの利用に関する教員向けの情報](https://www.ecc.u-tokyo.ac.jp/lecturer/index.html)**：ECCSを中心とした情報基盤センターのサービスについての全般的な説明です．
 
+### Slido
+
+Q&Aやライブ投票・アンケートなど，授業や会議・講演会などでの参加者との双方向コミュニケーションに役立つ機能を提供しているWebサービスです．東京大学でライセンス契約を行っているWebexと連携しているため，大学のアカウントでサインインすると有料機能を利用することができます．
+
+利用方法などの詳細は，**[Slidoのページ](/slido/)**をご覧ください．
+
 ### EZproxy
 
 東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです（教職員だけでなく学生も利用することができます）．利用方法などの詳細は**[EZproxyのページ](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)**をご覧ください．
