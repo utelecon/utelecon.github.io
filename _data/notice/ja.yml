@@ -1,6 +1,14 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2022-03-01
+  content: "(教員用) 3/16 15:00から，[説明会「オンライン授業だけじゃない！　教育研究用ICT・オンライン会議ツールの説明会」](/events/2022-03-16/)を開催いたします．"
+  important: true
+-
+  date: 2022-03-01
+  content: "東京大学の情報システムとそのサポート体制について説明する資料[「オンライン授業を受けるために（学生向け）」 (PDF)](/notice/2022/getting_ready_for_online_classes_students_2022s.pdf)と[「オンライン授業を始めるために（教員向け）」 (PDF)](/notice/2022/getting_ready_for_online_classes_faculty_2022s.pdf)の2022年度Sセメスター版を公開しました．"
+  important: true
+-
   date: 2022-02-24
   content: "[2022年3月～4月 ネットワーク切替に伴うシステム停止のお知らせ](/notice/2022/sinet6)"
 -
