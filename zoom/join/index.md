@@ -10,16 +10,16 @@ URL（https://zoom.us/j/xxxxxxxxxx?pwd=xxxxxxxx xは英数字）を使って入�
 ## URL を使って入る
 1. 会議室の URL（https://zoom.us/j/xxxxxxxxxx?pwd=xxxxxxxx xは英数字）にアクセスします
 1. Web ブラウザー上で「Zoom Meetings を開く」を押します（Zoom がインストールされてない場合は，その画面からダウンロード可能であるため，そのままダウンロードして Zoom をインストールします）  
-  ![](img/zoom_join_pc_url_browser.png) 
+  ![](pc_url_browser.png) 
     
-1. （名前を設定していない場合）名前の設定をします  
-  ![](img/zoom_join_pc_url_name.png)
+2. （名前を設定していない場合）名前の設定をします  
+  ![](pc_url_name.png)
     
 1. （カメラがついていて，ビデオプレビューダイアログを表示する設定になっている場合）ビデオ付きで参加するかビデオなしで参加するか選択できるため，希望の方を選択します  
-  ![](img/zoom_join_pc_camera.png)
+  ![](pc_camera.png)
   
 1. （オーディオ（音声）の参加方法が未定の場合）「コンピューターでオーディオに参加」を選択します  
-  ![](img/zoom_join_pc_mic.png)
+  ![](pc_mic.png)
   
 以上の流れで会議室へ入れます
 
@@ -28,16 +28,16 @@ URL（https://zoom.us/j/xxxxxxxxxx?pwd=xxxxxxxx xは英数字）を使って入�
 ## ID を使って入る
 1. Zoom を起動します
 1. 「ミーティングに参加」を押します  
-  ![](img/zoom_join_pc_id_top.png)
+  ![](pc_id_top.png)
   
 1. ①にミーティングID（9～10桁の数字）を入力，②に名前を入力して，「参加」を押します（パスワードが設定されている場合は，パスワードも知らせてもらってパスワードを入力します）  
-  ![](img/zoom_join_pc_id_join_add.png)
+  ![](pc_id_join_add.png)
   
 1. （カメラがついていて，ビデオプレビューダイアログを表示する設定になっている場合）ビデオ付きで参加するかビデオなしで参加するか選択できるため，希望の方を選択します
-  ![](img/zoom_join_pc_camera.png)
+  ![](pc_camera.png)
   
 1. （オーディオ（音声）の参加方法が未定の場合）「コンピューターでオーディオに参加」を選択します  
-  ![](img/zoom_join_pc_mic.png)
+  ![](pc_mic.png)
   
 以上の流れで参加できます
 
