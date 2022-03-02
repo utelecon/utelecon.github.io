@@ -1,5 +1,5 @@
 ---
-title Google グループの使用方法
+title: Google グループの使用方法
 ---
 
 
