@@ -22,7 +22,7 @@ To sign in with <strong class="alert"> alternative email addresses (e.g. ECCS Cl
 <details>
   <summary>Tips for resolving sign-in issues</summary>
   <ul>
-  <li><strong>If you cannot access the “UTokyo Zoom” page from the above link</strong>: This issue occurs when you are already signed in to Zoom with another account. To sign out, go to your <a href="https://zoom.us/profile">Zoom setting page</a>, click your profile picture (either your icon or the default person image) in the top-right corner, and click “Sign Out”. Then try accessing “UTokyo Zoom” again. <img src="/zoom/img/zoom_signin_3.png" alt="" class="medium"></li>
+  <li><strong>If you cannot access the “UTokyo Zoom” page from the above link</strong>: This issue occurs when you are already signed in to Zoom with another account. To sign out, go to your <a href="https://zoom.us/profile">Zoom setting page</a>, click your profile picture (either your icon or the default person image) in the top-right corner, and click “Sign Out”. Then try accessing “UTokyo Zoom” again. <img src="/zoom/signin/3.png" alt="" class="medium"></li>
   </ul>
 If you have issues signing in, please reach out to <a href="/en/support/">Technical Support Desk</a> for assistance.
 </details>

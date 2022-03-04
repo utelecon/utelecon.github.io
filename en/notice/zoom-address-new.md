@@ -68,7 +68,7 @@ If you are currently signing in to Zoom using the ECCS Cloud Email with the user
         <li> 
             Access the UTokyo Zoom page, https://u-tokyo-ac-jp.zoom.us/, press “Config”, and sign in with your UTokyo Account. 
             (This is the same procedure as described in the <a href="/en/zoom/zoom_signin#browser">Signing in from the UTokyo Account Zoom Webpage section on the Sign-in Methods for Zoom page</a>.)
-            <img src="/zoom/img/zoom_signin_1.png">
+            <img src="/zoom/signin/1.png">
             <details>
                 <summary>If you see the message "Confirm your email address” right after you sign in </summary>
                 <img src="image/zoom_sso_update_email.png">
