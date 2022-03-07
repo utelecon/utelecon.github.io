@@ -9,3 +9,4 @@
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 ![](/zoom/img/zoom_signin_2.png){:.medium}
 1. サインインが完了します．右上のアイコン（人のマークか，または自分のアイコンを設定していればそれ）を押したときに，自分の共通IDとともに「ライセンスあり」と表示されれば，OKです．
+![](/zoom/img/zoom_signin_license.png)
