@@ -18,5 +18,3 @@ title: Webex ミーティングへの参加
 <br>
 <br>
 <a href="index" target="_blank">Webexの使い方ページに戻る</a>
-<a href="do_meeting" target="_blank">ミーティングでできること（開催者・参加者共通）をみる</a>
-<a href="do_meeting_host" target="_blank">ミーティングでできること（開催者）をみる</a>

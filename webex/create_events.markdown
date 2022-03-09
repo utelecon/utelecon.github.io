@@ -40,11 +40,29 @@ title: Webex ウェビナーを作成する
 ![](img/webex_home_calendar.jpg){:width="500px"}
 ![](img/webex_calendar.jpg){:width="600px"}
 
+### 資料を配布する
+
+ウェビナーに資料を添付して，参加者に配布することができます．
+* スマートホン等で参加している参加者には配布できません．
+* ウェビナーの編集画面の「ウェビナー資料」の「編集」をクリックし，ファイルをアップロードします．
+![](img/webex_webinar_material_host1.jpg){:width="700px"}
+![](img/webex_webinar_material_host2.jpg){:width="500px"}
+* 参加者は，招待URLにブラウザからアクセスしたときに表示されるページからファイルをダウンロードすることができます．
+![](img/webex_webinar_material_attendee1.jpg){:width="700px"}
+![](img/webex_webinar_material_attendee2.jpg){:width="500px"}
+
 <!--
 ### メールの文面をカスタマイズする
 
 Webexには，テンプレートの種別（ウェビナーへの招待，リマインダー等）ごとに3種類のテンプレートを保存しておくことができます．ウェビナーごとにこの3種類からテンプレートを選び，さらにそのウェビナー用に編集することができます．
+
+#### アカウントのテンプレートを編集する
+
+#### テンプレートを選択する
+
+#### ウェビナー用に編集する
 -->
+
 
 <br>
 <br>
