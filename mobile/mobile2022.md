@@ -6,8 +6,7 @@ title: 教育・研究活動のためのネットワーク環境支援2022
 
 <span style="color: red; ">
 **【重要 / Notice】**
-2022年度の受付を開始します。なお、2022年度は対象が新入学生（学部1年生および学外からの大学院新規入学者）となっております。ご注意ください。
- 
+2022年度の受付を開始します。なお、2022年度は対象が新入学生（学部1年生および学外からの大学院新規入学者）となっております。ご注意ください。<br>
 Applications for the AY2022 are now being started. Please note that only new students (first-year undergraduate students and new graduate students from outside the university) are eligible. 
 </span>
 
