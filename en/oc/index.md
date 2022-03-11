@@ -71,28 +71,26 @@ To take online classes, you will need an Internet connection and equipment such 
 
 To participate in a “simultaneous interactive” online class, you will need to know the URL of the web conference. This information is normally posted in the “Online course information” section of the ITC-LMS introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “[How to Obtain the Online Class URL (for Students)](url)” regarding other ways of obtaining the URL.
 
-### Others
+## When You Need help
 
-- Some information about classes is provided by your faculty or graduate school, such as timetables and class registration procedures. Please be aware of how you will be informed of this information and check it regularly (if you are uncertain, contact your faculty or graduate school).
-- In order to enter the campus, you need to take the [COVID-19 e-learning](https://www.u-tokyo.ac.jp/ja/general/COVID-19-elearning.html) course and [apply for admission](https://www.u-tokyo.ac.jp/covid-19/en/safety/entry-restrictions.html) in advance. Please note that some of these services cannot be used without respective accounts. For this purpose, make sure you have access to the university's systems properly.
-
-## Need help
-
-If you have any problems, difficulties, or concerns about online classes, please contact the **[support desk](/en/support/)**. Common Supporters (student staff) and faculty members will assist you in solving your problems.
+If you have any problems, difficulties, or concerns regarding online classes, please consult the **[Technical Support Desk](/en/support/)**. Common Supporters (student staff) and faculty members will assist you in solving any problem you may have.
 
 For example, the following questions and consultations are welcome.
 
-- I follow the preparation procedures described in this page, but it doesn't work.
-- I have a last minute problem when trying to participate in an online class.
-- I fail to download the class materials.
+- “I followed the preparation procedures described on this guide, but they did not work.”
+- “I have a last-minute problem when trying to participate in an online class.”
+- “I am unable to download class materials.”
 
 {% comment %}
 以下の手順説明は他のページと共通しているため，変更があった場合に対応しやすいよう，別ファイルに記述し `include` で呼び出している．実体は `_includes/procedures/` ディレクトリにある．
 {% endcomment %}
 
-## Required procedures to use the information system
+## Required Procedures to Use the Information Systems
+{:#important}
 
-We will start by explaining  essential tasks that must be done in order to use the information systems, such as creating an account. Please make sure to spare sufficient time to complete them before classes start. If you have any problems with the procedure, please consult the **[support desk](/en/support/)**.
+In this section, we will explain the essential tasks that must be completed to use the information systems, such as creating an account. Please ensure to spare enough time to complete these tasks before classes start. If you have any problems with these procedures, please consult the **[Technical Support Desk](/en/support/)**.
+
+Please check the “[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](movies) (Preparing for online classes at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the below procedures in further detail.
 
 <ul class="procedure">
 {% include procedures/en/utokyo_account.html part="important" %}
@@ -101,9 +99,11 @@ We will start by explaining  essential tasks that must be done in order to use t
 {% include procedures/en/utokyo_wifi.html part="important" %}
 </ul>
 
-## Other procedures to use the information systems
+## Other Procedures to Use the Information Systems
 
-Next, we will explain the procedures for checking and working with the various information systems in more detail, such as logging in to each system and accessing the pages dedicated to Todai accounts. Please make sure to complete the subsequent procedures before the start of classes so that you can take classes under perfect condition. If you have any problems during the procedure, please consult the **[support desk](/en/support/)**.
+Next, the procedures for performing more detailed checks and tasks on various information systems, such as logging in to each system and accessing UTokyo member-only pages, will be explained. Please ensure to complete the subsequent procedures before the beginning of the classes so that you are fully prepared. If you have any problems during the procedure, please consult the **[Technical Support Desk](/en/support/)**.
+
+Please check the “[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](movies) (Preparing for online classes at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the procedures below in further detail.
 
 ### UTokyo Account
 {:#utokyo_account}
@@ -113,6 +113,7 @@ Next, we will explain the procedures for checking and working with the various i
 {% include procedures/en/utokyo_account.html %}
 
 ### UTAS
+{:#utas}
 
 {{ about_utas }}
 
@@ -126,16 +127,16 @@ Next, we will explain the procedures for checking and working with the various i
 {% include procedures/en/itc_lms.html %}
 
 ### Zoom
+{:#zoom}
 
-A web conference system used in most of the "simultaneous interactive" classes.
+A web conference system used in most “simultaneous interactive” classes.
 
 {% include procedures/en/zoom.html %}
 
 ### Webex
+{:#webex}
 
-This is a web conferencing system used for some "simultaneous interactive" classes. The system is rarely used, so you can work on it when you need it.
-
-{% include procedures/en/webex.html %}
+This is a web conferencing system used for some “simultaneous interactive” classes. The system is rarely used, so you can work on it when you need it. Please refer to [Webex page](/en/webex/) for details.
 
 ### ECCS Cloud Email (Google Workspace)
 {:#google}
@@ -175,6 +176,6 @@ This is a web conferencing system used for some "simultaneous interactive" class
 
 ## More information
 
-Thank you for your time. If you have any trouble with any of the steps so far, please consult the **[support desk](/en/support/)**.
+Thank you for taking the time to read this guide. If you face a difficulty with any of the steps, please consult the **[Technical Support Desk](/en/support/)**.
 
-This concludes the preparation procedures for taking online classes. The site, "**Online Class / Web Conference Portal Site @ The University of Tokyo**", nicknamed "**utelecon**", introduces a lot of information on how to use the information systems mentioned in this page. If you have any questions about the information systems in your classes, or if you are a member of a club or a study group, you may have opportunities to use web conferencing and other information systems on your own. Please visit this site to find out more.
+This concludes the preparation procedures for taking online classes at UTokyo. The site, "**Online Class / Web Conference Portal Site @ The University of Tokyo**”, nicknamed “**utelecon**”, contains considerable information on how to use the information systems mentioned on this page. If you have any questions regarding the information systems in your classes, or if you are a member of a club or study group and have opportunities to use web conferencing systems and other information systems on your own, please visit this site to find out more.
