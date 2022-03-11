@@ -1,6 +1,5 @@
 ---
-title: 教育・研究活動のためのネットワーク環境支援2022
- / The network environment support for education and research 2022
+教育・研究活動のためのネットワーク環境支援2022（新入生のみ対象） / The network environment support for education and research 2022(for new student only)
 ---
 **情報システム本部/ Division for Information and Communication Systems**
 
