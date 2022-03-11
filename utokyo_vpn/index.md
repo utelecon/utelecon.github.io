@@ -18,7 +18,7 @@ UTokyo VPNを利用するには，まず自身の端末にVPNクライアント�
 
 **情報セキュリティ教育:** [情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を受講しないと，UTokyo VPNを利用することはできません．毎年度実施される情報セキュリティ教育を受講しなかった場合は`jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` (`__at__`は@に変更)へ連絡してください．
 
-**多要素認証の有効化:** UTokyo VPNを利用するためには，UTokyo Accountの多要素認証を有効にする必要があります．[Utokyo Accountにおける多要素認証の利用について](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください．<span style="color: red; ">(多要素認証を申請して40分が経過するとUTokyo VPNが利用可能となります。)</span>
+**多要素認証の有効化:** UTokyo VPNを利用するためには，UTokyo Accountの多要素認証を有効にする必要があります．[Utokyo Accountにおける多要素認証の利用について](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください<span style="color: red; ">(多要素認証を申請して40分が経過するとUTokyo VPNが利用可能となります)．</span>
 
 **利用できるコンピュータの種類:** UTokyo VPNに接続できるコンピュータは WindowsおよびmacOSの下記のバージョンです．iPhoneやAndroidなどのスマートフォンでも利用可能ですが，現時点ではマニュアル等のサポートは提供しておりません．
 - Windows: Windows 11，10，8.1
@@ -160,7 +160,7 @@ VPNを切断する際は，このウィンドウの「Disconnect」ボタンを�
 
 ### VPNクライアントのインストールや接続時の問題
 
-#### Q. 準備編 手順Aで「これに対するアクセス権がありません」というエラーが表示される
+#### Q. 準備編 手順Aで「これに対するアクセス権がありません」または「You don't have access to this」というエラーが表示される
 
 - 多要素認証申請が完了していない可能性があります．[こちらのページ](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照して，UTokyo Accountの多要素認証を有効にしてください．
 
