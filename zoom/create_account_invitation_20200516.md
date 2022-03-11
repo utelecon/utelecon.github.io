@@ -1,3 +1,3 @@
 ---
-redirect_to: "/zoom/signin"
+redirect_to: "/zoom/signin/"
 ---
