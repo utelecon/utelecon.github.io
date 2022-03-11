@@ -1,6 +1,7 @@
 ---
 title: Preparing for online classes at the University of Tokyo (for new students)
 slug: oc # 手順を外部ファイルからincludeするときに使う
+lang: en
 ---
 
 ## Introduction
@@ -26,50 +27,49 @@ There are various types of online classes, but the "**simultaneous interactive**
 
 Apart from the aforementioned type of online classes, there is the "**on-demand**" type which students watch video recordings of classes, ask questions and discuss the contents via e-mail or chat tools. The "**hybrid**" type combines online classes with face-to-face instruction. It is noted that classes at the University of Tokyo are not online-only, some face-to-face instruction also remains. Owing to that students might have to take online classes in empty classrooms on campus before or after their face-to-face classes, depending on their timetable constraints.
 
-## What you need to prepare
+## What You Need to Prepare for Classes
 
-### Use of a range of information systems
+### Use of Various Information Systems
 
-You will be using a variety of information systems in your classes at the University of Tokyo. You should set up your account and practice the procedures for using these systems in advance. Below is a general view of the systems, and detailed procedures will be explained in subsequent sections.
+You will be using a variety of information systems during your classes at UTokyo. You should set up an account and practice all procedures for using these systems in advance. Below is a list of these systems. The detailed procedures are explained in the subsequent sections:
 
 {% comment %}以下の説明の文章は後でも使うため，一度変数として定義してからそれを呼び出す形で記述している．{% endcomment %}
 
-{% capture about_utokyo_account %}This is an account called "common ID" used in the University of Tokyo's information systems. You can use this account to log in to each system.{% endcapture %}
-{% capture about_utas %}This is used to view the syllabus for each class, register courses, and check your grades.{% endcapture %}
-{% capture about_itc_lms %}This is used for downloading class materials and submitting assignments (Learning Management System).{% endcapture %}
-{% capture about_google %}This system allows you to use Google systems such as Gmail with your Todai account. You can also have your Todai email address. There are some pages that can only be accessed with your Todai account. Even if you already have your own Google account, you need to activate your Todai account.{% endcapture %}
-{% capture about_microsoft %}Microsoft Office such as Word and Excel can be downloaded free of charge. As with Google, there are some pages that can only be accessed with a Todai account. Even if you already have your own Microsoft account, you need to activate your Todai account.{% endcapture %}
-{% capture about_utokyo_wifi %}Wi-Fi service is available on campus. You will need it when you take online classes on campus. Please note that you cannot use it unless you have created an account in advance.{% endcapture %}
-{% capture about_eccs %}These are computers installed on campus. You can use them when you take online classes on campus. Please note that you cannot use them unless you have passed the "New User Information Seminar" course in advance.{% endcapture %}
+{% capture about_utokyo_account %}This is the account you will use to log into UTokyo’s ICT systems. The username may also be referred to as “Common ID”.{% endcapture %}
+{% capture about_utas %}This system is used to browse the syllabus for each class, register courses, and check the grades (academic affairs system).{% endcapture %}
+{% capture about_itc_lms %}This system is used to download class material and submit assignments (learning management system).{% endcapture %}
+{% capture about_google %}This is a UTokyo Google account that allows users to use Google services, such as Gmail, as a UTokyo member. The ECCS Cloud Email can also be used as a UTokyo email address. Since some UTokyo web pages can only be accessed by UTokyo members, you are required to activate your ECCS Cloud Email even if you already own a Google account.{% endcapture %}
+{% capture about_microsoft %}This is a Microsoft license offered to UTokyo Account holders. This license will enable you to download Microsoft Office apps, such as Word and Excel, and use online Microsoft tools for free with the UTokyo Account. Similar to Google Workspace, some UTokyo webpages can only be accessed with a UTokyo Account. Therefore, it is necessary to use your UTokyo Account even if you already own a Microsoft account.{% endcapture %}
+{% capture about_utokyo_wifi %}Wi-Fi services are available on campus. You will require them while taking online classes on campus. Please note that you will not be able to use Wi-Fi services unless you have created an account in advance.{% endcapture %}
+{% capture about_eccs %}ECCS terminals refer to the computers installed on campus. You can use them while taking online classes on campus. You also use them in some face-to-face classes. Please note that you will not be able to use them unless you have passed the “New User Information Seminar” course in advance.{% endcapture %}
 
 - **UTokyo Account**: {{ about_utokyo_account }}
 - **UTAS**: {{ about_utas }}
 - **ITC-LMS**: {{ about_itc_lms }}
-- **Zoom**, **Webex**: Web conferencing systems used for "simultaneous interactive" online classes. Basically Zoom is used, but Webex may also be used depending on the class.
+- **Zoom**, **Webex**: These are the web conferencing systems that are used for "simultaneous interactive" online classes. Zoom is mostly used at UTokyo, but Webex may also be used depending on the class.
 - **ECCS Cloud Email (Google Workspace)**: *{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**: {{ about_microsoft }}
 - **UTokyo WiFi**: {{ about_utokyo_wifi }}
 - **ECCS terminals**: {{ about_eccs }}
 
-### Network environment and electronic devices
+### Network Environment and Electronic Devices
 
-In order to take online classes, you will need an Internet environment and equipment such as a computer. Here is an explanation of what you need to prepare.
+To take online classes, you will need an Internet connection and equipment such as a computer. The following is an explanation of how you will need to prepare.
 
-- **Network environment**: No problem as long as you can view videos stably, but pay attention to the communication capacity for long online classes. In particular, if you are using a smartphone directly connected to a mobile network (LTE, etc.), please make sure that you do not run out of gigs.
-    - The university surely provides Wi-Fi on campus.
-    - The University of Tokyo provides support for those who do not have an adequate network environment. For more details, please check "[The network environment support for education and research](/mobile/)" page.
-- **PC**: If you just want to watch online classes, a smartphone will work for you. However, in university, you will often need a computer for many purposes such as writing reports. In online classes, you also need to do some work or exercises while watching the videos. If you do not have a computer, this is a good opportunity to get one.
+- **Network connection**: There should be no problem with slower connections as long as you can watch videos stably. However, pay attention to the communication capacity when taking long online classes. More specifically, if you are using a smartphone directly connected to a mobile network (e.g., LTE), please ensure that you do not run out of data.
+    - The university provides Wi-Fi on campus.
+    - The University of Tokyo provides support for new students who do not have adequate network connections. For more details, please check “[The network environment support for education and research](/mobile/)”.
+- **PC**: A smartphone should be sufficient if you just want to watch online classes. However, in university, you will often need a computer for many purposes, such as writing reports. In online classes, you will also need to do some work or exercises while watching videos.
     - A portable laptop is recommended so that you can use it on campus.
-    - If you are buying a new computer, we recommend one with a microphone and camera. If you are going to use a computer you already own, there is no need to worry if it does not have a microphone or camera. Most classes are designed to accommodate those who do not have them, and for some classes such as language classes, it may be desirable to have them, but you can also buy an external one.
-    - In consideration of the above points, models and versions do not matter unless it is not too old. As long as you can view videos, it should be fine.
-    <!-- - （学部1年生向け）教養学部が作成している「[オンライン授業に必要な機器や通学前の準備について](https://www.c.u-tokyo.ac.jp/zenki/OnlineClasses_preparation20210317.pdf)」に具体的なスペックの目安が記載されています．-->
-    - You may also refer to the Co-op's special topic page about computers for new students, "[Komaba Model PC for Examinees and New Students Support Site 2021 (Japanese Only)](https://www.utcoop.or.jp/start/pc.html)".
-    - If you do not have a sufficient computer environment, please consult with your faculty or graduate school. (For example, the College of Liberal Arts [lends out computers](https://www.c.u-tokyo.ac.jp/campuslife/online-lectures.html))
-- **Headset or earphones**: When taking online classes in an empty classroom on campus, you will need a headset or earphones in order to listen to the audio without disturbing other students in the same classroom. A headset with a microphone is recommended when purchasing a new one.
+    - For specifications, please refer to “[東京大学のBYOD方針](/docs/byod) (The University of Tokyo's BYOD Policy)” (in Japanese).
+    <!-- - (For first-year undergraduate students) The College of Arts and Sciences provides guidelines for required PC specifications in “オンライン授業に必要な機器や通学前の準備について(Devices necessary for online classes and preparation for attending college)” (in Japanese). -->
+    - You may also refer to the Co-op’s special topic page about computers for new students, “[受験生・新入生応援サイト2022 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html) (Komaba Model PC for Examinees and New Students Support Site)” (in Japanese).
+    - If you do not have a computer that meets the above mentioned requirements, please consult with your faculty or graduate school. (For example, the College of Arts and Sciences can [lend out computers](https://www.c.u-tokyo.ac.jp/campuslife/online-lectures.html) (in Japanese).)
+- **Headset and earphones**: When taking online classes in an empty classroom on campus, you will need a headset or earphones to listen to the class without disturbing other students in the same classroom. A headset equipped with a microphone is recommended when purchasing one.
 
-### Information on class URL
+### Class Location Information
 
-This section is coming soon.
+To participate in a “simultaneous interactive” online class, you will need to know the URL of the web conference. This information is normally posted in the “Online course information” section of the ITC-LMS introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “[How to Obtain the Online Class URL (for Students)](url)” regarding other ways of obtaining the URL.
 
 ### Others
 
@@ -164,6 +164,14 @@ This is a web conferencing system used for some "simultaneous interactive" class
 {{ about_eccs }}
 
 {% include procedures/en/eccs.html %}
+
+## Others
+
+- Information about classes, such as timetables and class registration procedures, will be provided by the faculty or graduate school. Please be aware of how you will be informed of such information and check it regularly (if you are uncertain or have any questions, contact your faculty or graduate school).
+
+- **Anti-virus software**: The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". As part of the countermeasures, a comprehensive license for antivirus software will be provided from April 1, 2022 (scheduled), so please use it as needed.
+
+- **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**: The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
 
 ## More information
 
