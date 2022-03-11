@@ -47,7 +47,7 @@ You will be using a variety of information systems during your classes at UTokyo
 - **UTAS**: {{ about_utas }}
 - **ITC-LMS**: {{ about_itc_lms }}
 - **Zoom**, **Webex**: These are the web conferencing systems that are used for "simultaneous interactive" online classes. Zoom is mostly used at UTokyo, but Webex may also be used depending on the class.
-- **ECCS Cloud Email (Google Workspace)**: *{{ about_google }}
+- **ECCS Cloud Email (Google Workspace)**: {{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**: {{ about_microsoft }}
 - **UTokyo WiFi**: {{ about_utokyo_wifi }}
 - **ECCS terminals**: {{ about_eccs }}
@@ -169,9 +169,7 @@ This is a web conferencing system used for some “simultaneous interactive” c
 ## Others
 
 - Information about classes, such as timetables and class registration procedures, will be provided by the faculty or graduate school. Please be aware of how you will be informed of such information and check it regularly (if you are uncertain or have any questions, contact your faculty or graduate school).
-
 - **Anti-virus software**: The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". As part of the countermeasures, a comprehensive license for antivirus software will be provided from April 1, 2022 (scheduled), so please use it as needed.
-
 - **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**: The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
 
 ## More information
