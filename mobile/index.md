@@ -1,3 +1,3 @@
 ---
-redirect_to: "/mobile/mobile202"
+redirect_to: "/mobile/mobile2022"
 ---
