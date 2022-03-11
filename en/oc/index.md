@@ -3,6 +3,8 @@ title: Preparing for online classes at the University of Tokyo (for new students
 slug: oc # 手順を外部ファイルからincludeするときに使う
 ---
 
+<!--
+
 ## Introduction
 
 Congratulations everyone, welcome to your new school.
@@ -19,6 +21,8 @@ We, the faculty and staff of the University of Tokyo, would like to live up to y
 Director and Vice President (Education and Information Systems)<br>
 Tatsuya OKUBO
 </div>
+
+-->
 
 ## What type of online classes will be held at the University of Tokyo?
 
