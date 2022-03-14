@@ -337,6 +337,21 @@ For further details on how to use this feature, please see the [UTokyo VPN page]
 
 The University of Tokyo offers a student staff system called “Class Supporter” to assist rehearsal and gathering of information on online classes. The workload of class supporters is less intensive than teaching assistants. Students are recruited from all over the university and matched with faculty members who wish to use the system. For more details, please see the “[Class Supporter System page](/supporters/class)” (in Japanese).
 
+## Tips for Online Classes
+
+When conducting online classes, you may have opportunities to share class recordings and to keep track of attendance. Using functions provided by various tools, you can perform these tasks without excessive burden on both the lecturer and student. The following sections describe some of the most common methods.
+
+### Sharing Recordings
+
+This section explains how to record and share a class. Recording a class is not only for students who could not attend the class because of equipment/connection issues or illness; it is useful for all students because they can watch it for review or pause it to learn at their own pace.
+
+* Zoom has a recording function called “Record.” Notably, the "Cloud Recording" feature enables you to save videos to the Zoom Cloud for sharing with others later. When sharing a video, you can also restrict access to UTokyo members.
+  * For details, please see “[(Zoom for Faculty Members) Cloud Recording](/en/zoom/how/faculty_members/recording_cloud)."
+* Uploading recordings of Zoom videos to Google Drive or YouTube after editing them, such as deleting part of them, is a common method of sharing them. In such cases, you can also restrict access to UTokyo members.
+  * For further details of these procedures, please see “[Uploading Video Files to Google Drive](/faculty_members/how/google/share_video)” (in Japanese) or “[Restricting YouTube Content to University Members Only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/)."
+  * For more information on video editing, please see “[Search by Purpose/Creating and Sharing Videos](https://utelecon.adm.u-tokyo.ac.jp/online/topics#movie)" (in Japanese).
+* By posting video URLs in the "Course Materials" section of the ITC-LMS, you can share these videos with students.
+
 ## Next Step: For Better Online Classes
 
 This site, "**Online Class / Web Conference Portal Site @ The University of Tokyo**", also known as "**utelecon**", presents you lots of information on how to use the information systems mentioned in this page and other useful information for online classes.
