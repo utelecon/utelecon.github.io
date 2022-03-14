@@ -3,6 +3,10 @@ title: Preparing for online classes at the University of Tokyo (for faculty memb
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 ---
 
+<b class="box">
+A briefing session titled “<a href="/events/2022-03-16/">Not only online classes! A briefing session on ICT and online conference tools for education and research</a>” will be held on March 16 at 15:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
+</b>
+
 ## Introduction
 
 To all new faculty members of the University of Tokyo,
@@ -40,15 +44,35 @@ Institutionally, classes are categorized into **"face-to-face"** and **"remote" 
 
 各授業形態の制度上の取扱いに関する詳細は，[「対面とオンラインを併用した授業実施形態にかかる取扱いの判断基準等について」（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/UTAS/%E5%AF%BE%E9%9D%A2%E3%81%A8%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%92%E4%BD%B5%E7%94%A8%E3%81%97%E3%81%9F%E6%8E%88%E6%A5%AD%E5%AE%9F%E6%96%BD%E5%BD%A2%E6%85%8B%E3%81%AB%E3%81%8B%E3%81%8B%E3%82%8B%E5%8F%96%E6%89%B1%E3%81%84%E3%81%AE%E5%88%A4%E6%96%AD%E5%9F%BA%E6%BA%96%E7%AD%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6_20220214%E4%BD%9C%E6%88%90.pdf)をご参照ください．
 
-## 困ったときは：サポート窓口
+## Troubleshooting: Technical Support Desk
 
-オンライン授業に関して，トラブルや情報システムの利用方法に関する相談などは，**[サポート窓口](/support/)**にご相談ください．チャット・Zoom・メールフォームの3つの方法で相談を受け付けており，学生スタッフ「コモンサポーター」と教職員の共同体制により迅速な対応を行っています．
+If you have any problems or need advice on using information systems, please consult the **[Technical Support Desk](/en/support/)**. The Technical Support Desk provides consultation services through three tools: chat, Zoom, and email form. The Technical Support Desk will respond quickly through the collaboration of student staff "Common Supporters" and faculty members.
+
+## Getting Started: Initial Setup of the Common ID “UTokyo Account”
+
+“UTokyo Account” is the account used for logging in to UTokyo’s IT systems, such as Zoom and ITC-LMS (which are explained later). Its username is also called “Common ID.”
+
+The following is an explanation of the UTokyo Account’s initial setup procedure. Please read this section carefully, as it is an important procedure necessary for using UTokyo’s systems.
+
+### Changing the Initial Password
+
+1. Receive the “Notification regarding password for the UTokyo Account,” which includes your initial password, from your faculty, and graduate school. Faculty members who need it for classes should receive the notification, but if not, please contact your department's office.
+2. Please log in to the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) with the username and password indicated in the notification.
+3. Click "Password Change" on the upper left to change your password. For the safety of your account, please set a strong password.
+
+At this point, you will be able to log in to UTokyo’s systems including [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do), which is used to input syllabi and grades. (*For information on how to use UTAS, please check with your department’s academic affairs office, or log in to UTAS, then click “Other” in the menu at the top of the screen and download the manual from the “Download Center.”)
+
+### Setting up “Multi-Factor Authentication”
+
+To improve the security of UTokyo’s IT systems, the “multi-factor authentication” (MFA) is available for UTokyo Accounts.
+
+The MFA is a security process in which users prove their identity by at least two pieces of evidence. In addition to passwords, users are asked to verify their identity via SMS, authentication applications, and other methods when signing in to their accounts.
+
+MFA setup is not mandatory at this time, but it is recommended for better security of your UTokyo Account. Please follow the setup procedures in the “**[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)**” page.
 
 ## Precondition
 
 ### List of information systems
-
-The following is a list of information systems operated and contracted by the University of Tokyo that are necessary for online classes, including learning management systems (systems for distributing class materials and collecting assignments), web conference systems, and cloud services. These systems have functions suitable for classroom use, such as the ability to hold meetings and share files only with University of Tokyo accounts, and students are accustomed to using these systems, so we recommend that you use these systems for your classes. The procedures for preparing an account are explained in detail in this document.
 
 {% capture about_utokyo_account %}This is an account called "common ID" used in the University of Tokyo's information systems. You will use this account to log in to each system.{% endcapture %}
 {% capture about_utas %}This is the system used to register syllabi, grades, etc.{% endcapture %}
