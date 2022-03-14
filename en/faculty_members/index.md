@@ -272,6 +272,25 @@ For more information on how to use Webex, please refer to [the Webex page on thi
 
 {% include procedures/en/eccs.html %}
 
+## Other systems
+
+### Antivirus Software
+
+The University of Tokyo requires “[appropriate antivirus measures](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)” for computers in the “Guidelines for Information Ethics and Computer Use”. As part of the countermeasures, a comprehensive license for antivirus software will be provided from April 1, 2022 (scheduled), so please use it as needed.
+
+### UTokyo VPN
+
+Some IT systems at the University of Tokyo (for example, administrative systems) can only be accessed through the university's internal network. The "**UTokyo VPN**" is a service that allows users to access these systems from off-campus.
+For further details on how to use this feature, please see the [UTokyo VPN page](/utokyo_vpn/) (in Japanese).
+
+## Guidelines for Online Classes
+
+“[The Tools Usage Guideline for Online Class Since S Semester 2021](/en/notice/guideline)” is the established guideline for online classes. Please also check your department’s policy on conducting online classes because each department may have its own policy.
+
+## Class Supporter System
+
+The University of Tokyo offers a student staff system called “Class Supporter” to assist rehearsal and gathering of information on online classes. The workload of class supporters is less intensive than teaching assistants. Students are recruited from all over the university and matched with faculty members who wish to use the system. For more details, please see the “[Class Supporter System page](/supporters/class)” (in Japanese).
+
 ## Next Step: For Better Online Classes
 
 This site, "**Online Class / Web Conference Portal Site @ The University of Tokyo**", also known as "**utelecon**", presents you lots of information on how to use the information systems mentioned in this page and other useful information for online classes.
