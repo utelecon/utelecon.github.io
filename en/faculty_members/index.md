@@ -7,6 +7,7 @@ slug: faculty_members # 手順を外部ファイルからincludeするときに�
 A briefing session titled “<a href="/events/2022-03-16/">Not only online classes! A briefing session on ICT and online conference tools for education and research</a>” will be held on March 16 at 15:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
 </b>
 
+<!--
 ## Introduction
 
 To all new faculty members of the University of Tokyo,
@@ -23,6 +24,7 @@ Regarding online classes, we have selected the Good Practices for 2020 and are s
 Director and Vice President (Education and Information Systems)<br>
 Tatsuya OKUBO
 </div>
+-->
 
 ## Types of Classes and Their Handling
 
