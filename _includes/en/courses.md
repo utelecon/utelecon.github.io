@@ -31,7 +31,7 @@ The requirement for this type of media class (online class) is that “the class
     * [第18回 ハイブリッド授業(3) 遠隔と対面の学生の対話を促す授業の実践例](/events/luncheon/2020-11-06/)
 {% endunless %}
 
-{{ heading }} Real-time (Online) (Synchronous Online Delivery)
+{{ heading }} Online (Synchronous Online Delivery)
 
 In this class type, the instructor and all students communicate online in real-time. Web conferencing systems such as Zoom are usually used.
 
