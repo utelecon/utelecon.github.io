@@ -70,6 +70,33 @@ The MFA is a security process in which users prove their identity by at least tw
 
 MFA setup is not mandatory at this time, but it is recommended for better security of your UTokyo Account. Please follow the setup procedures in the “**[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)**” page.
 
+## Using Zoom
+
+Zoom is a simultaneous interactive web conferencing system, and is one of the most frequently used tools in online classes. There are other conferencing systems that perform similar functions, but if there is no particular reason, we recommend you use Zoom as it is a familiar tool for students.
+
+### Signing in to Zoom
+
+The University of Tokyo has a license agreement with Zoom, and by signing in and using it, you can hold meetings with a maximum capacity of 300 participants and for a 30-hour duration.
+
+{% include zoom_signin_browser.md %}
+
+The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](https://utelecon.adm.u-tokyo.ac.jp/zoom/zoom_signin) for more information (please note that you cannot sign in with more than one PCs/tablets/smartphones at the same time; however, you can sign in with one PC, one tablet, and one smartphone simultaneously).
+
+### Creating a Meeting Room
+
+Below are the steps for setting up a Zoom meeting room.
+
+1. Sign in to Zoom, and click "Schedule a Meeting" in the top right corner.
+2. The meeting setup page will appear.
+    - Enter the name (title) of the meeting room in the "Topic" field.
+    - Enter the date, time, and duration of the meeting. If you check the "Recurring meeting" checkbox, you can hold classes multiple times in one meeting room (without changing the URL).
+    - Please be cautious of enabling “Require authentication to join” to restrict access to a meeting room, especially at the beginning of the new semester, because some students have not set up their UTokyo account. For more details, please see "[Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control)."
+3. Click “Save.” You will be directed to a page where you can confirm the details of the meeting room you have set up. The meeting room URL will be displayed in the "Invite Link" section. Participants can enter the room using this URL.
+
+### Detailed Instructions
+
+For detailed instructions on how to use Zoom, please refer to the **[Zoom page on this site](/en/zoom/)**.
+
 ## Precondition
 
 ### List of information systems
