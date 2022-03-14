@@ -116,7 +116,7 @@ When you log in to the ITC-LMS, the “Course Schedule” timetable screen will 
 <summary>Troubleshooting guide: When your courses are not displayed</summary>
 <ul>
     <li>Course information is registered in the ITC-LMS approximately one month before the start of the course. Before that time, it will not be displayed.</li>    
-    <li>Courses are automatically registered through the Academic Affairs System (UTAS) link, and by default, only courses in UTAS where you are registered as the instructor will be displayed. In addition to the automatic registration through the linkage, faculty members who are already registered as instructors can manually add other instructors using the procedures described on the “<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/03/10_2012.html">[ITC-LMS] How to add instructors, administrative staff or students to a course on ITC-LMS. (for Academic Staff)</a>” page.</li>
+    <li>Courses are automatically registered through the Academic Affairs System (UTAS) link, and by default, only courses in UTAS where you are registered as the instructor will be displayed. In addition to the automatic registration through the linkage, faculty members who are already registered as instructors can manually add other instructors using the procedures described on the “<a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/08/08_2282.html">[ITC-LMS] How to add instructors, administrative staff or students to a course on ITC-LMS. (for Academic Staff)</a>” page.</li>
 </ul>
 </details>
 
@@ -223,11 +223,7 @@ This section explains how to record and share a class. Recording a class is not 
   * For details, please see “[(Zoom for Faculty Members) Cloud Recording](/en/zoom/how/faculty_members/recording_cloud)."
 * Uploading recordings of Zoom videos to Google Drive or YouTube after editing them, such as deleting part of them, is a common method of sharing them. In such cases, you can also restrict access to UTokyo members.
   * For further details of these procedures, please see “[Uploading Video Files to Google Drive](/faculty_members/how/google/share_video)” (in Japanese) or “[Restricting YouTube Content to University Members Only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/)."
-<<<<<<< HEAD
-  * For more information on video editing, please see “[Search by Purpose/Creating and Sharing Videos](https://utelecon.adm.u-tokyo.ac.jp/online/topics#movie)" (in Japanese).
-=======
   * For more information on video editing, please see “[Search by Purpose/Creating and Sharing Videos](/online/topics#movie)" (in Japanese).
->>>>>>> 7d3311935c46ebb5cf4d03da0e898616d3d89bbd
 * By posting video URLs in the "Course Materials" section of the ITC-LMS, you can share these videos with students.
 
 ### Taking Attendance
