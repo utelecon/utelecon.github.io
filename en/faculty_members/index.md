@@ -80,7 +80,7 @@ The University of Tokyo has a license agreement with Zoom, and by signing in and
 
 {% include en/zoom_signin_browser.md %}
 
-The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](https://utelecon.adm.u-tokyo.ac.jp/en/zoom/zoom_signin) for more information (please note that you cannot sign in with more than one PCs/tablets/smartphones at the same time; however, you can sign in with one PC, one tablet, and one smartphone simultaneously).
+The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](/en/zoom/zoom_signin) for more information (please note that you cannot sign in with more than one PCs/tablets/smartphones at the same time; however, you can sign in with one PC, one tablet, and one smartphone simultaneously).
 
 ### Creating a Meeting Room
 
@@ -221,7 +221,7 @@ This section explains how to record and share a class. Recording a class is not 
   * For details, please see “[(Zoom for Faculty Members) Cloud Recording](/en/zoom/how/faculty_members/recording_cloud)."
 * Uploading recordings of Zoom videos to Google Drive or YouTube after editing them, such as deleting part of them, is a common method of sharing them. In such cases, you can also restrict access to UTokyo members.
   * For further details of these procedures, please see “[Uploading Video Files to Google Drive](/faculty_members/how/google/share_video)” (in Japanese) or “[Restricting YouTube Content to University Members Only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/)."
-  * For more information on video editing, please see “[Search by Purpose/Creating and Sharing Videos](https://utelecon.adm.u-tokyo.ac.jp/online/topics#movie)" (in Japanese).
+  * For more information on video editing, please see “[Search by Purpose/Creating and Sharing Videos](/online/topics#movie)" (in Japanese).
 * By posting video URLs in the "Course Materials" section of the ITC-LMS, you can share these videos with students.
 
 ### Taking Attendance
