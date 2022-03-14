@@ -97,6 +97,53 @@ Below are the steps for setting up a Zoom meeting room.
 
 For detailed instructions on how to use Zoom, please refer to the **[Zoom page on this site](/en/zoom/)**.
 
+## Using the Learning Management System "ITC-LMS"
+
+The University of Tokyo uses the ITC-LMS learning management system. Features of ITC-LMS include distribution of lecture materials, submission of assignments, online examinations, and notification from instructors to students. The ITC-LMS is also used for announcing online class URLs to students. The following explains how to use the ITC-LMS.
+
+### Logging in to ITC-LMS
+
+1. Go to [ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/login) and click “Login.”
+2. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
+
+### Opening the Course Page
+
+When you log in to the ITC-LMS, the “Course Schedule” timetable screen will be displayed. The courses you will teach should already be displayed. By clicking on each course, you will be taken to the individual course page, where you can perform the following operations.
+
+<details>
+<summary>Troubleshooting guide: When your courses are not displayed</summary>
+<ul>
+    <li>Course information is registered in the ITC-LMS approximately one month before the start of the course. Before that time, it will not be displayed.</li>    
+    <li>Courses are automatically registered through the Academic Affairs System (UTAS) link, and by default, only courses in UTAS where you are registered as the instructor will be displayed. In addition to the automatic registration through the linkage, faculty members who are already registered as instructors can manually add other instructors using the procedures described on the “<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/03/10_2012.html">[ITC-LMS] How to add instructors, administrative staff or students to a course on ITC-LMS. (for Academic Staff)</a>” page.</li>
+</ul>
+</details>
+
+### Announcing Online Class URL
+
+The basic rule for announcing the online class URL to students is to use the “Online course information” section at the top of the ITC-LMS course page. The editing screen will open when you click the edit button (pencil icon) on the right of the “Online course information” section. On this page, you can enter all the information.
+
+- Please note that only entering the URL will not create a link. Click the ![Link](url_button.png){:.inline} icon on the editing screen to complete the link creation process.
+- It is helpful to input the meeting ID and passcode along with the online class URL so that students can also easily join from their tablets.
+
+After you have finished entering information, click the “Proceed to Confirmation Screen” button at the bottom, then click “Register” to submit your information.
+
+For further details on announcing the online class URL, please see the “[How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url)” page.
+
+### Using ITC-LMS’s Functions
+
+The ITC-LMS functions are listed below. For more details on how to use each function, please see the manual, which can be downloaded from the "Manual" button in the upper right corner after logging in.
+
+- **Information notices**: This feature allows instructors to contact students. Depending on the student's settings, the message will be sent by email or LINE.
+- **Message**: This feature allows students to contact instructors. By default, messages are sent to the email address registered in the staff directory, but this can be changed in the upper right corner under “Settings.”
+- **Course Materials**: This feature allows you to distribute class materials. For more details on how to use this feature, please see the “[Upload Materials](/en/lms_lecturers/course_materials)” page.
+- **Assignments**: This feature allows you to upload reports and other assignments online. For more details on how to use this feature, please see the “[Prepare Assignments](/en/lms_lecturers/assignments)” page.
+- **Quizzes**: This feature allows you to conduct online tests. It enables you to set a time limit for answering questions or to automatically grade multiple-choice questions. For more details on how to use this feature, please see the “[Prepare Quizzes](/en/lms_lecturers/prepare_quizzes)” page.
+- **Surveys**: This feature allows you to take surveys from students.
+- **Manage Attendance**: This feature allows you to manage attendance by sending a “one-time password" to attendees via Zoom or other means and asking them to enter it. For more details on how to use this feature, please see the pages “[Prepare for Confirming Attendance in Classes](/en/lms_lecturers/prepare_attendances),” “[Let Your Students Know the Code for Attendance](/en/lms_lecturers/attendances),” and “[Confirm Attendance](/en/lms_lecturers/view_attendances).”
+- **Forums**: This is a “bulletin board" feature that allows students and instructors to exchange opinions and ideas.
+
+The ITC-LMS functions are similar to other ICT class support tools, but noteworthy is that the system is linked to UTokyo Account and the UTAS for course registration, which makes it quite easy to pass information to “only students of UTokyo” or to “only students enrolled in the course.” Furthermore, because ITC-LMS is popular among students, it is highly recommended that it be used for distributing lecture materials and collecting/returning assignments.
+
 ## Precondition
 
 ### List of information systems
