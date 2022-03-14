@@ -78,7 +78,7 @@ Zoom is a simultaneous interactive web conferencing system, and is one of the mo
 
 The University of Tokyo has a license agreement with Zoom, and by signing in and using it, you can hold meetings with a maximum capacity of 300 participants and for a 30-hour duration.
 
-{% include zoom_signin_browser.md %}
+{% include en/zoom_signin_browser.md %}
 
 The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](https://utelecon.adm.u-tokyo.ac.jp/zoom/zoom_signin) for more information (please note that you cannot sign in with more than one PCs/tablets/smartphones at the same time; however, you can sign in with one PC, one tablet, and one smartphone simultaneously).
 
