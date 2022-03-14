@@ -352,6 +352,29 @@ This section explains how to record and share a class. Recording a class is not 
   * For more information on video editing, please see “[Search by Purpose/Creating and Sharing Videos](https://utelecon.adm.u-tokyo.ac.jp/online/topics#movie)" (in Japanese).
 * By posting video URLs in the "Course Materials" section of the ITC-LMS, you can share these videos with students.
 
+### Taking Attendance
+
+In this section, we will explain how to record student attendance in online classes.
+
+- ITC-LMS’s attendance management function: This is a feature that allows you to manage attendance by sending a “one-time password” to attendees via Zoom or other means and asking them to enter it.
+    - For more information on how to use the feature, please see “[Prepare for confirming attendance in classes](/en/lms_lecturers/prepare_attendances)," “[Let your students know the code for attendance](/en/lms_lecturers/attendances)," and “[Confirm attendance](/en/lms_lecturers/view_attendances)."
+    - Note that the system requires students to log in to register their attendance, but the system cannot prevent absent students from registering attendance using the “one-time password” obtained from other students.
+- Zoom’s reporting feature: This is a feature that allows you to view and download the list of Zoom meeting participants.
+    - For more information on how to use this feature, please see “[(Zoom for Faculty members) Managing Attendance](/en/zoom/how/faculty_members/attendance).”
+    - As for participants who were signed in with their UTokyo Zoom account, we can assume that they attended the class.
+    - For participants who were not signed into Zoom, we cannot know for sure if they were present, because participant names can be set by the participants themselves.
+    - Because there is a possibility that records will be lost if the system is disconnected or reconnected during class, measures such as allowing participants to check their attendance status may be necessary.
+
+Additionally, because of the nature of online classes, students may not always be listening to the class even if they are connected to the Zoom meeting room, so in addition to taking attendance, it may be a good idea to check the students' understanding of the class content through reaction papers, quizzes, and other means. (You can use the survey feature of ITC-LMS, Google Forms, Microsoft Forms, and others). Because online classes tend to have more assignments, it is suggested to take students’ workload into consideration and have these reaction papers and quizzes completed during the class time.
+
+## How to Use Online Resources
+
+This website, “**Online Class / Web Conference Portal Site @ The University of Tokyo**," also known as “**utelecon**," provides a variety of useful information for online classes, such as how to use the IT systems mentioned on this page.
+
+In particular, the “**[Improving Online Classes](/en/online/)**” page covers the use of various information systems in the classroom, practical examples of online classes, and other resources that will help you take the next step toward online classes.
+
+We also run the **[Technical Support Desk](/en/support/)**. If you have any problems with the above procedures, please contact us.
+
 ## Next Step: For Better Online Classes
 
 This site, "**Online Class / Web Conference Portal Site @ The University of Tokyo**", also known as "**utelecon**", presents you lots of information on how to use the information systems mentioned in this page and other useful information for online classes.
