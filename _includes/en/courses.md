@@ -31,7 +31,7 @@ The requirement for this type of media class (online class) is that “the class
     * [第18回 ハイブリッド授業(3) 遠隔と対面の学生の対話を促す授業の実践例](/events/luncheon/2020-11-06/)
 {% endunless %}
 
-{{ heading }} Online (Synchronous Online Delivery)
+{{ heading }} Real-time (Online) (Synchronous Online Delivery)
 
 In this class type, the instructor and all students communicate online in real-time. Web conferencing systems such as Zoom are usually used.
 
@@ -57,7 +57,7 @@ The requirement for this type of media class (online class) is that “the class
 
 In this class type, students study materials individually (e.g., videos, and documents) prepared by the instructor. At the University of Tokyo, classes of this type are limited.
 
-Course materials for this class type could be video materials created by the instructor, recordings of classes held real-time using a web conference system, and ready-made video materials such as Open Course Ware (OCW) and Massive Open Online Course (MOOC).
+Course materials for this class type could be video materials created by the instructor, recordings of classes held real-time using a web conference system, and ready-made video materials such as OpenCourseWare (OCW) and Massive Open Online Course (MOOC).
 
 The requirements for this type of media class (online class) are the following:
 
