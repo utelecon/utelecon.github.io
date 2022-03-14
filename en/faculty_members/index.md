@@ -22,6 +22,11 @@ Tatsuya OKUBO
 
 ## Types of Classes and Their Handling
 
+## Types of Classes
+
+{% include en/courses.md %}
+
+
 In this section, we will introduce the three main types of online classes, compare them with traditional classes, explore their respective characteristics, and explain the requirements for online classes (media classes).
 
 ![Conventional class and main types of online classes](img/types_overview.png)
