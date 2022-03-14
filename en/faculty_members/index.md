@@ -144,6 +144,52 @@ The ITC-LMS functions are listed below. For more details on how to use each func
 
 The ITC-LMS functions are similar to other ICT class support tools, but noteworthy is that the system is linked to UTokyo Account and the UTAS for course registration, which makes it quite easy to pass information to “only students of UTokyo” or to “only students enrolled in the course.” Furthermore, because ITC-LMS is popular among students, it is highly recommended that it be used for distributing lecture materials and collecting/returning assignments.
 
+## Using UTokyo’s IT Systems
+
+In addition to the systems described above, the University of Tokyo subscribes to and operates various information systems that can be used for classes, education, and research.
+
+### ECCS Cloud Email (Google Workspace)
+
+This is an account for using Google’s services (Google Workspace) as a UTokyo member.
+
+With this account, you can use various services including Gmail, which allows you to use your UTokyo email address (`xxxx@g.ecc.u-tokyo.ac.jp`) Google Drive (an online storage service), Google Docs (a document creation service), Google Sheets (a spreadsheet service), Google Forms (a form creation service), YouTube, (a video streaming service), and Google Meet (a web conferencing service). It also allows you to restrict sharing with UTokyo members only (limited access), which is a feature not available to regular Google accounts.
+
+For further details on how to use this feature, please see the “**[ECCS Cloud Email (Google Workspace)](/en/eccs_cloud_email)**” page.
+
+### UTokyo Microsoft License (Microsoft 365)
+
+The University of Tokyo provides access to Microsoft’s services through a university account and offers downloads of Microsoft Office applications such as Word and Excel. Other available services include the Web version of Office, OneDrive (an online storage service), and Microsoft Forms (a form creation service).
+
+For further details on how to use this feature, please see the “**[UTokyo Microsoft License (Microsoft 365)](/microsoft)**” page (in Japanese).
+
+### UTokyo WiFi
+
+This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. Please note that you cannot use this service unless you have created an account in advance.
+
+For further details on how to use this feature, please see the “**[UTokyo WiFi](/utokyo_wifi)**” page (in Japanese).
+
+### ECCS Terminals
+
+A programming environment and software for various purposes, such as statistics and 3DCG, are already installed and can be used without going through the installation procedure. Prior approval is required to use the system. Please note that you are required to complete the procedures to use the terminals.
+
+For further details, please see the websites below (below are the main information pages).
+
+- **[ECCS Website Top Page](https://www.ecc.u-tokyo.ac.jp/en/)**
+- **[New Account Application (for Academic and Administrative Staff, Researchers, etc.)](https://www.ecc.u-tokyo.ac.jp/en/announcement/2020/03/02_3127.html)**: This page explains the procedures to start using the ECCS.
+- **[Information for Academic Staff on the use of the Information Technology Center](https://www.ecc.u-tokyo.ac.jp/en/Information%20for%20Academic%20Staff.html)**: This page provides an overview of the services offered by the Information Technology Center, focusing on ECCS.
+
+### Slido
+
+Slido is an interaction app that provides features such as Q&A, live polling, and questionnaires that are useful for interactive communication with participants in classes, conferences, and lectures. Because Slido is linked to Webex, of which UTokyo has a licensing agreement, you can use Slido’s paid functions through your university account.
+
+For further details on how to use this feature, please see the “**[Slido](/slido/)**” page (in Japanese).
+
+### EZproxy
+
+The University of Tokyo has contracted this service to provide off-campus access to UTokyo member-only e-journals (available to students as well as faculty and staff).
+
+For further details on usage, please see the “**[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**” page.
+
 ## Precondition
 
 ### List of information systems
