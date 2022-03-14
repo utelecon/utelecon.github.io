@@ -34,7 +34,7 @@ Tatsuya OKUBO
 
 Institutionally, classes are categorized into **"face-to-face"** and **"remote" classes.** Undergraduate students are only allowed to include up to 60 credits of "remote classes" for graduation requirements. Therefore, the category of a course is a critical matter for students.
 
-※2020年度・2021年度のオンライン授業については，特例的な措置として，60単位に算入しません．
+Note that online courses in 2020 and 2021 will not be included in the 60 credits due to a special measure.
 
 - Classes institutionally categorized into **"face-to-face classes"** are classes that "provide the opportunity to attend class in person for at least half of the total class hours for all students (enrolled in the relevant course)."
     - Of the class types mentioned earlier, "face-to-face (complete face-to-face)" and also "face-to-face with synchronous online delivery (hybrid)" are usually institutionally categorized into "face-to-face classes."
@@ -80,7 +80,7 @@ The University of Tokyo has a license agreement with Zoom, and by signing in and
 
 {% include en/zoom_signin_browser.md %}
 
-The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](https://utelecon.adm.u-tokyo.ac.jp/zoom/zoom_signin) for more information (please note that you cannot sign in with more than one PCs/tablets/smartphones at the same time; however, you can sign in with one PC, one tablet, and one smartphone simultaneously).
+The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](https://utelecon.adm.u-tokyo.ac.jp/en/zoom/zoom_signin) for more information (please note that you cannot sign in with more than one PCs/tablets/smartphones at the same time; however, you can sign in with one PC, one tablet, and one smartphone simultaneously).
 
 ### Creating a Meeting Room
 
