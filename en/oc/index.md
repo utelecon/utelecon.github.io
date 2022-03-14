@@ -1,5 +1,5 @@
 ---
-title: Preparing for online classes at the University of Tokyo (for new students)
+title: Preparing for Online Classes at the University of Tokyo (for New Students)
 slug: oc # 手順を外部ファイルからincludeするときに使う
 lang: en
 ---

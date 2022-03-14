@@ -1,5 +1,5 @@
 ---
-title: Preparing for online classes at the University of Tokyo (for faculty members)
+title: Preparing for Online Classes at the University of Tokyo (for Faculty Members)
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 ---
 
@@ -192,22 +192,22 @@ The University of Tokyo has contracted this service to provide off-campus access
 
 For further details on usage, please see the “**[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**” page.
 
-## Other systems
+## Other Systems
 
 ### Antivirus Software
 
-The University of Tokyo requires “[appropriate antivirus measures](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)” for computers in the “Guidelines for Information Ethics and Computer Use”. As part of the countermeasures, a comprehensive license for antivirus software will be provided from April 1, 2022 (scheduled), so please use it as needed.
+The University of Tokyo requires “appropriate antivirus measures” for computers in the “[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)”. As part of the countermeasures, a comprehensive license for antivirus software will be provided from April 1, 2022 (scheduled), so please use it as needed.
 
 ### UTokyo VPN
 
 Some IT systems at the University of Tokyo (for example, administrative systems) can only be accessed through the university's internal network. The "**UTokyo VPN**" is a service that allows users to access these systems from off-campus.
 For further details on how to use this feature, please see the [UTokyo VPN page](/utokyo_vpn/) (in Japanese).
 
-## Guidelines for Online Classes
+### Guidelines for Online Classes
 
 “[The Tools Usage Guideline for Online Class Since S Semester 2021](/en/notice/guideline)” is the established guideline for online classes. Please also check your department’s policy on conducting online classes because each department may have its own policy.
 
-## Class Supporter System
+### Class Supporter System
 
 The University of Tokyo offers a student staff system called “Class Supporter” to assist rehearsal and gathering of information on online classes. The workload of class supporters is less intensive than teaching assistants. Students are recruited from all over the university and matched with faculty members who wish to use the system. For more details, please see the “[Class Supporter System page](/supporters/class)” (in Japanese).
 
