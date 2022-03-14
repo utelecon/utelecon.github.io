@@ -20,7 +20,7 @@ Director and Vice President (Education and Information Systems)<br>
 Tatsuya OKUBO
 </div>
 
-## Three main types of online classes
+## Types of Classes and Their Handling
 
 In this section, we will introduce the three main types of online classes, compare them with traditional classes, explore their respective characteristics, and explain the requirements for online classes (media classes).
 
