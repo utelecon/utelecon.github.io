@@ -57,7 +57,7 @@ The requirement for this type of media class (online class) is that “the class
 
 In this class type, students study materials individually (e.g., videos, and documents) prepared by the instructor. At the University of Tokyo, classes of this type are limited.
 
-Course materials for this class type could be video materials created by the instructor, recordings of classes held real-time using a web conference system, and ready-made video materials such as Open Course Ware (OCW) and Massive Open Online Course (MOOC).
+Course materials for this class type could be video materials created by the instructor, recordings of classes held real-time using a web conference system, and ready-made video materials such as OpenCourseWare (OCW) and Massive Open Online Course (MOOC).
 
 The requirements for this type of media class (online class) are the following:
 
