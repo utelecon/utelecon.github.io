@@ -22,68 +22,27 @@ Tatsuya OKUBO
 
 ## Types of Classes and Their Handling
 
-## Types of Classes
+### Types of Classes
 
 {% include en/courses.md %}
 
+### Institutional Handling of Classes
 
-In this section, we will introduce the three main types of online classes, compare them with traditional classes, explore their respective characteristics, and explain the requirements for online classes (media classes).
+Institutionally, classes are categorized into **"face-to-face"** and **"remote" classes.** Undergraduate students are only allowed to include up to 60 credits of "remote classes" for graduation requirements. Therefore, the category of a course is a critical matter for students.
 
-![Conventional class and main types of online classes](img/types_overview.png)
+※2020年度・2021年度のオンライン授業については，特例的な措置として，60単位に算入しません．
 
-While conventional classes are conducted face-to-face in real time, online classes can be categorized into three main types: face-to-face and online in real time (synchronous hybrid type), online only in real time (synchronous online type), and online learning at the student's own pace (on-demand type) (asynchronous online type).
+- Classes institutionally categorized into **"face-to-face classes"** are classes that "provide the opportunity to attend class in person for at least half of the total class hours for all students (enrolled in the relevant course)."
+    - Of the class types mentioned earlier, "face-to-face (complete face-to-face)" and also "face-to-face with synchronous online delivery (hybrid)" are usually institutionally categorized into "face-to-face classes."
+- Classes institutionally categorized into **"remote classes"** are classes that do not fall under "face-to-face classes."
+    - Of the class types mentioned earlier, "online (synchronous online type)" and "on-demand (asynchronous online type)" are institutionally categorized into "remote classes."
+- If classes are held "face-to-face" (including “face-to-face with synchronous online delivery”) and "online" within a single course ("face-to-face/online hybrid type"), the class category ("face-to-face classes" or "remote classes") will be determined depending on the total class hours of each class type.
 
-For online classes in our university, about 80% are synchronous online, which makes itself the major type. The characteristics of the captioned three types vary from one to another, and below is an explanation of each.
+各授業形態の制度上の取扱いに関する詳細は，[「対面とオンラインを併用した授業実施形態にかかる取扱いの判断基準等について」（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/UTAS/%E5%AF%BE%E9%9D%A2%E3%81%A8%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%92%E4%BD%B5%E7%94%A8%E3%81%97%E3%81%9F%E6%8E%88%E6%A5%AD%E5%AE%9F%E6%96%BD%E5%BD%A2%E6%85%8B%E3%81%AB%E3%81%8B%E3%81%8B%E3%82%8B%E5%8F%96%E6%89%B1%E3%81%84%E3%81%AE%E5%88%A4%E6%96%AD%E5%9F%BA%E6%BA%96%E7%AD%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6_20220214%E4%BD%9C%E6%88%90.pdf)をご参照ください．
 
-### Real-time (online) type (synchronous online type)
+## 困ったときは：サポート窓口
 
-* This is a type of class in which all students and faculty members are connected online using a web conference system.
-* About 80% of our university's classes are of this type.
-* The requirements for this type of online class (media class) are "simultaneous and interactive", which can be met by using a web conference system for chatting and voice communication, or by using a video distribution system with a function to accept comments. If you use a web conferencing system, you can meet this requirement because it allows chat and voice communication.
-* Reference:
-  * [Basic Online Course: "How to use Zoom for online classes" (in Japanese)](/events/2020-03-19/)
-  * [Good Practices of UTokyo (in Japanese)](/good-practice/)
-  * [Online Class Information Exchange Meeting (in Japanese)](/events/2020-luncheon/)
-    * 19\. Good Practice Case Study (1) Interaction in large group online classes
-    * 20\. Good Practice Case Study (2) Class design based on students' voices
-    * 21\. Good Practice Case Study (3) How to activate interaction in a live class
-    * 24\. Good Practice Case Study (4) Creating a space for questions by utilizing TA
-    * 25\. Good Practice Case Study (5) Using various tools to activate and facilitate classes
-    * 26\. Good Practice Case (6) Implementing online classes for large groups and devising tests
-    * 29\. Good Practice Case (9) Making practical classes online
-    * 30\. Practical examples of classes conducted in a VR (virtual 　reality) classroom
-
-### Real-time (face-to-face + online) type (synchronous hybrid type)
-
-* For this type, the class is held in an actual classroom and the content is delivered via a web conference system. 
-* This type can meet the needs of students who want to learn face-to-face.<!--
-<!-- * 機材のセッティングを -->
-* The requirements for this type of online classes (media class) are "simultaneous and interactive" which can be met by using a web conference system for chatting and voice, communication, or by using a function that can accept comments even if the class is video-delivered. If you use a web conferencing system, you can meet this requirement because you can chat and make voice calls.
-* Reference: 
-  * [22020/09/11 Briefing Session: Toward Online Hybrid Classes in Semester A - Based on the Experience of Semester S (in Japanese)](/events/2020-09-11/)
-    * The different types of classes and their characteristics [Materials](/events/2020-09-11/slides/04-course-types.pdf), [videos (limited access)](https://www.youtube.com/watch?v=O2g44UTeiwU)
-    * [Faculty of Liberal Arts: Mixed face-to-face/online class workshop Materials (limited access)](https://drive.google.com/file/d/12gpNprhRGoIBs1atdGoPSLmKQH4JKEDq/view)
-  * [Online Class Information Exchange Meeting (in Japanese)](/events/2020-luncheon/)
-    * 16\. Hybrid class (1) Organizing concepts and practical examples in seminars
-    * 17\. Hybrid class (2) Practical examples in a large class
-    * 18\. Hybrid class (3) Practical examples of classes that promote dialogue between remote and face-to-face students
-
-### Demand type (asynchronous online type)
-
-* This is a form of learning in which students study individually based on materials prepared by instructors using a learning management system. For example, the following methods are possible:
-  * Students watch video materials prepared by the instructor or existing video materials such as OCW (Open Course Ware) and MOOC (Massive Open Online Course) within a set range every week, submit assignments and answer questions on the bulletin board separately.
-  * Using a web conference system, students watch recordings of classes conducted in real time, submit assignments, and answer questions on the bulletin board.
-* The following two are requirements for this type of online class (media class). For example, the teacher can provide a web bulletin board (ITC-LMS has this function) to encourage students to exchange opinions, design quizzes, ask questions, and answer questions about the class content.
-    1. Either of the following two methods should be used, together with sufficient instruction through answering questions, corrective guidance, question-and-answer sessions, etc.
-        1. In each class, the teaching assistant must meet the students in a place other than the classroom.
-        1. In conducting each class, the teacher in charge or the teaching assistant shall switch to the Internet or other appropriate methods promptly after the class ends.
-    1. Opportunities for students to exchange opinions on the class must be secured (this can be achieved with the bulletin board function of the learning management system ITC-LMS).
-* Reference:
-  * [Basic Online Course: "How to create on-demand online classes using videos and textbooks, not live streaming" (in Japanese)](https://utelecon.github.io/events/2020-03-27/)
-  * [Good Practices of UTokyo (in Japanese)](/good-practice/)
-  * [Online Class Information Exchange Meeting (in Japanese)](/events/2020-luncheon/)
-    * 27\. Good Practice Case Study (7) Efforts to Produce On-demand Teaching Materials
-    * 28\. Good Practice Case Study (8) How to Design a Class by Combining On-demand and Live Format
+オンライン授業に関して，トラブルや情報システムの利用方法に関する相談などは，**[サポート窓口](/support/)**にご相談ください．チャット・Zoom・メールフォームの3つの方法で相談を受け付けており，学生スタッフ「コモンサポーター」と教職員の共同体制により迅速な対応を行っています．
 
 ## Precondition
 
