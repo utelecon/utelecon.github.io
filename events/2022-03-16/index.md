@@ -23,10 +23,10 @@ title: "2022/03/16 説明会「オンライン授業だけじゃない！　教�
 - 挨拶　太田邦史　副学長・執行役　情報システム本部長
 - 目次 (**[資料](slides/00-index.pdf)**)
     1. オンライン授業関連方針と制度 (10分 田浦; **[資料](slides/01-rules.pdf)**<!-- ・**[動画](https://youtu.be/...)**-->)
-    1. 授業における情報システム利用の基礎 (30分 柴山<!--; **[資料](slides/02-ICT-systems.pdf)**・**[動画](https://youtu.be/...)**-->)
+    1. 授業における情報システム利用の基礎 (30分 柴山; **[資料](slides/02-ICT-systems.pdf)**<!-- ・**[動画](https://youtu.be/...)**-->)
     1. 全学サービスの全体像 (20分 田浦; **[資料](slides/03-overview.pdf)**<!--・**[動画](https://youtu.be/...)**-->)
     1. セキュリティと在宅勤務 (20分 玉造; **[資料](slides/04-security.pdf)**<!--・**[動画](https://youtu.be/...)**-->)
-    1. 教育研究における一歩進んだICT活用に向けて (10分 鈴木 **[資料](slides/05-utelecon_and_supporters.pdf)**<!--; ・**[動画](https://youtu.be/...)**-->)
+    1. 教育研究における一歩進んだICT活用に向けて (10分 鈴木; **[資料](slides/05-utelecon_and_supporters.pdf)**<!-- ・**[動画](https://youtu.be/...)**-->)
 - 意見交換: オンラインツール「LearnWiz One」を利用しておこないます(**[資料](slides/discussion.pdf)**).
 
 ### 話者
