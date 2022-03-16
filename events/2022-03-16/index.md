@@ -20,14 +20,14 @@ title: "2022/03/16 説明会「オンライン授業だけじゃない！　教�
 
 質疑応答は, オンラインツール「LearnWiz One」を利用して受け付けます. **[質疑応答用ページ](https://app.one.learnwiz.jp/ja/topic/utelecon20220316)** から質問してください([説明と使い方](slides/qa.pdf)). <br><small>※LearnWiz Oneにトラブルがあった場合は[Slidoで受け付けます](https://app.sli.do/event/tgEEMDQot8CP3hGxsCjhip)(参考: [Slidoの使い方ページ](/slido/)).</small>
 
-- 挨拶　太田邦史　副学長・執行役　情報システム本部長
+- 挨拶　太田邦史　副学長・執行役　情報システム本部長・**[動画](https://youtu.be/WWet3ra9XFs)**
 - 目次 (**[資料](slides/00-index.pdf)**)
-    1. オンライン授業関連方針と制度 (10分 田浦; **[資料](slides/01-rules.pdf)**<!-- ・**[動画](https://youtu.be/...)**-->)
-    1. 授業における情報システム利用の基礎 (30分 柴山; **[資料](slides/02-ICT-systems.pdf)**<!-- ・**[動画](https://youtu.be/...)**-->)
-    1. 全学サービスの全体像 (20分 田浦; **[資料](slides/03-overview.pdf)**<!--・**[動画](https://youtu.be/...)**-->)
-    1. セキュリティと在宅勤務 (20分 玉造; **[資料](slides/04-security.pdf)**<!--・**[動画](https://youtu.be/...)**-->)
-    1. uteleconと学生によるサポート体制 (10分 鈴木; **[資料](slides/05-utelecon_and_supporters.pdf)**<!--・**[動画](https://youtu.be/...)**-->)
-- 意見交換: オンラインツール「LearnWiz One」を利用しておこないます(**[資料](slides/discussion.pdf)**).
+    1. オンライン授業関連方針と制度 (10分 田浦; **[資料](slides/01-rules.pdf)**・**[動画](https://youtu.be/0E3R8fB0yxs)**)
+    1. 授業における情報システム利用の基礎 (30分 柴山; **[資料](slides/02-ICT-systems.pdf)**・**[動画](https://youtu.be/p7HSeY4Xmk0)**)
+    1. 全学サービスの全体像 (20分 田浦; **[資料](slides/03-overview.pdf)**・**[動画](https://youtu.be/FV7j3yWR69E)**)
+    1. セキュリティと在宅勤務 (20分 玉造; **[資料](slides/04-security.pdf)**・**[動画](https://youtu.be/3ys2szRzQCg)**)
+    1. uteleconと学生によるサポート体制 (10分 鈴木; **[資料](slides/05-utelecon_and_supporters.pdf)**・**[動画](https://youtu.be/a7Ar494BocA)**)
+- 意見交換: オンラインツール「LearnWiz One」を利用しておこないます(**[資料](slides/discussion.pdf)**・**[動画](https://youtu.be/dRL9hE-42nM)**).
 
 ### 話者
 
