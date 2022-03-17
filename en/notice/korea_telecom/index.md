@@ -2,7 +2,7 @@
 title: A special page on access failures to UTAS/ITC-LMS
 ---
 
-As of March 17 2022, we are aware that a few users from Korea cannot access several ICT services operated by the University of Tokyo including UTAS and ITC-LMS.  We have confirmed it is an issue about the Internet routing connecting the user's carrier and the cloud vendor hosting our servers.  We are cooperating with the cloud vender to fix the issue.
+As of March 17 2022, we are aware that a few users from Korea cannot access several ICT services operated by the University of Tokyo including <a href="https://utas.adm.u-tokyo.ac.jp/" target="_blank">UTAS</a> and <a href="itc-lms.ecc.u-tokyo.ac.jp/" target="_blank">ITC-LMS</a>.  We have confirmed that it is an issue about the Internet routing connecting the user's carrier and the cloud vendor hosting our servers.  We are cooperating with the cloud vender to fix the issue.
 
 Meanwhile, we describe who is affected, how to know if you are affected, how affected users might be able to work around the issue, etc.
 
@@ -22,14 +22,14 @@ If you were able to access UTC and ITC-LMS before March 3rd but you are now unab
 
 If you want to know the mitigation before reporting your status to us, go to "6. How to work around the issue for now" first and come back to 3-5 later.
 
-Access https://utas.adm.u-tokyo.ac.jp/ and press the login button.
+Access <a href="https://utas.adm.u-tokyo.ac.jp/" target="_blank">https://utas.adm.u-tokyo.ac.jp/</a> and press the login button.
 If you do not reach the authentication page (with Yasuda Auditorium) for a long time and eventually see an error page like this
 
 <img src="img/timeout.png" width=300 />
 
 then you are likely to be a victim of this issue.
 
-To be sure, directly access <a href="https://gidp.adm.u-tokyo.ac.jp/">https://gidp.adm.u-tokyo.ac.jp/</a> and it times out, then you are very likely to be a victim of this issue.
+To be sure, directly access <a href="https://gidp.adm.u-tokyo.ac.jp/" target="_blank">https://gidp.adm.u-tokyo.ac.jp/</a> and it times out, then you are very likely to be a victim of this issue.
 
 ## 4. How to check if you are accessing from Korea Telecom?
 
@@ -43,14 +43,14 @@ We are interested in the status of all users using Korea Telecom, affected or no
 
 ## 5. How to report your status
 
-If you are affected or using Korea Telecom, <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform"> please report your status here.</a>
+If you are affected or using Korea Telecom, <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform" target="_blank"> please report your status here.</a>
 
-* To the question "What is your inquiry?", check <font color="blue">"Troubles with other external online tools or Utokyo systems"</font>
-* To the question "What did you try to accomplish?", say <font color="blue">"Tried to access UTAS"</font>
+* To the question "What is your inquiry?", check <font color="blue" target="_blank">"Troubles with other external online tools or Utokyo systems"</font>
+* To the question "What did you try to accomplish?", say <font color="blue" target="_blank">"Tried to access UTAS"</font>
 * To the question " Describe the problem", include
- * The result of <a href="https://bgp.tools/">https://bgp.tools/</a> (texts below "You are connecting from")
- * The result of accessing <a href="https://utas.adm.u-tokyo.ac.jp/">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
- * The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
+ * The result of <a href="https://bgp.tools/" target="_blank">https://bgp.tools/</a> (texts below "You are connecting from")
+ * The result of accessing <a href="https://utas.adm.u-tokyo.ac.jp/" target="_blank">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
+ * The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/" target="_blank">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
 
 ## 6. How to work around the issue for now
 
@@ -61,7 +61,7 @@ We are working with the cloud vendor to fix the root problem.  Meanwhile, you ma
 ```
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
 ```
-Or, you may download <a href="run_chrome.bat">this batch file</a> and run it.
+Or, you may download <a href="run_chrome.bat" target="_blank">this batch file</a> and run it.
 ```
 run_chrome.bat
 ```
@@ -69,7 +69,7 @@ run_chrome.bat
 ```
 chrome --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
 ```
-Or, you may download this <a href="run_chrome.sh">shell script</a> and run it.
+Or, you may download this <a href="run_chrome.sh" target="_blank">shell script</a> and run it.
 ```
 sh run_chrome.sh
 ```
