@@ -23,7 +23,7 @@ If you were able to access UTAS and ITC-LMS before March 3rd but you are now una
 ## 3. How to know if you are affected?
 {:#how-to-know}
 
-If you want to know the mitigation before reporting your status to us, go to "[6. How to work around the issue for now](#how-to-work-around)" first and come back to 3-5 later.
+_Note: If you want to know the mitigation before reporting your status to us, go to "[6. How to work around the issue for now](#how-to-work-around)" first and come back to 3-5 later._
 
 Access [https://utas.adm.u-tokyo.ac.jp/](https://utas.adm.u-tokyo.ac.jp/) and press the login button.
 If you do not reach the authentication page (with Yasuda Auditorium) for a long time and eventually see an error page like this
@@ -32,7 +32,7 @@ If you do not reach the authentication page (with Yasuda Auditorium) for a long 
 
 then you are likely to be a victim of this issue.
 
-To be sure, directly access [https://gidp.adm.u-tokyo.ac.jp/](https://gidp.adm.u-tokyo.ac.jp/) and it times out, then you are very likely to be the victim.
+To be sure, directly access [https://gidp.adm.u-tokyo.ac.jp/connect.html](https://gidp.adm.u-tokyo.ac.jp/connect.html) and if it times out, then you are very likely to be the victim.
 
 ## 4. How to check if you are accessing from Korea Telecom?
 {:#how-to-check}
@@ -50,49 +50,40 @@ We are interested in the status of all users using Korea Telecom, affected or no
 
 If you are affected or using Korea Telecom, [please report your status here](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 
-* To the question "What is your inquiry?", check "*Troubles with other external online tools or Utokyo systems*"
-* To the question "What did you try to accomplish?", say "*Tried to access UTAS*"
-* To the question " Describe the problem", include
-  1. The result of [https://bgp.tools/](https://bgp.tools/) (texts below "You are connecting from")
-  1. The result of accessing [https://utas.adm.u-tokyo.ac.jp/](https://utas.adm.u-tokyo.ac.jp/) (timeout or not)
-  1. The result of accessing [https://gidp.adm.u-tokyo.ac.jp/](https://gidp.adm.u-tokyo.ac.jp/) (timeout or not)
+* To the question **"What is your inquiry?"**, check <font color="blue">"*Troubles with other external online tools or Utokyo systems*"</font>
+* To the question **"What did you try to accomplish?"**, say <font color="blue">"*Tried to access UTAS*"</font>
+* To the question **"Describe the problem"**, include
+  1. <font color="blue">The result of [https://bgp.tools/](https://bgp.tools/) (texts below "You are connecting from")</font>
+  1. <font color="blue">The result of accessing [https://utas.adm.u-tokyo.ac.jp/](https://utas.adm.u-tokyo.ac.jp/) (timeout or not)</font>
+  1. <font color="blue">The result of accessing [https://gidp.adm.u-tokyo.ac.jp/connect.html](https://gidp.adm.u-tokyo.ac.jp/connect.html) (timeout or not)</font>
 
 ## 6. How to work around the issue for now
 {:#how-to-work-around}
 
 We are working with the cloud vendor to fix the underlying problem. Meanwhile, you may try one of the followings and see if anything works to get around the issue.
 
-* **Use alternative servers with Chrome browser.** We have set up temporary servers that do go around the broken route. Chrome browser is required to use them. If you are using Chrome or do not mind installing it for this purpose, run Chrome browser as follows.
-
-On Windows: open "command prompt" and run
-
+1\. **Use alternative servers with Chrome browser.** We have set up temporary servers that go around the broken route. Chrome browser is required to use them. If you are using Chrome or do not mind installing it for this purpose, run Chrome browser as follows.
+ * On Windows: open "command prompt" and run
 ```
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
 ```
-
 Or, you may download [this batch file](run_chrome.bat) and run it.
-
 ```
 run_chrome.bat
 ```
-
-On Macintosh or Linux: open terminal and run
-
+ * On Macintosh or Linux: open terminal and run
 ```
 chrome --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
 ```
-
 Or, you may download this [shell script](run_chrome.sh) and run it.
-
 ```
 sh run_chrome.sh
 ```
+2\. **Use another carrier.** For example, if you have a smartphone that supports tethering (which may be called "Internet sharing", "WiFi access point", depending on the phone model you are using), turn it on and connect your PC to it.
 
-* **Use another carrier.** For example, if you have a smartphone that supports tethering (which may be called "Internet sharing", "WiFi access point", depending on the phone model you are using), turn it on and connect your PC to it.
+3\. **Use VPN.** If you happen to use a VPN service, connect the PC to the VPN.
 
-* **Use VPN.** If you happen to use a VPN service, connect the PC to the VPN.
-
-In all cases, the effect is to use a different route to reach our server. Any way to connect your PC to another network may equally circumvent the issue. e.g., bring your PC to an Internet cafe.
+In all cases, the effect is to use a different route to reach our servers. Any way to connect your PC to another network may equally circumvent the issue. e.g., bring your PC to an Internet cafe.
 
 They are of course temporal workarounds until the real issue is solved.
 
