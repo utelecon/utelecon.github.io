@@ -48,9 +48,9 @@ If you are affected or using Korea Telecom, <a href="https://docs.google.com/for
 * To the question "What is your inquiry?", check <font color="blue" target="_blank">"Troubles with other external online tools or Utokyo systems"</font>
 * To the question "What did you try to accomplish?", say <font color="blue" target="_blank">"Tried to access UTAS"</font>
 * To the question " Describe the problem", include
- * The result of <a href="https://bgp.tools/" target="_blank">https://bgp.tools/</a> (texts below "You are connecting from")
- * The result of accessing <a href="https://utas.adm.u-tokyo.ac.jp/" target="_blank">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
- * The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/" target="_blank">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
+ 1. The result of <a href="https://bgp.tools/" target="_blank">https://bgp.tools/</a> (texts below "You are connecting from")
+ 1. The result of accessing <a href="https://utas.adm.u-tokyo.ac.jp/" target="_blank">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
+ 1. The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/" target="_blank">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
 
 ## 6. How to work around the issue for now
 
