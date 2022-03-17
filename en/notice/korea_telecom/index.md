@@ -18,7 +18,7 @@ According to reports we have received so far, it appears that the problem starte
 
 If you were able to access UTC and ITC-LMS before March 3rd but you are now unable to access them, it is likely that you are affected by this problem.
 
-## 3. How can you know if you are affected?
+## 3. How to know if you are affected?
 
 If you want to know the mitigation before reporting your status to us, go to "6. How to work around the issue for now" first and come back to 3-5 later.
 
