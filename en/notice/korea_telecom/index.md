@@ -2,7 +2,11 @@
 title: A special page on access failures to UTAS/ITC-LMS
 ---
 
+<<<<<<< HEAD
 As of March 17 2022, we are aware that a few users from Korea cannot access several ICT services operated by the University of Tokyo including UTAS and ITC-LMS. We have confirmed that it is an issue about the Internet routing connecting the user's carrier and the cloud vendor hosting our servers. We are cooperating with the cloud vender to fix the issue.
+=======
+As of March 17 2022, we are aware that a few users from Korea cannot access several ICT services operated by the University of Tokyo including <a href="https://utas.adm.u-tokyo.ac.jp/" target="_blank">UTAS</a> and <a href="itc-lms.ecc.u-tokyo.ac.jp/" target="_blank">ITC-LMS</a>.  We have confirmed that it is an issue about the Internet routing connecting the user's carrier and the cloud vendor hosting our servers.  We are cooperating with the cloud vender to fix the issue.
+>>>>>>> master
 
 In this page, we describe who is affected, how to know if you are affected, how affected users might be able to work around the issue, etc.
 
