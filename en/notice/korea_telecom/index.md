@@ -57,33 +57,23 @@ If you are affected or using Korea Telecom, <a href="https://docs.google.com/for
 We are working with the cloud vendor to fix the root problem.  Meanwhile, you may want to try one of the following and see if anything works to get around the issue.
 
 1. **Use alternative servers with Chrome browser.** We have set up temporary servers that do go around the broken route.  Using them requires a Chrome browser.  If you are using Chrome or do not mind installing it for this purpose, run Chrome browser as follows.
-
-On Windows: open "command prompt" and run
-
+ * On Windows: open "command prompt" and run
 ```
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
 ```
-
 Or, you may download <a href="run_chrome.bat">this batch file</a> and run it.
-
 ```
 run_chrome.bat
 ```
-
-On Macintosh or Linux: run terminal and run
-
+ * On Macintosh or Linux: run terminal and run
 ```
 chrome --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
 ```
-
 Or, you may download this <a href="run_chrome.sh">shell script</a> and run it.
-
 ```
 sh run_chrome.sh
 ```
-
 2. **Use another carrier.**  For example, if you have a smartphone that supports tethering (which may be called "Internet sharing", "WiFi access point", depending on the phone model you are using), turn it on and connect your PC to it.
-
 3. **Use VPN.**  If you happen to use a VPN service, connect the PC to the VPN.
 
 In all cases, the effect is to use a different route to reach our server.  Any way to connect your PC to another network may equally circumvent the issue.  e.g., bring your PC to a net cafe.
