@@ -50,7 +50,7 @@ If you are affected or using Korea Telecom, <a href="https://docs.google.com/for
 * To the question " Describe the problem", include
  1. The result of <a href="https://bgp.tools/" target="_blank">https://bgp.tools/</a> (texts below "You are connecting from")
  1. The result of accessing <a href="https://utas.adm.u-tokyo.ac.jp/" target="_blank">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
- 1. The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/" target="_blank">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)
+ 1. The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/" target="_blank">https://gidp.adm.u-tokyo.ac.jp/</a> (timeout or not)
 
 ## 6. How to work around the issue for now
 
