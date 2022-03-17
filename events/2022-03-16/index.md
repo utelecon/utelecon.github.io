@@ -16,7 +16,7 @@ title: "2022/03/16 説明会「オンライン授業だけじゃない！　教�
 
 ## 内容（予定）
 
-資料は当日までに(直前まで更新中), 録画は後日アップされます. 録画の閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です.
+資料は当日までに(直前まで更新中), 録画は後日アップされます（3/16 掲載しました）. 録画の閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です.　もしエラーとなって見られなかった場合は、[学内構成員限定のYouTubeコンテンツを視聴する](https://www.sodan.ecc.u-tokyo.ac.jp/hack/watching-youtube-contents-limited-to-utokyo-members/)をご確認ください。
 
 質疑応答は, オンラインツール「LearnWiz One」を利用して受け付けます. **[質疑応答用ページ](https://app.one.learnwiz.jp/ja/topic/utelecon20220316)** から質問してください([説明と使い方](slides/qa.pdf)). <br><small>※LearnWiz Oneにトラブルがあった場合は[Slidoで受け付けます](https://app.sli.do/event/tgEEMDQot8CP3hGxsCjhip)(参考: [Slidoの使い方ページ](/slido/)).</small>
 
