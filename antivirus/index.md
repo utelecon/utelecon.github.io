@@ -22,10 +22,10 @@ title: ウイルス対策ソフトウェア包括ライセンス
   * Server Protect for Linux
 * 料金：無料
 * 利用数：個人2台まで・共用1台まで // 書き方は要検討
-  * 詳しくは[UTNETのページ（学内アクセス限定）](nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
+  * 詳しくは[UTNETのページ（学内アクセス限定）](https://nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
 * サポート：[uteleconのサポート窓口](/support/)
 
-共用ライセンスなどの扱いの詳細も含めまして，[UTNETのページ（学内アクセス限定）](nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
+共用ライセンスなどの扱いの詳細も含めまして，[UTNETのページ（学内アクセス限定）](https://nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
 
 ## 利用方法
 
