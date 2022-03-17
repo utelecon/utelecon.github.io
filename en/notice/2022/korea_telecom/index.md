@@ -53,9 +53,9 @@ If you are affected or using Korea Telecom, [please report your status here](htt
 * To the question **"What is your inquiry?"**, check <font color="blue">"*Troubles with other external online tools or Utokyo systems*"</font>
 * To the question **"What did you try to accomplish?"**, say <font color="blue">"*Tried to access UTAS*"</font>
 * To the question **"Describe the problem"**, include
-  1. <font color="blue">The result of [https://bgp.tools/](https://bgp.tools/) (texts below "You are connecting from")</font>
-  1. <font color="blue">The result of accessing [https://utas.adm.u-tokyo.ac.jp/](https://utas.adm.u-tokyo.ac.jp/) (timeout or not)</font>
-  1. <font color="blue">The result of accessing [https://gidp.adm.u-tokyo.ac.jp/connect.html](https://gidp.adm.u-tokyo.ac.jp/connect.html) (timeout or not)</font>
+  1. <font color="blue">The result of <a href="https://bgp.tools/">https://bgp.tools/</a> (texts below "You are connecting from")</font>
+  1. <font color="blue">The result of accessing <a href="https://utas.adm.u-tokyo.ac.jp/">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)</font>
+  1. <font color="blue">The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/connect.html">https://gidp.adm.u-tokyo.ac.jp/connect.html</a> (timeout or not)</font>
 
 ## 6. How to work around the issue for now
 {:#how-to-work-around}
@@ -79,6 +79,7 @@ Or, you may download this [shell script](run_chrome.sh) and run it.
 ```
 sh run_chrome.sh
 ```
+
 2\. **Use another carrier.** For example, if you have a smartphone that supports tethering (which may be called "Internet sharing", "WiFi access point", depending on the phone model you are using), turn it on and connect your PC to it.
 
 3\. **Use VPN.** If you happen to use a VPN service, connect the PC to the VPN.
