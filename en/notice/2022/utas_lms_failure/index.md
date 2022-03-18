@@ -2,7 +2,7 @@
 title: A special page on access failures to UTAS/ITC-LMS
 ---
 
-_<font color="red">**Update: 21:24 (JST) March 18 2022.**</font>  The issue below should be fixed now.  We will continue to watch the issue for any adverse effect the fix might have caused.  To that end, had you experienced any issues in accessing UTAS or ITC-LMS, please report through the same form below._
+_<font color="red">**Update: 21:24 (JST) March 18 2022.**</font>  The issue below should be fixed now.  We will continue to watch the issue for any adverse effect the fix might have caused.  To that end, had you experienced any issues in accessing UTAS or ITC-LMS, [please let us know](#how-to-report)._
 
 As of March 17 2022, we are aware that a few users from Korea cannot access several ICT services operated by the University of Tokyo including [UTAS](https://utelecon.adm.u-tokyo.ac.jp/en/utas) and [ITC-LMS](https://utelecon.adm.u-tokyo.ac.jp/en/itc_lms). We have confirmed that it is an issue about the Internet routing connecting the user's carrier and the cloud vendor hosting our servers. We are cooperating with the cloud vender to fix the issue.
 
@@ -57,7 +57,9 @@ If you are affected or using Korea Telecom, [please report your status here](htt
 * To the question **"Describe the problem"**, include
   1. <font color="blue">The result of <a href="https://bgp.tools/">https://bgp.tools/</a> (texts below "You are connecting from")</font>
   1. <font color="blue">The result of accessing <a href="https://utas.adm.u-tokyo.ac.jp/">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)</font>
-  1. <font color="blue">The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/connect.html">https://gidp.adm.u-tokyo.ac.jp/connect.html</a> (timeout or not)</font>
+  1. <font color="blue">The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/connect.html">https://gidp.adm.u-tokyo.ac.jp/connect.html</a> (timeout or a page saying "Success(1 or 2)")</font>
+  1. <font color="blue">The result of accessing <a href="https://20.188.18.56/">https://20.188.18.56/</a> (timeout, a page showing a security warning/error, or anything else)</font>
+  1. <font color="blue">The result of accessing <a href="https://20.157.12.34/">https://20.157.12.34/</a> (timeout, a page showing a security warning/error, or anything else)</font>
 
 ## 6. How to work around the issue for now
 {:#how-to-work-around}
