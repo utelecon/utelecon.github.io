@@ -71,6 +71,7 @@ Or, you may download [this batch file](run_chrome.bat) and run it.
 ```
 run_chrome.bat
 ```
+Note: If the command above does not work, you might try changing `Program Files` to `Program Files (x86)`, for example. The correct command depends on where the Chrome application is stored on your computer.
  * On Macintosh or Linux: open terminal and run
 ```
 chrome --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
