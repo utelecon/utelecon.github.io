@@ -1,3 +1,3 @@
 ---
-redirect_to: "/en/notice/2022/korea_telecom/"
+redirect_to: "/en/notice/2022/utas_lms_failure/"
 ---
