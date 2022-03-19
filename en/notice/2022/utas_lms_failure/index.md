@@ -34,7 +34,7 @@ If you do not reach the authentication page (with Yasuda Auditorium) for a long 
 
 then you are likely to be a victim of this issue.
 
-To be sure, directly access [https://gidp.adm.u-tokyo.ac.jp/connect.html](https://gidp.adm.u-tokyo.ac.jp/connect.html) and if it times out, then you are very likely to be the victim.
+To be sure, directly access [https://gidp.adm.u-tokyo.ac.jp/connect.html](https://gidp.adm.u-tokyo.ac.jp/connect.html) and if it times out, then you are very likely to be a victim.
 
 ## 4. How to check if you are accessing from Korea Telecom?
 {:#how-to-check}
