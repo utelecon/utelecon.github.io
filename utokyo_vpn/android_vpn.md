@@ -11,7 +11,7 @@ title: Andorid端末でUTokyo VPNを利用する
 
 <img src="img/android01-play-store.png" alt="cisco systems inc. anyconnect" style="margin:auto; border:solid 1px black;" />
 
-**手順B:** インストールを終えてAnyConnectアプリを開くと，下の左のような画面が出るので「OK」をタップしてください．下の右のような画面が出たら準備は完了です（端末の設定によっては日本語もしくは英語で表示されることがあります）．
+**手順B:** インストールを終えてAnyConnectアプリを開くと，下の左のような画面が出るので「OK」をタップしてください．下の右のような画面が出たらインストールは完了です（端末の設定によっては日本語もしくは英語で表示されることがあります）．
 
 <ul style="display: flex;">
 <li style="list-style: none;">
