@@ -1,5 +1,5 @@
 ---
-title: UTokyo Antivirus Licenseの利用方法 (Windows)
+title: UTokyo Antivirus Licenseの利用方法 (macOS)
 ---
 
 このページでは，UTokyo Antivirus LicenseをmacOSのコンピュータで利用する方法を説明します．このライセンスの概要については，「[ウイルス対策ソフトウェア包括ライセンス](..)」をご覧ください．

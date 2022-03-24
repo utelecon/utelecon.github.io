@@ -13,14 +13,14 @@ title: ウイルス対策ソフトウェア包括ライセンス
 必ず[東京大学ウイルス対策ソフトウエア包括ライセンス利用内規](https://www.nc.u-tokyo.ac.jp/internal-only/guide/rule_hokatsu)をお読みください． // publicなURLに差し替える
 
 * 提供元
-  * 情報基盤センタ ネットワーク研究部門
+  * 情報基盤センター
 * 提供対象者
-  * UTokyo Account保持者
+  * 東京大学の教職員と学生
 * ライセンス種類：
   * Apex One (Windows・Windows Server, macOS)
   * Mobile Security (Android, iOS・iPadOS)
   * Server Protect for Linux
-* 料金：無料
+* 料金：利用者負担なし
 * 利用数：個人2台まで・共用1台まで // 書き方は要検討
   * 詳しくは[UTNETのページ（学内アクセス限定）](https://nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
 * サポート：[uteleconのサポート窓口](/support/)
@@ -33,9 +33,9 @@ title: ウイルス対策ソフトウェア包括ライセンス
 
 * Apex One
   * [Windows・Windows Server](windows/)
-  * [Mac](mac/)
+  * [macOS](macos/)
 * Mobile Security (Android, iOS・iPadOS)
-  * 準備中です．
+  * ~準備中です．~ 提供は予定の4/1から延期されました．可能な限り早期の提供を目指しますが，時期は未定です．
 * Server Protect for Linux
   * 準備中です．// nc.u-tokyo.ac.jp/.. ができていればリンクする
 
