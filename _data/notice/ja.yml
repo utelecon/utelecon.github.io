@@ -17,6 +17,7 @@
 -
   date: 2021-11-10
   content: "[Zoomのアップデートポリシー変更および機能拡張の有効化等について](/notice/20211110-zoom)"
+  important: true
 -
   date: 2021-10-30
   content: "10月31日で、[クラスサポーターの申請](/supporters/class_2021)が終了します．"
@@ -37,7 +38,6 @@
 -
   date: 2021-09-02
   content: "[Aセメスターのクラスサポーター制度申し込みを開始しました](/supporters/class_2021)"
-  important: true
 -
   date: 2021-09-01
   content: "[2021年9月27日からUTokyo Accountに多要素認証を導入します](/utokyo_account/mfa/)"

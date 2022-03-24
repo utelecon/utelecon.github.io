@@ -1,6 +1,7 @@
 ---
 title: グッドプラクティスの共有
 description: このページは，本学で行われたオンライン授業のグッドプラクティスを共有するためのページです．授業の形態や利用したツールごとに絞って閲覧できます．
+js: [jquery]
 ---
 
 <!--  Source codes of css and javascript were from https://www.tam-tam.co.jp/tipsnote/javascript/post14636.html. Thank you for the great codes -->
@@ -268,15 +269,3 @@ function array_match_check(arr1, arr2) {
     </li>
 
 </ul>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
