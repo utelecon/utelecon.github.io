@@ -2,7 +2,7 @@
 title: macOS端末でUTokyo VPNを利用する 
 ---
 
-## 準備編: VPNクライアントアプリケーションのダウンロードとインストール
+## 準備編: VPNクライアントアプリケーションのインストール
 {:#utokyo-vpn-macos-setup}
 
 まずはUTokyo VPNに接続するために必要なアプリケーションを端末にインストールします．
@@ -42,7 +42,7 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 
 <img src="img/mac07-macos-pref.png" alt="running anyconnect socket filter" style="margin:auto; width:75%; border:solid 1px black;" />
 
-### 利用編: UTokyo VPNへの接続
+## 利用編: UTokyo VPNへの接続
 {:#utokyo-vpn-macos-connect}
 
 以下の手順はVPNを利用するたびに必要です. 特にPCを起動した直後に自動的にVPNに接続されるわけではありませんので, ご注意ください.
@@ -62,3 +62,7 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 VPNを切断する際は，このウィンドウの「Disconnect」ボタンをクリックしてください．
 
 <img src="img/mac11-vpn-connected-window.png" alt="anyconnect connected window" style="margin:auto; width:75%; border:solid 1px black;" />
+
+<br>
+<br>
+<a href="index" target="_blank">UTokyo VPN全体のページに戻る</a>

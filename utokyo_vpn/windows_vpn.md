@@ -2,7 +2,7 @@
 title: Windows端末でUTokyo VPNを利用する 
 ---
 
-## 準備編: VPNクライアントアプリケーションのダウンロードとインストール
+## 準備編: VPNクライアントアプリケーションのインストール
 {:#utokyo-vpn-windows-setup}
 
 まずはUTokyo VPNに接続するために必要なアプリケーションを端末にインストールします．
@@ -59,3 +59,8 @@ title: Windows端末でUTokyo VPNを利用する
 VPNを切断する際は，このウィンドウの「Disconnect」ボタンをクリックしてください．
 
 <img src="img/win11-vpn-connected-window.png" alt="anyconnect connected window" style="margin:auto; width:75%; border:solid 1px black;" />
+
+
+<br>
+<br>
+<a href="index" target="_blank">UTokyo VPN全体のページに戻る</a>

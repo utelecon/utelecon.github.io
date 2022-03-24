@@ -2,7 +2,7 @@
 title: iOS端末でUTokyo VPNを利用する 
 ---
 
-## 準備編: VPNクライアントアプリケーションのダウンロードとインストール
+## 準備編: VPNクライアントアプリケーションのインストール
 {:#utokyo-vpn-ios-setup}
 
 <!-- 最新版にアップデートしていることは前提とする -->
@@ -42,3 +42,7 @@ title: iOS端末でUTokyo VPNを利用する
 <img src="img/android08-anyconnect-connecting.png" alt="anyconnect finished connecting" style="margin:auto; border:solid 1px black;" />
 
 VPNを切断する際は，この画面のトグルボタンをタップして「接続解除済み」にしてください．
+
+<br>
+<br>
+<a href="index" target="_blank">UTokyo VPN全体のページに戻る</a>
