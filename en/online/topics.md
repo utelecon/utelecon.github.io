@@ -1,3 +1,3 @@
 ---
-redirect_to: "/online/topics.md"
+redirect_to: "/online/topics"
 ---
