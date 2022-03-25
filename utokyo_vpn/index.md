@@ -223,10 +223,10 @@ UTokyo VPN接続時は，そのままだとコンピュータの繋がってい�
 
 - 可能です．
 
-## 規定
+## 規程
 
-- [UTokyo VPN利用規定](terms/UTokyoVPN-User-Term.pdf)
-- [UTokyo VPN運用規定](terms/UTokyoVPN-Operation-Term.pdf)
+- [UTokyo VPN利用規程](terms/UTokyoVPN-User-Term.pdf)
+- [UTokyo VPN運用規程](terms/UTokyoVPN-Operation-Term.pdf)
 
 
 ## お問合せフォーム
