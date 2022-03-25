@@ -55,15 +55,14 @@ For your easy reference, several filtering options are available for you to look
 The following articles introduce how online resources are utilized in online classes and activities at UTokyo. The articles are full of useful information such as descriptions of issues that arose when actually using online tools and tips for combined use of online tools. We hope you will find them helpful.
 
 * **[Sharing Good Practices of Online Classes](/good-practice/)** (in Japanese): 
-  This page shares good practices of online classes conducted at UTokyo. It includes interviews with professors who received a lot of positive feedback from students in the [online class questionnaire](#online_class_questionnaire).
+  This page shares good practices of online classes conducted at UTokyo. It includes interviews with professors who received a lot of positive feedback from students in the online class questionnaire.
 
 * **[Lunchtime Information Exchange Meeting](/en/events/2020-luncheon/)**: 
 This is a luncheon seminar held once a week for the purpose of sharing useful information on online classes, such as practical examples (good practices) and ways to use various tools.
 Videos and materials of past meetings are also available for reference.
 
 * **[Online Class Questionnaire](/questionnaire/)** (in Japanese): 
-{:#online_class_questionnaire}
 This page sums up feedback on UTokyo’s online education collected through questionnaires. Ever since UTokyo started offering classes online due to COVID-19 infection prevention (almost 100% of classes were offered online in academic year 2020), UTokyo has been collecting feedback on online classes from both faculty and students and utilizing the questionnaire results to improve online classes.
 
-* **[Online Resources Shared by UTokyo Faculty and Staff Members](shared)**: 
+* **[Online Resources Shared by UTokyo Faculty and Staff Members](shared/)**: 
 This page covers online resources that UTokyo faculty and staff members have shared with us. We would like to thank the members for their kind contributions. If you would like to share new materials with us, please follow the procedures on the page.  
