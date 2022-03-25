@@ -9,7 +9,7 @@ This page is recommended for users who have questions on how to better use onlin
  
 We plan to further enrich this page with more methods and practical examples of utilizing various online tools, based on our experiences with online classes and activities from academic year 2020 and onward. Please keep checking back for more updates.
 
-** In utelecon (this portal site), we provide useful information on online resources to enhance your online classes and activities. Please refer to the [Effective Use of Online Resources](/en/online/) page for more information. **
+**In utelecon (this portal site), we provide useful information on online resources to enhance your online classes and activities. Please refer to the [Effective Use of Online Resources](/en/online/) page for more information.**
 
 ## Web Conferencing Systems
 {:#web-conf}
