@@ -17,7 +17,7 @@ We plan to further enrich this page with more methods and practical examples of 
 ### Zoom
 Zoom is one of the most popular web conferencing systems and is used in many online classes at UTokyo. 
 
-- **[utelecon’s Zoom Page](en/zoom/)**: A page that summarizes basic use and various functions of Zoom.
+- **[utelecon’s Zoom Page](/en/zoom/)**: A page that summarizes basic use and various functions of Zoom.
 - Selected Information on Zoom
     - **[Online Course “Using Zoom in Online Classes”](/events/2021-03-25/)** (in Japanese): A course explaining how to use Zoom in online classes. (Video is for UTokyo members only.)
     - **[Reducing Zoom Data Traffic for Online Classes](/articles/zoom-data-traffic/)** (in Japanese): This article provides Zoom’s average data usage and tips on how to reduce data traffic in online classes.
@@ -26,13 +26,13 @@ Zoom is one of the most popular web conferencing systems and is used in many onl
 
 Webex is a web conferencing system provided by Cisco. With an UTokyo license, you may hold Webex meetings for up to 1000 participants, which is a larger capacity than Zoom. You can also hold meetings with high security by enabling E2E (End-to-end) encryption.
 
-- **[utelecon’s Webex Page](en/webex/)**
+- **[utelecon’s Webex Page](/en/webex/)**
 
 ### Google Meet
 
 Google Meet is a web conferencing system provided by Google as part of Google Workspace. One of its advantages is its full integration with other Google services such as Google Calendar.
 
--  **[utelecon’s Google Meet Page](en/meet/)**
+-  **[utelecon’s Google Meet Page](/en/meet/)**
 
 
 ## Learning Management Systems
@@ -43,7 +43,7 @@ A “learning management system” is a system that supports the exchange of dat
 ### ITC-LMS
 ITC-LMS is UTokyo’s learning management system. It provides functions such as distribution of class materials, submission of assignments, online examinations, and notifications from faculty members to students. One of ITC-LMS’s advantages is that it is **easy to pass information "only to the students of UTokyo '' or "only to the students of a specific class"** because ITC-LMS is linked to the UTokyo Account and UTokyo Academic Affairs System (UTAS, UTokyo’s course registration system). ITC-LMS is also **widely used by students**, so we recommend that you make ITC-LMS the first choice for distributing class materials and exchanging assignments.
 
--  **[utelecon’s ITC-LMS Page](en/itc_lms/)**
+-  **[utelecon’s ITC-LMS Page](/en/itc_lms/)**
 
 ### Google Classroom
 
@@ -103,7 +103,7 @@ Below are tools that allow you to create and share documents online. Many tools 
 
 Google Docs is a document editor included in Google Workspace. Multiple users can easily edit documents simultaneously or share documents using URLs because they are stored in a cloud (Google Drive).
 
-- **[Basic Use of Google Docs](en/articles/google-document/)**: utelecon page explaining how to use Google Docs. 
+- **[Basic Use of Google Docs](/en/articles/google-document/)**: utelecon page explaining how to use Google Docs. 
 - **[Online Class Information Exchange Meeting #11: Useful Tools for Online Class (1) ](/events/luncheon/2020-06-24/)**(in Japanese): This article explains how to use a script (simple program) to automate the process of creating multiple copies of template files that are necessary for group work.
 
 #### Google Slides
@@ -118,7 +118,7 @@ Google Workspace also provides other document generation tools such as the sprea
 #### Google Drive
 Google Drive is an online storage provided by Google Workspace, which can store documents such as those created with Google Docs.  
 
-- **[The Basics of Using Google Drive](articles/google-drive/)** (in Japanese): This utelecon page describes how to use Google Drive, a space to store documents created with Google Docs.
+- **[The Basics of Using Google Drive](/articles/google-drive/)** (in Japanese): This utelecon page describes how to use Google Drive, a space to store documents created with Google Docs.
 
 
 ### Tools Included in Microsoft 365
@@ -134,7 +134,7 @@ Microsoft 365 also provides online versions of Excel and PowerPoint, that can be
 Scrapbox is a tool for storing and organizing a large number of notes and memos online. It allows multiple users to edit notes simultaneously, and to share notes using URLs. Scrapbox’s unique feature is that you can easily connect many pages using "links" and "tags. Utilizing this feature, Scrapbox can be used as a portal site for online classes.
 
 - **[Basic Use of Scrapbox](/articles/scrapbox/)** (in Japanese): utelecon’s page describing how to use Scrapbox.
-- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)**: A practical example of using Scrapbox to share lecture materials.
+- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)** (in Japanese): A practical example of using Scrapbox to share lecture materials.
 
 
 ## Handwriting/Whiteboard Apps
@@ -181,9 +181,9 @@ This section introduces tools for communicating in various ways including chat (
 Slack is a groupware app, and is a tool for communicating with group/team members through text messages. Users can create multiple "channels" where you can post text messages and have separate interactions at the same time. This feature is likely to be especially useful for communication within laboratories and departments. (Of course it can also be used in the classroom setting).
 
 - **[How to Communicate With Students on Slack](/en/articles/slack-communication/)**: This page explains basic use of Slack.
-- **[Using Slack in a Seminar-style Class (in Japanese)](/articles/slack-seminar/)**: This page introduces how to use Slack particularly in seminar-style classes.
+- **[Using Slack in a Seminar-style Class](/articles/slack-seminar/)** (in Japanese): This page introduces how to use Slack particularly in seminar-style classes.
 - **[Good Practices of Online Classes - Prof. Saito: Numerical Mathematics I / Computational Mathematics](/good-practice/interview/saito)** (in Japanese): A practical example of using Slack to collect questions regarding class content in on-demand classes. 
-- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)**: A practical example of using Slack in a course to accept questions from students and provide consultation. 
+- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)** (in Japanese): A practical example of using Slack in a course to accept questions from students and provide consultation. 
 
 ### Discord
 Discord is a tool for communicating within a group or team. In addition to text chatting in Slack-like "channels", voice chatting (voice calls) is possible. The voice chatting feature is useful for holding casual meetings among friends. 
@@ -196,27 +196,27 @@ Discord is a tool for communicating within a group or team. In addition to text 
 {:#line-openchat}
 LINE OpenChat is a feature of the LINE messaging app that allows users to create chat rooms (Talk Rooms) that can be entered with an invitation code. Users can join the Talk Room using the code, even if they are not registered as LINE friends beforehand. Users can set a different profile or even make themselves anonymous in every Talk Room they join, which is a preferable function for students who want to join without sharing their private LINE profile.
 
-- **[(external site)](https://linecorp.com/en/pr/news/en/2019/2883)**: The official press release on launch of OpenChat, summarizing the main features.
+- **[\[LINE\] OpenChat Broadens LINE User Experience(external site)](https://linecorp.com/en/pr/news/en/2019/2883)**: The official press release on launch of OpenChat, summarizing the main features.
 - **[How to Use OpenChat (LINE Everyone’s User Guide) (external site)](https://guide.line.me/ja/services/openchat.html)** (in Japanese): The official user guide.
-- **[Good Practices of Online Classes - Prof. Hirose: Solid Earth Science](/good-practice/interview/hirose)**: A practical example of using LINE OpenChat in a course to accept anonymous questions. 
+- **[Good Practices of Online Classes - Prof. Hirose: Solid Earth Science](/good-practice/interview/hirose)** (in Japanese): A practical example of using LINE OpenChat in a course to accept anonymous questions. 
 - **[How to Accept Questions in Class via LINE OpenChat](/articles/question-tools#LINEopenchat)** (in Japanese):  A practical example of using LINE OpenChat in class to receive questions, and tips for collecting questions.
 
 ### Wonder
 Wonder is a conference tool that allows you to move around in a virtual room by moving your icon on the screen. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
 - **[Wonder (external site)](https://www.wonder.me/)**: The official Wonder site.
-- **[Using Online Meeting Tools to Interact](/articles/online-interaction#Wonder)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Wonder.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#Wonder)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Wonder.
 
 It is a tool that can be used for online calls for interaction, which is a little different from formal web conferencing such as Zoom or Webex.
 
 ### Gather
 Gather is a conference tool with a playful retro-game style UI. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
 - **[Gather (external site)](https://www.gather.town/)**: The official Gather site．
-- **[Using Online Meeting Tools to Interact](/articles/online-interaction#Gather)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Gather.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#Gather)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Gather.
 
 ### Remo
 Remo is a web conference tool that allows you to join different meetings by moving your icon  between pseudo “tables” on your screen. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
-- **[Remo (external site)](https://jp.remo.co/)**: The official Remo site.
-- **[Using Online Meeting Tools to Interact](/articles/online-interaction#Remo)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Remo.
+- **[Remo (external site)](https://remo.co/)**: The official Remo site.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#Remo)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Remo.
 
 ### SpatialChat
 SpatialChat is a conference tool in which the sound volume changes depending on the "distance" between you and other users on the screen.
