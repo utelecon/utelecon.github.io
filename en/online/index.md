@@ -24,10 +24,10 @@ For your easy reference, several filtering options are available for you to look
 * **[Search by Tool](tools)**
   * For users who are interested in better use of online tools.
   * For users who have questions such as “I need to use online tool XXX in my online class, but don’t know how to use it.”, “What are the features and functions of online tool XXX?”.
-* **[Search by Purpose](/online/topics)** (in Japanese)
+* **[Search by Purpose](topics)** (in Japanese)
   * For users who want to find tools that best match their purpose and learn how to use them.
   * For users who have questions such as “How can I create a video?”, “How can I handwrite on online boards?”.
-* **[Utilizing Online Resources in Teaching](/online/courses)** (in Japanese)
+* **[Utilizing Online Resources in Teaching](courses)** (in Japanese)
   * This page summarizes useful information on conducting online classes at UTokyo, where online resource support is in great need.
   * For users who want to learn to improve their online classes. 
   * For users who have questions such as “How can I deliver an online class?”, “What tools should I use in my online class?”, “How can I make my online class more effective?”.
@@ -61,7 +61,8 @@ The following articles introduce how online resources are utilized in online cla
 This is a luncheon seminar held once a week for the purpose of sharing useful information on online classes, such as practical examples (good practices) and ways to use various tools.
 Videos and materials of past meetings are also available for reference.
 
-* **[Online Class Questionnaire](/questionnaire/)** (in Japanese): {:#online_class_questionnaire}
+* **[Online Class Questionnaire](/questionnaire/)** (in Japanese): 
+{:#online_class_questionnaire}
 This page sums up feedback on UTokyo’s online education collected through questionnaires. Ever since UTokyo started offering classes online due to COVID-19 infection prevention (almost 100% of classes were offered online in academic year 2020), UTokyo has been collecting feedback on online classes from both faculty and students and utilizing the questionnaire results to improve online classes.
 
 * **[Online Resources Shared by UTokyo Faculty and Staff Members](shared)**: 
