@@ -1,3 +1,3 @@
 ---
-redirect_to: "/online/courses.md"
+redirect_to: "/online/courses"
 ---
