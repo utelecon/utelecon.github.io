@@ -13,7 +13,7 @@ title: アナウンス用メーリングリスト及びQAフォーラムにつ�
 
 以下のアナウンス用メーリングリストとQAフォーラムを作っています
 
-* [アナウンス用メーリングリスト (utelecon-questions)](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/g/utelecon-announce-group) : アナウンスのためのメーリングリスト
+* [アナウンス用メーリングリスト (utelecon-announce)](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/g/utelecon-announce-group) : アナウンスのためのメーリングリスト
 * [QAフォーラム (utelecon-questions)](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/g/utelecon-questions-group) : 質問, 議論のためのフォーラム
 
 加入の仕方
