@@ -8,7 +8,7 @@
       name: "For Staff"
       url: "/en/faculty_members/"
     -
-      name: "Effective Use of Online Classes"
+      name: "Effective Use of Online Resources"
       url: "/en/online/"
     -
       name: "Support Desk"
@@ -47,13 +47,13 @@
   name: "Teaching Excellence"
   contents:
     -
-      name: "Effective Use of Online Classes"
+      name: "Effective Use of Online Resources"
       url: "/en/online/"
     -
       name: "Search Online Resources by Tool"
       url: "/en/online/tools"
     -
-      name: "Community of Practice for Online Education"
+      name: "Community of Online Education Practices"
       url: "/en/events/2020-luncheon/"
 -
   name: "Notice / Events"
