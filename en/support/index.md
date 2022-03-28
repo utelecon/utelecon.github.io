@@ -56,6 +56,7 @@ When you access the Zoom meeting room, you will first be taken to a waiting room
 {:#email-form}
 
 Email form supports are available for difficult/complicated inquiries. A student operator (also called “Common Supporter”) will respond to your inquiry through email. Faculty members will take over if the issue cannot be resolved by student staff.
+
 Inquiries that include confidential information such as personal grades will be handled only by faculty members. To ensure such inquiries to be directly sent to faculty members (and not opened by student operators), please check the “I would like to be supported only by faculty members” checkbox in the email form. 
 
 <div>Business hours: 24 hours</div>
