@@ -8,7 +8,7 @@ title: UTokyo Antivirus Licenseの利用方法 (Windows)
 
 ## 利用方法
 
-1. 以下のリンクのいずれかにアクセスしてください（UTokyo Accountでのサインインが必要です; 方法は[こちら](/microsoft)を参照してください）：
+1. 以下のリンクのいずれかにアクセスしてください（UTokyo Accountでのサインインが必要です）：
     * OSが64bitの方：[こちら](https://univtokyo.sharepoint.com/:u:/s/antivirus/EZGMnsqLZgFGr5_6nzxbv9MBoFN4X4A4-Q5MBEKMqHOZBg)
     * OSが32bitの方：[こちら](https://univtokyo.sharepoint.com/:u:/s/antivirus/EfPjx719Te5BjSbDxxx4OgwB4oZXtrD13r3gT-s0sqCpoA)
 1. 以下のような画面が表示されたら，「ダウンロード」を押してダウンロードしてください． ![ダウンロード画面](1_download.png){:.small}
