@@ -2,11 +2,11 @@
 title: Mailing List for Announcements and QA Forum
 ---
 
-(March 2022) The mailing list for announcements and QA forum described in this page are currently in very low use, so we will shut them down gradually.
+(March 2022) The mailing list for announcements and the QA forum described on this page are currently rarely used, so we will shut them down gradually.
 
-- Joinning them via subscription form or e-mail has been closed.
+- Registration for them via subscription form or e-mail has been closed.
 - Announcements will be made through the UTokyo Portal (for faculty and staff) and UTAS (for students).
-- Use [Technical Support Desk](/en/support/) for inquiries.
+- Use the [Technical Support Desk](/en/support/) for inquiries.
 
 ## Introduction
 
