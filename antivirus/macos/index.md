@@ -11,31 +11,31 @@ title: UTokyo Antivirus Licenseの利用方法 (macOS)
 
 1. [こちらのリンク](https://univtokyo.sharepoint.com/:u:/s/antivirus/EUB-3pO4d_9Jvcz-28s-A2QBpI08UNxT9rsbiBr8WqDj7Q)にアクセスします（UTokyo Accountでのサインインが必要です）．
 1. 以下のような画面が表示されたら，上のリボンから「ダウンロード」を押してダウンロードします． 
-![ダウンロード画面](1_download.png){:.small}
+![ダウンロード画面](i_1_download.png){:.small}
 1. Finderでダウンロードしたファイルを解凍します．
-![解凍](2_unpack.png){:.small}
+![解凍](i_2_unpack.png){:.small}
 1. 解凍したフォルダ内にある`tmsinstall.pkg`を実行します．
 1. インストーラが起動すると以下のような画面になります．「許可」をクリックします．
-![インストーラ; 許可](3_installer_allow.png){:.small}
+![インストーラ; 許可](i_3_installer_allow.png){:.small}
 1. 続けて「続ける」「続ける」「インストール」をクリックすると，以下のような画面になります．ログインパスワードを入力するか指紋を認証することでインストールを開始します．
-![インストーラ; 認証](4_installer_auth.png){:.small}
+![インストーラ; 認証](i_4_installer_auth.png){:.small}
 3. 実行が終わると，複数のウィンドウが開きます．以下のウィンドウで「続行」をクリックします．
-![必要な権限のセットアップ](5_setup.png){:.small}
+![必要な権限のセットアップ](i_5_setup.png){:.small}
 1. 以下の画面が開きます．指示に従って，全ての手順を実施し，「続行」をクリックします．
-![システム拡張機能を許可](6_extension.png){:.small}
+![システム拡張機能を許可](i_6_extension.png){:.small}
 1. 以下の画面が開きます．指示に従って，全ての手順を実施し，「続行」をクリックします．
-![フルディスクアクセスを許可](7_disk_access.png){:.small}
+![フルディスクアクセスを許可](i_7_disk_access.png){:.small}
     * 手順2では「プライバシー」タブを選択したリストの中から「フルディスクアクセス」を選択します．
     * 手順4, 5を実施すると，下記のようなメッセージが出ますが，どちらも「あとで行う」を選択します。
-    ![フルディスクアクセスがありません](8_disc_access_prompt.png){:.small}
+    ![フルディスクアクセスがありません](i_8_disc_access_prompt.png){:.small}
     * 手順6では，TrendMicroExtensionにチェックが入ってないのでチェックをいれ，画面に提示されている3つのアプリの項目にチェックが入っていることを確認します．
 1. 以下の画面が開きます．「OK」を選択します．
-![エージェント再起動](9_restart.png){:.small}
-1. Dockに![アイコン](10_icon.png){:.inline}ができているので，起動します．
+![エージェント再起動](i_9_restart.png){:.small}
+1. Dockに![アイコン](i_10_icon.png){:.inline}ができているので，起動します．
 1. 以下のような画面が開きます．「アップデート」をクリックします．
-![コンソール; 起動](11_update_start.png){:.small}
+![コンソール; 起動](i_11_update_start.png){:.small}
 1. アップデートが終わり，以下のような画面が出たら，準備は終了です．
-![コンソール; アップデート終了](12_update_end.png){:.small}
+![コンソール; アップデート終了](i_12_update_end.png){:.small}
 
 ### ブラウザ拡張機能のインストール
 

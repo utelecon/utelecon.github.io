@@ -12,22 +12,22 @@ title: UTokyo Antivirus Licenseの利用方法 (Windows)
 1. 以下のリンクのいずれかにアクセスします（UTokyo Accountでのサインインが必要です）：
     * OSが64bitの方：[こちら](https://univtokyo.sharepoint.com/:u:/s/antivirus/EZGMnsqLZgFGr5_6nzxbv9MBoFN4X4A4-Q5MBEKMqHOZBg)
     * OSが32bitの方：[こちら](https://univtokyo.sharepoint.com/:u:/s/antivirus/EfPjx719Te5BjSbDxxx4OgwB4oZXtrD13r3gT-s0sqCpoA)
-1. 以下のような画面が表示されたら，「ダウンロード」を押してダウンロードします． ![ダウンロード画面](1_download.png){:.small}
+1. 以下のような画面が表示されたら，「ダウンロード」を押してダウンロードします． ![ダウンロード画面](i_1_download.png){:.small}
 1. ダウンロードしたインストーラを実行します．
 1. 以下のような画面が表示されます．「詳細情報」をクリックすると「実行」が出てきますので，実行します．
-![Windows Defender; Win11](2_defender.png){:.small}
+![Windows Defender; Win11](i_2_defender.png){:.small}
 1. 以下のインストーラが起動しますので，「次へ」をクリックします．
-![インストーラ; 起動](3_installer_start.png){:.small}
+![インストーラ; 起動](i_3_installer_start.png){:.small}
 1. しばらく待つと以下の画面になります．「終了」をクリックします．
-![インストーラ; 完了](4_installer_end.png){:.small}
+![インストーラ; 完了](i_4_installer_end.png){:.small}
 1. 以下のような画面が出ますので，「再起動」をクリックしてコンピュータを再起動します．
-![再起動](5_restart.png){:.small}
+![再起動](i_5_restart.png){:.small}
 1. 再起動が終わったら，スタートメニューから「セキュリティエージェント」を起動します．
-![スタートメニュー](6_start_menu.png){:.small}
+![スタートメニュー](i_6_start_menu.png){:.small}
 1. 起動したら以下のような画面になります．「アップデート」をクリックアップデートします．
-![コンソール; 起動](7_console_start.png){:.small}
+![コンソール; 起動](i_7_console_start.png){:.small}
 1. アップデートが終わり，以下のような画面が出たら，準備は終了です．
-![コンソール; アップデート完了](8_console_end.png){:.small}
+![コンソール; アップデート完了](i_8_console_end.png){:.small}
 
 ## アンインストール方法
 {:#uninstall}
