@@ -33,13 +33,13 @@ title: UTokyo Antivirus Licenseの利用方法 (Windows)
 {:#uninstall}
 
 1. Windowsのスタートメニュー開き，「Trend Micro Apex One セキュリティエージェント」フォルダ内の「セキュリティエージェント」を右クリックし，「アンインストール」をクリックします．
-![スタートメニュー](){:.small}
+![スタートメニュー](un_1_startmenu.png){:.small}
 1. 開いた画面で「TrendMicroApex One セキュリティエージェント」を選択し，「アンインストール」をクリックします．
-![プログラムと機能](){:.small}
+![プログラムと機能](un_2_programs.png){:.small}
 1. 開いたアンインストーラが終了するのを待ちます．
-![アンインストーラ; 処理中](){:.small}
+![アンインストーラ; 処理中](un_3_processing.png){:.small}
 1. 上の画面が消え，以下のメッセージが表示されたら，OKをクリックします．
-![アンインストーラ; 完了](){:.small}
+![アンインストーラ; 完了](un_4_end.png){:.small}
 1. 下記のいずれかのフォルダを削除します．
   * 32ビットOS：`C:¥Program Files¥Trend Micro¥Security Agent¥`
   * 64ビットOS：`C:¥Program Files (x86)¥Trend Micro¥Security Agent¥`
