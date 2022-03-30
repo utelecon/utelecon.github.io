@@ -8,8 +8,8 @@
       name: "For Staff"
       url: "/en/faculty_members/"
     -
-      name: "Improving Online Classes"
-      url: "/en/improvement/"
+      name: "Effective Use of Online Resources"
+      url: "/en/online/"
     -
       name: "Support Desk"
       url: "/en/support/"
@@ -47,10 +47,13 @@
   name: "Teaching Excellence"
   contents:
     -
-      name: "Improving Online Classes"
-      url: "/en/improvement/"
+      name: "Effective Use of Online Resources"
+      url: "/en/online/"
     -
-      name: "Community of Practice for Online Education"
+      name: "Search Online Resources by Tool"
+      url: "/en/online/tools"
+    -
+      name: "Community of Online Education Practices"
       url: "/en/events/2020-luncheon/"
 -
   name: "Notice / Events"
@@ -59,7 +62,7 @@
       name: "Notice"
       url: "/en/notice/"
     -
-      name: "Community of Practice for Online Education"
+      name: "Community of Online Education Practices"
       url: "/en/events/2020-luncheon/"
     -
       name: "Orientations / Seminars"
@@ -74,8 +77,8 @@
       name: "FAQ"
       url: "/en/faq/"
     -
-      name: "Report on Attendance Issues"
-      url: "/en/forms/et"
+      name: "Trouble in Entering Classes"
+      url: "/en/oc/join"
     -
       name: "Network Environment Support"
       url: "/mobile/"
