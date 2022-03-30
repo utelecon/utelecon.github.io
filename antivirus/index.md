@@ -12,25 +12,26 @@ title: UTokyo Antivirus License
 
 必ず[東京大学ウイルス対策ソフトウエア包括ライセンス利用内規](terms/terms-of-antivirus-licence.pdf)をお読みください．
 
-* 提供元
-  * 情報基盤センター
-* 提供対象者
-  * 東京大学の教職員と学生
-* ライセンス種類：
+* 提供元：情報基盤センター
+* 提供対象者：東京大学の教職員と学生
+* 提供製品：
   * Apex One (Windows・Windows Server, macOS)
   * Mobile Security (Android, iOS・iPadOS)
   * Server Protect for Linux
 * 料金：利用者負担なし
 * 利用数：
-  * 個人所有の端末…2台
-  * 大学所有の端末については，[UTNETのページ（学内アクセス限定）](https://nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
+  * 個人所有の端末：2台
+  * 大学所有の端末については，[UTNETのページ（学内アクセス限定）](https://www.nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
 * サポート：[uteleconのサポート窓口](/support/)
 
-詳しくは，[UTNETのページ（学内アクセス限定）](https://nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
+ただし，以下の部局の方については，[UTNETのページ（学内アクセス限定）](https://www.nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
+* …
 
 ## 利用方法
 
-いずれのプラットフォームにおいても，すでに別のアンチウイルスソフトウェアがインストールされていると新たにインストールできない場合があります．先にアンインストールしてから手順を実行してください．
+### インストール
+
+複数のウイルス対策ソフトウェアがインストールされると不具合を起こす場合があります．すでにインストールされている別のウイルス対策ソフトウェアから切り替えたい場合は，先にそちらをアンインストールしてから手順を実行してください．
 
 * Apex One
   * [Windows・Windows Server](windows/#install)
@@ -38,9 +39,9 @@ title: UTokyo Antivirus License
 * Mobile Security (Android, iOS・iPadOS)
   * <s>準備中です．</s> 提供は予定の4/1から延期されました．可能な限り早期の提供を目指しますが，時期は未定です．
 * Server Protect for Linux
-  * [こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhBCCCVVuSxhHuBb1A09B1RpUQkdXUzQ0TUdFSzk4RU1aUzNKUkRFVjEyTC4u) (Microsoft Forms) に回答し，送信後に出てくる手順に従ってください．
+  * [こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhBCCCVVuSxhHuBb1A09B1RpUQkdXUzQ0TUdFSzk4RU1aUzNKUkRFVjEyTC4u) (Microsoft Forms; UTokyo Accountでのサインインが必要です) に回答し，送信後に出てくる手順に従ってください．
 
-## アンインストール
+### アンインストール
 
 * Apex One
   * [Windows・Windows Server](windows/#uninstall)
@@ -50,4 +51,4 @@ title: UTokyo Antivirus License
 * Server Protect for Linux
   * 準備中です．
 
-## FAQ
+<!-- ## FAQ -->

@@ -7,7 +7,7 @@ title: UTokyo Antivirus Licenseの利用方法 (Windows)
 ## インストール方法
 {:#install}
 
-すでに別のアンチウイルスソフトウェアがインストールされていると新たにインストールできない場合があります．先にアンインストールしてから手順を実行してください．
+複数のウイルス対策ソフトウェアがインストールされると不具合を起こす場合があります．すでにインストールされている別のウイルス対策ソフトウェアから切り替えたい場合は，先にそちらをアンインストールしてから手順を実行してください．
 
 1. 以下のリンクのいずれかにアクセスします（UTokyo Accountでのサインインが必要です）：
     * OSが64bitの方：[こちら](https://univtokyo.sharepoint.com/:u:/s/antivirus/EZGMnsqLZgFGr5_6nzxbv9MBoFN4X4A4-Q5MBEKMqHOZBg)
