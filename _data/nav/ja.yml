@@ -57,7 +57,7 @@
       url: "/online/tools"
     -
       name: "やりたいことから探す"
-      url: "/online/topics"
+      url: "/online/topics/"
     -
       name: "よりよい授業の実施方法を探す"
       url: "/online/courses"
