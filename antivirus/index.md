@@ -10,7 +10,7 @@ title: UTokyo Antivirus License
 
 ## 概要
 
-必ず[東京大学ウイルス対策ソフトウエア包括ライセンス利用内規](https://www.nc.u-tokyo.ac.jp/internal-only/guide/rule_hokatsu)をお読みください． // publicなURLに差し替える
+必ず[東京大学ウイルス対策ソフトウエア包括ライセンス利用内規](terms/terms-of-antivirus-licence.pdf)をお読みください．
 
 * 提供元
   * 情報基盤センター
