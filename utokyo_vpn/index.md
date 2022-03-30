@@ -31,10 +31,11 @@ UTokyo VPNを利用するには，まず自身の端末にVPNクライアント�
 
 VPNクライアントアプリケーションを端末にダウンロード，インストール，そして実際に接続する方法をOSごとに説明しています．
 
-* [Windows端末でUTokyo VPNを利用する](windows_vpn)
-* [macOS端末でUTokyo VPNを利用する](macos_vpn)
-* [iOS端末でUTokyo VPNを利用する](ios_vpn)
-* [Android端末でUTokyo VPNを利用する](android_vpn)
+* [Windows端末でUTokyo VPNを利用する](windows)
+* [macOS端末でUTokyo VPNを利用する](macos)
+* [Android端末でUTokyo VPNを利用する](android)
+* [iPad端末でUTokyo VPNを利用する](ipad)
+* [iPhone端末でUTokyo VPNを利用する](iphone)
 
 ## FAQ
 

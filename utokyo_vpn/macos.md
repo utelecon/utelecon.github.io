@@ -2,6 +2,8 @@
 title: macOS端末でUTokyo VPNを利用する 
 ---
 
+このページでは，UTokyo VPNをMacOSのコンピュータで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](..)」をご覧ください．
+
 ## 準備編: VPNクライアントアプリケーションのインストール
 {:#utokyo-vpn-macos-setup}
 
@@ -55,7 +57,7 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 
 <img src="img/mac10-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
 
-**手順G:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebExなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
+**手順G:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
 **手順H:** 再度Cisco AnyConnect Secure Mobility Clientをクリックし，現在の状態を確認します．表示されたウィンドウで，下記のように「Connectedto vpn1.adm.u-tokyo.ac.jp」と表示されていれば，お使いの端末はUTokyoVPNに接続している状態です．
 

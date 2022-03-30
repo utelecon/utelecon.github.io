@@ -2,6 +2,8 @@
 title: Windows端末でUTokyo VPNを利用する 
 ---
 
+このページでは，UTokyo VPNをWindowsのコンピュータで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](..)」をご覧ください．
+
 ## 準備編: VPNクライアントアプリケーションのインストール
 {:#utokyo-vpn-windows-setup}
 
@@ -50,7 +52,7 @@ title: Windows端末でUTokyo VPNを利用する
 <img src="img/win09-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
 
 
-**手順G:** 手順2の後，下記のように「Connected: vpn1.adm.u-tokyo.ac.jp」と表示するウィンドウが出てくると，VPNへの接続は完了です．ZoomやWebExなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由し，東京大学キャンパスネットワークに接続している状態で行われます．
+**手順G:** 手順2の後，下記のように「Connected: vpn1.adm.u-tokyo.ac.jp」と表示するウィンドウが出てくると，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由し，東京大学キャンパスネットワークに接続している状態で行われます．
 
 <img src="img/win10-vpn-connected.png" alt="anyconnect connected" style="margin:auto; width:75%; border:solid 1px black;" />
 
