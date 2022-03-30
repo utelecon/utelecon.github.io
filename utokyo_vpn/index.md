@@ -7,14 +7,14 @@ title: UTokyo VPN
 
 
 
-UTokyo VPNは東京大学全学の教職員が利用できるVPNサービスです．学外で端末からUTokyo VPNに接続すると，その端末は情報基盤センターに設置されたVPNゲートウェイを経由して通信を行うようになり，端末は仮想的に東京大学キャンパスネットワークであるUTNETに接続されている状態になります．
+UTokyo VPNは東京大学全学の構成員（教職員および学生）が利用できるVPNサービスです．学外で端末からUTokyo VPNに接続すると，その端末は情報基盤センターに設置されたVPNゲートウェイを経由して通信を行うようになり，端末は仮想的に東京大学キャンパスネットワークであるUTNETに接続されている状態になります．
 
 UTokyo VPNを利用するには，まず自身の端末にVPNクライアントアプリケーションであるAnyConnectをインストールします．インストールしたアプリケーションを起動すると，UTokyo Accountの認証を経てVPNゲートウェイに接続し，端末からの通信がVPN経由でUTNETを通じて外部と通信するようになります．
 
 ## 利用にあたって
 {:#note}
 
-**利用対象者:** UTokyo Accountを持つ東京大学 教職員 <span style="color: red; ">(現在学生への提供に向けて準備中です)</span>
+**利用対象者:** UTokyo Accountを持つ東京大学 構成員（教職員・学生） <span style="color: red; ">学生への提供を開始しました。</span>
 
 **情報セキュリティ教育:** 東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，UTokyo VPNの利用資格を停止します．**なお，未受講者への対応に関するお問い合わせは， `jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` （`__at__`は@に変更）にて受け付けております．
 
@@ -168,14 +168,17 @@ VPNを切断する際は，このウィンドウの「Disconnect」ボタンを�
 
 - [こちらのページ](https://vpn1.adm.u-tokyo.ac.jp/+CSCOE+/logon.html?tgroup=utvpn-tunnel-group)にアクセスしてダウンロードをお試しください．
 
-#### Q. 準備編 手順Bで「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない
+#### Q. 準備編 手順Bで「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない　
+
+- 情報セキュリティ教育を受講していない可能性があります．情報セキュリティ教育を受講していない場合，UTokyo VPNは利用できません．対応については本部情報環境課セキュリティ対策チーム `jouhousecurity.adm __at__ gs.mail.u-tokyo.ac.jp` (`__at__`を@に変更)にご自身のUTokyo Accountのユーザ名を添えてご連絡ください．
+
+#### Q. 準備編 手順Bで「ID, Password」を入力する画面が表示されるが、ID,Password を入れてもサインインできない　
 
 - 情報セキュリティ教育を受講していない可能性があります．情報セキュリティ教育を受講していない場合，UTokyo VPNは利用できません．対応については本部情報環境課セキュリティ対策チーム `jouhousecurity.adm __at__ gs.mail.u-tokyo.ac.jp` (`__at__`を@に変更)にご自身のUTokyo Accountのユーザ名を添えてご連絡ください．
 
 #### Q. 利用編 手順Dで「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない
 
 - UTokyo VPNに接続しようとしている端末で複数ユーザが同時にログインしている可能性があります．VPNに接続するユーザ以外はログオフしてください．
-
 
 #### Q. VPN接続時にもローカルにあるプリンタを利用したい
 
@@ -192,14 +195,9 @@ UTokyo VPN接続時は，そのままだとコンピュータの繋がってい�
 </li>
 </ul>
 
-
-
-
-
-
 ### 利用について
 
-#### Q. 利用対象者は「UTokyo Accountを持つ本学教職員」とあるが，本学雇用者という事か．それとも，派遣職員や客員研究員等，本学で勤務または研究している者も含まれるか
+#### Q. 利用対象者は「UTokyo Accountを持つ本学構成員（教職員および学生）」とあるが，本学の学生と雇用者に限られるという事か．それとも，派遣職員や客員研究員等，本学で勤務または研究している者も含まれるか
 
 - 派遣職員や客員研究員等，本学で勤務または研究している者も含まれます．
 
