@@ -6,6 +6,9 @@ title: UTokyo Antivirus Licenseの利用方法 (macOS)
 
 すでに別のアンチウイルスソフトウェアがインストールされていると新たにインストールできない場合があります．先にアンインストールしてから手順を実行してください．
 
+## インストール方法
+{:#install}
+
 1. [こちらのリンク](https://univtokyo.sharepoint.com/:u:/s/antivirus/EUB-3pO4d_9Jvcz-28s-A2QBpI08UNxT9rsbiBr8WqDj7Q)にアクセスしてください（UTokyo Accountでのサインインが必要です）．
 1. 以下のような画面が表示されたら，上のリボンから「ダウンロード」を押してダウンロードしてください． 
 ![ダウンロード画面](1_download.png){:.small}
@@ -35,3 +38,8 @@ title: UTokyo Antivirus Licenseの利用方法 (macOS)
 ![コンソール; 起動](11_update_start.png){:.small}
 1. アップデートが終わり，以下のような画面が出たら，準備は終了です．
 ![コンソール; アップデート終了](12_update_end.png){:.small}
+
+## アンインストール方法
+{:#uninstall}
+
+準備中です．
