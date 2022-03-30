@@ -169,7 +169,7 @@ This is a web conferencing system used for some “simultaneous interactive” c
 ## Others
 
 - Information about classes, such as timetables and class registration procedures, will be provided by the faculty or graduate school. Please be aware of how you will be informed of such information and check it regularly (if you are uncertain or have any questions, contact your faculty or graduate school).
-- **Anti-virus software**: The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". As part of the countermeasures, a comprehensive license for antivirus software will be provided from April 1, 2022 (scheduled), so please use it as needed.
+- **[Antivirus software](/antivirus/)** (in Japanese): Starting April 1, 2022, the Comprehensive Antivirus Software License (UTokyo Antivirus License) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
 - **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**: The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
 
 ## More information

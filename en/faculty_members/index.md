@@ -196,7 +196,7 @@ For further details on usage, please see the “**[EZproxy](https://www.lib.u-to
 
 ### Antivirus Software
 
-The University of Tokyo requires “appropriate antivirus measures” for computers in the “[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)”. As part of the countermeasures, a comprehensive license for antivirus software will be provided from April 1, 2022 (scheduled), so please use it as needed.
+Starting April 1, 2022, [the Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
 
 ### UTokyo VPN
 
