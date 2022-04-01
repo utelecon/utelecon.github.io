@@ -1,10 +1,10 @@
 ---
-title: UTokyo Antivirus License
+title: ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)
 ---
 
 ## はじめに
 
-2022年4月1日（予定）より，UTokyo Antivirus License（UTokyo ウイルス対策ソフトウェア包括ライセンス）を提供します．
+2022年4月1日より，ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) を提供します．
 
 東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として適宜利用してください．
 
