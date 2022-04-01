@@ -9,6 +9,7 @@ title: UTokyo Antivirus License
 東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として適宜利用してください．
 
 ## 概要
+{:#about}
 
 必ず[東京大学ウイルス対策ソフトウエア包括ライセンス利用内規](terms/terms-of-antivirus-licence.pdf)をお読みください．
 
@@ -24,10 +25,20 @@ title: UTokyo Antivirus License
   * 大学所有の端末については，[UTNETのページ（学内アクセス限定）](https://www.nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
 * サポート：[uteleconのサポート窓口](/support/)
 
-ただし，以下の部局の方については，[UTNETのページ（学内アクセス限定）](https://www.nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
-* …
+ただし，以下の部局の方については，[こちらのファイル（UTokyo Accountでのサインインが必要です）](https://univtokyo.sharepoint.com/:b:/s/antivirus/EQG6luOQstlIsuyyKK2z8I0BKPcbyhass4bYg5cqMkmmpA)にある窓口にお問い合わせください．
+* 社会科学研究所
+* 工学系研究科・工学部
+* 情報理工学系研究科
+* 工学系・情報理工学系等事務部が事務を所管する大学直下の組織
+* 地震研究所
+* 教育学研究科・教育学部
+* カブリ数物連携宇宙研究機構
+* 史料編纂所
 
 ## 利用方法
+{:#how-to-use}
+
+[概要](#about)に記載の部局については，利用方法についてもそちらの窓口にお問い合わせください．
 
 ### インストール
 
