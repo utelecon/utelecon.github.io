@@ -183,13 +183,13 @@ title: クラスサポーター制度のご案内
 **教員からの依頼を受けてクラスサポーターになる場合**　　　<br>
 1. 教員の申請後に届く，謝金支払い情報フォームに到着後1週間をめどに，速やかに必要事項を記入します．<br>
 ※支払いには，学生証・口座情報・マイナンバー・留学生は在留カードと資格外活動許可書が必要です．必ず準備してから必要事項を入力してください．
-1. <a href="https://utelecon.adm.u-tokyo.ac.jp/★★★★★★★★★" target="_blank">制度理解のため、クラスサポーター制度研修資料</a>を読み、クラスサポーターの流れ、全体を確認します．
+1. <a href="https://drive.google.com/file/d/1bGzESYskaSerVURdrugYMiFSFwpvu0te/view?usp=sharing" target="_blank">制度理解のため、クラスサポーター制度研修資料</a>を読み、クラスサポーターの流れ、全体を確認します．
 <br>
 過去にクラスサポーターの経験があり、研修動画を視聴されたことがある場合も一部変更箇所があるため一読が必要です（2022年度から研修動画の視聴はなくなりました）**<span style="color:red;">この作業はクラスサポーター業務10時間に含まれません．（2022年度から研修動画の視聴はなくなりました）</span>**
 <br>
-<a href="https://utelecon.adm.u-tokyo.ac.jp/★★★★★★★★★" target="_blank"><span style="color:blue;">【クラスサポーター制度研修資料】</span></a>
+<a href="https://drive.google.com/file/d/1bGzESYskaSerVURdrugYMiFSFwpvu0te/view?usp=sharing" target="_blank"><span style="color:blue;">【クラスサポーター制度研修資料】</span></a>
 <br>
-<a href="https://utelecon.adm.u-tokyo.ac.jp/★★★★★★★★★" target="_blank"><span style="color:blue;">【オンライン授業をスムーズに行うコツ】</span></a>
+<a href="https://drive.google.com/file/d/1bGzESYskaSerVURdrugYMiFSFwpvu0te/view?usp=sharing" target="_blank"><span style="color:blue;">【オンライン授業をスムーズに行うコツ】</span></a>
 ：2020年5月に行われたクラスサポーター制度説明会の中で 学生がグループになりどういうサポートしたか、困った事、こんな事があった 等を情報共有してもらったものをまとめたものです。
 <br>
 1. 謝金の支払い
