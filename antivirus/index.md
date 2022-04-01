@@ -48,7 +48,7 @@ title: ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivir
   * [Windows・Windows Server](windows/#install)
   * [macOS](macos/#install)
 * Mobile Security (Android, iOS・iPadOS)
-  * <s>準備中です．</s> 提供は予定の4/1から延期されました．可能な限り早期の提供を目指しますが，時期は未定です．
+  * 提供は予定の4/1から延期されました．可能な限り早期の提供を目指しますが，時期は未定です．
 * Server Protect for Linux
   * [こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhBCCCVVuSxhHuBb1A09B1RpUQkdXUzQ0TUdFSzk4RU1aUzNKUkRFVjEyTC4u) (Microsoft Forms; UTokyo Accountでのサインインが必要です) に回答し，送信後に出てくる手順に従ってください．
 
@@ -58,8 +58,7 @@ title: ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivir
   * [Windows・Windows Server](windows/#uninstall)
   * [macOS](macos/#uninstall)
 * Mobile Security (Android, iOS・iPadOS)
-  * <s>準備中です．</s> 提供は予定の4/1から延期されました．可能な限り早期の提供を目指しますが，時期は未定です．
+  * 提供は予定の4/1から延期されました．可能な限り早期の提供を目指しますが，時期は未定です．
 * Server Protect for Linux
-  * 準備中です．
 
 <!-- ## FAQ -->
