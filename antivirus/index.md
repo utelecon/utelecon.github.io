@@ -59,6 +59,5 @@ title: ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivir
   * [macOS](macos/#uninstall)
 * Mobile Security (Android, iOS・iPadOS)
   * 提供は予定の4/1から延期されました．可能な限り早期の提供を目指しますが，時期は未定です．
-* Server Protect for Linux
 
 <!-- ## FAQ -->
