@@ -1,29 +1,25 @@
 ---
-title: Preparing for online classes at the University of Tokyo (for new students)
+title: Preparing for Online Classes at the University of Tokyo (for New Students)
 slug: oc # 手順を外部ファイルからincludeするときに使う
 lang: en
 ---
 
-<!--
-
 ## Introduction
 
-Congratulations everyone, welcome to your new school.
+Congratulations to all the new students!
 
-In order to prevent the spread of COVID-19, our university has introduced online classes since the 2020 academic year. In this 2021 academic year, we will begin hybrid educational activities and incorporate face-to-face classes as much as possible after taking sufficient infection prevention measures.
+In AY2022, we plan to provide education incorporating face-to-face classes as much as possible, while taking sufficient infection prevention measures. On the other hand, the online classes realized as a countermeasure against coronavirus infections have shown educational effects that cannot be obtained in conventional face-to-face lectures. Therefore, the University of Tokyo plans to construct a new educational system and improve its educational activities by actively incorporating online classes into its teaching methods.
 
-We received positive feedback from students last year in a survey regarding their online learning experiences, owing to the effort spare on lesson delivery and other considerations. It is reported that certain features and educational effects, in which face-to-face instruction lacks, are realized in online classes. We will continue to strive for excellence in online teaching in the academic year 2021/22.
+This year, we will introduce BYOD (Bring Your Own Device), which allows students to bring their own laptops and other devices to the university for study. Recommended specifications will be provided in advance, so please prepare your own laptop computer and other devices for class. The University of Tokyo is continuing to improve the ICT environment on campus, including the installation of a Wi-Fi environment and more power supplies amid the Corona disaster. In addition, we are developing hybrid classes and teaching methods using virtual reality (virtual reality space). With these new initiatives, we intend to further enhance our traditional face-to-face classes and proactively incorporate next-generation educational systems that take advantage of digital transformation (DX). These initiatives are a challenge for the University of Tokyo, and we hope that not only faculty members but also participating students will actively participate in them with the spirit of ushering in a new era.
 
-In this portal, we have made appropriate preparations to realize better online classes and to utilize our past experiences to achieve higher educational effect, making full use of the  feedback, requests and ideas from students and faculty members of the University of Tokyo. We hope that this page will help you to start your university activities smoothly.
+For an overview of these efforts, the University of Tokyo has set up an online class portal site called utelecon (https://utelecon.adm.u-tokyo.ac.jp/), which you are encouraged to visit frequently. The site also includes a chat window for questions, as well as a function to collect opinions, requests, and ideas from faculty, staff, and students. You will also find a variety of information, including past experiences, ideas, and FAQs. This page will help you get started smoothly with your university activities.
 
-We, the faculty and staff of the University of Tokyo, would like to live up to your wishes so that you can enjoy face-to-face classes and campus activities without any anxiety, while protecting your health and prioritising secured academic opportunities. We will engage to ensure that you can effectively complete your study and have a fulfilling student life.
+Our faculty and staff are committed to accommodating your wishes so that you can comfortably attend face-to-face classes and campus activities, while placing the highest priority on protecting your health and ensuring that you have the opportunity to study. We will do our best to ensure that you can effectively pursue the studies you desire and lead a fulfilling student life.
 
 <div style="text-align: right;">
-Director and Vice President (Education and Information Systems)<br>
-Tatsuya OKUBO
+Executive Director and Vice President (Education and Information Systems)<br>
+OHTA Kunihiro
 </div>
-
--->
 
 ## What type of online classes will be held at the University of Tokyo?
 
@@ -173,7 +169,7 @@ This is a web conferencing system used for some “simultaneous interactive” c
 ## Others
 
 - Information about classes, such as timetables and class registration procedures, will be provided by the faculty or graduate school. Please be aware of how you will be informed of such information and check it regularly (if you are uncertain or have any questions, contact your faculty or graduate school).
-- **Anti-virus software**: The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". As part of the countermeasures, a comprehensive license for antivirus software will be provided from April 1, 2022 (scheduled), so please use it as needed.
+- **[Antivirus software](/antivirus/)** (in Japanese): Starting April 1, 2022, the Comprehensive Antivirus Software License (UTokyo Antivirus License) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
 - **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**: The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
 
 ## More information

@@ -1,6 +1,18 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2022-04-01
+  content: "[ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)](/antivirus/)の提供を開始します．"
+  important: true
+-
+  date: 2022-03-28
+  content: "[クラスサポーター制度受付開始について](/supporters/class_2022)"
+  important: true
+-
+  date: 2022-03-28
+  content: "[UTokyo VPNの学生への提供開始について](/notice/2022/utokyo_vpn-for-students)"
+  important: true
+-
   date: 2022-03-01
   content: "(教員用) 3/16 15:00から，[説明会「オンライン授業だけじゃない！　教育研究用ICT・オンライン会議ツールの説明会」](/events/2022-03-16/)を開催いたします．"
   important: true
@@ -17,6 +29,7 @@
 -
   date: 2021-11-10
   content: "[Zoomのアップデートポリシー変更および機能拡張の有効化等について](/notice/20211110-zoom)"
+  important: true
 -
   date: 2021-10-30
   content: "10月31日で、[クラスサポーターの申請](/supporters/class_2021)が終了します．"
@@ -37,7 +50,6 @@
 -
   date: 2021-09-02
   content: "[Aセメスターのクラスサポーター制度申し込みを開始しました](/supporters/class_2021)"
-  important: true
 -
   date: 2021-09-01
   content: "[2021年9月27日からUTokyo Accountに多要素認証を導入します](/utokyo_account/mfa/)"

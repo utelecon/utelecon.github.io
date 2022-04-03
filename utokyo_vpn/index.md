@@ -7,16 +7,16 @@ title: UTokyo VPN
 
 
 
-UTokyo VPNは東京大学全学の教職員が利用できるVPNサービスです．学外で端末からUTokyo VPNに接続すると，その端末は情報基盤センターに設置されたVPNゲートウェイを経由して通信を行うようになり，端末は仮想的に東京大学キャンパスネットワークであるUTNETに接続されている状態になります．
+UTokyo VPNは東京大学全学の構成員（教職員および学生）が利用できるVPNサービスです．学外で端末からUTokyo VPNに接続すると，その端末は情報基盤センターに設置されたVPNゲートウェイを経由して通信を行うようになり，端末は仮想的に東京大学キャンパスネットワークであるUTNETに接続されている状態になります．
 
 UTokyo VPNを利用するには，まず自身の端末にVPNクライアントアプリケーションであるAnyConnectをインストールします．インストールしたアプリケーションを起動すると，UTokyo Accountの認証を経てVPNゲートウェイに接続し，端末からの通信がVPN経由でUTNETを通じて外部と通信するようになります．
 
 ## 利用にあたって
 {:#note}
 
-**利用対象者:** UTokyo Accountを持つ東京大学 教職員 <span style="color: red; ">(現在学生への提供に向けて準備中です)</span>
+**利用対象者:** UTokyo Accountを持つ東京大学 構成員（教職員・学生） <span style="color: red; ">学生への提供を開始しました。</span>
 
-**情報セキュリティ教育:** [情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を受講しないと，UTokyo VPNを利用することはできません．毎年度実施される情報セキュリティ教育を受講しなかった場合は`jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` (`__at__`は@に変更)へ連絡してください．
+**情報セキュリティ教育:** 東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，UTokyo VPNの利用資格を停止します．**なお，未受講者への対応に関するお問い合わせは， `jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` （`__at__`は@に変更）にて受け付けております．
 
 **多要素認証の有効化:** UTokyo VPNを利用するためには，UTokyo Accountの多要素認証を有効にする必要があります．[Utokyo Accountにおける多要素認証の利用について](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください<span style="color: red; ">(多要素認証を申請して40分が経過するとUTokyo VPNが利用可能となります)．</span>
 
@@ -77,15 +77,10 @@ UTokyo VPN接続時は，そのままだとコンピュータの繋がってい�
 </li>
 </ul>
 
-
-
-
-
-
 ### 利用について
 {:#faq-use}
 
-#### Q. 利用対象者は「UTokyo Accountを持つ本学教職員」とあるが，本学雇用者という事か．それとも，派遣職員や客員研究員等，本学で勤務または研究している者も含まれるか
+#### Q. 利用対象者は「UTokyo Accountを持つ本学構成員（教職員および学生）」とあるが，本学の学生と雇用者に限られるという事か．それとも，派遣職員や客員研究員等，本学で勤務または研究している者も含まれるか
 
 - 派遣職員や客員研究員等，本学で勤務または研究している者も含まれます．
 
@@ -112,11 +107,10 @@ UTokyo VPN接続時は，そのままだとコンピュータの繋がってい�
 
 - 可能です．
 
-## 規定
-{:#terms}
+## 規程
 
-- [UTokyo VPN利用規定](terms/UTokyoVPN-User-Term.pdf)
-- [UTokyo VPN運用規定](terms/UTokyoVPN-Operation-Term.pdf)
+- [UTokyo VPN利用規程](terms/UTokyoVPN-User-Term.pdf)
+- [UTokyo VPN運用規程](terms/UTokyoVPN-Operation-Term.pdf)
 
 
 ## お問合せフォーム

@@ -31,7 +31,7 @@ UTokyo Accountサインインではないアカウント（ECCSクラウドメ�
 上記の方法ではなくUTokyo Accountを使う新しいサインイン方法を使ってしまうと，UTokyo Account用の別のZoomアカウントが新しく作成されてそちらにサインインしてしまうため，このような現象が発生します．一度サインアウトして，Zoomの通常のサインインページ <a href="https://zoom.us/signin">https://zoom.us/signin</a> からこれまで利用していたメールアドレスとZoom専用のパスワードでサインインしてみてください．
 </details>
 
-### 10桁の共通IDのアカウントへの変更手順
+### UTokyo Accountサインインへの変更手順
 {:#change-procedure}
 
 お使いのアカウントのメールアドレスが，ECCSクラウドメールの自分で設定したメールアドレス (`xxxx@g.ecc.u-tokyo.ac.jp`) の場合は， **[専用の移行サイト](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home)** を利用してワンストップで移行できます．移行サイトの指示に従って作業してください．移行が完了するとUTokyo Accountでのサインインが可能になりますので，今後は[Zoomのサインインの仕方](/zoom/zoom_signin)のページに書かれている手順でサインインしてご利用ください．

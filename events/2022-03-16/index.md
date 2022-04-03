@@ -13,21 +13,21 @@ title: "2022/03/16 説明会「オンライン授業だけじゃない！　教�
 - **日時**：2022/3/16(水) 15:00-17:00 (終了後も質問を受け付けます)
 - **場所**：オンライン (Zoomウェビナー; 下の「参加申込み」からお申し込みください)
 - **資料・録画**：このページで提供します.
-- **質疑応答**：オンラインツール「LearnWiz One」を利用して受け付けます. <a href="https://app.one.learnwiz.jp/ja/topic/utelecon20220316" style="word-break: break-all;">https://app.one.learnwiz.jp/ja/topic/utelecon20220316</a> から質疑応答用ページへアクセスしてください<!--([説明と使い方](slides/qa.pdf))-->.
-    - <small>LearnWiz Oneにトラブルがあった場合はSlidoで受け付けます. <a href="https://app.sli.do/event/tgEEMDQot8CP3hGxsCjhip" style="word-break: break-all;">https://app.sli.do/event/tgEEMDQot8CP3hGxsCjhip</a> (またはイベントコード `#utelecon20220316` )からアクセスしてください. (参考: [Slidoの使い方ページ](/slido/))</small>
 
 ## 内容（予定）
 
-資料は当日までに(直前まで更新中), 録画は後日アップされます. 録画の閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です.
+資料は当日までに(直前まで更新中), 録画は後日アップされます（3/16 掲載しました）. 録画の閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です.　もしエラーとなって見られなかった場合は、[学内構成員限定のYouTubeコンテンツを視聴する](https://www.sodan.ecc.u-tokyo.ac.jp/hack/watching-youtube-contents-limited-to-utokyo-members/)をご確認ください。
 
-- 挨拶　太田邦史　副学長・執行役　情報システム本部長
-- 目次 <!--(**[資料](slides/00-index.pdf)**・**[質疑応答の説明](slides/qa.pdf)**・**[質疑応答用ページ](https://app.one.learnwiz.jp/ja/topic/utelecon20220316)**)-->
-    1. オンライン授業関連方針と制度 (10分 田浦<!--; **[資料](slides/01-rules.pdf)**・**[動画](https://youtu.be/...)**-->)
-    1. 授業における情報システム利用の基礎 (30分 柴山<!--; **[資料](slides/02-ICT-systems.pdf)**・**[動画](https://youtu.be/...)**-->)
-    1. 全学サービスの全体像 (15分 田浦<!--; **[資料](slides/03-overview.pdf)**・**[動画](https://youtu.be/...)**-->)
-    1. セキュリティと在宅勤務 (15分 玉造<!--; **[資料](slides/04-xxx.pdf)**・**[動画](https://youtu.be/...)**-->)
-    1. 教育研究における一歩進んだICT活用に向けて (20分 鈴木<!--; **[資料](slides/05-utelecon_and_supporters.pdf)**・**[動画](https://youtu.be/...)**-->)
-- 意見交換: オンラインツール「LearnWiz One」を利用しておこないます<!--(**[資料](slides/discussion.pdf)**)-->.
+質疑応答は, オンラインツール「LearnWiz One」を利用して受け付けます. **[質疑応答用ページ](https://app.one.learnwiz.jp/ja/topic/utelecon20220316)** から質問してください([説明と使い方](slides/qa.pdf)). <br><small>※LearnWiz Oneにトラブルがあった場合は[Slidoで受け付けます](https://app.sli.do/event/tgEEMDQot8CP3hGxsCjhip)(参考: [Slidoの使い方ページ](/slido/)).</small>
+
+- 挨拶　太田邦史　副学長・執行役　情報システム本部長・**[動画](https://youtu.be/WWet3ra9XFs)**
+- 目次 (**[資料](slides/00-index.pdf)**)
+    1. オンライン授業関連方針と制度 (10分 田浦; **[資料](slides/01-rules.pdf)**・**[動画](https://youtu.be/0E3R8fB0yxs)**)
+    1. 授業における情報システム利用の基礎 (30分 柴山; **[資料](slides/02-ICT-systems.pdf)**・**[動画](https://youtu.be/p7HSeY4Xmk0)**)
+    1. 全学サービスの全体像 (20分 田浦; **[資料](slides/03-overview.pdf)**・**[動画](https://youtu.be/FV7j3yWR69E)**)
+    1. セキュリティと在宅勤務 (20分 玉造; **[資料](slides/04-security.pdf)**・**[動画](https://youtu.be/3ys2szRzQCg)**)
+    1. uteleconと学生によるサポート体制 (10分 鈴木; **[資料](slides/05-utelecon_and_supporters.pdf)**・**[動画](https://youtu.be/a7Ar494BocA)**)
+- 意見交換: オンラインツール「LearnWiz One」を利用しておこないます(**[資料](slides/discussion.pdf)**・**[動画](https://youtu.be/dRL9hE-42nM)**).
 
 ### 話者
 
@@ -42,4 +42,4 @@ title: "2022/03/16 説明会「オンライン授業だけじゃない！　教�
 
 ## 事後アンケート
 
-準備中です。
+[アンケートページ](https://forms.office.com/r/3gWpXze9gi)からご回答ください。

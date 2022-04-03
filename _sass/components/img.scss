@@ -1,6 +1,7 @@
 img {
   display: block;
   max-height: 40rem;
+  max-width: 100%;
 }
 
 img.large {
@@ -23,6 +24,19 @@ img.inline {
 img.logo {
   display: inline;
   max-height: 2em;
+}
+
+img.border {
+  border: 1px solid currentcolor;
+  & + img.border {
+    margin-top: 0.5em;
+  }
+}
+
+img.shadow {
+  box-shadow: 0 0 0.75em 0.75em white inset;
+  padding: 1em;
+  background: $gray;
 }
 
 figure {

@@ -8,14 +8,14 @@ title: Scheduling a Zoom Meeting (Web Portal)
 This section provides information on how to schedule a Zoom Meeting from the Zoom webpage.
 
 1. Access to your [Zoom My Account page](https://zoom.us/profile) from a web browser. Click “Schedule a Meeting” on the top right corner of the page. 
-![](/zoom/img/zoom_create_1.png){:.medium}  
+![](img/zoom_create_1.png){:.medium}  
 
 2. Select the meeting options and click “Save” to finish scheduling your meeting. For supplementary explanation on the meeting options, see [“Zoom Meeting Options”](#settings).
-![](/zoom/img/zoom_create_2.png){:.medium}  
-![](/zoom/img/zoom_create_3.png){:.medium}  
+![](img/zoom_create_2.png){:.medium}  
+![](img/zoom_create_3.png){:.medium}  
 
 3. After saving, copy and send out **the invite link** to participants via email.  
-![](/zoom/img/zoom_create_4.png){:.medium}  
+![](img/zoom_create_4.png){:.medium}  
   * **The password information is included in the URL** by default. Therefore, sharing the password separately is not required.
   * The text obtained by clicking “Copy Invitation” contains unnecessary information such as how to join the meeting by dialing. We recommend that **you only share the URL of the meetings**, instead of copying the whole invitation.  
   * By clicking “Show all occurrences”, you can edit the date/time settings or add another session to the scheduled recurring meetings. (For example, while the recurring meeting is set on Tuesdays, another class would be held on Thursday).
@@ -26,11 +26,11 @@ This section provides information on how to schedule a Zoom Meeting from the Zoo
 Editing meeting options of scheduled Zoom meetings is possible.
 
 1. Access your [Zoom Meeting page](https://u-tokyo-ac-jp.zoom.us/meeting#/upcoming) from a web browser.
-![](/zoom/img/auth_meeting_1.png){:.medium} 
+![](img/auth_meeting_1.png){:.medium} 
 2. All scheduled meetings will be listed on the page. Click “Edit” on the right side of the meeting you would like to make changes to.
-![](/zoom/img/auth_meeting_2.png){:.medium}
+![](img/auth_meeting_2.png){:.medium}
 3. Edit the meeting options and click “Save”. The meeting will be scheduled. The URL for the meeting will remain the same if no changes were made to its Meeting ID and password.
-![](/zoom/img/zoom_create_3.png){:.medium}  
+![](img/zoom_create_3.png){:.medium}  
 
 ## Zoom Meeting Options
 {:#settings}

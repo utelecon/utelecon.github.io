@@ -18,7 +18,6 @@ Some options for taking attendance are:
 * Call the roll (suitable for smaller size classes using web conference systems). You might have the participants turn on cameras and confirm their identities.
 * Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/en/zoom/how/faculty_members/attendance" target="_blank"> Zoom for staff: Managing Attendance</a>.
 
-<a name="zoom"> </a>
 ## Zoom
 
 ### General Questions
