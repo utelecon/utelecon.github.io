@@ -65,8 +65,6 @@ title: iPhoneでUTokyo VPNを利用する
   <img src="img/iphone07-signin_.png" alt="anyconnect authentication window" style="margin:auto; width:95%; border:solid 1px black;" /></li>
 </ul>
 
-<img src="img/iphone01-app-store.png" alt="anyconnect in app store" style="margin:auto; border:solid 1px black;" />
-
 <details>
   <summary>この手順がうまくいかないときのヘルプ</summary>
   <ul>
