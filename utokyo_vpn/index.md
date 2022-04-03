@@ -28,6 +28,7 @@ UTokyo VPNを利用するには，まず自身の端末にVPNクライアント�
 
 
 ## VPNクライアントアプリケーションのインストール方法と使用方法
+{:#how-to-install-use}
 
 VPNクライアントアプリケーションを端末にダウンロード，インストール，そして実際に接続する方法をOSごとに説明しています．
 
@@ -38,8 +39,10 @@ VPNクライアントアプリケーションを端末にダウンロード，�
 * [iPhone端末でUTokyo VPNを利用する](iphone)
 
 ## FAQ
+{:#faq}
 
 ### VPNクライアントのインストールや接続時の問題
+{:#faq-install-connection}
 
 #### Q. 準備編 手順Aで「これに対するアクセス権がありません」または「You don't have access to this」というエラーが表示される
 
@@ -79,6 +82,7 @@ UTokyo VPN接続時は，そのままだとコンピュータの繋がってい�
 
 
 ### 利用について
+{:#faq-use}
 
 #### Q. 利用対象者は「UTokyo Accountを持つ本学教職員」とあるが，本学雇用者という事か．それとも，派遣職員や客員研究員等，本学で勤務または研究している者も含まれるか
 
@@ -108,11 +112,13 @@ UTokyo VPN接続時は，そのままだとコンピュータの繋がってい�
 - 可能です．
 
 ## 規定
+{:#terms}
 
 - [UTokyo VPN利用規定](terms/UTokyoVPN-User-Term.pdf)
 - [UTokyo VPN運用規定](terms/UTokyoVPN-Operation-Term.pdf)
 
 
 ## お問合せフォーム
+{:#inquiry-form}
 
 お問合せはこちらの [UTokyo VPN問い合わせフォーム](https://forms.office.com/r/U0R5L40D3e) からお願いいたします．
