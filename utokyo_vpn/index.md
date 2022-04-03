@@ -46,20 +46,21 @@ VPNクライアントアプリケーションを端末にダウンロード，�
 
 #### Q. 準備編 手順Aで「これに対するアクセス権がありません」または「You don't have access to this」というエラーが表示される
 
-- 多要素認証申請が完了していない可能性があります．[こちらのページ](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照して，UTokyo Accountの多要素認証を有効にしてください．
+<!-- 各OSの説明にも載せているので，コピーすることで編集の手間を省く -->
 
-#### Q. 準備編 手順Bでダウンロードページが表示されず，真っ白なページが表示される
+{% include utokyo_vpn/faq-prepare01.md %}
 
-- [こちらのページ](https://vpn1.adm.u-tokyo.ac.jp/+CSCOE+/logon.html?tgroup=utvpn-tunnel-group)にアクセスしてダウンロードをお試しください．
+#### Q. 準備編 手順Bでダウンロードページが表示されず，真っ白なページが表示される（Windows, MacOS）
+
+{% include utokyo_vpn/faq-prepare03.md %}
 
 #### Q. 準備編 手順Bで「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない
 
-- 情報セキュリティ教育を受講していない可能性があります．情報セキュリティ教育を受講していない場合，UTokyo VPNは利用できません．対応については本部情報環境課セキュリティ対策チーム `jouhousecurity.adm __at__ gs.mail.u-tokyo.ac.jp` (`__at__`を@に変更)にご自身のUTokyo Accountのユーザ名を添えてご連絡ください．
+{% include utokyo_vpn/faq-prepare02.md %}
 
-#### Q. 利用編 手順Dで「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない
+#### Q. 利用編 接続するときに「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない
 
-- UTokyo VPNに接続しようとしている端末で複数ユーザが同時にログインしている可能性があります．VPNに接続するユーザ以外はログオフしてください．
-
+{% include utokyo_vpn/faq-prepare04.md %}
 
 #### Q. VPN接続時にもローカルにあるプリンタを利用したい
 

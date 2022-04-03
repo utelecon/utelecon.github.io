@@ -13,6 +13,16 @@ title: Andorid端末でUTokyo VPNを利用する
 
 <img src="img/android01-play-store.png" alt="cisco systems inc. anyconnect" style="margin:auto; border:solid 1px black;" />
 
+<details>
+  <summary>この手順がうまくいかないときのヘルプ</summary>
+  <ul>
+    <li><strong>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</strong>：
+      {% include utokyo_vpn/faq-prepare01.md %}
+    </li>
+  </ul>
+  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+</details>
+
 **手順B:** インストールを終えてAnyConnectアプリを開くと，下の左のような画面が出るので内容を確認のうえ「OK」をタップしてください．下の右のような画面が出たらインストールは完了です．
 
 <ul style="display: flex;">
@@ -21,6 +31,16 @@ title: Andorid端末でUTokyo VPNを利用する
 <li style="list-style: none;">
   <img src="img/android03-install-2.png" alt="anyconnect home window" style="margin:auto; width:95%; border:solid 1px black;" /></li>
 </ul>
+
+<details>
+  <summary>この手順がうまくいかないときのヘルプ</summary>
+  <ul>
+    <li><strong>「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</strong>：
+      {% include utokyo_vpn/faq-prepare02.md %}
+    </li>
+  </ul>
+  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+</details>
 
 **手順C:** 上の画面で「接続」をタップし，続いて「新しいVPN接続の追加」をタップします．下図のような「接続エディタ」が表示されるので，「サーバ」をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
 
@@ -48,6 +68,15 @@ title: Andorid端末でUTokyo VPNを利用する
 
 <img src="img/android08-anyconnect-verify-window.png" alt="anyconnect verifying the connection" style="margin:auto; border:solid 1px black;" />
 
+<details>
+  <summary>この手順がうまくいかないときのヘルプ</summary>
+  <ul>
+    <li><strong>「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</strong>：
+      {% include utokyo_vpn/faq-prepare04.md %}
+    </li>
+  </ul>
+  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+</details>
 
 **手順F:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
