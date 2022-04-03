@@ -20,7 +20,7 @@ title: Windows端末でUTokyo VPNを利用する
       {% include utokyo_vpn/faq-prepare01.md %}
     </li>
   </ul>
-  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 **手順B:** ログインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for Windowsをクリックして，クライアントアプリケーションをダウンロードしてください．
@@ -41,7 +41,7 @@ title: Windows端末でUTokyo VPNを利用する
       {% include utokyo_vpn/faq-prepare02.md %}
     </li>
   </ul>
-  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 **手順C:** End User License Agreementでは，"I accept the terms in the License Agreement"を選択し，Nextを押すと次へ進みます．
@@ -81,7 +81,7 @@ title: Windows端末でUTokyo VPNを利用する
       {% include utokyo_vpn/faq-prepare04.md %}
     </li>
   </ul>
-  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 **手順G:** 手順2の後，下記のように「Connected: vpn1.adm.u-tokyo.ac.jp」と表示するウィンドウが出てくると，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由し，東京大学キャンパスネットワークに接続している状態で行われます．

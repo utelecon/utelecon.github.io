@@ -21,7 +21,7 @@ title: macOS端末でUTokyo VPNを利用する
       {% include utokyo_vpn/faq-prepare01.md %}
     </li>
   </ul>
-  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 **手順B:** ログインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for macOSをクリックして，クライアントアプリケーションをダウンロードしてください．
@@ -44,7 +44,7 @@ title: macOS端末でUTokyo VPNを利用する
       {% include utokyo_vpn/faq-prepare02.md %}
     </li>
   </ul>
-  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 **手順C:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウがでる場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また右のようなウィンドウが表示されますので，これも許可をしてください．
@@ -85,7 +85,7 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
       {% include utokyo_vpn/faq-prepare04.md %}
     </li>
   </ul>
-  これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 <img src="img/mac10-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
