@@ -2,7 +2,7 @@
 title: iPhoneでUTokyo VPNを利用する 
 ---
 
-このページでは，UTokyo VPNをiPhoneで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](..)」をご覧ください．
+このページでは，UTokyo VPNをiPhoneで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](.)」をご覧ください．
 
 ## 準備編: VPNクライアントアプリケーションの準備
 {:#utokyo-vpn-iphone-setup}

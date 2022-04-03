@@ -2,7 +2,7 @@
 title: macOS端末でUTokyo VPNを利用する 
 ---
 
-このページでは，UTokyo VPNをMacOSのコンピュータで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](..)」をご覧ください．
+このページでは，UTokyo VPNをMacOSのコンピュータで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](.)」をご覧ください．
 
 ## 準備編: VPNクライアントアプリケーションのインストール
 {:#utokyo-vpn-macos-setup}
@@ -10,7 +10,7 @@ title: macOS端末でUTokyo VPNを利用する
 まずはUTokyo VPNに接続するために必要なアプリケーションを端末にインストールします．
 
 **手順A:**
-[https://vpn1.adm.u-tokyo.ac.jp](https://vpn1.adm.u-tokyo.ac.jp) にアクセスします．下記のようにUTokyo Accountの認証ページが表示されたら，自身のUTokyo Accountでログインしてください．
+[https://vpn1.adm.u-tokyo.ac.jp](https://vpn1.adm.u-tokyo.ac.jp) にアクセスします．下記のようにUTokyo Accountの認証ページが表示されたら，ご自身のUTokyo Accountでログインしてください．
 
 <img src="img/mac01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
 
@@ -53,7 +53,7 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 
 <img src="img/mac08-app-window-connect.png" alt="anyconnect window" style="margin:auto; width:75%; border:solid 1px black;" />
 
-**手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたら自身のUTokyo Accountでログインしてください．
+**手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでログインしてください．
 
 <img src="img/mac10-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
 
