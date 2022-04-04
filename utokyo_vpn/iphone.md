@@ -13,16 +13,6 @@ title: iPhoneでUTokyo VPNを利用する
 
 <img src="img/iphone01-app-store.png" alt="anyconnect in app store" style="margin:auto; border:solid 1px black;" />
 
-<details>
-  <summary>この手順がうまくいかないときのヘルプ</summary>
-  <ul>
-    <li><strong>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</strong>：
-      {% include utokyo_vpn/faq-prepare01.md %}
-    </li>
-  </ul>
-  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
-
 **手順B:** インストールを終えてAnyConnectアプリを開くと，下の左図のような画面が出ることを確認します．これでインストールは完了です．なお，開く際に下の右図のように通知の送信について確認するウィンドウが表示されることがありますが，いずれを選択しても構いません．
 
 <ul style="display: flex;">
@@ -31,16 +21,6 @@ title: iPhoneでUTokyo VPNを利用する
 <li style="list-style: none;">
   <img src="img/iphone03-setup_home_popup_notify.png" alt="anyconnect notification" style="margin:auto; width:95%; border:solid 1px black;" /></li>
 </ul>
-
-<details>
-  <summary>この手順がうまくいかないときのヘルプ</summary>
-  <ul>
-    <li><strong>「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</strong>：
-      {% include utokyo_vpn/faq-prepare02.md %}
-    </li>
-  </ul>
-  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
 
 **手順C:** アプリを起動した直後の画面で左上の「接続」をタップし，続いて表示される画面で「VPN接続の追加」をタップすると，下図のようなウィンドウが表示されます．「サーバ」の横の入力欄をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
 
