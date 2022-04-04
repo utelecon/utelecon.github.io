@@ -14,11 +14,11 @@ UTokyo VPNを利用するには，まず自身の端末にVPNクライアント�
 ## 利用にあたって
 {:#note}
 
-**利用対象者:** UTokyo Accountを持つ東京大学 構成員（教職員・学生） <span style="color: red; ">学生への提供を開始しました。</span>
+**利用対象者:** UTokyo Accountを持つ東京大学 構成員（教職員・学生）
 
 **情報セキュリティ教育:** 東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，UTokyo VPNの利用資格を停止します．**なお，未受講者への対応に関するお問い合わせは， `jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` （`__at__`は@に変更）にて受け付けております．
 
-**多要素認証の有効化:** UTokyo VPNを利用するためには，UTokyo Accountの多要素認証を有効にする必要があります．[Utokyo Accountにおける多要素認証の利用について](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください<span style="color: red; ">(多要素認証を申請して40分が経過するとUTokyo VPNが利用可能となります)．</span>
+**多要素認証の有効化:** UTokyo VPNを利用するためには，UTokyo Accountの多要素認証を有効にする必要があります．[Utokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください<span style="color: red; ">(多要素認証は申請してからシステムに反映されるまで約40分必要です．申請してからVPNを設定できるようになるまでしばらくお待ちください)．</span>
 
 **利用できるコンピュータの種類:** UTokyo VPNに接続できるコンピュータは WindowsおよびmacOSの下記のバージョンです．iPhoneやAndroidなどのスマートフォンでも利用可能ですが，現時点ではマニュアル等のサポートは提供しておりません．
 - Windows: Windows 11，10，8.1
@@ -38,6 +38,9 @@ UTokyo VPNを利用するには，まず自身の端末にVPNクライアント�
 **手順A:** [https://vpn1.adm.u-tokyo.ac.jp](https://vpn1.adm.u-tokyo.ac.jp) にアクセスします．下記のようにUTokyo Accountの認証ページが表示されたら，自身のUTokyo Accountでログインしてください．
 
 <img src="img/win01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
+
+この手順で「これに対するアクセス権がありません」または「You don't have access to this」というエラーが表示される場合，UTokyo Accountの多要素認証の設定が完了していない可能があります．[Utokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください．
+
 
 **手順B:** ログインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for Windowsをクリックして，クライアントアプリケーションをダウンロードしてください．
 
@@ -103,6 +106,9 @@ VPNを切断する際は，このウィンドウの「Disconnect」ボタンを�
 
 <img src="img/mac01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
 
+この手順で「これに対するアクセス権がありません」または「You don't have access to this」というエラーが表示される場合，UTokyo Accountの多要素認証の設定が完了していない可能があります．[Utokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください．
+
+
 **手順B:** ログインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for macOSをクリックして，クライアントアプリケーションをダウンロードしてください．
 
 その後は他のmacOS用アプリケーションと同様にインストールします．
@@ -162,7 +168,7 @@ VPNを切断する際は，このウィンドウの「Disconnect」ボタンを�
 
 #### Q. 準備編 手順Aで「これに対するアクセス権がありません」または「You don't have access to this」というエラーが表示される
 
-- 多要素認証申請が完了していない可能性があります．[こちらのページ](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照して，UTokyo Accountの多要素認証を有効にしてください．
+- 多要素認証申請が完了していない可能性があります．[こちらのページ](/utokyo_account/mfa/)を参照して，UTokyo Accountの多要素認証を有効にしてください．
 
 #### Q. 準備編 手順Bでダウンロードページが表示されず，真っ白なページが表示される
 
@@ -172,7 +178,7 @@ VPNを切断する際は，このウィンドウの「Disconnect」ボタンを�
 
 - 情報セキュリティ教育を受講していない可能性があります．情報セキュリティ教育を受講していない場合，UTokyo VPNは利用できません．対応については本部情報環境課セキュリティ対策チーム `jouhousecurity.adm __at__ gs.mail.u-tokyo.ac.jp` (`__at__`を@に変更)にご自身のUTokyo Accountのユーザ名を添えてご連絡ください．
 
-#### Q. 準備編 手順Bで「ID, Password」を入力する画面が表示されるが、ID,Password を入れてもサインインできない　
+#### Q. 準備編 手順Bで「ID, Password」を入力する画面が表示されるが、ID,Password を入れてもサインインできない
 
 - 情報セキュリティ教育を受講していない可能性があります．情報セキュリティ教育を受講していない場合，UTokyo VPNは利用できません．対応については本部情報環境課セキュリティ対策チーム `jouhousecurity.adm __at__ gs.mail.u-tokyo.ac.jp` (`__at__`を@に変更)にご自身のUTokyo Accountのユーザ名を添えてご連絡ください．
 
