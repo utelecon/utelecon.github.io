@@ -51,9 +51,13 @@ title: Andorid端末でUTokyo VPNを利用する
 <details>
   <summary>この手順がうまくいかないときのヘルプ</summary>
   <ul>
+    <li><strong>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</strong>：
+      {% include utokyo_vpn/faq-prepare01.md %}
+    </li>
     <li><strong>「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</strong>：
       {% include utokyo_vpn/faq-prepare04.md %}
     </li>
+
   </ul>
   これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>

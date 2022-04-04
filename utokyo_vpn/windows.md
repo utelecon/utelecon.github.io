@@ -35,8 +35,6 @@ title: Windows端末でUTokyo VPNを利用する
     <li><strong>ダウンロードページが表示されず，真っ白なページが表示される場合</strong>：
       {% include utokyo_vpn/faq-prepare03.md %}
     </li>
-  </ul>
-  <ul>
     <li><strong>「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</strong>：
       {% include utokyo_vpn/faq-prepare02.md %}
     </li>
