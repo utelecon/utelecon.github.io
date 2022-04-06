@@ -14,11 +14,11 @@ UTokyo VPNを利用するには，まず自身の端末にVPNクライアント�
 ## 利用にあたって
 {:#note}
 
-**利用対象者:** UTokyo Accountを持つ東京大学 構成員（教職員・学生） <span style="color: red; ">学生への提供を開始しました。</span>
+**利用対象者:** UTokyo Accountを持つ東京大学 構成員（教職員・学生）
 
 **情報セキュリティ教育:** 東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，UTokyo VPNの利用資格を停止します．**なお，未受講者への対応に関するお問い合わせは， `jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` （`__at__`は@に変更）にて受け付けております．
 
-**多要素認証の有効化:** UTokyo VPNを利用するためには，UTokyo Accountの多要素認証を有効にする必要があります．[Utokyo Accountにおける多要素認証の利用について](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください<span style="color: red; ">(多要素認証を申請して40分が経過するとUTokyo VPNが利用可能となります)．</span>
+**多要素認証の有効化:** UTokyo VPNを利用するためには，UTokyo Accountの多要素認証を有効にする必要があります．[UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください<span style="color: red; ">(多要素認証は申請してからシステムに反映されるまで約40分必要です．申請してからVPNを設定できるようになるまでしばらくお待ちください)．</span>
 
 **利用できるコンピュータの種類:** UTokyo VPNに接続できるコンピュータは WindowsおよびmacOSの下記のバージョンです．iPhoneやAndroidなどのスマートフォンでも利用可能ですが，現時点ではマニュアル等のサポートは提供しておりません．
 - Windows: Windows 11，10，8.1
@@ -58,6 +58,10 @@ VPNクライアントアプリケーションを端末にダウンロード，�
 
 {% include utokyo_vpn/faq-prepare02.md %}
 
+#### Q. 準備編 手順Bで「ID, Password」を入力する画面が表示されるが、ID,Password を入れてもサインインできない（Windows，MacOS）
+
+{% include utokyo_vpn/faq-prepare02.md %}
+
 #### Q. 利用編 接続するときに「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない
 
 {% include utokyo_vpn/faq-prepare04.md %}
@@ -92,7 +96,7 @@ UTokyo VPN接続時は，そのままだとコンピュータの繋がってい�
 
 - 部局のサイトがどのようなアクセス制限をかけているかによるため，部局のサイト管理者にご確認ください．
 
-#### Q. 部局で提供しているVPNサービスと同じものになるのか
+#### Q. 部局で提供しているVPNサービスと同じものなのか
 - UTokyo VPNと，部局がそれぞれ独自に提供しているVPNサービスは基本的に無関係です．詳細は部局のネットワーク担当者にご確認ください．
 
 #### Q. UTokyo WiFiのアカウントのように半年ごとに新規のアカウント取得は必要か
