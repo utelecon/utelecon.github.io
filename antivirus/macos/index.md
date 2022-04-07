@@ -9,7 +9,7 @@ title: UTokyo Antivirus Licenseの利用方法 (macOS)
 
 複数のウイルス対策ソフトウェアがインストールされると不具合を起こす場合があります．すでにインストールされている別のウイルス対策ソフトウェアから切り替えたい場合は，先にそちらをアンインストールしてから手順を実行してください．
 
-1. [こちらのリンク](https://univtokyo.sharepoint.com/:u:/s/antivirus/EdZbkYKJ7TRGkZ3_mdCDcPUBwSFIlihBh4SiAd0xt8AjCA)にアクセスします（UTokyo Accountでのサインインが必要です）．
+1. [こちらのリンク](https://univtokyo.sharepoint.com/:u:/s/antivirus/EUB-3pO4d_9Jvcz-28s-A2QBpI08UNxT9rsbiBr8WqDj7Q)にアクセスします（UTokyo Accountでのサインインが必要です）．
 1. 以下のような画面が表示されたら，上のリボンから「ダウンロード」を押してダウンロードします． 
 ![ダウンロード画面](i_1_download.png){:.small}
 1. Finderでダウンロードしたファイルを解凍します．
@@ -66,7 +66,7 @@ Safariでの手順とFireFoxでの手順について，それぞれ説明しま�
 ## アンインストール方法
 {:#uninstall}
 
-1. [こちらのリンク](https://univtokyo.sharepoint.com/:u:/s/antivirus/EUB-3pO4d_9Jvcz-28s-A2QBpI08UNxT9rsbiBr8WqDj7Q)にアクセスします（UTokyo Accountでのサインインが必要です）．
+1. [こちらのリンク](https://univtokyo.sharepoint.com/:u:/s/antivirus/EdZbkYKJ7TRGkZ3_mdCDcPUBwSFIlihBh4SiAd0xt8AjCA)にアクセスします（UTokyo Accountでのサインインが必要です）．
 1. 以下のような画面が表示されたら，上のリボンから「ダウンロード」を押してダウンロードします． 
 ![ダウンロード画面](un_1_download.png){:.small}
 1. Finderでダウンロードしたファイルを解凍します．
