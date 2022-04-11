@@ -89,15 +89,15 @@ Below we will explain how to create a project.
 1. Press the "S" button at the top left of the screen, and then select "Create new project". The "Create new project" button may appear on the screen immediately after you create an account.
 2. Type any alphanumeric characters in the "Project name" field. It will be the sharing URL for students to view the articles in the project.
 3. Set the detailed items of the project.
-* **Project Publication Settings**: You can choose between "Public Project" and "Private Project". Each project has the following features.
-* Public Project
-    * This setting allows anyone who knows the public URL to view the project without authentication.
-	* By sharing an "invite link", which is different from the public URL, you can also grant writing access to the page.
-   	* It is also displayed in search results of Google and other search engines.
-* Private project
-    * Even if you know the project URL, users have no access rights cannot view the private project.
-   	* To access private projects, you need an invitation link distributed by the administrator.
-  * **"Upload image to"**: Select where you want to upload the image. Normally, you can select "scrapbox.io". The uploaded image will be saved on Scrapbox.
+   * **Project Publication Settings**: You can choose between "Public Project" and "Private Project". Each project has the following features.
+     * Public Project
+       * This setting allows anyone who knows the public URL to view the project without authentication.
+       * By sharing an "invite link", which is different from the public URL, you can also grant writing access to the page.
+       * It is also displayed in search results of Google and other search engines.
+     * Private project
+       * Even if you know the project URL, users have no access rights cannot view the private  project.
+       * To access private projects, you need an invitation link distributed by the administrator.
+   * **"Upload image to"**: Select where you want to upload the image. Normally, you can select "scrapbox.io". The uploaded image will be saved on Scrapbox.
 4. When you are done, click the green "Create" button.
 
 <figure>
