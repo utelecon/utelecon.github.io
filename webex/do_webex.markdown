@@ -26,7 +26,7 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 
 * ミーティング・ウェビナーに入ると下記のような画面になります．
 
-	![](img/webex_meeting_entryview.png)
+	![](img/webex_meeting_entryview.png){:.border}
 
 * 画面の下部にボタンが並んでいます．権限によってボタン自体が表示されなくなる，Webexのウィンドウの大きさによってボタンのラベルが表示されなくなるなど，見え方が異なることもあります．
 
@@ -49,7 +49,7 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 	
 「共有」を押すと，共有する画面の選択肢が出てきます．希望のものを選択して「共有」を押すと，画面の共有が始まります．
 
-![](img/webex_share.png)
+![](img/webex_share.png){:.border}
 	
 * 「**画面1**」を選択すると，共有する人の画面そのものが全員に共有されます（マルチモニタなどで画面が複数ある場合は画面1，画面2…と選択肢が増えます）．
 * 現在開いているウィンドウも選択肢に表示されます．ウィンドウ単位で画面共有することもできます．ウィンドウ以外の場所を見られたくない場合は，そのウィンドウを選択して画面共有することをおすすめします．
@@ -59,8 +59,8 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 ### 画面共有での注釈
 
 画面共有中にマウスを画面上部にスクロールすると，ミーティング・ウェビナーのコントロールメニューが出てきます．その中の「注釈」ボタンを押すとパレットが表示され，今表示している画面の上に線・矢印・四角形などを重ねて表示して共有することができます．注釈パレットの一番上のアイコンをクリックすると，他の参加者にもパレットが表示され，他の参加者も注釈を書くことができるようになります．簡単なYes/Noクエスチョンなどに利用できます．
-![](img/webex_control_in_share.jpg)
-![](img/webex_annotation_palette.jpg)
+![](img/webex_control_in_share.jpg){:.border}
+![](img/webex_annotation_palette.jpg){:.border}
 
 ホワイトボードの共有を開始すると，最初から注釈オン・参加者の注釈オンの状態になります．（必要に応じてオフにすることもできます．）
 
@@ -69,13 +69,13 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 
 ## スピーカー・マイク・カメラの詳細設定
 
-![](img/webex_config_sound.png){:width="300px"}
-![](img/webex_config_camera.png){:width="300px"}
+![](img/webex_config_sound.png){:.border}
+![](img/webex_config_camera.png){:.border}
 
 「ミュート」「カメラ」のボタンの右の矢印をクリックすると，Webexで利用するスピーカー・マイク・カメラを選択することができます．
 
-![](img/webex_config_sound_setting.png){:width="600px"}
-![](img/webex_config_camera_setting.png){:width="600px"}
+![](img/webex_config_sound_setting.png){:.border}
+![](img/webex_config_camera_setting.png){:.border}
 
 「設定」をクリックすると，選択とテストをすることができます．
 * **スピーカー** : 使いたいスピーカーを選択できます（別途スピーカーを付けている場合，複数の選択肢が出てくるため，目的のものを選択してください）．**「テスト」**をクリックすると確認音が流れます．
@@ -86,8 +86,8 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 
 「参加者」を押すと，参加者一覧が見られる画面が出てきます．
 
-![](img/webex_participants_host.png){:width="350px"}
-![](img/webex_participants_attendee.png){:width="350px"}
+![](img/webex_participants_host.png){:.border}
+![](img/webex_participants_attendee.png){:.border}
 
 左側が主催者側の様子，右側が参加者側の様子です．
 * **手のアイコン**： 主催者以外の参加者は手のアイコンを押すと「手を挙げている」ことになり，主催者にも手を挙げていることがわかります．上の図では，test attendeeが手を挙げています．
@@ -99,8 +99,8 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 
 主催者がSlidoを起動すると，Slidoの画面が表示されます．
 
-![](img/webex_slido_do_guest_poll_m.png){:width="350px"}
-![](img/webex_slido_do_guest_qa_m.png){:width="350px"}
+![](img/webex_slido_do_guest_poll_m.png){:.border}
+![](img/webex_slido_do_guest_qa_m.png){:.border}
 
 * 主催者がPollの操作をすると，投票タブにPollの回答画面が表示されます．
 * 質問などは，Q&Aタブで操作します．
@@ -111,7 +111,7 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 	
 「チャット」を押すと，テキストチャットができるようになります．自分が参加する以前のチャットの履歴は読むことができません．
 
-![](img/webex_chat.png){:width="350px"}
+![](img/webex_chat.png){:.border}
 	
 * **送信先**： 送信する相手を変更できます．「全員」を選択すれば全員に送信されます．
 
@@ -119,8 +119,8 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 
 「Q&A」を押すと，主催者・プレゼンター（・パネリスト：Webex Webinarsのみ）に質問を送ることができます．
 
-![](img/webex_qa_host.png)
-![](img/webex_qa_participant.png)
+![](img/webex_qa_host.png){:.border}
+![](img/webex_qa_participant.png){:.border}
 
 * 左側が主催者側の様子，右側が参加者側からの様子です．質問に対する回答が揃うと，両方が全参加者に共有されます．途中からイ
 ベントに参加した参加者も過去のQ&Aを読むことができます．
@@ -135,14 +135,14 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 
 参加者は，参加ボタンを押してセッションに移動することができます．終わったら，退出のボタンを押してメインミーティングに戻ることができます．（このあたりは，主催者によって行動が限定されている可能性があります．）
 
-![](img/webex_breakout_enter.png)
-![](img/webex_breakout_leave.png)
+![](img/webex_breakout_enter.png){:.border}
+![](img/webex_breakout_leave.png){:.border}
 
 ブレイクアウトセッション中では，メインミーティング同様に参加者同士がビデオ映像や画面を共有することができたり，チャットを送り合うことができます．（このあたりはブレイクアウトセッションでない部分と変わりません．）
 
 さらに，主催者にヘルプを求めることができます．ヘルプを求めると，主催者に通知され，主催者が自分のセッションに来てくれるかも知れません．主催者がいずれかのセッションに参加しているとヘルプを求めることができません．待ちましょう．
 
-![](img/webex_breakout_callhelp.png)
+![](img/webex_breakout_callhelp.png){:.border}
 
 主催者の操作については，[Webex 会議室でできること（開催者）](do_webex_host)をご覧ください．
 
@@ -152,7 +152,7 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 
 **End-to-End Encrypted Meetingでは，いったん会議室に入った参加者をロビーに送ることができません．**
 
-![](img/webex_lobby.png){:width="600px"}
+![](img/webex_lobby.png){:.border}
 
 <br>
 <br>

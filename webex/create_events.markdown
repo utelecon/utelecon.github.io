@@ -4,7 +4,7 @@ title: Webex ウェビナーを作成する
 
 <strong class="box">
 **ホーム画面左下の「Webex Events (classic)」から作成するWebex Events (classic)は，以下で説明されているWebex ウェビナーとは異なるもので，設定画面や利用できる機能等が異なります．**
-![Webex Eventsを表示する](img/webex_toppage_events.png){:width="700px"}
+![Webex Eventsを表示する](img/webex_toppage_events.png){:.border.medium}
 </strong>
 
 ## Webexウェビナーを作成する
@@ -18,34 +18,34 @@ title: Webex ウェビナーを作成する
 	* **パネリストパスワード**： パネリストがウェビナーに参加する時に必要となるパスワードです．任意の文字列が表示されていますが，変更可能です．
 	* **詳細設定を表示する**： 音声接続オプション，協議事項，スケジューリングオプションが設定できます．この中では，たとえば，自動で録画をはじめたり，参加者登録，リマインドメールの設定などができます．
 
-	![会議設定の画面](img/webex_events_setting.png)
+	![会議設定の画面](img/webex_events_setting.png){:.border}
 
 * 一通りの設定を終えて「スケジュール」ボタンを押すと，ウェビナー番号が作成されます．
 	* 出席者に入力したメールアドレスには招待メールが送信されます．
 	* 出席者に入力していない出席者にも，表示された参加リンク・ミーティング番号・パスワード等をメールで周知することができます．主催者キーは，主催者のみが知るべき番号なので，一般の出席者には周知すべきではありません．
 
-	![会議設定結果の画面](img/webex_events_description.png){:width="700px"}
+	![会議設定結果の画面](img/webex_events_description.png){:.border}
 
 
 ## Webexウェビナーを編集する
 
 作成したウェビナーの内容を編集するには，ホーム画面に表示されている該当のウェビナーを選択し，編集アイコンをクリックします．
-![](img/webex_home_list_webinar.jpg){:width="500px"}
-![](img/webex_edit_webinar.jpg){:width="600px"}
+![](img/webex_home_list_webinar.jpg){:.border.medium}
+![](img/webex_edit_webinar.jpg){:.border.medium}
 * ホーム画面には一週間以内に開催されるミーティング・ウェビナーが表示されます．それ以降のウェビナーを選択したい場合はホーム画面左の「カレンダー」をクリックして，日付を指定して検索します．
-![](img/webex_home_calendar.jpg){:width="500px"}
-![](img/webex_calendar.jpg){:width="600px"}
+![](img/webex_home_calendar.jpg){:.border.medium}
+![](img/webex_calendar.jpg){:.border.medium}
 
 ### 資料を配布する
 
 ウェビナーに資料を添付して，参加者に配布することができます．
 * スマートホン等で参加している参加者には配布できません．
 * ウェビナーの編集画面の「ウェビナー資料」の「編集」をクリックし，ファイルをアップロードします．
-![](img/webex_webinar_material_host1.png){:width="700px"}
-![](img/webex_webinar_material_host2.jpg){:width="500px"}
+![](img/webex_webinar_material_host1.png){:.border}
+![](img/webex_webinar_material_host2.jpg){:.medium.border}
 * 参加者は，招待URLにブラウザからアクセスしたときに表示されるページからファイルをダウンロードすることができます．
-![](img/webex_webinar_material_attendee1.jpg){:width="700px"}
-![](img/webex_webinar_material_attendee2.jpg){:width="500px"}
+![](img/webex_webinar_material_attendee1.jpg){:.border.medium}
+![](img/webex_webinar_material_attendee2.jpg){:.medium.border}
 
 <!--
 ### メールの文面をカスタマイズする
