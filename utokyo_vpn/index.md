@@ -37,6 +37,7 @@ VPNクライアントアプリケーションを端末にダウンロード，�
 * [Android端末でUTokyo VPNを利用する](android)
 * [iPad端末でUTokyo VPNを利用する](ipad)
 * [iPhone端末でUTokyo VPNを利用する](iphone)
+{:.cards}
 
 ## FAQ
 {:#faq}

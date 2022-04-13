@@ -13,10 +13,11 @@ main {
   font-size: 1.125rem;
   color: $text-color;
 
-  @import "components/box";
+  @import "components/link";
   @import "components/headings";
   @import "components/img";
-  @import "components/link";
+  @import "components/box";
+  @import "components/card";
 
   .alert {
     color: $red;
