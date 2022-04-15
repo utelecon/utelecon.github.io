@@ -47,7 +47,7 @@ title: クラスサポーター制度のご案内
   * <a href="https://forms.office.com/r/qJJkPymJPt" target="_blank">「クラスサポーター獲得報告フォーム」</a>：5月31日
   * <a href="https://forms.office.com/r/RJ3MhLNkHQ" target="_blank">「クラスサポーター割当希望フォーム」</a>：5月20日
   * <a href="https://forms.office.com/r/4d6fCUJTEs" target="_blank">「クラスサポーター志願フォーム」</a>：5月20日
-  
+
   （下記は申込後の返信にてお知らせします）
   * 謝金支払い情報フォーム：6月30日
   * 業務完了報告フォーム：9月15日
@@ -187,7 +187,7 @@ title: クラスサポーター制度のご案内
 1. マッチング成立後，詳細をご案内するメールが届きます．教員の条件に応じたマッチング（授業実施曜限など）を行うため，志望してもクラスサポーターとして割り当てられないこともある点ご了承ください．
 1. 教員の申請後に届く，謝金支払い情報フォームに到着後1週間をめどに，速やかに必要事項を記入します．
 ※支払いには，学生証・口座情報・マイナンバー・留学生は在留カードと資格外活動許可書が必要です．必ず準備してから必要事項を入力してください．
-2. 制度理解の為，<a href="https://drive.google.com/file/d/1bGzESYskaSerVURdrugYMiFSFwpvu0te/view?usp=sharing" target="_blank">クラスサポーター制度研修資料</a>を読み，クラスサポーターの流れ，全体を確認します．過去にクラスサポーターの経験があり，研修動画を視聴されたことがある場合も一部変更箇所がある為一読が必要です（2022年度から研修動画の視聴はなくなりました）**<span style="color:red;">この作業クラスサポーター業務10時間に含まれません．（2022年度から研修動画の視聴はなくなりました）</span>**
+2. 制度理解の為，<a href="https://drive.google.com/file/d/1bGzESYskaSerVURdrugYMiFSFwpvu0te/view?usp=sharing" target="_blank">クラスサポーター制度研修資料</a>を読み，クラスサポーターの流れ，全体を確認します．過去にクラスサポーターの経験があり，研修動画を視聴されたことがある場合も一部変更箇所があるため一読が必要です（2022年度から研修動画の視聴はなくなりました）**<span style="color:red;">この作業はクラスサポーター業務10時間に含まれません．（2022年度から研修動画の視聴はなくなりました）</span>**
   * <a href="https://drive.google.com/file/d/1bGzESYskaSerVURdrugYMiFSFwpvu0te/view?usp=sharing" target="_blank">【クラスサポーター制度研修資料】</a>
   * <a href="https://drive.google.com/file/d/1bGzESYskaSerVURdrugYMiFSFwpvu0te/view?usp=sharing" target="_blank">【オンライン授業をスムーズに行うコツ】</a>：2020年5月に行われたクラスサポーター制度説明会の中で学生がグループになりどういうサポートしたか，困った事，こんな事があった等を情報共有してもらったものをまとめたものです．
 
