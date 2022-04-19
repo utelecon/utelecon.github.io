@@ -296,7 +296,7 @@ If you are using the mobile version, click on the ![](20.png){:.logo} icon in th
 
 ## Tips: Notifying Updates to Chat Tools such as Slack
 By linking with Slack, you can check the updates of Scrapbox on Slack.
-For the basic use of Slack, please refer to "[How to communicate with students in Slack](/articles/slack-communication/)".
+For the basic use of Slack, please refer to "[How to communicate with students in Slack](/en/articles/slack-communication/)".
 
 1. Click the "S" button in the upper left corner of the screen to open the Notifications tab of the Project settings screen.
 2. Open the "Slack Notifications" link in the settings screen and create an "Incoming Webhook" in Slack Integration. (See [Using Incoming Webhook in Slack](https://slack.com/help/articles/115005265063-Incoming-webhooks-for-Slack)).
