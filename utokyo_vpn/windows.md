@@ -14,7 +14,7 @@ title: Windows端末でUTokyo VPNを利用する
 <img src="img/win01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
 
 <details>
-  <summary>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
+  <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
       {% include_relative _faq-prepare01.md %}
   それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
@@ -26,13 +26,13 @@ title: Windows端末でUTokyo VPNを利用する
 <img src="img/win02-download-page.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
 
 <details>
-  <summary>ダウンロードページが表示されず，真っ白なページが表示される場合</summary>
+  <summary>ヘルプ：ダウンロードページが表示されず，真っ白なページが表示される場合</summary>
       {% include_relative _faq-prepare03.md %}
   それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 <details>
-  <summary>「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</summary>
+  <summary>ヘルプ：「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</summary>
       {% include_relative _faq-prepare02.md %}
   それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
@@ -68,7 +68,7 @@ title: Windows端末でUTokyo VPNを利用する
 <img src="img/win09-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
 
 <details>
-  <summary>「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</summary>
+  <summary>ヘルプ：「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</summary>
       {% include_relative _faq-prepare04.md %}
   それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>

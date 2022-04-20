@@ -46,13 +46,13 @@ title: iPhoneでUTokyo VPNを利用する
 </ul>
 
 <details>
-  <summary>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
+  <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
       {% include_relative _faq-prepare01.md %}
   それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 <details>
-  <summary>「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</summary>
+  <summary>ヘルプ：「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</summary>
       {% include_relative _faq-prepare04.md %}
   それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
