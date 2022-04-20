@@ -49,23 +49,23 @@ VPNクライアントアプリケーションを端末にダウンロード，�
 
 <!-- 各OSの説明にも載せているので，コピーすることで編集の手間を省く -->
 
-{% include utokyo_vpn/faq-prepare01.md %}
+{% include_relative _faq-prepare01.md %}
 
 #### Q. 準備編 手順Bでダウンロードページが表示されず，真っ白なページが表示される（Windows，macOS）
 
-{% include utokyo_vpn/faq-prepare03.md %}
+{% include_relative _faq-prepare03.md %}
 
 #### Q. 準備編 手順Bで「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない（Windows，macOS）
 
-{% include utokyo_vpn/faq-prepare02.md %}
+{% include_relative _faq-prepare02.md %}
 
 #### Q. 準備編 手順Bで「ID, Password」を入力する画面が表示されるが、ID,Password を入れてもサインインできない（Windows，macOS）
 
-{% include utokyo_vpn/faq-prepare02.md %}
+{% include_relative _faq-prepare02.md %}
 
 #### Q. 利用編 接続するときに「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない
 
-{% include utokyo_vpn/faq-prepare04.md %}
+{% include_relative _faq-prepare04.md %}
 
 #### Q. VPN接続時にもローカルにあるプリンタを利用したい
 

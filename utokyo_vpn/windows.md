@@ -14,13 +14,9 @@ title: Windows端末でUTokyo VPNを利用する
 <img src="img/win01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
 
 <details>
-  <summary>この手順がうまくいかないときのヘルプ</summary>
-  <ul>
-    <li><strong>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</strong>：
-      {% include utokyo_vpn/faq-prepare01.md %}
-    </li>
-  </ul>
-  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+  <summary>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
+      {% include_relative _faq-prepare01.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 **手順B:** ログインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for Windowsをクリックして，クライアントアプリケーションをダウンロードしてください．
@@ -30,16 +26,15 @@ title: Windows端末でUTokyo VPNを利用する
 <img src="img/win02-download-page.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
 
 <details>
-  <summary>この手順がうまくいかないときのヘルプ</summary>
-  <ul>
-    <li><strong>ダウンロードページが表示されず，真っ白なページが表示される場合</strong>：
-      {% include utokyo_vpn/faq-prepare03.md %}
-    </li>
-    <li><strong>「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</strong>：
-      {% include utokyo_vpn/faq-prepare02.md %}
-    </li>
-  </ul>
-  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+  <summary>ダウンロードページが表示されず，真っ白なページが表示される場合</summary>
+      {% include_relative _faq-prepare03.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+</details>
+
+<details>
+  <summary>「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</summary>
+      {% include_relative _faq-prepare02.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 **手順C:** End User License Agreementでは，"I accept the terms in the License Agreement"を選択し，Nextを押すと次へ進みます．
@@ -73,14 +68,11 @@ title: Windows端末でUTokyo VPNを利用する
 <img src="img/win09-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
 
 <details>
-  <summary>この手順がうまくいかないときのヘルプ</summary>
-  <ul>
-    <li><strong>「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</strong>：
-      {% include utokyo_vpn/faq-prepare04.md %}
-    </li>
-  </ul>
-  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+  <summary>「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</summary>
+      {% include_relative _faq-prepare04.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
+
 
 **手順G:** 手順2の後，下記のように「Connected: vpn1.adm.u-tokyo.ac.jp」と表示するウィンドウが出てくると，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由し，東京大学キャンパスネットワークに接続している状態で行われます．
 

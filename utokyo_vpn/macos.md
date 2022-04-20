@@ -15,13 +15,9 @@ title: macOS端末でUTokyo VPNを利用する
 <img src="img/mac01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
 
 <details>
-  <summary>この手順がうまくいかないときのヘルプ</summary>
-  <ul>
-    <li><strong>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</strong>：
-      {% include utokyo_vpn/faq-prepare01.md %}
-    </li>
-  </ul>
-  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+  <summary>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
+      {% include_relative _faq-prepare01.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 **手順B:** ログインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for macOSをクリックして，クライアントアプリケーションをダウンロードしてください．
@@ -33,16 +29,15 @@ title: macOS端末でUTokyo VPNを利用する
 <img src="img/mac03-install-1.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
 
 <details>
-  <summary>この手順がうまくいかないときのヘルプ</summary>
-  <ul>
-    <li><strong>ダウンロードページが表示されず，真っ白なページが表示される場合</strong>：
-      {% include utokyo_vpn/faq-prepare03.md %}
-    </li>
-    <li><strong>「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</strong>：
-      {% include utokyo_vpn/faq-prepare02.md %}
-    </li>
-  </ul>
-  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+  <summary>ダウンロードページが表示されず，真っ白なページが表示される場合</summary>
+      {% include_relative _faq-prepare03.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+</details>
+
+<details>
+  <summary>「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</summary>
+      {% include_relative _faq-prepare02.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
 **手順C:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウがでる場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また右のようなウィンドウが表示されますので，これも許可をしてください．
@@ -77,14 +72,11 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 **手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでログインしてください．
 
 <details>
-  <summary>この手順がうまくいかないときのヘルプ</summary>
-  <ul>
-    <li><strong>「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</strong>：
-      {% include utokyo_vpn/faq-prepare04.md %}
-    </li>
-  </ul>
-  これらを確認して，それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+  <summary>「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</summary>
+      {% include_relative _faq-prepare04.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
+
 
 <img src="img/mac10-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
 
