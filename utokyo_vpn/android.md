@@ -1,5 +1,5 @@
 ---
-title: Andorid端末でUTokyo VPNを利用する 
+title: Android端末でUTokyo VPNを利用する 
 ---
 
 このページでは，UTokyo VPNをAndroid端末で利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](.)」をご覧ください．

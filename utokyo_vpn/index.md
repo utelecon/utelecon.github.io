@@ -45,21 +45,21 @@ VPNクライアントアプリケーションを端末にダウンロード，�
 ### VPNクライアントのインストールや接続時の問題
 {:#faq-install-connection}
 
-#### Q. 準備編 「これに対するアクセス権がありません」または「You don't have access to this」というエラーが表示される（Windows/MacOSは手順A，Android/iPad/iPhoneは手順E）
+#### Q. 準備編 「これに対するアクセス権がありません」または「You don't have access to this」というエラーが表示される（Windows/macOSは手順A，Android/iPad/iPhoneは手順E）
 
 <!-- 各OSの説明にも載せているので，コピーすることで編集の手間を省く -->
 
 {% include utokyo_vpn/faq-prepare01.md %}
 
-#### Q. 準備編 手順Bでダウンロードページが表示されず，真っ白なページが表示される（Windows，MacOS）
+#### Q. 準備編 手順Bでダウンロードページが表示されず，真っ白なページが表示される（Windows，macOS）
 
 {% include utokyo_vpn/faq-prepare03.md %}
 
-#### Q. 準備編 手順Bで「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない（Windows，MacOS）
+#### Q. 準備編 手順Bで「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない（Windows，macOS）
 
 {% include utokyo_vpn/faq-prepare02.md %}
 
-#### Q. 準備編 手順Bで「ID, Password」を入力する画面が表示されるが、ID,Password を入れてもサインインできない（Windows，MacOS）
+#### Q. 準備編 手順Bで「ID, Password」を入力する画面が表示されるが、ID,Password を入れてもサインインできない（Windows，macOS）
 
 {% include utokyo_vpn/faq-prepare02.md %}
 
@@ -98,6 +98,7 @@ UTokyo VPN接続時は，そのままだとコンピュータの繋がってい�
 - 部局のサイトがどのようなアクセス制限をかけているかによるため，部局のサイト管理者にご確認ください．
 
 #### Q. 部局で提供しているVPNサービスと同じものなのか
+
 - UTokyo VPNと，部局がそれぞれ独自に提供しているVPNサービスは基本的に無関係です．詳細は部局のネットワーク担当者にご確認ください．
 
 #### Q. UTokyo WiFiのアカウントのように半年ごとに新規のアカウント取得は必要か

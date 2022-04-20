@@ -2,7 +2,7 @@
 title: macOS端末でUTokyo VPNを利用する 
 ---
 
-このページでは，UTokyo VPNをMacOSのコンピュータで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](.)」をご覧ください．
+このページでは，UTokyo VPNをmacOSのコンピュータで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](.)」をご覧ください．
 
 ## 準備編: VPNクライアントアプリケーションのインストール
 {:#utokyo-vpn-macos-setup}
