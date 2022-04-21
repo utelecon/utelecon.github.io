@@ -17,6 +17,8 @@ title: UTokyo Microsoft License (Microsoft 365)
 
 ## 利用開始の手順
 
+利用には[UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（学生向け）[オンライン授業を受けるために](/oc/)」「（教職員向け）[オンライン授業を始めるために](/faculty_members)」を確認してください．
+
 {% include procedures/microsoft.html %}
 
 ## 注意事項・FAQ等
