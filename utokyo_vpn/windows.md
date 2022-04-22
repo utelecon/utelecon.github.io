@@ -21,8 +21,6 @@ title: Windows端末でUTokyo VPNを利用する
 
 **手順B:** サインインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for Windowsをクリックして，クライアントアプリケーションをダウンロードしてください．
 
-その後は他のWindows用アプリケーションと同様にインストールします．
-
 <img src="img/win02-download-page.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
 
 <details>
@@ -37,7 +35,17 @@ title: Windows端末でUTokyo VPNを利用する
   それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
-**手順C:** End User License Agreementでは，"I accept the terms in the License Agreement"を選択し，Nextを押すと次へ進みます．
+<details>
+  <summary>ヘルプ：「USERNAME」と「PASSWORD」を入力する画面が表示され，UTokyo AccountのIDとパスワードを入力してもサインインできない場合</summary>
+      {% include_relative _faq-prepare02.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+</details>
+
+その後はダウンロードしたファイルを開き，他のWindows用アプリケーションと同様にインストールします．もし以下のようなMicrosoft Storeの画面が開いたら，「Microsoft Store 以外からのインストールを続行する」を選択してください．  
+
+<img src="img/win12-install-0.png" alt="microsoft store" style="margin:auto; width:75%; border:solid 1px black;" />
+
+**手順C:** 以下のセットアップウィザードの画面に従って，インストールを進めます．End User License Agreementではその内容を確認の上，"I accept the terms in the License Agreement"を選択し，Nextを押すと次へ進みます．
 
 <ul style="display: flex;">
 <li style="list-style: none;">
