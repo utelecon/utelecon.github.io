@@ -4,12 +4,12 @@ title: Android端末でUTokyo VPNを利用する
 
 このページでは，UTokyo VPNをAndroid端末で利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](.)」をご覧ください．
 
-## 準備編: VPNクライアントアプリケーションのインストール
-{:#utokyo-vpn-ios-android}
+## 準備編: UTokyo VPNの初期設定
+{:#utokyo-vpn-android-setup}
 
 まずはUTokyo VPNに接続するために必要なアプリを端末にインストールします．手順は通常のAndroidアプリと同様です．
 
-**手順A:** [このリンク](https://play.google.com/store/apps/details?id=com.cisco.anyconnect.vpn.android.avf)にアクセスし，Cisco Systems社のAnyConnectというアプリをインストールします．
+**手順A:** [Google Play](https://play.google.com/store/apps/details?id=com.cisco.anyconnect.vpn.android.avf)にアクセスし，Cisco Systems社のAnyConnectというアプリをインストールします．
 
 <img src="img/android01-play-store.png" alt="cisco systems inc. anyconnect" style="margin:auto; border:solid 1px black;" />
 
@@ -35,7 +35,7 @@ title: Android端末でUTokyo VPNを利用する
 
 以下の手順はVPNを利用するたびに必要です．特にスマホを起動した直後に自動的にVPNに接続されるわけではありませんので，ご注意ください．
 
-**手順E:** 下記左図のように「接続」に「vpn1.adm.u-tokyo.ac.jp」と記載されていることを確認してください．次に，「AnyConnect VPN」の横のトグルボタンをONにして，下記右図のようにUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでログインしてください．
+**手順E:** 下記左図のように「接続」に「vpn1.adm.u-tokyo.ac.jp」と記載されていることを確認してください．次に，「AnyConnect VPN」の横のトグルボタンをONにして，下記右図のようにUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでサインインしてください．
 
 <ul style="display: flex;">
 <li style="list-style: none;">
