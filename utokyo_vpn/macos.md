@@ -40,6 +40,12 @@ title: macOS端末でUTokyo VPNを利用する
   それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
 </details>
 
+<details>
+  <summary>ヘルプ：「USERNAME」と「PASSWORD」を入力する画面が表示され，UTokyo AccountのIDとパスワードを入力してもサインインできない場合</summary>
+      {% include_relative _faq-prepare02.md %}
+  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
+</details>
+
 **手順C:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウがでる場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また右のようなウィンドウが表示されますので，これも許可をしてください．
 
 <ul style="display: flex;">
