@@ -20,9 +20,13 @@ UTokyo VPNを利用するには，まず自身の端末にVPNクライアント�
 
 **多要素認証の有効化:** UTokyo VPNを利用するためには，UTokyo Accountの多要素認証を有効にする必要があります．[UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください<span style="color: red; ">(多要素認証は申請してからシステムに反映されるまで約40分必要です．申請してからVPNを設定できるようになるまでしばらくお待ちください)．</span>
 
-**利用できるコンピュータの種類:** UTokyo VPNに接続できるコンピュータは WindowsおよびmacOSの下記のバージョンです．iPhoneやAndroidなどのスマートフォンでも利用可能ですが，現時点ではマニュアル等のサポートは提供しておりません．
-- Windows: Windows 11，10，8.1
-- macOS: macOS 12 Monterey，11 Big Sur，10.15 Catalina，10.14 Mojave
+**利用できる端末の種類:** UTokyo VPNは，WindowsやmacOSなどのコンピュータで利用できます．また，AndroidやiPhone，iPadなどのモバイル端末からも利用可能です．
+サポートされているバージョンはそれぞれ以下の通りです．
+- Windows: Windows 8.1，10，11
+- macOS: macOS 10.15 Catalina，11 Big Sur，12 Monterey
+- Android: Android 9，10，11，12
+- iOS: iOS 14，15
+- iPadOS: iPadOS 14，15
 
 **電子ジャーナルへのアクセス:** UTokyo VPN経由で電子ジャーナル等にアクセスすることはできません．附属図書館が契約・提供する電子ジャーナル・電子ブック・データベースの学外からの利用については附属図書館ウェブサイト[EZproxy（イージープロキシー）経由で利用する](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy) を参照してください．
 
