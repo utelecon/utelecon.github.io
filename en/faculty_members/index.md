@@ -162,13 +162,13 @@ For further details on how to use this feature, please see the “**[ECCS Cloud 
 
 The University of Tokyo provides access to Microsoft’s services through a university account and offers downloads of Microsoft Office applications such as Word and Excel. Other available services include the Web version of Office, OneDrive (an online storage service), and Microsoft Forms (a form creation service).
 
-For further details on how to use this feature, please see the “**[UTokyo Microsoft License (Microsoft 365)](/microsoft)**” page (in Japanese).
+For further details on how to use this feature, please see the “**[UTokyo Microsoft License (Microsoft 365)](/en/microsoft)**” page.
 
 ### UTokyo WiFi
 
 This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. Please note that you cannot use this service unless you have created an account in advance.
 
-For further details on how to use this feature, please see the “**[UTokyo WiFi](/utokyo_wifi)**” page (in Japanese).
+For further details on how to use this feature, please see the “**[UTokyo WiFi](/en/utokyo_wifi)**” page.
 
 ### ECCS Terminals
 
