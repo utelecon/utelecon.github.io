@@ -4,14 +4,14 @@ title: iPadでUTokyo VPNを利用する
 
 このページでは，UTokyo VPNをiPadで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](.)」をご覧ください．
 
-## 準備編: VPNクライアントアプリケーションの準備
+## 準備編: UTokyo VPNの初期設定
 {:#utokyo-vpn-ipad-setup}
 
 <!-- 最新版にアップデートしていることは前提とする -->
 
 まずはUTokyo VPNに接続するために必要なアプリを端末にインストールし，初期設定を行います．手順は通常のiOSアプリと同様です．
 
-**手順A:** [このリンク](https://apps.apple.com/jp/app/cisco-anyconnect/id1135064690)にアクセスし，Cisco社のCisco AnyConnectというアプリをインストールします．
+**手順A:** [App Store](https://apps.apple.com/jp/app/cisco-anyconnect/id1135064690)にアクセスし，Cisco社のCisco AnyConnectというアプリをインストールします．
 
 <img src="img/ipad01-app-store-anyconnect.png" alt="anyconnect in app store" style="margin:auto; border:solid 1px black;" />
 
