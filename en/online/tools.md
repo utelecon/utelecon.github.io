@@ -133,7 +133,7 @@ Microsoft 365 also provides online versions of Excel and PowerPoint, that can be
 
 Scrapbox is a tool for storing and organizing a large number of notes and memos online. It allows multiple users to edit notes simultaneously, and to share notes using URLs. Scrapbox’s unique feature is that you can easily connect many pages using "links" and "tags. Utilizing this feature, Scrapbox can be used as a portal site for online classes.
 
-- **[Basic Use of Scrapbox](/articles/scrapbox/)** (in Japanese): utelecon’s page describing how to use Scrapbox.
+- **[Basic Use of Scrapbox](/en/articles/scrapbox/)**: utelecon’s page describing how to use Scrapbox.
 - **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)** (in Japanese): A practical example of using Scrapbox to share lecture materials.
 
 
