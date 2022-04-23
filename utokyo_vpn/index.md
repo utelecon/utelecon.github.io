@@ -49,7 +49,7 @@ UTokyo VPN経由で電子ジャーナル等にアクセスすることはでき�
 セキュリティの観点より，UTokyo VPNの利用に当たってはUTokyo Accountの多要素認証の有効化を必須としております．[UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください<span style="color: red; ">(多要素認証は申請してからシステムに反映されるまで約40分必要です．申請してからVPNを設定できるようになるまでしばらくお待ちください)．</span>
 
 
-## VPNクライアントのインストール方法と使用方法
+## UTokyo VPNの利用手順
 {:#how-to-install-use}
 
 VPNクライアントアプリケーションを端末にインストールし，UTokyo VPNに接続する方法をOSごとに説明しています．なお，UTokyo VPNの設定は学外からも行うことができます．
