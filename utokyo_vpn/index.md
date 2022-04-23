@@ -21,8 +21,8 @@ UTokyo VPN経由で電子ジャーナル等にアクセスすることはでき�
 
 **利用対象者:** UTokyo Accountを持つ東京大学 構成員（教職員・学生）
 
-**利用できる端末の種類:** UTokyo VPNは，WindowsやmacOSなどのコンピュータで利用できます．また，AndroidやiPhone，iPadなどのモバイル端末からも利用可能です．
-サポートされているバージョンはそれぞれ以下の通りです．
+**利用できる端末の種類:** UTokyo VPNは，WindowsやmacOSなどのコンピュータで利用できます．また，AndroidやiPhone，iPadなどのモバイル端末からも利用可能です．サポートされているバージョンはそれぞれ以下の通りです．
+
 - Windows: Windows 8.1，10，11
 - macOS: macOS 10.15 Catalina，11 Big Sur，12 Monterey
 - Android: Android 9，10，11，12
@@ -36,11 +36,11 @@ UTokyo VPN経由で電子ジャーナル等にアクセスすることはでき�
 
 <details>
 	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
-	この場合，UTokyo VPNの利用資格は停止されず，着任・入学時からUTokyo VPNを利用可能です．[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)のページにある「情報セキュリティ教育 教材」をよくお読みの上，UTokyo VPNをご利用ください．なお，情報セキュリティ教育は毎年度実施されますので，来年度以降はご受講ください．
+	この場合，UTokyo VPNの利用資格は停止されず，着任・入学時からUTokyo VPNを利用可能です．<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">情報セキュリティ教育</a>のページにある「情報セキュリティ教育 教材」をよくお読みの上，UTokyo VPNをご利用ください．なお，情報セキュリティ教育は毎年度実施されますので，来年度以降はご受講ください．
 </details>
 <details>
 	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
-	当該年度のUTokyo VPNの利用資格が停止されますので，基本的に年度末までUTokyo VPNを利用することはできません．未受講者への対応に関しては， `jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` （`__at__`は@に変更）まで，UTokyo Accountのユーザー名（10桁の共通ID）を添えてお問い合わせください．
+	当該年度のUTokyo VPNの利用資格が停止されますので，基本的に年度末までUTokyo VPNを利用することはできません．未受講者への対応に関しては， <code>jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>は@に変更）まで，UTokyo Accountのユーザー名（10桁の共通ID）を添えてお問い合わせください．
 </details>
 
 ### UTokyo Accountの多要素認証
@@ -52,8 +52,7 @@ UTokyo VPN経由で電子ジャーナル等にアクセスすることはでき�
 ## VPNクライアントのインストール方法と使用方法
 {:#how-to-install-use}
 
-VPNクライアントアプリケーションを端末にインストールし，UTokyo VPNに接続する方法をOSごとに説明しています．
-なお，UTokyo VPNの設定は学外からも行うことができます．
+VPNクライアントアプリケーションを端末にインストールし，UTokyo VPNに接続する方法をOSごとに説明しています．なお，UTokyo VPNの設定は学外からも行うことができます．
 
 * [Windows端末でUTokyo VPNを利用する](windows)
 * [macOS端末でUTokyo VPNを利用する](macos)
