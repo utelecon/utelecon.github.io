@@ -2,10 +2,12 @@
 title: Android端末でUTokyo VPNを利用する 
 ---
 
-このページでは，UTokyo VPNをAndroid端末で利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](.)」をご覧ください．
+このページでは，UTokyo VPNをAndroid端末で利用する方法を説明します．
+
+{% include_relative _subpage_beginning.md %}
 
 ## 準備編: UTokyo VPNの初期設定
-{:#utokyo-vpn-android-setup}
+{:#setup}
 
 まずはUTokyo VPNに接続するために必要なアプリを端末にインストールします．手順は通常のAndroidアプリと同様です．
 
@@ -31,7 +33,7 @@ title: Android端末でUTokyo VPNを利用する
 <img src="img/android05-connect-editing.png" alt="setting anyconnect in connect editor" style="margin:auto; border:solid 1px black;" />
 
 ## 利用編: UTokyo VPNへの接続
-{:#utokyo-vpn-android-connect}
+{:#connect}
 
 以下の手順はVPNを利用するたびに必要です．特にスマホを起動した直後に自動的にVPNに接続されるわけではありませんので，ご注意ください．
 
@@ -48,17 +50,8 @@ title: Android端末でUTokyo VPNを利用する
 
 <img src="img/android08-anyconnect-verify-window.png" alt="anyconnect verifying the connection" style="margin:auto; border:solid 1px black;" />
 
-<details>
-  <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
-      {% include_relative _faq-prepare01.md %}
-  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
-
-<details>
-  <summary>ヘルプ：「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</summary>
-      {% include_relative _faq-prepare04.md %}
-  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
+{% include_relative _help_mfa.html %}
+{% include_relative _help_multiple_users.html %}
 
 **手順F:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
@@ -68,6 +61,6 @@ title: Android端末でUTokyo VPNを利用する
 
 VPNを切断する際は，この画面のトグルボタンをタップして「接続解除済み」にしてください．
 
-<br>
-<br>
-<a href="index" target="_blank">UTokyo VPN全体のページに戻る</a>
+---
+
+[UTokyo VPN全体のページに戻る](.)

@@ -2,10 +2,12 @@
 title: macOS端末でUTokyo VPNを利用する 
 ---
 
-このページでは，UTokyo VPNをmacOSのコンピュータで利用する方法を説明します．UTokyo VPNの概要については，「[UTokyo VPN](.)」をご覧ください．
+このページでは，UTokyo VPNをmacOSのコンピュータで利用する方法を説明します．
+
+{% include_relative _subpage_beginning.md %}
 
 ## 準備編: UTokyo VPNの初期設定
-{:#utokyo-vpn-macos-setup}
+{:#setup}
 
 まずはUTokyo VPNに接続するために必要なアプリケーションを端末にインストールします．
 
@@ -14,11 +16,7 @@ title: macOS端末でUTokyo VPNを利用する
 
 <img src="img/mac01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
 
-<details>
-  <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
-      {% include_relative _faq-prepare01.md %}
-  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
+{% include_relative _help_mfa.html %}
 
 **手順B:** サインインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for macOSをクリックして，クライアントアプリケーションをダウンロードしてください．
 
@@ -28,23 +26,9 @@ title: macOS端末でUTokyo VPNを利用する
 
 <img src="img/mac03-install-1.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
 
-<details>
-  <summary>ヘルプ：ダウンロードページが表示されず，真っ白なページが表示される場合</summary>
-      {% include_relative _faq-prepare03.md %}
-  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
-
-<details>
-  <summary>ヘルプ：「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない場合</summary>
-      {% include_relative _faq-prepare02.md %}
-  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
-
-<details>
-  <summary>ヘルプ：「USERNAME」と「PASSWORD」を入力する画面が表示され，UTokyo AccountのIDとパスワードを入力してもサインインできない場合</summary>
-      {% include_relative _faq-prepare02.md %}
-  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
+{% include_relative _help_white.html %}
+{% include_relative _help_security_session.html %}
+{% include_relative _help_security_username.html %}
 
 **手順C:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウがでる場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また右のようなウィンドウが表示されますので，これも許可をしてください．
 
@@ -67,7 +51,7 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 <img src="img/mac07-macos-pref.png" alt="running anyconnect socket filter" style="margin:auto; width:75%; border:solid 1px black;" />
 
 ## 利用編: UTokyo VPNへの接続
-{:#utokyo-vpn-macos-connect}
+{:#connect}
 
 以下の手順はVPNを利用するたびに必要です. 特にPCを起動した直後に自動的にVPNに接続されるわけではありませんので, ご注意ください.
 
@@ -77,17 +61,8 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 
 **手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでサインインしてください．
 
-<details>
-  <summary>ヘルプ：「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない場合</summary>
-      {% include_relative _faq-prepare04.md %}
-  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
-
-<details>
-  <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
-      {% include_relative _faq-prepare01.md %}
-  それでもうまくいかなければ，<a href=".#inquiry-form">サポート窓口</a>に相談してください．
-</details>
+{% include_relative _help_multiple_users.html %}
+{% include_relative _help_mfa.html %}
 
 <img src="img/mac10-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
 
@@ -99,6 +74,6 @@ VPNを切断する際は，このウィンドウの「Disconnect」ボタンを�
 
 <img src="img/mac11-vpn-connected-window.png" alt="anyconnect connected window" style="margin:auto; width:75%; border:solid 1px black;" />
 
-<br>
-<br>
-<a href="index" target="_blank">UTokyo VPN全体のページに戻る</a>
+---
+
+[UTokyo VPN全体のページに戻る](.)
