@@ -23,6 +23,10 @@ main {
     color: $red;
   }
 
+  .center {
+    text-align: center;
+  }
+
   summary {
     cursor: pointer;
     color: $link-color;
