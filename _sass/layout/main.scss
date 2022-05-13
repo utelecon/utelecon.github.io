@@ -18,14 +18,7 @@ main {
   @import "components/img";
   @import "components/box";
   @import "components/card";
-
-  .alert {
-    color: $red;
-  }
-
-  .center {
-    text-align: center;
-  }
+  @import "utils";
 
   summary {
     cursor: pointer;
