@@ -8,8 +8,10 @@ title: Zoom ミーティングを作成する
 - [開催日時の設定](date_and_time/)
 - [参加者に認証を求める](auth/)
 - [待機室を設定する](waiting_room/)
-<!-- - [参加者に登録を求める](registration/)
-- [代替ホストを設定する](alternative_host/) -->
+{% comment %}
+- [参加者に登録を求める](registration/)
+- [代替ホストを設定する](alternative_host/)
+{% endcomment %}
 
 ## ミーティングの作り方
 {:#create}
