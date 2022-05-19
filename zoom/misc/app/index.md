@@ -33,10 +33,10 @@ title: Zoomのアプリについて
   <li> ブラウザに移動するので，UTokyo Accoutでサインインしてください．（UTokyo Accountにサインイン済みの場合は，この画面を経ずにそのままサインインが完了します．）<br>
     <img src="/zoom/signin/2.png"> </li>
   <li> 「スケジュール」を押します．<br>
-    <img src="zoom_top2.png"> </li>
+    <img src="top2.png"> </li>
   <li> 以下の情報を設定してミーティングをスケジュールします．<br>  
-    <img src="zoom_schedule.png"> <br>
-    <img src="zoom_schedule_detail.png"> <br> 
+    <img src="schedule.png"> <br>
+    <img src="schedule_detail.png"> <br> 
     以下，特に補足が必要な点に絞って説明します．
     <ul>
       <li> <strong>ビデオ</strong> : ミーティング開始時にビデオを最初からオンにするかオフにするか，ホスト（開催者）と参加者別に設定可能</li>
@@ -51,7 +51,7 @@ title: Zoomのアプリについて
     </ul>
   </li>
   <li> スケジュールの情報を確認して，「Zoomミーティングに参加する」の下に記載されている<strong>会議室の URL を抜き出して</strong>，メールなどを用いて参加者に通知します．<br>
-    <img src="zoom_schedule_info.png"> 
+    <img src="schedule_info.png"> 
     <ul>
       <li>初期設定では <strong>URL にパスワード情報が入っている</strong>ため，パスワードを設定していたとしても別途パスワードを共有する必要はありません</li>
       <li>ここで 上記 URL 以外も共有してしまうと「市内番号を検索」の右に記載されている URL にアクセスしてしまう参加者もいるため，招待情報全てではなく，<strong>会議室の URL を抜き出して共有することをおすすめ</strong>します</li>      
