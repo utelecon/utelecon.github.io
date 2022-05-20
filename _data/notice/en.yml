@@ -2,11 +2,14 @@
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 # "outdated: true"を含めるとトップページに表示されなくなります（通常の利用は想定していない隠し機能です）．
 -
+  date: 2022-05-20
+  content: "[Maintenance on UTokyo VPN Service (May 27,2022)](/en/notice/2022/0527-vpn)"
+-
   date: 2022-05-09
   content: "[Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for students for the 2022 academic year has begun and will be held until June 10."
 -
   date: 2022-04-28
-  content: "[Maintenace on UTokyo WiFi Service (May 10, 2022)](/en/notice/2022/0510-wifi)"
+  content: "[Maintenance on UTokyo WiFi Service (May 10, 2022)](/en/notice/2022/0510-wifi)"
 -
   date: 2022-03-18
   content: "<a href=\"/en/notice/2022/utas_lms_failure/\">On recent access failures to UTAS/ITC-LMS</a>"
