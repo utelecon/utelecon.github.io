@@ -9,7 +9,7 @@ title: オンライン授業の受講に利用可能な教室の一覧
 上のリンクから開いてください．また，UTokyo AccountでMicrosoftにサインイン済みで，ブラウザが対応している場合，以下に埋め込みでも表示されます．
 
 <div class="iframe-container" style="--aspect-ratio: 75%;">
-<iframe width="896" height="672" frameborder="0" src="https://univtokyo.sharepoint.com/sites/utokyoaccount/_layouts/15/Doc.aspx?sourcedoc={f1e4ea66-f939-4a85-acea-b7ed94bc55f1}&action=embedview&wdAllowInteractivity=False&ActiveCell='Sheet1'!A1&wdHideHeaders=True&wdHideSheetTabs=True&wdInConfigurator=True&edesNext=false&ejss=false"></iframe>
+<iframe width="896" height="672" frameborder="0" src="https://univtokyo.sharepoint.com/sites/utokyoaccount/_layouts/15/Doc.aspx?sourcedoc={f1e4ea66-f939-4a85-acea-b7ed94bc55f1}&action=embedview&Item='Sheet1'!A%3AO&wdAllowInteractivity=True&ActiveCell='Sheet1'!A1&wdHideHeaders=True&wdHideSheetTabs=True&wdInConfigurator=True&edesNext=false&ejss=false"></iframe>
 </div>
 
 なお，掲載されている教室等の情報はそれぞれの管理部局に更新をお願いしています．誤りなどを見つけた場合は，各管理部局にご連絡ください．また，掲載されていない教室の追加については，管理部局の担当者から情報システム本部 `dics-senryaku.adm@gs.mail.u-tokyo.ac.jp` へご連絡ください．
