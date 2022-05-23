@@ -4,7 +4,7 @@
     <div class="footer-icon"><span class="material-icon">arrow_upward</span></div>
     <div class="footer-description">{% if page.lang == "en" %}Scroll to Top {% else %}上に戻る{% endif %}</div>
   </a>
-  <a class="footer-link wide-only" href="https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url&entry.1839091442={{ site.url }}{{ page.url }}" target="_blank">
+  <a class="footer-link wide-only" href="https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url&entry.1839091442={{ site.url }}{{ page.url | replace: '.html', '' }}" target="_blank">
     <div class="footer-icon"><span class="material-icon">feedback</span></div>
     <div class="footer-description">{% if page.lang == "en" %}Feedback{% else %}フィードバック{% endif %}</div>
   </a>
