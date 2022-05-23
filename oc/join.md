@@ -12,7 +12,7 @@ title: オンライン授業への入室方法
 - ITC-LMSにアクセスしづらいときは，「[東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)」でも同じ情報を見ることができます．
 - 授業によっては，他の場所（ITC-LMSの「オンライン授業情報」以外の欄や[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)のシラバスなど）で連絡されることもあります．
 
-詳細は[授業URLの連絡方法（学生向け）](/oc/url)を参照してください．
+詳細は**[授業URLの連絡方法（学生向け）](/oc/url)**を参照してください．
 
 ## Web会議にサインインしておく
 

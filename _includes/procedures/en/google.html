@@ -3,18 +3,36 @@
 {% endcomment %}
 
 {% assign part = include.part %}
-{% assign system = "ECCS Cloud Email" %}
+{% assign system = "ECCS Cloud Email (Google Workspace)" %}
 
 {% capture configure_password_and_email_address %}
+{% case page.slug %}{% when "oc" %}
+<ul>
+  <li><a href="/oc/movies#google">Procedure video (in Japanese) </a></li>
+</ul>
+{% endcase %}
 <ol>
-<li>Please access <a href="https://idm.ecc.u-tokyo.ac.jp/webmtn/">ECCS User Menu</a>.</li>
-<li>When asked to sign in, enter your UTokyo Account username (a 10-digit number) and password{% if include.part == "important" %} (the one changed from the initial password){% endif %}.</li>
-<li>Click "ECCS Cloud Email (password)" on the left, then open the password setting screen. This is the password only for ECCS Cloud Email.</li>
-<li>Click "ECCS Cloud Email (mail address)" on the left to open the email address setting page. You can use the auto-generated email address (based on your name) as listed in the "Current Email Address" field, or you can update it. If you wish to change it, enter the new email address in the "Email Address" field and click "SAVE". If no changes are to be made, please check the "Current email address" as displayed.</li>
+<li>After changing the initial password of your UTokyo Account, wait for approximately 10 minutes for the change to be reflected.</li>
+<li>Access the <a href="https://idm.ecc.u-tokyo.ac.jp/webmtn/">ECCS User Menu</a>.</li>
+<li>Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.</li>
+<li>Click the "ECCS Cloud Email (password)" on the left and then open the password-setting screen. This password is only for your ECCS Cloud Email.</li>
+<!-- <li>Click "ECCS Cloud Email (mail address)" on the left to open the email address setting page. You can use the auto-generated email address (based on your name) as listed in the "Current Email Address" field, or you can update it. If you wish to change it, enter the new email address in the "Email Address" field and click "SAVE". If no changes are to be made, please check the "Current email address" as displayed.</li> -->
+<li>Click "ECCS Cloud Email (mail address)" on the left to open the email address setting page. Enter your preferred username in the "Email Address" field and click "SAVE".</li>
 </ol>
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/supports/">support desk</a>.</li>
-</ul>
+{% if include.part == "important" %}
+<li>For the basic use of the ECCS Cloud Email (e.g., login, checking emails), please see the below <a href="#google">ECCS Cloud Email section</a>.</li>
+{% endif %}
+<li>
+  <details>
+    <summary>Troubleshooting guide</summary>
+    <ul>
+      <li><strong>Menus, such as "ECCS Cloud Email (password)", do not appear in the ECCS User Menu</strong>: This happens when you access the site before the initial password change for your UTokyo Account is reflected in the system. Please wait for approximately 10 minutes for the change to be reflected and try again.</li>
+      <li><strong>Error message “EX-076 An error has occurred. EX-079 It can't be set for New Password because the Directory already has the same attribute value."</strong>: This message appears due to restrictions on ECCS Cloud Email passwords which require the password to be different from the old password and not contain any part of the password or username (10-digit number) of your UTokyo Account. Please change your password accordingly to avoid this error message.</li>
+    </ul>If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.
+  </details>
+  </li>
+  </ul>  
 {% endcapture %}
 
 {% unless include.part == "important" %}
@@ -22,51 +40,51 @@
 {% endunless %}
 {% include procedures/en/_important.html procedure=configure_password_and_email_address type="Task" heading="Set your password and email address" %}
 {% unless include.part == "important" %}
-<li><strong>Check: Sign in</strong>
+<li><strong>Check: Log in</strong>
 <ol>
-<li>After setting your password and email address, it will take an hour for the new settings to take effect, so please wait until then.</li>
+<li>Please wait for one hour for your newly set password and email address to be reflected in the system.</li>
 <li>Go to <a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp">the Google login page</a>.</li>
-<li>Enter your email address (which you have confirmed or changed in the above procedure).</li>
-<li>Enter the password that you set in the above procedure.</li>
+<li>Enter your new email address from the above procedure.</li>
+<li>Enter the password you previously set.</li>
 </ol>
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/supports/">support desk</a>.</li>
+<li>If this procedure does not work, please consult the <a href="/en/support/">Technical Support Desk</a>.</li>
 </ul>
 </li>
-<li><strong>Check: Go to the test page (Google Spreadsheet) dedicated to ECCS Cloud Email.</strong>
+<li><strong>Check: Make sure you can access UTokyo member-only pages</strong>
 <ol>
-<li>Access the <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing">ECCS Cloud Email test page (Google Spreadsheet)</a>.</li>
-<li>If you are not logged in, you will be asked to enter your email address and password. Enter your ECCS Cloud Email email address and password that you set up above.</li>
-<li>You should be able to see the contents of the page (spreadsheet).</li>
+<li>Access the <a href="https://docs.google.com/spreadsheets/d/15zxDZ41u-RtKxGGcL9lDZt8l5ITpBDZ74udYbnMM0LE/edit?usp=sharing">ECCS Cloud Email member-only test page (Google Spreadsheet)</a>.</li>
+<li>You will be asked to sign in to your ECCS Cloud Email if not already signed in. Please enter the email address and password you previously set.</li>
+<li>If you can see the contents of the page (spreadsheet), you have successfully signed into your ECCS Cloud Email. If you cannot see the contents and instead see the “You need access” message, follow the procedures in the “Troubleshooting guide” section below. Do not request access.</li>
 </ol>
 <ul>
 <li>
-  <details>
-    <summary>Help for when this procedure does not work</summary>
-    <ul>
-      <li><strong>(For computers or smartphones) If you get a screen that says "You need access" and displays something like "You are signed in as: example@gmail.com" at the bottom</strong>: This may happen when you have already logged in to Google with your other account. If you press the "You are signed in as: example@gmail.com" button at the bottom of the screen, "Choose an account to use with Google Drive'' screen will appear and you can switch accounts. If your ECCS cloud mail account does not appear, select "Sign in to another account" and log in to ECCS Сloud Уmail.</li>
-      <li><strong>(For smartphones) If you get a screen that says "Request accessё"</strong>: This may happen when you have already logged in to Google with your other account. Please follow the steps in "Log in on your phone" below, and then try accessing again.</li>
-    </ul>
-    If this does not work, please contact the <a href="/en/support/">support desk</a>.
-  </details>
+<details open>
+  <summary>Troubleshooting guide</summary>
+  <ul>
+    <li><strong>(On PC/smartphone) You are taken to the “You need access” page and you see who you are signed in as (e.g., “You are signed in as example@gmail.com”) at the bottom</strong>: This happens when you are signed in with a Google account other than your ECCS Cloud Email. <small>(e.g., @gmail.com, @<em style="font-style: normal; background-color: yellow;">edu.k</em>.u-tokyo.ac.jp)</small>. Click the email address under “You are signed in as”. You will be taken to the “Choose an account to use with Google Drive”, where you can switch your account. Select your ECCS Cloud Email account (xxxx@<em style="font-style: normal; background-color: yellow;">g.ecc</em>.u-tokyo.ac.jp). If your ECCS Cloud Email account does not show up, click “Sign in to another account” and sign in with your ECCS Cloud Email.</li>
+    <li><strong>(On a smartphone) You are taken to the “You need access” or “Request access” page</strong>: This happens when you are signed in with a Google account other than your ECCS Cloud Email. Follow the steps in "Log in on your phone" below, and then try to access the test document again.</li>
+  </ul>
+  If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.
+</details>
 </li>
 </ul>
 </li>
-<li><strong>Optional task: Log in on your phone</strong> (for those who use Gmail or other Google apps)ё
+<li><strong>Optional task: Log in on your smartphone</strong> (for users of Gmail or other Google apps)
 <ol>
-<li>Open a Google App such as Gmail, and press the icon in the upper right corner (either your own icon, or a human symbol if you have not set one up).</li>
+<li>Open a Google app, such as Gmail, and click your profile picture in the upper-right corner (either a picture you set or the default avatar with your initials).</li>
 <li>Tap "Add another account" to add your Google account.</li>
-<li>You will be prompted to enter your email address and password, so enter your ECCS Cloud Email email address and password that you set up above.</li>
+<li>Enter your ECCS Cloud Email address and password that you set up above.</li>
 </ol>
 </li>
-<li><strong>Exercise: Use your email</strong> (you can use the email address "xxxx@g.ecc.u-tokyo.ac.jp" in Gmail)
+<li><strong>Exercise: Use your email</strong> (You can use your email address "xxxx@g.ecc.u-tokyo.ac.jp" in Gmail)
 <ol>
-<li>Access to <a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp">Gmail</a>.</li>
-<li>You will be asked to log in If you are yet to. Follow the same procedure as above.</li>
-<li>Try sending email to your other email address, or see if you receive an email sent from your other email address.</li>
+<li>Access <a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp">Gmail</a>.</li>
+<li>You will be prompted to log in if you have not already done so. Follow the same login procedure as before.</li>
+<li>You can use Gmail’s email service with your ECCS Cloud Email, just like a regular Gmail account. Try sending an email to another email address you have or check whether you can receive an email sent from your other email address.</li>
 </ol>
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/supports/">support desk</a>.</li>
+<li>If this procedure does not work, please consult the <a href="/en/support/">Technical Support Desk</a>.</li>
 </ul>
 </li>
 </ul>
