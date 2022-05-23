@@ -3,21 +3,24 @@
 {% endcomment %}
 
 <ul class="procedure">
+{% case page.slug %}{% when "oc" %}
+<li><a href="/oc/movies#zoom">Procedure Video (in Japanese)</a></li>
+{% endcase %}
 <li><strong>Check: Sign in</strong>
 <ol>
-<li>Go to <a href="https://u-tokyo-ac-jp.zoom.us/">UTokyo Zoom</a> page (please note that this is a Zoom page for the University of Tokyo only, and is not a regular Zoom sign-in page).</li>
-<li>Click on the "Config" button on the “UTokyo Zoom” page.</li>
-<li>When asked to sign in, enter your UTokyo Account username (10-digit number) and password.</li>
-<li>You should see a profile page. Also, make sure that the "License Type" field on your profile page says "Licensed; Meeting 300 participants".</li>
+<li>Go to the <a href="https://u-tokyo-ac-jp.zoom.us/">UTokyo Zoom page</a> (please note that this is a Zoom page for the University of Tokyo only and not a regular Zoom sign-in page).</li>
+<li>A page labeled “UTokyo Zoom” will appear. Click the “Config” button on the “UTokyo Zoom” page.</li>
+<li>Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.</li>
+<li>If you see “Licensed” with your Common ID after clicking the icon in the top right corner of the Zoom settings page (a human silhouette or a profile picture that you have set up), you have successfully signed into Zoom with your UTokyo account.</li>
 </ol>
 <ul>
 <li>
 <details>
-  <summary>Help for when this procedure does not work</summary>
+  <summary>Troubleshooting guide</summary>
   <ul>
-    <li><strong>If you cannot see the page that says "UTokyo Zoom" after accessing the link above</strong>: This happens when you are already signed in to Zoom with your existing account. Click the icon in the upper right corner of the <a href="https://zoom.us/profile">Zoom settings page</a> (your icon or the person symbol if you have not set it up) to "SIGN OUT". Then try to access the site again.</li>
+    <li><strong>If you cannot see the page that says “UTokyo Zoom” after accessing the link above</strong>: This happens when you are already signed into Zoom with your existing account. Click the icon in the upper right corner of the <a href="https://zoom.us/profile">Zoom settings page</a> (your icon or the human silhouette if you do not have a profile picture) to "SIGN OUT". Thereafter, try to access the site again.</li>
   </ul>
-  If this does not work, please contact the <a href="/en/support/">support desk</a>.
+  If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.
 </details>
 </li>
 </ul>
@@ -25,25 +28,25 @@
 <li><strong>Task: Install the application on your computer</strong>
 <ol>
 <li>Go to the Zoom "<a href="https://zoom.us/download#client_4meeting">Download Center</a>".</li>
-<li>Click the "Download" button in the "Zoom Client for Meetings" section at the top.</li>
-<li>The subsequent steps will vary depending on the case. In some cases, the installation will proceed automatically, while in others, you may need to press the confirmation button or open the downloaded file by yourself.</li>
+<li>Click the "Download" button in the "Zoom Client for Meetings" section at the top of the page.</li>
+<li>The subsequent steps will vary depending on the case. In some cases, the installation will proceed automatically, whereas in others, you may need to press the confirmation button or open the downloaded file yourself.</li>
 </ol>
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/support/">support desk</a>.</li>
+<li>If this procedure does not work, please consult the <a href="/en/support/">Technical Support Desk</a>.</li>
 </ul>
 </li>
-<li><strong>Optional task: Install the application on your phone</strong>{% if page.slug == "oc" %} (it’s not mandatory but useful in case of emergencies when something is wrong with your computer){% endif %}
+<li><strong>Optional task: Install the application on your smartphone</strong>{% if page.slug == "oc" %} (this is not mandatory but useful in case of emergencies){% endif %}
 <ol>
-<li>For Android users, install the app from <a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings">Google Play</a>. For iPhone users, install it from the <a href="https://itunes.apple.com/us/app/id546505307">App Store</a>.</li>
+<li>For Android users, you can install the app from <a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings">Google Play</a>. For iPhone users, you can install it from the <a href="https://itunes.apple.com/us/app/id546505307">App Store</a>.</li>
 </ol>
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/support/">support desk</a>.</li>
+<li>If this procedure does not work, please consult the <a href="/en/support/">Technical Support Desk</a>.</li>
 </ul>
 </li>
-<li><strong>Check: Enter the Todai accounts restricted meeting room</strong>
+<li><strong>Check: Enter UTokyo member restricted Zoom meeting rooms</strong>{% if page.slug == "oc" %} (Try using the actual device you plan to use in class. It is also a good idea to try this on your smartphone as well as your computer as a backup.){% endif %}
 <ol>
-<li>In the meeting room, your microphone audio and camera image may be sent to other people (this is not the case in the test meeting room here, but it may happen). If you are concerned, please try it in a safe situation to send audio and video.</li>
-<li>Access the test meeting room via the <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">ITC-LMS test cource</a>.</li>
+<li>In the meeting room, your microphone audio or camera image may be sent to other people (in the test room used here, your audio or video will not be sent to others just by joining the room. However, it could be sent while testing different functions). If you are concerned, please perform this test in a situation that is safe for sending audio and video.</li>
+<li>Access the test meeting room URL via the <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">ITC-LMS test cource</a>.</li>
 <li>You may be asked to click a confirmation button or select an application to open.</li>
 <li>After the Zoom app opens, when you see the message "Connect to audio to hear other users", click "Call using the Internet".</li>
 <li>If you get a black screen with "Start Video" and "Participants" at the bottom, you are in the meeting room.</li>
@@ -51,26 +54,26 @@
 <ul>
 <li>
 <details>
-  <summary>Help for when this procedure does not work</summary>
+  <summary>Troubleshooting guide</summary>
   <ul>
-    <li><strong>If asked to install the application when you access the URL of the conference room, or if the installation of the application starts</strong>: This happens when the application is not installed properly. Please try to reinstall the application, and see if it works.</li>
-    <li><strong>When the message "This meeting is only for authorized participants" is displayed</strong>: This happens when you have not signed in with your Todai account. Click the "Sign in to Join" or "Switch Account to Join" button, and follow the instructions shown below "Optional task: Sign in to the application" to sign in.</li>
+    <li><strong>You are asked to install the application when you access the meeting room URL, or the installation starts</strong>: This happens when the application has not been properly installed. Please reinstall the application and access the URL again.</li>
+    <li><strong>When the message "This meeting is only for authorized participants" is displayed</strong>: This happens when you have not signed in to Zoom with your UTokyo account. Click the "Sign in to Join” or "Switch Account to Join" button and sign in by following the instructions shown below in "Optional task: Sign in to the application".</li>
   </ul>
-  If this does not work, please contact the <a href="/en/support/">support desk</a>.
+  If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.
 </details>
 </li>
 </ul>
 </li>
-<li><strong>Optional Task: Sign in to the application</strong>{% if page.slug == "oc" %} (useful for people who have the opportunity to hold their own meetings, etc.){% endif %}
+<li><strong>Optional Task: Sign in to the application</strong>{% if page.slug == "oc" %} (useful for people who have opportunities to host meetings){% endif %}
 <ol>
 <li>Open the Zoom app and click the "Sign In" button.</li>
-<li>On the sign-in screen, find the words "Sign in with SSO" and press it.</li>
-<li>In the "Company email" field, enter your 10-digit common ID (UTokyo Account username) followed by <code>@utac.u-tokyo.ac.jp</code>  to indicate that you are from the University of Tokyo (eg. <code>1234567890@utac.u-tokyo.ac.jp</code> . If you see the field "Company domain" instead of "Company email", please enter <code>u-tokyo-ac-jp</code>.</li>
-<li>If a screen similar to UTAS appears to ask you to enter your University of Tokyo username and password, enter your UTokyo Account information (it may not appear if you have already entered it).</li>
-<li>For computer users, click on the icon on the upper right (either your own icon or the symbol of a person if you haven't set it up). For smartphone users, click "Settings" in the lower right.</li>
+<li>On the sign-in screen, find the words "Sign in with SSO" and click on it.</li>
+<li>In the "Company email" field, enter your 10-digit Common ID (UTokyo Account username), followed by <code>@utac.u-tokyo.ac.jp</code>to indicate that you are a member of the University of Tokyo (e.g., <code>1234567890@utac.u-tokyo.ac.jp</code> ). If you see the field "Company domain" instead of "Company email", please enter <code>u-tokyo-ac-jp</code>).</li>
+<li>Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.</li>
+<li>For computer users, click on the icon on the upper right (either your profile picture or the human silhouette if you have not set one up). For smartphone users, click "Settings" on the lower right. You have properly signed in if you see your name (or Common ID if you have not set one up) and the message "License Available" on the screen.</li>
 </ol>
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/support/">support desk</a>.</li>
+<li>If this procedure does not work, please consult the <a href="/en/support/">Technical Support Desk</a>.</li>
 </ul>
 </li>
 {% if page.slug != "oc" %}

@@ -13,7 +13,7 @@
     </div>
   {% endif %}
 
-  {% capture toc %}{% include toc.html html=content %}{% endcapture %}
+  {% capture toc %}{% include layouts/toc.html html=content %}{% endcapture %}
   {% assign toc = toc | rstrip %}
   {% if toc != "" and page.toc != false %}
     <section class="main__toc">

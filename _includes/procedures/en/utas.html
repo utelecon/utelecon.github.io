@@ -7,20 +7,35 @@
 
 {% capture login_steps %}
 <li>Access <a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?locale=en_US">UTAS</a> and click "Login".</li>
-<li>When asked to enter your username and password, enter your UTokyo Account{% if page.slug != "oc" and page.slug != "faculty_members" %} (10-digit common ID){% endif %} information{%
-  if part == "important"
-    %} (if you have already entered this information once, the system may remember it and not ask you to do so){%
-  endif
-%}.</li>
+<li>Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.</li>
+{% endcapture %}
+{% capture login_help %}
+<details>
+  <summary>Troubleshooting guide</summary>
+  <ul>
+    <li><strong>Error message "[Error] あなたは現在このシステムを利用することができません (You are currently unable to use this system)"</strong>:
+      <ul>
+        {% if page.slug != "faculty_members" %}
+          <li>If your affiliation has changed (e.g., from undergraduate to graduate school), you will temporarily not be able to access UTAS. Please try logging in again later.</li>
+        {% endif %}
+        {% if page.slug != "oc" %}
+          <li>Some faculty members (mainly those who do not teach classes) do not have UTAS accounts registered. Please consult the administrative office of your department.</li>
+        {% endif %}
+        <li>If the above case does not apply, please consult your faculty or department.</li>
+      </ul>
+    </li>
+  </ul>
+  If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.
+</details>
 {% endcapture %}
 {% capture confirm_email_address_registration_steps %}
-<li>{% if include.part != "important" %}After signing in, click{% else %}Click{% endif %} "Student Info" → "Register Address Update, etc" at the top.</li>
-<li>Make sure that you have registered a valid  email address in the "E-MAIL 1" field.</li>
-<li>If no email address is registered or if the registered email address is incorrect, please change it to the one that certainly reaches you.</li>
+<li>{% if include.part != "important" %}After logging in, click{% else %}Click{% endif %} "Student Info" and then "Register Address Update, etc" in the menu at the top.</li>
+<li>Ensure that you have registered a valid  email address in the "E-MAIL 1" field.</li>
+<li>If no email address is registered, or if the registered email address is incorrect, please change it to an existing email address you own.</li>
 {% endcapture %}
 {% capture support %}
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/support/">support desk</a>.</li>
+<li>If this procedure does not work, please consult the <a href="/en/support/">Technical Support Desk</a>.</li>
 </ul>
 {% endcapture %}
 
@@ -29,7 +44,11 @@
 <ol>
 {{ login_steps }}
 </ol>
-{{ support }}
+<ul>
+<li>
+{{ login_help }}
+</li>
+</ul>
 {% endcapture %}
 {% capture confirm_email_address_registration %}
 <ol>
@@ -38,36 +57,43 @@
 {{ support }}
 {% endcapture %}
 {% capture login_and_confirm_email_address_registration %}
+{% case page.slug %}{% when "oc" %}
+<ul><li><a href="/oc/movies#utas">Procedure video (in Japanese)</a></li></ul>
+{% endcase %}
 <ol>
 {{ login_steps }}
 {{ confirm_email_address_registration_steps }}
 </ol>
-{{ support }}
+<ul>
+<li>
+{{ login_help }}
+</li>
+</ul>
 {% endcapture %}
 
 
 {% if include.part == "important" and page.slug == "oc" %}
-
-{% include procedures/en/_important.html procedure= login_and_confirm_email_address_registration heading="Log in to check if your email address is registered" %}
+{% include procedures/_important.html procedure= login_and_confirm_email_address_registration heading="Log in to check if your email address is registered" %}
 
 {% elsif page.slug == "oc" %}
 
 <ul class="procedure">
-{% include procedures/en/_important.html procedure=login type="Exercise" heading="Login" %}
-{% include procedures/en/_important.html procedure=confirm_email_address_registration type="Check" heading="Make sure your email address is registered" %}
+{% include procedures/_important.html procedure=login type="Exercise" heading="Login" %}
+{% include procedures/_important.html procedure=confirm_email_address_registration type="Check" heading="Make sure your email address is registered" %}
 </ul>
 
 {% elsif include.part == "login" %}
 
 <ol>
 {{ login_steps }}
-</ol>>
+</ol>
+{{ login_help }}
 
 {% elsif include.part == "confirm_email_address_registration" %}
 
 <ol>
 {{ confirm_email_address_registration_steps }}
-</ol>>
+</ol>
 
 {% else %}
 
@@ -76,7 +102,7 @@
 {{ login }}
 </li>
 {% if page.slug != "faculty_members" %}
-<li><strong>Check: Make sure your email address is registered</strong>{% if page.slug != "oc" %} (only students){% endif %}
+<li><strong>Check: Make sure your email address is registered</strong>{% if page.slug != "oc" %}(only for students){% endif %}
 {{ confirm_email_address_registration }}
 </li>
 {% endif %}

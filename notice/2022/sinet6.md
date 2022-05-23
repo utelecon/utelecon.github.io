@@ -35,19 +35,19 @@ title: 2022年3月～4月 ネットワーク切替に伴うシステム停止の
         - [ECCS利用者メニュー](https://idm.ecc.u-tokyo.ac.jp/webmtn/)
         - [ECCS申請メニュー](https://idm.ecc.u-tokyo.ac.jp/idworkflow/)
         - [ECCSポータル](https://portal.ecc.u-tokyo.ac.jp/)
-- **日程**：2022年4月以降（未定）
-    - **影響**：<!--上記の時間のうち-->短時間の間，以下のシステムが利用できなくなります．
+- **日程**（予定）：2022年4月17日（日） 9時00分頃～13時30分頃
+    - **影響**：上記の時間のうち短時間の間，以下のシステムが利用できなくなります．
         - ECCS端末
         - ECCSの[リモートアクセス環境・SSHサーバ](https://www.ecc.u-tokyo.ac.jp/system/outside.html)および[WebDAV環境](https://www.ecc.u-tokyo.ac.jp/system/network_storage.html)
 - ※ECCSクラウドメール (Google Workspace) は停止しません．通常通り利用できます．
 
-<!-- 詳細は[ECCSのお知らせ](https://www.ecc.u-tokyo.ac.jp/...)もご覧ください．-->
+詳細は[ECCSのお知らせ](https://www.ecc.u-tokyo.ac.jp/announcement/2022/04/08_3423.html)もご覧ください．
 
 ## 各キャンパスのネットワークの一部停止
 
 ### 駒場地区キャンパス
 
-- **日程**（予定）：2022年4月17日（日）
+- **日程**（予定）：2022年4月17日（日） 9時00分頃～13時30分頃
 - **影響**
     - 駒場地区キャンパスにて，上記の時間のうち短時間の間，UTokyo WiFiおよび事務業務端末が利用できなくなります．
     - 駒場地区キャンパスにて部局等が運用しているシステムに影響が生じる場合があります．各システムの提供元にご確認ください．

@@ -37,6 +37,14 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 
 ## 利用方法
 
+### 情報システムゼミ「Webexセミナー」（2022年2月18日）スライド資料
+
+1. [はじめに.pdf](pdf/20220218_Seminar_1_Intro.pdf)
+1. [Webex事前準備.pdf](pdf/20220218_Seminar_2_Prep.pdf)
+1. [Webex基本操作.pdf](pdf/20220218_Seminar_3_Basic.pdf)
+1. [Webex応用操作.pdf](pdf/20220218_Seminar_4_Advanced.pdf)
+1. [Webexノウハウ.pdf](pdf/20220218_Seminar_5_Tips.pdf)
+
 ### Webex Meetingsへの参加
 
 1. 開催者から会議室の情報（URLなど）を得る．
@@ -93,5 +101,5 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 	- Slidoイベント終了後の分析は，主催者のSlidoイベント一覧のページで操作します．
 
 
-資料提供：三菱電機システムサービス株式会社
+三菱電機システムサービス株式会社から資料提供をいただいています．
 

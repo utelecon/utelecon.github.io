@@ -28,7 +28,6 @@ title: FAQ よくある質問
 -->
 {% endcomment %} 
 
-<a name="zoom"> </a>
 ## Zoom
 
 ### 全般

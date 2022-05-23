@@ -57,7 +57,7 @@
       url: "/online/tools"
     -
       name: "やりたいことから探す"
-      url: "/online/topics"
+      url: "/online/topics/"
     -
       name: "よりよい授業の実施方法を探す"
       url: "/online/courses"
@@ -90,8 +90,8 @@
       name: "システム運用状況（障害情報等）"
       url: "/support/service-status"
     -
-      name: "授業入室トラブル報告"
-      url: "/forms/et"
+      name: "授業入室トラブル"
+      url: "/oc/join"
     -
       name: "ネットワーク環境支援"
       url: "/mobile/"
