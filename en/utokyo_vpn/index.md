@@ -196,12 +196,10 @@ To disconnect from the VPN, click the “Disconnect” button in this window.
 #### Q. Can I apply for and set up UTokyo VPN outside of the campus?
 - Yes, you can.
 
-<!-- 存在するか分からないので一旦コメントアウト
-## Regulations
+## Regulations (only in Japanese)
 {:#regulations}
-- UTokyo VPN Usage Regulations
-- UTokyo VPN Operation Regulations
--->
+- [UTokyo VPN Usage Regulations](/utokyo_vpn/terms/UTokyoVPN-User-Term.pdf)
+- [UTokyo VPN Operation Regulations](/utokyo_vpn/terms/UTokyoVPN-Operation-Term.pdf)
 
 ## Inquiry form
 {:#inquiry-form}
