@@ -18,7 +18,7 @@ There are two ways to do this, based on whether or not you have access to the me
 
 ## Scheduling a Zoom Meeting in Zoom App
 
-This section provides information on how to schedule a Zoom Meeting with the Zoom App. Settings options may be restricted when scheduling a meeting with the Zoom App. On such occasions, read the instructions in “[Scheduling a Zoom Meeting(Web Portal)](create_room)” and schedule your meetings on the Zoom webpage. For information on scheduling regular meetings, see “[How to set up a room with the same URL for all lectures] (how/faculty_members/schedule).”
+This section provides information on how to schedule a Zoom Meeting with the Zoom App. Settings options may be restricted when scheduling a meeting with the Zoom App. On such occasions, read the instructions in “[Scheduling a Zoom Meeting(Web Portal)](/en/zoom/create_room)” and schedule your meetings on the Zoom webpage. For information on scheduling regular meetings, see “[How to set up a room with the same URL for all lectures] (how/faculty_members/schedule).”
 
 <ol>
   <li> Open the Zoom App. </li>
