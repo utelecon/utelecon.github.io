@@ -2,6 +2,17 @@
 title: Scheduling a Zoom Meeting (Web Portal)
 ---
 
+## はじめに
+このページでは，Zoomミーティングを作成する方法の概要を説明します．なお，以下のページで個別の機能についてくわしく解説しているので，あわせてお読みください．
+
+- [Scheduling Recurring Zoom Meetings](date_and_time/)
+- [Requiring Authentication to Join a Zoom Meeting](auth/)
+- [Setting up a Zoom Waiting Room](waiting_room/)
+{% comment %}
+- [参加者に登録を求める](registration/)
+- [代替ホストを設定する](alternative_host/)
+{% endcomment %}
+
 ## Scheduling Meetings
 {:#create}
 
