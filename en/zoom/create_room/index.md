@@ -50,6 +50,21 @@ This section explains some of the important meeting options.
   ***Allow participants to join before host**: It is recommended to activate this option unless you have some problems with students joining the room before you. You can also decide when students can join.
   * **Mute all participants when they join a meeting**: It is recommended to activate this option unless you have certain reasons to do otherwise.
 
+## How to set additional functions and recommended settings
+By setting configurations individually, you can use additional functions such as "voting" for asking questions to participants and "breakout" for discussing in groups. 
+Therefore, here we will introduce how to set additional functions and recommended settings.
+  
+1. Go to Zoom account <a href="https://zoom.us/profile/setting" target="_blank">settings page</a> (Personal “Settings” → “Meeting”).
+  * Please log in with the account you obtained from school
+  ![](/en/zoom/usage/host_setting.png)  
+  
+1. Turn on the required settings. Recommended settings are as follows.
+  * (ON when necessary)**Only authenticated users can join the meeting**: If you turn this on and select "Sign in with University Account", access will be restricted to those with an ECCS cloud email (xxxx@utac.u-tokyo.ac. jp) 
+  * (ON recommended)**Chat auto save**: When turned on, the chat will be saved automatically(otherwise, the chat text will not be kept unless you save it manually). See also <a href="https://support.zoom.us/hc/en-us/articles/115004792763" target="_blank">Zoom Help Center "Save in-meeting chat"</a> for details.
+  * (ON recommended)**Polls**:  The organizer can ask questions to the participants (more on this later).
+  * (ON recommended)**Breakout room**: Divides participants into subgroups to encourage discussion and work (more on this later).
+  * (ON when necessary)**Subtitle function**: It can be used when you want to supplement audio with text.
+
 ## (Reference) Scheduling Meetings on the Mobile App
 
 You can also schedule meetings in the mobile app. Please refer to [How to Schedule Meetings in the Mobile App](../misc/app/). However, please note that not all the settings explained in this article can be modified in the meetings created with the mobile app.
