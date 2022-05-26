@@ -15,15 +15,15 @@ The menu buttons are explained from left to right (some version may not display 
   1. **Screen Share** : You can share screens in your device.
   1. **Reactions** : You can express reactions by sending "applause" or "agree" emoji.
   1. **Details** : Menus that could not fit on the screen are included here (If the screen width is large enough, all menus will be displayed on the screen and "Details" may not be displayed).
-    * **Participants** : Displays a list of participants.  
-	  * **Chat** : text chat.  
-	  * **Record on this computer** : You can record if your host allows it. This button is often not used by anyone other than the organizer.  
+  * **Participants** : Displays a list of participants.  
+  * **Chat** : text chat.  
+  * **Record on this computer** : You can record if your host allows it. This button is often not used by anyone other than the organizer.  
   1. **Leave meeting** : Leave the meeting. A confirmation screen appears after you press it, so you do not exit immediately when you press the button.
   
   
 The following describes the details of the menu items mostly used.
 
-## Microphone advanced settings
+## Advanced microphone settings
   
   ![](main_mic_speaker.png)
   
@@ -31,7 +31,7 @@ If you press the upper mark next to the microphone mark, an additional menu will
   * **Microphone** : You can select the microphone you want to use (if you have a separate microphone, you will have multiple choices, so choose the one you wish to use).
   * **Speaker** : You can select the speaker you want to use (if you have a separate speaker, you will have multiple choices, please select the one you wish to use)
   
-For details, please refer to [Using microphone and camera](mic_cam/)
+For details, please refer to [Using microphone and camera](mic_cam/).
   
 ## Advanced video settings
   
@@ -40,7 +40,7 @@ For details, please refer to [Using microphone and camera](mic_cam/)
 If you press the upper mark next to the video mark, an additional menu will appear. Below is a brief description of each option. 
   * **Camera** : You can select the camera you want to use (if you have a separate camera, you will have multiple choices, please select the one you wish to use).
 
-For details, please refer to [Using microphone and camera](mic_cam/)
+For details, please refer to [Using microphone and camera](mic_cam/).
 
 
 ## Participants
@@ -69,7 +69,7 @@ When you press the menu "Share screen", the options of screens to be shared appe
   
   <!--About Sharing audio-->
   
-For details, please refer to [Screen Sharing](screen_sharing/)
+For details, please refer to [Screen Sharing](screen_sharing/).
 
   
 ## Chat
@@ -93,5 +93,5 @@ Here is a brief description of the menus specific to the organizer.
   1. **Polls(setting required)** : Allows participants to respond to polls. The questions themselves need to be created with a web browser, and you can create a question by pressing "Edit" or "Add question", when you are creating a question for the first time.
   1. **Breakout(setting required)** : Participants can be divided into subgroups. You can decide the number of people and assign them automatically, or you can assign them manually.
   1. **Recording** : You can record the state of the meeting.
-    * For detalis, please refer to [Cloud Recording](recording/)
+  * For detalis, please refer to [Cloud Recording](recording/).
   
