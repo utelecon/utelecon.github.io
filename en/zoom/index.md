@@ -75,8 +75,8 @@ For an overview of usages during a meeting, please refer to "[Usages in Zoom Mee
 - [Difference between Host and Co-host](misc/host_cohost/)
 - [Using Zoom's Report Feature to Manage Attendance](misc/report/)
 - [About the Zoom App](misc/app/)
-- [Edit and Manage Meetings](misc/edit_meeting/)
 {%- comment -%}
+- [Edit and Manage Meetings](misc/edit_meeting/)
 - [End-to-End (E2E) Encryption (in Japanese)](/zoom/misc/e2e/)
 - [Using Different Accounts (in Japanese)](/zoom/misc/multiple_accounts/)
 {%- endcomment %}
