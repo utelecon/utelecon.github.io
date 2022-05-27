@@ -1,6 +1,17 @@
 ---
-title: Scheduling a Zoom Meeting (Web Portal)
+title: Scheduling a Zoom Meeting
 ---
+
+## Introduction
+This page provides an overview of how to set up a Zoom meeting. Please also refer to the following pages for detailed explanations of individual functions.
+
+- [Scheduling Recurring Zoom Meetings](date_and_time/)
+- [Requiring Authentication to Join a Zoom Meeting](auth/)
+- [Setting up a Zoom Waiting Room](waiting_room/)
+{% comment %}
+- [参加者に登録を求める](registration/)
+- [代替ホストを設定する](alternative_host/)
+{% endcomment %}
 
 ## Scheduling Meetings
 {:#create}
@@ -51,19 +62,18 @@ This section explains some of the important meeting options.
   * **Mute all participants when they join a meeting**: It is recommended to activate this option unless you have certain reasons to do otherwise.
 
 ## How to set additional functions and recommended settings
-By setting configurations individually, you can use additional functions such as "voting" for asking questions to participants and "breakout" for discussing in groups. 
-Therefore, here we will introduce how to set additional functions and recommended settings.
+Here we will introduce how to set additional functions (such as "voting" for asking questions to participants and "breakout" for discussing in groups) and recommended settings.
   
 1. Go to Zoom account <a href="https://zoom.us/profile/setting" target="_blank">settings page</a> (Personal “Settings” → “Meeting”).
   * Please log in with the account you obtained from school
-  ![](/en/zoom/usage/host_setting.png)  
+  ![](/en/zoom/usage/zoom_host_setting.png)  
   
 1. Turn on the required settings. Recommended settings are as follows.
-  * (ON when necessary)**Only authenticated users can join the meeting**: If you turn this on and select "Sign in with University Account", access will be restricted to those signed in with UTokyo account.
-  * (ON recommended)**Chat auto save**: When turned on, the chat will be saved automatically(otherwise, the chat text will not be kept unless you save it manually). See also <a href="https://support.zoom.us/hc/en-us/articles/115004792763" target="_blank">Zoom Help Center "Save in-meeting chat"</a> for details.
-  * (ON recommended)**Polls**:  The organizer can ask questions to the participants.
-  * (ON recommended)**Breakout room**: Divides participants into subgroups to encourage discussion and work.
-  * (ON when necessary)**Subtitle function**: It can be used when you want to supplement audio with text.
+  * (ON when necessary) **Only authenticated users can join the meeting**: If you turn this on and select "Sign in with University Account", access will be restricted to those with an ECCS cloud email (<code>xxxx@utac.u-tokyo.ac. jp</code>) 
+  * (ON recommended) **Chat auto save**: When turned on, the chat will be saved automatically(otherwise, the chat text will not be kept unless you save it manually) . See also <a href="https://support.zoom.us/hc/ja/articles/115004792763-%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E5%86%85%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B" target="_blank">Zoom Help Center "Save in-meeting chat"</a> for details.
+  * (ON recommended) **Polls**:  The organizer can ask questions to the participants.
+  * (ON recommended) **Breakout room**: Divides participants into subgroups to encourage discussion and work.
+  * (ON when necessary) **Subtitle function**: It can be used when you want to supplement audio with text.
 
 ## (Reference) Scheduling Meetings on the Mobile App
 
