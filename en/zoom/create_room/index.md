@@ -1,5 +1,5 @@
 ---
-title: Scheduling a Zoom Meeting (Web Portal)
+title: Scheduling a Zoom Meeting
 ---
 
 ## Introduction
