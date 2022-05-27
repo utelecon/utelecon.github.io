@@ -62,8 +62,7 @@ This section explains some of the important meeting options.
   * **Mute all participants when they join a meeting**: It is recommended to activate this option unless you have certain reasons to do otherwise.
 
 ## How to set additional functions and recommended settings
-By setting configurations individually, you can use additional functions such as "voting" for asking questions to participants and "breakout" for discussing in groups. 
-Therefore, here we will introduce how to set additional functions and recommended settings.
+Here we will introduce how to set additional functions (such as "voting" for asking questions to participants and "breakout" for discussing in groups) and recommended settings.
   
 1. Go to Zoom account <a href="https://zoom.us/profile/setting" target="_blank">settings page</a> (Personal “Settings” → “Meeting”).
   * Please log in with the account you obtained from school
