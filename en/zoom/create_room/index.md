@@ -2,8 +2,8 @@
 title: Scheduling a Zoom Meeting (Web Portal)
 ---
 
-## はじめに
-このページでは，Zoomミーティングを作成する方法の概要を説明します．なお，以下のページで個別の機能についてくわしく解説しているので，あわせてお読みください．
+## Introduction
+This page provides an overview of how to set up a Zoom meeting. Please also refer to the following pages for detailed explanations of individual functions.
 
 - [Scheduling Recurring Zoom Meetings](date_and_time/)
 - [Requiring Authentication to Join a Zoom Meeting](auth/)
