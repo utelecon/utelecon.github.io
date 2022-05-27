@@ -1,5 +1,5 @@
 ---
-title: (Zoom for Faculty Members) Scheduling Recurring Zoom Meetings
+title: Scheduling Recurring Zoom Meetings
 ---
 
 By scheduling recurring meetings, you can use a fixed meeting URL with all 13 class occurrences. 

@@ -1,5 +1,5 @@
 ---
-title: Screen Sharing
+title: Screen Sharing in Zoom
 ---
 
 Zoom's screen sharing enables you to share your screen with others. You can share the screen you are viewing on your PC or mobile device with all participants. If you open a Word or Power Point file on the shared screen, you can make your presentation showing the document to the participants.

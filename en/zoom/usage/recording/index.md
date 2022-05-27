@@ -1,5 +1,5 @@
 ---
-title: (Zoom for Faculty Members) Cloud Recording
+title: Recording Zoom Meeting
 ---
 
 UTokyo Zoom account (`10-digit Common ID @utac.u-tokyo.ac.jp`) supports cloud recording.

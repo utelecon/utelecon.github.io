@@ -1,5 +1,5 @@
 ---
-title: Using microphone and camera
+title: Use Microphone and Camera in Zoom
 ---
 
 ## Using microphone
