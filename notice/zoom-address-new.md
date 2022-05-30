@@ -12,7 +12,7 @@ title: UTokyo Account以外のサインインでのZoomの利用について
 ## 当該のアカウントが不要の場合
 {:#existing-account-is-unnecessary}
 
-現在利用している，UTokyo Accountサインインではないアカウント（ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` など）が不要の場合，**[Zoomのサインインの仕方](/zoom/zoom_signin)**のページに書かれている手順でZoomにサインインすると，新たにUTokyo Accountでサインインするアカウントを利用開始することができますので，今後はそちらを利用していただければ十分です．
+現在利用している，UTokyo Accountサインインではないアカウント（ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` など）が不要の場合，**[Zoomのサインインの仕方](/zoom/signin)**のページに書かれている手順でZoomにサインインすると，新たにUTokyo Accountでサインインするアカウントを利用開始することができますので，今後はそちらを利用していただければ十分です．
 
 なお，UTokyo AccountサインインではないZoomアカウントについては，管理者の方で削除しますので，[不要なZoomアカウント削除フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNTBGSjJPN0ZWN0RIVFI2TVZZODZNT0xRRy4u)からご連絡ください．
 
@@ -34,7 +34,7 @@ UTokyo Accountサインインではないアカウント（ECCSクラウドメ�
 ### UTokyo Accountサインインへの変更手順
 {:#change-procedure}
 
-お使いのアカウントのメールアドレスが，ECCSクラウドメールの自分で設定したメールアドレス (`xxxx@g.ecc.u-tokyo.ac.jp`) の場合は， **[専用の移行サイト](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home)** を利用してワンストップで移行できます．移行サイトの指示に従って作業してください．移行が完了するとUTokyo Accountでのサインインが可能になりますので，今後は[Zoomのサインインの仕方](/zoom/zoom_signin)のページに書かれている手順でサインインしてご利用ください．
+お使いのアカウントのメールアドレスが，ECCSクラウドメールの自分で設定したメールアドレス (`xxxx@g.ecc.u-tokyo.ac.jp`) の場合は， **[専用の移行サイト](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home)** を利用してワンストップで移行できます．移行サイトの指示に従って作業してください．移行が完了するとUTokyo Accountでのサインインが可能になりますので，今後は[Zoomのサインインの仕方](/zoom/signin)のページに書かれている手順でサインインしてご利用ください．
 
 <details>
 <summary>お使いのアカウントのメールアドレスが上記以外の場合</summary>
@@ -60,8 +60,8 @@ UTokyo Accountサインインではないアカウント（ECCSクラウドメ�
         <a href="https://zoom.us/profile">Zoomのプロフィールページ</a>の右上のアイコン（人のマークか，または自分のアイコンを設定していればそれ）を押して「サインアウト」を選択し，Zoomから一度サインアウトしてください．
     </li>
     <li>
-        東京大学専用のZoomページ <a href="https://u-tokyo-ac-jp.zoom.us/">https://u-tokyo-ac-jp.zoom.us/</a>で「Config」ボタンを押して，UTokyo Accountでサインインしてください（<a href="/zoom/zoom_signin#browser">「Zoom サインイン方法」のページの「ブラウザからサインインする方法」</a>と同じ手順です）．
-        <img src="/zoom/img/zoom_signin_1.png">
+        東京大学専用のZoomページ <a href="https://u-tokyo-ac-jp.zoom.us/">https://u-tokyo-ac-jp.zoom.us/</a>で「Config」ボタンを押して，UTokyo Accountでサインインしてください（<a href="/zoom/signin#browser">「Zoom サインイン方法」のページの「ブラウザからサインインする方法」</a>と同じ手順です）．
+        <img src="/zoom/signin/1.png">
         <details>
             <summary>ヘルプ：この手順でサインイン直後に「メールアドレスの確認」などと表示された場合</summary>
             <img src="image/zoom_sso_update_email.png">

@@ -32,13 +32,13 @@ Please choose the most appropriate method based on the nature of your class and 
 ### Fields to Edit
 You can restrict access to a Zoom meeting room by editing the following fields (1) to (3).
 
-* (1) ”Waiting Room” & (2) ”Require authentication to join”: These fields can be found under the “Security” section in the “Schedule a Meeting” page. Please also refer to the “[Scheduling a Zoom Meeting (Web Portal)](/en/zoom/create_room.html)” page for procedures to schedule a meeting.
-![](/en/zoom/img/zoom_access_1.png){:.medium}
+* (1) ”Waiting Room” & (2) ”Require authentication to join”: These fields can be found under the “Security” section in the “Schedule a Meeting” page. Please also refer to the “[Scheduling a Zoom Meeting (Web Portal)](/en/zoom/create_room)” page for procedures to schedule a meeting.
+![](img/zoom_access_1.png){:.medium}
 * (3) ”Who should go in the waiting room?”: This field can be found in the Zoom Settings page.
     1. In your web browser, access [Zoom Setting page](https://u-tokyo-ac-jp.zoom.us/profile/setting).
     2. Click “Edit Options” under “Waiting Room Options”.
-    ![](/en/zoom/img/zoom_access_2_1.png){:.medium}
-    ![](/en/zoom/img/zoom_access_2_2.png){:.medium}
+    ![](img/zoom_access_2_1.png){:.medium}
+    ![](img/zoom_access_2_2.png){:.medium}
 
 ### Setup for each Access Restriction Method
 * Method A: Place no restriction in Zoom and let everyone enter the meeting room.

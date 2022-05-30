@@ -1,3 +1,3 @@
 ---
-redirect_to: "/zoom/"
+redirect_to: "/zoom/usage/"
 ---

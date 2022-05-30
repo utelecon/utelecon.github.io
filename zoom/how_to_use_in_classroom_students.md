@@ -1,3 +1,3 @@
 ---
-redirect_to: "/zoom/#features"
+redirect_to: "/zoom/usage/"
 ---
