@@ -15,7 +15,10 @@
 
     <meta property="og:type" content="website">
     {% include layouts/description.html %}
-{% seo %}
+    {% assign url_with_ext = site.url | append: page.url %}
+    {% assign url_without_ext = url_with_ext | replace: '.html', '' %}
+    {% capture seo %}{% seo %}{% endcapture %}
+{{ seo | replace: url_with_ext, url_without_ext }}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
