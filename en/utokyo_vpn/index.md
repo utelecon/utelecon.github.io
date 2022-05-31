@@ -32,6 +32,11 @@ You cannot access e-journals via UTokyo VPN. Please refer to [the EZproxy page o
 
 It is mandatory to take an information security course to use the UTokyo VPN. If you have not attended the annual Information Security Education, please contact: `jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` (change `__at__` to @).
 
+<details>
+  <summary>I arrived after the period of the Information Security Education was over</summary>
+  You can use the UTokyo VPN from the time you arrive. Please read the "Information Security Education Materials" on the <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">Information Security Education</a> page carefully before using UTokyo VPN. If you have not completed the Education, you face the risk of being banned from the VPN connection sooner or later.
+</details>
+
 ### Enable Multi-factor Authentication
 {:#mfa}
 
@@ -50,53 +55,33 @@ The following pages explain how to install the VPN client application on your de
 {:.cards}
 
 ## FAQ
-{:#faq} 
+{:#faq}
 
-### Troubles with the installation of the VPN client application or connection to VPN
-#### Q. In Step A of the Preparation section, the error message “You don’t have access to this” appears.
-- It is possible that your application for multi-factor authentication has not been completed. Please see [this page](/en/utokyo_account/mfa/) to enable multi-factor authentication for your UTokyo Account.
+### Q. I want to use a local printer even when connected to UTokyo VPN.
+When you are connected to UTokyo VPN, the communication to the local network to which your computer is connected also goes through the VPN. Click the gear button on the bottom left of the AnyConnect Secure Mobility Client window. The following window will appear. In the "Preferences" tab of this window, check the "Allow local (LAN) access when using VPN (if configured)" check box.
 
-#### Q. In Step B of the Preparation section, the download page does not appear and a blank page is displayed.
-- Please access [this page](https://vpn1.adm.u-tokyo.ac.jp/+CSCOE+/logon.html?tgroup=utvpn-tunnel-group) and try downloading.
+<div class="gallery">
+  <figure class="center">
+    <img src="img/win08-anyconnect-win-pref.png" class="border">
+    <figcaption>In case of Windows</figcaption>
+  </figure>
+  <figure class="center">
+    <img src="img/mac09-anyconnect-mac-pref.png" class="border">
+    <figcaption>In case of macOS</figcaption>
+  </figure>
+</div>
 
-#### Q. In Step B of the Preparation section, the error message “Unable to update the session management database” is displayed, and the download page is not displayed.
-- There is a possibility that you have not completed the information security training course. If that is the case, you cannot use UTokyo VPN. Please contact the Security Team of the Information Environment Division at the headquarters, `jouhousecurity.adm __at__ gs.mail.u-tokyo.ac.jp` (change `__at__` to @), with your UTokyo Account user name.
+### Q. Does "UTokyo faculty and staff with a UTokyo Account" mean those who are employed by UTokyo? Or does it include temporary staff, visiting researchers, and others who are working or conducting research at UTokyo?
+A. In addition to the former category, it includes temporary staff, visiting researchers, and others who are working or conducting research at UTokyo.
 
-#### Q. In step D of the How to use UTokyo VPN section, the error message "AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established" appears.
-- It is possible that multiple users are simultaneously logged in on the device that is trying to connect to the UTokyo VPN, please log off all the users except the user connecting to the VPN.
+### Q. Can I access the employee ID card issued and employment management system from off-campus?
+A. Yes, you can access the employee ID card issued and employment management systems from off-campus by connecting to the UTokyo VPN.
 
-#### Q. I want to use a local printer even when connected to UTokyo VPN.
-- When you are connected to UTokyo VPN, the communication to the local network to which your computer is connected also goes through the VPN. Click the gear button on the bottom left of the AnyConnect Secure Mobility Client window. The following window will appear. In the "Preferences" tab of this window, check the "Allow local (LAN) access when using VPN (if configured)" check box.
+### Q. Will I be able to view internal departmental websites?
+A. No. It depends on the access restrictions of your departmental site. You are required to ask your department.
 
-<ul style="display: flex;">
-<li style="list-style: none;">
-	<img src="img/win08-anyconnect-win-pref.png" alt="anyconnect preference" style="margin:auto; width:100%; border:solid 1px black;" />
-	<p style="text-align:center"> In case of Windows </p>
-</li>
-<li style="list-style: none;">
-	<img src="img/mac09-anyconnect-mac-pref.png" alt="anyconnect preference" style="margin:auto; width:96%; border:solid 1px black;" />
-	<p style="text-align:center"> In case of macOS </p>
-</li>
-</ul>
-
-### Troubleshooting
-#### Q. Does "UTokyo faculty and staff with a UTokyo Account" mean those who are employed by UTokyo? Or does it include temporary staff, visiting researchers, and others who are working or conducting research at UTokyo?
-- A. In addition to the former category, it includes temporary staff, visiting researchers, and others who are working or conducting research at UTokyo.
-
-#### Q. Can I access the employee ID card issued and employment management system from off-campus?
-- A. Yes, you can access the employee ID card issued and employment management systems from off-campus by connecting to the UTokyo VPN.
-
-#### Q. Will I be able to view internal departmental websites?
-- A. No. It depends on the access restrictions of your departmental site. You are required to ask your department.
-
-#### Q. Is it necessary to get a new account every six months like a UTokyo WiFi account?
-- UTokyo VPN authentication is done with a UTokyo Account, not a UTokyo WiFi account. Therefore, you can continue to use UTokyo VPN without changing it. However, users are required to complete an information security training session, annually.
-
-#### Q. I arrived after the period of the information security training was over.
-- You can use the UTokyo VPN from the time you arrive. Please read the "Information Security Education Materials" on the Information Security Education page carefully before using UTokyo VPN. If you have not completed the training, you face the risk of being banned from the VPN connection sooner or later.
-
-#### Q. Can I apply for and set up UTokyo VPN outside of the campus?
-- Yes, you can.
+### Q. Is it necessary to get a new account every six months like a UTokyo WiFi account?
+UTokyo VPN authentication is done with a UTokyo Account, not a UTokyo WiFi account. Therefore, you can continue to use UTokyo VPN without changing it. However, users are required to complete an information security training session, annually.
 
 ## Regulations (only in Japanese)
 {:#regulations}

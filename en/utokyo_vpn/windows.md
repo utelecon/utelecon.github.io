@@ -15,13 +15,17 @@ Install the application “AnyConnect” on your device to connect to UTokyo VPN
 
 ![](img/win01-vpn1-login.png){:.medium.center.border}
 
-**Step B:** After the log-in, a download page for the AnyConnect client application, as illustrated below, will appear. Click “Download for Windows” to download the client application.
+{% include_relative _help_mfa.html %}
 
-After these steps, install the application as you would do for any other Windows application.
+**Step B:** After the log-in, a download page for the AnyConnect client application, as illustrated below, will appear. Click “Download for Windows” to download the client application.
 
 ![](img/win02-download-page.png){:.medium.center.border}
 
-If the download page does not appear but is a blank page, please access [this page](https://vpn1.adm.u-tokyo.ac.jp/+CSCOE+/logon.html?tgroup=utvpn-tunnel-group).
+{% include_relative _help_white.html %}
+{% include_relative _help_security_session.html %}
+{% comment %}{% include_relative _help_security_username.html %}{% endcomment %}
+
+After these steps, install the application as you would do for any other Windows application.
 
 **Step C:** End User License Agreement, please select “I accept the terms in the License Agreement” and click “Next” to proceed.
 
@@ -49,6 +53,9 @@ The following steps are required, every time to use the VPN. Please note that yo
 **Step F:** After clicking the “Connect” button, the following UTokyo Account authentication window appears. Log in with your UTokyo Account.
 
 ![](img/win09-anyconnect-login.png){:.medium.center.border}
+
+{% include_relative _help_multiple_users.html %}
+{% include_relative _help_mfa.html %}
 
 **Step G:** If the window displaying “Connected: vpn1.adm.u-tokyo.ac.jp” appears as illustrated below, your device is connected to the VPN. Communication is performed via this VPN while connected to the University of Tokyo campus network. Except for some communication platforms such as Zoom and WebEx that do not require a VPN connection and e-journal sites, all communications occur via this VPN, connecting to the University of Tokyo campus network.
 
