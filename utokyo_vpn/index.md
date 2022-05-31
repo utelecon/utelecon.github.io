@@ -30,7 +30,7 @@ UTokyo VPN経由で電子ジャーナル等にアクセスすることはでき�
 - iPadOS: iPadOS 14，15
 
 ### 情報セキュリティ教育
-{:#jouhou-security}
+{:#information-security-education}
 
 東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，UTokyo VPNの利用資格を停止します．**
 
@@ -49,7 +49,7 @@ UTokyo VPN経由で電子ジャーナル等にアクセスすることはでき�
 セキュリティの観点より，UTokyo VPNの利用に当たってはUTokyo Accountの多要素認証の有効化を必須としております．「**[UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)**」のページにある初期設定手順を**最後の「手順4：多要素認証の利用を申請する」まで確実に**行って，UTokyo Accountの多要素認証を有効にしてください．その後，多要素認証の設定が**システムに反映されるまで約40分かかるので，それまでしばらく待ってからUTokyo VPNを利用**してください．
 
 ## UTokyo VPNの利用手順
-{:#how-to-install-use}
+{:#how-to-use}
 
 VPNクライアントアプリケーションを端末にインストールし，UTokyo VPNに接続する方法をOSごとに説明しています．なお，UTokyo VPNの設定は学外からも行うことができます．
 
@@ -67,16 +67,16 @@ VPNクライアントアプリケーションを端末にインストールし�
 
 UTokyo VPN接続時は，そのままだとコンピュータの繋がっているローカルネットワークへの通信もVPNを経由します．VPNに接続したままローカルネットワークに設置されたプリンタ等を利用したい場合は，AnyConnect Secure Mobility Clientのウィンドウの左下，歯車のボタンをクリックしてください．すると下記のようなウィンドウが出てきます．このウィンドウの「Preferences」タブから，「Allow local (LAN) access when using VPN (if configured)」にチェックをつけてください．
 
-<ul style="display: flex;">
-<li style="list-style: none;">
-	<img src="img/win08-anyconnect-win-pref.png" alt="anyconnect preference" style="margin:auto; width:100%; border:solid 1px black;" />
-	<p style="text-align:center"> Windowsの場合 </p>
-</li>
-<li style="list-style: none;">
-	<img src="img/mac09-anyconnect-mac-pref.png" alt="anyconnect preference" style="margin:auto; width:96%; border:solid 1px black;" />
-	<p style="text-align:center"> macOSの場合 </p>
-</li>
-</ul>
+<div class="gallery">
+  <figure class="center">
+    <img src="img/win08-anyconnect-win-pref.png" class="border">
+    <figcaption>Windowsの場合</figcaption>
+  </figure>
+  <figure class="center">
+    <img src="img/mac09-anyconnect-mac-pref.png" class="border">
+    <figcaption>macOSの場合</figcaption>
+  </figure>
+</div>
 
 ### Q. 利用対象者は「UTokyo Accountを持つ本学構成員（教職員および学生）」とあるが，本学の学生と雇用者に限られるという事か．それとも，派遣職員や客員研究員等，本学で勤務または研究している者も含まれるか
 

@@ -12,9 +12,9 @@ title: macOS端末でUTokyo VPNを利用する
 まずはUTokyo VPNに接続するために必要なアプリケーションを端末にインストールします．
 
 **手順A:**
-[https://vpn1.adm.u-tokyo.ac.jp](https://vpn1.adm.u-tokyo.ac.jp) にアクセスします．下記のようにUTokyo Accountの認証ページが表示されたら，ご自身のUTokyo Accountでサインインしてください．
+[https://vpn1.adm.u-tokyo.ac.jp/](https://vpn1.adm.u-tokyo.ac.jp/) にアクセスします．下記のようにUTokyo Accountの認証ページが表示されたら，ご自身のUTokyo Accountでサインインしてください．
 
-<img src="img/mac01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
+![](img/mac01-vpn1-login.png){:.medium.center.border}
 
 {% include_relative _help_mfa.html %}
 
@@ -22,33 +22,30 @@ title: macOS端末でUTokyo VPNを利用する
 
 その後は他のmacOS用アプリケーションと同様にインストールします．
 
-<img src="img/mac02-download-page.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
-
-<img src="img/mac03-install-1.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
+![](img/mac02-download-page.png){:.medium.center.border}
+![](img/mac03-install-1.png){:.medium.center.border}
 
 {% include_relative _help_white.html %}
 {% include_relative _help_security_session.html %}
 {% include_relative _help_security_username.html %}
 
-**手順C:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウがでる場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また右のようなウィンドウが表示されますので，これも許可をしてください．
+**手順C:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウがでる場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また2枚目のようなウィンドウが表示されますので，これも許可をしてください．
 
-<ul style="display: flex;">
-<li style="list-style: none;">
-  <img src="img/mac04-install-2.png" alt="blocking anyconnect" style="margin:auto; width:95%; border:solid 1px black;" /></li>
-<li style="list-style: none;">
-  <img src="img/mac05-install-3.png" alt="warning for anyconnect socket filter" style="margin:auto; width:95%; border:solid 1px black;" /></li>
-</ul>
+<figure class="gallery">
+  <img src="img/mac04-install-2.png" class="border">
+  <img src="img/mac05-install-3.png" class="border">
+</figure>
 
 **手順D:** インストールが完了すると，アプリケーションフォルダに「Cisco」というフォルダが作成され，その中にAnyConnectのクライアントアプリケーションであるCisco AnyConnect Secure Mobility Client.appがインストールされています．
 
-<img src="img/mac06-cisco-on-app.png" alt="anyconnect as an installed app" style="margin:auto; border:solid 1px black;" />
+![](img/mac06-cisco-on-app.png){:.medium.center.border}
 
 これで準備は完了です．
 
 macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリケーションをインストールすると，「システム環境設定」→「ネットワーク」に下記のような Cisco AnyConnect Socket Filter という3つの拡張機能が追加されます．これらの拡張機能はUTokyo VPN接続時に通信を振り分けるために必要な機能として常駐しており，通信内容の記録やホスト外への情報送付も行いません．
 またこれらはUTokyo VPNに接続しているか否かに関わらず常時接続状態になります．
 
-<img src="img/mac07-macos-pref.png" alt="running anyconnect socket filter" style="margin:auto; width:75%; border:solid 1px black;" />
+![](img/mac07-macos-pref.png){:.medium.center.border}
 
 ## 利用編: UTokyo VPNへの接続
 {:#connect}
@@ -57,14 +54,14 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 
 **手順E:** 準備編でインストールしたCisco Anyconnect Secure MobilityClientを起動すると，下記のようなウィンドウが出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「Connect」ボタンをクリックします．
 
-<img src="img/mac08-app-window-connect.png" alt="anyconnect window" style="margin:auto; width:75%; border:solid 1px black;" />
+![](img/mac08-app-window-connect.png){:.medium.center.border}
 
 **手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでサインインしてください．
 
 {% include_relative _help_multiple_users.html %}
 {% include_relative _help_mfa.html %}
 
-<img src="img/mac10-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
+![](img/mac10-anyconnect-login.png){:.medium.center.border}
 
 **手順G:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
@@ -72,7 +69,7 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 
 VPNを切断する際は，このウィンドウの「Disconnect」ボタンをクリックしてください．
 
-<img src="img/mac11-vpn-connected-window.png" alt="anyconnect connected window" style="margin:auto; width:75%; border:solid 1px black;" />
+![](img/mac11-vpn-connected-window.png){:.medium.center.border}
 
 ---
 
