@@ -9,11 +9,13 @@ img.large {
 }
 
 img.medium {
-  width: 40rem;
+  max-width: 40rem; /* for IE11 */
+  max-width: min(100%, 40rem);
 }
 
 img.small {
-  width: 30rem;
+  max-width: 30rem; /* for IE11 */
+  max-width: min(100%, 30rem);
   max-height: 30rem;
 }
 
@@ -24,6 +26,11 @@ img.inline {
 img.logo {
   display: inline;
   max-height: 2em;
+}
+
+img.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.border {
@@ -42,8 +49,36 @@ img.shadow {
 figure {
   margin-left: 0;
   margin-right: 0;
+  width: fit-content;
+  &.center {
+    margin-left: auto;
+    margin-right: auto;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    figcaption {
+      text-align: center;
+    }
+  }
 }
 
 figcaption {
   font-size: 0.75em;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  > img {
+    min-width: 0;
+  }
+  > * {
+    margin: 0 !important;
+  }
+  @media (max-width: 640px) {
+    flex-flow: column;
+    align-items: center;
+  }
 }
