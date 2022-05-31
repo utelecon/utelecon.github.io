@@ -23,11 +23,11 @@ UTokyo VPN経由で電子ジャーナル等にアクセスすることはでき�
 
 **利用できる端末の種類:** UTokyo VPNは，WindowsやmacOSなどのコンピュータで利用できます．また，AndroidやiPhone，iPadなどのモバイル端末からも利用可能です．サポートされているバージョンはそれぞれ以下の通りです．
 
-- Windows: Windows 8.1，10，11
-- macOS: macOS 10.15 Catalina，11 Big Sur，12 Monterey
-- Android: Android 9，10，11，12
-- iOS: iOS 14，15
-- iPadOS: iPadOS 14，15
+- Windows: Windows 8.1, 10, 11
+- macOS: macOS 10.15 Catalina, 11 Big Sur, 12 Monterey
+- Android: Android 9, 10, 11, 12
+- iOS: iOS 14, 15
+- iPadOS: iPadOS 14, 15
 
 ### 情報セキュリティ教育
 {:#information-security-education}
