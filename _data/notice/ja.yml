@@ -1,5 +1,8 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
+-
+  date: 2022-06-01
+  content: "[UTokyo Account利用者メニューのメンテナンス(2022/6/6)](/notice/2022/0606-accouht)"
 - 
   date: 2022-05-22
   content: "[クラスサポーター制度受付終了日について](/supporters/class_2022)"
