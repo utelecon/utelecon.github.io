@@ -94,7 +94,7 @@ Or, if you are familiar with Github, please fork the utelecon Github, add your m
 
 ## Improving Work Efficiency
 
-* **How to Automatically Create Multiple Files in a Google Spreadsheet With Sequential Numbers and Get a List of “Shareable Links” URLs** [\[PDF\]](saito_gas.pdf) [\[Script\]](saito_ script.txt)(in Japanese)
+* **How to Automatically Create Multiple Files in a Google Spreadsheet With Sequential Numbers and Get a List of “Shareable Links” URLs** [\[PDF\]](saito_gas.pdf) [\[Script\]](saito_script.txt)(in Japanese)
 	* Contributed by Prof. Saito, Graduate School and College of Arts and Sciences
 
 

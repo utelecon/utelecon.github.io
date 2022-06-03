@@ -11,7 +11,7 @@ To participate in a “simultaneous interactive” online class, you will first 
 * The URL can also be found in the "[UTokyo Online Class Search (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)".
 * For some classes, the URL information may be announced by other means (e.g., in other sections of  ITC-LMS or in the [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do) syllabus).
 
-For details, please refer to "[How to Obtain the Online Class URL (for Students)](/en/oc/url.md) ".
+For details, please refer to "[How to Obtain the Online Class URL (for Students)](/en/oc/url) ".
 
 
 ## Sign in to the Web Conference System
