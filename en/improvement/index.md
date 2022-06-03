@@ -83,7 +83,7 @@ If you like to send us new information, please contact us here.
 
 * **Practical example of online board writing with a tablet or electronic whiteboard**[\[Website\]](http://noneq.c.u-tokyo.ac.jp/online_lecture.html)(Dr. Shagawa, Graduate School of Engineering) This article summarizes the disadvantages and advantages of using tablets and electronic whiteboards in the classroom.
 
-* **Online lecture with a laptop** [\[Powerpoint\]](/online/shared/online_example_1pc.pptx) [\[Movie(MPEG4)]](/online/shared/online_example_1pc.mp4) (Prof. Kawahara, Graduate School of Engineering): This tutorial explains how to conduct a board lecture online with a video.
+* **Online lecture with a laptop** [\[Powerpoint\]](/online/shared/online_example_1pc.pptx) [\[Movie(MPEG4)\]](/online/shared/online_example_1pc.mp4) (Prof. Kawahara, Graduate School of Engineering): This tutorial explains how to conduct a board lecture online with a video.
 
 ### How to enrich your online classes
 
