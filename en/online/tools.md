@@ -191,7 +191,7 @@ Slack is a groupware app, and is a tool for communicating with group/team member
 Discord is a tool for communicating within a group or team. In addition to text chatting in Slack-like "channels", voice chatting (voice calls) is possible. The voice chatting feature is useful for holding casual meetings among friends. 
 
 - **[Discord (external site)](https://discord.com/)**: The official Discord website. 
-- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Discord.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/#discord)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Discord.
 
 
 ### LINE OpenChat
