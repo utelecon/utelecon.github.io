@@ -11,22 +11,22 @@ title: Android端末でUTokyo VPNを利用する
 
 まずはUTokyo VPNに接続するために必要なアプリを端末にインストールします．手順は通常のAndroidアプリと同様です．
 
-**手順A:** [Google Play](https://play.google.com/store/apps/details?id=com.cisco.anyconnect.vpn.android.avf)にアクセスし，Cisco Systems社のAnyConnectというアプリをインストールします．
+**手順A:** [Google Play](https://play.google.com/store/apps/details?id=com.cisco.anyconnect.vpn.android.avf)にアクセスし，Cisco Systems社のSecure Clientというアプリをインストールします．このアプリは以前，AnyConnectという名前だったので，以下の画像ではこの2つの名前が併記されています．
 
 ![](img/android01-play-store.png){:.medium.center.border}
 
-**手順B:** インストールを終えてAnyConnectアプリを開くと，下の1枚目のような画面が出るので内容を確認のうえ「OK」をタップしてください．下の2枚目のような画面が出たらインストールは完了です．
+**手順B:** インストールを終えてSecure Clientアプリを開くと，下の1枚目のような画面が出るので内容を確認のうえ「OK」をタップしてください．下の2枚目のような画面が出たらインストールは完了です．
 
 <figure class="gallery">
   <img src="img/android02-install-1.png" class="border">
   <img src="img/android03-install-2.png" class="border">
 </figure>
 
-**手順C:** 上の画面で「接続」をタップし，続いて「新しいVPN接続の追加」をタップします．下図のような「接続エディタ」が表示されるので，「サーバ」をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
+**手順C:** 上の画面で「接続」をタップし，続いて右下のプラス「＋」ボタンをタップします．下図のような「接続エディタ」が表示されるので，「サーバーアドレス」をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
 
 ![](img/android04-connect-editor.png){:.medium.center.border}
 
-**手順D:**「OK」を押して下図のようになっていることを確認したうえで画面下の「完了」をタップします．
+**手順D:**下図のようになっていることを確認したうえで画面下の「完了」をタップします．
 
 ![](img/android05-connect-editing.png){:.medium.center.border}
 
@@ -39,23 +39,23 @@ title: Android端末でUTokyo VPNを利用する
 
 <figure class="gallery">
   <img src="img/android06-home-finished-setting.png" class="border">
-  <img src="img/android07-anyconnect-authentication.png" class="border">
+  <img src="img/android07-secure-client-authentication.png" class="border">
 </figure>
 
 このとき，以下のような許可を求める画面が出ることがあります．その場合は内容を確認のうえで「OK」を押してください．
 
-![](img/android08-anyconnect-verify-window.png){:.medium.center.border}
+![](img/android08-secure-client-verify-window.png){:.medium.center.border}
 
 {% include_relative _help_mfa.html %}
 {% include_relative _help_multiple_users.html %}
 
 **手順F:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
-**手順G:** 下記の画面のようにAnyConnect VPNの下に「接続済み」と表示されていれば，お使いのスマホはUTokyo VPNに接続している状態です．
+**手順G:** 下記の画面のようにSecure Clientアプリの下に「接続中」と表示されていれば，お使いのスマホはUTokyo VPNに接続している状態です．
 
-![](img/android09-anyconnect-connecting.png){:.medium.center.border}
+![](img/android09-secure-client-connecting.png){:.medium.center.border}
 
-VPNを切断する際は，この画面のトグルボタンをタップして「接続解除済み」にしてください．
+VPNを切断する際は，この画面のトグルボタンをタップして「切断されました」にしてください．
 
 ---
 
