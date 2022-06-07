@@ -25,7 +25,7 @@ title: ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivir
   * 大学所有の端末については，[UTNETのページ（学内アクセス限定）](https://www.nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
 * サポート：[uteleconのサポート窓口](/support/)
 
-ただし，以下の部局の方については，[こちらのファイル（UTokyo Accountでのサインインが必要です）](https://univtokyo.sharepoint.com/:b:/s/antivirus/EQG6luOQstlIsuyyKK2z8I0BKPcbyhass4bYg5cqMkmmpA)にある窓口にお問い合わせください．
+ただし，以下の部局の方については，[こちらのファイル（UTokyo Accountでのサインインが必要です）](https://univtokyo.sharepoint.com/:b:/s/antivirus/EVCRdhZKUrxCpRCk4-8F0KsB35oP8HNB_PjP8cAnM5NHmgにある窓口にお問い合わせください．
 * 社会科学研究所
 * 工学系研究科・工学部
 * 情報理工学系研究科
@@ -34,6 +34,7 @@ title: ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivir
 * 教育学研究科・教育学部
 * カブリ数物連携宇宙研究機構
 * 史料編纂所
+* 人文社会系研究科・文学部
 
 ## 利用方法
 {:#how-to-use}
