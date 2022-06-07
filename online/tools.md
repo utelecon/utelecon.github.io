@@ -195,7 +195,7 @@ Slackはグループウェアと呼ばれるアプリの一種で，グループ
 Discordは，グループやチーム内でコミュニケーション用ツールです．Slackに似た「チャンネル」でテキストチャットがやり取りできるほか，ボイスチャット（音声による通話）も可能で，グループやチーム内で気軽なWeb会議のように使うこともできます．
 
 - **[Discord（外部サイト）](https://discord.com/)**：公式ウェブサイトです．
-- **[Discordを使って交流する](/articles/online-interaction#Discord)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Discordを使って交流する](/articles/online-interaction#discord)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### LINEオープンチャット
 {:#line-openchat}
@@ -209,17 +209,17 @@ Discordは，グループやチーム内でコミュニケーション用ツー�
 ### Wonder
 画面上にある自分のアイコンを動かすことで部屋を移動できることが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
 - **[Wonder（外部サイト）](https://www.wonder.me/)**：Wonderの公式サイトです．
-- **[Wonderを使って交流する](/articles/online-interaction#Wonder)**：Wonderを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Wonderを使って交流する](/articles/online-interaction#wonder)**：Wonderを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### Gather
 レトロゲーム風の遊び心のあるUIが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
 - **[Gather（外部サイト）](https://www.gather.town/)**：Gatherの公式サイトです．
-- **[Gatherを使って交流する](/articles/online-interaction#Gather)**：Gatherを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Gatherを使って交流する](/articles/online-interaction#gather)**：Gatherを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### Remo
 画面上にある自分のアイコンを動かすことで擬似的な「テーブル」を移動できることが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
 - **[Remo（外部サイト）](https://jp.remo.co/)**：Remoの公式サイトです．
-- **[Remoを使って交流する](/articles/online-interaction#Remo)**：Remoを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Remoを使って交流する](/articles/online-interaction#remo)**：Remoを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### SpatialChat
 SpatialChatは，画面上での他の人との「距離」によって音量が変化する会議ツールです．

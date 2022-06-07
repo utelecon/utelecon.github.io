@@ -42,8 +42,10 @@ A “learning management system” is a system that supports the exchange of dat
 
 ### ITC-LMS
 ITC-LMS is UTokyo’s learning management system. It provides functions such as distribution of class materials, submission of assignments, online examinations, and notifications from faculty members to students. One of ITC-LMS’s advantages is that it is **easy to pass information "only to the students of UTokyo '' or "only to the students of a specific class"** because ITC-LMS is linked to the UTokyo Account and UTokyo Academic Affairs System (UTAS, UTokyo’s course registration system). ITC-LMS is also **widely used by students**, so we recommend that you make ITC-LMS the first choice for distributing class materials and exchanging assignments.
-
--  **[utelecon’s ITC-LMS Page](/en/itc_lms/)**
+{%- comment -%}
+-  **[utelecon’s ITC-LMS Page (For students)](/en/lms_students/)**
+{%- endcomment %}
+-  **[utelecon’s ITC-LMS Page (For instructors)](/en/lms_lecturers/)**
 
 ### Google Classroom
 
@@ -189,7 +191,7 @@ Slack is a groupware app, and is a tool for communicating with group/team member
 Discord is a tool for communicating within a group or team. In addition to text chatting in Slack-like "channels", voice chatting (voice calls) is possible. The voice chatting feature is useful for holding casual meetings among friends. 
 
 - **[Discord (external site)](https://discord.com/)**: The official Discord website. 
-- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Discord.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/#discord)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Discord.
 
 
 ### LINE OpenChat
@@ -204,19 +206,19 @@ LINE OpenChat is a feature of the LINE messaging app that allows users to create
 ### Wonder
 Wonder is a conference tool that allows you to move around in a virtual room by moving your icon on the screen. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
 - **[Wonder (external site)](https://www.wonder.me/)**: The official Wonder site.
-- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#Wonder)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Wonder.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#wonder)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Wonder.
 
 It is a tool that can be used for online calls for interaction, which is a little different from formal web conferencing such as Zoom or Webex.
 
 ### Gather
 Gather is a conference tool with a playful retro-game style UI. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
 - **[Gather (external site)](https://www.gather.town/)**: The official Gather site．
-- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#Gather)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Gather.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#gather)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Gather.
 
 ### Remo
 Remo is a web conference tool that allows you to join different meetings by moving your icon  between pseudo “tables” on your screen. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
 - **[Remo (external site)](https://remo.co/)**: The official Remo site.
-- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#Remo)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Remo.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#remo)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Remo.
 
 ### SpatialChat
 SpatialChat is a conference tool in which the sound volume changes depending on the "distance" between you and other users on the screen.

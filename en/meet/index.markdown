@@ -134,7 +134,7 @@ Organizers should prepare for broadcasting as follows.
     <blockquote>
       <img src="img/streaming_start.png" width="400"/>
     </blockquote>
-1. <b>Direction to attendees:</b> Click <img src="img/downarrow" /> button for "copy streaming information".
+1. <b>Direction to attendees:</b> Click <img src="img/downarrow.png" /> button for "copy streaming information".
     <blockquote>
       <img src="img/streaming_start.png" width="400"/>
     </blockquote>
