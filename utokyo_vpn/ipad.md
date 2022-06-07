@@ -41,8 +41,8 @@ title: iPadでUTokyo VPNを利用する
 **手順E:** 下図1枚目のように画面左上の「接続」に「vpn1.adm.u-tokyo.ac.jp」と記載されていることを確認してください．次に「AnyConnect VPN」の横のトグルボタンをONにして，下図2枚目のようにUTokyo Accountの認証ウィンドウが表示されたら，ご自身のUTokyo Accountでサインインしてください．前回のアクセスから時間をおかずに起動した場合は，この画面が表示されないで直ちにVPN接続が開始されることもあります．
 
 <figure class="gallery">
-  <img src="img/mac04-install-2.png" class="border">
-  <img src="img/mac05-install-3.png" class="border">
+  <img src="img/ipad06-home-finished-setting.png" class="border">
+  <img src="img/ipad07-anyconnect-authentication.png" class="border">
 </figure>
 
 {% include_relative _help_mfa.html %}
