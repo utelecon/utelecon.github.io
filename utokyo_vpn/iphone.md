@@ -10,11 +10,11 @@ title: iPhoneでUTokyo VPNを利用する
 
 まずはUTokyo VPNに接続するために必要なアプリを端末にインストールし，初期設定を行います．手順は通常のiOSアプリと同様です．
 
-**手順A:** [App Store](https://apps.apple.com/jp/app/cisco-anyconnect/id1135064690) にアクセスし，Cisco社のCisco AnyConnectというアプリをインストールします．
+**手順A:** [App Store](https://apps.apple.com/jp/app/cisco-anyconnect/id1135064690) にアクセスし，Cisco社のCisco Secure Clientというアプリをインストールします．
 
 ![](img/iphone01-app-store.png){:.medium.center.border}
 
-**手順B:** インストールを終えてAnyConnectアプリを開くと，下図の1枚目のような画面が出ることを確認します．これでインストールは完了です．なお，開く際に下図の2枚目のように通知の送信について確認するウィンドウが表示されることがありますが，いずれを選択しても構いません．
+**手順B:** インストールを終えてSecure Clientアプリを開くと，下図の1枚目のような画面が出ることを確認します．これでインストールは完了です．なお，開く際に下図の2枚目のように通知の送信について確認するウィンドウが表示されることがありますが，いずれを選択しても構いません．
 
 <figure class="gallery">
   <img src="img/iphone02-setup_home.png" class="border">
