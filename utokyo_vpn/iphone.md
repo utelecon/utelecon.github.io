@@ -21,7 +21,7 @@ title: iPhoneでUTokyo VPNを利用する
   <img src="img/iphone03-setup_home_popup_notify.png" class="border">
 </figure>
 
-**手順C:** アプリを起動した直後の画面で左上の「接続」をタップし，続いて表示される画面で「VPN接続の追加」をタップすると，下図のようなウィンドウが表示されます．「サーバ」の横の入力欄をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
+**手順C:** アプリを起動した直後の画面で左上の「接続」をタップし，続いて表示される画面で「VPN接続の追加」をタップすると，下図のようなウィンドウが表示されます．「サーバーアドレス」の横の入力欄をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
 
 ![](img/iphone04-setup_home_connections_add-vpn-connection.png){:.medium.center.border}
 
