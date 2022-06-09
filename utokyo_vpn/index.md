@@ -51,7 +51,7 @@ UTokyo VPN経由で電子ジャーナル等にアクセスすることはでき�
 ## UTokyo VPNの利用手順
 {:#how-to-use}
 
-VPNクライアントアプリケーションを端末にインストールし，UTokyo VPNに接続する方法をOSごとに説明しています．なお，UTokyo VPNの設定は学外からも行うことができます．
+UTokyo VPNを利用するには，専用のアプリ「Cisco AnyConnect」または「Cisco Secure Client」を端末にインストールし，接続を行います．以下の各ページで，OSごとにその方法を説明しています．なお，初期設定を含めたすべての作業を学外から行うことが可能です．
 
 * [Windows端末でUTokyo VPNを利用する](windows)
 * [macOS端末でUTokyo VPNを利用する](macos)
