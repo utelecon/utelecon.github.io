@@ -22,7 +22,7 @@ title: Android端末でUTokyo VPNを利用する
   <img src="img/android03-install-2.png" class="border">
 </figure>
 
-**手順C:** 上の画面で「接続」をタップし，続いて右下のプラス「＋」ボタンをタップします．下図のような「接続エディタ」が表示されるので，「サーバーアドレス」をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
+**手順C:** 上の画面で「Connections」（日本語で表示されている場合は「接続」）をタップし，続いて右下のプラス「＋」ボタンをタップします．下図のような「接続エディタ」が表示されるので，「サーバーアドレス」をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
 
 ![](img/android04-connect-editor.png){:.medium.center.border}
 
