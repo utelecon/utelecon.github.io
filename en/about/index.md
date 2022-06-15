@@ -15,7 +15,7 @@ Although some of the content is for the students, faculty, and staff of the Univ
 Launched in March 2020, utelecon is a portal site consolidating information on online classes and web conferencing, allowing students, faculty, and staff to smoothly adopt such services.  
 The faculty and staff from the University of Tokyo's Information Technology Center, Center for Research and Development of Higher Education,  the Graduate School of Arts and Sciences, the Organization for the Advancement of Liberal Arts Education (KOMEX), the First Year Education Division, Division for Information and Communication Systems, Information Systems Department, and the Information Technology Team in the Graduate School of Science all collaborated in establishing utelecon.  
 
-In addition, our students are involved as Online Education Supporters (OES) in writing articles published on utelecon and their translation into English. For details, please see the “About Online Education Supporters” section.  
+In addition, our students are involved as Online Education Supporters (OES) in writing articles published on utelecon and their translation into English. For details, please see the “[About Online Education Supporters](oes)” section.  
 
 ## About each type of content  
 
