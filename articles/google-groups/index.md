@@ -166,7 +166,7 @@ Google グループの共有トレイ機能を使うことで，会話にラベ�
 
 ### Google ドライブとの連携
 Google ドライブでの資料共有の際にグループのアドレスを用いることで，グループメンバー全員に一斉に共有することができます．共有の仕方に関しては，以下のリンクを参照して下さい．  
-[Google ドライブとの連携](https://www.google.com/url?q=https://utelecon.adm.u-tokyo.ac.jp/articles/google-drive/&sa=D&source=docs&ust=1635840823419000&usg=AOvVaw0rUKZ-ymufjABlKAZdaMma)
+[Google ドライブとの連携](/articles/google-drive/)
 
 
 ### Google カレンダーとの連携
