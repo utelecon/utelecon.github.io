@@ -37,7 +37,7 @@ Note: The below list explains how to resolve issues specifically for Zoom, which
 {:#form}
 If you have checked the above troubleshooting list but still cannot enter the web conference room, please contact your instructor or the department/graduate school that hosts the class. 
 
-If you cannot reach your instructor or the department/graduate school, please submit the **“[Consultation Form of utelecon Support Desk](https://forms.gle/qHXyJ7W6e3YBUkW97)”** for assistance.Please make sure you select “Online Class Entry Troubles Reporting” from the “What is your inquiry?” section on the form.Your instructor or corresponding department/graduate school should contact you shortly.
+If you cannot reach your instructor or the department/graduate school, please submit the **“[Consultation Form of utelecon Support Desk](https://forms.gle/AQevtbkCgRvn6wc39)”** for assistance.Please make sure you select “Online Class Entry Troubles Reporting” from the “What is your inquiry?” section on the form.Your instructor or corresponding department/graduate school should contact you shortly.
 
 
 
