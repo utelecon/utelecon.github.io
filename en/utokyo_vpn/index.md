@@ -88,6 +88,7 @@ UTokyo VPN authentication is done with a UTokyo Account, not a UTokyo WiFi accou
 - [UTokyo VPN Usage Regulations](/utokyo_vpn/terms/UTokyoVPN-User-Term.pdf)
 - [UTokyo VPN Operation Regulations](/utokyo_vpn/terms/UTokyoVPN-Operation-Term.pdf)
 
-## Inquiry form
-{:#inquiry-form}
-Please use [this UTokyo VPN inquiry form](https://forms.office.com/r/U0R5L40D3e) to contact us.
+## Inquiry
+{:#inquiry}
+
+Please contact via [Techinical Support Desk](/en/support/).

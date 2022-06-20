@@ -105,7 +105,7 @@ UTokyo VPNの認証はUTokyo WiFiのアカウントではなくUTokyo Accountで
 - [UTokyo VPN運用規程](terms/UTokyoVPN-Operation-Term.pdf)
 
 
-## お問合せフォーム
-{:#inquiry-form}
+## 問い合わせ
+{:#inquiry}
 
-お問合せはこちらの [UTokyo VPN問い合わせフォーム](https://forms.office.com/r/U0R5L40D3e) からお願いいたします．
+問い合わせは**[サポート窓口](/support/)**で受け付けています．
