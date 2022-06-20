@@ -60,7 +60,7 @@ Inquiries that include confidential information such as personal grades will be 
 <div>Business hours: 24 hours</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
-<a href="https://forms.gle/qHXyJ7W6e3YBUkW97">Submit an email form</a>
+<a href="https://forms.gle/AQevtbkCgRvn6wc39">Submit an email form</a>
 </div>
 
 
