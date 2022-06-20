@@ -11,13 +11,12 @@ slug: support
 
 ## Important Notes on Privacy and Confidentiality of Information 
 
-* To ensure prompt responses, **inquiries are handled mainly by student staff**. Please keep this in mind and **do NOT include any confidential information when sending your inquiries.**
+* To ensure prompt response, **the support desk is generally staffed by students, as well as faculty staff. Please be aware of that fact when you make inquiries.**
+    * Student staff have signed confidentiality agreements and handle information under the control and supervision of faculty members.
+    * **If your inquiry contains sensitive information (such as grade information) that is inappropriate to be handled by student staff, please check the box indicating so in the form. Only faculty members will handle the inquiry.** However, there may be a delay in the reply in such cases.
 * If you have an inquiry where you need to disclose confidential information, such as personal grades, **please use the email form, and click on the “I would like to be supported only by faculty members” checkbox when submitting the form. The inquiry will be handled only by faculty members.** Please understand that response time will be longer in such cases. 
 * If you have any questions or concerns about examinations, **please first contact your instructor or the department/graduate school that offers the examination. If you wish to contact the Technical Support Desk regarding examinations**, please contact us only through the email form. 
 * Information obtained from inquiries will be used for replying to and performing tasks related to the inquiry. Information may be shared internally to improve future support service. Information may also be disclosed to the public in individually unidentifiable form for the purpose of introducing UTokyo’s support initiatives through case studies and statistical information, etc. Information will not be used for any other purposes except for exceptions specified by laws and regulations.
-* Student staff have signed confidentiality agreements and handle information under the control and supervision of faculty members. 
-
-
 
 ## Support via Chat
 {:#chat}
@@ -55,7 +54,7 @@ When you access the Zoom meeting room, you will first be taken to a waiting room
 
 Email form support is available for difficult/complicated inquiries. A student operator (also called “Common Supporter”) will respond to your inquiry through email. Faculty members will take over if the issue cannot be resolved by student staff.
 
-Inquiries that include confidential information such as personal grades will be handled only by faculty members. To ensure that such inquiries are directly sent to faculty members (and not opened by student operators), please check the “I would like to be supported only by faculty members” checkbox in the email form. 
+If your inquiry contains sensitive information (such as grade information) that is inappropriate to be handled by student staff, please check the box indicating so in the form. Only faculty members will handle the inquiry. However, there may be a delay in the reply in such cases.
 
 <div>Business hours: 24 hours</div>
 
