@@ -18,7 +18,9 @@ title: UTokyo Account以外のサインインでのZoomの利用について
 
 現在利用している，UTokyo Accountサインインではないアカウント（ECCSクラウドメールの自分で設定したメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` など）が不要の場合，**[Zoomのサインインの仕方](/zoom/signin)**のページに書かれている手順でZoomにサインインすると，新たにUTokyo Accountでサインインするアカウントを利用開始することができますので，今後はそちらを利用していただければ十分です．
 
+<!--
 なお，UTokyo AccountサインインではないZoomアカウントについては，管理者の方で削除しますので，[不要なZoomアカウント削除フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNTBGSjJPN0ZWN0RIVFI2TVZZODZNT0xRRy4u)からご連絡ください．
+-->
 
 ## 当該のアカウントを引き継ぎたい場合
 

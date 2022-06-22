@@ -20,7 +20,9 @@ Accounts that do not use UTokyo Account for sign-in will soon be completely disa
 
 In the case that your account that uses non-UTokyo Account sign-in (e.g. accounts that use ECCS Cloud Email addresses setup with the username of your choice, `xxxx@g.ecc.u-tokyo.ac.jp`) is no longer necessary, you can just abandon it and follow the instructions on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin.html) page to start using the new Zoom account which uses UTokyo Account for sign-in.
 
+<!--
 The administrator will help delete your old account. Please submit the [UTokyo Zoom Unnecessary Account Declaration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNTBGSjJPN0ZWN0RIVFI2TVZZODZNT0xRRy4u).
+-->
 
 ## If You Want to Transfer Data to Your New Zoom Account 
 
