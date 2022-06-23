@@ -165,7 +165,7 @@ OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブ
 ### Miro
 Miro社が提供するオンラインのホワイトボードツールです．
 - **[Miro（外部サイト）](https://miro.com/ja/)**：Miroの公式サイトです．
-- [Miroのオンラインホワイトボードについて](https://miro.com/ja/online-whiteboard/)（外部サイト）
+- **[Miroのオンラインホワイトボードについて（外部サイト）](https://miro.com/ja/online-whiteboard/)**
 
 ### Google Jamboard 
 Google Workspaceに含まれるホワイトボードツールです．
