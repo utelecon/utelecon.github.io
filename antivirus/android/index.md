@@ -1,5 +1,5 @@
 ---
-title:UTokyo Antivirus Licenseの利用方法(Android)
+title: UTokyo Antivirus Licenseの利用方法(Android)
 ---
 
 このページでは，UTokyo Antivirus LicenseをAndroidで利用する方法を説明します．このライセンスの概要については，「[ウイルス対策ソフトウェア包括ライセンス](..)」をご覧ください．

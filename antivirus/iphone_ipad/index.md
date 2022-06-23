@@ -1,5 +1,5 @@
 ---
-title:UTokyo Antivirus Licenseの利用方法(iOS・iPadOS)
+title: UTokyo Antivirus Licenseの利用方法(iOS・iPadOS)
 ---
 
  このページでは，UTokyo Antivirus LicenseをiOS・iPadOSで利用する方法を説明します．このライセンスの概要については，「[ウイルス対策ソフトウェア包括ライセンス](..)」をご覧ください．
