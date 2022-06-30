@@ -1,6 +1,8 @@
 google_analytics: UA-160716658-1
 plugins:
   - jekyll-redirect-from
+kramdown:
+  footnote_backlink: ↑
 sass:
   sass_dir: _sass
 lang: ja
