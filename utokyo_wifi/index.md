@@ -36,7 +36,7 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，その年度の11月1日から3月31日までUTokyo WiFiの利用資格が停止され，アカウントメニューにログインできなくなります．**
 <details>
 	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
-	この場合，UTokyo WiFiの利用資格は停止されず，着任・入学時からUTokyo WiFiを利用可能です．<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">情報セキュリティ教育のページ</a> にある「情報セキュリティ教育 教材」をよくお読みの上，UTokyo WiFiをご利用ください．なお，情報セキュリティ教育は毎年度実施されますので，来年度以降はご受講ください．
+	この場合，UTokyo WiFiの利用資格は停止されず，着任・入学時からUTokyo WiFiを利用可能です．情報セキュリティ教育のページにある「情報セキュリティ教育 教材」をよくお読みの上，UTokyo WiFiをご利用ください．なお，情報セキュリティ教育は毎年度実施されますので，来年度以降はご受講ください．
 </details>
 <details>
 	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
@@ -152,7 +152,7 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 
 ## トラブルシューティング
 
-接続にあたって問題が発生した場合は，本ページの [「利用開始までの手順」](#initial-setup) と [ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) を参照してください．
+接続にあたって問題が発生した場合は，本ページの「[利用開始までの手順](#initial-setup)」と [ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) を参照してください．
 
 ## 部局担当者向け情報
 部局担当者の方は [東大ポータルの情報](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx) を参照してください．
@@ -161,7 +161,7 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 - 問い合わせの前に次のことを確認し，ご理解いただくようお願いいたします．
 - 大変多くの問い合わせが寄せられています．大半の場合，即時の回答は困難です．
 - まずは自分でできそうな基本的なトラブルシューティングを済ませてください．
-    - 本ページにある情報，特に [「利用開始までの手順」](#initial-setup) や，[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) に記載の手順を丁寧に読みなおしてください．
+    - 本ページにある情報，特に「[利用開始までの手順](#initial-setup)」や，[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) に記載の手順を丁寧に読みなおしてください．
     - ご友人や同僚など，接続できている周りの方にも接続手順を尋ねてみてください．
 - 特定の機種や端末に即したサポートは必ずしも提供できません．あらゆる機種の端末を保有してテストすることが現実的に困難なためです．メーカーや通信キャリア等に問い合わせることも検討してください．
     - ただし一部の機種等については，[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) で詳しい設定方法が紹介されています．こちらのページもぜひ参考にしてください．
