@@ -47,6 +47,6 @@ ECCSクラウドメールの利用（アカウント作成）には[UTokyo Accou
     - [Google Meet](/meet/)：使い方をまとめたページです．
 - **Googleグループ**
     - [Googleグループの使い方](https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/27_2504.html)（ECCS広報）：情報基盤センターによる説明ページです．
-    - [Google グループの使用方法](/articles/google-groups/)：Googleドライブについて，基本的な使い方を詳細に解説しています．
+    - [Google グループの使用方法](/articles/google-groups/)：Googleグループについて，基本的な使い方を詳細に解説しています．
 - **Googleカレンダー**
     - [Google Calendarの使い方](https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/27_2505.html)（ECCS広報）：情報基盤センターによる説明ページです．
