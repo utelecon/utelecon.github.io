@@ -38,7 +38,7 @@ You can join Webex Webinars as a host, a co-host, a presenter, or a panelist, bu
 
 ### Functions for meeting hosts  
 
-* See "[DTMF Commands for Video Device-Enabled Cisco Webex Meetings](https://help.webex.com/ja-jp/article/nli1uz4/)" for the functions available while hosting a meeting via a video conferencing system.  
+* See "[DTMF Commands for Video Device-Enabled Cisco Webex Meetings](https://help.webex.com/en-us/article/nli1uz4/)" for the functions available while hosting a meeting via a video conferencing system.  
 
 
 
