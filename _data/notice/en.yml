@@ -2,6 +2,9 @@
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 # "outdated: true"を含めるとトップページに表示されなくなります（通常の利用は想定していない隠し機能です）．
 -
+  date: 2022-07-01
+  content: "[Revocation of Zoom Accounts for Those Who Have Left the University of Tokyo](/en/notice/2022/zoom-revocation)"
+-
   date: 2022-06-01
   content: "[Maintenace on UTokyo Account User Menu (June 6, 2022)](/en/notice/2022/0606-account)"
 -
