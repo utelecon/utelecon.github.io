@@ -1,6 +1,9 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2022-07-01
+  content: "[離籍者等のZoomアカウントの利用停止について](/notice/2022/zoom-revocation)"
+-
   date: 2022-06-20
   content: "[UTokyo VPNのメンテナンス(2022/6/21)](/notice/2022/0621-vpn)"
 -
