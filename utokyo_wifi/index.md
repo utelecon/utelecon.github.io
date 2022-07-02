@@ -22,10 +22,10 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 
 ### 利用上の注意
 1. UTokyo WiFiは大学の教育・研究活動および国立大学法人法が定める業務にのみ利用できます．
-2. UTokyo WiFiは，「[東京大学無線ネットワークシステム（UTokyo WiFi）利用規程](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)」に合意し，申請した者が利用できます．
+2. UTokyo WiFiは，[「東京大学無線ネットワークシステム（UTokyo WiFi）利用規程」](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)に合意し，申請した者が利用できます．
 3. UTokyo WiFiは申請者本人のみが利用できます．アカウントは第三者に貸与してはいけません．他人に盗用されないよう管理してください．
 4. UTokyo WiFiは情報セキュリティ確保を目的とした通信監視，不適切と判断するサイトへのアクセス制限を行います．
-5. UTokyo WiFiは「[東京大学無線ネットワークシステム（UTokyo WiFi）利用規程](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)」が定める禁止行為を行った場合（本学の指定する情報セキュリティ教育を受講しない等）は，アカウントを停止します．
+5. UTokyo WiFiは[「東京大学無線ネットワークシステム（UTokyo WiFi）利用規程」](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)が定める禁止行為を行った場合（本学の指定する情報セキュリティ教育を受講しない等）は，アカウントを停止します．
 6. UTokyo WiFiを利用していてセキュリティインシデントに関する連絡を受け取った場合は速やかに対応してください．
 7. UTokyo WiFiは自身のデバイスを自身で設定できる方が利用できるサービスとして提供しています．
 8. UTokyo WiFiの利用状況を個人が特定されないよう統計的に処理し，本学運営のために公開することがあります．
@@ -59,9 +59,9 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 **手順2:** アカウント情報を受け取るメールアドレスをシステムに登録する．
 - UTokyo WiFiアカウントの発行にはあらかじめメールアドレスの登録が必要です．以下の手順に従って登録を行ってください．なお，**登録されたメールアドレスが有効となるのは翌日ですので，翌日以降に手順3を実行してください．** 使用できるメールアドレスが既に登録されている場合は，そのままにして手順3に進んで構いません．
 <details><summary>教職員の場合</summary>
-    「<a href="https://login.adm.u-tokyo.ac.jp/utokyoportal">東大ポータル</a>」→「人事労務・研修」→「個人情報・職員証発行申請」→「ログイン」→「人事情報システムログイン」→「パーソナルメニュー」→「学内メールアドレス」を設定してください．</details>
+    <a href="https://login.adm.u-tokyo.ac.jp/utokyoportal">「東大ポータル」</a>→「人事労務・研修」→「個人情報・職員証発行申請」→「ログイン」→「人事情報システムログイン」→「パーソナルメニュー」→「学内メールアドレス」を設定してください．</details>
 <details><summary>学生の場合</summary>
-    「<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">学務システムUTAS</a>」→「学生情報」→「現住所等変更入力」→「E-Mail1」を設定してください．（E-Mail2のアドレスはUTokyo WiFiのメール送信先としては使えません）
+    <a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">「学務システムUTAS」</a>→「学生情報」→「現住所等変更入力」→「E-Mail1」を設定してください．（E-Mail2のアドレスはUTokyo WiFiのメール送信先としては使えません）
 </details>
 
 **手順3:** UTokyo WiFiアカウントの発行を申請する．
@@ -121,7 +121,7 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
     <li> 端末が以前のアカウントの認証情報を記憶してしまっている場合があります．
         <ul>
             <li> Wi-Fiの認証情報の削除方法はOSや端末の種類によります．それぞれの端末のマニュアルを参照してください．</li>
-            <li> WindowsやiOSについては，それぞれ <a href="https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/">ECCS相談員のページ</a> と公式ヘルプ「<a href="https://support.apple.com/ja-jp/HT208941">iPhone、iPad、iPod touch、Mac で Wi-Fi ネットワークの設定を削除する方法</a>」も参考にしてください．</li>
+            <li> WindowsやiOSについては，それぞれ <a href="https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/">ECCS相談員のページ</a> と公式ヘルプ<a href="https://support.apple.com/ja-jp/HT208941">「iPhone、iPad、iPod touch、Mac で Wi-Fi ネットワークの設定を削除する方法」</a>も参考にしてください．</li>
         </ul>
     </li>
     <li> 利用する機器が最新の状態ではないために起こる場合もあります．
@@ -152,7 +152,7 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 
 ## トラブルシューティング
 
-接続にあたって問題が発生した場合は，本ページの「[利用開始までの手順](#initial-setup)」と [ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) を参照してください．
+接続にあたって問題が発生した場合は，本ページの[「利用開始までの手順」](#initial-setup)と [ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) を参照してください．
 
 ## 部局担当者向け情報
 部局担当者の方は [東大ポータルの情報](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx) を参照してください．
@@ -161,7 +161,7 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 - 問い合わせの前に次のことを確認し，ご理解いただくようお願いいたします．
 - 大変多くの問い合わせが寄せられています．大半の場合，即時の回答は困難です．
 - まずは自分でできそうな基本的なトラブルシューティングを済ませてください．
-    - 本ページにある情報，特に「[利用開始までの手順](#initial-setup)」や，[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) に記載の手順を丁寧に読みなおしてください．
+    - 本ページにある情報，特に[「利用開始までの手順」](#initial-setup)や，[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) に記載の手順を丁寧に読みなおしてください．
     - ご友人や同僚など，接続できている周りの方にも接続手順を尋ねてみてください．
 - 特定の機種や端末に即したサポートは必ずしも提供できません．あらゆる機種の端末を保有してテストすることが現実的に困難なためです．メーカーや通信キャリア等に問い合わせることも検討してください．
     - ただし一部の機種等については，[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/) で詳しい設定方法が紹介されています．こちらのページもぜひ参考にしてください．
