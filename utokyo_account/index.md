@@ -13,7 +13,7 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 ## UTokyo Account利用上の注意
 1. UTokyo Accountは大学が組織的に受入し管理されている構成員に付与します．（大学が組織的に受入をしていない方には付与しません．）
 1. UTokyo Accountで利用可能なサービスは利用者の身分・所属等により異なります．
-1. UTokyo AccountおよびUTokyo Accountを利用する情報サービスにおいては[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/content/400098733.pdf)を遵守してください．（参照：[東京大学情報セキュリティポリシー](https://www.u-tokyo.ac.jp/gen03/public16_j.html)）
+1. UTokyo AccountおよびUTokyo Accountを利用する情報サービスにおいては[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/content/400156696.pdf)を遵守してください．（参照：[東京大学情報セキュリティポリシー](https://www.u-tokyo.ac.jp/gen03/public16_j.html)）
 1. UTokyo AccountおよびUTokyo Accountを利用する情報サービスにおいて情報倫理・コンピュータ利用ガイドラインを遵守しない不適切な利用，安全性の問題を生じた場合はアカウントの停止をします．
 1. UTokyo Accountの利用に際して必要な事項は本ページの情報を参照してください．
 
