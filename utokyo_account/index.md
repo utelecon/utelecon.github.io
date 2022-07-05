@@ -1,5 +1,6 @@
 ---
 title: UTokyo Account
+slug: utokyo_account # 手順を外部ファイルからincludeするときに使う
 ---
 
 ## UTokyo Accountとは
