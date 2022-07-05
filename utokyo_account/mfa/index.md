@@ -3,10 +3,6 @@ title: UTokyo Accountにおける多要素認証の利用について
 css: [mfa]
 ---
 
-<strong class="box--important box--alert">
-<a href="/notice/2022/0704-mfa">au携帯電話サービス等の障害に伴うUTokyo Accountの多要素認証に関する緊急対応</a>
-</strong>
-
 ## はじめに
 {:#introduction}
 
