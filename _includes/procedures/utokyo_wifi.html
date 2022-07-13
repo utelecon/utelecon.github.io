@@ -80,7 +80,7 @@
 {% unless include.part == "important" %}
 <ul class="procedure">
 {% endunless %}
-{% case page.slug %}{% when "oc"}
+{% case page.slug %}{% when "oc" %}
   {% include procedures/_important.html procedure=apply_for_account type="作業" heading="アカウントを申請する" %}
   {% when "utokyo_wifi" %}
   {% include procedures/_important.html procedure=apply_for_account type="手順3" heading="UTokyo WiFiアカウントの発行を申請する．" %}
