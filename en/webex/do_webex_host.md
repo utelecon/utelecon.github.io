@@ -124,12 +124,12 @@ When hosting a highly confidential meeting, you may lock the meeting to prevent 
 - It may take some time after the meeting ends for the attendance reports to be generated.
 
 1. Click "Calendar" on the left side of the home page.
-![](img/webex_home_calendar.jpg){:.border}
+![](img/webex_home_calendar.png){:.border}
 1. Click "Completed" and select the meeting for which you wish to obtain the participant list.
    * Only meetings from the last 7 days are displayed by default. Search for earlier dates by selecting them from the date selector.
-![](img/webex_calendar_completed.jpg){:.border}
+![](img/webex_calendar_completed.png){:.border}
 1. The participant list will be displayed.You may export the information by selecting “Export attendance report".
-![](img/webex_participants_report.jpg){:.border}
+![](img/webex_participants_report.png){:.border}
    - You may download the information as a CSV file containing details such as the participants’ names, e-mail addresses, and connection time.
 
 ## Activating Slido
