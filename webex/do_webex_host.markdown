@@ -176,7 +176,7 @@ title: Webex ミーティング・ウェビナーでできること（開催者�
 
 1. PollとQ&Aを切替える
 ![](img/webex_slido_do_host_tab.png){:.border}
-	* タブでPoolsとQ&Aを切替えることができます．
+	* タブでPollsとQ&Aを切替えることができます．
 1. Pollsを操作する
 ![](img/webex_slido_do_host_poll_m.png){:.border}
 	* Listタブの①実行/停止ボタンでPollの実行/停止を操作します.
