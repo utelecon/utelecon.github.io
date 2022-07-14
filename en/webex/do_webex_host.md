@@ -1,5 +1,6 @@
 ---
-tittle: Things You Can Do in Webex Meetings and Webex Webinars (Host)
+title: Things You Can Do in Webex Meetings and Webex Webinars (Host)
+lang: en
 ---
 
 - This article provides an overview of Webex Meetings and Webex Webinars features specific to the host.
