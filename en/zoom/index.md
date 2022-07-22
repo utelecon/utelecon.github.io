@@ -80,5 +80,5 @@ For an overview of usages during a meeting, please refer to "[Usages in Zoom Mee
 - [End-to-End (E2E) Encryption (in Japanese)](/zoom/misc/e2e/)
 - [Using Different Accounts (in Japanese)](/zoom/misc/multiple_accounts/)
 {%- endcomment %}
-- [How to Reduce Zoom Traffic in Online Classes (in Japanese)](/articles/zoom-data-traffic)
+- [How to Reduce Zoom Traffic in Online Classes](/en/articles/zoom-data-traffic)
 - [Online Lecture "How to Use Zoom in Online Classes" (in Japanese)](/events/2021-03-25/)
