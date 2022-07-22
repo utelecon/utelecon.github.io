@@ -23,7 +23,7 @@ Install the application “AnyConnect” on your device to connect to UTokyo VPN
 
 {% include_relative _help_white.html %}
 {% include_relative _help_security_session.html %}
-{% comment %}{% include_relative _help_security_username.html %}{% endcomment %}
+{% include_relative _help_security_username.html %}
 
 After these steps, install the application as you would do for any other Windows application.
 
