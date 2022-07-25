@@ -1,6 +1,8 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
-
+-
+  date: 2022-07-25
+  content: "[2022年度Aセメスター「コモンサポーター」募集のお知らせ](/notice/2022/0725-cs) （8月10日13時締切）"
 -
   date: 2022-07-19
   content: "2022年度の教職員向け[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)が開始されました．受講期間は8/31までです．"
