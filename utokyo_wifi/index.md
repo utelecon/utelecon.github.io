@@ -16,16 +16,16 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 
 ### 利用対象者
 - UTokyo WiFiを利用できるのは，UTokyo Accountを持つ東京大学の構成員（教職員・学生）です．
-    - 情報セキュリティ教育を受講していない場合，構成員であっても利用が停止されることがあります．詳細は[「情報セキュリティ教育」](#jouhou-security)を参照してください．
+    - 情報セキュリティ教育を受講していない場合，構成員であっても利用が停止されることがあります．詳細は「[情報セキュリティ教育](#jouhou-security)」を参照してください．
     - 卒業や修了によってUTokyo Accountが失効すると，利用できなくなります．
     - UTokyo Accountについては[UTokyo Accountのページ](/utokyo_account/)を参照してください．
 
 ### 利用上の注意
 1. UTokyo WiFiは大学の教育・研究活動および国立大学法人法が定める業務にのみ利用できます．
-2. UTokyo WiFiは，[「東京大学無線ネットワークシステム（UTokyo WiFi）利用規程」](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)に合意し，申請した者が利用できます．
+2. UTokyo WiFiは，「[東京大学無線ネットワークシステム（UTokyo WiFi）利用規程](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)」に合意し，申請した者が利用できます．
 3. UTokyo WiFiは申請者本人のみが利用できます．アカウントは第三者に貸与してはいけません．他人に盗用されないよう管理してください．
 4. UTokyo WiFiは情報セキュリティ確保を目的とした通信監視，不適切と判断するサイトへのアクセス制限を行います．
-5. UTokyo WiFiは[「東京大学無線ネットワークシステム（UTokyo WiFi）利用規程」](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)が定める禁止行為を行った場合（本学の指定する情報セキュリティ教育を受講しない等）は，アカウントを停止します．
+5. UTokyo WiFiは「[東京大学無線ネットワークシステム（UTokyo WiFi）利用規程](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)」が定める禁止行為を行った場合（本学の指定する情報セキュリティ教育を受講しない等）は，アカウントを停止します．
 6. UTokyo WiFiを利用していてセキュリティインシデントに関する連絡を受け取った場合は速やかに対応してください．
 7. UTokyo WiFiは自身のデバイスを自身で設定できる方が利用できるサービスとして提供しています．
 8. UTokyo WiFiの利用状況を個人が特定されないよう統計的に処理し，本学運営のために公開することがあります．
@@ -70,11 +70,11 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
   <ul>
     <li>学生の場合</li>
     <ul>
-      <li><a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">「学務システムUTAS」</a>→「学生情報」→「現住所等変更入力」→「E-MAIL 1」を設定してください．（E-MAIL 2のアドレスはUTokyo WiFiのメール送信先としては使えません）</li>
+      <li>「<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">学務システムUTAS</a>」にサインインし，「学生情報」から「現住所等変更入力」を選択，「E-MAIL 1」を設定してください．（E-MAIL 2のアドレスはUTokyo WiFiのメール送信先としては使えません）</li>
     </ul>
     <li>教職員の場合</li>
     <ul>
-      <li><a href="https://login.adm.u-tokyo.ac.jp/utokyoportal">「東大ポータル」</a>→「人事労務・研修」→「個人情報・職員証発行申請」→「ログイン」→「人事情報システムログイン」→「パーソナルメニュー」→「学内メールアドレス」を設定してください．</li>
+      <li>「<a href="https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx">人事情報MyWeb</a>」にログインし，「パーソナルメニュー」から「学内メールアドレス」の欄を設定してください．</li>
     </ul>
   </ul>
 </ul>
@@ -84,21 +84,21 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 ## 利用に関する情報
 ### アカウントの有効期限等
 - **UTokyo WiFiのアカウントは半年に一度，4月末と10月末に失効します**．毎年4月1日，10月1日以降に，半年後まで有効なUTokyo WiFiアカウントが再発行できるようになります．時期が来たら「UTokyo WiFiアカウントメニュー」から「新規申請」ボタンを押して再発行してください．アカウントを再発行したら，新しく発行されたユーザーID，パスワードを端末に再度設定してください．
-    - ただし，その年の情報セキュリティ教育を受講していない場合，10月1日から「UTokyo WiFiアカウントメニュー」にサインインできなくなり，したがって再発行ができません．受講対象者は[「情報セキュリティ教育」](#jouhou-security)を参照し，必ず受講するようにしてください．
+    - ただし，その年の情報セキュリティ教育を受講していない場合，10月1日から「UTokyo WiFiアカウントメニュー」にサインインできなくなり，したがって再発行ができません．受講対象者は「[情報セキュリティ教育](#jouhou-security)」を参照し，必ず受講するようにしてください．
 - UTokyo WiFiのアカウントは削除できませんが，再度「新規申請」ボタンを押してアカウントを再発行することで既存のアカウントは無効になります．
 
 ### 接続の詳細な設定
 {:#connect-configuration}
 
 |---|---|
-| **SSID:** | "UTokyo-WiFi" |
+| **SSID:** | `UTokyo-WiFi` |
 | **セキュリティ:** | WPA2-Enterprise (802.1x) |
 | **暗号化:** | AES |
 | **ネットワーク認証方式/EAP方式:** | 保護された EAP(PEAP) |
 | **サーバの証明書を検証:** | する |
-| **サーバ証明書のドメイン:** | u-tokyo.ac.jp |
-| **信頼されたルート証明機関:** | "Security Communication RootCA2" をチェック (Security Communication RootCA2, NII Open Domain CA - G7 RSA)
-| **証明書の指紋 (SHA-1 Fingerprint):** | 03:03:47:10:4B:AC:1A:95:8F:D9:E2:C1:8E:8C:D3:05:D2:02:20:AF |
+| **サーバ証明書のドメイン:** | `u-tokyo.ac.jp` |
+| **信頼されたルート証明機関:** | "Security Communication RootCA2" (Security Communication RootCA2, NII Open Domain CA - G7 RSA)
+| **証明書の指紋 (SHA-1 Fingerprint):** | `03:03:47:10:4B:AC:1A:95:8F:D9:E2:C1:8E:8C:D3:05:D2:02:20:AF` |
 | **認証方式/フェーズ2認証:** | EAP-MSCHAPv2 |
 
 ### セキュリティ対策
@@ -114,7 +114,7 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 
 ## トラブルシューティング
 
-接続にあたって問題が発生した場合は，本ページの[「利用開始までの手順」](#initial-setup)と[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/)を参照してください．
+接続にあたって問題が発生した場合は，本ページの「[利用開始までの手順](#initial-setup)」と[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/)を参照してください．
 
 ## 部局担当者向け情報
 部局担当者の方は[東大ポータルの情報](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx)を参照してください．
@@ -124,7 +124,7 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 
 - 大変多くの問い合わせが寄せられています．大半の場合，即時の回答は困難です．
 - まずは自分でできそうな基本的なトラブルシューティングを済ませてください．
-    - 本ページにある情報，特に[「利用開始までの手順」](#initial-setup)や，[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/)に記載の手順を丁寧に読みなおしてください．
+    - 本ページにある情報，特に「[利用開始までの手順](#initial-setup)」や，[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/)に記載の手順を丁寧に読みなおしてください．
     - ご友人や同僚など，接続できている周りの方にも接続手順を尋ねてみてください．
 - 特定の機種や端末に即したサポートは必ずしも提供できません．あらゆる機種の端末を保有してテストすることが現実的に困難なためです．メーカーや通信キャリア等に問い合わせることも検討してください．
     - ただし一部の機種等については，[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/)で詳しい設定方法が紹介されています．こちらのページもぜひ参考にしてください．
