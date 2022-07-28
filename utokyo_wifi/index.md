@@ -110,7 +110,7 @@ UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスが
 
 
 ## 部局担当者向け情報
-部局担当者の方は[東大ポータルの情報](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx)を参照してください．
+部局担当者の方は[UTokyo Portalの情報](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx)を参照してください．
 
 ## トラブルシューティングと問い合わせ
 
