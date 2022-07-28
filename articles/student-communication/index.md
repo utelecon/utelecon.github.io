@@ -110,7 +110,7 @@ Google Workspaceは後述のGoogle Meetも含む様々なサービスの総称�
 
 東京大学ではECCSクラウドメールという名前でGoogleのアカウントが提供されています．
 
-ECCSクラウドメールの詳細な使い方は以下の記事をご覧ください
+ECCSクラウドメールの詳細な使い方は以下の記事をご覧ください.
 
 [ECCSクラウドメール (Google Workspace)](https://utelecon.adm.u-tokyo.ac.jp/eccs_cloud_email)
 
@@ -159,7 +159,7 @@ Literacyは東大の検索システムをまとめたウェブサイトです．
 詳しくは[こちら](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/contact)の「Literacyについて」をご覧ください．
 
 
-#### Google Scholar [リンク](https://scholar.google.com/)（外部サイトに移動します）
+#### [Google Scholar](https://scholar.google.com/)
 
 Google ScholarはGoogleが提供する，学術論文に特化した検索エンジンです．日本語だけでなく，英語を含め様々な言語の論文が検索できます．関連性による並べ替えや日付順の並べ替え，期間での絞り込みも可能です．検索をかけたときにそのキーワードが用いられており，かつよく引用されている論文が上位に表示されます.
 
@@ -229,7 +229,7 @@ Microsoftが提供するストレージサービスです．Microsoft Officeで�
 ### ツール紹介
 
 
-#### 調整さん[（リンク）](https://chouseisan.com/)
+#### [調整さん](https://chouseisan.com/)
 
 
 <figure>
@@ -240,7 +240,7 @@ Microsoftが提供するストレージサービスです．Microsoft Officeで�
 すばやく作成できるため，手軽に日程調整が可能です．主催者側で最初に日程の候補を出す形になるため，回答者が自由に日時を入力することはできません．既に日時の候補が決まっているときにつかうと便利なツールです．
 
 
-#### トントン[（リンク）](https://tonton.amaneku.com/)
+#### [トントン](https://tonton.amaneku.com/)
 
 
 <figure>
@@ -253,7 +253,7 @@ Microsoftが提供するストレージサービスです．Microsoft Officeで�
 主催者側が時間を細かく指定する必要がないため，日にちは決まっているけれども，時間は未定という場合に活用すると便利です．全員の入力が色分けされて一列に並ぶため，一目で都合が合う日程がわかります．入力に癖があり，スマートフォンからの入力にはあまり向いていません．
 
 
-#### Spir[（リンク）](https://www.spirinc.com/)
+#### [Spir](https://www.spirinc.com/)
 
 
 <figure>
