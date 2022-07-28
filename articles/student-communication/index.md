@@ -58,7 +58,7 @@ title: オンライン勉強会の始め方
 
 #### Slack
 <figure>
-<img src="image1.png" width="200px">
+<img src="image1.png" height="70px">
 </figure>
 
 slackはテキストのやりとりを主としたコミュニケーションツールで，資料の共有やビデオ通話なども可能です．グループワークに便利で，同じ課題を進める人との進捗の共有や議論に使えます．Slackを利用している授業もあります．
@@ -67,14 +67,14 @@ slackはテキストのやりとりを主としたコミュニケーションツ
 
 #### Discord
 <figure>
-<img src="image2.png" width="200px">
+<img src="image2.png" height="70px">
 </figure>
 Discordはテキスト，音声，動画でのコミュニケーションに対応しています．もともとゲーマー向けに設計されているため音声通話に強みがあります．多様な機能や細かい権限設定，自由度の高いbotの導入により，他のツールを使わずともDiscord内でコミュニティを完結できます．ただ，チャンネルごとにかなり細かく権限設定ができるため，慣れていない人は設定項目の多さにハードルの高さを感じるかもしれません．
 
 
 #### LINEオープンチャット
 <figure>
-<img src="image3.png" width="200px">
+<img src="image3.png" height="70px">
 </figure>
 LINEオープンチャットはテキストのやりとり主としたコミュニケーションツールです．多くの人が普段利用するLINE内の機能であり，利用障壁が低く，取り敢えずチャットでコミュニケーションを取りたいときに有効です．ただ，ビデオ通話などの機能は存在しません．オープンチャットの参加者同士は友達申請ができず，ユーザー名やプロフィール写真等も新たに登録するため，プライバシーが保たれます．
 
@@ -118,7 +118,7 @@ ECCSクラウドメールの詳細な使い方は以下の記事をご覧くだ�
 #### Goodnotes 5
 
 <figure>
-<img src="image4.png" width="200px">
+<img src="image4.png" height="70px">
 </figure>
 iOSで提供されているメモ／描画用アプリケーションです．その特徴からiPadで使用することが推奨されます．Apple Pencilなどを用い，直感的な操作で資料を作成することができます．iPadを所持している場合はおすすめです．
 
@@ -128,7 +128,7 @@ iOSで提供されているメモ／描画用アプリケーションです．�
 #### Scrapbox
 
 <figure>
-<img src="image5.png" width="200px">
+<img src="image5.png" height="70px">
 </figure>
 Scrapboxは，オンラインで多数のメモ書きやノートを保存して整理するためのツールです．複数人が共同で同時編集をしたり，URLを使って内容を共有したりすることができ，「リンク」や「タグ」などを使って多数のページを簡単に繋げることができるのが特徴です．手書き資料も挿入することができます．
 
@@ -152,7 +152,7 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 
 
 <figure>
-<img src="image6.png" width="200px">
+<img src="image6.png" height="70px">
 </figure>
 Literacyは東大の検索システムをまとめたウェブサイトです．東大図書館の蔵書を調べるTREEや，電子書籍を読むことができるE-journal & E-book Portalなどを利用することができます．これらは通常，学内からしか利用できませんが，[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)というサービスを利用することで学外からもアクセスでき，新聞記事や電子書籍を閲覧することができます．
 
@@ -172,7 +172,7 @@ EZproxyについての詳細は，先述したLiteracyの項を参考にして�
 
 
 <figure>
-<img src="image7.png" width="200px">
+<img src="image7.png" height="70px">
 </figure>  
 CiNii Articlesは国立情報学研究所が運営する論文検索サイトです．こちらは日本国内の雑誌の論文を多く見つけられます．論文だけでなく，大学図書館の図書も検索で出てくるので，図書館にアクセスできる環境の場合は有用です．
 
@@ -193,7 +193,7 @@ CiNii Articlesは国立情報学研究所が運営する論文検索サイトで
 #### Google Drive
 
 <figure>
-<img src="image8.png" width="200px">
+<img src="image8.png" height="70px">
 </figure>
 Googleが提供するストレージサービスです．東京大学ではECCSクラウドメールを利用することで容量制限が緩和され，個人アカウントよりも多くのファイルを保存できるようになっています．大学のアカウントを用いると共有ドライブを作成することも可能です．（Microsoft Officeで作成したPowerPointやWordファイルは表示が崩れることがあるので注意してください）．
 
@@ -233,7 +233,7 @@ Microsoftが提供するストレージサービスです．Microsoft Officeで�
 
 
 <figure>
-<img src="image9.png" width="200px">
+<img src="image9.png" height="70px">
 </figure>
 主催者は日程の候補とイベント名を入力し，生成されたURLを参加者に共有します．参加者は〇△×をそれぞれの日程に対して入力します．
 
@@ -244,7 +244,7 @@ Microsoftが提供するストレージサービスです．Microsoft Officeで�
 
 
 <figure>
-<img src="image10.png" width="200px">
+<img src="image10.png" height="70px">
 </figure>
 主催者はイベント名／所要時間／日程／調整したい時間の範囲を入力します．
 
@@ -257,7 +257,7 @@ Microsoftが提供するストレージサービスです．Microsoft Officeで�
 
 
 <figure>
-<img src="image11.png" width="200px">
+<img src="image11.png" height="70px">
 </figure>
 主催者は日程調整のタイトル／予定時間／日程候補を入力します．参加者は指定された時間の中で参加できるところに投票します．
 
@@ -291,7 +291,7 @@ GoogleアカウントでSpirに登録することで，Googleカレンダーと�
 
 
 <figure>
-<img src="image12.png" width="200px">
+<img src="image12.png" height="70px">
 </figure>
 東京大学で開講される授業で主に利用されているWeb会議システムの一つです．主催者がURLやID／パスワードを共有し，それらを入力することで参加できます．
 
@@ -302,7 +302,7 @@ GoogleアカウントでSpirに登録することで，Googleカレンダーと�
 
 
 <figure>
-<img src="image13.png" width="200px">
+<img src="image13.png" height="70px">
 </figure>
 Googleが提供するWeb会議システムです．アプリが必要なく，ブラウザ上ですべてを完結することができます.．
 
@@ -313,7 +313,7 @@ Googleが提供するWeb会議システムです．アプリが必要なく，�
 
 
 <figure>
-<img src="image2.png" width="200px">
+<img src="image2.png" height="70px">
 </figure>
 もともとゲーマー向けに作成されたコミュニケーションツールです．音声や動画を用いてコミュニケーションをとることができ，動作も軽いです．アプリが必要なく，ブラウザ上でも利用できますが，その場合は一部機能が制限されます．
 
@@ -321,7 +321,7 @@ Googleが提供するWeb会議システムです．アプリが必要なく，�
 #### slack（huddleミーティング）
 
 <figure>
-<img src="image1.png" width="200px">
+<img src="image1.png" height="70px">
 </figure>
 **※この機能は有料版slackを利用している場合のみ有効です**
 
