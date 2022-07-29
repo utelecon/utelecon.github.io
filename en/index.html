@@ -34,25 +34,25 @@ sitemap: false
   <h2>Notice</h2>
   {% comment %} To add notice here, edit `_data/notice/en.yml` {% endcomment %}
   <ul>
-    {% assign i = 0 %}
-    {% assign j = 0 %}
-    {% for item in site.data.notice.en %}
-      {% if item.outdated %}
-        {% continue %}
-      {% endif %}
-      {% assign i = i | plus: 1 %}
-      {% unless i <= 4 or item.important %}
-        {% continue %}
-      {% endunless %}
-      {% assign j = j | plus: 1 %}
-      {% unless i <= 16 and j <= 8 %}
-        {% break %}
-      {% endunless %}
+    {%- assign i = 0 -%}
+    {%- assign j = 0 -%}
+    {%- for item in site.data.notice -%}
+      {%- if item.outdated -%}
+        {%- continue -%}
+      {%- endif -%}
+    {%- assign i = i | plus: 1 -%}
+    {%- unless i <= 4 or item.important -%}
+      {%- continue -%}
+    {%- endunless -%}
+    {%- assign j=j | plus: 1 -%}
+    {%- unless i <=16 and j <=8 -%}
+      {%- break -%}
+    {%- endunless -%}
       <li>
         <span class="notice-date">{{ item.date }}</span>
-        {{ item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+        {{ item.content.en | default: item.content.ja | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
       </li>
-    {% endfor %}
+    {%- endfor %}
   </ul>
 
   <h2>ICT Systems</h2>

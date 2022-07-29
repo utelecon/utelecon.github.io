@@ -62,21 +62,27 @@ description: 本サイトは，東京大学におけるオンライン授業やW
   </div>
 
   <h2>お知らせ</h2>
-  {% comment %} お知らせの追加は `_data/notice/ja.yml` を編集してください {% endcomment %}
+  {% comment %} お知らせの追加は `_data/notice.yml` を編集してください {% endcomment %}
   <ul>
-    {% assign i = 0 %}
-    {% assign j = 0 %}
-    {% for item in site.data.notice.ja %}
-    {% if item.outdated %}
-    {% continue %}
-    {% endif %}
-    {% assign i = i | plus: 1 %}
-    {% unless i <= 4 or item.important %} {% continue %} {% endunless %} {% assign j=j | plus: 1 %} {% unless i <=16 and
-      j <=8 %} {% break %} {% endunless %} <li>
-      <span class="notice-date">{{ item.date }}</span>
-      {{ item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+    {%- assign i = 0 -%}
+    {%- assign j = 0 -%}
+    {%- for item in site.data.notice -%}
+      {%- if item.outdated -%}
+        {%- continue -%}
+      {%- endif -%}
+    {%- assign i = i | plus: 1 -%}
+    {%- unless i <= 4 or item.important -%}
+      {%- continue -%}
+    {%- endunless -%}
+    {%- assign j=j | plus: 1 -%}
+    {%- unless i <=16 and j <=8 -%}
+      {%- break -%}
+    {%- endunless %}
+      <li>
+        <span class="notice-date">{{ item.date }}</span>
+        {{ item.content.ja | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
       </li>
-      {% endfor %}
+    {%- endfor %}
   </ul>
   <a href="/notice/">過去のお知らせ一覧はこちら</a>
 
