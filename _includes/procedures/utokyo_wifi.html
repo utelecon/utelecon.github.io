@@ -10,13 +10,19 @@
   {% case page.slug %}{% when "oc" %}
   <li><a href="/oc/movies#utokyo_wifi">手順動画</a></li>
   {% endcase %}
-  <li>既にアカウントを持っている場合，または2台目以降の場合は発行手続きは必要ありません．一番新しいアカウント情報を利用して，UTokyo WiFiに接続することができます．</li>
+   <!-- 検討の余地あり -->
+  <li>既にアカウントを持っている場合，または2台目以降の場合は発行手続きは必要ありません．一番新しいアカウント情報を利用して，UTokyo WiFiを利用することができます．</li>
 </ul>
 <ol>
   {% case page.slug %}{% when "oc" %}
     <li>「<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFiアカウントメニュー</a>」にアクセスしてください．</li>
   {% when "utokyo_wifi" %}
-    <li>以下の「UTokyo WiFiアカウントメニュー」にアクセスしてください．</li>
+    <li>以下の「UTokyo WiFiアカウントメニュー」にアクセスしてください．
+      {% case page.slug %}{% when "utokyo_wifi" %}
+        <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
+        <a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFiアカウントメニュー（国内のみ）</a></div>
+      {% endcase %}
+    </li>
   {% endcase %}
   <li>既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．</li>
   <li>「新規申請」ボタンを押してください．</li>
@@ -29,15 +35,10 @@
       else
         %}手順2で前日までに登録したメールアドレス{%
     endcase
-  %}が表示されているので，確認してください．このメールアドレスに，UTokyo WiFiへの接続に必要なアカウント情報（ユーザーID・パスワード）が書かれた通知メールが届きます．</li>
+  %}が表示されているので，確認してください．このメールアドレスに，UTokyo WiFiの利用に必要なアカウント情報（ユーザーID・パスワード）が書かれた通知メールが届きます．</li>
   <li>「申請」ボタンを押してください．</li>
   <li>しばらく待つと通知メールが届きます．</li>
 </ol>
-{% case page.slug %}{% when "utokyo_wifi" %}
-  <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
-  <a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFiアカウントメニュー（国内のみ）</a>
-</div>
-{% endcase %}
 <ul>
   <li>
     <details>
@@ -93,19 +94,22 @@
     </ul>
     <ol>
       {% case page.slug %}{% when "utokyo_wifi" %}
-      <li>手順1で用意した端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．場合によっては，証明書を確認したり，「<a href="#connect-configuration">接続の詳細な設定</a>」に書かれた情報を利用する必要があるかもしれません．</li>
+      <li>手順1で用意した端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
       <li>接続しようとするとユーザーIDとパスワードを聞かれるので，手順3で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
       {% else %}
       <li>上の手順で用意した端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
-      <li>場合によっては，証明書を確認する必要があるかもしれません．</li>
       <li>接続しようとするとユーザーIDとパスワードを聞かれるので，上の手順で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
       {% endcase %}
       <li>接続が完了すれば，後は普通のWi-Fiと同様に使えます．</li>
     </ol>
     <ul>
-      <li>
-        機器ごとの詳細な接続方法が<a href="https://www.sodan.ecc.u-tokyo.ac.jp/?page_id=3996">ECCS相談員のページ</a>に掲載されているので，分からない場合はあわせて参照してください．
-        また，<a href="https://www.eduroam.jp/for_users/">接続方法が同様である「eduroam」というWi-Fiシステムのページ</a>にある「利用の手引き」も参考になるかもしれません（ `eduroam` を `UTokyo-WiFi` に読み替えて利用してください）．</li>
+      {% case page.slug %}{% when "utokyo_wifi" %}
+      <li>接続時に，証明書の確認や，「<a href="#connect-configuration">接続の詳細な設定</a>」に書かれた情報の入力が必要な場合があります．</li>
+      {% when "oc" %}
+      <li>接続時に，証明書の確認や，「<a href="/utokyo_wifi/#connect-configuration">UTokyo WiFiのページの「接続の詳細な設定」</a>」に書かれた情報の入力が必要な場合があります．</li>
+      {% endcase %}
+      <li>機器ごとの詳細な接続方法が<a href="https://www.sodan.ecc.u-tokyo.ac.jp/?page_id=3996">ECCS相談員のページ</a>に掲載されているので，分からない場合はあわせて参照してください．
+          また，<a href="https://www.eduroam.jp/for_users/">接続方法が同様である「eduroam」というWi-Fiシステムのページ</a>にある「利用の手引き」も参考になるかもしれません（ `eduroam` を `UTokyo-WiFi` に読み替えて利用してください）．</li>
       <li>
         <details>
           <summary>この手順がうまくいかないときのヘルプ</summary>
@@ -120,7 +124,8 @@
                 <li>利用する機器が最新の状態ではないために起こる場合もあります．古いMacOS，Windows 7以前，アップデートをしていない機器（スマホ等）は接続までに，最新のバージョンにしてください．</li>    
               </ul>
             </li>
-            <li><strong>以前に接続できていたが，アカウントを再発行してから繋がらない場合</strong>：
+             <!-- 位置・表現に検討の余地あり -->
+            <li><strong>以前に利用できていたが，アカウントを再発行してから繋がらない場合</strong>：
               <ul>
                 <li> 端末が以前のアカウントの認証情報を記憶してしまっている場合があります．
                 <li> Wi-Fiの認証情報の削除方法はOSや端末の種類によります．それぞれの端末のマニュアルを参照してください．</li>
