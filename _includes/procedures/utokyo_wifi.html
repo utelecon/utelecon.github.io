@@ -10,26 +10,27 @@
   {% case page.slug %}{% when "oc" %}
   <li><a href="/oc/movies#utokyo_wifi">手順動画</a></li>
   {% endcase %}
-  <li>なお，既にアカウントを持っている場合，または2台目以降の場合は発行手続きは必要ありません．最初にアカウントを発行したときのアカウント情報を利用して，UTokyo WiFiに接続することができます．</li>
+  <li>既にアカウントを持っている場合，または2台目以降の場合は発行手続きは必要ありません．一番新しいアカウント情報を利用して，UTokyo WiFiに接続することができます．</li>
 </ul>
 <ol>
   {% case page.slug %}{% when "oc" %}
-    <li>「<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFiアカウントメニュー</a>」からUTokyo Accountでサインインしてください．</li>  
+    <li>「<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFiアカウントメニュー</a>」にアクセスしてください．</li>
   {% when "utokyo_wifi" %}
-    <li>以下の「UTokyo WiFiアカウントメニュー」からUTokyo Accountでサインインしてください．</li>
+    <li>以下の「UTokyo WiFiアカウントメニュー」にアクセスしてください．</li>
   {% endcase %}
+  <li>既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．</li>
   <li>「新規申請」ボタンを押してください．</li>
   <li>「通知用メールアドレス」の欄に，{%
     case page.slug %}{%
       when "oc"
-        %}UTASで登録したメールアドレス{%
+        %}UTASで前日までに登録したメールアドレス{%
       when "faculty_members"
-        %}人事情報MyWebで登録したメールアドレス{%
+        %}人事情報MyWebで前日までに登録したメールアドレス{%
       else
-        %}手順2で登録したメールアドレス{%
+        %}手順2で前日までに登録したメールアドレス{%
     endcase
   %}が表示されているので，確認してください．このメールアドレスに，UTokyo WiFiへの接続に必要なアカウント情報（ユーザーID・パスワード）が書かれた通知メールが届きます．</li>
-  <li>「申請」ボタンを押して，アカウントを新規に取得してください．</li>
+  <li>「申請」ボタンを押してください．</li>
   <li>しばらく待つと通知メールが届きます．</li>
 </ol>
 {% case page.slug %}{% when "utokyo_wifi" %}
@@ -60,20 +61,14 @@
         <li><strong>通知メールが届かない場合</strong>：
           <ul>
             <li>迷惑メールフォルダなどに紛れ込んでいないかどうか，再度確認してください．</li>
-            <li>メールは，申請画面の「通知用メールアドレス」欄に表示されているメールアドレス（{%
-                case page.slug %}{%
-                  when "oc"
-                    %}UTASの「E-MAIL 1」に登録したメールアドレス{%
-                  when "faculty_members"
-                    %}人事情報MyWebで登録したメールアドレス{%
-                  else
-                    %}学生はUTASの「E-MAIL 1」に登録したメールアドレス，教職員は人事情報MyWebで登録したメールアドレス{%
-                endcase
-              %}）に届きます．違うメールアドレスを見ていないか確認してください．</li>
+            <li>メールは，申請画面の「通知用メールアドレス」欄に表示されているメールアドレス（手順2で，前日までに登録したもの）に届きます．違うメールアドレスを見ていないか確認してください．</li>
             <li>メールアドレスによっては正しくメールが配送されないケースがあります．特に，@icloud.com のメールアドレスには届かないことがわかっています．また，Gmail (@gmail.com) のメールアドレスは遅れて届く場合が多いことがわかっています．メールアドレスの登録を他のものに変更して，翌日以降に再度申請してください．ECCSクラウドメール (@g.ecc.u-tokyo.ac.jp) での登録を推奨します．</li>
           </ul>
         </li>
       </ul>
+      {% case page.slug %}{% when "utokyo_wifi" %}
+      これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
+      {% endcase %}
     </details>
   </li>
 </ul>
@@ -85,25 +80,25 @@
 {% case page.slug %}{% when "oc" %}
   {% include procedures/_important.html procedure=apply_for_account type="作業" heading="アカウントを申請する" %}
   {% when "utokyo_wifi" %}
-  {% include procedures/_important.html procedure=apply_for_account type="手順3" heading="UTokyo WiFiアカウントの発行を申請する．" %}
+  {% include procedures/_important.html procedure=apply_for_account type="手順3" heading="UTokyo WiFiアカウントの発行を申請する" %}
 {% endcase %}
 {% unless include.part == "important" %}
 {% case page.slug %}{% when "oc" %}
   <li><strong>作業：実際につないでみる</strong>
   {% when "utokyo_wifi" %}
-  <li><strong>手順4：UTokyo WiFiが接続可能なネットワークとして表示されている場所で接続をする．</strong>
+  <li><strong>手順4：UTokyo WiFiが接続可能なネットワークとして表示されている場所で接続をする</strong>
 {% endcase %}
     <ul>
-      <li>この作業は教室など，UTokyo WiFi（SSIDが <code>UTokyo-WiFi</code> となっているワイヤレスネットワーク）が見える場所でしかできません．</li>
+      <li>この作業はキャンパス内の，UTokyo WiFi（SSIDが <code>UTokyo-WiFi</code> となっているWi-Fi）が見える場所でしかできません．</li>
     </ul>
     <ol>
       {% case page.slug %}{% when "utokyo_wifi" %}
       <li>手順1で用意した端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．場合によっては，証明書を確認したり，「<a href="#connect-configuration">接続の詳細な設定</a>」に書かれた情報を利用する必要があるかもしれません．</li>
       <li>接続しようとするとユーザーIDとパスワードを聞かれるので，手順3で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
       {% else %}
-      <li>先ほど用意した端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
+      <li>上の手順で用意した端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
       <li>場合によっては，証明書を確認する必要があるかもしれません．</li>
-      <li>接続しようとするとユーザーIDとパスワードを聞かれるので，先ほどの手順で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
+      <li>接続しようとするとユーザーIDとパスワードを聞かれるので，上の手順で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
       {% endcase %}
       <li>接続が完了すれば，後は普通のWi-Fiと同様に使えます．</li>
     </ol>
