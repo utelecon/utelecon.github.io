@@ -129,7 +129,7 @@ title: How to use Webex
 * 授業例は<a href="browse_samples" target="_blank">こちら</a>
 
 {% endcomment %}
-## サブページ一覧
+## Related Pages
 * <a href="create_webex_account" target="_blank">How to Log in and Create an UTokyo Webex account</a>	
 
 * <a href="create_meeting" target="_blank">How to set the meeting room</a> 
