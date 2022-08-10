@@ -1,0 +1,35 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${ steps.deployment.outputs.page_url }
+    steps:
+      - name: checkout master
+        uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - name: bundle install
+        run: bundle install
+      - name: jekyll build
+        run: bundle exec jekyll build --baseurl $BASE_URL
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${ steps.deployment.outputs.page_url }
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy
+        id: deployment
+        uses: actions/deploy-pages@v1
