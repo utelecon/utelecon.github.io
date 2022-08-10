@@ -235,7 +235,7 @@ title: クラスサポーター制度のご案内
   <br>フォームのリンク先をクリックします．
   <br>万が一これでも報告ができない場合は
   <br>以下リンク先の画面右下に表されるチャットサポートでご相談いただけます．
-  <br><a href="https://utelecon.github.io/" target="_blank">https://utelecon.github.io/</a>
+  <br><a href="/" target="_blank">https://utelecon.adm.u-tokyo.ac.jp/</a>
   <br>平日ですと有人で相談することができ，その場で順を追って解決してもらえるので，お困りの際にはどうぞご活用ください．
 </p>
 </details>

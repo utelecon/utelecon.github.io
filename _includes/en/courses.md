@@ -40,7 +40,7 @@ The requirement for this type of media class (online class) is that “the class
 {% unless page.slug == "faculty_members" %}
 {{ heading }}# 参考情報
 
-* [オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](https://utelecon.github.io/events/2020-03-19/)
+* [オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom の使い方」](/events/2020-03-19/)
 * [本学のグッドプラクティス](/good-practice/)
  * [オンライン授業情報交換会](/events/luncheon/)
     * [第19回 グッドプラクティス事例(1) 大人数のオンライン授業におけるインタラクションの工夫](/events/luncheon/2020-11-10/)
@@ -69,7 +69,7 @@ Therefore, simply posting course materials does not meet the requirements for th
 {% unless page.slug == "faculty_members" %}
 {{ heading }}# 参考情報
 
-* [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](https://utelecon.github.io/events/2020-03-27/)
+* [オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」](/events/2020-03-27/)
 * [本学のグッドプラクティス](/good-practice/)
 * [オンライン授業情報交換会](/events/luncheon/)
     * [第27回 グッドプラクティス事例(7) オンデマンド教材の制作の取り組み](/events/luncheon/2021-01-20/)
