@@ -48,10 +48,10 @@ It will be offered to new students subject to the above conditions.
 ## 申し込み / Application 
 
 以下の申し込みフォームから申請してください。**(注:2台目の申し込みは受け付けておりません）**
-メールアドレスは可能な限り[ECCSクラウドメール](https://utelecon.adm.u-tokyo.ac.jp/oc/index.html#google)を使用してください。 
+メールアドレスは可能な限り[ECCSクラウドメール](/oc/index.html#google)を使用してください。 
 教職員でモバイルWiFiルーターの貸与を希望する方は，各部局の総務にお問い合わせください． 
     
-Please apply using the form below. If possible, You soould use [ECCS cloud mail](https://utelecon.adm.u-tokyo.ac.jp/oc/index.html#google).
+Please apply using the form below. If possible, You soould use [ECCS cloud mail](/oc/index.html#google).
 If you are a faculty/staff member and wish to borrow a mobile WiFi router, please contact the general affairs office of your department.
 
 [【2022年度・新入学生用】東京大学 モバイルWiFiルーター貸与申込 / Application for a mobile WiFi router for UTokyo New Students](https://docs.google.com/forms/d/e/1FAIpQLSeU2PHgAGBGhgmHKUz5aZGRK_dNchwGO_AHzk0leJayr20WbQ/viewform?usp=sf_link)

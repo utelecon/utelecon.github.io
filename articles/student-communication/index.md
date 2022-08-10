@@ -62,7 +62,7 @@ title: オンライン勉強会の始め方
 </figure>
 
 slackはテキストのやりとりを主としたコミュニケーションツールで，資料の共有やビデオ通話なども可能です．グループワークに便利で，同じ課題を進める人との進捗の共有や議論に使えます．Slackを利用している授業もあります．
-[こちら](https://utelecon.adm.u-tokyo.ac.jp/articles/slack-seminar/)の記事も参考になります．
+[こちら](/articles/slack-seminar/)の記事も参考になります．
 
 
 #### Discord
@@ -112,7 +112,7 @@ Google Workspaceは後述のGoogle Meetも含む様々なサービスの総称�
 
 ECCSクラウドメールの詳細な使い方は以下の記事をご覧ください.
 
-[ECCSクラウドメール (Google Workspace)](https://utelecon.adm.u-tokyo.ac.jp/eccs_cloud_email)
+[ECCSクラウドメール (Google Workspace)](/eccs_cloud_email)
 
 
 #### Goodnotes 5
@@ -122,7 +122,7 @@ ECCSクラウドメールの詳細な使い方は以下の記事をご覧くだ�
 </figure>
 iOSで提供されているメモ／描画用アプリケーションです．その特徴からiPadで使用することが推奨されます．Apple Pencilなどを用い，直感的な操作で資料を作成することができます．iPadを所持している場合はおすすめです．
 
-詳しい使い方については[こちら](https://utelecon.adm.u-tokyo.ac.jp/articles/goodnotes-writing/)をご覧ください．
+詳しい使い方については[こちら](/articles/goodnotes-writing/)をご覧ください．
 
 
 #### Scrapbox
@@ -134,7 +134,7 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 
 一つの勉強会で多くの資料が用いられることが予想される場合は，Scrapboxをポータルサイト的に用いることもできます．
 
-詳しい使い方については[こちら](https://utelecon.adm.u-tokyo.ac.jp/articles/scrapbox/)をご覧ください
+詳しい使い方については[こちら](/articles/scrapbox/)をご覧ください
 
 
 ## 論文などを探す
@@ -199,7 +199,7 @@ Googleが提供するストレージサービスです．東京大学ではECCS�
 
 ECCSクラウドメールの詳細な使い方は以下の記事をご覧ください．
 
-[ECCSクラウドメール (Google Workspace)](https://utelecon.adm.u-tokyo.ac.jp/eccs_cloud_email)
+[ECCSクラウドメール (Google Workspace)](/eccs_cloud_email)
 
 
 #### OneDrive
@@ -295,7 +295,7 @@ GoogleアカウントでSpirに登録することで，Googleカレンダーと�
 </figure>
 東京大学で開講される授業で主に利用されているWeb会議システムの一つです．主催者がURLやID／パスワードを共有し，それらを入力することで参加できます．
 
-詳しい使い方については[こちら](https://utelecon.adm.u-tokyo.ac.jp/zoom/)をご覧ください.
+詳しい使い方については[こちら](/zoom/)をご覧ください.
 
 
 #### Google Meet
@@ -306,7 +306,7 @@ GoogleアカウントでSpirに登録することで，Googleカレンダーと�
 </figure>
 Googleが提供するWeb会議システムです．アプリが必要なく，ブラウザ上ですべてを完結することができます.．
 
-詳しい使い方については[こちら](https://utelecon.adm.u-tokyo.ac.jp/meet/)をご覧ください．
+詳しい使い方については[こちら](/meet/)をご覧ください．
 
 
 #### Discord（ボイスチャンネル）

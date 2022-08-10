@@ -188,9 +188,9 @@ Slackは，リアルタイムでやりとりができるメッセージプラッ
 
 ### グッドプラクティス・応用例の紹介
 
-* [斎藤宣一先生　計算数理Ⅰ](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/saito)
+* [斎藤宣一先生　計算数理Ⅰ](/good-practice/interview/saito)
     * オンデマンド形式の授業でSlackを使用．Slack上で授業内容に関する質問を募り，Slack上で回答を促しました．対面のときよりも質問が盛んだったようです．Slackでは発言を取り消したり修正したりすることができるので，心理的な負担が少ないとのことでした．
-* [白石忠志先生　法Ⅰ](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/shiraishi.html)
+* [白石忠志先生　法Ⅰ](/good-practice/interview/shiraishi.html)
     * Slackは任意利用としたため，実際に登録した受講生は1割程度でしたが，DMでは非常に多くの質問や相談が寄せられました．他の人の目を気にせずに連絡を取れるという点も，教員への連絡を取りやすくした理由だとのことです．
     * 授業の5日前にはSlackとITC-LMSに資料をアップロードして，前日の昼までにSlackに質問を送ってもらう工夫をした結果，授業ではその質問への回答や，質問を踏まえた説明ができるようになり，授業の構成にも役立ちました．
 

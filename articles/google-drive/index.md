@@ -22,7 +22,7 @@ ECCSクラウドメールのアカウントは有料のアカウントであり�
 
 ECCSクラウドメールのアカウントを取得していない方は以下の記事を参考にしてください．
 
-[https://utelecon.adm.u-tokyo.ac.jp/eccs_cloud_email](https://utelecon.adm.u-tokyo.ac.jp/eccs_cloud_email)
+[ECCSクラウドメール](/eccs_cloud_email)
 
 以下，本記事ではECCSクラウドメールのアカウントでのログインを想定して説明します．
 
