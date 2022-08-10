@@ -7,9 +7,24 @@
     <h1 class="title">{{ h1 }}</h1>
   {% endif %}
 
+  {% if page.updated_at %}
+    <div style="text-align: right;">
+      {%- if page.lang == "en" -%}
+        Last Updated
+      {%- else -%}
+        最終更新日
+      {%- endif -%}
+    : {% if page.updated_at == true -%}
+        {%- last_modified_at -%}
+      {%- else -%}
+        {{ page.updated_at }}
+      {%- endif -%}
+    </div>
+  {% endif %}
   {% assign toc = content | toc_only %}
   {% assign toc_stripped = toc | strip_html | strip %}
   {% if page.toc and toc_stripped != "" %}
+
     <section class="main__toc">
       <h2>{% if page.lang == "en" %}Table of Contents{% else %}目次{% endif %}</h2>
 {{ toc }}

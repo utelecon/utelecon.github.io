@@ -1,8 +1,11 @@
 google_analytics: UA-160716658-1
 plugins:
   - jekyll-redirect-from
+  - jekyll-last-modified-at
 kramdown:
   footnote_backlink: ↑
+last-modified-at:
+  date-format: '%Y-%m-%d'
 sass:
   sass_dir: _sass
 url: https://utelecon.adm.u-tokyo.ac.jp
