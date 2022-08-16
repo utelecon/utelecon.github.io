@@ -107,8 +107,8 @@ Googleドライブには，**簡単な操作でフォルダそのものを複製
       const nameBase = fileBase.getName();
 
       for (let i = 0; i < n; i++) {
-        const nameNew = nameBase + "_" + (i + 1); // 
-        fileBase.makeCopy(nameNew)
+        const nameNew = `${nameBase}_${i + 1}`;
+        fileBase.makeCopy(nameNew);
       }
     }
     ```
