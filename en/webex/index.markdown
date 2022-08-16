@@ -46,13 +46,13 @@ title: How to use Webex
 {% endcomment %}
 * Organizers 
 	1. Prepare connection devices such as PC, tablet and smartphone
-		* Download <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex</a>
+		* Download <a href="https://www.webex.com/downloads.html" target="_blank">Cisco Webex</a>
 		* If you can not install the application of Webex Meetings, you can use Webex Meetings web browser instead  (Firefox or Google Chrome is preferred), although Some functions are limited．
 	1. Activate ECCS cloud mail（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">details</a>）
 	1. How to create WebEx account（<a href="create_webex_account" target="_blank">details</a>）
 * Participants
 	1. Prepare connection devices such as PC, tablet and smartphone
-		* Download <a href="https://www.webex.com/ja/downloads.html" target="_blank">Cisco Webex</a>.
+		* Download <a href="https://www.webex.com/downloads.html" target="_blank">Cisco Webex</a>.
 		* If you can not install the application of Webex Meetings, you can use Webex Meetings web browser instead  (Firefox or Google Chrome is preferred), although Some functions are limited．
 
 ## How to use Webex Meetings
