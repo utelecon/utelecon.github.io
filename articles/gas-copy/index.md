@@ -100,16 +100,16 @@ Googleドライブには，**簡単な操作でフォルダそのものを複製
 
     ```js
     function copyFiles() {
-      var id = "ファイルID"; // コピー元となるファイルのID
-      var n = 半角数字; // コピーするファイル数
-      
-      var fileBase = DriveApp.getFileById(id);
-      var nameBase = fileBase.getName();
-      
-      for(var i=0; i<n; i++){
-        var nameNew = nameBase + "_" + (i+1); // 
+      const id = "ファイルID"; // コピー元となるファイルのID
+      const n = 半角数字; // コピーするファイル数
+
+      const fileBase = DriveApp.getFileById(id);
+      const nameBase = fileBase.getName();
+
+      for (let i = 0; i < n; i++) {
+        const nameNew = nameBase + "_" + (i + 1); // 
         fileBase.makeCopy(nameNew)
-      }  
+      }
     }
     ```
 
@@ -176,31 +176,31 @@ Googleドライブには，**簡単な操作でフォルダそのものを複製
 
 ```js
 function mainCopyFolder() {
-  
-  var folderIdSrc = "フォルダID"; // コピー元のフォルダid
-  var folderNameDest = "新フォルダ名"; // コピー先のフォルダ名
-  
-  var folderSrc = DriveApp.getFolderById(folderIdSrc); 
-  var folderDest = folderSrc.getParents().next().createFolder(folderNameDest); 
-  
+
+  const folderIdSrc = "フォルダID"; // コピー元のフォルダid
+  const folderNameDest = "新フォルダ名"; // コピー先のフォルダ名
+
+  const folderSrc = DriveApp.getFolderById(folderIdSrc);
+  const folderDest = folderSrc.getParents().next().createFolder(folderNameDest);
+
   copyFolder(folderSrc, folderDest);
 }
 
 function copyFolder(src, dest) {
-  var folders = src.getFolders();
-  var files = src.getFiles();
+  const folders = src.getFolders();
+  const files = src.getFiles();
 
-  while(files.hasNext()) {
-    var file = files.next();
+  while (files.hasNext()) {
+    const file = files.next();
     file.makeCopy(file.getName(), dest);
   }
 
-  while(folders.hasNext()) {
-    var subFolder = folders.next();
-    var folderName = subFolder.getName();
-    var folderDest = dest.createFolder(folderName);
+  while (folders.hasNext()) {
+    const subFolder = folders.next();
+    const folderName = subFolder.getName();
+    const folderDest = dest.createFolder(folderName);
     copyFolder(subFolder, folderDest);
-  }  
+  }
 }
 ```
 
