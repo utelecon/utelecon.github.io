@@ -16,7 +16,7 @@ title: 2022年8月・9月 UTokyo Slack説明会
 {:#part1}
 
 - 日程：2022年8月24日（水）16時30分～17時30分
-- 参加方法：追ってこのページに掲載します．
+- 参加方法：**[Zoomウェビナー登録ページ](https://u-tokyo-ac-jp.zoom.us/webinar/register/WN_AHCTJGkkSfunt0i4x2Varg)**から申し込んでください．
 - 内容：追ってこのページに掲載します．
 - 録画：開催後にこのページに掲載します．
 
