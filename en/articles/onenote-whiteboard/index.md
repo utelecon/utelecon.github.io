@@ -271,7 +271,8 @@ It is possible to create class materials in advance using OneNote. If you have a
 
 The easiest way to share your notes with students in real time is to share your OneNote screen in Zoom.
 
-Please refer to "[Screen Sharing](/zoom/usage/screen_sharing)" of utelecon on how to screen share via Zoom.  
+Please refer to "[Screen Sharing](/en/zoom/usage/screen_sharing)" of utelecon on how to screen share via Zoom.  
+
 
 The following image shows the Zoom screen sharing of OneNote.
 
