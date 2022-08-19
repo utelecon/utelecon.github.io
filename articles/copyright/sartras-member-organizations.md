@@ -38,7 +38,7 @@ Japan Academic Association For Copyright Clearance
 
 <h3 id="bungeika">
 公益社団法人 日本文藝家協会<br />
-The Japan Writer’s Association
+The Japan Writers’ Association
 </h3>
 
 - [公式ウェブサイト](http://www.bungeika.or.jp/index.htm)
@@ -129,7 +129,7 @@ Japan Publication Artist League
 
 <h4 id="tis-home">
 東京イラストレーターズ・ソサエティ<br />
-Tokyo Illustrator Society
+Tokyo Illustrators Society
 </h4>
 
 - [公式ウェブサイト](https://www.tis-home.com/)
@@ -147,7 +147,7 @@ The Society of Publishing Arts
 
 <h3 id="nihonmangakakyokai">
 公益社団法人 日本漫画家協会<br />
-Japan Cartoonists Association
+The Japan Cartoonists Association
 </h3>
 
 - [公式ウェブサイト](https://nihonmangakakyokai.or.jp/)
@@ -173,7 +173,7 @@ Japan Magazine Publishers Association
 - [使用許諾申請・問い合わせ先](https://www.j-magazine.or.jp/user/contact/entry)
 
 <h3 id="nspa">
-一般社団法人 日本自然科学書協会<br />
+一般社団法人 自然科学書協会<br />
 The Natural Science Publishers’ Association of Japan
 </h3>
 
@@ -228,7 +228,7 @@ Japanese Association of Children’s Book Publishers
 
 <h3 id="jasrac">
 一般社団法人 日本音楽著作権協会<br />
-Japan Society for Rights of Authors, Composers and Publishers（JASRAC）
+Japanese Society for Rights of Authors, Composers and Publishers（JASRAC）
 </h3>
 
 - [公式ウェブサイト](https://www.jasrac.or.jp/)
