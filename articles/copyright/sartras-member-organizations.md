@@ -73,7 +73,7 @@ Japan Photographic Copyright Association
 - [使用許諾申請・問い合わせ先](https://jpca.gr.jp/faq/)
 
 <h3 id="jart">
-一般社団法人 日本美術著作者連合<br />
+一般社団法人 日本美術著作権連合<br />
 Japan Art Copyright Association
 </h3>
 
@@ -225,6 +225,15 @@ Japanese Association of Children’s Book Publishers
 - [公式ウェブサイト](http://www.kodomo.gr.jp/)
 - [加盟団体／賛同団体／委託者／会員](http://www.kodomo.gr.jp/about/members/)
 - [使用許諾申請・問い合わせ先](http://www.kodomo.gr.jp/)：トップページ右上部のお問い合わせ先をクリックするとメーラーが立ち上がります．
+
+<h3 id="senmonshinbun">
+公益社団法人 日本専門新聞協会<br />
+Japan Specialized Newspapers Association
+</h3>
+
+- [公式ウェブサイト](http://www.senmonshinbun.or.jp/)
+- [加盟団体／賛同団体／委託者／会員](http://www.senmonshinbun.or.jp/category/members)
+- [使用許諾申請・問い合わせ先](http://www.senmonshinbun.or.jp/category/aboutus)：ページ右側に「お問い合わせ」という欄があります。
 
 <h3 id="jasrac">
 一般社団法人 日本音楽著作権協会<br />
