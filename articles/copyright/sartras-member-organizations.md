@@ -92,8 +92,8 @@ Japan Artists Association
 - [使用許諾申請・問い合わせ先](http://www.jaa-iaa.or.jp/copyright/index.html)
 
 <h4 id="jagda">
-日本グラフィックデザイナー協会<br />
-Japan Graphic Designers Association
+日本グラフィックデザイン協会<br />
+Japan Graphic Design Association
 </h4>
 
 - [公式ウェブサイト](https://www.jagda.or.jp/)
@@ -209,8 +209,8 @@ Japan Association of Music Publishing
 - [使用許諾申請・問い合わせ先](http://www.j-gakufu.com/contact.html)
 
 <h3 id="ebpaj">
-一般社団法人 日本電子書籍出版社協会<br />
-Japan Electronic Book Publishers Association of Japan
+一般社団法人 デジタル出版者連盟<br />
+Digital Publishers Federation of Japan
 </h3>
 
 - [公式ウェブサイト](http://ebpaj.jp/)
@@ -233,7 +233,7 @@ Japan Specialized Newspapers Association
 
 - [公式ウェブサイト](http://www.senmonshinbun.or.jp/)
 - [加盟団体／賛同団体／委託者／会員](http://www.senmonshinbun.or.jp/category/members)
-- [使用許諾申請・問い合わせ先](http://www.senmonshinbun.or.jp/category/aboutus)：ページ右側に「お問い合わせ」という欄があります。
+- [使用許諾申請・問い合わせ先](http://www.senmonshinbun.or.jp/category/aboutus)：ページ右側に「お問い合わせ」という項目があります。
 
 <h3 id="jasrac">
 一般社団法人 日本音楽著作権協会<br />
@@ -245,7 +245,7 @@ Japanese Society for Rights of Authors, Composers and Publishers（JASRAC）
 
 <h3 id="geidankyo">
 公益社団法人 日本芸能実演家団体協議会<br />
-Japan Council of Performers Rights & Performing Arts Organization
+Japan Council of Performers Rights & Performing Arts Organizations
 </h3>
 
 - [公式ウェブサイト](https://geidankyo.or.jp/)
@@ -254,7 +254,7 @@ Japan Council of Performers Rights & Performing Arts Organization
 
 <h3 id="riaj">
 一般社団法人 日本レコード協会<br />
-The Recording Industry Association of Japan
+Recording Industry Association of Japan
 </h3>
 
 - [公式ウェブサイト](https://www.riaj.or.jp/)
