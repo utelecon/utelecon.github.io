@@ -1,5 +1,5 @@
 ---
-title: Settting up a Webex Webinar
+title: Setting up a Webex Webinar
 ---
 
 <strong class="box">
