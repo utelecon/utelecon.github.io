@@ -19,7 +19,10 @@ title: 2022年8月・9月 UTokyo Slack説明会
 
 - 日程：2022年8月24日（水）16時30分～17時30分
 - 参加方法：**[Zoomウェビナー登録ページ](https://u-tokyo-ac-jp.zoom.us/webinar/register/WN_AHCTJGkkSfunt0i4x2Varg)**から申し込んでください．
-- 内容：追ってこのページに掲載します．
+- 資料
+    - **[全体スライド](part1_main.pdf)**
+    - **[編入（移行）の概要](part1_migration.pdf)**
+    - **[Microsoft Teamsのアップデート](part1_teams.pdf)**
 - 録画：開催後にこのページに掲載します．
 
 ## パート2「既存ワークスペースの編入（移行）について」  
