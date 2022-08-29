@@ -186,9 +186,9 @@ When using a Slack workspace in class, it is a good idea to set class rules for 
 
 ### Good Practices and Examples of Applications
 
-* [Prof. Saito, Computational Mathematics I (in Japanese)](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/saito)
+* [Prof. Saito, Computational Mathematics I (in Japanese)](/good-practice/interview/saito)
     * Slack was used in an Prof. Saito's on-demand style class. He called for questions regarding class content and answered them on Slack. Students seemed to be more active in asking questions online than face-to-face. He believes that Slack reduces the psychological burden to ask questions because users can edit or delete their messages.
-* [Prof. Shiraishi, Law I (in Japanese)](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/shiraishi.html)
+* [Prof. Shiraishi, Law I (in Japanese)](/good-practice/interview/shiraishi.html)
     * Since use of Slack was optional, only about 10% of the students actually joined Slack. However, many questions and consultations were received via DM. Prof. Shiraishi believes that being able to communicate privately was a factor for students to ask questions easily.
     * Materials were uploaded to Slack and ITC-LMS five days before the class, and students were asked to post questions on Slack by noon of the day before the class. As a result, the professor was able to answer questions in the class and give explanations based on the questions, which helped the professor structure the class.
 

@@ -29,15 +29,15 @@ title: Google Meet
 
 * Meetに関する<a href="https://support.google.com/meet/#topic=7306097" target="_blank">ヘルプ
 
-<a name="signup"></a>
 ## ECCSクラウドメール (G Suite for Education)の有効化
+{:#signup}
 
 もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています.
 
 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください(毎時00分に, それ以前の有効化がGoogleに伝搬・反映されます).
 
-<a name="signin"></a>
 ## ECCSクラウドメールのアカウント(xxx@g.ecc.u-tokyo.ac.jp)でGoogleにログイン
+{:#signin}
 
 * 適当なGoogleのサービス (<a href="https://mail.google.com/" target="_blank" rel="noopener">Gmail</a>, <a href="https://calendar.google.com/" target="_blank" rel="noopener">カレンダー</a>など) にアクセスし, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でサインインしてください.
   * すでに他の(例えば個人の)Googleアカウントでサインインしている場合は, アカウントを切り替えたり, アカウントを追加して, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でサインインしてください.
@@ -47,8 +47,8 @@ title: Google Meet
   * <a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">Gmail</a>
   * <a href="https://calendar.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">カレンダー</a>
 
-<a name="create_meeting"></a>
 ## 会議の作成
+{:#create_meeting}
 
 Googleアプリであるため, Googleカレンダー, GmailなどGoogleアプリ経由での予約が簡単にできます. 
 
@@ -81,8 +81,8 @@ Googleアプリであるため, Googleカレンダー, GmailなどGoogleアプ�
 1. イベントをもう一度開いて「会議のリンクをクリップボードにコピー」し, それを参加者に教える. 授業に使うならばこのURLをITC-LMSなどに書き込む
 1. もしくはカレンダーのイベントそのものを参加者と共有すればカレンダー経由でURLを教えることが可能. Googleカレンダーを共有している人同士(研究室のメンバーなど)での会議に有用です
 
-<a name="join_meeting"></a>
 ## 会議への参加(join)
+{:#join_meeting}
 
 1. 会議の開催者から, 会議のURLを(メール, カレンダー, ITC-LMS経由などで)受け取る
 1. URLをブラウザで開いて会議に参加します. このとき,
@@ -90,8 +90,8 @@ Googleアプリであるため, Googleカレンダー, GmailなどGoogleアプ�
   * そうでない場合, 開催者の画面に, 許可・不許可を促す画面が現れ, 許可されれば会議に参加できます. 一定時間許可がないと参加できずエラーになります
   * したがって, 非常に多数の, 不特定多数の人数が参加する会議に対しては, 参加者にECCSクラウドメールのアカウントでログインすることを必須とすることが現実的です. 従ってこの場合, 会議に参加できるのは東京大学の教職員・学生(+ 少数の, 明示的に許可する参加者)ということになります
 
-<a name="do_meeting"></a>
 ## 会議中の操作
+{:#do_meeting}
 
 ### 資料(画面)の表示
 

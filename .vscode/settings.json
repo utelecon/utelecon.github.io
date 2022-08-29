@@ -1,0 +1,7 @@
+{
+  "yaml.schemas": {
+    "_data/schemas/notice.json": [
+      "_data/notice.yml"
+    ]
+  }
+}

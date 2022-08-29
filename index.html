@@ -22,11 +22,11 @@ description: 本サイトは，東京大学におけるオンライン授業やW
   <h2>ピックアップ</h2>
   <div class="cards">
     <a href="/events/2022-03-16/">2022/03/16 説明会「オンライン授業だけじゃない！　教育研究用ICT・オンライン会議ツールの説明会」</a>
+    <a href="/slack/">UTokyo Slack</a>
     <a href="/antivirus/">ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)</a>
     <a href="/utokyo_vpn/">UTokyo VPN</a>
     <a href="/utokyo_account/mfa">UTokyo Accountにおける多要素認証の利用について<small>（2021年秋のシステム変更）</small></a>
     <a href="/supporters/class">クラスサポーター制度のご案内</a>
-    <a href="/slido/">Slido</a>
   </div>
 
   <h3>授業にあたって</h3>
@@ -49,9 +49,9 @@ description: 本サイトは，東京大学におけるオンライン授業やW
     - 目安としては3記事から6記事程度を掲載する
   -->
   <div class="cards">
-    <a href="/articles/commentscreen/">CommentScreenで学生とコミュニケーションをとる</a>
-    <a href="/articles/club-activity/">サークル活動に使えるオンラインツール</a>
-    <a href="/articles/question-tools/">授業における質問の受け付け方の工夫</a>
+    <a href="/articles/student-communication/">オンライン勉強会の始め方</a>
+    <a href="/articles/group-presentation/">オンラインでグループプレゼンテーションを準備する</a>
+    <a href="/articles/google-groups/">Google グループの使用方法</a>
   </div>
 
   <h3>オンライン授業の実践など</h3>
@@ -62,21 +62,27 @@ description: 本サイトは，東京大学におけるオンライン授業やW
   </div>
 
   <h2>お知らせ</h2>
-  {% comment %} お知らせの追加は `_data/notice/ja.yml` を編集してください {% endcomment %}
+  {% comment %} お知らせの追加は `_data/notice.yml` を編集してください {% endcomment %}
   <ul>
-    {% assign i = 0 %}
-    {% assign j = 0 %}
-    {% for item in site.data.notice.ja %}
-    {% if item.outdated %}
-    {% continue %}
-    {% endif %}
-    {% assign i = i | plus: 1 %}
-    {% unless i <= 4 or item.important %} {% continue %} {% endunless %} {% assign j=j | plus: 1 %} {% unless i <=16 and
-      j <=8 %} {% break %} {% endunless %} <li>
-      <span class="notice-date">{{ item.date }}</span>
-      {{ item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+    {%- assign i = 0 -%}
+    {%- assign j = 0 -%}
+    {%- for item in site.data.notice -%}
+      {%- if item.outdated -%}
+        {%- continue -%}
+      {%- endif -%}
+    {%- assign i = i | plus: 1 -%}
+    {%- unless i <= 4 or item.important -%}
+      {%- continue -%}
+    {%- endunless -%}
+    {%- assign j=j | plus: 1 -%}
+    {%- unless i <=16 and j <=8 -%}
+      {%- break -%}
+    {%- endunless %}
+      <li>
+        <span class="notice-date">{{ item.date }}</span>
+        {{ item.content.ja | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
       </li>
-      {% endfor %}
+    {%- endfor %}
   </ul>
   <a href="/notice/">過去のお知らせ一覧はこちら</a>
 

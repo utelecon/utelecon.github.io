@@ -41,7 +41,7 @@ Google グループ（Google Groups）はGoogleの無料サービスの1つで�
 [[FAQ: よくある質問] 【ECCSクラウドメール】Google グループの利用について](https://www.ecc.u-tokyo.ac.jp/announcement/2016/09/14_2311.html)
 
 * 東大のアカウントを取得していない方は以下の記事を参考にしてください．  
-[ECCSクラウドメール  (Google Workspace)](https://utelecon.adm.u-tokyo.ac.jp/eccs_cloud_email)
+[ECCSクラウドメール  (Google Workspace)](/eccs_cloud_email)
 
 以下，本記事では東大のアカウントでのログインを想定して説明します．
 

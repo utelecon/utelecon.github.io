@@ -22,7 +22,9 @@ title: How to use the Learning Management System ITC-LMS（for instructors）
 ## During classes
  1. Let your students know the code for attendance  (<a href="attendances" target="">details</a>)
  1. Confirm attendance  (<a href="view_attendances" target="">details</a>)
+{% comment %}
  1. Apply quizzes  (<a href="quizzes" target="">TBA</a>)
+{% endcomment %}
 
 ## Reference information
 * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/">ITC-LMS website</a>
@@ -40,4 +42,6 @@ title: How to use the Learning Management System ITC-LMS（for instructors）
 * <a href="assignments" target="">Prepare assignments</a>
 * <a href="attendances" target="">Let your students know the code for attendance</a> 
 * <a href="view_attendances" target="">Confirm attendance</a>
+{% comment %}
 * <a href="quizzes" target="">Apply quizzes (TBA)</a>
+{% endcomment %}
