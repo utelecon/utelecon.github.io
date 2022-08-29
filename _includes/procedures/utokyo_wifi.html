@@ -9,10 +9,14 @@
 <ul>
   {% case page.slug %}{% when "oc" %}
   <li><a href="/oc/movies#utokyo_wifi">手順動画</a></li>
+  {% else %}
+  <li>既に有効なUTokyo WiFiアカウントを持っている場合，アカウント発行の手順を繰り返す必要はありません（2台目以降の機器も同じアカウントで利用できます）．</li>
   {% endcase %}
-  <li>以前に以下の「UTokyo WiFiアカウントメニュー」からアカウントを発行したことがある場合，発行手続きは必要ありません．
-    一番新しいアカウント情報を利用して，UTokyo WiFiを利用することができます．</li>
-  <li>2台目以降の機器であっても同様に，一番新しいアカウントの情報を利用してUTokyo WiFiに接続することが可能です．</li>
+  {% case page.slug%}{% when "oc"%}
+  <li>UTASにメールアドレスを登録した翌日以降に作業してください．</li>
+  {% else %}
+  <li>手順3は，上の手順2でメールアドレスを登録した翌日以降に作業してください．</li>
+  {% endcase %}
 </ul>
 <ol>
   {% case page.slug %}{% when "oc" %}
@@ -89,14 +93,14 @@
   <li><strong>手順4：UTokyo WiFiが接続可能なネットワークとして表示されている場所で接続をする</strong>
 {% endcase %}
     <ul>
-      <li>この作業はキャンパス内の，UTokyo WiFi（SSIDが <code>UTokyo-WiFi</code> となっているWi-Fi）が見える場所でしかできません．</li>
+      <li>この作業はキャンパス内のUTokyo WiFi（SSIDが <code>UTokyo-WiFi</code> となっているWi-Fi）が見える場所でしかできません．</li>
     </ul>
     <ol>
       {% case page.slug %}{% when "utokyo_wifi" %}
-      <li>手順1で用意した端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
+      <li>手順1で確認した端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
       <li>接続しようとするとユーザーIDとパスワードを聞かれるので，手順3で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
       {% else %}
-      <li>上の手順で用意した端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
+      <li>UTokyo WiFiに接続したい端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
       <li>接続しようとするとユーザーIDとパスワードを聞かれるので，上の手順で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
       {% endcase %}
       <li>接続が完了すれば，後は普通のWi-Fiと同様に使えます．</li>
@@ -124,6 +128,7 @@
               </ul>
             </li>
           </ul>
+          これらを確認して，それでもうまくいかなければ，<a href="/support/index.md">サポート窓口</a>に相談してください．
         </details>
       </li>
     </ul>
