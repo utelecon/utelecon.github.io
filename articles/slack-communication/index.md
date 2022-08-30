@@ -1,6 +1,9 @@
 ---
 title: Slackで学生とコミュニケーションを取る方法
 ---
+
+{% include articles/slack_notice.html %}
+
 ## この記事のハイライト
 
 この記事では，学生とのコミュニケーションなどSlackの活用方法について紹介します．
