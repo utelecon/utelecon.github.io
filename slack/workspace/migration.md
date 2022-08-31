@@ -39,7 +39,7 @@ title: UTokyo Slackへの既存ワークスペースの編入（移行）
 
 ## 手続きスケジュールなど
 
-9月分の手続きスケジュールは以下の予定です（状況により変更する可能性があります）．
+9月受付分の手続きスケジュールは以下の予定です（状況により変更する可能性があります）．
 
 - 申し込み締切：9月9日（金）
 - 抽選結果通知：9月12日（月）
@@ -125,4 +125,8 @@ UTokyo Slackへの編入（移行）は，教職員からの申し込みによ�
 
 ## 申し込みフォーム
 
-8月31日中に公開しますので，しばらくお待ちください．
+本ページの説明をすべて熟読の上，以下のフォームからお申し込みください．9月受付分の締切は9月9日（金）の予定です．
+
+<div style="border: 2px solid currentcolor; margin: 2em 0 1em; padding: 0.5em; font-weight: bold; text-align: center;">
+<a href="https://forms.gle/cxkHzRpAvkxANuCn6">UTokyo Slackへの編入（移行）申請フォーム</a>
+</div>
