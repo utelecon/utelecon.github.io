@@ -1,5 +1,5 @@
 ---
-title: "2022/09/14 説明会「授業に, 研究に, 業務に！ オンライン会議・クラウドツールの活用説明会 <font size="-2">--- ついに「あのツール」も登場</font>"
+title: "2022/09/14 説明会 授業に, 研究に, 業務に！ オンライン会議・クラウドツールの活用説明会 <font size="-2">--- ついに「あのツール」も登場</font>"
 ---
 
 ## 開催趣旨
@@ -22,9 +22,9 @@ Aセメスターの開始に当たり、東京大学で使われているクラ�
 
 - 挨拶　太田邦史　副学長・執行役　情報システム本部長・**[動画](https://youtu.be/..... )**
 - 目次 (**[資料](slides/00-index.pdf)**)
-    1. 全学サービスの全体像 (10分 田浦; **[資料](slides/01-overview.pdf)**・**[動画](https://youtu.be/..... )**)
-    1. 授業における情報システム利用の基礎 (30分 柴山; **[資料](slides/02-in-classes.pdf)**・**[動画](https://youtu.be/..... )**)
-    1. UTokyo Slack (20分 玉造; **[資料](slides/03-utokyo-slack.pdf)**・**[動画](https://youtu.be/..... )**)
+    1. 授業のための基礎 (30分 柴山; **[資料](slides/01-in-classes.pdf)**・**[動画](https://youtu.be/..... )**)
+    1. サービス全体像・認証・セキュリティ (30分 田浦; **[資料](slides/02-overview-security.pdf)**・**[動画](https://youtu.be/..... )**)
+    1. UTokyo Slack (30分 玉造; **[資料](slides/03-utokyo-slack.pdf)**・**[動画](https://youtu.be/..... )**)
     1. uteleconと学生によるサポート体制 (10分 鈴木; **[資料](slides/04-utelecon_and_supporters.pdf)**・**[動画](https://youtu.be/.....)**)
 - 質疑応答: ..... を利用しておこないます(**[資料](slides/.....pdf)**・**[動画](https://youtu.be/.....)**).
 
