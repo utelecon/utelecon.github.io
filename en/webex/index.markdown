@@ -1,164 +1,97 @@
 ---
-title: How to use Webex
+title: WebEx
 ---
 
+## はじめに
 
-## Introduction
+* デフォルトのライセンスで1000人まで参加可能になっているので大規模人数の会議をする人にはおすすめです
+* End-to-end暗号化された(クラウド上でも復号化されない)会議が開催可能で, 高い機密性の必要な(または検閲などの恐れの少ない)会議が必要な場合にもおすすめです
+* 投票, ブレークアウト, 全員ミュート, などの機能もあります
+* アプリをインストールせずWebブラウザだけでも使えますが基本的な機能に制限されます
+* アプリはWindows, Mac, iOS, Androidに対応しています(Linuxには対応していません)
+<!--* 複数の会議への同時参加,および複数の会議の同時開催が可能です-->
+* 2021年3月からサインイン方法がUTokyo Accountを使う方法に変わりました．詳細は[新しいサインイン方法のページ](signin)や[変更についての案内ページ](/en/change2021s/)をご覧ください．
 
-* You do not need to create an UTokyo Webex account if you just participate in the meeting.
-* Until June 8th 2020  (extension under consideration), you can organize online meetings and classes if you create an account by University’s Google mail (10 digits of common ID number @ g.ecc.u-tokyo.ac.jp, hereinafter referred to as ECCS cloud mail).
-* A maximum of 1000 participants can connect simultaneously.
-* **When you use Webex Meetings and Webex Events at the same time,  a maximum  200 participants can connect TV conference systems (i.e., Polycom etc.)  However, Webex Meetings and Webex Events is not available for ECCS cloud mail until June 8th 2020. Moreover, TV conference systems have some limitations. Please check in advance what Webex Meetings and Webex Events can be applied for.**
-* This section describes the features and usage flow of the Web conferencing tool in Webex. In addition, there are sub-pages with specific instructions, so please refer to them as necessary.
-* This page basically describes the use of Webex on a PC, but you can also use Webex application on tablets and smartphones. 
-* Reference：[UTokyo 90 Days Cisco Webex](https://www.u-tokyo.ac.jp/adm/dics/ja/90dayswebex.html)
+## WebExサービスについて
 
-### Webex services
+WebExは，一般的にはWebEx Meetingsが使われていますが，他にもWebEx Webinars，WebEx Training，WebEx Supportがあり, 全部で4種類があります．それぞれ長短があります．
 
-* Webex offers 4 services: **Webex Meetings** (often used)，**Webex Training**，**Webex Events**，**Webex Support**. Each service has strengths and weaknesses.
-	* [Comparison between Webex services](https://www.cisco.com/c/ja_jp/products/conferencing/product_comparison.html)
+* WebEx Meetings
+  * 最大参加者数は1,000．うちテレビ会議システムからの接続最大200を含む．
+    * テレビ会議システム（いわゆるPolycom等）からの接続が可能．ブレイクアウトセッションをおこなうこともできる
+    * 参加者同士が同じ立場で，双方向でやりとりのある会議等に使われることが多い．
+* WebEx Webinars
+  * 最大参加者数は1,000．
+  * プレゼンターはテレビ会議システム（いわゆるPolycom等）からの接続が可能．
+  * 中～大規模なイベント等に用いられ，参加者同士は顔も名前もわからないように隔離されます．
+* WebEx Training
+  * 最大参加者数は1,000．
+  * ブレイクアウトセッションやテスト等をおこなうことができる．
+  * パネリストやテストが必要なインタラクティブな講義等に使われることもある．
+* WebEx Support
+  * 1セッション5名，同時最大8セッション開催可能
+  * タブレット・スマートホンは不可．
+  * 基本的に1:1のITサポートに用いられる．
 
-* **Webex Meetings**
-	* A Maximum of 1000 participants, including 200 participants who connect TV conference systems (i.e., Polycom etc.)  
-	* **Webex Meetings can connect TV conference systems（i.e. Polycom etc.）.**
-	* Webex Meetings is most likely to avail at meetings which communicate among participants interactively.
-* **Webex Training**
-	* A Maximum of 1000 participants can connect simultaneously.
-	* **Like Zoom, organizers can create breakout sessions.**
-	* Webex Training is most likely to use classes which aimed to create breakout session.
-* **Webex Events**
-	*  A Maximum of 1000 participants can connect simultaneously.
-	* **Presenters can connect through TV conference systems．**
-	* Webex Events is most likely to be used for presentations(e.g., 1 speaker and over 25 participants in audience).
-* Webex Support
-	* 5 participants for 1 session. You can hold 8 sessions at the same time. 
-	* Tablets and smartphones are not compatible.
-	* Webex Support is most likely to be used for 1 on 1 support sessions.
+以下ではWebEx Meetings，WebEx Webinarsについて利用方法を説明していきます.
 
-## Before using Webex service
-{% comment %}
-* PC，タブレット，スマートフォンなど接続用デバイスを用意します．
-	* マイクやカメラが内蔵されていない場合はそれらも用意します．
-	* 一台のPCを同じ部屋の複数人で共有したり，講義室で登壇する人の姿を写したりする場合など，PCと参加者の距離が遠い場合，外付けのUSBカメラや高感度マイクを接続することを推奨します．
-* インターネットへの接続環境を用意します．
-	* 従量課金だと通信料の高額請求につながる恐れがあります．
-	* 基本的には，接続しているインターネット環境に応じて画質等が自動的に変更され，あらゆる帯域の環境でも利用できますが，YouTubeがスムーズに見れないほどの厳しい環境では利用は厳しいかも知れません．
-{% endcomment %}
-* Organizers 
-	1. Prepare connection devices such as PC, tablet and smartphone
-		* Download <a href="https://www.webex.com/downloads.html" target="_blank">Cisco Webex</a>
-		* If you can not install the application of Webex Meetings, you can use Webex Meetings web browser instead  (Firefox or Google Chrome is preferred), although Some functions are limited．
-	1. Activate ECCS cloud mail（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">details</a>）
-	1. How to create WebEx account（<a href="create_webex_account" target="_blank">details</a>）
-* Participants
-	1. Prepare connection devices such as PC, tablet and smartphone
-		* Download <a href="https://www.webex.com/downloads.html" target="_blank">Cisco Webex</a>.
-		* If you can not install the application of Webex Meetings, you can use Webex Meetings web browser instead  (Firefox or Google Chrome is preferred), although Some functions are limited．
+## 利用方法
 
-## How to use Webex Meetings
+### WebEx Meetingsへの参加
 
-* Organizers
-	1. Log in WebEx（<a href="create_webex_account" target="_blank">details</a>）
-	1. Create and share a conference room（<a href="create_meeting" target="_blank">details</a>）
-	1. Start the meeting（<a href="open_meeting" target="_blank">details</a>）
-		* **In order to start the meeting, organizers must start the meeting.**
-		* <a href="do_meeting" target="_blank">What is possible with Webex Meetings?（for Instructors・Participants）</a>
-		* <a href="do_meeting_host" target="_blank">What is possible with Webex Meetings?（for Instructors）</a>
-{% comment %}
-		* 授業での使い方
-			* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
-			* <a href="classroom_chat" target="">［チャット］質問を受け付ける</a>執筆中
-			* <a href="classroom_poll" target="">［投票］学生に質問する</a>執筆中
-			* <a href="classroom_record" target="">［レコーディング］授業を録画する</a>執筆中
-{% endcomment %}
+1. 開催者から会議室の情報（URLなど）を得る．
+    * 授業の場合は[授業URLの連絡方法（学生向け）](/en/oc/url)をご参照ください．
+1. [会議室へ参加](join_meeting)
+    * 会議室によっては[東京大学のアカウントへのサインイン](signin)が必要です．
+    * 主催者が明示的に「開始」するまで他の参加者はつなげません
+1. 会議室を使う
+    * [ミーティング・ウェビナーでできること（開催者・参加者共通）](do_webex)
 
-	* <a href="open_meeting_vc" target="_blank">Holding TV system conferences</a> **You cannot use Webex Meetings based on ECCS cloud mail until June 8th 2020.．**
-		* <a href="do_meeting_vc" target="_blank">What is possible with Webex Meetings?（Instructors and Participants from TV conference systems）</a>
-{% comment %}
-		* 授業での使い方	
-			* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>	
-{% endcomment %}
+### WebEx Meetingsの開催
 
-* Participants
-	1. Obtain  meeting room information (URL, etc.) from the organizer using e-mail etc.
-	1. Enter the meeting room（<a href="join_meeting" target="_blank">details</a>）
-		* If organizers do not start the meeting, participants cannot enter the meeting room and may only see information of the meetings. 
-		* <a href="do_meeting" target="_blank">What is possible with Webex Meetings?（for Instructors・Participants)</a>
+1. [東京大学のアカウントへのサインイン](signin)
+1. [会議室を作成](create_meeting)
+1. 会議室の情報（URLなど）を参加者に周知
+    * 授業の場合は[授業URLの連絡方法（教員向け）](/en/faculty_members/url)をご参照ください．
+1. [会議室を開始](open_meeting)
+    * 開催者が明示的に「開始」するまで他の参加者はつなげません
+1. 会議室を使う
+    * [ミーティング・ウェビナーでできること（開催者・参加者共通）](do_webex)
+    * [ミーティング・ウェビナーでできること（開催者限定）](do_webex_host)
 
-	* <a href="join_meeting_vc" target="_blank">Enter TV system conference</a> **You cannot use Webex Meetings based on ECCS cloud mail until June 8th 2020.．**
-		* If organizers do not start the meeting, participants cannot enter the meeting room and TV meeting is shut down．
-		* <a href="do_meeting_vc" target="_blank">What is possible with Webex Meetings?（Instructors and Participants from TV conference systems）</a>
+### WebEx Webinars
 
-## How to use Webex Training
+基本的な流れはWebEx Meetingsと同じです．
 
-* Instructors
-	1. Log in WebEx（<a href="create_webex_account" target="_blank">details</a>）
-	1. Set the training session（<a href="create_training" target="_blank">details</a>）
-	1. Start the training（<a href="open_training" target="_blank">details</a>）
-		* **Organizers must press "start the training."．**
-		* <a href="do_training" target="_blank">What is possible with Webex Training?（for Instructors・Participants)</a>
-		* <a href="do_training_host" target="_blank">What is possible with Webex Training?（for Instructors)</a>
+* （開催者）[ウェビナーを作成](create_events)
+* （開催者）[ウェビナーを開始](open_events)
+* （参加者）[ウェビナーへ参加](join_events)
+* [ミーティング・ウェビナーで出来ること（開催者・参加者共通）](do_webex)
+* [ミーティング・ウェビナーでできること（開催者限定）](do_webex_host)
 
-* Participants
-	1. Obtain  meeting room information (URL, etc.) from the organizer using e-mail etc.
-	1. Enter the meeting room（<a href="join_training" target="_blank">details</a>）
-		* If organizers do not start the meeting, participants cannot enter the meeting room and may only see information of the meetings. 
-		* <a href="do_training" target="_blank">What is possible with Webex Training?（for Instructors・Participants)</a>
+### テレビ会議システムからの利用
 
-## How to use Webex Events
+* [WebExではないテレビ会議システムで利用する](do_webex_vc)
 
-* Instructors
-	1. Log in WebEx（<a href="create_webex_account" target="_blank">details</a>）
-	1. Set the event（<a href="create_events" target="_blank">details</a>）
-	1. Start the event（<a href="open_events" target="_blank">details</a>）
-		* **Organizers must press "start the event".**
-		* <a href="do_events" target="_blank">What is possible with Webex Events?（for Instructors・Participants)</a>
-		* <a href="do_events_host" target="_blank">What is possible with Webex Events?（for Instructors)</a>
 
-	* <a href="join_events_vc" target="_blank">Join as a pannelist in TV conferences</a> **Webex Meetings and participation as a pannelist via ECCS Cloud Mail are not available until 8th June.**
+## WebExでSlidoを利用する
 
-* Participants
-	1. Obtain  meeting room information (URL, etc.) from the organizer using e-mail etc.
-	1. Enter the event（<a href="join_events" target="_blank">details</a>）
-		* If organizers start the event, you cannot enter the meeting room and can only see information of the event.
-		* <a href="do_events" target="_blank">What is possible with Webex Events?（for Instructors)</a>
+* WebExでは，開催中にSlidoを起動して直接操作することができます．操作はウェブで利用する時と同じです．Slidoについての一般的な説明・操作方法は[「Slido」](/en/slido/)をご覧下さい．
+* 利用における注意事項
+  * End-to-End Encrypted Meetingでは利用できません．
+  * Events (classic)では利用できません．
+  * 主催者のみSlidoを起動できます．(共同主催者は起動できません．)
+  * 主催者はデスクトップアプリからSlidoを起動する必要があります．（モバイルアプリ・ウェブアプリでは起動できません．）
+  * 参加者はデスクトップ，モバイル，ウェブ版のアプリで使用できます．
+* [できる事(主催者/参加者共通)](do_webex#operating-slido)
+  * ライブ投票・アンケート(Polls)
+  * Q&A
+* [できる事(主催者)](do_webex_host#activating-slido)
+  * 事前に主催者のSlidoイベント一覧のページで用意したイベントの開催
+  * イベントの新規作成
+  * ライブ投票・アンケート(Live Poll)の追加
+  * Slidoイベント終了後の分析は，主催者のSlidoイベント一覧のページで操作します．
 
-{% comment %}
-## 授業の例
 
-* 授業例は<a href="browse_samples" target="_blank">こちら</a>
-
-{% endcomment %}
-## Related Pages
-* <a href="create_webex_account" target="_blank">How to Log in and Create an UTokyo Webex account</a>	
-
-* <a href="create_meeting" target="_blank">How to set the meeting room</a> 
-* <a href="open_meeting" target="_blank">How to start Webex Meetings</a> 
-* <a href="open_meeting_vc" target="_blank">How to start Webex Meetings  （TV conference systems）</a> 
-* <a href="join_meeting" target="_blank">How to join Webex Meetings</a> 
-* <a href="join_meeting_vc" target="_blank">How to join Webex Meetings （TV conference systems）</a> 
-* <a href="do_meeting" target="_blank">What is possible with Webex Meetings?（for Instructors・Participants)</a> 
-* <a href="do_meeting_vc" target="_blank">What is possible with Webex Meetings?（Instructors and Participants from TV conference systems）</a>
-* <a href="do_meeting_host" target="_blank">What is possible with Webex Meetings?（for Instructors)</a> 
-
-* <a href="create_training" target="_blank">How to create Webex training</a> 
-* <a href="open_training" target="_blank">How to start Webex Training</a> 
-* <a href="join_training" target="_blank">How to join Webex Training</a> 
-* <a href="do_training" target="_blank">What is possible with Webex Training?（for Instructors・Participants)</a> 
-* <a href="do_training_host" target="_blank">What is possible with Webex Training?（for Instructors)</a> 
-
-* <a href="create_events" target="_blank">How to create Webex Events</a> 
-* <a href="open_events" target="_blank">How to start Webex Events</a> 
-* <a href="join_events" target="_blank">How to join Webex Events</a> 
-* <a href="join_events_vc" target="_blank">How to join Webex Events （TV Conference Systems）</a> 
-* <a href="do_events" target="_blank">What is possible with Webex Events?（for Instructors・Participants)</a> 
-* <a href="do_events_host" target="_blank">What is possible with Webex Events?（for Instructors)</a> 
-{% comment %}
-* 授業での使い方
-	* <a href="classroom_screen_sharing" target="">［画面共有］資料を提示する</a>執筆中
-	* <a href="classroom_chat" target="">［チャット］質問を受け付ける</a>執筆中
-	* <a href="classroom_poll" target="">［投票］学生に質問する</a>執筆中
-	* <a href="classroom_record" target="">［レコーディング］授業を録画する</a>執筆中
-	* Webex Trainingのみ：<a href="classroom_breakout" target="">［ブレイクアウト］グループワークを促す</a>執筆中
-{% endcomment %}
+三菱電機システムサービス株式会社から資料提供をいただいています．
 
