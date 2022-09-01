@@ -23,19 +23,19 @@ title: 2022年8月・9月 UTokyo Slack説明会
     - **[全体スライド](part1_main.pdf)**
     - **[編入（移行）の概要](part1_migration.pdf)**
     - **[Microsoft Teamsのアップデート](part1_teams.pdf)**
-- 録画：[説明会ビデオ](https://youtu.be/n1LsNZfGEVw)
+- 録画：**[説明会ビデオ](https://youtu.be/n1LsNZfGEVw)**
 - 質疑応答：いただいたご質問については，こちらにまとめを掲載して，回答をご確認いただけるようにする予定です．いましばらくお待ちください（対応に時間がかかり申し訳ありません）．
 
 ## パート 2「既存ワークスペースの編入（移行）について」
 {:#part2}
 
 - 日程：2022年8月31日（水）16時30分～17時30分
-- 参加方法：**[Zoom ウェビナー登録ページ](https://u-tokyo-ac-jp.zoom.us/webinar/register/WN_O6C6rYE4QouupS5-wDaFtg)**から申し込んでください．なお，パート1の内容を前提として説明を行う予定です．
-- 録画：開催後にこのページに掲載します．
+- 参加方法：~~Zoom ウェビナー登録ページ~~(終了いたしました)から申し込んでください．なお，パート1の内容を前提として説明を行う予定です．
 - 資料
     - **[全体スライド](part2_main.pdf)**
     - **[編入（移行）の詳細](part2_migration.pdf)**
     - **[APIを用いた「移植」](part2_api.pdf)**
+- 録画：**[説明会ビデオ](https://youtu.be/oBBtf5Sy5Ho)**
 - 質疑応答：[Slido のイベント](https://app.sli.do/event/psFfzkzp8TbfbJCcg8jkK9)で受け付けます．
     - 事前に質問いただくことが可能です．
     - 事前の質問は，送信すると「レビューを待っています」と表示され，すぐには他の方には表示されません．当日までには全員に表示されます．
