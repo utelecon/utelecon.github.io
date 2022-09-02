@@ -24,7 +24,7 @@ UTokyo Accountにおける多要素認証に関する情報はこのページで
 
 セキュリティの観点からは多要素認証を設定することを推奨しますが，現時点においては多要素認証の設定は必須ではなく，以下の例外を除き，多要素認証を設定しなくてもこれまで通りUTokyo Accountを利用することができます．
 
-- UTokyo VPNを利用するには多要素認証を設定する必要があります（UTokyo VPNについての詳細は，[UTokyo VPNのページ](/utokyo_vpn/)を参照してください）．
+- UTokyo VPN，UTokyo Slackを利用するには多要素認証を設定する必要があります（それぞれのサービスについての詳細は，[UTokyo VPNのページ](/utokyo_vpn/)，[UTokyo Slackのページ](/slack/)を参照してください）．
 - 教職員向けの「職員メール」（@mail.u-tokyo.ac.jpのメールアドレス）をOutlook以外のメールソフトで利用している場合，多要素認証を設定するとOAuth認証が必要になるため，適宜メールソフトの設定変更を行ってください<small>（なお，職員メールでは，[UTokyo Portalのページ（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx)にも記載している通りOutlookの利用を推奨しているため，それ以外のメールソフトでの設定方法はご自身でマニュアルなどを確認するようお願いします）</small>．
 
 ## 多要素認証の初期設定手順
