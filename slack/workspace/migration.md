@@ -142,6 +142,6 @@ UTokyo Slackへの編入（移行）は，教職員からの申し込みによ�
 
 本ページの説明をすべて熟読の上，以下のフォームからお申し込みください．9月受付分の締切は9月9日（金）の予定です．
 
-<div style="border: 2px solid currentcolor; margin: 2em 0 1em; padding: 0.5em; font-weight: bold; text-align: center;">
+<b class="box">
 <a href="https://forms.gle/cxkHzRpAvkxANuCn6">UTokyo Slackへの編入（移行）申請フォーム</a>
-</div>
+</b>
