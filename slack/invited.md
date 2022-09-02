@@ -14,9 +14,7 @@ title: UTokyo Slackに特定のワークスペースから招待を受けて参�
 
 ### 参加の前に
 
-UTokyo Slackの利用にあたっては，UTokyo Accountの多要素認証の有効化を必須としています．「**[UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa)**」のページにある初期設定手順を**最後の「手順4：多要素認証の利用を申請する」まで確実に行って**，UTokyo Accountの多要素認証を有効にしてください．その後，多要素認証の設定が**システムに反映されるまで約40分かかるので，それまでしばらく待ってから**以下の手順に進んでください．
-
-また，UTokyo Slackの利用にあたっては，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を受講していることを前提とします．
+{% include_relative _before.md %}
 
 ### 手順
 
@@ -29,7 +27,7 @@ UTokyo Slackの利用にあたっては，UTokyo Accountの多要素認証の有
     </details>
 1. サービス利用規約を確認するよう求められるので，確認してください．
 1. 参加が完了し，ワークスペースの画面が表示されます．
-1. プロフィールやその共有範囲を適切に設定してください．
-    - デフォルトでは，氏名欄にはUTokyo Accountの氏名が，表示名欄には数字10桁の共通IDが，それぞれ表示されています．プロフィールを変更する詳しい手順については「[プロフィールを編集](https://slack.com/intl/ja-jp/help/articles/204092246)」を参照してください．
-    - デフォルトでは，あなたのプロフィールは，UTokyo Slack内のあなたが参加していないワークスペースのメンバーや，コネクト先のワークスペースのメンバーにも共有されています．お好みに合わせて，あらかじめ「[連絡先の共有の環境設定を管理する](https://slack.com/intl/ja-jp/help/articles/4406144704659)」に記載の手順で共有範囲を変更してください．
 
+### 参加の後に
+
+{% include_relative _after.md heading="####" %}
