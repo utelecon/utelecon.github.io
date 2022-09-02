@@ -2,6 +2,7 @@
 title: Orientations / Seminars
 ---
 
+* 2022/09/14 [Briefing session: For education, for research, and for administration! A briefing session on online conference tools and cloud tools - and also on the tool you may be curious about (only in Japanese)](/events/2022-09-14/)
 * 2022/03/16 [Briefing session: Not only online classes! A briefing session on ICT and online conference tools for education and research (only in Japanese)](/events/2022-03-16/)
 * 2021/09/15 [Briefing session: Online Classes for 2021 A semester - Educational ICT and Online / Hybrid Classes (only in Japanese)](/events/2021-09-15/)
 * 2021/03/25 [Online Course How to use Zoom 2021 (only in Japanese)](/events/2021-03-25/)
