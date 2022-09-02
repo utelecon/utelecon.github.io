@@ -2,6 +2,8 @@
 title: SARTRASに加盟する団体一覧
 ---
 
+最終更新日：2022/09/02
+
 ## この記事の概要
 
 著作権法では，一定の条件の下で，著作物を自由に利用することができることを定めています．
@@ -24,7 +26,7 @@ The Japanese Newspaper Copyright Management Association
 </h3>
 
 - [公式ウェブサイト](https://jncma.org/)
-- [加盟団体／賛同団体／委託者／会員](https://jncma.org/compensation.html)
+- [加盟団体／賛同団体／委託者／会員](https://jncma.org/member.html)
 
 <h3 id="jaacc" class="no_toc">
 一般社団法人 学術著作権協会<br />
@@ -58,9 +60,9 @@ Writers Guild of Japan
 Japan Writers Guild
 </h3>
 
-- [公式ウェブサイト](https://www.j-writersguild.org/)
+- [公式ウェブサイト](https://www.j-writersguild.org/)：中段のブロック「著作物を利用される方」に著作物の使用について詳細な情報がまとまっています．
 - [加盟団体／賛同団体／委託者／会員](https://www.j-writersguild.org/search-works.html)
-- [使用許諾申請・問い合わせ先](https://www.j-writersguild.org/categorized-entry.html?id=3103)：トップページ中段のブロック「著作物を利用される方」に必要な情報がまとまっています．
+- [使用許諾申請・問い合わせ先](https://www.j-writersguild.org/categorized-entry.html?id=3103)
 
 <h3 id="jpca" class="no_toc">
 一般社団法人 日本写真著作権協会<br />
@@ -69,7 +71,7 @@ Japan Photographic Copyright Association
 
 - [公式ウェブサイト](https://jpca.gr.jp/)
 - [加盟団体／賛同団体／委託者／会員](https://jpca.gr.jp/about/relation/)
-- [使用許諾申請・問い合わせ先](https://jpca.gr.jp/faq/)
+- [使用許諾申請・問い合わせ先](https://jpca.gr.jp/faq/)：「よくあるご質問」のページに，お問い合わせフォームへのご案内と，著作権についてのいくつかの説明が記載されています．
 
 <h3 id="jart" class="no_toc">
 一般社団法人 日本美術著作権連合<br />
@@ -87,7 +89,7 @@ Japan Artists Association
 </h4>
 
 - [公式ウェブサイト](http://www.jaa-iaa.or.jp/)
-- [加盟団体／賛同団体／委託者／会員](http://www.jaa-iaa.or.jp/copyright/index.html)
+- [加盟団体／賛同団体／委託者／会員](http://www.jaa-iaa.or.jp/copyright/index.html)：ページの中段からリストになっています．
 - [使用許諾申請・問い合わせ先](http://www.jaa-iaa.or.jp/copyright/index.html)
 
 <h4 id="jagda" class="no_toc">
@@ -133,7 +135,7 @@ Tokyo Illustrators Society
 
 - [公式ウェブサイト](https://www.tis-home.com/)
 - [加盟団体／賛同団体／委託者／会員](https://www.tis-home.com/artists/)
-- [使用許諾申請・問い合わせ先](http://www.tis-home.com/about/)
+- [使用許諾申請・問い合わせ先](http://www.tis-home.com/about/)：問い合わせ先はページの末尾にあります．
 
 <h4 id="tosho-sekkei" class="no_toc">
 日本図書設計家協会<br />
@@ -191,7 +193,7 @@ Japan Medical Publishers Association
 
 <h3 id="azusakai" class="no_toc">
 一般社団法人 出版梓会<br />
-Azusakai
+Shuppan Azusakai
 </h3>
 
 - [公式ウェブサイト](http://www.azusakai.or.jp/)
