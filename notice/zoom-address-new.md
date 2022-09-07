@@ -62,6 +62,7 @@ UTokyo Accountサインインではないアカウント（ECCSクラウドメ�
     <li>
         変更についてメールでの確認が行われます．変更前のメールアドレスとECCSクラウドメールの双方に順番にメールが届くので，記載に従って作業を行ってください．
         <div>※上の手順で入力した変更後のメールアドレス <code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code> 宛にメールが送信される旨が表示されますが，このメールアドレス宛のメールは転送されてECCSクラウドメール <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> に届くようになっているため，ECCSクラウドメールにログインして受け取ってください．</div>
+        {% include 20220907_utac_email.html %}
     </li>
     <li>
         <a href="https://zoom.us/profile">Zoomのプロフィールページ</a>の右上のアイコン（人のマークか，または自分のアイコンを設定していればそれ）を押して「サインアウト」を選択し，Zoomから一度サインアウトしてください．
@@ -74,6 +75,7 @@ UTokyo Accountサインインではないアカウント（ECCSクラウドメ�
             <img src="image/zoom_sso_update_email.png">
             アカウントを東京大学の組織契約 (UTokyo Zoom) に切り替えるためにメールによる確認が必要です．「メールアドレスの確認」ボタンを押して少し待つとECCSクラウドメールに確認メールが届くので，記載に従って作業を行ってください．
             <small style="display: block">※<code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code> のメールアドレスを確認するよう表示されていますが，このメールアドレス宛のメールは転送されてECCSクラウドメール <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> に届くようになっているため，確認メールはECCSクラウドメールにログインして受け取ってください．</small>
+            {% include 20220907_utac_email.html %}
         </details>
     </li>
     <li>
