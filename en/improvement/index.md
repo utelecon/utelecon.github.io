@@ -38,7 +38,7 @@ We will update it as needed, so please keep checking regularly.
     * [How to create a video with Zoom (external site)](https://media.tebiki.jp/022)
     * [How to make board handwriting online](/en/faculty_members/how_to_teach_online_handwriting)
 * How to share a video file
-    * [How to upload and share video files to Google Drive](/improvement/how/google/share_video)
+    * [How to upload and share video files to Google Drive](/faculty_members/how/google/share_video)
     * [How to record and share to the Zoom cloud](/zoom/how/faculty_members/recording_cloud)
 * How to use web conferencing systems
     * [Zoom](/en/zoom/)
@@ -83,7 +83,7 @@ If you like to send us new information, please contact us here.
 
 * **Practical example of online board writing with a tablet or electronic whiteboard**[\[Website\]](http://noneq.c.u-tokyo.ac.jp/online_lecture.html)(Dr. Shagawa, Graduate School of Engineering) This article summarizes the disadvantages and advantages of using tablets and electronic whiteboards in the classroom.
 
-* **Online lecture with a laptop** [\[Powerpoint\]](/faculty_memebers/materials/online_example_1pc.pptx) [\[Movie(MPEG4)]](/faculty_members/materials/online_example_1pc.mp4) (Prof. Kawahara, Graduate School of Engineering): This tutorial explains how to conduct a board lecture online with a video.
+* **Online lecture with a laptop** [\[Powerpoint\]](/online/shared/online_example_1pc.pptx) [\[Movie(MPEG4)\]](/online/shared/online_example_1pc.mp4) (Prof. Kawahara, Graduate School of Engineering): This tutorial explains how to conduct a board lecture online with a video.
 
 ### How to enrich your online classes
 
@@ -104,7 +104,7 @@ If you like to send us new information, please contact us here.
 
 ### How to make your work more efficient
 
-* **How to automatically create multiple files in a Google spreadsheet with sequential numbers and get a list of “shareable links” URLs** [[pdf file](/faculty_members/materials/saito_gas.pdf), [script](/faculty_members/materials/saito_ script.txt)] (Prof. Saito, Graduate School and College of Arts and Sciences)
+* **How to automatically create multiple files in a Google spreadsheet with sequential numbers and get a list of “shareable links” URLs** [[pdf file](/faculty_members/materials/saito_gas.pdf), [script](/en/online/shared/saito_script.txt)] (Prof. Saito, Graduate School and College of Arts and Sciences)
 
 
 ### Reference information for online classes

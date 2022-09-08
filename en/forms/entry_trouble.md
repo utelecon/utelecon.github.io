@@ -1,3 +1,3 @@
 ---
-redirect_to: "/en/forms/et"
+redirect_to: "/en/oc/join#form"
 ---

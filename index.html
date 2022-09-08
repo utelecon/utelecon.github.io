@@ -12,7 +12,7 @@ description: 本サイトは，東京大学におけるオンライン授業やW
   {% include emergency.html %}
 
   <h2>まずはここから</h2>
-  <div class="top__cards">
+  <div class="cards">
     <a href="/oc/">オンライン授業を受けるために<small>（学生向け）</small></a>
     <a href="/faculty_members/">オンライン授業を始めるために<small>（教員向け）</small></a>
     <a href="/online/">オンラインを活用するために</a>
@@ -20,19 +20,23 @@ description: 本サイトは，東京大学におけるオンライン授業やW
   </div>
 
   <h2>ピックアップ</h2>
-  <div class="top__cards">
+  <div class="cards">
+    <a href="/events/2022-09-14/">2022/09/14 授業に，研究に，業務に! オンライン会議・クラウドツールの活用説明会</a>
+    <a href="/slack/">UTokyo Slack</a>
+    <a href="/antivirus/">ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)</a>
+    <a href="/utokyo_vpn/">UTokyo VPN</a>
     <a href="/utokyo_account/mfa">UTokyo Accountにおける多要素認証の利用について<small>（2021年秋のシステム変更）</small></a>
-    <a href="/events/2021-09-15/">2021/09/15 説明会：2021秋 教育ICT/オンライン・ハイブリッド<small>（教員向け）</small></a>
-    <a href="/events/2021-03-25/">2021/03/25 オンライン講座「オンライン授業における Zoom の使い方」<small>（教員向け）</small></a>
-    <a href="/slido/">Slido</a>
+    <a href="/supporters/class">クラスサポーター制度のご案内</a>
   </div>
 
-  <h3>新学期に再確認</h3>
-  <div class="top__cards">
+  <h3>授業にあたって</h3>
+  <div class="cards">
     <a href="/faculty_members/url">授業URLの連絡方法（教員向け）</a>
     <a href="/faculty_members/zoom_access_control">授業におけるZoom会議室の入室制限<small>（教員向け）</small></a>
+    <a href="/zoom/license">Zoomの追加ライセンス<small>（301人以上のミーティング・ウェビナー）</small></a>
     <a href="/oc/url">授業URLの連絡方法（学生向け）</a>
     <a href="/oc/join">オンライン授業への入室方法<small>（学生向け）</small></a>
+    <a href="/oc/rooms">オンライン授業の受講に利用可能な教室の一覧</a>
   </div>
 
   <h3>新着記事</h3>
@@ -44,34 +48,41 @@ description: 本サイトは，東京大学におけるオンライン授業やW
     - 常に2記事以上を掲載する
     - 目安としては3記事から6記事程度を掲載する
   -->
-  <div class="top__cards">
-    <a href="/articles/club-activity/">サークル活動に使えるオンラインツール</a>
-    <a href="/articles/question-tools/">授業における質問の受け付け方の工夫</a>
+  <div class="cards">
+    <a href="/articles/student-communication/">オンライン勉強会の始め方</a>
+    <a href="/articles/group-presentation/">オンラインでグループプレゼンテーションを準備する</a>
+    <a href="/articles/google-groups/">Google グループの使用方法</a>
   </div>
 
   <h3>オンライン授業の実践など</h3>
-  <div class="top__cards">
+  <div class="cards">
     <a href="/good-practice/">グッドプラクティス</a>
     <a href="/events/luncheon/">オンライン授業情報交換会</a>
     <a href="/questionnaire/">オンライン授業に関するアンケート</a>
   </div>
 
   <h2>お知らせ</h2>
-  {% comment %} お知らせの追加は `_data/notice/ja.yml` を編集してください {% endcomment %}
+  {% comment %} お知らせの追加は `_data/notice.yml` を編集してください {% endcomment %}
   <ul>
-    {% assign i = 0 %}
-    {% assign j = 0 %}
-    {% for item in site.data.notice.ja %}
-    {% if item.outdated %}
-    {% continue %}
-    {% endif %}
-    {% assign i = i | plus: 1 %}
-    {% unless i <= 4 or item.important %} {% continue %} {% endunless %} {% assign j=j | plus: 1 %} {% unless i <=16 and
-      j <=8 %} {% break %} {% endunless %} <li>
-      <span class="notice-date">{{ item.date }}</span>
-      {{ item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+    {%- assign i = 0 -%}
+    {%- assign j = 0 -%}
+    {%- for item in site.data.notice -%}
+      {%- if item.outdated -%}
+        {%- continue -%}
+      {%- endif -%}
+    {%- assign i = i | plus: 1 -%}
+    {%- unless i <= 4 or item.important -%}
+      {%- continue -%}
+    {%- endunless -%}
+    {%- assign j=j | plus: 1 -%}
+    {%- unless i <=16 and j <=8 -%}
+      {%- break -%}
+    {%- endunless %}
+      <li>
+        <span class="notice-date">{{ item.date }}</span>
+        {{ item.content.ja | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
       </li>
-      {% endfor %}
+    {%- endfor %}
   </ul>
   <a href="/notice/">過去のお知らせ一覧はこちら</a>
 

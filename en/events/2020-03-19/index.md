@@ -11,7 +11,7 @@ The online course will be held on MArch 19, 2020, from 15pm to 17pm. Please chec
   
 This course only deals with a one-time meeting room reservation method, but there is a method for reserving a meeting room that can be used multiple times with the same URL.  
 [Creating a Zoom meeting room](https://utelecon.github.io/zoom/create_room)  
-[How to create a recurrent meeting room for 13 classes using the same URL](https://utelecon.github.io/zoom/how_to_use_in_classroom_faculty_members#schedule)  
+[Scheduling Recurring Zoom Meetings](/en/zoom/create_room/date_and_time/)  
 
   
 

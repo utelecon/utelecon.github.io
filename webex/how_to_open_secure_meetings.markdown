@@ -17,21 +17,21 @@ Webexを使って安全性の高い会議を行うために必要なことを示
 1. 会議をスケジュールする際に，以下の項目をチェックしてください．
 	1. Webex にログインし，「スケジュールする」を押します．
 	1. ミーティングタイプは**“Webex Meetings (2. End-to-End Encrypted Meeting)”**を選択します．
-		![暗号化設定の画面](img/webex_encrypted_schedule.png){:width="700px"}
+		![暗号化設定の画面](img/webex_encrypted_schedule.png){:.border}
 	1. ミーティングの議題，そしてあらかじめ決めておいたミーティングパスワードを設定します．
 	1. 「詳細設定を表示する」を押し，「スケジューリングオプション」の中の「招待メールにパスワードを含めない」にチェックを入れます．パスワードがメールで通知されなくなります．
 	1. 「ロック解除されたミーティング」で「ゲストはミーティングに参加できません」を選択します．こうすることで，Webexの東大ライセンス保持者に参加者を限定できます．
-		![暗号化設定詳細の画面](img/webex_encrypted_detail.png){:width="700px"}
+		![暗号化設定詳細の画面](img/webex_encrypted_detail.png){:.border}
 	1. その他必要な項目を入力して「スケジュールする」を押すと会議の情報が表示されますが，このときに「強化されたセキュリティ：エンドツーエンド暗号化ミーティング」と表示されていることを確認します．
-		![暗号化確認](img/webex_encrypted_confirm.png){:width="700px"}
+		![暗号化確認](img/webex_encrypted_confirm.png){:.border}
 1. 会議が始まったら，
 	1. 使用方法は通常のWebex Meetingsと同じです．Webex Meetingsのウィンドウ左上のアイコンに南京錠のマークが付いていることを確認します．
-		![暗号化確認](img/webex_encrypted_inmeeting.jpg){:width="700px"}
+		![暗号化確認](img/webex_encrypted_inmeeting.jpg)
 	1. 会議始めに，「ミーティング情報」の「セキュリティ」をクリックして表示されるセキュリティコードが全員一緒であることを音声等を通じて確認します．
 		* セキュリティコードについての詳細は，[Zero-Trust Security for Webex White Paper](https://www.cisco.com/c/en/us/solutions/collateral/collaboration/white-paper-c11-744553.html)をご覧下さい．
 	![](img/webex_encrypted_code.jpg)
 	1. 「ミーティング」メニューの中の「ミーティングをロックする」を選択して，会議室をロックします．ロックされると，ウィンドウ右上に鍵のマークが付きます．
-		![暗号化確認](img/webex_encrypted_lock.jpg){:width="700px"}
+		![暗号化確認](img/webex_encrypted_lock.jpg)
 
 
 このようにすることで，会議の安全性を高めることができます．

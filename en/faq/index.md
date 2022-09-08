@@ -18,14 +18,13 @@ Some options for taking attendance are:
 * Call the roll (suitable for smaller size classes using web conference systems). You might have the participants turn on cameras and confirm their identities.
 * Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/en/zoom/how/faculty_members/attendance" target="_blank"> Zoom for staff: Managing Attendance</a>.
 
-<a name="zoom"> </a>
 ## Zoom
 
 ### General Questions
 
 #### Q. How do I create a university account?
 * UTokyo Zoom Account is generated automatically if you own a UTokyo Account.
-* Activation of your UTokyo Account is therefore crucial. Please consult[Preparing for online classes at the University of Tokyo (for new students enrolled in AY2021)](/en/oc/)or [Preparing for online classes at the University of Tokyo (for faculty members)](/en/faculty_members)」for further details on UTokyo Accounts.
+* Activation of your UTokyo Account is therefore crucial. Please consult[Preparing for online classes at the University of Tokyo (for new students)](/en/oc/)or [Preparing for online classes at the University of Tokyo (for faculty members)](/en/faculty_members)」for further details on UTokyo Accounts.
 * If necessary, please also refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin).
 
 #### Q. Is this service free?

@@ -24,7 +24,7 @@ Zoomは，最もポピュラーと思われるWeb会議システムで，東京�
 - **[オンライン授業において Zoom の通信量を抑えるには](/articles/zoom-data-traffic/)**：Zoomの通信量の目安と，オンライン授業において通信量を抑えるためのコツについて紹介しています．
 
 ### Webex
-WebexはCisco社の提供するWeb会議システムです．東京大学のライセンスでは参加人数の上限がZoomより多い1000人となっています．また，E2E (End to End) 暗号化と呼ばれる安全性が高いとされる方法で会議を開催することができます．
+Webexは，Cisco社の提供するWeb会議システムです．[Slido](/slido/)との連携が充実していることが特徴です．また東京大学においては，参加人数の上限がZoomより多い1000人となっているほか，Zoomでは対応していないテレビ会議システム（H.323/SIP端末）からの接続に対応しています．
 
 - **[Webex 説明ページ](/webex/)**：使い方をまとめています．
 
@@ -116,7 +116,10 @@ Google ドライブは，Google ドキュメントなどで作成した資料の
 
 - **[Google Driveの基本的な使い方](/articles/google-drive/)**：Googleドライブの使い方を説明しています．
 
+#### Google グループ
+Google グループ（Google Groups）はGoogleの無料サービスの1つで，共通の話題について話し合う場を提供します．メーリングリストを作成してグループのメンバー全員に一斉にメールを送信することができるなど，グループでの活動に便利な機能を有しています．学内のメンバー同士で利用する場合は，東京大学のGoogleアカウント（ECCSクラウドメール）を使うことを推奨します．
 
+- **[Google グループの使用方法](/articles/google-groups/)**: Googleグループの基本的な使い方を説明しています．
 
 ### Microsoft 365に含まれるツール
 
@@ -161,7 +164,8 @@ OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブ
 
 ### Miro
 Miro社が提供するオンラインのホワイトボードツールです．
-- **[Miro（外部サイト）](https://miro.com/)**：Miroの公式サイトです．
+- **[Miro（外部サイト）](https://miro.com/ja/)**：Miroの公式サイトです．
+- **[Miroのオンラインホワイトボードについて（外部サイト）](https://miro.com/ja/online-whiteboard/)**
 
 ### Google Jamboard 
 Google Workspaceに含まれるホワイトボードツールです．
@@ -192,7 +196,7 @@ Slackはグループウェアと呼ばれるアプリの一種で，グループ
 Discordは，グループやチーム内でコミュニケーション用ツールです．Slackに似た「チャンネル」でテキストチャットがやり取りできるほか，ボイスチャット（音声による通話）も可能で，グループやチーム内で気軽なWeb会議のように使うこともできます．
 
 - **[Discord（外部サイト）](https://discord.com/)**：公式ウェブサイトです．
-- **[Discordを使って交流する](/articles/online-interaction#Discord)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Discordを使って交流する](/articles/online-interaction#discord)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### LINEオープンチャット
 {:#line-openchat}
@@ -206,17 +210,17 @@ Discordは，グループやチーム内でコミュニケーション用ツー�
 ### Wonder
 画面上にある自分のアイコンを動かすことで部屋を移動できることが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
 - **[Wonder（外部サイト）](https://www.wonder.me/)**：Wonderの公式サイトです．
-- **[Wonderを使って交流する](/articles/online-interaction#Wonder)**：Wonderを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Wonderを使って交流する](/articles/online-interaction#wonder)**：Wonderを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### Gather
 レトロゲーム風の遊び心のあるUIが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
 - **[Gather（外部サイト）](https://www.gather.town/)**：Gatherの公式サイトです．
-- **[Gatherを使って交流する](/articles/online-interaction#Gather)**：Gatherを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Gatherを使って交流する](/articles/online-interaction#gather)**：Gatherを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### Remo
 画面上にある自分のアイコンを動かすことで擬似的な「テーブル」を移動できることが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
 - **[Remo（外部サイト）](https://jp.remo.co/)**：Remoの公式サイトです．
-- **[Remoを使って交流する](/articles/online-interaction#Remo)**：Remoを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Remoを使って交流する](/articles/online-interaction#remo)**：Remoを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### SpatialChat
 SpatialChatは，画面上での他の人との「距離」によって音量が変化する会議ツールです．
@@ -238,7 +242,7 @@ Slidoは，Q&Aやライブ投票・アンケートなど，授業や会議・講
 ### CommentScreen
 CommentScreenは，オンライン授業をしている画面上に，直接学生の質問やコメントを匿名・リアルタイムで表示することができるツールです．
 
-- **[CommentScreen（外部サイト）](https://commentscreen.com/)**：公式ウェブサイトです．
+- **[CommentScreenで学生とコミュニケーションをとる](/articles/commentscreen/)**：基本的な使い方をを説明しています．
 - **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
 - **[CommentScreenを用いた授業における質問の受け付け方](/articles/question-tools#CommentScreen)**：実際の授業でのCommentScreen活用例として，質問を受け付ける方法とそのコツを紹介しています．
 

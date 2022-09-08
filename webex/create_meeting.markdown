@@ -14,13 +14,13 @@ title: Webexミーティングを作成する
 	* **出席者**： メールアドレスをここに記入します．この設定全体が完了すると自動的にここで設定された参加者にメールでURL等が連絡されます．
 	* **詳細設定を表示する**： 音声接続オプション，協議事項，スケジューリングオプションが設定できます．この中では，たとえば，自動で録画をはじめたり，主催者より先に参加できるようにする設定，出席者登録，リマインドメールの設定などができます．
 
-	![会議設定の画面](img/webex_meeting_setting.PNG){:width="700px"}
+	![会議設定の画面](img/webex_meeting_setting.PNG){:.border}
 
 * 一通りの設定を終えて「スケジュール」ボタンを押すと，ミーティング番号が作成されます．
 	* 出席者に入力したメールアドレスには招待メールが送信されます．
 	* 出席者に入力していない出席者にも，表示されたミーティングリンク・ミーティング番号・パスワード等をメールで周知することができます．主催者キーは，主催者のみが知るべき番号なので，一般の出席者には周知すべきではありません．
 
-	![会議設定結果の画面](img/webex_meeting_description.PNG){:width="700px"}
+	![会議設定結果の画面](img/webex_meeting_description.PNG){:.border}
 
 * 設定した日時が近すぎる（10分以内）と，「スケジュールする」ボタンではなく「開始」ボタンになり，すぐに会議が開始できます．
 	* 「開始」ボタンを押すと待機状態になります．この画面はプレビューですので，カメラやマイクの設定はここで確認しておきます．
@@ -32,16 +32,16 @@ title: Webexミーティングを作成する
 
 * また，「ミーティングのスケジュール」画面で設定された出席者に下記のようなメールが自動的に送られます．
 
-	![会議招待メール](img/webex_invitation.PNG){:width="700px"}
+	![会議招待メール](img/webex_invitation.PNG){:.border.medium}
 
 ## Webexミーティングを編集する
 
 作成したミーティングの内容を編集するには，ホーム画面に表示されている該当のミーティングを選択し，編集アイコンをクリックします．
-![](img/webex_home_list_mtg.jpg){:width="500px"}
-![](img/webex_edit_meeting.jpg){:width="600px"}
+![](img/webex_home_list_mtg.jpg){:.border.medium}
+![](img/webex_edit_meeting.jpg){:.border.medium}
 * ホーム画面には一週間以内に開催されるミーティング・ウェビナーが表示されます．それ以降のミーティングを選択したい場合はホーム画面左の「カレンダー」をクリックして，日付を指定して検索します．
-![](img/webex_home_calendar.jpg){:width="500px"}
-![](img/webex_calendar.jpg){:width="600px"}
+![](img/webex_home_calendar.jpg){:.border.medium}
+![](img/webex_calendar.jpg){:.border.medium}
 
 
 

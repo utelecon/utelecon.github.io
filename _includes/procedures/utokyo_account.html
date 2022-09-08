@@ -15,7 +15,7 @@
 <li>所属の学部・研究科等から，初期パスワードが記載された「パスワード通知書」を受け取ってください{%
   case page.slug %}{%
     when "oc"
-      %}．授業開始に十分間に合うように配布されるはずですが，不明な場合は所属の学部・研究科等に問い合わせてみてください（※学部1年生には3月19日から「<a href="https://utas-ew.adm.u-tokyo.ac.jp/">合格者情報登録システム</a>」で配布されています）．{%
+      %}．授業開始に十分間に合うように配布されるはずですが，不明な場合は所属の学部・研究科等に問い合わせてみてください（※学部1年生には3月22日から「<a href="https://utas-ew.adm.u-tokyo.ac.jp/">合格者情報登録システム</a>」で配布されます）．{%
     when "faculty_members"
       %}．授業に必要な教員には発行されているはずですが，もらっていない場合は所属部局の事務に問い合わせてください．{%
     else
@@ -35,5 +35,16 @@
 {% endunless %}
 {% include procedures/_important.html procedure=change_initial_password type="作業" heading="初期パスワードを変更する" %}
 {% unless include.part == "important" %}
+<li><strong>任意の作業：「多要素認証」を設定する</strong>
+<ul>
+  <li>「多要素認証 (Multi-Factor Authentication, MFA)」とは，アカウントへのサインイン時に，パスワードに加えて，SMSや専用のアプリなどで本人確認を行う認証方法です．UTokyo Accountでは，セキュリティの観点から設定を行うことを推奨していますが，現時点では必須ではありません．</li>
+</ul>
+<ol>
+  <li>「<a href="/utokyo_account/mfa/">UTokyo Accountにおける多要素認証の利用について</a>」のページに記載の手順で，設定を行ってください．</li>
+</ol>
+<ul>
+  <li>この手順がうまくいかないときは<a href="/support/">サポート窓口</a>に相談してください．</li>
+</ul>
+</li>
 </ul>
 {% endunless %}

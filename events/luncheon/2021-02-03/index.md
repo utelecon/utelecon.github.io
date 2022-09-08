@@ -11,7 +11,7 @@ Sセメスターで優れた工夫・取り組みのあったオンライン授�
 - 日時：2021年2月3日（水） 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
 - **資料**：[グッドプラクティス紹介 河野望 先生の授業 薬学実習IV](/good-practice/interview/kono)
-- [**録画**はこちら]("https://drive.google.com/file/d/1Mx5alDYMZqvx8bNJzF2e9Uxs_5b0lLAL/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://drive.google.com/file/d/1Mx5alDYMZqvx8bNJzF2e9Uxs_5b0lLAL/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 

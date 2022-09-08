@@ -7,7 +7,7 @@ sitemap: false
 * 目次 (**[資料](00-index.pdf)**)
   <!-- 質問はsli.do で受けるよ -->
 * 1 授業に使うICT概要 (20分 田浦; **[資料](01-ict-overview.pdf)**)
-* 2 多要素認証とセキュリティ強化について (10分 田浦; **[資料](02-security-mfa.pdf)**)
+* 2 多要素認証とセキュリティ強化について (10分 田浦; **[資料](02-security.pdf)**)
 * 3 VPN, WiFi (10分 玉造; **[資料](03-vpn-wifi.pdf)**)
 * 4 ITC-LMSの活用 (20分 柴山; **[資料](04-using-ict.pdf)**)
 * 5 よりよいオンライン授業に向けて (30分 吉田; [資料](05-online-courses.pdf))

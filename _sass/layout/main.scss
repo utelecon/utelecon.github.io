@@ -13,14 +13,11 @@ main {
   font-size: 1.125rem;
   color: $text-color;
 
-  @import "components/box";
+  @import "components/link";
   @import "components/headings";
   @import "components/img";
-  @import "components/link";
-
-  .alert {
-    color: $red;
-  }
+  @import "components/card";
+  @import "utils";
 
   summary {
     cursor: pointer;
@@ -85,6 +82,10 @@ main {
     text-align: right;
   }
 
+  .footnotes {
+    padding-top: 0.5em;
+    border-top: 2px solid $gray;
+  }
 }
 
 .main__toc {

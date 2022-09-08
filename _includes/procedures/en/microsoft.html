@@ -3,55 +3,58 @@
 {% endcomment %}
 
 <ul class="procedure">
+{% case page.slug %}{% when "oc" %}
+<li><a href="/oc/movies#microsoft">Procedure video (in Japanese)</a></li>
+{% endcase %}
 <li><strong>Check: Sign in</strong>
 <ol>
-<li>Go to <a href="https://myaccount.microsoft.com/">the sign-in page for Microsoft</a>.</li>
-<li>When the sign-in screen appears, enter your 10-digit common ID (UTokyo Account username) followed by <code>@utac.u-tokyo.ac.jp</code>  to indicate that you are from the University of Tokyo (eg. <code>1234567890@utac.u-tokyo.ac.jp</code>).</li>
-<li>Enter your UTokyo Account information when the screen asks you to enter your University of Tokyo username and password (this may not appear if you have already entered your information).</li>
-<li>Confirm that the "My Account" screen with the University of Tokyo logo appears in the upper left corner.</li>
+<li>Go to the <a href="https://myaccount.microsoft.com/">Microsoft sign-in page</a>.</li>
+<li>On the sign-in screen that appears, enter your 10-digit Common ID (UTokyo Account username) followed by <code>@utac.u-tokyo.ac.jp</code>, such as <code>1234567890@utac.u-tokyo.ac.jp</code>. <code>@utac.u-tokyo.ac.jp</code> indicates that you are a UTokyo member. (This screen will not appear if you are already signed in.)</li>
+<li>Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.</li>
+<li>Double check whether the University of Tokyo logo appears in the upper-left corner of the "My Account" screen.</li>
 </ol>
 <ul>
 <li>
   <details>
-    <summary>Help for when this procedure does not work</summary>
+    <summary>Troubleshooting guide</summary>
     <ul>
-      <li><strong>If the sign-in screen does not appear even after accessing the link above</strong>: This happens when you have already signed in to Microsoft with another account. Press the round icon in the upper right corner of <a href="https://www.office.com/">the Office home page</a> (your icon, or the initials person symbol if you have not set it up) to "Sign out". Then try to re-access the site.</li>
+      <li><strong>You cannot access the sign-in screen from the above link</strong>: This occurs when you are already signed in to Microsoft with another account. Click your account picture in the upper-right corner of the <a href="https://www.office.com/">Office 365 home page</a> (either a picture you set or the default picture that shows your initials or a human silhouette). Click "Sign out" and access the sign-in page again.</li>
     </ul>
-    If this does not work, please contact the <a href="/en/support/">support desk</a>.
+    If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.
   </details>
 </li>
 </ul>
 </li>
-<li><strong>Check: Make sure that you can access the page dedicated for Todai accounts</strong>
+<li><strong>Check: Make sure you can access UTokyo member-only pages</strong>
 <ol>
-<li>Go to <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EeRg4N80tF1Iio3x8m9AbHgBY-YsGuSL1jBd8CvBWjvyTg?e=brK3Q4">the test page for Todai accounts (Excel Online)</a>.</li>
-<li>A sign-in screen will appear if you are not signed in. Enter <code>1234567890@utac.u-tokyo.ac.jp</code> and sign in as explained above.</li>
-<li>You should be able to see the contents of the page (Excel file).</li>
+<li>Go to <a href="https://forms.office.com/r/GRfZNNXUrE">UTokyo member-only test form (Microsoft Forms)</a>.</li>
+<li>A sign-in screen will appear if you are not already signed in. Enter your UTokyo Account email address (e.g., <code>1234567890@utac.u-tokyo.ac.jp</code>) and sign in as explained above.</li>
+<li>You are properly signed in if you can see the form contents (you do not have to fill or respond to the form).</li>
 </ol>
 <ul>
 <li>
 <details>
-  <summary>Help for when this procedure does not work</summary>
+  <summary>Troubleshooting guide</summary>
   <ul>
-    <li><strong>An error occurred; "That didn’t work: We’re sorry, but xxxx@example.com can’t be found in the univtokyo-my.sharepoint.com directory."</strong>: This happens If you are already signed in to Microsoft with your existing account. Press the round icon in the upper right corner of <a href="https://www.office.com/">the Office home page</a> (either your own icon or the initials or person symbol if you have not set it up) and click "Sign out". Then try to access again.</li>
+    <li><strong>Error message "You don’t have permission to view or respond to this form"</strong>: This error occurs when you are already signed in to Microsoft with another account. Click your account picture in the upper-right corner of the <a href="https://www.office.com/">Office 365 home page</a> (either a picture you set, or the default picture that shows your initials or a human silhouette). Click "Sign out" and access the sign-in page again. <a href="https://youtu.be/SiOS0M9FChk"></a>Procedure video for PC</a> <a href="https://youtu.be/QZGGHcQvUXU">Procedure video for smartphone</a></li>
   </ul>
-  If this does not work, please contact the <a href="/en/support/">support desk</a>.
+  If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.
 </details>
 </li>
 </ul>
 </li>
 <li><strong>Optional task: Install Word or Excel on your computer</strong> (you can use the one you have already installed)
 <ol>
-<li>Go to <a href="https://portal.office.com/">the Office page</a>.</li>
-<li>If you are not signed in, the sign-in screen will appear. Sign in by entering <code>1234567890@utac.u-tokyo.ac.jp</code> in the same way as above.</li>
-<li>Click "Install Office" in the upper right corner of the screen, and click "Office 365 apps".</li>
-<li>Subsequent steps will vary depending on the case. The installation may proceed automatically until it is complete, and you may need to click a confirmation button or open the downloaded file by yourself.</li>
-<li>Open the installed Word or Excel program and click the "Sign In" button in the upper left corner.</li>
-<li>Enter your 10-digit common ID (UTokyo Account username) followed by <code>@utac.u-tokyo.ac.jp</code> to indicate your affiliation with the University of Tokyo, as shown <code>1234567890@utac.u-tokyo.ac.jp</code>.</li>
-<li>Once you have signed in, you will be able to create and edit Word and Excel files.</li>
+<li>Go to the <a href="https://portal.office.com/">Office 365 home page</a>.</li>
+<li>The sign-in screen will appear if you are not already signed in. Enter your UTokyo Account email address (e.g., <code>1234567890@utac.u-tokyo.ac.jp</code>) and sign in, as explained above.</li>
+<li>Click "Install Office" in the upper right corner of the screen, and then click "Office 365 apps".</li>
+<li>The subsequent steps will vary depending on the case. In some cases, the installation will proceed automatically, whereas in others, you may need to press the confirmation button or open the downloaded file yourself.</li>
+<li>Open the installed Word or Excel app and click the "Sign In" button in the upper-left corner.</li>
+<li>On the sign-in screen that appears, enter your 10-digit Common ID (UTokyo Account username) followed by <code>@utac.u-tokyo.ac.jp</code> to indicate your affiliation with UTokyo (e.g., <code>1234567890@utac.u-tokyo.ac.jp</code>).</li>
+<li>Once you have signed in, you will be able to create/edit Word and Excel files.</li>
 </ol>
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/support/">support desk</a>.</li>
+<li>If this procedure does not work, please consult the <a href="/en/support/">Technical Support Desk</a>.</li>
 </ul>
 </li>
 </ul>

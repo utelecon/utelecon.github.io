@@ -20,9 +20,9 @@ In this article, we will mainly introduce how to use a tablet and a stylus to wr
 ### Specifications
 * Source
     * Microsoft 
-    * Official site: [Microsoft OneNote digital note application](https://www.microsoft.com/ja-jp/microsoft-365/onenote/digital-note-taking-app)
+    * Official site: [Microsoft OneNote digital note application](https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app)
 * Available environment
-    * Device and OS (For details, please refer to the [Official site](https://www.microsoft.com/ja-jp/microsoft-365/microsoft-365-and-office-resources).)
+    * Device and OS (For details, please refer to the [Official site](https://www.microsoft.com/en-us/microsoft-365/microsoft-365-and-office-resources).)
         * Windows (PC, Tablet, Phone, etc.)
         * iOS (Mac, iPad, iPhone, etc.)
         * Android (Smartphone)
@@ -271,7 +271,8 @@ It is possible to create class materials in advance using OneNote. If you have a
 
 The easiest way to share your notes with students in real time is to share your OneNote screen in Zoom.
 
-Please refer to "[Screen Sharing](https://utelecon.adm.u-tokyo.ac.jp/zoom/how/common/sharing_screen)" of utelecon on how to screen share via Zoom.  
+Please refer to "[Screen Sharing](/en/zoom/usage/screen_sharing)" of utelecon on how to screen share via Zoom.  
+
 
 The following image shows the Zoom screen sharing of OneNote.
 

@@ -20,7 +20,9 @@ Accounts that do not use UTokyo Account for sign-in will soon be completely disa
 
 In the case that your account that uses non-UTokyo Account sign-in (e.g. accounts that use ECCS Cloud Email addresses setup with the username of your choice, `xxxx@g.ecc.u-tokyo.ac.jp`) is no longer necessary, you can just abandon it and follow the instructions on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin.html) page to start using the new Zoom account which uses UTokyo Account for sign-in.
 
+<!--
 The administrator will help delete your old account. Please submit the [UTokyo Zoom Unnecessary Account Declaration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNTBGSjJPN0ZWN0RIVFI2TVZZODZNT0xRRy4u).
+-->
 
 ## If You Want to Transfer Data to Your New Zoom Account 
 
@@ -67,8 +69,8 @@ If you are currently signing in to Zoom using the ECCS Cloud Email with the user
         <li> Access your <a href="https://zoom.us/profile">Zoom profile page</a> again and click the profile picture in the top right corner (the profile picture is either a default human icon or a picture you added earlier). Click “SIGN OUT” to sign out of Zoom. </li>
         <li> 
             Access the UTokyo Zoom page, https://u-tokyo-ac-jp.zoom.us/, press “Config”, and sign in with your UTokyo Account. 
-            (This is the same procedure as described in the <a href="/en/zoom/zoom_signin#browser">Signing in from the UTokyo Account Zoom Webpage section on the Sign-in Methods for Zoom page</a>.)
-            <img src="/zoom/img/zoom_signin_1.png">
+            (This is the same procedure as described in the <a href="/en/zoom/signin#browser">Signing in from the UTokyo Account Zoom Webpage section on the Sign-in Methods for Zoom page</a>.)
+            <img src="/zoom/signin/1.png">
             <details>
                 <summary>If you see the message "Confirm your email address” right after you sign in </summary>
                 <img src="image/zoom_sso_update_email.png">

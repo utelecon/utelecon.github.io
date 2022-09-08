@@ -4,7 +4,7 @@ title: Google Hangouts Meet
 
 ## Introduction
 
-* Any UTokyo account holder (i.e., student or teacher) can use <a href="https://gsuite.google.co.jp/intl/ja/products/meet/" target="_blank">Google Hangout Meet</a> as follows.
+* Any UTokyo account holder (i.e., student or teacher) can use <a href="https://workspace.google.com/intl/en/products/meet/" target="_blank">Google Hangout Meet</a> as follows.
   * Video Conference: interactive video communication,  audio communication, showing handouts on screens. If one starts the conference, others join to the session. Organizers need to have UTokyo account, while attendees do not need an UTokyo account.  
   * Live Broadcast: Organizers can send video clips, voice and handouts to the other participants. However, participants cannot send files to organizers.
   * Record Broadcasting: Organizers record their video clip in advance and share the clip on Google drive or broadcast on YouTube. 
@@ -134,7 +134,7 @@ Organizers should prepare for broadcasting as follows.
     <blockquote>
       <img src="img/streaming_start.png" width="400"/>
     </blockquote>
-1. <b>Direction to attendees:</b> Click <img src="img/downarrow" /> button for "copy streaming information".
+1. <b>Direction to attendees:</b> Click <img src="img/downarrow.png" /> button for "copy streaming information".
     <blockquote>
       <img src="img/streaming_start.png" width="400"/>
     </blockquote>

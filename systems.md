@@ -27,7 +27,8 @@ title: 東京大学のシステム
 
 - **[東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)**：オンライン授業URLを確認するためのシステムです．詳細は「[授業URLの連絡方法（学生向け）](/oc/url)」「[授業URLの連絡方法（教員向け）](/faculty_members/url)」のページもご覧ください．
 - 【教職員向け】**[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**：教職員向けの学内ポータルサイトです．
-- 【教職員向け】**[UTokyo VPN](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_VPN.aspx)**：学内ネットワーク専用の事務システムなどにキャンパス外からアクセスするためのシステムです．
+- **[ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) ](/antivirus/)**：教職員・学生を対象に提供しています．東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として，適宜利用してください．
+- **[UTokyo VPN](/utokyo_vpn/)**：学内ネットワーク専用の事務システムなどにキャンパス外からアクセスするためのシステムです．
 
 ### 各種サービス・ソフトウェアのライセンス
 

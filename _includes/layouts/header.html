@@ -21,13 +21,11 @@
     <div class="header__links">
       <div class="gcse-search"></div>
       <div>
-        <a href="/{% if page.lang == "en" %}en/{% endif %}">TOP</a> | {%
-          if page.lang == "en"
-            %}<a href="{{ page.url | replace: '.html', '' | replace_first: 'en/', '' }}">日本語</a>{%
-          else
-            %}<a href="/about/">About</a> | <a href="/en{{ page.url | replace: '.html', '' }}">English</a>{%
-          endif
-        %}
+        {% if page.lang == "en" -%}
+          <a href="/en/">TOP</a> | <a href="/en/about/">About</a> | <a href="{{ page.url | replace: '.html', '' | replace_first: 'en/', '' }}">日本語</a>
+        {%- else -%}
+          <a href="/">TOP</a> | <a href="/about/">About</a> | <a href="/en{{ page.url | replace: '.html', '' }}">English</a>
+        {%- endif %}
       </div>
     </div>
     <nav class="header__nav">

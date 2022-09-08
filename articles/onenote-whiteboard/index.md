@@ -257,7 +257,7 @@ OneNoteを用いて予め授業資料を作っておくことも可能です．�
 ### 画面共有
 
 受講している学生とリアルタイムで板書を共有する最も簡単な方法は，OneNoteを利用している画面をそのままZoomで画面共有することです．   
-Zoomでの画面共有の方法は，uteleconの「[画面共有](https://utelecon.adm.u-tokyo.ac.jp/zoom/how/common/sharing_screen.html)」を参考にしてください．  
+Zoomでの画面共有の方法は，uteleconの「[画面共有](/zoom/usage/screen_sharing)」を参考にしてください．  
 
 以下の画像はZoomを用いてOneNoteの画面共有を行った様子です．
 

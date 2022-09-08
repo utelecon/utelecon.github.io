@@ -12,13 +12,13 @@ title: How to set the meeting room
 	* **Tracking Record**： No need to use this function.
 	* **Show the detail settings**： You can set audio connect options, the agenda, and schedule options. For example, you can set automatic recording and participants enter the meeting in advance to the organizers. In addition, you can set the  attendance registration,and send reminders to participants. 
 
-	![会議設定の画面](img/webex_meeting_setting.PNG){:width="700px"}
+	![会議設定の画面](img/webex_meeting_setting.png){:width="700px"}
 
 * After finishing settings, press "plan the schedule". You will obtain a meeting number．
 	* At the same time, participants obtain the invitation email.
 	* You can add other participants to the meeting by sharing the link of meeting, meeting number and password. However, do not let participants know the organizers' key number.
 
-	![会議設定結果の画面](img/webex_meeting_description.PNG){:width="700px"}
+	![会議設定結果の画面](img/webex_meeting_description.png){:width="700px"}
 
 * If you set the meeting within 10 minutes, "Start" button appears instead of "plan to schedule". If you want to start the meeting quickly, please set the meeting within 10 minutes.
 	* Press "Start" button and the meeting room will become idle.This preview screen aims to adjust the setting of camera and microphone.
@@ -30,7 +30,7 @@ title: How to set the meeting room
 
 * Participants obtain the below invitation email to Webex.．
 
-	![会議招待メール](img/webex_invitation.PNG){:width="700px"}
+	![会議招待メール](img/webex_invitation.png){:width="700px"}
 
 
 <br>

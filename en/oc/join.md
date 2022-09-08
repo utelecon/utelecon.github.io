@@ -11,7 +11,7 @@ To participate in a “simultaneous interactive” online class, you will first 
 * The URL can also be found in the "[UTokyo Online Class Search (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)".
 * For some classes, the URL information may be announced by other means (e.g., in other sections of  ITC-LMS or in the [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do) syllabus).
 
-For details, please refer to "[How to Obtain the Online Class URL (for Students)](/en/oc/url.md) ".
+For details, please refer to "[How to Obtain the Online Class URL (for Students)](/en/oc/url) ".
 
 
 ## Sign in to the Web Conference System
@@ -37,7 +37,7 @@ Note: The below list explains how to resolve issues specifically for Zoom, which
 {:#form}
 If you have checked the above troubleshooting list but still cannot enter the web conference room, please contact your instructor or the department/graduate school that hosts the class. 
 
-If you cannot reach your instructor or the department/graduate school, please submit the **“[Consultation Form of utelecon Support Desk](https://forms.gle/qHXyJ7W6e3YBUkW97)”** for assistance.Please make sure you select “Online Class Entry Troubles Reporting” from the “What is your inquiry?” section on the form.Your instructor or corresponding department/graduate school should contact you shortly.
+If you cannot reach your instructor or the department/graduate school, please submit the **“[Consultation Form of utelecon Support Desk](https://forms.gle/AQevtbkCgRvn6wc39)”** for assistance.Please make sure you select “Online Class Entry Troubles Reporting” from the “What is your inquiry?” section on the form.Your instructor or corresponding department/graduate school should contact you shortly.
 
 
 

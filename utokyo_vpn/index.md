@@ -5,213 +5,107 @@ title: UTokyo VPN
 ## はじめに
 {:#introduction}
 
-<span style="color: red; ">注意：現在学生への提供に向け準備中です。学生も利用できるような記載がありますが、まだ提供はしておりません。</span>
 
-UTokyo VPNは東京大学全学の教職員が利用できるVPNサービスです．学外で端末からUTokyo VPNに接続すると，その端末は情報基盤センターに設置されたVPNゲートウェイを経由して通信を行うようになり，端末は仮想的に東京大学キャンパスネットワークであるUTNETに接続されている状態になります．
 
-UTokyo VPNを利用するには，まず自身の端末にVPNクライアントアプリケーションであるAnyConnectをインストールします．インストールしたアプリケーションを起動すると，UTokyo Accountの認証を経てVPNゲートウェイに接続し，端末からの通信がVPN経由でUTNETを通じて外部と通信するようになります．
+UTokyo VPNは東京大学全学の構成員（教職員および学生）が利用できるVPNサービスです．学外で端末からUTokyo VPNに接続すると，その端末は情報基盤センターに設置されたVPNゲートウェイを経由して通信を行うようになり，端末は仮想的に東京大学キャンパスネットワークであるUTNETに接続されている状態になります．
+
+UTokyo VPNを利用するには，まず自身の端末にVPNクライアントアプリケーションであるAnyConnectをインストールします．インストールしたアプリケーションを起動すると，UTokyo Accountの認証を経てVPNゲートウェイに接続し，端末からの通信は基本的にVPN経由でUTNETを通じて外部と通信するようになります．ただし，ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどへの通信は除きます．
+
+### 電子ジャーナルへのアクセスについて
+{:#journal}
+
+UTokyo VPN経由で電子ジャーナル等にアクセスすることはできません．附属図書館が契約・提供する電子ジャーナル・電子ブック・データベースの学外からの利用については附属図書館ウェブサイト[EZproxy（イージープロキシー）経由で利用する](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy) を参照してください．
 
 ## 利用にあたって
 {:#note}
 
-**利用対象者:** UTokyo Accountを持つ東京大学 教職員・学生
+**利用対象者:** UTokyo Accountを持つ東京大学 構成員（教職員・学生）
 
-**情報セキュリティ教育:** [情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を受講しないと，UTokyo VPNを利用することはできません．毎年度実施される情報セキュリティ教育を受講しなかった場合は`jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` (`__at__`は@に変更)へ連絡してください．
+**利用できる端末の種類:** UTokyo VPNは，WindowsやmacOSなどのコンピュータで利用できます．また，AndroidやiPhone，iPadなどのモバイル端末からも利用可能です．サポートされているバージョンはそれぞれ以下の通りです．
 
-**多要素認証の有効化:** UTokyo VPNを利用するためには，UTokyo Accountの多要素認証を有効にする必要があります．[Utokyo Accountにおける多要素認証の利用について](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照し，UTokyo Accountの多要素認証を有効にしてください．
+- Windows: Windows 8.1, 10, 11
+- macOS: macOS 10.15 Catalina, 11 Big Sur, 12 Monterey
+- Android: Android 9, 10, 11, 12
+- iOS: iOS 14, 15
+- iPadOS: iPadOS 14, 15
 
-**利用できるコンピュータの種類:** UTokyo VPNに接続できるコンピュータは WindowsおよびmacOSの下記のバージョンです．iPhoneやAndroidなどのスマートフォンでも利用可能ですが，現時点ではマニュアル等のサポートは提供しておりません．
-- Windows: Windows 8.1およびWindows 10 x86(32-bit) and x64 (64-bit)
-- macOS: macOS 11.2 (or later), 10.15, and 10.14 (64-bit)
+### 情報セキュリティ教育
+{:#information-security-education}
 
-**電子ジャーナルへのアクセス:** UTokyo VPN経由で電子ジャーナル等にアクセスすることはできません．附属図書館が契約・提供する電子ジャーナル・電子ブック・データベースの学外からの利用については附属図書館ウェブサイト[EZproxy（イージープロキシー）経由で利用する](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy) を参照してください．
+東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，UTokyo VPNの利用資格を停止します．**
 
+<details>
+	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
+	この場合，UTokyo VPNの利用資格は停止されず，着任・入学時からUTokyo VPNを利用可能です．<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">情報セキュリティ教育</a>のページにある「情報セキュリティ教育 教材」をよくお読みの上，UTokyo VPNをご利用ください．なお，情報セキュリティ教育は毎年度実施されますので，来年度以降はご受講ください．
+</details>
+<details>
+	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
+	当該年度のUTokyo VPNの利用資格が停止されますので，基本的に年度末までUTokyo VPNを利用することはできません．未受講者への対応に関しては， <code>jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>は@に変更）まで，UTokyo Accountのユーザー名（10桁の共通ID）を添えてお問い合わせください．
+</details>
 
-## Windows端末でUTokyo VPNを利用する
-{:#utokyo-vpn-windows}
+### UTokyo Accountの多要素認証
+{:#mfa}
 
-### 準備編: VPNクライアントアプリケーションのダウンロードとインストール
-{:#utokyo-vpn-windows-setup}
+セキュリティの観点より，UTokyo VPNの利用に当たってはUTokyo Accountの多要素認証の有効化を必須としております．「**[UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)**」のページにある初期設定手順を**最後の「手順4：多要素認証の利用を申請する」まで確実に**行って，UTokyo Accountの多要素認証を有効にしてください．その後，多要素認証の設定が**システムに反映されるまで約40分かかるので，それまでしばらく待ってからUTokyo VPNを利用**してください．
 
-まずはUTokyo VPNに接続するために必要なアプリケーションを端末にインストールします．
+## UTokyo VPNの利用手順
+{:#how-to-use}
 
-**手順A:** [https://vpn1.adm.u-tokyo.ac.jp](https://vpn1.adm.u-tokyo.ac.jp) にアクセスします．すると下記のようにUTokyo Accountの認証ページが表示されるので，自身のUTokyo Accountでログインします．
+UTokyo VPNを利用するには，専用のアプリ「Cisco AnyConnect」または「Cisco Secure Client」を端末にインストールし，接続を行います．以下の各ページで，OSごとにその方法を説明しています．なお，初期設定を含めたすべての作業を学外から行うことが可能です．
 
-<img src="img/win01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
-
-**手順B:** ログインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for Windowsをクリックして，クライアントアプリケーションをダウンロードしてください．
-
-その後は他のWindows用アプリケーションと同様にインストールします．
-
-<img src="img/win02-download-page.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
-
-上記のダウンロードページが表示されず，真っ白なページが表示される場合は，[こちらのページ](https://vpn1.adm.u-tokyo.ac.jp/+CSCOE+/logon.html?tgroup=utvpn-tunnel-group)にアクセスしてください
-
-**手順C:** End User License Agreementでは，"I accept the terms in the License Agreement"を選択し，Nextを押して次へ進んでください．
-
-<ul style="display: flex;">
-<li style="list-style: none;">
-  <img src="img/win03-install-1.png" alt="anyconnect install window" style="margin:auto; width:95%; border:solid 1px black;" /></li>
-<li style="list-style: none;">
-  <img src="img/win04-install-2.png" alt="anyconnect install window" style="margin:auto; width:95%; border:solid 1px black;" /></li>
-<li style="list-style: none;">
-  <img src="img/win05-install-3.png" alt="anyconnect install window" style="margin:auto; width:95%; border:solid 1px black;" /></li>
-</ul>
-
-**手順D:** インストールが完了すると，アプリにVPNクライアントアプリケーションであるCisco AnyConnect Secure Mobility Clientが追加されています．
-
-<img src="img/win06-cisco-on-task.png" alt="anyconnect as an installed app" style="margin:auto; width:75%; border:solid 1px black;" />
-
-これで準備は完了です．
-
-### 利用編: UTokyo VPNへの接続
-{:#utokyo-vpn-windows-connect}
-
-以下の手順はVPNを利用するたびに必要です. 特にPCを起動した直後に自動的にVPNに接続されるわけではありませんので, ご注意ください.
-
-**手順E:** 準備編でインストールしたCisco Anyconnect Secure Mobility Clientを起動すると，下記のようなウィンドウが出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「Connect」ボタンをクリックします．
-
-<img src="img/win07-app-window-connect.png" alt="anyconnect window" style="margin:auto; width:75%; border:solid 1px black;" />
-
-UTokyo VPN接続時は，そのままだとコンピュータの繋がっているローカルネットワークへの通信もVPNを経由します．VPNに接続したままローカルネットワークに設置されたプリンタ等を利用したい場合は，まず上写真のウィンドウの左下，歯車のボタンをクリックしてください．すると下記のようなウィンドウが出てきます．このウィンドウの「Preferences」タブから，「Allow local　(LAN) access when using VPN (if configured)」にチェックをつけてください．
-
-<img src="img/win08-anyconnect-win-pref.png" alt="anyconnect preference" style="margin:auto; width:75%; border:solid 1px black;" />
-
-**手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたら自身のUTokyo Accountでログインしてください．
-
-<img src="img/win09-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
-
-
-**手順G:** 手順2の後，下記のように「Connected: vpn1.adm.u-tokyo.ac.jp」と表示するウィンドウが出てくると，VPNへの接続は完了です．ZoomやWebExなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由し，東京大学キャンパスネットワークに接続している状態で行われます．
-
-<img src="img/win10-vpn-connected.png" alt="anyconnect connected" style="margin:auto; width:75%; border:solid 1px black;" />
-
-**手順H:** 再度Cisco AnyConnect Secure Mobility Clientをクリックし，現在の状態を確認します．表示されたウィンドウで，下記のように「Connected to vpn1.adm.u-tokyo.ac.jp」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
-
-VPNを切断する際は，このウィンドウの「Disconnect」ボタンをクリックしてください．
-
-<img src="img/win11-vpn-connected-window.png" alt="anyconnect connected window" style="margin:auto; width:75%; border:solid 1px black;" />
-
-## macOS端末でUTokyo VPNを利用する
-{:#utokyo-vpn-macos}
-
-### 準備編: VPNクライアントアプリケーションのダウンロードとインストール
-{:#utokyo-vpn-macos-setup}
-
-まずはUTokyo VPNに接続するために必要なアプリケーションを端末にインストールします．
-
-**手順A:**
-[https://vpn1.adm.u-tokyo.ac.jp](https://vpn1.adm.u-tokyo.ac.jp) にアクセスします．すると下記のようにUTokyo Accountの認証ページが表示されるので，自身のUTokyo Accountでログインします．
-
-<img src="img/mac01-vpn1-login.png" alt="vpn1.adm login page" style="margin:auto; width:80%; border:solid 1px black;" />
-
-**手順B:** ログインに成功すると，下記のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for macOSをクリックして，クライアントアプリケーションをダウンロードしてください．
-
-その後は他のmacOS用アプリケーションと同様にインストールします．
-
-<img src="img/mac02-download-page.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
-
-<img src="img/mac03-install-1.png" alt="anyconnect download page" style="margin:auto; width:80%; border:solid 1px black;" />
-
-上記のダウンロードページが表示されず，真っ白なページが表示される場合は，[こちらのページ](https://vpn1.adm.u-tokyo.ac.jp/+CSCOE+/logon.html?tgroup=utvpn-tunnel-group)にアクセスしてください．
-
-**手順B:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウがでる場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また右のようなウィンドウが表示されますので，これも許可をしてください．
-
-<ul style="display: flex;">
-<li style="list-style: none;">
-  <img src="img/mac04-install-2.png" alt="blocking anyconnect" style="margin:auto; width:95%; border:solid 1px black;" /></li>
-<li style="list-style: none;">
-  <img src="img/mac05-install-3.png" alt="warning for anyconnect socket filter" style="margin:auto; width:95%; border:solid 1px black;" /></li>
-</ul>
-
-**手順D:** インストールが完了すると，アプリケーションフォルダに「Cisco」というフォルダが作成され，その中にAnyConnectのクライアントアプリケーションであるCisco AnyConnect Secure Mobility Client.appがインストールされています．
-
-<img src="img/mac06-cisco-on-app.png" alt="anyconnect as an installed app" style="margin:auto; border:solid 1px black;" />
-
-これで準備は完了です．
-
-macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリケーションをインストールすると，「システム環境設定」→「ネットワーク」に下記のような Cisco AnyConnect Socket Filter という3つの拡張機能が追加されます．これらの拡張機能はUTokyo VPN接続時に通信を振り分けるために必要な機能として常駐しており，通信内容の記録やホスト外への情報送付も行いません．
-またこれらはUTokyo VPNに接続しているか否かに関わらず常時接続状態になります．
-
-<img src="img/mac07-macos-pref.png" alt="running anyconnect socket filter" style="margin:auto; width:75%; border:solid 1px black;" />
-
-### 利用編: UTokyo VPNへの接続
-{:#utokyo-vpn-macos-connect}
-
-以下の手順はVPNを利用するたびに必要です. 特にPCを起動した直後に自動的にVPNに接続されるわけではありませんので, ご注意ください.
-
-**手順E:** 準備編でインストールしたCisco Anyconnect Secure MobilityClientを起動すると，下記のようなウィンドウが出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「Connect」ボタンをクリックします．
-
-<img src="img/mac08-app-window-connect.png" alt="anyconnect window" style="margin:auto; width:75%; border:solid 1px black;" />
-
-UTokyo VPN接続時は，そのままだとコンピュータの繋がっているローカルネットワークへの通信もVPNを経由します．VPNに接続したままローカルネットワークに設置されたプリンタ等を利用したい場合は，まず上写真のウィンドウの左下，歯車のボタンをクリックしてください．すると下記のようなウィンドウが出てきますので，「Allow local (LAN) access when using VPN (if configured)」にチェックをつけてください．
-
-<img src="img/mac09-anyconnect-mac-pref.png" alt="anyconnect preference" style="margin:auto; width:60%; border:solid 1px black;" />
-
-**手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたら自身のUTokyo Accountでログインしてください．
-
-<img src="img/mac10-anyconnect-login.png" alt="anyconnect authentication" style="margin:auto; width:75%; border:solid 1px black;" />
-
-**手順G:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebExなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
-
-**手順H:** 再度Cisco AnyConnect Secure Mobility Clientをクリックし，現在の状態を確認します．表示されたウィンドウで，下記のように「Connectedto vpn1.adm.u-tokyo.ac.jp」と表示されていれば，お使いの端末はUTokyoVPNに接続している状態です．
-
-VPNを切断する際は，このウィンドウの「Disconnect」ボタンをクリックしてください．
-
-<img src="img/mac11-vpn-connected-window.png" alt="anyconnect connected window" style="margin:auto; width:75%; border:solid 1px black;" />
+* [Windows端末でUTokyo VPNを利用する](windows)
+* [macOS端末でUTokyo VPNを利用する](macos)
+* [Android端末でUTokyo VPNを利用する](android)
+* [iPad端末でUTokyo VPNを利用する](ipad)
+* [iPhone端末でUTokyo VPNを利用する](iphone)
+{:.cards}
 
 ## FAQ
+{:#faq}
 
-### VPNクライアントのインストールや接続時の問題
+### Q. VPN接続時にもローカルにあるプリンタを利用したい
 
-#### Q. 準備編 手順Aで「これに対するアクセス権がありません」というエラーが表示される
+UTokyo VPN接続時は，そのままだとコンピュータの繋がっているローカルネットワークへの通信もVPNを経由します．VPNに接続したままローカルネットワークに設置されたプリンタ等を利用したい場合は，AnyConnect Secure Mobility Clientのウィンドウの左下，歯車のボタンをクリックしてください．すると下記のようなウィンドウが出てきます．このウィンドウの「Preferences」タブから，「Allow local (LAN) access when using VPN (if configured)」にチェックをつけてください．
 
-- 多要素認証申請が完了していない可能性があります．[こちらのページ](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を参照して，UTokyo Accountの多要素認証を有効にしてください．
+<div class="gallery">
+  <figure class="center">
+    <img src="img/win08-anyconnect-win-pref.png" class="border">
+    <figcaption>Windowsの場合</figcaption>
+  </figure>
+  <figure class="center">
+    <img src="img/mac09-anyconnect-mac-pref.png" class="border">
+    <figcaption>macOSの場合</figcaption>
+  </figure>
+</div>
 
-#### Q. 準備編 手順Bでダウンロードページが表示されず，真っ白なページが表示される
+### Q. 利用対象者は「UTokyo Accountを持つ本学構成員（教職員および学生）」とあるが，本学の学生と雇用者に限られるという事か．それとも，派遣職員や客員研究員等，本学で勤務または研究している者も含まれるか
 
-- [こちらのページ](https://vpn1.adm.u-tokyo.ac.jp/+CSCOE+/logon.html?tgroup=utvpn-tunnel-group)にアクセスしてダウンロードをお試しください．
+派遣職員や客員研究員等，本学で勤務または研究している者も含まれます．
 
-#### Q. 準備編 手順Bで「セッション管理データベースを更新できません」または「Unable to update the session management database」と表示されダウンロードページが表示されない
+### Q. UTokyo VPNに接続すると何ができるのか
 
-- 情報セキュリティ教育を受講していない可能性があります．情報セキュリティ教育を受講していない場合，UTokyo VPNは利用できません．対応については本部情報環境課セキュリティ対策チーム `jouhousecurity.adm __at__ gs.mail.u-tokyo.ac.jp` (`__at__`を@に変更)にご自身のUTokyo Accountのユーザ名を添えてご連絡ください．
+UTokyo VPNに接続することで，職員証の発行や就労管理システム，出張申請など，学内からのみアクセスできるサービスに，学外にいながらアクセスすることができます．
 
-#### Q. 利用編 手順Dで「AnyConnect profile settings mandate a single local user, but multiple local users are currently logged into your computer. A VPN connection will not be established」というエラーが出て接続できない
+### Q. 部局で管理している学内向けサイトは閲覧可能になるか
 
-- UTokyo VPNに接続しようとしている端末で複数ユーザが同時にログインしている可能性があります．VPNに接続するユーザ以外はログオフしてください．
+部局のサイトがどのようなアクセス制限をかけているかによるため，部局のサイト管理者にご確認ください．
 
-### 利用について
+### Q. 部局で提供しているVPNサービスと同じものなのか
 
-#### Q. 利用対象者は「UTokyo Accountを持つ本学教職員・学生」とあるが，本学雇用者および学生という事か．それとも，派遣職員や客員研究員等，本学で勤務または研究している者も含まれるか
+UTokyo VPNと，部局がそれぞれ独自に提供しているVPNサービスは基本的に無関係です．詳細は部局のネットワーク担当者にご確認ください．
 
-- 派遣職員や客員研究員等，本学で勤務または研究している者も含まれます．
+### Q. UTokyo WiFiのアカウントのように半年ごとに新規のアカウント取得は必要か
 
-#### Q. 職員証発行や就労管理システムに学外からアクセスできるのか
+UTokyo VPNの認証はUTokyo WiFiのアカウントではなくUTokyo Accountで行います．そのため基本的に利用者のアカウントの変更は起こらず，継続して利用が可能です．ただし，利用には年１回実施する情報セキュリティ教育の受講が必要です．
 
-- UTokyo VPNに接続することで学外から職員証発行や就労管理システムも利用可能です．
+## 規程
+{:#term}
 
-#### Q. 部局で管理している内部向けサイトは閲覧可能になるか
-
-- 部局のサイトがどのようなアクセス制限をかけているかによるため，部局のサイト管理者にご確認ください．
-
-#### Q. UTokyo WiFiのアカウントのように半年ごとに新規のアカウント取得は必要か
-
-- UTokyo VPNの認証はUTokyo WiFiのアカウントではなくUTokyo Accountで行います．そのため基本的に利用者のアカウントの変更は起こらず，継続して利用が可能です．ただし，利用には年１回実施する情報セキュリティ教育の受講が必要です．
-
-#### Q. 着任時には情報セキュリティ教育の受講期間が終了していた
-
-- 着任時からUTokyo VPNを利用可能です．[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)のページにある「情報セキュリティ教育 教材」をよくお読みの上，ご利用ください．
-
-#### Q. UTokyo VPN の利用申請は学外からも可能か
-
-- 可能です．ただし、学内からは接続確認が難しい（本来学内で利用できるのに学外からアクセスすることでVPNに接続できているか確認する必要があるため）ので学外での設定をお勧めします．
-
-## 規定
-
-- [UTokyo VPN利用規定](terms/UTokyoVPN-User-Term.pdf)
-- [UTokyo VPN運用規定](terms/UTokyoVPN-Operation-Term.pdf)
+- [UTokyo VPN利用規程](terms/UTokyoVPN-User-Term.pdf)
+- [UTokyo VPN運用規程](terms/UTokyoVPN-Operation-Term.pdf)
 
 
-## お問合せフォーム
+## 問い合わせ
+{:#inquiry}
 
-お問合せはこちらの [UTokyo VPN問い合わせフォーム](https://forms.office.com/r/U0R5L40D3e) からお願いいたします．
+問い合わせは**[サポート窓口](/support/)**で受け付けています．

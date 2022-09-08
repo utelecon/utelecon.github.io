@@ -6,7 +6,7 @@ title: Webex ウェビナーへの参加
 * 開催者から送られてきたメールにあるリンクをクリックすると，デフォルトのブラウザが開き，Webexアプリが起動します．
 * 名前の入力を進むとプレビュー画面に移行します．
 
-	 ![プレビュー画面](img/webex_events_participate2.png){:width="700px"}
+	 ![プレビュー画面](img/webex_events_participate2.png){:.border}
 
 * 下で，オーディオ，マイクの設定を行います．ヘッドセットを装着する場合など，どの機材でオーディオやマイクを使うのかの設定切り替えをここで行います．ここでうまくいかなくても，参加してからでも変更できます．
 * 画面内にあるマイクのボタンはミュートの解除・設定を行います．
@@ -16,5 +16,7 @@ title: Webex ウェビナーへの参加
 <br>
 <br>
 <a href="index" target="_blank">Webexの使い方ページに戻る</a>
-<a href="meeting_participant" target="_blank">会議でできること（参加者）をみる</a>
-<a href="meeting_owner" target="_blank">会議でできること（開催者）をみる</a>
+
+<a href="do_webex" target="_blank">ミーティング・ウェビナーで出来ること（開催者・参加者共通）を見る</a>
+<br />
+<a href="do_webex_host" target="_blank">ミーティング・ウェビナーでできること（開催者限定）を見る</a>

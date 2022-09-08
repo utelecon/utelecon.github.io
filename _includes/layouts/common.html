@@ -12,9 +12,14 @@
       </script>
     {% endif %}
     <meta charset="UTF-8">
+
     <meta property="og:type" content="website">
-    {% include description.html %}
-    {% seo %}
+    {% include layouts/description.html %}
+    {% assign url_with_ext = site.url | append: page.url %}
+    {% assign url_without_ext = url_with_ext | replace: '.html', '' %}
+    {% capture seo %}{% seo %}{% endcapture %}
+{{ seo | replace: url_with_ext, url_without_ext }}
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -25,9 +30,12 @@
       {% endfor %}
     {% endif %}
 
+    {% if page.js %}
+      {% for j in page.js %}
+      <script src="{{ '/assets/js/' | append: j | append: '.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+      {% endfor %}
+    {% endif %}
     <script async src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"></script>
-
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
   </head>
   <body>

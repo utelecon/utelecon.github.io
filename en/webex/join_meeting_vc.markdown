@@ -16,9 +16,7 @@ title: How to join Webex Meetings （TV conference systems）
 <br>
 <br>
 <a href="index" target="_blank">Go back to How to Use WeBex</a>
+
+<a href="do_webex" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)</a>
 <br>
-<br>
-<a href="meeting_participant" target="_blank">See What is possible with Webex Meetings?（for Participants)</a>
-<br>
-<br>
-<a href="meeting_owner" target="_blank">What is possible with Webex Meetings?（for Instructors)</a>
+<a href="do_webex_host" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host)</a>

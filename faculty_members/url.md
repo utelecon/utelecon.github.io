@@ -12,6 +12,7 @@ title: 授業URLの連絡方法（教員向け）
 なお，学生向けの案内は「[授業URLの連絡方法（学生向け）](/oc/url)」をご覧ください．
 
 ## 原則：ITC-LMSの「オンライン授業情報」欄を利用する
+{:#use-online-class-info-in-general}
 
 - オンライン授業のURLを学生に連絡する際は，学習管理システム**[ITC-LMS](/itc_lms)の「オンライン授業情報」欄を利用**するのが原則です（[ある授業の記載例](https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=2020FEN-EE3d16L10J01)）．
     - URLが自動的にリンクになりませんので，お手数ですが，編集画面の![](url_button.png){:.inline}ボタンを押してリンク化するようお願いします．
