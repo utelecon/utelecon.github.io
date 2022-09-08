@@ -31,4 +31,10 @@ title: UTokyo Slackに自由に参加できるワークスペースの中から�
 
 ※以下の説明は，既にUTokyo Slackを利用している場合（以前からUTokyo Slackの他のワークスペースに参加している場合）は確認しなくてかまいません．
 
-{% include_relative _after.md heading="###" %}
+### プロフィールの設定
+
+{% include_relative _profile.md %}
+
+### Slackの使い方
+
+{% include_relative _tutorial.md %}

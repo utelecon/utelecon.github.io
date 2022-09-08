@@ -32,4 +32,10 @@ title: UTokyo Slackに特定のワークスペースから招待を受けて参�
 
 ### 参加の後に
 
-{% include_relative _after.md heading="####" %}
+#### プロフィールの設定
+
+{% include_relative _profile.md %}
+
+#### Slackの使い方
+
+{% include_relative _tutorial.md %}
