@@ -58,8 +58,8 @@ Click “Share” to see the windows that are available for you to share. Choose
 ### Annotating While Screen Sharing
 
 Moving up your mouse while screen sharing will display the control menu for your Meeting/Webinar. Click on the “Annotate” button to show the annotation palette. This will allow you to draw lines, arrows, squares, etc., over the currently displayed images and share them.  If you click the topmost icon on the annotation palette, the palette will also be displayed on the screens of the other participants, who can then make their own annotations. You can use this feature to have participants answer simple Yes/No questions, for example.
-![alt](img/webex_control_in_share.jpg)
-![alt](img/webex_annotation_palette.jpg)
+![alt](img/webex_control_in_share.png)
+![alt](img/webex_annotation_palette.png)
 Sharing your whiteboard will enable annotations for both you and the participants. (You can turn this feature off if necessary.)
 
 ## Advanced Settings for Speakers, Microphones, and Cameras
