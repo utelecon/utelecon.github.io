@@ -98,11 +98,11 @@ https://script.google.com/ から，自分が作成したスクリプトの一�
 
 uteleconでは，GASを活用して，オンライン授業の準備の負担を軽減する方法を紹介しています．  
 
-[Googleドライブでファイルとフォルダを複製する方法](/articles/gas/drive-copy)  
+[Googleドライブでファイルとフォルダを複製する方法](/articles/gas/copy)  
 他，準備中
 
 
 ## あわせて読みたい記事
 
-[Googleドライブでファイルとフォルダを複製する方法](/articles/gas/drive-copy)  
+[Googleドライブでファイルとフォルダを複製する方法](/articles/gas/copy)  
 [オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)
