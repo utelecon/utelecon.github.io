@@ -19,11 +19,7 @@ Aセメスターの開始に当たり、東京大学で使われているクラ�
 
 資料は当日までに(直前まで更新中)，録画は後日アップされます．
 
-<!--
-
-質問は**[こちらのSlido](https://app.sli.do/...)**へ投稿してください．
-
--->
+質問は**[こちらのSlido](https://app.sli.do/event/wfySjSv1SxU5h9ViZYEBA4/live/questions)** (または [https://sli.do/](https://sli.do/) で code = `utelecon20220914` )へ投稿してください．
 
 - 挨拶　太田邦史　副学長・執行役　情報システム本部長<!--・**[動画](https://youtu.be/..... )**-->
 - 説明<!--（**[目次](slides/00-index.pdf)**）-->
