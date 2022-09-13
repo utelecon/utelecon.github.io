@@ -22,7 +22,7 @@ Aセメスターの開始に当たり、東京大学で使われているクラ�
 質問は**[こちらのSlido](https://app.sli.do/event/wfySjSv1SxU5h9ViZYEBA4/live/questions)** (または [https://sli.do/](https://sli.do/) で code = `utelecon20220914` )へ投稿してください．
 
 - 挨拶　太田邦史　副学長・執行役　情報システム本部長<!--・**[動画](https://youtu.be/..... )**-->
-- 説明<!--（**[目次](slides/00-index.pdf)**）-->
+- 説明（**[目次](slides/00-index.pdf)**）
     1. 授業のための基礎（30分 柴山<!--；**[資料](slides/01-in-classes.pdf)**・**[動画](https://youtu.be/..... )**-->）
     1. セキュリティと多要素認証（15分 田浦<!--；**[資料](slides/02-security.pdf)**・**[動画](https://youtu.be/..... )**-->）
     1. 代表的クラウドサービス（20分 田浦<!--；**[資料](slides/03-cloud.pdf)**・**[動画](https://youtu.be/..... )**-->）
