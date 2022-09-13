@@ -81,8 +81,12 @@ Click “Settings” to select and test the different options.
 
 Clicking on “Participants” will display the participant list.
 
-![alt](img/webex_participants_host.png){:width="350px"}
-![alt](img/webex_participants_attendee.png){:width="350px"}
+<figure>
+<div style="display: flex; gap: 5px; flex-wrap: wrap;">
+<img src="img/webex_participants_host.png" width="350px">
+<img src="img/webex_participants_attendee.png" width="350px">
+</div>
+</figure>
 
 The image on the left shows the host’s screen, while the image on the right shows the participant’s screen.
 
@@ -94,8 +98,13 @@ The image on the left shows the host’s screen, while the image on the right sh
 ## Operating Slido
 
 When the host activates Slido, the Slido panel will appear.
-![alt](img/webex_slido_do_guest_poll_m.png){:width="350px"}
-![alt](img/webex_slido_do_guest_qa_m.png){:width="350px"}
+
+<figure>
+<div style="display: flex; gap: 5px; flex-wrap: wrap;">
+<img src="img/webex_slido_do_guest_qa_m.png" width="350px">
+<img src="img/webex_slido_do_guest_poll_m.png" width="350px">
+</div>
+</figure>
 
 + When the host runs a Poll, a response page will appear under the Voting tab of the participants’ screens.
 + Questions can be managed under the Q&A tab.
@@ -112,8 +121,12 @@ Clicking “Chat” will enable you to send text messages. You cannot view chat 
 
 Click “Q&A” to send a question to the host, presenter, or (if you are using Webex Webinars) the panelist.
 
-![alt](img/webex_qa_host.png)
-![alt](img/webex_qa_participant.png)
+<figure>
+<div style="display: flex; gap: 5px; flex-wrap: wrap;">
+<img src="img/webex_qa_host.png" width="350px">
+<img src="img/webex_qa_participant.png" width="350px">
+</div>
+</figure>
 
 + The image on the left shows the host’s screen, while the image on the right shows the participant’s screen. Once all respondents have submitted their answers, both screens will be shared with the participants. Participants who joined while the meeting is in progress can also read past Q&As.
 + You can use the drop-down menu to limit respondents to specific individuals, such as the Host.
