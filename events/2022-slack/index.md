@@ -4,9 +4,9 @@ title: 2022年8月・9月 UTokyo Slack説明会
 
 情報システム本部では，幅広い大学活動をカバーするコミュニケーション環境整備の一環として，ビジネスチャットツール「Slack」の導入について検討を進めてまいりました．このたび一定の準備が整ったことから，2022年8月より，「UTokyo Slack」として試行運用を行います．
 
-詳細は以下のお知らせをご覧ください．
+※UTokyo Slackについての詳細は，「[全学的なSlackの試行運用開始および説明会開催のお知らせ](/notice/2022/0805-slack)」および以下の説明ページをご覧ください．
 
-<div class="box center"><a href="/notice/2022/0805-slack">全学的なSlackの試行運用開始および説明会開催のお知らせ</a></div>
+<div class="box center"><a href="/slack/">UTokyo Slack（試行）</a></div>
 
 利用したい方・利用に興味をお持ちの方へ向けて，3回に分けてオンライン説明会を開催いたします．各説明会の詳細や参加方法などを，今後このページに順次掲載していく予定です．
 
@@ -24,7 +24,7 @@ title: 2022年8月・9月 UTokyo Slack説明会
     - **[編入（移行）の概要](part1_migration.pdf)**
     - **[Microsoft Teamsのアップデート](part1_teams.pdf)**
 - 録画：**[説明会ビデオ](https://youtu.be/n1LsNZfGEVw)**
-- 質疑応答：いただいたご質問については，こちらにまとめを掲載して，回答をご確認いただけるようにする予定です．いましばらくお待ちください（対応に時間がかかり申し訳ありません）．
+- 質疑応答：**[いただいたご質問と回答のまとめ](https://docs.google.com/spreadsheets/d/1b6w-Y1qQg6qJve9_cPzBLG_B1geZmM2geZWlOzpJMkU/edit?usp=sharing)**を掲載しました（2022年9月13日．掲載に時間がかかり申し訳ありませんでした）．なお，閲覧には[ECCSクラウドメール](/eccs_cloud_email)へのログインが必要です．
 
 ## パート 2「既存ワークスペースの編入（移行）について」
 {:#part2}
@@ -36,10 +36,7 @@ title: 2022年8月・9月 UTokyo Slack説明会
     - **[編入（移行）の詳細](part2_migration.pdf)**
     - **[APIを用いた「移植」](part2_api.pdf)**
 - 録画：**[説明会ビデオ](https://youtu.be/oBBtf5Sy5Ho)**
-- 質疑応答：[Slido のイベント](https://app.sli.do/event/psFfzkzp8TbfbJCcg8jkK9)で受け付けます．
-    - 事前に質問いただくことが可能です．
-    - 事前の質問は，送信すると「レビューを待っています」と表示され，すぐには他の方には表示されません．当日までには全員に表示されます．
-    - パート1でいただいた質問については回答を準備中で，後日掲載予定です．同様のご質問の再度の投稿はご遠慮ください．
+- 質疑応答：[こちらのSlido](https://app.sli.do/event/psFfzkzp8TbfbJCcg8jkK9)で受け付けます．終了後も質問・回答の公開を継続しています．
 
 ## パート3「学内でのこれまでの活用事例」  
 {:#part3}
