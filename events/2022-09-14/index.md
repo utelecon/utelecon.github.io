@@ -26,7 +26,7 @@ Aセメスターの開始に当たり、東京大学で使われているクラ�
     1. 授業のための基礎（30分 柴山<!--；**[資料](slides/01-in-classes.pdf)**・**[動画](https://youtu.be/..... )**-->）
     1. セキュリティと多要素認証（15分 田浦；**[資料](slides/02-security.pdf)**<!--・**[動画](https://youtu.be/..... )**-->）
     1. 代表的クラウドサービス（20分 田浦；**[資料](slides/03-cloud.pdf)**<!--・**[動画](https://youtu.be/..... )**-->）
-    1. UTokyo Slack（30分 玉造<!--；**[資料](slides/03-utokyo-slack.pdf)**・**[動画](https://youtu.be/..... )**-->）
+    1. UTokyo Slack（25分 玉造<!--；**[資料](slides/03-utokyo-slack.pdf)**・**[動画](https://youtu.be/..... )**-->）
     1. uteleconと学生によるサポート体制（10分 鈴木<!--；**[資料](slides/04-utelecon_and_supporters.pdf)**・**[動画](https://youtu.be/.....)**-->）
 - 質疑応答・意見交換<!--: ..... を利用しておこないます(**[資料](slides/.....pdf)**・**[動画](https://youtu.be/.....)**).-->
 
