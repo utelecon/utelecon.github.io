@@ -117,7 +117,7 @@ UTokyo Accountでは，利用者が各自で初期設定を行うことにより
 <li>
 <strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，このアプリを本人確認方法として使うのが便利です．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で登録することもできます．
 <details>
-<summary>設定手順</summary>
+<summary>登録手順</summary>
 <ol>
 <li>（まだしていなければ）スマホに「Microsoft Authenticator」アプリをインストールしてください．Androidの人は<a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a>から，iPhoneの人は<a href="https://apps.apple.com/app/microsoft-authenticator/id983156458">App Store</a>からダウンロードできます．</li>
 <li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．<img src="alt_add_method.png"></li>
@@ -142,7 +142,7 @@ UTokyo Accountでは，利用者が各自で初期設定を行うことにより
 <li>
 <strong>「Microsoft Authenticator」以外の認証アプリを使う方法</strong>：もし既に「Google Authenticator」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で登録することもできます．
 <details>
-<summary>設定手順</summary>
+<summary>登録手順</summary>
 <ol>
 <li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．<img src="alt_add_method.png"></li>
 <li>「どの方法を使用しますか?」欄で「認証アプリ」を選び，「追加」を押してください．<img src="alt_add_method_pull_down.png"></li>
@@ -159,7 +159,7 @@ UTokyo Accountでは，利用者が各自で初期設定を行うことにより
 <li><strong>会社電話</strong>：予備の電話として会社（大学）の電話を登録するものです．本人確認時の方法は音声通話のみで，SMSを選ぶことができません．他の種類の電話と違って内線番号（直通番号ではなく代表番号に繋がってから追加の番号を入力する必要のある内線）を設定できます．</li>
 </ul>
 <details>
-<summary>設定手順</summary>
+<summary>登録手順</summary>
 <ol>
 <li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．<img src="alt_add_method_pull_down.png"></li>
 <li>「どの方法を使用しますか?」欄で登録したい種類の電話番号を選び，「追加」を押してください．<img src="alt_add_method_pull_down.png"></li>
@@ -203,7 +203,7 @@ UTokyo Accountでは，利用者が各自で初期設定を行うことにより
         <summary>表示されているもの以外の本人確認方法を使いたい場合</summary>
         サインイン時の本人確認方法は，登録されている方法のいずれか（通常，最初に登録したもの）がデフォルトとして自動的に選ばれます．他の本人確認方法を使いたい場合は，画面上の「別の確認オプションを使用する」（あるいは「問題がありますか? 別の方法でサインインする」「Microsoft Authenticator アプリを現在使用できません」）というリンクを押してください．
         <img src="signin_with_another_method.png">
-        また，デフォルトの方法を変更したい場合は，下の「<a href="#change-default>既定（デフォルト）の本人確認方法を変更する</a>」の説明に従って作業してください．
+        また，デフォルトの方法を変更したい場合は，下の「<a href="#change-default">既定（デフォルト）の本人確認方法を変更する</a>」の説明に従って作業してください．
     </details>
 1. 「セキュリティ情報」と書かれた多要素認証の設定ページが表示されればOKです．
 {:.mfa-initial-procedure}
@@ -309,7 +309,7 @@ UTokyo Accountでは，利用者が各自で初期設定を行うことにより
 ### 多要素認証の申請を取り消したい・多要素認証の利用を終了したい
 {:#others-terminate}
 
-セキュリティの観点から多要素認証を利用することを推奨しておりますが，やむを得ない事情がある場合には，多要素認証の利用終了し，パスワードだけでサインインできる状態に戻すことができます．「**[UTokyo Account多要素認証の本人確認方法再登録および利用終了について](reregister_and_terminate)**」のページを参照してください．
+セキュリティの観点から多要素認証を利用することを推奨しておりますが，やむを得ない事情がある場合には，多要素認証の利用を終了し，パスワードだけでサインインできる状態に戻すことができます．「**[UTokyo Account多要素認証の本人確認方法再登録および利用終了について](reregister_and_terminate)**」のページを参照してください．
 
 なお，多要素認証の本人確認方法が利用できずサインインできなくなったという場合は，上の「[多要素認証の本人確認ができずサインインできなくなった場合](#troubleshooting)」で説明しているとおり，「本人確認方法の再登録」を行うことによりサインインできるようになりますので，多要素認証の「利用終了」をする必要はありません．
 
