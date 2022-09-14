@@ -64,8 +64,13 @@ Sharing your whiteboard will enable annotations for both you and the participant
 
 ## Advanced Settings for Speakers, Microphones, and Cameras
 
-![alt](img/webex_config_sound.png){:width="300px"}
-![alt](img/webex_config_camera.png){:width="300px"}
+<figure>
+<div style="display: flex; gap: 5px; flex-wrap: wrap; align-items: flex-end;">
+<img src="img/webex_config_sound.png" width="350px">
+<img src="img/webex_config_camera.png" width="350px">
+</div>
+</figure>
+
 Click the arrow signs to the right of the “Mute” and “Camera” buttons to choose the speaker, microphone, and camera you want to use for Webex.
 
 ![alt](img/webex_config_sound_setting.png){:width="600px"}
@@ -137,12 +142,16 @@ Click “Q&A” to send a question to the host, presenter, or (if you are using 
 Using the breakout session feature, you can create several “breakout sessions” in addition to the “main meeting.” Participants can divide into their respective breakout sessions for discussions or return to the main meeting as necessary. **A maximum of 100 breakout sessions can be created.**
 **The breakout session feature cannot be used for End-to-End Encrypted Meetings.**
 Participants can move between sessions by pressing the “Join” button. They can also return to the main meeting by pressing the “Leave” button. (In some cases, the participant’s movements may be restricted by the Host.)
-![alt](img/webex_breakout_enter.png)
-![alt](img/webex_breakout_leave.png)
+<figure>
+<div style="display: flex; gap: 5px; flex-wrap: wrap; align-items: flex-start;">
+<img src="img/webex_breakout_enter.png" width="350px">
+<img src="img/webex_breakout_leave.png" width="350px">
+</div>
+</figure>
 
 During breakout sessions, participants can share videos or screens and send each other chats, just like in the main meeting. (The instructions are the same as sessions that are not breakout sessions).
 Furthermore, you can ask the Host for help. Asking for help will notify the Host, who may then come to your session. However, you cannot request help from a Host if they are participating in one of the sessions, in which case you will need to wait.
-![alt](img/webex_breakout_callhelp.png)
+![alt](img/webex_breakout_callhelp.png){:width="400px"}
 
 For specific instructions for Hosts, see [Things You Can Do in Webex Meetings and Webex Webinars (Host)](futurelink).
 
