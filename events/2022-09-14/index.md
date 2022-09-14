@@ -22,8 +22,8 @@ Aセメスターの開始に当たり、東京大学で使われているクラ�
 質問は**[こちらのSlido](https://app.sli.do/event/wfySjSv1SxU5h9ViZYEBA4/live/questions)** (または [https://sli.do/](https://sli.do/) で code = `utelecon20220914` )へ投稿してください．事前質問もどうぞ.
 
 - 挨拶　太田邦史　副学長・執行役　情報システム本部長・**[動画](https://youtu.be/tZUpJp6SKt8)**
-- 説明（**[目次](slides/00-index.pdf)**　**[動画](https://youtu.be/BJnrr3unoh0)**）
-    1. 授業のための基礎（30分 柴山；**[資料](slides/01-in-classes.pdf)**・**[動画](https://youtu.be/PuNPpiZjFQQ))**)
+- 説明（**[目次](slides/00-index.pdf)**・**[動画](https://youtu.be/BJnrr3unoh0)**）
+    1. 授業のための基礎（30分 柴山；**[資料](slides/01-in-classes.pdf)**・**[動画](https://youtu.be/PuNPpiZjFQQ)**)
     1. セキュリティと多要素認証（20分 田浦；**[資料](slides/02-security.pdf)**・**[動画](https://youtu.be/ssQVcOE10pc)**）
     1. 代表的クラウドサービス（20分 田浦；**[資料](slides/03-clouds.pdf)**・**[動画](https://youtu.be/KDLhcUt5Z7k)**）
     1. UTokyo Slack（25分 玉造；**[資料](slides/04-slack.pdf)**・**[動画](https://youtu.be/PMVaRvRf0MI)**）
@@ -41,7 +41,7 @@ Aセメスターの開始に当たり、東京大学で使われているクラ�
 
 ## 参加申込み
 
-**[Zoomウェビナー登録ページ](https://u-tokyo-ac-jp.zoom.us/webinar/register/WN_Q5vJ752qRKaVPo3Ssg67oA)**を入力・送信してください。
+~~**[Zoomウェビナー登録ページ]**を入力・送信してください。~~（終了しました）
 
 ## 事後アンケート
 
