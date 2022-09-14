@@ -21,14 +21,14 @@ Aセメスターの開始に当たり、東京大学で使われているクラ�
 
 質問は**[こちらのSlido](https://app.sli.do/event/wfySjSv1SxU5h9ViZYEBA4/live/questions)** (または [https://sli.do/](https://sli.do/) で code = `utelecon20220914` )へ投稿してください．事前質問もどうぞ.
 
-- 挨拶　太田邦史　副学長・執行役　情報システム本部長<!--・**[動画](https://youtu.be/..... )**-->
-- 説明（**[目次](slides/00-index.pdf)**）
-    1. 授業のための基礎（30分 柴山；**[資料](slides/01-in-classes.pdf)**<!--・**[動画](https://youtu.be/..... )**-->）
-    1. セキュリティと多要素認証（20分 田浦；**[資料](slides/02-security.pdf)**<!--・**[動画](https://youtu.be/..... )**-->）
-    1. 代表的クラウドサービス（20分 田浦；**[資料](slides/03-clouds.pdf)**<!--・**[動画](https://youtu.be/..... )**-->）
-    1. UTokyo Slack（25分 玉造；**[資料](slides/04-slack.pdf)**<!--・**[動画](https://youtu.be/..... )**-->）
-    1. uteleconと学生によるサポート体制（10分 鈴木；**[資料](slides/05-utelecon-and-supporters.pdf)**<!--・**[動画](https://youtu.be/.....)**-->）
-- 意見交換：オンラインツール「LearnWiz One」を利用しておこないます （**[資料](slides/06-discussion.pdf)**<!--・**[動画](https://youtu.be/.....)**-->）
+- 挨拶　太田邦史　副学長・執行役　情報システム本部長・**[動画](https://youtu.be/tZUpJp6SKt8)**
+- 説明（**[目次](slides/00-index.pdf)**　**[動画](https://youtu.be/BJnrr3unoh0)**）
+    1. 授業のための基礎（30分 柴山；**[資料](slides/01-in-classes.pdf)**・**[動画](https://youtu.be/PuNPpiZjFQQ))**)
+    1. セキュリティと多要素認証（20分 田浦；**[資料](slides/02-security.pdf)**・**[動画](https://youtu.be/ssQVcOE10pc)**）
+    1. 代表的クラウドサービス（20分 田浦；**[資料](slides/03-clouds.pdf)**・**[動画](https://youtu.be/KDLhcUt5Z7k)**）
+    1. UTokyo Slack（25分 玉造；**[資料](slides/04-slack.pdf)**・**[動画](https://youtu.be/PMVaRvRf0MI)**）
+    1. uteleconと学生によるサポート体制（10分 鈴木；**[資料](slides/05-utelecon-and-supporters.pdf)**・**[動画](https://youtu.be/dEApriciMz0)**）
+- 意見交換：オンラインツール「LearnWiz One」を利用しておこないます （**[資料](slides/06-discussion.pdf)**・**[動画](https://youtu.be/tcYbe0P2PaU)**）
 
 <font color="red">注意:</font> UTokyo Slackの部で, 実際にその場で試してみたいという方は今のうちに, [多要素認証](/utokyo_account/mfa/)の設定をお済ませください(設定後, 有効になるまで40分程度かかります)
 
