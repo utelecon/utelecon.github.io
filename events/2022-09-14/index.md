@@ -28,7 +28,7 @@ Aセメスターの開始に当たり、東京大学で使われているクラ�
     1. 代表的クラウドサービス（20分 田浦；**[資料](slides/03-clouds.pdf)**<!--・**[動画](https://youtu.be/..... )**-->）
     1. UTokyo Slack（25分 玉造；**[資料](slides/04-slack.pdf)**<!--・**[動画](https://youtu.be/..... )**-->）
     1. uteleconと学生によるサポート体制（10分 鈴木；**[資料](slides/05-utelecon-and-supporters.pdf)**<!--・**[動画](https://youtu.be/.....)**-->）
-- 質疑応答・意見交換<!--: ..... を利用しておこないます(**[資料](slides/.....pdf)**・**[動画](https://youtu.be/.....)**).-->
+- 意見交換：オンラインツール「LearnWiz One」を利用しておこないます （**[資料](slides/06-discussion.pdf)**<!--・**[動画](https://youtu.be/.....)**-->）
 
 <font color="red">注意:</font> UTokyo Slackの部で, 実際にその場で試してみたいという方は今のうちに, [多要素認証](/utokyo_account/mfa/)の設定をお済ませください(設定後, 有効になるまで40分程度かかります)
 
