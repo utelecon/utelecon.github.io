@@ -2,10 +2,10 @@
   name: "まずはここから"
   contents:
     -
-      name: "オンライン授業を受けるために<small>（学生向け）</small>"
+      name: "大学生活に必要な情報システムの準備について<small>（学生向け）</small>"
       url: "/oc/"
     -
-      name: "オンライン授業を始めるために<small>（教員向け）</small>"
+      name: "東京大学における情報システムの準備について<small>（教員向け）</small>"
       url: "/faculty_members/"
     -
       name: "オンラインを活用するために"
