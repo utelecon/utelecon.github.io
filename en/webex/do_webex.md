@@ -19,7 +19,7 @@ Below are some of the main privileges in Webex Webinars. ([“Roles in Webex Web
 
 + **Host:** In addition to starting and ending events, the host can manage the privileges of other participants.
 + **Cohost:** The Cohost has almost the same privileges as the Host and can assist the Host in smoothly carrying out the meeting.
-+ **Presenter:** Those in the Presenter role can share content. They can also mute and unmute themselves. 
++ **Presenter:** Those in the Presenter role can share content. They can also mute and unmute themselves.
 + **Panelist:** The Panelist can take part in Q&A sessions with participants. They can also mute and unmute themselves.
 + **Attendee:** Attendees cannot transmit video and cannot unmute themselves, but must wait for the Host to unmute them. Also, since the assumption is that people who are unfamiliar with each other will be participating in the same event, Attendees cannot chat amongst themselves, but can only chat with the Host, Panelist, or Presenter. The sole exception is that Attendees can view Q&A sessions with other Attendees.
 
@@ -135,7 +135,7 @@ Click “Q&A” to send a question to the host, presenter, or (if you are using 
 
 + The image on the left shows the host’s screen, while the image on the right shows the participant’s screen. Once all respondents have submitted their answers, both screens will be shared with the participants. Participants who joined while the meeting is in progress can also read past Q&As.
 + You can use the drop-down menu to limit respondents to specific individuals, such as the Host.
-+ The Host can click on “Send Privately” and choose from among the following options: “Respond Privately,” “Defer,” and “Dismiss.” For example, you can select “Respond Privately” to send responses that should not be made public to all participants, or select “Defer” for questions that require further research and cannot be answered immediately. 
++ The Host can click on “Send Privately” and choose from among the following options: “Respond Privately,” “Defer,” and “Dismiss.” For example, you can select “Respond Privately” to send responses that should not be made public to all participants, or select “Defer” for questions that require further research and cannot be answered immediately.
 
 ## Breakout Sessions
 
