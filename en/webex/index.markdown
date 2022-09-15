@@ -1,97 +1,93 @@
 ---
-title: WebEx
+title: Webex
 ---
 
-## はじめに
+## Introduction
 
-* デフォルトのライセンスで1000人まで参加可能になっているので大規模人数の会議をする人にはおすすめです
-* End-to-end暗号化された(クラウド上でも復号化されない)会議が開催可能で, 高い機密性の必要な(または検閲などの恐れの少ない)会議が必要な場合にもおすすめです
-* 投票, ブレークアウト, 全員ミュート, などの機能もあります
-* アプリをインストールせずWebブラウザだけでも使えますが基本的な機能に制限されます
-* アプリはWindows, Mac, iOS, Androidに対応しています(Linuxには対応していません)
-<!--* 複数の会議への同時参加,および複数の会議の同時開催が可能です-->
-* 2021年3月からサインイン方法がUTokyo Accountを使う方法に変わりました．詳細は[新しいサインイン方法のページ](signin)や[変更についての案内ページ](/en/change2021s/)をご覧ください．
+- Allows for up to 1000 participants while using a basic license, which makes it suitable for meetings with a large number of participants
+- Can host end-to-end encrypted meetings (where the data is not decrypted on the cloud), which means it is recommended for meetings that are highly confidential or where there is a need to avoid censorship
+- Offers a variety of features, including voting, breakout rooms, and the ability to mute all participants
+- A browser-only version is available that can be used without installing the app, but it is limited to basic functionality
+- The app is compatible with Windows, Mac, iOS, and Android (Linux is not supported)
+- Starting from March 2021, you will be required to sign in using your UTokyo Account. For more details, see [Signing in to Webex](signin) and [System Change for Spring 2021](/en/change2021s/).
 
-## WebExサービスについて
+## On Webex Services
 
-WebExは，一般的にはWebEx Meetingsが使われていますが，他にもWebEx Webinars，WebEx Training，WebEx Supportがあり, 全部で4種類があります．それぞれ長短があります．
+In addition to Webex Meetings, which is most commonly used, Webex offers four other services: Webex Webinars, Webex Training, and Webex Support. Each service has its advantages and disadvantages.
 
-* WebEx Meetings
-  * 最大参加者数は1,000．うちテレビ会議システムからの接続最大200を含む．
-    * テレビ会議システム（いわゆるPolycom等）からの接続が可能．ブレイクアウトセッションをおこなうこともできる
-    * 参加者同士が同じ立場で，双方向でやりとりのある会議等に使われることが多い．
-* WebEx Webinars
-  * 最大参加者数は1,000．
-  * プレゼンターはテレビ会議システム（いわゆるPolycom等）からの接続が可能．
-  * 中～大規模なイベント等に用いられ，参加者同士は顔も名前もわからないように隔離されます．
-* WebEx Training
-  * 最大参加者数は1,000．
-  * ブレイクアウトセッションやテスト等をおこなうことができる．
-  * パネリストやテストが必要なインタラクティブな講義等に使われることもある．
-* WebEx Support
-  * 1セッション5名，同時最大8セッション開催可能
-  * タブレット・スマートホンは不可．
-  * 基本的に1:1のITサポートに用いられる．
+- Webex Meetings
+  - The maximum number of participants is 1000 (including up to 200 participants joining via video conferencing systems).
+  - Allows participants to join via video conferencing systems (such as Polycom). Can also support breakout sessions.
+  - Often used for interactive meetings between peers.
+- Webex Webinars
+  - The maximum number of participants is 1000.
+  - The presenter can join via a video conferencing system (such as Polycom).
+  - Used for medium to large scale events. Participants are mutually isolated and do not know each other’s names or faces.
+- Webex Training
+  - The maximum number of participants is 1000.
+  - Supports features such as breakout sessions and tests.
+  - For example, it can be used for interactive lectures that involve inviting panelists or conducting tests.
+- Webex Support
+  - Can simultaneously host a maximum of eight sessions, with five participants per session.
+  - Tablets and smartphones are not supported.
+  - Usually used to offer one-on-one IT support.
 
-以下ではWebEx Meetings，WebEx Webinarsについて利用方法を説明していきます.
+Below, you can find out more about how to use Webex Meetings and Webex Webinars.
 
-## 利用方法
+## Instructions
 
-### WebEx Meetingsへの参加
+### Joining a Webex Meeting
 
-1. 開催者から会議室の情報（URLなど）を得る．
-    * 授業の場合は[授業URLの連絡方法（学生向け）](/en/oc/url)をご参照ください．
-1. [会議室へ参加](join_meeting)
-    * 会議室によっては[東京大学のアカウントへのサインイン](signin)が必要です．
-    * 主催者が明示的に「開始」するまで他の参加者はつなげません
-1. 会議室を使う
-    * [ミーティング・ウェビナーでできること（開催者・参加者共通）](do_webex)
+1. Have your host send you the details of the meeting room (such as the URL)
+    - For classes, please refer to [How to Obtain the Online Class URL (for Students)](/en/oc/url)
+1. [Join the meeting room](join_meeting)
+    - Depending on the meeting room, you may be required to [log in to your UTokyo Account](signin)
+    - Other participants will not be able to join until the host presses “start” for the meeting
+1. Use the meeting room
+    - [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](do_webex)
 
-### WebEx Meetingsの開催
+### Hosting a Webex Meeting
 
-1. [東京大学のアカウントへのサインイン](signin)
-1. [会議室を作成](create_meeting)
-1. 会議室の情報（URLなど）を参加者に周知
-    * 授業の場合は[授業URLの連絡方法（教員向け）](/en/faculty_members/url)をご参照ください．
-1. [会議室を開始](open_meeting)
-    * 開催者が明示的に「開始」するまで他の参加者はつなげません
-1. 会議室を使う
-    * [ミーティング・ウェビナーでできること（開催者・参加者共通）](do_webex)
-    * [ミーティング・ウェビナーでできること（開催者限定）](do_webex_host)
+1. [Sign in to your UTokyo Account](signin)
+1. [Set up the meeting room](create_meeting)
+1. Notify participants of the details of the meeting room (such as the URL)
+    - For classes, please refer to [How to Announce Online Class URL](/en/faculty_members/url).
+1. [Begin the meeting](open_meeting)
+    - Other participants will not be able to join until the host presses “start” for the meeting
+1. Use the meeting room
+    - [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](do_webex)
+    - [Things You Can Do in Webex Meetings and Webex Webinars (as Host)](do_webex_host)
 
-### WebEx Webinars
+### Webex Webinars
 
-基本的な流れはWebEx Meetingsと同じです．
+The basic flow is the same as Webex Meetings.
 
-* （開催者）[ウェビナーを作成](create_events)
-* （開催者）[ウェビナーを開始](open_events)
-* （参加者）[ウェビナーへ参加](join_events)
-* [ミーティング・ウェビナーで出来ること（開催者・参加者共通）](do_webex)
-* [ミーティング・ウェビナーでできること（開催者限定）](do_webex_host)
+- (Host) [Set up a Webinar](create_events)
+- (Host) [Start the Webinar](open_events)
+- (Participants) [Join the Webinar](join_events)
+- [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](do_webex)
+- [Things You Can Do in Webex Meetings and Webex Webinars (as Host)](do_webex_host)
 
-### テレビ会議システムからの利用
+### Using Webex via a Video Conferencing System
 
-* [WebExではないテレビ会議システムで利用する](do_webex_vc)
+- [Joining a Meeting via a Video Conferencing System Other than Webex](do_webex_vc)
 
+## Using Slido in Webex
 
-## WebExでSlidoを利用する
+- When hosting a meeting, you can activate and use Slido directly in Webex. For general information on Slido and how to use it, see the page on [Slido](/en/slido).
+- Points to consider when using Slido
+  - Cannot be used for end-to-end encrypted meetings.
+  - Cannot be used in Webex Events (Classic).
+  - Only the host can activate Slido (it cannot be launched by the cohost).
+  - The host must launch Slido from the desktop version of the app (it cannot be launched in the mobile and web versions).
+  - Other participants can operate Slido using the desktop, mobile, and web versions of the app.
+- [Things You Can Do (Host/Participant)](do_webex#operating-slido)
+  - Live polling
+  - Q&A
+- [Things You Can Do (Host)](do_webex_host#activating-slido)
+  - Hosting events that you have scheduled in advance on the Slido events page.
+  - Setting up new events
+  - Adding a live poll
+  - Analytics can be accessed via the host’s Slido events page after the event is completed
 
-* WebExでは，開催中にSlidoを起動して直接操作することができます．操作はウェブで利用する時と同じです．Slidoについての一般的な説明・操作方法は[「Slido」](/en/slido/)をご覧下さい．
-* 利用における注意事項
-  * End-to-End Encrypted Meetingでは利用できません．
-  * Events (classic)では利用できません．
-  * 主催者のみSlidoを起動できます．(共同主催者は起動できません．)
-  * 主催者はデスクトップアプリからSlidoを起動する必要があります．（モバイルアプリ・ウェブアプリでは起動できません．）
-  * 参加者はデスクトップ，モバイル，ウェブ版のアプリで使用できます．
-* [できる事(主催者/参加者共通)](do_webex#operating-slido)
-  * ライブ投票・アンケート(Polls)
-  * Q&A
-* [できる事(主催者)](do_webex_host#activating-slido)
-  * 事前に主催者のSlidoイベント一覧のページで用意したイベントの開催
-  * イベントの新規作成
-  * ライブ投票・アンケート(Live Poll)の追加
-  * Slidoイベント終了後の分析は，主催者のSlidoイベント一覧のページで操作します．
-
-
-三菱電機システムサービス株式会社から資料提供をいただいています．
-
+We would like to thank Mitsubishi Electric System & Service Co., Ltd. for providing materials for this article.
