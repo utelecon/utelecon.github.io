@@ -153,7 +153,7 @@ During breakout sessions, participants can share videos or screens and send each
 Furthermore, you can ask the Host for help. Asking for help will notify the Host, who may then come to your session. However, you cannot request help from a Host if they are participating in one of the sessions, in which case you will need to wait.
 ![alt](img/webex_breakout_callhelp.png){:width="400px"}
 
-For specific instructions for Hosts, see [Things You Can Do in Webex Meetings and Webex Webinars (Host)](futurelink).
+For specific instructions for Hosts, see [Things You Can Do in Webex Meetings and Webex Webinars (as Host)](do_webex_host).
 
 ## Lobby Feature (Only for Webex Meetings)
 
@@ -162,4 +162,4 @@ Participants who attempt to join a locked meeting will first be sent to the Lobb
 
 ![alt](img/webex_lobby.png){:width="600px"}
 
-[Back to How to use Webex](en/webex/)
+[Back to How to use Webex](.)
