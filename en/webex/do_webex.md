@@ -87,7 +87,7 @@ Click “Settings” to select and test the different options.
 Clicking on “Participants” will display the participant list.
 
 <figure>
-<div style="display: flex; gap: 5px; flex-wrap: wrap;">
+<div style="display: flex; gap: 5px; flex-wrap: wrap; align-items: flex-start;">
 <img src="img/webex_participants_host.png" width="350px">
 <img src="img/webex_participants_attendee.png" width="350px">
 </div>
@@ -105,7 +105,7 @@ The image on the left shows the host’s screen, while the image on the right sh
 When the host activates Slido, the Slido panel will appear.
 
 <figure>
-<div style="display: flex; gap: 5px; flex-wrap: wrap;">
+<div style="display: flex; gap: 5px; flex-wrap: wrap; align-items: flex-start;">
 <img src="img/webex_slido_do_guest_qa_m.png" width="350px">
 <img src="img/webex_slido_do_guest_poll_m.png" width="350px">
 </div>
@@ -127,7 +127,7 @@ Clicking “Chat” will enable you to send text messages. You cannot view chat 
 Click “Q&A” to send a question to the host, presenter, or (if you are using Webex Webinars) the panelist.
 
 <figure>
-<div style="display: flex; gap: 5px; flex-wrap: wrap;">
+<div style="display: flex; gap: 5px; flex-wrap: wrap; align-items: flex-start;">
 <img src="img/webex_qa_host.png" width="350px">
 <img src="img/webex_qa_participant.png" width="350px">
 </div>
