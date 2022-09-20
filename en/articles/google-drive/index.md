@@ -1,7 +1,9 @@
-# The Basics of Using Google Drive
+---
+title: The Basics of Using Google Drive
+---
 ## What is Google Drive?
 
-## Description of the Application
+### Description of the Application
 
 Google Drive is a cloud service provided by Google Inc, which allows you to store photos, videos, files, etc. safely and share them in various ways.
 
@@ -95,7 +97,7 @@ This section explains how to set the sharing options in My Drive.
    3. When the file you want to share is selected, click the share icon. 
 2. **Share the file**: You can share the file by registering the Google account of the person you want to share with, or simply by copying the link and sending it to that person. 
 3. **Choose who you want to share the file with and what permissions they have**: After Step 1, click the "Change" button under the "Get Link" column to change the permissions of the person you want to share the file with. <img src="pic3.png">
-    1.You can choose who to share the file with from the following. However, we do not recommend the "only those who know the link" restriction, because it is the same as public sharing if even one of those people divulges the link. Also, you can easily manage permissions by creating folders with different sharing ranges depending on the purpose, and creating files under those folders, rather than setting sharing settings for each file.  
+    1. You can choose who to share the file with from the following. However, we do not recommend the "only those who know the link" restriction, because it is the same as public sharing if even one of those people divulges the link. Also, you can easily manage permissions by creating folders with different sharing ranges depending on the purpose, and creating files under those folders, rather than setting sharing settings for each file.  
        * University of Tokyo ECCS Cloud Email: All users who are logged in with University of Tokyo ECCS Cloud Email and know the link can view it.  
        * Restricted: A setting that allows only specific people to share the link (a setting that allows only individual users or group members to view the link).  
        * Everyone who knows the link: All people who know the link can see it.   
@@ -119,7 +121,7 @@ The following is an explanation of the process of sharing documents in actual cl
 
 ## Tips
 
-## About Sharing Files
+### About Sharing Files
 
 In Google Drive, it is possible to upload files of any format such as documents, presentations, music, photos, and videos.
 However, it is recommended to use Google Spreadsheet, Google Docs, or OneDrive because editing Excel or Word files uploaded on the drive may cause problems such as garbled characters.
