@@ -36,12 +36,12 @@ title: Setting Up a Webex Meeting
 
 ## Editing a Webex Meeting
 To edit the contents of a meeting you have scheduled, select the meeting in question from the home page and click the “Edit” icon.
-![](img/webex_home_list_mtg.jpg){:.border.medium}
-![](img/webex_edit_meeting.jpg){:.border.medium}
+![](img/webex_home_list_mtg.png){:.border.medium}
+![](img/webex_edit_meeting.png){:.border.medium}
 
 - On the home page, you can view any meetings and webinars scheduled within the next seven days. If you want to select a meeting scheduled at a later date, click the “Calendar” button on the left-hand side of the home page and search for the desired date．
-![](img/webex_home_calendar.jpg){:.border.medium}
-![](img/webex_calendar.jpg){:.border.medium}
+![](img/webex_home_calendar.png){:.border.medium}
+![](img/webex_calendar.png){:.border.medium}
 
 
 <br>
