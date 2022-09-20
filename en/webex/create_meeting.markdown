@@ -1,38 +1,51 @@
 ---
-title: How to set the meeting room
+title: Setting Up a Webex Meeting
 ---
 
-## How to create an Webex Meeting room 
-* Press "plan the schedule" to start planning the conference schedule.
-	* In the screen,  "Meeting schedule", you can set the agenda, Meeting Password, date of meetings, and participants.  Details are below.
-	* **Agenda**： The name of conference. This is the required item.
-	* **Meeting password**：There is a given text strings for the first time you open this setting, but you can change the Password. 
-	* **Date and Time**： You may see the time that you open the browser. You can change the date  just pressing right top symbol. Moreover, you can repeat the meeting if you check the button "repeat". After you press the button, you fill in the form for further details. 
-	* **Participants**： Please fill participants' mail address here. After finishing the settings, participants automatically obtain the invitation code through email. 
-	* **Tracking Record**： No need to use this function.
-	* **Show the detail settings**： You can set audio connect options, the agenda, and schedule options. For example, you can set automatic recording and participants enter the meeting in advance to the organizers. In addition, you can set the  attendance registration,and send reminders to participants. 
+## Setting Up a Webex Meeting
+- To schedule a meeting, select “Schedule Meeting” on the home page and configure the various settings.
+  - The “Schedule Meeting” page allows you to configure settings such as the topic, password, date, and attendees. The details for each item are as follows.
+  - **Meeting type**: Select the type of meeting you want to schedule.
+    - **Webex Meetings (1. Standard Meeting**)**: This option should be selected for standard lectures and meetings. You can create cloud recordings, connect to teleconference systems (such as Polycom), and make use of functions such as breakout sessions and lobbies.
+    - **Webex Meetings (2. End-to-End Encrypted Meeting)**: This option should be selected if End-to-End Encryption is required. Certain functions such as cloud recordings and connection to teleconference systems are disabled. Please refer to “[End-to-End Encryption for Webex Meeting](encrypted_meeting)” and “[Recommended Practices for Holding Secure Meetings on Webex.](how_to_open_secure_meetings)”
+  - **Topic**: Enter the topic of the meeting. This field is required.
+  - **Meeting password**: An arbitrary string will be displayed by default, which can be changed.
+  - **Date and Time**: The time when the screen was most recently opened will be displayed. You can change the time by pressing the symbol on the right-hand corner.  You can also repeat meetings. Checking the box marked “Recurrence” will take you to a page where you can set the rules for repeating a meeting.
+  - **Attendees**: Enter the e-mail addresses of the attendees. Once you complete this setting, the meeting URL and other information will be automatically sent to the registered attendees. 
+  - **Show Advanced Scheduling Options**: This allows you to change the audio connection options, add an agenda, and set scheduling options. For example, you can configure the settings to automatically start recording or allow attendees to join before the host. You can also register attendees, set reminder emails, and so on.
 
-	![会議設定の画面](img/webex_meeting_setting.png){:width="700px"}
+	![会議設定の画面](img/webex_meeting_setting.PNG){:.border}
 
-* After finishing settings, press "plan the schedule". You will obtain a meeting number．
-	* At the same time, participants obtain the invitation email.
-	* You can add other participants to the meeting by sharing the link of meeting, meeting number and password. However, do not let participants know the organizers' key number.
+- Once all of the settings are completed, click the “Schedule” button to generate the Meeting ID.
+  - An invitation email will be sent to the e-mail addresses of the registered attendees.
+  - You can also notify attendees who have not been registered by sending them an email with the necessary information, including the Meeting Link, Meeting ID, and password shown. The host key number should only be known by the host, and thus should not be shared with general attendees.
 
-	![会議設定結果の画面](img/webex_meeting_description.png){:width="700px"}
+	![会議設定結果の画面](img/webex_meeting_description.PNG){:.border}
 
-* If you set the meeting within 10 minutes, "Start" button appears instead of "plan to schedule". If you want to start the meeting quickly, please set the meeting within 10 minutes.
-	* Press "Start" button and the meeting room will become idle.This preview screen aims to adjust the setting of camera and microphone.
-	* You can adjust audio, microphone and camera on the lower right button and you may switch from PC's or tablet's audio to headset as well. 
-	 * If the screen shows nothing at the preview, the camera may need setting adjustments.  Please press lower right button to check camera settings.
-	 * You can confirm the microphone settings at preview setting. If the indicator captures your voice, participants will be able to hear your voice.
-	* The microphone button on the screen can mute or unmute and the video button can stop or start the clip. As a default setting, microphones and videos are ON.
-	* Press "Start the meeting" to start the meetings immediately.
+- If the date and time entered is too close (within ten minutes or less), the “Start” button will be displayed instead of the “Schedule” button, and the meeting can be started immediately.
+  - Pressing “Start” will take you to waiting mode. This screen is a preview, so make sure to adjust your camera and microphone settings at this stage.
+  - Down below, you can adjust your audio, microphone, and camera settings. You can switch your settings depending on what kind of equipment you are using for your audio and microphone (for example, if you are using a headset).
+  - If nothing shows up on the preview screen, it is possible that your camera is not detected, so check the camera settings located at the bottom.
+  - Make sure that your microphone can be clearly heard. If the indicator under the microphone icon responds when you make a sound, that means that the microphone is picking up sound.
+  - Clicking the microphone button and video button on the screen allows you to mute or unmute attendees and stop or start the video, respectively.
+  - You can immediately start the meeting by pressing “Start Meeting” at this time.
 
-* Participants obtain the below invitation email to Webex.．
+- In addition, attendees registered on the “Schedule Meeting” page will automatically be sent an email such as the following.
 
-	![会議招待メール](img/webex_invitation.png){:width="700px"}
+	![会議招待メール](img/webex_invitation.PNG){:.border.medium}
+
+## Editing a Webex Meeting
+To edit the contents of a meeting you have scheduled, select the meeting in question from the home page and click the “Edit” icon.
+![](img/webex_home_list_mtg.jpg){:.border.medium}
+![](img/webex_edit_meeting.jpg){:.border.medium}
+
+- On the home page, you can view any meetings and webinars scheduled within the next seven days. If you want to select a meeting scheduled at a later date, click the “Calendar” button on the left-hand side of the home page and search for the desired date．
+![](img/webex_home_calendar.jpg){:.border.medium}
+![](img/webex_calendar.jpg){:.border.medium}
 
 
 <br>
 <br>
-<a href="index" target="_blank">Go back to How to Use WeBex</a>
+<a href="index" target="_blank">Return to the How to Use Webex Page</a>
+
+
