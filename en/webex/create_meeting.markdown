@@ -14,13 +14,13 @@ title: Setting Up a Webex Meeting
   - **Attendees**: Enter the e-mail addresses of the attendees. Once you complete this setting, the meeting URL and other information will be automatically sent to the registered attendees. 
   - **Show Advanced Scheduling Options**: This allows you to change the audio connection options, add an agenda, and set scheduling options. For example, you can configure the settings to automatically start recording or allow attendees to join before the host. You can also register attendees, set reminder emails, and so on.
 
-	![会議設定の画面](img/webex_meeting_setting.PNG){:.border}
+	![会議設定の画面](img/webex_meeting_setting.png){:.border}
 
 - Once all of the settings are completed, click the “Schedule” button to generate the Meeting ID.
   - An invitation email will be sent to the e-mail addresses of the registered attendees.
   - You can also notify attendees who have not been registered by sending them an email with the necessary information, including the Meeting Link, Meeting ID, and password shown. The host key number should only be known by the host, and thus should not be shared with general attendees.
 
-	![会議設定結果の画面](img/webex_meeting_description.PNG){:.border}
+	![会議設定結果の画面](img/webex_meeting_description.png){:.border}
 
 - If the date and time entered is too close (within ten minutes or less), the “Start” button will be displayed instead of the “Schedule” button, and the meeting can be started immediately.
   - Pressing “Start” will take you to waiting mode. This screen is a preview, so make sure to adjust your camera and microphone settings at this stage.
@@ -32,7 +32,7 @@ title: Setting Up a Webex Meeting
 
 - In addition, attendees registered on the “Schedule Meeting” page will automatically be sent an email such as the following.
 
-	![会議招待メール](img/webex_invitation.PNG){:.border.medium}
+	![会議招待メール](img/webex_invitation.png){:.border.medium}
 
 ## Editing a Webex Meeting
 To edit the contents of a meeting you have scheduled, select the meeting in question from the home page and click the “Edit” icon.
