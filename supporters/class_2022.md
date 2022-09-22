@@ -44,9 +44,9 @@ title: クラスサポーター制度のご案内
 ## お知らせ
 * <span style="color:blue;">2022/5/22:</span> Sセメの各フォームの「クラスサポーター獲得報告フォーム」の締め切りは以下の通りとなります．<br>
 申し込み忘れのないよう、申請をお願いいたします.<br>
-　<a href="https://forms.office.com/r/qJJkPymJPt" target="_blank">「クラスサポーター獲得報告フォーム」</a>：5月31日 <br>
-　<a href="https://forms.office.com/r/RJ3MhLNkHQ" target="_blank">「クラスサポーター割当希望フォーム」</a>：5月24日 <br>
-　<a href="https://forms.office.com/r/4d6fCUJTEs" target="_blank">「クラスサポーター志願フォーム」</a>：：5月24日<br>
+　<a href="https://forms.office.com/r/qJJkPymJPt" target="_blank">「クラスサポーター獲得報告フォーム」</a>：12月20日 <br>
+　<a href="https://forms.office.com/r/RJ3MhLNkHQ" target="_blank">「クラスサポーター割当希望フォーム」</a>：12月12日 <br>
+　<a href="https://forms.office.com/r/4d6fCUJTEs" target="_blank">「クラスサポーター志願フォーム」</a>：：12月12日<br>
 <!--
 * <span style="color:blue;">2022/3/31:</span> 4月1日よりSセメスターのクラスサポーター制度の受付を開始します．本ページをよくお読みになり，先生方は「クラスサポーター獲得報告フォーム」または「クラスサポーター割当希望フォーム」，クラスサポーター希望の学生は「クラスサポーター志願フォーム」を記入の上制度利用をお願いします．各フォームの締め切りは以下の通りとなります．
   * <a href="https://forms.office.com/r/qJJkPymJPt" target="_blank">「クラスサポーター獲得報告フォーム」</a>：5月31日
