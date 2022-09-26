@@ -27,7 +27,7 @@ UTokyo Accountを用いるとさまざまな情報システムが利用可能で
 
 - 以下の画面（安田講堂の画面）が表示された場合には，共通ID（数字10桁）とパスワードでサインインできます．
 ![](img/signin-yasuda.png)
-- 以下のように，安田講堂の画像が現れず，サインイン画面が表示された場合には，`共通ID（数字10桁）を入力してください．
+- 以下のように，安田講堂の画像が現れず，サインイン画面が表示された場合には，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力してください．
     <figure class="gallery">
         <img src="img/signin-utac-01.png">
         <img src="img/signin-utac-02.png">
