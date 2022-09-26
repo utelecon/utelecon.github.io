@@ -85,8 +85,14 @@ The University of Tokyo conducts annual [Information Security Education](https:/
 	<summary>The UTokyo WiFi service will be suspended for the current year, so basically you will not be able to use the UTokyo WiFi service until the end of the fiscal year. For more information on how to deal with people who have not yet taken the course, please contact <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>transfer to @）with your UTokyo Account username (10-digit common ID).
 </details>
 
+<!--
 ### 共用機器での利用について
 UTokyo WiFiは，各個人が占有して利用する機器でのみ利用可能で，**複数人が共用する機器での利用は禁止です**．共用機器での利用は，UTokyo WiFiアカウントを取得した本人以外に利用させることになり，利用規程で禁止されているアカウントの貸与にあたるためです．なお，OSのユーザーアカウントが個人別に設定されていて，UTokyo WiFiアカウントが取得した本人以外に利用できない，という状況であれば問題ありません．
+-->
+
+### Using UTokyo WiFi on Shared Devices
+UTokyo WiFi can only be used by individuals on their own devices, **use on equipment shared by multiple people is prohibited**. Using UTokyo WiFi on a shared device is considered lending of an account, which is prohibited by the Terms of Use, because it allows anyone other than the user who has obtained a UTokyo WiFi account to use the service. However, if the OS user account is set up separately for each individual, and the UTokyo WiFi account can only be used by the person who has obtained it, UTokyo Wifi are able to use.
+
 
 ## 利用開始までの手順
 {:#initial-setup}
