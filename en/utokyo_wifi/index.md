@@ -3,6 +3,10 @@ title: UTokyo WiFi
 slug: utokyo_wifi
 ---
 
+<!--
+全体的なコメント
+情報セキュリティ教育について，https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html のページのタイトルではInformation Security Educationとなっている一方で，文中ではInformation Security Trainingとも表記されています．
+-->
 ## Overview
 
 <!--
@@ -31,7 +35,7 @@ In addition to UTokyo WiFi, the University of Tokyo has other wireless LAN servi
 - UTokyo AccountでそのままUTokyo WiFiが利用できるわけではなく，別途学期ごとにアカウントを発行する必要があります．
 -->
 - UTokyo WiFi is available to members of the University of Tokyo (faculty, staff and students) who have a [UTokyo Account](/utokyo_account/).
-  - If you have not completed the information security training course, your access may be suspended even if you are a member of the University of Tokyo. Please refer to the "[Information Security Education](#jouhou-security)" section below for more details.
+  - If you have not completed the information security education course, your access may be suspended even if you are a member of the University of Tokyo. Please refer to the "[Information Security Education](#jouhou-security)" section below for more details.
 - In order to use UTokyo Wifi, a separate account in addition to your UTokyo Account is required for each semester.
 
 
@@ -51,14 +55,15 @@ In addition to UTokyo WiFi, the University of Tokyo has other wireless LAN servi
 2. UTokyo WiFi is available to those who have agreed to the "[Terms of Use for the University of Tokyo Wireless Network System (UTokyo WiFi)](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)" and have applied to use the service.
 3. Only the applicant may use UTokyo WiFi. The account must not be lent to others. Please manage your account not to be abused.
 4. UTokyo WiFi will monitor communications and restrict access to sites supposed inappropriate for the purpose of ensuring information security.
-5. UTokyo WiFi account will be revoked when "[Terms of Use for the University of Tokyo Wireless Network System (UTokyo WiFi)](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)" are violated. (e.g. failure to attend the information security training specified by the University)
+5. UTokyo WiFi account will be revoked when "[Terms of Use for the University of Tokyo Wireless Network System (UTokyo WiFi)](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)" are violated. (e.g. failure to attend the information security education specified by the University)
 6. Please deal with security inscident immdiately when you recive a notification for it while using UTokyo WiFi.
 7. UTokyo WiFi is provided as a service for those who can set up their own devices by themselves.
 8. UTokyo WiFi usage data may be disclosed to the public for the purposes of the University's administration with the statistical process to make individuals not identified.
 
-### 情報セキュリティ教育
+### Information Security Education
 {:#jouhou-security}
 
+<!--
 東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，その年度の11月1日から3月31日までUTokyo WiFiの利用資格が停止され，アカウントメニューにサインインできなくなります．**
 <details>
 	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
@@ -67,6 +72,17 @@ In addition to UTokyo WiFi, the University of Tokyo has other wireless LAN servi
 <details>
 	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
 	当該年度のUTokyo WiFiの利用資格が停止されますので，基本的に年度末までUTokyo WiFiを利用することはできません．未受講者への対応に関しては， <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>は@に変更）まで，UTokyo Accountのユーザー名（10桁の共通ID）を添えてお問い合わせください．
+</details>
+-->
+
+The University of Tokyo conducts annual [Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for all UTokyo Account holders. Students will be notified when the training begins (May for students, July for faculty and staff), so please be sure to take the training. **Failure to complete the training will result in suspension of your UTokyo WiFi privileges from November 1 to March 31 of the current academic year, and you will not be able to sign in to your account menu.**
+<details>
+	<summary>If the period of information security training has ended at the time of arrival and enrollment</summary>
+	In this case, your UTokyo WiFi privileges will not be suspended, and you will be able to use UTokyo WiFi from the time of your arrival or enrollment. Please read carefully the "Information Security Education Materials" on the Information Security Education page before you start using UTokyo WiFi. Information security education is provided every year, so please take the course from the next year onward.
+
+</details>
+<details>
+	<summary>The UTokyo WiFi service will be suspended for the current year, so basically you will not be able to use the UTokyo WiFi service until the end of the fiscal year. For more information on how to deal with people who have not yet taken the course, please contact <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>transfer to @）with your UTokyo Account username (10-digit common ID).
 </details>
 
 ### 共用機器での利用について
