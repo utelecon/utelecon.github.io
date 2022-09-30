@@ -49,13 +49,13 @@ title: 2022年8月・9月 UTokyo Slack説明会
 - 参加方法：**[Zoomウェビナー登録ページ](https://u-tokyo-ac-jp.zoom.us/webinar/register/WN_ZMGagvoDTNSS8dRKLUCIbg)**から申し込んでください．
 - 質疑応答とコメント
     - 発表者への質問：**[こちらのSlido](https://app.sli.do/event/mbwRWCgucMqSM7UXkpPZmr/live/questions)**で受け付けます．
-    - 感想やコメント：LearnWiz Oneというシステムで受け付けます（URLは準備中です）．<!--**[こちらの投稿ページ](...)**から投稿してください．-->
+    - 感想やコメント：LearnWiz Oneというシステムで受け付けます．**[こちらの投稿ページ](https://webapp.one.learnwiz.jp/events/utokyoslack2022)**から投稿してください．
 
 ### 内容・資料
 
 資料は当日までに，録画は後日，それぞれ（発表者にご了承いただける範囲で）掲載します．
 
-<!-- **[進行説明スライドはこちら](...)** -->
+**[進行説明スライドはこちら](part3_main.pdf)**
 
 - Slackスタートアップガイド
 - 事例紹介
