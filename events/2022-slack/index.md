@@ -55,15 +55,15 @@ title: 2022年8月・9月 UTokyo Slack説明会
 
 資料は当日までに，録画は後日，それぞれ（発表者にご了承いただける範囲で）掲載します．
 
-**[進行説明スライドはこちら](part3_main.pdf)**
+**[進行説明スライドはこちら](part3_main.pdf) [ビデオ](https://youtu.be/hrL2lR2o9W0)**
 
-- Slackスタートアップガイド<br>[資料](part3_guide.pdf)
+- Slackスタートアップガイド<br>[資料](part3_guide.pdf) [ビデオ](https://youtu.be/io9t2WKAUkY)
 - 事例紹介
-    - 齊藤 宣一 教授（数理科学研究科）<br>「計算数理演習」（理学部、教養学部3年）におけるSlackの活用とWINGS-FMSPポスター発表におけるSlackの活用<br>[資料](part3_saito.pdf)
-    - 松井 勇佑 講師（情報理工学系研究科）・齋藤 大輔 准教授（工学系研究科）<br>電気系におけるSlackの活用<br>[資料](part3_eeic.pdf)
-    - 岡本 絵莉 係長（本部国際交流課学生派遣チーム）<br>ワークスペース全学交換留学(USTEP)派遣学生2022-23の活用について<br>[資料](part3_ustep.pdf)
-    - 舘 知宏 教授（総合文化研究科）<br>Slack活用事例 「図形科学A」・文理融合ゼミナール「個と群」
-    - 鈴木 亘 特任助教（大学総合教育研究センター）<br>「オンライン教育支援サポーター」運営におけるSlack利用<br>[資料](part3_oes.pdf)
+    - 齊藤 宣一 教授（数理科学研究科）<br>「計算数理演習」（理学部、教養学部3年）におけるSlackの活用とWINGS-FMSPポスター発表におけるSlackの活用<br>[資料](part3_saito.pdf) [ビデオ](https://youtu.be/W9HKd7bRRig)
+    - 松井 勇佑 講師（情報理工学系研究科）・齋藤 大輔 准教授（工学系研究科）<br>電気系におけるSlackの活用<br>[資料](part3_eeic.pdf) [ビデオ](https://youtu.be/y0QYR2Tj70s)
+    - 岡本 絵莉 係長（本部国際交流課学生派遣チーム）<br>ワークスペース全学交換留学(USTEP)派遣学生2022-23の活用について<br>[資料](part3_ustep.pdf) [ビデオ](https://youtu.be/3KrI-VPzZC8)
+    - 舘 知宏 教授（総合文化研究科）<br>Slack活用事例 「図形科学A」・文理融合ゼミナール「個と群」[ビデオ](https://youtu.be/AkHMrhvIMY8)
+    - 鈴木 亘 特任助教（大学総合教育研究センター）<br>「オンライン教育支援サポーター」運営におけるSlack利用<br>[資料](part3_oes.pdf) [ビデオ](https://youtu.be/iU2oR5oaexQ)
     {:.gap}
-- ディスカッション<br>[資料](part3_discussion.pdf)
+- ディスカッション<br>[資料](part3_discussion.pdf) [ビデオ](https://youtu.be/Q1Galqc7vME)
 {:.gap}
