@@ -93,7 +93,7 @@ UTokyo WiFiは，各個人が占有して利用する機器でのみ利用可能
 ### Using UTokyo WiFi on Shared Devices
 UTokyo WiFi can only be used by individuals on their own devices, **use on equipment shared by multiple people is prohibited**. Using UTokyo WiFi on a shared device is considered lending of an account, which is prohibited by the Terms of Use, because it allows anyone other than the user who has obtained a UTokyo WiFi account to use the service. However, if the OS user account is set up separately for each individual, and the UTokyo WiFi account can only be used by the person who has obtained it, UTokyo Wifi are able to use.
 
-
+<!--
 ## 利用開始までの手順
 {:#initial-setup}
 
@@ -114,10 +114,33 @@ UTokyo WiFi can only be used by individuals on their own devices, **use on equip
     </li>
   </ol>
 </ul>
+-->
 
+## Steps to start using the service
+{:#initial-setup}
+
+<ul>
+  <li><strong>Step 1: Identify the equipment to be used.</strong></li>
+    Regular laptops, smartphones, and tablets are generally able to connect to UTokyo WiFi. However, other electronic devices and older devices may not be able to connect. Please check for updates to the OS and drivers of your device and update them appropriately before connecting to UTokyo WiFi. For example, devices that do not support WPA2-Enterprise cannot be connected.
+</ul>
+
+<ul>
+  <li><strong>Step 2: Register in the system an e-mail address to receive account information.</strong></li>
+  <ol>
+    <li>
+      To create a UTokyo WiFi account, you must register your e-mail address in advance. Please follow the steps below to register. If you already have a valid email address on file, you may proceed to step 3.
+      <ul>
+        <li>For students: Log in to <a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">UTAS</a> and set "E-MAIL 1" in the "Student Information" menu (note that the "E-MAIL 2" address cannot be used as the UTokyo WiFi e-mail address).</li>
+        <li>For faculty and staff: Log in to <a href="https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx">人事情報MyWeb</a>and set your "Campus Email Address" field in the "Personal Menue".</li>
+      </ul>
+    </li>
+  </ol>
+</ul>
+<!--人事情報MYwebは英語でなんと呼ぶ?-->
 
 {% include procedures/utokyo_wifi.html %}
 
+<!--
 ## 利用に関する情報
 ### アカウントの有効期限
 {:#expiration}
@@ -128,10 +151,23 @@ UTokyo WiFiのアカウントは，Sセメスター分は10月末，Aセメス�
     - 情報セキュリティ教育を受講しておらず利用資格が停止されている場合は，アカウントを発行し直すことはできません．詳細は上の「[情報セキュリティ教育](#jouhou-security)」の項を参照してください．
 - アカウントを発行し直したら，新しいアカウントのユーザーID・パスワードを利用している機器に入力し，接続してください．
     - 以前のUTokyo WiFiアカウントの情報を機器が記憶してしまっており，情報を変更できない（新たなユーザーID・パスワードを入力するための画面が出ない）場合，一度Wi-Fiのアカウント情報を削除してください．具体的な削除方法はOSや機器の種類によって異なりますので，それぞれの機器のマニュアルを参照してください．なお，Windowsについては[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/)，iOSについては公式ヘルプ「[iPhone、iPad、iPod touch、Mac で Wi-Fi ネットワークの設定を削除する方法](https://support.apple.com/ja-jp/HT208941)」もそれぞれ参考にしてください．
+-->
 
-### 接続の詳細な設定
+## Information on usage
+### Account expiration date
+{:#expiration}
+
+UTokyo WiFi accounts expire at the end of October for the Spring semester and at the end of April for the Autumn semester. New accounts can be issued before the start of each semester, so if you want to continue using UTokyo WiFi, you need to reissue an account each semester.
+
+- The procedure for reissuing an account is the same as steps 3 and 4 above.
+    - If you have not taken the information security training course and your account has been suspended, you will not be able to reissue an account. For details, please refer to the "[Information Security Education](#jouhou-security)" section above.
+- Once the account has been reissued, enter the user ID and password for the new account into the device you are using and connect to it.
+    - If the device remembers your previous UTokyo WiFi account information and you are not able to change it (i.e., screen to enter a new user ID and password does not apear), please delete your Wi-Fi account information. The specific method of removal varies depending on the OS and device type, so please refer to the manual of the respective device. For Windows, please refer to [ECCS Consultant's Page](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/)(Japanese only)，and for iOS, please refer to the official help "[How to forget a Wi-Fi network on your iPhone, iPad, iPod touch, or Mac](hhttps://support.apple.com/en-us/HT208941)". 
+
+
+### Connect Configuration
 {:#connect-configuration}
-
+<!--この箇所については，実際の表記に合わせた方が良いと思うのですが，具体的な表記名がわからなかったので，日本語のままにしています．-->
 <table>
   <tr>
     <th>SSID</th> <td><code>UTokyo-WiFi</code></td> 
