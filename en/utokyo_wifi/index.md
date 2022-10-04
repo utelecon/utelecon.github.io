@@ -6,34 +6,23 @@ slug: utokyo_wifi
 <!--
 全体的なコメント
 情報セキュリティ教育について，https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html のページのタイトルではInformation Security Educationとなっている一方で，文中ではInformation Security Trainingとも表記されています．
+
+Japanese onlyのサイトを貼ることの可否
 -->
 ## Overview
-
-<!--
-UTokyo WiFiとは，東京大学の構成員が教育・研究を目的として利用できるWi-Fiサービスです．現在，本郷・駒場・柏などのキャンパスのほとんどの教室で利用が可能になっています．UTokyo WiFiを利用する人に向けて[利用上の注意](#caution-to-use)が策定されていますので，適宜参照してください．
--->
 
 UTokyo WiFi is a Wi-Fi service available to members of the University of Tokyo for educational and research purposes. Currently, UTokyo WiFi is available in most classrooms on the Hongo, Komaba, Kashiwa, and other campuses. Please refer to the [Caution](#caution-to-use) before using UTokyo WiFi.
 
 <!--適宜参照してください，をbefore usingとしたが，適切か？-->
-<!--
-UTokyo WiFiは一時的に特定の場所，または学内全域でトラブルが発生して利用に支障が出ることがありますが，ご理解ください．また，そのような場合であっても以下の無線LANサービスが利用できることがあるので，代替措置としてご検討ください．
--->
+
 Please note that UTokyo WiFi may be temporarily unavailable in certain locations or throughout the campus due to trouble. Even in such cases, following wireless LAN services may be available, so please consider them as alternatives
 
-<!--
-東京大学には，UTokyo WiFiの他にも学内で共通に利用できる無線LANサービスがあります．東京大学構成員および来学者は[東京大学での無線LAN利用](https://www.u-tokyo.ac.jp/adm/dics/ja/wlan.html)のページを参照し，適切に利用してください．
--->
 In addition to UTokyo WiFi, the University of Tokyo has other wireless LAN services that are commonly available on campus. All members and visitors to the University of Tokyo are requested to refer to the [WiFi services in UTokyo](https://www.u-tokyo.ac.jp/adm/dics/ja/wlan.html) page and use the service appropriately.
 
 ## Before using
 
 ### Who can use UTokyo Wifi
-<!--
-- UTokyo WiFiを利用できるのは，[UTokyo Account](/utokyo_account/)を持つ東京大学の構成員（教職員・学生）です．
-    - 情報セキュリティ教育を受講していない場合，構成員であっても利用が停止されることがあります．詳細は下の「[情報セキュリティ教育](#jouhou-security)」の項を参照してください．
-- UTokyo AccountでそのままUTokyo WiFiが利用できるわけではなく，別途学期ごとにアカウントを発行する必要があります．
--->
+
 - UTokyo WiFi is available to members of the University of Tokyo (faculty, staff and students) who have a [UTokyo Account](/utokyo_account/).
   - If you have not completed the information security education course, your access may be suspended even if you are a member of the University of Tokyo. Please refer to the "[Information Security Education](#jouhou-security)" section below for more details.
 - In order to use UTokyo Wifi, a separate account in addition to your UTokyo Account is required for each semester.
@@ -41,16 +30,6 @@ In addition to UTokyo WiFi, the University of Tokyo has other wireless LAN servi
 
 ### Caution
 {:#caution-to-use}
-<!--
-1. UTokyo WiFiは大学の教育・研究活動および国立大学法人法が定める業務にのみ利用できます．
-2. UTokyo WiFiは，「[東京大学無線ネットワークシステム（UTokyo WiFi）利用規程](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)」に合意し，申請した者が利用できます．
-3. UTokyo WiFiは申請者本人のみが利用できます．アカウントは第三者に貸与してはいけません．他人に盗用されないよう管理してください．
-4. UTokyo WiFiは情報セキュリティ確保を目的とした通信監視，不適切と判断するサイトへのアクセス制限を行います．
-5. UTokyo WiFiは「[東京大学無線ネットワークシステム（UTokyo WiFi）利用規程](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)」が定める禁止行為を行った場合（本学の指定する情報セキュリティ教育を受講しない等）は，アカウントを停止します．
-6. UTokyo WiFiを利用していてセキュリティインシデントに関する連絡を受け取った場合は速やかに対応してください．
-7. UTokyo WiFiは自身のデバイスを自身で設定できる方が利用できるサービスとして提供しています．
-8. UTokyo WiFiの利用状況を個人が特定されないよう統計的に処理し，本学運営のために公開することがあります．
--->
 1. UTokyo WiFi is available only for the University's education and research, as well as for the business activities stipulated by the National University Corporation Act.
 2. UTokyo WiFi is available to those who have agreed to the "[Terms of Use for the University of Tokyo Wireless Network System (UTokyo WiFi)](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)" and have applied to use the service.
 3. Only the applicant may use UTokyo WiFi. The account must not be lent to others. Please manage your account not to be abused.
@@ -63,18 +42,6 @@ In addition to UTokyo WiFi, the University of Tokyo has other wireless LAN servi
 ### Information Security Education
 {:#jouhou-security}
 
-<!--
-東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，その年度の11月1日から3月31日までUTokyo WiFiの利用資格が停止され，アカウントメニューにサインインできなくなります．**
-<details>
-	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
-	この場合，UTokyo WiFiの利用資格は停止されず，着任・入学時からUTokyo WiFiを利用可能です．情報セキュリティ教育のページにある「情報セキュリティ教育 教材」をよくお読みの上，UTokyo WiFiをご利用ください．なお，情報セキュリティ教育は毎年度実施されますので，来年度以降はご受講ください．
-</details>
-<details>
-	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
-	当該年度のUTokyo WiFiの利用資格が停止されますので，基本的に年度末までUTokyo WiFiを利用することはできません．未受講者への対応に関しては， <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>は@に変更）まで，UTokyo Accountのユーザー名（10桁の共通ID）を添えてお問い合わせください．
-</details>
--->
-
 The University of Tokyo conducts annual [Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for all UTokyo Account holders. Students will be notified when the training begins (May for students, July for faculty and staff), so please be sure to take the training. **Failure to complete the training will result in suspension of your UTokyo WiFi privileges from November 1 to March 31 of the current academic year, and you will not be able to sign in to your account menu.**
 <details>
 	<summary>If the period of information security training has ended at the time of arrival and enrollment</summary>
@@ -85,36 +52,8 @@ The University of Tokyo conducts annual [Information Security Education](https:/
 	<summary>The UTokyo WiFi service will be suspended for the current year, so basically you will not be able to use the UTokyo WiFi service until the end of the fiscal year. For more information on how to deal with people who have not yet taken the course, please contact <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>transfer to @）with your UTokyo Account username (10-digit common ID).
 </details>
 
-<!--
-### 共用機器での利用について
-UTokyo WiFiは，各個人が占有して利用する機器でのみ利用可能で，**複数人が共用する機器での利用は禁止です**．共用機器での利用は，UTokyo WiFiアカウントを取得した本人以外に利用させることになり，利用規程で禁止されているアカウントの貸与にあたるためです．なお，OSのユーザーアカウントが個人別に設定されていて，UTokyo WiFiアカウントが取得した本人以外に利用できない，という状況であれば問題ありません．
--->
-
 ### Using UTokyo WiFi on Shared Devices
 UTokyo WiFi can only be used by individuals on their own devices, **use on equipment shared by multiple people is prohibited**. Using UTokyo WiFi on a shared device is considered lending of an account, which is prohibited by the Terms of Use, because it allows anyone other than the user who has obtained a UTokyo WiFi account to use the service. However, if the OS user account is set up separately for each individual, and the UTokyo WiFi account can only be used by the person who has obtained it, UTokyo Wifi are able to use.
-
-<!--
-## 利用開始までの手順
-{:#initial-setup}
-
-<ul>
-  <li><strong>手順1：利用する機器を確認する</strong></li>
-    通常のノートパソコンやスマートフォン，タブレットでは基本的にUTokyo WiFiの利用が可能ですが，これ以外の電子機器や古い機器では接続ができないことがあります．接続にあたっては，その機器のOSやドライバのアップデートを確認し，適切に更新して利用するようにしてください．例えば，WPA2-Enterprise方式に対応していない機器は接続できません．
-</ul>
-
-<ul>
-  <li><strong>手順2：アカウント情報を受け取るメールアドレスをシステムに登録する</strong></li>
-  <ol>
-    <li>
-      UTokyo WiFiアカウントの発行にはあらかじめメールアドレスの登録が必要です．以下の手順に従って登録を行ってください．使用できるメールアドレスが既に登録されている場合は，そのままにして手順3に進んでかまいません．
-      <ul>
-        <li>学生の場合：<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">UTAS</a>にログインし，「学生情報」メニューにある「現住所等変更入力」で「E-MAIL 1」を設定してください（なお，「E-MAIL 2」のアドレスはUTokyo WiFiのメール送信先としては使えません）．</li>
-        <li>教職員の場合：<a href="https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx">人事情報MyWeb</a>にログインし，「パーソナルメニュー」から「学内メールアドレス」の欄を設定してください．</li>
-      </ul>
-    </li>
-  </ol>
-</ul>
--->
 
 ## Steps to start using the service
 {:#initial-setup}
@@ -139,19 +78,6 @@ UTokyo WiFi can only be used by individuals on their own devices, **use on equip
 <!--人事情報MYwebは英語でなんと呼ぶ?-->
 
 {% include procedures/utokyo_wifi.html %}
-
-<!--
-## 利用に関する情報
-### アカウントの有効期限
-{:#expiration}
-
-UTokyo WiFiのアカウントは，Sセメスター分は10月末，Aセメスター分は4月末が有効期限となっています．各学期の開始前に新たなアカウントが発行できるようになるので，引き続き利用する場合は，学期ごとにアカウントを発行し直してください．
-
-- アカウントを発行し直す手順は，上の手順3・手順4と同様です．
-    - 情報セキュリティ教育を受講しておらず利用資格が停止されている場合は，アカウントを発行し直すことはできません．詳細は上の「[情報セキュリティ教育](#jouhou-security)」の項を参照してください．
-- アカウントを発行し直したら，新しいアカウントのユーザーID・パスワードを利用している機器に入力し，接続してください．
-    - 以前のUTokyo WiFiアカウントの情報を機器が記憶してしまっており，情報を変更できない（新たなユーザーID・パスワードを入力するための画面が出ない）場合，一度Wi-Fiのアカウント情報を削除してください．具体的な削除方法はOSや機器の種類によって異なりますので，それぞれの機器のマニュアルを参照してください．なお，Windowsについては[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/)，iOSについては公式ヘルプ「[iPhone、iPad、iPod touch、Mac で Wi-Fi ネットワークの設定を削除する方法](https://support.apple.com/ja-jp/HT208941)」もそれぞれ参考にしてください．
--->
 
 ## Information on usage
 ### Account expiration date
@@ -198,34 +124,34 @@ UTokyo WiFi accounts expire at the end of October for the Spring semester and at
   </tr>
 </table>
 
-### セキュリティ対策
 
-UTokyo WiFiを含む本学のネットワークでは，全学セキュリティファイアウォール等による情報セキュリティ確保が図られています．
+### Security measure
+
+UTokyo's network, including UTokyo WiFi, is secured by a university-wide security firewall and other measures to ensure information security.
 <!--    - 全学セキュリティファイアウォールについては[ファイアウォールによる通信の遮断等についてのページ（学内のみ）](http://ngfw.cert.u-tokyo.ac.jp/firewall.html)を参照してください．-->
-- セキュリティ上問題があると考えられる通信は，全学セキュリティファイアウォールによってブロックされるため，UTokyo WiFiでは閲覧できないウェブサイトが存在します．
-- セキュリティ上問題があると考えられる通信が検出された場合，[UTokyo-CERT](https://cert.u-tokyo.ac.jp/index.html)（東京大学情報システム緊急対応チーム）が利用者に対してメールで連絡することがあります．
-    - メールの発信元は`utokyo-wifi-cert.adm_at_gs.mail.u-tokyo.ac.jp`または`utokyo-wifi-tf_at_itc.u-tokyo.ac.jp` （`_at_`は@に読み替えてください）です．
-    - 連絡への応答がない場合はアカウントが停止される場合があります．停止されたアカウントを復旧させるには，所属部局のCERTと相談の上で妥当な再発防止策を講じる必要があります．
+- Some websites cannot be viewed over UTokyo WiFi because they are blocked by the university-wide security firewall.
+- [UTokyo-CERT](https://cert.u-tokyo.ac.jp/index.html) may contact the user by e-mail if a communication is detected that may cause a security problem.
+    - Their e-mail addresses are `utokyo-wifi-cert.adm_at_gs.mail.u-tokyo.ac.jp` or `utokyo-wifi-tf_at_itc.u-tokyo.ac.jp` （please read `_at_` as @)．
+    - Failure to respond to communications may result in account suspension. In order to reinstate a suspended account, you must consult with your department's CERT and take reasonable steps to prevent recurrence.
 
-## その他
+## Others
 
-- UTokyo WiFiのアカウントあたりの接続機器の数には上限はありません．
-- UTokyo WiFiのアカウントを直接削除することはできません．ただし，再度「UTokyo WiFiアカウントメニュー」の「新規申請」ボタンを押してアカウントを発行し直すことで，既存のアカウントは無効になります．
-- 部局のネットワーク担当者の方は，[UTokyo Portalの情報](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx)も参照してください．
+- There is no limit to the number of devices that can be connected per UTokyo WiFi account.
+- UYou cannot delete your UTokyo WiFi account directly. However, you can re-issue a new account by clicking the "New Application" button in the "UTokyo WiFi Account Menu", and your existing account will become invalid.
+- If you are in charge of a departmental network, please also refer to [Information on UTokyo Portal](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx). 
 
-## トラブルシューティングと問い合わせ
+## Troubleshooting and Inquiries
 
-利用にあたって問題が発生した場合は，まずは自身で以下の点をもう一度確認してみてください．
+If you encounter any problems in using the system, please check the following points first.
+- If you are having problems connecting for the first time, carefully re-read the "[How to Start Using](#initial-setup)" section of this page. Also, please refer to the [ECCS Tutor's Page](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/)(Japanese only), which contains detailed connection instructions for each device, as necessary.
+- If you encounter problems on the second or subsequent connections, please refer to "[Account expiration date](#expiration)" on this page.
+- Please consult with your friends, colleagues, and others around you who are available.
 
-- はじめて接続する際に問題が発生している場合は，本ページの「[利用開始までの手順](#initial-setup)」を丁寧に読みなおしてください．また，機器ごとの詳細な接続方法が掲載されている[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/)も，必要に応じて参照してください．
-- 2回目以降の接続で問題が発生した場合は，本ページの「[アカウントの有効期限](#expiration)」を参照してください．
-- ご友人や同僚など，利用ができている周りの方にも相談してみてください．
+If you still have trouble, please contact **[support](/support)**. Please understand the following points when making inquiries.
+- We receive many inquiries. In most cases, it is difficult to respond immediately.
+- We cannot always provide support for a specific model because it is impractical to have and test all types of equipment. Please consider contacting the distributor or manufacturer.
 
-それでもうまくいかなければ，**[サポート窓口](/support)**へお問い合わせください．なお，問い合わせにあたっては，以下の点をご理解ください．
+[ECCS Tutors](https://www.sodan.ecc.u-tokyo.ac.jp/en/), the student staff, are located at several locations on campus and are available for face-to-face, in-person consultation.
 
-- 大変多くの問い合わせが寄せられています．大半の場合，即時の回答は困難です．
-- 特定の機種に即したサポートは必ずしも提供できません．あらゆる機種の機器を保有してテストすることが現実的に困難なためです．販売店やメーカーなどに問い合わせることも検討してください．
-
-また，[学生スタッフのECCS相談員がキャンパス内の複数の場所に配置されており](https://www.sodan.ecc.u-tokyo.ac.jp/about-us/tutors-working/)，対面で直接相談することもできます．
-
+<!--eccs相談員について，日本語版とは異なるURLを貼りました．-->
 
