@@ -204,12 +204,11 @@ ECCSクラウドメールの詳細な使い方は以下の記事をご覧くだ�
 
 [ECCSクラウドメール (Google Workspace)](/eccs_cloud_email)
 
-
 #### OneDrive
 
 Microsoftが提供するストレージサービスです．Microsoft Officeで作成したファイルを保存するのにおすすめです．
 
-[Google Workspace](#google-workspace)上で作成したファイルをそのまま保存するには一度ダウンロードする必要があります．また、書式やデザインが崩れることがあります．
+[Google Workspace](#google-workspace)上で作成したファイルをそのまま保存するには一度ダウンロードする必要があります．また，書式やデザインが崩れることがあります．
 
 
 ## 日程を調整する
@@ -307,7 +306,7 @@ GoogleアカウントでSpirに登録することで，Googleカレンダーと�
 <figure>
 <img src="image13.png" height="70px">
 </figure>
-Googleが提供するWeb会議システムです．アプリが必要なく，ブラウザ上ですべてを完結することができます.．
+Googleが提供するWeb会議システムです．アプリが必要なく，ブラウザ上ですべてを完結することができます．
 
 詳しい使い方については[こちら](/meet/)をご覧ください．
 
