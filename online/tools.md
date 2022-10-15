@@ -121,6 +121,12 @@ Google グループ（Google Groups）はGoogleの無料サービスの1つで�
 
 - **[Google グループの使用方法](/articles/google-groups/)**: Googleグループの基本的な使い方を説明しています．
 
+#### Google Apps Script
+Google Apps Script（GAS）はGoogleが提供するプラットフォームで，元々Googleのアプリケーションにおいてメニューやボタンを操作して使用できる機能だけではできない高度な操作を，プログラミング技術を使って実現することができます．たとえば各種Googleサービス（Googleドキュメント，Googleスライド，Googleスプレッドシートなど）の機能の拡張，外部の他のサービスとの連携，操作の自動化などができます．
+
+- **[GAS（Google Apps Script）を使ってみましょう](/articles/gas/)**: GASがどういったものか，その機能や，簡単に始められる方法を紹介しています．
+- **[GASを使ってGoogleドライブでファイルとフォルダを複製する方法](/articles/gas/copy)**: Googleドライブのファイルやフォルダの複製作業を，GASを用いて実現する方法を紹介しています．
+
 ### Microsoft 365に含まれるツール
 
 #### Word Online
