@@ -31,6 +31,12 @@ UTokyo Accountでは，利用者が各自で初期設定を行うことにより
 
 <div class="box">ここまでの多要素認証に関する説明をよく読み，内容をご理解の上で設定を行うようお願いします．</div>
 
+{% capture mfa_totp_trouble %}
+<div class="box--alert">
+（2022年10月17日）現在，「別の認証アプリを使用する」リンクが表示されない事象が発生しています．UTokyo Accountの多要素認証が利用しているMicrosoftのシステムの不具合が原因であり，Microsoft社からは今週中を目途に修正の見込みであると連絡を受けています．ご迷惑をおかけしており，申し訳ありません．
+</div>
+{% endcapture %}
+
 ### 手順1：1個目の本人確認方法を登録する
 {:#initial-first.mfa-initial-step-heading}
 
@@ -76,7 +82,7 @@ UTokyo Accountでは，利用者が各自で初期設定を行うことにより
 <details>
 <summary>登録手順</summary>
 <ol>
-<li>画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．<img src="first_auth_app.png"></li>
+<li>画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．{{ mfa_totp_trouble }}<img src="first_auth_app.png"></li>
 <li>画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<img src="first_auth_app_qr.png"></li>
 </ol>
 </details>
@@ -146,7 +152,7 @@ UTokyo Accountでは，利用者が各自で初期設定を行うことにより
 <ol>
 <li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．<img src="alt_add_method.png"></li>
 <li>「どの方法を使用しますか?」欄で「認証アプリ」を選び，「追加」を押してください．<img src="alt_add_method_pull_down.png"></li>
-<li>「別の認証アプリを使用します」というリンクを探して押してください．<img src="alt_auth_app.png"></li>
+<li>「別の認証アプリを使用します」というリンクを探して押してください．{{ mfa_totp_trouble }}<img src="alt_auth_app.png"></li>
 <li>画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<img src="alt_auth_app_qr.png"></li>
 </ol>
 </details>
