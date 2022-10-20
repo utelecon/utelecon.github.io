@@ -1,3 +1,3 @@
 ---
-redirect_to: "/online/topics"
+redirect_to: "/en/online/topics"
 ---
