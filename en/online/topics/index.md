@@ -43,3 +43,4 @@ In order for work to go smoothly, it is also important to promote extracurricula
 - **[How to Start an Online Study Group](/articles/student-communication/)** (in Japanese): This page introduces how students can create their own online study groups, as well as tools useful in doing this.
 - **[Preparing Online Group Presentations](/articles/group-presentation/)** (in Japanese)
 - **[Online Tools Useful for Club Activities](/articles/club-activity/)** (in Japanese): Here we introduce different possible approaches and online tools for holding exchange, particularly for students engaged in club activities.
+<!-- - **[オンラインツールで予定を管理する](/articles/schedule-management/)**：オンラインツールを使った上手な予定管理の方法を紹介しています． -->
