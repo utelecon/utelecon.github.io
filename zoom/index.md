@@ -62,9 +62,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
 - [画面を共有する](usage/screen_sharing/)
 - [チャットをする](usage/chat/)
 - [挙手や絵文字で反応する](usage/reaction/)
-{%- comment -%}
 - [画面のレイアウトを変更する](usage/layout/)
-{%- endcomment %}
 - （主催者向け）[ブレイクアウトルーム機能を使う](usage/breakout/)
 - （主催者向け）[投票をする](usage/poll/)
 - （主催者向け）[レコーディングをする](usage/recording/)
