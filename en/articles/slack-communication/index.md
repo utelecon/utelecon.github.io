@@ -2,6 +2,8 @@
 title: How to Communicate With Students on Slack
 ---
 
+{% include en/articles/slack_notice.html %}
+
 ## Highlights of This Article
 
 This article introduces how to use Slack to communicate with students and more.
