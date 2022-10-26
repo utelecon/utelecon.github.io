@@ -67,9 +67,7 @@ title: UTokyo Slackへの既存ワークスペースの編入（移行）
 {:#members}
 
 - 編入（移行）後も利用するメンバー全員が，**メールアドレスを変更し，10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号 `@utac.u-tokyo.ac.jp` を付けたもの（例： `0123456789@utac.u-tokyo.ac.jp` ）にしてください**．
-    - Slackのヘルプ「[メールアドレスを変更する](https://slack.com/intl/ja-jp/help/articles/207262907)」に従って，メンバー各自で変更作業を行ってください．
-        <small style="display: block;">※メールアドレス変更の確認メールが <code>0123456789@<em>utac</em>.u-tokyo.ac.jp</code> 宛に送られますが，このメールアドレス宛のメールは転送されてECCSクラウドメール <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> に届くようになっているため，ECCSクラウドメールにログインして受け取ってください．</small>
-        {% include 20220907_utac_email.html %}
+    - Slackのヘルプ「[メールアドレスを変更する](https://slack.com/intl/ja-jp/help/articles/207262907)」に従って，メンバー各自で変更作業を行ってください．<small style="display: block;">※メールアドレス変更の確認メールが <code>0123456789@<em>utac</em>.u-tokyo.ac.jp</code> 宛に送られますが，このメールアドレス宛のメールは転送されてECCSクラウドメール <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> に届くようになっているため，ECCSクラウドメールにログインして受け取ってください．</small>
     - 個別の有償契約がある場合は，ワークスペースのオーナー・管理者が他のメンバーのメールアドレスを強制的に変更することができます．詳細はSlackのヘルプ「[メンバーのメールアドレスを変更する](https://slack.com/intl/ja-jp/help/articles/225531168)」を参照してください．
 - UTokyo SlackはUTokyo Account以外のアカウントでは利用できないため，**UTokyo Accountをお持ちではない方のアカウントは「解除」してください**．また，連絡がつかないなどの事情でメールアドレスを `0123456789@utac.u-tokyo.ac.jp` のような形式に変更できない方がいる場合も，編入（移行）後のUTokyo Accountでのサインインができなくなってしまうため，同様にあらかじめ「解除」してください．
     - アカウントを「解除」する手順は，Slackのヘルプ「[メンバーのアカウントの解除](https://slack.com/intl/ja-jp/help/articles/204475027)」や「[自分の Slack アカウントを解除する](https://slack.com/intl/ja-jp/help/articles/203953146)」を参照してください．

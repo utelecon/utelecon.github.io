@@ -18,9 +18,7 @@ title: UTokyo Slackに特定のワークスペースから招待を受けて参�
 
 ### 手順
 
-1. ワークスペースの担当者によって招待が行われると，[ECCSクラウドメール](/eccs_cloud_email)に招待メールが届くので，そのメールを開いてください．
-    <small style="display: block;">※ワークスペースの担当者には，招待を行うメールアドレスとして，10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号 <code>@utac.u-tokyo.ac.jp</code> を付けたもの（例： <code>0123456789@utac.u-tokyo.ac.jp</code> ）を入力するよう案内しています．このメールアドレス宛のメールは転送されてECCSクラウドメール <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> に届くようになっているため，招待メールはECCSクラウドメールにログインして受け取ってください．</small>
-    {% include 20220907_utac_email.html %}
+1. ワークスペースの担当者によって招待が行われると，[ECCSクラウドメール](/eccs_cloud_email)に招待メールが届くので，そのメールを開いてください．<small style="display: block;">※ワークスペースの担当者には，招待を行うメールアドレスとして，10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号 <code>@utac.u-tokyo.ac.jp</code> を付けたもの（例： <code>0123456789@utac.u-tokyo.ac.jp</code> ）を入力するよう案内しています．このメールアドレス宛のメールは転送されてECCSクラウドメール <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> に届くようになっているため，招待メールはECCSクラウドメールにログインして受け取ってください．</small>
 1. メール内にある「UTokyo Accountでサインイン」ボタンをクリックしてください．
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
     <details>
