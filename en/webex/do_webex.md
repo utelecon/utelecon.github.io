@@ -93,7 +93,7 @@ Click “Settings” to select and test the different options.
 
 ![alt](img/webex_config_virtual_background_setting.png){:width="600px"}
 
-+ **Virtual background**: Select the virtual background you want to use. **Note that virtual backgrounds may not work with low-performance devices.**
++ **Virtual background**: Select the virtual background you want to use. **Note that virtual backgrounds may not work with some devices.**
 
 ## Participants
 
