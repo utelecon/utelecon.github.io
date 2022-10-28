@@ -64,6 +64,8 @@ Sharing your whiteboard will enable annotations for both you and the participant
 
 ## Advanced Settings for Speakers, Microphones, and Cameras
 
+Click the arrow signs to the right of the “Mute” and “Camera” buttons to choose the speaker, microphone, and camera you want to use for Webex.
+
 <figure>
 <div style="display: flex; gap: 5px; flex-wrap: wrap; align-items: flex-end;">
 <img src="img/webex_config_sound.png" width="350px">
@@ -71,16 +73,27 @@ Sharing your whiteboard will enable annotations for both you and the participant
 </div>
 </figure>
 
-Click the arrow signs to the right of the “Mute” and “Camera” buttons to choose the speaker, microphone, and camera you want to use for Webex.
+Click “Settings” to select and test the different options.
+
+### Advanced Settings for Speakers and Microphones
 
 ![alt](img/webex_config_sound_setting.png){:width="600px"}
-![alt](img/webex_config_camera_setting.png){:width="600px"}
-
-Click “Settings” to select and test the different options.
+(Due to image compositing, this screenshot is larger than the actual screen.)
 
 + **Speaker**: Select the speaker you want to use. (If you have any additional speakers connected to your device, you need to choose from among several options.) Click “**test**” to hear a confirmation sound.
 + **Microphone**: Select the microphone you want to use. (If you have any additional microphones attached to your device, you need to choose from among several options.) If the microphone is picking up sound correctly, you will see movement on the meter below. Click “**test**” to have the microphone take a short recording and playback the audio to you so you can check that it is working correctly. If necessary, check “**Automatically adjust volume.**” Generally speaking, it is recommended that you enable “**Noise removal**,” but if someone else is talking nearby, choosing “**Optimize for my voice**” may help to filter out their voice. Selecting “**Music mode**” will disable the noise reduction feature, which means that the microphone will pick up background music and noise.
-+ **Camera**: Select the camera you want to use. (If you have any additional cameras attached to your device, you need to choose from among several options.) A preview of the camera will be displayed immediately below, so you can check the video feed. You may also set up a virtual background. **However, note that virtual backgrounds may not work with low-performance devices.**
+
+### Advanced Settings for Cameras
+
+![alt](img/webex_config_camera_setting.png){:width="600px"}
+
++ **Camera**: Select the camera you want to use. (If you have any additional cameras attached to your device, you need to choose from among several options.) A preview of the camera will be displayed immediately below, so you can check the video feed.
+
+### Settings for Virtual background
+
+![alt](img/webex_config_virtual_background_setting.png){:width="600px"}
+
++ **Virtual background**: Select the virtual background you want to use. **Note that virtual backgrounds may not work with some devices.**
 
 ## Participants
 

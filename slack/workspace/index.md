@@ -81,7 +81,6 @@ Slackでは，コミュニケーションを行おうとする関係者は「ワ
 1. 「招待の種類」は「メンバー」を選んでください．<small style="display: block;">※「ゲスト」という選択肢も表示されますが，UTokyo Slackでは「ゲスト」機能を無効化しているため，利用できません．詳細は<a href="../details#guest">「UTokyo Slackの詳細な仕様や設定について」ページの該当箇所</a>を参照してください．</small>
 1. 招待した相手に招待メッセージが送られます．メッセージを受け取った後の手順については，「[UTokyo Slackに特定のワークスペースから招待を受けて参加する](/slack/invited)」のページを参照してください（相手にこのページのURLを伝えておくとスムーズでしょう）．
     <small style="display: block;">※招待メッセージはメールかSlack上のメッセージのどちらかで送られます．なお，メールの場合，宛先はメールアドレスとして入力した <code>0123456789@<em>utac</em>.u-tokyo.ac.jp</code> になりますが，このメールアドレス宛のメールは転送されてECCSクラウドメール <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> に届くようになっているため，ECCSクラウドメールにログインして受け取ってください．</small>
-    {% include 20220907_utac_email.html %}
 
 ### 管理・運用に関する権限などについて
 {:#privileges}
