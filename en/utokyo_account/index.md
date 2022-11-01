@@ -4,7 +4,7 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 ---
 
 ## What is UTokyo Account?
-- ** UTokyo Account is a university-wide account that is required to use the ICT systems of the University of Tokyo. Students, faculty and staff of the University of Tokyo are required to sign in with this account to use various ICT systems.
+- **UTokyo Account** is a university-wide account that is required to use the ICT systems of the University of Tokyo. Students, faculty and staff of the University of Tokyo are required to sign in with this account to use various ICT systems.
   - Even if you do not currently have an account,  a UTokyo Account can be issued if necessary. If you wish to obtain an account, please contact the relevant office of your department (students should contact the academic office, and faculty and staff members should contact the personnel department).
 - The username of UTokyo Account is represented by a 10-digit number and is also called the “Common ID”. In the ICT systems, a 10-digit Common ID followed by "@utac.u-tokyo.ac.jp", which indicates that you are a member of the University of Tokyo, is sometimes used, such as "1234567890@utac.u-tokyo.ac.jp".
   - The "10-digit Common ID + @utac.u-tokyo.ac.jp" is not an email address that can be used normally.
