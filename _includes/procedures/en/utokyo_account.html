@@ -7,7 +7,9 @@
 
 {% capture change_initial_password %}
 <ul>
+{% case page.slug %}{% when "oc" %}
 <li><a href="https://youtu.be/tTpAlqVhEXQ">Procedure video</a></li>
+{% endcase %}
 </ul>
 <ol>
 <li>Obtain the "Notification regarding password for the UTokyo Account", which will include your initial password from your faculty/graduate school. {%
@@ -19,8 +21,8 @@
     when "utokyo_account"
       %}
         <ul>
-          <li><strong>Students</strong> : You should receive this notification well before classes start. If not, please contact your college/faculty/graduate school. (*The notification will be provided to new first year undergraduate students in the <a href="https://utas-ew.adm.u-tokyo.ac.jp/campusew/?logintype=p">Information Registration System for Successful Applicants</a>).</li>
-          <li><strong>Faculty and staff members</strong> : Faculty members who require it for classes should receive the notification. If not, please contact your department's office.</li>
+          <li><strong>Students</strong>: You should receive this notification well before classes start. If not, please contact your college/faculty/graduate school. (*The notification will be provided to new first year undergraduate students in the <a href="https://utas-ew.adm.u-tokyo.ac.jp/campusew/?logintype=p">Information Registration System for Successful Applicants</a>).</li>
+          <li><strong>Faculty and staff members</strong>: Faculty members who require it for classes should receive the notification. If not, please contact your department's office.</li>
         </ul>
       {%
     else
@@ -31,7 +33,7 @@
 <li>Click "Password Change" on the upper left to change your password (you cannot use the services with your initial password). When choosing a new password, make sure that you use a password that sets the strength indicator to "strong" or "very-strong".</li>
 </ol>
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/supports/">Technical Support Desk</a>.</li>
+<li>If this procedure does not work, please consult the <a href="/en/support/">Technical Support Desk</a>.</li>
 </ul>
 {% endcapture %}
 
@@ -45,10 +47,10 @@
   <li>Multi-factor authentication (MFA) is a security process in which users prove their identity using at least two pieces of evidence. In addition to passwords, users are asked to verify their identity via SMS, authentication applications, or other methods when signing into their accounts.  MFA setup is not mandatory at this time, but it is recommended from a better security aspect for your UTokyo Account.</li>
 </ul>
 <ol>
-  <li>Please follow the setup procedures in the "<a href="/utokyo_account/mfa/">Using Multi-Factor Authentication for UTokyo Accounts</a>" page.</li>
+  <li>Please follow the setup procedures in the "<a href="mfa/">Using Multi-Factor Authentication for UTokyo Accounts</a>" page.</li>
 </ol>
 <ul>
-  <li>If this procedure does not work, please consult the <a href="/en/supports">Technical Support Desk</a>.</li>
+  <li>If this procedure does not work, please consult the <a href="/en/support">Technical Support Desk</a>.</li>
 </ul>
 </li>
 </ul>
