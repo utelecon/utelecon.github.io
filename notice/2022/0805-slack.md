@@ -41,4 +41,6 @@ UTokyo Slackについて，利用したい方・利用に興味をお持ちの�
 
 以上のほか，UTokyo Slackに関する詳細は，「**[UTokyo Slack（試行）](/slack/)**」のページに案内を掲載し，順次更新していく予定です．  
 
-本件に関する問い合わせは， 情報システム本部 <dics-senryaku.adm@gs.mail.u-tokyo.ac.jp> までお願いします．
+本件に関する問い合わせは， ~~情報システム本部 <dics-senryaku.adm@gs.mail.u-tokyo.ac.jp>~~ [サポート窓口](/support/) までお願いします．
+
+<small>※（2022年10月修正）今後の問い合わせは<a href="/support/">サポート窓口</a>へお願いします．</small>

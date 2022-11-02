@@ -24,7 +24,7 @@ For your easy reference, several filtering options are available for you to look
 * **[Search by Tool](tools)**
   * For users who are interested in better use of online tools.
   * For users who have questions such as “I need to use online tool XXX in my online class, but don’t know how to use it.”, “What are the features and functions of online tool XXX?”.
-* **[Search by Purpose](topics)** (in Japanese)
+* **[Search by Purpose](topics/)**
   * For users who want to find tools that best match their purpose and learn how to use them.
   * For users who have questions such as “How can I create a video?”, “How can I handwrite on online boards?”.
 * **[Utilizing Online Resources in Teaching](courses)** (in Japanese)
