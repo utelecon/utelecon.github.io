@@ -5,6 +5,7 @@ kramdown:
   footnote_backlink: ↑
 sass:
   sass_dir: _sass
+url: https://utelecon.adm.u-tokyo.ac.jp
 lang: ja
 title: utelecon
 repository: utelecon/utelecon.github.io
