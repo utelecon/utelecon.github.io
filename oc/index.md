@@ -105,7 +105,10 @@ description: このページでは，東京大学で授業を受ける新入生�
 {% include procedures/utokyo_account.html part="important" %}
 {% include procedures/google.html part="important" %}
 {% include procedures/utas.html part="important" %}
-{% include procedures/utokyo_wifi.html part="important" %}
+    <li>
+        <strong>UTokyo WiFi：アカウントを申請する</strong>
+{% include systems/utokyo_wifi/apply.html part="important" %}
+    </li>
 </ul>
 
 ## 情報システムに関するその他の準備手順
@@ -167,7 +170,18 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 {{ about_utokyo_wifi }}
 
-{% include procedures/utokyo_wifi.html %}
+<ul>
+    <li>
+        <details>
+            <summary>（再掲）<strong>作業：アカウントを申請する</strong></summary>
+{% include systems/utokyo_wifi/apply.html %}
+        </details>
+    </li>
+    <li>
+        <strong>作業：実際に接続する</strong>
+{% include systems/utokyo_wifi/connect.html %}
+    </li>
+</ul>
 
 ### ECCS端末
 {:#eccs}
