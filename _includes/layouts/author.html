@@ -1,10 +1,11 @@
 {% if page.author_affiliation =="oes" %}
 {% capture affiliation %} <a href="/about/oes">オンライン教育支援サポーター</a>{% endcapture %}
 {% endif %}
-
+{% if page.author_name or page.author_affiliation %}
 <hr />
 {% if page.lang == "en" %}
 <div style="text-align:right">Written by:{{ affiliation }} {{ page.author_name }}</div>
 {% else %}
 <div style="text-align:right">執筆:{{ affiliation }} {{ page.author_name }}</div>
+{% endif %}
 {% endif %}
