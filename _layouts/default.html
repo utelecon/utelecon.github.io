@@ -14,10 +14,12 @@
     </div>
   {% endif %}
 
-  {% if page.toc %}
+  {% assign toc = content | toc_only %}
+  {% assign toc_stripped = toc | strip_html | strip %}
+  {% if page.toc and toc_stripped != "" %}
     <section class="main__toc">
       <h2>{% if page.lang == "en" %}Table of Contents{% else %}目次{% endif %}</h2>
-{{ content | toc_only }}
+{{ toc }}
     </section>
   {% endif %}
 
