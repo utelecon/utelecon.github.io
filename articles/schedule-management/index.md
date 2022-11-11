@@ -1,7 +1,8 @@
 ---
 title: オンラインツールで予定を管理する
-author_affiliation: oes
-author_name: H. A.
+author: 
+  affiliation: oes
+  name: H. A.
 ---
 
 ## この記事のハイライト

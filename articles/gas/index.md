@@ -1,7 +1,8 @@
 ---
 title: GAS（Google Apps Script）を使ってみましょう
-author_affiliation: oes
-author_name: OER・著作権グループ
+author:
+  affiliation: oes
+  name: OER・著作権グループ
 ---
 
 ## はじめに

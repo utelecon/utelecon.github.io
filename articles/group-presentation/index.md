@@ -1,7 +1,8 @@
 ---
 title: オンラインでグループプレゼンテーションを準備する
-author_name: S.A.
-author_affiliation: oes
+author:
+  affiliation: oes
+  name: S.A.
 ---
 
 ## この記事のハイライト

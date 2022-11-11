@@ -1,6 +1,7 @@
 ---
 title: オンラインのグループディスカッションで生じやすい問題とその対策案
-author_affiliation: oes
+author:
+  affiliation: oes
 ---
 
 ## オンラインのグループディスカッションにはブレイクアウトが便利

@@ -1,7 +1,8 @@
 ---
 title: GASを使ってGoogleドライブでファイルとフォルダを複製する方法
-author_affiliation: oes
-author_name: OER・著作権グループ
+author:
+  affiliation: oes
+  name: OER・著作権グループ
 ---
 
 
