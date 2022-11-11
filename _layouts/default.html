@@ -14,12 +14,10 @@
     </div>
   {% endif %}
 
-  {% capture toc %}{% include layouts/toc.html html=content %}{% endcapture %}
-  {% assign toc = toc | rstrip %}
-  {% if toc != "" and page.toc != false %}
+  {% if page.toc %}
     <section class="main__toc">
       <h2>{% if page.lang == "en" %}Table of Contents{% else %}目次{% endif %}</h2>
-{{ toc }}
+{{ content | toc_only }}
     </section>
   {% endif %}
 

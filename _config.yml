@@ -18,9 +18,11 @@ defaults:
     values:
       lang: ja
       image: /assets/images/ogp.png
+      toc: true
   -
     scope:
       path: en
     values:
       lang: en
       image: /assets/images/ogp.png
+      toc: true
