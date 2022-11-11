@@ -76,15 +76,13 @@ main {
     color: black;
   }
 
-  .props{
-    margin-top: -1em;
-    margin-bottom: 1em;
-    text-align: right;
-  }
-
   .footnotes {
     padding-top: 0.5em;
     border-top: 2px solid $gray;
+  }
+
+  .author {
+    text-align: right;
   }
 }
 

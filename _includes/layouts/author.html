@@ -1,11 +1,11 @@
-{% if page.author_affiliation =="oes" %}
-{% capture affiliation %} <a href="/about/oes">オンライン教育支援サポーター</a>{% endcapture %}
+{% if page.author.affiliation %}
+{% capture affiliation %} {{ site.data.affiliation[page.author.affiliation] | markdownify | replace: '<p>', '' | replace: '</p>', '' }}{% endcapture %}
 {% endif %}
-{% if page.author_name or page.author_affiliation %}
+{% if page.author.name or page.author.affiliation %}
 <hr />
 {% if page.lang == "en" %}
-<div style="text-align:right">Written by:{{ affiliation }} {{ page.author_name }}</div>
+<div class="author">Written by:{{ affiliation }} {{ page.author.name }}</div>
 {% else %}
-<div style="text-align:right">執筆:{{ affiliation }} {{ page.author_name }}</div>
+<div class="author">執筆:{{ affiliation }} {{ page.author.name }}</div>
 {% endif %}
 {% endif %}
