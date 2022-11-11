@@ -100,7 +100,7 @@ Or, if you are familiar with Github, please fork the utelecon Github, add your m
 
 ## References for Online Classes
 
-* **Data Traffic of Online Lectures** [\[Website\]](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9% 80%9A%E4%BF%A1%E9%87%8F) (in Japanese)
+* **Data Traffic of Online Lectures** [\[Website\]](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F) (in Japanese)
 	* Contributed by Prof. Omukai, Graduate School of Humanities and Sociology
 	* This page provides the data traffic of online lectures categorized by situation, such as during a lecture using screen sharing, while chatting using camera video, during an audio-only lecture, and when participants are allowed to speak.
 
