@@ -1,6 +1,10 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2022-11-16
+  content:
+    ja: "【教職員限定】[ITツール利活用のためのコミュニティの設置およびITツール利活用にかかる説明会(11/24)の開催について](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=3518)"
+-
   date: 2022-11-07
   content:
     ja: "「[東京大学におけるSlack「教育支援プログラム」の申し込み](/slack/discount)」を掲載しました．"
