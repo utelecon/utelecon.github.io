@@ -14,9 +14,9 @@
     </div>
   {% endif %}
 
-  {% capture toc %}{% include layouts/toc.html html=content %}{% endcapture %}
-  {% assign toc = toc | rstrip %}
-  {% if toc != "" and page.toc != false %}
+  {% assign toc = content | toc_only %}
+  {% assign toc_stripped = toc | strip_html | strip %}
+  {% if page.toc and toc_stripped != "" %}
     <section class="main__toc">
       <h2>{% if page.lang == "en" %}Table of Contents{% else %}目次{% endif %}</h2>
 {{ toc }}
