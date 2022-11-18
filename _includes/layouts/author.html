@@ -1,5 +1,5 @@
 {% if page.author.affiliation %}
-{% capture affiliation %} {{ site.data.affiliation[page.author.affiliation] | default: page.author.affiliation }}{% endcapture %}
+{% capture affiliation %} {{ site.data.affiliation[page.author.affiliation][page.lang] | default: page.author.affiliation }}{% endcapture %}
 {% endif %}
 {% if page.author.name or page.author.affiliation %}
 <hr />
