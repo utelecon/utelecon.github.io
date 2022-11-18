@@ -35,13 +35,7 @@
             <div class="header_nav_text">{{ item.name }}</div>
             <ul>
               {% for second in item.contents %}
-                <li><a href="{{ second.url }}"{%
-                  assign url_slice = second.url | slice: 0, 4
-                %}{%
-                  if url_slice == "http"
-                %} target="_blank" rel="noopener"{%
-                  endif
-                %}>{{ second.name }}</a></li>
+                <li><a href="{{ second.url }}">{{ second.name }}</a></li>
               {% endfor %}
             </ul>
           </li>
