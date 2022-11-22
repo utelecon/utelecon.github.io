@@ -6,13 +6,6 @@
   {% if h1 %}
     <h1 class="title">{{ h1 }}</h1>
   {% endif %}
-  
-  {% if page.date or page.author %}
-    <div class="props">
-      {% if page.date %}<div>{{ page.date }}</div>{% endif %}
-      {% if page.author %}<div>{{ page.author }}</div>{% endif %}
-    </div>
-  {% endif %}
 
   {% assign toc = content | toc_only %}
   {% assign toc_stripped = toc | strip_html | strip %}
@@ -28,6 +21,8 @@
 {% else %}
 {{ content }}
 {% endif %}
+
+{% include layouts/author.html %}
 
 </main>
 

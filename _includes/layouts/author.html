@@ -1,0 +1,11 @@
+{% if page.author.affiliation %}
+{% capture affiliation %} {{ site.data.affiliation[page.author.affiliation][page.lang] | default: page.author.affiliation }}{% endcapture %}
+{% endif %}
+{% if page.author.name or page.author.affiliation %}
+<hr />
+{% if page.lang == "en" %}
+<div class="author">Written by:{{ affiliation }} {{ page.author.name }}</div>
+{% else %}
+<div class="author">執筆:{{ affiliation }} {{ page.author.name }}</div>
+{% endif %}
+{% endif %}

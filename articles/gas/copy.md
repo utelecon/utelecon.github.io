@@ -1,5 +1,8 @@
 ---
 title: GASを使ってGoogleドライブでファイルとフォルダを複製する方法
+author:
+  affiliation: oes
+  name: OER・著作権グループ
 ---
 
 
@@ -234,6 +237,3 @@ Googleドライブの中の，オリジナルフォルダが置かれている�
 {% endcomment %}
 
 [オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)
-
----
-<div style="text-align:right">執筆: <a href="/about/oes">オンライン教育支援サポーター</a> OER・著作権グループ</div>
