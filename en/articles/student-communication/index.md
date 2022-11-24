@@ -282,6 +282,6 @@ Discord is a communication tool originally created for gamers. It allows users t
 <img src="image1.png" height="70px">
 </figure>
 
-(Note: This feature is available only if you are using the paid version of Slack.)
+**(Note: This feature is available only if you are using the paid version of Slack.)**
 
 If you use Slack, it is very easy to start a meeting with a single tap. Basic functions necessary for audio and video meetings, such as screen sharing and pointers, are all provided. Note that it can be slow at times.
