@@ -20,7 +20,6 @@
 
 {%- assign description = description | remove_first: '; ' -%}
 
-{%- unless description == '' -%}
 {%- if page.lang == 'en' -%}
   {%- assign description = description | prepend: 'Table of Contents: ' -%}
 {%- else -%}
@@ -29,6 +28,5 @@
 {%- assign description = description | truncate: 100, '...' -%}
 <meta name="description" content="{{ description }}">
 <meta name="og:description" content="{{ description }}">
-{%- endunless -%}
 
 {%- endunless -%}
