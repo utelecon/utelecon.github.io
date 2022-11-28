@@ -43,7 +43,7 @@ title: 動画を作成・共有する
 * YouTube
   * YouTube に動画をアップロードしてダウンロードすると多くの動画が効率的に圧縮されるというお手軽な方法です
   * お手軽ではあるのですが，アップロードが必要であるため，動画が大容量でアップロード自体ができない場合は，VLC Player を用いた圧縮がおすすめです
-  * [動画のアップロード（YouTubeヘルプ）](https://support.google.com/youtube/answer/57407?hl=ja&co=GENIE.Platform=Desktop)
+  * [動画のアップロード（YouTubeヘルプ）](https://support.google.com/youtube/answer/57407?hl=ja)
   * [アップロードした動画をダウンロードする（YouTube ヘルプ）](https://support.google.com/youtube/answer/56100?hl=ja)
 * VLC Player
   * VLC Player の主な機能はメディアの再生ですが，実は動画を圧縮可能です

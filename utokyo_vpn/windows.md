@@ -63,6 +63,8 @@ title: Windows端末でUTokyo VPNを利用する
 
 ![](img/win10-vpn-connected.png){:.medium.center.border}
 
+{% include_relative _help_security_education.html %}
+
 **手順H:** 再度Cisco AnyConnect Secure Mobility Clientをクリックし，現在の状態を確認します．表示されたウィンドウで，下記のように「Connected to vpn1.adm.u-tokyo.ac.jp」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
 
 VPNを切断する際は，このウィンドウの「Disconnect」ボタンをクリックしてください．

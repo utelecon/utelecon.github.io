@@ -1,7 +1,7 @@
 ---
-title: 東京大学でオンライン授業を受けるために（新入生向け）
+title: 大学生活に必要な情報システムの準備について（新入生向け）
 slug: oc # 手順を外部ファイルからincludeするときに使う
-description: このページでは，東京大学の新入生がオンライン授業を受けるために必要な事前準備を順序立てて説明しています．
+description: このページでは，東京大学で授業を受ける新入生を対象に，東京大学の情報システムを利用するために必要な事前準備を順序立てて説明しています．
 ---
 
 ## はじめに
@@ -105,14 +105,17 @@ description: このページでは，東京大学の新入生がオンライン�
 {% include procedures/utokyo_account.html part="important" %}
 {% include procedures/google.html part="important" %}
 {% include procedures/utas.html part="important" %}
-{% include procedures/utokyo_wifi.html part="important" %}
+    <li>
+        <strong>UTokyo WiFi：アカウントを申請する</strong>
+{% include systems/utokyo_wifi/apply.html part="important" %}
+    </li>
 </ul>
 
 ## 情報システムに関するその他の準備手順
 
 つづいて，各種情報システムについて，それぞれのシステムへのログインや，東大のアカウント専用のページへのアクセスなどといった，もう少し細かい確認や作業の手順を説明します．万全の状態で授業を受けられるよう，これらの手順も授業開始までにできるだけ行っておくようにしてください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
-「[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](movies)」のページでは，以下の手順の一部を動画で説明していますので，必要に応じて確認してください．
+「[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](movies)」のページでは，以下の手順の一部を動画で説明していますので，必要に応じて確認してください．
 
 
 ### UTokyo Account
@@ -167,7 +170,18 @@ description: このページでは，東京大学の新入生がオンライン�
 
 {{ about_utokyo_wifi }}
 
-{% include procedures/utokyo_wifi.html %}
+<ul>
+    <li>
+        <details>
+            <summary>（再掲）<strong>作業：アカウントを申請する</strong></summary>
+{% include systems/utokyo_wifi/apply.html %}
+        </details>
+    </li>
+    <li>
+        <strong>作業：実際に接続する</strong>
+{% include systems/utokyo_wifi/connect.html %}
+    </li>
+</ul>
 
 ### ECCS端末
 {:#eccs}
