@@ -22,7 +22,7 @@ There are times when you want to create videos for on-demand class material and 
 Here, we introduce ways to handwrite on something like an online blackboard when holding class. Roughly broken up, there are three methods.
 
 * [How to use a tablet to write on the board](handwriting/tablet)
-* [How to use a document camera](/online/topics/handwriting/camera) (in Japanese)
+* [How to Use a Document Camera to Share Lecture Notes With the Class](handwriting/camera)
 * [How to take pictures of a blackboard or whiteboard and write on it](handwriting/board)
 
 ### I Want to Arrange a Way to Take Questions
