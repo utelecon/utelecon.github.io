@@ -199,7 +199,7 @@ Coordinating the schedule for study sessions and other web conferencing events i
 
 ### Introduction of Tools
 
-#### [Chouseisan](https://chouseisan.com/lang/en)
+#### [Chouseisan](https://chouseisan.com/)
 
 <figure>
 <img src="image9.png" height="70px">
