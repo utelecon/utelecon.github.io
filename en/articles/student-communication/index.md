@@ -2,6 +2,8 @@
 title: How to Start an Online Study Group
 ---
 
+{% include en/articles/slack_notice.html %}
+
 ## Introduction
 
 This article describes how students can conduct online and offline study sessions with each other, and introduces some useful tools for such sessions. The possible actions that can be taken in the course of a study session are evoked and summarized in chronological order.
