@@ -217,7 +217,7 @@ The system is quick and easy to use, and the schedule can be easily adjusted. Si
 
 The organizer enters the event name, the duration, the date, and the time range within which the event will take place.
 
-The participants enter options such as "available," "undecided," or "not available" in 30-minute periods within the specified time range.
+The participants enter options such as "available", "undecided", or "not available" in 30-minute periods within the specified time range.
 
 Since the organizer does not need to specify the time in detail, it is useful when the date is fixed but the time is undecided. All the entries are color-coded and lined up in a row, so you can see at a glance which dates are convenient for you. Smartphone users may find it difficult to make an entry, because of the unique user interface.
 
