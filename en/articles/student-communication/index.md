@@ -49,7 +49,7 @@ For these reasons, it is recommended to create an online space after you have de
 <img src="image1.png" height="70px">
 </figure>
 
-Slack is a communication tool mainly for text exchanges, but it can also be used for sharing documents, video conferences, etc. It is useful for group work and can be used to share and discuss your progress with people who are working on the same assignment. [This article(Only in Japanese)](/articles/slack-seminar/) is also a good reference.
+Slack is a communication tool mainly for text exchanges, but it can also be used for sharing documents, video conferences, etc. It is useful for group work and can be used to share and discuss your progress with people who are working on the same assignment. [This article (Only in Japanese)](/articles/slack-seminar/) is also a good reference.
 
 #### Discord
 
@@ -147,7 +147,7 @@ Google Scholar is a search engine provided by Google that specializes in academi
 
 If a PDF file of the paper is available for free, a link to the PDF file will be shown, and for most papers, a link to the Web page where the paper is published will also be shown. If you are a member of the University of Tokyo, you may be able to access some paid papers by using EZProxy, depending on the publisher’s contract with the University of Tokyo.
 
-For details about EZProxy, please refer to the Literacy section mentioned above. For more information on how to use Google Scholar with EZproxy, please visit [this article](https://www.sodan.ecc.u-tokyo.ac.jp/hack/search-engine-via-ssl-vpn/).
+For details about EZProxy, please refer to the Literacy section mentioned above. For more information on how to use Google Scholar with EZproxy, please visit [this article (Only in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/hack/search-engine-via-ssl-vpn/).
 
 #### CiNii Articles
 
