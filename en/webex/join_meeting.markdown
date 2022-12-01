@@ -19,6 +19,7 @@ title: How to join Webex Meetings
 <br>
 <br>
 <a href="index" target="_blank">Return to How to Use WeBex</a>
-<a href="meeting_participant" target="_blank">See What is possible with WeBex Meetings?（for Participants）</a>
-<a href="meeting_owner" target="_blank">See What is possible with WeBex Meetings?（for 
-Instructors）</a>
+
+<a href="do_webex" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)</a>
+<br>
+<a href="do_webex_host" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host)</a>

@@ -324,9 +324,9 @@ GoodNotes 5では，PowerPoint，Word，PDF，各種画像ファイルを読み�
 ## グッドプラクティス・応用例の紹介
 {:#advanced}
 
-* [白石忠志　先生：法I](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/shiraishi)
+* [白石忠志　先生：法I](/good-practice/interview/shiraishi)
     * 白石先生の授業は約400人の学生が受講した大人数講義でした．講義中の板書にGoodNotes 5を使用し，講義後にはScrapboxに板書の画像を掲載していました．
-* [齊藤宣一　先生：計算数理I・計算数理](https://utelecon.adm.u-tokyo.ac.jp/good-practice/interview/saito)
+* [齊藤宣一　先生：計算数理I・計算数理](/good-practice/interview/saito)
     * 齊藤先生の授業は約70人の学生が受講した中規模講義でした．講義中の板書にGoodNotes 5を使用し，講義後には板書の画像をPDFにして学生と共有していました．
 
 以下では，先生方に共有いただいたTips（ポイント）を紹介します．

@@ -51,8 +51,8 @@ This section explains how to stop cloud sharing a recording (i.e. disabling the 
 Note:
 Since the storage capacity of Zoom cloud is limited, it is recommended to delete the file rather than stop sharing the link.
 
-<a id="no_menu"></a>
 ## If the option "Record to the Cloud" is not available, enable the cloud recording feature.
+{:#no_menu}
 
 1. Go to the [Zoom Settings Page](https://zoom.us/profile/setting)(sign in with your UTokyo Zoom account).
 

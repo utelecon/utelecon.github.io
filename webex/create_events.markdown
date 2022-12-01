@@ -2,11 +2,6 @@
 title: Webex ウェビナーを作成する
 ---
 
-<strong class="box">
-**ホーム画面左下の「Webex Events (classic)」から作成するWebex Events (classic)は，以下で説明されているWebex ウェビナーとは異なるもので，設定画面や利用できる機能等が異なります．**
-![Webex Eventsを表示する](img/webex_toppage_events.png){:.border.medium}
-</strong>
-
 ## Webexウェビナーを作成する
 
 * Webexウェビナーをスケジュールするには，ホーム画面の「ウェビナーをスケジュール」ボタンを押して，各種設定を行います．

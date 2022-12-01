@@ -4,7 +4,7 @@ slug: faculty_members # 手順を外部ファイルからincludeするときに�
 ---
 
 <b class="box">
-A briefing session titled “<a href="/events/2022-03-16/">Not only online classes! A briefing session on ICT and online conference tools for education and research</a>” will be held on March 16 at 15:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
+A briefing session titled “<a href="/events/2022-09-14/">For education, for research, and for administration! A briefing session on online conference tools and cloud tools - and also on the tool you may be curious about</a>” will be held on September 14th at 15:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
 </b>
 
 <!--

@@ -37,6 +37,12 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 
 ## 利用方法
 
+### 情報システムゼミ「Webex Webinars セミナー（基礎編）」（2022年10月14日）スライド資料
+
+1. [Webex Webinarsとは.pdf](pdf/20221014_Seminar_1_Intro.pdf)
+1. [事前準備.pdf](pdf/20221014_Seminar_2_Prep.pdf)
+1. [基本操作.pdf](pdf/20221014_Seminar_3_Basic.pdf)
+
 ### 情報システムゼミ「Webexセミナー」（2022年2月18日）スライド資料
 
 1. [はじめに.pdf](pdf/20220218_Seminar_1_Intro.pdf)

@@ -109,7 +109,7 @@ If you like to send us new information, please contact us here.
 
 ### Reference information for online classes
 
-* **Data traffic of online lectures** \[[Website](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9% 80%9A%E4%BF%A1%E9%87%8F)\](Prof. Omukai, Graduate School of Humanities and Sociology):This page provides the data traffic of online lectures categorized by situations, such as lectures using screen sharing, chatting using camera video, audio-only lecture, and when participants are allowed to speak.
+* **Data traffic of online lectures** \[[Website](https://scrapbox.io/utdh/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%AC%9B%E7%BE%A9%E3%81%AE%E9%80%9A%E4%BF%A1%E9%87%8F)\](Prof. Omukai, Graduate School of Humanities and Sociology):This page provides the data traffic of online lectures categorized by situations, such as lectures using screen sharing, chatting using camera video, audio-only lecture, and when participants are allowed to speak.
 
 ### Examples of online classes
 
