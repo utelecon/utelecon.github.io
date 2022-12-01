@@ -12,7 +12,8 @@ To use UTokyo VPN, first install AnyConnect, a VPN client application, on your d
 ### Access to e-journals
 {:#journal}
 
-You cannot access e-journals via UTokyo VPN. Please refer to [the EZproxy page on the library website](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy) for information on how to use the e-journals, e-books, and databases that the library subscribes to from outside the campus.
+You cannot access e-journals and e-books subscribed by the University of Tokyo Library via UTokyo VPN.  Instead use EZProxy to access these e-journals and e-books.  To quickly download the pdf of a paper from the publisher's landing page, it's convenient to [Read using the bookmarklet] (https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others#marklet), also explained in [this page](https://note.com/k_yamamoto/n/n0ee13fe38f24) (in Japanese).  There are of course papers not subscribed by the library, as well as papers subscribed but cannot be obtained by this method.  For details, be sure to read the page "[Using EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)" and "[Supplement : How to read paper found outside the university](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others)" provided by the library.
+
 
 ## Requirements for use
 {:#note}
