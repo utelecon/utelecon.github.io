@@ -20,7 +20,7 @@ title: ECCSクラウドメール (Google Workspace)
 
 ## 利用開始の手順
 
-ECCSクラウドメールの利用（アカウント作成）には[UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（学生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．
+ECCSクラウドメールの利用（アカウント作成）には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（学生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．
 
 {% include procedures/google.html %}
 
