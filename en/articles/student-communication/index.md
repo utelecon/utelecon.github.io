@@ -140,7 +140,7 @@ Information that you can use as resources (sources) for papers and materials in 
 
 Literacy is a website that brings together the search systems of the University of Tokyo. You can use TREE to search the University of Tokyo Library collection and the E-journal & E-book Portal to read e-books, etc. These services are usually available only on-campus, but you can access them from off-campus by using the [EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy) service to browse newspaper articles and ebooks.
 
-For details, please check "About Literacy" [here](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/contact).
+For details, please check ["About Literacy" here](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/contact).
 
 
 #### [Google Scholar](https://scholar.google.com/)
