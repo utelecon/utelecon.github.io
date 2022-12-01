@@ -24,7 +24,7 @@ slug: support
 Chat support is available for simple inquiries. A chatbot (an automated response robot) or a human operator (student staff called “Common Supporter”) will respond to your inquiries.
 
 * Please note that it may take some time for operators to respond, depending on the volume of inquiries. In such cases, please use the email form or try again later. 
-* We use MEDiA LiNK. Co., Ltd.'s sinclo chat service. The connection may sometimes become unstable. If the connection does not improve after a certain period of time, please contact us through Zoom or the email form. 
+* We use MEDiA LiNK. Co., Ltd.'s MediaTalk chat service. The connection may sometimes become unstable. If the connection does not improve after a certain period of time, please contact us through Zoom or the email form. 
 
 <div>Business hours (Automated response): 24 hours</div>
 <div>Business Hours (Operator): 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri).</div>
