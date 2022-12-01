@@ -13,20 +13,20 @@ description: 本サイトは，東京大学におけるオンライン授業やW
 
   <h2>まずはここから</h2>
   <div class="cards">
-    <a href="/oc/">オンライン授業を受けるために<small>（学生向け）</small></a>
-    <a href="/faculty_members/">オンライン授業を始めるために<small>（教員向け）</small></a>
+    <a href="/oc/">大学生活に必要な情報システムの準備について<small>（学生向け）</small></a>
+    <a href="/faculty_members/">東京大学における情報システムの準備について<small>（教員向け）</small></a>
     <a href="/online/">オンラインを活用するために</a>
     <a href="/support/">サポート窓口</a>
   </div>
 
   <h2>ピックアップ</h2>
   <div class="cards">
-    <a href="/events/2022-03-16/">2022/03/16 説明会「オンライン授業だけじゃない！　教育研究用ICT・オンライン会議ツールの説明会」</a>
+    <a href="/events/2022-09-14/">授業に, 研究に, 業務に! オンライン会議・クラウドツールの活用説明会<small>(2022/09/14)</small></a>
+    <a href="/slack/">UTokyo Slack</a>
     <a href="/antivirus/">ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)</a>
     <a href="/utokyo_vpn/">UTokyo VPN</a>
-    <a href="/utokyo_account/mfa">UTokyo Accountにおける多要素認証の利用について<small>（2021年秋のシステム変更）</small></a>
+    <a href="/utokyo_account/mfa">UTokyo Accountにおける多要素認証の利用について</a>
     <a href="/supporters/class">クラスサポーター制度のご案内</a>
-    <a href="/slido/">Slido</a>
   </div>
 
   <h3>授業にあたって</h3>
@@ -49,9 +49,12 @@ description: 本サイトは，東京大学におけるオンライン授業やW
     - 目安としては3記事から6記事程度を掲載する
   -->
   <div class="cards">
-    <a href="/articles/commentscreen/">CommentScreenで学生とコミュニケーションをとる</a>
-    <a href="/articles/club-activity/">サークル活動に使えるオンラインツール</a>
-    <a href="/articles/question-tools/">授業における質問の受け付け方の工夫</a>
+    <a href="/articles/group-discussion/">オンラインのグループディスカッションで生じやすい問題とその対策案</a>
+    <a href="/articles/group-discussion-worksheet/">オンラインのグループディスカッションでワークシートを活用する</a>
+    <a href="/articles/gas/">GAS（Google Apps Script）を使ってみましょう</a>
+    <a href="/articles/gas/copy">GASを使ってGoogleドライブでファイルとフォルダを複製する方法</a>
+    <a href="/articles/schedule-management/">オンラインツールで予定を管理する</a>
+    <a href="/articles/student-communication/">オンライン勉強会の始め方</a>
   </div>
 
   <h3>オンライン授業の実践など</h3>
@@ -62,38 +65,44 @@ description: 本サイトは，東京大学におけるオンライン授業やW
   </div>
 
   <h2>お知らせ</h2>
-  {% comment %} お知らせの追加は `_data/notice/ja.yml` を編集してください {% endcomment %}
+  {% comment %} お知らせの追加は `_data/notice.yml` を編集してください {% endcomment %}
   <ul>
-    {% assign i = 0 %}
-    {% assign j = 0 %}
-    {% for item in site.data.notice.ja %}
-    {% if item.outdated %}
-    {% continue %}
-    {% endif %}
-    {% assign i = i | plus: 1 %}
-    {% unless i <= 4 or item.important %} {% continue %} {% endunless %} {% assign j=j | plus: 1 %} {% unless i <=16 and
-      j <=8 %} {% break %} {% endunless %} <li>
-      <span class="notice-date">{{ item.date }}</span>
-      {{ item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+    {%- assign i = 0 -%}
+    {%- assign j = 0 -%}
+    {%- for item in site.data.notice -%}
+      {%- if item.outdated -%}
+        {%- continue -%}
+      {%- endif -%}
+    {%- assign i = i | plus: 1 -%}
+    {%- unless i <= 4 or item.important -%}
+      {%- continue -%}
+    {%- endunless -%}
+    {%- assign j=j | plus: 1 -%}
+    {%- unless i <=16 and j <=8 -%}
+      {%- break -%}
+    {%- endunless %}
+      <li>
+        <span class="notice-date">{{ item.date }}</span>
+        {{ item.content.ja | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
       </li>
-      {% endfor %}
+    {%- endfor %}
   </ul>
   <a href="/notice/">過去のお知らせ一覧はこちら</a>
 
   <h2>東京大学のシステム</h2>
   <div class="top__systems">
     <ul>
-      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/account.html" target="_blank" rel="noopener">UTokyo Account</a>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/account.html">UTokyo Account</a>
       </li>
       <li><a href="/utas">UTAS</a></li>
       <li><a href="/itc_lms">ITC-LMS</a></li>
       <li><a href="/zoom/">Zoom</a></li>
       <li><a href="/webex/">Webex</a></li>
       <li><a href="/eccs_cloud_email">ECCSクラウドメール<small> (Google Workspace)</small></a></li>
-      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank" rel="noopener">UTokyo Microsoft
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html">UTokyo Microsoft
           License<small> (Microsoft 365)</small></a></li>
-      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo WiFi</a></li>
-      <li><a href="https://www.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ECCS端末</a></li>
+      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html">UTokyo WiFi</a></li>
+      <li><a href="https://www.ecc.u-tokyo.ac.jp/">ECCS端末</a></li>
       <li><a href="/systems#others">その他</a></li>
     </ul>
   </div>

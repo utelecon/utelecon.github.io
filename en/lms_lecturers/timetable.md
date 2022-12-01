@@ -4,7 +4,7 @@ title: Timetable
 
 When you log in, the following time table will be displayed.
 ![出講表1](img/schedule1.png)
-This timetable is from March 2020, when there was no class during the spring break. If you select "2020" for "Academic year" and "S1" for "Term/Semester" in the red square pull-down menu in the figure, you can check the classes scheduled to be offered in the S semester in 2020. "Term/Semester" are specified in terms of terms, but for S semester classes, the same class will be displayed in both "S1" and "S2".[Procedure](https://youtu.be/V-FN5muQw_Q)
+This timetable is from October 2022, when there was no class. If you select "2022" for "Academic year" and "S1" for "Term/Semester" in the red square pull-down menu in the figure, you can check the classes scheduled to be offered in the S semester in 2022. "Term/Semester" are specified in terms of terms, but for S semester classes, the same class will be displayed in both "S1" and "S2".[Procedure](https://youtu.be/V-FN5muQw_Q)
 ![出講表2](img/schedule2.png)
 If you select "Academic year" and “Term/Semester", the classes registered in UTAS will be displayed as shown above. There are lectures in Tuesday 2nd period and Thursday 4th period. Clicking on each class will allow you to register lecture content and make settings for the lecture (called "course" in the LMS manuals, etc.).
 

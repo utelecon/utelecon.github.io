@@ -112,7 +112,7 @@ You can move your avatar around the space you have created, work in your own pri
 * Gather - [https://www.gather.town/](https://www.gather.town/)
 * Gather Media Kit - [https://drive.google.com/drive/folders/1YRefTkMZmT5mq4ItVdbX8NT850JcnZLw](https://drive.google.com/drive/folders/1YRefTkMZmT5mq4ItVdbX8NT850JcnZLw)
 * Video tutorial for new Gather users[ - https://youtu.be/89at5EvCEvk](https://youtu.be/89at5EvCEvk)
-* Gather’s update information[ - https://gathertown.canny.io/changelog](https://gathertown.canny.io/ changelog) 
+* Gather’s update information[ - https://gathertown.canny.io/changelog](https://gathertown.canny.io/changelog) 
 * Gather Town product hunt video (SLIGHTLY OUTDATED)[ - https://youtu.be/8orexZsFRxs](https://youtu.be/8orexZsFRxs)
 
 

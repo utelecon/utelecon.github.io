@@ -2,6 +2,8 @@
 title: ゼミ形式の授業でSlackを活用する
 ---
 
+{% include articles/slack_notice.html %}
+
 ## この記事のハイライト
 
 * この記事では，Slackを用いたゼミ形式の授業の進行方法について紹介しています．

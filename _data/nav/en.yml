@@ -53,6 +53,9 @@
       name: "Search Online Resources by Tool"
       url: "/en/online/tools"
     -
+      name: "Search Online Resources by Purpose"
+      url: "/en/online/topics/"
+    -
       name: "Community of Online Education Practices"
       url: "/en/events/2020-luncheon/"
 -

@@ -17,4 +17,5 @@ vendor/
 .DS_Store
 *.swp
 *~
-.vscode/
+.vscode/*
+!settings.json

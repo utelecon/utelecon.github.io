@@ -2,31 +2,23 @@
 {% include layouts/header.html %}
 
 <main id="content">
-  {% if page.title %}
-    <h1 class="title">{{ page.title }}</h1>
-  {% endif %}
-  
-  {% if page.date or page.author %}
-    <div class="props">
-      {% if page.date %}<div>{{ page.date }}</div>{% endif %}
-      {% if page.author %}<div>{{ page.author }}</div>{% endif %}
-    </div>
+  {% assign h1 = page.h1 | default: page.title %}
+  {% if h1 %}
+    <h1 class="title">{{ h1 }}</h1>
   {% endif %}
 
-  {% capture toc %}{% include layouts/toc.html html=content %}{% endcapture %}
-  {% assign toc = toc | rstrip %}
-  {% if toc != "" and page.toc != false %}
+  {% assign toc = content | toc_only %}
+  {% assign toc_stripped = toc | strip_html | strip %}
+  {% if page.toc and toc_stripped != "" %}
     <section class="main__toc">
       <h2>{% if page.lang == "en" %}Table of Contents{% else %}目次{% endif %}</h2>
 {{ toc }}
     </section>
   {% endif %}
 
-{% if page.target_blank != false %}
-{% include layouts/target_blank.html %}
-{% else %}
 {{ content }}
-{% endif %}
+
+{% include layouts/author.html %}
 
 </main>
 

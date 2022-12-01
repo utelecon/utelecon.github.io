@@ -90,7 +90,7 @@ For example, the following questions and consultations are welcome.
 
 In this section, we will explain the essential tasks that must be completed to use the information systems, such as creating an account. Please ensure to spare enough time to complete these tasks before classes start. If you have any problems with these procedures, please consult the **[Technical Support Desk](/en/support/)**.
 
-Please check the “[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](/oc/movies) (Preparing for online classes at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the below procedures in further detail.
+Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Preparing for online classes at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the below procedures in further detail.
 
 <ul class="procedure">
 {% include procedures/en/utokyo_account.html part="important" %}
@@ -103,7 +103,7 @@ Please check the “[東京大学でオンライン授業を受けるために�
 
 Next, the procedures for performing more detailed checks and tasks on various information systems, such as logging in to each system and accessing UTokyo member-only pages, will be explained. Please ensure to complete the subsequent procedures before the beginning of the classes so that you are fully prepared. If you have any problems during the procedure, please consult the **[Technical Support Desk](/en/support/)**.
 
-Please check the “[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](/oc/movies) (Preparing for online classes at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the procedures below in further detail.
+Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Preparing for online classes at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the procedures below in further detail.
 
 ### UTokyo Account
 {:#utokyo_account}
