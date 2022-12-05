@@ -73,13 +73,11 @@ UTokyo WiFi is only available on individuals' own device: **it is prohibited to 
   </li>
   <li>
     <strog>Step3: Apply for a UTokyo WiFi Account</strong>
-{% include systems/utokyo_wifi/apply.html %}
-<!--ここの英訳は未完了？-->
+{% include en/systems/utokyo_wifi/apply.html %}
   </li>
   <li>
     <strong>Step 4: Connect to UTokyo WiFi</strong>
-{% include systems/utokyo_wifi/connect.html %}
-<!--ここの英訳は未完了？-->
+{% include en/systems/utokyo_wifi/connect.html %}
   </li>
 </ul>
 
