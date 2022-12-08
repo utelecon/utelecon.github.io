@@ -1,6 +1,13 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2022-12-08
+  content:
+    ja: |
+      2022年12月中旬に，東京大学のZoomにGoogleでサインインする機能を無効化する設定変更を行います．
+      UTokyo Accountでサインインして利用する所定のZoomアカウントをお使いの方には，この設定変更による影響はありません．
+      所定と異なる `@g.ecc.u-tokyo.ac.jp` などのアカウントでZoomをお使いの方は，この設定変更によりサインインできなくなる場合がありますので，各自で「[UTokyo Account以外のサインインでのZoomの利用について](/notice/zoom-address-new)」のページの案内に従って所定のアカウントへの変更をしてください．
+-
   date: 2022-11-16
   content:
     ja: "【教職員限定】<a href=\"https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=3518\" target=\"_blank\" rel=\"noopener\">ITツール利活用のためのコミュニティの設置およびITツール利活用にかかる説明会(11/24)の開催について</a>"
