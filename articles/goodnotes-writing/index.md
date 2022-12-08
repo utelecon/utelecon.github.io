@@ -24,7 +24,7 @@ GoodNotes 5は，読み込んだスライドや文書（PDF，Power Point，Word
 
 GoodNotes 5はiPad，iPhone，Macなどで利用できますが，板書をする場合にはiPad上での利用を推奨します．iPhoneの場合は画面サイズが小さいため，タッチペン等を別途購入して使用したとしても，細かい板書はしにくく不向きだと考えられます．またMacの場合は，ペンタブレットを別途購入すれば板書は可能ですが，iPadのように画面に直接タッチして書き込むことはできません．
 
-アプリケーションは，[App Store](https://apps.apple.com/app/goodnotes-5/id1444383602#?platform=ipad)から購入することができます．
+アプリケーションは，[App Store](https://apps.apple.com/app/goodnotes-5/id1444383602)から購入することができます．
 
 本記事では，iPad上でApple Pencil（別売）を用いてGoodNotes 5を使用する方法について説明します．
 

@@ -15,7 +15,7 @@ title: Google Hangouts Meet
   * If you share one PC with many people or if you snapshot the speaker, we strongly recommend to use  External USB camera and microphone.
   * There is a dedicated app for smartphone users (organizers are recommended to use PC.).
   * You can watch anywhere as long as you can connect to the internet. 
-* <a href="https://support.google.com/meet/#topic=7306097" target="_blank">Need help?
+* <a href="https://support.google.com/meet/" target="_blank">Need help?
 
 ## Video Conference
 

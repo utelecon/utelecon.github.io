@@ -23,7 +23,7 @@ GoodNotes 5 is a note-taking/drawing application that allows you to annotate imp
 
 While GoodNotes 5 can be used on an iPad, iPhone, or Mac, we recommend using it on an iPad when writing on the board. The small screen size of an iPhone makes it difficult to write detailed notes on the board, even with a stylus. Likewise, it is possible to write on the board with a Mac with a separately purchased graphic tablet, but it is not possible to write by  directly touching the screen like on an iPad.
 
-You can purchase this app from [App Store](https://apps.apple.com/app/goodnotes-5/id1444383602#?platform=ipad).
+You can purchase this app from [App Store](https://apps.apple.com/app/goodnotes-5/id1444383602).
 
 This article provides information on how to use GoodNotes 5 on iPads using Apple Pencil (sold separately).
 

@@ -5,7 +5,7 @@ title: How to Reduce Zoom Traffic During Online Classes
 ## Introduction
 
 * The network environments used by students and faculty members is diverse. In some cases, it may be necessary to reduce the amount of traffic. This article explains how to reduce Zoom traffic, while also providing some basic information on using Zoom.
-* This article is written based on information from the presentation “How to Reduce Zoom Traffic During Online Classes” given at the [9th Cyber Symposium for Sharing Distance Learning Measures at Universities and Other Institutions Since April (held online on May 29, 2020)](https://www.nii.ac.jp/event/other/decs/#09).
+* This article is written based on information from the presentation “How to Reduce Zoom Traffic During Online Classes” given at the [9th Cyber Symposium for Sharing Distance Learning Measures at Universities and Other Institutions Since April (held online on May 29, 2020)](https://www.nii.ac.jp/event/other/decs/past.html#09).
 
 ## How to Reduce Zoom Traffic
 
