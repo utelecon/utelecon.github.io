@@ -80,7 +80,7 @@ Wonder is a relatively new conferencing tool that allows users to intuitively mo
 
 1. **Large group meetings**: Wonder can accommodate as many as 1,500 people at a time. You can create a room and then create a smaller room called a Circle, so you can avoid having too many people in a room and losing control.
 2. **Smooth room movement**: Participants can see who is talking with whom and can move from Circle to Circle to join other people's conversations. You can also invite other specific people to the Circle you are in.
-3. **Screen** sharing: As with other services, you can share your computer screen.
+3. **Screen sharing**: As with other services, you can share your computer screen.
 4. **Broadcast**: This function allows you to talk to everyone in the room. Up to six people can use this feature at the same time, making it useful for panel discussions.
 5. **Text Chat**: Direct messages can be sent between individuals, to other people in the Circle, or to the whole group. You can use this feature to brainstorm ideas with Circle members, remind people of the time during group discussions, and so on.
 
@@ -106,7 +106,7 @@ This online communication tool features a playful UI in the style of retro games
 
 ### Basic Instructions on How to Use Gather
 
-1. Access the Gather website in your browser and create a room by entering your name and the office you will use. You can create a room without signing in.
+1. Access the [Gather website](https://www.gather.town/) in your browser and create a room by entering your name and the office you will use. You can create a room without signing in.
 2. Create your avatar and join the Gather world.
 3. You can move your avatar around within the created space and work in your own private space, or go to a conference room to talk and discuss with others.
 
