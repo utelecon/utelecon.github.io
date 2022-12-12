@@ -5,7 +5,7 @@ title: システム運用状況（障害情報等）一覧
 東京大学で運用・契約している主な情報システムについて，運用状況（障害情報等）を掲載しているページを挙げます．
 
 - **UTokyo Account**
-    - [UTokyo Accountのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)
+    - [UTokyo Accountのページ](/utokyo_account/)
 - **ITC-LMS・ECCS端末**
     - [広報](https://www.ecc.u-tokyo.ac.jp/announcement/daily.html)
     - [障害情報](https://www.ecc.u-tokyo.ac.jp/announcement/trouble.html)

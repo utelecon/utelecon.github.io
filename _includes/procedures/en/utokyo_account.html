@@ -7,24 +7,33 @@
 
 {% capture change_initial_password %}
 <ul>
+{% case page.slug %}{% when "oc" %}
 <li><a href="https://youtu.be/tTpAlqVhEXQ">Procedure video</a></li>
+{% endcase %}
 </ul>
 <ol>
-<li>Receive the "Notification regarding password for the UTokyo Account", which will include your initial password from your faculty/graduate school. {%
+<li>Obtain the "Notification regarding password for the UTokyo Account", which will include your initial password from your faculty/graduate school. {%
   case page.slug %}{%
     when "oc"
       %}You should receive this notification well before classes start; however, if you do not, please contact your faculty/graduate school. (The notification is available to first year undergraduate students at <a href="https://utas-ew.adm.u-tokyo.ac.jp/">https://utas-ew.adm.u-tokyo.ac.jp/</a> starting March 22.){%
     when "faculty_members"
       %}It should have been distributed to those who need it for classes. If not, please contact your department.{%
+    when "utokyo_account"
+      %}
+        <ul>
+          <li><strong>Students</strong>: You should receive this notification well before classes start. If not, please contact your college/faculty/graduate school. (*The notification will be provided to new first year undergraduate students in the <a href="https://utas-ew.adm.u-tokyo.ac.jp/campusew/?logintype=p">Information Registration System for Successful Applicants</a>).</li>
+          <li><strong>Faculty and staff members</strong>: Faculty members who require it for classes should receive the notification. If not, please contact your department's office.</li>
+        </ul>
+      {%
     else
       %}{%
   endcase
 %}</li>
 <li>Please log in to the <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet">UTokyo Account User Menu</a> with the username and password indicated on the notification.</li>
-<li>Click "Password Change" on the upper left to change you password. To ensure the safety of your account, please set a strong password.</li>
+<li>Click "Password Change" on the upper left to change your password (you cannot use the services with your initial password). When choosing a new password, make sure that you use a password that sets the strength indicator to "strong" or "very-strong".</li>
 </ol>
 <ul>
-<li>If this procedure does not work, please consult the <a href="/en/supports/">Technical Support Desk</a>.</li>
+<li>If this procedure does not work, please consult the <a href="/en/support/">Technical Support Desk</a>.</li>
 </ul>
 {% endcapture %}
 
@@ -33,5 +42,16 @@
 {% endunless %}
 {% include procedures/en/_important.html procedure=change_initial_password type="Task" heading="Changing the initial password" %}
 {% unless include.part == "important" %}
+<li><strong>Optional task: Set up the "Multi-Factor Authentication (MFA)"</strong>
+<ul>
+  <li>Multi-factor authentication (MFA) is a security process in which users prove their identity using at least two pieces of evidence. In addition to passwords, users are asked to verify their identity via SMS, authentication applications, or other methods when signing into their accounts.  MFA setup is not mandatory at this time, but it is recommended from a better security aspect for your UTokyo Account.</li>
+</ul>
+<ol>
+  <li>Please follow the setup procedures in the "<a href="mfa/">Using Multi-Factor Authentication for UTokyo Accounts</a>" page.</li>
+</ol>
+<ul>
+  <li>If this procedure does not work, please consult the <a href="/en/support">Technical Support Desk</a>.</li>
+</ul>
+</li>
 </ul>
 {% endunless %}

@@ -5,7 +5,7 @@ title: マイクロソフトサービスサインインのトラブルシュー�
 東京大学のサービス利用で UTokyo Account でサインインしてくださいと
 書いてある「申請などのフォームにアクセスできない」、「資料へのアクセスができない」と
 いったトラブルへの対処方法です。UTokyo Account は最初にパスワード設定が必要（通知書のパスワードではサービスが
-利用できない）です。あらかじめ[UTokyo Accountのパスワード設定](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)を行ってください。
+利用できない）です。あらかじめ[UTokyo Accountのパスワード設定](/utokyo_account/)を行ってください。
 
 ## 対処方法
 

@@ -3,7 +3,7 @@ title: Sign-in Methods for Zoom
 toc: false
 ---
 
-An [UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html) is required to sign into Zoom. If you have not already set up your UTokyo account, please check “[Preparing for online classes at the University of Tokyo (for new students)](/en/oc/)” or “[Preparing for online classes at the University of Tokyo (for faculty members)](/en/faculty_members)” first.
+An [UTokyo Account](/en/utokyo_account/) is required to sign into Zoom. If you have not already set up your UTokyo account, please check “[Preparing for online classes at the University of Tokyo (for new students)](/en/oc/)” or “[Preparing for online classes at the University of Tokyo (for faculty members)](/en/faculty_members)” first.
 
 <div class="box">
 The following instructions are for signing in with your <strong class="alert"> UTokyo email address starting with the 10-digit UTokyo ID </strong>.
