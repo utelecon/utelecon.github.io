@@ -61,12 +61,12 @@ The procedure for resetting the password is as follows.
 #### Reissue a password from the help desks
 If you have not registered your email address, or if the above procedure does not work, please contact the following help desks to reissue your password.
 
-- [ECCS Help Desks](https://www.ecc.u-tokyo.ac.jp/en/emap.html)
-    - Faculty and staff members must bring their Staff ID card, and students must bring their Student ID card.
-    - The Help Desks are located in the Information Education Building (Komaba Campus), Information Technology Center (Asano Section, Hongo Campus), and Fukutake Hall (Hongo Campus).
-- Personnel department of your department (faculty and staff members only)
 - The academic office of our college/faculty/graduate school (students only).
     - Please bring your Student ID card.
+- Personnel department of your department (faculty and staff members only)
+- [ECCS Help Desks](https://www.ecc.u-tokyo.ac.jp/en/emap.html)
+    - Students must bring their Student ID card, and faculty and staff members must bring their Staff ID card.
+    - The Help Desks are located in the Information Education Building (Komaba Campus), Information Technology Center (Asano Section, Hongo Campus), and Fukutake Hall (Hongo Campus).
 
 After completing the procedures, you will receive a "Notification regarding password for the UTokyo Account" containing your initial password. Please change your initial password to a new one, referring to "Task: Change the initial password" in [How to start using UTokyo Account](#procedures). (You cannot use the ICT services with your initial password.)
 
