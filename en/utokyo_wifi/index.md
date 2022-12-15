@@ -91,7 +91,7 @@ UTokyo WiFi accounts expire at the end of October for the Spring Semester and at
 - The procedure for reissuing an account is the same as steps 3 and 4 above.
     - If you have not taken the information security training course and your account has been suspended, you cannot reissue an account. Please refer to the "[Information Security Education](#jouhou-security)" section above for details. 
 - Once the account has been reissued, enter the user ID and password for the new account into the device you use and connect to it.
-    - If the device remembers your previous UTokyo WiFi account information and you are not able to change it (i.e., screen to enter a new user ID and password does not appear), please delete your Wi-Fi account information on the device. The specific method of the removal varies depending on the OS and device type, so please refer to the manual of the respective device. For Windows, please also refer to [ECCS Consultant's Page (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/), and for iOS, please refer to the official help "[How to forget a Wi-Fi network on your iPhone, iPad, iPod touch, or Mac](https://support.apple.com/en-us/HT208941)". 
+    - If the device remembers your previous UTokyo WiFi account information and you are not able to change it (i.e., screen to enter a new user ID and password does not appear), please delete your Wi-Fi account information on the device. The specific method of the removal varies depending on the OS and device type, so please refer to the manual of the respective device. For Windows, please also refer to [ECCS Tutor's Page (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/), and for iOS, please refer to the official help "[How to forget a Wi-Fi network on your iPhone, iPad, iPod touch, or Mac](https://support.apple.com/en-us/HT208941)". 
 
 ### Connect Configuration
 {:#connect-configuration}
@@ -145,7 +145,7 @@ The network of UTokyo, including UTokyo WiFi, is secured by UTokyo Campuswide Fi
 ## Troubleshooting and Inquiries
 
 If you encounter any problems when using the system, please check the following points first.
-- If you are having problems connecting for the first time, carefully reread the "[How to Start Using](#initial-setup)" section of this page. Also, please refer to the [ECCS Tutor's Page (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/), which contains detailed connection instructions for each device as necessary.
+- If you are having problems connecting for the first time, carefully reread the "[Steps to start using the service](#initial-setup)" section of this page. Also, please refer to the [ECCS Tutor's Page (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/), which contains detailed connection instructions for each device as necessary.
 - If you encounter problems on the second or subsequent connections, please refer to "[Account expiration date](#expiration)" on this page.
 - Please consult with your friends, colleagues, and others around you who already succeeded in connecting. 
 
