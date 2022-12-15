@@ -12,7 +12,7 @@ UTokyo WiFi is a Wi-Fi service available to members of the University of Tokyo f
 
 ### Availabilities
 
-- UTokyo WiFi is available to members of the University of Tokyo (students & faculty and staff members) who have a [UTokyo Account](/utokyo_account/).
+- UTokyo WiFi is available to members of the University of Tokyo (students & faculty and staff members) who have a [UTokyo Account](/en/utokyo_account/).
   - If you have not completed the Information Security Education course, your access may be suspended even if you are a member of the University of Tokyo. Please refer to the "[Information Security Education](#jouhou-security)" section below for more details.
 - In order to use UTokyo WiFi,  UTokyo WiFi Account is required for each semester in addition to your UTokyo Account.
 
