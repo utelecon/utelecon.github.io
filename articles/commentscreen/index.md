@@ -17,8 +17,11 @@ CommentScreen株式会社
 
 
 #### 利用プラン
-無料で提供されているFreeプランと，有料のTeacherプラン・Teacher Proプランがあり，Freeプランは50人まで，Teacherプランは100人まで，Teacher Proプランは500人までの人数制限があります．（Freeプランの人数制限は現在緩和中で，人数制限緩和終了後は20人までとなる予定です．）  
-(2021年10月現在のものです．詳しくは，[CommentScreenの公式サイト](https://commentscreen.com/price?education=true)から確認できます．）
+教育関係者および学生向けの有償プランとして，Teacherプラン，Teacher Proプランが提供されています．これらのプランの間には，同時に参加できる最大人数や，イベント内で作成できるアンケートの回数に違いがあります．なお，有償プラン契約前でも使用できる範囲のサービスや，無償での短期間のトライアルも提供されているようですが，詳細なサービス内容や条件は確認できていません．（2022年12月1日現在，公式サイトで公開されている情報に拠ります．詳しくは，[CommentScreenの公式サイト](https://commentscreen.com/price?education=true)から確認してください．）
+
+<div class="box--alert">
+2022年12月1日現在，従来無償で提供されていた「Freeプラン」にほぼ相当するプランは，有償の「Liteプラン」に改訂されました．無償で使用できるサービス内容が大幅に縮小されたものとみられますので，使用を検討される際はあらかじめご注意ください．
+</div>
 
 
 ## CommentScreenの特徴・メリット
@@ -121,8 +124,8 @@ CommentScreenの[ダウンロードページ](https://commentscreen.com/#downloa
 
 
 #### アンケート機能
-授業前に教員がCommentScreenのルームでアンケートを作成しておくことで，授業中に学生にアンケートを取ることができます．ただし，加入しているCommentScreenのプランにより，1回のイベントで実施できるアンケートの回数に制限があるため，事前に確認するのが良いでしょう．特にFreeプランでは1回のイベントで1度しか使うことができないので，注意が必要です．  
-（詳しくは，[CommentScreenの公式サイト](https://commentscreen.com/price?education=true)をご覧ください．）
+授業前に教員がCommentScreenのルームでアンケートを作成しておくことで，授業中に学生にアンケートを取ることができます．
+ただし，加入しているCommentScreenのプランにより，1回のイベントで実施できるアンケートの回数に制限があるため，事前にプラン内容を確認してください．詳しくは，[CommentScreenの公式サイト](https://commentscreen.com/price?education=true)をご覧ください．
 
 
 ## CommentScreenを用いて授業をする場合のポイント

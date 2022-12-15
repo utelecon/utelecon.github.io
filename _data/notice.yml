@@ -1,6 +1,25 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2022-12-08
+  content:
+    ja: "2022年12月20日 16時30分～18時00分に，「[MATLABの教育利用推進に向けた全学シンポジウム](/events/2022-12-20-matlab/)」をハイブリッド開催します．"
+-
+  date: 2022-12-08
+  content:
+    ja: |
+      2022年12月中旬に，東京大学のZoomにGoogleでサインインする機能を無効化する設定変更を行います．
+      UTokyo Accountでサインインして利用する所定のZoomアカウントをお使いの方には，この設定変更による影響はありません．
+      所定と異なる `@g.ecc.u-tokyo.ac.jp` などのアカウントでZoomをお使いの方は，この設定変更によりサインインできなくなる場合がありますので，各自で「[UTokyo Account以外のサインインでのZoomの利用について](/notice/zoom-address-new)」のページの案内に従って所定のアカウントへの変更をしてください．
+-
+  date: 2022-11-16
+  content:
+    ja: "【教職員限定】<a href=\"https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=3518\" target=\"_blank\" rel=\"noopener\">ITツール利活用のためのコミュニティの設置およびITツール利活用にかかる説明会(11/24)の開催について</a>"
+-
+  date: 2022-11-07
+  content:
+    ja: "「[東京大学におけるSlack「教育支援プログラム」の申し込み](/slack/discount)」を掲載しました．"
+-
   date: 2022-09-29
   content:
     ja: "「[UTokyo Slackへの編入にかかる希望数把握のためのアンケート](/notice/2022/0929-slack-migration-survey)」を行います（10/11正午まで）．現在UTokyo Slack以外で既存のワークスペースをお使いで，それを何らかの形で今後UTokyo Slackとして利用したいとお考えの方が対象で，編入を申し込むかどうか検討している段階の場合も含みます．ご協力よろしくお願いいたします．"

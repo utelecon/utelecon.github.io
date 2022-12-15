@@ -3,7 +3,7 @@ title: Signing in to Webex
 toc: false
 ---
 
-An [UTokyo Account](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html) is necessary to sign into Webex.
+An [UTokyo Account](/en/utokyo_account/) is necessary to sign into Webex.
 
 1. Open the Webex sign in page by clicking the “Sign In” button on the [UTokyo Webex page](https://utelecon.webex.com/).
 2. Enter your 10-digit Common ID followed by `@utac.u-tokyo.ac.jp` (e.g. `1234567890@utac.u-tokyo.ac.jp`) as your email address.
