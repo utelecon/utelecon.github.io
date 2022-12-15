@@ -41,7 +41,7 @@ The University of Tokyo conducts annual [Information Security Education](https:/
 </details>
 <details>
 	<summary>If you have failed to complete information security training by the prescribed time </summary>
-  The UTokyo WiFi account will be suspended for the current year, so basically you will not be able to use UTokyo WiFi until the end of the fiscal year. For more information on thepeople who have not yet taken the course, please contact <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code>(<code>__at__</code> transfer to @)with your UTokyo Account username (10-digit common ID).
+  The UTokyo WiFi account will be suspended for the current year, so basically you will not be able to use UTokyo WiFi until the end of the fiscal year. For more information on thepeople who have not yet taken the course, please contact <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code> (<code>__at__</code> transfer to @) with your UTokyo Account username (10-digit common ID).
 </details>
 
 ### Using UTokyo WiFi on Shared Devices
