@@ -65,7 +65,7 @@ UTokyo WiFi is only available on individuals' own device: **it is prohibited to 
           For students: Log in to <a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">UTAS</a>  and set "E-MAIL 1" in the "Student Information" menu (note that the "E-MAIL 2" address cannot be used as the UTokyo WiFi email address).
           </li>
           <li>
-          For faculty members: Log in to <a href="https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx">人事情報MyWeb</a> and set your "学内メールアドレス" (Campus Email Address) field in the "パーソナルメニュー"  (Personal Menu). 
+          For faculty members: Log in to <a href="https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx">the Personnel Information MyWeb</a> and set your "学内メールアドレス" (Campus Email Address) field in the "パーソナルメニュー"  (Personal Menu). 
           </li>
         </ul>
       </li>
