@@ -3,7 +3,7 @@
 {%- if page.slug == "oc" %}
   <li><a href="/oc/movies#utokyo_wifi">手順動画</a></li>
 {%- else %}
-  <li>○	Note: If you already have a valid UTokyo WiFi account, you do not need to repeat the account issuance procedure (the same account can be used for the second and subsequent devices).</li>
+  <li>Note: If you already have a valid UTokyo WiFi account, you do not need to repeat the account issuance procedure (the same account can be used for the second and subsequent devices).</li>
 {%- endif %}
 {%- if page.slug == "oc"%}
   <li>UTASにメールアドレスを登録した翌日以降に作業してください．</li>
@@ -36,7 +36,7 @@
     <details>
       <summary>When this procedure does not work</summary>
       <ul>
-        <li><strong>When you cannot access to account menu</strong>: The account menu can only be accessed from networks that are generally considered domestic networks. If you are unable to access the system, please consider applying using an ECCS terminal on campus. Please check <a href="https://www.ecc.u-tokyo.ac.jp/guest_account.html"></a>the ECCS website (in Japanese)</a> for details.
+        <li><strong>When you cannot access to account menu</strong>: The account menu can only be accessed from networks that are generally considered domestic networks. If you are unable to access the system, please consider applying using an ECCS terminal on campus. Please check <a href="https://www.ecc.u-tokyo.ac.jp/guest_account.html">the ECCS website (in Japanese)</a> for details.
         <li>
           <strong>If the following screen appears and you cannot access your account menu:</strong>
           <img src="/utokyo_wifi/img/account_menu_login_denied.png" class="small">
@@ -44,14 +44,14 @@
             if page.slug == "oc"
           %}<a href="/utokyo_wifi#jouhou-security">"Information Security Education" on UTokyo WiFi page</a>{%
             else
-          %}「<a href="#jouhou-security">"Information Security Education"</a>」{%
+          %}<a href="#jouhou-security">"Information Security Education"</a>{%
             endif
-          %}for details.</li>
+          %} for details.</li>
         </li>
         <li><strong>If you do not receive a notification email</strong>: 
           <ul>
             <li>Please check your spam folder. </li>
-            <li>Check your email address. The email will be sent to the email address indicated in the "Notification e-mail address"（{%
+            <li>Check your email address. The email will be sent to the email address indicated in the "Notification e-mail address" {%
               if page.slug == "oc"
             %}(which you have registered by the previous day on UTAS.) {%
               else
