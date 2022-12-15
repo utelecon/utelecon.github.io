@@ -41,11 +41,11 @@ The University of Tokyo conducts annual [Information Security Education](https:/
 </details>
 <details>
 	<summary>If you have failed to complete information security training by the prescribed time </summary>
-  The UTokyo WiFi account will be suspended for the current year, so basically you will not be able to use UTokyo WiFi until the end of the fiscal year. For more information on thepeople who have not yet taken the course, please contact <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>transfer to @）with your UTokyo Account username (10-digit common ID). 
+  The UTokyo WiFi account will be suspended for the current year, so basically you will not be able to use UTokyo WiFi until the end of the fiscal year. For more information on thepeople who have not yet taken the course, please contact <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code>(<code>__at__</code> transfer to @)with your UTokyo Account username (10-digit common ID).
 </details>
 
 ### Using UTokyo WiFi on Shared Devices
-UTokyo WiFi is only available on individuals' own device: **it is prohibited to use UTokyo WiFi on a shared device by more than one person.** Because it allows anyone other than the user who owns a UTokyo WiFi Account to use the service, and it is considered to be lending of an account, which is prohibited by the Terms of Use . However, if the OS user account is set up separately for each individual, and the UTokyo WiFi account can only be used by the person who has obtained it, UTokyo Wifi is are able to be used. 
+UTokyo WiFi is only available on individuals' own device: **it is prohibited to use UTokyo WiFi on a shared device by more than one person.** Because it allows anyone other than the user who owns a UTokyo WiFi Account to use the service, and it is considered to be lending of an account, which is prohibited by the Terms of Use. However, if the OS user account is set up separately for each individual, and the UTokyo WiFi account can only be used by the person who has obtained it, UTokyo Wifi is able to be used. 
 
 ## Steps to start using the service
 {:#initial-setup}
@@ -72,7 +72,7 @@ UTokyo WiFi is only available on individuals' own device: **it is prohibited to 
     </ol>  
   </li>
   <li>
-    <strog>Step3: Apply for a UTokyo WiFi Account</strong>
+    <strong>Step3: Apply for a UTokyo WiFi Account</strong>
 {% include en/systems/utokyo_wifi/apply.html %}
   </li>
   <li>
@@ -91,7 +91,7 @@ UTokyo WiFi accounts expire at the end of October for the Spring Semester and at
 - The procedure for reissuing an account is the same as steps 3 and 4 above.
     - If you have not taken the information security training course and your account has been suspended, you cannot reissue an account. Please refer to the "[Information Security Education](#jouhou-security)” section above for details. 
 - Once the account has been reissued, enter the user ID and password for the new account into the device you use and connect to it.
-    - If the device remembers your previous UTokyo WiFi account information and you are not able to change it (i.e., screen to enter a new user ID and password does not appear), please delete your Wi-Fi account information on the device. The specific method of the removal varies depending on the OS and device type, so please refer to the manual of the respective device. For Windows, please also refer to [ECCS Consultant's Page](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/)(in Japanese), and for iOS, please refer to the official help “[How to forget a Wi-Fi network on your iPhone, iPad, iPod touch, or Mac](hhttps://support.apple.com/en-us/HT208941)”. 
+    - If the device remembers your previous UTokyo WiFi account information and you are not able to change it (i.e., screen to enter a new user ID and password does not appear), please delete your Wi-Fi account information on the device. The specific method of the removal varies depending on the OS and device type, so please refer to the manual of the respective device. For Windows, please also refer to [ECCS Consultant's Page (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/), and for iOS, please refer to the official help “[How to forget a Wi-Fi network on your iPhone, iPad, iPod touch, or Mac](https://support.apple.com/en-us/HT208941)”. 
 
 ### Connect Configuration
 {:#connect-configuration}
@@ -130,8 +130,8 @@ UTokyo WiFi accounts expire at the end of October for the Spring Semester and at
 
 The network of UTokyo, including UTokyo WiFi, is secured by UTokyo Campuswide Firewall and other measures to ensure information security.
 - Some websites cannot be viewed over UTokyo WiFi because they are blocked by UTokyo Campuswide Firewall.
-- [UTokyo-CERT](https://cert.u-tokyo.ac.jp/index.html) may contact the user by email if it detected communication  that may cause a security problem. 
-    - Their e-mail addresses are `utokyo-wifi-cert.adm_at_gs.mail.u-tokyo.ac.jp` or `utokyo-wifi-tf_at_itc.u-tokyo.ac.jp` （please read `_at_` as @)．
+- [UTokyo-CERT](https://cert.u-tokyo.ac.jp/index.html) may contact the user by email if it detected communication  that may cause a security problem.
+    - Their e-mail addresses are `utokyo-wifi-cert.adm_at_gs.mail.u-tokyo.ac.jp` or `utokyo-wifi-tf_at_itc.u-tokyo.ac.jp` (please read `_at_` as @)．
     - Failure to respond to the email may result in account suspension. In order to reactivate a suspended account, you must consult with your department’s CERT and take reasonable steps to prevent a recurrence. 
 
 ## Others
@@ -145,11 +145,11 @@ The network of UTokyo, including UTokyo WiFi, is secured by UTokyo Campuswide Fi
 ## Troubleshooting and Inquiries
 
 If you encounter any problems when using the system, please check the following points first.
-- If you are having problems connecting for the first time, carefully reread the "[How to Start Using](#initial-setup)" section of this page. Also, please refer to the [ECCS Tutor's Page](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/)(in Japanese), which contains detailed connection instructions for each device as necessary.
+- If you are having problems connecting for the first time, carefully reread the "[How to Start Using](#initial-setup)" section of this page. Also, please refer to the [ECCS Tutor's Page (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/faq/category/wireless-lan/), which contains detailed connection instructions for each device as necessary.
 - If you encounter problems on the second or subsequent connections, please refer to "[Account expiration date](#expiration)" on this page.
 - Please consult with your friends, colleagues, and others around you who already succeeded in connecting. 
 
-If you still have trouble, please contact **[Technical Support Desk](/support)**. Please understand the following points when making inquiries.
+If you still have trouble, please contact **[Technical Support Desk](/en/support)**. Please understand the following points when making inquiries.
 - We receive many inquiries. In most cases, it is difficult to respond immediately.
 - We cannot always provide support for a specific model because it is impractical to possess and test all types of equipment. Please consider contacting the distributor or manufacturer.
 
