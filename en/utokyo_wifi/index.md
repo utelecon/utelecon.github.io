@@ -13,7 +13,7 @@ UTokyo WiFi is a Wi-Fi service available to members of the University of Tokyo f
 ### Availabilities
 
 - UTokyo WiFi is available to members of the University of Tokyo (students & faculty and staff members) who have a [UTokyo Account](/utokyo_account/).
-  - If you have not completed the Information Security Education course, your access may be suspended even if you are a member of the University of Tokyo. Please refer to the “[Information Security Education](#jouhou-security)" section below for more details.
+  - If you have not completed the Information Security Education course, your access may be suspended even if you are a member of the University of Tokyo. Please refer to the "[Information Security Education](#jouhou-security)" section below for more details.
 - In order to use UTokyo WiFi,  UTokyo WiFi Account is required for each semester in addition to your UTokyo Account.
 
 
@@ -89,9 +89,9 @@ UTokyo WiFi is only available on individuals' own device: **it is prohibited to 
 UTokyo WiFi accounts expire at the end of October for the Spring Semester and at the end of April for the Autumn Semester. New accounts can be issued before the start of each semester, so if you want to continue using UTokyo WiFi, you need to reissue an account each semester.
 
 - The procedure for reissuing an account is the same as steps 3 and 4 above.
-    - If you have not taken the information security training course and your account has been suspended, you cannot reissue an account. Please refer to the "[Information Security Education](#jouhou-security)” section above for details. 
+    - If you have not taken the information security training course and your account has been suspended, you cannot reissue an account. Please refer to the "[Information Security Education](#jouhou-security)" section above for details. 
 - Once the account has been reissued, enter the user ID and password for the new account into the device you use and connect to it.
-    - If the device remembers your previous UTokyo WiFi account information and you are not able to change it (i.e., screen to enter a new user ID and password does not appear), please delete your Wi-Fi account information on the device. The specific method of the removal varies depending on the OS and device type, so please refer to the manual of the respective device. For Windows, please also refer to [ECCS Consultant's Page (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/), and for iOS, please refer to the official help “[How to forget a Wi-Fi network on your iPhone, iPad, iPod touch, or Mac](https://support.apple.com/en-us/HT208941)”. 
+    - If the device remembers your previous UTokyo WiFi account information and you are not able to change it (i.e., screen to enter a new user ID and password does not appear), please delete your Wi-Fi account information on the device. The specific method of the removal varies depending on the OS and device type, so please refer to the manual of the respective device. For Windows, please also refer to [ECCS Consultant's Page (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/), and for iOS, please refer to the official help "[How to forget a Wi-Fi network on your iPhone, iPad, iPod touch, or Mac](https://support.apple.com/en-us/HT208941)". 
 
 ### Connect Configuration
 {:#connect-configuration}
