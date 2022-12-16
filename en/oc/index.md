@@ -58,7 +58,7 @@ To take online classes, you will need an Internet connection and equipment such 
 
 - **Network connection**: There should be no problem with slower connections as long as you can watch videos stably. However, pay attention to the communication capacity when taking long online classes. More specifically, if you are using a smartphone directly connected to a mobile network (e.g., LTE), please ensure that you do not run out of data.
     - The university provides Wi-Fi on campus.
-    - The University of Tokyo provides support for new students who do not have adequate network connections. For more details, please check “[The network environment support for education and research](/mobile/)”.
+<!--    - The University of Tokyo provides support for new students who do not have adequate network connections. For more details, please check “[The network environment support for education and research](/mobile/)”. -->
 - **PC**: A smartphone should be sufficient if you just want to watch online classes. However, in university, you will often need a computer for many purposes, such as writing reports. In online classes, you will also need to do some work or exercises while watching videos.
     - A portable laptop is recommended so that you can use it on campus.
     - For specifications, please refer to “[東京大学のBYOD方針](/docs/byod) (The University of Tokyo's BYOD Policy)” (in Japanese).
