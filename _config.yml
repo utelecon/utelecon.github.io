@@ -27,3 +27,15 @@ defaults:
       path: en
     values:
       lang: en
+      image: /assets/images/ogp.png
+      toc: true
+  -
+    scope:
+      path: articles
+    values:
+      updated_at: true
+  -
+    scope:
+      path: en/articles
+    values:
+      updated_at: true
