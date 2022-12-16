@@ -16,17 +16,17 @@ You can learn about each member’s personality by sharing the self-introduction
 
 #### How to choose the right tool
 
-In many cases, it is convenient to keep members’ profile information stored somewhere that can be accessed at any time during club activities. (This is even more true for clubs with a large number of members since it is difficult to keep track of all the information at once.) ) Therefore, it is recommended to share profiles in a place where the information is pinned and can be accessed at any time, rather than in a normal chat room. It is also desirable to have a system where information can be freely added in case members are added to the group.
+In many cases, it is convenient to keep members’ profile information stored somewhere that can be accessed at any time during club activities. (This is even more true for clubs with a large number of members since it is difficult to keep track of all the information at once.) Therefore, it is recommended to share profiles in a place where the information is pinned and can be accessed at any time, rather than in a normal chat room. It is also desirable to have a system where information can be freely added in case members are added to the group.
 
 #### Recommended tools
 
 - **LINE**
 
-  This is the recommended method of sharing profiles for clubs that often communicate on LINE
+  This is the recommended method of sharing profiles for clubs that often communicate on LINE.
 
   - **Using Notes**
 
-    LINE’s Note allows you to post text, images, videos, etc., to the group that can be reviewed at any time. It is possible to save the information of all members by posting profile introductions and other information in a single note. For details on how to create a note, please refer to the official [LINE Minna no Usage Guide](https://guide.line.me/ja/chats-calls-notifications/chats/create-notes.html) (in Japanese)
+    LINE’s Note allows you to post text, images, videos, etc., to the group that can be reviewed at any time. It is possible to save the information of all members by posting profile introductions and other information in a single note. For details on how to create a note, please refer to the official [LINE Minna no Usage Guide](https://guide.line.me/ja/chats-calls-notifications/chats/create-notes.html) (in Japanese).
 
     As shown in the image below, you can list multiple questions in advance to make it easier to share profiles.
 
@@ -34,7 +34,7 @@ In many cases, it is convenient to keep members’ profile information stored so
 
   - **Using Albums**
 
-    LINE Albums allow you to post images to the group that can be viewed at any time. This feature is recommended if you wish to use images to introduce your profile since it is easy to view all the images in an album at once. For details on how to create an album, please refer to the official [LINE Minna no Usage Guide](https://guide.line.me/ja/chats-calls-notifications/chats/create-albums.html)（in Japanese）.
+    LINE Albums allow you to post images to the group that can be viewed at any time. This feature is recommended if you wish to use images to introduce your profile since it is easy to view all the images in an album at once. For details on how to create an album, please refer to the official [LINE Minna no Usage Guide](https://guide.line.me/ja/chats-calls-notifications/chats/create-albums.html) (in Japanese).
 
     【Example of a Profile Image】
     ![](fig2.jpg)
