@@ -5,8 +5,8 @@ title: 教育・研究活動のためのネットワーク環境支援2022（新
 
 <span style="color: red; ">
 **【重要 / Notice】**
-2022年度の受付を開始します。なお、2022年度は対象が新入学生（学部1年生および学外からの大学院新規入学者）となっております。ご注意ください。<br>
-Applications for the AY2022 are now being started. Please note that only new students (first-year undergraduate students and new graduate students from outside the university) are eligible. 
+本支援事業は終了することとなりました．新たな募集はありませんのでご了承ください．<br>
+This support program has been terminated. No new applications will be accepted.
 </span>
 
 ## 目的 / Purpose 
@@ -54,30 +54,14 @@ It will be offered to new students subject to the above conditions.
 Please apply using the form below. If possible, You soould use [ECCS cloud mail](/en/oc/index.html#google).
 If you are a faculty/staff member and wish to borrow a mobile WiFi router, please contact the general affairs office of your department.
 
-[【2022年度・新入学生用】東京大学 モバイルWiFiルーター貸与申込 / Application for a mobile WiFi router for UTokyo New Students](https://docs.google.com/forms/d/e/1FAIpQLSeU2PHgAGBGhgmHKUz5aZGRK_dNchwGO_AHzk0leJayr20WbQ/viewform?usp=sf_link)
+~~[【2022年度・新入学生用】東京大学 モバイルWiFiルーター貸与申込 / Application for a mobile WiFi router for UTokyo New Students]~~
 
 ## スケジュール / Schedule
 <span style="color: red; ">
 **■■■重要・受付スケジュール■■■** 
 </span>
 
-**第8弾　6/30(木)〆切、7/4(月)発送 / 6/30(Thu) Close, 7/4(Mon) Send**
-
-**第9弾　7/28(木)〆切、8/1(月)発送 / 7/28(Thu) Close, 8/1(Mon) Send**
-
-**第10弾　8/25(木)〆切、8/29(月)発送 / 8/25(Thu) Close, 8/29(Mon) Send**
-
-**第11弾　9/22(木)〆切、9/26(月)発送 / 9/22(Thu) Close, 9/26(Mon) Send**
-
-**第12弾　10/20(木)〆切、10/24(月)発送 / 10/20(Thu) Close, 10/24(Mon) Send**
-
-**第13弾　11/24(木)〆切、11/28(月)発送 / 11/24(Thu) Close, 11/28(Mon) Send**
-
 **第14弾　12/15(木)〆切、12/19(月)発送 / 12/15(Thu) Close, 12/19(Mon) Send**
 
-オンライン授業受講に支障がある場合については継続的に受け付けます。 
-【隔週木曜日まで】の申込分について、原則【翌週月曜日】に発送することにしています。 
-作業の都合上発送が遅れる場合があります。 
-
-We continuously accept the application for taking online classes.  
-Each Thursday, we will process applications received so far and send the routers to accepted applications at next monday.   Anticipate delays due to our workloads. 
+申し込み受け付けは終了いたしました。
+Applications are no longer being accepted.
