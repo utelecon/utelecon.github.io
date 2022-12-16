@@ -24,5 +24,3 @@ defaults:
       path: en
     values:
       lang: en
-      image: /assets/images/ogp.png
-      toc: true
