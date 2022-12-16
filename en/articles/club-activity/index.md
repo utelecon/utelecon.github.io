@@ -4,15 +4,15 @@ title: Online Tools for Club Activities
 
 ## Introduction
 
-This article introduces ways for students to interact and enliven their relationships by using online tools. It is mainly intended for students (club organizers, etc.) who want to enhance each member's sense of belonging to the club and promote interaction among members, even in situations where face-to-face club activities are restricted. Especially in clubs with a lot of members, active online interactions can bring more people closer than when activities are only done face-to-face. This section introduces three methods of interaction that are considered effective for nurturing lively relationships: “sharing profiles,” “creating an environment for easy chatting,” and “holding online social gatherings.” Each of these sections can be read independently, so please start with the one that best suits your needs.
+This article introduces ways for students to interact and enliven their relationships by using online tools. It is mainly intended for students (club organizers, etc.) who want to enhance each member’s sense of belonging to the club and promote interaction among members, even in situations where face-to-face club activities are restricted. Especially in clubs with a lot of members, active online interactions can bring more people closer than when activities are only done face-to-face. This section introduces three methods of interaction that are considered effective for nurturing lively relationships: “sharing profiles,” “creating an environment for easy chatting,” and “holding online social gatherings.” Each of these sections can be read independently, so please start with the one that best suits your needs.
 
 ## Tools Organized by Method
 
-We will now introduce the tools suitable for each of these methods. Although we have listed the advantages and disadvantages of each tool, note that the usefulness of the tool depends largely on the platform that is mainly used in the club. For example, if your club mainly communicates on LINE, it may be better to use the functions offered by LINE instead of going out of your way to use a third-party tool. Please consider which tool is more appropriate for your club's current situation.
+We will now introduce the tools suitable for each of these methods. Although we have listed the advantages and disadvantages of each tool, note that the usefulness of the tool depends largely on the platform that is mainly used in the club. For example, if your club mainly communicates on LINE, it may be better to use the functions offered by LINE instead of going out of your way to use a third-party tool. Please consider which tool is more appropriate for your club’s current situation.
 
 ### Profile sharing
 
-You can learn about each member's personality by sharing the self-introductions of club members. The list of members enhances each member's sense of belonging to the club, and also promotes interaction by providing an opportunity for conversation among the members.
+You can learn about each member’s personality by sharing the self-introductions of club members. The list of members enhances each member’s sense of belonging to the club, and also promotes interaction by providing an opportunity for conversation among the members.
 
 #### How to choose the right tool
 
@@ -26,7 +26,7 @@ In many cases, it is convenient to keep members’ profile information stored so
 
   - **Using Notes**
 
-    LINE's Note allows you to post text, images, videos, etc., to the group that can be reviewed at any time. It is possible to save the information of all members by posting profile introductions and other information in a single note. For details on how to create a note, please refer to the official [LINE Minna no Usage Guide](https://guide.line.me/ja/chats-calls-notifications/chats/create-notes.html) (in Japanese)
+    LINE’s Note allows you to post text, images, videos, etc., to the group that can be reviewed at any time. It is possible to save the information of all members by posting profile introductions and other information in a single note. For details on how to create a note, please refer to the official [LINE Minna no Usage Guide](https://guide.line.me/ja/chats-calls-notifications/chats/create-notes.html) (in Japanese)
 
     As shown in the image below, you can list multiple questions in advance to make it easier to share profiles.
 
@@ -69,7 +69,7 @@ To create a friendly atmosphere, a tool that can create multiple spaces for comm
 
   - **Add Custom Emojis**
 
-    Slack has a feature that allows users to add their own custom emojis. This feature makes it easier to interact in a way that suits the club’s atmosphere and motivates users to respond to other people's messages. Please refer to the official [help page](https://slack.com/intl/en-gb/help/articles/206870177-Add-customised-emoji-and-aliases-to-your-workspace) for details on how to add custom emojis.
+    Slack has a feature that allows users to add their own custom emojis. This feature makes it easier to interact in a way that suits the club’s atmosphere and motivates users to respond to other people’s messages. Please refer to the official [help page](https://slack.com/intl/en-gb/help/articles/206870177-Add-customised-emoji-and-aliases-to-your-workspace) for details on how to add custom emojis.
 
   - **Create a Hobby Channel**
 
@@ -89,7 +89,7 @@ To create a friendly atmosphere, a tool that can create multiple spaces for comm
 
     ![](fig4.png)
 
-    Other members can reply to the messages sent out, facilitating conversation among members. The senders also get into the habit of accessing the club's channel on a daily basis, which enhances their sense of belonging to the club.　The disadvantage is that things become complicated when the number of channels increases, so it is not suitable for groups with a large number of members. (Personal channels [times] are different from direct messages; they should be created just like any other channel and should be freely viewable by others.) For more information on how to create a channel, please refer to the official [help page](https://slack.com/help/articles/201402297-Create-a-channel).
+    Other members can reply to the messages sent out, facilitating conversation among members. The senders also get into the habit of accessing the club’s channel on a daily basis, which enhances their sense of belonging to the club. The disadvantage is that things become complicated when the number of channels increases, so it is not suitable for groups with a large number of members. (Personal channels [times] are different from direct messages; they should be created just like any other channel and should be freely viewable by others.) For more information on how to create a channel, please refer to the official [help page](https://slack.com/help/articles/201402297-Create-a-channel).
 
   - **Install Colla**
 
@@ -101,7 +101,7 @@ To create a friendly atmosphere, a tool that can create multiple spaces for comm
 
   - **Add Custom Emoji**
 
-    Discord has a feature that allows users to add their own custom emojis. This feature makes it easier to interact in a way that suits the club’s atmosphere and motivates users to respond to other people's messages. Please refer to the official [help page](https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis) for details on how to add custom emojis.
+    Discord has a feature that allows users to add their own custom emojis. This feature makes it easier to interact in a way that suits the club’s atmosphere and motivates users to respond to other people’s messages. Please refer to the official [help page](https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis) for details on how to add custom emojis.
 
   - **Create a Hobby Channel**
 
@@ -113,13 +113,13 @@ To create a friendly atmosphere, a tool that can create multiple spaces for comm
 
   - **Create Open Chat Talk Rooms for Hobbies**
 
-    LINE has a feature called "Open Chat" which allows users to exchange information and talk about different topics. You can create a talk room for a specific hobby or theme. You can easily enter and leave a talk room, and there is no need to become LINE friends. You can also set a participation code to limit those who can view open chat rooms to members of your club. For more information on how to create and use Open Chat, please refer to the official [help page](https://guide.line.me/ja/services/openchat.html) (in Japanese). You can also use LINE's Open Chat to create a channel similar to the one shown in the Slack example.
+    LINE has a feature called “Open Chat” which allows users to exchange information and talk about different topics. You can create a talk room for a specific hobby or theme. You can easily enter and leave a talk room, and there is no need to become LINE friends. You can also set a participation code to limit those who can view open chat rooms to members of your club. For more information on how to create and use Open Chat, please refer to the official [help page](https://guide.line.me/ja/services/openchat.html) (in Japanese). You can also use LINE’s Open Chat to create a channel similar to the one shown in the Slack example.
     ![](fig5.png)
     ![](fig6.png)
 
 ### Holding Online Social Gatherings
 
-Holding an online social event is a good way to interact with people with whom you do not normally communicate. Since many members will gather, it will also strengthen the sense of unity of the club. However, if the number of participants is large, you need to prepare a specific topic of conversation or a game to play, or you cannot move the conversation forward. (Online conversations generally put more pressure on the speaker than offline conversations because everyone's attention is focused on what one person has to say.)
+Holding an online social event is a good way to interact with people with whom you do not normally communicate. Since many members will gather, it will also strengthen the sense of unity of the club. However, if the number of participants is large, you need to prepare a specific topic of conversation or a game to play, or you cannot move the conversation forward. (Online conversations generally put more pressure on the speaker than offline conversations because everyone’s attention is focused on what one person has to say.)
 
 #### How to choose the right tool
 
@@ -153,5 +153,5 @@ When holding an online social gathering, it is better to use audio- or video-bas
   【Examples of Chat Meetings】
   - Bibliobattle: Participants introduce their favorite books to each other within a time limit to determine the winner. The theme can be replaced with movies, music, etc., instead of books. It is more enjoyable if participants share common interests.
   - Drawing: Participants decide how long they want to draw, and show their drawings to each other at the end of the session. Participants can also create works other than drawings. Participants can talk while they are drawing, but since each person is working, you don’t need to worry about the silences becoming awkward.
-  - Video viewing: Talk with each other while watching the same video at the same time. It is recommended to watch TV programs, YouTube premieres, etc. that are broadcast in real-time on each person’s terminal. (Watching movies, dramas, etc., using screen sharing may be prohibited by the terms and conditions of the video's distributor or the provider of the tools used).
+  - Video viewing: Talk with each other while watching the same video at the same time. It is recommended to watch TV programs, YouTube premieres, etc. that are broadcast in real-time on each person’s terminal. (Watching movies, dramas, etc., using screen sharing may be prohibited by the terms and conditions of the video’s distributor or the provider of the tools used).
 
