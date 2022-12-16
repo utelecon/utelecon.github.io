@@ -8,7 +8,7 @@ title: お知らせ
   {% for item in site.data.notice %}
     <li>
       <span class="notice-date">{{ item.date }}</span>
-      {{ item.content.ja | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+      {{ item.content.ja | default: item.content.en | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
     </li>
   {% endfor %}
 </ul>

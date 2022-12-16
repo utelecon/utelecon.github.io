@@ -83,7 +83,7 @@ description: 本サイトは，東京大学におけるオンライン授業やW
     {%- endunless %}
       <li>
         <span class="notice-date">{{ item.date }}</span>
-        {{ item.content.ja | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+        {{ item.content.ja | default: item.content.en | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
       </li>
     {%- endfor %}
   </ul>
