@@ -77,6 +77,78 @@ Zoom's recording function can save the shared screen in video format, so it is a
     * [Basic Use of Google Docs](/en/articles/google-document/)
     * Examples  of  minutes format
 
-**(img)**  
+![presentation.png](../group-presentation/img/presentations.png)  
 
+#### Flow of the first meeting
 
+##### ①Confirming the requirements of the presentation
+
+Check the time limit for your presentation, the number of slides specified, and the requirements for the theme in advance.  
+
+##### ②A rough determination of the presentation theme
+
+It is not necessary to finalize the theme at this stage, but it is helpful to decide on a certain direction first so that the subsequent discussions can proceed smoothly.  
+
+##### ③Discussing opinions
+
+Here members should share their ideas based on the presentation theme or discussion topic set by the group.  
+
+When doing so, it is helpful to first write down the ideas individually and then share them with group members to facilitate the exchange of opinions.  
+
+Repeating this process of exchanging opinions while revising the meeting topic through the leader's facilitation makes it easier to build a common base of mutual understanding.  
+
+If the discussion gets stuck and no opinions emerge, a technique called brainstorming can be effective. When brainstorming online, online whiteboard tools such as Miro and Jamboard can be used to efficiently generate and consolidate group opinions.  
+
+* Reference
+	* [About Miro (External link)](https://miro.com/whiteboard/)
+	* [About Jamboard (External link)](https://edu.google.com/intl/en_ALL/jamboard/)
+	* Miro usage example
+
+![Miro.png](../group-presentation/img/Miro.png)  
+
+##### ④Discussions to summarize opinions
+
+Organize and integrate the opinions that emerged in ③. It is advisable to gradually start thinking about the contents of the presentation while summarizing the opinions.  
+
+Since the process from ②-④ is important in forming the basis for deciding the content of the presentation, it is recommended to take your time by, for example, dividing the discussion into two sessions if you feel that the discussion is not sufficient enough.  
+
+##### ⑤Preparing the presentation materials
+
+Based on the ideas gathered through ②-④, the topic of the presentation as a whole is decided, which will then be used to determine the content and order of each slide.  
+
+After that, the assignment of roles, such as the creator of each slide, should be decided. If you decide on the actual presenters of the slides at the same time, this will make later preparations more efficient.  
+
+##### ⑥Scheduling the next meeting, etc.
+
+After a quick review (wrap-up) of what was discussed, the schedule for the next meeting should be determined. It is also a good idea to keep in mind what each person needs to do before the next meeting.  
+
+### 3. Preparing slides and other materials on your own 
+
+Based on the role assignments decided at the meeting, each participant should prepare their own slides. It is a good idea to use the collaborative editing function to edit slides and other materials using the same file.  
+
+Here, it is important to share the progress of all members by using communication tools such as LINE, etc., so that work can proceed systematically.  
+
+Questions that arise during the preparation of the file should also be shared with the entire group, ensuring that the next meeting can be held efficiently. If necessary, prepare a script for your presentation.
+
+### 4. Conducting the second meeting
+
+The following procedure is shown as an example.  
+
+* Discussion
+
+	* First, the participants will deal with the issues left over from the first meeting and clear up any questions that may have arisen in the preparation of their own materials. Based on this, the slides and other materials should be revised.
+
+* Practicing the presentation
+
+	* Decide the person in charge of the slides, etc., and practice the presentation
+
+	* It is recommended that only one person should be responsible for transitioning the slides in order to ensure that the actual presentation progresses smoothly. If there are any animations or visual effects on the slides, carefully check the timing of those effects.
+
+### 5. Giving the presentation
+
+Make your presentation based on what you have prepared. In the case of online presentations, it is advisable to prepare the necessary equipment well in advance of the presentation, since problems specific to online presentations may occur.  
+
+The above is an example of how to conduct a group presentation. Please modify the details according to your own requirements to create a presentation that is better suited to your needs.
+
+---
+Author: S.A., Online Education Supporter
