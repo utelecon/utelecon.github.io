@@ -2,7 +2,7 @@
 title: List of Information on System Operation Status (Service Alerts, etc.)
 ---
 
-The following is a list of pages that provide information on the operation status (service alerts, etc.) of the main information systems operated or contracted by the University of Tokyo. 
+The following is a list of pages that provide information on the operation status (service alerts, etc.) of the main information systems operated or contracted by the University of Tokyo.
 
 * UTokyo Account
   * [UTokyo Account page](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)
@@ -16,11 +16,11 @@ The following is a list of pages that provide information on the operation statu
   * [Webex Service Status](https://status.webex.com/service/status?lang=en_US)
   * [What’s New](https://help.webex.com/en-us/xcwws1/What-s-New-for-the-Latest-Channel-of-Webex-Meetings)
 * ECCS Cloud Email (Google Workspace)
-  * [Google Workspace Status Dashboard](https://www.google.co.jp/appsstatus/dashboard/) (in Japanese) 
+  * [Google Workspace Status Dashboard](https://www.google.co.jp/appsstatus/dashboard/) (in Japanese)
   * [ECCS News](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html)
-  * [ECCS Service Alert](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html)
+  * [ECCS Service Alert](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html#maintenance)
 * UTokyo Microsoft License (Microsoft 365)
-  * [Service Status](https://portal.office.com/servicestatus) (in Japanese)
+  * [Service Status](https://portal.office.com/servicestatus)
 * UTokyo WiFi
   * [UTokyo WiFi page](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html)
 * UTNET（On-campus network including UTokyo WiFi）
