@@ -97,14 +97,22 @@ MATLAB Onlineでは，ブラウザからオンラインリソースにアクセ�
 - 年に数回，「東大MATLABアンバサダー」による講習会が開催されています．参加申込みを受付中の講習会は[アンバサダーポータルサイト](https://sites.google.com/view/ut-matlab-amb/Event)に掲載されています．
 
 ## 授業利用についての情報
-教員から学生にMATLABのサンプルファイルを配布する際に，[MATLAB Drive](https://jp.mathworks.com/products/matlab-drive)や[File Exchange](https://jp.mathworks.com/matlabcentral/fileexchange/)を利用すると，より簡単にファイルの受け取りやプログラムの実行ができます．また，学生にスクリプトコードを作成する課題を行う場合，MATLAB Graderを利用することで，提出されたスクリプトに自動で採点・評価・フィードバックを行うことができます．
 
-利用例が[MathWorks社のウェブサイト](https://jp.mathworks.com/academia/courseware.html)で公開されていますので，こちらも参考にしてください．
+2022年12月20日開催の「**[MATLABの教育利用推進に向けた全学シンポジウム](/events/2022-12-20-matlab/)**」にて，学内でMATLABを活用して教育を行った事例を紹介しています．
+
+また，授業における利用例が[MathWorks社のウェブサイト](https://jp.mathworks.com/academia/courseware.html)で公開されていますので，こちらも参考にしてください．
+
 ### MATLAB Driveでのファイル共有
-準備中
+
+教員から学生にMATLABのサンプルファイルを配布する際に，[MATLAB Drive](https://jp.mathworks.com/products/matlab-drive)や[File Exchange](https://jp.mathworks.com/matlabcentral/fileexchange/)を利用すると，より簡単にファイルの受け取りやプログラムの実行ができます．
+
+詳細な説明は準備中です．
 
 ### MATLAB Graderの利用
-準備中
+
+学生にスクリプトコードを作成する課題を行う場合，MATLAB Graderを利用することで，提出されたスクリプトに自動で採点・評価・フィードバックを行うことができます．
+
+詳細な説明は準備中です．
 
 ## 高度な利用方法について
 準備中
