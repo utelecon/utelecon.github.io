@@ -34,7 +34,7 @@ title: 東京大学のシステム
 
 - **[UTokyo Slack](/slack/)**：ビジネスチャットツールと呼ばれるサービスの一種で，テキストメッセージをやり取りしてコミュニケーションを取るためのツールです．テキストメッセージを投稿できる「チャンネル」という場所を複数作って別々のやり取りを同時並行で行えるのが特徴です．なおUTokyo Slackでは，コミュニケーションを行う人が集まる単位である「ワークスペース」は，教職員からの申請により作成できます．
 - **[Slido](/slido/)**：Q&Aやライブ投票・アンケートなど，授業や会議・講演会などでの参加者との双方向コミュニケーションに役立つ機能を提供しているWebサービスです．Webexと連携しており，東京大学のWebexアカウントでサインインすると有料機能を利用することができます．
-- **[UTokyo MATLAB Campus-Wide License](https://www.u-tokyo.ac.jp/adm/dics/ja/matlabcwl.html)**：科学技術計算のためのソフトウェアであるMATLABを東京大学の包括ライセンスで利用できます．
+- **[UTokyo MATLAB Campus-Wide License](/matlab/)**：科学技術計算のためのソフトウェアであるMATLABを東京大学の包括ライセンスで利用できます．
 - 【学生向け】**[UTokyo Microsoft Windows 10 for students](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_win10.html)**：Microsoft Windows 10 Education Upgradeのライセンスを提供しています．既にWindowsのライセンスを持っている場合に利用できるアップグレードライセンスであり，Windowsのライセンスがない場合の新規インストールには利用できないことに注意してください．
 - **[UTokyo Microsoft Azure Dev Tools for Teaching](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_adt4t.html)**：Microsoftの開発者向けソフトウェアを提供しています．UTokyo Accountで利用するUTokyo Microsoft License (Microsoft 365) とは別のシステムで，アカウントも異なりますので，手順をよく確認して利用してください．
 

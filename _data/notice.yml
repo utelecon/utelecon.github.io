@@ -1,6 +1,10 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2022-12-20
+  content:
+    ja: "[UTokyo MATLAB Campus-Wide License](/matlab/)のページをuteleconポータルサイトに掲載しました．"
+-
   date: 2022-12-08
   content:
     ja: "2022年12月20日 16時30分～18時00分に，「[MATLABの教育利用推進に向けた全学シンポジウム](/events/2022-12-20-matlab/)」をハイブリッド開催します．"
