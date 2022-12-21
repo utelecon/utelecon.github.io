@@ -8,7 +8,7 @@ The following is a list of pages that provide information on the operation statu
   * [UTokyo Account page](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)
 * ITC-LMS and ECCS terminals
   * [News](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html)
-  * [Service Alert](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html)
+  * [Service Alert](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html#maintenance)
 * Zoom
   * [Zoom Service Status](https://status.zoom.us/)
   * [Zoom Release Notes](https://support.zoom.us/hc/en-us/sections/201214205-Release-Notes)
