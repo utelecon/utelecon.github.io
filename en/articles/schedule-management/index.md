@@ -43,6 +43,8 @@ In the following, this article assumes that you are logging in with an ECCS Clou
 
 ### Basic Instructions
 
+![Screenshot from the home view of Google Calendar](img/basic_screen.png)
+
 Each numbered icon has the following functions.
 
 1. Settings
@@ -104,6 +106,8 @@ This section describes how to add and set up appointments in general. In univers
 
 #### Basic instructions for scheduling appointments
 
+![Screenshot of Google Calendar. A window to create an event is shown.](img/create_schedule.png)
+
 - If you click on the time zone where you want to add an appointment, an appointment scheduling screen similar to the one shown above will appear.
 - Clicking the "+Create" button in the upper left corner will also bring up the same screen for adding appointments.
 
@@ -125,6 +129,8 @@ This section describes how to add and set up appointments in general. In univers
 
 - You can set up more advanced options for your schedule here.
 - When you click on the button, the following window will be displayed. The information that can be entered in "B. Appointment details" can also be entered using the "Other options" screen. Please refer to the ["Appointment details"](#appointment-details) below for the details that can be entered in each field. Entering the items found in "B. Appointment details" are generally sufficient to set up a meeting, but some settings can only be entered using the "Other options" screen; for example, the guest’s permission settings in "7. Add Guest."
+
+![Screenshot from Google Calendar. A page to edit details of the event is shown.](img/schedule_settings.png)
 
 <p id="appointment-details">
 <strong>Appointment details</strong>
@@ -170,6 +176,8 @@ This section describes how to add and set up appointments in general. In univers
 
 My Calendar allows you to categorize and manage your appointments. For example, you can organize your part-time job schedule, plan to hang out with your friends, class schedule, and so on into different calendars, making it easier to organize and check your schedule.
 
+![Screenshot from Google Calendar. A page to create new calendar is shown.](img/create_my_calendar.png)
+
 - Click the "+" to the right of "Other Calendars" and select "Create New Calendar" to display the screen shown above.
 - After entering the name and description of the new calendar, click "Create Calendar" to add the new calendar to My Calendars.
 - To organize your appointments by category, simply select and register the appropriate calendar when creating an appointment.
@@ -180,12 +188,18 @@ In your college life, you will sometimes need to schedule regular appointments, 
 
 #### Setting recurring appointment dates and times
 
+![](img/regular_events.png)
+
 - To set a recurring appointment, you need to use the pull-down button in the date/time settings.
 - There are various recurrence settings, and appointments can be specified down to the date and year.
 - For more detailed settings, click on the "Custom" button. A window will appear as shown below.
 - You can set the repeating interval, the day of the week, and the end date of the repeating cycle in detail.
 
+![](img/recursive_events.png)
+
 #### How to delete a recurring appointment
+
+![](img/delete_regular_events.png)
 
 - When you delete a recurring appointment, a window like the one shown above will appear.
 - If you want to delete just one event, select "This event."
@@ -200,9 +214,13 @@ There are many deadlines at the university, such as submitting assignments and f
 
 Google Calendar has a task management function called Todo List. You can use it to manage task deadlines and priorities.
 
+![Screenshot from Google Calendar. A window to create a task is shown.](img/create_tasks.png)
+
 There are two ways to use the Todo List. One is to select "Tasks" (①) from the "Appointment Types" menu, and the other is to select "Todo List" (②) from the add-on bar on the right.
 
 When you click the icon marked ②, the following screen will appear.
+
+![Screenshot from Google Calendar, after clicking the "Tasks" icon. List of todos is shown.](img/manage_tasks.png)
 
 Here you will see a list of the tasks you have created, and you can do things such as the following:
 
@@ -216,11 +234,14 @@ Here you will see a list of the tasks you have created, and you can do things su
 
 ### Integration of calendars from different accounts
 
+![](img/share_calendar.png)
+
 If you have multiple Google accounts and use separate calendars for each account, your events are scattered between different Google calendars, which can be troublesome to coordinate. In such a case, you can integrate the calendars of different accounts into one calendar for better visibility and centralized management of events.
 
 1. Open the Google Calendar of the account you want to share．
 2. Go to Settings and select the calendar you want to share.
-3. Select "Share with specific users" and click "+Add user".
+3. Select "Share with specific users" and click "+Add people".
+   ![](img/authorization_settings.png)
 4. Enter the Google account you want to share and set the access rights to the calendar. There are four types of permissions.
 
     - Show schedules
