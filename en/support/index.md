@@ -28,6 +28,7 @@ Chat support is available for simple inquiries. A chatbot (an automated response
 
 <div>Business hours (Automated response): 24 hours</div>
 <div>Business Hours (Operator): 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri).</div>
+<div>* Operator support is not available from December 29, 2022 to January 3, 2023 due to the year-end and the new-year holidays.</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 Start a chat (Click on the “チャットサポートで質問できます (Chat Support Available)” widget at the bottom right of your screen)
@@ -43,6 +44,7 @@ When you access the Zoom meeting room, you will first be taken to a waiting room
 * To access meeting room information, you must sign in with your UTokyo Account.
 
 <div>Business Hours: 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri).</div>
+<div>* Zoom support is not available from December 29, 2022 to January 3, 2023 due to the year-end and the new-year holidays.</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">Access the Zoom meeting room (Click on the link under “Meeting room information of Zoom support” in the “Online Course Information” section)</a> 
