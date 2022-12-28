@@ -1,19 +1,19 @@
 {% comment %}Apply for a UTokyo WiFi Account{% endcomment %}
 <ul>
 {%- if page.slug == "oc" %}
-  <li><a href="/oc/movies#utokyo_wifi">手順動画</a></li>
+  <li><a href="/oc/movies#utokyo_wifi">Procedure video (in Japanese)</a></li>
 {%- else %}
   <li>Note: If you already have a valid UTokyo WiFi account, you do not need to repeat the account issuance procedure (the same account can be used for the second and subsequent devices).</li>
 {%- endif %}
 {%- if page.slug == "oc"%}
-  <li>UTASにメールアドレスを登録した翌日以降に作業してください．</li>
+  <li>Please apply one day after your email address registration in UTAS.</li>
 {%- else %}
   <li>Note: Step 3 should be carried on after a day you registered your email address in Step 2 above.</li>
 {%- endif %}
 </ul>
 <ol>
 {%- if page.slug == "oc" %}
-  <li>「<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFiアカウントメニュー</a>」にアクセスしてください．</li>
+  <li>Access the "<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFi Account Menu</a> (from Japan only)".</li>
 {%- else %}
   <li>Access the "UTokyo WiFi Account Menu" below.
     <b class="box center"><a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFi Account Menu (from Japan only)</a></b>
@@ -36,17 +36,17 @@
     <details>
       <summary>When this procedure does not work</summary>
       <ul>
-        <li><strong>When you cannot access to account menu</strong>: The account menu can only be accessed from networks that are generally considered domestic networks. If you are unable to access the system, please consider applying using an ECCS terminal on campus. Please check <a href="https://www.ecc.u-tokyo.ac.jp/guest_account.html">the ECCS website (in Japanese)</a> for details.
+        <li><strong>When you cannot access to account menu</strong>: The account menu can only be accessed from networks that are generally considered domestic networks. If you are unable to access the system, please consider applying using an ECCS terminal on campus. Please check <a href="https://www.ecc.u-tokyo.ac.jp/guest_account.html">the ECCS website (in Japanese)</a> for details.</li>
         <li>
           <strong>If the following screen appears and you cannot access your account menu:</strong>
           <img src="/utokyo_wifi/img/account_menu_login_denied.png" class="small">
           Your account has been suspended because you have not completed information security education. Please refer to {%
             if page.slug == "oc"
-          %}<a href="/utokyo_wifi#jouhou-security">"Information Security Education" on UTokyo WiFi page</a>{%
+          %}<a href="/en/utokyo_wifi/#jouhou-security">"Information Security Education" on UTokyo WiFi page</a>{%
             else
           %}<a href="#jouhou-security">"Information Security Education"</a>{%
             endif
-          %} for details.</li>
+          %} for details.
         </li>
         <li><strong>If you do not receive a notification email</strong>: 
           <ul>
