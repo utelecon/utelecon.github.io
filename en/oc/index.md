@@ -96,7 +96,10 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 {% include procedures/en/utokyo_account.html part="important" %}
 {% include procedures/en/google.html part="important" %}
 {% include procedures/en/utas.html part="important" %}
-{% include procedures/en/utokyo_wifi.html part="important" %}
+    <li>
+        <strong>UTokyo WiFi: Apply for an account</strong>
+{% include en/systems/utokyo_wifi/apply.html part="important" %}
+    </li>
 </ul>
 
 ## Other Procedures to Use the Information Systems
@@ -157,7 +160,18 @@ This is a web conferencing system used for some “simultaneous interactive” c
 
 {{ about_utokyo_wifi }}
 
-{% include procedures/en/utokyo_wifi.html %}
+<ul>
+    <li>
+        <details>
+            <summary>(Repost) <strong>Task: Apply for an account</strong></summary>
+{% include en/systems/utokyo_wifi/apply.html %}
+        </details>
+    </li>
+    <li>
+        <strong>Task: Try connecting</strong>
+{% include en/systems/utokyo_wifi/connect.html %}
+    </li>
+</ul>
 
 ### ECCS terminals
 {:#eccs}

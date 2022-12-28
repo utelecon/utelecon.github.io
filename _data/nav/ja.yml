@@ -39,7 +39,7 @@
       url: "https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html"
     -
       name: "UTokyo WiFi"
-      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html"
+      url: "/utokyo_wifi/"
     -
       name: "ECCS端末"
       url: "https://www.ecc.u-tokyo.ac.jp/"

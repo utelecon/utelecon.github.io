@@ -1,0 +1,68 @@
+{% comment %}Apply for a UTokyo WiFi Account{% endcomment %}
+<ul>
+{%- if page.slug == "oc" %}
+  <li><a href="/oc/movies#utokyo_wifi">Procedure video (in Japanese)</a></li>
+{%- else %}
+  <li>Note: If you already have a valid UTokyo WiFi account, you do not need to repeat the account issuance procedure (the same account can be used for the second and subsequent devices).</li>
+{%- endif %}
+{%- if page.slug == "oc"%}
+  <li>Please apply one day after your email address registration in UTAS.</li>
+{%- else %}
+  <li>Note: Step 3 should be carried on after a day you registered your email address in Step 2 above.</li>
+{%- endif %}
+</ul>
+<ol>
+{%- if page.slug == "oc" %}
+  <li>Access the "<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFi Account Menu</a> (from Japan only)".</li>
+{%- else %}
+  <li>Access the "UTokyo WiFi Account Menu" below.
+    <b class="box center"><a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFi Account Menu (from Japan only)</a></b>
+  </li>
+{%- endif %}
+  <li>If you have not signed in to UTokyo WiFi, the UTokyo Account sign-in screen will appear. Sign in to your UTokyo Account.</li>
+  <li>Click on the "New Application" Button.</li>
+  <li>Check the "Notification E-mail Address" field, if there is the email address {%
+    if page.slug == "oc"
+  %}that you have registerd by the previous day on UTAS.{%
+    else
+  %}that you registered in Step 2. {%
+    endif
+  %}Email will be sent to that address to notify your account information (user ID and password), which is necessary for using UTokyo WiFi.</li>
+  <li>Click on the "Apply" button.</li>
+  <li>After a little while, you will receive a notification email.</li>
+</ol>
+<ul>
+  <li>
+    <details>
+      <summary>When this procedure does not work</summary>
+      <ul>
+        <li><strong>When you cannot access to account menu</strong>: The account menu can only be accessed from networks that are generally considered domestic networks. If you are unable to access the system, please consider applying using an ECCS terminal on campus. Please check <a href="https://www.ecc.u-tokyo.ac.jp/guest_account.html">the ECCS website (in Japanese)</a> for details.</li>
+        <li>
+          <strong>If the following screen appears and you cannot access your account menu:</strong>
+          <img src="/utokyo_wifi/img/account_menu_login_denied.png" class="small">
+          Your account has been suspended because you have not completed information security education. Please refer to {%
+            if page.slug == "oc"
+          %}<a href="/en/utokyo_wifi/#jouhou-security">"Information Security Education" on UTokyo WiFi page</a>{%
+            else
+          %}<a href="#jouhou-security">"Information Security Education"</a>{%
+            endif
+          %} for details.
+        </li>
+        <li><strong>If you do not receive a notification email</strong>: 
+          <ul>
+            <li>Please check your spam folder. </li>
+            <li>Check your email address. The email will be sent to the email address indicated in the "Notification e-mail address" {%
+              if page.slug == "oc"
+            %}(which you have registered by the previous day on UTAS.) {%
+              else
+            %}(which you have registered by the previous day in Step 2.) {%
+              endif
+            %}field on the application screen.</li>
+            <li>In some cases, emails may not be delivered correctly depending on the email address. In particular, @icloud.com email addresses are known not to receive email. Gmail (@gmail.com) email addresses often receive the messages late. Please change your email address registration to another one and submit your application again the next day or later; we recommend you to use ECCS Cloud Email (@g.ecc.u-tokyo.ac.jp).</li>
+          </ul>
+        </li>
+      </ul>
+      If you still have problems, please contact <a href="/en/support/">the Technical Support Desk</a>.
+    </details>
+  </li>
+</ul>

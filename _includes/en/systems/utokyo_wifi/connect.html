@@ -1,0 +1,50 @@
+{% comment %}Connect to UTokyo WiFi{% endcomment %}
+<ul>
+  <li>This process can only be done in the place where UTokyo WiFi (Wi-Fi with SSID <code>UTokyo-WiFi</code>) is visible on the WiFi setting menu of your own devices.</li>
+</ul>
+<ol>
+  <li>Select UTokyo WiFi on the Wi-Fi connection settings screen of
+    {%
+    if page.slug == "oc"
+  %} the device you want to connect.{%
+    else
+  %} the device you checked in Step 1.
+  {% endif %}
+  </li>
+  <li>When you try to connect, you will be asked for your user ID and password. Enter the account information in the email you received{%
+    if page.slug == "oc"
+  %} in the step above {%
+    else
+  %} in Step 3 {%
+    endif
+  %}(it is not the UTokyo Account information).</li>
+  <li>Once you establish a connection, you can use it just like any normal Wi-Fi.</li>
+</ol>
+<ul>
+  <li>When connecting, you may be asked to verify your certificate or to enter the information described in the {%
+    if page.slug == "oc"
+  %}<a href="/utokyo_wifi/#connect-configuration">"Advanced Connection Settings" on UTokyo WiFi page</a>{%
+    else
+  %}<a href="#connect-configuration">"Connect Configuration"</a> section below{% 
+    endif
+  %}.
+  </li>
+  <li>
+    Please refer to <a href="https://www.sodan.ecc.u-tokyo.ac.jp/?page_id=3996">ECCS Tutor’s page</a> as well if you are unsure. There are detailed connection instructions for each device.
+    You may also refer to <a href="https://www.eduroam.jp/for_users/">the "User's Guide" on the page of the Wi-Fi system called "eduroam"</a>, which has a similar connection method (replace eduroam with UTokyo-WiFi when you read the page).
+  </li>
+  <li>
+    <details>
+      <summary>When this procedure does not work</summary>
+      <ul>
+        <li>If the signal is weak, the connection may be interrupted. Try different locations or times of the day.</li>
+        <li>The user ID is an 8-digit alphanumeric character string beginning with an alphabet (s or w). Please include the alphabetical part as well.</li>
+        <li>Make sure you have entered the symbols in the password correctly. Try copying and pasting from the notification email.</li>
+        <li>If you are copying and pasting from a notification email, please make sure that there are no extra spaces before or after the password.</li>
+        <li>If you have multiple applications for an account during the process, only one of them will be valid; only the account listed in the <a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFi account menu (in Japanese)</a> will be valid, so please check.</li>
+        <li>The trouble may be caused by devices which are not kept up to date. Old MacOS, Windows 7 or earlier, and other devices (smartphones, etc.) that have not been updated should be updated to the latest version before connecting.</li>
+      </ul>
+      If you still have problems, please contact <a href="/en/support/">the Technical Support Desk</a>.
+    </details>
+  </li>
+</ul>
