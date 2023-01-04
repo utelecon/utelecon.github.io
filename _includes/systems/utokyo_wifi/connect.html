@@ -1,6 +1,6 @@
 {% comment %}UTokyo WiFiに実際に接続する{% endcomment %}
 <ul>
-  <li>この作業はキャンパス内のUTokyo WiFi（SSIDが <code>UTokyo-WiFi</code> となっているWi-Fi）が見える場所でしかできません．</li>
+  <li>この作業はキャンパス内のUTokyo WiFi（SSIDが <code>UTokyo-WiFi</code> または <code>0000UTokyo</code> となっているWi-Fi）が見える場所でしかできません．</li>
 </ul>
 <ol>
   <li>{%
@@ -9,12 +9,12 @@
     else
   %}手順1で確認した{%
     endif
-  %}端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
+  %}端末のWi-Fi接続設定画面で，<code>0000UTokyo</code>（表示されない場合は <code>UTokyo WiFi</code>）を選んでください．</li>
   <li>接続しようとするとユーザーIDとパスワードを聞かれるので，{%
     if page.slug == "oc"
   %}上の手順{%
     else
-  %}手順3{%
+  %}手順2{%
     endif
   %}で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
   <li>接続が完了すれば，後は普通のWi-Fiと同様に使えます．</li>
