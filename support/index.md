@@ -26,7 +26,6 @@ description: 東京大学のオンライン授業・Web会議に関連した様�
 
 <div>対応時間（自動応答）：24時間</div>
 <div>対応時間（オペレータ対応）：平日 8時25分から18時30分まで</div>
-<div>※2022年12月29日～2023年1月3日は年末年始のためオペレータ対応は行いません．</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 画面右下のウィジェット<br>「チャットサポートで質問できます」から
@@ -42,7 +41,6 @@ Zoomの会議室において，学生スタッフ（コモンサポーター）�
 * 会議室情報へのアクセスには，UTokyo Accountでのサインインが必要です．
 
 <div>対応時間：平日 8時25分から18時30分まで</div>
-<div>※2022年12月29日～2023年1月3日は年末年始のためZoomでの対応は行いません．</div>
 
 <div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
 <a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">会議室情報（リンク先の「Zoomサポートの会議室情報」を確認してください）</a>
