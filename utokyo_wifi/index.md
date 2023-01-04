@@ -51,23 +51,11 @@ UTokyo Wi-Fiは，各個人が占有して利用する機器でのみ利用可�
     <div>通常のノートパソコンやスマートフォン，タブレットでは基本的にUTokyo Wi-Fiの利用が可能ですが，これ以外の電子機器や古い機器では接続ができないことがあります．例えば，WPA2-Enterprise方式に対応していない機器は接続できません．接続にあたっては，その機器のOSやドライバのアップデートを確認し，適切に更新して利用するようにしてください．</div>
   </li>
   <li>
-    <strong>手順2：アカウント情報を受け取るメールアドレスをシステムに登録する</strong>
-    <ol>
-      <li>
-        UTokyo Wi-Fiアカウントの発行にはあらかじめメールアドレスの登録が必要です．以下の手順に従って登録を行ってください．使用できるメールアドレスが既に登録されている場合は，そのままにして手順3に進んでかまいません．
-        <ul>
-          <li>学生の場合：<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">UTAS</a>にログインし，「学生情報」メニューにある「現住所等変更入力」で「E-MAIL 1」を設定してください（なお，「E-MAIL 2」のアドレスはUTokyo Wi-Fiのメール送信先としては使えません）．</li>
-          <li>教職員の場合：<a href="https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx">人事情報MyWeb</a>にログインし，「パーソナルメニュー」から「学内メールアドレス」の欄を設定してください．</li>
-        </ul>
-      </li>
-    </ol>
-  </li>
-  <li>
-    <strong>手順3：UTokyo Wi-Fiアカウントの発行を申請する</strong>
+    <strong>手順2：UTokyo Wi-Fiアカウントの発行を申請する</strong>
 {% include systems/utokyo_wifi/apply.html %}
   </li>
   <li>
-    <strong>手順4：UTokyo Wi-Fiアカウントの発行を申請する</strong>
+    <strong>手順3：UTokyo Wi-Fiアカウントの発行を申請する</strong>
 {% include systems/utokyo_wifi/connect.html %}
   </li>
 </ul>
