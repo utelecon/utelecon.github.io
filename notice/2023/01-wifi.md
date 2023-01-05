@@ -17,9 +17,9 @@ UTokyo Wi-Fiの接続先 (SSID) はこれまで`UTokyo-WiFi`でしたが，**今
 - 接続先 (SSID) として`UTokyo-WiFi`のみが利用可能な場所
     - 2023年2月末までをめどに`0000UTokyo`が利用可能となるよう対応する予定ですので，それまでの間は`UTokyo-WiFi`に接続してください．
 - 接続先 (SSID) として`UTokyo-WiFi`と`0000UTokyo`の両方が利用可能な場所
-    - `0000UTokyo`に接続していれば問題ありません．
+    - 更新作業の進捗に伴い`UTokyo-WiFi`が利用できなくなる場合がありますので，`0000UTokyo`に接続するようにしておくのがスムーズです．
 - 接続先 (SSID) として`0000UTokyo`のみが利用可能な場所
-    - `0000UTokyo`に接続していれば問題ありません．
+    - `0000UTokyo`に接続してください．
 
 ## UTokyo Wi-Fiアカウントの発行方法が変わります
 2023年1月<span style="background:yellow;">xx</span>日以降に発行されたUTokyo Wi-Fiアカウントには，以下の変更が適用されます．
