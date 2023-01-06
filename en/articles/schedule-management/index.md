@@ -116,19 +116,19 @@ This section describes how to add and set up appointments in general. In univers
 **A. Type of appointment**
 
 - You can set the type of appointments in detail here.
-- You will mainly use "Event" or "Tasks" to manage your personal schedule.
-- "Silent mode" and "Out of office" are used when you want to decline meeting invitations from other people, etc.
-- A "Bookable appointment schedule" is used when you want to let an unspecified number of people know when you are available. Once an "appointment schedule" is set, others can make entries in the set reservation slots to set up meetings, etc.
+- You will mainly use "Event" or "Task" to manage your personal schedule.
+- "Focus time" and "Out of office" are used when you want to decline meeting invitations from other people, etc.
+- "Appointment schedule" is used when you want to let an unspecified number of people know when you are available. Once an "appointment schedule" is set, others can make entries in the set reservation slots to set up meetings, etc.
 
 **B. Contents of the appointment**
 
 - You can enter the necessary information for the appointment in the input box to the right of each of the icons shown here.
 - For more information on what each icon means, please refer to the ["Appointment details"](#appointment-details) below.
 
-**C. Other options**
+**C. More options**
 
 - You can set up more advanced options for your schedule here.
-- When you click on the button, the following window will be displayed. The information that can be entered in "B. Appointment details" can also be entered using the "Other options" screen. Please refer to the ["Appointment details"](#appointment-details) below for the details that can be entered in each field. Entering the items found in "B. Appointment details" are generally sufficient to set up a meeting, but some settings can only be entered using the "Other options" screen; for example, the guest’s permission settings in "7. Add Guest."
+- When you click on the button, the following window will be displayed. The information that can be entered in "B. Contents of the appointment" can also be entered using the "More options" screen. Please refer to the ["Appointment details"](#appointment-details) below for the details that can be entered in each field. Entering the items found in "B. Contents of the appointment" are generally sufficient to set up a meeting, but some settings can only be entered using the "More options" screen; for example, the guest’s permission settings in "⑦ Adding guests."
 
 ![Screenshot from Google Calendar. A page to edit details of the event is shown.](img/schedule_settings.png)
 
@@ -170,7 +170,7 @@ This section describes how to add and set up appointments in general. In univers
 **⑦ Adding guests**
 
 - By adding a guest with an email address, you can share and co-edit the schedule with the guest.
-- Guests' access rights can only be set from the "Other Options" menu.
+- Guests' access rights can only be set from the "More options" menu.
 
 #### How to sort the schedule by category
 
@@ -178,13 +178,13 @@ My Calendar allows you to categorize and manage your appointments. For example, 
 
 ![Screenshot from Google Calendar. A page to create new calendar is shown.](img/create_my_calendar.png)
 
-- Click the "+" to the right of "Other Calendars" and select "Create New Calendar" to display the screen shown above.
+- Click the "+" to the right of "Other calendars" and select "Create new calendar" to display the screen shown above.
 - After entering the name and description of the new calendar, click "Create Calendar" to add the new calendar to My Calendars.
 - To organize your appointments by category, simply select and register the appropriate calendar when creating an appointment.
 
 ### Managing Regular Appointments
 
-In your college life, you will sometimes need to schedule regular appointments, such as club and lab meetings, classes, and part-time jobs, for example.. Even in the case of regular appointments, you may forget your schedule when you are busy. To avoid this, you need to keep track of your schedule.
+In your college life, you will sometimes need to schedule regular appointments, such as club and lab meetings, classes, and part-time jobs, for example. Even in the case of regular appointments, you may forget your schedule when you are busy. To avoid this, you need to keep track of your schedule.
 
 #### Setting recurring appointment dates and times
 
@@ -259,7 +259,7 @@ Using Google Calendar, you can invite all members of a Google Group to an appoin
 #### Invite the entire group to an appointment
 
 - You can invite group members to individual appointments.
-- Enter the name of the group you want to invite in the "Add Guest" box as described in ["Basic instructions for scheduling appointments"](#basic-instructions-for-scheduling-appointments).
+- Enter the name of the group you want to invite in the "Add guests" box as described in ["Basic instructions for scheduling appointments"](#basic-instructions-for-scheduling-appointments).
 - To use this function, you must have access to the group's conversations and members' email addresses. Please check the group's settings. If you do not have these rights, users will receive the invitation, but they will need to add the event to their own calendars manually.
 - Please refer to [this article (currently in Japanese)](/articles/google-groups/) for details on setting Google Groups permissions.
 
