@@ -240,7 +240,7 @@ If you have multiple Google accounts and use separate calendars for each account
 
 1. Open the Google Calendar of the account you want to share．
 2. Go to Settings and select the calendar you want to share.
-3. Select "Share with specific users" and click "+Add people".
+3. Select "Share with specific people or groups" and click "+Add people and groups".
    ![](img/authorization_settings.png)
 4. Enter the Google account you want to share and set the access rights to the calendar. There are four types of permissions.
 
