@@ -6,4 +6,5 @@ group :jekyll_plugins do
   gem 'jekyll-target-blank'
 end
 gem 'jekyll'
+gem 'wdm', '>= 0.1.0', install_if: Gem.win_platform?
 gem 'webrick'
