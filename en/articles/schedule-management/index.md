@@ -47,35 +47,35 @@ In the following, this article assumes that you are logging in with an ECCS Clou
 
 Each numbered icon has the following functions.
 
-1. Settings
-2. Changing display
-3. Changing account
-4. My Calendars
-5. Other Calendars
+- ① Settings
+- ② Changing display
+- ③ Changing account
+- ④ My Calendars
+- ⑤ Other Calendars
 
 The following is a description of the specific function of each icon.
 
-#### 1. Settings (Preferences)
+#### ① Settings (Preferences)
 
 - Click here to set up your own personalized calendar settings. For example, you can change the "Notification settings" and "View options" of appointments to suit your personal preferences.
 - You can also view deleted events in the "Trash" box.
 
-#### 2. Changing display
+#### ② Changing display
 
 - You can choose to display the schedule in "Day," "Week," "Month," "Year," "Schedule," or "4 Days (Custom View)."
 - You can change the view to suit your own preferences in the "Custom View." The default setting for this "Custom View" is "4 days," but you can change it to, for example,  "3 days" or "2 weeks" from "Set custom view" in "Settings" to suit your own preferences.
 
-#### 3. Changing account
+#### ③ Changing account
 
 - If you have more than one Google account, you can change the account by clicking here.
 - When you change the account, the calendar will switch to the calendar of that account.
 
-#### 4. My Calenders
+#### ④ My Calenders
 
 - The "My calendars" column shows the calendars for which you have the "Make changes & manage sharing" access permission enabled in the calendar sharing settings.
 - "Make changes & manage sharing" is the most powerful access permission that can be granted to the calendar sharer, allowing him or her to perform the same operations as the owner of the calendar, such as changing appointments and sharing settings.
 
-#### 5. Other calendars
+#### ⑤ Other calendars
 
 - Calendars with permissions other than "Make changes & manage sharing" will be displayed here.
 - Specifically, calendars that are authorized only to view and change appointments are displayed.
@@ -136,41 +136,41 @@ This section describes how to add and set up appointments in general. In univers
 <strong>Appointment details</strong>
 </p>
 
-1. Settings date and time
+**① Settings date and time**
 
-    - This is where you set the date and time of the appointment.
-    - You can also set the time zone and set a repeating or all-day schedule.
+- This is where you set the date and time of the appointment.
+- You can also set the time zone and set a repeating or all-day schedule.
 
-2. Adding locations
+**② Adding locations**
 
-    - You can add the location of the appointment, such as a link to Google Maps.
-    - The URL of a Zoom meeting can also be pasted here, allowing you to join the meeting with a single click.
+- You can add the location of the appointment, such as a link to Google Maps.
+- The URL of a Zoom meeting can also be pasted here, allowing you to join the meeting with a single click.
 
-3. Setting notifications
+**③ Setting notifications**
 
-    - Up to five notifications can be set.
-    - In addition to pop-up notifications that appear on the screen, you can also set email notifications.
+- Up to five notifications can be set.
+- In addition to pop-up notifications that appear on the screen, you can also set email notifications.
 
-4. Categorizing schedules
+**④ Categorizing schedules**
 
-    - You can classify your appointments under one of the groups in My calendars.
-      - If there are multiple groups (in My calendars) with which you want to share your calendar, you can click here to select which group you want to share the appointment with.
-    - You can also change the color of the appointments to make them easier to see.
+- You can classify your appointments under one of the groups in My calendars.
+  - If there are multiple groups (in My calendars) with which you want to share your calendar, you can click here to select which group you want to share the appointment with.
+- You can also change the color of the appointments to make them easier to see.
 
-5. Privacy setting of schedules
+**⑤ Privacy setting of schedules**
 
-    - You can set whether or not to display events when you share your calendar with others.
-    - For details, please refer to [this page](https://support.google.com/calendar/answer/34580).
+- You can set whether or not to display events when you share your calendar with others.
+- For details, please refer to [this page](https://support.google.com/calendar/answer/34580).
 
-6. Adding a schedule description
+**⑥ Adding a schedule description**
 
-    - You can add any information you want to your schedule.
-    - You can also import external files or embed a Google Docs document, for example.
+- You can add any information you want to your schedule.
+- You can also import external files or embed a Google Docs document, for example.
 
-7. Adding guests
+**⑦ Adding guests**
 
-    - By adding a guest with an email address, you can share and co-edit the schedule with the guest.
-    - Guests' access rights can only be set from the "Other Options" menu.
+- By adding a guest with an email address, you can share and co-edit the schedule with the guest.
+- Guests' access rights can only be set from the "Other Options" menu.
 
 #### How to sort the schedule by category
 
