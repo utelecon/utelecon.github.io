@@ -22,7 +22,7 @@ We believe there will be three possible scenarios.
     - Please connect to `0000UTokyo`.
 
 ## The procedure for issuing UTokyo Wi-Fi accounts will change
-Starting from February 1, 2023, the procedure for issuing out a UTokyo Wi-Fi account will change as follows.
+Starting from February 1, 2023, the procedure for issuing out a UTokyo Wi-Fi account will change as follows. Please note that your existing account is still available, so there is no need to create a new account.
 
 - The URL of the UTokyo Wi-Fi account menu will change. The new URL will be posted on [The UTokyo Wi-Fi page of the portal site “utelecon”](/en/utokyo_wifi/).
 - Previously it was necessary for a new account to be issued every six months. However, the new UTokyo Wi-Fi account will be valid until the end of April of the following fiscal year. Therefore, you only need to have a new account issued once a year.
