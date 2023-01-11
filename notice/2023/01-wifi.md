@@ -44,5 +44,5 @@ UTokyo Wi-Fiのセキュリティ対策については，継続して実施し�
 ### UTokyo Wi-Fiアカウントでそのままeduroamが利用可能になります
 - UTokyo Wi-FiアカウントのユーザーIDとパスワードを用いて，大学や研究機関等での相互利用が可能な無線LANサービス[eduroam](https://eduroam.jp/)に接続できるようになります．
     - 2023年2月1日以降に発行されたUTokyo Wi-Fiアカウントのみが対象です．
-- 当面の間，[東京大学EDUROAMユーザー情報管理システム](https://www.eduroam.itc.u-tokyo.ac.jp/)で発行した既存のeduroamアカウントも引き続きお使いいただけます．
+- 当面の間，[東京大学EDUROAMユーザー情報管理システム](https://www.eduroam.itc.u-tokyo.ac.jp/cgi-bin/ja/top.cgi)で発行した既存のeduroamアカウントも引き続きお使いいただけます．
     - 既存のeduroamアカウントには，東京大学内であればユーザーIDの入力時に`@u-tokyo.ac.jp`を省略していてもeduroamに接続することができるという仕様がありましたが，この仕様は廃止されます．
