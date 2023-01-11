@@ -2,7 +2,7 @@
 title: Changes in usage of UTokyo Wi-Fi due to renewal
 ---
 
-The University of Tokyo is upgrading its network environment to improve the infrastructure for education and research activities. As a part of this effort, we have decided to update and enhance the university-wide wireless LAN service. Consequently, the usage of UTokyo Wi-Fi will be changed as follows starting in February 2023. If you are currently using UTokyo Wi-Fi, please check the following information as you will need to take necessary measures on your own in order to continue using the UTokyo Wi-Fi.
+The University of Tokyo is upgrading its network environment to improve the infrastructure for education and research activities. As a part of this effort, we have decided to update and enhance the university-wide wireless LAN service. Consequently, the usage of UTokyo Wi-Fi will be changed as follows starting in January 2023. If you are currently using UTokyo Wi-Fi, please check the following information as you will need to take necessary measures on your own in order to continue using the UTokyo Wi-Fi.
 
 ## The network name (SSID) for UTokyo Wi-Fi will change to `0000UTokyo`
 The network name (SSID) for the UTokyo Wi-Fi will change from `UTokyo-WiFi` **to `0000UTokyo`**.
