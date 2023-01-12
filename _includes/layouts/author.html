@@ -1,11 +1,18 @@
 {% if page.author.affiliation %}
-{% capture affiliation %} {{ site.data.affiliation[page.author.affiliation][page.lang] | default: page.author.affiliation }}{% endcapture %}
+{% capture affiliation %}{{ site.data.affiliation[page.author.affiliation][page.lang] | default: page.author.affiliation }}{% endcapture %}
 {% endif %}
 {% if page.author.name or page.author.affiliation %}
 <hr />
+{% if page.author.name and page.author.affiliation %}
 {% if page.lang == "en" %}
-<div class="author">Written by:{{ affiliation }} {{ page.author.name }}</div>
+{% assign author_delimiter = ', ' %}
 {% else %}
-<div class="author">執筆:{{ affiliation }} {{ page.author.name }}</div>
+{% assign author_delimiter = ' ' %}
+{% endif %}
+{% endif %}
+{% if page.lang == "en" %}
+<div class="author">Author: {{ page.author.name }}{{ author_delimiter }}{{ affiliation }}</div>
+{% else %}
+<div class="author">執筆: {{ affiliation }}{{ author_delimiter }}{{ page.author.name }}</div>
 {% endif %}
 {% endif %}
