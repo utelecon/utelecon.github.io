@@ -22,7 +22,7 @@ We believe there will be three possible scenarios.
     - Please connect to `0000UTokyo`.
 
 ## The procedure for issuing UTokyo Wi-Fi accounts will change
-Starting from February 1, 2023, the procedure for issuing out a UTokyo Wi-Fi account will change as follows. Please note that your existing account is still available, so there is no need to create a new account.
+Starting from January 31, 2023, the procedure for issuing out a UTokyo Wi-Fi account will change as follows. Please note that your existing account is still available, so there is no need to create a new account.
 
 - The URL of the UTokyo Wi-Fi account menu will change. The new URL will be posted on [The UTokyo Wi-Fi page of the portal site “utelecon”](/en/utokyo_wifi/).
 - Previously it was necessary for a new account to be issued every six months. However, the new UTokyo Wi-Fi account will be valid until the end of April of the following fiscal year. Therefore, you only need to have a new account issued once a year.
@@ -43,6 +43,6 @@ We continue to implement the UTokyo Wi-Fi security measures.
 
 ### eduroam will become available directly with your UTokyo Wi-Fi account
 - You will be able to use UTokyo Wi-Fi account user ID and password to connect to [eduroam](https://eduroam.jp/en), a wireless LAN service that allows mutual use among universities and research institutions.
-    - Only UTokyo Wi-Fi accounts issued after February 1, 2023 will be eligible for this.
+    - Only UTokyo Wi-Fi accounts issued after January 31, 2023 will be eligible for this.
 - For the time being, you can continue to use your existing eduroam account issued from the [EDUROAM for u-tokyo.ac.jp members site](https://www.eduroam.itc.u-tokyo.ac.jp/cgi-bin/en/top.cgi).
     - When you connect to eduroam in the University of Tokyo with your existing eduroam account, you could omit the `@u-tokyo.ac.jp` when entering your user ID, but this measure will be discontinued following the update.
