@@ -22,7 +22,7 @@ title: システム運用状況（障害情報等）一覧
 - **UTokyo Microsoft License (Microsoft 365)**
     - [Service Status](https://portal.office.com/servicestatus)
 - **UTokyo WiFi**
-    - [UTokyo WiFiのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html)
+    - [UTokyo WiFiのページ](/utokyo_wifi/)
 - **UTNET**（UTokyo WiFiを含むキャンパス内のネットワーク）
     - [お知らせ](https://www.nc.u-tokyo.ac.jp/infoall)
 

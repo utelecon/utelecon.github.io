@@ -257,6 +257,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
     webrick (1.7.0)
     zeitwerk (2.6.3)
 
@@ -268,6 +269,7 @@ DEPENDENCIES
   jekyll
   jekyll-target-blank
   jekyll-toc
+  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH
