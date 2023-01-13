@@ -1,5 +1,8 @@
 ---
 title: Zoom リアクション（挙手・絵文字等）機能
+redirect_from:
+  - /zoom/how/faculty_members/hand_reaction
+  - /zoom/how/students/hand_reaction
 ---
 
 ## 参加者向け

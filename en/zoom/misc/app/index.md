@@ -1,5 +1,8 @@
 ---
 title: Scheduling a Zoom Meeting (Zoom App)
+redirect_from:
+  - /en/zoom/create_room_software
+  - /en/zoom/install
 ---
 
 ## How to install Zoom

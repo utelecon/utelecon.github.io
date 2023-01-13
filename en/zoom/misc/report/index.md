@@ -1,5 +1,7 @@
 ---
 title: Managing Attendance of Zoom Meeting
+redirect_from:
+  - /en/zoom/how/faculty_members/attendance
 ---
 
 Using the report function of Zoom, you can see a list of participants and their respective join/leave time. You can use it to manage attendance. 

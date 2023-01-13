@@ -1,5 +1,8 @@
 ---
 title: Webexへのサインイン
+redirect_from:
+  - /webex/create_utelecon_account
+  - /webex/create_webex_account
 ---
 
 Webexへのサインインには，[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（学生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．

@@ -1,5 +1,8 @@
 ---
 title: Zoomのアプリについて
+redirect_from:
+  - /zoom/create_room_software
+  - /zoom/install
 ---
 
 ## インストールの方法

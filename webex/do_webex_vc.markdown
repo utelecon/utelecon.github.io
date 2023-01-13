@@ -1,5 +1,12 @@
 ---
 title: Webex をテレビ会議システムから利用する
+redirect_from:
+  - /webex/do_meeting_host_vc
+  - /webex/do_meeting_participant_vc
+  - /webex/do_meeting_vc
+  - /webex/join_events_vc
+  - /webex/join_meeting_vc
+  - /webex/open_meeting_vc
 ---
 
 このページでは，一部の講義室・会議室等に設置されているテレビ会議システム（H.323端末，Polycom，TANDBERGなどと呼ばれているもの）からWebexに接続して利用する方法を紹介します．

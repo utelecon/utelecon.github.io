@@ -1,5 +1,7 @@
 ---
 title: How to Announce Online Class URL  (for Faculty Members)
+redirect_from:
+  - /en/faculty_members/let_students_know_your_url
 ---
 
 This page explains how instructors announce the online class URL (the URL of web conference rooms such as Zoom) to students. 

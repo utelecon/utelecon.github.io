@@ -1,5 +1,8 @@
 ---
 title: UTokyo Account以外のサインインでのZoomの利用について
+redirect_from:
+  - /notice/zoom-address
+  - /notice/zoom-wrongaccount
 ---
 
 東京大学のZoomアカウントは，現在，UTokyo Accountでサインインするアカウント（ `1234567890@utac.u-tokyo.ac.jp` のような，10桁の共通IDに `@utac.u-tokyo.ac.jp` を付けたもの）が所定のアカウントとなっています．
