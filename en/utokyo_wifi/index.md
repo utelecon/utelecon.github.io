@@ -3,6 +3,10 @@ title: UTokyo WiFi
 slug: utokyo_wifi
 ---
 
+<div class="box--alert">
+<a href="/en/notice/2023/01-wifi">Changes in usage of UTokyo Wi-Fi due to renewal</a>
+</div>
+
 ## About UTokyo WiFi
 
 UTokyo WiFi is a Wi-Fi service available to members of the University of Tokyo for educational and research purposes. Currently, UTokyo WiFi is available in most classrooms on the Hongo, Komaba, Kashiwa, and other campuses. Please refer to the [Caution](#caution-to-use) before using UTokyo WiFi. 

@@ -1,6 +1,11 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）．
 -
+  date: 2023-01-13
+  content:
+    ja: "[UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ](/notice/2023/01-wifi)"
+    en: "[Changes in usage of UTokyo Wi-Fi due to renewal](/en/notice/2023/01-wifi)"
+-
   date: 2022-12-20
   content:
     ja: "[UTokyo MATLAB Campus-Wide License](/matlab/)のページをuteleconポータルサイトに掲載しました．"
