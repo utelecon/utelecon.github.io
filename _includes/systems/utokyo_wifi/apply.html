@@ -1,9 +1,9 @@
-{% comment %}UTokyo WiFiアカウントの発行を申請する{% endcomment %}
+{% comment %}UTokyo Wi-Fiアカウントの発行を申請する{% endcomment %}
 <ul>
 {%- if page.slug == "oc" %}
   <li><a href="/oc/movies#utokyo_wifi">手順動画</a></li>
 {%- else %}
-  <li>既に有効なUTokyo WiFiアカウントを持っている場合，アカウント発行の手順を繰り返す必要はありません（2台目以降の機器も同じアカウントで利用できます）．</li>
+  <li>既に有効なUTokyo Wi-Fiアカウントを持っている場合，アカウント発行の手順を繰り返す必要はありません（2台目以降の機器も同じアカウントで利用できます）．</li>
 {%- endif %}
 {%- if page.slug == "oc"%}
   <li>UTASにメールアドレスを登録した翌日以降に作業してください．</li>
@@ -11,10 +11,10 @@
 </ul>
 <ol>
 {%- if page.slug == "oc" %}
-  <li>「<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFiアカウントメニュー</a>」にアクセスしてください．</li>
+  <li>「<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo Wi-Fiアカウントメニュー</a>」にアクセスしてください．</li>
 {%- else %}
-  <li>以下の「UTokyo WiFiアカウントメニュー」にアクセスしてください．
-    <b class="box center"><a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFiアカウントメニュー</a></b>
+  <li>以下の「UTokyo Wi-Fiアカウントメニュー」にアクセスしてください．
+    <b class="box center"><a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo Wi-Fiアカウントメニュー</a></b>
   </li>
 {%- endif %}
   <li>既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．</li>
@@ -25,7 +25,7 @@
     else
   %}手順2で前日までに登録したメールアドレス{%
     endif
-  %}が表示されているので，確認してください．このメールアドレスに，UTokyo WiFiの利用に必要なアカウント情報（ユーザーID・パスワード）が書かれた通知メールが届きます．</li>
+  %}が表示されているので，確認してください．このメールアドレスに，UTokyo Wi-Fiの利用に必要なアカウント情報（ユーザーID・パスワード）が書かれた通知メールが届きます．</li>
   <li>「申請」ボタンを押してください．</li>
   <li>しばらく待つと通知メールが届きます．</li>
 </ol>
@@ -39,7 +39,7 @@
           <img src="/utokyo_wifi/img/account_menu_login_denied.png" class="small">
           情報セキュリティ教育を受講していないため，アカウントが停止されています．詳細は{%
             if page.slug == "oc"
-          %}<a href="/utokyo_wifi/#jouhou-security">UTokyo WiFiのページの「情報セキュリティ教育」</a>{%
+          %}<a href="/utokyo_wifi/#jouhou-security">UTokyo Wi-Fiのページの「情報セキュリティ教育」</a>{%
             else
           %}「<a href="#jouhou-security">情報セキュリティ教育</a>」{%
             endif

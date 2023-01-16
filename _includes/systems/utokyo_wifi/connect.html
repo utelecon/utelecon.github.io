@@ -1,15 +1,15 @@
-{% comment %}UTokyo WiFiに実際に接続する{% endcomment %}
+{% comment %}UTokyo Wi-Fiに実際に接続する{% endcomment %}
 <ul>
-  <li>この作業はキャンパス内のUTokyo WiFi（SSIDが <code>UTokyo-WiFi</code> または <code>0000UTokyo</code> となっているWi-Fi）が見える場所でしかできません．</li>
+  <li>この作業はキャンパス内のUTokyo Wi-Fi（SSIDが <code>UTokyo-WiFi</code> または <code>0000UTokyo</code> となっているWi-Fi）が見える場所でしかできません．</li>
 </ul>
 <ol>
   <li>{%
     if page.slug == "oc"
-  %}UTokyo WiFiに接続したい{%
+  %}UTokyo Wi-Fiに接続したい{%
     else
   %}手順1で確認した{%
     endif
-  %}端末のWi-Fi接続設定画面で，<code>0000UTokyo</code>（表示されない場合は <code>UTokyo WiFi</code>）を選んでください．</li>
+  %}端末のWi-Fi接続設定画面で，<code>0000UTokyo</code>（表示されない場合は <code>UTokyo-Wifi</code>）を選んでください．</li>
   <li>接続しようとするとユーザーIDとパスワードを聞かれるので，{%
     if page.slug == "oc"
   %}上の手順{%
@@ -22,7 +22,7 @@
 <ul>
   <li>接続時に，証明書の確認や，{%
     if page.slug == "oc"
-  %}<a href="/utokyo_wifi/#connect-configuration">UTokyo WiFiのページの「接続の詳細な設定」</a>{%
+  %}<a href="/utokyo_wifi/#connect-configuration">UTokyo Wi-Fiのページの「接続の詳細な設定」</a>{%
     else
   %}下の「<a href="#connect-configuration">接続の詳細な設定</a>」の項{%
     endif
@@ -39,7 +39,7 @@
         <li>ユーザーIDはアルファベットから始まる8桁の英数字に <code>@wifi.u-tokyo.ac.jp</code> を追加した文字列です．アルファベットの部分も含めて入力してください．</li>
         <li>パスワードに含まれる記号を正しく入力しているか確認してください．通知メールからコピーアンドペーストして入力してみてください．</li>
         <li>通知メールからコピーアンドペーストして入力している場合は，前後に余計な空白が入っていないか確認してください．</li>
-        <li>途中でうまくいかなくてアカウントの申請を複数回行った場合，そのうち1つのアカウントだけが有効になります．<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo WiFiアカウントメニュー</a>に表示されているアカウントのみが有効なので，確認してください．</li>
+        <li>途中でうまくいかなくてアカウントの申請を複数回行った場合，そのうち1つのアカウントだけが有効になります．<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo Wi-Fiアカウントメニュー</a>に表示されているアカウントのみが有効なので，確認してください．</li>
         <li>利用する機器が最新の状態ではないために起こる場合もあります．古いMacOS，Windows 7以前，アップデートをしていない機器（スマホ等）は接続までに，最新のバージョンにしてください．</li>
       </ul>
       これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．
