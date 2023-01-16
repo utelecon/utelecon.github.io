@@ -162,7 +162,7 @@ For further details on how to use this feature, please see the “**[ECCS Cloud 
 
 The University of Tokyo provides access to Microsoft’s services through a university account and offers downloads of Microsoft Office applications such as Word and Excel. Other available services include the Web version of Office, OneDrive (an online storage service), and Microsoft Forms (a form creation service).
 
-For further details on how to use this feature, please see the “**[UTokyo Microsoft License (Microsoft 365)](/en/microsoft)**” page.
+For further details on how to use this feature, please see the “**[UTokyo Microsoft License (Microsoft 365)](/en/microsoft/)**” page.
 
 ### UTokyo WiFi
 
