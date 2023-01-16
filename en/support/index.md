@@ -2,7 +2,7 @@
 title: Technical Support Desk
 slug: support
 redirect_from:
-  - /en/supports
+  - /en/supports/
 ---
 
 * The Technical Support Desk aims to respond to inquiries regarding online classes and web conferences.
