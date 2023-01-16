@@ -1,5 +1,7 @@
 ---
 title: 東京大学のBYOD方針
+redirect_from:
+  - /notice/byod
 --- 
 
 **2022/1/17 学部・大学院教育部会**

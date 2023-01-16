@@ -1,5 +1,10 @@
 ---
 title: 今後のウェブ会議システムの提供について（2020/11/20以降）
+redirect_from:
+  - /notice/webmeetingaccount
+  - /notice/webmeetingaccount20200808
+  - /notice/webmeetingaccount20200915
+  - /notice/webmeetingaccount20200916
 ---
 
 2021年度もウェブ会議システム（Zoom, Webex, Google Meet） の継続利用ができることを既に通知しています。現在利用中のサービスには各サービスごとのアカウントで利用していますが、それらはUTokyo Accountに切り替わります。以下をお読みいただき必要であれば準備をお願いいたします。

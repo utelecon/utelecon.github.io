@@ -1,5 +1,10 @@
 ---
 title: Zoom サインイン方法
+redirect_from:
+  - /zoom/create_account_invitation_20200516
+  - /zoom/create_account_invitation
+  - /zoom/create_account
+  - /zoom/zoom_signin
 ---
 
 東京大学のZoomアカウントでのサインインには，[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（学生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．

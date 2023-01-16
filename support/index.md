@@ -2,6 +2,8 @@
 title: サポート窓口
 slug: support
 description: 東京大学のオンライン授業・Web会議に関連した様々な質問や相談に対応します．チャット・Zoom・メールフォームの3つの窓口を設けていますので，利用しやすい窓口から相談してください．
+redirect_from:
+  - /supports/
 ---
 
 {% include emergency.html %}

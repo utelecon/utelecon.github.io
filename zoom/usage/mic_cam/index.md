@@ -1,5 +1,7 @@
 ---
 title: Zoom マイクとカメラの使い方
+redirect_from:
+  - /zoom/how/common/use_mic_and_camera
 ---
 
 ## マイクの使い方

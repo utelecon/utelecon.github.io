@@ -1,5 +1,7 @@
 ---
 title: A special page on access failures to UTAS/ITC-LMS
+redirect_from:
+  - /en/notice/korea_telecom/
 ---
 
 _<font color="red">**Update: 21:24 (JST) March 18 2022.**</font>  The issue below should be fixed now.  We will continue to watch the issue for any adverse effect the fix might have caused.  To that end, had you experienced any issues in accessing UTAS or ITC-LMS, [please let us know](#how-to-report)._

@@ -1,5 +1,7 @@
 ---
 title: 画面共有
+redirect_from:
+  - /zoom/how/common/sharing_screen
 ---
 
 Zoomの画面共有機能を使うと，PCやモバイルデバイスで自分が見ている画面を，参加者全員に共有することができます.  共有画面でWord やPower Pointファイルなどを開くと，参加者にその資料を示しながら説明を進めることが可能です.

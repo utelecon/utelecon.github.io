@@ -1,5 +1,7 @@
 ---
 title: Requiring Authentication to Join a Zoom Meeting
+redirect_from:
+  - /en/zoom/auth
 ---
 
 Authentication profiles allow hosts to restrict Zoom meeting participants to users whose email address matches a certain domain. If the option "大学アカウントでサインイン(Sign in with university account)" is selected, participants will be asked to sign in with their UTokyo Zoom account to join the meeting.

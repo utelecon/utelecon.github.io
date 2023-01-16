@@ -1,5 +1,7 @@
 ---
 title: Zoomのウェビナー，大規模ミーティング開催のためのライセンス申請
+redirect_from:
+  - /notice/zoom-webinar
 ---
 
 ## 概要

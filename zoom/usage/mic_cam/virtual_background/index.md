@@ -1,5 +1,7 @@
 ---
 title: （Zoom 学生・教員共通編）カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する
+redirect_from:
+  - /zoom/how/common/virtual_background
 ---
 
 バーチャル背景（仮想背景）機能を使用すると，Zoomミーティング中に背景として画像を表示することができます．  
