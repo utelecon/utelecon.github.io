@@ -9,7 +9,7 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 - The username of UTokyo Account is represented by a 10-digit number and is also called the **“Common ID”**. In the ICT systems, a 10-digit Common ID followed by `@utac.u-tokyo.ac.jp`, which indicates that you are a member of the University of Tokyo, is sometimes used, such as `1234567890@utac.u-tokyo.ac.jp`.
   - The "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is not an email address that can be used normally.
   - System notification emails sent to "10-digit common ID + `@utac.u-tokyo.ac.jp`" may be forwarded to [the ECCS Cloud Email (Google Workspace)](/en/eccs_cloud_email), but you cannot send emails using "10-digit common ID + `@utac.u-tokyo.ac.jp`".
-- For more information on the services available through the UTokyo Account, please see the ["Systems of the University of Tokyo"](/systems) page (in Japanese).
+- For more information on the services available through the UTokyo Account, please see the **[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)** and [the "Systems of the University of Tokyo" page (in Japanese)](/systems).
 
 ## Notes on using UTokyo Account
 1. UTokyo Account is granted to members of the university who are systematically accepted and managed by the university. (It will not be granted to those who are not systematically accepted by the university.)
