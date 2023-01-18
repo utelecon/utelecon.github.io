@@ -31,7 +31,7 @@ UTokyo WiFiとは，東京大学の構成員が教育・研究を目的として
 ### 情報セキュリティ教育
 {:#jouhou-security}
 
-東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，年度末までUTokyo WiFiの利用資格が停止され，Aセメスター分のUTokyo WiFiアカウントが発行できなくなります．**
+東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（2022年度の場合，学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，年度末までUTokyo WiFiの利用資格が停止され，Aセメスター分のUTokyo WiFiアカウントが発行できなくなります．**
 
 <details>
 	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>

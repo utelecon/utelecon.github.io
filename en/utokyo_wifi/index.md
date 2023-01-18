@@ -35,7 +35,7 @@ UTokyo WiFi is a Wi-Fi service available to members of the University of Tokyo f
 ### Information Security Education
 {:#jouhou-security}
 
-The University of Tokyo conducts annual [Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for all UTokyo Account holders. The beginning of the course will be notified (May for students, July for faculty and staff), so please be sure to take the course. **Failure to complete the course will result in suspension of your UTokyo WiFi privileges until the end of that academic year, and you will not be able to issue a UTokyo WiFi account for the Autumn Semester.**
+The University of Tokyo conducts annual [Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for all UTokyo Account holders. The beginning of the course will be notified (May for students and July for faculty and staff in the case of FY2022), so please be sure to take the course. **Failure to complete the course will result in suspension of your UTokyo WiFi privileges until the end of that academic year, and you will not be able to issue a UTokyo WiFi account for the Autumn Semester.**
 
 
 <details>
