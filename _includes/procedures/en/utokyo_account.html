@@ -29,7 +29,13 @@
       %}{%
   endcase
 %}</li>
+{%- if page.slug == "oc" %}
 <li>Please log in to the <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet">UTokyo Account User Menu</a> with the username and password indicated on the notification.</li>
+{%- else %}
+<li>Please log in to the "UTokyo Account User Menu" below with the username and password indicated on the notification.
+  <b class="box center"><a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet">UTokyo Account User Menu</a></b>
+</li>
+{%- endif %}
 <li>Click "Password Change" on the upper left to change your password (you cannot use the services with your initial password). When choosing a new password, make sure that you use a password that sets the strength indicator to "strong" or "very-strong".</li>
 </ol>
 <ul>
