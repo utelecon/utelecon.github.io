@@ -278,7 +278,7 @@ Old Book Illustrationsには，絵本『ピーターラビット』で有名な�
 
 #### 大英図書館｜British Library
 
-<p style="text-indent: 1em;"><code>画像</code>
+<p style="text-indent: 1em;"><code>画像</code></p>
 
 大英図書館はイギリスの国立図書館です．世界最大級の図書館であり，世界的に重要な研究所でもあります．Flickr Commonsにて，著作権が消滅した地図やイラストなどを公開しています．  
 
@@ -286,7 +286,7 @@ Old Book Illustrationsには，絵本『ピーターラビット』で有名な�
 
 #### スミソニアン・オープンアクセス｜Smithsonian Open Access
 
-<p style="text-indent: 1em;"><code>文献</code> <code>画像</code> <code>映像</code> <code>音声</code>
+<p style="text-indent: 1em;"><code>文献</code> <code>画像</code> <code>映像</code> <code>音声</code></p>
 
 アメリカにある科学，産業，技術，芸術，自然史など19の博物館群や研究機関を運営するスミソニアン協会は,数百万点に及ぶ収蔵品のデジタル画像を公開しています.彫刻や骨格標本など立体物の写真は，3Dスキャンデータの再現により全ての角度から閲覧可能です．ダウンロードは自由で，クレジット表記があれば非商用利用が可能です．  
 
@@ -295,7 +295,7 @@ Old Book Illustrationsには，絵本『ピーターラビット』で有名な�
 
 #### 東京国立博物館｜ Tokyo National Museum
 
-<p style="text-indent: 1em;"><code>文献</code> <code>画像</code>
+<p style="text-indent: 1em;"><code>文献</code> <code>画像</code></p>
 
 東京国立博物館では，所蔵する文化財の写真資料や古文書，古地図などをデジタルアーカイブで公開しています．公開されている資料は，非商業目的であれば無償で利用可能です．  
 
