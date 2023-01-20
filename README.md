@@ -1,60 +1,54 @@
-# utelecon (UTokyo Portal for Teleconference Tools)
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby minimal TypeScript starter
+</h1>
 
-https://utelecon.adm.u-tokyo.ac.jp/
+## 🚀 Quick start
 
+1.  **Create a Gatsby site.**
 
-## 共通ルール
-* 句読点は「，．」にする（吉田栗田はまずは全角で対応）
+    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
 
-## 書き方
+    ```shell
+    # create a new Gatsby site using the minimal TypeScript starter
+    npm init gatsby
+    ```
 
-* 拡張子(.markdown)のファイル (xxxxxx.markdown) をマークダウン形式で書いてgit commit/push
-* xxxxxx.markdown をcommit/pushするとそれは, https://utelecon.adm.u-tokyo.ac.jp/xxxxxx というパスで参照できるようになる
-* hoge/foo/bar/index.markdown をcommit/pushすると, https://utelecon.adm.u-tokyo.ac.jp/hoge/foo/bar/  で参照できる
-* xxxxxx.markdown ファイルに対しては統一的な theme が自動的に適用される
-  * theme は設定画面 https://github.com/utelecon/utelecon.github.io  の settings のページの下の方 (github pages) から変更できる
-* 経験上, commit/push してからサイトに反映されるまで長いと数十秒かかる
-* markdown中には普通のhtmlも書けるのでmarkdownで書きにくいものはhtmlを書けば良い
-* markdown記法 https://qiita.com/tbpgr/items/989c6badefff69377da7
-  * 他の参考サイト https://qiita.com/t_wkm2/items/372fd1c851c4d221b1f3
-* 裏で Jekyll が動いている: https://jekyllrb.com/docs/
-  * ページトップに --- （改行） title: ZOOM （改行） --- などと入力することで，ページに関するメタ情報を入力できる
-    * 変数なども扱えそう https://jekyllrb.com/docs/front-matter/
+2.  **Start developing.**
 
-```
-git clone git@github.com:utelecon/utelecon.github.io.git
-# edit files (e.g., index.markdown)
-git commit -m "add introduction" -a
-git push
-```
-git clone https:// ... の方が分かりやすいです
+    Navigate into your new site’s directory and start it up.
 
-### ローカル環境で表示を確認する
-[Testing your GitHub Pages site locally with Jekyll - GitHub ヘルプ](https://help.github.com/ja/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-```bash
-$ cd utelecon.github.io
-$ bundle install
-$ bundle exec jekyll serve
-  # Open http://localhost:4000/ in your browser
-```
-### CSSの変更の仕方
-* /assets/css/style.scss  (CSSではない！)の中にSCSS形式で追記していきます
-* オリジナルのテンプレート（[cayman/_sass/jekyll-theme-cayman.scss](https://github.com/pages-themes/cayman/blob/master/_sass/jekyll-theme-cayman.scss)をoverrideしたいときは、*@import "{{ site.theme }}";*　の上に，継承したい場合はその下に追記していきます）
+3.  **Open the code and start customizing!**
 
+    Your site is now running at http://localhost:8000!
 
-## 今後やること
-* 今のままだと README.md が見えてしまうから docs フォルダ内を公開というような設定を今後したい
-* メニューとパンくずリストの作成
-* 可能な範囲で「次へ移動」を実装
+    Edit `src/pages/index.tsx` to see your site update in real-time!
 
+4.  **Learn more**
 
-## よくわからないこと
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-* 節番号とか自動的にふれないの?
-* 目次とか生成できないの?
-＞これ使う感じです（勉強中）
-https://shd101wyy.github.io/markdown-preview-enhanced/#/toc
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-* トップページへのリンクとか全ページに出したい → /_layouts/default.html を追加しました（https://github.com/pages-themes/cayman/blob/master/_layouts/default.html からひっぱってきました）．これをいじればヘッダーなど共通して修正できそうです．このファイルが default でテンプレートになるみたいです．これがない場合は github pages が勝手に補完してくれるみたいです．
-* リンクを別タブで開くようにしたい. htmlなら <a href="xxxx.html" target="_blank"> ... </a> とするやつ
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+
+## 🚀 Quick start (Gatsby Cloud)
+
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
