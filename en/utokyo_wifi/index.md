@@ -3,8 +3,8 @@ title: UTokyo WiFi
 slug: utokyo_wifi
 ---
 
-<div class="box--alert">
-<a href="/en/notice/2023/01-wifi">Changes in usage of UTokyo Wi-Fi due to renewal</a>
+<div class="box--alert box--important">
+[Important] <a href="/en/notice/2023/01-wifi">Changes in usage of UTokyo Wi-Fi due to renewal</a>
 </div>
 
 ## About UTokyo WiFi

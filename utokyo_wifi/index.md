@@ -2,8 +2,8 @@
 title: UTokyo WiFi
 ---
 
-<div class="box--alert">
-<a href="/notice/2023/01-wifi">UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ</a>
+<div class="box--alert box--important">
+【重要】<a href="/notice/2023/01-wifi">UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ</a>
 </div>
 
 ## UTokyo WiFiとは
