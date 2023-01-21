@@ -1,16 +1,8 @@
-# Jekyll
-_site/
-*-cache/
-.jekyll-metadata
-
-# Ruby
-.bundle/
-.byebug_history
-.ruby-gemset
-.ruby-version
-*.gem
-Gemfile.lock
-vendor/
+# Gatsby
+node_modules/
+.cache/
+public
+src/gatsby-types.d.ts
 
 # Files
 .analysis

@@ -1,6 +1,6 @@
 ---
 title: オンライン授業・Web会議 ポータルサイト @ 東京大学
-layout: common
+layout: "../layouts/Layout.astro"
 sitemap: false
 description: 本サイトは，東京大学におけるオンライン授業やWeb会議に関する情報をワンストップで得られることを目指すサイトです．
 ---
