@@ -31,7 +31,7 @@ UTokyo Wi-Fi is a Wi-Fi service available to members of the University of Tokyo 
 ### Information Security Education
 {:#jouhou-security}
 
-The University of Tokyo conducts annual [Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for all UTokyo Account holders. The beginning of the course will be notified (May for students, July for faculty and staff), so please be sure to take the course. **Failure to complete the course will result in suspension of your UTokyo Wi-Fi privileges until the end of that academic year, and you will not be able to issue a UTokyo Wi-Fi account for the Autumn Semester.**
+The University of Tokyo conducts annual [Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for all UTokyo Account holders. The beginning of the course will be notified (May for students, July for faculty and staff), so please be sure to take the course. **Failure to complete the course will result in suspension of your UTokyo Wi-Fi privileges until the end of that academic year, and you will not be able to connect to UTokyo Wi-Fi.** Once your account is suspended, you will not be able to log in to the account menu or create a new account.
 
 
 <details>
@@ -70,7 +70,7 @@ UTokyo Wi-Fi is only available on individuals' own device: **it is prohibited to
 ### Account expiration date
 {:#expiration}
 
-UTokyo Wi-Fi accounts expire at the end of October for the Spring Semester and at the end of April for the Autumn Semester. New accounts can be issued before the start of each semester, so if you want to continue using UTokyo Wi-Fi, you need to reissue an account each semester.
+UTokyo Wi-Fi accounts expire at the end of April of the following fiscal year. New accounts can be issued before the start of each fiscal year, so if you want to continue using UTokyo Wi-Fi, you need to reissue an account each fiscal year.
 
 - The procedure for reissuing an account is the same as Steps 2 and 3 above.
     - If you have not taken the information security training course and your account has been suspended, you cannot reissue an account. Please refer to the "[Information Security Education](#jouhou-security)" section above for details. 
@@ -81,7 +81,7 @@ UTokyo Wi-Fi accounts expire at the end of October for the Spring Semester and a
 {:#connect-configuration}
 <table>
   <tr>
-    <th>SSID</th> <td><code>UTokyo-WiFi</code></td> 
+    <th>SSID</th> <td><code>0000UTokyo</code> / <code>UTokyo-WiFi</code></td> 
   </tr>
   <tr>
     <th>Security</th> <td>WPA2-Enterprise (802.1x)</td> 
@@ -123,7 +123,9 @@ The network of UTokyo, including UTokyo Wi-Fi, is secured by UTokyo Campuswide F
 - There is no limit to the number of devices per account that can be connected to UTokyo Wi-Fi.
 - You cannot delete your UTokyo Wi-Fi account directly. However, you can make it invalid with reissuing a new account by clicking the "New Application" button in the "UTokyo Wi-Fi Account Menu". 
 - Please note that UTokyo Wi-Fi may become temporarily unavailable in certain locations or throughout the campus due to trouble. We apologize for any inconvenience, and we will make efforts to deal with the problem quickly.
-- In addition to UTokyo Wi-Fi, the University of Tokyo has other wireless LAN services that are available on campus. All members of and visitors to the University of Tokyo are requested to refer to the WiFi services in UTokyo page before using UTokyo Wi-Fi and use the service appropriately.
+- In addition to UTokyo Wi-Fi, the University of Tokyo has other wireless LAN services that are available on campus. All members of and visitors to the University of Tokyo are requested to refer to [the WiFi services in UTokyo](https://www.u-tokyo.ac.jp/adm/dics/ja/wlan.html) page before using UTokyo Wi-Fi and use the service appropriately.
+  - You will be able to use UTokyo Wi-Fi account user ID and password to connect to [eduroam](https://eduroam.jp/en), a wireless LAN service that allows mutual use among universities and research institutions.
+    - Only UTokyo Wi-Fi accounts issued after January 31, 2023 will be eligible for this.
 - If you are in charge of a network of your department,  please also refer to [the Information on UTokyo Portal](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx). 
 
 ## Troubleshooting and Inquiries
