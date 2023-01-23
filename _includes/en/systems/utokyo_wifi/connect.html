@@ -1,23 +1,26 @@
 {% comment %}Connect to UTokyo Wi-Fi{% endcomment %}
 <ul>
-  <li>This process can only be done in the place where UTokyo Wi-Fi (Wi-Fi with SSID <code>UTokyo-WiFi</code>) is visible on the WiFi setting menu of your own devices.</li>
+  <li>This process can only be done in the place where UTokyo Wi-Fi (Wi-Fi with SSID <code>0000UTokyo</code> or <code>UTokyo-WiFi</code>) is visible on the WiFi setting menu of your own devices.</li>
 </ul>
 <ol>
-  <li>Select UTokyo Wi-Fi on the Wi-Fi connection settings screen of
+  <li>Select <code>0000UTokyo</code> on the Wi-Fi connection settings screen of
     {%
     if page.slug == "oc"
   %} the device you want to connect.{%
     else
   %} the device you checked in Step 1.
   {% endif %}
+    <ul>
+      <li>If <code>0000UTokyo</code> is not listed among the available networks, select <code>UTokyo-WiFi</code>.</li>
+    </ul>
   </li>
-  <li>When you try to connect, you will be asked for your user ID and password. Enter the account information in the email you received{%
+  <li>Enter the user ID and password of your UTokyo Wi-Fi account (not of your UTokyo Account). You can find your user ID and password in the notification email you received{%
     if page.slug == "oc"
-  %} in the step above {%
+  %} in the step above{%
     else
-  %} in Step 3 {%
+  %} in Step 2{%
     endif
-  %}(it is not the UTokyo Account information).</li>
+  %}. If you have just finished your application, you can also find them on the application completion screen of the account menu.</li>
   <li>Once you establish a connection, you can use it just like any normal Wi-Fi.</li>
 </ol>
 <ul>
@@ -31,14 +34,14 @@
   </li>
   <li>
     Please refer to <a href="https://www.sodan.ecc.u-tokyo.ac.jp/?page_id=3996">ECCS Tutor’s page</a> as well if you are unsure. There are detailed connection instructions for each device.
-    You may also refer to <a href="https://www.eduroam.jp/for_users/">the "User's Guide" on the page of the Wi-Fi system called "eduroam"</a>, which has a similar connection method (replace eduroam with UTokyo-WiFi when you read the page).
+    You may also refer to <a href="https://www.eduroam.jp/for_users/">the "User's Guide" on the page of the Wi-Fi system called "eduroam"</a>, which has a similar connection method (replace eduroam with UTokyo Wi-Fi SSID when you read the page).
   </li>
   <li>
     <details>
       <summary>When this procedure does not work</summary>
       <ul>
         <li>If the signal is weak, the connection may be interrupted. Try different locations or times of the day.</li>
-        <li>The user ID is an 8-digit alphanumeric character string beginning with an alphabet (s or w). Please include the alphabetical part as well.</li>
+        <li>When you enter your user ID, please include the alphabetical part as well.</li>
         <li>Make sure you have entered the symbols in the password correctly. Try copying and pasting from the notification email.</li>
         <li>If you are copying and pasting from a notification email, please make sure that there are no extra spaces before or after the password.</li>
         <li>If you have multiple applications for an account during the process, only one of them will be valid; only the account listed in the <a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo Wi-Fi account menu (in Japanese)</a> will be valid, so please check.</li>
