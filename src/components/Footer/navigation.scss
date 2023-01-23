@@ -1,0 +1,38 @@
+nav.footer {
+  :link:hover,
+  :visited:hover {
+    text-decoration: underline;
+  }
+  & > ul {
+    column-count: 2;
+    column-gap: 4rem;
+    padding: 0;
+    & > li {
+      display: block;
+      break-inside: avoid;
+      padding-top: 1em;
+      text-align: left;
+      & > div {
+        font-weight: bold;
+      }
+      & > ul {
+        padding-left: 1em;
+        & > li {
+          display: block;
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      column-count: auto;
+    }
+    @media (min-width: 1152px) {
+      column-count: 3;
+    }
+    @media (min-width: 1536px) {
+      display: flex;
+      justify-content: space-around;
+      column-count: auto;
+      column-gap: normal;
+    }
+  }
+}

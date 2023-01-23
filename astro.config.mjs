@@ -7,6 +7,13 @@ import insertTocPlugin from "./src/lib/InsertTocPlugin.mjs";
 
 // https://astro.build/config
 export default defineConfig({
+  vite: {
+    resolve: {
+      alias: {
+        "@styles": "src/styles",
+      },
+    },
+  },
   markdown: {
     remarkPlugins: [
       [defaultFrontmatterPlugin, { layout: "@layouts/Layout.astro" }],

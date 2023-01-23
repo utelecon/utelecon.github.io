@@ -6,6 +6,6 @@ export default function defaultFrontmatterPlugin({ layout }) {
   return function (_, file) {
     file.data.astro.frontmatter.layout ??= layout;
     const en = file.path.startsWith("src/pages/en");
-    file.data.astro.frontmatter.lang ??= en ? "en" : "ja";
+    file.data.astro.frontmatter.lang = en ? "en" : "ja";
   };
 }

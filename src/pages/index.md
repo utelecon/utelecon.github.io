@@ -2,15 +2,10 @@
 title: オンライン授業・Web会議 ポータルサイト @ 東京大学
 sitemap: false
 description: 本サイトは，東京大学におけるオンライン授業やWeb会議に関する情報をワンストップで得られることを目指すサイトです．
+top: true
 ---
 
-{% include layouts/header.html is_top = true %}
-
-<main id="content">
-
-  {% include emergency.html %}
-
-  <h2>まずはここから</h2>
+<h2>まずはここから</h2>
   <div class="cards">
     <a href="/oc/">大学生活に必要な情報システムの準備について<small>（学生向け）</small></a>
     <a href="/faculty_members/">東京大学における情報システムの準備について<small>（教員向け）</small></a>
@@ -105,6 +100,3 @@ description: 本サイトは，東京大学におけるオンライン授業やW
       <li><a href="/systems#others">その他</a></li>
     </ul>
   </div>
-</main>
-
-{% include layouts/footer.html %}

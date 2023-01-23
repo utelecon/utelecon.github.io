@@ -1,6 +1,6 @@
 ---
 title: Technical Support Desk
-slug: support
+support: true
 redirect_from:
   - /en/supports/
 ---

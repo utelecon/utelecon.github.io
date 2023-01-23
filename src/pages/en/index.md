@@ -1,6 +1,6 @@
 ---
 title: Online Class / Web Conference Portal Site @ the University of Tokyo
-layout: common
+top: true
 sitemap: false
 ---
 
