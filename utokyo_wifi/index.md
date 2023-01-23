@@ -76,7 +76,7 @@ UTokyo Wi-Fiのアカウントの有効期限は翌年度の4月末です．各�
 
 <table>
   <tr>
-    <th>SSID</th> <td><code>UTokyo-WiFi</code></td> 
+    <th>SSID</th> <td><code>0000UTokyo</code> / <code>UTokyo-WiFi</code></td> 
   </tr>
   <tr>
     <th>セキュリティ</th> <td>WPA2-Enterprise (802.1x)</td> 
@@ -120,6 +120,7 @@ UTokyo Wi-Fiを含む本学のネットワークでは，全学セキュリテ�
 - UTokyo Wi-Fiは一時的に特定の場所，または学内全域でトラブルが発生して利用に支障が出ることがあります．ご不便をおかけいたしますが，速やかに対応できるよう努めてまいりますので，ご理解ください．
 - 東京大学には，UTokyo Wi-Fiの他にも学内で共通に利用できる無線LANサービスがあります．東京大学構成員および来学者は[東京大学での無線LAN利用](https://www.u-tokyo.ac.jp/adm/dics/ja/wlan.html)のページを参照し，適切に利用してください．
   - UTokyo Wi-FiアカウントのユーザーIDとパスワードを用いて，大学や研究機関等での相互利用が可能な無線LANサービス[eduroam](https://eduroam.jp/)に接続することができます．
+    - 2023年1月31日以降に発行されたUTokyo Wi-Fiアカウントのみが対象です．
 - 部局のネットワーク担当者の方は，[UTokyo Portalの情報](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx)も参照してください．
 
 ## トラブルシューティングと問い合わせ
