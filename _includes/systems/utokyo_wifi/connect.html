@@ -1,22 +1,27 @@
 {% comment %}UTokyo Wi-Fiに実際に接続する{% endcomment %}
 <ul>
-  <li>この作業はキャンパス内のUTokyo Wi-Fi（SSIDが <code>UTokyo-WiFi</code> または <code>0000UTokyo</code> となっているWi-Fi）が見える場所でしかできません．</li>
+  <li>この作業はキャンパス内のUTokyo Wi-Fi（SSIDが<code>0000UTokyo</code>または<code>UTokyo-WiFi</code>となっているWi-Fi）が見える場所でしかできません．</li>
 </ul>
 <ol>
-  <li>{%
-    if page.slug == "oc"
-  %}UTokyo Wi-Fiに接続したい{%
-    else
-  %}手順1で確認した{%
-    endif
-  %}端末のWi-Fi接続設定画面で，<code>0000UTokyo</code>（表示されない場合は <code>UTokyo-Wifi</code>）を選んでください．</li>
-  <li>接続しようとするとユーザーIDとパスワードを聞かれるので，{%
+  <li>
+    {%
+      if page.slug == "oc"
+    %}UTokyo Wi-Fiに接続したい{%
+      else
+    %}手順1で確認した{%
+      endif
+    %}端末のWi-Fi接続設定画面で，<code>0000UTokyo</code>を選んでください．
+    <ul>
+      <li>接続可能なネットワークの中に<code>0000UTokyo</code>が表示されていない場合には，<code>UTokyo-WiFi</code>を選んでください．</li>
+    </ul>
+  </li>
+  <li>UTokyo Wi-FiアカウントのユーザーIDとパスワードを入力してください（UTokyo Accountではありません）．ユーザーIDとパスワードは，{%
     if page.slug == "oc"
   %}上の手順{%
     else
   %}手順2{%
     endif
-  %}で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
+  %}で届く通知メールから確認できるほか，申請直後であればアカウントメニューの申請完了画面にも表示されています．</li>
   <li>接続が完了すれば，後は普通のWi-Fiと同様に使えます．</li>
 </ol>
 <ul>
@@ -29,14 +34,14 @@
   %}に書かれた情報の入力が必要な場合があります．</li>
   <li>
     機器ごとの詳細な接続方法が<a href="https://www.sodan.ecc.u-tokyo.ac.jp/?page_id=3996">ECCS相談員のページ</a>に掲載されているので，分からない場合はあわせて参照してください．
-    また，<a href="https://www.eduroam.jp/for_users/">接続方法が同様である「eduroam」というWi-Fiシステムのページ</a>にある「利用の手引き」も参考になるかもしれません（ <code>eduroam</code> を <code>UTokyo-WiFi</code> に読み替えて利用してください）．
+    また，<a href="https://www.eduroam.jp/for_users/">接続方法が同様である「eduroam」というWi-Fiシステムのページ</a>にある「利用の手引き」も参考になるかもしれません（<code>eduroam</code>をUTokyo Wi-FiのSSIDに読み替えて利用してください）．
   </li>
   <li>
     <details>
       <summary>この手順がうまくいかないときのヘルプ</summary>
       <ul>
         <li>電波が弱いと作業中に接続が途切れてしまってうまくいかないことがあります．場所や時間帯を変えて試してみてください．</li>
-        <li>ユーザーIDはアルファベットから始まる8桁の英数字に <code>@wifi.u-tokyo.ac.jp</code> を追加した文字列です．アルファベットの部分も含めて入力してください．</li>
+        <li>ユーザーIDは数字以外の部分も省略せずに入力してください．</li>
         <li>パスワードに含まれる記号を正しく入力しているか確認してください．通知メールからコピーアンドペーストして入力してみてください．</li>
         <li>通知メールからコピーアンドペーストして入力している場合は，前後に余計な空白が入っていないか確認してください．</li>
         <li>途中でうまくいかなくてアカウントの申請を複数回行った場合，そのうち1つのアカウントだけが有効になります．<a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo Wi-Fiアカウントメニュー</a>に表示されているアカウントのみが有効なので，確認してください．</li>
