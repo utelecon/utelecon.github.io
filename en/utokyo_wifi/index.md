@@ -56,27 +56,11 @@ UTokyo Wi-Fi is only available on individuals' own device: **it is prohibited to
     <div>Laptops, smartphones, and tablets can generally connect to UTokyo Wi-Fi. However, other types of electronic devices and older devices may not be able to connect. For example, devices that do not support WPA2-Enterprise cannot be connected. Please check for updates to the OS and drivers of your devices and update them appropriately before connecting to UTokyo Wi-Fi.</div>
   </li>
   <li>
-    <strong>Step 2: Register an email address to receive account information.</strong>
-    <ol>
-      <li>
-        To create a UTokyo Wi-Fi account, you must register your email address in advance. Please follow the steps below to register. If you have already registered , you may skip to Step 3. 
-        <ul>
-          <li>
-          For students: Log in to <a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">UTAS</a>  and set "E-MAIL 1" in the "Student Information" menu (note that the "E-MAIL 2" address cannot be used as the UTokyo Wi-Fi email address).
-          </li>
-          <li>
-          For faculty members: Log in to <a href="https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx">the Personnel Information MyWeb</a> and set your "学内メールアドレス" (Campus Email Address) field in the "パーソナルメニュー"  (Personal Menu). 
-          </li>
-        </ul>
-      </li>
-    </ol>  
-  </li>
-  <li>
-    <strong>Step3: Apply for a UTokyo Wi-Fi Account</strong>
+    <strong>Step 2: Apply for a UTokyo Wi-Fi Account</strong>
 {% include en/systems/utokyo_wifi/apply.html %}
   </li>
   <li>
-    <strong>Step 4: Connect to UTokyo Wi-Fi</strong>
+    <strong>Step 3: Connect to UTokyo Wi-Fi</strong>
 {% include en/systems/utokyo_wifi/connect.html %}
   </li>
 </ul>
@@ -88,7 +72,7 @@ UTokyo Wi-Fi is only available on individuals' own device: **it is prohibited to
 
 UTokyo Wi-Fi accounts expire at the end of October for the Spring Semester and at the end of April for the Autumn Semester. New accounts can be issued before the start of each semester, so if you want to continue using UTokyo Wi-Fi, you need to reissue an account each semester.
 
-- The procedure for reissuing an account is the same as steps 3 and 4 above.
+- The procedure for reissuing an account is the same as Steps 2 and 3 above.
     - If you have not taken the information security training course and your account has been suspended, you cannot reissue an account. Please refer to the "[Information Security Education](#jouhou-security)" section above for details. 
 - Once the account has been reissued, enter the user ID and password for the new account into the device you use and connect to it.
     - If the device remembers your previous UTokyo Wi-Fi account information and you are not able to change it (i.e., screen to enter a new user ID and password does not appear), please delete your Wi-Fi account information on the device. The specific method of the removal varies depending on the OS and device type, so please refer to the manual of the respective device. For Windows, please also refer to [ECCS Tutor's Page (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/), and for iOS, please refer to the official help "[How to forget a Wi-Fi network on your iPhone, iPad, iPod touch, or Mac](https://support.apple.com/en-us/HT208941)". 
