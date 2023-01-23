@@ -16,6 +16,7 @@
     "@astrolib/analytics": "^0.3.0",
     "astro": "^1.9.0",
     "astro-seo": "^0.7.0",
+    "remark-toc": "^8.0.1",
     "sass": "^1.57.1"
   }
 }
