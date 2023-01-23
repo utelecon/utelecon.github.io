@@ -114,7 +114,7 @@ UTokyo Wi-Fi accounts expire at the end of April of the following fiscal year. N
 
 The network of UTokyo, including UTokyo Wi-Fi, is secured by UTokyo Campuswide Firewall and other measures to ensure information security.
 - Some websites cannot be viewed over UTokyo Wi-Fi because they are blocked by UTokyo Campuswide Firewall.
-- UTokyo Wi-Fi Task Force may contact the user by email if it detected communication  that may cause a security problem.
+- UTokyo Wi-Fi Task Force or the staff of your department (Department CERT) may contact the user by email if it detected communication  that may cause a security problem.
     - Their e-mail addresses are `utokyo-wifi-cert.adm_at_gs.mail.u-tokyo.ac.jp` or `utokyo-wifi-tf_at_itc.u-tokyo.ac.jp` (please read `_at_` as @)．
     - Failure to respond to the email may result in account suspension. In order to reactivate a suspended account, you must consult with your department’s CERT and take reasonable steps to prevent a recurrence. 
 
