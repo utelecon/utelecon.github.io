@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^0.14.0",
+    "@astrojs/react": "^1.2.2",
+    "@astrolib/analytics": "^0.3.0",
     "astro": "^1.9.0",
+    "astro-seo": "^0.7.0",
     "sass": "^1.57.1"
   }
 }
