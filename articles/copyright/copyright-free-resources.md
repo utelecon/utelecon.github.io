@@ -377,7 +377,7 @@ Old Book Illustrationsには，絵本『ピーターラビット』で有名な�
 
 以下のページも，ぜひご参照ください．  
 
-* [パブリック・ドメイン, クリイティブコモンズとは？](/public-domain-creative-commons-license)
+* [パブリック・ドメイン, クリエイティブコモンズとは？](/public-domain-creative-commons-license)
 * [著作権法に関する基本](/basic)
 
 
