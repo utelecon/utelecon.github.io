@@ -42,7 +42,7 @@ title: 大学生活に必要な情報システムの準備について（新入�
 {{ annote }}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OZOxQLBV81o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### UTokyo WiFi：アカウントを申請する
+### UTokyo Wi-Fi：アカウントを申請する
 {:#utokyo_wifi}
 {{ annote }}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mGEsUPXUDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

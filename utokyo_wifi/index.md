@@ -59,7 +59,7 @@ UTokyo Wi-Fiは，各個人が占有して利用する機器でのみ利用可�
 {% include systems/utokyo_wifi/apply.html %}
   </li>
   <li>
-    <strong>手順3：UTokyo WiFiに実際に接続する</strong>
+    <strong>手順3：UTokyo Wi-Fiに実際に接続する</strong>
 {% include systems/utokyo_wifi/connect.html %}
   </li>
 </ul>

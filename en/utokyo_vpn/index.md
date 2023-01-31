@@ -81,8 +81,8 @@ A. Yes, you can access the employee ID card issued and employment management sys
 ### Q. Will I be able to view internal departmental websites?
 A. No. It depends on the access restrictions of your departmental site. You are required to ask your department.
 
-### Q. Is it necessary to get a new account every six months like a UTokyo WiFi account?
-UTokyo VPN authentication is done with a UTokyo Account, not a UTokyo WiFi account. Therefore, you can continue to use UTokyo VPN without changing it. However, users are required to complete an information security training session, annually.
+### Q. Is it necessary to get a new account every six months like a UTokyo Wi-Fi account?
+UTokyo VPN authentication is done with a UTokyo Account, not a UTokyo Wi-Fi account. Therefore, you can continue to use UTokyo VPN without changing it. However, users are required to complete an information security training session, annually.
 
 ## Regulations (only in Japanese)
 {:#regulations}

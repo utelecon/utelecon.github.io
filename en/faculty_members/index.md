@@ -164,11 +164,11 @@ The University of Tokyo provides access to Microsoft’s services through a univ
 
 For further details on how to use this feature, please see the “**[UTokyo Microsoft License (Microsoft 365)](/en/microsoft/)**” page.
 
-### UTokyo WiFi
+### UTokyo Wi-Fi
 
 This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. Please note that you cannot use this service unless you have created an account in advance.
 
-For further details on how to use this feature, please see the “**[UTokyo WiFi](/en/utokyo_wifi)**” page.
+For further details on how to use this feature, please see the “**[UTokyo Wi-Fi](/en/utokyo_wifi)**” page.
 
 ### ECCS Terminals
 
