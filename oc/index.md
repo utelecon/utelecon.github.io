@@ -57,7 +57,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 - **Zoom**, **Webex**：「同時双方向型」のオンライン授業で使うWeb会議システムです．基本的にはZoomを使いますが，授業によってはWebexを使うこともあります．
 - **ECCSクラウドメール (Google Workspace)**：{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
-- **UTokyo WiFi**：{{ about_utokyo_wifi }}
+- **UTokyo Wi-Fi**：{{ about_utokyo_wifi }}
 - **ECCS端末**：{{ about_eccs }}
 
 ### インターネット環境やパソコンなどの機器
@@ -106,7 +106,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 {% include procedures/google.html part="important" %}
 {% include procedures/utas.html part="important" %}
     <li>
-        <strong>UTokyo WiFi：アカウントを申請する</strong>
+        <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
 {% include systems/utokyo_wifi/apply.html part="important" %}
     </li>
 </ul>
@@ -165,7 +165,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 {% include procedures/microsoft.html %}
 
-### UTokyo WiFi
+### UTokyo Wi-Fi
 {:#utokyo_wifi}
 
 {{ about_utokyo_wifi }}
