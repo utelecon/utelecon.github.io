@@ -757,7 +757,7 @@ LMS</text>
  * <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo Wifiのページ</a>を読む
  * **作業(家での準備):** キャンパスに来る前に以下の手順でUTokyo Wifiのパスワード取得, 設定のメモをしておいてください
   - <a href="#utas">UTAS</a>へメールアドレス登録を済ませたか確認してください
-  - <a href="https://netacm.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo Wifiのパスワードを発行</a>するページに行き, "Application" ボタンを押すと, 登録されたメールアドレスにパスワードが届きますのでそれを受け取ってメモ(または印刷)してキャンパスに持参 (<a href="https://youtu.be/NsZplHi6COU" target="_blank" rel="noopener">動画</a>)
+  - <a href="https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo Wifiのパスワードを発行</a>するページに行き, "Application" ボタンを押すと, 登録されたメールアドレスにパスワードが届きますのでそれを受け取ってメモ(または印刷)してキャンパスに持参 (<a href="https://youtu.be/NsZplHi6COU" target="_blank" rel="noopener">動画</a>)
   - 設定は<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo Wifiのページ</a>に説明があるのでそれに従います. このページをスマホにブックマークしておくか, 設定内容を印刷してキャンパスに来ることを推奨
  * **作業(実際のWifi設定):** キャンパスでUTokyo Wifiの電波が飛んでいる所(多くの教室で飛んでいます)へ行き, 上記の設定とパスワードでPCやスマホを接続します
   - <a href="https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-trouble-shooting/" target="_blank" rel="noopener">駒場キャンパスの7号館 721, 13号館 1321で接続サポート</a>をしています(月〜金 10:25‒16:40). 接続に困ったら訪問してください.
