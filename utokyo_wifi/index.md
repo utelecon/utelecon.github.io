@@ -80,31 +80,31 @@ UTokyo Wi-Fiのアカウントの有効期限は翌年度の4月末です．各�
 
 <table>
   <tr>
-    <th>SSID</th> <td><code>0000UTokyo</code> / <code>UTokyo-WiFi</code></td> 
+    <th>SSID</th> <td><code>0000UTokyo</code> / <code>UTokyo-WiFi</code></td>
   </tr>
   <tr>
-    <th>セキュリティ</th> <td>WPA2-Enterprise (802.1x)</td> 
+    <th>セキュリティ</th> <td>WPA2-Enterprise (802.1x)</td>
   </tr>
   <tr>
-    <th>暗号化</th> <td>AES</td> 
+    <th>暗号化</th> <td>AES</td>
   </tr>
   <tr>
-    <th>ネットワーク認証方式/EAP方式</th> <td>保護された EAP(PEAP)</td> 
+    <th>ネットワーク認証方式/EAP方式</th> <td>保護された EAP(PEAP)</td>
   </tr>
   <tr>
-    <th>サーバの証明書を検証</th> <td>する</td> 
+    <th>サーバの証明書を検証</th> <td>する</td>
   </tr>
   <tr>
-    <th>サーバ証明書のドメイン</th> <td><code>u-tokyo.ac.jp</code></td> 
+    <th>サーバ証明書のドメイン</th> <td><code>u-tokyo.ac.jp</code></td>
   </tr>
   <tr>
-    <th>信頼されたルート証明機関</th> <td>"Security Communication RootCA2" (Security Communication RootCA2, NII Open Domain CA - G7 RSA)</td> 
+    <th>信頼されたルート証明機関</th> <td>"Security Communication RootCA2" (Security Communication RootCA2, NII Open Domain CA - G7 RSA)</td>
   </tr>
   <tr>
-    <th>証明書の指紋 (SHA-1 Fingerprint)</th> <td><code>03:03:47:10:4B:AC:1A:95:8F:D9:E2:C1:8E:8C:D3:05:D2:02:20:AF</code></td> 
+    <th>証明書の指紋 (SHA-1 Fingerprint)</th> <td><code>03:03:47:10:4B:AC:1A:95:8F:D9:E2:C1:8E:8C:D3:05:D2:02:20:AF</code></td>
   </tr>
   <tr>
-    <th>認証方式/フェーズ2認証</th> <td>EAP-MSCHAPv2</td> 
+    <th>認証方式/フェーズ2認証</th> <td>EAP-MSCHAPv2</td>
   </tr>
 </table>
 
