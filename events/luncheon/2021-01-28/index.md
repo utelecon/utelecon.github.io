@@ -11,7 +11,7 @@ Sセメスターで優れた工夫・取り組みのあったオンライン授�
 - 日時：2021年1月28日（木） 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
 - **資料**：[グッドプラクティス紹介 米澤智洋先生の授業 内分泌病学 Ⅰ](/good-practice/interview/yonezawa)
-- [**録画**はこちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://drive.google.com/file/d/1lc9WLYJlkAPwclcN0pRF-2z3ew2yohtc/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 

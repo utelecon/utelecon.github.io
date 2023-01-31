@@ -1,6 +1,10 @@
 ---
 title: Sign-in Methods for Zoom
 toc: false
+redirect_from:
+  - /en/zoom/zoom_signin
+  - /en/zoom/create_account
+  - /en/zoom/create_account_invitation
 ---
 
 An [UTokyo Account](/en/utokyo_account/) is required to sign into Zoom. If you have not already set up your UTokyo account, please check “[Preparing for online classes at the University of Tokyo (for new students)](/en/oc/)” or “[Preparing for online classes at the University of Tokyo (for faculty members)](/en/faculty_members)” first.

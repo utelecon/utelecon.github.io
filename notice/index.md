@@ -1,5 +1,7 @@
 ---
 title: お知らせ
+redirect_from:
+  - /whats_not_new
 ---
 
 {% comment %} お知らせの追加は `_data/notice/ja.yml` を編集してください {% endcomment %}

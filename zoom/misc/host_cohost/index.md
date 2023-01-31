@@ -1,5 +1,7 @@
 ---
 title: ホスト，共同ホストができること
+redirect_from:
+  - /zoom/how/common/host_cohost
 ---
 
 ## ホストとは？

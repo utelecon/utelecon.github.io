@@ -80,6 +80,9 @@
       name: "FAQ"
       url: "/en/faq/"
     -
+      name: "System Operation Status"
+      url: "/en/support/service-status"
+    -
       name: "Trouble in Entering Classes"
       url: "/en/oc/join"
     -

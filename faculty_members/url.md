@@ -1,5 +1,8 @@
 ---
 title: 授業URLの連絡方法（教員向け）
+redirect_from:
+  - /faculty_members/let_students_know_your_url
+  - /faculty_members/url_2020_a
 ---
 
 このページでは，教員から学生にオンライン授業のURL（Zoomなどの会議室のURL）を連絡する方法を説明します．

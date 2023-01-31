@@ -2,6 +2,10 @@
 title: UTokyo Wi-Fi
 ---
 
+<div class="box--alert box--important">
+【重要】<a href="/notice/2023/01-wifi">UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ</a>
+</div>
+
 ## UTokyo Wi-Fiとは
 
 UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的として利用できるWi-Fiサービスです．現在，本郷・駒場・柏などのキャンパスのほとんどの教室で利用が可能になっています．UTokyo Wi-Fiを利用する人に向けて[利用上の注意](#caution-to-use)が策定されていますので，適宜参照してください．
@@ -27,7 +31,7 @@ UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的とし�
 ### 情報セキュリティ教育
 {:#jouhou-security}
 
-東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合はアカウントが停止され，年度末までUTokyo Wi-Fiに接続することができなくなります．**アカウントが停止されると，アカウントメニューへのログインやアカウントの新規発行もできなくなります．
+東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（2022年度の場合，学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合はアカウントが停止され，年度末までUTokyo Wi-Fiに接続することができなくなります．**アカウントが停止されると，アカウントメニューへのログインやアカウントの新規発行もできなくなります．
 
 <details>
 	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
@@ -55,7 +59,7 @@ UTokyo Wi-Fiは，各個人が占有して利用する機器でのみ利用可�
 {% include systems/utokyo_wifi/apply.html %}
   </li>
   <li>
-    <strong>手順3：UTokyo Wi-Fiアカウントの発行を申請する</strong>
+    <strong>手順3：UTokyo WiFiに実際に接続する</strong>
 {% include systems/utokyo_wifi/connect.html %}
   </li>
 </ul>

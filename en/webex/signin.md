@@ -1,6 +1,8 @@
 ---
 title: Signing in to Webex
 toc: false
+redirect_from:
+  - /en/webex/create_utelecon_account
 ---
 
 An [UTokyo Account](/en/utokyo_account/) is necessary to sign into Webex.

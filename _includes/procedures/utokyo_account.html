@@ -29,7 +29,13 @@
       %}（もらっていない場合は，所属の学部・研究科等に問い合わせてみてください）．{%
   endcase
 %}</li>
+{%- if page.slug == "oc" %}
 <li><a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet">UTokyo Account利用者メニュー</a>に，「パスワード通知書」に記載されたユーザ名とパスワードでログインしてください．</li>
+{%- else %}
+<li>以下の「UTokyo Account利用者メニュー」に，「パスワード通知書」に記載されたユーザ名とパスワードでログインしてください．
+  <b class="box center"><a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet">UTokyo Account利用者メニュー</a></b>
+</li>
+{%- endif %}
 <li>左上の「ユーザパスワード変更」を押して，パスワードを変更してください（初期パスワードのままでは，各種サービスを利用することができません）．新しいパスワードを決める際には，パスワードの強度を示す表示が「強い」または「とても強い」になるようにしてください．</li>
 </ol>
 <ul>

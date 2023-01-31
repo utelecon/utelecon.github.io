@@ -3,6 +3,10 @@ title: UTokyo Wi-Fi
 slug: utokyo_wifi
 ---
 
+<div class="box--alert box--important">
+[Important] <a href="/en/notice/2023/01-wifi">Changes in usage of UTokyo Wi-Fi due to renewal</a>
+</div>
+
 ## About UTokyo Wi-Fi
 
 UTokyo Wi-Fi is a Wi-Fi service available to members of the University of Tokyo for educational and research purposes. Currently, UTokyo Wi-Fi is available in most classrooms on the Hongo, Komaba, Kashiwa, and other campuses. Please refer to the [Caution](#caution-to-use) before using UTokyo Wi-Fi. 
@@ -31,7 +35,7 @@ UTokyo Wi-Fi is a Wi-Fi service available to members of the University of Tokyo 
 ### Information Security Education
 {:#jouhou-security}
 
-The University of Tokyo conducts annual [Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for all UTokyo Account holders. The beginning of the course will be notified (May for students, July for faculty and staff), so please be sure to take the course. **Failure to complete the course will result in suspension of your UTokyo Wi-Fi privileges until the end of that academic year, and you will not be able to connect to UTokyo Wi-Fi.** Once your account is suspended, you will not be able to log in to the account menu or create a new account.
+The University of Tokyo conducts annual [Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for all UTokyo Account holders. The beginning of the course will be notified (May for students and July for faculty and staff in the case of FY2022), so please be sure to take the course. **Failure to complete the course will result in suspension of your UTokyo Wi-Fi privileges until the end of that academic year, and you will not be able to connect to UTokyo Wi-Fi.** Once your account is suspended, you will not be able to log in to the account menu or create a new account.
 
 
 <details>

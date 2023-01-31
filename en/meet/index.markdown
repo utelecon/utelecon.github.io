@@ -1,5 +1,7 @@
 ---
-title: Google Hangouts Meet  
+title: Google Hangouts Meet
+redirect_from:
+  - /en/google_hangouts_meet/
 ---
 
 ## Introduction

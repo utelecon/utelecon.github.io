@@ -9,7 +9,7 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 - UTokyo Accountのユーザ名は10桁の数字で表され，**共通ID**とも呼ばれます．情報システム内では，`1234567890@utac.u-tokyo.ac.jp`のように，10桁の共通IDの後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたものが用いられることもあります．
   - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」は通常利用できるメールアドレスではありません．
   - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」に送られたシステムからの通知メールなどが[ECCSクラウドメール](/eccs_cloud_email)に転送されることがありますが，メールの送信には利用できません． 
-- UTokyo Accountで利用できるサービスについては，「[東京大学のシステム](/systems)」のページをご覧ください．
+- UTokyo Accountで利用できるサービスについては，**[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)**や[「東京大学のシステム」のページ](/systems)をご覧ください．
 
 ## UTokyo Account利用上の注意
 1. UTokyo Accountは大学が組織的に受入し管理されている構成員に付与します．（大学が組織的に受入をしていない方には付与しません．）

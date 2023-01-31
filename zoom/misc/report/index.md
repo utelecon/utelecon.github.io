@@ -1,5 +1,7 @@
 ---
 title: （Zoom 教員編）出席管理を行う
+redirect_from:
+  - /zoom/how/faculty_members/attendance
 ---
 
 Zoom のレポート機能を使うと，誰がいつ入室して，いつ退室したのかが一覧で把握できます．それを使うと出席の管理ができます．  

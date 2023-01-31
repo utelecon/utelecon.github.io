@@ -161,7 +161,7 @@ Googleのシステムを東大のアカウントで利用できるようにし�
 
 東京大学では，Microsoftのシステムを大学のアカウントで利用できるようになっており，WordやExcelなどのMicrosoft Officeアプリのダウンロードが提供されています．その他にも，Web版のOffice，ファイル置き場のOneDrive，フォーム作成サービスのMicrosoft Formsなどのさまざまな機能を使うことができます．
 
-利用方法などの詳細は，**[UTokyo Microsoft Licenseのページ](/microsoft)**をご覧ください．
+利用方法などの詳細は，**[UTokyo Microsoft Licenseのページ](/microsoft/)**をご覧ください．
 
 ### UTokyo WiFi
 

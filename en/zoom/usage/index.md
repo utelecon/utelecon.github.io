@@ -1,5 +1,9 @@
 ---
 title: Usages in Zoom Meeting
+redirect_from:
+  - /en/zoom/how_to_use
+  - /en/zoom/how_to_use_host
+  - /en/zoom/how_to_use_in_classroom_faculty_members
 ---
 
 In this section we give concrete directions on how to use Zoom.  

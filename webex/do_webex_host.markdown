@@ -1,5 +1,8 @@
 ---
 title: Webex ミーティング・ウェビナーでできること（開催者）
+redirect_from:
+  - /webex/do_events_host
+  - /webex/do_meeting_host
 ---
 
 * ここでは，開催者特有のWebex Meetings・Webex Webinarsの機能を説明します．	

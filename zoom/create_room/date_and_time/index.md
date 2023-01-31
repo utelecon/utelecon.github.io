@@ -1,5 +1,7 @@
 ---
 title: （Zoom 教員編）複数回利用できる URL が変わらない会議室を予約する
+redirect_from:
+  - /zoom/how/faculty_members/schedule
 ---
 
 定期的なミーティングをスケジュールすることで，全13回 URL が変わらない会議室を作ることができます．  

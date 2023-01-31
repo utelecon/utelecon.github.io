@@ -1,6 +1,8 @@
 ---
 title: よりよいオンライン授業の実施方法を探す
 description: このページでは，より良いオンライン授業を実施する上で参考になる情報をまとめています．
+redirect_from:
+  - /en/online/courses
 ---
 
 ## はじめに
