@@ -83,36 +83,42 @@ UTokyo Wi-Fi accounts expire at the end of April of the following fiscal year. N
 
 ### Connect Configuration
 {:#connect-configuration}
+
 <table>
   <tr>
     <th>SSID</th> <td><code>0000UTokyo</code> / <code>UTokyo-WiFi</code></td>
   </tr>
   <tr>
-    <th>Security</th> <td>WPA2-Enterprise (802.1x)</td>
+    <th>Security</th> <td>WPA2-Enterprise (802.1X)</td>
   </tr>
   <tr>
-    <th>Encryption</th> <td>AES</td>
+    <th>Encryption</th> <td>CCMP (AES)</td>
   </tr>
   <tr>
-    <th>Authentication Method </th> <td>PEAP</td>
+    <th>Authentication Method</th> <td>PEAP MSCHAPv2 (EAP-MSCHAPv2)</td>
   </tr>
   <tr>
-    <th>Server Certification Check </th> <td>Must</td>
-  </tr>
-  <tr>
-    <th>Domain</th> <td><code>u-tokyo.ac.jp</code></td>
-  </tr>
-  <tr>
-    <th>Trusted Root Certificate Organization </th> <td>"Security Communication RootCA2" (Security Communication RootCA2, NII Open Domain CA - G7 RSA)</td>
-  </tr>
-  <tr>
-    <th>SHA-1 Fingerprint</th> <td><code>03:03:47:10:4B:AC:1A:95:8F:D9:E2:C1:8E:8C:D3:05:D2:02:20:AF</code></td>
-  </tr>
-  <tr>
-    <th>Auth Method / Phase 2 Auth </th> <td>EAP-MSCHAPv2</td>
+    <th>Server Certificate</th>
+    <td>
+      Either of the following will be used:
+      <ul style="margin-top: 0; margin-bottom: 0;">
+        <li>Name (Common Name): <code>acm.wifi.adm.u-tokyo.ac.jp</code></li>
+        <li>Issued by: <code>NII Open Domain CA - G7 RSA</code></li>
+        <li>Root Certificate: <code>Security Communication RootCA2</code></li>
+        <li>Fingerprint SHA-1: <code style="word-break: break-all;">6D:F0:B1:18:F1:8F:16:A5:D3:94:AC:E2:26:7A:C1:0A:F2:94:B1:37</code></li>
+        <li>Fingerprint SHA-256: <code style="word-break: break-all;">6F:CF:A6:06:B1:45:C2:23:53:E7:BA:D7:B4:08:B3:CD:22:DA:80:A0:1A:6A:E3:91:9A:3A:47:E6:C0:6A:AB:46</code></li>
+      </ul>
+      or
+      <ul style="margin-top: 0; margin-bottom: 0;">
+        <li>Name (Common Name): <code>netacm.adm.u-tokyo.ac.jp</code></li>
+        <li>Issued by: <code>NII Open Domain CA - G7 RSA</code></li>
+        <li>Root Certificate: <code>Security Communication RootCA2</code></li>
+        <li>Fingerprint SHA-1: <wbr><code style="word-break: break-all;">03:03:47:10:4B:AC:1A:95:8F:D9:E2:C1:8E:8C:D3:05:D2:02:20:AF</code></li>
+        <li>Fingerprint SHA-256: <wbr><code style="word-break: break-all;">C9:22:73:7E:B4:0A:5C:21:4F:0B:01:D4:34:E3:2B:5E:7A:63:A6:50:FB:2B:BE:FB:63:F7:4E:27:5D:1D:60:E4</code></li>
+      </ul>
+      * If you are prompted to enter the "domain" of the certificate, enter <code style="word-break: break-all;">u-tokyo.ac.jp</code>.</td>
   </tr>
 </table>
-
 
 ### Security measure
 

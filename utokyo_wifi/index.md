@@ -83,28 +83,34 @@ UTokyo Wi-Fiのアカウントの有効期限は翌年度の4月末です．各�
     <th>SSID</th> <td><code>0000UTokyo</code> / <code>UTokyo-WiFi</code></td>
   </tr>
   <tr>
-    <th>セキュリティ</th> <td>WPA2-Enterprise (802.1x)</td>
+    <th>セキュリティ</th> <td>WPA2-Enterprise (802.1X)</td>
   </tr>
   <tr>
-    <th>暗号化</th> <td>AES</td>
+    <th>暗号化</th> <td>CCMP (AES)</td>
   </tr>
   <tr>
-    <th>ネットワーク認証方式/EAP方式</th> <td>保護された EAP(PEAP)</td>
+    <th>認証方式</th> <td>PEAP MSCHAPv2 (EAP-MSCHAPv2)</td>
   </tr>
   <tr>
-    <th>サーバの証明書を検証</th> <td>する</td>
-  </tr>
-  <tr>
-    <th>サーバ証明書のドメイン</th> <td><code>u-tokyo.ac.jp</code></td>
-  </tr>
-  <tr>
-    <th>信頼されたルート証明機関</th> <td>"Security Communication RootCA2" (Security Communication RootCA2, NII Open Domain CA - G7 RSA)</td>
-  </tr>
-  <tr>
-    <th>証明書の指紋 (SHA-1 Fingerprint)</th> <td><code>03:03:47:10:4B:AC:1A:95:8F:D9:E2:C1:8E:8C:D3:05:D2:02:20:AF</code></td>
-  </tr>
-  <tr>
-    <th>認証方式/フェーズ2認証</th> <td>EAP-MSCHAPv2</td>
+    <th>サーバ証明書</th>
+    <td>
+      次のいずれかが使用されます：
+      <ul style="margin-top: 0; margin-bottom: 0;">
+        <li>名称 (Common Name): <code>acm.wifi.adm.u-tokyo.ac.jp</code></li>
+        <li>発行元: <code>NII Open Domain CA - G7 RSA</code></li>
+        <li>ルート証明書: <code>Security Communication RootCA2</code></li>
+        <li>指紋 (fingerprint) SHA-1: <code style="word-break: break-all;">6D:F0:B1:18:F1:8F:16:A5:D3:94:AC:E2:26:7A:C1:0A:F2:94:B1:37</code></li>
+        <li>指紋 (Fingerprint) SHA-256: <code style="word-break: break-all;">6F:CF:A6:06:B1:45:C2:23:53:E7:BA:D7:B4:08:B3:CD:22:DA:80:A0:1A:6A:E3:91:9A:3A:47:E6:C0:6A:AB:46</code></li>
+      </ul>
+      または
+      <ul style="margin-top: 0; margin-bottom: 0;">
+        <li>名称 (Common Name): <code>netacm.adm.u-tokyo.ac.jp</code></li>
+        <li>発行元: <code>NII Open Domain CA - G7 RSA</code></li>
+        <li>ルート証明書: <code>Security Communication RootCA2</code></li>
+        <li>指紋 (Fingerprint) SHA-1: <wbr><code style="word-break: break-all;">03:03:47:10:4B:AC:1A:95:8F:D9:E2:C1:8E:8C:D3:05:D2:02:20:AF</code></li>
+        <li>指紋 (fingerprint) SHA-256: <wbr><code style="word-break: break-all;">C9:22:73:7E:B4:0A:5C:21:4F:0B:01:D4:34:E3:2B:5E:7A:63:A6:50:FB:2B:BE:FB:63:F7:4E:27:5D:1D:60:E4</code></li>
+      </ul>
+      ※証明書の「ドメイン」を入力するよう求められた場合は，<code style="word-break: break-all;">u-tokyo.ac.jp</code>を入力してください．</td>
   </tr>
 </table>
 
