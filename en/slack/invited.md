@@ -23,7 +23,7 @@ If you are already using UTokyo Slack, you will receive a direct message from th
 1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
     <details>
         <summary>Troubleshooting guide: If you get an error message "これに対するアクセス権がありません" or "You don't have access to this".</summary>
-        It is possible that the application or reflection of the Multi-Factor Authentication for UTokyo Account, which is required to use UTokyo Slack, has not been completed. <strong>Please make sure</strong> to follow the initial setup procedures on the "<strong><a href="/utokyo_account/mfa/">Using Multi-Factor Authentication for UTokyo Accounts</a></strong>" page <strong>up to the last step "Step 4: Apply for MFA Use"</strong> to enable multi-factor authentication for your UTokyo Account. <strong>It will take about 40 minutes for your account settings to be reflected in the system, so please wait for a while</strong>.
+        It is possible that the application or reflection of the Multi-Factor Authentication for UTokyo Account, which is required to use UTokyo Slack, has not been completed. Please make sure to follow the initial setup procedures on the "<strong><a href="/utokyo_account/mfa/">Using Multi-Factor Authentication for UTokyo Accounts</a></strong>" page <strong>up to the last step "Step 4: Apply for MFA Use"</strong> to enable multi-factor authentication for your UTokyo Account. <strong>It will take about 40 minutes for your account settings to be reflected in the system, so please wait for a while</strong>.
     </details>
 1. Since you will be asked to review the terms of service, please do so.
 1. After joining in process has been completed, the workspace screen will appear.
