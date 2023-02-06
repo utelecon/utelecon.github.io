@@ -22,7 +22,7 @@ You cannot access e-journals and e-books subscribed by the University of Tokyo L
 
 **Device Types and OS for VPN:** UTokyo VPN is accessible on the following versions of Windows and macOS. Moreover, iPhone, Android, and other smartphones can be used other than the PC, however, currently we do not provide manuals or support for them.
 
-- Windows: Windows 8.1, 10, 11
+- Windows: Windows 10, 11
 - macOS: macOS 10.15 Catalina, 11 Big Sur, 12 Monterey
 - Android: Android 9, 10, 11, 12
 - iOS: iOS 14, 15
