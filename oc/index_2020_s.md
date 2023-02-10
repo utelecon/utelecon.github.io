@@ -97,7 +97,7 @@ title: 新入生・在学生のための, オンライン授業を受けるた�
 1. **Office 365 (Microsoft):** Microsoftのサービスです. レポートやプレゼンテーションの作成など, いろいろなことに使えます. 使うためには以下の手順で有効化を行う(利用規約に同意する)必要があります.
   * **作業:** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a> から「Office 365 ProPlus利用許諾」に合意し, Office 365の有効化をして下さい (<a href="https://youtu.be/OYl5P67mDYI" target="_blank">手順動画</a>).
   * このあと実際にExcelなどのアプリケーションが使えるようになるまで, 日中は最大3時間, 夜は翌朝11:00までお待ちください(正確には, 11:00, 14:00, 17:00, 20:00にこれまでの利用許諾が反映されます).
-  * **作業:** 待ったら<a href="https://office.com/" targt="_blank">office.com にサインイン</a>してください(手順 <a href="https://youtu.be/cqQlaDLD9v0" target="_blank">パソコン</a>, <a href="https://youtu.be/https://youtu.be/IeGju3cb2E4" target="_blank">スマホ</a>). もしすでに別の(例えば普段自分が使っている)アカウントでサインインしていたら, 一度サインアウトしてから大学のアカウントでサインインします(手順 <a href="https://youtu.be/SiOS0M9FChk" target="_blank">パソコン</a>, <a href="https://youtu.be/https://youtu.be/QZGGHcQvUXU" target="_blank">スマホ</a>). 
+  * **作業:** 待ったら<a href="https://office.com/" targt="_blank">office.com にサインイン</a>してください(手順 <a href="https://youtu.be/cqQlaDLD9v0" target="_blank">パソコン</a>, <a href="https://youtu.be/IeGju3cb2E4" target="_blank">スマホ</a>). もしすでに別の(例えば普段自分が使っている)アカウントでサインインしていたら, 一度サインアウトしてから大学のアカウントでサインインします(手順 <a href="https://youtu.be/SiOS0M9FChk" target="_blank">パソコン</a>, <a href="https://youtu.be/QZGGHcQvUXU" target="_blank">スマホ</a>). 
   * **作業:** できたらExcelのBookを一つ作ってみて下さい(<a href="https://youtu.be/PcHlb-t2Dr8" target="_blank">手順動画</a>)
 1. **ECCSオンライン新規利用者講習:** 15分ほどのビデオで学内の端末室の使い方を学びます. 家から授業を受ける分には不要ですが, いずれ登校する日に備え, 時間のあるうちにやっておきましょう. <a href="https://www.ecc.u-tokyo.ac.jp/onlineseminar.html" target="_blank">オンライン新規利用者講習の受講方法</a>
 
