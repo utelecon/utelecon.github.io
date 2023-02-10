@@ -11,7 +11,7 @@ Sセメスターで実施してきた情報交換会を今期も行っていき�
 - 日時：2020年10月20日（火） 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
 - [**スライド**はこちら](luncheon_16_slides.pdf)
-- [**録画**はこちら](https://drive.google.com/file/d/1-vAXDbi_HlRQHqjmj2CiYyU0xxCDAVmh/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020A/2020-10-20) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 
