@@ -14,7 +14,7 @@ title: 2020/03/27 オンライン基礎講座「ライブ配信ではない，�
 **発表資料:** <a href="seminar_ondemand.pdf">pdf</a>  
   
   
-**動画:** <a href="https://drive.google.com/open?id=1HsmRHGaQmFfceWLAJA1zYsO2FpVroJrb">動画ファイル（要 ECCS クラウドメール）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  
+**動画:** <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-03-27-1">動画ファイル（要 ECCS クラウドメール）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  
 
 
 ## 語学学習に特化したオンライン授業相談会
@@ -28,4 +28,4 @@ title: 2020/03/27 オンライン基礎講座「ライブ配信ではない，�
 **発表資料:** <a href="talk_language_education.pdf">pdf</a>  
 
   
-**動画:** <a href="https://drive.google.com/open?id=1TANUg4ZmLzWZIK-C17M3I3sU0uvL8gNO">動画ファイル（要 ECCS クラウドメール）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  
+**動画:** <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-03-27-2">動画ファイル（要 ECCS クラウドメール）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  

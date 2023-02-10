@@ -8,7 +8,7 @@ title: オンライン授業情報交換会 第23回 東大生協からのオン
 - 日時：2020年12月11日（金） 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
 - [**スライド**はこちら](luncheon_23_slides.pdf)
-- [**録画**はこちら](https://drive.google.com/file/d/15OUPAQEfphIt6ZpJ777DhAOJEXOCRgSq/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020A/2020-12-11) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 

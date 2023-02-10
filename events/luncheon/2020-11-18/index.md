@@ -9,7 +9,7 @@ Sセメスターで優れた工夫・取り組みのあったオンライン授�
 - 日時：2020年11月18日（水） 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
 - **資料**：[グッドプラクティス紹介 入江薫先生の授業 数理統計I，II](/good-practice/interview/irie)
-- [**録画**はこちら](https://drive.google.com/file/d/1qvLLJGAY1UkAnyL2KPsgx1vlatVafsoH/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020A/2020-11-18) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 

@@ -57,7 +57,7 @@ title: 本学教職員からご共有いただいた資料
 * **Zoomにおける事前登録** [\[PDF\]](zoom_v04.pdf) （工学系・相田先生）: 参加者の管理を厳密に行いたい場合の事前登録機能についての紹介です．
 
 ## 学会開催の事例
-* **学会オンライン化の記録** [\[PDF\]](hybrid_conference_report.pdf) (総合文化研究科/生命科学ネットワーク・新冨先生):「オンライン」からでも「講演会場」からでも参加可能なニューノーマルの学会スタイル，「ハイブリッド式講演会」の実施についてのノウハウの紹介です．オンライン講演会・オンラインポスターセッション・ポスター審査といった要素を含む約700人規模の講演会を，どのような機材・システムで運営されたか，具体的に記載されています．また，ハイブリッド講演会のデモ動画も共有頂きました．[mp4ファイル](https://drive.google.com/file/d/1a6buklw0lC7kS_5d8Rn6dwSnQdNaq34D/view?usp=sharing)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）      
+* **学会オンライン化の記録** [\[PDF\]](hybrid_conference_report.pdf) (総合文化研究科/生命科学ネットワーク・新冨先生):「オンライン」からでも「講演会場」からでも参加可能なニューノーマルの学会スタイル，「ハイブリッド式講演会」の実施についてのノウハウの紹介です．オンライン講演会・オンラインポスターセッション・ポスター審査といった要素を含む約700人規模の講演会を，どのような機材・システムで運営されたか，具体的に記載されています．また，ハイブリッド講演会のデモ動画も共有頂きました．[mp4ファイル](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/other/academic-conferences)（要 ECCS クラウドメール）（ECCSクラウドメールでサインインするには[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．初期設定がまだの人は<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">こちら（ECCSクラウドメールの設定方法）</a>）      
 
 ## 作業を効率化する方法
 * **Google スプレッドシートの複数のファイルを連番で自動作成し、「共有可能なリンク」の URL のリストを自動で取得する方法** [[pdfファイル](saito_gas.pdf), [スクリプト](saito_script.txt)] (総合文化・齋藤先生)
