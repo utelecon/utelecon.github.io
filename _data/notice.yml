@@ -9,6 +9,7 @@
   content:
     ja: "[UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ](/notice/2023/01-wifi)"
     en: "[Changes in usage of UTokyo Wi-Fi due to renewal](/en/notice/2023/01-wifi)"
+  important: true
 -
   date: 2022-12-20
   content:
@@ -33,6 +34,7 @@
   date: 2022-11-07
   content:
     ja: "「[東京大学におけるSlack「教育支援プログラム」の申し込み](/slack/discount)」を掲載しました．"
+  important: true
 -
   date: 2022-09-29
   content:
