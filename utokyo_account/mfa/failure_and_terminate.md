@@ -1,5 +1,7 @@
 ---
 title: UTokyo Account多要素認証の本人確認方法再登録および利用終了について
+redirect_from:
+  - /utokyo_account/mfa/reregister_and_terminate
 ---
 
 このページでは，[UTokyo Accountの多要素認証](.)について，「本人確認方法の再登録」と「利用終了」の手続きの説明をしています．2つの手続きがありますので，自身に必要な手続きがどちらであるか確認し，手続きを行ってください．
