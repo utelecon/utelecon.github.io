@@ -2,7 +2,7 @@
 title: UTokyo Accountの多要素認証に関するその他の情報
 ---
 
-## ハードウェアトークンの利用について（教職員向け）
+## ハードウェアトークンの貸出について（教職員向け）
 {:#hardware-token}
 
 UTokyo Accountの多要素認証における本人確認方法としては，スマホの認証アプリまたは電話番号（SMS・音声通話）が基本となりますが，どちらも利用できない場合のため，「ハードウェアトークン」という専用の機器を貸し出しています（教職員向け）．詳細は[UTokyo Portalの案内ページ（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Token.aspx)を参照してください．
