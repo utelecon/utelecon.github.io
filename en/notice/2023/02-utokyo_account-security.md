@@ -33,7 +33,7 @@ We are currently considering changing the validity period and number of characte
 
 ## We are working on making UTokyo Account safer and smoother to use
 
-We will continue to improve UTokyo Account to make it safer and smoother to use. As part of this effort, we are planning to enable the use of FIDO security keys as a more advanced identification method in the next few months. We will announce the detailed schedule and usage on the utelecon portal site when it becomes available.
+We will continue to improve UTokyo Account to make it safer and smoother to use. As part of this effort, we are planning to enable the use of FIDO security keys as a more advanced verification method in the next few months. We will announce the detailed schedule and usage on the utelecon portal site when it becomes available.
 
 
 ## Maintenance of UTAS and ITC-LMS
