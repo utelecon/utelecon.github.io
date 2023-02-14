@@ -10,20 +10,20 @@ The information security environment has been deteriorating due to the worsening
 
 ## Sign-in approval procedure for the "Microsoft Authenticator" application will change on February 27
 
-The "Microsoft Authenticator" application is one of the verificationmtehod for MFA in UTokyo Account. Starting February 27, the procedure for approving notifications on your phone when signing in using the "Microsoft Authenticator" app will be changed to enhance security.
+The "Microsoft Authenticator" application is one of the verification method for MFA in UTokyo Account. Starting February 27, the procedure for approving notifications on your phone when signing in using the "Microsoft Authenticator" app will be changed to enhance security.
 
 ### New sign-in approval procedure
 
 Previously, when signing in using the "Microsoft Authenticator" app, a notification was sent to the phone and the user had to press a button on the app to approve the sign-in. With the new approval procedure, a two-digit number is displayed on the screen after signing in, and the user needs to enter the two-digit number on the app.
-![](number_matching.png)
+![](/notice/2023/number_matching.png)
 
-If you have already registered the "Microsoft Authenticator" app as an verification method, you can continue to use your current app even if the approval procedure is changed, so there is no need to register your verification method again.
+If you have already registered the "Microsoft Authenticator" app as a verification method, you can continue to use your current app even if the approval procedure is changed, so there is no need to register your verification method again.
 
 Note: If you wish to register a new "Microsoft Authenticator" app, please follow the instructions in "[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)".
 
 ### Background of the change
 
-The previous approval procedure for the "Microsoft Authenticator" app was to press a button on a notification sent to your phone to approve sign-in. However, an attack technique called an MFA fatigue attack is now attracting attention. Fatigue attacks on MFA are an attack method in which an attacker who has stolen a user's ID and password aims at a user's incorrect operation in order to break through MFA. Specifically, the attackers attempt to cause the user to approve a notification that he/she does not remember, to cause the user to press the approve button by mistake, or to cause a user who happens to be trying to sign in at the same time as the attacker to apporve the attacker's sign-in by mistake.
+The previous approval procedure for the "Microsoft Authenticator" app was to press a button on a notification sent to your phone to approve sign-in. However, an attack technique called a MFA fatigue attack is now attracting attention. Fatigue attacks on MFA are an attack method in which an attacker who has stolen a user's ID and password aims at a user's incorrect operation in order to break through MFA. Specifically, the attackers attempt to cause the user to approve a notification that he/she does not remember, to cause the user to press the approve button by mistake, or to cause a user who happens to be trying to sign in at the same time as the attacker to approve the attacker's sign-in by mistake.
 
 The new approval procedure requires users to enter the numbers displayed on the sign-in screen into the app, thus the MFA will not be approved unless the numbers displayed on the attacker's screen are entered. This reduces the risk of false sign-in due to fatigue attacks.
 
