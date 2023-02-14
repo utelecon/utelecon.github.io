@@ -234,7 +234,7 @@ Japan Specialized Newspapers Association
 
 - [公式ウェブサイト](http://www.senmonshinbun.or.jp/)
 - [加盟団体／賛同団体／委託者／会員](http://www.senmonshinbun.or.jp/category/members)
-- [使用許諾申請・問い合わせ先](http://www.senmonshinbun.or.jp/category/aboutus)：ページ右側に「お問い合わせ」という項目があります。
+- [使用許諾申請・問い合わせ先](http://www.senmonshinbun.or.jp/category/aboutus)：ページ右側に「お問い合わせ」という項目があります．
 
 <h3 id="jasrac" class="no_toc">
 一般社団法人 日本音楽著作権協会<br />
