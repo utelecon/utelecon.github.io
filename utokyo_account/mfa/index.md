@@ -3,6 +3,10 @@ title: UTokyo Accountにおける多要素認証の利用について
 css: [mfa]
 ---
 
+<div class="box--alert">
+【お知らせ】<a href="/notice/2023/02-utokyo_account-security">2月27日から「Microsoft Authenticator」アプリのサインイン承認手順が変わります</a>
+</div>
+
 ## はじめに
 {:#introduction}
 

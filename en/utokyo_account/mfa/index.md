@@ -3,6 +3,9 @@ title: Using Multi-Factor Authentication for UTokyo Accounts
 css: [mfa]
 ---
 
+<div class="box--alert">
+[Notice] <a href="/notice/2023/02-utokyo_account-security">## Sign-in approval procedure for the "Microsoft Authenticator" application will change on February 27</a>
+</div>
 
 ## Introduction
 {:#introduction}
