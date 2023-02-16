@@ -41,7 +41,8 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 </details>
 <details>
 	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
-	当該年度のUTokyo VPNの利用資格が停止されますので，基本的に年度末までUTokyo VPNを利用することはできません．未受講者への対応に関しては， <code>jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>は@に変更）まで，UTokyo Accountのユーザー名（10桁の共通ID）を添えてお問い合わせください．
+	UTokyo VPNの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていてもITC-LMSから可能となっているので，受講してください．そのうえで，<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">情報セキュリティ教育のページ</a>の下部の「お問い合わせ」から，今後の対応についてお問い合わせください．
+	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
 </details>
 
 ### UTokyo Accountの多要素認証
