@@ -1,5 +1,5 @@
 import * as nav from "../../data/nav";
-import "./navigation.scss";
+import style from "./navigation.module.scss";
 
 interface Props {
   lang: "ja" | "en";
@@ -7,7 +7,7 @@ interface Props {
 
 export default function Navigation({ lang }: Props) {
   return (
-    <nav className="header">
+    <nav className={style.header}>
       <ul>
         {nav[lang].map((row, i) => (
           <li key={i}>

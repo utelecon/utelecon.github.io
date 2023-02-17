@@ -32,7 +32,7 @@ const topUrl = {
   )
 }
 
-<footer>
+<footer class="footer">
   <div class="logo">
     <a href="https://www.u-tokyo.ac.jp/">
       <img
@@ -46,9 +46,9 @@ const topUrl = {
   </div>
 </footer>
 
-<style lang="scss" is:global>
+<style lang="scss">
   @import "../../styles/color.scss";
-  footer {
+  footer.footer {
     background-color: $footer-background-color;
     color: white;
     :link,
@@ -63,18 +63,19 @@ const topUrl = {
     @media (max-width: 512px) {
       padding: 2rem 1rem;
     }
-  }
-  .logo {
-    text-align: center;
-    &-utokyo {
-      width: 16rem;
-      max-width: 62.5%;
-    }
-    &-utelecon {
-      display: block;
-      margin: 2rem;
-      &:hover {
-        text-decoration: underline;
+
+    .logo {
+      text-align: center;
+      &-utokyo {
+        width: 16rem;
+        max-width: 62.5%;
+      }
+      &-utelecon {
+        display: block;
+        margin: 2rem;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }

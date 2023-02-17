@@ -3,6 +3,11 @@ nav.footer {
   :visited:hover {
     text-decoration: underline;
   }
+  :link,
+  :visited {
+    color: white;
+    text-decoration: none;
+  }
   & > ul {
     column-count: 2;
     column-gap: 4rem;
