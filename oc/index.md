@@ -46,6 +46,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 {% capture about_utokyo_account %}東大の情報システムで使う，「共通ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．{% endcapture %}
 {% capture about_utas %}各授業の概要説明（シラバス）の閲覧，受ける授業の登録手続き，成績の確認などに使うシステム（学務システム）です．{% endcapture %}
 {% capture about_itc_lms %}授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．{% endcapture %}
+{% capture about_zoom %}「同時双方向型」のオンライン授業で使うWeb会議システムです．{% endcapture %}
 {% capture about_google %}GmailなどのGoogleのシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既にGoogleのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．{% endcapture %}
 {% capture about_microsoft %}Word, ExcelなどのMicrosoft Officeが無料でダウンロードできます．また，Microsoftの各種オンラインツールも提供しています．Googleと同じく，東大のアカウントでしかアクセスできないページがあるので，既にMicrosoftのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．{% endcapture %}
 {% capture about_utokyo_wifi %}キャンパス内で使えるWi-Fiです．キャンパス内でオンライン授業を受ける際に必要になるでしょう．事前にアカウントを作っていないと使えないので注意してください．{% endcapture %}
@@ -54,7 +55,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 - **UTokyo Account**：{{ about_utokyo_account }}
 - **UTAS**：{{ about_utas }}
 - **ITC-LMS**：{{ about_itc_lms }}
-- **Zoom**：「同時双方向型」のオンライン授業で使うWeb会議システムです．
+- **Zoom**：{{ about_zoom }}
 - **ECCSクラウドメール (Google Workspace)**：{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
 - **UTokyo Wi-Fi**：{{ about_utokyo_wifi }}
@@ -141,7 +142,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 ### Zoom
 {:#zoom}
 
-「同時双方向型」授業のほとんどで使うWeb会議システムです．
+{{ about_zoom }}
 
 {% include procedures/zoom.html %}
 
