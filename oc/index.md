@@ -54,7 +54,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 - **UTokyo Account**：{{ about_utokyo_account }}
 - **UTAS**：{{ about_utas }}
 - **ITC-LMS**：{{ about_itc_lms }}
-- **Zoom**, **Webex**：「同時双方向型」のオンライン授業で使うWeb会議システムです．基本的にはZoomを使いますが，授業によってはWebexを使うこともあります．
+- **Zoom**：「同時双方向型」のオンライン授業で使うWeb会議システムです．
 - **ECCSクラウドメール (Google Workspace)**：{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
 - **UTokyo Wi-Fi**：{{ about_utokyo_wifi }}
@@ -144,11 +144,6 @@ description: このページでは，東京大学で授業を受ける新入生�
 「同時双方向型」授業のほとんどで使うWeb会議システムです．
 
 {% include procedures/zoom.html %}
-
-### Webex
-{:#webex}
-
-一部の「同時双方向型」授業で使うWeb会議システムです．使うことは少ないので，必要になってから作業すれば問題ありません．利用方法などの詳細は[Webexのページ](/webex/)をご覧ください．
 
 ### ECCSクラウドメール (Google Workspace)
 {:#google}
