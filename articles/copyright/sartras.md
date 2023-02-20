@@ -43,23 +43,24 @@ title: 授業目的公衆送信補償制度およびSARTRAS設立の経緯と意
 
 ## 参考文献
 
-* 一般社団法人 授業目的公衆送信補償金など管理協会「授業目的公衆送信補償金制度」
-  [https://sartras.or.jp/](https://sartras.or.jp/)  
-  文化庁「授業目的公衆送信補償金制度の概要」2020年12月  
+* 一般社団法人 授業目的公衆送信補償金など管理協会「授業目的公衆送信補償金制度」<br>
+  [https://sartras.or.jp/](https://sartras.or.jp/)<br>
+  文化庁「授業目的公衆送信補償金制度の概要」2020年12月<br>
   [https://www.bunka.go.jp/seisaku/chosakuken/pdf/92728101_03.pdf](https://www.bunka.go.jp/seisaku/chosakuken/pdf/92728101_03.pdf)
-* 文化庁著作権課　著作物流通推進室「コロナ時代における教育のデジタライゼーションに対応した著作権制度について」2020年10月  
+* 文化庁著作権課　著作物流通推進室「コロナ時代における教育のデジタライゼーションに対応した著作権制度について」2020年10月<br>
   [https://sartras.or.jp/wp-content/uploads/shiryo2020100701.pdf](https://sartras.or.jp/wp-content/uploads/shiryo2020100701.pdf)
-* 文化庁「著作権」  
+* 文化庁「著作権」<br>
   [https://www.bunka.go.jp/seisaku/chosakuken/](https://www.bunka.go.jp/seisaku/chosakuken/)
-* みんなのための著作権教室  
+* みんなのための著作権教室<br>
   [http://kids.cric.or.jp/index.html](http://kids.cric.or.jp/index.html)
-* 改正著作権法第35条運用指針  
+* 改正著作権法第35条運用指針<br>
   [https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf](https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf)
 
 ## あわせて読みたい記事
-[著作権法に関する基本](basic)  
-[学校は著作権の例外？　改正著作権法35条](article35-and-educational-institutions)  
-[SARTRASに加盟する団体一覧](sartras-member-organizations)
+
+* [著作権法に関する基本](basic)
+* [学校は著作権の例外？　改正著作権法35条](article35-and-educational-institutions)
+* [SARTRASに加盟する団体一覧](sartras-member-organizations)
 
 [^1]: 改正前の著作権法35条では，著作物の複製といえば印刷機による紙の印刷が想定されていましたが，改正後は電子媒体への複製も加味されています．
 [^2]:例えば，教育機関における授業目的で，PDF化された著作物を先生が学生に送信するといったことが該当します．この記事では，「公の伝達」といった言葉もほぼ同義で使用しています．公衆送信や公の伝達についてより詳しく知りたい方は，参考文献などをご確認ください．参考：SARTRAS「授業目的講習送信補償金制度とは」（[https://sartras.or.jp/seido/](https://sartras.or.jp/seido/)）
