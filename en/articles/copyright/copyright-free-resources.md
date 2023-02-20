@@ -273,7 +273,7 @@ The Tokyo National Museum has a digital archive of photographic materials, old d
 The National Palace Museum, the largest museum in Taiwan, has a database of more than 70,000 images in its collection, including the famous "Jadeite Cabbage," available for free. The images can be used free of charge and you do not need to apply for permission.
 
 * [Database](https://theme.npm.edu.tw/opendata/index.aspx?lang=2)
-* [Terms of Use](https://data.gov.tw/licenseut-the-collection/about-copyright/)
+* [Terms of Use](https://data.gov.tw/license#eng)
 
 #### National Gallery of Art
 
