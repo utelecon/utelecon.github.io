@@ -32,14 +32,14 @@
 詳しくは図1，図2をご覧ください．
 
 <figure>
-<img src=images/image1.png>
+<img src=img/educational_institutions_0_1.png>
 </figure>
 
 ＜図1＞【引用】文化庁著作権課　資料「教育のDXを加速する著作権制度～授業目的公衆送信補償金制度について～[^3]」2021年1月29日，p. 9
 
 
 <figure>
-<img src=images/image2.png>
+<img src=img/educational_institutions_0_2.png>
 </figure>
 
 ＜図2＞【引用】文化庁著作権課　資料「教育のDXを加速する著作権制度～授業目的公衆送信補償金制度について～[^4]」2021年1月29日，p. 10
