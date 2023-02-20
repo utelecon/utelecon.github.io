@@ -1,5 +1,7 @@
 ---
 title: Problems That Tend to Arise in Online Group Discussions and Suggested Solutions
+author:
+  affiliation: oes
 ---
 
 ## Breakout Rooms Are Useful for Online Group Discussions
@@ -10,15 +12,15 @@ For example, Zoom's "Breakout Rooms" and Google Meet and Webex's "Breakout Sessi
 
 ☞For detailed instructions on how to use the Breakout feature, please refer to the following page.  
 
-* Zoom: [Using the Breakout Room Function in Zoom]()｜utelecon
+* Zoom: [Using the Breakout Room Function in Zoom (in Japanese)](/zoom/usage/breakout/)｜utelecon
 * Google Meet: [Using Breakout Sessions in Google Meet](https://support.google.com/meet/answer/10099500?hl=ja)
-* Webex: [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](https://utelecon.adm.u-tokyo.ac.jp/en/webex/do_webex)｜utelecon
+* Webex: [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](/en/webex/do_webex)｜utelecon
 
 ## Unexpected Difficulties with Using Breakout Rooms?
 
 Breakout group discussions are often used in online classes and conferences. However, while it is a useful feature, it has some difficulties that are unique to online discussions and that are not present in face-to-face meetings.  
 
-As part of our activities as [Online Education Supporters](https://utelecon.adm.u-tokyo.ac.jp/about/oes), we discussed the difficulties we experienced in online classes with other members. During these discussions, members frequently mentioned “having trouble with group discussions."  
+As part of our activities as [Online Education Supporters](/en/about/oes), we discussed the difficulties we experienced in online classes with other members. During these discussions, members frequently mentioned “having trouble with group discussions."  
 
 For example, the following comments were received.  
 
@@ -68,7 +70,7 @@ Examples of such rules are as follows:
 
 #### Indicate the Time Required
 
-Participants are encouraged to make the most efficient use of their time, by being aware of the time allotted for discussion and the ending time. (Zoom has a timer function (e.g., "[How Timers Work in Zoom]()") that allows you to specify a time limit for the breakout.)  
+Participants are encouraged to make the most efficient use of their time, by being aware of the time allotted for discussion and the ending time. (Zoom has a timer function (e.g., "[How Timers Work in Zoom (in Japanese)](/zoom/usage/breakout/#オプションの設定)") that allows you to specify a time limit for the breakout.)  
 
 #### Let Participants Know the Type of Output You Are Looking for
 
@@ -95,7 +97,7 @@ It would be helpful if the general guidelines and instructions of the discussion
 
 Example of a slide summarizing instructions for the group discussion:  
 
-![image1]()
+![slide](img/slide.png)
 
 #### Ask Each Person to Save a Summary of the Discussion
 
@@ -103,27 +105,23 @@ Since participants often forget what to do after they get to the breakout room, 
 
 Alternatively, if the instructor can transcribe the same content into the chat, it is convenient for participants since they can copy the text data and keep it for themselves. (Please note that you will not be able to see the chat in the main room once you move to the breakout room.)  
 
-☞ Extra tip:  
+<div style="margin-left:2em">
+<p>☞ Extra tip:</p>
+<p>With Zoom, you can share your screen with the breakout room.</p>
+<p>Zoom now allows screen sharing from the main room to each breakout room (a new feature added in June 2021).</p>
+<p>You can use screen sharing to show the aforementioned guidelines and instructions page, as well as pages with additional instructions.</p>
+<p>Share your screen with breakout rooms by opening this window:
+<img src="img/screen-sharing-breakout.png" /></p>
+<p>However, note that if you enable screen sharing from the main room while someone is sharing their screen in the breakout room, the screen sharing in the breakout room will be disabled. Also, if you enable screen sharing in the main room, participants in the breakout room will not be able to share screens. (Remember to stop screen sharing from the main room when it is no longer necessary to do so.) </p>
+<img src="img/screen-sharing-error.png" />
+</div>
 
-With Zoom, you can share your screen with the breakout room.  
-
-Zoom now allows screen sharing from the main room to each breakout room (a new feature added in June 2021).  
-
-You can use screen sharing to show the aforementioned guidelines and instructions page, as well as pages with additional instructions.  
-
-Share your screen with breakout rooms by opening this window:  
-
-![image2]()
-
-However, note that if you enable screen sharing from the main room while someone is sharing their screen in the breakout room, the screen sharing in the breakout room will be disabled. Also, if you enable screen sharing in the main room, participants in the breakout room will not be able to share screens. (Remember to stop screen sharing from the main room when it is no longer necessary to do so.)  
-
-![image3]()
 
 ### Tips for During Breakouts: Use of Worksheets
 
 One good way for organizers in the main meeting room to keep track of the progress of breakout discussions is to share an online worksheet. As participants discuss, they can enter the proceedings and results of their tasks on the worksheet using a cloud tool. The organizer can indirectly track the progress of each group by viewing the worksheets as they are being filled out in real time.  
 
-☞ You can also refer to "[Using Worksheets in Online Group Discussions]()," which provides detailed examples of how to create and use worksheets.   
+☞ You can also refer to "[Using Worksheets in Online Group Discussions](/en/articles/group-discussion-worksheet)," which provides detailed examples of how to create and use worksheets.   
 
 Let’s say that the organizer is browsing through the worksheets during the discussions and notices the following:  
 
@@ -150,19 +148,15 @@ In some cases, students said, "I was so nervous that I could not express my opin
 
 If an instructor (e.g., a member who is more senior than the participant) is scheduled to provide assistance, it may be helpful to give notice in advance.  
 
-☞ Extra tip:  
-
-Zoom lets you send messages to breakout rooms!  
-
-During a breakout, it is not possible to chat with participants in the main room or other breakout rooms. However, if you are the meeting host, you can use the "Send Message to All" feature to send a text message to all participants, including those in the breakout room.  
-
-After starting the breakout, click the "Breakout Rooms" button, and then click the "Broadcast a message to alll" button in the breakout operation window that pops up to send a message.  
-
-![image4]()
-
-Messages can only be sent in one direction from the host to participants. Messages cannot be sent from a participant to the host, nor from one participant to another. Messages are displayed as a notification at the top of the participant's window, not in the chat area.  
-
-For example, it is useful for announcing "You have XX minutes left” or for giving additional hints.  
+<div style="margin-left:2em">
+<p>☞ Extra tip:</p>
+<p>Zoom lets you send messages to breakout rooms!</p>
+<p>During a breakout, it is not possible to chat with participants in the main room or other breakout rooms. However, if you are the meeting host, you can use the "Send Message to All" feature to send a text message to all participants, including those in the breakout room.</p>
+<p>After starting the breakout, click the "Breakout Rooms" button, and then click the "Broadcast a message to alll" button in the breakout operation window that pops up to send a message.</p>
+<img src="img/broadcast-message.png" />
+<p>Messages can only be sent in one direction from the host to participants. Messages cannot be sent from a participant to the host, nor from one participant to another. Messages are displayed as a notification at the top of the participant's window, not in the chat area.</p>
+<p>For example, it is useful for announcing "You have XX minutes left” or for giving additional hints.</p>
+</div>
 
 ## Summary
 
@@ -172,24 +166,12 @@ There is not necessarily a single right answer, as the appropriate method depend
 
 ## Related Articles
 
-[Using Worksheets in Online Group Discussions]()
-[How to Duplicate Files and Folders in Google Drive Using GAS]()
-[Using the Zoom Breakout Room Feature]()
-[Online Class Information Exchange Meeting No. 1: Doing Group Work (1)]()
-[Online Class Information Exchange Meeting No. 11: Tools for Online Classes (1)]()
+[Using Worksheets in Online Group Discussions](/en/articles/group-discussion-worksheet/)  
 
+[How to Duplicate Files and Folders in Google Drive Using GAS (in Japanese)](/articles/gas/copy)  
 
-残りのタスク
-* リンクの挿入
-* 画像の挿入
-* 最後の執筆者の挿入
+[Using the Zoom Breakout Room Feature (in Japanese)](/zoom/usage/breakout/)   
 
+[Online Class Information Exchange Meeting No. 1: Doing Group Work (1) (in Japanese)](/events/luncheon/2020-04-22/)  
 
-
-
-
-
-
-
-
-
+[Online Class Information Exchange Meeting No. 11: Tools for Online Classes (1) (in Japanese)](/events/luncheon/2020-06-24/)
