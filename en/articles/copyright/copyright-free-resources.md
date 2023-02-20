@@ -176,7 +176,7 @@ e.g. Ministry of Education, Culture, Sports, Science and Technology
 
 #### Geospatial Information Authority of Japan
 
-<p style="text-indent: 1em;"><code>Image/code> <code>Data</code></p>
+<p style="text-indent: 1em;"><code>Image</code> <code>Data</code></p>
 Maps and various data provided by the GSI are available free of charge.
 
 * [Official website](https://www.gsi.go.jp/ENGLISH/index.html)
