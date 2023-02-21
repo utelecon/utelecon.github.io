@@ -50,7 +50,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 {% capture about_google %}GmailなどのGoogleのシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既にGoogleのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．{% endcapture %}
 {% capture about_microsoft %}Word, ExcelなどのMicrosoft Officeが無料でダウンロードできます．また，Microsoftの各種オンラインツールも提供しています．Googleと同じく，東大のアカウントでしかアクセスできないページがあるので，既にMicrosoftのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．{% endcapture %}
 {% capture about_utokyo_wifi %}キャンパス内で使えるWi-Fiです．キャンパス内でオンライン授業を受ける際に必要になるでしょう．事前にアカウントを作っていないと使えないので注意してください．{% endcapture %}
-{% capture about_eccs %}キャンパス内に設置されているパソコンです．一部の対面授業で利用する場合があるほか，キャンパス内でオンライン授業を受ける際にも利用できます．事前に「新規利用者講習」に合格していないと使えないので注意してください．{% endcapture %}
+{% capture about_eccs %}キャンパス内に設置されているパソコンです．一部の対面授業で利用する場合があるほか，キャンパス内でオンライン授業を受ける際にも利用できます．利用には事前に利用権の申請が必要ですので，注意してください．{% endcapture %}
 
 - **UTokyo Account**：{{ about_utokyo_account }}
 - **UTAS**：{{ about_utas }}
@@ -183,7 +183,16 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 {{ about_eccs }}
 
-{% include procedures/eccs.html %}
+<ul>
+    <li>
+        <strong>作業：利用権を申請する</strong>
+{% include systems/eccs/apply.html %}
+    </li>
+    <li>
+        <strong>練習：ログインしてみる</strong>
+{% include systems/eccs/login.html %}
+    </li>
+</ul>
 
 ## その他
 
