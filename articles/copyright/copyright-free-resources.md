@@ -313,7 +313,7 @@ Old Book Illustrationsには，絵本『ピーターラビット』で有名な�
 台湾最大の博物館である国立故宮博物院は，有名な《翠玉白菜》を含め，所蔵する7万点以上の画像データをデータベースで無料公開しています．画像は申請不要で，無料で利用することができます．
 
 * [データベース](https://theme.npm.edu.tw/opendata/index.aspx?lang=2)
-* [利用規約](https://data.gov.tw/licenseut-the-collection/about-copyright/)
+* [利用規約](https://data.gov.tw/license)
 
 #### ナショナル・ギャラリー・オブ・アート｜National Gallery of Art
 
