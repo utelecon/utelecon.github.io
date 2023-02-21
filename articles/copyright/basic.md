@@ -179,18 +179,19 @@ title: 著作権法に関する基本
 
 ## 参考文献
 
-+ 文化庁「著作権」
-[https://www.bunka.go.jp/seisaku/chosakuken/](https://www.bunka.go.jp/seisaku/chosakuken/)
-+ 文化庁著作権課「著作権テキスト　〜初めて学ぶ人のために〜（令和3年度）」[https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf](https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf)
-+ 東京大学産学協創推進本部「東京大学著作物等取扱規則」
-[https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)
++ 文化庁「著作権」<br>
+  [https://www.bunka.go.jp/seisaku/chosakuken/](https://www.bunka.go.jp/seisaku/chosakuken/)
++ 文化庁著作権課「著作権テキスト　〜初めて学ぶ人のために〜（令和3年度）」<br>
+  [https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf](https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf)
++ 東京大学産学協創推進本部「東京大学著作物等取扱規則」<br>
+  [https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)
 + 加戸守行「著作権法逐条講義（改訂新版）」
-一般社団法人 授業目的公衆送信補償金等管理協会「授業目的公衆送信補償金制度」
-[https://sartras.or.jp/](https://sartras.or.jp/)
-+ みんなのための著作権教室
-[http://kids.cric.or.jp/index.html](http://kids.cric.or.jp/index.html)
-+ 改正著作権法第35条運用指針
-[https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf](https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf)
++ 一般社団法人 授業目的公衆送信補償金等管理協会「授業目的公衆送信補償金制度」<br>
+  [https://sartras.or.jp/](https://sartras.or.jp/)
++ みんなのための著作権教室<br>
+  [http://kids.cric.or.jp/index.html](http://kids.cric.or.jp/index.html)
++ 改正著作権法第35条運用指針<br>
+  [https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf](https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf)
 
 本記事において，「文化庁『著作権テキスト』」とは，文化庁著作権課「著作権テキスト　〜初めて学ぶ人のために〜（令和3年度）」のことを指しています．
 
