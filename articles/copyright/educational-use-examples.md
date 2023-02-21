@@ -275,7 +275,7 @@ title: 授業用として素材を自由に利用できるのはどういう場�
 ## 参考文献
 
 * 改正著作権法第35条運用指針（令和3（2021）年度版）
-<https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf>（2021年6月16日参照）
+  <https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf>（2021年6月16日参照）
 
 ## あわせて読みたい記事
 
