@@ -11,17 +11,22 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^0.14.0",
-    "@astrojs/react": "^1.2.2",
+    "@astrojs/mdx": "^0.17.2",
+    "@astrojs/react": "^2.0.2",
+    "@astrojs/webapi": "2.0.0",
     "@astrolib/analytics": "^0.3.0",
-    "astro": "^1.9.0",
-    "astro-seo": "^0.7.0",
-    "js-yaml": "^4.1.0",
-    "remark-toc": "^8.0.1",
-    "sass": "^1.57.1"
+    "astro": "2.0.13",
+    "astro-seo": "^0.7.1",
+    "mdast": "^3.0.0",
+    "mdast-util-toc": "^6.1.1",
+    "sass": "^1.57.1",
+    "unified": "^10.1.2",
+    "unist": "^8.0.11",
+    "unist-builder": "^3.0.1",
+    "unist-util-visit": "^4.1.2",
+    "vfile": "^5.3.7"
   },
   "devDependencies": {
-    "@types/js-yaml": "^4.0.5",
     "@types/node": "^18.11.18"
   }
 }

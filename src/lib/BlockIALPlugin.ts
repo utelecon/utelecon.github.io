@@ -1,4 +1,3 @@
-import type { Plugin } from "unified";
 import type { Node } from "unist";
 import type { Root, Content, Text } from "mdast";
 
