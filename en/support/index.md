@@ -31,9 +31,9 @@ Chat support is available for simple inquiries. A chatbot (an automated response
 <div>Business hours (Automated response): 24 hours</div>
 <div>Business Hours (Operator): 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri).</div>
 
-<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
+<b class="box center">
 Start a chat (Click on the “チャットサポートで質問できます (Chat Support Available)” widget at the bottom right of your screen)
-</div>
+</b>
 
 
 ## Support via Zoom
@@ -46,9 +46,9 @@ When you access the Zoom meeting room, you will first be taken to a waiting room
 
 <div>Business Hours: 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri).</div>
 
-<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
-<a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">Access the Zoom meeting room (Click on the link under “Meeting room information of Zoom support” in the “Online Course Information” section)</a> 
-</div>
+<b class="box center">
+<a href="https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Support.aspx">Zoom meeting room information page</a> 
+</b>
 
 
 ## Support via Email Form
@@ -60,9 +60,9 @@ If your inquiry contains sensitive information (such as grade information) that 
 
 <div>Business hours: 24 hours</div>
 
-<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
+<b class="box center">
 <a href="https://forms.gle/AQevtbkCgRvn6wc39">Submit an email form</a>
-</div>
+</b>
 
 
 {% capture inquiries %}

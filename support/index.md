@@ -29,9 +29,9 @@ redirect_from:
 <div>対応時間（自動応答）：24時間</div>
 <div>対応時間（オペレータ対応）：平日 8時25分から18時30分まで</div>
 
-<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
+<b class="box center">
 画面右下のウィジェット<br>「チャットサポートで質問できます」から
-</div>
+</b>
 
 ## Zoomで相談する
 {:#zoom}
@@ -44,9 +44,9 @@ Zoomの会議室において，学生スタッフ（コモンサポーター）�
 
 <div>対応時間：平日 8時25分から18時30分まで</div>
 
-<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
-<a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">会議室情報（リンク先の「Zoomサポートの会議室情報」を確認してください）</a>
-</div>
+<b class="box center">
+<a href="https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Support.aspx">会議室情報の掲載ページ</a>
+</b>
 
 ## メールフォームで相談する
 {:#email-form}
@@ -57,9 +57,9 @@ Zoomの会議室において，学生スタッフ（コモンサポーター）�
 
 <div>受付時間：24時間</div>
 
-<div style="border: 2px solid currentcolor; margin: 1em 0; padding: 0.5em; font-weight: bold; text-align: center;">
+<b class="box center">
 <a href="https://forms.gle/AQevtbkCgRvn6wc39">メールフォーム</a>
-</div>
+</b>
 
 {% capture inquiries %}
 メールフォームが利用できない（アクセスできない，送信できない）場合は， utelecon-inquiries@googlegroups.com 宛にメールをお送りいただくこともできます．まずは教職員が問い合わせ内容を確認し，内容から適切だと判断した場合は学生スタッフに対応を引き継ぎます．
