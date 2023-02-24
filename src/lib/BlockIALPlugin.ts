@@ -1,41 +1,37 @@
-/**
- * replaces Block Inline Attribute Lists from kramdown
- * @type {import('unified').Plugin<[], import('mdast').Root>}
- */
-export default function blockIALPlugin() {
-  /**
-   * @typedef Attribute
-   * @property {'#' | '.'} type
-   * @property {string} ident
-   */
+import type { Plugin } from "unified";
+import type { Node } from "unist";
+import type { Root, Content, Text } from "mdast";
 
-  /**
-   * @param {import('mdast').Content} node
-   * @returns {{ type: '#' | '.'; ident: string }[] | undefined}
-   */
-  function findAttributes(node) {
+interface Attribute {
+  type: "#" | ".";
+  ident: string;
+}
+
+interface MdastData {
+  id?: string;
+  hProperties?: HProperties;
+}
+
+interface HProperties {
+  id?: string;
+  className?: string[];
+}
+
+export default function blockIALPlugin() {
+  function findAttributes(node: Content): Attribute[] | undefined {
     if (node.type !== "paragraph") return undefined;
 
-    /**
-     * @type {import('mdast').Text | undefined}
-     */
-    const text = node.children.find((c) => c.type === "text");
+    const text = node.children.find((c): c is Text => c.type === "text");
     const match = text?.value.trim().match(/^\{:\s*(?:([#\.][\w-]+)\s*)+\}$/);
     if (!match) return undefined;
 
     const [, ...attributes] = match;
-    return attributes.map((a) => ({
-      type: a[0],
-      ident: a.slice(1),
-    }));
+    return attributes
+      .map((a) => ({ type: a[0], ident: a.slice(1) }))
+      .filter((a): a is Attribute => ["#", "."].includes(a.type));
   }
 
-  /**
-   *
-   * @param {import('mdast').Content} node
-   * @param {Attribute} attribute
-   */
-  function setAttribute(node, attribute) {
+  function setAttribute(node: Content & Node<MdastData>, attribute: Attribute) {
     const { type, ident } = attribute;
 
     node.data ??= {};
@@ -54,7 +50,7 @@ export default function blockIALPlugin() {
     }
   }
 
-  return function (tree) {
+  return function (tree: Root) {
     let i = 1;
     while (i < tree.children.length) {
       const attributes = findAttributes(tree.children[i]);
