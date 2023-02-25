@@ -2,10 +2,10 @@
 // UTokyo WiFiに実際に接続する
 
 interface Props {
-  pageSlag?: string;
+  pageSlug?: string;
 }
 
-const { pageSlag } = Astro.props;
+const { pageSlug } = Astro.props;
 ---
 
 <ul>
@@ -15,14 +15,14 @@ const { pageSlag } = Astro.props;
 </ul>
 
 <ol>
-  <li>{pageSlag == "oc" ? <>UTokyo WiFiに接続したい</> : <>手順1で確認した</>}端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
-  <li>接続しようとするとユーザーIDとパスワードを聞かれるので，{pageSlag == "oc" ? "上の手順" : "手順3"}で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
+  <li>{pageSlug == "oc" ? <>UTokyo WiFiに接続したい</> : <>手順1で確認した</>}端末のWi-Fi接続設定画面で，UTokyo WiFiを選んでください．</li>
+  <li>接続しようとするとユーザーIDとパスワードを聞かれるので，{pageSlug == "oc" ? <>上の手順</> : <>手順3</>}で届いたメールに書かれたアカウント情報を入力します（UTokyo Accountの情報ではありません）．</li>
   <li>接続が完了すれば，後は普通のWi-Fiと同様に使えます．</li>
 </ol>
 
 <ul>
   <li>接続時に，証明書の確認や，
-    {pageSlag == "oc" ? <a href="/utokyo_wifi/#connect-configuration">UTokyo WiFiのページの「接続の詳細な設定」</a>:  <>下の「<a href="#connect-configuration">接続の詳細な設定</a>」の項</>}
+    {pageSlug == "oc" ? <a href="/utokyo_wifi/#connect-configuration">UTokyo WiFiのページの「接続の詳細な設定」</a>:  <>下の「<a href="#connect-configuration">接続の詳細な設定</a>」の項</>}
     に書かれた情報の入力が必要な場合があります．
   </li>
   <li>
