@@ -1,5 +1,8 @@
 ---
 title: SARTRASに加盟する団体一覧
+author:
+  affiliation: oes
+  name: OER・著作権グループ
 ---
 
 最終更新日：2022/09/02

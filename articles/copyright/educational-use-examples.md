@@ -1,5 +1,8 @@
 ---
 title: 授業用として素材を自由に利用できるのはどういう場合か？
+author:
+  affiliation: oes
+  name: OER・著作権グループ
 ---
 
 ## この記事の概要

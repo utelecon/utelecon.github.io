@@ -1,5 +1,8 @@
 ---
 title: 学校・その他教育機関における著作権の取り扱い
+author:
+  affiliation: oes
+  name: OER・著作権グループ
 ---
 
 ## この記事の概要

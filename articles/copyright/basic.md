@@ -1,5 +1,8 @@
 ---
 title: 著作権法に関する基本
+author:
+  affiliation: oes
+  name: OER・著作権グループ
 ---
 
 ## この記事の概要

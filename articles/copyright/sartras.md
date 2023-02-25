@@ -1,5 +1,8 @@
 ---
 title: 授業目的公衆送信補償制度およびSARTRAS設立の経緯と意義
+author:
+  affiliation: oes
+  name: OER・著作権グループ
 ---
 ## この記事の概要
 

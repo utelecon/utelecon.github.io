@@ -1,5 +1,8 @@
 ---
 title: 学校は著作権の例外？　改正著作権法35条
+author:
+  affiliation: oes
+  name: OER・著作権グループ
 ---
 
 ## この記事の概要
