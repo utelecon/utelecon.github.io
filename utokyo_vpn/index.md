@@ -14,7 +14,7 @@ UTokyo VPNを利用するには，まず自身の端末にVPNクライアント�
 ### 電子ジャーナルへのアクセスについて
 {:#journal}
 
-UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジャーナル等にアクセスすることはできません．附属図書館が契約・提供する電子ジャーナル・電子ブック・データベースを学外から利用するには、附属図書館が提供するEZProxyを使います．Google検索などで見つかった出版社の論文ページから、すばやく論文PDFを入手するには、[こちらのページ](https://note.com/k_yamamoto/n/n0ee13fe38f24)でも紹介されている、[ブックマークレットを使って読む](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy/others#marklet)方法が便利です。もちろん契約外の論文は入手できませんし、契約していてもこの方法で入手できない場合もあります。詳しい利用方法や、利用対象者は図書館の[EZproxy（イージープロキシー）経由で利用する](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy) のページ、[補足情報：学外にいるとき、みつけた論文を読む方法あれこれ](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy/others)をご一読ください．
+UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジャーナル等にアクセスすることはできません．附属図書館が契約・提供する電子ジャーナル・電子ブック・データベースを学外から利用するには、附属図書館が提供するEZproxyを使います．Google検索などで見つかった出版社の論文ページから、すばやく論文PDFを入手するには、[こちらのページ](https://note.com/k_yamamoto/n/n0ee13fe38f24)でも紹介されている、[ブックマークレットを使って読む](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy/others#marklet)方法が便利です。もちろん契約外の論文は入手できませんし、契約していてもこの方法で入手できない場合もあります。詳しい利用方法や、利用対象者は図書館の[EZproxy（イージープロキシー）経由で利用する](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy) のページ、[補足情報：学外にいるとき、みつけた論文を読む方法あれこれ](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy/others)をご一読ください．
 
 
 ## 利用にあたって
@@ -96,7 +96,7 @@ UTokyo VPNに接続することで，職員証の発行や就労管理システ�
 
 UTokyo VPNと，部局がそれぞれ独自に提供しているVPNサービスは基本的に無関係です．詳細は部局のネットワーク担当者にご確認ください．
 
-### Q. UTokyo Wi-Fiのアカウントのように半年ごとに新規のアカウント取得は必要か
+### Q. UTokyo Wi-Fiのアカウントのように一年ごとに新規のアカウント取得は必要か
 
 UTokyo VPNの認証はUTokyo Wi-FiのアカウントではなくUTokyo Accountで行います．そのため基本的に利用者のアカウントの変更は起こらず，継続して利用が可能です．ただし，利用には年１回実施する情報セキュリティ教育の受講が必要です．
 
