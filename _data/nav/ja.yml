@@ -64,6 +64,9 @@
     -
       name: "東大の実践を知る"
       url: "/online/#utokyo"
+    -
+      name: "学校での著作権の取り扱い"
+      url: "/articles/copyright"
 
 -
   name: "お知らせ・イベント"
