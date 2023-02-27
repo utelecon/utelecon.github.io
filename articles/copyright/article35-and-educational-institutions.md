@@ -142,7 +142,7 @@ author:
 
 * [著作権法に関する基本](basic)
 * [授業用として素材を自由に利用できるのはどういう場合か](educational-use-examples)
-* [授業目的公衆送信補償金制度およびSARTRASの設立の意義と経緯](sartras)
+* [授業目的公衆送信補償金制度およびSARTRAS設立の経緯と意義](sartras)
 * [SARTRASに加盟する団体一覧](sartras-member-organizations)
 
 [^1]:

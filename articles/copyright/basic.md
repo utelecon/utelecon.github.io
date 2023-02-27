@@ -201,4 +201,4 @@ author:
 ## 合わせて読みたい記事
 
 + [学校は著作権の例外？　改正著作権法35条](/articles/copyright/article35-and-educational-institutions)
-+ [授業目的公衆送信補償金制度およびSARTRASの設立の意義と経緯](/articles/copyright/sartras)
++ [授業目的公衆送信補償金制度およびSARTRAS設立の経緯と意義](/articles/copyright/sartras)
