@@ -6,6 +6,11 @@ title: UTokyo Wi-Fi
 【重要】<a href="/notice/2023/01-wifi">UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ</a>
 </div>
 
+<div class="box--alert box--important">
+【重要】<a href="/notice/2023/0306-fw">全学FWメンテナンスのお知らせ (2023/03/06 23:00 - 2023/03/07 03:00)</a>
+</div>
+
+
 ## UTokyo Wi-Fiとは
 
 UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的として利用できるWi-Fiサービスです．現在，本郷・駒場・柏などのキャンパスのほとんどの教室で利用が可能になっています．UTokyo Wi-Fiを利用する人に向けて[利用上の注意](#caution-to-use)が策定されていますので，適宜参照してください．
