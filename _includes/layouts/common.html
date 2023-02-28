@@ -19,6 +19,7 @@
     {% assign url_without_ext = url_with_ext | replace: '.html', '' %}
     {% capture seo %}{% seo %}{% endcapture %}
 {{ seo | replace: url_with_ext, url_without_ext }}
+    <link rel="icon" href="/assets/images/favicon.png">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">

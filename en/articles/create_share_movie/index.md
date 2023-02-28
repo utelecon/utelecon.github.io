@@ -52,7 +52,7 @@ Here we explain how to compress video using YouTube and VLC Player.
   * It is not necessary to upload anything and you can work locally, so there is no need to worry about the amount you are transmitting.
   * In the Information System Seminar "Creating and Sharing Videos in Work", there is an explanation of how to operate.
     * [Slide](/events/2020-09-02/slides.pdf) (in Japanese): Explanation on Slide 29.
-    * [Video (Only available within university)](https://drive.google.com/file/d/1BS0DUilel4zikhvHbIR2mMCTZ_vKBry_/view): Demonstration from 1:41:50
+    * [Video (Only available within university)](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-09-02): Demonstration from 1:41:50
 
 ### Sharing the Video
 You can release within university by both Google Drive and YouTube.

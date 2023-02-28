@@ -100,7 +100,7 @@ If you like to send us new information, please contact us here.
 ### Example of online academic conferences 
 
 * **Record of organizing an online academic conference** [\[PDF\]](/faculty_members/materials/hybrid_conference_report.pdf)(Prof. Shintomi, Graduate School of Arts and Sciences/Life Science Network): This is an introduction for implementing the "Hybrid Lecture Meeting", a 'New Normal' conference style in which participants can attend both "online" and "at the lecture hall". He describes more details, such as what kinds of equipment and systems were used to manage a lecture meeting with 700 participants, including online lectures, online poster sessions, and poster judging. He also shared a demo video of the hybrid lecture.
-[mp4 file](https://drive.google.com/file/d/1a6buklw0lC7kS_5d8Rn6dwSnQdNaq34D/view?usp=sharing) (requires ECCS Cloud Mail) (It is necessary to sign in with ECCS Cloud Mail, click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp). If you haven't done the initial setup yet, [here (How to set up ECCS Cloud Mail)](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/) 
+[mp4 file](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/other/academic-conferences) (requires ECCS Cloud Mail) (It is necessary to sign in with ECCS Cloud Mail, click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp). If you haven't done the initial setup yet, [here (How to set up ECCS Cloud Mail)](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/) 
 
 ### How to make your work more efficient
 

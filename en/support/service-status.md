@@ -21,9 +21,9 @@ The following is a list of pages that provide information on the operation statu
   * [ECCS Service Alert](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html#maintenance)
 * UTokyo Microsoft License (Microsoft 365)
   * [Service Status](https://portal.office.com/servicestatus)
-* UTokyo WiFi
-  * [UTokyo WiFi page](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html)
-* UTNET（On-campus network including UTokyo WiFi）
+* UTokyo Wi-Fi
+  * [UTokyo Wi-Fi page](/en/utokyo_wifi/)
+* UTNET（On-campus network including UTokyo Wi-Fi）
   * [Notification](https://www.nc.u-tokyo.ac.jp/infoall) (in Japanese)
 
 Information from “[Downdetector](https://downdetector.com/)”, a service that notifies you of possible failures based on SNS posts, may also help determine whether or not there are problems with systems provided by external organizations such as Zoom, Webex, ECCS Cloud Email (Google Workspace), and UTokyo Microsoft License (Microsoft 365) . (Please note that this is not official information from the provider of each system.)

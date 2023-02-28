@@ -9,7 +9,6 @@ title: オンライン授業情報交換会 第30回 VR(仮想現実)教室で�
 - **資料**
     - [入江先生ご提供の資料：VR 教室/Zoom ハイブリッドによる EEIC 二年次講義「ディジタル回路」](https://vr.u-tokyo.ac.jp/wp-content/uploads/2020/11/%E3%83%87%E3%82%A3%E3%82%B8%E3%82%BF%E3%83%AB%E5%9B%9E%E8%B7%AF%E8%AC%9B%E7%BE%A9VR-1.pdf)
     - [当日スライド](luncheon_30_slides.pdf) 入江先生より共有いただきました．
-- [**録画**はこちら](https://drive.google.com/file/d/1gmrS5aGXR2UqLgfcUubHXuzuJWuPb4mu/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 

@@ -50,7 +50,7 @@ title: 動画を作成・共有する
   * アップロードする必要がなく，手元（ローカル）で作業が可能なので，通信量を気にする必要がありません
   * 情報システムゼミ「業務における動画の作成・活用方法」において操作方法の説明あり
     * [スライド](/events/2020-09-02/slides.pdf): スライド29に説明あり
-    * [動画（学内限定公開）](https://drive.google.com/file/d/1BS0DUilel4zikhvHbIR2mMCTZ_vKBry_/view): 1:41:50～ デモあり
+    * [動画（学内限定公開）](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-09-02): 1:41:50～ デモあり
 
 ### 動画を共有する
 Google Drive，YouTube どちらも学内限定公開することができます．

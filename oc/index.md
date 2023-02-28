@@ -46,18 +46,19 @@ description: このページでは，東京大学で授業を受ける新入生�
 {% capture about_utokyo_account %}東大の情報システムで使う，「共通ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．{% endcapture %}
 {% capture about_utas %}各授業の概要説明（シラバス）の閲覧，受ける授業の登録手続き，成績の確認などに使うシステム（学務システム）です．{% endcapture %}
 {% capture about_itc_lms %}授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．{% endcapture %}
+{% capture about_zoom %}「同時双方向型」のオンライン授業で使うWeb会議システムです．{% endcapture %}
 {% capture about_google %}GmailなどのGoogleのシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既にGoogleのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．{% endcapture %}
 {% capture about_microsoft %}Word, ExcelなどのMicrosoft Officeが無料でダウンロードできます．また，Microsoftの各種オンラインツールも提供しています．Googleと同じく，東大のアカウントでしかアクセスできないページがあるので，既にMicrosoftのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．{% endcapture %}
 {% capture about_utokyo_wifi %}キャンパス内で使えるWi-Fiです．キャンパス内でオンライン授業を受ける際に必要になるでしょう．事前にアカウントを作っていないと使えないので注意してください．{% endcapture %}
-{% capture about_eccs %}キャンパス内に設置されているパソコンです．一部の対面授業で利用する場合があるほか，キャンパス内でオンライン授業を受ける際にも利用できます．事前に「新規利用者講習」に合格していないと使えないので注意してください．{% endcapture %}
+{% capture about_eccs %}キャンパス内に設置されているパソコンです．一部の対面授業で利用する場合があるほか，キャンパス内でオンライン授業を受ける際にも利用できます．利用には事前に利用権の申請が必要ですので，注意してください．{% endcapture %}
 
 - **UTokyo Account**：{{ about_utokyo_account }}
 - **UTAS**：{{ about_utas }}
 - **ITC-LMS**：{{ about_itc_lms }}
-- **Zoom**, **Webex**：「同時双方向型」のオンライン授業で使うWeb会議システムです．基本的にはZoomを使いますが，授業によってはWebexを使うこともあります．
+- **Zoom**：{{ about_zoom }}
 - **ECCSクラウドメール (Google Workspace)**：{{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
-- **UTokyo WiFi**：{{ about_utokyo_wifi }}
+- **UTokyo Wi-Fi**：{{ about_utokyo_wifi }}
 - **ECCS端末**：{{ about_eccs }}
 
 ### インターネット環境やパソコンなどの機器
@@ -71,7 +72,6 @@ description: このページでは，東京大学で授業を受ける新入生�
     - キャンパスでも使えるよう，持ち運びのできるノートパソコンがおすすめです．
     - スペックについては，「[東京大学のBYOD方針](/docs/byod)」に目安が掲載されています．
         - マイクやカメラの付いているものがおすすめですが，既に持っているパソコンに付いていないという場合は，必要なときに外付けのものを買い足すという方法もあります．
-        - （学部1年生向け）教養学部が作成している「[教養学部前期課程の授業に必要な機器や準備について](https://www.c.u-tokyo.ac.jp/zenki/PreparationForClasses_20220311.pdf)」に具体的なスペックの目安が記載されています．
     - 生協が公開している新入生向けパソコンについての特集ページ「[受験生・新入生応援サイト2022 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html)」も参考になるかもしれません．
     - 十分なパソコン環境が整わない人は，所属の学部・研究科等に相談してください．（例えば，教養学部では[パソコンの貸し出しを実施](https://www.c.u-tokyo.ac.jp/campuslife/online-lectures.html)しています）
 - **ヘッドセットやイヤホン**：キャンパスの空き教室でオンライン授業を受ける際に，同じ教室を利用する学生の迷惑にならないように音声を聞くために，ヘッドセットやイヤホンが必要になります．新しく購入する場合は，マイク付きのヘッドセットがおすすめです．
@@ -106,7 +106,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 {% include procedures/google.html part="important" %}
 {% include procedures/utas.html part="important" %}
     <li>
-        <strong>UTokyo WiFi：アカウントを申請する</strong>
+        <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
 {% include systems/utokyo_wifi/apply.html part="important" %}
     </li>
 </ul>
@@ -142,14 +142,9 @@ description: このページでは，東京大学で授業を受ける新入生�
 ### Zoom
 {:#zoom}
 
-「同時双方向型」授業のほとんどで使うWeb会議システムです．
+{{ about_zoom }}
 
 {% include procedures/zoom.html %}
-
-### Webex
-{:#webex}
-
-一部の「同時双方向型」授業で使うWeb会議システムです．使うことは少ないので，必要になってから作業すれば問題ありません．利用方法などの詳細は[Webexのページ](/webex/)をご覧ください．
 
 ### ECCSクラウドメール (Google Workspace)
 {:#google}
@@ -165,7 +160,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 {% include procedures/microsoft.html %}
 
-### UTokyo WiFi
+### UTokyo Wi-Fi
 {:#utokyo_wifi}
 
 {{ about_utokyo_wifi }}
@@ -188,12 +183,20 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 {{ about_eccs }}
 
-{% include procedures/eccs.html %}
+<ul>
+    <li>
+        <strong>作業：利用権を申請する</strong>
+{% include systems/eccs/apply.html %}
+    </li>
+    <li>
+        <strong>練習：ログインしてみる</strong>
+{% include systems/eccs/login.html %}
+    </li>
+</ul>
 
 ## その他
 
 - 授業に関しては，時間割や授業登録の手続きについてなど，所属の学部・研究科が出す情報もあります．こうした情報がどのように知らされるのか把握し，常に確認するようにしてください（わからない場合は所属の学部・研究科に問い合わせてください）．
-    - （学部1年生向け）教養学部の「[2022年度（令和4年度）新入生向けお知らせ](https://www.c.u-tokyo.ac.jp/zenki/news/newstudent.html)」ページを参照してください．
 - **[ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)](/antivirus/)**：2022年4月1日より，教職員・学生を対象に，ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) を提供しています．東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として，適宜利用してください．
 - **[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)**：東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです．必要な場合に利用してください．
 

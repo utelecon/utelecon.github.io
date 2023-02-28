@@ -4,6 +4,8 @@ title: Changes in usage of UTokyo Wi-Fi due to renewal
 
 The University of Tokyo is upgrading its network environment to improve the infrastructure for education and research activities. As a part of this effort, we have decided to update and enhance the university-wide wireless LAN service. Consequently, the usage of UTokyo Wi-Fi will be changed as follows starting in January 2023. If you are currently using UTokyo Wi-Fi, please check the following information as you will need to take necessary measures on your own in order to continue using the UTokyo Wi-Fi.
 
+Please note that more information on UTokyo Wi-Fi is available on [the UTokyo Wi-Fi page of the portal site “utelecon”](/en/utokyo_wifi/), so please refer to that page if necessary.
+
 ## The network name (SSID) for UTokyo Wi-Fi will change to `0000UTokyo`
 The network name (SSID) for the UTokyo Wi-Fi will change from `UTokyo-WiFi` **to `0000UTokyo`**.
 
@@ -24,7 +26,7 @@ We believe there will be three possible scenarios.
 ## The procedure for issuing UTokyo Wi-Fi accounts will change
 Starting from January 31, 2023, the procedure for issuing out a UTokyo Wi-Fi account will change as follows. Please note that your existing account is still available, so there is no need to create a new account for now.
 
-- The URL of the UTokyo Wi-Fi account menu will change. The new URL will be posted on [The UTokyo Wi-Fi page of the portal site “utelecon”](/en/utokyo_wifi/).
+- The URL of the UTokyo Wi-Fi account menu will change. The new URL will be posted on [the UTokyo Wi-Fi page of the portal site “utelecon”](/en/utokyo_wifi/).
 - Previously it was necessary for a new account to be issued every six months. However, the new UTokyo Wi-Fi account will be valid until the end of April of the following fiscal year. Therefore, you only need to have a new account issued once a year.
 - The user ID for UTokyo Wi-Fi accounts used to be an 8-digit alphanumeric character string, but `@wifi.u-tokyo.ac.jp` will follow at the end of the string in the new user ID.
 - Notification emails on account issuance used to be sent to the email address registered in the system (UTAS for students, Personnel Information MyWeb for faculty and staff members), but following the update, emails will be sent to the [ECCS Cloud Email](/en/eccs_cloud_email) in addition to the registered email address. The same will apply to notification emails on account expiration.

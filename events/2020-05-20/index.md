@@ -17,8 +17,7 @@ title: "2020/05/20 研修: クラスサポーター"
 * 発表資料: [pdf ファイル](slides.pdf) [English version](slides_en.pdf)   
 * クラスサポーターとして授業をスムーズに進めるコツ: [pdf ファイル](web_form_raw.pdf)
   * 研修中に学生がグループになってコツについてまとめてくれたものを Web フォームに情報入力してもらいました
-* 動画: [YouTube (学内限定公開)](https://www.youtube.com/watch?v=BfvbYM9ofb8) (要ECCSクラウドメール) 
-* 動画: [YouTube が見られない人向け mp4ファイル (学内限定公開)](https://drive.google.com/file/d/13poCB2TeLK6Xj8XNqfegzpgZMxp8vmtk/view?usp=sharing) (要ECCSクラウドメール) 
+* 動画: [YouTube (学内限定公開)](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-05-20) (要ECCSクラウドメール)
   * 閲覧するためには ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります
   * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください
   * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)をご参照の上，アカウント利用の初期設定をしてください

@@ -35,11 +35,12 @@ h3 {
 h4 {
   font-size: 1.125em;
   font-weight: bold;
-  margin-top: 0.89em;
-  margin-bottom: 0.89em;
-  padding-left: 0.5em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
   color: black;
-  background-color: $white-gray-light;
+  border-bottom: 1px solid $heading-color;
 }
 
 h5 {
