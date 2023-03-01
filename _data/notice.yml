@@ -1,6 +1,12 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2023-03-01
+  content:
+    ja: "[UTokyo Account における多要素認証の推奨とパスワード設定の変更について](/notice/2023/03-utokyo_account-password)"
+    en: "[Recommendation of Multi-Factor Authentication and Change in Password Requirements
+for UTokyo Account](/en/notice/2023/03-utokyo_account-password)"
+-
   date: 2023-02-24
   content:
     ja: "[全学FWメンテナンスのお知らせ (2023/03/06 23:00 - 2023/03/07 03:00)](/notice/2023/0306-fw)"
