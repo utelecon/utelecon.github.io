@@ -7,6 +7,18 @@
     en: "[A briefing session titled \"A briefing session on web conferencing and cloud tools for online and in-person use - and let's \"Chat\" about \"that AI tool\"\"](/events/2023-03-15/) will be held on March 15th at 15:00 (only in Japanese)."
   important: true
 -
+  date: 2023-03-01
+  content:
+    ja: "東京大学の情報システムとそのサポート体制について説明する資料[「大学生活に必要な情報システムの準備について（学生向け）」 (PDF)](/notice/2023/getting_ready_for_ICT_systems_students_2023s.pdf)と[「東京大学における情報システムの準備について（教員向け）」 (PDF)](/notice/2023/getting_ready_for_ICT_systems_faculty_2023s.pdf)の2023年度Sセメスター版を公開しました．"
+    en: "\"Getting Ready for ICT Systems at UTokyo\" [\\[For Students\\]](/notice/2023/getting_ready_for_ICT_systems_students_2023s.pdf) [\\[For Faculty Members\\]](/notice/2023/getting_ready_for_ICT_systems_faculty_2023s.pdf) (materials explaining ICT systems at UTokyo and its support) has been released. (The English version is on the second page)"
+  important: true
+-
+  date: 2023-03-01
+  content:
+    ja: "[UTokyo Account における多要素認証の推奨とパスワード設定の変更について](/notice/2023/03-utokyo_account-password)"
+    en: "[Recommendation of Multi-Factor Authentication and Change in Password Requirements
+for UTokyo Account](/en/notice/2023/03-utokyo_account-password)"
+-
   date: 2023-02-24
   content:
     ja: "[全学FWメンテナンスのお知らせ (2023/03/06 23:00 - 2023/03/07 03:00)](/notice/2023/0306-fw)"
