@@ -1,7 +1,7 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
-  date: 2023-03-02
+  date: 2023-03-03
   content:
     ja: "(教員用) 3/15 15:00から，[説明会「オンラインでも対面でも活用！Web会議・クラウドツールの説明会 〜 そして「あのAIツール」について\"Chat\"しましょう 〜」](/events/2023-03-15/)を開催いたします．"
     en: "[A briefing session titled \"A briefing session on web conferencing and cloud tools for online and in-person use - and let's \"Chat\" about \"that AI tool\"\"](/events/2023-03-15/) will be held on March 15th at 15:00 (only in Japanese)."
