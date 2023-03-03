@@ -5,7 +5,7 @@ redirect_from:
   - /webex/create_webex_account
 ---
 
-Webexへのサインインには，[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（学生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．
+Webexへのサインインには，[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（新入生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．
 
 1. [東京大学のWebexページ](https://utelecon.webex.com/)で「サインイン」ボタンを押すなどして，Webexのサインイン画面を開いてください．
 1. `1234567890@utac.u-tokyo.ac.jp` のように，10桁の共通IDの後に東京大学であることを表す記号 `@utac.u-tokyo.ac.jp` を付けたものを入力してください．
