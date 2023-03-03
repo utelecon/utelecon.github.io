@@ -181,7 +181,7 @@ css: [mfa]
 1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)へアクセスしてください．
 1. サインイン画面が表示されたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
 1. 続いて多要素認証の本人確認が行われます．本人確認方法により手順が異なりますので，画面の指示に従って操作してください．
-    - **「Microsoft Authenticator」アプリの場合**：スマホに通知が送られ，アプリ上でサインインを承認するように求められるので，そのようにしてください．
+    - **「Microsoft Authenticator」アプリの場合**：スマホに通知が送られ，サインイン画面に表示されている2桁の数字を入力するように求められるので，そのようにしてください．
         <details>
             <summary>※「Microsoft Autheticator アプリを現在使用できません」の表示について</summary>
             <img src="signin_screen_msauth.png" alt="「サインイン要求」の画面に「Microsoft Autheticator アプリを現在使用できません」が表示されている">
