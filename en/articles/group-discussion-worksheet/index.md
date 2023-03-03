@@ -28,10 +28,10 @@ To allow multiple people to write simultaneously and have the instructor to view
 In actual online classes, word-processing tools such as Google Docs and Google Slides are often used. These tools are easy to use for many students, as they can be used simply by typing text on a blank document.  
 
 〈Example of a worksheet created in Google Docs〉
-![img1]()
+![img1](img/google-docs.png)
 
 〈Example of a worksheet created with Google Slides〉
-![img2]()
+![img2](img/google-slide.png)
 
 ### Tools That Can Substitute as a Whiteboard
 
@@ -40,10 +40,10 @@ To visualize the process of brainstorming (gathering opinions), it is recommende
 [Padlet](https://padlet.com/dashboard), [Google Jamboard](https://jamboard.google.com/), and [Miro](https://miro.com/ja/) are examples of such tools. Miro is particularly useful because it is easy to use and can handle complicated drawings.  
 
 〈Example of a worksheet created using Google Jamboard〉
-![img3]()
+![img3](img/google-jamboard.png)
 
 〈Example of a worksheet created using Miro〉
-![img4]()
+![img4](img/miro.png)
 
 ## Prepare the Worksheets You Will Provide in Advance
 
@@ -66,7 +66,7 @@ For example, the contents of the worksheet could include the following:
 The format should be appropriate for the content of the assignment, its purpose, and the students' level of proficiency.  
 
 〈Example of worksheet content (one sheet per group assigned on Google Slides)〉
-![img5]()
+![img5](img/google-slide-template.png)
 
 ### Worksheet Format
 
@@ -118,7 +118,7 @@ After the breakout room has started, the organizer can move to any group of his/
 If the worksheet is in Google Docs, the teacher can post on it at the same time as the students. This can be used as an alternative to chatting, as you can text directly to the students, make comments on the fly when you find something of interest, or offer hints or additional instructions.  
 
 〈Example of instructors's comments on worksheets〉
-![img6]()
+![img6](img/comment.png)
 
 ## Utilizing the Worksheet After Discussion
 
@@ -153,12 +153,3 @@ The format and use of the worksheet may vary depending on the content of the ass
 [Online Class Information Exchange Session 1: Doing Groupwork (1) (in Japanese)](/events/luncheon/2020-04-22/)  
 
 [Online Class Information Exchange Session 11: Useful Tools for Online Classes (1) (in Japanese)](/events/luncheon/2020-06-24/)
-
-残り
-* 画像
-    * Example of a worksheet created in Google Docs
-    * img2
-    * img3
-    * img4
-    * img5
-    * img6
