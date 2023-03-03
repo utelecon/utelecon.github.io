@@ -21,5 +21,6 @@ export default defineConfig({
       insertTocPlugin,
     ],
   },
+  publicDir: "src/pages",
   integrations: [mdx(), react()],
 });
