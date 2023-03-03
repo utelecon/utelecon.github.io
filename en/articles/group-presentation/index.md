@@ -76,8 +76,7 @@ Zoom's recording function can save the shared screen in video format, so it is a
 * Reference
     * [Basic Use of Google Docs](/en/articles/google-document/)
     * Examples  of  minutes format
-
-![presentation.png](../group-presentation/img/presentations.png)  
+	![presentation.png](img/presentation.png)  
 
 #### Flow of the first meeting
 
@@ -103,8 +102,7 @@ If the discussion gets stuck and no opinions emerge, a technique called brainsto
 	* [About Miro (External link)](https://miro.com/whiteboard/)
 	* [About Jamboard (External link)](https://edu.google.com/intl/en_ALL/jamboard/)
 	* Miro usage example
-
-![Miro.png](../group-presentation/img/Miro.png)  
+	![Miro.png](img/Miro.png)  
 
 ##### ④Discussions to summarize opinions
 
