@@ -6,7 +6,7 @@ title: ITC-LMS
 
 [ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/)は東京大学の学習管理システムです．授業資料の配布・課題提出・オンライン試験・教員から学生へのお知らせ通知などの機能があります．
 
-利用には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（新入生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．
+利用には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（新入生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．
 
 ### （教員向け）ITC-LMSを利用するメリット
 
