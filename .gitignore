@@ -1,13 +1,21 @@
-# Gatsby
-node_modules/
-.cache/
-public
-src/gatsby-types.d.ts
+# build output
+dist/
 
-# Files
-.analysis
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
 .DS_Store
-*.swp
-*~
-.vscode/*
-!settings.json
