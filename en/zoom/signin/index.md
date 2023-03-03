@@ -7,7 +7,7 @@ redirect_from:
   - /en/zoom/create_account_invitation
 ---
 
-An [UTokyo Account](/en/utokyo_account/) is required to sign into Zoom. If you have not already set up your UTokyo account, please check “[Preparing for online classes at the University of Tokyo (for new students)](/en/oc/)” or “[Preparing for online classes at the University of Tokyo (for faculty members)](/en/faculty_members)” first.
+An [UTokyo Account](/en/utokyo_account/) is required to sign into Zoom. If you have not already set up your UTokyo account, please check “[How to start using UTokyo Account](/en/utokyo_account/#procedures)” first.
 
 <div class="box">
 The following instructions are for signing in with your <strong class="alert"> UTokyo email address starting with the 10-digit UTokyo ID </strong>.
