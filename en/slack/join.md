@@ -17,7 +17,7 @@ This page describes the procedure for joining an open workspace in UTokyo Slack.
 1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
     <details>
         <summary> Troubleshooting guide: If you get an error message "これに対するアクセス権がありません" or "You don't have access to this". </summary>
-        It is possible that application or reflection of Multi-Factor Authentication for UTokyo Account is not completed, which is required to use UTokyo Slack. Please make sure to follow the initial setup procedure on the "<strong><a href="/utokyo_account/mfa/">Using Multi-Factor Authentication for UTokyo Accounts</a></strong>" page <strong>up to the last step "Step 4: Apply for MFA Use"</strong> to enable multi-factor authentication for your UTokyo Account. <strong>It will take about 40 minutes for your account settings to be reflected in the system, so please wait for a while</strong>.
+        It is possible that application or reflection of Multi-Factor Authentication for UTokyo Account is not completed, which is required to use UTokyo Slack. Please make sure to follow the initial setup procedure on the "<strong><a href="/en/utokyo_account/mfa/">Using Multi-Factor Authentication for UTokyo Accounts</a></strong>" page <strong>up to the last step "Step 4: Apply for MFA Use"</strong> to enable multi-factor authentication for your UTokyo Account. <strong>It will take about 40 minutes for your account settings to be reflected in the system, so please wait for a while</strong>.
     </details>
 1. Since you will be asked to review the terms of service, please do so.
 1. The page titled “Workspaces at UTokyo Slack” opens, and the list of workspaces is displayed.
