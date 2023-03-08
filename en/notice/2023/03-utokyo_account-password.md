@@ -1,6 +1,5 @@
 ---
-title: Recommendation of Multi-Factor Authentication and Change in Password Requirements
-for UTokyo Account
+title: Recommendation of Multi-Factor Authentication and Change in Password Requirements for UTokyo Account
 ---
 
 UTokyo Account has required users to set passwords that are between 8 and 16 characters long and sufficiently difficult to break as a prerequisite for secure use. However, in recent years, the security situation has worsened and there have been numerous cases of users' identities and passwords being stolen through targeted attacks, phishing attacks, and other means.
