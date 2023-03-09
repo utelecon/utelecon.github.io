@@ -7,7 +7,7 @@ redirect_from:
   - /zoom/zoom_signin
 ---
 
-東京大学のZoomアカウントでのサインインには，[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（学生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．
+東京大学のZoomアカウントでのサインインには，[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．
 
 <div class="box">
 東大の所定のZoomアカウントとは異なる，<strong class="alert">10桁の共通IDではないメールアドレス（ECCSクラウドメールの自分で設定したメールアドレス <code>xxxx@g.ecc.u-tokyo.ac.jp</code> など）のアカウントを利用している場合，以下の方法ではサインインできません．</strong>「<a href="/notice/zoom-address-new">UTokyo Account以外のサインインでのZoomの利用について</a>」の案内をご覧ください．
