@@ -8,12 +8,13 @@ Also, when your affiliation changes within the University of Tokyo, your UTokyo 
 
 Please check which of the following applies to you, and **back up your data in advance if necessary**.
 
-- **[If you will no longer be affiliated with the University of Tokyo] (#leave)**
+- **[If you will no longer be affiliated with the University of Tokyo](#leave)**
     - This section is for those who are leaving the University of Tokyo due to graduation, resignation, or other reasons.
-- **[If your affiliation changes within the University of Tokyo] (#change)**
+- **[If your affiliation changes within the University of Tokyo](#change)**
     - This section is for those who are changing their affiliation within the University of Tokyo by admission to the Senior Division or a graduate school, or by change of status from student to faculty or staff.
 
 ## If you are no longer affiliated with the University of Tokyo
+{:#leave}
 
 If you leave the University of Tokyo due to graduation or resignation, your UTokyo Account will be revoked and you will not be able to use the various information systems. Please back up your data according to the instructions given on the **“[Data Backup upon Leaving the University of Tokyo](backup)”** page.
 
@@ -22,6 +23,7 @@ Furthermore, some information systems, such as the [UTokyo Antivirus License](/a
 Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers in FY2022](https://www.nc.u-tokyo.ac.jp/antivirus20230227)" page (in Japanese) for more information on the UTokyo Antivirus License.
 
 ## If your affiliation changes within the University of Tokyo
+{:#change}
 
 If your affiliation changes within the University of Tokyo, your UTokyo Account may or may not be revoked depending on your situation.
 
