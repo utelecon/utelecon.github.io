@@ -98,7 +98,7 @@ LINEオープンチャットはテキストのやりとり主としたコミュ�
 ### ツール紹介
 #### Microsoft Office
 
-Microsoft Officeはマイクロソフトが提供するデスクトップアプリケーションの総称です．東京大学では学生と教職員に対してWord, Excel, PowerPoint及びOneDrive等について最新版を無償で提供しています．一般的な使い方は「[UTokyo Microsoft License](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)」を参考にしてください．
+Microsoft Officeはマイクロソフトが提供するデスクトップアプリケーションの総称です．東京大学では学生と教職員に対してWord, Excel, PowerPoint及びOneDrive等について最新版を無償で提供しています．一般的な使い方は「[UTokyo Microsoft License](/microsoft/)」を参考にしてください．
 
 
 #### Google Workspace

@@ -36,7 +36,7 @@
       url: "/eccs_cloud_email"
     -
       name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
-      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html"
+      url: "/microsoft/"
     -
       name: "UTokyo Wi-Fi"
       url: "/utokyo_wifi/"
