@@ -4,6 +4,8 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 lang: en
 ---
 
+<!--
+
 ## Introduction
 
 Congratulations to all the new students!
@@ -20,6 +22,8 @@ Our faculty and staff are committed to accommodating your wishes so that you can
 Executive Director and Vice President (Education and Information Systems)<br>
 OHTA Kunihiro
 </div>
+
+-->
 
 ## What type of online classes will be held at the University of Tokyo?
 
