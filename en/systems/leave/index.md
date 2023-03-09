@@ -2,18 +2,19 @@
 title: Notice on Account Revocation due to Graduation, Resignation or Change of Affiliation
 ---
 
-**When you leave the University of Tokyo due to graduation, resignation, or other reasons, your UTokyo Account will be revoked and you will no longer be able to sign in.** As a result, you will no longer be able to sign in to the various information systems such as Zoom and Microsoft 365 provided by the University of Tokyo that require a [UTokyo Account](/utokyo_account/) for sign-in. After your account has been revoked, you will not be able to access any data stored in these information systems. In addition, since you will not be able to log in to your [ECCS Cloud Email](/eccs_cloud_email) account after you leave the university, nor will you be able to access data stored in Gmail, Google Drive, or other services which you used in your ECCS Cloud Email account.
+**When you leave the University of Tokyo due to graduation, resignation, or other reasons, your UTokyo Account will be revoked and you will no longer be able to sign in.** As a result, you will no longer be able to sign in to the various information systems such as Zoom and Microsoft 365 provided by the University of Tokyo that require a [UTokyo Account](/en/utokyo_account/) for sign-in. After your account has been revoked, you will not be able to access any data stored in these information systems. In addition, since you will not be able to log in to your [ECCS Cloud Email](/en/eccs_cloud_email) account after you leave the university, nor will you be able to access data stored in Gmail, Google Drive, or other services which you used in your ECCS Cloud Email account.
 
 Also, when your affiliation changes within the University of Tokyo, your UTokyo Account or ECCS Cloud Email account may also be revoked in some cases.
 
 Please check which of the following applies to you, and **back up your data in advance if necessary**.
 
-- **[If you will no longer be affiliated with the University of Tokyo] (#leave)**
+- **[If you will no longer be affiliated with the University of Tokyo](#leave)**
     - This section is for those who are leaving the University of Tokyo due to graduation, resignation, or other reasons.
-- **[If your affiliation changes within the University of Tokyo] (#change)**
+- **[If your affiliation changes within the University of Tokyo](#change)**
     - This section is for those who are changing their affiliation within the University of Tokyo by admission to the Senior Division or a graduate school, or by change of status from student to faculty or staff.
 
 ## If you are no longer affiliated with the University of Tokyo
+{:#leave}
 
 If you leave the University of Tokyo due to graduation or resignation, your UTokyo Account will be revoked and you will not be able to use the various information systems. Please back up your data according to the instructions given on the **“[Data Backup upon Leaving the University of Tokyo](backup)”** page.
 
@@ -22,6 +23,7 @@ Furthermore, some information systems, such as the [UTokyo Antivirus License](/a
 Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers in FY2022](https://www.nc.u-tokyo.ac.jp/antivirus20230227)" page (in Japanese) for more information on the UTokyo Antivirus License.
 
 ## If your affiliation changes within the University of Tokyo
+{:#change}
 
 If your affiliation changes within the University of Tokyo, your UTokyo Account may or may not be revoked depending on your situation.
 
@@ -36,7 +38,7 @@ Please note that your ECCS Cloud Email account will also be revoked and a new ac
 If you change your faculty or graduate school that you belong to, but remain a student or a faculty member, your UTokyo Account will not be revoked, and you will continue to be able to use the information systems. Therefore, there is no need to back up your data.
 
 - This applies to students who change their faculty or graduate school as a result of admission to the Senior Division or the graduate school.
-- However, if your enrollment period is interrupted when you change your affiliation, your UTokyo Account will be revoked, so please make sure to back up your data.
+- However, if your enrollment period is interrupted when you change your affiliation, your UTokyo Account will be revoked, so please make sure to back up your data according to the instructions on the "**[Data Backup upon Leaving the University of Tokyo](backup)**" page.
 - Depending on your employment status and other factors, some systems may not be available to you or the scope of functions you can use may be limited.
     - For example, only students and faculty members employed by the University of Tokyo can install and use the Office applications under the UTokyo Microsoft License. If you no longer qualify for this due to a change in affiliation, you will no longer be able to use them.
 
