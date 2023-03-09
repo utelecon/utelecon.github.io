@@ -2,7 +2,7 @@
 title: Data Backup upon Leaving the University of Tokyo
 ---
 
-This page describes how to back up your data in the various information systems when you leave the University of Tokyo. Please refer to the "[Notice on Account Revocation due to  Graduation, Resignation or Change of Affiliation](.)" for more information on the revocation of your UTokyo Account when you leave the University of Tokyo.
+This page describes how to back up your data in the various information systems when you leave the University of Tokyo. Please refer to the "**[Notice on Account Revocation due to  Graduation, Resignation or Change of Affiliation](.)**" for more information on the revocation of your UTokyo Account when you leave the University of Tokyo.
 
 **When you leave the University of Tokyo due to graduation, resignation, or other reasons, your UTokyo Account will be revoked and you will not be able to use the various information systems** such as Zoom, ECCS Cloud Email, and Microsoft 365 provided by the University of Tokyo. After your account has been revoked, you will not be able to access any data stored in the systems, so please **make backups of your data as necessary**. Some systems limit the amount of data that can be backed up at one time, so if you have a large amount of data to back up, we recommend that you do so well in advance of leaving the university.
 
