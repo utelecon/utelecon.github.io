@@ -17,7 +17,7 @@ Please check which of the following applies to you, and **back up your data in a
 
 If you leave the University of Tokyo due to graduation or resignation, your UTokyo Account will be revoked and you will not be able to use the various information systems. Please back up your data according to the instructions given on the **“[Data Backup upon Leaving the University of Tokyo](backup)”** page.
 
-Furthermore, some information systems, such as the [UTokyo Antivirus License](/en/antivirus/), are not automatically terminated even though you are no longer authorized to use them upon leaving the university. Please follow the instructions or each system to terminate their use.
+Furthermore, some information systems, such as the [UTokyo Antivirus License](/antivirus/), are not automatically terminated even though you are no longer authorized to use them upon leaving the university. Please follow the instructions or each system to terminate their use.
 
 Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers in FY2022](https://www.nc.u-tokyo.ac.jp/antivirus20230227)" page (in Japanese) for more information on the UTokyo Antivirus License.
 
