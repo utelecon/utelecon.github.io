@@ -39,7 +39,7 @@ In the following, we propose ways to effectively utilize the ITC-LMS according t
 
 ### Check Students' Understanding and Learning Progress Using the Test Function
 
-![](pic1.png)
+![](pic1.jpg)
 
 The ITC-LMS has a test function that allows users to create quizzes and final exams to assess their daily learning. You can set the format of the tests to be in essay form or multiple choice questions, or allow retaking the exam, etc. For detailed instructions on how to create tests, please refer to [this page](/en/lms_lecturers/prepare_quizzes).
 
@@ -49,7 +49,7 @@ For tests of high importance, it is important to set clear deadlines for answers
 
 The ITC-LMS has an attendance management function, which can be used to take attendance during classes. Attendance management can be edited from the Course Content tab on the editing screen for faculty members on ITC-LMS. Please refer to [this page](/en/lms_lecturers/view_attendances) for detailed information on how to manage attendance.
 
-![](pic2.png)
+![](pic2.jpg)
 
 In order to have attendance confirmations sent in, it is necessary to set a password for attendance confirmation and a time limit (from when to how long) when attendance can be sent.
 
@@ -59,21 +59,21 @@ When actually requesting attendance confirmations, the password must be presente
 
 In ITC-LMS, you can place class materials such as slides in the "Teaching Materials" section. Please refer to [this page](/en/lms_lecturers/course_material) for details on how to place teaching materials.
 
-![](pic3.png)
+![](pic3.jpg)
 
 The most important thing to keep in mind here is how to title the material. In addition to the date, it is also helpful to indicate which session the material is from and to include keywords used in the class to make it easier for students to find the material. Also, if you want students to download the material before class, you can make a note in the comments so that the class can run more smoothly.
 
-![](pic4.png)
+![](pic4.jpg)
 
 ### Set Easy-To-Read Deadlines for Assignments
 
 The ITC-LMS allows teachers to place assignments in the "Assignment" section. Please refer to [this page](/en/lms_lecturers/assignments) for details on how to create and place assignments.
 
-![](pic5.png)
+![](pic5.jpg)
 
 The key point to be considered when setting an assignment is the date and time of the deadline. For example, if you set the deadline at 0:00 on March 24, students may misunderstand that they only need to submit the assignment by March 24 (even though it is actually due by March 23). In fact, we have heard many students say that they find the assignment submission deadlines confusing. To avoid this, it is recommended that the deadline is set at a time such as 23:59 or 16:00, so that students clearly know the date by which they must submit their work.
 
-![](pic6.png)
+![](pic6.jpg)
 
 ### Other Application
 
