@@ -3,6 +3,7 @@ title: 大学生活に必要な情報システムの準備について（新入�
 slug: oc # 手順を外部ファイルからincludeするときに使う
 description: このページでは，東京大学で授業を受ける新入生を対象に，東京大学の情報システムを利用するために必要な事前準備を順序立てて説明しています．
 ---
+import Eccs from '@components/procedures/Eccs/index.astro'
 
 ## はじめに
 
@@ -16,16 +17,11 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 本学教職員一同，皆さんの健康を守りつつ，学修機会を確保することを最優先しながら，皆さんが心置きなく対面授業やキャンパスの中での諸活動が行えるよう，希望に応えていきたいと考えています．皆さんが望む学修が効果的に行われ，充実した学生生活をおくれるよう最善を尽くしてまいります．
 
-<div style="text-align: right;">
-執行役・副学長　情報システム本部長<br>
+<div style="textAlign: right;">
+執行役・副学長　情報システム本部長<br/>
 太田　邦史
 </div>
-
-{% comment %}
----
-
-（学部1年生向け）教養学部次期学部長メッセージ「[東京大学入学予定者とそのご家族のみなさまへ](https://www.c.u-tokyo.ac.jp/zenki/news/kyoumu/newstudentsandfamilies_20210319.pdf)」（2021年3月19日）もご覧ください．
-{% endcomment %}
+{/* （学部1年生向け）教養学部次期学部長メッセージ「[東京大学入学予定者とそのご家族のみなさまへ](https://www.c.u-tokyo.ac.jp/zenki/news/kyoumu/newstudentsandfamilies_20210319.pdf)」（2021年3月19日）もご覧ください．*/}
 
 ## 東京大学におけるオンライン授業
 
@@ -41,24 +37,24 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 東大の授業では，さまざまな情報システムを使います．アカウントの設定を行い，授業で使う際の手順を確認・練習しておきましょう．詳細な手順はこの後の項でくわしく説明しますが，ここで一覧を挙げておきます．
 
-{% comment %}以下の説明の文章は後でも使うため，一度変数として定義してからそれを呼び出す形で記述している．{% endcomment %}
+{/* 以下の説明の文章は後でも使うため，一度変数として定義してからそれを呼び出す形で記述している */}
 
-{% capture about_utokyo_account %}東大の情報システムで使う，「共通ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．{% endcapture %}
-{% capture about_utas %}各授業の概要説明（シラバス）の閲覧，受ける授業の登録手続き，成績の確認などに使うシステム（学務システム）です．{% endcapture %}
-{% capture about_itc_lms %}授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．{% endcapture %}
-{% capture about_google %}GmailなどのGoogleのシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既にGoogleのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．{% endcapture %}
-{% capture about_microsoft %}Word, ExcelなどのMicrosoft Officeが無料でダウンロードできます．また，Microsoftの各種オンラインツールも提供しています．Googleと同じく，東大のアカウントでしかアクセスできないページがあるので，既にMicrosoftのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．{% endcapture %}
-{% capture about_utokyo_wifi %}キャンパス内で使えるWi-Fiです．キャンパス内でオンライン授業を受ける際に必要になるでしょう．事前にアカウントを作っていないと使えないので注意してください．{% endcapture %}
-{% capture about_eccs %}キャンパス内に設置されているパソコンです．一部の対面授業で利用する場合があるほか，キャンパス内でオンライン授業を受ける際にも利用できます．事前に「新規利用者講習」に合格していないと使えないので注意してください．{% endcapture %}
+export const about_utokyo_account = "東大の情報システムで使う，「共通ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．"
+export const about_utas = "各授業の概要説明（シラバス）の閲覧，受ける授業の登録手続き，成績の確認などに使うシステム（学務システム）です．"
+export const about_itc_lms = "授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．"
+export const about_google = "GmailなどのGoogleのシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既にGoogleのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
+export const about_microsoft = "Word, ExcelなどのMicrosoft Officeが無料でダウンロードできます．また，Microsoftの各種オンラインツールも提供しています．Googleと同じく，東大のアカウントでしかアクセスできないページがあるので，既にMicrosoftのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
+export const about_utokyo_wifi = "キャンパス内で使えるWi-Fiです．キャンパス内でオンライン授業を受ける際に必要になるでしょう．事前にアカウントを作っていないと使えないので注意してください．"
+export const about_eccs = "キャンパス内に設置されているパソコンです．一部の対面授業で利用する場合があるほか，キャンパス内でオンライン授業を受ける際にも利用できます．事前に「新規利用者講習」に合格していないと使えないので注意してください．"
 
-- **UTokyo Account**：{{ about_utokyo_account }}
-- **UTAS**：{{ about_utas }}
-- **ITC-LMS**：{{ about_itc_lms }}
+- **UTokyo Account**：{ about_utokyo_account }
+- **UTAS**：{ about_utas }
+- **ITC-LMS**：{ about_itc_lms }
 - **Zoom**, **Webex**：「同時双方向型」のオンライン授業で使うWeb会議システムです．基本的にはZoomを使いますが，授業によってはWebexを使うこともあります．
-- **ECCSクラウドメール (Google Workspace)**：{{ about_google }}
-- **UTokyo Microsoft License (Microsoft 365)**：{{ about_microsoft }}
-- **UTokyo WiFi**：{{ about_utokyo_wifi }}
-- **ECCS端末**：{{ about_eccs }}
+- **ECCSクラウドメール (Google Workspace)**：{ about_google }
+- **UTokyo Microsoft License (Microsoft 365)**：{ about_microsoft }
+- **UTokyo WiFi**：{ about_utokyo_wifi }
+- **ECCS端末**：{ about_eccs }
 
 ### インターネット環境やパソコンなどの機器
 
@@ -66,7 +62,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 - **インターネット環境**：動画が安定して閲覧できれば問題ありませんが，長時間のオンライン授業を受けるため，通信の容量に注意してください．特に，スマホをモバイルネットワーク（LTEなど）に直接つなげている場合，「ギガが足りない」ということにならないか，契約などを確認してください．
     - キャンパス内では大学がWi-Fiを提供していますので心配ありません．
-<!--    - 東京大学では，十分なネットワーク環境が整わない人のための支援を，新入学生を対象に実施しています．詳細は「[教育・研究活動のためのネットワーク環境支援](/mobile/)」のページを確認してください． -->
+{/* 東京大学では，十分なネットワーク環境が整わない人のための支援を，新入学生を対象に実施しています．詳細は「[教育・研究活動のためのネットワーク環境支援](/mobile/)」のページを確認してください． */}
 - **パソコン**：オンライン授業を視聴するだけであればスマホでも可能ですが，大学では，レポートの作成などでパソコンを必要とすることも多くなりますし，オンライン授業では，動画を視聴しながらちょっとした作業や演習をすることもあるかもしれません．
     - キャンパスでも使えるよう，持ち運びのできるノートパソコンがおすすめです．
     - スペックについては，「[東京大学のBYOD方針](/docs/byod)」に目安が掲載されています．
@@ -90,24 +86,22 @@ description: このページでは，東京大学で授業を受ける新入生�
 - オンライン授業に参加しようとしたら，直前にトラブルが起きた
 - 授業の資料がダウンロードできない
 
-{% comment %}
-以下の手順説明は他のページと共通しているため，変更があった場合に対応しやすいよう，別ファイルに記述し `include` で呼び出している．実体は `_includes/procedures/` ディレクトリにある．
-{% endcomment %}
-
+{/* 以下の手順説明は他のページと共通しているため，変更があった場合に対応しやすいよう，別ファイルに記述し `include` で呼び出している．実体は `_includes/procedures/` ディレクトリにある． */}
+ 
 ## 情報システムを使うために必須の手順
-{:#important}
+{/* {:#important} */}
 
 上で紹介した各種情報システムの準備について，まず，アカウントの作成などの，絶対に行っておくベき重要な作業を説明します．授業開始に間に合うよう，余裕を持って作業してください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
 「[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](movies)」のページでは，以下の手順を動画で説明していますので，必要に応じて確認してください．
 
 <ul class="procedure">
-{% include procedures/utokyo_account.html part="important" %}
-{% include procedures/google.html part="important" %}
-{% include procedures/utas.html part="important" %}
+{/* {% include procedures/utokyo_account.html part="important" %} */}
+{/* {% include procedures/google.html part="important" %} */}
+{/* {% include procedures/utas.html part="important" %} */}
     <li>
         <strong>UTokyo WiFi：アカウントを申請する</strong>
-{% include systems/utokyo_wifi/apply.html part="important" %}
+{/* {% include systems/utokyo_wifi/apply.html part="important" %} */}
     </li>
 </ul>
 
@@ -119,76 +113,75 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 
 ### UTokyo Account
-{:#utokyo_account}
+{/* {:#utokyo_account} */}
 
-{{ about_utokyo_account }}
+{ about_utokyo_account }
 
-{% include procedures/utokyo_account.html %}
+{/* {% include procedures/utokyo_account.html %} */}
 
 ### UTAS
-{:#utas}
+{/* {:#utas} */}
 
-{{ about_utas }}
+{ about_utas }
 
-{% include procedures/utas.html %}
+{/* {% include procedures/utas.html %} */}
 
 ### ITC-LMS
-{:#itc_lms}
+{/* {:#itc_lms} */}
 
-{{ about_itc_lms }}
+{ about_itc_lms }
 
-{% include procedures/itc_lms.html %}
+{/* {% include procedures/itc_lms.html %} */}
 
 ### Zoom
-{:#zoom}
+{/* {:#zoom} */}
 
 「同時双方向型」授業のほとんどで使うWeb会議システムです．
 
-{% include procedures/zoom.html %}
+{/* {% include procedures/zoom.html %} */}
 
 ### Webex
-{:#webex}
+{/* {:#webex} */}
 
 一部の「同時双方向型」授業で使うWeb会議システムです．使うことは少ないので，必要になってから作業すれば問題ありません．利用方法などの詳細は[Webexのページ](/webex/)をご覧ください．
 
 ### ECCSクラウドメール (Google Workspace)
-{:#google}
+{/* {:#google} */}
 
-{{ about_google }}
+{ about_google }
 
-{% include procedures/google.html %}
+{/* {% include procedures/google.html %} */}
 
 ### UTokyo Microsoft License (Microsoft 365)
-{:#microsoft}
+{/* {:#microsoft} */}
 
-{{ about_microsoft }}
+{ about_microsoft }
 
-{% include procedures/microsoft.html %}
+{/* {% include procedures/microsoft.html %} */}
 
 ### UTokyo WiFi
-{:#utokyo_wifi}
+{/* {:#utokyo_wifi} */}
 
-{{ about_utokyo_wifi }}
+{ about_utokyo_wifi }
 
 <ul>
     <li>
         <details>
             <summary>（再掲）<strong>作業：アカウントを申請する</strong></summary>
-{% include systems/utokyo_wifi/apply.html %}
+{/* {% include systems/utokyo_wifi/apply.html %} */}
         </details>
     </li>
     <li>
         <strong>作業：実際に接続する</strong>
-{% include systems/utokyo_wifi/connect.html %}
+{/* {% include systems/utokyo_wifi/connect.html %} */}
     </li>
 </ul>
 
 ### ECCS端末
-{:#eccs}
+{/* {:#eccs} */}
 
-{{ about_eccs }}
-
-{% include procedures/eccs.html %}
+{ about_eccs }
+<Eccs pageSlug="oc"/>
 
 ## その他
 
@@ -201,4 +194,4 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 お疲れさまでした．もし，ここまでの手順の中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
-以上でオンライン授業を受けるための準備手順は終わりですが，このサイト「**オンライン授業・Web会議ポータルサイト@東京大学**」，愛称「**utelecon**」では，このページで挙げた情報システムを使いこなすための情報をたくさん紹介しています．授業で使っていてよくわからなくなったときはもちろん，サークルや勉強会などで，自分たちでWeb会議やその他の情報システムを使う機会もあると思います．そんなときに，ぜひこのサイトを訪れてみてください．
+以上でオンライン授業を受けるための準備手順は終わりですが，このサイト「**オンライン授業・Web会議ポータルサイト@東京大学**」，愛称「**utelecon**」では，このページで挙げた情報システムを使いこなすための情報をたくさん紹介しています．授業で使っていてよくわからなくなったときはもちろん，サークルや勉強会などで，自分たちでWeb会議やその他の情報システムを使う機会もあると思います．そんなときに，ぜひこのサイトを訪れてみてください． 
