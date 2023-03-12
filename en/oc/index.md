@@ -43,7 +43,7 @@ You will be using a variety of information systems during your classes at UTokyo
 {% capture about_google %}This is a UTokyo Google account that allows users to use Google services, such as Gmail, as a UTokyo member. The ECCS Cloud Email can also be used as a UTokyo email address. Since some UTokyo web pages can only be accessed by UTokyo members, you are required to activate your ECCS Cloud Email even if you already own a Google account.{% endcapture %}
 {% capture about_microsoft %}This is a Microsoft license offered to UTokyo Account holders. This license will enable you to download Microsoft Office apps, such as Word and Excel, and use online Microsoft tools for free with the UTokyo Account. Similar to Google Workspace, some UTokyo webpages can only be accessed with a UTokyo Account. Therefore, it is necessary to use your UTokyo Account even if you already own a Microsoft account.{% endcapture %}
 {% capture about_utokyo_wifi %}Wi-Fi services are available on campus. You will require them while taking online classes on campus. Please note that you will not be able to use Wi-Fi services unless you have created an account in advance.{% endcapture %}
-{% capture about_eccs %}ECCS terminals refer to the computers installed on campus. You can use them while taking online classes on campus. You also use them in some face-to-face classes. Please note that you will not be able to use them unless you have passed the “New User Information Seminar” course in advance.{% endcapture %}
+{% capture about_eccs %}ECCS terminals refer to the computers installed on campus. You can use them while taking online classes on campus. You also use them in some face-to-face classes. Please note that you need to apply for the right of use in advance.{% endcapture %}
 
 - **UTokyo Account**: {{ about_utokyo_account }}
 - **UTAS**: {{ about_utas }}
@@ -171,7 +171,14 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 {{ about_eccs }}
 
-{% include procedures/en/eccs.html %}
+<ul>
+    <li>
+        <strong>Task: Apply for system user permission</strong>
+    </li>
+    <li>
+        <strong>Exercise: Log in</strong>
+    </li>
+</ul>
 
 ## Others
 
