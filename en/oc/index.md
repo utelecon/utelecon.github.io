@@ -185,8 +185,10 @@ This is a web conferencing system used for some “simultaneous interactive” c
 - To participate in a "simultaneous interactive" online class, you need to know the URL of the web conference.This information is normally posted in the “Online course information” section of the ITC-LMS introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “How to Obtain the Online Class URL (for Students)” regarding other ways of obtaining the URL.
 
 ### Other Information Systems
-- **[Antivirus software](/antivirus/)** (in Japanese): Starting April 1, 2022, the Comprehensive Antivirus Software License (UTokyo Antivirus License) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
-- **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**: The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
+- **[Antivirus software](/antivirus/)** (in Japanese)
+  - Starting April 1, 2022, the Comprehensive Antivirus Software License (UTokyo Antivirus License) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
+- **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**
+  - The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
 
 ## More information
 
