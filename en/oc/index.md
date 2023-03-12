@@ -189,6 +189,9 @@ This is a web conferencing system used for some “simultaneous interactive” c
   - Starting April 1, 2022, the Comprehensive Antivirus Software License (UTokyo Antivirus License) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
 - **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**
   - The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
+- **[MATLAB](/matlab/)** (in Japanese)
+  - MATLAB is a software program that can be used in a wide range of classroom and research settings, including programming, numerical computation, data processing, and creating graphs. As an effective data science learning tool, the University of Tokyo recommends MATLAB for teaching and research, and several classes using MATLAB have been conducted in the Junior Division. To use MATLAB, you need to create an account with a University of Tokyo license.
+  - Self-learning tools and workshops are provided for students to learn how to operate MATLAB and how to use MATLAB to learn advanced topics in their fields of specialization. Since the use of MATLAB is specified in lectures in some cases, please use MATLAB as needed.
 
 ## More information
 
