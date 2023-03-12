@@ -7,24 +7,21 @@ slug: faculty_members # 手順を外部ファイルからincludeするときに�
 A briefing session titled “<a href="/events/2023-03-15/">A briefing session on web conferencing and cloud tools for online and in-person use - and let's “Chat” about “that AI tool”</a>” will be held on March 15th at 15:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
 </b>
 
-<!--
-## Introduction
+## Greetings
+Dear new faculty members of the University of Tokyo
 
-To all new faculty members of the University of Tokyo,
+The University of Tokyo will mainly conduct face-to-face classes in the academic year 2023, after taking necessary measures to prevent infection. On the other hand, we will also conduct online classes and hybrid classes that combine face-to-face and online classes when it is possible to enhance the educational effect. Even in face-to-face classes, there are many situations where the use of digital technology is effective, such as  distribution of teaching materials and submission of assignments. In the case of classes where students bring their own laptops to the classroom, we have established a BYOD policy and provided Wi-Fi coverage over most of the campus. We hope that teachers will make the necessary preparations, such as initial account setup, as soon as possible so that activities using systems such as a learning management system (LMS) and web conferencing will run smoothly.
 
-In order to prevent the spread of COVID-19, our university has introduced online classes since the 2020 academic year. In this 2021 academic year, we will begin hybrid educational activities and incorporate face-to-face classes as much as possible after taking sufficient infection prevention measures.
+The University of Tokyo is also promoting Digital Transformation (DX). Digital technologies such as chat tools and web conferencing have changed the way we communicate, making it easier for people to interact and collaborate with each other at a different location. There are many situations in which new technologies can lead to meaningful activities, such as collaborative editing using cloud tools for group work in the classroom. It is also important to take in the opinions of students who are quickly becoming familiar with the tools. Although there is still much work to be done to enhance our overall educational activities, we would like to take on the challenge of creating the next generation of education with the collective efforts of the University of Tokyo.
 
-We received positive feedback from students last year in a survey regarding their online learning experiences, owing to the effort spared on lesson delivery and other considerations. It is reported that certain features and educational effects, in which face-to-face instruction lacks, are realized in online classes. We will continue to strive for excellence in online teaching in the academic year 2021/22. 
+This portal site, "utelecon," brings together information on the University of Tokyo's systems and introduces advanced methods of using various tools. We hope that professors will use this information as a reference and actively engage in creative and ingenious approaches. We also manage a support desk with student staff, so if you have any problems or difficulties, please feel free to use the support desk.
 
-In this portal, we have made appropriate preparations to realize better online classes and to utilize our past experiences to achieve higher educational effect, making full use of the  feedback, requests and ideas from students and faculty members of the University of Tokyo. 
-
-Regarding online classes, we have selected the Good Practices for 2020 and are sharing them among faculty members on this site. Please refer to this site for information on how to create effective online classes. We hope that you will find the information useful and meaningful to your educational activities. To help students achieve their academic goals and live a fulfilling life through teaching and learning activities, your understanding and cooperation is mostly appreciated.
+We hope you will cooperate with us so that your educational activities will help students to realize a fulfilling academic and student life.
 
 <div style="text-align: right;">
-Director and Vice President (Education and Information Systems)<br>
-Tatsuya OKUBO
+Executive Vice President, Chief Information Officer (CIO)<br>
+OHTA Kunihiro
 </div>
--->
 
 ## Types of Classes and Their Handling
 
