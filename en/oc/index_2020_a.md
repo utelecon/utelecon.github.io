@@ -1,5 +1,5 @@
 ---
-title: Preparing for online classes for new and currently enrolled students (2020 A Semester)
+title: Preparing for ICT Systems for new and currently enrolled students (2020 A Semester)
 ---
 
 Introduction

@@ -12,8 +12,8 @@ We also plan to further enrich this page with more methods and practical example
 Please keep checking back for more updates.
 
 **For those who are not yet prepared to use UTokyo’s ICT system, please access** 
-* **[Preparing for online classes at the University of Tokyo (for students)](/en/oc/)**  <br> or 
-* **[Preparing for online classes at the University of Tokyo (for faculty members)](/en/faculty_members/)**
+* **[Preparing for ICT Systems at the University of Tokyo (for new students)](/en/oc/)**  <br> or 
+* **[Preparing for ICT Systems at the University of Tokyo (for teachers)](/en/faculty_members/)**
 
 
 ## Ways of Utilizing Online Resources
