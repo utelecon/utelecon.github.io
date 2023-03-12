@@ -65,7 +65,7 @@ To take classes, you will need an Internet connection and equipment such as a co
     - A portable laptop is recommended so that you can use it on campus.
     - For specifications, please refer to “[東京大学のBYOD方針](/docs/byod) (The University of Tokyo's BYOD Policy)” (in Japanese).
     <!-- - (For first-year undergraduate students) The College of Arts and Sciences provides guidelines for required PC specifications in “オンライン授業に必要な機器や通学前の準備について(Devices necessary for online classes and preparation for attending college)” (in Japanese). -->
-    - You may also refer to the Co-op’s special topic page about computers for new students, “[受験生・新入生応援サイト2022 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html) (Komaba Model PC for Examinees and New Students Support Site)” (in Japanese).
+    - You may also refer to the Co-op’s special topic page about computers for new students, “[受験生・新入生応援サイト2023 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html) (Komaba Model PC for Examinees and New Students Support Site)” (in Japanese).
     - If you do not have a computer that meets the above mentioned requirements, please consult with your faculty or graduate school. (For example, the College of Arts and Sciences can [lend out computers](https://www.c.u-tokyo.ac.jp/campuslife/online-lectures.html) (in Japanese).)
 - **Headset and earphones**: When taking online classes in an empty classroom on campus, you will need a headset or earphones to listen to the class without disturbing other students in the same classroom. A headset equipped with a microphone is recommended when purchasing one.
 
