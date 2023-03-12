@@ -47,7 +47,7 @@ You will be using a variety of information systems during your classes at UTokyo
 - **UTokyo Account**: {{ about_utokyo_account }}
 - **UTAS**: {{ about_utas }}
 - **ITC-LMS**: {{ about_itc_lms }}
-- **Zoom**, **Webex**: These are the web conferencing systems that are used for "simultaneous interactive" online classes. Zoom is mostly used at UTokyo, but Webex may also be used depending on the class.
+- **Zoom**: These are the web conferencing systems that are used for "simultaneous interactive" online classes. 
 - **ECCS Cloud Email (Google Workspace)**: {{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**: {{ about_microsoft }}
 - **UTokyo Wi-Fi**: {{ about_utokyo_wifi }}
@@ -132,11 +132,6 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 A web conference system used in most “simultaneous interactive” classes.
 
 {% include procedures/en/zoom.html %}
-
-### Webex
-{:#webex}
-
-This is a web conferencing system used for some “simultaneous interactive” classes. The system is rarely used, so you can work on it when you need it. Please refer to [Webex page](/en/webex/) for details.
 
 ### ECCS Cloud Email (Google Workspace)
 {:#google}
