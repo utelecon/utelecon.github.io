@@ -25,11 +25,13 @@ OHTA Kunihiro
 
 -->
 
-## What type of online classes will be held at the University of Tokyo?
+## Class Format at the University of Tokyo
+At the University of Tokyo, classes are offered in a wide range of formats, including face-to-face and online. Face-to-face classes are conventional classes held in classrooms, and online classes are classes in which students can participate without being in the classroom using web conferencing systems for example. Please check with the faculty, the graduate school or the instructor in charge of the class to find out in which format the class will be held.
 
-There are various types of online classes, but the "**simultaneous interactive**" type is mainly adopted at the University of Tokyo for which real time teacher-student interaction is performed with a web conference system application through audio and video exchanges. You can use this system to connect with dozens or hundreds of people in a class. The necessary preparations for using the system are explained in this page.
+### Online Classes
+There are various types of online classes, but the main type of online class at the University of Tokyo is the "**simultaneous interactive**" type. This is a form of real-time interactive communication between the teacher and students using applications such as Zoom and Webex, a type of web conferencing system that allows audio and video exchange. The necessary preparations for using the system are explained in this page.
 
-Apart from the aforementioned type of online classes, there is the "**on-demand**" type which students watch video recordings of classes, ask questions and discuss the contents via e-mail or chat tools. The "**hybrid**" type combines online classes with face-to-face instruction. It is noted that classes at the University of Tokyo are not online-only, some face-to-face instruction also remains. Owing to that students might have to take online classes in empty classrooms on campus before or after their face-to-face classes, depending on their timetable constraints.
+Other forms include the "**on-demand**" type, in which students watch video recordings of classes and ask questions and discuss them via email or chat tools, and the "**hybrid**" type , in which online classes are combined with face-to-face classes in the classroom. 
 
 ## What You Need to Prepare for Classes
 
@@ -58,12 +60,12 @@ You will be using a variety of information systems during your classes at UTokyo
 
 ### Network Environment and Electronic Devices
 
-To take online classes, you will need an Internet connection and equipment such as a computer. The following is an explanation of how you will need to prepare.
+To take classes, you will need an Internet connection and equipment such as a computer. The following is an explanation of how you will need to prepare.
 
 - **Network connection**: There should be no problem with slower connections as long as you can watch videos stably. However, pay attention to the communication capacity when taking long online classes. More specifically, if you are using a smartphone directly connected to a mobile network (e.g., LTE), please ensure that you do not run out of data.
     - The university provides Wi-Fi on campus.
 <!--    - The University of Tokyo provides support for new students who do not have adequate network connections. For more details, please check “[The network environment support for education and research](/mobile/)”. -->
-- **PC**: A smartphone should be sufficient if you just want to watch online classes. However, in university, you will often need a computer for many purposes, such as writing reports. In online classes, you will also need to do some work or exercises while watching videos.
+- **PC**: You will often need a computer for writing reports, and also when you do some work or exercises while watching videos.
     - A portable laptop is recommended so that you can use it on campus.
     - For specifications, please refer to “[東京大学のBYOD方針](/docs/byod) (The University of Tokyo's BYOD Policy)” (in Japanese).
     <!-- - (For first-year undergraduate students) The College of Arts and Sciences provides guidelines for required PC specifications in “オンライン授業に必要な機器や通学前の準備について(Devices necessary for online classes and preparation for attending college)” (in Japanese). -->
@@ -73,7 +75,9 @@ To take online classes, you will need an Internet connection and equipment such 
 
 ### Class Location Information
 
-To participate in a “simultaneous interactive” online class, you will need to know the URL of the web conference. This information is normally posted in the “Online course information” section of the ITC-LMS introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “[How to Obtain the Online Class URL (for Students)](url)” regarding other ways of obtaining the URL.
+The classrooms where face-to-face classes are held can be viewed in the "Syllabus" section of the **UTAS** introduced above.
+
+To participate in a “simultaneous interactive” online class, you will need to know the URL of the web conference. This information is normally posted in the “Online course information” section of the **ITC-LMS** introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “[How to Obtain the Online Class URL (for Students)](url)” regarding other ways of obtaining the URL.
 
 ## When You Need help
 
