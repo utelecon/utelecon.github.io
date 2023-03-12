@@ -39,6 +39,7 @@ You will be using a variety of information systems during your classes at UTokyo
 {% capture about_utokyo_account %}This is the account you will use to log into UTokyo’s ICT systems. The username may also be referred to as “Common ID”.{% endcapture %}
 {% capture about_utas %}This system is used to browse the syllabus for each class, register courses, and check the grades (academic affairs system).{% endcapture %}
 {% capture about_itc_lms %}This system is used to download class material and submit assignments (learning management system).{% endcapture %}
+{% capture about_zoom %}These are the web conferencing systems that are used for "simultaneous interactive" online classes. {% endcapture %}
 {% capture about_google %}This is a UTokyo Google account that allows users to use Google services, such as Gmail, as a UTokyo member. The ECCS Cloud Email can also be used as a UTokyo email address. Since some UTokyo web pages can only be accessed by UTokyo members, you are required to activate your ECCS Cloud Email even if you already own a Google account.{% endcapture %}
 {% capture about_microsoft %}This is a Microsoft license offered to UTokyo Account holders. This license will enable you to download Microsoft Office apps, such as Word and Excel, and use online Microsoft tools for free with the UTokyo Account. Similar to Google Workspace, some UTokyo webpages can only be accessed with a UTokyo Account. Therefore, it is necessary to use your UTokyo Account even if you already own a Microsoft account.{% endcapture %}
 {% capture about_utokyo_wifi %}Wi-Fi services are available on campus. You will require them while taking online classes on campus. Please note that you will not be able to use Wi-Fi services unless you have created an account in advance.{% endcapture %}
@@ -47,7 +48,7 @@ You will be using a variety of information systems during your classes at UTokyo
 - **UTokyo Account**: {{ about_utokyo_account }}
 - **UTAS**: {{ about_utas }}
 - **ITC-LMS**: {{ about_itc_lms }}
-- **Zoom**: These are the web conferencing systems that are used for "simultaneous interactive" online classes. 
+- **Zoom**: {{ about_zoom }}
 - **ECCS Cloud Email (Google Workspace)**: {{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**: {{ about_microsoft }}
 - **UTokyo Wi-Fi**: {{ about_utokyo_wifi }}
@@ -129,7 +130,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 ### Zoom
 {:#zoom}
 
-A web conference system used in most “simultaneous interactive” classes.
+{{ about_zoom }}
 
 {% include procedures/en/zoom.html %}
 
