@@ -3,7 +3,11 @@
 {% assign heading = heading | append: "#" %}
 {% endif %}
 
+{% if page.slug == "faculty_members" %}
+There are several forms of classes offered at the University of Tokyo. In addition to the traditional face-to-face classes, various forms of online classes are used. This section introduces the four categories of online classes, including face-to-face classes, and explains the requirements for media classes (online classes).
+{% else %}
 There are several types of online classes. In this section, we will introduce the four types of classes, including the traditional face-to-face type, and explain the requirements for media classes (online classes).
+{% endif %}
 
 {% if page.slug == "faculty_members" %}
 Please refer to the "**[Utilizing Online Resources in Teaching](/online/courses)** (in Japanese)" page for further information such as key points and practical examples for each class type.
