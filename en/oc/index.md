@@ -186,7 +186,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 ### On taking classes
 - Some information about classes, such as class schedules and registration procedures, will be provided by your faculty/graduate school. Please be aware of how this information is provided and always check it (if you are unsure, please contact your faculty/graduate school).
-  - (For first-year undergraduate students) Please check the "Notices for New Students" page of the Graduate School of Arts and Sciences/College of Arts and Sciences, which is linked in the "Admission Procedures" page (from April, please check the "Notices from the Educational Affairs Section" on the website of the first semester program).
+  - (For first-year undergraduate students) Please check the [“新入生向けお知らせページ”](https://www.c.u-tokyo.ac.jp/zenki/news/newstudent.html) (Notices Page for New Students) of the College of Arts and Sciences (from April, please check the [前期課程HP「教務課からのお知らせ」](https://www.c.u-tokyo.ac.jp/zenki/news/kyoumu/index.html) ("Notices from the Educational Affairs Section")).
 - To participate in a "simultaneous interactive" online class, you need to know the URL of the web conference.This information is normally posted in the “Online course information” section of the ITC-LMS introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “How to Obtain the Online Class URL (for Students)” regarding other ways of obtaining the URL.
 
 ### Other Information Systems
