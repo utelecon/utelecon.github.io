@@ -174,9 +174,11 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 <ul>
     <li>
         <strong>Task: Apply for system user permission</strong>
+{% include en/systems/eccs/apply.html %}
     </li>
     <li>
         <strong>Exercise: Log in</strong>
+{% include en/systems/eccs/login.html %}
     </li>
 </ul>
 
