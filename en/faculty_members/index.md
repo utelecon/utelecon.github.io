@@ -8,18 +8,19 @@ A briefing session titled “<a href="/events/2023-03-15/">A briefing session on
 </b>
 
 ## Greetings
-Dear new faculty members of the University of Tokyo
 
-The University of Tokyo will mainly conduct face-to-face classes in the academic year 2023, after taking necessary measures to prevent infection. On the other hand, we will also conduct online classes and hybrid classes that combine face-to-face and online classes when it is possible to enhance the educational effect. Even in face-to-face classes, there are many situations where the use of digital technology is effective, such as  distribution of teaching materials and submission of assignments. In the case of classes where students bring their own laptops to the classroom, we have established a BYOD policy and provided Wi-Fi coverage over most of the campus. We hope that teachers will make the necessary preparations, such as initial account setup, as soon as possible so that activities using systems such as a learning management system (LMS) and web conferencing will run smoothly.
+Dear new faculty members of the University of Tokyo,
 
-The University of Tokyo is also promoting Digital Transformation (DX). Digital technologies such as chat tools and web conferencing have changed the way we communicate, making it easier for people to interact and collaborate with each other at a different location. There are many situations in which new technologies can lead to meaningful activities, such as collaborative editing using cloud tools for group work in the classroom. It is also important to take in the opinions of students who are quickly becoming familiar with the tools. Although there is still much work to be done to enhance our overall educational activities, we would like to take on the challenge of creating the next generation of education with the collective efforts of the University of Tokyo.
+The University of Tokyo will mainly conduct face-to-face classes in the academic year 2023 with the necessary infection prevention measures in place. On the other hand, hybrid classes, which combine face-to-face and online presence in classes, or online-only classes will also be offered when it is possible to enhance the educational effect. Even in face-to-face classes, there are many situations where the use of digital technology is effective, such as electronic distribution of materials and submission of assignments. For classes where students bring their own laptops to the classroom, we are working on related initiatives such as establishing a BYOD policy and enhancing the Wi-Fi to cover most of the campus. We would like to ask you to make the initial account setup and other necessary preparations well in advance so that you can smoothly conduct activities using systems such as the learning management systems (LMS) and web conferencing.
 
-This portal site, "utelecon," brings together information on the University of Tokyo's systems and introduces advanced methods of using various tools. We hope that professors will use this information as a reference and actively engage in creative and ingenious approaches. We also manage a support desk with student staff, so if you have any problems or difficulties, please feel free to use the support desk.
+While digital technology is being used widely in the society these days, the University of Tokyo is also making progress in its Digital Transformation (DX) initiatives. Digital technologies such as chat tools and web conferencing have made it easier for people to interact and collaborate with each other at a distance, and have greatly changed the form of communication. There are many situations in which new technologies can lead to meaningful activities, such as collaborative editing using cloud tools for group work in class. It is also important to learn from the opinions of students who have mastered the tools quickly. Although there is still much work to be done to enhance our overall educational activities, we would like to take on the challenge of creating the next generation of education with the collective efforts of all UTokyo. 
 
-We hope you will cooperate with us so that your educational activities will help students to realize a fulfilling academic and student life.
+This portal site, "utelecon," aggregates information on the system at the University of Tokyo and also introduces advanced usage of various tools. We hope that this information will lead to your creative and proactive efforts. We also operate a support desk with student staff, so please feel free to use it if you have any problems or difficulties.
+
+Your cooperation is greatly appreciated so that students can have a fulfilling study and student life through our educational activities.
 
 <div style="text-align: right;">
-Executive Vice President, Chief Information Officer (CIO)<br>
+Executive Vice President / Chief Information Officer<br>
 OHTA Kunihiro
 </div>
 
