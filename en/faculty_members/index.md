@@ -189,18 +189,17 @@ The University of Tokyo has contracted this service to provide off-campus access
 
 For further details on usage, please see the “**[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**” page.
 
+### MATLAB
+
+MATLAB is a programming language developed for scientific and technical calculations, and numerical calculation and mathematical equation processing software based on it. The University of Tokyo offers MATLAB licenses to students and faculty members to improve their educational effectiveness and research efficiency. In addition, the University of Tokyo provides a support desk for MATLAB users in cooperation with MathWorks, the developer of the software, and is developing a campus community to share information about the software's use in classes.
+
+Please refer to the **[UTokyo MATLAB Campus-Wide License](/matlab/)** page (in Japanese) for details on usage and technical support.
+
 ## Other Systems
 
 ### Antivirus Software
 
 Starting April 1, 2022, [the Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
-
-### MATLAB
-
-MATLAB is a programming language developed for scientific and technical calculations, and numerical calculation and mathematical equation processing software based on it. The University of Tokyo offers MATLAB licenses to students and faculty members to improve their educational effectiveness and research efficiency. In addition, the University of Tokyo provides a support desk for MATLAB users in cooperation with MathWorks, the developer of the software, and is developing a campus community to share information about the software's use in classes.
-
-
-Please refer to the **[UTokyo MATLAB Campus-Wide License](/matlab/)** page (in Japanese) for details on usage and technical support.
 
 ### UTokyo VPN
 
