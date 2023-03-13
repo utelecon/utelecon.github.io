@@ -1,9 +1,6 @@
 ---
-title: Copyright Free Resources（仮タイトル）
+title: Collections of Websites with Materials Usable Under Public Domain and Creative Commons Licenses
 ---
-<!-- 
-タイトルは仮
--->
 
 ## Summary of This Article
 
