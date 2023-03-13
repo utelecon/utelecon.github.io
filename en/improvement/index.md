@@ -8,7 +8,7 @@ This page presents you a wide range of information and tips that helps you to ut
 
 Additionally, more contents will be uploaded soon such as a good use of online classes and case studies drawn from the online classes in 2020AY. We will keep it up to date so please check this page regularly.
 
-For those who have not prepared for using the information system, firstly access [Getting Ready for Online Classes (For Staff)](/en/faculty_members/).
+For those who have not prepared for using the information system, firstly access [Getting Ready for ICT Systems (For Faculty Members)](/en/faculty_members/).
 
 ## Sharing Good Practices
 

@@ -1,5 +1,5 @@
 ---
-title: Preparing for ICT Systems at the University of Tokyo (for Teachers)
+title: Getting Ready for ICT Systems at the University of Tokyo (for Faculty Members)
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 ---
 

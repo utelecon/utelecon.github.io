@@ -50,7 +50,7 @@ The transfer is scheduled between March 14, 22:00 - March 15, 6:00. Users have t
 
 **Creating a new account is no longer necessary in the new system**. Zoom accounts will be automatically generated from UTokyo Account. When starting to use Zoom after the transfer, read the instructions on “Accessing from Sign-in Page with UTokyo Account” in “New Sign-in Method”.
 
-For more information, see “**[Preparing for ICT Systems (for new students)](/en/oc/)**” and “**[Preparing for ICT Systems (for teachers)](/en/faculty_members/)**”.
+For more information, see “**[Getting Ready for ICT Systems (for new students)](/en/oc/)**” and “**[Getting Ready for ICT Systems (for faculty members)](/en/faculty_members/)**”.
 
 In addition, **please refrain from creating new accounts with existing procedures as problems may occur.** Department administrators should pay special attention not to provide outdated information to new faculty members(i.e. creating a Zoom account with ECCS Cloud Email <code>1234567890@<em>g.ecc</em>.u-tokyo.ac.jp</code>).
 

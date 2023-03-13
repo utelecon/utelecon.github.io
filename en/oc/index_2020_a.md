@@ -1,5 +1,5 @@
 ---
-title: Preparing for ICT Systems for new and currently enrolled students (2020 A Semester)
+title: Getting Ready for ICT Systems for new and currently enrolled students (2020 A Semester)
 ---
 
 Introduction
