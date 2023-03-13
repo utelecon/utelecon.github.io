@@ -133,7 +133,7 @@ For further details on announcing the online class URL, please see the “[How t
 The ITC-LMS functions are listed below. For more details on how to use each function, please see the manual, which can be downloaded from the "Manual" button in the upper right corner after logging in.
 
 - **Information notices**: This feature allows instructors to contact students. Depending on the student's settings, the message will be sent by email or LINE.
-- **Message**: This feature allows students to contact instructors. By default, messages are sent to the email address registered in the staff directory, but this can be changed in the upper right corner under “Settings.”
+- **Messages from students**: This feature allows students to contact instructors. By default, messages are sent to the email address registered in the staff directory, but this can be changed in the upper right corner under “Settings.”
 - **Course Materials**: This feature allows you to distribute class materials. For more details on how to use this feature, please see the “[Upload Materials](/en/lms_lecturers/course_materials)” page.
 - **Assignments**: This feature allows you to upload reports and other assignments online. For more details on how to use this feature, please see the “[Prepare Assignments](/en/lms_lecturers/assignments)” page.
 - **Quizzes**: This feature allows you to conduct online tests. It enables you to set a time limit for answering questions or to automatically grade multiple-choice questions. For more details on how to use this feature, please see the “[Prepare Quizzes](/en/lms_lecturers/prepare_quizzes)” page.
