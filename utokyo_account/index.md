@@ -9,7 +9,7 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 - UTokyo Accountのユーザ名は10桁の数字で表され，**共通ID**とも呼ばれます．情報システム内では，`1234567890@utac.u-tokyo.ac.jp`のように，10桁の共通IDの後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたものが用いられることもあります．
   - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」は通常利用できるメールアドレスではありません．
   - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」に送られたシステムからの通知メールなどが[ECCSクラウドメール](/eccs_cloud_email)に転送されることがありますが，メールの送信には利用できません． 
-- UTokyo Accountで利用できるサービスについては，**[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)**や[「東京大学のシステム」のページ](/systems)をご覧ください．
+- UTokyo Accountで利用できる情報システムについては，**[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)**や[「東京大学のシステム」のページ](/systems)をご覧ください．
 
 ## UTokyo Account利用上の注意
 1. UTokyo Accountは大学が組織的に受入し管理されている構成員に付与します．（大学が組織的に受入をしていない方には付与しません．）
@@ -22,12 +22,18 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 {:#procedures}
 {% include procedures/utokyo_account.html %}
 
+以上の作業を終えたら，次のページもご覧ください．
+
+- 学生の方：「**[大学生活に必要な情報システムの準備について（新入生向け）](/oc/)**」
+- 教員の方：「**[東京大学における情報システムの準備について（教員向け）](/faculty_members/)**」および[UTokyo Portal「**UTokyo Accountの初期設定**」<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Initial_Settings.aspx)
+- 職員の方：[UTokyo Portal「**UTokyo Accountの初期設定**」<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Initial_Settings.aspx)
+
 ## UTokyo Accountで情報システムにサインインする
 UTokyo Accountを用いるとさまざまな情報システムが利用可能です．状況により，サインイン方法が異なります．
 
 - 以下の画面（安田講堂の画面）が表示された場合には，共通ID（数字10桁）とパスワードでサインインできます．
 ![](img/signin-yasuda.png)
-- 以下のように，安田講堂の画像が現れず，サインイン画面が表示された場合には，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力してください．
+- 安田講堂の画像が現れず，以下のようなサインイン画面が表示された場合には，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力してください．
     <figure class="gallery">
         <img src="img/signin-utac-01.png">
         <img src="img/signin-utac-02.png">
@@ -73,7 +79,7 @@ UTokyo Accountのパスワードを忘れた場合には，次のような手順
     - 学生は学生証，教職員は職員証を持参してください．
     - 窓口は，情報教育棟（駒場キャンパス），情報基盤センター（本郷地区浅野キャンパス），福武ホール（本郷キャンパス）に設置されています．
 
-手続きを行うと，初期パスワードが記載された「パスワード通知書」が発行されます．「[UTokyo Accountを使い始めるには](#procedures)」の「作業：初期パスワードを変更する」を参考に，初期パスワードを新しいものに変更してください（初期パスワードのままでは，各種情報サービスを利用することができません）．
+手続きを行うと，初期パスワードが記載された「パスワード通知書」が発行されます．「[UTokyo Accountを使い始めるには](#procedures)」の「作業：初期パスワードを変更する」を参考に，初期パスワードを新しいものに変更してください（初期パスワードのままでは，各種情報システムを利用することができません）．
 
 ## 多要素認証 (MFA)
 UTokyo Accountでは**多要素認証** (Multi-Factor Authentication, MFA) を導入しています．多要素認証を設定すると，アカウントにサインインする際に，パスワードに加えて，SMSや専用のアプリ等での本人確認が要求されるようになります．詳細は[UTokyo Accountにおける多要素認証の利用について](mfa/)を参照してください．
