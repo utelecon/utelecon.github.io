@@ -48,6 +48,6 @@ The transfer is scheduled between March 12, 20:00 - March 13, 0:00. Users are re
 
 **Creating a new account is no longer necessary in the new system**. Webex accounts will be automatically generated from UTokyo Account. When starting to use Webex after the transfer, read the instructions on “New Sign-in Method”.
 
-For more information, see “**[Getting Ready for ICT Systems (for new students)](/en/oc/)**” and “**[Getting Ready for ICT Systems (for faculty members)](/en/faculty_members/)**”.
+For more information, see “**[Preparing for Online Classes (for new students)](/en/oc/)**” and “**[Preparing for Online Classes (for new faculty members)](/en/faculty_members/)**”.
 
 In addition, **existing application form sign-up service will be terminated.** (No new application will be accepted.) Department administrators should pay special attention not to provide outdated information to new faculty members.
