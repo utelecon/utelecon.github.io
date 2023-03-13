@@ -204,10 +204,6 @@ For further details on how to use this feature, please see the [UTokyo VPN page]
 
 “[The Tools Usage Guideline for Online Class Since S Semester 2021](/en/notice/guideline)” is the established guideline for online classes. Please also check your department’s policy on conducting online classes because each department may have its own policy.
 
-### Class Supporter System
-
-The University of Tokyo offers a student staff system called “Class Supporter” to assist rehearsal and gathering of information on online classes. The workload of class supporters is less intensive than teaching assistants. Students are recruited from all over the university and matched with faculty members who wish to use the system. For more details, please see the “[Class Supporter System page](/supporters/class)” (in Japanese).
-
 ## Tips for Online Classes
 
 When conducting online classes, you may have opportunities to share class recordings and to keep track of attendance. Using functions provided by various tools, you can perform these tasks without excessive burden on both the lecturer and student. The following sections describe some of the most common methods.
