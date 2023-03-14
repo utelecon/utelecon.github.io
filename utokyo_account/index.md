@@ -26,7 +26,7 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 
 - 学生の方：「**[大学生活に必要な情報システムの準備について（新入生向け）](/oc/)**」
 - 教員の方：以下の2ページをご確認ください．
-    -「**[東京大学における情報システムの準備について（教員向け）](/faculty_members/)**」
+    - 「**[東京大学における情報システムの準備について（教員向け）](/faculty_members/)**」
     - [UTokyo Portal「**UTokyo Accountの初期設定**」<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Initial_Settings.aspx)
 - 職員の方：[UTokyo Portal「**UTokyo Accountの初期設定**」<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Initial_Settings.aspx)
 
