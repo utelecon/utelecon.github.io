@@ -1,9 +1,11 @@
 ---
 title: UTokyo WiFi
 ---
+import Apply from "@components/systems/utokyo_wifi/Apply/index.astro"
+import Connect from "@components/systems/utokyo_wifi/Connect/index.astro"
 
 <div class="box--alert box--important">
-【重要】<a href="/notice/2023/01-wifi">UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ</a>
+  【重要】<a href="/notice/2023/01-wifi">UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ</a>
 </div>
 
 ## UTokyo WiFiとは
@@ -18,7 +20,7 @@ UTokyo WiFiとは，東京大学の構成員が教育・研究を目的として
 - UTokyo AccountでそのままUTokyo WiFiが利用できるわけではなく，別途学期ごとにアカウントを発行する必要があります．
 
 ### 利用上の注意
-{:#caution-to-use}
+{/* {:#caution-to-use} */}
 1. UTokyo WiFiは大学の教育・研究活動および国立大学法人法が定める業務にのみ利用できます．
 2. UTokyo WiFiは，「[東京大学無線ネットワークシステム（UTokyo WiFi）利用規程](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)」に合意し，申請した者が利用できます．
 3. UTokyo WiFiは申請者本人のみが利用できます．アカウントは第三者に貸与してはいけません．他人に盗用されないよう管理してください．
@@ -29,7 +31,7 @@ UTokyo WiFiとは，東京大学の構成員が教育・研究を目的として
 8. UTokyo WiFiの利用状況を個人が特定されないよう統計的に処理し，本学運営のために公開することがあります．
 
 ### 情報セキュリティ教育
-{:#jouhou-security}
+{/* {:#jouhou-security} */}
 
 東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（2022年度の場合，学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，年度末までUTokyo WiFiの利用資格が停止され，Aセメスター分のUTokyo WiFiアカウントが発行できなくなります．**
 
@@ -46,7 +48,7 @@ UTokyo WiFiとは，東京大学の構成員が教育・研究を目的として
 UTokyo WiFiは，各個人が占有して利用する機器でのみ利用可能で，**複数人が共用する機器での利用は禁止です**．共用機器での利用は，UTokyo WiFiアカウントを取得した本人以外に利用させることになり，利用規程で禁止されているアカウントの貸与にあたるためです．なお，OSのユーザーアカウントが個人別に設定されていて，UTokyo WiFiアカウントが取得した本人以外に利用できない，という状況であれば問題ありません．
 
 ## 利用開始までの手順
-{:#initial-setup}
+{/* {:#initial-setup} */}
 
 
 <ul class="gap">
@@ -68,17 +70,17 @@ UTokyo WiFiは，各個人が占有して利用する機器でのみ利用可能
   </li>
   <li>
     <strong>手順3：UTokyo WiFiアカウントの発行を申請する</strong>
-{% include systems/utokyo_wifi/apply.html %}
+    <Apply />
   </li>
   <li>
     <strong>手順4：UTokyo WiFiに実際に接続する</strong>
-{% include systems/utokyo_wifi/connect.html %}
+    <Connect />
   </li>
 </ul>
 
 ## 利用に関する情報
 ### アカウントの有効期限
-{:#expiration}
+{/* {:#expiration} */}
 
 UTokyo WiFiのアカウントは，Sセメスター分は10月末，Aセメスター分は4月末が有効期限となっています．各学期の開始前に新たなアカウントが発行できるようになるので，引き続き利用する場合は，学期ごとにアカウントを発行し直してください．
 
@@ -88,7 +90,7 @@ UTokyo WiFiのアカウントは，Sセメスター分は10月末，Aセメス�
     - 以前のUTokyo WiFiアカウントの情報を機器が記憶してしまっており，情報を変更できない（新たなユーザーID・パスワードを入力するための画面が出ない）場合，一度Wi-Fiのアカウント情報を削除してください．具体的な削除方法はOSや機器の種類によって異なりますので，それぞれの機器のマニュアルを参照してください．なお，Windowsについては[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/)，iOSについては公式ヘルプ「[iPhone、iPad、iPod touch、Mac で Wi-Fi ネットワークの設定を削除する方法](https://support.apple.com/ja-jp/HT208941)」もそれぞれ参考にしてください．
 
 ### 接続の詳細な設定
-{:#connect-configuration}
+{/* {:#connect-configuration} */}
 
 <table>
   <tr>
@@ -123,7 +125,7 @@ UTokyo WiFiのアカウントは，Sセメスター分は10月末，Aセメス�
 ### セキュリティ対策
 
 UTokyo WiFiを含む本学のネットワークでは，全学セキュリティファイアウォール等による情報セキュリティ確保が図られています．
-<!--    - 全学セキュリティファイアウォールについては[ファイアウォールによる通信の遮断等についてのページ（学内のみ）](http://ngfw.cert.u-tokyo.ac.jp/firewall.html)を参照してください．-->
+{/* 全学セキュリティファイアウォールについては[ファイアウォールによる通信の遮断等についてのページ（学内のみ）](http://ngfw.cert.u-tokyo.ac.jp/firewall.html)を参照してください． */}
 - セキュリティ上問題があると考えられる通信は，全学セキュリティファイアウォールによってブロックされるため，UTokyo WiFiでは閲覧できないウェブサイトが存在します．
 - セキュリティ上問題があると考えられる通信が検出された場合，UTokyo WiFi タスクフォースが利用者に対してメールで連絡することがあります．
     - メールの発信元は`utokyo-wifi-cert.adm_at_gs.mail.u-tokyo.ac.jp`または`utokyo-wifi-tf_at_itc.u-tokyo.ac.jp` （`_at_`は@に読み替えてください）です．
