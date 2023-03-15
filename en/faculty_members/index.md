@@ -200,7 +200,9 @@ Please refer to the **[UTokyo MATLAB Campus-Wide License](/matlab/)** page (in J
 
 ### Antivirus Software
 
-Starting April 1, 2022, [the Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
+The University of Tokyo provides [the Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) for faculty members and students. The University of Tokyo requires to "install appropriate antivirus software on all the computers you administrate" in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use them if necessary.
+
+The version for academic year 2023 will be available from April 1, 2023.
 
 ### UTokyo VPN
 
