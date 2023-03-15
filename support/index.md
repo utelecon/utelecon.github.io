@@ -58,7 +58,7 @@ Zoomの会議室において，学生スタッフ（コモンサポーター）�
 <div>受付時間：24時間</div>
 
 <b class="box center">
-<a href="https://forms.gle/AQevtbkCgRvn6wc39">メールフォーム</a>
+<a href="https://forms.gle/CHuYRpKuoULaUdgu9">メールフォーム</a>
 </b>
 
 {% capture inquiries %}
