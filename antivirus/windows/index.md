@@ -2,6 +2,10 @@
 title: UTokyo Antivirus Licenseの利用方法 (Windows)
 ---
 
+<div class="box--alert">
+2023年度版の提供は2023年4月1日から開始します．詳細は<a href="https://univtokyo.sharepoint.com/sites/antivirus/SitePages/Home.aspx">ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) のページ<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small></a>を参照してください．
+</div>
+
 このページでは，UTokyo Antivirus LicenseをWindows OSのコンピュータで利用する方法を説明します．このライセンスの概要については，「[ウイルス対策ソフトウェア包括ライセンス](..)」をご覧ください．
 
 ## インストール方法
