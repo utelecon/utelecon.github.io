@@ -31,14 +31,14 @@ Sセメスターの開始に当たり，東京大学で使われているクラ�
 
 質問は**[こちらのSlido](https://app.sli.do/event/1zk7tdadzgzShkmJf2vts6/live/questions)**（または [https://sli.do/](https://sli.do/) で code = `3538025`）へ投稿してください．事前質問もどうぞ.
 
-- 挨拶　太田邦史　理事・副学長　情報システム本部長（**動画**）
-- 説明（**[目次](slides/00-index.pdf)**・**動画**）
-    1. 授業のための基礎（30分 柴山；**[資料](slides/01-in-classes.pdf)**・**動画**)
-    1. 代表的クラウドサービス（20分 田浦；**[資料](slides/02-clouds.pdf)**・**動画**）
-    1. セキュリティと多要素認証（20分 田浦；**[資料](slides/03-security.pdf)**・**動画**）
-    1. UTokyo Wi-Fiの更新（15分 玉造；**[資料](slides/04-wifi.pdf)**・**動画**）
-    1. uteleconと学生によるサポート体制（10分 鈴木；**[資料](slides/05-utelecon-and-supporters.pdf)**・**動画**）
-- 意見交換「ChatGPTスペシャルセッション」（**[資料](slides/06-discussion.pdf)**・**動画**）
+- 挨拶　太田邦史　理事・副学長　情報システム本部長（**[動画](https://youtu.be/owwlATnIAF8)**）
+- 説明（**[目次](slides/00-index.pdf)**・**[動画](https://youtu.be/69AdwQqj_ME)**）
+    1. 授業のための基礎（30分 柴山；**[資料](slides/01-in-classes.pdf)**・**[動画](https://youtu.be/bjywmCOgMvU)**)
+    1. 代表的クラウドサービス（20分 田浦；**[資料](slides/02-clouds.pdf)**・**[動画](https://youtu.be/EsyS7FeolWU)**）
+    1. セキュリティと多要素認証（20分 田浦；**[資料](slides/03-security.pdf)**・**[動画](https://youtu.be/4eR2PLQkGnM)**）
+    1. UTokyo Wi-Fiの更新（15分 玉造；**[資料](slides/04-wifi.pdf)**・**[動画](https://youtu.be/CHZzg4CNbEM)**）
+    1. uteleconと学生によるサポート体制（10分 鈴木；**[資料](slides/05-utelecon-and-supporters.pdf)**・**[動画](https://youtu.be/N3jYM-VEf4w)**）
+- 意見交換「ChatGPTスペシャルセッション」（**[資料](slides/06-discussion.pdf)**・**[動画](https://youtu.be/PjBdP1SrSKY)**）
     - オンラインツール「LearnWiz One」を利用して行います．
     - 16時45分頃から30分程度（コメントが多かった場合などは延長の可能性あり）の予定ですが，開始時刻は前後する可能性があります．
 
