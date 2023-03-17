@@ -62,7 +62,7 @@ If your inquiry contains sensitive information (such as grade information) that 
 <div>Business hours: 24 hours</div>
 
 <b class="box center">
-<a href="https://forms.gle/AQevtbkCgRvn6wc39">Submit an email form</a>
+<a href="https://forms.gle/CHuYRpKuoULaUdgu9">Submit an email form</a>
 </b>
 
 
