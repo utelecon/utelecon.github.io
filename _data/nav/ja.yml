@@ -2,7 +2,7 @@
   name: "まずはここから"
   contents:
     -
-      name: "大学生活に必要な情報システムの準備について<small>（学生向け）</small>"
+      name: "大学生活に必要な情報システムの準備について<small>（新入生向け）</small>"
       url: "/oc/"
     -
       name: "東京大学における情報システムの準備について<small>（教員向け）</small>"
@@ -36,7 +36,7 @@
       url: "/eccs_cloud_email"
     -
       name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
-      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html"
+      url: "/microsoft/"
     -
       name: "UTokyo Wi-Fi"
       url: "/utokyo_wifi/"
@@ -64,6 +64,9 @@
     -
       name: "東大の実践を知る"
       url: "/online/#utokyo"
+    -
+      name: "資料作成における著作権"
+      url: "/articles/copyright"
 
 -
   name: "お知らせ・イベント"

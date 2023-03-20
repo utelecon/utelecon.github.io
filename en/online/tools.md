@@ -71,7 +71,7 @@ Google Workspace is a collection of Google services such as Gmail, Google Drive,
 
 Microsoft 365 is a collection of Microsoft services such as OneDrive and the online versions of Office. UTokyo has subscribed to a paid license, which is provided under the name "UTokyo Microsoft License".
 
--  **[UTokyo Microsoft License Page](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)**: This page provides important notes on how to use the UTokyo Microsoft License.
+-  **[UTokyo Microsoft License Page](/en/microsoft/)**: This page provides important notes on how to use the UTokyo Microsoft License.
 
 
 

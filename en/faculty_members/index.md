@@ -1,30 +1,28 @@
 ---
-title: Preparing for Online Classes at the University of Tokyo (for Faculty Members)
+title: Getting Ready for ICT Systems at the University of Tokyo (for Faculty Members)
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 ---
 
 <b class="box">
-A briefing session titled “<a href="/events/2022-09-14/">For education, for research, and for administration! A briefing session on online conference tools and cloud tools - and also on the tool you may be curious about</a>” will be held on September 14th at 15:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
+A briefing session titled “<a href="/events/2023-03-15/">A briefing session on web conferencing and cloud tools for online and in-person use - and let's “Chat” about “that AI tool”</a>” will be held on March 15th at 15:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
 </b>
 
-<!--
-## Introduction
+## Greetings
 
-To all new faculty members of the University of Tokyo,
+Dear new faculty members of the University of Tokyo,
 
-In order to prevent the spread of COVID-19, our university has introduced online classes since the 2020 academic year. In this 2021 academic year, we will begin hybrid educational activities and incorporate face-to-face classes as much as possible after taking sufficient infection prevention measures.
+The University of Tokyo will mainly conduct face-to-face classes in the academic year 2023 with the necessary infection prevention measures in place. On the other hand, hybrid classes, which combine face-to-face and online presence in classes, or online-only classes will also be offered when it is possible to enhance the educational effect. Even in face-to-face classes, there are many situations where the use of digital technology is effective, such as electronic distribution of materials and submission of assignments. For classes where students bring their own laptops to the classroom, we are working on related initiatives such as establishing a BYOD policy and enhancing the Wi-Fi to cover most of the campus. We would like to ask you to make the initial account setup and other necessary preparations well in advance so that you can smoothly conduct activities using systems such as the learning management systems (LMS) and web conferencing.
 
-We received positive feedback from students last year in a survey regarding their online learning experiences, owing to the effort spared on lesson delivery and other considerations. It is reported that certain features and educational effects, in which face-to-face instruction lacks, are realized in online classes. We will continue to strive for excellence in online teaching in the academic year 2021/22. 
+While digital technology is being used widely in the society these days, the University of Tokyo is also making progress in its Digital Transformation (DX) initiatives. Digital technologies such as chat tools and web conferencing have made it easier for people to interact and collaborate with each other at a distance, and have greatly changed the form of communication. There are many situations in which new technologies can lead to meaningful activities, such as collaborative editing using cloud tools for group work in class. It is also important to learn from the opinions of students who have mastered the tools quickly. Although there is still much work to be done to enhance our overall educational activities, we would like to take on the challenge of creating the next generation of education with the collective efforts of all UTokyo. 
 
-In this portal, we have made appropriate preparations to realize better online classes and to utilize our past experiences to achieve higher educational effect, making full use of the  feedback, requests and ideas from students and faculty members of the University of Tokyo. 
+This portal site, "utelecon," aggregates information on the system at the University of Tokyo and also introduces advanced usage of various tools. We hope that this information will lead to your creative and proactive efforts. We also operate a support desk with student staff, so please feel free to use it if you have any problems or difficulties.
 
-Regarding online classes, we have selected the Good Practices for 2020 and are sharing them among faculty members on this site. Please refer to this site for information on how to create effective online classes. We hope that you will find the information useful and meaningful to your educational activities. To help students achieve their academic goals and live a fulfilling life through teaching and learning activities, your understanding and cooperation is mostly appreciated.
+Your cooperation is greatly appreciated so that students can have a fulfilling study and student life through our educational activities.
 
 <div style="text-align: right;">
-Director and Vice President (Education and Information Systems)<br>
-Tatsuya OKUBO
+Executive Vice President / Chief Information Officer<br>
+OHTA Kunihiro
 </div>
--->
 
 ## Types of Classes and Their Handling
 
@@ -136,7 +134,7 @@ For further details on announcing the online class URL, please see the “[How t
 The ITC-LMS functions are listed below. For more details on how to use each function, please see the manual, which can be downloaded from the "Manual" button in the upper right corner after logging in.
 
 - **Information notices**: This feature allows instructors to contact students. Depending on the student's settings, the message will be sent by email or LINE.
-- **Message**: This feature allows students to contact instructors. By default, messages are sent to the email address registered in the staff directory, but this can be changed in the upper right corner under “Settings.”
+- **Messages from students**: This feature allows students to contact instructors. By default, messages are sent to the email address registered in the staff directory, but this can be changed in the upper right corner under “Settings.”
 - **Course Materials**: This feature allows you to distribute class materials. For more details on how to use this feature, please see the “[Upload Materials](/en/lms_lecturers/course_materials)” page.
 - **Assignments**: This feature allows you to upload reports and other assignments online. For more details on how to use this feature, please see the “[Prepare Assignments](/en/lms_lecturers/assignments)” page.
 - **Quizzes**: This feature allows you to conduct online tests. It enables you to set a time limit for answering questions or to automatically grade multiple-choice questions. For more details on how to use this feature, please see the “[Prepare Quizzes](/en/lms_lecturers/prepare_quizzes)” page.
@@ -192,11 +190,19 @@ The University of Tokyo has contracted this service to provide off-campus access
 
 For further details on usage, please see the “**[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**” page.
 
+### MATLAB
+
+MATLAB is a programming language developed for scientific and technical calculations, and numerical calculation and mathematical equation processing software based on it. The University of Tokyo offers MATLAB licenses to students and faculty members to improve their educational effectiveness and research efficiency. In addition, the University of Tokyo provides a support desk for MATLAB users in cooperation with MathWorks, the developer of the software, and is developing a campus community to share information about the software's use in classes.
+
+Please refer to the **[UTokyo MATLAB Campus-Wide License](/matlab/)** page (in Japanese) for details on usage and technical support.
+
 ## Other Systems
 
 ### Antivirus Software
 
-Starting April 1, 2022, [the Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
+The University of Tokyo provides [the Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) for faculty members and students. The University of Tokyo requires to "install appropriate antivirus software on all the computers you administrate" in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use them if necessary.
+
+The version for academic year 2023 will be available from April 1, 2023.
 
 ### UTokyo VPN
 
@@ -206,10 +212,6 @@ For further details on how to use this feature, please see the [UTokyo VPN page]
 ### Guidelines for Online Classes
 
 “[The Tools Usage Guideline for Online Class Since S Semester 2021](/en/notice/guideline)” is the established guideline for online classes. Please also check your department’s policy on conducting online classes because each department may have its own policy.
-
-### Class Supporter System
-
-The University of Tokyo offers a student staff system called “Class Supporter” to assist rehearsal and gathering of information on online classes. The workload of class supporters is less intensive than teaching assistants. Students are recruited from all over the university and matched with faculty members who wish to use the system. For more details, please see the “[Class Supporter System page](/supporters/class)” (in Japanese).
 
 ## Tips for Online Classes
 

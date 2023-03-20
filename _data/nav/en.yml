@@ -1,11 +1,11 @@
 -
-  name: "Getting Ready for Online Classes"
+  name: "Getting Ready for ICT Systems"
   contents:
     -
-      name: "For Students"
+      name: "For New Students"
       url: "/en/oc/"
     -
-      name: "For Staff"
+      name: "For Faculty Members"
       url: "/en/faculty_members/"
     -
       name: "Effective Use of Online Resources"
@@ -36,7 +36,7 @@
       url: "/en/eccs_cloud_email"
     -
       name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
-      url: "https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html"
+      url: "/en/microsoft/"
     -
       name: "UTokyo Wi-Fi"
       url: "/en/utokyo_wifi/"

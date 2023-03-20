@@ -1,31 +1,33 @@
 ---
-title: Preparing for Online Classes at the University of Tokyo (for New Students)
+title: Getting Ready for ICT Systems at the University of Tokyo (for New Students)
 slug: oc # 手順を外部ファイルからincludeするときに使う
 lang: en
 ---
 
-## Introduction
+## Greetings
 
-Congratulations to all the new students!
+Welcome to all new students!
 
-In AY2022, we plan to provide education incorporating face-to-face classes as much as possible, while taking sufficient infection prevention measures. On the other hand, the online classes realized as a countermeasure against coronavirus infections have shown educational effects that cannot be obtained in conventional face-to-face lectures. Therefore, the University of Tokyo plans to construct a new educational system and improve its educational activities by actively incorporating online classes into its teaching methods.
+The University of Tokyo will mainly conduct face-to-face classes in the academic year 2023 with the  necessary infection prevention measures in place. On the other hand, hybrid classes, which combine face-to-face and online presence in classes, or online-only classes will also be offered when it is possible to enhance the educational effect. In addition, the use of digital technology is progressing even in face-to-face classes, and there are many situations in which information systems are used, such as the electronic distribution of materials and submission of assignments. We would like to ask you to be ready to use the necessary information systems so that you can participate in the classes smoothly. Please prepare a laptop computer that you can bring with you, and complete the initial setup of your account and various tools. The university will continue to improve the environment for your productive activities on campus, such as updating and enhancing the Wi-Fi throughout the university and making it available in most parts of the campus during the academic years 2022 and 2023.
 
-This year, we will introduce BYOD (Bring Your Own Device), which allows students to bring their own laptops and other devices to the university for study. Recommended specifications will be provided in advance, so please prepare your own laptop computer and other devices for class. The University of Tokyo is continuing to improve the ICT environment on campus, including the installation of a Wi-Fi environment and more power supplies amid the Corona disaster. In addition, we are developing hybrid classes and teaching methods using virtual reality (virtual reality space). With these new initiatives, we intend to further enhance our traditional face-to-face classes and proactively incorporate next-generation educational systems that take advantage of digital transformation (DX). These initiatives are a challenge for the University of Tokyo, and we hope that not only faculty members but also participating students will actively participate in them with the spirit of ushering in a new era.
+While digital technology is being used widely in the society these days, the University of Tokyo is also making progress in its Digital Transformation (DX) initiatives. Digital technologies such as chat tools and web conferencing have made it easier for people to interact and collaborate with each other at a distance, and have greatly changed the form of communication. However, there are still some uncertainties about how to introduce new technologies into university activities. We would like to take on the challenge of creating the next generation of education together with you, the students, and hope that you will actively participate in our efforts.
 
-For an overview of these efforts, the University of Tokyo has set up an online class portal site called utelecon (https://utelecon.adm.u-tokyo.ac.jp/), which you are encouraged to visit frequently. The site also includes a chat window for questions, as well as a function to collect opinions, requests, and ideas from faculty, staff, and students. You will also find a variety of information, including past experiences, ideas, and FAQs. This page will help you get started smoothly with your university activities.
+This portal site, "utelecon," aggregates information on the system at the University of Tokyo. First of all, please check the necessary preparations for taking classes. We also introduce the advanced usage of various tools, so we hope that you will make use of this site not only for classes, but also for your own activities such as study groups and circle activities. If you have any problems or difficulties, please feel free to ask questions at the support desk.
 
-Our faculty and staff are committed to accommodating your wishes so that you can comfortably attend face-to-face classes and campus activities, while placing the highest priority on protecting your health and ensuring that you have the opportunity to study. We will do our best to ensure that you can effectively pursue the studies you desire and lead a fulfilling student life.
+We, the faculty and staff of the university, are committed to meeting your expectations for face-to-face classes and campus activities, while placing the highest priority on protecting your health and ensuring your study opportunities. We will do our best to make your studies as effective and fulfilling as possible.
 
 <div style="text-align: right;">
-Executive Director and Vice President (Education and Information Systems)<br>
+Executive Vice President / Chief Information Officer<br>
 OHTA Kunihiro
 </div>
 
-## What type of online classes will be held at the University of Tokyo?
+## Class Format at the University of Tokyo
+At the University of Tokyo, classes are offered in a wide range of formats, including face-to-face and online. Face-to-face classes are conventional classes held in classrooms, and online classes are classes in which students can participate without being in the classroom using web conferencing systems for example. Please check with the faculty, the graduate school or the instructor in charge of the class to find out in which format the class will be held.
 
-There are various types of online classes, but the "**simultaneous interactive**" type is mainly adopted at the University of Tokyo for which real time teacher-student interaction is performed with a web conference system application through audio and video exchanges. You can use this system to connect with dozens or hundreds of people in a class. The necessary preparations for using the system are explained in this page.
+### Online Classes
+There are various types of online classes, but the main type of online class at the University of Tokyo is the "**simultaneous interactive**" type. This is a form of real-time interactive communication between the teacher and students using applications such as Zoom and Webex, a type of web conferencing system that allows audio and video exchange. The necessary preparations for using the system are explained in this page.
 
-Apart from the aforementioned type of online classes, there is the "**on-demand**" type which students watch video recordings of classes, ask questions and discuss the contents via e-mail or chat tools. The "**hybrid**" type combines online classes with face-to-face instruction. It is noted that classes at the University of Tokyo are not online-only, some face-to-face instruction also remains. Owing to that students might have to take online classes in empty classrooms on campus before or after their face-to-face classes, depending on their timetable constraints.
+Other forms include the "**on-demand**" type, in which students watch video recordings of classes and ask questions and discuss them via email or chat tools, and the "**hybrid**" type , in which online classes are combined with face-to-face classes in the classroom. 
 
 ## What You Need to Prepare for Classes
 
@@ -38,15 +40,16 @@ You will be using a variety of information systems during your classes at UTokyo
 {% capture about_utokyo_account %}This is the account you will use to log into UTokyo’s ICT systems. The username may also be referred to as “Common ID”.{% endcapture %}
 {% capture about_utas %}This system is used to browse the syllabus for each class, register courses, and check the grades (academic affairs system).{% endcapture %}
 {% capture about_itc_lms %}This system is used to download class material and submit assignments (learning management system).{% endcapture %}
+{% capture about_zoom %}This is a web conferencing system that are used for "simultaneous interactive" online classes. {% endcapture %}
 {% capture about_google %}This is a UTokyo Google account that allows users to use Google services, such as Gmail, as a UTokyo member. The ECCS Cloud Email can also be used as a UTokyo email address. Since some UTokyo web pages can only be accessed by UTokyo members, you are required to activate your ECCS Cloud Email even if you already own a Google account.{% endcapture %}
 {% capture about_microsoft %}This is a Microsoft license offered to UTokyo Account holders. This license will enable you to download Microsoft Office apps, such as Word and Excel, and use online Microsoft tools for free with the UTokyo Account. Similar to Google Workspace, some UTokyo webpages can only be accessed with a UTokyo Account. Therefore, it is necessary to use your UTokyo Account even if you already own a Microsoft account.{% endcapture %}
 {% capture about_utokyo_wifi %}Wi-Fi services are available on campus. You will require them while taking online classes on campus. Please note that you will not be able to use Wi-Fi services unless you have created an account in advance.{% endcapture %}
-{% capture about_eccs %}ECCS terminals refer to the computers installed on campus. You can use them while taking online classes on campus. You also use them in some face-to-face classes. Please note that you will not be able to use them unless you have passed the “New User Information Seminar” course in advance.{% endcapture %}
+{% capture about_eccs %}ECCS terminals refer to the computers installed on campus. You can use them while taking online classes on campus. You also use them in some face-to-face classes. Please note that you need to apply for the right of use in advance.{% endcapture %}
 
 - **UTokyo Account**: {{ about_utokyo_account }}
 - **UTAS**: {{ about_utas }}
 - **ITC-LMS**: {{ about_itc_lms }}
-- **Zoom**, **Webex**: These are the web conferencing systems that are used for "simultaneous interactive" online classes. Zoom is mostly used at UTokyo, but Webex may also be used depending on the class.
+- **Zoom**: {{ about_zoom }}
 - **ECCS Cloud Email (Google Workspace)**: {{ about_google }}
 - **UTokyo Microsoft License (Microsoft 365)**: {{ about_microsoft }}
 - **UTokyo Wi-Fi**: {{ about_utokyo_wifi }}
@@ -54,22 +57,18 @@ You will be using a variety of information systems during your classes at UTokyo
 
 ### Network Environment and Electronic Devices
 
-To take online classes, you will need an Internet connection and equipment such as a computer. The following is an explanation of how you will need to prepare.
+To take classes, you will need an Internet connection and equipment such as a computer. The following is an explanation of how you will need to prepare.
 
 - **Network connection**: There should be no problem with slower connections as long as you can watch videos stably. However, pay attention to the communication capacity when taking long online classes. More specifically, if you are using a smartphone directly connected to a mobile network (e.g., LTE), please ensure that you do not run out of data.
     - The university provides Wi-Fi on campus.
 <!--    - The University of Tokyo provides support for new students who do not have adequate network connections. For more details, please check “[The network environment support for education and research](/mobile/)”. -->
-- **PC**: A smartphone should be sufficient if you just want to watch online classes. However, in university, you will often need a computer for many purposes, such as writing reports. In online classes, you will also need to do some work or exercises while watching videos.
+- **PC**: You will often need a computer for writing reports, and also when you do some work or exercises while watching videos.
     - A portable laptop is recommended so that you can use it on campus.
     - For specifications, please refer to “[東京大学のBYOD方針](/docs/byod) (The University of Tokyo's BYOD Policy)” (in Japanese).
     <!-- - (For first-year undergraduate students) The College of Arts and Sciences provides guidelines for required PC specifications in “オンライン授業に必要な機器や通学前の準備について(Devices necessary for online classes and preparation for attending college)” (in Japanese). -->
-    - You may also refer to the Co-op’s special topic page about computers for new students, “[受験生・新入生応援サイト2022 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html) (Komaba Model PC for Examinees and New Students Support Site)” (in Japanese).
+    - You may also refer to the Co-op’s special topic page about computers for new students, “[受験生・新入生応援サイト2023 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html) (Komaba Model PC for Examinees and New Students Support Site)” (in Japanese).
     - If you do not have a computer that meets the above mentioned requirements, please consult with your faculty or graduate school. (For example, the College of Arts and Sciences can [lend out computers](https://www.c.u-tokyo.ac.jp/campuslife/online-lectures.html) (in Japanese).)
 - **Headset and earphones**: When taking online classes in an empty classroom on campus, you will need a headset or earphones to listen to the class without disturbing other students in the same classroom. A headset equipped with a microphone is recommended when purchasing one.
-
-### Class Location Information
-
-To participate in a “simultaneous interactive” online class, you will need to know the URL of the web conference. This information is normally posted in the “Online course information” section of the ITC-LMS introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “[How to Obtain the Online Class URL (for Students)](url)” regarding other ways of obtaining the URL.
 
 ## When You Need help
 
@@ -90,7 +89,7 @@ For example, the following questions and consultations are welcome.
 
 In this section, we will explain the essential tasks that must be completed to use the information systems, such as creating an account. Please ensure to spare enough time to complete these tasks before classes start. If you have any problems with these procedures, please consult the **[Technical Support Desk](/en/support/)**.
 
-Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Preparing for online classes at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the below procedures in further detail.
+Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Getting Ready for ICT Systems at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the below procedures in further detail.
 
 <ul class="procedure">
 {% include procedures/en/utokyo_account.html part="important" %}
@@ -106,7 +105,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 Next, the procedures for performing more detailed checks and tasks on various information systems, such as logging in to each system and accessing UTokyo member-only pages, will be explained. Please ensure to complete the subsequent procedures before the beginning of the classes so that you are fully prepared. If you have any problems during the procedure, please consult the **[Technical Support Desk](/en/support/)**.
 
-Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Preparing for online classes at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the procedures below in further detail.
+Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Getting Ready for ICT Systems at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the procedures below in further detail.
 
 ### UTokyo Account
 {:#utokyo_account}
@@ -132,14 +131,9 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 ### Zoom
 {:#zoom}
 
-A web conference system used in most “simultaneous interactive” classes.
+{{ about_zoom }}
 
 {% include procedures/en/zoom.html %}
-
-### Webex
-{:#webex}
-
-This is a web conferencing system used for some “simultaneous interactive” classes. The system is rarely used, so you can work on it when you need it. Please refer to [Webex page](/en/webex/) for details.
 
 ### ECCS Cloud Email (Google Workspace)
 {:#google}
@@ -178,13 +172,33 @@ This is a web conferencing system used for some “simultaneous interactive” c
 
 {{ about_eccs }}
 
-{% include procedures/en/eccs.html %}
+<ul>
+    <li>
+        <strong>Task: Apply for system user permission</strong>
+{% include en/systems/eccs/apply.html %}
+    </li>
+    <li>
+        <strong>Exercise: Log in</strong>
+{% include en/systems/eccs/login.html %}
+    </li>
+</ul>
 
 ## Others
 
-- Information about classes, such as timetables and class registration procedures, will be provided by the faculty or graduate school. Please be aware of how you will be informed of such information and check it regularly (if you are uncertain or have any questions, contact your faculty or graduate school).
-- **[Antivirus software](/antivirus/)** (in Japanese): Starting April 1, 2022, the Comprehensive Antivirus Software License (UTokyo Antivirus License) is available for faculty members and students. The University of Tokyo requires "appropriate antivirus measures" for computers in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use it if necessary as part of the countermeasures.
-- **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**: The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
+### On taking classes
+- Some information about classes, such as class schedules and registration procedures, will be provided by your faculty/graduate school. Please be aware of how this information is provided and always check it (if you are unsure, please contact your faculty/graduate school).
+  - (For first-year undergraduate students) Please check the [“新入生向けお知らせページ”](https://www.c.u-tokyo.ac.jp/zenki/news/newstudent.html) (Notices Page for New Students) of the College of Arts and Sciences (from April, please check the [前期課程HP「教務課からのお知らせ」](https://www.c.u-tokyo.ac.jp/zenki/news/kyoumu/index.html) ("Notices from the Educational Affairs Section")).
+- To participate in a "simultaneous interactive" online class, you need to know the URL of the web conference.This information is normally posted in the “Online course information” section of the ITC-LMS introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “How to Obtain the Online Class URL (for Students)” regarding other ways of obtaining the URL.
+
+### Other Information Systems
+- **[Antivirus software](/antivirus/)** (in Japanese)
+  - The University of Tokyo provides [the Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) for faculty members and students. The University of Tokyo requires to "install appropriate antivirus software on all the computers you administrate" in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use them if necessary.
+  - The version for academic year 2023 will be available from April 1, 2023.
+- **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**
+  - The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
+- **[MATLAB](/matlab/)** (in Japanese)
+  - MATLAB is a software program that can be used in a wide range of classroom and research settings, including programming, numerical computation, data processing, and creating graphs. As an effective data science learning tool, the University of Tokyo recommends MATLAB for teaching and research, and several classes using MATLAB have been conducted in the Junior Division. To use MATLAB, you need to create an account with a University of Tokyo license.
+  - Self-learning tools and workshops are provided for students to learn how to operate MATLAB and how to use MATLAB to learn advanced topics in their fields of specialization. Since the use of MATLAB is specified in lectures in some cases, please use MATLAB as needed.
 
 ## More information
 

@@ -2,6 +2,13 @@
 title: クラスサポーター制度のご案内
 ---
 
+<B><font size="5">クラスサポーター制度は令和５年３月３１日をもって終了いたしました.<br>
+なお、令和５年度以降の実施予定はございません.<br>
+ご利用ありがとうございました.<br><br></font></B>
+
+
+
+
 <div style="border: solid 4px red;">
   <div style="margin: 20px;">
     <div>
