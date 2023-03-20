@@ -1,5 +1,5 @@
 ---
-title: Preparing for online classes for new and currently enrolled students
+title: Getting Ready for ICT Systems for new and currently enrolled students
 ---
 
 Note

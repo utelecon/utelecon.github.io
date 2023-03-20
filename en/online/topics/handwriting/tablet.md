@@ -14,7 +14,7 @@ The writing is done on a tablet such as an iPad using a pen for tablets, and the
     - Practical example: [Good Practices of online class / Dr. Nobukazu Saito Computational Mathematics I, Computational Mathematics](/good-practice/interview/saito) (in Japanese)
 - Using "**Microsoft OneNote**" as an application
     - It is supported not only by iPad but also Windows and Android tablets.
-    - Basic functions are available for free. Additional paid functions are also available under the University of Tokyo's [UTokyo Microsoft License](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html).
+    - Basic functions are available for free. Additional paid functions are also available under the University of Tokyo's [UTokyo Microsoft License](/en/microsoft/).
     - Explanation article: **[Writing on OneNote](/en/articles/onenote-whiteboard/)**
     - Practical example: [Good Practice of Online Class / Dr. Kaoru Irie Mathematical Statistics I, II](/good-practice/interview/irie) (in Japanese) (A video report by Dr. Irie is available only by on-campus members at [the 20th Online Class Information Exchange Meeting](/events/luncheon/2020-11-18/) page (in Japanese))
 - Using Zoom's "Annotate (Comment)" function

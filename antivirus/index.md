@@ -2,16 +2,7 @@
 title: ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)
 ---
 
-## はじめに
-
-2022年4月1日より，ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) を提供します．
-
-東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として適宜利用してください．
-
-## 概要
-{:#about}
-
-必ず[東京大学ウイルス対策ソフトウエア包括ライセンス利用内規](terms/terms-of-antivirus-licence.pdf)をお読みください．
+ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) としてTrendMicro社の製品を提供しています．東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として適宜利用してください．
 
 * 提供元：情報基盤センター
 * 提供対象者：東京大学の教職員と学生
@@ -20,45 +11,13 @@ title: ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivir
   * Mobile Security (Android, iOS・iPadOS)
   * Server Protect for Linux
 * 料金：利用者負担なし
-* 利用数：
-  * 個人所有の端末：2台
-  * 大学所有の端末については，[UTNETのページ（学内アクセス限定）](https://www.nc.u-tokyo.ac.jp/internal-only/antivirus-trend)をご覧ください．
-* サポート：[uteleconのサポート窓口](/support/)
+* 利用数：個人所有の端末については2台まで
 
-ただし，以下の部局の方については，[こちらのファイル（UTokyo Accountでのサインインが必要です）](https://univtokyo.sharepoint.com/:b:/s/antivirus/EVCRdhZKUrxCpRCk4-8F0KsB35oP8HNB_PjP8cAnM5NHmg)にある窓口にお問い合わせください．
-* 社会科学研究所
-* 工学系研究科・工学部
-* 情報理工学系研究科
-* 工学系・情報理工学系等事務部が事務を所管する大学直下の組織
-* 地震研究所
-* 教育学研究科・教育学部
-* カブリ数物連携宇宙研究機構
-* 史料編纂所
-* 人文社会系研究科・文学部
+利用手順・インストール方法などの詳細は**[ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) のページ<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EZ3Qvmj4LLROlck10EyiwBsBts0PVpjPCZ_qgF6YLJ3ULA)**を参照してください．
 
-## 利用方法
-{:#how-to-use}
+## 2023年度の利用方法について
 
-[概要](#about)に記載の部局については，利用方法についてもそちらの窓口にお問い合わせください．
-
-### インストール
-
-複数のウイルス対策ソフトウェアがインストールされると不具合を起こす場合があります．すでにインストールされている別のウイルス対策ソフトウェアから切り替えたい場合は，先にそちらをアンインストールしてから手順を実行してください．
-
-* Apex One
-  * [Windows・Windows Server](windows/#install)
-  * [macOS](macos/#install)
-* Mobile Security (Android, iOS・iPadOS)
-  * 提供は予定の4/1から延期されました．可能な限り早期の提供を目指しますが，時期は未定です．
-* Server Protect for Linux
-  * [こちらのフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhBCCCVVuSxhHuBb1A09B1RpUQkdXUzQ0TUdFSzk4RU1aUzNKUkRFVjEyTC4u) (Microsoft Forms; UTokyo Accountでのサインインが必要です) に回答し，送信後に出てくる手順に従ってください．
-
-### アンインストール
-
-* Apex One
-  * [Windows・Windows Server](windows/#uninstall)
-  * [macOS](macos/#uninstall)
-* Mobile Security (Android, iOS・iPadOS)
-  * 提供は予定の4/1から延期されました．可能な限り早期の提供を目指しますが，時期は未定です．
-
-<!-- ## FAQ -->
+- 2023年度版の提供は2023年4月1日から開始します．
+- 2022年度にインストールした製品の有効期限は2023年4月30日です．
+    - 2023年4月1日から2023年度版のウイルス対策ソフトの提供を開始しますので，有効期限内に「[2023年度 ウイルス対策ソフトウエア利用方法<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EVjf4GpxU2pBjIe9td2gYrQBRwBQ0uL_o5Yn91OLDAZ-8g)」に従って対応してください．有効期限を過ぎるとアップデートが止まり危険な状態になりますので，2023年4月1日以降，お早めに2023年度版の製品に変更してください．
+    - 卒業・退職等で東京大学を離れる方は，利用資格を失い，ご利用いただけなくなります．「[2022年度に卒業•離職される方への注意事項](https://www.nc.u-tokyo.ac.jp/antivirus20230227)」に従ってアンインストール等の作業をお願いします．

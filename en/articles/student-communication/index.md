@@ -86,7 +86,7 @@ If the study session involves making presentations to each other, or if someone 
 
 #### Microsoft Office
 
-Microsoft Office is a general term for desktop applications provided by Microsoft. The University of Tokyo provides the latest versions of Word, Excel, PowerPoint, OneDrive, etc. to students and faculty members free of charge. Please check the ["UTokyo Microsoft License"](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html) for general information on how to use Microsoft Office.
+Microsoft Office is a general term for desktop applications provided by Microsoft. The University of Tokyo provides the latest versions of Word, Excel, PowerPoint, OneDrive, etc. to students and faculty members free of charge. Please check the ["UTokyo Microsoft License"](/en/microsoft/) for general information on how to use Microsoft Office.
 
 #### Google Workspace
 

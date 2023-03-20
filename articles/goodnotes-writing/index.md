@@ -317,7 +317,7 @@ GoodNotes 5では，PowerPoint，Word，PDF，各種画像ファイルを読み�
 
 次の動画は，授業中にリアルタイムに板書をするデモンストレーションです．GoodNotes 5を使って板書している教員の共有画面が受講している学生の画面に映し出される様子が再現されています．マーカーツール，ペンツール，消しゴムツール，テキストツールを使用している様子をご確認ください（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）．
 
-[https://drive.google.com/file/d/1MQ8Ib_lYkUzHV9ayQ_aPJvdRbANx0Y2I/view?usp=sharing](https://drive.google.com/file/d/1MQ8Ib_lYkUzHV9ayQ_aPJvdRbANx0Y2I/view?usp=sharing)
+[https://www.youtube.com/watch?v=cOCYLAXHiOQ](https://www.youtube.com/watch?v=cOCYLAXHiOQ)
 
 
 

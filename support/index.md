@@ -27,11 +27,12 @@ redirect_from:
 * メディアリンク社のMediaTalkサービスを利用しています．接続が不安定となる場合がありますが，お待ちいただいても改善しない場合には，Zoom窓口・メールフォーム窓口をご利用ください．
 
 <div>対応時間（自動応答）：24時間</div>
-<div>対応時間（オペレータ対応）：平日 8時25分から18時30分まで</div>
+<div>対応時間（オペレータ対応）：平日 8時25分から18時30分まで，土日休日 10時20分から16時35分まで</div>
+<div>※土日休日のオペレータ対応は，2023年3月18日（土）から2023年4月16日（日）までの期間限定です．通常は平日のみの対応となります．</div>
 
-<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
+<b class="box center">
 画面右下のウィジェット<br>「チャットサポートで質問できます」から
-</div>
+</b>
 
 ## Zoomで相談する
 {:#zoom}
@@ -42,11 +43,11 @@ Zoomの会議室において，学生スタッフ（コモンサポーター）�
 * 会議室の録音・録画は行っておりません．利用者も**録音・録画等の行為を行わないでください**．
 * 会議室情報へのアクセスには，UTokyo Accountでのサインインが必要です．
 
-<div>対応時間：平日 8時25分から18時30分まで</div>
+<div>対応時間：平日 8時25分から18時30分まで，土日休日 10時20分から16時35分まで</div>
 
-<div style="border: 2px solid currentcolor; margin: 1em 0 2em; padding: 0.5em; font-weight: bold; text-align: center;">
-<a href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02">会議室情報（リンク先の「Zoomサポートの会議室情報」を確認してください）</a>
-</div>
+<b class="box center">
+<a href="https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Support.aspx">会議室情報の掲載ページ</a>
+</b>
 
 ## メールフォームで相談する
 {:#email-form}
@@ -57,9 +58,9 @@ Zoomの会議室において，学生スタッフ（コモンサポーター）�
 
 <div>受付時間：24時間</div>
 
-<div style="border: 2px solid currentcolor; margin: 1em 0; padding: 0.5em; font-weight: bold; text-align: center;">
-<a href="https://forms.gle/AQevtbkCgRvn6wc39">メールフォーム</a>
-</div>
+<b class="box center">
+<a href="https://forms.gle/CHuYRpKuoULaUdgu9">メールフォーム</a>
+</b>
 
 {% capture inquiries %}
 メールフォームが利用できない（アクセスできない，送信できない）場合は， utelecon-inquiries@googlegroups.com 宛にメールをお送りいただくこともできます．まずは教職員が問い合わせ内容を確認し，内容から適切だと判断した場合は学生スタッフに対応を引き継ぎます．
