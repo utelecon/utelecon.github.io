@@ -23,7 +23,7 @@ title: UTokyo Slackに特定のワークスペースから招待を受けて参�
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
     <details>
         <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
-        UTokyo Slackの利用に必要なUTokyo Accountの多要素認証の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効にしてください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
+        UTokyo Slackの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効にしてください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
     </details>
 1. サービス利用規約を確認するよう求められるので，確認してください．
 1. 参加が完了し，ワークスペースの画面が表示されます．
