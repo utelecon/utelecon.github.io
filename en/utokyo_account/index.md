@@ -4,6 +4,8 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 ---
 
 ## What is UTokyo Account?
+{:#about}
+
 - **UTokyo Account** is a university-wide account that is required to use the ICT systems of the University of Tokyo. Students, faculty and staff of the University of Tokyo are required to sign in with this account to use various ICT systems.
   - Even if you do not currently have an account,  a UTokyo Account can be issued if necessary. If you wish to obtain an account, please contact the relevant office of your department (students should contact the academic office, and faculty and staff members should contact the personnel department).
 - The username of UTokyo Account is represented by a 10-digit number and is also called the **“Common ID”**. In the ICT systems, a 10-digit Common ID followed by `@utac.u-tokyo.ac.jp`, which indicates that you are a member of the University of Tokyo, is sometimes used, such as `1234567890@utac.u-tokyo.ac.jp`.
@@ -12,6 +14,8 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 - For more information on the services available through the UTokyo Account, please see the **[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)** and [the "Systems of the University of Tokyo" page (in Japanese)](/systems).
 
 ## Notes on using UTokyo Account
+{:#notes}
+
 1. UTokyo Account is granted to members of the university who are systematically accepted and managed by the university. (It will not be granted to those who are not systematically accepted by the university.)
 1. The services available through the UTokyo Account vary depending on the user's identity, affiliation and so on.
 1. To use the UTokyo Account and ICT systems that require a UTokyo Account, you must comply with the [UTokyo Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/content/400156696.pdf). (Reference: [UTokyo Policy for Information Security](https://www.u-tokyo.ac.jp/en/about/information-security.html))
@@ -23,6 +27,8 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 {% include procedures/en/utokyo_account.html %}
 
 ## Sign in to the ICT systems with your UTokyo Account
+{:#signin}
+
 UTokyo Account provides access to a variety of ICT systems. The sign-in methods vary depending on the situation.
 
 - When the following screen (with an image of Yasuda Auditorium) is displayed, you can sign in with your 10-digit Common ID and password.
@@ -36,16 +42,25 @@ UTokyo Account provides access to a variety of ICT systems. The sign-in methods 
 Many of the ICT systems that allow users to sign in using their UTokyo Account are linked to each other, so that once a user has signed in with their username and password on one ICT system, the user does not subsequently need to enter the username and password to use another ICT system. This behavior is called **Single Sign-On (SSO)**.
 
 ## About passwords
+{:#password}
 ### Validity period of a password
+{:#password-expiration}
+
 A password is valid for one year after it is changed. The expiration date of your current password can be checked from the [User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet).
 
 ### Changing passwords
+{:#change-password}
+
 You can change your password from the "Password Change" menu on the [User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet). The password can be changed even if it has expired, so there is no need to reset or reissue a password.
 
 ### If you forget your password
+{:#forget-password}
+
 If you forget your UTokyo Account password, you can sign back into your account using the following steps.
 
 #### Reset your password by email
+{:#reset-password}
+
 If you have registered your email address in advance on the Personnel Information MyWeb (faculty and staff members) or UTAS (student), you can reset your password using that email address. Specifically, the following email address will be used for the resetting procedure.
 
 - Faculty and staff members: "学内メールアドレス" (Campus Email Address) in the "パーソナルメニュー" (Personal Menu) of the Personnel Information Myweb
@@ -59,6 +74,8 @@ The procedure for resetting the password is as follows.
 1. When you receive the email, follow the instructions in the email to reset your password. If you do not receive the email, please check your spam folder or make sure that you are not using a different email address.
 
 #### Reissue a password from the help desks
+{:#reissue-password}
+
 If you have not registered your email address, or if the above procedure does not work, please contact the following help desks to reissue your password.
 
 - The academic office of our college/faculty/graduate school (students only).
@@ -71,4 +88,6 @@ If you have not registered your email address, or if the above procedure does no
 After completing the procedures, you will receive a "Notification regarding password for the UTokyo Account" containing your initial password. Please change your initial password to a new one, referring to "Task: Change the initial password" in [How to start using UTokyo Account](#procedures). (You cannot use the ICT services with your initial password.)
 
 ## Multi-Factor Authentication (MFA)
+{:#mfa}
+
 UTokyo Account has adopted the use of **Multi-Factor Authentication (MFA)**. If you set up Multi-Factor Authentication, you will be asked to confirm your identity via SMS or an authentication application in addition to your password, when signing in to your account. For more information, please refer to the [Using Multi-Factor Authentication for UTokyo Accounts](mfa/) page.
