@@ -6,9 +6,7 @@
 {% assign system = "UTokyo Account" %}
 
 {% capture change_initial_password %}
-<div class="box--alert">
-  macOSやiPhone, iPadのSafariで，iCloudキーチェーンの「強力なパスワード」を自動作成する機能を使用すると，パスワードが正常に保存されず，サインインできなくなってしまいます．手動で作成するなど別の手段でパスワードを作成し，必ずそれを自分で覚えておいて（または安全な場所にメモして）ください．<a href="/notice/2023/0321-utac-password">詳細はこちらのお知らせを参照してください．</a>
-</div>
+{% include 20230323-utac-password-notice.html %}
 <ul>
 {% case page.slug %}{% when "oc" %}
 <li><a href="/oc/movies#utokyo_account">手順動画</a></li>
