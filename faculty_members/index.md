@@ -58,6 +58,7 @@ description: このページでは，新たに東京大学で授業を始める�
 ### 初期パスワードの変更
 
 {% include 20230321-utac-password-notice.html %}
+{% include 20230325-utac-user-menu.html %}
 
 1. 所属の学部・研究科等から，初期パスワードが記載された「パスワード通知書」を受け取ってください．授業に必要な教員には発行されているはずですが，もらっていない場合は所属部局の事務に問い合わせてください．
 2. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)に，「パスワード通知書」に記載されたユーザ名とパスワードでログインしてください．
