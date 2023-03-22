@@ -143,7 +143,7 @@ UTokyo Slackへの編入（移行）は，教職員からの申し込みによ�
 - 編入（移行）後は，各メンバーはUTokyo Accountでサインインしてワークスペースを利用することになります．その際，[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化が必須であることに注意してください．
     <details>
         <summary>「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
-        UTokyo Slackの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
+        UTokyo Slackの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
     </details>
 - 連携アプリやAPIを利用している場合，インストールや設定のやり直しが必要になる場合があります．各ワークスペースで確認し適宜対応してください．
     - 各ユーザーに付与されている内部のIDが変わるため，これを内部で利用している連携アプリに影響が生じると思われます．
