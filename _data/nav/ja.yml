@@ -45,7 +45,7 @@
       url: "https://www.ecc.u-tokyo.ac.jp/"
     -
       name: "その他"
-      url: "/systems#others"
+      url: "/systems/#others"
 -
   name: "オンラインの活用"
   contents:
