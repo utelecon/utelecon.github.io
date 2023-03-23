@@ -1,5 +1,5 @@
 ---
-title: 教育・研究活動のためのネットワーク環境支援
+title: "教育・研究活動のためのネットワーク環境支援 / The network environment support for education and research"
 redirect_from:
   - /mobile/
   - /mobile/mobile2
