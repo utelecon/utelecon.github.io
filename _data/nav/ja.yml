@@ -95,9 +95,3 @@
     -
       name: "授業入室トラブル"
       url: "/oc/join"
-    -
-      name: "ネットワーク環境支援"
-      url: "/mobile/"
-    -
-      name: "クラスサポーター"
-      url: "/supporters/class"
