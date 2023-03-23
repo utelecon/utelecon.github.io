@@ -129,9 +129,8 @@ UTokyo Wi-Fiを含む本学のネットワークでは，全学セキュリテ�
 - UTokyo Wi-Fiのアカウントあたりの接続機器の数には上限はありません．
 - UTokyo Wi-Fiのアカウントを直接削除することはできません．ただし，再度「UTokyo Wi-Fiアカウントメニュー」の「新規申請」ボタンを押してアカウントを発行し直すことで，既存のアカウントは無効になります．
 - UTokyo Wi-Fiは一時的に特定の場所，または学内全域でトラブルが発生して利用に支障が出ることがあります．ご不便をおかけいたしますが，速やかに対応できるよう努めてまいりますので，ご理解ください．
-- 東京大学には，UTokyo Wi-Fiの他にも学内で共通に利用できる無線LANサービスがあります．東京大学構成員および来学者は[東京大学での無線LAN利用](https://www.u-tokyo.ac.jp/adm/dics/ja/wlan.html)のページを参照し，適切に利用してください．
-  - UTokyo Wi-FiアカウントのユーザーIDとパスワードを用いて，大学や研究機関等での相互利用が可能な無線LANサービス[eduroam](https://eduroam.jp/)に接続することができます．
-    - 2023年1月31日以降に発行されたUTokyo Wi-Fiアカウントのみが対象です．
+- 東京大学には，UTokyo Wi-Fiの他にも学内で共通に利用できる無線LANサービスがあります．東京大学の構成員の方は「[東京大学構成員の無線LAN利用](/systems/wlan)」のページを，学外の方は「[東京大学での無線LAN利用](https://www.u-tokyo.ac.jp/adm/dics/ja/wlan.html)」のページをそれぞれ参照し，適切に利用してください．
+    - UTokyo Wi-FiアカウントのユーザーIDとパスワードを用いて，大学や研究機関等での相互利用が可能な無線LANサービス[eduroam](https://eduroam.jp/)に接続することができます<small>（2023年1月31日以降に発行したUTokyo Wi-Fiアカウントに限ります）</small>．詳細は[「東京大学構成員の無線LAN利用」のページの「eduroam」の項](/systems/wlan#eduroam)を参照してください．
 - 部局のネットワーク担当者の方は，[UTokyo Portalの情報](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx)も参照してください．
 
 ## トラブルシューティングと問い合わせ
