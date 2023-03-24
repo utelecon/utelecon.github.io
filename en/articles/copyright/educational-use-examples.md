@@ -30,7 +30,7 @@ Article 35 was revised in 2018 in order to promote ICT in education. Before the 
 In addition, with the revision of Article 35[^8], a new system of compensation for public transmission for class purposes was established in order to secure the interests of right holders and others. Under this system, with regard to public transmission in the class formats newly added by the revision of the law, the educational institution's establisher[^9] is required to pay a considerable amount of compensation to the Society for the Administration of Remuneration for Public Transmission for School Lessons (hereafter: SARTRAS)[^10]. For a detailed explanation of SARTRAS, please refer to the article on this site about “The  Compensation System for Public Transmission for Educational Purposes and the Background History and Role of SARTRAS”.
 The following explains the exceptional treatment of works in educational institutions based on the "Guidelines for the Application of Article 35 of the Revised Copyright Act (Edition of 2021)" (hereafter: Guidelines), citing specific examples. The examples raised in a. to e. are considered not to unreasonably prejudice the rights of owners in the use of works in educational institutions, and the examples raised in f. are considered to unreasonably prejudice the rights of owners.
 
-#### a. Must Be Used in "Schools and Other Educational Institutions”[^11]
+#### a. Must Be Used in "Schools and Other Educational Institutions” [^11]
 
 A work needs to be used in a "school or other educational institution" in order to correspond with the limitation of rights provision of Article 35. This means a non-profit educational institution that engages in educational activities on an organized and continuous basis. For example, the following are applicable.
 
@@ -44,11 +44,11 @@ In contrast, the following facilities do not fall under this category.
 - Corporate training facilities
 - Culture centers
 
-#### b. Must Be Used by "Those Who Are in Charge of Education and Those Who Are Taking Classes"[^12]
+#### b. Must Be Used by "Those Who Are in Charge of Education and Those Who Are Taking Classes" [^12]
 
 Next, only "people in charge of education and taking classes" can use the system. In other words, this means faculty members who actually conduct classes and students (including non-degree students) who take classes.
 
-#### c. Must Be "Used in the Course of Teaching"[^13]
+#### c. Must Be "Used in the Course of Teaching" [^13]
 
 It needs to be used "in the course of teaching". Specifically, the following uses fall under this category.
 
@@ -64,7 +64,7 @@ In contrast, the following activities do not fall under this category.
 - Extracurricular activities in higher education (club activities, etc.)
 - Volunteer work (not for credit)
 
-#### d. What Uses Are Allowed: "Reproduction," "Public Transmission," "Public Communication"[^16]
+#### d. What Uses Are Allowed: "Reproduction," "Public Transmission," "Public Communication" [^16]
 
 The three types of use permitted under Article 35 are "reproduction," "public transmission," and "public communication.
 First, "reproduction" means "the physical replication of a work through printing, photography, or copying, through the recording of sound or visuals, or in any other way"[^17], and refers to the following uses, for example.
@@ -79,7 +79,7 @@ Next, "public transmission" refers to transmission to the public (unspecified pe
 Finally, "public communication" refers to the communication of a publicly transmitted work to the public using a receiving device[^20].For example, this includes making a video related to the content of a class on the Internet is available to students through a display in the classroom.
 In addition, you can reproduce or publicly transmit a work after translating, arranging, or adapting it[^21].
 
-#### e. "To the Extent Considered Necessary "[^22]
+#### e. "To the Extent Considered Necessary " [^22]
 
 In order for unlicensed use of a work to be permitted under Article 35, the use must be "to the extent considered necessary”.
 Whether or not the use of a work is necessary for a class is, in the first place, a judgment to be made by the person in charge of the class. In that case, it is necessary to be able to objectively explain the necessity of reproduction or public transmission of the work in relation to the contents and method of the class, not only based on the subjective judgment of the person in charge of the class.
@@ -90,7 +90,7 @@ However, it is a difficult problem as to what type of use falls under "to the ex
 
 In addition, it is desirable that the number of times a work is reproduced or publicly transmitted should not exceed the number of instructors in charge of the class plus the total number of students enrolled in the class.
 
-#### f. "If the Action Would Unreasonably Prejudice the Interests of the Copyright Owner."[^23]
+#### f. "If the Action Would Unreasonably Prejudice the Interests of the Copyright Owner." [^23]
 
 Article 35 stipulates the requirements for use without the author's permission. However, even if those requirements are met, unauthorized reproduction or public transmission is not allowed if the action would unreasonably prejudice the interests of the copyright owner. In such cases, the authorization of the copyright holder is required.
 What kind of use constitutes unreasonable harm to the interests of the copyright holder is a difficult question, as is the question of "to the extent considered necessary”. In general, the following types of use are considered to be unreasonably prejudicial to the interests of the copyright holder.
@@ -132,7 +132,7 @@ In addition, concerning the form of use, there is a high possibility of unreason
 
 In the following, we will give specific examples of the use of copyrighted works within the university, and introduce cases that are deemed a violation of the Copyright Law. Below is an explanation of Article 35 of the Copyright Law with specific examples taken from the Operational Guidelines.
 
-### 1. Examples of Impermissible Use of Copyrighted Works Within the University[^25]
+### 1. Examples of Impermissible Use of Copyrighted Works Within the University [^25]
 
 #### a. Examples of Impermissible Use of Copyrighted Works by University Members
 
