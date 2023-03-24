@@ -15,9 +15,9 @@ This article consists of two parts, and is written based on the "Guidelines for 
 ### Basics of Copyright
 
 First, let us review the basics of copyright.
-Japan's Copyright Act grants exclusive rights to the creators of copyrighted works for the use of their works. In addition, the Copyright Act also includes provisions that ensure freedom of use of copyrighted works (provisions for limitation of rights), thereby reconciling the interests of rights owners with those of users．
+Japan's Copyright Act grants exclusive rights to the creators of copyrighted works for the use of their works. In addition, the Copyright Act also includes provisions that ensure freedom of use of copyrighted works (provisions for limitation of rights), thereby reconciling the interests of rights owners with those of users.
 
-- **What is a “Work”:** The Copyright Act defines  “work” as “a creatively produced expression of thoughts or sentiments"[^1]. It is said to include novels, articles, music, paintings, prints, photographs, movies, computer programs, and so on[^2]．
+- **What is a “Work”:** The Copyright Act defines  “work” as “a creatively produced expression of thoughts or sentiments"[^1]. It is said to include novels, articles, music, paintings, prints, photographs, movies, computer programs, and so on[^2].
 - **Who is an “Author”:** The term “ “author” means a person who creates a work”[^3]. Idea providers, input assistants, etc. are not recognized as authors.
 - **What are the Restricted Rights Provisions:** When we use works, we need the permission of the right holder, in principle, However, in the case of some specific purposes or forms of use, the work may be freely used without the right holder's permission. （e.g., private reproduction[^4], use by quotation[^5], reproduction in schools, and other educational institutions, etc.[^6] ）
 
@@ -26,7 +26,7 @@ There are various exceptions and points to note in addition to the above, so ple
 ### Article 35 of the Copyright Act and Specific Examples
 
 Although there are various requirements for the use of copyrighted works, Article 35 of the Copyright Act allows, in principle, free use of copyrighted works in educational institutions in Japan.
-Article 35 was revised in 2018 in order to promote ICT in education. Before the revision, Article 35 restricted the rights to reproduction and paper distribution of works in face-to-face classes and public transmission of works in online classes (this only applied to some forms of classes), but the 2018 revision allows us to use works in online classes of all forms without a license[^7]．
+Article 35 was revised in 2018 in order to promote ICT in education. Before the revision, Article 35 restricted the rights to reproduction and paper distribution of works in face-to-face classes and public transmission of works in online classes (this only applied to some forms of classes), but the 2018 revision allows us to use works in online classes of all forms without a license[^7].
 In addition, with the revision of Article 35[^8], a new system of compensation for public transmission for class purposes was established in order to secure the interests of right holders and others. Under this system, with regard to public transmission in the class formats newly added by the revision of the law, the educational institution's establisher[^9] is required to pay a considerable amount of compensation to the Society for the Administration of Remuneration for Public Transmission for School Lessons (hereafter: SARTRAS)[^10]. For a detailed explanation of SARTRAS, please refer to the article on this site about “The  Compensation System for Public Transmission for Educational Purposes and the Background History and Role of SARTRAS”.
 The following explains the exceptional treatment of works in educational institutions based on the "Guidelines for the Application of Article 35 of the Revised Copyright Act (Edition of 2021)" (hereafter: Guidelines), citing specific examples. The examples raised in a. to e. are considered not to unreasonably prejudice the rights of owners in the use of works in educational institutions, and the examples raised in f. are considered to unreasonably prejudice the rights of owners.
 
@@ -56,7 +56,7 @@ It needs to be used "in the course of teaching". Specifically, the following use
 - Public lectures sponsored by schools and other educational institutions (conducted as part of their own business)
 - Certificate programs (educational programs for working adults, etc., for which a certificate of completion is issued to those who have completed the program in accordance with the School Education Law)
 
-In contrast, the following activities do not fall under this category．
+In contrast, the following activities do not fall under this category.
 
 - School information sessions for prospective students, mock classes at open campuses, etc.
 - Faculty and Staff Meetings
@@ -76,8 +76,8 @@ First, "reproduction" means "the physical replication of a work through printing
 - Taking pictures of image data projected on a screen by a projector with a camera, smartphone, etc.
 
 Next, "public transmission" refers to transmission to the public (unspecified persons or a large number of specified persons) by means of broadcasting, cable broadcasting, Internet transmission (including uploading to a server), and so on[^18]. For example, it includes distributing class videos and uploading lecture materials to the Internet, such as to a learning management system[^19].
-Finally, "public communication" refers to the communication of a publicly transmitted work to the public using a receiving device[^20]．For example, this includes making a video related to the content of a class on the Internet is available to students through a display in the classroom.
-In addition, you can reproduce or publicly transmit a work after translating, arranging, or adapting it[^21]．
+Finally, "public communication" refers to the communication of a publicly transmitted work to the public using a receiving device[^20].For example, this includes making a video related to the content of a class on the Internet is available to students through a display in the classroom.
+In addition, you can reproduce or publicly transmit a work after translating, arranging, or adapting it[^21].
 
 #### e. "To the Extent Considered Necessary "[^22]
 
@@ -156,7 +156,7 @@ The following examples use copyrighted works beyond the necessary limits for lec
 
 - Purchasing only one commercial application software, or only one license, and reproducing it on multiple computers in the school to use or provide.
 - Reproducing the source code for a commercial software to be used or provided in computer programming classes.
-- Reproducing application software such as document creation software, spreadsheet software, PDF editing software, etc. to use or provide in the classroom．
+- Reproducing application software such as document creation software, spreadsheet software, PDF editing software, etc. to use or provide in the classroom.
 
 ##### (2) Reproducing a Movie or Program
 
@@ -179,7 +179,7 @@ Uploading a video of a picture book reading to the cloud or to a server so that 
 
 ##### (4) Reproducing Art and Photographs
 
-- Works of art, photographs, and other works that are not likely to unreasonably prejudice　the copyright, and for which full use is permitted, but which are offered in such quality as to affect the sales of goods on the market[^29]．
+- Works of art, photographs, and other works that are not likely to unreasonably prejudice　the copyright, and for which full use is permitted, but which are offered in such quality as to affect the sales of goods on the market[^29].
 
 ##### (5) Public Transmission of Copyrighted Works
 
