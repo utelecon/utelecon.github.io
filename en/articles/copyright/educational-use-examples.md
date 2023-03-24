@@ -152,7 +152,7 @@ When giving lectures or training or preparing handouts in these situations, use 
 
 The following examples use copyrighted works beyond the necessary limits for lectures, which may hinder the original distribution and reduce the sales of copyrighted works (that is, unreasonably  prejudice the interests of the copyright owner). In such a case, it is an infringement of copyright law even if it is for class purposes.
 
-##### (1) Reproducing Commercial Application Software**
+##### (1) Reproducing Commercial Application Software
 
 - Purchasing only one commercial application software, or only one license, and reproducing it on multiple computers in the school to use or provide.
 - Reproducing the source code for a commercial software to be used or provided in computer programming classes.
