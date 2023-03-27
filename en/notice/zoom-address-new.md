@@ -73,7 +73,7 @@ If you are currently signing in to Zoom using the ECCS Cloud Email with the user
         </li>
         <li> Access your <a href="https://zoom.us/profile">Zoom profile page</a> again and click the profile picture in the top right corner (the profile picture is either a default human icon or a picture you added earlier). Click “SIGN OUT” to sign out of Zoom. </li>
         <li> 
-            Access the UTokyo Zoom page, https://u-tokyo-ac-jp.zoom.us/, press “Config”, and sign in with your UTokyo Account. 
+            Access the UTokyo Zoom page, <a href="https://u-tokyo-ac-jp.zoom.us/">https://u-tokyo-ac-jp.zoom.us/</a>, press “Config”, and sign in with your UTokyo Account. 
             (This is the same procedure as described in the <a href="/en/zoom/signin#browser">Signing in from the UTokyo Account Zoom Webpage section on the Sign-in Methods for Zoom page</a>.)
             <img src="/zoom/signin/1.png">
             <details>
