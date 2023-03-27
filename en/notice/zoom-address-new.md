@@ -48,7 +48,7 @@ To use Zoom with such accounts, please **visit the usual Zoom sign-in page, http
 ### Switching to Sign-in with your UTokyo Account
 {:#change-procedure}
 
-If you are currently signing in to Zoom using the ECCS Cloud Email with the username of your choice (`xxxx@g.ecc.u-tokyo.ac.jp`), please visit the [one-stop migration site](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home) and follow the instructions to switch to UTokyo Account sign-in. Once the migration is completed, you will be able to sign in to Zoom using your UTokyo Account. The sign-in procedure can be found on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin) page.   
+If you are currently signing in to Zoom using the ECCS Cloud Email with the username of your choice (`xxxx@g.ecc.u-tokyo.ac.jp`), please visit the [one-stop migration site](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home) (in Japanese) and follow the instructions to switch to UTokyo Account sign-in. Once the migration is completed, you will be able to sign in to Zoom using your UTokyo Account. The sign-in procedure can be found on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin) page.   
 
 <details>
     <summary>If you currently sign in using other email addresses</summary>
