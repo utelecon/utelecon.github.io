@@ -4,6 +4,8 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 description: このページでは，東京大学で授業を受ける新入生を対象に，東京大学の情報システムを利用するために必要な事前準備を順序立てて説明しています．
 ---
 import Eccs from '@components/procedures/Eccs/index.astro'
+import Apply from '@components/systems/utokyo_wifi/Apply/index.astro'
+import Connect from '@components/systems/utokyo_wifi/Connect/index.astro'
 
 ## はじめに
 
@@ -168,12 +170,12 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
     <li>
         <details>
             <summary>（再掲）<strong>作業：アカウントを申請する</strong></summary>
-{/* {% include systems/utokyo_wifi/apply.html %} */}
+            <Apply pageSlug="oc" />
         </details>
     </li>
     <li>
         <strong>作業：実際に接続する</strong>
-{/* {% include systems/utokyo_wifi/connect.html %} */}
+        <Connect pageSlug="oc" />
     </li>
 </ul>
 
