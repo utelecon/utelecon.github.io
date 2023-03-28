@@ -1,10 +1,10 @@
 ---
-title: Collections of Websites with Materials Usable Under Public Domain and Creative Commons Licenses
+title: Websites Collecting Materials in the Public Domain or With a Creative Commons License
 ---
 
 ## Summary of This Article
 
-In the article [What is Public Domain, Creative Commons](public-domain-creative-commons-license)? (also on this site) we explain how to use content without infringing on copyrights when creating course materials as a teacher, or when creating presentation slides or promotional materials for club activities as a student.
+In the article [What is Public Domain / Creative Commons?](public-domain-creative-commons-license) (also on this site) we explain how to use content without infringing on copyrights when creating course materials as a teacher, or when creating presentation slides or promotional materials for club activities as a student.
 As an additional resource, this page introduces websites providing content that falls under the public domain and that is licensed under a Creative Commons license (hereafter referred to as "CC license"). Please use this page as a reference when searching for content.
 The tags "Text," "Data," "Image," "Video," and "Audio" under each website name indicate the type of content provided by the website (as of 2022).
 Since the spread of the new coronavirus, attention to openly available content has increased worldwide. Please note that the websites introduced on this page are a mixture of Japanese, English, and other foreign languages. 
@@ -332,5 +332,5 @@ The National Museum of New Zealand has a collection of historical and contempora
 
 Please also refer to the following pages.
 
-* [What is Public Domain, Creative Commons](public-domain-creative-commons-license)
-* [Basics of Copyright Law](basic)
+* [What Is Public Domain / Creative Commons?](public-domain-creative-commons-license)
+* [The Basics of Copyright Law](basic)
