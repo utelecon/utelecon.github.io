@@ -49,7 +49,7 @@ UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Account
 5. 登録したメールアドレス宛てに`service@account.mathworks.com`から認証メールが届くので，記載されたリンクにアクセスします．メールの受信が確認できない場合は，迷惑メールに振り分けられていないか確認してください．
 6. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
 
-上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.com`）にメールしてサポートを依頼してください．
+上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
 ### すでに作成済みのMathWorksアカウントがある場合
 1. お持ちのMathWorksアカウントのメールアドレスを，[ECCSクラウドメール](/eccs_cloud_email)などの，`u-tokyo.ac.jp`で終わるメールアドレスに更新します．
     <details>
@@ -67,7 +67,7 @@ UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Account
 5. お持ちのMathWorksアカウントでサインインします．
 6. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
 
-上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.com`）にメールしてサポートを依頼してください．
+上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
 
 ## 基本的な利用の方法
 MATLABの機能をすべて使うには，PCにソフトウェア版のインストールを行うことが推奨されますが，PCに十分な処理速度のプロセッサ，および保存領域の余裕があることが必要です．また，インストール時にはインターネット通信が必要となります．
