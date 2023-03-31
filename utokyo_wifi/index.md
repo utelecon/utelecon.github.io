@@ -108,8 +108,8 @@ UTokyo Wi-Fiのアカウントの有効期限は翌年度の4月末です．各�
         <li>名称 (Common Name): <code>netacm.adm.u-tokyo.ac.jp</code></li>
         <li>発行元: <code>NII Open Domain CA - G7 RSA</code></li>
         <li>ルート証明書: <code>Security Communication RootCA2</code></li>
-        <li>指紋 (Fingerprint) SHA-1: <wbr><code style="word-break: break-all;">03:03:47:10:4B:AC:1A:95:8F:D9:E2:C1:8E:8C:D3:05:D2:02:20:AF</code></li>
-        <li>指紋 (Fingerprint) SHA-256: <wbr><code style="word-break: break-all;">C9:22:73:7E:B4:0A:5C:21:4F:0B:01:D4:34:E3:2B:5E:7A:63:A6:50:FB:2B:BE:FB:63:F7:4E:27:5D:1D:60:E4</code></li>
+        <li>指紋 (Fingerprint) SHA-1: <wbr><code style="word-break: break-all;">ED:AA:E5:70:E7:96:A0:6B:E7:78:C2:D6:7A:56:5F:A4:22:19:A1:B2</code></li>
+        <li>指紋 (Fingerprint) SHA-256: <wbr><code style="word-break: break-all;">FF:3B:CF:6B:72:3B:0D:F7:63:76:92:F1:CF:90:BC:60:18:3D:88:03:27:4C:A3:FB:67:BE:6E:72:58:F0:B8:E4</code></li>
       </ul>
       ※証明書の「ドメイン」を入力するよう求められた場合は，<code style="word-break: break-all;">u-tokyo.ac.jp</code>を入力してください．</td>
   </tr>
