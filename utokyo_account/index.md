@@ -90,7 +90,11 @@ UTokyo Accountのパスワードを忘れた場合には，次のような手順
 <details>
 	<summary>「パスワードのリセットを登録していないため、自分でパスワードをリセットすることはできません」と表示され，再設定ができない場合</summary>
 	システムにメールアドレスが登録されていないため，通知メールを送信することができず，したがってパスワードの再設定ができません．<a href="#reissue-password">窓口でパスワードを再発行</a>してください．
-	パスワードを再発行することができたら，人事情報MyWeb（教職員）やUTAS（学生）に，アクセスできるメールアドレスを登録してください．
+	パスワードを再発行することができたら，メールアドレスを以下の手順で登録してください．
+	<ul>
+		<li>学生の場合：<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do">UTAS</a>にログインし，「学生情報」メニューにある「現住所等変更入力」で「E-MAIL 1」を設定してください（なお，「E-MAIL 2」のアドレスはパスワード再設定のメール送信先としては使えません）．</li>
+		<li>教職員の場合：<a href="https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx">人事情報MyWeb</a>にログインし，「パーソナルメニュー」から「学内メールアドレス」の欄を設定してください．</li>
+	</ul>
 </details>
 
 #### 窓口でパスワードを再発行する
