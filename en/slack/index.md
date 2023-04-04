@@ -43,7 +43,7 @@ Please refer to the following page for how to join by receiving an invitation fr
 Workspaces in UTokyo Slack are created upon request from faculty and staff. Please refer to the following page for details. You should note that UTokyo Slack workspaces are created within the University of Tokyo's overall "Organization" section, so the creation process and usage of UTokyo Slack workspaces are different from those of regular Slack workspaces.
 
 <b class="box center">
-    <a href="/slack/workspace/">Creation and operation of workspaces in UTokyo Slack</a> (in Japanese)
+    <a href="/slack/workspace/">Creation and operation of workspaces in UTokyo Slack</a>
 </b>
 
 ### Incorporation (migration) of existing workspace

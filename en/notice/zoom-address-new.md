@@ -3,11 +3,11 @@ title:  Using Zoom with Non-UTokyo Account Sign-in
 ---
 <!-- ↑”Signing in to Zoom”の記事内で、本記事を参照している箇所あり。本記事のタイトルを変更する場合は、そちらにも変更を反映することが必要。-->
 
-This page is for UTokyo Zoom users who are currently **NOT signing in to Zoom using their UTokyo Account**. 
-Such users include those using ECCS Cloud Email addresses setup with the username of their choice (`xxxx@g.ecc.u-tokyo.ac.jp`).
+A Zoom account of the University of Tokyo is currently prescribed as an account that you sign in with your UTokyo Account (account with email address `[10-digit Common ID]@utac.u-tokyo.ac.jp`, e.g. `1234567890@utac.u-tokyo.ac.jp`).
 
-Accounts that do not use UTokyo Account for sign-in will soon be completely disabled due to the unification of the UTokyo Zoom sign-in method.   
-**Please follow the instructions below to switch to a Zoom account that uses UTokyo Account for sign-in (account whose sign-in email address is `[10-digit Common ID]@utac.u-tokyo.ac.jp`, e.g. `1234567890@utac.u-tokyo.ac.jp`).**
+Therefore, **if you are currently NOT signing in to Zoom using your UTokyo Account (e.g. using ECCS Cloud Email addresses setup with the username you chose (`xxxx@g.ecc.u-tokyo.ac.jp`)), please follow the instructions on this page to switch to a Zoom account that uses the UTokyo Account for sign-in** (account with email address `[10-digit Common ID]@utac.u-tokyo.ac.jp`, e.g. `1234567890@utac.u-tokyo.ac.jp`) **and use it from now on.**
+
+Since we are in the process of migrating to a unified sign-in method to enable centralized management, we plan to take measures such as disabling the account in question in due course. Furthermore, some of these accounts are not granted licenses (paid functions) because they are different from the prescribed format, and have functional restrictions such as a 40-minute meeting time limit (a temporary measure to ease restrictions on accounts with university email addresses which ended in the spring of 2022). Therefore, please change your sign-in method as soon as possible.
 
 <details>
     <summary>If you are signing in using your ECCS Cloud Email address beginning with your 10-digit Common ID (e.g. <code>1234567890@<em>g.ecc</em>.u-tokyo.ac.jp</code>)</summary>
@@ -45,7 +45,7 @@ To use Zoom with such accounts, please **visit the usual Zoom sign-in page, http
 ### Switching to Sign-in with your UTokyo Account
 {:#change-procedure}
 
-If you are currently signing in to Zoom using the ECCS Cloud Email with the username of your choice (`xxxx@g.ecc.u-tokyo.ac.jp`), please visit the [one-stop migration site](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home) and follow the instructions to switch to UTokyo Account sign-in. Once the migration is completed, you will be able to sign in to Zoom using your UTokyo Account. The sign-in procedure can be found on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin) page.   
+If you are currently signing in to Zoom using the ECCS Cloud Email with the username of your choice (`xxxx@g.ecc.u-tokyo.ac.jp`), please visit the [one-stop migration site](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home) (in Japanese) and follow the instructions to switch to UTokyo Account sign-in. Once the migration is completed, you will be able to sign in to Zoom using your UTokyo Account. The sign-in procedure can be found on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin) page.   
 
 <details>
     <summary>If you currently sign in using other email addresses</summary>
@@ -65,10 +65,12 @@ If you are currently signing in to Zoom using the ECCS Cloud Email with the user
                 After you receive an email confirming that deletion is completed, restart from step 1 to change your sign-in email address. 
             </details>
         </li>
-        <li> An email will be sent to your ECCS Cloud Email to confirm your sign-in email address change. Click the confirmation button in the email. </li>
+        <li> An email will be sent to your ECCS Cloud Email to confirm your sign-in email address change. Click the confirmation button in the email. 
+          <div>* Although a message will be displayed indicating that an email will be sent to <code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code> which you entered in the above procedure, emails sent to this email address will be forwarded to your ECCS Cloud Email <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code>. Therefore, please log in to the ECCS Cloud Email to receive it.</div>
+        </li>
         <li> Access your <a href="https://zoom.us/profile">Zoom profile page</a> again and click the profile picture in the top right corner (the profile picture is either a default human icon or a picture you added earlier). Click “SIGN OUT” to sign out of Zoom. </li>
         <li> 
-            Access the UTokyo Zoom page, https://u-tokyo-ac-jp.zoom.us/, press “Config”, and sign in with your UTokyo Account. 
+            Access the UTokyo Zoom page, <a href="https://u-tokyo-ac-jp.zoom.us/">https://u-tokyo-ac-jp.zoom.us/</a>, press “Config”, and sign in with your UTokyo Account. 
             (This is the same procedure as described in the <a href="/en/zoom/signin#browser">Signing in from the UTokyo Account Zoom Webpage section on the Sign-in Methods for Zoom page</a>.)
             <img src="/zoom/signin/1.png">
             <details>
@@ -77,17 +79,15 @@ If you are currently signing in to Zoom using the ECCS Cloud Email with the user
                 You need to perform email confirmation to switch to UTokyo Account sign-in. 
                 Click the “Confirm your email address” button, and wait for an email to be sent to your ECCS Cloud Email. 
                 Follow the instructions in the received email. 
+                <small style="display: block">* Although you will be asked to confirm the email address of <code>1234567890@<em>utac</em>.u-tokyo.ac.jp</code>, emails sent to this email address will be forwarded to your ECCS Cloud Email <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code>. Therefore, please log in to your ECCS Cloud Email to check the confirmation email.</small>
             </details>
         </li>
         <li>
-            Access your <a href = "https://zoom.us/profile">Zoom profile page</a>. 
-            If the “License” field is set to “Licensed     Meeting  300 participants”, you have successfully switched to UTokyo Account sign-in.  
-            <details>
-                <summary>If your “License” field is “Basic”</summary>
-                It usually takes 5 minutes for licenses to be granted after switching accounts. Please refresh the screen after a while and check again.
-            </details>
+            After signing in, if you see your Common ID after clicking the icon in the top right corner of the Zoom settings page (a human silhouette or a profile picture that you have set up), you have successfully signed into Zoom with your UTokyo account.
         </li>
     </ol>
 </details>
-    
+
+After migration, the license may appear as "BASIC" instead of "LICENSED". In this case, please wait until the next day and check again, as the license is granted on the day after the migration.
+
 If the above procedure does not work, please contact the [Technical Support Desk](/en/support/).  
