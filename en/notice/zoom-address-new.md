@@ -1,8 +1,5 @@
 ---
 title:  Using Zoom with Non-UTokyo Account Sign-in
-redirect_from:
-  - /en/notice/zoom-address
-  - /en/notice/zoom-wrongaccount
 ---
 <!-- ↑”Signing in to Zoom”の記事内で、本記事を参照している箇所あり。本記事のタイトルを変更する場合は、そちらにも変更を反映することが必要。-->
 
