@@ -6,7 +6,6 @@
 {% assign system = "UTokyo Account" %}
 
 {% capture change_initial_password %}
-{% include 20230321-utac-password-notice.html %}
 <ul>
 {% case page.slug %}{% when "oc" %}
 <li><a href="/oc/movies#utokyo_account">手順動画</a></li>
@@ -37,7 +36,10 @@
   <b class="box center"><a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet">UTokyo Account利用者メニュー</a></b>
 </li>
 {%- endif %}
-<li>左上の「パスワード変更」を押して，パスワードを変更してください（初期パスワードのままでは，各種サービスを利用することができません）．新しいパスワードを決める際には，パスワードの強度を示す表示が「強い」または「とても強い」になるようにしてください．</li>
+<li>
+左上の「パスワード変更」を押して，パスワードを変更してください（初期パスワードのままでは，各種サービスを利用することができません）．新しいパスワードを決める際には，パスワードの強度を示す表示が「強い」または「とても強い」になるようにしてください．
+{% include 20230321-utac-password-notice.html %}
+</li>
 </ol>
 <ul>
 <li>この手順がうまくいかないときは<a href="/support/">サポート窓口</a>に相談してください．</li>
