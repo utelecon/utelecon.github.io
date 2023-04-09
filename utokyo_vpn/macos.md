@@ -58,7 +58,6 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 
 **手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでサインインしてください．
 
-{% include_relative _help_multiple_users.html %}
 {% include_relative _help_mfa.html %}
 
 ![](img/mac10-anyconnect-login.png){:.medium.center.border}
