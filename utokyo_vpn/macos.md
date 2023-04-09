@@ -29,7 +29,7 @@ title: macOS端末でUTokyo VPNを利用する
 {% include_relative _help_security_session.html %}
 {% include_relative _help_security_username.html %}
 
-**手順C:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウがでる場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また2枚目のようなウィンドウが表示されますので，これも許可をしてください．
+**手順C:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウが出る場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また2枚目のようなウィンドウが表示されますので，これも許可をしてください．
 
 <figure class="gallery">
   <img src="img/mac04-install-2.png" class="border">

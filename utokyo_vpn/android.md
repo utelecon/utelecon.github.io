@@ -35,7 +35,7 @@ title: Android端末でUTokyo VPNを利用する
 
 以下の手順はVPNを利用するたびに必要です．特にスマホを起動した直後に自動的にVPNに接続されるわけではありませんので，ご注意ください．
 
-**手順E:** 下図1枚目のように「接続」に「vpn1.adm.u-tokyo.ac.jp」と記載されていることを確認してください．次に，「AnyConnect VPN」の横のトグルボタンをONにして，下図2枚目のようにUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでサインインしてください．
+**手順E:** 下図1枚目のように「接続」に「vpn1.adm.u-tokyo.ac.jp」と記載されていることを確認してください．次に，「AnyConnect VPN」の横のトグルボタンをONにして，下図2枚目のようにUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでサインインしてください．前回のアクセスから時間をおかずに起動した場合は，この画面が表示されないで直ちにVPN接続が開始されることもあります．
 
 <figure class="gallery">
   <img src="img/android06-home-finished-setting.png" class="border">
@@ -56,7 +56,7 @@ title: Android端末でUTokyo VPNを利用する
 
 ![](img/android09-secure-client-connecting.png){:.medium.center.border}
 
-VPNを切断する際は，この画面のトグルボタンをタップして「切断されました」にしてください．
+VPNを切断する際は，この画面のトグルボタンをタップして「切断されました」になったことを確認してください．
 
 ---
 

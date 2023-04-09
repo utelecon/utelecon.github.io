@@ -21,7 +21,7 @@ title: iPhoneでUTokyo VPNを利用する
   <img src="img/iphone03-setup_home_popup_notify.png" class="border">
 </figure>
 
-**手順C:** アプリを起動した直後の画面で左上の「接続」をタップし，続いて表示される画面で「VPN接続の追加」をタップすると，下図のようなウィンドウが表示されます．「サーバーアドレス」の横の入力欄をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
+**手順C:** アプリを起動した直後の画面で「接続」をタップし，続いて表示される画面で「VPN接続の追加」をタップすると，下図のようなウィンドウが表示されます．「サーバーアドレス」の横の入力欄をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
 
 ![](img/iphone04-setup_home_connections_add-vpn-connection.png){:.medium.center.border}
 
@@ -35,7 +35,7 @@ title: iPhoneでUTokyo VPNを利用する
 
 以下の手順はVPNを利用するたびに必要です．特に端末を起動した直後に自動的にVPNに接続されるわけではありませんので，ご注意ください．
 
-**手順E:** 下記左図のように画面上部の「接続」に「vpn1.adm.u-tokyo.ac.jp」と記載されていることを確認してください．次に「AnyConnect VPN」の横のトグルボタンをONにして，下記右図のようにUTokyo Accountの認証ウィンドウが表示されたら，ご自身のUTokyo Accountでサインインしてください．前回のアクセスから時間をおかずに起動した場合は，この画面が表示されないで直ちにVPN接続が開始されることもあります．
+**手順E:** 下記1枚目のように画面上部の「接続」に「vpn1.adm.u-tokyo.ac.jp」と記載されていることを確認してください．次に「AnyConnect VPN」の横のトグルボタンをONにして，下記右図のようにUTokyo Accountの認証ウィンドウが表示されたら，ご自身のUTokyo Accountでサインインしてください．前回のアクセスから時間をおかずに起動した場合は，この画面が表示されないで直ちにVPN接続が開始されることもあります．
 
 <figure class="gallery">
   <img src="img/iphone06-home_disconnected.png" class="border">
@@ -52,7 +52,7 @@ title: iPhoneでUTokyo VPNを利用する
 
 ![](img/iphone08-home_connected.png){:.medium.center.border}
 
-VPNを切断する際は，この画面のトグルボタンをタップして「詳細」が「接続解除済み」になったことを確認してください．
+VPNを切断する際は，この画面のトグルボタンをタップして「詳細」が「切断されました」になったことを確認してください．
 
 ---
 
