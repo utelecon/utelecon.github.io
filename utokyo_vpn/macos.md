@@ -56,7 +56,7 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 
 ![](img/mac08-app-window-connect.png){:.medium.center.border}
 
-**手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでサインインしてください．
+**手順F:** 「Connect」ボタンを押し，下記のようなUTokyo Accountの認証ウィンドウが表示されたらご自身のUTokyo Accountでサインインしてください．前回のアクセスから時間をおかずに起動した場合は，この画面が表示されないで直ちにVPN接続が開始されることもあります．
 
 {% include_relative _help_mfa.html %}
 

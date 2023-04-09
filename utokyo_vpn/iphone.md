@@ -48,7 +48,7 @@ title: iPhoneでUTokyo VPNを利用する
 
 {% include_relative _help_security_education.html %}
 
-**手順G:** 下記の画面のように「詳細」が「接続済み」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
+**手順G:** 下記の画面のように「詳細」が「接続中」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
 
 ![](img/iphone08-home_connected.png){:.medium.center.border}
 
