@@ -42,7 +42,7 @@ title: Android端末でUTokyo VPNを利用する
   <img src="img/android07-secure-client-authentication.png" class="border">
 </figure>
 
-このとき，以下のような許可を求める画面が出ることがあります．その場合は内容を確認のうえで「OK」を押してください．
+このとき，下記のように許可を求める画面が出ることがあります．その場合は内容を確認のうえで「OK」を押してください．
 
 ![](img/android08-secure-client-verify-window.png){:.medium.center.border}
 
