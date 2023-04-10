@@ -15,18 +15,18 @@ title: Android端末でUTokyo VPNを利用する
 
 ![](img/android01-play-store.png){:.medium.center.border}
 
-**手順B:** インストールを終えてSecure Clientアプリを開くと，下記の1枚目のような画面が出るので内容を確認のうえ「OK」をタップしてください．下の2枚目のような画面が出たらインストールは完了です．
+**手順B:** インストールを終えてSecure Clientアプリを開くと，以下の1枚目のような画面が出るので内容を確認のうえ「OK」をタップしてください．2枚目のような画面が出たらインストールは完了です．
 
 <figure class="gallery">
   <img src="img/android02-install-1.png" class="border">
   <img src="img/android03-install-2.png" class="border">
 </figure>
 
-**手順C:** 上の画面で「Connections」（日本語で表示されている場合は「接続」）をタップし，続いて右下のプラス「＋」ボタンをタップします．下記のような「接続エディタ」が表示されるので，「サーバーアドレス」をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
+**手順C:** 上の画面で「Connections」（日本語で表示されている場合は「接続」）をタップし，続いて右下のプラス「＋」ボタンをタップします．以下のような「接続エディタ」が表示されるので，「サーバーアドレス」をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
 
 ![](img/android04-connect-editor.png){:.medium.center.border}
 
-**手順D:** 下記のようになっていることを確認したうえで画面下の「完了」をタップします．
+**手順D:** 以下のようになっていることを確認したうえで画面下の「完了」をタップします．
 
 ![](img/android05-connect-editing.png){:.medium.center.border}
 
@@ -42,7 +42,7 @@ title: Android端末でUTokyo VPNを利用する
   <img src="img/android07-secure-client-authentication.png" class="border">
 </figure>
 
-このとき，下記のように許可を求める画面が出ることがあります．その場合は内容を確認のうえで「OK」を押してください．
+このとき，以下のように許可を求める画面が出ることがあります．その場合は内容を確認のうえで「OK」を押してください．
 
 ![](img/android08-secure-client-verify-window.png){:.medium.center.border}
 
@@ -52,7 +52,7 @@ title: Android端末でUTokyo VPNを利用する
 
 {% include_relative _help_security_education.html %}
 
-**手順G:** 下記の画面のようにSecure Clientアプリの下に「接続中」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
+**手順G:** 下記のようにSecure Clientアプリの下に「接続中」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
 
 ![](img/android09-secure-client-connecting.png){:.medium.center.border}
 
