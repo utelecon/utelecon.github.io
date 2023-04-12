@@ -1,5 +1,8 @@
 ---
 title: ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)
+redirect_from:
+  - /antivirus/windows/
+  - /antivirus/macos/
 ---
 
 ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) としてTrendMicro社の製品を提供しています．東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として適宜利用してください．
