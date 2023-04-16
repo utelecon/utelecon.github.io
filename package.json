@@ -18,7 +18,6 @@
     "astro": "2.0.13",
     "astro-seo": "^0.7.1",
     "mdast": "^3.0.0",
-    "mdast-util-toc": "^6.1.1",
     "sass": "^1.57.1",
     "unified": "^10.1.2",
     "unist-builder": "^3.0.1",
