@@ -7,7 +7,7 @@ title: オンライン授業情報交換会 第7回 授業の工夫の共有(1)
 - 日時：2020年5月29日 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々
 - [**スライド**はこちら](luncheon_7_slides.pdf)
-- [**録画**はこちら](https://drive.google.com/file/d/1M6FN3GwH1JF-oMJ8fTc_dlaClhJAM8KT/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-05-29) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 

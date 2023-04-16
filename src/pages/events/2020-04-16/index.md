@@ -6,7 +6,7 @@ title: "2020/04/16 説明会: Sセメスタ開始2週間を経て"
 
 * **場所:** オンライン(Zoom)のみ
 
-* **動画:** <a href="https://drive.google.com/file/d/1Cv-01to0m5svwjhUV7kIt9vZUXOUdg42/view?usp=sharing">動画ファイル（要 ECCS クラウドメール）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  
+* **動画:** <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-04-16">動画ファイル（要 ECCS クラウドメール）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  
 
 **開催趣旨:**
 

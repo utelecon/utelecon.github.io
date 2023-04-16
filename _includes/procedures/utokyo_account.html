@@ -15,7 +15,7 @@
 <li>所属の学部・研究科等から，初期パスワードが記載された「パスワード通知書」を受け取ってください{%
   case page.slug %}{%
     when "oc"
-      %}．授業開始に十分間に合うように配布されるはずですが，不明な場合は所属の学部・研究科等に問い合わせてみてください（※学部1年生には3月22日から「<a href="https://utas-ew.adm.u-tokyo.ac.jp/">合格者情報登録システム</a>」で配布されます）．{%
+      %}．授業開始に十分間に合うように配布されるはずですが，不明な場合は所属の学部・研究科等に問い合わせてみてください（※学部1年生には3月20日から<a href="https://utas-ew.adm.u-tokyo.ac.jp/">合格発表の際に情報登録を行ったWebシステム</a>で配布されます）．{%
     when "faculty_members"
       %}．授業に必要な教員には発行されているはずですが，もらっていない場合は所属部局の事務に問い合わせてください．{%
     when "utokyo_account"
@@ -36,7 +36,10 @@
   <b class="box center"><a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet">UTokyo Account利用者メニュー</a></b>
 </li>
 {%- endif %}
-<li>左上の「ユーザパスワード変更」を押して，パスワードを変更してください（初期パスワードのままでは，各種サービスを利用することができません）．新しいパスワードを決める際には，パスワードの強度を示す表示が「強い」または「とても強い」になるようにしてください．</li>
+<li>
+左上の「パスワード変更」を押して，パスワードを変更してください（初期パスワードのままでは，各種サービスを利用することができません）．新しいパスワードを決める際には，パスワードの強度を示す表示が「強い」または「とても強い」になるようにしてください．
+{% include 20230321-utac-password-notice.html %}
+</li>
 </ol>
 <ul>
 <li>この手順がうまくいかないときは<a href="/support/">サポート窓口</a>に相談してください．</li>
@@ -48,12 +51,12 @@
 {% endunless %}
 {% include procedures/_important.html procedure=change_initial_password type="作業" heading="初期パスワードを変更する" %}
 {% unless include.part == "important" %}
-<li><strong>任意の作業：「多要素認証」を設定する</strong>
+<li><strong>任意の作業：「多要素認証」を有効化する</strong>
 <ul>
-  <li>「多要素認証 (Multi-Factor Authentication, MFA)」とは，アカウントへのサインイン時に，パスワードに加えて，SMSや専用のアプリなどで本人確認を行う認証方法です．UTokyo Accountでは，セキュリティの観点から設定を行うことを推奨していますが，現時点では必須ではありません．</li>
+  <li>「多要素認証 (Multi-Factor Authentication, MFA)」とは，アカウントへのサインイン時に，パスワードに加えて，SMSや専用のアプリなどで本人確認を行う認証方法です．UTokyo Accountでの多要素認証の有効化は，現時点においては必須ではありませんが，セキュリティの観点から有効化することを強く推奨しています．</li>
 </ul>
 <ol>
-  <li>「<a href="/utokyo_account/mfa/">UTokyo Accountにおける多要素認証の利用について</a>」のページに記載の手順で，設定を行ってください．</li>
+  <li>「<a href="/utokyo_account/mfa/initial">UTokyo Account多要素認証の初期設定手順</a>」のページに記載の手順で，有効化を行ってください．</li>
 </ol>
 <ul>
   <li>この手順がうまくいかないときは<a href="/support/">サポート窓口</a>に相談してください．</li>

@@ -7,7 +7,7 @@ top: true
 
 <h2>まずはここから</h2>
   <div class="cards">
-    <a href="/oc/">大学生活に必要な情報システムの準備について<small>（学生向け）</small></a>
+    <a href="/oc/">大学生活に必要な情報システムの準備について<small>（新入生向け）</small></a>
     <a href="/faculty_members/">東京大学における情報システムの準備について<small>（教員向け）</small></a>
     <a href="/online/">オンラインを活用するために</a>
     <a href="/support/">サポート窓口</a>
@@ -15,12 +15,12 @@ top: true
 
   <h2>ピックアップ</h2>
   <div class="cards">
-    <a href="/events/2022-09-14/">授業に, 研究に, 業務に! オンライン会議・クラウドツールの活用説明会<small>(2022/09/14)</small></a>
+    <a href="/events/2023-03-15/">オンラインでも対面でも活用！Web会議・クラウドツールの説明会 <small>(2023/03/15)</small></a>
     <a href="/notice/2023/01-wifi">UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ</a>
-    <a href="/slack/">UTokyo Slack</a>
-    <a href="/antivirus/">ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)</a>
-    <a href="/utokyo_vpn/">UTokyo VPN</a>
     <a href="/utokyo_account/mfa">UTokyo Accountにおける多要素認証の利用について</a>
+    <a href="/slack/">UTokyo Slack</a>
+    <a href="/utokyo_vpn/">UTokyo VPN</a>
+    <a href="/online/topics/generative-ai">生成系AI（ChatGPT等）関連情報</a>
   </div>
 
   <h3>授業にあたって</h3>
@@ -43,12 +43,12 @@ top: true
     - 目安としては3記事から6記事程度を掲載する
   -->
   <div class="cards">
+    <a href="/articles/copyright/">学校・その他教育機関における著作権の取り扱い</a>
     <a href="/articles/itc-lms/">学習管理システムの概要を知る，ITC-LMSを活用する</a>
     <a href="/articles/group-discussion/">オンラインのグループディスカッションで生じやすい問題とその対策案</a>
     <a href="/articles/group-discussion-worksheet/">オンラインのグループディスカッションでワークシートを活用する</a>
     <a href="/articles/gas/">GAS（Google Apps Script）を使ってみましょう</a>
     <a href="/articles/gas/copy">GASを使ってGoogleドライブでファイルとフォルダを複製する方法</a>
-    <a href="/articles/schedule-management/">オンラインツールで予定を管理する</a>
   </div>
 
   <h3>オンライン授業の実践など</h3>
@@ -93,10 +93,9 @@ top: true
       <li><a href="/zoom/">Zoom</a></li>
       <li><a href="/webex/">Webex</a></li>
       <li><a href="/eccs_cloud_email">ECCSクラウドメール<small> (Google Workspace)</small></a></li>
-      <li><a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html">UTokyo Microsoft
-          License<small> (Microsoft 365)</small></a></li>
+      <li><a href="/microsoft/">UTokyo Microsoft License<small> (Microsoft 365)</small></a></li>
       <li><a href="/utokyo_wifi/">UTokyo WiFi</a></li>
       <li><a href="https://www.ecc.u-tokyo.ac.jp/">ECCS端末</a></li>
-      <li><a href="/systems#others">その他</a></li>
+      <li><a href="/systems/#others">その他</a></li>
     </ul>
   </div>

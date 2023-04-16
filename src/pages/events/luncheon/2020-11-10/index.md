@@ -9,7 +9,7 @@ title: オンライン授業情報交換会 第19回 グッドプラクティス
 - 日時：2020年11月10日（火） 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
 - **資料**：[グッドプラクティス紹介 四本裕子 先生の授業 心理I](/good-practice/interview/yotsumoto)
-- [**録画**はこちら](https://drive.google.com/file/d/1iILYgUZ2awlT_nBjlIPYnL032L86pe_g/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020A/2020-11-10) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 

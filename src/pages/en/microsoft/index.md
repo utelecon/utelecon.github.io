@@ -17,7 +17,7 @@ By signing in as a member of UTokyo, you can set up sharing to be limited to UTo
 
 ## Initial Setup Procedures
 
-[UTokyo Account](/en/utokyo_account/) is required to use this service. If you have not yet set up your UTokyo Account, please check “[Preparing for online classes at the University of Tokyo (for new students)](/en/oc/)” or “[Preparing for online classes at the University of Tokyo (for faculty members)](/en/faculty_members)” first.
+[UTokyo Account](/en/utokyo_account/) is required to use this service. If you have not yet set up your UTokyo Account, please check “[How to start using UTokyo Account](/en/utokyo_account/#procedures)” first.
 
 {% include procedures/en/microsoft.html %}
 

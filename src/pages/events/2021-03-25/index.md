@@ -15,7 +15,7 @@ URL は以下のシートから確認できます<br>
 
 * **対象:** 授業をされる教員ならびに教育支援に携わる教職員やTAのうち、Zoomの具体的な使い方について知りたい方々
 
-* **動画:** [mp4 ファイル](https://drive.google.com/file/d/1BH0fmkVdizJnilF3t-f7JlrLDpM0QWmE/view?usp=sharing) (冒頭が少し切れており申し訳ございません)（要 ECCS クラウドメール）
+* **動画:** [mp4 ファイル](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2021-03-25) (冒頭が少し切れており申し訳ございません)（要 ECCS クラウドメール）
 
 * **資料:** [pdf ファイル](slides.pdf)
 

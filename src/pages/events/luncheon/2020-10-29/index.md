@@ -9,7 +9,7 @@ title: オンライン授業情報交換会 第17回 ハイブリッド授業(2)
 - 日時：2020年10月29日（木） 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
 - [**スライド**はこちら](luncheon_17_slides.pdf)
-- [**録画**はこちら](https://drive.google.com/file/d/13WNxWWLLQdgyc8T8beuH9ZbQOm0Y-G-L/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020A/2020-10-29) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 

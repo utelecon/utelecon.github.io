@@ -14,7 +14,7 @@ UTokyo VPNを利用するには，まず自身の端末にVPNクライアント�
 ### 電子ジャーナルへのアクセスについて
 {:#journal}
 
-UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジャーナル等にアクセスすることはできません．附属図書館が契約・提供する電子ジャーナル・電子ブック・データベースを学外から利用するには、附属図書館が提供するEZProxyを使います．Google検索などで見つかった出版社の論文ページから、すばやく論文PDFを入手するには、[こちらのページ](https://note.com/k_yamamoto/n/n0ee13fe38f24)でも紹介されている、[ブックマークレットを使って読む](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy/others#marklet)方法が便利です。もちろん契約外の論文は入手できませんし、契約していてもこの方法で入手できない場合もあります。詳しい利用方法や、利用対象者は図書館の[EZproxy（イージープロキシー）経由で利用する](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy) のページ、[補足情報：学外にいるとき、みつけた論文を読む方法あれこれ](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy/others)をご一読ください．
+UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジャーナル等にアクセスすることはできません．附属図書館が契約・提供する電子ジャーナル・電子ブック・データベースを学外から利用するには、附属図書館が提供するEZproxyを使います．Google検索などで見つかった出版社の論文ページから、すばやく論文PDFを入手するには、[こちらのページ](https://note.com/k_yamamoto/n/n0ee13fe38f24)でも紹介されている、[ブックマークレットを使って読む](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy/others#marklet)方法が便利です。もちろん契約外の論文は入手できませんし、契約していてもこの方法で入手できない場合もあります。詳しい利用方法や、利用対象者は図書館の[EZproxy（イージープロキシー）経由で利用する](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy) のページ、[補足情報：学外にいるとき、みつけた論文を読む方法あれこれ](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy/others)をご一読ください．
 
 
 ## 利用にあたって
@@ -24,8 +24,8 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 
 **利用できる端末の種類:** UTokyo VPNは，WindowsやmacOSなどのコンピュータで利用できます．また，AndroidやiPhone，iPadなどのモバイル端末からも利用可能です．サポートされているバージョンはそれぞれ以下の通りです．
 
-- Windows: Windows 8.1, 10, 11
-- macOS: macOS 10.15 Catalina, 11 Big Sur, 12 Monterey
+- Windows: Windows 10, 11
+- macOS: macOS 10.15 Catalina, 11 Big Sur, 12 Monterey, 13 Ventura
 - Android: Android 9, 10, 11, 12
 - iOS: iOS 14, 15
 - iPadOS: iPadOS 14, 15
@@ -41,13 +41,14 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 </details>
 <details>
 	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
-	当該年度のUTokyo VPNの利用資格が停止されますので，基本的に年度末までUTokyo VPNを利用することはできません．未受講者への対応に関しては， <code>jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp</code>（<code>__at__</code>は@に変更）まで，UTokyo Accountのユーザー名（10桁の共通ID）を添えてお問い合わせください．
+	UTokyo VPNの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていてもITC-LMSから可能となっているので，受講してください．そのうえで，<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">情報セキュリティ教育のページ</a>の下部の「お問い合わせ」から，今後の対応についてお問い合わせください．
+	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
 </details>
 
 ### UTokyo Accountの多要素認証
 {:#mfa}
 
-セキュリティの観点より，UTokyo VPNの利用に当たってはUTokyo Accountの多要素認証の有効化を必須としております．「**[UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)**」のページにある初期設定手順を**最後の「手順4：多要素認証の利用を申請する」まで確実に**行って，UTokyo Accountの多要素認証を有効にしてください．その後，多要素認証の設定が**システムに反映されるまで約40分かかるので，それまでしばらく待ってからUTokyo VPNを利用**してください．
+セキュリティの観点より，UTokyo VPNの利用に当たっては[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須としております．「**[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」を**最後の「手順4：多要素認証の利用を申請する」まで確実に**行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が**システムに反映されるまで約40分かかるので，それまでしばらく待ってからUTokyo VPNを利用**してください．
 
 ## UTokyo VPNの利用手順
 {:#how-to-use}
@@ -95,9 +96,9 @@ UTokyo VPNに接続することで，職員証の発行や就労管理システ�
 
 UTokyo VPNと，部局がそれぞれ独自に提供しているVPNサービスは基本的に無関係です．詳細は部局のネットワーク担当者にご確認ください．
 
-### Q. UTokyo WiFiのアカウントのように半年ごとに新規のアカウント取得は必要か
+### Q. UTokyo Wi-Fiのアカウントのように一年ごとに新規のアカウント取得は必要か
 
-UTokyo VPNの認証はUTokyo WiFiのアカウントではなくUTokyo Accountで行います．そのため基本的に利用者のアカウントの変更は起こらず，継続して利用が可能です．ただし，利用には年１回実施する情報セキュリティ教育の受講が必要です．
+UTokyo VPNの認証はUTokyo Wi-FiのアカウントではなくUTokyo Accountで行います．そのため基本的に利用者のアカウントの変更は起こらず，継続して利用が可能です．ただし，利用には年１回実施する情報セキュリティ教育の受講が必要です．
 
 ## 規程
 {:#term}
