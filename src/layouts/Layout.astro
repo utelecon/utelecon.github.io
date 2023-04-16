@@ -3,12 +3,20 @@ import { SEO } from "astro-seo";
 import { GoogleAnalytics } from "@astrolib/analytics";
 import Header from "@components/Header/index.astro";
 import Footer from "@components/Footer/index.astro";
+import Toc from "@components/Toc/index.astro";
 import "@styles/global.scss";
+import type { MarkdownHeading } from "astro";
 
-export interface Props {
+interface Props {
+  frontmatter: Frontmatter;
+  headings: MarkdownHeading[];
+}
+
+export interface Frontmatter {
   title: string;
   description?: string;
   lang: "ja" | "en";
+  toc?: boolean;
   h1?: string;
   top?: boolean;
   support?: boolean;
@@ -22,14 +30,16 @@ function getDefaultLang(): "ja" | "en" {
   return Astro.url.pathname.startsWith("/en") ? "en" : "ja";
 }
 
+const { frontmatter, headings } = Astro.props;
 const {
   title = "utelecon",
   description = createDefaultDescription(),
   lang = getDefaultLang(),
+  toc = true,
   h1,
   top,
   support,
-} = Astro.props;
+} = frontmatter;
 
 const htmlAttributes = {
   en: {
@@ -94,6 +104,7 @@ const gaid = "";
     <Header lang={lang} top={top} />
     <main id="content">
       {!top && <h1 class="title">{h1 ?? title}</h1>}
+      {!top && toc && <Toc headings={headings} lang={lang} />}
       <slot />
     </main>
     <Footer lang={lang} support={support} />
