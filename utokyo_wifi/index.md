@@ -81,7 +81,7 @@ UTokyo Wi-Fiのアカウントの有効期限は翌年度の4月末です．各�
 
 <table>
   <tr>
-    <th>SSID</th> <td><code>0000UTokyo</code> / <code>UTokyo-WiFi</code></td>
+    <th>SSID</th> <td><code>0000UTokyo</code><div>※<a href="/notice/2023/01-wifi">更新</a>前の旧SSID <code>UTokyo-WiFi</code> は順次利用できなくなります．</div></td>
   </tr>
   <tr>
     <th>セキュリティ</th> <td>WPA2-Enterprise (802.1X)</td>
