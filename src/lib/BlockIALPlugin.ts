@@ -140,7 +140,8 @@ function exitIALIdent(this: CompileContext, token: Token) {
     data = {};
     this.setData("ial", data);
   }
-  const attribute = this.getData("ialAttribute")!;
+  const attribute = this.getData("ialAttribute");
+  if (!attribute) return;
   attribute.ident = this.sliceSerialize(token);
   switch (attribute.type) {
     case "#": {
@@ -156,7 +157,7 @@ function exitIALIdent(this: CompileContext, token: Token) {
 }
 
 function exitIAL(this: CompileContext, token: Token) {
-  const data = this.getData("ial")!;
+  const data = this.getData("ial");
   this.enter({ type: "ial", ...data }, token);
   this.exit(token);
 }
