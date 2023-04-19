@@ -1,6 +1,7 @@
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import { defineConfig } from "astro/config";
+import redirect from "./src/lib/RedirectIntegration.js";
 import blockIALPlugin from "./src/lib/BlockIALPlugin.js";
 import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
 
@@ -20,5 +21,5 @@ export default defineConfig({
     ],
   },
   publicDir: "src/pages",
-  integrations: [mdx(), react()],
+  integrations: [mdx(), react(), redirect()],
 });
