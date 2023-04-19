@@ -121,23 +121,13 @@ function tokenize(
 
 const fromMarkdownExtension: FromMarkdownExtension = {
   canContainEols: ["ial"],
-  enter: {
-    ial: enterIAL,
-  },
   exit: {
     ial: exitIAL,
     ialVariant: exitIALVariant,
     ialIdent: exitIALIdent,
   },
+  transforms: [transform],
 };
-
-function enterIAL(this: CompileContext, token: Token) {
-  this.setData("ial", {});
-}
-
-function buffer(this: CompileContext, token: Token) {
-  this.buffer();
-}
 
 function exitIALVariant(this: CompileContext, token: Token) {
   const type = this.sliceSerialize(token) as "#" | ".";
@@ -145,7 +135,11 @@ function exitIALVariant(this: CompileContext, token: Token) {
 }
 
 function exitIALIdent(this: CompileContext, token: Token) {
-  const data = this.getData("ial")!;
+  let data = this.getData("ial");
+  if (!data) {
+    data = {};
+    this.setData("ial", data);
+  }
   const attribute = this.getData("ialAttribute")!;
   attribute.ident = this.sliceSerialize(token);
   switch (attribute.type) {
@@ -167,6 +161,23 @@ function exitIAL(this: CompileContext, token: Token) {
   this.exit(token);
 }
 
+function transform(tree: Root) {
+  visit(tree, "ial", (node, index, parent) => {
+    if (parent === null || index === null) return;
+    const last: Node<MdastData> = parent.children[index - 1];
+
+    last.data ??= {};
+    last.data.hProperties ??= {};
+    if (node.id) {
+      last.data.id = node.id;
+      last.data.hProperties.id = node.id;
+    }
+    if (node.className) {
+      last.data.hProperties.className = node.className;
+    }
+  });
+}
+
 export default function blockIALPlugin(this: ThisParameterType<Plugin>) {
   const data = this.data();
   data.micromarkExtensions ??= [];
@@ -174,21 +185,4 @@ export default function blockIALPlugin(this: ThisParameterType<Plugin>) {
 
   data.fromMarkdownExtensions ??= [];
   (data.fromMarkdownExtensions as any).push([fromMarkdownExtension]);
-
-  return function (tree: Root) {
-    visit(tree, "ial", (node, index, parent) => {
-      if (parent === null || index === null) return;
-      const last: Node<MdastData> = parent.children[index - 1];
-
-      last.data ??= {};
-      last.data.hProperties ??= {};
-      if (node.id) {
-        last.data.id = node.id;
-        last.data.hProperties.id = node.id;
-      }
-      if (node.className) {
-        last.data.hProperties.className = node.className;
-      }
-    });
-  };
 }
