@@ -22,4 +22,5 @@ export default defineConfig({
   },
   publicDir: "src/pages",
   integrations: [mdx(), react(), redirect()],
+  site: "https://utelecon.adm.u-tokyo.ac.jp",
 });
