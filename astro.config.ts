@@ -1,9 +1,9 @@
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import { defineConfig } from "astro/config";
+import redirect from "./src/lib/RedirectIntegration.js";
 import blockIALPlugin from "./src/lib/BlockIALPlugin.js";
 import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
-import insertTocPlugin from "./src/lib/InsertTocPlugin.js";
 
 // https://astro.build/config
 export default defineConfig({
@@ -18,9 +18,8 @@ export default defineConfig({
     remarkPlugins: [
       [defaultFrontmatterPlugin, { layout: "@layouts/Layout.astro" }],
       blockIALPlugin,
-      insertTocPlugin,
     ],
   },
   publicDir: "src/pages",
-  integrations: [mdx(), react()],
+  integrations: [mdx(), react(), redirect()],
 });

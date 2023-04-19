@@ -19,4 +19,4 @@ Zoom
 [pdf](slides.pdf)
 
 ## 動画
-[mp4（要 ECCS クラウドメール）](https://drive.google.com/file/d/1BS0DUilel4zikhvHbIR2mMCTZ_vKBry_/view?usp=sharing)</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  
+[mp4（要 ECCS クラウドメール）](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-09-02)</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCSクラウドメールの設定方法</a>）  

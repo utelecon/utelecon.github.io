@@ -67,7 +67,7 @@ Google Workspaceは，GmailやGoogleドライブ・Googleドキュメント・Go
 {:#microsoft-365}
 Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサービスの総称です．東京大学では有料ライセンスを契約しており，「UTokyo Microsoft License」の名称で提供しています．
 
-- **[UTokyo Microsoft Licenseのページ](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)**：東京大学におけるUTokyo Microsoft License利用上の注意事項などがまとまっています．
+- **[UTokyo Microsoft Licenseのページ](/microsoft/)**：東京大学におけるUTokyo Microsoft License利用上の注意事項などがまとまっています．
 
 
 

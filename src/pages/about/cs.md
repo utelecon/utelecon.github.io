@@ -36,4 +36,4 @@ title: コモンサポーターについて
 * 野口岳，中條麟太郎，冨田里奈，新堂風，德永紗英「デジタルネイティブ世代の学生が大学のオンライン授業をサポートする 〜九州大学と東京大学の事例から〜」（第19回 [4月からの大学等遠隔授業に関する取組状況サイバーシンポジウム](https://www.nii.ac.jp/event/other/decs/)，2020年10月23日）[資料](https://www.nii.ac.jp/event/upload/20201023-11_Noguchi.pdf)・[映像](https://youtu.be/4NkKYCX-Aa0)
 * 中條麟太郎， 金子亮大，小松寛弥，竹内朗，山田和佳「学生によるオンライン授業サポートチャットの運用」（第13回 [4月からの大学等遠隔授業に関する取組状況サイバーシンポジウム](https://www.nii.ac.jp/event/other/decs/)，2020年7月31日）[資料](https://www.nii.ac.jp/event/upload/20200731-08_Chujo.pdf)・[映像](https://youtu.be/_giwSi2K1c4)
 * 「[オンライン授業のチャットサポートを知っていますか？【学生メンバーにインタビュー】](https://todai-umeet.com/article/55605)」（UmeeT，2020年7月23日）
-* 中條麟太郎，金子亮大，小松寛弥，竹内朗，山田和佳「コモンサポーターの活動紹介」（第12回 [オンライン授業情報交換会](/events/2020-luncheon/)，2020年6月29日）[資料](/events/2020-luncheon/luncheon_12_slides.pdf)・[映像](https://drive.google.com/file/d/1vuFdU29dg0usyn3LwZJznckPIBHrhXic/view?usp=sharing)
+* 中條麟太郎，金子亮大，小松寛弥，竹内朗，山田和佳「コモンサポーターの活動紹介」（第12回 [オンライン授業情報交換会](/events/2020-luncheon/)，2020年6月29日）[資料](/events/2020-luncheon/luncheon_12_slides.pdf)・[映像](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-06-29)

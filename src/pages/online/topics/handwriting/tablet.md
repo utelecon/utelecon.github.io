@@ -13,7 +13,7 @@ iPadなどのタブレットにタブレット用のペンを用いて書き込�
     - 実践例：[オンライン授業のグッドプラクティス／齊藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito)
 - アプリとして「**Microsoft OneNote**」を使う方法
     - iPadだけでなくWindowsやAndoridのタブレットにも対応しています．
-    - 基本的な機能は無料で利用できます．また，東京大学の[UTokyo Microsoft License](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)では追加の有料機能も利用することができます．
+    - 基本的な機能は無料で利用できます．また，東京大学の[UTokyo Microsoft License](/microsoft/)では追加の有料機能も利用することができます．
     - 解説記事：**[OneNoteで板書する](/articles/onenote-whiteboard)**
     - 実践例：[オンライン授業のグッドプラクティス／入江薫先生 数理統計I、II](/good-practice/interview/irie)（入江先生による映像でのご報告を[第20回オンライン授業情報交換会](/events/luncheon/2020-11-18/)のページで学内限定公開しています）
 - Zoomの「注釈（コメント）」機能を使う方法

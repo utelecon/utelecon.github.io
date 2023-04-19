@@ -24,7 +24,7 @@ Some options for taking attendance are:
 
 #### Q. How do I create a university account?
 * UTokyo Zoom Account is generated automatically if you own a UTokyo Account.
-* Activation of your UTokyo Account is therefore crucial. Please consult[Preparing for online classes at the University of Tokyo (for new students)](/en/oc/)or [Preparing for online classes at the University of Tokyo (for faculty members)](/en/faculty_members)」for further details on UTokyo Accounts.
+* Activation of your UTokyo Account is therefore crucial. Please consult[Getting Ready for ICT Systems (for new students)](/en/oc/)or [Getting Ready for ICT Systems (for faculty members)](/en/faculty_members)」for further details on UTokyo Accounts.
 * If necessary, please also refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin).
 
 #### Q. Is this service free?

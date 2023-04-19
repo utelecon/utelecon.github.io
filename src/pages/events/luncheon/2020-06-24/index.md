@@ -8,7 +8,7 @@ title: オンライン授業情報交換会 第11回 オンライン授業で使
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
 - 資料：[GAS ファイルコピー](luncheon_11_copyFiles.txt)，[GAS フォルダコピー](luncheon_11_copyFolder.txt)
 - [**スライド**はこちら](luncheon_11_slides.pdf)
-- [**録画**はこちら](https://drive.google.com/file/d/11l1LRzt8Xa_0iKQegCGtWr9L2AtJJ6gl/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-06-24) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 
 ---
 

@@ -24,14 +24,14 @@ MATLABは，科学技術計算を目的に開発された多機能なソフト�
 
 (2022-12-28) 掲載準備の整った資料を追加しました．録画・他の資料も可能な範囲で掲載予定ですが，現在準備中です．いましばらくお待ちください．
 
-- 挨拶（太田邦史 理事・副学長／情報システム本部長）
-- MATLAB包括契約の概要（情報システム本部）：
-- MATLABの機能紹介（MathWorks社）：[資料](https://content.mathworks.com/viewer/63a1af8096c1635d7333962a)
+- 挨拶（太田邦史 理事・副学長／情報システム本部長）[録画](https://youtu.be/XCUlLmSShVg)
+- MATLAB包括契約の概要（情報システム本部）：[録画](https://youtu.be/wawn_Nt7YV4)
+- MATLABの機能紹介（MathWorks社）：[資料](https://content.mathworks.com/viewer/63a1af8096c1635d7333962a) 
 - 学内のMATLAB活用事例紹介
-    - 藤堂 眞治 先生（理学系研究科）：[資料](todo.pdf)
-    - 島田 尚 先生（工学系研究科）
-    - 大西 亘 先生（工学系研究科）
-- MATLABの利用に関する学内のサポート体制（東大MATLABアンバサダー・情報システム本部）：[資料](ambassador.pdf)
+    - 藤堂 眞治 先生（理学系研究科）：[資料](todo.pdf) [録画](https://youtu.be/15IjUm6lZV8)
+    - 島田 尚 先生（工学系研究科）[録画](https://youtu.be/VzKNozwgnUw)
+    - 大西 亘 先生（工学系研究科）[録画](https://youtu.be/f8eAUyrHnQI)
+- MATLABの利用に関する学内のサポート体制（東大MATLABアンバサダー・情報システム本部）：[資料](ambassador.pdf) [録画](https://youtu.be/6RKKGQcZBYc)
 
 オンライン会場からの質疑応答はZoomのQ&A機能を利用してください．
 

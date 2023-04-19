@@ -17,7 +17,7 @@ title: UTokyo Microsoft License (Microsoft 365)
 
 ## 利用開始の手順
 
-利用には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（学生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．
+利用には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．
 
 {% include procedures/microsoft.html %}
 

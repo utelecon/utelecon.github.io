@@ -98,7 +98,7 @@ LINEオープンチャットはテキストのやりとり主としたコミュ�
 ### ツール紹介
 #### Microsoft Office
 
-Microsoft Officeはマイクロソフトが提供するデスクトップアプリケーションの総称です．東京大学では学生と教職員に対してWord, Excel, PowerPoint及びOneDrive等について最新版を無償で提供しています．一般的な使い方は「[UTokyo Microsoft License](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)」を参考にしてください．
+Microsoft Officeはマイクロソフトが提供するデスクトップアプリケーションの総称です．東京大学では学生と教職員に対してWord, Excel, PowerPoint及びOneDrive等について最新版を無償で提供しています．一般的な使い方は「[UTokyo Microsoft License](/microsoft/)」を参考にしてください．
 
 
 #### Google Workspace
@@ -171,16 +171,14 @@ Google ScholarはGoogleが提供する，学術論文に特化した検索エン
 EZproxyについての詳細は，先述したLiteracyの項を参考にしてください．また，Google ScholarとEZproxyを併用する方法については，[こちら](https://www.sodan.ecc.u-tokyo.ac.jp/hack/search-engine-via-ssl-vpn/)の記事を参考にしてください．
 
 
-#### Cinii Articles
+#### Cinii Research
 
 
 <figure>
-<img src="image7.png" height="70px">
+<img src="pic14.png" height="70px">
 </figure>  
-CiNii Articlesは国立情報学研究所が運営する論文検索サイトです．こちらは日本国内の雑誌の論文を多く見つけられます．論文だけでなく，大学図書館の図書も検索で出てくるので，図書館にアクセスできる環境の場合は有用です．
-
-詳細検索では論文記事のタイトルや著者名，出版年などで検索の絞り込みができます．さらに全文検索で論文に含まれる文章を検索できます．
-
+CiNii Researchは国立情報学研究所が運営する論文や研究データのデータベースを横断検索できるサイトです．日本国内の雑誌の論文や提供されているデータベースに含まれる研究データやKAKENの研究プロジェクト情報を多く見つけられます．論文に限らず，大学図書館の図書も検索結果に表示されるため，図書館にアクセスできる環境の場合は有用です．
+詳細検索ではタイトルや著者名，出版年などで検索の絞り込みができます．
 
 ## 資料を共有する
 

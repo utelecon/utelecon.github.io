@@ -1,0 +1,106 @@
+---
+import type { MarkdownHeading } from "astro";
+
+interface Props {
+  headings: MarkdownHeading[];
+  lang: "ja" | "en";
+}
+
+interface Headings extends MarkdownHeading {
+  children: Headings[];
+}
+
+function push(current: Headings, heading: MarkdownHeading) {
+  if (heading.depth === current.depth + 1) {
+    current.children.push({ ...heading, children: [] });
+  } else if (heading.depth > current.depth + 1) {
+    const last = current.children[current.children.length - 1];
+    if (last) push(last, heading);
+  }
+}
+
+const headings: Headings[] = [];
+let current: Headings | undefined;
+
+for (const heading of Astro.props.headings) {
+  if (heading.depth === 2) {
+    current = { ...heading, children: [] };
+    headings.push(current);
+  } else {
+    if (current) push(current, heading);
+  }
+}
+---
+
+<section class="main__toc">
+  <h2>{Astro.props.lang === "ja" ? "目次" : "Table of Contents"}</h2>
+  <ul>
+    {
+      headings.map((h2) => (
+        <li>
+          <a href={`#${h2.slug}`}>{h2.text}</a>
+          {h2.children.length > 0 && (
+            <ul>
+              {h2.children.map((h3) => (
+                <li>
+                  <a href={`#${h3.slug}`}>{h3.text}</a>
+                  {h3.children.length > 0 && (
+                    <ul>
+                      {h3.children.map((h4) => (
+                        <li>
+                          <a href={`#${h4.slug}`}>{h4.text}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+  .main__toc {
+    padding: 1em 0 0;
+    margin: 2.29em 0;
+    font-size: 0.875em;
+    border-radius: 1em;
+    background-color: $white-gray-light;
+    & > h2 {
+      margin: 0 0 0.4em 0.8em;
+      padding: 0;
+      border: none;
+      font-size: 1.25em;
+      font-weight: bold;
+      color: $text-color;
+      &:only-child {
+        padding-bottom: 0.8em;
+      }
+    }
+    ul {
+      margin: 0;
+      padding-left: 1em;
+    }
+    li {
+      display: contents;
+    }
+    li > a {
+      display: block;
+      border-top: 1px solid white;
+      color: $link-color-light;
+      padding: 0.25em 1em 0.25em 0;
+      &:hover {
+        color: $link-color;
+        background-color: $white-gray-dark;
+      }
+      @media (pointer: coarse) {
+        padding: 0.75em 1em 0.75em 0;
+      }
+    }
+  }
+</style>

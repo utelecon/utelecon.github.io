@@ -30,22 +30,22 @@ title: 大学生活に必要な情報システムの準備について（新入�
 ### UTokyo Account：初期パスワードを変更する
 {:#utokyo_account}
 {{ annote }}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eD4MX1luVd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lHetGzjAqno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### ECCSクラウドメール：パスワードとメールアドレスを設定する
 {:#google}
 {{ annote }}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/caBG40-MsEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a8R0R_mMad0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### UTAS：ログインしてメールアドレスが登録されているか確認する
 {:#utas}
 {{ annote }}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OZOxQLBV81o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OLkhBj48ExE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### UTokyo WiFi：アカウントを申請する
+### UTokyo Wi-Fi：アカウントを申請する
 {:#utokyo_wifi}
 {{ annote }}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7mGEsUPXUDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2n3xk6ofsfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 情報システムに関するその他の準備手順
 準備が必要な各種情報システムのうち一部のものについて，準備手順を動画で説明します．
@@ -54,9 +54,9 @@ title: 大学生活に必要な情報システムの準備について（新入�
 ### Zoom
 {:#zoom}
 {{ annote }}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZghDWvvt__w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f-o-fRJQRag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### UTokyo Microsoft License (Microsoft 365)
 {:#microsoft}
 {{ annote }}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IcTqaF9CQ9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IVpyO-CjCWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

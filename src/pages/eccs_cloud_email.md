@@ -19,8 +19,9 @@ title: ECCSクラウドメール (Google Workspace)
 東大のアカウントを作成すると，通常のGoogleアカウントでは不可能な，東大のアカウントに限って公開するという共有の設定（限定公開）ができます．また，そのようなページにアクセスするために，既にGoogleのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．
 
 ## 利用開始の手順
+{:#initial-setup}
 
-ECCSクラウドメールの利用（アカウント作成）には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「（学生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教職員向け）[東京大学における情報システムの準備について](/faculty_members)」を確認してください．
+ECCSクラウドメールの利用（アカウント作成）には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．
 
 {% include procedures/google.html %}
 

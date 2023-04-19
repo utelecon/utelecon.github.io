@@ -21,9 +21,9 @@ title: システム運用状況（障害情報等）一覧
     - [ECCSの障害情報](https://www.ecc.u-tokyo.ac.jp/announcement/trouble.html)
 - **UTokyo Microsoft License (Microsoft 365)**
     - [Service Status](https://portal.office.com/servicestatus)
-- **UTokyo WiFi**
-    - [UTokyo WiFiのページ](/utokyo_wifi/)
-- **UTNET**（UTokyo WiFiを含むキャンパス内のネットワーク）
+- **UTokyo Wi-Fi**
+    - [UTokyo Wi-Fiのページ](/utokyo_wifi/)
+- **UTNET**（UTokyo Wi-Fiを含むキャンパス内のネットワーク）
     - [お知らせ](https://www.nc.u-tokyo.ac.jp/infoall)
 
 また，学外事業者の提供するZoom・Webex・ECCSクラウドメール (Google Workspace)・UTokyo Microsoft License (Microsoft 365) の各システムについては，SNSの書き込みをもとに障害の可能性を表示するサービスである「[Downdetector](https://downdetector.jp/)」の情報も，障害が発生しているかどうかの判断の参考となるかもしれません（各システムの提供元からの公式の情報ではないことに留意して利用してください）．

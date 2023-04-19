@@ -6,7 +6,7 @@ title: 2020/04/16 Briefing session - Two weeks after the start of S semester
 
 * **Place:** Online (Zoom) only
 
-* **Video:** <a href="https://drive.google.com/file/d/1Cv-01to0m5svwjhUV7kIt9vZUXOUdg42/view?usp=sharing">Video file (ECCS cloud mail required) </a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCS cloud mail setting</a>）  
+* **Video:** <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-04-16">Video file (ECCS cloud mail required) </a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">ECCS cloud mail setting</a>）  
 
 **Event Summary:**
 
