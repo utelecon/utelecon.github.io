@@ -104,7 +104,11 @@ const gaid = "";
     <Header lang={lang} top={top} />
     <main id="content">
       {!top && <h1 class="title">{h1 ?? title}</h1>}
-      {!top && toc && <Toc headings={headings} lang={lang} />}
+      {
+        !top && toc && headings.length > 0 && (
+          <Toc headings={headings} lang={lang} />
+        )
+      }
       <slot />
     </main>
     <Footer lang={lang} support={support} />
