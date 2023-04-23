@@ -2,7 +2,7 @@
 title: 生成系AI（ChatGPT等）関連情報
 ---
 
-このページでは，ChatGPT等の生成系AI (Generative AI) に関する情報をまとめています．
+このページでは，ChatGPT等の生成系AI (Generative AI) に関する情報をまとめていきます（随時更新予定）．
 
 ## 本ポータルサイト (utelecon) の情報
 

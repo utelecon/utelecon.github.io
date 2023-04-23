@@ -86,7 +86,7 @@ UTokyo Wi-Fi accounts expire at the end of April of the following fiscal year. N
 
 <table>
   <tr>
-    <th>SSID</th> <td><code>0000UTokyo</code> / <code>UTokyo-WiFi</code></td>
+    <th>SSID</th> <td><code>0000UTokyo</code><div>* The old SSID <code>UTokyo-WiFi</code> used before <a href="/en/notice/2023/01-wifi">the update</a> is gradually becoming unavailable.</div></td>
   </tr>
   <tr>
     <th>Security</th> <td>WPA2-Enterprise (802.1X)</td>
