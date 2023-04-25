@@ -22,6 +22,12 @@ css: [mfa]
 
 手順1から順に，**手順4までのすべての作業を行ってください**．なお，手順を終えると，その後**UTokyo Accountにサインインする際，毎回，設定したSMSや専用のアプリなどで本人確認することが求められます**．本人確認方法（スマホのアプリや電話番号）が利用できない状態ではUTokyo Accountにサインインすることができなくなりますので，十分ご注意ください．
 
+### 初期設定手順の動画
+
+このページで説明している初期設定手順を動画でも説明しています．
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/km-v8v_LvwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## 手順1：1個目の本人確認方法を登録する
 {:#first.mfa-initial-step-heading}
 
