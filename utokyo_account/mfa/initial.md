@@ -14,7 +14,7 @@ css: [mfa]
 
 - まず，手順1および手順2で，サインイン時に利用する「本人確認方法」を登録します．本人確認方法には以下の種類がありますので，トラブルに備えて必ず2個以上を登録してください（同じ種類のものを2個でもかまいません）．
     - **「Microsoft Authenticator」アプリ**を使う方法：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，このアプリを本人確認方法として使うのが便利です．2台以上のスマホを持っている場合は，それぞれのスマホで登録することができます．
-    - **「Microsoft Authenticator」以外の認証アプリ**を使う方法：もし既に「Google Authenticator」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．2台以上のスマホを持っている場合は，それぞれのスマホで登録することができます．
+    - **「Microsoft Authenticator」以外の認証アプリ**を使う方法：もし既に「Google認証システム」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．2台以上のスマホを持っている場合は，それぞれのスマホで登録することができます．
     - **電話番号**を使う方法：電話番号を登録しておき，その電話番号でSMSまたは音声通話（自動音声ガイダンス）の着信を受け取って本人確認を行う方法です．
     - （教職員向け）**貸出ハードウェアトークン**を使う方法：上記の本人確認方法方法がいずれも利用できない場合，「ハードウェアトークン」という専用の機器を貸し出しています（教職員向け）．初期設定の手順が他の本人確認方法と異なりますので，[UTokyo Portalの案内ページ（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Token.aspx)を参照して利用してください．
 - 手順3は，登録した本人確認方法を利用して実際にサインインできるか確認する手順です．
@@ -69,7 +69,7 @@ css: [mfa]
 </details>
 </li>
 <li>
-<strong>「Microsoft Authenticator」以外の認証アプリを使う方法</strong>：もし既に「Google Authenticator」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．
+<strong>「Microsoft Authenticator」以外の認証アプリを使う方法</strong>：もし既に「Google認証システム」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．
 <details>
 <summary>登録手順</summary>
 <ol>
@@ -137,7 +137,7 @@ css: [mfa]
 </details>
 </li>
 <li>
-<strong>「Microsoft Authenticator」以外の認証アプリを使う方法</strong>：もし既に「Google Authenticator」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で登録することもできます．
+<strong>「Microsoft Authenticator」以外の認証アプリを使う方法</strong>：もし既に「Google認証システム」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で登録することもできます．
 <details>
 <summary>登録手順</summary>
 <ol>
