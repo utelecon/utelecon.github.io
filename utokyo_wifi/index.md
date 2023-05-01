@@ -95,21 +95,12 @@ UTokyo Wi-Fiのアカウントの有効期限は翌年度の4月末です．各�
   <tr>
     <th>サーバ証明書</th>
     <td>
-      次のいずれかが使用されます：
       <ul style="margin-top: 0; margin-bottom: 0;">
         <li>名称 (Common Name): <code>acm.wifi.adm.u-tokyo.ac.jp</code></li>
         <li>発行元: <code>NII Open Domain CA - G7 RSA</code></li>
         <li>ルート証明書: <code>Security Communication RootCA2</code></li>
         <li>指紋 (Fingerprint) SHA-1: <code style="word-break: break-all;">6D:F0:B1:18:F1:8F:16:A5:D3:94:AC:E2:26:7A:C1:0A:F2:94:B1:37</code></li>
         <li>指紋 (Fingerprint) SHA-256: <code style="word-break: break-all;">6F:CF:A6:06:B1:45:C2:23:53:E7:BA:D7:B4:08:B3:CD:22:DA:80:A0:1A:6A:E3:91:9A:3A:47:E6:C0:6A:AB:46</code></li>
-      </ul>
-      または
-      <ul style="margin-top: 0; margin-bottom: 0;">
-        <li>名称 (Common Name): <code>netacm.adm.u-tokyo.ac.jp</code></li>
-        <li>発行元: <code>NII Open Domain CA - G7 RSA</code></li>
-        <li>ルート証明書: <code>Security Communication RootCA2</code></li>
-        <li>指紋 (Fingerprint) SHA-1: <wbr><code style="word-break: break-all;">ED:AA:E5:70:E7:96:A0:6B:E7:78:C2:D6:7A:56:5F:A4:22:19:A1:B2</code></li>
-        <li>指紋 (Fingerprint) SHA-256: <wbr><code style="word-break: break-all;">FF:3B:CF:6B:72:3B:0D:F7:63:76:92:F1:CF:90:BC:60:18:3D:88:03:27:4C:A3:FB:67:BE:6E:72:58:F0:B8:E4</code></li>
       </ul>
       ※証明書の「ドメイン」を入力するよう求められた場合は，<code style="word-break: break-all;">u-tokyo.ac.jp</code>を入力してください．</td>
   </tr>
