@@ -12,7 +12,7 @@ YubiKeyには，FIDOと呼ばれる高度な仕組みで多要素認証を行う
 
 ## Yubico Authenticatorの登録手順
 
-YubiKeyセキュリティキーとYubico Authenticatorアプリの組み合わせをUTokyo Accountの多要素認証の本人確認方法として登録するためには，以下の4つの手順を行なってください．
+YubiKeyセキュリティキーとYubico Authenticatorアプリの組み合わせをUTokyo Accountの多要素認証の本人確認方法として登録するためには，以下の4つの手順を行ってください．
 
 ### 「Yubico Authenticator」アプリのインストール
 
