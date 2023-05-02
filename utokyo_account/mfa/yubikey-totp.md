@@ -12,11 +12,11 @@ YubiKeyには，FIDOと呼ばれる高度な仕組みで多要素認証を行う
 
 ## Yubico Authenticatorの登録手順
 
-YubiKeyを6桁のコードを使う本人確認方法として登録するためには，以下の4つの手順を行なってください．
+YubiKeyセキュリティキーとYubico Authenticatorアプリの組み合わせをUTokyo Accountの多要素認証の本人確認方法として登録するためには，以下の4つの手順を行なってください．
 
 ### 「Yubico Authenticator」アプリのインストール
 
-YubiKeyで6桁のコードを本人確認方法として登録するためには，お使いのパソコンやスマホに「Yubico Authenticator」というアプリをダウンロードし，YubiKeyを登録する必要があります．
+まず，お使いのパソコンやスマホにYubico Authenticatorアプリをダウンロードし，YubiKeyを登録する必要があります．
 
 1. [Yubico Authenticatorアプリのダウンロードページ](https://www.yubico.com/products/yubico-authenticator/)から，お使いの機器にアプリをインストールしてください．
 2. Yubico Authenticatorアプリの指示に従って，YubiKeyを接続してください．
