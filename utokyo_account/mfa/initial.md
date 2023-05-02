@@ -218,8 +218,6 @@ css: [mfa]
 
 なお，事務業務端末（職員向け）のリモートアクセス (Citrix Workspace) が接続中の場合，多要素認証の利用申請を行うと接続が強制的に切断されるため，あらかじめ接続を終了（サインアウト）してから以下の手順を行ってください．
 
-{% include 20230429-utac-user-menu.html %}
-
 1. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)にアクセスしてください．
 2. UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してログインしてください．
 3. 左のメニューにある「多要素認証利用申請」を押してください．<img src="user_menu_1.png">
