@@ -16,7 +16,7 @@ UTokyo Accountの多要素認証では，多くのシステムでFIDOに対応�
 「YubiKey」という製品の一部のモデルでは，FIDOに加え，「Yubico Authenticator」というアプリと連携し，Yubikeyを接続した端末上のアプリに表示されるコード（6桁の数字）を入力するTOTP（Time-based One-Time Password）という本人確認方法も使えるため，便利です．YubiKeyで「Yubico Authenticator」アプリを使用する方法についての詳細は「[UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法](yubikey-totp)」のページを参照してください．
 
 ### 一部のOS・ブラウザでは使えません
-{:unsupported-os-browser}
+{:#unsupported-os-browser}
 
 FIDOは，iOSのSafariやAndroidのGoogle Chrome，macOSのSafariなど一部のOSとブラウザの組み合わせでは利用できません．2023年4月時点で利用できるOSとブラウザの組み合わせは，以下の通りです．
 
