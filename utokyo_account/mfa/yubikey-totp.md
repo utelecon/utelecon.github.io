@@ -23,7 +23,7 @@ YubiKeyセキュリティキーとYubico Authenticatorアプリの組み合わ�
 
 ### QRコードの表示
 
-Yubico AuthenticatorアプリをUTokyo Accountの多要素認証の本人確認方法として登録するために，[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)でQRコードを表示させる必要があります．
+Yubico AuthenticatorアプリをUTokyo Accountの多要素認証の本人確認方法として登録するために，[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)でQRコードを表示させる必要があります．QRコードを表示させる方法は，Yubico Authenticatorを何個目の本人確認方法として登録するかによって異なるため，それぞれ説明します．
 
 #### 1個目の本人確認方法としてYubico Authenticatorアプリを登録する場合
 
