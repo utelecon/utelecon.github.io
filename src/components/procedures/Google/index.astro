@@ -11,18 +11,29 @@ interface Props {
 }
 
 const { part, pageSlug, system = "ECCSクラウドメール" } = Astro.props;
----
 
-<Important
-  part={part}
-  pageSlug={pageSlug}
-  include={{
+const importantProps: Parameters<typeof Important>[0] = {
+  part,
+  pageSlug,
+  include: {
     type: "作業",
     heading: "パスワードとメールアドレスを設定する",
-  }}
-  system={system}
->
-  <Procedure part={part} pageSlug={pageSlug} />
-</Important>
+  },
+  system,
+};
+---
 
-{part !== "important" && <Confirmation />}
+{
+  part === "important" ? (
+    <Important {...importantProps}>
+      <Procedure part={part} pageSlug={pageSlug} />
+    </Important>
+  ) : (
+    <ul>
+      <Important {...importantProps}>
+        <Procedure part={part} pageSlug={pageSlug} />
+      </Important>
+      <Confirmation />
+    </ul>
+  )
+}
