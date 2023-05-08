@@ -14,7 +14,7 @@ interface Props {
 function Point({ part, include, system }: Props) {
   return (
     <strong>
-      {part != "important" ? <>{system}</> : <>{include.type}</>}
+      {part === "important" ? <>{system}</> : <>{include.type}</>}
       ：
       {include.heading}
     </strong>
