@@ -1,6 +1,7 @@
 ---
 // このファイルについての詳細はこのディレクトリのREADME.mdを参照してください
 import Important from "../Important";
+import Confirmation from "./confirmation.astro";
 import Procedure from "./procedure.astro";
 
 interface include {
@@ -32,3 +33,5 @@ const {
 }} system={system} >
   <Procedure part={part} pageSlug={pageSlug} />
 </Important>
+
+{part !== "important" && <Confirmation />}
