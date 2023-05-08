@@ -4,33 +4,24 @@ import Important from "../Important";
 import Confirmation from "./confirmation.astro";
 import Procedure from "./procedure.astro";
 
-interface include {
-  type: string;
-  heading: string;
-  procedure: string;
-  part?: string;
-}
-
 interface Props {
   part?: string;
   pageSlug?: string;
-  include: include;
   system: string;
 }
 
-const {
-  part,
-  pageSlug,
-  include,
-  system  = "ECCSクラウドメール",
-} = Astro.props;
-
+const { part, pageSlug, system = "ECCSクラウドメール" } = Astro.props;
 ---
 
-<Important part={part} pageSlug={pageSlug} include={{
-  type: "作業",
-  heading: "パスワードとメールアドレスを設定する",
-}} system={system} >
+<Important
+  part={part}
+  pageSlug={pageSlug}
+  include={{
+    type: "作業",
+    heading: "パスワードとメールアドレスを設定する",
+  }}
+  system={system}
+>
   <Procedure part={part} pageSlug={pageSlug} />
 </Important>
 
