@@ -1,8 +1,8 @@
 ---
 // このファイルについての詳細はこのディレクトリのREADME.mdを参照してください
 import Important from "../Important";
-import Confirmation from "./confirmation.astro";
-import Procedure from "./procedure.astro";
+import Verify from "./Verify.astro";
+import Procedure from "./ConfigureEmailPassword.astro";
 
 interface Props {
   part?: string;
@@ -33,7 +33,7 @@ const importantProps: Parameters<typeof Important>[0] = {
       <Important {...importantProps}>
         <Procedure part={part} pageSlug={pageSlug} />
       </Important>
-      <Confirmation />
+      <Verify />
     </ul>
   )
 }
