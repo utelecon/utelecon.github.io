@@ -5,6 +5,8 @@ redirect_from:
   - /en/supports/
 ---
 
+{% include emergency.html %}
+
 * The Technical Support Desk aims to respond to inquiries regarding online classes and web conferences.
 * To expand our services, support is co-operated by student staff ("Common Supporters") and faculty members.
 * We offer assistance through chats, Zoom, and email forms. Please contact us through the channel that best suits you. 
