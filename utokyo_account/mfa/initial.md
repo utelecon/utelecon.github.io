@@ -13,9 +13,10 @@ css: [mfa]
 このページでは，多要素認証の利用を有効化するための初期設定手順について説明します．全体の流れは以下のようになります．
 
 - まず，手順1および手順2で，サインイン時に利用する「本人確認方法」を登録します．本人確認方法には以下の種類がありますので，トラブルに備えて必ず2個以上を登録してください（同じ種類のものを2個でもかまいません）．
-    - **「Microsoft Authenticator」アプリ**を使う方法：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，このアプリを本人確認方法として使うのが便利です．2台以上のスマホを持っている場合は，それぞれのスマホで登録することができます．
-    - **「Microsoft Authenticator」以外の認証アプリ**を使う方法：もし既に「Google Authenticator」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．2台以上のスマホを持っている場合は，それぞれのスマホで登録することができます．
+    - **「Microsoft Authenticator」アプリ**を使う方法：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，他の認証アプリよりスムーズに利用できます．2台以上のスマホを持っている場合は，それぞれのスマホで登録することができます．
+    - **「Microsoft Authenticator」以外の認証アプリ**を使う方法：「Google認証システム」など，「Microsoft Authenticator」以外の認証アプリを使うこともできます．スマホアプリだけでなく，セキュリティキーと呼ばれる専用の機器と連携させて利用するパソコンのアプリもあります（一例としては，「YubiKey」というセキュリティキー製品と連携して使う「Yubico Authenticator」というアプリがあります）．
     - **電話番号**を使う方法：電話番号を登録しておき，その電話番号でSMSまたは音声通話（自動音声ガイダンス）の着信を受け取って本人確認を行う方法です．
+    - **FIDOセキュリティキー**を使う方法：FIDOセキュリティキーと呼ばれる専用の機器を用いて本人確認を行う方法です．一部のシステムでは対応していないため，他の本人確認方法を登録した上で，2個目以降の本人確認方法として利用してください．詳細は「[UTokyo Account多要素認証におけるFIDOセキュリティキーの利用方法](fido-security_key)」をご覧ください．
     - （教職員向け）**貸出ハードウェアトークン**を使う方法：上記の本人確認方法方法がいずれも利用できない場合，「ハードウェアトークン」という専用の機器を貸し出しています（教職員向け）．初期設定の手順が他の本人確認方法と異なりますので，[UTokyo Portalの案内ページ（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Token.aspx)を参照して利用してください．
 - 手順3は，登録した本人確認方法を利用して実際にサインインできるか確認する手順です．
 - 最後の手順4は，多要素認証を有効化するための申請を行う手順です．
@@ -45,7 +46,7 @@ css: [mfa]
 多要素認証の本人確認方法を設定する画面になります．設定の手順は本人確認方法の種類によって異なります．<img src="first_ms_auth.png">
 <ul>
 <li>
-<strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，このアプリを本人確認方法として使うのが便利です．
+<strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，他の認証アプリよりスムーズに利用できます．
 <details>
 <summary>登録手順</summary>
 <ol>
@@ -69,12 +70,16 @@ css: [mfa]
 </details>
 </li>
 <li>
-<strong>「Microsoft Authenticator」以外の認証アプリを使う方法</strong>：もし既に「Google Authenticator」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．
+<strong>「Microsoft Authenticator」以外の認証アプリを使う方法</strong>：「Google認証システム」など，「Microsoft Authenticator」以外の認証アプリを使うこともできます．スマホアプリだけでなく，セキュリティキーと呼ばれる専用の機器と連携させて利用するパソコンのアプリもあります（一例としては，「YubiKey」というセキュリティキー製品と連携して使う「Yubico Authenticator」というアプリがあります）．
 <details>
 <summary>登録手順</summary>
 <ol>
 <li>画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．{{ mfa_totp_trouble }}<img src="first_auth_app.png"></li>
-<li>画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<img src="first_auth_app_qr.png"></li>
+<li>
+    画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<br>
+    ※「YubiKey」と「Yubico Authenticator」アプリを使う場合の設定手順については，「<a href="yubikey-totp">UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法</a>」をご覧ください．
+    <img src="first_auth_app_qr.png">
+</li>
 </ol>
 </details>
 </li>
@@ -112,7 +117,7 @@ css: [mfa]
 
 <ul class="mfa-initial-procedure">
 <li>
-<strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，このアプリを本人確認方法として使うのが便利です．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で登録することもできます．
+<strong>「Microsoft Authenticator」アプリを使う方法</strong>：「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，他の認証アプリよりスムーズに利用できます．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で登録することもできます．
 <details>
 <summary>登録手順</summary>
 <ol>
@@ -137,14 +142,18 @@ css: [mfa]
 </details>
 </li>
 <li>
-<strong>「Microsoft Authenticator」以外の認証アプリを使う方法</strong>：もし既に「Google Authenticator」などの「Microsoft Authenticator」以外の認証アプリを利用していれば，それを使うこともできます．2台以上のスマホを持っている場合は，2台目以降のスマホを追加で登録することもできます．
+<strong>「Microsoft Authenticator」以外の認証アプリを使う方法</strong>：「Google認証システム」など，「Microsoft Authenticator」以外の認証アプリを使うこともできます．スマホアプリだけでなく，セキュリティキーと呼ばれる専用の機器と連携させて利用するパソコンのアプリもあります（一例としては，「YubiKey」というセキュリティキー製品と連携して使う「Yubico Authenticator」というアプリがあります）．
 <details>
 <summary>登録手順</summary>
 <ol>
 <li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．<img src="alt_add_method.png"></li>
 <li>「どの方法を使用しますか?」欄で「認証アプリ」を選び，「追加」を押してください．<img src="alt_add_method_pull_down.png"></li>
 <li>「別の認証アプリを使用します」というリンクを探して押してください．{{ mfa_totp_trouble }}<img src="alt_auth_app.png"></li>
-<li>画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<img src="alt_auth_app_qr.png"></li>
+<li>
+    画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<br>
+    ※「YubiKey」と「Yubico Authenticator」アプリを使う場合の設定手順については，「<a href="yubikey-totp">UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法</a>」をご覧ください．
+    <img src="alt_auth_app_qr.png">
+</li>
 </ol>
 </details>
 </li>
@@ -164,6 +173,8 @@ css: [mfa]
 <li>電話番号の確認が行われます．SMSの場合は，SMSに確認コード（6桁の数字）が届き，それを画面に入力するよう求められるので，そのようにしてください．音声通話の場合は，電話が着信し，音声ガイダンスで「#」ボタンを押すように言われるので，そのようにしてください（スマホで通話中に「#」ボタンを表示するには，画面に表示されている「キーパッド」ボタンを押します）．</li>
 </ol>
 </details>
+</li>
+<li><strong>FIDOセキュリティキーを使う方法</strong>：FIDOセキュリティキーと呼ばれる専用の機器を用いて本人確認を行う方法です．一部のシステムでは対応していないなどの注意事項がありますので，確認した上で利用してください．<br><a href="fido-security_key">注意事項・登録手順</a>
 </li>
 </ul>
 
