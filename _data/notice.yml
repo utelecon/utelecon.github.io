@@ -1,6 +1,11 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2023-05-16
+  content:
+    ja: '「[AIツールの授業における利用について](/docs/ai-tools-in-classes)」を掲載しました．'
+    en: '"[Policy on the use of AI tools in classes](/en/docs/ai-tools-in-classes)" has been posted.'
+-
   date: 2023-04-24
   content:
     ja: "[UTokyo Account利用者メニュー等のメンテナンス（4月29日9時30分～12時30分）](/notice/2023/0429-utac-user-menu)"
