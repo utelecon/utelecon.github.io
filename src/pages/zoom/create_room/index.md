@@ -10,10 +10,8 @@ redirect_from:
 - [複数回利用できるURLが変わらない会議室を予約する](date_and_time/)
 - [参加者に認証を求める](auth/)
 - [待機室を設定する](waiting_room/)
-{% comment %}
-- [参加者に登録を求める](registration/)
-- [代替ホストを設定する](alternative_host/)
-{% endcomment %}
+<!-- - [参加者に登録を求める](registration/)
+- [代替ホストを設定する](alternative_host/) -->
 
 ## ミーティングの作り方
 {:#create}
