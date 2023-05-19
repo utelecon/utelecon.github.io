@@ -32,7 +32,7 @@ WebexにはUTokyo Accountでログインします．Webexのサイト **<a href=
 
 * End to End 暗号化の詳細を教えてください．
 	* Cisco社の以下のページを参照してください．
-		* [エンドツーエンドの暗号化が行うことは?](https://help.webex.com/ja-jp/WBX44739/)
+		* [Webexのアイデンティティ確認でのエンドツーエンド暗号化](https://help.webex.com/ja-jp/article/5h5d8ab/)
 		* [Zero-Trust Security for Webex White Paper](https://www.cisco.com/c/en/us/solutions/collateral/collaboration/white-paper-c11-744553.html)
 * 本当に安全ですか．
 	* 検証中です．
