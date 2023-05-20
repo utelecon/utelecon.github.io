@@ -7,6 +7,7 @@ import Eccs from '@components/systems/Eccs/index.astro'
 import Apply from '@components/systems/utokyo_wifi/ApplyUTokyoWifi/index.astro'
 import Connect from '@components/systems/utokyo_wifi/ConnectUTokyoWifi/index.astro'
 import Microsoft from '@components/systems/Microsoft/index.astro'
+import ItcLms from '@components/systems/ItcLms/index.astro'
 
 ## ご挨拶
 
@@ -129,6 +130,8 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 {/* {:#itc_lms} */}
 
 { about_itc_lms }
+
+<ItcLms pageSlug="oc" />
 
 {/* {% include procedures/itc_lms.html %} */}
 
