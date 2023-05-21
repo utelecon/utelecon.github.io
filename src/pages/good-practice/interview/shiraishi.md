@@ -1,5 +1,14 @@
 ---
 title: 白石忠志 先生　法Ⅰ
+filters:
+  format: ["realtime_online"]
+  number: mt100
+  tools: ["itc-lms", "scrapbox", "zoom", "mixlr", "twitcasting", "youtube", "goodnotes", "google-forms", "slack"]
+  keywords: []
+componentProps:
+  title: "白石忠志 先生の授業: 法Ⅰ（教養学部 前期課程 約400名）"
+  point: "授業資料を Scrapbox で公開 海外の方も含めた学外ゲストの登壇"
+  tools: "ITC-LMS, Scrapbox, Zoom, Mixlr, TwitCasting, YouTube, GoodNotes 5, Google Forms, Slack"
 ---
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2020-12-23/">オンライン授業情報交換会「第25回 多様なツールを用いて授業を活発化・円滑化する工夫」</a>にて，白石先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>

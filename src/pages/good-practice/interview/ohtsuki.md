@@ -1,5 +1,14 @@
 ---
 title: 大槻久 先生　適応行動論
+filters:
+  format: ["realtime_online"]
+  number: mt100
+  tools: ["itc-lms", "zoom", "google-forms", "utas", "google-drive"]
+  keywords: ["text"]
+componentProps:
+  title: "大槻久 先生の授業: 適応⾏動論（教養学部 前期課程 670名程度）"
+  point: "テスト設計の工夫　アクセスしやすい授業設計(音声・データ量低減)　質問による双方向授業"
+  tools: "ITC-LMS, Zoom, Google Forms, UTAS, Google Drive"
 ---
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2021-01-15/">オンライン授業情報交換会「第26回 大人数のオンライン授業の実施とテストの工夫」</a>にて，大槻先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>

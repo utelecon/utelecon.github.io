@@ -1,5 +1,14 @@
 ---
 title: 齊藤宣一 先生　計算数理I・計算数理
+filters:
+  format: ["ondemand"]
+  number: mt30-lt100
+  tools: ["itc-lms", "slack", "youtube", "zoom", "ipad-pro", "goodnotes"]
+  keywords: []
+componentProps:
+  title: "齊藤宣一 先生の授業: 計算数理I・計算数理（理学部数学科・教養学部(後期課程) 約70名）"
+  point: "オンデマンド型授業 講義ノートの工夫"
+  tools: "ITC-LMS, Slack, YouTube, Google Drive, Zoom, iPad Pro, Apple Pencil 2, GoodNotes 5"
 ---
 
 ## 授業の基本情報

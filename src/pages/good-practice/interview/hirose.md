@@ -1,5 +1,14 @@
 ---
 title: 廣瀬敬 先生　固体地球科学
+filters:
+  format: ["realtime_online"]
+  number: mt30-lt100
+  tools: ["itc-lms", "zoom", "line"]
+  keywords: []
+componentProps:
+  title: "廣瀬敬 先生の授業: 固体地球科学（理学部・理学系研究科 約70名）"
+  point: "リアルタイム　匿名LINEオープンチャットによる質問　スライドの工夫"
+  tools: "ITC-LMS, Zoom, LINE オープンチャット"
 ---
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2020-12-15/">オンライン授業情報交換会「第24回 TAを活かした質問の場づくり」</a>にて，廣瀬先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>

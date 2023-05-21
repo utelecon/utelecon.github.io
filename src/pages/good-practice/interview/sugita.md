@@ -1,5 +1,14 @@
 ---
 title: 杉田直彦 先生　生産システム
+filters:
+  format: ["realtime_online"]
+  number: mt100
+  tools: ["itc-lms", "zoom", "comment-screen"]
+  keywords: []
+componentProps:
+  title: "杉田直彦 先生の授業: 生産システム（工学部 約100名）"
+  point: "インタラクションの工夫 演習の工夫"
+  tools: "ITC-LMS, Zoom, Comment Screen"
 ---
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2020-11-27/">オンライン授業情報交換会「第21回 ライブ授業でのインタラクションを活発化する工夫」</a>にて，杉田先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>

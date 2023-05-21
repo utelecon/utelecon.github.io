@@ -1,5 +1,14 @@
 ---
 title: 加藤晃史 先生　ベクトル解析
+filters:
+  format: ["realtime_online"]
+  number: mt100
+  tools: ["itc-lms", "zoom", "tex", "a-illustrator", "mathematica"]
+  keywords: ["text"]
+componentProps:
+  title: "加藤晃史 先生の授業: ベクトル解析（教養学部 前期課程 200名程度）"
+  point: "充実した授業資料　録画を用いた学習支援　課題への成績評価"
+  tools: "ITC-LMS, Zoom, TeX, Adobe Illustrator, Mathematica"
 ---
 
 ## 授業の基本情報

@@ -1,5 +1,14 @@
 ---
 title: 四本裕子 先生　心理I
+filters:
+  format: ["realtime_online"]
+  number: mt100
+  tools: ["zoom", "itc-lms", "slido", "google-forms"]
+  keywords: []
+componentProps:
+  title: "四本裕子 先生の授業: 心理I（教養学部 前期課程 350名程度）"
+  point: "匿名での質疑応答　動画の活用　座談会の実施"
+  tools: "ITC-LMS, Zoom, Slido, Google Forms"
 ---
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2020-11-10/">オンライン授業情報交換会「第19回 大人数のオンライン授業におけるインタラクションの工夫」</a>にて，四本先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>

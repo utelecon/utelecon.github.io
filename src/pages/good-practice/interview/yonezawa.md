@@ -1,5 +1,14 @@
 ---
 title: 米澤智洋 先生　内分泌病学Ⅰ
+filters:
+  format: ["realtime_online", "ondemand"]
+  number: lt30
+  tools: ["itc-lms", "zoom", "line", "youtube"]
+  keywords: []
+componentProps:
+  title: "米澤智洋 先生の授業: 内分泌病学Ⅰ（農学部 30名程度）"
+  point: "オンデマンドとリアルタイムの組み合わせ　動画教材の開発"
+  tools: "ITC-LMS, Zoom, LINE, YouTube, Bandicam, Windows Movie Maker, Audacity, EcoDecoTooL"
 ---
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2021-01-28/">オンライン授業情報交換会「第28回 オンデマンドとライブ形式を組み合わせた授業設計の工夫」</a>にて，米澤先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>
