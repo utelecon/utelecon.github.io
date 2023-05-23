@@ -1,5 +1,14 @@
 ---
 title: 栗田佳代子先生 「学びの場」づくり
+filters:
+  format: ["realtime_online", "ondemand"]
+  number: lt30
+  tools: ["zoom", "slido", "google-document", "google-sheets", "google-slides", "google-forms", "google-classroom"]
+  keywords: ["group-work"]
+componentProps:
+  title: "栗田佳代子 先生の授業: 「学びの場」づくり（教育学部 20名程度）"
+  point: "リアルタイムとオンデマンドの組み合わせ　グループワーク"
+  tools: "Google Classroom, Zoom, Slido, Google Documents, Sheets, Slides, Forms"
 ---
 
 ## 授業の基本情報

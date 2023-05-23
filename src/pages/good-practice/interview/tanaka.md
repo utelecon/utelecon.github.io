@@ -1,5 +1,14 @@
 ---
 title: 田中庸介 先生　解剖学第3 (神経)
+filters:
+  format: ["realtime_online"]
+  number: mt100
+  tools: ["itc-lms", "zoom", "slido",  "google-forms"]
+  keywords: ["experiment", "ta"]
+componentProps:
+  title: "田中庸介 先生の授業: 解剖学第3 (神経)（医学部 100名程度）"
+  point: "学生とのインタラクション　実習のオンライン化"
+  tools: "ITC-LMS, Zoom, Slido, Google Forms"
 ---
 
 ## 授業の基本情報

@@ -1,5 +1,14 @@
 ---
 title: 西村明 先生　宗教学概論II
+filters:
+  format: ["realtime_online", "ondemand"]
+  number: mt30-lt100
+  tools: ["itc-lms", "zoom", "youtube"]
+  keywords: []
+componentProps:
+  title: "西村明 先生の授業: 宗教学概論 II（文学部 約70名）"
+  point: "リアルタイムとオンデマンドの組み合わせ 教材収録の工夫 インタラクションの工夫"
+  tools: "ITC-LMS, Zoom, YouTube"
 ---
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2021-01-20/">オンライン授業情報交換会「第27回 オンデマンド教材の制作の取り組み」</a>にて，西村先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>
