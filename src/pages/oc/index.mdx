@@ -4,8 +4,10 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 description: このページでは，東京大学で授業を受ける新入生を対象に，東京大学の情報システムを利用するために必要な事前準備を順序立てて説明しています．
 ---
 import Eccs from '@components/systems/Eccs/index.astro'
-import Apply from '@components/systems/utokyo_wifi/ApplyUTokyoWifi/index.astro'
-import Connect from '@components/systems/utokyo_wifi/ConnectUTokyoWifi/index.astro'
+import ApplyEccs from '@components/systems/Eccs/ApplyEccs.astro'
+import LoginEccs from '@components/systems/Eccs/LoginEccs.astro'
+import ApplyUTokyoWifi from '@components/systems/utokyo_wifi/ApplyUTokyoWifi.astro'
+import ConnectUTokyoWifi from '@components/systems/utokyo_wifi/ConnectUTokyoWifi.astro'
 import Microsoft from '@components/systems/Microsoft/index.astro'
 import ItcLms from '@components/systems/ItcLms/index.astro'
 
@@ -166,12 +168,12 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
     <li>
         <details>
             <summary>（再掲）<strong>作業：アカウントを申請する</strong></summary>
-            <Apply pageSlug="oc" />
+            <ApplyUTokyoWifi pageSlug="oc" />
         </details>
     </li>
     <li>
         <strong>作業：実際に接続する</strong>
-        <Connect pageSlug="oc" />
+        <ConnectUTokyoWifi pageSlug="oc" />
     </li>
 </ul>
 
@@ -183,10 +185,12 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 <ul>
     <li>
         <strong>作業：利用権を申請する</strong>
+        <ApplyEccs pageSlug="oc" />
 {/* {% include systems/eccs/apply.html %} */}
     </li>
     <li>
         <strong>練習：ログインしてみる</strong>
+        <LoginEccs pageSlug="oc" />
 {/* {% include systems/eccs/login.html %} */}
     </li>
 </ul>
