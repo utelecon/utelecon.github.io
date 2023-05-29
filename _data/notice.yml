@@ -1,6 +1,11 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2023-05-29
+  content:
+    ja: '「[東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students)」を掲載しました．'
+    en: '"[Notification to Students on the Use of AI Tools in Classes](/en/docs/ai-tools-in-classes-students)" has been posted.'
+-
   date: 2023-05-16
   content:
     ja: '「[AIツールの授業における利用について](/docs/ai-tools-in-classes)」を掲載しました．'
