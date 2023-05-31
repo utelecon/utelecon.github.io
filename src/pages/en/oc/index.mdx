@@ -4,6 +4,8 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 lang: en
 ---
 
+import ItcLms from "@components/en/systems/ItcLms/index.astro";
+
 ## Greetings
 
 Welcome to all new students!
@@ -124,7 +126,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 { about_itc_lms }
 
-{/* {% include procedures/en/itc_lms.html %} */}
+<ItcLms pageSlug="oc" />
 
 ### Zoom
 {/* {:#zoom} */}

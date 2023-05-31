@@ -2,6 +2,8 @@
 title: ITC-LMS
 ---
 
+import ItcLms from '@components/systems/ItcLms/index.astro'
+
 ## ITC-LMSとは
 
 [ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/)は東京大学の学習管理システムです．授業資料の配布・課題提出・オンライン試験・教員から学生へのお知らせ通知などの機能があります．
@@ -14,13 +16,13 @@ ITC-LMSの提供する機能は他の授業支援ICTツールと同じような�
 
 ## ログイン方法
 
-{% include procedures/itc_lms.html part="login" %}
+<ItcLms includePart="login" />
 
 ## 通知設定
 
 学生は，先生からのお知らせを受け取れるよう，以下の手順で通知設定を行っておいてください．LINEで通知を受け取ることもできます．なお，教員も通知設定をすると学生からのメッセージの受信や課題提出などの通知を受け取れます．
 
-{% include procedures/itc_lms.html part="notification" %}
+<ItcLms includePart="notification" />
 
 ## （教員向け）利用方法
 
