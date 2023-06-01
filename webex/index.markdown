@@ -37,14 +37,14 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 
 ## 利用方法
 
-### 情報システムゼミ「ウェブ会議にも代替オプションを！～コミュニケーションの継続に備えるために、 Cisco Webexの良さをお伝えします～」（2023年5月18日）スライド資料
+### 情報システムゼミ「ウェブ会議にも代替オプションを！～コミュニケーションの継続に備えるために、 Cisco Webexの良さをお伝えします～」（2023年5月25日）スライド資料
 
-1. [ウェブ会議にも代替オプションを！.pdf](pdf/20230518_Seminar.pdf)
+1. [ウェブ会議にも代替オプションを！.pdf](pdf/20230525_Seminar.pdf)
 
 ### 情報システムゼミ「Webex Webinars 応用編 ～ 便利な使い方をご紹介 ～」（2022年12月13日）スライド資料
 
-1. [Webex Webinars 応用編.pdf](pdf/20221216_Seminar.pdf)
-1. [【詳細】Webex Webinars 応用編.pdf](pdf/20221216_Seminar_detailed.pdf)
+1. [Webex Webinars 応用編.pdf](pdf/20221213_Seminar.pdf)
+1. [【詳細】Webex Webinars 応用編.pdf](pdf/20221213_Seminar_detailed.pdf)
 
 ### 情報システムゼミ「Webex Webinars セミナー（基礎編）」（2022年10月14日）スライド資料
 
