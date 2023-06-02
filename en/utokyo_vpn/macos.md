@@ -25,8 +25,6 @@ After these steps, install the application as you would do for any other macOS a
 ![](img/mac03-install-1.png){:.medium.center.border}
 
 {% include_relative _help_white.html %}
-{% include_relative _help_security_session.html %}
-{% include_relative _help_security_username.html %}
 
 **Step C:** During the installation of AnyConnect, a window with the following message “System Extension Blocked” may appear, please click the “OK” button. A window with the following message will appear “AnyConnect System Extension Blocked”. Please follow the instructions to allow the system software from “Cisco AnyConnect Socket Filter”, which is displayed in the “General” in “Security & Privacy” in “System Preferences”. Additionally, a window like the second picture below will also appear, please click “Allow”. 
 

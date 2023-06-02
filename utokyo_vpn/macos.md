@@ -26,8 +26,6 @@ title: macOS端末でUTokyo VPNを利用する
 ![](img/mac03-install-1.png){:.medium.center.border}
 
 {% include_relative _help_white.html %}
-{% include_relative _help_security_session.html %}
-{% include_relative _help_security_username.html %}
 
 **手順C:** AnyConnectのインストールの途中で，下記のような「ブロックされたAnyConnectシステム拡張」というウィンドウがでる場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また2枚目のようなウィンドウが表示されますので，これも許可をしてください．
 
@@ -64,8 +62,6 @@ macOS 11 Big Sur以降のmacOS端末にAnyConnectのクライアントアプリ�
 ![](img/mac10-anyconnect-login.png){:.medium.center.border}
 
 **手順G:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
-
-{% include_relative _help_security_education.html %}
 
 **手順H:** 再度Cisco AnyConnect Secure Mobility Clientをクリックし，現在の状態を確認します．表示されたウィンドウで，下記のように「Connectedto vpn1.adm.u-tokyo.ac.jp」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
 

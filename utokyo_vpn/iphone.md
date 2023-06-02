@@ -47,8 +47,6 @@ title: iPhoneでUTokyo VPNを利用する
 
 **手順F:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
-{% include_relative _help_security_education.html %}
-
 **手順G:** 下記の画面のように「詳細」が「接続済み」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
 
 ![](img/iphone08-home_connected.png){:.medium.center.border}
