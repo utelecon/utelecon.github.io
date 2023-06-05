@@ -51,11 +51,9 @@ Scrapboxを利用することで，下図のような資料を簡単に作成す
 
 Scrapboxで使用するGoogle アカウントのメールアドレスもしくは紐付いている電話番号を入力し，続いてパスワードを入力します．
 
-<figure>
-<div style="display: flex;">
+<figure class="gallery">
 <img src="3.png">
 <img src="4.png">
-</div>
 </figure>
 
 場合によっては複数のアカウントの候補が提示されますが（右図），その場合はScrapboxで使用したいアカウントを選択します．

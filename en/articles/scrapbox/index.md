@@ -53,11 +53,9 @@ Access the website of Scrapbox  ([https://scrapbox.io/product](https://scrapbox.
 
 Enter the email address or phone number associated with the Google account you use for Scrapbox, and then enter the password.
 
-<figure>
-<div style="display: flex;">
+<figure class="gallery">
 <img src="3.png">
 <img src="4.png">
-</div>
 </figure>
 
 In some cases, you will be presented with multiple account suggestions (see the figure on the right). Select the account you want to use with Scrapbox.
