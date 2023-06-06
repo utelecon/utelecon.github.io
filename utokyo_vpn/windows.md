@@ -15,7 +15,7 @@ title: WindowsでUTokyo VPNを利用する
 
 ![](img/win01-vpn1-login.png){:.medium.center.border}
 
-{% include_relative _help_mfa.html %}
+{% include_relative _help_mfa_security_education.html %}
 
 **手順B:** サインインに成功すると，以下のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for Windowsをクリックして，クライアントアプリケーションをダウンロードしてください．
 
@@ -55,13 +55,11 @@ title: WindowsでUTokyo VPNを利用する
 ![](img/win09-anyconnect-login.png){:.medium.center.border}
 
 {% include_relative _help_multiple_users.html %}
-{% include_relative _help_mfa.html %}
+{% include_relative _help_mfa_security_education.html %}
 
 **手順G:** 手順Fの後，以下のように「Connected: vpn1.adm.u-tokyo.ac.jp」と表示する画面が出てくると，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由し，東京大学キャンパスネットワークに接続している状態で行われます．
 
 ![](img/win10-vpn-connected.png){:.medium.center.border}
-
-{% include_relative _help_security_education.html %}
 
 **手順H:** 再度Cisco AnyConnect Secure Mobility Clientをクリックし，現在の状態を確認します．表示された画面で，以下のように「Connected to vpn1.adm.u-tokyo.ac.jp」と表示されていれば，お使いの機器はUTokyo VPNに接続している状態です．
 
