@@ -31,19 +31,18 @@ UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的とし�
 ### 情報セキュリティ教育
 {:#jouhou-security}
 
-東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を実施しています．実施時期（2023年度は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合はアカウントが停止され，UTokyo Wi-Fiに接続することができなくなります．** アカウントが停止されると，アカウントメニューへのログインやアカウントの新規発行もできなくなります．
+東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を実施しています．実施時期（2023年度は7月上旬から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合はアカウントが削除され，UTokyo Wi-Fiに接続することができなくなります．** さらに，UTokyo Wi-Fiアカウントメニューへのログインやアカウントの新規発行もできなくなります．
 
 <details>
 	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
-	[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を受講するまで，UTokyo Wi-Fiの利用資格が停止されています．情報セキュリティ教育の確認テストに合格した直後から利用が可能になります．
+	<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>を受講するまで，UTokyo Wi-Fiの利用資格が停止されています．情報セキュリティ教育の確認テストに合格した直後から利用が可能になります．
 </details>
 <details>
 	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
-	UTokyo Wi-Fiの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていても可能となっているので，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)のページから受講してください．なお，受講期間が終了した翌日（2023年度は8月8日）に限ってはシステム作業のため確認テストの受講ができません．確認テストに合格した直後からUTokyo Wi-Fiの利用が可能になります．
-	なおこの場合，以前に利用していたUTokyo Wi-Fiアカウントは削除されるため，利用開始手順の手順2に従ってアカウントを再発行してください．
+	UTokyo Wi-Fiの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていても可能となっているので，<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>から受講してください．なお，受講期間が終了した翌日（2023年度は8月8日）に限っては，システム作業のため確認テストの受講ができません．確認テストに合格した直後からUTokyo Wi-Fiの利用が可能になります．
+	なお以前にUTokyo Wi-Fiを利用していた場合，以前のアカウントは削除されているため，<a href="#initial-setup">利用開始の手順</a>に従ってアカウントを再発行してください．
 	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
 </details>
-
 
 
 ### 共用機器での利用について
