@@ -1,27 +1,27 @@
-interface include {
+interface Include {
   type: string;
   heading: string;
-  procedure: string;
 }
 
 interface Props {
   part?: string;
   pageSlug?: string;
-  include: include;
+  include: Include;
   system: string;
+  children?: string | JSX.Element | JSX.Element[];
 }
 
 function Point({ part, include, system }: Props) {
   return (
     <strong>
-      {part != "important" ? <>{system}</> : <>{include.type}</>}
+      {part === "important" ? <>{system}</> : <>{include.type}</>}
       ：
       {include.heading}
     </strong>
   );
 }
 
-export default function Important({ part, pageSlug, include, system }: Props) {
+export default function Important({ part, pageSlug, include, system, children }: Props) {
   if (part != "important" && (pageSlug == "oc" || pageSlug == "faculty_members")) {
     return (
       <li>
@@ -30,7 +30,7 @@ export default function Important({ part, pageSlug, include, system }: Props) {
             （再掲）
             <Point part={part} include={include} system={system} />
           </summary>
-          {include.procedure}
+          {children}
         </details>
       </li>
     );
@@ -38,7 +38,7 @@ export default function Important({ part, pageSlug, include, system }: Props) {
     return (
       <li>
         <Point part={part} include={include} system={system} />
-        {include.procedure}
+        {children}
       </li>
     );
   }

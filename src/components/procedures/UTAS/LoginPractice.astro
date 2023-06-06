@@ -1,0 +1,35 @@
+---
+import ConfirmEmailSteps from "./ConfirmEmailSteps.astro";
+import Login from "./Login.astro";
+import Support from "./Support.astro";
+
+interface Props {
+  pageSlug?: string;
+  part?: string;
+}
+
+const { pageSlug, part } = Astro.props;
+---
+
+<ul>
+  <li>
+    <strong>練習：ログインしてみる</strong>
+    <Login pageSlug={pageSlug} part={part} />
+  </li>
+  {
+    pageSlug !== "faculty_members" && (
+      <>
+        <>
+          <li>
+            <strong>確認：メールアドレスが登録されているか確認する</strong>
+            {pageSlug === "oc" && <>（学生のみ）</>}
+          </li>
+        </>
+        <ol>
+          <ConfirmEmailSteps part={part} />
+        </ol>
+        <Support />
+      </>
+    )
+  }
+</ul>

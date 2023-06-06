@@ -13,6 +13,10 @@ import Microsoft from "@components/systems/Microsoft/index.astro";
 import ItcLms from "@components/systems/ItcLms/index.astro";
 import Zoom from "@components/systems/Zoom/index.astro";
 
+import Google from '@components/procedures/Google/index.astro'
+import UTokyoAccount from '@components/procedures/UTokyoAccount/index.astro'
+import UTAS from '@components/procedures/UTAS/index.astro'
+
 ## ご挨拶
 
 新入学生の皆さん，入学おめでとうございます．
@@ -102,13 +106,13 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 「[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](movies)」のページでは，以下の手順を動画で説明していますので，必要に応じて確認してください．
 
 <ul class="procedure">
-  {/* {% include procedures/utokyo_account.html part="important" %} */}
-  {/* {% include procedures/google.html part="important" %} */}
-  {/* {% include procedures/utas.html part="important" %} */}
-  <li>
-    <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
-    {/* {% include systems/utokyo_wifi/apply.html part="important" %} */}
-  </li>
+    <UTokyoAccount part="important" pageSlug="oc" />
+    <Google part="important" pageSlug="oc" />
+    <UTAS part="important" pageSlug="oc" />
+    <li>
+        <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
+{/* {% include systems/utokyo_wifi/apply.html part="important" %} */}
+    </li>
 </ul>
 
 ## 情報システムに関するその他の準備手順
@@ -123,7 +127,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 { about_utokyo_account }
 
-{/* {% include procedures/utokyo_account.html %} */}
+<UTokyoAccount pageSlug="oc" />
 
 ### UTAS
 
@@ -131,7 +135,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 { about_utas }
 
-{/* {% include procedures/utas.html %} */}
+<UTAS pageSlug="oc" />
 
 ### ITC-LMS
 
