@@ -1,5 +1,14 @@
 ---
 title: 入江薫 先生　数理統計I、II
+filters:
+  format: ["realtime_online"]
+  number: mt100
+  tools: ["itc-lms", "zoom", "onenote"]
+  keywords: ["hand-writing"]
+componentProps:
+  title: "入江薫 先生の授業: 数理統計I、II（経済学部 数理統計 I 約 200 名、数理統計 II 約 150 名 ）"
+  point: "リアルタイム　板書　学生の声による授業改善"
+  tools: "ITC-LMS, Zoom, Microsoft OneNote"
 ---
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2020-11-18/">オンライン授業情報交換会「第20回 学生の声を活かした授業設計の工夫」</a>にて，入江先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>

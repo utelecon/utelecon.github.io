@@ -39,7 +39,7 @@ const theOtherLangUrl = Astro.url.pathname.startsWith("/en/")
   : `/en${Astro.url.pathname}`;
 ---
 
-<header class="header">
+<header id="header" class="header">
   <div class="primary">
     <button id="hamburger-button" class="hamburger-button">
       <span class="hamburger-button__icon"></span>
@@ -75,6 +75,15 @@ const theOtherLangUrl = Astro.url.pathname.startsWith("/en/")
     <Navigation lang={lang} />
   </div>
 </header>
+
+<script lang="ts">
+  const button = document.getElementById("hamburger-button");
+  const header = document.getElementById("header");
+
+  button.addEventListener("click", () => {
+    header.classList.toggle("header--hamburger-open");
+  });
+</script>
 
 <style lang="scss">
   @import "../../styles/color";

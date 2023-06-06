@@ -1,5 +1,14 @@
 ---
 title: 河野望 先生　薬学実習IV
+filters:
+  format: ["realtime_online"]
+  number: mt30-lt100
+  tools: ["itc-lms", "zoom", "adobe-captivate", "imovie"]
+  keywords: ["experiment", "ta"]
+componentProps:
+  title: "河野望 先生の授業: 薬学実習IV（薬学部 80名程度）"
+  point: "独自のeラーニング教材の開発　実習のオンライン化"
+  tools: "ITC-LMS, Zoom, Adobe Captivate, iMovie"
 ---
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2021-02-03/">オンライン授業情報交換会「第29回 実習形式の授業のオンライン化の工夫」</a>にて，河野先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>

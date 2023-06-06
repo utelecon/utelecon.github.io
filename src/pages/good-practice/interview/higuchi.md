@@ -1,5 +1,14 @@
 ---
 title: 樋口亮介 先生　刑法第２部
+filters:
+  format: ["realtime_online"]
+  number: mt100
+  tools: ["itc-lms", "zoom"]
+  keywords: ["group-work"]
+componentProps:
+  title: "樋口亮介 先生の授業: 刑法第2部（法学部 約300名）"
+  point: "授業設計の工夫　大人数講義でのインタラクションの工夫(議論・チャット・投票)　録画による学習支援"
+  tools: "ITC-LMS, Zoom"
 ---
 
 ## 授業の基本情報

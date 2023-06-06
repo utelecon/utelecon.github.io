@@ -1,0 +1,177 @@
+---
+interface Props {
+  pageSlug?: string;
+}
+
+const { pageSlug } = Astro.props;
+---
+
+<ul class="procedure">
+  <li>
+    <strong>確認：サインインしてみる</strong>
+    <ol>
+      <li>
+        <a href="https://utelecon.webex.com/">東京大学のWebexページ</a
+        >にアクセスして，右上の「サインイン」を押してください．
+      </li>
+      <li>
+        <code>1234567890@utac.u-tokyo.ac.jp</code> のように，10桁の共通ID（UTokyo
+        Accountのユーザ名）の後に東京大学であることを表す記号 <code
+          >@utac.u-tokyo.ac.jp</code
+        > を付けたものを入力してください．
+      </li>
+      <li>
+        既にUTokyo Accountにサインイン済みの場合を除き，UTokyo
+        Accountのサインイン画面が表示されるので，サインインしてください．
+      </li>
+      <li>
+        自分の名前や「ミーティングを開始する」ボタンが表示されている画面になればOKです．
+      </li>
+    </ol>
+    <ul>
+      <li>
+        この手順がうまくいかないときは<a href="/support/">サポート窓口</a
+        >に相談してください．
+      </li>
+    </ul>
+  </li>
+  <li>
+    <strong>作業：パソコンにアプリをインストールする</strong>
+    <ol>
+      <li>
+        <a
+          href="https://utelecon.webex.com/webappng/sites/utelecon/dashboard/download"
+          >Webexのダウンロードページ</a
+        >にアクセスしてください．
+      </li>
+      <li>
+        一番上の「Cisco Webex Meetings
+        デスクトップアプリ」にある「ダウンロード」ボタンを押してください．
+      </li>
+      <li>
+        以後の手順は場合によって異なります．インストールの完了まで自動で進むこともあれば，確認ボタンを押したり，ダウンロードしたファイルを自分で開いたりといった操作の必要があるかもしれません．
+      </li>
+    </ol>
+    <ul>
+      <li>
+        この手順がうまくいかないときは<a href="/support/">サポート窓口</a
+        >に相談してください．
+      </li>
+    </ul>
+  </li>
+  <li>
+    <strong>任意の作業：スマホにアプリをインストールする</strong>
+    <ol>
+      <li>
+        Androidの人は<a
+          href="https://play.google.com/store/apps/details?id=com.cisco.webex.meetings"
+          >Google Play</a
+        >から，iPhoneの人は<a
+          href="https://itunes.apple.com/us/app/cisco-webex-meetings/id298844386"
+          >App Store</a
+        >からインストールしてください．
+      </li>
+    </ol>
+  </li>
+  <li>
+    <strong>確認：東大のアカウント専用の会議室に入ってみる</strong>
+    <ol>
+      <li>
+        会議室では，あなたのマイクの音声やカメラの映像が他の人に送られることがあります（ここで使うテスト用の会議室では，入っただけではそうならないようになっていますが，いろいろ試しているうちにそういうことがあるかもしれません）．気になる人は，音声や映像が送られても大丈夫な状況で行ってください．
+      </li>
+      <li>
+        <a
+          href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02"
+          >ITC-LMSの練習用ページ</a
+        >に書かれているテスト用会議室のURLにアクセスしてください．
+      </li>
+      <li>
+        確認ボタンを押したり，開くアプリを選択するよう求められたりするかもしれません．
+      </li>
+      <li>
+        もしサインインしていなければ，ユーザ名を入力するよう求められるので，<code
+          >1234567890@utac.u-tokyo.ac.jp</code
+        > のように，10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号<code
+          >@utac.u-tokyo.ac.jp</code
+        > を付けたものを入力してください．その後，既にUTokyo Accountにサインイン済みの場合を除き，UTokyo
+        Accountのサインイン画面が表示されるので，サインインしてください．
+      </li>
+      <li>
+        Webexのアプリが開いた後に，「ミーティングに参加する」という緑色のボタンが表示されたら，そのボタンを押してください．
+      </li>
+      <li>
+        「主催者不在
+        主催者はまだミーティングに参加していません。」と表示されることがありますが，気にせずに「OK」を押してください．
+      </li>
+      <li>
+        下の方に「ミュート解除」や「ビデオの開始」などと書かれた画面になれば，会議室に入れています．
+      </li>
+    </ol>
+    <ul>
+      <li>
+        <details>
+          <summary>この手順がうまくいかないときのヘルプ</summary>
+          <ul>
+            <li>
+              <strong
+                >会議室のURLにアクセスすると，アプリのインストールを求められる，または，アプリのインストールが始まる場合</strong
+              >：アプリがうまくインストールできていないときに起きます．そのままアプリをインストールしてみて，うまくいけば，その後にもう一度アクセスしてみてください．
+            </li>
+          </ul>
+          これらを確認して，それでもうまくいかなければ，<a href="/support/"
+            >サポート窓口</a
+          >に相談してください．
+        </details>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <strong>任意の作業：アプリにサインインする</strong>{
+      pageSlug == "oc" && <>（自分で会議を開く機会がある人などには便利です）</>
+    }
+    <ol>
+      <li>Webexアプリを開き，「サインイン」ボタンを押してください．</li>
+      <li>
+        <code>1234567890@utac.u-tokyo.ac.jp</code> のように，10桁の共通ID（UTokyo
+        Accountのユーザ名）の後に東京大学であることを表す記号 <code
+          >@utac.u-tokyo.ac.jp</code
+        > を付けたものを入力してください．
+      </li>
+      <li>
+        既にUTokyo Accountにサインイン済みの場合を除き，UTokyo
+        Accountのサインイン画面が表示されるので，サインインしてください．
+      </li>
+      <li>
+        自分の名前や「ミーティング開始」ボタンが表示されている画面になればOKです．
+      </li>
+    </ol>
+  </li>
+  {
+    pageSlug != "oc" && (
+      <li>
+        <strong>練習：会議室を作ってみる</strong>
+        <ol>
+          <li>
+            <a href="https://utelecon.webex.com/">東京大学のWebexページ</a>
+            にアクセスしてください．サインインしていない場合は，サインインしてください．
+          </li>
+          <li>
+            「スケジュールする」ボタンを押してください（「ミーティングを開始する」ボタンの右隣にあります）．
+          </li>
+          <li>
+            会議室の詳細を設定する画面が表示されます．練習なので，よくわからない項目は飛ばすなど適当に入力して，一番下の「保存」を押してください．
+          </li>
+          <li>
+            作成された会議室の情報を確認できる画面に移動します．「ミーティングリンク」欄に会議室のURLが表示されており，このURLから会議室に入室できるようになっています．
+          </li>
+        </ol>
+        <ul>
+          <li>
+            この手順がうまくいかないときは<a href="/support/">サポート窓口</a>
+            に相談してください．
+          </li>
+        </ul>
+      </li>
+    )
+  }
+</ul>

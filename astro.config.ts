@@ -4,6 +4,7 @@ import { defineConfig } from "astro/config";
 import redirect from "./src/lib/RedirectIntegration.js";
 import blockIALPlugin from "./src/lib/BlockIALPlugin.js";
 import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
+import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
 
 // https://astro.build/config
 export default defineConfig({
@@ -18,6 +19,7 @@ export default defineConfig({
     remarkPlugins: [
       [defaultFrontmatterPlugin, { layout: "@layouts/Layout.astro" }],
       blockIALPlugin,
+      simpleAttentionPlugin,
     ],
   },
   publicDir: "src/pages",
