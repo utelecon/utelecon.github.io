@@ -58,11 +58,12 @@ Yubico AuthenticatorアプリをUTokyo Accountの多要素認証の本人確認�
 2. 「Scan QR code」を押して，画面の指示に従ってQRコードを読み取り，「Save」を押してください．<br>
 ※パソコンの場合，QRコードをパソコンのカメラでスキャンするのではなく，同じ画面上に表示されているQRコードが読み取られます．そのため，初めて使用する場合は，画面収録などの許可が要求されることがあります．
     ![](yubico_scan_qr.png)
+3. Yubico Authenticatorアプリにアカウントが追加されていればOKです．
+    ![](yubico_account_list.png)
 
 ### コード入力のテスト
 
 1. Yubico Authenticatorアプリにアカウントが追加されたら，QRコードが表示されているブラウザ画面で「次へ」を押してください．
-    ![](yubico_account_list.png)
 2. 「コードの入力」という入力欄が表示されるので，Yubico Authenticatorアプリを開いて6桁の数字を確認し，それを入力欄に入力すると，登録が完了します．
 ![](yubico_test_enter_code.png)
 
