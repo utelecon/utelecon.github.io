@@ -12,7 +12,6 @@ import ConnectUTokyoWifi from "@components/systems/utokyo_wifi/ConnectUTokyoWifi
 import Microsoft from "@components/systems/Microsoft/index.astro";
 import ItcLms from "@components/systems/ItcLms/index.astro";
 import Zoom from "@components/systems/Zoom/index.astro";
-
 import Google from '@components/procedures/Google/index.astro'
 import UTokyoAccount from '@components/procedures/UTokyoAccount/index.astro'
 import UTAS from '@components/procedures/UTAS/index.astro'
@@ -111,6 +110,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
     <UTAS part="important" pageSlug="oc" />
     <li>
         <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
+        <ApplyUTokyoWifi pageSlug="oc" />
 {/* {% include systems/utokyo_wifi/apply.html part="important" %} */}
     </li>
 </ul>
@@ -159,7 +159,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 { about_google }
 
-{/* {% include procedures/google.html %} */}
+<Google pageSlug="oc" />
 
 ### UTokyo Microsoft License (Microsoft 365)
 
@@ -178,9 +178,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 <ul>
   <li>
     <details>
-      <summary>
-        （再掲）<strong>作業：アカウントを申請する</strong>
-      </summary>
+      <summary>（再掲）<strong>作業：アカウントを申請する</strong></summary>
       <ApplyUTokyoWifi pageSlug="oc" />
     </details>
   </li>
