@@ -121,6 +121,9 @@ function tokenize(
 
 const fromMarkdownExtension: FromMarkdownExtension = {
   canContainEols: ["ial"],
+  enter: {
+    ial: enterIAL
+  },
   exit: {
     ial: exitIAL,
     ialVariant: exitIALVariant,
@@ -128,6 +131,10 @@ const fromMarkdownExtension: FromMarkdownExtension = {
   },
   transforms: [transform],
 };
+
+function enterIAL(this: CompileContext, _token: Token) {
+  this.setData("ial", {});
+}
 
 function exitIALVariant(this: CompileContext, token: Token) {
   const type = this.sliceSerialize(token) as "#" | ".";
