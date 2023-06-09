@@ -1,0 +1,11 @@
+---
+import Sitemap from "./Sitemap";
+
+interface Props {
+    lang: "ja" | "en"
+}
+
+const pages = await Astro.glob("/src/pages/**/*.{astro,md,mdx,html}");
+---
+
+<Sitemap pages={ pages } lang={ Astro.props.lang } />
