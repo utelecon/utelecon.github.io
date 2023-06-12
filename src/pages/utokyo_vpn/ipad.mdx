@@ -1,10 +1,14 @@
 ---
 title: iPadでUTokyo VPNを利用する 
 ---
+import SubpageBeginning from './_subpage_beginning.md';
+import HelpMfa from './_help_mfa.html';
+import HelpMultipleUsers from './_help_multiple_users.html';
+import HelpSecurityEducation from './_help_security_education.html';
 
 このページでは，UTokyo VPNをiPadで利用する方法を説明します．
 
-{% include_relative _subpage_beginning.md %}
+<SubpageBeginning />
 
 ## 準備編: UTokyo VPNの初期設定
 {:#setup}
@@ -45,12 +49,12 @@ title: iPadでUTokyo VPNを利用する
   <img src="img/ipad07-anyconnect-authentication.png" class="border">
 </figure>
 
-{% include_relative _help_mfa.html %}
-{% include_relative _help_multiple_users.html %}
+<HelpMfa />
+<HelpMultipleUsers />
 
 **手順F:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
-{% include_relative _help_security_education.html %}
+<HelpSecurityEducation />
 
 **手順G:** 下記の画面のように「詳細」が「接続済み」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
 
