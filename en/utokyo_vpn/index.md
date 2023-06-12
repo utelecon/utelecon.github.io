@@ -31,11 +31,17 @@ You cannot access e-journals and e-books subscribed by the University of Tokyo L
 ### Information Security Education
 {:#information-security-education}
 
-It is mandatory to take an information security course to use the UTokyo VPN. If you have not attended the annual Information Security Education, please contact: `jouhousecurity.adm __at__gs.mail.u-tokyo.ac.jp` (change `__at__` to @).
+At the University of Tokyo, we conduct information security training for everyone with a UTokyo Account each year. You will be notified when the implementation period arrives (in the 2023, it starts in July), so please ensure to pass the test. Failure to finish the information security education within the specified period will lead to the suspension of your UTokyo VPN access.
 
 <details>
-  <summary>I arrived after the period of the Information Security Education was over</summary>
+  <summary>If the course registration period has ended at the time of arrival or enrollment in the university</summary>
+  Your UTokyo VPN access is halted until you have undergone the information security training.
+  <div>If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.</div>
+</details>
+<details>
+  <summary>If you have failed to complete information security education by the prescribed time</summary>
   You can use the UTokyo VPN from the time you arrive. Please read the "Information Security Education Materials" on the <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">Information Security Education</a> page carefully before using UTokyo VPN. If you have not completed the Education, you face the risk of being banned from the VPN connection sooner or later.
+  <div>If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.</div>
 </details>
 
 ### Enable Multi-factor Authentication

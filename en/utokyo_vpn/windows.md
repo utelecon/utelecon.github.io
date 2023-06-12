@@ -16,6 +16,7 @@ Install the application “AnyConnect” on your device to connect to UTokyo VPN
 ![](img/win01-vpn1-login.png){:.medium.center.border}
 
 {% include_relative _help_mfa.html %}
+{% include_relative _help_security_education.html %}
 
 **Step B:** After the log-in, a download page for the AnyConnect client application, as illustrated below, will appear. Click “Download for Windows” to download the client application.
 
@@ -54,6 +55,7 @@ The following steps are required, every time to use the VPN. Please note that yo
 
 {% include_relative _help_multiple_users.html %}
 {% include_relative _help_mfa.html %}
+{% include_relative _help_security_education.html %}
 
 **Step G:** If the window displaying “Connected: vpn1.adm.u-tokyo.ac.jp” appears as illustrated below, your device is connected to the VPN. Communication is performed via this VPN while connected to the University of Tokyo campus network. Except for some communication platforms such as Zoom and WebEx that do not require a VPN connection and e-journal sites, all communications occur via this VPN, connecting to the University of Tokyo campus network.
 
