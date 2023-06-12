@@ -1,3 +1,7 @@
+---
+layout: false
+---
+
 After the transfer (scheduled on March 15, 6:00), for the use of UTokyo Zoom Account, please sign in by the following methods.
 
 - **Sign in from the UTokyo Account Zoom Webpage**(The Simpler Method)

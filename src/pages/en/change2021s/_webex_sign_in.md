@@ -1,3 +1,7 @@
+---
+layout: false
+---
+
 After the transfer (scheduled on March 13, 0:00), for the use of UTokyo Webex Account, please sign in by the following methods.
 
 1. Click “Sign In” on the [UTokyo Webex website] (https://utelecon.webex.com/) to direct to the Webex sign-in page.
