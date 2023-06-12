@@ -35,7 +35,7 @@ UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的とし�
 
 <details>
 	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
-	<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>を受講するまで，UTokyo Wi-Fiの利用資格が停止されています．情報セキュリティ教育の確認テストに合格した直後から利用が可能になります．
+	情報セキュリティ教育を受講するまで，UTokyo Wi-Fiの利用資格が停止されています．<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>から受講してください．確認テストに合格した直後からUTokyo Wi-Fiの利用が可能になります．
 	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
 </details>
 <details>
