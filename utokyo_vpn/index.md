@@ -36,12 +36,13 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を実施しています．実施時期（2023年度は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，UTokyo VPNの利用資格を停止します．**
 
 <details>
-	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
+	<summary>着任・入学時あるいは再任・復学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
 	<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>を受講するまで，UTokyo VPNの利用資格が停止されています．情報セキュリティ教育の確認テストに合格した直後から利用が可能になります．
+  <div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
 </details>
 <details>
 	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
-	UTokyo VPNの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていても可能となっているので，<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>から受講してください．なお，受講期間が終了した翌日（2023年度は8月8日）に限っては，システム作業のため確認テストの受講ができません．確認テストに合格した直後からUTokyo VPNの利用が可能になります．
+	UTokyo VPNの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていても可能となっているので，<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>から受講してください．確認テストに合格した直後からUTokyo VPNの利用が可能になります．なお，受講期間が終了した翌日（2023年度は8月8日）に限っては，システム作業のため確認テストの受講ができません．
 	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
 </details>
 

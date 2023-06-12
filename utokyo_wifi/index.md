@@ -36,10 +36,11 @@ UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的とし�
 <details>
 	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
 	<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>を受講するまで，UTokyo Wi-Fiの利用資格が停止されています．情報セキュリティ教育の確認テストに合格した直後から利用が可能になります．
+	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
 </details>
 <details>
 	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
-	<div>UTokyo Wi-Fiの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていても可能となっているので，<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>から受講してください．なお，受講期間が終了した翌日（2023年度は8月8日）に限っては，システム作業のため確認テストの受講ができません．確認テストに合格した直後からUTokyo Wi-Fiの利用が可能になります．</div>
+	<div>UTokyo Wi-Fiの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていても可能となっているので，<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>から受講してください．確認テストに合格した直後からUTokyo Wi-Fiの利用が可能になります．なお，受講期間が終了した翌日（2023年度は8月8日）に限っては，システム作業のため確認テストの受講ができません．</div>
 	<div>以前にUTokyo Wi-Fiを利用していた場合，以前のアカウントは削除されているため，<a href="#initial-setup">利用開始の手順</a>に従ってアカウントを再発行してください．</div>
 	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
 </details>
