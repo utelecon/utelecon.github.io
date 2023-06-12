@@ -16,7 +16,8 @@ title: macOSでUTokyo VPNを利用する
 
 ![](img/mac01-vpn1-login.png){:.medium.center.border}
 
-{% include_relative _help_mfa_security_education.html %}
+{% include_relative _help_mfa.html %}
+{% include_relative _help_security_education.html %}
 
 **手順B:** サインインに成功すると，以下のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for macOSをクリックして，クライアントアプリケーションをダウンロードしてください．
 
@@ -58,7 +59,8 @@ macOS 11 Big Sur以降のmacOSにAnyConnectのクライアントアプリケー�
 
 ![](img/mac10-anyconnect-login.png){:.medium.center.border}
 
-{% include_relative _help_mfa_security_education.html %}
+{% include_relative _help_mfa.html %}
+{% include_relative _help_security_education.html %}
 
 **手順G:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
