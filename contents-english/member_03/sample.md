@@ -16,6 +16,6 @@ UTokyo Slackの利用対象者は，UTokyo Accountを持っている構成員で
 
 ## その他
 ### 注意事項や詳細など
-UTokyo Slackの利用にあたっての基本的な注意事項は，「[UTokyo Slackの利用にあたっての注意事項](https://utelecon.adm.u-tokyo.ac.jp/slack/terms)」を参照してください．
+* UTokyo Slackの利用にあたっての基本的な注意事項は，「[UTokyo Slackの利用にあたっての注意事項](https://utelecon.adm.u-tokyo.ac.jp/slack/terms)」を参照してください．
 * 当面の間，UTokyo Slackは「試行」として運用します．
-* 運用を終了する予定は現在のところありませんが，個々の設定の変更や特定の機能の無効化が予告なく行われる可能性があることをご了承ください．
+  * 運用を終了する予定は現在のところありませんが，個々の設定の変更や特定の機能の無効化が予告なく行われる可能性があることをご了承ください．
