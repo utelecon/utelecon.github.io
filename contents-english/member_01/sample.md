@@ -1,3 +1,20 @@
 ---
 title: Sample Page
 ---
+## はじめに
+東京大学では，幅広い大学活動をカバーするコミュニケーション環境整備の一環として，ビジネスチャットツール「Slack」の導入を進めており，2022年8月より「[UTokyo Slack](https://utelecon.adm.u-tokyo.ac.jp/slack/)」として試行運用を行っています
+
+### 利用対象者
+UTokyo Slackの利用対象者は，UTokyo Accountを持っている構成員です．利用にあたっては，[UTokyo Accountの多要素認証](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)を有効化している必要があるほか，情報セキュリティ教育を受講していることを前提とします．
+
+## ワークスペースの参加方法
+ここでは，UTokyo Slackのワークスペースに参加する方法のうち，自由に参加できるワークスペースの中から選んで参加する方法を説明します．
+
+1. https://utokyo.enterprise.slack.com/ にアクセスしてください．
+2. 「UTokyo Accountでサインインする」を押してください．
+
+## その他
+### 注意事項や詳細など
+- UTokyo Slackの利用にあたっての基本的な注意事項は，「[UTokyo Slackの利用にあたっての注意事項](https://utelecon.adm.u-tokyo.ac.jp/slack/terms)」を参照してください．
+- 当面の間，UTokyo Slackは「試行」として運用します．
+  - 運用を終了する予定は現在のところありませんが，個々の設定の変更や特定の機能の無効化が予告なく行われる可能性があることをご了承ください．
