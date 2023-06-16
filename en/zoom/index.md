@@ -72,7 +72,7 @@ For an overview of usages during a meeting, please refer to "[Usages in Zoom Mee
 ## Misc
 {:#misc}
 
-- [Difference between Host and Co-host](/en/zoom/misc/host_cohost/)
+- [Difference between Host and Co-host](misc/management_roles/)
 - [Using Zoom's Report Feature to Manage Attendance](misc/report/)
 - [About the Zoom App](misc/app/)
 {%- comment -%}
