@@ -15,6 +15,7 @@
     "@astrojs/react": "^2.0.2",
     "@astrojs/webapi": "2.0.0",
     "@astrolib/analytics": "^0.3.0",
+    "@rollup/plugin-yaml": "^4.1.1",
     "astro": "2.0.13",
     "astro-seo": "^0.7.1",
     "mdast": "^3.0.0",

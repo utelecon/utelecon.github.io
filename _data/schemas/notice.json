@@ -22,7 +22,6 @@
             "type": "string"
           }
         },
-        "required": ["ja"],
         "additionalProperties": false
       },
       "important": {

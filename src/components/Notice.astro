@@ -1,0 +1,64 @@
+---
+import { renderMarkdown } from "@astrojs/markdown-remark";
+import notices from "../data/notice.yml";
+
+async function render(md: string) {
+  return renderMarkdown(md, { contentDir: new URL(import.meta.url) }).then(
+    // remove <p> and </p>
+    (result) => result.code.slice(3, -4)
+  );
+}
+
+export interface Props {
+  lang: "ja" | "en";
+  strip?: boolean;
+}
+
+interface Notice {
+  date: Date;
+  content: {
+    ja?: string;
+    en?: string;
+  };
+  important?: boolean;
+}
+
+interface NoticeContent {
+  date: Date;
+  content: string;
+}
+
+const { lang, strip } = Astro.props;
+
+const contents: NoticeContent[] = [];
+
+for (const notice of notices) {
+  const content = notice.content[lang] ?? notice.content.ja;
+  if (!content) continue;
+
+  if (!strip || contents.length < (notice.important ? 8 : 4)) {
+    contents.push({ date: notice.date, content });
+  }
+}
+---
+
+<ul>
+  {
+    contents.map(({ date, content }) => (
+      <li>
+        <span class="date">{date.toLocaleDateString("ja-JP")}</span>
+        <Fragment set:html={render(content)} />
+      </li>
+    ))
+  }
+</ul>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+  @import "@styles/layout.scss";
+  @import "@styles/top.scss";
+
+  .date {
+    color: $heading-color;
+  }
+</style>
