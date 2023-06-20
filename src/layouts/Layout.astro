@@ -20,6 +20,8 @@ export interface Frontmatter {
   h1?: string;
   top?: boolean;
   support?: boolean;
+  sitemap?: boolean;
+  redirect_to?: string;
 }
 
 function createDefaultDescription(): string {
