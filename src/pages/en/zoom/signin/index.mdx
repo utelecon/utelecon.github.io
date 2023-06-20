@@ -7,6 +7,8 @@ redirect_from:
   - /en/zoom/create_account_invitation
 ---
 
+import ZoomSigninBrowser from "@components/en/ZoomSigninBrowser.astro";
+
 An [UTokyo Account](/en/utokyo_account/) is required to sign into Zoom. If you have not already set up your UTokyo account, please check “[How to start using UTokyo Account](/en/utokyo_account/#procedures)” first.
 
 <div class="box">
@@ -17,7 +19,7 @@ To sign in with <strong class="alert"> alternative email addresses (e.g. ECCS Cl
 ## Signing in from the UTokyo Zoom Webpage
 {:#browser}
 
-{% include en/zoom_signin_browser.md %}
+<ZoomSigninBrowser />
 
 ## Signing in from the Zoom App
 {:#app}

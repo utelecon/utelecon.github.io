@@ -3,6 +3,8 @@ title: UTokyo Account
 slug: utokyo_account # 手順を外部ファイルからincludeするときに使う
 ---
 
+import UTokyoAccount from '@components/procedures/UTokyoAccount/index.astro'
+
 ## UTokyo Accountとは
 {:#about}
 
@@ -24,7 +26,7 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 
 ## UTokyo Accountを使い始めるには
 {:#procedures}
-{% include procedures/utokyo_account.html %}
+<UTokyoAccount />
 
 以上の作業を終えたら，あわせて以下のページもご覧ください．
 
@@ -43,8 +45,8 @@ UTokyo Accountを用いるとさまざまな情報システムが利用可能で
 ![](img/signin-yasuda.png)
 - 安田講堂の画像が現れず，以下のようなサインイン画面が表示された場合には，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力してください．
     <figure class="gallery">
-        <img src="img/signin-utac-01.png">
-        <img src="img/signin-utac-02.png">
+        <img src="img/signin-utac-01.png" />
+        <img src="img/signin-utac-02.png" />
     </figure>
 
 なお，UTokyo Accountでサインインする情報システムの多くは互いに連携しており，最初にひとつの情報システムでユーザ名とパスワードを入力してサインインすると，それ以降に別の情報システムを利用する際にはユーザ名とパスワードの入力が不要になります．これを**シングルサインオン** (Single Sign-On, SSO) といいます．
