@@ -1,7 +1,9 @@
 ---
 title: 2021年春のシステム変更
 ---
+import H4 from '@components/Heading/H4.astro'
 import WebexSignIn from './_webex_sign_in.md';
+import ZoomSignIn from './_zoom_sign_in.mdx';
 
 <div class="box--important">3月15日からZoomが，3月13日からWebexが，それぞれUTokyo Accountでサインインするようになり，これまでの方法ではサインインできなくなります．</div>
 
@@ -33,7 +35,7 @@ Web会議ツールの**ZoomとWebex**について，これまでECCSクラウド
 ### Zoomの新しいサインイン方法
 {:#zoom_sign_in}
 
-{% include_relative _zoom_sign_in.md heading="####" %}
+<ZoomSignIn components={{ h3: H4 }}  />
 
 ### Webexの新しいサインイン方法
 {:#webex_sign_in}
