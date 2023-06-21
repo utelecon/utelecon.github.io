@@ -26,9 +26,7 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
 ## 授業中の流れ
  1. 出席管理のためのコードを学生に知らせる  (<a href="attendances" target="">詳細</a>)
  1. 出席状況を確認する  (<a href="view_attendances" target="">詳細</a>)
-{% comment %}
- 1. 小テストを実施する  (<a href="quizzes" target="">（作成中）</a>)
-{% endcomment %}
+ <!-- 1. 小テストを実施する  (<a href="quizzes" target="">（作成中）</a>) -->
 
 ## 参考情報
 * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/">ITC-LMS広報ページ</a>
@@ -46,6 +44,4 @@ title: 学習管理システム ITC-LMS の使い方（教員向け）
 * <a href="assignments" target="">課題を作成する</a>
 * <a href="attendances" target="">出席管理のためのコードを学生に知らせる</a>
 * <a href="view_attendances" target="">出席状況を確認する</a>
-{% comment %}
-* <a href="quizzes" target="">小テストを実施する</a>
-{% endcomment %}
+<!-- * <a href="quizzes" target="">小テストを実施する</a> -->

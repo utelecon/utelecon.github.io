@@ -26,15 +26,13 @@ title: What is possible with Webex Events?（for Instructors)
 	![パネリスト権限の設定](img/webex_events_privilege_panelist.png){:width="700px"}
 	![出席者権限の設定](img/webex_events_privilege_participant.png){:width="700px"}
 
-{% comment %}
-### 参加者の入退室時のサウンド
+<!-- ### 参加者の入退室時のサウンド
 
 * 参加者が入退室する時にサウンドを鳴らすことができます．気づかないうちに予期せぬ参加者が紛れ込むことを防ぐことができますが，参加者の多い会議では煩わしくなります．
 * 「参加者」メニューの「入退室のサウンド」で設定します．
 
-	![](img/webex_sound_on_join.png)
+	![](img/webex_sound_on_join.png) -->
 
-{% endcomment %}
 ### Recording
 
 * If you record the entire event and upload it on an online platform like ITC-LMS (How to publish: TODO), you can use the recording as a learning material for students with poor communication conditions or as a material to review the class.

@@ -8,10 +8,8 @@ This page provides an overview of how to set up a Zoom meeting. Please also refe
 - [Scheduling Recurring Zoom Meetings](date_and_time/)
 - [Requiring Authentication to Join a Zoom Meeting](auth/)
 - [Setting up a Zoom Waiting Room](waiting_room/)
-{% comment %}
-- [参加者に登録を求める](registration/)
-- [代替ホストを設定する](alternative_host/)
-{% endcomment %}
+<!-- - [参加者に登録を求める](registration/)
+- [代替ホストを設定する](alternative_host/) -->
 
 ## Scheduling Meetings
 {:#create}
