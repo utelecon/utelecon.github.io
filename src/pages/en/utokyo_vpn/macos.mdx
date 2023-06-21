@@ -1,12 +1,18 @@
 ---
 title: How to use UTokyo VPN on macOS devices
 ---
+import SubpageBeginning from './_subpage_beginning.md';
+import HelpMfa from './_help_mfa.html';
+import HelpWhite from './_help_white.html';
+import HelpSecuritySession from './_help_security_session.html';
+import HelpSecurityUsername from './_help_security_username.html';
+import HelpMultipleUsers from './_help_multiple_users.html';
 
 This page describes how to use UTokyo VPN on macOS devices.
 
-{% include_relative _subpage_beginning.md %}
+<SubpageBeginning />
 
-### Preparation: Download and Install the VPN Client Application
+## Preparation: Download and Install the VPN Client Application
 {:#setup}
 
 Install the application “AnyConnect” on your device to connect to UTokyo VPN.
@@ -15,7 +21,7 @@ Install the application “AnyConnect” on your device to connect to UTokyo VPN
 
 ![](img/mac01-vpn1-login.png){:.medium.center.border}
 
-{% include_relative _help_mfa.html %}
+<HelpMfa />
 
 **Step B:** After the log-in, a download page for the AnyConnect client application, as illustrated below, will appear. Click “Download for macOS” to download the client application.
 
@@ -24,15 +30,15 @@ After these steps, install the application as you would do for any other macOS a
 ![](img/mac02-download-page.png){:.medium.center.border}
 ![](img/mac03-install-1.png){:.medium.center.border}
 
-{% include_relative _help_white.html %}
-{% include_relative _help_security_session.html %}
-{% include_relative _help_security_username.html %}
+<HelpWhite />
+<HelpSecuritySession />
+<HelpSecurityUsername />
 
 **Step C:** During the installation of AnyConnect, a window with the following message “System Extension Blocked” may appear, please click the “OK” button. A window with the following message will appear “AnyConnect System Extension Blocked”. Please follow the instructions to allow the system software from “Cisco AnyConnect Socket Filter”, which is displayed in the “General” in “Security & Privacy” in “System Preferences”. Additionally, a window like the second picture below will also appear, please click “Allow”. 
 
 <figure class="gallery">
-  <img src="img/mac04-install-2.png" class="border">
-  <img src="img/mac05-install-3.png" class="border">
+  <img src="img/mac04-install-2.png" class="border" />
+  <img src="img/mac05-install-3.png" class="border" />
 </figure>
 
 **Step D:** If the installation was completed successfully, a folder named “Cisco” is created in the Applications folder. In the folder, the AnyConnect client application “Cisco AnyConnect Secure Mobility Client.app” is installed. 
@@ -45,7 +51,7 @@ Note: After installing the AnyConnect client application on a macOS 11 Big Sur o
 
 ![](img/mac07-macos-pref.png){:.medium.center.border}
 
-### Steps to connect to the UTokyo VPN
+## Steps to connect to the UTokyo VPN
 {:#connect}
 
 The following steps are required, every time to use the VPN. Please note that your device will not connect automatically to the VPN immediately after booting your PC.
@@ -58,8 +64,8 @@ The following steps are required, every time to use the VPN. Please note that yo
 
 ![](img/mac10-anyconnect-login.png){:.medium.center.border}
 
-{% include_relative _help_multiple_users.html %}
-{% include_relative _help_mfa.html %}
+<HelpMultipleUsers />
+<HelpMfa />
 
 **Step G:** If the window displaying “Connected: vpn1.adm.u-tokyo.ac.jp” appears as illustrated below, your device is connected to the VPN. Communication is performed via this VPN while connected to the University of Tokyo campus network. Except for some communication platforms such as Zoom and WebEx that do not require a VPN connection and e-journal sites, all communications occur via this VPN, connecting to the University of Tokyo campus network.
 

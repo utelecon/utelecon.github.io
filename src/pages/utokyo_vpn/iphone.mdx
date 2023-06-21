@@ -1,10 +1,14 @@
 ---
 title: iPhoneでUTokyo VPNを利用する 
 ---
+import SubpageBeginning from './_subpage_beginning.md';
+import HelpMfa from './_help_mfa.html';
+import HelpMultipleUsers from './_help_multiple_users.html';
+import HelpSecurityEducation from './_help_security_education.html';
 
 このページでは，UTokyo VPNをiPhoneで利用する方法を説明します．
 
-{% include_relative _subpage_beginning.md %}
+<SubpageBeginning />
 ## 準備編: UTokyo VPNの初期設定
 {:#setup}
 
@@ -17,8 +21,8 @@ title: iPhoneでUTokyo VPNを利用する
 **手順B:** インストールを終えてSecure Clientアプリを開くと，下図の1枚目のような画面が出ることを確認します．これでインストールは完了です．なお，開く際に下図の2枚目のように通知の送信について確認するウィンドウが表示されることがありますが，いずれを選択しても構いません．
 
 <figure class="gallery">
-  <img src="img/iphone02-setup_home.png" class="border">
-  <img src="img/iphone03-setup_home_popup_notify.png" class="border">
+  <img src="img/iphone02-setup_home.png" class="border" />
+  <img src="img/iphone03-setup_home_popup_notify.png" class="border" />
 </figure>
 
 **手順C:** アプリを起動した直後の画面で左上の「接続」をタップし，続いて表示される画面で「VPN接続の追加」をタップすると，下図のようなウィンドウが表示されます．「サーバーアドレス」の横の入力欄をタップして **vpn1.adm.u-tokyo.ac.jp** と入力します．
@@ -38,16 +42,16 @@ title: iPhoneでUTokyo VPNを利用する
 **手順E:** 下記左図のように画面上部の「接続」に「vpn1.adm.u-tokyo.ac.jp」と記載されていることを確認してください．次に「AnyConnect VPN」の横のトグルボタンをONにして，下記右図のようにUTokyo Accountの認証ウィンドウが表示されたら，ご自身のUTokyo Accountでサインインしてください．前回のアクセスから時間をおかずに起動した場合は，この画面が表示されないで直ちにVPN接続が開始されることもあります．
 
 <figure class="gallery">
-  <img src="img/iphone06-home_disconnected.png" class="border">
-  <img src="img/iphone07-signin_.png" class="border">
+  <img src="img/iphone06-home_disconnected.png" class="border" />
+  <img src="img/iphone07-signin_.png" class="border" />
 </figure>
 
-{% include_relative _help_mfa.html %}
-{% include_relative _help_multiple_users.html %}
+<HelpMfa />
+<HelpMultipleUsers />
 
 **手順F:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
-{% include_relative _help_security_education.html %}
+<HelpSecurityEducation />
 
 **手順G:** 下記の画面のように「詳細」が「接続済み」と表示されていれば，お使いの端末はUTokyo VPNに接続している状態です．
 
