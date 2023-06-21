@@ -1,5 +1,6 @@
 import type { VFile } from "vfile";
 import type { Node } from "unist";
+import { join, relative } from "path";
 import type { MarkdownAstroData } from "@astrojs/markdown-remark";
 
 interface Options {
@@ -12,6 +13,8 @@ interface Options {
 export default function defaultFrontmatterPlugin({ layout }: Options) {
   return function (_: Node, file: VFile) {
     const astro = file.data.astro as MarkdownAstroData;
+    const path = relative(join(file.cwd, "src", "pages"), file.path);
     astro.frontmatter.layout ??= layout;
+    astro.frontmatter.lang ?? path.startsWith("en") ? "en" : "ja";
   };
 }
