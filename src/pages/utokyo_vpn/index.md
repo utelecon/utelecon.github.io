@@ -55,11 +55,11 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 
 UTokyo VPNを利用するには，専用のアプリ「Cisco AnyConnect」または「Cisco Secure Client」を端末にインストールし，接続を行います．以下の各ページで，OSごとにその方法を説明しています．なお，初期設定を含めたすべての作業を学外から行うことが可能です．
 
-* [Windows端末でUTokyo VPNを利用する](windows)
-* [macOS端末でUTokyo VPNを利用する](macos)
-* [Android端末でUTokyo VPNを利用する](android)
-* [iPad端末でUTokyo VPNを利用する](ipad)
-* [iPhone端末でUTokyo VPNを利用する](iphone)
+* [WindowsでUTokyo VPNを利用する](windows)
+* [macOSでUTokyo VPNを利用する](macos)
+* [AndroidでUTokyo VPNを利用する](android)
+* [iPadでUTokyo VPNを利用する](ipad)
+* [iPhoneでUTokyo VPNを利用する](iphone)
 {:.cards}
 
 ## FAQ

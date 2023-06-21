@@ -6,6 +6,8 @@ title: 生成系AI（ChatGPT等）関連情報
 
 ## 本ポータルサイト (utelecon) の情報
 
+- [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students)（2023年5月26日付／2023年5月29日掲載）
+- [AIツールの授業における利用について](/docs/ai-tools-in-classes)（2023年4月28日付／2023年5月16日掲載）
 - [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai)（2023年4月3日／太田邦史理事・副学長）
 - 説明会「[オンラインでも対面でも活用！Web会議・クラウドツールの説明会 〜 そして「あのAIツール」について”Chat”しましょう 〜](/events/2023-03-15/)」（2023年3月15日）
     - 特別セッション「ChatGPTスペシャルセッション」を行いました．資料・録画を掲載しています．

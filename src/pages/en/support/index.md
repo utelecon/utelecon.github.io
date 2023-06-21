@@ -5,6 +5,8 @@ redirect_from:
   - /en/supports/
 ---
 
+{% include emergency.html %}
+
 * The Technical Support Desk aims to respond to inquiries regarding online classes and web conferences.
 * To expand our services, support is co-operated by student staff ("Common Supporters") and faculty members.
 * We offer assistance through chats, Zoom, and email forms. Please contact us through the channel that best suits you. 
@@ -29,8 +31,7 @@ Chat support is available for simple inquiries. A chatbot (an automated response
 * We use MEDiA LiNK. Co., Ltd.'s MediaTalk chat service. The connection may sometimes become unstable. If the connection does not improve after a certain period of time, please contact us through Zoom or the email form. 
 
 <div>Business hours (Automated response): 24 hours</div>
-<div>Business Hours (Operator): 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri); 10:20 a.m.-4:35 p.m. on weekends or holidays</div>
-<div>Note: business hours on weekend and holidays are available from Saturday, March 18, 2023 through Sunday, April 16, 2023. Normally, the operator service is available only on weekdays.</div>
+<div>Business Hours (Operator): 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri).</div>
 
 <b class="box center">
 Start a chat (Click on the “チャットサポートで質問できます (Chat Support Available)” widget at the bottom right of your screen)
@@ -45,7 +46,7 @@ When you access the Zoom meeting room, you will first be taken to a waiting room
 * We do not record voices or videos of the Zoom meeting. Users are also requested not to record any voices or videos of the meeting.
 * To access meeting room information, you must sign in with your UTokyo Account.
 
-<div>Business Hours: 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri); 10:20 a.m.-4:35 p.m. on weekends or holidays</div>
+<div>Business Hours: 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri).</div>
 
 <b class="box center">
 <a href="https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Support.aspx">Zoom meeting room information page</a> 
