@@ -9,263 +9,94 @@ const { pageSlug } = Astro.props;
 ---
 
 <ul class="procedure">
-  {
-    pageSlug == "oc" && (
-      <li>
-        <a href="/oc/movies#zoom">Procedure Video (in Japanese)</a>
-      </li>
-    )
-  }
   <li>
-    <strong>Check: Sign in</strong>
-    <ol>
-      <li>
-        Go to the <a href="https://u-tokyo-ac-jp.zoom.us/">UTokyo Zoom page</a> (please
-        note that this is a Zoom page for the University of Tokyo only and not a
-        regular Zoom sign-in page).
-      </li>
-      <li>
-        A page labeled “UTokyo Zoom” will appear. Click the “Config” button on
-        the “UTokyo Zoom” page.
-      </li>
-      <li>
-        Unless you have already signed in, the UTokyo Account sign-in page will
-        be displayed. Please sign in.
-      </li>
-      <li>
-        If you see “Licensed” with your Common ID after clicking the icon in the
-        top right corner of the Zoom settings page (a human silhouette or a
-        profile picture that you have set up), you have successfully signed into
-        Zoom with your UTokyo account.
-      </li>
-    </ol>
-    <ul>
-      <li>
-        <details>
-          <summary>Troubleshooting guide</summary>
-          <ul>
-            <li>
-              <strong
-                >If you cannot see the page that says “UTokyo Zoom” after
-                accessing the link above</strong
-              >: This happens when you are already signed into Zoom with your
-              existing account. Click the icon in the upper right corner of the <a
-                href="https://zoom.us/profile">Zoom settings page</a
-              > (your icon or the human silhouette if you do not have a profile picture)
-              to "SIGN OUT". Thereafter, try to access the site again.
-            </li>
-          </ul>
-          If the issue is still not resolved, please consult the <a
-            href="/en/support/">Technical Support Desk</a
-          >.
-        </details>
-      </li>
-    </ul>
+    This process can only be done in the place where UTokyo Wi-Fi (Wi-Fi with
+    SSID <code>0000UTokyo</code>) is visible on the WiFi setting menu of your
+    own devices.
   </li>
+</ul>
+<ol>
   <li>
-    <strong>Task: Install the application on your computer</strong>
-    <ol>
-      <li>
-        Go to the Zoom "<a href="https://zoom.us/download">Download Center</a>".
-      </li>
-      <li>
-        Click the "Download" button in the "Zoom Desktop Client" section at the
-        top of the page.
-      </li>
-      <li>
-        The subsequent steps will vary depending on the case. In some cases, the
-        installation will proceed automatically, whereas in others, you may need
-        to press the confirmation button or open the downloaded file yourself.
-      </li>
-    </ol>
-    <ul>
-      <li>
-        If this procedure does not work, please consult the <a
-          href="/en/support/">Technical Support Desk</a
-        >.
-      </li>
-    </ul>
-  </li>
-  <li>
-    <strong>Optional task: Install the application on your smartphone</strong>{
-      pageSlug == "oc" && (
-        <>(this is not mandatory but useful in case of emergencies)</>
-      )
+    Select <code>0000UTokyo</code> on the Wi-Fi connection settings screen of {
+      pageSlug == "oc"
+        ? "the device you want to connect."
+        : "the device you checked in Step 1."
     }
-    <ol>
-      <li>
-        For Android users, you can install the app from <a
-          href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings"
-          >Google Play</a
-        >. For iPhone users, you can install it from the <a
-          href="https://itunes.apple.com/us/app/id546505307">App Store</a
-        >.
-      </li>
-    </ol>
-    <ul>
-      <li>
-        If this procedure does not work, please consult the <a
-          href="/en/support/">Technical Support Desk</a
-        >.
-      </li>
-    </ul>
   </li>
   <li>
-    <strong>Check: Enter UTokyo member restricted Zoom meeting rooms</strong>{
-      pageSlug == "oc" && (
+    Enter the user ID and password of your UTokyo Wi-Fi account (not of your
+    UTokyo Account). You can find your user ID and password in the notification
+    email you received{pageSlug == "oc" ? "in the step above" : "in Step 2"}. If
+    you have just finished your application, you can also find them on the
+    application completion screen of the account menu.
+  </li>
+  <li>
+    Once you establish a connection, you can use it just like any normal Wi-Fi.
+  </li>
+</ol>
+<ul>
+  <li>
+    When connecting, you may be asked to verify your certificate or to enter the
+    information described in the {
+      pageSlug == "oc" ? (
+        <a href="/utokyo_wifi/#connect-configuration">
+          "Advanced Connection Settings" on UTokyo Wi-Fi page
+        </a>
+      ) : (
         <>
-          {" "}
-          (Try using the actual device you plan to use in class. It is also a
-          good idea to try this on your smartphone as well as your computer as a
-          backup.)
+          <a href="#connect-configuration">"Connect Configuration"</a> section
+          below
         </>
       )
-    }
-    <ol>
-      <li>
-        In the meeting room, your microphone audio or camera image may be sent
-        to other people (in the test room used here, your audio or video will
-        not be sent to others just by joining the room. However, it could be
-        sent while testing different functions). If you are concerned, please
-        perform this test in a situation that is safe for sending audio and
-        video.
-      </li>
-      <li>
-        Access the test meeting room URL via the <a
-          href="https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02"
-          >ITC-LMS test cource</a
-        >.
-      </li>
-      <li>
-        You may be asked to click a confirmation button or select an application
-        to open.
-      </li>
-      <li>
-        After the Zoom app opens, when you see the message "Connect to audio to
-        hear other users", click "Call using the Internet".
-      </li>
-      <li>
-        If you get a black screen with "Start Video" and "Participants" at the
-        bottom, you are in the meeting room.
-      </li>
-    </ol>
-    <ul>
-      <li>
-        <details>
-          <summary>Troubleshooting guide</summary>
-          <ul>
-            <li>
-              <strong
-                >You are asked to install the application when you access the
-                meeting room URL, or the installation starts</strong
-              >: This happens when the application has not been properly
-              installed. Please reinstall the application and access the URL
-              again.
-            </li>
-            <li>
-              <strong
-                >When the message "This meeting is only for authorized
-                participants" is displayed</strong
-              >: This happens when you have not signed in to Zoom with your
-              UTokyo account. Click the "Sign in to Join” or "Switch Account to
-              Join" button and sign in by following the instructions shown below
-              in "Optional task: Sign in to the application".
-            </li>
-          </ul>
-          If the issue is still not resolved, please consult the <a
-            href="/en/support/">Technical Support Desk</a
-          >.
-        </details>
-      </li>
-    </ul>
+    }.
   </li>
   <li>
-    <strong>Optional Task: Sign in to the application</strong>{
-      pageSlug == "oc" && (
-        <>(useful for people who have opportunities to host meetings)</>
-      )
-    }
-    <ol>
-      <li>Open the Zoom app and click the "Sign In" button.</li>
-      <li>
-        On the sign-in screen, find the words "Sign in with SSO" and click on
-        it.
-      </li>
-      <li>
-        In the "Company domain" field, enter <code>u-tokyo-ac-jp</code> (note that
-        the <code>ac</code> should be preceded and followed by a hyphen, not a period).
-      </li>
-      <li>
-        Unless you have already signed in, the UTokyo Account sign-in page will
-        be displayed. Please sign in.
-      </li>
-      <li>
-        For computer users, click on the icon on the upper right (either your
-        profile picture or the human silhouette if you have not set one up). For
-        smartphone users, click "More" on the lower right. You have properly
-        signed in if you see your name (or Common ID if you have not set one up)
-        and the message "License Available" on the screen.
-      </li>
-    </ol>
-    <ul>
-      <li>
-        <details>
-          <summary>Troubleshooting guide</summary>
-          <ul>
-            <li>
-              <strong
-                >If after entering your "company domain" you receive a message
-                such as "This site cannot be reached," "Sorry, we cannot find
-                your server," or "The site you are trying to access cannot be
-                found. If you receive a message such as "This page cannot be
-                reached," "Server not found," or "The site you are trying to
-                access cannot be found</strong
-              >
-              : This happens when you did not enter the "company domain" correctly.
-              Please check again that you have entered <code>u-tokyo-ac-jp</code
-              >. In particular, note that the <code>ac</code> should be preceded
-              and followed by a hyphen, not a period.
-            </li>
-          </ul>
-          If the issue is still not resolved, please consult the <a
-            href="/en/support/">Technical Support Desk</a
-          >.
-        </details>
-      </li>
-    </ul>
+    Please refer to <a
+      href="https://www.sodan.ecc.u-tokyo.ac.jp/en/faq/utokyo-wifi-en/"
+      >ECCS Tutor’s page</a
+    > as well if you are unsure. There are detailed connection instructions for each
+    device. You may also refer to <a href="https://www.eduroam.jp/for_users/"
+      >the "User's Guide" on the page of the Wi-Fi system called "eduroam"</a
+    >, which has a similar connection method (replace <code>eduroam</code> with UTokyo
+    Wi-Fi SSID when you read the page).
   </li>
-  {
-    pageSlug != "oc" && (
-      <li>
-        <strong>Exercise: Creating a Meeting Room</strong>
-        <ol>
-          <li>
-            Go to the <a href="https://u-tokyo-ac-jp.zoom.us/">UTokyo Zoom</a>{" "}
-            page and click "Config".
-          </li>
-          <li>
-            When asked to sign in, enter your UTokyo Account username (10
-            digits) and password.
-          </li>
-          <li>Click the "Schedule a Meeting" button in the upper right.</li>
-          <li>
-            A screen requesting the details of the meeting room setting will
-            appear. As this is an exercise, skip the items you are uncertain and
-            click "Save" at the bottom.
-          </li>
-          <li>
-            You will be directed to a page where you can check the information
-            of the created conference room. The URL of the room is displayed in
-            the "Invite Link" column, and you can enter the room from this URL.
-          </li>
-        </ol>
-        <ul>
-          <li>
-            If this procedure does not work, please consult the{" "}
-            <a href="/en/support/">support desk</a>.
-          </li>
-        </ul>
-      </li>
-    )
-  }
+  <li>
+    <details>
+      <summary>When this procedure does not work</summary>
+      <ul>
+        <li>
+          If the signal is weak, the connection may be interrupted. Try
+          different locations or times of the day.
+        </li>
+        <li>
+          When you enter your user ID, please include the alphabetical part as
+          well.
+        </li>
+        <li>
+          Make sure you have entered the symbols in the password correctly. Try
+          copying and pasting from the notification email.
+        </li>
+        <li>
+          If you are copying and pasting from a notification email, please make
+          sure that there are no extra spaces before or after the password.
+        </li>
+        <li>
+          If you have multiple applications for an account during the process,
+          only one of them will be valid; only the account listed in the <a
+            href="https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/"
+            >UTokyo Wi-Fi account menu</a
+          > will be valid, so please check.
+        </li>
+        <li>
+          The trouble may be caused by devices which are not kept up to date.
+          Old MacOS, Windows 8.1 or earlier, and other devices (smartphones,
+          etc.) that have not been updated should be updated to the latest
+          version before connecting.
+        </li>
+      </ul>
+      If you still have problems, please contact <a href="/en/support/"
+        >the Technical Support Desk</a
+      >.
+    </details>
+  </li>
 </ul>
