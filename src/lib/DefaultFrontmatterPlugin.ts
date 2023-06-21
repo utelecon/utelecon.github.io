@@ -15,6 +15,6 @@ export default function defaultFrontmatterPlugin({ layout }: Options) {
     const astro = file.data.astro as MarkdownAstroData;
     const path = relative(join(file.cwd, "src", "pages"), file.path);
     astro.frontmatter.layout ??= layout;
-    astro.frontmatter.lang ?? path.startsWith("en") ? "en" : "ja";
+    astro.frontmatter.lang ??= path.startsWith("en") ? "en" : "ja";
   };
 }
