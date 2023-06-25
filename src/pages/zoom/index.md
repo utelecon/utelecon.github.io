@@ -65,7 +65,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
 ## その他
 {:#misc}
 
-- [ホストと共同ホストの違い](misc/host_cohost/)
+- [ミーティングの管理とそれに関わる役割（ホスト・共同ホスト・代替ホストなど）について](misc/management_roles/)
 - [Zoomのレポート機能を使って出席を管理する](misc/report/)
 - [Zoomのアプリについて](misc/app/)
 - [ミーティングの編集と管理](misc/edit_meeting/)

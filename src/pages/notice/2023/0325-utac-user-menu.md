@@ -1,5 +1,5 @@
 ---
-title: UTokyo Account利用者メニュー等のメンテナンス (3月25日22時～3月26日2時）
+title: UTokyo Account利用者メニュー等のメンテナンス（3月25日22時～3月26日2時）
 ---
 
 <div style="text-align: right;">2023年3月22日</div>
