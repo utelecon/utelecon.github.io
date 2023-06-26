@@ -40,95 +40,96 @@ To use MATLAB, you need to create a MathWorks account. In addition, you will nee
 
 If you have not used UTokyo Account yet, please refer to [How to start using UTokyo Account](/en/utokyo_account/#procedures). You can also use [ECCS Cloud Email](/en/eccs_cloud_email) as an example of an email address ending with `u-tokyo.ac.jp`.
 ### If you have not created a MathWorks account yet
-1. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click "Sign in to get started" in the middle of the page．
+1. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click "Sign in to get started" in the middle of the page.
+<!---    1.2. 【またはこちらを書く】MathWorks社[ライセンス認証ページ](https://jp.mathworks.com/licensecenter/total_headcount/90427-67813-64593-61894-60890) にアクセスしてください．--->
 2. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in page will appear. So please sign in．
 3. When the menu labeled "Create a MathWorks Account" appears, click "Create"．
 <!---![](https://i.imgur.com/AAD3U9B.png)--->
-4. 画面の指示に従い，[ECCSクラウドメール](/eccs_cloud_email)などの，`u-tokyo.ac.jp`で終わるメールアドレスを使用してMathWorksアカウントを作成してください．
-5. 登録したメールアドレス宛てに`service@account.mathworks.com`から認証メールが届くので，記載されたリンクにアクセスします．メールの受信が確認できない場合は，迷惑メールに振り分けられていないか確認してください．
-6. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
+4. Follow the instructions on your screen to create a MathWorks account using an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/eccs_cloud_email). 
+5. You will receive an authentication email from `service@account.mathworks.com` to your registered email address. If you do not receive the email, check to see if it has not been classified as spam mail.
+6. When you see the message "Your school's Campus-Wide License has been linked to your MathWorks account.” is displayed, you are ready to go.
+．
 
-上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
-### すでに作成済みのMathWorksアカウントがある場合
-1. お持ちのMathWorksアカウントのメールアドレスを，[ECCSクラウドメール](/eccs_cloud_email)などの，`u-tokyo.ac.jp`で終わるメールアドレスに更新します．
+If the above procedure does not work, please contact MathWorks technical support desk at `service@mathworks.com` for assistance．
+### If you have already created a MathWorks account 
+1. Update the email address of your MathWorks account to an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/eccs_cloud_email)．
     <details>
-        <summary>手順</summary>
+        <summary>Procedures</summary>
         <ol>
-            <li><a href="https://jp.mathworks.com/mwaccount/">MathWorksアカウントページ</a>にアクセスし，サインインします．</li>
-            <li>ページ上部の「プロファイル > プロファイルの編集」をクリックします．</li>
-            <li>メールアドレスを変更し，「更新」をクリックします．</li>
-            <li><code>service@account.mathworks.com</code>から届く認証メールのリンクにアクセスします．</li>
+            <li>Go to your <a href="https://jp.mathworks.com/mwaccount/">MathWorks account page and sign in．</li>
+            <li>Click on "Profile > Edit Profile" at the top of the page．</li>
+            <li>Change the email address and click "Update"．</li>
+            <li>Access the link in the authentication email you receive from <code>service@account.mathworks.com</code>．</li>
         </ol>
     </details>
-2. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」をクリックしてください．
-3. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-4. 「Sign in to your existing MathWorks Account」と書かれたメニューが表示されたら，「Sign In」をクリックしてください．
-5. お持ちのMathWorksアカウントでサインインします．
-6. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
+2. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click "Sign in to get started" in the middle of the page．
+3. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in page will appear．
+4. Click "Sign In" when the "Sign in to your existing MathWorks Account" menu appears. 
+5. Sign in with your existing MathWorks account.
+6. When you see "Your school's Campus-Wide License has been linked to your MathWorks Account" is displayed, you are ready to go．
 
-上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
+If the above procedure does not work, please contact MathWorks technical support desk at `service@mathworks.com` for assistance．
 
-## 基本的な利用の方法
-MATLABの機能をすべて使うには，PCにソフトウェア版のインストールを行うことが推奨されますが，PCに十分な処理速度のプロセッサ，および保存領域の余裕があることが必要です．また，インストール時にはインターネット通信が必要となります．
+## How to Use MATLAB Basically
+To use the full functionality of MATLAB, it is recommended to install the software version on your computer, which is required to have a processor with sufficient performance and enough storage space. Internet communication is also required during installation．
 
-→ [MATLABインストールのシステム要件](https://jp.mathworks.com/support/requirements/previous-releases.html)
+→ see: [System Requirements and Supported Compilers](https://www.mathworks.com/support/requirements/previous-releases.html)
 
-ソフトウェア版で提供される機能の多くはオンライン版でも利用可能ですので，利用開始時に必ずしもソフトウェア版をインストールする必要はありません．
+Many of the functions provided in the software version are also available in the online version, so you do not necessarily need to install the software version when you get started.．
 
-### ソフトウェア版のインストール
-ダウンロードおよびインストールにはインターネット通信が必要です．[ダウンロードセンター](https://jp.mathworks.com/downloads/web_downloads/)にアクセスし，基本的には最新のリリースをダウンロードしてください．
+### Installing the software version
+Internet connection is required for downloading and installation. Please visit the [Download Center](https://www.mathworks.com/downloads/web_downloads) and download the latest software release．
 
-詳細な説明は準備中です．
+Detailed instructions are in preparation.．
 
-### オンライン版の利用
-MATLAB Onlineでは，ブラウザからオンラインリソースにアクセスし，ソフトウェア版と同様の操作画面でMATLABを利用することができます．ソフトウェア版ではPC内のデータの保存・読み取りを行うのに対して，オンライン版ではMATLAB Driveにデータの保存・読み取りを行います．利用ブラウザはGoogle Chromeが推奨されています．
-#### MATLAB Onlineへのアクセス
-1. [MATLAB Online](https://matlab.mathworks.com/)にアクセスし，サインインします．
-2. 「MATLAB Onlineを開く」をクリックします．
+### Using the online version
+MATLAB Online allows you to access online resources from your browser and use MATLAB in the same way as the software version. While the software version saves and reads data in your computer, the online version saves and reads data in the MATLAB Drive. The recommended browser is Google Chrome．
 
-#### MATLAB Driveへのアクセス
-- [MATLAB Drive オンライン](https://drive.matlab.com/files)にアクセスし，サインインします．
-- PCに[MATLAB Drive Connecter](https://jp.mathworks.com/products/matlab-drive)をインストールすることで，MATLAB Driveのデータを同期したドライブをマウントすることができます．
+#### Access to MATLAB Online
+1. Access [MATLAB Online](https://matlab.mathworks.com/) and sign in．
+2. Click "Open MATLAB Online"．
 
-### 操作方法の学習
-基本の操作から目的別の応用まで，チュートリアル形式で学習可能なオンライントレーニングコースを利用できます．
-- [オンラインコース一覧](https://matlabacademy.mathworks.com/)から自分に合ったものを選択して受講できます．
-- 年に数回，「東大MATLABアンバサダー」による講習会が開催されています．参加申込みを受付中の講習会は[アンバサダーポータルサイト](https://sites.google.com/view/ut-matlab-amb/Event)に掲載されています．
+#### Access to MATLAB Drive
+- Access [MATLAB Drive Online](https://drive.matlab.com/files) and sign in．
+- Install [MATLAB Drive Connecter](https://www.mathworks.com/products/matlab-drive.html) in your computer to mount a drive synchronized with MATLAB Drive data.．
 
-## 授業利用についての情報
+### Learning how to operate
+Online training courses are available in tutorial format, covering everything from basic operation to advanced features for different purposes．
+- You can choose the course that suits you best from the [Online Course List](https://matlabacademy.mathworks.com/)．
+- Several times a year, the "UTokyo MATLAB Ambassadors" hold training sessions. The courses currently available for registration are listed on the [Ambassadors Portal Site](https://sites.google.com/view/ut-matlab-amb/Event) (in Japanese)．
 
-2022年12月20日開催の「**[MATLABの教育利用推進に向けた全学シンポジウム](/events/2022-12-20-matlab/)**」にて，学内でMATLABを活用して教育を行った事例を紹介しています．
+## Information on using MATLAB in the classroom
 
-また，授業における利用例が[MathWorks社のウェブサイト](https://jp.mathworks.com/academia/courseware.html)で公開されていますので，こちらも参考にしてください．
+At "**[University-Wide Symposium to Promote the Educational Use of MATLAB](/events/2022-12-20-matlab/)**" (in Japanese) held on December 20, 2022, they introduced examples of education conducted in the university using MATLAB．
 
-### MATLAB Driveでのファイル共有
+Examples of MATLAB use in the classroom are available on the [MathWorks website](https://www.mathworks.com/academia/courseware.html), so please refer to this page as well．
 
-教員から学生にMATLABのサンプルファイルを配布する際に，[MATLAB Drive](https://jp.mathworks.com/products/matlab-drive)や[File Exchange](https://jp.mathworks.com/matlabcentral/fileexchange/)を利用すると，より簡単にファイルの受け取りやプログラムの実行ができます．
+### File sharing with MATLAB Drive
 
-詳細な説明は準備中です．
+When faculty members distribute MATLAB sample files to students, they can use [MATLAB Drive](https://www.mathworks.com/products/matlab-drive.html) or [File Exchange](https://www.mathworks.com/matlabcentral/fileexchange) to make it easier  to receive files and execute programs．
 
-### MATLAB Graderの利用
+Detailed instructions are in preparation．
 
-学生にスクリプトコードを作成する課題を行う場合，MATLAB Graderを利用することで，提出されたスクリプトに自動で採点・評価・フィードバックを行うことができます．
+### Using MATLAB Grader
 
-詳細な説明は準備中です．
+When assigning students to write script code, MATLAB Grader can be used to automatically grade, evaluate, and provide feedback on submitted scripts．
 
-## 高度な利用方法について
-準備中
+## Advanced instructions
+In preparation
 
-## 参考情報
+## References
 
-### ユーザコミュニティ（UTokyo Slack）
-MATLABの製品更新情報や，利用に関する相談を行えるオープンフォーラムです．学内構成員は誰でも参加可能で，MathWorksエンジニアや他の学内ユーザと情報交換できます．
+### User Community (UTokyo Slack)
+This is an open forum where you can get information about MATLAB product updates and consultation on MATLAB use. All members of the University of Tokyo can participate and exchange information with MathWorks engineers and other users in the university．
 
-「**東京大学MATLABユーザコミュニティ**」という名前のワークスペースが[UTokyo Slack](/slack/)内で公開されています．参加の方法は以下のページを参照してください．
+A workspace named "**東京大学MATLABユーザコミュニティ (University of Tokyo MATLAB User Community)**" is available in [UTokyo Slack](/en/slack/). Please refer to the following page to join．
 
-→<b>[UTokyo Slackに自由に参加できるワークスペースの中から選んで参加する](/slack/join)</b>
+→<b>see: **[Joining an open workspace in UTokyo Slack](/en/slack/join)**</b>
 
-### 東大MATLABアンバサダー
-「東大MATLABアンバサダー」は，利用方法の講習会や，学内ユーザの交流イベントなどを実施している学生チームです．メールやZoomによる利用相談も行っています．詳しくは[**アンバサダーポータルサイト**](https://sites.google.com/view/ut-matlab-amb/)をご覧ください．
+### UTokyo MATLAB Ambassadors
+"UTokyo MATLAB Ambassadors" is a student team who hold workshops on how to use MATLAB and events for interaction among users in the university. They also provide consultation services via email and Zoom. Please refer to [**Ambassador Portal Site**](https://sites.google.com/view/ut-matlab-amb/) (in Japanese) for details．
 
-### MathWorksテクニカルサポート
-製品の技術的な仕様に関する問い合わせは，以下のページからMathWorks社へお送りください．
+### MathWorks Technical Support Desk
+Inquiries about technical specifications of the product should be sent to MathWorks from the following page．
 
-[サポートへの問い合わせ（MathWorks社ウェブサイト）](https://jp.mathworks.com/support/contact_us.html)
+[MathWorks Technical Support Desk (MathWorks website)](https://www.mathworks.com/support/contact_us.html)
