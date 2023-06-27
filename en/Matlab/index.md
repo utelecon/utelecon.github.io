@@ -27,7 +27,7 @@ The University of Tokyo has a comprehensive license agreement that allows all me
 
 ## Cautions for use
 Please observe the following when you use MATLAB．
-- The purpose of use is limited to educational and research activities, and work related to these activities.．
+- The purpose of use is limited to educational and research activities, and work related to these activities．
 - You may use the service during the period you are enrolled at the university．
 - You must agree to the Terms of Use before using MATLAB. Users must comply with the Policy for Information Security and related regulations established by the university, and use the service in accordance with the rules presented by the university．
 - User information will be used for university administration and service provision．
@@ -48,7 +48,6 @@ If you have not used UTokyo Account yet, please refer to [How to start using UTo
 4. Follow the instructions on your screen to create a MathWorks account using an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/eccs_cloud_email). 
 5. You will receive an authentication email from `service@account.mathworks.com` to your registered email address. If you do not receive the email, check to see if it has not been classified as spam mail.
 6. When you see the message "Your school's Campus-Wide License has been linked to your MathWorks account.” is displayed, you are ready to go.
-．
 
 If the above procedure does not work, please contact MathWorks technical support desk at `service@mathworks.com` for assistance．
 ### If you have already created a MathWorks account 
@@ -56,7 +55,7 @@ If the above procedure does not work, please contact MathWorks technical support
     <details>
         <summary>Procedures</summary>
         <ol>
-            <li>Go to your <a href="https://jp.mathworks.com/mwaccount/">MathWorks account page and sign in．</li>
+            <li>Go to your <a href="https://jp.mathworks.com/mwaccount/">MathWorks account page</a> and sign in．</li>
             <li>Click on "Profile > Edit Profile" at the top of the page．</li>
             <li>Change the email address and click "Update"．</li>
             <li>Access the link in the authentication email you receive from <code>service@account.mathworks.com</code>．</li>
@@ -75,12 +74,12 @@ To use the full functionality of MATLAB, it is recommended to install the softwa
 
 → see: [System Requirements and Supported Compilers](https://www.mathworks.com/support/requirements/previous-releases.html)
 
-Many of the functions provided in the software version are also available in the online version, so you do not necessarily need to install the software version when you get started.．
+Many of the functions provided in the software version are also available in the online version, so you do not necessarily need to install the software version when you get started．
 
 ### Installing the software version
 Internet connection is required for downloading and installation. Please visit the [Download Center](https://www.mathworks.com/downloads/web_downloads) and download the latest software release．
 
-Detailed instructions are in preparation.．
+Detailed instructions are in preparation．
 
 ### Using the online version
 MATLAB Online allows you to access online resources from your browser and use MATLAB in the same way as the software version. While the software version saves and reads data in your computer, the online version saves and reads data in the MATLAB Drive. The recommended browser is Google Chrome．
@@ -91,7 +90,7 @@ MATLAB Online allows you to access online resources from your browser and use MA
 
 #### Access to MATLAB Drive
 - Access [MATLAB Drive Online](https://drive.matlab.com/files) and sign in．
-- Install [MATLAB Drive Connecter](https://www.mathworks.com/products/matlab-drive.html) in your computer to mount a drive synchronized with MATLAB Drive data.．
+- Install [MATLAB Drive Connecter](https://www.mathworks.com/products/matlab-drive.html) in your computer to mount a drive synchronized with MATLAB Drive data．
 
 ### Learning how to operate
 Online training courses are available in tutorial format, covering everything from basic operation to advanced features for different purposes．
@@ -115,7 +114,7 @@ Detailed instructions are in preparation．
 When assigning students to write script code, MATLAB Grader can be used to automatically grade, evaluate, and provide feedback on submitted scripts．
 
 ## Advanced instructions
-In preparation
+In preparation.
 
 ## References
 
