@@ -8,6 +8,9 @@ import ItcLms from "@components/en/systems/ItcLms/index.astro";
 import Microsoft from "@components/en/systems/Microsoft/index.astro";
 import ApplyUTokyoWifi from "@components/en/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
 import ConnectUTokyoWifi from "@components/en/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
+import Google from '@components/procedures/en/Google/index.astro'
+import UTokyoAccount from '@components/procedures/en/UTokyoAccount/index.astro'
+import UTAS from '@components/procedures/en/UTAS/index.astro'
 
 ## Greetings
 
@@ -104,15 +107,13 @@ In this section, we will explain the essential tasks that must be completed to u
 Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Getting Ready for ICT Systems at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the below procedures in further detail.
 
 <ul class="procedure">
-  {/*
-{% include procedures/en/utokyo_account.html part="important" %}
-{% include procedures/en/google.html part="important" %}
-{% include procedures/en/utas.html part="important" %}
-*/}
-  <li>
-    <strong>UTokyo Wi-Fi: Apply for an account</strong>
-    {/* {% include en/systems/utokyo_wifi/apply.html part="important" %} */}
-  </li>
+    <UTokyoAccount part="important" pageSlug="oc" />
+    <Google part="important" pageSlug="oc" />
+    <UTAS part="important" pageSlug="oc" />
+    <li>
+      <strong>UTokyo Wi-Fi: Apply for an account</strong>
+      {/* {% include en/systems/utokyo_wifi/apply.html part="important" %} */}
+    </li>
 </ul>
 
 ## Other Procedures to Use the Information Systems
