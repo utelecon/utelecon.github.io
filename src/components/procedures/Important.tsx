@@ -6,6 +6,7 @@ interface Include {
 interface Props {
   part?: string;
   pageSlug?: string;
+  lang?: "ja" | "en";
   include: Include;
   system: string;
   children?: string | JSX.Element | JSX.Element[];
@@ -21,13 +22,13 @@ function Point({ part, include, system }: Props) {
   );
 }
 
-export default function Important({ part, pageSlug, include, system, children }: Props) {
+export default function Important({ part, pageSlug, include, system, children, lang = "ja" }: Props) {
   if (part != "important" && (pageSlug == "oc" || pageSlug == "faculty_members")) {
     return (
       <li>
         <details>
           <summary>
-            （再掲）
+            {lang === "ja" ? "（再掲）" : "(Repost) "}
             <Point part={part} include={include} system={system} />
           </summary>
           {children}
