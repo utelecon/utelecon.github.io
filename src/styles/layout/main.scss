@@ -2,7 +2,6 @@ main {
 
   word-wrap: break-word;
   :lang(ja) {
-    text-align: justify;
     @media (max-width: 640px) {
       text-align: left;
     }
