@@ -31,20 +31,10 @@ UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的とし�
 ### 情報セキュリティ教育
 {:#jouhou-security}
 
-東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を実施しています．実施時期（2023年度は7月上旬から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合はアカウントが削除され，UTokyo Wi-Fiに接続することができなくなります．** さらに，UTokyo Wi-Fiアカウントメニューへのログインやアカウントの新規発行もできなくなります．
+東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認してください．
 
-<details>
-	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
-	情報セキュリティ教育を受講するまで，UTokyo Wi-Fiの利用資格が停止されています．<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>から受講してください．確認テストに合格した直後からUTokyo Wi-Fiの利用が可能になります．
-	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
-</details>
-<details>
-	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
-	<div>UTokyo Wi-Fiの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていても可能となっているので，<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>から受講してください．確認テストに合格した直後からUTokyo Wi-Fiの利用が可能になります．なお，受講期間が終了した翌日（2023年度は8月8日）に限っては，システム作業のため確認テストの受講ができません．</div>
-	<div>以前にUTokyo Wi-Fiを利用していた場合，以前のアカウントは削除されているため，<a href="#initial-setup">利用開始の手順</a>に従ってアカウントを再発行してください．</div>
-	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
-</details>
-
+- 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo Wi-Fiの利用資格が停止されます．具体的には，UTokyo Wi-Fiアカウントメニューへのサインインやアカウントの新規発行ができなくなります．さらに，UTokyo Wi-Fiアカウントを以前に発行していた場合は，アカウントが削除されUTokyo Wi-Fiに接続することができなくなります． 
+- 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格するとただちに利用資格の停止が解除されるので，<a href="#expiration">アカウントを再発行・再設定する手順</a>に従って，UTokyo Wi-Fiアカウントメニューから新しいアカウントを発行し，デバイスに設定してください．
 
 ### 共用機器での利用について
 UTokyo Wi-Fiは，各個人が占有して利用する機器でのみ利用可能で，**複数人が共用する機器での利用は禁止です**．共用機器での利用は，UTokyo Wi-Fiアカウントを取得した本人以外に利用させることになり，利用規程で禁止されているアカウントの貸与にあたるためです．なお，OSのユーザーアカウントが個人別に設定されていて，UTokyo Wi-Fiアカウントが取得した本人以外に利用できない，という状況であれば問題ありません．
