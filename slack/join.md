@@ -15,10 +15,7 @@ title: UTokyo Slackに自由に参加できるワークスペースの中から�
 1. [https://utokyo.enterprise.slack.com/](https://utokyo.enterprise.slack.com/) にアクセスしてください．
 1. 「UTokyo Accountでサインインする」を押してください．
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-    <details>
-        <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
-        UTokyo Slackの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
-    </details>
+{% include_relative _help.md %}
 1. サービス利用規約を確認するよう求められるので，確認してください．
 1. 「UTokyo Slackのワークスペース」という画面が開き，ワークスペースの一覧が表示されます．
 1. 一覧の中から参加したいワークスペースを選んで，「詳細を表示」を押してください．以下のいずれかの表示となるので，それぞれに応じた説明を確認してください．
