@@ -4,7 +4,7 @@ title: "UTokyo Microsoft Azure Dev Tools for Teaching"
 
 ## Overview
 
-"Azure Dev Tools for Teaching" is software for developers offered by Microsoft for educational institutions. It is available at the University of Tokyo based on the contract of UTokyo Microsoft License. Users are required to comply with the terms by Microsoft.
+"Azure Dev Tools for Teaching" is software for developers offered by Microsoft for educational institutions. It is available at the University of Tokyo based on the contract of [UTokyo Microsoft License](/en/microsoft/). Users are required to comply with the terms by Microsoft.
 
 ### Scope of use
 
@@ -30,8 +30,8 @@ title: "UTokyo Microsoft Azure Dev Tools for Teaching"
 
 ## Others
 
-- Inquiries about initial procedure (signing in, downloading, etc.) are accepted at the support desk.
-    - The support desk cannot provide assistance on how to use the software for developers. Users are expected to solve problems on their own. The help pages of Microsoft may be useful for reference.
+- Inquiries about initial procedure (signing in, downloading, etc.) are accepted at the [Support Desk](/en/support/).
+    - The Support Desk cannot provide assistance on how to use the software for developers. Users are expected to solve problems on their own. The help pages of Microsoft may be useful for reference.
 - The contents of the service (e.g., the lineup of software for developers) are subject to change according to the contents of the Microsoft service and the contract at the University of Tokyo.
 - Azure Dev Tools for Teaching is now available through UTokyo Account from June 2023. You no longer need to create an account using your ECCS Cloud Email address (`@g.ecc.u-tokyo.ac.jp`), which was previously required. Please use your UTokyo Account from now on.
 - Microsoft Imagine Premium provided by the Graduate School of Engineering and Graduate School of Information Science and Technology has been transferred to this service along with the launch of this service in April 2019. Please use this service instead.
