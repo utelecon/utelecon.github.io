@@ -15,7 +15,7 @@ title: UTokyo Slackに自由に参加できるワークスペースの中から�
 1. [https://utokyo.enterprise.slack.com/](https://utokyo.enterprise.slack.com/) にアクセスしてください．
 1. 「UTokyo Accountでサインインする」を押してください．
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-{% include_relative _help.md %}
+{% include_relative_help_information_security_education.md %}{% include_relative_help_mfa.md %}
 1. サービス利用規約を確認するよう求められるので，確認してください．
 1. 「UTokyo Slackのワークスペース」という画面が開き，ワークスペースの一覧が表示されます．
 1. 一覧の中から参加したいワークスペースを選んで，「詳細を表示」を押してください．以下のいずれかの表示となるので，それぞれに応じた説明を確認してください．
