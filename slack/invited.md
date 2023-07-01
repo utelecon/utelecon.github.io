@@ -21,7 +21,16 @@ title: UTokyo Slackに特定のワークスペースから招待を受けて参�
 1. ワークスペースの担当者によって招待が行われると，[ECCSクラウドメール](/eccs_cloud_email)に招待メールが届くので，そのメールを開いてください．<small style="display: block;">※ワークスペースの担当者には，招待を行うメールアドレスとして，10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号 <code>@utac.u-tokyo.ac.jp</code> を付けたもの（例： <code>0123456789@utac.u-tokyo.ac.jp</code> ）を入力するよう案内しています．このメールアドレス宛のメールは転送されてECCSクラウドメール <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> に届くようになっているため，招待メールはECCSクラウドメールにログインして受け取ってください．</small>
 1. メール内にある「UTokyo Accountでサインイン」ボタンをクリックしてください．
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-    {% include_relative_help_information_security_education.md %}{% include_relative_help_mfa.md %}
+    <details>
+       <summary>ヘルプ：「申し訳ありませんが、サインイン中に問題が発生しました。」または「Sorry, but we’re having trouble signing you in.」というエラーが表示される場合</summary>
+       UTokyo Slackの利用に必要な，情報セキュリティ教育の受講が完了していない可能性があります．<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認し，確認テストに合格してください．テストに合格するとその結果が即座にシステムに反映されます．
+        <div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
+    </details>
+    <details>
+       <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
+        UTokyo Slackの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
+        <div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div> 
+    </details>
 1. サービス利用規約を確認するよう求められるので，確認してください．
 1. 参加が完了し，ワークスペースの画面が表示されます．
 
