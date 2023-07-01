@@ -15,7 +15,16 @@ title: UTokyo Slackに自由に参加できるワークスペースの中から�
 1. [https://utokyo.enterprise.slack.com/](https://utokyo.enterprise.slack.com/) にアクセスしてください．
 1. 「UTokyo Accountでサインインする」を押してください．
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-{% include_relative_help_information_security_education.md %}{% include_relative_help_mfa.md %}
+    <details>
+       <summary>ヘルプ：「申し訳ありませんが、サインイン中に問題が発生しました。」または「Sorry, but we’re having trouble signing you in.」というエラーが表示される場合</summary>
+       UTokyo Slackの利用に必要な，情報セキュリティ教育の受講が完了していない可能性があります．<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認し，確認テストに合格してください．テストに合格するとその結果が即座にシステムに反映されます．
+        <div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
+    </details>
+    <details>
+       <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
+        UTokyo Slackの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
+        <div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div> 
+    </details>
 1. サービス利用規約を確認するよう求められるので，確認してください．
 1. 「UTokyo Slackのワークスペース」という画面が開き，ワークスペースの一覧が表示されます．
 1. 一覧の中から参加したいワークスペースを選んで，「詳細を表示」を押してください．以下のいずれかの表示となるので，それぞれに応じた説明を確認してください．
