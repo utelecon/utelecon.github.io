@@ -26,7 +26,7 @@ Slackでは，コミュニケーションを行おうとする関係者は「ワ
     - 「[カスタム絵文字](https://slack.com/intl/ja-jp/help/articles/206870177)」はUTokyo Slack全体に追加することしかできず，特定のワークスペースだけに追加するということはできません．
     - 管理の都合上，「UTokyo Slack Primary Owner」という管理用の特別なアカウントが各ワークスペースに参加した状態となっています．このアカウントは，各ワークスペースの最上位の権限（プライマリーオーナー権限）を持つメンバーとなっていますが，このアカウントを用いてワークスペース内でメッセージ等の情報を取得したり何か操作を行ったりすることはありません．ただし，管理上特にやむを得ない必要がある場合や代表責任者の申請に基づく操作を行う場合を除きます．
 - UTokyo Slackの利用対象者（UTokyo Slack内のワークスペースのメンバーとなれる者）は，UTokyo Accountを持っている構成員です．
-    - 利用にあたっては，[UTokyo Accountの多要素認証](/utokyo_account/mfa/)を有効化している必要があるほか，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を受講していることを前提とします．
+    - 利用にあたっては，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講の完了と[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化が必須です．
     - **UTokyo Account以外のアカウントでは利用できません**．なお，UTokyo Accountを持っていない方（学外の方）と一緒にSlackを利用したい場合，外部のワークスペースと連携する「コネクト」という機能の利用がひとつの方法かもしれません（ただし，通常のワークスペースと使い勝手が同様ではなく，常におすすめできるわけではありません）．詳細は「[「コネクト」機能を用いて学外者と一緒にUTokyo Slackを利用する](connect)」を参照してください．
 - 新規にワークスペースを作成するのではなく，現在UTokyo Slack以外でお使いいただいている既存のワークスペースをUTokyo Slackとして利用したい場合は，編入（移行）という特別な手続きが必要であり，限定的な対応となります．詳細は「[UTokyo Slackへの既存ワークスペースの編入（移行）](migration)」を参照してください．
 
