@@ -148,10 +148,7 @@ UTokyo Slackへの編入（移行）は，教職員からの申し込みによ�
 
 - 編入（移行）が完了すると，ワークスペースの「公開範囲」という設定が自動的に「リクエスト制」の状態になっています．[「UTokyo Slackにおけるワークスペースの作成と運用」ページの該当箇所](/slack/workspace/#access)の説明を参照し，各ワークスペースで希望する設定に変更してください．
     - 「リクエスト制」は，UTokyo Slack内のワークスペース一覧画面にワークスペースが表示され，一覧を見て興味を持った人が参加希望のリクエストを送信できる，という設定です．
-- 編入（移行）後は，各メンバーはUTokyo Accountでサインインしてワークスペースを利用することになります．その際，[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化と[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講の完了が必須であることに注意してください．
-
-{% include_relative_help_information_security_education.md %}{% include_relative_help_mfa.md %} 
-
+- 編入（移行）後は，各メンバーはUTokyo Accountでサインインしてワークスペースを利用することになります．その際，[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化と[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講の完了が必須であることに注意してください．　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　{% include_relative_help_information_security_education.md %}{% include_relative_help_mfa.md %} 
 - 連携アプリやAPIを利用している場合，インストールや設定のやり直しが必要になる場合があります．各ワークスペースで確認し適宜対応してください．
     - 各ユーザーに付与されている内部のIDが変わるため，これを内部で利用している連携アプリに影響が生じると思われます．
     - 連携アプリやAPIの機能の一部には，Enterprise Gridプランで利用方法が異なるものなどが少数あるため，これを利用している場合は影響が生じると思われます．
