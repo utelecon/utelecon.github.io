@@ -69,7 +69,7 @@ Slackでは，コミュニケーションを行おうとする関係者は「ワ
 
 ワークスペースの作成直後には<!--管理用の「UTokyo Slack Primary Owner」アカウントのほかは，-->申請者（代表責任者）のみがメンバーとなっている状態のため，ワークスペース内でやり取りをするためには，やり取りしたい相手にメンバーとして参加してもらう必要があります．ワークスペースに参加してもらう方法はいくつかありますが，ここでは特定の相手を招待して参加してもらう方法を説明します．
 
-メンバーとして招待できるのは，UTokyo Accountを持っている構成員です．招待を受けた人が実際に利用するにあたっては，[UTokyo Accountの多要素認証](/utokyo_account/mfa/)を有効化している必要があるほか，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を受講していることを前提とします．
+メンバーとして招待できるのは，UTokyo Accountを持っている構成員です．招待を受けた人が実際に利用するにあたっては，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講の完了と[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化が必須です．
 
 招待する際は，メールアドレスとして，参加してもらいたい人の10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号 `@utac.u-tokyo.ac.jp` を付けたもの（例： `0123456789@utac.u-tokyo.ac.jp` ）を入力してください．具体的な手順は次の通りです．
 
