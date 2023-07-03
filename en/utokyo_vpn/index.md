@@ -31,18 +31,10 @@ You cannot access e-journals and e-books subscribed by the University of Tokyo L
 ### Information Security Education
 {:#information-security-education}
 
-At the University of Tokyo, we conduct information security training for everyone with a UTokyo Account each year. You will be notified when the implementation period arrives (in the 2023, it starts in July), so please ensure to pass the test. Failure to finish the information security education within the specified period will lead to the suspension of your UTokyo VPN access.
+At the University of Tokyo, we conduct information security education for everyone with a UTokyo Account each year. You will be notified when the implementation period arrives, so please ensure to pass the test. For details about the timing and the procedure of the course, kindly refer to the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">information security education page</a>.
 
-<details>
-  <summary>If the course registration period has ended at the time of arrival or enrollment in the university</summary>
-  Your UTokyo VPN access is halted until you have undergone the information security training.
-  <div>If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.</div>
-</details>
-<details>
-  <summary>If you have failed to complete information security education by the prescribed time</summary>
-  You can use the UTokyo VPN from the time you arrive. Please read the "Information Security Education Materials" on the <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">Information Security Education</a> page carefully before using UTokyo VPN. If you have not completed the Education, you face the risk of being banned from the VPN connection sooner or later.
-  <div>If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.</div>
-</details>
+-  If you don't complete the information security education within the implementation period, your privilege to use the UTokyo VPN will be suspended.
+- If your access gets suspended, please ensure to undergo the information security education. The suspension on your access will be instantly lifted the moment you succeed in the confirmation test.
 
 ### Enable Multi-factor Authentication
 {:#mfa}
