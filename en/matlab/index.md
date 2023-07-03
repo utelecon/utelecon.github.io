@@ -3,7 +3,7 @@ title: UTokyo MATLAB Campus-Wide License
 ---
 
 ## Introduction
-The University of Tokyo has introduced the software 「[MATLAB](https://jp.mathworks.com/products/matlab.html)」provided by MathWorks, and supports its use on individual terminals, on shared terminals for education and research, and on [the supercomputer system](https://www.cc.u-tokyo.ac.jp/guide/application/introduction-matlab.php) (in Japanese) provided by the Information Technology Center.
+The University of Tokyo has introduced the software "[MATLAB](https://www.mathworks.com/products/matlab.html)" provided by MathWorks, and supports its use on individual terminals, on shared terminals for education and research, and on [the supercomputer system](https://www.cc.u-tokyo.ac.jp/guide/application/introduction-matlab.php) (in Japanese) provided by the Information Technology Center.
 
 
 ## About MATLAB
@@ -55,7 +55,7 @@ If the above procedure does not work, please contact MathWorks technical support
     <details>
         <summary>Procedures</summary>
         <ol>
-            <li>Go to your <a href="https://jp.mathworks.com/mwaccount/">MathWorks account page</a> and sign in．</li>
+            <li>Go to your <a href="https://www.mathworks.com/mwaccount/">MathWorks account page</a> and sign in．</li>
             <li>Click on "Profile > Edit Profile" at the top of the page．</li>
             <li>Change the email address and click "Update"．</li>
             <li>Access the link in the authentication email you receive from <code>service@account.mathworks.com</code>．</li>
@@ -72,7 +72,7 @@ If the above procedure does not work, please contact MathWorks technical support
 ## How to Use MATLAB Basically
 To use the full functionality of MATLAB, it is recommended to install the software version on your computer, which is required to have a processor with sufficient performance and enough storage space. Internet communication is also required during installation．
 
-→ see: [System Requirements and Supported Compilers](https://www.mathworks.com/support/requirements/previous-releases.html)
+see: [System Requirements and Supported Compilers](https://www.mathworks.com/support/requirements/previous-releases.html)
 
 Many of the functions provided in the software version are also available in the online version, so you do not necessarily need to install the software version when you get started．
 
@@ -123,7 +123,7 @@ This is an open forum where you can get information about MATLAB product updates
 
 A workspace named "**東京大学MATLABユーザコミュニティ (University of Tokyo MATLAB User Community)**" is available in [UTokyo Slack](/en/slack/). Please refer to the following page to join．
 
-→<b>see: **[Joining an open workspace in UTokyo Slack](/en/slack/join)**</b>
+see: **[Joining an open workspace in UTokyo Slack](/en/slack/join)**</b>
 
 ### UTokyo MATLAB Ambassadors
 "UTokyo MATLAB Ambassadors" is a student team who hold workshops on how to use MATLAB and events for interaction among users in the university. They also provide consultation services via email and Zoom. Please refer to [**Ambassador Portal Site**](https://sites.google.com/view/ut-matlab-amb/) (in Japanese) for details．
