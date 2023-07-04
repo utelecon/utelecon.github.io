@@ -6,6 +6,7 @@ import Footer from "@components/Footer/index.astro";
 import Toc from "@components/Toc/index.astro";
 import "@styles/global.scss";
 import type { MarkdownHeading } from "astro";
+import Author, { Author as AuthorProps } from "@components/Author/index.astro";
 
 interface Props {
   frontmatter: Frontmatter;
@@ -22,6 +23,7 @@ export interface Frontmatter {
   support?: boolean;
   sitemap?: boolean;
   redirect_to?: string;
+  author?: AuthorProps;
 }
 
 function createDefaultDescription(): string {
@@ -41,6 +43,7 @@ const {
   h1,
   top,
   support,
+  author,
 } = frontmatter;
 
 const htmlAttributes = {
@@ -112,6 +115,14 @@ const gaid = "";
         )
       }
       <slot />
+      {
+        author && (
+          <>
+            <hr />
+            <Author lang={lang} author={author} />
+          </>
+        )
+      }
     </main>
     <Footer lang={lang} support={support} />
   </body>
