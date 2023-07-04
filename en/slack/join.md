@@ -17,7 +17,7 @@ This page describes the procedure for joining an open workspace in UTokyo Slack.
 1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
     <details>
         <summary>Troubleshooting guide: When the error message “申し訳ありませんが、サインイン中に問題が発生しました” or “Sorry, but we’re having trouble signing you in.” appears</summary>
-        There is a possibility that you have not passed the information security education confirmation test, which is required to use UTokyo Slack. Please check the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">page for the information security course</a>, and complete and pass the confirmation test. Once you pass the test, the results will be immediately reflected in the system.
+        There is a possibility that you have not passed the information security education confirmation test, which is required to use UTokyo Slack. Please check the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">page for the information security education</a>, and complete and pass the confirmation test. Once you pass the test, the results will be immediately reflected in the system.
         <div>If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.</div>
     </details>
     <details>
