@@ -3,7 +3,7 @@ title: "2023年7月3日・8月2日 UTokyo Slackお役立ち情報共有会「Sla
 ---
 
 「Slackを使い始めたは良いけど，使いこなせてる気がしない！」  
-「ある程度使えているけど、もっと良い使い方ないのかな？」  
+「ある程度使えているけど，もっと良い使い方ないのかな？」  
 「他の人はどう使っているの？」  
 と感じている皆様を対象にした情報共有会です．
 
@@ -27,10 +27,15 @@ title: "2023年7月3日・8月2日 UTokyo Slackお役立ち情報共有会「Sla
 
 質疑応答はSlidoで行います．
 
-- [7月3日開催分 **質疑応答 (Slido) はこちらから**](https://app.sli.do/event/a47Fuy5FCf4cQLLgSHDNYY)
+- [7月3日開催分 質疑応答 (Slido) はこちらから](https://app.sli.do/event/a47Fuy5FCf4cQLLgSHDNYY)
 - 8月2日開催分の質疑応答は準備中です．
+
+録画を公開しています．
+
+- [7月3日開催分 録画はこちらから](https://youtu.be/X2leGz7JEsw)
+- 8月2日開催分の録画は終了後に掲載します．
 
 ## 参加登録
 
-- [7月3日開催分 参加登録フォーム](https://forms.gle/7rdmC5RNkGZn7CTm8)を入力・送信してください．
-- 8月2日開催分の参加登録フォームは準備中です．
+- ~~[7月3日開催分 参加登録フォーム](https://forms.gle/7rdmC5RNkGZn7CTm8)を入力・送信してください．~~
+- **[8月2日開催分 参加登録フォーム](https://forms.gle/quJciBoqbVzxezZdA)**を入力してください．
