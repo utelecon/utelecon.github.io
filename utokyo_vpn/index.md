@@ -90,7 +90,7 @@ UTokyo VPNと，部局がそれぞれ独自に提供しているVPNサービス�
 
 ### Q. UTokyo Wi-Fiのアカウントのように一年ごとに新規のアカウント取得は必要か
 
-UTokyo VPNの認証はUTokyo Wi-FiのアカウントではなくUTokyo Accountで行います．そのため基本的に利用者のアカウントの変更は起こらず，継続して利用が可能です．ただし，利用には年１回実施する情報セキュリティ教育の受講が必要です．
+UTokyo VPNの認証はUTokyo Wi-FiのアカウントではなくUTokyo Accountで行います．そのため基本的に利用者のアカウントの変更は起こらず，継続して利用が可能です．ただし，利用には年１回実施する[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講が必要です．
 
 ## 規程
 {:#term}
