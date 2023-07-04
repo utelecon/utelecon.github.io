@@ -27,19 +27,29 @@ export interface Frontmatter {
   author?: AuthorProps;
 }
 
-function createDefaultDescription(): string {
-  return "";
-}
-
-function getDefaultLang(): "ja" | "en" {
-  return Astro.url.pathname.startsWith("/en") ? "en" : "ja";
+function createDefaultDescription(
+  lang: "ja" | "en",
+  headings: MarkdownHeading[]
+): string {
+  return (
+    (
+      {
+        ja: "目次: ",
+        en: "Table of Contents: ",
+      }[lang] +
+      headings
+        .filter(({ depth }) => depth === 2)
+        .map(({ text }) => text)
+        .join("; ")
+    ).slice(0, 97) + "..."
+  );
 }
 
 const { frontmatter, headings } = Astro.props;
 const {
   title = "utelecon",
-  description = createDefaultDescription(),
-  lang = getDefaultLang(),
+  description,
+  lang,
   toc = true,
   h1,
   top,
@@ -71,7 +81,7 @@ const gaid = "UA-160716658-1";
 <html {...htmlAttributes}>
   <head>
     <SEO
-      description={description}
+      description={description ?? createDefaultDescription(lang, headings)}
       charset="UTF-8"
       openGraph={{
         basic: {
