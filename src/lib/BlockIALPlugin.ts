@@ -245,6 +245,8 @@ function exitIAL(this: CompileContext, token: Token) {
 }
 
 function transform(tree: Root) {
+  const stack: { parent: Parent; index: number }[] = [];
+
   visit(tree, "ial", (node, index, parent) => {
     if (parent === null || index === null) return;
 
@@ -257,7 +259,14 @@ function transform(tree: Root) {
     if (node.data?.id) {
       last.data.id = node.data.id;
     }
+
+    stack.push({ parent, index });
   });
+
+  while (stack.length > 0) {
+    const { parent, index } = stack.pop()!;
+    parent.children.splice(index, 1);
+  }
 }
 
 function merge(
