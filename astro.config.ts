@@ -6,6 +6,7 @@ import redirect from "./src/lib/RedirectIntegration.js";
 import blockIALPlugin from "./src/lib/BlockIALPlugin.js";
 import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
 import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
+import externalLinks from "./src/lib/ExternalLinksIntegration.js";
 
 // https://astro.build/config
 export default defineConfig({
@@ -25,6 +26,11 @@ export default defineConfig({
     ],
   },
   publicDir: "src/pages",
-  integrations: [mdx(), react(), redirect()],
+  integrations: [
+    mdx(),
+    react(),
+    redirect(),
+    externalLinks({ target: "_blank", rel: ["noopener", "noreferrer"] }),
+  ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
 });

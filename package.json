@@ -19,6 +19,7 @@
     "astro": "2.7.3",
     "astro-seo": "^0.7.1",
     "mdast": "^3.0.0",
+    "rehype-external-links": "^2.1.0",
     "sass": "^1.57.1",
     "unified": "^10.1.2",
     "unist-util-visit": "^4.1.2",
