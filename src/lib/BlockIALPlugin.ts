@@ -1,5 +1,5 @@
 import type { Node } from "unist";
-import type { Root } from "mdast";
+import type { Parent, Root } from "mdast";
 import type { Properties } from "hast";
 import type { Plugin } from "unified";
 import type {
@@ -247,14 +247,42 @@ function exitIAL(this: CompileContext, token: Token) {
 function transform(tree: Root) {
   visit(tree, "ial", (node, index, parent) => {
     if (parent === null || index === null) return;
-    const last: Node<MdastData> = parent.children[index - 1];
+
+    let offset = 1;
+    let last: Node<MdastData> = parent.children[index - 1];
+    while (last.type === "ial") last = parent.children[index - ++offset];
 
     last.data ??= {};
-    last.data.hProperties = node.data;
+    last.data.hProperties = merge(last.data.hProperties, node.data);
     if (node.data?.id) {
       last.data.id = node.data.id;
     }
   });
+}
+
+function merge(
+  existing: Properties | undefined,
+  additional: Properties | undefined
+) {
+  if (existing && additional) {
+    const keys = new Set<string>([
+      ...Object.keys(existing),
+      ...Object.keys(additional),
+    ]);
+    const result: Properties = {};
+    for (const key of keys) {
+      const e = existing[key];
+      const a = additional[key];
+      if (Array.isArray(e) && Array.isArray(a)) {
+        result[key] = [...e, ...a];
+      } else {
+        result[key] = a ?? e;
+      }
+    }
+    return result;
+  } else {
+    return existing ?? additional;
+  }
 }
 
 export default function blockIALPlugin(this: ThisParameterType<Plugin>) {
