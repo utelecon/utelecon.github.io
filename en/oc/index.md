@@ -196,7 +196,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
   - The version for academic year 2023 will be available from April 1, 2023.
 - **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**
   - The University of Tokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
-- **[MATLAB](/matlab/)** (in Japanese)
+- **[MATLAB](/en/matlab/)**
   - MATLAB is a software program that can be used in a wide range of classroom and research settings, including programming, numerical computation, data processing, and creating graphs. As an effective data science learning tool, the University of Tokyo recommends MATLAB for teaching and research, and several classes using MATLAB have been conducted in the Junior Division. To use MATLAB, you need to create an account with a University of Tokyo license.
   - Self-learning tools and workshops are provided for students to learn how to operate MATLAB and how to use MATLAB to learn advanced topics in their fields of specialization. Since the use of MATLAB is specified in lectures in some cases, please use MATLAB as needed.
 
