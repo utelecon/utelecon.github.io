@@ -123,7 +123,7 @@ This is an open forum where you can get information about MATLAB product updates
 
 A workspace named "**東京大学MATLABユーザコミュニティ (University of Tokyo MATLAB User Community)**" is available in [UTokyo Slack](/en/slack/). Please refer to the following page to join．
 
-see: **[Joining an open workspace in UTokyo Slack](/en/slack/join)**</b>
+see: **[Joining an open workspace in UTokyo Slack](/en/slack/join)**
 
 ### UTokyo MATLAB Ambassadors
 "UTokyo MATLAB Ambassadors" is a student team who hold workshops on how to use MATLAB and events for interaction among users in the university. They also provide consultation services via email and Zoom. Please refer to [**Ambassador Portal Site**](https://sites.google.com/view/ut-matlab-amb/) (in Japanese) for details．
