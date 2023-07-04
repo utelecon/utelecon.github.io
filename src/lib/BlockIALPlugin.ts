@@ -1,5 +1,6 @@
 import type { Node } from "unist";
-import type { Root, Content, Text } from "mdast";
+import type { Root } from "mdast";
+import type { Properties } from "hast";
 import type { Plugin } from "unified";
 import type {
   Extension as MicromarkExtension,
@@ -13,12 +14,22 @@ import type {
   Token,
 } from "mdast-util-from-markdown";
 import { codes } from "micromark-util-symbol/codes.js";
-import { asciiAlphanumeric } from "micromark-util-character";
+import { asciiAlphanumeric, unicodeWhitespace } from "micromark-util-character";
 import { visit } from "unist-util-visit";
 
-interface Attribute {
+interface ShorthandAttribute {
   type: "#" | ".";
   ident: string;
+}
+
+interface FullAttribute {
+  name: string;
+  value: string;
+}
+
+interface IALData extends Properties {
+  id?: string;
+  className?: string[];
 }
 
 interface MdastData {
@@ -26,13 +37,9 @@ interface MdastData {
   hProperties?: IALData;
 }
 
-interface IALData {
-  id?: string;
-  className?: string[];
-}
-
-interface IAL extends Node, IALData {
+interface IAL extends Node {
   type: "ial";
+  data?: IALData;
 }
 
 declare module "mdast" {
@@ -44,7 +51,8 @@ declare module "mdast" {
 declare module "mdast-util-from-markdown" {
   interface CompileData {
     ial?: IALData;
-    ialAttribute?: Attribute;
+    ialShorthandAttribute?: ShorthandAttribute;
+    ialFullAttribute?: FullAttribute;
   }
 }
 
@@ -81,6 +89,11 @@ function tokenize(
   };
 
   const endOrVariant: State = (code) => {
+    if (unicodeWhitespace(code)) {
+      effects.consume(code);
+      return endOrVariant;
+    }
+
     if (code === codes.rightCurlyBrace) {
       effects.enter("ialClose");
       effects.consume(code);
@@ -95,6 +108,11 @@ function tokenize(
       effects.exit("ialVariant");
       effects.enter("ialIdent");
       return ident;
+    }
+
+    if (asciiAlphanumeric(code)) {
+      effects.enter("ialName");
+      return name(code);
     }
 
     return nok(code);
@@ -116,18 +134,53 @@ function tokenize(
       : endOrVariant(code);
   };
 
+  const name: State = (code) => {
+    if (asciiAlphanumeric(code) || code === codes.dash) {
+      effects.consume(code);
+      return name;
+    }
+
+    if (code === codes.equalsTo) {
+      effects.exit("ialName");
+      effects.consume(code);
+      return leftQuote;
+    }
+
+    effects.exit("ialName");
+  };
+
+  const leftQuote: State = (code) => {
+    if (code !== codes.quotationMark) return nok(code);
+    effects.consume(code);
+    effects.enter("ialValue");
+    return value;
+  };
+
+  const value: State = (code) => {
+    if (code === codes.quotationMark) {
+      effects.exit("ialValue");
+      effects.consume(code);
+      return endOrVariant;
+    }
+
+    effects.consume(code);
+    return value;
+  };
+
   return start;
 }
 
 const fromMarkdownExtension: FromMarkdownExtension = {
   canContainEols: ["ial"],
   enter: {
-    ial: enterIAL
+    ial: enterIAL,
   },
   exit: {
     ial: exitIAL,
     ialVariant: exitIALVariant,
     ialIdent: exitIALIdent,
+    ialName: exitIALName,
+    ialValue: exitIALValue,
   },
   transforms: [transform],
 };
@@ -138,7 +191,7 @@ function enterIAL(this: CompileContext, _token: Token) {
 
 function exitIALVariant(this: CompileContext, token: Token) {
   const type = this.sliceSerialize(token) as "#" | ".";
-  this.setData("ialAttribute", { type, ident: "" });
+  this.setData("ialShorthandAttribute", { type, ident: "" });
 }
 
 function exitIALIdent(this: CompileContext, token: Token) {
@@ -147,7 +200,7 @@ function exitIALIdent(this: CompileContext, token: Token) {
     data = {};
     this.setData("ial", data);
   }
-  const attribute = this.getData("ialAttribute");
+  const attribute = this.getData("ialShorthandAttribute");
   if (!attribute) return;
   attribute.ident = this.sliceSerialize(token);
   switch (attribute.type) {
@@ -163,9 +216,25 @@ function exitIALIdent(this: CompileContext, token: Token) {
   }
 }
 
+function exitIALName(this: CompileContext, token: Token) {
+  this.setData("ialFullAttribute", {
+    name: this.sliceSerialize(token),
+    value: "",
+  });
+}
+
+function exitIALValue(this: CompileContext, token: Token) {
+  const attribute = this.getData("ialFullAttribute");
+  if (!attribute) return;
+  attribute.value = this.sliceSerialize(token);
+  const data = this.getData("ial");
+  if (!data) return;
+  data[attribute.name] = attribute.value;
+}
+
 function exitIAL(this: CompileContext, token: Token) {
   const data = this.getData("ial");
-  this.enter({ type: "ial", ...data }, token);
+  this.enter({ type: "ial", data }, token);
   this.exit(token);
 }
 
@@ -175,13 +244,9 @@ function transform(tree: Root) {
     const last: Node<MdastData> = parent.children[index - 1];
 
     last.data ??= {};
-    last.data.hProperties ??= {};
-    if (node.id) {
-      last.data.id = node.id;
-      last.data.hProperties.id = node.id;
-    }
-    if (node.className) {
-      last.data.hProperties.className = node.className;
+    last.data.hProperties = node.data;
+    if (node.data?.id) {
+      last.data.id = node.data.id;
     }
   });
 }
