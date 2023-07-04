@@ -7,6 +7,7 @@ import Toc from "@components/Toc/index.astro";
 import "@styles/global.scss";
 import type { MarkdownHeading } from "astro";
 import Author, { Author as AuthorProps } from "@components/Author/index.astro";
+import Markdown from "@components/Markdown.astro";
 
 interface Props {
   frontmatter: Frontmatter;
@@ -108,7 +109,13 @@ const gaid = "";
   <body>
     <Header lang={lang} top={top} />
     <main id="content">
-      {!top && <h1 class="title">{h1 ?? title}</h1>}
+      {
+        !top && (
+          <h1 class="title">
+            <Markdown content={h1 ?? title} />
+          </h1>
+        )
+      }
       {
         !top && toc && headings.length > 0 && (
           <Toc headings={headings} lang={lang} />
