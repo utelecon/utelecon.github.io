@@ -1,19 +1,11 @@
 ---
 import notices from "../data/notice.yml";
+import type { Notice } from "../data/schemas/notice";
 import Markdown from "./Markdown.astro";
 
 export interface Props {
   lang: "ja" | "en";
   strip?: boolean;
-}
-
-interface Notice {
-  date: Date;
-  content: {
-    ja?: string;
-    en?: string;
-  };
-  important?: boolean;
 }
 
 interface NoticeContent {
