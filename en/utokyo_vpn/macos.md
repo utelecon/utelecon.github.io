@@ -15,6 +15,7 @@ Install the application “AnyConnect” on your device to connect to UTokyo VPN
 
 ![](img/mac01-vpn1-login.png){:.medium.center.border}
 
+{% include_relative _help_security_education.html %}
 {% include_relative _help_mfa.html %}
 
 **Step B:** After the log-in, a download page for the AnyConnect client application, as illustrated below, will appear. Click “Download for macOS” to download the client application.
@@ -25,8 +26,6 @@ After these steps, install the application as you would do for any other macOS a
 ![](img/mac03-install-1.png){:.medium.center.border}
 
 {% include_relative _help_white.html %}
-{% include_relative _help_security_session.html %}
-{% include_relative _help_security_username.html %}
 
 **Step C:** During the installation of AnyConnect, a window with the following message “System Extension Blocked” may appear, please click the “OK” button. A window with the following message will appear “AnyConnect System Extension Blocked”. Please follow the instructions to allow the system software from “Cisco AnyConnect Socket Filter”, which is displayed in the “General” in “Security & Privacy” in “System Preferences”. Additionally, a window like the second picture below will also appear, please click “Allow”. 
 
@@ -59,6 +58,7 @@ The following steps are required, every time to use the VPN. Please note that yo
 ![](img/mac10-anyconnect-login.png){:.medium.center.border}
 
 {% include_relative _help_multiple_users.html %}
+{% include_relative _help_security_education.html %}
 {% include_relative _help_mfa.html %}
 
 **Step G:** If the window displaying “Connected: vpn1.adm.u-tokyo.ac.jp” appears as illustrated below, your device is connected to the VPN. Communication is performed via this VPN while connected to the University of Tokyo campus network. Except for some communication platforms such as Zoom and WebEx that do not require a VPN connection and e-journal sites, all communications occur via this VPN, connecting to the University of Tokyo campus network.

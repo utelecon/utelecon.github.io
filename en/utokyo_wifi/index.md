@@ -35,18 +35,10 @@ UTokyo Wi-Fi is a Wi-Fi service available to members of the University of Tokyo 
 ### Information Security Education
 {:#jouhou-security}
 
-The University of Tokyo conducts annual [Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for all UTokyo Account holders. The beginning of the course will be notified (May for students and July for faculty and staff in the case of FY2022), so please be sure to take the course. **Failure to complete the course will result in suspension of your UTokyo Wi-Fi privileges until the end of that academic year, and you will not be able to connect to UTokyo Wi-Fi.** Once your account is suspended, you will not be able to log in to the account menu or create a new account.
+At the University of Tokyo, we conduct information security education for everyone with a UTokyo Account each year. You will be notified when the implementation period arrives, so please ensure to pass the test. For details about the timing and the procedure of the course, kindly refer to the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">Information Security Education page</a>.
 
-
-<details>
-	<summary>If the course registration period has ended at the time of arrival or enrollment in the university</summary>
-	In this case, your UTokyo Wi-Fi Account will not be suspended, and you will be able to use UTokyo Wi-Fi from the time of your arrival or enrollment. Please read carefully the "Information Security Education Materials" on the Information Security Education page before you start using UTokyo Wi-Fi. Information security education is provided every year, so please take the course from the next year onward.
-
-</details>
-<details>
-	<summary>If you have failed to complete information security training by the prescribed time </summary>
-  The UTokyo Wi-Fi account will be suspended for the current year, so basically you will not be able to use UTokyo Wi-Fi until the end of the fiscal year. For more information on thepeople who have not yet taken the course, please contact <code>jouhousecurity.adm__at__gs.mail.u-tokyo.ac.jp</code> (<code>__at__</code> transfer to @) with your UTokyo Account username (10-digit common ID).
-</details>
+-  If you don't complete the information security education within the implementation period, your privilege to use the UTokyo Wi-Fi will be suspended. Specifically, you will no longer be able to sign into the UTokyo Wi-Fi account menu or create a new account. Furthermore, if you had previously issued a UTokyo Wi-Fi account, it will be deleted, and you will not be able to connect to UTokyo Wi-Fi.
+- If your access gets suspended, please ensure to undergo the information security education. As soon as you pass the confirmation test, the suspension of your usage rights will be lifted immediately. Please follow the <a href="#expiration">procedures for reissuing and resetting your account</a>, issue a new account from the UTokyo Wi-Fi account menu, and set it up on your device.
 
 ### Using UTokyo Wi-Fi on Shared Devices
 UTokyo Wi-Fi is only available on individuals' own device: **it is prohibited to use UTokyo Wi-Fi on a shared device by more than one person.** Because it allows anyone other than the user who owns a UTokyo Wi-Fi Account to use the service, and it is considered to be lending of an account, which is prohibited by the Terms of Use. However, if the OS user account is set up separately for each individual, and the UTokyo Wi-Fi account can only be used by the person who has obtained it, UTokyo Wi-Fi is able to be used.
