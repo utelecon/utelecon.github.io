@@ -63,8 +63,8 @@ const locale = {
 }[lang];
 
 const siteName = "utelecon";
-const ogImage = "/assets/images/ogp.png";
-const gaid = "";
+const ogImage = `${Astro.site}/assets/images/ogp.png`;
+const gaid = "UA-160716658-1";
 ---
 
 <!DOCTYPE html>
@@ -104,6 +104,11 @@ const gaid = "";
     />
 
     <meta name="generator" content={Astro.generator} />
+
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
+    ></script>
     <title>{title}</title>
   </head>
   <body>
