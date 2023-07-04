@@ -142,7 +142,9 @@ function tokenize(
 
     if (code === codes.equalsTo) {
       effects.exit("ialName");
+      effects.enter("ialEquals");
       effects.consume(code);
+      effects.exit("ialEquals");
       return leftQuote;
     }
 
@@ -151,7 +153,9 @@ function tokenize(
 
   const leftQuote: State = (code) => {
     if (code !== codes.quotationMark) return nok(code);
+    effects.enter("ialValueStart");
     effects.consume(code);
+    effects.exit("ialValueStart");
     effects.enter("ialValue");
     return value;
   };
@@ -159,7 +163,9 @@ function tokenize(
   const value: State = (code) => {
     if (code === codes.quotationMark) {
       effects.exit("ialValue");
+      effects.enter("ialValueEnd");
       effects.consume(code);
+      effects.exit("ialValueEnd");
       return endOrVariant;
     }
 
