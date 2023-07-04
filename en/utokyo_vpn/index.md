@@ -31,7 +31,7 @@ You cannot access e-journals and e-books subscribed by the University of Tokyo L
 ### Information Security Education
 {:#information-security-education}
 
-At the University of Tokyo, we conduct information security education for everyone with a UTokyo Account each year. You will be notified when the implementation period arrives, so please ensure to pass the test. For details about the timing and the procedure of the course, kindly refer to the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">information security education page</a>.
+At the University of Tokyo, we conduct information security education for everyone with a UTokyo Account each year. You will be notified when the implementation period arrives, so please ensure to pass the test. For details about the timing and the procedure of the course, kindly refer to the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">Information Security Education page</a>.
 
 -  If you don't complete the information security education within the implementation period, your privilege to use the UTokyo VPN will be suspended.
 - If your access gets suspended, please ensure to undergo the information security education. The suspension on your access will be instantly lifted the moment you succeed in the confirmation test.

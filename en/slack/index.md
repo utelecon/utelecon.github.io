@@ -14,7 +14,7 @@ UTokyo Slack is a university-wide subscription to the "Enterprise Grid" plan of 
 
 ### Target users
 
-UTokyo Slack is available to all members who have a UTokyo Account. To use UTokyo Slack, it is necessary to enable [Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/) and participate in the annual [information security education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx).
+UTokyo Slack is available to all members who have a UTokyo Account. To use UTokyo Slack, it is necessary to enable [Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/) and participate in the annual [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx).
 
 If you wish to use Slack with someone who does not have a UTokyo Account (i.e., someone outside the university), you can use the "Connect" feature to collaborate with an external workspace. (However, this is not always recommended, as it is not as easy to use as the regular workspace.) See "[Using UTokyo Slack with external users with the "Connect" feature](/slack/workspace/connect)" (in Japanese) for details.
 
