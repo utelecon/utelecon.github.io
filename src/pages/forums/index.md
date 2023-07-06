@@ -19,7 +19,7 @@ title: アナウンス用メーリングリスト及びQAフォーラムにつ�
 加入の仕方
 ---------------------------
 
-ECCSクラウドメール (xxxx@g.ecc.u-tokyo.ac.jp) でサインインして以下のページにアクセスし, 登録してください.
+ECCSクラウドメール (`xxxx@g.ecc.u-tokyo.ac.jp`) でサインインして以下のページにアクセスし, 登録してください.
 
 * [utelecon-announce](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/g/utelecon-announce-group)
 * [utelecon-questions](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/g/utelecon-questions-group)
