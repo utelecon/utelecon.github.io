@@ -50,8 +50,8 @@ title: FAQ よくある質問
 #### Q. ライセンス欄が「ライセンスあり」ではなく「基本」になってしまっている
 <!-- 別でページを作りたい！！ -->
 * 正しく東京大学のZoomアカウントでサインインできていない可能性があります．「[Zoom サインイン方法](/zoom/signin)」を確認して，再度サインインをお試しください．
-* 10桁の共通IDではない形式のZoomアカウントを利用されている場合は，「[10桁の共通IDではないZoomアカウントの利用について](/notice/zoom-address-new)」をご確認ください．10桁の共通ID@utac.u-tokyo.ac.jpに変更していただき，SSOでサインインしていただくとライセンスが付与されるはずです．
-* サインイン用メールアドレスが10桁の共通ID@utac.u-tokyo.ac.jpになっているにも関わらず，ライセンス欄が「基本」になっている場合は管理者による操作が必要です．サポート窓口にご相談ください．
+* 10桁の共通IDではない形式のZoomアカウントを利用されている場合は，「[10桁の共通IDではないZoomアカウントの利用について](/notice/zoom-address-new)」をご確認ください．10桁の共通ID`@utac.u-tokyo.ac.jp`に変更していただき，SSOでサインインしていただくとライセンスが付与されるはずです．
+* サインイン用メールアドレスが10桁の共通ID`@utac.u-tokyo.ac.jp`になっているにも関わらず，ライセンス欄が「基本」になっている場合は管理者による操作が必要です．サポート窓口にご相談ください．
 
 ### 入室トラブル
 
@@ -181,14 +181,14 @@ A. 共同ホストも，ホストと同様，ブレークアウトルーム間�
 
 
 ### Q. 学内限定の Google スプレッドシートや Drive などにアクセスできない
-* （パソコン・スマホで）「アクセス権が必要です」と出て，下の方に「ログイン名: example@gmail.com」のような表示がある画面になる場合
-  * ECCSクラウドメール以外のGoogleアカウント<small>（ @gmail.com や @<em style="font-style: normal; background-color: yellow;">edu.k</em>.u-tokyo.ac.jp などのアカウント）</small>でログインしているため生じています．下の方の「ログイン名: example@gmail.com」のように表示されているところを押すと，「Choose an account to use with Google Drive」という画面が出てアカウントが切り替えられるので，ECCSクラウドメールのアカウント (xxxx@<em style="font-style: normal; background-color: yellow;">g.ecc</em>.u-tokyo.ac.jp) を選んでください．ECCSクラウドメールのアカウントが出てこない場合は，「Sign in to another account」を選んでECCSクラウドメールにログインしてください．
+* （パソコン・スマホで）「アクセス権が必要です」と出て，下の方に「ログイン名: `example@gmail.com`」のような表示がある画面になる場合
+  * ECCSクラウドメール以外のGoogleアカウント<small>（ @gmail.com や @<em style="font-style: normal; background-color: yellow;">edu.k</em>.u-tokyo.ac.jp などのアカウント）</small>でログインしているため生じています．下の方の「ログイン名: `example@gmail.com`」のように表示されているところを押すと，「Choose an account to use with Google Drive」という画面が出てアカウントが切り替えられるので，ECCSクラウドメールのアカウント (xxxx@<em style="font-style: normal; background-color: yellow;">g.ecc</em>.u-tokyo.ac.jp) を選んでください．ECCSクラウドメールのアカウントが出てこない場合は，「Sign in to another account」を選んでECCSクラウドメールにログインしてください．
 * （スマホで）「権限が必要です」や「アクセス権をリクエスト」という画面になる場合
   * ECCSクラウドメール以外のGoogleアカウントでログインしているため生じています．下の手順を行った後，アクセスし直してみてください．
   	1. GmailなどGoogleのアプリを開き，右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）を押す．
   	1. 「別のアカウントを追加」を押して，Googleアカウントを追加する．
   	1. メールアドレスとパスワードの入力を求められるので，上で設定したECCSクラウドメールのメールアドレスとパスワードを入力する．
-* 正しくECCSクラウドメールにログインできている（「ログイン名: 」のところがECCSクラウドメールのメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) になっている）のに「アクセス権が必要です」のように出る場合
+* 正しくECCSクラウドメールにログインできている（「ログイン名: 」のところがECCSクラウドメールのメールアドレス (`xxxx@g.ecc.u-tokyo.ac.jp`) になっている）のに「アクセス権が必要です」のように出る場合
   * 現在，ECCSクラウドメールの一部のアカウントで，正しく操作を行っても東大アカウント専用のページにアクセスできない不具合が発生しており，これに該当するものと思われます．お手数をおかけして申し訳ありませんが，アカウントのリセットが必要ですので，[サポート窓口のメールフォーム](/support/#email-form)までご連絡ください．詳細は[ECCSのお知らせ](https://www.ecc.u-tokyo.ac.jp/announcement/2021/03/30_3304.html)もご覧ください．
 
 ### Q. パスワードを忘れた・変更できない
@@ -196,11 +196,11 @@ A. 共同ホストも，ホストと同様，ブレークアウトルーム間�
 * [ECCS クラウドメールの説明ページ](/eccs_cloud_email)の「利用開始の手順」にある「作業：パスワードとメールアドレスを設定する」を行ってください．
 
 ### Q. 各種メールアドレス(10桁@utac, 10桁@g.ecc, 任意文字列@g.ecc)の違いがわからない．
-* 10桁@utac.u-tokyo.ac.jp（例:1234567890@utac.u-tokyo.ac.jp）
+* 10桁@utac.u-tokyo.ac.jp（例:`1234567890@utac.u-tokyo.ac.jp`）
 UTokyo Accountにサインインするときに利用するメールアドレスです．基本的には10桁の共通IDだけでサインインできますが，「自分は東大のアカウントを使います」と明示しなくてはならないときに利用します．
-* 10桁@g.ecc.u-tokyo.ac.jp（例:1234567890@g.ecc.u-tokyo.ac.jp）
+* 10桁@g.ecc.u-tokyo.ac.jp（例:`1234567890@g.ecc.u-tokyo.ac.jp`）
 ECCSクラウドメールの「エイリアス」（別名）です．Googleのログイン画面にこれを入力してもログインできません．このメールアドレス宛のメールはECCSクラウドメールのメールボックスに入ります．（＝任意文字列@g.eccでGmailにログインして確認できます）
-* 任意@g.ecc.u-tokyo.ac.jp（例:xxxx@g.ecc.u-tokyo.ac.jp）
+* 任意@g.ecc.u-tokyo.ac.jp（例:`xxxx@g.ecc.u-tokyo.ac.jp`）
 @以前の文字列はECCS利用者メニュー（2021年2月まではUTokyo Account利用者メニュー）で自分で設定したものです．このメールアドレスでGmailなどのGoogleサービスにログインできます．（ゆえに「任意@g.ecc」と呼ばれます）
 
 ## Microsoft 365 (旧 Office 365)
@@ -216,7 +216,7 @@ ECCSクラウドメールの「エイリアス」（別名）です．Googleの�
     * それ以外のOSをお使いの場合は，サポート窓口にご相談ください．
 
 1. [Mac で Office のライセンス ファイルを削除する方法 - Office サポート](https://support.microsoft.com/ja-jp/office/mac-%E3%81%A7-office-%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95-b032c0f6-a431-4dad-83a9-6b727c03b193)に記載の手順に従って，Microsoft社が提供するライセンス削除ツールをダウンロードして実行してください．
-1. ライセンスの削除が完了してから，WordなどのOfficeアプリケーションを起動すると，Microsoft 365へのサインインが求められます（サインインが求められない場合は，「サインイン」などと書かれたボタンを探してクリックしてください）．改めてUTokyo Account (10桁の共通ID@utac.u-tokyo.ac.jp ) でサインインしてください．
+1. ライセンスの削除が完了してから，WordなどのOfficeアプリケーションを起動すると，Microsoft 365へのサインインが求められます（サインインが求められない場合は，「サインイン」などと書かれたボタンを探してクリックしてください）．改めてUTokyo Account (10桁の共通ID`@utac.u-tokyo.ac.jp`) でサインインしてください．
 1. サインインすると，自動的にライセンス認証が行われます．
 
 
