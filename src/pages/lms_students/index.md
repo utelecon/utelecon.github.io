@@ -10,7 +10,7 @@ title: 学習管理システム ITC-LMS の使い方（学生向け）
 
 ## ITC-LMS にログインする
 
-1.<a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">https://itc-lms.ecc.u-tokyo.ac.jp/login</a> にブラウザでアクセスし，`ログイン`ボタンを押してください．
+1.https://itc-lms.ecc.u-tokyo.ac.jp/login にブラウザでアクセスし，`ログイン`ボタンを押してください．
 
 ![LMSログイン画面](img/login.png)
 
