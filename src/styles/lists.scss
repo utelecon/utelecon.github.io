@@ -1,0 +1,4 @@
+// remove user agent stylesheet against <p> element inside <li>
+li > p {
+    margin: 0;
+}
