@@ -271,30 +271,47 @@ Zoom ミーティングを管理するための機能は，「ミーティング
 
 #### ブラウザから代替ホストを設定する
 {:#assign_alt_hosts_on_web}
-1. Zoom ウェブポータルの「[ミーティング](https://u-tokyo-ac-jp.zoom.us/meeting)」ページにアクセスします
-2. 新しくスケジュールするミーティングに代替ホストをを設定する場合は「ミーティングをスケジュール」を選択します．以前に作成したミーティングに代替ホストを設定する場合は，対象のミーティングの開始時期にあわせて「予定されているミーティング」もしくは「過去のミーティング」を選択したあと，一覧に表示されているミーティングにカーソルを合わせると右側に「編集」ボタンが表示されるので，このボタンを選択します
-  - 新しくスケジュールするミーティングに代替ホストをを設定する
-    ![](schedule_or_edit_meeting_on_web_new.png)
-  - 以前に作成したミーティングに代替ホストを設定する
-    ![](schedule_or_edit_meeting_on_web_edit.png)
-3. ミーティングのスケジュール・編集画面で「オプション」の項目の \[表示\] を選択します
-![](meeting_option_web.png)
-4. 「代替ホスト」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，`10桁の共通ID@utac.u-tokyo.ac.jp`を入力します
-![](add_alt_host_web.png)
-5. 「保存」を選択して完了します
+
+<details>
+<summary>手順</summary>
+<ol>
+<li>Zoom ウェブポータルの「<a href="https://u-tokyo-ac-jp.zoom.us/meeting">ミーティング</a>」ページにアクセスします</li>
+<li>新しくスケジュールするミーティングに代替ホストをを設定する場合は「ミーティングをスケジュール」を選択します．以前に作成したミーティングに代替ホストを設定する場合は，対象のミーティングの開始時期にあわせて「予定されているミーティング」もしくは「過去のミーティング」を選択したあと，一覧に表示されているミーティングにカーソルを合わせると右側に「編集」ボタンが表示されるので，このボタンを選択します</li>
+<ul>
+<li>新しくスケジュールするミーティングに代替ホストをを設定する</li>
+<img src="schedule_or_edit_meeting_on_web_new.png">
+<li>以前に作成したミーティングに代替ホストを設定する</li>
+<img src="schedule_or_edit_meeting_on_web_edit.png">
+</ul>
+<li>ミーティングのスケジュール・編集画面で「オプション」の項目の [表示] を選択します</li>
+<img src="meeting_option_web.png">
+<li>代替ホスト」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，<code class="language-plaintext highlighter-rouge">10桁の共通ID@utac.u-tokyo.ac.jp</code>を入力します</li>
+<img src="add_alt_host_web.png">
+<li>「保存」を選択して完了します</li>
+</ol>
+</details>
+
 
 #### アプリから代替ホストを設定する
 {:#assign_alt_hosts_on_app}
-1. 新しくスケジュールするミーティングに代替ホストをを設定する場合は「ホーム」タブの「スケジュール」を選択します．以前に作成したミーティングに代替ホストを設定する場合は，「ミーティング」タブで該当のミーティングを選択し，「編集」を選択します
-    - 新しくスケジュールするミーティングに代替ホストをを設定する
-![](schedule_meeting_app.png)
-    - 以前に作成したミーティングに代替ホストを設定する
-![](edit_meeting_app.png)
-2. ミーティングのスケジュール・編集画面で「詳細オプション」を選択します
-![](meeting_option_app.png)
-3. 「代替ホスト」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，`10桁の共通ID@utac.u-tokyo.ac.jp`を入力します
-![](add_alt_host_app.png)
-4. 「保存」を選択して完了します
+
+<details>
+<summary>手順</summary>
+<ol>
+<li>新しくスケジュールするミーティングに代替ホストをを設定する場合は「ホーム」タブの「スケジュール」を選択します．以前に作成したミーティングに代替ホストを設定する場合は，「ミーティング」タブで該当のミーティングを選択し，「編集」を選択します</li>
+<ul>
+<li>新しくスケジュールするミーティングに代替ホストをを設定する</li>
+<img src="schedule_meeting_app.png">
+<li>以前に作成したミーティングに代替ホストを設定する</li>
+<img src="edit_meeting_app.png">
+</ul>
+<li>ミーティングのスケジュール・編集画面で「詳細オプション」を選択します</li>
+<img src="meeting_option_app.png">
+<li>「代替ホスト」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，<code class="language-plaintext highlighter-rouge">10桁の共通ID@utac.u-tokyo.ac.jp</code>を入力します</li>
+<img src="add_alt_host_app.png">
+<li>「保存」を選択して完了します</li>
+</ol>
+</details>
 
 ## スケジュール作成特権
 {:#scheduling_privilege}
