@@ -23,7 +23,7 @@ export default function trailingSlash(): AstroIntegration {
                 pathname.replace(/\/$/, "") + ".html"
               );
               await fs.rename(source, destination);
-              await fs.rm(sourceDir, { recursive: true });
+              await fs.rmdir(sourceDir);
             })
         );
       },
