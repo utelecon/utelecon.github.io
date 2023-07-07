@@ -1,5 +1,5 @@
 ---
-import Navigation from "./Navigation";
+import Navigation from "./Navigation.astro";
 
 interface Props {
   lang: "ja" | "en";
@@ -77,12 +77,12 @@ const theOtherLangUrl = Astro.url.pathname.startsWith("/en/")
 </header>
 
 <script lang="ts">
-  const button = document.getElementById("hamburger-button");
-  const header = document.getElementById("header");
+const button = document.getElementById("hamburger-button");
+const header = document.getElementById("header");
 
-  button.addEventListener("click", () => {
-    header.classList.toggle("header--hamburger-open");
-  });
+button.addEventListener("click", () => {
+  header.classList.toggle("header--hamburger-open");
+});
 </script>
 
 <style lang="scss">

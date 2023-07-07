@@ -1,26 +1,11 @@
 ---
-import { renderMarkdown } from "@astrojs/markdown-remark";
 import notices from "../data/notice.yml";
-
-async function render(md: string) {
-  return renderMarkdown(md, { contentDir: new URL(import.meta.url) }).then(
-    // remove <p> and </p>
-    (result) => result.code.slice(3, -4)
-  );
-}
+import type { Notice } from "../data/schemas/notice";
+import Markdown from "./Markdown.astro";
 
 export interface Props {
   lang: "ja" | "en";
   strip?: boolean;
-}
-
-interface Notice {
-  date: Date;
-  content: {
-    ja?: string;
-    en?: string;
-  };
-  important?: boolean;
 }
 
 interface NoticeContent {
@@ -47,7 +32,7 @@ for (const notice of notices) {
     contents.map(({ date, content }) => (
       <li>
         <span class="date">{date.toLocaleDateString("ja-JP")}</span>
-        <Fragment set:html={render(content)} />
+        <Markdown content={content} />
       </li>
     ))
   }

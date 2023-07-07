@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=../schemas/nav.json
+
 -
   name: "まずはここから"
   contents:

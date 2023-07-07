@@ -6,6 +6,8 @@ import Footer from "@components/Footer/index.astro";
 import Toc from "@components/Toc/index.astro";
 import "@styles/global.scss";
 import type { MarkdownHeading } from "astro";
+import Author, { Author as AuthorProps } from "@components/Author/index.astro";
+import Markdown from "@components/Markdown.astro";
 
 interface Props {
   frontmatter: Frontmatter;
@@ -20,25 +22,39 @@ export interface Frontmatter {
   h1?: string;
   top?: boolean;
   support?: boolean;
+  sitemap?: boolean;
+  redirect_to?: string;
+  author?: AuthorProps;
 }
 
-function createDefaultDescription(): string {
-  return "";
-}
-
-function getDefaultLang(): "ja" | "en" {
-  return Astro.url.pathname.startsWith("/en") ? "en" : "ja";
+function createDefaultDescription(
+  lang: "ja" | "en",
+  headings: MarkdownHeading[]
+): string {
+  return (
+    (
+      {
+        ja: "目次: ",
+        en: "Table of Contents: ",
+      }[lang] +
+      headings
+        .filter(({ depth }) => depth === 2)
+        .map(({ text }) => text)
+        .join("; ")
+    ).slice(0, 97) + "..."
+  );
 }
 
 const { frontmatter, headings } = Astro.props;
 const {
   title = "utelecon",
-  description = createDefaultDescription(),
-  lang = getDefaultLang(),
+  description,
+  lang,
   toc = true,
   h1,
   top,
   support,
+  author,
 } = frontmatter;
 
 const htmlAttributes = {
@@ -57,15 +73,15 @@ const locale = {
 }[lang];
 
 const siteName = "utelecon";
-const ogImage = "/assets/images/ogp.png";
-const gaid = "";
+const ogImage = `${Astro.site}/assets/images/ogp.png`;
+const gaid = "UA-160716658-1";
 ---
 
 <!DOCTYPE html>
 <html {...htmlAttributes}>
   <head>
     <SEO
-      description={description}
+      description={description ?? createDefaultDescription(lang, headings)}
       charset="UTF-8"
       openGraph={{
         basic: {
@@ -98,18 +114,37 @@ const gaid = "";
     />
 
     <meta name="generator" content={Astro.generator} />
+
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
+    ></script>
     <title>{title}</title>
   </head>
   <body>
     <Header lang={lang} top={top} />
     <main id="content">
-      {!top && <h1 class="title">{h1 ?? title}</h1>}
+      {
+        !top && (
+          <h1 class="title">
+            <Markdown content={h1 ?? title} />
+          </h1>
+        )
+      }
       {
         !top && toc && headings.length > 0 && (
           <Toc headings={headings} lang={lang} />
         )
       }
       <slot />
+      {
+        author && (
+          <>
+            <hr />
+            <Author lang={lang} author={author} />
+          </>
+        )
+      }
     </main>
     <Footer lang={lang} support={support} />
   </body>

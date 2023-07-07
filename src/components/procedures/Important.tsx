@@ -12,11 +12,11 @@ interface Props {
   children?: string | JSX.Element | JSX.Element[];
 }
 
-function Point({ part, include, system }: Props) {
+function Point({ part, include, system, lang }: Props) {
   return (
     <strong>
       {part === "important" ? <>{system}</> : <>{include.type}</>}
-      ：
+      {lang === "ja" ? "：" : ": "}
       {include.heading}
     </strong>
   );
@@ -29,7 +29,7 @@ export default function Important({ part, pageSlug, include, system, children, l
         <details>
           <summary>
             {lang === "ja" ? "（再掲）" : "(Repost) "}
-            <Point part={part} include={include} system={system} />
+            <Point part={part} include={include} system={system} lang={lang} />
           </summary>
           {children}
         </details>
@@ -38,7 +38,7 @@ export default function Important({ part, pageSlug, include, system, children, l
   } else {
     return (
       <li>
-        <Point part={part} include={include} system={system} />
+        <Point part={part} include={include} system={system} lang={lang} />
         {children}
       </li>
     );

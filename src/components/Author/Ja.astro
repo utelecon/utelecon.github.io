@@ -1,0 +1,17 @@
+---
+import type { Author } from "./index.astro";
+
+interface Props {
+  author: Author;
+}
+
+const { affiliation, name } = Astro.props.author;
+---
+
+<div class="author">
+  執筆: {
+    {
+      oes: <a href="/about/oes">オンライン教育支援サポーター</a>,
+    }[affiliation] ?? affiliation
+  }{name && ` ${name}`}
+</div>
