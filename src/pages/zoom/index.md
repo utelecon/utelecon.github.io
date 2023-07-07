@@ -49,10 +49,7 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
 ミーティング中の使い方の概要については，「**[ミーティング中の操作方法](usage/)**」を参照してください．また，以下の各ページで個別の機能についてくわしく解説しています．
 
 - [マイクとカメラを使う](usage/mic_cam/)
-    <!-- - （主催者向け）[他の参加者をミュートする](usage/mic_cam/#mute_participants) -->
     - [バーチャル背景を使う](usage/mic_cam/virtual_background/)
-<!-- - [参加者一覧を表示する](usage/participants/)
-- [名前を変更する](usage/participants/#change_name) -->
 - [画面を共有する](usage/screen_sharing/)
     - [画面共有の許可と制限](usage/screen_sharing/security/)
 - [チャットをする](usage/chat/)
@@ -69,8 +66,6 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
 - [Zoomのレポート機能を使って出席を管理する](misc/report/)
 - [Zoomのアプリについて](misc/app/)
 - [ミーティングの編集と管理](misc/edit_meeting/)
-<!-- - [エンドツーエンド (E2E) 暗号化](misc/e2e/)
-- [アカウントの使い分け](misc/multiple_accounts/) -->
 - [オンライン授業において Zoom の通信量を抑えるには](/articles/zoom-data-traffic)
 - [オンライン講座「オンライン授業における Zoom の使い方」](/events/2021-03-25/)
 
