@@ -4,13 +4,16 @@ slug: oc # 手順を外部ファイルからincludeするときに使う
 lang: en
 ---
 
-import ItcLms from "@components/en/systems/ItcLms/index.astro";
-import Microsoft from "@components/en/systems/Microsoft/index.astro";
+import ApplyEccs from "@components/en/systems/Eccs/ApplyEccs.astro";
+import LoginEccs from "@components/en/systems/Eccs/LoginEccs.astro";
 import ApplyUTokyoWifi from "@components/en/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
 import ConnectUTokyoWifi from "@components/en/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
-import Google from '@components/procedures/en/Google/index.astro'
-import UTokyoAccount from '@components/procedures/en/UTokyoAccount/index.astro'
-import UTAS from '@components/procedures/en/UTAS/index.astro'
+import Microsoft from "@components/en/systems/Microsoft/index.astro";
+import ItcLms from "@components/en/systems/ItcLms/index.astro";
+import Zoom from "@components/en/systems/Zoom/index.astro";
+import Google from '@components/en/procedures/Google/index.astro'
+import UTokyoAccount from '@components/en/procedures/UTokyoAccount/index.astro'
+import UTAS from '@components/en/procedures/UTAS/index.astro'
 
 ## Greetings
 
@@ -113,7 +116,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
     <UTAS part="important" pageSlug="oc" />
     <li>
       <strong>UTokyo Wi-Fi: Apply for an account</strong>
-      {/* {% include en/systems/utokyo_wifi/apply.html part="important" %} */}
+      <ApplyUTokyoWifi pageSlug="oc" part="important" />
     </li>
 </ul>
 
@@ -125,23 +128,23 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 ### UTokyo Account
 
-{/* {:#utokyo_account} */}
+{:#utokyo_account}
 
 { about_utokyo_account }
 
-{/* {% include procedures/en/utokyo_account.html %} */}
+<UTokyoAccount pageSlug="oc" />
 
 ### UTAS
 
-{/* {:#utas} */}
+{:#utas}
 
 { about_utas }
 
-{/* {% include procedures/en/utas.html %} */}
+<UTAS pageSlug="oc" />
 
 ### ITC-LMS
 
-{/* {:#itc_lms} */}
+{:#itc_lms}
 
 { about_itc_lms }
 
@@ -149,23 +152,23 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 ### Zoom
 
-{/* {:#zoom} */}
+{:#zoom}
 
 { about_zoom }
 
-{/* {% include procedures/en/zoom.html %} */}
+<Zoom pageSlug="oc" />
 
 ### ECCS Cloud Email (Google Workspace)
 
-{/* {:#google} */}
+{:#google}
 
 { about_google }
 
-{/* {% include procedures/en/google.html %} */}
+<Google pageSlug="oc" />
 
 ### UTokyo Microsoft License (Microsoft 365)
 
-{/* {:#microsoft} */}
+{:#microsoft}
 
 { about_microsoft }
 
@@ -173,7 +176,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 ### UTokyo Wi-Fi
 
-{/* {:#utokyo_wifi} */}
+{:#utokyo_wifi}
 
 { about_utokyo_wifi }
 
@@ -183,7 +186,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
       <summary>
         (Repost) <strong>Task: Apply for an account</strong>
       </summary>
-      {/* {% include en/systems/utokyo_wifi/apply.html %} */}
+      <ApplyUTokyoWifi pageSlug="oc" />
     </details>
   </li>
   <li>
@@ -194,18 +197,18 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 ### ECCS terminals
 
-{/* {:#eccs} */}
+{:#eccs}
 
 { about_eccs }
 
 <ul>
   <li>
     <strong>Task: Apply for system user permission</strong>
-    {/* {% include en/systems/eccs/apply.html %} */}
+    <ApplyEccs pageSlug="oc" />
   </li>
   <li>
     <strong>Exercise: Log in</strong>
-    {/* {% include en/systems/eccs/login.html %} */}
+    <LoginEccs pageSlug="oc" />
   </li>
 </ul>
 
