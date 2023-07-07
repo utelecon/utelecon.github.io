@@ -1,4 +1,4 @@
 // remove user agent stylesheet against <p> element inside <li>
-li > p, .box--alert > p {
+li > p, .box > p, .box--alert > p {
     margin: 0;
 }
