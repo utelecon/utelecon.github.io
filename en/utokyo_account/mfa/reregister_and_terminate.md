@@ -46,7 +46,7 @@ We recommend that you use MFA for security reasons, but, for unavoidable circums
 1. The MFA for your account will be terminated. An Email will be sent for the notification after a while.
 1. You can now sign in to your UTokyo Account only with a password. It will take approximately 40 minutes maximum for the termination to be reflected in the system, so please wait for a while.
 
-After terminating MFA use, [UTokyo VPN](/utokyo_vpn/)and[UTokyo Slack](/slack/), which require MFA, will be unavailable.
+After terminating MFA use, [UTokyo VPN](/en/utokyo_vpn/)and[UTokyo Slack](/en/slack/), which require MFA, will be unavailable.
 
 ## Application
 {:#application-method}
