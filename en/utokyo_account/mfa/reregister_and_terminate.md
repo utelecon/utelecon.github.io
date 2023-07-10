@@ -2,7 +2,7 @@
 title: Reregistering Verification Method and Terminating the Use of Multi-Factor Authentication for UTokyo Accounts
 ---
 
-This page describes the following procedures regarding[UTokyo Account Multi-Factor Authentication (MFA)](.): “**Reregistering Verification Method**” for MFA, and “**Terminating** MFA use”. Since the purpose of the two procedures are different, please confirm which of the following is appropriate for you and follow the instructions.
+This page describes the following procedures regarding[UTokyo Account Multi-Factor Authentication (MFA)](.): “Reregistering Verification Method” for MFA, and “Terminating MFA use”. Since the purpose of the two procedures are different, please confirm which of the following is appropriate for you and follow the instructions.
 
 - **Reregister Verification Method**：In case you lost access to all verification methods and are unable to sign in to the UTokyo Account, we can take measures to allow you to retry the registration process for MFA all over again and keep using MFA.
     - Check if any of your verification methods can be used beforehand as described below. Please follow the procedure only if all verification methods were not available.
