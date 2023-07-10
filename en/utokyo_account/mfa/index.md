@@ -9,7 +9,7 @@ Multi-factor authentication is available for UTokyo Accounts to improve the secu
 
 Multi-factor authentication (MFA) is a security process in which users are asked to enter passwords and also verify their identity via SMS or authentication apps when signing in to their accounts. MFA can make your account more secure by reducing the risk of unauthorized sign-ins even if your password has been compromised.
 
-The users of UTokyo Account can enable MFA by completing the initial setups for their account individually. MFA setup is not mandatory at this time, and you can continue to use your UTokyo Account without MFA; however,**it is strongly recommended to have MFA set up** for security reasons.Note that **MFA must be enabled when using [UTokyo VPN](/utokyo_vpn/) and [UTokyo Slack](/slack/)**, and they are unavailable for UTokyo Account without MFA.
+The users of UTokyo Account can enable MFA by completing the initial setups for their account individually. MFA setup is not mandatory at this time, and you can continue to use your UTokyo Account without MFA; however,**it is strongly recommended to have MFA set up** for security reasons.Note that **MFA must be enabled when using [UTokyo VPN](/en/utokyo_vpn/) and [UTokyo Slack](en//slack/)**, and they are unavailable for UTokyo Account without MFA.
 
 We ask the UTokyo Account users to enable MFA because maintaining the security of UTokyo Account is crucial to protect not only the information of individual users but also the information assets of the university.
 
