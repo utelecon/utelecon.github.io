@@ -6,7 +6,7 @@ This page describes the following procedures regarding[UTokyo Account Multi-Fact
 
 - **Reregister Verification Method**：In case you lost access to all verification methods and are unable to sign in to the UTokyo Account, we can take measures to allow you to retry the registration process for MFA all over again and keep using MFA.
     - Check if any of your verification methods can be used beforehand as described below. Please follow the procedure only if all verification methods were not available.
-- **Terminate** MFA Use： If you want to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password, please follow this procedure. We strongly recommend that you use MFA for security reasons, but we can take measures to terminate MFA use for unavoidable circumstances. Be aware that after terminating MFA, you can not use[UTokyo VPN](/utokyo_vpn/)and[UTokyo Slack](/slack/), which requires MFA.
+- **Terminate** MFA Use： If you want to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password, please follow this procedure. We strongly recommend that you use MFA for security reasons, but we can take measures to terminate MFA use for unavoidable circumstances. Be aware that after terminating MFA, you can not use[UTokyo VPN](/en/utokyo_vpn/)and[UTokyo Slack](/en/slack/), which requires MFA.
 
 The “Reregistering Verification Method” procedure was renamed from “Resetting” procedure in September 2022.
 
