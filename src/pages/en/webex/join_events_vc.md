@@ -7,7 +7,7 @@ title: How to join Webex Events （TV Conference Systems）
 1. Call 210.4.202.4 from the video conferencing system
 1. An announcement will prompt you to enter the meeting number. Enter the meeting number sent from the host and press "#" at the end.
 1. If a panelist password is set for the event, an announcement will ask you to enter the password. Enter the password sent by the organizer and press "#" at the end.
-* If the event has not started yet, you will be automatically disconnected.
+   * If the event has not started yet, you will be automatically disconnected.
 
 ## Functions
 

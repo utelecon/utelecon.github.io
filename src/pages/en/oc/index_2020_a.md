@@ -31,7 +31,7 @@ Preparations for taking online classes are broadly in 2 parts
   * PC: Since it is possible to watch videos on a smartphone, you can also watch online lessons on a smartphone. However, for studying at a university,we recommend owning a PC (Windows, Mac, Linux, etc.) for writing reports, etc. Also, during online lesson activities, you will have more opportunities to do small tasks and exercises while watching videos. Prepare a computer environment so that you can have your online class and a different window for other tasks both on your large screen.
   * Internet environment: To take classes from home, you need an environment where you can watch videos. Check the capacity of the Internet and/or smartphone. Be careful if you connect your smartphone directly to mobile (LTE etc.) If you do not have enough data capacity or an unlimited internet environment, you will not be able to watch the video when you run out of giga, or it will cost you money to buy giga to keep watching. We recommend having enough or unlimited internet. We have a <a href="/mobile/mobile3">support system</a> for those in need.
 
-<font color="blue">Note</font>
+<div style="color: blue">Note</div>
 
 * The following initial setup work can be done before you get a computer to use for class.
 * You can run it on the smartphone, iPad, tablet, PC (at home), etc. that you already own. 

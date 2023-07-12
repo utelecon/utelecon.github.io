@@ -22,12 +22,12 @@ Large Meetings for over 300 attendees and Webinars can also be held by applying 
 
 ## License Use Procedure 
 1. Submit a license application form.
-  * Please apply at least 1 week ahead (Large Meeting) / 2 weeks ahead (Webinar) of the day you wish to start using the license.  
+    * Please apply at least 1 week ahead (Large Meeting) / 2 weeks ahead (Webinar) of the day you wish to start using the license.
 
 1. The license will be granted to your existing Zoom account on the date indicated on your application form. (Note that the license is added to your existing Zoom account, and no separate account is issued for the additional license.)
 To confirm that a specific license has been granted, 
-  * Large Meetings: Access the [Zoom Profile Page](https://u-tokyo-ac-jp.zoom.us/profile), and check that the number of participants in the “License Type” field has been changed to the number you applied for. 
-  * Webinars: Access the [Zoom Webinar Page](https://u-tokyo-ac-jp.zoom.us/webinar/), and check that you are taken to the Webinar settings page instead of the homepage with a “Buy now” button. 
+    * Large Meetings: Access the [Zoom Profile Page](https://u-tokyo-ac-jp.zoom.us/profile), and check that the number of participants in the “License Type” field has been changed to the number you applied for.
+    * Webinars: Access the [Zoom Webinar Page](https://u-tokyo-ac-jp.zoom.us/webinar/), and check that you are taken to the Webinar settings page instead of the homepage with a “Buy now” button.
 1. Edit the settings as necessary and host the Large Meeting/Webinar. 
 
 ## License Application Form

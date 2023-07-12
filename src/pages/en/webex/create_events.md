@@ -3,8 +3,10 @@ title: Setting up a Webex Webinar
 ---
 
 <strong class="box">
+
 **Webex Webinars, the topic of this article, should not be confused with Webex Events (classic), which you can set up by clicking “Webex Events (classic)” on the bottom-left corner of the home screen. They are configured differently, have different available functions, etc.**
 ![Webex Eventsを表示する](img/webex_toppage_events.png){:.border.medium}
+
 </strong>
 
 ## Setting up a Webex Webinar
