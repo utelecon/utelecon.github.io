@@ -29,8 +29,15 @@ const { pageSlug, part } = Astro.props;
     )
   }
 </ol>
-<ul>
-  <li>
+
+{
+  part === "login" ? (
     <LoginHelp pageSlug={pageSlug} />
-  </li>
-</ul>
+  ) : (
+    <ul>
+      <li>
+        <LoginHelp pageSlug={pageSlug} />
+      </li>
+    </ul>
+  )
+}

@@ -13,7 +13,7 @@ You can join Webex Webinars as a host, a co-host, a presenter, or a panelist, bu
 1. Call 210.4.202.4 (or the IP address given by the host) from the video conferencing system.  
 1. Following the announcement, enter the meeting number given by the host, and add # at the end.  
 1. If a password is required, while following the announcement, enter the password given by the host, and add # at the end.  
-* If the meeting has not started, the call will be automatically disconnected.  
+   * If the meeting has not started, the call will be automatically disconnected.  
 
 
 ## Starting a meeting from a video conferencing system  

@@ -19,43 +19,42 @@ Purpose and goal of the program
 What the class supporters can do (examples of specific tasks)
 ---------------------------
 
-* Conducting a <font color="green">trial online lecture </font> with the professor using the Web conference system outside of class time. Examples of tasks:
+* Conducting a <span style="color:green">trial online lecture </span> with the professor using the Web conference system outside of class time. Examples of tasks:
   * Checking the sound quality
   * Checking the image quality of the camera
   * Checking how things appear when using the functions of the conference system
-* <font color="green">Intervene</font>in response to basic problems that occur during class, such as:
+* <span style="color:green">Intervene</span> in response to basic problems that occur during class, such as:
   * When students cannot hear the professor's voice; "Professor, we cannot hear (see) you."
   * When the professor thinks he has shared his screen but has not; "Professor, the screen sharing is not turned on."
   * Check chat questions (depending on class type).
   * In short, this is to help prevent worst accidents (e.g., talking for 30 minutes straight without knowing your sound is not on).
   * Being familiar with the Web conferencing system and troubleshooting as much as possible.
-* <font color="green">Collecting and sharing </font>relevant information such as:
+* <span style="color:green">Collecting and sharing</span> relevant information such as:
   * Information on Zoom updates
   * New information shared on utelecon
-* Note: Support during the class is assumed to be <font color="green">possible while taking classes</font>.
+* Note: Support during the class is assumed to be <span style="color:green">possible while taking classes</span>.
 
 Work contents that are NOT expected of Class Supporters
 ---------------------------
 
-* The class supporter will NOT adjust the web conference settings every time so that <font color="red">the teacher does not need to know the web conference system at all</font>.
-* The Class Supporter will NOT do <font color="red"> camera work for the teacher</font>.
-* The class supporter will NOT give individual support for students who cannot enter the class, who do not speak when entering the class, etc. <font color="red"> every time the student fails to attend class for over a specific amount of times (the level that hinders attendance) </font>, (Nor do we anticipate that teachers in class to do it)
-* The class supporter will NOT conduct work that<font color="red"> requires going to the campus physically</font>.
-
+* The class supporter will NOT adjust the web conference settings every time so that <span style="color:red">the teacher does not need to know the web conference system at all</span>.
+* The Class Supporter will NOT do <span style="color:red">camera work for the teacher</span>.
+* The class supporter will NOT give individual support for students who cannot enter the class, who do not speak when entering the class, <span style="color:red">every time the student fails to attend class for over a specific amount of times (the level that hinders attendance) </span>, etc. (Nor do we anticipate that teachers in class to do it)
+* The class supporter will NOT conduct work that <span style="color:red">requires going to the campus physically</span>.
 
 Technically, the class supporters are meant to “Help professors prepare for online classes, help with the trials before the start of classes, notify the professor when/If there are trouble during the lecture that the professor may not notice. (e.g. sound muted)”. If you need further assistance, consult with your department and the student him/her-self, or hire a TA separately.
 
 (For academic staff) Flow of using the program
 ---------------------------
 
-* If you <font color="green">CAN find a class supporter on your own</font>:
+* If you <span style="color:green">CAN find a class supporter on your own</span>:
   * 13,000 yen per class.  
   * Ask for a maximum of 10 hours of work (including 2 hours of training).
   * Notify that the payment will be made after August when consulting with the class supporter. For example, if you have students in the laboratory, major students, students in the class, etc., this is recommended. If the student agrees, the student or teacher should fill in the  <a href="https://tinyurl.com/ugrxm4r" target="_blank">class supporter activity start report</a>.
 
-* If you <font color="green">CANNOT find a class supporter on your own</font>:
+* If you <span style="color:green">CANNOT find a class supporter on your own</span>:
   * Fill out the <a href="https://tinyurl.com/rcu2lgz" target="_blank">Class Supporter Assignment Request Form</a>. Based on this information, the system management side will perform matching and assign class supporters.
- 
+
 **Note:**
 
 * The work content of class supporters partially overlaps with the TA’s, but the workload should not be as heavy.
