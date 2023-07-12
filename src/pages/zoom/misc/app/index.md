@@ -8,7 +8,7 @@ redirect_from:
 ## インストールの方法
 
 ここでは，Zoom のインストールの方法を説明します．  
-会議室の URL（https://zoom.us/j/xxxxxxxxxx xは数字）を知っている場合，知らない場合と2通りの説明をします．  
+会議室の URL（`https://zoom.us/j/xxxxxxxxxx` xは数字）を知っている場合，知らない場合と2通りの説明をします．  
 
 
 ### 会議室の URL を知っている場合
