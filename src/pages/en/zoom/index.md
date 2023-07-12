@@ -40,10 +40,6 @@ For an overview of how to create a meeting, please refer to "[Schedule a meeting
 - [Scheduling Recurring Zoom Meetings](create_room/date_and_time/)
 - [Requiring Authentication to Join a Zoom Meeting](create_room/auth/)
 - [Setting up a Zoom Waiting Room](create_room/waiting_room/)
-{%- comment -%}
-- [Ask participants to register](create_room/registration/)
-- [set alternative host](create_room/alternative_host/)
-{%- endcomment %}
 
 ## Usages in Zoom Meeting
 {:#usage}
@@ -51,20 +47,10 @@ For an overview of how to create a meeting, please refer to "[Schedule a meeting
 For an overview of usages during a meeting, please refer to "[Usages in Zoom Meeting](usage/)". Also, the following pages provide detailed explanations of individual functions.
 
 - [Use Microphone and Camera](usage/mic_cam/)
-{%- comment %}
-    - (For organizers) [Mute Other Participants (in Japanese)](/zoom/usage/mic_cam/#mute_participants)
-{%- endcomment %}
     - [Use Vritual Background (in Japanese)](/zoom/usage/mic_cam/virtual_background/)
-{%- comment -%}
-- [Show List of Participants (in Japanese)](/zoom/usage/participants/)
-- [Change Displayed Name (in Japanese)](/zoom/usage/participants/#change_name)
-{%- endcomment %}
 - [Screen Sharing](usage/screen_sharing/)
 - [Use Chat (in Japanese)](/zoom/usage/chat/)
 - [Respond with a Raised Hand or an Emoji (in Japanese)](/zoom/usage/reaction/)
-{%- comment -%}
-- [Change Screen Layout (in Japanese)](/zoom/usage/layout/)
-{%- endcomment %}
 - (For organizers)[Use Breakout Room (in Japanese)](/zoom/usage/breakout/)
 - (For organizers)[Use Poll (in Japanese)](/zoom/usage/poll/)
 - (For organizers)[Recording Zoom Meeting](usage/recording/)
@@ -75,10 +61,5 @@ For an overview of usages during a meeting, please refer to "[Usages in Zoom Mee
 - [Difference between Host and Co-host](misc/management_roles/)
 - [Using Zoom's Report Feature to Manage Attendance](misc/report/)
 - [About the Zoom App](misc/app/)
-{%- comment -%}
-- [Edit and Manage Meetings](misc/edit_meeting/)
-- [End-to-End (E2E) Encryption (in Japanese)](/zoom/misc/e2e/)
-- [Using Different Accounts (in Japanese)](/zoom/misc/multiple_accounts/)
-{%- endcomment %}
 - [How to Reduce Zoom Traffic in Online Classes](/en/articles/zoom-data-traffic)
 - [Online Lecture "How to Use Zoom in Online Classes" (in Japanese)](/events/2021-03-25/)

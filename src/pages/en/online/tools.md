@@ -42,9 +42,7 @@ A “learning management system” is a system that supports the exchange of dat
 
 ### ITC-LMS
 ITC-LMS is UTokyo’s learning management system. It provides functions such as distribution of class materials, submission of assignments, online examinations, and notifications from faculty members to students. One of ITC-LMS’s advantages is that it is **easy to pass information "only to the students of UTokyo '' or "only to the students of a specific class"** because ITC-LMS is linked to the UTokyo Account and UTokyo Academic Affairs System (UTAS, UTokyo’s course registration system). ITC-LMS is also **widely used by students**, so we recommend that you make ITC-LMS the first choice for distributing class materials and exchanging assignments.
-{%- comment -%}
--  **[utelecon’s ITC-LMS Page (For students)](/en/lms_students/)**
-{%- endcomment %}
+
 -  **[utelecon’s ITC-LMS Page (For instructors)](/en/lms_lecturers/)**
 
 ### Google Classroom
