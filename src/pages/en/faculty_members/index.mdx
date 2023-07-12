@@ -3,6 +3,9 @@ title: Getting Ready for ICT Systems at the University of Tokyo (for Faculty Mem
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 ---
 
+import ZoomSigninBrowser from '@components/en/ZoomSigninBrowser.astro'
+import Courses from '@components/en/Courses/index.astro'
+
 <b class="box">
 A briefing session titled “<a href="/events/2023-03-15/">A briefing session on web conferencing and cloud tools for online and in-person use - and let's “Chat” about “that AI tool”</a>” will be held on March 15th at 15:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
 </b>
@@ -20,7 +23,7 @@ This portal site, "utelecon," aggregates information on the system at the Univer
 Your cooperation is greatly appreciated so that students can have a fulfilling study and student life through our educational activities.
 
 <div style="text-align: right;">
-Executive Vice President / Chief Information Officer<br>
+Executive Vice President / Chief Information Officer<br/>
 OHTA Kunihiro
 </div>
 
@@ -28,7 +31,7 @@ OHTA Kunihiro
 
 ### Types of Classes
 
-{% include en/courses.md %}
+<Courses pageSlug="faculty_members" />
 
 ### Institutional Handling of Classes
 
@@ -78,7 +81,7 @@ Zoom is a simultaneous interactive web conferencing system, and is one of the mo
 
 The University of Tokyo has a license agreement with Zoom, and by signing in and using it, you can hold meetings with a maximum capacity of 300 participants and for a 30-hour duration.
 
-{% include en/zoom_signin_browser.md %}
+<ZoomSigninBrowser />
 
 The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](/en/zoom/zoom_signin) for more information (please note that you cannot sign in with more than one PCs/tablets/smartphones at the same time; however, you can sign in with one PC, one tablet, and one smartphone simultaneously).
 
