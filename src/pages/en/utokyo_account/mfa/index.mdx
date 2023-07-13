@@ -4,7 +4,7 @@ css: [mfa]
 ---
 
 import MFAPhoneNumberSetup from '@components/en/procedures/UTokyoAccount/MFAPhoneNumberSetup.astro'
-import MSAuthenticatorSetupByDevice from '@components/en/procedures/UTokyoAccount/MSAuthenticatorSetupByDevice.astro'
+import MSAuthenticatorSetupByDevice from '@components/en/procedures/UTokyoAccount/MFAMSAuthenticatorSetupByDevice.astro'
 
 <div class="box--alert">
 [Notice] <a href="/notice/2023/02-utokyo_account-security">## Sign-in approval procedure for the "Microsoft Authenticator" application will change on February 27</a>
@@ -93,14 +93,16 @@ Here you will add the first verification method (the second and subsequent metho
         </details>
 
     - **Phone Number**: 
-        You can add your phone number and receive a call or text message to verify your identity．
+        You can add your phone number and receive a call or text message to verify your identity.
         <details>
             <summary>Setup Procedure</summary>
             <ol>
-                <li>Click "I want to use a different authenticator app" in the middle of the setup page.                     
+                <li>
+                    Click "I want to use a different authenticator app" in the middle of the setup page.                     
                    <img src="first_another_method.png" />
                 </li>
-                <li>For "Which method would you like to add?", select "Phone", 
+                <li>
+                    For "Which method would you like to add?", select "Phone", 
                     and then click "Add".
                     <img src="first_select_phone.png" />
                 </li>
@@ -114,7 +116,7 @@ Here you will add the first verification method (the second and subsequent metho
     Enter the 6-digit code sent to your email address, and click "Next".
 1. Next you will be taken to the "App Password" page, and asked to enter your "app password name". 
     (The system may skip this step.) Enter any name you like using alphanumeric characters 
-    and click "Next".（This "App Password" is used when signing in to apps or devices that don't 
+    and click "Next". (This "App Password" is used when signing in to apps or devices that don't 
     support MFA. It will not be used for signing in with UTokyo Accounts.) 
 1. A screen showing that you have successfully set up your security information will appear. Click "Done".
 1. If you are taken to the "UTokyo Account Service Directory", your setup has been successfully completed. 
@@ -141,15 +143,32 @@ Below are the procedures to add different verification methods.
                     Install the Microsoft Authenticator app on your smartphone 
                     (if you haven't already done so).
                     The Android version can be downloaded from 
-                    <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a> 
+                    <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">
+                        Google Play
+                    </a> 
                     and the iPhone version from 
-                    <a href="https://apps.apple.com/app/microsoft-authenticator/id983156458">App Store</a>. </li>
-                <li>Click "Add method" in the 
-                    <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Security info page</a>.
-                    <img src="alt_add_method.png" /></li>
-                <li>For "Which method would you like to add?", 
-                    select "Authenticator app", and click "Add".<img src="alt_add_method_pull_down.png" /></li>
-                <li>Click "Next" on the "Start by getting the app" screen. <img src="alt_ms_auth_next.png" /></li>
+                    <a href="https://apps.apple.com/app/microsoft-authenticator/id983156458">
+                        App Store
+                    </a>
+                    . 
+                </li>
+                <li>
+                    Click "Add method" in the 
+                    <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">
+                        Security info page
+                    </a>
+                    .
+                    <img src="alt_add_method.png" />
+                </li>
+                <li>
+                    For "Which method would you like to add?", 
+                    select "Authenticator app", and click "Add".
+                    <img src="alt_add_method_pull_down.png" />
+                </li>
+                <li>
+                    Click "Next" on the "Start by getting the app" screen. 
+                    <img src="alt_ms_auth_next.png" />
+                </li>
                 <li>
                     The next procedure differs by the device that you working on.
                     <MSAuthenticatorSetupByDevice />
@@ -162,15 +181,28 @@ Below are the procedures to add different verification methods.
     <details>
         <summary>Setup Procedure</summary>
         <ol>
-            <li>Click "Add method" in the 
-                <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Security info page</a>.
-                <img src="alt_add_method.png" /></li>
-                <li>For "Which method would you like to add?", 
-                    select "Authenticator app", and click "Add".<img src="alt_add_method_pull_down.png" /></li>
-            <li>Click "I want to use a different authenticator app".<img src="alt_auth_app.png" /></li>
-            <li>Follow the instructions until you reach the QR code page. </li>
-            <li>Scan the QR code with your authenticator app and 
-                complete the setup procedure. <img src="alt_auth_app_qr.png" /></li>
+            <li>
+                Click "Add method" in the 
+                <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">
+                    Security info page
+                </a>
+                .
+                <img src="alt_add_method.png" />
+            </li>
+            <li>
+                For "Which method would you like to add?", 
+                select "Authenticator app", and click "Add".<img src="alt_add_method_pull_down.png" />
+            </li>
+            <li>
+                Click "I want to use a different authenticator app".<img src="alt_auth_app.png" />
+            </li>
+            <li>
+                Follow the instructions until you reach the QR code page. 
+            </li>
+            <li>
+                Scan the QR code with your authenticator app and 
+                complete the setup procedure. <img src="alt_auth_app_qr.png" />
+            </li>
         </ol>
     </details>
 
@@ -188,11 +220,18 @@ Below are the procedures to add different verification methods.
     <details>
         <summary>Setup Procedure</summary>
         <ol>
-            <li>Click "Add method" in the 
-                <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Security info page</a>.
-                <img src="alt_add_method_pull_down.png" /></li>
-            <li>For "Which method would you like to add?", 
-                select "Authenticator app", and click "Add".<img src="alt_add_method_pull_down.png" /></li>
+            <li>
+                Click "Add method" in the 
+                <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">
+                Security info page
+                </a>
+                .
+                <img src="alt_add_method_pull_down.png" />
+            </li>
+            <li>
+                For "Which method would you like to add?", 
+                select "Authenticator app", and click "Add".<img src="alt_add_method_pull_down.png" />
+            </li>
             <MFAPhoneNumberSetup />
         </ol>
     </details>
@@ -274,7 +313,7 @@ The default sign-in method can be changed following the steps below.
 
 The verification methods, "Phone", "Alternate phone", and "Office phone" can be edited by following the steps below.
 
-1. Find the method you wish to edit in the list of verification methods on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp), and click "Change" on the right of the specific method. <img src="alt_method_change.png">
+1. Find the method you wish to edit in the list of verification methods on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp), and click "Change" on the right of the specific method. <img src="alt_method_change.png" />
 2. Enter your new phone number in the popup screen, and click "Next".
 3. Verify your phone number (via text or call). Follow the same procedure as when adding a new phone number. 
 
