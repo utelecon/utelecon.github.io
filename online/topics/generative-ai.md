@@ -22,6 +22,7 @@ title: 生成系AI（ChatGPT等）関連情報
     - [大規模言語モデルの原理と可能性](https://edx.nii.ac.jp/lecture/20230512-04)（2023年5月12日 第65回／情報理工学系研究科 宮尾祐介教授）
     - [ChatGPTを教育に取り入れる：アイデアと留意点](https://edx.nii.ac.jp/lecture/20230329-06)（2023年3月29日 第63回／工学系研究科 吉田塁准教授）
 - [ChatGPT・AI の教育関連情報まとめ](https://edulab.t.u-tokyo.ac.jp/chatgpt-ai-resources/)（工学系研究科 吉田塁准教授）
+- [大学・高専における生成AIの教学面の取扱いについて](https://www.mext.go.jp/b_menu/houdou/2023/mext_01260.html)（2023年7月13日 文部科学省高等教育局専門教育課、大学教育・入試課）
 
 ---
 
