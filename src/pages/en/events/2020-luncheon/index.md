@@ -31,7 +31,7 @@ Please be aware that the session will be recorded and then the video will be sho
 【Date and Time】2020/4/27　12:10-12:50  
 【Topic】Online Group Work（Continuation）  
 【Slides】[pdf file](luncheon_2_slides.pdf)  
-【Video】[mp4 file](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-04-27)ECCS cloud mail required）（Click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)to sign in with ECCS cloud mail (https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．Click <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">here</a> for those who have not yet completed the initial settings (ECCS cloud mail setting method).
+【Video】[mp4 file](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-04-27)ECCS cloud mail required）（Click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)to sign in with ECCS cloud mail (https://mail.google.com/a/g.ecc.u-tokyo.ac.jp). Click <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">here</a> for those who have not yet completed the initial settings (ECCS cloud mail setting method).  
 【Target】Faculty members in charge of classes at our university, and those who support classes  
 【Summary】How should we proceed with group work in online classes? We will discuss how to set up, how to give instructions, and ideas for grouping.
 
@@ -41,6 +41,6 @@ Please be aware that the session will be recorded and then the video will be sho
 【Date and time】2020/4/22　12:10-12:50  
 【Topic】Online Group work 
 【Slides】[pdf file](luncheon_1_slides.pdf)  
-【Video】[mp4 file](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-04-22) ECCS cloud mail required）（Click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)to sign in with ECCS cloud mail (https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．Click <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">here</a> for those who have not yet completed the initial settings (ECCS cloud mail setting method).
+【Video】[mp4 file](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-04-22) ECCS cloud mail required）（Click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)to sign in with ECCS cloud mail (https://mail.google.com/a/g.ecc.u-tokyo.ac.jp). Click <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">here</a> for those who have not yet completed the initial settings (ECCS cloud mail setting method).  
 【Target】Faculty members in charge of classes at our university, and those who support classes 
 【Summary】How should we proceed with group work in online classes? We will discuss how to set up, how to give instructions, and ideas for grouping.

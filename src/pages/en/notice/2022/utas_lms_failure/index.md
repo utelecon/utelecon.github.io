@@ -57,11 +57,11 @@ If you are affected or using Korea Telecom, [please report your status here](htt
 * To the question **"What is your inquiry?"**, check <font color="blue">"*Troubles with other external online tools or Utokyo systems*"</font>
 * To the question **"What did you try to accomplish?"**, say <font color="blue">"*Tried to access UTAS*"</font>
 * To the question **"Describe the problem"**, include
-  1. <font color="blue">The result of <a href="https://bgp.tools/">https://bgp.tools/</a> (texts below "You are connecting from")</font>
-  1. <font color="blue">The result of accessing <a href="https://utas.adm.u-tokyo.ac.jp/">https://utas.adm.u-tokyo.ac.jp/</a> (timeout or not)</font>
-  1. <font color="blue">The result of accessing <a href="https://gidp.adm.u-tokyo.ac.jp/connect.html">https://gidp.adm.u-tokyo.ac.jp/connect.html</a> (timeout or a page saying "Success(1 or 2)")</font>
-  1. <font color="blue">The result of accessing <a href="https://20.188.18.56/">https://20.188.18.56/</a> (timeout, a page showing a security warning/error, or anything else)</font>
-  1. <font color="blue">The result of accessing <a href="https://20.157.12.34/">https://20.157.12.34/</a> (timeout, a page showing a security warning/error, or anything else)</font>
+  1. <font color="blue">The result of https://bgp.tools/ (texts below "You are connecting from")</font>
+  1. <font color="blue">The result of accessing https://utas.adm.u-tokyo.ac.jp/ (timeout or not)</font>
+  1. <font color="blue">The result of accessing https://gidp.adm.u-tokyo.ac.jp/connect.html (timeout or a page saying "Success(1 or 2)")</font>
+  1. <font color="blue">The result of accessing https://20.188.18.56/ (timeout, a page showing a security warning/error, or anything else)</font>
+  1. <font color="blue">The result of accessing https://20.157.12.34/ (timeout, a page showing a security warning/error, or anything else)</font>
 
 ## 6. How to work around the issue for now
 {:#how-to-work-around}
@@ -69,7 +69,7 @@ If you are affected or using Korea Telecom, [please report your status here](htt
 We are working with the cloud vendor to fix the underlying problem. Meanwhile, you may try one of the followings and see if anything works to get around the issue.
 
 1\. **Use alternative servers with Chrome browser.** We have set up temporary servers that go around the broken route. Chrome browser is required to use them. If you are using Chrome or do not mind installing it for this purpose, run Chrome browser as follows.
- * On Windows: open "command prompt" and run
+* On Windows: open "command prompt" and run
 ```
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
 ```
@@ -78,7 +78,7 @@ Or, you may download [this batch file](run_chrome.bat) and run it.
 run_chrome.bat
 ```
 Note: If the command above does not work, you might try changing `Program Files` to `Program Files (x86)`, for example. The correct command depends on where the Chrome application is stored on your computer.
- * On Macintosh or Linux: open terminal and run
+* On Macintosh or Linux: open terminal and run
 ```
 chrome --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
 ```

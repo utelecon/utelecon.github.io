@@ -17,7 +17,7 @@ redirect_from:
   * If you share one PC with many people or if you snapshot the speaker, we strongly recommend to use  External USB camera and microphone.
   * There is a dedicated app for smartphone users (organizers are recommended to use PC.).
   * You can watch anywhere as long as you can connect to the internet. 
-* <a href="https://support.google.com/meet/" target="_blank">Need help?
+* [Need help?](https://support.google.com/meet/)
 
 ## Video Conference
 
@@ -34,14 +34,15 @@ One should be the organizer at the conference. The organizers arrange the meetin
    <blockquote>
      <a href="img/meet_start.png" target="_blank"><img src="img/meet_start.png" width="400"></a>
    </blockquote>
-  * Caution 1: if the screen shows "You’re not logged in with an account that can start a meeting," please switch to a G suite account (xxxx@g.ecc.u-tokyo.ac.jp) on top right. 
-   <blockquote>
-     <a href="img/meet_no_login.png" target="_blank"><img src="img/meet_no_login.png" width="250"></a>
-   </blockquote>
-  * Caution 2: If the screen shows " this account can participate in the meeting only" then you check your accont. You may log in your private account (i.e. xxxx@gmail.com). Please switch your account to  G Suite account (xxxx@g.ecc.u-tokyo.ac.jp)." You can switch account on top right button (See below) or you re-enter  G Suite account.
-   <blockquote>
-     <a href="img/meet_participate_only.png" target="_blank"><img src="img/meet_participate_only.png" width="250"></a>
-   </blockquote>
+
+   * Caution 1: if the screen shows "You’re not logged in with an account that can start a meeting," please switch to a G suite account (xxxx@g.ecc.u-tokyo.ac.jp) on top right. 
+     <blockquote>
+       <a href="img/meet_no_login.png" target="_blank"><img src="img/meet_no_login.png" width="250"></a>
+     </blockquote>
+   * Caution 2: If the screen shows " this account can participate in the meeting only" then you check your accont. You may log in your private account (i.e. xxxx@gmail.com). Please switch your account to  G Suite account (xxxx@g.ecc.u-tokyo.ac.jp)." You can switch account on top right button (See below) or you re-enter  G Suite account.
+     <blockquote>
+       <a href="img/meet_participate_only.png" target="_blank"><img src="img/meet_participate_only.png" width="250"></a>
+     </blockquote>
 1. Click "participate or start the meeting". You permit to access to camera and microphone and then you are ready to start the meeting.
    <blockquote>
      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" width="400"></a>
@@ -88,17 +89,17 @@ Organizers should prepare for broadcasting as follows.
     <a href="https://calendar.google.com/" target="_blank">
       Google Calendar
     </a> page.
-  * Caution 1: If you see the screen below, please log into Google account by ECCS Cloud Mail (xxxx@g.ecc.u-tokyo.ac.jp).
+   * Caution 1: If you see the screen below, please log into Google account by ECCS Cloud Mail (xxxx@g.ecc.u-tokyo.ac.jp).
+      <blockquote>
+        <img src="img/login_menu.png" width="400"/>
+      </blockquote>
+   * Caution 2: If you use your private account, please log out your account and then you log into ECCS Cloud Mail account (xxxx@g.ecc.u-tokyo.ac.jp) . If you success to enter your ECCS account, you can see the mark on the right top (See below).
+
      <blockquote>
-       <img src="img/login_menu.png" width="400"/>
+       <img src="img/login_calendar.png" width="400"/>
      </blockquote>
-  * Caution 2: If you use your private account, please log out your account and then you log into ECCS Cloud Mail account (xxxx@g.ecc.u-tokyo.ac.jp) . If you success to enter your ECCS account, you can see the mark on the right top (See below).
 
-    <blockquote>
-      <img src="img/login_calendar.png" width="400"/>
-    </blockquote>
-
-    Details are <a href="https://support.google.com/meet/answer/9308681" target="_blank">here</a>.
+     Details are <a href="https://support.google.com/meet/answer/9308681" target="_blank">here</a>.
 1. Please left-click the given day of  Google calendar to schedule the event (you can broadcast independently of the event day and even if you schedule  the event, the broadcasting do not start automatically).
     <blockquote>
       <img src="img/create_event.png" width="400"/>

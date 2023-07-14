@@ -298,7 +298,7 @@ Slackの基本的な使い方は，「[Slackで学生とコミュニケーショ
 
 1. 画面左上「S」ボタンの中のメニューから，Project settings画面のNotificationsタブを開きます．
 2. 設定画面の「Slack Notification」のリンクを開き，Slack Integrationで「Incoming Webhook」を作成します．（[Slack での Incoming Webhook の利用](https://slack.com/intl/ja-jp/help/articles/115005265063-Slack-%E3%81%A7%E3%81%AE-Incoming-Webhook-%E3%81%AE%E5%88%A9%E7%94%A8) を参照して下さい．）
-3. 「Incoming Webhook」のURL (https://hooks.slack.com~~) を貼り付け，Addを押して下さい．
+3. 「Incoming Webhook」のURL (`https://hooks.slack.com~~`) を貼り付け，Addを押して下さい．
 * 通知タイミング
   *  Scrapboxへ最後に書き込んだ後，90秒経過すると通知されます．
   *  連続して書き続けている間は通知されません．

@@ -5,7 +5,7 @@ title: Preparing quizzes
 ## Overview
 
 * In the "quiz" menu, you can ask questions in a question-and-answer format.
-  *This function can be used to check whether students have listened to the class properly and how much students have understood.
+  * This function can be used to check whether students have listened to the class properly and how much students have understood.
     * Due to cheating issues, you need to be careful about how to apply the results of the quiz to your grades.
     * We suppose it is more suitable for casual use such as using it instead of attendance confirmation.
   * It is necessary to decide in advance how to deal with troubles such as not being able to submit answers to a quiz.
@@ -90,7 +90,7 @@ title: Preparing quizzes
       	 - This is the title for specific questions (such as Question 1), not the question itself.
       3. Enter the actual questions in "Question".
       4. Select the number of answer items (number of choices).
-      5. Enter answer items (answer choices).</b>
+      5. <b>Enter answer items (answer choices).</b>
       6. <b>Check all the checkboxes of the correct answer items.</b>
       7. Enter a commentary. Students can refer after submitting, scoring, and after the answer period ends.
       8. Enter the allocation of marks. Allocate according to the total number of questions, the passing score, and the importance of each question.
