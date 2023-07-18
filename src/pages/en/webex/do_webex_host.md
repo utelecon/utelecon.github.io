@@ -146,7 +146,7 @@ When hosting a highly confidential meeting, you may lock the meeting to prevent 
 ![](img/webex_slido_open_host_apl_m.png){:.border}
    1. You may select an event prepared in advance on the host's Slido Event List page.
    1. You may also create a new Slido event by clicking the “Create new Slido” button.
-   * Slido events created in Webex meetings will be archived on the host's Slido Event List page.
+      - Slido events created in Webex meetings will be archived on the host's Slido Event List page.
 
 ## Operating Slido
 ![](img/webex_slido_do_host_main.png){:.border}

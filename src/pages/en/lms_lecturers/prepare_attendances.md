@@ -26,13 +26,13 @@ If you want to check  the attendance in class, you will need to stop the class. 
 ![追加の選択](pa2.png)
 4. Select "send limit setting".
 ![時間帯の設定](pa3.png)
-  * Name is required but only teachers can see it.
-  * Description is not a mandatory field. 
-  * Class date is a required field. Please fill in the class date.
-  * Press "Yes" after "Student registration". If you select "No",  teachers should register attendance application other than ICT-LMS such as card reader.
-  * In "Available day and time" you can designate the period of time for accepting submitions. If you record the lecture and broadcasting video clips after the class, please consider to set the attendance submission date (e.g. two or three days after the class).
-  * "Late time setting" aims to check wthether the students attend on time or not. Students are notified for being late.
-  * One-time password is required from the students to submit their attendance. You should not use the same password all the time. You must consider different one-time password on each class and notify students by class monitors, voice, comment and chat. If you find it difficult to consider password on each class,  select automatic generation.
+   * Name is required but only teachers can see it.
+   * Description is not a mandatory field. 
+   * Class date is a required field. Please fill in the class date.
+   * Press "Yes" after "Student registration". If you select "No",  teachers should register attendance application other than ICT-LMS such as card reader.
+   * In "Available day and time" you can designate the period of time for accepting submitions. If you record the lecture and broadcasting video clips after the class, please consider to set the attendance submission date (e.g. two or three days after the class).
+   * "Late time setting" aims to check wthether the students attend on time or not. Students are notified for being late.
+   * One-time password is required from the students to submit their attendance. You should not use the same password all the time. You must consider different one-time password on each class and notify students by class monitors, voice, comment and chat. If you find it difficult to consider password on each class,  select automatic generation.
 5. Click "Register"
 ![時間帯の設定](pa4.png)
 [Procedure](https://youtu.be/QHTF-pG886w)

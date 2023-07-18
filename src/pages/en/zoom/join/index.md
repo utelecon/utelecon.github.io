@@ -3,12 +3,12 @@ title: How to join a Zoom meeting room
 ---
 
 In this section we explain how to join a meeting room.  
-There are two available ways: using a URL（https://zoom.us/j/xxxxxxxxxx x are numbers）provided by the host; or entering a 9-10 digits ID also provided by the host.
+There are two available ways: using a URL（`https://zoom.us/j/xxxxxxxxxx` x are numbers）provided by the host; or entering a 9-10 digits ID also provided by the host.
 
 
 
 ## Joining with a URL
-1. Access the meeting room URL (https://zoom.us/j/xxxxxxxxxx x are numbers）
+1. Access the meeting room URL (`https://zoom.us/j/xxxxxxxxxx` x are numbers）
 1. Press "Open Zoom Meetings" on the Web browser (if Zoom is yet not installed, you can download and install it from this screen)  
 
 

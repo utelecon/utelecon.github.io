@@ -4,7 +4,7 @@ title: How to log in ITC-LMS
 
 Here we are going to introduce you how to log into ICT-LMS.  The login method is the same for teachers and students.
 
- 1. Access <a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">https://itc-lms.ecc.u-tokyo.ac.jp/login</a> ，and presss "log in". 
+ 1. Access https://itc-lms.ecc.u-tokyo.ac.jp/login, and presss "log in". 
 
 ![LMSログイン画面](../lms_students/img/login.png)
 

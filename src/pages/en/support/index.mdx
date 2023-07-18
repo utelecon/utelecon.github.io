@@ -5,7 +5,10 @@ redirect_from:
   - /en/supports/
 ---
 
-{% include emergency.html %}
+import Emergency from '@components/Emergency/index.astro'
+
+<Emergency />
+
 
 * The Technical Support Desk aims to respond to inquiries regarding online classes and web conferences.
 * To expand our services, support is co-operated by student staff ("Common Supporters") and faculty members.
@@ -67,7 +70,9 @@ If your inquiry contains sensitive information (such as grade information) that 
 </b>
 
 
-{% capture inquiries %}
+<details>
+<summary>If the email form is not working</summary>
+
 If the email form is not working, please send a direct email to utelecon-inquiries@googlegroups.com. The email will first be checked by faculty staff and, if appropriate, will be passed on to student staff.
 
 Please include the following information in your email:
@@ -86,9 +91,5 @@ Please include the following information in your email:
 - Content of inquiry: Please describe in as much detail as possible **what you were trying to do and what problems you are experiencing**. If you referred to any materials or websites attempting to resolve the issue, please provide them too.
 - If you are having trouble entering a class, please provide information about the class (such as the date, period, subject name, and instructor's name) as much as you know.
 - If the problem is related to Zoom, please indicate what the "Sign-in email address" on the Zoom profile page says (if you are unable to sign in or cannot confirm otherwise, please state so).
-{% endcapture %}
 
-<details>
-<summary>If the email form is not working</summary>
-{{ inquiries | markdownify }}
 </details>

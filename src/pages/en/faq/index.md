@@ -161,10 +161,10 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 * You are already signed into Google with a different email address. To switch to your ECCS Cloud Email, click on the email address under “You’re signed in as”. After you are taken to the “Choose an account” page, select your ECCS Cloud Email address (xxx@g.ecc.u-tokyo.ac.jp). If your ECCS Cloud Email address does not appear in the choices, click on “Use another account” and enter your ECCS Cloud Email address to sign in.
 
 * (On your smartphone) If you are taken to pages showing “You need permission” or “Request access”:
- * This can happen when you are already signed in with another Google account. Follow the procedures below, and try accessing the drive/file again.  
-  1. Open a Google App such as Gmail, and press the icon in the upper right corner (either your own icon, or a human symbol if you have not set one up).
-  2. Tap "Add another account" to add your Google account.
-  3. You will be prompted to enter your email address and password, so enter your ECCS Cloud Email email address and password that you set up above.
+  * This can happen when you are already signed in with another Google account. Follow the procedures below, and try accessing the drive/file again.  
+    1. Open a Google App such as Gmail, and press the icon in the upper right corner (either your own icon, or a human symbol if you have not set one up).
+    2. Tap "Add another account" to add your Google account.
+    3. You will be prompted to enter your email address and password, so enter your ECCS Cloud Email email address and password that you set up above.
 
 
 * If you are taken to the “You need access” page, but you are already signed in with ECCS Cloud Email, and your ECCS Cloud Email address (xxx@g.ecc.u-tokyo.ac.jp) shows up under “You’re signed in as”:
@@ -190,10 +190,10 @@ xxxx (The character string before @) is assigned by individual users from the EC
 ### Q. I cannot edit after signing in. What can I do?
 * There may be issues with license authentication. In such cases, editing might not be possible in Office applications such as Word.
 * For Mac users: Please follow the instructions below to delete your Office License and retry license authentication.
-    * For other OS users: Please contact the support desk.
-1. Follow the steps in [How to remove Office license files on a Mac – Office support](https://support.microsoft.com/en-us/office/how-to-remove-office-license-files-on-a-mac-b032c0f6-a431-4dad-83a9-6b727c03b193?ui=en-US&rs=en-US&ad=US) to download the Microsoft license removal tool.
-2. When you open Office applications such as Word after deleting the license, you will be asked to sign into Microsoft 365 (if you are not asked to sign in, find and click the button which says “Sign In”). Please try to sign in with your UTokyo Account (10-digit ID@@utac.u-tokyo.ac.jp) again.
-3. Once you have signed in, your license will be authenticated automatically.
+  * For other OS users: Please contact the support desk.
+  1. Follow the steps in [How to remove Office license files on a Mac – Office support](https://support.microsoft.com/en-us/office/how-to-remove-office-license-files-on-a-mac-b032c0f6-a431-4dad-83a9-6b727c03b193?ui=en-US&rs=en-US&ad=US) to download the Microsoft license removal tool.
+  2. When you open Office applications such as Word after deleting the license, you will be asked to sign into Microsoft 365 (if you are not asked to sign in, find and click the button which says “Sign In”). Please try to sign in with your UTokyo Account (10-digit ID@@utac.u-tokyo.ac.jp) again.
+  3. Once you have signed in, your license will be authenticated automatically.
 
 ## UTAS
 ### Q. What is UTAS?
@@ -204,7 +204,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
   * Your UTAS account may not have been issued. Please send your 10-digit common ID to the faculty office to check if your UTAS account has been issued.
 * If you cannot sign into these systems:
   * Reset your UTokyo Account <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank"> password</a>.
-* Reference: [UTAS] (/utas)
+* Reference: [UTAS](/utas)
 ### Q. 「[Error] あなたは現在このシステムを利用することができません」is shown and sign-in is unavailable. What can I do?
 * This may occur during affiliation transition, for example, from undergraduate to graduate. Please try again later.
 * If this does not apply to your situation, please contact the faculty or graduate school you belong to.
@@ -221,10 +221,10 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * Reference: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account User Menu</a>
 * Please check that you have entered your <span style="color:green;">”10-digit common ID”</span> as user ID.
 * Note that <span style="color:red;">it is NOT </span> 10-digit ID@utac.u-tokyo.ac.jp.
-* If an error occurs even when the user ID is entered correctly, you may have entered the wrong password. Reset your password from <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">.
+* If an error occurs even when the user ID is entered correctly, you may have entered the wrong password. Reset your password from [this page](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html).
 ### Q. An user ID error occurs when I attempt to reset my UTokyo Account password. What can I do?
-* See [this page] (https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html) and reset your password.
-* On the Reset Password page, you should enter your 10-digit ID@utac.u-tokyo.ac.jp（e.g.1234567890@utac.u-tokyo.ac.jp）as your user ID.
+* See [this page](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html) and reset your password.
+* On the Reset Password page, you should enter your 10-digit ID`@utac.u-tokyo.ac.jp`（e.g. `1234567890@utac.u-tokyo.ac.jp`）as your user ID.
  * NOT the 10-digit common ID
 * Watch also this video <a href="https://www.youtube.com/watch?v=Kumu8aPGnyI&feature=youtu.be" target="_blank">this video </a>.
 

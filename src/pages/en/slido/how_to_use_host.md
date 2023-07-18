@@ -16,7 +16,7 @@ You can also sort by “Recent”: sort posts from newest to oldest. Just select
 
 <figure>
 <img src="img/slido11.png">
-</figure>.
+</figure>
 
 By hovering the cursor over each question/comment, the following buttons will appear and you can make an action to the question/comment. <img src="img/post.png" class="medium">
 **"★" (Star Question)**: Slido changes the display every time a new question/feedback is submitted, so it is easy to lose track of the question/feedback. By marking a Star to a question/comment, you can check the starred questions and comments later. Please note that the participants will not know which question/comment is starred.
