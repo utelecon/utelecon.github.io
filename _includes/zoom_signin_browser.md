@@ -1,4 +1,4 @@
-1. 東京大学専用のZoomのページ [https://u-tokyo-ac-jp.zoom.us/](https://u-tokyo-ac-jp.zoom.us/) にアクセスしてください．
+1. [東京大学専用のZoomのページ](https://u-tokyo-ac-jp.zoom.us/) にアクセスしてください．
 1. 「UTokyo Zoom」と書かれたページが表示されるので，そのページにある「Config」と書かれたボタンを押してください．
     ![](/zoom/signin/1.png){:.medium}
     <details>
