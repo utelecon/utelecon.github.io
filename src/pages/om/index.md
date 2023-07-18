@@ -41,4 +41,4 @@ Micorosoft Teamsを学内会議の主要なツールとして教職員向けに�
 （平常時にどうするかを念頭において実施してください。）
 
 ## 問い合わせ
-学内会議のオンライン化についての質問等は本部総務課業務改革チーム gyoumukaikaku.adm@gs.mail.u-tokyo.ac.jp までご連絡ください。
+学内会議のオンライン化についての質問等は本部総務課業務改革チーム`gyoumukaikaku.adm@gs.mail.u-tokyo.ac.jp`までご連絡ください。

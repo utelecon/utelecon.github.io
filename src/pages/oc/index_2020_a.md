@@ -729,39 +729,39 @@ LMS</text>
 
 1. <a name="utokyo_account"></a>**UTokyo Account:** 他のサービスすべてのもととなるアカウントになります.
 在学生であれば, これを使ったことがないという人はいないはずです.
- * 新入生には入学に伴って事務から配布されます. どのように配布されるかは専攻や学科によって異なります. これまでは入学して最初の登校日に紙で配布されていることが多かったとおもいますが, 登校が困難なことと, 授業のために以下のシステムを使う準備時間が必要なため, 登校初日に先立って郵送もしくは電子配布されることが多いと思われます. 不安であれば入学予定の専攻や学科にお問い合わせください.
- * **作業:** まだ一度も使ったことがない人は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">初期パスワードを変更</a>してください. <a href="https://youtu.be/tTpAlqVhEXQ" target="_blank" rel="noopener">手順動画</a>
+   * 新入生には入学に伴って事務から配布されます. どのように配布されるかは専攻や学科によって異なります. これまでは入学して最初の登校日に紙で配布されていることが多かったとおもいますが, 登校が困難なことと, 授業のために以下のシステムを使う準備時間が必要なため, 登校初日に先立って郵送もしくは電子配布されることが多いと思われます. 不安であれば入学予定の専攻や学科にお問い合わせください.
+   * **作業:** まだ一度も使ったことがない人は<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">初期パスワードを変更</a>してください. <a href="https://youtu.be/tTpAlqVhEXQ" target="_blank" rel="noopener">手順動画</a>
 1. <a name="utas"></a>**UTAS (学務システム):** 授業の内容(シラバス)を参照して受ける授業を選び, 履修の登録をしたり, 成績を見たりするのに使うシステムです. 
- * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank" rel="noopener">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. 
+   * **作業(サインイン):** UTokyo Accountで<a href="https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?page=main" target="_blank" rel="noopener">UTAS</a>にサインインし, 「現住所等変更入力」から, あなたに確実に届くメールアドレスを「E-MAIL 1」に登録して下さい (**手順動画作成中**). 在学生でやった覚えのない人も, ある人も, この機会に確認して下さい. 
 1. <a name="itclms"></a>**ITC-LMS (学習管理システム):** 自分が履修した講義に関して, 課題が掲示されたり, 課題を提出したり, などの用途に使います. オンライン授業に関する情報も, このシステムを経由して得ることになるでしょう. また, 講義資料がここにアップされたり, ここで出欠管理をする場合もあります. UTASと似ていて紛らわしいですが, UTASは授業が始まる前(履修登録)と後(成績確認), ITC-LMSは授業期間中に使うと, 大雑把には思っていてください. 授業期間が始まった後, 授業に関するお知らせがITC-LMSを経由して流れてくることが多くなります.
- * **作業(サインイン):** UTokyo Accountで<a href="https://itc-lms.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ITC-LMS</a>にサインインしてください.
- * **作業:** ITC-LMS <a href="../lms_students/">学生向けページ</a>の指示に従い, お知らせの通知先を設定して下さい(<a href="https://youtu.be/xAur5zar5Sc" target="_blank" rel="noopener">手順動画</a>).
+   * **作業(サインイン):** UTokyo Accountで<a href="https://itc-lms.ecc.u-tokyo.ac.jp/" target="_blank" rel="noopener">ITC-LMS</a>にサインインしてください.
+   * **作業:** ITC-LMS <a href="../lms_students/">学生向けページ</a>の指示に従い, お知らせの通知先を設定して下さい(<a href="https://youtu.be/xAur5zar5Sc" target="_blank" rel="noopener">手順動画</a>).
 1. <a name="microsoft_365"></a>**Microsoft 365:** Microsoftのサービスです. レポートやプレゼンテーションの作成など, いろいろなことに使えます.
- * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">UTokyo Account利用者メニュー</a> から「Office 365 ProPlus利用許諾」に合意し, Microsoft 365の有効化をして下さい (<a href="https://youtu.be/OYl5P67mDYI" target="_blank" rel="noopener">手順動画</a>).
-  * このあと実際にExcelなどのアプリケーションが使えるようになるまで, 日中は最大3時間, 夜は翌朝11:00までお待ちください(正確には, 11:00, 14:00, 17:00, 20:00にこれまでの利用許諾が反映されます).
-  * **作業(サインイン):** 待ったら<a href="https://www.office.com/" target="_blank" rel="noopener">www.office.com にサインイン</a>してください. UTokyo Accountがあればサインインできるのですが, UTokyo Accountのサインイン画面の前にMicrosoftのSign-InでEmail, Phone, or Skypeと聞かれたら xxx@utac.u-tokyo.ac.jp と入れてください(そうするとUTokyo Accountのサインインページにたどり着きます). xxxの部分は何でも良いです (手順 <a href="https://youtu.be/cqQlaDLD9v0" target="_blank" rel="noopener">パソコン</a>, <a href="https://youtu.be/IeGju3cb2E4" target="_blank" rel="noopener">スマホ</a>). もしすでに別の(例えば普段自分が使っている)アカウントでサインインしていたら, 一度サインアウトしてから大学のアカウントでサインインします(手順 <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">パソコン</a>, <a href="https://youtu.be/QZGGHcQvUXU" target="_blank" rel="noopener">スマホ</a>).
-  * **練習:** できたらExcelのBookを一つ作ってみましょう(<a href="https://youtu.be/PcHlb-t2Dr8" target="_blank" rel="noopener">手順動画</a>)
+   * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">UTokyo Account利用者メニュー</a> から「Office 365 ProPlus利用許諾」に合意し, Microsoft 365の有効化をして下さい (<a href="https://youtu.be/OYl5P67mDYI" target="_blank" rel="noopener">手順動画</a>).
+   * このあと実際にExcelなどのアプリケーションが使えるようになるまで, 日中は最大3時間, 夜は翌朝11:00までお待ちください(正確には, 11:00, 14:00, 17:00, 20:00にこれまでの利用許諾が反映されます).
+   * **作業(サインイン):** 待ったら<a href="https://www.office.com/" target="_blank" rel="noopener">www.office.com にサインイン</a>してください. UTokyo Accountがあればサインインできるのですが, UTokyo Accountのサインイン画面の前にMicrosoftのSign-InでEmail, Phone, or Skypeと聞かれたら `xxx@utac.u-tokyo.ac.jp` と入れてください(そうするとUTokyo Accountのサインインページにたどり着きます). `xxx`の部分は何でも良いです (手順 <a href="https://youtu.be/cqQlaDLD9v0" target="_blank" rel="noopener">パソコン</a>, <a href="https://youtu.be/IeGju3cb2E4" target="_blank" rel="noopener">スマホ</a>). もしすでに別の(例えば普段自分が使っている)アカウントでサインインしていたら, 一度サインアウトしてから大学のアカウントでサインインします(手順 <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">パソコン</a>, <a href="https://youtu.be/QZGGHcQvUXU" target="_blank" rel="noopener">スマホ</a>).
+   * **練習:** できたらExcelのBookを一つ作ってみましょう(<a href="https://youtu.be/PcHlb-t2Dr8" target="_blank" rel="noopener">手順動画</a>)
 1. <a name="g_suite"></a>**G Suite for Education (Google):** Googleのサービスです. メール(Gmail), カレンダーの他, レポートやプレゼンテーションの作成など, いろいろなことに使えます. また, 一部のオンライン授業は入室をするのにここで設定するメールアドレスでWeb会議 (Zoom)にサインインをしないと参加できません. 
-  * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">UTokyo Account利用者メニュー</a> の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (<a href="https://youtu.be/89_fjWDdzQ4" target="_blank" rel="noopener">手順動画</a>).
-  * このあと実際にG Suite for Education が使える(Googleにサインインできる)ようになるまで, 最大1時間ほどお待ち下さい. 
-  * **作業(サインイン):** 最大1時間待ったら, <a href="https://google.com/" target="_blank" rel="noopener">Google</a>にサインインして見て下さい.
-    * パソコン: Googleにサインインしていなければ<a href="https://youtu.be/rFciRfoU2KA" target="_blank" rel="noopener">サインインする</a>, すでにほかのアカウントでGoogleにサインインしていれば<a href="https://youtu.be/I0yL_9sqdjs" target="_blank" rel="noopener">一旦サインアウトしてサインインする</a>
-    * <a href="https://youtu.be/cl8QBaVCaxo" target="_blank" rel="noopener">Android</a> Googleアカウントを追加する
-    * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhone</a> Googleアカウントを追加する
-  * **練習:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank" rel="noopener">手順動画</a>)
+   * **作業(有効化):** <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank" rel="noopener">UTokyo Account利用者メニュー</a> の「ECCSクラウドメール」からアカウント名, 「ECCSクラウドメール(パスワード変更)」からパスワードを設定して, G Suite for Educationを有効化して下さい (<a href="https://youtu.be/89_fjWDdzQ4" target="_blank" rel="noopener">手順動画</a>).
+   * このあと実際にG Suite for Education が使える(Googleにサインインできる)ようになるまで, 最大1時間ほどお待ち下さい. 
+   * **作業(サインイン):** 最大1時間待ったら, <a href="https://google.com/" target="_blank" rel="noopener">Google</a>にサインインして見て下さい.
+      * パソコン: Googleにサインインしていなければ<a href="https://youtu.be/rFciRfoU2KA" target="_blank" rel="noopener">サインインする</a>, すでにほかのアカウントでGoogleにサインインしていれば<a href="https://youtu.be/I0yL_9sqdjs" target="_blank" rel="noopener">一旦サインアウトしてサインインする</a>
+      * <a href="https://youtu.be/cl8QBaVCaxo" target="_blank" rel="noopener">Android</a> Googleアカウントを追加する
+      * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhone</a> Googleアカウントを追加する
+   * **練習:** どんなアプリが使えるかを見渡して, Google のスプレッドシート(Excelみたいなもの)を一つ作ってみて下さい(<a href="https://youtu.be/mVMPFpTuemY" target="_blank" rel="noopener">手順動画</a>)
 1. <a name="zoom"></a>**Zoom:** Web会議システムです. 多くのオンライン授業がZoomを使って行われるでしょう.
-  * **作業(有効化):** <a href="/zoom/create_account">大学の Zoom アカウントの作り方</a>のページに従い, 大学のZoomアカウントを取得してください.
+   * **作業(有効化):** <a href="/zoom/create_account">大学の Zoom アカウントの作り方</a>のページに従い, 大学のZoomアカウントを取得してください.
 1. <a name="webex"></a>**WebEx:** Web会議システムです. 授業で使われるようであれば前もって取得してください.
-  * **作業(有効化):** <a href="/webex/create_utelecon_account">WebExアカウントの作成とログイン</a>のページに従い, 大学のWebExアカウントを取得してください.
+   * **作業(有効化):** <a href="/webex/create_utelecon_account">WebExアカウントの作成とログイン</a>のページに従い, 大学のWebExアカウントを取得してください.
 1. <a name="utokyo_wifi"></a>**UTokyo Wifi** は東京大学のキャンパス内無線LANです. キャンパスでネットに繋ぐ時, とくにキャンパスでオンライン授業を受ける際に必要になることがおいでしょう. 
- * <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo Wifiのページ</a>を読む
- * **作業(家での準備):** キャンパスに来る前に以下の手順でUTokyo Wifiのパスワード取得, 設定のメモをしておいてください
-  - <a href="#utas">UTAS</a>へメールアドレス登録を済ませたか確認してください
-  - <a href="https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo Wifiのパスワードを発行</a>するページに行き, "Application" ボタンを押すと, 登録されたメールアドレスにパスワードが届きますのでそれを受け取ってメモ(または印刷)してキャンパスに持参 (<a href="https://youtu.be/NsZplHi6COU" target="_blank" rel="noopener">動画</a>)
-  - 設定は<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo Wifiのページ</a>に説明があるのでそれに従います. このページをスマホにブックマークしておくか, 設定内容を印刷してキャンパスに来ることを推奨
- * **作業(実際のWifi設定):** キャンパスでUTokyo Wifiの電波が飛んでいる所(多くの教室で飛んでいます)へ行き, 上記の設定とパスワードでPCやスマホを接続します
-  - <a href="https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-trouble-shooting/" target="_blank" rel="noopener">駒場キャンパスの7号館 721, 13号館 1321で接続サポート</a>をしています(月〜金 10:25‒16:40). 接続に困ったら訪問してください.
- * **注:** UTokyo Wifiにつながらない場合にモバイルWifiルータやテザリングを大勢が使うと電波が干渉して全員が損をするという状態になります. 自分で電波を出さず, 極力皆がUTokyo Wifiを使いましょう
+   * <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo Wifiのページ</a>を読む
+   * **作業(家での準備):** キャンパスに来る前に以下の手順でUTokyo Wifiのパスワード取得, 設定のメモをしておいてください
+      - <a href="#utas">UTAS</a>へメールアドレス登録を済ませたか確認してください
+      - <a href="https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/">UTokyo Wifiのパスワードを発行</a>するページに行き, "Application" ボタンを押すと, 登録されたメールアドレスにパスワードが届きますのでそれを受け取ってメモ(または印刷)してキャンパスに持参 (<a href="https://youtu.be/NsZplHi6COU" target="_blank" rel="noopener">動画</a>)
+      - 設定は<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/wifi.html" target="_blank" rel="noopener">UTokyo Wifiのページ</a>に説明があるのでそれに従います. このページをスマホにブックマークしておくか, 設定内容を印刷してキャンパスに来ることを推奨
+   * **作業(実際のWifi設定):** キャンパスでUTokyo Wifiの電波が飛んでいる所(多くの教室で飛んでいます)へ行き, 上記の設定とパスワードでPCやスマホを接続します
+      - <a href="https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-trouble-shooting/" target="_blank" rel="noopener">駒場キャンパスの7号館 721, 13号館 1321で接続サポート</a>をしています(月〜金 10:25‒16:40). 接続に困ったら訪問してください.
+   * **注:** UTokyo Wifiにつながらない場合にモバイルWifiルータやテザリングを大勢が使うと電波が干渉して全員が損をするという状態になります. 自分で電波を出さず, 極力皆がUTokyo Wifiを使いましょう
 
 **注意:** MicrosoftもGoogleも, すでに自分で使っているという人も多いとおもいます. そういう人も必要に応じて**大学のアカウントで使えるように**してください. 自分のアカウントと大学のアカウントを切り替える方法(上記の手順動画: <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">Microsoft</a>, <a href="https://youtu.be/5WJvv3aaOwE" target="_blank" rel="noopener">Google</a>) をマスターしましょう. オンライン講義をするに当たって, 重要な情報を, 大学のメンバーだけで共有するという場面が多くなると想定され, そういう場合, 普段使っていたGoogleやMicrosoftのアカウントでサインインしている状態では見られない, ということになり得るのです.
 
@@ -778,32 +778,31 @@ LMS</text>
 
 * Microsoft 365が使えるかのチェック: この, <a href="https://univtokyo-my.sharepoint.com/:x:/g/personal/2615215597_utac_u-tokyo_ac_jp/EZN59-QgxfpHg7NX8Vc89wsBVE5wxTBpno2Z05UCwbkLUA?e=FaRkgq" target="_blank" rel="noopener">Microsoft Excel のシート</a> が見られるかどうか, リンクをクリックして確かめてみてください. Officeへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
   * **パターン1:** office.comに大学のアカウント (UTokyo Account)でサインインしていればすぐに見られます.
-  * **パターン2:** エラーになる. "We're sorry, but xxxxx@xxxxx.xxxx can't be found in the univtokyo-my.sharepoint.com directory." みたいなことを言われる. これは大学以外のアカウント(例: 個人でこれまで使っていたアカウント)でサインインした状態になっている場合におきます. 一旦サインアウトして大学のアカウントでサインインして, やり直してください.
+  * **パターン2:** エラーになる. "We're sorry, but `xxxxx@xxxxx.xxxx` can't be found in the univtokyo-my.sharepoint.com directory." みたいなことを言われる. これは大学以外のアカウント(例: 個人でこれまで使っていたアカウント)でサインインした状態になっている場合におきます. 一旦サインアウトして大学のアカウントでサインインして, やり直してください.
     * <a href="https://youtu.be/SiOS0M9FChk" target="_blank" rel="noopener">パソコン</a>
     * <a href="https://youtu.be/QZGGHcQvUXU" target="_blank" rel="noopener">スマホ</a>
   * **パターン3:** 東京大学「サインイン」と書かれた窓が出てきて, "メール, 電話番号, Skype"などと聞かれる. どのアカウントでもサインインしていない場合におきます.
-
-```
-UTokyo AccountのID (10桁の数字)@utac.u-tokyo.ac.jp
-```
-
-と記入して先へ進んで下さい. UTokyo AccountのIDは10桁の数字です. 次にUTokyo AccountのIDとパスワードを入力する画面が出てきたら, 自分で設定したUTokyo AccountのIDとパスワードを入力して下さい(<a href="https://youtu.be/iJbq6unDIOA" target="_blank" rel="noopener">手順動画</a>). そしてやり直してください.
+  
+      ```
+      UTokyo AccountのID (10桁の数字)@utac.u-tokyo.ac.jp
+      ```
+      と記入して先へ進んで下さい. UTokyo AccountのIDは10桁の数字です. 次にUTokyo AccountのIDとパスワードを入力する画面が出てきたら, 自分で設定したUTokyo AccountのIDとパスワードを入力して下さい(<a href="https://youtu.be/iJbq6unDIOA" target="_blank" rel="noopener">手順動画</a>). そしてやり直してください.
 
 <a name="check-google-spreadsheet"> </a>
 ### G Suite for Educationが使えるかのチェック
 
 * G Suite for Educationが使えるかのチェック: この, <a href="https://docs.google.com/spreadsheets/d/1jf1O-lbDwIsz9QJdPWWhZTh-Nn4Z_ge3BXGIua2fyCs/edit?usp=sharing" target="_blank" rel="noopener">Google スプレッドシート</a>が見られるかどうか, リンクをクリックして確かめてみてください. ただし現在中国にいる人はこのシートにはつなげません. Googleへのサインイン状態によって以下のようになるので対応方法をマスターしてください.
-  * **パターン1:** ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でGoogleにサインインしている場合は直ちにアクセスできます
+  * **パターン1:** ECCSクラウドメール(`xxxx@g.ecc.u-tokyo.ac.jp`)でGoogleにサインインしている場合は直ちにアクセスできます
 <a name="check-google-spreadsheet-pattern-2"> </a>
-  * **パターン2:** 「権限が必要です」という窓が出てくる. これは, Googleに別のアカウント(例えば自分が普段使っているyyyy@gmail.com)でサインインしている場合におきます.
+  * **パターン2:** 「権限が必要です」という窓が出てくる. これは, Googleに別のアカウント(例えば自分が普段使っている`yyyy@gmail.com`)でサインインしている場合におきます.
      * <a href="https://youtu.be/yLQcnfZo_24" target="_blank" rel="noopener">パソコンの場合:</a> 右にある, **アカウントを切り替える**を選んで, 大学のアカウントでサインインして下さい. 「アクセス権限のリクエスト」**を押してもアクセスできません.**
-     * <a href="https://youtu.be/emnkVSWwScg" target="_blank" rel="noopener">Androidの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
-     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
+     * <a href="https://youtu.be/emnkVSWwScg" target="_blank" rel="noopener">Androidの場合:</a> Googleアカウントに今回作ったメールアドレス (`xxxx@g.ecc.u-tokyo.ac.jp`) を追加してからアクセスしてください
+     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (`xxxx@g.ecc.u-tokyo.ac.jp`) を追加してからアクセスしてください
 <a name="check-google-spreadsheet-pattern-3"> </a>
   * **パターン3:** 「ユーザ認証に失敗しました」と表示される. これは, そもそもGoogleにサインインしていない場合におきます.
      * <a href="https://youtu.be/Gz5kObGuXMw" target="_blank" rel="noopener">パソコンの場合:</a> Googleへのサインインを促す画面が出てくるので大学のアカウントでサインインして下さい
-     * <a href="https://youtu.be/emnkVSWwScg" target="_blank" rel="noopener">Androidの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
-     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (xxxx@g.ecc.u-tokyo.ac.jp) を追加してからアクセスしてください
+     * <a href="https://youtu.be/emnkVSWwScg" target="_blank" rel="noopener">Androidの場合:</a> Googleアカウントに今回作ったメールアドレス (`xxxx@g.ecc.u-tokyo.ac.jp`) を追加してからアクセスしてください
+     * <a href="https://youtu.be/APvrKzxHmLc" target="_blank" rel="noopener">iPhoneの場合:</a> Googleアカウントに今回作ったメールアドレス (`xxxx@g.ecc.u-tokyo.ac.jp`) を追加してからアクセスしてください
 
 
 なにかおかしい, 接続できない場合は

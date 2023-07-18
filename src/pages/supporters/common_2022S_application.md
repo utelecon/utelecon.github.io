@@ -40,4 +40,4 @@ title: 2022年度Sセメスター「コモンサポーター」募集のお知�
 
 ## 問い合わせ先
 
-コモンサポーター担当教職員：cs-faculty-group@g.ecc.u-tokyo.ac.jp
+コモンサポーター担当教職員：`cs-faculty-group@g.ecc.u-tokyo.ac.jp`

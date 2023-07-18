@@ -13,4 +13,4 @@ title: UTokyo Account のメンテナンス(2022/6/6)
 - 作業影響：上記時間帯で15分程度UTokyo Account利用者メニュー（パスワード初期設定、多要素認証利用申請）がご利用いただけなくなります。
 
 本件に関する連絡先<br>
-情報システム本部 dics-shien.adm@gs.mail.u-tokyo.ac.jp
+情報システム本部 `dics-shien.adm@gs.mail.u-tokyo.ac.jp`

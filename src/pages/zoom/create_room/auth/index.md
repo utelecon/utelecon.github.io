@@ -35,5 +35,5 @@ Zoomでは，ミーティングに参加できるユーザを制限すること�
 ![](setting_1.png){:.medium}
 2. 「ミーティング認証オプション：大学アカウントでサインイン (Default)　」の編集ボタンをクリックします．
 ![](setting_2.png){:.medium}
-3. 「以下の指定ドメインでZoomにサインインします」が<code>*.u-tokyo.ac.jp</code>となっていることを確認してください．なっていなければ<code>*.u-tokyo.ac.jp</code>を入力し保存してください．
+3. 「以下の指定ドメインでZoomにサインインします」が`*.u-tokyo.ac.jp`となっていることを確認してください．なっていなければ`*.u-tokyo.ac.jp`を入力し保存してください．
 ![](setting_3.png){:.medium}

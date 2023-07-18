@@ -171,7 +171,7 @@ redirect_from:
 ![](img/webex_slido_open_host_apl_m.png){:.border}
 	1. 事前に主催者のSlidoイベント一覧のページで用意したイベントを選択できます．
 	1. Create new Slidoボタンで，新規にイベントを作成できます．
-	* Webex上で作成したSlidoイベントは，主催者のSlidoイベント一覧のページに保存されます．
+		* Webex上で作成したSlidoイベントは，主催者のSlidoイベント一覧のページに保存されます．
 
 ## Slidoを操作する
 

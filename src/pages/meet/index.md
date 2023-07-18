@@ -17,7 +17,7 @@ title: Google Meet
 
 * 開催者
   1. (初期設定) <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">ECCSクラウドメール</a> (本学でのG Suite for Education契約の名称) を<a href="#signup">有効化</a>
-  1. ECCSクラウドメールのアカウント(xxx@g.ecc.u-tokyo.ac.jp)でGoogleに<a href="#signin">サインイン</a>
+  1. ECCSクラウドメールのアカウント(`xxx@g.ecc.u-tokyo.ac.jp`)でGoogleに<a href="#signin">サインイン</a>
   1. <a href="#create_meeting">会議を作成</a>して，会議室の情報（URLなど）を周知
   1. URLにアクセスして<a href="#join_meeting">会議へ参加</a>
   1. <a href="#do_meeting">ミーティング</a>を行う
@@ -32,18 +32,18 @@ title: Google Meet
 ## ECCSクラウドメール (G Suite for Education)の有効化
 {:#signup}
 
-もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). xxxx@g.ecc.u-tokyo.ac.jp というメールアドレスを使える人は, すでに有効化されています.
+もし開催者がまだ, <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>). `xxxx@g.ecc.u-tokyo.ac.jp` というメールアドレスを使える人は, すでに有効化されています.
 
 有効化したら, 有効化の設定を行ってから実際に使えるようになるまで, 最大1時間程度を見込んでください(毎時00分に, それ以前の有効化がGoogleに伝搬・反映されます).
 
-## ECCSクラウドメールのアカウント(xxx@g.ecc.u-tokyo.ac.jp)でGoogleにログイン
+## ECCSクラウドメールのアカウント(`xxx@g.ecc.u-tokyo.ac.jp`)でGoogleにログイン
 {:#signin}
 
-* 適当なGoogleのサービス (<a href="https://mail.google.com/" target="_blank" rel="noopener">Gmail</a>, <a href="https://calendar.google.com/" target="_blank" rel="noopener">カレンダー</a>など) にアクセスし, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でサインインしてください.
-  * すでに他の(例えば個人の)Googleアカウントでサインインしている場合は, アカウントを切り替えたり, アカウントを追加して, ECCSクラウドメールのアカウント(xxxx@g.ecc.u-tokyo.ac.jp) でサインインしてください.
-  * サインインするアカウントを選択する画面が現れたらxxxx@g.ecc.u-tokyo.ac.jpを選んでサインインしてください. xxxx@g.ecc.u-tokyo.ac.jpがなければ「アカウントを追加」してください
-  * ページ上部の「ログイン」または"Sign in"ボタンが現れたらそれを押してxxxx@g.ecc.u-tokyo.ac.jpでサインインしてください.
-* 以下は「ECCSクラウドメール(xxxx@g.ecc.u-tokyo.ac.jp)でのサインイン」を強制するためのリンクです
+* 適当なGoogleのサービス (<a href="https://mail.google.com/" target="_blank" rel="noopener">Gmail</a>, <a href="https://calendar.google.com/" target="_blank" rel="noopener">カレンダー</a>など) にアクセスし, ECCSクラウドメールのアカウント(`xxxx@g.ecc.u-tokyo.ac.jp`) でサインインしてください.
+  * すでに他の(例えば個人の)Googleアカウントでサインインしている場合は, アカウントを切り替えたり, アカウントを追加して, ECCSクラウドメールのアカウント(`xxxx@g.ecc.u-tokyo.ac.jp`) でサインインしてください.
+  * サインインするアカウントを選択する画面が現れたら`xxxx@g.ecc.u-tokyo.ac.jp`を選んでサインインしてください. `xxxx@g.ecc.u-tokyo.ac.jp`がなければ「アカウントを追加」してください
+  * ページ上部の「ログイン」または"Sign in"ボタンが現れたらそれを押して`xxxx@g.ecc.u-tokyo.ac.jp`でサインインしてください.
+* 以下は「ECCSクラウドメール(`xxxx@g.ecc.u-tokyo.ac.jp`)でのサインイン」を強制するためのリンクです
   * <a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">Gmail</a>
   * <a href="https://calendar.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">カレンダー</a>
 
@@ -56,12 +56,12 @@ Googleアプリであるため, Googleカレンダー, GmailなどGoogleアプ�
 
 * <a href="https://youtu.be/rysK8GiH3KM" target="_blank" rel="noopener">動画</a>
 
-1. ECCSクラウドメールアカウント(xxxx@g.ecc.u-tokyo.ac.jp)にサインインした状態で, Gmailなど適当なサービスでGoogleアプリアイコンからMeetを選び, <a href="https://meet.google.com/" target="_blank">meetのトップページ</a>を表示
+1. ECCSクラウドメールアカウント(`xxxx@g.ecc.u-tokyo.ac.jp`)にサインインした状態で, Gmailなど適当なサービスでGoogleアプリアイコンからMeetを選び, <a href="https://meet.google.com/" target="_blank">meetのトップページ</a>を表示
 1. 「ミーティングに参加または開始」ボタンを押す.
 1. 会議名を聞かれるが空欄でよい(空欄にしないと, 偶然同じ名前の会議があったらそこへ参加してしまうかも知れない)
 1. カメラやマイクへのアクセス許可を求める窓が出てきたら, 「許可」
 1. 「今すぐ参加」を押して会議を開く
-1. 「参加に必要な情報をコピー」してURL (<a href="https://meet.google.com/xxx-xxxx-xxx" target="_blank">https://meet.google.com/xxx-xxxx-xxx</a>) を参加者へ知らせる
+1. 「参加に必要な情報をコピー」してURL (`https://meet.google.com/xxx-xxxx-xxx`) を参加者へ知らせる
 
 ### 方法2: Gmail経由
 
@@ -86,9 +86,9 @@ Googleアプリであるため, Googleカレンダー, GmailなどGoogleアプ�
 
 1. 会議の開催者から, 会議のURLを(メール, カレンダー, ITC-LMS経由などで)受け取る
 1. URLをブラウザで開いて会議に参加します. このとき,
-  * 参加者が, ECCSクラウドメールのアカウント(xxx@g.ecc.u-tokyo.ac.jp) でGoogleにログインしていれば, 直ちに会議に参加できます
-  * そうでない場合, 開催者の画面に, 許可・不許可を促す画面が現れ, 許可されれば会議に参加できます. 一定時間許可がないと参加できずエラーになります
-  * したがって, 非常に多数の, 不特定多数の人数が参加する会議に対しては, 参加者にECCSクラウドメールのアカウントでログインすることを必須とすることが現実的です. 従ってこの場合, 会議に参加できるのは東京大学の教職員・学生(+ 少数の, 明示的に許可する参加者)ということになります
+    * 参加者が, ECCSクラウドメールのアカウント(`xxx@g.ecc.u-tokyo.ac.jp`) でGoogleにログインしていれば, 直ちに会議に参加できます
+    * そうでない場合, 開催者の画面に, 許可・不許可を促す画面が現れ, 許可されれば会議に参加できます. 一定時間許可がないと参加できずエラーになります
+    * したがって, 非常に多数の, 不特定多数の人数が参加する会議に対しては, 参加者にECCSクラウドメールのアカウントでログインすることを必須とすることが現実的です. 従ってこの場合, 会議に参加できるのは東京大学の教職員・学生(+ 少数の, 明示的に許可する参加者)ということになります
 
 ## 会議中の操作
 {:#do_meeting}

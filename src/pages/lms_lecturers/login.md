@@ -4,7 +4,7 @@ title: ITC-LMS へのログイン
 
 ここでは ITC-LMS のログイン方法を説明します．ログインの方法は教職員も学生も同じです．
 
- 1.<a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">https://itc-lms.ecc.u-tokyo.ac.jp/login</a> にブラウザでアクセスし，`ログイン`ボタンを押してください． 
+ 1.https://itc-lms.ecc.u-tokyo.ac.jp/login にブラウザでアクセスし，`ログイン`ボタンを押してください． 
 
 ![LMSログイン画面](../lms_students/img/login.png)
 

@@ -74,7 +74,7 @@ css: [mfa]
 <details>
 <summary>登録手順</summary>
 <ol>
-<li>画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．{{ mfa_totp_trouble }}<img src="first_auth_app.png"></li>
+<li>画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．<img src="first_auth_app.png"></li>
 <li>
     画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<br>
     ※「YubiKey」と「Yubico Authenticator」アプリを使う場合の設定手順については，「<a href="yubikey-totp">UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法</a>」をご覧ください．
@@ -148,7 +148,7 @@ css: [mfa]
 <ol>
 <li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">多要素認証の設定ページ</a>で，「方法の追加」を押してください．<img src="alt_add_method.png"></li>
 <li>「どの方法を使用しますか?」欄で「認証アプリ」を選び，「追加」を押してください．<img src="alt_add_method_pull_down.png"></li>
-<li>「別の認証アプリを使用します」というリンクを探して押してください．{{ mfa_totp_trouble }}<img src="alt_auth_app.png"></li>
+<li>「別の認証アプリを使用します」というリンクを探して押してください．<img src="alt_auth_app.png"></li>
 <li>
     画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．<br>
     ※「YubiKey」と「Yubico Authenticator」アプリを使う場合の設定手順については，「<a href="yubikey-totp">UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法</a>」をご覧ください．
