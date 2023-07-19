@@ -32,7 +32,7 @@ URL は以下のシートから確認できます<br>
 [https://forms.gle/L789WedY3nowkwta8](https://forms.gle/L789WedY3nowkwta8)
 
 ## 参加にあたって
-* Zoom の使い方については https://utelecon.github.io/zoom/ などをご参照ください。
+* Zoom の使い方については `https://utelecon.github.io/zoom/` などをご参照ください。
 * 参加は約 1000名（1000接続）までです。1000名を超えた場合は、YouTube のストリーミングで視聴可能です。
 * 後日、録画した内容を公開しますので、公開に同意の上ご参加ください。
 * 非常勤の方も参加可能です。
