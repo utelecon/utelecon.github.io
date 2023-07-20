@@ -32,20 +32,10 @@ title: 大学生活に必要な情報システムの準備について（新入�
 {{ annote }}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lHetGzjAqno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### ECCSクラウドメール：パスワードとメールアドレスを設定する
-{:#google}
-{{ annote }}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a8R0R_mMad0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### UTAS：ログインしてメールアドレスが登録されているか確認する
 {:#utas}
 {{ annote }}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OLkhBj48ExE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### UTokyo Wi-Fi：アカウントを申請する
-{:#utokyo_wifi}
-{{ annote }}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2n3xk6ofsfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 情報システムに関するその他の準備手順
 準備が必要な各種情報システムのうち一部のものについて，準備手順を動画で説明します．
