@@ -21,7 +21,7 @@ export default defineConfig({
   },
   markdown: {
     remarkPlugins: [
-      [defaultFrontmatterPlugin, { layout: "@layouts/Layout.astro" }],
+      defaultFrontmatterPlugin,
       blockIALPlugin,
       simpleAttentionPlugin,
     ],
