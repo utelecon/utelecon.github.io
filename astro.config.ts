@@ -8,6 +8,7 @@ import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
 import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
 import externalLinks from "./src/lib/ExternalLinksIntegration.js";
 import trailingSlash from "./src/lib/TrailingSlashIntegration.js";
+import { cleanup } from "./src/lib/CleanupIntegration.js";
 
 // https://astro.build/config
 export default defineConfig({
@@ -32,6 +33,7 @@ export default defineConfig({
     react(),
     redirect(),
     externalLinks({ target: "_blank", rel: ["noopener", "noreferrer"] }),
+    cleanup(),
     trailingSlash(),
   ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
