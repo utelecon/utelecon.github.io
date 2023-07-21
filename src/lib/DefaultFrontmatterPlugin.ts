@@ -18,6 +18,10 @@ export default function defaultFrontmatterPlugin() {
       return;
     }
     const path = relative(join(file.cwd, "src", "pages"), file.path);
+    if (path.startsWith("..") || file.basename?.startsWith("_")) {
+      astro.frontmatter.layout = false;
+      return;
+    }
     astro.frontmatter.layout ??= "@layouts/Layout.astro";
     astro.frontmatter.lang ??= path.startsWith("en") ? "en" : "ja";
   };
