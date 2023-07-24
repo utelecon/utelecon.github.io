@@ -6,7 +6,7 @@ import {
 } from "../../data/sitemapSections";
 import { basename } from "path";
 import type { AstroInstance, MDXInstance, MarkdownInstance } from "astro";
-import Slugger from 'github-slugger'
+import Slugger from "github-slugger";
 import Layout, { Frontmatter } from "@layouts/Layout.astro";
 
 interface Props {
@@ -37,7 +37,7 @@ type HeadingType = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
 const { lang } = Astro.props;
 
-let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}")).filter(page => {
+let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}")).filter((page) => {
   if (!page.url) {
     return false;
   }
@@ -56,7 +56,7 @@ let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}")).f
     ja: !isEnglishPage,
     en: isEnglishPage,
   }[lang];
-}).map<Page>(page => {
+}).map<Page>((page) => {
   const { title } = "frontmatter" in page ? page.frontmatter : page;
   return { title, url: page.url! };
 });
@@ -67,30 +67,29 @@ pages.sort((a, b) => (a.url > b.url) - (a.url < b.url));
 
 const slugger = new Slugger();
 
-const sections = { ja, en }[lang].map<Section>(
-  section => {
-    let links: Page[] = [];
-    section.patterns?.forEach(pattern => {
-      pages = pages.filter(page => {
-        let cond = false;
-        cond ||= pattern.test(page.url);
-        if (section.negativePatterns) {
-          cond &&= !section.negativePatterns.some(pattern => pattern.test(page.url));
-        }
-        if (cond) {
-          links.push(page)
-        }
-        return !cond
-      })
+const sections = { ja, en }[lang].map<Section>((section) => {
+  let links: Page[] = [];
+  section.patterns?.forEach((pattern) => {
+    pages = pages.filter((page) => {
+      let cond = false;
+      cond ||= pattern.test(page.url);
+      if (section.negativePatterns) {
+        cond &&= !section.negativePatterns.some((pattern) => pattern.test(page.url));
+      }
+      if (cond) {
+        links.push(page);
+      }
+      return !cond;
     });
-    return {
-      ...section,
-      slug: slugger.slug(section.name),
-      links,
-    };
-  }
-);
+  });
+  return {
+    ...section,
+    slug: slugger.slug(section.name),
+    links,
+  };
+});
 ---
+
 <Layout
   frontmatter={{
     title: {
@@ -100,16 +99,16 @@ const sections = { ja, en }[lang].map<Section>(
     lang,
   }}
   headings={
-    sections.map(section => ({
+    sections.map((section) => ({
       text: section.name,
       slug: section.slug,
       depth: section.depth,
-    }))
-  }
+    }
+  ))}
 >
   {
     sections.map((section) => {
-      const Heading: HeadingType = `h${ section.depth }`;
+      const Heading: HeadingType = `h${section.depth}`;
       return (
         <>
           <Heading id={section.slug}>{section.name}</Heading>
