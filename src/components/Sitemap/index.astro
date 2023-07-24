@@ -5,7 +5,7 @@ import {
 } from "../../data/sitemapSections";
 import { basename } from "path";
 import type { AstroInstance, MDXInstance, MarkdownInstance } from "astro";
-import type { Frontmatter } from "@layouts/Layout.astro";
+import Layout, { Frontmatter } from "@layouts/Layout.astro";
 
 interface Props {
   lang: "ja" | "en";
@@ -83,23 +83,32 @@ for (const page of pages) {
   }
 }
 ---
-
-{
-  sectionsWithLinks.map((section) => {
-    const Heading = section.heading;
-    return (
-      <>
-        <Heading>{section.name[Astro.props.lang]}</Heading>
-        <ul>
-          {section.links.map((link) => {
-            return (
-              <li>
-                <a href={link.path}>{link.title}</a>
-              </li>
-            );
-          })}
-        </ul>
-      </>
-    );
-  })
-}
+<Layout
+  frontmatter={{
+    title: Astro.props.lang === "en" ? "Sitemap" : "サイトマップ",
+    lang: "ja",
+  }}
+  headings={[
+    
+  ]}
+>
+  {
+    sectionsWithLinks.map((section) => {
+      const Heading = section.heading;
+      return (
+        <>
+          <Heading>{section.name[Astro.props.lang]}</Heading>
+          <ul>
+            {section.links.map((link) => {
+              return (
+                <li>
+                  <a href={link.path}>{link.title}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      );
+    })
+  }
+</Layout>
