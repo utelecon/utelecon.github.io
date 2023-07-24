@@ -1,50 +1,35 @@
 export interface SitemapSection {
   patterns?: RegExp[];
   negativePatterns?: RegExp[];
-  heading: `h${1 | 2 | 3 | 4 | 5 | 6}`;
-  name: Record<string, string>;
+  depth: 1 | 2 | 3 | 4 | 5 | 6;
+  name: string;
 }
 
-export const sitemapSections: SitemapSection[] = [
+export const sitemapSectionsJa: SitemapSection[] = [
   {
     patterns: [/^\/oc($|\/)/],
-    heading: "h2",
-    name: {
-      ja: "オンライン授業全般（学生向け）",
-      en: "Online Classes (for students)",
-    },
+    depth: 2,
+    name: "オンライン授業全般（学生向け）",
   },
   {
     patterns: [/^\/faculty_members($|\/)/],
-    heading: "h2",
-    name: {
-      ja: "オンライン授業全般（教員向け）",
-      en: "Online Classes (for faculty members)",
-    },
+    depth: 2,
+    name: "オンライン授業全般（教員向け）",
   },
   {
     patterns: [/^\/systems($|\/)/],
-    heading: "h2",
-    name: {
-      ja: "東京大学のシステム",
-      en: "ICT systems",
-    },
+    depth: 2,
+    name: "東京大学のシステム",
   },
   {
     patterns: [/^\/utokyo_account($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "UTokyo Account",
-      en: "UTokyo Account",
-    },
+    depth: 3,
+    name: "UTokyo Account",
   },
   {
     patterns: [/^\/utas$/],
-    heading: "h3",
-    name: {
-      ja: "UTAS",
-      en: "UTAS",
-    },
+    depth: 3,
+    name: "UTAS",
   },
   {
     patterns: [
@@ -52,123 +37,176 @@ export const sitemapSections: SitemapSection[] = [
       /^\/lms_lecturers($|\/)/,
       /^\/lms_students($|\/)/,
     ],
-    heading: "h3",
-    name: {
-      ja: "ITC-LMS",
-      en: "ITC-LMS",
-    },
+    depth: 3,
+    name: "ITC-LMS",
   },
   {
     patterns: [/^\/zoom($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "Zoom",
-      en: "Zoom",
-    },
+    depth: 3,
+    name: "Zoom",
   },
   {
     patterns: [/^\/webex($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "Webex",
-      en: "Webex",
-    },
+    depth: 3,
+    name: "Webex",
   },
   {
     patterns: [/^\/eccs_cloud_email$/],
-    heading: "h3",
-    name: {
-      ja: "ECCSクラウドメール (Google Workspace)",
-      en: "ECCS Cloud Email",
-    },
+    depth: 3,
+    name: "ECCSクラウドメール (Google Workspace)",
   },
   {
     patterns: [/^\/microsoft($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "UTokyo Microsoft License",
-      en: "UTokyo Microsoft License",
-    },
+    depth: 3,
+    name: "UTokyo Microsoft License",
   },
   {
     patterns: [/^\/utokyo_wifi($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "UTokyo Wi-Fi",
-      en: "UTokyo Wi-Fi",
-    },
+    depth: 3,
+    name: "UTokyo Wi-Fi",
   },
   {
     patterns: [/^\/slack($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "UTokyo Slack",
-      en: "UTokyo Slack",
-    },
+    depth: 3,
+    name: "UTokyo Slack",
   },
   {
     patterns: [/^\/slido($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "Slido",
-      en: "Slido",
-    },
+    depth: 3,
+    name: "Slido",
   },
   {
     patterns: [/^\/utokyo_vpn($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "UTokyo VPN",
-      en: "UTokyo VPN",
-    },
+    depth: 3,
+    name: "UTokyo VPN",
   },
   {
     patterns: [/^\/online($|\/)/, /^\/articles\//],
-    heading: "h2",
-    name: {
-      ja: "オンラインを活用するために",
-      en: "Teaching Excellence",
-    },
+    depth: 2,
+    name: "オンラインを活用するために",
   },
   {
     patterns: [/^\/good-practice($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "グッドプラクティスの共有",
-      en: "Good Practice",
-    },
+    depth: 3,
+    name: "グッドプラクティスの共有",
   },
   {
     patterns: [/^\/notice($|\/)/],
-    heading: "h2",
-    name: {
-      ja: "お知らせ",
-      en: "Notice",
-    },
+    depth: 2,
+    name: "お知らせ",
   },
   {
     patterns: [/^\/events($|\/)/],
     negativePatterns: [/\/events\/luncheon($|\/)/],
-    heading: "h2",
-    name: {
-      ja: "イベント・説明会等",
-      en: "Orientations / Seminars",
-    },
+    depth: 2,
+    name: "イベント・説明会等",
   },
   {
     patterns: [/^\/events\/luncheon($|\/)/],
-    heading: "h3",
-    name: {
-      ja: "オンライン授業情報交換会",
-      en: "Lunch time information exchange meeting",
-    },
+    depth: 3,
+    name: "オンライン授業情報交換会",
   },
   {
     patterns: [/.*/],
-    heading: "h2",
-    name: {
-      ja: "その他",
-      en: "Others",
-    },
+    depth: 2,
+    name: "その他",
+  },
+];
+
+export const sitemapSectionsEn: SitemapSection[] = [
+  {
+    patterns: [/^\/en\/oc($|\/)/],
+    depth: 2,
+    name: "Online Classes (for students)",
+  },
+  {
+    patterns: [/^\/en\/faculty_members($|\/)/],
+    depth: 2,
+    name: "Online Classes (for faculty members)",
+  },
+  {
+    patterns: [/^\/en\/systems($|\/)/],
+    depth: 2,
+    name: "ICT systems",
+  },
+  {
+    patterns: [/^\/en\/utokyo_account($|\/)/],
+    depth: 3,
+    name: "UTokyo Account",
+  },
+  {
+    patterns: [/^\/en\/utas$/],
+    depth: 3,
+    name: "UTAS",
+  },
+  {
+    patterns: [
+      /^\/en\/itc_lms$/,
+      /^\/en\/lms_lecturers($|\/)/,
+      /^\/en\/lms_students($|\/)/,
+    ],
+    depth: 3,
+    name: "ITC-LMS",
+  },
+  {
+    patterns: [/^\/en\/zoom($|\/)/],
+    depth: 3,
+    name: "Zoom",
+  },
+  {
+    patterns: [/^\/en\/webex($|\/)/],
+    depth: 3,
+    name: "Webex",
+  },
+  {
+    patterns: [/^\/en\/eccs_cloud_email$/],
+    depth: 3,
+    name: "ECCS Cloud Email",
+  },
+  {
+    patterns: [/^\/en\/microsoft($|\/)/],
+    depth: 3,
+    name: "UTokyo Microsoft License",
+  },
+  {
+    patterns: [/^\/en\/utokyo_wifi($|\/)/],
+    depth: 3,
+    name: "UTokyo Wi-Fi",
+  },
+  {
+    patterns: [/^\/en\/slack($|\/)/],
+    depth: 3,
+    name: "UTokyo Slack",
+  },
+  {
+    patterns: [/^\/en\/slido($|\/)/],
+    depth: 3,
+    name: "Slido",
+  },
+  {
+    patterns: [/^\/en\/utokyo_vpn($|\/)/],
+    depth: 3,
+    name: "UTokyo VPN",
+  },
+  {
+    patterns: [/^\/en\/online($|\/)/, /^\/articles\//],
+    depth: 2,
+    name: "Teaching Excellence",
+  },
+  {
+    patterns: [/^\/en\/notice($|\/)/],
+    depth: 2,
+    name: "Notice",
+  },
+  {
+    patterns: [/^\/en\/events($|\/)/],
+    negativePatterns: [/\/events\/luncheon($|\/)/],
+    depth: 2,
+    name: "Orientations / Seminars",
+  },
+  {
+    patterns: [/.*/],
+    depth: 2,
+    name: "Others",
   },
 ];

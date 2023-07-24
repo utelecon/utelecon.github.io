@@ -1,6 +1,7 @@
 ---
 import {
-  sitemapSections,
+  sitemapSectionsJa as ja,
+  sitemapSectionsEn as en,
   type SitemapSection,
 } from "../../data/sitemapSections";
 import { basename } from "path";
@@ -23,16 +24,18 @@ type Page =
 
 interface Link {
   title: string;
-  path: string;
+  url: string;
 }
 
 interface SitemapSectionWithLinks extends SitemapSection {
   links: Link[];
 }
 
+const { lang } = Astro.props;
+
 const pages = await Astro.glob<Page>("/src/pages/**/*.{astro,md,mdx}");
 
-const sectionsWithLinks = sitemapSections.map<SitemapSectionWithLinks>(
+const sectionsWithLinks = { ja, en }[lang].map<SitemapSectionWithLinks>(
   (section) => ({ ...section, links: [] })
 );
 
@@ -71,13 +74,13 @@ for (const page of pages) {
   for (const section of sectionsWithLinks) {
     let cond = false;
     if (section.patterns) {
-      cond ||= section.patterns.some((pattern) => pattern.test(path));
+      cond ||= section.patterns.some((pattern) => pattern.test(page.url!));
     }
     if (section.negativePatterns) {
-      cond &&= !section.negativePatterns.some((pattern) => pattern.test(path));
+      cond &&= !section.negativePatterns.some((pattern) => pattern.test(page.url!));
     }
     if (cond) {
-      section.links.push({ title, path });
+      section.links.push({ title, url: page.url });
       break;
     }
   }
@@ -85,8 +88,11 @@ for (const page of pages) {
 ---
 <Layout
   frontmatter={{
-    title: Astro.props.lang === "en" ? "Sitemap" : "サイトマップ",
-    lang: "ja",
+    title: {
+      ja: "サイトマップ",
+      en: "Sitemap",
+    }[lang],
+    lang,
   }}
   headings={[
     
@@ -94,15 +100,15 @@ for (const page of pages) {
 >
   {
     sectionsWithLinks.map((section) => {
-      const Heading = section.heading;
+      const Heading = `h${ section.depth }`;
       return (
         <>
-          <Heading>{section.name[Astro.props.lang]}</Heading>
+          <Heading>{section.name}</Heading>
           <ul>
             {section.links.map((link) => {
               return (
                 <li>
-                  <a href={link.path}>{link.title}</a>
+                  <a href={link.url}>{link.title}</a>
                 </li>
               );
             })}
