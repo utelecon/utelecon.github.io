@@ -17,74 +17,69 @@ interface AstroInstanceExt extends AstroInstance {
   sitemap?: boolean;
 }
 
-type Page =
+type PageInstance =
   | MarkdownInstance<Frontmatter>
   | MDXInstance<Frontmatter>
   | AstroInstanceExt;
 
-interface Link {
+interface Page {
   title: string;
   url: string;
 }
 
 interface SitemapSectionWithLinks extends SitemapSection {
-  links: Link[];
+  links: Page[];
 }
 
 const { lang } = Astro.props;
 
-const pages = await Astro.glob<Page>("/src/pages/**/*.{astro,md,mdx}");
-
-const sectionsWithLinks = { ja, en }[lang].map<SitemapSectionWithLinks>(
-  (section) => ({ ...section, links: [] })
-);
-
-for (const page of pages) {
+let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}")).filter(page => {
   if (!page.url) {
-    continue;
+    return false;
   }
   if (basename(page.url).startsWith("_")) {
-    continue;
+    return false;
   }
   if ("frontmatter" in page && page.frontmatter.redirect_to) {
-    continue;
+    return false;
   }
-  const { title, sitemap } = "frontmatter" in page ? page.frontmatter : page;
+  const { sitemap } = "frontmatter" in page ? page.frontmatter : page;
   if (sitemap === false) {
-    continue;
+    return false;
   }
+  const isEnglishPage = page.url.startsWith("/en/");
+  return {
+    ja: !isEnglishPage,
+    en: isEnglishPage,
+  }[lang];
+}).map<Page>(page => {
+  const { title } = "frontmatter" in page ? page.frontmatter : page;
+  return { title, url: page.url! };
+});
 
-  let path: string;
+// https://stackoverflow.com/questions/979256/sorting-an-array-of-objects-by-property-values#comment48111034_979289
+// @ts-ignore
+pages.sort((a, b) => (a.url > b.url) - (a.url < b.url));
 
-  switch (Astro.props.lang) {
-    case "ja":
-      if (page.url.startsWith("/en/")) {
-        continue;
-      }
-      path = page.url;
-      break;
-    case "en":
-      if (!page.url.startsWith("/en/")) {
-        continue;
-      }
-      path = page.url.replace(/^\/en/, "");
-      break;
+const sectionsWithLinks = { ja, en }[lang].map<SitemapSectionWithLinks>(
+  section => {
+    let links: Page[] = [];
+    section.patterns?.forEach(pattern => {
+      pages = pages.filter(page => {
+        let cond = false;
+        cond ||= pattern.test(page.url);
+        if (section.negativePatterns) {
+          cond &&= !section.negativePatterns.some(pattern => pattern.test(page.url));
+        }
+        if (cond) {
+          links.push(page)
+        }
+        return !cond
+      })
+    });
+    return {...section, links};
   }
-
-  for (const section of sectionsWithLinks) {
-    let cond = false;
-    if (section.patterns) {
-      cond ||= section.patterns.some((pattern) => pattern.test(page.url!));
-    }
-    if (section.negativePatterns) {
-      cond &&= !section.negativePatterns.some((pattern) => pattern.test(page.url!));
-    }
-    if (cond) {
-      section.links.push({ title, url: page.url });
-      break;
-    }
-  }
-}
+);
 ---
 <Layout
   frontmatter={{

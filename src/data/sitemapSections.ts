@@ -1,5 +1,5 @@
 export interface SitemapSection {
-  patterns?: RegExp[];
+  patterns: RegExp[];
   negativePatterns?: RegExp[];
   depth: 1 | 2 | 3 | 4 | 5 | 6;
   name: string;
