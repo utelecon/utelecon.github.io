@@ -6,6 +6,7 @@ import {
 } from "../../data/sitemapSections";
 import { basename } from "path";
 import type { AstroInstance, MDXInstance, MarkdownInstance } from "astro";
+import Slugger from 'github-slugger'
 import Layout, { Frontmatter } from "@layouts/Layout.astro";
 
 interface Props {
@@ -27,7 +28,8 @@ interface Page {
   url: string;
 }
 
-interface SitemapSectionWithLinks extends SitemapSection {
+interface Section extends SitemapSection {
+  slug: string;
   links: Page[];
 }
 
@@ -61,7 +63,9 @@ let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}")).f
 // @ts-ignore
 pages.sort((a, b) => (a.url > b.url) - (a.url < b.url));
 
-const sectionsWithLinks = { ja, en }[lang].map<SitemapSectionWithLinks>(
+const slugger = new Slugger();
+
+const sections = { ja, en }[lang].map<Section>(
   section => {
     let links: Page[] = [];
     section.patterns?.forEach(pattern => {
@@ -77,7 +81,11 @@ const sectionsWithLinks = { ja, en }[lang].map<SitemapSectionWithLinks>(
         return !cond
       })
     });
-    return {...section, links};
+    return {
+      ...section,
+      slug: slugger.slug(section.name),
+      links,
+    };
   }
 );
 ---
@@ -89,16 +97,20 @@ const sectionsWithLinks = { ja, en }[lang].map<SitemapSectionWithLinks>(
     }[lang],
     lang,
   }}
-  headings={[
-    
-  ]}
+  headings={
+    sections.map(section => ({
+      text: section.name,
+      slug: section.slug,
+      depth: section.depth,
+    }))
+  }
 >
   {
-    sectionsWithLinks.map((section) => {
+    sections.map((section) => {
       const Heading = `h${ section.depth }`;
       return (
         <>
-          <Heading>{section.name}</Heading>
+          <Heading id={section.slug}>{section.name}</Heading>
           <ul>
             {section.links.map((link) => {
               return (
