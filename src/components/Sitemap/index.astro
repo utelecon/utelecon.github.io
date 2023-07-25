@@ -1,11 +1,13 @@
 ---
 import {
-  sitemapSections,
+  sitemapSectionsJa as ja,
+  sitemapSectionsEn as en,
   type SitemapSection,
 } from "../../data/sitemapSections";
 import { basename } from "path";
 import type { AstroInstance, MDXInstance, MarkdownInstance } from "astro";
-import type { Frontmatter } from "@layouts/Layout.astro";
+import Slugger from "github-slugger";
+import Layout, { Frontmatter } from "@layouts/Layout.astro";
 
 interface Props {
   lang: "ja" | "en";
@@ -16,90 +18,111 @@ interface AstroInstanceExt extends AstroInstance {
   sitemap?: boolean;
 }
 
-type Page =
+type PageInstance =
   | MarkdownInstance<Frontmatter>
   | MDXInstance<Frontmatter>
   | AstroInstanceExt;
 
-interface Link {
+interface Page {
   title: string;
-  path: string;
+  url: string;
 }
 
-interface SitemapSectionWithLinks extends SitemapSection {
-  links: Link[];
+interface Section extends SitemapSection {
+  slug: string;
+  links: Page[];
 }
 
-const pages = await Astro.glob<Page>("/src/pages/**/*.{astro,md,mdx}");
+type HeadingType = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
-const sectionsWithLinks = sitemapSections.map<SitemapSectionWithLinks>(
-  (section) => ({ ...section, links: [] })
-);
+const { lang } = Astro.props;
 
-for (const page of pages) {
+let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}")).filter((page) => {
   if (!page.url) {
-    continue;
+    return false;
   }
   if (basename(page.url).startsWith("_")) {
-    continue;
+    return false;
   }
   if ("frontmatter" in page && page.frontmatter.redirect_to) {
-    continue;
+    return false;
   }
-  const { title, sitemap } = "frontmatter" in page ? page.frontmatter : page;
+  const { sitemap } = "frontmatter" in page ? page.frontmatter : page;
   if (sitemap === false) {
-    continue;
+    return false;
   }
+  const isEnglishPage = page.url.startsWith("/en/");
+  return {
+    ja: !isEnglishPage,
+    en: isEnglishPage,
+  }[lang];
+}).map<Page>((page) => {
+  const { title } = "frontmatter" in page ? page.frontmatter : page;
+  return { title, url: page.url! };
+});
 
-  let path: string;
+// https://stackoverflow.com/questions/979256/sorting-an-array-of-objects-by-property-values#comment48111034_979289
+// @ts-ignore
+pages.sort((a, b) => (a.url > b.url) - (a.url < b.url));
 
-  switch (Astro.props.lang) {
-    case "ja":
-      if (page.url.startsWith("/en/")) {
-        continue;
+const slugger = new Slugger();
+
+const sections = { ja, en }[lang].map<Section>((section) => {
+  let links: Page[] = [];
+  section.patterns?.forEach((pattern) => {
+    pages = pages.filter((page) => {
+      let cond = false;
+      cond ||= pattern.test(page.url);
+      if (section.negativePatterns) {
+        cond &&= !section.negativePatterns.some((pattern) => pattern.test(page.url));
       }
-      path = page.url;
-      break;
-    case "en":
-      if (!page.url.startsWith("/en/")) {
-        continue;
+      if (cond) {
+        links.push(page);
       }
-      path = page.url.replace(/^\/en/, "");
-      break;
-  }
-
-  for (const section of sectionsWithLinks) {
-    let cond = false;
-    if (section.patterns) {
-      cond ||= section.patterns.some((pattern) => pattern.test(path));
-    }
-    if (section.negativePatterns) {
-      cond &&= !section.negativePatterns.some((pattern) => pattern.test(path));
-    }
-    if (cond) {
-      section.links.push({ title, path });
-      break;
-    }
-  }
-}
+      return !cond;
+    });
+  });
+  return {
+    ...section,
+    slug: slugger.slug(section.name),
+    links,
+  };
+});
 ---
 
-{
-  sectionsWithLinks.map((section) => {
-    const Heading = section.heading;
-    return (
-      <>
-        <Heading>{section.name[Astro.props.lang]}</Heading>
-        <ul>
-          {section.links.map((link) => {
-            return (
-              <li>
-                <a href={link.path}>{link.title}</a>
-              </li>
-            );
-          })}
-        </ul>
-      </>
-    );
-  })
-}
+<Layout
+  frontmatter={{
+    title: {
+      ja: "サイトマップ",
+      en: "Sitemap",
+    }[lang],
+    lang,
+  }}
+  headings={
+    sections.map((section) => ({
+      text: section.name,
+      slug: section.slug,
+      depth: section.depth,
+    }
+  ))}
+>
+  {
+    sections.map((section) => {
+      const Heading: HeadingType = `h${section.depth}`;
+      return (
+        <>
+          <Heading id={section.slug}>{section.name}</Heading>
+          <ul>
+            {section.links.map((link) => {
+              return (
+                <li>
+                  <a href={link.url}>{link.title}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      );
+    })
+  }
+</Layout>
