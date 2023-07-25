@@ -1,12 +1,10 @@
 {% unless include.part == "important" %}
 <p>東京大学では，情報セキュリティの向上のために様々な取り組みを行っており，それらは<a href="https://univtokyo.sharepoint.com/sites/Security">東京大学のセキュリティのページ</a>にまとめられています．その取り組みの一つとして，毎年度UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を実施しています．
-　　{%- if page.slug == "oc" %}
-　　　新しく入学された方はまずこの情報セキュリティ教育を受講してください．
-  　{%- else %}
-　　　新しく着任された方はまずこの情報セキュリティ教育を受講してください．
-　　{%- endif %}
-　具体的な受講の手順などについては<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認してください．
-　受講が完了すると<a href="/utokyo_wifi">UTokyo Wi-Fi</a>，<a href="/utokyo_vpn">UTokyo VPN</a>，<a href="/slack">UTokyo Slack</a>の利用が可能となります（<a href="/utokyo_vpn">UTokyo VPN</a>，<a href="/slack">UTokyo Slack</a>については，別途UTokyo Accountの「<a href="/utokyo_account/mfa">多要素認証の有効化</a>」が必須です）．
+{%- if page.slug == "oc" %}新しく入学された方はまずこの情報セキュリティ教育を受講してください．
+{%- else %}新しく着任された方はまずこの情報セキュリティ教育を受講してください．
+{%- endif %}
+</p>
+<p>具体的な受講の手順などについては<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認してください．受講が完了すると<a href="/utokyo_wifi">UTokyo Wi-Fi</a>，<a href="/utokyo_vpn">UTokyo VPN</a>，<a href="/slack">UTokyo Slack</a>の利用が可能となります（<a href="/utokyo_vpn">UTokyo VPN</a>，<a href="/slack">UTokyo Slack</a>については，別途UTokyo Accountの「<a href="/utokyo_account/mfa">多要素認証の有効化</a>」が必須です）．
 </p>
 {% endunless %}
 {% unless include.part == "explanation" %}
@@ -15,5 +13,7 @@
   <li>確認テストに合格し，アンケートなどに答えれば受講は完了です．</li>
   <li>情報セキュリティ教育は毎年実施されます．実施の時期になりましたら通知がありますので，必ず受講するようにしてください．</li>
 </ol>
-<ul>これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</ul>
+<ul>
+  <li>これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</li>
+</ul>
 {% endunless %}
