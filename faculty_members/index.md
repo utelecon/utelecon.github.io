@@ -69,13 +69,12 @@ description: このページでは，新たに東京大学で授業を始める�
 
 情報システムのセキュリティ向上を目的として，UTokyo Accountには「多要素認証 (Multi-Factor Authentication, MFA)」を導入しています．多要素認証とは，アカウントへのサインイン時に，パスワードに加えて，SMSや専用のアプリなどで本人確認を行う認証方法です．多要素認証を利用すると，なんらかの事情でパスワードが他人に知られた場合でも，アカウントにサインインされる可能性を低くすることができ，セキュリティを向上することができます．
 
-UTokyo Accountでの多要素認証の有効化は，現時点においては必須ではありませんが，セキュリティの観点から有効化することを強く推奨しています．「**[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」のページに記載の手順で，有効化を行ってください．
+大学全体のセキュリティ向上のため，東京大学では、現在UTokyo Accountの多要素認証を有効化することを強く推奨しています．特に教職員については，全員が多要素認証を利用することを目指しています．「**[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」のページに記載の手順で，有効化を行ってください．
 
 ### 情報セキュリティ教育
+{:#information-security-education}
 
-東京大学では，情報セキュリティの向上のために様々な取り組みを行っており，それらは東京大学のセキュリティのページにまとめられています．その取り組みの一つとして，毎年度UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を実施しています．新しく着任された方はまずこの情報セキュリティ教育を受講してください．具体的な受講の手順などについては[情報セキュリティ教育のぺージ](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を確認してください．
-受講が完了すると[UTokyo Wi-Fi](/utokyo_wifi)，[UTokyo VPN](/utokyo_vpn)，[UTokyo Slack](/slack)の利用が可能となります（[UTokyo VPN](/utokyo_vpn)，[UTokyo Slack](/slack)については，別途UTokyo Accountの「[多要素認証の有効化](#setting-up-mfa)」が必須です）．
-
+{% include systems/information_security.html part="exlplanation" %}
 
 ## Zoomを使う
 
