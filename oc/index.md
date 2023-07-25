@@ -124,7 +124,16 @@ description: このページでは，東京大学で授業を受ける新入生�
 ### 情報セキュリティ教育
 {:#information_security_education}
 
-{% include systems/information_security.html %}
+{% include systems/information_security.html part="explanation" %}
+<ul>
+    <li>
+        <details>
+            <summary>（再掲）<strong>作業：情報セキュリティ教育を受講する</strong></summary>
+{% include systems/information_security.html part="important" %}
+        </details>
+    </li>
+</ul>
+
 
 ### UTAS
 {:#utas}
