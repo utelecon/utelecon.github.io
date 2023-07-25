@@ -98,6 +98,10 @@ description: このページでは，東京大学で授業を受ける新入生�
 {% include procedures/google.html part="important" %}
 {% include procedures/utas.html part="important" %}
     <li>
+        <strong>情報セキュリティ教育：情報セキュリティ教育の受講を完了する</strong>
+        {% include systems/information_security_education.html part="important" %}
+    </li>
+    <li>
         <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
 {% include systems/utokyo_wifi/apply.html part="important" %}
     </li>
