@@ -95,12 +95,12 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 <ul class="procedure">
 {% include procedures/utokyo_account.html part="important" %}
-{% include procedures/google.html part="important" %}
-{% include procedures/utas.html part="important" %}
     <li>
         <strong>情報セキュリティ教育：情報セキュリティ教育の受講を完了する</strong>
         {% include systems/information_security.html part="important" %}
     </li>
+{% include procedures/utas.html part="important" %}
+{% include procedures/google.html part="important" %}
     <li>
         <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
 {% include systems/utokyo_wifi/apply.html part="important" %}
@@ -122,6 +122,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 {% include procedures/utokyo_account.html %}
 
 ### 情報セキュリティ教育
+{:#information_security_education}
 
 {% include systems/information_security.html %}
 
