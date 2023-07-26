@@ -1,4 +1,5 @@
 ---
+import FormLink from "./FormLink.astro";
 export interface Props {
   lang: "ja" | "en";
 }
@@ -24,14 +25,6 @@ const supportUrl = {
   en: "/en/support/",
   ja: "/support/",
 };
-
-const formUrl = new URL(
-  "https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url"
-);
-formUrl.searchParams.append(
-  "entry.1839091442",
-  encodeURIComponent(Astro.url.toString())
-);
 ---
 
 <div class="wrap">
@@ -41,10 +34,10 @@ formUrl.searchParams.append(
     </div>
     <div class="description">{localization.scrollToTop[lang]}</div>
   </a>
-  <a class="link wide-only" href={formUrl}>
+  <FormLink class="link wide-only">
     <div class="icon"><span class="material-icon">feedback</span></div>
     <div class="description">{localization.feedback[lang]}</div>
-  </a>
+  </FormLink>
   <a class="link" href={supportUrl[lang]}>
     <div class="icon">
       <span class="material-icon">contact_support</span>
@@ -54,9 +47,9 @@ formUrl.searchParams.append(
 </div>
 
 <script is:inline>
-  function scroll() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
+function scroll() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 </script>
 
 <style lang="scss">

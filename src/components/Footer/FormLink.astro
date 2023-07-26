@@ -1,0 +1,14 @@
+---
+interface Props {
+  class: string;
+}
+
+const formUrl = new URL(
+  "https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url"
+);
+formUrl.searchParams.append("entry.1839091442", Astro.url.toString());
+---
+
+<a class={Astro.props.class} href={formUrl.toString()} target="_blank">
+  <slot />
+</a>
