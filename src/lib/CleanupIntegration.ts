@@ -1,7 +1,8 @@
 import type { AstroIntegration } from "astro";
 import fs from "fs/promises";
-import { basename, extname, join } from "path";
+import { basename, extname } from "path";
 import { fileURLToPath } from "url";
+import { walk } from "./util";
 
 const source = [".md", ".markdown", ".mdx", ".astro"];
 
@@ -24,13 +25,4 @@ export function cleanup(): AstroIntegration {
       },
     },
   };
-}
-
-async function* walk(path: string): AsyncGenerator<string> {
-  const entries = await fs.readdir(path, { withFileTypes: true });
-  for (const entry of entries) {
-    const entryPath = join(path, entry.name);
-    if (entry.isDirectory()) yield* walk(entryPath);
-    else if (entry.isFile()) yield entryPath;
-  }
 }

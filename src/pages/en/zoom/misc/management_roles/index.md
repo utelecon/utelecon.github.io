@@ -2,7 +2,7 @@
 title: Host and Co-host Controls in a Zoom Meeting
 redirect_from:
   - /en/zoom/how/common/host_cohost
-  - /en/zoom/misc/host_cohost/
+  # - /en/zoom/misc/host_cohost/
 ---
 
 ## What is a Host?
