@@ -13,4 +13,4 @@ Due to security update, the UTokyo Account User Menu will be down on the followi
 - Impact: UTokyo Account User Menu will be unavailable for about 15 minutes during the above period.
 
 For further information, please contact<br>
-Division for Information and Communication Systems dics-shien.adm@gs.mail.u-tokyo.ac.jp
+Division for Information and Communication Systems `dics-shien.adm@gs.mail.u-tokyo.ac.jp`

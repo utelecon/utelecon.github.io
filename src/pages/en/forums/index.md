@@ -17,7 +17,7 @@ We have created the following QA forums and mailing lists:
 
 ## How to Join
 
-Sign in with your ECCS Cloud Email (xxxx@g.ecc.u-tokyo.ac.jp), and register to the links below:
+Sign in with your ECCS Cloud Email (`xxxx@g.ecc.u-tokyo.ac.jp`), and register to the links below:
 
 * [utelecon-announce](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/g/utelecon-announce-group)
 * [utelecon-questions](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/g/utelecon-questions-group)

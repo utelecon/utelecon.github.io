@@ -106,6 +106,6 @@ Contact us
 ---------------------------------------------
 
 Class supporters Management
-class-support@he.u-tokyo.ac.jp
+`class-support@he.u-tokyo.ac.jp`
 
 

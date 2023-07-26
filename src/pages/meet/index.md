@@ -27,7 +27,7 @@ title: Google Meet
   1. URLにアクセスして<a href="#join_meeting">会議へ参加</a>
   1. <a href="#do_meeting">ミーティング</a>を行う
 
-* Meetに関する<a href="https://support.google.com/meet/" target="_blank">ヘルプ
+* Meetに関する[ヘルプ](https://support.google.com/meet/)
 
 ## ECCSクラウドメール (G Suite for Education)の有効化
 {:#signup}

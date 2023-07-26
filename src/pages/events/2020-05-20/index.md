@@ -18,7 +18,7 @@ title: "2020/05/20 研修: クラスサポーター"
 * クラスサポーターとして授業をスムーズに進めるコツ: [pdf ファイル](web_form_raw.pdf)
   * 研修中に学生がグループになってコツについてまとめてくれたものを Web フォームに情報入力してもらいました
 * 動画: [YouTube (学内限定公開)](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-05-20) (要ECCSクラウドメール)
-  * 閲覧するためには ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります
+  * 閲覧するためには ECCS クラウドメール(`xxx@g.ecc.u-tokyo.ac.jp`)アカウントでGoogleにサインインしている必要があります
   * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください
   * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)をご参照の上，アカウント利用の初期設定をしてください
 
@@ -40,6 +40,6 @@ title: "2020/05/20 研修: クラスサポーター"
 
 * [説明会情報掲載シートへ]( https://tinyurl.com/y7te4k3j ) (参加者数把握のため、このURLにあるエクセルシート上部の参加申込みフォームリンクから5月20日（水）開始前までにお申し込みください。)
 
-  * **アクセスするには，ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります．**
+  * **アクセスするには，ECCS クラウドメール(`xxx@g.ecc.u-tokyo.ac.jp`)アカウントでGoogleにサインインしている必要があります．**
   * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください．
   * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください

@@ -9,12 +9,12 @@ Please be aware that the session will be recorded and then the video will be sho
 
 【Place】Zoom（you can find the URL in one of the access points below） 
 * [Google Spreadsheet](https://tinyurl.com/ybs6l9qo)
-  * You need to sign in to your ECCS Cloud Mail (xxx@g.ecc.u-tokyo.ac.jp) account.
+  * You need to sign in to your ECCS Cloud Mail (`xxx@g.ecc.u-tokyo.ac.jp`) account.
   * In case of trouble accessing, click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp) and sign in using your ECCS account.
   * In case you have not yet used your Cloud Mail account, click [here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/) and undergo the initial setup for your account.
 * [Excel Online](https://tinyurl.com/y8wdd9ku) 
-  * You need to sign in to Office.com using  your UTokyo Account with '10-digitsID@utac.u-tokyo.ac.jp'.
-  * In case you have not yet used your Cloud Mail account, click [here](https://www.office.com/), and sign in using  your UTokyo Account with '10-digitsID@utac.u-tokyo.ac.jp'（if you are already signed in to other account, please sign out first).
+  * You need to sign in to Office.com using  your UTokyo Account with `10-digitsID@utac.u-tokyo.ac.jp`.
+  * In case you have not yet used your Cloud Mail account, click [here](https://www.office.com/), and sign in using  your UTokyo Account with `10-digitsID@utac.u-tokyo.ac.jp`（if you are already signed in to other account, please sign out first).
 
 
 ◆ 3rd Meeting

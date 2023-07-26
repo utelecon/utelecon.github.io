@@ -1,5 +1,5 @@
 ---
-import Heading from "../../Courses/Heading"
+import Heading from "../../Courses/Heading";
 
 interface Props {
   pageSlug: string | "";
@@ -30,10 +30,11 @@ const { pageSlug } = Astro.props;
 {
   pageSlug == "faculty_members" && (
     <p>
-      Please refer to the{" "}
+      Please refer to the {'"'}
       <strong>
         <a href="/online/courses">Utilizing Online Resources in Teaching</a>
-      </strong>{" "}
+      </strong>
+      {'"'}
       (in Japanese) page for further information such as key points and
       practical examples for each class type.
     </p>
@@ -131,7 +132,7 @@ const { pageSlug } = Astro.props;
       <ul>
         <li>
           <a href="/events/2020-03-19/">
-            オンライン基礎講座「授業のオンライン化を念頭に置いた、Zoom
+            オンライン基礎講座「授業のオンライン化を念頭に置いた，Zoom
             の使い方」
           </a>
         </li>
@@ -267,7 +268,7 @@ const { pageSlug } = Astro.props;
           1回の授業内でオンデマンドとリアルタイムを組み合わせる形態
           <ul>
             <li>
-              例えば、合計90分間のオンデマンド教材を用いた学習と15分間のリアルタイムの授業を組み合わせることで、1回の授業とする方法が挙げられます。
+              例えば，合計90分間のオンデマンド教材を用いた学習と15分間のリアルタイムの授業を組み合わせることで，1回の授業とする方法が挙げられます．
             </li>
             <li>
               実践例:{" "}
@@ -278,15 +279,15 @@ const { pageSlug } = Astro.props;
                 </a>
               </strong>{" "}
               -
-              農学部にて、オンデマンドとリアルタイムを組み合わせる授業をされています。
+              農学部にて，オンデマンドとリアルタイムを組み合わせる授業をされています．
             </li>
           </ul>
         </li>
         <li>
-          ある回はオンデマンド、異なる回はリアルタイムなど、授業全体を通してオンデマンドとリアルタイムを組み合わせる形態
+          ある回はオンデマンド，異なる回はリアルタイムなど，授業全体を通してオンデマンドとリアルタイムを組み合わせる形態
           <ul>
             <li>
-              例えば、第3回と第5回をオンデマンドとして、それ以外の回をリアルタイム授業とする方法が挙げられます。
+              例えば，第3回と第5回をオンデマンドとして，それ以外の回をリアルタイム授業とする方法が挙げられます．
             </li>
             <li>
               実践例:{" "}
@@ -297,7 +298,7 @@ const { pageSlug } = Astro.props;
                 </a>
               </strong>{" "}
               -
-              教育学部にて、2回分の授業をオンデマンドとして、11回分の授業をリアルタイムで実施されています。
+              教育学部にて，2回分の授業をオンデマンドとして，11回分の授業をリアルタイムで実施されています．
             </li>
           </ul>
         </li>
@@ -305,4 +306,3 @@ const { pageSlug } = Astro.props;
     </>
   )
 }
-../../Courses/Heading

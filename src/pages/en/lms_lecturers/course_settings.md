@@ -38,8 +38,8 @@ Students who register for courses (or add to favorites) on UTAS are automaticall
    * Self registration is "Permit". In this setting, students can access the course by themselves and register for the course as a temporary enrollment registration.
    * Accept contacts is set to "Accept contacts from students." In this setting, you can receive and reply to messages (questions, etc.) from students who are enrolled in the course. Students in online classes do not have the opportunity to communicate directly with instructors in the classroom, so this feature allows you to communicate with students on the ITC-LMS without giving out your email address.
 ![コース設定](cs6.png)
-  * You can change the enrolled student range setting at any time, including after the enrollment finalized date. After the enrollment finalized date, you cannot change the setting to "Permit temporarily registration until the confirmation date".
-  * When the enrolled student range setting is set to "Always enrolled students only", Self registration is automatically set to "Not Permit".
+   * You can change the enrolled student range setting at any time, including after the enrollment finalized date. After the enrollment finalized date, you cannot change the setting to "Permit temporarily registration until the confirmation date".
+   * When the enrolled student range setting is set to "Always enrolled students only", Self registration is automatically set to "Not Permit".
 4. Select "Go to confirmation page." 
 ![コース設定](cs7.png)
 5. Select "Register."

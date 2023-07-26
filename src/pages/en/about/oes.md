@@ -7,7 +7,7 @@ November 19, 2021</p>
 
 <strong class="box">
     "Online Education Support Supporter (OES)" ceased its activities in March 2023.
-    For additional information, please visit [this page (in Japanese)](/about/oes).
+    For additional information, please visit <a href="/about/oes">this page (in Japanese)</a>.
 </strong>
 
 
