@@ -17,6 +17,7 @@
   date: 2023-07-06
   content:
     ja: "7月5日より，2023年度の[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)が開始されました．8月7日までに受講を完了しない場合，[UTokyo Wi-Fi](/utokyo_wifi)，[UTokyo VPN](/utokyo_vpn)，[UTokyo Slack](/slack)の利用が停止されます．"
+  important: true
 -
   date: 2023-06-29
   content:
