@@ -65,7 +65,8 @@ const theOtherLangUrl = Astro.url.pathname.startsWith("/en/")
   </div>
   <div class="hamburger-contents">
     <div class="links">
-      <div class="gcse-search"></div>
+      {/* keep astro from adding class `astro-*` */}
+      <Fragment set:html={'<div class="gcse-search"></div>'} />
       <div>
         <a href={urls.top}>{localization.top}</a> | <a href={urls.about}
           >{localization.about}</a
