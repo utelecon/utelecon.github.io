@@ -112,7 +112,7 @@ function tokenize(
 
     if (asciiAlphanumeric(code)) {
       effects.enter("ialName");
-      return name(code);
+      return name;
     }
 
     return nok(code);
@@ -131,7 +131,7 @@ function tokenize(
     effects.exit("ialIdent");
     return this.previous === codes.dash || this.previous === codes.underscore
       ? nok(code)
-      : endOrVariant(code);
+      : endOrVariant;
   };
 
   const name: State = (code) => {
@@ -149,6 +149,7 @@ function tokenize(
     }
 
     effects.exit("ialName");
+    return nok(code);
   };
 
   const leftQuote: State = (code) => {
