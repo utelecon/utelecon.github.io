@@ -70,6 +70,11 @@ The MFA is a security process in which users prove their identity by at least tw
 
 MFA setup is not mandatory at this time, but it is recommended for better security of your UTokyo Account. Please follow the setup procedures in the “**[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)**” page.
 
+### 情報セキュリティ教育
+{:#information-security-education}
+
+{% include en/systems/information_security.html part="explanation" %}
+
 ## Using Zoom
 
 Zoom is a simultaneous interactive web conferencing system, and is one of the most frequently used tools in online classes. There are other conferencing systems that perform similar functions, but if there is no particular reason, we recommend you use Zoom as it is a familiar tool for students.
@@ -86,7 +91,7 @@ The app has a different sign-in procedure than that of the browser. Please refer
 
 Below are the steps for setting up a Zoom meeting room.
 
-1. Sign in to Zoom, and click "Schedule a Meeting" in the top right corner.
+1. Sign in to Zoom, and click "Schedule" in the top right corner.
 2. The meeting setup page will appear.
     - Enter the name (title) of the meeting room in the "Topic" field.
     - Enter the date, time, and duration of the meeting. If you check the "Recurring meeting" checkbox, you can hold classes multiple times in one meeting room (without changing the URL).
@@ -206,7 +211,7 @@ The version for academic year 2023 will be available from April 1, 2023.
 
 ### UTokyo VPN
 
-Some IT systems at the University of Tokyo (for example, administrative systems) can only be accessed through the university's internal network. The "**UTokyo VPN**" is a service that allows users to access these systems from off-campus.
+Some IT systems at the University of Tokyo (for example, the Personnel Information MyWeb) can only be accessed through the university's internal network. The "**UTokyo VPN**" is a service that allows users to access these systems from off-campus.
 For further details on how to use this feature, please see the [UTokyo VPN page](/utokyo_vpn/) (in Japanese).
 
 ### Guidelines for Online Classes
@@ -225,7 +230,7 @@ This section explains how to record and share a class. Recording a class is not 
   * For details, please see “[(Zoom for Faculty Members) Cloud Recording](/en/zoom/how/faculty_members/recording_cloud)."
 * Uploading recordings of Zoom videos to Google Drive or YouTube after editing them, such as deleting part of them, is a common method of sharing them. In such cases, you can also restrict access to UTokyo members.
   * For further details of these procedures, please see “[Uploading Video Files to Google Drive](/faculty_members/how/google/share_video)” (in Japanese) or “[Restricting YouTube Content to University Members Only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/)."
-  * For more information on video editing, please see “[Search by Purpose/Creating and Sharing Videos](/online/topics#movie)" (in Japanese).
+  * For more information on video editing, please see “[Creating and Sharing Videos](en/articles/create_share_movie)".
 * By posting video URLs in the "Course Materials" section of the ITC-LMS, you can share these videos with students.
 
 ### Taking Attendance

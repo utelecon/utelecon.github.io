@@ -93,8 +93,12 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 <ul class="procedure">
 {% include procedures/en/utokyo_account.html part="important" %}
-{% include procedures/en/google.html part="important" %}
+    <li>
+        <strong>Information Security Education: Finish attending the course</strong>
+        {% include en/systems/information_security.html part="important" %}
+    </li>
 {% include procedures/en/utas.html part="important" %}
+{% include procedures/en/google.html part="important" %}
     <li>
         <strong>UTokyo Wi-Fi: Apply for an account</strong>
 {% include en/systems/utokyo_wifi/apply.html part="important" %}
@@ -113,6 +117,19 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 {{ about_utokyo_account }}
 
 {% include procedures/en/utokyo_account.html %}
+
+### Information Security Education
+{:#information_security_education}
+
+{% include systems/information_security.html part="explanation" %}
+<ul>
+    <li>
+        <details>
+            <summary>(Repost)<strong>Task: Finish attending Information Security Education</strong></summary>
+{% include systems/information_security.html part="important" %}
+        </details>
+    </li>
+</ul>
 
 ### UTAS
 {:#utas}
