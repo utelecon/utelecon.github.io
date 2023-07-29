@@ -3,6 +3,28 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2023-07-25
+  content:
+    ja: "[【ECCSクラウドメール】共有ドライブの代表責任者登録のお願い](https://www.ecc.u-tokyo.ac.jp/announcement/2023/07/25_3553.html)"
+    en: "[\\[ECCS Cloud Email\\] Request for Registration of Responsible Representative for Shared Drives](https://www.ecc.u-tokyo.ac.jp/announcement/2023/07/25_3553.html)"
+-
+  date: 2023-07-24
+  content:
+    ja: "[2023年度Aセメスター「コモンサポーター」募集のお知らせ](/notice/2023/0724-cs) （8月10日13時締切）"
+-
+  date: 2023-07-12
+  content:
+    ja: "[UTokyo VPNのメンテナンス（2023年7月14日）](/notice/2023/0714-vpn)"
+-
+  date: 2023-07-06
+  content:
+    ja: "7月5日より，2023年度の[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)が開始されました．8月7日までに受講を完了しない場合，[UTokyo Wi-Fi](/utokyo_wifi)，[UTokyo VPN](/utokyo_vpn)，[UTokyo Slack](/slack)の利用が停止されます．"
+  important: true
+-
+  date: 2023-06-29
+  content:
+    ja: "[UTokyo Wi-Fiのメンテナンス（2023年7月5日）](/notice/2023/0705-wifi)"
+-
   date: 2023-06-15
   content:
     ja: "[UTokyo Slackへの編入（移行）手続き受付終了のお知らせ](/notice/2023/06-slack-migration)"
@@ -10,6 +32,7 @@
   date: 2023-06-15
   content:
     ja: "2023年7月3日・8月2日に，[UTokyo Slackお役立ち情報共有会「Slackを有効活用しよう！〜明日から使える小ネタをお見せします〜」](/events/2023-slack/)を開催します．"
+  important: true
 -
   date: 2023-06-01
   content:

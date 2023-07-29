@@ -4,10 +4,8 @@ title: macOSでUTokyo VPNを利用する
 import SubpageBeginning from './_subpage_beginning.md';
 import HelpMfa from './_help_mfa.html';
 import HelpWhite from './_help_white.html';
-import HelpSecuritySession from './_help_security_session.html';
-import HelpSecurityUsername from './_help_security_username.html';
-import HelpMultipleUsers from './_help_multiple_users.html';
 import HelpSecurityEducation from './_help_security_education.html';
+import HelpMultipleUsers from './_help_multiple_users.html';
 
 このページでは，UTokyo VPNをmacOSのコンピュータで利用する方法を説明します．
 
@@ -23,6 +21,7 @@ import HelpSecurityEducation from './_help_security_education.html';
 
 ![](img/mac01-vpn1-login.png){:.medium.center.border}
 
+<HelpSecurityEducation />
 <HelpMfa />
 
 **手順B:** サインインに成功すると，以下のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for macOSをクリックして，クライアントアプリケーションをダウンロードしてください．
@@ -33,8 +32,6 @@ import HelpSecurityEducation from './_help_security_education.html';
 ![](img/mac03-install-1.png){:.medium.center.border}
 
 <HelpWhite />
-<HelpSecuritySession />
-<HelpSecurityUsername />
 
 **手順C:** AnyConnectのインストールの途中で，以下のような「ブロックされたAnyConnectシステム拡張」という画面が出る場合があります．その際は表示される手順にしたがって，「システム設定」→「セキュリティとプライバシー」のペインに表示されているCisco AnyConnect Socket Filterに関する許可を行なってください． また2枚目のような画面が表示されますので，これも許可をしてください．
 
@@ -68,11 +65,10 @@ macOS 11 Big Sur以降のmacOSにAnyConnectのクライアントアプリケー�
 
 ![](img/mac10-anyconnect-login.png){:.medium.center.border}
 
+<HelpSecurityEducation />
 <HelpMfa />
 
 **手順G:** 認証に成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
-
-<HelpSecurityEducation />
 
 **手順H:** 再度Cisco AnyConnect Secure Mobility Clientをクリックし，現在の状態を確認します．表示された画面で，以下のように「Connected to vpn1.adm.u-tokyo.ac.jp」と表示されていれば，お使いの機器はUTokyo VPNに接続している状態です．
 

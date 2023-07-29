@@ -36,7 +36,7 @@ title: 東京大学のシステム
 - **[Slido](/slido/)**：Q&Aやライブ投票・アンケートなど，授業や会議・講演会などでの参加者との双方向コミュニケーションに役立つ機能を提供しているWebサービスです．Webexと連携しており，東京大学のWebexアカウントでサインインすると有料機能を利用することができます．
 - **[UTokyo MATLAB Campus-Wide License](/matlab/)**：科学技術計算のためのソフトウェアであるMATLABを東京大学の包括ライセンスで利用できます．
 - 【学生向け】**[UTokyo Microsoft Windows 10 for students](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_win10.html)**：Microsoft Windows 10 Education Upgradeのライセンスを提供しています．既にWindowsのライセンスを持っている場合に利用できるアップグレードライセンスであり，Windowsのライセンスがない場合の新規インストールには利用できないことに注意してください．
-- **[UTokyo Microsoft Azure Dev Tools for Teaching](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_adt4t.html)**：Microsoftの開発者向けソフトウェアを提供しています．UTokyo Accountで利用するUTokyo Microsoft License (Microsoft 365) とは別のシステムで，アカウントも異なりますので，手順をよく確認して利用してください．
+- **[UTokyo Microsoft Azure Dev Tools for Teaching](/microsoft/adt4t/)**：Microsoftの開発者用ソフトウェアを提供しています．
 
 ### 図書館・電子ジャーナル関連
 
