@@ -32,7 +32,7 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 
 ### 情報セキュリティ教育
 {:#information-security-education}
-東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認してください．
+東京大学では，情報セキュリティの向上のために様々な取り組みを行っており，それらは<a href="https://univtokyo.sharepoint.com/sites/Security">東京大学のセキュリティのページ</a>にまとめられています．その取り組みの一つとして，毎年度UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認してください．
 
 - 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo VPNの利用資格が停止されます．
 - 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格すると，ただちに利用資格の停止が解除されます．
