@@ -31,7 +31,7 @@ UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的とし�
 ### 情報セキュリティ教育
 {:#jouhou-security}
 
-東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認してください．
+東京大学では，情報セキュリティの向上のために様々な取り組みを行っており，それらは<a href="https://univtokyo.sharepoint.com/sites/Security">東京大学のセキュリティのページ</a>にまとめられています．その取り組みの一つとして，毎年度UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認してください．
 
 - 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo Wi-Fiの利用資格が停止されます．具体的には，UTokyo Wi-Fiアカウントメニューへのサインインやアカウントの新規発行ができなくなります．さらに，UTokyo Wi-Fiアカウントを以前に発行していた場合は，アカウントが削除されUTokyo Wi-Fiに接続することができなくなります． 
 - 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格するとただちに利用資格の停止が解除されるので，<a href="#expiration">アカウントを再発行・再設定する手順</a>に従って，UTokyo Wi-Fiアカウントメニューから新しいアカウントを発行し，デバイスに設定してください．
