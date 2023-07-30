@@ -112,3 +112,9 @@ UTokyo Accountのパスワードを忘れた場合には，次のような手順
 {:#mfa}
 
 UTokyo Accountでは**多要素認証** (Multi-Factor Authentication, MFA) を導入しています．多要素認証を設定すると，アカウントにサインインする際に，パスワードに加えて，SMSや専用のアプリ等での本人確認が要求されるようになります．詳細は[UTokyo Accountにおける多要素認証の利用について](mfa/)を参照してください．
+
+## 情報セキュリティ教育
+{:#information-security-education}
+
+{% include systems/information_security.html part="explanation" %}
+
