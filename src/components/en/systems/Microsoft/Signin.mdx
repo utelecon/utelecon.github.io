@@ -1,0 +1,17 @@
+import If from '@components/If.astro';
+
+1. Go to the [Microsoft sign-in page](https://myaccount.microsoft.com/).
+2. On the sign-in screen that appears, enter your 10-digit Common ID (UTokyo Account username) followed by `@utac.u-tokyo.ac.jp`, such as `1234567890@utac.u-tokyo.ac.jp`. `@utac.u-tokyo.ac.jp` indicates that you are a UTokyo member. (This screen will not appear if you are already signed in.)
+3. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
+4. Double check whether the University of Tokyo logo appears in the upper-left corner of the "My Account" screen.
+
+- <details>
+    <summary>Troubleshooting guide</summary>
+
+    - **You cannot access the sign-in screen from the above link**: This occurs when you are already signed in to Microsoft with another account. Click your account picture in the upper-right corner of the [Office 365 home page](https://www.office.com/) (either a picture you set or the default picture that shows your initials or a human silhouette). Click "Sign out" and access the sign-in page again.
+    - **If the message "Verify your phone number" appears**: This may occur when only the 10-digit common ID was entered. Enter it followed by `@utac.u-tokyo.ac.jp`, such as `1234567890@utac.u-tokyo.ac.jp`.
+    
+    <If cond={props.support}>
+    If the issue is still not resolved, please consult the [Technical Support Desk](/en/support/).
+    </If>
+  </details>

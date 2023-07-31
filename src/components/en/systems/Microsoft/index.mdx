@@ -1,0 +1,22 @@
+import If from '@components/If.astro';
+import Signin from "./Signin.mdx";
+import Access from "./Access.mdx";
+import InstallApps from "./InstallApps.mdx";
+
+<ul class="procedure">
+  <If cond={props.variant !== "individual"}>
+    <li>[Procedure video (in Japanese)](/oc/movies/#microsoft)</li>
+  </If>
+  <li>
+    **Check: Sign in**
+    <Signin support={props.variant !== "individual"} />
+  </li>
+  <li>
+    **Check: Make sure you can access UTokyo member-only pages**
+    <Access support={props.variant !== "individual"} />
+  </li>
+  <li>
+    **Optional task: Install Word or Excel on your computer** (you can use the one you have already installed)
+    <InstallApps support={props.variant !== "individual"} />
+  </li>
+</ul>
