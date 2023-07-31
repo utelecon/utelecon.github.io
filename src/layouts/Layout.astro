@@ -73,7 +73,6 @@ const locale = {
 }[lang];
 
 const siteName = "utelecon";
-const ogImage = `${Astro.site}/assets/images/ogp.png`;
 const gaid = "UA-160716658-1";
 ---
 
@@ -88,7 +87,7 @@ const gaid = "UA-160716658-1";
           title,
           type: "website",
           url: Astro.url.href,
-          image: ogImage,
+          image: new URL("/assets/images/ogp.png", Astro.site).href,
         },
         optional: {
           description,
@@ -114,6 +113,8 @@ const gaid = "UA-160716658-1";
     />
 
     <meta name="generator" content={Astro.generator} />
+
+    <link rel="icon" href="/assets/images/favicon.png" />
 
     <script
       async

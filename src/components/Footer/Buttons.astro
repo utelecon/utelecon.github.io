@@ -28,7 +28,10 @@ const supportUrl = {
 ---
 
 <div class="wrap">
-  <a class="link wide-only" onclick="scroll">
+  <a
+    class="link wide-only"
+    href="javascript:window.scrollTo({top:0,behavior:'smooth'});"
+  >
     <div class="icon">
       <span class="material-icon">arrow_upward</span>
     </div>
@@ -45,12 +48,6 @@ const supportUrl = {
     <div class="description">{localization.supportDesk[lang]}</div>
   </a>
 </div>
-
-<script is:inline>
-function scroll() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-}
-</script>
 
 <style lang="scss">
   @import "@styles/color.scss";
