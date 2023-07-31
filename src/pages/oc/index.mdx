@@ -7,9 +7,7 @@ redirect_from:
   - /oc/index_2020_a
 ---
 
-import Eccs from "@components/systems/Eccs/index.astro";
-import ApplyEccs from "@components/systems/Eccs/ApplyEccs.astro";
-import LoginEccs from "@components/systems/Eccs/LoginEccs.astro";
+import Eccs from '@components/systems/eccs/index.mdx';
 import ApplyUTokyoWifi from "@components/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
 import ConnectUTokyoWifi from "@components/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
 import Microsoft from "@components/systems/Microsoft/index.astro";
@@ -195,16 +193,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 { about_eccs }
 
-<ul>
-  <li>
-    <strong>作業：利用権を申請する</strong>
-    <ApplyEccs pageSlug="oc" />
-  </li>
-  <li>
-    <strong>練習：ログインしてみる</strong>
-    <LoginEccs pageSlug="oc" />
-  </li>
-</ul>
+<Eccs variant="oc-procedure" />
 
 ## その他
 

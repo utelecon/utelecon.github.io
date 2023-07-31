@@ -7,8 +7,7 @@ redirect_from:
   - /en/oc/index_2020_a
 ---
 
-import ApplyEccs from "@components/en/systems/Eccs/ApplyEccs.astro";
-import LoginEccs from "@components/en/systems/Eccs/LoginEccs.astro";
+import Eccs from '@components/en/systems/eccs/index.mdx';
 import ApplyUTokyoWifi from "@components/en/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
 import ConnectUTokyoWifi from "@components/en/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
 import Microsoft from "@components/en/systems/Microsoft/index.astro";
@@ -200,16 +199,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 { about_eccs }
 
-<ul>
-  <li>
-    <strong>Task: Apply for system user permission</strong>
-    <ApplyEccs pageSlug="oc" />
-  </li>
-  <li>
-    <strong>Exercise: Log in</strong>
-    <LoginEccs pageSlug="oc" />
-  </li>
-</ul>
+<Eccs variant="oc-procedure" />
 
 ## Others
 
