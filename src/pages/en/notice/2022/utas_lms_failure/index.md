@@ -70,22 +70,22 @@ We are working with the cloud vendor to fix the underlying problem. Meanwhile, y
 
 1\. **Use alternative servers with Chrome browser.** We have set up temporary servers that go around the broken route. Chrome browser is required to use them. If you are using Chrome or do not mind installing it for this purpose, run Chrome browser as follows.
 * On Windows: open "command prompt" and run
-```
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
-```
-Or, you may download [this batch file](run_chrome.bat) and run it.
-```
-run_chrome.bat
-```
-Note: If the command above does not work, you might try changing `Program Files` to `Program Files (x86)`, for example. The correct command depends on where the Chrome application is stored on your computer.
+  ```
+  "C:\Program Files\Google\Chrome\Application\chrome.exe" --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
+  ```
+  Or, you may download [this batch file](run_chrome.bat) and run it.
+  ```
+  run_chrome.bat
+  ```
+  Note: If the command above does not work, you might try changing `Program Files` to `Program Files (x86)`, for example. The correct command depends on where the Chrome application is stored on your computer.
 * On Macintosh or Linux: open terminal and run
-```
-chrome --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
-```
-Or, you may download this [shell script](run_chrome.sh) and run it.
-```
-sh run_chrome.sh
-```
+  ```
+  chrome --host-resolver-rules="map sts.adm.u-tokyo.ac.jp 20.188.19.21, map gidp.adm.u-tokyo.ac.jp 20.188.18.56"
+  ```
+  Or, you may download this [shell script](run_chrome.sh) and run it.
+  ```
+  sh run_chrome.sh
+  ```
 
 2\. **Use another carrier.** For example, if you have a smartphone that supports tethering (which may be called "Internet sharing", "WiFi access point", depending on the phone model you are using), turn it on and connect your PC to it.
 
