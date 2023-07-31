@@ -190,10 +190,10 @@ xxxx (The character string before @) is assigned by individual users from the EC
 ### Q. I cannot edit after signing in. What can I do?
 * There may be issues with license authentication. In such cases, editing might not be possible in Office applications such as Word.
 * For Mac users: Please follow the instructions below to delete your Office License and retry license authentication.
-  * For other OS users: Please contact the support desk.
   1. Follow the steps in [How to remove Office license files on a Mac – Office support](https://support.microsoft.com/en-us/office/how-to-remove-office-license-files-on-a-mac-b032c0f6-a431-4dad-83a9-6b727c03b193?ui=en-US&rs=en-US&ad=US) to download the Microsoft license removal tool.
   2. When you open Office applications such as Word after deleting the license, you will be asked to sign into Microsoft 365 (if you are not asked to sign in, find and click the button which says “Sign In”). Please try to sign in with your UTokyo Account (10-digit ID@@utac.u-tokyo.ac.jp) again.
   3. Once you have signed in, your license will be authenticated automatically.
+* For other OS users: Please contact the support desk.
 
 ## UTAS
 ### Q. What is UTAS?

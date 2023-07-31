@@ -19,9 +19,9 @@ The menu buttons are explained from left to right (some version may not display 
   1. **Screen Share** : You can share screens in your device.
   1. **Reactions** : You can express reactions by sending "applause" or "agree" emoji.
   1. **Details** : Menus that could not fit on the screen are included here (If the screen width is large enough, all menus will be displayed on the screen and "Details" may not be displayed).
-  * **Participants** : Displays a list of participants.  
-  * **Chat** : text chat.  
-  * **Record on this computer** : You can record if your host allows it. This button is often not used by anyone other than the organizer.  
+     * **Participants** : Displays a list of participants.  
+     * **Chat** : text chat.  
+     * **Record on this computer** : You can record if your host allows it. This button is often not used by anyone other than the organizer.  
   1. **Leave meeting** : Leave the meeting. A confirmation screen appears after you press it, so you do not exit immediately when you press the button.
   
   
