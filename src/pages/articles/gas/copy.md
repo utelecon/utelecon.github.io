@@ -138,8 +138,7 @@ Googleドライブには，**簡単な操作でフォルダそのものを複製
   <img src="img/copy_15.png" width="350px" />
 
 10. 必要に応じて［無題のプロジェクト］欄（Apps Scriptのロゴの右隣）に，プロジェクト名を入力します．
-  <img src="img/copy_16.png" width="500px" />
-  <img src="img/copy_17.png" width="500px" />
+  <img src="img/copy_16.png" width="500px" /><img src="img/copy_17.png" width="500px" />
 
 11. ツールバーの［実行］ボタン（左から2番目の再生マークのアイコン）をクリックします．
   <img src="img/copy_18.png" width="500px" />

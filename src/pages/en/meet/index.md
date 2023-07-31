@@ -125,7 +125,7 @@ Organizers should prepare for broadcasting as follows.
     <blockquote>
       <img src="img/join_hangouts_meet.png" width="400"/>
     </blockquote>
-1."Join Meeting"
+1. "Join Meeting"
     <blockquote>
       <img src="img/join_meeting.png" width="400"/>
     </blockquote>
