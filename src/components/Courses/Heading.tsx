@@ -1,11 +1,11 @@
 interface Props {
   children?: string | JSX.Element | JSX.Element[];
   pageSlug?: string;
-  defaltLayer?: number;
+  defaultLayer?: number;
 }
 
-const Heading = ({ children, pageSlug, defaltLayer }: Props) => {
-  if (defaltLayer == 4) {
+const Heading = ({ children, pageSlug, defaultLayer }: Props) => {
+  if (defaultLayer == 4) {
     return pageSlug == "faculty_members" ? (
       <h5>{children}</h5>
     ) : (
