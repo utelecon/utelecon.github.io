@@ -68,7 +68,7 @@ When you press the menu "Share screen", the options of screens to be shared appe
   
   * When "Screen" is selected, the screen of the person sharing the image itself is shared with everyone (If there are multiple screens such as a multi-monitor like an image, screen 1 and screen 2 have more options).
   * If you select "Whiteboard", a whiteboard in which you can draw freely will be shared with everyone.
-  * Selecting "iPhone / iPad" will allow you to share your iPhone / iPad screen (plug-in required). You can share via AirPlay from devices in the same WiFi network.
+  * Selecting "iPhone / iPad" will allow you to share your iPhone / iPad screen (plug-in required). You can share via AirPlay from devices in the same Wi-Fi network.
   * The currently open window is also displayed as an option. You can also share the screen in window units. If you don't want others to see all of your computer windows, we recommend that you select the window unity you want to share.
   
   <!--About Sharing audio-->
