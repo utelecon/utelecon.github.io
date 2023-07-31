@@ -11,7 +11,7 @@ import Eccs from '@components/systems/eccs/index.mdx';
 import ApplyUTokyoWifi from "@components/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
 import ConnectUTokyoWifi from "@components/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
 import Microsoft from "@components/systems/Microsoft/index.astro";
-import ItcLms from "@components/systems/ItcLms/index.astro";
+import ItcLms from '@components/systems/itc_lms/index.mdx'
 import Zoom from "@components/systems/Zoom/index.astro";
 import Google from '@components/procedures/Google/index.astro'
 import UTokyoAccount from '@components/procedures/UTokyoAccount/index.astro'
@@ -116,6 +116,8 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 ## 情報システムに関するその他の準備手順
 
+{:#procedure}
+
 つづいて，各種情報システムについて，それぞれのシステムへのログインや，東大のアカウント専用のページへのアクセスなどといった，もう少し細かい確認や作業の手順を説明します．万全の状態で授業を受けられるよう，これらの手順も授業開始までにできるだけ行っておくようにしてください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
 「[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](movies)」のページでは，以下の手順の一部を動画で説明していますので，必要に応じて確認してください．
@@ -142,7 +144,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 { about_itc_lms }
 
-<ItcLms pageSlug="oc" />
+<ItcLms variant="oc-procedure" />
 
 ### Zoom
 
