@@ -35,7 +35,7 @@ Steps for non-UTokyo Account sign-in are explained in the next section.
 ### Method of non-UTokyo Account Sign-in
 
 For a while, you may still use Zoom with non-UTokyo Account sign-in after the [System Changeover for Spring 2021](/en/change2021s/) (such as accounts using your ECCS Cloud Email address with the username of your choice, `xxxx@g.ecc.u-tokyo.ac.jp`).   
-To use Zoom with such accounts, please **visit the usual Zoom sign-in page, https://zoom.us/signin, and enter your previous sign-in email address and Zoom password**.
+To use Zoom with such accounts, please **visit the usual Zoom sign-in page, `https://zoom.us/signin`, and enter your previous sign-in email address and Zoom password**.
 <details>
     <summary>If you cannot find your previously saved meeting information (meeting room, cloud recording, etc.) after sign-in </summary>
     This occurs when you use the new sign-in method instead of the aforementioned method for UTokyo Accounts. When you use the new sign-in method, a new Zoom account for UTokyo Account sign-in is automatically created, and you will be signed into this new account. You are not seeing your previously saved meeting information because the new account does not inherit the previous account's data.   

@@ -31,3 +31,55 @@ ul.gap, ol.gap {
     margin-bottom: 0;
   }
 }
+
+// transported from mfa.scss
+ol.mfa-initial-procedure {
+  & > li {
+    counter-increment: mfa-initial-main;
+    &::marker {
+      content: counters(mfa-initial-main, "-") ". ";
+    }
+    &:first-child {
+      counter-reset: mfa-initial-main;
+    }
+  }
+}
+
+ol.mfa-initial-procedure ul,
+ul.mfa-initial-procedure {
+  counter-reset: mfa-initial-sub-headline;
+  & > li {
+    counter-increment: mfa-initial-sub-headline;
+    ol {
+      counter-reset: mfa-initial-sub-procedure;
+      & > li {
+        counter-increment: mfa-initial-sub-procedure;
+        list-style-position: inside;
+        text-indent: -1em;
+        &::marker {
+          content:
+            counters(mfa-initial-main, "-")
+            "-"
+            counters(mfa-initial-sub-headline, "-", upper-latin)
+            "-"
+            counters(mfa-initial-sub-procedure, "-")
+            ". ";
+        }
+        ol {
+          counter-reset: list-item;
+          list-style: lower-roman;
+          & > li {
+            counter-increment: mfa-initial-sub-procedure;
+            &::marker {
+              content: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.mfa-initial-step-heading {
+  counter-increment: mfa-initial-main;
+}

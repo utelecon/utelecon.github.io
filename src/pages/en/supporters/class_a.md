@@ -42,7 +42,9 @@ The Work for Class Supporter (Examples of the expected work)
   * Checking chat sent by the students. (Depending on the class style) 
   * The job of class supporters, in a word, is to prevent from occuring the worst case of happening (e.g. the lecturers spoke 30 minutes without noticing theri unmute)
   * The Class Supporter masters the very fundamental troubleshooting on the online conference systems.  
-* <font color="green">Collecting information regarding online conference systems and sharing with it, if the Class Supporter affard to do．</font> For example:
+* <font color="green">Collecting information regarding online conference systems and sharing with it, if the Class Supporter affard to do.</font>
+
+  For example:
   * The Class Supporter "I received the notification of  the Zoom update last night."
   * The Class Supporter "I found information at utelecon."
 * <span style="color: red">Hybrid classes that require class supporters to come to school should take in consideration whether the class supporter student can commute to campus or not.<u></u></span>
