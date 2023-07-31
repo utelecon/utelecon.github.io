@@ -1,0 +1,72 @@
+---
+import GoodPractice from "@components/GoodPractice";
+import type { Interview } from "@components/GoodPractice";
+import Layout from "@layouts/Layout.astro";
+
+const interviews = await Astro.glob<Omit<Interview, "path">>(
+  "./interview/*.md"
+);
+
+export const title = "グッドプラクティスの共有";
+---
+
+<Layout
+  frontmatter={{
+    title,
+    lang: "ja",
+    description:
+      "このページは，本学で行われたオンライン授業のグッドプラクティスを共有するためのページです．授業の形態や利用したツールごとに絞って閲覧できます．",
+  }}
+  headings={[
+    {
+      depth: 2,
+      text: "はじめに",
+      slug: "intro",
+    },
+    {
+      depth: 2,
+      text: "お知らせ",
+      slug: "notice",
+    },
+    {
+      depth: 2,
+      text: "記事一覧",
+      slug: "list",
+    },
+  ]}
+>
+  <h2 id="intro">はじめに</h2>
+  <ul>
+    <li>
+      このページは，本学で行われたオンライン授業のグッドプラクティスを共有するためのページです．
+    </li>
+    <li>
+      オンライン授業に関する学生アンケートに設置されていた「やり方の良かった授業」の自由記述欄において，多くのポジティブなコメントが寄せられていた先生方へのインタビュー記事が掲載されています．
+    </li>
+    <li>今後も記事を順次作成および公開していく予定です．</li>
+    <li>これらの情報がみなさまの実践の参考になれば幸いです．</li>
+  </ul>
+
+  <h2 id="notice">お知らせ</h2>
+  <ul>
+    <li>2020年11月27日 新しい記事1件を公開しました．</li>
+    <li>2020年11月12日 新しい記事3件を公開しました．</li>
+    <li>2020年11月4日 新しい記事1件を公開しました．</li>
+    <li>2020年10月21日 新しい記事1件を公開しました．</li>
+    <li>2020年10月8日 新しい記事3件を公開しました．</li>
+    <li>2020年10月5日 新しい記事1件を公開しました．</li>
+    <li>2020年9月22日 新しい記事3件を公開しました．</li>
+    <li>2020年9月21日 新しい記事1件を公開しました．</li>
+  </ul>
+
+  <h2 id="list">記事一覧</h2>
+  <p>以下のチェックボックスを使うことで記事の絞り込みができます．</p>
+
+  <GoodPractice
+    client:visible
+    interviews={interviews.map(({ url, frontmatter }) => ({
+      path: url!.replace(/\.md$/, ""),
+      ...frontmatter,
+    }))}
+  />
+</Layout>

@@ -1,0 +1,7 @@
+# for preview environment
+
+[build]
+command = "npm run build"
+
+[context.deploy-preview]
+publish = "dist/"
