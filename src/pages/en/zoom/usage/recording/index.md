@@ -12,7 +12,7 @@ Here are procedures on how to record a Zoom meeting to the cloud and set up inte
 ![Select "Record to the Cloud"](3.png)
 
 2. As the meeting ends, you will receive a notification email from Zoom once the recording file becomes available. Click on the link "this link can be used only by the host" in the email to access the "Recordings" page of your Zoom account ([https://zoom.us/recording](https://zoom.us/recording)).
-  * It may take some time to receive the email notification, as Zoom renders the video.
+   * It may take some time to receive the email notification, as Zoom renders the video.
 
 ![this link can be used only by the host](4.png)
 
@@ -27,7 +27,7 @@ Kindly note that the above wording differs from the current one due to the lates
 5. Turn off "Viewers can download". If you welcome students to download, keep it on.
 
 6. Copy the sharing information and share it via ITC-LMS or email.
-  * The URL and password indicated in "Recording Link Information" and the notification email under "Share recordings with viewers" are the same.
+   * The URL and password indicated in "Recording Link Information" and the notification email under "Share recordings with viewers" are the same.
 
 
 Reference URL: [Zoom Help Center Cloud Recording](https://support.zoom.us/hc/en-us/articles/203741855-%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E8%A8%98%E9%8C%B2)

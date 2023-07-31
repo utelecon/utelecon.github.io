@@ -23,11 +23,11 @@ This section provides information on how to schedule a Zoom Meeting from the Zoo
     ![](2.png){:.medium}  
     ![](3.png){:.medium}  
 
-3. After saving, copy and send out **the invite link** to participants via email.  
-![](4.png){:.medium}  
-  * **The password information is included in the URL** by default. Therefore, sharing the password separately is not required.
-  * The text obtained by clicking “Copy Invitation” contains unnecessary information such as how to join the meeting by dialing. We recommend that **you only share the URL of the meetings**, instead of copying the whole invitation.  
-  * By clicking “Show all occurrences”, you can edit the date/time settings or add another session to the scheduled recurring meetings. (For example, while the recurring meeting is set on Tuesdays, another class would be held on Thursday).
+3. After saving, copy and send out **the invite link** to participants via email.
+   ![](4.png){:.medium}
+   * **The password information is included in the URL** by default. Therefore, sharing the password separately is not required.
+   * The text obtained by clicking “Copy Invitation” contains unnecessary information such as how to join the meeting by dialing. We recommend that **you only share the URL of the meetings**, instead of copying the whole invitation.  
+   * By clicking “Show all occurrences”, you can edit the date/time settings or add another session to the scheduled recurring meetings. (For example, while the recurring meeting is set on Tuesdays, another class would be held on Thursday).
 
 ## Editing Meeting Options
 {:#edit}

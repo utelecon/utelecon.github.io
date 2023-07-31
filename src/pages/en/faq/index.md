@@ -167,7 +167,7 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
     3. You will be prompted to enter your email address and password, so enter your ECCS Cloud Email email address and password that you set up above.
 
 
-* If you are taken to the “You need access” page, but you are already signed in with ECCS Cloud Email, and your ECCS Cloud Email address (xxx@g.ecc.u-tokyo.ac.jp) shows up under “You’re signed in as”:
+* If you are taken to the “You need access” page, but you are already signed in with ECCS Cloud Email, and your ECCS Cloud Email address (`xxx@g.ecc.u-tokyo.ac.jp`) shows up under “You’re signed in as”:
   * We are currently experiencing issues with some ECCS Cloud Email accounts not being able to access UTokyo-exclusive websites even though they are correctly signed in. Your account may be affected by this issue. We will need to reset your account to resolve the issue. To do so, please contact the Technical Support Desk using the [email form](/en/support/#email-form). For more details, please refer to [ECCS News](https://www.ecc.u-tokyo.ac.jp/announcement/2021/03/30_3304.html)(Japanese only). Apologies for the inconvenience.
 
 
@@ -179,7 +179,7 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 * `10-digits-ID@utac.u-tokyo.ac.jp`（e.g. `1234567890@utac.u-tokyo.ac.jp`）
 This is the email address for UTokyo Accounts sign-in. Signing in with your 10 digits- ID is usually available. However, `@utac` is necessary to specify the UTokyo domain.
 * `10-digits-ID@g.ecc.u-tokyo.ac.jp`（e.g. `1234567890@g.ecc.u-tokyo.ac.jp`）
-This is the alias of ECCS Cloud Email. Signing in to Google with this email address is unavailable. Any email sent to this address will be forwarded to ECCS Cloud Email. (You can check the email by signing into Gmail with xxxx@g.ecc (email address named after your choice))
+This is the alias of ECCS Cloud Email. Signing in to Google with this email address is unavailable. Any email sent to this address will be forwarded to ECCS Cloud Email. (You can check the email by signing into Gmail with `xxxx@g.ecc` (email address named after your choice))
 * `xxxx@g.ecc.u-tokyo.ac.jp` (email address named after your choice)
 xxxx (The character string before @) is assigned by individual users from the ECCS User Menu (~Feb. 2021: UTokyo Account User Menu). Signing in to Google with this email address is available.
 
@@ -205,7 +205,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * If you cannot sign into these systems:
   * Reset your UTokyo Account <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank"> password</a>.
 * Reference: [UTAS](/utas)
-* 
+
 ### Q. 「[Error] あなたは現在このシステムを利用することができません」is shown and sign-in is unavailable. What can I do?
 * This may occur during affiliation transition, for example, from undergraduate to graduate. Please try again later.
 * If this does not apply to your situation, please contact the faculty or graduate school you belong to.

@@ -75,7 +75,6 @@ When you press the menu "Share screen", the options of screens to be shared appe
   
 For details, please refer to [Screen Sharing](screen_sharing/).
 
-  
 ## Chat
   
 If you press the menu "Chat", text chat will be available. It is important to note that if you log in from the middle of a meeting, you will not be able to see past text chats. Therefore, it is important to wait and send texts after every member has joined the meeting.
@@ -97,5 +96,5 @@ Here is a brief description of the menus specific to the organizer.
   1. **Polls(setting required)** : Allows participants to respond to polls. The questions themselves need to be created with a web browser, and you can create a question by pressing "Edit" or "Add question", when you are creating a question for the first time.
   1. **Breakout(setting required)** : Participants can be divided into subgroups. You can decide the number of people and assign them automatically, or you can assign them manually.
   1. **Recording** : You can record the state of the meeting.
-  * For detalis, please refer to [Cloud Recording](recording/).
+     * For detalis, please refer to [Cloud Recording](recording/).
   
