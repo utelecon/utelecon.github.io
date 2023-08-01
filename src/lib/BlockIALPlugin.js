@@ -1,62 +1,26 @@
-import type { Node } from "unist";
-import type { Parent, Root } from "mdast";
-import type { Properties } from "hast";
-import type { Plugin } from "unified";
-import type {
-  Extension as MicromarkExtension,
-  TokenizeContext,
-  Effects,
-  State,
-} from "micromark-util-types";
-import type {
-  Extension as FromMarkdownExtension,
-  CompileContext,
-  Token,
-} from "mdast-util-from-markdown";
+// @ts-check
+// js instead of ts in order for mdx language server to work
 import { codes } from "micromark-util-symbol/codes.js";
 import { asciiAlphanumeric, unicodeWhitespace } from "micromark-util-character";
 import { visit } from "unist-util-visit";
 
-interface ShorthandAttribute {
-  type: "#" | ".";
-  ident: string;
-}
+/**
+ * @typedef {import("micromark-util-types").Extension} MicromarkExtension
+ * @typedef {import("micromark-util-types").TokenizeContext} TokenizeContext
+ * @typedef {import("micromark-util-types").Tokenizer} Tokenizer
+ * @typedef {import("micromark-util-types").State} State
+ * @typedef {import("mdast-util-from-markdown").Extension} FromMarkdownExtension
+ * @typedef {import("mdast-util-from-markdown").CompileContext} CompileContext
+ * @typedef {import("mdast-util-from-markdown").Handle} Handle
+ * @typedef {import("mdast-util-from-markdown").Transform} Transform
+ * @typedef {import("./BlockIALPlugin").MdastNode} MdastNode
+ * @typedef {import("mdast").Parent} Parent
+ * @typedef {import("hast").Properties} Properties
+ * @typedef {import("unified").Processor} Processor
+ */
 
-interface FullAttribute {
-  name: string;
-  value: string;
-}
-
-interface IALData extends Properties {
-  id?: string;
-  className?: string[];
-}
-
-interface MdastData {
-  id?: string;
-  hProperties?: IALData;
-}
-
-interface IAL extends Node {
-  type: "ial";
-  data?: IALData;
-}
-
-declare module "mdast" {
-  interface StaticPhrasingContentMap {
-    ial: IAL;
-  }
-}
-
-declare module "mdast-util-from-markdown" {
-  interface CompileData {
-    ial?: IALData;
-    ialShorthandAttribute?: ShorthandAttribute;
-    ialFullAttribute?: FullAttribute;
-  }
-}
-
-const micromarkExtension: MicromarkExtension = {
+/** @type {MicromarkExtension} */
+const micromarkExtension = {
   text: {
     [codes.leftCurlyBrace]: { tokenize },
   },
@@ -65,13 +29,13 @@ const micromarkExtension: MicromarkExtension = {
   },
 };
 
-function tokenize(
-  this: TokenizeContext,
-  effects: Effects,
-  ok: State,
-  nok: State
-) {
-  const start: State = (code) => {
+/**
+ * @this {TokenizeContext}
+ * @type {Tokenizer}
+ */
+function tokenize(effects, ok, nok) {
+  /** @type {State} */
+  const start = (code) => {
     if (code !== codes.leftCurlyBrace) return nok(code);
     effects.enter("ial");
     effects.enter("ialOpen");
@@ -80,7 +44,8 @@ function tokenize(
     return colon;
   };
 
-  const colon: State = (code) => {
+  /** @type {State} */
+  const colon = (code) => {
     if (code !== codes.colon) return nok(code);
     effects.enter("ialColon");
     effects.consume(code);
@@ -88,7 +53,8 @@ function tokenize(
     return endOrVariant;
   };
 
-  const endOrVariant: State = (code) => {
+  /** @type {State} */
+  const endOrVariant = (code) => {
     if (unicodeWhitespace(code)) {
       effects.consume(code);
       return endOrVariant;
@@ -118,7 +84,8 @@ function tokenize(
     return nok(code);
   };
 
-  const ident: State = (code) => {
+  /** @type {State} */
+  const ident = (code) => {
     if (
       asciiAlphanumeric(code) ||
       code === codes.dash ||
@@ -134,7 +101,8 @@ function tokenize(
       : endOrVariant;
   };
 
-  const name: State = (code) => {
+  /** @type {State} */
+  const name = (code) => {
     if (asciiAlphanumeric(code) || code === codes.dash) {
       effects.consume(code);
       return name;
@@ -152,7 +120,8 @@ function tokenize(
     return nok(code);
   };
 
-  const leftQuote: State = (code) => {
+  /** @type {State} */
+  const leftQuote = (code) => {
     if (code !== codes.quotationMark) return nok(code);
     effects.enter("ialValueStart");
     effects.consume(code);
@@ -161,7 +130,8 @@ function tokenize(
     return value;
   };
 
-  const value: State = (code) => {
+  /** @type {State} */
+  const value = (code) => {
     if (code === codes.quotationMark) {
       effects.exit("ialValue");
       effects.enter("ialValueEnd");
@@ -177,7 +147,8 @@ function tokenize(
   return start;
 }
 
-const fromMarkdownExtension: FromMarkdownExtension = {
+/** @type {FromMarkdownExtension} */
+const fromMarkdownExtension = {
   canContainEols: ["ial"],
   enter: {
     ial: enterIAL,
@@ -192,16 +163,28 @@ const fromMarkdownExtension: FromMarkdownExtension = {
   transforms: [transform],
 };
 
-function enterIAL(this: CompileContext, _token: Token) {
+/**
+ * @this {CompileContext}
+ * @type {Handle}
+ */
+function enterIAL(_token) {
   this.setData("ial", {});
 }
 
-function exitIALVariant(this: CompileContext, token: Token) {
-  const type = this.sliceSerialize(token) as "#" | ".";
+/**
+ * @this {CompileContext}
+ * @type {Handle}
+ */
+function exitIALVariant(token) {
+  const type = /** @type {"#" | "."} */ (this.sliceSerialize(token));
   this.setData("ialShorthandAttribute", { type, ident: "" });
 }
 
-function exitIALIdent(this: CompileContext, token: Token) {
+/**
+ * @this {CompileContext}
+ * @type {Handle}
+ */
+function exitIALIdent(token) {
   let data = this.getData("ial");
   if (!data) {
     data = {};
@@ -223,14 +206,22 @@ function exitIALIdent(this: CompileContext, token: Token) {
   }
 }
 
-function exitIALName(this: CompileContext, token: Token) {
+/**
+ * @this {CompileContext}
+ * @type {Handle}
+ */
+function exitIALName(token) {
   this.setData("ialFullAttribute", {
     name: this.sliceSerialize(token),
     value: "",
   });
 }
 
-function exitIALValue(this: CompileContext, token: Token) {
+/**
+ * @this {CompileContext}
+ * @type {Handle}
+ */
+function exitIALValue(token) {
   const attribute = this.getData("ialFullAttribute");
   if (!attribute) return;
   attribute.value = this.sliceSerialize(token);
@@ -239,20 +230,27 @@ function exitIALValue(this: CompileContext, token: Token) {
   data[attribute.name] = attribute.value;
 }
 
-function exitIAL(this: CompileContext, token: Token) {
+/**
+ * @this {CompileContext}
+ * @type {Handle}
+ */
+function exitIAL(token) {
   const data = this.getData("ial");
   this.enter({ type: "ial", data }, token);
   this.exit(token);
 }
 
-function transform(tree: Root) {
-  const stack: { parent: Parent; index: number }[] = [];
+/** @type {Transform} */
+function transform(tree) {
+  /** @type {{ parent: Parent; index: number }[]} */
+  const stack = [];
 
   visit(tree, "ial", (node, index, parent) => {
     if (parent === null || index === null) return;
 
     let offset = 1;
-    let last: Node<MdastData> = parent.children[index - 1];
+    /** @type {MdastNode} */
+    let last = parent.children[index - 1];
     while (last.type === "ial") last = parent.children[index - ++offset];
 
     last.data ??= {};
@@ -265,21 +263,28 @@ function transform(tree: Root) {
   });
 
   while (stack.length > 0) {
-    const { parent, index } = stack.pop()!;
+    const { parent, index } = /** @type {{ parent: Parent; index: number }} */ (
+      stack.pop()
+    );
     parent.children.splice(index, 1);
   }
 }
 
-function merge(
-  existing: Properties | undefined,
-  additional: Properties | undefined
-) {
+/**
+ *
+ * @param {Properties | undefined} existing
+ * @param {Properties | undefined} additional
+ * @returns
+ */
+function merge(existing, additional) {
   if (existing && additional) {
-    const keys = new Set<string>([
+    const keys = new Set([
       ...Object.keys(existing),
       ...Object.keys(additional),
     ]);
-    const result: Properties = {};
+
+    /** @type {Properties} */
+    const result = {};
     for (const key of keys) {
       const e = existing[key];
       const a = additional[key];
@@ -295,11 +300,16 @@ function merge(
   }
 }
 
-export default function blockIALPlugin(this: ThisParameterType<Plugin>) {
+/**
+ * @this {Processor}
+ */
+export default function blockIALPlugin() {
   const data = this.data();
   data.micromarkExtensions ??= [];
-  (data.micromarkExtensions as any).push(micromarkExtension);
+  /** @type {any} */ (data.micromarkExtensions).push(micromarkExtension);
 
   data.fromMarkdownExtensions ??= [];
-  (data.fromMarkdownExtensions as any).push([fromMarkdownExtension]);
+  /** @type {any} */ (data.fromMarkdownExtensions).push([
+    fromMarkdownExtension,
+  ]);
 }
