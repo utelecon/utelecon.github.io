@@ -3,15 +3,15 @@ import Login from "./Login.mdx";
 import SetupNotification from "./SetupNotification.mdx";
 
 <ul>
-  <If cond={props.variant !== "individual"}>
+  <If cond={props.variant === "oc"}>
     <li>[以下の手順の動画](https://youtu.be/xAur5zar5Sc)</li>
   </If>
   <li>
     **練習：ログインしてみる**
-    <Login support={props.variant !== "individual"} />
+    <Login support={props.variant === "oc"} />
   </li>
   <li>
     **任意の作業：LINEと通知を連携する**
-    <SetupNotification support={props.variant !== "individual"} />
+    <SetupNotification support={props.variant === "oc"} />
   </li>
 </ul>

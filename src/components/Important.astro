@@ -1,0 +1,35 @@
+---
+interface Props {
+  short: boolean;
+  lang: "ja" | "en";
+  system: string;
+  prefix: string;
+  title: string;
+}
+
+const { short, lang, system, prefix, title } = Astro.props;
+const colon = { ja: "：", en: ": " }[lang];
+const repost = { ja: "（再掲）", en: "(Repost)" }[lang];
+---
+
+{
+  short ? (
+    <>
+      <strong>{system + colon + title}</strong>
+      <slot name="important" />
+    </>
+  ) : (
+    <ul>
+      <li>
+        <details>
+          <summary>
+            {repost}
+            <strong>{prefix + colon + title}</strong>
+          </summary>
+          <slot name="important" />
+        </details>
+      </li>
+      <slot />
+    </ul>
+  )
+}

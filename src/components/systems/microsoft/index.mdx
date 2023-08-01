@@ -4,19 +4,19 @@ import Access from "./Access.mdx";
 import InstallApps from "./InstallApps.mdx";
 
 <ul>
-  <If cond={props.variant !== "individual"}>
+  <If cond={props.variant === "oc"}>
     <li>[手順動画](/oc/movies#microsoft)</li>
   </If>
   <li>
     **確認：サインインしてみる**
-    <Signin support={props.variant !== "individual"} />
+    <Signin support={props.variant === "oc"} />
   </li>
   <li>
     **確認：東大のアカウント専用のページにアクセスできるか確認する**
-    <Access support={props.variant !== "individual"} />
+    <Access support={props.variant === "oc"} />
   </li>
   <li>
     **任意の作業：パソコンにWordやExcelをインストールする**
-    <InstallApps support={props.variant !== "individual"} />
+    <InstallApps support={props.variant === "oc"} />
   </li>
 </ul>

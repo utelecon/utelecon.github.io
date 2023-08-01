@@ -4,16 +4,16 @@ import SetupNotification from "./SetupNotification.mdx";
 
 <ul>
   {/*
-    <If cond={props.variant !== "individual"}>
+    <If cond={props.variant === "oc"}>
       <li>[Procedure video (in Japanese)](https://youtu.be/xAur5zar5Sc)</li>
     </If>
   */}
   <li>
     **Check: Sign in to ITC-LMS**
-    <Login support={props.variant !== "individual"} />
+    <Login support={props.variant === "oc"} />
   </li>
   <li>
     **Optional task: Link ITC-LMS with LINE notification**
-    <SetupNotification support={props.variant !== "individual"} />
+    <SetupNotification support={props.variant === "oc"} />
   </li>
 </ul>
