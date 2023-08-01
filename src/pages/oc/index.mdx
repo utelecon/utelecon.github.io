@@ -8,8 +8,7 @@ redirect_from:
 ---
 
 import Eccs from '@components/systems/eccs/index.mdx';
-import ApplyUTokyoWifi from "@components/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
-import ConnectUTokyoWifi from "@components/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
+import UTokyoWiFi from '@components/systems/utokyo_wifi/index.mdx';
 import Microsoft from "@components/systems/microsoft/index.mdx";
 import ItcLms from '@components/systems/itc_lms/index.mdx'
 import Zoom from "@components/systems/Zoom/index.astro";
@@ -108,11 +107,9 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
     <UTokyoAccount part="important" pageSlug="oc" />
     <Google part="important" pageSlug="oc" />
     <UTAS part="important" pageSlug="oc" />
-    <li>
-        <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
-        <ApplyUTokyoWifi pageSlug="oc" />
-    </li>
 </ul>
+
+- <UTokyoWiFi variant="oc" important />
 
 ## 情報システムに関するその他の準備手順
 
@@ -176,18 +173,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 { about_utokyo_wifi }
 
-<ul>
-  <li>
-    <details>
-      <summary>（再掲）<strong>作業：アカウントを申請する</strong></summary>
-      <ApplyUTokyoWifi pageSlug="oc" />
-    </details>
-  </li>
-  <li>
-    <strong>作業：実際に接続する</strong>
-    <ConnectUTokyoWifi pageSlug="oc" />
-  </li>
-</ul>
+<UTokyoWiFi variant="oc" />
 
 ### ECCS 端末
 

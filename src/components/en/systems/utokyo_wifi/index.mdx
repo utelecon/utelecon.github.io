@@ -1,0 +1,55 @@
+import If from "@components/If.astro";
+import Important from "@components/Important.astro";
+import Apply from "./Apply.mdx";
+import Connect from "./Connect.mdx";
+
+<If cond={props.variant === "oc"}>
+  <Important
+    short={props.important}
+    lang="en"
+    system="UTokyo Wi-Fi"
+    prefix="Task"
+    title="Apply for an account"
+  >
+    <ul slot="important">
+      <li>[Procedure video (in Japanese)](/oc/movies#utokyo_wifi)</li>
+    </ul>
+    <Apply
+      variant="oc"
+      utasOnly
+      support
+      jouhouSecurity={`["Information Security Education" section on UTokyo Wi-Fi page](/en/utokyo_wifi/#jouhou-security)`}
+      slot="important"
+    />
+    <li>
+      **Task: Try connecting**
+      <Connect
+        deviceDescription="the device you want to connect"
+        applyStep="the step above"
+        connectConfiguration={`["Connect Configuration" on UTokyo Wi-Fi page](/en/utokyo_wifi/#connect-configuration)`}
+        support
+      />
+    </li>
+  </Important>
+  <Fragment slot="else">
+    - **Step 1: Check the devices to be used**  
+      Laptops, smartphones, and tablets can generally connect to UTokyo Wi-Fi. However, other types of electronic devices and older devices may not be able to connect. For example, devices that do not support WPA2-Enterprise cannot be connected. Please check for updates to the OS and drivers of your devices and update them appropriately before connecting to UTokyo Wi-Fi.
+    - **Step 2: Apply for a UTokyo Wi-Fi Account**
+      - Note: If you already have a valid UTokyo Wi-Fi account, you do not need to repeat the account issuance procedure (the same account can be used for the second and subsequent devices).
+
+      <Apply
+        blockLink
+        support
+        jouhouSecurity={`["Information Security Education"](#jouhou-security) section`}
+        slot="important"
+      />
+    - **Step 3: Connect to UTokyo Wi-Fi**
+      <Connect
+        deviceDescription="the device you checked in Step 1"
+        applyStep="Step 2"
+        connectConfiguration={`["Connect Configuration"](#connect-configuration) section below`}
+        support
+      />
+    {:.gap}
+  </Fragment>
+</If>

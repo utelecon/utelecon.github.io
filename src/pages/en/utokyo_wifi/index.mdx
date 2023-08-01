@@ -3,8 +3,7 @@ title: UTokyo Wi-Fi
 slug: utokyo_wifi
 ---
 
-import ConnectUTokyoWifi from "@components/en/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
-import ApplyUTokyoWifi from "@components/en/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
+import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
 
 <div class="box--alert box--important">
   [Important]{" "}
@@ -54,27 +53,7 @@ UTokyo Wi-Fi is only available on individuals' own device: **it is prohibited to
 
 {:#initial-setup}
 
-<ul class="gap">
-  <li>
-    <strong>Step 1: Check the devices to be used </strong>
-    <div>
-      Laptops, smartphones, and tablets can generally connect to UTokyo Wi-Fi.
-      However, other types of electronic devices and older devices may not be
-      able to connect. For example, devices that do not support WPA2-Enterprise
-      cannot be connected. Please check for updates to the OS and drivers of
-      your devices and update them appropriately before connecting to UTokyo
-      Wi-Fi.
-    </div>
-  </li>
-  <li>
-    <strong>Step 2: Apply for a UTokyo Wi-Fi Account</strong>
-    <ApplyUTokyoWifi />
-  </li>
-  <li>
-    <strong>Step 3: Connect to UTokyo Wi-Fi</strong>
-    <ConnectUTokyoWifi />
-  </li>
-</ul>
+<UTokyoWiFi variant="individual" class="gap" />
 
 ## Information on usage
 

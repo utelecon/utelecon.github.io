@@ -8,8 +8,7 @@ redirect_from:
 ---
 
 import Eccs from '@components/en/systems/eccs/index.mdx';
-import ApplyUTokyoWifi from "@components/en/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
-import ConnectUTokyoWifi from "@components/en/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
+import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
 import Microsoft from "@components/en/systems/microsoft/index.mdx";
 import ItcLms from "@components/en/systems/itc_lms/index.mdx";
 import Zoom from "@components/en/systems/Zoom/index.astro";
@@ -114,11 +113,9 @@ Please check the “[大学生活に必要な情報システムの準備につ�
     <UTokyoAccount part="important" pageSlug="oc" />
     <Google part="important" pageSlug="oc" />
     <UTAS part="important" pageSlug="oc" />
-    <li>
-      <strong>UTokyo Wi-Fi: Apply for an account</strong>
-      <ApplyUTokyoWifi pageSlug="oc" part="important" />
-    </li>
 </ul>
+
+- <UTokyoWiFi variant="oc" important />
 
 ## Other Procedures to Use the Information Systems
 
@@ -180,18 +177,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 { about_utokyo_wifi }
 
-<ul>
-  <li>
-    <details>
-      <summary>(Repost) <strong>Task: Apply for an account</strong></summary>
-      <ApplyUTokyoWifi pageSlug="oc" />
-    </details>
-  </li>
-  <li>
-    <strong>Task: Try connecting</strong>
-    <ConnectUTokyoWifi pageSlug="oc" />
-  </li>
-</ul>
+<UTokyoWiFi variant="oc" />
 
 ### ECCS terminals
 
