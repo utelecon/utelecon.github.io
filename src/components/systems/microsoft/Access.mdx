@@ -1,15 +1,10 @@
-import If from "@components/If.astro";
+import Help from "@components/Help.astro";
 
 1. [東大のアカウント専用のテストフォーム (Microsoft Forms)](https://forms.office.com/r/E04PmwAizB) にアクセスしてください．
 1. もしサインインしていなければサインイン画面が表示されるので，上の手順と同じように，`1234567890@utac.u-tokyo.ac.jp` を入力してサインインしてください．
 1. フォームの内容を見ることができればOKです（回答・送信する必要はありません）．
 
-- <details>
-    <summary>この手順がうまくいかないときのヘルプ</summary>
-
+- <Help lang="ja" support={props.support}>
     - **「このフォームを表示したり、フォームに回答したりするためのアクセス許可がありません」のようなエラーが出る場合**：前から持っていた自分のアカウントで既にMicrosoftにサインインしているときに起きます．[Officeのトップページ](https://www.office.com/)の右上にある丸いアイコン（自分のアイコンか，設定していない場合はイニシャルあるいは人のマーク）を押して，「サインアウト」してください．その後，アクセスし直してみてください．[パソコンの手順動画](https://youtu.be/SiOS0M9FChk) [スマホの手順動画](https://youtu.be/QZGGHcQvUXU)
+  </Help>
 
-    <If cond={props.support}>
-    これらを確認して，それでもうまくいかなければ，[サポート窓口](/support/)に相談してください．
-    </If>
-  </details>

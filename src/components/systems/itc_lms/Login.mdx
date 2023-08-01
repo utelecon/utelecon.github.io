@@ -1,8 +1,6 @@
-import If from '@components/If.astro';
+import Support from '@components/Support.astro';
 
 1. [ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/login)にアクセスして，「ログイン」を押してください．
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 
-<If cond={props.support}>
-- この手順がうまくいかないときは[サポート窓口](/support/)に相談してください．
-</If>
+<Support lang="ja" show={props.support} />

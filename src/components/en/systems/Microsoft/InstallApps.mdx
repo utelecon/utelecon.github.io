@@ -1,4 +1,4 @@
-import If from '@components/If.astro';
+import Support from '@components/Support.astro';
 
 1. Go to the [Office 365 home page](https://portal.office.com/).
 2. The sign-in screen will appear if you are not already signed in. Enter your UTokyo Account email address (e.g., `1234567890@utac.u-tokyo.ac.jp`) and sign in, as explained above.
@@ -9,6 +9,4 @@ import If from '@components/If.astro';
 7. Here, a screen may appear stating "Stay signed in to all your apps". In that case, uncheck the "Allow my organization to manage my device" checkbox in the screen and click "OK".
 8. Once you have signed in, you will be able to create/edit Word and Excel files.
 
-<If cond={props.support}>
-- If this procedure does not work, please consult the [Technical Support Desk](/en/support/).
-</If>
+<Support lang="en" show={props.support} />

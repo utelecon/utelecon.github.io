@@ -1,15 +1,9 @@
-import If from '@components/If.astro';
+import Help from '@components/Help.astro';
 
 1. Go to the [UTokyo member-only test form (Microsoft Forms)](https://forms.office.com/r/E04PmwAizB).
 2. A sign-in screen will appear if you are not already signed in. Enter your UTokyo Account email address (e.g., `1234567890@utac.u-tokyo.ac.jp`) and sign in as explained above.
 3. You are properly signed in if you can see the form contents (you do not have to fill or respond to the form).
 
-- <details>
-    <summary>Troubleshooting guide</summary>
-
+- <Help lang="en" support={props.support}>
     - **Error message "You don’t have permission to view or respond to this form"**: This error occurs when you are already signed in to Microsoft with another account. Click your account picture in the upper-right corner of the [Office 365 home page](https://www.office.com/) (either a picture you set, or the default picture that shows your initials or a human silhouette). Click "Sign out" and access the sign-in page again. [Procedure video for PC](https://youtu.be/SiOS0M9FChk) [Procedure video for smartphone](https://youtu.be/QZGGHcQvUXU)
-
-    <If cond={props.support}>
-    If the issue is still not resolved, please consult the [Technical Support Desk](/en/support/).
-    </If>
-  </details>
+  </Help>

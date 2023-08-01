@@ -1,0 +1,21 @@
+---
+import Support from "./Support.astro";
+
+interface Props {
+  lang: "ja" | "en";
+  support: boolean;
+  open?: boolean;
+}
+
+const { lang, support, open } = Astro.props;
+const summary = {
+  ja: "この手順がうまくいかないときのヘルプ",
+  en: "Troubleshooting guide",
+}[lang];
+---
+
+<details open={open}>
+  <summary>{summary}</summary>
+  <slot />
+  <Support lang={lang} show={support} afterDetails />
+</details>

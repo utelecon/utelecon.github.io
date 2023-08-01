@@ -1,4 +1,4 @@
-import If from '@components/If.astro'
+import Support from '@components/Support.astro'
 
 1. [Officeのページ](https://portal.office.com/)にアクセスしてください．
 2. もしサインインしていなければサインイン画面が表示されるので，上の手順と同じように，`1234567890@utac.u-tokyo.ac.jp` を入力してサインインしてください．
@@ -9,6 +9,4 @@ import If from '@components/If.astro'
 7. ここで，「すべてのアプリにサインインしたままにする」という画面が表示されることがあります．その場合は，画面内の「組織がデバイスを管理できるようにする」というチェックボックスを外した上で，「OK」を押してください．
 8. サインインが完了すると，WordやExcelのファイルが作成・編集できるようになります．
 
-<If cond={props.support}>
-- この手順がうまくいかないときは[サポート窓口](/support/)に相談してください．
-</If>
+<Support lang="ja" show={props.support} />

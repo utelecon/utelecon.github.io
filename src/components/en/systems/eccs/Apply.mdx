@@ -1,4 +1,4 @@
-import If from "@components/If.astro";
+import Support from "@components/Support.astro";
 
 1. Access [ECCS application menu](https://idm.ecc.u-tokyo.ac.jp/idworkflow/).
 2. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
@@ -6,6 +6,4 @@ import If from "@components/If.astro";
 4. Click on the "ECCS Application (for students)" link.
 5. Confirm the details of your application and click the "Submit" button. You will be granted ECCS usage rights immediately after completing the application.
 
-<If cond={props.support}>
-- If this procedure does not work, please consult the [Technical Support Desk](/en/support/).
-</If>
+<Support lang="en" show={props.support} />

@@ -1,0 +1,43 @@
+---
+interface Props {
+  show: boolean;
+  lang: "ja" | "en";
+  afterDetails?: boolean;
+}
+
+const { show, lang, afterDetails = false } = Astro.props;
+---
+
+{
+  show &&
+    {
+      "ja-false": (
+        <ul>
+          <li>
+            この手順がうまくいかないときは<a href="/support/">サポート窓口</a>
+            に相談してください．
+          </li>
+        </ul>
+      ),
+      "ja-true": (
+        <p>
+          これらを確認して，それでもうまくいかなければ，
+          <a href="/support/">サポート窓口</a>に相談してください．
+        </p>
+      ),
+      "en-false": (
+        <ul>
+          <li>
+            If this procedure does not work, please consult the{" "}
+            <a href="/en/support/">Technical Support Desk</a>.
+          </li>
+        </ul>
+      ),
+      "en-true": (
+        <p>
+          If the issue is still not resolved, please consult the{" "}
+          <a href="/en/support/">Technical Support Desk</a>.
+        </p>
+      ),
+    }[`${lang}-${afterDetails}`]
+}
