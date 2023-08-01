@@ -1,0 +1,39 @@
+import If from "@components/If.astro";
+import SigninBrowser from "./SigninBrowser.mdx";
+import InstallAppPc from "./InstallAppPc.mdx";
+import InstallAppSp from "./InstallAppSp.mdx";
+import Join from "./Join.mdx";
+import SigninApp from "./SigninApp.mdx";
+import CreateMeeting from "./CreateMeeting.mdx";
+
+<ul class="procedure">
+  <If cond={props.variant === "oc"}>
+    <li>[手順動画](/oc/movies#zoom)</li>
+  </If>
+  <li>
+    **確認：サインインしてみる**
+    <SigninBrowser support={props.variant === "oc"} />
+  </li>
+  <li>
+    **作業：パソコンにアプリをインストールする**
+    <InstallAppPc support={props.variant === "oc"} />
+  </li>
+  <li>
+    **任意の作業：スマホにアプリをインストールする** <If cond={props.variant === "oc"}>（必須ではありませんが，やっておくと，パソコンの調子がおかしいときなど，いざというときに安心です）</If>
+    <InstallAppSp support={props.variant === "oc"} />
+  </li>
+  <li>
+    **確認：東大のアカウント専用の会議室に入ってみる** <If cond={props.variant === "oc"}>（実際に授業で使う予定の機器でやっておきましょう．また，予備としてパソコンだけでなくスマホでもやっておくと安心です）</If>
+    <Join support={props.variant === "oc"} />
+  </li>
+  <li>
+    **任意の作業：アプリにサインインする** <If cond={props.variant === "oc"}>（自分で会議を開く機会がある人などには便利です）</If>
+    <SigninApp support={props.variant === "oc"} />
+  </li>
+  <If cond={props.variant !== "oc"}>
+    <li>
+      **練習：会議室を作ってみる**
+      <CreateMeeting support={props.variant === "oc"} />
+    </li>
+  </If>
+</ul>

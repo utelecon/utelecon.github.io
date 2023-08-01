@@ -5,17 +5,18 @@ interface Props {
   lang: "ja" | "en";
   support: boolean;
   open?: boolean;
+  summary?: string;
 }
 
-const { lang, support, open } = Astro.props;
-const summary = {
+const { lang, support, open, summary } = Astro.props;
+const defaultSummary = {
   ja: "この手順がうまくいかないときのヘルプ",
   en: "Troubleshooting guide",
 }[lang];
 ---
 
 <details open={open}>
-  <summary>{summary}</summary>
+  <summary>{summary ?? defaultSummary}</summary>
   <slot />
   <Support lang={lang} show={support} afterDetails />
 </details>

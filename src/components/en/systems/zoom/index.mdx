@@ -1,0 +1,39 @@
+import If from "@components/If.astro";
+import SigninBrowser from "./SigninBrowser.mdx";
+import InstallAppPc from "./InstallAppPc.mdx";
+import InstallAppSp from "./InstallAppSp.mdx";
+import Join from "./Join.mdx";
+import SigninApp from "./SigninApp.mdx";
+import CreateMeeting from "./CreateMeeting.mdx";
+
+<ul class="procedure">
+  <If cond={props.variant === "oc"}>
+    <li>[Procedure Video (in Japanese)](/oc/movies#zoom)</li>
+  </If>
+  <li>
+    **Check: Sign in**
+    <SigninBrowser support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Task: Install the application on your computer**
+    <InstallAppPc support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Optional task: Install the application on your smartphone** <If cond={props.variant === "oc"}>(this is not mandatory but useful in case of emergencies)</If>
+    <InstallAppSp support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Check: Enter UTokyo member restricted Zoom meeting rooms** <If cond={props.variant === "oc"}>(Try using the actual device you plan to use in class. It is also a good idea to try this on your smartphone as well as your computer as a backup.)</If>
+    <Join support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Optional Task: Sign in to the application** <If cond={props.variant === "oc"}>(useful for people who have opportunities to host meetings) </If>
+    <SigninApp support={props.variant === "oc"} />
+  </li>
+  <If cond={props.variant !== "oc"}>
+    <li>
+      **Exercise: Creating a Meeting Room**
+      <CreateMeeting support={props.variant === "oc"} />
+    </li>
+  </If>
+</ul>

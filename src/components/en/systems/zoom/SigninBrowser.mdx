@@ -1,0 +1,27 @@
+import If from '@components/If.astro';
+import Support from '@components/Support.astro';
+import SigninBrowserHelp from './SigninBrowserHelp.mdx';
+
+1. Go to the [UTokyo Zoom page](https://u-tokyo-ac-jp.zoom.us/) (please note that this is a Zoom sign-in page for UTokyo members only and is not a regular Zoom sign-in page).
+2. A page labeled "UTokyo Zoom" will appear. Click the "Config" button on the "UTokyo Zoom" page.
+   <If cond={props.big}>
+     ![](/en/zoom/signin/1.png){:.medium}
+   </If>
+   <If cond={props.inlineHelp}>
+     <SigninBrowserHelp big={props.big} inline />
+   </If>
+3. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
+   <If cond={props.big}>
+     ![](/en/zoom/signin/2.png){:.medium}
+   </If>
+4. If you see "Licensed" with your Common ID after clicking the icon in the top right corner of the Zoom settings page (a human silhouette or a profile picture that you have set up), you have successfully signed into Zoom with your UTokyo account.
+   <If cond={props.big}>
+     ![](/en/zoom/signin/license.png){:.medium}
+   </If>
+
+<If cond={props.inlineHelp}>
+  <Support lang="en" show={props.support} />
+  <Fragment slot="else">
+    - <SigninBrowserHelp support={props.support} />
+  </Fragment>
+</If>
