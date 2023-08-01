@@ -1,0 +1,60 @@
+h1:not(.title) {
+  font-size: 1.75em;
+  font-weight: bold;
+  margin-top: 0.57em;
+  margin-bottom: 0.57em;
+  padding-left: 0.43em;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
+  color: black;
+  border-left: 0.43em solid $heading-color;
+  border-bottom: 2px solid $heading-color;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  padding-left: 0.5em;
+  color: black;
+  border-left: 0.5em solid $heading-color;
+  border-bottom: 2px solid $heading-color;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  padding-left: 0.9em;
+  color: black;
+  border-left: 0.3em solid $heading-color;
+}
+
+h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
+  color: black;
+  border-bottom: 1px solid $heading-color;
+}
+
+h5 {
+  font-size: 1.125em;
+  font-weight: bold;
+  margin-top: 0.89em;
+  margin-bottom: 0.89em;
+  color: black;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 0.89em;
+  margin-bottom: 0.89em;
+  color: black;
+}

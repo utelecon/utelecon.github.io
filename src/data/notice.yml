@@ -1,0 +1,713 @@
+# yaml-language-server: $schema=./schemas/notice.json
+
+# contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
+# "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
+-
+  date: 2023-07-25
+  content:
+    ja: "[【ECCSクラウドメール】共有ドライブの代表責任者登録のお願い](https://www.ecc.u-tokyo.ac.jp/announcement/2023/07/25_3553.html)"
+    en: "[\\[ECCS Cloud Email\\] Request for Registration of Responsible Representative for Shared Drives](https://www.ecc.u-tokyo.ac.jp/announcement/2023/07/25_3553.html)"
+-
+  date: 2023-07-24
+  content:
+    ja: "[2023年度Aセメスター「コモンサポーター」募集のお知らせ](/notice/2023/0724-cs) （8月10日13時締切）"
+-
+  date: 2023-07-12
+  content:
+    ja: "[UTokyo VPNのメンテナンス（2023年7月14日）](/notice/2023/0714-vpn)"
+-
+  date: 2023-07-06
+  content:
+    ja: "7月5日より，2023年度の[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)が開始されました．8月7日までに受講を完了しない場合，[UTokyo Wi-Fi](/utokyo_wifi)，[UTokyo VPN](/utokyo_vpn)，[UTokyo Slack](/slack)の利用が停止されます．"
+  important: true
+-
+  date: 2023-06-29
+  content:
+    ja: "[UTokyo Wi-Fiのメンテナンス（2023年7月5日）](/notice/2023/0705-wifi)"
+-
+  date: 2023-06-15
+  content:
+    ja: "[UTokyo Slackへの編入（移行）手続き受付終了のお知らせ](/notice/2023/06-slack-migration)"
+-
+  date: 2023-06-15
+  content:
+    ja: "2023年7月3日・8月2日に，[UTokyo Slackお役立ち情報共有会「Slackを有効活用しよう！〜明日から使える小ネタをお見せします〜」](/events/2023-slack/)を開催します．"
+  important: true
+-
+  date: 2023-06-01
+  content:
+    ja: "[情報システムゼミ「Webex Webinars 応用編 ～ 便利な使い方をご紹介 ～」スライド資料](/webex#情報システムゼミwebex-webinars-応用編--便利な使い方をご紹介-2022年12月13日スライド資料)および[情報システムゼミ「ウェブ会議にも代替オプションを！～コミュニケーションの継続に備えるために、 Cisco Webexの良さをお伝えします～」スライド資料](/webex#情報システムゼミウェブ会議にも代替オプションをコミュニケーションの継続に備えるために-cisco-webexの良さをお伝えします2023年5月25日スライド資料)を掲載しました．"
+-
+  date: 2023-05-29
+  content:
+    ja: '「[東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students)」を掲載しました．'
+    en: '"[Notification to Students on the Use of AI Tools in Classes](/en/docs/ai-tools-in-classes-students)" has been posted.'
+-
+  date: 2023-05-16
+  content:
+    ja: '「[AIツールの授業における利用について](/docs/ai-tools-in-classes)」を掲載しました．'
+    en: '"[Policy on the use of AI tools in classes](/en/docs/ai-tools-in-classes)" has been posted.'
+-
+  date: 2023-04-24
+  content:
+    ja: "[UTokyo Account利用者メニュー等のメンテナンス（4月29日9時30分～12時30分）](/notice/2023/0429-utac-user-menu)"
+-
+  date: 2023-04-03
+  content:
+    ja: "[生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai)"
+  important: true
+-
+  date: 2023-03-22
+  content:
+    ja: "[UTokyo Account利用者メニュー等のメンテナンス（3月25日22時～3月26日2時）](/notice/2023/0325-utac-user-menu)"
+-
+  date: 2023-03-21
+  content:
+    ja: '現在，macOSやiPhone, iPadのSafariで，UTokyo Accountのパスワードを設定したあと，パスワード自動入力機能で入力されるパスワードでサインインできなくなってしまう，というトラブルが発生しています．問題の回避策やパスワードが分からなくなってしまった場合の対処法など，<a href="/notice/2023/0321-utac-password">詳細はこちらのお知らせを参照してください</a>．'
+-
+  date: 2023-03-14
+  content:
+    ja: "[全学FWメンテナンスのお知らせ (2023/03/16 23:00 - 2023/03/17 01:00)](/notice/2023/0316-fw)"
+-
+  date: 2023-03-03
+  content:
+    ja: "(教員用) 3/15 15:00から，[説明会「オンラインでも対面でも活用！Web会議・クラウドツールの説明会 〜 そして「あのAIツール」について\"Chat\"しましょう 〜」](/events/2023-03-15/)を開催いたします．"
+    en: "[A briefing session titled \"A briefing session on web conferencing and cloud tools for online and in-person use - and let's \"Chat\" about \"that AI tool\"\"](/events/2023-03-15/) will be held on March 15th at 15:00 (only in Japanese)."
+  important: true
+-
+  date: 2023-03-01
+  content:
+    ja: "東京大学の情報システムとそのサポート体制について説明する資料[「大学生活に必要な情報システムの準備について（学生向け）」 (PDF)](/notice/2023/getting_ready_for_ICT_systems_students_2023s.pdf)と[「東京大学における情報システムの準備について（教員向け）」 (PDF)](/notice/2023/getting_ready_for_ICT_systems_faculty_2023s.pdf)の2023年度Sセメスター版を公開しました．"
+    en: "\"Getting Ready for ICT Systems at UTokyo\" [\\[For New Students\\]](/notice/2023/getting_ready_for_ICT_systems_students_2023s.pdf) [\\[For Faculty Members\\]](/notice/2023/getting_ready_for_ICT_systems_faculty_2023s.pdf) (materials explaining ICT systems at UTokyo and its support) has been released. (The English version is on the second page)"
+  important: true
+-
+  date: 2023-03-01
+  content:
+    ja: "[UTokyo Account における多要素認証の推奨とパスワード設定の変更について](/notice/2023/03-utokyo_account-password)"
+    en: "[Recommendation of Multi-Factor Authentication and Change in Password Requirements for UTokyo Account](/en/notice/2023/03-utokyo_account-password)"
+-
+  date: 2023-02-24
+  content:
+    ja: "[全学FWメンテナンスのお知らせ (2023/03/06 23:00 - 2023/03/07 03:00)](/notice/2023/0306-fw)"
+-
+  date: 2023-02-15
+  content:
+    ja: "[Microsoft Authenticatorでのサインイン承認手順の変更およびUTokyo Accountのセキュリティ向上の取り組みに関するお知らせ](/notice/2023/02-utokyo_account-security)"
+    en: "[Notice of Changes to Microsoft Authenticator Sign-In Approval Procedures and UTokyo Account Security Improvement Efforts](/en/notice/2023/02-utokyo_account-security)"
+  important: true
+-
+  date: 2023-01-25
+  content:
+    ja: "[2023年度Sセメスター「コモンサポーター」募集のお知らせ](/notice/2023/0125-cs) （2月10日13時締切）"
+-
+  date: 2023-01-13
+  content:
+    ja: "[UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ](/notice/2023/01-wifi)"
+    en: "[Changes in usage of UTokyo Wi-Fi due to renewal](/en/notice/2023/01-wifi)"
+  important: true
+-
+  date: 2022-12-20
+  content:
+    ja: "[UTokyo MATLAB Campus-Wide License](/matlab/)のページをuteleconポータルサイトに掲載しました．"
+-
+  date: 2022-12-08
+  content:
+    ja: "2022年12月20日 16時30分～18時00分に，「[MATLABの教育利用推進に向けた全学シンポジウム](/events/2022-12-20-matlab/)」をハイブリッド開催します．"
+-
+  date: 2022-12-08
+  content:
+    ja: |
+      <del>2022年12月中旬</del> <ins>2023年1月上旬</ins> に，東京大学のZoomにGoogleでサインインする機能を無効化する設定変更を行います．
+      UTokyo Accountでサインインして利用する所定のZoomアカウントをお使いの方には，この設定変更による影響はありません．
+      所定と異なる `@g.ecc.u-tokyo.ac.jp` などのアカウントでZoomをお使いの方は，この設定変更によりサインインできなくなる場合がありますので，各自で「[UTokyo Account以外のサインインでのZoomの利用について](/notice/zoom-address-new)」のページの案内に従って所定のアカウントへの変更をしてください．
+      <small>（※2022-12-22 実施時期を修正しました）</small>
+-
+  date: 2022-11-16
+  content:
+    ja: "【教職員限定】<a href=\"https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=3518\" target=\"_blank\" rel=\"noopener\">ITツール利活用のためのコミュニティの設置およびITツール利活用にかかる説明会(11/24)の開催について</a>"
+-
+  date: 2022-11-07
+  content:
+    ja: "「[東京大学におけるSlack「教育支援プログラム」の申し込み](/slack/discount)」を掲載しました．"
+  important: true
+-
+  date: 2022-09-29
+  content:
+    ja: "「[UTokyo Slackへの編入にかかる希望数把握のためのアンケート](/notice/2022/0929-slack-migration-survey)」を行います（10/11正午まで）．現在UTokyo Slack以外で既存のワークスペースをお使いで，それを何らかの形で今後UTokyo Slackとして利用したいとお考えの方が対象で，編入を申し込むかどうか検討している段階の場合も含みます．ご協力よろしくお願いいたします．"
+-
+  date: 2022-09-22
+  content:
+    ja: "2022年9月30日（金）9時30分～11時00分に[UTokyo Slack説明会 パート3「学内でのこれまでの活用事例」](/events/2022-slack/#part3)を開催します．"
+-
+  date: 2022-09-02
+  content:
+    ja: "(教員用) 9/14 15:00から，[説明会「授業に，研究に，業務に！　オンライン会議・クラウドツールの活用説明会 ⸺ ついに「あのツール」も登場」](/events/2022-09-14/)を開催いたします．"
+    en: "[A briefing session titled \"For education, for research, and for administration! A briefing session on online conference tools and cloud tools - and also on the tool you may be curious about\"](/events/2022-09-14/) will be held on September 14th at 15:00 (only in Japanese). "
+  important: true
+-
+  date: 2022-09-02
+  content:
+    ja: "東京大学の情報システムとそのサポート体制について説明する資料[「大学生活に必要な情報システムの準備について（学生向け）」 (PDF)](/notice/2022/getting_ready_for_ICT_systems_students_2022a.pdf)と[「東京大学における情報システムの準備について（教員向け）」 (PDF)](/notice/2022/getting_ready_for_ICT_systems_faculty_2022a.pdf)の2022年度Aセメスター版を公開しました．"
+    en: "\"Getting Ready for ICT Systems at UTokyo\" [\\[For Students\\]](/notice/2022/getting_ready_for_ICT_systems_students_2022a.pdf) [\\[For Faculty Members\\]](/notice/2022/getting_ready_for_ICT_systems_faculty_2022a.pdf) (materials explaining ICT systems at UTokyo and its support) has been released. (The English version is on the second page)"
+  important: true
+-
+  date: 2022-08-25
+  content:
+    ja: "[Webex Events (classic)は2022年9月末で無効化します](/webex/create_events)"
+-
+  date: 2022-08-05
+  content:
+    ja: "[全学的なSlackの試行運用開始および説明会開催のお知らせ](/notice/2022/0805-slack)"
+-
+  date: 2022-07-28
+  content:
+    ja: "[（緊急）UTokyo Zoom のメンテナンス(2022/7/30)](/notice/2022/0730-zoom)"
+-
+  date: 2022-07-28
+  content:
+    ja: "[2022年8月10日 UTokyo WiFi のメンテナンス](/notice/2022/0810-wifi)"
+-
+  date: 2022-07-25
+  content:
+    ja: "[2022年度Aセメスター「コモンサポーター」募集のお知らせ](/notice/2022/0725-cs) （8月10日13時締切）"
+-
+  date: 2022-07-19
+  content:
+    ja: "2022年度の教職員向け[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)が開始されました．受講期間は8/31までです．"
+    en: "[Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for faculty and staff for the 2022 academic year has begun and will be held until August 31."
+-
+  date: 2022-07-08
+  content:
+    ja: "[2022年7月12日 機器のメンテナンスに伴うシステム・キャンパスネットワークの停止](/notice/2022/0712-utnet)"
+-
+  date: 2022-07-04
+  content:
+    ja: "[【緊急】au携帯電話サービス等の障害に伴うUTokyo Accountの多要素認証に関する対応](/notice/2022/0704-mfa)"
+-
+  date: 2022-07-01
+  content:
+    ja: "[UTokyo WiFiのメンテナンス(2022/7/8)](/notice/2022/0708-wifi)"
+    en: "[Revocation of Zoom Accounts for Those Who Have Left the University of Tokyo](/en/notice/2022/zoom-revocation)"
+-
+  date: 2022-07-01
+  content:
+    ja: "[離籍者等のZoomアカウントの利用停止について](/notice/2022/zoom-revocation)"
+-
+  date: 2022-06-20
+  content:
+    ja: "[UTokyo VPNのメンテナンス(2022/6/21)](/notice/2022/0621-vpn)"
+-
+  date: 2022-06-01
+  content:
+    ja: "[UTokyo Account利用者メニューのメンテナンス(2022/6/6)](/notice/2022/0606-account)"
+    en: "[Maintenace on UTokyo Account User Menu (June 6, 2022)](/en/notice/2022/0606-account)"
+- 
+  date: 2022-05-22
+  content:
+    ja: "[クラスサポーター制度受付終了日について](/supporters/class_2022)"
+- 
+  date: 2022-05-20
+  content:
+    ja: "[UTokyo VPN のメンテナンス(2022/5/27)](/notice/2022/0527-vpn)"
+    en: "[Maintenance on UTokyo VPN Service (May 27,2022)](/en/notice/2022/0527-vpn)"
+-
+  date: 2022-05-17
+  content:
+    ja: "[オンライン授業の受講に利用可能な教室の一覧](/oc/rooms)を掲載しました．"
+  important: true
+-
+  date: 2022-05-15
+  content:
+    ja: "[情報システムゼミ「Webexセミナー」スライド資料](/webex#情報システムゼミwebexセミナー2022年2月18日スライド資料)を掲載しました．"
+  important: true
+-
+  date: 2022-05-09
+  content:
+    ja: "2022年度の学生向け[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)が開始されました．受講期間は6/10までです．"
+    en: "[Information Security Education](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html) for students for the 2022 academic year has begun and will be held until June 10."
+-
+  date: 2022-04-28
+  content:
+    ja: "[UTokyo WiFi 設備のメンテナンス(2022/5/10)](/notice/2022/0510-wifi)"
+    en: "[Maintenance on UTokyo WiFi Service (May 10, 2022)](/en/notice/2022/0510-wifi)"
+-
+  date: 2022-04-01
+  content:
+    ja: "[ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)](/antivirus/)の提供を開始します．"
+  important: true
+-
+  date: 2022-03-31
+  content:
+    ja: "[クラスサポーター制度受付開始について](/supporters/class_2022)"
+  important: true
+-
+  date: 2022-03-28
+  content:
+    ja: "[UTokyo VPNの学生への提供開始について](/notice/2022/utokyo_vpn-for-students)"
+  important: true
+-
+  date: 2022-03-18
+  content:
+    en: "<a href=\"/en/notice/2022/utas_lms_failure/\">On recent access failures to UTAS/ITC-LMS</a>"
+-
+  date: 2022-03-01
+  content:
+    ja: "(教員用) 3/16 15:00から，[説明会「オンライン授業だけじゃない！　教育研究用ICT・オンライン会議ツールの説明会」](/events/2022-03-16/)を開催いたします．"
+  important: true
+-
+  date: 2022-03-01
+  content:
+    ja: "東京大学の情報システムとそのサポート体制について説明する資料[「オンライン授業を受けるために（学生向け）」 (PDF)](/notice/2022/getting_ready_for_online_classes_students_2022s.pdf)と[「オンライン授業を始めるために（教員向け）」 (PDF)](/notice/2022/getting_ready_for_online_classes_faculty_2022s.pdf)の2022年度Sセメスター版を公開しました．"
+  important: true
+-
+  date: 2022-02-24
+  content:
+    ja: "[2022年3月～4月 ネットワーク切替に伴うシステム停止のお知らせ](/notice/2022/sinet6)"
+-
+  date: 2022-02-08
+  content:
+    ja: "[2022年度Sセメスター「コモンサポーター」募集のお知らせ(終了しました)](/supporters/common_2022S_application)"
+-
+  date: 2021-11-10
+  content:
+    ja: "[Zoomのアップデートポリシー変更および機能拡張の有効化等について](/notice/20211110-zoom)"
+  important: true
+-
+  date: 2021-10-30
+  content:
+    ja: "10月31日で、[クラスサポーターの申請](/supporters/class_2021)が終了します．"
+-
+  date: 2021-09-28
+  content:
+    ja: "9月27日より，[UTokyo Accountの多要素認証](/utokyo_account/mfa/)および[UTokyo VPN（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_VPN.aspx)の提供を開始しました．"
+-
+  date: 2021-09-15
+  content:
+    ja: "2021年7月より，授業やイベントで使えるQ&Aツール「Slido」がWebexと連携し，東京大学のWebexアカウントで有料機能が使えるようになりました．また，これにあわせ[Slidoの使い方や活用事例をまとめたページ](/slido/)を作成しました．"
+-
+  date: 2021-09-09
+  content:
+    ja: "東京大学の情報システムとそのサポート体制について説明する資料[「オンライン授業を受けるために（学生向け）」 (PDF)](/notice/getting_ready_for_online_classes_students_2021a.pdf)と[「オンライン授業を始めるために（教員向け）」 (PDF)](/notice/getting_ready_for_online_classes_faculty_2021a.pdf)を公開しました．"
+    en: "\"Getting Ready for Online Classes\" [\\[For Students\\]](/notice/getting_ready_for_online_classes_students_2021a.pdf) [\\[For Faculty Members\\]](/notice/getting_ready_for_online_classes_faculty_2021a.pdf) (materials explaining ICT systems at UTokyo and its support) has been relased. (The English version is on the second page)"
+  important: true
+-
+  date: 2021-09-06
+  content:
+    ja: "(教員用) 9/15 15:00から「[説明会：2021年度秋学期 教育ICT/オンライン・ハイブリッド授業説明会](/events/2021-09-15/)」を開催いたします．"
+  important: true
+-
+  date: 2021-09-02
+  content:
+    ja: "[Aセメスターのクラスサポーター制度申し込みを開始しました](/supporters/class_2021)"
+-
+  date: 2021-09-01
+  content:
+    ja: "[2021年9月27日からUTokyo Accountに多要素認証を導入します](/utokyo_account/mfa/)"
+    en: "[Multi-factor authentication will be available for UTokyo Accounts starting September 27, 2021.](/en/utokyo_account/mfa/)"
+  important: true
+-
+  date: 2021-06-30
+  content:
+    ja: "<a href=\"/notice/20210630-site-change\">utelecon ポータルサイト更新のお知らせ</a>"
+-
+  date: 2021-05-13
+  content:
+    ja: "<a href=\"/notice/utokyoaccount20210520\">5/20 20時から20時30分 UTokyo Account 認証基盤メンテナンスによる認証サービス停止について</a>"
+-
+  date: 2021-04-09
+  content:
+    ja: "<a href=\"/notice/20210409-zoom-settings\">オンライン授業などでのZoomの設定確認（認証・待機室・人数上限）のお願い</a>"
+  important: true
+-
+  date: 2021-04-01
+  content:
+    ja: "<a href=\"/questionnaire/\">2020年度Sセメスターオンライン授業に関するアンケート結果概要を公開しました．</a>"
+-
+  date: 2021-04-01
+  content:
+    ja: "2021年度が始まりました．"
+-
+  date: 2021-03-30
+  content:
+    ja: "<a href=\"/notice/20210403-utnet\">4/3～4にかけて，機器・回線移設作業に伴うシステムの停止が発生します．</a>"
+-
+  date: 2021-03-21
+  content:
+    ja: "（教員用）3/25 10:00から<a href=\"/events/2021-03-25\">オンライン講座「オンライン授業における Zoom の使い方」</a>を開催いたします．"
+  important: true
+-
+  date: 2021-03-15
+  content:
+    ja: "東京大学の情報システムとそのサポート体制について新入生に向けて説明する資料<a href=\"/notice/getting_ready_for_online_classes_2021s.pdf\">「オンライン授業を受けるために」 (PDF) </a>を作成しました．"
+  important: true
+-
+  date: 2021-03-12
+  content:
+    ja: "オンライン授業・Web会議ポータルサイト (utelecon) のデザインをリニューアルしました．"
+  important: true
+-
+  date: 2021-03-04
+  content:
+    ja: "2021年度Sセメスターの新入生向けページ「[オンライン授業を受けるために](/oc/)」と教員向けページ「[オンライン授業を始めるために](/faculty_members/)」を公開しました．"
+  important: true
+-
+  date: 2021-03-03
+  content:
+    ja: "(教員用) 3/17 15:30から[「説明会:2021年度のオンライン授業に向けて ― 2020年の経験をふまえて」](/events/2021-03-17)を開催いたします．"
+  important: true
+-
+  date: 2021-02-15
+  content:
+    ja: "[「2021年春のシステム変更」](/change2021s/)を公開しました．"
+-
+  date: 2021-02-08
+  content:
+    ja: "(教員用) 2/10 12:10から[オンライン授業情報交換会(トピック：VR(仮想現実)教室で行う授業の実践例](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2021-02-03
+  content:
+    ja: "(教員用) 2/3 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(9) 実習形式の授業のオンライン化の工夫](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2021-01-26
+  content:
+    ja: "「オンライン授業・Web会議ポータルサイト (utelecon)」のURLが変わりました．既存のリンクやブックマーク等は引き続き利用できます．[詳細はこちら](/notice/20210126-domain-change)"
+    en: "<a href=\"/notice/20210126-domain-change\">The domain name of this site has been changed to https://utelecon.adm.u-tokyo.ac.jp/.</a> Existing links (i.e. https://utelecon.github.io/en/ ) and bookmarks will continue to work via the old URL."
+-
+  date: 2021-01-22
+  content:
+    ja: "(教員用) 1/28 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(8) オンデマンドとライブ形式を組み合わせた授業設計の工夫)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2021-01-19
+  content:
+    ja: "(教員用) 1/20 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(7) オンデマンド教材の制作の取り組み)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2021-01-13
+  content:
+    ja: "(教員用) 1/15 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(6) 大人数のオンライン授業の実施とテストの工夫)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-12-18
+  content:
+    ja: "(教員用)12/23 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(5) 多様なツールを用いて授業を活発化・円滑化する工夫)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-12-14
+  content:
+    ja: "(教員用)12/15 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(4) TAを活かした質問の場づくり)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-12-07
+  content:
+    ja: "(教員用)12/11 12:10から[オンライン授業情報交換会(トピック：東大生協からのオンライン授業に役立つ機材紹介)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-11-27
+  content:
+    ja: "(教員用)11/30 12:10から[オンライン授業情報交換会(トピック：オンライン授業に役立つ東京大学のデジタル化資料の探し方)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-11-24
+  content:
+    ja: "(教員用)11/27 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(3) ライブ授業でのインタラクションを活発化する工夫)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-11-16
+  content:
+    ja: "(教員用)11/18 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(2) 学生の声を活かした授業設計の工夫)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-11-06
+  content:
+    ja: "(教員用)11/10 12:10から[オンライン授業情報交換会(トピック：グッドプラクティス事例(1) 大人数のオンライン授業におけるインタラクションの工夫)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-11-02
+  content:
+    ja: "(教員用)11/6 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(3) 遠隔と対面の学生の対話を促す授業の実践例)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-10-23
+  content:
+    ja: "[Zoomライセンス切り替え(11/20)・今後のウェブ会議システムの提供について(更新)](/notice/webmeetingaccount20201120)"
+-
+  date: 2020-10-23
+  content:
+    ja: "(教員用)10/29 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(2) 大人数授業における実践例)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-10-16
+  content:
+    ja: "(教員用)10/20 12:10から[オンライン授業情報交換会(トピック：ハイブリッド授業(1) 概念の整理とゼミにおける実践例)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-09-25
+  content:
+    ja: "On Zoom sign up page, if you see <font color=\"purple\">\"We regret to inform you that Zoom has suspended all new FREE user registration in China. From May 20th onwards, all free users in China can only join meetings. If you need to host a meeting, please contact sales in China to purchase licenses,\"</font> <a href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUQU8xUVJSUkxSWU85NkQ3RjQ0UkNFWE9SSC4u\" target=\"_blank\" rel=\"noopener\">send a request</a> to us.  The form requires you to sign in to Microsoft with UTokyo Account.  <a href=\"https://utelecon.github.io/oc/index_2020_a#microsoft_365\" target=\"_blank\" rel=\"noopener\">If you don't know how to do it.</a>"
+-
+  date: 2020-09-25
+  content:
+    ja: "授業で学生にZoomの操作を説明したい(そのためのスライドが欲しい)という人のための, 説明スライド(<a href=\"/zoom/files/Zoom-how.pptx\">pptx</a>, <a href=\"/zoom/files/Zoom-how.pdf\">pdf</a>)を公開しました. また, [3/19の説明会資料](/events/2020-03-19)もご覧ください"
+-
+  date: 2020-09-25
+  content:
+    ja: "[オンライン授業のグッドプラクティス](/good-practice/)を順次公開しています"
+-
+  date: 2020-09-21
+  content:
+    ja: "(学生・教員用) Aセメスターの授業をする教員・受ける学生は [授業URLの通知の仕方 - 2020 Aセメスター版](/faculty_members/url_2020_a) をご覧ください"
+-
+  date: 2020-09-16
+  content:
+    ja: "[Zoomライセンス切り替えの再々延期・今後のウェブ会議システムの提供について(更新)](/notice/webmeetingaccount20200916)"
+-
+  date: 2020-09-11
+  content:
+    ja: "[クラスサポーター制度（Aセメスター）申込](/supporters/class_a)を開始しました．"
+-
+  date: 2020-09-11
+  content:
+    ja: "(学生用)9/25正午〆切 トラブルに対応する学生の[コモンサポーターを募集中](/supporters/common_2020A)"
+-
+  date: 2020-09-04
+  content:
+    ja: "(教員用)9/11 15:00から[「説明会：Aセメスターのオンライン・ハイブリッド授業に向けて― Sセメスターの経験をふまえて」](/events/2020-09-11)を開催いたします．"
+-
+  date: 2020-09-03
+  content:
+    ja: "(教員用)[「オンライン授業・在宅研究に関するアンケート」](/questionnaire/archives/2020summer_f)を開始しました．（締め切り9月16日水曜日23：59）"
+-
+  date: 2020-08-28
+  content:
+    ja: "[Zoomウェビナーの提供](/notice/zoom-webinar)をいたします."
+-
+  date: 2020-08-06
+  content:
+    ja: "[Zoomライセンス切り替えの延期・今後のウェブ会議システムの提供について(更新)](/notice/webmeetingaccount20200915)"
+-
+  date: 2020-08-04
+  content:
+    ja: "(教員用)8/5 12:10から[オンライン授業情報交換会(トピック：オンライン授業の振り返り](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-07-22
+  content:
+    ja: "(学生・研究者)[「オンライン授業・在宅研究に関するアンケート」](/questionnaire/archives/2020summer)を開始しました．（締め切り8月20日木曜日23：59）"
+-
+  date: 2020-07-14
+  content:
+    ja: "(教員用)7/15 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(3)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-07-06
+  content:
+    ja: "(教員用)7/8 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール(2)](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-07-02
+  content:
+    ja: "[Microsoft Onedriveで学外者とファイルの共有が可能になります](/notice/onedrive20200702)"
+-
+  date: 2020-07-02
+  content:
+    ja: "[今後のウェブ会議システムの提供について](/notice/webmeetingaccount)"
+-
+  date: 2020-06-25
+  content:
+    ja: "(教員用)6/29 12:10から[オンライン授業情報交換会(トピック：コモンサポーターの活動紹介](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-06-21
+  content:
+    ja: "(教員用)6/24 12:10から[オンライン授業情報交換会(トピック：オンライン授業で使えるツール](/events/2020-luncheon/)を実施いたします．"
+-
+  date: 2020-06-08
+  content:
+    ja: "(教員用)6/11 12:10から[オンライン授業情報交換会(トピック：オンライン授業における障害学生への配慮～聴覚障害のケース～）](/events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．"
+-
+  date: 2020-06-03
+  content:
+    ja: "(学生用)<a href=\"/mobile/mobile3\">ネットワーク環境支援 : 教育・研究活動のためのネットワーク環境支援 継続 について / The network environment support for education and research</a>"
+-
+  date: 2020-06-02
+  content:
+    ja: "(教員用)6/3 12:10から[オンライン授業情報交換会(トピック：授業の工夫の共有(2))](/events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．"
+-
+  date: 2020-05-27
+  content:
+    ja: "クラスサポーター研修の動画が（限定）公開されました．不参加だったクラスサポーターの方は視聴してください．（[クラスサポーター研修](//events/2020-05-20/)）"
+-
+  date: 2020-05-26
+  content:
+    ja: "5/30より後に Zoom 5.0.0 未満のバージョンではミーティングの主催・参加ができなくなるため，Zoom の更新をお願いします（[更新方法](https://did2memo.net/2020/04/10/zoom-update/)，[「Zoom 5.0」よくある質問（FAQ）](https://symphonict.nesic.co.jp/zoom/wp-content/uploads/2020/05/Zoom_5.0-FAQ.pdf)）"
+-
+  date: 2020-05-19
+  content:
+    ja: "(教員用)5/20 12:10から[オンライン授業情報交換会(トピック：評価)](/events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．"
+-
+  date: 2020-05-13
+  content:
+    ja: "(5/18 締め切りました)<s>(学生用)5/17〆切 トラブルに対応する学生のコモンサポーターを募集中</s>"
+-
+  date: 2020-05-13
+  content:
+    ja: "(学生用)5/20 15:00から[クラスサポーター研修](/events/2020-05-20)を実施いたします．"
+-
+  date: 2020-05-13
+  content:
+    ja: "(教員用)5/14 12:10から[オンライン授業情報交換会(トピック：評価)](/events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．"
+-
+  date: 2020-05-10
+  content:
+    ja: "(教員用) [Webexで安全性の高い会議を行うためのプラクティス](/webex/how_to_open_secure_meetings)"
+-
+  date: 2020-05-06
+  content:
+    ja: "(教員用)5/7 12:10から[オンライン授業情報交換会(トピック：通信量)](/events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．"
+-
+  date: 2020-05-06
+  content:
+    ja: "[オンライン授業・Web会議に関するトラブルサポート窓口](/supports/)を公開しました．"
+-
+  date: 2020-05-01
+  content:
+    ja: "(教員用)5/8 17:00から[説明会「オンライン授業における著作物利用」](/events/2020-05-08/)を実施いたします．"
+-
+  date: 2020-04-30
+  content:
+    ja: "(学生用)<a href=\"/mobile/mobile2\">第2回ネットワーク環境支援: 教育・研究活動のためのネットワーク環境支援について / The network environment support for education and research</a>"
+-
+  date: 2020-04-30
+  content:
+    ja: "(教員用)4/30 12:10から[オンライン授業情報交換会(トピック：動画作成)](/events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．"
+-
+  date: 2020-04-27
+  content:
+    ja: "(教員用)4/27 12:10から[オンライン授業情報交換会](/events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．"
+-
+  date: 2020-04-24
+  content:
+    ja: "<a href=\"/notice/webmeetingtools\">Web会議サービス「Zoom」「Webex」「Google Meet」の継続利用について</a>"
+-
+  date: 2020-04-24
+  content:
+    ja: "「授業目的公衆送信補償金制度」について「一般社団法人授業目的公衆送信補償金等管理協会」から文化庁長官への補償金額の認可申請，文化審議会での審議，文化庁長官による認可など，必要な所要の手続を経て，令和2年4月28日から施行することとなりました．[リンクはこちら](https://www.bunka.go.jp/seisaku/chosakuken/92169601.html)"
+-
+  date: 2020-04-22
+  content:
+    ja: "<font color=\"red\">(2020/5/9 現在はサインインできます)<s>緊急 「この方法でZoomアカウントにログインできません. IT管理者にお問い合わせください」</font> について</s>"
+-
+  date: 2020-04-21
+  content:
+    ja: "(教員用)4/22 12:10から[オンライン授業情報交換会](/events/2020-luncheon/)を実施いたします．今後も継続的に実施予定です．"
+-
+  date: 2020-04-16
+  content:
+    ja: "(学生・教員用)<a href=\"/supporters/class\">クラスサポーター制度</a>を立ち上げました"
+-
+  date: 2020-04-16
+  content:
+    ja: "(学生用)<a href=\"/mobile/\">オンライン授業受講のためのネットワーク環境支援ついて / The network environment support for taking online classes</a>"
+-
+  date: 2020-04-16
+  content:
+    ja: "(学生用)<a href=\"/forms/et\">授業入室時トラブル報告フォーム</a>を作りました"
+-
+  date: 2020-04-16
+  content:
+    ja: "(学科・専攻向け)<a href=\"/forms/takecarestudents\">学生ケアの学科・専攻担当登録フォーム</a>を作りました"
+-
+  date: 2020-04-14
+  content:
+    ja: "<a href=\"/events/2020-04-16/\">「説明会: Sセメスタ開始2週間を経て」</a>をオンラインで実施いたします"
+-
+  date: 2020-04-14
+  content:
+    ja: "UTASの「オンライン授業URL」，「オンライン授業内容」の情報を簡単に閲覧できる<a href=\"https://utelecon-directory.adm.u-tokyo.ac.jp/\" target=\"_blank\">東京大学オンライン講義検索システム (UTAS Lite)</a> の運用を開始しました．利用上の注意点は<a href=\"/faculty_members/let_students_know_your_url\"> こちら </a>をご覧ください．"
+-
+  date: 2020-04-12
+  content:
+    ja: "4/6に, 授業目的公衆送信補償金等管理協会SARTRASが<a href=\"https://sartras.or.jp/archives/20200406/\" target=\"_blank\">「授業目的公衆送信補償金制度」施行のための補償金の「無償」による認可申請</a>を決定しました."
+-
+  date: 2020-04-02
+  content:
+    ja: "<a href=\"/faculty_members/let_students_know_your_url\">授業URLの通知の仕方 〜 授業で教員と学生が混乱なく出会うための共通ルール</a> をアップしました. **授業に出たい, けどどこにつないだら良いのか? という人は読んでください**"
+-
+  date: 2020-04-02
+  content:
+    ja: "<a href=\"/zoom/setting_issues\">Zoomの初期設定・利用開始時のトラブルに関するFAQ</a>"
+    en: "<a href=\"/zoom/setting_issues\">Zoom FAQs on setting issues</a>"
+-
+  date: 2020-04-01
+  content:
+    ja: "下記，ITC-LMS の緊急システムメンテナンスは終了しました．ご協力ありがとうございました．(11:44am)"
+    en: "The following emergency system maintenance of ITC-LMS has been completed. Thank you for your cooperation. (11:44 am)"
+-
+  date: 2020-04-01
+  content:
+    ja: "2020年度のオンライン授業の準備のため，ITC-LMS の緊急システムメンテナンスを に本日，9:00から11:00(予定)まで行います．この間 ITC-LMS のサービスを一時停止します．ご不便をお掛けしますが，ご理解とご協力をよろしくお願いいたします．"
+    en: "prepare for online class in 2020, ITC-LMS emergency system maintenance will be held today from 9:00 to 11:00 (planned). During this time, the ITC-LMS service will be suspended. We apologize for any inconvenience, but thank you for your understanding and cooperation."
+-
+  date: 2020-03-31
+  content:
+    ja: "本日3月31日は学籍異動日のため，進学者(前期から後期へ)は UTAS が利用できません. ご不便をおかけしますがどうぞよろしくお願いいたします．"
+    en: "Today, March 31 is a student transfer date, so UTAS is not available for new students (from the first semester to the second semester)."
+-
+  date: 2020-03-30
+  content:
+    ja: "部局のWebページへのリンクを作るための<a href=\"https://tinyurl.com/vjfuxs3\" target=\"_blank\">申し込みフォーム</a>"
+    en: "<a href=\"https://tinyurl.com/vjfuxs3\" target=\"_blank\">Application form</a> to create a link to the department's web page."
+-
+  date: 2020-03-29
+  content:
+    ja: "<a href=\"/questionnaire/\">学生アンケート</a>にお答え下さい(UTASに同じものを掲載しています. すでに答えた方はOKです)"
+    en: "Please answer the <a href=\"/questionnaire/\">student questionnaire</a> (The same is posted on UTAS. Those who have already answered do not need to answer it again)."
+-
+  date: 2020-03-28
+  content:
+    ja: "3/27に[オンライン基礎講座「ライブ配信ではない，動画やテキストなどを用いたオンデマンド型オンライン授業の作り方」および「語学学習に特化したオンライン授業相談会」](/events/2020-03-27/) を実施しました．また，動画（暫定版）も限定公開しました．"
+    en: "On 3/27 an [online basic lecture \"How to make an on-demand online class using videos and texts\" and \"Online class consultation specialized in language learning\"」](/events/2020-03-27/) will be held. In addition, a video (provisional version) has been released for limited use."
+-
+  date: 2020-03-24
+  content:
+    ja: "3/19の<a href=\"https://utelecon.github.io/events/2020-03-19/\" target=\"_blank\">Zoom 基礎講座の動画（暫定版）</a>を限定公開しました"
+    en: "3/19の<a href=\"/events/2020-03-19/\" target=\"_blank\">Zoom Basic Course video (provisional version)</a>has been released."
+-
+  date: 2020-03-24
+  content:
+    ja: "3/26 に [説明会: オンライン授業の学生への通知方法](/events/2020-03-26/) を行います."
+    en: "Briefing on 3/26 : [ How to notify students of online classes](/events/2020-03-26/)."
+-
+  date: 2020-03-24
+  content:
+    ja: "3/13の<a href=\"https://utelecon.github.io/events/2020-03-13/\" target=\"_blank\">説明会動画</a>を限定公開しました"
+    en: "On 3/13, <a href=\"/events/2020-03-13/\" target=\"_blank\">briefing video</a>has been released."
+-
+  date: 2020-03-21
+  content:
+    ja: "4月から大学一年生になる新入生およびご家族への, <a href=\"http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf\" target=\"_blank\">太田邦史教養学部長からのメッセージ</a> (3/19発表)"
+    en: "Message from <a href=\"http://www.c.u-tokyo.ac.jp/zenki/newstudentsandfamilies.pdf\" target=\"_blank\">Kunio Ota, Dean of the College of Liberal Arts </a> to freshmen and their families( Announced on March 19)."
+-
+  date: 2020-03-21
+  content:
+    ja: "<a href=\"https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html\" target=\"_blank\">総長メッセージ</a> (3/18発表)"
+    en: "<a href=\"https://www.u-tokyo.ac.jp/ja/about/president/COVID-19-message.html\" target=\"_blank\">Message from the President</a> (announced on March 18)"
+-
+  date: 2020-03-21
+  content:
+    ja: "[オンライン基礎講座 Zoom の使い方の実施報告](/events/2020-03-19/report)を公開しました．"
+    en: "An [online basic course Zoom usage report](/en/events/2020-03-19/report)has been released."
+-
+  date: 2020-03-19
+  content:
+    ja: "[オンライン基礎講座 Zoom の使い方](/events/2020-03-19/)を実施しました．"
+    en: "Conducted [Online course How to use Zoom](/en/events/2020-03-19/)"
+-
+  date: 2020-03-19
+  content:
+    ja: "[QAフォーラムとメーリングリスト](/forums/) 開設"
+    en: "[Forum and Q&A](/en/forums/) open."
+-
+  date: 2020-03-17
+  content:
+    ja: "全教職員 <a href=\"/zoom/\">Zoom Pro (500接続まで)</a>が利用可能になりました."
+    en: "<a href=\"/zoom/\">Zoom Pro (up to 500 connections) </a> is now available for all faculty members."
+-
+  date: 2020-03-16
+  content:
+    ja: "「授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会」の<a href=\"/events/2020-03-13/online_lecture.pdf\">スライド</a>を更新しています."
+    en: "Updated <a href=\"/events/2020-03-13/online_lecture.pdf\">slides</a> on \"Video conferencing tools and manage briefings online\"."
+-
+  date: 2020-03-11
+  content:
+    ja: "2020年3月13日に[授業のオンライン化を念頭に置いたTV会議ツールと使い方説明会](/events/2020-03-13)を実施します."
+    en: "On March 13, 2020, we will hold a [video conferencing tool and usage briefing session](/notice/2020-03-13)."
+-
+  date: 2020-03-11
+  content:
+    ja: "サイト開設"
+    en: "Website is open"

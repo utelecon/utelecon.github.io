@@ -1,0 +1,152 @@
+---
+import { SEO } from "astro-seo";
+import { GoogleAnalytics } from "@astrolib/analytics";
+import Header from "@components/Header/index.astro";
+import Footer from "@components/Footer/index.astro";
+import Toc from "@components/Toc/index.astro";
+import "@styles/global.scss";
+import type { MarkdownHeading } from "astro";
+import Author, { Author as AuthorProps } from "@components/Author/index.astro";
+import Markdown from "@components/Markdown.astro";
+
+interface Props {
+  frontmatter: Frontmatter;
+  headings: MarkdownHeading[];
+}
+
+export interface Frontmatter {
+  title: string;
+  description?: string;
+  lang: "ja" | "en";
+  toc?: boolean;
+  h1?: string;
+  top?: boolean;
+  support?: boolean;
+  sitemap?: boolean;
+  redirect_to?: string;
+  author?: AuthorProps;
+}
+
+function createDefaultDescription(
+  lang: "ja" | "en",
+  headings: MarkdownHeading[]
+): string {
+  return (
+    (
+      {
+        ja: "目次: ",
+        en: "Table of Contents: ",
+      }[lang] +
+      headings
+        .filter(({ depth }) => depth === 2)
+        .map(({ text }) => text)
+        .join("; ")
+    ).slice(0, 97) + "..."
+  );
+}
+
+const { frontmatter, headings } = Astro.props;
+const {
+  title = "utelecon",
+  description,
+  lang,
+  toc = true,
+  h1,
+  top,
+  support,
+  author,
+} = frontmatter;
+
+const htmlAttributes = {
+  en: {
+    lang: "en",
+    class: "en",
+  },
+  ja: {
+    lang: "ja",
+  },
+}[lang];
+
+const locale = {
+  en: "en_US",
+  ja: "ja_JP",
+}[lang];
+
+const siteName = "utelecon";
+const gaid = "UA-160716658-1";
+---
+
+<!DOCTYPE html>
+<html {...htmlAttributes}>
+  <head>
+    <SEO
+      description={description ?? createDefaultDescription(lang, headings)}
+      charset="UTF-8"
+      openGraph={{
+        basic: {
+          title,
+          type: "website",
+          url: Astro.url.href,
+          image: new URL("/assets/images/ogp.png", Astro.site).href,
+        },
+        optional: {
+          description,
+          locale,
+          siteName,
+        },
+        image: {
+          alt: "utelecon",
+        },
+      }}
+      twitter={{
+        title,
+        description,
+      }}
+    />
+
+    <GoogleAnalytics id={gaid} partytown />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#157878" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <meta name="generator" content={Astro.generator} />
+
+    <link rel="icon" href="/assets/images/favicon.png" />
+
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
+    ></script>
+    <title>{title}</title>
+  </head>
+  <body>
+    <Header lang={lang} top={top} />
+    <main id="content">
+      {
+        !top && (
+          <h1 class="title">
+            <Markdown content={h1 ?? title} />
+          </h1>
+        )
+      }
+      {
+        !top && toc && headings.length > 0 && (
+          <Toc headings={headings} lang={lang} />
+        )
+      }
+      <slot />
+      {
+        author && (
+          <>
+            <hr />
+            <Author lang={lang} author={author} />
+          </>
+        )
+      }
+    </main>
+    <Footer lang={lang} support={support} />
+  </body>
+</html>

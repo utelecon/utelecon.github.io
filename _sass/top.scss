@@ -1,9 +1,0 @@
-.top__systems {
-  column-count: 2;
-  @media (max-width: 768px) {
-    column-count: auto;
-  }
-  li {
-    break-inside: avoid;
-  }
-}

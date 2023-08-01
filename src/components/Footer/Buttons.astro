@@ -1,0 +1,202 @@
+---
+import FormLink from "./FormLink.astro";
+export interface Props {
+  lang: "ja" | "en";
+}
+
+const { lang } = Astro.props;
+
+const localization = {
+  scrollToTop: {
+    en: "Scroll to Top",
+    ja: "上に戻る",
+  },
+  feedback: {
+    en: "Feedback",
+    ja: "フィードバック",
+  },
+  supportDesk: {
+    en: "Support Desk",
+    ja: "サポート窓口",
+  },
+};
+
+const supportUrl = {
+  en: "/en/support/",
+  ja: "/support/",
+};
+---
+
+<div class="wrap">
+  <a
+    class="link wide-only"
+    href="javascript:window.scrollTo({top:0,behavior:'smooth'});"
+  >
+    <div class="icon">
+      <span class="material-icon">arrow_upward</span>
+    </div>
+    <div class="description">{localization.scrollToTop[lang]}</div>
+  </a>
+  <FormLink class="link wide-only">
+    <div class="icon"><span class="material-icon">feedback</span></div>
+    <div class="description">{localization.feedback[lang]}</div>
+  </FormLink>
+  <a class="link" href={supportUrl[lang]}>
+    <div class="icon">
+      <span class="material-icon">contact_support</span>
+    </div>
+    <div class="description">{localization.supportDesk[lang]}</div>
+  </a>
+</div>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+  .wrap {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    @media print {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      margin: 0.75rem;
+      left: 0;
+
+      border: solid 1px #ccc;
+      border-width: 1px;
+      border-radius: 0.375rem;
+      overflow: hidden;
+
+      background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 0.25rem 0.5rem 0;
+    }
+
+    @media not all and (max-width: 768px) {
+      display: flex;
+      right: 1rem;
+      padding: 0.75rem 0.25rem 0;
+    }
+
+    .link.wide-only {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    .link {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+
+      @media (max-width: 768px) {
+        padding: 0 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+
+        border-bottom: solid 1px #ccc;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &:hover {
+          color: #fff;
+          background-color: $body-link-color;
+        }
+      }
+
+      @media not all and (max-width: 768px) {
+        width: 100px;
+        padding: 0.75rem 0.25rem;
+        margin: 0 8px;
+
+        background-color: #fff;
+        border: solid 1px #ccc;
+
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+
+        box-shadow: rgba(0, 0, 0, 0.2) 0 0.25rem 0.5rem 0;
+      }
+
+      .icon {
+        display: flex;
+        align-items: center;
+
+        @media not all and (max-width: 768px) {
+          background-color: $footer-background-color;
+          margin: 0 auto;
+
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%;
+        }
+
+        @media (max-width: 768px) {
+          flex: 0 1 auto;
+        }
+
+        .material-icon {
+          display: block;
+          margin: 0 auto;
+
+          font-family: "Material Icons";
+          font-size: 1.5rem;
+          text-transform: none;
+          white-space: nowrap;
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+
+          @media not all and (max-width: 768px) {
+            color: #fff;
+          }
+        }
+
+        transition: all 0.2s ease-in-out;
+      }
+
+      .description {
+        text-align: center;
+
+        @media not all and (max-width: 768px) {
+          margin-top: 0.375rem;
+          color: $footer-background-color;
+          font-size: 0.75rem;
+        }
+
+        @media (max-width: 768px) {
+          padding: 0 0.5rem;
+          font-size: 1.25rem;
+        }
+
+        white-space: nowrap;
+
+        transition: all 0.2s ease-in-out;
+      }
+
+      @media not all and (max-width: 768px) {
+        &:hover {
+          .icon {
+            background-color: $body-link-color;
+          }
+
+          .description {
+            color: $body-link-color;
+          }
+        }
+      }
+    }
+  }
+
+  @font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v92/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
+      format("woff2");
+  }
+</style>

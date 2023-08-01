@@ -1,0 +1,68 @@
+---
+import Important from "../Important";
+import ConfirmEmailSteps from "./ConfirmEmailSteps.astro";
+import Login from "./Login.astro";
+import LoginPractice from "./LoginPractice.astro";
+import Support from "./Support.astro";
+
+interface Props {
+  part?: string;
+  pageSlug?: string;
+  system: string;
+}
+
+const { part, pageSlug, system = "UTAS" } = Astro.props;
+const importantProps: Omit<Parameters<typeof Important>[0], "include"> = {
+  part,
+  pageSlug,
+  system,
+};
+---
+
+{
+  pageSlug === "oc" ? (
+    part === "important" ? (
+      <Important
+        {...importantProps}
+        include={{
+          type: "",
+          heading: "ログインしてメールアドレスが登録されているか確認する",
+        }}
+      >
+        <Login pageSlug={pageSlug} part={part} />
+      </Important>
+    ) : (
+      <ul class="procedure">
+        <Important
+          {...importantProps}
+          include={{
+            type: "練習",
+            heading: "ログインしてみる",
+          }}
+        >
+          <Login pageSlug={pageSlug} part={part} />
+        </Important>
+        <Important
+          {...importantProps}
+          include={{
+            type: "確認",
+            heading: "メールアドレスが登録されているか確認する",
+          }}
+        >
+          <ol>
+            <ConfirmEmailSteps part={part} />
+          </ol>
+          <Support />
+        </Important>
+      </ul>
+    )
+  ) : part === "login" ? (
+    <Login pageSlug={pageSlug} part={part} />
+  ) : part === "confirm_email_address_registration" ? (
+    <ol>
+      <ConfirmEmailSteps part={part} />
+    </ol>
+  ) : (
+    <LoginPractice pageSlug={pageSlug} part={part} />
+  )
+}

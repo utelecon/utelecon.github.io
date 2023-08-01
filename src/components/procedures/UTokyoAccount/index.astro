@@ -1,0 +1,39 @@
+---
+import Important from "../Important";
+import Procedure from "./ChangeInitialPassword.astro"
+import MFA from "./MFA.astro"
+
+interface Props {
+  part?: string;
+  pageSlug?: string;
+  system: string;
+}
+
+const { part, pageSlug, system = "UTokyo Account" } = Astro.props;
+
+const importantProps: Parameters<typeof Important>[0] = {
+  part,
+  pageSlug,
+  include: {
+    type: "作業",
+    heading: "初期パスワードを変更する",
+  },
+  system,
+};
+
+---
+
+{
+  part === "important" ? (
+    <Important {...importantProps}>
+      <Procedure pageSlug={pageSlug} />
+    </Important>
+  ) : (
+    <ul class="procedure">
+      <Important {...importantProps}>
+        <Procedure pageSlug={pageSlug} />
+      </Important>
+      <MFA />
+    </ul>
+  )
+}

@@ -1,0 +1,36 @@
+---
+import LoginSteps from "./LoginSteps.astro";
+import LoginHelp from "./LoginHelp.astro";
+import ConfirmEmailSteps from "./ConfirmEmailSteps.astro";
+
+interface Props {
+  pageSlug?: string;
+  part?: string;
+}
+
+const { pageSlug, part } = Astro.props;
+---
+
+{
+  pageSlug === "oc" && part === "important" && (
+    <ul>
+      <li>
+        <a href="/oc/movies#utas">手順動画</a>
+      </li>
+    </ul>
+  )
+}
+
+<ol>
+  <LoginSteps />
+  {
+    pageSlug === "oc" && part === "important" && (
+      <ConfirmEmailSteps part={part} />
+    )
+  }
+</ol>
+<ul>
+  <li>
+    <LoginHelp pageSlug={pageSlug} />
+  </li>
+</ul>

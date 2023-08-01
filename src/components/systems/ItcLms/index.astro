@@ -1,0 +1,52 @@
+---
+import NotificationSteps from "./NotificationSteps.astro";
+import LoginSteps from "./LoginSteps.astro";
+import NotificationHelp from "./NotificationHelp.astro";
+
+interface Props {
+  pageSlug?: string;
+  includePart?: string;
+}
+
+const { pageSlug, includePart } = Astro.props;
+---
+
+{
+  includePart == "login" ? (
+    <LoginSteps />
+  ) : includePart == "notification" ? (
+    <>
+      <NotificationSteps />
+      <NotificationHelp />
+    </>
+  ) : (
+    <ul class="procedure">
+      {pageSlug == "oc" && (
+        <li>
+          <a href="https://youtu.be/xAur5zar5Sc">以下の手順の動画</a>
+        </li>
+      )}
+      <li>
+        <strong>練習：ログインしてみる</strong>
+        <LoginSteps />
+        <ul>
+          <li>
+            この手順がうまくいかないときは<a href="/support/">サポート窓口</a>
+            に相談してください．
+          </li>
+        </ul>
+      </li>
+      {pageSlug == "oc" && (
+        <li>
+          <strong>任意の作業：LINEと通知を連携する</strong>
+          <NotificationSteps />
+          <ul>
+            <li>
+              <NotificationHelp />
+            </li>
+          </ul>
+        </li>
+      )}
+    </ul>
+  )
+}
