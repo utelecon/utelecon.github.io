@@ -24,7 +24,7 @@ For example, by using LMS to manage tests and assignments, you can easily set su
 
 ### What Is ITC-LMS?
 
-ITC-LMS (Information Technology Center-Learning Management System) is a learning management system used in many classes at the University of Tokyo. Through ITC-LMS, instructors can post assignments, give tests and display attendance forms, as well as contact students individually. The University of Tokyo as a whole recommends the use of ITC-LMS for announcements related to class. ([The tools usage guideline for online class since S semester 2021](/en/notice/guideline))
+ITC-LMS (Information Technology Center-Learning Management System) is a learning management system used in many classes at the University of Tokyo. Through ITC-LMS, instructors can post assignments, give tests and display attendance forms, as well as contact students individually. The University of Tokyo as a whole recommends the use of ITC-LMS for announcements related to class. ([The tools usage guideline for online class since S semester 2021](/en/docs/guideline))
 
 ## Things to Keep In Mind When Using ITC-LMS
 
