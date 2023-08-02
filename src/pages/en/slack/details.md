@@ -1,28 +1,23 @@
-# Detailed specifications and settings of UTokyo Slack
+---
+title: Detailed specifications and settings of UTokyo Slack
+---
 
-翻訳元：https://utelecon.adm.u-tokyo.ac.jp/slack/details
+[Return to the top page of the description of UTokyo Slack](/en/slack/)
 
-Return to the top page of the description of UTokyo Slack
-UTokyo Slackに関する説明のトップページに戻る
 
 This page describes details of the specifications peculiar to UTokyo Slack ("Enterprise Grid" plan of Slack) and the features that are restricted by the per-organization settings.
-このページでは，UTokyo Slack（Slackの「Enterprise Grid」プラン）に特有の仕様や，オーガナイゼーション単位の設定により制限している機能などの詳細について，説明します．
 
-Custom emoji
-「カスタム絵文字」について
 
-Due to the specifications of the Enterprise Grid plan, "custom emoji" can only be added to UTokyo Slack as a whole, not to specific workspaces only.
-Enterprise Gridプランの仕様上，「カスタム絵文字」はUTokyo Slack全体に追加することしかできず，特定のワークスペースだけに追加するということはできません．
+## Custom emoji
+{:emoji}
 
-In UTokyo Slack, each workspace is configured to enable the person responsible for that workspace (the person with owner/administrator role) to add custom emoji. When adding custom emoji, please use them appropriately, keeping in mind that they will be seen by a wide variety of members of the University of Tokyo.
-* For more details about owner and administrator roles for workspaces, please refer to the relevant section of "Creation and operation of workspaces in UTokyo Slack" page.
-UTokyo Slackでは，各ワークスペースの責任者（オーナー・管理者の権限を持つ方）がカスタム絵文字を追加することができるように設定しています．カスタム絵文字を追加する際は，東京大学の多様な構成員の目に触れるものであることを踏まえ，適切に利用してください．※ワークスペースのオーナー・管理者権限については，「UTokyo Slackにおけるワークスペースの作成と運用」ページの該当箇所をご参照ください．
+Due to the specifications of the Enterprise Grid plan, ["custom emoji"](https://slack.com/help/articles/206870177-Add-custom-emoji-and-aliases-to-your-workspace) **can only be added to UTokyo Slack as a whole, not to specific workspaces only**.
+
+In UTokyo Slack, each workspace is configured to enable the person responsible for that workspace (the person with owner/administrator role) to add custom emoji. When adding custom emoji, **please use them appropriately, keeping in mind that they will be seen by a wide variety of members of the University of Tokyo**. <small>For more details about owner and administrator roles for workspaces, please refer to the relevant section of ["Creation and operation of workspaces in UTokyo Slack"](/en/slack/workspace/#owner-and-administrator) page.<small>
 
 Please note that custom emoji that you have added can be deleted from the screen that opens with "Customize [workspace name]" under "Settings and administration" in the upper left menu of the workspace screen.
-なお，カスタム絵文字の削除は，自身が追加したものについて，ワークスペース画面左上のメニュー「設定と管理」にある「以下をカスタマイズ」で開く画面から行えます．
 
-Profiles
-プロフィールについて
+## Profiles
 
 When using UTokyo Slack, we recommend that you set up your profile appropriately. In particular, the “Display Name” field in your profile is the information that is usually displayed as your name in messages, etc. However, it is initially set as the 10-digit Common ID due to system specifications. Therefore, it is recommended that you set a name that others can recognize.
 UTokyo Slackを利用する際には，プロフィールを適切に設定することをおすすめします．特に，プロフィール内の「表示名」の項目は，通常メッセージなどにあなたの名前として表示される情報ですが，システムの仕様上，初期状態では10桁の共通IDになってしまっていますので，他の人に分かるような名前を設定すると良いでしょう．
@@ -58,9 +53,8 @@ Due to the above specification that personal profiles are common to the entire U
 The "custom profile fields" feature, which is related to profiles, is also unavailable, as it can only be set for UTokyo Slack as a whole and cannot be used per workspace.
 プロフィールに関連する機能「カスタムプロフィールフィールド」についても，UTokyo Slack全体で設定することしかできず，各ワークスペースごとに設定を行うことができないため，ご利用いただけません．
 
-Procedures for continuing to use your UTokyo Slack account if your UTokyo Account changes
-UTokyo Accountが変わる場合にUTokyo Slackのアカウントを継続利用する手続き
-
+## Procedures for continuing to use your UTokyo Slack account if your UTokyo Account changes
+{:#continue}
 As UTokyo Account is managed and assigned separately to students and faculty/staff members, when a student becomes a faculty and staff member or a faculty and staff member becomes a student, their UTokyo Account will be revoked and a new UTokyo Account will be issued to them. That is to say, the UTokyo Account will be changed.
 
 UTokyo Accountは学生用と教職員用で別々に管理・付与されるため，学生から教職員になる方，教職員から学生になる方は，それまで利用していたUTokyo Accountが失効し新しいUTokyo Accountが発行されます．すなわち，UTokyo Accountが変わるということになります．
@@ -86,9 +80,8 @@ However, if you need to continue to use the same account for university activiti
 If you sign in to UTokyo Slack with your new UTokyo Account before the end of switching, you will be signed in to a new account that is different from your previous UTokyo Account you have originally used. Please note that this new account will not be accessible after the switching process (it will not be merged).
 なお，繋ぎ替えが終わる前に新しいUTokyo AccountでUTokyo Slackにサインインすると，もともと利用していたUTokyo Accountとは別の新しいアカウントにサインインします．この新しいアカウントは，繋ぎ替え作業後はアクセスできなくなります（統合はされません）ので，ご注意ください．
 
-"Guest" feature
-「ゲスト」機能について
-
+## "Guest" feature
+{:#guest}
 (* This section is for those in charge of workspace management and operation.)
 （※この項目はワークスペースの管理・運用を担当される方向けです）
 
@@ -115,11 +108,11 @@ For members inside the university (those who have a UTokyo Account), we ask them
 If you wish to allow someone inside the university to join only a specific channel, it is possible to use the "Connect" feature to share the channel to an external workspace (other than UTokyo Slack), and have them join from the external workspace side.
 学内者を特定のチャンネルのみに参加させたい場合は，「コネクト」機能を利用して外部（UTokyo Slack以外）のワークスペースにチャンネルを共有し，外部のワークスペース側から参加してもらう，という方法は考えられます．
 
-"Multi-workspace channel"
-「マルチワークスペースチャンネル」について
+## "Multi-workspace channel"
+{:#mwsc}
 
-What is a "multi-workspace channel"?
-「マルチワークスペースチャンネル」とは
+### What is a "multi-workspace channel"?
+{:#mwsc-about}
 
 "Multi-workspace channel" is a feature that allows multiple workspaces to work together within UTokyo Slack, creating a shared channel among workspaces. Normally, a Slack channel belongs to a single workspace, but by sharing a channel using the "multi-workspace channel" feature, it becomes as if a single channel exists in common in multiple workspaces. This allows members in different workspaces to communicate across workspaces. While similar to the "Connect" feature, for sharing a channel among workspaces in UTokyo Slack, it is supposed to use the "multi-workspace channels" feature instead of "Connect" feature.「マルチワークスペースチャンネル」とは，UTokyo Slack内で複数のワークスペースを連携するための機能で，ワークスペース間で共有されたチャンネルを作成できるというものです．通常，Slackのチャンネルはある1つのワークスペースの中に存在しますが，「マルチワークスペースチャンネル」機能でチャンネルの共有を行うと，1つのチャンネルが複数のワークスペースに共通して存在するような状態になります．これにより，別々のワークスペースにいるメンバーが，ワークスペースを越えてやり取りできるようになります．「コネクト」機能と類似の機能ですが，UTokyo Slack内のワークスペース同士でチャンネルを共有したい場合，「コネクト」機能は利用できず，この「マルチワークスペースチャンネル」の機能を使うことになります．
 
@@ -130,9 +123,8 @@ Please note that due to the above specification, even workspaces that do not use
 If there is a problem caused by the unavailability of a channel name, please contact us via the contact form from the workspace owner/administrator to adjust it accordingly.
 なお，上記の仕様のため，「マルチワークスペースチャンネル」機能を利用していないワークスペースであっても，特定のチャンネル名が使えない（チャンネルの作成・名前変更時にエラーになる）という状況が生じることがあります．UTokyo Slack全体のワークスペース利用と，「マルチワークスペースチャンネル」機能が必要な方のニーズの，双方のバランスが取れるように運用していきたいと考えていますので，ご理解をお願いいたします．また，チャンネル名を使えないことで利用に支障が生じた場合は，適宜調整を行いますので，ワークスペースのオーナー・管理者の方から連絡フォームでご連絡ください．
 
-Basic operational rules (e.g., procedures for getting started)
-運用ルールの基本（利用開始など）
-
+### Basic operational rules (e.g., procedures for getting started)
+{:#mwsc-rule-overview}
 
 
 When sharing a channel using the multi-workspace channel feature, a representative workspace must be assigned to manage the channel. When making changes, we accept requests from this representative workspace.
@@ -187,10 +179,8 @@ The channel name and channel ID of the channel you wish to turn into a multi-wor
 Once a channel has been shared using the multi-workspace channel feature, you must never archive or rename that channel. Also, you must never change the URL of the representative workspace. If these operations are necessary, please refer to the explanations below to deal with them.
 マルチワークスペースチャンネル機能でチャンネルを共有した後は，そのチャンネルのアーカイブやチャンネル名変更の操作を絶対に行わないでください．また，代表ワークスペースのURL変更も行わないでください．これらの操作が必要な場合は，下の説明を参照して対応してください．
 
-Details of operational rules (e.g., procedures for changes)
-運用ルールの詳細（変更の手続きなど）
-
-
+### Details of operational rules (e.g., procedures for changes)
+{:#mwsc-rule-details}
 
 If you need to make changes to a channel that is shared by the multi-workspace channel feature, please proceed using the contact form (even if you can do it on the Slack screen, please be sure to use the form, not to do it on the Slack screen).
 マルチワークスペースチャンネル機能で共有されているチャンネルに関し，変更の必要な事項がある場合は，連絡フォームから手続きしてください（Slackの画面上で操作ができる場合でも行わず，必ずフォームを利用してください）．
