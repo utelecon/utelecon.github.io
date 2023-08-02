@@ -20,6 +20,8 @@ import TroubleConnect from "./_TroubleConnect.mdx"
 {:#turn-on}
 ツールバー左端のアップルメニューから「システム設定」を選択すると，設定画面が表示されます．設定画面のサイドバーの中から「Wi-Fi」のメニューを選択し，Wi-Fi機能のトグルスイッチをオンにします．
 ただし，OSのバージョンがmacOS 12 Monterey以前の場合は「システム設定」ではなく「システム環境設定」と表示されます．以降の手順でも操作方法が多少異なる場合がありますので，適宜読み替えながら設定を進めてください．
+![](img/macos13-turnon1.png){:.medium.center.border}
+![](img/macos13-turnon2.png){:.medium.center.border}
 
 ### 手順2：SSIDの一覧から接続先のSSIDを選択する
 {:#select-ssid}
@@ -29,6 +31,7 @@ import TroubleConnect from "./_TroubleConnect.mdx"
 {:#delete-profile}
 <DeleteProfile />
 手順2で見つけたSSIDを選択し，表示された画面で「このネットワーク設定を削除する」を選択します．「Wi‑Fi “0000UTokyo”を削除しますか?」という画面が出てくるので，「削除」を選択します．
+![](img/macos13-deleteprofile.png){:.medium.center.border}
 
 ### 手順4：必要な設定情報を入力し接続する
 {:#create-profile}
@@ -41,12 +44,14 @@ SSIDを選択すると，Wi-Fiの設定情報を入力する画面が表示さ�
 | アカウント名       | UTokyo Wi-FiのユーザーID（`u`から始まり`@wifi.u-tokyo.ac.jp`で終わるもの）を入力してください |
 | パスワード       | UTokyo WI-Fiのパスワードを入力してください      |
 
+![](img/macos13-createprofile.png){:.medium.center.border}
+
 #### 補足
 {:#create-profile-notes}
 * 「アカウント名」欄と「パスワード」欄には、UTokyo Wi-FiアカウントのユーザーIDとパスワードをそれぞれ入力します．UTokyo Accountの共通ID・パスワードではありません．ユーザーIDとパスワードは，**準備**の手順で受け取った通知メールから確認できるほか，申請直後であればアカウントメニューの申請完了画面にも表示されています．
 * 上の表に掲げた以外の設定項目は，必要に応じて設定してください．特にお好みがなければ，初期設定のままでかまいません．詳しくは[Appleによる説明のページ](https://support.apple.com/ja-jp/guide/mac-help/mh11935/mac)を確認してください．
 * 接続操作の途中で，証明書を信頼するかどうか尋ねる画面が表示される場合があります．表示された証明書が真正なものである場合に限り，信頼してください．
-    * 証明書の真正性は，表示された証明書の内容と「[接続の詳細な設定](/utokyo_wifi/#connect-configuration)」に掲載されているサーバ証明書の情報とが一致しているかどうかで確認できます．
+    * 証明書の真正性は，表示された証明書の内容と「[接続の詳細な設定](/utokyo_wifi/#connect-configuration)」に掲載されているサーバ証明書の情報とが一致しているかどうかで確認できます．![](img/macos13-certificate.png){:.medium.center.border}
 
 ## うまくいかないときは
 {:#trouble-connect}
