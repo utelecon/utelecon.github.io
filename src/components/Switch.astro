@@ -1,6 +1,8 @@
 ---
+import type { Variant } from "./types";
+
 interface Props {
-  variant: string;
+  variant: Variant;
 }
 
 function match<T>(key: string, cases: Record<string, () => T>) {

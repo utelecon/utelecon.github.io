@@ -3,6 +3,12 @@ import Important from "@components/Important.astro";
 import Apply from "./Apply.mdx";
 import Connect from "./Connect.mdx";
 
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  * @property {boolean} [important]
+  */}
+
 <If cond={props.variant === "oc"}>
   <Important
     short={props.important}
@@ -12,16 +18,17 @@ import Connect from "./Connect.mdx";
     prefix="Task"
     title="Apply for an account"
   >
-    <ul slot="important">
-      <li>[Procedure video (in Japanese)](/oc/movies#utokyo_wifi)</li>
-    </ul>
-    <Apply
-      variant="oc"
-      utasOnly
-      support
-      jouhouSecurity={`["Information Security Education" section on UTokyo Wi-Fi page](/en/utokyo_wifi/#jouhou-security)`}
-      slot="important"
-    />
+    <Fragment slot="important">
+      - [Procedure video (in Japanese)](/oc/movies#utokyo_wifi)
+
+      <Apply
+        variant="oc"
+        utasOnly
+        support
+        jouhouSecurity={`["Information Security Education" section on UTokyo Wi-Fi page](/en/utokyo_wifi/#jouhou-security)`}
+      />
+    </Fragment>
+
     <li>
       **Task: Try connecting**
       <Connect
@@ -40,16 +47,13 @@ import Connect from "./Connect.mdx";
 
       <Apply
         blockLink
-        support
         jouhouSecurity={`["Information Security Education"](#jouhou-security) section`}
-        slot="important"
       />
     - **Step 3: Connect to UTokyo Wi-Fi**
       <Connect
         deviceDescription="the device you checked in Step 1"
         applyStep="Step 2"
         connectConfiguration={`["Connect Configuration"](#connect-configuration) section below`}
-        support
       />
     {:.gap}
   </Fragment>

@@ -1,6 +1,13 @@
-import If from '@components/If.astro';
-import Support from '@components/Support.astro';
-import SigninBrowserHelp from './SigninBrowserHelp.mdx';
+import If from "@components/If.astro";
+import Support from "@components/Support.astro";
+import SigninBrowserHelp from "./SigninBrowserHelp.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  * @property {true} [inlineHelp]
+  * @property {true} [big]
+  */}
 
 1. <If cond={props.big}>
      <Fragment>東京大学専用のZoomのページ https://u-tokyo-ac-jp.zoom.us/ にアクセスしてください．</Fragment>

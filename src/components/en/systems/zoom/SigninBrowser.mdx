@@ -1,6 +1,13 @@
-import If from '@components/If.astro';
-import Support from '@components/Support.astro';
-import SigninBrowserHelp from './SigninBrowserHelp.mdx';
+import If from "@components/If.astro";
+import Support from "@components/Support.astro";
+import SigninBrowserHelp from "./SigninBrowserHelp.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  * @property {true} [inlineHelp]
+  * @property {true} [big]
+  */}
 
 1. Go to the [UTokyo Zoom page](https://u-tokyo-ac-jp.zoom.us/) (please note that this is a Zoom sign-in page for UTokyo members only and is not a regular Zoom sign-in page).
 2. A page labeled "UTokyo Zoom" will appear. Click the "Config" button on the "UTokyo Zoom" page.

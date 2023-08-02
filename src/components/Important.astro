@@ -1,7 +1,9 @@
 ---
+import type { Variant } from "./types";
+
 interface Props {
-  short: boolean;
-  variant: string;
+  short: boolean | undefined;
+  variant: Variant;
   lang: "ja" | "en";
   system: string;
   prefix: string;

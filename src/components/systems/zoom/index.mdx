@@ -6,6 +6,11 @@ import Join from "./Join.mdx";
 import SigninApp from "./SigninApp.mdx";
 import CreateMeeting from "./CreateMeeting.mdx";
 
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  */}
+
 <ul class="procedure">
   <If cond={props.variant === "oc"}>
     <li>[手順動画](/oc/movies#zoom)</li>

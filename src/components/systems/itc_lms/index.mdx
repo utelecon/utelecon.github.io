@@ -2,6 +2,11 @@ import If from "@components/If.astro";
 import Login from "./Login.mdx";
 import SetupNotification from "./SetupNotification.mdx";
 
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  */}
+
 <ul>
   <If cond={props.variant === "oc"}>
     <li>[以下の手順の動画](https://youtu.be/xAur5zar5Sc)</li>

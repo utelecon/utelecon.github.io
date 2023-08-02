@@ -5,7 +5,7 @@ interface Props {
   lang: "ja" | "en";
   support: boolean;
   open?: boolean;
-  summary?: string;
+  summary?: string | undefined;
 }
 
 const { lang, support, open, summary } = Astro.props;

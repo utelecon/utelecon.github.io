@@ -2,6 +2,14 @@ import If from "@components/If.astro";
 import Help from "@components/Help.astro";
 import Markdown from "@components/Markdown.astro";
 
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  * @property {boolean} blockLink
+  * @property {boolean} utasOnly
+  * @property {string} jouhouSecurity markdown
+  */}
+
 1. <If cond={props.blockLink}>
      以下の「UTokyo Wi-Fiアカウントメニュー」にアクセスしてください．
      <b class="box center">[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>

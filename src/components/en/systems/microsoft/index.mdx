@@ -1,7 +1,12 @@
-import If from '@components/If.astro';
+import If from "@components/If.astro";
 import Signin from "./Signin.mdx";
 import Access from "./Access.mdx";
 import InstallApps from "./InstallApps.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  */}
 
 <ul class="procedure">
   <If cond={props.variant === "oc"}>

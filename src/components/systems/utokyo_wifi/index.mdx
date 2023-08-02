@@ -3,6 +3,12 @@ import Important from "@components/Important.astro";
 import Apply from "./Apply.mdx";
 import Connect from "./Connect.mdx";
 
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  * @property {boolean} [important]
+  */}
+
 <If cond={props.variant === "oc"}>
   <Important
     short={props.important}
@@ -12,16 +18,17 @@ import Connect from "./Connect.mdx";
     prefix="作業"
     title="アカウントを申請する"
   >
-    <ul slot="important">
-      <li>[手順動画](/oc/movies#utokyo_wifi)</li>
-    </ul>
-    <Apply
-      variant="oc"
-      utasOnly
-      support
-      jouhouSecurity="[UTokyo Wi-Fiのページの「情報セキュリティ教育」](/utokyo_wifi/#jouhou-security)の項"
-      slot="important"
-    />
+    <Fragment slot="important">
+      - [手順動画](/oc/movies#utokyo_wifi)
+
+      <Apply
+        variant="oc"
+        utasOnly
+        support
+        jouhouSecurity="[UTokyo Wi-Fiのページの「情報セキュリティ教育」](/utokyo_wifi/#jouhou-security)の項"
+      />
+    </Fragment>
+
     <li>
       **作業：実際に接続する**
       <Connect
@@ -42,7 +49,6 @@ import Connect from "./Connect.mdx";
         blockLink
         support
         jouhouSecurity="「[情報セキュリティ教育](#jouhou-security)」の項"
-        slot="important"
       />
     - **手順3：UTokyo Wi-Fiに実際に接続する**
       <Connect

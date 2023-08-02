@@ -3,6 +3,11 @@ import Signin from "./Signin.mdx";
 import Access from "./Access.mdx";
 import InstallApps from "./InstallApps.mdx";
 
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  */}
+
 <ul>
   <If cond={props.variant === "oc"}>
     <li>[手順動画](/oc/movies#microsoft)</li>
