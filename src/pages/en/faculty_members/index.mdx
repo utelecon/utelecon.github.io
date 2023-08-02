@@ -6,6 +6,7 @@ redirect_from:
   - /en/faculty_members/index_2020_a
 ---
 
+import UTokyoAccount from '@components/en/systems/utokyo_account/index.mdx'
 import ZoomSigninBrowser from '@components/en/systems/zoom/SigninBrowser.mdx'
 import Courses from '@components/en/Courses/index.astro'
 
@@ -62,9 +63,7 @@ The following is an explanation of the UTokyo Account’s initial setup procedur
 
 ### Changing the Initial Password
 
-1. Receive the “Notification regarding password for the UTokyo Account,” which includes your initial password, from your faculty, and graduate school. Faculty members who need it for classes should receive the notification, but if not, please contact your department's office.
-2. Please log in to the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) with the username and password indicated in the notification.
-3. Click "Password Change" on the upper left to change your password. For the safety of your account, please set a strong password.
+<UTokyoAccount variant="faculty_members" />
 
 At this point, you will be able to log in to UTokyo’s systems including [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do), which is used to input syllabi and grades. (*For information on how to use UTAS, please check with your department’s academic affairs office, or log in to UTAS, then click “Other” in the menu at the top of the screen and download the manual from the “Download Center.”)
 

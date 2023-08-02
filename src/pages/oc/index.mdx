@@ -13,7 +13,7 @@ import Microsoft from "@components/systems/microsoft/index.mdx";
 import ItcLms from '@components/systems/itc_lms/index.mdx'
 import Zoom from "@components/systems/zoom/index.mdx";
 import EccsCloudEmail from "@components/systems/eccs_cloud_email/index.mdx";
-import UTokyoAccount from '@components/procedures/UTokyoAccount/index.astro'
+import UTokyoAccount from '@components/systems/utokyo_account/index.mdx'
 import UTAS from '@components/procedures/UTAS/index.astro'
 
 ## ご挨拶
@@ -103,7 +103,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 「[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](movies)」のページでは，以下の手順を動画で説明していますので，必要に応じて確認してください．
 
-- UTokyoAccount
+- <UTokyoAccount variant="oc" important />
 - <EccsCloudEmail variant="oc" important />
 - UTAS
 - <UTokyoWiFi variant="oc" important />
@@ -122,7 +122,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 { about_utokyo_account }
 
-<UTokyoAccount pageSlug="oc" />
+<UTokyoAccount variant="oc" />
 
 ### UTAS
 

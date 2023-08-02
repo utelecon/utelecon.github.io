@@ -1,0 +1,35 @@
+import If from "@components/If.astro";
+import Important from "@components/Important.astro";
+import ChangePassword from "./ChangePassword.mdx";
+import MFA from "./MFA.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {string} variant
+  * @property {boolean} [important]
+  */}
+
+<Important
+  short={props.important}
+  variant={props.variant}
+  lang="en"
+  system="UTokyo Account"
+  prefix="Task"
+  title="Changing the initial password"
+>
+  <Fragment slot="important">
+    <If cond={props.variant === "oc"}>
+      [Procedure video](https://youtu.be/tTpAlqVhEXQ)
+    </If>
+    <ChangePassword
+      variant={props.variant}
+      support={props.variant === "oc"}
+      blockLink={props.variant === "individual"}
+    />
+  </Fragment>
+
+  <li>
+    **Task: Enable the "Multi-Factor Authentication (MFA)**
+    <MFA support={props.variant === "oc"} />
+  </li>
+</Important>

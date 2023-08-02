@@ -1,0 +1,35 @@
+import If from "@components/If.astro";
+import Important from "@components/Important.astro";
+import ChangePassword from "./ChangePassword.mdx";
+import MFA from "./MFA.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {string} variant
+  * @property {boolean} [important]
+  */}
+
+<Important
+  short={props.important}
+  variant={props.variant}
+  lang="ja"
+  system="UTokyo Account"
+  prefix="作業"
+  title="初期パスワードを変更する"
+>
+  <Fragment slot="important">
+    <If cond={props.variant === "oc"}>
+      [手順動画](/oc/movies#utokyo_account)
+    </If>
+    <ChangePassword
+      variant={props.variant}
+      support={props.variant === "oc"}
+      blockLink={props.variant === "individual"}
+    />
+  </Fragment>
+
+  <li>
+    **作業：「多要素認証」を有効化する**
+    <MFA support={props.variant === "oc"} />
+  </li>
+</Important>

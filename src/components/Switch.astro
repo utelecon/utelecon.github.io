@@ -1,21 +1,20 @@
 ---
 interface Props {
-  key: string;
+  variant: string;
 }
 
 function match<T>(key: string, cases: Record<string, () => T>) {
   return cases[key]?.();
 }
 
-const { key } = Astro.props;
+const { variant } = Astro.props;
 ---
 
 {/* slot[name] must be a static string */}
 {
-  match(key, {
+  match(variant, {
     oc: () => <slot name="oc" />,
     faculty_members: () => <slot name="faculty_members" />,
-    utokyo_account: () => <slot name="utokyo_account" />,
-    courses: () => <slot name="courses" />,
+    individual: () => <slot name="individual" />,
   })
 }
