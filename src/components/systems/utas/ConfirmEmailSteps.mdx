@@ -1,15 +1,10 @@
----
-interface Props {
-  part?: string;
-}
-
-const { part } = Astro.props;
----
+{/**
+  * @typedef {object} Props
+  * @property {boolean} [showAfterLogin]
+  */}
 
 <li>
-  {
-    part !== "important" && <>ログインした後，</>
-  }上部のメニューで「学生情報」「現住所等変更入力」を順に押してください．
+  <Fragment>{props.showAfterLogin && "ログインした後，"}</Fragment>上部のメニューで「学生情報」「現住所等変更入力」を順に押してください．
 </li>
 <li>
   その画面の「E-MAIL

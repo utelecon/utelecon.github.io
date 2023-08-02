@@ -1,0 +1,13 @@
+import Support from "@components/Support.astro";
+import ConfirmEmailSteps from "./ConfirmEmailSteps.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+<ol>
+  <ConfirmEmailSteps showAfterLogin />
+</ol>
+
+<Support lang="ja" show={props.support} />
