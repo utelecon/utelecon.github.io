@@ -1,6 +1,7 @@
 ---
 import Ja from "./Ja.astro";
 import En from "./En.astro";
+import type { Lang } from "@components/types";
 
 export interface Author {
   affiliation: string;
@@ -8,7 +9,7 @@ export interface Author {
 }
 
 interface Props {
-  lang: "ja" | "en";
+  lang: Lang;
   author: Author;
 }
 

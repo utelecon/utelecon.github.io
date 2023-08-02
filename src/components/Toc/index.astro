@@ -1,9 +1,10 @@
 ---
+import type { Lang } from "@components/types";
 import type { MarkdownHeading } from "astro";
 
 interface Props {
   headings: MarkdownHeading[];
-  lang: "ja" | "en";
+  lang: Lang;
 }
 
 interface Headings extends MarkdownHeading {

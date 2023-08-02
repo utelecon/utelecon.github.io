@@ -8,9 +8,10 @@ import { basename } from "path";
 import type { AstroInstance, MDXInstance, MarkdownInstance } from "astro";
 import Slugger from "github-slugger";
 import Layout, { Frontmatter } from "@layouts/Layout.astro";
+import type { Lang } from "@components/types";
 
 interface Props {
-  lang: "ja" | "en";
+  lang: Lang;
 }
 
 interface AstroInstanceExt extends AstroInstance {
@@ -37,29 +38,31 @@ type HeadingType = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
 const { lang } = Astro.props;
 
-let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}")).filter((page) => {
-  if (!page.url) {
-    return false;
-  }
-  if (basename(page.url).startsWith("_")) {
-    return false;
-  }
-  if ("frontmatter" in page && page.frontmatter.redirect_to) {
-    return false;
-  }
-  const { sitemap } = "frontmatter" in page ? page.frontmatter : page;
-  if (sitemap === false) {
-    return false;
-  }
-  const isEnglishPage = page.url.startsWith("/en/");
-  return {
-    ja: !isEnglishPage,
-    en: isEnglishPage,
-  }[lang];
-}).map<Page>((page) => {
-  const { title } = "frontmatter" in page ? page.frontmatter : page;
-  return { title, url: page.url! };
-});
+let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}"))
+  .filter((page) => {
+    if (!page.url) {
+      return false;
+    }
+    if (basename(page.url).startsWith("_")) {
+      return false;
+    }
+    if ("frontmatter" in page && page.frontmatter.redirect_to) {
+      return false;
+    }
+    const { sitemap } = "frontmatter" in page ? page.frontmatter : page;
+    if (sitemap === false) {
+      return false;
+    }
+    const isEnglishPage = page.url.startsWith("/en/");
+    return {
+      ja: !isEnglishPage,
+      en: isEnglishPage,
+    }[lang];
+  })
+  .map<Page>((page) => {
+    const { title } = "frontmatter" in page ? page.frontmatter : page;
+    return { title, url: page.url! };
+  });
 
 // https://stackoverflow.com/questions/979256/sorting-an-array-of-objects-by-property-values#comment48111034_979289
 // @ts-ignore
@@ -74,7 +77,9 @@ const sections = { ja, en }[lang].map<Section>((section) => {
       let cond = false;
       cond ||= pattern.test(page.url);
       if (section.negativePatterns) {
-        cond &&= !section.negativePatterns.some((pattern) => pattern.test(page.url));
+        cond &&= !section.negativePatterns.some((pattern) =>
+          pattern.test(page.url)
+        );
       }
       if (cond) {
         links.push(page);
@@ -98,13 +103,11 @@ const sections = { ja, en }[lang].map<Section>((section) => {
     }[lang],
     lang,
   }}
-  headings={
-    sections.map((section) => ({
-      text: section.name,
-      slug: section.slug,
-      depth: section.depth,
-    }
-  ))}
+  headings={sections.map((section) => ({
+    text: section.name,
+    slug: section.slug,
+    depth: section.depth,
+  }))}
 >
   {
     sections.map((section) => {

@@ -8,6 +8,7 @@ import "@styles/global.scss";
 import type { MarkdownHeading } from "astro";
 import Author, { Author as AuthorProps } from "@components/Author/index.astro";
 import Markdown from "@components/Markdown.astro";
+import type { Lang } from "@components/types";
 
 interface Props {
   frontmatter: Frontmatter;
@@ -17,7 +18,7 @@ interface Props {
 export interface Frontmatter {
   title: string;
   description?: string;
-  lang: "ja" | "en";
+  lang: Lang;
   toc?: boolean;
   h1?: string;
   top?: boolean;
@@ -28,7 +29,7 @@ export interface Frontmatter {
 }
 
 function createDefaultDescription(
-  lang: "ja" | "en",
+  lang: Lang,
   headings: MarkdownHeading[]
 ): string {
   return (

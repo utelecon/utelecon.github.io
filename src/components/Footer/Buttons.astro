@@ -1,7 +1,9 @@
 ---
 import FormLink from "./FormLink.astro";
+import type { Lang } from "@components/types";
+
 export interface Props {
-  lang: "ja" | "en";
+  lang: Lang;
 }
 
 const { lang } = Astro.props;

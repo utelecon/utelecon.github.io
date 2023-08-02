@@ -1,8 +1,9 @@
 ---
 import Support from "./Support.astro";
+import type { Lang } from "@components/types";
 
 interface Props {
-  lang: "ja" | "en";
+  lang: Lang;
   support: boolean;
   open?: boolean;
   summary?: string | undefined;
