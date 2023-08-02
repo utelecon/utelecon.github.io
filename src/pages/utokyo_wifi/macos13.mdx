@@ -1,5 +1,5 @@
 ---
-title: macOS端末でUTokyo Wi-Fiを利用する
+title: macOS13でUTokyo Wi-Fiを利用する
 description: 
 ---
 import Intro from "./Intro.astro"
@@ -8,24 +8,30 @@ import SelectSsid from "./_SelectSsid.mdx"
 import DeleteProfile from "./_DeleteProfile.mdx"
 import TroubleConnect from "./_TroubleConnect.mdx"
 
-<Intro kindOfTerminal="macOS端末" confirmedTerminal="（macOS 13 Venturaが搭載されたMacBookPro）"/>
+<Intro kindOfTerminal="macOS13の端末" confirmedTerminal="（macOS 13 Venturaが搭載されたMacBookPro）"/>
 
 ## 準備：UTokyo Wi-Fiアカウントの発行を申請する
+{:#issue-account}
 <IssueAccount />
 
-## macOS端末での手順
+## 端末での手順
+{:#procedure}
 ### 手順1：「システム設定」でWi-Fi機能をオンにする
+{:#turn-on}
 ツールバー左端のアップルメニューから「システム設定」を選択すると，設定画面が表示されます．設定画面のサイドバーの中から「Wi-Fi」のメニューを選択し，Wi-Fi機能のトグルスイッチをオンにします．
 ただし，OSのバージョンがmacOS 12 Monterey以前の場合は「システム設定」ではなく「システム環境設定」と表示されます．以降の手順でも操作方法が多少異なる場合がありますので，適宜読み替えながら設定を進めてください．
 
 ### 手順2：SSIDの一覧から接続先のSSIDを選択する
+{:#select-ssid}
 <SelectSsid />
 
 ### 手順3：既存のWi-Fiの設定情報を削除する
+{:#delete-profile}
 <DeleteProfile />
 手順2で見つけたSSIDを選択し，表示された画面で「このネットワーク設定を削除する」を選択します．「Wi‑Fi “0000UTokyo”を削除しますか?」という画面が出てくるので，「削除」を選択します．
 
 ### 手順4：必要な設定情報を入力し接続する
+{:#create-profile}
 SSIDの一覧の中から，`0000UTokyo`というSSIDを再度選択します．
 SSIDを選択すると，Wi-Fiの設定情報を入力する画面が表示されます．下記の説明に沿って，必要な設定情報を各欄に入力します．下で説明されているのに入力画面に表示されなかった項目は，特に設定しなくてかまいません．設定情報を入力したら，接続ボタンを選択します．
 
@@ -36,10 +42,12 @@ SSIDを選択すると，Wi-Fiの設定情報を入力する画面が表示さ�
 | パスワード       | UTokyo WI-Fiのパスワードを入力してください      |
 
 #### 補足
+{:#create-profile-notes}
 * 「アカウント名」欄と「パスワード」欄には、UTokyo Wi-FiアカウントのユーザーIDとパスワードをそれぞれ入力します．UTokyo Accountの共通ID・パスワードではありません．ユーザーIDとパスワードは，**準備**の手順で受け取った通知メールから確認できるほか，申請直後であればアカウントメニューの申請完了画面にも表示されています．
 * 上の表に掲げた以外の設定項目は，必要に応じて設定してください．特にお好みがなければ，初期設定のままでかまいません．詳しくは[Appleによる説明のページ](https://support.apple.com/ja-jp/guide/mac-help/mh11935/mac)を確認してください．
 * 接続操作の途中で，証明書を信頼するかどうか尋ねる画面が表示される場合があります．表示された証明書が真正なものである場合に限り，信頼してください．
     * 証明書の真正性は，表示された証明書の内容と「[接続の詳細な設定](/utokyo_wifi/#connect-configuration)」に掲載されているサーバ証明書の情報とが一致しているかどうかで確認できます．
 
 ## うまくいかないときは
+{:#trouble-connect}
 <TroubleConnect />
