@@ -1,13 +1,14 @@
 ---
 interface Props {
   short: boolean;
+  variant: string;
   lang: "ja" | "en";
   system: string;
   prefix: string;
   title: string;
 }
 
-const { short, lang, system, prefix, title } = Astro.props;
+const { short, variant, lang, system, prefix, title } = Astro.props;
 const colon = { ja: "：", en: ": " }[lang];
 const repost = { ja: "（再掲）", en: "(Repost)" }[lang];
 ---
@@ -21,13 +22,22 @@ const repost = { ja: "（再掲）", en: "(Repost)" }[lang];
   ) : (
     <ul>
       <li>
-        <details>
-          <summary>
-            {repost}
+        {variant === "oc" ? (
+          <>
+            <details>
+              <summary>
+                {repost}
+                <strong>{prefix + colon + title}</strong>
+              </summary>
+              <slot name="important" />
+            </details>
+          </>
+        ) : (
+          <>
             <strong>{prefix + colon + title}</strong>
-          </summary>
-          <slot name="important" />
-        </details>
+            <slot name="important" />
+          </>
+        )}
       </li>
       <slot />
     </ul>

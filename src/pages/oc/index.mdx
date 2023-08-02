@@ -12,7 +12,7 @@ import UTokyoWiFi from '@components/systems/utokyo_wifi/index.mdx';
 import Microsoft from "@components/systems/microsoft/index.mdx";
 import ItcLms from '@components/systems/itc_lms/index.mdx'
 import Zoom from "@components/systems/zoom/index.mdx";
-import Google from '@components/procedures/Google/index.astro'
+import EccsCloudEmail from "@components/systems/eccs_cloud_email/index.mdx";
 import UTokyoAccount from '@components/procedures/UTokyoAccount/index.astro'
 import UTAS from '@components/procedures/UTAS/index.astro'
 
@@ -54,7 +54,7 @@ export const about_utokyo_account = "東大の情報システムで使う，「�
 export const about_utas = "各授業の概要説明（シラバス）の閲覧，受ける授業の登録手続き，成績の確認などに使うシステム（学務システム）です．"
 export const about_itc_lms = "授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．"
 export const about_zoom = "「同時双方向型」のオンライン授業で使う Web 会議システムです．"
-export const about_google = "Gmail などの Google のシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既に Google のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
+export const about_eccs_cloud_email = "Gmail などの Google のシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既に Google のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
 export const about_microsoft = "Word, Excel などの Microsoft Office が無料でダウンロードできます．また，Microsoft の各種オンラインツールも提供しています．Google と同じく，東大のアカウントでしかアクセスできないページがあるので，既に Microsoft のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
 export const about_utokyo_wifi = "キャンパス内で使える Wi-Fi です．キャンパス内でオンライン授業を受ける際に必要になるでしょう．事前にアカウントを作っていないと使えないので注意してください．"
 export const about_eccs = "キャンパス内に設置されているパソコンです．一部の対面授業で利用する場合があるほか，キャンパス内でオンライン授業を受ける際にも利用できます．利用には事前に利用権の申請が必要ですので，注意してください．"
@@ -63,7 +63,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 - **UTAS**：{ about_utas }
 - **ITC-LMS**：{ about_itc_lms }
 - **Zoom**：{ about_zoom }
-- **ECCS クラウドメール (Google Workspace)**：{ about_google }
+- **ECCS クラウドメール (Google Workspace)**：{ about_eccs_cloud_email }
 - **UTokyo Microsoft License (Microsoft 365)**：{ about_microsoft }
 - **UTokyo Wi-Fi**：{ about_utokyo_wifi }
 - **ECCS 端末**：{ about_eccs }
@@ -103,12 +103,9 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 「[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](movies)」のページでは，以下の手順を動画で説明していますので，必要に応じて確認してください．
 
-<ul class="procedure">
-    <UTokyoAccount part="important" pageSlug="oc" />
-    <Google part="important" pageSlug="oc" />
-    <UTAS part="important" pageSlug="oc" />
-</ul>
-
+- UTokyoAccount
+- <EccsCloudEmail variant="oc" important />
+- UTAS
 - <UTokyoWiFi variant="oc" important />
 
 ## 情報システムに関するその他の準備手順
@@ -155,9 +152,9 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 {:#google}
 
-{ about_google }
+{ about_eccs_cloud_email }
 
-<Google pageSlug="oc" />
+<EccsCloudEmail variant="oc" />
 
 ### UTokyo Microsoft License (Microsoft 365)
 
