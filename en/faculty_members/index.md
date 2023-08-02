@@ -64,13 +64,11 @@ At this point, you will be able to log in to UTokyo’s systems including [UTAS]
 
 ### Setting up “Multi-Factor Authentication”
 
-To improve the security of UTokyo’s IT systems, the “multi-factor authentication” (MFA) is available for UTokyo Accounts.
+To improve the security of UTokyo’s IT systems, the “multi-factor authentication” (MFA) is available for UTokyo Accounts. The MFA is a security process in which users prove their identity by at least two pieces of evidence. In addition to passwords, users are asked to verify their identity via SMS, authentication applications, and other methods when signing in to their accounts. Through the use of MFA, the risk of unauthorized sign-ins can be decreased, even if your password is compromised under certain situations, which enhances security.
 
-The MFA is a security process in which users prove their identity by at least two pieces of evidence. In addition to passwords, users are asked to verify their identity via SMS, authentication applications, and other methods when signing in to their accounts.
+For the overall improvement of university security, the University of Tokyo strongly encourages the activation of multi-factor authentication for UTokyo Accounts. Especially for faculty and staff, everyone is expected to use multi-factor authentication. Please follow the setup procedures in the “**[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)**” page.
 
-MFA setup is not mandatory at this time, but it is recommended for better security of your UTokyo Account. Please follow the setup procedures in the “**[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)**” page.
-
-### 情報セキュリティ教育
+### Information Security Education
 {:#information-security-education}
 
 {% include en/systems/information_security.html part="explanation" %}
