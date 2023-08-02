@@ -15,6 +15,20 @@ npm install
 npm run dev
 ```
 
+## Frontmatter
+
+Markdownファイルのフロントマターにかける設定は以下の通りです：
+
+- `title`：ページのタイトル．表示されるタイトルになるほか，`<title>`要素の中身にもなり，Slack等でリンクを共有した際に表示される．必須．
+- `description`：ページの説明．Slack等でリンクを共有した際に表示される．
+- `h1`：ページの表示されるタイトル．`title`と異なり，Markdownを含めることができる．
+- `toc`：`false`とすれば，ページの目次を表示しない．
+- `sitemap`：`false`とすれば，[サイトマップ](https://utelecon.adm.u-tokyo.ac.jp/sitemap/)に含まれない．
+- `author`：記事の著者をページ下部に表示する．
+  - `affiliation`：所属．`author`を指定する場合は必須．`oes`とすると[OESの説明ページ](https://utelecon.adm.u-tokyo.ac.jp/about/oes)へのリンクが表示される．
+  - `name`：著者名．任意．
+- `redirect_from`・`redirect_to`：リダイレクトの設定．詳しくは[後述](#redirect_from--redirect_to)．
+
 ## How it works
 
 [Astro](https://astro.build)という静的サイトジェネレータを用いています．
