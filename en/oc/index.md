@@ -121,12 +121,12 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 ### Information Security Education
 {:#information_security_education}
 
-{% include systems/information_security.html part="explanation" %}
+{% include en/systems/information_security.html part="explanation" %}
 <ul>
     <li>
         <details>
             <summary>(Repost)<strong>Task: Finish attending Information Security Education</strong></summary>
-{% include systems/information_security.html part="important" %}
+{% include en/systems/information_security.html part="important" %}
         </details>
     </li>
 </ul>
