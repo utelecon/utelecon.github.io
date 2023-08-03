@@ -4,8 +4,6 @@ https://utelecon.adm.u-tokyo.ac.jp/
 
 uteleconは，オンライン授業やWeb会議に関する情報をワンストップで得られることを目指して東京大学が開設したウェブサイトです．詳しくは[uteleconについて](https://utelecon.adm.u-tokyo.ac.jp/about/)をご覧ください．
 
-このウェブサイトの内容に関する問い合わせは[uteleconサポート窓口](https://utelecon.adm.u-tokyo.ac.jp/support/)までお願いします．匿名のフィードバックは，それぞれのページの右下にある「フィードバック」ボタンからも送信できます．
-
 ## Preview
 
 [Node.js](https://nodejs.org) が必要です．v18の最新版（LTS）をインストールしてください．
