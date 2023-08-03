@@ -33,7 +33,7 @@ author:
 
 まず，数字や文字を選択して打ち込む方法について説明します．Microsoft Wordの［挿入］タブを選択し，リボン右端にある（下図参照）［数式］をクリックします．
 
-![](./pic1.png)
+![](./pic1.png){:height="200px"}
 
 クリックすると数式タブが出てきます．（「Alt」+「Shift」+「=」キーの同時押しでも数式タブを呼び出すことが可能です．） 数式タブ内のそれぞれの項目を選択していくことで，作成したい数式を記述することができます．しかしながら，文字を一つ一つ選択する必要があるため，複雑で多くの文字を使うような数式を作成したい場合，かなりの手間と時間がかかってしまいます．
 
@@ -53,11 +53,11 @@ author:
 
 ［描画］タブを選択し，さらに［インクを数式に変換］を選択すると，下図のような画面が出てきます．（［挿入タブ］の数式の選択画面からも［インクを数式に変換］が表示されます．）
 
-![](./pic4.png)
+![](./pic4.png){:height="400px"}
 
 数式を手書きで書き込むと下図のように読み取ってくれます．
 
-![](./pic5.png)
+![](./pic5.png){:height="400px"}
 
 このように，文字や記号を一つ一つ選択する手間をかけずに，数式を記入することができます．また，上の画像のようにマウスで書いたような非常に読みにくい文字でも読み取ることが可能です．しかしながら，一部の特殊文字や連立した式の出力はできないことが欠点です．
 
@@ -95,9 +95,9 @@ snippingについてのさらなる情報は，Mathpixの提供する[こちら�
 
 次に手書きで読み取る方法について説明します．左上のアイコンの左から3番目のアイコンをクリックします．
 
-![](./pic9.png)
+![](./pic9.png){:height="400px"}
 
-![](./pic10.png)
+![](./pic10.png){:height="400px"}
 
 「Handwrite your formula here」という文字とともに画面が表示されるので，数式を記入します．
 
@@ -171,18 +171,27 @@ Mathpixは，パソコンのスクリーン上から数式を読み取ること�
 </figure>
 
 グラフの軸や目盛り等の詳細設定は設定ボタン（下図の丸で囲ったボタン）から変更できます．
-
-![](./pic19.png)
-
-![](./pic20.png)
-
 x軸やy軸の単位やラベルの設定ができます．
 
-作成した画像のエクスポートは左上の赤丸で囲った部分から選択することができます．「・・・形式でダウンロード」を選択するとpdfやpngファイルなどでダウンロードできます．
+<figure>
+<img src="pic19.png" width="400px">
+<figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
+</figure>
+
+<figure>
+<img src="pic20.png">
+<figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
+</figure>
+
+作成した画像のエクスポートは左上の赤丸で囲った部分から選択することができます．
+「・・・形式でダウンロード」を選択するとpdfやpngファイルなどでダウンロードできます．
 
 また，二次元座標系だけでなく，空間図形の描画など，様々なことができます．
 
-![](./pic21.png)
+<figure>
+<img src="pic21.png">
+<figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
+</figure>
 
 GeoGebraの特徴は，数式を記述すれば簡単にグラフが出力できることです．その他にも多角形や空間図形の描画，数式計算など，できることが幅広くあります．
 
@@ -244,7 +253,7 @@ PythonはGoogle Colaboratoryを用いることで，環境構築の必要なく�
 
 ![](./pic27.png)
 
-完了ボタンを押すと，変換が行われます．pdf， word， powerpointファイルに変換することが可能です．変換されたファイルはMicrosoft OneDriveに保存されます．
+完了ボタンを押すと，変換が行われます．PDF，Word，PowerPointファイルに変換することが可能です．変換されたファイルはMicrosoft OneDriveに保存されます．
 
 このように，Microsoft Lensは手書きのレポート等を，写真を撮るだけで簡単に短時間で電子ファイルに変換することができます．
 
@@ -261,13 +270,19 @@ Google Keepは画像を保存することが出来るほか，画像のテキス
 <figcaption><a href="/en/improvement/">https://utelecon.adm.u-tokyo.ac.jp/en/improvement/</a></figcaption>
 </figure>
 
-![](./pic29.png)
+<figure>
+<img src="pic29.png">
+<figcaption><a href="/en/improvement/">https://utelecon.adm.u-tokyo.ac.jp/en/improvement/</a></figcaption>
+</figure>
 
 読み込むと画像が表示され，下にスクロールするとタイトルやメモの記入ができます．
 
 また，下部のアイコンから背景の選択や図形の追加などの操作を行うことができます．
 
-![](./pic30.png)
+<figure>
+<img src="pic30.png">
+<figcaption><a href="/en/improvement/">https://utelecon.adm.u-tokyo.ac.jp/en/improvement/</a></figcaption>
+</figure>
 
 「画像のテキストを抽出」をクリックすると，上図のように，画像内に書かれている文字が画像の上から順に表示されていきます．（画像を読み込んでからテキストの抽出ができる状態になるまでに少し時間がかかります．また，テキストの一部が読み込まれない場合もあります．） 抽出したテキストは編集が可能なので，分からなかった文や単語を調べる際にコピーすることで，手打ちで打ち込むより時間が短縮できます．
 
