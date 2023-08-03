@@ -11,15 +11,15 @@ import ConfirmEmail from "./ConfirmEmail.mdx";
 
 <If cond={props.important}>
   **UTAS: Log in to check if your email address is registered**
-  - [手順動画](/oc/movies#utas)
+  - [Procedure video (in Japanese)](/oc/movies#utas)
   <LoginAndConfirmEmail variant={props.variant} support={props.variant === "oc"} />
 
   - <details>
-      <summary>（再掲）**Exercise: Login**</summary>
+      <summary>(Repost)**Exercise: Login**</summary>
       <Login variant={props.variant} support={props.variant === "oc"} />
     </details>
   - <details>
-      <summary>（再掲）**Check: Make sure your email address is registered**</summary>
+      <summary>(Repost)**Check: Make sure your email address is registered**</summary>
       <ConfirmEmail support={props.variant === "oc"} />
     </details>
   {:.procedure slot="else"}
