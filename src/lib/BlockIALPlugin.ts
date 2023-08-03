@@ -42,6 +42,22 @@ interface IAL extends Node {
   data?: IALData;
 }
 
+declare module "micromark-util-types" {
+  interface TokenTypeMap {
+    ial: "ial";
+    ialOpen: "ialOpen";
+    ialClose: "ialClose";
+    ialColon: "ialColon";
+    ialVariant: "ialVariant";
+    ialIdent: "ialIdent";
+    ialName: "ialName";
+    ialEquals: "ialEquals";
+    ialValueStart: "ialValueStart";
+    ialValue: "ialValue";
+    ialValueEnd: "ialValueEnd";
+  }
+}
+
 declare module "mdast" {
   interface StaticPhrasingContentMap {
     ial: IAL;
