@@ -14,32 +14,34 @@ const { show, lang, afterDetails = false } = Astro.props;
   show &&
     {
       "ja-false": (
-        <ul>
-          <li>
-            この手順がうまくいかないときは<a href="/support/">サポート窓口</a>
-            に相談してください．
-          </li>
-        </ul>
+        <p class="support">
+          この手順がうまくいかないときは<a href="/support/">サポート窓口</a>
+          に相談してください．
+        </p>
       ),
       "ja-true": (
-        <p>
+        <p class="support">
           これらを確認して，それでもうまくいかなければ，
           <a href="/support/">サポート窓口</a>に相談してください．
         </p>
       ),
       "en-false": (
-        <ul>
-          <li>
-            If this procedure does not work, please consult the{" "}
-            <a href="/en/support/">Technical Support Desk</a>.
-          </li>
-        </ul>
+        <p class="support">
+          If this procedure does not work, please consult the{" "}
+          <a href="/en/support/">Technical Support Desk</a>.
+        </p>
       ),
       "en-true": (
-        <p>
+        <p class="support">
           If the issue is still not resolved, please consult the{" "}
           <a href="/en/support/">Technical Support Desk</a>.
         </p>
       ),
     }[`${lang}-${afterDetails}`]
 }
+
+<style>
+  p.support {
+    padding-left: 20px;
+  }
+</style>
