@@ -1,13 +1,12 @@
 import If from "@components/If.astro";
 import Help from "@components/Help.astro";
-import Markdown from "@components/Markdown.astro";
 
 {/**
   * @typedef {object} Props
   * @property {boolean} support
   * @property {boolean} blockLink
   * @property {boolean} utasOnly
-  * @property {string} jouhouSecurity markdown
+  * @property {() => any} JouhouSecurity
   */}
 
 1. <If cond={props.blockLink}>
@@ -40,7 +39,7 @@ import Markdown from "@components/Markdown.astro";
 <Help lang="en" support={props.support}>
   - **If the following screen appears and you cannot access your account menu**:
     ![](/en/utokyo_wifi/account_menu_access_denied.png){:.small}
-    Your account has been suspended because you have not completed information security education. Please refer to <Markdown content={props.jouhouSecurity} /> for details.
+    Your account has been suspended because you have not completed information security education. Please refer to <props.JouhouSecurity /> for details.
   - **If you do not receive a notification email**:
     - Please check your spam folder.
     - Check your email address. The email will be sent to both your ECCS Cloud Email and the email address indicated in the "Notification e-mail address" field on the application screen.

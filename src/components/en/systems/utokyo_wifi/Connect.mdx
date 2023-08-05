@@ -1,12 +1,11 @@
 import Help from "@components/Help.astro";
-import Markdown from "@components/Markdown.astro";
 
 {/**
   * @typedef {object} Props
   * @property {boolean} support
   * @property {string} deviceDescription
   * @property {string} applyStep
-  * @property {string} connectConfiguration markdown
+  * @property {() => any} ConnectConfiguration
   */}
 
 - This process can only be done in the place where UTokyo Wi-Fi (Wi-Fi with SSID `0000UTokyo`) is visible on the Wi-Fi setting menu of your own devices.
@@ -15,7 +14,7 @@ import Markdown from "@components/Markdown.astro";
 2. Enter the user ID and password of your UTokyo Wi-Fi account (not of your UTokyo Account). You can find your user ID and password in the notification email you received in {props.applyStep}. If you have just finished your application, you can also find them on the application completion screen of the account menu.
 3. Once you establish a connection, you can use it just like any normal Wi-Fi.
 
-- When connecting, you may be asked to verify your certificate or to enter the information described in the <Markdown content={props.connectConfiguration} />.
+- When connecting, you may be asked to verify your certificate or to enter the information described in the <props.ConnectConfiguration />.
 - Please refer to [ECCS Tutor’s page](https://www.sodan.ecc.u-tokyo.ac.jp/en/faq/utokyo-wifi-en/) as well if you are unsure. There are detailed connection instructions for each device. You may also refer to [the "User's Guide" on the page of the Wi-Fi system called "eduroam"](https://www.eduroam.jp/for_users/), which has a similar connection method (replace `eduroam` with UTokyo Wi-Fi SSID when you read the page).
 <Help lang="en" support={props.support}>
   - If the signal is weak, the connection may be interrupted. Try different locations or times of the day.
