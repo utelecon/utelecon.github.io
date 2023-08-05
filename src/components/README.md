@@ -6,10 +6,9 @@
   - `faculty_members`：[`/faculty_members/`](../pages/faculty_members/index.mdx)です．
   - `individual`：各サービスの個別ページです．[`/utokyo_account/`](../pages/utokyo_account/index.mdx)などです．
 
-## Utility Components
+## 条件分岐コンポーネント
 
-- 以下の例はすべて`.mdx`です．
-- Propsの型の詳細は，各コンポーネントのソースコードを参照してください．
+条件によって表示される内容を変えるコンポーネントです．**三項演算子などを回避するために利用します**．**特に`.mdx`では三項演算子等を利用すると非常に読みづらくなる**ため，積極的に利用してください．これらのコンポーネントは言語に依存しません（prop `lang`を取りません）．
 
 ### [`If`](If.astro)
 
@@ -57,7 +56,7 @@ prop `variant`の値によって，表示する要素が切り替わります．
 </Switch>
 ```
 
-注：`BlockIALPlugin`により，`id`属性や`class`属性以外の任意の属性を上のようなsyntaxで指定できます．これは`.astro`で用いられる`slot`属性も含まれます．よって，上の例で`props.variant === "oc"`のときは以下のHTMLが出力されます：
+注：`BlockIALPlugin`により，`.md`および`.mdx`では任意の属性を上のようなsyntaxで指定できます．これは`.astro`で用いられる`slot`属性も含まれます．よって，上の例で`props.variant === "oc"`のときは以下のHTMLが出力されます：
 ```html
 <ul>
   <li>学生向けの内容</li>
@@ -65,17 +64,9 @@ prop `variant`の値によって，表示する要素が切り替わります．
 </ul>
 ```
 
-### [`Markdown`](Markdown.astro)
+## `@components/systems` (`@components/en/systems`) にあるコンポーネント
 
-prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示されます．
-
-注：[`src/data`](../data)以下に定義されているデータを表示するために利用します．**コンポーネントからコンポーネントにマークアップを渡すために利用しないでください**．代わりに，
-- `.mdx`のコンポーネントに渡す場合：`props`に`() => any`の関数を渡して，コンポーネントとして呼び出してください．
-- `.astro`のコンポーネントに渡す場合：`slot`を利用してください．
-
-## `@components/systems` (`@components/en/systems`) にあるコンポーネントについて
-
-`@components/systems`の直下には，システム名を冠するフォルダだけが置いてあります．各フォルダの中にあるコンポーネントについて解説します．
+`@components/systems`の直下には，システム名を冠するフォルダだけが置いてあり，それぞれのフォルダには以下のようなコンポーネントが定義されています．これらのコンポーネントは言語ごとに別々に定義されています（prop `lang`を取りません）．フォルダ名・ファイル名やコンポーネントの構造は言語間で共通です．
 
 ### 「基本単位」
 
@@ -89,7 +80,9 @@ prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示さ
 
 その他，後述の[`HelpItem`](#helpitem)を利用した共通化が必要な場合など，基本単位よりも細かいコンポーネントを作成し，基本単位のコンポーネントで利用することがあります．
 
-## Components for `@components/systems`
+## `@components/systems`で利用するコンポーネント
+
+`@components/systems`のコンポーネントを作るために利用するコンポーネントです．コンポーネントの作成を簡潔にするだけでなく，ポータルサイトを読む利用者が不要な違和感なく読めるように見え方を統一する役割もあります．積極的に利用してください．これらのコンポーネントは言語間で共通化されています（prop `lang`を取ります）．
 
 ### [`Important`](Important.astro)
 
@@ -106,7 +99,7 @@ prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示さ
 
 利用例：[`systems/eccs_cloud_email/Access.mdx`](systems/eccs_cloud_email/Access.mdx)
 
-手順の末尾にトラブルシュート情報を折りたたみで表示するために利用します．`lang`を指定してください．`support`がtrueの場合，中身の後にサポート窓口に誘導する文章が表示されます．
+手順の末尾にトラブルシュート情報を折りたたみで表示するために利用します．`lang`を指定してください．`support`がtrueの場合，中身の後にサポート窓口に案内する文章が表示されます．
 
 ### [`HelpItem`](HelpItem.astro)
 
@@ -118,6 +111,6 @@ prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示さ
 
 ### [`Support`](Support.astro)
 
-利用例：[`utokyo_account/ChangePassword.mdx`](systems/utokyo_account/ChangePassword.mdx)
+利用例：[`systems/utokyo_account/ChangePassword.mdx`](systems/utokyo_account/ChangePassword.mdx)
 
-サポート窓口に誘導する文章を表示するために利用します．`lang`を指定してください．`show`がtrueの場合のみ表示されます．
+サポート窓口に案内する文章を表示するために利用します．`lang`を指定してください．`show`がtrueの場合のみ表示されます．
