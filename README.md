@@ -2,59 +2,91 @@
 
 https://utelecon.adm.u-tokyo.ac.jp/
 
+uteleconは，オンライン授業やWeb会議に関する情報をワンストップで得られることを目指して東京大学が開設したウェブサイトです．詳しくは[uteleconについて](https://utelecon.adm.u-tokyo.ac.jp/about/)をご覧ください．
 
-## 共通ルール
-* 句読点は「，．」にする（吉田栗田はまずは全角で対応）
+## Preview
 
-## 書き方
+[Node.js](https://nodejs.org) が必要です．v18の最新版（LTS）をインストールしてください．
 
-* 拡張子(.markdown)のファイル (xxxxxx.markdown) をマークダウン形式で書いてgit commit/push
-* xxxxxx.markdown をcommit/pushするとそれは, https://utelecon.adm.u-tokyo.ac.jp/xxxxxx というパスで参照できるようになる
-* hoge/foo/bar/index.markdown をcommit/pushすると, https://utelecon.adm.u-tokyo.ac.jp/hoge/foo/bar/  で参照できる
-* xxxxxx.markdown ファイルに対しては統一的な theme が自動的に適用される
-  * theme は設定画面 https://github.com/utelecon/utelecon.github.io  の settings のページの下の方 (github pages) から変更できる
-* 経験上, commit/push してからサイトに反映されるまで長いと数十秒かかる
-* markdown中には普通のhtmlも書けるのでmarkdownで書きにくいものはhtmlを書けば良い
-* markdown記法 https://qiita.com/tbpgr/items/989c6badefff69377da7
-  * 他の参考サイト https://qiita.com/t_wkm2/items/372fd1c851c4d221b1f3
-* 裏で Jekyll が動いている: https://jekyllrb.com/docs/
-  * ページトップに --- （改行） title: ZOOM （改行） --- などと入力することで，ページに関するメタ情報を入力できる
-    * 変数なども扱えそう https://jekyllrb.com/docs/front-matter/
-
+```sh
+npm install
+npm run dev
 ```
-git clone git@github.com:utelecon/utelecon.github.io.git
-# edit files (e.g., index.markdown)
-git commit -m "add introduction" -a
-git push
+
+## Frontmatter
+
+Markdownファイルのフロントマターにかける設定は以下の通りです：
+
+- `title`：ページのタイトル．表示されるタイトルになるほか，`<title>`要素の中身にもなり，Slack等でリンクを共有した際に表示される．必須．
+- `description`：ページの説明．Slack等でリンクを共有した際に表示される．
+- `h1`：ページの表示されるタイトル．`title`と異なり，Markdownを含めることができる．
+- `toc`：`false`とすれば，ページの目次を表示しない．
+- `sitemap`：`false`とすれば，[サイトマップ](https://utelecon.adm.u-tokyo.ac.jp/sitemap/)に含まれない．
+- `author`：記事の著者をページ下部に表示する．
+  - `affiliation`：所属．`author`を指定する場合は必須．`oes`とすると[OESの説明ページ](https://utelecon.adm.u-tokyo.ac.jp/about/oes)へのリンクが表示される．
+  - `name`：著者名．任意．
+- `redirect_from`・`redirect_to`：リダイレクトの設定．詳しくは[後述](#redirect_from--redirect_to)．
+
+## How it works
+
+[Astro](https://astro.build)という静的サイトジェネレータを用いています．
+
+特殊な設定は以下：
+- `src/pages`以下のファイルはデフォルトで公開される
+  - 画像等は`src/pages`以下に置く
+  - `publicDir: "src/pages"`としている
+- サイトページになるMarkdownファイル (`.md`, `.markdown`, `.mdx`) にはデフォルトレイアウトが適用される
+- `src/pages`以下の`_`で始まるファイルは公開されない
+  - Markdownのデフォルトレイアウトも適用されない
+- `{:#id}`，`{:.class}`, `{:attribute="value"}`のような記法 ([IAL](https://kramdown.gettalong.org/syntax.html#block-ials)) が利用できる（後述）
+- `**`による太字等のルールは単純化されている
+  - `**`で囲まれた文字列は種類を問わず太字になる
+- Markdown等のfrontmatterで`redirect_to`および`redirect_from`が利用できる（後述）
+- 外部リンクには自動で`target="_blank" rel="noopener noreferrer"`が付与される
+- `src/pages/hoge/fuga.md`は`/hoge/fuga`に，`src/pages/hoge/fuga/index.md`は`/hoge/fuga/`にマップされる
+
+### IAL (Inline Attribute List)
+
+Markdown内で，ある要素に対してHTMLの属性を指定することができます．[Kramdownに実装されているもの](https://kramdown.gettalong.org/syntax.html#block-ials)をRemark Pluginとして移植しています．
+
+例：見出しの`id`属性を指定する
+```md
+# 見出し
+{:#id}
+
+（本文）
 ```
-git clone https:// ... の方が分かりやすいです
 
-### ローカル環境で表示を確認する
-[Testing your GitHub Pages site locally with Jekyll - GitHub ヘルプ](https://help.github.com/ja/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
-
-```bash
-$ cd utelecon.github.io
-$ bundle install
-$ bundle exec jekyll serve
-  # Open http://localhost:4000/ in your browser
+例：画像の`class`属性を指定する
+```md
+![uteleconのロゴ](/assets/images/ogp.png){:.medium}
 ```
-### CSSの変更の仕方
-* /assets/css/style.scss  (CSSではない！)の中にSCSS形式で追記していきます
-* オリジナルのテンプレート（[cayman/_sass/jekyll-theme-cayman.scss](https://github.com/pages-themes/cayman/blob/master/_sass/jekyll-theme-cayman.scss)をoverrideしたいときは、*@import "{{ site.theme }}";*　の上に，継承したい場合はその下に追記していきます）
 
+### `redirect_from` / `redirect_to`
 
-## 今後やること
-* 今のままだと README.md が見えてしまうから docs フォルダ内を公開というような設定を今後したい
-* メニューとパンくずリストの作成
-* 可能な範囲で「次へ移動」を実装
+`src/pages`内のMarkdownのfrontmatterに`redirect_from`/`redirect_to`を記述することで，リダイレクトするように設定できます．[jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from)にある機能を移植する形で実装しています．
 
+例：`src/pages/docs/byod.md`に`redirect_from`を記述し，`/notice/byod`から`/docs/byod`にリダイレクトする
+```md
+---
+title: 東京大学のBYOD方針
+redirect_from:
+  - /notice/byod
+---
 
-## よくわからないこと
+（ページ内容）
+```
+注
+- `redirect_from`は文字列または文字列の配列で指定することができる
+- 基本的に`/`で始まるパスを指定する
 
-* 節番号とか自動的にふれないの?
-* 目次とか生成できないの?
-＞これ使う感じです（勉強中）
-https://shd101wyy.github.io/markdown-preview-enhanced/#/toc
-
-* トップページへのリンクとか全ページに出したい → /_layouts/default.html を追加しました（https://github.com/pages-themes/cayman/blob/master/_layouts/default.html からひっぱってきました）．これをいじればヘッダーなど共通して修正できそうです．このファイルが default でテンプレートになるみたいです．これがない場合は github pages が勝手に補完してくれるみたいです．
-* リンクを別タブで開くようにしたい. htmlなら <a href="xxxx.html" target="_blank"> ... </a> とするやつ
+例：`src/pages/forms/entry_trouble.md`に`redirect_to`を記述し，`/forms/entry_trouble`から`/oc/join#form`にリダイレクトする
+```md
+---
+redirect_to: "/oc/join#form"
+---
+```
+注
+- `redirect_to`は文字列で指定することができる
+- 基本的に`/`で始まるパスを指定する
+- リダイレクト先のページ内の特定の場所（例では`#form`）に飛ばしたいなど，特別の事情がなければ`redirect_from`の方が良い

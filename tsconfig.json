@@ -8,5 +8,12 @@
       "@layouts/*": ["src/layouts/*"],
       "@styles/*": ["src/styles/*"]
     }
+  },
+  "mdx": {
+    "plugins": [
+      "remark-gfm",
+      "./src/lib/BlockIALPlugin.js",
+      "./src/lib/SimpleAttentionPlugin.js"
+    ]
   }
 }
