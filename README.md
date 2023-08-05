@@ -93,4 +93,4 @@ redirect_to: "/oc/join#form"
 
 ## For developers
 
-`@components`に冠するドキュメントが[`src/components/README.md`](src/components/README.md)にあります．
+`@components`に関するドキュメントが[`src/components/README.md`](src/components/README.md)にあります．
