@@ -5,7 +5,7 @@ import Help from "@components/Help.astro";
   * @property {boolean} support
   * @property {string} deviceDescription
   * @property {string} applyStep
-  * @property {() => any} ConnectConfiguration
+  * @property {JSX.Element} connectConfiguration
   */}
 
 - この作業はキャンパス内のUTokyo Wi-Fi（SSIDが`0000UTokyo`となっているWi-Fi）が見える場所でしかできません．
@@ -14,7 +14,7 @@ import Help from "@components/Help.astro";
 1. UTokyo Wi-FiアカウントのユーザーIDとパスワードを入力してください（UTokyo Accountではありません）．ユーザーIDとパスワードは，{ props.applyStep }で届く通知メールから確認できるほか，申請直後であればアカウントメニューの申請完了画面にも表示されています．
 1. 接続が完了すれば，後は普通のWi-Fiと同様に使えます．
 
-- 接続時に，証明書の確認や，<props.ConnectConfiguration />に書かれた情報の入力が必要な場合があります．
+- 接続時に，証明書の確認や，{props.connectConfiguration}に書かれた情報の入力が必要な場合があります．
 - 機器ごとの詳細な接続方法が[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi/)に掲載されているので，分からない場合はあわせて参照してください． また，[接続方法が同様である「eduroam」というWi-Fiシステムのページ](https://www.eduroam.jp/for_users/)にある「利用の手引き」も参考になるかもしれません（`eduroam`をUTokyo Wi-FiのSSIDに読み替えて利用してください）．
 <Help lang="ja" support={props.support}>
   - 電波が弱いと作業中に接続が途切れてしまってうまくいかないことがあります．場所や時間帯を変えて試してみてください．

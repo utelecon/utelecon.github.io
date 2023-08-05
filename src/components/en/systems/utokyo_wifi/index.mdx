@@ -25,7 +25,7 @@ import Connect from "./Connect.mdx";
         variant="oc"
         utasOnly
         support
-        JouhouSecurity= {() => <a href="/en/utokyo_wifi/#jouhou-security">"Information Security Education" section on UTokyo Wi-Fi page</a>}
+        jouhouSecurity= {<a href="/en/utokyo_wifi/#jouhou-security">"Information Security Education" section on UTokyo Wi-Fi page</a>}
       />
     </Fragment>
 
@@ -34,7 +34,7 @@ import Connect from "./Connect.mdx";
       <Connect
         deviceDescription="the device you want to connect"
         applyStep="the step above"
-        ConnectConfiguration={() => <a href="/en/utokyo_wifi/#connect-configuration">"Connect Configuration" section on UTokyo Wi-Fi page</a>}
+        connectConfiguration={<a href="/en/utokyo_wifi/#connect-configuration">"Connect Configuration" section on UTokyo Wi-Fi page</a>}
         support
       />
     </li>
@@ -47,13 +47,13 @@ import Connect from "./Connect.mdx";
 
       <Apply
         blockLink
-        JouhouSecurity={() => <><a href="#jouhou-security">"Information Security Education"</a> section</>}
+        jouhouSecurity={<><a href="#jouhou-security">"Information Security Education"</a> section</>}
       />
     - **Step 3: Connect to UTokyo Wi-Fi**
       <Connect
         deviceDescription="the device you checked in Step 1"
         applyStep="Step 2"
-        ConnectConfiguration={() => <><a href="#connect-configuration">"Connect Configuration" section</a> section below</>}
+        connectConfiguration={<><a href="#connect-configuration">"Connect Configuration" section</a> section below</>}
       />
     {:.procedure.gap}
   </Fragment>
