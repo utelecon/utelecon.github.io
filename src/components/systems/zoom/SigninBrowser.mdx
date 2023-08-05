@@ -28,7 +28,5 @@ import SigninBrowserHelp from "./SigninBrowserHelp.mdx";
 
 <If cond={props.inlineHelp}>
   <Support lang="ja" show={props.support} />
-  <Fragment slot="else">
-    - <SigninBrowserHelp support={props.support} />
-  </Fragment>
+  <SigninBrowserHelp support={props.support} slot="else" />
 </If>

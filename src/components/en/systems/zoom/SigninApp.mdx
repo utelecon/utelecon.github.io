@@ -33,7 +33,5 @@ import SigninAppHelp from "./SigninAppHelp.mdx";
 
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
-  <Fragment slot="else">
-    - <SigninAppHelp big={props.big} support={props.support} />
-  </Fragment>
+  <SigninAppHelp big={props.big} support={props.support} slot="else" />
 </If>
