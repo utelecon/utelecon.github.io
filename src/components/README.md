@@ -1,3 +1,11 @@
+# @components/README
+
+ここでは，このフォルダにあるコンポーネントについて説明します．コンポーネントを作成する際は，まずこの説明を読んでから作成してください．
+
+このファイルの説明は，Markdownに関する基礎知識に加え，以下の2つのドキュメントを読んでいることを前提としています：
+- [What is MDX?](https://mdxjs.com/docs/what-is-mdx/)：MDXに関する基本的な説明
+- [スロット](https://docs.astro.build/ja/core-concepts/astro-components/#スロット)：Astroのコンポーネントに子要素を埋め込む「スロット」に関する説明
+
 ## [`types.ts`](types.ts)
 
 - `Lang`：uteleconポータルサイトが対応する言語です．日本語 (`"ja"`) と英語 (`"en"`) です．
