@@ -120,7 +120,7 @@ prop `variant`の値によって，表示する要素が切り替わります．
 ### [`Markdown`](Markdown.astro)
 
 [`src/data`](../data)以下，またはフロントマターにMarkdownで定義されているデータを表示するために利用します．prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示されます．**コンポーネントからコンポーネントにマークアップを渡すために利用しないでください**．代わりに，
-- `.mdx`のコンポーネントに渡す場合：`props`に`() => any`の関数を渡して，コンポーネントとして呼び出してください．
+- `.mdx`のコンポーネントに渡す場合：`props`に`JSX.Element`を渡して，`{props.hoge}`として埋め込んでください．
   - 例：[`systems/utokyo_wifi/Apply.mdx`](systems/utokyo_wifi/Apply.mdx)
 - `.astro`のコンポーネントに渡す場合：`slot`を利用してください．
   - 例：[`HelpItem`](HelpItem.astro)
