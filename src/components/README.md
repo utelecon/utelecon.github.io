@@ -114,3 +114,33 @@ prop `variant`の値によって，表示する要素が切り替わります．
 利用例：[`systems/utokyo_account/ChangePassword.mdx`](systems/utokyo_account/ChangePassword.mdx)
 
 サポート窓口に案内する文章を表示するために利用します．`lang`を指定してください．`show`がtrueの場合のみ表示されます．
+
+## 特殊なコンポーネント
+
+### [`Markdown`](Markdown.astro)
+
+[`src/data`](../data)以下，またはフロントマターにMarkdownで定義されているデータを表示するために利用します．prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示されます．**コンポーネントからコンポーネントにマークアップを渡すために利用しないでください**．代わりに，
+- `.mdx`のコンポーネントに渡す場合：`props`に`() => any`の関数を渡して，コンポーネントとして呼び出してください．
+  - 例：[`systems/utokyo_wifi/Apply.mdx`](systems/utokyo_wifi/Apply.mdx)
+- `.astro`のコンポーネントに渡す場合：`slot`を利用してください．
+  - 例：[`HelpItem`](HelpItem.astro)
+
+### レイアウトで利用されるコンポーネント
+
+[`@layouts/Layout.astro`](../layouts/Layout.astro)がuteleconのページ全体のレイアウトを定義しています．ここで利用するためのコンポーネントが複数定義されています．これらのコンポーネントは日英共通です（prop `lang`を持ちます）．
+- [`Header`](Header/index.astro)（ヘッダー）
+- [`Footer`](Footer/index.astro)（フッター）
+- [`Toc`](Toc.astro)（目次）
+- [`Author`](Author.astro)（文責）
+
+### 特定のページで利用されるコンポーネント
+
+- [`Courses`](Courses.mdx)：`/online/courses/`と`/faculty_members/`で利用します．言語ごとに別々に定義されています．
+- [`GoodPractice`](GoodPractice.tsx)：`/good-practice/`で利用します．日本語版しかありません．
+- [`Notice`](Notice.astro)：`/`と`/notice/`で利用します．言語間で共通です．
+- [`Sitemap`](Sitemap.astro)：`/sitemap/`で利用します．言語間で共通です．
+
+### 通知系コンポーネント
+
+- [`Emergency`](Emergency.mdx)：緊急のお知らせを表示するために利用します．お知らせは`/`と`/support/`に表示されます．日本語版しかありません．
+- [`SlackNotice`](articles/SlackNotice.mdx)：2022年9月以前に書かれた`/articles/`以下のSlack関連記事に表示される，Slackの利用に関する注意書きです．言語ごとに別々に定義されています．

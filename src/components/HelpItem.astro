@@ -1,8 +1,22 @@
 ---
+{/**
+  * `Markdown`を回避する例として紹介されています．
+  * コンポーネントをslotとして要求しなくなる場合は，`src/components/README.md`を編集して，
+  * 別の例を紹介するようにしてください．
+  * 
+  * 利用例：src/components/README.mdを参照
+  */}
+
 import type { Lang } from "@components/types";
 
 interface Props {
+  /**
+   * 表示する言語
+   */
   lang: Lang;
+  /**
+   * 1行で表示するか(true)，折りたたみで表示するか(false)
+   */
   oneline?: boolean;
 }
 
