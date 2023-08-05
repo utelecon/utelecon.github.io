@@ -3,23 +3,31 @@ import Support from "./Support.astro";
 import type { Lang } from "@components/types";
 
 interface Props {
+  /**
+   * 表示する言語
+   */
   lang: Lang;
+  /**
+   * サポート窓口への案内を表示するか否か
+   */
   support: boolean;
+  /**
+   * デフォルトで開いておくか否か
+   */
   open?: boolean;
-  summary?: string | undefined;
 }
 
-const { lang, support, open, summary } = Astro.props;
-const defaultSummary = {
+const { lang, support, open } = Astro.props;
+const summary = {
   ja: "この手順がうまくいかないときのヘルプ",
   en: "Troubleshooting guide",
 }[lang];
 ---
 
 <details open={open}>
-  <summary>{summary ?? defaultSummary}</summary>
+  <summary>{summary}</summary>
   <slot />
-  <Support lang={lang} show={support} afterDetails />
+  <Support lang={lang} show={support} inHelp />
 </details>
 
 <style>

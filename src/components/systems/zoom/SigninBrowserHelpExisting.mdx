@@ -1,8 +1,22 @@
 import HelpItem from "@components/HelpItem.astro";
 
 {/**
+  * `HelpItem`の利用例として紹介されています．
+  * このコンポーネントを利用しなくなる場合は，`src/components/README.md`を編集して，
+  * 別の利用例を紹介するようにしてください．
+  *
+  * 利用ファイル：
+  * - `./SigninBrowser.mdx`
+  *
+  * 利用ページ：
+  * - https://utelecon.adm.u-tokyo.ac.jp/oc/#zoom
+  * - https://utelecon.adm.u-tokyo.ac.jp/faculty_members/#zoomへのサインイン
+  * - https://utelecon.adm.u-tokyo.ac.jp/zoom/signin/#browser
+  */}
+
+{/**
   * @typedef {object} Props
-  * @property {true} [oneline]
+  * @property {true} [oneline] ヘルプを1行で表示するか否か
   */}
 
 <HelpItem lang="ja" oneline={props.oneline}>

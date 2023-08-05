@@ -2,12 +2,22 @@
 import type { Lang } from "@components/types";
 
 interface Props {
+  /**
+   * 文章を表示するか否か
+   */
   show: boolean;
+  /**
+   * 表示する言語
+   */
   lang: Lang;
-  afterDetails?: boolean;
+  /**
+   * トラブルシュート手順の後にあるか
+   * Help.astro でのみ利用
+   */
+  inHelp?: boolean;
 }
 
-const { show, lang, afterDetails = false } = Astro.props;
+const { show, lang, inHelp = false } = Astro.props;
 ---
 
 {
@@ -37,7 +47,7 @@ const { show, lang, afterDetails = false } = Astro.props;
           <a href="/en/support/">Technical Support Desk</a>.
         </p>
       ),
-    }[`${lang}-${afterDetails}`]
+    }[`${lang}-${inHelp}`]
 }
 
 <style>
