@@ -73,6 +73,22 @@ prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示さ
 - `.mdx`のコンポーネントに渡す場合：`props`に`() => any`の関数を渡して，コンポーネントとして呼び出してください．
 - `.astro`のコンポーネントに渡す場合：`slot`を利用してください．
 
+## `@components/systems` (`@components/en/systems`) にあるコンポーネントについて
+
+`@components/systems`の直下には，システム名を冠するフォルダだけが置いてあります．各フォルダの中にあるコンポーネントについて解説します．
+
+### 「基本単位」
+
+`@components/systems`にあるコンポーネント群のうち，1つの`<ol>`を含むコンポーネントが「基本単位」のコンポーネントです．**`@components/systems`は，システム等の基本的な手順の説明を，この基本単位で分割して整理・共通化することを目的としています**．例えば[`systems/utokyo_account/ChangePassword.mdx`](systems/utokyo_account/ChangePassword.mdx)は，1つの`<ol>`で「UTokyo Accountのパスワードを変更する」という作業の手順を説明しており，手順を複数のページで掲載するために利用されています．
+
+### `index.mdx`
+
+**各システムの`index.mdx`は，基本単位のコンポーネントを1つの`<ul>`に束ね，`/oc/`で表示することを目的としています**．さらに，`/oc/#important`で説明されるシステムの`index.mdx`は，後述の[`Important`](#important)を利用して，`/oc/#important`と`/oc/#others`で説明を共通化する責務をも帯びています．
+
+### その他
+
+その他，後述の[`HelpItem`](#helpitem)を利用した共通化が必要な場合など，基本単位よりも細かいコンポーネントを作成し，基本単位のコンポーネントで利用することがあります．
+
 ## Components for `@components/systems`
 
 ### [`Important`](Important.astro)
