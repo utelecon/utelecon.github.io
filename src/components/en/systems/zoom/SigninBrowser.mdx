@@ -1,6 +1,7 @@
 import If from "@components/If.astro";
 import Support from "@components/Support.astro";
-import SigninBrowserHelp from "./SigninBrowserHelp.mdx";
+import Help from "@components/Help.astro";
+import SigninBrowserHelpExisting from "./SigninBrowserHelpExisting.mdx";
 
 {/**
   * @typedef {object} Props
@@ -15,7 +16,7 @@ import SigninBrowserHelp from "./SigninBrowserHelp.mdx";
      ![](/en/zoom/signin/1.png){:.medium}
    </If>
    <If cond={props.inlineHelp}>
-     <SigninBrowserHelp big={props.big} inline />
+     <SigninBrowserHelpExisting />
    </If>
 3. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
    <If cond={props.big}>
@@ -28,5 +29,7 @@ import SigninBrowserHelp from "./SigninBrowserHelp.mdx";
 
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
-  <SigninBrowserHelp support={props.support} slot="else" />
+  <Help lang="en" support={props.support} slot="else">
+    - <SigninBrowserHelpExisting oneline />
+  </Help>
 </If>

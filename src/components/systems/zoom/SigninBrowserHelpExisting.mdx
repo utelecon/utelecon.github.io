@@ -1,0 +1,13 @@
+import HelpItem from "@components/HelpItem.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {true} [oneline]
+  */}
+
+<HelpItem lang="ja" oneline={props.oneline}>
+  <Fragment slot="problem">上のリンクにアクセスしても「UTokyo Zoom」と書かれたページが表示されない場合</Fragment>
+  <Fragment slot="solution">前から持っていた自分のアカウントで既にZoomにサインインしているときに起きます．[Zoomの設定画面](https://zoom.us/profile)の右上のアイコン（人のマークか，または自分のアイコンを設定していればそれ）を押して，「サインアウト」してください．その後，アクセスし直してみてください．</Fragment>
+
+  ![](/zoom/signin/3.png){:.medium}
+</HelpItem>

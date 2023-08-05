@@ -1,6 +1,7 @@
 import If from "@components/If.astro";
 import Support from "@components/Support.astro";
-import SigninAppHelp from "./SigninAppHelp.mdx";
+import Help from "@components/Help.astro";
+import SigninAppHelpDomain from "./SigninAppHelpDomain.mdx";
 
 {/**
   * @typedef {object} Props
@@ -27,11 +28,13 @@ import SigninAppHelp from "./SigninAppHelp.mdx";
      ![](/en/zoom/signin/2.png){:.medium}
    </If>
    <If cond={props.inlineHelp}>
-     <SigninAppHelp big={props.big} inline />
+     <SigninAppHelpDomain />
    </If>
 5. For computer users, click on the icon on the upper right (either your profile picture or the human silhouette if you have not set one up). For smartphone users, click "More" on the lower right. You have properly signed in if you see your name (or Common ID if you have not set one up) and the message "License Available" on the screen.
 
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
-  <SigninAppHelp big={props.big} support={props.support} slot="else" />
+  <Help lang="en" support={props.support}  slot="else">
+    - <SigninAppHelpDomain oneline />
+  </Help>
 </If>
