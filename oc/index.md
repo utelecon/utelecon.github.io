@@ -96,7 +96,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 <ul class="procedure">
 {% include procedures/utokyo_account.html part="important" %}
     <li>
-        <strong>情報セキュリティ教育：情報セキュリティ教育の受講を完了する</strong>
+        <strong>情報セキュリティ教育：情報セキュリティ教育を受講する</strong>
         {% include systems/information_security.html part="important" %}
     </li>
 {% include procedures/utas.html part="important" %}
