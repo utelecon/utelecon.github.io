@@ -95,17 +95,13 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 <ul class="procedure">
 {% include procedures/utokyo_account.html part="important" %}
-    <li>
-        <strong>情報セキュリティ教育：情報セキュリティ教育を受講する</strong>
-        {% include systems/information_security.html part="important" %}
-    </li>
 {% include procedures/utas.html part="important" %}
 {% include procedures/google.html part="important" %}
-    <li>
-        <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
-{% include systems/utokyo_wifi/apply.html part="important" %}
-    </li>
 </ul>
+
+### 情報セキュリティ教育
+
+{% include systems/information_security.html part="explanation" %}
 
 ## 情報システムに関するその他の準備手順
 
@@ -120,20 +116,6 @@ description: このページでは，東京大学で授業を受ける新入生�
 {{ about_utokyo_account }}
 
 {% include procedures/utokyo_account.html %}
-
-### 情報セキュリティ教育
-{:#information_security_education}
-
-{% include systems/information_security.html part="explanation" %}
-<ul>
-    <li>
-        <details>
-            <summary>（再掲）<strong>作業：情報セキュリティ教育を受講する</strong></summary>
-{% include systems/information_security.html part="important" %}
-        </details>
-    </li>
-</ul>
-
 
 ### UTAS
 {:#utas}
@@ -177,10 +159,8 @@ description: このページでは，東京大学で授業を受ける新入生�
 
 <ul>
     <li>
-        <details>
-            <summary>（再掲）<strong>作業：アカウントを申請する</strong></summary>
-{% include systems/utokyo_wifi/apply.html %}
-        </details>
+        <strong>作業：アカウントを申請する</strong>
+      {% include systems/utokyo_wifi/apply.html %}
     </li>
     <li>
         <strong>作業：実際に接続する</strong>
