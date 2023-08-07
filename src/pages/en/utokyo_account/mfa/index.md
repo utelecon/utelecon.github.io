@@ -41,5 +41,5 @@ Other descriptions of MFA are separated into the following topics. Please visit 
 - **Others**
     - [Hardware Tokens](others#hardware-token)：For faculty members who are unable to register any verification methods, such as those who do not have smartphones, we offer devices called “hardware tokens” as an alternative.
     - [Use the 6-digit Code in Microsoft Authenticator to Sign In](others#msauth-totp)：If you registered “Microsoft Authenticator” app as the verification method, typically you will receive a notification for verification from the app when you sign in. However, the app offers another method for verification.
-    - [About Irregular Behaviors During Verification](others#irregular)
+    - [Irregular Behaviors During Verification](others#irregular)
     - [About “不明なエラーが発生しました” Error](others#unknown-error)：Please follow the instructions in this page if you see the "不明なエラーが発生しました"error in the sign-in page.
