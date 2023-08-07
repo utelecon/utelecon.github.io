@@ -26,12 +26,17 @@ const summary = {
 
 <details open={open}>
   <summary>{summary}</summary>
-  <slot />
-  <Support lang={lang} show={support} inHelp />
+  <div>
+    <slot />
+    <Support lang={lang} show={support} inHelp />
+  </div>
 </details>
 
 <style>
   details {
-    padding-inline-start: 40px;
+    padding-inline-start: 20px;
+  }
+  details > div {
+    padding-inline-start: 20px;
   }
 </style>

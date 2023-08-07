@@ -21,33 +21,16 @@ const { show, lang, inHelp = false } = Astro.props;
 ---
 
 {
-  show &&
-    {
-      "ja-false": (
-        <p class="support">
-          この手順がうまくいかないときは<a href="/support/">サポート窓口</a>
-          に相談してください．
-        </p>
-      ),
-      "ja-true": (
-        <p class="support">
-          これらを確認して，それでもうまくいかなければ，
-          <a href="/support/">サポート窓口</a>に相談してください．
-        </p>
-      ),
-      "en-false": (
-        <p class="support">
-          If this procedure does not work, please consult the{" "}
-          <a href="/en/support/">Technical Support Desk</a>.
-        </p>
-      ),
-      "en-true": (
-        <p class="support">
-          If the issue is still not resolved, please consult the{" "}
-          <a href="/en/support/">Technical Support Desk</a>.
-        </p>
-      ),
-    }[`${lang}-${inHelp}`]
+  show && (
+    <p class:list={{ support: !inHelp }}>
+      {{
+        "ja-false": <>この手順がうまくいかないときは<a href="/support/">サポート窓口</a>に相談してください．</>,
+        "ja-true": <>これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</>,
+        "en-false": <>If this procedure does not work, please consult the{" "}<a href="/en/support/">Technical Support Desk</a>.</>,
+        "en-true": <>If the issue is still not resolved, please consult the{" "}<a href="/en/support/">Technical Support Desk</a>.</>,
+      }[`${lang}-${inHelp}`]}
+    </p>
+  )
 }
 
 <style>
