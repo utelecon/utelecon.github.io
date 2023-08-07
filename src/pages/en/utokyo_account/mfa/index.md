@@ -25,7 +25,7 @@ Please refer to the following page if you lose access to every verification meth
 
 <b class="box center"><a href="reregister_and_terminate">Reregistering Verification Method and Terminating the Use of Multi-Factor Authentication for UTokyo Accounts</a></b>
 
-When you change your phone model, note that you can avoid being locked out from your UTokyo Account by registering your new phone for MFA (see [“Changing Verification Method of Multi-Factor Authentication for UTokyo Accounts”](change) for details) while your old phone is still available. Please make sure to complete this procedure in advance.
+When you change your phone model, please note that you can avoid being locked out from your UTokyo Account by registering your new phone for MFA (see [“Changing Verification Method of Multi-Factor Authentication for UTokyo Accounts”](change) for details) while your old phone is still available. Please make sure to complete this procedure in advance.
 
 ## Others
 {:#others}
@@ -40,6 +40,6 @@ Other descriptions of MFA are separated into the following topics. Please visit 
 - **[Terminate MFA Use](reregister_and_terminate)**：How to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password. We strongly recommend that you continue to use MFA for security reasons, but if you need to terminate MFA use for unavoidable circumstances, you can apply for termination here.
 - **Others**
     - [Hardware Token](others#hardware-token)：For faculty members who are unable to register any verification methods, such as those who do not have smartphones, we offer devices called “hardware tokens” as an alternative.
-    - [Use the 6-digit Code in Microsoft Authenticator to Sign In](others#msauth-totp)：If you registered “Microsoft Authenticator” app as the verification method, typically you receive a notification for verification from the app when you sign in. However, the app offers another method for verification.
+    - [Use the 6-digit Code in Microsoft Authenticator to Sign In](others#msauth-totp)：If you registered “Microsoft Authenticator” app as the verification method, typically you will receive a notification for verification from the app when you sign in. However, the app offers another method for verification.
     - [About Irregular Behaviors During Verification](others#irregular)
     - [About “不明なエラーが発生しました” Error](others#unknown-error)：Please follow the instructions in this page if you see the "不明なエラーが発生しました"error in the sign-in page.
