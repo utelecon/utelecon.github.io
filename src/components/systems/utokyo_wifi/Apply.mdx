@@ -18,10 +18,15 @@ import Help from "@components/Help.astro";
 {/**
   * @typedef {object} Props
   * @property {boolean} support
-  * @property {boolean} blockLink
-  * @property {boolean} utasOnly
+  * @property {boolean} [blockLink]
+  * @property {boolean} [utasOnly]
+  * @property {boolean} [movie]
   * @property {JSX.Element} jouhouSecurity
   */}
+
+<If cond={props.movie}>
+  - [手順動画](/oc/movies#utokyo_wifi)
+</If>
 
 1. <If cond={props.blockLink}>
      以下の「UTokyo Wi-Fiアカウントメニュー」にアクセスしてください．

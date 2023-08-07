@@ -1,4 +1,3 @@
-import If from "@components/If.astro";
 import Important from "@components/Important.astro";
 import ChangePassword from "./ChangePassword.mdx";
 import MFA from "./MFA.mdx";
@@ -18,12 +17,10 @@ import MFA from "./MFA.mdx";
   title="Changing the initial password"
 >
   <Fragment slot="important">
-    <If cond={props.variant === "oc"}>
-      - [Procedure video](https://youtu.be/tTpAlqVhEXQ)
-    </If>
     <ChangePassword
       variant={props.variant}
       support={props.variant === "oc"}
+      movie={props.variant === "oc"}
       blockLink={props.variant === "individual"}
     />
   </Fragment>

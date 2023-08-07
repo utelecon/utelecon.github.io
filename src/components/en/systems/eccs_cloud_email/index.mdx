@@ -1,5 +1,4 @@
 import Important from "@components/Important.astro";
-import If from "@components/If.astro";
 import Configure from "./Configure.mdx";
 import Login from "./Login.mdx";
 import Access from "./Access.mdx";
@@ -21,10 +20,11 @@ import UseMail from "./UseMail.mdx";
   title="Set your password and email address"
 >
   <Fragment slot="important">
-    <If cond={props.variant === "oc"}>
-      - [Procedure video (in Japanese)](/oc/movies#google)
-    </If>
-    <Configure support={props.variant === "oc"} detailsLink={props.important} />
+    <Configure
+      support={props.variant === "oc"}
+      movie={props.variant === "oc"}
+      detailsLink={props.important}
+    />
   </Fragment>
 
   <li>

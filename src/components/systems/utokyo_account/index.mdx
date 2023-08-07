@@ -33,12 +33,10 @@ import MFA from "./MFA.mdx";
   title="初期パスワードを変更する"
 >
   <Fragment slot="important">
-    <If cond={props.variant === "oc"}>
-      - [手順動画](/oc/movies#utokyo_account)
-    </If>
     <ChangePassword
       variant={props.variant}
       support={props.variant === "oc"}
+      movie={props.variant === "oc"}
       blockLink={props.variant === "individual"}
     />
   </Fragment>

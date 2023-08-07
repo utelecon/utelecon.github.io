@@ -21,10 +21,11 @@ import UseMail from "./UseMail.mdx";
   title="パスワードとメールアドレスを設定する"
 >
   <Fragment slot="important">
-    <If cond={props.variant === "oc"}>
-      - [手順動画](/oc/movies#google)
-    </If>
-    <Configure support={props.variant === "oc"} detailsLink={props.important} />
+    <Configure
+      support={props.variant === "oc"}
+      detailsLink={props.important}
+      movie={props.variant === "oc"}
+    />
   </Fragment>
 
   <li>

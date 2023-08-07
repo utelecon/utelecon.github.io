@@ -5,7 +5,12 @@ import Help from "@components/Help.astro";
   * @typedef {object} Props
   * @property {boolean} support
   * @property {boolean} detailsLink
+  * @property {boolean} [movie]
   */}
+
+<If cond={props.movie}>
+  - [手順動画](/oc/movies#google)
+</If>
 
 1. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)にアクセスし，UTokyo Accountのユーザ名とパスワードを入力してログインしてください．
 2. 左のメニューにある「ECCSクラウドメール（パスワード変更）」を押すとパスワードの設定画面が表示されます．自身でパスワードを決め，設定してください．これはECCSクラウドメール専用のパスワードです．
