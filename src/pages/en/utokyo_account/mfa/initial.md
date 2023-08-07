@@ -102,7 +102,8 @@ Add the first verification method in the setup page. The setup procedure varies 
 <li>「アプリ パスワード」という画面が出て，「アプリ パスワード名」を入力するよう求められることがあります（この画面が出ないこともあります）．適当な英数字を入力して「次へ」を押してください．（「アプリ パスワード」とは多要素認証に非対応のシステムを利用するためのものですが，UTokyo Accountでは利用しないので，特に気にせずに適当に入力して問題ありません）<img src="first_app_password.png"></li>
 <li>「アプリ パスワード」の画面が出た場合は，引き続き「アプリ パスワードが正常に作成されました。パスワードをクリップボードにコピーし、アプリに貼り付けます。」と表示されますが，無視して「完了」を押してください．</li>
 -->
-<li>If you see “Success” on your screen, everything is OK.<img src="first_success.png"></li>
+<li>If you see “Success” on your screen, everything is OK.
+<!-- <img src="first_success.png"></li> -->
 </ol>
 
 <div class="box">The setup process is not over. Continue to Step 2.</div>
