@@ -32,7 +32,7 @@ If none of the verification methods registered are available, reregister your ve
 
 1. Please apply for reregistration by following the procedures in“[ “Application”](#application-method)”
 1. The MFA verification method will be initialized for reregistration procedures. An Email will be sent for the notification after a while.
-1. After you received the Email, follow the instructions in“[Step 1: Set Up the First Verification Method](initial#first)” and “[Step 2: Add Alternative Verification Methods] in the“[Initial Setup Procedure of Multi-Factor Authentication (MFA) for UTokyo Accounts](initial)”page to set up new verification methods.
+1. After you received the Email, follow the instructions in“[Step 1: Set Up the First Verification Method](initial#first)” and “[Step 2: Add Alternative Verification Methods] in the“[Initial Setup Procedures for Multi-Factor Authentication (MFA) for UTokyo Accounts](initial)”page to set up new verification methods.
 1. You can now sign in to your UTokyo Account with the registered verification method.
 
 During this procedure, **you are strongly recommended to register multiple verification methods** to avoid being locked out from your UTokyo Account because the registered verification method becomes unavailable again.
