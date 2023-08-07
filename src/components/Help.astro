@@ -33,9 +33,12 @@ const summary = {
 </details>
 
 <style>
-  details {
-    padding-inline-start: 20px;
+  @media not all and (max-width: 640px) {
+    details {
+      margin-inline-start: 20px;
+    }
   }
+
   details > div {
     padding-inline-start: 20px;
   }
