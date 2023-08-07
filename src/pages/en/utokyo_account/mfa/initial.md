@@ -201,7 +201,8 @@ The next step is to check that you can sign in to your UTokyo Account using MFA.
     - **“Microsoft Authenticator” App**： A notification will be sent to your phone asking you to enter the two-digit numbers displayed on the sign-in screen.
         <details>
             <summary>※About the “I can’t use my Microsoft Authenticator app right now” message</summary>
-            <img src="signin_screen_msauth.png" alt=": The “I can’t use my Microsoft Authenticator app right now” message does not mean that the MFA system using the app is unavailable. Press the message when you do NOT have access to the app.
+            <!-- <img src="signin_screen_msauth.png" alt=「サインイン要求」の画面に「Microsoft Autheticator アプリを現在使用できません」が表示されている"> -->
+            The “I can’t use my Microsoft Authenticator app right now” message does not mean that the MFA system using the app is unavailable. Press the message when you do NOT have access to the app.
         </details>
     - **Other Authenticator Apps**：You will see a 6-digit code for your account in the authenticator app. Enter the code in the sign-in page.
     - **Phone Number (verification via SMS)**：An SMS message with a 6-digit code will be sent to your phone. Enter the code in the sign-in page and click “Verify”.
