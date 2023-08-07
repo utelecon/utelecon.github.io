@@ -25,7 +25,7 @@ Please refer to the following page if you lose access to every verification meth
 
 <b class="box center"><a href="reregister_and_terminate">Reregistering Verification Method and Terminating the Use of Multi-Factor Authentication for UTokyo Accounts</a></b>
 
-When you change your phone model, please note that you can avoid being locked out from your UTokyo Account by registering your new phone for MFA (see [“Changing Verification Method of Multi-Factor Authentication for UTokyo Accounts”](change) for details) while your old phone is still available. Please make sure to complete this procedure in advance.
+When you change your phone model, please note that you can avoid being locked out from your UTokyo Account by registering your new phone for MFA (see [“Changing the Verification Method of Multi-Factor Authentication for UTokyo Accounts”](change) for details) while your old phone is still available. Please make sure to complete this procedure in advance.
 
 ## Others
 {:#others}
