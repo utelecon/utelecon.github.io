@@ -7,16 +7,14 @@ redirect_from:
   - /en/oc/index_2020_a
 ---
 
-import ApplyEccs from "@components/en/systems/Eccs/ApplyEccs.astro";
-import LoginEccs from "@components/en/systems/Eccs/LoginEccs.astro";
-import ApplyUTokyoWifi from "@components/en/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
-import ConnectUTokyoWifi from "@components/en/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
-import Microsoft from "@components/en/systems/Microsoft/index.astro";
-import ItcLms from "@components/en/systems/ItcLms/index.astro";
-import Zoom from "@components/en/systems/Zoom/index.astro";
-import Google from '@components/en/procedures/Google/index.astro';
-import UTokyoAccount from '@components/en/procedures/UTokyoAccount/index.astro';
-import UTAS from '@components/en/procedures/UTAS/index.astro';
+import UTokyoAccount from "@components/en/systems/utokyo_account/index.mdx";
+import Utas from "@components/en/systems/utas/index.mdx";
+import ItcLms from "@components/en/systems/itc_lms/index.mdx";
+import Zoom from "@components/en/systems/zoom/index.mdx";
+import EccsCloudEmail from "@components/en/systems/eccs_cloud_email/index.mdx";
+import Microsoft from "@components/en/systems/microsoft/index.mdx";
+import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
+import Eccs from "@components/en/systems/eccs/index.mdx";
 
 ## Greetings
 
@@ -105,21 +103,17 @@ For example, the following questions and consultations are welcome.
 
 ## Required Procedures to Use the Information Systems
 
-{/* {:#important} */}
+{:#important}
 
 In this section, we will explain the essential tasks that must be completed to use the information systems, such as creating an account. Please ensure to spare enough time to complete these tasks before classes start. If you have any problems with these procedures, please consult the **[Technical Support Desk](/en/support/)**.
 
 Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Getting Ready for ICT Systems at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the below procedures in further detail.
 
-<ul class="procedure">
-    <UTokyoAccount part="important" pageSlug="oc" />
-    <Google part="important" pageSlug="oc" />
-    <UTAS part="important" pageSlug="oc" />
-    <li>
-      <strong>UTokyo Wi-Fi: Apply for an account</strong>
-      <ApplyUTokyoWifi pageSlug="oc" part="important" />
-    </li>
-</ul>
+- <UTokyoAccount variant="oc" important />
+- <EccsCloudEmail variant="oc" important />
+- <Utas variant="oc" important />
+- <UTokyoWiFi variant="oc" important />
+{:.procedure}
 
 ## Other Procedures to Use the Information Systems
 
@@ -131,85 +125,65 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 {:#utokyo_account}
 
-{ about_utokyo_account }
+<p>{ about_utokyo_account }</p>
 
-<UTokyoAccount pageSlug="oc" />
+<UTokyoAccount variant="oc" />
 
 ### UTAS
 
 {:#utas}
 
-{ about_utas }
+<p>{ about_utas }</p>
 
-<UTAS pageSlug="oc" />
+<Utas variant="oc" />
 
 ### ITC-LMS
 
 {:#itc_lms}
 
-{ about_itc_lms }
+<p>{ about_itc_lms }</p>
 
-<ItcLms pageSlug="oc" />
+<ItcLms variant="oc" />
 
 ### Zoom
 
 {:#zoom}
 
-{ about_zoom }
+<p>{ about_zoom }</p>
 
-<Zoom pageSlug="oc" />
+<Zoom variant="oc" />
 
 ### ECCS Cloud Email (Google Workspace)
 
 {:#google}
 
-{ about_google }
+<p>{ about_google }</p>
 
-<Google pageSlug="oc" />
+<EccsCloudEmail variant="oc" />
 
 ### UTokyo Microsoft License (Microsoft 365)
 
 {:#microsoft}
 
-{ about_microsoft }
+<p>{ about_microsoft }</p>
 
-<Microsoft pageSlug="oc" />
+<Microsoft variant="oc" />
 
 ### UTokyo Wi-Fi
 
 {:#utokyo_wifi}
 
-{ about_utokyo_wifi }
+<p>{ about_utokyo_wifi }</p>
 
-<ul>
-  <li>
-    <details>
-      <summary>(Repost) <strong>Task: Apply for an account</strong></summary>
-      <ApplyUTokyoWifi pageSlug="oc" />
-    </details>
-  </li>
-  <li>
-    <strong>Task: Try connecting</strong>
-    <ConnectUTokyoWifi pageSlug="oc" />
-  </li>
-</ul>
+<UTokyoWiFi variant="oc" />
 
 ### ECCS terminals
 
 {:#eccs}
 
-{ about_eccs }
+<p>{ about_eccs }</p>
 
-<ul>
-  <li>
-    <strong>Task: Apply for system user permission</strong>
-    <ApplyEccs pageSlug="oc" />
-  </li>
-  <li>
-    <strong>Exercise: Log in</strong>
-    <LoginEccs pageSlug="oc" />
-  </li>
-</ul>
+<Eccs variant="oc" />
 
 ## Others
 

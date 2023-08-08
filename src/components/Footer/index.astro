@@ -1,9 +1,10 @@
 ---
 import Buttons from "./Buttons.astro";
 import Navigation from "./Navigation.astro";
+import type { Lang } from "@components/types";
 
 interface Props {
-  lang: "ja" | "en";
+  lang: Lang;
   support?: boolean;
 }
 

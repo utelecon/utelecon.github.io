@@ -1,0 +1,17 @@
+import Help from "@components/Help.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+1. In the meeting room, your microphone audio or camera image may be sent to other people (in the test room used here, your audio or video will not be sent to others just by joining the room. However, it could be sent while testing different functions). If you are concerned, please perform this test in a situation that is safe for sending audio and video.
+2. Access the test meeting room URL via the [ITC-LMS test cource](https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=20197J919010V02).
+3. You may be asked to click a confirmation button or select an application to open.
+4. After the Zoom app opens, when you see the message "Connect to audio to hear other users", click "Call using the Internet".
+5. If you get a black screen with "Start Video" and "Participants" at the bottom, you are in the meeting room.
+
+<Help lang="en" support={props.support}>
+  - **You are asked to install the application when you access the meeting room URL, or the installation starts**: This happens when the application has not been properly installed. Please reinstall the application and access the URL again.
+  - **When the message "This meeting is only for authorized participants" is displayed**: This happens when you have not signed in to Zoom with your UTokyo account. Click the "Sign in to Join” or "Switch Account to Join" button and sign in by following the instructions shown below in "Optional task: Sign in to the application".
+</Help>

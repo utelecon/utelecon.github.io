@@ -7,17 +7,14 @@ redirect_from:
   - /oc/index_2020_a
 ---
 
-import Eccs from "@components/systems/Eccs/index.astro";
-import ApplyEccs from "@components/systems/Eccs/ApplyEccs.astro";
-import LoginEccs from "@components/systems/Eccs/LoginEccs.astro";
-import ApplyUTokyoWifi from "@components/systems/utokyo_wifi/ApplyUTokyoWifi.astro";
-import ConnectUTokyoWifi from "@components/systems/utokyo_wifi/ConnectUTokyoWifi.astro";
-import Microsoft from "@components/systems/Microsoft/index.astro";
-import ItcLms from "@components/systems/ItcLms/index.astro";
-import Zoom from "@components/systems/Zoom/index.astro";
-import Google from '@components/procedures/Google/index.astro'
-import UTokyoAccount from '@components/procedures/UTokyoAccount/index.astro'
-import UTAS from '@components/procedures/UTAS/index.astro'
+import UTokyoAccount from "@components/systems/utokyo_account/index.mdx";
+import Utas from "@components/systems/utas/index.mdx";
+import ItcLms from "@components/systems/itc_lms/index.mdx";
+import Zoom from "@components/systems/zoom/index.mdx";
+import EccsCloudEmail from "@components/systems/eccs_cloud_email/index.mdx";
+import Microsoft from "@components/systems/microsoft/index.mdx";
+import UTokyoWiFi from "@components/systems/utokyo_wifi/index.mdx";
+import Eccs from "@components/systems/eccs/index.mdx";
 
 ## ご挨拶
 
@@ -57,7 +54,7 @@ export const about_utokyo_account = "東大の情報システムで使う，「�
 export const about_utas = "各授業の概要説明（シラバス）の閲覧，受ける授業の登録手続き，成績の確認などに使うシステム（学務システム）です．"
 export const about_itc_lms = "授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．"
 export const about_zoom = "「同時双方向型」のオンライン授業で使う Web 会議システムです．"
-export const about_google = "Gmail などの Google のシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既に Google のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
+export const about_eccs_cloud_email = "Gmail などの Google のシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既に Google のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
 export const about_microsoft = "Word, Excel などの Microsoft Office が無料でダウンロードできます．また，Microsoft の各種オンラインツールも提供しています．Google と同じく，東大のアカウントでしかアクセスできないページがあるので，既に Microsoft のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
 export const about_utokyo_wifi = "キャンパス内で使える Wi-Fi です．キャンパス内でオンライン授業を受ける際に必要になるでしょう．事前にアカウントを作っていないと使えないので注意してください．"
 export const about_eccs = "キャンパス内に設置されているパソコンです．一部の対面授業で利用する場合があるほか，キャンパス内でオンライン授業を受ける際にも利用できます．利用には事前に利用権の申請が必要ですので，注意してください．"
@@ -66,7 +63,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 - **UTAS**：{ about_utas }
 - **ITC-LMS**：{ about_itc_lms }
 - **Zoom**：{ about_zoom }
-- **ECCS クラウドメール (Google Workspace)**：{ about_google }
+- **ECCS クラウドメール (Google Workspace)**：{ about_eccs_cloud_email }
 - **UTokyo Microsoft License (Microsoft 365)**：{ about_microsoft }
 - **UTokyo Wi-Fi**：{ about_utokyo_wifi }
 - **ECCS 端末**：{ about_eccs }
@@ -106,17 +103,15 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 「[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](movies)」のページでは，以下の手順を動画で説明していますので，必要に応じて確認してください．
 
-<ul class="procedure">
-    <UTokyoAccount part="important" pageSlug="oc" />
-    <Google part="important" pageSlug="oc" />
-    <UTAS part="important" pageSlug="oc" />
-    <li>
-        <strong>UTokyo Wi-Fi：アカウントを申請する</strong>
-        <ApplyUTokyoWifi pageSlug="oc" />
-    </li>
-</ul>
+- <UTokyoAccount variant="oc" important />
+- <EccsCloudEmail variant="oc" important />
+- <Utas variant="oc" important />
+- <UTokyoWiFi variant="oc" important />
+{:.procedure}
 
 ## 情報システムに関するその他の準備手順
+
+{:#procedure}
 
 つづいて，各種情報システムについて，それぞれのシステムへのログインや，東大のアカウント専用のページへのアクセスなどといった，もう少し細かい確認や作業の手順を説明します．万全の状態で授業を受けられるよう，これらの手順も授業開始までにできるだけ行っておくようにしてください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
@@ -126,85 +121,65 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 {:#utokyo_account}
 
-{ about_utokyo_account }
+<p>{ about_utokyo_account }</p>
 
-<UTokyoAccount pageSlug="oc" />
+<UTokyoAccount variant="oc" />
 
 ### UTAS
 
 {:#utas}
 
-{ about_utas }
+<p>{ about_utas }</p>
 
-<UTAS pageSlug="oc" />
+<Utas variant="oc" />
 
 ### ITC-LMS
 
 {:#itc_lms}
 
-{ about_itc_lms }
+<p>{ about_itc_lms }</p>
 
-<ItcLms pageSlug="oc" />
+<ItcLms variant="oc" />
 
 ### Zoom
 
 {:#zoom}
 
-{ about_zoom }
+<p>{ about_zoom }</p>
 
-<Zoom pageSlug="oc" />
+<Zoom variant="oc" />
 
 ### ECCS クラウドメール (Google Workspace)
 
 {:#google}
 
-{ about_google }
+<p>{ about_eccs_cloud_email }</p>
 
-<Google pageSlug="oc" />
+<EccsCloudEmail variant="oc" />
 
 ### UTokyo Microsoft License (Microsoft 365)
 
 {:#microsoft}
 
-{ about_microsoft }
+<p>{ about_microsoft }</p>
 
-<Microsoft pageSlug="oc" />
+<Microsoft variant="oc" />
 
 ### UTokyo Wi-Fi
 
 {:#utokyo_wifi}
 
-{ about_utokyo_wifi }
+<p>{ about_utokyo_wifi }</p>
 
-<ul>
-  <li>
-    <details>
-      <summary>（再掲）<strong>作業：アカウントを申請する</strong></summary>
-      <ApplyUTokyoWifi pageSlug="oc" />
-    </details>
-  </li>
-  <li>
-    <strong>作業：実際に接続する</strong>
-    <ConnectUTokyoWifi pageSlug="oc" />
-  </li>
-</ul>
+<UTokyoWiFi variant="oc" />
 
 ### ECCS 端末
 
 {:#eccs}
 
-{ about_eccs }
+<p>{ about_eccs }</p>
 
-<ul>
-  <li>
-    <strong>作業：利用権を申請する</strong>
-    <ApplyEccs pageSlug="oc" />
-  </li>
-  <li>
-    <strong>練習：ログインしてみる</strong>
-    <LoginEccs pageSlug="oc" />
-  </li>
-</ul>
+<Eccs variant="oc" />
 
 ## その他
 

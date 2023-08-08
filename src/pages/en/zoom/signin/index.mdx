@@ -7,7 +7,8 @@ redirect_from:
   - /en/zoom/create_account_invitation
 ---
 
-import ZoomSigninBrowser from "@components/en/ZoomSigninBrowser.mdx";
+import ZoomSigninBrowser from "@components/en/systems/zoom/SigninBrowser.mdx";
+import ZoomSigninApp from "@components/en/systems/zoom/SigninApp.mdx";
 
 An [UTokyo Account](/en/utokyo_account/) is required to sign into Zoom. If you have not already set up your UTokyo account, please check “[How to start using UTokyo Account](/en/utokyo_account/#procedures)” first.
 
@@ -19,22 +20,12 @@ To sign in with <strong class="alert"> alternative email addresses (e.g. ECCS Cl
 ## Signing in from the UTokyo Zoom Webpage
 {:#browser}
 
-<ZoomSigninBrowser />
+<ZoomSigninBrowser big inlineHelp />
 
 ## Signing in from the Zoom App
 {:#app}
 
-1. Click “Sign In” on the Zoom app, and open the Zoom sign-in screen.
-![](4.png){:.medium}
-1. On the Zoom sign-in screen, click “SSO” or “Sign in with SSO”. (You cannot sign in by entering your UTokyo Account email address and password.)
-![](5.png){:.medium}
-![](6.png){:.medium}
-1. Enter “u-tokyo-ac-jp” as your “company domain”. (Note that the characters before and after “ac” are hyphens, not underscores.)
-![](7.png){:.medium}
-1. The UTokyo Account sign-in page will be displayed in the browser. Please sign in. (The sign-in page will not show up if you are already signed in with your UTokyo Account.)
-![](2.png){:.medium}
-
-If you have issues signing in, please reach out to <a href="/en/support/">Technical Support Desk</a> for assistance.
+<ZoomSigninApp big inlineHelp />
 
 ## Tutorial Video
 {:#movie}
