@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 import { walk } from "./util";
 import { VFile } from "vfile";
 
-const source = [".md", ".markdown", ".mdx", ".astro"];
+const source = [".md", ".markdown", ".mdx"];
 
 export default function redirect(): AstroIntegration {
   return {
