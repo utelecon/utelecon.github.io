@@ -1,0 +1,46 @@
+---
+import type { Lang } from "@components/types";
+
+export interface Author {
+  affiliation: string;
+  name?: string;
+}
+
+interface Props {
+  lang: Lang;
+  author: Author;
+}
+
+const { lang, author } = Astro.props;
+const { affiliation, name } = author;
+---
+
+<div class="author">
+  {
+    {
+      ja: () => (
+        <>
+          執筆：
+          {{
+            oes: <a href="/about/oes">オンライン教育支援サポーター</a>,
+          }[affiliation] ?? affiliation}
+          {name && ` ${name}`}
+        </>
+      ),
+      en: () => (
+        <>
+          Author: {name && `${name}, `}
+          {{
+            oes: <a href="/en/about/oes">Online Education Supporters</a>,
+          }[affiliation] ?? affiliation}
+        </>
+      ),
+    }[lang]()
+  }
+</div>
+
+<style lang="scss">
+  .author {
+    text-align: right;
+  }
+</style>

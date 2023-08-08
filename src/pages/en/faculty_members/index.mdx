@@ -1,10 +1,14 @@
 ---
 title: Getting Ready for ICT Systems at the University of Tokyo (for Faculty Members)
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
+redirect_from:
+  - /en/faculty_members/index_2020_s
+  - /en/faculty_members/index_2020_a
 ---
 
-import ZoomSigninBrowser from '@components/en/ZoomSigninBrowser.astro'
-import Courses from '@components/en/Courses/index.astro'
+import Courses from '@components/en/Courses.mdx'
+import ChangeUtacPassword from '@components/en/systems/utokyo_account/ChangePassword.mdx'
+import ZoomSigninBrowser from '@components/en/systems/zoom/SigninBrowser.mdx'
 
 <b class="box">
 A briefing session titled “<a href="/events/2023-03-15/">A briefing session on web conferencing and cloud tools for online and in-person use - and let's “Chat” about “that AI tool”</a>” will be held on March 15th at 15:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
@@ -31,7 +35,7 @@ OHTA Kunihiro
 
 ### Types of Classes
 
-<Courses pageSlug="faculty_members" />
+<Courses variant="faculty_members" />
 
 ### Institutional Handling of Classes
 
@@ -59,9 +63,7 @@ The following is an explanation of the UTokyo Account’s initial setup procedur
 
 ### Changing the Initial Password
 
-1. Receive the “Notification regarding password for the UTokyo Account,” which includes your initial password, from your faculty, and graduate school. Faculty members who need it for classes should receive the notification, but if not, please contact your department's office.
-2. Please log in to the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) with the username and password indicated in the notification.
-3. Click "Password Change" on the upper left to change your password. For the safety of your account, please set a strong password.
+<ChangeUtacPassword variant="faculty_members" blockLink />
 
 At this point, you will be able to log in to UTokyo’s systems including [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do), which is used to input syllabi and grades. (*For information on how to use UTAS, please check with your department’s academic affairs office, or log in to UTAS, then click “Other” in the menu at the top of the screen and download the manual from the “Download Center.”)
 
@@ -81,7 +83,7 @@ Zoom is a simultaneous interactive web conferencing system, and is one of the mo
 
 The University of Tokyo has a license agreement with Zoom, and by signing in and using it, you can hold meetings with a maximum capacity of 300 participants and for a 30-hour duration.
 
-<ZoomSigninBrowser />
+<ZoomSigninBrowser big inlineHelp support />
 
 The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](/en/zoom/zoom_signin) for more information (please note that you cannot sign in with more than one PCs/tablets/smartphones at the same time; however, you can sign in with one PC, one tablet, and one smartphone simultaneously).
 
@@ -197,7 +199,7 @@ For further details on usage, please see the “**[EZproxy](https://www.lib.u-to
 
 MATLAB is a programming language developed for scientific and technical calculations, and numerical calculation and mathematical equation processing software based on it. The University of Tokyo offers MATLAB licenses to students and faculty members to improve their educational effectiveness and research efficiency. In addition, the University of Tokyo provides a support desk for MATLAB users in cooperation with MathWorks, the developer of the software, and is developing a campus community to share information about the software's use in classes.
 
-Please refer to the **[UTokyo MATLAB Campus-Wide License](/matlab/)** page (in Japanese) for details on usage and technical support.
+Please refer to the **[UTokyo MATLAB Campus-Wide License](/en/matlab/)** page for details on usage and technical support.
 
 ## Other Systems
 

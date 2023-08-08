@@ -1,0 +1,35 @@
+import If from "@components/If.astro";
+import Support from "@components/Support.astro";
+import Help from "@components/Help.astro";
+import SigninBrowserHelpExisting from "./SigninBrowserHelpExisting.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  * @property {true} [inlineHelp]
+  * @property {true} [big]
+  */}
+
+1. 東京大学専用のZoomのページ https://u-tokyo-ac-jp.zoom.us/ にアクセスしてください．
+2. 「UTokyo Zoom」と書かれたページが表示されるので，そのページにある「Config」と書かれたボタンを押してください．
+   <If cond={props.big}>
+     ![](/zoom/signin/1.png){:.medium}
+   </If>
+   <If cond={props.inlineHelp}>
+     <SigninBrowserHelpExisting />
+   </If>
+3. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+   <If cond={props.big}>
+     ![](/zoom/signin/2.png){:.medium}
+   </If>
+4. サインインが完了します．右上のアイコン（人のマークか，または自分のアイコンを設定していればそれ）を押したときに，自分の共通IDとともに「ライセンス ユーザー」と表示されれば，OKです．
+   <If cond={props.big}>
+     ![](/zoom/signin/license.png)
+   </If>
+
+<If cond={props.inlineHelp}>
+  <Support lang="ja" show={props.support} />
+  <Help lang="ja" support={props.support} slot="else">
+    - <SigninBrowserHelpExisting oneline />
+  </Help>
+</If>

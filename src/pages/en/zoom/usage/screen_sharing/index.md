@@ -15,14 +15,13 @@ Zoom's screen sharing enables you to share your screen with others. You can shar
 2. You will be given various options for sharing.<br>
 In the "Basic" tab, choose to share your entire desktop or specific application window.  
 ![Select from "Basic" tab](02.png)
-  * **[Desktop]** Share your full desktop.
-  * **[Individual application]** Share an individual application you have opened on your computer such as Word, PowerPoint, web browser, etc.. It is useful when you only want to share an individual file from a specific location.
+   * **[Desktop]** Share your full desktop.
+   * **[Individual application]** Share an individual application you have opened on your computer such as Word, PowerPoint, web browser, etc.. It is useful when you only want to share an individual file from a specific location.
 
 3. Check the option at the bottom of the window if necessary. (You can also set it up during screen sharing from the "More" in the meeting controls.)
-![Check the option if necessary](03.png)
-
-  * **[Share Sound]** If checked, you can share the sound played on your computer during screen sharing.
-  * **[Optimize for video clip]** If checked, participants can see the optimized form of video clips played in full screen during screen sharing.
+   ![Check the option if necessary](03.png)
+   * **[Share Sound]** If checked, you can share the sound played on your computer during screen sharing.
+   * **[Optimize for video clip]** If checked, participants can see the optimized form of video clips played in full screen during screen sharing.
 
 4. Select the screen you want to share and click the blue "Share" button at the bottom right corner.   
 ![ The "Share Screen" button starts screen sharing](04.png)

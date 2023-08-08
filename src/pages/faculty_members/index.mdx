@@ -2,11 +2,14 @@
 title: 東京大学における情報システムの準備について（教員向け）
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 description: このページでは，新たに東京大学で授業を始める教員を対象に，東京大学の情報システムを利用するために必要な事前準備を順序立てて説明しています．
+redirect_from:
+  - /faculty_members/index_2020_s
+  - /faculty_members/index_2020_a
 ---
 
-import Courses from '@components/Courses/index.astro'
-import UtacPasswordNotice from "@components/procedures/UTokyoAccount/20230321UtacPasswordNotice.astro";
-import ZoomSigninBrowser from "@components/ZoomSigninBrowser.astro";
+import Courses from '@components/Courses.mdx'
+import ChangeUtacPassword from '@components/systems/utokyo_account/ChangePassword.mdx'
+import ZoomSigninBrowser from "@components/systems/zoom/SigninBrowser.mdx";
 
 <b class="box">
 3/15 15:00から，説明会「<a href="/events/2023-03-15/">オンラインでも対面でも活用！Web会議・クラウドツールの説明会 〜 そして「あのAIツール」について"Chat"しましょう 〜</a>」を開催します．終了後は録画も提供します．本ページとあわせてご参照ください．
@@ -33,7 +36,7 @@ import ZoomSigninBrowser from "@components/ZoomSigninBrowser.astro";
 
 ### 授業形態の種類
 
-<Courses pageSlug="faculty_members" />
+<Courses variant="faculty_members" />
 
 
 ### 制度上の取扱い
@@ -62,11 +65,7 @@ import ZoomSigninBrowser from "@components/ZoomSigninBrowser.astro";
 
 ### 初期パスワードの変更
 
-1. 所属の学部・研究科等から，初期パスワードが記載された「パスワード通知書」を受け取ってください．授業に必要な教員には発行されているはずですが，もらっていない場合は所属部局の事務に問い合わせてください．
-2. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)に，「パスワード通知書」に記載されたユーザ名とパスワードでログインしてください．
-3. 左上の「パスワード変更」を押して，パスワードを変更してください．新しいパスワードは，強度の強いパスワードを自身で決めて，設定してください．
-
-<UtacPasswordNotice />
+<ChangeUtacPassword variant="faculty_members" blockLink />
 
 この時点で，シラバスや成績の入力に使われる[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)など，東京大学の各システムにログインできるようになります（※UTASの操作については，所属部局の学務・教務担当に確認するか，UTASにログインして上部のメニューで「その他」を押すと表示される「ダウンロードセンター」からマニュアルをダウンロードしてご覧ください）．{/*新任教員や非常勤講師が最初に行うのはUTASでのシラバス入力のため，ここで触れておく必要がある．しかし具体的な情報は，指示や運用が部局によっても異なることもあり，ここで案内することができない． */} 
 
@@ -84,7 +83,7 @@ Zoomは同時双方向型のWeb会議システムで，オンライン授業に�
 
 東京大学ではZoomのライセンス契約を行っており，サインインして利用すると，参加者数の上限が300人・時間の上限が30時間のミーティングを開催できます． 
 
-<ZoomSigninBrowser />
+<ZoomSigninBrowser big inlineHelp support />
 
 なお，アプリからサインインする場合は手順が異なりますので，[Zoom サインイン方法](/zoom/signin)のページをご覧ください（アプリでのサインインは，同時にPC・タブレット・スマートフォンの各1台までとなっていることにご注意ください）．
 
@@ -97,7 +96,7 @@ Zoomは同時双方向型のWeb会議システムで，オンライン授業に�
     - 「トピック」欄に会議室の名前（タイトル）を入力してください．
     - 「開催日時」や「所要時間」などは適宜設定してください．「定期ミーティング」にチェックを入れることで，一つの会議室で（URLを変えずに）複数回の授業を行うことができます．
     - 「参加時に認証を求める」という設定項目がありますが，特に学期開始当初は大学のアカウントの設定が済んでいない学生もいることから，入室制限を行う方法については注意が必要です．詳しくは「[授業におけるZoom会議室の入室制限](/faculty_members/zoom_access_control)」をご覧ください．
-{/* その他の設定項目についてなど，詳しくは [TODO]() をご覧ください．*/}
+    {/* その他の設定項目についてなど，詳しくは [TODO]() をご覧ください．*/}
 3. 最後に「保存」を押すと，作成された会議室の情報を確認できる画面に移動します．「招待リンク」欄に会議室のURLが表示されており，このURLから会議室に入室できるようになっています．
 
 ### 詳しい使い方

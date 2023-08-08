@@ -32,18 +32,10 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 
 ### 情報セキュリティ教育
 {:#information-security-education}
+東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認してください．
 
-東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，[情報セキュリティ教育](https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html)を実施しています．実施時期（2022年度の場合，学生は5月から，教職員は7月から）になりましたら通知がありますので，必ず受講してください．**所定の時期に情報セキュリティ教育の受講を完了されなかった場合，UTokyo VPNの利用資格を停止します．**
-
-<details>
-	<summary>着任・入学時には情報セキュリティ教育の受講期間が終了していた場合</summary>
-	この場合，UTokyo VPNの利用資格は停止されず，着任・入学時からUTokyo VPNを利用可能です．<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">情報セキュリティ教育</a>のページにある「情報セキュリティ教育 教材」をよくお読みの上，UTokyo VPNをご利用ください．なお，情報セキュリティ教育は毎年度実施されますので，来年度以降はご受講ください．
-</details>
-<details>
-	<summary>所定の時期に情報セキュリティ教育の受講を完了しなかった場合</summary>
-	UTokyo VPNの利用には情報セキュリティ教育の受講が必須です．情報セキュリティ教育の受講自体は，所定の受講期間を過ぎていてもITC-LMSから可能となっているので，受講してください．そのうえで，<a href="https://www.u-tokyo.ac.jp/adm/dics/ja/securityeducationvideo.html">情報セキュリティ教育のページ</a>の下部の「お問い合わせ」から，今後の対応についてお問い合わせください．
-	<div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div>
-</details>
+- 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo VPNの利用資格が停止されます．
+- 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格すると，ただちに利用資格の停止が解除されます．
 
 ### UTokyo Accountの多要素認証
 {:#mfa}
@@ -98,7 +90,7 @@ UTokyo VPNと，部局がそれぞれ独自に提供しているVPNサービス�
 
 ### Q. UTokyo Wi-Fiのアカウントのように一年ごとに新規のアカウント取得は必要か
 
-UTokyo VPNの認証はUTokyo Wi-FiのアカウントではなくUTokyo Accountで行います．そのため基本的に利用者のアカウントの変更は起こらず，継続して利用が可能です．ただし，利用には年１回実施する情報セキュリティ教育の受講が必要です．
+UTokyo VPNの認証はUTokyo Wi-FiのアカウントではなくUTokyo Accountで行います．そのため基本的に利用者のアカウントの変更は起こらず，継続して利用が可能です．ただし，利用には年１回実施する[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講が必要です．
 
 ## 規程
 {:#term}

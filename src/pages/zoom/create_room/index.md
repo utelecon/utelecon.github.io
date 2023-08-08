@@ -1,7 +1,5 @@
 ---
 title: Zoom ミーティングを作成する
-redirect_from:
-  - /zoom/create_room
 ---
 
 ## はじめに

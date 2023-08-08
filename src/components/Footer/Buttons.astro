@@ -1,6 +1,9 @@
 ---
+import FormLink from "./FormLink.astro";
+import type { Lang } from "@components/types";
+
 export interface Props {
-  lang: "ja" | "en";
+  lang: Lang;
 }
 
 const { lang } = Astro.props;
@@ -24,27 +27,22 @@ const supportUrl = {
   en: "/en/support/",
   ja: "/support/",
 };
-
-const formUrl = new URL(
-  "https://docs.google.com/forms/d/e/1FAIpQLSdEantPHma0G5NhkaSS_28MwfoTQNw9ic9TD8tb-snpcOZVjQ/viewform?usp=pp_url"
-);
-formUrl.searchParams.append(
-  "entry.1839091442",
-  encodeURIComponent(Astro.url.toString())
-);
 ---
 
 <div class="wrap">
-  <a class="link wide-only" onclick="scroll">
+  <a
+    class="link wide-only"
+    href="javascript:window.scrollTo({top:0,behavior:'smooth'});"
+  >
     <div class="icon">
       <span class="material-icon">arrow_upward</span>
     </div>
     <div class="description">{localization.scrollToTop[lang]}</div>
   </a>
-  <a class="link wide-only" href={formUrl}>
+  <FormLink class="link wide-only">
     <div class="icon"><span class="material-icon">feedback</span></div>
     <div class="description">{localization.feedback[lang]}</div>
-  </a>
+  </FormLink>
   <a class="link" href={supportUrl[lang]}>
     <div class="icon">
       <span class="material-icon">contact_support</span>
@@ -52,12 +50,6 @@ formUrl.searchParams.append(
     <div class="description">{localization.supportDesk[lang]}</div>
   </a>
 </div>
-
-<script is:inline>
-  function scroll() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-</script>
 
 <style lang="scss">
   @import "@styles/color.scss";

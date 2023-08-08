@@ -299,6 +299,7 @@ For the basic use of Slack, please refer to "[How to communicate with students i
 1. Click the "S" button in the upper left corner of the screen to open the Notifications tab of the Project settings screen.
 2. Open the "Slack Notifications" link in the settings screen and create an "Incoming Webhook" in Slack Integration. (See [Using Incoming Webhook in Slack](https://slack.com/help/articles/115005265063-Incoming-webhooks-for-Slack)).
 3. Paste the URL of the "Incoming Webhook" (`https://hooks.slack.com~~`) and click Add.
+
 * Notification timing
   * 90 seconds after the last writing to Scrapbox, you will be notified.
   * Notifications will not be sent while writing continuously.

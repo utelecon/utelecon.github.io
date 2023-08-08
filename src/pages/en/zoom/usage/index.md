@@ -19,9 +19,9 @@ The menu buttons are explained from left to right (some version may not display 
   1. **Screen Share** : You can share screens in your device.
   1. **Reactions** : You can express reactions by sending "applause" or "agree" emoji.
   1. **Details** : Menus that could not fit on the screen are included here (If the screen width is large enough, all menus will be displayed on the screen and "Details" may not be displayed).
-  * **Participants** : Displays a list of participants.  
-  * **Chat** : text chat.  
-  * **Record on this computer** : You can record if your host allows it. This button is often not used by anyone other than the organizer.  
+     * **Participants** : Displays a list of participants.  
+     * **Chat** : text chat.  
+     * **Record on this computer** : You can record if your host allows it. This button is often not used by anyone other than the organizer.  
   1. **Leave meeting** : Leave the meeting. A confirmation screen appears after you press it, so you do not exit immediately when you press the button.
   
   
@@ -68,14 +68,13 @@ When you press the menu "Share screen", the options of screens to be shared appe
   
   * When "Screen" is selected, the screen of the person sharing the image itself is shared with everyone (If there are multiple screens such as a multi-monitor like an image, screen 1 and screen 2 have more options).
   * If you select "Whiteboard", a whiteboard in which you can draw freely will be shared with everyone.
-  * Selecting "iPhone / iPad" will allow you to share your iPhone / iPad screen (plug-in required). You can share via AirPlay from devices in the same WiFi network.
+  * Selecting "iPhone / iPad" will allow you to share your iPhone / iPad screen (plug-in required). You can share via AirPlay from devices in the same Wi-Fi network.
   * The currently open window is also displayed as an option. You can also share the screen in window units. If you don't want others to see all of your computer windows, we recommend that you select the window unity you want to share.
   
   <!--About Sharing audio-->
   
 For details, please refer to [Screen Sharing](screen_sharing/).
 
-  
 ## Chat
   
 If you press the menu "Chat", text chat will be available. It is important to note that if you log in from the middle of a meeting, you will not be able to see past text chats. Therefore, it is important to wait and send texts after every member has joined the meeting.
@@ -97,5 +96,5 @@ Here is a brief description of the menus specific to the organizer.
   1. **Polls(setting required)** : Allows participants to respond to polls. The questions themselves need to be created with a web browser, and you can create a question by pressing "Edit" or "Add question", when you are creating a question for the first time.
   1. **Breakout(setting required)** : Participants can be divided into subgroups. You can decide the number of people and assign them automatically, or you can assign them manually.
   1. **Recording** : You can record the state of the meeting.
-  * For detalis, please refer to [Cloud Recording](recording/).
+     * For detalis, please refer to [Cloud Recording](recording/).
   

@@ -158,7 +158,7 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 
 ### Q. I cannot access Google Drive and files exclusive to UTokyo. What can I do?
 * (On PC or smartphone) If you are taken to the “You need access” page, and it shows you are signed in with an email address other than your `@g.ecc.u-tokyo.ac.jp` email address:
-* You are already signed into Google with a different email address. To switch to your ECCS Cloud Email, click on the email address under “You’re signed in as”. After you are taken to the “Choose an account” page, select your ECCS Cloud Email address (xxx@g.ecc.u-tokyo.ac.jp). If your ECCS Cloud Email address does not appear in the choices, click on “Use another account” and enter your ECCS Cloud Email address to sign in.
+* You are already signed into Google with a different email address. To switch to your ECCS Cloud Email, click on the email address under “You’re signed in as”. After you are taken to the “Choose an account” page, select your ECCS Cloud Email address (`xxx@g.ecc.u-tokyo.ac.jp`). If your ECCS Cloud Email address does not appear in the choices, click on “Use another account” and enter your ECCS Cloud Email address to sign in.
 
 * (On your smartphone) If you are taken to pages showing “You need permission” or “Request access”:
   * This can happen when you are already signed in with another Google account. Follow the procedures below, and try accessing the drive/file again.  
@@ -167,7 +167,7 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
     3. You will be prompted to enter your email address and password, so enter your ECCS Cloud Email email address and password that you set up above.
 
 
-* If you are taken to the “You need access” page, but you are already signed in with ECCS Cloud Email, and your ECCS Cloud Email address (xxx@g.ecc.u-tokyo.ac.jp) shows up under “You’re signed in as”:
+* If you are taken to the “You need access” page, but you are already signed in with ECCS Cloud Email, and your ECCS Cloud Email address (`xxx@g.ecc.u-tokyo.ac.jp`) shows up under “You’re signed in as”:
   * We are currently experiencing issues with some ECCS Cloud Email accounts not being able to access UTokyo-exclusive websites even though they are correctly signed in. Your account may be affected by this issue. We will need to reset your account to resolve the issue. To do so, please contact the Technical Support Desk using the [email form](/en/support/#email-form). For more details, please refer to [ECCS News](https://www.ecc.u-tokyo.ac.jp/announcement/2021/03/30_3304.html)(Japanese only). Apologies for the inconvenience.
 
 
@@ -175,25 +175,25 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 
 * See [ECCS Cloud Email – “Initial Setup Procedures”](/en/eccs_cloud_email#initial-setup-procedures), and follow the instructions in “Task: Set your password and email address”.
 
-### Q. What is the difference among 10 digits-ID@utac, 10 digits-ID@g.ecc, and xxxx@g.ecc (email address named after your choice) email addresses?
-* 10 digits-ID@utac.u-tokyo.ac.jp（e.g.1234567890@utac.u-tokyo.ac.jp）
+### Q. What is the difference among `10-digits-ID@utac`, `10-digits-ID@g.ecc`, and `xxxx@g.ecc` (email address named after your choice) email addresses?
+* `10-digits-ID@utac.u-tokyo.ac.jp`（e.g. `1234567890@utac.u-tokyo.ac.jp`）
 This is the email address for UTokyo Accounts sign-in. Signing in with your 10 digits- ID is usually available. However, `@utac` is necessary to specify the UTokyo domain.
-* 10 digits-ID@g.ecc.u-tokyo.ac.jp（e.g.1234567890@g.ecc.u-tokyo.ac.jp）
-This is the alias of ECCS Cloud Email. Signing in to Google with this email address is unavailable. Any email sent to this address will be forwarded to ECCS Cloud Email. (You can check the email by signing into Gmail with xxxx@g.ecc (email address named after your choice))
-* xxxx@g.ecc.u-tokyo.ac.jp (email address named after your choice)
+* `10-digits-ID@g.ecc.u-tokyo.ac.jp`（e.g. `1234567890@g.ecc.u-tokyo.ac.jp`）
+This is the alias of ECCS Cloud Email. Signing in to Google with this email address is unavailable. Any email sent to this address will be forwarded to ECCS Cloud Email. (You can check the email by signing into Gmail with `xxxx@g.ecc` (email address named after your choice))
+* `xxxx@g.ecc.u-tokyo.ac.jp` (email address named after your choice)
 xxxx (The character string before @) is assigned by individual users from the ECCS User Menu (~Feb. 2021: UTokyo Account User Menu). Signing in to Google with this email address is available.
 
 ## Microsoft 365 (formerly Office 365)
 ### Q. I cannot sign into Microsoft Office. What can I do?
-* ** If you see “That Microsoft account doesn't exist. Enter a different account or get a new one.” on the “Sign In” page**: Enter your “10-digit ID@utac.u-tokyo.ac.jp” for user ID. Your 10-digit number is your 10-digit common ID.
+* ** If you see “That Microsoft account doesn't exist. Enter a different account or get a new one.” on the “Sign In” page**: Enter your `10-digit ID@utac.u-tokyo.ac.jp` for user ID. Your 10-digit number is your 10-digit common ID.
 
 ### Q. I cannot edit after signing in. What can I do?
 * There may be issues with license authentication. In such cases, editing might not be possible in Office applications such as Word.
 * For Mac users: Please follow the instructions below to delete your Office License and retry license authentication.
-  * For other OS users: Please contact the support desk.
   1. Follow the steps in [How to remove Office license files on a Mac – Office support](https://support.microsoft.com/en-us/office/how-to-remove-office-license-files-on-a-mac-b032c0f6-a431-4dad-83a9-6b727c03b193?ui=en-US&rs=en-US&ad=US) to download the Microsoft license removal tool.
   2. When you open Office applications such as Word after deleting the license, you will be asked to sign into Microsoft 365 (if you are not asked to sign in, find and click the button which says “Sign In”). Please try to sign in with your UTokyo Account (10-digit ID@@utac.u-tokyo.ac.jp) again.
   3. Once you have signed in, your license will be authenticated automatically.
+* For other OS users: Please contact the support desk.
 
 ## UTAS
 ### Q. What is UTAS?
@@ -205,6 +205,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * If you cannot sign into these systems:
   * Reset your UTokyo Account <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank"> password</a>.
 * Reference: [UTAS](/utas)
+
 ### Q. 「[Error] あなたは現在このシステムを利用することができません」is shown and sign-in is unavailable. What can I do?
 * This may occur during affiliation transition, for example, from undergraduate to graduate. Please try again later.
 * If this does not apply to your situation, please contact the faculty or graduate school you belong to.
@@ -214,14 +215,15 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 ### Q. What is ITC-LMS?
 * ITC-LMS is the learning management system of UTokyo.
 * Features of ITC-LMS include lecture materials downloading, assignment submission, online examinations, surveys, and forum discussion for courses registered.
-* Reference: [ITC-LMS] (/itc_lms), [FAQ] (https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html)
+* Reference: [ITC-LMS](/itc_lms), [FAQ](https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html)
 
 ## UTokyo Account
 ### Q. I cannot sign into the UTokyo Account User Menu. What can I do?
 * Reference: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account User Menu</a>
 * Please check that you have entered your <span style="color:green;">”10-digit common ID”</span> as user ID.
-* Note that <span style="color:red;">it is NOT </span> 10-digit ID@utac.u-tokyo.ac.jp.
+* Note that <span style="color:red;">it is NOT </span> `10-digit ID@utac.u-tokyo.ac.jp`.
 * If an error occurs even when the user ID is entered correctly, you may have entered the wrong password. Reset your password from [this page](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html).
+
 ### Q. An user ID error occurs when I attempt to reset my UTokyo Account password. What can I do?
 * See [this page](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html) and reset your password.
 * On the Reset Password page, you should enter your 10-digit ID`@utac.u-tokyo.ac.jp`（e.g. `1234567890@utac.u-tokyo.ac.jp`）as your user ID.

@@ -1,7 +1,6 @@
 ---
 title: "東京大学の学生の皆さんへ：AIツールの授業における利用について（ver. 1.0）"
 h1: "東京大学の学生の皆さんへ：AIツールの授業における利用について<small>（ver. 1.0）</small>"
-css: [bracket-ol]
 ---
 
 <div style="text-align: right;">

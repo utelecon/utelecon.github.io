@@ -15,12 +15,12 @@ If you continue with the old settings after the <a href="/en/change2021s/">Syste
 ## Setting up Individual Meetings
 
 1. Open the [Zoom “Meetings” page](https://u-tokyo-ac-jp.zoom.us/meeting#/upcoming) on your web browser.
-![](meeting_1.png){:.medium}
+    ![](meeting_1.png){:.medium}
 
 2. Go to the meeting settings page.
     - To create a new meeting, click “Schedule a Meeting”.
     - To check or modify the settings of previously scheduled meetings, hover your mouse over the meeting in the list and click the "Edit" button on the right side.
-![](meeting_2.png){:.medium}
+    ![](meeting_2.png){:.medium}
 
 3. Configure the settings under “Require authentication to join” in “Security”. If you turn it on and select “大学アカウントでサインイン(Sign in with university account)”, only participants who have signed in to their UTokyo Zoom account are able to join the meeting. Additionally, please check that the domain shown under “大学アカウントでサインイン(Sign in with university account)” is set to `*.u-tokyo.ac.jp`
 (if not, click “Edit” and change it to `*.u-tokyo.ac.jp`).

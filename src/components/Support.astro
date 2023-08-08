@@ -1,0 +1,43 @@
+---
+import type { Lang } from "@components/types";
+
+interface Props {
+  /**
+   * 文章を表示するか否か
+   */
+  show: boolean;
+  /**
+   * 表示する言語
+   */
+  lang: Lang;
+  /**
+   * トラブルシュート手順の後にあるか
+   * Help.astro でのみ利用
+   */
+  inHelp?: boolean;
+}
+
+const { show, lang, inHelp = false } = Astro.props;
+---
+
+{
+  show && (
+    <p class:list={{ support: !inHelp }}>
+      {{
+        "ja-false": <>この手順がうまくいかないときは<a href="/support/">サポート窓口</a>に相談してください．</>,
+        "ja-true": <>これらを確認して，それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</>,
+        "en-false": <>If this procedure does not work, please consult the{" "}<a href="/en/support/">Technical Support Desk</a>.</>,
+        "en-true": <>If the issue is still not resolved, please consult the{" "}<a href="/en/support/">Technical Support Desk</a>.</>,
+      }[`${lang}-${inHelp}`]}
+    </p>
+  )
+}
+
+<style>
+  p {
+    margin: 0;
+  }
+  p.support {
+    padding-left: 20px;
+  }
+</style>

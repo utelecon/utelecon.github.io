@@ -30,6 +30,6 @@ We will explain the purpose of the class supporter program, the outline of the p
 
 * [Briefing Session Information Sheet]( https://tinyurl.com/y7te4k3j ) (Please apply from the participation application form link at the top of this Excel sheet in this URL before the start of Wednesday, May 20. Like this, we can have an idea of the number of participants).
 
-  * **To access, you need to be signed in to Google with an ECCS cloud mail (xxx@g.ecc.u-tokyo.ac.jp) account.**
+  * **To access, you need to be signed in to Google with an ECCS cloud mail (`xxx@g.ecc.u-tokyo.ac.jp`) account.**
   * If you have trouble accessing it, please sign in with ECCS Cloud Email [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp).
   * If you have never used ECCS cloud email, [click here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)to make initial settings for account use.

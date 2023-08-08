@@ -1,0 +1,68 @@
+---
+import type { Variant, Lang } from "@components/types";
+
+interface Props {
+  /**
+   * `slot="important"`の内容だけを表示するか(true)
+   * `slot="important"`の内容を折りたたみに入れて全体を表示するか(false)
+   */
+  short: boolean | undefined;
+  /**
+   * 対象ページ
+   */
+  variant: Variant;
+  /**
+   * 表示する言語
+   */
+  lang: Lang;
+  /**
+   * 対象システム
+   * `short: true`の場合`title`の前に表示される
+   */
+  system: string;
+  /**
+   * 「作業」「確認」などの接頭語
+   * `short: false`の場合`title`の前に表示される
+   */
+  prefix: string;
+  /**
+   * 作業内容
+   */
+  title: string;
+}
+
+const { short, variant, lang, system, prefix, title } = Astro.props;
+const colon = { ja: "：", en: ": " }[lang];
+const repost = { ja: "（再掲）", en: "(Repost)" }[lang];
+---
+
+{
+  short ? (
+    <>
+      <strong>{system + colon + title}</strong>
+      <slot name="important" />
+    </>
+  ) : (
+    <ul class="procedure">
+      <li>
+        {variant === "oc" ? (
+          <>
+            <details>
+              <summary>
+                {repost}
+                <strong>{prefix + colon + title}</strong>
+              </summary>
+              <slot name="important" />
+            </details>
+          </>
+        ) : (
+          <>
+            <strong>{prefix + colon + title}</strong>
+            <slot name="important" />
+          </>
+        )}
+      </li>
+      <slot />
+    </ul>
+  )
+}

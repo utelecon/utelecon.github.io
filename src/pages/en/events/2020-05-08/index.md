@@ -36,6 +36,6 @@ III/GSII　Machiko SAKAI　Associate Professor
 
 * [Briefing Session Information Sheet]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing ) (To grasp the number of participants, please apply from the participation application form link at the top of the Excel sheet at this URL before May 8)
 
-  * **To access, you need to be signed in to Google with an ECCS cloud mail (xxx@g.ecc.u-tokyo.ac.jp) account.**
+  * **To access, you need to be signed in to Google with an ECCS cloud mail (`xxx@g.ecc.u-tokyo.ac.jp`) account.**
   * If you have trouble accessing it, please sign in with ECCS Cloud Email[here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp).
   * If you have never used ECCS cloud email, please click [here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)to make initial settings for account use.

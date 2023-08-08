@@ -3,9 +3,10 @@ import ja from "../../data/nav/ja.yml";
 import en from "../../data/nav/en.yml";
 import type { Navigation } from "../../data/schemas/nav";
 import Markdown from "@components/Markdown.astro";
+import type { Lang } from "@components/types";
 
 interface Props {
-  lang: "ja" | "en";
+  lang: Lang;
 }
 
 const { lang } = Astro.props;

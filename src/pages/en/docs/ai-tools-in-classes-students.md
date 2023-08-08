@@ -1,7 +1,6 @@
 ---
 title: "Notification to Students on the Use of AI Tools in Classes (ver. 1.0)"
 h1: "Notification to Students on the Use of AI Tools in Classes <small>(ver. 1.0)</small>"
-css: [bracket-ol]
 ---
 
 <div style="text-align: right;">May 26, 2023</div>

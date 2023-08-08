@@ -3,21 +3,19 @@ import { SEO } from "astro-seo";
 import { GoogleAnalytics } from "@astrolib/analytics";
 import Header from "@components/Header/index.astro";
 import Footer from "@components/Footer/index.astro";
-import Toc from "@components/Toc/index.astro";
+import Toc from "@components/Toc.astro";
 import "@styles/global.scss";
-import type { MarkdownHeading } from "astro";
-import Author, { Author as AuthorProps } from "@components/Author/index.astro";
+import type { MDXLayoutProps, MarkdownHeading } from "astro";
+import Author, { Author as AuthorProps } from "@components/Author.astro";
 import Markdown from "@components/Markdown.astro";
+import type { Lang } from "@components/types";
 
-interface Props {
-  frontmatter: Frontmatter;
-  headings: MarkdownHeading[];
-}
+interface Props extends MDXLayoutProps<Frontmatter> {}
 
 export interface Frontmatter {
   title: string;
   description?: string;
-  lang: "ja" | "en";
+  lang: Lang;
   toc?: boolean;
   h1?: string;
   top?: boolean;
@@ -28,7 +26,7 @@ export interface Frontmatter {
 }
 
 function createDefaultDescription(
-  lang: "ja" | "en",
+  lang: Lang,
   headings: MarkdownHeading[]
 ): string {
   return (
@@ -73,7 +71,6 @@ const locale = {
 }[lang];
 
 const siteName = "utelecon";
-const ogImage = `${Astro.site}/assets/images/ogp.png`;
 const gaid = "UA-160716658-1";
 ---
 
@@ -88,7 +85,7 @@ const gaid = "UA-160716658-1";
           title,
           type: "website",
           url: Astro.url.href,
-          image: ogImage,
+          image: new URL("/assets/images/ogp.png", Astro.site).href,
         },
         optional: {
           description,
@@ -114,6 +111,8 @@ const gaid = "UA-160716658-1";
     />
 
     <meta name="generator" content={Astro.generator} />
+
+    <link rel="icon" href="/assets/images/favicon.png" />
 
     <script
       async

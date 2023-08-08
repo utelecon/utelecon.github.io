@@ -1,0 +1,36 @@
+---
+import type { Variant } from "@components/types";
+
+interface Props {
+  variant: Variant;
+  base: 3 | 4;
+}
+
+const { variant, base } = Astro.props;
+const increment = {
+  oc: 0,
+  faculty_members: 1,
+  individual: 0,
+}[variant];
+const heading = (base + increment) as 3 | 4 | 5;
+---
+
+{
+  {
+    3: () => (
+      <h3>
+        <slot />
+      </h3>
+    ),
+    4: () => (
+      <h4>
+        <slot />
+      </h4>
+    ),
+    5: () => (
+      <h5>
+        <slot />
+      </h5>
+    ),
+  }[heading]()
+}

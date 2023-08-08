@@ -1,66 +1,61 @@
 import type { AstroIntegration } from "astro";
 import fs from "fs/promises";
 import matter from "gray-matter";
-import { join, parse } from "path";
+import { extname, join, relative } from "path";
 import { fileURLToPath } from "url";
+import { walk } from "./util";
+import { VFile } from "vfile";
+
+const source = [".md", ".markdown", ".mdx", ".astro"];
 
 export default function redirect(): AstroIntegration {
   return {
     name: "redirect",
     hooks: {
-      "astro:build:done": async ({ pages, dir }) => {
-        const files = await Promise.all(
-          pages.map(async ({ pathname }) => {
-            const file = await readPath(pathname);
-            return { pathname, file };
-          })
-        );
-
-        const redirects = files.flatMap(({ pathname, file }) => {
-          if (!file) return [];
-          const { data } = matter(file);
-          const { redirect_from } = data;
+      "astro:config:setup": async ({ updateConfig, config }) => {
+        const pages = join(fileURLToPath(config.srcDir), "pages");
+        const promises: Promise<VFile>[] = [];
+        for await (const path of walk(pages)) {
+          if (!source.includes(extname(path))) continue;
+          promises.push(readFile(path));
+        }
+        const files = await Promise.all(promises);
+        const redirects = files.flatMap((file) => {
+          const { redirect_to, redirect_from } = file.data;
+          const here =
+            "/" +
+            relative(pages, file.path).replace(
+              /(?:index)?\.(?:md|mdx|markdown|astro)$/,
+              ""
+            );
+          if (typeof redirect_to === "string") {
+            return { from: here, to: redirect_to };
+          }
           if (typeof redirect_from === "string") {
-            return { from: redirect_from, to: pathname };
+            return { from: redirect_from, to: here };
           }
           if (
             Array.isArray(redirect_from) &&
             redirect_from.every((x) => typeof x === "string")
           ) {
-            return redirect_from.map((from) => ({ from, to: pathname }));
+            return redirect_from.map((from) => ({ from, to: here }));
           }
           return [];
         });
-
-        const d = fileURLToPath(dir);
-        await Promise.all(
-          redirects.map(async ({ from, to }) => {
-            await fs.mkdir(join(d, from), { recursive: true });
-            await fs.writeFile(join(d, from, "index.html"), html(to));
-          })
-        );
+        updateConfig({
+          redirects: Object.fromEntries(
+            redirects.map(({ from, to }) => [from, to])
+          ),
+        });
       },
     },
   };
 }
 
-async function readPath(path: string) {
-  path = join("src", "pages", path);
-  if (path.endsWith("/")) {
-    path += "index";
-  }
-  try {
-    const md = await fs.readFile(path + ".md", "utf-8");
-    return md;
-  } catch (_) {}
-  try {
-    const markdown = await fs.readFile(path + ".markdown", "utf-8");
-    return markdown;
-  } catch (_) {}
-  try {
-    const mdx = await fs.readFile(path + ".mdx", "utf-8");
-    return mdx;
-  } catch (_) {}
+async function readFile(path: string) {
+  const value = await fs.readFile(path, "utf-8");
+  const { data } = matter(value);
+  return new VFile({ path, value, data });
 }
 
 function html(to: string) {

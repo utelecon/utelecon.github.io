@@ -20,7 +20,7 @@ title: "2020/05/08 説明会: オンライン授業における著作物利用"
 ## 動画・資料
 動画: [mp4 ファイル](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-05-08)（学内限定公開）  
 資料: [pdf ファイル](https://drive.google.com/file/d/1qnf8epOoWG-LC8Q0h8Kq6YFjJkNybTmJ/view?usp=sharing)（学内限定公開） 
-  * 閲覧するためには ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります
+  * 閲覧するためには ECCS クラウドメール(`xxx@g.ecc.u-tokyo.ac.jp`)アカウントでGoogleにサインインしている必要があります
   * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください
   * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
 
@@ -42,6 +42,6 @@ title: "2020/05/08 説明会: オンライン授業における著作物利用"
 
 * [説明会情報掲載シートへ]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing ) (参加者数把握のため、このURLにあるエクセルシート上部の参加申込みフォームリンクから5月8日（金）開始前までにお申し込みください。)
 
-  * **アクセスするには，ECCS クラウドメール(xxx@g.ecc.u-tokyo.ac.jp)アカウントでGoogleにサインインしている必要があります．**
+  * **アクセスするには，ECCS クラウドメール(`xxx@g.ecc.u-tokyo.ac.jp`)アカウントでGoogleにサインインしている必要があります．**
   * 上手くアクセスできない場合は[こちら](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)からECCS クラウドメールでサインインしてください．
   * ECCSクラウドメールを利用したことがない方は[こちら](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)からアカウント利用の初期設定をしてください
