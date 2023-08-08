@@ -27,7 +27,7 @@ At the University of Tokyo, classes are offered in a wide range of formats, incl
 ### Online Classes
 There are various types of online classes, but the main type of online class at the University of Tokyo is the "**simultaneous interactive**" type. This is a form of real-time interactive communication between the teacher and students using applications such as Zoom and Webex, a type of web conferencing system that allows audio and video exchange. The necessary preparations for using the system are explained in this page.
 
-Other forms include the "**on-demand**" type, in which students watch video recordings of classes and ask questions and discuss them via email or chat tools, and the "**hybrid**" type , in which online classes are combined with face-to-face classes in the classroom. 
+Other forms include the "**on-demand**" type, in which students watch video recordings of classes and ask questions and discuss them via email or chat tools, and the "**hybrid**" type, in which online classes are combined with face-to-face classes in the classroom. 
 
 ## What You Need to Prepare for Classes
 
