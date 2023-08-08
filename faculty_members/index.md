@@ -71,7 +71,7 @@ description: このページでは，新たに東京大学で授業を始める�
 
 大学全体のセキュリティ向上のため，東京大学では，UTokyo Accountの多要素認証を有効化することを強く推奨しています．特に教職員については，全員が多要素認証を利用することになっています．「**[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」のページに記載の手順で，有効化を行ってください．
 
-### 情報セキュリティ教育
+### 情報セキュリティ教育の受講
 {:#information-security-education}
 
 {% include systems/information_security.html part="explanation" %}
