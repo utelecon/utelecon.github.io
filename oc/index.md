@@ -99,7 +99,7 @@ description: このページでは，東京大学で授業を受ける新入生�
 {% include procedures/google.html part="important" %}
 </ul>
 
-### 情報セキュリティ教育
+### 情報セキュリティ教育の受講
 
 {% include systems/information_security.html part="explanation" %}
 
