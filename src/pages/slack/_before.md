@@ -1,7 +1,4 @@
-import InformationSecurity from "@components/InformationSecurity.mdx";
-
-<InformationSecurity variant="individual" nowarning />
-
+東京大学では，情報セキュリティの向上のために様々な取り組みを行っており，それらは[東京大学のセキュリティのページ](https://univtokyo.sharepoint.com/sites/Security)にまとめられています．その取り組みの一つとして，毎年度UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を行っております．UTokyo Slackの利用にあたっては，情報セキュリティ教育の受講を完了することを必須としています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については[情報セキュリティ教育のページ](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を確認してください．
 - 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo Slackの利用資格が停止されます．
 - 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格すると，ただちに利用資格の停止が解除されます．
 - 新たに入学・着任した方については，情報セキュリティ教育の受講が完了した後にUTokyo Slackの利用が可能となります．利用開始の前に情報セキュリティ教育を受講してください．
