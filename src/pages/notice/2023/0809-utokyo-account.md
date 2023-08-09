@@ -20,5 +20,5 @@ https://univtokyo.sharepoint.com/sites/utokyoaccount/
 - 出張旅費システム
 - 人事情報システム（東京大学職員名簿ウェブ版）
 - ファイル転送サービス
-- OPAC
+- MyOPAC
 - EZproxy
