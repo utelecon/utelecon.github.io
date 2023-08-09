@@ -1,0 +1,23 @@
+import Login from "./Login.mdx";
+import SetupNotification from "./SetupNotification.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  */}
+
+<ul class="procedure">
+  {/*
+    <If cond={props.variant === "oc"}>
+      <li>[Procedure video (in Japanese)](https://youtu.be/xAur5zar5Sc)</li>
+    </If>
+  */}
+  <li>
+    **Check: Login to ITC-LMS**
+    <Login support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Optional task: Link ITC-LMS with LINE notification**
+    <SetupNotification support={props.variant === "oc"} />
+  </li>
+</ul>

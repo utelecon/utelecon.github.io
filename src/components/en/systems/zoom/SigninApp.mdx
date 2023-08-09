@@ -1,0 +1,40 @@
+import If from "@components/If.astro";
+import Support from "@components/Support.astro";
+import Help from "@components/Help.astro";
+import SigninAppHelpDomain from "./SigninAppHelpDomain.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  * @property {true} [inlineHelp]
+  * @property {true} [big]
+  */}
+
+1. Open the Zoom app and click the "Sign In" button.
+   <If cond={props.big}>
+     ![](/en/zoom/signin/4.png){:.medium}
+   </If>
+2. On the sign-in screen, find the words "SSO" or "Continue with SSO" and click on it.
+   <If cond={props.big}>
+     ![](/en/zoom/signin/5.png){:.medium}
+     ![](/en/zoom/signin/6.png){:.medium}
+   </If>
+3. In the "Company domain" field, enter `u-tokyo-ac-jp` (note that the `ac` should be preceded and followed by a hyphen, not a period).
+    <If cond={props.big}>
+      ![](/en/zoom/signin/7.png){:.medium}
+    </If>
+4. Unless you have already signed in, the UTokyo Account sign-in page will be displayed in the browser. Please sign in.
+   <If cond={props.big}>
+     ![](/en/zoom/signin/2.png){:.medium}
+   </If>
+   <If cond={props.inlineHelp}>
+     <SigninAppHelpDomain />
+   </If>
+5. For computer users, click on the icon on the upper right (either your profile picture or the human silhouette if you have not set one up). For smartphone users, click "More" on the lower right. You have properly signed in if you see your name (or Common ID if you have not set one up) and the message "License Available" on the screen.
+
+<If cond={props.inlineHelp}>
+  <Support lang="en" show={props.support} />
+  <Help lang="en" support={props.support}  slot="else">
+    - <SigninAppHelpDomain oneline />
+  </Help>
+</If>

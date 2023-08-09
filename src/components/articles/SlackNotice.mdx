@@ -1,0 +1,6 @@
+<strong class="box">
+  2022年9月1日にSlackの仕様変更が予定されています．この記事の内容はそれ以前の仕様に基づくものであること，ご了承ください．
+</strong>
+<strong class="box">
+  東京大学の提供する「UTokyo Slack」に関しての詳細は[UTokyo Slackのページ](/slack/)をご覧ください．UTokyo Slackでは，本記事で紹介するものとは部分的に異なる機能が提供されておりますので，ご注意ください．
+</strong>

@@ -1,0 +1,48 @@
+---
+import notices from "../data/notice.yml";
+import type { Notice } from "../data/schemas/notice";
+import Markdown from "./Markdown.astro";
+import type { Lang } from "@components/types";
+
+export interface Props {
+  lang: Lang;
+  strip?: boolean;
+}
+
+interface NoticeContent {
+  date: Date;
+  content: string;
+}
+
+const { lang, strip } = Astro.props;
+
+const contents: NoticeContent[] = [];
+
+for (const notice of notices) {
+  const content = notice.content[lang] ?? notice.content.ja;
+  if (!content) continue;
+
+  if (!strip || contents.length < (notice.important ? 8 : 4)) {
+    contents.push({ date: notice.date, content });
+  }
+}
+---
+
+<ul>
+  {
+    contents.map(({ date, content }) => (
+      <li>
+        <span class="date">{date.toLocaleDateString("ja-JP")}</span>
+        <Markdown content={content} />
+      </li>
+    ))
+  }
+</ul>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+
+  .date {
+    color: $heading-color;
+  }
+</style>

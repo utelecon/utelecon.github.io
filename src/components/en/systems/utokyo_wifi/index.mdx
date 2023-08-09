@@ -1,0 +1,58 @@
+import If from "@components/If.astro";
+import Important from "@components/Important.astro";
+import Apply from "./Apply.mdx";
+import Connect from "./Connect.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  * @property {boolean} [important]
+  */}
+
+<If cond={props.variant === "oc"}>
+  <Important
+    short={props.important}
+    variant="oc"
+    lang="en"
+    system="UTokyo Wi-Fi"
+    prefix="Task"
+    title="Apply for an account"
+  >
+    <Fragment slot="important">
+      <Apply
+        variant="oc"
+        utasOnly
+        support
+        jouhouSecurity= {<a href="/en/utokyo_wifi/#jouhou-security">"Information Security Education" section on UTokyo Wi-Fi page</a>}
+      />
+    </Fragment>
+
+    <li>
+      **Task: Try connecting**
+      <Connect
+        deviceDescription="the device you want to connect"
+        applyStep="the step above"
+        connectConfiguration={<a href="/en/utokyo_wifi/#connect-configuration">"Connect Configuration" section on UTokyo Wi-Fi page</a>}
+        support
+      />
+    </li>
+  </Important>
+  <Fragment slot="else">
+    - **Step 1: Check the devices to be used**  
+      Laptops, smartphones, and tablets can generally connect to UTokyo Wi-Fi. However, other types of electronic devices and older devices may not be able to connect. For example, devices that do not support WPA2-Enterprise cannot be connected. Please check for updates to the OS and drivers of your devices and update them appropriately before connecting to UTokyo Wi-Fi.
+    - **Step 2: Apply for a UTokyo Wi-Fi Account**
+      - Note: If you already have a valid UTokyo Wi-Fi account, you do not need to repeat the account issuance procedure (the same account can be used for the second and subsequent devices).
+
+      <Apply
+        blockLink
+        jouhouSecurity={<><a href="#jouhou-security">"Information Security Education"</a> section</>}
+      />
+    - **Step 3: Connect to UTokyo Wi-Fi**
+      <Connect
+        deviceDescription="the device you checked in Step 1"
+        applyStep="Step 2"
+        connectConfiguration={<><a href="#connect-configuration">"Connect Configuration" section</a> section below</>}
+      />
+    {:.procedure.gap}
+  </Fragment>
+</If>
