@@ -1,15 +1,14 @@
-import Switch from "@components/Switch.astro";
-
 {/**
   * @typedef {object} Props
   * @property {import("@components/types").Variant} variant
   */}
 
-The University of Tokyo is conducting various initiatives for the improvement of information security, all of which are detailed on [the University of Tokyo's security page](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Home.aspx). A prime example of these initiatives is the implementation of annual Information Security Education for all UTokyo Account holders.
-<Switch variant={props.variant}>
-  <Fragment slot="oc">Those who have newly enrolled should first attend this Information Security Education.</Fragment>
-  <Fragment slot="faculty_members">Those who have newly appointed should first attend this Information Security Education.</Fragment>
-  {/* <Fragment slot="individual">TODO: 個別ページ向けの文言</Fragment> */}
-</Switch>
+export const recommendations = {
+  oc: "Those who have newly enrolled should first attend this Information Security Education.",
+  faculty_members: "Those who have newly appointed should first attend this Information Security Education.",
+  individual: "You will be notified when the implementation period arrives, so please ensure to pass the test.",
+};
 
-For details about the timing and the procedure of the course, kindly refer to [the Information Security Education page](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx). Once you complete the course, you will be able to use [UTokyo Wi-Fi](/en/utokyo_wifi/), [UTokyo VPN](/en/utokyo_vpn/), and [UTokyo Slack](/en/slack/) (Note: Enabling Multi-Factor Authentication for your UTokyo Account is mandatory for [UTokyo VPN](/en/utokyo_vpn/) and [UTokyo Slack](/en/slack/)).
+The University of Tokyo is conducting various initiatives for the improvement of information security, all of which are detailed on [the University of Tokyo's security page](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Home.aspx). A prime example of these initiatives is the implementation of annual Information Security Education for all UTokyo Account holders. {recommendations[props.variant]} For details about {props.variant === "individual" && "the timing and"} the procedure of the course, kindly refer to [the Information Security Education page](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx).
+
+Once you complete the course, you will be able to use [UTokyo Wi-Fi](/en/utokyo_wifi/), [UTokyo VPN](/en/utokyo_vpn/), and [UTokyo Slack](/en/slack/) (Note: Enabling Multi-Factor Authentication for your UTokyo Account is mandatory for [UTokyo VPN](/en/utokyo_vpn/) and [UTokyo Slack](/en/slack/)).
