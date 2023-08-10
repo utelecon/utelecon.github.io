@@ -1,6 +1,7 @@
 ---
 title: Detailed specifications and settings of UTokyo Slack
 ---
+import Profile from './_profile.md';
 
 [Return to the top page of the description of UTokyo Slack](/en/slack/)
 
@@ -9,52 +10,28 @@ This page describes details of the specifications peculiar to UTokyo Slack ("Ent
 
 
 ## Custom emoji
-{:emoji}
+{:#emoji}
 
-Due to the specifications of the Enterprise Grid plan, ["custom emoji"](https://slack.com/help/articles/206870177-Add-custom-emoji-and-aliases-to-your-workspace) **can only be added to UTokyo Slack as a whole, not to specific workspaces only**.
+Due to the specifications of the Enterprise Grid plan, "[custom emoji](https://slack.com/help/articles/206870177-Add-custom-emoji-and-aliases-to-your-workspace)" **can only be added to UTokyo Slack as a whole, not to specific workspaces only**.
 
-In UTokyo Slack, each workspace is configured to enable the person responsible for that workspace (the person with owner/administrator role) to add custom emoji. When adding custom emoji, **please use them appropriately, keeping in mind that they will be seen by a wide variety of members of the University of Tokyo**. <small>For more details about owner and administrator roles for workspaces, please refer to the relevant section of ["Creation and operation of workspaces in UTokyo Slack"](/en/slack/workspace/#owner-and-administrator) page.<small>
+In UTokyo Slack, each workspace is configured to enable the person responsible for that workspace (the person with owner/administrator role) to add custom emoji. When adding custom emoji, **please use them appropriately, keeping in mind that they will be seen by a wide variety of members of the University of Tokyo**. <small>For more details about owner and administrator roles for workspaces, please refer to the relevant section of "[Creation and operation of workspaces in UTokyo Slack](/en/slack/workspace/#owner-and-administrator)" page.<small>
 
 Please note that custom emoji that you have added can be deleted from the screen that opens with "Customize [workspace name]" under "Settings and administration" in the upper left menu of the workspace screen.
 
 ## Profiles
+{:#Profiles}
 
-When using UTokyo Slack, we recommend that you set up your profile appropriately. In particular, the “Display Name” field in your profile is the information that is usually displayed as your name in messages, etc. However, it is initially set as the 10-digit Common ID due to system specifications. Therefore, it is recommended that you set a name that others can recognize.
-UTokyo Slackを利用する際には，プロフィールを適切に設定することをおすすめします．特に，プロフィール内の「表示名」の項目は，通常メッセージなどにあなたの名前として表示される情報ですが，システムの仕様上，初期状態では10桁の共通IDになってしまっていますので，他の人に分かるような名前を設定すると良いでしょう．
-
-The procedure for changing your profile is as follows (if you are using a PC).
-プロフィールを変更する手順は以下の通りです（PCで利用している場合）．
-
-1. Press the “person” symbol in the upper right corner of the workspace screen.
-1. ワークスペースの画面右上にある人のマークを押してください．
-
-2. Select “Profile” from the menu that appears.
-2. メニューが表示されるので，「プロフィール」を選んでください．
-
-3. Click on the “Edit” button to the right of your name.
-3. 自分の名前の右横に表示されている「編集」を押してください．
-
-4. The edit screen will open, allowing you to make changes to each item in your profile. When finished, press the “Save Changes” button in the lower right corner.
-4. 編集画面が開き，プロフィールの各項目を変更できます．最後に右下の「変更を保存」ボタンを押してください．
-
-Please note that due to the specifications of the Enterprise Grid plan, UTokyo Slack profiles are common to the entire UTokyo Slack and cannot be set up differently for each workspace.
-なお，Enterprise Gridプランの仕様上，UTokyo SlackのプロフィールはUTokyo Slack全体で共通となっており，ワークスペースごとに異なる内容に設定することはできないので，注意してください．
+<Profile />
 
 In addition, those who are in charge of workspace management and operation should also check the following information about profile.
-また，プロフィールに関して，ワークスペースの管理・運用を担当される方においては，以下もご確認ください．
 
+ - Due to the above specification that personal profiles are common to the entire UTokyo Slack and visible to members of other workspaces, please avoid forcing your workspace members to describe specific details in their profiles, such as their position in your workspace.
 
-
-Due to the above specification that personal profiles are common to the entire UTokyo Slack and visible to members of other workspaces, please avoid forcing your workspace members to describe specific details in their profiles, such as their position in your workspace.
-上記の仕様を踏まえ，ワークスペースのメンバーに対しプロフィールの記載について詳細な指示をすることは避けるようにお願いします．
-
-
-
-The "custom profile fields" feature, which is related to profiles, is also unavailable, as it can only be set for UTokyo Slack as a whole and cannot be used per workspace.
-プロフィールに関連する機能「カスタムプロフィールフィールド」についても，UTokyo Slack全体で設定することしかできず，各ワークスペースごとに設定を行うことができないため，ご利用いただけません．
+ - The "[custom profile fields](https://slack.com/help/articles/212281478-Customize-member-profiles)" feature, which is related to profiles, is also unavailable, as it can only be set for UTokyo Slack as a whole and cannot be used per workspace.
 
 ## Procedures for continuing to use your UTokyo Slack account if your UTokyo Account changes
 {:#continue}
+
 As UTokyo Account is managed and assigned separately to students and faculty/staff members, when a student becomes a faculty and staff member or a faculty and staff member becomes a student, their UTokyo Account will be revoked and a new UTokyo Account will be issued to them. That is to say, the UTokyo Account will be changed.
 
 UTokyo Accountは学生用と教職員用で別々に管理・付与されるため，学生から教職員になる方，教職員から学生になる方は，それまで利用していたUTokyo Accountが失効し新しいUTokyo Accountが発行されます．すなわち，UTokyo Accountが変わるということになります．
