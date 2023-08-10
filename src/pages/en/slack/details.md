@@ -57,7 +57,7 @@ If you sign in to UTokyo Slack with your new UTokyo Account before the end of sw
 Although Slack provides a paid "Guest" feature, it is not available on UTokyo Slack for the following reasons.
 
  - For members outside the university (those who do not have a UTokyo Account), the guest feature is not available because "Multi-Channel Guest," a type of guest, is charged a fee. Although "Single-Channel Guest," a different type of guest, is not a fee-charging feature, the entire guest function including Single-Channel Guest is not available because it is not possible to enable only Single-Channel Guests.
-     - If you wish to use Slack with someone outside the university, you can use the “Connect” feature to collaborate with an external workspace. (However, this is not always recommended, as it is not as easy to use as the regular workspace.) See “Using UTokyo Slack with external users with the “Connect” feature” (in Japanese) for details.
+     - If you wish to use Slack with someone outside the university, you can use the “Connect” feature to collaborate with an external workspace. (However, this is not always recommended, as it is not as easy to use as the regular workspace.) See “[Using UTokyo Slack with external users with the “Connect” feature](workspace/connect)” (in Japanese) for details.
 
  - For members inside the university (those who have a UTokyo Account), we ask them to use it as a regular member as they cannot join more than one workspace as a guest.
     - If you wish to allow someone inside the university to join only a specific channel, it is possible to use the "Connect" feature to share the channel to an external workspace (other than UTokyo Slack), and have them join from the external workspace side.
@@ -68,70 +68,32 @@ Although Slack provides a paid "Guest" feature, it is not available on UTokyo Sl
 ### What is a "multi-workspace channel"?
 {:#mwsc-about}
 
-"Multi-workspace channel" is a feature that allows multiple workspaces to work together within UTokyo Slack, creating a shared channel among workspaces. Normally, a Slack channel belongs to a single workspace, but by sharing a channel using the "multi-workspace channel" feature, it becomes as if a single channel exists in common in multiple workspaces. This allows members in different workspaces to communicate across workspaces. While similar to the "Connect" feature, for sharing a channel among workspaces in UTokyo Slack, it is supposed to use the "multi-workspace channels" feature instead of "Connect" feature.「マルチワークスペースチャンネル」とは，UTokyo Slack内で複数のワークスペースを連携するための機能で，ワークスペース間で共有されたチャンネルを作成できるというものです．通常，Slackのチャンネルはある1つのワークスペースの中に存在しますが，「マルチワークスペースチャンネル」機能でチャンネルの共有を行うと，1つのチャンネルが複数のワークスペースに共通して存在するような状態になります．これにより，別々のワークスペースにいるメンバーが，ワークスペースを越えてやり取りできるようになります．「コネクト」機能と類似の機能ですが，UTokyo Slack内のワークスペース同士でチャンネルを共有したい場合，「コネクト」機能は利用できず，この「マルチワークスペースチャンネル」の機能を使うことになります．
+"Multi-workspace channel" is a feature that allows multiple workspaces to work together within UTokyo Slack, creating a shared channel among workspaces. Normally, a Slack channel belongs to a single workspace, but by sharing a channel using the "multi-workspace channel" feature, it becomes as if a single channel exists in common in multiple workspaces. This allows members in different workspaces to communicate across workspaces. While similar to the "[Connect](workspace/connect)" feature, for sharing a channel among workspaces in UTokyo Slack, it is supposed to use the "multi-workspace channels" feature instead of "Connect" feature.
 
 Certain specifications of the “multi-workspace channel” feature affect the use of the entire UTokyo Slack. Once a channel is set as a multi-workspace channel, a channel with the same name will no longer be available in all UTokyo Slack workspaces. For this reason, we have established certain operation rules for UTokyo Slack, and we ask you to use them in a constrained manner.
-「マルチワークスペースチャンネル」機能には，UTokyo Slack全体の利用に影響を及ぼす仕様があります．具体的には，チャンネルをマルチワークスペースチャンネルにした際に，そのチャンネルと同じチャンネル名がUTokyo Slackのすべてのワークスペースで使えなくなる，というものです．このため，UTokyo Slackでは，制約のある形になってしまいますが，一定の運用ルールの下でご利用いただく形とします．
 
 Please note that due to the above specification, even workspaces that do not use the "multi-workspace channel" feature may not be able to use a specific channel name (causing an error when creating or renaming a channel). We would like to operate in a way that strikes a balance between the overall UTokyo Slack workspace usage and the needs of those who require the "multi-workspace channel" feature. We appreciate your understanding.
-If there is a problem caused by the unavailability of a channel name, please contact us via the contact form from the workspace owner/administrator to adjust it accordingly.
-なお，上記の仕様のため，「マルチワークスペースチャンネル」機能を利用していないワークスペースであっても，特定のチャンネル名が使えない（チャンネルの作成・名前変更時にエラーになる）という状況が生じることがあります．UTokyo Slack全体のワークスペース利用と，「マルチワークスペースチャンネル」機能が必要な方のニーズの，双方のバランスが取れるように運用していきたいと考えていますので，ご理解をお願いいたします．また，チャンネル名を使えないことで利用に支障が生じた場合は，適宜調整を行いますので，ワークスペースのオーナー・管理者の方から連絡フォームでご連絡ください．
+If there is a problem caused by the unavailability of a channel name, please contact us via the [contact form](https://forms.office.com/r/riuix8ivhh) from the workspace owner/administrator to adjust it accordingly.
 
 ### Basic operational rules (e.g., procedures for getting started)
 {:#mwsc-rule-overview}
 
+- When sharing a channel using the multi-workspace channel feature, a representative workspace must be assigned to manage the channel. When making changes, we accept requests from this representative workspace.
 
-When sharing a channel using the multi-workspace channel feature, a representative workspace must be assigned to manage the channel. When making changes, we accept requests from this representative workspace.
-マルチワークスペースチャンネル機能でチャンネルを共有する際は，そのチャンネルの管理を担当する代表ワークスペースを定めていただきます．変更の際などは，この代表ワークスペースから手続きを受け付けます．
-
-
-
-Rules are established for the names of channels that are to be shared using the multi-workspace channel feature.
-マルチワークスペースチャンネル機能で共有チャンネルにするチャンネルのチャンネル名について，名前のルールを設けます．
-
-
-
-The representative workspace URL of the channel (the example part of example.slack.com) must be included at the beginning or end of the channel name, separated by a hyphen or underscore.
-具体的には，チャンネル名の先頭または末尾に，ハイフンまたはアンダースコアで区切って，そのチャンネルの代表ワークスペースURL（ example.slack.com の example の部分）を含めることをルールとします．
-
-
-
-For example, if the representative workspace is example.slack.com, the following channel names are available.
-#example-channel-name
-#channel-name-example
-#another-channel-name_example
-たとえば，代表ワークスペースが example.slack.com の場合，以下のようなチャンネル名が利用できます．
-#example-channel-name
-#channel-name-example
-#another-channel-name_example
-
-
-
-Multi-workspace channel feature is available upon completion of certain procedures.
-マルチワークスペースチャンネル機能は，一定の手続きを行った上で利用できるものとします．
-
-
-
-The procedure is accepted via the contact form. For each workspace you wish to share a channel with, the person responsible (who has the owner or administrator role) must submit the form. In total, the form will be submitted for as many workspaces as you wish to share with.
-手続きは，連絡フォームにて受け付けます．チャンネルを共有したいワークスペースごとに，それぞれ責任者（オーナーまたは管理者の権限をお持ちの方）がフォームを送信してください．全体では共有したいワークスペースの数だけフォームが送信されることになります．
-
-
-
-Please include the following information in your form.
-The URLs of all workspaces you wish to share with
-The URL of the representative workspace
-The URL of the workspace where the channel you wish to turn into a multi-workspace channel currently resides
-The channel name and channel ID of the channel you wish to turn into a multi-workspace channel (the channel ID is shown at the bottom of the dialog that opens when you right-click on the channel name in the sidebar and press "View channel details")
-連絡の際は，次の内容を含めてください．
-共有したいワークスペースすべてのURL
-代表ワークスペースのURL
-マルチワークスペースチャンネルにしたいチャンネルが現在存在するワークスペースのURL
-マルチワークスペースチャンネルにしたいチャンネルのチャンネル名・チャンネルID（チャンネルIDは，サイドバーでチャンネル名を右クリックして「チャンネル詳細を表示」を押すと開くダイアログの最下部に表示されています）
-
-
-
-Once a channel has been shared using the multi-workspace channel feature, you must never archive or rename that channel. Also, you must never change the URL of the representative workspace. If these operations are necessary, please refer to the explanations below to deal with them.
-マルチワークスペースチャンネル機能でチャンネルを共有した後は，そのチャンネルのアーカイブやチャンネル名変更の操作を絶対に行わないでください．また，代表ワークスペースのURL変更も行わないでください．これらの操作が必要な場合は，下の説明を参照して対応してください．
+- Rules are established for the names of channels that are to be shared using the multi-workspace channel feature.
+    - The representative workspace URL of the channel (the `example` part of `example.slack.com`) must be included at the beginning or end of the channel name, separated by a hyphen or underscore.
+    - For example, if the representative workspace is `example.slack.com`, the following channel names are available.
+        - `#example-channel-name`
+        - `#channel-name-example`
+        - `#another-channel-name_example`
+- Multi-workspace channel feature is available upon completion of certain procedures.
+    - The procedure is accepted via the [contact form](https://forms.office.com/r/riuix8ivhh). For each workspace you wish to share a channel with, the person responsible (who has the owner or administrator role) must submit the form. In total, the form will be submitted for as many workspaces as you wish to share with.
+    - Please include the following information in your form.
+        - The URLs of all workspaces you wish to share with
+        - The URL of the representative workspace
+        - The URL of the workspace where the channel you wish to turn into a multi-workspace channel currently resides
+        - The channel name and channel ID of the channel you wish to turn into a multi-workspace channel (the channel ID is shown at the bottom of the dialog that opens when you right-click on the channel name in the sidebar and press "View channel details")
+- Once a channel has been shared using the multi-workspace channel feature, you must **never archive or rename that channel**. Also, you must **never change the URL of the representative workspace**. If these operations are necessary, please refer to the explanations below to deal with them.
 
 ### Details of operational rules (e.g., procedures for changes)
 {:#mwsc-rule-details}
