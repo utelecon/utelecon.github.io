@@ -34,56 +34,33 @@ In addition, those who are in charge of workspace management and operation shoul
 
 As UTokyo Account is managed and assigned separately to students and faculty/staff members, when a student becomes a faculty and staff member or a faculty and staff member becomes a student, their UTokyo Account will be revoked and a new UTokyo Account will be issued to them. That is to say, the UTokyo Account will be changed.
 
-UTokyo Accountは学生用と教職員用で別々に管理・付与されるため，学生から教職員になる方，教職員から学生になる方は，それまで利用していたUTokyo Accountが失効し新しいUTokyo Accountが発行されます．すなわち，UTokyo Accountが変わるということになります．
-
-* For more details on the handling of UTokyo Account, please press here.
-※UTokyo Accountの取り扱いに関する詳細はこちら
+* [For more details on the handling of UTokyo Account, please press here](/en/systems/leave/).
 
 As UTokyo Slack is used by signing in with your UTokyo Account, if your UTokyo Account changes due to the circumstances described above, you will basically have to use a different UTokyo Slack account as well.
-UTokyo SlackはUTokyo Accountでサインインして利用するため，このようにUTokyo Accountが変わる場合は，UTokyo Slackのアカウントも基本的には別のものを利用することになります．
 
 However, if you need to continue to use the same account for university activities such as education and research, we will "switch" your UTokyo Slack account to a new UTokyo Account. If you wish to do so, please follow the procedures below.
-ただし，教育・研究など大学の活動のために同一のアカウントを継続して利用する必要がある場合には，UTokyo Slackのアカウントを新しいUTokyo Accountに「繋ぎ替え」る対応をします．希望する方は，以下の通り手続きをしてください．
 
-1. Before your original UTokyo Account is revoked , please sign in to your original UTokyo Account, access the contact form and submit your request for a “switch” with a reason for the request.
-1. もともと利用していたUTokyo Accountが失効する前に，もともと利用していたUTokyo Accountにサインインして連絡フォームにアクセスし，繋ぎ替えを希望する旨とその理由を記入して送信してください．
+1. Before your original UTokyo Account is revoked , please sign in to your original UTokyo Account, access the [contact form](https://forms.office.com/r/riuix8ivhh) and submit your request for a “switch” with a reason for the request.
 
-2. After your new UTokyo Account becomes available, please sign in to your new UTokyo Account, access the contact form, and submit your request for a “switch”  with your original UTokyo Account username (10-digit Common ID).
-2. 新しいUTokyo Accountが利用可能になった後に，新しいUTokyo Accountにサインインして連絡フォームにアクセスし，繋ぎ替えを希望する旨およびもともと利用していたUTokyo Accountのユーザ名（10桁の共通ID）を記入して送信してください．
+2. After your new UTokyo Account becomes available, please sign in to your new UTokyo Account, access the [contact form](https://forms.office.com/r/riuix8ivhh), and submit your request for a “switch”  with your original UTokyo Account username (10-digit Common ID).
 
 3. We will contact you via email to the ECCS Cloud Email address associated with your new UTokyo Account for further procedures. Please follow the instructions in the email.
-3. 以降の手順について，新しいUTokyo Accountに紐付いているECCSクラウドメール宛のメールで連絡します．メールの指示に従って対応してください．
 
 If you sign in to UTokyo Slack with your new UTokyo Account before the end of switching, you will be signed in to a new account that is different from your previous UTokyo Account you have originally used. Please note that this new account will not be accessible after the switching process (it will not be merged).
 なお，繋ぎ替えが終わる前に新しいUTokyo AccountでUTokyo Slackにサインインすると，もともと利用していたUTokyo Accountとは別の新しいアカウントにサインインします．この新しいアカウントは，繋ぎ替え作業後はアクセスできなくなります（統合はされません）ので，ご注意ください．
 
 ## "Guest" feature
 {:#guest}
+
 (* This section is for those in charge of workspace management and operation.)
-（※この項目はワークスペースの管理・運用を担当される方向けです）
 
 Although Slack provides a paid "Guest" feature, it is not available on UTokyo Slack for the following reasons.
-Slackには，有償機能として「ゲスト」機能がありますが，次の理由により，UTokyo Slackではご利用いただけません．
 
+ - For members outside the university (those who do not have a UTokyo Account), the guest feature is not available because "Multi-Channel Guest," a type of guest, is charged a fee. Although "Single-Channel Guest," a different type of guest, is not a fee-charging feature, the entire guest function including Single-Channel Guest is not available because it is not possible to enable only Single-Channel Guests.
+     - If you wish to use Slack with someone outside the university, you can use the “Connect” feature to collaborate with an external workspace. (However, this is not always recommended, as it is not as easy to use as the regular workspace.) See “Using UTokyo Slack with external users with the “Connect” feature” (in Japanese) for details.
 
-
-For members outside the university (those who do not have a UTokyo Account), the guest feature is not available because "Multi-Channel Guest," a type of guest, is charged a fee. Although "Single-Channel Guest," a different type of guest, is not a fee-charging feature, the entire guest function including Single-Channel Guest is not available because it is not possible to enable only Single-Channel Guests.
-学外者（UTokyo Accountを持っていない方）については，ゲストの一種である「マルチチャンネルゲスト」が料金の請求対象となってしまうため，利用できません．なお，別の種類のゲストである「シングルチャンネルゲスト」については料金の請求対象となりませんが，シングルチャンネルゲストのみを可能にするような設定ができないため，シングルチャンネルゲストを含めたゲスト機能全体を利用できない形としています．
-
-
-
-If you wish to use Slack with someone outside the university, you can use the “Connect” feature to collaborate with an external workspace. (However, this is not always recommended, as it is not as easy to use as the regular workspace.) See “Using UTokyo Slack with external users with the “Connect” feature” (in Japanese) for details.
-学外者と一緒にSlackを利用したい場合，外部のワークスペースと連携する「コネクト」という機能の利用がひとつの方法かもしれません（ただし，通常のワークスペースと使い勝手が同様ではなく，常におすすめできるわけではありません）．詳細は「「コネクト」機能を用いて学外者と一緒にUTokyo Slackを利用する」を参照してください．
-
-
-
-For members inside the university (those who have a UTokyo Account), we ask them to use it as a regular member as they cannot join more than one workspace as a guest.
-学内者（UTokyo Accountを持っている構成員）については，ゲストでは複数のワークスペースに参加できないため，通常メンバーとして利用していただくことにしています．
-
-
-
-If you wish to allow someone inside the university to join only a specific channel, it is possible to use the "Connect" feature to share the channel to an external workspace (other than UTokyo Slack), and have them join from the external workspace side.
-学内者を特定のチャンネルのみに参加させたい場合は，「コネクト」機能を利用して外部（UTokyo Slack以外）のワークスペースにチャンネルを共有し，外部のワークスペース側から参加してもらう，という方法は考えられます．
+ - For members inside the university (those who have a UTokyo Account), we ask them to use it as a regular member as they cannot join more than one workspace as a guest.
+    - If you wish to allow someone inside the university to join only a specific channel, it is possible to use the "Connect" feature to share the channel to an external workspace (other than UTokyo Slack), and have them join from the external workspace side.
 
 ## "Multi-workspace channel"
 {:#mwsc}
