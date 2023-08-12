@@ -144,9 +144,10 @@ Scrapboxは，オンラインで多数のメモ書きやノートを保存して
 - **[Scrapboxの基本的な使い方](/articles/scrapbox/)**：Scrapboxの基本的な使い方を説明しています．
 - **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてScrapboxで資料を共有する実践例です．
 
+### Mathpix
+Mathpixは，スクリーン上の数式や手書きした数式を読み取ることができるツールです．
 
-
-
+- **[レポート作成に便利なツールの紹介](/articles/paper-writing/)**：Mathpixを使って手書きの数式を読み取る方法を説明しています．
 
 
 ## 手書きノート・ホワイトボードツール
