@@ -34,7 +34,7 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 {:#information-security-education}
 UTokyo VPNの利用にあたっては，情報セキュリティ教育の受講を完了することを必須としています．情報セキュリティ教育は，東京大学全体の[情報セキュリティ](https://univtokyo.sharepoint.com/sites/Security)の向上を目的として，毎年度UTokyo Accountを持つ全ての方を対象に実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)のページを確認してください．
 
-- 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo VPNの利用資格が停止されます．具体的には，UTokyo VPNを利用するのに必要なアプリケーションのインストールができなくなります。また、既にインストールしている場合も、UTokyo VPNに接続することができなくなります。
+- 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo VPNの利用資格が停止されます．具体的には，UTokyo VPNを利用するのに必要なアプリケーションのインストールができなくなります．また，既にインストールしている場合も，UTokyo VPNに接続することができなくなります．
 - 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格すると，ただちに利用資格の停止が解除されます．
 - 新たに入学・着任した方については，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を受講し，確認テストに合格した後にUTokyo VPNの利用が可能となります．利用開始の前に情報セキュリティ教育を受講してください．
 
