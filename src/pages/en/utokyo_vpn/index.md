@@ -5,7 +5,7 @@ title: UTokyo VPN
 ## Introduction
 {:#introduction}
 
-UTokyo VPN is a VPN service available to all the faculties and staff of University of Tokyo. When a device is connected to the UTokyo VPN from outside the campus, the device communicates via the VPN gateway installed at the Information Technology Center. Thereafter, the device virtually connects to the UTNET - the University of Tokyo campus network.
+UTokyo VPN is a VPN service available to all the faculties and staff of the University of Tokyo (UTokyo). When a device is connected to the UTokyo VPN from outside the campus, the device communicates via the VPN gateway installed at the Information Technology Center. Thereafter, the device virtually connects to the UTNET - the University of Tokyo campus network.
 
 To use UTokyo VPN, first install AnyConnect, a VPN client application, on your device. When the installed application is launched, it connects to the VPN gateway through the UTokyo Account authentication process, allowing communication from the device to the outside world through UTNET via VPN.
 
@@ -31,10 +31,14 @@ You cannot access e-journals and e-books subscribed by the University of Tokyo L
 ### Information Security Education
 {:#information-security-education}
 
-At the University of Tokyo, we conduct information security education for everyone with a UTokyo Account each year. You will be notified when the implementation period arrives, so please ensure to pass the test. For details about the timing and the procedure of the course, kindly refer to the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">Information Security Education page</a>.
+UTokyo VPN is only available to users who have completed the Information Security Education. Information Security Education is held annually for all UTokyo Account holders with the aim of improving [Information Security at UTokyo](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Home.aspx). For details about the timing and the procedure of the course, kindly refer to the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) page.
 
--  If you don't complete the information security education within the implementation period, your privilege to use the UTokyo VPN will be suspended.
-- If your access gets suspended, please ensure to undergo the information security education. The suspension on your access will be instantly lifted the moment you succeed in the confirmation test.
+- If you don't complete the Information Security Education within the implementation period, your privilege to use the UTokyo VPN will be suspended. Specifically, you will no longer be able to install the application required to use the UTokyo VPN. Furthermore, even if you have already installed it, you will no longer be able to connect to the UTokyo VPN.
+
+- If your access gets suspended, please ensure to undergo the Information Security Education. As soon as you pass the confirmation test, the suspension of your  access will be restored immediately. 
+
+- For those who are newly enrolled and appointed, complete the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) and pass the confirmation test in order to start using UTokyo VPN. Please complete the Information Security Education before starting to use the UTokyo VPN.
+
 
 ### Enable Multi-factor Authentication
 {:#mfa}
