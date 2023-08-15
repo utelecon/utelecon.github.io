@@ -4,7 +4,7 @@ title: UTokyo Slack (Trial)
 
 ## What is UTokyo Slack?
 
-The University of Tokyo is introducing the business chat tool "Slack" as part of developments of a communication environment that covers a wide range of university activities and has been operating a trial version as "UTokyo Slack" since August 2022.
+The University of Tokyo (UTokyo) is introducing the business chat tool "Slack" as part of developments of a communication environment that covers a wide range of university activities and has been operating a trial version as "UTokyo Slack" since August 2022.
 
 UTokyo Slack is a university-wide subscription to the "Enterprise Grid" plan of Slack, which is available to all university members. Although Slack may basically be used free of charge, under this paid plan, users can access past messages indefinitely, and use additional features such as multi-person "Huddle meetings", "User groups" and a "Workflow builder".
 
