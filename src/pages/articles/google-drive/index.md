@@ -120,6 +120,11 @@ ECCSクラウドメールはGoogle Workspaceの有料のアカウントであり
 
 ## 共有ドライブにおける共有の方法
 
+<strong class="box">
+  2023年8月に，ECCSクラウドメールで共有ドライブを作成する方法が変更されています．この記事の説明はそれ以前のものです．
+  新しい作成方法については「<a href="https://www.ecc.u-tokyo.ac.jp/storage_mgt/index.html">ECCSストレージ管理システム</a>」をご覧ください．
+</strong>
+
 実際の授業で使える，資料共有までの流れを例に説明します．グループワーク等の際に活用してみてください．
 
 1. **共有ドライブを作成する**： [マイドライブ - Google ドライブ](https://drive.google.com/drive/u/0/my-drive)からGoogle アカウント（大学のECCSクラウドメールのアカウント）を用いてログインした後，共有ドライブを選択して，新規共有フォルダを作成します．<img src="pic4.png">
