@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
+    "dev:poll": "USE_POLLING=1 astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
