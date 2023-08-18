@@ -22,15 +22,21 @@ UTokyo Accountの多要素認証では，多くのシステムでFIDOに対応�
 ### 一部のOS・ブラウザでは使えません
 {:#unsupported-os-browser}
 
-FIDOは，iOSのSafariやAndroidのGoogle Chrome，macOSのSafariなど一部のOSとブラウザの組み合わせでは利用できません．2023年5月時点で利用できるOSとブラウザの組み合わせは，以下の通りです．
+FIDOは，iOSのSafariやAndroidのGoogle Chrome，macOSのSafariなど一部のOSとブラウザの組み合わせでは利用できません．2023年8月時点で利用できるOSとブラウザの組み合わせは，以下の通りです．
 
 - Windows - Google Chrome
 - Windows - Microsoft Edge
 - Windows - Firefox
 - macOS - Google Chrome
 - macOS - Microsoft Edge
+- macOS - Firefox
+- macOS - Safari
 - ChromeOS - Google Chrome
 - Linux - Google Chrome
+- iOS - Google Chrome
+- iOS - Microsoft Edge
+- iOS - Firefox
+- iOS - Safari
 
 利用できるOSとブラウザの組み合わせについての詳細は，Microsoft社の「[サポートされているブラウザ](https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/fido2-compatibility#supported-browsers)」のページを参照してください．
 
