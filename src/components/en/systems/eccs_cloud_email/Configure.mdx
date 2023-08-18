@@ -4,25 +4,20 @@ import Help from "@components/Help.astro";
 {/**
   * @typedef {object} Props
   * @property {boolean} support
-  * @property {boolean} [movie]
   * @property {boolean} [detailsLink]
   */}
 
-<If cond={props.movie}>
-  - [Procedure video (in Japanese)](/oc/movies#google)
-</If>
-
-1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) and enter the username and password of UTokyo Account to log in.
+1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) and enter the username and password for your UTokyo Account to log in.
 2. Click "ECCS Cloud Email (password)" on the left and then open the password-setting screen. This password is only for your ECCS Cloud Email.
 3. Click "ECCS Cloud Email (mail address)" on the left to open the email address setting page. Enter your preferred username in the "Email Address" field and click "SAVE".
 
 <ul>
   <If cond={props.detailsLink}>
-    <li>For the basic use of the ECCS Cloud Email (e.g., login, checking emails), please see the below [ECCS Cloud Email section](#google).</li>
+    <li>For basic use of the ECCS Cloud Email (e.g., login, checking emails), please see the [ECCS Cloud Email section](#google) below.</li>
   </If>
   <li>
     <Help lang="en" support={props.support}>
-      - **Error message "EX-076 An error has occurred. EX-079 It can't be set for New Password because the Directory already has the same attribute value."**: This message appears due to restrictions on ECCS Cloud Email passwords which require the password to be different from the old password and not contain any part of the password or username (10-digit number) of your UTokyo Account. Please change your password accordingly to avoid this error message.
+      - **Error message "EX-076 An error has occurred. EX-079 It can't be set for New Password because the Directory already has the same attribute value."**: This message appears due to restrictions on ECCS Cloud Email passwords which require passwords to be different from the old password and not contain any part of the password or username (10-digit number) of your UTokyo Account. Please change your password accordingly to avoid this error message.
     </Help>
   </li>
 </ul>
