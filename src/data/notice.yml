@@ -3,6 +3,15 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2023-08-09
+  content:
+    ja: "[【復旧】UTokyo Account認証の不具合について](/notice/2023/0809-utokyo-account)"
+    en: "[[Recovered] UTokyo Account Authentication Failures (in Japanese)](/notice/2023/0809-utokyo-account)"
+-
+  date: 2023-08-07
+  content:
+    ja: "[情報システムゼミ「Webex の便利な使い方…こんなときどうすればいいの？」スライド資料](/webex#情報システムゼミwebex-の便利な使い方こんなときどうすればいいの2023年7月26日スライド資料)を掲載しました．"
+-
   date: 2023-07-25
   content:
     ja: "[【ECCSクラウドメール】共有ドライブの代表責任者登録のお願い](https://www.ecc.u-tokyo.ac.jp/announcement/2023/07/25_3553.html)"

@@ -6,7 +6,9 @@ title: UTokyo Account多要素認証におけるFIDOセキュリティキーの�
 
 ## はじめに
 
-このページでは，UTokyo Accountの多要素認証にFIDOセキュリティキーを利用する方法について，注意事項や登録方法，利用方法について説明しています．FIDO（Fast IDentity Online）とは，オンラインサービスでのサインインのセキュリティ向上のために普及が進められている新しい技術の一つであり，パスワードやPINのような秘密情報をサーバーと共有せずにサインインを行うため情報漏洩のリスクが低く，ブラウザ以外にアプリなどを必要とせずスムーズに操作できる点で利便性が高いサインイン方法です．なお，FIDOはセキュリティキーと呼ばれる専用の機器を用いる方法とパソコンやスマホに保存された情報を用いるパスキーという方法の2種類に大別されますが，UTokyo Accountの多要素認証では，現時点ではFIDOにパスキーは利用できず，YubiKeyなどのセキュリティキーのみが利用可能ですので，セキュリティキーを自身で購入してご利用ください．
+このページでは，UTokyo Accountの多要素認証にFIDOセキュリティキーを利用する方法について，注意事項や登録方法，利用方法について説明しています．FIDO（Fast IDentity Online）とは，オンラインサービスでのサインインのセキュリティ向上のために普及が進められている新しい技術の一つであり，パスワードやPINのような秘密情報をサーバーと共有せずにサインインを行うため情報漏洩のリスクが低く，ブラウザ以外にアプリなどを必要とせずスムーズに操作できる点で利便性が高いサインイン方法です．
+
+なお，FIDOはセキュリティキーと呼ばれる専用の機器を用いる方法とパソコンやスマホに保存された情報を用いるパスキーという方法の2種類に大別されますが，UTokyo Accountの多要素認証では，現時点ではFIDOにパスキーは利用できず，YubiKeyなどのセキュリティキーのみが利用可能ですので，セキュリティキーを自身で購入してご利用ください．その際，利用可能なセキュリティキーは「FIDO 2」規格に対応したセキュリティキーとなりますので，注意してください．
 
 ## 注意事項
 
@@ -20,15 +22,21 @@ UTokyo Accountの多要素認証では，多くのシステムでFIDOに対応�
 ### 一部のOS・ブラウザでは使えません
 {:#unsupported-os-browser}
 
-FIDOは，iOSのSafariやAndroidのGoogle Chrome，macOSのSafariなど一部のOSとブラウザの組み合わせでは利用できません．2023年5月時点で利用できるOSとブラウザの組み合わせは，以下の通りです．
+FIDOは，iOSのSafariやAndroidのGoogle Chrome，macOSのSafariなど一部のOSとブラウザの組み合わせでは利用できません．2023年8月時点で利用できるOSとブラウザの組み合わせは，以下の通りです．
 
 - Windows - Google Chrome
 - Windows - Microsoft Edge
 - Windows - Firefox
 - macOS - Google Chrome
 - macOS - Microsoft Edge
+- macOS - Firefox
+- macOS - Safari
 - ChromeOS - Google Chrome
 - Linux - Google Chrome
+- iOS - Google Chrome
+- iOS - Microsoft Edge
+- iOS - Firefox
+- iOS - Safari
 
 利用できるOSとブラウザの組み合わせについての詳細は，Microsoft社の「[サポートされているブラウザ](https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/fido2-compatibility#supported-browsers)」のページを参照してください．
 

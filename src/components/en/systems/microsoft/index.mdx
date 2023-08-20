@@ -1,0 +1,27 @@
+import If from "@components/If.astro";
+import Signin from "./Signin.mdx";
+import Access from "./Access.mdx";
+import InstallApps from "./InstallApps.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  */}
+
+<ul class="procedure">
+  <If cond={props.variant === "oc"}>
+    <li>[Procedure video (in Japanese)](/oc/movies#microsoft)</li>
+  </If>
+  <li>
+    **Check: Sign in**
+    <Signin support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Check: Make sure you can access UTokyo member-only pages**
+    <Access support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Optional task: Install Word or Excel on your computer** (you can use the one you have already installed)
+    <InstallApps support={props.variant === "oc"} />
+  </li>
+</ul>
