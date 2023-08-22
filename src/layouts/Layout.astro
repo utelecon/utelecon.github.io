@@ -55,8 +55,6 @@ const {
   author,
 } = frontmatter;
 
-const metaTitle = title ? title + " | utelecon" : "utelecon";
-
 const htmlAttributes = {
   en: {
     lang: "en",
@@ -72,7 +70,6 @@ const locale = {
   ja: "ja_JP",
 }[lang];
 
-const siteName = "utelecon";
 const gaid = "UA-160716658-1";
 ---
 
@@ -80,11 +77,14 @@ const gaid = "UA-160716658-1";
 <html {...htmlAttributes}>
   <head>
     <SEO
+      title={title}
+      titleTemplate="%s | utelecon"
+      titleDefault="utelecon"
       description={description ?? createDefaultDescription(lang, headings)}
       charset="UTF-8"
       openGraph={{
         basic: {
-          title: title ?? "",
+          title: title,
           type: "website",
           url: Astro.url.href,
           image: new URL("/assets/images/ogp.png", Astro.site).href,
@@ -92,7 +92,7 @@ const gaid = "UA-160716658-1";
         optional: {
           description,
           locale,
-          siteName,
+          siteName: "utelecon",
         },
         image: {
           alt: "utelecon",
@@ -120,7 +120,6 @@ const gaid = "UA-160716658-1";
       async
       src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
     ></script>
-    <title>{metaTitle}</title>
   </head>
   <body>
     <Header lang={lang} top={top} />
