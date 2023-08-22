@@ -45,7 +45,7 @@ function createDefaultDescription(
 
 const { frontmatter, headings } = Astro.props;
 const {
-  title: rawTitle,
+  title,
   description,
   lang,
   toc = true,
@@ -55,7 +55,7 @@ const {
   author,
 } = frontmatter;
 
-const title = rawTitle ? rawTitle + " | utelecon" : "utelecon";
+const metaTitle = title ? title + " | utelecon" : "utelecon";
 
 const htmlAttributes = {
   en: {
@@ -120,7 +120,7 @@ const gaid = "UA-160716658-1";
       async
       src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
     ></script>
-    <title>{title}</title>
+    <title>{metaTitle}</title>
   </head>
   <body>
     <Header lang={lang} top={top} />
