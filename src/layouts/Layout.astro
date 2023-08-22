@@ -84,7 +84,7 @@ const gaid = "UA-160716658-1";
       charset="UTF-8"
       openGraph={{
         basic: {
-          title,
+          title: title ?? "",
           type: "website",
           url: Astro.url.href,
           image: new URL("/assets/images/ogp.png", Astro.site).href,
