@@ -45,7 +45,7 @@ function createDefaultDescription(
 
 const { frontmatter, headings } = Astro.props;
 const {
-  title = "utelecon",
+  title: rawTitle,
   description,
   lang,
   toc = true,
@@ -54,6 +54,8 @@ const {
   support,
   author,
 } = frontmatter;
+
+const title = rawTitle ? rawTitle + " | utelecon" : "utelecon";
 
 const htmlAttributes = {
   en: {
