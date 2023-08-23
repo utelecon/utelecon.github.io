@@ -1,12 +1,18 @@
 # @components/README
 
-ここでは，このフォルダにあるコンポーネントについて説明します．コンポーネントを作成する際は，まずこの説明を読んでから作成してください．
+ここでは，`@components`（このフォルダ，`src/components`のことです）にあるコンポーネントについて説明します．コンポーネントを作成する際は，まずこの説明を読んでから作成してください．
+
+コンポーネントはHTMLの要素を返す関数で，複数ページに記述されている内容を共通化したり，そのようなコンポーネントを作るために使われたりします．またコンポーネントには，言語（日本語と英語）に依存しないもの，言語をpropで受け取って出し分けるもの，言語ごとに別々に定義されているものの3種類があります．
 
 このファイルの説明は，Markdownに関する基礎知識に加え，以下の2つのドキュメントを読んでいることを前提としています：
 - [What is MDX?](https://mdxjs.com/docs/what-is-mdx/)：MDXに関する基本的な説明
 - [スロット](https://docs.astro.build/ja/core-concepts/astro-components/#スロット)：Astroのコンポーネントに子要素を埋め込む「スロット」に関する説明
 
-## [`types.ts`](types.ts)
+## コンポーネントを作るために使うコンポーネント等
+
+### [`types.ts`](types.ts)
+
+以下の2つの型（コンポーネントがどのようなpropを受け取るかという情報）は複数のコンポーネントの引数として利用されるため，このファイルで定義したものをそれぞれのコンポーネントで参照しています．
 
 - `Lang`：uteleconポータルサイトが対応する言語です．日本語 (`"ja"`) と英語 (`"en"`) です．
 - `Variant`：`systems/`以下のコンポーネントが使われるページの種類です．
@@ -14,11 +20,11 @@
   - `faculty_members`：[`/faculty_members/`](../pages/faculty_members/index.mdx)です．
   - `individual`：各サービスの個別ページです．[`/utokyo_account/`](../pages/utokyo_account/index.mdx)などです．
 
-## 条件分岐コンポーネント
+### 条件分岐コンポーネント
 
 条件によって表示される内容を変えるコンポーネントです．**三項演算子などを回避するために利用します**．**特に`.mdx`では三項演算子等を利用すると非常に読みづらくなる**ため，積極的に利用してください．これらのコンポーネントは言語に依存しません（prop `lang`を取りません）．[`utils`](utils)にあります．
 
-### [`If`](utils/If.astro)
+#### [`If`](utils/If.astro)
 
 利用例：[`systems/utokyo_account/ChangePassword.mdx`](systems/utokyo_account/ChangePassword.mdx)
 
@@ -47,7 +53,7 @@ prop `cond`がtrueの場合だけ中身の要素が表示されます．また�
 真の場合の内容
 ```
 
-### [`Switch`](utils/Switch.astro)
+#### [`Switch`](utils/Switch.astro)
 
 利用例：[`systems/utokyo_account/ChangePassword.mdx`](systems/utokyo_account/ChangePassword.mdx)
 
@@ -64,7 +70,7 @@ prop `variant`の値によって，表示する要素が切り替わります．
 </Switch>
 ```
 
-注：`BlockIALPlugin`により，`.md`および`.mdx`では任意の属性を上のようなsyntaxで指定できます．これは`.astro`で用いられる`slot`属性も含まれます．よって，上の例で`props.variant === "oc"`のときは以下のHTMLが出力されます：
+注：`BlockIALPlugin`により，`.md`および`.mdx`では任意の属性を上のようなsyntaxで指定できます．これは`.astro`で用いられる`slot`属性も含まれます．よって，上の例で`props.variant === "individual"`のときは以下のHTMLが出力されます：
 ```html
 <ul>
   <li>学生向けの内容</li>
@@ -72,27 +78,11 @@ prop `variant`の値によって，表示する要素が切り替わります．
 </ul>
 ```
 
-## `@components/{ja/en}systems` にあるコンポーネント
-
-`@components/{ja,en}/systems`の直下には，システム名を冠するフォルダだけが置いてあり，それぞれのフォルダには以下のようなコンポーネントが定義されています．これらのコンポーネントは言語ごとに別々に定義されています（prop `lang`を取りません）．フォルダ名・ファイル名やコンポーネントの構造は言語間で共通です．
-
-### 「基本単位」
-
-`@components/{ja,en}/systems`にあるコンポーネント群のうち，1つの`<ol>`を含むコンポーネントが「基本単位」のコンポーネントです．**`@components/{ja,en}/systems`は，システム等の基本的な手順の説明を，この基本単位で分割して整理・共通化することを目的としています**．例えば[`ja/systems/utokyo_account/ChangePassword.mdx`](ja/systems/utokyo_account/ChangePassword.mdx)は，1つの`<ol>`で「UTokyo Accountのパスワードを変更する」という作業の手順を説明しており，手順を複数のページで掲載するために利用されています．
-
-### `index.mdx`
-
-**各システムの`index.mdx`は，基本単位のコンポーネントを1つの`<ul>`に束ね，`/oc/`で表示することを目的としています**．さらに，`/oc/#important`で説明されるシステムの`index.mdx`は，後述の[`Important`](#important)を利用して，`/oc/#important`と`/oc/#others`で説明を共通化する責務をも帯びています．
-
-### その他
-
-その他，後述の[`HelpItem`](#helpitem)を利用した共通化が必要な場合など，基本単位よりも細かいコンポーネントを作成し，基本単位のコンポーネントで利用することがあります．
-
-## `@components/{ja,en}/systems`で利用するコンポーネント
+### `@components/{ja,en}/systems`で利用するコンポーネント
 
 `@components/{ja,en}/systems`のコンポーネントを作るために利用するコンポーネントです．コンポーネントの作成を簡潔にするだけでなく，ポータルサイトを読む利用者が不要な違和感なく読めるように見え方を統一する役割もあります．積極的に利用してください．これらのコンポーネントは言語間で共通化されています（prop `lang`を取ります）．[`utils`](utils)にあります．
 
-### [`Important`](utils/Important.astro)
+#### [`Important`](utils/Important.astro)
 
 利用例：[`ja/systems/utokyo_account/index.mdx`](ja/systems/utokyo_account/index.mdx)
 
@@ -103,13 +93,13 @@ prop `variant`の値によって，表示する要素が切り替わります．
 
 **`slot="important"`以外の要素は`<li>`に包む必要があります**．**`slot="important"`の要素は`<li>`に包まないでください**．
 
-### [`Help`](utils/Help.astro)
+#### [`Help`](utils/Help.astro)
 
 利用例：[`ja/systems/eccs_cloud_email/Access.mdx`](ja/systems/eccs_cloud_email/Access.mdx)
 
 手順の末尾にトラブルシュート情報を折りたたみで表示するために利用します．`lang`を指定してください．`support`がtrueの場合，中身の後にサポート窓口に案内する文章が表示されます．
 
-### [`HelpItem`](utils/HelpItem.astro)
+#### [`HelpItem`](utils/HelpItem.astro)
 
 利用例：[`ja/systems/zoom/SigninBrowserHelpExisting.mdx`](ja/systems/zoom/SigninBrowserHelpExisting.mdx)
 
@@ -117,18 +107,36 @@ prop `variant`の値によって，表示する要素が切り替わります．
 `slot="problem"`に想定される問題を，`slot="solution"`にその解決方法を書いてください．**いずれもインライン要素として渡すため，`Fragment`を利用してください**．
 その他の中身は，折りたたみの場合だけ表示されます．
 
-### [`Support`](utils/Support.astro)
+#### [`Support`](utils/Support.astro)
 
 利用例：[`ja/systems/utokyo_account/ChangePassword.mdx`](ja/systems/utokyo_account/ChangePassword.mdx)
 
 サポート窓口に案内する文章を表示するために利用します．`lang`を指定してください．`show`がtrueの場合のみ表示されます．
 
-## 特殊なコンポーネント
+### 特殊なコンポーネント
 
-### [`Markdown`](utils/Markdown.astro)
+#### [`Markdown`](utils/Markdown.astro)
 
 [`@data`](../data)以下，またはフロントマターにMarkdownで定義されているデータを表示するために利用します．prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示されます．**コンポーネントからコンポーネントにマークアップを渡すために利用しないでください**．代わりに，
 - `.mdx`のコンポーネントに渡す場合：`props`に`JSX.Element`を渡して，`{props.hoge}`として埋め込んでください．
   - 例：[`systems/utokyo_wifi/Apply.mdx`](systems/utokyo_wifi/Apply.mdx)
 - `.astro`のコンポーネントに渡す場合：`slot`を利用してください．
   - 例：[`HelpItem`](HelpItem.astro)
+
+## 複数ページで記述されている内容を共通化するコンポーネント
+
+### 各システムの基本的な手順を説明するコンポーネント
+
+`@components/{ja,en}/systems`の直下には，システム名を冠するフォルダだけが置いてあり，それぞれのフォルダには以下のようなコンポーネントが定義されています．これらのコンポーネントは言語ごとに別々に定義されています（prop `lang`を取りません）．フォルダ名・ファイル名やコンポーネントの構造は言語間で共通です．
+
+#### 「基本単位」
+
+`@components/{ja,en}/systems`にあるコンポーネント群のうち，1つの`<ol>`を含むコンポーネントが「基本単位」のコンポーネントです．**`@components/{ja,en}/systems`は，システム等の基本的な手順の説明を，この基本単位で分割して整理・共通化することを目的としています**．例えば[`ja/systems/utokyo_account/ChangePassword.mdx`](ja/systems/utokyo_account/ChangePassword.mdx)は，1つの`<ol>`で「UTokyo Accountのパスワードを変更する」という作業の手順を説明しており，手順を複数のページで掲載するために利用されています．
+
+#### `index.mdx`
+
+**各システムの`index.mdx`は，基本単位のコンポーネントを1つの`<ul>`に束ね，`/oc/`で表示することを目的としています**．さらに，`/oc/#important`で説明されるシステムの`index.mdx`は，後述の[`Important`](#important)を利用して，`/oc/#important`と`/oc/#others`で説明を共通化する責務をも帯びています．
+
+#### その他
+
+その他，後述の[`HelpItem`](#helpitem)を利用した共通化が必要な場合など，基本単位よりも細かいコンポーネントを作成し，基本単位のコンポーネントで利用することがあります．
