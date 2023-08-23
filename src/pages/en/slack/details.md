@@ -40,7 +40,7 @@ As UTokyo Slack is used by signing in with your UTokyo Account, if your UTokyo A
 
 However, if you need to continue to use the same account for university activities such as education and research, we will "switch" your UTokyo Slack account to a new UTokyo Account. If you wish to do so, please follow the procedures below.
 
-1. Before your original UTokyo Account is revoked , please sign in to your original UTokyo Account, access the [contact form](https://forms.office.com/r/riuix8ivhh) and submit your request for a “switch” with a reason for the request.
+1. Before your original UTokyo Account is revoked, please sign in to your original UTokyo Account, access the [contact form](https://forms.office.com/r/riuix8ivhh) and submit your request for a “switch” with a reason for the request.
 
 2. After your new UTokyo Account becomes available, please sign in to your new UTokyo Account, access the [contact form](https://forms.office.com/r/riuix8ivhh), and submit your request for a “switch”  with your original UTokyo Account username (10-digit Common ID).
 
@@ -68,7 +68,7 @@ Although Slack provides a paid "Guest" feature, it is not available on UTokyo Sl
 ### What is a "multi-workspace channel"?
 {:#mwsc-about}
 
-"Multi-workspace channel" is a feature that allows multiple workspaces to work together within UTokyo Slack, creating a shared channel among workspaces. Normally, a Slack channel belongs to a single workspace, but by sharing a channel using the "multi-workspace channel" feature, it becomes as if a single channel exists in common in multiple workspaces. This allows members in different workspaces to communicate across workspaces. While similar to the "[Connect](workspace/connect)" feature, for sharing a channel among workspaces in UTokyo Slack, it is supposed to use the "multi-workspace channels" feature instead of "Connect" feature.
+"Multi-workspace channel" is a feature that allows multiple workspaces to work together within UTokyo Slack, creating a shared channel among workspaces. Normally, a Slack channel belongs to a single workspace, but by sharing a channel using the "multi-workspace channel" feature, it becomes as if a single channel exists in common in multiple workspaces. This allows members in different workspaces to communicate across workspaces. While similar to the "[Connect](en/workspace/connect)" feature, for sharing a channel among workspaces in UTokyo Slack, it is supposed to use the "multi-workspace channels" feature instead of "Connect" feature.
 
 Certain specifications of the “multi-workspace channel” feature affect the use of the entire UTokyo Slack. Once a channel is set as a multi-workspace channel, a channel with the same name will no longer be available in all UTokyo Slack workspaces. For this reason, we have established certain operation rules for UTokyo Slack, and we ask you to use them in a constrained manner.
 
@@ -98,73 +98,20 @@ If there is a problem caused by the unavailability of a channel name, please con
 ### Details of operational rules (e.g., procedures for changes)
 {:#mwsc-rule-details}
 
-If you need to make changes to a channel that is shared by the multi-workspace channel feature, please proceed using the contact form (even if you can do it on the Slack screen, please be sure to use the form, not to do it on the Slack screen).
-マルチワークスペースチャンネル機能で共有されているチャンネルに関し，変更の必要な事項がある場合は，連絡フォームから手続きしてください（Slackの画面上で操作ができる場合でも行わず，必ずフォームを利用してください）．
-
-
-
-The specific changes are the following.
-Change of channel name: The person responsible for the representative workspace should contact us.
-Change of representative workspace: The persons responsible for both the old and the new representative workspace should contact us. Please also change the channel name at the same time to satisfy the channel name rules.
-Addition of a workspace that shares a channel with: The persons responsible for both the representative workspace and the workspace you wish to add should contact us respectively.
-Withdrawal of a workspace that shares a channel with: The person responsible for either the representative workspace or the workspace you wish to withdraw should contact us. If you wish to withdraw the representative workspace, you must assign a new representative workspace and  do a change of representative workspace as well.
-具体的な変更の内容は，次のようなものです．
-チャンネル名の変更：代表ワークスペースの責任者から連絡してください．
-代表ワークスペースの変更：新旧の代表ワークスペース双方の責任者からそれぞれ連絡してください．また，チャンネル名のルールを満たすよう，チャンネル名の変更を同時に行ってください．
-チャンネルを共有するワークスペースの追加：代表ワークスペースおよび追加したいワークスペース双方の責任者からそれぞれ連絡してください．
-チャンネルが共有されているワークスペースの脱退：代表ワークスペースまたは脱退するワークスペースどちらかの責任者から連絡してください．代表ワークスペースが脱退したい場合は，新たな代表ワークスペースを定め，同時に代表ワークスペースの変更も行ってください．
-
-
-
-The "person responsible for the workspace" who should contact us is the person who has the owner or administrator role in the workspace.
-連絡を行っていただく「ワークスペースの責任者」とは，そのワークスペースでオーナーまたは管理者の権限をお持ちの方のことです．
-
-
-
-When contacting us, please inform us of the contents of the change, as well as the channel name and channel ID of the channel that requires the change.
-連絡の際は，変更内容のほか，変更が必要なチャンネルのチャンネル名・チャンネルIDをお知らせください．
-
-
-
-Changes that would cause deviation from the rules for channel names, etc., are not allowed.
-変更によってチャンネル名などのルールを逸脱することになるような変更はできません．
-
-
-
-If you wish to change the workspace URL of the representative workspace of a channel shared by the multi-workspace channel feature, please proceed using the contact form instead of operating on the Slack screen.
-マルチワークスペースチャンネル機能で共有されているチャンネルの代表ワークスペースがワークスペースURLを変更したい場合は，Slackの画面上で操作で行うのではなく，連絡フォームから手続きしてください．
-
-
-
-When contacting us, please inform us of the old and new URLs. Also note that the person responsible for the workspace (who has the owner or administrator role) should contact us.
-連絡の際は，新旧のURLの情報をお知らせください．また，そのワークスペースの責任者（オーナーまたは管理者の権限をお持ちの方）から連絡してください．
-
-
-
-It is based on the premise that renaming of a shared channel should be done at the same time to satisfy the channel name rule.
-チャンネル名のルールを満たすように，共有チャンネルのチャンネル名変更を同時に行うことを前提とします．
-
-
-
-When workspaces are withdrawn from a channel shared by the multi-workspace channel feature, and there is only one sharing (participating) workspace, the rules of channel name, etc., will continue to apply. This is due to the specification of Slack, which continues to restrict the use of the same channel name as that channel in UTokyo Slack. Please note that there is no way to change the channel back to a non-multi-workspace channel (in other words, the channel cannot be returned to a state where the rule does not apply).
-マルチワークスペースチャンネル機能で共有されているチャンネルからワークスペースが脱退し，共有されている（参加している）ワークスペースが1つになった場合も，チャンネル名などのルールは引き続き適用されるものとします．そのチャンネルと同じチャンネル名がUTokyo Slack内で使えないという制約が継続してしまうというSlackの仕様のためです．マルチワークスペースチャンネルではない状態（ルールが適用されない状態）に戻す方法はありませんので，ご了承ください．
-
-
-
-Even if you "archive" a channel that is shared by the multi-workspace channel feature, the restriction that the same channel name as that channel cannot be used in UTokyo Slack will continue. For management reasons based on this, please do not "archive" a channel.
-マルチワークスペースチャンネル機能で共有されているチャンネルを「アーカイブ」しても，そのチャンネルと同じチャンネル名がUTokyo Slack内で使えない制約は継続してしまいます．このことを踏まえた管理の都合上，「アーカイブ」の操作は行わないようお願いします．
-
-
-
-It is fine to perform the "Delete" operation, so please consider using that instead. However, note that “delete" differs from “archive" in that you will not be able to see the messages of the channel after the operation.
-「削除」の操作は差し支えありませんので，代わりにこちらを利用できないか検討してください．ただし「削除」では，「アーカイブ」と異なって，操作後はそのチャンネルのメッセージを参照することができなくなりますので，ご注意ください．
-
-
-
-If you absolutely need to perform an "archive" operation instead of a "delete" operation, the person responsible for the representative workspace should contact us using the contact form.
-どうしても「削除」ではなく「アーカイブ」の操作が必要な場合，代表ワークスペースの責任者から連絡フォームでご相談ください．
-
-
-
-The multi-workspace channel feature and the "Connect" feature can be used together. If you wish to share a channel among multiple workspaces within UTokyo Slack and external workspaces (outside of UTokyo Slack), you will need to use the two features together. Please follow the procedures and operations for each feature.
-マルチワークスペースチャンネル機能と「コネクト」機能は併用が可能です．外部（UTokyo Slack）以外のワークスペースとUTokyo Slack内の複数のワークスペースとの間でチャンネルを共有したい場合は，2つの機能を併用する形で利用することになります．それぞれの機能の手続き・操作を行ってください．
+- If you need to make changes to a channel that is shared by the multi-workspace channel feature, please proceed using the [contact form](https://forms.office.com/r/riuix8ivhh) (even if you can do it on the Slack screen, please be sure to use the form, not to do it on the Slack screen).
+    - The specific changes are the following.
+        - Change of channel name: The person responsible for the representative workspace should contact us.
+        - Change of representative workspace: The persons responsible for both the old and the new representative workspace should contact us. Please also change the channel name at the same time to satisfy the channel name rules.
+        - Addition of a workspace that shares a channel with: The persons responsible for both the representative workspace and the workspace you wish to add should contact us respectively.
+        - Withdrawal of a workspace that shares a channel with: The person responsible for either the representative workspace or the workspace you wish to withdraw should contact us. If you wish to withdraw the representative workspace, you must assign a new representative workspace and  do a change of representative workspace as well.
+    - The "person responsible for the workspace" who should contact us is the person who has the owner or administrator role in the workspace.
+    - When contacting us, please inform us of the contents of the change, as well as the channel name and channel ID of the channel that requires the change.
+    - Changes that would cause deviation from the rules for channel names, etc., are not allowed.
+- If you wish to change the workspace URL of the representative workspace of a channel shared by the multi-workspace channel feature, please proceed using the [contact form](https://forms.office.com/r/riuix8ivhh) instead of operating on the Slack screen.
+    - When contacting us, please inform us of the old and new URLs. Also note that the person responsible for the workspace (who has the owner or administrator role) should contact us.
+    - It is based on the premise that renaming of a shared channel should be done at the same time to satisfy the channel name rule.
+- When workspaces are withdrawn from a channel shared by the multi-workspace channel feature, and there is only one sharing (participating) workspace, the rules of channel name, etc., will continue to apply. This is due to the specification of Slack, which continues to restrict the use of the same channel name as that channel in UTokyo Slack. Please note that there is no way to change the channel back to a non-multi-workspace channel (in other words, the channel cannot be returned to a state where the rule does not apply).
+- Even if you "archive" a channel that is shared by the multi-workspace channel feature, the restriction that the same channel name as that channel cannot be used in UTokyo Slack will continue. For management reasons based on this, please do not "archive" a channel.
+    - It is fine to perform the "Delete" operation, so please consider using that instead. However, note that “delete" differs from “archive" in that you will not be able to see the messages of the channel after the operation.
+    - If you absolutely need to perform an "archive" operation instead of a "delete" operation, the person responsible for the representative workspace should contact us using the [contact form](https://forms.office.com/r/riuix8ivhh).
+    - The multi-workspace channel feature and the "Connect" feature can be used together. If you wish to share a channel among multiple workspaces within UTokyo Slack and external workspaces (outside of UTokyo Slack), you will need to use the two features together. Please follow the procedures and operations for each feature.
