@@ -9,6 +9,7 @@ import type { MDXLayoutProps, MarkdownHeading } from "astro";
 import Author, { Author as AuthorProps } from "@components/Author.astro";
 import Markdown from "@components/Markdown.astro";
 import type { Lang } from "@components/types";
+import { basename } from "path";
 
 interface Props extends MDXLayoutProps<Frontmatter> {}
 
@@ -43,7 +44,7 @@ function createDefaultDescription(
   );
 }
 
-const { frontmatter, headings } = Astro.props;
+const { frontmatter, headings, file } = Astro.props;
 const {
   title,
   description = createDefaultDescription(frontmatter.lang, headings),
@@ -72,6 +73,11 @@ const locale = {
 
 const gaid = "UA-160716658-1";
 
+const canonicalUrl = new URL(Astro.url);
+if (basename(file) !== "index") {
+  canonicalUrl.pathname = canonicalUrl.pathname.replace(/\/$/, "");
+}
+
 const seoProps: SEOProps = {
   title,
   titleTemplate: "%s | utelecon",
@@ -84,7 +90,7 @@ if (title) {
     basic: {
       title,
       type: "website",
-      url: Astro.url.href,
+      url: canonicalUrl.href,
       image: new URL("/assets/images/ogp.png", Astro.site).href,
     },
     optional: {
@@ -126,7 +132,7 @@ if (title) {
     ></script>
   </head>
   <body>
-    <Header lang={lang} top={top} />
+    <Header lang={lang} top={top} canonicalUrl={canonicalUrl} />
     <main id="content">
       {
         !top && (
