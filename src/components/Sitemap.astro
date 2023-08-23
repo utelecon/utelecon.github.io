@@ -95,7 +95,7 @@ const sections = { ja, en }[lang].map<Section>((section) => {
 });
 
 const meta = {
-  file: "src/pages/sitemap.astro",
+  file: `src/pages${{ en: "/en", ja: "" }[lang]}/sitemap.astro`,
   url: Astro.url.toString(),
 };
 ---
