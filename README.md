@@ -8,10 +8,8 @@ uteleconは，オンライン授業やWeb会議に関する情報をワンスト
 
 [Node.js](https://nodejs.org) が必要です．v18の最新版（LTS）をインストールしてください．
 
-```sh
-npm install
-npm run dev
-```
+- レポジトリをクローンしたら，まず`npm install`を実行します．
+- プレビューを開始するには，`npm run dev`を実行します．`^C`で終了します．
 
 ## Frontmatter
 
@@ -57,7 +55,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
 - 実装
   - [`DefaultFrontmatterPlugin.ts`](src/lib/DefaultFrontmatterPlugin.ts)で実現しています．Astroでは，レイアウトをMarkdownのフロントマターで指定します．このプラグインはRemarkプラグインで，Markdownのパース時にフロントマターに`layout`を指定または上書きすることで，要件を満たしています．
 
-### [IAL](https://kramdown.gettalong.org/syntax.html#block-ials)
+### [IAL (Inline Attribute Lists)](https://kramdown.gettalong.org/syntax.html#block-ials)
 
 - 概要
   - Markdown/MDX内で，`{:#id}`，`{:.class}`, `{:attribute="value"}`のような記法によって，変換されるHTMLの属性を追加することができます．
@@ -74,12 +72,12 @@ Markdownファイルのフロントマターにかける設定は以下の通り
 ### `*`を用いた強調の単純化
 
 - 概要
-  - Remarkでは，`*`や`_`を用いて太字や斜体を指定する文法が複雑です．具体的には，`*`や`_`の前後の文字が記号・空白・その他のいずれであるかによって挙動が変わります．
+  - Remarkでは，`*`や`_`を用いて太字や斜体を指定する文法が複雑です．例えば`文章の**ここだけ**を太字にする`というMarkdownは太字にならず，`文章の **ここだけ** を太字にする`などとする必要があります．
   - この機能は，そのような複雑な挙動を排し，単純に`*`や`_`で囲まれた文字列を太字や斜体にします．
 - 理由
-  - 多くのページで，太字や斜体の指定は単純な挙動に依存していました．これらを全て修正するのは非現実的でした．
+  - 多くのページで，太字や斜体の指定はKramdownの単純な挙動に依存していました．これらを全て修正するのは非現実的でした．
     - このような状態になっているのは，JekyllでKramdownが利用されていたためです．
-  - Remarkでは，例えば`文章の**ここだけ**を太字にする`というMarkdownは太字にならず，`文章の **ここだけ** を太字にする`などとする必要があります．日本語では単語間の区切りに空白を入れないため，このような記法は不自然です．
+  - 日本語では単語間の区切りに空白を入れないため，Remarkの記法は不自然です．
 - 実装
   - [`SimpleAttentionPlugin.js`](src/lib/SimpleAttentionPlugin.js)で実現しています．このプラグインはRemarkプラグインで，パーサーのうちトークナイザーの部分を上書きしています．
 
@@ -92,6 +90,8 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - 歴史的経緯により，元々存在したURLのページが削除され，別のURLのページに誘導すべき場合があります．この場合に，リダイレクトを1つのファイルで中央集権的に管理するよりも，各ページのfrontmatterで管理する方が簡潔です．
   - 多くのページで，リダイレクトの指定はfrontmatterによって行われていました．これらを全て修正するのは非現実的でした．
     - このような状態になっているのは，jekyll-redirect-fromが利用されていたためです．
+- 実装
+  - [`RedirectIntegration.ts`](src/lib/RedirectIntegration.ts)で実現しています．ここではAstroのビルド前に，`src/pages`内のファイルをすべて読んで設定ファイルの`redirects`に必要なエントリーを追加することで，Astroにリダイレクトに必要なページを生成させています．
 
 ### 外部リンクの処理
 
@@ -103,7 +103,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
 - 実装
   - [`ExternalLinksIntegration.ts`](src/lib/ExternalLinksIntegration.ts)で実現しています．ここでは，ビルド後に全てのHTMLファイルをRehypeで改めてパースし，[`rehype-external-links`](https://github.com/rehypejs/rehype-external-links)を適用しています．
 
-### 末尾のスラッシュについて
+### URL末尾のスラッシュについて
 
 - 概要
   - `src/pages`以下のページファイルで，`src/pages/oc/index.mdx`や`src/pages/systems/index.md`などの`index`ファイルは，`/oc/`や`/systems/`などの`index`を除いた`/`で終わるURLにマップされます．
@@ -158,4 +158,4 @@ redirect_to: "/oc/join#form"
 注
 - `redirect_to`は文字列で指定することができる
 - 基本的に`/`で始まるパスを指定する
-- リダイレクト先のページ内の特定の場所（例では`#form`）に飛ばしたいなど，特別の事情がなければ`redirect_from`の方が良い
+- リダイレクト先のページ内の特定の場所（例では`#form`）に飛ばしたい，外部のページに飛ばしたいなど，特別の事情がなければ`redirect_from`の方が良い
