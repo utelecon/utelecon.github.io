@@ -1,0 +1,25 @@
+import If from "@components/If.astro";
+import LoginAndConfirmEmail from "./LoginAndConfirmEmail.mdx";
+import Login from "./Login.mdx";
+import ConfirmEmail from "./ConfirmEmail.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {string} variant
+  * @property {boolean} [important]
+  */}
+
+<If cond={props.important}>
+  **UTAS: Log in to check if your email address has been registered**
+  <LoginAndConfirmEmail variant={props.variant} support={props.variant === "oc"} />
+
+  - <details>
+      <summary>(Repost)**Exercise: Login**</summary>
+      <Login variant={props.variant} support={props.variant === "oc"} />
+    </details>
+  - <details>
+      <summary>(Repost)**Check: Make sure your email address is registered**</summary>
+      <ConfirmEmail support={props.variant === "oc"} />
+    </details>
+  {:.procedure slot="else"}
+</If>

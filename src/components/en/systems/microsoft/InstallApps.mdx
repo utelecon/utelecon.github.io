@@ -1,0 +1,17 @@
+import Support from "@components/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+1. Go to the [Office 365 home page](https://portal.office.com/).
+2. The sign-in screen will appear if you are not already signed in. Enter your UTokyo Account email address (e.g., `1234567890@utac.u-tokyo.ac.jp`) and sign in, as explained above.
+3. Click "Install apps" in the upper right corner of the screen, and then click "Microsoft 365 apps".
+4. The subsequent steps will vary depending on the case. In some cases, the installation will proceed automatically, whereas in others, you may need to press the confirmation button or open the downloaded file yourself.
+5. Open the installed Word or Excel and click the "Sign In" button in the upper-left corner.
+6. On the sign-in screen that appears, enter your 10-digit Common ID (UTokyo Account username) followed by `@utac.u-tokyo.ac.jp` to indicate your affiliation with UTokyo (e.g., `1234567890@utac.u-tokyo.ac.jp`).
+7. Here, a screen may appear stating "Stay signed in to all your apps". In that case, uncheck the "Allow my organization to manage my device" checkbox in the screen and click "OK".
+8. Once you have signed in, you will be able to create/edit Word and Excel files.
+
+<Support lang="en" show={props.support} />

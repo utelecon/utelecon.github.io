@@ -1,0 +1,12 @@
+import Support from "@components/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+- Multi-factor authentication (MFA) is a security process in which users prove their identity using at least two pieces of evidence. In addition to passwords, users are asked to verify their identity via SMS, authentication applications, or other methods when signing into their accounts. At UTokyo, we are currently strongly recommending the enabling of MFA for your UTokyo Account to enhance security throughout the university.
+
+1. Please follow the setup procedures in the "[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)" page.
+
+<Support lang="en" show={props.support} />

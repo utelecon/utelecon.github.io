@@ -159,3 +159,7 @@ redirect_to: "/oc/join#form"
 - `redirect_to`は文字列で指定することができる
 - 基本的に`/`で始まるパスを指定する
 - リダイレクト先のページ内の特定の場所（例では`#form`）に飛ばしたい，外部のページに飛ばしたいなど，特別の事情がなければ`redirect_from`の方が良い
+
+## For developers
+
+`@components`に関するドキュメントが[`src/components/README.md`](src/components/README.md)にあります．

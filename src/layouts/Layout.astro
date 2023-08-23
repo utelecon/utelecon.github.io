@@ -1,23 +1,21 @@
 ---
-import { SEO } from "astro-seo";
+import { SEO, Props as SEOProps } from "astro-seo";
 import { GoogleAnalytics } from "@astrolib/analytics";
 import Header from "@components/Header/index.astro";
 import Footer from "@components/Footer/index.astro";
-import Toc from "@components/Toc/index.astro";
+import Toc from "@components/Toc.astro";
 import "@styles/global.scss";
-import type { MarkdownHeading } from "astro";
-import Author, { Author as AuthorProps } from "@components/Author/index.astro";
+import type { MDXLayoutProps, MarkdownHeading } from "astro";
+import Author, { Author as AuthorProps } from "@components/Author.astro";
 import Markdown from "@components/Markdown.astro";
+import type { Lang } from "@components/types";
 
-interface Props {
-  frontmatter: Frontmatter;
-  headings: MarkdownHeading[];
-}
+interface Props extends MDXLayoutProps<Frontmatter> {}
 
 export interface Frontmatter {
   title: string;
   description?: string;
-  lang: "ja" | "en";
+  lang: Lang;
   toc?: boolean;
   h1?: string;
   top?: boolean;
@@ -28,7 +26,7 @@ export interface Frontmatter {
 }
 
 function createDefaultDescription(
-  lang: "ja" | "en",
+  lang: Lang,
   headings: MarkdownHeading[]
 ): string {
   return (
@@ -47,8 +45,8 @@ function createDefaultDescription(
 
 const { frontmatter, headings } = Astro.props;
 const {
-  title = "utelecon",
-  description,
+  title,
+  description = createDefaultDescription(frontmatter.lang, headings),
   lang,
   toc = true,
   h1,
@@ -72,37 +70,43 @@ const locale = {
   ja: "ja_JP",
 }[lang];
 
-const siteName = "utelecon";
 const gaid = "UA-160716658-1";
+
+const seoProps: SEOProps = {
+  title,
+  titleTemplate: "%s | utelecon",
+  titleDefault: "utelecon",
+  description,
+  charset: "UTF-8",
+};
+if (title) {
+  seoProps.openGraph = {
+    basic: {
+      title,
+      type: "website",
+      url: Astro.url.href,
+      image: new URL("/assets/images/ogp.png", Astro.site).href,
+    },
+    optional: {
+      description,
+      locale,
+      siteName: "utelecon",
+    },
+    image: {
+      alt: "utelecon",
+    },
+  };
+  seoProps.twitter = {
+    title,
+    description,
+  };
+}
 ---
 
 <!DOCTYPE html>
 <html {...htmlAttributes}>
   <head>
-    <SEO
-      description={description ?? createDefaultDescription(lang, headings)}
-      charset="UTF-8"
-      openGraph={{
-        basic: {
-          title,
-          type: "website",
-          url: Astro.url.href,
-          image: new URL("/assets/images/ogp.png", Astro.site).href,
-        },
-        optional: {
-          description,
-          locale,
-          siteName,
-        },
-        image: {
-          alt: "utelecon",
-        },
-      }}
-      twitter={{
-        title,
-        description,
-      }}
-    />
+    <SEO {...seoProps} />
 
     <GoogleAnalytics id={gaid} partytown />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -120,7 +124,6 @@ const gaid = "UA-160716658-1";
       async
       src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
     ></script>
-    <title>{title}</title>
   </head>
   <body>
     <Header lang={lang} top={top} />

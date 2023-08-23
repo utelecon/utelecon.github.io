@@ -2,9 +2,10 @@
 import notices from "../data/notice.yml";
 import type { Notice } from "../data/schemas/notice";
 import Markdown from "./Markdown.astro";
+import type { Lang } from "@components/types";
 
 export interface Props {
-  lang: "ja" | "en";
+  lang: Lang;
   strip?: boolean;
 }
 
