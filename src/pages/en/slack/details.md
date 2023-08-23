@@ -47,7 +47,6 @@ However, if you need to continue to use the same account for university activiti
 3. We will contact you via email to the ECCS Cloud Email address associated with your new UTokyo Account for further procedures. Please follow the instructions in the email.
 
 If you sign in to UTokyo Slack with your new UTokyo Account before the end of switching, you will be signed in to a new account that is different from your previous UTokyo Account you have originally used. Please note that this new account will not be accessible after the switching process (it will not be merged).
-なお，繋ぎ替えが終わる前に新しいUTokyo AccountでUTokyo Slackにサインインすると，もともと利用していたUTokyo Accountとは別の新しいアカウントにサインインします．この新しいアカウントは，繋ぎ替え作業後はアクセスできなくなります（統合はされません）ので，ご注意ください．
 
 ## "Guest" feature
 {:#guest}
