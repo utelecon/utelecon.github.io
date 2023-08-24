@@ -1,6 +1,6 @@
 ---
-import GoodPractice from "@components/GoodPractice";
-import type { Interview } from "@components/GoodPractice";
+import GoodPractice from "@components/pages/GoodPractice";
+import type { Interview } from "@components/pages/GoodPractice";
 import Layout from "@layouts/Layout.astro";
 
 const interviews = await Astro.glob<Omit<Interview, "path">>(
