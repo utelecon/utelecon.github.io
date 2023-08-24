@@ -1,15 +1,24 @@
-// for ai-tools-in-classes-students
+@media (max-width: 640px) {
+  ul,
+  ol {
+    padding-left: 20px;
+  }
+}
+
 @counter-style decimal-bracket {
-    system: extends decimal;
-    prefix: "[";
-    suffix: "] ";
+  system: extends decimal;
+  prefix: "[";
+  suffix: "] ";
 }
 
 ol.bracket {
-    list-style: decimal-bracket;
+  list-style: decimal-bracket;
 }
 
 // remove user agent stylesheet against <p> element inside <li>
-li > p, .box > p, .box--alert > p, details > p {
-    margin: 0;
+li > p,
+.box > p,
+.box--alert > p,
+details > p {
+  margin: 0;
 }

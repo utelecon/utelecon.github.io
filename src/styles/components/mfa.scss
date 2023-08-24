@@ -22,13 +22,9 @@ ul.mfa-initial-procedure {
         list-style-position: inside;
         text-indent: -1em;
         &::marker {
-          content:
-            counters(mfa-initial-main, "-")
-            "-"
-            counters(mfa-initial-sub-headline, "-", upper-latin)
-            "-"
-            counters(mfa-initial-sub-procedure, "-")
-            ". ";
+          content: counters(mfa-initial-main, "-") "-"
+            counters(mfa-initial-sub-headline, "-", upper-latin) "-"
+            counters(mfa-initial-sub-procedure, "-") ". ";
         }
         ol {
           counter-reset: list-item;
