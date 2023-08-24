@@ -1,4 +1,4 @@
-@import "normalize";
+@import "../../node_modules/normalize.css/normalize.css";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 
 * {
@@ -15,7 +15,6 @@ table {
   border-collapse: collapse;
 }
 
-@import "components/cayman/jekyll-theme-cayman";
-@import "layout/main";
+@import "cayman/jekyll-theme-cayman";
+@import "main";
 @import "layout/header";
-@import "components/box";

@@ -1,0 +1,33 @@
+.alert {
+color: $red;
+}
+
+.center {
+text-align: center;
+}
+
+.iframe-container {
+  position:relative;
+  width: 100%;
+  height: 0;
+  --aspect-ratio: 56.25%;
+  padding-bottom: var(--aspect-ratio);
+  > iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+ul.gap, ol.gap {
+  &>li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  &>li:first-child {
+    margin-top: 0;
+  }
+  &>li:last-child {
+    margin-bottom: 0;
+  }
+}
