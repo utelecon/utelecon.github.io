@@ -4,10 +4,11 @@ import type { Lang } from "@components/types";
 
 interface Props {
   lang: Lang;
+  canonicalUrl: URL;
   top?: boolean;
 }
 
-const { lang, top = false } = Astro.props;
+const { lang, canonicalUrl, top = false } = Astro.props;
 
 const localization = {
   ja: {
@@ -35,9 +36,9 @@ const urls = {
     about: "/en/about/",
   },
 }[lang];
-const theOtherLangUrl = Astro.url.pathname.startsWith("/en/")
-  ? Astro.url.pathname.replace(/^\/en\//, "/")
-  : `/en${Astro.url.pathname}`;
+const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
+  ? canonicalUrl.pathname.replace(/^\/en\//, "/")
+  : `/en${canonicalUrl.pathname}`;
 ---
 
 <header id="header" class="header">
