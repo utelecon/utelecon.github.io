@@ -49,6 +49,7 @@ Other forms include "**on-demand**" type, where students watch video recordings 
 
 You will be using a variety of information systems during your classes at UTokyo. You should set up an account and practice all the relevant procedures for using these systems in advance. Below is a list of these systems. The detailed procedures are explained in the subsequent sections:
 
+{/* 以下の説明の文章は後でも使うため，一度変数として定義してからそれを呼び出す形で記述している */}
 export const about_utokyo_account =
   "This is the account you will use to log into UTokyo’s ICT systems. The username may also be referred to as the “Common ID”.";
 export const about_utas =
@@ -101,7 +102,7 @@ For example, the following questions and consultations are welcome.
 - “I experienced last-minute problems when trying to participate in an online class.”
 - “I am unable to download class materials.”
 
-{/* 以下の手順説明は他のページと共通しているため，変更があった場合に対応しやすいよう，別ファイルに記述し `include` で呼び出している．実体は `_includes/procedures/` ディレクトリにある． */}
+{/* 以下の手順説明は他のページと共通しているため，変更があった場合に対応しやすいよう，コンポーネントとして定義したものをこのファイル上部で import して埋め込んでいる．実体は `src/components/ja/systems` ディレクトリにある． */}
 
 ## Required Procedures to Use the Information Systems
 
