@@ -26,7 +26,7 @@
 
 #### [`If`](utils/If.astro)
 
-利用例：[`systems/utokyo_account/ChangePassword.mdx`](systems/utokyo_account/ChangePassword.mdx)
+利用例：[`ja/systems/utokyo_account/ChangePassword.mdx`](ja/systems/utokyo_account/ChangePassword.mdx)
 
 prop `cond`がtrueの場合だけ中身の要素が表示されます．また，`slot="else"`とした要素がある場合，それらは prop `cond`がfalseの場合だけ表示されます．
 
@@ -55,7 +55,7 @@ prop `cond`がtrueの場合だけ中身の要素が表示されます．また�
 
 #### [`Switch`](utils/Switch.astro)
 
-利用例：[`systems/utokyo_account/ChangePassword.mdx`](systems/utokyo_account/ChangePassword.mdx)
+利用例：[`ja/systems/utokyo_account/ChangePassword.mdx`](ja/systems/utokyo_account/ChangePassword.mdx)
 
 prop `variant`の値によって，表示する要素が切り替わります．JavaScriptの`switch`と違い，**予め決められた値でしか使えません**．値に対応する`slot="<variant>"`の要素を指定しない場合，何も表示されません．
 
