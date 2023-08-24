@@ -10,10 +10,10 @@ redirect_from:
 import UTokyoAccount from "@components/systems/utokyo_account/index.mdx";
 import Utas from "@components/systems/utas/index.mdx";
 import ItcLms from "@components/systems/itc_lms/index.mdx";
+import UTokyoWiFi from "@components/systems/utokyo_wifi/index.mdx";
 import Zoom from "@components/systems/zoom/index.mdx";
 import EccsCloudEmail from "@components/systems/eccs_cloud_email/index.mdx";
 import Microsoft from "@components/systems/microsoft/index.mdx";
-import UTokyoWiFi from "@components/systems/utokyo_wifi/index.mdx";
 import Eccs from "@components/systems/eccs/index.mdx";
 import InformationSecurity from "@components/InformationSecurity.mdx";
 
@@ -54,19 +54,19 @@ import InformationSecurity from "@components/InformationSecurity.mdx";
 export const about_utokyo_account = "東大の情報システムで使う，「共通 ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．"
 export const about_utas = "各授業の概要説明（シラバス）の閲覧，受ける授業の登録手続き，成績の確認などに使うシステム（学務システム）です．"
 export const about_itc_lms = "授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．"
+export const about_utokyo_wifi = "キャンパス内で使える Wi-Fi です．キャンパス内でオンライン授業を受ける際に必要になるでしょう．事前にアカウントを作っていないと使えないので注意してください．"
 export const about_zoom = "「同時双方向型」のオンライン授業で使う Web 会議システムです．"
 export const about_eccs_cloud_email = "Gmail などの Google のシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既に Google のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
 export const about_microsoft = "Word, Excel などの Microsoft Office が無料でダウンロードできます．また，Microsoft の各種オンラインツールも提供しています．Google と同じく，東大のアカウントでしかアクセスできないページがあるので，既に Microsoft のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
-export const about_utokyo_wifi = "キャンパス内で使える Wi-Fi です．キャンパス内でオンライン授業を受ける際に必要になるでしょう．事前にアカウントを作っていないと使えないので注意してください．"
 export const about_eccs = "キャンパス内に設置されているパソコンです．一部の対面授業で利用する場合があるほか，キャンパス内でオンライン授業を受ける際にも利用できます．利用には事前に利用権の申請が必要ですので，注意してください．"
 
 - **UTokyo Account**：{ about_utokyo_account }
 - **UTAS**：{ about_utas }
 - **ITC-LMS**：{ about_itc_lms }
+- **UTokyo Wi-Fi**：{ about_utokyo_wifi }
 - **Zoom**：{ about_zoom }
 - **ECCS クラウドメール (Google Workspace)**：{ about_eccs_cloud_email }
 - **UTokyo Microsoft License (Microsoft 365)**：{ about_microsoft }
-- **UTokyo Wi-Fi**：{ about_utokyo_wifi }
 - **ECCS 端末**：{ about_eccs }
 
 ### インターネット環境やパソコンなどの機器
@@ -145,6 +145,14 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 <ItcLms variant="oc" />
 
+### UTokyo Wi-Fi
+
+{:#utokyo_wifi}
+
+<p>{ about_utokyo_wifi }</p>
+
+<UTokyoWiFi variant="oc" />
+
 ### Zoom
 
 {:#zoom}
@@ -168,14 +176,6 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 <p>{ about_microsoft }</p>
 
 <Microsoft variant="oc" />
-
-### UTokyo Wi-Fi
-
-{:#utokyo_wifi}
-
-<p>{ about_utokyo_wifi }</p>
-
-<UTokyoWiFi variant="oc" />
 
 ### ECCS 端末
 
