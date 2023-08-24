@@ -9,7 +9,7 @@ import type { MDXLayoutProps, MarkdownHeading } from "astro";
 import Author, { Author as AuthorProps } from "@components/Author.astro";
 import Markdown from "@components/Markdown.astro";
 import type { Lang } from "@components/types";
-import { basename } from "path";
+import { parse as parsePath } from "path";
 
 interface Props extends MDXLayoutProps<Frontmatter> {}
 
@@ -74,7 +74,7 @@ const locale = {
 const gaid = "UA-160716658-1";
 
 const canonicalUrl = new URL(Astro.url);
-if (basename(file) !== "index") {
+if (parsePath(file).name !== "index") {
   canonicalUrl.pathname = canonicalUrl.pathname.replace(/\/$/, "");
 }
 
