@@ -19,6 +19,9 @@ export default defineConfig({
         "@styles": "src/styles",
       },
     },
+    server: {
+      watch: { usePolling: Boolean(process.env.USE_POLLING) },
+    },
   },
   markdown: {
     remarkPlugins: [
