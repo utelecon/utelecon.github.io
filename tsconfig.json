@@ -5,6 +5,7 @@
     "jsx": "preserve",
     "paths": {
       "@components/*": ["src/components/*"],
+      "@data/*": ["src/data/*"],
       "@layouts/*": ["src/layouts/*"],
       "@styles/*": ["src/styles/*"]
     }

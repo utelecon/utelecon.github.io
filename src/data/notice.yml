@@ -3,6 +3,10 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2023-08-24
+  content:
+    ja: "[「システムの障害・メンテナンス情報」ページ作成のお知らせ](/notice/2023/08-service-status)"
+-
   date: 2023-08-09
   content:
     ja: "[【復旧】UTokyo Account認証の不具合について](/notice/2023/0809-utokyo-account)"

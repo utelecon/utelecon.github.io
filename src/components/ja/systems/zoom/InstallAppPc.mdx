@@ -1,0 +1,12 @@
+import Support from "@components/utils/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+1. Zoomの「[ダウンロードセンター](https://zoom.us/download)」にアクセスしてください．
+2. 一番上の「Zoom デスクトップ クライアント」にある「ダウンロード」ボタンを押してください．
+3. 以後の手順は場合によって異なります．インストールの完了まで自動で進むこともあれば，確認ボタンを押したり，ダウンロードしたファイルを自分で開いたりといった操作の必要があるかもしれません．
+
+<Support lang="ja" show={props.support} />
