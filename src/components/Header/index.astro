@@ -1,6 +1,7 @@
 ---
 import Navigation from "./Navigation.astro";
 import type { Lang } from "@components/types";
+import Search from "./Search.astro";
 
 interface Props {
   lang: Lang;
@@ -66,8 +67,7 @@ const theOtherLangUrl = Astro.url.pathname.startsWith("/en/")
   </div>
   <div class="hamburger-contents">
     <div class="links">
-      {/* keep astro from adding class `astro-*` */}
-      <Fragment set:html={'<div class="gcse-search"></div>'} />
+      <Search />
       <div>
         <a href={urls.top}>{localization.top}</a> | <a href={urls.about}
           >{localization.about}</a
@@ -248,46 +248,5 @@ button.addEventListener("click", () => {
       row-gap: 1em;
       padding: 1em;
     }
-  }
-
-  .gsc-input .gsc-input-box {
-    height: 30px !important;
-    width: 100% !important;
-    border-radius: 20px 0 0 20px !important;
-    color: black;
-  }
-  .gsc-search-button .gsc-search-button-v2 {
-    height: 30px !important;
-    border-radius: 0 20px 20px 0 !important;
-  }
-  .gsc-control-cse {
-    border: none !important;
-    background: none !important;
-  }
-  .gsc-input-box {
-    .gsc-input {
-      border-radius: 20px !important;
-    }
-  }
-  .gsc-input {
-    padding-right: 0 !important;
-  }
-  .gsc-control-cse.gsc-control-cse-ja {
-    padding: 0;
-    height: 30px;
-    margin: 0 10px 0 0;
-  }
-  .gsc-search-button {
-    margin-left: 0 !important;
-  }
-  .gsib_a {
-    padding: 2px !important;
-  }
-  td.gsc-input {
-    width: 10rem;
-  }
-  input.gsc-input {
-    width: calc(100% - 10px) !important;
-    margin-left: 10px !important;
   }
 </style>
