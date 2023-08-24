@@ -117,6 +117,8 @@ prop `variant`の値によって，表示する要素が切り替わります．
 
 #### [`Markdown`](utils/Markdown.astro)
 
+利用例：[`pages/Notice.astro`](pages/Notice.astro)
+
 [`@data`](../data)以下，またはフロントマターにMarkdownで定義されているデータを表示するために利用します．prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示されます．**コンポーネントからコンポーネントにマークアップを渡すために利用しないでください**．代わりに，
 - `.mdx`のコンポーネントに渡す場合：`props`に`JSX.Element`を渡して，`{props.hoge}`として埋め込んでください．
   - 例：[`systems/utokyo_wifi/Apply.mdx`](systems/utokyo_wifi/Apply.mdx)
@@ -131,7 +133,7 @@ prop `variant`の値によって，表示する要素が切り替わります．
 
 #### 「基本単位」
 
-`@components/{ja,en}/systems`にあるコンポーネント群のうち，1つの`<ol>`を含むコンポーネントが「基本単位」のコンポーネントです．**`@components/{ja,en}/systems`は，システム等の基本的な手順の説明を，この基本単位で分割して整理・共通化することを目的としています**．例えば[`ja/systems/utokyo_account/ChangePassword.mdx`](ja/systems/utokyo_account/ChangePassword.mdx)は，1つの`<ol>`で「UTokyo Accountのパスワードを変更する」という作業の手順を説明しており，手順を複数のページで掲載するために利用されています．
+`@components/{ja,en}/systems`にあるコンポーネント群のうち，1つの`<ol>`を含むコンポーネントが「基本単位」のコンポーネントです．**`@components/{ja,en}/systems`は，システム等の基本的な手順の説明を，この基本単位で分割して整理・共通化することを目的としています**．よって，原則として基本単位1つを1ファイルで記述します．例えば[`ja/systems/utokyo_account/ChangePassword.mdx`](ja/systems/utokyo_account/ChangePassword.mdx)は，1つの`<ol>`で「UTokyo Accountのパスワードを変更する」という作業の手順を説明しており，手順を複数のページで掲載するために利用されています．
 
 #### `index.mdx`
 
