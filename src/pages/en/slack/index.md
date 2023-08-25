@@ -56,7 +56,7 @@ If you wish to use an existing workspace that you are currently using outside UT
 
 - For basic notes on using UTokyo Slack, please refer to "**[UTokyo Slack Terms of Service](terms)**".
 - For the time being, UTokyo Slack will operate on a "trial" basis. There are currently no plans to terminate the service, but please note that individual settings may be changed or specific features may be disabled without prior notice. If you have any questions or comments, please feel free to contact us through [Support via Email Form](/en/support/#email-form).
-- Please refer to the "[Detailed specifications and settings for UTokyo Slack](/slack/details)" (in Japanese) section for details on specifications unique to UTokyo Slack (Slack's "Enterprise Grid" plan) and functions that are restricted by the organization settings.
+- Please refer to the "[Detailed specifications and settings for UTokyo Slack](details)" section for details on specifications unique to UTokyo Slack (Slack's "Enterprise Grid" plan) and functions that are restricted by the organization settings.
 
 ### Tips for utilization
 
