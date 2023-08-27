@@ -3,7 +3,7 @@ title: UTokyo VPN
 ---
 
 <div class="box--alert box--important">
-  <a>【重要】8/9より[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)未受講者に対して利用停止措置を行っています．</a>
+【重要】8/9より<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>未受講者に対して利用停止措置を行っています.
 </div>
 
 ## はじめに
