@@ -3,7 +3,7 @@ title: UTokyo Slack (Trial)
 ---
 
 <div class="box--alert box--important">
- [Important] Suspension of use for those who have not attended the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) since 9 August.
+ [Important] Suspension of use for those who have not attended the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">Information Security Education</a> since 9 August.
 </div>
 
 ## What is UTokyo Slack?
