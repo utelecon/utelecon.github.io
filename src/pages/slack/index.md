@@ -3,7 +3,7 @@ title: UTokyo Slack（試行）
 ---
 
 <div class="box--alert box--important">
-【重要】8/9より<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>未受講者に対して利用停止措置を行いました.
+【重要】8/9より<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>未受講者に対して利用停止措置を行っています.
 </div>
 
 ## UTokyo Slackとは
