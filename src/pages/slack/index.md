@@ -2,6 +2,10 @@
 title: UTokyo Slack（試行）
 ---
 
+<div class="box--alert box--important">
+   <a>【重要】8/9より[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)未受講者に対して利用停止措置を行いました</a>
+</div>
+
 ## UTokyo Slackとは
 
 東京大学では，幅広い大学活動をカバーするコミュニケーション環境整備の一環として，ビジネスチャットツール「Slack」の導入を進めており，2022年8月より「UTokyo Slack」として試行運用を行っています．
