@@ -32,14 +32,14 @@ When you change your phone model, please note that you can avoid being locked ou
 
 Other descriptions of MFA are separated into the following topics. Please visit the page of your interest
 
-- **[Changing MFA Settings](change)**:How to change your verification method (e.g., authentication apps, phone number)
+- **[Changing MFA Settings](change)**: How to change your verification method (e.g., authentication apps, phone number)
     - [Adding Verification Methods](change#add)
-    - [Changing the Default Sign-in Method](change#default):How to change the default sign-in method, i.e., the primary verification method when you sign in.
+    - [Changing the Default Sign-in Method](change#default): How to change the default sign-in method, i.e., the primary verification method when you sign in.
     - [Editing Verification Methods](change#edit)
     - [Deleting Verification Methods](change#delete)
-- **[Terminate MFA Use](reregister_and_terminate)**:How to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password. We strongly recommend that you continue to use MFA for security reasons, but if you need to terminate MFA use for unavoidable circumstances, you can apply for termination here.
+- **[Terminate MFA Use](reregister_and_terminate)**: How to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password. We strongly recommend that you continue to use MFA for security reasons, but if you need to terminate MFA use for unavoidable circumstances, you can apply for termination here.
 - **Others**
-    - [Hardware Tokens](others#hardware-token):For faculty members who are unable to register any verification methods, such as those who do not have smartphones, we offer devices called “hardware tokens” as an alternative.
-    - [Use the 6-digit Code in Microsoft Authenticator to Sign In](others#msauth-totp):If you registered “Microsoft Authenticator” app as the verification method, typically you will receive a notification for verification from the app when you sign in. However, the app offers another method for verification.
+    - [Hardware Tokens](others#hardware-token): For faculty members who are unable to register any verification methods, such as those who do not have smartphones, we offer devices called “hardware tokens” as an alternative.
+    - [Use the 6-digit Code in Microsoft Authenticator to Sign In](others#msauth-totp): If you registered “Microsoft Authenticator” app as the verification method, typically you will receive a notification for verification from the app when you sign in. However, the app offers another method for verification.
     - [Irregular Behaviors During Verification](others#irregular)
-    - [About “不明なエラーが発生しました” Error ](others#unknown-error):Please follow the instructions in this page if you see the "不明なエラーが発生しました"error in the sign-in page.
+    - [About “不明なエラーが発生しました” Error](others#unknown-error): Please follow the instructions in this page if you see the "不明なエラーが発生しました" error in the sign-in page.
