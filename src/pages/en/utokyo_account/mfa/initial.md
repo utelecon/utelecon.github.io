@@ -201,7 +201,7 @@ The next step is to check that you can sign in to your UTokyo Account using MFA.
         <summary>If you want to use a verification method not displayed</summary>
         One of the added verification methods (usually the first method added) will automatically become your “default sign-in method”. When you sign in, the system will ask you to verify your identity using the default sign-in method. If you wish to sign in with a different method, click the “Use a different verification option” (or “Having trouble? Sign in another way” “I can’t use my Microsoft Authenticator app right now”) link.
         <img src="signin_with_another_method.png">
-        The default sign-in method can also be changed by following the procedure described in the “<a href="/utokyo_account/mfa/change#default">Changing the Default Sign-in Method</a>” page．
+        The default sign-in method can also be changed by following the procedure described in the “<a href="change#default">Changing the Default Sign-in Method</a>” page．
     </details>
 1. If you are then taken to the “Security info” page, you have successfully signed in.
 {:.mfa-initial-procedure}
