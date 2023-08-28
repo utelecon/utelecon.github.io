@@ -110,7 +110,7 @@ Next, add alternative verification methods (second and subsequent methods) from 
 
 <ul class="mfa-initial-procedure">
 <li>
-<strong>“Microsoft Authenticator” App</strong>：Microsoft Authenticator” is an MFA authentication application provided by Microsoft. Using this app is convenient since UTokyo Account’s MFA adopts Microsoft’s system. If you possess more than one smartphone, you may add those phones as alternative verification methods. 
+<strong>“Microsoft Authenticator” App</strong>: Microsoft Authenticator” is an MFA authentication application provided by Microsoft. Using this app is convenient since UTokyo Account’s MFA adopts Microsoft’s system. If you possess more than one smartphone, you may add those phones as alternative verification methods. 
 <details>
 <summary>Setup Procedure:</summary>
 <ol>
@@ -120,7 +120,7 @@ Next, add alternative verification methods (second and subsequent methods) from 
 <li>Click "Next" on the "Start by getting the app" screen.<img src="alt_ms_auth_next.png"></li>
 <li>The next procedure differs by the device that you working on. 
 <ul>
-<li><strong>Smartphone (the same device where you installed the Microsoft Authenticator app)</strong>：Click "Pair your account to the app by clicking this link". Check that your UTokyo Account appears in the Microsoft Authenticator app. <img src="alt_ms_auth_link.png"></li>
+<li><strong>Smartphone (the same device where you installed the Microsoft Authenticator app)</strong>: Click "Pair your account to the app by clicking this link". Check that your UTokyo Account appears in the Microsoft Authenticator app. <img src="alt_ms_auth_link.png"></li>
 <li><strong>Other Devices (PC etc.)</strong>
 <ol>
 <li>Read the instructions and click "Next" to go to the QR code page.<img src="alt_ms_auth_qr.png"></li>
