@@ -21,6 +21,7 @@ This page provides information about the initial procedures to enable MFA. The o
 -  In Step 4, the last Step, you submit an application to enable the MFA.
 
 **Complete all the tasks from Step1 to Step 4.** After you complete the whole procedure, **you will be asked to verify your identity with the registered SMS, apps, etc., whenever you sign in to your UTokyo Account. **Be well aware that your UTokyo Account will be inaccessible if you lose access to every verification method (smartphone apps, phone number, etc.).
+
 ## Step 1: Set Up the First Verification Method
 {:#first.mfa-initial-step-heading}
 
@@ -31,18 +32,18 @@ First, set up the verification method for MFA. Here, you will add the first veri
 <li><a href="https://gidp.adm.u-tokyo.ac.jp/idp/profile/Logout">UTokyo Accountのサインアウトページ</a>にアクセスしてください．</li>
 <li>「サインアウト 正常にサインアウトしました」という画面が表示されるまでしばらく待ってください．</li>
 -->
-<li>Access the <a href="https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp">Security info page.</a></li>
+<li>Access the <a href="https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp">Security info page</a>.</li>
 <li>The sign in page will appear (if you are not already signed in). Enter your UTokyo Account username (10-digit Common ID) and password and click “Sign in”.</li>
 <li>Click “Next” in the “More information required” page.<img src="first.png"></li>
 <li>
 Add the first verification method in the setup page. The setup procedure varies depending on the verification method you add.<img src="first_ms_auth.png">
 <ul>
 <li>
-<strong>“Microsoft Authenticator” App</strong>: “Microsoft Authenticator” is an MFA authentication application provided by Microsoft. Using this app is convenient since UTokyo Account’s MFA adopts Microsoft’s system. 
+<strong>“Microsoft Authenticator” App</strong>: “Microsoft Authenticator” is an MFA authentication application provided by Microsoft. Using this app is convenient since UTokyo Account’s MFA adopts Microsoft’s system.
 <details>
 <summary>Setup Procedure:</summary>
 <ol>
-<li>Install the “Microsoft Authenticator” app on your smartphone. The Android version can be downloaded from<a href="https://play.google.com/store/apps/details?id=com.azure.authenticator"> Google Play </a>and the iPhone version from<a href="https://apps.apple.com/app/microsoft-authenticator/id983156458"> App Store.</a></li>
+<li>Install the “Microsoft Authenticator” app on your smartphone. The Android version can be downloaded from <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a> and the iPhone version from <a href="https://apps.apple.com/app/microsoft-authenticator/id983156458">App Store</a>.</li>
 <li>After installing the app, go back to the setup page. Click "Next" to continue setup for the Microsoft Authenticator app.</li><img src="first_ms_auth_next.png">
 <li>The next procedure differs depending on the device that you are using. 
 <ul>
@@ -103,7 +104,7 @@ Add the first verification method in the setup page. The setup procedure varies 
 ## Step 2: Add Alternative Verification Methods
 {:#alternative.mfa-initial-step-heading}
 
-Next, add alternative verification methods (second and subsequent methods) from the** [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**．
+Next, add alternative verification methods (second and subsequent methods) from the **[Security info page](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**．
 
 **Be sure to add more than one verification method**. MFA does work with just one verification method, but having only one verification method puts you at risk of getting completely locked out of your UTokyo Account when your verification method does not work (due to malfunction, phone number change, etc.). Adding multiple verification methods reduces this risk.
 
@@ -158,12 +159,13 @@ Next, add alternative verification methods (second and subsequent methods) from 
 <details>
 <summary>Setup Procedure:</summary>
 <ol>
-<li><a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Click "Add method" in the Security info page</a>．<img src="alt_add_method_pull_down.png"></li>
+<li>Click "Add method" in the <a href="https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp">Security info page</a>．<img src="alt_add_method_pull_down.png"></li>
 <li>For "Which method would you like to add?", select the type of phone you want to add and click "Add".<img src="alt_add_method_pull_down.png"></li>
 <li>"What phone number would you like to use?", select the appropriate country code (+81 for Japan) and input your phone number. Also choose to either receive a text message with a verification code ("Text me a code") or a phone call ("Call me"). Click “Next”.<img src="alt_phone.png"></li>
 <li>You will receive a text or call on your phone to verify your identity. If you selected "Text me a code", you will receive an SMS message with a 6-digit verification code. Input the code in the setup page. If you selected "Call me", you will receive a phone call asking you press the pound key (#) on your phone to verify your identity. Press the key and end the call. (To display the pound key on your smartphone during the call, press the "keypad" button.)</li>
 </ol>
 </details>
+</li>
 </ul>
 
 <!--
@@ -207,7 +209,7 @@ The next step is to check that you can sign in to your UTokyo Account using MFA.
 <div class="box">
 The setup process is not over. Continue to Step 4.
 <br><br>
-* If you could not complete this Step 3 properly, do not proceed to Step 4. Contact the <a href="/support/">Technical Support Desk</a>.
+*If you could not complete this Step 3 properly, do not proceed to Step 4. Contact the <a href="/support/">Technical Support Desk</a>.
 </div>
 
 ## Step 4: Apply for MFA Use
@@ -224,7 +226,7 @@ If the remote-access environment (Citrix Workspace) of office work devices for a
 {:.mfa-initial-procedure}
 
 <div class="box">
-You have completed the initial setup procedures for MFA. <strong>It will take about 40 minutes for the MFA settings to be reflected in the system after these procedures<strong>, so if you want to use UTokyo VPN or UTokyo Slack, in which MFA is required, please be patient and wait for a while.
+You have completed the initial setup procedures for MFA. <strong>It will take about 40 minutes for the MFA settings to be reflected in the system after these procedures</strong>, so if you want to use UTokyo VPN or UTokyo Slack, in which MFA is required, please be patient and wait for a while.
 <br><br>
 If you want to use the UTokyo VPN, additional procedures in the <a href="/utokyo_vpn/">UTokyo VPN page</a> are also necessary. After waiting for approximately 40 minutes, please follow the description in the page.
 </div>
