@@ -7,7 +7,7 @@ title: Other Information About the Multi-Factor Authentication for UTokyo Accoun
 ## Hardware Tokens (for Faculty Members)
 {:#hardware-token}
 
-Authentication apps and phone numbers (SMS or phone calls) are the standard verification methods for MFA. However, for faculty members who are unable to register any of the verification methods, such as those who do not have smartphones, we offer a device called “hardware token” as an alternative. Please refer to [UTokyo Portal (only for faculty members) ](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Token.aspx) for details.
+Authentication apps and phone numbers (SMS or phone calls) are the standard verification methods for MFA. However, for faculty members who are unable to register any of the verification methods, such as those who do not have smartphones, we offer a device called “hardware token” as an alternative. Please refer to [UTokyo Portal (only for faculty members)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Token.aspx) for details.
 
 ## Use the 6-digit Code in Microsoft Authenticator to Sign In
 {:#msauth-totp}
