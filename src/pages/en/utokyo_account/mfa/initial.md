@@ -228,7 +228,7 @@ If the remote-access environment (Citrix Workspace) of office work devices for a
 <div class="box">
 You have completed the initial setup procedures for MFA. <strong>It will take about 40 minutes for the MFA settings to be reflected in the system after these procedures</strong>, so if you want to use UTokyo VPN or UTokyo Slack, in which MFA is required, please be patient and wait for a while.
 <br><br>
-If you want to use the UTokyo VPN, additional procedures in the <a href="/utokyo_vpn/">UTokyo VPN page</a> are also necessary. After waiting for approximately 40 minutes, please follow the description in the page.
+If you want to use the UTokyo VPN, additional procedures in the <a href="/en/utokyo_vpn/">UTokyo VPN page</a> are also necessary. After waiting for approximately 40 minutes, please follow the description in the page.
 </div>
 
 ## Things to Keep in Mind after Completing Initial Procedure
