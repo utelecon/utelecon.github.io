@@ -96,7 +96,7 @@ Add the first verification method in the setup page. The setup procedure varies 
 <li>「アプリ パスワード」の画面が出た場合は，引き続き「アプリ パスワードが正常に作成されました。パスワードをクリップボードにコピーし、アプリに貼り付けます。」と表示されますが，無視して「完了」を押してください．</li>
 -->
 <li>If you see “Success” on your screen, everything is OK.
-<!-- <img src="first_success.png"></li> -->
+<img src="first_success.png"></li>
 </ol>
 
 <div class="box">The setup process is not over. Continue to Step 2.</div>
@@ -191,7 +191,7 @@ The next step is to check that you can sign in to your UTokyo Account using MFA.
     - **“Microsoft Authenticator” App**: A notification will be sent to your phone asking you to enter the two-digit numbers displayed on the sign-in screen.
         <details>
             <summary>*About the “I can’t use my Microsoft Authenticator app right now” message</summary>
-            <!-- <img src="signin_screen_msauth.png" alt=「サインイン要求」の画面に「Microsoft Autheticator アプリを現在使用できません」が表示されている"> -->
+            <img src="signin_screen_msauth.png" alt="「サインイン要求」の画面に「Microsoft Autheticator アプリを現在使用できません」が表示されている">
             The “I can’t use my Microsoft Authenticator app right now” message does not mean that the MFA system using the app is unavailable. Press the message when you do NOT have access to the app.
         </details>
     - **Other Authenticator Apps**: You will see a 6-digit code for your account in the authenticator app. Enter the code in the sign-in page.
