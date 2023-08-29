@@ -37,9 +37,9 @@ However, the following behaviors can happen on occasion.
 
 These behaviors are due to the connection process between multiple systems concerning the UTokyo Account. In these cases, please follow the instructions on the screen to sign in. We apologize for the inconvenience.
 
-## About “不明なエラーが発生しました” Error
+## About “we require additional information to verify your account” Error
 {:#unknown-error}
 
-![「セキュリティ上の理由により、アカウントを検証するための追加情報が必要です 不明なエラーが発生しました 選択した認証方法は '0123456789@utac.u-tokyo.ac.jp' に使用できません。別の認証方法を選択するか、システム管理者にお問い合わせください。 他の方法でサインインする エラーの詳細」というエラーメッセージが表示されることがある](redirection_error.png)
+![](redirection_error.png)
 
-When you sign in to the UTokyo Account, you may receive a “不明なエラーが発生しました” error as in the image above depending on the MFA setting. This may occur when you apply for MFA use (Step 4) before setting up the verification methods (Step 1, Step 2) in [the initial setup procedures of MFA](initial). Please register the verification methods by following the procedures in “[Step 1: Set Up the First Verification Method](initial#first)” and “[Step 2: Add Alternative Verification Methods](initial#alternative)”.
+When you sign in to the UTokyo Account, you may receive a “For security reasons, we require additional information  to verify your account” error as in the image above depending on the MFA setting. This may occur when you apply for MFA use (Step 4) before setting up the verification methods (Step 1, Step 2) in [the initial setup procedures of MFA](initial). Please register the verification methods by following the procedures in “[Step 1: Set Up the First Verification Method](initial#first)” and “[Step 2: Add Alternative Verification Methods](initial#alternative)”.
