@@ -1,5 +1,5 @@
 ---
-title: レポート作成に便利なツールの紹介
+title: 理数系のレポート作成に便利なツールの紹介
 author:
   affiliation: oes
   name: T.G.
