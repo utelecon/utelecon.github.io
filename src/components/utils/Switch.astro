@@ -1,0 +1,25 @@
+---
+import type { Variant } from "@components/types";
+
+interface Props {
+  /**
+   * 対象ページ
+   */
+  variant: Variant;
+}
+
+function match<T>(key: string, cases: Record<string, () => T>) {
+  return cases[key]?.();
+}
+
+const { variant } = Astro.props;
+---
+
+{/* slot[name] must be a static string */}
+{
+  match(variant, {
+    oc: () => <slot name="oc" />,
+    faculty_members: () => <slot name="faculty_members" />,
+    individual: () => <slot name="individual" />,
+  })
+}

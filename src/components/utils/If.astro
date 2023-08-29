@@ -1,0 +1,13 @@
+---
+interface Props {
+  /**
+   * 分岐条件
+   */
+  cond: boolean;
+}
+
+const { cond } = Astro.props;
+---
+
+{cond && <slot />}
+{!cond && <slot name="else" />}

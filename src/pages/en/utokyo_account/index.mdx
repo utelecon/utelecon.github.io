@@ -3,7 +3,9 @@ title: UTokyo Account
 slug: utokyo_account # 手順を外部ファイルからincludeするときに使う
 ---
 
-import UTokyoAccount from '@components/en/procedures/UTokyoAccount/index.astro';
+import UTokyoAccount from '@components/en/systems/utokyo_account/index.mdx';
+import InformationSecurity from '@components/en/InformationSecurity.mdx'
+
 
 ## What is UTokyo Account?
 {:#about}
@@ -26,7 +28,22 @@ import UTokyoAccount from '@components/en/procedures/UTokyoAccount/index.astro';
 
 ## How to start using UTokyo Account
 {:#procedures}
-<UTokyoAccount pageSlug="utokyo_account" />
+<UTokyoAccount variant="individual" />
+
+### Attending the Information Security Education
+{:#information-security-education}
+
+<InformationSecurity variant="individual" />
+
+### Relevant initial setup
+Once you have completed the above tasks, please also refer to the following pages.
+
+- For students: "[Getting Ready for ICT Systems at the University of Tokyo (for New Students)](/en/oc/)".
+- For faculty members: Please refer to the following two pages.
+  - "[Getting Ready for ICT Systems at the University of Tokyo (for Faculty Members)](/en/faculty_members/)"
+  - "[UTokyo Portal: UTokyo Accountの初期設定](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Initial_Settings.aspx)(Initial Setup of the UTokyo Account)(in Japanese)"<small>(* You must sign in with your UTokyo Account to view this page)</small>
+- For staff members: "[UTokyo Portal: UTokyo Accountの初期設定](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Initial_Settings.aspx)(Initial Setup of the UTokyo Account)(in Japanese)"<small>(* You must sign in with your UTokyo Account to view this page)</small>
+
 
 ## Sign in to the ICT systems with your UTokyo Account
 {:#signin}
@@ -63,10 +80,10 @@ If you forget your UTokyo Account password, you can sign back into your account 
 #### Reset your password by email
 {:#reset-password}
 
-If you have registered your email address in advance on the Personnel Information MyWeb (faculty and staff members) or UTAS (student), you can reset your password using that email address. Specifically, the following email address will be used for the resetting procedure.
+If you have registered your email address in advance on UTAS (students) or the Personnel Information MyWeb (faculty and staff members), you can reset your password using that email address. Specifically, the following email address will be used for the resetting procedure.
 
-- Faculty and staff members: "学内メールアドレス" (Campus Email Address) in the "パーソナルメニュー" (Personal Menu) of the Personnel Information Myweb
-- Students: "E-MAIL 1" field on the "Register Address Update, etc." page in the "Student Info" section of UTAS.
+- Students: "E-MAIL 1" field on the "Register Address Update, etc." page in the "Student Info" section of [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do).
+- Faculty and staff members: "学内メールアドレス" (Campus Email Address) in the "パーソナルメニュー" (Personal Menu) of the [Personnel Information Myweb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx) * The email address for this purpose must end with `u-tokyo.ac.jp`
 
 The procedure for resetting the password is as follows.
 

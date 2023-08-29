@@ -1,8 +1,8 @@
 ---
 title: UTokyo Wi-Fi
 ---
-import Apply from "@components/systems/utokyo_wifi/ApplyUTokyoWifi.astro"
-import Connect from "@components/systems/utokyo_wifi/ConnectUTokyoWifi.astro"
+
+import UTokyoWiFi from "@components/ja/systems/utokyo_wifi/index.mdx"
 
 <div class="box--alert box--important">
   【重要】<a href="/notice/2023/01-wifi">UTokyo Wi-Fiの更新に伴う利用方法変更のお知らせ</a>
@@ -20,7 +20,7 @@ UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的とし�
 - UTokyo AccountでそのままUTokyo Wi-Fiが利用できるわけではなく，別途学期ごとにアカウントを発行する必要があります．
 
 ### 利用上の注意
-{/* {:#caution-to-use} */}
+{:#caution-to-use}
 1. UTokyo Wi-Fiは大学の教育・研究活動および国立大学法人法が定める業務にのみ利用できます．
 2. UTokyo Wi-Fiは，「[東京大学無線ネットワークシステム（UTokyo WiFi）利用規程](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)」に合意し，申請した者が利用できます．
 3. UTokyo Wi-Fiは申請者本人のみが利用できます．アカウントは第三者に貸与してはいけません．他人に盗用されないよう管理してください．
@@ -31,48 +31,45 @@ UTokyo Wi-Fiとは，東京大学の構成員が教育・研究を目的とし�
 8. UTokyo Wi-Fiの利用状況を個人が特定されないよう統計的に処理し，本学運営のために公開することがあります．
 
 ### 情報セキュリティ教育
-{/* {:#jouhou-security} */}
+{:#jouhou-security}
 
-東京大学では毎年度，UTokyo Accountを持つ全ての方を対象に，情報セキュリティ教育を実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育のページ</a>を確認してください．
+UTokyo Wi-Fiの利用にあたっては，情報セキュリティ教育の受講を完了することを必須としています．情報セキュリティ教育は，東京大学全体の[情報セキュリティ](https://univtokyo.sharepoint.com/sites/Security)の向上を目的として，毎年度UTokyo Accountを持つ全ての方を対象に実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)のページを確認してください．
 
 - 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo Wi-Fiの利用資格が停止されます．具体的には，UTokyo Wi-Fiアカウントメニューへのサインインやアカウントの新規発行ができなくなります．さらに，UTokyo Wi-Fiアカウントを以前に発行していた場合は，アカウントが削除されUTokyo Wi-Fiに接続することができなくなります． 
-- 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格するとただちに利用資格の停止が解除されるので，<a href="#expiration">アカウントを再発行・再設定する手順</a>に従って，UTokyo Wi-Fiアカウントメニューから新しいアカウントを発行し，デバイスに設定してください．
+- 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格するとただちに利用資格の停止が解除されるので，[アカウントを再発行・再設定する手順](#expiration)に従って，UTokyo Wi-Fiアカウントメニューから新しいアカウントを発行し，デバイスに設定してください．
+- 新たに入学・着任した方については，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を受講し，確認テストに合格した後にUTokyo Wi-Fiの利用が可能となります．利用開始の前に情報セキュリティ教育を受講してください．
+
 
 ### 共用機器での利用について
 UTokyo Wi-Fiは，各個人が占有して利用する機器でのみ利用可能で，**複数人が共用する機器での利用は禁止です**．共用機器での利用は，UTokyo Wi-Fiアカウントを取得した本人以外に利用させることになり，利用規程で禁止されているアカウントの貸与にあたるためです．なお，OSのユーザーアカウントが個人別に設定されていて，UTokyo Wi-Fiアカウントが取得した本人以外に利用できない，という状況であれば問題ありません．
 
 ## 利用開始までの手順
-{/* {:#initial-setup} */}
+{:#initial-setup}
 
+<UTokyoWiFi variant="individual" class="gap" />
 
-<ul class="gap">
-  <li>
-    <strong>手順1：利用する機器を確認する</strong>
-    <div>通常のノートパソコンやスマートフォン，タブレットでは基本的にUTokyo Wi-Fiの利用が可能ですが，これ以外の電子機器や古い機器では接続ができないことがあります．例えば，WPA2-Enterprise方式に対応していない機器は接続できません．接続にあたっては，その機器のOSやドライバのアップデートを確認し，適切に更新して利用するようにしてください．</div>
-  </li>
-  <li>
-    <strong>手順2：UTokyo Wi-Fiアカウントの発行を申請する</strong>
-    <Apply />
-  </li>
-  <li>
-    <strong>手順3：UTokyo Wi-Fiに実際に接続する</strong>
-    <Connect />
-  </li>
-</ul>
+なお，以下の各ページで，端末の種類ごとに詳しい接続手順を説明しています．
+
+* [WindowsでUTokyo Wi-Fiを利用する](windows)
+* [macOSでUTokyo Wi-Fiを利用する](macos)
+* [AndroidでUTokyo Wi-Fiを利用する](android)
+* [iPhoneやiPadでUTokyo Wi-Fiを利用する](ios)
+{:.cards}
+{:#procedure-by-device-type}
 
 ## 利用に関する情報
 ### アカウントの有効期限
-{/* {:#expiration} */}
+{:#expiration}
 
 UTokyo Wi-Fiのアカウントの有効期限は翌年度の4月末です．各年度の開始前に新たなアカウントが発行できるようになるので，引き続き利用する場合は，年度ごとにアカウントを発行し直してください．
 
 - アカウントを発行し直す手順は，上の手順2・手順3と同様です．
     - 情報セキュリティ教育を受講しておらず利用資格が停止されている場合は，アカウントを発行し直すことはできません．詳細は上の「[情報セキュリティ教育](#jouhou-security)」の項を参照してください．
 - アカウントを発行し直したら，新しいアカウントのユーザーID・パスワードを利用している機器に入力し，接続してください．
-    - 以前のUTokyo Wi-Fiアカウントの情報を機器が記憶してしまっており，情報を変更できない（新たなユーザーID・パスワードを入力するための画面が出ない）場合，一度Wi-Fiのアカウント情報を削除してください．具体的な削除方法はOSや機器の種類によって異なりますので，それぞれの機器のマニュアルを参照してください．なお，Windowsについては[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi-win10/)，iOSについては公式ヘルプ「[iPhone、iPad、iPod touch、Mac で Wi-Fi ネットワークの設定を削除する方法](https://support.apple.com/ja-jp/HT208941)」もそれぞれ参考にしてください．
+    - 以前のUTokyo Wi-Fiアカウントの情報を機器が記憶してしまっており，情報を変更できない（新たなユーザーID・パスワードを入力するための画面が出ない）場合，一度Wi-Fiのアカウント情報を削除してください．具体的な削除方法はOSや機器の種類によって異なりますので，[端末の種類ごとの説明ページ](#procedure-by-device-type)の手順3を参照してください．これらのページに記載がない場合は、それぞれの機器のマニュアルを参照してください．
 
 ### 接続の詳細な設定
-{/* {:#connect-configuration} */}
+{:#connect-configuration}
 
 <table>
   <tr>
@@ -125,7 +122,7 @@ UTokyo Wi-Fiを含む本学のネットワークでは，全学セキュリテ�
 
 利用にあたって問題が発生した場合は，まずは自身で以下の点をもう一度確認してみてください．
 
-- はじめて接続する際に問題が発生している場合は，本ページの「[利用開始までの手順](#initial-setup)」を丁寧に読みなおしてください．また，機器ごとの詳細な接続方法が掲載されている[ECCS相談員のページ](https://www.sodan.ecc.u-tokyo.ac.jp/faq/utokyo-wifi/)も，必要に応じて参照してください．
+- はじめて接続する際に問題が発生している場合は，なにか手順を誤っているかもしれません．本ページの「[利用開始までの手順](#initial-setup)」を丁寧に読みなおしてください．[端末の種類ごとに詳しい接続手順を説明するページ](#procedure-by-device-type)もありますので，併せて参照してください．
 - 2回目以降の接続で問題が発生した場合は，本ページの「[アカウントの有効期限](#expiration)」を参照してください．
 - ご友人や同僚など，利用ができている周りの方にも相談してみてください．
 
