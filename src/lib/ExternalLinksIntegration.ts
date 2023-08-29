@@ -11,7 +11,7 @@ import { join } from "path";
 
 export default function externalLinks(options: Options): AstroIntegration {
   const processor = unified()
-    .use(parse, { fragment: true })
+    .use(parse)
     .use(rehypeExternalLinks, options)
     .use(stringify);
 

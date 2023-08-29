@@ -1,0 +1,138 @@
+---
+import {
+  sitemapSectionsJa as ja,
+  sitemapSectionsEn as en,
+  type SitemapSection,
+} from "@data/sitemapSections";
+import { basename } from "path";
+import type { AstroInstance, MDXInstance, MarkdownInstance } from "astro";
+import Slugger from "github-slugger";
+import Layout, { Frontmatter } from "@layouts/Layout.astro";
+import type { Lang } from "@components/types";
+
+interface Props {
+  lang: Lang;
+}
+
+interface AstroInstanceExt extends AstroInstance {
+  title: string;
+  sitemap?: boolean;
+}
+
+type PageInstance =
+  | MarkdownInstance<Frontmatter>
+  | MDXInstance<Frontmatter>
+  | AstroInstanceExt;
+
+interface Page {
+  title: string;
+  url: string;
+}
+
+interface Section extends SitemapSection {
+  slug: string;
+  links: Page[];
+}
+
+type HeadingType = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+
+const { lang } = Astro.props;
+
+let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}"))
+  .filter((page) => {
+    if (!page.url) {
+      return false;
+    }
+    if (basename(page.url).startsWith("_")) {
+      return false;
+    }
+    if ("frontmatter" in page && page.frontmatter.redirect_to) {
+      return false;
+    }
+    const { sitemap } = "frontmatter" in page ? page.frontmatter : page;
+    if (sitemap === false) {
+      return false;
+    }
+    const isEnglishPage = page.url.startsWith("/en/");
+    return {
+      ja: !isEnglishPage,
+      en: isEnglishPage,
+    }[lang];
+  })
+  .map<Page>((page) => {
+    const { title } = "frontmatter" in page ? page.frontmatter : page;
+    return { title, url: page.url! };
+  });
+
+// https://stackoverflow.com/questions/979256/sorting-an-array-of-objects-by-property-values#comment48111034_979289
+// @ts-ignore
+pages.sort((a, b) => (a.url > b.url) - (a.url < b.url));
+
+const slugger = new Slugger();
+
+const sections = { ja, en }[lang].map<Section>((section) => {
+  let links: Page[] = [];
+  section.patterns?.forEach((pattern) => {
+    pages = pages.filter((page) => {
+      let cond = false;
+      cond ||= pattern.test(page.url);
+      if (section.negativePatterns) {
+        cond &&= !section.negativePatterns.some((pattern) =>
+          pattern.test(page.url)
+        );
+      }
+      if (cond) {
+        links.push(page);
+      }
+      return !cond;
+    });
+  });
+  return {
+    ...section,
+    slug: slugger.slug(section.name),
+    links,
+  };
+});
+
+const meta = {
+  file: `src/pages${{ en: "/en", ja: "" }[lang]}/sitemap.astro`,
+  url: Astro.url.toString(),
+};
+---
+
+<Layout
+  frontmatter={{
+    title: {
+      ja: "サイトマップ",
+      en: "Sitemap",
+    }[lang],
+    lang,
+    ...meta,
+  }}
+  headings={sections.map((section) => ({
+    text: section.name,
+    slug: section.slug,
+    depth: section.depth,
+  }))}
+  {...meta}
+>
+  {
+    sections.map((section) => {
+      const Heading: HeadingType = `h${section.depth}`;
+      return (
+        <>
+          <Heading id={section.slug}>{section.name}</Heading>
+          <ul>
+            {section.links.map((link) => {
+              return (
+                <li>
+                  <a href={link.url}>{link.title}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      );
+    })
+  }
+</Layout>

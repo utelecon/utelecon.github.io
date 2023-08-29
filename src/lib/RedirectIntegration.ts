@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 import { walk } from "./util";
 import { VFile } from "vfile";
 
-const source = [".md", ".markdown", ".mdx", ".astro"];
+const source = [".md", ".markdown", ".mdx"];
 
 export default function redirect(): AstroIntegration {
   return {
@@ -22,10 +22,12 @@ export default function redirect(): AstroIntegration {
         const files = await Promise.all(promises);
         const redirects = files.flatMap((file) => {
           const { redirect_to, redirect_from } = file.data;
-          const here = relative(pages, file.path).replace(
-            /(?:index)?\.(?:md|mdx|markdown|astro)$/,
-            ""
-          );
+          const here =
+            "/" +
+            relative(pages, file.path).replace(
+              /(?:index)?\.(?:md|mdx|markdown|astro)$/,
+              ""
+            );
           if (typeof redirect_to === "string") {
             return { from: here, to: redirect_to };
           }

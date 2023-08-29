@@ -92,8 +92,8 @@
       name: "よくある質問 (FAQ)"
       url: "/faq/"
     -
-      name: "システム運用状況（障害情報等）"
-      url: "/support/service-status"
+      name: "障害・メンテナンス情報"
+      url: "https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/service-status.aspx"
     -
       name: "授業入室トラブル"
       url: "/oc/join"

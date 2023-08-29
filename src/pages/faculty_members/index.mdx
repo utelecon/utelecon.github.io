@@ -7,9 +7,10 @@ redirect_from:
   - /faculty_members/index_2020_a
 ---
 
-import Courses from '@components/Courses/index.mdx'
-import UtacPasswordNotice from "@components/procedures/UTokyoAccount/20230321UtacPasswordNotice.astro";
-import ZoomSigninBrowser from "@components/ZoomSigninBrowser.mdx";
+import Courses from '@components/ja/Courses.mdx'
+import ChangeUtacPassword from '@components/ja/systems/utokyo_account/ChangePassword.mdx'
+import ZoomSigninBrowser from "@components/ja/systems/zoom/SigninBrowser.mdx";
+import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 
 <b class="box">
 3/15 15:00から，説明会「<a href="/events/2023-03-15/">オンラインでも対面でも活用！Web会議・クラウドツールの説明会 〜 そして「あのAIツール」について"Chat"しましょう 〜</a>」を開催します．終了後は録画も提供します．本ページとあわせてご参照ください．
@@ -36,7 +37,7 @@ import ZoomSigninBrowser from "@components/ZoomSigninBrowser.mdx";
 
 ### 授業形態の種類
 
-<Courses pageSlug="faculty_members" />
+<Courses variant="faculty_members" />
 
 
 ### 制度上の取扱い
@@ -55,29 +56,31 @@ import ZoomSigninBrowser from "@components/ZoomSigninBrowser.mdx";
 
 ## 困ったときは：サポート窓口
 
-オンライン授業に関して，トラブルや情報システムの利用方法に関する相談などは，**[サポート窓口](/support/)**にご相談ください．チャット・Zoom・メールフォームの3つの方法で相談を受け付けており，学生スタッフ「コモンサポーター」と教職員の共同体制により迅速な対応を行っています．
+オンライン授業に関して，トラブルや情報システムの利用方法に関する相談などは，**[サポート窓口](/support/)**にご相談ください．チャット・Web会議システム(Zoom)・メールフォームの3つの方法で相談を受け付けており，学生スタッフ「コモンサポーター」と教職員の共同体制により迅速な対応を行っています．
 
-## はじめに：共通ID「UTokyo Account」の初期設定
+## はじめに：共通ID「UTokyo Account」の初期設定など
 
 「UTokyo Account」は，東京大学の情報システムで使う，「共通ID」と呼ばれるアカウントです．この後で説明するZoomやITC-LMSなどの各システムは，このアカウントでログインして使うのが基本になります．
 
 以下，UTokyo Accountの初期設定について説明します．システムを利用するために必要となる重要な作業ですので，よく読んで作業を行ってください．
 
-### 初期パスワードの変更
+### UTokyo Accountの初期パスワードの変更
 
-1. 所属の学部・研究科等から，初期パスワードが記載された「パスワード通知書」を受け取ってください．授業に必要な教員には発行されているはずですが，もらっていない場合は所属部局の事務に問い合わせてください．
-2. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)に，「パスワード通知書」に記載されたユーザ名とパスワードでログインしてください．
-3. 左上の「パスワード変更」を押して，パスワードを変更してください．新しいパスワードは，強度の強いパスワードを自身で決めて，設定してください．
-
-<UtacPasswordNotice />
+<ChangeUtacPassword variant="faculty_members" />
 
 この時点で，シラバスや成績の入力に使われる[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)など，東京大学の各システムにログインできるようになります（※UTASの操作については，所属部局の学務・教務担当に確認するか，UTASにログインして上部のメニューで「その他」を押すと表示される「ダウンロードセンター」からマニュアルをダウンロードしてご覧ください）．{/*新任教員や非常勤講師が最初に行うのはUTASでのシラバス入力のため，ここで触れておく必要がある．しかし具体的な情報は，指示や運用が部局によっても異なることもあり，ここで案内することができない． */} 
 
-### 「多要素認証」の有効化
+### UTokyo Accountの「多要素認証」の有効化
+{:#setting-up-mfa}
 
 情報システムのセキュリティ向上を目的として，UTokyo Accountには「多要素認証 (Multi-Factor Authentication, MFA)」を導入しています．多要素認証とは，アカウントへのサインイン時に，パスワードに加えて，SMSや専用のアプリなどで本人確認を行う認証方法です．多要素認証を利用すると，なんらかの事情でパスワードが他人に知られた場合でも，アカウントにサインインされる可能性を低くすることができ，セキュリティを向上することができます．
 
-UTokyo Accountでの多要素認証の有効化は，現時点においては必須ではありませんが，セキュリティの観点から有効化することを強く推奨しています．「**[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」のページに記載の手順で，有効化を行ってください．
+大学全体のセキュリティ向上のため，東京大学では，UTokyo Accountの多要素認証を有効化することを強く推奨しています．特に教職員については，全員が多要素認証を利用することになっています．「**[UTokyo Accountの多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」のページに記載の手順で，有効化を行ってください．
+
+### 情報セキュリティ教育の受講
+{:#information-security-education}
+
+<InformationSecurity variant="faculty_members" />
 
 ## Zoomを使う
 
@@ -87,7 +90,7 @@ Zoomは同時双方向型のWeb会議システムで，オンライン授業に�
 
 東京大学ではZoomのライセンス契約を行っており，サインインして利用すると，参加者数の上限が300人・時間の上限が30時間のミーティングを開催できます． 
 
-<ZoomSigninBrowser />
+<ZoomSigninBrowser big inlineHelp support />
 
 なお，アプリからサインインする場合は手順が異なりますので，[Zoom サインイン方法](/zoom/signin)のページをご覧ください（アプリでのサインインは，同時にPC・タブレット・スマートフォンの各1台までとなっていることにご注意ください）．
 
@@ -95,11 +98,11 @@ Zoomは同時双方向型のWeb会議システムで，オンライン授業に�
 
 続いて，Zoomの会議室を作成する方法を説明します．
 
-1. Zoomにサインインした状態で，右上にある「ミーティングをスケジュールする」を押してください．
+1. Zoomにサインインした状態で，右上にある「スケジュール」を押してください．
 2. 会議室の設定をする画面が表示されます．
     - 「トピック」欄に会議室の名前（タイトル）を入力してください．
-    - 「開催日時」や「所要時間」などは適宜設定してください．「定期ミーティング」にチェックを入れることで，一つの会議室で（URLを変えずに）複数回の授業を行うことができます．
-    - 「参加時に認証を求める」という設定項目がありますが，特に学期開始当初は大学のアカウントの設定が済んでいない学生もいることから，入室制限を行う方法については注意が必要です．詳しくは「[授業におけるZoom会議室の入室制限](/faculty_members/zoom_access_control)」をご覧ください．
+    - 「開催日時」や「期間」などは適宜設定してください．「定期ミーティング」にチェックを入れることで，一つの会議室で（URLを変えずに）複数回の授業を行うことができます．
+    - 「認証されたユーザーのみ参加可能」という設定項目がありますが，特に学期開始当初は大学のアカウントの設定が済んでいない学生もいることから，入室制限を行う方法については注意が必要です．詳しくは「[授業におけるZoom会議室の入室制限](/faculty_members/zoom_access_control)」をご覧ください．
     {/* その他の設定項目についてなど，詳しくは [TODO]() をご覧ください．*/}
 3. 最後に「保存」を押すと，作成された会議室の情報を確認できる画面に移動します．「招待リンク」欄に会議室のURLが表示されており，このURLから会議室に入室できるようになっています．
 
@@ -212,7 +215,7 @@ MATLABは科学技術計算を目的に開発されたプログラミング言�
 
 ### UTokyo VPN
 
-東京大学の一部の情報システム（事務システム等）は，学内ネットワークからのみアクセスが可能です．このようなシステムにキャンパス外からアクセスできるように，「**UTokyo VPN**」というサービスを提供しています．利用方法などの詳細は**[UTokyo VPNのページ](/utokyo_vpn/)**をご覧ください．
+東京大学の一部の情報システム（人事情報MyWeb等）は，学内ネットワークからのみアクセスが可能です．このようなシステムにキャンパス外からアクセスできるように，「**UTokyo VPN**」というサービスを提供しています．利用方法などの詳細は**[UTokyo VPNのページ](/utokyo_vpn/)**をご覧ください．
 
 {/*
 ### UTokyo Accountと東京大学以外のMicrosoftアカウントの併用について
@@ -236,7 +239,7 @@ MATLABは科学技術計算を目的に開発されたプログラミング言�
     - 詳細は「[（Zoom 教員編）クラウドに録画する](/zoom/how/faculty_members/recording_cloud)」をご覧ください．
 - Zoomで録画した動画について，一部を削除するなどの編集をした上で公開したい場合は，GoogleドライブやYouTubeにアップロードすることが一般的と思われます．この場合も，閲覧可能な範囲を東京大学のアカウントに限定することができます．
     - これらの機能についての詳細は「[動画ファイルを Google Drive にアップロードする](/faculty_members/how/google/share_video)」や「[YouTubeのコンテンツを学内構成員限定で公開する](https://www.sodan.ecc.u-tokyo.ac.jp/hack/youtube-utokyo-only/)」をご覧ください．
-    - 動画の編集については「[やりたいことから探す／動画を作成・共有したい](/online/topics#movie)」もご覧ください．
+    - 動画の編集については「[動画を作成・共有する](/articles/create_share_movie/)」もご覧ください．
 - これらの動画のURLをITC-LMSの「教材」欄に掲載することで，学生に録画を共有できます．
 
 ### 出席の取り方

@@ -1,0 +1,12 @@
+import Support from "@components/utils/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+1. [Gmail](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)にアクセスしてください．
+2. もしログインしていなければログインを求められるので，上の手順と同じようにしてログインしてください．
+3. 普通のGmailと同じように使えます．自分の他のメールアドレスにメールを送ってみたり，自分の他のメールアドレスから送ったメールが届くか確かめてみましょう．
+
+<Support lang="ja" show={props.support} />

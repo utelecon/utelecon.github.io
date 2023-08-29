@@ -22,13 +22,13 @@ title: "2023年7月3日・8月2日 UTokyo Slackお役立ち情報共有会「Sla
 
 - 挨拶：東京大学 副理事（DX担当） 水上 順一
 - UTokyo Slackへの編入（移行）手続き受付終了のお知らせ：東京大学 情報システム本部 竹内 朗<br>**[資料](introduction_and_notice.pdf)**
-- お役立ち情報共有会：株式会社セールスフォース・ジャパン カスタマーサクセス統括本部 南雲 尚子<br>**[資料](main.pdf)**
+- お役立ち情報共有会：株式会社セールスフォース・ジャパン カスタマーサクセス統括本部 南雲 尚子<br>[7月3日開催分 資料](main.pdf)<br>**[8月2日開催分 資料](main-20230802.pdf)**
 {:.gap}
 
 質疑応答はSlidoで行います．
 
 - [7月3日開催分 質疑応答 (Slido) はこちらから](https://app.sli.do/event/a47Fuy5FCf4cQLLgSHDNYY)
-- 8月2日開催分の質疑応答は準備中です．
+- [8月2日開催分 質疑応答 (Slido) はこちらから](https://app.sli.do/event/6qh94QBWaEq38WSQuay9jR)
 
 録画を公開しています．
 
@@ -38,4 +38,4 @@ title: "2023年7月3日・8月2日 UTokyo Slackお役立ち情報共有会「Sla
 ## 参加登録
 
 - ~~[7月3日開催分 参加登録フォーム](https://forms.gle/7rdmC5RNkGZn7CTm8)を入力・送信してください．~~
-- **[8月2日開催分 参加登録フォーム](https://forms.gle/quJciBoqbVzxezZdA)**を入力してください．
+- **[8月2日開催分 参加登録フォーム](https://forms.gle/quJciBoqbVzxezZdA)**を入力・送信してください．

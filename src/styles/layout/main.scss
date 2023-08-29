@@ -18,6 +18,7 @@ main {
   @import "../components/img";
   @import "../components/card";
   @import "../utils";
+  @import "../top";
 
   summary {
     cursor: pointer;
@@ -79,9 +80,5 @@ main {
   .footnotes {
     padding-top: 0.5em;
     border-top: 2px solid $gray;
-  }
-
-  .author {
-    text-align: right;
   }
 }

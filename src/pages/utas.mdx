@@ -1,8 +1,9 @@
 ---
 title: UTAS
 ---
-import Utas from '@components/procedures/UTAS/index.astro'
 
+import Login from "@components/ja/systems/utas/Login.mdx";
+import ConfirmEmail from "@components/ja/systems/utas/ConfirmEmail.mdx";
 
 ## UTASとは
 
@@ -12,13 +13,13 @@ import Utas from '@components/procedures/UTAS/index.astro'
 
 ## ログイン方法
 
-<Utas part="login" />
+<Login />
 
 ## （学生向け）メールアドレスの登録について
 
 学生は，自身のメールアドレスをUTASで登録することになっています．このメールアドレスは，所属の学部・研究科等からの連絡や，UTokyo Accountや連携システムでの手続きに使われますので，以下の手順を参照し，必ず自身に確実に届くメールアドレスが登録された状態にしておいてください．
 
-<Utas part="confirm_email_address_registration" />
+<ConfirmEmail />
 
 ## マニュアル
 
