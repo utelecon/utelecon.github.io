@@ -213,7 +213,7 @@ When lecturing, training, or preparing handouts for such facilities, use copyrig
 
 ## References
 
-- Guideline for Application of Article 35 of the Revised Copyright Act (2021 version) [https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf（See June 16, 2021）](https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf（See June 16, 2021）)
+- Guideline for Application of Article 35 of the Revised Copyright Act (2021 version) [https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf（See June 16, 2021）](https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf)
 
 ## Related Articles
 
