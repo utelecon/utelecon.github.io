@@ -1,14 +1,11 @@
 ---
-title: Educational use examples（仮タイトル）
+title: When Can Materials Be Freely Used for Class?
 ---
-<!-- 
-タイトルは仮
--->
 
 ## Outline of This Article
 
 This article provides an explanation of Article 35 of the Copyright Act related to the use of copyrighted works in the classroom and details of examples of how to use  copyrighted works. It is intended for teachers who create course materials in schools and other educational institutions in Japan.
-This article consists of two parts, and is written based on the "Guidelines for the Application of Article 35 of the Revised Copyright Act (2021 version)" discussed at the "Forum of Parties related to Educational Use of Copyrighted Works". In the first part, we will review the knowledge of copyright explained in the "[Basics of Copyright Law](basic)" article of this website. The second part explains in detail when it is possible to use copyrighted works at universities. We recommend that you read Part 2 since it covers most of the issues that you will encounter in your actual classes.
+This article consists of two parts, and is written based on the "Guidelines for the Application of Article 35 of the Revised Copyright Act (2021 version)" discussed at the "Forum of Parties related to Educational Use of Copyrighted Works". In the first part, we will review the knowledge of copyright explained in the "[The Basics of Copyright Law](basic)" article of this website. The second part explains in detail when it is possible to use copyrighted works at universities. We recommend that you read Part 2 since it covers most of the issues that you will encounter in your actual classes.
 
 ## Part 1: Fundamentals of Copyright Act
 
@@ -21,7 +18,7 @@ Japan's Copyright Act grants exclusive rights to the creators of copyrighted wor
 - **Who is an “Author”:** The term “ “author” means a person who creates a work”[^3]. Idea providers, input assistants, etc. are not recognized as authors.
 - **What are the Restricted Rights Provisions:** When we use works, we need the permission of the right holder, in principle, However, in the case of some specific purposes or forms of use, the work may be freely used without the right holder's permission. （e.g., private reproduction[^4], use by quotation[^5], reproduction in schools, and other educational institutions, etc.[^6] ）
 
-There are various exceptions and points to note in addition to the above, so please refer to the [Basics of Copyright Law](basic) on this website or the website of the [Agency for Cultural Affairs](https://www.bunka.go.jp/seisaku/chosakuken/) (in Japanese).
+There are various exceptions and points to note in addition to the above, so please refer to the [The Basics of Copyright Law](basic) on this website or the website of the [Agency for Cultural Affairs](https://www.bunka.go.jp/seisaku/chosakuken/) (in Japanese).
 
 ### Article 35 of the Copyright Act and Specific Examples
 
@@ -220,10 +217,10 @@ When lecturing, training, or preparing handouts for such facilities, use copyrig
 
 ## Related Articles
 
-- [著作権法に関する基本](basic)
-- [学校は著作権の例外？　改正著作権法35条](article35-and-educational-institutions)
-- [授業目的公衆送信補償金制度およびSARTRASの設立の意義と経緯](sartras)
-- [SARTRASに加盟する団体一覧](sartras-member-organizations)
+- [The Basics of Copyright Law](basic)
+- [Are Schools Exempt from Copyrights? Article 35 of the Revised Copyright Law](article35-and-educational-institutions)
+- [The Background and Role of the Compensation System for Public Transmission for Educational Purposes / SARTRAS](sartras)
+- [List of Organizations Affiliated With SARTRAS](sartras-member-organizations)
 
 [^1]: See Article 2-1-1 of the Copyright Act
 [^2]: See Article 10-1 of the Copyright Act
