@@ -1,0 +1,25 @@
+import Help from "@components/utils/Help.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  * @property {string} deviceDescription
+  * @property {string} applyStep
+  * @property {JSX.Element} connectConfiguration
+  */}
+
+- この作業はキャンパス内のUTokyo Wi-Fi（SSIDが`0000UTokyo`となっているWi-Fi）が見える場所でしかできません．
+
+1. <>{ props.deviceDescription }のWi-Fi接続設定画面で，`0000UTokyo`を選んでください．</>
+1. UTokyo Wi-FiアカウントのユーザーIDとパスワードを入力してください（UTokyo Accountではありません）．ユーザーIDとパスワードは，{ props.applyStep }で届く通知メールから確認できるほか，申請直後であればアカウントメニューの申請完了画面にも表示されています．
+1. 接続が完了すれば，後は普通のWi-Fiと同様に使えます．
+
+- 接続時に，証明書の確認や，{props.connectConfiguration}に書かれた情報の入力が必要な場合があります．
+<Help lang="ja" support={props.support}>
+  - 電波が弱いと作業中に接続が途切れてしまってうまくいかないことがあります．場所や時間帯を変えて試してみてください．
+  - UTokyo Wi-FiのユーザーIDは，先頭の`u`や末尾の`@wifi.u-tokyo.ac.jp`も，すべて省略せずに入力してください．
+  - パスワードに含まれる記号を正しく入力しているか確認してください．通知メールからコピーアンドペーストして入力してみてください．通知メールからコピーアンドペーストして入力している場合は，前後に余計な空白が入っていないか確認してください．
+  - アカウントの発行申請を複数回行った場合，最新の申請によるアカウント以外は，直ちに無効化されます．接続する時点で[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)に表示されているアカウントのみが有効です．
+  - 利用する機器が最新の状態ではないためにトラブルが起こる場合もあります．OSのアップデートを済ませてから再度試してください．
+</Help>
+

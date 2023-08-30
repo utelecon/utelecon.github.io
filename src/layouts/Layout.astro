@@ -1,0 +1,162 @@
+---
+import { SEO, Props as SEOProps } from "astro-seo";
+import { GoogleAnalytics } from "@astrolib/analytics";
+import Header from "./Header/index.astro";
+import Footer from "./Footer/index.astro";
+import Toc from "./Toc.astro";
+import "@styles/global.scss";
+import type { MDXLayoutProps, MarkdownHeading } from "astro";
+import Author, { Author as AuthorProps } from "./Author.astro";
+import Markdown from "@components/utils/Markdown.astro";
+import type { Lang } from "@components/types";
+import { parse as parsePath } from "path";
+
+interface Props extends MDXLayoutProps<Frontmatter> {}
+
+export interface Frontmatter {
+  title: string;
+  description?: string;
+  lang: Lang;
+  toc?: boolean;
+  h1?: string;
+  top?: boolean;
+  support?: boolean;
+  sitemap?: boolean;
+  redirect_to?: string;
+  author?: AuthorProps;
+}
+
+function createDefaultDescription(
+  lang: Lang,
+  headings: MarkdownHeading[]
+): string {
+  return (
+    (
+      {
+        ja: "目次: ",
+        en: "Table of Contents: ",
+      }[lang] +
+      headings
+        .filter(({ depth }) => depth === 2)
+        .map(({ text }) => text)
+        .join("; ")
+    ).slice(0, 97) + "..."
+  );
+}
+
+const { frontmatter, headings, file } = Astro.props;
+const {
+  title,
+  description = createDefaultDescription(frontmatter.lang, headings),
+  lang,
+  toc = true,
+  h1,
+  top,
+  support,
+  author,
+} = frontmatter;
+
+const htmlAttributes = {
+  en: {
+    lang: "en",
+    class: "en",
+  },
+  ja: {
+    lang: "ja",
+  },
+}[lang];
+
+const locale = {
+  en: "en_US",
+  ja: "ja_JP",
+}[lang];
+
+const gaid = "UA-160716658-1";
+
+const canonicalUrl = new URL(Astro.url);
+if (parsePath(file).name !== "index") {
+  canonicalUrl.pathname = canonicalUrl.pathname.replace(/\/$/, "");
+}
+
+const seoProps: SEOProps = {
+  title,
+  titleTemplate: "%s | utelecon",
+  titleDefault: "utelecon",
+  description,
+  charset: "UTF-8",
+  canonical: canonicalUrl.href,
+};
+if (title) {
+  seoProps.openGraph = {
+    basic: {
+      title,
+      type: "website",
+      url: canonicalUrl.href,
+      image: new URL("/assets/images/ogp.png", Astro.site).href,
+    },
+    optional: {
+      description,
+      locale,
+      siteName: "utelecon",
+    },
+    image: {
+      alt: "utelecon",
+    },
+  };
+  seoProps.twitter = {
+    title,
+    description,
+  };
+}
+---
+
+<!DOCTYPE html>
+<html {...htmlAttributes}>
+  <head>
+    <SEO {...seoProps} />
+
+    <GoogleAnalytics id={gaid} partytown />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#157878" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <meta name="generator" content={Astro.generator} />
+
+    <link rel="icon" href="/assets/images/favicon.png" />
+
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
+    ></script>
+  </head>
+  <body>
+    <Header lang={lang} top={top} canonicalUrl={canonicalUrl} />
+    <main id="content">
+      {
+        !top && (
+          <h1 class="title">
+            <Markdown content={h1 ?? title} />
+          </h1>
+        )
+      }
+      {
+        !top && toc && headings.length > 0 && (
+          <Toc headings={headings} lang={lang} />
+        )
+      }
+      <slot />
+      {
+        author && (
+          <>
+            <hr />
+            <Author lang={lang} author={author} />
+          </>
+        )
+      }
+    </main>
+    <Footer lang={lang} support={support} />
+  </body>
+</html>

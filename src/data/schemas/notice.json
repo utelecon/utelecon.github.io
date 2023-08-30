@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "array",
+  "description": "array of items",
+  "items": {
+    "type": "object",
+    "description": "single item to be shown",
+    "properties": {
+      "date": {
+        "type": "string",
+        "description": "the date of notice",
+        "format": "date"
+      },
+      "content": {
+        "type": "object",
+        "description": "the content of notice keyed by language",
+        "properties": {
+          "ja": {
+            "type": "string"
+          },
+          "en": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "important": {
+        "type": "boolean",
+        "description": "if this notice is important"
+      }
+    },
+    "required": ["date", "content"],
+    "additionalProperties": false
+  }
+}

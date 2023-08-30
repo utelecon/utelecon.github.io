@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "array",
+  "description": "array of items",
+  "items": {
+    "type": "object",
+    "description": "a block of navigation",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "name of the navigation block"
+      },
+      "contents": {
+        "type": "array",
+        "description": "array of navigation rows",
+        "items": {
+          "type": "object",
+          "description": "a navigation row",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "name of the navigation row; markdown/html available"
+            },
+            "url": {
+              "type": "string",
+              "description": "url of the navigation row"
+            }
+          },
+          "required": ["name", "url"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["name", "contents"],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,99 @@
+# yaml-language-server: $schema=../schemas/nav.json
+
+-
+  name: "まずはここから"
+  contents:
+    -
+      name: "大学生活に必要な情報システムの準備について<small>（新入生向け）</small>"
+      url: "/oc/"
+    -
+      name: "東京大学における情報システムの準備について<small>（教員向け）</small>"
+      url: "/faculty_members/"
+    -
+      name: "オンラインを活用するために"
+      url: "/online/"
+    -
+      name: "サポート窓口"
+      url: "/support/"
+-
+  name: "東京大学のシステム"
+  contents:
+    -
+      name: "UTokyo Account"
+      url: "/utokyo_account/"
+    -
+      name: "UTAS"
+      url: "/utas"
+    -
+      name: "ITC-LMS"
+      url: "/itc_lms"
+    -
+      name: "Zoom"
+      url: "/zoom/"
+    -
+      name: "Webex"
+      url: "/webex/"
+    -
+      name: "ECCSクラウドメール<small> (Google Workspace)</small>"
+      url: "/eccs_cloud_email"
+    -
+      name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
+      url: "/microsoft/"
+    -
+      name: "UTokyo Wi-Fi"
+      url: "/utokyo_wifi/"
+    -
+      name: "ECCS端末"
+      url: "https://www.ecc.u-tokyo.ac.jp/"
+    -
+      name: "その他"
+      url: "/systems/#others"
+-
+  name: "オンラインの活用"
+  contents:
+    -
+      name: "オンラインを活用するために"
+      url: "/online/"
+    -
+      name: "使えるツールから探す"
+      url: "/online/tools"
+    -
+      name: "やりたいことから探す"
+      url: "/online/topics/"
+    -
+      name: "よりよい授業の実施方法を探す"
+      url: "/online/courses"
+    -
+      name: "東大の実践を知る"
+      url: "/online/#utokyo"
+    -
+      name: "資料作成における著作権"
+      url: "/articles/copyright"
+
+-
+  name: "お知らせ・イベント"
+  contents: 
+    -
+      name: "お知らせ"
+      url: "/notice/"
+    -
+      name: "オンライン授業情報交換会"
+      url: "/events/luncheon/"
+    -
+      name: "説明会等"
+      url: "/events/"
+-
+  name: "サポート"
+  contents:
+    -
+      name: "サポート窓口"
+      url: "/support/"
+    -
+      name: "よくある質問 (FAQ)"
+      url: "/faq/"
+    -
+      name: "障害・メンテナンス情報"
+      url: "https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/service-status.aspx"
+    -
+      name: "授業入室トラブル"
+      url: "/oc/join"

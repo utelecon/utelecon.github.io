@@ -1,0 +1,17 @@
+---
+interface Props {
+  userIdField?: string;
+}
+
+const { userIdField } = Astro.props;
+---
+Wi-Fi機能をオンにして少し待つと，Wi-Fi接続設定画面にSSIDの一覧が表示されます．SSIDとは，Wi-Fiの信号を識別するための名前のことです．このSSIDの一覧の中から，<code>0000UTokyo</code>というSSIDを選択して接続してください．
+<ul>
+  <li>{ userIdField }とパスワードを入力する画面が表示された場合は，<strong>手順4</strong>の説明に沿って入力してください．</li>
+  <li>{ userIdField }とパスワードを入力する画面が表示されず，そのまま接続できた場合は，以降の手順は不要です．</li>
+  <li>{ userIdField }とパスワードを入力する画面が表示されず，接続にも失敗する場合は，<strong>手順3</strong>に進んでください．</li>
+  </ul>
+<details>
+    <summary><code>0000UTokyo</code>というSSIDが見つからない場合は</summary>
+    場所によっては，UTokyo Wi-Fiの電波が届いていない可能性があります．場所を変えて再度試してみてください．これまで問題なく利用できていたにもかかわらずSSIDが見つからない場合は，<a href="/support">uteleconサポート窓口</a>から問い合わせてください．
+</details>
