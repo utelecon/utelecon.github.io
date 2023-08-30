@@ -1,0 +1,11 @@
+import Support from "@components/utils/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+1. Go to [ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/login) and click "Login".
+1. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
+
+<Support lang="en" show={props.support} />

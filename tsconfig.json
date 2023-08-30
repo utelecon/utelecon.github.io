@@ -1,0 +1,20 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@data/*": ["src/data/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@styles/*": ["src/styles/*"]
+    }
+  },
+  "mdx": {
+    "plugins": [
+      "remark-gfm",
+      "./src/lib/BlockIALPlugin.js",
+      "./src/lib/SimpleAttentionPlugin.js"
+    ]
+  }
+}

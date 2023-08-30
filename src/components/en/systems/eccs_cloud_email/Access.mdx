@@ -1,0 +1,15 @@
+import Help from "@components/utils/Help.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+1. Access the [ECCS Cloud Email member-only test page (Google Spreadsheet)](https://docs.google.com/spreadsheets/d/1o0DXZHf-b7kN3S6sagM_fXf-kOfHsHWO-3q5opnKXDQ/edit?usp=sharing).
+2. You will be asked to sign in to your ECCS Cloud Email if not already signed in. Please enter the email address and password you previously set.
+3. If you can see the contents of the page (spreadsheet), you have successfully signed into your ECCS Cloud Email. If you cannot see the contents and instead see the “You need permission” message, follow the procedures in the “Troubleshooting guide” section below. Do not request access.
+
+<Help lang="en" support={props.support} open>
+  - **(On PC/smartphone) You are taken to the “You need permission” page and you see who you are signed in as (e.g., “You are signed in as {"example@gmail.com"} ”) at the bottom**: This happens when you are signed in with a Google account other than your ECCS Cloud Email. <small>(e.g., @gmail.com, @<em style="font-style: normal; background-color: yellow;">edu.k</em>.u-tokyo.ac.jp)</small>. Click the email address under “You are signed in as”. You will be taken to the “Choose an account”, where you can switch your account. Select your ECCS Cloud Email account (xxxx@<em style="font-style: normal; background-color: yellow;">g.ecc</em>.u-tokyo.ac.jp). If your ECCS Cloud Email account does not show up, click “Use another account” and sign in with your ECCS Cloud Email.
+  - **(On a smartphone) You are taken to the “You need permission” or “Request access” page**: This happens when you are signed in with a Google account other than your ECCS Cloud Email. Follow the steps in "Log in on your phone" below, and then try to access the test document again.
+</Help>

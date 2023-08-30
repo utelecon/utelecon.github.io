@@ -1,0 +1,14 @@
+import Support from "@components/utils/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+1. [UTokyo Zoom](https://u-tokyo-ac-jp.zoom.us/) のページにアクセスし，「Config」と書かれたボタンを押してください．
+2. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+3. 右上にある「ミーティングをスケジュールする」を押してください．
+4. 会議室の詳細を設定する画面が表示されます．練習なので，よくわからない項目は飛ばすなど適当に入力して，一番下の「保存」を押してください．
+5. 作成された会議室の情報を確認できる画面に移動します．「招待リンク」欄に会議室のURLが表示されており，このURLから会議室に入室できるようになっています．
+
+<Support lang="ja" show={props.support} />

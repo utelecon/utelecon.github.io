@@ -1,0 +1,26 @@
+import Help from "@components/utils/Help.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  * @property {string} deviceDescription
+  * @property {string} applyStep
+  * @property {JSX.Element} connectConfiguration
+  */}
+
+- This process can only be done in the place where UTokyo Wi-Fi (Wi-Fi with SSID `0000UTokyo`) is visible on the Wi-Fi setting menu of your own devices.
+
+1. Select `0000UTokyo` on the Wi-Fi connection settings screen of {props.deviceDescription}.
+2. Enter the user ID and password of your UTokyo Wi-Fi account (not of your UTokyo Account). You can find your user ID and password in the notification email you received in {props.applyStep}. If you have just finished your application, you can also find them on the application completion screen of the account menu.
+3. Once you establish a connection, you can use it just like any normal Wi-Fi.
+
+- When connecting, you may be asked to verify your certificate or to enter the information described in the {props.connectConfiguration}.
+- Please refer to [ECCS Tutor’s page](https://www.sodan.ecc.u-tokyo.ac.jp/en/faq/utokyo-wifi-en/) as well if you are unsure. There are detailed connection instructions for each device. You may also refer to [the "User's Guide" on the page of the Wi-Fi system called "eduroam"](https://www.eduroam.jp/for_users/), which has a similar connection method (replace `eduroam` with UTokyo Wi-Fi SSID when you read the page).
+<Help lang="en" support={props.support}>
+  - If the signal is weak, the connection may be interrupted. Try different locations or times of the day.
+  - When you enter your user ID, please include the alphabetical part as well.
+  - Make sure you have entered the symbols in the password correctly. Try copying and pasting from the notification email.
+  - If you are copying and pasting from a notification email, please make sure that there are no extra spaces before or after the password.
+  - If you have multiple applications for an account during the process, only one of them will be valid; only the account listed in the [UTokyo Wi-Fi account menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/) will be valid, so please check.
+  - The trouble may be caused by devices which are not kept up to date. Old MacOS, Windows 8.1 or earlier, and other devices (smartphones, etc.) that have not been updated should be updated to the latest version before connecting.
+</Help>
