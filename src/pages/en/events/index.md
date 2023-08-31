@@ -2,6 +2,7 @@
 title: Orientations / Seminars
 ---
 
+* 2023/09/14 [Briefing session: A briefing session on web conferencing and cloud tools usable in face-to-face classes - also discussing ways to utilize generative AI in teaching (only in Japanese)](/events/2023-09-14/)
 * 2023/03/15 [Briefing session: A briefing session on web conferencing and cloud tools for online and in-person use - and let's "Chat" about "that AI tool" (only in Japanese)](/events/2023-03-15/)
 * 2022/09/14 [Briefing session: For education, for research, and for administration! A briefing session on online conference tools and cloud tools - and also on the tool you may be curious about (only in Japanese)](/events/2022-09-14/)
 * 2022/03/16 [Briefing session: Not only online classes! A briefing session on ICT and online conference tools for education and research (only in Japanese)](/events/2022-03-16/)
