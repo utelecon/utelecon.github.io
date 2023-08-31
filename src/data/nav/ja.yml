@@ -43,12 +43,6 @@
       name: "UTokyo Slack"
       url: "/slack/"
     -
-      name: "Slido"
-      url: "/slido/"
-    -
-      name: "UTokyo MATLAB Campus-Wide License"
-      url: "/matlab/"
-    -
       name: "UTokyo VPN"
       url: "/utokyo_vpn/"
     -
