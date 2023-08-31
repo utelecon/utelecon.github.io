@@ -20,7 +20,7 @@ Japan's Copyright Act grants exclusive rights to the creators of copyrighted wor
 - **Who is an “Author”:** The term “ “author” means a person who creates a work”[^3]. Idea providers, input assistants, etc. are not recognized as authors.
 - **What are the Restricted Rights Provisions:** When we use works, we need the permission of the right holder, in principle, However, in the case of some specific purposes or forms of use, the work may be freely used without the right holder's permission. （e.g., private reproduction[^4], use by quotation[^5], reproduction in schools, and other educational institutions, etc.[^6] ）
 
-There are various exceptions and points to note in addition to the above, so please refer to the [The Basics of Copyright Law](basic) on this website or the website of the [Agency for Cultural Affairs](https://www.bunka.go.jp/seisaku/chosakuken/) (in Japanese).
+There are various exceptions and points to note in addition to the above, so please refer to the [The Basics of Copyright Law](basic) on this website or the website of the [Agency for Cultural Affairs (in Japanese)](https://www.bunka.go.jp/seisaku/chosakuken/).
 
 ### Article 35 of the Copyright Act and Specific Examples
 
@@ -250,7 +250,7 @@ When lecturing, training, or preparing handouts for such facilities, use copyrig
 [^4]: See Article 31 of the Copyright Act
 [^5]: See Article 32 of the Copyright Act
 [^6]: See Article 35 of the Copyright Act
-[^7]: If you would like to know specifically what changes were made to Article 35 of the revised Copyright Act before and after the revision, please refer to the "The Compensation System for Public Transmission for Educational Purposes" of the Society for the Administration of Remuneration for Public Transmission for School Lessons (SARTRAS) (April 6, 2020, [https://sartras.or.jp/wp-content/uploads/200406_seidoshiryo.pdf](https://sartras.or.jp/wp-content/uploads/200406_seidoshiryo.pdf)).
+[^7]: If you would like to know specifically what changes were made to Article 35 of the revised Copyright Act before and after the revision, please refer to the "The Compensation System for Public Transmission for Educational Purposes" of the Society for the Administration of Remuneration for Public Transmission for School Lessons (SARTRAS) (April 6, 2020, <https://sartras.or.jp/wp-content/uploads/200406_seidoshiryo.pdf>).
 [^8]: Enacted on April 28, 2020.
 [^9]: University, etc
 [^10]: See Article 35-2 of the Copyright Act
@@ -267,9 +267,9 @@ When lecturing, training, or preparing handouts for such facilities, use copyrig
 [^21]: See Copyright Act, Article 6-1-1.
 [^22]: See Operational Guidelines 8-9.
 [^23]: See Operational Guidelines, paragraphs 9-20, especially 14-19.
-[^24]: Massive Open Online Courses : As of April 2021, a total of 19 courses are available on Coursera and edX at the University of Tokyo. Reference: University of Tokyo Massive Open Online Course (MOOC)https://www.u-tokyo.ac.jp/ja/society/visit-lectures/mooc.html
+[^24]: Massive Open Online Courses : As of April 2021, a total of 19 courses are available on Coursera and edX at the University of Tokyo. Reference: University of Tokyo Massive Open Online Course (MOOC) <https://www.u-tokyo.ac.jp/ja/society/visit-lectures/mooc.html>
 [^25]: Citation: Revised Copyright Act Article 35 Operational Guidelines (2021 version)
 [^26]: Faculty Development : Organizational efforts by faculty to improve and enhance course content and methods
 [^27]: Staff Development : Systematic efforts to improve the quality of staff, including administrative management and education/research support
 [^28]: Including items that faculty members have instructed students to purchase.
-[^29]: Slogans, pictures, and photographs are copyrighted works in which the use of the entire work is unavoidable. In such cases, it may be judged that reproduction or public transmission of the entire work does not unreasonably prejudice the rights owner's interests. The revised Copyright Act, Article 35, Guideline for Application （[https://forum.sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf](https://forum.sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf)）, p. 10-11, cites a case where a work is shown as part of an image or in the background of a movie projected in class. as an example where the interests of the author are not unreasonably prejudiced. On the other hand, partial reproduction and public transmission of a work, for example, by cutting out only a part of the work, may constitute an infringement of the copyright law because it may be contrary to the author's intention. It should be noted that the use of a work that is allowed to be used in its entirety without prejudice to copyright assumes that the work is not provided in a quality that would affect the sales of the work.
+[^29]: Slogans, pictures, and photographs are copyrighted works in which the use of the entire work is unavoidable. In such cases, it may be judged that reproduction or public transmission of the entire work does not unreasonably prejudice the rights owner's interests. The revised Copyright Act, Article 35, Guideline for Application （<https://forum.sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf>）, p. 10-11, cites a case where a work is shown as part of an image or in the background of a movie projected in class. as an example where the interests of the author are not unreasonably prejudiced. On the other hand, partial reproduction and public transmission of a work, for example, by cutting out only a part of the work, may constitute an infringement of the copyright law because it may be contrary to the author's intention. It should be noted that the use of a work that is allowed to be used in its entirety without prejudice to copyright assumes that the work is not provided in a quality that would affect the sales of the work.
