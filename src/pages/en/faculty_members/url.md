@@ -6,7 +6,7 @@ redirect_from:
 
 This page explains how instructors announce the online class URL (the URL of web conference rooms such as Zoom) to students. 
 
-Faculty members used to announce the online class URLs to their students differently, which had caused confusion. It was hence decided to unify the announcement method among all faculty members. The "[Guideline for Using Online Tools for AY2021S Semester Classes](/en/notice/guideline)" was also established following the decision.
+Faculty members used to announce the online class URLs to their students differently, which had caused confusion. It was hence decided to unify the announcement method among all faculty members. The "[Guideline for Using Online Tools for AY2021S Semester Classes](/en/docs/guideline)" was also established following the decision.
 
 Below is the announcement method based on the aforementioned guideline. Your cooperation to adopt the specified method is kindly appreciated.
 

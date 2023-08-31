@@ -1,5 +1,7 @@
 ---
 title: The tools usage guideline for online class since S semester 2021
+redirected_from:
+  - "/en/notice/guideline"
 --- 
 This is the English translation of the Japanese document.
 
