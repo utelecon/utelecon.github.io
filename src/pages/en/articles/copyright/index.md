@@ -5,7 +5,9 @@ title: How Copyright Is Handled in Schools and Other Educational Institutions
 ## Outline of this Article
 
 This article is intended as a guide for those who create class materials in Japanese schools and other educational institutions, as well as for those who play a supporting role.
+
 Since 2020, the demand for online education using web conferencing systems and education systems is expanding worldwide due to the influence of the novel coronavirus, and not a few people may be confused about how to handle copyrighted works as class materials. Some of the articles on this site introduce how copyrighted works should be handled when creating class materials for online education in Japan, based on the law.
+
 Please refer to these articles before creating class materials.
 
 ## [The Basics of Copyright Law](basic)
@@ -19,16 +21,19 @@ Under Article 35 of the revised Copyright Act, schools and other educational ins
 ## Creating Class Materials that Do Not Infringe Copyright
 
 In classes and other educational activities, it is often necessary to use other people's materials, such as illustrations, photographs, and excerpts from articles and textbooks. There are certain materials that are free to use or can be freely used for specific purposes.
+
 You may freely use materials in the following four cases.
 
 ### 1. When the material is not copyrighted
 
 Ideas and common expressions are not copyrighted works. In addition, miscellaneous news and current affairs reports that merely communicate facts are not copyrighted works (Article 10, Paragraph 2 of the revised Copyright Law).
+
 Furthermore, the Constitution, other laws and regulations, and court decisions cannot be the subject of an author's rights (Article 13). Such materials may be used freely.
 
 ### 2. In the case of works which are out of copyright term
 
 The duration of copyright begins at the time of the creation of works and in principle lasts until 70 years after death in the case of Japan (Article 51). (There are countries where the term of duration is not 70 years: for example, 100 years in Mexico and 30 years in Iran.)
+
 When the term of the right expires, the work enters the so-called "public domain" and can be used freely.
 
 → For more information on the public domain, please refer to [this page](public-domain-creative-commons-license).
@@ -42,6 +47,7 @@ There are cases in which authors have indicated their intention to have their wo
 ### 4. Use of copyrighted materials that does not require permission
 
 In principle, permission of the copyright holder is required to use copyrighted works that are still within the term of copyright.
+
 However, for a specific purpose or form of use, such as writing a thesis or essay by quoting other people’s work, such works may be freely used without permission of the copyright holders. According to the Copyright Law of Japan, the requirements are listed according to the form of use  under Article 30. If the requirements are satisfied, the works can be used without permission; otherwise, you must get consent.
 
 → Please refer to [this page](educational-use-examples) for information on reproduction, etc. in schools and other educational institutions (Article 35).
