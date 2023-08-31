@@ -28,11 +28,11 @@
       name: "ITC-LMS"
       url: "/itc_lms"
     -
+      name: "UTokyo Wi-Fi"
+      url: "/utokyo_wifi/"
+    -
       name: "Zoom"
       url: "/zoom/"
-    -
-      name: "Webex"
-      url: "/webex/"
     -
       name: "ECCSクラウドメール<small> (Google Workspace)</small>"
       url: "/eccs_cloud_email"
@@ -40,14 +40,14 @@
       name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
       url: "/microsoft/"
     -
-      name: "UTokyo Wi-Fi"
-      url: "/utokyo_wifi/"
+      name: "UTokyo Slack"
+      url: "/slack/"
     -
-      name: "ECCS端末"
-      url: "https://www.ecc.u-tokyo.ac.jp/"
+      name: "UTokyo VPN"
+      url: "/utokyo_vpn/"
     -
-      name: "その他"
-      url: "/systems/#others"
+      name: "一覧"
+      url: "/systems/"
 -
   name: "オンラインの活用"
   contents:
@@ -69,19 +69,30 @@
     -
       name: "資料作成における著作権"
       url: "/articles/copyright"
-
 -
-  name: "お知らせ・イベント"
-  contents: 
+  name: "各種案内・イベント等"
+  contents:
     -
       name: "お知らせ"
       url: "/notice/"
     -
-      name: "オンライン授業情報交換会"
-      url: "/events/luncheon/"
+      name: "情報セキュリティポータルサイト"
+      url: "https://univtokyo.sharepoint.com/sites/Security/"
+    -
+      name: "方針等"
+      url: "/docs/"
+    -
+      name: "卒業・退職や所属変更によるアカウント失効についての注意 "
+      url: "/systems/leave/"
+    -
+      name: "オンライン授業の受講に利用可能な教室の一覧"
+      url: "/oc/rooms"
     -
       name: "説明会等"
       url: "/events/"
+    -
+      name: "オンライン授業情報交換会"
+      url: "/events/luncheon/"
 -
   name: "サポート"
   contents:

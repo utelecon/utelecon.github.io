@@ -18,7 +18,7 @@
     "@astrolib/analytics": "^0.3.0",
     "@rollup/plugin-yaml": "^4.1.1",
     "astro": "2.9.3",
-    "astro-seo": "^0.7.5",
+    "astro-seo": "^0.7.6",
     "github-slugger": "^2.0.0",
     "mdast": "^3.0.0",
     "rehype-external-links": "^2.1.0",
