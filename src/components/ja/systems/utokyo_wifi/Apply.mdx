@@ -36,7 +36,7 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
    </If>
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
    <If cond={props.inlineHelp}>
-     <ApplyHelpJouhouSecurity type="details" jouhouSecurity={props.jouhouSecurity} />
+     <ApplyHelpJouhouSecurity type="details" />
    </If>
 1. 「新規申請」ボタンを押してください．
 1. アカウント情報（ユーザーID・パスワード）が書かれた通知メールは，[ECCSクラウドメール](/eccs_cloud_email)のメールアドレスと，「通知用メールアドレス」欄に表示されているメールアドレスの両方に届きます．<br />
@@ -64,7 +64,7 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
 <If cond={props.inlineHelp}>
   <Support lang="ja" show={props.support} />
   <Help lang="ja" support={props.support} slot="else">
-    - <ApplyHelpJouhouSecurity type="default" jouhouSecurity={props.jouhouSecurity} />
+    - <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
   </Help>
 </If>

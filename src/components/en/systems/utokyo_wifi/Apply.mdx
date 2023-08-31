@@ -10,7 +10,6 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
   * @property {boolean} [blockLink]
   * @property {boolean} [inlineHelp]
   * @property {boolean} [utasOnly]
-  * @property {JSX.Element} jouhouSecurity
   */}
 
 
@@ -23,7 +22,7 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
    </If>
 1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
    <If cond={props.inlineHelp}>
-     <ApplyHelpJouhouSecurity type="details" jouhouSecurity={props.jouhouSecurity} />
+     <ApplyHelpJouhouSecurity type="details" />
    </If>
 1. Click on the "New Application" Button.
 1. A notification email with your account information (user ID and password) will be sent to both your [ECCS Cloud Email](/en/eccs_cloud_email) address and the email address shown in the "Notification E-mail Address" field.<br />
@@ -50,7 +49,7 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
   <Help lang="en" support={props.support} slot="else">
-    - <ApplyHelpJouhouSecurity type="default" jouhouSecurity={props.jouhouSecurity} />
+    - <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
   </Help>
 </If>
