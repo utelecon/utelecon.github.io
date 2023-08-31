@@ -28,11 +28,11 @@
       name: "ITC-LMS"
       url: "/itc_lms"
     -
+      name: "UTokyo Wi-Fi"
+      url: "/utokyo_wifi/"
+    -
       name: "Zoom"
       url: "/zoom/"
-    -
-      name: "Webex"
-      url: "/webex/"
     -
       name: "ECCSクラウドメール<small> (Google Workspace)</small>"
       url: "/eccs_cloud_email"
@@ -40,14 +40,20 @@
       name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
       url: "/microsoft/"
     -
-      name: "UTokyo Wi-Fi"
-      url: "/utokyo_wifi/"
+      name: "UTokyo Slack"
+      url: "/slack/"
     -
-      name: "ECCS端末"
-      url: "https://www.ecc.u-tokyo.ac.jp/"
+      name: "Slido"
+      url: "/slido/"
     -
-      name: "その他"
-      url: "/systems/#others"
+      name: "UTokyo MATLAB Campus-Wide License"
+      url: "/matlab/"
+    -
+      name: "UTokyo VPN"
+      url: "/utokyo_vpn/"
+    -
+      name: "一覧"
+      url: "/systems/"
 -
   name: "オンラインの活用"
   contents:
