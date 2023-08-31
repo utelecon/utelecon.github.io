@@ -12,7 +12,7 @@ UTokyo Wi-Fi is a Wi-Fi service available to members of the University of Tokyo 
 
 ## eduroam
 
-[eduroam](https://eduroam.org/) is a wireless LAN service that can be used mutually among universities and research institutes. Members of the University of Tokyo can use eduroam at other universities and research institutes with the same user ID and password as their UTokyo Wi-Fi account. The steps for connecting are the same as those for UTokyo Wi-Fi, so please refer to the [UTokyo Wi-Fi page](/en/utokyo_wifi/). That said, you'll need to substitute the SSID from 0000UTokyo to eduroam.
+[eduroam](https://eduroam.org/) is a wireless LAN service that can be used mutually among universities and research institutes. Members of the University of Tokyo can use eduroam at other universities and research institutes with the same user ID and password as their UTokyo Wi-Fi account. The steps for connecting are the same as those for UTokyo Wi-Fi, so please refer to the [UTokyo Wi-Fi page](/en/utokyo_wifi/). That said, you'll need to substitute the SSID from `0000UTokyo` to `eduroam`.
 
 - Please refer to the [eduroam JP Privacy Policy](https://meatwiki.nii.ac.jp/confluence/x/WYX0BQ) when using eduroam.
 - You can also use eduroam on the University of Tokyo campus, but your connection will be treated as an off-campus network, and you will not be able to use databases, e-journals, e-books, etc. The eduroam service on the University of Tokyo campus is provided for external users, so members should basically use the UTokyo Wi-Fi service on campus.
