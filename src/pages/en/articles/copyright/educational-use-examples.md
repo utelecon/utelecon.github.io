@@ -138,6 +138,15 @@ In addition, concerning the form of use, there is a high possibility of unreason
 - Using different parts of the same work in each session, such as reading one chapter of a book at a time, resulting in a large portion of the work being used in that class
 - Providing entire copies of literature that is not covered in class but that students may find helpful.
 
+##### (3) Art Works, Photographs, Etc.
+
+Paintings, photographs, and illustrations are also works that are difficult to use in part. As a rule, reproduction and public transmission of the entirety of such works are considered to be permitted.
+
+However, there is a high possibility of unreasonable prejudice to the interests of the copyright owners in the following cases.
+
+- Reproducing or providing bound copies of commercially available goods in sufficient quality as to affect the sales of such goods
+- Selecting many works from the same art book, printing them, distributing them in class, or scanning and uploading them to a server
+
 ## Part 2: Specific Examples of Use of Copyrighted Works at Universities
 
 In the following, we will give specific examples of the use of copyrighted works within the university, and introduce cases that are deemed a violation of the Copyright Law. Below is an explanation of Article 35 of the Copyright Law with specific examples taken from the Operational Guidelines.
