@@ -42,7 +42,7 @@ When the term of the right expires, the work enters the so-called "public domain
 
 There are cases in which authors have indicated their intention to have their work freely used or to have a certain usage policy. The Creative Commons License (CC License) is a tool for expressing the intention to distribute materials under specific conditions while retaining copyright.
 
-→ Please refer to this page for more information about [CC License](public-domain-creative-commons-license).
+→ Please refer to [this page](public-domain-creative-commons-license) for more information about CC License.
 
 ### 4. Use of copyrighted materials that does not require permission
 
