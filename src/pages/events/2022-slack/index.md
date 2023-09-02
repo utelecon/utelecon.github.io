@@ -2,14 +2,9 @@
 title: 2022年8月・9月 UTokyo Slack説明会
 ---
 
-<b class="box">
-（2023年9月）本説明会で説明した編入（移行）手続きは，<b class="alert">2023年8月24日正午をもって受付を終了しました</b>．詳細は<a href="/notice/2023/06-slack-migration">お知らせページ</a>をご覧ください．
-</b>
-
-
 情報システム本部では，幅広い大学活動をカバーするコミュニケーション環境整備の一環として，ビジネスチャットツール「Slack」の導入について検討を進めてまいりました．このたび一定の準備が整ったことから，2022年8月より，「UTokyo Slack」として試行運用を行います．
 
-※UTokyo Slackについての詳細は，「[全学的なSlackの試行運用開始および説明会開催のお知らせ](/notice/2022/0805-slack)」および以下の説明ページをご覧ください．
+※UTokyo Slackについての詳細は，以下の説明ページをご覧ください．
 
 <div class="box center"><a href="/slack/">UTokyo Slack（試行）</a></div>
 
@@ -24,7 +19,7 @@ title: 2022年8月・9月 UTokyo Slack説明会
 - 参加方法：~~Zoomウェビナー登録ページ~~(終了いたしました)から申し込んでください．
 - 資料
     - **[全体スライド](part1_main.pdf)**
-    - **[編入（移行）の概要](part1_migration.pdf)** <small>※編入（移行）手続きは2023年8月24日正午をもって受付を終了しました．</small>
+    - **<del>[編入（移行）の概要](part1_migration.pdf)</del>** <small>※編入（移行）手続きは2023年8月24日正午をもって受付を終了しました．</small>
     - **[Microsoft Teamsのアップデート](part1_teams.pdf)**
 - 録画：**[説明会ビデオ](https://youtu.be/n1LsNZfGEVw)**
 - 質疑応答：**[いただいたご質問と回答のまとめ](https://docs.google.com/spreadsheets/d/1b6w-Y1qQg6qJve9_cPzBLG_B1geZmM2geZWlOzpJMkU/edit?usp=sharing)**を掲載しました（2022年9月13日．掲載に時間がかかり申し訳ありませんでした）．なお，閲覧には[ECCSクラウドメール](/eccs_cloud_email)へのログインが必要です．
@@ -32,9 +27,13 @@ title: 2022年8月・9月 UTokyo Slack説明会
 ## パート2 「既存ワークスペースの編入（移行）について」
 {:#part2}
 
+<b class="box">
+（2023年9月）本説明会で説明した編入（移行）手続きは，<b class="alert">2023年8月24日正午をもって受付を終了しました</b>．詳細は<a href="/notice/2023/06-slack-migration">お知らせページ</a>をご覧ください．APIを用いた「移植」については引き続きご利用いただけますが，～～
+</b>
+
 - 日程：2022年8月31日（水）16時30分～17時30分
 - 参加方法：~~Zoom ウェビナー登録ページ~~(終了いたしました)から申し込んでください．なお，パート1の内容を前提として説明を行う予定です．
-- 資料 <small>※編入（移行）手続きは2023年8月24日正午をもって受付を終了しました．</small>
+- 資料
     - **[全体スライド](part2_main.pdf)**
     - **[編入（移行）の詳細](part2_migration.pdf)**
     - **[APIを用いた「移植」](part2_api.pdf)**
