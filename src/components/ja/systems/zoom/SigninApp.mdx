@@ -28,13 +28,13 @@ import SigninAppHelpDomain from "./SigninAppHelpDomain.mdx";
      ![](/zoom/signin/2.png){:.medium}
    </If>
    <If cond={props.inlineHelp}>
-     <SigninAppHelpDomain />
+     <SigninAppHelpDomain type="details" />
    </If>
 5. パソコンの場合は右上のアイコン（自分のアイコンか，設定していない場合は人のマーク），スマホの場合は右下の「詳細」を押して表示される画面で，自分の名前（設定していない場合は共通ID）と「ライセンス ユーザー」の表示が出ていれば，正しくサインインできています．
 
 <If cond={props.inlineHelp}>
   <Support lang="ja" show={props.support} />
   <Help lang="ja" support={props.support}  slot="else">
-    - <SigninAppHelpDomain oneline />
+    - <SigninAppHelpDomain type="oneline" />
   </Help>
 </If>
