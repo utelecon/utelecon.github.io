@@ -89,7 +89,7 @@ You can apply for reregistration and termination at the relevant office of your 
 
 - Please indicate which procedure you wish to take (reregisteration of verification method, or termination of MFA use).
 - Please bring your student/staff ID to verify your identity.
-- [Please refer to this page if you are a member of the relevant office of faculty/graduate school (only for faculty members)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/MFA_Reset_Request.aspx)．
+- [Please refer to this page if you are in charge of the relevant office of faculty/graduate school (only for faculty members)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/MFA_Reset_Request.aspx)．
 
 ### Apply via the Application Website
 {:#dedicated-site}
