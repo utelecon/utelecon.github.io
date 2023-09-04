@@ -52,7 +52,9 @@ Workspaces in UTokyo Slack are created upon request from faculty and staff. Plea
 
 ### Incorporation (migration) of existing workspace
 
-If you wish to use an existing workspace that you are currently using outside UTokyo Slack as a workspace in UTokyo Slack, rather than creating a new workspace, a special procedure called "incorporation (migration)" is required, and is only available on a limited basis. For details, please refer to the "[Incorporation (migration) of existing workspaces into UTokyo Slack](/slack/workspace/migration)" (in Japanese) page.
+(September 2023) We have closed the admission for transfers effective 12:00 PM, August 24, 2023. See [announcements page (only in Japanese)](/notice/2023/06-slack-migration) for more information.
+
+<del>If you wish to use an existing workspace that you are currently using outside UTokyo Slack as a workspace in UTokyo Slack, rather than creating a new workspace, a special procedure called "incorporation (migration)" is required, and is only available on a limited basis. For details, please refer to the "[Incorporation (migration) of existing workspaces into UTokyo Slack](/slack/workspace/migration)" (in Japanese) page.</del>
 
 ## Others
 
