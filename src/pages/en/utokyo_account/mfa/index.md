@@ -17,7 +17,7 @@ We ask the UTokyo Account users to enable MFA because maintaining the security o
 
 Please refer to the following page for the initial setup procedure (things to do when you get started).
 
-<b class="box center"><a href="initial">Initial Setup Procedure of Multi-Factor Authentication for UTokyo Accounts</a></b>
+<b class="box center"><a href="initial">Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts</a></b>
 
 ## If You Cannot Verify Your Identity and Failed to Sign In Due to Phone Malfunction or Model Change
 

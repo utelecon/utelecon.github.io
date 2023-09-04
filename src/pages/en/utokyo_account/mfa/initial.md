@@ -209,7 +209,7 @@ The next step is to check that you can sign in to your UTokyo Account using MFA.
 <div class="box">
 The setup process is not over. Continue to Step 4.
 <br><br>
-*If you could not complete this Step 3 properly, do not proceed to Step 4. Contact the <a href="/support/">Technical Support Desk</a>.
+*If you could not complete this Step 3 properly, do not proceed to Step 4. Contact the <a href="/en/support/">Technical Support Desk</a>.
 </div>
 
 ## Step 4: Apply for MFA Use
@@ -237,5 +237,6 @@ If you want to use the UTokyo VPN, additional procedures in the <a href="/en/uto
 Once the MFA is enabled, **you will be asked to verify your identity with the SMS or authenticator apps you registered every time you sign in to your UTokyo Account**. Be well aware that if you lose access to the registered verification method (smartphone apps, phone number, etc.), you will be unable to sign in to your UTokyo Account.
 
 
-In particular, when you get a new phone, register the phone for MFA by following the procedures in “[Changing the Verification Method of Multi-Factor Authentication for UTokyo Accounts](change)” while your old phone is available. Once your old phone is disposed of, you will no longer be able to verify your identity with the authentication app using the old phone. In addition, if you change the phone number, the verification with your former phone number will be impossible. Since you need to sign in to the system with your old verification method even when you change the method, it is important to switch your verification method while your old phone is available to avoid being completely locked out of your UTokyo Account. 
+In particular, when you get a new phone, register the phone for MFA by following the procedures in “[Changing the Verification Method of Multi-Factor Authentication for UTokyo Accounts](change)” while your old phone is available. Once your old phone is disposed of, you will no longer be able to verify your identity with the authentication app using the old phone. In addition, if you change the phone number, the verification with your former phone number will be impossible. Since you need to sign in to the system with your old verification method even when you change the method, it is important to switch your verification method while your old phone is available to avoid being completely locked out of your UTokyo Account.
+
 Once you enable the MFA, you cannot disable it by yourself. If you wish to stop using MFA and reverse your UTokyo Account settings to allow signing in with only a password, you need to “terminate MFA use”. Please visit “[Terminate MFA Use](reregister_and_terminate)” for more information.
