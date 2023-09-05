@@ -2,6 +2,10 @@
 title: UTokyo VPN
 ---
 
+<div class="box--alert">
+ [Important] Suspension of use for those who have not attended the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">Information Security Education</a> since 9 August.
+</div>
+
 ## Introduction
 {:#introduction}
 

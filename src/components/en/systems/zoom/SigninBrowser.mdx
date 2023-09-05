@@ -16,7 +16,7 @@ import SigninBrowserHelpExisting from "./SigninBrowserHelpExisting.mdx";
      ![](/en/zoom/signin/1.png){:.medium}
    </If>
    <If cond={props.inlineHelp}>
-     <SigninBrowserHelpExisting />
+     <SigninBrowserHelpExisting type="details" />
    </If>
 3. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
    <If cond={props.big}>
@@ -30,6 +30,6 @@ import SigninBrowserHelpExisting from "./SigninBrowserHelpExisting.mdx";
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
   <Help lang="en" support={props.support} slot="else">
-    - <SigninBrowserHelpExisting oneline />
+    - <SigninBrowserHelpExisting type="oneline" />
   </Help>
 </If>
