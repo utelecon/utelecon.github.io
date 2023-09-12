@@ -8,7 +8,7 @@ title: Googleドライブ
 
 ### 東京大学のアカウントでの利用
 
-東京大学では，Google社のサービス「Google Workspace」が，「**[ECCSクラウドメール](/eccs_cloud_email)**」として提供されています．Googleドライブもその一部に含まれているため，東京大学の構成員は，ECCSクラウドメールのアカウントでGoogleドライブを利用することができます．
+東京大学では，Google社の「Google Workspace」が「**[ECCSクラウドメール](/eccs_cloud_email)**」として提供されています．Googleドライブもその一部に含まれているため，東京大学の構成員は，ECCSクラウドメールのアカウントでGoogleドライブを利用することができます．
 
 ECCSクラウドメールは組織契約によって提供されているため，個人のGoogleアカウントとは異なる部分があります．
 
@@ -26,7 +26,7 @@ ECCSクラウドメールは組織契約によって提供されているため�
 
 以下のリンクからGoogleドライブにアクセスしてください．
 
-**[Googleドライブ](https://drive.google.com/drive/)**{:.box}
+**[Googleドライブ](https://drive.google.com/drive/)**{:.box.center}
 
 その際，ログインしていない場合はログインするよう求められますので，[ECCSクラウドメールのページの「利用開始の手順」](/eccs_cloud_email#initial-setup)を参照してログインしてください．
 
@@ -34,13 +34,13 @@ ECCSクラウドメールは組織契約によって提供されているため�
 
 ファイルを作成，編集，アップロード，ダウンロードする方法については，以下のページを参照してください．
 
-**[Googleドライブの基本的な使い方](basic)**{:.box}
+**[Googleドライブの基本的な使い方](basic)**{:.box.center}
 
 ### ファイルを共有する
 
 Googleドライブ上のファイルを共有する方法については，以下のページを参照してください．
 
-**[Googleドライブでファイルを共有する](share)**{:.box}
+**[Googleドライブでファイルを共有する](share)**{:.box.center}
 
 ## その他
 
@@ -53,9 +53,9 @@ Googleドライブ上で作成したファイルは，以下のようなGoogle�
 - Googleスプレッドシート：Microsoft Excelに相当
 - Googleスライド：Microsoft PowerPointに相当
 
-それぞれの形式は，対応するMicrosoft Officeの形式に変換することが可能です．また，アップロードしたMicrosoft Office形式のファイルをGoogleのサービス上で編集することも可能です．
+それぞれの形式は，対応するMicrosoft Officeの形式に変換してダウンロードすることが可能です．また，アップロードしたMicrosoft Office形式のファイルをGoogleのサービス上で編集することも可能です．
 
-ただし，完全な互換性があるわけではなく，Microsoft Office形式のファイルをGoogleサービス上で表示・編集した場合，見た目が崩れてしまうことや，非対応の機能に関する情報が消えてしまうことがあります．Googleドライブを中心にファイルを扱うのであれば，Googleのサービス上でファイルの作成・編集を完結させるようにすると，形式の変換をすることなく利用することができ，最もスムーズと言えます．
+ただし，完全な互換性があるわけではなく，Microsoft Office形式のファイルをGoogleサービス上で表示・編集した場合，見た目が崩れてしまうことや，Googleのサービスが対応していない機能に関する情報が消えてしまうことがあります．Googleドライブを中心にファイルを扱うのであれば，Googleのサービス上でファイルの作成・編集を完結させるようにするのが，形式の変換をすることなく利用することができるという点で最もスムーズと言えます．
 
 ### Googleドライブのアプリについて
 
@@ -67,7 +67,7 @@ Googleドライブにはパソコン向けおよびスマートフォン・タ�
 
 ### オフラインでの使用について
 
-パソコンのGoogle Chromeブラウザでは，Googleドキュメント等のファイルをオフラインでも使用できるようにする機能があります．
+パソコンのGoogle Chromeブラウザでは，Googleドキュメント等のファイルをオフラインでも使用できるようにする機能があります．手順は以下の通りです．
 
 1. インターネットに接続した上でGoogle Chrome ブラウザを開きます．
 1. [Google ドキュメントのオフライン Chrome 拡張機能](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi)をインストールします.
