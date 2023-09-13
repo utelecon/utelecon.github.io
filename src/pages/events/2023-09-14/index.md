@@ -46,4 +46,4 @@ Aセメスターの開始に当たり，東京大学で使われているクラ�
 
 ## 事後アンケート
 
-当日のZoomから退出する際にアンケート用の画面が表示されますので，そちらから回答をお願いします．
+[アンケートページ](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhCuBeJVJ_XlOnN_5jlB8sBhUQVc4Vk42MkVGVVYyRlRHM01JMjJVTDJYNi4u)からご回答ください．Zoomから退出した際にも同じアンケートが表示されますので，そちらから回答することも可能です．
