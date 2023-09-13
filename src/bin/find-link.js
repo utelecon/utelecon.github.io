@@ -26,7 +26,6 @@ async function find(file) {
   for (const tag of selectAll("a", hast)) {
     const href = tag.properties?.href;
     if (typeof href !== "string") continue;
-    if (href.startsWith("http")) continue;
 
     /** @type {string} */
     let path;
