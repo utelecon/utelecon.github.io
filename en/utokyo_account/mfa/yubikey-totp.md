@@ -69,12 +69,11 @@ If you have already registered another verification method as your first one and
 
 <details><summary>Regarding the registration of your email address</summary>If you have not registered any verification method, you will be prompted to enter your email address after completing the code input test. Please use an email address other than ECCS cloud mail if possible. Next, you will receive a "code" (a 6-digit number) at that email address, please input it accordingly. <img src="first_email.png"></details>
 
-Once you have completed the registration for the verification method, **make sure to follow all the steps up to step 4 in the [Initial Setup Procedure of Multi-Factor Authentication for UTokyo Accounts](/utokyo_account/mfa/initial) and enable Multi-Factor Authentication.**
+Once you have completed the registration for the verification method, **make sure to follow all the steps up to step 4 in the [Initial Setup Procedure of Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/initial) and enable Multi-Factor Authentication.**
 
 ### Procedures of signing in Yubico Authenticator
 
 1. When you sign in to the UTokyo account (after entering the password), the screen for verifying identity through multi-factor authentication using the default verification method will be displayed. Please press the “Having troubles? Sign in another way” or “I can’t use my Microsoft Authenticator app right now”.
-
 * If you set the default verification method to “App based authentication or hardware token - code”, the screen in step 3 will be displayed from the beginning. Please follow step 3 as step 1 and 2 are skipped.
 ![](yubico_signin_other_method.png)
 2. Please press “Use a verification code”.
