@@ -11,7 +11,7 @@ const arg = process.argv[2];
 if (!arg) {
   throw new Error("Usage: node src/lib/find-link.js <path>");
 }
-const target = resolve("dist", process.argv[2].slice(1));
+const target = resolve("dist", arg.slice(1));
 console.log(target);
 const parser = unified().use(rehypeParse);
 
