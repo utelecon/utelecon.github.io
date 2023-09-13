@@ -13,6 +13,7 @@ jobs:
           node-version: 18
 
   deploy:
+    needs: [build]
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/download-artifact@v3
