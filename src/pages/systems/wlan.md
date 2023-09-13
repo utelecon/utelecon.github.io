@@ -13,9 +13,7 @@ UTokyo Wi-Fiは，東京大学の構成員が教育・研究を目的として�
 
 ## eduroam
 
-[eduroam](https://eduroam.jp/)は，大学や研究機関等での相互利用が可能な無線LANサービスです．東京大学の構成員は，他大学・機関等において，UTokyo Wi-Fiアカウントと同じユーザーID・パスワードでeduroamを利用することができます<small>（2023年1月31日以降に発行したUTokyo Wi-Fiアカウントに限ります）</small>．
-
-※旧「[東京大学EDUROAMユーザー情報管理システム](https://www.eduroam.itc.u-tokyo.ac.jp/cgi-bin/ja/top.cgi)」のアカウントは，2023年3月31日をもって新規発行を終了し，2023年5月1日以降は利用できなくなります．今後，eduroamはUTokyo Wi-Fiアカウントでご利用ください．
+[eduroam](https://eduroam.jp/)は，大学や研究機関等での相互利用が可能な無線LANサービスです．東京大学の構成員は，他大学・機関等において，UTokyo Wi-Fiアカウントと同じユーザーID・パスワードでeduroamを利用することができます．具体的な接続の手順はUTokyo Wi-Fiと同様なので，[UTokyo Wi-Fiのページ](/utokyo_wifi/)を参照してください．ただし，SSIDを`0000UTokyo`から`eduroam`に読み替えてください．
 
 - 利用の際は，[eduraom JP プライバシーポリシー](https://meatwiki.nii.ac.jp/confluence/x/WYX0BQ)も参照してください．
 - 東京大学のキャンパス内でも利用できますが，学外扱いのネットワークに接続され，データベース・電子ジャーナル・電子ブック等の利用もできません．東京大学キャンパス内のeduroamサービスは学外者向けに提供しているものですので，構成員は学内では基本的にUTokyo Wi-Fiを利用してください．
