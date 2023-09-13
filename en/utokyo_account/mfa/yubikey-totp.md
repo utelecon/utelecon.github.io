@@ -1,7 +1,9 @@
 ---
 title: Instructions for Yubico Authenticator in Multi-Factor Authentication for UTokyo Accounts
 ---
+
 ## Introduction
+
 For verification methods in multi-factor authentication for UTokyo Accounts, in addition to smartphone apps such as the “Google Authenticator”, there are PC apps used in conjunction with a specific device called security key. An example of those products is the combination of some models of the “YubiKey” security key and “Yubico Authenticator” app.
 
 This page introduced how to register and sign in by a verification method as YubiKey security key and Yubico Authenticator app for multi-factor authentication for UTokyo Accounts.
@@ -15,6 +17,7 @@ To register the combination of YubiKey security key and Yubico Authenticator app
 ## Installation of “Yubico Authenticator” app
 
 Firstly, you need to download the Yubico Authenticator app to your PC or smartphone and register for the YubiKey.
+
 1. Please install the Yubico Authenticator app from the [download page of Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/).
 2. Connect your YubiKey by following the instructions of Yubico Authenticator app.
 
@@ -23,6 +26,8 @@ Firstly, you need to download the Yubico Authenticator app to your PC or smartph
 You need to display the QR code to register the Yubico Authenticator app as a verification method for multi-factor authentication for UTokyo accounts. Since the displaying method of QR code differs depending on the situations, details would be explained separately.
 
 ### If you register the Yubico Authenticator app as the first verification method
+
+If you have not registered any verification method and wish to register the Yubico Authenticator app as your first verification method, please follow the procedures below.
 
 1. Access the [Security info page](https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp).
 2. The sign in page will appear (if you are not already signed in). Enter your UTokyo Account username (10-digit Common ID) and password and click “Sign in”.
@@ -38,6 +43,7 @@ You need to display the QR code to register the Yubico Authenticator app as a ve
 If you have already registered another verification method as your first one and wish to register the Yubico Authenticator app as an alternative verification method, please follow the procedures below.
 
 1. Click "Add method" in the [Security info page](https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp).
+![](yubico_add_signin_method.png)
 2. For “Which method would you like to add?”, select “Authenticator app” and click “Add”.
 ![](yubico_select_auth_app.png)
 3. Click “I want to use a different authentication app”.
@@ -59,12 +65,11 @@ If you have already registered another verification method as your first one and
 
 1. After adding an account to Yubico Authenticator app，press ”Next ” on the browser screen displaying the QR code.
 2. When the input column of “Enter code” is displayed, please open the Yubico Authenticator app with YubiKey connected, check the 6-digit number shown in the app and fill out these numbers into the input column.
+![](yubico_test_enter_code.png)
 
-<details><summary>Regarding the registration of your email address
-</summary>If you have not registered any verification method, you will be prompted to enter your email address after completing the code input test. Please use an email address other than ECCS cloud mail if possible. Next, you will receive a "code" (a 6-digit number) at that email address, please input it accordingly. <img src="first_email.png"></details>
+<details><summary>Regarding the registration of your email address</summary>If you have not registered any verification method, you will be prompted to enter your email address after completing the code input test. Please use an email address other than ECCS cloud mail if possible. Next, you will receive a "code" (a 6-digit number) at that email address, please input it accordingly. <img src="first_email.png"></details>
 
 Once you have completed the registration for the verification method, **make sure to follow all the steps up to step 4 in the [Initial Setup Procedure of Multi-Factor Authentication for UTokyo Accounts](/utokyo_account/mfa/initial) and enable Multi-Factor Authentication.**
-
 
 ### Procedures of signing in Yubico Authenticator
 
