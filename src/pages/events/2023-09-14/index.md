@@ -24,12 +24,12 @@ Aセメスターの開始に当たり，東京大学で使われているクラ�
 質問は**[こちらのSlido](https://app.sli.do/event/kiQDQd39oVjcehG34uUojR)**（または [https://sli.do/](https://sli.do/) で code = `utelecon20230914`）へ投稿してください．事前質問もどうぞ．
 
 - 挨拶　太田邦史　理事・副学長　情報システム本部長（[**録画**](https://youtu.be/7-E1kbKPB78)）
-- 説明（[**目次**](slides/00-index.pdf)・**動画**）
-    1. 授業のための基礎（30分 柴山；[**資料**](slides/01-in-classes.pdf)・**動画**）
-    1. 代表的なクラウドサービス（25分 竹内；[**資料**](slides/02-cloud.pdf)・**動画**）
-    1. セキュリティと多要素認証（20分 田浦；[**資料**](slides/03-security.pdf)・**動画**）
-    1. uteleconと学生によるサポート体制（10分 玉造；[**資料**](slides/04-utelecon.pdf)・**動画**）
-- 意見交換セッション（[**資料**](slides/05-discussion.pdf)・[**太田理事生成AI講演(録画)**](https://youtu.be/HxTZKcjqKMM)）
+- 説明（[**目次**](slides/00-index.pdf)・[**動画**](https://youtu.be/w7_sU_hO8AI))
+    1. 授業のための基礎（30分 柴山；[**資料**](slides/01-in-classes.pdf)・[**動画**](https://youtu.be/huLe9Cb1aI4))
+    1. 代表的なクラウドサービス（25分 竹内；[**資料**](slides/02-cloud.pdf)・[**動画**](https://youtu.be/sppEl_aT_9E))
+    1. セキュリティと多要素認証（20分 田浦；[**資料**](slides/03-security.pdf)・[**動画**](https://youtu.be/1S0qbvOXLfg))
+    1. uteleconと学生によるサポート体制（10分 玉造；[**資料**](slides/04-utelecon.pdf)・[**動画**](https://youtu.be/G4Rm315AhpM))
+    - 意見交換セッション（[**資料**](slides/05-discussion.pdf)・[**太田理事生成AI講演(録画)**](https://youtu.be/HxTZKcjqKMM)[**動画**](https://youtu.be/alU2eUoMCjU))
     - オンラインツール「LearnWiz One」を利用して行います．
     - 14:45頃から30分程度の予定ですが，開始時刻が前後する可能性があります．また，コメントが多かった場合などは延長する可能性があります．
 
