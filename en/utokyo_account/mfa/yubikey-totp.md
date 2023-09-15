@@ -31,7 +31,7 @@ If you have not registered any verification method and wish to register the Yubi
 
 1. Access the ["Security info page"](https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp).
 2. The sign in page will appear (if you are not already signed in). Enter your UTokyo Account username (10-digit Common ID) and password and click “Sign in”.
-![](first.png)
+![]([Picture1]
 3. Click “Next” in the “More information required” page.
 4. Click “I want to use a different authentication app” in the middle of the setup page.
 ![](yubico_initial_other_auth_app.png)
