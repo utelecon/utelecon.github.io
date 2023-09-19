@@ -31,19 +31,19 @@ If you have not registered any verification method and wish to register the Yubi
 
 1. Access the ["Security info page"](https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp).
 2. The sign in page will appear (if you are not already signed in). Enter your UTokyo Account username (10-digit Common ID) and password and click “Sign in”.
-![]([Picture1]
+![](Picture1.png)
 3. Click “Next” in the “More information required” page.
 4. Click “I want to use a different authentication app” in the middle of the setup page.
-![](yubico_initial_other_auth_app.png)
+![](other.png)
 5. Follow the instructions until you reach the QR code page.
-![](yubico_initial_show_qr.png)
+![](first_qrcode.png)
 
 ### If you have already registered the first verification method
 
 If you have already registered another verification method as your first one and wish to register the Yubico Authenticator app as an alternative verification method, please follow the procedures below.
 
 1. Click "Add method" in the ["Security info page"](https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=utac.u-tokyo.ac.jp).
-![](yubico_add_signin_method.png)
+![](yubico_add_method.png)
 2. For “Which method would you like to add?”, select “Authenticator app” and click “Add”.
 ![](yubico_select_auth_app.png)
 3. Click “I want to use a different authentication app”.
@@ -75,11 +75,11 @@ Once you have completed the registration for the verification method, **make sur
 
 1. When you sign in to the UTokyo account (after entering the password), the screen for verifying identity through multi-factor authentication using the default verification method will be displayed. Please press the “Having troubles? Sign in another way” or “I can’t use my Microsoft Authenticator app right now”.
 * If you set the default verification method to “App based authentication or hardware token - code”, the screen in step 3 will be displayed from the beginning. Please follow step 3 as step 1 and 2 are skipped.
-![](yubico_signin_other_method.png)
+![](signin_screen_msauth.png)
 2. Please press “Use a verification code”.
 ![](yubico_signin_select_totp.png)
 3. When the input column of “Enter code” is displayed, please open the Yubico Authenticator app with YubiKey connected, check the 6-digit number shown in the app and fill out these numbers into the input column.
-![](yubico_signin_enter_code.png)
+![](yubico_signin_code_totp.png)
 
 
 
