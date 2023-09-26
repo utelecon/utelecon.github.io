@@ -57,8 +57,8 @@ The following pages explain how to install the VPN client application on your de
 * [How to use UTokyo VPN on Windows devices](windows)
 * [How to use UTokyo VPN on macOS devices](macos)
 * [How to use UTokyo VPN on Android devices (in Japanese)](/utokyo_vpn/android)
-* [How to use UTokyo VPN on iPad devices (in Japanese)](/utokyo_vpn/android)
-* [How to use UTokyo VPN on iPhone devices (in Japanese)](/utokyo_vpn/android)
+* [How to use UTokyo VPN on iPad devices (in Japanese)](/utokyo_vpn/ipad)
+* [How to use UTokyo VPN on iPhone devices (in Japanese)](/utokyo_vpn/iphone)
 {:.cards}
 
 ## FAQ
