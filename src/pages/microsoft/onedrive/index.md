@@ -14,7 +14,12 @@ title: OneDrive
 
 ### ブラウザ上でOneDriveを開く
 {:#signin}
-<!-- TODO -->
+
+**[Microsoft 365](https://www.microsoft365.com/)**{:.box.center}
+
+1. 上のリンクからMicrosoft 365にアクセスしてください．
+    - サインインしていない場合はサインインするよう求められるので，「[UTokyo Accountを用いてMicrosoft製品へサインインする](/microsoft/signin)」を参照してサインインしてください．
+1. 「アプリ」から「OneDrive」を押してください．
 
 ### ファイルを作成・編集・アップロード・ダウンロードする
 ファイルを作成，編集，アップロード，ダウンロードする方法については，以下のページを参照してください．
