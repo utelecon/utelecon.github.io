@@ -5,7 +5,7 @@ title: OneDrive
 ## OneDriveとは
 **OneDrive**は，Microsoft社が提供するオンラインストレージです．ファイルの保存や閲覧ができるほか，ファイルを編集したり，ファイルを他のユーザーに共有したりすることもできます．
 
-東京大学では，Microsoft社の情報システムを利用することができるライセンス「[**UTokyo Microsoft License**](.)」が提供されています．これを利用すれば，UTokyo Accountを用いてMicrosoftにサインインすることにより，OneDriveの各種機能を使用することができます．
+東京大学では，Microsoft社の情報システムを利用することができるライセンス「[**UTokyo Microsoft License**](..)」が提供されています．これを利用すれば，UTokyo Accountを用いてMicrosoftにサインインすることにより，OneDriveの各種機能を使用することができます．
 
 ## 利用手順
 ここでは，UTokyo Microsoft Licenseのもと，ブラウザ上でOneDriveを利用する手順を説明します．
