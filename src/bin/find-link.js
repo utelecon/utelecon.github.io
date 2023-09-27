@@ -5,14 +5,22 @@ import { unified } from "unified";
 import rehypeParse from "rehype-parse";
 import { selectAll } from "hast-util-select";
 import { read } from "to-vfile";
-import { dirname, resolve } from "path";
+import { relative } from "path";
+import { parseArgs } from "util";
 
-const arg = process.argv[2];
-if (!arg) {
+/** @type {[string, ...string[]]} */
+const ORIGINS = [
+  "https://utelecon.adm.u-tokyo.ac.jp",
+  "https://utelecon.github.io",
+];
+
+const { positionals } = parseArgs({
+  allowPositionals: true,
+});
+const target = positionals[0];
+if (!target) {
   throw new Error("Usage: node src/lib/find-link.js <path>");
 }
-const target = resolve("dist", arg.slice(1));
-console.log(target);
 const parser = unified().use(rehypeParse);
 
 const paths = await glob("dist/**/*.html");
@@ -23,24 +31,14 @@ await Promise.all(paths.map((path) => read(path).then((file) => find(file))));
  */
 async function find(file) {
   const hast = parser.parse(file);
+  const base = new URL(relative("dist", file.path), ORIGINS[0]);
   for (const tag of selectAll("a", hast)) {
     const href = tag.properties?.href;
     if (typeof href !== "string") continue;
 
-    /** @type {string} */
-    let path;
-    if (
-      href.startsWith("https://utelecon.adm.u-tokyo.ac.jp") ||
-      href.startsWith("https://utelecon.github.io")
-    ) {
-      const url = new URL(href);
-      path = resolve("dist", url.pathname.slice(1));
-    } else if (href.startsWith("/")) {
-      path = resolve("dist", href.slice(1));
-    } else if (href.startsWith(".")) {
-      path = resolve(dirname(file.path), href);
-    } else continue;
-    if (path !== target) continue;
+    const absoluteUrl = new URL(href, base);
+    if (!ORIGINS.includes(absoluteUrl.origin)) continue;
+    if (absoluteUrl.pathname !== target) continue;
 
     const start = tag.position?.start;
     if (start) console.log(`${file.path}:${start.line}:${start.column}`);
