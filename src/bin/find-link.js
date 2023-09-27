@@ -13,14 +13,16 @@ const ORIGINS = [
   "https://utelecon.adm.u-tokyo.ac.jp",
   "https://utelecon.github.io",
 ];
+const TRAILINGS = ["/", "/index.html"];
 
 const { positionals } = parseArgs({
   allowPositionals: true,
 });
-const target = positionals[0];
+let target = positionals[0];
 if (!target) {
   throw new Error("Usage: node src/lib/find-link.js <path>");
 }
+target = removeTrailing(target);
 const parser = unified().use(rehypeParse);
 
 const paths = await glob("dist/**/*.html");
@@ -38,10 +40,20 @@ async function find(file) {
 
     const absoluteUrl = new URL(href, base);
     if (!ORIGINS.includes(absoluteUrl.origin)) continue;
-    if (absoluteUrl.pathname !== target) continue;
+    if (removeTrailing(absoluteUrl.pathname) !== target) continue;
 
     const start = tag.position?.start;
     if (start) console.log(`${file.path}:${start.line}:${start.column}`);
     else console.log(file.path);
   }
+}
+
+/**
+ * @param {string} path
+ */
+function removeTrailing(path) {
+  for (const trailing of TRAILINGS) {
+    if (path.endsWith(trailing)) return path.slice(0, -trailing.length);
+  }
+  return path;
 }
