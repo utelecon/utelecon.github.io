@@ -1,6 +1,6 @@
 ---
-import GoodPractice from "@components/GoodPractice";
-import type { Interview } from "@components/GoodPractice";
+import GoodPractice from "@components/pages/GoodPractice";
+import type { Interview } from "@components/pages/GoodPractice";
 import Layout from "@layouts/Layout.astro";
 
 const interviews = await Astro.glob<Omit<Interview, "path">>(
@@ -8,10 +8,15 @@ const interviews = await Astro.glob<Omit<Interview, "path">>(
 );
 
 export const title = "グッドプラクティスの共有";
+const meta = {
+  file: "src/pages/good-practice/index.astro",
+  url: Astro.url.toString(),
+};
 ---
 
 <Layout
   frontmatter={{
+    ...meta,
     title,
     lang: "ja",
     description:
@@ -34,6 +39,7 @@ export const title = "グッドプラクティスの共有";
       slug: "list",
     },
   ]}
+  {...meta}
 >
   <h2 id="intro">はじめに</h2>
   <ul>
@@ -69,5 +75,4 @@ export const title = "グッドプラクティスの共有";
       ...frontmatter,
     }))}
   />
-</Layout>
- @components/index@components/index
+</Layout>@components/index@components/index

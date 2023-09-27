@@ -1,12 +1,15 @@
-import If from "@components/If.astro";
-import Help from "@components/Help.astro";
+import If from "@components/utils/If.astro";
+import Help from "@components/utils/Help.astro";
+import Support from "@components/utils/Support.astro";
+import ApplyHelpJouhouSecurity from "./ApplyHelpJouhouSecurity.mdx";
+import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
 
 {/**
   * @typedef {object} Props
   * @property {boolean} support
   * @property {boolean} [blockLink]
+  * @property {boolean} [inlineHelp]
   * @property {boolean} [utasOnly]
-  * @property {JSX.Element} jouhouSecurity
   */}
 
 
@@ -18,6 +21,9 @@ import Help from "@components/Help.astro";
      </Fragment>
    </If>
 1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
+   <If cond={props.inlineHelp}>
+     <ApplyHelpJouhouSecurity type="details" />
+   </If>
 1. Click on the "New Application" Button.
 1. A notification email with your account information (user ID and password) will be sent to both your [ECCS Cloud Email](/en/eccs_cloud_email) address and the email address shown in the "Notification E-mail Address" field.<br />
    \* If you close the account menu after submitting your application, you will not be able to check the password of your UTokyo Wi-Fi account except from the notification email. Please make sure that you can receive the notification email before you proceed to the next step.
@@ -34,14 +40,16 @@ import Help from "@components/Help.astro";
       </If>
         Please note that it will take some time for the change to take effect, so please apply for an account after a day you registered your email.
     </details>
+    <If cond={props.inlineHelp}>
+      <ApplyHelpEmail type="details" />
+    </If>
 1. Click on the "Apply" button.
 1. After a little while, you will receive a notification email. The same information as in the notification email will also appear in the account menu.
 
-<Help lang="en" support={props.support}>
-  - **If the following screen appears and you cannot access your account menu**:
-    ![](/en/utokyo_wifi/account_menu_access_denied.png){:.small}
-    Your account has been suspended because you have not completed information security education. Please refer to {props.jouhouSecurity} for details.
-  - **If you do not receive a notification email**:
-    - Please check your spam folder.
-    - Check your email address. The email will be sent to both your ECCS Cloud Email and the email address indicated in the "Notification e-mail address" field on the application screen.
-</Help>
+<If cond={props.inlineHelp}>
+  <Support lang="en" show={props.support} />
+  <Help lang="en" support={props.support} slot="else">
+    - <ApplyHelpJouhouSecurity type="default" />
+    - <ApplyHelpEmail type="default" />
+  </Help>
+</If>

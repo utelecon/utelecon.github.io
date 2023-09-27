@@ -40,8 +40,8 @@ Zoomは，東京大学でも最も多くの授業で使われているWeb会議�
 - [複数回利用できるURLが変わらない会議室を予約する](create_room/date_and_time/)
 - [参加者に認証を求める](create_room/auth/)
 - [待機室を設定する](create_room/waiting_room/)
-<!-- - [参加者に登録を求める](create_room/registration/)
-- [代替ホストを設定する](create_room/alternative_host/) -->
+- [参加者に登録を求める](create_room/registration/)
+<!-- - [代替ホストを設定する](create_room/alternative_host/) -->
 
 ## ミーティング中の操作方法
 {:#usage}

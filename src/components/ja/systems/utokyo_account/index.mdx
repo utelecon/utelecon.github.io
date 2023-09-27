@@ -1,0 +1,48 @@
+import If from "@components/utils/If.astro";
+import Important from "@components/utils/Important.astro";
+import ChangePassword from "./ChangePassword.mdx";
+import MFA from "./MFA.mdx";
+
+{/**
+  * `Important`の利用例として紹介されています．
+  * このコンポーネントを利用しなくなる場合は，`src/components/README.md`を編集して，
+  * 別の利用例を紹介するようにしてください．
+  * 
+  * 利用ファイル：
+  * - `src/pages/oc/index.mdx`
+  * - `src/pages/oc/utokyo_account/index.mdx`
+  * 
+  * 利用ページ：
+  * - https://utelecon.adm.u-tokyo.ac.jp/oc/#important
+  * - https://utelecon.adm.u-tokyo.ac.jp/oc/#utokyo_account
+  * - https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/#procedures
+  */}
+
+{/**
+  * @typedef {object} Props
+  * @property {string} variant ページの種類 複数のコンポーネントが要求しているほか，サポート窓口へ案内するかどうかを現在はこれによって判断している
+  * @property {boolean} [important] `/oc/#important`か，`/oc/#others`か
+  */}
+
+<Important
+  short={props.important}
+  variant={props.variant}
+  lang="ja"
+  system="UTokyo Account"
+  prefix="作業"
+  title="初期パスワードを変更する"
+>
+  <Fragment slot="important">
+    <ChangePassword
+      variant={props.variant}
+      support={props.variant === "oc"}
+      movie={props.variant === "oc"}
+      blockLink={props.variant === "individual"}
+    />
+  </Fragment>
+
+  <li>
+    **作業：「多要素認証」を有効化する**
+    <MFA support={props.variant === "oc"} />
+  </li>
+</Important>

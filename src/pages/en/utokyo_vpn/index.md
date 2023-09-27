@@ -2,6 +2,10 @@
 title: UTokyo VPN
 ---
 
+<div class="box--alert">
+ [Important] Suspension of use for those who have not attended the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">Information Security Education</a> since 9 August.
+</div>
+
 ## Introduction
 {:#introduction}
 
@@ -53,8 +57,8 @@ The following pages explain how to install the VPN client application on your de
 * [How to use UTokyo VPN on Windows devices](windows)
 * [How to use UTokyo VPN on macOS devices](macos)
 * [How to use UTokyo VPN on Android devices (in Japanese)](/utokyo_vpn/android)
-* [How to use UTokyo VPN on iPad devices (in Japanese)](/utokyo_vpn/android)
-* [How to use UTokyo VPN on iPhone devices (in Japanese)](/utokyo_vpn/android)
+* [How to use UTokyo VPN on iPad devices (in Japanese)](/utokyo_vpn/ipad)
+* [How to use UTokyo VPN on iPhone devices (in Japanese)](/utokyo_vpn/iphone)
 {:.cards}
 
 ## FAQ

@@ -2,6 +2,10 @@
 title: UTokyo Slack（試行）
 ---
 
+<div class="box--alert">
+【重要】8/9より<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>未受講者に対して利用停止措置を行っています.
+</div>
+
 ## UTokyo Slackとは
 
 東京大学では，幅広い大学活動をカバーするコミュニケーション環境整備の一環として，ビジネスチャットツール「Slack」の導入を進めており，2022年8月より「UTokyo Slack」として試行運用を行っています．
@@ -48,7 +52,9 @@ UTokyo Slackにおけるワークスペースの作成は，教職員からの�
 
 ### 既存ワークスペースの編入（移行）について
 
-新規にワークスペースを作成するのではなく，現在UTokyo Slack以外でお使いいただいている既存のワークスペースをUTokyo Slackとして利用したい場合は，編入（移行）という特別な手続きが必要であり，限定的な対応となります．詳細は「[UTokyo Slackへの既存ワークスペースの編入（移行）](workspace/migration)」を参照してください．
+※（2023年9月）この編入（移行）手続きは，2023年8月24日正午をもって受付を終了しました．詳細は[お知らせページ](/notice/2023/06-slack-migration)をご覧ください．
+
+<del>新規にワークスペースを作成するのではなく，現在UTokyo Slack以外でお使いいただいている既存のワークスペースをUTokyo Slackとして利用したい場合は，編入（移行）という特別な手続きが必要であり，限定的な対応となります．詳細は「[UTokyo Slackへの既存ワークスペースの編入（移行）](workspace/migration)」を参照してください．</del>
 
 ## その他
 

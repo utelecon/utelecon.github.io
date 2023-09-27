@@ -1,0 +1,47 @@
+import If from "@components/utils/If.astro";
+import Apply from "./Apply.mdx";
+import Connect from "./Connect.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  */}
+
+<If cond={props.variant === "oc"}>
+  - **作業：アカウントを申請する**
+    <Apply
+      variant="oc"
+      utasOnly
+      support
+      jouhouSecurity={<a href="/utokyo_wifi/#jouhou-security">UTokyo Wi-Fiのページの「情報セキュリティ教育」の項</a>}
+    />
+  - **作業：実際に接続する**
+    <Connect
+      deviceDescription="UTokyo Wi-Fiに接続したい端末"
+      applyStep="上の手順"
+      connectConfiguration={<a href="/utokyo_wifi/#connect-configuration">UTokyo Wi-Fiのページの「接続の詳細な設定」</a>}
+      support
+    />
+
+  <Fragment slot="else">
+    - **手順1：利用する機器を確認する**  
+      通常のノートパソコンやスマートフォン，タブレットでは基本的にUTokyo Wi-Fiの利用が可能ですが，これ以外の電子機器や古い機器では接続ができないことがあります．例えば，WPA2-Enterprise方式に対応していない機器は接続できません．接続にあたっては，その機器のOSやドライバのアップデートを確認し，適切に更新して利用するようにしてください．
+    - **手順2：UTokyo Wi-Fiアカウントの発行を申請する**
+      - 既に有効なUTokyo Wi-Fiアカウントを持っている場合，アカウント発行の手順を繰り返す必要はありません（2台目以降の機器も同じアカウントで利用できます）．
+
+      <Apply
+        blockLink
+        inlineHelp
+        support
+        jouhouSecurity={<>「<a href="#jouhou-security">情報セキュリティ教育</a>」の項</>}
+      />
+    - **手順3：UTokyo Wi-Fiに実際に接続する**
+      <Connect
+        deviceDescription="手順1で確認した端末"
+        applyStep="手順2"
+        connectConfiguration={<>下の「<a href="#connect-configuration">接続の詳細な設定</a>」の項</>}
+        support
+      />
+    {:.procedure.gap}
+  </Fragment>
+</If>

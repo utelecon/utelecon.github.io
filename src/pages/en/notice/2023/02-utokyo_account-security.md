@@ -6,7 +6,7 @@ To improve the security of our information systems, we have been providing Multi
 
 In addition, we are considering changing the password validity period and the number of characters in the password to ensure smooth use of UTokyo Account while addressing security considerations such as MFA. We also plan to provide more advanced verification methods in the future.
 
-The information security environment has been deteriorating due to the worsening social situation. Ensuring the security of the UTokyo Account is critical to protecting not only individual users' information, but also the university's information assets. We strongly recommend the use of MFA for all UTokyo Account users. If you are not already using MFA, we ask for your cooperation in starting to use it. For instructions on how to start using multi-factor authentication, please refer to the "[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)" page.
+The information security environment has been deteriorating due to the worsening social situation. Ensuring the security of the UTokyo Account is critical to protecting not only individual users' information, but also the university's information assets. We strongly recommend the use of MFA for all UTokyo Account users. If you are not already using MFA, we ask for your cooperation in starting to use it. For instructions on how to start using multi-factor authentication, please refer to the "[Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/initial)" page.
 
 ## Sign-in approval procedure for the "Microsoft Authenticator" application will change on February 27
 
