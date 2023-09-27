@@ -22,3 +22,17 @@ li > p,
 details > p {
   margin: 0;
 }
+
+ul.gap,
+ol.gap {
+  & > li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  & > li:first-child {
+    margin-top: 0;
+  }
+  & > li:last-child {
+    margin-bottom: 0;
+  }
+}
