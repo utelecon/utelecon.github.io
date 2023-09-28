@@ -5,6 +5,7 @@ import yaml from "@rollup/plugin-yaml";
 import redirect from "./src/lib/RedirectIntegration.js";
 import blockIALPlugin from "./src/lib/BlockIALPlugin.js";
 import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
+import dotSlashPlugin from "./src/lib/DotSlashPlugin.js";
 import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
 import externalLinks from "./src/lib/ExternalLinksIntegration.js";
 import trailingSlash from "./src/lib/TrailingSlashIntegration.js";
@@ -25,6 +26,7 @@ export default defineConfig({
   },
   markdown: {
     remarkPlugins: [
+      dotSlashPlugin,
       [defaultFrontmatterPlugin, { layout: "@layouts/Layout.astro" }],
       blockIALPlugin,
       simpleAttentionPlugin,
