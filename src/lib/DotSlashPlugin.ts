@@ -9,11 +9,14 @@ const ALLOWED_PREFIXES = ["http:", "https:", "/", "./", "../"];
 
 export default function dotSlashPlugin() {
   return (root: Root) => {
+    // For MDX (remark-images-components)
     visit(root, "mdxjsEsm", (node) => {
+      if (node.value !== "") return;
       const estree = node.data?.estree;
       if (!estree) return;
       estreeVisit(estree, (node) => {
         if (node.type !== "ImportDeclaration") return;
+        if (node.specifiers[0]?.type !== "ImportDefaultSpecifier") return;
         const { value, raw } = node.source;
         if (!raw || typeof value !== "string") return;
         if (!ALLOWED_PREFIXES.some((prefix) => value.startsWith(prefix))) {
