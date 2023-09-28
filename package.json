@@ -19,6 +19,7 @@
     "@rollup/plugin-yaml": "^4.1.1",
     "astro": "2.9.3",
     "astro-seo": "^0.7.6",
+    "estree-util-visit": "^2.0.0",
     "github-slugger": "^2.0.0",
     "glob": "^10.3.4",
     "hast-util-select": "^5.0.5",
