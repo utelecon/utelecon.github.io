@@ -33,6 +33,7 @@ export default defineConfig({
     ],
   },
   publicDir: "src/pages",
+  scopedStyleStrategy: "where",
   integrations: [
     mdx(),
     react(),
