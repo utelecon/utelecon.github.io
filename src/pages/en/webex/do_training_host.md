@@ -23,14 +23,14 @@ title: What is possible with Webex Training?（for Instructors)
 * To assign roles to other participants, select "Assign Privileges" from the Participant tab.
 
 	![](img/webex_training_participants_privileges.png)
-	![権限の設定](img/webex_training_privileges.png){:width="400px"}
+	![権限の設定](img/webex_training_privileges.png){:.small}
 
 ### Recording
 
 * If you record the entire training and upload it on an online platform like ITC-LMS (How to publish: TODO), you can use the recording as a learning material for students with poor communication conditions or as a review material for the class.
 * You can start recording anytime during the meeting by clicking the recorder icon.
 
-	![レコーダーパネル](img/webex_training_recorder.png){:width="400px"}
+	![レコーダーパネル](img/webex_training_recorder.png){:.small}
 
 * Recorded video files are automatically saved in ARF format and saved in "My Training Recordings". You can also get a link (URL) with a password to share.
 * Details can be changed from the "Change" button.

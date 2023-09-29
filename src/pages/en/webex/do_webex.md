@@ -164,7 +164,7 @@ Participants can move between sessions by pressing the “Join” button. They c
 
 During breakout sessions, participants can share videos or screens and send each other chats, just like in the main meeting. (The instructions are the same as sessions that are not breakout sessions).
 Furthermore, you can ask the Host for help. Asking for help will notify the Host, who may then come to your session. However, you cannot request help from a Host if they are participating in one of the sessions, in which case you will need to wait.
-![alt](img/webex_breakout_callhelp.png){:width="400px"}
+![alt](img/webex_breakout_callhelp.png){:.small}
 
 For specific instructions for Hosts, see [Things You Can Do in Webex Meetings and Webex Webinars (as Host)](do_webex_host).
 

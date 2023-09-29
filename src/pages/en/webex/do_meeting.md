@@ -13,7 +13,7 @@ Webex Meetings has the following roles.
 
 * When you enter the conference room, the following screen will be displayed (It looks different if another participant is already in the room).
 
-	![](img/webex_meeting_entryview.png){:width="400px"}
+	![](img/webex_meeting_entryview.png){:.small}
 
 * Buttons are lined up at the bottom of the screen. Hover the mouse over the button to display the name. We will explain from left to right.
 
@@ -33,7 +33,7 @@ The following describes the additional details of the menu items used mainly.
 	
 When you press "Share Content", the screen options to share will appear. Select the one you want to share and click "Share" to start sharing the screen.
 
-![](img/webex_share.png){:width="400px"}
+![](img/webex_share.png){:.small}
 	
 * When "Screen 1" is selected, a screen which the person is literally looking at is shared with everyone (If there are multiple screens such as when using a multi-monitor, the number of options increases like “Screen 1,” “Screen 2,” ...).
 * The currently open window/app is also displayed as an option. You can  share a specific window/app to share. If you don't want participants to see the whole screen, select only the window/app you want to share.

@@ -38,11 +38,11 @@ title: Webex meeting room 101（for instructors）
 * By recording the entire meeting and publishing it on ITC-LMS etc. (publication method TODO), it can be used as a learning material for students who had poor network conditions or for the students to revise afterwards.
 * Recording can be done at any time by setting "Automatic Recording" when setting up the conference, or by clicking the recording icon during the conference.
 
-	![自動録画](img/webex_meeting_auto_record.png){:width="400px"}
+	![自動録画](img/webex_meeting_auto_record.png){:.small}
 
 * Recorded video files are automatically saved in MP4 format and saved in the recording menu area on the home screen. You can download it or you can get a link (URL) with a password to share.
 
-	![録画メニュー](img/webex_meeting_record_1.png){:width="400px"}
+	![録画メニュー](img/webex_meeting_record_1.png){:.small}
 	![録画一覧](img/webex_meeting_record_2.png){:.medium}
 
 ### Return as the "Host"
