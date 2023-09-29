@@ -35,8 +35,8 @@ title: What is possible with Webex Training?（for Instructors)
 * Recorded video files are automatically saved in ARF format and saved in "My Training Recordings". You can also get a link (URL) with a password to share.
 * Details can be changed from the "Change" button.
 
-	![Training録画メニュー](img/webex_training_record_1.png){:width="700px"}
-	![Training録画一覧](img/webex_training_record_2.png){:width="700px"}
+	![Training録画メニュー](img/webex_training_record_1.png){:.medium}
+	![Training録画一覧](img/webex_training_record_2.png){:.medium}
 
 ### How to Become a Host Again
 
@@ -55,15 +55,15 @@ title: What is possible with Webex Training?（for Instructors)
 * It will take some time to generate participants’ reports.
 
 1. From "Analysis" on the home screen, click "Show All" in the upper right corner.
-![](img/webex_participants_list_1.png){:width="700px"}
+![](img/webex_participants_list_1.png){:.medium}
 1. Click on "Live Training Usage Report".
-![](img/webex_training_participants_list_1.png){:width="700px"}
+![](img/webex_training_participants_list_1.png){:.medium}
 1. Search for the training you have held. Enter the date and agenda, and click "Display Report".
-![](img/webex_training_participants_list_2.png){:width="700px"}
+![](img/webex_training_participants_list_2.png){:.medium}
 1. A list of trainings will be displayed. If the report is shown in the "Live training usage summary report (provisional version)" section, the proper report has not yet been generated. Please wait for it to move to the "Live Training Usage Summary Report (final version)" section. Then click on the agenda.
-![](img/webex_training_participants_list_3.png){:width="700px"}
+![](img/webex_training_participants_list_3.png){:.medium}
 1. A list of participants' attendance will be displayed. Click "Export Report" to download the displayed content as a CSV file.
-![](img/webex_training_participants_list_4.png){:width="700px"}
+![](img/webex_training_participants_list_4.png){:.medium}
 
 
 

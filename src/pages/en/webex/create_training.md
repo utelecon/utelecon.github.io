@@ -5,7 +5,7 @@ title: How to create Webex training
 ## How to Create Webex Training
 1. To display the Training Menu, click on "Webex Training" on Home menu.
 
-	![Webex Trainingを表示する](img/webex_toppage_training.png){:width="700px"}
+	![Webex Trainingを表示する](img/webex_toppage_training.png){:.medium}
 
 2. Click on "Training Schedule"
 
@@ -21,23 +21,23 @@ title: How to create Webex training
 	* After you get used to manipulate Webex Training, try and adjust .other settings
 	* When you finish all settings, press "Schedule".
 
-	![トレーニング設定の画面](img/webex_training_setting.png){:width="700px"}
+	![トレーニング設定の画面](img/webex_training_setting.png){:.medium}
 
 	* After you finish scheduling the Webex Training, you can confirm Training information by clicking the given home screen (See below).
 
 	![ホーム画面にリストされたトレーニング](img/webex_training_toppage_list.png){:width="500px"}
 
-	![トレーニング設定の画面](img/webex_training_info.png){:width="700px"}
+	![トレーニング設定の画面](img/webex_training_info.png){:.medium}
 
 	* Organizers  notify session number and password to your participants.
 
 * Participants obtain the email after organizers schedule the training session. 
 
-	![招待メール](img/webex_training_mail_participant.png){:width="700px"}
+	![招待メール](img/webex_training_mail_participant.png){:.medium}
 
 * If organizers designate a presenter, the presenter obtains the following email.
 
-	![招待メール](img/webex_training_mail_presenter.png){:width="700px"}
+	![招待メール](img/webex_training_mail_presenter.png){:.medium}
 
 <br>
 <br>
