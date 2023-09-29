@@ -8,6 +8,8 @@ title: Slackの新しいデザインの展開と説明会開催のお知らせ
 
 <b class="box center"><a href="https://slack.com/intl/ja-jp/blog/productivity/a-redesigned-slack-built-for-focus">新しくなった Slack のデザインで、仕事にさらに集中</a></b>
 
+この新しいデザインに関する問い合わせは，[Slackヘルプセンター](https://slack.com/intl/ja-jp/help/requests)へお送りください．
+
 また，新しいデザインについて，Slackの担当者による説明会を行います．10月17日（火）15時30分～16時15分に開催します．詳細については，追って以下のページに掲載してお知らせします．
 
 →**[2023/10/17 Slackの新しいデザインに関する説明会](/events/2023-10-17-new-slack-design/)**
