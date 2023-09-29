@@ -1,5 +1,4 @@
-import type { Step } from "@components/types";
-
+export type Step = "first" | "alt";
 export type Key = "select" | "ms_auth" | "auth_app" | "phone" | "fido";
 
 declare global {
@@ -7,6 +6,7 @@ declare global {
   var onselecttab: (step: Step, tab: Key) => void;
 }
 
+// this variable is shared between component instances
 let current: {
   [step: string]: { button: HTMLElement; panel: HTMLElement };
 } = {};

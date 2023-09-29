@@ -1,9 +1,9 @@
 ---
-import BaseTabs from "@components/utils/Tabs.astro";
+import BaseTabs from "@components/pages/mfa/Tabs.astro";
+import type { Step } from "@components/pages/mfa/tabs";
 import MicrosoftAuthenticator from "./ms_auth/index.mdx";
 import AuthenticatorApplication from "./auth_app/index.mdx";
 import Phone from "./phone/index.mdx";
-import type { Step } from "@components/types";
 
 interface Props {
   step: Step;
@@ -11,13 +11,6 @@ interface Props {
 
 const { step } = Astro.props;
 ---
-
-{
-  /**
-   * @typedef {object} Props
-   * @property {import("@components/types").Step} step
-   */
-}
 
 <BaseTabs
   step={step}
