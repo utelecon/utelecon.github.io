@@ -9,6 +9,8 @@ toc: false
 
 <b class="box center"><a href="https://slack.com/intl/ja-jp/blog/productivity/a-redesigned-slack-built-for-focus">新しくなった Slack のデザインで、仕事にさらに集中</a></b>
 
+また，新しいデザインに関する問い合わせは，[Slackヘルプセンター](https://slack.com/intl/ja-jp/help/requests)へお送りください．
+
 ## 概要
 
 - 日程：10月17日（火）15時30分～16時15分
