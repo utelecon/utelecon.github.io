@@ -1,0 +1,33 @@
+---
+import BaseTabs from "@components/utils/Tabs.astro";
+import MicrosoftAuthenticator from "./ms_auth/index.mdx";
+import AuthenticatorApplication from "./auth_app/index.mdx";
+import Phone from "./phone/index.mdx";
+import type { Step } from "@components/types";
+
+interface Props {
+  step: Step;
+}
+
+const { step } = Astro.props;
+---
+
+{
+  /**
+   * @typedef {object} Props
+   * @property {import("@components/types").Step} step
+   */
+}
+
+<BaseTabs
+  step={step}
+  tabs={{
+    ms_auth: "Microsoft Authenticator",
+    auth_app: "別の認証アプリ",
+    phone: "電話",
+  }}
+>
+  <MicrosoftAuthenticator step={step} slot="ms_auth" />
+  <AuthenticatorApplication step={step} slot="auth_app" />
+  <Phone step={step} slot="phone" />
+</BaseTabs>

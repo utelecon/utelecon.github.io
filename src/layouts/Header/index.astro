@@ -79,13 +79,13 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   </div>
 </header>
 
-<script lang="ts">
-const button = document.getElementById("hamburger-button");
-const header = document.getElementById("header");
+<script>
+  const button = document.getElementById("hamburger-button")!;
+  const header = document.getElementById("header")!;
 
-button.addEventListener("click", () => {
-  header.classList.toggle("header--hamburger-open");
-});
+  button.addEventListener("click", () => {
+    header.classList.toggle("header--hamburger-open");
+  });
 </script>
 
 <style lang="scss">

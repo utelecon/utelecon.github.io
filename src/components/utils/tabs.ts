@@ -31,22 +31,13 @@ function replaceSearchParams(step: string, key: string) {
   history.replaceState(null, "", url.href);
 }
 
-function onClick(this: HTMLButtonElement) {
+export function onClick(this: HTMLButtonElement) {
   changePanel(this);
   const [step, _, key] = this.id.split("-");
   replaceSearchParams(step, key);
 }
 
-const steps = ["first", "alt"] as const;
-const buttons: HTMLButtonElement[] = [];
-for (const step of steps) {
-  buttons.push(
-    ...document.querySelectorAll<HTMLButtonElement>(`button[id^=${step}-tab]`)
-  );
-}
-buttons.forEach((button) => button.addEventListener("click", onClick));
-
-function onSelectTab(step: string, key: string) {
+export function onSelectTab(step: string, key: string) {
   const button = document.getElementById(
     `${step}-tab-${key}`
   ) as HTMLButtonElement | null;
@@ -56,9 +47,7 @@ function onSelectTab(step: string, key: string) {
 }
 
 const searchParams = new URLSearchParams(location.search);
-for (const step of steps) {
+for (const step of ["first", "alt"]) {
   const key = searchParams.get(step) ?? "select";
   onSelectTab(step, key);
 }
-
-window.onselecttab = onSelectTab;

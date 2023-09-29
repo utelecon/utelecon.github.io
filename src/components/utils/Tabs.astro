@@ -63,7 +63,13 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
   }
 </div>
 
-<script src="./tabs.ts"></script>
+<script>
+  import { onClick } from "./tabs";
+
+  document.querySelectorAll("button.tab").forEach((tab) => {
+    tab.addEventListener("click", onClick);
+  });
+</script>
 
 <style lang="scss">
   @import "@styles/color.scss";
