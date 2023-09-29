@@ -43,7 +43,7 @@ title: What is possible with Webex Training?（for Instructors)
 * When the host gets disconnected due to network trouble, etc., other participants will automatically be assigned to a new host.
 * In such case, join the meeting as a participant, press "Change Role To" from the "Participant" menu, and select “Host.”
 
-	![](img/webex_training_regain_host.png){:width="250px"}
+	![](img/webex_training_regain_host.png){:.small}
 
 * If you enable “Attendees can join at least n minutes before the start time” when scheduling the training time, participants can enter the training before the host. If a participant changes his/her own role to the host before the original host joins, he/she will be able to proceed the training as a host.
 

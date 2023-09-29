@@ -131,7 +131,7 @@ When the host activates Slido, the Slido panel will appear.
 ## Chat
 
 Clicking “Chat” will enable you to send text messages. You cannot view chat messages that were sent before you joined the meeting.
-![alt](img/webex_chat.png){:width="350px"}
+![alt](img/webex_chat.png){:.medium}
 
 + **To**: You can change the recipient of the message. Select “Everyone” to send your message to all participants.
 
