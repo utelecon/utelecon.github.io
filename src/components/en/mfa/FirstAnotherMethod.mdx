@@ -1,0 +1,16 @@
+import firstAnotherMethod from "./first_another_method.png";
+import firstSelect from "./first_select.png";
+
+{/**
+  * @typedef {object} Props
+  * @property {string} selection
+  */}
+
+<li>
+  Click "I want to use a different method" at the bottom of the setup page.
+  <img src={firstAnotherMethod} />
+</li>
+<li>
+  For "Which method would you like to use?", select {props.selection}, and then click "Add".
+  <img src={firstSelect} />
+</li>
