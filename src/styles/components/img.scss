@@ -19,6 +19,12 @@ img.small {
   max-height: 30rem;
 }
 
+img.extra-small {
+  max-width: 15rem; /* for IE11 */
+  max-width: min(100%, 15rem);
+  max-height: 15rem;
+}
+
 img.inline {
   display: inline;
 }
