@@ -1,18 +1,16 @@
 ---
-import type { Step } from "./tabs";
-import type { Key } from "./tabs";
+import If from "@components/utils/If.astro";
+import type { Step, Labels } from "./tabs";
 
 interface Props {
   step: Step;
-  tabs: Partial<Record<Key, string>>;
+  labels: Labels;
 }
 
-const { step, tabs } = Astro.props;
+const { step, labels } = Astro.props;
 
-// `<button {...buttonProps("select")} />` がなぜかparse errorを吐くので，対策……
-const buttonProps = Object.fromEntries<
-  astroHTML.JSX.IntrinsicElements["button"]
->(
+// `<button {...tabProps("select")} />` がなぜかparse errorを吐くので，対策……
+const tabProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["button"]>(
   ["select", "ms_auth", "auth_app", "phone", "fido"].map((key) => [
     key,
     {
@@ -39,28 +37,22 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
 ---
 
 <div class="button-list">
-  {tabs.select && <button {...buttonProps.select}>{tabs.select}</button>}
-  {tabs.ms_auth && <button {...buttonProps.ms_auth}>{tabs.ms_auth}</button>}
-  {tabs.auth_app && <button {...buttonProps.auth_app}>{tabs.auth_app}</button>}
-  {tabs.phone && <button {...buttonProps.phone}>{tabs.phone}</button>}
-  {tabs.fido && <button {...buttonProps.fido}>{tabs.fido}</button>}
+  <button {...tabProps.select}>{labels.select}</button>
+  <button {...tabProps.ms_auth}>{labels.ms_auth}</button>
+  <button {...tabProps.auth_app}>{labels.auth_app}</button>
+  <button {...tabProps.phone}>{labels.phone}</button>
+  <If cond={Boolean()}>
+    <button {...tabProps.fido}>{labels.fido}</button>
+  </If>
 </div>
 <div class="panel-list">
-  {
-    /* prettier-ignore */ tabs.select && <div {...panelProps.select}><slot name="select" /></div>
-  }
-  {
-    /* prettier-ignore */ tabs.ms_auth && <div {...panelProps.ms_auth}><slot name="ms_auth" /></div>
-  }
-  {
-    /* prettier-ignore */ tabs.auth_app && <div {...panelProps.auth_app}><slot name="auth_app" /></div>
-  }
-  {
-    /* prettier-ignore */ tabs.phone && <div {...panelProps.phone}><slot name="phone" /></div>
-  }
-  {
-    /* prettier-ignore */ tabs.fido && <div {...panelProps.fido}><slot name="fido" /></div>
-  }
+  <div {...panelProps.select}><slot name="select" /></div>
+  <div {...panelProps.ms_auth}><slot name="ms_auth" /></div>
+  <div {...panelProps.auth_app}><slot name="auth_app" /></div>
+  <div {...panelProps.phone}><slot name="phone" /></div>
+  <If cond={Boolean(labels.fido)}>
+    <div {...panelProps.fido}><slot name="fido" /></div>
+  </If>
 </div>
 
 <script>

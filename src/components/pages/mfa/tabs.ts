@@ -1,5 +1,8 @@
 export type Step = "first" | "alt";
 export type Key = "select" | "ms_auth" | "auth_app" | "phone" | "fido";
+export interface Labels extends Record<Exclude<Key, "fido">, string> {
+  fido?: string;
+}
 
 declare global {
   /** API for TabSelector to edit Tabs */
