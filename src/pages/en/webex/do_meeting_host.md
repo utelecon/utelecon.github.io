@@ -50,7 +50,7 @@ title: Webex meeting room 101（for instructors）
 * If the host disconnects from the meeting due to network trouble, etc., the role of the  "Host" will be assigned to another participant.
 * In that case, after re joining as a participant, press "Regain the role of the host" from the "Participant" menu and enter the "Host Key" that was displayed when the meeting was created. Then, you can reassume the role as the "Host."
 
-	![](img/webex_participants_regain_host.png){:width="300px"}
+	![](img/webex_participants_regain_host.png){:.small}
 
 * If you set "Join before host" in "Scheduling options" when scheduling a meeting, participants can enter the meeting room before the host has started the meeting. If the participant does "Regain the role of the host" here, it becomes possible for the participant to become the "Host" and proceed with the conference.
 

@@ -45,7 +45,7 @@ When you press "Share Content", the options of which screen to share will appear
 ## Advanced settings for speaker, microphone and camera
 
 ![](img/webex_more_sound.png)
-![](img/webex_config_sound.png){:width="300px"}
+![](img/webex_config_sound.png){:.small}
 
 
 Click on "Other Options" and then "Speakers, Microphones, Cameras" to set and check the speaker / microphone / camera. Since attendees cannot send video images, their settings become only "speakers and microphones" and cannot set cameras.

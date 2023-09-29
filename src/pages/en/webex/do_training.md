@@ -25,37 +25,37 @@ There are four main roles in Webex Training．
 * If a partcipant shares their camera screen, the shared screen is shown as below. If you double-click the screen, the clip maximize on your computer / tablets.
 * Press the icon on the bottom and you can give feedback to organizers.
 
-	![](img/webex_training_participants.png){:width="300px"}
+	![](img/webex_training_participants.png){:.small}
 
 ### Chat Panel
 
 *  Chat panel allows all attendees to send messages. You can send a message to organizers or presenters by switching the email destiny. 
 
-	![](img/webex_training_chat.png){:width="300px"}
+	![](img/webex_training_chat.png){:.small}
 
 ### Recorder Panel
 
 * In the recorder panel,  you can manipulate recording on the server.
 
-	![](img/webex_training_recorder.png){:width="300px"}
+	![](img/webex_training_recorder.png){:.small}
 
 ### Q&A Panel
 
 * Q&A allows participants ask questions to panelists, presenters and organizers. Answered questions can be seen on the other participants' screen.  Those who have just entered the session can read all Q&As.
 
-	![](img/webex_training_qa.png){:width="300px"}
+	![](img/webex_training_qa.png){:.small}
 
 ### Poll Panel
 
 * Poll panel allows participants to answer quizzes and questionnaires. Only presenters can start polling．
 
-	![](img/webex_training_poll.png){:width="300px"}
+	![](img/webex_training_poll.png){:.small}
 
 ### Breakout Session Panel
 
 *  At the breakout session panel, organizers and presenters can organize breakout sessions.
 
-	![](img/webex_training_breakout.png){:width="300px"}
+	![](img/webex_training_breakout.png){:.small}
 
 ### Operating on Maximized Screen
 

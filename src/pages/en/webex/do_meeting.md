@@ -42,7 +42,7 @@ When you press "Share Content", the screen options to share will appear. Select 
 ## Detailed Settings for Speaker, Microphone and Camera
 
 ![](img/webex_more_sound.png)
-![](img/webex_config_sound.png){:width="300px"}
+![](img/webex_config_sound.png){:.small}
 
 
 Click "Other Options" and then "Speakers, Microphones, Cameras" to set and check the speaker, microphone and camera.
