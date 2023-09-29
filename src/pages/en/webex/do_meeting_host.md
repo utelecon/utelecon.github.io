@@ -64,11 +64,11 @@ title: Webex meeting room 101（for instructors）
 1. From "Analysis" on the home screen, click "Show all" on the upper right.
 ![](img/webex_participants_list_1.png){:.medium}
 1. Click on "Usage Report".
-![](img/webex_participants_list_2.png){:width="500px"}
+![](img/webex_participants_list_2.png){:.medium}
 1. Search for the meeting you held. Enter the date and agenda and click "View Report".
-![](img/webex_participants_list_3.png){:width="500px"}
+![](img/webex_participants_list_3.png){:.medium}
 1. A list of meetings will be displayed. If it is displayed in the "Usage summary report (provisional version)", a proper report has not been generated yet. Please wait for it to be displayed in the “Usage Summary Report (final version)”. Click on the agenda name.
-![](img/webex_participants_list_4.png){:width="500px"}
+![](img/webex_participants_list_4.png){:.medium}
 1. A list of participants' attendance will be displayed. Click "Export Report" to download the displayed content as a CSV file.
 ![](img/webex_participants_list_5.png){:.medium}
 

@@ -17,7 +17,7 @@ Webex Meetings has the following roles.
 
 * Buttons are lined up at the bottom of the screen. Hover the mouse over the button to display the name. We will explain from left to right.
 
-	![](img/webex_meeting_entryview_numbering.png){:width="500px"}
+	![](img/webex_meeting_entryview_numbering.png){:.medium}
 	1. **Mute**： This button turns black when the microphone is on, and  turns red when muted. **Mute your microphone (make the icon red) when you don’t speak. Unexpected sounds may be leaked to other participants if you do not mute the mic.**
 	1. **Stop video**： This button turns black when the camera is on, turns red when the camera is off.**If the connection environment is unstable, stop the video (make the icon red).**
 	1. **Share contents**： Share your screens to share materials with other participants. There are three options: share your PC screen, share specific application windows, or share specific Chrome tabs. It is also used to show a PowerPoint document at hand, to show a video, and to show your writing by connecting to a OH camera, etc. There is also a whiteboard function, so you can share material you have handwritten on your device.

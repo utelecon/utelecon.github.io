@@ -20,7 +20,7 @@ Webex Event has the following roles.
 
 * There are buttons at the bottom of the screen. This screen is what it looks like for the host; Participants have fewer buttons. Move the mouse over the button to display the name. We will explain each icon from left to right.
 
-	![](img/webex_meeting_entryview_numbering.png){:width="500px"}
+	![](img/webex_meeting_entryview_numbering.png){:.medium}
 	1. **Mute**： When black, the microphone is on. It turns red when muted. **Participants cannot unmute themselves**
 	1. **Stop video**： When black, the camera is on. It turns red when the camera is off.
 	1. **Contents sharing**： Only presenters can share contents. This is a function for sharing screens and sharing materials with other participants.

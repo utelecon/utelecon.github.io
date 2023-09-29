@@ -47,7 +47,7 @@ title: What is possible with Webex Training?（for Instructors)
 
 * If you enable “Attendees can join at least n minutes before the start time” when scheduling the training time, participants can enter the training before the host. If a participant changes his/her own role to the host before the original host joins, he/she will be able to proceed the training as a host.
 
-	![](img/webex_training_join_before_host.png){:width="500px"}
+	![](img/webex_training_join_before_host.png){:.medium}
 
 ### Participants
 

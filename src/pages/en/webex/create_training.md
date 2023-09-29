@@ -9,7 +9,7 @@ title: How to create Webex training
 
 2. Click on "Training Schedule"
 
-	![トレーニングのスケジュールをクリック](img/webex_training_top.png){:width="500px"}
+	![トレーニングのスケジュールをクリック](img/webex_training_top.png){:.medium}
 
 
 3. Set up
@@ -25,7 +25,7 @@ title: How to create Webex training
 
 	* After you finish scheduling the Webex Training, you can confirm Training information by clicking the given home screen (See below).
 
-	![ホーム画面にリストされたトレーニング](img/webex_training_toppage_list.png){:width="500px"}
+	![ホーム画面にリストされたトレーニング](img/webex_training_toppage_list.png){:.medium}
 
 	![トレーニング設定の画面](img/webex_training_info.png){:.medium}
 
