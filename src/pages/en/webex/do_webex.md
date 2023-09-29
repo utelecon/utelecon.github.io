@@ -77,7 +77,7 @@ Click “Settings” to select and test the different options.
 
 ### Advanced Settings for Speakers and Microphones
 
-![alt](img/webex_config_sound_setting.png){:width="600px"}
+![alt](img/webex_config_sound_setting.png){:.medium}
 (Due to image compositing, this screenshot is larger than the actual screen.)
 
 + **Speaker**: Select the speaker you want to use. (If you have any additional speakers connected to your device, you need to choose from among several options.) Click “**test**” to hear a confirmation sound.
@@ -85,13 +85,13 @@ Click “Settings” to select and test the different options.
 
 ### Advanced Settings for Cameras
 
-![alt](img/webex_config_camera_setting.png){:width="600px"}
+![alt](img/webex_config_camera_setting.png){:.medium}
 
 + **Camera**: Select the camera you want to use. (If you have any additional cameras attached to your device, you need to choose from among several options.) A preview of the camera will be displayed immediately below, so you can check the video feed.
 
 ### Settings for Virtual background
 
-![alt](img/webex_config_virtual_background_setting.png){:width="600px"}
+![alt](img/webex_config_virtual_background_setting.png){:.medium}
 
 + **Virtual background**: Select the virtual background you want to use. **Note that virtual backgrounds may not work with some devices.**
 
@@ -173,6 +173,6 @@ For specific instructions for Hosts, see [Things You Can Do in Webex Meetings an
 Participants who attempt to join a locked meeting will first be sent to the Lobby.
 **In End-to-End Encrypted Meetings, participants who have already joined the meeting cannot be sent to the Lobby.**
 
-![alt](img/webex_lobby.png){:width="600px"}
+![alt](img/webex_lobby.png){:.medium}
 
 [Back to How to use Webex](.)
