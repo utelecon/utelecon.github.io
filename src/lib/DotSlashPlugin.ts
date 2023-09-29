@@ -1,7 +1,6 @@
 // Prepends "./" to image paths so that it can be imported as a relative path.
 
 import type { Root } from "mdast";
-import "mdast-util-mdx";
 import { visit } from "unist-util-visit";
 import { visit as estreeVisit } from "estree-util-visit";
 
@@ -9,7 +8,7 @@ const ALLOWED_PREFIXES = ["http:", "https:", "/", "./", "../"];
 
 export default function dotSlashPlugin() {
   return (root: Root) => {
-    // For MDX (remark-images-components)
+    // For MDX (remark-images-to-components)
     visit(root, "mdxjsEsm", (node) => {
       if (node.value !== "") return;
       const estree = node.data?.estree;
