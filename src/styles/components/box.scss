@@ -28,6 +28,7 @@
   }
 }
 
-strong.box, b.box {
+strong.box,
+b.box {
   @include box--bold;
 }
