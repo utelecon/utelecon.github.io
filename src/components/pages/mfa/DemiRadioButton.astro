@@ -1,0 +1,35 @@
+<span class="button">
+  <span></span>
+</span>
+
+<style>
+  span.button {
+    position: absolute;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    > span {
+      position: absolute;
+      border: 2px solid white;
+      border-radius: 50%;
+      background-color: white;
+      width: 100%;
+      height: 100%;
+    }
+
+    &:has(+ input[type="radio"]:checked) > span {
+      background-color: #000;
+    }
+
+    &:has(+ input[type="radio"]:disabled) {
+      opacity: 0;
+    }
+  }
+</style>
