@@ -1,32 +1,33 @@
 {
-  "$schema": "http://json-schema.org/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "array",
-  "description": "array of items",
   "items": {
     "type": "object",
-    "description": "single item to be shown",
+    "description": "このオブジェクト1つがお知らせ1つに対応します．",
     "properties": {
       "date": {
         "type": "string",
-        "description": "the date of notice",
+        "description": "お知らせの左側に表示される日付を指定します．",
         "format": "date"
       },
       "content": {
         "type": "object",
-        "description": "the content of notice keyed by language",
+        "description": "お知らせの内容を記述します．Markdown+HTML形式で記述することができます．",
         "properties": {
           "ja": {
-            "type": "string"
+            "type": "string",
+            "description": "日本語の内容を記述します．英語ページでは，英語の内容がない場合に代わりに表示されます．"
           },
           "en": {
-            "type": "string"
+            "type": "string",
+            "description": "英語の内容を記述します．日本語ページで表示されることはありません．"
           }
         },
         "additionalProperties": false
       },
       "important": {
         "type": "boolean",
-        "description": "if this notice is important"
+        "description": "ここにtrueを指定すると，トップページで優先して表示されます．"
       }
     },
     "required": ["date", "content"],
