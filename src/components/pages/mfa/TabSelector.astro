@@ -1,2 +1,126 @@
 ---
+import type { Group, Labels } from "./tabs";
+
+interface Props {
+  group: Group;
+  labels: Labels;
+}
+
+const { group, labels } = Astro.props;
+
+const radioProps = Object.fromEntries(
+  ["first", "alt"].map((step) => [
+    step,
+    Object.fromEntries<astroHTML.JSX.IntrinsicElements["input"]>(
+      ["ms_auth", "auth_app", "phone", "fido"].map((selection) => [
+        selection,
+        {
+          id: `radio-${step}-${group}-${selection}`,
+          class: `radio ${step}`,
+          type: "radio",
+          name: `radio-${step}-${group}`,
+          value: selection,
+        },
+      ])
+    ),
+  ])
+);
 ---
+
+<div class="wrapper">
+  <p class="col-first">手順1</p>
+  <p class="col-alt">手順2</p>
+
+  <p class="col-label">{labels.ms_auth}</p>
+  <input {...radioProps.first.ms_auth} />
+  <input {...radioProps.alt.ms_auth} />
+  <div class="col-description">
+    <slot name="ms_auth" />
+  </div>
+
+  <p class="col-label">{labels.auth_app}</p>
+  <input {...radioProps.first.auth_app} />
+  <input {...radioProps.alt.auth_app} />
+  <div class="col-description">
+    <slot name="auth_app" />
+  </div>
+
+  <p class="col-label">{labels.phone}</p>
+  <input {...radioProps.first.phone} />
+  <input {...radioProps.alt.phone} />
+  <div class="col-description">
+    <slot name="phone" />
+  </div>
+
+  {
+    labels.fido && (
+      <>
+        <p class="col-label">{labels.fido}</p>
+        <div class="radio first" />
+        <input {...radioProps.alt.fido} />
+        <div class="col-description">
+          <slot name="fido" />
+        </div>
+      </>
+    )
+  }
+</div>
+
+<script>
+  import { emitChangeTab, onChangeTab } from "./tabs";
+
+  onChangeTab((step, selection) => {
+    if (selection === "select") return;
+    document
+      .querySelectorAll<HTMLInputElement>(`input[name^="radio-${step}"]`)
+      .forEach((radio) => {
+        radio.checked = radio.value === selection;
+      });
+  });
+
+  function onChange(this: HTMLInputElement) {
+    const [, step, , selection] = this.id.split("-");
+    emitChangeTab(step, selection);
+  }
+
+  document
+    .querySelectorAll<HTMLInputElement>(`input[name^="radio"]`)
+    .forEach((radio) => {
+      radio.addEventListener("change", onChange);
+    });
+</script>
+
+<style lang="scss">
+  .wrapper {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    row-gap: 0.5rem;
+
+    > .col-label {
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+
+    > .col-first {
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    > .col-alt {
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+    > .col-description {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .radio {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+</style>

@@ -11,32 +11,32 @@ const { step, labels } = Astro.props;
 
 // `<button {...tabProps("select")} />` がなぜかparse errorを吐くので，対策……
 const tabProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["button"]>(
-  ["select", "ms_auth", "auth_app", "phone", "fido"].map((key) => [
-    key,
+  ["select", "ms_auth", "auth_app", "phone", "fido"].map((selection) => [
+    selection,
     {
-      id: `${step}-tab-${key}`,
+      id: `tab-${step}-${selection}`,
       type: "button",
       role: "tab",
-      "aria-controls": `${step}-panel-${key}`,
-      "aria-selected": "false",
+      "aria-controls": `panel-${step}-${selection}`,
+      "aria-selected": `${selection === "select"}`,
       class: "tab",
     },
   ])
 );
 const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
-  ["select", "ms_auth", "auth_app", "phone", "fido"].map((key) => [
-    key,
+  ["select", "ms_auth", "auth_app", "phone", "fido"].map((selection) => [
+    selection,
     {
-      id: `${step}-panel-${key}`,
+      id: `panel-${step}-${selection}`,
       role: "tabpanel",
-      "aria-labelledby": `${step}-tab-${key}`,
-      hidden: true,
+      "aria-labelledby": `tab-${step}-${selection}`,
+      hidden: selection !== "select",
     },
   ])
 );
 ---
 
-<div class="button-list">
+<div class="tab-list">
   <button {...tabProps.select}>{labels.select}</button>
   <button {...tabProps.ms_auth}>{labels.ms_auth}</button>
   <button {...tabProps.auth_app}>{labels.auth_app}</button>
@@ -56,17 +56,37 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
 </div>
 
 <script>
-  import { onClick } from "./tabs";
+  import { onChangeTab, emitChangeTab } from "./tabs";
 
-  document.querySelectorAll("button.tab").forEach((tab) => {
-    tab.addEventListener("click", onClick);
+  onChangeTab((step, selection) => {
+    document
+      .querySelectorAll<HTMLButtonElement>(`button[id^="tab-${step}"]`)
+      .forEach((tab) => {
+        tab.ariaSelected = `${tab.id === `tab-${step}-${selection}`}`;
+      });
+    document
+      .querySelectorAll<HTMLDivElement>(`div[id^="panel-${step}"]`)
+      .forEach((panel) => {
+        panel.hidden = panel.id !== `panel-${step}-${selection}`;
+      });
   });
+
+  function onClick(this: HTMLButtonElement) {
+    const [, step, selection] = this.id.split("-");
+    emitChangeTab(step, selection);
+  }
+
+  document
+    .querySelectorAll<HTMLButtonElement>(`button[id^="tab"][role="tab"]`)
+    .forEach((tab) => {
+      tab.addEventListener("click", onClick);
+    });
 </script>
 
 <style lang="scss">
   @import "@styles/color.scss";
 
-  .button-list {
+  .tab-list {
     display: flex;
   }
   .panel-list {

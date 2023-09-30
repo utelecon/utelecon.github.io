@@ -1,56 +1,32 @@
 export type Step = "first" | "alt";
-export type Key = "select" | "ms_auth" | "auth_app" | "phone" | "fido";
-export interface Labels extends Record<Exclude<Key, "fido">, string> {
-  fido?: string;
+export type Group = "intent" | Step;
+export type Selection = "select" | "ms_auth" | "auth_app" | "phone" | "fido";
+export type Labels = Partial<Record<Selection, string>>;
+
+type Listener = (step: string, selection: string) => void;
+const listeners: Listener[] = [];
+
+export function onChangeTab(listener: Listener) {
+  listeners.push(listener);
 }
 
-declare global {
-  /** API for TabSelector to edit Tabs */
-  var onselecttab: (step: Step, tab: Key) => void;
-}
-
-// this variable is shared between component instances
-let current: {
-  [step: string]: { button: HTMLElement; panel: HTMLElement };
-} = {};
-
-function changePanel(button: HTMLElement) {
-  const [step] = button.id.split("-");
-  if (current[step]) {
-    current[step].button.ariaSelected = "false";
-    current[step].panel.hidden = true;
+export function emitChangeTab(step: string, selection: string) {
+  for (const listener of listeners) {
+    listener(step, selection);
   }
-  current[step] = {
-    button,
-    panel: document.getElementById(button.getAttribute("aria-controls")!)!,
-  };
-  current[step].button.ariaSelected = "true";
-  current[step].panel.hidden = false;
 }
 
-function replaceSearchParams(step: string, key: string) {
+onChangeTab((step, selection) => {
   const url = new URL(location.href);
-  url.searchParams.set(step, key);
+  if (selection === "select") url.searchParams.delete(step);
+  else url.searchParams.set(step, selection);
   history.replaceState(null, "", url.href);
-}
+});
 
-export function onClick(this: HTMLButtonElement) {
-  changePanel(this);
-  const [step, _, key] = this.id.split("-");
-  replaceSearchParams(step, key);
-}
-
-export function onSelectTab(step: string, key: string) {
-  const button = document.getElementById(
-    `${step}-tab-${key}`
-  ) as HTMLButtonElement | null;
-  if (!button) return;
-  changePanel(button);
-  replaceSearchParams(step, key);
-}
-
-const searchParams = new URLSearchParams(location.search);
-for (const step of ["first", "alt"]) {
-  const key = searchParams.get(step) ?? "select";
-  onSelectTab(step, key);
-}
+document.addEventListener("DOMContentLoaded", () => {
+  for (const step of ["first", "alt"]) {
+    const url = new URL(location.href);
+    const selection = url.searchParams.get(step) ?? "select";
+    emitChangeTab(step, selection);
+  }
+});

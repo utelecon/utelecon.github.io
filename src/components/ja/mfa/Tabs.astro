@@ -1,6 +1,9 @@
 ---
+// なぜか`.mdx`にすると <script> の中身がbundleされないため`.astro`
+
 import BaseTabs from "@components/pages/mfa/Tabs.astro";
 import type { Step } from "@components/pages/mfa/tabs";
+import TabSelector from "./TabSelector.mdx";
 import MicrosoftAuthenticator from "./ms_auth/index.mdx";
 import AuthenticatorApplication from "./auth_app/index.mdx";
 import Phone from "./phone/index.mdx";
@@ -21,6 +24,7 @@ const { step } = Astro.props;
     phone: "電話",
   }}
 >
+  <TabSelector group={step} slot="select" />
   <MicrosoftAuthenticator step={step} slot="ms_auth" />
   <AuthenticatorApplication step={step} slot="auth_app" />
   <Phone step={step} slot="phone" />
