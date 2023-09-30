@@ -1,11 +1,6 @@
 ---
 import If from "@components/utils/If.astro";
-import type { Step } from "./tabs";
-import type { Key } from "./tabs";
-
-interface Labels extends Record<Exclude<Key, "fido">, string> {
-  fido?: string;
-}
+import type { Step, Labels } from "./tabs";
 
 interface Props {
   step: Step;
@@ -14,10 +9,8 @@ interface Props {
 
 const { step, labels } = Astro.props;
 
-// `<button {...buttonProps("select")} />` がなぜかparse errorを吐くので，対策……
-const buttonProps = Object.fromEntries<
-  astroHTML.JSX.IntrinsicElements["button"]
->(
+// `<button {...tabProps("select")} />` がなぜかparse errorを吐くので，対策……
+const tabProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["button"]>(
   ["select", "ms_auth", "auth_app", "phone", "fido"].map((key) => [
     key,
     {
@@ -44,12 +37,12 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
 ---
 
 <div class="button-list">
-  <button {...buttonProps.select}>{labels.select}</button>
-  <button {...buttonProps.ms_auth}>{labels.ms_auth}</button>
-  <button {...buttonProps.auth_app}>{labels.auth_app}</button>
-  <button {...buttonProps.phone}>{labels.phone}</button>
-  <If cond={Boolean()}>
-    <button {...buttonProps.fido}>{labels.fido}</button>
+  <button {...tabProps.select}>{labels.select}</button>
+  <button {...tabProps.ms_auth}>{labels.ms_auth}</button>
+  <button {...tabProps.auth_app}>{labels.auth_app}</button>
+  <button {...tabProps.phone}>{labels.phone}</button>
+  <If cond={Boolean(labels.fido)}>
+    <button {...tabProps.fido}>{labels.fido}</button>
   </If>
 </div>
 <div class="panel-list">
