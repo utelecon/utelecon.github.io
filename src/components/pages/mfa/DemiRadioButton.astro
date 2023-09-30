@@ -9,11 +9,9 @@
     border-radius: 50%;
     width: 1.2rem;
     height: 1.2rem;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+    inset: 0;
+    /* `!important`` in favor of `:is(main) :first-child { margin-top: 0; }` */
+    margin: auto !important;
 
     > span {
       position: absolute;
