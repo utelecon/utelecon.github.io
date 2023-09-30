@@ -1,0 +1,8 @@
+import If from "@components/utils/If.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/pages/mfa/tabs").Group} group
+  */}
+
+「Microsoft Authenticator」は，Microsoftが提供している多要素認証のための専用のアプリです．UTokyo Accountの多要素認証はMicrosoftのシステムを利用しているため，他の認証アプリよりスムーズに利用できます．<If cond={props.group !== "first"}>2台以上のスマホを持っている場合は，2台目以降のスマホを追加で登録することもできます．</If>
