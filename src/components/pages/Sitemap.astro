@@ -39,29 +39,22 @@ type HeadingType = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 const { lang } = Astro.props;
 
 let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}"))
-  .filter((page) => {
-    if (!page.url) {
-      return false;
+  .filter((page): page is PageInstance & { url: string } => {
+    if (!page.url) return false;
+    if (basename(page.url).startsWith("_")) return false;
+    if ("frontmatter" in page) {
+      const { layout, sitemap, redirect_to } = page.frontmatter;
+      if (layout === false || sitemap === false || redirect_to) return false;
+    } else {
+      const { sitemap } = page;
+      if (sitemap === false) return false;
     }
-    if (basename(page.url).startsWith("_")) {
-      return false;
-    }
-    if ("frontmatter" in page && page.frontmatter.redirect_to) {
-      return false;
-    }
-    const { sitemap } = "frontmatter" in page ? page.frontmatter : page;
-    if (sitemap === false) {
-      return false;
-    }
-    const isEnglishPage = page.url.startsWith("/en/");
-    return {
-      ja: !isEnglishPage,
-      en: isEnglishPage,
-    }[lang];
+    if (page.url === "/code/anchorize/README") return false;
+    return page.url.startsWith("/en/") === (lang === "en");
   })
   .map<Page>((page) => {
     const { title } = "frontmatter" in page ? page.frontmatter : page;
-    return { title, url: page.url! };
+    return { title, url: page.url };
   });
 
 // https://stackoverflow.com/questions/979256/sorting-an-array-of-objects-by-property-values#comment48111034_979289
