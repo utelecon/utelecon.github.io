@@ -43,7 +43,9 @@ for (const notice of notices) {
     contents.map(({ date, content }) => (
       <li>
         <span class="date">{date.toLocaleDateString("ja-JP")}</span>
-        <Markdown content={content} />
+        <span class="content">
+          <Markdown content={content} />
+        </span>
       </li>
     ))
   }
@@ -53,6 +55,11 @@ for (const notice of notices) {
   @import "@styles/color.scss";
 
   .date {
+    position: absolute;
+    text-indent: 1rem;
     color: $heading-color;
+  }
+  .content {
+    padding-left: 6rem;
   }
 </style>
