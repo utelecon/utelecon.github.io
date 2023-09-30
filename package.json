@@ -20,11 +20,15 @@
     "astro": "2.9.3",
     "astro-seo": "^0.7.6",
     "github-slugger": "^2.0.0",
+    "glob": "^10.3.4",
+    "hast-util-select": "^5.0.5",
     "mdast": "^3.0.0",
+    "normalize.css": "^8.0.1",
     "rehype-external-links": "^2.1.0",
     "sass": "^1.57.1",
     "unified": "^10.1.2",
     "unist-util-visit": "^4.1.2",
+    "to-vfile": "^7.2.4",
     "vfile": "^5.3.7"
   },
   "devDependencies": {

@@ -1,38 +1,3 @@
-.alert {
-color: $red;
-}
-
-.center {
-text-align: center;
-}
-
-.iframe-container {
-  position:relative;
-  width: 100%;
-  height: 0;
-  --aspect-ratio: 56.25%;
-  padding-bottom: var(--aspect-ratio);
-  > iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-ul.gap, ol.gap {
-  &>li {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-  &>li:first-child {
-    margin-top: 0;
-  }
-  &>li:last-child {
-    margin-bottom: 0;
-  }
-}
-
-// transported from mfa.scss
 ol.mfa-initial-procedure {
   & > li {
     counter-increment: mfa-initial-main;
@@ -57,13 +22,9 @@ ul.mfa-initial-procedure {
         list-style-position: inside;
         text-indent: -1em;
         &::marker {
-          content:
-            counters(mfa-initial-main, "-")
-            "-"
-            counters(mfa-initial-sub-headline, "-", upper-latin)
-            "-"
-            counters(mfa-initial-sub-procedure, "-")
-            ". ";
+          content: counters(mfa-initial-main, "-") "-"
+            counters(mfa-initial-sub-headline, "-", upper-latin) "-"
+            counters(mfa-initial-sub-procedure, "-") ". ";
         }
         ol {
           counter-reset: list-item;

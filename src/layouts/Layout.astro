@@ -4,7 +4,7 @@ import { GoogleAnalytics } from "@astrolib/analytics";
 import Header from "./Header/index.astro";
 import Footer from "./Footer/index.astro";
 import Toc from "./Toc.astro";
-import "@styles/global.scss";
+import "@styles/layout.scss";
 import type { MDXLayoutProps, MarkdownHeading } from "astro";
 import Author, { Author as AuthorProps } from "./Author.astro";
 import Markdown from "@components/utils/Markdown.astro";
@@ -158,5 +158,14 @@ if (title) {
       }
     </main>
     <Footer lang={lang} support={support} />
-  </body>
+  </body><style>
+    .title {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid $white-gray-dark;
+      font-size: 2rem;
+      font-weight: bold;
+      color: black;
+    }
+  </style>
 </html>

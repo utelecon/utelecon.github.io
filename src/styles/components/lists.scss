@@ -1,0 +1,38 @@
+@media (max-width: 640px) {
+  ul,
+  ol {
+    padding-left: 20px;
+  }
+}
+
+@counter-style decimal-bracket {
+  system: extends decimal;
+  prefix: "[";
+  suffix: "] ";
+}
+
+ol.bracket {
+  list-style: decimal-bracket;
+}
+
+// remove user agent stylesheet against <p> element inside <li>
+li > p,
+.box > p,
+.box--alert > p,
+details > p {
+  margin: 0;
+}
+
+ul.gap,
+ol.gap {
+  & > li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  & > li:first-child {
+    margin-top: 0;
+  }
+  & > li:last-child {
+    margin-bottom: 0;
+  }
+}
