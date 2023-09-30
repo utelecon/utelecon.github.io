@@ -215,12 +215,6 @@ Discordは，グループやチーム内でコミュニケーション用ツー�
 - **[オンライン授業のグッドプラクティス／廣瀬敬先生 固体地球科学](/good-practice/interview/hirose)**：授業においてLINEオープンチャットで匿名の質問を受け付けた実践例です．
 - **[LINEオープンチャットでの授業における質問の受け付け方](/articles/question-tools#LINEopenchat)** 実際の授業でのLINEオープンチャット活用例として，質問を受け付ける方法とそのコツを紹介しています．
 
-
-### Wonder
-画面上にある自分のアイコンを動かすことで部屋を移動できることが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
-- **[Wonder（外部サイト）](https://www.wonder.me/)**：Wonderの公式サイトです．
-- **[Wonderを使って交流する](/articles/online-interaction#wonder)**：Wonderを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
-
 ### Gather
 レトロゲーム風の遊び心のあるUIが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
 - **[Gather（外部サイト）](https://www.gather.town/)**：Gatherの公式サイトです．
