@@ -76,11 +76,13 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
     emitChangeTab(step, selection);
   }
 
-  document
-    .querySelectorAll<HTMLButtonElement>(`button[id^="tab"][role="tab"]`)
-    .forEach((tab) => {
-      tab.addEventListener("click", onClick);
-    });
+  document.addEventListener("DOMContentLoaded", () => {
+    document
+      .querySelectorAll<HTMLButtonElement>(`button[id^="tab"][role="tab"]`)
+      .forEach((tab) => {
+        tab.addEventListener("click", onClick);
+      });
+  });
 </script>
 
 <style lang="scss">

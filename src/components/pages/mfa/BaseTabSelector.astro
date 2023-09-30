@@ -83,11 +83,13 @@ const radioProps = Object.fromEntries(
     emitChangeTab(step, selection);
   }
 
-  document
-    .querySelectorAll<HTMLInputElement>(`input[name^="radio"]`)
-    .forEach((radio) => {
-      radio.addEventListener("change", onChange);
-    });
+  document.addEventListener("DOMContentLoaded", () => {
+    document
+      .querySelectorAll<HTMLInputElement>(`input[name^="radio"]`)
+      .forEach((radio) => {
+        radio.addEventListener("change", onChange);
+      });
+  });
 </script>
 
 <style lang="scss">
