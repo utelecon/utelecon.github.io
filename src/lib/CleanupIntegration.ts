@@ -4,7 +4,7 @@ import { basename, extname } from "path";
 import { fileURLToPath } from "url";
 import { walk } from "./util";
 
-const source = [".md", ".markdown", ".mdx", ".astro"];
+const source = [".md", ".markdown", ".mdx", ".astro", ".ts"];
 
 export function cleanup(): AstroIntegration {
   return {

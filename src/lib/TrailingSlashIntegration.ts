@@ -11,11 +11,17 @@ export default function trailingSlash(): AstroIntegration {
         await Promise.all(
           dedupe(routes)
             .filter(
-              ({ component, pathname }) =>
-                parse(component).name !== "index" && pathname !== "/404"
+              ({ pathname }) =>
+                pathname &&
+                parse(pathname).name !== "index" &&
+                pathname !== "/" &&
+                pathname !== "/404" &&
+                pathname !== "/rss.xml"
             )
             .map(async ({ pathname }) => {
               if (!pathname) return;
+              if (parse(pathname).name === "index") return;
+              if (["/", "/404", "/rss.xml"].includes(pathname)) return;
               const source = join(fileURLToPath(dir), pathname, "index.html");
               const sourceDir = join(fileURLToPath(dir), pathname);
               const destination = join(

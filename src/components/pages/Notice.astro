@@ -14,6 +14,11 @@ import type { Lang } from "@components/types";
  * - https://utelecon.adm.u-tokyo.ac.jp/notice/
  */
 
+export async function hash(content: string): Promise<string> {
+  const hashed = await crypto.subtle.digest("SHA-1", Buffer.from(content));
+  return Buffer.from(hashed).toString("base64url");
+}
+
 export interface Props {
   lang: Lang;
   strip?: boolean;
@@ -22,6 +27,7 @@ export interface Props {
 interface NoticeContent {
   date: Date;
   content: string;
+  id: string;
 }
 
 const { lang, strip } = Astro.props;
@@ -31,17 +37,18 @@ const contents: NoticeContent[] = [];
 for (const notice of notices) {
   const content = notice.content[lang] ?? notice.content.ja;
   if (!content) continue;
+  const id = await hash(content);
 
   if (!strip || contents.length < (notice.important ? 8 : 4)) {
-    contents.push({ date: notice.date, content });
+    contents.push({ date: notice.date, content, id });
   }
 }
 ---
 
 <ul>
   {
-    contents.map(({ date, content }) => (
-      <li>
+    contents.map(({ date, content, id }) => (
+      <li {id}>
         <span class="date">{date.toLocaleDateString("ja-JP")}</span>
         <Markdown content={content} />
       </li>
