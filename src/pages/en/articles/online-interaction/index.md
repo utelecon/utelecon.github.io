@@ -130,7 +130,7 @@ Remo is an online communication tool that allows users to enter a virtual room w
 
 ## Comparison of 3 Tools
 
-The following table summarizes the characteristics of the four tools introduced so far.
+The following table summarizes the characteristics of the three tools introduced so far.
 
 <table>
   <tr>
