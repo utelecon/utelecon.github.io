@@ -201,13 +201,6 @@ LINE OpenChat is a feature of the LINE messaging app that allows users to create
 - **[Good Practices of Online Classes - Prof. Hirose: Solid Earth Science](/good-practice/interview/hirose)** (in Japanese): A practical example of using LINE OpenChat in a course to accept anonymous questions. 
 - **[How to Accept Questions in Class via LINE OpenChat](/articles/question-tools#LINEopenchat)** (in Japanese):  A practical example of using LINE OpenChat in class to receive questions, and tips for collecting questions.
 
-### Wonder
-Wonder is a conference tool that allows you to move around in a virtual room by moving your icon on the screen. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
-- **[Wonder (external site)](https://www.wonder.me/)**: The official Wonder site.
-- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#wonder)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Wonder.
-
-It is a tool that can be used for online calls for interaction, which is a little different from formal web conferencing such as Zoom or Webex.
-
 ### Gather
 Gather is a conference tool with a playful retro-game style UI. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
 - **[Gather (external site)](https://www.gather.town/)**: The official Gather site．
