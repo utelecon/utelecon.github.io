@@ -2,10 +2,10 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 {/**
   * @typedef {object} Props
-  * @property {true} [oneline]
+  * @property {import("@components/types").HelpItemType} type
   */}
 
-<HelpItem lang="ja" oneline={props.oneline}>
+<HelpItem lang="ja" type={props.type}>
   <Fragment slot="problem">「会社のドメイン」を入力した後に「このサイトにアクセスできません」などのエラーが表示される場合</Fragment>
   <Fragment slot="solution">ブラウザで「このサイトにアクセスできません」「申し訳ございません。このページに到達できません」「サーバが見つかりません」「アクセスしようとしているサイトが見つけられません」などのエラーが表示される場合は，「会社のドメイン」を正しく入力できていません．`u-tokyo-ac-jp`と入力しているか，もう一度確認してください．特に，`ac`の前後はピリオドではなくハイフンであることに注意してください．</Fragment>
 </HelpItem>
