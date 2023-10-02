@@ -43,9 +43,7 @@ for (const notice of notices) {
     contents.map(({ date, content }) => (
       <li>
         <span class="date">{date.toLocaleDateString("ja-JP")}</span>
-        <span class="content">
-          <Markdown content={content} />
-        </span>
+        <Markdown content={content} />
       </li>
     ))
   }
