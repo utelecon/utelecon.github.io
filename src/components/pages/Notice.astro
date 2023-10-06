@@ -78,7 +78,11 @@ for (const notice of notices) {
   @media (max-width: 640px) {
     ul {
       padding-left: 0 !important;
-      grid-template-columns: unset;
+      grid-template-columns: auto;
+
+      & > li {
+        grid-column: auto;
+      }
     }
     .content {
       margin-left: 1em;
