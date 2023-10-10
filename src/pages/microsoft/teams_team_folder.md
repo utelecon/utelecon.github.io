@@ -17,5 +17,6 @@ https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx
 Teamsチームのチャネルで，上部にある「ファイル」タブを選択すると，チャネル内で共有されているファイルやフォルダが表示されます．これがTeamsチームフォルダです．
 
 ## OneDriveからTeamsチームフォルダにアクセスする
+{:#access-from-onedrive}
 「ファイル」タブを開いた状態で，メニュー（メニューに無い場合は三点リーダー）から「OneDriveへのショートカットの追加」を選択すると，OneDriveに対象のTeamsチームフォルダのショートカットが作成されます．これにより，OneDriveからそのTeamsチームフォルダにアクセスできるようになります．
 
