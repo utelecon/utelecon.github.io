@@ -18,7 +18,7 @@ Japan's Copyright Act grants exclusive rights to the creators of copyrighted wor
 
 - **What is a “Work”:** The Copyright Act defines “work” as “a creatively produced expression of thoughts or sentiments"[^1]. It is said to include novels, articles, music, paintings, prints, photographs, movies, computer programs, and so on[^2].
 - **Who is an “Author”:** The term “ “author” means a person who creates a work”[^3]. Idea providers, input assistants, etc. are not recognized as authors.
-- **What are the Restricted Rights Provisions:** When we use works, we need the permission of the right holder, in principle, However, in the case of some specific purposes or forms of use, the work may be freely used without the right holder's permission. （e.g., private reproduction[^4], use by quotation[^5], reproduction in schools, and other educational institutions, etc.[^6] ）
+- **What are the Restricted Rights Provisions:** When we use works, we need the permission of the right holder, in principle, However, in the case of some specific purposes or forms of use, the work may be freely used without the right holder's permission. (e.g., private reproduction[^4], use by quotation[^5], reproduction in schools, and other educational institutions, etc.[^6])
 
 There are various exceptions and points to note in addition to the above, so please refer to the [The Basics of Copyright Law](basic) on this website or the website of the [Agency for Cultural Affairs (in Japanese)](https://www.bunka.go.jp/seisaku/chosakuken/).
 
@@ -28,7 +28,7 @@ Although there are various requirements for the use of copyrighted works, Articl
 
 Article 35 was revised in 2018 in order to promote ICT in education. Before the revision, Article 35 restricted the rights to reproduction and paper distribution of works in face-to-face classes and public transmission of works in online classes (this only applied to some forms of classes), but the 2018 revision allows us to use works in online classes of all forms without a license[^7].
 
-In addition, with the revision of Article 35[^8], a new system of compensation for public transmission for class purposes was established in order to secure the interests of right holders and others. Under this system, with regard to public transmission in the class formats newly added by the revision of the law, the educational institution's establisher[^9] is required to pay a considerable amount of compensation to the Society for the Administration of Remuneration for Public Transmission for School Lessons (hereafter: SARTRAS)[^10]. For a detailed explanation of SARTRAS, please refer to the article on this site about “The Compensation System for Public Transmission for Educational Purposes and the Background History and Role of SARTRAS”.
+In addition, with the revision of Article 35[^8], a new system of compensation for public transmission for class purposes was established in order to secure the interests of right holders and others. Under this system, with regard to public transmission in the class formats newly added by the revision of the law, the educational institution's establisher[^9] is required to pay a considerable amount of compensation to the Society for the Administration of Remuneration for Public Transmission for School Lessons (hereafter: SARTRAS)[^10]. For a detailed explanation of SARTRAS, please refer to the article on this site about “[The Background and Role of the Compensation System for Public Transmission for Educational Purposes / SARTRAS](sartras)”.
 
 The following explains the exceptional treatment of works in educational institutions based on the "Guidelines for the Application of Article 35 of the Revised Copyright Act (Edition of 2021)" (hereafter: Guidelines), citing specific examples. The examples raised in a. to e. are considered not to unreasonably prejudice the rights of owners in the use of works in educational institutions, and the examples raised in f. are considered to unreasonably prejudice the rights of owners.
 
@@ -62,7 +62,7 @@ In contrast, the following activities do not fall under this category.
 
 - School information sessions for prospective students, mock classes at open campuses, etc.
 - Faculty and Staff Meetings
-- Seminars and information for faculty and staff conducted as Faculty Development (FD)[^14]and Staff Development (SD)[^15]at universities.
+- Seminars and information for faculty and staff conducted as Faculty Development (FD)[^14] and Staff Development (SD)[^15] at universities.
 - Extracurricular activities in higher education (club activities, etc.)
 - Volunteer work (not for credit)
 
@@ -80,7 +80,7 @@ First, "reproduction" means "the physical replication of a work through printing
 
 Next, "public transmission" refers to transmission to the public (unspecified persons or a large number of specified persons) by means of broadcasting, cable broadcasting, Internet transmission (including uploading to a server), and so on[^18]. For example, it includes distributing class videos and uploading lecture materials to the Internet, such as to a learning management system[^19].
 
-Finally, "public communication" refers to the communication of a publicly transmitted work to the public using a receiving device[^20].For example, this includes making a video related to the content of a class on the Internet is available to students through a display in the classroom.
+Finally, "public communication" refers to the communication of a publicly transmitted work to the public using a receiving device[^20]. For example, this includes making a video related to the content of a class on the Internet is available to students through a display in the classroom.
 
 In addition, you can reproduce or publicly transmit a work after translating, arranging, or adapting it[^21].
 
@@ -235,7 +235,7 @@ When lecturing, training, or preparing handouts for such facilities, use copyrig
 
 ## References
 
-- Guideline for Application of Article 35 of the Revised Copyright Act (2021 version) [https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf（See June 16, 2021）](https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf)
+- Guideline for Application of Article 35 of the Revised Copyright Act (2021 version) [https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf (See June 16, 2021)](https://sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf)
 
 ## Related Articles
 
@@ -272,4 +272,4 @@ When lecturing, training, or preparing handouts for such facilities, use copyrig
 [^26]: Faculty Development : Organizational efforts by faculty to improve and enhance course content and methods
 [^27]: Staff Development : Systematic efforts to improve the quality of staff, including administrative management and education/research support
 [^28]: Including items that faculty members have instructed students to purchase.
-[^29]: Slogans, pictures, and photographs are copyrighted works in which the use of the entire work is unavoidable. In such cases, it may be judged that reproduction or public transmission of the entire work does not unreasonably prejudice the rights owner's interests. The revised Copyright Act, Article 35, Guideline for Application （<https://forum.sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf>）, p. 10-11, cites a case where a work is shown as part of an image or in the background of a movie projected in class. as an example where the interests of the author are not unreasonably prejudiced. On the other hand, partial reproduction and public transmission of a work, for example, by cutting out only a part of the work, may constitute an infringement of the copyright law because it may be contrary to the author's intention. It should be noted that the use of a work that is allowed to be used in its entirety without prejudice to copyright assumes that the work is not provided in a quality that would affect the sales of the work.
+[^29]: Slogans, pictures, and photographs are copyrighted works in which the use of the entire work is unavoidable. In such cases, it may be judged that reproduction or public transmission of the entire work does not unreasonably prejudice the rights owner's interests. The revised Copyright Act, Article 35, Guideline for Application (<https://forum.sartras.or.jp/wp-content/uploads/unyoshishin_20201221.pdf>), p. 10-11, cites a case where a work is shown as part of an image or in the background of a movie projected in class. as an example where the interests of the author are not unreasonably prejudiced. On the other hand, partial reproduction and public transmission of a work, for example, by cutting out only a part of the work, may constitute an infringement of the copyright law because it may be contrary to the author's intention. It should be noted that the use of a work that is allowed to be used in its entirety without prejudice to copyright assumes that the work is not provided in a quality that would affect the sales of the work.
