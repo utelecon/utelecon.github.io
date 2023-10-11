@@ -48,7 +48,7 @@ There are cases in which authors have indicated their intention to have their wo
 
 In principle, permission of the copyright holder is required to use copyrighted works that are still within the term of copyright.
 
-However, for a specific purpose or form of use, such as writing a thesis or essay by quoting other people’s work, such works may be freely used without permission of the copyright holders. According to the Copyright Law of Japan, the requirements are listed according to the form of use  under Article 30. If the requirements are satisfied, the works can be used without permission; otherwise, you must get consent.
+However, for a specific purpose or form of use, such as writing a thesis or essay by quoting other people’s work, such works may be freely used without permission of the copyright holders. According to the Copyright Law of Japan, the requirements are listed according to the form of use under Article 30. If the requirements are satisfied, the works can be used without permission; otherwise, you must get consent.
 
 → Please refer to [this page](educational-use-examples) for information on reproduction, etc. in schools and other educational institutions (Article 35).
 
