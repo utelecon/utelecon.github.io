@@ -4,7 +4,7 @@ title: When Can Materials Be Freely Used for Class?
 
 ## Outline of This Article
 
-This article provides an explanation of Article 35 of the Copyright Act related to the use of copyrighted works in the classroom and details of examples of how to use  copyrighted works. It is intended for teachers who create course materials in schools and other educational institutions in Japan.
+This article provides an explanation of Article 35 of the Copyright Act related to the use of copyrighted works in the classroom and details of examples of how to use copyrighted works. It is intended for teachers who create course materials in schools and other educational institutions in Japan.
 
 This article consists of two parts, and is written based on the "Guidelines for the Application of Article 35 of the Revised Copyright Act (2021 version)" discussed at the "Forum of Parties related to Educational Use of Copyrighted Works". In the first part, we will review the knowledge of copyright explained in the "[The Basics of Copyright Law](basic)" article of this website. The second part explains in detail when it is possible to use copyrighted works at universities. We recommend that you read Part 2 since it covers most of the issues that you will encounter in your actual classes.
 
@@ -16,7 +16,7 @@ First, let us review the basics of copyright.
 
 Japan's Copyright Act grants exclusive rights to the creators of copyrighted works for the use of their works. In addition, the Copyright Act also includes provisions that ensure freedom of use of copyrighted works (provisions for limitation of rights), thereby reconciling the interests of rights owners with those of users.
 
-- **What is a “Work”:** The Copyright Act defines  “work” as “a creatively produced expression of thoughts or sentiments"[^1]. It is said to include novels, articles, music, paintings, prints, photographs, movies, computer programs, and so on[^2].
+- **What is a “Work”:** The Copyright Act defines “work” as “a creatively produced expression of thoughts or sentiments"[^1]. It is said to include novels, articles, music, paintings, prints, photographs, movies, computer programs, and so on[^2].
 - **Who is an “Author”:** The term “ “author” means a person who creates a work”[^3]. Idea providers, input assistants, etc. are not recognized as authors.
 - **What are the Restricted Rights Provisions:** When we use works, we need the permission of the right holder, in principle, However, in the case of some specific purposes or forms of use, the work may be freely used without the right holder's permission. （e.g., private reproduction[^4], use by quotation[^5], reproduction in schools, and other educational institutions, etc.[^6] ）
 
@@ -28,7 +28,7 @@ Although there are various requirements for the use of copyrighted works, Articl
 
 Article 35 was revised in 2018 in order to promote ICT in education. Before the revision, Article 35 restricted the rights to reproduction and paper distribution of works in face-to-face classes and public transmission of works in online classes (this only applied to some forms of classes), but the 2018 revision allows us to use works in online classes of all forms without a license[^7].
 
-In addition, with the revision of Article 35[^8], a new system of compensation for public transmission for class purposes was established in order to secure the interests of right holders and others. Under this system, with regard to public transmission in the class formats newly added by the revision of the law, the educational institution's establisher[^9] is required to pay a considerable amount of compensation to the Society for the Administration of Remuneration for Public Transmission for School Lessons (hereafter: SARTRAS)[^10]. For a detailed explanation of SARTRAS, please refer to the article on this site about “The  Compensation System for Public Transmission for Educational Purposes and the Background History and Role of SARTRAS”.
+In addition, with the revision of Article 35[^8], a new system of compensation for public transmission for class purposes was established in order to secure the interests of right holders and others. Under this system, with regard to public transmission in the class formats newly added by the revision of the law, the educational institution's establisher[^9] is required to pay a considerable amount of compensation to the Society for the Administration of Remuneration for Public Transmission for School Lessons (hereafter: SARTRAS)[^10]. For a detailed explanation of SARTRAS, please refer to the article on this site about “The Compensation System for Public Transmission for Educational Purposes and the Background History and Role of SARTRAS”.
 
 The following explains the exceptional treatment of works in educational institutions based on the "Guidelines for the Application of Article 35 of the Revised Copyright Act (Edition of 2021)" (hereafter: Guidelines), citing specific examples. The examples raised in a. to e. are considered not to unreasonably prejudice the rights of owners in the use of works in educational institutions, and the examples raised in f. are considered to unreasonably prejudice the rights of owners.
 
@@ -169,7 +169,7 @@ When giving lectures or training or preparing handouts in these situations, use 
 
 #### B. Examples of Impermissible Use of Copyrighted Works in Lectures
 
-The following examples use copyrighted works beyond the necessary limits for lectures, which may hinder the original distribution and reduce the sales of copyrighted works (that is, unreasonably  prejudice the interests of the copyright owner). In such a case, it is an infringement of copyright law even if it is for class purposes.
+The following examples use copyrighted works beyond the necessary limits for lectures, which may hinder the original distribution and reduce the sales of copyrighted works (that is, unreasonably prejudice the interests of the copyright owner). In such a case, it is an infringement of copyright law even if it is for class purposes.
 
 ##### (1) Reproducing Commercial Application Software
 
@@ -187,7 +187,7 @@ The following examples use copyrighted works beyond the necessary limits for lec
 ##### (3) Reproducing a Book
 
 - An instructor reproduces a workbook or drill book and uses it or provides it in class for all students to solve, including students who have not purchased the book, even though the book in question is intended for all students to purchase and use.
-- Reproducing or providing copyrighted materials from textbooks that are usually purchased by instructors or students, provided to educational institutions on a contractual basis, or lent to be used by instructors and students in class, as well as materials in workbooks that each student fills in directly as  exercises[^28], in such as way that all the contents can be viewed without having the purchase the materials.
+- Reproducing or providing copyrighted materials from textbooks that are usually purchased by instructors or students, provided to educational institutions on a contractual basis, or lent to be used by instructors and students in class, as well as materials in workbooks that each student fills in directly as exercises[^28], in such as way that all the contents can be viewed without having the purchase the materials.
 - An instructor reproducing and distributing many parts of a book in one class: chapter 1 in the first class, chapter 2 in the second class, and so on, resulting in the majority of the book's usage in that class.
 - Providing copies of all references that are thought to be helpful to students, even though they will not be covered in class.
 - The instructor scans all or most of the pages of a paper textbook, creates a PDF version of the digital textbook, and distributes it to students.
@@ -202,7 +202,7 @@ Uploading a video of a picture book reading to the cloud or to a server so that 
 
 ##### (5) Public Transmission of Copyrighted Works
 
-- Publicly transmitting  educational materials using copyrighted works in the form of large scale public online lectures that can be accessed by anyone.
+- Publicly transmitting educational materials using copyrighted works in the form of large scale public online lectures that can be accessed by anyone.
 - Instructors uploading video clips of classes explaining textbooks and other materials school websites without protecting them with a password, so that anyone can view them, not just students.
 - Reproduction or public transmission to a number of persons clearly exceeding the total number of faculty members in charge of the class and the students enrolled in the class.
 - Publicly transmitting a work in an open network environment that can be accessed by anyone, such as on the website of the school or board of education or a video-sharing service.
