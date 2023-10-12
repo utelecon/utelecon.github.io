@@ -47,9 +47,9 @@ ITC-LMSは東京大学の学習管理システムです．授業資料の配布�
 
 
 ### Google Classroom
-Google Classroomは，Google Workspaceの一部として提供されいる学習管理ツールで，授業における資料の配布・課題提出などが行えるものです．
+Google Classroomは，Google Workspaceの一部として提供されている学習管理ツールで，授業における資料の配布・課題提出などが行えるものです．
 
-- **[Google Classroomの使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)**：基本的な使い方がまとまっています．
+- **[Google Classroomの使い方（外部サイト）](https://www.tsu-cc.ac.jp/campus/classroom/teacher/)**：基本的な使い方がまとまっています．
 - **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](/events/luncheon/2020-07-15/)**：Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）．
 
 
