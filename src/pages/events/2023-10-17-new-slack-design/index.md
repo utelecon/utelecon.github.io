@@ -16,5 +16,5 @@ toc: false
 - 日程：10月17日（火）15時30分～16時15分
 - 参加方法：**[Zoomミーティング登録ページ](https://u-tokyo-ac-jp.zoom.us/meeting/register/tZcpf--hrDIoH9fI8b1tMeEdRbtzWcx9BCZN)**から申し込んでください．
 - **[資料はこちら](https://drive.google.com/file/d/1ESNX3m4ffL19s43gKxy1HQMcbqIebHVO/view?usp=sharing)**（閲覧には[ECCSクラウドメール](/eccs_cloud_email)でのログインが必要です）
-- 録画：終了後にこのページに掲載します．
+- [録画はこちら](https://drive.google.com/file/d/1rM_zZNjQrIBRKdtfre8phgPVx9mn1KZw/view?usp=drive_link)（閲覧には[ECCSクラウドメール](/eccs_cloud_email)でのログインが必要です）
 - 質疑応答：ZoomのQ&A機能で受け付けます．
