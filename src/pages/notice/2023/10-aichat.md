@@ -103,7 +103,7 @@ OpenAIのAPIでは，それまでのチャットの内容を参照し文脈に�
 1. 以下のリンクにアクセスしてください．<b class="box center"><a href="https://aichat.adm.u-tokyo.ac.jp/">https://aichat.adm.u-tokyo.ac.jp/</a></b>
     <details>
         <summary>ヘルプ：「申し訳ありませんが、サインイン中に問題が発生しました。」または「Sorry, but we’re having trouble signing you in.」というエラーが表示される場合</summary>
-        申請の送信が完了していないか，本サービスの利用に必要な[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講が完了していないために，申請が却下されています．情報セキュリティ教育の受講を完了（確認テストに合格）してから，もう1度申請をし直してください．
+        申請の送信が完了していないか，本サービスの利用に必要な<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>の受講が完了していないために，申請が却下されています．情報セキュリティ教育の受講を完了（確認テストに合格）してから，もう1度申請をし直してください．
     </details>
     <details>
         <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
