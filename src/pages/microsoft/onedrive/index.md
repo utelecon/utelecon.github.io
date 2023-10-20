@@ -18,7 +18,7 @@ title: OneDrive
 **[Microsoft 365](https://www.microsoft365.com/)**{:.box.center}
 
 1. 上のリンクからMicrosoft 365にアクセスしてください．
-    - サインインしていない場合はサインインするよう求められるので，「[UTokyo Accountを用いてMicrosoft製品へサインインする](/microsoft/signin)」を参照してサインインしてください．
+    - サインインしていない場合はサインインしてください．
 1. 画面左側の「アプリ」を押してください．
 1. 利用可能なアプリが一覧表示されるので，「OneDrive」を押してください．
 
