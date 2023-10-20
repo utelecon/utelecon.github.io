@@ -31,7 +31,7 @@ Google Forms is a tool provided by Google that allows you to easily create quest
 
 If you are logged in to your Google account (ECCS Cloud Email account), you can use the application from your browser (the following explanation assumes that you are logged in to your ECCS Cloud Email account).
 
-※For information on how to use your ECCS Cloud  Email account, see "[ECCS Cloud Email](/en/eccs_cloud_email)" in the "Initial Setup Procedures" section.
+※For information on how to use your ECCS Cloud  Email account, see "[ECCS Cloud Email](/en/google/)" in the "Initial Setup Procedures" section.
 
 On the Google page, click the square with six dots next to your Google account icon in the upper right corner, and then "Forms" to start.
 
