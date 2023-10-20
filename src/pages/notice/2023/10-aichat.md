@@ -10,9 +10,7 @@ title: 生成AIチャットサービスの実験的な提供について
 
 本サービスは，Mckay Wrigley氏が開発している「[Chatbot UI](https://github.com/mckaywrigley/chatbot-ui)」というソフトウェアを用い，OpenAI社のAPIをWeb上のチャット画面から利用できるようにしたものです．OpenAI社のAPIは大学としてサービス契約したものを用いており，利用者に個別の費用負担が生じることはありません．詳細は以下の通りです．
 
-<!--
-（参考）関連して「Bing Chat Enterpriseによる生成AIチャットの利用について（教職員限定）」も案内を行っていますので，こちらの利用対象となる方はあわせてご利用ください．本サービスはAPIの使用上限・従量課金がありますので，利用の分散にご協力をお願いします．
--->
+（参考）関連して「[Bing Chat Enterpriseによる生成AIチャットの利用について（教職員限定）](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=5422)」も案内を行っていますので，こちらの利用対象となる方はあわせてご利用ください．本サービスはAPIの使用上限・従量課金がありますので，利用の分散にご協力をお願いします．
 
 ## 本サービスの概要
 
