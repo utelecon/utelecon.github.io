@@ -62,7 +62,7 @@ Google Classroom is a tool provided by Google as part of Google Workspace, which
 
 Google Workspace is a collection of Google services such as Gmail, Google Drive, Google Docs, and Google Sheets. UTokyo has subscribed to a paid license, which is provided under the name "ECCS Cloud Email".
 
--  **[utelecon’s ECCS Cloud Email (Google Workspace) Page](/en/eccs_cloud_email)**
+-  **[utelecon’s ECCS Cloud Email (Google Workspace) Page](/en/google/)**
 
 ### Microsoft 365 (UTokyo Microsoft License)
 {:#microsoft-365}

@@ -35,7 +35,7 @@
       url: "/webex/"
     -
       name: "ECCSクラウドメール<small> (Google Workspace)</small>"
-      url: "/eccs_cloud_email"
+      url: "/google/"
     -
       name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
       url: "/microsoft/"

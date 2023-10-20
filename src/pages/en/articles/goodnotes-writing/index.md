@@ -306,7 +306,7 @@ After preparation and sharing the screen, you can now conduct the class.
 
 You can write on GoodNotes 5 using the tools introduced so far.
 
-The following video shows a demonstration of real-time writing during a class, where the shared screen projects the teacher’s handwriting with GoodNotes 5 onto students’ iPad screens. See how the Highlighter, Pen tool, Eraser tool, and Text tool are used.  ([ECCS Cloud Email](/en/eccs_cloud_email) is necessary to watch the video.)
+The following video shows a demonstration of real-time writing during a class, where the shared screen projects the teacher’s handwriting with GoodNotes 5 onto students’ iPad screens. See how the Highlighter, Pen tool, Eraser tool, and Text tool are used.  ([ECCS Cloud Email](/en/google/) is necessary to watch the video.)
 
 [https://www.youtube.com/watch?v=cOCYLAXHiOQ](https://www.youtube.com/watch?v=cOCYLAXHiOQ)
 
