@@ -2,9 +2,16 @@
 title: UTokyo Slack（試行）
 ---
 
+<div class="box">
+  2023年10月27日にSlackの新しいデザインが展開されたことに伴い，本ページに記載されている手順が実際の手順と異なることがあります．
+  新しいデザインについては，「<a href="/notice/2023/0929-new-slack-design">Slackの新しいデザインの展開と説明会開催のお知らせ</a>」を参照してください．
+</div>
+
+<!--
 <div class="box--alert">
 【重要】8/9より<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>未受講者に対して利用停止措置を行っています.
 </div>
+-->
 
 ## UTokyo Slackとは
 
@@ -20,7 +27,7 @@ UTokyo Slackは，Slackの「Enterprise Grid」プランを全学で契約し，
 
 UTokyo Slackの利用対象者は，UTokyo Accountを持っている構成員です．利用にあたっては，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講の完了と[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化が必須です．
 
-なお，UTokyo Accountを持っていない方（学外の方）と一緒にSlackを利用したい場合，外部のワークスペースと連携する「コネクト」という機能の利用がひとつの方法かもしれません（ただし，通常のワークスペースと使い勝手が同様ではなく，常におすすめできるわけではありません）．詳細は「[「コネクト」機能を用いて学外者と一緒にUTokyo Slackを利用する](workspace/connect)」を参照してください．
+なお，UTokyo Accountを持っていない方（学外の方）と一緒にSlackを利用したい場合，外部のワークスペースと連携する「コネクト」という機能の利用がひとつの方法かもしれません（ただし，通常のワークスペースと使い勝手が同様ではなく，常におすすめできるわけではありません）．詳細は「[「コネクト」機能を用いて学外者と一緒にUTokyo Slackを利用する](/slack/workspace/connect)」を参照してください．
 
 ## ワークスペースへの参加方法
 
