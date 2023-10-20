@@ -2,6 +2,8 @@
 title: 生成AIチャットサービスの実験的な提供について
 ---
 
+<div class="box--important box--alert">利用者多数により，申請の受付を一時停止しています．申請再開待ち登録を行うことができます（すぐに利用できるようにはなりません）．ご期待に添えず申し訳ありません．</div>
+
 いつも本学の情報システムの運営にご協力いただきありがとうございます．
 
 このたび情報システム本部では，教育・研究にお使いいただくため，全学の構成員に向けて生成AIチャットサービスの実験的な提供を行うことにしました．
@@ -97,8 +99,10 @@ OpenAIのAPIでは，それまでのチャットの内容を参照し文脈に�
 
 本サービスの利用には**[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講と[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須**とします．あらかじめこれらを済ませた上で，以下の手順に進んでください．
 
-1. 以下の申請フォームを入力・送信してください．<b class="box center"><a href="https://forms.office.com/r/nAv0y1uwsR">申請フォーム</a></b>
-1. 以下のリンクにアクセスしてください．<b class="box center"><a href="https://aichat.adm.u-tokyo.ac.jp/">https://aichat.adm.u-tokyo.ac.jp/</a></b>
+<div class="box--important box--alert">利用者多数により，申請の受付を一時停止しています．<a href="https://forms.office.com/r/nAv0y1uwsR">申請再開待ち登録</a>を行うことができます（すぐに利用できるようにはなりません）．ご期待に添えず申し訳ありません．</div>
+
+1. <del>以下の申請フォームを入力・送信してください．<b class="box center"><a href="https://forms.office.com/r/nAv0y1uwsR">申請フォーム</a></b></del>
+1. 以下のリンクにアクセスしてください．<b class="box center"><a href="https://aichat.adm.u-tokyo.ac.jp/">https://aichat.adm.u-tokyo.ac.jp/</a><br>※10月20日19時40分まで申請済みの方のみ</b>
     <details>
         <summary>ヘルプ：「申し訳ありませんが、サインイン中に問題が発生しました。」または「Sorry, but we’re having trouble signing you in.」というエラーが表示される場合</summary>
         申請の送信が完了していないか，本サービスの利用に必要な<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>の受講が完了していないために，申請が却下されています．情報セキュリティ教育の受講を完了（確認テストに合格）してから，もう1度申請をし直してください．
