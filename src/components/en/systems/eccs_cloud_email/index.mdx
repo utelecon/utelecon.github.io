@@ -21,7 +21,6 @@ import UseMail from "./UseMail.mdx";
 >
   <Fragment slot="important">
     <Configure
-      support={props.variant === "oc"}
       detailsLink={props.important}
     />
   </Fragment>
@@ -36,7 +35,7 @@ import UseMail from "./UseMail.mdx";
   </li>
   <li>
     **Optional task: Log in on your smartphone** (for users of Gmail or other Google apps)
-    <LoginSp />
+    <LoginSp support={props.variant === "oc"} />
   </li>
   <li>
     **Exercise: Use your email** (You can use your email address `xxxx@g.ecc.u-tokyo.ac.jp` in Gmail)
