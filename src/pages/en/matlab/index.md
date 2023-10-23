@@ -38,20 +38,20 @@ If you are considering commercial use, please contact MathWorks．
 ## How to start using MATLAB
 To use MATLAB, you need to create a MathWorks account. In addition, you will need a [UTokyo Account](/en/utokyo_account/) and an email address ending with `u-tokyo.ac.jp` provided by the University of Tokyo to activate the blanket license．
 
-If you have not used UTokyo Account yet, please refer to [How to start using UTokyo Account](/en/utokyo_account/#procedures). You can also use [ECCS Cloud Email](/en/eccs_cloud_email) as an example of an email address ending with `u-tokyo.ac.jp`.
+If you have not used UTokyo Account yet, please refer to [How to start using UTokyo Account](/en/utokyo_account/#procedures). You can also use [ECCS Cloud Email](/en/google/) as an example of an email address ending with `u-tokyo.ac.jp`.
 ### If you have not created a MathWorks account yet
 1. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click "Sign in to get started" in the middle of the page.
     <!---    1.2. 【またはこちらを書く】MathWorks社[ライセンス認証ページ](https://jp.mathworks.com/licensecenter/total_headcount/90427-67813-64593-61894-60890) にアクセスしてください．--->
 2. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in page will appear. So please sign in．
 3. When the menu labeled "Create a MathWorks Account" appears, click "Create"．
     <!---![](https://i.imgur.com/AAD3U9B.png)--->
-4. Follow the instructions on your screen to create a MathWorks account using an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/eccs_cloud_email). 
+4. Follow the instructions on your screen to create a MathWorks account using an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/google/). 
 5. You will receive an authentication email from `service@account.mathworks.com` to your registered email address. If you do not receive the email, check to see if it has not been classified as spam mail.
 6. When you see the message "Your school's Campus-Wide License has been linked to your MathWorks account.” is displayed, you are ready to go.
 
 If the above procedure does not work, please contact MathWorks technical support desk at `service@mathworks.com` for assistance．
 ### If you have already created a MathWorks account 
-1. Update the email address of your MathWorks account to an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/eccs_cloud_email)．
+1. Update the email address of your MathWorks account to an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/google/)．
     <details>
         <summary>Procedures</summary>
         <ol>
