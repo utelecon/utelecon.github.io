@@ -4,8 +4,8 @@ import ConfigureHelpInvalidPassword from "./ConfigureHelpInvalidPassword.mdx";
 
 {/**
   * @typedef {object} Props
+  * @property {boolean} inlineHelp
   * @property {boolean} [img]
-  * @property {boolean} [inlineHelp]
   * @property {boolean} [detailsLink]
   */}
 
@@ -27,7 +27,7 @@ import ConfigureHelpInvalidPassword from "./ConfigureHelpInvalidPassword.mdx";
 </If>
 
 <If cond={!props.inlineHelp}>
-  <Help lang="ja">
+  <Help lang="ja" support>
     - <ConfigureHelpInvalidPassword type="oneline" />
   </Help>
 </If>
