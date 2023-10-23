@@ -7,7 +7,6 @@ import ConfigureHelpInvalidPassword from "./ConfigureHelpInvalidPassword.mdx";
   * @property {boolean} [img]
   * @property {boolean} [inlineHelp]
   * @property {boolean} [detailsLink]
-  * @property {boolean} [waitForReflection]
   */}
 
 1. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)にアクセスし，UTokyo Accountのユーザ名（10桁の数字のみ）とパスワードを入力してログインしてください．
@@ -31,8 +30,4 @@ import ConfigureHelpInvalidPassword from "./ConfigureHelpInvalidPassword.mdx";
   <Help lang="ja">
     - <ConfigureHelpInvalidPassword type="oneline" />
   </Help>
-</If>
-
-<If cond={props.waitForReflection}>
-  パスワードとメールアドレスを設定してから，反映に**最大約40分**かかるので，**ログインできるようになるまでしばらく待ってください**．
 </If>
