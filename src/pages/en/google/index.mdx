@@ -3,7 +3,12 @@ title: ECCS Cloud Email (Google Workspace)
 redirect_from:
   - /en/eccs_cloud_email
 ---
-import EccsCloudEmail from '@components/en/systems/eccs_cloud_email/index.mdx';
+
+import ECCSCloudEmailConfigure from '@components/en/systems/eccs_cloud_email/Configure.mdx';
+import ECCSCloudEmailLogin from '@components/en/systems/eccs_cloud_email/Login.mdx';
+import ECCSCloudEmailAccess from '@components/en/systems/eccs_cloud_email/Access.mdx';
+import ECCSCloudEmailLoginSp from '@components/en/systems/eccs_cloud_email/LoginSp.mdx';
+import ECCSCloudEmailUseMail from '@components/en/systems/eccs_cloud_email/UseMail.mdx';
 
 ## What is ECCS Cloud Email?
 
@@ -26,7 +31,34 @@ Once you create a ECCS Cloud Email account, you can change your sharing settings
 
 ## Initial Setup Procedures
 
-<EccsCloudEmail variant="individual" />
+### Task: Set your password and email address
+{:#configure}
+
+※既にECCSクラウドメールを利用している場合でも，利用開始の場合と同様にこの手順でパスワードやメールアドレスを変更することができます．
+
+<ECCSCloudEmailConfigure img inlineHelp waitForReflection />
+
+パスワードとメールアドレスを設定してから，反映に**最大約40分**かかるので，**ログインできるようになるまでしばらく待ってください**．
+
+### Check: Log in
+
+<ECCSCloudEmailLogin inlineHelp />
+
+### Check: Make sure you can access UTokyo member-only pages
+
+<ECCSCloudEmailAccess />
+
+### Optional task: Log in on your smartphone
+
+This is for users of Gmail or other Google apps.
+
+<ECCSCloudEmailLoginSp />
+
+### Exercise: Use your email
+
+You can use your email address `xxxx@g.ecc.u-tokyo.ac.jp` in Gmail.
+
+<ECCSCloudEmailUseMail />
 
 ## Useful Resources for Using Google Workspace for Education
 

@@ -1,13 +1,20 @@
+import If from "@components/utils/If.astro";
 import Help from "@components/utils/Help.astro";
+import LoginHelpSuspicious from "./LoginHelpSuspicious.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} inlineHelp
+  */}
 
 1. Please wait for about 40 minutes for your newly set password and email address to be reflected in the system.
 2. Go to [the Google login page](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp).
 3. Enter your new email address from the above procedure.
 4. Enter the password you previously set.
 
-<Help lang="en">
-  - **Error message "Google couldn’t verify this account belongs to you. Try again later or use Account Recovery for help."**:
-    - Your login attempt is detected as a "suspicious login." ECCS Cloud Email (Google Workspace) may judge unusual activities as suspicious logins. You may be able to log in if you change locations, terminals, or internet connections. Especially, if you are using a VPN, try logging in without the VPN (if possible).
-    - For more details, please refer to the ECCS announcement ["An error message of 'Google couldn't verify that this account belongs to you.'"](https://www.ecc.u-tokyo.ac.jp/en/announcement/2022/09/05_3466.html)
-    - If changing the environment does not seem to solve the problem, ple ase consult the [Technical Support Desk](/en/support/) with a note to that effect.
-</Help>
+<If cond={props.inlineHelp}>
+  <LoginHelpSuspicious type="details" />
+  <Help lang="en" support slot="else">
+    - <LoginHelpSuspicious type="oneline" />
+  </Help>
+</If>
