@@ -1,27 +1,38 @@
 import If from "@components/utils/If.astro";
 import Help from "@components/utils/Help.astro";
+import ConfigureHelpInvalidPassword from "./ConfigureHelpInvalidPassword.mdx";
 
 {/**
   * @typedef {object} Props
-  * @property {boolean} img
-  * @property {boolean} support
-  * @property {boolean} detailsLink
+  * @property {boolean} [img]
+  * @property {boolean} [inlineHelp]
+  * @property {boolean} [detailsLink]
+  * @property {boolean} [waitForReflection]
   */}
 
 1. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)にアクセスし，UTokyo Accountのユーザ名（10桁の数字のみ）とパスワードを入力してログインしてください．
 2. 左のメニューにある「ECCSクラウドメール（パスワード変更）」を押すとパスワードの設定画面が表示されます．自身でパスワードを決め，設定してください．これはECCSクラウドメール専用のパスワードです．
     <If cond={props.img}>
-        ![](/google/change-password.png){:.medium}
+      ![](/google/change-password.png){:.medium}
+    </If>
+    <If cond={props.inlineHelp}>
+      <ConfigureHelpInvalidPassword type="details" />
     </If>
 3. 左のメニューにある「ECCSクラウドメール」を押すとメールアドレスの設定画面が表示されます．「メールアドレス」欄に好みのメールアドレスを入力して，「保存」ボタンを押してください．
     <If cond={props.img}>
-        ![](/google/change-localpart.png){:.medium}
+      ![](/google/change-localpart.png){:.medium}
     </If>
 
 <If cond={props.detailsLink}>
   - ECCSクラウドメールの基本的な使い方（ログイン方法・メールの確認方法等）は下の[「ECCSクラウドメール」の項](#google)をご覧ください．
 </If>
 
-<Help lang="ja" support={props.support}>
-  - **「EX-076 エラーが発生しました。 EX-079 ディレクトリの他の属性値と同じため、新しいパスワードには設定できません。」と表示される場合**：ECCSクラウドメールのパスワードは，UTokyo Accountのパスワードやユーザ名（10桁の数字）と同一であったり，これらを一部に含んでいたりしてはいけない，という制限があります．これに該当していると思われるので，この制限を避けたパスワードでもう一度試してみてください．
-</Help>
+<If cond={!props.inlineHelp}>
+  <Help lang="ja">
+    - <ConfigureHelpInvalidPassword type="oneline" />
+  </Help>
+</If>
+
+<If cond={props.waitForReflection}>
+  パスワードとメールアドレスを設定してから，反映に**最大約40分**かかるので，**ログインできるようになるまでしばらく待ってください**．
+</If>
