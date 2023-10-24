@@ -13,7 +13,7 @@ title: UTokyo Account多要素認証の本人確認方法の登録変更手順
 ## 本人確認方法を追加する
 {:#add}
 
-[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)にアクセスすると，[「UTokyo Account多要素認証の初期設定手順」の中の「「手順2：追加の本人確認方法を登録する」](initial#alternative)と同じ要領で本人確認方法を追加することができます．
+[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)にアクセスすると，[「UTokyo Account多要素認証の初期設定手順」の中の「手順2：追加の本人確認方法を登録する」](initial#alternative)と同じ要領で本人確認方法を追加することができます．
 
 <img src="alt_add_method.png">
 

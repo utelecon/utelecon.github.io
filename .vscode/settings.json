@@ -1,3 +1,6 @@
 {
+  "[mdx]": {
+    "editor.formatOnSave": false
+  },
   "mdx.experimentalLanguageServer": true
 }

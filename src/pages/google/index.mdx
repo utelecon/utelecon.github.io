@@ -4,7 +4,11 @@ redirect_from:
   - /eccs_cloud_email
 ---
 
-import EccsCloudEmail from '@components/ja/systems/eccs_cloud_email/index.mdx'
+import ECCSCloudEmailConfigure from '@components/ja/systems/eccs_cloud_email/Configure.mdx';
+import ECCSCloudEmailLogin from '@components/ja/systems/eccs_cloud_email/Login.mdx';
+import ECCSCloudEmailAccess from '@components/ja/systems/eccs_cloud_email/Access.mdx';
+import ECCSCloudEmailLoginSp from '@components/ja/systems/eccs_cloud_email/LoginSp.mdx';
+import ECCSCloudEmailUseMail from '@components/ja/systems/eccs_cloud_email/UseMail.mdx';
 
 ## ECCSクラウドメールとは
 
@@ -27,7 +31,34 @@ import EccsCloudEmail from '@components/ja/systems/eccs_cloud_email/index.mdx'
 
 ECCSクラウドメールの利用（アカウント作成）には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．
 
-<EccsCloudEmail variant="individual" />
+### 作業：パスワードとメールアドレスを設定する
+{:#configure}
+
+※既にECCSクラウドメールを利用している場合でも，利用開始の場合と同様にこの手順でパスワードやメールアドレスを変更することができます．
+
+<ECCSCloudEmailConfigure img inlineHelp waitForReflection />
+
+パスワードとメールアドレスを設定してから，反映に**最大約40分**かかるので，**ログインできるようになるまでしばらく待ってください**．
+
+### 確認：ログインしてみる
+
+<ECCSCloudEmailLogin inlineHelp />
+
+### 確認：東大のアカウント専用のページにアクセスできるか確認する
+
+<ECCSCloudEmailAccess />
+
+### 任意の作業：スマホでログインする
+
+GmailなどGoogleのアプリを使っている人向けです．
+
+<ECCSCloudEmailLoginSp />
+
+### 練習：メールを使ってみる
+
+Gmailで `xxxx@g.ecc.u-tokyo.ac.jp` というメールアドレスが使えます．
+
+<ECCSCloudEmailUseMail />
 
 ## 利用方法
 

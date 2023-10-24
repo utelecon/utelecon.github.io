@@ -7,7 +7,7 @@
   * 利用例：src/components/README.mdを参照
   */}
 
-import type { Lang } from "@components/types";
+import type { Lang, HelpItemType } from "@components/types";
 
 interface Props {
   /**
@@ -15,33 +15,48 @@ interface Props {
    */
   lang: Lang;
   /**
-   * 1行で表示するか(true)，折りたたみで表示するか(false)
+   * 表示形式
+   * - oneline: 1行で表示
+   * - details: 折りたたみで表示
+   * - default: 通常の表示
    */
-  oneline?: boolean;
+  type?: HelpItemType | undefined;
 }
 
-const { lang, oneline } = Astro.props;
+const { lang, type } = Astro.props;
 const colon = { ja: "：", en: ": " }[lang];
 const help = { ja: "ヘルプ", en: "Help" }[lang];
 ---
 
 {/* check https://medium.com/@popoever/57f1aef6e437 for why prettier-ignore */}
 {
-  oneline ? (
-    <>
-      <!-- prettier-ignore -->
-      <strong><slot name="problem" /></strong>{colon}<slot name="solution" />
-    </>
-  ) : (
-    <details>
-      <summary>
+  {
+    oneline: () => (
+      <>
         <!-- prettier-ignore -->
-        {help}{colon}<slot name="problem" />
-      </summary>
-      <p>
-        <slot name="solution" />
-        <slot />
-      </p>
-    </details>
-  )
+        <strong><slot name="problem" /></strong>{colon}<slot name="solution" />
+      </>
+    ),
+    details: () => (
+      <details>
+        <summary>
+          <!-- prettier-ignore -->
+          {help}{colon}<slot name="problem" />
+        </summary>
+        <p>
+          <slot name="solution" />
+          <slot />
+        </p>
+      </details>
+    ),
+    default: () => (
+      <>
+        <strong><slot name="problem" /></strong>{colon}
+        <p>
+          <slot name="solution" />
+          <slot />
+        </p>
+      </>
+    ),
+  }[type ?? "default"]()
 }
