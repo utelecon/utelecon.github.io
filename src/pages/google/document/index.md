@@ -1,5 +1,7 @@
 ---
 title: Googleドキュメント
+redirect_from:
+  - /articles/google-document/
 ---
 
 ## はじめに

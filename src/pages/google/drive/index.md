@@ -1,5 +1,7 @@
 ---
 title: Googleドライブ
+redirect_from:
+  - /articles/google-drive/
 ---
 
 ## Googleドライブとは
