@@ -61,7 +61,7 @@ Google Classroomは，Google Workspaceの一部として提供されいる学習
 {:#google-workspace}
 Google Workspaceは，GmailやGoogleドライブ・Googleドキュメント・GoogleスプレッドシートなどのGoogleサービスの総称です．東京大学では有料ライセンスを契約しており，「ECCSクラウドメール」の名称で提供しています．
 
-- **[ECCSクラウドメール (Google Workspace) 説明ページ](/eccs_cloud_email)**：ECCSクラウドメール (Google Workspace) に関する情報をまとめています．
+- **[ECCSクラウドメール (Google Workspace) 説明ページ](/google/)**：ECCSクラウドメール (Google Workspace) に関する情報をまとめています．
 
 ### Microsoft 365 (UTokyo Microsoft License)
 {:#microsoft-365}
