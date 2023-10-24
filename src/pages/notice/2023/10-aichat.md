@@ -2,7 +2,7 @@
 title: 生成AIチャットサービスの実験的な提供について
 ---
 
-<div class="box--important box--alert">利用者多数により，申請の受付を一時停止しています．申請再開待ち登録を行うことができます（すぐに利用できるようにはなりません）．ご期待に添えず申し訳ありません．</div>
+<div class="box--alert">利用者多数により，申請を行ってから利用できるようになるまで時間がかかっている状況です．ご期待に添えず申し訳ありません．詳細は本ページ末尾をご覧ください．</div>
 
 いつも本学の情報システムの運営にご協力いただきありがとうございます．
 
@@ -53,7 +53,7 @@ OpenAI社のAPIの使用には上限があり，また従量課金となって�
     - 入力1トークンあたり60単位
     - 出力1トークンあたり120単位
 
-とした上で，1アカウントにつき1ヶ月あたり2,000,000単位を上限とします（あくまで大まかな目安ですが，GPT-4モデルで日本語の文章1.5万字前後に相当します）．ただし，利用の状況により変更する可能性があります．
+とした上で，1アカウントにつき1ヶ月あたり**2,000,000単位** <ins style="alert">または800,000単位（本ページ末尾参照）</ins> を上限とします（あくまで大まかな目安ですが，2,000,000単位はGPT-4モデルで日本語の文章1.5万字前後に相当します）．ただし，利用の状況により変更する可能性があります．
 
 トークンに関する詳細は，OpenAI社の記事「[What are tokens and how to count them?](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)」やその他インターネット上の情報を参照してください．
 
@@ -99,23 +99,32 @@ OpenAIのAPIでは，それまでのチャットの内容を参照し文脈に�
 
 本サービスの利用には**[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講と[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須**とします．あらかじめこれらを済ませた上で，以下の手順に進んでください．
 
-<div class="box--important box--alert">利用者多数により，申請の受付を一時停止しています．<a href="https://forms.office.com/r/nAv0y1uwsR">申請再開待ち登録</a>を行うことができます（すぐに利用できるようにはなりません）．ご期待に添えず申し訳ありません．</div>
-
-1. <del>以下の申請フォームを入力・送信してください．<b class="box center"><a href="https://forms.office.com/r/nAv0y1uwsR">申請フォーム</a></b></del>
-1. 以下のリンクにアクセスしてください．<b class="box center"><a href="https://aichat.adm.u-tokyo.ac.jp/">https://aichat.adm.u-tokyo.ac.jp/</a><br>※10月20日19時40分までに申請済みの方のみ</b>
+1. 以下の申請フォームを入力・送信してください．<b class="box center"><a href="https://forms.office.com/r/nAv0y1uwsR">申請フォーム</a></b>
+1. **申請後，利用できるようになるまでには時間がかかります．下の「申請の受付状況について」をご覧いただき，利用できるようになるまでしばらくお待ちください．**{:.alert}
+    - 利用できるようになった際の個別の連絡はしません．お手数ですが，本ページや，下で説明している「UTokyo ARC」Slackワークスペースにて，各自ご確認ください．
+1. 利用できるようになったら，以下のリンクにアクセスしてください．<b class="box center"><a href="https://aichat.adm.u-tokyo.ac.jp/">https://aichat.adm.u-tokyo.ac.jp/</a></b>
     <details>
         <summary>ヘルプ：「申し訳ありませんが、サインイン中に問題が発生しました。」または「Sorry, but we’re having trouble signing you in.」というエラーが表示される場合</summary>
-        申請の送信が完了していないか，本サービスの利用に必要な<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>の受講が完了していないために，申請が却下されています．情報セキュリティ教育の受講を完了（確認テストに合格）してから，もう1度申請をし直してください．
+        まだ利用できるようになっていないか，あるいは，本サービスの利用に必要な<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>の受講が完了していないために，申請が却下されています．申請時刻からは利用できるようになっているはずと思われる場合は，情報セキュリティ教育の受講を完了（確認テストに合格）してから，もう1度申請をし直してください．
     </details>
     <details>
         <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
         本サービスの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
     </details>
 
-
 ※情報セキュリティ教育の受講が完了していない（確認テストに合格していない）状態で申請した場合，そのデータは破棄されます．受講が完了した後に，もう1度申請をし直してください．
 
 ※**利用者が多数となった場合は，申請の受付を急遽停止する可能性や，申請をした方へのサービス提供を急遽制限・停止する可能性があります．**{:.alert}その際は，このページを更新するとともに，下で説明している「UTokyo ARC」Slackワークスペースでお知らせします．
+
+### 申請の受付状況について
+
+利用者多数により，申請の受付を一時停止するなどご期待に添えない状況が生じており，申し訳ありません．
+
+- 10月20日19時40分頃：受付を一時停止しました．
+- 10月20日20時00分頃：申請再開待ち登録に切り替えました．
+- 10月24日19時00分頃
+    - 10月22日2時30分頃までに登録していた方について，上限を当初の40%（800,000単位）に設定した上で，利用できるようにしました． ※当初から利用できている方の上限に変更はありません．
+    - 10月22日2時30分頃以降に登録した方についても，段階的に受け入れるべく調整中です．大変おそれいりますが，引き続きいましばらくお待ちください．
 
 ## 情報共有・問い合わせ先
 
