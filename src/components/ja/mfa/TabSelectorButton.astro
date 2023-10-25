@@ -21,11 +21,11 @@ const { step } = Astro.props;
     ms_auth: "Microsoft Authenticator",
     auth_app: "その他の認証アプリ",
     phone: "電話",
-    fido: "FIDO セキュリティキー",
+    fido: step === "alt" ? "FIDO セキュリティキー" : undefined,
   }}
 >
-  <MicrosoftAuthenticator group="initial" slot="ms_auth" />
-  <AuthenticatorApplication group="initial" slot="auth_app" />
-  <Phone group="initial" slot="phone" />
-  <Fido group="initial" slot="fido" />
+  <MicrosoftAuthenticator group={step} slot="ms_auth" />
+  <AuthenticatorApplication group={step} slot="auth_app" />
+  <Phone group={step} slot="phone" />
+  <Fido group={step} slot="fido" />
 </BaseTabSelectorButton>
