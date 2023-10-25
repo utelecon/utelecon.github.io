@@ -1,0 +1,90 @@
+---
+import type { Labels, Step } from "./tabs";
+
+interface Props {
+  step: Step;
+  labels: Labels;
+}
+
+const { step, labels } = Astro.props;
+
+const buttonProps = Object.fromEntries<
+  astroHTML.JSX.IntrinsicElements["button"]
+>(
+  ["ms_auth", "auth_app", "phone", "fido"].map((selection) => [
+    selection,
+    {
+      id: `button-${step}-${selection}`,
+      "aria-labelledby": `label-${step}-${selection}`,
+      value: selection,
+    },
+  ])
+);
+
+const labelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["label"]>(
+  ["ms_auth", "auth_app", "phone", "fido"].map((selection) => [
+    selection,
+    {
+      id: `label-${step}-${selection}`,
+      for: `button-${step}-${selection}`,
+    },
+  ])
+);
+---
+
+<div class="wrapper">
+  <button {...buttonProps.ms_auth}>
+    <label {...labelProps.ms_auth}>{labels.ms_auth}</label>
+    <slot name="ms_auth" />
+  </button>
+
+  <button {...buttonProps.auth_app}>
+    <label {...labelProps.auth_app}>{labels.auth_app}</label>
+    <slot name="auth_app" />
+  </button>
+
+  <button {...buttonProps.phone}>
+    <label {...labelProps.phone}>{labels.phone}</label>
+    <slot name="phone" />
+  </button>
+
+  {
+    labels.fido && (
+      <button {...buttonProps.fido}>
+        <label {...labelProps.fido}>{labels.fido}</label>
+        <slot name="ms_auth" />
+      </button>
+    )
+  }
+</div>
+
+<script>
+  import { emitChangeTab } from "./tabs";
+
+  function onClick(this: HTMLButtonElement) {
+    const [, step, selection] = this.id.split("-");
+    emitChangeTab(step, selection);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document
+      .querySelectorAll<HTMLButtonElement>(
+        `button[id^="button"][aria-labelledby^="label"]`
+      )
+      .forEach((button) => {
+        button.addEventListener("click", onClick);
+      });
+  });
+</script>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+
+  button {
+    text-align: start;
+  }
+
+  label {
+    font-weight: bold;
+  }
+</style>

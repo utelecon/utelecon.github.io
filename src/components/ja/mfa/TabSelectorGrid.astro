@@ -1,0 +1,23 @@
+---
+// なぜか`.mdx`にすると <script> の中身がbundleされないため`.astro`
+
+import BaseTabSelectorGrid from "@components/pages/mfa/BaseTabSelectorGrid.astro";
+import MicrosoftAuthenticator from "./select/MicrosoftAuthenticator.mdx";
+import AuthenticatorApplication from "./select/AuthenticatorApplication.mdx";
+import Phone from "./select/Phone.mdx";
+import Fido from "./select/Fido.mdx";
+---
+
+<BaseTabSelectorGrid
+  labels={{
+    ms_auth: "Microsoft Authenticator",
+    auth_app: "その他の認証アプリ",
+    phone: "電話",
+    fido: "FIDO セキュリティキー",
+  }}
+>
+  <MicrosoftAuthenticator group="initial" slot="ms_auth" />
+  <AuthenticatorApplication group="initial" slot="auth_app" />
+  <Phone group="initial" slot="phone" />
+  <Fido group="initial" slot="fido" />
+</BaseTabSelectorGrid>

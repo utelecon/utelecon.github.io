@@ -1,13 +1,12 @@
 ---
 import DemiRadioButton from "./DemiRadioButton.astro";
-import type { Group, Labels } from "./tabs";
+import type { Labels } from "./tabs";
 
 interface Props {
-  group: Group;
   labels: Labels;
 }
 
-const { group, labels } = Astro.props;
+const { labels } = Astro.props;
 
 const radioProps = Object.fromEntries(
   ["first", "alt"].map((step) => [
@@ -16,9 +15,9 @@ const radioProps = Object.fromEntries(
       ["ms_auth", "auth_app", "phone", "fido"].map((selection) => [
         selection,
         {
-          id: `radio-${step}-${group}-${selection}`,
+          id: `radio-${step}-${selection}`,
           type: "radio",
-          name: `radio-${step}-${group}`,
+          name: `radio-${step}`,
           value: selection,
         },
       ])
@@ -103,7 +102,7 @@ const radioProps = Object.fromEntries(
   });
 
   function onChange(this: HTMLInputElement) {
-    const [, step, , selection] = this.id.split("-");
+    const [, step, selection] = this.id.split("-");
     emitChangeTab(step, selection);
   }
 

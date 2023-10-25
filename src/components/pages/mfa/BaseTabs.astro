@@ -11,33 +11,33 @@ const { step, labels } = Astro.props;
 
 // `<button {...tabProps("select")} />` がなぜかparse errorを吐くので，対策……
 const tabProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["button"]>(
-  ["select", "ms_auth", "auth_app", "phone", "fido"].map((selection) => [
+  ["ms_auth", "auth_app", "phone", "fido"].map((selection) => [
     selection,
     {
       id: `tab-${step}-${selection}`,
       type: "button",
       role: "tab",
       "aria-controls": `panel-${step}-${selection}`,
-      "aria-selected": `${selection === "select"}`,
+      "aria-selected": "false",
       class: "tab",
     },
   ])
 );
 const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
-  ["select", "ms_auth", "auth_app", "phone", "fido"].map((selection) => [
+  ["selector", "ms_auth", "auth_app", "phone", "fido"].map((selection) => [
     selection,
     {
       id: `panel-${step}-${selection}`,
       role: "tabpanel",
-      "aria-labelledby": `tab-${step}-${selection}`,
-      hidden: selection !== "select",
+      "aria-labelledby":
+        selection === "selector" ? undefined : `tab-${step}-${selection}`,
+      hidden: true,
     },
   ])
 );
 ---
 
-<div class="tab-list">
-  <button {...tabProps.select}>{labels.select}</button>
+<div id={`tab-list-${step}`} class="tab-list">
   <button {...tabProps.ms_auth}>{labels.ms_auth}</button>
   <button {...tabProps.auth_app}>{labels.auth_app}</button>
   <button {...tabProps.phone}>{labels.phone}</button>
@@ -45,8 +45,8 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
     <button {...tabProps.fido}>{labels.fido}</button>
   </If>
 </div>
-<div class="panel-list">
-  <div {...panelProps.select}><slot name="select" /></div>
+<div id={`panel-list-${step}`} class="panel-list">
+  <div {...panelProps.selector}><slot name="selector" /></div>
   <div {...panelProps.ms_auth}><slot name="ms_auth" /></div>
   <div {...panelProps.auth_app}><slot name="auth_app" /></div>
   <div {...panelProps.phone}><slot name="phone" /></div>
@@ -59,6 +59,8 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
   import { onChangeTab, emitChangeTab } from "./tabs";
 
   onChangeTab((step, selection) => {
+    document.querySelector<HTMLDivElement>(`#tab-list-${step}`)!.hidden =
+      selection === "selector";
     document
       .querySelectorAll<HTMLButtonElement>(`button[id^="tab-${step}"]`)
       .forEach((tab) => {
@@ -90,6 +92,10 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
 
   .tab-list {
     display: flex;
+
+    &[hidden] {
+      display: none;
+    }
   }
   .panel-list {
     padding: 0.5rem;

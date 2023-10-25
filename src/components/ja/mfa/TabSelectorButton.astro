@@ -1,22 +1,22 @@
 ---
 // なぜか`.mdx`にすると <script> の中身がbundleされないため`.astro`
 
-import BaseTabSelector from "@components/pages/mfa/BaseTabSelector.astro";
+import BaseTabSelectorButton from "@components/pages/mfa/BaseTabSelectorButton.astro";
 import MicrosoftAuthenticator from "./select/MicrosoftAuthenticator.mdx";
 import AuthenticatorApplication from "./select/AuthenticatorApplication.mdx";
 import Phone from "./select/Phone.mdx";
 import Fido from "./select/Fido.mdx";
-import type { Group } from "@components/pages/mfa/tabs";
+import type { Step } from "@components/pages/mfa/tabs";
 
 interface Props {
-  group: Group;
+  step: Step;
 }
 
-const { group } = Astro.props;
+const { step } = Astro.props;
 ---
 
-<BaseTabSelector
-  group={group}
+<BaseTabSelectorButton
+  step={step}
   labels={{
     ms_auth: "Microsoft Authenticator",
     auth_app: "その他の認証アプリ",
@@ -24,8 +24,8 @@ const { group } = Astro.props;
     fido: "FIDO セキュリティキー",
   }}
 >
-  <MicrosoftAuthenticator group={group} slot="ms_auth" />
-  <AuthenticatorApplication group={group} slot="auth_app" />
-  <Phone group={group} slot="phone" />
-  <Fido group={group} slot="fido" />
-</BaseTabSelector>
+  <MicrosoftAuthenticator group="initial" slot="ms_auth" />
+  <AuthenticatorApplication group="initial" slot="auth_app" />
+  <Phone group="initial" slot="phone" />
+  <Fido group="initial" slot="fido" />
+</BaseTabSelectorButton>

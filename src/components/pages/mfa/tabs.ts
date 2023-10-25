@@ -26,7 +26,7 @@ onChangeTab((step, selection) => {
 document.addEventListener("DOMContentLoaded", () => {
   for (const step of ["first", "alt"]) {
     const url = new URL(location.href);
-    const selection = url.searchParams.get(step) ?? "select";
+    const selection = url.searchParams.get(step) ?? "selector";
     emitChangeTab(step, selection);
   }
 });
