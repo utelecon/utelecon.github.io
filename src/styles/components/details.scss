@@ -1,20 +1,17 @@
-li > ul + details, li > ol + details {
-  @media not all and (max-width: 640px) {
-    margin-inline-start: 20px;
-  }
-  &>div.help-details-content {
-    padding-inline-start: 20px;
-  }
-}
-
-details > div {
-  padding-inline-start: 20px;
-}
-
 summary {
   cursor: pointer;
   color: $link-color;
   &:hover {
     text-decoration: underline;
+  }
+}
+
+li > ul ~ details, li > ol ~ details {
+  margin-left: 40px;
+  &>summary {
+    margin-left: -20px;
+  }
+  @media (max-width: 640px) {
+    margin-left: 20px;
   }
 }
