@@ -280,7 +280,7 @@ GoodNotes 5では，PowerPoint，Word，PDF，各種画像ファイルを読み�
 
 以下では，Google ドライブ上に保存したファイルをGoodNotes 5に読み込む方法を説明します．
 
-1. GoodNotes 5に読み込みたいファイルを，自身のGoogle ドライブに保存します．Google ドライブの基本的な使い方は，「[Google Driveの基本的な使い方](/articles/google-drive/)」を確認してください．
+1. GoodNotes 5に読み込みたいファイルを，自身のGoogle ドライブに保存します．Google ドライブの基本的な使い方は，「[Googleドライブ](/google/drive/)」のページを確認してください．
 2. iPad上でGoogle ドライブを起動します．
    * アプリケーションは，[App Store](https://apps.apple.com/jp/app/google-%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96-%E5%AE%89%E5%85%A8%E3%81%AA%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8/id507874739)からインストールすることができます．  
 3. Google ドライブ上で開きたいファイル（PDF，Power Point，またはWordのファイル）があるフォルダまで移動し，開きたいファイルのファイル名の横に表示されている「・・・」をタップします．<img src="pic41.jpeg">

@@ -1,5 +1,7 @@
 ---
 title: Googleドキュメント
+redirect_from:
+  - /articles/google-document/
 ---
 
 ## はじめに
@@ -9,7 +11,7 @@ title: Googleドキュメント
 Googleドキュメントはオンラインで文書の作成，編集が行えるサービスです．Googleドライブ上に文章を保存するため，ファイルを共有することで複数人が共同で編集作業を行うこともできます．Googleドライブについての詳細は，[Googleドライブの説明ページ](drive/)を参照してください．
 
 ### 東京大学のアカウントでの利用
-東京大学では，Google社のサービス「Google Workspace」が，「[ECCSクラウドメール](/eccs_cloud_email/)」として提供されています．Googleドキュメントもその一部に含まれているため，東京大学の構成員は，ECCSクラウドメールのアカウントでGoogleドキュメントを利用することができます．
+東京大学では，Google社のサービス「Google Workspace」が，「[ECCSクラウドメール](/google/)」として提供されています．Googleドキュメントもその一部に含まれているため，東京大学の構成員は，ECCSクラウドメールのアカウントでGoogleドキュメントを利用することができます．
 
 ### ファイルの形式について
 Googleドキュメントのファイルは，[Google独自の形式のファイル](drive/#format)になります．Googleドキュメントは，Microsoft Wordの形式に変換することが可能であり，アップロードしたMicrosoft Office形式のファイルをGoogleのサービス上で編集することも可能です．

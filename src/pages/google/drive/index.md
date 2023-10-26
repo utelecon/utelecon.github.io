@@ -1,5 +1,8 @@
 ---
 title: Googleドライブ
+redirect_from:
+  - /articles/google-drive/
+  - /faculty_members/how/google/share_video
 ---
 
 ## Googleドライブとは
@@ -8,7 +11,7 @@ title: Googleドライブ
 
 ### 東京大学のアカウントでの利用
 
-東京大学では，Google社の「Google Workspace」が「**[ECCSクラウドメール](/eccs_cloud_email)**」として提供されています．Googleドライブもその一部に含まれているため，東京大学の構成員は，ECCSクラウドメールのアカウントでGoogleドライブを利用することができます．
+東京大学では，Google社の「Google Workspace」が「**[ECCSクラウドメール](/google/)**」として提供されています．Googleドライブもその一部に含まれているため，東京大学の構成員は，ECCSクラウドメールのアカウントでGoogleドライブを利用することができます．
 
 ECCSクラウドメールは組織契約によって提供されているため，個人のGoogleアカウントとは異なる部分があります．
 
@@ -28,7 +31,7 @@ ECCSクラウドメールは組織契約によって提供されているため�
 
 **[Googleドライブ](https://drive.google.com/drive/)**{:.box.center}
 
-その際，ログインしていない場合はログインするよう求められますので，[ECCSクラウドメールのページの「利用開始の手順」](/eccs_cloud_email#initial-setup)を参照してログインしてください．
+その際，ログインしていない場合はログインするよう求められますので，[ECCSクラウドメールのページの「利用開始の手順」](/google/#initial-setup)を参照してログインしてください．
 
 ### ファイルを作成・編集・アップロード・ダウンロードする
 
