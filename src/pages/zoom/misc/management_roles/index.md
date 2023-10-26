@@ -3,6 +3,9 @@ title: Zoom ミーティングの管理とそれに関わる役割（ホスト�
 redirect_from:
   - /zoom/misc/host_cohost/
   - /zoom/how/common/host_cohost
+breadcrumb:
+  title: ミーティングの管理とそれに関わる役割について
+  parent: /zoom/
 ---
 
 ## Zoom ミーティングを管理する
