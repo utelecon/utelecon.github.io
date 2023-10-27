@@ -18,7 +18,7 @@ export function emitChangeTab(step: string, selection: string) {
 
 onChangeTab((step, selection) => {
   const url = new URL(location.href);
-  if (selection === "select") url.searchParams.delete(step);
+  if (selection === "selector") url.searchParams.delete(step);
   else url.searchParams.set(step, selection);
   history.replaceState(null, "", url.href);
 });
