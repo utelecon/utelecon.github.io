@@ -55,10 +55,20 @@ while (1) {
 
 <p>
   {
-    resolved.map(({ title, pathname }) => (
+    resolved.map(({ title, pathname }, i) => (
       <>
-        / <a href={pathname}>{title}</a>
+        {i > 0 && (
+          <span class="material-icons-separator">arrow_forward_ios</span>
+        )}
+        <a href={pathname}>{title}</a>
       </>
     ))
   }
 </p>
+
+<style>
+  .material-icons-separator {
+    font-family: "Material Icons";
+    font-size: small;
+  }
+</style>
