@@ -105,12 +105,15 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
     display: block;
     flex: 1;
     background-color: $white-gray-dark;
+    padding: 0.75rem 0.5rem;
     border: none;
     outline: none;
     box-shadow: none;
 
     &[aria-selected="true"] {
+      color: $heading-color;
       background-color: $white-gray-light;
+      border-bottom: 4px solid $heading-color;
     }
   }
 </style>
