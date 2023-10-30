@@ -50,7 +50,7 @@ ITC-LMS is UTokyo’s learning management system. It provides functions such as 
 Google Classroom is a tool provided by Google as part of Google Workspace, which allows you to distribute materials and submit assignments in class.
 
 - **[Google Classroom Official Site (external site)](https://edu.google.com/intl/en_ALL/products/classroom/)**
-- **[How to Use Google Classroom (external site)](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)** (in Japanese)：A web page summarizing basic use of Google Classroom.
+- **[How to Use Google Classroom (external site)](https://www.tsu-cc.ac.jp/campus/classroom/teacher/)** (in Japanese)：A web page summarizing basic use of Google Classroom.
 - **[Online Class Information Exchange Meeting #14: Useful Tools for Online Class (3) Google Classroom](/events/luncheon/2020-07-15/)** (in Japanese): This page provides a presentation material and video on how to use Google Classroom in online classes. (The video is for UTokyo members only.)
 
 
