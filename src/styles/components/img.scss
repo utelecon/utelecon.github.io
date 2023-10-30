@@ -2,6 +2,11 @@ img {
   display: block;
   max-height: 40rem;
   max-width: 100%;
+
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  object-position: left top;
 }
 
 img.large {
