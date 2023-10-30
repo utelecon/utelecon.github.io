@@ -77,7 +77,7 @@ Click “Settings” to select and test the different options.
 
 ### Advanced Settings for Speakers and Microphones
 
-![alt](img/webex_config_sound_setting.png){:width="600px"}
+![alt](img/webex_config_sound_setting.png){:.medium}
 (Due to image compositing, this screenshot is larger than the actual screen.)
 
 + **Speaker**: Select the speaker you want to use. (If you have any additional speakers connected to your device, you need to choose from among several options.) Click “**test**” to hear a confirmation sound.
@@ -85,13 +85,13 @@ Click “Settings” to select and test the different options.
 
 ### Advanced Settings for Cameras
 
-![alt](img/webex_config_camera_setting.png){:width="600px"}
+![alt](img/webex_config_camera_setting.png){:.medium}
 
 + **Camera**: Select the camera you want to use. (If you have any additional cameras attached to your device, you need to choose from among several options.) A preview of the camera will be displayed immediately below, so you can check the video feed.
 
 ### Settings for Virtual background
 
-![alt](img/webex_config_virtual_background_setting.png){:width="600px"}
+![alt](img/webex_config_virtual_background_setting.png){:.medium}
 
 + **Virtual background**: Select the virtual background you want to use. **Note that virtual backgrounds may not work with some devices.**
 
@@ -131,7 +131,7 @@ When the host activates Slido, the Slido panel will appear.
 ## Chat
 
 Clicking “Chat” will enable you to send text messages. You cannot view chat messages that were sent before you joined the meeting.
-![alt](img/webex_chat.png){:width="350px"}
+![alt](img/webex_chat.png){:.medium}
 
 + **To**: You can change the recipient of the message. Select “Everyone” to send your message to all participants.
 
@@ -164,7 +164,7 @@ Participants can move between sessions by pressing the “Join” button. They c
 
 During breakout sessions, participants can share videos or screens and send each other chats, just like in the main meeting. (The instructions are the same as sessions that are not breakout sessions).
 Furthermore, you can ask the Host for help. Asking for help will notify the Host, who may then come to your session. However, you cannot request help from a Host if they are participating in one of the sessions, in which case you will need to wait.
-![alt](img/webex_breakout_callhelp.png){:width="400px"}
+![alt](img/webex_breakout_callhelp.png){:.small}
 
 For specific instructions for Hosts, see [Things You Can Do in Webex Meetings and Webex Webinars (as Host)](do_webex_host).
 
@@ -173,6 +173,6 @@ For specific instructions for Hosts, see [Things You Can Do in Webex Meetings an
 Participants who attempt to join a locked meeting will first be sent to the Lobby.
 **In End-to-End Encrypted Meetings, participants who have already joined the meeting cannot be sent to the Lobby.**
 
-![alt](img/webex_lobby.png){:width="600px"}
+![alt](img/webex_lobby.png){:.medium}
 
 [Back to How to use Webex](.)
