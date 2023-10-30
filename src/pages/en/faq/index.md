@@ -150,11 +150,11 @@ A.
 * Google Forms (survey administration software)
 * YouTube
 
-For more information, please refer to [“ECCS Cloud Email (Google Workspace)”](/en/eccs_cloud_email.html)
+For more information, please refer to [“ECCS Cloud Email (Google Workspace)”](/en/google/)
 
 
 ### Q. How can I start using ECCS Cloud Email?
-* Please read “Initial Setup Procedures” on the [“ECCS Cloud Email (Google Workspace)”](/en/eccs_cloud_email.html)
+* Please read “Initial Setup Procedures” on the [“ECCS Cloud Email (Google Workspace)”](/en/google/)
 
 ### Q. I cannot access Google Drive and files exclusive to UTokyo. What can I do?
 * (On PC or smartphone) If you are taken to the “You need access” page, and it shows you are signed in with an email address other than your `@g.ecc.u-tokyo.ac.jp` email address:
@@ -173,7 +173,7 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 
 ### Q. I forgot my password / I cannot change my password. What can I do?
 
-* See [ECCS Cloud Email – “Initial Setup Procedures”](/en/eccs_cloud_email#initial-setup-procedures), and follow the instructions in “Task: Set your password and email address”.
+* See [ECCS Cloud Email – “Initial Setup Procedures”](/en/google/#initial-setup-procedures), and follow the instructions in “Task: Set your password and email address”.
 
 ### Q. What is the difference among `10-digits-ID@utac`, `10-digits-ID@g.ecc`, and `xxxx@g.ecc` (email address named after your choice) email addresses?
 * `10-digits-ID@utac.u-tokyo.ac.jp`（e.g. `1234567890@utac.u-tokyo.ac.jp`）

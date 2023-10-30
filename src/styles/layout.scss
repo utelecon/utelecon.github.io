@@ -1,4 +1,4 @@
-@import "normalize";
+@import "../../node_modules/normalize.css/normalize.css";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 
 * {
@@ -11,10 +11,5 @@ html {
   line-height: 1.5;
 }
 
-table {
-  border-collapse: collapse;
-}
-
-@import "components/cayman/jekyll-theme-cayman";
-@import "layout/main";
-@import "components/box";
+@import "cayman/jekyll-theme-cayman";
+@import "main";

@@ -12,7 +12,7 @@ export default function trailingSlash(): AstroIntegration {
           dedupe(routes)
             .filter(
               ({ component, pathname }) =>
-                parse(component).name !== "index" && pathname !== "/404"
+                parse(component).name !== "index" && !component.endsWith("/") && pathname !== "/404"
             )
             .map(async ({ pathname }) => {
               if (!pathname) return;

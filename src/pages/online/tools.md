@@ -61,7 +61,7 @@ Google Classroomは，Google Workspaceの一部として提供されいる学習
 {:#google-workspace}
 Google Workspaceは，GmailやGoogleドライブ・Googleドキュメント・GoogleスプレッドシートなどのGoogleサービスの総称です．東京大学では有料ライセンスを契約しており，「ECCSクラウドメール」の名称で提供しています．
 
-- **[ECCSクラウドメール (Google Workspace) 説明ページ](/eccs_cloud_email)**：ECCSクラウドメール (Google Workspace) に関する情報をまとめています．
+- **[ECCSクラウドメール (Google Workspace) 説明ページ](/google/)**：ECCSクラウドメール (Google Workspace) に関する情報をまとめています．
 
 ### Microsoft 365 (UTokyo Microsoft License)
 {:#microsoft-365}
@@ -100,7 +100,7 @@ Microsoft FormsはMicrosoft 365に含まれているフォーム作成サービ�
 
 Google ドキュメントは，Google Workspaceに含まれる文書作成ツールです．クラウド（Googleドライブ）上に文書を保存するため，複数人が同時編集をしたり，URLを使って文書を共有したりすることが簡単にできます．
 
-- **[Google ドキュメントの基本的な使い方](/articles/google-document/)**：基本的な使い方を説明しています．
+- **[Googleドキュメント](/google/document/)**：基本的な使い方を説明しています．
 - **[オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)**：グループワークで活用するために，Google ドキュメントなどで作成した雛形ファイルのコピーを複数作るという作業を自動化するスクリプト（簡単なプログラム）が紹介されています．
 
 #### Google スライド
@@ -115,7 +115,7 @@ Google スライドは，Google Workspaceに含まれるプレゼンテーショ
 #### Google ドライブ
 Google ドライブは，Google ドキュメントなどで作成した資料の「置き場」となるオンラインストレージです．
 
-- **[Google Driveの基本的な使い方](/articles/google-drive/)**：Googleドライブの使い方を説明しています．
+- **[Googleドライブ](/google/drive/)**：Googleドライブの使い方を説明しています．
 
 #### Google グループ
 Google グループ（Google Groups）はGoogleの無料サービスの1つで，共通の話題について話し合う場を提供します．メーリングリストを作成してグループのメンバー全員に一斉にメールを送信することができるなど，グループでの活動に便利な機能を有しています．学内のメンバー同士で利用する場合は，東京大学のGoogleアカウント（ECCSクラウドメール）を使うことを推奨します．

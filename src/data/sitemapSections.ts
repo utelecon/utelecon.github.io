@@ -51,7 +51,7 @@ export const sitemapSectionsJa: SitemapSection[] = [
     name: "Webex",
   },
   {
-    patterns: [/^\/eccs_cloud_email$/],
+    patterns: [/^\/google($|\/)/],
     depth: 3,
     name: "ECCSクラウドメール (Google Workspace)",
   },
@@ -159,7 +159,7 @@ export const sitemapSectionsEn: SitemapSection[] = [
     name: "Webex",
   },
   {
-    patterns: [/^\/en\/eccs_cloud_email$/],
+    patterns: [/^\/en\/google($|\/)/],
     depth: 3,
     name: "ECCS Cloud Email",
   },

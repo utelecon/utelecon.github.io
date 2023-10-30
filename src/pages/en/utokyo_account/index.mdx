@@ -14,7 +14,7 @@ import InformationSecurity from '@components/en/InformationSecurity.mdx'
   - Even if you do not currently have an account,  a UTokyo Account can be issued if necessary. If you wish to obtain an account, please contact the relevant office of your department (students should contact the academic office, and faculty and staff members should contact the personnel department).
 - The username of UTokyo Account is represented by a 10-digit number and is also called the **“Common ID”**. In the ICT systems, a 10-digit Common ID followed by `@utac.u-tokyo.ac.jp`, which indicates that you are a member of the University of Tokyo, is sometimes used, such as `1234567890@utac.u-tokyo.ac.jp`.
   - The "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is not an email address that can be used normally.
-  - System notification emails sent to "10-digit common ID + `@utac.u-tokyo.ac.jp`" may be forwarded to [the ECCS Cloud Email (Google Workspace)](/en/eccs_cloud_email), but you cannot send emails using "10-digit common ID + `@utac.u-tokyo.ac.jp`".
+  - System notification emails sent to "10-digit common ID + `@utac.u-tokyo.ac.jp`" may be forwarded to [the ECCS Cloud Email (Google Workspace)](/en/google/), but you cannot send emails using "10-digit common ID + `@utac.u-tokyo.ac.jp`".
 - For more information on the services available through the UTokyo Account, please see the **[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)** and [the "Systems of the University of Tokyo" page (in Japanese)](/systems).
 
 ## Notes on using UTokyo Account
@@ -65,6 +65,9 @@ Many of the ICT systems that allow users to sign in using their UTokyo Account a
 ### Validity period of a password
 {:#password-expiration}
 
+If you are using Multi-Factor Authentication, your password does not expire. Otherwise, your password is valid for 397 days (1 year + 1 month) after it is changed. The expiration date of the current password can be checked from [the User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet).
+*Before March 9, 2023, passwords were valid for 365 days regardless of whether or not Multi-Factor Authentication was enabled (see [this page](/en/notice/2023/03-utokyo_account-password) for details). Passwords set before March 9, 2023 will remain valid for 365 days and will not be extended, and passwords set after that date will have a new validity period.
+
 A password is valid for one year after it is changed. The expiration date of your current password can be checked from the [User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet).
 
 ### Changing passwords
@@ -105,6 +108,11 @@ If you have not registered your email address, or if the above procedure does no
     - The Help Desks are located in the Information Education Building (Komaba Campus), Information Technology Center (Asano Section, Hongo Campus), and Fukutake Hall (Hongo Campus).
 
 After completing the procedures, you will receive a "Notification regarding password for the UTokyo Account" containing your initial password. Please change your initial password to a new one, referring to "Task: Change the initial password" in [How to start using UTokyo Account](#procedures). (You cannot use the ICT services with your initial password.)
+
+<details>
+	<summary>When the error message “You can't reset your own password because you haven't registered for password reset.” appears</summary>
+	Since your email address is not registered in the system, a notification email cannot be sent to you and therefore your password cannot be reset. Please [reissue a password from the help desks](/en/utokyo_account/#reissue-password). Once your password has been reissued, please register your email address in UTAS (for students) or Personnel Information MyWeb (for faculty and staff).
+</details>
 
 ## Multi-Factor Authentication (MFA)
 {:#mfa}
