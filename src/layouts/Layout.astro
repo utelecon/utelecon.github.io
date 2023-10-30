@@ -21,6 +21,7 @@ export interface Frontmatter {
   h1?: string;
   top?: boolean;
   support?: boolean;
+  layout?: boolean;
   sitemap?: boolean;
   redirect_to?: string;
   author?: AuthorProps;
@@ -158,14 +159,15 @@ if (title) {
       }
     </main>
     <Footer lang={lang} support={support} />
-  </body><style>
-    .title {
-      margin-bottom: 2rem;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid $white-gray-dark;
-      font-size: 2rem;
-      font-weight: bold;
-      color: black;
-    }
-  </style>
+    <style>
+      .title {
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $white-gray-dark;
+        font-size: 2rem;
+        font-weight: bold;
+        color: black;
+      }
+    </style>
+  </body>
 </html>
