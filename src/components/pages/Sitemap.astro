@@ -49,7 +49,6 @@ let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}"))
       const { sitemap } = page;
       if (sitemap === false) return false;
     }
-    if (page.url === "/code/anchorize/README") return false;
     return page.url.startsWith("/en/") === (lang === "en");
   })
   .map<Page>((page) => {
