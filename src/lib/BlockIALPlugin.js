@@ -347,7 +347,7 @@ function mergeMDXAttributes(existing, additional) {
       }
     } else {
       if (Array.isArray(value)) {
-        attr.value += ` ${value.join(" ")}`;
+        attr.value = `${value.join(" ")}`;
       } else {
         attr.value = String(value);
       }
