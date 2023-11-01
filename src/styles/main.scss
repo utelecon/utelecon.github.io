@@ -2,12 +2,12 @@
 
 :is(main) {
   word-wrap: break-word;
-  :lang(ja) {
+  &:lang(ja) {
     @media (max-width: 640px) {
       text-align: left;
     }
   }
-  :lang(en) {
+  &:lang(en) {
     hyphens: auto;
   }
   font-size: 1.125rem;
