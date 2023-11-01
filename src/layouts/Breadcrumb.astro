@@ -53,22 +53,29 @@ while (1) {
 }
 ---
 
-<p>
+<p class="breadcrumb">
   {
     resolved.map(({ title, pathname }, i) => (
       <>
         {i > 0 && (
-          <span class="material-icons-separator">arrow_forward_ios</span>
+          <span class="breadcrumb__separator">arrow_forward_ios</span>
         )}
-        <a href={pathname}>{title}</a>
+        <a href={pathname} class="breadcrumb__item">{title}</a>
       </>
     ))
   }
 </p>
 
-<style>
-  .material-icons-separator {
-    font-family: "Material Icons";
-    font-size: small;
+<style lang="scss">
+  .breadcrumb {
+    .breadcrumb__separator {
+      font-family: "Material Icons";
+      font-size: small;
+      margin-right: 0.1rem;
+    }
+
+    .breadcrumb__item {
+      font-size: medium;
+    }
   }
 </style>
