@@ -121,7 +121,10 @@ const radioProps = Object.fromEntries(
   .wrapper {
     display: grid;
     grid-template-columns: auto 4rem 4rem;
-    row-gap: 0.5rem;
+    // row-gap: 0.5rem;
+    border: 1px solid $white-gray-dark;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
 
     > .col-label {
       grid-column-start: 1;
@@ -139,6 +142,7 @@ const radioProps = Object.fromEntries(
     > .col-description {
       grid-column-start: 1;
       grid-column-end: 4;
+      padding: 0.7rem 0.5rem 0;
     }
 
     p {
@@ -146,6 +150,7 @@ const radioProps = Object.fromEntries(
     }
 
     p.col-label {
+      padding: 0.1rem 0.5rem;
       font-weight: bold;
       background-color: $white-gray-light;
     }
