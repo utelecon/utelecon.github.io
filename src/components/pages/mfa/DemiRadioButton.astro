@@ -2,10 +2,11 @@
   <span></span>
 </span>
 
-<style>
+<style lang="scss">
+  @import "@styles/color.scss";
   span.button {
     position: absolute;
-    border: 2px solid #000;
+    border: 2px solid $black-gray;
     border-radius: 50%;
     width: 1.2rem;
     height: 1.2rem;
@@ -23,7 +24,7 @@
     }
 
     &:has(+ input[type="radio"]:checked) > span {
-      background-color: #000;
+      background-color: $black-gray;
     }
 
     &:has(+ input[type="radio"]:disabled) {
