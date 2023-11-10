@@ -193,8 +193,8 @@ The following examples use copyrighted works beyond the necessary limits for lec
 - The instructor scans all or most of the pages of a paper textbook, creates a PDF version of the digital textbook, and distributes it to students.
 - Reproducing all articles published in a periodical.
 - The instructor selects many works from the same art book, scans them, and uploads them as electronic files to the cloud or a server, from where students download them during class.
-The instructor uploads a large number of novels, including those not directly related to their classes.
-Uploading a video of a picture book reading to the cloud or to a server so that infants, children, and students can view them at any time from home.
+- The instructor uploads a large number of novels, including those not directly related to their classes.
+- Uploading a video of a picture book reading to the cloud or to a server so that infants, children, and students can view them at any time from home.
 
 ##### (4) Reproducing Art and Photographs
 
