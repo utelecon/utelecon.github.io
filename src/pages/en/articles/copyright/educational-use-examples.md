@@ -62,7 +62,7 @@ In contrast, the following activities do not fall under this category.
 
 - School information sessions for prospective students, mock classes at open campuses, etc.
 - Faculty and Staff Meetings
-- Seminars and information for faculty and staff conducted as Faculty Development (FD)[^14] and Staff Development (SD)[^15] at universities.
+- Seminars and information for faculty and staff conducted as Faculty Development (FD)[^14] and Staff Development (SD)[^15] at universities
 - Extracurricular activities in higher education (club activities, etc.)
 - Volunteer work (not for credit)
 
@@ -136,7 +136,7 @@ With regard to textbooks that are usually purchased by instructors and students,
 In addition, concerning the form of use, there is a high possibility of unreasonable prejudice to the interests of the copyright owners in the following cases.
 
 - Using different parts of the same work in each session, such as reading one chapter of a book at a time, resulting in a large portion of the work being used in that class
-- Providing entire copies of literature that is not covered in class but that students may find helpful.
+- Providing entire copies of literature that is not covered in class but that students may find helpful
 
 ##### (3) Art Works, Photographs, Etc.
 
@@ -227,7 +227,7 @@ The following example may be an infringement of the Right to Integrity, because 
 The following facilities do not allow the use of copyrighted works without permission, even if the purpose of use is educational, etc.
 
 - Companies and firms
-- Preparatory schools and cram schools that have not been approved as special training schools or schools in the “miscellaneous” category.
+- Preparatory schools and cram schools that have not been approved as special training schools or schools in the “miscellaneous” category
 - Open colleges
 - Training facilities for companies, organizations, etc.
 
