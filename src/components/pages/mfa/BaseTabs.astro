@@ -113,6 +113,10 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
     outline: none;
     box-shadow: none;
 
+    &:hover {
+      cursor: pointer;
+    }
+
     &[aria-selected="true"] {
       color: $heading-color;
       background-color: $white-gray-light;
