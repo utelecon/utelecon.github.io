@@ -2,6 +2,11 @@ img {
   display: block;
   max-height: 40rem;
   max-width: 100%;
+
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  object-position: left top;
 }
 
 img.large {
@@ -17,6 +22,12 @@ img.small {
   max-width: 30rem; /* for IE11 */
   max-width: min(100%, 30rem);
   max-height: 30rem;
+}
+
+img.extra-small {
+  max-width: 15rem; /* for IE11 */
+  max-width: min(100%, 15rem);
+  max-height: 15rem;
 }
 
 img.inline {

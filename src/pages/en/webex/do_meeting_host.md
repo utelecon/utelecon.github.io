@@ -38,23 +38,23 @@ title: Webex meeting room 101（for instructors）
 * By recording the entire meeting and publishing it on ITC-LMS etc. (publication method TODO), it can be used as a learning material for students who had poor network conditions or for the students to revise afterwards.
 * Recording can be done at any time by setting "Automatic Recording" when setting up the conference, or by clicking the recording icon during the conference.
 
-	![自動録画](img/webex_meeting_auto_record.png){:width="400px"}
+	![自動録画](img/webex_meeting_auto_record.png){:.small}
 
 * Recorded video files are automatically saved in MP4 format and saved in the recording menu area on the home screen. You can download it or you can get a link (URL) with a password to share.
 
-	![録画メニュー](img/webex_meeting_record_1.png){:width="400px"}
-	![録画一覧](img/webex_meeting_record_2.png){:width="700px"}
+	![録画メニュー](img/webex_meeting_record_1.png){:.small}
+	![録画一覧](img/webex_meeting_record_2.png){:.medium}
 
 ### Return as the "Host"
 
 * If the host disconnects from the meeting due to network trouble, etc., the role of the  "Host" will be assigned to another participant.
 * In that case, after re joining as a participant, press "Regain the role of the host" from the "Participant" menu and enter the "Host Key" that was displayed when the meeting was created. Then, you can reassume the role as the "Host."
 
-	![](img/webex_participants_regain_host.png){:width="300px"}
+	![](img/webex_participants_regain_host.png){:.small}
 
 * If you set "Join before host" in "Scheduling options" when scheduling a meeting, participants can enter the meeting room before the host has started the meeting. If the participant does "Regain the role of the host" here, it becomes possible for the participant to become the "Host" and proceed with the conference.
 
-	![](img/webex_meetings_join_before_host.png){:width="700px"}
+	![](img/webex_meetings_join_before_host.png){:.medium}
 
 ### Participants
 
@@ -62,15 +62,15 @@ title: Webex meeting room 101（for instructors）
 * It will take some time after the meeting ends for the report of the attendees to be generated.
 
 1. From "Analysis" on the home screen, click "Show all" on the upper right.
-![](img/webex_participants_list_1.png){:width="700px"}
+![](img/webex_participants_list_1.png){:.medium}
 1. Click on "Usage Report".
-![](img/webex_participants_list_2.png){:width="500px"}
+![](img/webex_participants_list_2.png){:.medium}
 1. Search for the meeting you held. Enter the date and agenda and click "View Report".
-![](img/webex_participants_list_3.png){:width="500px"}
+![](img/webex_participants_list_3.png){:.medium}
 1. A list of meetings will be displayed. If it is displayed in the "Usage summary report (provisional version)", a proper report has not been generated yet. Please wait for it to be displayed in the “Usage Summary Report (final version)”. Click on the agenda name.
-![](img/webex_participants_list_4.png){:width="500px"}
+![](img/webex_participants_list_4.png){:.medium}
 1. A list of participants' attendance will be displayed. Click "Export Report" to download the displayed content as a CSV file.
-![](img/webex_participants_list_5.png){:width="700px"}
+![](img/webex_participants_list_5.png){:.medium}
 
 ## What Webex Meetings cannot do 
 

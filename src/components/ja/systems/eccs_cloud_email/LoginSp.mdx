@@ -1,3 +1,12 @@
+import Support from "@components/utils/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
 1. GmailなどGoogleのアプリを開き，右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）を押してください．
 2. 「別のアカウントを追加」を押して，Googleアカウントを追加します．
 3. メールアドレスとパスワードの入力を求められるので，上で設定したECCSクラウドメールのメールアドレスとパスワードを入力してください．
+
+<Support lang="ja" show={props.support} />
