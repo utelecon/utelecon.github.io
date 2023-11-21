@@ -38,7 +38,7 @@ OpenAI社のAPI <ins class="alert">およびMicrosoftの「Azure OpenAI」サー
 
 本サービスは，生成AIに関する現状に鑑み実験的に提供を行うものであり，継続して提供することを前提としていません．
 
-サービスの利用状況，OpenAI社 <ins class="alert">およびMicrosoftのAzure OpenAI」</ins> のサービス内容の状況，OpenAI社との契約 <ins class="alert">および「Azure OpenAI」の契約状況</ins> 状況，生成AIにまつわる技術・社会の状況等により，予告なく内容を変更する可能性や，提供を終了する可能性があります．
+サービスの利用状況，OpenAI社 <ins class="alert">およびMicrosoftの「Azure OpenAI」</ins> のサービス内容の状況，OpenAI社との契約 <ins class="alert">および「Azure OpenAI」の契約の</ins> 状況，生成AIにまつわる技術・社会の状況等により，予告なく内容を変更する可能性や，提供を終了する可能性があります．
 
 ### 利用目的
 
