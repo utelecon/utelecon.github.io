@@ -4,12 +4,30 @@ breadcrumb:
   title: コース機能（教員向け）
 ---
 
-## ITC-LMS の利点
+ITC-LMSではタームやセメスター単位で開講される科目のことを「コース」と呼びます．
+ITC-LMSを使う際には，殆どの場合において，コース機能を使用することになります．
 
-- ITC-LMS には，学生との連絡・情報共有を行うための機能があり、学生と教室で顔を合わせないオンライン授業を行う際にその重要性が増します．
-- UTokyo Account（つまり UTAS と同じアカウントとパスワード）でアクセスできるため利用の障壁も低めですし、情報を公開ページなどで周知する方法に比べれば遥かに安全です。
-- 大学 1, 2 年の授業を受けた在学生でこれを使ったことがない人はほぼいないと思われ、学生への浸透率も高いです。
-- ここでは，オンライン授業で ITC-LMS を使う場合に主に利用するコース機能に限って，最低限の利用法を説明します．不明な点が現れたらまずは ITC-LMS にログイン後にダウンロードできる教員用マニュアルを参照してください．
-- 授業で使う場合，UTAS に登録されている科目は、自動的に ITC-LMS にコースとして登録されています。それ以外の授業やセミナー等で ITC-LMS をご利用になる場合は、[広報サイト](https://www.ecc.u-tokyo.ac.jp/itc-lms/) の説明に従って利用申請をして下さい。
+授業で使う場合，UTASに登録されている科目は，自動的にITC-LMSにコースとして登録されています．
+また，UTASに登録されていない授業やセミナー等でITC-LMSをご利用になる場合は、[広報サイト](https://www.ecc.u-tokyo.ac.jp/itc-lms/) の説明に従って利用申請をして下さい．
 
-## 使い方
+## コース機能の使い方
+
+以下のページでは，ITC-LMSのコース機能について，教員向けに最低限の使用法を説明しています．
+不明な点が現れたらまずはITC-LMSにログイン後にダウンロードできる教員用マニュアルを参照してください．
+
+### 授業に活用する
+
+- [教材を登録する](/itc_lms/lecturers/materials/)
+- [テストを行う](/itc_lms/lecturers/quizzes/)
+- [課題を作成する](/itc_lms/lecturers/assignments/)
+- [出席を管理する](/itc_lms/lecturers/attendances/)
+<!-- - [アンケート](/itc_lms/lecturers/surveys/) -->
+<!-- - [掲示板](/itc_lms/lecturers/forums/) -->
+<!-- - [メッセージ](/itc_lms/lecturers/messages/) -->
+
+### コースの設定をする
+
+- [コース設定](/itc_lms/lecturers/settings/)
+  - [コース参加者登録](/itc_lms/lecturers/settings/course_participants/)
+  - [ユーザグループ設定](/itc_lms/lecturers/settings/user_groups/)
+  - [コースグループ登録・解除](/itc_lms/lecturers/settings/course_group/)
