@@ -2,6 +2,10 @@
 title: ITC-LMSで出席を管理する
 breadcrumb:
    title: 出席
+redirect_from:
+  - /lms_lecturers/prepare_attendances
+  - /lms_lecturers/attendances
+  - /lms_lecturers/view_attendances
 ---
 
 ## 概要

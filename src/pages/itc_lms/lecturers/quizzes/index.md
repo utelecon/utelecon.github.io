@@ -2,6 +2,8 @@
 title: ITC-LMSでテストを行う
 breadcrumb:
    title: テスト
+redirect_from:
+  - /lms_lecturers/prepare_quizzes
 ---
 
 ## 概要

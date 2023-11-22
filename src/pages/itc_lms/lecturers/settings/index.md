@@ -2,6 +2,8 @@
 title: ITC-LMSのコースの設定をする
 breadcrumb:
    title: コースの設定
+redirect_from:
+  - /lms_lecturers/course_settings
 ---
 ITC-LMSではタームやセメスター単位で開講される科目のことを「コース」と呼びます．自分の担当する科目に合わせて，まずはコースの設定をします．
 

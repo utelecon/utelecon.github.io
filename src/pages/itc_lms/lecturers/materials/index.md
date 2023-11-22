@@ -2,6 +2,8 @@
 title: ITC-LMSに教材を登録する
 breadcrumb:
    title: 教材
+redirect_from:
+  - /lms_lecturers/course_materials
 ---
 
 ## 概要

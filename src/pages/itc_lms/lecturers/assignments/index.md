@@ -2,6 +2,8 @@
 title: ITC-LMSで課題を作成する
 breadcrumb:
    title: 課題
+redirect_from:
+  - /lms_lecturers/assignments
 ---
 
 ## 概要
