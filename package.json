@@ -9,7 +9,9 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "find-link": "node scripts/find-link.js",
+    "broken-link": "node scripts/broken-link.js"
   },
   "dependencies": {
     "@astrojs/mdx": "1.1.0",
