@@ -41,7 +41,7 @@ ITC-LMSを使う際には，殆どの場合において，コース機能を使�
 以下のページでは，ITC-LMSのコース機能について，教員向けに最低限の使用法を説明しています．
 不明な点が現れたらまずはITC-LMSにログイン後にダウンロードできる教員用マニュアルを参照してください．
 
-### 授業に活用する
+### 機能一覧
 
 - [教材を登録する](/itc_lms/lecturers/materials/)
 - [テストを行う](/itc_lms/lecturers/quizzes/)
@@ -51,7 +51,7 @@ ITC-LMSを使う際には，殆どの場合において，コース機能を使�
 <!-- - [掲示板](/itc_lms/lecturers/forums/) -->
 <!-- - [メッセージ](/itc_lms/lecturers/messages/) -->
 
-### コースの設定をする
+### コースの設定
 
 - [コース設定](/itc_lms/lecturers/settings/)
   - [コース参加者登録](/itc_lms/lecturers/settings/course_participants/)
