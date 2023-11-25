@@ -23,7 +23,7 @@ In this specific procedure, your applications are received internally by the Uni
 
 ### Upgrade to Paid Plan
 
-*If you perform the following operations before your application for the the "Slack for Education" program has been approved, your fee will not be discounted. Please make sure that you proceed with the following steps only after you receive the notification of approval.
+*If you perform the following operations before your application for the the "Slack for Education" program has been approved, your fee will not be discounted. Please make sure that you proceed with the following steps **only after you receive the notification of approval**.
 
 1. Press "Workspace settings" in the "Settings & administration" menu in the upper left corner of the workspace screen.
 1. Press "Billing" in the menu on the left.
