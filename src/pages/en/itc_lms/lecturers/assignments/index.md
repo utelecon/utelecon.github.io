@@ -1,5 +1,9 @@
 ---
 title: Prepare assignments
+breadcrumb:
+   title: Assignments
+redirect_from:
+  - /en/lms_lecturers/assignments
 ---
 
 ## Overview
