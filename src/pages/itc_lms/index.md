@@ -2,6 +2,8 @@
 title: ITC-LMS
 breadcrumb:
    title: ITC-LMS
+redirect_from:
+   - /lms_lecturers/login
 ---
 
 ## ITC-LMSとは
