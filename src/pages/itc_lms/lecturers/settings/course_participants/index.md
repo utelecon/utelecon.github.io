@@ -34,3 +34,8 @@ breadcrumb:
 コース参加者登録で何ができるか．TAや他の担当教員の登録．
 自己登録を許さない場合での手動登録などの説明
 -->
+
+## 参考情報
+* <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/03/10_2012.html">ITC-LMS のコースに教員・学生を追加したい（教員）</a>
+
