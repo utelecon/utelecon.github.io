@@ -35,7 +35,7 @@ You can accept the notification from ITC-LMS by email or LINE application.
 
 ITC-LMS の教材の配布や課題の提出は、年度・授業ごとに作成されるコース内で行われます。使い方については以下のページを参照してください。
 
-* [For students](students/)
+<!-- * [For students](students/) -->
 * [For lecturers](lecturers/)
 
 ## Reference
