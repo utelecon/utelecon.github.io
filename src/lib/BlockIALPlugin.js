@@ -13,6 +13,9 @@ import { visit } from "unist-util-visit";
  * @typedef {import("mdast-util-from-markdown").CompileContext} CompileContext
  * @typedef {import("mdast-util-from-markdown").Handle} Handle
  * @typedef {import("mdast-util-from-markdown").Transform} Transform
+ * @typedef {import("mdast-util-mdx").MdxJsxFlowElement} MdxJsxFlowElement
+ * @typedef {import("mdast-util-mdx").MdxJsxAttribute} MdxJsxAttribute
+ * @typedef {import("mdast-util-mdx").MdxJsxExpressionAttribute} MdxJsxExpressionAttribute
  * @typedef {import("./BlockIALPlugin").MdastNode} MdastNode
  * @typedef {import("mdast").Parent} Parent
  * @typedef {import("hast").Properties} Properties
@@ -160,7 +163,6 @@ const fromMarkdownExtension = {
     ialName: exitIALName,
     ialValue: exitIALValue,
   },
-  transforms: [transform],
 };
 
 /**
@@ -249,14 +251,26 @@ function transform(tree) {
     if (parent === null || index === null) return;
 
     let offset = 1;
-    /** @type {MdastNode} */
     let last = parent.children[index - 1];
     while (last.type === "ial") last = parent.children[index - ++offset];
 
-    last.data ??= {};
-    last.data.hProperties = merge(last.data.hProperties, node.data);
-    if (node.data?.id) {
-      last.data.id = node.data.id;
+    switch (last.type) {
+      case "mdxJsxFlowElement": {
+        mergeMDXAttributes(
+          /** @type {MdxJsxFlowElement} */(last).attributes,
+          node.data,
+        );
+        break;
+      }
+      default: {
+        last.data ??= {};
+        const data = /** @type {MdastNode} */ (last).data;
+        data.hProperties = mergeMarkdownProperties(data.hProperties, node.data);
+        if (node.data?.id) {
+          data.id = node.data.id;
+        }
+        break;
+      }
     }
 
     stack.push({ parent, index });
@@ -276,7 +290,7 @@ function transform(tree) {
  * @param {Properties | undefined} additional
  * @returns
  */
-function merge(existing, additional) {
+function mergeMarkdownProperties(existing, additional) {
   if (existing && additional) {
     const keys = new Set([
       ...Object.keys(existing),
@@ -301,6 +315,48 @@ function merge(existing, additional) {
 }
 
 /**
+ *
+ * @param {(MdxJsxAttribute | MdxJsxExpressionAttribute)[]} existing
+ * @param {Properties | undefined} additional
+ */
+function mergeMDXAttributes(existing, additional) {
+  if (!additional) return;
+
+  for (const [key, value] of Object.entries(additional)) {
+    let attr = /** @type {MdxJsxAttribute | undefined} */ (
+      existing.find(
+        (attr) => attr.type === "mdxJsxAttribute" && attr.name === key,
+      )
+    );
+    if (!attr) {
+      attr = {
+        type: "mdxJsxAttribute",
+        name: key,
+        value: undefined,
+      };
+      existing.push(attr);
+    }
+    if (attr.value) {
+      if (typeof attr.value === "object") {
+        throw new Error("Attempted to rewrite MdxJsxAttributeValueExpression!");
+      }
+      if (Array.isArray(value)) {
+        attr.value += ` ${value.join(" ")}`;
+      } else {
+        attr.value = String(value);
+      }
+    } else {
+      if (Array.isArray(value)) {
+        attr.value = `${value.join(" ")}`;
+      } else {
+        attr.value = String(value);
+      }
+    }
+  }
+}
+
+
+/**
  * @this {Processor}
  */
 export default function blockIALPlugin() {
@@ -312,4 +368,6 @@ export default function blockIALPlugin() {
   /** @type {any} */ (data.fromMarkdownExtensions).push([
     fromMarkdownExtension,
   ]);
+
+  return transform;
 }

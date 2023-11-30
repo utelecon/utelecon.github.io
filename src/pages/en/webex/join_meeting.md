@@ -8,7 +8,7 @@ breadcrumb:
 * Clicking "Join a meeting" in the email sent by the host will open your default browser and launch the Webex Meetings app.
 * The screen will move to the preview screen as you enter your name.
 
-	 ![プレビュー画面](img/webex_meeting_preview.png){:width="500px"}
+	 ![プレビュー画面](img/webex_meeting_preview.png){:.medium}
 
 * Set the audio, microphone and camera settings in the lower right section of the preview screen. Here, you can change the settings of the equipment to use the audio and microphone. Even if you cannot correctly change the setting, you can change it after joining the meeting.
 

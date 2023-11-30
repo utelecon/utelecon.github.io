@@ -1,0 +1,170 @@
+---
+title: Creation and operation of workspaces in UTokyo Slack
+breadcrumb:
+  title: Creation and operation of workspaces
+---
+
+import SlackNewDesign from "../_NewDesign.mdx";
+
+<SlackNewDesign />
+
+[Return to the top page of the UTokyo Slack description](/en/slack/)
+
+In Slack, people who wish to communicate gather in units called "Workspaces". In order to communicate with other users in Slack, a user is required to be a member of a workspace.
+
+This page describes how to create a "Workspace" in UTokyo Slack and what you need to understand if you are in charge of managing and operating a workspace.
+
+<div class="box">
+    Details of UTokyo Slack will be explained in three "<strong><a href="/events/2022-slack/">UTokyo Slack Information Sessions</a></strong>" (in Japanese) for those who are interested in using UTokyo Slack. Recordings will be available after the sessions. Please refer to them as well as this page.
+</div>
+
+## Introduction
+{:#introduction}
+
+### Overview and notes
+{:#overview-and-preactions}
+
+- A creation of workspace in UTokyo Slack will be accepted upon application from faculty and staff members.
+    - The faculty and staff member who submitted the application form will be the representative and is responsible for the management and operation of the workspace. Please **manage and operate the workspace to encourage  appropriate use considering that UTokyo Slack is a university-wide system which is maintained and operated for activities at the University of Tokyo**.
+    - The representative will be asked to report on the use of the workspace on a regular basis (about once a year) and may be asked to report how the workspace is being used if necessary. Please make sure you are able to receive communication via email or Slack messages.
+- UTokyo Slack is maintained and operated under the "Enterprise Grid" plan of Slack. Under this plan, **there is a management unit for the University of Tokyo as a whole, called "Organization", and each workspace is created within it. This means that there are some differences from the usual Slack workspaces**. The main differences are listed below, but please refer to the "[Detailed specifications and settings for UTokyo Slack](/en/slack/details)" page for more details.
+    - Each user's profile is common to the entire organization. In addition, "[Custom profile fields](https://slack.com/help/articles/212281478-Customize-member-profiles)" can only be set per organization, so they cannot be used per workspace.
+    - "[Custom emoji](https://slack.com/help/articles/206870177-Add-custom-emoji-and-aliases-to-your-workspace)" can only be added to the entire UTokyo Slack, so they cannot be added to specific workspaces.
+    - For administrative reasons, a special account called "UTokyo Slack Primary Owner" is automatically added as a member of each workspace. This account has the highest level of privileges (primary owner role) for each workspace. It will not be used to obtain information such as messages or perform any other operations in the workspace. However, this does not apply in cases when there is an inevitable need or when the operation is based on a request from the representative of the workspace.
+- The target users of UTokyo Slack (people who can be a member of a workspace within UTokyo Slack) are all members who have a UTokyo Account.
+    - To use UTokyo Slack, it is necessary to enable [Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/) and participate in the annual [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx).
+    - **This service is not available for accounts other than UTokyo Account**. If you wish to use Slack with someone who does not have a UTokyo Account (i.e., someone outside the university), you can use the "Connect" feature to collaborate with an external workspace. (However, this is not always recommended, as it is not as easy to use as the regular workspaces.) See "[Using UTokyo Slack with external users with the 'Connect' feature](/slack/workspace/connect)" (in Japanese) for details.
+- Previously, a special procedure called "incorporation (migration)" existed for those who wished to use their existing workspaces on UTokyo Slack, rather than creating a new one within UTokyo Slack. However, the application process for this procedure has been closed as of August 2023, and it will no longer be available going forward. For more details, please refer to [announcement page](/notice/2023/06-slack-migration) (in Japanese).
+
+### Tips for operation
+{:#reference}
+
+This page describes the management and operation of workspaces, focusing on issues specific to UTokyo Slack. For more details about how to use features of Slack such as a "Channel" to make your workspace a place for communication, please also refer to the following information.
+
+- The September 2022 [UTokyo Slack Information Session Part 3: "Past Case Studies of Slack Use on Campus"](/events/2022-slack/#part3) (in Japanese) will feature practical examples of how to communicate in Slack.
+- We have prepared an open workspace to participate called "UTokyo Slack ワークスペース運用情報交換" (UTokyo Slack workspace operation information exchange) workspace" as a place to exchange information on the utilization of workspaces. You can join this workspace by following the procedures on the "[Joining an open workspace in UTokyo Slack](../join)" page. Please feel free to join this.
+- Please also see the official Slack help, such as "[Getting started for workspace creators](https://slack.com/help/articles/217626298-Getting-started-for-workspace-creators)".
+
+## Details on creation and operation of workspaces
+{:#details}
+
+### Application for creating a new workspace
+{:#apply}
+
+To apply for creating a new workspace, please fill out the "New workspace creation application form" at the end of this page.
+
+Due to operational reasons for accepting applications, applicants are required to join the workspace called "UTokyo Slack ワークスペース運用情報交換" (UTokyo Slack workspace operation information exchange) in advance. Please join the workspace by following the procedures on the "[Joining an open workspace in UTokyo Slack](../join)" page.
+
+The information required at the time of application are the following: 
+
+- Name, affiliation and job title of the applicant
+- The URL of the workspace
+    - Each workspace is assigned a URL such as `example.slack.com`. The applicant must decide on the `example` part of the URL before submitting the application.
+    - **Your workspace URL can only contain lowercase letters, numbers and dashes (no underscores or other symbols)**. It must contain at least one letter. It may not start or end with a dash. The maximum length of a string is 21.
+    - You cannot use the URL that is already being used in another workspace. If you see the message "Sign in to xx" when accessing the URL you wish, the URL is not available. Therefore, please check the URL before submitting your application.
+- The name of the workspace
+    - Please decide on a 50-character or less name and submit the application.
+    - Japanese characters can also be used.
+    - The name cannot be identical to another workspace in UTokyo Slack. If the name is a duplicate, we will contact you and ask you to change the name after we receive your application.
+- The usage and/or purpose of the workspace (free description)
+
+After the application is accepted and the workspace is created, the created workspace will appear on the ["Workspace directory" screen](https://utokyo.enterprise.slack.com/) of the applicant (the person who submitted the application form). Please confirm it when it appears (since it may take some time for the application to be approved, please wait for a while if it does not appear). If there is a problem with the application, an email will be sent to the applicant's ECCS cloud email, so please check it.
+
+### Inviting members
+{:#invite}
+
+Since only the applicant (representative){/* 管理用の「UTokyo Slack Primary Owner」アカウントのほかは，*/}is a member of the workspace immediately after the workspace is created, it is necessary to invite others to join the workspace to communicate with each other in the workspace. There are several ways to invite people to join a workspace, but this section describes how to invite specific people to join the workspace.
+
+You can invite any member of the university who has a UTokyo Account. People invited are required to enable the [Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/) with the premise that they have taken the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx).
+
+To invite a member, please enter the 10-digit Common ID of the person you wish to invite, followed by `@utac.u-tokyo.ac.jp`, which indicates that he/she is a member of the University of Tokyo, (e.g. `0123456789@utac.u-tokyo.ac.jp`) as an email address. The specific procedure is as follows.
+
+1. Please open the workspace screen on your PC.
+2. Please press the area with the name of the workspace in the upper left corner.
+3. After a menu appears, please select "Manage members" under "Settings & Administration".
+4. Please press the "Invite people" button in the upper right corner.
+5. In the "To:" field, please enter the 10-digit Common ID of the person you want to invite, followed by `@utac.u-tokyo.ac.jp`, which indicates that he/she is a member of the University of Tokyo (e.g. `0123456789@utac.u-tokyo.ac.jp`). <small style="display: block;">* The system will allow you to invite people with email addresses with different formats to `0123456789@utac.u-tokyo.ac.jp`. However, these addresses are in fact unavailable because it is not possible to sign in to UTokyo Slack using an account other than a UTokyo Account.</small>
+6. Please select "Member" from the "Invite as" menu. <small style="display: block;">* "Guest" option is also displayed, but this is not available in UTokyo Slack because the "Guest" function has been disabled. For more details, please refer to the <a href="/en/slack/details#guest">relevant section of "Detailed specifications and settings for UTokyo Slack" page</a>.</small>
+7. An invitation message will be sent to the person you invited. For the procedure that the recipient should follow after receiving the message, please refer to the "[Join UTokyo Slack by receiving an invitation from a specific workspace](../invited)" page (it may be helpful for you to inform the URL of that page to the person you invited).
+    <small style="display: block;">* The invitation message will be sent either by email or a message on Slack. In the case of email, the message will be sent to <code>0123456789@<em>utac</em>.u-tokyo.ac.jp</code>, which you entered as the email address. Messages addressed to this email address will be forwarded to the ECCS Cloud Email <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code>. Therefore, please make sure that the recipient logs in to the ECCS Cloud Email to receive it.</small>
+
+### Roles for management and operation
+{:#privileges}
+
+#### Granting owner and administrator roles
+{:#owner-and-administrator}
+
+In Slack, it is possible to grant roles to members who participate in a workspace to perform special operations related to the management and operation of the workspace. There are two types of roles: "Owner" role, granted access to almost all special operations, and "Administrator" role, granted access to only some of the special operations.
+
+- In UTokyo Slack, the applicant (representative) is granted the owner role just after the workspace is created.
+- The owner can grant owner or administrator roles to other members. The owner can also remove roles from members who have administrator roles.
+- The administrator can grant administrator roles to other members.
+- It is not possible to remove the owner's roles by normal operation. A representative of the workspace can contact us using the [Contact Form](https://forms.office.com/r/riuix8ivhh), and we will deal with it on an individual basis.
+
+Members who are given owner/administrator roles are responsible for managing and operating the workspace to ensure that it is used appropriately, as co-representatives in collaboration with the representative. Accordingly, representatives are indirectly responsible for the operations performed by the co-representatives using the privileges granted to them. If you are fully aware of these ideas, it is permissible for the representatives to grant the roles to appropriate members and to manage and operate the workspace with multiple owners/administrators.
+
+The specific procedures for granting or removing roles of members are as follows.
+
+1. Please open the workspace screen on your PC.
+2. Please press the area with the name of the workspace in the upper left corner.
+3. After a menu appears, please select "Manage members" under "Settings & administration".
+4. Once the list of members appears, please find the member you wish to grant or remove roles and press the member's menu button (the icon with three dots displayed on the far right).
+5. Please press the "Change account type" in the displayed menu.
+6. Please select the role (account type) and press "Save".
+
+#### Transfer of representatives
+{:#take-over}
+
+In UTokyo Slack, who the representative (the person responsible for the management and operation) of each workspace is recorded, in addition to the information on owner/administrator roles stored in the system. At the time the workspace is created, the person who has submitted the application form is regarded as the representative. If you wish to transfer the representative to another person, both the current representative and the new representative should contact us using the [Contact Form](https://forms.office.com/r/riuix8ivhh) with the following information.
+
+- The URL of the workspace (such as `example.slack.com`)
+- Common ID, name, affiliation, and job title of the current representative
+- Common ID, name, affiliation, and job title of the new representative
+
+In particular, if the representative leaves the university due to retirement or other reasons, there will be no one left in charge of the management and operation of the workspace, which will cause problems for continued use of the workspace. Therefore, please be sure to follow these procedures for transferring the representative in advance.
+
+#### The "Primary Owner" role
+{:#primary-owner}
+
+Usually, there is a "Primary Owner" role in Slack, which is the highest level of roles, in addition to the "Owner" and "Administrator". However, in UTokyo Slack, users of workspaces are not granted this role due to administrative reasons as there is a special administrative account called "UTokyo Slack Primary Owner" which has the primary owner role. This account will not be used to obtain information such as messages or perform any other operations in the workspace (however, this does not apply in cases when there is an inevitable need or when the operation is based on a request from a representative).
+
+### Scope of disclosure of workspaces
+{:#access}
+
+In UTokyo Slack, there are two main ways to have people join workspaces as a member. One way is to invite people to join as described above. The other way is to have the workspace searchable from the list of workspaces in UTokyo Slack and have people who are interested in the workspaces join it. In the latter method, you can choose between a setting in which anyone can join without individual permission, and a setting in which individual permission is required.
+
+For each workspace you can set whether or not a workspace is displayed in the list, and whether or not individual permission is required when joining a workspace from the list. Please note that workspaces are not displayed in the list by default at the time they are created.
+
+The procedure to change the setting is as follows.
+
+1. Please open the workspace screen on your PC.
+1. Please press the area with the name of the workspace in the upper left corner.
+1. After the menu appears, please select "Manage members" under "Settings & administration".
+1. Find the item "Workspace access" and press the "Expand" button on the right.
+1. Please select from the following four types of settings and press "Save".
+    - **Open**: The workspace will be displayed on the workspace list screen in UTokyo Slack, and anyone who is interested can join freely without individual permission. Of course, you can also individually invite people who you particularly wish to have participate. It is suitable for use as an open space where students, faculty and staff members of the University of Tokyo can participate widely.
+    - **By request**: The workspace is visible on the workspace list of UTokyo Slack, but is not free to join, and requires a request and permission to join. When someone submits a request, a notification is sent to the person in charge of managing and operating the workspace, and they can approve or deny participation. Of course, you can also individually invite people who you particularly wish to have participate. This is suitable when you want a wide range of students, faculty and staff members of the University of Tokyo to join, but you want to manage the participants to some extent.
+    - **Invite only**: Although the workspace will appear in the workspace list of UTokyo Slack, people are not free to join, and cannot even send a request to join. You need to invite people you wish to have join individually.
+    - **Hidden**: The workspace is not visible in the UTokyo Slack workspace list, and only those who are invited can join it. In UTokyo Slack, this is the default setting when a new workspace is created. It is suitable for workspaces that you want to use only with particular members.
+
+{/*
+### 「コネクト」機能を用いて学外者と一緒に利用する
+
+*/}
+
+## New workspace creation application form
+{:#form}
+
+Please read all the descriptions on this page carefully before submitting the application form below.
+
+Please note the following points in particular.
+
+- Many applications have problems with the workspace URL. Please read the instructions in the ["Application for creating a new workspace" section above](#apply) carefully and check the information you entered before submitting.
+- The person who submits the application form is the applicant (representative). Submission of an application by another person on behalf of the applicant is not allowed.
+- After the application is accepted and the workspace is created, the workspace will appear on the ["Workspace directory" screen](https://utokyo.enterprise.slack.com/) of the applicant (the person who submitted the application form). Please confirm it once it appears (since it may take some time for approval, please wait for a while if it does not appear). If there is a problem with the application, an email will be sent to the applicant's ECCS Cloud Email, so please check it.
+
+<b class="box center">
+<a href="https://forms.office.com/r/DHAxJEywcz">New workspace creation application form</a>
+</b>
+
+\* You are required to be signed in to Microsoft with your UTokyo Account to access the application form.

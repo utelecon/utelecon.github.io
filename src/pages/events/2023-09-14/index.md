@@ -43,8 +43,8 @@ Aセメスターの開始に当たり，東京大学で使われているクラ�
 
 ## 参加申込
 
-説明会への参加を申し込む方は，**[Zoomの登録ページ](https://u-tokyo-ac-jp.zoom.us/meeting/register/tZYuc-ihrTMiHNDEH591txm5i5YWuIBDTn36)**にアクセスして，登録を行なってください．
+<del>説明会への参加を申し込む方は，**[Zoomの登録ページ](https://u-tokyo-ac-jp.zoom.us/meeting/register/tZYuc-ihrTMiHNDEH591txm5i5YWuIBDTn36)**にアクセスして，登録を行なってください．</del>（終了しました）
 
 ## 事後アンケート
 
-[アンケートページ](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhCuBeJVJ_XlOnN_5jlB8sBhUQVc4Vk42MkVGVVYyRlRHM01JMjJVTDJYNi4u)からご回答ください．Zoomから退出した際にも同じアンケートが表示されますので，そちらから回答することも可能です．
+<del>[アンケートページ](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhCuBeJVJ_XlOnN_5jlB8sBhUQVc4Vk42MkVGVVYyRlRHM01JMjJVTDJYNi4u)からご回答ください．Zoomから退出した際にも同じアンケートが表示されますので，そちらから回答することも可能です．</del> 本日はありがとうございました．

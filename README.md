@@ -25,6 +25,16 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - `name`：著者名．任意．
 - `redirect_from`・`redirect_to`：リダイレクトの設定．詳しくは[後述](#redirect_from--redirect_to)．
 
+## Scripts
+
+- `npm run dev`：プレビューを開始する．`^C`で終了する．
+- `npm run build`：ページをビルドし，`dist`に成果物を出力する．
+- `npm run find-link`：引数で指定したページへのリンクをすべて標準出力する．
+  - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
+  - 例：`npm run find-link /oc/url`
+- `npm run broken-link`：サイト内リンクで壊れているものをすべて標準出力する．
+  - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
+
 ## How it works
 
 [Astro](https://astro.build)という静的サイトジェネレータを用いています．特殊な機能について以下で説明します．

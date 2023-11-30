@@ -49,9 +49,9 @@ ITC-LMSは東京大学の学習管理システムです．授業資料の配布�
 
 
 ### Google Classroom
-Google Classroomは，Google Workspaceの一部として提供されいる学習管理ツールで，授業における資料の配布・課題提出などが行えるものです．
+Google Classroomは，Google Workspaceの一部として提供されている学習管理ツールで，授業における資料の配布・課題提出などが行えるものです．
 
-- **[Google Classroomの使い方（外部サイト）](https://sites.google.com/a/hi-tech.ac.jp/cai-liao-li-xue-xiangkeyoutube-dong-hua/s/google-classroomno-shii-fang)**：基本的な使い方がまとまっています．
+- **[Google Classroomの使い方（外部サイト）](https://www.tsu-cc.ac.jp/campus/classroom/teacher/)**：基本的な使い方がまとまっています．
 - **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](/events/luncheon/2020-07-15/)**：Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）．
 
 
@@ -102,7 +102,7 @@ Microsoft FormsはMicrosoft 365に含まれているフォーム作成サービ�
 
 Google ドキュメントは，Google Workspaceに含まれる文書作成ツールです．クラウド（Googleドライブ）上に文書を保存するため，複数人が同時編集をしたり，URLを使って文書を共有したりすることが簡単にできます．
 
-- **[Google ドキュメントの基本的な使い方](/articles/google-document/)**：基本的な使い方を説明しています．
+- **[Googleドキュメント](/google/document/)**：基本的な使い方を説明しています．
 - **[オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)**：グループワークで活用するために，Google ドキュメントなどで作成した雛形ファイルのコピーを複数作るという作業を自動化するスクリプト（簡単なプログラム）が紹介されています．
 
 #### Google スライド
@@ -117,7 +117,7 @@ Google スライドは，Google Workspaceに含まれるプレゼンテーショ
 #### Google ドライブ
 Google ドライブは，Google ドキュメントなどで作成した資料の「置き場」となるオンラインストレージです．
 
-- **[Google Driveの基本的な使い方](/articles/google-drive/)**：Googleドライブの使い方を説明しています．
+- **[Googleドライブ](/google/drive/)**：Googleドライブの使い方を説明しています．
 
 #### Google グループ
 Google グループ（Google Groups）はGoogleの無料サービスの1つで，共通の話題について話し合う場を提供します．メーリングリストを作成してグループのメンバー全員に一斉にメールを送信することができるなど，グループでの活動に便利な機能を有しています．学内のメンバー同士で利用する場合は，東京大学のGoogleアカウント（ECCSクラウドメール）を使うことを推奨します．
@@ -216,12 +216,6 @@ Discordは，グループやチーム内でコミュニケーション用ツー�
 - **[オープンチャットを利用する（LINEみんなの使い方ガイド）（外部サイト）](https://guide.line.me/ja/services/openchat.html)**：オープンチャットに関するLINE公式の説明ページです．
 - **[オンライン授業のグッドプラクティス／廣瀬敬先生 固体地球科学](/good-practice/interview/hirose)**：授業においてLINEオープンチャットで匿名の質問を受け付けた実践例です．
 - **[LINEオープンチャットでの授業における質問の受け付け方](/articles/question-tools#LINEopenchat)** 実際の授業でのLINEオープンチャット活用例として，質問を受け付ける方法とそのコツを紹介しています．
-
-
-### Wonder
-画面上にある自分のアイコンを動かすことで部屋を移動できることが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
-- **[Wonder（外部サイト）](https://www.wonder.me/)**：Wonderの公式サイトです．
-- **[Wonderを使って交流する](/articles/online-interaction#wonder)**：Wonderを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### Gather
 レトロゲーム風の遊び心のあるUIが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
