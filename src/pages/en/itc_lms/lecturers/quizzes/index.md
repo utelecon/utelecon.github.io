@@ -1,5 +1,5 @@
 ---
-title: Preparing quizzes
+title: Prepare quizzes
 breadcrumb:
    title: Quizzes
 redirect_from:
