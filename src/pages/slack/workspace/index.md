@@ -1,5 +1,7 @@
 ---
 title: UTokyo Slackにおけるワークスペースの作成と運用
+breadcrumb:
+  title: ワークスペースの作成と運用
 ---
 
 [UTokyo Slackに関する説明のトップページに戻る](/slack/)

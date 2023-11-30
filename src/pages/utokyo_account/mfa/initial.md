@@ -1,5 +1,7 @@
 ---
 title: UTokyo Account多要素認証の初期設定手順
+breadcrumb:
+  title: 初期設定手順
 css: [mfa]
 ---
 

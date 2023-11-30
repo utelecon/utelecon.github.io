@@ -1,5 +1,7 @@
 ---
 title: UTokyo Accountの多要素認証に関するその他の情報
+breadcrumb:
+  title: その他の情報
 ---
 
 [多要素認証に関する説明ページのトップに戻る](.)

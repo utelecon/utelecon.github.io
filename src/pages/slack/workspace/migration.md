@@ -1,5 +1,7 @@
 ---
 title: UTokyo Slackへの既存ワークスペースの編入（移行）
+breadcrumb:
+  title: 既存ワークスペースの編入（移行）
 ---
 
 [UTokyo Slackに関する説明のトップページに戻る](/slack/)

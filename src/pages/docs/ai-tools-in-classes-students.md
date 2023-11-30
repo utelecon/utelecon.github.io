@@ -1,6 +1,8 @@
 ---
 title: "東京大学の学生の皆さんへ：AIツールの授業における利用について（ver. 1.0）"
 h1: "東京大学の学生の皆さんへ：AIツールの授業における利用について<small>（ver. 1.0）</small>"
+breadcrunb:
+  title: （学生向け）AIツールの授業における利用について
 ---
 
 <div style="text-align: right;">

@@ -3,9 +3,8 @@ import GoodPractice from "@components/pages/GoodPractice";
 import type { Interview } from "@components/pages/GoodPractice";
 import Layout from "@layouts/Layout.astro";
 
-const interviews = await Astro.glob<Omit<Interview, "path">>(
-  "./interview/*.md"
-);
+const interviews =
+  await Astro.glob<Omit<Interview, "path">>("./interview/*.md");
 
 export const title = "グッドプラクティスの共有";
 const meta = {
@@ -21,6 +20,7 @@ const meta = {
     lang: "ja",
     description:
       "このページは，本学で行われたオンライン授業のグッドプラクティスを共有するためのページです．授業の形態や利用したツールごとに絞って閲覧できます．",
+    breadcrumb: { title },
   }}
   headings={[
     {

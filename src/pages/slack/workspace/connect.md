@@ -1,5 +1,7 @@
 ---
 title: 「コネクト」機能を用いて学外者と一緒にUTokyo Slackを利用する
+breadcrumb:
+  title: 「コネクト」機能
 ---
 
 [UTokyo Slackに関する説明のトップページに戻る](/slack/)

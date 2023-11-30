@@ -1,5 +1,8 @@
 ---
 title: 齊藤宣一 先生　計算数理I・計算数理
+breadcrumb:
+  parent: ../..
+  title: 授業の紹介
 filters:
   format: ["ondemand"]
   number: mt30-lt100
