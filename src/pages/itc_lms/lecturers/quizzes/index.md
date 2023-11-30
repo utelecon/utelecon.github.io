@@ -135,5 +135,5 @@ redirect_from:
   * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2015/04/08_2029.html">ITC-LMS のテンプレートを別のコースや違うアカウントでも使いたい （教員）</a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/10_1858.html">ITC-LMS で作成したテストを確認する方法 (教員)</a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1889.html">ITC-LMS のテストや課題の評価で利用できる文字について (教員)</a>
-  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1888.html">ITC-LMSのテストで、複数の穴埋めを用意した問題を作成したい(教員)</a>
+  * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1888.html">ITC-LMSのテストで，複数の穴埋めを用意した問題を作成したい(教員)</a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/04/23_1890.html">ITC-LMSのテストで出題時に配点を表示させたい(教員)</a>
