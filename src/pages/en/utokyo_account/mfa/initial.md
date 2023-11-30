@@ -1,5 +1,7 @@
 ---
 title: Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts
+breadcrumb:
+  title: Initial Setup Procedures
 css: [mfa]
 ---
 

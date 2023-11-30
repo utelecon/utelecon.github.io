@@ -1,5 +1,7 @@
 ---
-title: Changing the Verification Method of Multi-Factor Authentication for UTokyo Accounts 
+title: Changing the Verification Method of Multi-Factor Authentication for UTokyo Accounts
+breadcrumb:
+  title: Changing the Verification Method
 ---
 
 [Return to the top page of the description of Multi-Factor Authentication](.)

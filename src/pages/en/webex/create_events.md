@@ -1,5 +1,7 @@
 ---
 title: Setting up a Webex Webinar
+breadcrumb:
+  title: Setting up a Webex Webinar
 ---
 
 <strong class="box">

@@ -1,5 +1,7 @@
 ---
 title: UTokyo Slack (Trial)
+breadcrumb:
+  title: UTokyo Slack
 ---
 
 <div class="box--alert">

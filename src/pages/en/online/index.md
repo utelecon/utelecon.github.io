@@ -1,5 +1,7 @@
 ---
 title: Effective Use of Online Resources
+breadcrumb:
+  title: Effective Use of Online Resources
 ---
 
 ## Introduction

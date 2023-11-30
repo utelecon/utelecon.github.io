@@ -1,5 +1,7 @@
 ---
 title: Search Online Resources by Tool
+breadcrumb:
+  title: Search Online Resources by Tool
 ---
 
 ## Introduction

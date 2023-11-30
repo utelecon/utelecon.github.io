@@ -1,5 +1,7 @@
 ---
 title: Creation and operation of workspaces in UTokyo Slack
+breadcrumb:
+  title: Creation and operation of workspaces
 ---
 
 [Return to the top page of the UTokyo Slack description](/en/slack/)

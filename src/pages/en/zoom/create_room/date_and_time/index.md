@@ -1,5 +1,7 @@
 ---
 title: Scheduling Recurring Zoom Meetings
+breadcrumb:
+  title: Scheduling Recurring
 redirect_from:
   - /en/zoom/how/faculty_members/schedule
 ---
