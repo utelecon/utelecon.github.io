@@ -58,8 +58,8 @@ ITC-LMSを使う際には，殆どの場合において，コース機能を使�
 
 - [コース設定](settings/)
   - [コース参加者登録](settings/course_participants/)
-  - [ユーザグループ設定](settings/user_groups/)
-  - [コースグループ登録・解除](settings/course_group/)
+  <!-- - [ユーザグループ設定](settings/user_groups/) -->
+  <!-- - [コースグループ登録・解除](settings/course_group/) -->
 
 ## 参考情報
 * <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html">FAQ: よくある質問 (ITC-LMS)</a>
