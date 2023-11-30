@@ -29,7 +29,7 @@ Some faculty asks the teachers to avoid reflecting the quizzes and class attenda
 If you want to check  the attendance in class, you will need to stop the class. We recommended to consider this time when planning the course.
 
 1. Select the "three lines" icon on the top left of the screen and open the menu.
-![メニューの表示](cs1.png)
+![メニューの表示](../cs1.png)
 2. Click "course content"，and select "Manage Attendance".
 ![出席管理の選択](pa1.png)
 3. In the "attendance management list" screen, click on "+".
@@ -64,7 +64,7 @@ If you want to check  the attendance in class, you will need to stop the class. 
 After asking the student to press the "Send Attendance" button and to enter a one-time password, follow the instructions below to check their status.
 
 1. On the course screen, select the three line icon at the top left to bring up the menu.
-![メニューの表示](cs1.png)
+![メニューの表示](../cs1.png)
 2. Expand "Course Content" and select "Attendance Management".
 ![出席管理の選択](pa1.png)
 3. Make sure that the "Attendance" of the relevant class day is 0 or more. To update, "reload" the browser.
