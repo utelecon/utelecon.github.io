@@ -1,7 +1,7 @@
 ---
-title: ITC-LMSで出席を管理する
+title: Manage attendances
 breadcrumb:
-   title: 出席
+   title: Attendances
 redirect_from:
   - /en/lms_lecturers/prepare_attendances
   - /en/lms_lecturers/attendances
