@@ -46,13 +46,13 @@ ITC-LMSを使う際には，殆どの場合において，コース機能を使�
 
 ### 機能一覧
 
-- [教材を登録する](/itc_lms/lecturers/materials/)
-- [テストを行う](/itc_lms/lecturers/quizzes/)
-- [課題を作成する](/itc_lms/lecturers/assignments/)
-- [出席を管理する](/itc_lms/lecturers/attendances/)
-<!-- - [アンケート](/itc_lms/lecturers/surveys/) -->
-<!-- - [掲示板](/itc_lms/lecturers/forums/) -->
-<!-- - [メッセージ](/itc_lms/lecturers/messages/) -->
+- [教材を登録する](materials/)
+- [テストを行う](quizzes/)
+- [課題を作成する](assignments/)
+- [出席を管理する](attendances/)
+<!-- - [アンケート](surveys/) -->
+<!-- - [掲示板](forums/) -->
+<!-- - [メッセージ](messages/) -->
 
 ### コースの設定
 
