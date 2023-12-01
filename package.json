@@ -32,6 +32,7 @@
     "normalize.css": "^8.0.1",
     "rehype-external-links": "^2.1.0",
     "rehype-parse": "^8.0.5",
+    "rehype-raw": "^6.1.1",
     "rehype-stringify": "^9.0.4",
     "sass": "^1.57.1",
     "to-vfile": "^7.2.4",

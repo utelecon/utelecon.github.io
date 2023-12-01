@@ -10,6 +10,8 @@ import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
 import externalLinks from "./src/lib/ExternalLinksIntegration.js";
 import trailingSlash from "./src/lib/TrailingSlashIntegration.js";
 import { cleanup } from "./src/lib/CleanupIntegration.js";
+import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
+import rehypeRaw from "rehype-raw";
 
 // https://astro.build/config
 export default defineConfig({
@@ -31,11 +33,12 @@ export default defineConfig({
       blockIALPlugin,
       simpleAttentionPlugin,
     ],
+    rehypePlugins: [rehypeRaw, collectHtmlImages],
   },
   publicDir: "src/pages",
   scopedStyleStrategy: "where",
   integrations: [
-    mdx(),
+    mdx({ rehypePlugins: [] }),
     react(),
     redirect(),
     externalLinks({ target: "_blank", rel: ["noopener", "noreferrer"] }),
