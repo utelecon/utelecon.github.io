@@ -65,4 +65,3 @@ Students who register for courses (or add to favorites) on UTAS are automaticall
   * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/08/10_2288.html">What is "Temporary Enrollment Registration" on ITC-LMS? </a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/06/26_3010.html">Automatic enrollment of students on ITC-LMS and the Academic Affairs System</a>
   * <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2021/06/15_3342.html">I wish to grant access to course contents to auditing students who have not registered for the course through UTAS (for instructors)</a>
-* <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2022/09/27_3469.html">【ITC-LMS】「メッセージ即時通知機能」の追加について</a>

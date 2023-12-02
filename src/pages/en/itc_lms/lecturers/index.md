@@ -7,12 +7,12 @@ redirect_from:
   - /en/lms_lecturers/timetable
 ---
 
-ITC-LMSではタームやセメスター単位で開講される科目のことを「コース」と呼びます．
-ITC-LMSを使う際には，殆どの場合において，コース機能を使用することになります．
+In ITC-LMS, each subject curred out on the term or the semester is called a "course."
+You would be using course functions in most cases of using ITC-LMS.
 
 When you use ITC-LMS in class, all subjects registered for UTAS are automatically registered as ITC-LMS courses.  Other subjects or seminars are required to apply via <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/" target="_blank"> ECCS website</a>, in order for you to use ITC-LMS. 
 
-## コースを確認する
+## Check courses
 
 When you log in, the following time table will be displayed.
 ![出講表1](./schedule1.png)
@@ -40,9 +40,9 @@ We have listed some possible reasons & solutions in case your class does not sho
 * The class has a fixed weekday time, but the class time/period is not registered on UTAS.
   * Please check whether or not the course is included in "Intensive course etc." at the bottom of the attendance table.
 
-## コース機能を使う
+## Use courses
 
-Here we explain basic ways to use course functions on ITC-LMS for your classes.
+Here we explain basic ways to use courses on ITC-LMS for your classes.
 For more detail on how to use ITC-LMS, please refer to Teacher's manual after you log into the system.
 
 ### Functions

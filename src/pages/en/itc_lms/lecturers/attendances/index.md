@@ -1,7 +1,7 @@
 ---
 title: Manage attendances
 breadcrumb:
-   title: Attendances
+  title: Attendances
 redirect_from:
   - /en/lms_lecturers/prepare_attendances
   - /en/lms_lecturers/attendances
