@@ -4,6 +4,7 @@ breadcrumb:
    title: ITC-LMS
 redirect_from:
    - /en/lms_lecturers/login
+   - /en/lms_students
 ---
 
 ## What is ITC-LMS
