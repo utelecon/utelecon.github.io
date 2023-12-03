@@ -7,7 +7,7 @@ Please see the [UTokyo Slack page](.) for information on the university-wide sub
 
 ## Overview
 
-[Slack](https://slack.com/intl/ja-jp/) offers an 85% discount on paid plans (Pro or “Business+” plans) under the ["Slack for Education" program](https://slack.com/intl/en-in/help/articles/206646877).
+[Slack](https://slack.com/ ) offers an 85% discount on paid plans (Pro or “Business+” plans) under the ["Slack for Education" program](https://slack.com/help/articles/206646877).
 
 Normally, applicants for this program are required to submit documents to prove that they are from an educational institution for each application, but the University of Tokyo, in consultation with Slack, has established a procedure that does not require such proof each time.
 
@@ -17,11 +17,11 @@ In this specific procedure, your applications are received internally by the Uni
 
 ### Application and confirmation of review results
 
-1. Please fill out and submit the application form below. <b class="box center"><a href="https://forms.office.com/r/EXy0jVxx9L">Application Form for "Slack for Education" program at the University of Tokyo (in Japanese only)</a></b>*Please note that only faculty and staff members are eligible to apply usingfor this procedure.
+1. Please fill out and submit the application form below. <b class="box center"><a href="https://forms.office.com/r/EXy0jVxx9L">Application Form for "Slack for Education" program at the University of Tokyo (in Japanese)</a></b>*Please note that only faculty and staff members are eligible to apply usingfor this procedure.
 1. Please wait while the application information is passed on to Slack for review.
-1.  We will contact you by email as soon as we receive the result of the review. If approved, please proceed to the next step, "Upgrade to Paid Plan".
+1.  We will contact you by email as soon as we receive the result of the review. If approved, please proceed to the next step, "Upgrade to paid plan".
 
-### Upgrade to Paid Plan
+### Upgrade to paid plan
 
 *If you perform the following operations before your application for the the "Slack for Education" program has been approved, your fee will not be discounted. Please make sure that you proceed with the following steps **only after you receive the notification of approval**.
 
