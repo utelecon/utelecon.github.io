@@ -7,7 +7,7 @@ Please see the [UTokyo Slack page](.) for information on the university-wide sub
 
 ## Overview
 
-[Slack](https://slack.com/ ) offers an 85% discount on paid plans (Pro or “Business+” plans) under the ["Slack for Education" program](https://slack.com/help/articles/206646877).
+[Slack](https://slack.com/) offers an 85% discount on paid plans (Pro or “Business+” plans) under the ["Slack for Education" program](https://slack.com/help/articles/206646877).
 
 Normally, applicants for this program are required to submit documents to prove that they are from an educational institution for each application, but the University of Tokyo, in consultation with Slack, has established a procedure that does not require such proof each time.
 
