@@ -17,19 +17,19 @@ import altQr from "./alt_qr.png";
       <AltAddMethod selection={`"Authenticator app"`} />
       <li>
         Click "I want to use a different authenticator app".
-        <img src={alt} />
+        <img src={alt.src} />
       </li>
     </Fragment>
     <Fragment slot="else">
       <li>
         Click "I want to use a different authenticator app" in the middle of the setup page.
-        <img src={first} />
+        <img src={first.src} />
       </li>
     </Fragment>
   </If>
 
   <li>
     Follow the instructions until you reach the QR code page. Scan the QR code with your authenticator app and complete the setup procedure.
-    <img src={{ firstQr, altQr }[`${props.step}Qr`]} />
+    <img src={{ firstQr, altQr }[`${props.step}Qr`].src} />
   </li>
 </ol>
