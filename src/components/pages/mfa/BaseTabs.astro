@@ -1,6 +1,6 @@
 ---
 import If from "@components/utils/If.astro";
-import type { Step, Labels } from "./tabs";
+import type { Step, Labels, Selection } from "./tabs";
 
 interface Props {
   step: Step;
@@ -9,49 +9,42 @@ interface Props {
 
 const { step, labels } = Astro.props;
 
-// `<button {...tabProps("select")} />` がなぜかparse errorを吐くので，対策……
-const tabProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["button"]>(
-  ["ms_auth", "auth_app", "phone", "fido"].map((selection) => [
-    selection,
-    {
-      id: `tab-${step}-${selection}`,
-      type: "button",
-      role: "tab",
-      "aria-controls": `panel-${step}-${selection}`,
-      "aria-selected": "false",
-      class: "tab",
-    },
-  ])
-);
-const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
-  ["selector", "ms_auth", "auth_app", "phone", "fido"].map((selection) => [
-    selection,
-    {
-      id: `panel-${step}-${selection}`,
-      role: "tabpanel",
-      "aria-labelledby":
-        selection === "selector" ? undefined : `tab-${step}-${selection}`,
-      hidden: true,
-    },
-  ])
-);
+function tabProps(selection: Selection) {
+  return {
+    id: `tab-${step}-${selection}`,
+    type: "button",
+    role: "tab",
+    "aria-controls": `panel-${step}-${selection}`,
+    "aria-selected": "false",
+    class: "tab",
+  } satisfies astroHTML.JSX.ButtonHTMLAttributes;
+}
+function panelProps(selection: Selection) {
+  return {
+    id: `panel-${step}-${selection}`,
+    role: "tabpanel",
+    "aria-labelledby":
+      selection === "selector" ? undefined : `tab-${step}-${selection}`,
+    hidden: true,
+  } satisfies astroHTML.JSX.HTMLAttributes;
+}
 ---
 
 <div id={`tab-list-${step}`} class="tab-list" role="tablist">
-  <button {...tabProps.ms_auth}>{labels.ms_auth}</button>
-  <button {...tabProps.auth_app}>{labels.auth_app}</button>
-  <button {...tabProps.phone}>{labels.phone}</button>
+  <button {...tabProps("ms_auth")}>{labels.ms_auth}</button>
+  <button {...tabProps("auth_app")}>{labels.auth_app}</button>
+  <button {...tabProps("phone")}>{labels.phone}</button>
   <If cond={Boolean(labels.fido)}>
-    <button {...tabProps.fido}>{labels.fido}</button>
+    <button {...tabProps("fido")}>{labels.fido}</button>
   </If>
 </div>
 <div id={`panel-list-${step}`} class="panel-list">
-  <div {...panelProps.selector}><slot name="selector" /></div>
-  <div {...panelProps.ms_auth}><slot name="ms_auth" /></div>
-  <div {...panelProps.auth_app}><slot name="auth_app" /></div>
-  <div {...panelProps.phone}><slot name="phone" /></div>
+  <div {...panelProps("selector")}><slot name="selector" /></div>
+  <div {...panelProps("ms_auth")}><slot name="ms_auth" /></div>
+  <div {...panelProps("auth_app")}><slot name="auth_app" /></div>
+  <div {...panelProps("phone")}><slot name="phone" /></div>
   <If cond={Boolean(labels.fido)}>
-    <div {...panelProps.fido}><slot name="fido" /></div>
+    <div {...panelProps("fido")}><slot name="fido" /></div>
   </If>
 </div>
 
