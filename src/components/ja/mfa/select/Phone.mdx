@@ -1,0 +1,8 @@
+import If from "@components/utils/If.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/pages/mfa/tabs").Group} group
+  */}
+
+電話番号を登録しておき，その電話番号でSMSまたは音声通話（自動音声ガイダンス）の着信を受け取って本人確認を行う方法です．<If cond={props.group !== "first"}>「電話」「代替の電話」「会社電話」の3種類をそれぞれ1つまで（合計3つまで）登録することができます．</If>
