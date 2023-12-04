@@ -6,10 +6,16 @@ import AltAddMethod from "../common/AltAddMethod.mdx";
 import firstNext from "./first_next.png";
 import altNext from "./alt_next.png";
 import firstLink from "./first_link.png";
-import firstQr from "./first_qr.png";
 import altLink from "./alt_link.png";
+import firstNextNext from "./first_next_next.png";
+import altNextNext from "./alt_next_next.png";
+import firstQr from "./first_qr.png";
 import altQr from "./alt_qr.png";
-import screen from "./screen.png";
+import privacy from "./privacy.png";
+import improve from "./improve.png";
+import digitalLife from "./digital_life.png";
+import empty from "./empty.png";
+import listAdd from "./list_add.png";
 import list from "./list.png";
 
 {/**
@@ -42,20 +48,20 @@ import list from "./list.png";
   <li>
     以降の手順はこの作業をスマホ（Microsoft Authenticatorアプリをインストールしたもの）でしているかそれ以外（パソコンなど）でしているかによって異なります．
 
-    - **スマホでこの作業をしている場合**：「このリンクをクリックして、アカウントをアプリにペアリングします。」を押してください．Microsoft Authenticatorアプリに移動し，自分のUTokyo Accountが表示されればOKです．
-      <img src={{ firstLink, altLink }[`${props.step}Link`].src} />
+    - **スマホでこの作業をしている場合**：「このリンクをクリックして、アカウントをアプリにペアリングします。」を押してください．Microsoft Authenticatorアプリに移動し，自分のUTokyo Accountが表示されればOKです．元の画面に戻って「次へ」を押してください．
+      <img src={{ firstLink, altLink }[`${props.step}Link`].src} class="small border" />
     - **スマホ以外（パソコンなど）でこの作業をしている場合**
       1. 「アカウントのセットアップ」という画面が表示されるので，さらに「次へ」を押してください．QRコードが表示されます．
           <img />
           <img src={{ firstQr, altQr }[`${props.step}Qr`].src} />
       1. スマホでMicrosoft Authenticatorアプリを起動してください．なおこの際，インストール後初めてアプリを起動したという場合は，プライバシーに関する事項の同意やデータ収集に関する設定の確認が求められますので，順に進めてください．
-          <figure class="gallery"><img /><img /></figure>
+          <figure class="gallery"><img src={privacy.src} class="small border" /><img src={improve.src} class="small border" /></figure>
       1. 「デジタル ライフを保護する」という画像1枚目のような画面が表示されている場合は，「職場または学校アカウントの追加」という項目を押してください．そうではなく画像2枚目または3枚目のような画面が表示されている場合は，画面右上の「+」を押してから，「職場または学校アカウント」を選択してください．
-          <figure class="gallery"><img src={screen.src} /><img /></figure>
+          <figure class="gallery"><img src={digitalLife.src} class="small border" /><img src={empty.src} class="small border" /><img src={listAdd.src} class="small border" /></figure>
       1. 「QRコードをスキャン」を選択してください．
       1. QRコードを読み取ってください．この際，カメラの利用を許可するか尋ねられることがありますが，許可してください．
-      1. 読み取りに成功し，アプリ上に自分のUTokyo Accountが表示されればOKです．
-          <img src={list.src} />
+      1. 読み取りに成功し，アプリ上に自分のUTokyo Accountが表示されればOKです．QRコードの表示された画面に戻って「次へ」を押してください．
+          <img src={list.src} class="small border" />
       {:style="list-style: lower-roman;"}
   </li>
 
