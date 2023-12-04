@@ -37,7 +37,7 @@ const panelProps = Object.fromEntries<astroHTML.JSX.IntrinsicElements["div"]>(
 );
 ---
 
-<div id={`tab-list-${step}`} class="tab-list">
+<div id={`tab-list-${step}`} class="tab-list" role="tablist">
   <button {...tabProps.ms_auth}>{labels.ms_auth}</button>
   <button {...tabProps.auth_app}>{labels.auth_app}</button>
   <button {...tabProps.phone}>{labels.phone}</button>
