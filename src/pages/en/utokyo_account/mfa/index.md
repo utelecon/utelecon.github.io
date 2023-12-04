@@ -17,7 +17,7 @@ We ask the UTokyo Account users to enable MFA because maintaining the security o
 
 Please refer to the following page for the initial setup procedure (things to do when you get started).
 
-<b class="box center"><a href="initial/">Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts</a></b>
+<b class="box center"><a href="initial">Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts</a></b>
 
 ## If You Cannot Verify Your Identity and Failed to Sign In Due to Phone Malfunction or Model Change
 
@@ -25,18 +25,18 @@ Please refer to the following page if you lose access to every verification meth
 
 <b class="box center"><a href="reregister_and_terminate">Reregistering Verification Method and Terminating the Use of Multi-Factor Authentication for UTokyo Accounts</a></b>
 
-When you change your phone model, please note that you can avoid being locked out from your UTokyo Account by registering your new phone for MFA (see [“Changing the Verification Method of Multi-Factor Authentication for UTokyo Accounts”](change/) for details) while your old phone is still available. Please make sure to complete this procedure in advance.
+When you change your phone model, please note that you can avoid being locked out from your UTokyo Account by registering your new phone for MFA (see [“Changing the Verification Method of Multi-Factor Authentication for UTokyo Accounts”](change) for details) while your old phone is still available. Please make sure to complete this procedure in advance.
 
 ## Others
 {:#others}
 
 Other descriptions of MFA are separated into the following topics. Please visit the page of your interest
 
-- **[Changing MFA Settings](change/)**: How to change your verification method (e.g., authentication apps, phone number)
-    - [Adding Verification Methods](change/#add)
-    - [Changing the Default Sign-in Method](change/#default): How to change the default sign-in method, i.e., the primary verification method when you sign in.
-    - [Editing Verification Methods](change/#edit)
-    - [Deleting Verification Methods](change/#delete)
+- **[Changing MFA Settings](change)**: How to change your verification method (e.g., authentication apps, phone number)
+    - [Adding Verification Methods](change#add)
+    - [Changing the Default Sign-in Method](change#default): How to change the default sign-in method, i.e., the primary verification method when you sign in.
+    - [Editing Verification Methods](change#edit)
+    - [Deleting Verification Methods](change#delete)
 - **[Terminate MFA Use](reregister_and_terminate)**: How to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password. We strongly recommend that you continue to use MFA for security reasons, but if you need to terminate MFA use for unavoidable circumstances, you can apply for termination here.
 - **Others**
     - [Hardware Tokens](others#hardware-token): For faculty members who are unable to register any verification methods, such as those who do not have smartphones, we offer devices called “hardware tokens” as an alternative.

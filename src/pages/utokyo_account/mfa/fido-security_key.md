@@ -17,7 +17,7 @@ title: UTokyo Account多要素認証におけるFIDOセキュリティキーの�
 
 UTokyo Accountの多要素認証では，多くのシステムでFIDOに対応してますが，一部のシステムではFIDOに対応していません．そのため，FIDO以外の本人確認方法を登録した上で，FIDOは2個目以降の本人確認方法として利用してください．UTokyo Accountで利用できる各システムについて，FIDOに対応しているかどうかについての情報は，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)を参照してください．
 
-「YubiKey」という製品の一部のモデルでは，FIDOに加え，「Yubico Authenticator」というアプリと連携し，Yubikeyを接続した端末上のアプリに表示されるコード（6桁の数字）を入力するTOTP（Time-based One-Time Password）という本人確認方法も使えるため，便利です．YubiKeyで「Yubico Authenticator」アプリを使用する方法についての詳細は「[UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法](../yubikey-totp/)」のページを参照してください．
+「YubiKey」という製品の一部のモデルでは，FIDOに加え，「Yubico Authenticator」というアプリと連携し，Yubikeyを接続した端末上のアプリに表示されるコード（6桁の数字）を入力するTOTP（Time-based One-Time Password）という本人確認方法も使えるため，便利です．YubiKeyで「Yubico Authenticator」アプリを使用する方法についての詳細は「[UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法](yubikey-totp)」のページを参照してください．
 
 ### 一部のOS・ブラウザでは使えません
 {:#unsupported-os-browser}
@@ -42,29 +42,29 @@ FIDOは，AndroidのGoogle ChromeやLinuxのFirefoxなど一部のOSとブラウ
 
 ## FIDOセキュリティキーの登録手順
 
-FIDOセキュリティキーは，2個目以降の本人確認方法として登録することを前提としています．多要素認証を初めて利用する方は，[「UTokyo Account多要素認証の初期設定手順」の中の「手順1：1個目の本人確認方法を登録する」](/utokyo_account/mfa/initial/#first)の手順に従って1個目の本人確認方法を登録してから，追加の本人確認方法としてFIDOセキュリティキーを登録してください．
+FIDOセキュリティキーは，2個目以降の本人確認方法として登録することを前提としています．多要素認証を初めて利用する方は，[[「UTokyo Account多要素認証の初期設定手順」の中の「手順1：1個目の本人確認方法を登録する」](/utokyo_account/mfa/initial#first)の手順に従って1個目の本人確認方法を登録してから，追加の本人確認方法としてFIDOセキュリティキーを登録してください．
 
 1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info)にアクセスし，サインインしてください．
 2. 「サインイン方法の追加」を押してください．
-![](add_signin_method.png)
+![](fido_add_signin_method.png)
 3. 「方法を選択します」を押して，現れる選択肢から「セキュリティキー」を押し，「追加」を押してください．
-![](select_security_key.png)
+![](fido_select_security_key.png)
 4. セキュリティキーの接続方法として，「USBデバイス」または「NFCデバイス」を選択するよう求められるので，該当する方のボタンを押してください．
-![](select_connection_method.png)
+![](fido_select_connection_method.png)
 5. 「キーの用意をしてください」という画面が表示されるので，「次へ」を押してください．
-![](prepare_key.png)
+![](fido_prepare_key.png)
 6. 画面の指示に従って，セキュリティキーの設定を完了してください．具体的には，セキュリティキーの接続や，PINあるいは生体認証の設定，セキュリティキーのタップなどが求められます．
 7. セキュリティキーの設定が完了したら，セキュリティキーに名前を付けてください．
-![](name_security_key.png)
+![](fido_name_security_key.png)
 
 ※FIDOセキュリティキーは「既定のサインイン方法」には設定できないため，別の本人確認方法を「既定のサインイン方法」に設定した上で，サインイン時に別の本人確認方法としてセキュリティキーを選択する必要があります．
 
 ## FIDOセキュリティキーでのサインイン方法
 
 1. UTokyo Accountでサインイン時（パスワード入力後）にデフォルトの本人確認方法で多要素認証の本人確認を行う画面が表示されますが，その画面で「問題がありますか? 別の方法でサインインする」あるいは「Microsoft Authenticator アプリを現在使用できません」というリンクを押してください．
-![](signin_other_method.png)
+![](fido_signin_other_method.png)
 2. 別の本人確認方法を選択する画面が表示されるので，「セキュリティ キーを使用する」を押してください．
-![](signin_security_key.png)
+![](fido_signin_security_key.png)
 3. 画面の指示に従って，PINの入力あるいは生体認証，セキュリティキーのタップなどを行った後，サインインが完了します．
 
 ※サインインがうまくいかない場合は，下の[FIDOセキュリティキーを利用したサインインができない場合](#troubleshooting)を参照してください．
