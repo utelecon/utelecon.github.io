@@ -1,0 +1,34 @@
+import If from "@components/utils/If.astro";
+import FirstAnotherMethod from "../FirstAnotherMethod.mdx";
+import AltAddMethod from "../AltAddMethod.mdx";
+
+import first from "./first.png";
+import alt from "./alt.png";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/pages/mfa/tabs").Step} step
+  */}
+
+<ol>
+  <If cond={props.step === "alt"}>
+    <Fragment>
+      <AltAddMethod selection="登録したい種類の電話番号" />
+    </Fragment>
+    <Fragment slot="else">
+      <FirstAnotherMethod selection="「電話」" />
+    </Fragment>
+  </If>
+
+  <li>
+    「どの電話番号を使用しますか?」欄は，適切な国番号（日本の場合は「Japan
+    (+81)」）を選択してから，自分の電話番号を入力してください．また，<If cond={props.step === "alt"}>電話番号の種類として「電話」を選んだ場合は，</If>この電話番号を使って本人確認を行う方法として，「コードをSMSで送信する」と「電話する」のうちから好みの方を選んでください．
+    <img src={{ first, alt }[props.step]} />
+  </li>
+  <If cond={props.step === "first"}>
+    <li>「次へ」を押してください．</li>
+  </If>
+  <li>
+    電話番号の確認が行われます．SMSの場合は，SMSに確認コード（6桁の数字）が届き，それを画面に入力するよう求められるので，そのようにしてください．音声通話の場合は，電話が着信し，音声ガイダンスで「#」ボタンを押すように言われるので，そのようにしてください（スマホで通話中に「#」ボタンを表示するには，画面に表示されている「キーパッド」ボタンを押します）．
+  </li>
+</ol>
