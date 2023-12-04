@@ -25,13 +25,13 @@ import list from "./list.png";
       <AltAddMethod selection="「認証アプリ」" />
       <li>
         Microsoft Authenticatorの設定をする画面が出るので，そのまま「次へ」を押してください．
-        <img src={altNext}/>
+        <img src={altNext.src}/>
       </li>
     </Fragment>
     <Fragment slot="else">
       <li>
         アプリのインストールを終えたら元の画面に戻って作業を続けます．デフォルトでMicrosoft Authenticatorの設定をする画面になっているので，そのまま「次へ」を押してください．
-        <img src={firstNext} />
+        <img src={firstNext.src} />
       </li>
     </Fragment>
   </If>
@@ -40,14 +40,14 @@ import list from "./list.png";
     以降の手順はこの作業をスマホ（Microsoft Authenticatorアプリをインストールしたもの）でしているかそれ以外（パソコンなど）でしているかによって異なります．
 
     - **スマホでこの作業をしている場合**：「このリンクをクリックして、アカウントをアプリにペアリングします。」を押してください．Microsoft Authenticatorアプリに移動し，自分のUTokyo Accountが表示されればOKです．
-      <img src={{ firstLink, altLink }[`${props.step}Link`]} />
+      <img src={{ firstLink, altLink }[`${props.step}Link`].src} />
     - **スマホ以外（パソコンなど）でこの作業をしている場合**
       1. 画面の指示に従ってQRコードを表示してください．
-          <img src={{ firstQr, altQr }[`${props.step}Qr`]} />
+          <img src={{ firstQr, altQr }[`${props.step}Qr`].src} />
       2. スマホでMicrosoft Authenticatorアプリを開き，画面右上の「+」を押してから，「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．
-          <img src={screen} />
+          <img src={screen.src} />
       3. QRコードを読み取ってください．
       4. アプリ上に自分のUTokyo Accountが表示されればOKです．
-          <img src={list} />
+          <img src={list.src} />
   </li>
 </ol>

@@ -17,13 +17,13 @@ import altQr from "./alt_qr.png";
       <AltAddMethod selection="「認証アプリ」" />
       <li>
         「別の認証アプリを使用します」というリンクを探して押してください．
-        <img src={alt} />
+        <img src={alt.src} />
       </li>
     </Fragment>
     <Fragment slot="else">
       <li>
         画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．
-        <img src={first} />
+        <img src={first.src} />
       </li>
     </Fragment>
   </If>
@@ -32,6 +32,6 @@ import altQr from "./alt_qr.png";
     画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．
 
     ※「YubiKey」と「Yubico Authenticator」アプリを使う場合の設定手順については，「[UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法](../yubikey-totp/)」をご覧ください．
-    <img src={{ firstQr, altQr }[`${props.step}Qr`]} />
+    <img src={{ firstQr, altQr }[`${props.step}Qr`].src} />
   </li>
 </ol>

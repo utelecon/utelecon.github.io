@@ -22,7 +22,7 @@ import alt from "./alt.png";
 
   <li>
     For "What phone number would you like to use?", select the appropriate country code (+81 for Japan) and input your phone number. Also, <If cond={props.step === "alt"}>if you chose "Phone" for the type of phone, </If>choose to either receive a text message with a verification code ("Text me a code") or a phone call ("Call me"). 
-    <img src={{ first, alt }[props.step]} />
+    <img src={{ first, alt }[props.step].src} />
   </li>
   <If cond={props.step === "first"}>
     <li>Click “Next”.</li>
