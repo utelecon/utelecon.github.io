@@ -1,5 +1,7 @@
 import If from "@components/utils/If.astro";
-import AltAddMethod from "../AltAddMethod.mdx";
+import FirstAccess from "../common/FirstAccess.mdx";
+import FirstEmail from "../common/FirstEmail.mdx";
+import AltAddMethod from "../common/AltAddMethod.mdx";
 
 import firstNext from "./first_next.png";
 import altNext from "./alt_next.png";
@@ -29,8 +31,9 @@ import list from "./list.png";
       </li>
     </Fragment>
     <Fragment slot="else">
+      <FirstAccess />
       <li>
-        アプリのインストールを終えたら元の画面に戻って作業を続けます．デフォルトでMicrosoft Authenticatorの設定をする画面になっているので，そのまま「次へ」を押してください．
+        多要素認証の本人確認方法を設定する画面になります．デフォルトでMicrosoft Authenticatorの設定をする画面になっているので，そのまま「次へ」を押してください．
         <img src={firstNext.src} />
       </li>
     </Fragment>
@@ -50,4 +53,8 @@ import list from "./list.png";
       4. アプリ上に自分のUTokyo Accountが表示されればOKです．
           <img src={list.src} />
   </li>
+
+  <If cond={props.step !== "alt"}>
+    <FirstEmail />
+  </If>
 </ol>
