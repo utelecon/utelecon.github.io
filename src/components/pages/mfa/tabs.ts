@@ -1,6 +1,6 @@
 export type Step = "first" | "alt";
 export type Group = "intent" | Step;
-export type Selection = "select" | "ms_auth" | "auth_app" | "phone" | "fido";
+export type Selection = "selector" | "ms_auth" | "auth_app" | "phone" | "fido";
 export type Labels = Partial<Record<Selection, string>>;
 
 type Listener = (step: string, selection: string) => void;

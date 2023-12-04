@@ -1,5 +1,5 @@
 ---
-import type { Labels } from "./tabs";
+import type { Labels, Selection, Step } from "./tabs";
 import DemiRadioButton, {
   type Props as DemiRadioButtonProps,
 } from "./DemiRadioButton.astro";
@@ -10,22 +10,14 @@ interface Props {
 
 const { labels } = Astro.props;
 
-const radioProps = Object.fromEntries(
-  ["first", "alt"].map((step) => [
-    step,
-    Object.fromEntries<DemiRadioButtonProps>(
-      ["ms_auth", "auth_app", "phone", "fido"].map((selection) => [
-        selection,
-        {
-          id: `radio-${step}-${selection}`,
-          type: "radio",
-          name: `radio-${step}`,
-          value: selection,
-        },
-      ]),
-    ),
-  ]),
-);
+function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
+  return {
+    id: `radio-${step}-${selection}`,
+    type: "radio",
+    name: `radio-${step}`,
+    value: selection,
+  };
+}
 ---
 
 <div class="wrapper">
@@ -34,10 +26,10 @@ const radioProps = Object.fromEntries(
 
   <p class="col-label">{labels.ms_auth}</p>
   <span class="col-first">
-    <DemiRadioButton {...radioProps.first.ms_auth} />
+    <DemiRadioButton {...radioProps("first", "ms_auth")} />
   </span>
   <span class="col-alt">
-    <DemiRadioButton {...radioProps.alt.ms_auth} />
+    <DemiRadioButton {...radioProps("alt", "ms_auth")} />
   </span>
   <div class="col-description">
     <slot name="ms_auth" />
@@ -45,10 +37,10 @@ const radioProps = Object.fromEntries(
 
   <p class="col-label">{labels.auth_app}</p>
   <span class="col-first">
-    <DemiRadioButton {...radioProps.first.auth_app} />
+    <DemiRadioButton {...radioProps("first", "auth_app")} />
   </span>
   <span class="col-alt">
-    <DemiRadioButton {...radioProps.alt.auth_app} />
+    <DemiRadioButton {...radioProps("alt", "auth_app")} />
   </span>
   <div class="col-description">
     <slot name="auth_app" />
@@ -56,10 +48,10 @@ const radioProps = Object.fromEntries(
 
   <p class="col-label">{labels.phone}</p>
   <span class="col-first">
-    <DemiRadioButton {...radioProps.first.phone} />
+    <DemiRadioButton {...radioProps("first", "phone")} />
   </span>
   <span class="col-alt">
-    <DemiRadioButton {...radioProps.alt.phone} />
+    <DemiRadioButton {...radioProps("alt", "phone")} />
   </span>
   <div class="col-description">
     <slot name="phone" />
@@ -70,10 +62,10 @@ const radioProps = Object.fromEntries(
       <>
         <p class="col-label">{labels.fido}</p>
         <span class="col-first">
-          <DemiRadioButton {...radioProps.first.fido} disabled />
+          <DemiRadioButton {...radioProps("first", "fido")} disabled />
         </span>
         <span class="col-alt">
-          <DemiRadioButton {...radioProps.alt.fido} />
+          <DemiRadioButton {...radioProps("alt", "fido")} />
         </span>
         <div class="col-description">
           <slot name="fido" />
