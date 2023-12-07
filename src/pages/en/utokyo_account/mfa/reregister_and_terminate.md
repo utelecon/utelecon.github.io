@@ -20,7 +20,7 @@ The “Reregistering Verification Method” procedure was renamed from the “Re
 When one of your verification methods becomes unavailable due to malfunction, phone model change, etc., and alternative methods are still available, you can use one of them for verification.
 
 Click the “Having trouble? Sign in another way” or “Use a different verification option” link in the verification screen that appears (after entering your password).
-<img src="signin_with_another_method.png">
+<img src="initial/signin_with_another_method.png">
 A list of verification methods that you have set up (including the default sign-in method) will be displayed.
 
 - If any of the verification methods in the list are available for use, you can use that method to sign in to your UTokyo Account.
