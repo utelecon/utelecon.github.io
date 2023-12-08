@@ -67,6 +67,7 @@ for (const heading of Astro.props.headings) {
 <style lang="scss">
   @import "@styles/color.scss";
   .main__toc {
+    overflow: auto;
     padding: 1em 0 0;
     margin: 2.29em 0;
     font-size: 0.875em;
@@ -95,7 +96,7 @@ for (const heading of Astro.props.headings) {
       border-top: 1px solid white;
       color: $link-color-light;
       padding: 0.25em 1em 0.25em 0;
-      &:hover {
+      &:hover, &.active {
         color: $link-color;
         background-color: $white-gray-dark;
       }
