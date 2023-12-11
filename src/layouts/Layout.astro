@@ -133,57 +133,6 @@ if (title) {
       src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
     ></script>
 
-    <script>
-      const headings = document
-        .querySelector("#column")
-        ?.querySelectorAll("h2, h3, h4, h5, h6");
-
-      const firstIndex = document.querySelector(".main__toc a");
-      if (firstIndex !== null) {
-        firstIndex.classList.add("active");
-      }
-      
-      const options = {
-        root: null,
-        rootMargin: "0px 0px -100% 0px",
-        threshold: 0,
-      };
-      
-      function activateIndex(element: Element) {
-        const currentActiveIndex = document.querySelector(".main__toc a.active");
-        if (currentActiveIndex !== null) {
-          currentActiveIndex.classList.remove("active");
-        }
-        const newActiveIndex = document.querySelector(
-          `.main__toc a[href='#${element.id}']`,
-        );
-        if (newActiveIndex !== null) {
-          newActiveIndex.classList.add("active");
-          const rect = newActiveIndex.getBoundingClientRect();
-          if (rect.top < 0 || rect.bottom > window.innerHeight) {
-            newActiveIndex.scrollIntoView({
-              behavior: "smooth",
-              block: "center",
-            });
-          }
-        }
-      }
-      
-      function onHeadingsIntersect(entries: IntersectionObserverEntry[]) {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            activateIndex(entry.target);
-          }
-        });
-      }
-      
-      const headingsObserver = new IntersectionObserver(onHeadingsIntersect, options);
-      
-      headings?.forEach((heading) => {
-        headingsObserver.observe(heading);
-      });
-    </script>
-
   </head>
   <body>
     <Header lang={lang} top={top} canonicalUrl={canonicalUrl} />
@@ -196,7 +145,7 @@ if (title) {
         )
       }
       <div id="content-body">
-        <section id="column">
+        <section id="content-column">
           <slot />
           {
             author && (
@@ -210,61 +159,35 @@ if (title) {
 
         {
           !top && toc && headings.length > 0 && (
-            <aside id="sidebar-container">
-              <div id="sidebar">
-                <div id="sidebar-sticky">
-                <Toc headings={headings} lang={lang} />
-                </div>
-              <div/>
-            </aside>
+            <Toc headings={headings} lang={lang} />
           )
         }
-        </div>
+      </div>
     </main>
     <Footer lang={lang} support={support} />
-    <style>
-      .title {
-        margin-bottom: 2rem;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid $white-gray-dark;
-        font-size: 2rem;
-        font-weight: bold;
-        color: black;
-      }
-      #content-body {
-        display: flex;
-        justify-content: space-between;
-        gap: 2rem;
-      }
-      #sidebar-container {
-        width: 18rem;
-        min-width: 18rem;
-      }
-      #sidebar {
-        height: 100%;
-      }
-      #sidebar-sticky {
-        display: flex;
-        flex-direction: column;
-        position: sticky;
-        top: 2rem;
-        max-height: 100vh;
-      }
-      @media screen and (max-width: 768px) {
-        #content-body {
-          /* flex-direction: column-reverse; */
-        }
-        #column {
-          width: 100%;
-        }
-        #sidebar-container {
-          display: none;
-        }
-        #column {
-          width: 100%;
-        }
-      }
-
-    </style>
   </body>
 </html>
+
+<style lang="scss">
+  @import "../styles/color.scss";
+  .title {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $white-gray-dark;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+  }
+  #content-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  @media screen and (max-width: 896px) {
+    #content-body {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2rem;
+    }
+  }
+</style>
