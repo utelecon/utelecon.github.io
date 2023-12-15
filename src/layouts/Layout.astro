@@ -132,7 +132,6 @@ if (title) {
       async
       src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
     ></script>
-
   </head>
   <body>
     <Header lang={lang} top={top} canonicalUrl={canonicalUrl} />
@@ -170,6 +169,7 @@ if (title) {
 
 <style lang="scss">
   @import "../styles/color.scss";
+  @import "./variables.scss";
   .title {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
@@ -181,13 +181,13 @@ if (title) {
   #content-body {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: $content-body-gap;
   }
-  @media screen and (max-width: 896px) {
+  @media screen and (max-width: calc(768px + $toc-width + $content-body-gap)) {
     #content-body {
       display: flex;
       flex-direction: column-reverse;
-      gap: 2rem;
+      gap: $content-body-gap;
     }
   }
 </style>

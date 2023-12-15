@@ -45,18 +45,18 @@ for (const heading of Astro.props.headings) {
   <div id="toc-container">
     <section class="main__toc">
       <h2>{Astro.props.lang === "ja" ? "目次" : "Table of Contents"}</h2>
-      <ul>
+      <ul class="ul-h2">
         {
           headings.map((h2) => (
             <li>
               <a href={`#${h2.slug}`}>{h2.text}</a>
               {h2.children.length > 0 && (
-                <ul>
+                <ul class="ul-h3">
                   {h2.children.map((h3) => (
                     <li>
                       <a href={`#${h3.slug}`}>{h3.text}</a>
                       {h3.children.length > 0 && (
-                        <ul>
+                        <ul class="ul-h4">
                           {h3.children.map((h4) => (
                             <li>
                               <a href={`#${h4.slug}`}>{h4.text}</a>
@@ -78,20 +78,21 @@ for (const heading of Astro.props.headings) {
 
 <style lang="scss">
   @import "@styles/color.scss";
-  $toc-ul-left-padding: 36px;
+  @import "./variables.scss";
   .main__toc {
     overflow-y: auto;
-    padding: 1em 0;
+    padding: 2rem 0.5rem;
     font-size: 0.875em;
     border-radius: 1em;
     background-color: $white-gray-light;
-    width: 18rem;
-    min-width: 18rem;
+    width: $toc-width;
+    min-width: $toc-width;
     display: flex;
     flex-direction: column;
     position: sticky;
     top: 2rem;
-    max-height: calc(100vh - 12rem);
+    max-height: calc(100vh - 10rem);
+    max-height: calc(100svh - 10rem);
 
     & > h2 {
       margin: 0 0 0.4em 0.8em;
@@ -111,17 +112,17 @@ for (const heading of Astro.props.headings) {
     li {
       display: contents;
     }
-    li > a {
+    li a {
       display: block;
       position: relative;
       color: $link-color-light;
       padding: 0.25em 1em 0.25em 0;
-      &:hover, &.active {
-        color: $link-color;
+      @media (pointer: coarse) {
+        padding: 0.75em 1em 0.75em 0;
       }
       &:before {
-        position: absolute;
         content: "";
+        position: absolute;
         border-radius: 50%;
         top: 1em;
         @media (pointer: coarse) {
@@ -131,41 +132,55 @@ for (const heading of Astro.props.headings) {
         width: 4px;
         height: 4px;
         transform: translate(-50%, -50%);
-        background: lightskyblue;
+        background: $link-color-light;
         border: 2px solid $white-gray-light;
       }
-      &.active {
-        font-weight: bold;
-        &:before {
-          background: $link-color-light;
-          border: 2px solid $white-gray-dark;
-          width: 0.5em;
-          height: 0.5em;
-        }
-      }
-      @media (pointer: coarse) {
-        padding: 0.75em 1em 0.75em 0;
-      }
     }
-    > ul {
+    ul.ul-h2 {
       position: relative;
       padding-left: $toc-ul-left-padding;
       &:before {
+        content: "";
         position: absolute;
         top: 20px;
-        bottom: 20px;
+        bottom: 0.6em;
         left: calc($toc-ul-left-padding / 2);
         width: 3px;
-        content: "";
         transform: translateX(-50%);
         background: $white-gray-dark;
         border-radius: 0 0 5px 5px;
+        @media (pointer: coarse) {
+          bottom: 1.25em;
+        }
       }
       > li > a {
         &:before {
-          width: 0.5em;
-          height: 0.5em;
+          width: 0.6em;
+          height: 0.6em;
         }
+      }
+    }
+    ul.ul-h3 {
+      font-size: 0.9em;
+      a {
+        filter: saturate(0);
+      }
+    }
+    ul.ul-h4 {
+      > li > a {
+        padding-left: 1em;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    li a.active {
+      font-weight: bold;
+      filter: unset;
+      color: $header-background-color-primary;
+      &:before {
+        background: $header-background-color-primary;
+        border: 2px solid $white-gray-dark;
       }
     }
   }
@@ -175,11 +190,12 @@ for (const heading of Astro.props.headings) {
   #toc-container {
     height: 100%;
   }
-  @media screen and (max-width: 896px) {
+  @media screen and (max-width: calc(768px + $toc-width + $content-body-gap)) {
     #sidebar {
       min-width: 0;
       position: sticky;
       top: 1rem;
+      pointer-events: none;
     }
     #toc-toggle {
       display: flex;
@@ -188,13 +204,13 @@ for (const heading of Astro.props.headings) {
     #toc-toggle-button {
       cursor: pointer;
       appearance: none;
-      border: none;
       background: #fff;
-      padding: 1rem 1rem;
+      padding: 0.75rem 0.75rem;
       border: 1px solid #ccc;
       border-radius: 0.375rem;
-      box-shadow: rgba(0,0,0,0.2) 0 0.25rem 0.5rem 0;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 0.25rem 0.5rem 0;
       color: #212121;
+      pointer-events: auto;
     }
     #toc-toggle-button-icon {
       &:before {
@@ -205,11 +221,11 @@ for (const heading of Astro.props.headings) {
         margin-right: 0.5rem;
         border-right: 1.5px solid #212121;
         border-bottom: 1.5px solid #212121;
-        transform: translateY(-0.25rem) rotate(45deg);
+        transform: translateY(-0.2em) rotate(45deg);
       }
       aside.toc-open & {
         &:before {
-          transform: rotate(-135deg);
+          transform: translateY(0.1em) rotate(-135deg);
         }
       }
     }
@@ -221,21 +237,24 @@ for (const heading of Astro.props.headings) {
       width: 100vw;
       height: 100vh;
       background: transparent;
+      z-index: 100;
+      pointer-events: auto;
       aside.toc-open & {
         display: block;
       }
-      z-index: 100;
     }
     #toc-container {
       position: relative;
       height: unset;
+      pointer-events: auto;
     }
     .main__toc {
       display: none;
       position: absolute;
       top: 1rem;
       right: 0px;
-      box-shadow: rgba(0,0,0,0.2) 0 0.25rem 0.5rem 0;
+      border: 1px solid #ccc;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 0.25rem 0.5rem 0;
       height: unset;
       border-radius: 1em;
     }
@@ -253,9 +272,11 @@ for (const heading of Astro.props.headings) {
 
   const sidebar = document.getElementById("sidebar");
 
-  document.getElementById("toc-toggle-button")?.addEventListener("click", () => {
-    sidebar?.classList.toggle("toc-open");
-  });
+  document
+    .getElementById("toc-toggle-button")
+    ?.addEventListener("click", () => {
+      sidebar?.classList.toggle("toc-open");
+    });
 
   document.getElementById("toc-backdrop")?.addEventListener("click", () => {
     sidebar?.classList.remove("toc-open");
@@ -270,42 +291,46 @@ for (const heading of Astro.props.headings) {
 
     const headings = document
       .querySelector("#content-column")
-      ?.querySelectorAll("h2, h3, h4, h5, h6");
-  
-     const indices = document.querySelectorAll(".main__toc a");
-     if (indices[0] !== null) {
-       indices[0].classList.add("active");
-     }
+      ?.querySelectorAll("h2, h3, h4");
 
-     indices.forEach((index) => {
-       index.addEventListener("click", () => {
-         sidebar?.classList.remove("toc-open");
-       });
-     });
+    const indices = document.querySelectorAll(".main__toc a");
+
+    if (indices[0] !== null) {
+      indices[0].classList.add("active");
+    }
+
+    indices.forEach((index) => {
+      index.addEventListener("click", () => {
+        sidebar?.classList.remove("toc-open");
+      });
+    });
 
     function activateIndex(element: Element) {
+      const newActiveIndex = document.querySelector(
+        `.main__toc a[href='#${element.id}']`,
+      );
+      if (newActiveIndex === null) {
+        return;
+      }
       const currentActiveIndex = document.querySelector(".main__toc a.active");
       if (currentActiveIndex !== null) {
         currentActiveIndex.classList.remove("active");
       }
-      const newActiveIndex = document.querySelector(
-        `.main__toc a[href='#${element.id}']`,
-      );
-      if (newActiveIndex !== null) {
-        newActiveIndex.classList.add("active");
-        const rect = newActiveIndex.getBoundingClientRect();
-        if (
-        // scroll in toc, only if toc is fully visible
+      newActiveIndex.classList.add("active");
+      const rect = newActiveIndex.getBoundingClientRect();
+      if (
+        // scroll to active index in toc, only if toc is fully visible
         toc?.getBoundingClientRect().top! > 0 &&
-        (rect.top < toc?.getBoundingClientRect().top! || rect.bottom > toc?.getBoundingClientRect().bottom!)) {
-          newActiveIndex.scrollIntoView({
-            behavior: "auto",
-            block: "center",
-          });
-        }
+        (rect.top < toc?.getBoundingClientRect().top! ||
+          rect.bottom > toc?.getBoundingClientRect().bottom!)
+      ) {
+        newActiveIndex.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+        });
       }
     }
-  
+
     function onHeadingsIntersect(entries: IntersectionObserverEntry[]) {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -313,10 +338,10 @@ for (const heading of Astro.props.headings) {
         }
       });
     }
-  
+
     const headingsObserverOptions = {
       root: null,
-      rootMargin: "0px 0px -100% 0px",
+      rootMargin: "0px 0px -95% 0px",
       threshold: 0,
     };
 
@@ -324,11 +349,11 @@ for (const heading of Astro.props.headings) {
       onHeadingsIntersect,
       headingsObserverOptions,
     );
-  
+
     headings?.forEach((heading) => {
       headingsObserver.observe(heading);
     });
   }
-  
+
   observeToc();
 </script>

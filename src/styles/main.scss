@@ -2,15 +2,19 @@
 
 :is(main) {
   word-wrap: break-word;
+
   &:lang(ja) {
     text-align: justify;
+
     @media (max-width: 640px) {
       text-align: left;
     }
   }
+
   &:lang(en) {
     hyphens: auto;
   }
+
   font-size: 1.125rem;
   color: $text-color;
 
@@ -31,15 +35,18 @@
   padding: 2rem 4rem;
 
   @media (min-width: 1024px) {
-    max-width: 64rem;
+    max-width: 84rem;
     margin: 0 auto;
   }
+
   @media (max-width: 768px) {
     padding: 2rem 2rem;
   }
+
   @media (max-width: 640px) {
     font-size: 1rem;
   }
+
   @media (max-width: 512px) {
     padding: 2rem 1rem;
   }
