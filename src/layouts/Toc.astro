@@ -79,6 +79,7 @@ for (const heading of Astro.props.headings) {
 <style lang="scss">
   @import "@styles/color.scss";
   @import "./variables.scss";
+
   .main__toc {
     overflow-y: auto;
     padding: 2rem 0.5rem;
@@ -175,11 +176,11 @@ for (const heading of Astro.props.headings) {
       }
     }
     li a.active {
-      font-weight: bold;
+      font-weight: 800;
       filter: unset;
-      color: $header-background-color-primary;
+      color: $link-color-light;
       &:before {
-        background: $header-background-color-primary;
+        background: $link-color-light;
         border: 2px solid $white-gray-dark;
       }
     }
