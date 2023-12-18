@@ -30,7 +30,7 @@ Services of ITC-LMS are similar to other ICT class support tools. Noteworthy is 
 ### Setting notification
 
 You can accept the notification from ITC-LMS by email or LINE application.
-To set up the notification, please read "[Set the notifications](notification/)".
+To set up the notification, follow the setup procedures in the "[Set the notifications](notification/)" page.
 
 ### Courses
 
