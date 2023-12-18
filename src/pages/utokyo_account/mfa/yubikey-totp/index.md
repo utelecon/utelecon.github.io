@@ -4,7 +4,7 @@ title: UTokyo Account多要素認証におけるYubico Authenticatorアプリの
 
 ## はじめに
 
-UTokyo Accountの多要素認証において，本人確認方法として認証アプリを使う場合，「Google認証システム」などのスマホアプリの他に，セキュリティキーと呼ばれる専用の機器と連携させて利用するパソコンのアプリがあります．その製品の一例が，「YubiKey」セキュリティキーの一部のモデルと「Yubico Authenticator」アプリの組み合わせです．
+UTokyo Accountの多要素認証において，本人確認方法として認証アプリを使う場合，「Google Authenticator」などのスマホアプリの他に，セキュリティキーと呼ばれる専用の機器と連携させて利用するパソコンのアプリがあります．その製品の一例が，「YubiKey」セキュリティキーの一部のモデルと「Yubico Authenticator」アプリの組み合わせです．
 
 このページでは，UTokyo Accountの多要素認証で，YubiKeyセキュリティキーとYubico Authenticatorアプリを利用する本人確認方法について，登録やサインインの方法を説明します．
 
