@@ -72,13 +72,47 @@ function labelProps(selection: Selection) {
 <style lang="scss">
   @import "@styles/color.scss";
 
+  $main-color: $heading-color;
+  $sub-color: white;
+  
   button {
     cursor: pointer;
     text-align: start;
+    background: $sub-color;
+    border-radius: 5px;
+    border: 1px solid $main-color;
+    margin-bottom: 0.5em;
+    padding: 12px;
+    border-bottom: solid 4px $main-color;
+    position: relative;
+  }
+
+  button:hover {
+    opacity: 0.6;
   }
 
   label {
     cursor: pointer;
     font-weight: bold;
+    font-size: 1.2em;
+    color: $main-color;
+  }
+
+  label::after {
+    content: "設定する >>";
+    margin-right: 12px;
+    position: absolute;
+    right: 0;
+    font-size: 0.8em;
+    animation: blink 2s ease infinite;
+  }
+
+  @keyframes blink {
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
   }
 </style>
