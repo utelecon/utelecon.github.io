@@ -34,7 +34,7 @@ To set up the notification, follow the setup procedures in the "[Set the notific
 
 ### Courses
 
-Distributing teaching materials and submitting assignments on ITC-LMS are done on courses created for each year and class. Please refer to the following page for instructions on how to use it.
+Distributing teaching materials and submitting assignments on ITC-LMS take place in courses created for each year and class. Please refer to the following page for instructions on how to use it.
 
 <!-- * [For students](students/) -->
 * [For lecturers](lecturers/)
