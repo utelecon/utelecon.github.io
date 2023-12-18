@@ -1,29 +1,117 @@
 ---
-title: UTokyo Microsoft License (Microsoft 365)
+title: UTokyo Microsoft License
 ---
 
-import Microsoft from "@components/ja/systems/microsoft/index.mdx";
+import HelpItem from "@components/utils/HelpItem.astro";
 
-## UTokyo Microsoft Licenseとは
+## はじめに
+{:#about}
 
-「UTokyo Microsoft License」は，Microsoftのシステムを東大のアカウントで利用するものです．
+UTokyo Microsoft Licenseとは，Microsoftの提供するシステムをUTokyo Accountで利用することのできるライセンスです．具体的には，Word ・Excel・PowerPointのような端末にインストールして利用するOfficeソフトウェアなどが含まれます．詳細は[利用可能な主なシステム](#systems)をご覧ください．
 
-利用できる主な機能を以下に挙げます．
+### Microsoftのシステムへのサインインについて
+{:#signin}
 
-- **Word**や**Excel**などのMicrosoft Officeアプリのダウンロード
-- Web版のMicrosoft Office
-- **OneDrive**：ファイル置き場
-    - 詳細な使い方を[OneDriveのページ](onedrive/)で説明しています．
-- **Microsoft Forms**：フォーム作成サービス
+UTokyo Microsoft Licenseのシステムなどを使っていると，Microsoftのサインイン画面に移動することがあります．この場合にUTokyo Accountを用いてサインインする方法については以下をご覧ください．
+**[UTokyo Accountを用いてMicrosoftのシステムにサインインする](signin)**{:.box.center}
 
-東大のアカウントを作成すると，通常のMicrosoftアカウントでは不可能な，東大のアカウントに限って公開するという共有の設定（限定公開）ができます．また，そのようなページにアクセスするために，既にMicrosoftのアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．
+## 利用対象者
+{:#users}
 
-## 利用開始の手順
+UTokyo Microsoft Licenseは，UTokyo Accountを持つ東京大学の構成員（学生および教職員）に付与されます．ただし，UTokyo Microsoft Licenseで具体的に利用可能なシステムは学籍や人事上の登録によって異なります．[利用可能な主なシステム](#systems)のうち，利用対象者が限定されているシステムについてはそれぞれの節で対象者を明示しています．逆に，挙げられているシステムのうち対象者についての記載がないものは，UTokyo Accountを持つ全員が使えるシステムです．
 
-利用には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．
+### UTokyo Accountが失効した場合
+{:#expire}
 
-<Microsoft variant="individual" />
+離籍や所属変更によって UTokyo Account が失効した場合，UTokyo Microsoft Licenseのシステムは利用できなくなります．これに伴い，[OneDrive](#onedrive)に保存されたデータなどの関連するデータはすべて失われます．離籍や所属変更の前には，卒業・退職や所属変更によるアカウント失効についての注意を確認のうえデータのバックアップを取ってください．
 
-## 注意事項・FAQ等
+## 利用可能な主なシステム
+{:#systems}
 
-**[別ページにて注意事項・FAQ等を掲載しております](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html)**ので，ご覧ください（現在ページの移行作業中につき，情報が分散しておりご不便をおかけいたしますが，ご理解のほどお願いいたします）．
+以下では，UTokyo Microsoft Licenseにより利用可能なシステムについて説明をしています．
+<HelpItem lang="ja" type={"details"}>
+<Fragment slot="problem">ここに掲載されていないシステムについて</Fragment>
+<Fragment slot="solution">Microsoftは下記以外のシステムも 提供しており，それらについてUTokyo Accountでサインインして利用できるようになっていることがあります．このようなシステムについて，**継続的な利用を保障することはしていない**ものの，**各自の責任の下**での利用を妨げるような取り扱いはしていません．具体的なリスクとしては，Microsoftによる提供ポリシーの変更により**今まで使えていたシステムが突然使えなくなる**可能性などが考えられます．また，このようなシステムについては**サポート窓口での対応をいたしかねる**場合があります．利用の際はこういったことを十分に念頭に置いてください．もし，教育・研究・業務上の必要性が**特に**高いと思われるシステムについて利用に関する相談をしたい場合，サポート窓口のメールフォームにお越しください．</Fragment>
+</HelpItem>
+
+### Officeアプリ
+{:#office_apps}
+
+**学生および東京大学に雇用されている教職員のみが利用できます**
+
+Word ・Excel・PowerPointなど，端末にインストールして利用するOfficeアプリです．それぞれのアプリの最新版のみを利用することができます．利用開始の手順については以下をご覧ください．
+**[UTokyo Microsoft LicenseでOfficeアプリを利用する](install)**{:.box.center}
+
+### OneDrive
+{:#onedrive}
+
+Microsoftが提供するオンラインストレージです．利用手順などの説明は以下をご覧ください．
+**[OneDrive](./onedrive/)**{:.box.center}
+
+### Web版Office
+{:#office_web}
+
+Webブラウザ上でOneDrive上にあるファイルを編集することのできるOfficeソフトウェアです．Word，Excel，PowerPointなどが利用できますが，インストールして利用するOfficeアプリと比べると機能は多くありません．
+
+ユースケースとしては，以下のようなものが考えられます．
+- OneDrive上のファイルについて，軽微な編集をブラウザ上で完結させて行う場合
+- [Officeアプリの利用対象者](#office_apps)でない方がOfficeを利用する場合
+- 権限などの理由により，端末にOfficeアプリをインストールできない場合
+
+利用手順は以下をご覧ください．
+**[OneDriveの基本的な使い方](onedrive/basic#ファイルを編集する)**{:.box.center}
+
+### Teams
+{:#teams}
+
+**教職員のみが利用できます**
+
+チャットやビデオ会議などができるビジネスコミュニケーションツールです．利用手順などの説明は以下をご覧ください（教職員のみアクセス可）．
+**[東京大学版Microsoft Teams利用者マニュアル](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/%E3%80%8C%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%88_Microsoft_Teams%E5%88%A9%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%8820210311%EF%BC%89%E3%80%8D.pdf)**{:.box.center}
+
+#### 「チーム」機能
+{:#team_function}
+
+2022年11月に，「ITツールの利活用」の取り組みの一環として，事務組織の階層構造に基づく従来までの「チーム」に加えて，任意のメンバーで構成可能な「チーム」の利用が可能になりました（要申請）．マニュアル類に関しては以下をご覧ください（教職員のみアクセス可）．
+- **[Teams管理者マニュアル](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/Teams%E7%AE%A1%E7%90%86%E8%80%85%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB.pdf)**（東京大学における「チーム」機能の立ち位置に関する説明を含んだ，チームの管理者向けのマニュアル）
+- **[Teamsチーム　リファレンス](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/IT_Tool_001/Teams%E3%83%81%E3%83%BC%E3%83%A0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9.pdf)**（「チーム」機能に関する詳細なマニュアル）
+
+### 職員メール
+{:#email}
+
+**教職員のみが利用できます**
+
+「職員メール」として，`@mail.u-tokyo.ac.jp`のドメインのメールアカウントが提供されています（要申請）．申請方法を含む利用手順などの説明は以下をご覧ください（教職員のみアクセス可）．
+**[職員メール](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_system_for_staff.aspx)**{:.box.center}
+
+### Microsoftが提供するその他のシステム
+{:#misc}
+
+#### Microsoft Forms
+{:#forms}
+
+オンラインフォームを作成することのできるシステムです．UTokyo Accountを持つ人限定に公開するフォームを作ることもできます．利用手順などの説明は以下をご覧ください．
+**[Microsoft Forms](https://support.microsoft.com/ja-jp/office/620daa7a-3e03-4013-8f92-5cce86210ef6)**{:.box.center}
+
+## Microsoftが提供するその他のライセンス
+{:#related_licenses}
+以下では，UTokyo Microsoft License以外の，学内で利用可能なMicrosoftのシステムに関わるライセンスを紹介しています．
+
+### UTokyo Microsoft Windows 10 for students
+{:#windows}
+
+**学生のみが利用できます**
+
+WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は以下をご覧ください．
+**[UTokyo Microsoft Windows 10 for students](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_win10.html)**{:.box.center}
+
+### 大学所有PC向けMicrosoftライセンス
+{:#univ_pc}
+大学所有PC（定義：大学が購入し保有し，大学の教職員が管理する共有利用するPC）においては，WindowsをEducation エディションにアップグレードするライセンス，Office Professional Plus 2016（Windows 版），Office for Mac Standard 2019（macOS 版）が利用可能です．
+利用手順などの説明は以下をご覧ください（教職員のみアクセス可）．
+**[大学所有PC向け Microsoft ライセンス](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Microsoft_License_for_University_PC.aspx)**{:.box.center}
+
+### UTokyo Microsoft Azure Dev Tools for Teaching
+{:#adt4t}
+Microsoftの教育機関向けの開発者用ソフトウェアライセンスです．利用手順などの説明は以下をご覧ください．
+**[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t)**{:.box.center}
