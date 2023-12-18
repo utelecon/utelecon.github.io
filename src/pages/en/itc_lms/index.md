@@ -11,7 +11,7 @@ redirect_from:
 
 [ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/) is a learning management system of the University of Tokyo. Features of ITC-LMS include distribution of lecture materials, submission of assignments, online examinations, and notification from faculty members to students.
 
-For using ITC-LMS, [UTokyo Account](/utokyo_account/) is required. If you have not used UTokyo Account yet, please read "[Getting Ready for ICT Systems at UTokyo](/en/oc/) (for New Students)" or "[Getting Ready for ICT Systems at the UTokyo](/en/faculty_members/) (for Faculty Members)" at first.
+For using ITC-LMS, [UTokyo Account](/utokyo_account/) is required. If you have not yet started using UTokyo Account, please read "[Getting Ready for ICT Systems at UTokyo](/en/oc/) (for New Students)" or "[Getting Ready for ICT Systems at the UTokyo](/en/faculty_members/) (for Faculty Members)" at first.
 
 ## (For instructors) Advantages of using ITC-LMS
 
