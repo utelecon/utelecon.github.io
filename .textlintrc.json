@@ -2,6 +2,35 @@
   "plugins": {},
   "filters": {},
   "rules": {
-    "preset-ja-engineering-paper": true
+    "en-capitalization": true,
+    "common-misspellings": true,
+    "prh": {
+      "rulePaths": [
+        "prh/utokyo.yml"
+      ]
+    },
+    "preset-ja-engineering-paper": {
+      "prh": false,
+      "use-si-units": false
+    },
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "periodMark": "．"
+      },
+      "max-kanji-continuous-len": {
+        "max": 8,
+        "allow": [
+          "東京大学附属図書館"
+        ]
+      },
+      "no-doubled-joshi": false,
+      "sentence-length": false,
+      "ja-no-weak-phrase": false
+    },
+    "preset-jtf-style": {
+      "1.2.1.句点(。)と読点(、)": false,
+      "1.2.2.ピリオド(.)とカンマ(,)": false,
+      "4.1.3.ピリオド(.)、カンマ(,)": false
+    }
   }
 }
