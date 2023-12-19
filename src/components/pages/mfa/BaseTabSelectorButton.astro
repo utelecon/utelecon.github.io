@@ -44,7 +44,7 @@ function labelProps(selection: Selection) {
     labels.fido && (
       <button {...buttonProps("fido")}>
         <label {...labelProps("fido")}>{labels.fido}</label>
-        <slot name="ms_auth" />
+        <slot name="fido" />
       </button>
     )
   }
