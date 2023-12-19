@@ -1,4 +1,4 @@
-name: Build and Deploy to Netlify
+name: Textlint
 on:
   pull_request:
 jobs:
