@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 In ITC-LMS, each subject carried out in a term or a semester is called a "course."
-You would be using course functions in most cases of using ITC-LMS.
+It is most likely that you will use the course feature in ITC-LMS.
 
 When you use ITC-LMS in class, all subjects registered for UTAS are automatically registered as ITC-LMS courses.  Other subjects or seminars are required to apply via <a href="https://www.ecc.u-tokyo.ac.jp/itc-lms/" target="_blank"> ECCS website</a>, in order for you to use ITC-LMS. 
 
