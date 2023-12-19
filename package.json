@@ -44,6 +44,8 @@
     "@types/mdast": "^3.0.10",
     "@types/node": "^18.11.18",
     "@types/unist": "^2.0.6",
+    "textlint": "^13.4.1",
+    "textlint-rule-preset-ja-engineering-paper": "^1.0.4",
     "typescript": "^5.2.2"
   }
 }
