@@ -2,6 +2,7 @@
 // なぜか`.mdx`にすると <script> の中身がbundleされないため`.astro`
 
 import BaseTabSelectorButton from "@components/pages/mfa/BaseTabSelectorButton.astro";
+import GuideText from "./select/GuideText.astro";
 import MicrosoftAuthenticator from "./select/MicrosoftAuthenticator.mdx";
 import AuthenticatorApplication from "./select/AuthenticatorApplication.mdx";
 import Phone from "./select/Phone.mdx";
@@ -15,6 +16,7 @@ interface Props {
 const { step } = Astro.props;
 ---
 
+<GuideText />
 <BaseTabSelectorButton
   step={step}
   labels={{
