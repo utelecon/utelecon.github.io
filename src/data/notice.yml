@@ -3,6 +3,11 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2023-12-22
+  content:
+    ja: "[Zoomクラウド録画における不要なデータ削除等のお願い](/notice/2023/12-zoom-cloud-recording/)"
+    en: "[Request for Deletion of Unnecessary Data in Zoom Cloud Recording](/en/notice/2023/12-zoom-cloud-recording)"
+-
   date: 2023-12-06
   content:
     ja: "[UTokyo Accountのパスワード有効期限の修正について](/notice/2023/1206-utokyo-account-password)"
