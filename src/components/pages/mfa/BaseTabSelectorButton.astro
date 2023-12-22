@@ -4,9 +4,10 @@ import type { Labels, Selection, Step } from "./tabs";
 interface Props {
   step: Step;
   labels: Labels;
+  guide: string;
 }
 
-const { step, labels } = Astro.props;
+const { step, labels, guide } = Astro.props;
 
 function buttonProps(selection: Selection) {
   return {
@@ -25,6 +26,7 @@ function labelProps(selection: Selection) {
 ---
 
 <div class="wrapper">
+  <p>{guide}</p>
   <button {...buttonProps("ms_auth")}>
     <label {...labelProps("ms_auth")}>{labels.ms_auth}</label>
     <slot name="ms_auth" />
@@ -110,5 +112,13 @@ function labelProps(selection: Selection) {
     font-size: 0.9em;
     margin: 0.5em 0 0;
     color: $black-gray;
+  }
+
+  .wrapper > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: $heading-color;
+    margin: 0;
   }
 </style>
