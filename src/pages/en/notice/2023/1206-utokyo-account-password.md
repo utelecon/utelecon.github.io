@@ -5,7 +5,7 @@ toc: false
 
 <div style="text-align: right;">December 6, 2023</div>
 
-We have recently discovered that **the password expiration period for UTokyo Account of some users was incorrectly set** due to a system malfunction. Today, we hereby announce that we have made a correction to the setting. We are sending an email to the affected users with the specific details of the correction (expiration date before and after the correction), and **ask that they change their UTokyo Account password from the "UTokyo Account User Menu" by the expiration date after the correction**. To change the password, visit the "UTokyo Account User Menu" at the URL below. Note that the new password will have an infinite expiration period if multi-factor authentication (MFA) has been enabled at the time of the password change.
+We have recently discovered that **the password expiration period for UTokyo Account of some users was incorrectly set** due to a system malfunction. Today, we hereby announce that we have made a correction to the setting. We are sending an email to the affected users with the specific details of the correction (expiration date before and after the correction), and **ask that they change their UTokyo Account password from the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) by the expiration date after the correction**. Note that the new password will have an infinite expiration period if multi-factor authentication (MFA) has been enabled at the time of the password change.
 
 We apologize for any inconvenience this may cause.
 
