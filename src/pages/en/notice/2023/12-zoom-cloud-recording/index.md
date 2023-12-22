@@ -44,7 +44,7 @@ The following systems are available for saving and sharing video data online at 
     - Please refer to the [Google Drive](/google/drive/) page (in Japanese) or [Google Drive Help](https://support.google.com/drive/) for usage.
     - The storage capacity is limited to 100 GB per person. You can increase the capacity by paying fees.
 - YouTube
-    - Please refer to [YouTube Help "Upload YouTube videos"](ttps://support.google.com/youtube/answer/57407) for usage. Also, instructions for [restricting YouTube content to university members only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/) are available.
+    - Please refer to [YouTube Help "Upload YouTube videos"](https://support.google.com/youtube/answer/57407) for usage. Also, instructions for [restricting YouTube content to university members only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/) are available.
     - To [upload videos longer than 15 minutes](https://support.google.com/youtube/answer/71673), you will need to perform a process called "verifying account". Even after verifying your account, you cannot upload videos that exceed 256GB or 12 hours in a single file. Currently, there is no limit to the number of videos that can be uploaded or their total size.
 - OneDrive
     - Please refer to the [OneDrive](/microsoft/onedrive/) page (in Japanese) or [OneDrive for work or school help](https://support.microsoft.com/en-us/office/1eaa32e9-3229-47c2-b363-0a5306cb8c37) for usage.
