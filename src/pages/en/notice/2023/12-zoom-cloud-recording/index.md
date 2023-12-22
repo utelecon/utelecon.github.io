@@ -36,7 +36,7 @@ In addition to this, you can delete only a part of files in a particular single 
 1. A confirmation screen with the message "Move This File to Trash" will appear; then press the "Move to Trash" button.
     ![](select_each_view-confirm.png){:.medium.center}
 
-### How to save and share data outside of Zoom
+### Saving and shareing data outside of Zoom
 
 The following systems are available for saving and sharing video data online at the University of Tokyo.
 
