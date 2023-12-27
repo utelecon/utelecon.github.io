@@ -2,10 +2,6 @@
 title: UTokyo Slack (Trial)
 ---
 
-<div class="box--alert">
- [Important] Suspension of use for those who have not attended the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">Information Security Education</a> since 9 August.
-</div>
-
 ## What is UTokyo Slack?
 
 The University of Tokyo (UTokyo) is introducing the business chat tool "Slack" as part of developments of a communication environment that covers a wide range of university activities and has been operating a trial version as "UTokyo Slack" since August 2022.
