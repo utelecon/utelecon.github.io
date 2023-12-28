@@ -36,7 +36,7 @@ Congrats! You have joined the meeting!
 1. You can choose to join with or without video (in case you have a camera and the meeting is set to show the video preview dialog)
    ![](pc_camera.png)
   
-2. Select "Join with Computer Audio" (if the audio settings are not set by the host)    
+1. Select "Join with Computer Audio" (if the audio settings are not set by the host)    
   ![](pc_mic.png)
   
 Congrats! You have joined the meeting!
