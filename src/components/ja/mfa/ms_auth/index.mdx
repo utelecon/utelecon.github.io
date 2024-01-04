@@ -1,25 +1,17 @@
+import { Image } from "astro:assets";
 import If from "@components/utils/If.astro";
 import FirstAccess from "../common/FirstAccess.mdx";
 import FirstEmail from "../common/FirstEmail.mdx";
 import AltAddMethod from "../common/AltAddMethod.mdx";
 
-import firstNext from "./first_next.png";
-import altNext from "./alt_next.png";
 import firstLink from "./first_link.png";
 import altLink from "./alt_link.png";
 import firstNextNext from "./first_next_next.png";
 import altNextNext from "./alt_next_next.png";
 import firstQr from "./first_qr.png";
 import altQr from "./alt_qr.png";
-import privacy from "./privacy.png";
-import improve from "./improve.png";
-import digitalLife from "./digital_life.png";
-import empty from "./empty.png";
-import listAdd from "./list_add.png";
-import list from "./list.png";
 import firstTry from "./first_try.png";
 import altTry from "./alt_try.png";
-import prompt from "./prompt.png";
 import firstApproved from "./first_approved.png";
 import altApproved from "./alt_approved.png";
 
@@ -40,14 +32,14 @@ import altApproved from "./alt_approved.png";
       <AltAddMethod selection="「認証アプリ」" />
       <li>
         Microsoft Authenticatorの設定をする画面が表示されるので，そのまま「次へ」を押してください．
-        <img src={altNext.src}/>
+        ![](./alt_next.png)
       </li>
     </Fragment>
     <Fragment slot="else">
       <FirstAccess />
       <li>
         多要素認証の本人確認方法を設定する画面になります．デフォルトでMicrosoft Authenticatorの設定をする画面になっているので，そのまま「次へ」を押してください．
-        <img src={firstNext.src} />
+        ![](./first_next.png)
       </li>
     </Fragment>
   </If>
@@ -62,23 +54,33 @@ import altApproved from "./alt_approved.png";
           <img src={{ firstNextNext, altNextNext}[`${props.step}NextNext`].src} />
           <img src={{ firstQr, altQr }[`${props.step}Qr`].src} />
       1. スマホでMicrosoft Authenticatorアプリを起動してください．なおこの際，インストール後初めてアプリを起動したという場合は，プライバシーに関する事項の同意やデータ収集に関する設定の確認が求められますので，順に進めてください．
-          <figure class="gallery"><img src={privacy.src} class="small border" /><img src={improve.src} class="small border" /></figure>
+          <figure class="gallery">
+            ![](./privacy.png){:.small .border}
+            ![](./improve.png){:.small .border}
+          </figure>
       1. 「デジタル ライフを保護する」という画像1枚目のような画面が表示されている場合は，「QRコードをスキャンします」という項目を押してください．そうではなく画像2枚目または3枚目のような画面が表示されている場合は，画面右上の「+」を押してから，「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．いずれの場合もカメラの利用を許可するか尋ねられることがありますが，その際は許可してください．
-          <figure class="gallery"><img src={digitalLife.src} class="small border" /><img src={empty.src} class="small border" /><img src={listAdd.src} class="small border" /></figure>
+          <figure class="gallery">
+            ![](./digital_life.png){:.small .border}
+            ![](./empty.png){:.small .border}
+            ![](./list_add.png){:.small .border}
+          </figure>
       1. QRコードを読み取ってください．この際，通知の送信を許可するか尋ねられることがありますが，許可してください．
       1. 読み取りに成功し，アプリ上に自分のUTokyo Accountが表示されればOKです．QRコードの表示された画面に戻って「次へ」を押してください．
-          <img src={list.src} class="small border" />
+          ![](./list.png){:.small .border}
       {:style="list-style: lower-roman;"}
   </li>
 
   <li>
     「試してみましょう」という画面に2桁の数字が表示され，同時にスマホのMicrosoft Authenticatorアプリ上に数字を入力する欄が表示されます．この2桁の数字を入力欄に入力し，「はい」を押してください．
-    <figure class="gallery"><img src={{ firstTry, altTry }[`${props.step}Try`].src} /><img src={prompt.src} class="small border" /></figure>
+    <figure class="gallery">
+      <Image src={{ firstTry, altTry }[`${props.step}Try`]} alt="" />
+      ![](./prompt.png){:.small .border}
+    </figure>
   </li>
 
   <li>
     「通知が承認されました」という表示に切り替わるので，「次へ」を押してください．
-    <img src={{ firstApproved, altApproved }[`${props.step}Approved`].src} />
+    <Image src={{ firstApproved, altApproved }[`${props.step}Approved`]} alt="" />
   </li>
 
   <If cond={props.step !== "alt"}>
