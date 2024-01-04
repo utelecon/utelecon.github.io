@@ -2,7 +2,6 @@
   "plugins": {},
   "filters": {},
   "rules": {
-    "en-capitalization": true,
     "common-misspellings": true,
     "prh": {
       "rulePaths": [
