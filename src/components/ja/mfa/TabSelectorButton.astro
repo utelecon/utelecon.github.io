@@ -23,6 +23,7 @@ const { step } = Astro.props;
     phone: "電話番号",
     fido: step === "alt" ? "FIDO セキュリティキー" : undefined,
   }}
+  labelAfter="設定する >>"
   guide="以下から設定したい本人確認方法を選んでください．"
 >
   <MicrosoftAuthenticator group={step} slot="ms_auth" />

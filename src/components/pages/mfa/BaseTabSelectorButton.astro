@@ -4,10 +4,11 @@ import type { Labels, Selection, Step } from "./tabs";
 interface Props {
   step: Step;
   labels: Labels;
+  labelAfter: string;
   guide: string;
 }
 
-const { step, labels, guide } = Astro.props;
+const { step, labels, labelAfter, guide } = Astro.props;
 
 function buttonProps(selection: Selection) {
   return {
@@ -71,12 +72,12 @@ function labelProps(selection: Selection) {
   });
 </script>
 
-<style lang="scss">
+<style lang="scss" define:vars={{ "label-after": `"${labelAfter}"` }}>
   @import "@styles/color.scss";
 
   $main-color: $heading-color;
   $sub-color: white;
-  
+
   .wrapper button {
     cursor: pointer;
     text-align: start;
@@ -101,7 +102,7 @@ function labelProps(selection: Selection) {
   }
 
   label::after {
-    content: "設定する >>";
+    content: var(--label-after);
     margin-right: 12px;
     position: absolute;
     right: 0;
