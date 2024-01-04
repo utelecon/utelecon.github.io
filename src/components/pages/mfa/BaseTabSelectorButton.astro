@@ -26,27 +26,48 @@ function labelProps(selection: Selection) {
 ---
 
 <div class="wrapper">
-  <p>{guide}</p>
+  <p><span class="material-icon">arrow_forward_ios</span>{guide}</p>
   <button {...buttonProps("ms_auth")}>
+    <div style="flex: auto;">
     <label {...labelProps("ms_auth")}>{labels.ms_auth}</label>
     <slot name="ms_auth" />
+  </div>
+  <div style="flex: none;">
+    <div><span class="material-icon">arrow_forward_ios</span></div>
+  </div>
   </button>
 
   <button {...buttonProps("auth_app")}>
+    <div style="flex: auto;">
     <label {...labelProps("auth_app")}>{labels.auth_app}</label>
     <slot name="auth_app" />
+  </div>
+  <div style="flex: none;">
+
+    <div><span class="material-icon">arrow_forward_ios</span></div>
+  </div>
   </button>
 
   <button {...buttonProps("phone")}>
+    <div style="flex: auto;">
     <label {...labelProps("phone")}>{labels.phone}</label>
     <slot name="phone" />
+  </div>
+  <div style="flex: none;">    <div><span class="material-icon">arrow_forward_ios</span></div>
+  </div>
   </button>
 
   {
     labels.fido && (
       <button {...buttonProps("fido")}>
-        <label {...labelProps("fido")}>{labels.fido}</label>
-        <slot name="ms_auth" />
+        <div style="flex: auto;">
+          <label {...labelProps("fido")}>{labels.fido}</label>
+          <slot name="ms_auth" />
+        </div>
+        <div style="flex: none; font-weight: bold;">
+          
+    <div><span class="material-icon">arrow_forward_ios</span></div>
+        </div>
       </button>
     )
   }
@@ -83,14 +104,17 @@ function labelProps(selection: Selection) {
     background: $sub-color;
     border-radius: 5px;
     border: 1px solid $main-color;
-    margin-bottom: 0.5em;
+    margin: 0.25em 0;
     padding: 12px;
     border-bottom: solid 4px $main-color;
     position: relative;
-  }
+    display: flex;
+    align-items: center;
+    gap: 0 0.5em;
 
-  button:hover {
-    opacity: 0.6;
+    &:hover {
+      opacity: 0.6;
+    }
   }
 
   label {
@@ -100,13 +124,13 @@ function labelProps(selection: Selection) {
     color: $main-color;
   }
 
-  label::after {
-    content: "設定する >>";
-    margin-right: 12px;
-    position: absolute;
-    right: 0;
-    font-size: 0.8em;
-  }
+  // label::after {
+  //   content: "設定する >>";
+  //   margin-right: 12px;
+  //   position: absolute;
+  //   right: 0;
+  //   font-size: 0.8em;
+  // }
 
   button :global(p) {
     font-size: 0.9em;
@@ -115,10 +139,38 @@ function labelProps(selection: Selection) {
   }
 
   .wrapper > p {
-    text-align: center;
+    // text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
-    color: $heading-color;
-    margin: 0;
+    font-size: 0.9em;
+    color: $red;
+    margin: 0.5em 0;
+    padding: 0.8em;
+    border-radius: 4px;
+
+    // background: $white-gray-light;
+
+    border: solid 1px $red;
   }
+
+  .material-icon {
+          // display: block;
+          // margin: 0 auto;
+          padding-right: 0.4em;
+
+          font-family: "Material Icons";
+          // font-size: 1.5rem;
+          text-transform: none;
+          white-space: nowrap;
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+        }
+
+  @font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v92/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
+      format("woff2");
+  }
+  
 </style>
