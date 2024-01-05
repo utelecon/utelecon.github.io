@@ -114,8 +114,17 @@ MATLAB Onlineでは，ブラウザからオンラインリソースにアクセ�
 
 詳細な説明は準備中です．
 
-## 高度な利用方法について
-準備中
+## 高度なライセンスについて
+
+以下の高度なライセンスについて，希望する方に個別に提供しています．
+
+- [Parallel Server](https://jp.mathworks.com/help/matlab-parallel-server/index.html)
+    - 複数台のPCやクラウドによってクラスターを構成し，並列計算を行うためのライセンスです．
+    - 1台のマルチコアPCで行う通常の並列計算であれば，[Parallel Computing Toolbox](https://jp.mathworks.com/help/parallel-computing/index.html)で利用可能ですので，Parallel Serverは必要ありません．
+- [コンカレント ライセンス](https://jp.mathworks.com/help/install/license/concurrent-licenses.html)
+    - 演習室等で集中管理しているPCで利用したい場合に適用可能なライセンス認証の形態です．
+
+これらが必要な場合は，どのような理由・どのような形態で利用したいか具体的に分かるような情報を添えて，[サポート窓口のメールフォーム](/support/#email-form)へご相談ください．
 
 ## 参考情報
 
