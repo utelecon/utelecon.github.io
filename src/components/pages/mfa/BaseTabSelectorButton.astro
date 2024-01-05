@@ -29,25 +29,41 @@ function labelProps(selection: Selection) {
 <div class="wrapper">
   <p>{guide}</p>
   <button {...buttonProps("ms_auth")}>
-    <label {...labelProps("ms_auth")}>{labels.ms_auth}</label>
-    <slot name="ms_auth" />
+    <span>
+      <span>
+        <label {...labelProps("ms_auth")}>{labels.ms_auth}</label>
+        <slot name="ms_auth" />
+      </span>
+    </span>
   </button>
 
   <button {...buttonProps("auth_app")}>
-    <label {...labelProps("auth_app")}>{labels.auth_app}</label>
-    <slot name="auth_app" />
+    <span>
+      <span>
+        <label {...labelProps("auth_app")}>{labels.auth_app}</label>
+        <slot name="auth_app" />
+      </span>
+    </span>
   </button>
 
   <button {...buttonProps("phone")}>
-    <label {...labelProps("phone")}>{labels.phone}</label>
-    <slot name="phone" />
+    <span>
+      <span>
+        <label {...labelProps("phone")}>{labels.phone}</label>
+        <slot name="phone" />
+      </span>
+    </span>
   </button>
 
   {
     labels.fido && (
       <button {...buttonProps("fido")}>
-        <label {...labelProps("fido")}>{labels.fido}</label>
-        <slot name="ms_auth" />
+        <span>
+          <span>
+            <label {...labelProps("fido")}>{labels.fido}</label>
+            <slot name="ms_auth" />
+          </span>
+        </span>
       </button>
     )
   }
@@ -94,6 +110,11 @@ function labelProps(selection: Selection) {
     opacity: 0.6;
   }
 
+  button > span {
+    display: flex;
+    align-items: center;
+  }
+
   label {
     cursor: pointer;
     font-weight: bold;
@@ -101,12 +122,15 @@ function labelProps(selection: Selection) {
     color: $main-color;
   }
 
-  label::after {
+  button > span::after {
     content: var(--label-after);
-    margin-right: 12px;
-    position: absolute;
-    right: 0;
+    display: block;
+    writing-mode: vertical-rl;
+    color: $main-color;
+    font-weight: bold;
     font-size: 0.8em;
+    margin: 0 0 0 0.5em;
+    text-align: right;
   }
 
   button :global(p) {
@@ -116,10 +140,11 @@ function labelProps(selection: Selection) {
   }
 
   .wrapper > p {
-    text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
-    color: $heading-color;
-    margin: 0;
+    color: $red;
+    margin: 0 0 1em;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px double $red;
   }
 </style>
