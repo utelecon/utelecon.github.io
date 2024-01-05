@@ -1,0 +1,4 @@
+runner:
+  textlint:
+    cmd: npx textlint -f checkstyle src/**
+    format: checkstyle
