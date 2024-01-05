@@ -12,3 +12,10 @@ blockquote, figure, ol, p, ul, .box, .box--alert, .box--important {
     margin-bottom: 0;
   }
 }
+
+.box, .box--alert, .box--important {
+  /* まさか二重のboxを書くことはなかろう…… */
+  :is(ol, ul) & + & {
+    margin-top: 1em;
+  }
+}
