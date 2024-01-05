@@ -9,6 +9,18 @@
       ]
     },
     "preset-ja-engineering-paper": {
+      "ja-hiragana-fukushi": {
+        "severity": "warning"
+      },
+      "ja-hiragana-keishikimeishi": {
+        "severity": "warning"
+      },
+      "ja-hiragana-hojodoushi": {
+        "severity": "warning"
+      },
+      "no-synonyms": {
+        "severity": "error"
+      },
       "prh": false,
       "use-si-units": false
     },
@@ -16,8 +28,15 @@
       "ja-no-mixed-period": {
         "periodMark": "．"
       },
+      "ja-no-redundant-expression": {
+        "severity": "warning"
+      },
+      "no-exclamation-question-mark": {
+        "severity": "warning"
+      },
       "max-kanji-continuous-len": {
         "max": 8,
+        "severity": "warning",
         "allow": [
           "東京大学附属図書館"
         ]
