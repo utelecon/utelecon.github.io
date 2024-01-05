@@ -1,7 +1,7 @@
 runner:
   textlint-ja:
-    cmd: npx textlint -f checkstyle -c lint/textlint-ja.json src/*/!(en)/**
+    cmd: npx textlint -f checkstyle -c lint/textlint-ja.json "src/*/!(en)/**"
     format: checkstyle
   textlint-en:
-    cmd: npx textlint -f checkstyle -c lint/textlint-en.json src/*/en/**
+    cmd: npx textlint -f checkstyle -c lint/textlint-en.json "src/*/en/**"
     format: checkstyle
