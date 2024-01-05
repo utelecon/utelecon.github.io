@@ -13,7 +13,7 @@
     "common-misspellings": true,
     "prh": {
       "rulePaths": [
-        "prh/utokyo.yml"
+        "prh.yml"
       ]
     },
     "preset-ja-engineering-paper": {

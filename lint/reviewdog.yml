@@ -1,0 +1,4 @@
+runner:
+  textlint-ja:
+    cmd: npx textlint -f checkstyle -c lint/textlint-ja.json --ignore-path lint/textlint-ja-ignore src/**                                                         
+    format: checkstyle
