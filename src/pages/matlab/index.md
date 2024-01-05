@@ -40,34 +40,33 @@ MATLABの利用にはMathWorksアカウントの作成が必要です．また�
 
 UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．また，`u-tokyo.ac.jp`で終わるメールアドレスの一例として，[ECCSクラウドメール](/google/)を利用可能です．
 ### まだMathWorksアカウントを作成していない場合
-1. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」をクリックしてください．
-    <!---    1.2. 【またはこちらを書く】MathWorks社[ライセンス認証ページ](https://jp.mathworks.com/licensecenter/total_headcount/90427-67813-64593-61894-60890) にアクセスしてください．--->
+1. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」を押してください．
 2. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-3. 「Create a MathWorks Account」と書かれたメニューが表示されたら，「Create」をクリックしてください．
+3. 「Create a MathWorks Account」と書かれたメニューが表示されたら，「Create」を押してください．
     <!---![](https://i.imgur.com/AAD3U9B.png)--->
 4. 画面の指示に従い，[ECCSクラウドメール](/google/)などの，`u-tokyo.ac.jp`で終わるメールアドレスを使用してMathWorksアカウントを作成してください．
 5. 登録したメールアドレス宛てに`service@account.mathworks.com`から認証メールが届くので，記載されたリンクにアクセスします．メールの受信が確認できない場合は，迷惑メールに振り分けられていないか確認してください．
 6. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
 
-上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
+この手順がうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
 ### すでに作成済みのMathWorksアカウントがある場合
-1. お持ちのMathWorksアカウントのメールアドレスを，[ECCSクラウドメール](/google/)などの，`u-tokyo.ac.jp`で終わるメールアドレスに更新します．
+1. お持ちのMathWorksアカウントのメールアドレスを，[ECCSクラウドメール](/google/)などの，`u-tokyo.ac.jp`で終わるメールアドレスに更新してください．
     <details>
         <summary>手順</summary>
         <ol>
-            <li><a href="https://jp.mathworks.com/mwaccount/">MathWorksアカウントページ</a>にアクセスし，サインインします．</li>
-            <li>ページ上部の「プロファイル > プロファイルの編集」をクリックします．</li>
-            <li>メールアドレスを変更し，「更新」をクリックします．</li>
-            <li><code>service@account.mathworks.com</code>から届く認証メールのリンクにアクセスします．</li>
+            <li><a href="https://jp.mathworks.com/mwaccount/">MathWorksアカウントページ</a>にアクセスし，サインインしてください．</li>
+            <li>ページ上部の「プロファイル > プロファイルの編集」を押してください．</li>
+            <li>メールアドレスを変更し，「更新」を押してください．</li>
+            <li><code>service@account.mathworks.com</code>から認証メールが届くので，そのメール内のリンクにアクセスしてください．</li>
         </ol>
     </details>
 2. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」をクリックしてください．
 3. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 4. 「Sign in to your existing MathWorks Account」と書かれたメニューが表示されたら，「Sign In」をクリックしてください．
-5. お持ちのMathWorksアカウントでサインインします．
+5. お持ちのMathWorksアカウントでサインインしてください．
 6. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
 
-上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
+この手順がうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
 
 ## 基本的な利用の方法
 MATLABの機能をすべて使うには，PCにソフトウェア版のインストールを行うことが推奨されますが，PCに十分な処理速度のプロセッサ，および保存領域の余裕があることが必要です．また，インストール時にはインターネット通信が必要となります．
