@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../schemas/nav.json
 
 -
-  name: "Getting Ready for ICT Systems"
+  name: "Getting Ready"
   contents:
     -
       name: "For New Students"
@@ -16,7 +16,7 @@
       name: "Support Desk"
       url: "/en/support/"
 -
-  name: "ICT Systems"
+  name: "ICT Systems at UTokyo"
   contents:
     -
       name: "UTokyo Account"
@@ -27,6 +27,9 @@
     -
       name: "ITC-LMS"
       url: "/en/itc_lms"
+    -
+      name: "UTokyo Wi-Fi"
+      url: "/en/utokyo_wifi/"
     -
       name: "Zoom"
       url: "/en/zoom/"
@@ -40,13 +43,16 @@
       name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
       url: "/en/microsoft/"
     -
-      name: "UTokyo Wi-Fi"
-      url: "/en/utokyo_wifi/"
+      name: "UTokyo Slack"
+      url: "/en/slack/"
     -
-      name: "ECCS Terminals"
-      url: "https://www.ecc.u-tokyo.ac.jp/en/"
+      name: "UTokyo VPN"
+      url: "/en/utokyo_vpn/"
+    # -
+    #   name: "List of all systems"
+    #   url: "/en/systems/"
 -
-  name: "Teaching Excellence"
+  name: "Use of Online Resources"
   contents:
     -
       name: "Effective Use of Online Resources"
@@ -58,20 +64,32 @@
       name: "Search Online Resources by Purpose"
       url: "/en/online/topics/"
     -
-      name: "Community of Online Education Practices"
-      url: "/en/events/2020-luncheon/"
+      name: "Copyright Handling on Creating Materials"
+      url: "/en/articles/copyright/"
 -
-  name: "Notice / Events"
+  name: "Guides / Events"
   contents: 
     -
       name: "Notice"
       url: "/en/notice/"
     -
-      name: "Community of Online Education Practices"
-      url: "/en/events/2020-luncheon/"
+      name: "Information Security Portal Site"
+      url: "https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Home.aspx"
+    # - 
+    #   name: "Policies related to ICT"
+    #   url: "/en/docs/"
+    -
+      name: "Notice on Account Revocation due to Graduation, Resignation or Change of Affiliation"
+      url: "/en/systems/leave/"
+    -
+      name: "List of classrooms available for attending online classes on campus <small>(in Japanese)</small>"
+      url: "/oc/rooms"
     -
       name: "Orientations / Seminars"
       url: "/en/events/"
+    # -
+    #   name: "Community of Online Education Practices"
+    #   url: "/en/events/2020-luncheon/"
 -
   name: "Support"
   contents:
@@ -82,8 +100,8 @@
       name: "FAQ"
       url: "/en/faq/"
     -
-      name: "System Operation Status"
-      url: "/en/support/service-status"
+      name: "System Failures and Maintenance Information"
+      url: "https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/service-status.aspx"
     -
       name: "Trouble in Entering Classes"
       url: "/en/oc/join"
