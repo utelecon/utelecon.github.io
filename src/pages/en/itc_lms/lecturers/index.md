@@ -3,7 +3,7 @@ title: How to use cources' functions (for instructors)
 breadcrumb:
   title: Cources (for instructors)
 redirect_from:
-  - /en/lms_lecturers
+  - /en/lms_lecturers/
   - /en/lms_lecturers/timetable
 ---
 
