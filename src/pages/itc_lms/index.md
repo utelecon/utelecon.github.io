@@ -30,7 +30,7 @@ redirect_from:
 
 ### 通知設定
 
-ITC-LMSでの更新通知を，メールやLINEで受け取ることができます．通知の設定方法は「[ITC-LMSの通知設定](notification/)」を確認してください．
+ITC-LMSでの更新通知を，メールやLINEで受け取ることができます．通知の設定方法は「[ITC-LMSで通知先を設定する](notification/)」を確認してください．
 
 ### コース
 
