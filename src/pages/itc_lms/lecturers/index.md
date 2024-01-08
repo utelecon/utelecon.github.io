@@ -3,7 +3,7 @@ title: ITC-LMSでコース機能を使用する（教員向け）
 breadcrumb:
   title: コース機能（教員向け）
 redirect_from:
-  - /lms_lecturers
+  - /lms_lecturers/
   - /lms_lecturers/timetable
 ---
 
