@@ -1,5 +1,5 @@
 ---
-title: How to use cources' functions (for instructors)
+title: How to use courses (for instructors)
 breadcrumb:
   title: Cources (for instructors)
 redirect_from:
