@@ -26,6 +26,10 @@ You can set a document to be displayed on the top screen when a student searches
 ![登録](cs4.png)
 [手順動画](https://youtu.be/Sdqtw2m1j48)
 
+## Register course participants
+
+To enroll a teacher or TA who is co-teaching a course (not registered in UTAS), you must register the course participants. You may also enroll students not enrolled to participate in the course. For information on how to register, please check "[Register course participants](course_participants/)."
+
 ## Setting for course registration, message usage
 
 <div class="box">The default setting for this message function has been change to "Accept contact from students" after December 22, 2021. If you do not wish to receive messages from students, please change the setting by unchecking the check box for "Accept contacts from students".</div>
