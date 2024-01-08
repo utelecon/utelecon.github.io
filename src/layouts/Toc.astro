@@ -43,20 +43,20 @@ for (const heading of Astro.props.headings) {
     <div id="toc-backdrop"></div>
   </div>
   <div id="toc-container">
-    <section class="main__toc">
+    <section id="toc">
       <h2>{Astro.props.lang === "ja" ? "目次" : "Table of Contents"}</h2>
-      <ul class="ul-h2">
+      <ul class="toc-h2">
         {
           headings.map((h2) => (
             <li>
               <a href={`#${h2.slug}`}>{h2.text}</a>
               {h2.children.length > 0 && (
-                <ul class="ul-h3">
+                <ul class="toc-h3">
                   {h2.children.map((h3) => (
                     <li>
                       <a href={`#${h3.slug}`}>{h3.text}</a>
                       {h3.children.length > 0 && (
-                        <ul class="ul-h4">
+                        <ul class="toc-h4">
                           {h3.children.map((h4) => (
                             <li>
                               <a href={`#${h4.slug}`}>{h4.text}</a>
@@ -78,9 +78,9 @@ for (const heading of Astro.props.headings) {
 
 <style lang="scss">
   @import "@styles/color.scss";
-  @import "./variables.scss";
+  @import "@styles/toc.scss";
 
-  .main__toc {
+  #toc {
     overflow-y: auto;
     padding: 2rem 0.5rem;
     font-size: 0.875em;
@@ -92,8 +92,8 @@ for (const heading of Astro.props.headings) {
     flex-direction: column;
     position: sticky;
     top: 2rem;
-    max-height: calc(100vh - 10rem);
-    max-height: calc(100svh - 10rem);
+    max-height: calc(100vh - 12rem);
+    max-height: calc(100svh - 12rem);
 
     & > h2 {
       margin: 0 0 0.4em 0.8em;
@@ -137,7 +137,7 @@ for (const heading of Astro.props.headings) {
         border: 2px solid $white-gray-light;
       }
     }
-    ul.ul-h2 {
+    ul.toc-h2 {
       position: relative;
       padding-left: $toc-ul-left-padding;
       &:before {
@@ -161,13 +161,13 @@ for (const heading of Astro.props.headings) {
         }
       }
     }
-    ul.ul-h3 {
+    ul.toc-h3 {
       font-size: 0.9em;
       a {
         filter: saturate(0);
       }
     }
-    ul.ul-h4 {
+    ul.toc-h4 {
       > li > a {
         padding-left: 1em;
         &:before {
@@ -191,7 +191,7 @@ for (const heading of Astro.props.headings) {
   #toc-container {
     height: 100%;
   }
-  @media screen and (max-width: calc(768px + $toc-width + $content-body-gap)) {
+  @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
     #sidebar {
       min-width: 0;
       position: sticky;
@@ -249,7 +249,7 @@ for (const heading of Astro.props.headings) {
       height: unset;
       pointer-events: auto;
     }
-    .main__toc {
+    #toc {
       display: none;
       position: absolute;
       top: 1rem;
@@ -259,7 +259,7 @@ for (const heading of Astro.props.headings) {
       height: unset;
       border-radius: 1em;
     }
-    .toc-open .main__toc {
+    .toc-open #toc {
       display: block;
       z-index: 100;
     }
@@ -284,21 +284,15 @@ for (const heading of Astro.props.headings) {
   });
 
   function observeToc() {
-    const toc = document.querySelector(".main__toc");
+    const toc = document.querySelector("#toc");
 
     if (toc === null) {
       return;
     }
 
-    const headings = document
-      .querySelector("#content-column")
-      ?.querySelectorAll("h2, h3, h4");
+    const indices = document.querySelectorAll("#toc a");
 
-    const indices = document.querySelectorAll(".main__toc a");
-
-    if (indices[0] !== null) {
-      indices[0].classList.add("active");
-    }
+    indices[0]?.classList.add("active");
 
     indices.forEach((index) => {
       index.addEventListener("click", () => {
@@ -308,12 +302,12 @@ for (const heading of Astro.props.headings) {
 
     function activateIndex(element: Element) {
       const newActiveIndex = document.querySelector(
-        `.main__toc a[href='#${element.id}']`,
+        `#toc a[href='#${element.id}']`,
       );
       if (newActiveIndex === null) {
         return;
       }
-      const currentActiveIndex = document.querySelector(".main__toc a.active");
+      const currentActiveIndex = document.querySelector("#toc a.active");
       if (currentActiveIndex !== null) {
         currentActiveIndex.classList.remove("active");
       }
@@ -340,7 +334,7 @@ for (const heading of Astro.props.headings) {
       });
     }
 
-    const headingsObserverOptions = {
+    const headingsObserverOptions: IntersectionObserverInit = {
       root: null,
       rootMargin: "0px 0px -95% 0px",
       threshold: 0,
@@ -350,6 +344,9 @@ for (const heading of Astro.props.headings) {
       onHeadingsIntersect,
       headingsObserverOptions,
     );
+
+    const headings = document
+      .querySelectorAll("#content h2, h3, h4");
 
     headings?.forEach((heading) => {
       headingsObserver.observe(heading);

@@ -50,12 +50,13 @@ const {
   title,
   description = createDefaultDescription(frontmatter.lang, headings),
   lang,
-  toc = true,
   h1,
   top,
   support,
   author,
 } = frontmatter;
+
+const displayToc = !top && (frontmatter.toc ?? true) && headings.length > 0;
 
 const htmlAttributes = {
   en: {
@@ -135,7 +136,7 @@ if (title) {
   </head>
   <body>
     <Header lang={lang} top={top} canonicalUrl={canonicalUrl} />
-    <main id="content" data-toc={toc}>
+    <main data-toc={displayToc}>
       {
         !top && (
           <h1 class="title">
@@ -143,8 +144,8 @@ if (title) {
           </h1>
         )
       }
-      <div id="content-body">
-        <section id="content-column">
+      <article id="article">
+        <section id="content">
           <slot />
           {
             author && (
@@ -157,19 +158,19 @@ if (title) {
         </section>
 
         {
-          !top && toc && headings.length > 0 && (
+          displayToc && (
             <Toc headings={headings} lang={lang} />
           )
         }
-      </div>
+      </article>
     </main>
     <Footer lang={lang} support={support} />
   </body>
 </html>
 
 <style lang="scss">
-  @import "../styles/color.scss";
-  @import "./variables.scss";
+  @import "@styles/color.scss";
+  @import "@styles/toc.scss";
   .title {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
@@ -178,16 +179,16 @@ if (title) {
     font-weight: bold;
     color: black;
   }
-  #content-body {
+  #article {
     display: flex;
     justify-content: space-between;
-    gap: $content-body-gap;
+    gap: $article-gap;
   }
-  @media screen and (max-width: calc(768px + $toc-width + $content-body-gap)) {
-    #content-body {
+  @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
+    #article {
       display: flex;
       flex-direction: column-reverse;
-      gap: $content-body-gap;
+      gap: $article-gap;
     }
   }
 </style>
