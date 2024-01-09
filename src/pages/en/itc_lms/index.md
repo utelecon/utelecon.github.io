@@ -15,9 +15,7 @@ For using ITC-LMS, [UTokyo Account](/utokyo_account/) is required. If you have n
 
 ## (For instructors) Advantages of using ITC-LMS
 
-- ITC-LMS has functions for communicating and sharing information with students, which becomes increasingly important when conducting online classes where students do not meet face-to-face in the classroom.
-- ITC-LMS is linked with the University of Tokyo account (UTokyo Account) and the academic affairs system (UTAS) for course registration. It makes it easy to pass information **"only to students at the University of Tokyo" or "only to those enrolled in that course"**. It is much safer than disseminating information on a public page.
-- It is thought that most current students who took classes in their first or second year at the University of Tokyo have used the service, so the penetration rate among students is high.
+Services of ITC-LMS are similar to other ICT class support tools. Noteworthy is that the system is linked to UTokyo Account and the Academic Affair System (UTAS) for course registration. **This makes it very easy to pass information only to "students of UTokyo" or only to "students enrolled in the course"**. It is presumed that almost every first or second year undergraduates have used this system. In other words, **the penetration rate of ITC-LMS is high among students**. When distributing lecture materials and collecting/returning assignments, using ITC-LMS is highly recommended.
 
 ## How to Use
 
