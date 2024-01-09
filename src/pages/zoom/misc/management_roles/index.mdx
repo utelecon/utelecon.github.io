@@ -5,6 +5,8 @@ redirect_from:
   - /zoom/how/common/host_cohost
 ---
 
+import HelpItem from "@components/utils/HelpItem.astro";
+
 ## Zoom ミーティングを管理する
 {:#manage}
 ### ミーティング管理機能の種類
@@ -66,104 +68,7 @@ Zoom ミーティングを管理するための機能は，「ミーティング
 
 **ホストキーはホストキーを発行したホストが作成した全てのミーティングに対して共通なため，セキュリティ上慎重な運用が求められます．一時的にホストを担ってもらいたい方が東京大学の Zoom アカウントを利用している場合は，下で説明する「[代替ホスト](#alt_host)」に割り当てた方が便利な場合があります．**
 
-#### ホストキーを利用する条件
-{:#host_key_requirements}
-<ul>
 
-<li>ホストの側で「<a href="https://support.zoom.us/hc/ja/articles/202828525">ホストの前に参加</a>」が有効になっていること</li>
-
-<ul>
-<li>「ホストの前に参加」は参加者がホストによるミーティング開始前に入室できるようにする設定のことです</li>
-<li>ホストキーは，ミーティング開始時にホストが不在の場合に利用するものであるため，この設定が有効になっていることを前提とします</li>
-<li>すでにホストが参加しているミーティングで，ホストを交代することを望む場合は，「<a href="#transfer_host">ホストの譲渡</a>」をご利用ください</li>
-</ul>
-
-<details>
-<summary>「ホストの前に参加」を有効にする方法</summary>
-<ul>
-<li>（オプション）「ホストの前に参加」をデフォルト設定にする</li>
-この項目を設定することで，今後スケジュールするミーティングの「ホストの前に参加」に関するデフォルト設定が有効になります．この項目を設定しなくても各ミーティングについて個別に「ホストの前に参加」を有効にすることは可能です．<br>
-また，この項目を設定することで，<a href="#participants_can_join">各ミーティングについて参加者が入室することのできる時間を制限することができる機能を有効に</a>できるようになります（例：ミーティング開始時刻の5分前以降にのみ入室可能）．この項目を設定しない場合，そうした機能を有効にすることはできません．
-<ol>
-<li>Zoom ウェブポータルの「<a href="https://u-tokyo-ac-jp.zoom.us/profile/setting">設定</a>」ページにアクセスします</li>
-<li>「ミーティング」タブを選択し，「ミーティングのスケジュール」欄まで移動します</li>
-<li>「ホストより先に参加することを参加者に許可」を有効にします．</li>
-<img src="img/join_before_host_global.png">
-<li><a name="participants_can_join">"Participants can join"の有効・無効を選択する</a></li>
-「ホストより先に参加することを参加者に許可」を有効化した場合に表示される"Participants can join"では，参加者がミーティングに入室することができる時間についての制限（例：ミーティング開始時刻の5分前以降にのみ入室可能）をかける機能を有効にすることができます．<strong>ここでの決定は，各ミーティングで制限をかけることができるようになる機能の有効・無効に関わるものであって，即座に個別のミーティングにおける入室時間の制限につながるわけではありません．個々のミーティングにおいて制限を設けるか否かは，それぞれのミーティングのスケジュール時に決定します．</strong>こうした機能を今後利用する予定がある場合は，有効にすることを推奨します．
-<img src="img/participants_can_join.png">
-選択後は，それぞれの場合における操作を行います．
-<ul>
-<li>Participants can joinを有効にした場合</li>
-右側にあるプルダウンメニューから，デフォルトの入室時間の制限を設定します．<strong>ここで決定するのはあくまでデフォルト値であって，最終的な制限は個別のミーティングのスケジュール時に決定します．</strong>制限を設ける頻度が高くないことが予想できる場合，「任意の時間」（制限なし）に設定すると利便性が高いと考えられます．
-<img src="img/participants_can_join_enable.png">
-<li>Participants can joinを無効にした場合</li>
-そのまま次に進みます．
-<img src="img/participants_can_join_disable.png">
-</ul>
-<li>必要に応じて「保存」を選択して完了します</li>
-</ol>
-<li>各ミーティングについて「ホストの前に参加」を有効にする</li>
-<ul>
-
-<li>ブラウザでの設定</li>
-<ol>
-<li>Zoom ウェブポータルの「<a href="https://u-tokyo-ac-jp.zoom.us/meeting">ミーティング</a>」ページにアクセスします</li>
-<li>新しくミーティングをスケジュールする場合は，「ミーティングをスケジュール」を選択します．以前に作成したミーティングの設定を変更する場合は，対象のミーティングの開始時期にあわせて「予定されているミーティング」もしくは「過去のミーティング」を選択したあと，一覧に表示されているミーティングにカーソルを合わせると右側に「編集」ボタンが表示されるので，このボタンを選択します</li>
-<ul>
-<li>新しくミーティングをスケジュールする</li>
-<img src="img/schedule_or_edit_meeting_on_web_new.png">
-<li>以前に作成したミーティングの設定を変更する</li>
-<img src="img/schedule_or_edit_meeting_on_web_edit.png">
-</ul>
-<li>ミーティングのスケジュール（編集）画面で「オプション」の項目の [表示] を選択します</li>
-<img src="img/meeting_option_web.png">
-<li>「参加者に参加を許可する」を有効にします．</li>
-<ul>
-<li><a href="#participants_can_join">"Participants can join"</a>を有効にしている場合</li>
-「参加者に参加を許可する」のチェックボックスで有効化を行います．横のプルダウンメニューでは，参加者が入室することのできる時間を制限することができます．<strong>ここで制限を設けた場合，参加者が入室してホストキーを利用することができるのはその時間以後になります．特に制限を設けない場合，「任意の時間」に設定します．</strong>
-<img src="img/join_before_host_meeting_web_pcj_enabled.png">
-<li><a href="#participants_can_join">"Participants can join"</a>を無効にしている場合</li>
-「参加者に参加を許可する」のチェックボックスで有効化を行います．
-<img src="img/join_before_host_meeting_web_pcj_disabled.png">
-</ul>
-<li>「保存」を選択して完了します</li>
-</ol>
-
-<li>アプリでの設定</li>
-<ol>
-<li>新しくミーティングをスケジュールする場合は，「ホーム」タブの「スケジュール」を選択します．以前に作成したミーティングの設定を変更する場合は，「ミーティング」タブで該当のミーティングを選択し，「編集」を選択します</li>
-<ul>
-<li>新しくミーティングをスケジュールする</li>
-<img src="img/schedule_meeting_app.png">
-<li>以前に作成したミーティングの設定を変更する</li>
-<img src="img/edit_meeting_app.png">
-</ul>
-<li>ミーティングのスケジュール画面，もしくは編集画面で「詳細オプション」を選択します</li>
-<img src="img/meeting_option_app.png">
-<li>「ホストの前に参加」を有効にする</li>
-<ul>
-<li><a href="#participants_can_join">"Participants can join"</a>を有効にしている場合</li>
-「開始時刻前に[プルダウンメニュー]に参加することを参加者に許可します」を有効にします．プルダウンメニューでは，参加者が入室することのできる時間を制限することができます．<strong>ここで制限を設けた場合，参加者が入室してホストキーを利用することができるのはその時間以後になります．特に制限を設けるつもりがない場合，「任意の時間」に設定します．</strong>
-<img src="img/join_before_host_meeting_app_pcj_enabled.png">
-<li><a href="#participants_can_join">"Participants can join"</a>を無効にしている場合</li>
-「任意の時刻に参加することを参加者に許可します」を有効にします．
-<img src="img/join_before_host_meeting_app_pcj_disabled.png">
-</ul>
-<strong>"Participants can join"を有効にしているにもかかわらずプルダウンメニューが表示されない場合，もしくはその逆の場合は，一度アプリからサインアウトして再度サインインを行うことで設定が反映されてプルダウンメニューが表示されるようになります．</strong>
-<li>「保存」を選択して完了します</li>
-</ol>
-</ul>
-</ul>
-</details>
-
-<li>ホストキーを利用するミーティングで，「<a href="/zoom/create_room/waiting_room/">待機室</a>」が有効になっていないこと</li>
-
-<ul>
-<li>待機室が有効になっている場合，ホストより前にミーティングに入ることができず，ホストキーを使うことができません</li>
-</ul>
-
-</ul>
 
 #### ホストキーの利用手順（ホスト側操作）
 {:#host_key_usage_host}
@@ -272,49 +177,46 @@ Zoom ミーティングを管理するための機能は，「ミーティング
 #### ブラウザから代替ホストを設定する
 {:#assign_alt_hosts_on_web}
 
-<details>
-<summary>手順</summary>
-<ol>
-<li>Zoom ウェブポータルの「<a href="https://u-tokyo-ac-jp.zoom.us/meeting">ミーティング</a>」ページにアクセスします</li>
-<li>新しくスケジュールするミーティングに代替ホストをを設定する場合は「ミーティングをスケジュール」を選択します．以前に作成したミーティングに代替ホストを設定する場合は，対象のミーティングの開始時期にあわせて「予定されているミーティング」もしくは「過去のミーティング」を選択したあと，一覧に表示されているミーティングにカーソルを合わせると右側に「編集」ボタンが表示されるので，このボタンを選択します</li>
-<ul>
-<li>新しくスケジュールするミーティングに代替ホストをを設定する</li>
-<img src="img/schedule_or_edit_meeting_on_web_new.png">
-<li>以前に作成したミーティングに代替ホストを設定する</li>
-<img src="img/schedule_or_edit_meeting_on_web_edit.png">
-</ul>
-<li>ミーティングのスケジュール・編集画面で「オプション」の項目の [表示] を選択します</li>
-<img src="img/meeting_option_web.png">
-<li>代替ホスト」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，<code class="language-plaintext highlighter-rouge">10桁の共通ID@utac.u-tokyo.ac.jp</code>を入力します</li>
-<img src="img/add_alt_host_web.png">
-<li>「保存」を選択して完了します</li>
-</ol>
-</details>
+<HelpItem lang="ja" type={"details"}>
+<Fragment slot="problem">手順</Fragment>
+<Fragment slot="solution">
+1. Zoom ウェブポータルの「<a href="https://u-tokyo-ac-jp.zoom.us/meeting">ミーティング</a>」ページにアクセスしてください．
+1. 新しくスケジュールするミーティングに代替ホストをを設定する場合は「ミーティングをスケジュール」を選択してください．以前に作成したミーティングに代替ホストを設定する場合は，対象のミーティングの開始時期にあわせて「予定されているミーティング」もしくは「過去のミーティング」を選択したあと，一覧に表示されているミーティングにカーソルを合わせると右側に「編集」ボタンが表示されるので，このボタンを選択してください．
+    - 新しくスケジュールするミーティングに代替ホストをを設定する場合
+    ![](img/schedule_or_edit_meeting_on_web_new.png)
+    - 以前に作成したミーティングに代替ホストを設定する場合
+    ![](img/schedule_or_edit_meeting_on_web_edit.png)
+1. ミーティングのスケジュール・編集画面で「オプション」の項目の [表示] を選択してください
+![](img/meeting_option_web.png)
+1. 代替ホスト」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，`10桁の共通ID@utac.u-tokyo.ac.jp`を入力してください
+![](img/add_alt_host_web.png)
+1. 「保存」を選択して完了してください
+</Fragment>
+</HelpItem>
 
 
 #### アプリから代替ホストを設定する
 {:#assign_alt_hosts_on_app}
 
-<details>
-<summary>手順</summary>
-<ol>
-<li>新しくスケジュールするミーティングに代替ホストをを設定する場合は「ホーム」タブの「スケジュール」を選択します．以前に作成したミーティングに代替ホストを設定する場合は，「ミーティング」タブで該当のミーティングを選択し，「編集」を選択します</li>
-<ul>
-<li>新しくスケジュールするミーティングに代替ホストをを設定する</li>
-<img src="img/schedule_meeting_app.png">
-<li>以前に作成したミーティングに代替ホストを設定する</li>
-<img src="img/edit_meeting_app.png">
-</ul>
-<li>ミーティングのスケジュール・編集画面で「詳細オプション」を選択します</li>
-<img src="img/meeting_option_app.png">
-<li>「代替ホスト」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，<code class="language-plaintext highlighter-rouge">10桁の共通ID@utac.u-tokyo.ac.jp</code>を入力します</li>
-<img src="img/add_alt_host_app.png">
-<li>「保存」を選択して完了します</li>
-</ol>
-</details>
+<HelpItem lang="ja" type={"details"}>
+<Fragment slot="problem">手順</Fragment>
+<Fragment slot="solution">
+1. 新しくスケジュールするミーティングに代替ホストをを設定する場合は「ホーム」タブの「スケジュール」を選択してください．以前に作成したミーティングに代替ホストを設定する場合は，「ミーティング」タブで該当のミーティングを選択し，「編集」を選択してください．
+    - 新しくスケジュールするミーティングに代替ホストをを設定する場合
+    ![](img/schedule_meeting_app.png)
+    - 以前に作成したミーティングに代替ホストを設定する場合
+    ![](img/edit_meeting_app.png)
+1. ミーティングのスケジュール・編集画面で「詳細オプション」を選択してください
+![](img/meeting_option_app.png)
+1. 「代替ホスト」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，`10桁の共通ID@utac.u-tokyo.ac.jp`を入力します
+![](img/add_alt_host_app.png)
+1. 「保存」を選択して完了してください
+</Fragment>
+</HelpItem>
 
 ## スケジュール作成特権
 {:#scheduling_privilege}
+
 ### スケジュール作成特権とは
 {:#scheduling_privilege_desc}
 スケジュール作成特権とは，他のユーザーに対し，自分の名義でミーティングを作成したり，すでに作成されたミーティングを編集することを許可する機能のことです．**スケジュール作成特権を設定されたユーザー（以下「子ユーザー」とする）は，設定したユーザー（以下「親ユーザー」とする）のすべてのミーティングにおいて代替ホストとして設定されるため，セキュリティ上慎重な運用が必要になります．なお，スケジュール作成特権を付与できるのは，東京大学の Zoom アカウントに限定されます．**スケジュール作成特権を設定されたユーザーは，Zoom プラグイン・アドイン・アドオンを用いることで，Outlook やGoogle カレンダーなどからミーティングを管理することも可能です．
@@ -337,19 +239,19 @@ Zoom ミーティングを管理するための機能は，「ミーティング
 - 教員である自分が主催するミーティングについて，秘書にあらかじめスケジュールを行ってもらうため，スケジュール作成特権を付与する
 
 ### スケジュール作成特権を設定する方法
-{:#grant_scheduling privilege}
+{:#grant_scheduling_privilege}
 親ユーザーが子ユーザーにスケジュール作成特権を設定する具体的な手順は以下の通りです．
-1. Zoom ウェブポータルの「[設定](https://zoom.us/profile/setting)」ページにアクセスします
-2. 「ミーティング」タブを選択し，「その他」欄の「スケジュールする権限」まで移動し，\[追加\]を選択します
+1. Zoom ウェブポータルの「[設定](https://zoom.us/profile/setting)」ページにアクセスしてください
+2. 「ミーティング」タブを選択し，「その他」欄の「スケジュールする権限」まで移動し，\[追加\]を選択してください
 ![](img/scheduling_privilege_add_user_0.png)
-3. 「ユーザー」欄下部の\[追加\]を選択します
+3. 「ユーザー」欄下部の\[追加\]を選択してください
 ![](img/scheduling_privilege_add_user_1.png)
-4. 「ユーザー」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，`10桁の共通ID@utac.u-tokyo.ac.jp`を入力します
+4. 「ユーザー」欄に，追加したい東京大学の Zoom アカウントと結びついた共通ID（UTokyo Account のユーザー名）を用いた，`10桁の共通ID@utac.u-tokyo.ac.jp`を入力してください
 ![](img/scheduling_privilege_add_user_2.png)
-5. （オプション）追加するユーザーが非公開ミーティングを管理できるようにします<br>
+5. （オプション）追加するユーザーが非公開ミーティングを管理できるようにしてください  
 このオプションは，子ユーザーがZoom プラグイン・アドイン・アドオンを用いて Outlook や Google カレンダーからミーティングを管理する際の権限に関わるものです．有効にした場合，子ユーザーはOutlook または Google カレンダーで非公開になっているミーティングの詳細（招待リンク，ミーティング トピック，出席者リスト）の表示・編集が可能になります．無効にした場合，子ユーザーはカレンダー上で「非公開ミーティング」の存在は確認できますが，その詳細の閲覧・編集はできません．
 ![](img/scheduling_privilege_add_user_3.png)
-6. 「保存」を選択して完了します
+6. 「保存」を選択して完了してください
 
 ### スケジュール作成特権を用いてミーティングをスケジュール・編集する方法
 {:#schedule_meetings_using_privilege}
@@ -360,78 +262,66 @@ Zoom ミーティングを管理するための機能は，「ミーティング
 #### ブラウザからスケジュール作成特権を用いてミーティングをスケジュール・編集する
 {:#schedule_meetings_using_privilege_on_web}
 
-<ul>
-<li>新しくミーティングをスケジュールする場合</li>
+<HelpItem lang="ja" type={"details"}>
+<Fragment slot="problem">新しくミーティングをスケジュールする場合の手順</Fragment>
+<Fragment slot="solution">
+1. Zoom ウェブポータルの[ミーティング](https://u-tokyo-ac-jp.zoom.us/meeting)ページにアクセスしてください．
+1. 「ミーティングをスケジュール」を選択してください
+![](img/schedule_meetings_using_privilege_web_new_0.png)
+1. 「スケジュール対象」のプルダウンメニューから親ユーザーを選択してください
+![](img/schedule_meetings_using_privilege_web_new_1.png)
+1. その後は通常通りにミーティングをスケジュールしてください
+→ [Zoom ミーティングを作成する](/zoom/create_room/)
+</Fragment>
+</HelpItem>
 
-<details>
-<summary>手順</summary>
-<ol>
-<li>Zoom ウェブポータルの「<a href="https://u-tokyo-ac-jp.zoom.us/meeting">ミーティング</a>」ページにアクセスします</li>
-<li>「ミーティングをスケジュール」を選択します</li>
-<img src="img/schedule_meetings_using_privilege_web_new_0.png">
-<li>「スケジュール対象」のプルダウンメニューから親ユーザーを選択します</li>
-<img src="img/schedule_meetings_using_privilege_web_new_1.png">
-<li>その後は通常通りにミーティングをスケジュールします</li>
-→ <a href="/zoom/create_room/">Zoom ミーティングを作成する</a>
-</ol>
-</details>
-
-<li>既存のミーティングを編集する場合</li>
-<details>
-<summary>手順</summary>
-<ol>
-<li>Zoom ウェブポータルの「<a href="https://u-tokyo-ac-jp.zoom.us/meeting">ミーティング</a>」ページにアクセスします</li>
-<li>編集したいミーティングにあわせて「予定されているミーティング」もしくは「過去のミーティング」を選択したあと，「ミーティングをスケジュール」の左側にあるプルダウンメニューから，「すべて」もしくは親ユーザーを選択します</li>
-<img src="img/schedule_meetings_using_privilege_web_edit_0.png">
+<HelpItem lang="ja" type={"details"}>
+<Fragment slot="problem">既存のミーティングを編集する場合の手順</Fragment>
+<Fragment slot="solution">
+1. Zoom ウェブポータルの[ミーティング](https://u-tokyo-ac-jp.zoom.us/meeting)ページにアクセスしてください．
+1. 編集したいミーティングにあわせて「予定されているミーティング」もしくは「過去のミーティング」を選択したあと，「ミーティングをスケジュール」の左側にあるプルダウンメニューから，「すべて」もしくは親ユーザーを選択してください
+![](img/schedule_meetings_using_privilege_web_edit_0.png)
 「すべて」を選択した場合は自分自身のミーティングと親ユーザーのミーティングの一覧が，親ユーザーを選択した場合は親ユーザーのミーティングの一覧が表示されます．
-<li>対象とするミーティングにカーソルを合わせ，新しく表示された「編集」を選択します</li>
-<img src="img/schedule_meetings_using_privilege_web_edit_1.png">
-<li>その後は通常通りにミーティングを編集します</li>
-→ <a href="/zoom/misc/edit_meeting/">ミーティングの編集と管理</a><br>
-なお，この編集画面で「スケジュール対象」を「自分自身」に変更をすると，当該ミーティングの名義を親ユーザーから子ユーザーに移動させることが可能です．
-<img src="img/change_owner_web.png">
-</ol>
-</details>
 
-</ul>
+1. 対象とするミーティングにカーソルを合わせ，新しく表示された「編集」を選択してください
+![](img/schedule_meetings_using_privilege_web_edit_1.png)
+1. その後は通常通りにミーティングを編集してください
+→ [ミーティングの編集と管理](/zoom/misc/edit_meeting/)
+なお，この編集画面で「スケジュール対象」を「自分自身」に変更をすると，当該ミーティングの名義を親ユーザーから子ユーザーに移動させることが可能です．
+![](img/change_owner_web.png)
+</Fragment>
+</HelpItem>
 
 #### アプリからスケジュール作成特権を用いてミーティングをスケジュール・編集する
 {:#schedule_meetings_using_privilege_on_app}
 
-<ul>
-<li>新しくミーティングをスケジュールする場合</li>
+<HelpItem lang="ja" type={"details"}>
+<Fragment slot="problem">新しくミーティングをスケジュールする場合の手順</Fragment>
+<Fragment slot="solution">
+1. 「ホーム」タブの「スケジュール」を選択してください．
+![](img/schedule_meeting_app.png)
+1. ミーティングのスケジュール画面で「スケジュール対象」から親ユーザーを選択してください．
+![](img/schedule_meetings_using_privilege_app.png)
+1. その後は通常通りにミーティングをスケジュールしてください．
+→ [Zoom ミーティングを作成する](/zoom/create_room/)
+</Fragment>
+</HelpItem>
 
-<details>
-<summary>手順</summary>
-<ol>
-<li>「ホーム」タブの「スケジュール」を選択します</li>
-<img src="img/schedule_meeting_app.png">
-<li>ミーティングのスケジュール画面で「スケジュール対象」から親ユーザーを選択します</li>
-<img src="img/schedule_meetings_using_privilege_app.png">
-<li>その後は通常通りにミーティングをスケジュールします</li>
-→ <a href="/zoom/create_room/">Zoom ミーティングを作成する</a>
-</ol>
-</details>
-
-<li>既存のミーティングを編集する場合</li>
-<details>
-<summary>手順</summary>
-<ol>
-<li>「ミーティング」タブで，「ミーティングホスト」のプルダウンメニューから，「全員」もしくは親ユーザーの名前を選択します</li>
-<img src="img/edit_meeting_app_privilege_hosts.png">
+<HelpItem lang="ja" type={"details"}>
+<Fragment slot="problem">既存のミーティングを編集する場合の手順</Fragment>
+<Fragment slot="solution">
+1. 「ミーティング」タブで，「ミーティングホスト」のプルダウンメニューから，「全員」もしくは親ユーザーの名前を選択してください．
+![](img/edit_meeting_app_privilege_hosts.png)
 「全員」を選択した場合は自分自身のミーティングと親ユーザーのミーティングの一覧が，親ユーザーを選択した場合は親ユーザーのミーティングの一覧が表示されます．
-<li>該当のミーティングを選択し，「編集」を選択します</li>
-<img src="img/edit_meeting_app_privilege.png">
-<li>その後は通常通りにミーティングを編集します</li>
-→ <a href="/zoom/misc/edit_meeting/">ミーティングの編集と管理</a><br>
+1. 該当のミーティングを選択し，「編集」を選択します
+![](img/edit_meeting_app_privilege.png)
+1. その後は通常通りにミーティングをスケジュールしてください
+→ [ミーティングの編集と管理](/zoom/misc/edit_meeting/)
 なお，この編集画面で「スケジュール対象」を「自分自身」に変更をすると，当該ミーティングの名義を親ユーザーから子ユーザーに移動させることが可能です．
-<img src="img/change_owner_app.png">
-</ol>
-</details>
+![](img/change_owner_app.png)
+</Fragment>
+</HelpItem>
 
-</ul>
-
->>>>>>> Add scheduling privilege usage:zoom/misc/management_roles/index.md
 [^1]: 例外として，後述するスケジュール作成特権を用いてミーティングを作成した場合には付与されません
 [^2]: ホストがミーティングを開始する前に参加者がミーティングに参加するためには，[ミーティング作成時](/zoom/misc/app/#%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E3%81%AE%E4%BC%9A%E8%AD%B0%E5%AE%A4%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9)の詳細オプションで「ホストより前の参加を有効にする」を有効にしている必要があります
 [^3]: ミーティング作成時の詳細オプションで「ホストより前の参加を有効にする」を有効にしている場合，ホストが参加するまでの間は，ホスト不在でミーティングが進行します
