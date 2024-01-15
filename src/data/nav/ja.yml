@@ -71,7 +71,7 @@
       url: "/online/#utokyo"
     -
       name: "資料作成における著作権"
-      url: "/articles/copyright"
+      url: "/articles/copyright/"
 -
   name: "各種案内・イベント等"
   contents:

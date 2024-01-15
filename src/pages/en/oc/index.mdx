@@ -10,10 +10,10 @@ redirect_from:
 import UTokyoAccount from "@components/en/systems/utokyo_account/index.mdx";
 import Utas from "@components/en/systems/utas/index.mdx";
 import ItcLms from "@components/en/systems/itc_lms/index.mdx";
+import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
 import Zoom from "@components/en/systems/zoom/index.mdx";
 import EccsCloudEmail from "@components/en/systems/eccs_cloud_email/index.mdx";
 import Microsoft from "@components/en/systems/microsoft/index.mdx";
-import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
 import Eccs from "@components/en/systems/eccs/index.mdx";
 import InformationSecurity from "@components/en/InformationSecurity.mdx";
 
@@ -56,14 +56,14 @@ export const about_utas =
   "This system allows you to browse the syllabus for each class, register courses, and check your grades (academic affairs system).";
 export const about_itc_lms =
   "This system is used to download class material and submit assignments (learning management system).";
+export const about_utokyo_wifi =
+  "Wi-Fi services are available on campus. You will require them while taking online classes on campus. Please note that you will not be able to use the Wi-Fi services unless you have created an account in advance.";
 export const about_zoom =
   'This is a web conferencing system that is used for "simultaneous interactive" online classes. ';
 export const about_google =
   "This is a UTokyo Google account that allows users to use Google services, such as Gmail, as a UTokyo member. The ECCS Cloud Email can also be used as your UTokyo email address. Since some UTokyo web pages can only be accessed by UTokyo members, you are required to activate your ECCS Cloud Email even if you already own a Google account.";
 export const about_microsoft =
   "This is a Microsoft license offered to UTokyo Account holders. This license will enable you to download Microsoft Office applications, such as Word and Excel, and use online Microsoft tools for free with your UTokyo Account. Similar to Google Workspace, some UTokyo webpages can only be accessed with a UTokyo Account. Therefore, it is necessary to use your UTokyo Account even if you already own a Microsoft account.";
-export const about_utokyo_wifi =
-  "Wi-Fi services are available on campus. You will require them while taking online classes on campus. Please note that you will not be able to use the Wi-Fi services unless you have created an account in advance.";
 export const about_eccs =
   "ECCS terminals refer to the computers installed on campus. You can use them while taking online classes on campus. You will also use them in some face-to-face classes. Please note that you need to apply for the right of use in advance.";
 
@@ -151,6 +151,14 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 <ItcLms variant="oc" />
 
+### UTokyo Wi-Fi
+
+{:#utokyo_wifi}
+
+<p>{ about_utokyo_wifi }</p>
+
+<UTokyoWiFi variant="oc" />
+
 ### Zoom
 
 {:#zoom}
@@ -174,14 +182,6 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 <p>{ about_microsoft }</p>
 
 <Microsoft variant="oc" />
-
-### UTokyo Wi-Fi
-
-{:#utokyo_wifi}
-
-<p>{ about_utokyo_wifi }</p>
-
-<UTokyoWiFi variant="oc" />
 
 ### ECCS terminals
 
