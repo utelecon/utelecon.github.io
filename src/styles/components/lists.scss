@@ -15,14 +15,6 @@ ol.bracket {
   list-style: decimal-bracket;
 }
 
-// remove user agent stylesheet against <p> element inside <li>
-li > p,
-.box > p,
-.box--alert > p,
-details > p {
-  margin: 0;
-}
-
 ul.gap,
 ol.gap {
   & > li {
