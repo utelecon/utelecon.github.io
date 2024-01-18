@@ -1,7 +1,7 @@
 ---
 title: Zoom ミーティング画面のレイアウト
 breadcrumb:
-  title: 画面のレイアウト
+  title: ミーティング画面のレイアウト
 ---
 
 ## はじめに
