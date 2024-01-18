@@ -2,6 +2,10 @@
 title: OneDrive
 ---
 
+<div class="box--alert">
+    【お知らせ】<a href="/notice/2023/1225-microsoft-storage/">UTokyo Accountで利用するOneDrive等の容量制限について（第1報）</a>
+</div>
+
 ## OneDriveとは
 **OneDrive**は，Microsoft社が提供するオンラインストレージです．ファイルの保存や閲覧ができるほか，ファイルを編集したり，ファイルを他のユーザーに共有したりすることもできます．
 

@@ -1,0 +1,84 @@
+---
+import type { Labels, Selection, Step } from "./tabs";
+
+interface Props {
+  step: Step;
+  labels: Labels;
+}
+
+const { step, labels } = Astro.props;
+
+function buttonProps(selection: Selection) {
+  return {
+    id: `button-${step}-${selection}`,
+    "aria-labelledby": `label-${step}-${selection}`,
+    value: selection,
+  } satisfies astroHTML.JSX.ButtonHTMLAttributes;
+}
+
+function labelProps(selection: Selection) {
+  return {
+    id: `label-${step}-${selection}`,
+    for: `button-${step}-${selection}`,
+  } satisfies astroHTML.JSX.LabelHTMLAttributes;
+}
+---
+
+<div class="wrapper">
+  <button {...buttonProps("ms_auth")}>
+    <label {...labelProps("ms_auth")}>{labels.ms_auth}</label>
+    <slot name="ms_auth" />
+  </button>
+
+  <button {...buttonProps("auth_app")}>
+    <label {...labelProps("auth_app")}>{labels.auth_app}</label>
+    <slot name="auth_app" />
+  </button>
+
+  <button {...buttonProps("phone")}>
+    <label {...labelProps("phone")}>{labels.phone}</label>
+    <slot name="phone" />
+  </button>
+
+  {
+    labels.fido && (
+      <button {...buttonProps("fido")}>
+        <label {...labelProps("fido")}>{labels.fido}</label>
+        <slot name="fido" />
+      </button>
+    )
+  }
+</div>
+
+<script>
+  import { emitChangeTab } from "./tabs";
+
+  function onClick(this: HTMLButtonElement) {
+    const [, step, selection] = this.id.split("-");
+    emitChangeTab(step, selection);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document
+      .querySelectorAll<HTMLButtonElement>(
+        `button[id^="button"][aria-labelledby^="label"]`,
+      )
+      .forEach((button) => {
+        button.addEventListener("click", onClick);
+      });
+  });
+</script>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+
+  button {
+    cursor: pointer;
+    text-align: start;
+  }
+
+  label {
+    cursor: pointer;
+    font-weight: bold;
+  }
+</style>

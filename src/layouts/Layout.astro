@@ -11,6 +11,8 @@ import Breadcrumb, { Breadcrumb as BreadcrumbProps } from "./Breadcrumb.astro";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
 import { parse as parsePath } from "path";
+import "@fontsource/material-icons";
+import "@fontsource-variable/open-sans";
 
 interface Props extends MDXLayoutProps<Frontmatter> {}
 
@@ -163,15 +165,17 @@ if (title) {
       }
     </main>
     <Footer lang={lang} support={support} />
-    <style>
-      .title {
-        margin-bottom: 2rem;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid $white-gray-dark;
-        font-size: 2rem;
-        font-weight: bold;
-        color: black;
-      }
-    </style>
   </body>
 </html>
+
+<style lang="scss">
+  @import "../styles/color.scss";
+  .title {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $white-gray-dark;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+  }
+</style>
