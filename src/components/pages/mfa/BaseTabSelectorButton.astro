@@ -79,7 +79,7 @@ function labelProps(selection: Selection) {
   document.addEventListener("DOMContentLoaded", () => {
     document
       .querySelectorAll<HTMLButtonElement>(
-        `button[id^="button"][aria-labelledby^="label"]`,
+        `button[id^="button"][aria-labelledby^="label"]`
       )
       .forEach((button) => {
         button.addEventListener("click", onClick);
@@ -97,21 +97,21 @@ function labelProps(selection: Selection) {
     cursor: pointer;
     text-align: start;
     background: $sub-color;
-    border-radius: 5px;
-    border: 1px solid $main-color;
     margin: 0.2em;
     padding: 12px;
-    border-bottom: solid 4px $main-color;
-    position: relative;
+    border-radius: 5px;
+    border: 1px solid $main-color;
+    border-bottom: 4px solid $main-color;
   }
 
   button:hover {
     transition: all 0.2s ease;
     background: $main-color;
-  }
-
-  button:hover label, button:hover :global(p), button:hover > span::after {
-    color: $sub-color;
+    label,
+    :global(p),
+    > span::after {
+      color: $sub-color;
+    }
   }
 
   button > span {
@@ -127,19 +127,19 @@ function labelProps(selection: Selection) {
   }
 
   button > span::after {
-    content: "arrow_forward_ios";
-    font-family: "Material Icons";
     display: block;
-    color: $main-color;
-    font-weight: bold;
-    margin: 0 0 0 0.5em;
+    content: "arrow_forward_ios";
     text-align: right;
+    font-family: "Material Icons";
+    font-weight: bold;
+    color: $main-color;
+    margin: 0 0 0 0.5em;
   }
 
   button :global(p) {
     font-size: 0.9em;
-    margin: 0.5em 0 0;
     color: $black-gray;
+    margin: 0.5em 0 0;
   }
 
   .wrapper > p {
@@ -150,6 +150,7 @@ function labelProps(selection: Selection) {
     border-radius: 5px;
     border: 1px solid $red;
   }
+
   @font-face {
     font-family: "Material Icons";
     font-style: normal;
