@@ -277,18 +277,14 @@ for (const heading of Astro.props.headings) {
   const toc = document.getElementById("toc");
 
   if (sidebar && toggleButton && backdrop) {
-    setOpenClose(sidebar, toggleButton, backdrop);
+    listen(sidebar, toggleButton, backdrop);
   }
 
   if (toc && sidebar) {
     observeToc(toc, sidebar);
   }
 
-  function setOpenClose(
-    sidebar: Element,
-    toggleButton: Element,
-    backdrop: Element,
-  ) {
+  function listen(sidebar: Element, toggleButton: Element, backdrop: Element) {
     toggleButton.addEventListener("click", () => {
       sidebar.classList.toggle("toc-open");
     });
