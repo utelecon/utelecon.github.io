@@ -4,7 +4,6 @@ import type { Labels, Selection, Step } from "./tabs";
 interface Props {
   step: Step;
   labels: Labels;
-  labelAfter: string;
   guide: string;
 }
 
@@ -100,14 +99,19 @@ function labelProps(selection: Selection) {
     background: $sub-color;
     border-radius: 5px;
     border: 1px solid $main-color;
-    margin-bottom: 0.5em;
+    margin: 0.2em;
     padding: 12px;
     border-bottom: solid 4px $main-color;
     position: relative;
   }
 
   button:hover {
-    opacity: 0.6;
+    transition: all 0.2s ease;
+    background: $main-color;
+  }
+
+  button:hover label, button:hover :global(p), button:hover > span::after {
+    color: $sub-color;
   }
 
   button > span {
@@ -123,12 +127,11 @@ function labelProps(selection: Selection) {
   }
 
   button > span::after {
-    content: var(--label-after);
+    content: "arrow_forward_ios";
+    font-family: "Material Icons";
     display: block;
-    writing-mode: vertical-rl;
     color: $main-color;
     font-weight: bold;
-    font-size: 0.8em;
     margin: 0 0 0 0.5em;
     text-align: right;
   }
@@ -142,9 +145,16 @@ function labelProps(selection: Selection) {
   .wrapper > p {
     font-weight: bold;
     color: $red;
-    margin: 0 0 1em;
+    margin: 0.2em;
     padding: 12px;
     border-radius: 5px;
     border: 1px solid $red;
+  }
+  @font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v92/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
+      format("woff2");
   }
 </style>
