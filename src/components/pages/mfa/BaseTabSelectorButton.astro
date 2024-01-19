@@ -109,7 +109,8 @@ function labelProps(selection: Selection) {
     background: $main-color;
     label,
     :global(p),
-    > span::after {
+    > span::after,
+    :global(a) {
       color: $sub-color;
     }
   }
