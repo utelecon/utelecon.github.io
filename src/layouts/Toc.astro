@@ -272,31 +272,40 @@ for (const heading of Astro.props.headings) {
   // we may need to inject it as raw JS (with `is:inline` directive)
 
   const sidebar = document.getElementById("sidebar");
+  const toggleButton = document.getElementById("toc-toggle-button");
+  const backdrop = document.getElementById("toc-backdrop");
+  const toc = document.getElementById("toc");
 
-  document
-    .getElementById("toc-toggle-button")
-    ?.addEventListener("click", () => {
-      sidebar?.classList.toggle("toc-open");
+  if (sidebar && toggleButton && backdrop) {
+    setOpenClose(sidebar, toggleButton, backdrop);
+  }
+
+  if (toc && sidebar) {
+    observeToc(toc, sidebar);
+  }
+
+  function setOpenClose(
+    sidebar: Element,
+    toggleButton: Element,
+    backdrop: Element,
+  ) {
+    toggleButton.addEventListener("click", () => {
+      sidebar.classList.toggle("toc-open");
     });
 
-  document.getElementById("toc-backdrop")?.addEventListener("click", () => {
-    sidebar?.classList.remove("toc-open");
-  });
+    backdrop.addEventListener("click", () => {
+      sidebar.classList.remove("toc-open");
+    });
+  }
 
-  function observeToc() {
-    const toc = document.querySelector("#toc");
-
-    if (toc === null) {
-      return;
-    }
-
+  function observeToc(toc: Element, sidebar: Element) {
     const indices = document.querySelectorAll("#toc a");
 
     indices[0]?.classList.add("active");
 
     indices.forEach((index) => {
       index.addEventListener("click", () => {
-        sidebar?.classList.remove("toc-open");
+        sidebar.classList.remove("toc-open");
       });
     });
 
@@ -315,9 +324,9 @@ for (const heading of Astro.props.headings) {
       const rect = newActiveIndex.getBoundingClientRect();
       if (
         // scroll to active index in toc, only if toc is fully visible
-        toc?.getBoundingClientRect().top! > 0 &&
-        (rect.top < toc?.getBoundingClientRect().top! ||
-          rect.bottom > toc?.getBoundingClientRect().bottom!)
+        toc.getBoundingClientRect().top > 0 &&
+        (rect.top < toc.getBoundingClientRect().top ||
+          rect.bottom > toc.getBoundingClientRect().bottom)
       ) {
         newActiveIndex.scrollIntoView({
           behavior: "smooth",
@@ -345,13 +354,10 @@ for (const heading of Astro.props.headings) {
       headingsObserverOptions,
     );
 
-    const headings = document
-      .querySelectorAll("#content h2, h3, h4");
+    const headings = document.querySelectorAll("#content h2, h3, h4");
 
-    headings?.forEach((heading) => {
+    headings.forEach((heading) => {
       headingsObserver.observe(heading);
     });
   }
-
-  observeToc();
 </script>
