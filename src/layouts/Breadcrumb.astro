@@ -13,9 +13,13 @@ const { breadcrumb } = Astro.props;
     breadcrumb.map(({ title, pathname }, i) => (
       <>
         {i > 0 && <span class="breadcrumb__separator">arrow_forward_ios</span>}
-        <a href={pathname} class="breadcrumb__item">
-          {title}
-        </a>
+        {i === breadcrumb.length - 1 ? (
+          <span class="breadcrumb__item">{title}</span>
+        ) : (
+          <a href={pathname} class="breadcrumb__item">
+            {title}
+          </a>
+        )}
       </>
     ))
   }
