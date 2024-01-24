@@ -1,18 +1,20 @@
 ---
-import { SEO, Props as SEOProps } from "astro-seo";
+import { SEO, type Props as SEOProps } from "astro-seo";
 import { GoogleAnalytics } from "@astrolib/analytics";
 import Header from "./Header/index.astro";
 import Footer from "./Footer/index.astro";
 import Toc from "./Toc.astro";
 import "@styles/layout.scss";
 import type { MDXLayoutProps, MarkdownHeading } from "astro";
-import Author, { Author as AuthorProps } from "./Author.astro";
-import Breadcrumb, { Breadcrumb as BreadcrumbProps } from "./Breadcrumb.astro";
+import Author, { type Author as AuthorProps } from "./Author.astro";
+import Breadcrumb from "./Breadcrumb.astro";
+import type { Breadcrumb as BreadcrumbProps } from "./resolve-breadcrumb";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
 import { parse as parsePath } from "path";
 import "@fontsource/material-icons";
 import "@fontsource-variable/open-sans";
+import resolveBreadcrumb from "./resolve-breadcrumb";
 
 interface Props extends MDXLayoutProps<Frontmatter> {}
 
@@ -33,7 +35,7 @@ export interface Frontmatter {
 
 function createDefaultDescription(
   lang: Lang,
-  headings: MarkdownHeading[]
+  headings: MarkdownHeading[],
 ): string {
   return (
     (
@@ -114,9 +116,12 @@ if (title) {
     description,
   };
 }
+
+const resolvedBreadcrumb =
+  breadcrumb && (await resolveBreadcrumb(Astro.url, breadcrumb));
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html {...htmlAttributes}>
   <head>
     <SEO {...seoProps} />
@@ -141,7 +146,11 @@ if (title) {
   <body>
     <Header lang={lang} top={top} canonicalUrl={canonicalUrl} />
     <main id="content">
-      {breadcrumb && <Breadcrumb breadcrumb={breadcrumb} />}
+      {
+        resolvedBreadcrumb && resolvedBreadcrumb.length > 1 && (
+          <Breadcrumb breadcrumb={resolvedBreadcrumb} />
+        )
+      }
       {
         !top && (
           <h1 class="title">
@@ -165,17 +174,16 @@ if (title) {
       }
     </main>
     <Footer lang={lang} support={support} />
+    <style lang="scss">
+      @import "../styles/color.scss";
+      .title {
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $white-gray-dark;
+        font-size: 2rem;
+        font-weight: bold;
+        color: black;
+      }
+    </style>
   </body>
 </html>
-
-<style lang="scss">
-  @import "../styles/color.scss";
-  .title {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid $white-gray-dark;
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
-  }
-</style>
