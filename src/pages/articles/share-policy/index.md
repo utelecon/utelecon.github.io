@@ -86,7 +86,7 @@ Googleドキュメントについては，「[Googleドキュメント](/google/
 
 こちらの方法では，ファイルの共有がスムーズに行える一方で，リンクが分かればクラウドストレージの認証なしでファイルを閲覧・編集できてしまうため，共有リンクの誤送信や，受け取り手が誤ってどこかに掲載してしまった場合など，リンクの漏洩が起こるとファイルにアクセスされてしまうため，機微なファイルは必ず前述した宛先指定の方法で共有してください．
 
-具体的な方法については，学内に共有する場合は[Googleドライブで学内の関係者にファイルを公開する場合](/google/drive/recommendation#univ-release)や[OneDriveで学内の関係者にファイルを公開する場合](/microsoft/onedrive/recommendation#univ-release)を，学外に共有する場合は[Googleドライブで学外の関係者にファイルを公開する](/google/drive/recommendation#outside-release)や[OneDriveで学外の関係者にファイルを公開する](/microsoft/onedrive/recommendation#outside-release)を参照してください．
+具体的な方法については，学内に共有する場合は[Googleドライブで学内の関係者にファイルを公開する場合](/google/drive/recommendation#univ-release)や[OneDriveで学内の関係者にファイルを公開する場合](/microsoft/onedrive/recommendation#univ-release)を，学外に共有する場合は[Googleドライブで学外の関係者にファイルを公開する場合](/google/drive/recommendation#outside-release)や[OneDriveで学外の関係者にファイルを公開する場合](/microsoft/onedrive/recommendation#outside-release)を参照してください．
 
 ## 従来のファイル送信やパスワード別送との生産性・安全性の比較
 従来は，ファイルを送信する場合には，各ファイルごとに都度送信を行う方法が使われていました．また，安全性を高めるために，パスワード付きZipを送信し，パスワードを別送する方法が使われていました．
