@@ -21,6 +21,11 @@ ECCSクラウドメールは組織契約によって提供されているため�
 - 複数人のチームや組織でファイルを共同管理するのに適した「共有ドライブ」と呼ばれる仕組みを利用できます．
     - 「共有ドライブ」機能の詳細や通常のGoogleドライブ（マイドライブ）との違いについては，[Googleドライブの「共有ドライブ」機能について](shared_drive)をご覧ください．
     - 保存容量の都合上，共有ドライブの作成・管理については制限があります．詳細は「[ECCSストレージ管理システム](https://www.ecc.u-tokyo.ac.jp/storage_mgt/)」のページをご覧ください．
+  
+### Googleドライブの動画 
+このページで説明しているGoogleドライブの基本的な内容を動画でも説明しています．
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HkEAV69sv4c?si=vGTrqsXfYm0gBdhv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## 利用手順
 

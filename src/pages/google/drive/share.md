@@ -12,6 +12,11 @@ title: Googleドライブでファイルを共有する
 
 加えて，ファイルを共有する際に推奨される利用方法をケース別に説明したページ「**[Googleドライブ ファイル共有のおすすめの利用方法](recommendation)**」も必要に応じて参照してください．
 
+### Googleドライブの動画
+このページで説明しているGoogleドライブのファイル共有方法を動画でも説明しています．
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HkEAV69sv4c?si=vGTrqsXfYm0gBdhv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## ファイルやフォルダを共有する
 
 Googleドライブの共有機能では，自分のGoogleドライブにあるファイルやフォルダを，自分以外の他の人がアクセスできるようにし，閲覧・編集してもらうことができます．
@@ -137,6 +142,7 @@ Googleドライブの共有機能では，自分のGoogleドライブにある�
 ※Googleドライブでは，共有時に使うリンクはファイルごと・フォルダごとに1個しかありません．OneDriveでは基本的に新たに共有を行うつど「共有リンク」を作成することになりますが，Googleドライブにそのような仕組みはなく，共有設定画面で設定済みの共有相手であれば誰でもそのリンクを経由してファイルにアクセスできるようになっています（アクセス権もログインしているアカウントに基づいて自動的に判断されます）．
 
 #### その他の共有設定を変更したい場合
+{:#other-settings}
 
 共有設定画面を開いた後，右上の歯車マークのアイコンを押してください．以下の設定項目が表示されます．
 
