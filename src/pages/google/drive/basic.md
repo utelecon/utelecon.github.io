@@ -12,7 +12,7 @@ title: Googleドライブの基本的な使い方
 
 以降の手順を行うには，あらかじめECCSクラウドメールにログインし，ブラウザ上でGoogleドライブを開いている必要があります．この作業が完了していない場合には，[Googleドライブのページの「ブラウザ上でGoogleドライブを開く」](.#access)を参照してください．
 
-### Googleドライブの利用方法の動画
+### 使い方の紹介動画
 このページで説明しているGoogleドライブの基本的な使い方を動画でも説明しています．
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HkEAV69sv4c?si=vGTrqsXfYm0gBdhv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
