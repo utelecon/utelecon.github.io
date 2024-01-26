@@ -12,7 +12,7 @@ title: Googleドライブでファイルを共有する
 
 加えて，ファイルを共有する際に推奨される利用方法をケース別に説明したページ「**[Googleドライブ ファイル共有のおすすめの利用方法](recommendation)**」や，ファイル共有方針の提案として生産性や安全性を高める使い方を説明するページ「[クラウドストレージを用いた新しいファイル共有方針の提案](/articles/share-policy/)」も必要に応じて参照してください．
 
-### Googleドライブの動画
+### Googleドライブの利用方法の動画
 このページで説明しているGoogleドライブのファイル共有方法を動画でも説明しています．
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HkEAV69sv4c?si=vGTrqsXfYm0gBdhv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
