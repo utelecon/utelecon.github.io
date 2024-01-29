@@ -1,0 +1,69 @@
+{
+  "plugins": {},
+  "filters": {
+    "comments": true,
+    "allowlist": {
+      "allow": [
+        "/「.*?」/",
+        "/\\d+./"
+      ]
+    }
+  },
+  "rules": {
+    "common-misspellings": true,
+    "prh": {
+      "rulePaths": [
+        "prh.yml"
+      ]
+    },
+    "preset-ja-engineering-paper": {
+      "ja-hiragana-fukushi": {
+        "severity": "warning"
+      },
+      "ja-hiragana-keishikimeishi": {
+        "severity": "warning"
+      },
+      "ja-hiragana-hojodoushi": {
+        "severity": "warning"
+      },
+      "unify-kuten-and-touten": {
+        "severity": "error"
+      },
+      "no-synonyms": {
+        "severity": "error"
+      },
+      "prh": false,
+      "use-si-units": false
+    },
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "periodMark": "．"
+      },
+      "ja-no-redundant-expression": {
+        "severity": "warning"
+      },
+      "no-exclamation-question-mark": {
+        "severity": "error"
+      },
+      "max-kanji-continuous-len": {
+        "max": 8,
+        "severity": "warning",
+        "allow": [
+          "東京大学附属図書館"
+        ]
+      },
+      "arabic-kanji-numbers": {
+        "severity": "warning"
+      },
+      "no-doubled-joshi": false,
+      "sentence-length": false,
+      "ja-no-weak-phrase": false
+    },
+    "preset-jtf-style": {
+      "1.2.1.句点(。)と読点(、)": false,
+      "1.2.2.ピリオド(.)とカンマ(,)": false,
+      "2.2.2.算用数字と漢数字の使い分け": false,
+      "4.1.3.ピリオド(.)、カンマ(,)": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+version: 1
+rules:
+  - expected: UTokyo
+  - expected: Wi-Fi
+    pattern: /[Ww]i.?[Ff]i/
+    specs:
+      - from: UTokyo Wi-Fi
+        to: UTokyo Wi-Fi
+  - expected: VPN
