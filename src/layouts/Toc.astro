@@ -45,7 +45,7 @@ for (const heading of Astro.props.headings) {
   <div id="toc-container">
     <section id="toc">
       <h2>{Astro.props.lang === "ja" ? "目次" : "Table of Contents"}</h2>
-      <ul class="toc-h2">
+      <ul id="toc-list" class="toc-h2">
         {
           headings.map((h2) => (
             <li>
@@ -267,24 +267,24 @@ for (const heading of Astro.props.headings) {
 </style>
 
 <script>
-  // currently this script seems to be loaded on all page, even if it doesn't have toc.
-  // To conditionally load it according to the value of `toc` in fromtmatter,
-  // we may need to inject it as raw JS (with `is:inline` directive)
+  // Due to the limitation of Astro & Vite, this script seems to be loaded on all page, even if a page doesn't have a toc.
+  // To conditionally load it according to the value of `toc` in fromtmatter, we may need to inject it as raw JS (with `is:inline` directive)
 
   const sidebar = document.getElementById("sidebar");
   const toggleButton = document.getElementById("toc-toggle-button");
   const backdrop = document.getElementById("toc-backdrop");
   const toc = document.getElementById("toc");
+  const tocList = document.getElementById("toc-list");
 
   if (sidebar && toggleButton && backdrop) {
     listen(sidebar, toggleButton, backdrop);
   }
 
-  if (toc && sidebar) {
-    observeToc(toc, sidebar);
+  if (toc && sidebar && tocList) {
+    observeToc(toc, sidebar, tocList);
   }
 
-  function listen(sidebar: Element, toggleButton: Element, backdrop: Element) {
+  function listen(sidebar: HTMLElement, toggleButton: HTMLElement, backdrop: HTMLElement) {
     toggleButton.addEventListener("click", () => {
       sidebar.classList.toggle("toc-open");
     });
@@ -294,7 +294,7 @@ for (const heading of Astro.props.headings) {
     });
   }
 
-  function observeToc(toc: Element, sidebar: Element) {
+  function observeToc(toc: HTMLElement, sidebar: HTMLElement, tocList: HTMLElement) {
     const indices = document.querySelectorAll("#toc a");
 
     indices[0]?.classList.add("active");
@@ -306,9 +306,9 @@ for (const heading of Astro.props.headings) {
     });
 
     function activateIndex(element: Element) {
-      const newActiveIndex = document.querySelector(
+      const newActiveIndex = document.querySelector<HTMLElement>(
         `#toc a[href='#${element.id}']`,
-      );
+      )
       if (newActiveIndex === null) {
         return;
       }
@@ -317,18 +317,15 @@ for (const heading of Astro.props.headings) {
         currentActiveIndex.classList.remove("active");
       }
       newActiveIndex.classList.add("active");
-      const rect = newActiveIndex.getBoundingClientRect();
-      if (
-        // scroll to active index in toc, only if toc is fully visible
-        toc.getBoundingClientRect().top > 0 &&
-        (rect.top < toc.getBoundingClientRect().top ||
-          rect.bottom > toc.getBoundingClientRect().bottom)
-      ) {
-        newActiveIndex.scrollIntoView({
-          behavior: "smooth",
-          block: "center",
-        });
+
+      // scroll so that newActiveIndex is in the middle of the toc
+      // note: `newActiveIndex.offsetTop` is y-coordinate relative to the offsetParent, which is (unfortunately) `tocList` = the <ul> element
+      // so we need to add the `tocList.offsetTop` to get the y-coordinate relative to toc
+      let scrollTop = newActiveIndex.offsetTop - toc.clientHeight / 2 + newActiveIndex.clientHeight + tocList.offsetTop;
+      if (scrollTop < 0) {
+        scrollTop = 0;
       }
+      toc.scrollTo({ top: scrollTop, behavior: "smooth" });
     }
 
     function onHeadingsIntersect(entries: IntersectionObserverEntry[]) {
