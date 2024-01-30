@@ -25,6 +25,7 @@
   content:
     ja: "[Zoomクラウド録画における不要なデータ削除等のお願い](/notice/2023/12-zoom-cloud-recording/)"
     en: "[Request for Deletion of Unnecessary Data in Zoom Cloud Recording](/en/notice/2023/12-zoom-cloud-recording)"
+  important: true
 -
   date: 2023-12-06
   content:
@@ -39,6 +40,7 @@
   date: 2023-10-20
   content:
     ja: "[生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat)"
+  important: true
 -
   date: 2023-09-29
   content:
