@@ -20,7 +20,7 @@ The “Reregistering Verification Method” procedure was renamed from the “Re
 When one of your verification methods becomes unavailable due to malfunction, phone model change, etc., and alternative methods are still available, you can use one of them for verification.
 
 Click the “Having trouble? Sign in another way” or “Use a different verification option” link in the verification screen that appears (after entering your password).
-<img src="signin_with_another_method.png">
+<img src="initial/signin_with_another_method.png">
 A list of verification methods that you have set up (including the default sign-in method) will be displayed.
 
 - If any of the verification methods in the list are available for use, you can use that method to sign in to your UTokyo Account.
@@ -32,7 +32,7 @@ If none of the verification methods registered are available, reregister your ve
 
 1. Please apply for reregistration following the procedures in “[Application](#application-method)”.
 1. The MFA verification method will be initialized for reregistration procedures. A notification email will be sent after a while.
-1. After you received the Email, follow the instructions in “[Step 1: Set Up the First Verification Method](initial#first)” and “[Step 2: Add Alternative Verification Method](initial#alternative)” in the “[Initial Setup Procedures for Multi-Factor Authentication (MFA) for UTokyo Accounts](initial)" page to set up new verification methods.
+1. After you received the Email, follow the instructions in “[Step 1: Set Up the First Verification Method](initial/#first)” and “[Step 2: Add Alternative Verification Method](initial/#alternative)” in the “[Initial Setup Procedures for Multi-Factor Authentication (MFA) for UTokyo Accounts](initial/)" page to set up new verification methods.
 1. You can now sign in to your UTokyo Account with the newly registered verification method.
 
 During this procedure, **you are strongly recommended to register multiple verification methods** to avoid being locked out from your UTokyo Account because the registered verification method becomes unavailable again.

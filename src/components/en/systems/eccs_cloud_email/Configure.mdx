@@ -1,23 +1,33 @@
 import If from "@components/utils/If.astro";
 import Help from "@components/utils/Help.astro";
+import ConfigureHelpInvalidPassword from "./ConfigureHelpInvalidPassword.mdx";
 
 {/**
   * @typedef {object} Props
-  * @property {boolean} support
+  * @property {boolean} inlineHelp
+  * @property {boolean} [img]
   * @property {boolean} [detailsLink]
   */}
 
-1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) and enter the username and password for your UTokyo Account to log in.
-2. Click "ECCS Cloud Email (password)" on the left and then open the password-setting screen. This password is only for your ECCS Cloud Email.
-3. Click "ECCS Cloud Email (mail address)" on the left to open the email address setting page. Enter your preferred username in the "Email Address" field and click "SAVE".
+1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) and enter the username and password for your UTokyo Account to log in (Please note that the username is only a 10-digit number here).
+1. Click "ECCS Cloud Email (password)" in the middle of the sidebar, on the left side of the screen (not “Password Change” on the top of the sidebar).
+    <If cond={props.img}>
+      ![](/en/google/select-google-not-utac.png){:.medium}
+    </If>
+1. Just then the screen “ECCS Cloud Email (Password change)” opens. Please decide and set your own password. This password is only for your ECCS Cloud Email (not for your UTokyo Account).
+    <If cond={props.img}>
+      ![](/en/google/change-password.png){:.medium}
+    </If>
+    <If cond={props.inlineHelp}>
+      <ConfigureHelpInvalidPassword type="details" />
+    </If>
+1. Click "ECCS Cloud Email (mail address)" on the left to open the email address setting page. Enter your preferred username in the "Email Address" field and click "SAVE".
+    <If cond={props.img}>
+      ![](/en/google/change-localpart.png){:.medium}
+    </If>
 
-<ul>
-  <If cond={props.detailsLink}>
-    <li>For basic use of the ECCS Cloud Email (e.g., login, checking emails), please see the [ECCS Cloud Email section](#google) below.</li>
-  </If>
-  <li>
-    <Help lang="en" support={props.support}>
-      - **Error message "EX-076 An error has occurred. EX-079 It can't be set for New Password because the Directory already has the same attribute value."**: This message appears due to restrictions on ECCS Cloud Email passwords which require passwords to be different from the old password and not contain any part of the password or username (10-digit number) of your UTokyo Account. Please change your password accordingly to avoid this error message.
-    </Help>
-  </li>
-</ul>
+<If cond={!props.inlineHelp}>
+  <Help lang="en" support>
+    - <ConfigureHelpInvalidPassword type="oneline" />
+  </Help>
+</If>

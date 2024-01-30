@@ -9,30 +9,43 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "find-link": "node scripts/find-link.js",
+    "broken-link": "node scripts/broken-link.js"
   },
   "dependencies": {
-    "@astrojs/mdx": "0.19.7",
-    "@astrojs/react": "2.2.1",
+    "@astrojs/mdx": "1.1.0",
+    "@astrojs/react": "3.0.2",
     "@astrojs/webapi": "2.2.0",
-    "@astrolib/analytics": "^0.3.0",
+    "@astrolib/analytics": "^0.4.2",
+    "@fontsource-variable/open-sans": "^5.0.20",
+    "@fontsource/material-icons": "^5.0.11",
     "@rollup/plugin-yaml": "^4.1.1",
-    "astro": "2.9.3",
-    "astro-seo": "^0.7.6",
+    "astro": "3.1.4",
+    "astro-seo": "^0.8.0",
+    "estree-util-visit": "^1.2.1",
     "github-slugger": "^2.0.0",
     "glob": "^10.3.4",
+    "gray-matter": "^4.0.3",
     "hast-util-select": "^5.0.5",
-    "mdast": "^3.0.0",
+    "micromark-core-commonmark": "^1.1.0",
+    "micromark-util-character": "^1.2.0",
+    "micromark-util-symbol": "^1.1.0",
     "normalize.css": "^8.0.1",
     "rehype-external-links": "^2.1.0",
+    "rehype-parse": "^8.0.5",
+    "rehype-stringify": "^9.0.4",
     "sass": "^1.57.1",
+    "to-vfile": "^7.2.4",
     "unified": "^10.1.2",
     "unist-util-visit": "^4.1.2",
-    "to-vfile": "^7.2.4",
     "vfile": "^5.3.7"
   },
   "devDependencies": {
+    "@types/hast": "^2.3.6",
+    "@types/mdast": "^3.0.10",
     "@types/node": "^18.11.18",
-    "@types/unist": "^2.0.6"
+    "@types/unist": "^2.0.6",
+    "typescript": "^5.2.2"
   }
 }

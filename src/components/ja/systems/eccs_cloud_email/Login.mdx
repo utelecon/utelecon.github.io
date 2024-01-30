@@ -1,8 +1,10 @@
+import If from "@components/utils/If.astro";
 import Help from "@components/utils/Help.astro";
+import LoginHelpSuspicious from "./LoginHelpSuspicious.mdx";
 
 {/**
   * @typedef {object} Props
-  * @property {boolean} support
+  * @property {boolean} inlineHelp
   */}
 
 1. パスワードとメールアドレスを設定してから，反映に最大約40分かかるので，それまでしばらく待ってください．
@@ -10,6 +12,9 @@ import Help from "@components/utils/Help.astro";
 3. メールアドレス（上の手順で確認・変更したもの）を入力してください．
 4. パスワード入力欄が現れるので，上の手順で設定したパスワードを入力してください．
 
-<Help lang="ja" support={props.support}>
-  - **「お客様が所有するアカウントであることを確認できませんでした。しばらくしてからもう一度お試しいただくか、アカウント復旧の手続きに沿って操作してください。」と表示される場合**：Googleにより「不審なログイン」として検知されています．Googleのシステムが自動的に判定しているため確実な対処法はありませんが，普段と異なる場所（ネットワーク・端末）からのログインの場合や一部のVPNを利用してアクセスしている場合に発生することが多いようであるため，別のネットワークや端末からアクセスしてみてください（モバイルネットワークの利用や，可能であればVPNを使わずにアクセスすることをお試しください）．また，頻繁に発生する場合は，[ECCSクラウドメールの2段階認証](https://www.ecc.u-tokyo.ac.jp/announcement/2019/03/19_2935.html)を設定すると発生しづらくなるため，ご検討ください．
-</Help>
+<If cond={props.inlineHelp}>
+  <LoginHelpSuspicious type="details" />
+  <Help lang="ja" support slot="else">
+    - <LoginHelpSuspicious type="oneline" />
+  </Help>
+</If>

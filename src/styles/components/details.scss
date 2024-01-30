@@ -1,0 +1,17 @@
+summary {
+  cursor: pointer;
+  color: $link-color;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+li > ul ~ details, li > ol ~ details {
+  margin-left: 40px;
+  &>summary {
+    margin-left: -20px;
+  }
+  @media (max-width: 640px) {
+    margin-left: 20px;
+  }
+}

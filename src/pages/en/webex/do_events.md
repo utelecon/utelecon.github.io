@@ -16,11 +16,11 @@ Webex Event has the following roles.
 
 * Once you join an event, the screen will look as the following:
 
-	![](img/webex_events_entryview.png){:width="400px"}
+	![](img/webex_events_entryview.png){:.small}
 
 * There are buttons at the bottom of the screen. This screen is what it looks like for the host; Participants have fewer buttons. Move the mouse over the button to display the name. We will explain each icon from left to right.
 
-	![](img/webex_meeting_entryview_numbering.png){:width="500px"}
+	![](img/webex_meeting_entryview_numbering.png){:.medium}
 	1. **Mute**： When black, the microphone is on. It turns red when muted. **Participants cannot unmute themselves**
 	1. **Stop video**： When black, the camera is on. It turns red when the camera is off.
 	1. **Contents sharing**： Only presenters can share contents. This is a function for sharing screens and sharing materials with other participants.
@@ -36,7 +36,7 @@ Webex Event has the following roles.
 	
 When you press "Share Content", the options of which screen to share will appear. Select the one to share and press "Share" to start.
 
-![](img/webex_share.png){:width="400px"}
+![](img/webex_share.png){:.small}
 	
 * When "Screen 1" is selected, the screen of the person sharing the screen itself is shared with everyone (If you have multiple screens on a multi-monitor, the number of choices increases to Screen 1, Screen 2, and so on).
 * The window that is currently open is also displayed as an option. You can also share the screen in window units. If you don't want to show anywhere other than one window, we recommend that you select the window to share.
@@ -45,7 +45,7 @@ When you press "Share Content", the options of which screen to share will appear
 ## Advanced settings for speaker, microphone and camera
 
 ![](img/webex_more_sound.png)
-![](img/webex_config_sound.png){:width="300px"}
+![](img/webex_config_sound.png){:.small}
 
 
 Click on "Other Options" and then "Speakers, Microphones, Cameras" to set and check the speaker / microphone / camera. Since attendees cannot send video images, their settings become only "speakers and microphones" and cannot set cameras.
@@ -59,7 +59,7 @@ Click on "Other Options" and then "Speakers, Microphones, Cameras" to set and ch
 Pressing "Participants" will bring up a screen where you can see a list of participants.
 
 ![](img/webex_participants_event_host.png)
-![](img/webex_participants_event_list.png){:width="400px"}
+![](img/webex_participants_event_list.png){:.small}
 
 The left is how the window will look like from the host side, and the right side is the window displayed when you click "Show all attendees...".
 
