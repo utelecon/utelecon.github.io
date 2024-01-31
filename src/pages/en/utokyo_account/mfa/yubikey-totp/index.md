@@ -49,7 +49,7 @@ If you have already registered another verification method as your first one and
 3. Click “I want to use a different authentication app”.
 ![](other_auth_app.png) 
 4. Follow the instructions until you reach the QR code page.
-![](yubico_show_qr.png)
+![](show_qr.png)
 
 ### Adding an account to Yubico Authenticator
 
