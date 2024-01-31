@@ -67,7 +67,7 @@ If you have already registered another verification method as your first one and
 2. When the “Enter code” field is displayed, please open the Yubico Authenticator application with YubiKey connected, check the 6-digit number shown in the app and enter the numbers into the input field.
 ![](yubico_test_enter_code.png)
 
-<details><summary>Regarding the registration of your email address</summary>If you register Yubico Authenticator application as the first verification method, you will be prompted to enter your email address after completing the code input test. Please enter an email address OTHER THAN your ECCS Cloud Email if possible, and click “Next”. Enter the 6-digit code sent to your email address, and click “Next”.  <img src="../first_email.png"></details>
+<details><summary>Regarding the registration of your email address</summary>If you register Yubico Authenticator application as the first verification method, you will be prompted to enter your email address after completing the code input test. Please enter an email address OTHER THAN your ECCS Cloud Email if possible, and click “Next”. Enter the 6-digit code sent to your email address, and click “Next”.  <img src="first_email.png"></details>
 
 Once you have completed the registration for the verification method, **make sure to follow all the steps up to step 4 in the "[Initial Setup Procedure of Multi-Factor Authentication for UTokyo Accounts](initial)" and enable Multi-Factor Authentication.**
 
