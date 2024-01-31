@@ -38,9 +38,6 @@ author:
 
 ツールには，[Padlet](https://padlet.com/dashboard)・[Miro](https://miro.com/ja/)などが挙げられます．特にMiroは，操作がしやすく，少々込み入った作図にも対応しているため，便利です．
 
-〈Google Jamboardを使って作成したワークシートの例〉
-![](img/google-jamboard.png)
-
 〈Miroを使って作成したワークシートの例〉
 ![](img/miro.png)
 
