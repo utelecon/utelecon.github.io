@@ -8,6 +8,7 @@ title: 東京大学のシステム
 
 - UTokyo Accountで利用できるシステムの一覧は[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)に掲載しています．
 - 教職員向けのシステム（事務システム等）については，[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)に情報を掲載しているものもあります．
+- ICT管理者向けのシステムについては，[学内ICT管理者向け情報ページ](/ict-admin/)にまとめています．
 - 「**[オンラインを活用するために：使えるツールから探す](/online/tools)**」のページでは，大学として運用・契約しているものに限らず，オンラインでの授業・活動で活用できるさまざまツールを紹介しています．
 - 学部・研究科等において独自に提供されているシステムについては，提供元の情報を確認してください．
 
@@ -37,7 +38,6 @@ title: 東京大学のシステム
 - **[UTokyo VPN](/utokyo_vpn/)**：学内ネットワーク専用の事務システムなどにキャンパス外からアクセスするためのシステムです．
 - **[東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)**：オンライン授業URLを確認するためのシステムです．詳細は「[授業URLの連絡方法（学生向け）](/oc/url)」「[授業URLの連絡方法（教員向け）](/faculty_members/url)」のページもご覧ください．
 - 【教職員向け】**[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**：教職員向けの学内ポータルサイトです．
-- **[UTNET](https://www.nc.u-tokyo.ac.jp/)**：キャンパス内のネットワークです（ホームページには主にネットワーク管理者向けの情報が掲載されています）．
 
 ### 図書館・電子ジャーナル関連
 
