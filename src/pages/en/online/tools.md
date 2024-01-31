@@ -162,10 +162,6 @@ OneNote is a digital note-taking application that is included in Microsoft 365. 
 Miro is an online whiteboard app provided by *Miro*.
 - **[Miro (external site)](https://miro.com/)**: The official website.
 
-### Google Jamboard
-Google Jamboard is a whiteboard app that is included in Google Workspace.
-- **[Google Jamboard (external site)](https://jamboard.google.com/)**: The link to the Jamboard app.
-
 ### Padlet
 Padlet is an online digital canvas provided by *Padlet*.
 - **[Padlet (external site)](https://padlet.com/)**: The officiant website.
