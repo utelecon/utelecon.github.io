@@ -20,10 +20,10 @@ UTokyo Accountを持つすべての方に対して，段階的に，多要素認
 - 2024年2月の時点で，UTokyo VPNやUTokyo Slackの利用にはすでに多要素認証が必要です．
 - **2024年3月1日**より，「**[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)**」の利用に多要素認証が必要となります．
   - なお，同日より2024年度のUTokyo Wi-Fiアカウントの発行を開始します．また，その時点までに発行済みのUTokyo Wi-Fiアカウントは，2024年4月末に有効期限が切れます．
-- **2024年5月頃**より，UTASとITC-LMS / UTOLを除く**ほぼすべての情報システム**の利用に多要素認証が必要となります．
-  - 具体的には，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)において「SSO」欄が「○」となっている情報システムのうち，UTASとITC-LMS / UTOLを除くすべての情報システムが対象です．
+- **2024年5月頃**より，UTASと次期学習管理システム「UTOL」を除く**ほぼすべての情報システム**の利用に多要素認証が必要となります．
+  - 具体的には，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)において「SSO」欄が「○」となっている情報システムのうち，UTASと次期学習管理システム「UTOL」を除くすべての情報システムが対象です．
     - なお，このページの公開時点ではECCSクラウドメールの「SSO」欄は「N/A」となっていますが，2024年2月20日にこれも「○」となります．
-- **2024年6月頃**より，**UTASとITC-LMS / UTOL**の利用にも多要素認証が必要となります．
+- **2024年6月頃**より，**UTAS**と**次期学習管理システム「UTOL」**の利用にも多要素認証が必要となります．
 
 
 ## サポート
@@ -31,7 +31,7 @@ UTokyo Accountを持つすべての方に対して，段階的に，多要素認
 
 多要素認証の利用に必要な機器（携帯電話等）をお持ちでなく設定ができない場合には，代わりとなる専用の機器を貸し出せる可能性があります．
 - ICカード職員証を持つ教職員の方は，[UTokyo Portalの案内ページ（教職員専用）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Account_Token.aspx)を参照の上，申請してください．
-- それ以外の教職員の方や学生の方は、所属する学部・研究科等の「UTokyo Account部局管理者」（教職員の場合は人事担当，学生の場合は学務・教務担当）にご相談の上，代理申請を依頼してください．
+- それ以外の教職員の方や学生の方は，所属する学部・研究科等の「UTokyo Account部局管理者」（教職員の場合は人事担当，学生の場合は学務・教務担当）にご相談の上，代理申請を依頼してください．
 
 これ以外のご質問やご相談等は，[uteleconサポート窓口](/support/)で受け付けます．
 
