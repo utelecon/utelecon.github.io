@@ -71,8 +71,3 @@ UTokyo Accountの多要素認証の本人確認方法としてMicrosoft Authenti
 - 学術認証フェデレーション
 
 この変更に伴って，これらの情報システムについては認証を求められる頻度が低くなります．
-
-なお，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)で「SSO」欄が「○」となっていない情報システムにつきましては，従来通りFIDOセキュリティキーを利用することができません．
-- UTokyo Account利用者メニュー
-- ECCS端末
-- 就労管理システム
