@@ -2,7 +2,7 @@
 title: UTokyo Accountの認証基盤のシステム変更について
 ---
 
-2024年3月12日に，UTokyo Accountの認証基盤においていくつかのシステム変更を行います．これらのシステム変更は，UTokyo Accountの多要素認証の利用必須化に向け，それを利用しやすくするためのものです．多要素認証の利用必須化につきましては，「[UTokyo Accountにおいて多要素認証の利用を必須化します](./mfa100-schedule)」を参照してください．
+2024年3月12日（予定）に，UTokyo Accountの認証基盤においていくつかのシステム変更を行います．これらのシステム変更は，UTokyo Accountの多要素認証の利用必須化に向け，それを利用しやすくするためのものです．多要素認証の利用必須化につきましては，「[UTokyo Accountにおいて多要素認証の利用を必須化します](./mfa100-schedule)」を参照してください．
 
 ## より多くの情報システムでサインイン時に `@utac.u-tokyo.ac.jp` の入力が必須になります
 
@@ -25,7 +25,7 @@ UTokyo Accountでサインインする際に，これまでは`@utac.u-tokyo.ac.
 この変更の対象となるのは，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)において「SSO」欄が「○」となっている情報システムです．代表的な例は以下の通りです．
 
 - UTAS
-- ITC-LMS/UTOL
+- ITC-LMS / UTOL
 - Zoom
 - 東京大学MyOPAC
 - EZproxy
@@ -45,12 +45,12 @@ UTokyo Accountの多要素認証の本人確認方法としてFIDOセキュリ�
 
 ### Microsoft Authenticatorでパスワードレスサインインを利用する
 
-UTokyo Accountの多要素認証の本人確認方法としてMicrosoft Authenticatorを利用している方は，追加の設定を利用することで，Microsoft Authenticatorでパスワードレスサインインを利用することができるようになります．
+UTokyo Accountの多要素認証の本人確認方法としてMicrosoft Authenticatorを利用している方は，追加の設定を行うことで，Microsoft Authenticatorでパスワードレスサインインを利用することができるようになります．
 
 設定方法は以下の通りです．
 
 1. Microsoft Authenticatorを本人確認方法として登録していない場合は，「[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial/)」に従って，Microsoft Authenticatorを本人確認方法として登録してください．
-1. スマホでMicrosoft Authenticatorアプリを起動してください．アプリ上に表示されている自分のUTokyo Accountを選択してください．
+1. スマホでMicrosoft Authenticatorアプリを起動し，アプリ上に表示されている自分のUTokyo Accountを選択してください．
 1. 「電話によるサインインを有効にする」を押してください．
 1. 「続行」を押してください．
 1. 指示に従ってサインインしてください．
