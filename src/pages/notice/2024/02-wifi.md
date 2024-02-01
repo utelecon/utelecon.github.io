@@ -12,7 +12,7 @@ title: 多要素認証の必須化に伴うUTokyo Wi-Fiアカウント発行方�
 
 [UTokyo Accountの多要素認証が必須化される](/notice/2024/mfa100-schedule)ことの一環として，2024年3月からUTokyo Wi-Fiアカウントメニューの利用において多要素認証の有効化が必須になります．
 
-多要素認証をまだ利用していない方は，2024年度のUTokyo Wi-Fiアカウントを新規発行するために，多要素認証を有効化してください．UTokyo Accountの多要素認証については，[UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)を参照してください．
+多要素認証をまだ利用開始していない方は，2024年度のUTokyo Wi-Fiアカウントを新規発行するために，多要素認証を有効化してください．UTokyo Accountの多要素認証については，[UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)を参照してください．
 
 ## UTokyo Wi-Fiアカウントの新規発行に情報セキュリティ教育の合格が必須になります
 
