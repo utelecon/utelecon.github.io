@@ -23,12 +23,12 @@ title: UTokyo Accountにおいて多要素認証の利用を必須化します
 UTokyo Accountを持つすべての方に対して，段階的に，多要素認証の利用を必須化します．具体的には，UTokyo Accountを持っていても多要素認証を利用している方しか使えないような情報システムを，段階的に増やしていきます．教職員の皆さんに対しては，すでに2023年6月より，多要素認証の利用率100%の達成を目指す呼びかけを行ってきましたが，これに続き学生の皆さんに対しても，利用率100%の達成を目指すよう呼びかけます．
 
 詳しいスケジュールは，以下のように計画しています．
-- 2024年3月1日　「[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)」の利用に多要素認証が必要となります
+- 2024年3月1日：「[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)」の利用に多要素認証が必要となります
   - なお，同日より2024年度のUTokyo Wi-Fiアカウントの発行を開始します．また，その時点までに発行済みのUTokyo Wi-Fiアカウントは，2024年4月末に有効期限が切れます．
-- 2024年5月頃　UTASとITC-LMS / UTOLを除くほぼすべての情報システムの利用に多要素認証が必要となります
+- 2024年5月頃：UTASとITC-LMS / UTOLを除くほぼすべての情報システムの利用に多要素認証が必要となります
   - 具体的には，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)において「SSO」欄が「○」となっている情報システムのうち，UTASとITC-LMS / UTOLを除くすべての情報システムが対象です．
     - なお，このページの公開時点ではECCSクラウドメールの「SSO」欄は「N/A」となっていますが，2024年2月20日にこれも「○」となります．
-- 2024年6月頃　UTASとITC-LMS / UTOLの利用にも多要素認証が必要となります
+- 2024年6月頃：UTASとITC-LMS / UTOLの利用にも多要素認証が必要となります
 
 
 ## サポート
