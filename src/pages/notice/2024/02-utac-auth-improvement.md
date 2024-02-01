@@ -6,7 +6,9 @@ title: UTokyo Accountの認証基盤のシステム変更について
 
 ## より多くの情報システムでサインイン時に `@utac.u-tokyo.ac.jp` の入力が必須になります
 
-UTokyo Accountでサインインする際に，これまでは`@utac.u-tokyo.ac.jp`を省略し，共通ID（数字10桁）とパスワードでサインインできる場合がありました．今回のシステム変更により，より多くの情報システムにおいて，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」と入力しなければならなくなります．[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)で「SSO」欄が「○」となっている情報システムが，この変更の対象となります．代表的な例は以下の通りです．
+UTokyo Accountでサインインする際に，これまでは`@utac.u-tokyo.ac.jp`を省略し，共通ID（数字10桁）とパスワードでサインインできる場合がありました．今回のシステム変更により，より多くの情報システムにおいて，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」と入力しなければならなくなります．
+
+この変更の対象となるのは，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)において「SSO」欄が「○」となっている情報システムです．代表的な例は以下の通りです．
 
 - UTAS
 - ITC-LMS/UTOL
@@ -18,7 +20,9 @@ UTokyo Accountでサインインする際に，これまでは`@utac.u-tokyo.ac.
 
 ## パスワードレスサインインが広く利用可能になります
 
-「パスワードレスサインイン」は，パスワードを入力せずにサインインする方法の総称です．UTokyo Accountにおいて，パスワードレスサインインはこれまで非常に限られた場合でしか利用できませんでした．今回のシステム変更により，多くの場合でパスワードレスサインインが利用できるようになります．[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)で「SSO」欄が「○」となっている情報システムが，この変更の対象となります．代表的な例は以下の通りです．
+「パスワードレスサインイン」は，パスワードを入力せずにサインインする方法の総称です．UTokyo Accountにおいて，パスワードレスサインインはこれまで非常に限られた場合でしか利用できませんでした．今回のシステム変更により，多くの場合でパスワードレスサインインが利用できるようになります．
+
+この変更の対象となるのは，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)において「SSO」欄が「○」となっている情報システムです．代表的な例は以下の通りです．
 
 - UTAS
 - ITC-LMS/UTOL
