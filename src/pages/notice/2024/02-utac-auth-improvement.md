@@ -30,7 +30,7 @@ UTokyo Accountでサインインする際に，これまでは`@utac.u-tokyo.ac.
 - 東京大学MyOPAC
 - EZproxy
 
-UTokyo Accountで利用できるパスワードレスサインインの方法は，FIDOセキュリティキーによるものと，Microsoft Authenticatorによるものの2種類です．
+UTokyo Accountで利用できるパスワードレスサインインの方法は，FIDOセキュリティキーによるものと，Microsoft Authenticatorによるものの2種類です．なお，これらのパスワードレスサインインの方法については，それだけで多要素認証の本人確認を行ったことになるため，他の本人確認方法は必要ありません．
 
 ### FIDOセキュリティキーでパスワードレスサインインを行う
 
