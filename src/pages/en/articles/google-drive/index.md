@@ -110,7 +110,7 @@ This section explains how to set the sharing options in My Drive.
 ## How to Share Files in a Shared Drive
 
 <strong class="box">
-  In August 2023, the method for creating shared drives in ECCS Cloud Mail was changed. The description in this article refers to the method used before that time. For information on the new creation method, please see the <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2023/12/27_3602.html">"ECCS Storage Management System."</a>
+  In August 2023, the method for creating shared drives in ECCS Cloud Email was changed. The description in this article refers to the method used before that time. For information on the new creation method, please see the <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2023/12/27_3602.html">"ECCS Storage Management System."</a>
 </strong>
 
 The following is an explanation of the process of sharing documents in actual classes. Please try it for group work. 
