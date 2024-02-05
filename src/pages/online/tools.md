@@ -177,10 +177,6 @@ Miro社が提供するオンラインのホワイトボードツールです．
 - **[Miro（外部サイト）](https://miro.com/ja/)**：Miroの公式サイトです．
 - **[Miroのオンラインホワイトボードについて（外部サイト）](https://miro.com/ja/online-whiteboard/)**
 
-### Google Jamboard 
-Google Workspaceに含まれるホワイトボードツールです．
-- **[Google Jamboard](https://jamboard.google.com/)**：Google Jamboardへのリンクです．
-
 ### Padlet
 Padlet社が提供するオンラインの「デジタルキャンバス」です．
 - **[Padlet（外部サイト）](https://padlet.com/)**：Padletの公式サイトです．
