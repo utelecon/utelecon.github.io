@@ -11,12 +11,15 @@ UTOLを利用するには，[UTokyo Account](/utokyo_account/)が必要です．
 
 ### サインインする
 
-1. https://utol.ecc.u-tokyo.ac.jp/login にアクセスし，「ログイン」を押してください．（画像）
+1. 以下のリンクにアクセスし，「ログイン」を押してください．（画像）
+
+    **[UTOL](https://utol.ecc.u-tokyo.ac.jp/login)**{:.box.center}
+
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 
 ### 通知設定をする
 
-/utol/notification/
+履修または担当しているコースで更新があったときに，メール，LINEまたはUTokyo Slackで通知を受け取ることができます．設定手順については，「[UTOLで通知を設定する](/utol/notification/)」を参照してください．
 
 ### 履修者として利用する
 
