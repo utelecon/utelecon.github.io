@@ -19,29 +19,29 @@ UTOLを利用するには，[UTokyo Account](/utokyo_account/)が必要です．
 
 ### 通知設定をする
 
-履修または担当しているコースで更新があったときに，メール，LINEまたはUTokyo Slackで通知を受け取ることができます．設定手順については，「[UTOLで通知を設定する](/utol/notification/)」を参照してください．
+履修または担当しているコースで更新があったときに，メール，LINEまたはSlackで通知を受け取ることができます．設定手順については，「[UTOLで通知を設定する](notification/)」を参照してください．
 
 ### 履修者として利用する
 
-履修者としての使い方の概要については，「[UTOLを履修者として利用する](/utol/students/)」を参照してください．また，以下の各ページで個別の機能についてくわしく解説しています．
+履修者としての使い方の概要については，「[UTOLを履修者として利用する](students/)」を参照してください．また，以下の各ページで個別の機能についてくわしく解説しています．
 
-- [コース検索](/utol/students/course_search/)
-- [コース登録](/utol/students/course_registration/)
-- [メッセージ](/utol/students/messages/)
+- [コース検索](students/course_search/)
+- [コース登録](students/course_registration/)
+- [メッセージ](students/messages/)
 
 ### 教員・TAとして利用する
 
-教員やTAとしての使い方の概要については，「[UTOLを教員・TAとして利用する](/utol/lecturers/)」を参照してください．また，以下の各ページで個別の機能についてくわしく解説しています．
+教員やTAとしての使い方の概要については，「[UTOLを教員・TAとして利用する](lecturers/)」を参照してください．また，以下の各ページで個別の機能についてくわしく解説しています．
 
-- [お知らせ](/utol/lecturers/information/)
-- [教材](/utol/lecturers/materials/)
-- [テスト](/utol/lecturers/quizzes/)
-- [アンケート](/utol/lecturers/surveys/)
-- [掲示板](/utol/lecturers/forums/)
-- [課題](/utol/lecturers/assignments/)
-- [出席](/utol/lecturers/attendances/)
-- [メッセージ](/utol/lecturers/messages/)
-- [コース設定](/utol/lecturers/settings/)
-  - [コース参加者登録](/utol/lecturers/settings/course_participants/)
-  - [ユーザグループ](/utol/lecturers/settings/user_groups/)
-  - [コースグループ](/utol/lecturers/settings/course_group/)
+- [お知らせ](lecturers/information/)
+- [教材](lecturers/materials/)
+- [テスト](lecturers/quizzes/)
+- [アンケート](lecturers/surveys/)
+- [掲示板](lecturers/forums/)
+- [課題](lecturers/assignments/)
+- [出席](lecturers/attendances/)
+- [メッセージ](lecturers/messages/)
+- [コース設定](lecturers/settings/)
+  - [コース参加者登録](lecturers/settings/course_participants/)
+  - [ユーザグループ](lecturers/settings/user_groups/)
+  - [コースグループ](lecturers/settings/course_group/)
