@@ -4,8 +4,6 @@ breadcrumb:
   title: Other Information
 ---
 
-[Return to the top page of the description of Multi-Factor Authentication](.)
-
 ## Hardware Tokens (for Faculty Members)
 {:#hardware-token}
 
