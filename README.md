@@ -24,7 +24,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - `affiliation`：所属．`author`を指定する場合は必須．`oes`とすると[OESの説明ページ](https://utelecon.adm.u-tokyo.ac.jp/about/oes)へのリンクが表示される．
   - `name`：著者名．任意．
 - `breadcrumb`：ページ上部のパンくずリストを定義する．
-  - `title`：パンくずリストのそのページ自身の部分のタイトル．`breadcrum`を指定する場合は必須．親との差分だけを書く．
+  - `title`：パンくずリストのそのページ自身の部分のタイトル．`breadcrumb`を指定する場合は必須．親との差分だけを書く．
   - `parent`：親ページ．任意．デフォルトは`../`．これを辿っていくことでパンくずリストを構成する．
 - `redirect_from`・`redirect_to`：リダイレクトの設定．詳しくは[後述](#redirect_from--redirect_to)．
 
