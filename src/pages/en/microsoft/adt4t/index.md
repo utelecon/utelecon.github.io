@@ -1,7 +1,5 @@
 ---
 title: "UTokyo Microsoft Azure Dev Tools for Teaching"
-breadcrumb:
-  title: "Azure Dev Tools for Teaching"
 ---
 
 ## Overview
