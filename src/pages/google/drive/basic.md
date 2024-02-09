@@ -1,8 +1,8 @@
 ---
 title: Googleドライブの基本的な使い方
+breadcrumb:
+  title: 基本的な使い方
 ---
-
-[Googleドライブのページのトップに戻る](.)
 
 ## はじめに
 
