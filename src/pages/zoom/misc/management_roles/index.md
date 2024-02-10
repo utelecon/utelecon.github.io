@@ -5,8 +5,6 @@ redirect_from:
   - /zoom/how/common/host_cohost
 ---
 
-import HelpItem from "@components/utils/HelpItem.astro";
-
 ## Zoom ミーティングを管理する
 {:#manage}
 ### ミーティング管理機能の種類
