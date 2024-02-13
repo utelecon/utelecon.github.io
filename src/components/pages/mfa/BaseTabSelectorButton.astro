@@ -7,7 +7,7 @@ interface Props {
   guide: string;
 }
 
-const { step, labels, labelAfter, guide } = Astro.props;
+const { step, labels, guide } = Astro.props;
 
 function buttonProps(selection: Selection) {
   return {
@@ -30,7 +30,7 @@ function labelProps(selection: Selection) {
   <button {...buttonProps("ms_auth")}>
     <span>
       <span>
-        <label {...labelProps("ms_auth")}>{labels.ms_auth}</label>
+        <b {...labelProps("ms_auth")}>{labels.ms_auth}</b>
         <slot name="ms_auth" />
       </span>
     </span>
@@ -39,7 +39,7 @@ function labelProps(selection: Selection) {
   <button {...buttonProps("auth_app")}>
     <span>
       <span>
-        <label {...labelProps("auth_app")}>{labels.auth_app}</label>
+        <b {...labelProps("auth_app")}>{labels.auth_app}</b>
         <slot name="auth_app" />
       </span>
     </span>
@@ -48,7 +48,7 @@ function labelProps(selection: Selection) {
   <button {...buttonProps("phone")}>
     <span>
       <span>
-        <label {...labelProps("phone")}>{labels.phone}</label>
+        <b {...labelProps("phone")}>{labels.phone}</b>
         <slot name="phone" />
       </span>
     </span>
@@ -59,7 +59,7 @@ function labelProps(selection: Selection) {
       <button {...buttonProps("fido")}>
         <span>
           <span>
-            <label {...labelProps("fido")}>{labels.fido}</label>
+            <b {...labelProps("fido")}>{labels.fido}</b>
             <slot name="fido" />
           </span>
         </span>
@@ -87,12 +87,13 @@ function labelProps(selection: Selection) {
   });
 </script>
 
-<style lang="scss" define:vars={{ "label-after": `"${labelAfter}"` }}>
+<style lang="scss">
   @import "@styles/color.scss";
 
   $main-color: $heading-color;
   $sub-color: white;
 
+  // buttonのmarginの優先度を上げるため.wrapperが必要
   .wrapper button {
     cursor: pointer;
     text-align: start;
@@ -107,7 +108,7 @@ function labelProps(selection: Selection) {
   button:hover {
     transition: all 0.2s ease;
     background: $main-color;
-    label,
+    b,
     :global(p),
     > span::after,
     :global(a) {
@@ -120,9 +121,8 @@ function labelProps(selection: Selection) {
     align-items: center;
   }
 
-  label {
+  b {
     cursor: pointer;
-    font-weight: bold;
     font-size: 1.2em;
     color: $main-color;
   }
@@ -143,20 +143,12 @@ function labelProps(selection: Selection) {
     margin: 0.5em 0 0;
   }
 
-  .wrapper > p {
+  p {
     font-weight: bold;
     color: $red;
     margin: 0.2em;
     padding: 12px;
     border-radius: 5px;
     border: 1px solid $red;
-  }
-
-  @font-face {
-    font-family: "Material Icons";
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/materialicons/v92/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
-      format("woff2");
   }
 </style>
