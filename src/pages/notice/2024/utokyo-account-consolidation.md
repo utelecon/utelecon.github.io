@@ -30,13 +30,13 @@ UTokyo Account一元化を希望された方は，**2024年2月26日**をもっ�
 
 ### UTAS
 
-[UTAS](/utas)では，教職員として利用していたデータがある場合，一元化後のUTokyo Accountへ自動的に移行されるため，影響はありません．学生としても教職員としてもUTASをお使いの方は，一元化実施後（2024年2月27日以降）は，一元化後のUTokyo Account（これまで学生としてお使いだったUTokyo Account）でログインしてください．ログインの際にどちらの立場で利用するか選択できるようになるため，両方の機能を利用できます．
+[UTAS](/utas)では，教職員として利用していたデータがある場合，一元化後のUTokyo Accountへ自動的に移行されるため，影響はありません．学生としても教職員としてもUTASをお使いの方は，一元化実施後（2024年2月27日以降）は，一元化後のUTokyo Account（学生としてお使いだったほうのUTokyo Account）でログインしてください．ログインの際にどちらの立場で利用するか選択できるようになるため，両方の機能を利用できます．
 
 ### ITC-LMS / UTOL
 
 ※現行の学習管理システム「ITC-LMS」は2024年2月23日をもって運用を停止し，2024年2月28日から次期システム「UTOL」の運用が開始されます（詳細は「[次期LMS（2024年3月運用開始）について](https://www.ecc.u-tokyo.ac.jp/lms2024/index.html)」をご参照ください）．
 
-教職員として利用していたデータがある場合，一元化後のUTokyo Accountへ自動的に移行されるため，影響はありません．次期システム「UTOL」の運用開始後は，一元化後のUTokyo Account（これまで学生としてお使いだったUTokyo Account）でログインしてください．
+教職員として利用していたデータがある場合，一元化後のUTokyo Accountへ自動的に移行されるため，影響はありません．次期システム「UTOL」の運用開始後は，一元化後のUTokyo Account（学生としてお使いだったほうのUTokyo Account）でログインしてください．
 
 <details>
 <summary>同一のコースに学生としても教職員としても登録していた場合について</summary>
@@ -49,7 +49,7 @@ UTokyo Account一元化を希望された方は，**2024年2月26日**をもっ�
 
 ### UTokyo Wi-Fi
 
-教職員としてのUTokyo Accountで発行していた[UTokyo Wi-Fi](/utokyo_wifi/)アカウントは，一元化実施日（2024年2月26日）をもって失効し，利用できなくなります．以降は，一元化後のUTokyo Account（これまで学生としてお使いだったUTokyo Account）で発行したUTokyo Wi-Fiアカウントを利用してください．
+教職員としてのUTokyo Accountで発行していた[UTokyo Wi-Fi](/utokyo_wifi/)アカウントは，一元化実施日（2024年2月26日）をもって失効し，利用できなくなります．以降は，一元化後のUTokyo Account（学生としてお使いだったほうのUTokyo Account）で発行したUTokyo Wi-Fiアカウントを利用してください．
 
 失効するUTokyo Wi-Fiアカウントを利用していた端末では，設定のやり直しが必要になります．[UTokyo Wi-Fiのページ内にある端末の種類ごとの説明ページ](/utokyo_wifi/#procedure-by-device-type)にて，既存の設定情報を削除してやり直す方法について説明していますので，ご参照ください．
 
@@ -232,11 +232,11 @@ UTokyo Slackについては，アカウントの「繋ぎ替え」という手�
 
 ### UTokyo VPN
 
-影響はありません．[UTokyo VPN](/utokyo_vpn/)はどのUTokyo Accountで利用しても差異がありませんので，一元化実施後は，単に一元化されたUTokyo Account（これまで学生としてお使いだったUTokyo Account）でサインインしていただければ問題ありません．
+影響はありません．[UTokyo VPN](/utokyo_vpn/)はどのUTokyo Accountで利用しても差異がありませんので，一元化実施後は，単に一元化されたUTokyo Account（学生としてお使いだったほうのUTokyo Account）でサインインしていただければ問題ありません．
 
 ### EZproxy
 
-影響はありません．[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)では，サインインしたUTokyo Accountの情報に基づいて各電子リソース（データベース・電子ジャーナル・電子ブック等）の利用可否を判定しています．一元化実施後は，学生としても教職員としても在籍している方に対しては双方の在籍情報を反映した判定を行いますので，一元化されたUTokyo Account（これまで学生としてお使いだったUTokyo Account）でサインインすれば問題なく利用できます．
+影響はありません．[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)では，サインインしたUTokyo Accountの情報に基づいて各電子リソース（データベース・電子ジャーナル・電子ブック等）の利用可否を判定しています．一元化実施後は，学生としても教職員としても在籍している方に対しては双方の在籍情報を反映した判定を行いますので，一元化されたUTokyo Account（学生としてお使いだったほうのUTokyo Account）でサインインすれば問題なく利用できます．
 
 ### MyOPACおよび附属図書館の利用
 
