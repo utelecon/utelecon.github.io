@@ -7,7 +7,8 @@ redirect_from:
   - /oc/index_2020_a
 ---
 
-import UTokyoAccount from "@components/ja/systems/utokyo_account/index.mdx";
+import UTokyoAccountChangePassword from "@components/ja/systems/utokyo_account/ChangePassword.mdx";
+import UTokyoAccountMFA from "@components/ja/systems/utokyo_account/MFA.mdx";
 import Utas from "@components/ja/systems/utas/index.mdx";
 import ItcLms from "@components/ja/systems/itc_lms/index.mdx";
 import UTokyoWiFi from "@components/ja/systems/utokyo_wifi/index.mdx";
@@ -102,14 +103,15 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 上で紹介した各種情報システムの準備について，まずアカウントの作成などの，絶対に行っておくベき重要な作業を説明します．授業開始に間に合うよう，余裕を持って作業してください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
-「[東京大学でオンライン授業を受けるために（新入生向け） 手順動画集](movies)」のページでは，以下の手順を動画で説明していますので，必要に応じて確認してください．
+### UTokyo Accountの初期パスワードを変更する
 
-- <UTokyoAccount variant="oc" important />
-- <Utas variant="oc" important />
-- <EccsCloudEmail variant="oc" important />
-{:.procedure}
+<UTokyoAccountChangePassword variant="oc" />
 
-### 情報セキュリティ教育の受講
+### UTokyo Accountの多要素認証を設定する
+
+<UTokyoAccountMFA variant="oc" />
+
+### 情報セキュリティ教育を受講する
 
 <InformationSecurity variant="oc" />
 
@@ -120,14 +122,6 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 つづいて，各種情報システムについて，それぞれのシステムへのログインや，東大のアカウント専用のページへのアクセスなどといった，もう少し細かい確認や作業の手順を説明します．万全の状態で授業を受けられるよう，これらの手順も授業開始までにできるだけ行っておくようにしてください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
 「[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](movies)」のページでは，以下の手順の一部を動画で説明していますので，必要に応じて確認してください．
-
-### UTokyo Account
-
-{:#utokyo_account}
-
-<p>{ about_utokyo_account }</p>
-
-<UTokyoAccount variant="oc" />
 
 ### UTAS
 
