@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 import Courses from '@components/ja/Courses.mdx'
-import ChangeUtacPassword from '@components/ja/systems/utokyo_account/ChangePassword.mdx'
+import UTokyoAccountChangePassword from '@components/ja/systems/utokyo_account/ChangePassword.mdx'
+import UTokyoAccountMFA from '@components/ja/systems/utokyo_account/MFa.mdx'
 import ZoomSigninBrowser from "@components/ja/systems/zoom/SigninBrowser.mdx";
 import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 
@@ -64,18 +65,22 @@ import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 
 以下，UTokyo Accountの初期設定について説明します．システムを利用するために必要となる重要な作業ですので，よく読んで作業を行ってください．
 
-### UTokyo Accountの初期パスワードの変更
+### UTokyo Accountの初期パスワードを変更する
 
-<ChangeUtacPassword variant="faculty_members" />
+<UTokyoAccountChangePassword variant="faculty_members" />
 
 この時点で，シラバスや成績の入力に使われる[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)など，東京大学の各システムにログインできるようになります（※UTASの操作については，所属部局の学務・教務担当に確認するか，UTASにログインして上部のメニューで「その他」を押すと表示される「ダウンロードセンター」からマニュアルをダウンロードしてご覧ください）．{/*新任教員や非常勤講師が最初に行うのはUTASでのシラバス入力のため，ここで触れておく必要がある．しかし具体的な情報は，指示や運用が部局によっても異なることもあり，ここで案内することができない． */} 
 
-### UTokyo Accountの「多要素認証」の有効化
+### UTokyo Accountの「多要素認証」を設定する
 {:#setting-up-mfa}
 
+<UTokyoAccountMFA variant="faculty_members" />
+
+{/*
 情報システムのセキュリティ向上を目的として，UTokyo Accountには「多要素認証 (Multi-Factor Authentication, MFA)」を導入しています．多要素認証とは，アカウントへのサインイン時に，パスワードに加えて，SMSや専用のアプリなどで本人確認を行う認証方法です．多要素認証を利用すると，なんらかの事情でパスワードが他人に知られた場合でも，アカウントにサインインされる可能性を低くすることができ，セキュリティを向上することができます．
 
 大学全体のセキュリティ向上のため，東京大学では，UTokyo Accountの多要素認証を有効化することを強く推奨しています．特に教職員については，全員が多要素認証を利用することになっています．「**[UTokyo Accountの多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」のページに記載の手順で，有効化を行ってください．
+*/}
 
 ### 情報セキュリティ教育の受講
 {:#information-security-education}
