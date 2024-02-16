@@ -48,8 +48,8 @@ UTOLを利用するには，[UTokyo Account](/utokyo_account/)が必要です．
 
 ### 教務担当者として利用する
 
-教務担当者としての使い方の概要については，「[学習管理システム UTOL（UTokyo LMS）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTOL.aspx)」（教職員専用）を参照してください．
+教務担当者としての使い方の概要については，UTokyo Portal（便利帳）の「[学習管理システム UTOL（UTokyo LMS）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTOL.aspx)」（本学教職員のみアクセス可）を参照してください．
 
 ## マニュアル
 
-UTOLの詳細な利用方法については，**[UTOL利用マニュアル](https://utol.ecc.u-tokyo.ac.jp/common/support/manual)**を参照してください．
+UTOLの詳細な利用方法については，**[マニュアル](https://utol.ecc.u-tokyo.ac.jp/common/support/manual)**を参照してください．（システムにログイン後，メニュー右上の「Manual」からも参照できます．）
