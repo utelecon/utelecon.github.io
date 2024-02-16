@@ -41,7 +41,7 @@ UTokyo Accountをお持ちの方のうち，学生でも本学に雇用された
 
 ## 参考リンク
 
-[OneDriveの利用方法](https://utelecon.adm.u-tokyo.ac.jp/microsoft/onedrive/)
+[OneDriveの利用方法](/microsoft/onedrive/)
 
 ## 学生でも教職員でもないUTokyo Account保持者の確認方法
 {:#procedure}
