@@ -1,15 +1,15 @@
-import mdx from "@astrojs/mdx";
-import react from "@astrojs/react";
-import { defineConfig } from "astro/config";
-import yaml from "@rollup/plugin-yaml";
-import redirect from "./src/lib/RedirectIntegration.js";
-import blockIALPlugin from "./src/lib/BlockIALPlugin.js";
-import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
-import dotSlashPlugin from "./src/lib/DotSlashPlugin.js";
-import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
-import externalLinks from "./src/lib/ExternalLinksIntegration.js";
-import trailingSlash from "./src/lib/TrailingSlashIntegration.js";
-import { cleanup } from "./src/lib/CleanupIntegration.js";
+import mdx from "@astrojs/mdx"
+import react from "@astrojs/react"
+import { defineConfig } from "astro/config"
+import yaml from "@rollup/plugin-yaml"
+import redirect from "./src/lib/RedirectIntegration.js"
+import blockIALPlugin from "./src/lib/BlockIALPlugin.js"
+import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js"
+import dotSlashPlugin from "./src/lib/DotSlashPlugin.js"
+import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js"
+import externalLinks from "./src/lib/ExternalLinksIntegration.js"
+import trailingSlash from "./src/lib/TrailingSlashIntegration.js"
+import { cleanup } from "./src/lib/CleanupIntegration.js"
 
 // https://astro.build/config
 export default defineConfig({
@@ -38,9 +38,14 @@ export default defineConfig({
     mdx(),
     react(),
     redirect(),
-    externalLinks({ target: "_blank", rel: ["noopener", "noreferrer"] }),
+    externalLinks({
+      target: "_blank",
+      rel: ["noopener", "noreferrer"],
+      content: { type: "text", value: "" },
+      contentProperties: { className: ["external-link"] },
+    }),
     cleanup(),
     trailingSlash(),
   ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
-});
+})

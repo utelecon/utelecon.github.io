@@ -1,0 +1,13 @@
+.external-link {
+  &:after {
+    content: "open_in_new";
+    font-size: .8em;
+    margin: 0 .25em;
+    display: inline-block;
+    font-family: "Material Icons";
+    text-transform: none;
+    white-space: nowrap;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+}
