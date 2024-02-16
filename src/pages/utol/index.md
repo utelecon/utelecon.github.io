@@ -45,3 +45,7 @@ UTOLを利用するには，[UTokyo Account](/utokyo_account/)が必要です．
   - [コース参加者登録](lecturers/settings/course_participants/)
   - [ユーザグループ](lecturers/settings/user_groups/)
   - [コースグループ](lecturers/settings/course_group/)
+
+### 教務担当者として利用する
+
+教務担当者としての使い方の概要については，「[学習管理システム UTOL（UTokyo LMS）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTOL.aspx)」（教職員専用）を参照してください．
