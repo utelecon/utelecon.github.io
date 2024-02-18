@@ -3,7 +3,8 @@ title: UTokyo Account
 slug: utokyo_account # 手順を外部ファイルからincludeするときに使う
 ---
 
-import UTokyoAccount from '@components/ja/systems/utokyo_account/index.mdx'
+import ChangePassword from "@components/ja/systems/utokyo_account/ChangePassword.mdx";
+import MFA from "@components/ja/systems/utokyo_account/MFA.mdx";
 import InformationSecurity from '@components/ja/InformationSecurity.mdx'
 
 ## UTokyo Accountとは
@@ -27,9 +28,16 @@ import InformationSecurity from '@components/ja/InformationSecurity.mdx'
 
 ## UTokyo Accountを使い始めるには
 {:#procedures}
-<UTokyoAccount variant="individual" />
 
-### 情報セキュリティ教育の受講
+### 初期パスワードを変更する
+
+<ChangePassword variant="individual" />
+
+### 多要素認証を設定する
+
+<MFA variant="individual" />
+
+### 情報セキュリティ教育を受講する
 {:#information-security-education}
 
 <InformationSecurity variant="individual" />
@@ -123,10 +131,3 @@ UTokyo Accountのパスワードを忘れた場合には，次のような手順
     - 窓口は，情報教育棟（駒場キャンパス），情報基盤センター（本郷地区浅野キャンパス），福武ホール（本郷キャンパス）に設置されています．
 
 手続きを行うと，初期パスワードが記載された「パスワード通知書」が発行されます．「[UTokyo Accountを使い始めるには](#procedures)」の「作業：初期パスワードを変更する」を参考に，初期パスワードを新しいものに変更してください（初期パスワードのままでは，各種情報システムを利用することができません）．
-
-## 多要素認証 (MFA)
-{:#mfa}
-
-UTokyo Accountでは**多要素認証** (Multi-Factor Authentication, MFA) を導入しています．多要素認証を設定すると，アカウントにサインインする際に，パスワードに加えて，SMSや専用のアプリ等での本人確認が要求されるようになります．詳細は[UTokyo Accountにおける多要素認証の利用について](mfa/)を参照してください．
-
-
