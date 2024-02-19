@@ -1,16 +1,22 @@
-summary {
-  cursor: pointer;
-  color: $link-color;
-  &:hover {
-    text-decoration: underline;
+details {
+  display: block;
+  
+  margin: 0.25em;
+  padding: 0.25em 1em;
+  border: solid 1px $link-color;
+  border-radius: 4px;
+
+  summary {
+    cursor: pointer;
+    color: $link-color;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
 li > ul ~ details, li > ol ~ details {
   margin-left: 40px;
-  &>summary {
-    margin-left: -20px;
-  }
   @media (max-width: 640px) {
     margin-left: 20px;
   }
