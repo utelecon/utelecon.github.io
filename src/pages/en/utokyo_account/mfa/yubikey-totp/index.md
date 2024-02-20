@@ -74,7 +74,7 @@ Once you have completed the registration for the verification method, **make sur
 ### Procedures of signing in Yubico Authenticator
 
 1. Once you sign in to your UTokyo Account (after you enter your password), the screen for the default multi-factor authentication verification method will be displayed. Please click on the “Having troubles? Sign in another way” or “I can’t use my Microsoft Authenticator app right now”. <br>
-* If you have the default verification method set to “App-based authentication or hardware token - code”, the screen in step 3 will be displayed from the beginning. Please follow step 3 as steps 1 and 2 will be skipped.
+\* If you have the default verification method set to “App-based authentication or hardware token - code”, the screen in step 3 will be displayed from the beginning. Please follow step 3 as steps 1 and 2 will be skipped.
 ![](signin_other_method.png)
 1. Please click on the “Use a verification code”.
 ![](signin_select_totp.png)
