@@ -48,15 +48,20 @@ import InformationSecurity from '@components/ja/InformationSecurity.mdx'
 ## UTokyo Accountで情報システムにサインインする
 {:#signin}
 
-UTokyo Accountを用いるとさまざまな情報システムが利用可能です．状況により，サインイン方法が異なります．
+ここでは，UTokyo Accountを用いて情報システムにサインインする方法を説明します．
 
-- 以下の画面（安田講堂の画面）が表示された場合には，共通ID（数字10桁）とパスワードでサインインできます．
-![](img/signin-yasuda.png)
-- 安田講堂の画像が現れず，以下のようなサインイン画面が表示された場合には，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力してください．
-    <figure class="gallery">
-        <img src="img/signin-utac-01.png" />
-        <img src="img/signin-utac-02.png" />
-    </figure>
+東京大学の情報システムを利用する際，画像のようにサインインを要求する画面が表示された場合には，UTokyo Accountによるサインインが必要です．以下の手順に従ってサインインを行ってください．
+
+![](img/signin-yasuda.png){:.medium.center}
+
+1. 「Username」欄に共通ID（10桁の数字）を，「パスワード」欄にUTokyo Accountのパスワードを入力し，「サインイン」を押してください．
+    - パスワードを忘れた場合は，「[パスワードを忘れた場合](#forget-password)」を参照してパスワードの再設定や再発行を行なってください．
+1. [UTokyo Accountの多要素認証](/utokyo_account/mfa/)を有効にしている場合には，画面の指示に従って多要素認証の本人確認を行ってください．
+1. サインインが行われ，利用しているシステムのページに遷移します．
+
+ただし，上のような安田講堂の画像が表示されず，次のように**Microsoftのロゴ等が表示されている場合には，**入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力する必要があるなど，**サインイン手順が一部異なります**．この場合のサインイン手順に関する詳細は「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](/microsoft/signin#instruction)」を参照してください．
+
+<figure class="gallery">![](img/signin-utac-01.png){:.medium.center.border}![](img/signin-utac-02.png){:.medium.center.border}</figure>
 
 なお，UTokyo Accountでサインインする情報システムの多くは互いに連携しており，最初にひとつの情報システムでユーザ名とパスワードを入力してサインインすると，それ以降に別の情報システムを利用する際にはユーザ名とパスワードの入力が不要になります．これを**シングルサインオン** (Single Sign-On, SSO) といいます．
 
