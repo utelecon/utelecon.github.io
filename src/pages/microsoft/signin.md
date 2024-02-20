@@ -1,5 +1,7 @@
 ---
 title: UTokyo Accountを用いてMicrosoftのシステムにサインインする
+breadcrumb:
+  title: UTokyo Accountを用いてサインインする
 ---
 
 [UTokyo Microsoft Licenseのページのトップに戻る](.)

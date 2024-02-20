@@ -1,5 +1,7 @@
 ---
 title: UTokyo Microsoft LicenseでOfficeアプリをインストールする
+breadcrumb:
+  title: Officeアプリをインストールする
 ---
 
 import HelpItem from "@components/utils/HelpItem.astro";

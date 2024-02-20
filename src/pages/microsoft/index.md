@@ -1,5 +1,7 @@
 ---
 title: UTokyo Microsoft License
+breadcrumb:
+  title: UTokyo Microsoft License
 ---
 
 ## はじめに
