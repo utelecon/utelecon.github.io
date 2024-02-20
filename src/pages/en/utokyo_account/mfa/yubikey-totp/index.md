@@ -56,7 +56,7 @@ If you have already registered another verification method as your first one and
 1. To add an account to the Yubico Authenticator application, please click on the “Configure Yubikey” in the upper right corner of the screen, and press the “Add account” displayed on the screen.
 ![](add_account.png)
 1. Press the “Scan QR code” and scan the QR code according to the instructions on your screen, and press “Save”. <br>
-* If you are using a PC, the QR code displayed on the screen will be read in automatically and you do not need to scan the QR code with the camera of your PC. Therefore, when you do this process for the first time, it may ask you for the permission to record the screen.
+\* If you are using a PC, the QR code displayed on the screen will be read in automatically and you do not need to scan the QR code with the camera of your PC. Therefore, when you do this process for the first time, it may ask you for the permission to record the screen.
 ![](scan_qr.png)
 1. The process is complete if you see that your account has been added in the Yubico Authenticator application.
 ![](account_list.png)
