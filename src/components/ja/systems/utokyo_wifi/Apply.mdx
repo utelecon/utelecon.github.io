@@ -68,7 +68,8 @@ import ApplyHelpEmail from "./ApplyHelpMFA.mdx";
 <If cond={props.inlineHelp}>
   <Support lang="ja" show={props.support} />
   <Help lang="ja" support={props.support} slot="else">
-    - <ApplyHelpJouhouSecurity type="default" />
+    - <ApplyHelpMFA type="default" />
+　　- <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
   </Help>
 </If>
