@@ -24,7 +24,11 @@ breadcrumb:
 
 UTokyo AccountでMicrosoftのシステムにサインインする際には，他のシステムにサインインする場合とは異なり，次のようにMicrosoftのロゴ等を含むサインイン画面が表示されることがあります．その場合には，次に示す手順に従ってサインインを行ってください．一方，下のような画面ではなく，通常のサインイン画面（安田講堂の画像が表示されているもの）が表示されている場合には，「[UTokyo Accountで情報システムにサインインする](/utokyo_account/#signin)」に従ってサインインを行ってください．
 
-<figure class="gallery">![](img/microsoft-signin-instruction-1.png){:.medium.center.border}![](img/microsoft-signin-instruction-3.png){:.medium.center.border}![](img/microsoft-signin-instruction-2.png){:.medium.center.border}</figure>
+<figure class="gallery">
+<img src="img/microsoft-signin-instruction-1.png" class="medium center border">
+<img src="img/microsoft-signin-instruction-3.png" class="medium center border">
+<img src="img/microsoft-signin-instruction-2.png" class="medium center border">
+</figure>
 
 1. 表示されている画面を確認し，以下の手順を行ってください．
     - Microsoftまたは東京大学のロゴの下に**「サインイン」**と表示されている場合
