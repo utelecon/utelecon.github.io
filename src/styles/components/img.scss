@@ -24,6 +24,10 @@ img.small {
   max-height: 30rem;
 }
 
+img.height70 {
+  height: 70px;
+}
+
 img.extra-small {
   max-width: 15rem; /* for IE11 */
   max-width: min(100%, 15rem);
