@@ -1,5 +1,8 @@
 ---
 title: 米澤智洋 先生　内分泌病学Ⅰ
+breadcrumb:
+  parent: ../..
+  title: 米澤智洋 先生　内分泌病学Ⅰ
 filters:
   format: ["realtime_online", "ondemand"]
   number: lt30

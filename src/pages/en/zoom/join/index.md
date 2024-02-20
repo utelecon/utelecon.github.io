@@ -1,5 +1,7 @@
 ---
 title: How to join a Zoom meeting room
+breadcrumb:
+  title: How to join
 ---
 
 In this section we explain how to join a meeting room.  

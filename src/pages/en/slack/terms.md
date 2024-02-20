@@ -1,5 +1,7 @@
 ---
 title: UTokyo Slack Terms of Service
+breadcrumb:
+  title: Terms of Service
 ---
 
 Please follow these terms when using UTokyo Slack.

@@ -1,5 +1,8 @@
 ---
 title: Host and Co-host Controls in a Zoom Meeting
+breadcrumb:
+  title: Host and Co-host Controls
+  parent: ../..
 redirect_from:
   - /en/zoom/how/common/host_cohost
   - /en/zoom/misc/host_cohost/

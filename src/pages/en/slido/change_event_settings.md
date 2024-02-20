@@ -1,5 +1,7 @@
 ---
 title: "Changing Event Settings in Slido"
+breadcrumb:
+  title: "Changing Event Settings"
 ---
 
 When Slido is used with a University of Tokyo account, users are eligible for advanced event settings that are unavailable in free accounts.

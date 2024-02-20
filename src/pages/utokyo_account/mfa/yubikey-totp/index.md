@@ -1,5 +1,7 @@
 ---
 title: UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法
+breadcrumb:
+  title: Yubico Authenticatorアプリの利用方法
 ---
 
 ## はじめに
