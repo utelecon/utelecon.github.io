@@ -1,8 +1,9 @@
 import If from "@components/utils/If.astro";
-import Help from "@components/utils/Help.astro";
+import Support from "@components/utils/Support.astro";
 
 {/**
   * @typedef {object} Props
+  * @property {boolean} [support]
   * @property {boolean} [img]
   * @property {boolean} [detailsLink]
   */}
@@ -17,3 +18,4 @@ import Help from "@components/utils/Help.astro";
   - ECCSクラウドメールの基本的な使い方（ログイン方法・メールの確認方法等）は下の[「ECCSクラウドメール」の項](#google)をご覧ください．
 </If>
 
+<Support lang="ja" show={props.support} />
