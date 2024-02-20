@@ -1,8 +1,9 @@
 import If from "@components/utils/If.astro";
-import Help from "@components/utils/Help.astro";
+import Support from "@components/utils/Support.astro";
 
 {/**
   * @typedef {object} Props
+  * @property {boolean} [support]
   * @property {boolean} [img]
   */}
 
@@ -11,3 +12,5 @@ import Help from "@components/utils/Help.astro";
     <If cond={props.img}>
       ![](/en/google/change-localpart.png){:.medium}
     </If>
+
+<Support lang="en" show={props.support} />
