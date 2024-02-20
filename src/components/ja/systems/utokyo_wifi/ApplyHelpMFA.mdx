@@ -1,0 +1,15 @@
+import HelpItem from "@components/utils/HelpItem.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").HelpItemType} type
+  */}
+
+<HelpItem lang="ja" type={props.type} >
+  <Fragment slot="problem">「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</Fragment>
+
+  UTokyo Wi-Fiの利用に必要なUTokyo Accountの多要素認証の申請およびその反映が完了していない可能性があります．「[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial/)」を最後の「手順4：多要素認証の利用を申請する」まで確実に行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定がシステムに反映されるまで約40分かかるので，それまでしばらくお待ちください．
+
+  
+  それでもうまくいかなければ，[サポート窓口](/support/)に相談してください．
+</HelpItem>
