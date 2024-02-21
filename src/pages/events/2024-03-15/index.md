@@ -27,8 +27,8 @@ Sセメスターの開始にあたり，以前から東京大学の情報シス�
 ### 話者
 追って掲載します．
 
-### 参加申込
+## 参加申込
 説明会への参加を申し込む方は，Zoomの**[登録ページ](https://u-tokyo-ac-jp.zoom.us/meeting/register/tZApduGsrDsjHNcVpxpk5zrbvcQqP0P3hEvq)**にアクセスして，登録を行なってください．
 
-### 事後アンケート
+## 事後アンケート
 [アンケートページ](https://forms.office.com/r/4MNAFqRCza)からご回答ください．Zoomから退出した際にも同じアンケートが表示されますので，そちらから回答することも可能です．
