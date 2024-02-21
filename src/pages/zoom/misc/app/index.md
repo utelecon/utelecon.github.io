@@ -3,6 +3,9 @@ title: Zoomのアプリについて
 redirect_from:
   - /zoom/create_room_software
   - /zoom/install
+breadcrumb:
+  title: アプリについて
+  parent: /zoom/
 ---
 
 ## インストールの方法
