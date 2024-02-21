@@ -33,8 +33,8 @@ Sセメスターの開始にあたり，東京大学で初めて授業を担当�
 ### 話者
 追って掲載します．
 
-### 参加申込
+## 参加申込
 説明会への参加を申し込む方は，Zoomの**[登録ページ](https://u-tokyo-ac-jp.zoom.us/meeting/register/tZEscOmhrjsuEtMgB0y84RMeOuZeDjY4G40x)**にアクセスして，登録を行なってください．
 
-### 事後アンケート
+## 事後アンケート
 [アンケートページ](https://forms.office.com/r/isDrWCDBKg)からご回答ください．Zoomから退出した際にも同じアンケートが表示されますので，そちらから回答することも可能です．
