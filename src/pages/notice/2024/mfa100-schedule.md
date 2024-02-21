@@ -21,8 +21,7 @@ UTokyo Accountを持つすべての方に対して，段階的に，多要素認
 - **2024年3月1日**より，「**[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)**」の利用に多要素認証が必要となります．
   - 2023年度のUTokyo Wi-Fiアカウント（2月29日までに発行済みのもの）は，多要素認証を有効化していなくても4月30日まで引き続き利用可能です．5月1日以降も利用できる2024年度のUTokyo Wi-Fiアカウントを発行するには，多要素認証を有効化した上で，3月1日以降に「UTokyo Wi-Fiアカウントメニュー」から申請してください．
 - 次の段階として，UTASと次期学習管理システム「UTOL」を除く**ほぼすべての情報システム**の利用に多要素認証を求めることにします．その時期は**2024年5月頃**を目安と考えていますが，特に学生の方の利用に関して無理が出ないよう，状況を見ながら判断します．
-  - 具体的には，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)において「SSO」欄が「○」となっている情報システムのうち，UTASと次期学習管理システム「UTOL」を除くすべての情報システムが対象です．
-    - なお，このページの公開時点ではECCSクラウドメールの「SSO」欄は「N/A」となっていますが，2024年2月20日にこれも「○」となります．
+  - 具体的には，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)において「SSO」欄が「○」となっている情報システムのうち，UTASと次期学習管理システム「UTOL」を除くすべての情報システムが対象です．[2月20日に実施されたシステム変更](https://www.ecc.u-tokyo.ac.jp/announcement/2024/01/25_3609.html)を踏まえ，**ECCSクラウドメール（Google Workspace）もこの対象に含まれる**ことに注意してください．
 - 最終段階として，**UTAS**と**次期学習管理システム「UTOL」**の利用にも多要素認証を求めることにします．その時期は**2024年6月頃**を目安と考えていますが，特に学生の方の利用に関して無理が出ないよう，状況を見ながら判断します．
 - これらのほか，UTokyo Accountの多要素認証に未対応の情報システム（[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)において「SSO」欄が「×」となっている情報システム）に関しても，多要素認証を利用できるようにシステム改修が今後行われた場合には，その情報システムの利用に際して多要素認証を求めることとします．
 
