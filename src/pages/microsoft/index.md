@@ -24,7 +24,7 @@ UTokyo Microsoft Licenseは，UTokyo Accountを持つ東京大学の構成員（
 ### UTokyo Accountが失効した場合
 {:#expire}
 
-離籍や所属変更によって UTokyo Account が失効した場合，UTokyo Microsoft Licenseのシステムは利用できなくなります．これに伴い，[OneDrive](#onedrive)に保存されたデータなどの関連するデータはすべて失われます．離籍や所属変更の前には，卒業・退職や所属変更によるアカウント失効についての注意を確認のうえデータのバックアップを取ってください．
+離籍や所属変更によって UTokyo Account が失効した場合，UTokyo Microsoft Licenseのシステムは利用できなくなります．これに伴い，[OneDrive](#onedrive)に保存されたデータなどの関連するデータはすべて失われます．離籍や所属変更の前には，[卒業・退職や所属変更によるアカウント失効についての注意](/systems/leave/)を確認のうえデータのバックアップを取ってください．
 
 ## 利用可能な主なシステム
 {:#systems}
