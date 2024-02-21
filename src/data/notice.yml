@@ -3,6 +3,20 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2024-02-22
+  content:
+    ja: "[2024年度のUTokyo Wi-Fiアカウントの利用について](/notice/2024/02-wifi)"
+  important: true
+-
+  date: 2024-02-22
+  content:
+    ja: "[UTokyo Accountの認証基盤のシステム変更について](/notice/2024/02-utac-auth-improvement)（3月12日実施予定）"
+-
+  date: 2024-02-22
+  content:
+    ja: "[UTokyo Accountにおいて多要素認証の利用を必須化します](/notice/2024/mfa100-schedule)（段階的に実施，随時更新）"
+  important: true
+-
   date: 2024-02-19
   content:
     ja: "[ECCSクラウドメール (Google Workspace)のUTokyo AccountによるSSO化（2月20日実施）](https://www.ecc.u-tokyo.ac.jp/announcement/2024/01/25_3609.html)"
