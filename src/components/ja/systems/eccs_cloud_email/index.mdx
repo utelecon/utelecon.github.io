@@ -10,8 +10,11 @@ import UseMail from "./UseMail.mdx";
   * @property {string} variant
   */}
 
-- **作業：パスワードとメールアドレスを設定する**
-  <Configure />
+- **作業：メールアドレスを設定する**
+  <Configure
+    support={props.variant === "oc"}
+    detailsLink={props.important}
+  />
 - **確認：ログインしてみる**
   <Login support={props.variant === "oc"} />
 - **確認：東大のアカウント専用のページにアクセスできるか確認する**

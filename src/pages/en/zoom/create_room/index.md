@@ -1,5 +1,7 @@
 ---
 title: Scheduling a Zoom Meeting
+breadcrumb:
+  title: Scheduling a Meeting
 ---
 
 ## Introduction

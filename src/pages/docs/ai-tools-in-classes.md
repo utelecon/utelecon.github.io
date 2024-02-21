@@ -1,6 +1,8 @@
 ---
 title: "AIツールの授業における利用について（ver. 1.0）"
 h1: "AIツールの授業における利用について<small>（ver. 1.0）</small>"
+breadcrumb:
+  title: AIツールの授業における利用について
 ---
 
 <div style="text-align: right;">

@@ -1,5 +1,8 @@
 ---
 title: 四本裕子 先生　心理I
+breadcrumb:
+  parent: ../..
+  title: 四本裕子 先生　心理I
 filters:
   format: ["realtime_online"]
   number: mt100

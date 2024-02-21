@@ -1,5 +1,7 @@
 ---
 title: Usages in Zoom Meeting
+breadcrumb:
+  title: Usages in Meeting
 redirect_from:
   - /en/zoom/how_to_use
   - /en/zoom/how_to_use_host

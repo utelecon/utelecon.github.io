@@ -40,7 +40,7 @@
       name: "ECCSクラウドメール<small> (Google Workspace)</small>"
       url: "/google/"
     -
-      name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
+      name: "UTokyo Microsoft License"
       url: "/microsoft/"
     -
       name: "UTokyo Slack"
