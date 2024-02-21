@@ -2,6 +2,8 @@
 title: UTokyo Accountを用いてMicrosoftのシステムにサインインする
 breadcrumb:
   title: UTokyo Accountを用いてサインインする
+redirect_from:
+  - /faq/msaccount-troubleshooting
 ---
 
 [UTokyo Microsoft Licenseのページのトップに戻る](.)
