@@ -21,6 +21,7 @@ UTokyo Accountでサインインする際に，これまでは以下の左の画
 - UTAS
 - ITC-LMS/UTOL
 - Zoom
+- ECCSクラウドメール（Google Workspace）
 - 東京大学MyOPAC
 - EZproxy
 
@@ -36,6 +37,7 @@ UTokyo Accountでサインインする際に，これまでは以下の左の画
 - UTAS
 - ITC-LMS / UTOL
 - Zoom
+- ECCSクラウドメール（Google Workspace）
 - 東京大学MyOPAC
 - EZproxy
 
@@ -58,7 +60,7 @@ UTokyo Accountの多要素認証の本人確認方法としてFIDOセキュリ�
 ### Microsoft Authenticatorでパスワードレスサインインを利用する
 {:#passwordless-signin-msauth}
 
-UTokyo Accountの多要素認証の本人確認方法としてMicrosoft Authenticatorを利用している方は，追加の設定を行うことで，Microsoft Authenticatorでパスワードレスサインインを利用することができるようになります．
+UTokyo Accountの多要素認証の本人確認方法としてMicrosoft Authenticatorを利用している方は，追加の設定を行うことで，Microsoft Authenticatorでパスワードレスサインインを利用できるようになります．
 
 設定方法は以下の通りです．
 
