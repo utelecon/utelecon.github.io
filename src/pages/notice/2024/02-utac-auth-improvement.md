@@ -22,7 +22,6 @@ UTokyo Accountでサインインする際に，これまでは以下の左の画
 - ITC-LMS/UTOL
 - Zoom
 - ECCSクラウドメール（Google Workspace）
-- ECCSクラウドメール（Google Workspace）
 - 東京大学MyOPAC
 - EZproxy
 
@@ -38,7 +37,6 @@ UTokyo Accountでサインインする際に，これまでは以下の左の画
 - UTAS
 - ITC-LMS / UTOL
 - Zoom
-- ECCSクラウドメール（Google Workspace）
 - ECCSクラウドメール（Google Workspace）
 - 東京大学MyOPAC
 - EZproxy
