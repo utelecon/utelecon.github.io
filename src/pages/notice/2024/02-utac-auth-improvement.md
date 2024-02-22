@@ -7,7 +7,7 @@ title: UTokyo Accountの認証基盤のシステム変更について
 ## より多くの情報システムでサインイン時に `@utac.u-tokyo.ac.jp` の入力が必須になります
 {:#require-utac-u-tokyo-ac-jp}
 
-UTokyo Accountでサインインする際に，これまでは以下の左の画面が表示され，`@utac.u-tokyo.ac.jp`を省略して共通ID（数字10桁）とパスワードでサインインできる場合がありました．今回のシステム変更により，より多くの情報システムにおいて，以下の右の画面が表示され，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」と入力することが必要になります．
+UTokyo Accountでサインインする際に，これまでは以下の1枚目の画面が表示され，`@utac.u-tokyo.ac.jp`を省略して共通ID（数字10桁）とパスワードでサインインできる場合がありました．今回のシステム変更により，より多くの情報システムにおいて，以下の2枚目の画面が表示され，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」と入力することが必要になります．
 
 <figure class="gallery">
     <img src="./yasuda.png" class="border">
