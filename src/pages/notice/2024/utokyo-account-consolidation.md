@@ -316,6 +316,7 @@ ICカード学生証とICカード職員証の2枚のICカードをお持ちの�
 - <del><a href="https://www.esc.u-tokyo.ac.jp/education/lecture/">環境安全教育受講管理システム</a></del> <small>※2024-02-14: 記載内容を修正して上に移動しました</small>
 - [健診予約システム](https://www.hc.u-tokyo.ac.jp/checkups/)
 - [財務会計システム](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Financial_Accounting_System.aspx)・[予算執行管理システム](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Budget_Execution_Management_System.aspx)
+- [WEB PARK 利用申請システム](https://www.itc.u-tokyo.ac.jp/education/services/webpark/apply/)
 
 このほかのシステムについては，個別に確認いたしますので，[サポート窓口のメールフォーム](/support/#email-form)へお問い合わせください．
 
