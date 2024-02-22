@@ -1,5 +1,7 @@
 ---
 title: UTokyo VPN
+breadcrumb:
+  title: UTokyo VPN
 ---
 
 ## Introduction

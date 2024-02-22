@@ -1,5 +1,7 @@
 ---
 title: UTokyo Slackの利用にあたっての注意事項
+breadcrumb:
+  title: 利用にあたっての注意事項
 ---
 
 UTokyo Slackの利用にあたっては，次の点にご注意ください．

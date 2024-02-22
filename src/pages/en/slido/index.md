@@ -1,5 +1,7 @@
 ---
 title: Slido
+breadcrumb:
+  title: Slido
 ---
 ## What is Slido?
 

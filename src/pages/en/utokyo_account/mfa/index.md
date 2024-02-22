@@ -1,5 +1,7 @@
 ---
 title: Using Multi-Factor Authentication (MFA) for UTokyo Accounts
+breadcrumb:
+  title: Multi-Factor Authentication (MFA)
 ---
 
 ## Introduction

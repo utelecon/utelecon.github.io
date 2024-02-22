@@ -1,5 +1,8 @@
 ---
 title: 田中庸介 先生　解剖学第3 (神経)
+breadcrumb:
+  parent: ../..
+  title: 田中庸介 先生　解剖学第3 (神経)
 filters:
   format: ["realtime_online"]
   number: mt100

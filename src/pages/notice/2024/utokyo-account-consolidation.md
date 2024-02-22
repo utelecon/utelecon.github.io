@@ -20,7 +20,7 @@ UTokyo Accountは，**これまで学生用と教職員用で別々のアカウ�
 
 ### 一元化の時期等
 
-UTokyo Account一元化を希望された方は，**2024年2月26日（予定）**をもって，これまで教職員としてお使いだったUTokyo Accountを廃止します．同日から，当該のUTokyo Accountは原則として利用できなくなります．翌日の2024年2月27日以降は，これまで学生としてお使いだったUTokyo Accountを教職員の立場でもご利用いただくことになります．
+UTokyo Account一元化を希望された方は，**2024年2月26日**をもって，これまで教職員としてお使いだったUTokyo Accountを廃止します．同日から，当該のUTokyo Accountは原則として利用できなくなります．翌日の2024年2月27日以降は，これまで学生としてお使いだったUTokyo Accountを教職員の立場でもご利用いただくことになります．
 
 また，一元化の実施日である2024年2月26日（またはその前後）において，作業のため，一元化を希望した方が一部のシステムを利用できない時間帯が生じる見込みです．詳細はまとまり次第このページを更新してお知らせします．
 
@@ -30,13 +30,13 @@ UTokyo Account一元化を希望された方は，**2024年2月26日（予定）
 
 ### UTAS
 
-[UTAS](/utas)では，教職員として利用していたデータがある場合，一元化後のUTokyo Accountへ自動的に移行されるため，影響はありません．学生としても教職員としてもUTASをお使いの方は，一元化実施後（2024年2月27日以降）は，一元化後のUTokyo Account（これまで学生としてお使いだったUTokyo Account）でログインしてください．ログインの際にどちらの立場で利用するか選択できるようになるため，両方の機能を利用できます．
+[UTAS](/utas)では，教職員として利用していたデータがある場合，一元化後のUTokyo Accountへ自動的に移行されるため，影響はありません．学生としても教職員としてもUTASをお使いの方は，一元化実施後（2024年2月27日以降）は，一元化後のUTokyo Account（学生としてお使いだったほうのUTokyo Account）でログインしてください．ログインの際にどちらの立場で利用するか選択できるようになるため，両方の機能を利用できます．
 
 ### ITC-LMS / UTOL
 
 ※現行の学習管理システム「ITC-LMS」は2024年2月23日をもって運用を停止し，2024年2月28日から次期システム「UTOL」の運用が開始されます（詳細は「[次期LMS（2024年3月運用開始）について](https://www.ecc.u-tokyo.ac.jp/lms2024/index.html)」をご参照ください）．
 
-教職員として利用していたデータがある場合，一元化後のUTokyo Accountへ自動的に移行されるため，影響はありません．次期システム「UTOL」の運用開始後は，一元化後のUTokyo Account（これまで学生としてお使いだったUTokyo Account）でログインしてください．
+教職員として利用していたデータがある場合，一元化後のUTokyo Accountへ自動的に移行されるため，影響はありません．次期システム「UTOL」の運用開始後は，一元化後のUTokyo Account（学生としてお使いだったほうのUTokyo Account）でログインしてください．
 
 <details>
 <summary>同一のコースに学生としても教職員としても登録していた場合について</summary>
@@ -49,7 +49,7 @@ UTokyo Account一元化を希望された方は，**2024年2月26日（予定）
 
 ### UTokyo Wi-Fi
 
-教職員としてのUTokyo Accountで発行していた[UTokyo Wi-Fi](/utokyo_wifi/)アカウントは，一元化実施日（2024年2月26日）をもって失効し，利用できなくなります．以降は，一元化後のUTokyo Account（これまで学生としてお使いだったUTokyo Account）で発行したUTokyo Wi-Fiアカウントを利用してください．
+教職員としてのUTokyo Accountで発行していた[UTokyo Wi-Fi](/utokyo_wifi/)アカウントは，一元化実施日（2024年2月26日）をもって失効し，利用できなくなります．以降は，一元化後のUTokyo Account（学生としてお使いだったほうのUTokyo Account）で発行したUTokyo Wi-Fiアカウントを利用してください．
 
 失効するUTokyo Wi-Fiアカウントを利用していた端末では，設定のやり直しが必要になります．[UTokyo Wi-Fiのページ内にある端末の種類ごとの説明ページ](/utokyo_wifi/#procedure-by-device-type)にて，既存の設定情報を削除してやり直す方法について説明していますので，ご参照ください．
 
@@ -232,11 +232,11 @@ UTokyo Slackについては，アカウントの「繋ぎ替え」という手�
 
 ### UTokyo VPN
 
-影響はありません．[UTokyo VPN](/utokyo_vpn/)はどのUTokyo Accountで利用しても差異がありませんので，一元化実施後は，単に一元化されたUTokyo Account（これまで学生としてお使いだったUTokyo Account）でサインインしていただければ問題ありません．
+影響はありません．[UTokyo VPN](/utokyo_vpn/)はどのUTokyo Accountで利用しても差異がありませんので，一元化実施後は，単に一元化されたUTokyo Account（学生としてお使いだったほうのUTokyo Account）でサインインしていただければ問題ありません．
 
 ### EZproxy
 
-影響はありません．[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)では，サインインしたUTokyo Accountの情報に基づいて各電子リソース（データベース・電子ジャーナル・電子ブック等）の利用可否を判定しています．一元化実施後は，学生としても教職員としても在籍している方に対しては双方の在籍情報を反映した判定を行いますので，一元化されたUTokyo Account（これまで学生としてお使いだったUTokyo Account）でサインインすれば問題なく利用できます．
+影響はありません．[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)では，サインインしたUTokyo Accountの情報に基づいて各電子リソース（データベース・電子ジャーナル・電子ブック等）の利用可否を判定しています．一元化実施後は，学生としても教職員としても在籍している方に対しては双方の在籍情報を反映した判定を行いますので，一元化されたUTokyo Account（学生としてお使いだったほうのUTokyo Account）でサインインすれば問題なく利用できます．
 
 ### MyOPACおよび附属図書館の利用
 
@@ -265,15 +265,24 @@ ICカード学生証とICカード職員証の2枚のICカードをお持ちの�
 
 ### その他のシステム等
 
+以下のシステムの影響内容は，それぞれ記載の通りです．
+
+- [Webex](/webex/)および[Slido](/slido/)：教職員としてのUTokyo AccountでWebexやSlidoをお使いだった場合，それらのアカウントは利用できなくなります．必要なデータのダウンロードなど，お手数ですが，各自でご対応ください．手順等に不明な点がある場合は，[サポート窓口](/support/)へお問い合わせください．
+- [ライフサイエンス研究申請審査管理システム](https://lsres.adm.u-tokyo.ac.jp/systemHOME.html)：事前の調査の結果，対象者の方が教職員として利用していたデータがシステム内に存在せず，そのため影響が生じない見込みです．
+- 環境安全教育受講管理システム：システムの利用そのものには影響はありませんが，教職員としてお使いだったほうのアカウントでの使用は今後できなくなります．支障がある場合は，個別に対応いたしますので， `lectureadmin` @ `esc.u-tokyo.ac.jp` へご連絡ください．
+- [出張旅費システム](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Business_Travel_Expense_Site.aspx)：一元化実施後は，一元化されたアカウント（学生としてお使いだったほうのアカウント）でシステムを利用することはできますが，一元化前に教職員としてお使いだったほうのアカウントで行っていた申請・報告等のデータには原則としてアクセスできなくなります．支障がある場合は，個別に対応いたしますので，リンク先に掲載されている所属部局の担当者を通してご連絡ください．
+- 化学物質・高圧ガス管理システム (UTCIMS)：システムの利用そのものには影響はありませんが，教職員としてお使いだったほうのアカウントでの使用は今後できなくなります．支障がある場合は，個別に対応いたしますので， `utcims.admin` @ `esc.u-tokyo.ac.jp` へご連絡ください．
+- 学術認証フェデレーションの仕組みでUTokyo Accountによるサインインが可能となっているシステム（[mdx](https://mdx.jp/)や[GakuNin RDM](https://rcos.nii.ac.jp/service/rdm/)等）：教職員としてのUTokyo Accountでお使いだった場合，そのアカウントでは利用できなくなります．必要なデータのダウンロードなど，お手数ですが，各システムのヘルプ等も参考にして，各自でご対応ください．
+
 以下のシステムについては，教職員として利用していたデータがある場合，データが一元化後のUTokyo Accountへ自動的に移行されるため，影響は生じない予定です．一元化実施後（2024年2月27日以降）は，一元化されたUTokyo Account（学生としてお使いだったほうのUTokyo Account）でサインインして利用してください．
 
 - [人事情報MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Human_Resource_Management.aspx)
 - [放射線取扱者登録管理システム (UTRadMS)](https://univtokyo.sharepoint.com/sites/EHS_portal/SitePages/d/UTRadMS.aspx)
-- [環境安全教育受講管理システム](https://www.esc.u-tokyo.ac.jp/education/lecture/)
+- <del><a href="https://www.esc.u-tokyo.ac.jp/education/lecture/">環境安全教育受講管理システム</a></del> <small>※2024-02-14: 記載内容を修正して上に移動しました</small>
 - [健診予約システム](https://www.hc.u-tokyo.ac.jp/checkups/)
 - [財務会計システム](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Financial_Accounting_System.aspx)・[予算執行管理システム](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Budget_Execution_Management_System.aspx)
 
-このほかのシステムについては，現在，影響内容について取りまとめ中です．まとまり次第，このページを更新してお知らせします．
+このほかのシステムについては，個別に確認いたしますので，[サポート窓口のメールフォーム](/support/#email-form)へお問い合わせください．
 
 ### 氏名およびメールアドレスの取り扱いについて
 
@@ -337,4 +346,5 @@ UTokyo Account一元化希望調査への回答は，以上の説明をご一読
 - 2024-02-01: 希望調査の期限を2024年2月8日（木）まで延長しました．
 - 2024-02-02: 「ECCSストレージ管理システム」関係（Googleドライブのストレージ制限値等）の取り扱い，および，メールホスティングサービスに関し，一元化を希望した場合の影響内容を記載しました．
 - 2024-02-08: 希望調査の期限を2024年2月15日（木）まで再度延長しました．
+- 2024-02-14: 「その他のシステム等」に関し，WebexおよびSlido，ライフサイエンス研究申請審査管理システム，出張旅費システム，化学物質・高圧ガス管理システム (UTCIMS)，学術認証フェデレーションの仕組みでUTokyo Accountによるサインインが可能となっているシステムの影響内容を記載しました．また，環境安全教育受講管理システムの記載内容を修正しました．
 </details>
