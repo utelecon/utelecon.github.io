@@ -28,6 +28,4 @@ title: 2024年度のUTokyo Wi-Fiアカウントの利用について
 
 ## その他
 
-その他，UTokyo Wi-Fiの利用に関して役立つページがあるので，必要に応じて参照してください．
-- [トラブルシューティングと問い合わせ](/utokyo_wifi/#trouble-shooting-inquiries)：UTokyo Wi-Fiの利用にあたって問題が発生した場合は，こちらを参照してください．
-- eduroam CAT（準備中）：Wi-Fi設定アプリ「eduroam CAT」を利用したUTokyo Wi-Fiの利用方法を説明するページを現在準備中です．
+その他，UTokyo Wi-Fiの利用に関して役立つページを準備中です．準備が完了し次第，このページでもお知らせしますので，UTokyo Wi-Fiを利用する際，併せて参照してください．
