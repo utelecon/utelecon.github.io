@@ -5,6 +5,20 @@
 -
   date: 2024-02-22
   content:
+    ja: "[2024年度のUTokyo Wi-Fiアカウントの利用について](/notice/2024/02-wifi)"
+  important: true
+-
+  date: 2024-02-22
+  content:
+    ja: "[UTokyo Accountの認証基盤のシステム変更について](/notice/2024/02-utac-auth-improvement)（3月12日実施予定）"
+-
+  date: 2024-02-22
+  content:
+    ja: "[UTokyo Accountにおいて多要素認証の利用を必須化します](/notice/2024/mfa100-schedule)（段階的に実施，随時更新）"
+  important: true
+-
+  date: 2024-02-22
+  content:
     ja: "（教員向け）3/15 15:00から，[説明会「東京大学でITツールをもっと活用するための説明会」](/events/2024-03-15/)を開催いたします．"
   important: true
 -

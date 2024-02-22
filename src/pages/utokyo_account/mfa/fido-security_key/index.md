@@ -4,7 +4,7 @@ breadcrumb:
   title: FIDOセキュリティキーの利用方法
 ---
 
-<div class="box">2023年5月16日から，UTokyo Accountの多要素認証でFIDOセキュリティキーを利用できるようになりました．</div>
+<div class="box">2024年3月12日（予定）から，UTokyo Accountの多要素認証で<a href="/notice/2024/02-utac-auth-improvement">さらに便利にFIDOセキュリティキーを利用できるようになります</a>．</div>
 
 ## はじめに
 
