@@ -187,6 +187,16 @@ UTokyo Slackについては，アカウントの「繋ぎ替え」という手�
     - チームの所有者を追加する手順は，[UTokyo Portal内「Teamsチームリファレンス」の「2. 所有者設定とメンバーの追加・削除」](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/IT_Tool_020/Teams%E3%83%81%E3%83%BC%E3%83%A0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9.pdf#page=4)を参照してください．
 - その他，個人別の設定等を変更していた場合，一元化後にご利用いただく学生としてお使いだったほうのアカウントでは初期状態となっていますので，お手数ですがあらためて設定していただくようお願いします．
 
+#### UTokyo Portal
+
+教職員向けの[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal/)は，これまで教職員としてのUTokyo Accountでご利用いただいていました．一元化実施後（2024年2月27日以降）は，一元化されたUTokyo Account（学生としてお使いだったほうのUTokyo Account）でUTokyo Portalにアクセスできるようになります．
+
+<details>
+<summary>様式ファイル等の編集を防ぐために「チェックアウト」していた場合</summary>
+
+UTokyo Portal便利帳の編集を担当されている方で，「[UTokyo Portal上のWordやExcel様式の直接編集を防ぐには](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Usage_guide/UTokyo%20Portal%E4%B8%8A%E3%81%AEWord%E3%82%84Excel%E6%A7%98%E5%BC%8F%E3%81%AE%E7%9B%B4%E6%8E%A5%E7%B7%A8%E9%9B%86%E3%82%92%E9%98%B2%E3%81%90%E3%81%AB%E3%81%AF.pdf)」の案内に従って「チェックアウト」しているファイルがある場合，教職員としてお使いだったほうのアカウントが失効することに伴って，そのファイルの編集・削除ができなくなってしまいます．一元化実施後（2024年2月27日），教職員としてお使いだったほうのアカウントが失効する2024年3月上旬～中旬頃までの期間内に，教職員としてお使いだったほうのアカウントでのチェックアウトを解除し，一元化されたアカウント（学生としてお使いだったほうのアカウント）でチェックアウトし直してください．
+</details>
+
 #### 職員メールシステム（`@mail.u-tokyo.ac.jp` のメールアドレス）
 
 教職員向けの[職員メールシステム](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx)はUTokyo Accountを用いてお使いいただく仕組みのため，一元化による影響が生じます．お使いの方への具体的な影響の内容・必要な対応は以下の通りです．
