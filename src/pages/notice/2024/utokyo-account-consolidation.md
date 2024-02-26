@@ -198,6 +198,7 @@ UTokyo Portal便利帳の編集を担当されている方で，「[UTokyo Porta
 </details>
 
 #### 職員メールシステム（`@mail.u-tokyo.ac.jp` のメールアドレス）
+{:#staff-email}
 
 教職員向けの[職員メールシステム](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx)はUTokyo Accountを用いてお使いいただく仕組みのため，一元化による影響が生じます．お使いの方への具体的な影響の内容・必要な対応は以下の通りです．
 
