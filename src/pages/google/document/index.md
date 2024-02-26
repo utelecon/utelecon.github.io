@@ -1,5 +1,7 @@
 ---
 title: Googleドキュメント
+breadcrumb:
+  title: Googleドキュメント
 redirect_from:
   - /articles/google-document/
 ---

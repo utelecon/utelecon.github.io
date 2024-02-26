@@ -1,5 +1,7 @@
 ---
 title: UTokyo Accountにおける多要素認証の利用について
+breadcrumb:
+  title: 多要素認証の利用について
 ---
 
 ## はじめに

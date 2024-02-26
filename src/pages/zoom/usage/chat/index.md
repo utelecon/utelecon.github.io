@@ -3,6 +3,8 @@ title: チャットを使う
 redirect_from:
   - /zoom/how/common/chat
   - /zoom/how/faculty_members/chat
+breadcrumb:
+  title: チャットを使う
 ---
 
 授業中に Zoom メニュー「チャット」を押すと，全員とテキストチャットができます．この機能を使うと，チャットを用いて学生は質問したり，教員は必要な情報をテキストで送信したりすることができます．

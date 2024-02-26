@@ -1,5 +1,7 @@
 ---
 title: Screen Sharing in Zoom
+breadcrumb:
+  title: Screen Sharing
 redirect_from:
   - /en/zoom/how/common/sharing_screen
 ---

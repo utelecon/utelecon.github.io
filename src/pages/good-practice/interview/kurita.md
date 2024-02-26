@@ -1,5 +1,8 @@
 ---
 title: 栗田佳代子先生 「学びの場」づくり
+breadcrumb:
+  parent: ../..
+  title: 栗田佳代子先生 「学びの場」づくり
 filters:
   format: ["realtime_online", "ondemand"]
   number: lt30

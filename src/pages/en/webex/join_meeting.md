@@ -1,5 +1,7 @@
 ---
 title: How to join Webex Meetings
+breadcrumb:
+  title: How to join Meetings
 ---
 
 ## Join a meeting
