@@ -1,5 +1,8 @@
 ---
 title: 白石忠志 先生　法Ⅰ
+breadcrumb:
+  parent: ../..
+  title: 白石忠志 先生　法Ⅰ
 filters:
   format: ["realtime_online"]
   number: mt100

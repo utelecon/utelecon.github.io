@@ -1,5 +1,8 @@
 ---
 title: 加藤晃史 先生　ベクトル解析
+breadcrumb:
+  parent: ../..
+  title: 加藤晃史 先生　ベクトル解析
 filters:
   format: ["realtime_online"]
   number: mt100

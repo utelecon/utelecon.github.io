@@ -3,6 +3,8 @@ title: Zoom ブレークアウトルーム機能を使う
 redirect_from:
   - /zoom/how/faculty_members/breakout
   - /zoom/how/students/breakout
+breadcrumb:
+  title: ブレークアウトルーム機能を使う
 ---
 
 ## ブレークアウトルームとは？

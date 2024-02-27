@@ -1,5 +1,7 @@
 ---
 title: Setting up a Zoom Waiting Room
+breadcrumb:
+  title: Waiting Room
 ---
 
 The Waiting Room feature enables hosts to first place meeting participants in a waiting room and then explicitly allow them to enter the meeting room.

@@ -2,6 +2,8 @@
 title: Zoomミーティングで待機室を設定する
 redirect_from:
   - /zoom/waiting_room
+breadcrumb:
+  title: 待機室を設定する
 ---
 
 待機室機能は，参加ユーザを一旦待機室に入れ，ホストが明示的に入室を許可する機能です．

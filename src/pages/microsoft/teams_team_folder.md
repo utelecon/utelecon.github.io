@@ -1,5 +1,7 @@
 ---
 title: Teamsチームフォルダについて
+breadcrumb:
+  title: Teamsチームフォルダ
 ---
 
 このページでは，Teamsチームのフォルダ（ファイル）について説明します．

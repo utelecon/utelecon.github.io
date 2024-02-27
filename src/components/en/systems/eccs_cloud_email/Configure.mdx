@@ -1,33 +1,16 @@
 import If from "@components/utils/If.astro";
-import Help from "@components/utils/Help.astro";
-import ConfigureHelpInvalidPassword from "./ConfigureHelpInvalidPassword.mdx";
+import Support from "@components/utils/Support.astro";
 
 {/**
   * @typedef {object} Props
-  * @property {boolean} inlineHelp
+  * @property {boolean} [support]
   * @property {boolean} [img]
-  * @property {boolean} [detailsLink]
   */}
 
 1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) and enter the username and password for your UTokyo Account to log in (Please note that the username is only a 10-digit number here).
-1. Click "ECCS Cloud Email (password)" in the middle of the sidebar, on the left side of the screen (not “Password Change” on the top of the sidebar).
-    <If cond={props.img}>
-      ![](/en/google/select-google-not-utac.png){:.medium}
-    </If>
-1. Just then the screen “ECCS Cloud Email (Password change)” opens. Please decide and set your own password. This password is only for your ECCS Cloud Email (not for your UTokyo Account).
-    <If cond={props.img}>
-      ![](/en/google/change-password.png){:.medium}
-    </If>
-    <If cond={props.inlineHelp}>
-      <ConfigureHelpInvalidPassword type="details" />
-    </If>
 1. Click "ECCS Cloud Email (mail address)" on the left to open the email address setting page. Enter your preferred username in the "Email Address" field and click "SAVE".
     <If cond={props.img}>
       ![](/en/google/change-localpart.png){:.medium}
     </If>
 
-<If cond={!props.inlineHelp}>
-  <Help lang="en" support>
-    - <ConfigureHelpInvalidPassword type="oneline" />
-  </Help>
-</If>
+<Support lang="en" show={props.support} />
