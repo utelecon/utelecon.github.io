@@ -12,7 +12,7 @@ redirect_from:
 import UTokyoAccountChangePassword from "@components/ja/systems/utokyo_account/ChangePassword.mdx";
 import UTokyoAccountMFA from "@components/ja/systems/utokyo_account/MFA.mdx";
 import Utas from "@components/ja/systems/utas/index.mdx";
-import ItcLms from "@components/ja/systems/itc_lms/index.mdx";
+import Utol from "@components/ja/systems/utol/index.mdx";
 import UTokyoWiFi from "@components/ja/systems/utokyo_wifi/index.mdx";
 import Zoom from "@components/ja/systems/zoom/index.mdx";
 import EccsCloudEmail from "@components/ja/systems/eccs_cloud_email/index.mdx";
@@ -58,7 +58,7 @@ import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 {/* 以下の説明の文章は後でも使うため，一度変数として定義してからそれを呼び出す形で記述している */}
 export const about_utokyo_account = "東大の情報システムで使う，「共通 ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．"
 export const about_utas = "各授業の概要説明（シラバス）の閲覧，受ける授業の登録手続き，成績の確認などに使うシステム（学務システム）です．"
-export const about_itc_lms = "授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．"
+export const about_utol = "授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．"
 export const about_zoom = "「同時双方向型」のオンライン授業で使う Web 会議システムです．"
 export const about_eccs_cloud_email = "Gmail などの Google のシステムを東大のアカウントで利用するものです．東大のメールアドレスも使えます．東大のアカウントでしかアクセスできないページがあるので，既に Google のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
 export const about_microsoft = "Word, Excel などの Microsoft Office が無料でダウンロードできます．また，Microsoft の各種オンラインツールも提供しています．Google と同じく，東大のアカウントでしかアクセスできないページがあるので，既に Microsoft のアカウントを持っている人も，東大のアカウントが使えるように作業が必要です．"
@@ -66,7 +66,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 - **UTokyo Account**：{ about_utokyo_account }
 - **UTAS**：{ about_utas }
-- **ITC-LMS**：{ about_itc_lms }
+- **UTOL (UTokyo LMS)**：{ about_utol }
 - **UTokyo Wi-Fi**：UTokyo Wi-Fiは東京大学のキャンパス内で提供されている学内向けWi-Fiで，学内限定のデータベースや電子ジャーナルへのアクセスが可能です．利用するためには事前に準備が必要です．
 - **Zoom**：{ about_zoom }
 - **ECCS クラウドメール (Google Workspace)**：{ about_eccs_cloud_email }
@@ -134,16 +134,13 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 <Utas variant="oc" />
 
-### ITC-LMS
-{:#itc_lms}
+### UTOL (UTokyo LMS)
 
-<b class="box">
-ITC-LMSは2024年2月23日に運用を終了し，2024年2月28日から次期システム「UTOL」の運用を開始する予定です．以下の説明は次期システム運用開始後に更新します．
-</b>
+{:#utol}
 
-<p>{ about_itc_lms }</p>
+<p>{ about_utol }</p>
 
-<ItcLms variant="oc" />
+<Utol variant="oc" />
 
 ### UTokyo Wi-Fi
 
@@ -191,7 +188,7 @@ UTokyo Wi-Fiは東京大学のキャンパス内で提供されている学内�
 
 - 授業に関しては，時間割や授業登録の手続きについてなど，所属の学部・研究科が出す情報もあります．こうした情報がどのように知らされるのか把握し，常に確認するようにしてください（わからない場合は所属の学部・研究科に問い合わせてください）．
   - （学部 1 年生向け）「入学手続要領」にリンクのある教養学部の「新入生向けお知らせページ」を確認してください（4 月以降は[前期課程 HP「教務課からのお知らせ」](https://www.c.u-tokyo.ac.jp/zenki/news/kyoumu/index.html)を確認してください）．
-- 「同時双方向型」のオンライン授業に参加するには，その授業が行われている Web 会議の URL の情報を知る必要があります．上で紹介した**ITC-LMS**というシステムの中に「オンライン授業情報」という欄があり，そこに掲示されるのが原則ですが，授業によっては担当する先生が別の方法で連絡するかもしれません．他の連絡方法については「[授業 URL の連絡方法](url)」というページで説明しているので，そちらを確認してください．
+- 「同時双方向型」のオンライン授業に参加するには，その授業が行われている Web 会議の URL の情報を知る必要があります．上で紹介した**UTOL**というシステムの中に「オンライン授業情報」という欄があり，そこに掲示されるのが原則ですが，授業によっては担当する先生が別の方法で連絡するかもしれません．他の連絡方法については「[授業 URL の連絡方法](url)」というページで説明しているので，そちらを確認してください．
 
 ### その他の情報システム
 

@@ -25,8 +25,8 @@
       name: "UTAS"
       url: "/en/utas"
     -
-      name: "ITC-LMS"
-      url: "/en/itc_lms"
+      name: "UTOL<small> (UTokyo LMS)</small>"
+      url: "/en/utol/"
     -
       name: "UTokyo Wi-Fi"
       url: "/en/utokyo_wifi/"
