@@ -1,5 +1,7 @@
 ---
 title: 東京大学のBYOD方針
+breadcrumb:
+  title: 東京大学のBYOD方針
 redirect_from:
   - /notice/byod
 ---

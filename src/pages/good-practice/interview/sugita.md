@@ -1,5 +1,8 @@
 ---
 title: 杉田直彦 先生　生産システム
+breadcrumb:
+  parent: ../..
+  title: 杉田直彦 先生　生産システム
 filters:
   format: ["realtime_online"]
   number: mt100

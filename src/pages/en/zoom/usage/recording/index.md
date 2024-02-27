@@ -1,5 +1,7 @@
 ---
 title: Recording Zoom Meeting
+breadcrumb:
+  title: Recording
 redirect_from:
   - /en/zoom/how/faculty_members/recording_cloud
 ---

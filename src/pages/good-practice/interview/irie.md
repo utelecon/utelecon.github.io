@@ -1,5 +1,8 @@
 ---
 title: 入江薫 先生　数理統計I、II
+breadcrumb:
+  parent: ../..
+  title: 入江薫 先生　数理統計I、II
 filters:
   format: ["realtime_online"]
   number: mt100
