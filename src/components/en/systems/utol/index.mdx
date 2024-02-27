@@ -14,7 +14,7 @@ import NotificationHelp from "./NotificationHelp.mdx";
   */}
   <li>
     **Check: Login to UTOL**
-    <Login support={props.variant === "oc"} />
+    <Login blockLink={props.variant === "individual"} support={props.variant === "oc"} />
   </li>
   <li>
     **Optional task: Linking UTOL with email / LINE / Slack notification**
