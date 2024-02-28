@@ -1,5 +1,7 @@
 ---
 title: Creating an Event with Slido
+breadcrumb:
+  title: Creating an Event
 ---
 
 This page describes how to create an event using Slido.

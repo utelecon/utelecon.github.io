@@ -1,5 +1,7 @@
 ---
 title: Zoom
+breadcrumb:
+  title: Zoom
 ---
 
 ## Introduction

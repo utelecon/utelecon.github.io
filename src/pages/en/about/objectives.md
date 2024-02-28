@@ -1,5 +1,7 @@
 ---
 title: The Guiding Principles and Objectives of utelecon
+breadcrumb:
+  title: The Guiding Principles and Objectives
 ---
 
 In the Spring of 2020, online classes were introduced both within the university and across the country to prevent the spread of coronavirus, and the portal site utelecon was rapidly launched to respond to this situation. The website was designed so that even first-year students and people with no prior experience using university-wide systems such as LMS or Google Workspace would be able to teach (or in the case of students, attend) classes online. Two years have passed since then. People are more cognizant than ever of the importance of in-person classes and discussion, and the need for online classes is arguably not as pressing as before. However, it’s important to keep in mind that the usefulness of Information and Communication Technology (ICT) such as LMS and cloud services is not limited to holding online classes and meetings. As we move forward, we will continue to offer information and support regarding ICT from a user-oriented perspective, keeping our original mission firmly in view. To date, our students, faculty, and staff have been working to provide better information and support concerning the information system of our university. Below, we outline the guiding principles of utelecon in order to reaffirm and further promote our original mission.

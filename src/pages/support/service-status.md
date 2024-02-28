@@ -16,7 +16,7 @@ toc: false
 - **Zoom**：[Zoom Service Status](https://status.zoom.us/)
 - **Webex**：[Latest Webex Status Information](https://status.webex.com/)
 - **ECCSクラウドメール (Google Workspace)**：[Google Workspace ステータス ダッシュボード](https://www.google.co.jp/appsstatus/dashboard/)
-- **UTokyo Microsoft License (Microsoft 365)**：[Service Status](https://portal.office.com/servicestatus)
+- **UTokyo Microsoft License**：[Service Status](https://portal.office.com/servicestatus)
 - **Slido**：[Slido Status](https://status.slido.com/)
 - **UTokyo Slack**：[Slack System Status](https://status.slack.com/)
 

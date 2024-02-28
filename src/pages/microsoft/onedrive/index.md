@@ -1,5 +1,7 @@
 ---
 title: OneDrive
+breadcrumb:
+  title: OneDrive
 ---
 
 <div class="box--alert">
@@ -23,7 +25,7 @@ title: OneDrive
 
 **[OneDrive](https://univtokyo-my.sharepoint.com/)**{:.box.center}
 
-その際，サインインしていない場合はサインインするよう求められますので，サインインしてください．
+その際，サインインしていない場合はサインインするよう求められますので，「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](/microsoft/signin#instruction)」を参照してサインインしてください．
 
 ### ファイルを作成・編集・アップロード・ダウンロードする
 ファイルを作成，編集，アップロード，ダウンロードする方法については，以下のページを参照してください．

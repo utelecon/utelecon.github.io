@@ -2,6 +2,8 @@
 title: Zoomの追加ライセンス（大規模ミーティング・ウェビナー）
 redirect_from:
   - /notice/zoom-webinar
+breadcrumb:
+  title: 追加ライセンス
 ---
 
 ## 概要
