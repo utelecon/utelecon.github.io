@@ -10,7 +10,7 @@ Many of you may already be familiar with MFA, a method of authentication that re
 
 The information systems at the University of Tokyo handle a wide range of information, including many that are confidential or critical. In today's rapidly advancing information society, it is crucial to recognize the need to protect this information. Therefore, safeguarding the security of UTokyo Account, which serves as the gateway to various information systems, is essential to protect the valuable information held by members of the University of Tokyo. Please bear in mind that an account of a single individual lacking sufficient security can endanger or damage not only the account holder but also other users. In fact, various incidents resulting from inadequate account security occur in businesses, universities, and other organizations worldwide. No wonder, the next major incident could occur at the University of Tokyo.
 
-Against this backdrop, we will progressively require everyone with a UTokyo Account to use MFA. We have already been requiring faculty and staff to reach a 100% adoption rate of MFA since June 2023. Following this, we will also ask students to do the same. To that end, please recognize the importance of MFA, and if you have not already done so, complete the initial setup for MFA and start using it now. For instructions, please refer to the page "[Using Multi-Factor Authentication in UTokyo Account](/utokyo_account/mfa/)." If you need a help or have questions, see the "Need a Help?" section on this page.
+Against this backdrop, we will progressively require everyone with a UTokyo Account to use MFA. We have already been requiring faculty and staff to reach a 100% adoption rate of MFA since June 2023. Following this, we will also ask students to do the same. To that end, please recognize the importance of MFA, and if you have not already done so, complete the initial setup for MFA and start using it now. For instructions, please refer to the page "[Using Multi-Factor Authentication in UTokyo Account](/en/utokyo_account/mfa/)." If you need help or have questions, see the "Need Help?" section on this page.
 
 ## Schedule/steps toward Enforcing MFA
 {:#schedule}
@@ -32,7 +32,7 @@ If you do not have the necessary equipment for MFA (such as a mobile phone), we 
 - If you are a faculty/staff but do not have a staff ID card with an IC chip, please consult the section of your department/school responsible for UTokyo Account (Human Resource personnel) and ask them to apply on your behalf.
 - We are working on available options for students and will provide updates on this page as they are finalized.
 
-For any other questions or concerns, please contact the [utelecon support desk](/support/).
+For any other questions or concerns, please contact the [utelecon support desk](/en/support/).
 
 ## Additional Notes
 {:#check-also}
