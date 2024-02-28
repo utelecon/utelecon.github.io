@@ -18,9 +18,9 @@ Against this backdrop, we will progressively require everyone with a UTokyo Acco
 We will gradually enforce MFA toward the end of making it mandatory for every UTokyo Account user. Specifically, we will incrementally increase the number of information systems that require MFA. The detailed schedule is as follows:
 - Step 1: As of February 2024, MFA is already required for UTokyo VPN and UTokyo Slack.
 - Step 2: **Starting March 1, 2024**, MFA will be required for accessing "[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)," the page used for issuing your UTokyo Wi-Fi account.
-  - If you are using a UTokyo Wi-Fi account for the fiscal year 2023 (issued by February 29), you can continue using it until it expires on April 30th without enabling MFA. To use UTokyo Wi-Fi account on May 1st 2004 and forward, please enable MFA and issue UTokyo Wi-Fi account for fiscal year 2024 at the [UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/), on or after March 1st.
-- Step 3: In the next stage, **almost all information systems except for UTAS and the new learning management system or UTokyo LMS (UTOL)** will require MFA.  We are planning to do it around **May 2024**, but the exact schedule will be determined by assessing the situation carefully, particularly regarding the progress on student usage, to ensure smooth transition.
-  - Specifically, among the information systems marked with "○" in the [UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/), all systems except for UTAS and UTOL will be subject to this requirement. Please note that **ECCS Cloud Mail (Google Workspace) is also included** in this category following [the system changes implemented on February 20](https://www.ecc.u-tokyo.ac.jp/announcement/2024/01/25_3609.html).
+  - If you are using a UTokyo Wi-Fi account for the fiscal year 2023 (issued by February 29), you can continue using it until it expires on April 30th without enabling MFA. To use UTokyo Wi-Fi account on May 1st 2024 and forward, please enable MFA and issue UTokyo Wi-Fi account for fiscal year 2024 at the [UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/), on or after March 1st.
+- Step 3: In the next stage, **almost all information systems except for UTAS and the new learning management system "UTokyo LMS (UTOL)"** will require MFA.  We are planning to do it around **May 2024**, but the exact schedule will be determined by assessing the situation carefully, particularly regarding the progress on student usage, to ensure smooth transition.
+  - Specifically, among the information systems marked with "○" in the [UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/), all systems except for UTAS and UTOL will be subject to this requirement. Please note that **ECCS Cloud Email (Google Workspace) is also included** in this category following [the system changes implemented on February 20](https://www.ecc.u-tokyo.ac.jp/en/announcement/2024/02/08_3611.html).
 - Step 4: Finally, **UTAS** and **UTOL** will also require MFA.  It will happen around **June 2024**, but again, the exact schedule will be determined by assessing the progress to ensure smooth transition.
 - Additionally, other information systems that do not currently support MFA for UTokyo Account (indicated by "×" in the [UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)) will require MFA when they become MFA-ready.
 
@@ -43,4 +43,5 @@ Our authentication system is undergoing changes to accommodate more MFA options.
 ## Update History
 {:#history}
 
-- 2024-02-28: Initial publication
+- 2024-02-22: Initial publication
+- 2024-02-28 update: English versin added
