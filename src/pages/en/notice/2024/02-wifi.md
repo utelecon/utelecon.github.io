@@ -2,9 +2,9 @@
 title: About using UTokyo Wi-Fi accounts for AY 2024
 ---
 
-[UTokyo Wi-Fi](https://utelecon.adm.u-tokyo.ac.jp/en/utokyo_wifi/) accounts must be issued and used for each academic year. This page informs you of the schedule for issuing and using a UTokyo Wi-Fi account for AY 2024, as well as the requirements for issuing an account.
+[UTokyo Wi-Fi](/en/utokyo_wifi/) accounts must be issued and used for each academic year. This page informs you of the schedule for issuing and using a UTokyo Wi-Fi account for AY 2024, as well as the requirements for issuing an account.
 
-If you intend to use UTokyo Wi-Fi and [eduroam](https://utelecon.adm.u-tokyo.ac.jp/systems/wlan#eduroam) with an account for AY 2024, please read this page in advance.
+If you intend to use UTokyo Wi-Fi and [eduroam](/en/systems/wlan#eduroam) with an account for AY 2024, please read this page in advance.
 
 ## Schedule
 {:#schedule}
@@ -20,8 +20,8 @@ The requirements to be issued an account for AY 2024 are as follows.
 
 - You must have activated multi-factor authentication on your UTokyo Account.
 -- If you have not activated multi-factor authentication on your UTokyo Account, you will not be able to sign in to the UTokyo Wi-Fi account menu and therefore can not be issued a UTokyo Wi-Fi account. Before you can get a UTokyo Wi-Fi account for AY 2024 issued, you must activate multi-factor authentication for your UTokyo Account.
-Activating multi-factor authentication on UTokyo Account was not a requirement for issuing accounts for AY 2023, but is now mandatory for accounts for AY 2024. For more information, please refer to the page “[Multi-factor authentication will be mandatory for UTokyo Account](https://utelecon.adm.u-tokyo.ac.jp/en/notice/2024/mfa100-schedule).”
--- For the procedure to start using multi-factor authentication, please refer to the "[UTokyo Account initialisation procedure for multi-factor authentication](https://utelecon.adm.u-tokyo.ac.jp/en/utokyo_account/mfa/initial/)" page.
+Activating multi-factor authentication on UTokyo Account was not a requirement for issuing accounts for AY 2023, but is now mandatory for accounts for AY 2024. For more information, please refer to the page “[Multi-factor authentication will be mandatory for UTokyo Account](/en/notice/2024/mfa100-schedule).”
+-- For the procedure to start using multi-factor authentication, please refer to the "[UTokyo Account initialisation procedure for multi-factor authentication](/en/utokyo_account/mfa/initial/)" page.
 
 - You must have completed the AY 2024 Information security education course.
 -- If you have not completed the AY 2024 information security education course, you will not be able to sign in to the UTokyo Wi-Fi account menu after 1 March 2024 and therefore can not be issued a UTokyo Wi-Fi account. It is not sufficient to complete the course before the end of the course period, but it is necessary to complete the course before getting an account issued.
