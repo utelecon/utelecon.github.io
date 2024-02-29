@@ -32,8 +32,3 @@ Accounts issued by 29 February 2024 for AY 2023 can be used until 30 April, even
 ## Note
 {:#check-also}
 Other useful pages on UTokyo Wi-Fi are currently being prepared. Please refer to these pages when using UTokyo Wi-Fi.
-
-## Update History
-{:#history}
-
-- 2024-02-29 English version is published
