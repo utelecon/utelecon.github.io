@@ -23,10 +23,8 @@ import ApplyHelpEmail from "./ApplyHelpMFA.mdx";
    </If>
 1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
    <If cond={props.inlineHelp}>
-     <ApplyHelpJouhouSecurity type="details" />
-   </If>
-   <If cond={props.inlineHelp}>
-     <ApplyHelpMFA type="details" />
+　　 <ApplyHelpMFA type="details" />
+     <ApplyHelpJouhouSecurity type="details" /> 
    </If>
 
 1. Click on the "New Application" Button.
@@ -54,8 +52,8 @@ import ApplyHelpEmail from "./ApplyHelpMFA.mdx";
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
   <Help lang="en" support={props.support} slot="else">
+　　- <ApplyHelpMFA type="default" />
     - <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
-    - <ApplyHelpMFA type="default" />
   </Help>
 </If>
