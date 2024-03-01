@@ -29,7 +29,7 @@ export interface Frontmatter {
 
 function createDefaultDescription(
   lang: Lang,
-  headings: MarkdownHeading[]
+  headings: MarkdownHeading[],
 ): string {
   return (
     (
@@ -144,8 +144,9 @@ if (title) {
           </h1>
         )
       }
-      <article id="article">
-        <section id="content">
+      <div id="article">
+        {displayToc && <Toc headings={headings} lang={lang} />}
+        <div id="content">
           <slot />
           {
             author && (
@@ -155,14 +156,8 @@ if (title) {
               </>
             )
           }
-        </section>
-
-        {
-          displayToc && (
-            <Toc headings={headings} lang={lang} />
-          )
-        }
-      </article>
+        </div>
+      </div>
     </main>
     <Footer lang={lang} support={support} />
   </body>
@@ -181,13 +176,14 @@ if (title) {
   }
   #article {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     gap: $article-gap;
   }
   @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
     #article {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
       gap: $article-gap;
     }
   }

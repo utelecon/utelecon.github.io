@@ -44,7 +44,7 @@ for (const heading of Astro.props.headings) {
   </div>
   <div id="toc-container">
     <section id="toc">
-      <h2>{Astro.props.lang === "ja" ? "目次" : "Table of Contents"}</h2>
+      <b>{Astro.props.lang === "ja" ? "目次" : "Table of Contents"}</b>
       <ul id="toc-list" class="toc-h2">
         {
           headings.map((h2) => (
@@ -94,8 +94,9 @@ for (const heading of Astro.props.headings) {
     top: 2rem;
     max-height: calc(100vh - 12rem);
     max-height: calc(100svh - 12rem);
+    text-align: left;
 
-    & > h2 {
+    & > b {
       margin: 0 0 0.4em 0.8em;
       padding: 0;
       border: none;
@@ -308,7 +309,7 @@ for (const heading of Astro.props.headings) {
     function activateIndex(element: Element) {
       const newActiveIndex = document.querySelector<HTMLElement>(
         `#toc a[href='#${element.id}']`,
-      )
+      );
       if (newActiveIndex === null) {
         return;
       }
