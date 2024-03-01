@@ -3,7 +3,6 @@ import Help from "@components/utils/Help.astro";
 import Support from "@components/utils/Support.astro";
 import ApplyHelpJouhouSecurity from "./ApplyHelpJouhouSecurity.mdx";
 import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
-import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 
 {/**
   * @typedef {object} Props
@@ -24,9 +23,6 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
    <If cond={props.inlineHelp}>
      <ApplyHelpJouhouSecurity type="details" />
-   </If>
-   <If cond={props.inlineHelp}>
-     <ApplyHelpMFA type="details" />
    </If>
 1. Click on the "New Application" Button.
 1. A notification email with your account information (user ID and password) will be sent to both your [ECCS Cloud Email](/en/google/) address and the email address shown in the "Notification E-mail Address" field.<br />
@@ -55,6 +51,5 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
   <Help lang="en" support={props.support} slot="else">
     - <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
-    - <ApplyHelpMFA type="default" />
   </Help>
 </If>
