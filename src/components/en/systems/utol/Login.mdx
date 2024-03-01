@@ -1,0 +1,21 @@
+import If from "@components/utils/If.astro";
+import Support from "@components/utils/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+1. <If cond={props.blockLink}>
+     Access the following link and press "Login".
+
+    **[UTOL](https://utol.ecc.u-tokyo.ac.jp/login)**{:.box.center}
+
+     <Fragment slot="else">
+       Access [UTOL](https://utol.ecc.u-tokyo.ac.jp/login) and press "Login".
+     </Fragment>
+   </If>
+
+1. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
+
+<Support lang="en" show={props.support} />

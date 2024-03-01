@@ -1,6 +1,12 @@
 ---
 title: OneDrive
+breadcrumb:
+  title: OneDrive
 ---
+
+<div class="box--alert">
+    【お知らせ】<a href="/notice/2023/1225-microsoft-storage/">UTokyo Accountで利用するOneDrive等の容量制限について（第1報）</a>
+</div>
 
 ## OneDriveとは
 **OneDrive**は，Microsoft社が提供するオンラインストレージです．ファイルの保存や閲覧ができるほか，ファイルを編集したり，ファイルを他のユーザーに共有したりすることもできます．
@@ -19,7 +25,7 @@ title: OneDrive
 
 **[OneDrive](https://univtokyo-my.sharepoint.com/)**{:.box.center}
 
-その際，サインインしていない場合はサインインするよう求められますので，サインインしてください．
+その際，サインインしていない場合はサインインするよう求められますので，「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](/microsoft/signin#instruction)」を参照してサインインしてください．
 
 ### ファイルを作成・編集・アップロード・ダウンロードする
 ファイルを作成，編集，アップロード，ダウンロードする方法については，以下のページを参照してください．

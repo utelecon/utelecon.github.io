@@ -1,0 +1,24 @@
+import Login from "./Login.mdx";
+import NotificationHelp from "./NotificationHelp.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").Variant} variant
+  */}
+
+<ul class="procedure">
+  {/*
+    <If cond={props.variant === "oc"}>
+      <li>[Procedure video (in Japanese)](https://youtu.be/xAur5zar5Sc)</li>
+    </If>
+  */}
+  <li>
+    **Check: Login to UTOL**
+    <Login blockLink={props.variant === "individual"} support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Optional task: Linking UTOL with email / LINE / Slack notification**
+    
+    You can receive notifications via email, LINE, or [UTokyo Slack](/en/slack/) when there are updates to your courses. See "Setting notifications on UTOL" page (in preparation) for procedures.
+  </li>
+</ul>

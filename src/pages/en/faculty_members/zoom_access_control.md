@@ -7,7 +7,7 @@ This page introduces methods to prevent unintended participants (so-called "trol
 ## Methods of Restricting Access to Zoom Meetings
 Below are common methods of restricting user access to Zoom meeting rooms. We recommend using either method A or B for online classes at UTokyo. C and D are also commonly used, but we do not recommend them for online classes at our university for the reasons mentioned below.
 
-* Method A: Place no restriction on Zoom meeting room entrance (i.e. allow anyone to directly enter the meeting room), but restrict access to the meeting room URL by posting the URL on places that are visible to only UTokyo members (e.g., ITC-LMS).
+* Method A: Place no restriction on Zoom meeting room entrance (i.e. allow anyone to directly enter the meeting room), but restrict access to the meeting room URL by posting the URL on places that are visible to only UTokyo members (e.g., UTOL).
 * Method B: Allow participants signed in with a university account (i.e. account set up as a UTokyo member, including UTokyo Account) to directly enter the meeting room, and place participants not signed in with a university account in the Waiting Room.
 
 * Method C (**Not recommended**): Place all participants in the Waiting Room first. Then give each participant the host’s permission to enter the meeting room. This method is useful when the host knows the participants in advance, but not suitable for online classes where the host (instructor) may not know all the students.

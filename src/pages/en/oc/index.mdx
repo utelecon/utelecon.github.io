@@ -1,5 +1,7 @@
 ---
 title: Getting Ready for ICT Systems at UTokyo (for New Students)
+breadcrumb:
+  title: Getting Ready for ICT Systems at UTokyo (for New Students)
 slug: oc # 手順を外部ファイルからincludeするときに使う
 lang: en
 redirect_from:
@@ -9,11 +11,11 @@ redirect_from:
 
 import UTokyoAccount from "@components/en/systems/utokyo_account/index.mdx";
 import Utas from "@components/en/systems/utas/index.mdx";
-import ItcLms from "@components/en/systems/itc_lms/index.mdx";
+import Utol from "@components/en/systems/utol/index.mdx";
+import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
 import Zoom from "@components/en/systems/zoom/index.mdx";
 import EccsCloudEmail from "@components/en/systems/eccs_cloud_email/index.mdx";
 import Microsoft from "@components/en/systems/microsoft/index.mdx";
-import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
 import Eccs from "@components/en/systems/eccs/index.mdx";
 import InformationSecurity from "@components/en/InformationSecurity.mdx";
 
@@ -54,25 +56,25 @@ export const about_utokyo_account =
   "This is the account you will use to log into UTokyo’s ICT systems. The username may also be referred to as the “Common ID”.";
 export const about_utas =
   "This system allows you to browse the syllabus for each class, register courses, and check your grades (academic affairs system).";
-export const about_itc_lms =
+export const about_utol =
   "This system is used to download class material and submit assignments (learning management system).";
+export const about_utokyo_wifi =
+  "Wi-Fi services are available on campus. You will require them while taking online classes on campus. Please note that you will not be able to use the Wi-Fi services unless you have created an account in advance.";
 export const about_zoom =
   'This is a web conferencing system that is used for "simultaneous interactive" online classes. ';
 export const about_google =
   "This is a UTokyo Google account that allows users to use Google services, such as Gmail, as a UTokyo member. The ECCS Cloud Email can also be used as your UTokyo email address. Since some UTokyo web pages can only be accessed by UTokyo members, you are required to activate your ECCS Cloud Email even if you already own a Google account.";
 export const about_microsoft =
   "This is a Microsoft license offered to UTokyo Account holders. This license will enable you to download Microsoft Office applications, such as Word and Excel, and use online Microsoft tools for free with your UTokyo Account. Similar to Google Workspace, some UTokyo webpages can only be accessed with a UTokyo Account. Therefore, it is necessary to use your UTokyo Account even if you already own a Microsoft account.";
-export const about_utokyo_wifi =
-  "Wi-Fi services are available on campus. You will require them while taking online classes on campus. Please note that you will not be able to use the Wi-Fi services unless you have created an account in advance.";
 export const about_eccs =
   "ECCS terminals refer to the computers installed on campus. You can use them while taking online classes on campus. You will also use them in some face-to-face classes. Please note that you need to apply for the right of use in advance.";
 
 - **UTokyo Account**: { about_utokyo_account }
 - **UTAS**: { about_utas }
-- **ITC-LMS**: { about_itc_lms }
+- **UTOL (UTokyo LMS)**: { about_utol }
 - **Zoom**: { about_zoom }
 - **ECCS Cloud Email (Google Workspace)**: { about_google }
-- **UTokyo Microsoft License (Microsoft 365)**: { about_microsoft }
+- **UTokyo Microsoft License**: { about_microsoft }
 - **UTokyo Wi-Fi**: { about_utokyo_wifi }
 - **ECCS terminals**: { about_eccs }
 
@@ -143,13 +145,21 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 <Utas variant="oc" />
 
-### ITC-LMS
+### UTOL (UTokyo LMS)
 
-{:#itc_lms}
+{:#utol}
 
-<p>{ about_itc_lms }</p>
+<p>{ about_utol }</p>
 
-<ItcLms variant="oc" />
+<Utol variant="oc" />
+
+### UTokyo Wi-Fi
+
+{:#utokyo_wifi}
+
+<p>{ about_utokyo_wifi }</p>
+
+<UTokyoWiFi variant="oc" />
 
 ### Zoom
 
@@ -167,21 +177,13 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 <EccsCloudEmail variant="oc" />
 
-### UTokyo Microsoft License (Microsoft 365)
+### UTokyo Microsoft License
 
 {:#microsoft}
 
 <p>{ about_microsoft }</p>
 
 <Microsoft variant="oc" />
-
-### UTokyo Wi-Fi
-
-{:#utokyo_wifi}
-
-<p>{ about_utokyo_wifi }</p>
-
-<UTokyoWiFi variant="oc" />
 
 ### ECCS terminals
 
@@ -197,7 +199,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 - Some information about classes, such as class schedules and registration procedures, will be provided by your college/faculty/graduate school. Please be aware of how this information is provided and always check it (if you are unsure, please contact your faculty/graduate school).
   - (For first-year undergraduate students) Please check the [“新入生向けお知らせページ”](https://www.c.u-tokyo.ac.jp/zenki/news/newstudent.html) (Notices Page for New Students) of the College of Arts and Sciences (from April, please check the [前期課程 HP「教務課からのお知らせ」](https://www.c.u-tokyo.ac.jp/zenki/news/kyoumu/index.html) ("Notices from the Educational Affairs Section")).
-- To participate in a "simultaneous interactive" online class, you need to know the URL of the web conference. This information is normally posted in the “Online course information” section of the ITC-LMS introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “How to Obtain the Online Class URL (for Students)” regarding other ways of obtaining the URL.
+- To participate in a "simultaneous interactive" online class, you need to know the URL of the web conference. This information is normally posted in the “Online course information” section of the UTOL introduced above. However, depending on the class, the lecturer may inform you of the URL through other means. Please refer to the “[How to Obtain the Online Class URL (for Students)](url)” regarding other ways of obtaining the URL.
 
 ### Other Information Systems
 

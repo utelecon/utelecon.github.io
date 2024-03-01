@@ -55,7 +55,7 @@
     padding: 2rem 1rem;
   }
 
-  :first-child {
+  > :first-child {
     margin-top: 0;
   }
 }
