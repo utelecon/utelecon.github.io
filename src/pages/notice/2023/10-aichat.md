@@ -16,8 +16,6 @@ title: 生成AIチャットサービスの実験的な提供について
 
 <ins class="alert">※（2023年11月21日追記）OpenAI社のAPIの使用には上限があるため，多くの利用者の方に提供できるよう，今後，Microsoftの「<a href="https://azure.microsoft.com/ja-jp/products/ai-services/openai-service">Azure OpenAI</a>」サービスを併用することを計画しています．Azure OpenAIではOpenAI社のAPIと同じモデルが提供されており，同等に利用することができます．</ins>
 
-（参考）関連して「[Bing Chat Enterpriseによる生成AIチャットの利用について（教職員限定）](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=5422)」も案内を行っていますので，こちらの利用対象となる方はあわせてご利用ください．本サービスはAPIの使用上限・従量課金がありますので，利用の分散にご協力をお願いします．
-
 ## 本サービスの概要
 
 ### 利用対象者
