@@ -4,6 +4,8 @@ title: 生成AIチャットサービスの実験的な提供について
 
 <div style="text-align: right;">2023年10月20日公開</div>
 
+<div class="box alert">（2024年3月）新たに「<a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a>」を開始しました．Microsoft Copilotは文字数（トークン数）の制限も少なく利用しやすくなっていますので，今後はそちらのご利用をおすすめします．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，Microsoft Copilotの開始に伴い，提供を継続するかどうか検討します．</div>
+
 いつも本学の情報システムの運営にご協力いただきありがとうございます．
 
 このたび情報システム本部では，教育・研究にお使いいただくため，全学の構成員に向けて生成AIチャットサービスの実験的な提供を行うことにしました．
@@ -96,6 +98,8 @@ APIの使用には上限があり，また従量課金となっていること�
 本サービスは実験的なものであり，問題が生じた場合には提供を取りやめざるを得なくなります．利用者の皆様の節度ある行動を期待します．
 
 また，利用にあたってはOpenAI社の[Terms of Use](https://openai.com/policies/terms-of-use) <ins class="alert">およびMicrosoft Azureの<a href="https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/EES#ServiceSpecificTerms">Product Terms</a></ins> も参照し，適切に利用してください．
+
+<div class="box alert">（2024年3月）新たに「<a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a>」を開始しました．Microsoft Copilotは文字数（トークン数）の制限も少なく利用しやすくなっていますので，今後はそちらのご利用をおすすめします．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，Microsoft Copilotの開始に伴い，提供を継続するかどうか検討します．</div>
 
 ## 利用方法
 
