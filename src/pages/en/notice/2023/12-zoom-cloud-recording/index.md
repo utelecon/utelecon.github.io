@@ -48,7 +48,8 @@ The following systems are available for saving and sharing video data online at 
     - To [upload videos longer than 15 minutes](https://support.google.com/youtube/answer/71673), you will need to perform a process called "verifying account". Even after verifying your account, you cannot upload videos that exceed 256GB or 12 hours in a single file. Currently, there is no limit to the number of videos that can be uploaded or their total size.
 - OneDrive
     - Please refer to the [OneDrive](/microsoft/onedrive/) page (in Japanese) or [OneDrive for work or school help](https://support.microsoft.com/en-us/office/1eaa32e9-3229-47c2-b363-0a5306cb8c37) for usage.
-    - For the maximum storage capacity, we are planning to change it to about 50GB per person due to the limitation by Microsoft. Details will be announced in the near future.
+    - For the maximum storage capacity, we are planning to change it to about 50GB per person due to the limitation by Microsoft. ~~Details will be announced in the near future.~~
+    - (March 2024 Update) For details on the storage limitations of OneDrive, please see [Regarding the Storage Limitations of OneDrive and Others Used with UTokyo Account (First Report)](/notice/2023/1225-microsoft-storage/) page (in Japanese).
 
 ### How to set up automatic data deletion at a certain period of time after recording
 
