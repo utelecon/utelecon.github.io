@@ -7,14 +7,14 @@ On 12 March 2024 (scheduled), several system changes will be applied to the auth
 ## More information systems will require `@utac.u-tokyo.ac.jp` when signing in
 {:#require-utac}
 
-When signing in to your UTokyo Account, the screen on the left below used to appear and you could sign in with your 10-digit common ID and password, omitting `@utac.u-tokyo.ac.jp` in some cases. After this system change, more often the screen on the right below will appear and you will be required to enter your “10-digit common ID + `@utac.u-tokyo.ac.jp`”.
+When signing in to your UTokyo Account, the 1st screen below used to appear and you could sign in with your 10-digit common ID and password, omitting `@utac.u-tokyo.ac.jp` in some cases. After this system change, more often the 2nd screen below will appear and you will be required to enter your “10-digit common ID + `@utac.u-tokyo.ac.jp`”.
 
 <figure class="gallery">
     <img src="./yasuda.png" class="border">
     <img src="./akamon.png" class="border">
 </figure>
 
-※ The screen on the right is one that has ever been appeared, but the background image and layout will be changed on this occasion.
+※ The 2nd screen is one that has ever been appeared, but the background image and layout will be changed on this occasion.
 
 This change applies to information systems marked with “○” in the UTokyo Account Service Directory. Typical examples are as follows:
 
