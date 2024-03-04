@@ -3,6 +3,7 @@ import Help from "@components/utils/Help.astro";
 import Support from "@components/utils/Support.astro";
 import ApplyHelpJouhouSecurity from "./ApplyHelpJouhouSecurity.mdx";
 import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
+import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 
 {/**
   * `Markdown`を回避する例として紹介されています．
@@ -36,6 +37,7 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
    </If>
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
    <If cond={props.inlineHelp}>
+     <ApplyHelpMFA type="details" />
      <ApplyHelpJouhouSecurity type="details" />
    </If>
 1. 「新規申請」ボタンを押してください．
@@ -64,6 +66,7 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
 <If cond={props.inlineHelp}>
   <Support lang="ja" show={props.support} />
   <Help lang="ja" support={props.support} slot="else">
+    - <ApplyHelpMFA type="default" />
     - <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
   </Help>

@@ -11,7 +11,7 @@ breadcrumb:
 
 UTokyo VPNは東京大学全学の構成員（教職員および学生）が利用できるVPNサービスです．学外で端末からUTokyo VPNに接続すると，その端末は情報基盤センターに設置されたVPNゲートウェイを経由して通信を行うようになり，端末は仮想的に東京大学キャンパスネットワークであるUTNETに接続されている状態になります．
 
-UTokyo VPNを利用するには，まず自身の端末にVPNクライアントアプリケーションであるAnyConnectをインストールします．インストールしたアプリケーションを起動すると，UTokyo Accountの認証を経てVPNゲートウェイに接続し，端末からの通信は基本的にVPN経由でUTNETを通じて外部と通信するようになります．ただし，ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどへの通信は除きます．
+UTokyo VPNを利用するには，まず自身の端末にVPNクライアントアプリケーションであるCisco Secure Clientをインストールします．インストールしたアプリケーションを起動すると，UTokyo Accountの認証を経てVPNゲートウェイに接続し，端末からの通信は基本的にVPN経由でUTNETを通じて外部と通信するようになります．ただし，ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどへの通信は除きます．
 
 ### 電子ジャーナルへのアクセスについて
 {:#journal}
@@ -48,7 +48,7 @@ UTokyo VPNの利用にあたっては，情報セキュリティ教育の受講�
 ## UTokyo VPNの利用手順
 {:#how-to-use}
 
-UTokyo VPNを利用するには，専用のアプリ「Cisco AnyConnect」または「Cisco Secure Client」を端末にインストールし，接続を行います．以下の各ページで，OSごとにその方法を説明しています．なお，初期設定を含めたすべての作業を学外から行うことが可能です．
+UTokyo VPNを利用するには，専用のアプリ「Cisco Secure Client」を端末にインストールし，接続を行います．以下の各ページで，OSごとにその方法を説明しています．なお，初期設定を含めたすべての作業を学外から行うことが可能です．
 
 * [WindowsでUTokyo VPNを利用する](windows)
 * [macOSでUTokyo VPNを利用する](macos)
@@ -62,11 +62,11 @@ UTokyo VPNを利用するには，専用のアプリ「Cisco AnyConnect」また
 
 ### Q. VPN接続時にもローカルにあるプリンタを利用したい
 
-UTokyo VPN接続時は，そのままだとコンピュータの繋がっているローカルネットワークへの通信もVPNを経由します．VPNに接続したままローカルネットワークに設置されたプリンタ等を利用したい場合は，AnyConnect Secure Mobility Clientのウィンドウの左下，歯車のボタンをクリックしてください．すると下記のようなウィンドウが出てきます．このウィンドウの「Preferences」タブから，「Allow local (LAN) access when using VPN (if configured)」にチェックをつけてください．
+UTokyo VPN接続時は，そのままだとコンピュータの繋がっているローカルネットワークへの通信もVPNを経由します．VPNに接続したままローカルネットワークに設置されたプリンタ等を利用したい場合は，Secure Clientのウィンドウの左下，歯車のボタンをクリックしてください．すると下記のようなウィンドウが出てきます．このウィンドウ（Windowsの場合はウィンドウの「環境設定」タブ）から，「VPN使用時にローカル(LAN)アクセスを許可する(構成されている場合)」にチェックをつけてください．
 
 <div class="gallery">
   <figure class="center">
-    <img src="img/win08-anyconnect-win-pref.png" class="border">
+    <img src="img/win09-anyconnect-win-pref.png" class="border">
     <figcaption>Windowsの場合</figcaption>
   </figure>
   <figure class="center">
