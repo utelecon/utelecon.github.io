@@ -4,7 +4,7 @@ title: System changes to the authentication infrastructure of UTokyo Account
 
 On 12 March 2024 (scheduled), several system changes will be applied to the authentication infrastructure of UTokyo Account. These changes are designed to facilitate the mandatory use of multi-factor authentication for UTokyo Account. For more information on the mandatory use of multi-factor authentication, please refer to "[Multi-Factor Authentication is Mandatory for UTokyo Account](/en/notice/2024/mfa100-schedule)”.
 
-## More information systems will require `@utac.u-tokyo.ac.jp` when signing in
+## More information systems will require `@utac.u-tokyo.ac.jp` when signing in.
 {:#require-utac}
 
 When signing in to your UTokyo Account, the 1st screen below used to appear and you could sign in with your 10-digit common ID and password, omitting `@utac.u-tokyo.ac.jp` in some cases. After this system change, more often the 2nd screen below will appear and you will be required to enter your “10-digit common ID + `@utac.u-tokyo.ac.jp`”.
