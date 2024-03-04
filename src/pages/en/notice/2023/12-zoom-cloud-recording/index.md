@@ -49,7 +49,7 @@ The following systems are available for saving and sharing video data online at 
 - OneDrive
     - Please refer to the [OneDrive](/microsoft/onedrive/) page (in Japanese) or [OneDrive for work or school help](https://support.microsoft.com/en-us/office/1eaa32e9-3229-47c2-b363-0a5306cb8c37) for usage.
     - For the maximum storage capacity, we are planning to change it to about 50GB per person due to the limitation by Microsoft. ~~Details will be announced in the near future.~~
-    - (March 2024 Update) For details on the storage limitations of OneDrive, please see [Regarding the Storage Limitations of OneDrive and Others Used with UTokyo Account (First Report)](/notice/2023/1225-microsoft-storage/) page (in Japanese).
+    - (March 2024 Update) For details on the storage limitations of OneDrive, please see [Reduction of the storage capacity of OneDrive with UTokyo Accounts](/en/notice/2023/1225-microsoft-storage/) page.
 
 ### How to set up automatic data deletion at a certain period of time after recording
 
