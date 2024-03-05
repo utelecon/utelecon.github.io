@@ -6,8 +6,8 @@ import { unified } from "unified";
 
 const processor = unified()
   .use(remarkParse)
-  .use(remarkRehype)
-  .use(rehypeStringify);
+  .use(remarkRehype, { allowDangerousHtml: true })
+  .use(rehypeStringify, { allowDangerousHtml: true });
 
 async function render(md: string) {
   const result = await processor.process(md);
