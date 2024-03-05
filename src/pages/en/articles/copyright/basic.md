@@ -81,11 +81,11 @@ In principle, the law acknowledges the person who performed the act of creation 
 
 In the case of “Works Made for Hire,” the author's rights will belong to the employer, such as a corporation, from the beginning. See the next section for more explanation.
 
-For example, the University of Tokyo has internal guidelines regarding “Works Made for Hire,” called "[The University of Tokyo Rules for the Treatment of Works](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)."
+For example, the University of Tokyo has internal guidelines regarding “Works Made for Hire,” called "[The University of Tokyo Rules for the Treatment of Works](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)" (in Japanese).
 
 ![原則：著作物の種類が一般的な著作物の場合，著作者は著作物を創作した者になる．学内規則における例外1：試験問題等，大学の発意に基づいて教職員が職務として作成する職務著作物の場合，著作者は大学になる．学内規則における例外2：研究資金，大学の施設を利用して行った研究により教職員が作成する職務関連著作物の場合，著作者は教職員になる．（ただし，学外者に有償で著作物を提供する場合，届出が必要．大学へ著作権を譲渡，大学は収入の一部を著作者へ分配する）学内規則における例外3：上記2つのどちらにも当てはまらない著作物は，著作物を創作した教職員が著作者となる．](img/copyright_basic_3.png)
 
-&lt;Figure 2: Ownership of copyrighted works at the University of Tokyo&gt;(Prepared by [Online Education Supporter](/en/about/oes) with reference to the "[The University of Tokyo Rules for the Treatment of Works](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)" by the University of Tokyo's Industry-University Collaboration and Creation Promotion Division)
+&lt;Figure 2: Ownership of copyrighted works at the University of Tokyo&gt;(Prepared by [Online Education Supporter](/en/about/oes) with reference to the "[The University of Tokyo Rules for the Treatment of Works](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)" (in Japanese) by the University of Tokyo's Industry-University Collaboration and Creation Promotion Division)
 
 ### What Rights Does the Author Have?
 
@@ -106,7 +106,7 @@ Copyright is the right to prohibit unauthorized acts of exploitation of copyrigh
 
 The following copyrights are applicable to the use of copyrighted works in educational institutions.
 
-&lt;Table 1: Contents of copyright&gt; (Prepared with reference to pp. 14-18 of the Agency for Cultural Affairs' "[Copyright Textbook](https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf)")
+&lt;Table 1: Contents of copyright&gt; (Prepared with reference to pp. 14-18 of the Agency for Cultural Affairs' "[Copyright Textbook](https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf)" (in Japanese))
 
 |Type of Right|Explanation|Example|
 |:---:|:---|:---||
@@ -128,7 +128,7 @@ However, the moral rights of the author are not transferable because they are ri
 
 Moral rights of the author are rights that protect the moral interests of authors. Since a work is an expression of the author's thoughts and feelings, the author's moral interests may be damaged if, for example, the work is published without permission or if the content is changed without permission. That is why protection is provided. For example, the following rights are available.
 
-&lt;Table 2: Moral rights&gt; (Prepared with reference to the Agency for Cultural Affairs' Copyright Textbook, p. 13)
+&lt;Table 2: Moral rights&gt; (Prepared with reference to p.13 of the Agency for Cultural Affairs' "[Copyright Textbook](https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf)" (in Japanese), p. 13)
 
 |Type of Right|Explanation|Example|
 |:---:|:---|:---|
@@ -180,7 +180,7 @@ Published works may be used by being cited (Article 32, paragraph 1). For exampl
 + The source must be clearly indicated (The source information must specifically include the name of the work, the name of the author, the name of the publisher, the name of the journal in which the work appears, the edition or volume number, the year of publication, the website link and the date of the last visit).
 
 [^8]:The act which is practiced in the society and is recognized as being appropriate in the social sense. (Moriyuki Kado, "Lectures on the Copyright Law in Japanese (Revised Edition)," p. 265)
-[^9]:<!-- TODO  -->
+[^9]:One’s own work is the ‘primary’ and the quoted work is the ‘secondary’.
 
 In addition, public relations materials, research, statistical data, reports, etc., prepared under the name of the national government, local governments, etc., to inform the general public may be reproduced as explanatory material unless there is a notice prohibiting reproduction (Article 32, paragraph 2).
 
