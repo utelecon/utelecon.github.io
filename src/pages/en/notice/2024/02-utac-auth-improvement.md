@@ -48,7 +48,7 @@ Please note that these passwordless sign-in methods do not require other methods
 ### Using passwordless sign-in with a FIDO security key
 {:#using-fido}
 
-If you are using a FIDO Security Key as your UTokyo Account's multi-factor authentication identity verification method, you can use passwordless sign-in with a FIDO Security Key. Please refer to [the FIDO Security Key Initial Settings](/utokyo_account/mfa/fido-security_key/) for information on how to set up the initial settings and the available OS and browsers.
+If you are using a FIDO Security Key as your verification method for UTokyo Account's multi-factor authentication, you can use passwordless sign-in with a FIDO Security Key. Please refer to [the FIDO Security Key Initial Settings](/utokyo_account/mfa/fido-security_key/) (in Japanese) for information on how to set up the initial settings and the available OS and browsers.
 
 The sign-in process proceeds as follows:
 
