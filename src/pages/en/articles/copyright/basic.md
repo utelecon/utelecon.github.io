@@ -20,8 +20,9 @@ First, to understand what copyright law is, it is necessary to review why copyri
 
 In other words, the Copyright Act is a law that aims to coordinate the interests of right holders and users and to contribute to the development of culture by providing authors and other creators of works with exclusive rights to use their works, thereby protecting them and ensuring the freedom to use their works.
 
-![](img/copyright_basic_1.png)
-＜Figure 1: Purpose of Copyright Law＞ (Prepared based on the above text)
+![著作者と利用者がお互いにリボンを引っ張り合っている．両者の間に著作物があり，著作者は著作物について「独占的な権利の保護」を持っていること，利用者には著作物「自由利用を確保する規定」があることが示されている．](img/copyright_basic_1.png)
+
+\<Figure 1: Purpose of Copyright Law\> (Prepared based on the above text)
 
 This article explains how the Copyright Act defines “works” and “authors” and how the law stipulates authors’ rights.
 
@@ -49,7 +50,8 @@ Copyrighted “works” include[^2]:
 1. photographic works
 1. works of computer programming
 
-&gt;Illustrations: Images of examples of works - in order from top left: painting, music, sculpture, cartoon, film, novel&lt; ([Illust-ya](https://www.irasutoya.com/))
+![著作物のイメージを具体化したイラスト．キャンバスに向かって座って油絵を描く人，ギターを抱えて作曲をする人，ノミとツチを持って石材で彫刻を彫っている人，映画のフィルムとカメラとカチンコ，小説本，漫画本，映画のDVDのケース，音楽のCDのケース．](img/copyright_basic_2.png)
+&lt;Illustrations: Images of examples of works - in order from top left: painting, music, sculpture, cartoon, film, novel&gt; ([Illust-ya](https://www.irasutoya.com/))
 
 On the other hand, examples of non-copyrighted “works” include:
 
@@ -81,7 +83,9 @@ In the case of “Works Made for Hire,” the author's rights will belong to the
 
 For example, the University of Tokyo has internal guidelines regarding “Works Made for Hire,” called "[The University of Tokyo Rules for the Treatment of Works](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)."
 
-＜Figure 2: Ownership of copyrighted works at the University of Tokyo ＞(Prepared by [Online Education Supporter](/en/about/oes) with reference to the "[The University of Tokyo Rules for the Treatment of Works](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)" by the University of Tokyo's Industry-University Collaboration and Creation Promotion Division)
+![原則：著作物の種類が一般的な著作物の場合，著作者は著作物を創作した者になる．学内規則における例外1：試験問題等，大学の発意に基づいて教職員が職務として作成する職務著作物の場合，著作者は大学になる．学内規則における例外2：研究資金，大学の施設を利用して行った研究により教職員が作成する職務関連著作物の場合，著作者は教職員になる．（ただし，学外者に有償で著作物を提供する場合，届出が必要．大学へ著作権を譲渡，大学は収入の一部を著作者へ分配する）学内規則における例外3：上記2つのどちらにも当てはまらない著作物は，著作物を創作した教職員が著作者となる．](img/copyright_basic_3.png)
+
+&lt;Figure 2: Ownership of copyrighted works at the University of Tokyo&gt;(Prepared by [Online Education Supporter](/en/about/oes) with reference to the "[The University of Tokyo Rules for the Treatment of Works](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)" by the University of Tokyo's Industry-University Collaboration and Creation Promotion Division)
 
 ### What Rights Does the Author Have?
 
@@ -102,7 +106,7 @@ Copyright is the right to prohibit unauthorized acts of exploitation of copyrigh
 
 The following copyrights are applicable to the use of copyrighted works in educational institutions.
 
-&lt;Table 1: Contents of copyright> (Prepared with reference to pp. 14-18 of the Agency for Cultural Affairs' "[Copyright Textbook](https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf)")
+&lt;Table 1: Contents of copyright&gt; (Prepared with reference to pp. 14-18 of the Agency for Cultural Affairs' "[Copyright Textbook](https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf)")
 
 |Type of Right|Explanation|Example|
 |:---:|:---|:---||
@@ -124,7 +128,7 @@ However, the moral rights of the author are not transferable because they are ri
 
 Moral rights of the author are rights that protect the moral interests of authors. Since a work is an expression of the author's thoughts and feelings, the author's moral interests may be damaged if, for example, the work is published without permission or if the content is changed without permission. That is why protection is provided. For example, the following rights are available.
 
-&gt;Table 2: Moral rights&lt; (Prepared with reference to the Agency for Cultural Affairs' Copyright Textbook, p. 13)
+&lt;Table 2: Moral rights&gt; (Prepared with reference to the Agency for Cultural Affairs' Copyright Textbook, p. 13)
 
 |Type of Right|Explanation|Example|
 |:---:|:---|:---|
@@ -137,7 +141,7 @@ Moral rights of the author are rights that protect the moral interests of author
 
 Most works are created while incorporating the scholarly and artistic achievements of their predecessors. Assuming that copyrights continue to exist indefinitely, authors will permanently restrict others to use their works, which may hinder the "development of culture," which is the purpose of copyright law. On the other hand, if the protection term is too short, it makes it difficult for authors and copyright holders to receive adequate compensation. Therefore, the law stipulates the term of copyright duration to strike a balance between the protection of authors and the free use of users.
 
-&gt;Table 3: The Duration of copyrights in Japan&lt;
+&lt;Table 3: The Duration of copyrights in Japan&gt;
 
 <table>
   <tr><td>Terms of Protection for Personal Works (Article 51)</td><td>From creation to 70 years after the author's death</td></tr>
