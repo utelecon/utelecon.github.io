@@ -37,7 +37,7 @@ There are a variety of calendar tools used for managing appointments. In this se
 
 The University of Tokyo Google account (ECCS Cloud Email) is the University of Tokyo’s school account and its domain name is different from that of a general free account. You can use the calendar with a general free Gmail account, but you can access more features with ECCS Cloud Email.
 
-Please refer to "[ECCS Cloud Email (Google Workspace)](/en/eccs_cloud_email)" for information on how to set up your ECCS Cloud Email account.
+Please refer to "[ECCS Cloud Email (Google Workspace)](/en/google/)" for information on how to set up your ECCS Cloud Email account.
 
 In the following, this article assumes that you are logging in with an ECCS Cloud Email account.
 

@@ -1,5 +1,8 @@
 ---
 title: 西村明 先生　宗教学概論II
+breadcrumb:
+  parent: ../..
+  title: 西村明 先生　宗教学概論II
 filters:
   format: ["realtime_online", "ondemand"]
   number: mt30-lt100

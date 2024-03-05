@@ -3,6 +3,96 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2024-03-01
+  content:
+    ja: "[Microsoft Copilotによる生成AIチャットの提供について](/notice/2024/03-microsoft-copilot)"
+  important: true
+-
+  date: 2024-02-22
+  content:
+    ja: "[2024年度のUTokyo Wi-Fiアカウントの利用について](/notice/2024/02-wifi)"
+  important: true
+-
+  date: 2024-02-22
+  content:
+    ja: "[UTokyo Accountの認証基盤のシステム変更について](/notice/2024/02-utac-auth-improvement)（3月12日実施予定）"
+-
+  date: 2024-02-22
+  content:
+    ja: "[UTokyo Accountにおいて多要素認証の利用を必須化します](/notice/2024/mfa100-schedule)（段階的に実施，随時更新）"
+    en: "[Multi-Factor Authentication is Mandatory for UTokyo Account](/notice/2024/mfa100-schedule) (implemented in phases, updated as needed)<br> * 2024-02-28 update: English version added"
+  important: true
+-
+  date: 2024-02-22
+  content:
+    ja: "（教員向け）3/15 15:00から，[説明会「東京大学でITツールをもっと活用するための説明会」](/events/2024-03-15/)を開催いたします．"
+  important: true
+-
+  date: 2024-02-22
+  content:
+    ja: "（教員向け）3/11 15:00から，[説明会「東京大学で初めて授業をする先生のためのITツール説明会」](/events/2024-03-11/)を開催いたします．"
+  important: true
+-
+  date: 2024-02-19
+  content:
+    ja: "[ECCSクラウドメール (Google Workspace)のUTokyo AccountによるSSO化（2月20日実施）](https://www.ecc.u-tokyo.ac.jp/announcement/2024/01/25_3609.html)"
+  important: true
+-
+  date: 2024-01-25
+  content:
+    ja: "[2024年度Sセメスター「コモンサポーター」募集のお知らせ](/notice/2024/0125-cs) （2月13日13時締切）"
+-
+  date: 2024-01-19
+  content:
+    ja: "[Google等の送信ドメイン認証強化に関する情報のまとめ](/notice/2024/01-mail_server)"
+-
+  date: 2023-12-28
+  content:
+    ja: "[2つのUTokyo Accountをお持ちの方へ：アカウント一元化の実施に関する希望調査のお願い](/notice/2024/utokyo-account-consolidation)"
+-
+  date: 2023-12-25
+  content:
+    ja: "[UTokyo Accountで利用するOneDrive等の容量制限について（第1報）](/notice/2023/1225-microsoft-storage/)"
+    en: "[Reduction of the storage capacity of OneDrive with UTokyo Accounts](/en/notice/2023/1225-microsoft-storage/)"
+  important: true
+-
+  date: 2023-12-22
+  content:
+    ja: "[Zoomクラウド録画における不要なデータ削除等のお願い](/notice/2023/12-zoom-cloud-recording/)"
+    en: "[Request for Deletion of Unnecessary Data in Zoom Cloud Recording](/en/notice/2023/12-zoom-cloud-recording)"
+  important: true
+-
+  date: 2023-12-06
+  content:
+    ja: "[UTokyo Accountのパスワード有効期限の修正について](/notice/2023/1206-utokyo-account-password)"
+    en: "[Correction of Password Expiration Period for UTokyo Account](/en/notice/2023/1206-utokyo-account-password)"
+-
+  date: 2023-10-24
+  content:
+    ja: "[【緊急】ECCSクラウドメールのパスワード変更のお願い](https://www.ecc.u-tokyo.ac.jp/announcement/2023/10/24_3581.html)"
+    en: "[\\[Urgent\\] Request to change your password for ECCS Cloud Email](https://www.ecc.u-tokyo.ac.jp/en/announcement/2023/10/24_3582.html)"
+-
+  date: 2023-10-20
+  content:
+    ja: "[生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat)"
+-
+  date: 2023-09-29
+  content:
+    ja: "[Slackの新しいデザインの展開と説明会開催のお知らせ](/notice/2023/0929-new-slack-design)"
+  important: true
+-
+  date: 2023-09-04
+  content:
+    ja: "(教員用) 9/14 13:00から，[説明会「対面授業でも活用！Web会議・クラウドツールの説明会  ～ 授業等における生成AIの活用方法も考える ～」](/events/2023-09-14/)を開催いたします．"
+    en: "[A briefing session titled \"A briefing session on web conferencing and cloud tools usable in face-to-face classes - also discussing ways to utilize generative AI in teaching\"](/events/2023-09-14/) will be held on September 14th at 13:00 (only in Japanese)."
+  important: true
+-
+  date: 2023-09-01
+  content:
+    ja: "東京大学の情報システムとそのサポート体制について説明する資料[「大学生活に必要な情報システムの準備について（学生向け）」 (PDF)](/notice/2023/getting_ready_for_ICT_systems_students_2023a.pdf)と[「東京大学における情報システムの準備について（教員向け）」 (PDF)](/notice/2023/getting_ready_for_ICT_systems_faculty_2023a.pdf)の2023年度Aセメスター版を公開しました．"
+    en: "\"Getting Ready for ICT Systems at UTokyo\" [\\[For New Students\\]](/notice/2023/getting_ready_for_ICT_systems_students_2023a.pdf) [\\[For Faculty Members\\]](/notice/2023/getting_ready_for_ICT_systems_faculty_2023a.pdf) (materials explaining ICT systems at UTokyo and its support) has been released. (The English version is on the second page)"
+  important: true
+-
   date: 2023-08-24
   content:
     ja: "[「システムの障害・メンテナンス情報」ページ作成のお知らせ](/notice/2023/08-service-status)"

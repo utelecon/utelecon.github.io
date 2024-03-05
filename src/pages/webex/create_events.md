@@ -1,5 +1,7 @@
 ---
 title: Webex ウェビナーを作成する
+breadcrumb:
+  title: ウェビナーを作成する
 ---
 
 ## Webexウェビナーを作成する

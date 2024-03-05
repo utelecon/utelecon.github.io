@@ -1,5 +1,8 @@
 ---
 title: 樋口亮介 先生　刑法第２部
+breadcrumb:
+  title: 樋口亮介 先生　刑法第２部
+  parent: ../..
 filters:
   format: ["realtime_online"]
   number: mt100

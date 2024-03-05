@@ -1,5 +1,7 @@
 ---
 title: UTokyo Slack (Trial)
+breadcrumb:
+  title: UTokyo Slack
 ---
 
 ## What is UTokyo Slack?
@@ -48,7 +50,9 @@ Workspaces in UTokyo Slack are created upon request from faculty and staff. Plea
 
 ### Incorporation (migration) of existing workspace
 
-If you wish to use an existing workspace that you are currently using outside UTokyo Slack as a workspace in UTokyo Slack, rather than creating a new workspace, a special procedure called "incorporation (migration)" is required, and is only available on a limited basis. For details, please refer to the "[Incorporation (migration) of existing workspaces into UTokyo Slack](/slack/workspace/migration)" (in Japanese) page.
+(September 2023) We have closed the admission for incorporation (migration) 12:00 PM, August 24, 2023. See [announcements page](/notice/2023/06-slack-migration) (in Japanese) for details.
+
+<del>If you wish to use an existing workspace that you are currently using outside UTokyo Slack as a workspace in UTokyo Slack, rather than creating a new workspace, a special procedure called "incorporation (migration)" is required, and is only available on a limited basis. For details, please refer to the "[Incorporation (migration) of existing workspaces into UTokyo Slack](/slack/workspace/migration)" (in Japanese) page.</del>
 
 ## Others
 
@@ -56,7 +60,7 @@ If you wish to use an existing workspace that you are currently using outside UT
 
 - For basic notes on using UTokyo Slack, please refer to "**[UTokyo Slack Terms of Service](terms)**".
 - For the time being, UTokyo Slack will operate on a "trial" basis. There are currently no plans to terminate the service, but please note that individual settings may be changed or specific features may be disabled without prior notice. If you have any questions or comments, please feel free to contact us through [Support via Email Form](/en/support/#email-form).
-- Please refer to the "[Detailed specifications and settings for UTokyo Slack](/slack/details)" (in Japanese) section for details on specifications unique to UTokyo Slack (Slack's "Enterprise Grid" plan) and functions that are restricted by the organization settings.
+- Please refer to the "[Detailed specifications and settings for UTokyo Slack](details)" section for details on specifications unique to UTokyo Slack (Slack's "Enterprise Grid" plan) and functions that are restricted by the organization settings.
 
 ### Tips for utilization
 

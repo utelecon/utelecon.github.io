@@ -2,10 +2,10 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 {/**
   * @typedef {object} Props
-  * @property {true} [oneline]
+  * @property {import("@components/types").HelpItemType} type
   */}
 
-<HelpItem lang="en" oneline={props.oneline}>
+<HelpItem lang="en" type={props.type}>
   <Fragment slot="problem">If after entering your "company domain" you receive a message such as "This site cannot be reached"</Fragment>
   <Fragment slot="solution">If you receive a message such as "This site cannot be reached," "Sorry, we cannot find your server," or "The site you are trying to access cannot be found" in the browser, you did not enter the "company domain" correctly. Please check again that you have entered `u-tokyo-ac-jp`. In particular, note that the `ac` should be preceded and followed by a hyphen, not a period.</Fragment>
 </HelpItem>

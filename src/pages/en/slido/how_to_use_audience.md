@@ -1,5 +1,7 @@
 ---
 title: What Students Can Do in Slido
+breadcrumb:
+  title: What Students Can Do
 ---
 
 This page describes what operations the participants (students) can perform in Slido.

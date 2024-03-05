@@ -10,7 +10,7 @@ title: UTokyo MATLAB Campus-Wide License
 ## MATLABについて
 [MATLAB](https://jp.mathworks.com/products/matlab.html)は，科学技術計算を目的に開発されたプログラミング言語，およびこれを用いた数値計算・数式処理ソフトウェアです．代数・幾何・解析の各数学処理をはじめ，機械学習や統計分析・データの可視化・制御シミュレーションとそのハードウェアへの実装といった，さまざまな用途に利用できます．コードを書かずにGUIで操作することも可能なため，工学・理学などの専門分野における研究利用はもちろん，プログラミング初学者の基礎教育や，人文科学・社会科学の分野におけるデータ分析でも容易に導入できます．
 
-東京大学ではライセンスの包括契約を行っており，全学の構成員は個人の端末から下記の機能を追加の費用負担なく利用できます．提供される機能は大学の状況と契約内容により増減する場合があります．
+東京大学ではライセンスの包括契約を行っており，**学生および東京大学に雇用されている教職員**は個人の端末から下記の機能を追加の費用負担なく利用できます．提供される機能は大学の状況と契約内容により増減する場合があります．
 
 - MATLABのインストールと利用
 - MATLAB Onlineの無制限利用
@@ -38,36 +38,35 @@ title: UTokyo MATLAB Campus-Wide License
 ## 利用開始の手順
 MATLABの利用にはMathWorksアカウントの作成が必要です．また，包括ライセンスの有効化には[UTokyo Account](/utokyo_account/)，および東京大学から提供された`u-tokyo.ac.jp`で終わるメールアドレスが必要です．
 
-UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．また，`u-tokyo.ac.jp`で終わるメールアドレスの一例として，[ECCSクラウドメール](/eccs_cloud_email)を利用可能です．
+UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．また，`u-tokyo.ac.jp`で終わるメールアドレスの一例として，[ECCSクラウドメール](/google/)を利用可能です．
 ### まだMathWorksアカウントを作成していない場合
-1. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」をクリックしてください．
-    <!---    1.2. 【またはこちらを書く】MathWorks社[ライセンス認証ページ](https://jp.mathworks.com/licensecenter/total_headcount/90427-67813-64593-61894-60890) にアクセスしてください．--->
+1. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」を押してください．
 2. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-3. 「Create a MathWorks Account」と書かれたメニューが表示されたら，「Create」をクリックしてください．
+3. 「Create a MathWorks Account」と書かれたメニューが表示されたら，「Create」を押してください．
     <!---![](https://i.imgur.com/AAD3U9B.png)--->
-4. 画面の指示に従い，[ECCSクラウドメール](/eccs_cloud_email)などの，`u-tokyo.ac.jp`で終わるメールアドレスを使用してMathWorksアカウントを作成してください．
+4. 画面の指示に従い，[ECCSクラウドメール](/google/)などの，`u-tokyo.ac.jp`で終わるメールアドレスを使用してMathWorksアカウントを作成してください．
 5. 登録したメールアドレス宛てに`service@account.mathworks.com`から認証メールが届くので，記載されたリンクにアクセスします．メールの受信が確認できない場合は，迷惑メールに振り分けられていないか確認してください．
 6. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
 
-上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
+この手順がうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
 ### すでに作成済みのMathWorksアカウントがある場合
-1. お持ちのMathWorksアカウントのメールアドレスを，[ECCSクラウドメール](/eccs_cloud_email)などの，`u-tokyo.ac.jp`で終わるメールアドレスに更新します．
+1. お持ちのMathWorksアカウントのメールアドレスを，[ECCSクラウドメール](/google/)などの，`u-tokyo.ac.jp`で終わるメールアドレスに更新してください．
     <details>
         <summary>手順</summary>
         <ol>
-            <li><a href="https://jp.mathworks.com/mwaccount/">MathWorksアカウントページ</a>にアクセスし，サインインします．</li>
-            <li>ページ上部の「プロファイル > プロファイルの編集」をクリックします．</li>
-            <li>メールアドレスを変更し，「更新」をクリックします．</li>
-            <li><code>service@account.mathworks.com</code>から届く認証メールのリンクにアクセスします．</li>
+            <li><a href="https://jp.mathworks.com/mwaccount/">MathWorksアカウントページ</a>にアクセスし，サインインしてください．</li>
+            <li>ページ上部の「プロファイル > プロファイルの編集」を押してください．</li>
+            <li>メールアドレスを変更し，「更新」を押してください．</li>
+            <li><code>service@account.mathworks.com</code>から認証メールが届くので，そのメール内のリンクにアクセスしてください．</li>
         </ol>
     </details>
 2. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」をクリックしてください．
 3. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 4. 「Sign in to your existing MathWorks Account」と書かれたメニューが表示されたら，「Sign In」をクリックしてください．
-5. お持ちのMathWorksアカウントでサインインします．
+5. お持ちのMathWorksアカウントでサインインしてください．
 6. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
 
-上記の手続きがうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
+この手順がうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
 
 ## 基本的な利用の方法
 MATLABの機能をすべて使うには，PCにソフトウェア版のインストールを行うことが推奨されますが，PCに十分な処理速度のプロセッサ，および保存領域の余裕があることが必要です．また，インストール時にはインターネット通信が必要となります．
@@ -80,6 +79,17 @@ MATLABの機能をすべて使うには，PCにソフトウェア版のインス
 ダウンロードおよびインストールにはインターネット通信が必要です．[ダウンロードセンター](https://jp.mathworks.com/downloads/web_downloads/)にアクセスし，基本的には最新のリリースをダウンロードしてください．
 
 詳細な説明は準備中です．
+
+<details>
+<summary>「ライセンスの有効期限まで、あと X 日です。システム管理者または MathWorks に連絡してこのライセンスを更新してください。」と表示される場合</summary>
+東京大学でのライセンス契約更新に伴い，このような表示がされることがあります．次の手順で作業することで，ライセンスが更新され，解消されます．
+
+1. MATLABの「ホーム」タブにある「ヘルプ」メニューから「ライセンス」→「ソフトウェアのアクティベーションを行う」を選んでください．
+1. アクティベーションの画面が表示されるので，「インターネットを使用してアクティベーションを行う」を選択して進んでください．
+1. Mathworksアカウントでサインインしてください．
+1. ライセンスを選択する画面が表示されたら，「MATLAB (Individual)」を選んでください．
+1. アクティベーションが完了したら，MATLABを再起動してください．
+</details>
 
 ### オンライン版の利用
 MATLAB Onlineでは，ブラウザからオンラインリソースにアクセスし，ソフトウェア版と同様の操作画面でMATLABを利用することができます．ソフトウェア版ではPC内のデータの保存・読み取りを行うのに対して，オンライン版ではMATLAB Driveにデータの保存・読み取りを行います．利用ブラウザはGoogle Chromeが推奨されています．
@@ -114,8 +124,17 @@ MATLAB Onlineでは，ブラウザからオンラインリソースにアクセ�
 
 詳細な説明は準備中です．
 
-## 高度な利用方法について
-準備中
+## 高度なライセンスについて
+
+以下の高度なライセンスについて，希望する方に個別に提供しています．
+
+- [コンカレント ライセンス](https://jp.mathworks.com/help/install/license/concurrent-licenses.html)
+    - 演習室等で集中管理しているPCで利用したい場合に適用可能なライセンス認証の形態です．
+- [Parallel Server](https://jp.mathworks.com/help/matlab-parallel-server/index.html)
+    - 複数台のPCやクラウドによってクラスターを構成し，並列計算を行うためのライセンスです．
+    - 1台のマルチコアPCで行う通常の並列計算であれば，[Parallel Computing Toolbox](https://jp.mathworks.com/help/parallel-computing/index.html)で利用可能ですので，Parallel Serverは必要ありません．
+
+これらが必要な場合は，どのような理由・どのような形態で利用したいか具体的に分かるような情報を添えて，[サポート窓口のメールフォーム](/support/#email-form)へご相談ください．
 
 ## 参考情報
 

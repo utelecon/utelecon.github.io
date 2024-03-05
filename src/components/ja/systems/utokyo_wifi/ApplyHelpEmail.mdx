@@ -1,0 +1,13 @@
+import HelpItem from "@components/utils/HelpItem.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").HelpItemType} type
+  */}
+
+<HelpItem lang="ja" type={props.type}>
+  <Fragment slot="problem">通知メールが届かない場合</Fragment>
+
+  - 迷惑メールフォルダなどに紛れ込んでいないかどうか，再度確認してください．
+  - メールは，ECCSクラウドメールと，申請画面の「通知用メールアドレス」欄に表示されているメールアドレスに届きます．違うメールアドレスを見ていないか確認してください．
+</HelpItem>

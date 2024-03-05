@@ -17,7 +17,7 @@ import UseMail from "./UseMail.mdx";
   lang="en"
   system="ECCS Cloud Email (Google Workspace)"
   prefix="Task"
-  title="Set your password and email address"
+  title="Set your email address"
 >
   <Fragment slot="important">
     <Configure
@@ -36,7 +36,7 @@ import UseMail from "./UseMail.mdx";
   </li>
   <li>
     **Optional task: Log in on your smartphone** (for users of Gmail or other Google apps)
-    <LoginSp />
+    <LoginSp support={props.variant === "oc"} />
   </li>
   <li>
     **Exercise: Use your email** (You can use your email address `xxxx@g.ecc.u-tokyo.ac.jp` in Gmail)

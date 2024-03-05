@@ -1,5 +1,7 @@
 ---
 title: uteleconについて
+breadcrumb:
+  title: uteleconについて
 ---
 
 <p style="text-align: right">

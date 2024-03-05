@@ -3,6 +3,8 @@ title: Zoom 投票機能
 redirect_from:
   - /zoom/how/faculty_members/poll
   - /zoom/how/students/poll
+breadcrumb:
+  title: 投票機能
 ---
 
 Zoomの「投票」機能を用いて，授業中に受講者に向けて多肢選択のアンケートを実施できます．
