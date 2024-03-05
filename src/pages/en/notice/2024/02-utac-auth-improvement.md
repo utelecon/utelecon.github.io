@@ -1,5 +1,5 @@
 ---
-title: System changes to the authentication infrastructure of UTokyo Account
+title: System Changes to the Authentication Infrastructure of UTokyo Account
 ---
 
 On 12 March 2024 (scheduled), several system changes will be applied to the authentication infrastructure of UTokyo Account. These changes are designed to facilitate the mandatory use of multi-factor authentication for UTokyo Account. For more information on the mandatory use of multi-factor authentication, please refer to "[Multi-Factor Authentication is Mandatory for UTokyo Account](/en/notice/2024/mfa100-schedule)”.
