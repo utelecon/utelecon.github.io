@@ -2,7 +2,7 @@
 title: System Changes to the Authentication Infrastructure of UTokyo Account
 ---
 
-On 12 March 2024 (scheduled), several system changes will be applied to the authentication infrastructure of UTokyo Account. These changes are designed to facilitate the mandatory use of multi-factor authentication for UTokyo Account. For more information on the mandatory use of multi-factor authentication, please refer to "[Multi-Factor Authentication is Mandatory for UTokyo Account](/en/notice/2024/mfa100-schedule)”.
+On 12 March 2024 (scheduled), several system changes will be applied to the authentication infrastructure of UTokyo Account. These changes are intended to make multi-factor authentication, which becomes mandatory for UTokyo Account, more convenient to use. For more information on the mandatory use of multi-factor authentication, please refer to "[Multi-Factor Authentication is Mandatory for UTokyo Account](/en/notice/2024/mfa100-schedule)”.
 
 ## More information systems will require `@utac.u-tokyo.ac.jp` when signing in
 {:#require-utac}
@@ -30,7 +30,7 @@ Please understand that this change is necessary to make passwordless sign-in wid
 ## Passwordless sign-in will be widely available
 {:#passwordless-sign-in}
 
-Passwordless sign-in is a system that allows users to sign in without entering a password. With this system change, passwordless sign-in will be available in many cases.
+Passwordless sign-in is signing into a system without entering a password. With this system change, passwordless sign-in will be available in many cases.
 
 This change applies to information systems marked with “○” in the [UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/). Typical examples are as follows:
 
