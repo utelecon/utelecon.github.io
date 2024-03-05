@@ -84,5 +84,5 @@ Until now, some systems that support multi-factor authentication did not support
 
 - UTokyo MyOPAC
 - EZproxy
-- Business travel expense system
+- Business Travel Expense System
 - Academic Access Management Federation (GakuNin)
