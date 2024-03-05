@@ -16,7 +16,7 @@ When signing in to your UTokyo Account, the 1st screen below used to appear and 
 
 ※ The 2nd screen is one that has ever been appeared, but the background image and layout will be changed on this occasion.
 
-This change applies to information systems marked with “○” in the UTokyo Account Service Directory. Typical examples are as follows:
+This change applies to information systems marked with “○” in the [UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/ ) (in Japanese). Typical examples are as follows:
 
 - UTAS
 - UTOL
