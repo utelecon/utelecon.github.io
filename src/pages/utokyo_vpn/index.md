@@ -32,6 +32,11 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 - iOS: iOS 14, 15
 - iPadOS: iPadOS 14, 15
 
+### UTokyo Accountの多要素認証
+{:#mfa}
+
+セキュリティの観点より，UTokyo VPNの利用に当たっては[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須としております．「**[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」を**最後の「手順4：多要素認証の利用を申請する」まで確実に**行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が**システムに反映されるまで約40分かかるので，それまでしばらく待ってからUTokyo VPNを利用**してください．
+
 ### 情報セキュリティ教育
 {:#information-security-education}
 UTokyo VPNの利用にあたっては，情報セキュリティ教育の受講を完了することを必須としています．情報セキュリティ教育は，東京大学全体の[情報セキュリティ](https://univtokyo.sharepoint.com/sites/Security)の向上を目的として，毎年度UTokyo Accountを持つ全ての方を対象に実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)のページを確認してください．
@@ -40,10 +45,6 @@ UTokyo VPNの利用にあたっては，情報セキュリティ教育の受講�
 - 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格すると，ただちに利用資格の停止が解除されます．
 - 新たに入学・着任した方については，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を受講し，確認テストに合格した後にUTokyo VPNの利用が可能となります．利用開始の前に情報セキュリティ教育を受講してください．
 
-### UTokyo Accountの多要素認証
-{:#mfa}
-
-セキュリティの観点より，UTokyo VPNの利用に当たっては[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須としております．「**[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」を**最後の「手順4：多要素認証の利用を申請する」まで確実に**行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が**システムに反映されるまで約40分かかるので，それまでしばらく待ってからUTokyo VPNを利用**してください．
 
 ## UTokyo VPNの利用手順
 {:#how-to-use}
