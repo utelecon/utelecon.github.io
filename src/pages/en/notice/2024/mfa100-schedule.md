@@ -37,7 +37,7 @@ For any other questions or concerns, please contact the [utelecon support desk](
 ## Additional Notes
 {:#check-also}
 
-Our authentication system is undergoing changes to accommodate more MFA options. See "[System Changes to UTokyo Account Authentication Infrastructure](/notice/2024/02-utac-auth-improvement)" for details.
+- Our authentication system is undergoing changes to accommodate more MFA options. See "[System Changes to the Authentication Infrastructure of UTokyo Account](/en/notice/2024/02-utac-auth-improvement)" for details.
 - To obtain a UTokyo Wi-Fi account, you also need to pass the information security test. See "[About using UTokyo Wi-Fi accounts for AY 2024](/en/notice/2024/02-wifi)." for more details
 
 ## Update History
