@@ -30,7 +30,7 @@ Starting from the 2022 academic year, the University of Tokyo will implement BYO
 ### In case of already owning a device 
 
 - OS: Windows 10 or later, macOS 12 or later
-- CPU: equivalent to Intel Core i3 or higher
+- CPU: Equivalent to Intel Core i3 or higher
 - Memory: 8GB or more
 - Storage: HDD 256GB or SSD 128GB or more
 - Network: Wireless LAN Wi-Fi 4 or higher (IEEE802.11a,n or higher)
