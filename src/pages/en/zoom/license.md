@@ -1,13 +1,13 @@
 ---
-title: Zoom License for Large Meetings/Webinars
+title: Additional licenses for Zoom (Large meetings and Webinars)
 ---
 
 ## Overview
 With UTokyo Zoom Accounts, you can hold online meetings for a maximum capacity of 300 attendees and a maximum duration of 30 hours.
-Large Meetings for over 300 attendees and Webinars can also be held by applying for additional licenses beforehand. Here, we will explain how to apply for large meeting/webinar licenses. 
+**Large Meetings for over 300 attendees** and **Webinars** can also be held by applying for additional licenses beforehand. Here, we will explain how to apply for large meeting/webinar licenses. 
 
 ## Details and Terms of Large Meeting/Webinar Licenses
-* Please note that there is only a limited number of licenses. Licenses may not always be granted, especially for large meetings. Priority will be given to online class uses. Please also consider using alternative tools such as Webex (a meeting tool for up to 1000 attendees, which requires no license application and offers a webinar tool called Webex events).  
+* Please note that there is only a limited number of licenses. Licenses may not always be granted, especially for large meetings. Priority will be given to online class uses. Please also consider using alternative tools such as Webex (a meeting tool for up to 1000 attendees, which requires no license application and offers a webinar tool called Webex Webinars).
 * Only license applications from faculty/staff members are accepted . Students who wish to apply need to submit applications through faculty/staff members (faculty advisor or staff of Academic Affairs/Student Support Division).
 
 ### Large Meetings

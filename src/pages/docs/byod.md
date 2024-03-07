@@ -1,5 +1,7 @@
 ---
 title: 東京大学のBYOD方針
+breadcrumb:
+  title: 東京大学のBYOD方針
 redirect_from:
   - /notice/byod
 ---
@@ -45,4 +47,3 @@ redirect_from:
 以下の部局については個別の要件がありますのでご確認ください。
 
 - 工学部・工学系研究科
-- 情報理工学系研究科

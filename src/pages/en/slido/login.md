@@ -1,5 +1,7 @@
 ---
 title: Logging into Slido with Your UTokyo Account
+breadcrumb:
+  title: Logging in with Your UTokyo Account
 ---
 
 To host an event, you are required to log into Slido. Login is not necessary if you are joining an event as a participant. 

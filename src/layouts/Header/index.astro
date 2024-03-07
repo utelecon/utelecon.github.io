@@ -1,0 +1,253 @@
+---
+import Navigation from "./Navigation.astro";
+import type { Lang } from "@components/types";
+import Search from "./Search.astro";
+
+interface Props {
+  lang: Lang;
+  canonicalUrl: URL;
+  top?: boolean;
+}
+
+const { lang, canonicalUrl, top = false } = Astro.props;
+
+const localization = {
+  ja: {
+    title: "オンライン授業・Web会議ポータルサイト @ 東京大学",
+    top: "TOP",
+    about: "About",
+    theOtherLang: "English",
+  },
+  en: {
+    title:
+      "Online Class / Web Conference Portal Site @ the University of Tokyo",
+    top: "TOP",
+    about: "About",
+    theOtherLang: "日本語",
+  },
+}[lang];
+
+const urls = {
+  ja: {
+    top: "/",
+    about: "/about/",
+  },
+  en: {
+    top: "/en/",
+    about: "/en/about/",
+  },
+}[lang];
+const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
+  ? canonicalUrl.pathname.replace(/^\/en\//, "/")
+  : `/en${canonicalUrl.pathname}`;
+---
+
+<header id="header" class="header">
+  <div class="primary">
+    <button id="hamburger-button" class="hamburger-button">
+      <span class="hamburger-button__icon"></span>
+      <span class="hamburger-button__text">Menu</span>
+    </button>
+    {
+      top ? (
+        <h1 class="title">
+          <a class="title__link" href={urls.top}>
+            <span class="title__main">utelecon</span>
+            <span class="title__sub">{localization.title}</span>
+          </a>
+        </h1>
+      ) : (
+        <div class="title">
+          <a class="title__link" href={urls.top}>
+            <span class="title__main">utelecon</span>
+            <span class="title__sub">{localization.title}</span>
+          </a>
+        </div>
+      )
+    }
+  </div>
+  <div class="hamburger-contents">
+    <div class="links">
+      <Search />
+      <div>
+        <a href={urls.top}>{localization.top}</a> | <a href={urls.about}
+          >{localization.about}</a
+        > | <a href={theOtherLangUrl}>{localization.theOtherLang}</a>
+      </div>
+    </div>
+    <Navigation lang={lang} />
+  </div>
+</header>
+
+<script>
+  const button = document.getElementById("hamburger-button")!;
+  const header = document.getElementById("header")!;
+
+  button.addEventListener("click", () => {
+    header.classList.toggle("header--hamburger-open");
+  });
+</script>
+
+<style lang="scss">
+  @import "../../styles/color";
+  @import "./variables";
+
+  header.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+  .primary {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+  .hamburger-button {
+    display: none;
+  }
+  .links {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    justify-self: right;
+  }
+  .hamburger-contents {
+    display: contents;
+  }
+  @media (max-width: $header-hamburger-breakpoint) {
+    header.header {
+      display: flex;
+      flex-flow: column;
+    }
+    .primary {
+      display: flex;
+      align-items: center;
+    }
+    .hamburger-button {
+      display: block;
+    }
+    .title {
+      flex: auto;
+    }
+    .hamburger-contents {
+      display: none;
+    }
+    .header--hamburger-open {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      .hamburger-contents {
+        display: block;
+        flex: auto;
+        overflow-y: scroll;
+      }
+    }
+  }
+
+  @mixin background {
+    background-color: $header-background-color-primary;
+    background-image: linear-gradient(
+      120deg,
+      $header-background-color-secondary,
+      $header-background-color-primary
+    );
+  }
+  header.header {
+    color: white;
+    :link,
+    :visited {
+      color: white;
+      text-decoration: none;
+    }
+    @include background;
+  }
+  @media (max-width: $header-hamburger-breakpoint) {
+    .primary {
+      @include background;
+    }
+    .hamburger-contents {
+      background-color: $header-nav-bg-color;
+    }
+  }
+
+  .hamburger-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 1rem;
+    padding: 0.25rem;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    &__icon {
+      display: block;
+      position: relative;
+      margin: 0.75rem auto;
+      width: 1.5rem;
+      height: 2px;
+      background: white;
+      &:before,
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: white;
+      }
+      &:before {
+        top: -0.5rem;
+      }
+      &:after {
+        bottom: -0.5rem;
+      }
+    }
+    &__text {
+      display: block;
+      text-align: center;
+      font-size: 0.75em;
+    }
+    @media (max-width: 384px) {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .title {
+    margin: 0.5rem 2rem 0.25rem 2rem;
+    @media (max-width: $header-hamburger-breakpoint) {
+      margin: 0.5rem 1rem 0.5rem 0;
+    }
+    font-weight: normal;
+    &__link {
+      display: block;
+    }
+    &__main {
+      display: block;
+      font-size: 2rem;
+      font-weight: bold;
+      height: 1em;
+      line-height: 1em;
+      margin-bottom: 0.25rem;
+    }
+    &__sub {
+      display: block;
+      font-size: 0.75rem;
+    }
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 2rem 0.25rem 0;
+    font-size: 0.875rem;
+    :link:hover,
+    :visited:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: $header-hamburger-breakpoint) {
+      flex-direction: column;
+      row-gap: 1em;
+      padding: 1em;
+    }
+  }
+</style>

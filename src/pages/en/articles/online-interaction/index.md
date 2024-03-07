@@ -14,7 +14,7 @@ This article compares several online interaction tools that may be useful during
 * Want to share ideas and facilitate online meetings, but are not sure of what tool to use
 * Want to make it easier and more intuitive to divide up breakout sessions, since it currently takes a long time to assign participants to different rooms when zooming
 
-Here is a comparison of four tools for online meetings and conferencing: Discord, Wonder, Gather, and Remo.
+Here is a comparison of four tools for online meetings and conferencing: Discord, Gather, and Remo.
 
 ## Discord
 
@@ -54,41 +54,6 @@ Discord is a tool for online voice chat (conversation through voice). It is char
 * Discord - <https://discord.com>
 * Discord Support - <https://support.discord.com/hc/en-us>
 
-
-## Wonder
-
-<figure>
-<img src="pic04.png" width="200px">
-</figure>
-
-### What is Wonder?
-
-Wonder is a relatively new conferencing tool that allows users to intuitively move around the room (which is similar to a breakout room in Zoom) by moving their own icons on the screen. You can also create a room with several hundred people, and within that room, each person can speak to everyone else. A major advantage of this tool is that you can intuitively change who you are talking to by moving your icon on the screen.
-
-<figure>
-<img src="pic05.png">
-</figure>
-
-### Basic Instructions on How to Use Wonder
-
-1. This is not an app-based service, but a service that can be used on a browser, so access Wonder's site (<https://www.wonder.me/>), click the "Get a room" button, register your name and email address, and create a room.
-2. When you create a room you will receive a URL, which you can share with the person you wish to chat with so they can enter the room.
-3. In addition to the normal chat function, a room can be further subdivided into smaller rooms within a room. A specific person can also speak to the entire room.
-
-
-### What You Can Do With Wonder
-
-1. **Large group meetings**: Wonder can accommodate as many as 1,500 people at a time. You can create a room and then create a smaller room called a Circle, so you can avoid having too many people in a room and losing control.
-2. **Smooth room movement**: Participants can see who is talking with whom and can move from Circle to Circle to join other people's conversations. You can also invite other specific people to the Circle you are in.
-3. **Screen sharing**: As with other services, you can share your computer screen.
-4. **Broadcast**: This function allows you to talk to everyone in the room. Up to six people can use this feature at the same time, making it useful for panel discussions.
-5. **Text Chat**: Direct messages can be sent between individuals, to other people in the Circle, or to the whole group. You can use this feature to brainstorm ideas with Circle members, remind people of the time during group discussions, and so on.
-
-
-### Reference Materials
-
-* Wonder - <https://www.wonder.me/>
-* Wonder Help - <https://help.wonder.me/en/>
 
 ## Gather
 
@@ -163,21 +128,19 @@ Remo is an online communication tool that allows users to enter a virtual room w
 * [Video] How to make a banner: [How to Design a Sponsor Banner in Remo Virtual Conference](https://www.youtube.com/watch?v=KSHAhr61ZJw)
 * [Video] Troubleshooting:  <https://www.youtube.com/watch?v=r5WVj07y4mU> (in Japanese)
 
-## Comparison of 4 Tools
+## Comparison of 3 Tools
 
-The following table summarizes the characteristics of the four tools introduced so far.
+The following table summarizes the characteristics of the three tools introduced so far.
 
 <table>
   <tr>
    <td></td>
    <td>Discord</td>
-   <td>Wonder</td>
    <td>Gather</td>
    <td>Remo</td>
   </tr>
   <tr>
    <td>Charge</td>
-   <td>Free</td>
    <td>Free</td>
    <td>Free</td>
    <td>Free</td>
@@ -187,11 +150,9 @@ The following table summarizes the characteristics of the four tools introduced 
    <td>Application Download</td>
    <td>Browser</td>
    <td>Browser</td>
-   <td>Browser</td>
   </tr>
   <tr>
    <td>Voice/Video Chatting</td>
-   <td>◯</td>
    <td>◯</td>
    <td>◯</td>
    <td>◯</td>
@@ -201,11 +162,9 @@ The following table summarizes the characteristics of the four tools introduced 
    <td>◯</td>
    <td>◯</td>
    <td>◯</td>
-   <td>◯</td>
   </tr>
   <tr>
    <td>Whiteboard</td>
-   <td>×</td>
    <td>×</td>
    <td>◯</td>
    <td>◯</td>
@@ -213,14 +172,12 @@ The following table summarizes the characteristics of the four tools introduced 
   <tr>
    <td>General Notification</td>
    <td>Text Channel</td>
-   <td>Broadcast Function</td>
    <td>×</td>
    <td>Presentation Function</td>
   </tr>
   <tr>
    <td>Recommendation</td>
    <td>When using voice is sufficient, or when you want to have a meeting while viewing documents separately</td>
-   <td>When meeting with a large group or changing room assignments frequently</td>
    <td>When you want to feel like you're working with your peers in a playful UI</td>
    <td>When you want to host a workshop with around four people, etc.</td>
   </tr>

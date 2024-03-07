@@ -1,0 +1,15 @@
+---
+import type { Interview } from "@components/pages/GoodPractice";
+import GoodPractice from "@components/pages/GoodPractice";
+
+const interviews =
+  await Astro.glob<Omit<Interview, "path">>("./interview/*.md");
+---
+
+<GoodPractice
+  client:visible
+  interviews={interviews.map(({ url, frontmatter }) => ({
+    path: url!.replace(/\.md$/, ""),
+    ...frontmatter,
+  }))}
+/>

@@ -13,11 +13,13 @@
   padding: 0;
 
   & > li {
-    /* for IE11 */ display: block;
+    /* for IE11 */
+    display: block;
     display: contents;
   }
 
-  & > a, & > li > a {
+  & > a,
+  & > li > a {
     display: block;
     border: 1px solid $black-gray;
     border-left: 4px solid $heading-color;

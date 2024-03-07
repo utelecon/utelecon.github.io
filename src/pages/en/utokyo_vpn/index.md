@@ -1,18 +1,20 @@
 ---
 title: UTokyo VPN
+breadcrumb:
+  title: UTokyo VPN
 ---
 
 ## Introduction
 {:#introduction}
 
-UTokyo VPN is a VPN service available to all the faculties and staff of University of Tokyo. When a device is connected to the UTokyo VPN from outside the campus, the device communicates via the VPN gateway installed at the Information Technology Center. Thereafter, the device virtually connects to the UTNET - the University of Tokyo campus network.
+UTokyo VPN is a VPN service available to all the faculties and staff of the University of Tokyo (UTokyo). When a device is connected to the UTokyo VPN from outside the campus, the device communicates via the VPN gateway installed at the Information Technology Center. Thereafter, the device virtually connects to the UTNET - UTokyo campus network.
 
 To use UTokyo VPN, first install AnyConnect, a VPN client application, on your device. When the installed application is launched, it connects to the VPN gateway through the UTokyo Account authentication process, allowing communication from the device to the outside world through UTNET via VPN.
 
 ### Access to e-journals
 {:#journal}
 
-You cannot access e-journals and e-books subscribed by the University of Tokyo Library via UTokyo VPN.  Instead use EZProxy to access these e-journals and e-books.  To quickly download the pdf of a paper from the publisher's landing page, it's convenient to [Read using the bookmarklet](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others#marklet), also explained in [this page](https://note.com/k_yamamoto/n/n0ee13fe38f24) (in Japanese).  There are of course papers not subscribed by the library, as well as papers subscribed but cannot be obtained by this method.  For more details about the usage and eligible users, be sure to read the page "[Using EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)" and "[Supplement : How to read paper found outside the university](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others)" provided by the library.
+You cannot access e-journals and e-books subscribed by UTokyo Library via UTokyo VPN.  Instead use EZProxy to access these e-journals and e-books.  To quickly download the pdf of a paper from the publisher's landing page, it's convenient to [Read using the bookmarklet](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others#marklet), also explained in [this page](https://note.com/k_yamamoto/n/n0ee13fe38f24) (in Japanese).  There are of course papers not subscribed by the library, as well as papers subscribed but cannot be obtained by this method.  For more details about the usage and eligible users, be sure to read the page "[Using EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)" and "[Supplement : How to read paper found outside the university](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others)" provided by the library.
 
 
 ## Requirements for use
@@ -28,18 +30,22 @@ You cannot access e-journals and e-books subscribed by the University of Tokyo L
 - iOS: iOS 14, 15
 - iPadOS: iPadOS 14, 15
 
-### Information Security Education
-{:#information-security-education}
-
-At the University of Tokyo, we conduct information security education for everyone with a UTokyo Account each year. You will be notified when the implementation period arrives, so please ensure to pass the test. For details about the timing and the procedure of the course, kindly refer to the <a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx">Information Security Education page</a>.
-
--  If you don't complete the information security education within the implementation period, your privilege to use the UTokyo VPN will be suspended.
-- If your access gets suspended, please ensure to undergo the information security education. The suspension on your access will be instantly lifted the moment you succeed in the confirmation test.
-
 ### Enable Multi-factor Authentication
 {:#mfa}
 
 To use UTokyo VPN, you are required to enable multi-factor authentication for your UTokyo Account (please refer to [Using multi-factor authentication](/en/utokyo_account/mfa/) for your UTokyo Account). Thereafter, enable multi-factor authentication for your UTokyo Account (Multi-factor UTokyo VPN will be available 40 minutes after you apply for the authentication).
+
+### Information Security Education
+{:#information-security-education}
+
+UTokyo VPN is only available to users who have completed the Information Security Education. The Information Security Education is held annually for all UTokyo Account holders with the aim of improving [Information Security at UTokyo](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Home.aspx). For details about the timing and the procedure of the course, kindly refer to the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) page.
+
+- If you don't complete the Information Security Education within the implementation period, your privilege to use the UTokyo VPN will be suspended. Specifically, you will no longer be able to install the application required to use the UTokyo VPN. Furthermore, even if you have already installed it, you will no longer be able to connect to the UTokyo VPN.
+
+- If your access gets suspended, please ensure to undergo the Information Security Education. As soon as you pass the confirmation test, the suspension of your  access will be restored immediately. 
+
+- For those who are newly enrolled and appointed, complete the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) and pass the confirmation test in order to start using UTokyo VPN. Please complete the Information Security Education before starting to use the UTokyo VPN.
+
 
 ## How to use UTokyo VPN
 {:#how-to-use}
@@ -49,8 +55,8 @@ The following pages explain how to install the VPN client application on your de
 * [How to use UTokyo VPN on Windows devices](windows)
 * [How to use UTokyo VPN on macOS devices](macos)
 * [How to use UTokyo VPN on Android devices (in Japanese)](/utokyo_vpn/android)
-* [How to use UTokyo VPN on iPad devices (in Japanese)](/utokyo_vpn/android)
-* [How to use UTokyo VPN on iPhone devices (in Japanese)](/utokyo_vpn/android)
+* [How to use UTokyo VPN on iPad devices](ipad)
+* [How to use UTokyo VPN on iPhone devices](iphone)
 {:.cards}
 
 ## FAQ

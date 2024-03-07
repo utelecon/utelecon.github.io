@@ -1,5 +1,7 @@
 ---
 title: What Hosts Can Do in Slido
+breadcrumb:
+  title: What Hosts Can Do
 ---
 
 This page explains what hosts can do in Slido’s host page. Please access the host page from [Event List Page](https://admin.sli.do/events).

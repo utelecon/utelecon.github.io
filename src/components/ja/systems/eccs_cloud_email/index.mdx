@@ -1,0 +1,25 @@
+import If from "@components/utils/If.astro";
+import Configure from "./Configure.mdx";
+import Login from "./Login.mdx";
+import Access from "./Access.mdx";
+import LoginSp from "./LoginSp.mdx";
+import UseMail from "./UseMail.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {string} variant
+  */}
+
+- **作業：メールアドレスを設定する**
+  <Configure
+    support={props.variant === "oc"}
+    detailsLink={props.important}
+  />
+- **確認：ログインしてみる**
+  <Login support={props.variant === "oc"} />
+- **確認：東大のアカウント専用のページにアクセスできるか確認する**
+  <Access support={props.variant === "oc"} />
+- **任意の作業：スマホでログインする**（GmailなどGoogleのアプリを使っている人向け）
+  <LoginSp support={props.variant === "oc"} />
+- **練習：メールを使ってみる**（Gmailで`xxxx@g.ecc.u-tokyo.ac.jp`というメールアドレスが使えます）
+  <UseMail support={props.variant === "oc"} />

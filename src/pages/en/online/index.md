@@ -1,5 +1,9 @@
 ---
 title: Effective Use of Online Resources
+breadcrumb:
+  title: Effective Use of Online Resources
+redirect_from:
+  - /en/improvement/
 ---
 
 ## Introduction

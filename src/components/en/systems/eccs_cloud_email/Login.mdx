@@ -1,0 +1,20 @@
+import If from "@components/utils/If.astro";
+import Help from "@components/utils/Help.astro";
+import LoginHelpSuspicious from "./LoginHelpSuspicious.mdx";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} inlineHelp
+  */}
+
+1. Please wait for about 40 minutes for your newly set email address to be reflected in the system.
+2. Go to [the Google login page](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp).
+3. Enter your email address from the above procedure.
+4. Unless you have already signed in to UTokyo Account, the UTokyo Account sign-in page will be displayed. Please sign in. For username, please enter "10-digit common ID + `@utac.u-tokyo.ac.jp`".
+
+<If cond={props.inlineHelp}>
+  <LoginHelpSuspicious type="details" />
+  <Help lang="en" support slot="else">
+    - <LoginHelpSuspicious type="oneline" />
+  </Help>
+</If>

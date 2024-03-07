@@ -1,0 +1,13 @@
+import HelpItem from "@components/utils/HelpItem.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").HelpItemType} type
+  */}
+
+<HelpItem lang="en" type={props.type}>
+  <Fragment slot="problem">If you do not receive a notification email</Fragment>
+
+  - Please check your spam folder.
+  - Check your email address. The email will be sent to both your ECCS Cloud Email and the email address indicated in the "Notification e-mail address" field on the application screen.
+</HelpItem>

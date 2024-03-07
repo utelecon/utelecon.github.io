@@ -1,5 +1,7 @@
 ---
 title: Webex
+breadcrumb:
+  title: Webex
 ---
 
 ## はじめに
@@ -36,6 +38,10 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 以下ではWebex Meetings，Webex Webinarsについて利用方法を説明していきます.
 
 ## 利用方法
+
+### 情報システムゼミ「Webex の便利な使い方…こんなときどうすればいいの？」（2023年7月26日）スライド資料
+
+1. [Webex の便利な使い方.pdf](pdf/20230726_Seminar.pdf)
 
 ### 情報システムゼミ「ウェブ会議にも代替オプションを！～コミュニケーションの継続に備えるために、 Cisco Webexの良さをお伝えします～」（2023年5月25日）スライド資料
 

@@ -1,8 +1,11 @@
 ---
 title: 卒業・退職や所属変更によるアカウント失効についての注意
+breadcrumb:
+  title: 卒業・退職や所属変更によるアカウント失効についての注意
+  parent: ../..
 ---
 
-**卒業・退職等により東京大学から離籍する際には，UTokyo Accountが失効しサインインができなくなります．**それに伴い，[UTokyo Account](/utokyo_account/)を用いてサインインをしているZoomやMicrosoft 365などの各種情報システムにサインインすることができなくなります．アカウント失効後は各種情報システムに保存されているデータにアクセスすることもできません．加えて，離籍後は[ECCSクラウドメール](/eccs_cloud_email)のアカウントにもログインできなくなるため，ECCSクラウドメールのアカウントで利用していたGmailやGoogleドライブなどのデータにアクセスすることもできなくなります．
+**卒業・退職等により東京大学から離籍する際には，UTokyo Accountが失効しサインインができなくなります．**それに伴い，[UTokyo Account](/utokyo_account/)を用いてサインインをしているZoomやMicrosoft 365などの各種情報システムにサインインすることができなくなります．アカウント失効後は各種情報システムに保存されているデータにアクセスすることもできません．加えて，離籍後は[ECCSクラウドメール](/google/)のアカウントにもログインできなくなるため，ECCSクラウドメールのアカウントで利用していたGmailやGoogleドライブなどのデータにアクセスすることもできなくなります．
 
 また，東京大学内で所属が変わる際にも，場合によってはUTokyo AccountやECCSクラウドメールのアカウントが失効することがあります．
 
@@ -19,7 +22,7 @@ title: 卒業・退職や所属変更によるアカウント失効について�
 
 また，[UTokyo Antivirus License](/antivirus/)などの一部の情報システムには，離籍に伴って利用権限がなくなるにもかかわらず，自動的に利用が停止されないものがあります．それぞれの指示にしたがって利用を終了してください．
 
-UTokyo Antivirus Licenseの対応については「[UTokyo Antivirus License 2022年度に卒業・離職される方への注意事項](https://www.nc.u-tokyo.ac.jp/antivirus20230227)」を参照してください．
+UTokyo Antivirus Licenseの対応については「[UTokyo Antivirus License 2023年度に卒業・離職される方への注意事項<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」を参照してください．
 
 
 ## 東京大学内で所属の変更がある場合

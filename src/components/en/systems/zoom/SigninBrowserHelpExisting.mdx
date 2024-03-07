@@ -1,0 +1,11 @@
+import HelpItem from "@components/utils/HelpItem.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").HelpItemType} type
+  */}
+
+<HelpItem lang="en" type={props.type}>
+  <Fragment slot="problem">If you cannot see the page that says “UTokyo Zoom” after accessing the link above</Fragment>
+  <Fragment slot="solution">This happens when you are already signed into Zoom with your existing account. Click the icon in the upper right corner of the [Zoom settings page](https://zoom.us/profile) (your icon or the human silhouette if you do not have a profile picture) to "SIGN OUT". Thereafter, try to access the site again.</Fragment>
+</HelpItem>

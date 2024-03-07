@@ -1,11 +1,7 @@
 @mixin box {
   display: block;
   border: 1px solid currentcolor;
-  margin-bottom: 1em;
   padding: 0.5em;
-  li & {
-    margin-bottom: 0;
-  }
 }
 
 @mixin box--bold {
@@ -28,6 +24,7 @@
   }
 }
 
-strong.box, b.box {
+strong.box,
+b.box {
   @include box--bold;
 }

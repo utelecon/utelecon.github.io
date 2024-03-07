@@ -1,0 +1,12 @@
+import Support from "@components/utils/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} support
+  */}
+
+1. <Fragment>{props.showAfterLogin && "ログインした後，"}</Fragment>上部のメニューで「学生情報」「現住所等変更入力」を順に押してください．
+2. その画面の「E-MAIL 1」という欄に，あなたに確実に届くメールアドレスが登録されているか確認してください．
+3. もし，何も登録されていなかったり，メールアドレスが間違っていたりしたら，あなたに確実に届くメールアドレスに変更してください．
+
+<Support lang="ja" show={props.support} />

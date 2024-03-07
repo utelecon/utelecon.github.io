@@ -1,8 +1,11 @@
 ---
 title: Notice on Account Revocation due to Graduation, Resignation or Change of Affiliation
+breadcrumb:
+  title: Notice on Account Revocation due to Graduation, Resignation or Change of Affiliation
+  parent: ../..
 ---
 
-**When you leave the University of Tokyo due to graduation, resignation, or other reasons, your UTokyo Account will be revoked and you will no longer be able to sign in.** As a result, you will no longer be able to sign in to the various information systems such as Zoom and Microsoft 365 provided by the University of Tokyo that require a [UTokyo Account](/en/utokyo_account/) for sign-in. After your account has been revoked, you will not be able to access any data stored in these information systems. In addition, since you will not be able to log in to your [ECCS Cloud Email](/en/eccs_cloud_email) account after you leave the university, nor will you be able to access data stored in Gmail, Google Drive, or other services which you used in your ECCS Cloud Email account.
+**When you leave the University of Tokyo due to graduation, resignation, or other reasons, your UTokyo Account will be revoked and you will no longer be able to sign in.** As a result, you will no longer be able to sign in to the various information systems such as Zoom and Microsoft 365 provided by the University of Tokyo that require a [UTokyo Account](/en/utokyo_account/) for sign-in. After your account has been revoked, you will not be able to access any data stored in these information systems. In addition, since you will not be able to log in to your [ECCS Cloud Email](/en/google/) account after you leave the university, nor will you be able to access data stored in Gmail, Google Drive, or other services which you used in your ECCS Cloud Email account.
 
 Also, when your affiliation changes within the University of Tokyo, your UTokyo Account or ECCS Cloud Email account may also be revoked in some cases.
 
@@ -20,7 +23,7 @@ If you leave the University of Tokyo due to graduation or resignation, your UTok
 
 Furthermore, some information systems, such as the [UTokyo Antivirus License](/antivirus/), are not automatically terminated even though you are no longer authorized to use them upon leaving the university. Please follow the instructions or each system to terminate their use.
 
-Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers in FY2022](https://www.nc.u-tokyo.ac.jp/antivirus20230227)" page (in Japanese) for more information on the UTokyo Antivirus License.
+Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers in FY2023<small>(*You must sign in with your UTokyo Account to view this page)</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)" page (in Japanese) for more information on the UTokyo Antivirus License.
 
 ## If your affiliation changes within the University of Tokyo
 {:#change}

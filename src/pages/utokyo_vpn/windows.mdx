@@ -1,5 +1,7 @@
 ---
-title: WindowsでUTokyo VPNを利用する 
+title: WindowsでUTokyo VPNを利用する
+breadcrumb:
+  title: Windowsで利用する
 ---
 import SubpageBeginning from './_subpage_beginning.md';
 import HelpMfa from './_help_mfa.html';
@@ -20,8 +22,9 @@ import HelpMultipleUsers from './_help_multiple_users.html';
 
 ![](img/win01-vpn1-login.png){:.medium.center.border}
 
-<HelpSecurityEducation />
 <HelpMfa />
+<HelpSecurityEducation />
+
 
 **手順B:** サインインに成功すると，以下のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for Windowsをクリックして，クライアントアプリケーションをダウンロードしてください．
 
@@ -31,19 +34,15 @@ import HelpMultipleUsers from './_help_multiple_users.html';
 
 その後はダウンロードしたファイルを開き，他のWindows用アプリケーションと同様にインストールします．もし以下のようなMicrosoft Storeの画面が開いたら，「Microsoft Store 以外からのインストールを続行する」を選択してください．  
 
-![](img/win12-install-0.png){:.small.center.border}
+![](img/win03-install-0.png){:.small.center.border}
 
-**手順C:** 以下のセットアップウィザードの画面に従って，インストールを進めます．End User License Agreementではその内容を確認の上，"I accept the terms in the License Agreement"を選択し，Nextを押すと次へ進みます．
+**手順C:** 以下のセットアップウィザードの画面に従って，インストールを進めます．End User License Agreementではその内容を確認の上，「I accept the terms in the License Agreement」を選択し，Nextを押すと次へ進みます．
 
-<figure class="gallery">
-  <img src="img/win03-install-1.png" class="border" />
-  <img src="img/win04-install-2.png" class="border" />
-  <img src="img/win05-install-3.png" class="border" />
-</figure>
+<figure class="gallery">![](./img/win04-install-1.png){:.border}![](./img/win05-install-2.png){:.border}![](./img/win06-install-3.png){:.border}</figure>
 
-**手順D:** インストールが完了すると，アプリにVPNクライアントアプリケーションであるCisco AnyConnect Secure Mobility Clientが追加されています．
+**手順D:** インストールが完了すると，アプリにVPNクライアントアプリケーションであるCisco Secure Clientが追加されています．
 
-![](img/win06-cisco-on-task.png){:.medium.center.border}
+![](img/win07-cisco-on-task.png){:.medium.center.border}
 
 これで準備は完了です．
 
@@ -52,27 +51,28 @@ import HelpMultipleUsers from './_help_multiple_users.html';
 
 以下の手順はVPNを利用するたびに必要です. 特にPCを起動した直後に自動的にVPNに接続されるわけではありませんので, ご注意ください.
 
-**手順E:** 準備編でインストールしたCisco Anyconnect Secure Mobility Clientを起動すると，以下のような画面が出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「Connect」ボタンをクリックします．
+**手順E:** 準備編でインストールしたCisco Secure Clientを起動すると，以下のような画面が出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「接続」ボタンをクリックします．
 
-![](img/win07-app-window-connect.png){:.medium.center.border}
+![](img/win08-app-window-connect.png){:.medium.center.border}
 
-**手順F:** 「Connect」ボタンを押し，以下のようなUTokyo Accountの認証画面が表示されたらご自身のUTokyo Accountでサインインしてください．前回のアクセスから時間をおかずに起動した場合は，この画面が表示されないで直ちにVPN接続が開始されることもあります．
+**手順F:** 「接続」ボタンを押し，以下のようなUTokyo Accountの認証画面が表示されたらご自身のUTokyo Accountでサインインしてください．前回のアクセスから時間をおかずに起動した場合は，この画面が表示されないで直ちにVPN接続が開始されることもあります．
 
-![](img/win09-anyconnect-login.png){:.medium.center.border}
+![](img/win10-anyconnect-login.png){:.medium.center.border}
 
 <HelpMultipleUsers />
-<HelpSecurityEducation />
 <HelpMfa />
+<HelpSecurityEducation />
 
-**手順G:** 手順Fの後，以下のように「Connected: vpn1.adm.u-tokyo.ac.jp」と表示する画面が出てくると，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由し，東京大学キャンパスネットワークに接続している状態で行われます．
 
-![](img/win10-vpn-connected.png){:.medium.center.border}
+**手順G:** 手順Fの後，以下のように「接続中: vpn1.adm.u-tokyo.ac.jp」と表示する通知が出てくると，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由し，東京大学キャンパスネットワークに接続している状態で行われます．
 
-**手順H:** 再度Cisco AnyConnect Secure Mobility Clientをクリックし，現在の状態を確認します．表示された画面で，以下のように「Connected to vpn1.adm.u-tokyo.ac.jp」と表示されていれば，お使いの機器はUTokyo VPNに接続している状態です．
+![](img/win11-vpn-connected.png){:.medium.center.border}
 
-VPNを切断する際は，この画面の「Disconnect」ボタンをクリックしてください．
+**手順H:** 再度Cisco Secure Clientをクリックし，現在の状態を確認します．表示された画面で，以下のように「vpn1.adm.u-tokyo.ac.jpに接続されています」と表示されていれば，お使いの機器はUTokyo VPNに接続している状態です．
 
-![](img/win11-vpn-connected-window.png){:.medium.center.border}
+VPNを切断する際は，この画面の「切断」ボタンをクリックしてください．
+
+![](img/win12-vpn-connected-window.png){:.medium.center.border}
 
 ---
 

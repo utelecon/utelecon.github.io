@@ -1,29 +1,28 @@
 {
-  "$schema": "http://json-schema.org/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "array",
-  "description": "array of items",
   "items": {
     "type": "object",
-    "description": "a block of navigation",
+    "description": "ナビゲーションの1つのまとまりです．上部ナビゲーションではプルダウンの根本に，下部ナビゲーションでは見出しのように表示されます．",
     "properties": {
       "name": {
         "type": "string",
-        "description": "name of the navigation block"
+        "description": "ナビゲーションのまとまりのタイトルです．"
       },
       "contents": {
         "type": "array",
-        "description": "array of navigation rows",
+        "description": "そのまとまりのナビゲーションの中身です．",
         "items": {
           "type": "object",
-          "description": "a navigation row",
+          "description": "ナビゲーションの1行です．",
           "properties": {
             "name": {
               "type": "string",
-              "description": "name of the navigation row; markdown/html available"
+              "description": "ナビゲーションのタイトルです．Markdown+HTML形式で記述することができます．"
             },
             "url": {
               "type": "string",
-              "description": "url of the navigation row"
+              "description": "ナビゲーションのリンク先です．`/`から始めてください．"
             }
           },
           "required": ["name", "url"],

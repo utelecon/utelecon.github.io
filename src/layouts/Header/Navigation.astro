@@ -1,0 +1,172 @@
+---
+import ja from "@data/nav/ja.yml";
+import en from "@data/nav/en.yml";
+import type { Navigation } from "@data/schemas/nav";
+import Markdown from "@components/utils/Markdown.astro";
+import type { Lang } from "@components/types";
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const data: Navigation[] = {
+  ja,
+  en,
+}[lang];
+---
+
+<nav class="header">
+  <ul>
+    {
+      data.map((row) => (
+        <li>
+          <div>{row.name}</div>
+          <ul>
+            {row.contents.map(({ name, url }) => (
+              <li>
+                <a href={url}>
+                  <Markdown content={name} />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style lang="scss">
+  @import "../../styles/color";
+  @import "./variables";
+
+  nav.header {
+    color: white;
+    :link,
+    :visited {
+      color: white;
+      text-decoration: none;
+    }
+
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    display: block;
+
+    @media not all and (max-width: $header-hamburger-breakpoint) {
+      & > ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        & > li {
+          display: block;
+          flex: auto;
+          position: relative;
+          height: 3rem;
+          text-align: center;
+          cursor: pointer;
+          & > div {
+            padding: 1rem 0;
+            line-height: 1rem;
+            &:after {
+              content: "";
+              display: inline-block;
+              width: 0.5rem;
+              height: 0.5rem;
+              margin-left: 0.5rem;
+              border-right: 1.5px solid white;
+              border-bottom: 1.5px solid white;
+              transform: translateY(-0.25rem) rotate(45deg);
+            }
+          }
+          & > ul {
+            visibility: hidden;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+            width: 100%;
+            min-width: 20vw;
+            top: 2.25rem;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0 auto;
+            padding: 0;
+            background: $header-nav-bg-color;
+            transition: all 0.1875s ease;
+            & > li {
+              display: block;
+              padding: 0;
+              border-top: 1px solid white;
+              & > a {
+                display: block;
+                padding: 0.5rem 0;
+                &:hover {
+                  background: $header-nav-bg-color-dark;
+                }
+              }
+            }
+          }
+          &:hover > ul {
+            visibility: visible;
+            top: 3rem;
+            opacity: 1;
+          }
+          &:first-child > ul {
+            left: 0;
+            transform: none;
+          }
+          &:last-child > ul {
+            left: auto;
+            right: 0;
+            transform: none;
+          }
+          @media (min-width: 1024px) {
+            flex: 1;
+            &,
+            &:first-child,
+            &:last-child {
+              & > ul {
+                min-width: auto;
+                left: auto;
+                right: auto;
+                transform: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: $header-hamburger-breakpoint) {
+      & > ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid $white-gray-dark;
+        background: $header-nav-bg-color;
+        & > li {
+          display: block;
+          & > div {
+            padding: 0.5em 1em;
+            border-top: 1px solid $white-gray-dark;
+          }
+          & > ul {
+            display: block;
+            padding: 0;
+            & > li {
+              display: block;
+              border-top: 1px solid $gray;
+              & > a {
+                display: block;
+                padding: 0.5em 1em 0.5em 2em;
+                &:hover {
+                  background: $header-nav-bg-color-dark;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+</style>

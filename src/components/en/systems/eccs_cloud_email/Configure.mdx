@@ -1,0 +1,16 @@
+import If from "@components/utils/If.astro";
+import Support from "@components/utils/Support.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {boolean} [support]
+  * @property {boolean} [img]
+  */}
+
+1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet) and enter the username and password for your UTokyo Account to log in (Please note that the username is only a 10-digit number here).
+1. Click "ECCS Cloud Email (mail address)" on the left to open the email address setting page. Enter your preferred username in the "Email Address" field and click "SAVE".
+    <If cond={props.img}>
+      ![](/en/google/change-localpart.png){:.medium}
+    </If>
+
+<Support lang="en" show={props.support} />

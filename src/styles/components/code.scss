@@ -1,6 +1,20 @@
 code {
-    padding: 0.2em 0.4em;
-    font-size: 0.9em;
-    color: black;
-    background-color: $white-gray-light;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
+  color: black;
+  background-color: $white-gray-light;
+}
+
+code,
+pre {
+  &,
+  &:lang(en) {
+    hyphens: none;
+  }
+}
+
+code em {
+  font-style: normal;
+  font-weight: bold;
+  background-color: yellow;
 }
