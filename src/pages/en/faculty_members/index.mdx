@@ -9,7 +9,8 @@ redirect_from:
 ---
 
 import Courses from '@components/en/Courses.mdx'
-import ChangeUtacPassword from '@components/en/systems/utokyo_account/ChangePassword.mdx'
+import UTokyoAccountChangePassword from '@components/en/systems/utokyo_account/ChangePassword.mdx'
+import UTokyoAccountMFA from '@components/en/systems/utokyo_account/MFA.mdx'
 import ZoomSigninBrowser from '@components/en/systems/zoom/SigninBrowser.mdx'
 import InformationSecurity from '@components/en/InformationSecurity.mdx'
 import UtolLogin from '@components/en/systems/utol/Login.mdx'
@@ -22,11 +23,13 @@ A briefing session titled “<a href="/events/2023-09-14/">A briefing session on
 
 Dear new faculty members of the University of Tokyo,
 
-The University of Tokyo will mainly conduct face-to-face classes in the academic year 2023 with the necessary infection prevention measures in place. On the other hand, hybrid classes, which combine face-to-face and online presence in classes, or online-only classes will also be offered when it is possible to enhance the educational effect. Even in face-to-face classes, there are many situations where the use of digital technology is effective, such as electronic distribution of materials and submission of assignments. For classes where students bring their own laptops to the classroom, we are working on related initiatives such as establishing a BYOD policy and enhancing the Wi-Fi to cover most of the campus. We would like to ask you to make the initial account setup and other necessary preparations well in advance so that you can smoothly conduct activities using systems such as the learning management systems (LMS) and web conferencing.
+While digital technology is being used widely in the society these days, the University of Tokyo is also making progress in its Digital Transformation (DX) initiatives. In education, face-to-face classes are the main form of teaching, but there are many situations where the use of digital technology is needed, such as electronic distribution of materials and submission of assignments. For classes where students bring their own laptops to the classroom, we are working on related initiatives such as establishing a BYOD policy and enhancing the Wi-Fi to cover most of the campus. We would like to ask you to make the initial account setup and other necessary preparations well in advance so that you can smoothly conduct activities using systems such as the learning management systems (LMS) and web conferencing.
 
-While digital technology is being used widely in the society these days, the University of Tokyo is also making progress in its Digital Transformation (DX) initiatives. Digital technologies such as chat tools and web conferencing have made it easier for people to interact and collaborate with each other at a distance, and have greatly changed the form of communication. There are many situations in which new technologies can lead to meaningful activities, such as collaborative editing using cloud tools for group work in class. It is also important to learn from the opinions of students who have mastered the tools quickly. Although there is still much work to be done to enhance our overall educational activities, we would like to take on the challenge of creating the next generation of education with the collective efforts of all UTokyo. 
+Nowadays, for the past year or so, generative AI, as represented by ChatGPT, has been a hot topic of discussion. The University of Tokyo appreciates its positive aspects and will not uniformly prohibit the use of natural language-generation AI tools, and we will actively explore its potential applications to education and research. On the other hand, there is also a concern that students may carelessly use generative AI and fail to achieve the learning objectives they are supposed to acquire. We hope instructors themselves will try using AI to understand what AI is good at and bad at, and then set their stance as instructors on the use of generative AIs for each class and assignment, in line with the goals of the class, and communicate this stance clearly to students. For details, please refer to the guideline "[Policy on the use of AI tools in classes](/en/docs/ai-tools-in-classes)". Although there are still some aspects that remain to be seen how the University's activities will change, while incorporating the opinions of students who are quickly becoming proficient in using the tools, we would like to take on the challenge of creating the next generation of education with the collective efforts of all UTokyo. 
 
-This portal site, "utelecon," aggregates information on the system at the University of Tokyo and also introduces advanced usage of various tools. We hope that this information will lead to your creative and proactive efforts. We also operate a support desk with student staff, so please feel free to use it if you have any problems or difficulties.
+On the other hand, the information security environment has become very severe in recent years, partly due to the worsening social situation. We have a lot of critical information, such as information related to cutting-edge research, and ensuring its security is a serious issue. Although we have taken necessary measures for the operation of the information system, the cooperation of each faculty and staff member is also indispensable, as each member's account is one of the entrances to access information within the university.In particular, we have introduced a "Multi-Factor Authentication (MFA)" system that requires all users to sign in using a smartphone or other device in addition to a password. This is included as part of the initial setup procedure of UTokyo Account, so please make sure to do it. We also offer a course called "Information Security Education", which you are requested to attend.
+
+This portal site, "utelecon", aggregates information on the system at the University of Tokyo and also introduces advanced usage of various tools such as chat tools and web conferencing, not to mention the initial setup of accounts and various tools. We hope that this information will lead to your creative and proactive efforts. We also operate a support desk with student staff, so please feel free to use it if you have any problems or difficulties.
 
 Your cooperation is greatly appreciated so that students can have a fulfilling study and student life through our educational activities.
 
@@ -67,15 +70,19 @@ The following is an explanation of the UTokyo Account’s initial setup procedur
 
 ### Changing the Initial Password for your UTokyo Account
 
-<ChangeUtacPassword variant="faculty_members" />
+<UTokyoAccountChangePassword variant="faculty_members" />
 
 At this point, you will be able to log in to UTokyo’s systems including [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do), which is used to input syllabi and grades. (* For information on how to use UTAS, please check the academic affairs office of your faculty/graduate school, or log in to UTAS, then click “Other” in the menu at the top of the screen and download the manual from the “Download Center”.)
 
 ### Setting up “Multi-Factor Authentication for your UTokyo Account”
 
+<UTokyoAccountMFA variant="faculty_members" />
+
+{/*
 To improve the security of UTokyo’s IT systems, the “multi-factor authentication” (MFA) is available for UTokyo Accounts. MFA is a security process in which users prove their identity with at least two pieces of evidence. In addition to passwords, users are asked to verify their identity via SMS, authentication applications, and other methods when signing in to their accounts. Through the use of MFA, the risk of unauthorized sign-ins can be decreased, even if your password is compromised under certain situations, which enhances security.
 
 For the overall improvement of university security, UTokyo strongly encourages the activation of multi-factor authentication for UTokyo Accounts. In particular for faculty and staff, everyone is expected to use multi-factor authentication. Please follow the setup procedures in the “**[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)**” page.
+*/}
 
 ### Attending the Information Security Education
 {:#information-security-education}
@@ -161,7 +168,7 @@ In addition to the systems described above, UTokyo subscribes to and operates va
 
 ### UTokyo Wi-Fi
 
-This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. Please note that you cannot use this service unless you have created an account in advance.
+This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. Please note that you cannot use this service unless you prepare in advance.
 
 For further details on how to use this feature, please see the “**[UTokyo Wi-Fi](/en/utokyo_wifi)**” page.
 
@@ -221,7 +228,7 @@ For further details on usage, please see the “**[EZproxy](https://www.lib.u-to
 
 UTokyo provides [a Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) for faculty members and students. UTokyo requires you to "install appropriate antivirus software on all the computers you administrate" in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use them if necessary.
 
-The version for academic year 2023 will be available from April 1, 2023.
+The start date of the version for academic year 2024 will be announced later.
 
 ### UTokyo VPN
 
