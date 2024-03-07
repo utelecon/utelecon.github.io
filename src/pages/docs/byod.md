@@ -8,6 +8,7 @@ redirect_from:
 
 <div style="text-align: right">
 <div>2022/1/17　学部・大学院教育部会報告</div>
+<div>2023/2/13　教育システム整備検討WG更新</div>
 <div>2024/3/8　教育システム整備検討WG更新</div>
 </div>
 
