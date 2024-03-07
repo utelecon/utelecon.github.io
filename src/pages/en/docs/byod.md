@@ -1,5 +1,5 @@
 ---
-title: The University of Tokyo BYOD policy. 
+title: The University of Tokyo BYOD Policy 
 redirect_from:
   - /en/notice/byod
 ---
@@ -7,6 +7,7 @@ This page is translation of the Japanese original.
 
 <div style="text-align: right">
 <div>2022/1/17　Report of the Faculty and Graduate School Education Committee</div>
+<div>2023/2/13　Update of the Educational System Improvement WG</div>
 <div>2024/3/8　Update of the Educational System Improvement WG</div>
 </div>
 
