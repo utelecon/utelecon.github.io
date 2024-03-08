@@ -37,16 +37,16 @@ If your affiliation changes within the University of Tokyo, as long as your affi
 
 ### Students, faculty, and staff who change their affiliation 
 
-If you change your faculty or graduate school that you belong to, but remain a student or a faculty member, your UTokyo Account will not be revoked, and you will continue to be able to use the information systems. Therefore, there is no need to back up your data.
+If you change your faculty or graduate school that you belong to, but remain a student or a faculty/staff member, your UTokyo Account will not be revoked, and you will continue to be able to use the information systems. Therefore, there is no need to back up your data.
 
 - This applies to students who change their faculty or graduate school as a result of admission to the Senior Division or the graduate school.
 
 
-### Students who become faculty members & faculty members who become students
+### Students who become faculty/staff members & faculty/staff members who become students
 
-Previously, UTokyo Accounts were managed and assigned separately for students and faculty/staff members. If you become a faculty member from a student or a faculty member from a student, your UTokyo Account was changed to a different one, which requires backup of your data and "re-connection" of a previous account.
+Previously, UTokyo Accounts were managed and assigned separately for students and faculty/staff members. If you become a faculty/staff member from a student or a faculty/staff member from a student, your UTokyo Account was changed to a different one, which requires backup of your data and "re-connection" of a previous account.
 
-After 27 February 2024, UTokyo Account will no longer be changed when your affiliation status changes within the university, so you can continue to use information systems with the same account. Therefore, there is no need to back up your data.
+After 27 February 2024, UTokyo Account will no longer be changed when you become a faculty/staff member from a student or a faculty/staff member from a student, so you can continue to use information systems with the same account. Therefore, there is no need to back up your data.
 
 ## Appendix
 
