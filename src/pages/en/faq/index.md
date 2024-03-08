@@ -8,7 +8,7 @@ If this FAQ cannot solve your problem, please contact the [Technical Support Des
 
 ### Q. How do I take attendance?
 Some options for taking attendance are:
-* Use the ITC-LMS <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1904.html" target="_blank">attendance management</a> feature
+* Use the UTOL attendance management feature (the explanation page is under preparation)
 * Answer online questionnaires such as Google Forms or Microsoft Forms
 * To avoid fake attendance, require students to answer questions related to the contents of lecture or give feedback on the class.
 * To avoid faking attendance, enable the “Collect emails” function when creating Google forms with ECCS Cloud Email account (UTokyo G Suite). Students’ email addresses would be collected for identity confirmation, making it harder for students to fake attendance. To do this, go to “Settings (the gear icon)”, check the box next to "Collect emails" and select “Restrict to users of UTokyo ECCS Cloud Email and its trusted organizations”.
@@ -73,8 +73,8 @@ xxxx (The character string before @) is assigned by individual users from the EC
 ### Q. What is UTAS?
 UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabus browsing, course registration and grades checking. For faculty members, syllabus registration, grade registration and course enrollment status checking are available via UTAS.
 ### Q. I cannot sign into UTAS. What can I do?
-* Please check if you can sign into <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account User Menu</a> and <a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">ITC-LMS</a>.
-* If you can sign into UTokyo Account User Menu and ITC-LMS but not UTAS:
+* Please check if you can sign into <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account User Menu</a> and <a href="https://utol.ecc.u-tokyo.ac.jp/login" target="_blank">UTOL</a>.
+* If you can sign into UTokyo Account User Menu and UTOL but not UTAS:
   * Your UTAS account may not have been issued. Please send your 10-digit common ID to the faculty office to check if your UTAS account has been issued.
 * If you cannot sign into these systems:
   * Reset your UTokyo Account <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank"> password</a>.
@@ -138,7 +138,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 #### Q. The message “Please wait for the host to start this meeting” (or similar) is shown.
 * It is likely that the lecturer has not yet started the class.
-* Please check ITC-LMS and UTAS to see if there have been any changes to the schedule or class URL.
+* Please check UTOL and UTAS to see if there have been any changes to the schedule or class URL.
 * If there have not been any changes but the class does not seem to start, please report your case via [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 
 #### Q. The message “This meeting is for authorized attendees only” (or similar) is shown.
@@ -152,7 +152,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 #### Q. “This meeting has reached its maximum number of participants.” is displayed.
 * The number of participants has exceeded the maximum capacity for Zoom meeting.
 
-* Please check ITC-LMS or UTAS for any urgent updates from the lecturer. If none is found, please report your case viar [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
+* Please check UTOL or UTAS for any urgent updates from the lecturer. If none is found, please report your case viar [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 
 #### Q. “Enter Meeting Passcode” is displayed.
 * I"Passcode" is required in addition to the URL to join a Zoom meeting.
