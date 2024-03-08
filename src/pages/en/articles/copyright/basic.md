@@ -20,7 +20,7 @@ First, to understand what copyright law is, it is necessary to review why copyri
 
 In other words, the Copyright Act is a law that aims to coordinate the interests of right holders and users and to contribute to the development of culture by providing authors and other creators of works with exclusive rights to use their works, thereby protecting them and ensuring the freedom to use their works.
 
-![著作者と利用者がお互いにリボンを引っ張り合っている．両者の間に著作物があり，著作者は著作物について「独占的な権利の保護」を持っていること，利用者には著作物の「自由利用を確保する規定」があることが示されている．](img/copyright_basic_1.png)
+![Right holders and users are both pulling on a ribbon. Between them, there are works, indicating that the right holders have 'exclusive rights protection' over these works, while the users have regulations 'ensuring the freedom to use' of the works.](img/copyright_basic_1.png)
 
 &lt;Figure 1: Purpose of Copyright Law&gt; (Prepared based on the above text)
 
