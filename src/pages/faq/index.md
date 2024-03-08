@@ -6,9 +6,6 @@ title: FAQ よくある質問
 
 ## 授業全般
 
-### Q. オンライン授業に入れない
-* 「[オンライン授業への入室方法](/oc/join)」を確認してください．授業URLの探し方や，頻出のトラブル，入室できない場合の連絡方法がまとめられています．
-
 ### Q. 出席はどうやってとればよいですか？  
 以下のような方法があります．
   * ITC-LMS の<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2014/05/13_1904.html" target="_blank">出席管理</a>を使う
@@ -18,6 +15,9 @@ title: FAQ よくある質問
   * Web会議システムを使う場合で，人数的に可能ならば，直接点呼する（その際，ビデオをオンにしてもらって直接顔を確認するなども可能）
   * Zoom のレポート機能を使うことで，誰がいつ入室して，いつ退室したのかが一覧で把握できます．それを使うと出席の管理ができます．詳しくは<a href="/zoom/how/faculty_members/attendance" target="_blank">（Zoom 教員編）出席管理を行う</a>をご覧ください
 
+### Q. オンライン授業に入れない
+* 「[オンライン授業への入室方法](/oc/join)」を確認してください．授業URLの探し方や，頻出のトラブル，入室できない場合の連絡方法がまとめられています．
+
 <!--
 ### Q.聴講はどのようにしたら良いか．
 * todo:
@@ -25,6 +25,114 @@ title: FAQ よくある質問
 * 教授にitc-lms上のコース設定を変えてもらう．
 * 
 -->
+
+## ECCSクラウドメール (Google Workspace)
+
+### Q. ECCSクラウドメールって何ですか？
+* 平たく言うと本学の Google メールです．
+* このアカウントは Google のアカウントなので，例えば以下の Google のサービスを使えます
+  * Google Drive（ファイル置き場）
+  * Google Docs（Word に似たもの）
+  * Googleスプレッドシート（Excel に似たもの）
+  * Google フォーム（Webアンケート）
+  * YouTube 
+* 詳しくは [ECCS クラウドメールの説明ページ](/google/)をご覧ください．
+
+### Q. ECCSクラウドメールを使いたい
+* [ECCS クラウドメールの説明ページ](/google/)の「利用開始の手順」を参照してください．
+
+### Q. 学内限定の Google スプレッドシートや Drive などにアクセスできない
+* （パソコン・スマホで）「アクセス権が必要です」と出て，下の方に「ログイン名: `example@gmail.com`」のような表示がある画面になる場合
+  * ECCSクラウドメール以外のGoogleアカウント<small>（ @gmail.com や @<em style="font-style: normal; background-color: yellow;">edu.k</em>.u-tokyo.ac.jp などのアカウント）</small>でログインしているため生じています．下の方の「ログイン名: `example@gmail.com`」のように表示されているところを押すと，「Choose an account to use with Google Drive」という画面が出てアカウントが切り替えられるので，ECCSクラウドメールのアカウント (xxxx@<em style="font-style: normal; background-color: yellow;">g.ecc</em>.u-tokyo.ac.jp) を選んでください．ECCSクラウドメールのアカウントが出てこない場合は，「Sign in to another account」を選んでECCSクラウドメールにログインしてください．
+* （スマホで）「権限が必要です」や「アクセス権をリクエスト」という画面になる場合
+  * ECCSクラウドメール以外のGoogleアカウントでログインしているため生じています．下の手順を行った後，アクセスし直してみてください．
+  	1. GmailなどGoogleのアプリを開き，右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）を押す．
+  	1. 「別のアカウントを追加」を押して，Googleアカウントを追加する．
+  	1. メールアドレスとパスワードの入力を求められるので，上で設定したECCSクラウドメールのメールアドレスとパスワードを入力する．
+
+### Q. パスワードを忘れた・変更できない
+
+* [ECCS クラウドメールの説明ページ](/google/)の「利用開始の手順」にある「作業：パスワードとメールアドレスを設定する」を行ってください．
+
+### Q. 各種メールアドレス(10桁@utac, 10桁@g.ecc, 任意文字列@g.ecc)の違いがわからない．
+* 10桁@utac.u-tokyo.ac.jp（例:`1234567890@utac.u-tokyo.ac.jp`）
+UTokyo Accountにサインインするときに利用するメールアドレスです．基本的には10桁の共通IDだけでサインインできますが，「自分は東大のアカウントを使います」と明示しなくてはならないときに利用します．
+* 10桁@g.ecc.u-tokyo.ac.jp（例:`1234567890@g.ecc.u-tokyo.ac.jp`）
+ECCSクラウドメールの「エイリアス」（別名）です．Googleのログイン画面にこれを入力してもログインできません．このメールアドレス宛のメールはECCSクラウドメールのメールボックスに入ります．（＝任意文字列@g.eccでGmailにログインして確認できます）
+* 任意@g.ecc.u-tokyo.ac.jp（例:`xxxx@g.ecc.u-tokyo.ac.jp`）
+@以前の文字列はECCS利用者メニュー（2021年2月まではUTokyo Account利用者メニュー）で自分で設定したものです．このメールアドレスでGmailなどのGoogleサービスにログインできます．（ゆえに「任意@g.ecc」と呼ばれます）
+
+## Microsoft 365 (旧 Office 365)
+
+### Q. Microsoft Officeにサインインできない．
+* **「サインイン」の画面にユーザ名を入れると「そのユーザー名のアカウントが見つかりませんでした．別のユーザー名を入力するか，新しい Microsoft アカウントを取得してください」と言われる場合**: 入力するユーザ名の間違いかもしれません．ここには「共通ID（10桁の数字です）@utac.u-tokyo.ac.jp」を入れて下さい. 共通IDは10桁の数字です.
+
+
+### Q.サインインしても編集できない
+<!-- これも別のページを作りたい！ -->
+* Officeアプリケーションのライセンス認証が正常に行われず，WordなどのOfficeアプリケーションで編集ができない状態になる場合があります．
+* Macをお使いの場合は，以下の手順で現在のOFfficeのライセンス削除を一旦削除し，改めてライセンス認証をお試しください．
+    * それ以外のOSをお使いの場合は，サポート窓口にご相談ください．
+
+1. [Mac で Office のライセンス ファイルを削除する方法 - Office サポート](https://support.microsoft.com/ja-jp/office/mac-%E3%81%A7-office-%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95-b032c0f6-a431-4dad-83a9-6b727c03b193)に記載の手順に従って，Microsoft社が提供するライセンス削除ツールをダウンロードして実行してください．
+1. ライセンスの削除が完了してから，WordなどのOfficeアプリケーションを起動すると，Microsoft 365へのサインインが求められます（サインインが求められない場合は，「サインイン」などと書かれたボタンを探してクリックしてください）．改めてUTokyo Account (10桁の共通ID`@utac.u-tokyo.ac.jp`) でサインインしてください．
+1. サインインすると，自動的にライセンス認証が行われます．
+
+
+## UTAS
+### Q. UTASってなんですか？
+* UTASは東京大学の学務システムです．学生にとってはシラバス閲覧・履修登録・成績確認などを行うシステムであり，教員にとってはシラバス登録・履修者名簿確認・成績登録などを行うシステムです．
+
+### Q. UTAS にログインできない
+* <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>や<a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">ITC-LMS</a>にログインできるか確かめてみてください
+  * それらはログインできるのにUTASに出来ない場合:
+    * 稀に, UTokyo Accountが発行されているのにUTASのアカウントが発行されていない場合があります. 所属の事務室に, 10桁の共通IDとともに, 自分にUTASのアカウントが発行されているかを尋ねて下さい
+  * それらにもログインできない場合:
+    * UTokyo Acount の<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみて下さい
+* 参考: [UTASの説明ページ](/utas)
+
+### Q.「[Error] あなたは現在このシステムを利用することができません」と表示されてログインできない場合
+* 学部から大学院に進学するなど所属が変わる場合は，切り替えのため一時的にUTASにアクセスできない期間があります．時間をおいてもう一度試してみてください．
+* それに該当しない場合は，所属の学部・研究科等に問い合わせてください．
+* 一部の教職員（主に授業を担当されない方）にはUTASのアカウントが登録されていません．所属部局の事務に確認してみてください．
+
+<!--
+### Q. UTASが落ちてしまった．
+* https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021年4月6日/#utas-fell
+-->
+
+## ITC-LMS
+
+### Q. UTOLって何ですか？
+* 本学の学習管理システムです．
+* 学生が，自分が履修した授業に関して，教員が配布した資料を閲覧できたり，課題を提出したり，教員が作っていた場合は掲示板で議論したり質問したり，アンケートに答えたり，試験を受けたりできます．  
+* 参考リンク: [UTOLについて](/utol)
+
+<!--
+### Q. 履修登録せずにITC-LMSのコンテンツを閲覧したい
+TODO
+
+https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
+-->
+
+## UTokyo Account
+
+### Q. UTokyo Account利用者メニューにログインできない
+
+* 参考: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>
+* ユーザ名にUTokyo Accountの共通ID <span style="color:green;">「10桁の数字」</span>を入力していることを確認してください
+  * 10桁の数字@utac.u-tokyo.ac.jp <span style="color:red;">ではありません</span>
+* ユーザ名を正しく入力しているのにエラーが出る(ユーザID・パスワードが不正です．)と出る場合, パスワードが間違っているのかも知れませんので, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみてください
+
+### Q. UTokyo Accountのパスワード再設定でUser ID入力欄でエラーになる
+* [こちらのページ](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html)を参照して，パスワードを再設定してください．
+* パスワード再設定画面では, User IDに入力するのは, 10桁の数字@utac.u-tokyo.ac.jp です
+  * 10桁の数字 ではありません
+* <a href="https://www.youtube.com/watch?v=Kumu8aPGnyI&feature=youtu.be" target="_blank">うまく行く場合の動画</a>もご覧ください 
+
+### Q. パスワードを再設定したのにメールが来ない
+* サーバの関係で受信が遅れることがあるため，1時間ほどお待ち下さい
+* それでも来ない場合は，所属学部・研究科等の窓口にご連絡ください
 
 ## Zoom
 
@@ -161,118 +269,4 @@ A. できます．2020年12月のバージョン5.4.6から，共同ホストも
 
 #### Q. 共同ホストは，ブレークアウトルームに介入できますか．
 A. 共同ホストも，ホストと同様，ブレークアウトルーム間を自由に移動することができます．
-
-
-
-## ECCSクラウドメール (Google Workspace)
-
-### Q. ECCSクラウドメールって何ですか？
-* 平たく言うと本学の Google メールです．
-* このアカウントは Google のアカウントなので，例えば以下の Google のサービスを使えます
-  * Google Drive（ファイル置き場）
-  * Google Docs（Word に似たもの）
-  * Googleスプレッドシート（Excel に似たもの）
-  * Google フォーム（Webアンケート）
-  * YouTube 
-* 詳しくは [ECCS クラウドメールの説明ページ](/google/)をご覧ください．
-
-### Q. ECCSクラウドメールを使いたい
-* [ECCS クラウドメールの説明ページ](/google/)の「利用開始の手順」を参照してください．
-
-
-### Q. 学内限定の Google スプレッドシートや Drive などにアクセスできない
-* （パソコン・スマホで）「アクセス権が必要です」と出て，下の方に「ログイン名: `example@gmail.com`」のような表示がある画面になる場合
-  * ECCSクラウドメール以外のGoogleアカウント<small>（ @gmail.com や @<em style="font-style: normal; background-color: yellow;">edu.k</em>.u-tokyo.ac.jp などのアカウント）</small>でログインしているため生じています．下の方の「ログイン名: `example@gmail.com`」のように表示されているところを押すと，「Choose an account to use with Google Drive」という画面が出てアカウントが切り替えられるので，ECCSクラウドメールのアカウント (xxxx@<em style="font-style: normal; background-color: yellow;">g.ecc</em>.u-tokyo.ac.jp) を選んでください．ECCSクラウドメールのアカウントが出てこない場合は，「Sign in to another account」を選んでECCSクラウドメールにログインしてください．
-* （スマホで）「権限が必要です」や「アクセス権をリクエスト」という画面になる場合
-  * ECCSクラウドメール以外のGoogleアカウントでログインしているため生じています．下の手順を行った後，アクセスし直してみてください．
-  	1. GmailなどGoogleのアプリを開き，右上のアイコン（自分のアイコンか，設定していない場合は人のマーク）を押す．
-  	1. 「別のアカウントを追加」を押して，Googleアカウントを追加する．
-  	1. メールアドレスとパスワードの入力を求められるので，上で設定したECCSクラウドメールのメールアドレスとパスワードを入力する．
-* 正しくECCSクラウドメールにログインできている（「ログイン名: 」のところがECCSクラウドメールのメールアドレス (`xxxx@g.ecc.u-tokyo.ac.jp`) になっている）のに「アクセス権が必要です」のように出る場合
-  * 現在，ECCSクラウドメールの一部のアカウントで，正しく操作を行っても東大アカウント専用のページにアクセスできない不具合が発生しており，これに該当するものと思われます．お手数をおかけして申し訳ありませんが，アカウントのリセットが必要ですので，[サポート窓口のメールフォーム](/support/#email-form)までご連絡ください．詳細は[ECCSのお知らせ](https://www.ecc.u-tokyo.ac.jp/announcement/2021/03/30_3304.html)もご覧ください．
-
-### Q. パスワードを忘れた・変更できない
-
-* [ECCS クラウドメールの説明ページ](/google/)の「利用開始の手順」にある「作業：パスワードとメールアドレスを設定する」を行ってください．
-
-### Q. 各種メールアドレス(10桁@utac, 10桁@g.ecc, 任意文字列@g.ecc)の違いがわからない．
-* 10桁@utac.u-tokyo.ac.jp（例:`1234567890@utac.u-tokyo.ac.jp`）
-UTokyo Accountにサインインするときに利用するメールアドレスです．基本的には10桁の共通IDだけでサインインできますが，「自分は東大のアカウントを使います」と明示しなくてはならないときに利用します．
-* 10桁@g.ecc.u-tokyo.ac.jp（例:`1234567890@g.ecc.u-tokyo.ac.jp`）
-ECCSクラウドメールの「エイリアス」（別名）です．Googleのログイン画面にこれを入力してもログインできません．このメールアドレス宛のメールはECCSクラウドメールのメールボックスに入ります．（＝任意文字列@g.eccでGmailにログインして確認できます）
-* 任意@g.ecc.u-tokyo.ac.jp（例:`xxxx@g.ecc.u-tokyo.ac.jp`）
-@以前の文字列はECCS利用者メニュー（2021年2月まではUTokyo Account利用者メニュー）で自分で設定したものです．このメールアドレスでGmailなどのGoogleサービスにログインできます．（ゆえに「任意@g.ecc」と呼ばれます）
-
-## Microsoft 365 (旧 Office 365)
-
-### Q. Microsoft Officeにサインインできない．
-* **「サインイン」の画面にユーザ名を入れると「そのユーザー名のアカウントが見つかりませんでした．別のユーザー名を入力するか，新しい Microsoft アカウントを取得してください」と言われる場合**: 入力するユーザ名の間違いかもしれません．ここには「共通ID（10桁の数字です）@utac.u-tokyo.ac.jp」を入れて下さい. 共通IDは10桁の数字です.
-
-
-### Q.サインインしても編集できない
-<!-- これも別のページを作りたい！ -->
-* Officeアプリケーションのライセンス認証が正常に行われず，WordなどのOfficeアプリケーションで編集ができない状態になる場合があります．
-* Macをお使いの場合は，以下の手順で現在のOFfficeのライセンス削除を一旦削除し，改めてライセンス認証をお試しください．
-    * それ以外のOSをお使いの場合は，サポート窓口にご相談ください．
-
-1. [Mac で Office のライセンス ファイルを削除する方法 - Office サポート](https://support.microsoft.com/ja-jp/office/mac-%E3%81%A7-office-%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95-b032c0f6-a431-4dad-83a9-6b727c03b193)に記載の手順に従って，Microsoft社が提供するライセンス削除ツールをダウンロードして実行してください．
-1. ライセンスの削除が完了してから，WordなどのOfficeアプリケーションを起動すると，Microsoft 365へのサインインが求められます（サインインが求められない場合は，「サインイン」などと書かれたボタンを探してクリックしてください）．改めてUTokyo Account (10桁の共通ID`@utac.u-tokyo.ac.jp`) でサインインしてください．
-1. サインインすると，自動的にライセンス認証が行われます．
-
-
-## UTAS
-### Q. UTASってなんですか？
-* UTASは東京大学の学務システムです．学生にとってはシラバス閲覧・履修登録・成績確認などを行うシステムであり，教員にとってはシラバス登録・履修者名簿確認・成績登録などを行うシステムです．
-
-### Q. UTAS にログインできない
-* <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>や<a href="https://itc-lms.ecc.u-tokyo.ac.jp/login" target="_blank">ITC-LMS</a>にログインできるか確かめてみてください
-  * それらはログインできるのにUTASに出来ない場合:
-    * 稀に, UTokyo Accountが発行されているのにUTASのアカウントが発行されていない場合があります. 所属の事務室に, 10桁の共通IDとともに, 自分にUTASのアカウントが発行されているかを尋ねて下さい
-  * それらにもログインできない場合:
-    * UTokyo Acount の<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみて下さい
-* 参考: [UTASの説明ページ](/utas)
-
-### Q.「[Error] あなたは現在このシステムを利用することができません」と表示されてログインできない場合
-* 学部から大学院に進学するなど所属が変わる場合は，切り替えのため一時的にUTASにアクセスできない期間があります．時間をおいてもう一度試してみてください．
-* それに該当しない場合は，所属の学部・研究科等に問い合わせてください．
-* 一部の教職員（主に授業を担当されない方）にはUTASのアカウントが登録されていません．所属部局の事務に確認してみてください．
-
-<!--
-### Q. UTASが落ちてしまった．
-* https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021年4月6日/#utas-fell
--->
-
-## ITC-LMS
-
-### Q. ITC-LMSって何ですか？
-* 本学の学習管理システムです．
-* 学生が，自分が履修した授業に関して，教員が配布した資料を閲覧できたり，課題を提出したり，教員が作っていた場合は掲示板で議論したり質問したり，アンケートに答えたり，試験を受けたりできます．  
-* 参考リンク: [ITC-LMSについて](/itc_lms), [よくある質問](https://www.ecc.u-tokyo.ac.jp/itc-lms/faq.html) 
-
-<!--
-### Q. 履修登録せずにITC-LMSのコンテンツを閲覧したい
-TODO
-
-https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
--->
-
-
-## UTokyo Account
-
-### Q. UTokyo Account利用者メニューにログインできない
-
-* 参考: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>
-* ユーザ名にUTokyo Accountの共通ID <span style="color:green;">「10桁の数字」</span>を入力していることを確認してください
-  * 10桁の数字@utac.u-tokyo.ac.jp <span style="color:red;">ではありません</span>
-* ユーザ名を正しく入力しているのにエラーが出る(ユーザID・パスワードが不正です．)と出る場合, パスワードが間違っているのかも知れませんので, <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみてください
-
-### Q. UTokyo Accountのパスワード再設定でUser ID入力欄でエラーになる
-* [こちらのページ](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html)を参照して，パスワードを再設定してください．
-* パスワード再設定画面では, User IDに入力するのは, 10桁の数字@utac.u-tokyo.ac.jp です
-  * 10桁の数字 ではありません
-* <a href="https://www.youtube.com/watch?v=Kumu8aPGnyI&feature=youtu.be" target="_blank">うまく行く場合の動画</a>もご覧ください 
-
-### Q. パスワードを再設定したのにメールが来ない
-* サーバの関係で受信が遅れることがあるため，1時間ほどお待ち下さい
-* それでも来ない場合は，所属学部・研究科等の窓口にご連絡ください
 
