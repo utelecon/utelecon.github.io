@@ -50,7 +50,7 @@ Copyrighted “works” include[^2]:
 1. photographic works
 1. works of computer programming
 
-![著作物のイメージを具体化したイラスト．キャンバスに向かって座って油絵を描く人，ギターを抱えて作曲をする人，ノミとツチを持って石材で彫刻を彫っている人，映画のフィルムとカメラとカチンコ，小説本，漫画本，映画のDVDのケース，音楽のCDのケース．](img/copyright_basic_2.png)
+![An illustration that visualizes the image of works. A person sitting in front of a canvas painting an oil painting, a person composing music with a guitar, a person carving a sculpture out of stone with a chisel and hammer, movie film with a camera and clapperboard, a novel, a comic book, a DVD case for a movie, and a CD case for music.](img/copyright_basic_2.png)
 &lt;Illustrations: Images of examples of works - in order from top left: painting, music, sculpture, cartoon, film, novel&gt; ([Illust-ya](https://www.irasutoya.com/))
 
 On the other hand, examples of non-copyrighted “works” include:
