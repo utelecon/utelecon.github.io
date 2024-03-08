@@ -186,10 +186,6 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
     ＊In that case, one can become a host even without an account.
   1. When scheduling a meeting, select <a href="https://oit.colorado.edu/tutorial/zoom-add-alternate-host-your-meeting" target="_blank"> “Set up an alternate host”</a>.
 
-#### Q. An error message "Invalid username" is displayed during registration.
-* Unfortunately, as of April 18, 2020, if 6 or more kanji characters are entered in the name field,  the error message "Invalid username" will be displayed. (e.g., "長谷川 太郎丸" is not allowed, while "長谷川 太郎まる" is acceptable).
-* Our apologies for the inconvenience caused. Kindly adopt romaji and limit the total number of kanji characters to 5 or less.
-
 #### Q. How can I host a large meeting (more than 301 people) in zoom?
 * Prior application for a large meeting license is essential. With such license, you can hold a zoom meeting beyond normal capacity and gain access to additional features.
 * Please refer to [here](/en/zoom/license) for the application procedure.
