@@ -21,8 +21,8 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
        Access the "[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)".
      </Fragment>
    </If>
-1. <If cond={props.inlineHelp}>
-    Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
+1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
+   <If cond={props.inlineHelp}>
     <ApplyHelpMFA type="details" />
     <ApplyHelpJouhouSecurity type="details" /> 
    </If>
