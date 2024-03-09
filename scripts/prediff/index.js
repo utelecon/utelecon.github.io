@@ -45,24 +45,33 @@ await Promise.all(
  */
 function rehypePrediff() {
   return (tree) => {
-    let main = select("main", tree);
-    if (!main) return;
+    let body = select("body", tree);
+    if (!body) return;
 
-    visit(main, "element", (node) => {
+    visit(body, "element", (node) => {
+      if (!node.properties) return;
+
+      node.properties = Object.fromEntries(Object.entries(node.properties).sort((a, b) => a[0].localeCompare(b[0])));
+
       const className = node.properties?.className;
       if (Array.isArray(className)) {
         const index = className.findIndex(
           (name) => typeof name === "string" && name.startsWith("astro-")
         );
         if (index >= 0) className.splice(index, 1);
+        className.sort();
+      }
+
+      if (node.tagName === "img" && typeof node.properties.src === "string" && node.properties.src.startsWith("/_astro/")) {
+        node.properties.src = node.properties.src.replace(/\.[-_0-9a-zA-Z]+\.(webp|png)$/, ".$1");
       }
     });
     remove(
-      main,
+      body,
       (node, _, parent) => matches("dif,p", parent) && isEmptyText(node)
     );
 
-    return main;
+    return body;
   };
 }
 
