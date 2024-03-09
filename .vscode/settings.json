@@ -1,6 +1,22 @@
 {
-  "[mdx]": {
-    "editor.formatOnSave": false
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.suggest.showWords": false,
+    "editor.unicodeHighlight.allowedCharacters": {
+      "，": true,
+      "．": true,
+      "　": true,
+    },
   },
-  "mdx.experimentalLanguageServer": true
+  "[mdx]": {
+    "editor.wordWrap": "on",
+    "editor.suggest.showWords": false,
+    "editor.unicodeHighlight.allowedCharacters": {
+      "，": true,
+      "．": true,
+      "　": true,
+    },
+    "editor.formatOnSave": false,
+  },
+  "mdx.experimentalLanguageServer": true,
 }
