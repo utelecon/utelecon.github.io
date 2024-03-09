@@ -42,18 +42,18 @@
     "unist-util-visit": "^4.1.2",
     "vfile": "^5.3.7",
     "@astrojs/markdown-remark": "^4.2.1",
-    "prettier": "^3.0.1",
-    "rehype-minify-whitespace": "^5.0.1",
-    "rehype-remove-comments": "^5.0.0",
-    "rehype-remove-empty-attribute": "^3.0.0"
+    "prettier": "^3.2.5",
+    "rehype-minify-whitespace": "^6.0.0",
+    "rehype-remove-comments": "^6.0.0",
+    "rehype-remove-empty-attribute": "^4.0.0"
   },
   "devDependencies": {
     "@types/hast": "^2.3.6",
     "@types/mdast": "^3.0.10",
     "@types/node": "^18.11.18",
     "@types/unist": "^2.0.6",
-    "typescript": "^5.2.2",
-    "mdast-util-from-markdown": "^1.0.0",
-    "micromark-util-types": "^1.0.0"
+    "typescript": "^5.4.2",
+    "mdast-util-from-markdown": "^2.0.0",
+    "micromark-util-types": "^2.0.0"
   }
 }
