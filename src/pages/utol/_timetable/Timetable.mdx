@@ -6,7 +6,7 @@ import If from "@components/utils/If.astro"
 
 {/**
   * @typedef {object} Props
-  * @property {boolean} isLecturer
+  * @property {"lecturer" | "student"} variant
   */}
 
 担当教員，TA，または履修者として登録しているコースは，UTOLにログインした後のトップページで確認できます．
@@ -19,7 +19,7 @@ import If from "@components/utils/If.astro"
 
 ![](./mode-buttons.png)
 
-<If cond={!props.isLecturer}>
+<If cond={props.variant !== "lecturer"}>
 
 なお，コンテンツ利用を履修登録・担当教員登録に限る設定がされているコースは，受講登録していても，コンテンツ利用の条件を満たさなければ表示されません．このため，履修登録期限を過ぎたり，設定が変更されたりして条件が変わると，今まで表示されていたコースが表示されなくなることがあります．
 
@@ -36,12 +36,16 @@ import If from "@components/utils/If.astro"
   - 画面上部の「年度」「学期」を切り替えると，前の年度・学期の科目を見られます．
   - 「今日」ボタンを押すと，今学期の時間割が表示されます．
 - 授業コマ：コース名を押すとコーストップ（コースの詳細画面）に移ります．
-  - 参加方法：担当教員・コース設計者・TA・履修者のどの権限をもっているかと，登録方法が表示されます．
-  <If cond={props.isLecturer}>
-
-  - ![](../_icons/download_participant.png){:.logo}（履修者名簿）：教員として登録している場合に表示され，アイコンを押すと履修者名簿をダウンロードできます．
-
-  </If>
+  <ul>
+    <li>
+      参加方法：担当教員・コース設計者・TA・履修者のどの権限をもっているかと，登録方法が表示されます．
+    </li>
+    <If cond={props.variant !== "student"}>
+      <li>
+        ![](../_icons/download_participant.png){:.logo}（履修者名簿）：教員として登録している場合に表示され，アイコンを押すと履修者名簿をダウンロードできます．
+      </li>
+    </If>
+  <ul>
 - 休講・補講・教室変更
     - UTASから連携された休講等の情報が表示されます．
     - UTASからの連携は1日ごとですので，当日の登録や取り消しは反映されません．
