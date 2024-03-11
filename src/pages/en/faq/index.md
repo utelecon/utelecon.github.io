@@ -89,7 +89,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 ### Q. What is UTOL?
 * UTOL is the learning management system of UTokyo.
 * Features of UTOL include lecture materials downloading, assignment submission, online examinations, surveys, and forum discussion for courses registered.
-* Reference: [UTOL](/utol)
+* Reference: [UTOL](/utol/)
 
 ## UTokyo Account
 ### Q. I cannot sign into the UTokyo Account User Menu. What can I do?
