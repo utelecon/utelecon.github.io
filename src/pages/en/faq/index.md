@@ -50,12 +50,14 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 * See [ECCS Cloud Email – “Initial Setup Procedures”](/en/google/#initial-setup-procedures), and follow the instructions in “Task: Set your password and email address”.
 
 ### Q. What is the difference among `10-digits-ID@utac`, `10-digits-ID@g.ecc`, and `xxxx@g.ecc` (email address named after your choice) email addresses?
-* `10-digits-ID@utac.u-tokyo.ac.jp`（e.g. `1234567890@utac.u-tokyo.ac.jp`）
-This is the email address for UTokyo Accounts sign-in. Signing in with your 10 digits- ID is usually available. However, `@utac` is necessary to specify the UTokyo domain.
-* `10-digits-ID@g.ecc.u-tokyo.ac.jp`（e.g. `1234567890@g.ecc.u-tokyo.ac.jp`）
-This is the alias of ECCS Cloud Email. Signing in to Google with this email address is unavailable. Any email sent to this address will be forwarded to ECCS Cloud Email. (You can check the email by signing into Gmail with `xxxx@g.ecc` (email address named after your choice))
+* `10-digits-ID@utac.u-tokyo.ac.jp`(e.g. `1234567890@utac.u-tokyo.ac.jp`)
+  * Although it resembles an email address, it cannot be used for sending emails. However, the system may still send notifications or other messages to this address. For instance, regarding Zoom or UTokyo Slack, system-generated emails sent to this address can be received in each individual’s mailbox of ECCS Cloud Email.
+  * You might use your UTokyo Account as your username when logging into the system. The UTokyo Account’s username, often referred to as the common ID, is a 10-digit number. This 10-digit number, to explicitly represent it as an ID from the University of Tokyo, can also be appended with @utac.u-tokyo.ac.jp.
+* `10-digits-ID@g.ecc.u-tokyo.ac.jp`(e.g. `1234567890@g.ecc.u-tokyo.ac.jp`)
+  * For those who newly enrolled or appointed after March 2024: This email address can be used as it is as an email address if you do not set up the ECCS Cloud Email initially. If you don’t set up a specific email address, you will use this address to log into Google. If you set up an email address later and change it to `xxxx@g.ecc.u-tokyo.ac.jp`, you will need to use this newly set up email address to log into Google. Please note that even after changing the email address, emails sent to `10-digits-ID@g.ecc.u-tokyo.ac.jp` will be delivered to `xxxx@g.ecc.u-tokyo.ac.jp`.
+  * For those who enrolled or appointed before February 2024: This is the ‘alias’ of ECCS Cloud Email. You cannot log in by entering this on Google’s login screen. Emails sent to this address will go to your ECCS Cloud Email mailbox. You can check this by logging into Gmail at `xxxx@g.ecc.u-tokyo.ac.jp`.
 * `xxxx@g.ecc.u-tokyo.ac.jp` (email address named after your choice)
-xxxx (The character string before @) is assigned by individual users from the ECCS User Menu (~Feb. 2021: UTokyo Account User Menu). Signing in to Google with this email address is available.
+  * The string preceding the ‘@’ is something you set yourself in the UTokyo Account user menu. You can log into Google services like Gmail with this email address. However, depending on when you enrolled or appointed, there are differences. For those who enrolled or appointed before February 2024, a certain `xxxx@g.ecc.u-tokyo.ac.jp` is set from the beginning, so if you don’t set it yourself, you will use it as an `xxxx@g.ecc.u-tokyo.ac.jp`. On the other hand, for those who enrolled or appointed after March 2024, a `10-digit-ID@g.ecc.u-tokyo.ac.jp` is set initially, so unless you set the string yourself, you cannot use an email address in the form of `xxxx@g.ecc.u-tokyo.ac.jp`.
 
 ## Microsoft 365 (formerly Office 365)
 ### Q. I cannot sign into Microsoft Office. What can I do?
@@ -100,7 +102,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 ### Q. An user ID error occurs when I attempt to reset my UTokyo Account password. What can I do?
 * See [this page](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html) and reset your password.
-* On the Reset Password page, you should enter your 10-digit ID`@utac.u-tokyo.ac.jp`（e.g. `1234567890@utac.u-tokyo.ac.jp`）as your user ID.
+* On the Reset Password page, you should enter your 10-digit ID`@utac.u-tokyo.ac.jp`(e.g. `1234567890@utac.u-tokyo.ac.jp`) as your user ID.
  * NOT the 10-digit common ID
 * Watch also this video <a href="https://www.youtube.com/watch?v=Kumu8aPGnyI&feature=youtu.be" target="_blank">this video </a>.
 
