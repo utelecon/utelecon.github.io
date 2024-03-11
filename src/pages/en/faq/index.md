@@ -8,7 +8,7 @@ If this FAQ cannot solve your problem, please contact the [Technical Support Des
 
 ### Q. How do I take attendance?
 Some options for taking attendance are:
-* Use the UTOL [attendance management](/en/utol/lecturers/attendances/) feature
+* Use the UTOL [attendance](/en/utol/lecturers/attendances/) feature
 * Answer online questionnaires such as Google Forms or Microsoft Forms
 * To avoid fake attendance, require students to answer questions related to the contents of lecture or give feedback on the class.
 * To avoid faking attendance, enable the “Collect emails” function when creating Google forms with ECCS Cloud Email account (UTokyo G Suite). Students’ email addresses would be collected for identity confirmation, making it harder for students to fake attendance. To do this, go to “Settings (the gear icon)”, check the box next to "Collect emails" and select “Restrict to users of UTokyo ECCS Cloud Email and its trusted organizations”.
