@@ -28,22 +28,25 @@ Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers 
 ## If your affiliation changes within the University of Tokyo
 {:#change}
 
-If your affiliation changes within the University of Tokyo, your UTokyo Account may or may not be revoked depending on your situation.
+If your affiliation changes within the University of Tokyo, as long as your affiliation is uninterrupted, your UTokyo Account will not be revoked, and you will continue to be able to use the information systems. Therefore, there is no need to back up your data.
 
-### Students who become faculty members & faculty members who become students
-
-The UTokyo Account is managed and assigned separately for students and faculty members. If you become a faculty member from a student or a faculty member from a student, your UTokyo Account will be revoked and a new UTokyo Account will be issued. In this case, you will need to back up your data in the same way as when you graduate or resign from the university. Please back up your data according to the instructions on the "**[Data Backup upon Leaving the University of Tokyo](backup)**" page.
-
-Please note that your ECCS Cloud Email account will also be revoked and a new account will be issued. However, you can continue to use the same ECCS Cloud Email account by following the procedures described in the "[Procedure for those who wish to continue using their previous ECCS Cloud Email even after your UTokyo Account has been changed](https://www.ecc.u-tokyo.ac.jp/en/announcement/2021/09/13_3356.html)" page.
+- However, if your enrollment period is interrupted when you change your affiliation, your UTokyo Account will be revoked, so please make sure to back up your data according to the instructions on the "**[Data Backup upon Leaving the University of Tokyo](backup)**" page.
+- Depending on whether you are a student or a faculty/staff member, your employment status and other factors, some systems may not be available to you, or the scope of functions you can use may be limited.
+    - For example, only students and faculty/staff members employed by the University of Tokyo can install and use the Office applications under the UTokyo Microsoft License. If you no longer qualify for this due to a change in affiliation, you will no longer be able to use them.
+    - And, for example, only faculty/staff members can access UTokyo Portal. If you no longer qualify for this due to a change in affiliation, you will no longer be able to access it.
 
 ### Students, faculty, and staff who change their affiliation 
 
-If you change your faculty or graduate school that you belong to, but remain a student or a faculty member, your UTokyo Account will not be revoked, and you will continue to be able to use the information systems. Therefore, there is no need to back up your data.
+If you change your faculty or graduate school that you belong to, but remain a student or a faculty/staff member, your UTokyo Account will not be revoked, and you will continue to be able to use the information systems. Therefore, there is no need to back up your data.
 
 - This applies to students who change their faculty or graduate school as a result of admission to the Senior Division or the graduate school.
-- However, if your enrollment period is interrupted when you change your affiliation, your UTokyo Account will be revoked, so please make sure to back up your data according to the instructions on the "**[Data Backup upon Leaving the University of Tokyo](backup)**" page.
-- Depending on your employment status and other factors, some systems may not be available to you or the scope of functions you can use may be limited.
-    - For example, only students and faculty members employed by the University of Tokyo can install and use the Office applications under the UTokyo Microsoft License. If you no longer qualify for this due to a change in affiliation, you will no longer be able to use them.
+
+
+### Students who become faculty/staff members & faculty/staff members who become students
+
+Previously, UTokyo Accounts were managed and assigned separately for students and faculty/staff members. If you become a faculty/staff member from a student or a faculty/staff member from a student, your UTokyo Account was changed to a different one, which requires backup of your data and "re-connection" of a previous account.
+
+After 27 February 2024, UTokyo Account will no longer be changed when you become a faculty/staff member from a student or a faculty/staff member from a student, so you can continue to use information systems with the same account. Therefore, there is no need to back up your data.
 
 ## Appendix
 
