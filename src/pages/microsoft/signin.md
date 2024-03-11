@@ -32,6 +32,7 @@ UTokyo AccountでMicrosoftのシステムにサインインする際には，他
 <img src="img/microsoft-signin-instruction-2.png" class="medium center border">
 </figure>
 
+1. [マイクロソフトのサインインページ](https://myaccount.microsoft.com/)にアクセスをしてください．
 1. 表示されている画面を確認し，以下の手順を行ってください．
     - Microsoftまたは東京大学のロゴの下に**「サインイン」**と表示されている場合
         - 入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力し，「次へ」を押してください．
