@@ -37,32 +37,23 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 
 学内の「情報システムゼミ」にて講義形式でWebexの使い方を説明した際の資料を掲載しています．
 
-### 情報システムゼミ「Webex の便利な使い方…こんなときどうすればいいの？」（2023年7月26日）スライド資料
-
-1. [Webex の便利な使い方.pdf](pdf/20230726_Seminar.pdf)
-
-### 情報システムゼミ「ウェブ会議にも代替オプションを！～コミュニケーションの継続に備えるために、 Cisco Webexの良さをお伝えします～」（2023年5月25日）スライド資料
-
-1. [ウェブ会議にも代替オプションを！.pdf](pdf/20230525_Seminar.pdf)
-
-### 情報システムゼミ「Webex Webinars 応用編 ～ 便利な使い方をご紹介 ～」（2022年12月13日）スライド資料
-
-1. [Webex Webinars 応用編.pdf](pdf/20221213_Seminar.pdf)
-1. [【詳細】Webex Webinars 応用編.pdf](pdf/20221213_Seminar_detailed.pdf)
-
-### 情報システムゼミ「Webex Webinars セミナー（基礎編）」（2022年10月14日）スライド資料
-
-1. [Webex Webinarsとは.pdf](pdf/20221014_Seminar_1_Intro.pdf)
-1. [事前準備.pdf](pdf/20221014_Seminar_2_Prep.pdf)
-1. [基本操作.pdf](pdf/20221014_Seminar_3_Basic.pdf)
-
-### 情報システムゼミ「Webexセミナー」（2022年2月18日）スライド資料
-
-1. [はじめに.pdf](pdf/20220218_Seminar_1_Intro.pdf)
-1. [Webex事前準備.pdf](pdf/20220218_Seminar_2_Prep.pdf)
-1. [Webex基本操作.pdf](pdf/20220218_Seminar_3_Basic.pdf)
-1. [Webex応用操作.pdf](pdf/20220218_Seminar_4_Advanced.pdf)
-1. [Webexノウハウ.pdf](pdf/20220218_Seminar_5_Tips.pdf)
+- **Webex の便利な使い方…こんなときどうすればいいの？**（2023年7月26日）
+    1. [Webex の便利な使い方.pdf](pdf/20230726_Seminar.pdf)
+- **ウェブ会議にも代替オプションを！～コミュニケーションの継続に備えるために、 Cisco Webexの良さをお伝えします～**（2023年5月25日）
+    1. [ウェブ会議にも代替オプションを！.pdf](pdf/20230525_Seminar.pdf)
+- **Webex Webinars 応用編 ～ 便利な使い方をご紹介 ～**（2022年12月13日）
+    1. [Webex Webinars 応用編.pdf](pdf/20221213_Seminar.pdf)
+    1. [【詳細】Webex Webinars 応用編.pdf](pdf/20221213_Seminar_detailed.pdf)
+- **Webex Webinars セミナー（基礎編）**（2022年10月14日）
+    1. [Webex Webinarsとは.pdf](pdf/20221014_Seminar_1_Intro.pdf)
+    1. [事前準備.pdf](pdf/20221014_Seminar_2_Prep.pdf)
+    1. [基本操作.pdf](pdf/20221014_Seminar_3_Basic.pdf)
+- **Webexセミナー**（2022年2月18日）
+    1. [はじめに.pdf](pdf/20220218_Seminar_1_Intro.pdf)
+    1. [Webex事前準備.pdf](pdf/20220218_Seminar_2_Prep.pdf)
+    1. [Webex基本操作.pdf](pdf/20220218_Seminar_3_Basic.pdf)
+    1. [Webex応用操作.pdf](pdf/20220218_Seminar_4_Advanced.pdf)
+    1. [Webexノウハウ.pdf](pdf/20220218_Seminar_5_Tips.pdf)
 
 ## 利用方法
 
