@@ -28,12 +28,12 @@ h1: "2024/03/11 説明会：東京大学で初めて授業をする先生のた�
 
 質問は**[こちらのSlido](https://app.sli.do/event/1JtPW1QC1719z3TJBNkLj6)**または [https://sli.do/](https://sli.do/) で code = `utelecon20240311`）へ投稿してください．事前質問もどうぞ．
 
-挨拶　太田邦史　理事・副学長　情報システム本部長（**録画**）
-- 説明（[目次](slides/00-index.pdf)・**動画**）
+挨拶　太田邦史　理事・副学長　情報システム本部長（**[録画](https://youtu.be/bKmb74tvQZw)**）
+- 説明（[目次](slides/00-index.pdf)・**[動画](https://youtu.be/6HztvbW2Cis)**）
     1. 東京大学のITシステムの基本 〜UTokyo Account, サインイン方法, セキュリティ, 大学のWi-Fiなど〜
-（田浦；[資料](slides/01-basics.pdf)・**動画**）
-    1. 東京大学の授業でよく使われるITシステム（柴山；[資料](slides/02-in-classrooms-and-online.pdf)・**動画**）
-    1. uteleconの紹介（玉造；[資料](slides/03-utelecon.pdf)・**動画**）
+（田浦；[資料](slides/01-basics.pdf)・**[動画](https://youtu.be/6HztvbW2Cis)**）
+    1. 東京大学の授業でよく使われるITシステム（柴山；[資料](slides/02-in-classrooms-and-online.pdf)・**[動画](https://youtu.be/-nK10CRTIzs)**）
+    1. uteleconの紹介（玉造；[資料](slides/03-utelecon.pdf)・**[動画](https://youtu.be/ZsbuU3HcWtk)**）
    
 ### 話者
 - 情報基盤センター 田浦健次朗 センター長
