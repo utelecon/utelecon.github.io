@@ -30,7 +30,16 @@ import If from "@components/utils/If.astro"
 ### 時間割表示
 {:#timetable}
 
-![](./timetable.png)
+<If cond={props.variant === "lecturer"}>
+
+![](./timetable-lecturer.png)
+
+</If>
+<If cond={props.variant !== "lecturer"}>
+
+![](./timetable-student.png)
+
+</If>
 
 - 表示する学期
   - 画面上部の「年度」「学期」を切り替えると，前の年度・学期の科目を見られます．
