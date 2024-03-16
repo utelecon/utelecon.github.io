@@ -1,7 +1,8 @@
 details {
   display: block;
   
-  margin: 0.25em;
+  margin: 0.25em 0;
+  margin-left: -1em;
   padding: 0.25em 1em;
   border: solid 1px $gray;
   border-radius: 4px;
@@ -15,9 +16,13 @@ details {
   }
 }
 
+ul > li > details {
+  margin-left: 0;
+}
+
 li > ul ~ details, li > ol ~ details {
-  margin-left: 40px;
+  margin-left: 20px;
   @media (max-width: 640px) {
-    margin-left: 20px;
+    margin-left: 0;
   }
 }
