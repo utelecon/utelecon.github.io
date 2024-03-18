@@ -1,14 +1,15 @@
 ---
-import type { Labels, Selection, Step } from "./tabs";
+import type { ColumnLabels, Labels, Selection, Step } from "./tabs";
 import DemiRadioButton, {
   type Props as DemiRadioButtonProps,
 } from "./DemiRadioButton.astro";
 
 interface Props {
   labels: Labels;
+  col_labels: ColumnLabels;
 }
 
-const { labels } = Astro.props;
+const { labels, col_labels } = Astro.props;
 
 function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
   return {
@@ -21,8 +22,8 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
 ---
 
 <div class="wrapper">
-  <p class="col-first">手順1</p>
-  <p class="col-alt">手順2</p>
+  <p class="col-first">{col_labels.first}</p>
+  <p class="col-alt">{col_labels.alt}</p>
 
   <p class="col-label">{labels.ms_auth}</p>
   <span class="col-first">
