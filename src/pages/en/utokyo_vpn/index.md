@@ -1,5 +1,7 @@
 ---
 title: UTokyo VPN
+breadcrumb:
+  title: UTokyo VPN
 ---
 
 ## Introduction
@@ -28,6 +30,11 @@ You cannot access e-journals and e-books subscribed by UTokyo Library via UTokyo
 - iOS: iOS 14, 15
 - iPadOS: iPadOS 14, 15
 
+### Enable Multi-factor Authentication
+{:#mfa}
+
+To use UTokyo VPN, you are required to enable multi-factor authentication for your UTokyo Account (please refer to [Using multi-factor authentication](/en/utokyo_account/mfa/) for your UTokyo Account). Thereafter, enable multi-factor authentication for your UTokyo Account (Multi-factor UTokyo VPN will be available 40 minutes after you apply for the authentication).
+
 ### Information Security Education
 {:#information-security-education}
 
@@ -40,11 +47,6 @@ UTokyo VPN is only available to users who have completed the Information Securit
 - For those who are newly enrolled and appointed, complete the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) and pass the confirmation test in order to start using UTokyo VPN. Please complete the Information Security Education before starting to use the UTokyo VPN.
 
 
-### Enable Multi-factor Authentication
-{:#mfa}
-
-To use UTokyo VPN, you are required to enable multi-factor authentication for your UTokyo Account (please refer to [Using multi-factor authentication](/en/utokyo_account/mfa/) for your UTokyo Account). Thereafter, enable multi-factor authentication for your UTokyo Account (Multi-factor UTokyo VPN will be available 40 minutes after you apply for the authentication).
-
 ## How to use UTokyo VPN
 {:#how-to-use}
 
@@ -53,7 +55,7 @@ The following pages explain how to install the VPN client application on your de
 * [How to use UTokyo VPN on Windows devices](windows)
 * [How to use UTokyo VPN on macOS devices](macos)
 * [How to use UTokyo VPN on Android devices (in Japanese)](/utokyo_vpn/android)
-* [How to use UTokyo VPN on iPad devices (in Japanese)](/utokyo_vpn/ipad)
+* [How to use UTokyo VPN on iPad devices](ipad)
 * [How to use UTokyo VPN on iPhone devices](iphone)
 {:.cards}
 

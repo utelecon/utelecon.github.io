@@ -1,5 +1,7 @@
 ---
 title: 使えるツールから探す
+breadcrumb:
+  title: 使えるツールから探す
 description: このページでは，オンラインでの授業・活動を充実させるために活用できるツールについて，活用のコツやポイントをツールごとに紹介します．
 ---
 
@@ -174,10 +176,6 @@ OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブ
 Miro社が提供するオンラインのホワイトボードツールです．
 - **[Miro（外部サイト）](https://miro.com/ja/)**：Miroの公式サイトです．
 - **[Miroのオンラインホワイトボードについて（外部サイト）](https://miro.com/ja/online-whiteboard/)**
-
-### Google Jamboard 
-Google Workspaceに含まれるホワイトボードツールです．
-- **[Google Jamboard](https://jamboard.google.com/)**：Google Jamboardへのリンクです．
 
 ### Padlet
 Padlet社が提供するオンラインの「デジタルキャンバス」です．

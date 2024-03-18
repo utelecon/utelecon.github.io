@@ -37,10 +37,7 @@ In actual online classes, word-processing tools such as Google Docs and Google S
 
 To visualize the process of brainstorming (gathering opinions), it is recommended to use online tools that can reproduce the process of posting sticky notes on a whiteboard and that can be operated by multiple people simultaneously.  
 
-[Padlet](https://padlet.com/dashboard), [Google Jamboard](https://jamboard.google.com/), and [Miro](https://miro.com/ja/) are examples of such tools. Miro is particularly useful because it is easy to use and can handle complicated drawings.  
-
-〈Example of a worksheet created using Google Jamboard〉
-![img3](img/google-jamboard.png)
+[Padlet](https://padlet.com/dashboard), and [Miro](https://miro.com/ja/) are examples of such tools. Miro is particularly useful because it is easy to use and can handle complicated drawings.  
 
 〈Example of a worksheet created using Miro〉
 ![img4](img/miro.png)

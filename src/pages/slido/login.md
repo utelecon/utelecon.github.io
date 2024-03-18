@@ -1,5 +1,7 @@
 ---
 title: "UTokyo AccountでSlidoにサインインする"
+breadcrumb:
+  title: "UTokyo Accountでサインインする"
 ---
 
 自身でイベントを主催する場合は，Slidoへのログインが必要です．イベントに参加するだけであれば，この手順は必要ありません．

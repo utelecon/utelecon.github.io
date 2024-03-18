@@ -1,8 +1,8 @@
 ---
 title: Other Information About the Multi-Factor Authentication for UTokyo Accounts
+breadcrumb:
+  title: Other Information
 ---
-
-[Return to the top page of the description of Multi-Factor Authentication](.)
 
 ## Hardware Tokens (for Faculty Members)
 {:#hardware-token}

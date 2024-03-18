@@ -1,5 +1,7 @@
 ---
 title: オンラインを活用するために
+breadcrumb:
+  title: オンラインを活用するために
 description: 各種オンラインツールの活用方法や実践例を紹介しています．このページは随時更新しますので，ぜひ継続的にご確認ください．
 redirect_from:
   - /improvement/

@@ -4,6 +4,10 @@ title: 生成AIチャットサービスの実験的な提供について
 
 <div style="text-align: right;">2023年10月20日公開</div>
 
+<div class="box">（2024年3月）東京大学の構成員の皆様を対象に，<a href="https://forms.office.com/r/HvWEN9qQKa">東京大学における生成AIの提供方針に関するアンケート</a>を実施しています（回答期限3月18日まで）．ご協力よろしくお願いいたします．</div>
+
+<div class="box alert">（2024年3月）新たに「<a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a>」を開始しました．Microsoft Copilotは文字数（トークン数）の制限も少なく利用しやすくなっていますので，今後はそちらのご利用をおすすめします．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，Microsoft Copilotの開始に伴い，提供を継続するかどうか検討します．</div>
+
 いつも本学の情報システムの運営にご協力いただきありがとうございます．
 
 このたび情報システム本部では，教育・研究にお使いいただくため，全学の構成員に向けて生成AIチャットサービスの実験的な提供を行うことにしました．
@@ -13,8 +17,6 @@ title: 生成AIチャットサービスの実験的な提供について
 本サービスは，Mckay Wrigley氏が開発している「[Chatbot UI](https://github.com/mckaywrigley/chatbot-ui)」というソフトウェアを用い，OpenAI社のAPI <ins class="alert">およびMicrosoftの「Azure OpenAI」サービスのAPI</ins> をWeb上のチャット画面から利用できるようにしたものです．OpenAI社のAPIは大学としてサービス契約したものを用いており，利用者に個別の費用負担が生じることはありません．詳細は以下の通りです．
 
 <ins class="alert">※（2023年11月21日追記）OpenAI社のAPIの使用には上限があるため，多くの利用者の方に提供できるよう，今後，Microsoftの「<a href="https://azure.microsoft.com/ja-jp/products/ai-services/openai-service">Azure OpenAI</a>」サービスを併用することを計画しています．Azure OpenAIではOpenAI社のAPIと同じモデルが提供されており，同等に利用することができます．</ins>
-
-（参考）関連して「[Bing Chat Enterpriseによる生成AIチャットの利用について（教職員限定）](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=5422)」も案内を行っていますので，こちらの利用対象となる方はあわせてご利用ください．本サービスはAPIの使用上限・従量課金がありますので，利用の分散にご協力をお願いします．
 
 ## 本サービスの概要
 
@@ -96,6 +98,8 @@ APIの使用には上限があり，また従量課金となっていること�
 本サービスは実験的なものであり，問題が生じた場合には提供を取りやめざるを得なくなります．利用者の皆様の節度ある行動を期待します．
 
 また，利用にあたってはOpenAI社の[Terms of Use](https://openai.com/policies/terms-of-use) <ins class="alert">およびMicrosoft Azureの<a href="https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/EES#ServiceSpecificTerms">Product Terms</a></ins> も参照し，適切に利用してください．
+
+<div class="box alert">（2024年3月）新たに「<a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a>」を開始しました．Microsoft Copilotは文字数（トークン数）の制限も少なく利用しやすくなっていますので，今後はそちらのご利用をおすすめします．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，Microsoft Copilotの開始に伴い，提供を継続するかどうか検討します．</div>
 
 ## 利用方法
 

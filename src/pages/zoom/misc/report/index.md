@@ -2,6 +2,9 @@
 title: Zoomのレポート機能を使って出席を管理する
 redirect_from:
   - /zoom/how/faculty_members/attendance
+breadcrumb:
+  title: レポート機能を使って出席を管理する
+  parent: /zoom/
 ---
 
 Zoomの「**レポート**」機能は，ミーティング出席者の名前・メールアドレス・参加時刻・退出時刻等の一覧（レポート）を，ホストが取得できる機能です．この機能を使えば，参加者の出席管理ができます．

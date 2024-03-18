@@ -1,35 +1,37 @@
 ---
 title: UTokyo Account
+breadcrumb:
+  title: UTokyo Account
 slug: utokyo_account # 手順を外部ファイルからincludeするときに使う
 ---
 
-import UTokyoAccount from '@components/ja/systems/utokyo_account/index.mdx'
+import ChangePassword from "@components/ja/systems/utokyo_account/ChangePassword.mdx";
+import MFA from "@components/ja/systems/utokyo_account/MFA.mdx";
 import InformationSecurity from '@components/ja/InformationSecurity.mdx'
 
 ## UTokyo Accountとは
 {:#about}
 
 - **UTokyo Account**は，東京大学の情報システムを利用する際に必要となる全学的なアカウントです．東京大学の構成員（学生および教職員）が各種情報システムを利用する際は，このアカウントでサインインして利用することになります．
-  - 現在アカウントを持っていない方でも，必要に応じてUTokyo Accountを発行することができることがあります．アカウントの発行を希望する場合は所属の学部・研究科等の窓口（学生は学務・教務担当，教職員は人事担当）にお問い合わせください．
+  - 現在アカウントを持っていない方でも，大学への組織的な受け入れがされ管理されている構成員であれば，UTokyo Accountの発行を受けることが可能です．希望する場合は，所属する学部・研究科等の窓口（学生は学務・教務担当，教職員は人事担当）に相談してください．
 - UTokyo Accountのユーザ名は10桁の数字で表され，**共通ID**とも呼ばれます．情報システム内では，`1234567890@utac.u-tokyo.ac.jp`のように，10桁の共通IDの後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたものが用いられることもあります．
   - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」は通常利用できるメールアドレスではありません．
   - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」に送られたシステムからの通知メールなどが[ECCSクラウドメール](/google/)に転送されることがありますが，メールの送信には利用できません． 
 - UTokyo Accountで利用できる情報システムについては，**[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)**や[「東京大学のシステム」のページ](/systems)をご覧ください．
-
-## UTokyo Account利用上の注意
-{:#notes}
-
-1. UTokyo Accountは大学が組織的に受入し管理されている構成員に付与します．（大学が組織的に受入をしていない方には付与しません．）
-1. UTokyo Accountで利用可能なサービスは利用者の身分・所属等により異なります．
-1. UTokyo AccountおよびUTokyo Accountを利用する情報システムにおいては[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/content/400156696.pdf)を遵守してください．（参照：[東京大学情報セキュリティポリシー](https://www.u-tokyo.ac.jp/gen03/public16_j.html)）
-1. UTokyo AccountおよびUTokyo Accountを利用する情報システムにおいて情報倫理・コンピュータ利用ガイドラインを遵守しない不適切な利用，安全性の問題を生じた場合はアカウントの停止をします．
-1. UTokyo Accountの利用に際して必要な事項は本ページの情報を参照してください．
+  - 利用できるシステムは利用者の在籍形態・所属等によって異なっており，すべてのシステムをすべての方が利用できるわけではありません．
 
 ## UTokyo Accountを使い始めるには
 {:#procedures}
-<UTokyoAccount variant="individual" />
 
-### 情報セキュリティ教育の受講
+### 初期パスワードを変更する
+
+<ChangePassword variant="individual" />
+
+### 多要素認証を有効化する
+
+<MFA variant="individual" />
+
+### 情報セキュリティ教育を受講する
 {:#information-security-education}
 
 <InformationSecurity variant="individual" />
@@ -46,15 +48,20 @@ import InformationSecurity from '@components/ja/InformationSecurity.mdx'
 ## UTokyo Accountで情報システムにサインインする
 {:#signin}
 
-UTokyo Accountを用いるとさまざまな情報システムが利用可能です．状況により，サインイン方法が異なります．
+ここでは，UTokyo Accountを用いて情報システムにサインインする方法を説明します．
 
-- 以下の画面（安田講堂の画面）が表示された場合には，共通ID（数字10桁）とパスワードでサインインできます．
-![](img/signin-yasuda.png)
-- 安田講堂の画像が現れず，以下のようなサインイン画面が表示された場合には，「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力してください．
-    <figure class="gallery">
-        <img src="img/signin-utac-01.png" />
-        <img src="img/signin-utac-02.png" />
-    </figure>
+東京大学の情報システムを利用する際，画像のようにサインインを要求する画面が表示された場合には，UTokyo Accountによるサインインが必要です．以下の手順に従ってサインインを行ってください．
+
+![](img/signin-yasuda.png){:.medium.center}
+
+1. 「Username」欄に共通ID（10桁の数字）を，「パスワード」欄にUTokyo Accountのパスワードを入力し，「サインイン」を押してください．
+    - パスワードを忘れた場合は，「[パスワードを忘れた場合](#forget-password)」を参照してパスワードの再設定や再発行を行なってください．
+1. [UTokyo Accountの多要素認証](/utokyo_account/mfa/)を有効にしている場合には，画面の指示に従って多要素認証の本人確認を行ってください．
+1. サインインが行われ，利用しているシステムのページに移動します．
+
+ただし，上のような安田講堂の画像が表示されず，次のように**Microsoftのロゴ等が表示されている場合には，**入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力する必要があるなど，**サインイン手順が一部異なります**．この場合のサインイン手順に関する詳細は「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](/microsoft/signin#instruction)」を参照してください．
+
+<figure class="gallery">![](img/signin-utac-01.png){:.medium.center.border}![](img/signin-utac-02.png){:.medium.center.border}</figure>
 
 なお，UTokyo Accountでサインインする情報システムの多くは互いに連携しており，最初にひとつの情報システムでユーザ名とパスワードを入力してサインインすると，それ以降に別の情報システムを利用する際にはユーザ名とパスワードの入力が不要になります．これを**シングルサインオン** (Single Sign-On, SSO) といいます．
 
@@ -81,24 +88,33 @@ UTokyo Accountのパスワードを忘れた場合には，次のような手順
 #### メールでパスワードを再設定する
 {:#reset-password}
 
-UTAS（学生）や人事情報MyWeb（教職員）で事前にメールアドレスを登録している場合には，そのメールアドレスを利用してパスワードを再設定することができます．具体的には，以下の場所で設定されているメールアドレスが使用されます．
+事前に以下のいずれかの場所でメールアドレスを登録していた場合には，そのメールアドレスを利用してパスワードを再設定することができます．
 
-- 学生の場合：[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)の「学生情報」メニューにある「現住所等変更入力」の「E-MAIL 1」欄（なお，「E-MAIL 2」のアドレスは再設定用のメール送信先としては使えません）
+- （学生の場合 <small>※学生でも教職員でもあるアカウントの場合を含む</small>）[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)の「学生情報」メニューにある「現住所等変更入力」の「E-MAIL 1」欄
     - 学部1年生の新入生の場合，[合格発表の際に情報登録を行ったWebシステム](https://utas-ew.adm.u-tokyo.ac.jp/)に登録していたメールアドレスが自動で設定されています．
-- 教職員の場合：[人事情報MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx)の「パーソナルメニュー」にある「本人属性変更：登録画面」の「学内メールアドレス」欄（ `u-tokyo.ac.jp` で終わるメールアドレスである必要があります）
+    - 「E-MAIL 2」のアドレスは再設定用のメール送信先としては使えません．
+- （教職員のみ <small>※学生でも教職員でもあるアカウントの場合を除く</small>）[人事情報MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx)の「パーソナルメニュー」にある「本人属性変更：登録画面」の「学内メールアドレス」欄
+    - この欄のメールアドレスについては， `u-tokyo.ac.jp` で終わるものである必要があります．
+- 「[セキュリティ情報](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)」のページ  
+※このメールアドレスは，[多要素認証の初期設定の手順1](mfa/initial/#first)の際に登録されるようになっているものです．このページで直接登録する場合は，以下の手順で行ってください．
+    1. 「[セキュリティ情報](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)」のページにアクセスしてください．
+    1. 「サインイン方法の追加」ボタンを押してください．
+    1. 「どの方法を使用しますか?」欄で「電子メール」を選び，「追加」を押してください．
+    1. 以降は表示される画面に従って登録を進めてください．
 
 再設定の手順は以下の通りです．
 
-1. 「[UTokyo Account パスワード再設定](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html)」下部の「パスワード再設定」を押してください．
-1. 「メールまたはユーザ名」の欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を，その下の欄に画像の文字を入力してから「次へ」を押してください．
-1. 事前に登録されているメールアドレスの一部分が表示されているので，確認してください．このメールアドレスに，パスワードを再設定するために必要な確認コードが書かれた通知メールが届きます．
-1. 通知メールが届いたら，メールの指示に従って再設定の手続きを行ってください．メールが届かない場合には，迷惑メールフォルダなどに紛れ込んでいないかどうか，違うメールアドレスを見ていないかを確認してください．
-
-<details>
-	<summary>「パスワードのリセットを登録していないため、自分でパスワードをリセットすることはできません」と表示され，再設定ができない場合</summary>
+1. **[パスワード再設定用のページ](https://passwordreset.microsoftonline.com/?whr=utac.u-tokyo.ac.jp)**にアクセスしてください．
+1. 以下のような「アカウントを回復する」という画面が表示されるので，「メールまたはユーザ名」の欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を，その下の欄に画像の文字を入力してから「次へ」を押してください．
+    ![](img/reset.png)
+    <details>
+    	<summary>「パスワードのリセットを登録していないため、自分でパスワードをリセットすることはできません」と表示され，再設定ができない場合</summary>
 	システムにメールアドレスが登録されていないため，通知メールを送信することができず，したがってパスワードの再設定ができません．<a href="#reissue-password">窓口でパスワードを再発行</a>してください．
 	パスワードを再発行することができたら，メールアドレスをUTAS（学生）や人事情報MyWeb（教職員）に登録してください．
-</details>
+    </details>
+1. 事前に登録されているメールアドレスの一部分が表示されているので，確認してください．このメールアドレスに，パスワードを再設定するために必要な確認コードが書かれた通知メールが届きます．
+1. 通知メールが届いたら，メールの指示に従って再設定の手続きを行ってください．メールが届かない場合には，迷惑メールフォルダなどに紛れ込んでいないかどうか，違うメールアドレスを見ていないかを確認してください．
+    - UTokyo Accountのパスワードは，12文字以上64文字以下であること，アルファベット大文字・アルファベット小文字・数字・記号をすべて含むこと，「` `」（空白）・「`"`」（ダブルクォーテーション）・「`.`」（ドット）・「`\`」（バックスラッシュ，円マーク）を含まないこと，の要件をすべて満たす必要があります．
 
 #### 窓口でパスワードを再発行する
 {:#reissue-password}
@@ -119,5 +135,3 @@ UTAS（学生）や人事情報MyWeb（教職員）で事前にメールアド�
 {:#mfa}
 
 UTokyo Accountでは**多要素認証** (Multi-Factor Authentication, MFA) を導入しています．多要素認証を設定すると，アカウントにサインインする際に，パスワードに加えて，SMSや専用のアプリ等での本人確認が要求されるようになります．詳細は[UTokyo Accountにおける多要素認証の利用について](mfa/)を参照してください．
-
-

@@ -1,5 +1,7 @@
 ---
 title: UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法
+breadcrumb:
+  title: Yubico Authenticatorアプリの利用方法
 ---
 
 ## はじめに
@@ -8,7 +10,7 @@ UTokyo Accountの多要素認証において，本人確認方法として認証
 
 このページでは，UTokyo Accountの多要素認証で，YubiKeyセキュリティキーとYubico Authenticatorアプリを利用する本人確認方法について，登録やサインインの方法を説明します．
 
-YubiKeyには，FIDOと呼ばれる高度な仕組みで多要素認証を行う機能もありますが，それについては「[UTokyo Account多要素認証におけるFIDOセキュリティキーの利用方法](fido-security_key)」を参照してください．なお，YubiKeyをFIDOセキュリティキーとして登録している場合であっても，その上で認証アプリとしても別途登録しておくということが可能です（[FIDOに対応していない一部のシステム](fido-security_key#unsupported-system)でもサインインできるようになるため便利です）．
+YubiKeyには，FIDOと呼ばれる高度な仕組みで多要素認証を行う機能もありますが，それについては「[UTokyo Account多要素認証におけるFIDOセキュリティキーの利用方法](/utokyo_account/mfa/fido-security_key)」を参照してください．なお，YubiKeyをFIDOセキュリティキーとして登録している場合であっても，その上で認証アプリとしても別途登録しておくということが可能です（[FIDOに対応していない一部のシステム](/utokyo_account/mfa/fido-security_key#unsupported-system)でもサインインできるようになるため便利です）．
 
 ## Yubico Authenticatorの登録手順
 
@@ -67,7 +69,7 @@ Yubico AuthenticatorアプリをUTokyo Accountの多要素認証の本人確認�
 2. 「コードの入力」という入力欄が表示されるので，Yubico Authenticatorアプリを開いて6桁の数字を確認し，それを入力欄に入力すると，登録が完了します．
 ![](test_enter_code.png)
 
-<details><summary>※メールアドレスの登録について</summary>1個目の本人確認方法としてYubico Authenticatorアプリを登録する場合は，コードの入力テストの後にメールアドレスの入力を求められます．なるべくECCSクラウドメール以外のメールアドレスを入力してください．続いてそのメールアドレスに送られてくる「コード」（6桁の数字）を入力するよう求められるので，そのようにしてください．<img src="../first_email.png"></details>
+<details><summary>※メールアドレスの登録について</summary>1個目の本人確認方法としてYubico Authenticatorアプリを登録する場合は，コードの入力テストの後にメールアドレスの入力を求められます．なるべくECCSクラウドメール以外のメールアドレスを入力してください．続いてそのメールアドレスに送られてくる「コード」（6桁の数字）を入力するよう求められるので，そのようにしてください．<img src="first_email.png"></details>
 
 本人確認方法の登録を終えた後，**必ず「[UTokyo Account多要素認証の初期設定手順](initial)」の手順4までの全ての作業を行い，多要素認証を有効化してください．**
 

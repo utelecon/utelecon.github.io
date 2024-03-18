@@ -1,5 +1,8 @@
 ---
 title: 大槻久 先生　適応行動論
+breadcrumb:
+  parent: ../..
+  title: 大槻久 先生　適応行動論
 filters:
   format: ["realtime_online"]
   number: mt100
