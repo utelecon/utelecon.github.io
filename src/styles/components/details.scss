@@ -30,6 +30,6 @@ li > ul ~ details, li > ol ~ details {
 
 }
 
-:is(ol, ul) details + details {
+details + details {
   margin-top: 0.25em;
 }
