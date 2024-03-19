@@ -30,7 +30,7 @@ redirect_from:
 ### 授業URL追加の手順
 
 - [手順動画](https://youtu.be/JeBwwDfhJJw)
-- ITC-LMSのお知らせ「[「オンライン授業情報」の追加について](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/16_3208.html)」でも手順などの詳細を案内しています．
+- 「[「UTOLでコース設定を行う（教員・TA向け）](../../utol/lecturers/settings/)」でも手順などの詳細を案内しています．
 
 
 ## 補足：UTOL以外のシステムでの授業URLの連絡について
