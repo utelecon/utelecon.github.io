@@ -20,10 +20,14 @@ ul > li > details {
 }
 
 li > ul ~ details, li > ol ~ details {
-  margin-left: 20px;
-  @media (max-width: 640px) {
-    margin-left: 0;
+  padding-left: 40px;
+  & > summary {
+    margin-left: -20px;
   }
+  @media (max-width: 640px) {
+    padding-left: 20px;
+  }
+
 }
 
 :is(ol, ul) details + details {
