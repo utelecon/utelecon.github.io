@@ -158,6 +158,6 @@ breadcrumb:
 ![](check.png)
         <details>
         <summary>「開封確認」が無い場合</summary>
-        あなたには[この操作を行う権限](#permissions)がありません．
+        あなたには<a href=#permissions>この操作を行う権限</a>がありません．
         </details>
 1. ユーザーと開封状況の対応表が表示されるので，確認してください．
