@@ -3,7 +3,7 @@ title: uteleconについて
 ---
 
 <p style="text-align: right">
-2023年12月20日</p>
+2024年3月20日</p>
 
 ## uteleconとは
 
