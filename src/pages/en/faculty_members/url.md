@@ -26,7 +26,7 @@ The procedure to add the online class URL in UTOL is as follows.
 ### How to Add the Online Class URL in UTOL
 
 - [Demo Video (Captions in Japanese only)](https://youtu.be/JeBwwDfhJJw)
-- For details of the procedure, please check the ITC-LMS News "[Setting up courses in UTOL (for lecturers / TAs)](https://utelecon.adm.u-tokyo.ac.jp/en/utol/lecturers/settings/)".
+- For details of the procedure, please check the page "[Setting up courses in UTOL (for lecturers / TAs)](../utol/lecturers/settings/)".
 
 ## Supplementary Information: Announcing the Online Class URL using Systems other than UTOL
 
