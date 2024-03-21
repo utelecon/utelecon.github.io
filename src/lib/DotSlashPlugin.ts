@@ -3,6 +3,7 @@
 import type { Root } from "mdast";
 import { visit } from "unist-util-visit";
 import { visit as estreeVisit } from "estree-util-visit";
+import "mdast-util-mdx";
 
 const ALLOWED_PREFIXES = ["http:", "https:", "/", "./", "../"];
 

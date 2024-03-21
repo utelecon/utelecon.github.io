@@ -1,7 +1,7 @@
 // @ts-check
 // js instead of ts in order for mdx language server to work
 import { attention } from "micromark-core-commonmark";
-import { codes } from "micromark-util-symbol/codes.js";
+import { codes } from "micromark-util-symbol";
 
 /**
  * @typedef {import("micromark-util-types").Extension} MicromarkExtension
@@ -10,6 +10,7 @@ import { codes } from "micromark-util-symbol/codes.js";
  * @typedef {import("micromark-util-types").State} State
  * @typedef {import("micromark-util-types").Code} Code
  * @typedef {import("unified").Processor} Processor
+ * @typedef {import("remark-parse")}
  */
 
 const micromarkExtension = {
@@ -31,22 +32,21 @@ function tokenize(effects, ok, nok) {
 
   /** @type {State} */
   const start = (code) => {
-    if (code !== codes.asterisk && code !== codes.underscore) {
-      return nok(code);
-    }
-    effects.enter("attentionSequence");
     marker = code;
-    return sequence(code);
+    effects.enter("attentionSequence");
+    return inside(code);
   };
 
   /** @type {State} */
-  const sequence = (code) => {
+  const inside = (code) => {
     if (code === marker) {
       effects.consume(code);
-      return sequence;
+      return inside;
     }
-
     const token = effects.exit("attentionSequence");
+
+    // Always populated by defaults.
+
     token._open = true;
     token._close = true;
     return ok(code);
@@ -61,5 +61,5 @@ function tokenize(effects, ok, nok) {
 export default function simpleAttentionPlugin() {
   const data = this.data();
   data.micromarkExtensions ??= [];
-  /** @type {any} */ (data.micromarkExtensions).push(micromarkExtension);
+  data.micromarkExtensions.push(micromarkExtension);
 }
