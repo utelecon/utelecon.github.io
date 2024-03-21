@@ -1,8 +1,42 @@
-@media (max-width: 640px) {
-  ul,
-  ol {
+ul,
+ol {
+  @media (max-width: 640px) {
     padding-left: 20px;
   }
+
+  & > li {
+    margin-top: 0.125em;
+    margin-bottom: 0.125em;
+  }
+  & > li:first-child {
+    margin-top: 0;
+  }
+  & > li:last-child {
+    margin-bottom: 0;
+  }
+
+  &.gap {
+    & > li {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    & > li:first-child {
+      margin-top: 0;
+    }
+    & > li:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+li > ul > li:first-child,
+li > ol > li:first-child {
+  margin-top: 0.125em;
+}
+
+li > ul.gap > li:first-child,
+li > ol.gap > li:first-child {
+  margin-top: 0.125em;
 }
 
 @counter-style decimal-bracket {
@@ -13,18 +47,4 @@
 
 ol.bracket {
   list-style: decimal-bracket;
-}
-
-ul.gap,
-ol.gap {
-  & > li {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-  & > li:first-child {
-    margin-top: 0;
-  }
-  & > li:last-child {
-    margin-bottom: 0;
-  }
 }
