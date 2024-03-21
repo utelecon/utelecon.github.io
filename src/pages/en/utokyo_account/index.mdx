@@ -5,7 +5,8 @@ breadcrumb:
 slug: utokyo_account # 手順を外部ファイルからincludeするときに使う
 ---
 
-import UTokyoAccount from '@components/en/systems/utokyo_account/index.mdx';
+import ChangePassword from "@components/en/systems/utokyo_account/ChangePassword.mdx";
+import MFA from "@components/en/systems/utokyo_account/MFA.mdx";
 import InformationSecurity from '@components/en/InformationSecurity.mdx'
 
 
@@ -30,7 +31,13 @@ import InformationSecurity from '@components/en/InformationSecurity.mdx'
 
 ## How to start using UTokyo Account
 {:#procedures}
-<UTokyoAccount variant="individual" />
+### Changing the Initial Password for your UTokyo Account
+
+<ChangePassword variant="individual" />
+
+### Setting up “Multi-Factor Authentication for your UTokyo Account”
+
+<MFA variant="individual" />
 
 ### Attending the Information Security Education
 {:#information-security-education}

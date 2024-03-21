@@ -9,7 +9,8 @@ redirect_from:
   - /en/oc/index_2020_a
 ---
 
-import UTokyoAccount from "@components/en/systems/utokyo_account/index.mdx";
+import UTokyoAccountChangePassword from '@components/en/systems/utokyo_account/ChangePassword.mdx'
+import UTokyoAccountMFA from '@components/en/systems/utokyo_account/MFA.mdx'
 import Utas from "@components/en/systems/utas/index.mdx";
 import Utol from "@components/en/systems/utol/index.mdx";
 import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
@@ -23,13 +24,15 @@ import InformationSecurity from "@components/en/InformationSecurity.mdx";
 
 Welcome to all new students!
 
-The University of Tokyo will mainly conduct face-to-face classes in the academic year 2023 with the necessary infection prevention measures in place. On the other hand, hybrid classes, which combine face-to-face and online presence in classes, or online-only classes will also be offered when it is possible to enhance the educational effect. In addition, the use of digital technology is progressing even in face-to-face classes, and there are many situations in which information systems are used, such as the electronic distribution of materials and submission of assignments. We would like to ask you to be ready to use the necessary information systems so that you can participate in the classes smoothly. Please prepare a laptop computer that you can bring with you, and complete the initial setup of your account and various tools. The university will continue to improve the environment for your productive activities on campus, such as updating and enhancing the Wi-Fi throughout the university and making it available in most parts of the campus during the academic years 2022 and 2023.
+The University of Tokyo is promoting the use of digital technology in education, and information systems will be used in a variety of situations, such as the electronic distribution of materials and submission of assignments. We would like to ask you to be ready to use the necessary information systems so that you can participate in the classes smoothly. Please prepare a laptop computer that you can bring with you, and complete the initial setup of your account and various tools.
 
-While digital technology is being used widely in the society these days, the University of Tokyo is also making progress in its Digital Transformation (DX) initiatives. Digital technologies such as chat tools and web conferencing have made it easier for people to interact and collaborate with each other at a distance, and have greatly changed the form of communication. However, there are still some uncertainties about how to introduce new technologies into university activities. We would like to take on the challenge of creating the next generation of education together with you, the students, and hope that you will actively participate in our efforts.
+Nowadays, the information security environment has become very severe in recent years, partly due to the worsening social situation. We have a lot of critical information, such as information related to cutting-edge research, and ensuring its security is a serious issue. Although our university is taking the necessary measures, we need your cooperation to protect our information, as a university account you will be using is one of the entrances to access information within the university. In particular, we have introduced a "Multi-Factor Authentication (MFA)" system that requires users to sign in using a smartphone or other device in addition to a password, and we would like everyone to use this system. This is included as part of the initial setup procedure, so please make sure to do it. We also offer a course called "Information Security Education", which you are requested to attend.
 
-This portal site, "utelecon," aggregates information on the system at the University of Tokyo. First of all, please check the necessary preparations for taking classes. We also introduce the advanced usage of various tools, so we hope that you will make use of this site not only for classes, but also for your own activities such as study groups and circle activities. If you have any problems or difficulties, please feel free to ask questions at the support desk.
+The use of IT is spreading throughout society, and in the past year or so, generative AI, as represented by ChatGPT, has been a hot topic of discussion. The University of Tokyo appreciates its positive aspects and will not uniformly prohibit the use of generative AI tools, and we will actively explore its potential applications to education and research. Students are encouraged to take the opportunity to try it out. On the other hand, please understand that the process of learning at a university is not only about the result of acquiring knowledge and submitting a product, but also about the process of thinking for oneself and improving one's ability, so it is meaningless to use AI simply to make things easier. For details, please refer to the guideline "[Policy on the use of AI tools in classes](/en/docs/ai-tools-in-classes)". We also published a message "[生成系AIについて (About generative AI)](/docs/20230403-generative-ai)" (only in Japanese) last year, so please refer to it as well. There are still some uncertainties about how to incorporate new technologies into university activities, so we would like to take on the challenge of creating the next generation of education together with students. We hope that you will actively participate in our efforts.
 
-We, the faculty and staff of the university, are committed to meeting your expectations for face-to-face classes and campus activities, while placing the highest priority on protecting your health and ensuring your study opportunities. We will do our best to make your studies as effective and fulfilling as possible.
+This portal site, "utelecon," aggregates information on the system at the University of Tokyo. First of all, please check the necessary preparations for taking classes. We also introduce the advanced usage of various tools such as chat tools and web conferencing, so we hope that you will make use of this site not only for classes, but also for your own activities such as study groups and circle activities, as well as in dialogue and collaboration with others around you. If you have any problems or difficulties, please feel free to ask questions at the support desk.
+
+The University of Tokyo is making necessary improvements to achieve synergy between the campus environment and the ICT environment. For example, the renewal and enhancement of Wi-Fi covering most of the campus is scheduled to be completed in the first half of this academic year. We, the faculty and staff of the university, will do our best to make your studies as effective and fulfilling as possible.
 
 <div style="text-align: right;">
   Executive Vice President / Chief Information Officer<br />OHTA Kunihiro
@@ -58,8 +61,6 @@ export const about_utas =
   "This system allows you to browse the syllabus for each class, register courses, and check your grades (academic affairs system).";
 export const about_utol =
   "This system is used to download class material and submit assignments (learning management system).";
-export const about_utokyo_wifi =
-  "Wi-Fi services are available on campus. You will require them while taking online classes on campus. Please note that you will not be able to use the Wi-Fi services unless you have created an account in advance.";
 export const about_zoom =
   'This is a web conferencing system that is used for "simultaneous interactive" online classes. ';
 export const about_google =
@@ -75,7 +76,7 @@ export const about_eccs =
 - **Zoom**: { about_zoom }
 - **ECCS Cloud Email (Google Workspace)**: { about_google }
 - **UTokyo Microsoft License**: { about_microsoft }
-- **UTokyo Wi-Fi**: { about_utokyo_wifi }
+- **UTokyo Wi-Fi**: This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. Please note that you cannot use this service unless you prepare in advance.
 - **ECCS terminals**: { about_eccs }
 
 ### Network Environment and Electronic Devices
@@ -90,8 +91,8 @@ To take classes, you will need an Internet connection and equipment such as a co
   - For specifications, please refer to “[東京大学の BYOD 方針](/docs/byod) (UTokyo's BYOD Policy)” (in Japanese).
     {/* <!-- - (For first-year undergraduate students) The College of Arts and Sciences provides guidelines for required PC specifications in “オンライン授業に必要な機器や通学前の準備について(Devices necessary for online classes and preparation for attending college)” (in Japanese). --> */}
     - We recommend that you buy a computer with a microphone and a camera. However, if your computer does not already have them, you can buy external cameras and microphones when you need them.
-  - You can also refer to the University Co-op’s special topic page about computers for new students, “[受験生・新入生応援サイト 2023 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html) (Komaba Model PC for Examinees and New Students Support Site)” (in Japanese).
-  - If you do not have a computer that meets the above-mentioned specifications, please consult with your faculty or graduate school. (For example, the College of Arts and Sciences can [lend out computers](https://www.c.u-tokyo.ac.jp/campuslife/online-lectures.html) (information in Japanese).)
+  - You can also refer to the University Co-op’s special topic page about computers for new students, “[受験生・新入生応援サイト 2024 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html) (Komaba Model PC for Examinees and New Students Support Site)” (in Japanese).
+  - If you do not have a computer that meets the above-mentioned specifications, please consult with your faculty or graduate school.{/* (For example, the College of Arts and Sciences can [lend out computers](https://www.c.u-tokyo.ac.jp/campuslife/online-lectures.html) (information in Japanese).) */}
 - **Headset and earphones**: When taking online classes in a free classroom on campus, you will need a headset or earphones to listen to the class without disturbing other students in the same classroom. A headset equipped with a microphone is recommended when purchasing one.
 
 ## When You Need help
@@ -112,12 +113,14 @@ For example, the following questions and consultations are welcome.
 
 In this section, we will explain the essential tasks that must be completed to use the information systems, such as creating an account. Please ensure you have enough spare time to complete these tasks before classes start. If you have any problems with these procedures, please consult the **[Technical Support Desk](/en/support/)**.
 
-Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Getting Ready for ICT Systems at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the　procedures below in more detail.
 
-- <UTokyoAccount variant="oc" important />
-- <Utas variant="oc" important />
-- <EccsCloudEmail variant="oc" important />
-{:.procedure}
+### Changing the Initial Password for your UTokyo Account
+
+<UTokyoAccountChangePassword variant="oc" />
+
+### Setting up “Multi-Factor Authentication for your UTokyo Account”
+
+<UTokyoAccountMFA variant="oc" />
 
 ### Attending the Information Security Education
 
@@ -129,13 +132,6 @@ Next, the procedures for performing more detailed checks and tasks on various in
 
 Please check the “[大学生活に必要な情報システムの準備について（新入生向け） 手順動画集](/oc/movies) (Getting Ready for ICT Systems at the University of Tokyo (for new students) Procedure Videos)” page (in Japanese) for videos explaining the procedures below in more detail.
 
-### UTokyo Account
-
-{:#utokyo_account}
-
-<p>{ about_utokyo_account }</p>
-
-<UTokyoAccount variant="oc" />
 
 ### UTAS
 
@@ -155,9 +151,7 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 ### UTokyo Wi-Fi
 
-{:#utokyo_wifi}
-
-<p>{ about_utokyo_wifi }</p>
+This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. In order to use UTokyo Wi-Fi, you must first enable multi-factor authentication on your UTokyo Account, complete an information security training course, and create a UTokyo Wi-Fi account.
 
 <UTokyoWiFi variant="oc" />
 
