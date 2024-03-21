@@ -146,7 +146,7 @@ const resolvedBreadcrumb =
   </head>
   <body>
     <Header lang={lang} top={top} canonicalUrl={canonicalUrl} />
-    <main data-toc={displayToc}>
+    <main data-toc={displayToc} class="mark-external-link">
       {
         resolvedBreadcrumb && resolvedBreadcrumb.length > 1 && (
           <Breadcrumb breadcrumb={resolvedBreadcrumb} />
