@@ -5,7 +5,7 @@ breadcrumb:
   parent: ../..
 ---
 
-**卒業・退職等により東京大学から離籍する際には，UTokyo Accountが失効しサインインができなくなります．**それに伴い，[UTokyo Account](/utokyo_account/)を用いてサインインをしている[ECCSクラウドメール](/google/)，[UTokyo Zoom](/zoom/)，[UTokyo Microsoft License](/microsoft/)などの各種情報システムにサインインすることができなくなります．アカウント失効後は各種情報システムに保存されているデータにアクセスすることもできません．
+**卒業・退職等により東京大学から離籍する際には，UTokyo Accountが失効しサインインができなくなります．**それに伴い，[UTokyo Account](/utokyo_account/)を用いてサインインをしている[UTokyo Zoom](/zoom/)，[ECCSクラウドメール](/google/)，[UTokyo Microsoft License](/microsoft/)などの各種情報システムにサインインすることができなくなります．アカウント失効後は各種情報システムに保存されているデータにアクセスすることもできません．
 
 また，東京大学内で所属が変わる際にも，場合によってはUTokyo Accountが失効することがあります．
 
