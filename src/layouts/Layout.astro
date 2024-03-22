@@ -200,14 +200,14 @@ const resolvedBreadcrumb =
     font-weight: bold;
     color: black;
   }
-  #article {
+  main[data-toc] #article {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: $article-gap;
   }
   @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
-    #article {
+    main[data-toc] #article {
       display: flex;
       flex-direction: column;
       gap: $article-gap;
