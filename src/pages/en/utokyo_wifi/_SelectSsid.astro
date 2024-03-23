@@ -5,13 +5,13 @@ interface Props {
 
 const { userIdField } = Astro.props;
 ---
-Wi-Fi機能をオンにして少し待つと，Wi-Fi接続設定画面にSSIDの一覧が表示されます．SSIDとは，Wi-Fiの信号を識別するための名前のことです．このSSIDの一覧の中から，<code>0000UTokyo</code>というSSIDを選択して接続してください．
+Enable Wi-Fi function and wait for a list of SSIDs to appear in the Wi-Fi connection settings screen. SSID is a name to identify a Wi-Fi network. From the list of SSIDs, please select the SSID named `0000UTokyo` and connect to it.
 <ul>
-  <li>{ userIdField }とパスワードを入力する画面が表示された場合は，<strong>手順4</strong>の説明に沿って入力してください．</li>
-  <li>{ userIdField }とパスワードを入力する画面が表示されず，そのまま接続できた場合は，以降の手順は不要です．</li>
-  <li>{ userIdField }とパスワードを入力する画面が表示されず，接続にも失敗する場合は，<strong>手順3</strong>に進んでください．</li>
+  <li>If the screen for entering { userIdField } and password appears, follow Step 4. </li>
+  <li>If the screen for entering { userIdField } and password does not appear and it connects to Wi-Fi as it is, you don’t need the following steps.</li>
+  <li>If the screen for entering { userIdField } and password does not appear and it fails to connect to the Wi-Fi, go to Step 3.</li>
   </ul>
 <details>
-    <summary><code>0000UTokyo</code>というSSIDが見つからない場合は</summary>
-    場所によっては，UTokyo Wi-Fiの電波が届いていない可能性があります．場所を変えて再度試してみてください．これまで問題なく利用できていたにもかかわらずSSIDが見つからない場合は，<a href="/support">uteleconサポート窓口</a>から問い合わせてください．
+    <summary><code>0000UTokyo</code>If you cannot find the SSID </summary>
+    Depending on the location, the signals of UTokyo Wi-Fi may not reach there. Please change the location and try again. If you have never had any trouble using it there before but are experiencing issues now, please consult the <a href="/support">Technical Support Desk</a>．
 </details>
