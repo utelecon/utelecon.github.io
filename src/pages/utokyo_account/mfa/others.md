@@ -27,7 +27,7 @@ UTokyo Accountの多要素認証における本人確認方法としては，ス
 - FIDOセキュリティキー
     - FIDOセキュリティキーを所持していれば，サインインが可能です．
 
-出国前にあらかじめ，[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)にアクセスして登録されている本人確認方法を確認し，必要に応じて[登録を変更する作業](change/)を行ってください．
+出国前にあらかじめ，[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)にアクセスして登録されている本人確認方法を確認し，必要に応じて[登録を変更する作業](change/)を行ってください．
 
 ## Microsoft Authenticatorで6桁のコードを使ってサインインする方法
 {:#msauth-totp}
