@@ -1,7 +1,7 @@
 ---
-title: AndroidでUTokyo Wi-Fiを利用する
+title: Using UTokyo Wi-Fi on Android
 breadcrumb:
-  title: Androidで利用する
+  title: Using UTokyo Wi-Fi on Android
 ---
 import Intro from "./_Intro.astro"
 import IssueAccount from "./_IssueAccount.mdx"
@@ -13,55 +13,55 @@ import Mfa100 from "./_Mfa100.mdx";
 
 <Mfa100 />
 
-<Intro kindOfTerminal="Androidの端末" confirmedTerminal="（Android 13が搭載されたPixel 6a）"/>
+<Intro kindOfTerminal="terminal of Android" confirmedTerminal="（Android 13 with Pixel 6a）"/>
 
-## 準備：UTokyo Wi-Fiアカウントの発行を申請する
+## Preparation: Apply for the UTokyo Wi-Fi account
 {:#issue-account}
 <IssueAccount />
 
-## Androidでの手順
+## Procedures on Android
 {:#procedure}
-### 手順1：端末の「設定」アプリでWi-Fi機能をオンにする
+### Step 1：Enable the Wi-Fi function from the “Setting” app of your device
 {:#turn-on}
-設定アプリの「ネットワークとインターネット」メニューの中から「インターネット」という設定項目を探し，Wi-Fi機能をオンにしてください．
-ただし，機種によって実際のメニューの名前は異なる場合があります．必要に応じて適当なカテゴリの中から該当する設定項目を探してください．以降の手順でも同様ですので，適宜読み替えながら設定を進めてください．
+Find the setting item “Internet” from the “Network and Internet” menu in the setting app and turn on the Wi-Fi function.
+Note that the names in the actual menu may vary depending on the specific model. Find the corresponding setting items from the proper category as needed. Likewise, in the following procedures, please read with proper replacement when necessary.
 <figure class="gallery">![](img/android-turnon1.png){:.medium.center.border}![](img/android-turnon2.png){:.medium.center.border}![](img/android-turnon3.png){:.medium.center.border}![](img/android-turnon4.png){:.medium.center.border}</figure>
 
-### 手順2：SSIDの一覧から接続先のSSIDを選択する
+### Step 2: Select the SSID of connecting destination from the SSID list
 {:#select-ssid}
 <SelectSsid  userIdField="ID"/>
 
-### 手順3：既存のWi-Fiの設定情報を削除する
+### Step 3: Delete the existing Wi-Fi setting information.
 {:#delete-profile}
 <DeleteProfile  userIdField="ID"/>
-手順2で見つけたSSIDをタップし，「ネットワークの詳細」の画面を開きます．ネットワークの詳細画面で，設定情報をいったん削除してください．
+Tap the SSID found in Step 2 to open the screen of “network details”. Delete the setting information from the screen of network details.
 ![](img/android-deleteprofile.png){:.medium.center.border}
 
-### 手順4：必要な設定情報を入力し接続する
+### Step4：Enter the required information and connect
 {:#create-profile}
-SSIDの一覧の中から，`0000UTokyo`というSSIDを再度選択してください．
-SSIDを選択すると，Wi-Fiの設定情報を入力する画面が表示されます．下記の説明に沿って，必要な設定情報を各欄に入力してください．下で説明されているのに入力画面に表示されなかった項目は，特に設定しなくてかまいません．設定情報を入力したら，接続ボタンを選択してください．
+Select the SSID named `0000UTokyo` from the SSID list again.
+The necessary Wi-Fi setting information will be displayed after you select the SSID . Follow the instruction below to enter the required setting information into each field. You don’t have to set those items that are not displayed here. Once you’ve entered the setting information, select the connection button.
 
-| 設定欄の名称      | 設定内容     |
+| Field name      | Content    |
 | :-----------: | :------------------- |
-| EAP方式       | 「PEAP」を選択してください       |
-| フェーズ2認証     | 「MSCHAPV2」を選択してください         |
-| CA証明書       | 「システム証明書を使用」を選択してください             |
-| 証明書のオンライン検証 | 「検証しない」または「証明書のステータスをリクエストする」を選択してください          |
-| ドメイン        | `u-tokyo.ac.jp`と入力してください     |
-| ID          | UTokyo Wi-FiのユーザーID（`u`から始まり`@wifi.u-tokyo.ac.jp`で終わるもの）を入力してください |
-| 匿名ID        | 空欄のままにしてください          |
-| パスワード       | UTokyo Wi-Fiのパスワードを入力してください      |
-| IP設定        | 「DHCP」を選択してください      |
+| EAP method       | Select “PEAP”      |
+| Phase 2 Authentication      | Select “MSCHAPV2”        |
+| Certificate authority       | 「Select “Use system certificate”             |
+| Online Certificate Verification | Select “Do not verify” or “Request the certificate status”          |
+| Domain        | Enter `u-tokyo.ac.jp`     |
+| ID          | Enter the User ID of UTokyo Wi-Fi (Begin with “u” and end with “@wifi.u-tokyo.ac.jp`”) |
+| Anonymous ID        | Leave it  empty          |
+| Password       | Enter the password of UTokyo Wi-Fi      |
+| Select “DHCP”        | Select “DHCP”      |
 
 ![](img/android-createprofile.jpg){:.medium.center.border}
 
-#### 補足
+#### Supplement
 {:#create-profile-notes}
-* 「CA証明書」欄で「システム証明書を使用」を選択できない場合や，選択してもうまくいかない場合は，「初回使用時に信頼する」を選択してみてください．
-* 「ID」欄と「パスワード」欄には、UTokyo Wi-FiアカウントのユーザーIDとパスワードをそれぞれ入力してください．UTokyo Accountの共通ID・パスワードではありません．ユーザーIDとパスワードは，「**準備**」の手順で受け取った通知メールから確認できるほか，申請直後であれば「UTokyo Wi-Fiアカウントメニュー」の申請完了画面にも表示されています．
-* 上の表に掲げた以外の設定項目は，必要に応じて設定してください．特にお好みがなければ，初期設定のままでかまいません．
+* If you cannot select “Use the system certificate” in the “CA certificate”, or it does not work even you selected it, try selecting “Trust on the first use” 
+* Enter the User ID and password of the UTokyo account into the field of “ID” and “Password”. Note that they are not the UTokyo common ID and its password. You can check this User ID and password from the notification email of Step ”Preparation” or the screen of the account menu after your application.
+* Please configure if there are necessary setting items other than mentioned above. If you have no particular preference, you can leave the default settings.
 
-## うまくいかないときは
+## Troubleshooting guide
 {:#trouble-connect}
 <TroubleConnect />
