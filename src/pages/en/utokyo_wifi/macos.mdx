@@ -1,7 +1,7 @@
 ---
-title: macOS 13でUTokyo Wi-Fiを利用する
+title: Using Utokyo Wi-Fi on macOS 13
 breadcrumb:
-  title: macOS 13で利用する
+  title: Using Utokyo Wi-Fi on macOS 13
 ---
 import Intro from "./_Intro.astro"
 import IssueAccount from "./_IssueAccount.mdx"
@@ -13,50 +13,50 @@ import Mfa100 from "./_Mfa100.mdx";
 
 <Mfa100 />
 
-<Intro kindOfTerminal="macOS 13 Venturaの端末" confirmedTerminal="（macOS 13 Venturaが搭載されたMacBook Pro）"/>
+<Intro kindOfTerminal="terminal with macOS 13 Ventura" confirmedTerminal="（MacBook Pro with macOS 13 Ventura）"/>
 
-## 準備：UTokyo Wi-Fiアカウントの発行を申請する
+## Preparation: Apply for the UTokyo Wi-Fi account
 {:#issue-account}
 <IssueAccount />
 
-## macOSでの手順
+## Procedures on macOS
 {:#procedure}
-### 手順1：「システム設定」でWi-Fi機能をオンにする
+### Step 1: Enable the Wi-Fi function from the taskbar
 {:#turn-on}
-ツールバー左端のアップルメニューから「システム設定」を選択すると，設定画面が表示されます．設定画面のサイドバーの中から「Wi-Fi」のメニューを選択し，Wi-Fi機能のトグルスイッチをオンにしてください．
-ただし，OSのバージョンがmacOS 12 Monterey以前の場合は「システム設定」ではなく「システム環境設定」と表示されます．以降の手順でも操作方法が多少異なる場合がありますので，適宜読み替えながら設定を進めてください．
+Select the “System Settings” from the Apple menu at the left side of the toolbar to see the setting screen. Select “Wi-Fi” from the side bar and turn on the toggle switch to enable the Wi-Fi function.
+Please note that if the OS version is macOS 12 Monterey or earlier, it will be displayed as  “System Preference” rather than “System Settings”. The following procedures may vary slightly in different situations, please read with proper replacement when necessary.
 <figure class="gallery">![](img/macos13-turnon1.png){:.medium.center.border}![](img/macos13-turnon2.png){:.medium.center.border}</figure>
 
-### 手順2：SSIDの一覧から接続先のSSIDを選択する
+### ### Step 2: Select the SSID of connecting destination from the SSID list
 {:#select-ssid}
-<SelectSsid  userIdField="アカウント名"/>
+<SelectSsid  userIdField="account name"/>
 
-### 手順3：既存のWi-Fiの設定情報を削除する
+### Step 3: Delete the existing Wi-Fi setting information.
 {:#delete-profile}
 <DeleteProfile  userIdField="アカウント名"/>
-手順2で見つけたSSIDを選択し，表示された画面で「このネットワーク設定を削除する」を選択してください．「Wi‑Fi “0000UTokyo”を削除しますか?」という画面が出てくるので，「削除」を選択してください．
+Select the SSID found in Step 2 and then select “Forget This Network” on the displayed screen.  When a screen asking “Remove Wi‑Fi “0000UTokyo”?” appears,  select “Remove”.
 <figure class="gallery">![](img/macos13-deleteprofile1.png){:.medium.center.border}![](img/macos13-deleteprofile2.png){:.medium.center.border}</figure>
 
-### 手順4：必要な設定情報を入力し接続する
+### Step 4：Enter the required information and connect
 {:#create-profile}
-SSIDの一覧の中から，`0000UTokyo`というSSIDを再度選択してください．
-SSIDを選択すると，Wi-Fiの設定情報を入力する画面が表示されます．下記の説明に沿って，必要な設定情報を各欄に入力してください．下で説明されているのに入力画面に表示されなかった項目は，特に設定しなくてかまいません．設定情報を入力したら，接続ボタンを選択してください．
+Select the SSID named `0000UTokyo` from the SSID list again.
+The necessary Wi-Fi setting information will be displayed after you select the SSID . Follow the instruction below to enter the required setting information into each field. You don’t have to set those items that are not displayed here. Once you’ve entered the setting information, select the connection button.
 
-| 設定欄の名称      | 設定内容     |
+| Field name    | Content     |
 | :-----------: | :------------------- |
-| ID            | 「なし」を選択してください      |
-| アカウント名       | UTokyo Wi-FiのユーザーID（`u`から始まり`@wifi.u-tokyo.ac.jp`で終わるもの）を入力してください |
-| パスワード       | UTokyo Wi-Fiのパスワードを入力してください      |
+| ID            | Select “None”      |
+| Account name       | Enter the User ID of UTokyo Wi-Fi (Begin with “u” and end with “@wifi.u-tokyo.ac.jp`”) |
+| Password      | Enter the password of UTokyo Wi-Fi      |
 
 ![](img/macos13-createprofile.png){:.medium.center.border}
 
-#### 補足
+#### Supplement
 {:#create-profile-notes}
-* 「アカウント名」欄と「パスワード」欄には、UTokyo Wi-FiアカウントのユーザーIDとパスワードをそれぞれ入力してください．UTokyo Accountの共通ID・パスワードではありません．ユーザーIDとパスワードは，「**準備**」の手順で受け取った通知メールから確認できるほか，申請直後であればアカウントメニューの申請完了画面にも表示されています．
-* 上の表に掲げた以外の設定項目は，必要に応じて設定してください．特にお好みがなければ，初期設定のままでかまいません．詳しくは[Appleによる説明のページ](https://support.apple.com/ja-jp/guide/mac-help/mh11935/mac)を確認してください．
-* 接続操作の途中で，証明書を信頼するかどうか尋ねる画面が表示される場合があります．証明書が正しいものであるか確認するため，表示された証明書の指紋について，「[接続の詳細な設定](/utokyo_wifi/#connect-configuration)」に掲載されている指紋と比較してください．両者が一致していれば，証明書を信頼してください．
-    * なお，「[接続の詳細な設定](/utokyo_wifi/#connect-configuration)」には，SHA-1とSHA-256の2種類の指紋が掲載されていますが，どちらかが一致すれば結構です．![](img/macos13-certificate.png){:.medium.center.border}
+* Enter the User ID and password of the UTokyo account into the field of “Account name” and “Password”. Note that they are not the UTokyo common ID and its password. You can check this User ID and password from the notification email of Step ”Preparation” or the screen of the account menu after your application.
+* Please configure if there are necessary setting items other than mentioned above. If you have no particular preference, you can leave the default settings. Refer to [Instruction page from Apple]((https://support.apple.com/ja-jp/guide/mac-help/mh11935/mac)) for more details.
+*  During the connecting operation, a screen may appear asking if you want to trust the certificate. To verify whether the certificate is correct, compare the “server fingerprint” of the displayed certificate with the fingerprint listed in [Connection Configuration](/utokyo_wifi/#connect-configuration). If they match, trust the certificate.
+    * Additionally, there are two kinds of fingerprint SHA-1 and SHA-256 released on [Connection Configuration](/utokyo_wifi/#connect-configuration), either of them matches is Ok.![](img/macos13-certificate.png){:.medium.center.border}
 
-## うまくいかないときは
+## Troubleshooting guide
 {:#trouble-connect}
 <TroubleConnect />
