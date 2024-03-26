@@ -1,5 +1,5 @@
 ---
-title: Windows 10でUTokyo Wi-Fiを利用する
+title: Using UTokyo Wi-Fi on Windows 10
 breadcrumb:
   title: Windows 10で利用する
 ---
@@ -13,7 +13,7 @@ import Mfa100 from "./_Mfa100.mdx";
 
 <Mfa100 />
 
-<Intro kindOfTerminal="Windows 10の端末" confirmedTerminal=""/>
+<Intro kindOfTerminal="terminal of Windows 10" confirmedTerminal=""/>
 
 ## Preparation: Apply for the UTokyo Wi-Fi account
 {:#issue-account}
@@ -36,28 +36,29 @@ If there is no globe icon but only fan-shaped “Wi-Fi” icon, simply select it
 ### Step 3：Delete the existing Wi-Fi setting information
 {:#delete-profile}
 <DeleteProfile userIdField="ユーザー名"/>
-手順2で見つけたSSIDを右クリックし，表示されたメニューの中から「削除」を選択してください．
+Right click the SSID you found in Step 2, select “Delete” from the displayed menu.
 ![](img/windows10-deleteprofile.jpg){:.medium.center.border}
 
-### 手順4：必要な設定情報を入力し接続する
+### Step 4: Enter the required information and connect
 {:#create-profile}
-SSIDの一覧の中から，`0000UTokyo`というSSIDを再度選択してください．
-SSIDを選択すると，Wi-Fiの設定情報を入力する画面が表示されます．下記の説明に沿って，必要な設定情報を各欄に入力してください．下で説明されているのに入力画面に表示されなかった項目は，特に設定しなくてかまいません．設定情報を入力したら，接続ボタンを選択してください．
+Select the SSID named `0000UTokyo` from the SSID list again.
+The screen of the Wi-Fi setting will be displayed after you select the SSID. Follow the instruction below to enter the required setting information into each field. You don’t have to set those items that are shown in the following table but are not displayed on the screen. Once you have entered the setting information, select the connection button.
 
-| 設定欄の名称      | 設定内容     |
+| Field name      | Content     |
 | :-----------: | :------------------- |
-| ユーザー名       | UTokyo Wi-FiのユーザーID（`u`から始まり`@wifi.u-tokyo.ac.jp`で終わるもの）を入力してください |
-| パスワード       | UTokyo Wi-Fiのパスワードを入力してください      |
+| Username      | Enter the user ID of UTokyo Wi-Fi (beginning with `u` and ending with `@wifi.u-tokyo.ac.jp`). |
+| Password      | Enter the password of UTokyo Wi-Fi.      |
 
 ![](img/windows10-createprofile.jpg){:.medium.center.border}
 
-#### 補足
+#### Supplement
 {:#create-profile-notes}
-* 「ユーザー名」欄と「パスワード」欄には、UTokyo Wi-FiアカウントのユーザーIDとパスワードをそれぞれ入力してください．UTokyo Accountの共通ID・パスワードではありません．ユーザーIDとパスワードは，「**準備**」の手順で受け取った通知メールから確認できるほか，申請直後であればアカウントメニューの申請完了画面にも表示されています．
-* 上の表に掲げた以外の設定項目は，必要に応じて設定してください．特にお好みがなければ，初期設定のままでかまいません．
-* 接続操作の途中で，証明書を信頼するかどうか尋ねる画面が表示される場合があります．証明書が正しいものであるか確認するため，表示された証明書の「サーバーの拇印」について，「[接続の詳細な設定](/utokyo_wifi/#connect-configuration)」に掲載されている指紋と比較してください．両者が一致していれば，証明書を信頼してください．
-    * なお，「[接続の詳細な設定](/utokyo_wifi/#connect-configuration)」には，SHA-1とSHA-256の2種類の指紋が掲載されていますが，どちらかが一致すれば結構です．![](img/windows10-certificate.jpg){:.medium.center.border}
+* Enter the user ID and password of the UTokyo account into the field of “User name” and “Password”. Note that they are not the Common ID and password of UTokyo Account. You can check this user ID and password from the notification email described in ”**Preparation**” step or the screen of application completed.
+* If there are any setting items other than mentioned above, please configure them as needed. If you have no particular inclination, you can leave the default settings.
+* During the connecting operation, a screen may appear asking if you trust the certificate. To verify whether the certificate is correct, compare the "server fingerprint" of the displayed certificate with the fingerprint listed in 「[Connect Configuration](/utokyo_wifi/#connect-configuration)」. If they match, trust the certificate.
+    * Additionally, there are two kinds of fingerprints (SHA-1 and SHA-256) listed on 「[Connect Configuration](/utokyo_wifi/#connect-configuration)」, either match is fine.
+．![](img/windows10-certificate.jpg){:.medium.center.border}
 
-## うまくいかないときは
+## Troubleshooting guide 
 {:#trouble-connect}
 <TroubleConnect />
