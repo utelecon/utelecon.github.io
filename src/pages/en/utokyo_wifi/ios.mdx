@@ -1,5 +1,5 @@
 ---
-title: iPhoneやiPadでUTokyo Wi-Fiを利用する
+title: Using UTokyo Wi-Fi on iPhone and iPad
 breadcrumb:
   title: iPhoneやiPadで利用する
 ---
@@ -13,48 +13,48 @@ import Mfa100 from "./_Mfa100.mdx";
 
 <Mfa100 />
 
-<Intro kindOfTerminal="iPhoneやiPad" confirmedTerminal="（iOS 16.5が搭載されたiPhoneSE（第2世代））"/>
+<Intro kindOfTerminal="iPhone and iPad" confirmedTerminal="（iPhoneSE (2nd generation) with iOS 16.5））"/>
 
-## 準備：UTokyo Wi-Fiアカウントの発行を申請する
+##  Preparation: Apply for the UTokyo Wi-Fi account
 {:#issue-account}
 <IssueAccount />
 
-## iPhoneやiPadでの手順
+## Procedures on iPhone and iPad
 {:#procedure}
-### 手順1：端末の「設定」アプリでWi-Fi機能をオンにする
+### Step 1: Enable the Wi-Fi function from the “Settings” app of your device
 {:#turn-on}
-設定アプリで「Wi-Fi」という設定項目を選択し，Wi-Fi機能のトグルスイッチをオンにしてください．
+Find “Wi-Fi” from the Settings app and turn on the toggle switch of the Wi-Fi function.
 <figure class="gallery">![](img/ios-turnon1.jpg){:.medium.center.border}![](img/ios-turnon2.jpg){:.medium.center.border}![](img/ios-turnon3.PNG){:.medium.center.border}</figure>
 
-### 手順2：SSIDの一覧から接続先のSSIDを選択する
+### Step 2: Select the SSID of connecting destination from the SSID list
 {:#select-ssid}
-<SelectSsid  userIdField="ユーザ名"/>
+<SelectSsid  userIdField="user name"/>
 
-### 手順3：既存のWi-Fiの設定情報を削除する
+### Step 3: Delete the existing Wi-Fi setting information.
 {:#delete-profile}
-<DeleteProfile  userIdField="ユーザ名"/>
-手順2で見つけたSSIDをタップし，「このネットワーク設定を削除」を選択してください．「Wi‑Fiネットワーク“0000UTokyo”を削除しますか?」という画面が出てくるので，「削除」を選択してください．
+<DeleteProfile  userIdField="user name"/>
+Tap the SSID found in Step 2, select “Delete this network setting”. When the screen saying “Forget Wi-Fi network “0000UTokyo”?” comes up, select “Forget”.
 <figure class="gallery">![](img/ios-deleteprofile1.PNG){:.medium.center.border}![](img/ios-deleteprofile2.PNG){:.medium.center.border}</figure>
 
-### 手順4：必要な設定情報を入力し接続する
+### Step 4: Enter the required information and connect
 {:#create-profile}
-SSIDの一覧の中から，`0000UTokyo`というSSIDを再度選択してください．
-SSIDを選択すると，Wi-Fiの設定情報を入力する画面が表示されます．下記の説明に沿って，必要な設定情報を各欄に入力してください．下で説明されているのに入力画面に表示されなかった項目は，特に設定しなくてかまいません．設定情報を入力したら，接続ボタンを選択してください．
+Select the SSID named `0000UTokyo` from the SSID list again.
+The necessary Wi-Fi setting information will be displayed after you select the SSID . Follow the instruction below to enter the required setting information into each field. You don’t have to set those items that are not displayed here. Once you’ve entered the setting information, select the connection button.
 
-| 設定欄の名称      | 設定内容     |
+| Field name     | Content     |
 | :-----------: | :------------------- |
-| ユーザ名       | UTokyo Wi-FiのユーザーID（`u`から始まり`@wifi.u-tokyo.ac.jp`で終わるもの）を入力してください |
-| パスワード       | UTokyo Wi-Fiのパスワードを入力してください      |
+| User name       | Enter the User ID of UTokyo Wi-Fi (Begin with “u” and end with “@wifi.u-tokyo.ac.jp`”) |
+| Password       | Enter the password of UTokyo Wi-Fi     |
 
 <figure class="gallery">![](img/ios-createprofile1.PNG){:.medium.center.border}![](img/ios-createprofile2.PNG){:.medium.center.border}</figure>
 
-#### 補足
+#### Supplement
 {:#create-profile-notes}
-* 「ユーザ名」欄と「パスワード」欄には、UTokyo Wi-FiアカウントのユーザーIDとパスワードをそれぞれ入力してください．UTokyo Accountの共通ID・パスワードではありません．ユーザーIDとパスワードは，「**準備**」の手順で受け取った通知メールから確認できるほか，申請直後であればアカウントメニューの申請完了画面にも表示されています．
-* 上の表に掲げた以外の設定項目は，必要に応じて設定してください．特にお好みがなければ，初期設定のままでかまいません．
-* 接続操作の途中で，証明書を信頼するかどうか尋ねる画面が表示される場合があります．証明書が正しいものであるか確認するため，表示された証明書の指紋について，「[接続の詳細な設定](/utokyo_wifi/#connect-configuration)」に掲載されている指紋と比較してください．両者が一致していれば，証明書を信頼してください．
-    * なお，「[接続の詳細な設定](/utokyo_wifi/#connect-configuration)」には，SHA-1とSHA-256の2種類の指紋が掲載されていますが，どちらかが一致すれば結構です．![](img/ios-certificate.PNG){:.medium.center.border}
+* Enter the User ID and password of the UTokyo account into the field of “User name” and “Password”. Note that they are not the UTokyo common ID and its password. You can check this User ID and password from the notification email of Step ”Preparation” or the screen of the account menu after your application.
+* Please configure if there are necessary setting items other than mentioned above. If you have no particular preference, you can leave the default settings.
+* During the connecting operation, a screen may appear asking if you want to trust the certificate. To verify whether the certificate is correct, compare the “server fingerprint”  of the displayed certificate with the fingerprint listed in [Connection Configuration](/utokyo_wifi/#connect-configuration). If they match, trust the certificate.
+    * Additionally, there are two kinds of fingerprint SHA-1 and SHA-256 released on [Connection Configuration](/utokyo_wifi/#connect-configuration), either of them matches is Ok．![](img/ios-certificate.PNG){:.medium.center.border}
 
-## うまくいかないときは
+## Troubleshooting guide
 {:#trouble-connect}
 <TroubleConnect />
