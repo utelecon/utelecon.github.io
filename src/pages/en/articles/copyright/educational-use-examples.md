@@ -262,7 +262,7 @@ When lecturing, training, or preparing handouts for such facilities, use copyrig
 [^16]: Refer to the operational guideline paragraphs 5-6 and 9
 [^17]: See Copyright Act, Article 2-1-15.
 [^18]: See Article 2-1-7 of the Copyright Act
-[^19]: The University of Tokyo uses a learning management system called ITC-LMS.
+[^19]: The University of Tokyo uses a learning management system called UTOL.
 [^20]: See Article 23-2 of the Copyright Act
 [^21]: See Copyright Act, Article 6-1-1.
 [^22]: See Operational Guidelines 8-9.

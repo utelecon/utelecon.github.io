@@ -142,7 +142,7 @@ Organizers should prepare for broadcasting as follows.
       <img src="img/streaming_start.png" width="400"/>
     </blockquote>
 
-    By doing so, URL has been copied onto the clipboard. You now can paste on the information in the given email. You can use ICT-LMS to let students know the URL. Switch on "Mail and LINE notification" on "nofitication", and then only class participants will obtain URL.
+    By doing so, URL has been copied onto the clipboard. You now can paste on the information in the given email. You can use UTOL to let students know the URL. Switch on "Mail and LINE notification" on "nofitication", and then only class participants will obtain URL.
 1. <font color="red">Only ECCS Cloud Mail holders (e.g. `xxxx@g.ecc.u-tokyo.ac.jp`) can see live streaming.</font> Below is an example of the invitation (HTML versiton). 
 
 ```
