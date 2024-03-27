@@ -1,5 +1,7 @@
 import { Image } from "astro:assets";
 import If from "@components/utils/If.astro";
+import FirstAccess from "../FirstAccess.mdx";
+import FirstEmail from "../FirstEmail.mdx";
 import AltAddMethod from "../AltAddMethod.mdx";
 
 import firstLink from "./first_link.png";
@@ -13,7 +15,11 @@ import altQr from "./alt_qr.png";
   */}
 
 <ol>
-  <li>Install the “Microsoft Authenticator” app on your smartphone<If cond={props.step === "alt"}> (if you haven't already done so)</If>. The Android version can be downloaded from <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator">Google Play</a> and the iPhone version from <a href="https://apps.apple.com/app/microsoft-authenticator/id983156458">App Store</a>.</li>
+  <li>
+    Install the “Microsoft Authenticator” app on your smartphone<If cond={props.step === "alt"}> (if you haven't already done so)</If>. The Android version can be downloaded from [Google Play](https://play.google.com/store/apps/details?id=com.azure.authenticator) and the iPhone version from [App Store](https://apps.apple.com/app/microsoft-authenticator/id983156458).
+
+    ![](https://play-lh.googleusercontent.com/_1CV99jklLbXuun-6E7eCPR-sKKeZc602rhw_QHZz-qm7xrPdgWsJVc7NtFkkliI8No=w480-h960){:.extra-small}
+  </li>
 
   <If cond={props.step === "alt"}>
     <Fragment>
@@ -24,8 +30,9 @@ import altQr from "./alt_qr.png";
       </li>
     </Fragment>
     <Fragment slot="else">
+      <FirstAccess />
       <li>
-        After installing the app, go back to the setup page. Click "Next" to continue setup for the Microsoft Authenticator app.
+        Click "Next" to continue setup for the Microsoft Authenticator app.
         ![](./first_next.png)
       </li>
     </Fragment>
@@ -34,7 +41,8 @@ import altQr from "./alt_qr.png";
   <li>
     The next procedure differs depending on the device that you are using.
 
-    - **Smartphone (the same device where you installed the Microsoft Authenticator app)**: Click "Pair your account to the app by clicking this link".Check that your UTokyo Account appears in the Microsoft Authenticator app.
+    - **Smartphone (the same device where you installed the Microsoft Authenticator app)**: Click "Pair your account to the app by clicking this link". Check that your UTokyo Account appears in the Microsoft Authenticator app.
+      {/* ここの画像がPC版になっている */}
       <Image src={{ firstLink, altLink }[`${props.step}Link`]} alt="" />
     - **Other Devices (PC etc.)**
       1. Read the instructions and click "Next" to go to the QR code page.
@@ -45,4 +53,8 @@ import altQr from "./alt_qr.png";
       4. Check that your UTokyo Account appears on the app.
           ![](./list.png)
   </li>
+
+  <If cond={props.step !== "alt"}>
+    <FirstEmail />
+  </If>
 </ol>
