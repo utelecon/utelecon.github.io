@@ -1,0 +1,56 @@
+---
+title: Using UTokyo Wi-Fi on iPhone and iPad
+breadcrumb:
+  title: iPhoneやiPadで利用する
+---
+import Intro from "./_Intro.astro"
+import IssueAccount from "./_IssueAccount.mdx"
+import SelectSsid from "./_SelectSsid.astro"
+import DeleteProfile from "./_DeleteProfile.astro"
+import TroubleConnect from "./_TroubleConnect.mdx"
+
+import Mfa100 from "./_Mfa100.mdx";
+
+<Mfa100 />
+
+<Intro kindOfTerminal="iPhone and iPad" confirmedTerminal="（iPhoneSE (2nd generation) with iOS 16.5））"/>
+
+##  Preparation: Apply for the UTokyo Wi-Fi account
+{:#issue-account}
+<IssueAccount />
+
+## Procedures on iPhone and iPad
+{:#procedure}
+### Step 1: Enable the Wi-Fi function from the “Settings” app of your device
+{:#turn-on}
+Find “Wi-Fi” from the Settings app and turn on the toggle switch of the Wi-Fi function.
+
+### Step 2: Select the SSID of connecting destination from the SSID list
+{:#select-ssid}
+<SelectSsid  userIdField="user name"/>
+
+### Step 3: Delete the existing Wi-Fi setting information.
+{:#delete-profile}
+<DeleteProfile  userIdField="user name"/>
+Tap the SSID found in Step 2, select “Delete this network setting”. When the screen saying “Forget Wi-Fi network “0000UTokyo”?” comes up, select “Forget”.
+
+### Step 4: Enter the required information and connect
+{:#create-profile}
+Select the SSID named `0000UTokyo` from the SSID list again.
+The necessary Wi-Fi setting information will be displayed after you select the SSID . Follow the instruction below to enter the required setting information into each field. You don’t have to set those items that are not displayed here. Once you’ve entered the setting information, select the connection button.
+
+| Field name     | Content     |
+| :-----------: | :------------------- |
+| User name       | Enter the User ID of UTokyo Wi-Fi (Begin with “u” and end with “@wifi.u-tokyo.ac.jp`”) |
+| Password       | Enter the password of UTokyo Wi-Fi     |
+
+#### Supplement
+{:#create-profile-notes}
+* Enter the User ID and password of the UTokyo account into the field of “User name” and “Password”. Note that they are not the UTokyo common ID and its password. You can check this User ID and password from the notification email of Step ”Preparation” or the screen of the account menu after your application.
+* Please configure if there are necessary setting items other than mentioned above. If you have no particular preference, you can leave the default settings.
+* During the connecting operation, a screen may appear asking if you want to trust the certificate. To verify whether the certificate is correct, compare the “server fingerprint”  of the displayed certificate with the fingerprint listed in [Connection Configuration](/utokyo_wifi/#connect-configuration). If they match, trust the certificate.
+    * Additionally, there are two kinds of fingerprint SHA-1 and SHA-256 released on [Connection Configuration](/utokyo_wifi/#connect-configuration), either of them matches is Ok.
+
+## Troubleshooting guide
+{:#trouble-connect}
+<TroubleConnect />
