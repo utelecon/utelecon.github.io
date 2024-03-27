@@ -1,5 +1,7 @@
 ---
 title: 生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について
+breadcrumb:
+  title: 生成系AIについて
 ---
 
 <p style="text-align: right;">2023年4月3日</p>

@@ -1,3 +1,4 @@
+import { Image } from "astro:assets";
 import If from "@components/utils/If.astro";
 import FirstAccess from "../common/FirstAccess.mdx";
 import FirstAnotherMethod from "../common/FirstAnotherMethod.mdx";
@@ -37,7 +38,7 @@ import alt from "./alt.png";
 
   <li>
     「どの電話番号を使用しますか?」欄は，適切な国番号（日本の場合は「Japan (+81)」）を選択してから，自分の電話番号を入力してください．また，<If cond={props.step === "alt"}>電話番号の種類として「電話」を選んだ場合は，</If>この電話番号を使って本人確認を行う方法として，「コードをSMSで送信する」と「電話する」のうちから好みの方を選んでください．
-    <img src={{ first, alt }[props.step].src} />
+    <Image src={{ first, alt }[props.step]} alt="" />
   </li>
   <If cond={props.step === "first"}>
     <li>「次へ」を押してください．</li>

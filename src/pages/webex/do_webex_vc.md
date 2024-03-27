@@ -1,5 +1,7 @@
 ---
 title: Webex をテレビ会議システムから利用する
+breadcrumb:
+  title: テレビ会議システムから利用する
 redirect_from:
   - /webex/do_meeting_host_vc
   - /webex/do_meeting_participant_vc
@@ -46,11 +48,3 @@ Webex Webinarsへは，テレビ会議システムからは参加者としては
 ### ミーティング主催者用の機能
 
 * テレビ会議システムからミーティングを主催している時に利用できる機能については[「ビデオ デバイス対応の Cisco Webex Meetings のDTMF コマンド」](https://help.webex.com/ja-jp/article/nli1uz4/)をご覧下さい．
-
-
-
-
-<br>
-<br>
-<a href="index" target="_blank">Webexの使い方ページに戻る</a>
-

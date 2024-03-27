@@ -1,5 +1,7 @@
 ---
 title: Webex ミーティング・ウェビナーでできること（開催者）
+breadcrumb:
+  title: ミーティング・ウェビナーでできること（開催者）
 redirect_from:
   - /webex/do_events_host
   - /webex/do_meeting_host
@@ -261,7 +263,7 @@ redirect_from:
 ![](img/webex_stagemanager_before_label_design.png)
 1. デザインを選択すると，パネリストのビデオ上に表示名とサブタイトルが表示されます．
 ![](img/webex_stagemanager_before_label_design_shown.png)
-1. 名前ラベルを利用しない場合は選択肢から「![](img/webex_stagemanager_notselected.png){:.logo}」を選択します．
+1. 名前ラベルを利用しない場合は選択肢から「![](img/webex_stagemanager_notselected.png){:.icon}」を選択します．
 
 **名前ラベルのフェードアウト**
 
@@ -304,7 +306,7 @@ redirect_from:
 1. アップロードする場合は「＋」を選択します．アップロードするファイルを選択する画面が表示されます．
 1. 利用したいファイルを選択します．「開く」を選択し，ファイルをアップロードします．
 1. アップロードが完了するとアップロードしたファイルが背景に設定されます．
-1. 背景を利用しない場合は選択肢から「![](img/webex_stagemanager_notselected.png){:.logo}」を選択します．
+1. 背景を利用しない場合は選択肢から「![](img/webex_stagemanager_notselected.png){:.icon}」を選択します．
 
 #### ロゴ
 
@@ -315,7 +317,7 @@ redirect_from:
 1. 利用したいファイルを選択します．「開く」を選択し，ファイルをアップロードします．
 1. アップロードしたファイルのサイズ調整画面が表示します．
 1. ロゴのサイズをスライドバー(![](img/webex_stagemanager_logo_adjustsize.png){:.inline})で調整し，「適用」を選択します．ロゴが設定されます．
-1. ロゴを利用しない場合は選択肢から「![](img/webex_stagemanager_notselected.png){:.logo}」を選択します．
+1. ロゴを利用しない場合は選択肢から「![](img/webex_stagemanager_notselected.png){:.icon}」を選択します．
 
 #### レイアウト
 
@@ -329,7 +331,7 @@ redirect_from:
 1. ステージに選択したパネリストが表示されます．
 ![](img/webex_stagemanager_after_layout2.png)
 1. 他のパネリストも表示したい場合は同様の手順にてパネリストをステージに移動させます．
-1. ステージ上に表示したパネリストに対して，同様の手順でメニューを開いて「ステージから削除」を選択するか，パネリストの映像の左上の「![](img/webex_stagemanager_after_layout_remove.png){:.logo}」を選択するとステージから表示されなくなります．
+1. ステージ上に表示したパネリストに対して，同様の手順でメニューを開いて「ステージから削除」を選択するか，パネリストの映像の左上の「![](img/webex_stagemanager_after_layout_remove.png){:.icon}」を選択するとステージから表示されなくなります．
 
 **アクティブな発言者をステージに表示**
 
@@ -343,9 +345,9 @@ redirect_from:
 **コンテンツ共有時のレイアウト設定**
 
 1. パネリスト（発表者）は画面下部メニューよりコンテンツを共有することができます．ステージ上に共有されたコンテンツが表示します．
-1. パネリスト画面と共有されたコンテンツの間に「![](img/webex_stagemanager_after_layout_adjustsize.png){:.logo}」が表示されます．
+1. パネリスト画面と共有されたコンテンツの間に「![](img/webex_stagemanager_after_layout_adjustsize.png){:.icon}」が表示されます．
 ![](img/webex_stagemanager_after_layout5.png)
-1. 「![](img/webex_stagemanager_after_layout_adjustsize.png){:.logo}」を左右にドラッグすると共有したコンテンツとパネリストの画面サイズを変更することができます．
+1. 「![](img/webex_stagemanager_after_layout_adjustsize.png){:.icon}」を左右にドラッグすると共有したコンテンツとパネリストの画面サイズを変更することができます．
 ![](img/webex_stagemanager_after_layout6.png)
 
 #### 名前ラベル
@@ -354,7 +356,7 @@ redirect_from:
 
 **表示名とサブタイトルを設定する**
 
-1. ステージ上に表示されているパネリストの名前の上部にある「![](img/webex_stagemanager_after_label_edit.png){:.logo}」マークをクリックします．
+1. ステージ上に表示されているパネリストの名前の上部にある「![](img/webex_stagemanager_after_label_edit.png){:.icon}」マークをクリックします．
 ![](img/webex_stagemanager_after_label1.png)
 1. 表示名・サブタイトルの編集画面が表示します．
 1. 表示名・サブタイトルを変更し，「保存」を選択します．
@@ -368,7 +370,7 @@ redirect_from:
 1. デフォルトで表示されている4つのデザインから選択，もしくは色を自分で設定します．
 ![](img/webex_stagemanager_after_label3.png)
 1. デザインを設定すると，パネリストのビデオ上に表示名とサブタイトルが表示されます．
-1. 名前ラベルを利用しない場合は選択肢から「![](img/webex_stagemanager_notselected.png){:.logo}」を選択します．
+1. 名前ラベルを利用しない場合は選択肢から「![](img/webex_stagemanager_notselected.png){:.icon}」を選択します．
 
 **名前ラベルのフェードアウト**
 
@@ -404,11 +406,3 @@ redirect_from:
 1. レイアウトの同期が停止され，出席者側はレイアウトを操作することができます．
 
 ※停止した場合，出席者はステージマネージャーで設定した背景などは利用することはできません．再度「同期」するとステージマネージャーで設定したレイアウトを使用できます．
-
-
-<br>
-<br>
-<a href="index" target="_blank">Webexの使い方ページに戻る</a>
-
-
-

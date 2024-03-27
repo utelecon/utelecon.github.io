@@ -1,15 +1,20 @@
 ---
-import { SEO, Props as SEOProps } from "astro-seo";
+import { SEO, type Props as SEOProps } from "astro-seo";
 import { GoogleAnalytics } from "@astrolib/analytics";
 import Header from "./Header/index.astro";
 import Footer from "./Footer/index.astro";
 import Toc from "./Toc.astro";
 import "@styles/layout.scss";
 import type { MDXLayoutProps, MarkdownHeading } from "astro";
-import Author, { Author as AuthorProps } from "./Author.astro";
+import Author, { type Author as AuthorProps } from "./Author.astro";
+import Breadcrumb from "./Breadcrumb.astro";
+import type { Breadcrumb as BreadcrumbProps } from "./resolve-breadcrumb";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
 import { parse as parsePath } from "path";
+import "@fontsource/material-icons";
+import "@fontsource-variable/open-sans";
+import resolveBreadcrumb from "./resolve-breadcrumb";
 
 interface Props extends MDXLayoutProps<Frontmatter> {}
 
@@ -25,11 +30,12 @@ export interface Frontmatter {
   sitemap?: boolean;
   redirect_to?: string;
   author?: AuthorProps;
+  breadcrumb?: BreadcrumbProps;
 }
 
 function createDefaultDescription(
   lang: Lang,
-  headings: MarkdownHeading[]
+  headings: MarkdownHeading[],
 ): string {
   return (
     (
@@ -50,12 +56,14 @@ const {
   title,
   description = createDefaultDescription(frontmatter.lang, headings),
   lang,
-  toc = true,
   h1,
   top,
   support,
   author,
+  breadcrumb,
 } = frontmatter;
+
+const displayToc = !top && (frontmatter.toc ?? true) && headings.length > 0;
 
 const htmlAttributes = {
   en: {
@@ -72,7 +80,7 @@ const locale = {
   ja: "ja_JP",
 }[lang];
 
-const gaid = "UA-160716658-1";
+const gaid = "G-ZM6H96EWBD";
 
 const canonicalUrl = new URL(Astro.url);
 if (parsePath(file).name !== "index") {
@@ -109,9 +117,12 @@ if (title) {
     description,
   };
 }
+
+const resolvedBreadcrumb =
+  breadcrumb && (await resolveBreadcrumb(Astro.url, breadcrumb));
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html {...htmlAttributes}>
   <head>
     <SEO {...seoProps} />
@@ -135,7 +146,12 @@ if (title) {
   </head>
   <body>
     <Header lang={lang} top={top} canonicalUrl={canonicalUrl} />
-    <main id="content">
+    <main data-toc={displayToc} class="mark-external-link">
+      {
+        resolvedBreadcrumb && resolvedBreadcrumb.length > 1 && (
+          <Breadcrumb breadcrumb={resolvedBreadcrumb} />
+        )
+      }
       {
         !top && (
           <h1 class="title">
@@ -143,27 +159,39 @@ if (title) {
           </h1>
         )
       }
-      {
-        !top && toc && headings.length > 0 && (
-          <Toc headings={headings} lang={lang} />
-        )
-      }
-      <slot />
-      {
-        author && (
-          <>
-            <hr />
-            <Author lang={lang} author={author} />
-          </>
-        )
-      }
+      <div id="article">
+        {displayToc && <Toc headings={headings} lang={lang} />}
+        <div id="content">
+          <slot />
+          {
+            author && (
+              <>
+                <hr />
+                <Author lang={lang} author={author} />
+              </>
+            )
+          }
+        </div>
+      </div>
     </main>
     <Footer lang={lang} support={support} />
+    <style lang="scss">
+      @import "../styles/color.scss";
+      .title {
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $white-gray-dark;
+        font-size: 2rem;
+        font-weight: bold;
+        color: black;
+      }
+    </style>
   </body>
 </html>
 
 <style lang="scss">
-  @import "../styles/color.scss";
+  @import "@styles/color.scss";
+  @import "@styles/toc.scss";
   .title {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
@@ -171,5 +199,18 @@ if (title) {
     font-size: 2rem;
     font-weight: bold;
     color: black;
+  }
+  main[data-toc] #article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: $article-gap;
+  }
+  @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
+    main[data-toc] #article {
+      display: flex;
+      flex-direction: column;
+      gap: $article-gap;
+    }
   }
 </style>

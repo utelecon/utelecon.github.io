@@ -22,7 +22,7 @@ UTokyo Accountをお持ちの方のうち，学生でも本学に雇用された
 
 100GBを超えて OneDrive を利用している方には個別に通知します．100GBを超えていると2月1日以降，新たなファイルの書き込みができなくなります．該当の方は，データの削減など必要な整理をお願いします．
 
-※自分が上記に該当するかどうかを確認する方法：ウェブブラウザでOneDriveにアクセスし，画面左下の「ストレージ」の上限が1TBになっている場合は，2024年2月1日からの上限縮小の対象となりますので，至急対応をお願いします．手順については下記「[OneDriveのストレージ上限値の確認方法](#procedure)」を参照してください．
+※自分が上記に該当するかどうかを確認する方法：ウェブブラウザからMicrosoft365のマイ アカウントのページで確認します．対象者は，2024年2月1日からの上限縮小の対象となりますので，至急対応をお願いします．確認手順については下記「[学生でも教職員でもないUTokyo Account保持者の確認方法](#procedure)」を参照してください．
 
 ## 2024年8月1日：大学全体の上限がさらに縮小
 
@@ -41,18 +41,14 @@ UTokyo Accountをお持ちの方のうち，学生でも本学に雇用された
 
 ## 参考リンク
 
-[OneDriveの利用方法](https://utelecon.adm.u-tokyo.ac.jp/microsoft/onedrive/)
+[OneDriveの利用方法](/microsoft/onedrive/)
 
-## OneDriveのストレージ上限値の確認方法
+## 学生でも教職員でもないUTokyo Account保持者の確認方法
 {:#procedure}
 
-1. ブラウザのアドレスバーに「 [portal.office.com/onedrive](https://portal.office.com/onedrive) 」と入力します
+1. ブラウザのアドレスバーに「[portal.office.com/onedrive](https://portal.office.com/onedrive)」と入力します．
     ![](url.png){:.medium}
-1. 「サインイン」ボタンを押して、UTokyo Account(共通ID＋@utac.u-tokyo.ac.jp)を入力します 
-    ![](sign_in.png){:.medium}
-1. 画面の左下に表示される「ストレージ」を確認
-    - 学生でも教職員でもないUTokyo Account保持者 は「1TB の使用済み」と表示されます
-    - 上記以外の方（学生／教職員）は「5TB の使用済み」と表示されます
-
-    ![](storage_screen.png){:.medium}
- 
+1. サインイン画面ではUTokyo Account(共通ID＋@utac.u-tokyo.ac.jp)を入力します．ログイン後，画面右上のアカウントのボタンを押下し，「アカウントを表示」を押下します．
+    <figure class="gallery"><img src="sign_in.png"><img src="account.png"></figure>
+1. マイアカウント画面の画面左のメニューから「サブスクリプション」を押下します．「Office 365 A1 for faculty」が表示されて，かつ「Microsoft 365 A3…」の表記が無い場合は，2024年2月1日のストレージ制限の対象となる「学生でも教職員でもないUTokyo Account保持者」です．
+    <figure class="gallery"><img src="account_menu.png"><img src="subscription.png"></figure>

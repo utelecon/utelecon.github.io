@@ -156,7 +156,7 @@ The page has the following features.
 * You can embed not only text, but also images and videos.
 * You can create links within a page or to other pages in the project.
 
-To create a page, go to the screen of the project you want to create a page for, and then click the ![](7.png){:.logo} button at the top of the screen to create a page.
+To create a page, go to the screen of the project you want to create a page for, and then click the ![](7.png){:.icon} button at the top of the screen to create a page.
 
 The following explains how to format and edit a page.
 
@@ -242,7 +242,7 @@ To insert an image saved on your PC, drag and drop or copy and paste it into the
 <figcaption>画像がページに挿入されます．</figcaption>
 </figure> -->
 
-On the right side of the screen, You can also select "Upload file" from the [](20.png){:.logo} icon (red circle in the image below) and select the file you want to insert.
+On the right side of the screen, You can also select "Upload file" from the [](20.png){:.icon} icon (red circle in the image below) and select the file you want to insert.
 
 <figure>
 <img src="21.png">
@@ -250,7 +250,7 @@ On the right side of the screen, You can also select "Upload file" from the [](2
 
 #### When Operating on a Mobile Phone
 
-In the mobile version, click the ![](20.png){:.logo}icon in the upper right corner, select "Upload file" (red circle in the image) to insert an image saved on your cell phone.
+In the mobile version, click the ![](20.png){:.icon}icon in the upper right corner, select "Upload file" (red circle in the image) to insert an image saved on your cell phone.
 
 <figure>
 <img src="19.png">
@@ -262,7 +262,7 @@ In the mobile version, click the ![](20.png){:.logo}icon in the upper right corn
 
 You can insert a hand-drawn drawing into the page using the drawing function of Scrapbox.
 
-Click the ![](20.png){:.logo} icon on the right side of the screen and select "Drawing" (red circle) to display the drawing screen.
+Click the ![](20.png){:.icon} icon on the right side of the screen and select "Drawing" (red circle) to display the drawing screen.
 
 On the drawing screen, you can use the mouse or a pen-tab to draw freely.
 
@@ -285,7 +285,7 @@ The created image will be inserted into the page.
 
 #### When Operating on a Mobile Phone
 
-If you are using the mobile version, click on the ![](20.png){:.logo} icon in the upper right corner, select "drawing" (red circle in the image) to perform the same operation.
+If you are using the mobile version, click on the ![](20.png){:.icon} icon in the upper right corner, select "drawing" (red circle in the image) to perform the same operation.
 
 <figure>
 <img src="31.png">
