@@ -7,7 +7,7 @@ breadcrumb:
 ## はじめに
 {:#about}
 
-UTokyo Microsoft Licenseとは，Microsoftの提供するシステムをUTokyo Accountで利用することのできるライセンスです．具体的には，Word，Excel，PowerPointのような端末にインストールして利用するOfficeソフトウェアなどが含まれます．詳細は[利用可能な主なシステム](#systems)をご覧ください．
+UTokyo Microsoft Licenseとは，Microsoftの提供するシステムをUTokyo Accountで利用することのできるライセンスです．具体的には，Word，Excel，PowerPointのような，機器にインストールして利用するOfficeソフトウェアなどが含まれます．詳細は[利用可能な主なシステム](#systems)をご覧ください．
 
 ### Microsoftのシステムへのサインインについて
 {:#signin}
@@ -24,7 +24,7 @@ UTokyo Microsoft Licenseは，UTokyo Accountを持つ東京大学の構成員（
 ### UTokyo Accountが失効した場合
 {:#expire}
 
-離籍や所属変更によって UTokyo Account が失効した場合，UTokyo Microsoft Licenseのシステムは利用できなくなります．これに伴い，[OneDrive](#onedrive)に保存されたデータなどの関連するデータはすべて失われます．離籍や所属変更の前には，卒業・退職や所属変更によるアカウント失効についての注意を確認のうえデータのバックアップを取ってください．
+離籍や所属変更によって UTokyo Account が失効した場合，UTokyo Microsoft Licenseのシステムは利用できなくなります．これに伴い，[OneDrive](#onedrive)に保存されたデータなどの関連するデータはすべて失われます．離籍や所属変更の前には，[卒業・退職や所属変更によるアカウント失効についての注意](/systems/leave/)を確認のうえデータのバックアップを取ってください．
 
 ## 利用可能な主なシステム
 {:#systems}
@@ -42,7 +42,7 @@ Microsoftは下記以外のシステムも提供しており，それらにつ�
 
 **学生および東京大学に雇用されている教職員のみが利用できます**
 
-Word，Excel，PowerPointなど，端末にインストールして利用するOfficeアプリです．それぞれのアプリの最新版のみを利用することができます．利用開始の手順については以下をご覧ください．
+Word，Excel，PowerPointなど，機器にインストールして利用するOfficeアプリです．それぞれのアプリの最新版のみを利用することができます．利用開始の手順については以下をご覧ください．
 
 **[UTokyo Microsoft LicenseでOfficeアプリをインストールする](install)**{:.box.center}
 
@@ -61,7 +61,7 @@ Webブラウザ上でOneDrive上にあるファイルを編集するには，Web
 ユースケースとしては，以下のようなものが考えられます．
 - OneDrive上のファイルについて，軽微な編集をブラウザ上で完結させて行う場合
 - [Officeアプリの利用対象者](#office_apps)でない方がOfficeを利用する場合
-- 権限などの理由により，端末にOfficeアプリをインストールできない場合
+- 権限などの理由により，機器にOfficeアプリをインストールできない場合
 
 Web版Officeを利用してOneDrive上でファイルを作成・編集する方法については**[OneDriveの基本的な使い方](onedrive/basic)**をご覧ください．
 

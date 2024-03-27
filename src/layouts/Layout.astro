@@ -56,13 +56,14 @@ const {
   title,
   description = createDefaultDescription(frontmatter.lang, headings),
   lang,
-  toc = true,
   h1,
   top,
   support,
   author,
   breadcrumb,
 } = frontmatter;
+
+const displayToc = !top && (frontmatter.toc ?? true) && headings.length > 0;
 
 const htmlAttributes = {
   en: {
@@ -79,7 +80,7 @@ const locale = {
   ja: "ja_JP",
 }[lang];
 
-const gaid = "UA-160716658-1";
+const gaid = "G-ZM6H96EWBD";
 
 const canonicalUrl = new URL(Astro.url);
 if (parsePath(file).name !== "index") {
@@ -145,7 +146,7 @@ const resolvedBreadcrumb =
   </head>
   <body>
     <Header lang={lang} top={top} canonicalUrl={canonicalUrl} />
-    <main id="content">
+    <main data-toc={displayToc} class="mark-external-link">
       {
         resolvedBreadcrumb && resolvedBreadcrumb.length > 1 && (
           <Breadcrumb breadcrumb={resolvedBreadcrumb} />
@@ -158,20 +159,20 @@ const resolvedBreadcrumb =
           </h1>
         )
       }
-      {
-        !top && toc && headings.length > 0 && (
-          <Toc headings={headings} lang={lang} />
-        )
-      }
-      <slot />
-      {
-        author && (
-          <>
-            <hr />
-            <Author lang={lang} author={author} />
-          </>
-        )
-      }
+      <div id="article">
+        {displayToc && <Toc headings={headings} lang={lang} />}
+        <div id="content">
+          <slot />
+          {
+            author && (
+              <>
+                <hr />
+                <Author lang={lang} author={author} />
+              </>
+            )
+          }
+        </div>
+      </div>
     </main>
     <Footer lang={lang} support={support} />
     <style lang="scss">
@@ -187,3 +188,34 @@ const resolvedBreadcrumb =
     </style>
   </body>
 </html>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+  @import "@styles/toc.scss";
+  .title {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $white-gray-dark;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+  }
+  main[data-toc] {
+    #article {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: $article-gap;
+    }
+    #content {
+      /* so that the content does not overflow the viewport */
+      min-width: 0;
+    }
+  }
+  @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
+    main[data-toc] {
+      #article {
+        flex-direction: column;
+      }
+    }
+  }
+</style>

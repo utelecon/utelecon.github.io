@@ -13,20 +13,12 @@ import InformationSecurity from '@components/ja/InformationSecurity.mdx'
 {:#about}
 
 - **UTokyo Account**は，東京大学の情報システムを利用する際に必要となる全学的なアカウントです．東京大学の構成員（学生および教職員）が各種情報システムを利用する際は，このアカウントでサインインして利用することになります．
-  - 現在アカウントを持っていない方でも，必要に応じてUTokyo Accountを発行することができることがあります．アカウントの発行を希望する場合は所属の学部・研究科等の窓口（学生は学務・教務担当，教職員は人事担当）にお問い合わせください．
+  - 現在アカウントを持っていない方でも，大学への組織的な受け入れがされ管理されている構成員であれば，UTokyo Accountの発行を受けることが可能です．希望する場合は，所属する学部・研究科等の窓口（学生は学務・教務担当，教職員は人事担当）に相談してください．
 - UTokyo Accountのユーザ名は10桁の数字で表され，**共通ID**とも呼ばれます．情報システム内では，`1234567890@utac.u-tokyo.ac.jp`のように，10桁の共通IDの後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたものが用いられることもあります．
   - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」は通常利用できるメールアドレスではありません．
   - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」に送られたシステムからの通知メールなどが[ECCSクラウドメール](/google/)に転送されることがありますが，メールの送信には利用できません． 
 - UTokyo Accountで利用できる情報システムについては，**[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)**や[「東京大学のシステム」のページ](/systems)をご覧ください．
-
-## UTokyo Account利用上の注意
-{:#notes}
-
-1. UTokyo Accountは大学が組織的に受入し管理されている構成員に付与します．（大学が組織的に受入をしていない方には付与しません．）
-1. UTokyo Accountで利用可能なサービスは利用者の身分・所属等により異なります．
-1. UTokyo AccountおよびUTokyo Accountを利用する情報システムにおいては[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/content/400156696.pdf)を遵守してください．（参照：[東京大学情報セキュリティポリシー](https://www.u-tokyo.ac.jp/gen03/public16_j.html)）
-1. UTokyo AccountおよびUTokyo Accountを利用する情報システムにおいて情報倫理・コンピュータ利用ガイドラインを遵守しない不適切な利用，安全性の問題を生じた場合はアカウントの停止をします．
-1. UTokyo Accountの利用に際して必要な事項は本ページの情報を参照してください．
+  - 利用できるシステムは利用者の在籍形態・所属等によって異なっており，すべてのシステムをすべての方が利用できるわけではありません．
 
 ## UTokyo Accountを使い始めるには
 {:#procedures}
@@ -65,7 +57,7 @@ import InformationSecurity from '@components/ja/InformationSecurity.mdx'
 1. 「Username」欄に共通ID（10桁の数字）を，「パスワード」欄にUTokyo Accountのパスワードを入力し，「サインイン」を押してください．
     - パスワードを忘れた場合は，「[パスワードを忘れた場合](#forget-password)」を参照してパスワードの再設定や再発行を行なってください．
 1. [UTokyo Accountの多要素認証](/utokyo_account/mfa/)を有効にしている場合には，画面の指示に従って多要素認証の本人確認を行ってください．
-1. サインインが行われ，利用しているシステムのページに遷移します．
+1. サインインが行われ，利用しているシステムのページに移動します．
 
 ただし，上のような安田講堂の画像が表示されず，次のように**Microsoftのロゴ等が表示されている場合には，**入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力する必要があるなど，**サインイン手順が一部異なります**．この場合のサインイン手順に関する詳細は「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](/microsoft/signin#instruction)」を参照してください．
 
@@ -80,8 +72,6 @@ import InformationSecurity from '@components/ja/InformationSecurity.mdx'
 {:#password-expiration}
 
 多要素認証を利用している場合は，パスワードに有効期限はありません．一方，多要素認証を利用していない場合，パスワードは変更してから397日（1年+1ヶ月）間有効です．現在のパスワードの有効期限は，[利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)から確認することができます．
-
-<div class="box">※2023年3月9日以前は，多要素認証を利用しているかどうかにかかわらず，パスワードの有効期間は365日でした（<a href="/notice/2023/03-utokyo_account-password">詳細はこちら</a>）．2023年3月9日までに設定したパスワードの有効期間は365日のままで延長されておらず，同日以降に設定したパスワードから新しい有効期間になっています．</div>
 
 ### パスワードを変更する
 {:#change-password}
@@ -98,21 +88,21 @@ UTokyo Accountのパスワードを忘れた場合には，次のような手順
 
 事前に以下のいずれかの場所でメールアドレスを登録していた場合には，そのメールアドレスを利用してパスワードを再設定することができます．
 
+- 「[セキュリティ情報](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)」のページ  
+  ※このメールアドレスは，[多要素認証の初期設定の手順1](mfa/initial/#first)の際に登録されるようになっているものです．このページで直接登録する場合は，以下の手順で行ってください．
+    1. 「[セキュリティ情報](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)」のページにアクセスしてください．
+    1. 「サインイン方法の追加」ボタンを押してください．
+    1. 「どの方法を使用しますか?」欄で「電子メール」を選び，「追加」を押してください．
+    1. 以降は表示される画面に従って登録を進めてください．
 - （学生の場合 <small>※学生でも教職員でもあるアカウントの場合を含む</small>）[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)の「学生情報」メニューにある「現住所等変更入力」の「E-MAIL 1」欄
     - 学部1年生の新入生の場合，[合格発表の際に情報登録を行ったWebシステム](https://utas-ew.adm.u-tokyo.ac.jp/)に登録していたメールアドレスが自動で設定されています．
     - 「E-MAIL 2」のアドレスは再設定用のメール送信先としては使えません．
 - （教職員のみ <small>※学生でも教職員でもあるアカウントの場合を除く</small>）[人事情報MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx)の「パーソナルメニュー」にある「本人属性変更：登録画面」の「学内メールアドレス」欄
     - この欄のメールアドレスについては， `u-tokyo.ac.jp` で終わるものである必要があります．
-- 「[セキュリティ情報](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)」のページ  
-※このメールアドレスは，[多要素認証の初期設定の手順1](mfa/initial/#first)の際に登録されるようになっているものです．このページで直接登録する場合は，以下の手順で行ってください．
-    1. 「[セキュリティ情報](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)」のページにアクセスしてください．
-    1. 「サインイン方法の追加」ボタンを押してください．
-    1. 「どの方法を使用しますか?」欄で「電子メール」を選び，「追加」を押してください．
-    1. 以降は表示される画面に従って登録を進めてください．
 
 再設定の手順は以下の通りです．
 
-1. **[パスワード再設定用のページ](https://passwordreset.microsoftonline.com/?whr=utac.u-tokyo.ac.jp)**にアクセスしてください．
+1. **[パスワード再設定用のページ](https://passwordreset.microsoftonline.com/?whr=univtokyo.onmicrosoft.com)**にアクセスしてください．
 1. 以下のような「アカウントを回復する」という画面が表示されるので，「メールまたはユーザ名」の欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を，その下の欄に画像の文字を入力してから「次へ」を押してください．
     ![](img/reset.png)
     <details>
