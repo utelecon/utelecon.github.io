@@ -32,7 +32,7 @@ export const sitemapSectionsJa: SitemapSection[] = [
     name: "UTAS",
   },
   {
-    patterns: [/^\/utol$/],
+    patterns: [/^\/utol($|\/)/],
     depth: 3,
     name: "UTOL",
   },
