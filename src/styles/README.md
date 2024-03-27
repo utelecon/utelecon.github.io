@@ -36,7 +36,7 @@
 
 - `img.large`, `img.medium`, `img.small`
 - `img.inline`
-- `img.logo`
+- `img.icon`
 - `img.center`
 - `img.border`
 - `img.shadow`
