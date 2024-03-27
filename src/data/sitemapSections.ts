@@ -136,7 +136,7 @@ export const sitemapSectionsEn: SitemapSection[] = [
     name: "UTAS",
   },
   {
-    patterns: [/^\/en\/utol$/],
+    patterns: [/^\/en\/utol($|\/)/],
     depth: 3,
     name: "UTOL",
   },
