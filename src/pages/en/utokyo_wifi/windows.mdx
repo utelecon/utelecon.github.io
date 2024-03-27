@@ -21,23 +21,19 @@ import Mfa100 from "./_Mfa100.mdx";
 
 ## Procedures on Windows
 {:#procedure}
-### Step 1：Enable the Wi-Fi function from the taskbar
+### Step 1: Enable the Wi-Fi function from the taskbar
 {:#turn-on}
 Select globe icon from the taskbar, and then select fan-shaped “Wi-Fi” icon to enable Wi-Fi function.
 If there is no globe icon but only fan-shaped “Wi-Fi” icon, simply select it.
-![](img/windows10-turnon-globe.PNG){:.medium.center.border}
-![](img/windows10-turnon-sector.PNG){:.medium.center.border}
 
-### Step 2：Select the proper SSID from the SSID list
+### Step 2: Select the proper SSID from the SSID list
 {:#select-ssid}
 <SelectSsid userIdField="ユーザー名"/>
-![](img/windows10-selectssid.PNG){:.medium.center.border}
 
-### Step 3：Delete the existing Wi-Fi setting information
+### Step 3: Delete the existing Wi-Fi setting information
 {:#delete-profile}
 <DeleteProfile userIdField="ユーザー名"/>
 Right click the SSID you found in Step 2, select “Delete” from the displayed menu.
-![](img/windows10-deleteprofile.jpg){:.medium.center.border}
 
 ### Step 4: Enter the required information and connect
 {:#create-profile}
@@ -49,15 +45,13 @@ The screen of the Wi-Fi setting will be displayed after you select the SSID. Fol
 | Username      | Enter the user ID of UTokyo Wi-Fi (beginning with `u` and ending with `@wifi.u-tokyo.ac.jp`). |
 | Password      | Enter the password of UTokyo Wi-Fi.      |
 
-![](img/windows10-createprofile.jpg){:.medium.center.border}
-
 #### Supplement
 {:#create-profile-notes}
 * Enter the user ID and password of the UTokyo account into the field of “User name” and “Password”. Note that they are not the Common ID and password of UTokyo Account. You can check this user ID and password from the notification email described in ”**Preparation**” step or the screen of application completed.
 * If there are any setting items other than mentioned above, please configure them as needed. If you have no particular inclination, you can leave the default settings.
 * During the connecting operation, a screen may appear asking if you trust the certificate. To verify whether the certificate is correct, compare the "server fingerprint" of the displayed certificate with the fingerprint listed in 「[Connect Configuration](/utokyo_wifi/#connect-configuration)」. If they match, trust the certificate.
     * Additionally, there are two kinds of fingerprints (SHA-1 and SHA-256) listed on 「[Connect Configuration](/utokyo_wifi/#connect-configuration)」, either match is fine.
-．![](img/windows10-certificate.jpg){:.medium.center.border}
+
 
 ## Troubleshooting guide 
 {:#trouble-connect}
