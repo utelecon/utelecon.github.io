@@ -1,5 +1,8 @@
 ---
 title: Scheduling a Zoom Meeting (Zoom App)
+breadcrumb:
+  title: Scheduling a Meeting (Zoom App)
+  parent: ../..
 redirect_from:
   - /en/zoom/create_room_software
   - /en/zoom/install

@@ -1,0 +1,15 @@
+import HelpItem from "@components/utils/HelpItem.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/types").HelpItemType} type
+  */}
+
+<HelpItem lang="en" type={props.type} >
+  <Fragment slot="problem">When the error message “You don’t have access to this” appears</Fragment>
+
+    There is a possibility that the application for [multi-factor authentication (MFA)](/en/utokyo_account/mfa/) of your UTokyo Account, which is required to use the UTokyo Wi-Fi, has not been completed. Please make sure to follow the initial setup procedure on the page, “**[Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/initial)**” **until the last step, “Step 4: Apply for MFA Use”** to enable multi-factor authentication for your UTokyo Account. It will take about **40 minutes** for the MFA settings to be reflected in the system after these procedures, so please wait for a while.
+
+     
+    If the issue is still not resolved, please consult the [Technical Support Desk](/en/support/).
+</HelpItem>

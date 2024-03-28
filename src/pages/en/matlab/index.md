@@ -9,8 +9,7 @@ The University of Tokyo has introduced the software "[MATLAB](https://www.mathwo
 ## About MATLAB
 [MATLAB](https://www.mathworks.com/products/matlab.html) is a programming language and a numerical computation / computer algebra software developed for scientific and technical computing. MATLAB can be used for various purposes, including mathematical processing of algebra, geometry and analysis, machine learning, statistical analysis, data visualization, control simulation, and its implementation on hardware. Since the software can be operated using GUI without writing a code, it can be easily introduced not only for research use in specialized fields such as engineering and science, but also for basic education for beginners in programming, and data analysis in the humanities and social sciences.
 
-The University of Tokyo has a comprehensive license agreement that allows all members of the university to use the following functions from their individual terminals without additional costs. The number of functions provided may increase or decrease depending on the university's situation and the terms of the contract.
-
+The University of Tokyo has a comprehensive license agreement that allows **all students and all faculty and staff members employed by the university** to use the following functions from their individual devices without additional costs. The number of functions provided may increase or decrease depending on the university's situation and the terms of the contract.
 
 - Installing and using MATLAB
 - Unlimited use of MATLAB Online
@@ -113,8 +112,17 @@ Detailed instructions are in preparation．
 
 When assigning students to write script code, MATLAB Grader can be used to automatically grade, evaluate, and provide feedback on submitted scripts．
 
-## Advanced instructions
-In preparation.
+## Advanced licenses
+
+The following advanced licenses are available upon individual request.
+
+- [Concurrent license](https://www.mathworks.com/help/install/license/concurrent-licenses.html)
+    - This is a form of license activation that can be applied when you want to use the software on PCs that are centrally controlled in a laboratory or such.
+- [Parallel Server](https://www.mathworks.com/help/matlab-parallel-server/index.html)
+    - This is a license to perform parallel computing by configuring a cluster with multiple PCs or cloud computing.
+    - Parallel Server is not required for normal parallel computing on a single multi-core PC, as the [Parallel Computing Toolbox](https://www.mathworks.com/help/parallel-computing/index.html) can be used for that purpose.
+
+If you need these licenses, please contact [the Support Desk via the email form](/en/support/#email-form) with specific information on the purpose and form of use.
 
 ## References
 

@@ -4,6 +4,10 @@ title: 生成AIチャットサービスの実験的な提供について
 
 <div style="text-align: right;">2023年10月20日公開</div>
 
+<div class="box alert">（2024年3月21日）新たに「<a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a>」を開始しました．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，Microsoft Copilotの開始に伴い，提供を継続するかどうか検討しています．<strong>このため，新規の申請は受付を休止いたします．</strong>Microsoft Copilotは文字数（トークン数）の制限も少なく利用しやすくなっていますので，今後は基本的にそちらをご利用ください．</div>
+
+<div class="box"><del>（2024年3月）東京大学の構成員の皆様を対象に，<a href="https://forms.office.com/r/HvWEN9qQKa">東京大学における生成AIの提供方針に関するアンケート</a>を実施しています（回答期限3月18日まで）．ご協力よろしくお願いいたします．</del>ご協力ありがとうございました．</div>
+
 いつも本学の情報システムの運営にご協力いただきありがとうございます．
 
 このたび情報システム本部では，教育・研究にお使いいただくため，全学の構成員に向けて生成AIチャットサービスの実験的な提供を行うことにしました．
@@ -13,8 +17,6 @@ title: 生成AIチャットサービスの実験的な提供について
 本サービスは，Mckay Wrigley氏が開発している「[Chatbot UI](https://github.com/mckaywrigley/chatbot-ui)」というソフトウェアを用い，OpenAI社のAPI <ins class="alert">およびMicrosoftの「Azure OpenAI」サービスのAPI</ins> をWeb上のチャット画面から利用できるようにしたものです．OpenAI社のAPIは大学としてサービス契約したものを用いており，利用者に個別の費用負担が生じることはありません．詳細は以下の通りです．
 
 <ins class="alert">※（2023年11月21日追記）OpenAI社のAPIの使用には上限があるため，多くの利用者の方に提供できるよう，今後，Microsoftの「<a href="https://azure.microsoft.com/ja-jp/products/ai-services/openai-service">Azure OpenAI</a>」サービスを併用することを計画しています．Azure OpenAIではOpenAI社のAPIと同じモデルが提供されており，同等に利用することができます．</ins>
-
-（参考）関連して「[Bing Chat Enterpriseによる生成AIチャットの利用について（教職員限定）](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=5422)」も案内を行っていますので，こちらの利用対象となる方はあわせてご利用ください．本サービスはAPIの使用上限・従量課金がありますので，利用の分散にご協力をお願いします．
 
 ## 本サービスの概要
 
@@ -101,7 +103,9 @@ APIの使用には上限があり，また従量課金となっていること�
 
 本サービスの利用には**[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講と[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須**とします．あらかじめこれらを済ませた上で，以下の手順に進んでください．
 
-1. 以下の申請フォームを入力・送信してください．<b class="box center"><a href="https://forms.office.com/r/nAv0y1uwsR">申請フォーム</a></b>
+<div class="box alert">（2024年3月21日）新たに「<a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a>」を開始しました．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，Microsoft Copilotの開始に伴い，提供を継続するかどうか検討しています．<strong>このため，新規の申請は受付を休止いたします．</strong>Microsoft Copilotは文字数（トークン数）の制限も少なく利用しやすくなっていますので，今後は基本的にそちらをご利用ください．</div>
+
+1. 以下の申請フォームを入力・送信してください．<b class="box center"><del>申請フォーム</del></b>
 1. **申請後，利用できるようになるまでに時間がかかる場合があります．下の「申請の受付状況について」をご覧いただき，利用できるようになるまでしばらくお待ちください．**{:.alert}
     - 利用できるようになった際の個別の連絡はしません．お手数ですが，本ページや，下で説明している「UTokyo ARC」Slackワークスペースにて，各自ご確認ください．
 1. 利用できるようになったら，以下のリンクにアクセスしてください．<b class="box center"><a href="https://aichat.adm.u-tokyo.ac.jp/">https://aichat.adm.u-tokyo.ac.jp/</a></b>
@@ -132,6 +136,8 @@ APIの使用には上限があり，また従量課金となっていること�
     - 11月14日20時30分頃までに登録していた方について，当初の上限（2,000,000単位）で利用できるようにしました．大変お待たせいたしました．
     - それ以降に登録していた方について，上限を当初の40%（800,000単位）に設定した上で，利用できるようにしました．
     - 申請再開待ち登録から即時受付に切り替えました．現在，申請された方は，当初の40%の上限（800,000単位）で，申請直後から利用できるようになっています．ただし，今後も状況により一時停止などの可能性がありますことをご了承ください．
+- 3月21日
+    - 本サービスの提供を継続するかどうか検討しているため，新規の申請受付を休止しました．
 
 ## 情報共有・問い合わせ先
 

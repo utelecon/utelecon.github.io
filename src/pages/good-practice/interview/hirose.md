@@ -1,5 +1,8 @@
 ---
 title: 廣瀬敬 先生　固体地球科学
+breadcrumb:
+  parent: ../..
+  title: 廣瀬敬 先生　固体地球科学
 filters:
   format: ["realtime_online"]
   number: mt30-lt100

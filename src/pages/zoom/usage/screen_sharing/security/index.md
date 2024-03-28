@@ -1,5 +1,7 @@
 ---
 title: Zoom 画面共有の許可と制限
+breadcrumb:
+  title: 許可と制限
 ---
 
 ## はじめに

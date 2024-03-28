@@ -41,7 +41,12 @@ export default defineConfig({
     mdx({ rehypePlugins: [] }),
     react(),
     redirect(),
-    externalLinks({ target: "_blank", rel: ["noopener", "noreferrer"] }),
+    externalLinks({
+      target: "_blank",
+      rel: ["noopener", "noreferrer"],
+      content: { type: "text", value: "" },
+      contentProperties: { className: ["external-link"] },
+    }),
     cleanup(),
     trailingSlash(),
   ],

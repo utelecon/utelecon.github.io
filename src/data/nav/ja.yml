@@ -25,8 +25,8 @@
       name: "UTAS"
       url: "/utas"
     -
-      name: "ITC-LMS"
-      url: "/itc_lms"
+      name: "UTOL<small> (UTokyo LMS)</small>"
+      url: "/utol/"
     -
       name: "UTokyo Wi-Fi"
       url: "/utokyo_wifi/"
@@ -40,7 +40,7 @@
       name: "ECCSクラウドメール<small> (Google Workspace)</small>"
       url: "/google/"
     -
-      name: "UTokyo Microsoft License<small> (Microsoft 365)</small>"
+      name: "UTokyo Microsoft License"
       url: "/microsoft/"
     -
       name: "UTokyo Slack"
@@ -71,7 +71,7 @@
       url: "/online/#utokyo"
     -
       name: "資料作成における著作権"
-      url: "/articles/copyright"
+      url: "/articles/copyright/"
 -
   name: "各種案内・イベント等"
   contents:

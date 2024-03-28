@@ -2,6 +2,8 @@
 title: （Zoom 教員編）クラウドに録画する
 redirect_from:
   - /zoom/how/faculty_members/recording_cloud
+breadcrumb:
+  title: クラウドに録画する
 ---
 
 東京大学のZoomアカウント（共通ID10桁@utac.u-tokyo.ac.jp）では，クラウドレコーディング機能を使うことができます．

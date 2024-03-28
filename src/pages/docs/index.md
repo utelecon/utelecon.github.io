@@ -1,5 +1,7 @@
 ---
 title: 各種方針等
+breadcrumb:
+  title: 各種方針等
 ---
 
 ## オンライン授業関連

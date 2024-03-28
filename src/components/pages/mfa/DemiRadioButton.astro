@@ -1,0 +1,49 @@
+---
+export interface Props
+  extends Pick<
+    astroHTML.JSX.IntrinsicElements["input"],
+    "id" | "type" | "name" | "value" | "disabled"
+  > {}
+---
+
+<input {...Astro.props} />
+<span class="button-outer"></span>
+<span class="button-inner"></span>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+
+  span.button-outer {
+    position: absolute;
+    border: 2px solid $black-gray;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    inset: 0;
+    /* `!important`` in favor of `:is(main) :first-child { margin-top: 0; }` */
+    margin: auto !important;
+
+    input:disabled ~ & {
+      opacity: 0;
+    }
+  }
+
+  span.button-inner {
+    position: absolute;
+    border: 2px solid $white-gray-light;
+    background-color: $white-gray-light;
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    inset: 0;
+    margin: auto !important;
+
+    input:checked ~ & {
+      background-color: $black-gray;
+    }
+
+    input:disabled ~ & {
+      opacity: 0;
+    }
+  }
+</style>

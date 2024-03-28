@@ -1,5 +1,7 @@
 ---
 title: Requiring Authentication to Join a Zoom Meeting
+breadcrumb:
+  title: Requiring Authentication
 redirect_from:
   - /en/zoom/auth
 ---

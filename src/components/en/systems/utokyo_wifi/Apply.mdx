@@ -3,6 +3,7 @@ import Help from "@components/utils/Help.astro";
 import Support from "@components/utils/Support.astro";
 import ApplyHelpJouhouSecurity from "./ApplyHelpJouhouSecurity.mdx";
 import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
+import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 
 {/**
   * @typedef {object} Props
@@ -22,8 +23,10 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
    </If>
 1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
    <If cond={props.inlineHelp}>
-     <ApplyHelpJouhouSecurity type="details" />
+    <ApplyHelpMFA type="details" />
+    <ApplyHelpJouhouSecurity type="details" /> 
    </If>
+
 1. Click on the "New Application" Button.
 1. A notification email with your account information (user ID and password) will be sent to both your [ECCS Cloud Email](/en/google/) address and the email address shown in the "Notification E-mail Address" field.<br />
    \* If you close the account menu after submitting your application, you will not be able to check the password of your UTokyo Wi-Fi account except from the notification email. Please make sure that you can receive the notification email before you proceed to the next step.
@@ -34,8 +37,8 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
         <Fragment slot="else">
           Follow the instructions below to change the email address to which the notification email is sent.
 
-          - For students: Log in to [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do) and set "E-MAIL 1" in the "Student Information" menu (note that the "E-MAIL 2" address cannot be used as the UTokyo Wi-Fi email address).
-          - For faculty members: Log in to [the Personnel Information MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx) and set your "学内メールアドレス" (Campus Email Address) field in the "パーソナルメニュー" (Personal Menu). * The email address for this purpose must end with `u-tokyo.ac.jp`
+          - For students <small>including accounts that are both students and faculty and staff members</small>: Log in to [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do) and set "E-MAIL 1" in the "Student Information" menu (note that the "E-MAIL 2" address cannot be used as the UTokyo Wi-Fi email address).
+          - For faculty and staff members <small>excluding accounts that are both students and faculty and staff members</small>: Log in to [the Personnel Information MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx) and set your "学内メールアドレス" (Campus Email Address) field in the "パーソナルメニュー" (Personal Menu). * The email address for this purpose must end with `u-tokyo.ac.jp`
         </Fragment>
       </If>
         Please note that it will take some time for the change to take effect, so please apply for an account after a day you registered your email.
@@ -49,6 +52,7 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
   <Help lang="en" support={props.support} slot="else">
+    - <ApplyHelpMFA type="default" />
     - <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
   </Help>
