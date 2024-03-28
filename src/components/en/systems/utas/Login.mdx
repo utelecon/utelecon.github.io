@@ -1,5 +1,5 @@
-import LoginSteps from "./LoginSteps.mdx";
-import LoginHelp from "./LoginHelp.mdx";
+import Help from "@components/utils/Help.astro";
+import If from "@components/utils/If.astro";
 
 {/**
   * @typedef {object} Props
@@ -7,8 +7,18 @@ import LoginHelp from "./LoginHelp.mdx";
   * @property {boolean} support
   */}
 
-<ol>
-  <LoginSteps />
-</ol>
+1. Access [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?locale=en_US) and click “Login”.
+2. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
 
-<LoginHelp {...props} />
+<Help lang="en" support={props.support}>
+  - **Error message "[Error] あなたは現在このシステムを利用することができません (You are currently unable to use this system)"**:
+    <ul>
+      <If cond={props.variant !== "faculty_members"}>
+        <li>If your affiliation has changed (e.g., from undergraduate to graduate school), you will temporarily not be able to access UTAS. Please try logging in again later.</li>
+        <li>If the above case does not apply, please consult your faculty or department.</li>
+      </If>
+      <If cond={props.variant !== "oc"}>
+        <li>Some faculty and staff members (mainly those who do not teach classes) do not have UTAS accounts registered. Please consult the administrative office of your department.</li>
+      </If>
+    </ul>
+</Help>
