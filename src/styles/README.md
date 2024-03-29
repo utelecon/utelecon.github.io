@@ -118,4 +118,5 @@
 - `.center`
   - 文字の配置を中央揃えにします．
 - `.iframe-container`
-  - [`@pages/oc/rooms.mdx`](../pages/oc/rooms.mdx)で`iframe`要素の親要素に対して用いられているクラスです．
+  - `iframe`要素の親要素に対して用いるクラスです．これにより，アスペクト比を固定しながらiframeを幅いっぱいに広げています．
+  - 利用例：[`@pages/oc/rooms.mdx`](../pages/oc/rooms.mdx)
