@@ -10,7 +10,7 @@ breadcrumb:
 
 以下の画像はマークアップ機能を利用してテキストに書式を設定したものです．
 
-![](sample.png){:.small}
+![](sample.png){:.small.border}
 
 ### マークアップ機能対応のテキストエリアの見分け方
 
@@ -28,7 +28,7 @@ breadcrumb:
 
 ## マークアップ機能の使い方
 
-マークアップ機能の使い方を書式を設定する方法と，書式を削除する方法の2つに分けて説明します．
+マークアップ機能の使い方を，書式を設定する方法と書式を削除する方法の2つに分けて説明します．
 
 ### 書式を設定する
 
@@ -36,7 +36,7 @@ breadcrumb:
 
 - フォント：フォントを「Sans Serif」「Serif」「Monospace」から選ぶことができます．初期状態では「Sans Serif」です．
   ![](font-family-dropdown.png)
-  ![](font-family-sample.png)
+  ![](font-family-sample.png){:.border}
 - 文字の大きさ：文字の大きさを「Small」「Normal」「Large」「Huge」から選ぶことができます．初期状態では「Normal」です．
   ![](font-size-dropdown.png)
 - 太字・斜体・下線・取り消し線：文字を太くしたり，斜めにしたり，文字の下や中央に線を引くことができます．![](_icons/bold.png){:.icon}が太字，![](_icons/italic.png){:.icon}が斜体，![](_icons/underline.png){:.icon}が下線，![](_icons/strikethrough.png){:.icon}が取り消し線です．
@@ -55,10 +55,10 @@ breadcrumb:
           <figcaption>実際の表示例</figcaption>
         </figure>
       </div>
-    - Heading1とHeading2は![](_icons/h1h2.png){:.icon}で設定できます．
+    - Heading1とHeading2は![](_icons/h1h2.png){:.icon}のアイコンから設定することもできます．
 - 引用・転載![](_icons/quote.png){:.icon}：テキストが引用・転載されたものであることがわかるようにします．以下の例のような表示になります．
-  ![](quote-sample.png)
-- コードブロック![](_icons/code.png){:.icon}：プログラミング言語のソースコードを黒背景に白文字で表示し，視覚的にわかりやすく表示します．色付け（シンタックスハイライト：ソースコードに意味に応じた色を付けること）には対応していません．
+  ![](quote-sample.png){:.border}
+- コードブロック![](_icons/code.png){:.icon}：プログラミング言語のソースコード等を黒背景に白文字で表示し，視覚的にわかりやすく表示します．色付け（シンタックスハイライト：ソースコードに意味に応じた色を付けること）には対応していません．
   ![](code-sample.png)
 - 番号付きリスト・番号なしリスト：対象の行をリスト表示できます．![](_icons/ol.png){:.icon}が番号付き・![](_icons/ul.png){:.icon}が番号なし（箇条書き）リストです．以下のように表示されます．
   <div class="gallery">
@@ -75,7 +75,8 @@ breadcrumb:
 - テキストの配置：テキストの配置方法を設定できます．「左揃え」「右揃え」「中央揃え」「両端揃え」から選べます．「左揃え」「右揃え」はドロップダウンリストの左側のアイコン![](_icons/text-align.png){:.icon}でも設定できます．
   ![](text-align-dropdown.png)
 - リンク![](_icons/link.png){:.icon}：テキストにリンクを設定できます．リンクを設定するには，リンクを設定するテキストを選択した状態でアイコンを押し，表示される入力欄にURLを入力してください．
-- 数式挿入![](_icons/formula.png){:.icon}：数式を表示できます．アイコンを押すと表示される入力欄にTeX記法で数式を入力してください．TeX記法とは，数学を初めとする複雑な式を表示するための記法です．表示できる記号については[こちらのページ](https://katex.org/docs/supported)を参照してください．
+- 数式挿入![](_icons/formula.png){:.icon}：数式を表示できます．アイコンを押すと表示される入力欄にTeX記法で数式を入力してください．
+  - TeX記法とは，数学を初めとする複雑な式を表示するための記法です．表示できる記号については[KaTeXの公式ドキュメント](https://katex.org/docs/supported)（英語）を参照してください．
   <div class="gallery">
     <figure class="center">
       ![](formula-sample-before.png)
