@@ -116,7 +116,7 @@
 記述ファイル：[`components/utils.scss`](components/utils.scss)
 
 - `.alert`
-  - 文字色が`$red` (`#cf4b00`) になります．
+  - 文字色が`$red`になります．
 - `.center`
   - 文字の配置を中央揃えにします．
 - `.iframe-container`
