@@ -18,7 +18,7 @@
 
 ## `components`以下で定義されているユーティリティクラスについて
 
-`@styles/components`にはユーティリティクラスが定義されています．これらのクラスはグローバルに適用されており，Markdown内で適用することができます．
+`@styles/components`にはユーティリティクラスが定義されています．これらのクラスはグローバルに適用されており，Markdown内で適用することができます．その際には，IALの記法（[README](../../README.md)参照）を利用するとクラスを適用する際にわざわざHTMLを書く必要がなく便利です．
 
 ### `.box`系
 記述ファイル：[`components/box.scss`](components/box.scss)
