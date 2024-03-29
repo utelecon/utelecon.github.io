@@ -13,6 +13,7 @@ title: 生成AI（ChatGPT等）関連情報
 
 ## 全学構成員向けの生成AIサービス
 
+- [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui)（2024年3月29日）
 - [当面の全学構成員向け生成AIサービス提供方針について](/notice/2024/0327-ai-service)（2024年3月27日）
 - [Microsoft Copilotによる生成AIチャットの提供について](/notice/2024/03-microsoft-copilot)（2024年3月1日）
 - [生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat)（2023年10月20日）
