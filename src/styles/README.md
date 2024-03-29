@@ -27,17 +27,17 @@
 
 - `.box`
   - 最も基本的な囲みです．文字色と同じ色の幅`1px`の枠線が付加されるほか，ブロック要素として扱われます．
-  - 利用例：[`pages/utokyo_account/index.mdx`](../pages/utokyo_account/index.mdx)
+  - 利用例：[`@pages/utokyo_account/index.mdx`](../pages/utokyo_account/index.mdx)
 - `.box--important`
   - `.box`のスタイルに加えて，枠線の幅が`2px`に，文字が太字に，文字のサイズが`larger`になります．
-  - 利用例：[`pages/zoom/create_room/auth/index.md`](../pages/zoom/create_room/auth/index.md)
+  - 利用例：[`@pages/zoom/create_room/auth/index.md`](../pages/zoom/create_room/auth/index.md)
 - `.box--alert`
   - `.box`のスタイルに加えて，枠線の幅が`2px`に，文字が太字に，文字色が`$red` (`#cf4b00`) になります．
-  - 利用例：[`pages/notice/20210403-utnet.md`](../pages/notice/20210403-utnet.md)
+  - 利用例：[`@pages/notice/20210403-utnet.md`](../pages/notice/20210403-utnet.md)
 - `strong.box`, `b.box`
   - `strong`要素や`b`要素に`.box`クラスを付与すると，枠線の幅が`2px`に，文字が太字になります．
   - `.box`を付与しているため，これらはブロック要素として扱われます．
-  - 利用例：[`components/ja/systems/utol/Login.mdx`](../components/ja/systems/utol/Login.mdx)
+  - 利用例：[`@components/ja/systems/utol/Login.mdx`](../components/ja/systems/utol/Login.mdx)
 
 #### 枠線と文字を太くする場合の実装
 現在の実装では，`strong`と`b`以外の要素に対して「枠線幅`2px`」と「太字」のスタイルのみを適用するクラスはありません．そのため，文字サイズや文字色を変えずにこれらのスタイルを適用する目的で，本来であれば`div`要素や`p`要素を用いるべきところで，`strong`要素や`b`要素に`.box`クラスを付与するような実装が多くの箇所で行われています．
@@ -47,10 +47,10 @@
 
 カード表示のためのクラスです．このクラスが付与された要素を直接の親にもつ`li`要素または`a`要素は，枠線や太字等のスタイルが適用されたブロック要素としてグリッド状に配置されます．
 
-基本的にトップページでのみ用いられていますが，[`pages/utokyo_vpn/index.md`](../pages/utokyo_vpn/index.md)など複数のリンクをまとめて強調表示したい場合にも利用例があります．
+基本的にトップページでのみ用いられていますが，[`@pages/utokyo_vpn/index.md`](../pages/utokyo_vpn/index.md)など複数のリンクをまとめて強調表示したい場合にも利用例があります．
 
 - `.cards`
-  - 利用例：[`pages/index.mdx`](../pages/index.mdx)
+  - 利用例：[`@pages/index.mdx`](../pages/index.mdx)
 - `.cards + h2`
   - `h2`要素に対してこのクラスを付与すると，上方向に`margin`が適用されます．
 
@@ -91,7 +91,7 @@
 
 - `ul.gap`, `ol.gap`
   - 子要素の隣接する`li`要素に対して上下方向に`1em`の`margin`を設定します．
-  - 利用例：[`components/en/systems/utokyo_wifi/index.mdx`](../components/en/systems/utokyo_wifi/index.mdx)
+  - 利用例：[`@components/en/systems/utokyo_wifi/index.mdx`](../components/en/systems/utokyo_wifi/index.mdx)
 - `ol.bracket`
   - 番号付きリストのフォーマットが`[1]`, `[2]`, `[3]`, ... に変更されます．
   - 特別な理由がない限り使用は推奨されません．
@@ -108,7 +108,7 @@
 
 - `.top__systems`
   - 子要素を2段組で配置します．
-  - [`pages/index.mdx`](../pages/index.mdx) の「東京大学のシステム」セクションでのみ使用されています．
+  - [`@pages/index.mdx`](../pages/index.mdx) の「東京大学のシステム」セクションでのみ使用されています．
 
 ### その他
 記述ファイル：[`components/utils.scss`](components/utils.scss)
