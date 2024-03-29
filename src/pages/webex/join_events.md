@@ -15,10 +15,6 @@ breadcrumb:
 * ここで「イベントへの参加」を押すと会議に参加することができます．
 * 開催者が開催していない場合には時間を過ぎている場合であっても参加することができません．
 
-<br>
-<br>
-<a href="index" target="_blank">Webexの使い方ページに戻る</a>
-
 <a href="do_webex" target="_blank">ミーティング・ウェビナーで出来ること（開催者・参加者共通）を見る</a>
 <br />
 <a href="do_webex_host" target="_blank">ミーティング・ウェビナーでできること（開催者限定）を見る</a>
