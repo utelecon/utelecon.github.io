@@ -32,7 +32,7 @@
   - `.box`のスタイルに加えて，枠線の幅が`2px`に，文字が太字に，文字のサイズが`larger`になります．
   - 利用例：[`@pages/zoom/create_room/auth/index.md`](../pages/zoom/create_room/auth/index.md)
 - `.box--alert`
-  - `.box`のスタイルに加えて，枠線の幅が`2px`に，文字が太字に，文字色が`$red` (`#cf4b00`) になります．
+  - `.box`のスタイルに加えて，枠線の幅が`2px`に，文字が太字に，文字色が`$red`になります．
   - 利用例：[`@pages/notice/20210403-utnet.md`](../pages/notice/20210403-utnet.md)
 - `strong.box`, `b.box`
   - `strong`要素や`b`要素に`.box`クラスを付与すると，枠線の幅が`2px`に，文字が太字になります．
