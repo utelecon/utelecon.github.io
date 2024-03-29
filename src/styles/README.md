@@ -81,8 +81,10 @@
 #### `img`要素の親要素に対するクラス
 - `figure.center`
   - `figure`要素を中央揃えで配置します．
+  - 利用例：[`@pages/utokyo_vpn/index.md`](../pages/utokyo_vpn/index.md)
 - `.gallery`
   - 主に`figure`要素に対して設定するクラスです．子要素の`img`要素を横方向に並べて表示することができます．
+  - 利用例：[`@pages/utokyo_vpn/index.md`](../pages/utokyo_vpn/index.md)
 
 ### `ol`, `ul`系
 記述ファイル：[`components/lists.scss`](components/lists.scss)
