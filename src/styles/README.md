@@ -4,8 +4,6 @@
 
 このファイルの説明は，CSSに関する基礎知識を前提としています．
 
-このファイルは工事中です．
-
 ## `@layouts`および`@components/utils`との棲み分けについて
 
 `@layouts`や`@components/utils`にある`.astro`ファイルには，そのコンポーネントだけに適用されるCSSを一緒に記述することができます．`@styles`にあるべきCSSと`@layouts`や`@components/utils`にあるべきCSSの棲み分けは，以下のようになります．
