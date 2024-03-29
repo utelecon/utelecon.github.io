@@ -104,7 +104,7 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 
 **学生のみが利用できます**
 
-WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は**[UTokyo Microsoft Windows 10 for students](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_win10.html)**のページをご覧ください．
+WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は**[Windows Education for students](windows_education_for_students)**のページをご覧ください．
 
 ### 共用PC等向けMicrosoftライセンス
 {:#shared_pc}
