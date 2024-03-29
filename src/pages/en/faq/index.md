@@ -176,9 +176,9 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 * See [ECCS Cloud Email – “Initial Setup Procedures”](/en/google/#initial-setup-procedures), and follow the instructions in “Task: Set your password and email address”.
 
 ### Q. What is the difference among `10-digits-ID@utac`, `10-digits-ID@g.ecc`, and `xxxx@g.ecc` (email address named after your choice) email addresses?
-* `10-digits-ID@utac.u-tokyo.ac.jp`（e.g. `1234567890@utac.u-tokyo.ac.jp`）
+* `10-digits-ID@utac.u-tokyo.ac.jp`（e.g. `0123456789@utac.u-tokyo.ac.jp`）
 This is the email address for UTokyo Accounts sign-in. Signing in with your 10 digits- ID is usually available. However, `@utac` is necessary to specify the UTokyo domain.
-* `10-digits-ID@g.ecc.u-tokyo.ac.jp`（e.g. `1234567890@g.ecc.u-tokyo.ac.jp`）
+* `10-digits-ID@g.ecc.u-tokyo.ac.jp`（e.g. `0123456789@g.ecc.u-tokyo.ac.jp`）
 This is the alias of ECCS Cloud Email. Signing in to Google with this email address is unavailable. Any email sent to this address will be forwarded to ECCS Cloud Email. (You can check the email by signing into Gmail with `xxxx@g.ecc` (email address named after your choice))
 * `xxxx@g.ecc.u-tokyo.ac.jp` (email address named after your choice)
 xxxx (The character string before @) is assigned by individual users from the ECCS User Menu (~Feb. 2021: UTokyo Account User Menu). Signing in to Google with this email address is available.
@@ -226,7 +226,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 ### Q. An user ID error occurs when I attempt to reset my UTokyo Account password. What can I do?
 * See [this page](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html) and reset your password.
-* On the Reset Password page, you should enter your 10-digit ID`@utac.u-tokyo.ac.jp`（e.g. `1234567890@utac.u-tokyo.ac.jp`）as your user ID.
+* On the Reset Password page, you should enter your 10-digit ID`@utac.u-tokyo.ac.jp`（e.g. `0123456789@utac.u-tokyo.ac.jp`）as your user ID.
  * NOT the 10-digit common ID
 * Watch also this video <a href="https://www.youtube.com/watch?v=Kumu8aPGnyI&feature=youtu.be" target="_blank">this video </a>.
 
