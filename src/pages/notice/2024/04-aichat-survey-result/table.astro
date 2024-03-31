@@ -1,0 +1,62 @@
+---
+interface Props {
+  cols: {heading: string, style?: {string: any}}[],
+  data: {string: string[]},
+  defaultStyle: {string: any},
+  sideStyle: {string: any},
+}
+
+const {cols, data, defaultStyle, sideStyle: defaultSideStyle} = Astro.props;
+const sideStyle = { ...defaultStyle, ...defaultSideStyle };
+---
+
+<table class="table">
+  <thead>
+    <tr>
+      <th style={ sideStyle }></th>
+      <>
+        {
+          cols.map(({heading, style}) => {
+            return <th style={{ ...defaultStyle, ...style }}>{ heading }</th>;
+          })
+        }
+      </>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      Object.entries(data).map(([sideHeading, values]) => {
+        return (
+          <tr>
+            <th style={ sideStyle }>{ sideHeading }</td>
+            {
+              values.map((value, index) => {
+                return <td style={{ ...defaultStyle, ...cols[index].style }}>{ value }</td>;
+              })
+            }
+          </tr>
+        );
+      })
+    }
+  </tr>
+  </tbody>
+</table>
+
+<style>
+  .table {
+    word-break: break-all;
+    font-size: 0.75em;
+    th {
+      font-weight: normal;
+    }
+    td, th {
+      padding: 0.25em;
+    }
+    td {
+      text-align: right;
+    }
+    thead th {
+      text-align: center;
+    }
+  }
+</style>

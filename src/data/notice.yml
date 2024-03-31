@@ -3,6 +3,10 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2024-04-01
+  content:
+    ja: "[生成AIの提供方針に関するアンケートの結果等について](/notice/2024/04-aichat-survey-result/)"
+-
   date: 2024-03-29
   content:
     ja: "[2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui)"
