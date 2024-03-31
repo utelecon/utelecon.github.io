@@ -22,17 +22,17 @@ breadcrumb:
 
 1. Zoomアプリケーションを立ち上げ，「設定」を開き，「背景とエフェクト」を選んでください．
 
-![](images/open_settings.png)
+  ![](images/open_settings.png)
 
 
 2. 好みのバーチャル背景を選んでください．（「None」を選択するとバーチャル背景は設定されません．）
 
-![](images/open_settings_of_virtual_screen.png)
+  ![](images/open_settings_of_virtual_screen.png)
 
 * 「＋」の部分を選択するとバーチャル背景としてオリジナルの画像をアップロードすることができます．
 
 
-![](images/add_virtual_screen.png)
+  ![](images/add_virtual_screen.png)
 
 
 
@@ -41,12 +41,12 @@ breadcrumb:
 1. ミーティング画面下部に表示されている「ビデオの開始（または「ビデオの停止」）」ボタンの横にある上ボタンを押してください．
 
 
-![](images/open_settings_of_video.png)
+  ![](images/open_settings_of_video.png)
 
 
 2. メニューの中から「バーチャル背景を選択」を選んでください．「ぼかし」を使いたい場合は「背景をぼかす」を選択してください．
 
-![](images/select_settings_of_virtual_screen.png)
+  ![](images/select_settings_of_virtual_screen.png)
 
 
 3. 好みのバーチャル背景を選んでください．（「None」を選択するとバーチャル背景は設定されません．）
@@ -55,12 +55,12 @@ breadcrumb:
 
 * 「＋」の部分をクリックするとバーチャル背景としてオリジナルの画像をアップロードすることができます．
 
-![](images/open_settings_of_virtual_screen.png)
+  ![](images/open_settings_of_virtual_screen.png)
 
 
 
 
-![](images/add_virtual_screen.png)
+  ![](images/add_virtual_screen.png)
 
 
 
@@ -91,13 +91,13 @@ Zoomでは，バーチャル背景と同じような機能として，ビデオ�
 
 
 
-![](images/open_settings.png)
+  ![](images/open_settings.png)
 
 
 2. 「ビデオフィルタ」を選択します．
 
 
-![](images/open_settings_of_video_filter.png)
+  ![](images/open_settings_of_video_filter.png)
 
 
 3. 好みのビデオフィルタを選んでください．（ビデオフィルタでは，バーチャル背景と異なり，オリジナルの画像などをアップロードすることはできません．）
@@ -109,14 +109,14 @@ Zoomでは，バーチャル背景と同じような機能として，ビデオ�
 
 
 
-![](images/open_settings_of_video.png)
+  ![](images/open_settings_of_video.png)
 
 
 2. メニューの中から「ビデオフィルタを選択」を選んでください．
 
 
 
-![](images/select_settings_of_video_filter.png)
+  ![](images/select_settings_of_video_filter.png)
 
 
 3. 好みのビデオフィルタを選んでください．（ビデオフィルタではオリジナルの画像などをアップロードすることはできません．）
@@ -131,7 +131,7 @@ Zoomでは，バーチャル背景と同じような機能として，ビデオ�
 
 
 
-![](images/open_settings.png)
+  ![](images/open_settings.png)
 
 
 2. 「アバター」を選択してください．
@@ -139,26 +139,26 @@ Zoomでは，バーチャル背景と同じような機能として，ビデオ�
 
 
 
-![](images/open_settings_of_avatar.png)
+  ![](images/open_settings_of_avatar.png)
 
 
 3. 好みのアバターを選んでください．（アバターを設定するとカメラに映る背景が表示されなくなり，アバターだけが表示されるようになります．バーチャル背景を設定している場合は設定している画像がアバターの背後に表示されます．）
 
 
-![](images/select_avatar.png)
+  ![](images/select_avatar.png)
 
 
 ※バーチャル背景設定時
 
 
-![](images/avatar_with_virtual_screen.png)
+  ![](images/avatar_with_virtual_screen.png)
 
 
   a. 「＋」の部分をクリックするとオリジナルのアバターを作成することができます．
 
 
 
-![](images/add_original_avatar.png)
+  ![](images/add_original_avatar.png)
 
 
 
@@ -166,20 +166,20 @@ Zoomでは，バーチャル背景と同じような機能として，ビデオ�
 
 1. ミーティング画面下部に表示されている「ビデオの開始（または「ビデオの停止」）」ボタンの横にある上ボタンを押してください．
 
-![](images/open_settings_of_video.png)
+  ![](images/open_settings_of_video.png)
 
 
 2. メニューの中から「アバターを選択」を選んでください．（「アバターを表示」を選択すると事前に設定されたアバターが表示されます．）
 
-![](images/select_settings_of_avatar.png)
+  ![](images/select_settings_of_avatar.png)
 
 
 3. 好みのアバターを選んでください．（アバターを設定するとカメラに映る背景が表示されなくなり，アバターだけが表示されるようになります．バーチャル背景を設定している場合は設定している画像がアバターの背後に表示されます．）
 
-![](images/select_avatar.png)
+  ![](images/select_avatar.png)
 
 
   a. 「＋」の部分をクリックするとオリジナルのアバターを作成することができます．
 
-![](images/add_original_avatar.png)
+  ![](images/add_original_avatar.png)
 
