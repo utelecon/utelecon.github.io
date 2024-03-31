@@ -38,6 +38,10 @@ export default defineConfig({
         },
       ],
     ],
+    remarkRehype: {
+      footnoteLabelProperties: { className: ["visually-hidden"] },
+      footnoteLabelTagName: "b",
+    }
   },
   publicDir: "src/pages",
   scopedStyleStrategy: "where",
