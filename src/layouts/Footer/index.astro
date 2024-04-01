@@ -1,7 +1,9 @@
 ---
 import Buttons from "./Buttons.astro";
+import { Image } from "astro:assets";
 import Navigation from "./Navigation.astro";
 import type { Lang } from "@components/types";
+import UtokyoLogo from "./20240301_UTokyoLogotypeA_RGB.svg";
 
 interface Props {
   lang: Lang;
@@ -37,9 +39,9 @@ const topUrl = {
 <footer class="footer">
   <div class="logo">
     <a href="https://www.u-tokyo.ac.jp/">
-      <img
+      <Image
         class="logo-utokyo"
-        src="/assets/images/UTlogo.png"
+        src={UtokyoLogo}
         alt="東京大学 the University of Tokyo"
       />
     </a>
@@ -71,6 +73,7 @@ const topUrl = {
       &-utokyo {
         width: 16rem;
         max-width: 62.5%;
+        height: auto;
       }
       &-utelecon {
         display: block;
