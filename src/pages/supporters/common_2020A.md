@@ -30,7 +30,7 @@ title: オンライン授業に関する技術的支援を行うコモンサポ�
    チャットサービスは，まずチャットボットによる自動応答でトラブル解決を図り，自動で対応できない場合は学生コモンサポーターがオペレータとして対応します．
 
    チャットサービスについては以下のページをご覧ください．
-   [https://utelecon.github.io/supports](https://utelecon.github.io/supports) 
+   [https://utelecon.adm.u-tokyo.ac.jp/supports](/supports) 
 
    以下，想定される業務内容を記載します（サービスの運用状況によっては他の業務も発生する可能性があることをご了承下さい）．
 

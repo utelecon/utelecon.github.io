@@ -1,5 +1,7 @@
 ---
 title: Joining a Webex Webinar
+breadcrumb:
+  title: Joining a Webinar
 ---
 
 ## Joining a Webinar

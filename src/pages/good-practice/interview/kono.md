@@ -1,5 +1,8 @@
 ---
 title: 河野望 先生　薬学実習IV
+breadcrumb:
+  parent: ../..
+  title: 河野望 先生　薬学実習IV
 filters:
   format: ["realtime_online"]
   number: mt30-lt100

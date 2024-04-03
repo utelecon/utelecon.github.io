@@ -1,5 +1,7 @@
 ---
 title: uteleconについて
+breadcrumb:
+  title: uteleconについて
 ---
 
 <p style="text-align: right">
@@ -52,6 +54,10 @@ uteleconは以下のコンテンツから構成されています．それぞれ
 * 「[UTokyoオンライン授業の現在](https://www.u-tokyo.ac.jp/focus/ja/features/z1304_00084.html)」（東京大学，2020年9月29日）
 * “[How UTokyo moved 5,000 classes online in a month](https://www.u-tokyo.ac.jp/focus/en/features/z0508_00181.html)”（東京大学，2020年7月20日）
 * 「[【ドキュメンタリー】東大オンライン授業化はなぜ成功したのか](https://todai-umeet.com/article/55241)」（UmeeT，2020年7月8日）
+
+## Google Analyticsの使用について
+
+uteleconポータルサイトでは，利用状況の統計を取得するため，Google Analyticsを使用しています．Googleによるデータの取り扱いについては，「[Google のサービスを使用するサイトやアプリから収集した情報の Google による使用](https://policies.google.com/technologies/partner-sites)」等をご覧ください．
 
 ## Contribution
 

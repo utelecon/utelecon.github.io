@@ -10,7 +10,13 @@ export function onChangeTab(listener: Listener) {
   listeners.push(listener);
 }
 
-export function emitChangeTab(step: string, selection: string) {
+export function emitChangeTab(step: string, selection: string | null) {
+  if (!["first", "alt"].includes(step)) return;
+
+  selection ??= "selector";
+  if (!["selector", "ms_auth", "auth_app", "phone", "fido"].includes(selection))
+    selection = "selector";
+
   for (const listener of listeners) {
     listener(step, selection);
   }
@@ -26,7 +32,7 @@ onChangeTab((step, selection) => {
 document.addEventListener("DOMContentLoaded", () => {
   for (const step of ["first", "alt"]) {
     const url = new URL(location.href);
-    const selection = url.searchParams.get(step) ?? "selector";
+    const selection = url.searchParams.get(step);
     emitChangeTab(step, selection);
   }
 });

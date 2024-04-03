@@ -1,11 +1,11 @@
 ---
 title: UTokyo Account多要素認証の初期設定手順
+breadcrumb:
+  title: 初期設定手順
 ---
 
 import Tabs from "@components/ja/mfa/Tabs.astro";
 import TabSelector from "@components/ja/mfa/TabSelectorGrid.astro";
-
-[多要素認証に関する説明ページのトップに戻る](..)
 
 ## はじめに
 {:#introduction}
@@ -20,9 +20,9 @@ import TabSelector from "@components/ja/mfa/TabSelectorGrid.astro";
 - 手順4：[多要素認証の利用を申請する](#apply)
 
 登録する本人確認方法により，手順1，2での作業が異なります．
-最初に，以下の表から，手順1，2のそれぞれで使用する本人確認方法を選んでください．このページの以下で，選択した本人確認方法に対応する設定手順が表示されます．  
+最初に，以下の表から，手順1，2のそれぞれで使用する本人確認方法を選んでください．このページの以下では，選択した本人確認方法に対応する設定手順が表示されます．  
 
-なお，手順1で登録する「1個目の本人確認方法」がデフォルト（自動で選ばれる方法）になるので，最もよく使う本人確認方法を「1個目の本人確認方法」として登録するのがいいでしょう．
+なお，手順1で登録する「1個目の本人確認方法」がデフォルト（自動で選ばれる方法）になるので，最もよく使う本人確認方法を「1個目の本人確認方法」として登録するのが良いでしょう．
 また，2台以上のスマホを持っている場合に2台目以降のスマホにインストールした同じ認証アプリを登録する，携帯電話と固定電話の両方を登録するなど，手順1，2で同じ本人確認方法を使用することも可能です．
 
 <TabSelector group="intent" />
@@ -49,7 +49,7 @@ import TabSelector from "@components/ja/mfa/TabSelectorGrid.astro";
 ## 手順2：追加の本人確認方法を登録する
 {:#alternative.mfa-initial-step-heading}
 
-続いて，**[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)**から，追加の（2個目以降の）本人確認方法を登録します．
+続いて，**[多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)**から，追加の（2個目以降の）本人確認方法を登録します．
 
 本人確認方法を1個しか登録していなくても多要素認証を利用することはできますが，故障や機種変更などで登録されている本人確認方法が使えなくなった場合，UTokyo Accountにサインインできなくなってしまいます．このような事態を防ぐため，必ず**複数の本人確認方法を登録してください**．
 
@@ -68,7 +68,7 @@ import TabSelector from "@components/ja/mfa/TabSelectorGrid.astro";
 
 1. [UTokyo Accountのサインアウトページ](https://univtokyo.sharepoint.com/sites/utokyoaccount/_layouts/15/SignOut.aspx)にアクセスしてください．
 1. 「サインアウトしました」という画面が表示されるまでしばらく待ってください．
-1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=utac.u-tokyo.ac.jp)へアクセスしてください．
+1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)へアクセスしてください．
 1. サインイン画面が表示されたら，UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してください．
 1. 続いて多要素認証の本人確認が行われます．本人確認方法により手順が異なりますので，画面の指示に従って操作してください．
     - **Microsoft Authenticatorの場合**：スマホに通知が送られ，サインイン画面に表示されている2桁の数字を入力するように求められるので，そのようにしてください．
@@ -82,12 +82,11 @@ import TabSelector from "@components/ja/mfa/TabSelectorGrid.astro";
     - **電話番号で音声通話を使う場合**：電話が着信し，音声ガイダンスで「#」ボタンを押すように言われるので，そのようにしてください（スマホで通話中に「#」ボタンを表示するには，画面に表示されている「キーパッド」ボタンを押します）．
     <details>
         <summary>表示されているもの以外の本人確認方法を使いたい場合</summary>
-        サインイン時の本人確認方法は，登録されている方法のいずれか（通常，最初に登録したもの）がデフォルトとして自動的に選ばれます．他の本人確認方法を使いたい場合は，画面上の「別の確認オプションを使用する」（あるいは「問題がありますか? 別の方法でサインインする」「Microsoft Authenticator アプリを現在使用できません」）というリンクを押してください．
+        サインイン時の本人確認方法は，登録されている方法のいずれか（通常，最初に登録したもの）がデフォルトとして自動的に選ばれます．他の本人確認方法を使いたい場合は，画面上の「別の確認オプションを使用する」あるいは「Microsoft Authenticator アプリを現在使用できません」というリンクを押してください．
         <img src="signin_with_another_method.png" />
         また，デフォルトの方法を変更したい場合は，下の「[既定（デフォルト）の本人確認方法を変更する](../change/#default)」の説明に従って作業してください．
     </details>
 1. 「セキュリティ情報」と書かれた多要素認証の設定ページが表示されればOKです．
-{:.mfa-initial-procedure}
 
 <div class="box">
 初期設定はまだ完了していません．引き続き手順4を行ってください．  
@@ -107,7 +106,6 @@ import TabSelector from "@components/ja/mfa/TabSelectorGrid.astro";
     <img src="user_menu_1.png" />
 4. 表示される多要素認証に関する説明をよく読んでから，下の方にある「多要素認証を利用する」を「はい」にして，「保存」を押してください．
     <img src="user_menu_2.png" />
-{:.mfa-initial-procedure}
 
 <div class="box">
 以上で多要素認証の初期設定手順は完了です．**設定がシステム全体に反映されるまで最大約40分かかります**ので，多要素認証の利用が必須なUTokyo VPNおよびUTokyo Slackを利用したい場合は，それまでしばらくお待ちください．  

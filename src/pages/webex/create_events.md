@@ -1,5 +1,7 @@
 ---
 title: Webex ウェビナーを作成する
+breadcrumb:
+  title: ウェビナーを作成する
 ---
 
 ## Webexウェビナーを作成する
@@ -53,8 +55,3 @@ Webexには，テンプレートの種別（ウェビナーへの招待，リマ
 
 #### ウェビナー用に編集する
 -->
-
-
-<br>
-<br>
-<a href="index" target="_blank">Webexの使い方ページに戻る</a>
