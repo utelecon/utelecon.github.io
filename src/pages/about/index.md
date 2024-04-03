@@ -50,7 +50,7 @@ uteleconは以下のコンテンツから構成されています．それぞれ
 ## 外部発表・取材一覧
 
 * 竹内朗，玉造潤史：学生・教職員の協働によるワンストップの大学ICTサポート窓口運営の実践，学術情報処理研究，Vol. 23, No. 1, pp. 142-156, 2023. DOI: https://doi.org/10.24669/jacn.27.1_142　
-* 竹内朗，中條麟太郎「オンライン授業に関するOn-Campus Jobの拡大とその課題」（第28回 [大学等におけるオンライン教育とデジタル変革に関するサイバーシンポジウム「教育機関DXシンポ」](https://www.nii.ac.jp/event/other/decs/)，2021年3月19日）[資料](https://www.nii.ac.jp/event/upload/20210319-07_UT.pdf)・[映像](https://youtu.be/g837oBruR1U)
+* 竹内朗，中條麟太郎「オンライン授業に関するOn-Campus Jobの拡大とその課題」（第28回 [大学等におけるオンライン教育とデジタル変革に関するサイバーシンポジウム「教育機関DXシンポ」](https://www.nii.ac.jp/event/other/decs/)，2021年3月19日）[資料・映像](https://edx.nii.ac.jp/lecture/20210319-07)
 * 「[UTokyoオンライン授業の現在](https://www.u-tokyo.ac.jp/focus/ja/features/z1304_00084.html)」（東京大学，2020年9月29日）
 * “[How UTokyo moved 5,000 classes online in a month](https://www.u-tokyo.ac.jp/focus/en/features/z0508_00181.html)”（東京大学，2020年7月20日）
 * 「[【ドキュメンタリー】東大オンライン授業化はなぜ成功したのか](https://todai-umeet.com/article/55241)」（UmeeT，2020年7月8日）
