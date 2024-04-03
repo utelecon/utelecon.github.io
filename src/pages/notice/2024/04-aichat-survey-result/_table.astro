@@ -1,7 +1,7 @@
 ---
 interface Props {
   cols: { heading: string }[];
-  data: { string: string[] };
+  data: { [side: string]: string[] };
   cellWidth: number;
   sideWidth?: number;
 }
