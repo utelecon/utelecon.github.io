@@ -1,56 +1,62 @@
 ---
 interface Props {
-  cols: {heading: string, style?: {string: any}}[],
-  data: {string: string[]},
-  defaultStyle: {string: any},
-  sideStyle: {string: any},
+  cols: { heading: string }[];
+  data: { string: string[] };
+  cellWidth: number;
+  sideWidth?: number;
 }
 
-const {cols, data, defaultStyle, sideStyle: defaultSideStyle} = Astro.props;
-const sideStyle = { ...defaultStyle, ...defaultSideStyle };
+const { cols, data, cellWidth, sideWidth = cellWidth } = Astro.props;
 ---
 
 <table class="table">
   <thead>
     <tr>
-      <th style={ sideStyle }></th>
-      <>
-        {
-          cols.map(({heading, style}) => {
-            return <th style={{ ...defaultStyle, ...style }}>{ heading }</th>;
-          })
-        }
-      </>
+      <th></th>
+      {
+        cols.map(({ heading }) => {
+          return <th>{heading}</th>;
+        })
+      }
     </tr>
   </thead>
   <tbody>
     {
-      Object.entries(data).map(([sideHeading, values]) => {
-        return (
-          <tr>
-            <th style={ sideStyle }>{ sideHeading }</td>
-            {
-              values.map((value, index) => {
-                return <td style={{ ...defaultStyle, ...cols[index].style }}>{ value }</td>;
-              })
-            }
-          </tr>
-        );
-      })
+      Object.entries(data).map(([sideHeading, values]) => (
+        <tr>
+          <th>{sideHeading}</th>
+          {values.map((value, index) => {
+            return <td>{value}</td>;
+          })}
+        </tr>
+      ))
     }
-  </tr>
   </tbody>
 </table>
 
-<style>
+<style
+  lang="scss"
+  define:vars={{ "cell-width": cellWidth, "side-width": sideWidth }}
+>
   .table {
     word-break: break-all;
     font-size: 0.75em;
     th {
       font-weight: normal;
     }
-    td, th {
+    td,
+    th {
       padding: 0.25em;
+
+      &:first-child {
+        width: var(--side-width);
+        min-width: var(--side-width);
+      }
+
+      &:not(:first-child) {
+        width: var(--cell-width);
+        min-width: var(--cell-width);
+      }
     }
     td {
       text-align: right;
