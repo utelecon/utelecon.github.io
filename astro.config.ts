@@ -8,7 +8,6 @@ import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
 import dotSlashPlugin from "./src/lib/DotSlashPlugin.js";
 import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
 import externalLinks from "./src/lib/ExternalLinksIntegration.js";
-import { cleanup } from "./src/lib/CleanupIntegration.js";
 import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
 import rehypeRaw from "rehype-raw";
 
@@ -48,7 +47,6 @@ export default defineConfig({
   build: {
     format: "preserve",
   },
-  publicDir: "src/pages",
   scopedStyleStrategy: "where",
   integrations: [
     mdx({ rehypePlugins: [] }),
@@ -60,7 +58,6 @@ export default defineConfig({
       content: { type: "text", value: "" },
       contentProperties: { className: ["external-link"] },
     }),
-    cleanup(),
   ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
 });
