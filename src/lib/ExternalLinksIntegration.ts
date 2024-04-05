@@ -5,7 +5,6 @@ import parse from "rehype-parse";
 import rehypeExternalLinks from "rehype-external-links";
 import type { Options } from "rehype-external-links";
 import stringify from "rehype-stringify";
-import { join } from "path";
 import { read, write } from "to-vfile";
 
 export default function externalLinks(options: Options): AstroIntegration {
@@ -17,15 +16,11 @@ export default function externalLinks(options: Options): AstroIntegration {
   return {
     name: "redirect",
     hooks: {
-      "astro:build:done": async ({ dir, routes }) => {
+      "astro:build:done": async ({ routes }) => {
         await Promise.all(
-          routes.map(async ({ pathname }) => {
-            if (!pathname) return;
-            const path =
-              pathname === "/404"
-                ? join(fileURLToPath(dir), "404.html")
-                : join(fileURLToPath(dir), pathname, "index.html");
-            const source = await read(path);
+          routes.map(async ({ distURL }) => {
+            if (!distURL) return;
+            const source = await read(fileURLToPath(distURL));
             const processed = await processor.process(source);
             await write(processed);
           }),

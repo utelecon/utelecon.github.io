@@ -1,32 +1,27 @@
 import type { AstroIntegration } from "astro";
-import fs from "fs/promises";
 import matter from "gray-matter";
-import { extname, join, relative } from "path";
+import { relative } from "path";
 import { fileURLToPath } from "url";
-import { walk } from "./util";
-import { VFile } from "vfile";
-
-const source = [".md", ".markdown", ".mdx"];
+import { glob } from "glob";
+import { read } from "to-vfile";
 
 export default function redirect(): AstroIntegration {
   return {
     name: "redirect",
     hooks: {
       "astro:config:setup": async ({ updateConfig, config }) => {
-        const pages = join(fileURLToPath(config.srcDir), "pages");
-        const promises: Promise<VFile>[] = [];
-        for await (const path of walk(pages)) {
-          if (!source.includes(extname(path))) continue;
-          promises.push(readFile(path));
-        }
-        const files = await Promise.all(promises);
-        const redirects = files.flatMap((file) => {
-          const { redirect_to, redirect_from } = file.data;
+        const pagesDir = fileURLToPath(new URL("pages", config.srcDir));
+        const files = await glob(`${pagesDir}/**/*.{md,mdx,markdown}`);
+        const vfiles = await Promise.all(files.map((file) => read(file)));
+        const redirects = vfiles.flatMap((file) => {
+          const { data } = matter(file.value.toString());
+          if (typeof data !== "object") return [];
+          const { redirect_to, redirect_from } = data;
           const here =
             "/" +
-            relative(pages, file.path).replace(
+            relative(pagesDir, file.path).replace(
               /(?:index)?\.(?:md|mdx|markdown|astro)$/,
-              ""
+              "",
             );
           if (typeof redirect_to === "string") {
             return { from: here, to: redirect_to };
@@ -44,36 +39,10 @@ export default function redirect(): AstroIntegration {
         });
         updateConfig({
           redirects: Object.fromEntries(
-            redirects.map(({ from, to }) => [from, to])
+            redirects.map(({ from, to }) => [from, to]),
           ),
         });
       },
     },
   };
-}
-
-async function readFile(path: string) {
-  const value = await fs.readFile(path, "utf-8");
-  const { data } = matter(value);
-  return new VFile({ path, value, data });
-}
-
-function html(to: string) {
-  return `\
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=${to}" />
-    <link rel="canonical" href="${to}" />
-  </head>
-  <body>
-    <h1>Redirecting...</h1>
-    <p>
-      If you are not redirected automatically, follow this
-      <a href="${to}">link</a>.
-    </p>
-  </body>
-</html>
-`;
 }
