@@ -2,7 +2,7 @@ import type { Root } from "hast";
 import { selectAll } from "hast-util-select";
 import type { MarkdownVFile } from "@astrojs/markdown-remark";
 
-const ALLOWED_PREFIXES = ["http:", "https:", "/", "./", "../"];
+const ALLOWED_PREFIXES = ["/", "./", "../", "@"];
 
 export default function collectHtmlImages() {
   return (node: Root, file: MarkdownVFile) => {
