@@ -9,6 +9,8 @@ import dotSlashPlugin from "./src/lib/DotSlashPlugin.js";
 import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
 import externalLinks from "./src/lib/ExternalLinksIntegration.js";
 import { cleanup } from "./src/lib/CleanupIntegration.js";
+import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
+import rehypeRaw from "rehype-raw";
 
 // https://astro.build/config
 export default defineConfig({
@@ -41,6 +43,7 @@ export default defineConfig({
       footnoteLabelProperties: { className: ["visually-hidden"] },
       footnoteLabelTagName: "b",
     },
+    rehypePlugins: [rehypeRaw, collectHtmlImages],
   },
   build: {
     format: "preserve",
@@ -48,7 +51,7 @@ export default defineConfig({
   publicDir: "src/pages",
   scopedStyleStrategy: "where",
   integrations: [
-    mdx(),
+    mdx({ rehypePlugins: [] }),
     react(),
     redirect(),
     externalLinks({

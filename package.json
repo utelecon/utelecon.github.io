@@ -34,6 +34,7 @@
     "normalize.css": "^8.0.1",
     "rehype-external-links": "3.0.0",
     "rehype-parse": "9.0.0",
+    "rehype-raw": "7.0.0",
     "rehype-stringify": "10.0.0",
     "remark-attribute-list": "0.3.1",
     "sass": "^1.74.1",
