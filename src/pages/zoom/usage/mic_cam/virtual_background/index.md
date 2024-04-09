@@ -35,7 +35,7 @@ breadcrumb:
   ![](images/select_settings_of_virtual_screen.png)
 
 3. 好みのバーチャル背景を選んでください．（「None」を選択するとバーチャル背景は設定されません．）
-   * 「＋」の部分をクリックするとバーチャル背景としてオリジナルの画像をアップロードすることができます．
+   * 「＋」の部分をクリックすると，バーチャル背景としてオリジナルの画像をアップロードできます．
      ![](images/open_settings_of_virtual_screen.png)
       <br/>
      ![](images/add_virtual_screen.png)
