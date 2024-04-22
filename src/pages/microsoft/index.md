@@ -4,6 +4,10 @@ breadcrumb:
   title: UTokyo Microsoft License
 ---
 
+import Mfa100Alert from "@components/ja/Mfa100Alert.mdx";
+
+<Mfa100Alert />
+
 ## はじめに
 {:#about}
 
