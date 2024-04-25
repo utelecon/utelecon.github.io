@@ -22,7 +22,7 @@ breadcrumb:
 
 また，[UTokyo Antivirus License](/antivirus/)などの一部の情報システムには，離籍に伴って利用権限がなくなるにもかかわらず，自動的に利用が停止されないものがあります．それぞれの指示にしたがって利用を終了してください．
 
-UTokyo Antivirus Licenseの対応については「[UTokyo Antivirus License 2023年度に卒業・離職される方への注意事項<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」を参照してください．
+UTokyo Antivirus Licenseの対応については「[UTokyo Antivirus License 2023年度に卒業・離職される方への注意事項](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」を参照してください．
 
 ## 東京大学内で所属の変更がある場合
 {:#change}
