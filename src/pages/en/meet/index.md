@@ -45,7 +45,7 @@ One should be the organizer at the conference. The organizers arrange the meetin
      </blockquote>
 1. Click "participate or start the meeting". You permit to access to camera and microphone and then you are ready to start the meeting.
    <blockquote>
-     <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" width="400"></a>
+     <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" target="_blank"><img src="img/meet_ready2.png" width="400"></a>
    </blockquote>
 1. After you click "start the meeting", you can see this screen below. Fill in the meeting name, if needed (no name is fine). Click " continue".
    <blockquote>
@@ -60,7 +60,7 @@ One should be the organizer at the conference. The organizers arrange the meetin
 
 1. Participants acquire URL from organizers (see below) and click on it.
     <blockquote>
-      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" target="_blank"><img src="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" border="2" width="400"></a>
+      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_mail3.png" target="_blank"><img src="img/meet_mail3.png" border="2" width="400"></a>
     </blockquote>
 1. Click URL and participate in the meeting. 
    * If participants log into ECCS Cloud Mail account (`xxx@g.ecc.u-tokyo.ac.jp`) , you immediately join the meeting.
