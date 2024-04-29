@@ -9,13 +9,13 @@ breadcrumb:
 
 このページでは，コースの概要説明や参加者の管理といった，UTOLのコース全体に関わる設定を説明します．
 
-また，コース内の設定だけでなく，コースグループやコンテンツの再利用といった，他のコースと連携する方法も説明します．
-
-なお，TAは，このページで説明する内容のうち，ラベルの管理，オンライン授業情報の更新，「コース参加者登録」画面の**閲覧のみ**が可能です．その他の機能を利用したり，コース参加者の追加・削除を行ったりすることはできません．
-
 This page explains settings related to the entire course in UTOL, including course overview descriptions and participant management.
 
+また，コース内の設定だけでなく，コースグループやコンテンツの再利用といった，他のコースと連携する方法も説明します．
+
 Additionally, it covers methods for integrating with other courses, such as course groups and content reuse.
+
+なお，TAは，このページで説明する内容のうち，ラベルの管理，オンライン授業情報の更新，「コース参加者登録」画面の**閲覧のみ**が可能です．その他の機能を利用したり，コース参加者の追加・削除を行ったりすることはできません．
 
 Please note that TAs have limited permissions within this context. They can manage labels, update online class information, and view the “Course Participant Registration” screen. However, they cannot perform other functions, such as adding or removing course participants.
 
@@ -195,15 +195,15 @@ To customize the display:
 
 この項では，UTASで履修登録せずにコンテンツを利用する，いわゆる「聴講」を可能にするために必要な「自己登録」に関する設定と，「履修者範囲設定」を説明します．なお，自己登録は，[申請して作成したコース](/utol/lecturers/#course-application)に受講者が自分で登録できるようにする場合にも必要です．
 
-まず，**「自己登録」に関する設定**では，ユーザ自身がUTOL上で「受講登録」ボタンを押し，自分自身を履修者として登録する「自己登録」を許可するかどうかを選ぶことができます．デフォルトでは「許可する」になっています．
-
-次に，**「履修者範囲設定」**では，受講登録している人のうち，コンテンツを利用（教材のダウンロード，課題の提出等）できる人の範囲を選ぶことができます．履修者範囲設定には，以下の選択肢があります．自己登録を許可できるかどうかにも影響するので，注意してください．なお，デフォルトでは「履修登録・担当教員登録のみに自動切替」になっています．また，[申請して作成したコース](../#course-application)では，履修者範囲設定は「常に登録方法によらず全て」に固定されます．
-
 This section describes the settings related to “Self registration,” which allows users to use course content without registering for the course on UTAS (so-called “auditing”), and “Enrolled student range setting.” Note that self-registration is also necessary if you want participants to register themselves for [courses created through application](/en/utol/lecturers/#course-application).
+
+まず，**「自己登録」に関する設定**では，ユーザ自身がUTOL上で「受講登録」ボタンを押し，自分自身を履修者として登録する「自己登録」を許可するかどうかを選ぶことができます．デフォルトでは「許可する」になっています．
 
 First, in the **“Self registration” settings**, you can choose whether to allow users to register themselves as “enrolled student” by clicking the “Register for Enrollment” button on UTOL. The default setting is “Permit.”
 
-Next, in the **“Enrolled student range setting”**, you can choose the range of people who can use the content (such as downloading materials or submitting assignments) among those who are registered as “enrolled student”. The enrolled student range settings have the following options, which also affect whether self-registration is allowed:
+次に，**「履修者範囲設定」**では，受講登録している人のうち，コンテンツを利用（教材のダウンロード，課題の提出等）できる人の範囲を選ぶことができます．履修者範囲設定には，以下の選択肢があります．自己登録を許可できるかどうかにも影響するので，注意してください．なお，デフォルトでは「履修登録・担当教員登録のみに自動切替」になっています．また，[申請して作成したコース](../#course-application)では，履修者範囲設定は「常に登録方法によらず全て」に固定されます．
+
+Next, in the **“Enrolled student range setting”**, you can choose the range of people who can use the content (such as downloading course materials or submitting assignments) among those who are registered as “enrolled student”. The enrolled student range settings have the following options, which also affect whether self-registration is allowed:
 
 - **常に履修登録・担当教員登録のみ**：履修登録・担当教員登録など[^2]の方法で登録した受講者のみがコンテンツを利用できます．特に，自己登録で登録している人はコンテンツを利用できないので，自己登録は「許可しない」に固定されます．
   - 受講者を担当教員登録にするには，「[コース参加者登録 > 登録方法の更新](course_participants/#renew-method)」を参考に，担当教員・コース設計者が当該ユーザを登録し直してください．
@@ -226,6 +226,18 @@ Next, in the **“Enrolled student range setting”**, you can choose the range 
       - 自己登録で登録している人
       - UTASで「お気に入り登録」をした人
       - 履修登録をした後で解除した人
+
+    When the "Enrolled student range setting" is set to "Registration and instructor registration only," the following users have access to the content (assuming that the content users are already registered as “enrolled student” on UTOL):
+
+    - Users with Access:
+        - Students who have registered for the course through UTAS.
+        - Participants registered by instructors or course designers.
+            - Instructor registration: Users registered by instructors or course designers using "[Course participant registration](#course-participants)."
+            - Attendance management: Users registered by instructors or course designers using "Bulk registration of attendees."
+    - Users without Access:
+        - Users who self-registered.
+        - Users who added the course to their favorites in UTAS.
+        - Users who unregistered after initially registering for the course.
 
 設定手順は以下の通りです．
 
@@ -271,6 +283,9 @@ It's important to be cautious when using labels, as they are visible to both ins
 1. タイトルを入力してください．
    ![](./_img/create-label-dialog.png){:.medium.border}
 1. 「表示ラベル登録」を押すと，登録されます．
+
+
+{}
 
 1. Open "Course Settings > Display label management."[^1]
 1. Click on "![](../../_icons/add_label.png){:.icon} Create new display label" in the top left corner.
@@ -350,11 +365,10 @@ You can configure message functionality and attendance display settings using "C
 
 LTI連携は，UTOLのコースと外部のツールを連携させる[^3]機能です．
 
-[^3]: UTOLはLearning Tool Interoperability (LTI) v1.3に対応しており，Learning Platformとしての動作ができます．
-
 LTI integration allows UTOL courses to connect with external tools[^3].
 
-[^3]: UTOL supports Learning Tool Interoperability (LTI) v1.3 and functions as a Learning Platform.
+[^3]: UTOLはLearning Tool Interoperability (LTI) v1.3に対応しており，Learning Platformとしての動作ができます．<br/>
+      UTOL supports Learning Tool Interoperability (LTI) v1.3 and functions as a Learning Platform.
 
 ここではコースで外部ツールを使うための手順を説明します．外部ツールの機能については，各ツールのウェブサイト等を参照してください．
 
@@ -375,16 +389,18 @@ This section describes the procedures for using external tools in the course. Fo
 1. 「確認画面へ進む」ボタンを押し，内容を確認したら「登録する」ボタンを押してください．
 1. コーストップを開くと，追加したLTIツールのアイコンが表示されます．
 
-1. Open "Course Settings > LTI usage settings"[1].
-2. Check the "Use" column for the desired LTI tools.
+{}
+
+1. Open "Course Settings > LTI usage settings"[^1].
+1. Check the "Use" column for the desired LTI tools.
    <details>
    <summary>If an external tool is not displayed</summary>
 
    If you have a license for an LTI v1.3-compliant external tool that is not shown in "LTI Usage Settings" and wish to use it, please contact the UTOL team via email. Please inform us of the tool, its license, and the scope of use you wish to request (i.e., whether you wish to use the tool only for a specific department or course, or for the entire university).
    </details>
 
-3. Click "Confirm" and review the details. Then click "Register."
-4. When you access the course top, the icons for the added LTI tools will be displayed.
+1. Click "Confirm" and review the details. Then click "Register."
+1. When you access the course top, the icons for the added LTI tools will be displayed.
 
 ## 他のコースとの連携
 ## Collaboration with Other Courses
@@ -418,20 +434,23 @@ Here are the steps:
 
 この手順は，コピー先のコースで作業を行う教員が，コピー元のコースでも担当教員として登録されている場合には**不要**ですので，手順2に進んでください．
 
+If you are an instructor who is registered as instructor in both the source and destination courses, skip this step and proceed to Step 2.
+
 そうでない場合は，コピー元のコースの担当教員に次の作業を依頼してください．
+
+Otherwise, ask the instructor of the source course to perform the following steps:
 
 1. コピー元のコースの「コース設定→コース設定」[^1]を開いてください．
 1. 「作成したコンテンツについて、自分が担当しない他コースも含め利用（コピー）を許可する」にチェックを入れてください．
    ![](./_img/contents-reuse-step1.png){:.small}
 1. 「確認画面へ進む」ボタンを押し，内容を確認したら「登録する」ボタンを押してください．
 
-If you are an instructor who is registered as instructor in both the source and destination courses, skip this step and proceed to Step 2.
+{}
 
-Otherwise, ask the instructor of the source course to perform the following steps:
-
-1. Open "Course Settings > Course Settings" in the source course.
-2. Check the option "Allow the contents of the courses to be used (copied) for both courses you are in charge of and not in charge of."
-3. Click "Confirm," review the details, and then click "Register."
+1. Open "Course Settings > Course Settings"[^1] in the source course.
+1. Check the option "Allow the contents of the courses to be used (copied) for both courses you are in charge of and not in charge of."
+   ![](./_img/contents-reuse-step1.png){:.small}
+1. Click "Confirm," review the details, and then click "Register."
 
 #### 手順2：コピー先のコースで行う作業
 #### Step 2: Actions in the Destination Course
@@ -443,8 +462,10 @@ Otherwise, ask the instructor of the source course to perform the following step
 1. コピー元のコースのコンテンツが表示されるので，コピーしたいものにチェックを入れてください．
 1. 「確認画面へ進む」ボタンを押し，内容を確認したら「登録する」ボタンを押してください．
 
+{}
+
 1. Open "Course Content > Import past contents" in the destination course.
-2. Click the "Search Course" button in the "Search Original course" field and search for the source course.
-3. Select the source course and click "Specify."
-4. The content from the source course will be displayed. Check the items you want to copy.
-5. Click "Confirm," review the details, and then click "Register."
+1. Click the "Search Course" button in the "Search Original course" field and search for the source course.
+1. Select the source course and click "Specify."
+1. The content from the source course will be displayed. Check the items you want to copy.
+1. Click "Confirm," review the details, and then click "Register."
