@@ -7,7 +7,7 @@ breadcrumb:
 ## はじめに
 {:#about}
 
-UTokyo Microsoft Licenseとは，Microsoftの提供するシステムをUTokyo Accountで利用することのできるライセンスです．具体的には，Word，Excel，PowerPointのような端末にインストールして利用するOfficeソフトウェアなどが含まれます．詳細は[利用可能な主なシステム](#systems)をご覧ください．
+UTokyo Microsoft Licenseとは，Microsoftの提供するシステムをUTokyo Accountで利用することのできるライセンスです．具体的には，Word，Excel，PowerPointのような，機器にインストールして利用するOfficeソフトウェアなどが含まれます．詳細は[利用可能な主なシステム](#systems)をご覧ください．
 
 ### Microsoftのシステムへのサインインについて
 {:#signin}
@@ -24,7 +24,7 @@ UTokyo Microsoft Licenseは，UTokyo Accountを持つ東京大学の構成員（
 ### UTokyo Accountが失効した場合
 {:#expire}
 
-離籍や所属変更によって UTokyo Account が失効した場合，UTokyo Microsoft Licenseのシステムは利用できなくなります．これに伴い，[OneDrive](#onedrive)に保存されたデータなどの関連するデータはすべて失われます．離籍や所属変更の前には，卒業・退職や所属変更によるアカウント失効についての注意を確認のうえデータのバックアップを取ってください．
+離籍や所属変更によって UTokyo Account が失効した場合，UTokyo Microsoft Licenseのシステムは利用できなくなります．これに伴い，[OneDrive](#onedrive)に保存されたデータなどの関連するデータはすべて失われます．離籍や所属変更の前には，[卒業・退職や所属変更によるアカウント失効についての注意](/systems/leave/)を確認のうえデータのバックアップを取ってください．
 
 ## 利用可能な主なシステム
 {:#systems}
@@ -42,7 +42,7 @@ Microsoftは下記以外のシステムも提供しており，それらにつ�
 
 **学生および東京大学に雇用されている教職員のみが利用できます**
 
-Word，Excel，PowerPointなど，端末にインストールして利用するOfficeアプリです．それぞれのアプリの最新版のみを利用することができます．利用開始の手順については以下をご覧ください．
+Word，Excel，PowerPointなど，機器にインストールして利用するOfficeアプリです．それぞれのアプリの最新版のみを利用することができます．利用開始の手順については以下をご覧ください．
 
 **[UTokyo Microsoft LicenseでOfficeアプリをインストールする](install)**{:.box.center}
 
@@ -61,7 +61,7 @@ Webブラウザ上でOneDrive上にあるファイルを編集するには，Web
 ユースケースとしては，以下のようなものが考えられます．
 - OneDrive上のファイルについて，軽微な編集をブラウザ上で完結させて行う場合
 - [Officeアプリの利用対象者](#office_apps)でない方がOfficeを利用する場合
-- 権限などの理由により，端末にOfficeアプリをインストールできない場合
+- 権限などの理由により，機器にOfficeアプリをインストールできない場合
 
 Web版Officeを利用してOneDrive上でファイルを作成・編集する方法については**[OneDriveの基本的な使い方](onedrive/basic)**をご覧ください．
 
@@ -104,12 +104,12 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 
 **学生のみが利用できます**
 
-WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は**[UTokyo Microsoft Windows 10 for students](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_win10.html)**のページをご覧ください．
+WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は**[Windows Education for students](windows_education_for_students)**のページをご覧ください．
 
 ### 共用PC等向けMicrosoftライセンス
 {:#shared_pc}
 
-特定の個人が専有して利用するPCではなく複数人で共用するPCでOfficeアプリを利用したい場合など，UTokyo Microsoft Licenseでの通常のOfficeの提供形態でカバーできない利用に対応するために運用しているOfficeおよびWindowsのライセンスです．主に学科・専攻や研究室等で整備した共用PCでの利用を想定しています．利用手順などの説明はUTokyo Portalの**[共用PC等向けMicrosoftライセンス](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Microsoft_License_for_University_PC.aspx)**のページをご覧ください（教職員のみアクセス可）．
+特定の個人が専有して利用するPCではなく複数人で共用するPCでOfficeアプリを利用したい場合など，UTokyo Microsoft Licenseでの通常のOfficeの提供形態でカバーできない利用に対応するために運用しているOfficeおよびWindowsのライセンスです．主に学科・専攻や研究室等で整備した共用PCでの利用を想定しています．利用手順などの説明は**[共用PC等向けMicrosoftライセンス](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Microsoft-license-for-shared-PC.aspx)**のページをご覧ください（閲覧にはUTokyo Accountでのサインインが必要です）．
 
 ### UTokyo Microsoft Azure Dev Tools for Teaching
 {:#adt4t}

@@ -17,7 +17,7 @@ In this specific procedure, your applications are received internally by the Uni
 
 ### Application and confirmation of review results
 
-1. Please fill out and submit the application form below. <b class="box center"><a href="https://forms.office.com/r/EXy0jVxx9L">Application Form for "Slack for Education" program at the University of Tokyo (in Japanese)</a></b>*Please note that only faculty and staff members are eligible to apply usingfor this procedure.
+1. Please fill out and submit the application form below. <b class="box center"><a href="https://forms.office.com/r/6MJRhByh0w">Application Form for "Slack for Education" program at the University of Tokyo (in Japanese)</a></b>*Please note that only faculty and staff members are eligible to apply usingfor this procedure.
 1. Please wait while the application information is passed on to Slack for review.
 1.  We will contact you by email as soon as we receive the result of the review. If approved, please proceed to the next step, "Upgrade to paid plan".
 

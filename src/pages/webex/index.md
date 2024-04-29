@@ -4,15 +4,11 @@ breadcrumb:
   title: Webex
 ---
 
-## はじめに
+Webexは，東京大学で提供されているWeb会議システムの一つです．
 
-* デフォルトのライセンスで1000人まで参加可能になっているので大規模人数の会議をする人にはおすすめです
-* End-to-end暗号化された(クラウド上でも復号化されない)会議が開催可能で, 高い機密性の必要な(または検閲などの恐れの少ない)会議が必要な場合にもおすすめです
-* 投票, ブレークアウト, 全員ミュート, などの機能もあります
-* アプリをインストールせずWebブラウザだけでも使えますが基本的な機能に制限されます
-* アプリはWindows, Mac, iOS, Androidに対応しています(Linuxには対応していません)
-* 2021年3月からサインイン方法がUTokyo Accountを使う方法に変わりました．詳細は[新しいサインイン方法のページ](signin)や[変更についての案内ページ](/change2021s/)をご覧ください．
-<!--* 複数の会議への同時参加,および複数の会議の同時開催が可能です-->
+[東京大学のアカウントへサインイン](signin)すると，参加者数の上限が1000人，時間の上限が24時間のミーティングを開催できます．また，講演会等に向いている「ウェビナー」という機能も利用できます．このため，講演会や大人数の会議等を行いたい方におすすめです．
+
+東京大学のアカウントを利用する際は，「[情報システム本部が管理・運用する外部サービスの利用にあたっての注意事項](/docs/dics-terms)」も参照してください．なお，東京大学の構成員としての活動であれば，個人で自主的に開催・参加する勉強会・研究会等に東京大学のアカウントを利用してもかまいません．
 
 ## Webexサービスについて
 
@@ -37,34 +33,29 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 
 以下ではWebex Meetings，Webex Webinarsについて利用方法を説明していきます.
 
+## 「情報システムゼミ」スライド資料
+
+学内の「情報システムゼミ」にて講義形式でWebexの使い方を説明した際の資料を掲載しています．
+
+- **Webex の便利な使い方…こんなときどうすればいいの？**（2023年7月26日）
+    1. [Webex の便利な使い方.pdf](pdf/20230726_Seminar.pdf)
+- **ウェブ会議にも代替オプションを！～コミュニケーションの継続に備えるために、 Cisco Webexの良さをお伝えします～**（2023年5月25日）
+    1. [ウェブ会議にも代替オプションを！.pdf](pdf/20230525_Seminar.pdf)
+- **Webex Webinars 応用編 ～ 便利な使い方をご紹介 ～**（2022年12月13日）
+    1. [Webex Webinars 応用編.pdf](pdf/20221213_Seminar.pdf)
+    1. [【詳細】Webex Webinars 応用編.pdf](pdf/20221213_Seminar_detailed.pdf)
+- **Webex Webinars セミナー（基礎編）**（2022年10月14日）
+    1. [Webex Webinarsとは.pdf](pdf/20221014_Seminar_1_Intro.pdf)
+    1. [事前準備.pdf](pdf/20221014_Seminar_2_Prep.pdf)
+    1. [基本操作.pdf](pdf/20221014_Seminar_3_Basic.pdf)
+- **Webexセミナー**（2022年2月18日）
+    1. [はじめに.pdf](pdf/20220218_Seminar_1_Intro.pdf)
+    1. [Webex事前準備.pdf](pdf/20220218_Seminar_2_Prep.pdf)
+    1. [Webex基本操作.pdf](pdf/20220218_Seminar_3_Basic.pdf)
+    1. [Webex応用操作.pdf](pdf/20220218_Seminar_4_Advanced.pdf)
+    1. [Webexノウハウ.pdf](pdf/20220218_Seminar_5_Tips.pdf)
+
 ## 利用方法
-
-### 情報システムゼミ「Webex の便利な使い方…こんなときどうすればいいの？」（2023年7月26日）スライド資料
-
-1. [Webex の便利な使い方.pdf](pdf/20230726_Seminar.pdf)
-
-### 情報システムゼミ「ウェブ会議にも代替オプションを！～コミュニケーションの継続に備えるために、 Cisco Webexの良さをお伝えします～」（2023年5月25日）スライド資料
-
-1. [ウェブ会議にも代替オプションを！.pdf](pdf/20230525_Seminar.pdf)
-
-### 情報システムゼミ「Webex Webinars 応用編 ～ 便利な使い方をご紹介 ～」（2022年12月13日）スライド資料
-
-1. [Webex Webinars 応用編.pdf](pdf/20221213_Seminar.pdf)
-1. [【詳細】Webex Webinars 応用編.pdf](pdf/20221213_Seminar_detailed.pdf)
-
-### 情報システムゼミ「Webex Webinars セミナー（基礎編）」（2022年10月14日）スライド資料
-
-1. [Webex Webinarsとは.pdf](pdf/20221014_Seminar_1_Intro.pdf)
-1. [事前準備.pdf](pdf/20221014_Seminar_2_Prep.pdf)
-1. [基本操作.pdf](pdf/20221014_Seminar_3_Basic.pdf)
-
-### 情報システムゼミ「Webexセミナー」（2022年2月18日）スライド資料
-
-1. [はじめに.pdf](pdf/20220218_Seminar_1_Intro.pdf)
-1. [Webex事前準備.pdf](pdf/20220218_Seminar_2_Prep.pdf)
-1. [Webex基本操作.pdf](pdf/20220218_Seminar_3_Basic.pdf)
-1. [Webex応用操作.pdf](pdf/20220218_Seminar_4_Advanced.pdf)
-1. [Webexノウハウ.pdf](pdf/20220218_Seminar_5_Tips.pdf)
 
 ### Webex Meetingsへの参加
 
@@ -121,6 +112,7 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 	- ライブ投票・アンケート(Live Poll)の追加
 	- Slidoイベント終了後の分析は，主催者のSlidoイベント一覧のページで操作します．
 
+---
 
-三菱電機システムサービス株式会社から資料提供をいただいています．
+このページに掲載している資料の一部は，三菱電機システムサービス株式会社から提供いただいています．
 

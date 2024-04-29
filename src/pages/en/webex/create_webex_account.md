@@ -3,7 +3,7 @@ title: How to Log in and Create an UTokyo Webex account
 ---
 
 ## Create a Webex Account	
-* <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">Once you create ECCS Cloud Mail account </a>, go to the <a href="https://apj27.webex.com/mw3300/mywebex/forgotpwd.do?siteurl=apj27-jp" target="_blank">password setting screen</a>（See below）. Fill the box with 10-digit common `ID@g.ecc.u-tokyo.ac.jp` of ECCS Cloud Mail. For example, If your ID is 1234567890, fill in `1234567890@g.ecc.u-tokyo.ac.jp` . （Continue with the process, even though the screen shows "forgot your password / username").Press "submit (送信)", and then you obtain  the email from Webex to reset your password to your ECCS Cloud Mail address. 
+* <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">Once you create ECCS Cloud Mail account </a>, go to the <a href="https://apj27.webex.com/mw3300/mywebex/forgotpwd.do?siteurl=apj27-jp" target="_blank">password setting screen</a>（See below）. Fill the box with 10-digit common `ID@g.ecc.u-tokyo.ac.jp` of ECCS Cloud Mail. For example, If your ID is 0123456789, fill in `0123456789@g.ecc.u-tokyo.ac.jp` . （Continue with the process, even though the screen shows "forgot your password / username").Press "submit (送信)", and then you obtain  the email from Webex to reset your password to your ECCS Cloud Mail address. 
 	* **Caution：Webex will not recognize your changed address when you change your address of ECCS Cloud Mail. Please use your original 10-digit common ID.**
 
 	![パスワード変更手続き画面](img/webex_pw_change.PNG){:.medium}
