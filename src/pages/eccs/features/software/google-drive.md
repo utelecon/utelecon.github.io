@@ -8,18 +8,17 @@ title: 【Mac環境】Google Driveアプリケーションについて
 
 1. 以下のウィンドウ内の「ブラウザでログイン」をクリックしてください．
    ![](./google-drive-1.png)
-
    上のウィンドウが表示されないときは，Finderで「アプリケーション」の中の「Google Drive」をクリックしてください．
    ![](./google-drive-2.png)
-2. webブラウザが起動して「Googleにログイン」の画面になるので，ECCSクラウドメールアドレス（@g.ecc.u-tokyo.ac.jpのメールアドレス）でログインしてください．
+2. Webブラウザが起動して「Googleにログイン」の画面になるので，ECCSクラウドメールアドレス（@g.ecc.u-tokyo.ac.jpのメールアドレス）でログインしてください．
    以下の画面に切り替わったら「ログイン」をクリックしてください．
    ![](./google-drive-3.png)
 3. 以下の画面が表示されたらログイン成功です．
    ![](./google-drive-4.png)
-   
-   ログイン中はデスクトップに下記のアイコンが表示されます．
+4. ログイン中はデスクトップに下記のアイコンが表示されます．
    ![](./google-drive-5.png)
-4. Finderの「場所」の中に「Google Drive」が追加されます．
+
+   また，Finderの「場所」の中に「Google Drive」が追加されます．
    クリックすると以下のように各自のGoogle Driveの内容が表示され，アクセスが可能になります．PC内のファイルと同様にGoogle Driveのファイル操作ができます．
    ![](./google-drive-6.png)
 
@@ -33,7 +32,6 @@ title: 【Mac環境】Google Driveアプリケーションについて
 - （2022-10-26 追記）
   Google Driveアプリケーションを一度使用すると，次回のログインからGoogle Driveアプリケーションが自動起動し，毎回Google Driveへのログインを求められます．（上の1.にある「Googleドライブへのログイン」ウィンドウが表示されます．）
   以下の手順で自動起動を止めることができます．
-
   1. Finderを起動し，「アプリケーション」の中の「Remove GoogleDrive from LoginItems」をクリックしてください．
     ![](./google-drive-10.png)
   2. 以下のウィンドウが表示されたら，「OK」をクリックしてください．（Google Driveアプリケーションが自動起動する状態でない場合は，このウィンドウは表示されません．）
