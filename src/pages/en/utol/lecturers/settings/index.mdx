@@ -7,6 +7,444 @@ breadcrumb:
   title: Course settings
 ---
 
-import InPreparation from "../../_InPreparation.mdx";
+このページでは，コースの概要説明や参加者の管理といった，UTOLのコース全体に関わる設定を説明します．
 
-<InPreparation />
+また，コース内の設定だけでなく，コースグループやコンテンツの再利用といった，他のコースと連携する方法も説明します．
+
+なお，TAは，このページで説明する内容のうち，ラベルの管理，オンライン授業情報の更新，「コース参加者登録」画面の**閲覧のみ**が可能です．その他の機能を利用したり，コース参加者の追加・削除を行ったりすることはできません．
+
+This page explains settings related to the entire course in UTOL, including course overview descriptions and participant management.
+
+Additionally, it covers methods for integrating with other courses, such as course groups and content reuse.
+
+Please note that TAs have limited permissions within this context. They can manage labels, update online class information, and view the “Course Participant Registration” screen. However, they cannot perform other functions, such as adding or removing course participants.
+
+[^1]:
+    「コース設定→表示ラベル管理」等の表記は，左メニュー（画面左上の![三本線のボタン](../../_icons/hamburger.png){:.icon}を押すと左側に表示されるメニュー）内の「コース設定」の中にある「表示ラベル管理」という意味です．
+
+    The term “Course Settings > Display label management,” for example, refers to the “Display label management” option within the “Course Settings” section accessible via the left menu (displayed when clicking the three horizontal lines button in the upper-left corner of the screen).
+
+    ![](./_img/sidemenu.png){:.medium}
+
+## コース内の設定
+## Within-course settings
+{:#in-course}
+
+
+ここでは，以下のような，コース内の設定を説明します．
+
+- [コースの概要説明・オンライン授業情報](#coursetop-headers)
+- [参加者の管理](#participant)
+- [ラベル](#label)
+- [メッセージと出席の設定](#message-and-attendance)
+- [LTI連携](#lti)
+
+
+This section describes the settings within the course, including:
+
+- [Course Summary and Online Class Information](#coursetop-headers)
+- [Participant Management](#participant)
+- [Labels](#label)
+- [Message and Attendance Settings](#message-and-attendance)
+- [LTI Integration](#lti)
+
+### コースの概要説明・オンライン授業情報
+### Course Summary and Online Class Information
+{:#coursetop-headers}
+
+「コースの概要説明」と「オンライン授業情報」は，担当教員等と受講者双方の画面で，コーストップ（コースの詳細画面）の上部に表示される項目です．
+
+“Course Summary” and “Online Class Information” are displayed at the top of the course page (course details) for both instructors and students.
+
+![](./_img/lecturer-coursetop.png){:.small}
+
+これらは，コーストップの右端にある![](../../_icons/edit.png){:.icon}（鉛筆のマーク）を押すと編集できます．なお，「コースの概要説明」は，「コース設定→コースの概要説明」[^1]からも編集画面を開くことができます．
+
+To edit these sections, click ![](../../_icons/edit.png){:.icon} (pencil icon) located at the right end of the course page. Note that you can also access the editing screen for “Course Summary” through “Course Settings > Course summary.”
+
+#### コースの概要説明
+#### Course Summary
+{:#course-description}
+
+「コースの概要説明」には，講義の概要やスケジュールなど，固定的に学生に伝えたいことを書くとよいでしょう．
+
+In the “Course Summary,” you can provide fixed information that you want to convey to students, such as lecture summaries and schedules.
+
+また，この設定項目では，マークアップを利用できます．マークアップを使った書き方について詳しくは「マークアップ」を参照してください．
+
+You can also use markup in this setting. For details on using markup, refer to the “Markup” page.
+
+#### オンライン授業情報
+#### Online Course Information
+{:#online-lecture-info}
+
+オンライン授業を行う場合は，「オンライン授業情報」にオンライン授業のURLなど，オンライン授業にアクセスするための情報を書いてください．
+
+If you conduct online classes, use the “Online course information” section to provide details such as the URL for accessing online classes.
+
+なお，オンライン授業のURLの通知には必ずこの「オンライン授業情報」欄を利用し，「コースの概要説明」欄や，お知らせ，掲示板等には掲載しないようお願いします．詳しくは「[授業URLの連絡方法（教員向け）](/faculty_members/url)」を参照してください．
+
+When notifying students of the online class URL, always use this “Online course information” field and avoid including it in the “Course Summary,” information notice, or forum. For more information, see “[How to Announce Online Class URL (for Faculty Members)](/faculty_members/url).”
+
+「オンライン授業情報」を編集する際は，次の点に注意してください．
+
+When editing “Online course information,” keep the following points in mind:
+
+- アプリから参加する学生のため，URLだけでなく，ミーティングID，パスコード等も記入してください．
+- For students joining from the app, include not only the URL but also the meeting ID and passcode.
+
+- 編集画面では，URLは自動ではハイパーリンクになりません．ハイパーリンクにする手順は次のとおりです．
+  1. URLを選択した状態で左上の![](../../_icons/chain.png){:.icon}（鎖のアイコン）を押してください．
+     ![](./_img/online-lecture.png){:.medium}
+  1. リンク先のURLを入力するよう求められるので，URLを確認して「Save」を押してください．
+     ![](./_img/online-lecture-enter-link.png){:.small}
+
+- In the editing screen, URLs are not automatically hyperlinked. To create a hyperlink:
+  1. Select the URL.
+  1. Click ![](../../_icons/chain.png){:.icon} (chain icon) in the upper left corner.
+     ![](./_img/online-lecture.png){:.medium}
+  1. Enter the destination URL and click “Save.”
+     ![](./_img/online-lecture-enter-link.png){:.small}
+
+### 参加者の管理
+### Participant Management
+{:#participant}
+
+UTOLではコースごとに，担当教員・コース設計者・TA・履修者（これらを「参加者」と呼びます）を管理することができます．
+
+In UTOL, you can manage participants (instructors, course designers, TAs, and enrolled students) for each course using “[Course Participant Registration](#course-participants)”.
+
+参加者の管理は「[コース参加者登録](#course-participants)」で行えます．ただし，以下の参加者に関しては，担当教員・コース設計者の操作なしに登録される場合があります．
+
+However, some participants may be registered without any action by instructors or course designers:
+
+- 担当教員
+  - 学務システム（UTAS）から連携されるコースの場合，UTASで担当教員として登録されている教員は，UTOLでも担当教員として登録されます．
+  - [申請して作成したコース](/utol/lecturers/#course-application)の場合，申請者の教員が担当教員として登録されます．
+- 履修者
+  - UTASで履修登録・お気に入り登録すると，UTOLでも自動的に履修者として登録されます．
+  - 「[自己登録](#self-registration-and-content-use-scope)」を許可しているコースでは，ユーザ自身がUTOL上でボタンを押して登録することもできます．
+
+- Instructors:
+  - For courses linked from the academic affairs system (UTAS), instructors registered as such in UTAS will also be registered as instructors in UTOL.
+  - For [courses created through application](/en/utol/lecturers/#course-application), the applicant’s name will be registered as the instructor.
+- Enrolled students:
+  - If students register or add the course to their favorites in UTAS, they will automatically be registered as students in UTOL.
+  - In courses that allow [self-registration](#self-registration-and-content-use-scope), students can also register themselves on UTOL.
+
+この項では，参加者を管理する方法（[コース参加者登録](#course-participants)）を中心に，参加者をグループ分けする機能（[ユーザーグループ](#user-group)），受講者がコンテンツを利用するための条件（[自己登録・履修者範囲設定](#self-registration-and-content-use-scope)），受講者等に表示する担当教員を限定する方法（[担当教員表示](#lecturer-names)）を説明します．
+
+This section focuses on participant management methods ([Course Participant Registration](#course-participants)), grouping participants ([User Groups](#user-group)), setting conditions for students to access content ([Self-Registration and Student Range Settings](#self-registration-and-content-use-scope)), and limiting the display of instructors to students ([Instructor List](#lecturer-names)).
+
+#### コース参加者登録
+#### Course Participant Registration
+{:#course-participants}
+
+「コース参加者登録」は，コースの参加者（担当教員・コース設計者・TA・履修者）を管理する機能です．なお，TAは参加者一覧の閲覧のみが可能です．
+
+詳しくは「[コース参加者登録](course_participants/)」を参照してください．
+
+“Course Participant Registration” is a feature for managing participants (instructors, course designers, TAs, and students) in the course. Note that TAs can only view the participant list.
+
+For details, refer to “Course Participant Registration.”
+
+#### ユーザーグループ
+#### User Groups
+{:#user-group}
+
+「ユーザーグループ」を使うと，コースの参加者をグループ分けして，課題やお知らせ等を出し分けることができます．
+
+詳しくは「[ユーザーグループ](user_groups/)」を参照してください．
+
+“User Groups” allow you to group course participants and distribute assignments, announcements, etc., accordingly.
+
+For details, refer to “User Groups.”
+
+#### 担当教員表示
+#### Instructor List
+{:#lecturer-names}
+
+「担当教員表示」は，担当教員として登録されているユーザーのうち，時間割とコーストップに表示される人を限定する機能です．多数の教員が関わる授業において，履修者側の画面で代表となる教員だけを表示したい場合などに使われます．
+
+“Instructor List” limits the display of users registered as instructors to the timetable and course top. This feature is useful for courses involving multiple instructors, where only the representative instructor should be displayed to students.
+
+![](./_img/lecturer-names-timetable.png){:.small}
+
+![](./_img/lecturer-names-coursetop.png){:.small}
+
+
+デフォルトでは，担当教員として登録されているユーザーはすべて，時間割とコーストップに表示されます．
+
+By default, all users registered as instructors will be displayed in the timetable and course top. 
+
+1. 「コース設定→コース設定」[^1]を開いてください．
+1. 画面の下部に「担当教員一覧」という欄があります．表示させたい担当教員にチェックを入れ，表示させたくない担当教員のチェックを外してください．
+   ![](./_img/lecturer-names.png){:.medium}
+1. 「確認画面へ進む」ボタンを押し，内容を確認したら「登録する」ボタンを押してください．
+
+To customize the display:
+
+1. Open "Course Settings > Course Settings."
+2. At the bottom of the screen, find the "List of Instructors" section.
+3. Check the instructors you want to display and uncheck those you don't.
+4. Click "Proceed to Confirmation" and review the changes before clicking "Register."
+
+#### 自己登録・履修者範囲設定
+#### Self-Registration and Student Range Settings
+{:#self-registration-and-content-use-scope}
+
+この項では，UTASで履修登録せずにコンテンツを利用する，いわゆる「聴講」を可能にするために必要な「自己登録」に関する設定と，「履修者範囲設定」を説明します．なお，自己登録は，[申請して作成したコース](/utol/lecturers/#course-application)に受講者が自分で登録できるようにする場合にも必要です．
+
+まず，**「自己登録」に関する設定**では，ユーザ自身がUTOL上で「受講登録」ボタンを押し，自分自身を履修者として登録する「自己登録」を許可するかどうかを選ぶことができます．デフォルトでは「許可する」になっています．
+
+次に，**「履修者範囲設定」**では，受講登録している人のうち，コンテンツを利用（教材のダウンロード，課題の提出等）できる人の範囲を選ぶことができます．履修者範囲設定には，以下の選択肢があります．自己登録を許可できるかどうかにも影響するので，注意してください．なお，デフォルトでは「履修登録・担当教員登録のみに自動切替」になっています．また，[申請して作成したコース](../#course-application)では，履修者範囲設定は「常に登録方法によらず全て」に固定されます．
+
+This section describes the settings related to “Self registration,” which allows users to use course content without registering for the course on UTAS (so-called “auditing”), and “Enrolled student range setting.” Note that self-registration is also necessary if you want participants to register themselves for [courses created through application](/en/utol/lecturers/#course-application).
+
+First, in the **“Self registration” settings**, you can choose whether to allow users to register themselves as “enrolled student” by clicking the “Register for Enrollment” button on UTOL. The default setting is “Permit.”
+
+Next, in the **“Enrolled student range setting”**, you can choose the range of people who can use the content (such as downloading materials or submitting assignments) among those who are registered as “enrolled student”. The enrolled student range settings have the following options, which also affect whether self-registration is allowed:
+
+- **常に履修登録・担当教員登録のみ**：履修登録・担当教員登録など[^2]の方法で登録した受講者のみがコンテンツを利用できます．特に，自己登録で登録している人はコンテンツを利用できないので，自己登録は「許可しない」に固定されます．
+  - 受講者を担当教員登録にするには，「[コース参加者登録 > 登録方法の更新](course_participants/#renew-method)」を参考に，担当教員・コース設計者が当該ユーザを登録し直してください．
+- **常に登録方法によらず全て**：受講登録していれば，誰でもコンテンツを利用できます．自己登録は許可するか，許可しないかを選べます．
+- **履修登録・担当教員登録のみに自動切替**（履修登録期限前のみ）：履修登録期限の前は「常に登録方法によらず全て」，履修登録期限の後は「常に履修登録・担当教員登録のみ」と同じふるまいをします．自己登録を「許可する」にしていた場合は，履修登録期限を過ぎると自動的に「許可しない」に切り替わります．
+
+1. **Always "Registration and instructor registration only"**: Only participants registered through methods such as enrollment registration or instructor registration[2] can use the content. Specifically, those who have registered themselves through self-registration cannot access the content, so self-registration is fixed to “Not Permit.”
+    - To register a participant by instructor registration, refer to “[Course Participant Registration > Update Registration Method](course_participants/#renew-method),” where instructors or course designers can re-register the user.
+2. **Always "All regardless of registration method"**: Anyone who has enrolled can use the content. You can choose whether to allow self-registration.
+3. **Automatically switch from "All regardless of registration method" to "Registration and instructor registration only" on the course confirmation date (Before Enrollment Registration Deadline Only)**: Before the enrollment registration deadline, it behaves the same as “Always "All regardless of registration method.” After the enrollment registration deadline, it behaves the same as Always “Registration and instructor registration only.” If self-registration was set to “Permit,” it will automatically switch to “Not Permit” after the enrollment registration deadline.
+
+[^2]:
+    この設定でコンテンツを利用できる・できない人は次のとおりです（コンテンツを利用する人が受講登録していることを前提とします）．
+    - 利用できる人
+      - UTASで履修登録をした人
+      - 担当教員・コース設計者等が参加者として登録した人
+        - 担当教員登録：担当教員・コース設計者が「[コース参加者登録](#course-participants)」で登録した人
+        - 出席管理：担当教員・コース設計者が「出席者一括登録」で登録した人
+    - 利用できない人
+      - 自己登録で登録している人
+      - UTASで「お気に入り登録」をした人
+      - 履修登録をした後で解除した人
+
+設定手順は以下の通りです．
+
+1. 「コース設定→コース設定」[^1]を開いてください．
+1. 「履修者範囲設定」と「自己登録」を設定してください．
+    - 自由に「聴講」することを許可する場合
+      - 履修者範囲設定を「常に登録方法によらず全て」，自己登録を「許可」にしてください．
+    - 許可した受講者のみに「聴講」させたい場合・「聴講」を許可しない場合
+      - 履修者範囲設定を「常に履修登録・担当教員登録のみ」にしてください．
+      - いわゆる「聴講」を許可したい受講者がいれば，「[コース参加者登録 > 登録方法の更新](course_participants/#renew-method)」を参考に，「担当教員登録」で登録し直してください．
+1. 「確認画面へ進む」ボタンを押し，内容を確認したら「登録する」ボタンを押してください．
+
+To configure these settings:
+
+1. Open "Course Settings > Course Settings."
+2. Set the “Enrolled student range setting” and “Self registration.”
+    - If you want to allow free "auditing":
+        - Set the enrolled student range to "Always "All regardless of registration method"" and self-registration to "Permit."
+    - If you want to restrict "auditing" to specific participants or disallow it:
+        - Set the enrolled student range to "Always "Registration and instructor registration only"."
+        - If there are participants you want to allow for "auditing," refer to [Course Participant Registration > Update Registration Method](course_participants/#renew-method),” and re-register them as instructors.
+3. Click the "Confirm" button, review the details, and then click "Register."
+
+### ラベル
+### Labels
+{:#label}
+
+「ラベル」は，コース内のコンテンツをグループ化する機能です．コーストップで表示を絞り込むときに使われます．
+
+なお，ラベルは，該当するコンテンツがない履修者を含め，教員側・履修者側両方で表示されます．個人情報など，履修者に見られては困る内容をラベルに含めないように注意してください．
+
+"Labels" are used to group content within a course. They help narrow down the display when viewing the course overview.
+
+It's important to be cautious when using labels, as they are visible to both instructors and students, including those who have no applicable content. Avoid including sensitive information in labels.
+
+#### ラベルを作成する
+#### Creating Labels
+{:#create-label}
+
+1. 「コース設定→表示ラベル管理」[^1]を開いてください．
+1. 左上の「![](../../_icons/add_label.png){:.icon}表示ラベル新規作成」を押してください．
+   ![](./_img/create-label-button.png){:.medium.border}
+1. タイトルを入力してください．
+   ![](./_img/create-label-dialog.png){:.medium.border}
+1. 「表示ラベル登録」を押すと，登録されます．
+
+1. Open "Course Settings > Display label management."[^1]
+1. Click on "![](../../_icons/add_label.png){:.icon} Create new display label" in the top left corner.
+   ![](./_img/create-label-button.png){:.medium.border}
+1. Enter a title for the label.
+   ![](./_img/create-label-dialog.png){:.medium.border}
+1. Click "Register" to save.
+
+#### ラベルを編集・削除する
+#### Editing and Deleting Labels
+{:#edit-label}
+
+![](./_img/edit-label.png){:.medium.border}
+
+1. 「コース設定→表示ラベル管理」[^1]を開いてください．
+1. 「表示ラベル一覧」欄のラベルの右側にある![︙](../../_icons/extra_menu.png){:.icon}を押してください．
+1. 編集するには「編集」を，削除するには「削除」を押してください．
+
+1. Open "Course Settings > Display label management."[^1]
+2. Click the ![︙](../../_icons/extra_menu.png){:.icon} icon next to the label in the "Display label list" section.
+3. Choose "Edit" to modify the label or "Delete" to remove it.
+
+#### コンテンツのラベルを編集する
+#### Editing Content Labels
+{:#label-content}
+
+コンテンツにラベルを設定する方法には，作成時にラベルを紐づける方法と，後から紐づける方法があります．ここでは後から紐づける方法を説明します．作成時に紐づける方法は各コンテンツの説明ページを参照してください．
+
+There are two ways to set labels for content: during creation or afterward. Here, we'll explain how to do it afterward.
+
+![](./_img/label-dd.png){:.medium}
+
+1. 「コース設定→表示ラベル管理」[^1]を開いてください．
+1. コンテンツ名の左側の![ドラッグ＆ドロップのアイコン](../../_icons/drag.gif){:.icon}を押しながら，コンテンツをドラッグ＆ドロップしてください．
+    - 新たにラベルを紐づける場合は，「登録コンテンツ一覧」から「表示ラベル一覧」の追加したいラベルへ移動させてください．
+    - ラベルとの紐づけを解除したい場合は，「表示ラベル一覧」から「登録コンテンツ一覧」へ移動させてください．
+
+1. Open "Course Settings > Display label management."[^1]
+2. While holding the ![drag-and-drop icon](../../_icons/drag.gif){:.icon} on the left side of the content name, drag and drop the content.
+    - To link a new label, move the content from "Registered content list" to the desired label in "Display label list."
+    - To unlink a label, move the content from "Display label list" to "Registered content list."
+
+なお，現在とは別のラベルと紐づけたい場合は，一旦解除してからもう一度新しく紐づけてください．「表示ラベル一覧」のあるラベルから別のラベルへドラッグ＆ドロップしても，反映されません．
+
+If you want to link a different label than the current one, first unlink it and then re-link it to the new label. Dragging and dropping from one label to another won't reflect the change.
+
+### メッセージと出席の設定
+### Message and Attendance Settings
+{:#message-and-attendance}
+
+「コース設定→コース設定」[^1]から，メッセージ機能を有効化するかどうかや，出席情報を表示するかどうかを設定することができます．
+
+You can configure message functionality and attendance display settings using "Course Settings > Course Settings."
+
+![](./_img/message-and-attendance.png){:.medium}
+
+- メッセージ利用
+  - 「教員・TA・履修者でメッセージをやり取りする」をオンにするとメッセージ機能が有効化されます．
+  - 詳しくは「[メッセージ](../messages/)」を参照してください．
+- 自動登録の出席表示
+  - UTOLでは，UTASから連携されたり，教員がUTOLで登録したりした授業コマ情報に基づいて，自動で出席が設定されます．「授業コマから自動登録された出席情報を履修者に表示する」をオンにすると，この自動で設定された出席情報が，履修者に表示されます．
+  - UTOLで出席を管理しない場合は，出席した回に「欠席」と表示されて混乱を招く可能性があるので，オフにしておくことをおすすめします．
+  - 授業コマと出席について詳しくは「[出席](../attendances/)」を参照してください．
+
+- **Message Usage**
+  - Enabling "Messages are exchanged among faculty, TAs, and students" allows message functionality.
+  - For more details, refer to the "[Messages](../messages/)".
+- **Automatically registered attendance information**
+  - In UTOL, attendance is automatically set based on class information from UTAS or manually registered by instructors in UTOL.
+  - Enabling "Display attendance information automatically registered from Classes management to enrolled student" shows this automatically set attendance information to students.
+  - If you do not manage attendance in UTOL, it is recommended to keep this feature off to avoid confusion (e.g., displaying "absent" for attended sessions).
+  - For detailed information on class sessions and attendance, refer to the "[Attendance](../attendances/)".
+
+### LTI連携
+### LTI Integration
+{:#lti}
+
+LTI連携は，UTOLのコースと外部のツールを連携させる[^3]機能です．
+
+[^3]: UTOLはLearning Tool Interoperability (LTI) v1.3に対応しており，Learning Platformとしての動作ができます．
+
+LTI integration allows UTOL courses to connect with external tools[^3].
+
+[^3]: UTOL supports Learning Tool Interoperability (LTI) v1.3 and functions as a Learning Platform.
+
+ここではコースで外部ツールを使うための手順を説明します．外部ツールの機能については，各ツールのウェブサイト等を参照してください．
+
+This section describes the procedures for using external tools in the course. For information on the functionality of the external tools, please refer to their websites.
+
+#### コースに外部ツールを追加する
+#### Adding External Tools to the Course
+{:#add-lti}
+
+1. 「コース設定→LTI利用設定」[^1]を開いてください．
+1. 利用したいLTIツールの「利用する」列にチェックを入れてください．
+   <details>
+   <summary>表示されていない外部ツールを利用したい場合</summary>
+
+   「LTI利用設定」に表示されていない，LTI v1.3に対応する外部ツールのライセンスをお持ちで，利用を希望される方は，UTOL担当までメールでご連絡下さい{/* TODO: メールアドレス公開確認 */}．その際には，当該ツール及びそのライセンス，利用を希望する範囲（特定の学部・コースのみでの利用か，全学での利用を希望か）等をお伝え下さい．
+   </details>
+
+1. 「確認画面へ進む」ボタンを押し，内容を確認したら「登録する」ボタンを押してください．
+1. コーストップを開くと，追加したLTIツールのアイコンが表示されます．
+
+1. Open "Course Settings > LTI usage settings"[1].
+2. Check the "Use" column for the desired LTI tools.
+   <details>
+   <summary>If an external tool is not displayed</summary>
+
+   If you have a license for an LTI v1.3-compliant external tool that is not shown in "LTI Usage Settings" and wish to use it, please contact the UTOL team via email. Please inform us of the tool, its license, and the scope of use you wish to request (i.e., whether you wish to use the tool only for a specific department or course, or for the entire university).
+   </details>
+
+3. Click "Confirm" and review the details. Then click "Register."
+4. When you access the course top, the icons for the added LTI tools will be displayed.
+
+## 他のコースとの連携
+## Collaboration with Other Courses
+{:#inter-course}
+
+UTOLでは，複数のコースをまとめて管理したり（コースグループ），他のコースからコンテンツをコピーしたり（コンテンツ等の再利用）できます．
+
+In UTOL, you can manage multiple courses together (course groups) and reuse content from other courses (content reuse).
+
+### コースグループ・時間割コード
+### Course Groups and Course Code
+{:#course-group}
+
+"Course Group" is a function to manage multiple courses together. The "Course Code" is used to select a representative course (parent course) within a course group.
+
+詳細は「[コースグループ](course_group/)」を参照してください．
+
+For more details, refer to "[Course Groups](course_group/)".
+
+### コンテンツ等の再利用
+### Content Reuse
+{:#contents-reuse}
+
+"Content Reuse" enables you to copy content from courses you previously taught or from courses taught by other instructors.
+
+Here are the steps:
+
+#### 手順1：コピー元のコースで行う作業
+#### Step 1: Actions in the Source Course
+{:#contents-reuse-step1}
+
+この手順は，コピー先のコースで作業を行う教員が，コピー元のコースでも担当教員として登録されている場合には**不要**ですので，手順2に進んでください．
+
+そうでない場合は，コピー元のコースの担当教員に次の作業を依頼してください．
+
+1. コピー元のコースの「コース設定→コース設定」[^1]を開いてください．
+1. 「作成したコンテンツについて、自分が担当しない他コースも含め利用（コピー）を許可する」にチェックを入れてください．
+   ![](./_img/contents-reuse-step1.png){:.small}
+1. 「確認画面へ進む」ボタンを押し，内容を確認したら「登録する」ボタンを押してください．
+
+If you are an instructor who is registered as instructor in both the source and destination courses, skip this step and proceed to Step 2.
+
+Otherwise, ask the instructor of the source course to perform the following steps:
+
+1. Open "Course Settings > Course Settings" in the source course.
+2. Check the option "Allow the contents of the courses to be used (copied) for both courses you are in charge of and not in charge of."
+3. Click "Confirm," review the details, and then click "Register."
+
+#### 手順2：コピー先のコースで行う作業
+#### Step 2: Actions in the Destination Course
+{:#contents-reuse-step2}
+
+1. コピー先のコースの「コースコンテンツ→過去のコンテンツをインポート」[^1]を開いてください．
+1. 「コピー元コース検索」欄の「コース検索」ボタンを押し，コピー元のコースを検索してください．
+1. コピー元のコースを選択し，「指定」ボタンを押してください．
+1. コピー元のコースのコンテンツが表示されるので，コピーしたいものにチェックを入れてください．
+1. 「確認画面へ進む」ボタンを押し，内容を確認したら「登録する」ボタンを押してください．
+
+1. Open "Course Content > Import past contents" in the destination course.
+2. Click the "Search Course" button in the "Search Original course" field and search for the source course.
+3. Select the source course and click "Specify."
+4. The content from the source course will be displayed. Check the items you want to copy.
+5. Click "Confirm," review the details, and then click "Register."
