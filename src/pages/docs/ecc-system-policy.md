@@ -74,5 +74,5 @@ breadcrumb:
 
 その他，ポリシーに関しては，以下もご覧下さい．
 
-* [情報メディア教育部門の広報ポリシー](/announcement/policy.html)
-* [ECCSクラウドメールの運用ポリシー](/system/eccs_cloud_email_policy.html) 2016年10月27日
+* [情報メディア教育部門の広報ポリシー](ecc-annnoucement-policy)
+* [ECCSクラウドメールの運用ポリシー](https://www.ecc.u-tokyo.ac.jp/system/eccs_cloud_email_policy.html) 2016年10月27日
