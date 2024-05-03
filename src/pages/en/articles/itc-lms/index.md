@@ -3,7 +3,8 @@ title: Learning about LMS (Learning Management System) and Utilizing ITC-LMS
 ---
 
 <div class="box">
-  The University of Tokyo has introduced a Learning Management System [UTOL](/utol/) which has almost the same features as ITC-LMS. Please read this article with "ITC-LMS" replaced by "UTOL" where appropriate.
+
+  The University of Tokyo has introduced a Learning Management System [UTOL](/en/utol/) which has almost the same features as ITC-LMS. Please read this article with "ITC-LMS" replaced by "UTOL" where appropriate.
 </div>
 
 ## Highlights of This Article
