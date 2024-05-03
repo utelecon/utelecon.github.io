@@ -6,9 +6,9 @@ breadcrumb:
 
 ## 概要
 
-教育用計算機システムや [MailHosting (mh.ecc.u-tokyo.ac.jp)](https://mh.ecc.u-tokyo.ac.jp/) など情報基盤センター情報メディア教育研究部門が提供するサービスは，共通の[運用ポリシー](http://www.ecc.u-tokyo.ac.jp/system/policy.html)の下で提供しています．
+教育用計算機システムや [MailHosting (mh.ecc.u-tokyo.ac.jp)](https://mh.ecc.u-tokyo.ac.jp/) など情報基盤センター情報メディア教育研究部門が提供するサービスは，共通の[運用ポリシー](/docs/ecc-system-policy)の下で提供しています．
 
-2016年度より開始した [ECCSクラウドメール](http://www.ecc.u-tokyo.ac.jp/system/mail.html#cloud) は，学外事業者が提供するクラウドサービスをベースに構成されており，前述の運用ポリシーには当てはまらない点や不足する点があります．
+2016年度より開始した [ECCSクラウドメール](/google) は，学外事業者が提供するクラウドサービスをベースに構成されており，前述の運用ポリシーには当てはまらない点や不足する点があります．
 
 そこで，センターは ECCS クラウドメールに関する運用ポリシーを策定し，本サイトで公開することに致しました．以下に運用ポリシーを示します．
 
@@ -42,10 +42,10 @@ breadcrumb:
 
 ## ECCSクラウドメールの付加サービス
 
-広報「ECCSクラウドメール利用の手引」の「[利用可能なアプリケーション (ecc.u-tokyo.ac.jp)](https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/26_2495.html#application)」でご確認下さい．
+広報「ECCSクラウドメール利用の手引」の「[利用可能なアプリケーション (ecc.u-tokyo.ac.jp)](/google/#application)」でご確認下さい．
 
 ## 追記
 
 教職員は2020年2月20日より，学生は2020年3月19日より，ECCS 利用権の有無にかかわらず，ECCS クラウドメールを利用可能となりましたので，それに合わせて運用ポリシーを修正しました (2020年8月21日)．
 
-本ポリシーに関してご不明な点がある場合は，ECCS の[問い合わせ先](http://www.ecc.u-tokyo.ac.jp/question.html)にお問い合わせ下さい．
+本ポリシーに関してご不明な点がある場合は，ECCS の[問い合わせ先](/eccs/support)にお問い合わせ下さい．
