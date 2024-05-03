@@ -203,17 +203,19 @@ First, in the **“Self registration” settings**, you can choose whether to al
 
 次に，**「履修者範囲設定」**では，受講登録している人のうち，コンテンツを利用（教材のダウンロード，課題の提出等）できる人の範囲を選ぶことができます．履修者範囲設定には，以下の選択肢があります．自己登録を許可できるかどうかにも影響するので，注意してください．なお，デフォルトでは「履修登録・担当教員登録のみに自動切替」になっています．また，[申請して作成したコース](../#course-application)では，履修者範囲設定は「常に登録方法によらず全て」に固定されます．
 
-Next, in the **“Enrolled student range setting,”** you can choose the range of people who can use the content (such as downloading course materials or submitting assignments) among those who are registered as “enrolled students.” The enrolled student range settings have the following options, which also affect whether self-registration is allowed:
+Next, in the **“Enrolled student range setting,”** you can choose the range of people who can use the content (such as downloading course materials or submitting assignments) among those who are registered as “enrolled students.” By default, the “Enrolled student range setting” defaults to “Automatically switch from "All regardless of registration method" to "Registration and instructor registration only" on the course confirmation date”. However, in courses that the course instructor have applied for creation, the “Enrolled student range setting” is always fixed to “Always "All regardless of registration method"”. 
+
+The enrolled student range settings have the following options, which also affect whether self-registration is allowed:
 
 - **常に履修登録・担当教員登録のみ**：履修登録・担当教員登録など[^2]の方法で登録した受講者のみがコンテンツを利用できます．特に，自己登録で登録している人はコンテンツを利用できないので，自己登録は「許可しない」に固定されます．
   - 受講者を担当教員登録にするには，「[コース参加者登録 > 登録方法の更新](course_participants/#renew-method)」を参考に，担当教員・コース設計者が当該ユーザを登録し直してください．
 - **常に登録方法によらず全て**：受講登録していれば，誰でもコンテンツを利用できます．自己登録は許可するか，許可しないかを選べます．
 - **履修登録・担当教員登録のみに自動切替**（履修登録期限前のみ）：履修登録期限の前は「常に登録方法によらず全て」，履修登録期限の後は「常に履修登録・担当教員登録のみ」と同じふるまいをします．自己登録を「許可する」にしていた場合は，履修登録期限を過ぎると自動的に「許可しない」に切り替わります．
 
-1. **Always "Registration and instructor registration only"**: Only participants registered through methods such as enrollment registration or instructor registration[2] can use the content. Specifically, those who have registered themselves through self-registration cannot access the content, so self-registration is fixed to “Not Permit.”
-    - To register a participant by instructor registration, refer to “[Course Participant Registration > Update Registration Method](course_participants/#renew-method),” where instructors or course designers can re-register the user.
-2. **Always "All regardless of registration method"**: Anyone who has enrolled can use the content. You can choose whether to allow self-registration.
-3. **Automatically switch from "All regardless of registration method" to "Registration and instructor registration only" on the course confirmation date (Before Enrollment Registration Deadline Only)**: Before the enrollment registration deadline, it behaves the same as “Always "All regardless of registration method.” After the enrollment registration deadline, it behaves the same as Always “Registration and instructor registration only.” If self-registration is set to “Permit,” it will automatically switch to “Not Permit” after the enrollment registration deadline.
+- **Always "Registration and instructor registration only"**: Only participants registered through methods such as enrollment registration or instructor registration[^2] can use the content. Specifically, those who have registered themselves through self-registration cannot access the content, so self-registration is fixed to “Not Permit.”
+    - To register a participant by instructor registration, refer to [“Course Participant Registration > Update Registration Method](course_participants/#renew-method),” where instructors or course designers can re-register the user.
+- **Always "All regardless of registration method"**: Anyone who has enrolled can use the content. You can choose whether to allow self-registration.
+- **Automatically switch from "All regardless of registration method" to "Registration and instructor registration only" on the course confirmation date (Before Enrollment Registration Deadline Only)**: Before the enrollment registration deadline, it behaves the same as “Always "All regardless of registration method.” After the enrollment registration deadline, it behaves the same as Always “Registration and instructor registration only.” If self-registration is set to “Permit,” it will automatically switch to “Not Permit” after the enrollment registration deadline.
 
 [^2]:
     この設定でコンテンツを利用できる・できない人は次のとおりです（コンテンツを利用する人が受講登録していることを前提とします）．
