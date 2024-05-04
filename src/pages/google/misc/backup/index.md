@@ -27,7 +27,7 @@ ECCSクラウドメールに保存されたデータをバックアップする�
 
 詳しくは，「[ECCSクラウドメールに保存したデータをダウンロードする](download/)」を参照してください．
 
-また，「[Google データをダウンロードする方法(Google アカウント ヘルプ）](https://support.google.com/accounts/answer/3024190)」もご参照ください．
+また，「[Google データをダウンロードする方法（Google アカウント ヘルプ）](https://support.google.com/accounts/answer/3024190)」もご参照ください．
 
 ## 別のGoogleアカウントにコンテンツを移行する
 {:#transfer}
@@ -39,7 +39,7 @@ ECCSクラウドメールに保存されたデータをバックアップする�
 
 詳しくは，「[ECCSクラウドメールから別のGoogleアカウントにコンテンツを移行する](transfer/)」を参照してください．
 
-また，「[学校のアカウントから別のアカウントにコンテンツをコピーする(Google アカウント ヘルプ）](https://support.google.com/accounts/answer/6386856)」もご参照ください．
+また，「[学校のアカウントから別のアカウントにコンテンツをコピーする（Google アカウント ヘルプ）](https://support.google.com/accounts/answer/6386856)」もご参照ください．
 
 ### 注意事項
 
