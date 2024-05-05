@@ -14,4 +14,4 @@ ECCS端末のVisual Studio Communityを利用するには，利用者自身の�
 
 ECCS端末にてVisual Studio Communityを利用する場合，個人で取得したマイクロソフトアカウントでの利用であっても，[マイクロソフトソフトウェアライセンス条項](https://www.visualstudio.com/support/legal/mt171547)の「**組織ライセンス**」に該当します．
 
-* 情報基盤センターは，ECCS端末においてVisual Studio Communityを個別のマイクロソフトアカウントにて**講義利用**することについて問題ないことを，マイクロソフトに確認済みです．
+なお，情報基盤センターは，ECCS端末においてVisual Studio Communityを個別のマイクロソフトアカウントにて**講義利用**することについて問題ないことを，マイクロソフトに確認済みです．
