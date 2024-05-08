@@ -3,6 +3,22 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2024-04-26
+  content:
+    ja: "[UTOL の出席管理機能で学生に出席送信画面が表示されないことがある件について](/notice/2024/0426-utol-attendance)"
+  important: true
+-
+  date: 2024-04-24
+  content:
+    ja: "[履修登録したUTOL上の他学部科目にアクセスできなくなる件について](/notice/2024/0424-utol-announce)"
+  important: true
+-
+  date: 2024-04-22
+  content:
+    ja: "[UTokyo Accountで利用するOneDrive等の容量制限について（第2報）](/notice/2024/0422-microsoft-storage/)"
+    en: "[Reduction of the storage capacity of OneDrive with UTokyo Accounts](/en/notice/2024/0422-microsoft-storage/)"
+  important: true
+-
   date: 2024-04-01
   content:
     ja: "[生成AIの提供方針に関するアンケートの結果等について](/notice/2024/04-aichat-survey-result/)"
