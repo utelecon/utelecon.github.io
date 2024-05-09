@@ -24,7 +24,7 @@ Here are procedures on how to record a Zoom meeting to the cloud and set up inte
    Kindly note that the above wording differs from the current one due to the latest updates.
 5. Turn off "Viewers can download". If you welcome students to download, keep it on.
 
-6. Copy the sharing information and share it via ITC-LMS or email.
+6. Copy the sharing information and share it via UTOL or email.
    * The URL and password indicated in "Recording Link Information" and the notification email under "Share recordings with viewers" are the same.
 
 
@@ -43,7 +43,7 @@ This section explains how to stop cloud sharing a recording (i.e. disabling the 
    !["Share this record"](8.png)
    ![Turn off "Share this record"](9.png)
 
-4. Announce the link expiration via ITC-LMS or email, or delete the link.  
+4. Announce the link expiration via UTOL or email, or delete the link.  
    Note: Since the storage capacity of Zoom cloud is limited, it is recommended to delete the file rather than stop sharing the link.
 
 ## If the option "Record to the Cloud" is not available, enable the cloud recording feature.
