@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import matter from "gray-matter";
 import { extname, join, relative } from "path";
 import { fileURLToPath } from "url";
-import { walk } from "./util";
+import { globIterate } from "glob";
 import { VFile } from "vfile";
 
 const source = [".md", ".markdown", ".mdx"];
@@ -15,7 +15,8 @@ export default function redirect(): AstroIntegration {
       "astro:config:setup": async ({ updateConfig, config }) => {
         const pages = join(fileURLToPath(config.srcDir), "pages");
         const promises: Promise<VFile>[] = [];
-        for await (const path of walk(pages)) {
+        const paths = globIterate("**/*", { cwd: pages, nodir: true, absolute: true});
+        for await (const path of paths) {
           if (!source.includes(extname(path))) continue;
           promises.push(readFile(path));
         }

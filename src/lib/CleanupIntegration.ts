@@ -2,7 +2,7 @@ import type { AstroIntegration } from "astro";
 import fs from "fs/promises";
 import { basename, extname } from "path";
 import { fileURLToPath } from "url";
-import { walk } from "./util";
+import { globIterate } from "glob";
 
 const source = [".md", ".markdown", ".mdx", ".astro"];
 
@@ -13,7 +13,8 @@ export function cleanup(): AstroIntegration {
       "astro:build:done": async ({ dir }) => {
         const path = fileURLToPath(dir);
         const promises = [];
-        for await (const file of walk(path)) {
+        const files = globIterate("**/*", { cwd: path, nodir: true, absolute: true});
+        for await (const file of files){
           if (
             source.includes(extname(file)) ||
             basename(file).startsWith("_")
