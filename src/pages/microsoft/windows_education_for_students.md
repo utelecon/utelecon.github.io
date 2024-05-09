@@ -2,6 +2,11 @@
 title: "Windows Education for students"
 ---
 
+
+<b class="box">
+2024年4月に行われたMicrosoft社のサービス変更により，Kivuto社からのライセンスキー提供が終了しています．そのため本サービスは現在利用することができません．後続のサービスについて確認中です．
+</b>
+
 ## 概要
 
 東京大学の**学生**は，Windows 10またはWindows 11をEducationエディションにアップグレードするライセンスを取得できます．このライセンスは，[UTokyo Microsoft License](/microsoft/)の契約に付帯して提供されているものです．
