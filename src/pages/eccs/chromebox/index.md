@@ -11,7 +11,7 @@ Chromebox端末では，Google Chromeとそのextensionとして実現されて�
 
 * **ファイル**：ECCSクラウドメールのアカウントに対応するGoogleドライブのファイルが利用可能です．Webブラウザで，OneDrive等を使うこともできます．
 * **メール**：Gmailが利用可能です．
-* **Secure Shell**：sshクライアントを使って，ECCSのsshサーバ `ssh0{1，2，3}` 等に接続することができます．ただし，あらかじめ作成した秘密鍵をGoogle Drive上に置くことが必要です．
+* **Secure Shell**：SSHクライアントを使って，ECCSのSSHサーバ（ `ssh01.ecc.u-tokyo.ac.jp`、`ssh02.ecc.u-tokyo.ac.jp`、`ssh03.ecc.u-tokyo.ac.jp` ）等に接続することができます．ただし，あらかじめ作成した秘密鍵をGoogleドライブに置くことが必要です．
 
 ## 利用方法
 
