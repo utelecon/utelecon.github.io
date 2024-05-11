@@ -16,7 +16,7 @@ Chromebox端末では，Google Chromeとそのextensionとして実現されて�
 ## 利用方法
 
 ### 事前作業
-ECCSクラウドメールの有効なアカウントが必要です．ECCSクラウドメールの利用開始をしていない方は，「[ECCSクラウドメール（Google Workspace）利用開始の手順](/google/#initial-setup)」に従って，準備してください．
+ECCSクラウドメールの有効なアカウントが必要です．ECCSクラウドメールの利用開始をしていない方は，ECCSクラウドメールの「[利用開始の手順](/google/#initial-setup)」に従って，準備してください．
 
 ### 電源の入れ方
 Chromebox端末の利用に当たっては，27インチディスプレイとChromebox本体の両方の電源を入れる必要があります．
