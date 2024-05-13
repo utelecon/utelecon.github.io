@@ -1,5 +1,7 @@
 ---
 title: ECCSストレージ管理システムについて
+breadcrumb:
+  title: ECCSストレージ管理システムについて
 ---
 ## 概要
 {:#introduction}
@@ -40,9 +42,9 @@ title: ECCSストレージ管理システムについて
 ### スケジュールについて
 {:#schedule}
 
-詳しいスケジュールは[こちら](https://www.ecc.u-tokyo.ac.jp/announcement/2021/10/29_3366.html)
+詳しいスケジュールは[こちら](https://www.ecc.u-tokyo.ac.jp/announcement/2021/10/29_3366.html)．
 
-* 2023年10月以降，代表者が設定されていない共有ドライブは書き込み不可となります（容量の表示は0になります）．また代表者が設定されていない共有ドライブ，長期間容量を超過している共有ドライブは削除されます．具体的な日付は決定後こちらへ掲載しますが，当該共有ドライブを利用している人は**日付の公表を待たずに今すぐ対応**してください．
+2023年10月以降，代表者が設定されていない共有ドライブは書き込み不可となります（容量の表示は0になります）．また代表者が設定されていない共有ドライブ，長期間容量を超過している共有ドライブは削除されます．具体的な日付は決定後こちらへ掲載しますが，当該共有ドライブを利用している人は**日付の公表を待たずに今すぐ対応**してください．
 
 ## 用語の説明
 {:#terminology}
@@ -122,147 +124,123 @@ title: ECCSストレージ管理システムについて
 ### 共有ドライブを管理している人 [要対応]
 {:#ActionNeeded-has-representative-shareddrive}
 
-1. 代表者が誰であるか確認する→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.z9qh74svrr85)
-2. 自分を代表者として設定する:
-   1. 操作後のマイドライブ容量が十分か確認する
-      1. 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.p93jfxdjykjk)
-   2. 自分を代表者として設定する→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.8odxz0wha1ko)
-   3. 使用量が容量を上回っている・上回りそうな場合→[「共有ドライブ容量を増やしたい人／減らしたい人 」](#Operation-change-shareddrive-limit)
+1. 代表者が誰であるか確認してください．→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.z9qh74svrr85)
+2. 自分を代表者として設定してください：
+   - 操作後のマイドライブ容量が十分か確認する．十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.p93jfxdjykjk)
+   - 自分を代表者として設定する→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.8odxz0wha1ko)
+   - 使用量が容量を上回っている・上回りそうな場合→[「共有ドライブ容量を増やしたい人／減らしたい人 」](#Operation-change-shareddrive-limit)
 
-<ul>
-<li><details>
+<details>
     <summary>トラブルシュート：代表者になるべき共有ドライブが見つからない</summary>
     ストレージ管理システムで表示されなければ，それはECCSクラウドメール以外の Google Workspace で作成された共有ドライブですので，何もする必要はありません．
-</details></li>
-<li><details>
+</details>
+<details>
     <summary>トラブルシュート：操作に失敗する</summary>
     自分が参加しているGoogleグループが共有ドライブの管理者として指定され，自分のアカウントが共有ドライブの管理者として指定されていない場合は，自分のアカウントを共有ドライブの管理者として指定してからやり直してください．
-</details></li>
-</ul>
+</details>
 
 ### マイドライブ容量を超過している人 [要対応]
 {:#ActionNeeded-is-over-the-limit}
 
-1. ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+ストレージ制限値を増やしてください．→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
 
 ### マイドライブ容量を増やしたい人／減らしたい人 [手順の変更]
 {:#Operation-is-over-the-limit}
 
-1. 増やす場合，増やした後のマイドライブ容量が十分か確認する
-   1. ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
-2. 減らす場合，減らした後の容量が，現在のストレージ制限値をマイドライブ容量が上回らないことを確認する
-   1. ストレージ制限値を減らしたい場合，十分なマイドライブ容量を確保できていることを確認する
-   2. ストレージ制限値を減らす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
-3. 容量が反映されるまでには1時間程度待ちます
+* 増やす場合，増やした後のマイドライブ容量が十分か確認してください．
+   * ストレージ制限値を増やすには→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+* 減らす場合，減らした後の容量が，現在のストレージ制限値をマイドライブ容量が上回らないことを確認してください．
+   * ストレージ制限値を減らすには→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+* 容量が反映されるまでには1時間程度待ってください．
    * Googleドライブの容量の反映ついては適用に要する厳密な所用時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」
 
 ### ECCSクラウドメールの共有ドライブを新しく作りたい人 [手順の変更]
 {:#Operation-make-new-shareddrive}
 
-1. 操作後のマイドライブ容量が十分か確認する→[リンク](#mydrive-shareddrive)
-   1. 1. 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
-2. 共有ドライブを新しく作成する→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.xz0qfx6mnucx)
+1. 操作後のマイドライブ容量が十分か確認してください．→[リンク](#mydrive-shareddrive)
+   - 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+2. 共有ドライブを新しく作成してください．→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.xz0qfx6mnucx)
 
 ### 共有ドライブ容量を増やしたい／減らしたい人 [手順の変更]
 {:#Operation-change-shareddrive-limit}
 
-1. 増やす場合，操作後のマイドライブ容量が十分か確認する
-2. 1. 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
-   減らす場合，減らした後の容量が，現在の共有ドライブの使用量を上回らないことを確認する
-3. 1. ストレージ制限値を減らしたい場合，十分なマイドライブ容量を確保できていることを確認する
-   共有ドライブ容量を設定する→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.oksofpmfc5xp)
-4. 容量が反映されるまでには1時間程度待ちます
-   * Googleドライブの容量の反映ついては適用に要する厳密な所用時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」
+- 増やす場合，操作後のマイドライブ容量が十分か確認してください．
+   - 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+- 減らす場合，減らした後の容量が，現在の共有ドライブの使用量を上回らないことを確認してください．
+  - 共有ドライブ容量を設定する→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.oksofpmfc5xp)
+- 容量が反映されるまでには1時間程度待ってください．
+  - Googleドライブの容量の反映ついては適用に要する厳密な所用時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」
 
 ### 共有ドライブの代表者を自分や他人に変更したい人 [手順の変更]
 {:#Operation-change-shareddrive-representative}
 
-代表者を自分に変更したい場合
+#### 代表者を自分に変更したい場合
+{:#Operation-change-shareddrive-representative-yourself}
+1. 操作後のマイドライブ容量が十分か確認してください．
+   - 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+2. 自分を代表者に設定してください．→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.8odxz0wha1ko)
 
-1. 操作後のマイドライブ容量が十分か確認する
-2. 1. 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
-   自分を代表者に設定する→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.8odxz0wha1ko)
-3. トラブルシュート：代表者になるべき共有ドライブが見つからない
-4. 1. ストレージ管理システムで表示されなければ，それはECCSクラウドメール以外の Google Workspace で作成された共有ドライブですので，何もする必要はありません
-   トラブルシュート：操作に失敗する
-   1. 自分が参加しているGoogleグループが共有ドライブの管理者として指定され，自分のアカウントが共有ドライブの管理者として指定されていない場合は，自分のアカウントを共有ドライブの管理者として指定してからやり直してください
+<details>
+    <summary>トラブルシュート：代表者になるべき共有ドライブが見つからない</summary>
+    ストレージ管理システムで表示されなければ，それはECCSクラウドメール以外の Google Workspace で作成された共有ドライブですので，何もする必要はありません．
+</details>
+<details>
+    <summary>トラブルシュート：操作に失敗する</summary>
+    自分が参加しているGoogleグループが共有ドライブの管理者として指定され，自分のアカウントが共有ドライブの管理者として指定されていない場合は，自分のアカウントを共有ドライブの管理者として指定してからやり直してください．
+</details>
 
-代表者を自分以外の人に変更したい場合
-
-1. システムの都合上，自分以外の人を一方的に代表者と設定することができないため，代表者にしたい人に操作してもらう必要があります
-2. 操作については上記「代表者を自分に変更したい場合」を代表者にしたい人へ案内してください
+#### 代表者を自分以外の人に変更したい場合
+{:#Operation-change-shareddrive-representative-others}
+システムの都合上，自分以外の人を一方的に代表者と設定することができないため，代表者にしたい人に操作してもらう必要があります．操作については上記「代表者を自分に変更したい場合」を代表者にしたい人へ案内してください．
 
 ### 共有ドライブを削除したい人
 {:#delete-shareddrive}
 
-1. まず削除したい共有ドライブ内のフォルダ，ファイルをすべて削除します
-2. 共有ドライブを選択し，点が縦に並んでいる「その他の操作」より「共有ドライブを削除」を選択します
-   * 注：マイドライブ容量の変更には最大24時間かかります
-
-***
+1. まず削除したい共有ドライブ内のフォルダ，ファイルをすべて削除してください．
+2. 共有ドライブを選択し，点が縦に並んでいる「その他の操作」より「共有ドライブを削除」を選択してください．
+   * マイドライブ容量の変更には最大24時間かかります．
 
 ## ストレージ制限値を増やす方法
 {:#how-to-increase-storage-limit}
 
-* 「予算を持つ教職員」の場合
-  * 簡易マニュアル「利用負担金支払い情報登録」→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.qfjcj5ui2yhg)
-  * 簡易マニュアル「自分および，追加登録済みのユーザへの容量追加」→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.p93jfxdjykjk)
+### 「予算を持つ教職員」の場合
+{:#if-you-are-with-a-budget}
+* 簡易マニュアル「利用負担金支払い情報登録」→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.qfjcj5ui2yhg)
+* 簡易マニュアル「自分および，追加登録済みのユーザへの容量追加」→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.p93jfxdjykjk)
 
-* 「予算を持つ教職員」以外（学生含む）の場合
-
+### 「予算を持つ教職員」以外（学生含む）の場合
+{:#if-you-are-not-with-a-budget}
 * 別の「予算を持つ教職員」にお願いして「利用負担金責任者」になってもらう
 * その教職員に以下を行ってもらってください：
   * 簡易マニュアル「利用負担金支払い情報登録」→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.qfjcj5ui2yhg)
   * 簡易マニュアル「他ユーザの追加登録」→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.6uw9ygh358z3)
   * 簡易マニュアル「自分および，追加登録済みのユーザへの容量追加」→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.p93jfxdjykjk)
 
-* トラブルシュート：「予算を持つ教職員」であるにも関わらず「利用負担金支払い情報登録」タブが表示されない
-
-* 新しくできた身分等でリストに未登録の場合があります．[uteleconのサポート窓口](https://utelecon.adm.u-tokyo.ac.jp/support/) からご連絡ください．
-
-***
+<details>
+    <summary>トラブルシュート：「予算を持つ教職員」であるにも関わらず「利用負担金支払い情報登録」タブが表示されない</summary>
+    新しくできた身分等でリストに未登録の場合があります．[uteleconのサポート窓口](https://utelecon.adm.u-tokyo.ac.jp/support/) からご連絡ください．
+</details>
 
 ## Q&A
 {:#QaA}
 
 ### Q: 学生ですが，複数の教職員にストレージ制限値を分けて負担（例，教員Aに400GB, 教員Bに100GB追加してもらい，合計500GB追加して制限値を625GBとする）してもらうことはできますか?
-
-* A: システムの都合上できません．
-
-***
+A: システムの都合上できません．
 
 ### Q: 容量制限されるならば，別のクラウドサービスに移行したいのですが，他にどのようなサービスがありますか?
-
-* A: 研究用のデータ公開では，[データ活用社会創成プラットフォームmdx](https://mdx.jp/), 非公開の計算結果等の置き場としては，[スーパーコンピューティングシステム](https://www.cc.u-tokyo.ac.jp/supercomputer/)などが検討対象になります． 予算があるのであれば，Dropbox, Box 等のクラウドサービスもあります．
-
-***
+A: 研究用のデータ公開では，[データ活用社会創成プラットフォームmdx](https://mdx.jp/), 非公開の計算結果等の置き場としては，[スーパーコンピューティングシステム](https://www.cc.u-tokyo.ac.jp/supercomputer/)などが検討対象になります． 予算があるのであれば，Dropbox, Box 等のクラウドサービスもあります．
 
 ### Q: ストレージ制限値を減らす前に手元にバックアップを取りたいのですが，どのようにしますか?
-
-* A: [卒業などに伴う，ECCSクラウドメールのデータバックアップについて](https://www.ecc.u-tokyo.ac.jp/announcement/2019/02/19_2904.html)を参考にしてください．データの量が大きいと，エクスポートデータの作成や，ダウンロードに時間がかかることがあります．
-
-***
+A: [卒業などに伴う，ECCSクラウドメールのデータバックアップについて](https://www.ecc.u-tokyo.ac.jp/announcement/2019/02/19_2904.html)を参考にしてください．データの量が大きいと，エクスポートデータの作成や，ダウンロードに時間がかかることがあります．
 
 ### Q: 空き容量を確保するために，ファイルをゴミ箱に移動したのですが，Googleドライブでみた使用量が減りません．
-
-* A: Googleドライブでファイルをゴミ箱に移動するだけでは，ストレージの使用量は減りません(参照: [Google ドライブ:ストレージ内のファイルを管理する](https://support.google.com/drive/answer/6374270?hl=ja) )． ゴミ箱のファイルは30日後に自動的に削除されますが，空き容量を確保したい場合は「ゴミ箱を空にする」作業をおこなって下さい．なお，「ゴミ箱を空にする」作業の結果が反映されるまで時間がかかることがあります．
-
-***
+A: Googleドライブでファイルをゴミ箱に移動するだけでは，ストレージの使用量は減りません(参照: [Google ドライブ:ストレージ内のファイルを管理する](https://support.google.com/drive/answer/6374270?hl=ja) )． ゴミ箱のファイルは30日後に自動的に削除されますが，空き容量を確保したい場合は「ゴミ箱を空にする」作業をおこなって下さい．なお，「ゴミ箱を空にする」作業の結果が反映されるまで時間がかかることがあります．
 
 ### Q: 共有ドライブ一覧に自分の使用している共有ドライブが表示されません．
-
-* A: 表示されない共有ドライブについては，ECCSクラウドメール以外のGoogle Workspaceで作成された共有ドライブである可能性があります． ご利用の共有ドライブがECCSクラウドメールのものかどうか，[概要の手順で確認してください](#introduction)
-
-***
+A: 表示されない共有ドライブについては，ECCSクラウドメール以外のGoogle Workspaceで作成された共有ドライブである可能性があります． ご利用の共有ドライブがECCSクラウドメールのものかどうか，[概要の手順で確認してください](#introduction)．
 
 ### Q: 共有ドライブ一覧の画面での「使用量」が，実際の値とはかなり異なっています．
-
-* A: 共有ドライブの「使用量」を取得するAPIが2023年7月時点で提供されていないため，ストレージ管理システムでは週に2回バッチで，共有ドライブ内のファイルのリストを作成して，使用量を求めています． この際，「正しい使用量が計算できないファイルのタイプがある」，「最大4日古い使用量となっている」ため，実際の値とは異なることがあります． また，Googleグループ経由で管理者が設定されている共有ドライブはこのバッチで使用量を取得できないため，使用量が0GBと表示されます．この画面での「使用量」はあくまで目安としてお使いいただき，正確な値はGoogleドライブで共有ドライブを表示した上で，「詳細を表示」を選ぶと(Webブラウザからアクセスしているときは，右上の「ⓘ」ボタンを押してください)「ドライブの詳細」として「使用容量」が表示されるので，そちらをご参照ください.
-
-***
+A: 共有ドライブの「使用量」を取得するAPIが2023年7月時点で提供されていないため，ストレージ管理システムでは週に2回バッチで，共有ドライブ内のファイルのリストを作成して，使用量を求めています． この際，「正しい使用量が計算できないファイルのタイプがある」，「最大4日古い使用量となっている」ため，実際の値とは異なることがあります． また，Googleグループ経由で管理者が設定されている共有ドライブはこのバッチで使用量を取得できないため，使用量が0GBと表示されます．この画面での「使用量」はあくまで目安としてお使いいただき，正確な値はGoogleドライブで共有ドライブを表示した上で，「詳細を表示」を選ぶと(Webブラウザからアクセスしているときは，右上の「ⓘ」ボタンを押してください)「ドライブの詳細」として「使用容量」が表示されるので，そちらをご参照ください.
 
 ### Q: 共有ドライブの代表者が，代表者を変更しないで卒業/退職してしまったのですが，どうすれば良いですか?
-
-* A: その共有ドライブは代表者がいない状態になります．代表者がいない共有ドライブをそのまま放置すると，一定時間経過後に削除されますが，共有ドライブの管理者は自分を代表者に割り当てることができるようにするので，容易に移行できるようになります．
-
-***
+A: その共有ドライブは代表者がいない状態になります．代表者がいない共有ドライブをそのまま放置すると，一定時間経過後に削除されますが，共有ドライブの管理者は自分を代表者に割り当てることができるようにするので，容易に移行できるようになります．
