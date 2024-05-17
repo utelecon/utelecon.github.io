@@ -2,7 +2,7 @@
 title: 2021年Sセメスター以降におけるオンライン授業向けツールの利用ガイドライン
 breadcrumb:
   title: オンライン授業向けツールの利用ガイドライン
-redirected_from:
+redirect_from:
   - "/notice/guideline"
 --- 
 

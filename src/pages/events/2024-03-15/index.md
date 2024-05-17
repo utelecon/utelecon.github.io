@@ -24,12 +24,11 @@ h1: "2024/03/15 説明会：東京大学でITツールをもっと活用する�
 
 質問は**[こちらのSlido](https://app.sli.do/event/p3mS9CyMoNBZt6dwbn94sU)**または [https://sli.do/](https://sli.do/) で code = `utelecon20240315`）へ投稿してください．事前質問もどうぞ．
 
-挨拶　太田邦史　理事・副学長　情報システム本部長（**録画**）
-- 説明（**目次**・**動画**）
-    1. uteleconの紹介（説明会主催の自己紹介として）（玉造；**資料**・**動画**）
-    1. 多要素認証とECCSクラウドメールのログイン方法変更（田浦；**資料**・**動画**）
-    1. 東京大学で使われている代表的なクラウドサービスの活用について ～Zoom, Google, Microsoft, Slackなど～（竹内；**資料**・**動画**）
-
+挨拶　太田邦史　理事・副学長　情報システム本部長（[録画](https://youtu.be/bKmb74tvQZw)）
+- 説明（[目次](slides/00-index.pdf)・[動画](https://youtu.be/0IOWOKHzjh0)）
+    1. アップデート全般、セキュリティ（田浦；[資料](slides/01-update-and-security.pdf)・[動画](https://youtu.be/0IOWOKHzjh0)）
+    1. 東京大学で使われている代表的なクラウドサービスの活用について ～Zoom, Google, Microsoft, Slackなど～（竹内；[資料](slides/02-cloud.pdf)・[動画](https://youtu.be/dBxJR_TcKdQ)）
+    1. uteleconの紹介（玉造；[資料](slides/03-utelecon.pdf)・[動画](https://youtu.be/PYyS--Paa94)）
 
 ### 話者
 - 情報基盤センター 田浦健次朗 センター長

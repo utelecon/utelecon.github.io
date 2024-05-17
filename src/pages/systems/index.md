@@ -8,6 +8,7 @@ title: 東京大学のシステム
 
 - UTokyo Accountで利用できるシステムの一覧は[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)に掲載しています．
 - 教職員向けのシステム（事務システム等）については，[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)に情報を掲載しているものもあります．
+- ICT管理者向けのシステムについては，[学内ICT管理者向け情報ページ](/ict-admin/)にまとめています．
 - 「**[オンラインを活用するために：使えるツールから探す](/online/tools)**」のページでは，大学として運用・契約しているものに限らず，オンラインでの授業・活動で活用できるさまざまツールを紹介しています．
 - 学部・研究科等において独自に提供されているシステムについては，提供元の情報を確認してください．
 
@@ -15,7 +16,7 @@ title: 東京大学のシステム
 
 - **[UTokyo Account](/utokyo_account/)**：東大の情報システムで使う，「共通ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．
 - **[UTAS](/utas)**：シラバスの掲載や授業関係の手続き（履修登録・成績など）に使うシステム（学務システム）です．
-- **[ITC-LMS](/itc_lms)**：授業資料の配布や課題の提出などに使うシステム（学習管理システム）です．
+- **[UTOL](/utol/)**：授業資料の配布や課題の提出などに使うシステム（学習管理システム）です．
 - **[UTokyo Wi-Fi](/utokyo_wifi/)**：キャンパス内で使えるWi-Fiです．事前にアカウントを作っていないと使えないので注意してください．
 
 ## 各種Webサービス・ソフトウェア
@@ -27,7 +28,7 @@ title: 東京大学のシステム
 - **[UTokyo Slack](/slack/)**：ビジネスチャットツールと呼ばれるサービスの一種で，テキストメッセージをやり取りしてコミュニケーションを取るためのツールです．テキストメッセージを投稿できる「チャンネル」という場所を複数作って別々のやり取りを同時並行で行えるのが特徴です．なおUTokyo Slackでは，コミュニケーションを行う人が集まる単位である「ワークスペース」は，教職員からの申請により作成できます．
 - **[Slido](/slido/)**：Q&Aやライブ投票・アンケートなど，授業や会議・講演会などでの参加者との双方向コミュニケーションに役立つ機能を提供しているWebサービスです．Webexと連携しており，東京大学のWebexアカウントでサインインすると有料機能を利用することができます．
 - **[UTokyo MATLAB Campus-Wide License](/matlab/)**：科学技術計算のためのソフトウェアであるMATLABを東京大学の包括ライセンスで利用できます．
-- 【学生向け】**[UTokyo Microsoft Windows 10 for students](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_win10.html)**：Microsoft Windows 10 Education Upgradeのライセンスを提供しています．既にWindowsのライセンスを持っている場合に利用できるアップグレードライセンスであり，Windowsのライセンスがない場合の新規インストールには利用できないことに注意してください．
+- 【学生向け】**[Windows Education for students](/microsoft/windows_education_for_students)**：Windows 10またはWindows 11をEducationエディションにアップグレードするライセンスです．アップグレード用のライセンスであり，クリーンインストールには利用できないことに注意してください．
 - **[UTokyo Microsoft Azure Dev Tools for Teaching](/microsoft/adt4t/)**：Microsoftの開発者用ソフトウェアを提供しています．
 - **[ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) ](/antivirus/)**：教職員・学生を対象に提供しています．東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として，適宜利用してください．
 
@@ -37,7 +38,6 @@ title: 東京大学のシステム
 - **[UTokyo VPN](/utokyo_vpn/)**：学内ネットワーク専用の事務システムなどにキャンパス外からアクセスするためのシステムです．
 - **[東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)**：オンライン授業URLを確認するためのシステムです．詳細は「[授業URLの連絡方法（学生向け）](/oc/url)」「[授業URLの連絡方法（教員向け）](/faculty_members/url)」のページもご覧ください．
 - 【教職員向け】**[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**：教職員向けの学内ポータルサイトです．
-- **[UTNET](https://www.nc.u-tokyo.ac.jp/)**：キャンパス内のネットワークです（ホームページには主にネットワーク管理者向けの情報が掲載されています）．
 
 ### 図書館・電子ジャーナル関連
 

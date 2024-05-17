@@ -34,9 +34,10 @@ img.inline {
   display: inline;
 }
 
-img.logo {
+img.icon {
   display: inline;
-  max-height: 2em;
+  max-height: 1.5em; /* slightly larger than text */
+  vertical-align: middle;
 }
 
 img.center {
