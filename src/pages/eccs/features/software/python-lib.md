@@ -2,7 +2,6 @@
 title: 教育用計算機システムにPythonライブラリを導入したい場合
 breadcrumb:
   title: Pythonライブラリ
-  parent: .
 ---
 
 ## はじめに
