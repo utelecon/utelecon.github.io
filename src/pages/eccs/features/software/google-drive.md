@@ -1,5 +1,7 @@
 ---
 title: Mac環境でGoogle Driveアプリケーションを使う
+breadcrumb:
+  title: Google Driveアプリケーション
 ---
 
 ECCS端末のMac環境では，手元のPCのファイルと同じ操作感でGoogleドライブ内のファイルにアクセスできるGoogle Driveアプリケーションが使用できます．このページではその使用方法を案内します．
