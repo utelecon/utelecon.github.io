@@ -2,7 +2,6 @@
 title: ECCS端末のMac環境でApple IDを使用する場合の注意事項
 breadcrumb:
   title: ECCS端末のMac環境でApple IDを使用する場合の注意事項
-  parent: .
 ---
 
 ECCS端末のMac環境には，Apple IDでのサインインが必要なソフトウェア（App Store，ミュージックなど）がインストールされています．ECCS端末にてそれらのソフトウェアを利用する場合，思わぬ不具合が発生する可能性が否定できないため，情報基盤センターでは利用を推奨しておりません．
