@@ -29,21 +29,23 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
   */}
 
 1. <If cond={props.blockLink}>
-     以下の「UTokyo Wi-Fiアカウントメニュー」にアクセスしてください．
-     <b class="box center">[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
+   以下の「UTokyo Wi-Fiアカウントメニュー」にアクセスしてください．
      <Fragment slot="else">
-       「[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)」にアクセスしてください．
+     「[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)」にアクセスしてください．
      </Fragment>
    </If>
-1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+   - 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+   <If cond={props.blockLink}>
+     <b class="box center">[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
+   </If>
    <If cond={props.inlineHelp}>
      <ApplyHelpMFA type="details" />
      <ApplyHelpJouhouSecurity type="details" />
    </If>
 1. 「新規申請」ボタンを押してください．
-   - この時点ではまだ申請は行われていません．
+   - この時点ではまだ申請は行われていません．引き続き下の案内に従って申請を行ってください．
 1. 申請に進む前に，以下の点を確認してください．
-   - UTokyo Wi-Fiアカウントの情報（ユーザーID・パスワード）は，申請**直後**のアカウントメニュー画面と，申請後に届く通知メールの両方で閲覧できます．
+   - UTokyo Wi-Fiアカウントの情報（ユーザーID・パスワード）は，申請**直後**のアカウントメニューの画面と，申請後に届く通知メールの両方で閲覧できます．
    - 申請直後のアカウントメニュー画面を閉じてしまうと，通知メール以外からはアカウントのパスワードを閲覧できなくなります．
    - 通知メールは[ECCSクラウドメール](/google/)のメールアドレスと，「通知用メールアドレス」欄に表示されているメールアドレスの両方に届きます．事前にこれらのメールアドレスでメールが受け取れることを確認してください．
      <details>
@@ -60,12 +62,11 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
          </Fragment>
        </If>
      </details>
+1. 「申請」ボタンを押してください．
+   - しばらく待つと画面上にアカウントの情報が表示されます．画面を閉じた場合，再表示することはできません．ただし，同様の内容は通知メールでも送信されます．
      <If cond={props.inlineHelp}>
        <ApplyHelpEmail type="details" />
      </If>
-1. 「申請」ボタンを押してください．
-1. しばらく待つと通知メールが届きます．また，通知メールと同様の内容がアカウントメニューにも表示されます．
-
 <If cond={props.inlineHelp}>
   <Support lang="ja" show={props.support} />
   <Help lang="ja" support={props.support} slot="else">

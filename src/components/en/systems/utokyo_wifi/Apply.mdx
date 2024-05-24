@@ -16,19 +16,20 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 
 1. <If cond={props.blockLink}>
      Access the "UTokyo Wi-Fi Account Menu" below.
-     <b class="box center">[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
      <Fragment slot="else">
-       Access the "[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)".
+     Access the "[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)".
      </Fragment>
    </If>
-1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
-   <If cond={props.inlineHelp}>
-    <ApplyHelpMFA type="details" />
-    <ApplyHelpJouhouSecurity type="details" /> 
+   - Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
+   <If cond={props.blockLink}>
+     <b class="box center">[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
    </If>
-
+   <If cond={props.inlineHelp}>
+     <ApplyHelpMFA type="details" />
+     <ApplyHelpJouhouSecurity type="details" /> 
+   </If>
 1. Click on the "New Application" Button.
-   - At this point, the application is not yet done.
+   - At this point, the application is not yet done. Please proceed to the next step to complete the application.
 1. Before you proceed to the application, please check the following points.
    - You can view your UTokyo Wi-Fi account information (user ID and password) both on the account menu screen **immediately after submitting application** and in the notification email sent after application.
    - If you close the account menu screen after submitting application, you will not be able to view your account password except from the notification email.
@@ -46,12 +47,11 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
         </If>
           Please note that it will take some time for the change to take effect, so please apply for an account after a day you registered your email.
       </details>
-      <If cond={props.inlineHelp}>
-        <ApplyHelpEmail type="details" />
-      </If>
 1. Click on the "Apply" button.
-1. After a little while, you will receive a notification email. The same information as in the notification email will also appear in the account menu.
-
+   - After a little while, account information will appear on the screen. If you close the screen, you will not be able to view it again. However, the same information will be sent via email.
+     <If cond={props.inlineHelp}>
+       <ApplyHelpEmail type="details" />
+     </If>
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
   <Help lang="en" support={props.support} slot="else">
