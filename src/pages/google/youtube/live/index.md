@@ -29,7 +29,7 @@ breadcrumb:
 
 ## 参考ページ
 
-ライブ配信を行うにあたっては公式ページにある下記の情報を適宜ご参照ください．
+ライブ配信を行うにあたってはYouTubeの公式ヘルプページにある下記の情報を適宜ご参照ください．
 
 * ライブ配信：<https://support.google.com/youtube/answer/2474026?hl=ja>
 * エンコーダでライブ配信を作成する：<https://support.google.com/youtube/answer/9227510>
