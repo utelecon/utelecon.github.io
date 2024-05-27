@@ -90,7 +90,7 @@ breadcrumb:
   ![](/shared_drive_size1.png)
 * 共有ドライブには，共有ドライブ容量以上のデータを置くことはできません
   * 使用量が容量以上になると該当共有ドライブへのファイルの書き込み，ファイルの追加等ができなくなります．
-* 共有ドライブ容量は，ECCSストレージ管理システム上で設定できます（[「共有ドライブ容量を増やしたい／減らしたい人」を参照）](#Operation-change-shareddrive-limit)
+* 共有ドライブ容量は，ECCSストレージ管理システム上で設定できます（「[共有ドライブ容量を増やしたい／減らしたい人](#Operation-change-shareddrive-limit)」を参照してください）
 
 ## ストレージ制限値とドライブ容量の関係
 {:#storage-limit-and-drive-limit}
