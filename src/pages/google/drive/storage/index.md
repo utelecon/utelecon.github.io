@@ -11,7 +11,7 @@ breadcrumb:
 <div>作成：2023年04月03日</div>
 </div>
 
-情報基盤センターが提供しているGoogle Workspace for Education（ECCSクラウドメール（`...@g.ecc.u-tokyo.ac.jp`））では，これまで無料で無制限にストレージを利用できました．しかし，[Google社のサービス変更](https://blog.google/outreach-initiatives/education/google-workspace-for-education/)にともない，ストレージ利用量（Gmail, Google Driveなどを含む）が一定量を超えるユーザには，今年度から利用負担金の支払いをお願いすることになりました．
+情報基盤センターが提供しているGoogle Workspace for Education（ECCSクラウドメール（`...@g.ecc.u-tokyo.ac.jp`））では，これまで無料で無制限にストレージを利用できました．しかし，[Google社のサービス変更](https://blog.google/outreach-initiatives/education/google-workspace-for-education/)にともない，ストレージ利用量（Gmail, Googleドライブなどを含む）が一定量を超えるユーザには，今年度から利用負担金の支払いをお願いすることになりました．
 
 「**マイドライブ**」と自分が代表者になる「**共有ドライブ**」（「「マイドライブ」と「共有ドライブ」について」参照）の利用量の合計が，125GBに達していないユーザは，無料で利用を続けることができます．他にも無料になるパターンがありますが，詳細は「利用負担金とストレージ制限値の関係」で説明します．なお，無料ユーザであっても，次の段落で概要を説明するように，共有ドライブを利用するために手続きが必要な場合があります．
 
