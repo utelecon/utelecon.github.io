@@ -67,7 +67,7 @@ breadcrumb:
 
 * 利用負担金責任者とは，年度あたり追加したストレージ制限値に応じた利用負担金を支払い可能なユーザのことです
 * 利用負担金責任者になることができるのは，UTokyo Account登録時に用いられた身分コードが「予算を持つ教職員」であり，「利用負担金支払い情報登録」が可能な教職員です
-* 簡易マニュアル「利用負担金支払い情報登録」→[リンク](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.qfjcj5ui2yhg)
+* 詳しくは，簡易マニュアル内の「[利用負担金支払い情報登録](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.qfjcj5ui2yhg)」をご覧ください．
 
 ### ストレージ制限値
 {:#storage-limit}
