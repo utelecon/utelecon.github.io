@@ -1,7 +1,7 @@
 ---
 title: クラウドメールアカウントでのYouTubeライブ配信方法
 breadcrumb:
-  title: Youtube Live
+  title: Youtube ライブ
   parent: ../../
 ---
 
