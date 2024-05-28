@@ -220,8 +220,8 @@ breadcrumb:
   * [簡易マニュアル「他ユーザの追加登録」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.6uw9ygh358z3)を参照のこと．
   * [簡易マニュアル「自分および，追加登録済みのユーザへの容量追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.p93jfxdjykjk)を参照のこと．
 
+<details>
 <summary>トラブルシュート：「予算を持つ教職員」であるにも関わらず「利用負担金支払い情報登録」タブが表示されない</summary>
-
 新しくできた身分等でリストに未登録の場合があります．[uteleconのサポート窓口](/support/) からご連絡ください．
     新しくできた身分等でリストに未登録の場合があります．[uteleconのサポート窓口](/support/) からご連絡ください．
 </details>
