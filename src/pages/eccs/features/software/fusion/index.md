@@ -4,6 +4,11 @@ breadcrumb:
   title: Fusion 360(Mac環境)
 ---
 
+<div style="text-align: right;">
+   <div>更新: 2022年12月09日</div>
+   <div>作成: 2020年10月01日</div>
+</div>
+
 ECCS端末のMac環境では，3D CAD/CAM/CAE/PCB統合ソフトウェアであるFusion 360(Autodesk Fusion)を利用できます．
 
 ## 2022.9.29時点の問題点
