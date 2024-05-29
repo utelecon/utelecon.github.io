@@ -5,7 +5,7 @@ breadcrumb:
 ---
 
 <p style="text-align: right">
-最終更新：2024年5月22日</p>
+ページ作成日：2024年5月29日</p>
 
 ## uteleconサポーターとは
 
