@@ -15,9 +15,7 @@ breadcrumb:
 
 ## ライブ配信の設定
 
-下記のURLから手順書をダウンロードして，ライブ配信の有効化と配信設定を行ってください．
-
-<https://drive.google.com/file/d/14lqnbO-UQ-YRNHvKBvG_fE8xscolIGdS/view?usp=sharing>
+「[クラウドメールでのYouTubeライブ配信手順(PDF)](https://drive.google.com/file/d/14lqnbO-UQ-YRNHvKBvG_fE8xscolIGdS/view?usp=sharing)」に記載の手順で，ライブ配信の有効化と配信設定を行ってください．
 
 ## 利用上の注意点
 
