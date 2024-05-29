@@ -24,7 +24,7 @@ If you leave the University of Tokyo due to graduation or resignation, your UTok
 Furthermore, some information systems, such as the [UTokyo Antivirus License](/antivirus/), are not automatically terminated even though you are no longer authorized to use them upon leaving the university. Please follow the instructions or each system to terminate their use.
 
 Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers in FY2023<small>(*You must sign in with your UTokyo Account to view this page)</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)" page (in Japanese) for more information on the UTokyo Antivirus License.
-- If you have already left the University of Tokyo, you will not be able to view the above pages because you cannot sign in to your UTokyo Account. In that case, please contact us using [the email form at the Technical Support Desk](/en/support/#email-form).
+- If you have already left the University of Tokyo, you cannot view the above pages because you cannot sign in to your UTokyo Account. In this case, please contact [the Technical Support Desk via the email form](/en/support/#email-form).
 
 ## If your affiliation changes within the University of Tokyo
 {:#change}
