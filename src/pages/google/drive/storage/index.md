@@ -7,7 +7,7 @@ breadcrumb:
 {:#introduction}
 
 <div style="text-align: right;">
-<div>更新：2023年10月26日</div>
+<div>更新：2024年05月30日</div>
 <div>作成：2023年04月03日</div>
 </div>
 
