@@ -3,13 +3,13 @@ title: ECCSストレージ管理システムについて
 breadcrumb:
   title: ECCSストレージ管理システムについて
 ---
-## 概要
-{:#introduction}
-
 <div style="text-align: right;">
 <div>更新：2024年05月30日</div>
 <div>作成：2023年04月03日</div>
 </div>
+
+## 概要
+{:#introduction}
 
 情報基盤センターが提供しているGoogle Workspace for Education（ECCSクラウドメール（`...@g.ecc.u-tokyo.ac.jp`））では，これまで無料で無制限にストレージを利用できました．しかし，[Google社のサービス変更](https://blog.google/outreach-initiatives/education/google-workspace-for-education/)にともない，ストレージ利用量（Gmail, Googleドライブなどを含む）が一定量を超えるユーザには，今年度から利用負担金の支払いをお願いすることになりました．
 
