@@ -9,7 +9,7 @@ breadcrumb:
 
 このページでは，コースの概要説明や参加者の管理といった，UTOLのコース全体に関わる設定を説明します．
 
-This page explains settings related to the entire course in UTOL, including course overview descriptions and participant management.
+This page explains settings related to the entire course in UTOL, including course summary and participant management.
 
 また，コース内の設定だけでなく，コースグループやコンテンツの再利用といった，他のコースと連携する方法も説明します．
 
@@ -17,7 +17,7 @@ Additionally, it covers methods for integrating with other courses, such as cour
 
 なお，TAは，このページで説明する内容のうち，ラベルの管理，オンライン授業情報の更新，「コース参加者登録」画面の**閲覧のみ**が可能です．その他の機能を利用したり，コース参加者の追加・削除を行ったりすることはできません．
 
-Please note that TAs have limited permissions within this context. They can manage labels, update online class information, and view the “Course Participant Registration” screen. However, they cannot perform other functions, such as adding or removing course participants.
+Please note that TAs have limited access to the settings explained in this page. They can only manage labels, update online class information, and view the “Register Course participants” screen. They cannot perform other functions, such as adding or removing course participants.
 
 [^1]:
     「コース設定→表示ラベル管理」等の表記は，左メニュー（画面左上の![三本線のボタン](../../_icons/hamburger.png){:.icon}を押すと左側に表示されるメニュー）内の「コース設定」の中にある「表示ラベル管理」という意味です．
@@ -60,7 +60,7 @@ This section describes the settings within the course, including:
 
 これらは，コーストップの右端にある![](../../_icons/edit.png){:.icon}（鉛筆のマーク）を押すと編集できます．なお，「コースの概要説明」は，「コース設定→コースの概要説明」[^1]からも編集画面を開くことができます．
 
-To edit these sections, click ![](../../_icons/edit.png){:.icon} (the pencil icon) located at the right end of the course page. Note that you can also access the editing screen for “Course Summary” through “Course Settings > Course summary.”
+To edit these sections, click ![](../../_icons/edit.png){:.icon} (the pencil icon) located at the right end of the course page. Note that you can also access the editing screen for “Course Summary” through “Course Settings > Course Summary.”
 
 #### コースの概要説明
 #### Course Summary
@@ -72,7 +72,7 @@ In the “Course Summary,” you can provide fixed information that you want to 
 
 また，この設定項目では，マークアップを利用できます．マークアップを使った書き方について詳しくは「マークアップ」を参照してください．
 
-You can also use markup in this setting. For details on using markup, refer to “Markup.”
+You can also use markup in this setting. For details on using markup, refer to “[Markup](../../markup/).”
 
 #### オンライン授業情報
 #### Online Course Information
@@ -90,8 +90,8 @@ When notifying students of the online class URL, always use this “Online cours
 
 When editing “Online course information,” keep the following points in mind:
 
-- アプリから参加する学生のため，URLだけでなく，ミーティングID，パスコード等も記入してください．
-- For students joining from the app, include not only the URL but also the meeting ID and passcode.
+- Zoomを利用する場合は，アプリから参加する学生のため，URLだけでなく，ミーティングID，パスコード等も記入してください．
+- When using Zoom, include not only the URL but also the meeting ID and passcode for students joining from the app, .
 
 - 編集画面では，URLは自動ではハイパーリンクになりません．ハイパーリンクにする手順は次のとおりです．
   1. URLを選択した状態で左上の![](../../_icons/chain.png){:.icon}（鎖のアイコン）を押してください．
@@ -126,7 +126,7 @@ However, some participants may be registered without any action by instructors o
   - 「[自己登録](#self-registration-and-content-use-scope)」を許可しているコースでは，ユーザ自身がUTOL上でボタンを押して登録することもできます．
 
 - Instructors:
-  - For courses linked from the academic affairs system (UTAS), instructors registered as such in UTAS will also be registered as instructors in UTOL.
+  - For courses linked to the academic affairs system (UTAS), instructors registered as such in UTAS will also be registered as instructors in UTOL.
   - For [courses created through application](/en/utol/lecturers/#course-application), the applicant’s name will be registered as the instructor.
 - Enrolled students:
   - If students register or add the course to their favorites in UTAS, they will automatically be registered as enrolled students in UTOL.
@@ -274,7 +274,7 @@ To configure these settings:
 
 なお，ラベルは，該当するコンテンツがない履修者を含め，教員側・履修者側両方で表示されます．個人情報など，履修者に見られては困る内容をラベルに含めないように注意してください．
 
-“Labels” are used to group content within a course. They help narrow down the display when viewing the course overview.
+“Labels” are used to group contents within a course. They help narrow down the display when viewing the course overview.
 
 It's important to be cautious when using labels, as they are visible to both instructors and students, including those who have no applicable content. Avoid including sensitive information in labels.
 
@@ -347,7 +347,7 @@ If you want to link a different label than the current one, first unlink it and 
 
 「コース設定→コース設定」[^1]から，メッセージ機能を有効化するかどうかや，出席情報を表示するかどうかを設定することができます．
 
-You can configure message functionality and attendance display settings using “Course Settings > Course Settings.”[^1]
+You can configure message function and attendance display settings using “Course Settings > Course Settings.”[^1]
 
 ![](./_img/message-and-attendance.png){:.medium}
 
@@ -362,11 +362,11 @@ You can configure message functionality and attendance display settings using �
 {}
 
 - **Message Usage**
-  - Enabling “Messages are exchanged among faculty, TAs, and students” allows message functionality.
+  - Enabling “Messages are exchanged among faculty, TAs, and students” allows message function.
   - For more details, refer to “[Messages](../messages/)”.
 - **Automatically registered attendance information**
   - In UTOL, attendance is automatically set based on class information from UTAS or manually registered by instructors in UTOL.
-  - Enabling “Display attendance information automatically registered from Classes management to enrolled student” shows this automatically set attendance information to students.
+  - Enabling “Display attendance information automatically registered from Classes management to enrolled student” shows automatically set attendance informations to students.
   - If you do not manage attendance in UTOL, it is recommended to keep this feature off to avoid confusion (e.g., displaying “absent” for attended sessions).
   - For detailed information on class sessions and attendance, refer to “[Attendance](../attendances/).”
 
