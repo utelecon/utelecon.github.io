@@ -24,7 +24,7 @@ You cannot access e-journals and e-books subscribed by UTokyo Library via UTokyo
 
 **Device Types and OS for VPN:** UTokyo VPN is accessible on the following versions of Windows and macOS. 
 - Windows: Windows 10, 11
-- macOS: macOS 11.x Big Sur, 12 Monterey, 13 Ventura, 14 Sonoma
+- macOS: macOS 12 Monterey, 13 Ventura, 14 Sonoma
 
 You can use UTokyo VPN on iPhone, Android, and other mobile devices, though we currently provide limited English manuals for them. If you use it on these mobile devices, please keep the OS and dedicated app properly updated while using it.
 
