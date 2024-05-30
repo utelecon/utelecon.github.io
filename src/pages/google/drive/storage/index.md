@@ -127,11 +127,11 @@ breadcrumb:
 ### 共有ドライブを管理している人 【要対応】
 {:#ActionNeeded-has-representative-shareddrive}
 
-1. 代表者が誰であるか確認してください．→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.z9qh74svrr85)
+1. 代表者が誰であるか確認してください．→[簡易マニュアル「共有ドライブの一覧表示」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.z9qh74svrr85)を参照のこと．
 2. 自分を代表者として設定してください：
-   - 操作後のマイドライブ容量が十分か確認する．十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす．→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.p93jfxdjykjk)
-   - 自分を代表者として設定する．→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.8odxz0wha1ko)
-   - 使用量が容量を上回っている・上回りそうな場合→[「共有ドライブ容量を増やしたい人／減らしたい人 」](#Operation-change-shareddrive-limit)
+   - 操作後のマイドライブ容量が十分か確認する．十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす．→[簡易マニュアル「自分および，追加登録済みのユーザへのストレージ制限値追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.p93jfxdjykjk)を参照のこと．
+   - 自分を代表者として設定する．→[簡易マニュアル「共有ドライブの代表権取得」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.8odxz0wha1ko)を参照のこと．
+   - 使用量が容量を上回っている・上回りそうな場合　→「[共有ドライブ容量を増やしたい人／減らしたい人](#Operation-change-shareddrive-limit)」を参照のこと．
 
 <details>
     <summary>トラブルシュート：代表者になるべき共有ドライブが見つからない</summary>
@@ -146,34 +146,34 @@ breadcrumb:
 ### マイドライブ容量を超過している人 【要対応】
 {:#ActionNeeded-is-over-the-limit}
 
-ストレージ制限値を増やしてください．→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+ストレージ制限値を増やしてください．→[簡易マニュアル「ストレージ制限値追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)を参照のこと．
 
 ### マイドライブ容量を増やしたい人／減らしたい人 【手順の変更】
 {:#Operation-is-over-the-limit}
 
 * 増やす場合，増やした後のマイドライブ容量が十分か確認してください．
-   * ストレージ制限値を増やすには→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+   * ストレージ制限値を増やすには→[簡易マニュアル「ストレージ制限値追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)を参照のこと．
 * 減らす場合，減らした後の容量が，現在のストレージ制限値をマイドライブ容量が上回らないことを確認してください．
-   * ストレージ制限値を減らすには→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+   * ストレージ制限値を減らすには→[簡易マニュアル「ストレージ制限値追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)を参照のこと．
 * 容量が反映されるまでには1時間程度待ってください．
-   * Googleドライブの容量の反映ついては適用に要する厳密な所用時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」
+   * Googleドライブの容量の反映ついては適用に要する厳密な所用時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」を参照のこと．
 
 ### ECCSクラウドメールの共有ドライブを新しく作りたい人 【手順の変更】
 {:#Operation-make-new-shareddrive}
 
-1. 操作後のマイドライブ容量が十分か確認してください．→[手順を確認する](#mydrive-shareddrive)
-   - 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
-2. 共有ドライブを新しく作成してください．→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.xz0qfx6mnucx)
+1. 操作後のマイドライブ容量が十分か確認してください．→「[マイドライブ／共有ドライブ容量](#mydrive-shareddrive)」を参照のこと．
+   - 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[簡易マニュアル「ストレージ制限値追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)を参照のこと．
+2. 共有ドライブを新しく作成してください．→[簡易マニュアル「共有ドライブの作成」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.xz0qfx6mnucx)を参照のこと．
 
 ### 共有ドライブ容量を増やしたい／減らしたい人 【手順の変更】
 {:#Operation-change-shareddrive-limit}
 
 - 増やす場合，操作後のマイドライブ容量が十分か確認してください．
-   - 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
+   - 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす．→[簡易マニュアル「ストレージ制限値追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)を参照のこと．
 - 減らす場合，減らした後の容量が，現在の共有ドライブの使用量を上回らないことを確認してください．
-  - 共有ドライブ容量を設定する→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.oksofpmfc5xp)
+  - 共有ドライブ容量を設定する．→[簡易マニュアル「共有ドライブの容量変更」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.oksofpmfc5xp)を参照のこと．
 - 容量が反映されるまでには1時間程度待ってください．
-  - Googleドライブの容量の反映ついては適用に要する厳密な所用時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」
+  - Googleドライブの容量の反映ついては適用に要する厳密な所用時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」を参照のこと．
 
 ### 共有ドライブの代表者を自分や他人に変更したい人 【手順の変更】
 {:#Operation-change-shareddrive-representative}
@@ -181,8 +181,8 @@ breadcrumb:
 #### 代表者を自分に変更したい場合
 {:#Operation-change-shareddrive-representative-yourself}
 1. 操作後のマイドライブ容量が十分か確認してください．
-   - 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)
-2. 自分を代表者に設定してください．→[手順を確認する](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.8odxz0wha1ko)
+   - 十分なマイドライブ容量を確保できない場合，ストレージ制限値を増やす→[簡易マニュアル「ストレージ制限値追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)を参照のこと．
+2. 自分を代表者に設定してください．→[簡易マニュアル「共有ドライブの代表権取得」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.8odxz0wha1ko)を参照のこと．
 
 <details>
     <summary>トラブルシュート：代表者になるべき共有ドライブが見つからない</summary>
