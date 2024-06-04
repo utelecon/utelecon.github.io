@@ -46,3 +46,5 @@ UTOLのLINE通知を利用することで，UTOLという本学の情報シス�
 ## 備考
 
 LINE通知機能の詳しい設定方法については，近日中に別途ご説明する予定です．
+
+詳しくは[UTOLにおけるプライバシーポリシーの例外](https://media.itc.u-tokyo.ac.jp/policy.html#utolPolicy)を御覧ください．
