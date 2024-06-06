@@ -11,6 +11,7 @@ import externalLinks from "./src/lib/ExternalLinksIntegration.js";
 import trailingSlash from "./src/lib/TrailingSlashIntegration.js";
 import { cleanup } from "./src/lib/CleanupIntegration.js";
 import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
+import copyAsset from "./src/lib/CopyAssetIntegration.js";
 import rehypeRaw from "rehype-raw";
 
 // https://astro.build/config
@@ -46,7 +47,6 @@ export default defineConfig({
     },
     rehypePlugins: [rehypeRaw, collectHtmlImages],
   },
-  publicDir: "src/pages",
   scopedStyleStrategy: "where",
   integrations: [
     mdx({ rehypePlugins: [] }),
@@ -59,6 +59,7 @@ export default defineConfig({
       contentProperties: { className: ["external-link"] },
     }),
     cleanup(),
+    copyAsset(),
     trailingSlash(),
   ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
