@@ -6,7 +6,7 @@ title: 生成AI（ChatGPT等）関連情報
 
 ## ガイドライン・メッセージ等
 
-- [東京大学における生成AI利用に係るセキュリティガイドライン</small>](https://univtokyo.sharepoint.com/sites/Security/SitePages/ai_use_security_guideline.aspx)（2024年3月12日）<small>※閲覧にはUTokyo Accountでのサインインが必要です</small>
+- [東京大学における生成AI利用に係るセキュリティガイドライン](https://univtokyo.sharepoint.com/sites/Security/SitePages/ai_use_security_guideline.aspx)（2024年3月12日）<small>※閲覧にはUTokyo Accountでのサインインが必要です</small>
 - [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students)（2023年5月26日付／2023年5月29日掲載）
 - [AIツールの授業における利用について](/docs/ai-tools-in-classes)（2023年4月28日付／2023年5月16日掲載）
 - [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai)（2023年4月3日／太田邦史理事・副学長）
