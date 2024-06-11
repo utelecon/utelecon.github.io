@@ -3,8 +3,8 @@ title: UTOLにおけるUTokyo Slack通知機能の提供開始について
 ---
 
 <div style="text-align: right;">
-<span>更新: 2024年 6月 4日</span></br>
-<span>作成: 2024年 6月 4日</span></br>
+<span>更新: 2024年 6月 11日</span></br>
+<span>作成: 2024年 6月 11日</span></br>
 <span>情報基盤センター</span></br>
 </div>
 
