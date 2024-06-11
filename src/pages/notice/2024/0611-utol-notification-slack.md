@@ -10,7 +10,7 @@ title: UTOLにおけるUTokyo Slack通知機能の提供開始について
 
 ## 概要
 
-2024年6月11日に，UTokyo Slack通知機能（以下「Slack通知」という）をUTOL (UTokyo LMS)に実装します．コンテンツの更新状況やお知らせ・メッセージに関する更新通知を，UTokyo Slackのダイレクトメッセージ(DM: Direct Message)として受け取ることができます．
+2024年6月11日に，UTokyo Slack通知機能（以下「Slack通知」という）をUTOL (UTokyo LMS)に実装しました．コンテンツの更新状況やお知らせ・メッセージに関する更新通知を，UTokyo Slackのダイレクトメッセージ(DM: Direct Message)として受け取ることができます．
 
 ## 設定方法
 
