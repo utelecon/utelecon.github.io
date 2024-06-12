@@ -41,6 +41,9 @@ export default defineConfig({
     remarkRehype: {
       footnoteLabelProperties: { className: ["visually-hidden"] },
       footnoteLabelTagName: "b",
+    },
+    shikiConfig: {
+      theme: "min-light",
     }
   },
   publicDir: "src/pages",
