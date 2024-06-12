@@ -16,3 +16,5 @@ Mac環境のFinderでも，標準の設定ではそのようになっていま�
   defaults write com.apple.finder AppleShowAllFiles ON
   killall Finder
   ```
+
+なお，方法2は動作しないことがあります．方法2で対象のファイルやディレクトリが表示されないときは，方法1を利用してください．
