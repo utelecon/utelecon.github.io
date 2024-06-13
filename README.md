@@ -1,4 +1,4 @@
-# utelecon (The Portal Site of Infromation Systems @ UTokyo)
+# utelecon (The Portal Site of Information Systems @ UTokyo)
 
 https://utelecon.adm.u-tokyo.ac.jp/
 
