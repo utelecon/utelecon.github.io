@@ -1,7 +1,7 @@
 ---
 title: Webアップロード印刷の方法
-breadcrumb:
-  title: Webアップロード印刷
+#breadcrumb:
+#  title: Webアップロード印刷
 ---
 
 ECCS2021では，インターネットに接続した個人や研究室等のPC等から， Webアップロード印刷サイトに接続して，印刷したいデータをアップロードすることで，印刷をすることができます．
@@ -10,8 +10,7 @@ Webアップロード印刷サイトは，[RICOH IO Gateユーザーポータル
 PC等へのドライバー導入等の事前設定は不要です．
 
 ## 手順1：Webアップロード印刷サイトでの印刷データのアップロード
-1. Webブラウザで，[RICOH IO Gateユーザーポータルサイト (print.ecc.u-tokyo.ac.jp)](https://print.ecc.u-tokyo.ac.jp/)に接続してください．
-   画面のメニューにある「Webアップロード印刷」をクリックしてください．
+1. Webブラウザで，[RICOH IO Gateユーザーポータルサイト (print.ecc.u-tokyo.ac.jp)](https://print.ecc.u-tokyo.ac.jp/)に接続し，画面のメニューにある「Webアップロード印刷」をクリックしてください．
    ![](web-upload-1.png){:.border}
 2. 続けて，画面の「Web Upload Print」をクリックしてください．
    ![](web-upload-2.png){:.border}
@@ -24,10 +23,9 @@ PC等へのドライバー導入等の事前設定は不要です．
    - アップロード可能なデータ（拡張子）は，`.doc`，`.docx`，`.xls`，`.xlsx`，`.ppt`，`.pptx`，`.pdf`，`.jpg`，`.jpeg`，`.bmp`，`.png`，`.tif`，`.tiff`，`.gif`，`.txt`になります．
    - 一度にアップロードできるファイルは１ファイルになります．
   
-      - アップロード可能なデータ（拡張子）は，`.doc`，`.docx`，`.xls`，`.xlsx`，`.ppt`，`.pptx`，`.pdf`，`.jpg`，`.jpeg`，`.bmp`，`.png`，`.tif`，`.tiff`，`.gif`，`.txt`になります．
 ## 手順2：印刷データのアップロードの結果確認
 正しくアップロードできた場合は，以下の画面が表示されます．画面の「戻る」をクリックすると，再びWebアップロード画面に戻ります．Webアップロードをやめる場合はWebブラウザを閉じてください．
-![](web-upload-5.png){:.border}
+![](web-upload-5.png){:.small}
 
 ## 手順3：アップロードしたデータの印刷
 アップロードしたデータは，印刷ジョブ操作機の「プリント」から印刷してください．
