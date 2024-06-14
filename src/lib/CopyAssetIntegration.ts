@@ -61,10 +61,8 @@ export default function CopyAssetIntegration(): AstroIntegration {
           }),
         );
 
-        const assetPaths = [...assetPathsCache];
-
         await Promise.all(
-          assetPaths.map(async (assetPath) => {
+          Array.from(assetPathsCache, async (assetPath) => {
             const srcPath = resolve(join("src/pages", assetPath));
             const destPath = join(fileURLToPath(dir), assetPath);
             const srcPattern = [`${srcPath}.md`];
