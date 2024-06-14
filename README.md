@@ -1,4 +1,4 @@
-# utelecon (UTokyo Portal for Teleconference Tools)
+# utelecon (The Portal Site of Information Systems @ UTokyo)
 
 https://utelecon.adm.u-tokyo.ac.jp/
 

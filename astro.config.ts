@@ -54,6 +54,9 @@ export default defineConfig({
       footnoteLabelTagName: "b",
     },
     rehypePlugins: [rehypeRaw, collectHtmlImages],
+    shikiConfig: {
+      theme: "min-light",
+    },
   },
   scopedStyleStrategy: "where",
   integrations: [
