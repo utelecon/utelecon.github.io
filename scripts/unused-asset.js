@@ -1,6 +1,6 @@
 // @ts-check
 
-import { subtle } from "node:crypto";
+import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { extname, parse, relative, join } from "node:path";
 import { glob } from "glob";
@@ -47,7 +47,7 @@ const [dists, srcs, optimizedImgs] = await Promise.all([
   }),
 
   // Images that are optimized by Astro
-  // e.g. `(sha1sum).foo.(hash).webp`
+  // e.g. `(hash).foo.webp`
   glob(`**/*{${IMAGE_EXTS.join(",")}}`, {
     cwd: "dist/_astro",
     nodir: true,
@@ -109,15 +109,16 @@ async function searchSrc(src) {
  */
 async function isImgOptimized(src) {
   const buffer = await readFile(src);
-  const sum = await sha1Sum(buffer);
-  return optimizedImgs.some((optimizedImg) => optimizedImg.includes(sum));
+  const sum = await getHash(buffer);
+  return optimizedImgs.some((optimizedImg) => optimizedImg.startsWith(sum));
 }
 
 /**
- * @param {BufferSource} buffer
+ * @param {import("node:crypto").BinaryLike} buffer
  * @returns {Promise<string>}
  */
-async function sha1Sum(buffer) {
-  const hash = await subtle.digest("SHA-1", buffer);
-  return Buffer.from(hash).toString("base64url");
+async function getHash(buffer) {
+  return new Promise((resolve) => {
+    resolve(createHash("sha1").update(buffer).digest("base64url").slice(0, 8));
+  });
 }

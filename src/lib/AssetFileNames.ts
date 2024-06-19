@@ -21,9 +21,10 @@ const assetFileNames = ({ name, source }: PreRenderedAsset): string => {
     IMAGE_EXTS.includes(parse(name).ext) &&
     typeof source !== "string"
   ) {
-    return `_astro/${createHash("sha-1")
+    return `_astro/${createHash("sha1")
       .update(source)
-      .digest("base64url")}.[name].[hash][extname]`;
+      .digest("base64url")
+      .slice(0, 8)}.[name][extname]`;
   }
   return "_astro/[name].[hash][extname]";
 };

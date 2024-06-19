@@ -2,7 +2,7 @@ import type { AstroIntegration } from "astro";
 
 import { existsSync } from "node:fs";
 import { copyFile, mkdir } from "node:fs/promises";
-import { dirname, join, parse, relative, resolve } from "node:path";
+import { dirname, join, parse, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { selectAll } from "hast-util-select";
 import rehypeParse from "rehype-parse";
@@ -36,21 +36,12 @@ export default function CopyAssetIntegration(): AstroIntegration {
 
             for (const tag of selectAll("a", hast)) {
               const base = new URL(
-                relative("src/pages", dirname(component)),
+                join(relative("src/pages", dirname(component)), sep),
                 ORIGINS[0],
               );
               const href = tag.properties?.href;
               if (typeof href !== "string") continue;
-              const absoluteUrl = new URL(
-                URL.canParse(href)
-                  ? href
-                  : resolve(
-                      "/",
-                      relative("src/pages", dirname(component)),
-                      href,
-                    ),
-                base,
-              );
+              const absoluteUrl = new URL(href, base);
 
               if (!ORIGINS.includes(absoluteUrl.origin)) continue;
               const assetPath = decodeURI(absoluteUrl.pathname);
