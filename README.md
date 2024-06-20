@@ -37,6 +37,8 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - 例：`npm run find-link /oc/url`
 - `npm run broken-link`：サイト内リンクで壊れているものをすべて標準出力する．
   - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
+- `npm run unused-asset`：使われていないアセットをすべて標準出力する．
+  - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
 
 ## How it works
 

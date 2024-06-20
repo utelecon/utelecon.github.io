@@ -65,7 +65,7 @@ Here we will introduce how to set additional functions (such as "voting" for ask
   
 1. Go to Zoom account <a href="https://zoom.us/profile/setting" target="_blank">settings page</a> (Personal “Settings” → “Meeting”).
     * Please log in with the account you obtained from school
-    ![](/en/zoom/usage/host_setting.png)  
+    ![](../usage/host_setting.png)  
   
 1. Turn on the required settings. Recommended settings are as follows.
     * (ON when necessary) **Only authenticated users can join the meeting**: If you turn this on and select "Sign in with University Account", access will be restricted to those with an ECCS cloud email (`xxxx@utac.u-tokyo.ac.jp`) 

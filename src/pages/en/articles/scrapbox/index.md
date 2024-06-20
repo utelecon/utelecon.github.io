@@ -242,7 +242,7 @@ To insert an image saved on your PC, drag and drop or copy and paste it into the
 <figcaption>画像がページに挿入されます．</figcaption>
 </figure> -->
 
-On the right side of the screen, You can also select "Upload file" from the [](20.png){:.icon} icon (red circle in the image below) and select the file you want to insert.
+On the right side of the screen, You can also select "Upload file" from the ![](20.png){:.icon} icon (red circle in the image below) and select the file you want to insert.
 
 <figure>
 <img src="21.png">

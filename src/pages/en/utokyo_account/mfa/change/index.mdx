@@ -4,6 +4,7 @@ breadcrumb:
   title: Changing the Verification Method
 ---
 
+import { Image } from 'astro:assets';
 import altAddMethod from "@components/en/mfa/alt_add_method.png";
 
 This page describes the procedures to change the settings of your verification methods (authentication apps, phone number, etc.).
@@ -17,7 +18,7 @@ Registered verification method can be changed from the **[Security info page](ht
 
 In the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com), you can add verification methods by following the procedures given in [“Step 2: Add Alternative Verification Methods” in the “Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts” page](../initial/#alternative).
 
-<img src={altAddMethod.src} />
+<Image src={altAddMethod} alt="" />
 
 ## Changing the Default Sign-in Method
 {:#default}
@@ -25,7 +26,7 @@ In the [Security info page](https://mysignins.microsoft.com/security-info?domain
 One of your verification methods (usually the first method added) will become your “default sign-in method”. When you sign in, the system will automatically choose the default sign-in method as your verification method. The default sign-in method can be changed by following the steps below.
 
 1. Find “Default sign-in method:” on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)．
-    <img src="change_default_signin_method.png" />
+    ![](./change_default_signin_method.png)
 2. Click “Change” on the right of the default sign-in method.
 3. For “Which method would you like to use to sign in?”, select the verification method you wish to use, and click “Confirm”.
 
@@ -35,7 +36,7 @@ One of your verification methods (usually the first method added) will become yo
 The verification methods, “Phone”, “Alternate phone”, and “Office phone” can be edited by following the steps below.
 
 1. Find the verification method you wish to edit in the list of verification methods on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com), and click “Change” on the right of the method. 
-    <img src="method_change.png" />
+    ![](./method_change.png)
 2. Enter your new phone number in the popup screen and click “Next”.
 3. Verify your phone number (via text or call). Follow the same procedure as when adding a new phone number.
 
@@ -47,7 +48,7 @@ Note that authenticator apps, such as Microsoft Authenticator and Google Authent
 Please follow the steps below to delete verification methods you no longer wish to use.
 
 1. Find the method you wish to edit in the list of verification methods on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com), and click “Delete” on the right of it.
-    <img src="delete_method.png" />
+    ![](./delete_method.png)
 2. When “Are you sure you would like to delete this method for your account?” is displayed, click “Yes”.
 
 Note that if you delete all the verification methods (i.e. all authenticator apps and phones) on the list, you will be prompted to go through the initial setup procedure upon the next sign-in. (Even if “Email” and “App password” are left in the list, they do not work as verification methods.)
