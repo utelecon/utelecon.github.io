@@ -34,11 +34,12 @@ export default function CopyAssetIntegration(): AstroIntegration {
             const source = await read(path);
             const hast = parser.parse(source);
 
+            const base = new URL(
+              join(relative("src/pages", dirname(component)), sep),
+              ORIGINS[0],
+            );
+
             for (const tag of selectAll("a", hast)) {
-              const base = new URL(
-                join(relative("src/pages", dirname(component)), sep),
-                ORIGINS[0],
-              );
               const href = tag.properties?.href;
               if (typeof href !== "string") continue;
               const absoluteUrl = new URL(href, base);
