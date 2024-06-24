@@ -1,0 +1,22 @@
+---
+title: Mac環境でのVisual Studio Codeの拡張機能について
+breadcrumb:
+  title: VSCodeの拡張機能
+---
+
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
+ECCS端末のmacOS環境で Visual Studio Code の拡張機能をインストールすると，ホームディレクトリの下の ~/.vscode 以下にファイルが置かれます．ヘルパーアプリケーションを起動する必要がある拡張機能のいくつか(「C/C++」，「CodeLLDB」など)は，「Mac環境OSバージョンアップ後の問題点」ホームディレクトリに置いたアプリケーションが起動しないで広報しているmacOSの障害により，ヘルパーアプリケーションが起動できずに，動作しないという問題点が見つかっています．
+
+本質的な解決法ではありませんが，この問題が発生した時は，拡張機能のインストール後に，ターミナルから以下のコマンドを実行して，その後，Visual Studio Code を起動し直すと正常に動くことがあるので，まずはお試しください．
+
+```shell
+chmod og+x ~
+find ~/.vscode -d -print0 | xargs -0 chmod og+rX
+find ~/.vscode -type f -perm +111 -print0 | xargs -0 chmod og+rX
+```
+
+利用者の皆様にはご迷惑をおかけします．
+
