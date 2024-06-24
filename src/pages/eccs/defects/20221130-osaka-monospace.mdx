@@ -1,0 +1,30 @@
+---
+title: Mac環境での等幅フォントについて
+breadcrumb:
+  title: 等幅フォント
+---
+
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
+Mac環境のGoogle Chrome等で等幅（固定幅）フォントとして指定されることの多いOsakaフォントには可変幅フォント（レギュラー）と等幅フォント（レギュラー-等幅）の2種類がありますが，Google Chromeでは等幅フォントとして，Osakaを指定するとプロポーショナル（可変幅）フォントのOsakaが使われ，Osakaの等幅フォントが指定できないという問題点が知られています．この問題に対処するため，すべてのアプリケーションでフォントとしてOsakaを指定したときに，等幅フォントのOsakaが設定されるようにしました．
+
+例えばGoogle Colabでアスキーアートを書いたときに，これまでは文字幅が揃わなかったものが，文字幅が揃うことで綺麗な図形が描けるようになりました．
+
+なお，Osakaフォントを指定した時に可変幅フォントが使われる設定に変更したい人は，Mac環境のターミナルで，
+
+```shell
+plutil -remove 'DisabledFonts' ~/Library/Preferences/com.apple.FontRegistry.user.plist
+```
+
+を実行してから端末を再起動してください．次回から，Osakaフォントを指定すると，可変幅フォント（Osaka-レギュラー）が使われるようになります．
+
+この設定を戻したい人は，
+
+```shell
+rm ~/Library/Preferences/com.apple.FontRegistry.user.plist
+```
+
+を実行してから端末を再起動してください．次回から，Osakaフォントを指定すると，等幅フォント（Osaka-レギュラー-等幅）が使われるようになります．
+
