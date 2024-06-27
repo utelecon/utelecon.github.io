@@ -2,6 +2,10 @@
 title: "Windows Education for students"
 ---
 
+<b class="box">
+Due to a change of service by Microsoft Corporation in April 2024, Kivuto no longer provides license keys. Therefore, this service is currently unavailable. We are in the process of confirming the availability of subsequent services.
+</b>
+
 ## Overview
 
 **Students** at the University of Tokyo can obtain a license to upgrade Windows 10 or Windows 11 to the Education edition. This license is provided as part of the [UTokyo Microsoft License](../).
