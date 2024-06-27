@@ -93,7 +93,11 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 
 ## UTokyo AccountでMicrosoftのシステムにサインインする
 
-UTokyo Microsoft Licenseで提供されるシステムを利用するには，UTokyo AccountをMicrosoftアカウントとして用いてサインインする必要があります．サインイン画面が表示されたら，画面の指示に従ってください．アカウントの入力を要求されたら，入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力して続けてください．
+UTokyo Microsoft Licenseで提供されるシステムを利用するには，UTokyo AccountをMicrosoftアカウントとして用いてサインインする必要があります．
+
+以下のようなサインイン画面が表示されたら，入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力して，画面の指示に従って続けてください．
+
+![](img/microsoft-signin-instruction-1.png){:.small.center.border}
 
 詳しい手順や，他のMicrosoftアカウントとの使い分けに関しては，「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](signin)」を参照してください．
 
