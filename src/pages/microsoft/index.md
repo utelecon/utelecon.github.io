@@ -92,6 +92,7 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 オンラインフォームを作成することのできるシステムです．UTokyo Accountを持つ人限定に公開するフォームを作ることもできます．利用手順などの説明は**[Microsoft Forms クイック スタート](https://support.microsoft.com/ja-jp/office/620daa7a-3e03-4013-8f92-5cce86210ef6)**をご覧ください．
 
 ## UTokyo AccountでMicrosoftのシステムにサインインする
+{:#signin}
 
 UTokyo Microsoft Licenseで提供されるシステムを利用するには，UTokyo AccountをMicrosoftアカウントとして用いてサインインする必要があります．
 
