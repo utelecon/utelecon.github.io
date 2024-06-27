@@ -9,13 +9,6 @@ breadcrumb:
 
 UTokyo Microsoft Licenseとは，Microsoftの提供するシステムをUTokyo Accountで利用することのできるライセンスです．具体的には，Word，Excel，PowerPointのような，機器にインストールして利用するOfficeソフトウェアなどが含まれます．詳細は[利用可能な主なシステム](#systems)をご覧ください．
 
-### Microsoftのシステムへのサインインについて
-{:#signin}
-
-UTokyo Microsoft Licenseのシステムなどを使っていると，Microsoftのサインイン画面に移動することがあります．この場合にUTokyo Accountを用いてサインインする方法については以下をご覧ください．
-
-**[UTokyo Accountを用いてMicrosoftのシステムにサインインする](signin)**{:.box.center}
-
 ## 利用対象者
 {:#users}
 
@@ -29,7 +22,11 @@ UTokyo Microsoft Licenseは，UTokyo Accountを持つ東京大学の構成員（
 ## 利用可能な主なシステム
 {:#systems}
 
-以下では，UTokyo Microsoft Licenseにより利用可能なシステムについて説明をしています．
+UTokyo Microsoft Licenseで利用可能なシステムの多くは，以下のリンクからアクセスすることができます．
+
+**[Microsoft 365](https://www.microsoft365.com/login)**{:.box.center}
+
+以下では，UTokyo Microsoft Licenseにより利用可能な個別のシステムについて説明します．
 
 <details>
 <summary>ここに掲載されていないシステムについて</summary>
@@ -93,6 +90,12 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 {:#forms}
 
 オンラインフォームを作成することのできるシステムです．UTokyo Accountを持つ人限定に公開するフォームを作ることもできます．利用手順などの説明は**[Microsoft Forms クイック スタート](https://support.microsoft.com/ja-jp/office/620daa7a-3e03-4013-8f92-5cce86210ef6)**をご覧ください．
+
+## UTokyo AccountでMicrosoftのシステムにサインインする
+
+UTokyo Microsoft Licenseで提供されるシステムを利用するには，UTokyo AccountをMicrosoftアカウントとして用いてサインインする必要があります．サインイン画面が表示されたら，画面の指示に従ってください．アカウントの入力を要求されたら，入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力して続けてください．
+
+詳しい手順や，他のMicrosoftアカウントとの使い分けに関しては，「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](signin)」を参照してください．
 
 ## Microsoftが提供するその他のライセンス
 {:#related_licenses}
