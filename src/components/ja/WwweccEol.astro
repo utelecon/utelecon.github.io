@@ -1,0 +1,11 @@
+---
+interface Props {
+  systemName?: string;
+}
+
+const { systemName } = Astro.props;
+---
+
+<div class="box">
+    教育用計算機システム（ECCS）のウェブサイト（www.ecc.u-tokyo.ac.jp）は2024年6月をもって閉鎖されました．今後，{ systemName }に関する情報は，uteleconに掲載される予定です．旧ウェブサイトに掲載されていた情報のうち現在も有効なものは，順次uteleconに移行します．<a href="https://www-old.ecc.u-tokyo.ac.jp/">旧ウェブサイト閉鎖時点でのコピーサイト</a>を設置していますので，併せて参照してください．
+</div>
