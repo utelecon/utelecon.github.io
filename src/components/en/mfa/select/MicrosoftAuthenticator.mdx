@@ -1,0 +1,8 @@
+import If from "@components/utils/If.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/pages/mfa/tabs").Group} group
+  */}
+
+“Microsoft Authenticator” is an MFA authentication application provided by Microsoft. Using this app is convenient since UTokyo Account’s MFA adopts Microsoft’s system. <If cond={props.group !== "first"}>If you have more than one phone, you can register the same authenticator apps on these phones, making them two or more verification methods.</If>
