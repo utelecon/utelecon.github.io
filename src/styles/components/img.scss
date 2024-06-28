@@ -52,6 +52,11 @@ img.border {
   }
 }
 
+img.thin-border {
+  @extend .border;
+  border-color: color-mix(in srgb, currentcolor 50%, transparent);
+}
+
 img.shadow {
   box-shadow: 0 0 0.75em 0.75em white inset;
   padding: 1em;
