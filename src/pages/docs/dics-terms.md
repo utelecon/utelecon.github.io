@@ -34,4 +34,4 @@ redirect_from:
 
 ## サービス別の注意事項
 
-UTokyo Slackは，情報基盤センター情報メディア教育研究部門が運用する学習管理システム「[UTOL](/utol/)」との連携機能を有しています．UTOLと連携される情報の取り扱いについては，「[情報メディア教育研究部門の運用ポリシー](https://www.ecc.u-tokyo.ac.jp/system/policy.html)」を参照してください．
+UTokyo Slackは，情報基盤センター情報メディア教育研究部門が運用する学習管理システム「[UTOL](/utol/)」との連携機能を有しています．UTOLと連携される情報の取り扱いについては，「[情報メディア教育研究部門の運用ポリシー](https://media.itc.u-tokyo.ac.jp/policy.html)」を参照してください．

@@ -200,17 +200,22 @@ const resolvedBreadcrumb =
     font-weight: bold;
     color: black;
   }
-  #article {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    gap: $article-gap;
-  }
-  @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
+  main[data-toc] {
     #article {
       display: flex;
-      flex-direction: column;
+      flex-direction: row-reverse;
       gap: $article-gap;
+    }
+    #content {
+      /* so that the content does not overflow the viewport */
+      min-width: 0;
+    }
+  }
+  @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
+    main[data-toc] {
+      #article {
+        flex-direction: column;
+      }
     }
   }
 </style>

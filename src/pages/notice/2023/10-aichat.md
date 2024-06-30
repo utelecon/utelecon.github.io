@@ -4,9 +4,7 @@ title: 生成AIチャットサービスの実験的な提供について
 
 <div style="text-align: right;">2023年10月20日公開</div>
 
-<div class="box">（2024年3月）東京大学の構成員の皆様を対象に，<a href="https://forms.office.com/r/HvWEN9qQKa">東京大学における生成AIの提供方針に関するアンケート</a>を実施しています（回答期限3月18日まで）．ご協力よろしくお願いいたします．</div>
-
-<div class="box alert">（2024年3月）新たに「<a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a>」を開始しました．Microsoft Copilotは文字数（トークン数）の制限も少なく利用しやすくなっていますので，今後はそちらのご利用をおすすめします．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，Microsoft Copilotの開始に伴い，提供を継続するかどうか検討します．</div>
+<div class="box alert">（2024年3月28日）「<a href="/notice/2024/0327-ai-service">当面の全学構成員向け生成AIサービス提供方針について</a>」でお知らせしているように，今後の全学構成員向けの生成AIサービスは，<strong><a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a></strong>を中心として位置付けています．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，<strong>2024年3月28日をもって運用を停止いたします</strong>．なお，直ちに完全に終了するわけではなく，「<a href="/notice/2024/03-chatbot-ui">2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について</a>」でご案内している通り，Microsoft Copilotではカバーできない利用に対応するための運用は行う予定です（ただし，これまでお使いいただいていた方で引き続いての利用を希望する方には，あらためて手続きをお願いすることとします）．</div>
 
 いつも本学の情報システムの運営にご協力いただきありがとうございます．
 
@@ -99,16 +97,16 @@ APIの使用には上限があり，また従量課金となっていること�
 
 また，利用にあたってはOpenAI社の[Terms of Use](https://openai.com/policies/terms-of-use) <ins class="alert">およびMicrosoft Azureの<a href="https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/EES#ServiceSpecificTerms">Product Terms</a></ins> も参照し，適切に利用してください．
 
-<div class="box alert">（2024年3月）新たに「<a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a>」を開始しました．Microsoft Copilotは文字数（トークン数）の制限も少なく利用しやすくなっていますので，今後はそちらのご利用をおすすめします．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，Microsoft Copilotの開始に伴い，提供を継続するかどうか検討します．</div>
-
 ## 利用方法
 
 本サービスの利用には**[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講と[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須**とします．あらかじめこれらを済ませた上で，以下の手順に進んでください．
 
-1. 以下の申請フォームを入力・送信してください．<b class="box center"><a href="https://forms.office.com/r/nAv0y1uwsR">申請フォーム</a></b>
+<div class="box alert">（2024年3月28日）本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，<strong>2024年3月28日をもって運用を停止しました</strong>．経緯等の詳細は「<a href="/notice/2024/0327-ai-service">当面の全学構成員向け生成AIサービス提供方針について</a>」をご覧ください．</div>
+
+1. 以下の申請フォームを入力・送信してください．<div class="box center"><del>申請フォーム</del></div>
 1. **申請後，利用できるようになるまでに時間がかかる場合があります．下の「申請の受付状況について」をご覧いただき，利用できるようになるまでしばらくお待ちください．**{:.alert}
     - 利用できるようになった際の個別の連絡はしません．お手数ですが，本ページや，下で説明している「UTokyo ARC」Slackワークスペースにて，各自ご確認ください．
-1. 利用できるようになったら，以下のリンクにアクセスしてください．<b class="box center"><a href="https://aichat.adm.u-tokyo.ac.jp/">https://aichat.adm.u-tokyo.ac.jp/</a></b>
+1. 利用できるようになったら，以下のリンクにアクセスしてください．<div class="box center">https://aichat.adm.u-tokyo.ac.jp/</div>
     <details>
         <summary>ヘルプ：「申し訳ありませんが、サインイン中に問題が発生しました。」または「Sorry, but we’re having trouble signing you in.」というエラーが表示される場合</summary>
         まだ利用できるようになっていないか，あるいは，本サービスの利用に必要な<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>の受講が完了していないために，申請が却下されています．申請時刻からは利用できるようになっているはずと思われる場合は，情報セキュリティ教育の受講を完了（確認テストに合格）してから，もう1度申請をし直してください．
@@ -136,6 +134,8 @@ APIの使用には上限があり，また従量課金となっていること�
     - 11月14日20時30分頃までに登録していた方について，当初の上限（2,000,000単位）で利用できるようにしました．大変お待たせいたしました．
     - それ以降に登録していた方について，上限を当初の40%（800,000単位）に設定した上で，利用できるようにしました．
     - 申請再開待ち登録から即時受付に切り替えました．現在，申請された方は，当初の40%の上限（800,000単位）で，申請直後から利用できるようになっています．ただし，今後も状況により一時停止などの可能性がありますことをご了承ください．
+- 3月21日
+    - 本サービスの提供を継続するかどうか検討しているため，新規の申請受付を休止しました．
 
 ## 情報共有・問い合わせ先
 
