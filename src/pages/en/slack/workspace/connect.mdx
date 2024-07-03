@@ -1,0 +1,74 @@
+
+---
+title: How to use UTokyo Slack with People Outside of the University using the "Connect" Feature 
+breadcrumb:
+  title: "Connect" Feature
+---
+
+<div class="box">
+  2023年10月27日にSlackの新しいデザインが展開されたことに伴い，本ページに記載されている手順が実際の手順と異なることがあります．
+
+  新しいデザインについては，「[Slackの新しいデザインの展開と説明会開催のお知らせ](/notice/2023/0929-new-slack-design)」を参照してください．
+</div>
+
+## Summary 
+
+In UTokyo Slack, the target users are all members who have a UTokyo Account. Since those who do not have UTokyo accounts (i.e., those outside the university) are not target users, in principle, they cannot participate as UTokyo Slack workspace members. However, it is possible to use UTokyo Slack with those outside the university by using the "Connect" feature in Slack. This page explains how to use this feature. 
+
+Slack's "Connect" is a feature that links multiple workspaces and allows you to create a shared channel between multiple workspaces. Normally, a Slack channel exists within a single workspace, but using the "Connect" feature, a single channel can be shared between multiple workspaces. This allows members in different workspaces to communicate across workspaces. 
+
+This feature allows you to create a shared channel between your UTokyo Slack workspace and an external (other than UTokyo Slack) workspace, so that you can use UTokyo Slack with members outside the university. 
+
+However, while the "Connect" feature is a convenient tool, it is not recommended for all cases. Since the "Connect" feature is only for linking two workspaces, it is possible that you may not be able to achieve what you want to do and you may not be able to use it as you expect because its application for linking two workspaces is different from the normal application using only one workspace. In some cases, it may be better to use Slack with free or paid plans without UTokyo Slack. First, please read the detailed explanation below and consider whether the "Connect" feature will allow you to achieve what you want to do. 
+
+## Outline of Using the "Connect" Feature 
+
+First, as a basic case, this section outlines a situation in which you want to use Slack with people who belong to groups outside of UTokyo, for example, other universities or companies. In this case, if they have Slack workspace or create a Slack workspace for the occasion, you can use Slack together by sharing a channel between UTokyo Slack workplace and their organizations' workplaces. Members of UTokyo access the shared channel from their UTokyo Slack workspace, while members outside of the university access it from their group's workspace. 
+
+In addition, there are cases when you want to use Slack with members outside of the university who do not belong to certain organizations. For example, you want to communicate with people who participate in projects (e.g. public lectures) conducted as part of UTokyo's programs or graduates from a UTokyo lab. In such cases, you can create other workspace for the members outside of the university to join apart from the UTokyo Slack workspace and share channels between these two workspaces. In this case, some members of the university would need to participate in both workspaces to manage the workspace for the external members. 
+
+### If You Have an Existing Workspace That You Are Using with Members Outside the University 
+
+This section describes how to deal with a situation where you have a workspace that is not inside UTokyo Slack, and you are using it with members outside the university. For this case, there are approximately three possible solutions. 
+
+- Continue to use your current free or paid plan, and do not use UTokyo Slack or the Connect feature. 
+    - This is an option when the features available for free plan are sufficient, or when individual contracts and payments are available for paid features (e.g., unlimited message access).
+    - The free plan limits the number of past messages that can be viewed, but this can be circumvented by regularly exporting messages to another location. You may be able to access messages that are no longer available by using the [Try a paid Slack subscription for free](https://slack.com/intl/en-gb/help/articles/202878523-Try-a-paid-Slack-subscription-for-free) offer from Slack. 
+    - If you are using Slack as an educational institution, you may be eligible for the [Apply for the Slack for Education discount](https://slack.com/intl/en-gb/help/articles/206646877-Apply-for-the-Slack-for-Education-discount)offer from Slack. For more information on using the "Slack for Education" program, please refer to the "[Application for the "Slack for Education" program at the University of Tokyo](/https://deploy-preview-849--utelecon.netlify.app/en/slack/discount)".
+- Create a new UTokyo Slack workspace and use the "Connect" feature with an existing workspace. 
+    - This means that you use your existing workspace for members outside the university as explained above and create a new UTokyo Slack workspace. Basically, members of the university would leave an existing workspace and join the UTokyo Slack workspace. 
+    - When using the "Connect" feature between the UTokyo Slack workspace and an external free plan workspace, **you can only share channels in the UTokyo Slack workspace; existing channels in a free plan workspace cannot be shared.** Therefore, if your existing workspace is a free plan, there is no way to continue to access past messages as is.  
+        - To keep accessing past messages, you can export the messages so that you can view them in another location. Messages that can no longer be accessed can be viewed with the [Try a paid Slack subscription for free](https://slack.com/intl/en-gb/help/articles/202878523-Try-a-paid-Slack-subscription-for-free) offer from Slack.
+        - You can also use the program to reproduce (migrate) messages from an existing workspace to a UTokyo Slack workspace that you newly created (as explained in [UTokyo Slack Explanatory Session Part 2: "Incorporating (Migrating) Existing Workspaces" (in japanese)](/events/2022-slack/#part2)).
+
+## Operating Procedure
+{:#procedure}
+
+The following explains the procedure for sharing a channel using the "Connect" feature. The explanation is divided into two parts: one for a UTokyo Slack workspace, and one for an external (other than UTokyo Slack) workspace. Please proceed to read them in that order. 
+### Operating Procedures in UTokyo Slack Workspace 
+
+To perform the following procedure in the current UTokyo Slack, you must be granted Owner or Admin privileges of the workspace. 
+1. Open the workspace screen on your PC.  
+1. Open the channel you want to share. It can be a newly created channel or an existing channel. However, the "#general" channel cannot be shared. 
+1. Click the channel name displayed at the top of the channel. 
+1. In the dialog that appears, select the "Settings" tab and press the "Share Link" button in the "Slack Connect" column. 
+1. Press the “Copy Link” button on the displayed screen. 
+1. The URL will be copied, and then you can pass it to the person operating in the external workspace (*if one person participates in both workspaces, they can continue working). 
+
+### Operating Procedures in the External Workspace 
+
+1. Receive the URL for "Connect" from the person who operates the workspace in UTokyo Slack. 
+1. Sign in in advance to the workspace in which you want to share the channel. 
+1. Access the URL you received. 
+1. Click the “Get Started” button. 
+1. You will see the "Select an account to get started" screen, and a list of workspaces you have signed in will be displayed. Select the workspace in which you want to share the channel and click the "Continue" button. 
+1. You will see the "Choose who can see the channel" screen. Please choose your preference from the "Public" and "Private" options and click the "Next" button. *This is to set up this workspace’s (external workspace’s) side and does not change the setting on the UTokyo Slack workspace’s side. 
+1. You will see the "Name this channel for your team" screen. Please enter the channel name and click the "Next" button. *This is to set up this workspace’s (external workspace’s) side and does not change the channel name on the UTokyo Slack workspace’s side. 
+1. Finally, click the "Join Channel" button and complete the sharing. 
+
+## Supplementary Information 
+
+-	Normally, the "Connect" feature is only available between paid plan workspaces, but UTokyo Slack (the "Enterprise Grid" plan) can use the “Connect” feature with free plan workspaces. 
+- While there are limitations in the range of past messages that can be accessed to in the free plan, channels shared with the "Connect" feature allow you to view past messages unlimitedly, even when you access them from a free plan workspace. 
+- Outside the workspace, direct messages can also be sent between members of the workspace that uses the "Connect" feature. 
+- If the external (other than UTokyo Slack) workspace is a paid plan workspace, that is, a reversal of the above-mentioned procedure, it is possible to share a channel that already exists in the external workspace, with UTokyo Slack. 
