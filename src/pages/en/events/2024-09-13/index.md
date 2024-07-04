@@ -41,7 +41,7 @@ Materials will be provided by the day of the meeting, and the recording will be 
 
 A link to Slido for Q and A session will be available when the materials are posted. Questions in advance are also welcome.
 
-### Explanator
+### Presenter
 - TAURA Kenjiro, Executive Director and Vice President
 - AMEMIYA Tomohiro, Professor, Information Technology Center
 - SATO Hiroya, Senior Staff, Digital Transformation Promotion Group
