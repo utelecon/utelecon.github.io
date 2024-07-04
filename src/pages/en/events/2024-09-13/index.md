@@ -18,7 +18,8 @@ In addition, students are also welcome to attend the session, although the expla
 - **Date**: Friday, September 13, 2024
 - **Time**: 15:00-17:00 (Questions will also be accepted after the session.)
 - **Place**: Online (Zoom meeting)
-- Materials and video of the session will be provided on this page.
+
+Materials and video of the session will be provided on this page.
 
 ## Contents (tentative)
 **The contents are tentative** and will be revised based on the responses to [pre-session questionnaire]().
