@@ -47,7 +47,7 @@ A link to Slido for Q and A session will be available when the materials are pos
 - SATO Hiroya, Senior Staff, Digital Transformation Promotion Group
 
 ## Registration
-To attend the session, please register by accessing [the registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu).
+To attend the session, please register by accessing [the registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu). After submitting the form, you will receive an auto-reply email with Zoom information.
 
 ### Pre-session Questionnaire
 We ask those who have registered for the information session to fill out [the pre-session questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu) in advance.
