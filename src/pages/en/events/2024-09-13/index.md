@@ -12,17 +12,17 @@ You can learn about the UTokyo Account, information security obligations, on-cam
 
 For the first time, the session will be conducted in English so that non-Japanese speakers can actively participate. We welcome those who are coming to UTokyo for the first time and will use ICT systems and tools hereafter, as well as those who have already used them in UTokyo. We look forward to your participation.
 
-In addition, students are also welcome to attend the session, although the explanations will be primarily geared toward faculty and staff (especially Part II). The session (other parts) will complement the guidance for new students provided by each faculty and graduate school.
+In addition, students are also welcome to attend the session, although the explanations will be primarily geared toward faculty and staff (especially Part II). Contents of the session will complement the guidance for new students provided by each faculty and graduate school.
 
 ## Outline
 - **Date**: Friday, September 13, 2024
-- **Time**: 15:00-17:00 (Questions will also be accepted after the session.)
-- **Place**: Online (Zoom meeting)
+- **Time**: 15:00-17:00 (Questions will also be accepted after the session)
+- **Place**: Online (Zoom meeting; [Registration in advance](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu) required)
 
 Materials and recording of the session will be provided on this page.
 
 ## Contents (tentative)
-**The contents are tentative** and will be revised based on the responses to [pre-session questionnaire]().
+**The contents are tentative** and will be revised based on the responses to [pre-session questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu).
 
 Materials will be provided by the day of the meeting, and the recording will be uploaded later.
 
@@ -47,10 +47,10 @@ A link to Slido for Q and A session will be available when the materials are pos
 - SATO Hiroya, Senior Staff, Digital Transformation Promotion Group
 
 ## Registration
-To attend the session, please register by accessing [the registration form]().
+To attend the session, please register by accessing [the registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu).
 
 ### Pre-session Questionnaire
-We ask those who have registered for the information session to fill out [the pre-session questionnaire]() in advance.
+We ask those who have registered for the information session to fill out [the pre-session questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu) in advance.
 
 The purpose of the pre-session questionnaire is to find out what kind of information needs non-Japanese-speaking faculty members have about ICT systems and tools. The questionnaire is optional, but we would like to prepare the session based on the responses we receive, so we would greatly appreciate your cooperation.
 
