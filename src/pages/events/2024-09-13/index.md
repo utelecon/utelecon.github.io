@@ -19,7 +19,7 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 ## 概要
 - **期日**：2024年9月13日（金）
 - **時間**：15:00～17:00（セッション終了後も質問を受け付けます）
-- **会場**：オンライン（Zoomミーティング）
+- **会場**：オンライン（Zoomミーティング，[要事前登録](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu)）
 
 説明会の資料・動画はこのページで提供します．
 
@@ -48,8 +48,8 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 - 雨宮　智浩　情報基盤センター 教授
 - 佐藤　寛也　本部DX推進課 主任
 
-## 参加申込
-説明会への参加を申し込むには，[登録フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu)にアクセスして登録してください．
+## 参加登録
+説明会への参加を申し込むには，[参加登録フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu)にアクセスして登録してください．フォームを送信すると，Zoom情報を記載したメールが自動返信されます．
 
 ### 事前アンケート
 説明会に参加申込をした方に，[事前アンケート](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu)への協力をお願いしています．
