@@ -28,14 +28,14 @@ Materials will be provided by the day of the meeting, and the recording will be 
 
 - Purpose and Outline of the Session
 - Part I Basics of the ICT Systems in UTokyo
-   - UTokyo Account
-   - Security (Multi-Factor Authentication)
-   - UTokyo Wi-Fi
+  - UTokyo Account
+  - Security (Multi-Factor Authentication)
+  - UTokyo Wi-Fi
 - Part II: Systems for Educational Activities in UTokyo - UTAS and UTOL
-   - UTAS
-   - UTOL
+  - UTAS
+  - UTOL
 - Part III: Communication Tools and Cloud Services Available in UTokyo
-   - Zoom, Webex, Slack, ECCS (Google services), Microsoft services
+  - Zoom, Webex, Slack, ECCS (Google services), Microsoft services
 - Closing Remarks
 - Q and A session
 
