@@ -30,14 +30,14 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 
 - 説明会の趣旨と全体像
 - Part I: 東京大学における情報システムの基礎
-   - UTokyo Account
-   - 情報セキュリティ（多要素認証）
-   - UTokyo Wi-Fi
+  - UTokyo Account
+  - 情報セキュリティ（多要素認証）
+  - UTokyo Wi-Fi
 - Part II: 東京大学での教育活動に利用するシステム - UTASとUTOL
-   - UTAS
-   - UTOL
+  - UTAS
+  - UTOL
 - Part III: 東京大学で利用可能なコミュニケーションツールとクラウドサービス
-   - Zoom, Webex, Slack, ECCS (Google), Microsoft
+  - Zoom, Webex, Slack, ECCS (Google), Microsoft
 - 全体まとめ
 - 質疑応答
 
