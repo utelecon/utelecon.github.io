@@ -8,7 +8,7 @@ At the beginning of the Autumn Semester, we will provide an overview of the ICT 
 
 Educational and research activities at the university require the use of various ICT systems and tools, and UTokyo provides an environment to support these activities. Some of the systems have procedures that all members are required to follow and use.
 
-You can learn about the UTokyo Account, information security obligations, on-campus Wi-Fi service, systems required for classes (UTAS, UTOL), and other tools and cloud services (Zoom, Webex, Slack, Google, Microsoft, etc.) available for educational, research, and business activities.
+You can learn about the UTokyo Account, information security obligations, on-campus Wi-Fi service, systems required for classes (UTAS, UTOL), and other tools and cloud services (Zoom, Webex, Slack, Google, Microsoft, etc.) available for education, research, and administrative works.
 
 For the first time, the session will be conducted in English so that non-Japanese speakers can actively participate. We welcome those who are coming to UTokyo for the first time and will use ICT systems and tools hereafter, as well as those who have already used them in UTokyo. We look forward to your participation.
 
