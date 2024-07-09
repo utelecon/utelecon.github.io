@@ -24,7 +24,7 @@ Materials and recording of the session will be provided on this page.
 ## Contents (tentative)
 **The contents are tentative** and will be revised based on the responses to [pre-session questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu).
 
-You can view a [tentative version of the materials](). The finalized version of the materials will be updated by the day of the session. Additionally, the recording of the session will be uploaded on this page after the session.
+You can view a [tentative version of the materials](). The finalized version will be updated by the day of the session. Additionally, the recording of the session will be uploaded on this page after the session.
 
 
 - Purpose and Outline of the Session
