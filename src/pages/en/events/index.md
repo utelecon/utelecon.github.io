@@ -3,8 +3,8 @@ title: Orientations / Seminars
 ---
 
 * 2024/09/13 [Information Session on ICT Systems and Tools for UTokyo Members (**Conducted in English**)](/en/events/2024-09-13/)
-* 2023/03/15 [Briefing session: A briefing session for more effective use of ICT tools in UTokyo (only in Japanese)](/events/2023-03-15/)
-* 2024/03/11 [Briefing session: A briefing session on ICT tools for faculty teaching for the first time in UTokyo (only in Japanese)](/events/2023-03-11/)
+* 2023/03/15 [Briefing session: A briefing session for more effective use of ICT tools in UTokyo (only in Japanese)](/events/2024-03-15/)
+* 2024/03/11 [Briefing session: A briefing session on ICT tools for faculty teaching for the first time in UTokyo (only in Japanese)](/events/2024-03-11/)
 * 2023/09/14 [Briefing session: A briefing session on web conferencing and cloud tools usable in face-to-face classes - also discussing ways to utilize generative AI in teaching (only in Japanese)](/events/2023-09-14/)
 * 2023/03/15 [Briefing session: A briefing session on web conferencing and cloud tools for online and in-person use - and let's "Chat" about "that AI tool" (only in Japanese)](/events/2023-03-15/)
 * 2022/09/14 [Briefing session: For education, for research, and for administration! A briefing session on online conference tools and cloud tools - and also on the tool you may be curious about (only in Japanese)](/events/2022-09-14/)
