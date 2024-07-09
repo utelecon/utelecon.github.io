@@ -24,7 +24,8 @@ Materials and recording of the session will be provided on this page.
 ## Contents (tentative)
 **The contents are tentative** and will be revised based on the responses to [pre-session questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu).
 
-Materials will be provided by the day of the session, and the recording will be uploaded later.
+You can view a [tentative version of the materials](). The finalized version of the materials will be updated by the day of the session. Additionally, the recording of the session will be uploaded on this page after the session.
+
 
 - Purpose and Outline of the Session
 - Part I Basics of the ICT Systems in UTokyo
@@ -37,9 +38,9 @@ Materials will be provided by the day of the session, and the recording will be 
 - Part III: Communication Tools and Cloud Services Available in UTokyo
   - Zoom, Webex, Slack, ECCS (Google services), Microsoft services
 - Closing Remarks
-- Q and A session
+- Q&A session
 
-A link to Slido for Q and A session will be available when the materials are posted. Questions in advance are also welcome.
+You can ask questions during the session using Slido. Questions in advance are also welcome.
 
 ### Presenter
 - TAURA Kenjiro, Executive Director and Vice President
