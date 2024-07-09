@@ -1,6 +1,6 @@
 ---
 title: "Sep. 13, 2024: Information Session on ICT Systems and Tools for UTokyo Members (Conducted in English)"
-h1: "Sep. 13, 2024: Information Session on ICT Systems and Tools for UTokyo Members (Conducted in English)"
+h1: "Sep. 13, 2024: Information Session on ICT Systems and Tools for UTokyo Members (**Conducted in English**)"
 ---
 
 ## Purpose
