@@ -25,7 +25,7 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 ## 内容（予定）
 内容は仮のものであり，[事前アンケート](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu)に寄せられた回答に基づいて見直しをおこないます．
 
-現在は資料の暫定版（[英語版]()・[日本語訳版]()）を公開しています．最終版の資料は当日までに更新します．また，説明会の動画を後日アップロードします．
+現在は資料の暫定版（[英語版](/en/events/2024-09-13/slides/2024-07-10_tentative_material_en.pdf)・[日本語訳版](/slides/2024-07-10_tentative_material_jp.pdf)）を公開しています．最終版の資料は当日までに更新します．また，説明会の動画を後日アップロードします．
 
 - 説明会の趣旨と全体像
 - Part I: 東京大学における情報システムの基礎
