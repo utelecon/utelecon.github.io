@@ -16,7 +16,7 @@ title: 東京大学のシステム
 
 - **[UTokyo Account](/utokyo_account/)**：東大の情報システムで使う，「共通ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．
 - **[UTAS](/utas)**：シラバスの掲載や授業関係の手続き（履修登録・成績など）に使うシステム（学務システム）です．
-- **[ITC-LMS](/itc_lms)**：授業資料の配布や課題の提出などに使うシステム（学習管理システム）です．
+- **[UTOL](/utol/)**：授業資料の配布や課題の提出などに使うシステム（学習管理システム）です．
 - **[UTokyo Wi-Fi](/utokyo_wifi/)**：キャンパス内で使えるWi-Fiです．事前にアカウントを作っていないと使えないので注意してください．
 
 ## 各種Webサービス・ソフトウェア
@@ -28,7 +28,7 @@ title: 東京大学のシステム
 - **[UTokyo Slack](/slack/)**：ビジネスチャットツールと呼ばれるサービスの一種で，テキストメッセージをやり取りしてコミュニケーションを取るためのツールです．テキストメッセージを投稿できる「チャンネル」という場所を複数作って別々のやり取りを同時並行で行えるのが特徴です．なおUTokyo Slackでは，コミュニケーションを行う人が集まる単位である「ワークスペース」は，教職員からの申請により作成できます．
 - **[Slido](/slido/)**：Q&Aやライブ投票・アンケートなど，授業や会議・講演会などでの参加者との双方向コミュニケーションに役立つ機能を提供しているWebサービスです．Webexと連携しており，東京大学のWebexアカウントでサインインすると有料機能を利用することができます．
 - **[UTokyo MATLAB Campus-Wide License](/matlab/)**：科学技術計算のためのソフトウェアであるMATLABを東京大学の包括ライセンスで利用できます．
-- 【学生向け】**[UTokyo Microsoft Windows 10 for students](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_win10.html)**：Microsoft Windows 10 Education Upgradeのライセンスを提供しています．既にWindowsのライセンスを持っている場合に利用できるアップグレードライセンスであり，Windowsのライセンスがない場合の新規インストールには利用できないことに注意してください．
+- 【学生向け】**[Windows Education for students](/microsoft/windows_education_for_students)**：Windows 10またはWindows 11をEducationエディションにアップグレードするライセンスです．アップグレード用のライセンスであり，クリーンインストールには利用できないことに注意してください．
 - **[UTokyo Microsoft Azure Dev Tools for Teaching](/microsoft/adt4t/)**：Microsoftの開発者用ソフトウェアを提供しています．
 - **[ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) ](/antivirus/)**：教職員・学生を対象に提供しています．東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として，適宜利用してください．
 

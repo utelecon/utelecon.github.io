@@ -1,4 +1,4 @@
-# utelecon (UTokyo Portal for Teleconference Tools)
+# utelecon (The Portal Site of Information Systems @ UTokyo)
 
 https://utelecon.adm.u-tokyo.ac.jp/
 
@@ -6,7 +6,7 @@ uteleconは，オンライン授業やWeb会議に関する情報をワンスト
 
 ## Preview
 
-[Node.js](https://nodejs.org) が必要です．v18の最新版（LTS）をインストールしてください．
+[Node.js](https://nodejs.org) が必要です．v20の最新版（LTS）をインストールしてください．
 
 - レポジトリをクローンしたら，まず`npm install`を実行します．
 - プレビューを開始するには，`npm run dev`を実行します．`^C`で終了します．

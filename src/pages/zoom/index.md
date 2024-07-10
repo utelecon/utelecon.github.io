@@ -51,7 +51,7 @@ Zoomは，東京大学で最も多く使われているWeb会議システムで�
 ミーティング中の使い方の概要については，「**[ミーティング中の操作方法](usage/)**」を参照してください．また，以下の各ページで個別の機能についてくわしく解説しています．
 
 - [マイクとカメラを使う](usage/mic_cam/)
-    - [バーチャル背景を使う](usage/mic_cam/virtual_background/)
+    - [バーチャル背景機能など](usage/mic_cam/virtual_background/)
 - [画面を共有する](usage/screen_sharing/)
     - [画面共有の許可と制限](usage/screen_sharing/security/)
 - [チャットをする](usage/chat/)
