@@ -50,14 +50,14 @@ Microsoft社によりMicrosoft 365 for Educationクラウドストレージの�
 - OneDriveのデータ使用量の確認
   1.  ブラウザ上で[OneDrive](https://univtokyo-my.sharepoint.com/)にログインしてください．
   1.  画面左下の「ストレージ」に使用量が表示されています．
-      - 使用済み容量をクリックすることでサイズの大きいファイルを確認することができます．
+      - 「使用済み容量」ボタンを押すことで，サイズの大きいファイルを確認することができます．
       ![](./image5.png)
 </details>
 
 <details>
 <summary>データ使用量の削減方法</summary>
 
-またOneDriveではバージョン管理が有効になっているため，サイズの大きいファイルの不要なバージョンを削除することで空き容量を増やすことができます．詳しくは[OneDriveでサイズの大きいファイルを表示させる、バージョン履歴を削除する方法（教職員限定）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Share_OneDrive_files/onedrive_delete_version.webm)を参照してください．
+またOneDriveではバージョン管理が有効になっているため，サイズの大きいファイルの不要なバージョンを削除することで空き容量を増やすことができます．詳しくは[OneDriveでサイズの大きいファイルを表示させる、バージョン履歴を削除する方法（学内限定）](https://univtokyo.sharepoint.com/:v:/s/utokyoaccount/ESkNKTQEvV5Er9Ynu3VLFVIBnoYu1cgwI0_KqkwMWlRKRQ?e=uIWA8q)を参照してください．
 </details>
 
 ## 学内で提供されているストレージ関連サービス
