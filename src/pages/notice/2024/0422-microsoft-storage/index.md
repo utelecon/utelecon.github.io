@@ -57,7 +57,7 @@ Microsoft社によりMicrosoft 365 for Educationクラウドストレージの�
 <details>
 <summary>データ使用量の削減方法</summary>
 
-OneDriveではバージョン管理が有効になっているため，サイズの大きいファイルの不要なバージョンを削除することで空き容量を増やすことができます． 詳しくは[OneDrive に格納されている以前のバージョンのファイルを復元する](https://support.microsoft.com/ja-jp/office/onedrive-%E3%81%AB%E6%A0%BC%E7%B4%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E4%BB%A5%E5%89%8D%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E5%BE%A9%E5%85%83%E3%81%99%E3%82%8B-159cad6d-d76e-4981-88ef-de6e96c93893)を参照してください．
+またOneDriveではバージョン管理が有効になっているため，サイズの大きいファイルの不要なバージョンを削除することで空き容量を増やすことができます．詳しくは[OneDriveでサイズの大きいファイルを表示させる、バージョン履歴を削除する方法(学内限定)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Share_OneDrive_files/onedrive_delete_version.webm)を参照してください．
 </details>
 
 ## 学内で提供されているストレージ関連サービス
