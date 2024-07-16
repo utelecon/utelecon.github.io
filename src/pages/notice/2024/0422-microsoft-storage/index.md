@@ -65,10 +65,11 @@ Microsoft社によりMicrosoft 365 for Educationクラウドストレージの�
 
 ### Microsoft Teams（SharePoint）※教職員限定
 
-共同作業のためのワークスペースとして，チャットやファイル共有のためのストレージサービス機能（SharePoint）などが利用可能です．
-※現在は上限500GBとしていますがストレージ上限を100GBに変更します．ストレージ容量が不足する場合は，有償で追加のストレージを利用できる方法を公開しています．  
+共同作業のためのワークスペースとして、申請してTeamsチームを作成することで、グループチャットやファイル共有のためのストレージサービス機能（SharePoint）が利用可能です．ただし、組織（係、チーム等）で利用するデータを共有することが前提になるため、個人のデータを保管するために申請することはできません．また、連続して400日間アクセスされなかったTeamsチームは自動的に削除されますので、ご注意ください． 
 
 詳しくは[Teamsチームの作成方法について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx)をご参照ください．
+
+※現在は上限500GBとしていますがストレージ上限を100GBに変更します．ストレージ容量が不足する場合は、有償で追加のストレージを利用できる方法を公開しています．詳しくは[Teamsチームフォルダの拡張方法](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Teams_Change_Storage_Limit.aspx)をご参照ください．
 
 ### ECCSクラウドメール (Google Workspace)
 
