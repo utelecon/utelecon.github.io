@@ -3,7 +3,7 @@ title: The “submit attendance” screen of the attendance management function 
 ---
 
 <div style="text-align: right;">
-<span>2024/7/17</span><br />
+<span>Jul. 17, 2024</span><br />
 <span>Information Technology Center</span><br />
 </div>
 

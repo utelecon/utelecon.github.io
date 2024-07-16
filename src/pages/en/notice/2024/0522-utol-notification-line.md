@@ -4,7 +4,7 @@ title: Commencement of the provision of the LINE notification function on UTOL a
 
 
 <div style="text-align: right;">
-<span>2024/7/17</span><br />
+<span>Jul. 17, 2024</span><br />
 <span>Information Technology Center</span><br />
 </div>
 
@@ -35,7 +35,7 @@ By setting this option, there is a possibility that LINE Corp. may obtain and us
 
 ### Updates Notifications
 
-To receive important updates on the courses you are participating in via LINE, for example, "Online class information has been updated" or "New assignments have been added", you need to set up your own SNS account for notifications and select "Redirecting all information once a day" or "Instant transfer" in the "Updates information" section of the "Personal Settings". By setting this up, there is a possibility that LINE Corp. may obtain and use a summary of the updated information, such as the title of the assignment and the date and time of the submission.
+To receive **important updates** on the courses you are participating in via LINE, for example, "Online class information has been updated" or "New assignments have been added", you need to set up your own SNS account for notifications and select "Redirecting all information once a day" or "Instant transfer" in the "Updates information" section of the "Personal Settings". By setting this up, there is a possibility that LINE Corp. may obtain and use a summary of the updated information, such as the title of the assignment and the date and time of the submission.
 
 ### Others
 
