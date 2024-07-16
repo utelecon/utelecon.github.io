@@ -3,10 +3,8 @@ title: The “submit attendance” screen of the attendance management function 
 ---
 
 <div style="text-align: right;">
-
-2024年4月26日  
-情報基盤センター
-
+<span>2024/7/17</span><br />
+<span>Information Technology Center</span><br />
 </div>
 
 When using the UTOL’s attendance management function, students may not see the “submit attendance” screen for each course even if the attendance management settings (“Student self registration”, “Available date and time for submission”, “Late time setting”, and ”One-time Password”) are configured for each weekly course. The “submit attendance” screen for each course can be displayed to students after the course instructors configure the prescribed settings.
@@ -27,7 +25,7 @@ When a student inquiries about, “the “submit attendance” screen not being 
 
 - Select “Course settings>Course settings” from the left side menu, then check the box for “Display attendance information automatically registered from classes management to enrolled student.”
 
-For more details on settings to use the attendance function, please refer to [“UTOL で出席機能を利 用する（教員・TA 向け）(“Using attendance management on UTOL (for course instructors/TAs)” - currently available only in Japanese)](/utol/lecturers/attendances/)
+For more details on settings to use the attendance function, please refer to [“UTOLで出席機能を利用する（教員・TA 向け）(“Using attendance management on UTOL (for course instructors/TAs)” - currently available only in Japanese)](/utol/lecturers/attendances/)
 
 To avoid putting any students at a disadvantages, we would appreciate it you could handle with special care those students whose “submit attendance” screen was not displayed and/or those who could not register their attendance due to the above described settings.
 

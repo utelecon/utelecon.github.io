@@ -4,9 +4,8 @@ title: Commencement of the provision of the LINE notification function on UTOL a
 
 
 <div style="text-align: right;">
-<span>2024年05月22日</span><br />
-<span>2024年06月4日更新</span><br />
-<span>情報基盤センター</span><br />
+<span>2024/7/17</span><br />
+<span>Information Technology Center</span><br />
 </div>
 
 ## Overview
@@ -46,4 +45,4 @@ By using the UTOL's LINE notification, there is a possibility that LINE Corp. ma
 
 We will shortly provide a separate detailed instructions on how to set up the LINE notification function.
 
-詳しくは[UTOLにおけるプライバシーポリシーの例外](https://media.itc.u-tokyo.ac.jp/policy.html#utolPolicy)を御覧ください．
+For more details, please refer to [UTOLにおけるプライバシーポリシーの例外 (only in Japanese)](https://media.itc.u-tokyo.ac.jp/policy.html#utolPolicy).
