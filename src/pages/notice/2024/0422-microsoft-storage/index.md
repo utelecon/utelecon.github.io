@@ -69,7 +69,7 @@ Microsoft社によりMicrosoft 365 for Educationクラウドストレージの�
 
 詳しくは[Teamsチームの作成方法について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx)をご参照ください．
 
-※現在は上限500GBとしていますがストレージ上限を100GBに変更します．ストレージ容量が不足する場合は、有償で追加のストレージを利用できる方法を公開しています．詳しくは[Teamsチームフォルダの拡張方法](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Teams_Change_Storage_Limit.aspx)をご参照ください．
+※現在は上限500GBとしていますがストレージ上限を100GBに変更します．ストレージ容量が不足する場合は、有償で追加のストレージを利用することができます．詳しくは[Teamsチームフォルダの拡張方法](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Teams_Change_Storage_Limit.aspx)をご参照ください．
 
 ### ECCSクラウドメール (Google Workspace)
 
