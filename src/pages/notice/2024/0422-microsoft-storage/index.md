@@ -57,7 +57,7 @@ Microsoft社によりMicrosoft 365 for Educationクラウドストレージの�
 <details>
 <summary>データ使用量の削減方法</summary>
 
-またOneDriveではバージョン管理が有効になっているため，サイズの大きいファイルの不要なバージョンを削除することで空き容量を増やすことができます．詳しくは[OneDriveでサイズの大きいファイルを表示させる、バージョン履歴を削除する方法（学内限定）](https://univtokyo.sharepoint.com/:v:/s/utokyoaccount/ESkNKTQEvV5Er9Ynu3VLFVIBnoYu1cgwI0_KqkwMWlRKRQ?e=uIWA8q)を参照してください．
+またOneDriveではバージョン管理が有効になっているため，サイズの大きいファイルの不要なバージョンを削除することで空き容量を増やすことができます．詳しくは[OneDriveでサイズの大きいファイルを表示させる，バージョン履歴を削除する方法（学内限定）](https://univtokyo.sharepoint.com/:v:/s/utokyoaccount/ESkNKTQEvV5Er9Ynu3VLFVIBnoYu1cgwI0_KqkwMWlRKRQ?e=uIWA8q)を参照してください．
 </details>
 
 ## 学内で提供されているストレージ関連サービス
@@ -65,11 +65,11 @@ Microsoft社によりMicrosoft 365 for Educationクラウドストレージの�
 
 ### Microsoft Teams（SharePoint） ※教職員限定
 
-共同作業のためのワークスペースとして、申請してTeamsチームを作成することで、グループチャットやファイル共有のためのストレージサービス機能（SharePoint）が利用可能です．ただし、組織（係、チーム等）で利用するデータを共有することが前提になるため、個人のデータを保管するために申請することはできません．また、連続して400日間アクセスされなかったTeamsチームは自動的に削除されますので、ご注意ください． 
+共同作業のためのワークスペースとして，申請してTeamsチームを作成することで，グループチャットやファイル共有のためのストレージサービス機能（SharePoint）が利用可能です．ただし，組織（係，チーム等）で利用するデータを共有することが前提になるため，個人のデータを保管するために申請することはできません．また，連続して400日間アクセスされなかったTeamsチームは自動的に削除されますので，ご注意ください． 
 
 詳しくは[Teamsチームの作成方法について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx)をご参照ください．
 
-※現在は上限500GBとしていますがストレージ上限を100GBに変更します．ストレージ容量が不足する場合は、有償で追加のストレージを利用することができます．詳しくは[Teamsチームフォルダの拡張方法](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Teams_Change_Storage_Limit.aspx)をご参照ください．
+※現在は上限500GBとしていますがストレージ上限を100GBに変更します．ストレージ容量が不足する場合は，有償で追加のストレージを利用することができます．詳しくは[Teamsチームフォルダの拡張方法](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Teams_Change_Storage_Limit.aspx)をご参照ください．
 
 ### ECCSクラウドメール (Google Workspace)
 
