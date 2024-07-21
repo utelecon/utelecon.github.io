@@ -2,7 +2,7 @@
 title: Basic usage of Google Drive
 breadcrumb:
   title: Basic usage
-  parent: ../index.mdx
+  parent: ../index.md
 ---
 
 ## Introduction
