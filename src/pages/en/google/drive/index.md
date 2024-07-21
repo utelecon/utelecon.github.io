@@ -2,6 +2,7 @@
 title: Google Drive
 breadcrumb:
   title: Google Drive
+  parent: ../index.mdx
 ---
 
 # Google Drive
