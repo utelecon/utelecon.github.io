@@ -1,0 +1,8 @@
+---
+const emergencies = await Astro.glob("../emergencies/*.mdx");
+const filtered = emergencies.filter((emergency) =>
+  new RegExp(emergency.frontmatter.pattern).test(Astro.url.pathname),
+);
+---
+
+{filtered.map(({ default: Component }) => <Component />)}

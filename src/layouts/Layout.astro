@@ -15,6 +15,7 @@ import { parse as parsePath } from "path";
 import "@fontsource/material-icons";
 import "@fontsource-variable/open-sans";
 import resolveBreadcrumb from "./resolve-breadcrumb";
+import Emergency from "./Emergency.astro";
 
 interface Props extends MDXLayoutProps<Frontmatter> {}
 
@@ -162,6 +163,7 @@ const resolvedBreadcrumb =
       <div id="article">
         {displayToc && <Toc headings={headings} lang={lang} />}
         <div id="content">
+          <Emergency />
           <slot />
           {
             author && (
