@@ -8,9 +8,9 @@ breadcrumb:
 
 On this page, we will explain the specific operational steps for handling files stored on Google Drive.
 
-Furthermore, general information on how to use Google Drive can be found in “[Google Drive](../../../google/drive)” (an English translation is planned). In addition, an introduction on how to share files can be found in “[Share files with Google Drive](../../../google/drive/share)” (an English translation is planned). Please refer to these documents for more information.
+Furthermore, general information on how to use Google Drive can be found in “[Google Drive](../../../google/drive/index)” (an English translation is planned). In addition, an introduction on how to share files can be found in “[Share files with Google Drive](../../../google/drive/share)” (an English translation is planned). Please refer to these documents for more information.
 
-To proceed with the following steps, make sure you are already logged into ECCS Cloud Mail and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../../../google/drive#access) (an English translation is planned).
+To proceed with the following steps, make sure you are already logged into ECCS Cloud Mail and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../../../google/drive/index#access) (an English translation is planned).
 
 ## How to create files
 {:#create-file}
@@ -23,7 +23,7 @@ The main formats of files that can be created in Google Drive are listed below.
 - Google Spreadsheet: equivalent to Microsoft Excel
 - Google Slide: equivalent to Microsoft PowerPoint
 
-Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive#format) (an English translation is planned).
+Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index#format) (an English translation is planned).
 
 ### Procedure
 
@@ -39,7 +39,7 @@ Created files can be edited using the corresponding Google services. For more de
 
 In this section, we will explain how to edit files in Google Drive.
 
-Files stored in Google Drive, such as Google Docs, can be edited using the corresponding Google service. In addition, you can edit Microsoft Office format files, such as Word or Excel, using the Google services. However, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive#format) (an English translation is planned)).
+Files stored in Google Drive, such as Google Docs, can be edited using the corresponding Google service. In addition, you can edit Microsoft Office format files, such as Word or Excel, using the Google services. However, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index#format) (an English translation is planned)).
 
 ### Procedure
 
@@ -50,7 +50,7 @@ Files stored in Google Drive, such as Google Docs, can be edited using the corre
 
 Here, we will explain how to upload files to Google Drive.
 
-Any type of file, including images, videos, audio, etc., can be uploaded to Google Drive. However, regarding Microsoft Office format files such as Word or Excel, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive.#format) (an English translation is planned)).
+Any type of file, including images, videos, audio, etc., can be uploaded to Google Drive. However, regarding Microsoft Office format files such as Word or Excel, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index#format) (an English translation is planned)).
 
 ### Procedure
 
@@ -64,7 +64,7 @@ Any type of file, including images, videos, audio, etc., can be uploaded to Goog
 
 Here, we will explain how to download files from Google Drive.
 
-Files of Google services such as Google Docs can be downloaded after converting them to the corresponding Microsoft Office format (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive.#format) (an English translation is planned)).
+Files of Google services such as Google Docs can be downloaded after converting them to the corresponding Microsoft Office format (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index#format) (an English translation is planned)).
 
 ### Procedure
 
