@@ -22,7 +22,7 @@ The main formats of files that can be created in Google Drive are listed below.
 - Google Spreadsheet: equivalent to Microsoft Excel
 - Google Slide: equivalent to Microsoft PowerPoint
 
-Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](.#format) (an English translation is planned).
+Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive#format) (an English translation is planned).
 
 ### Procedure
 
@@ -38,7 +38,7 @@ Created files can be edited using the corresponding Google services. For more de
 
 In this section, we will explain how to edit files in Google Drive.
 
-Files stored in Google Drive, such as Google Docs, can be edited using the corresponding Google service. In addition, you can edit Microsoft Office format files, such as Word or Excel, using the Google services. However, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](.#format) (an English translation is planned)).
+Files stored in Google Drive, such as Google Docs, can be edited using the corresponding Google service. In addition, you can edit Microsoft Office format files, such as Word or Excel, using the Google services. However, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive#format) (an English translation is planned)).
 
 ### Procedure
 
@@ -49,7 +49,7 @@ Files stored in Google Drive, such as Google Docs, can be edited using the corre
 
 Here, we will explain how to upload files to Google Drive.
 
-Any type of file, including images, videos, audio, etc., can be uploaded to Google Drive. However, regarding Microsoft Office format files such as Word or Excel, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](.#format) (an English translation is planned)).
+Any type of file, including images, videos, audio, etc., can be uploaded to Google Drive. However, regarding Microsoft Office format files such as Word or Excel, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive.#format) (an English translation is planned)).
 
 ### Procedure
 
@@ -63,7 +63,7 @@ Any type of file, including images, videos, audio, etc., can be uploaded to Goog
 
 Here, we will explain how to download files from Google Drive.
 
-Files of Google services such as Google Docs can be downloaded after converting them to the corresponding Microsoft Office format (for details, please refer to [“File types in Google Drive” section on the Google Drive page](.#format) (an English translation is planned)).
+Files of Google services such as Google Docs can be downloaded after converting them to the corresponding Microsoft Office format (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive.#format) (an English translation is planned)).
 
 ### Procedure
 
@@ -77,7 +77,7 @@ You can also download multiple files as a file batch. Specifically, on the folde
 
 ### Appendix
 
-If you wish others to be able to view or edit a file, instead of sending the downloaded files as email attachments, etc., it is more convenient to use the sharing feature by granting direct access to files on the Google Drive to others. With the sharing feature, changes will be immediately shown to your collaborators, and multiple people can edit files simultaneously. The sharing feature helps reduce the hassle of managing files via email. For information about the sharing feature, please refer to the [“Share files on Google Drive"](share) (an English translation is planned) page.
+If you wish others to be able to view or edit a file, instead of sending the downloaded files as email attachments, etc., it is more convenient to use the sharing feature by granting direct access to files on the Google Drive to others. With the sharing feature, changes will be immediately shown to your collaborators, and multiple people can edit files simultaneously. The sharing feature helps reduce the hassle of managing files via email. For information about the sharing feature, please refer to the [“Share files on Google Drive"](../../../google/drive/share) (an English translation is planned) page.
 
 ## How to create folders
 
