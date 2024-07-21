@@ -4,7 +4,7 @@ title: UTokyo Accountで利用するOneDrive等の容量制限について（第
 
 <div style="text-align: right;">
   発出: 2024年4月22日<br>
-  更新: 2024年7月12日
+  更新: 2024年7月22日
 </div>
 
 UTokyo Account 利用者各位
@@ -63,7 +63,7 @@ Microsoft社によりMicrosoft 365 for Educationクラウドストレージの�
 ## 学内で提供されているストレージ関連サービス
 {:#services}
 
-### Microsoft Teams（SharePoint）※教職員限定
+### Microsoft Teams（SharePoint） ※教職員限定
 
 共同作業のためのワークスペースとして、申請してTeamsチームを作成することで、グループチャットやファイル共有のためのストレージサービス機能（SharePoint）が利用可能です．ただし、組織（係、チーム等）で利用するデータを共有することが前提になるため、個人のデータを保管するために申請することはできません．また、連続して400日間アクセスされなかったTeamsチームは自動的に削除されますので、ご注意ください． 
 
@@ -92,6 +92,7 @@ Google WorkspaceのサービスとしてGoogleドライブを100GBまで費用�
 ## 更新履歴
 
 - 2024年7月12日：今後の予定やOneDriveの容量確認方法などを追記
+- 2024年7月22日：Microsoft Teams(SharePoint)の記述を一部修正
 
 ## 本件に関する問い合わせ先
 
