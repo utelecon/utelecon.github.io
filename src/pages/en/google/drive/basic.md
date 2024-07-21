@@ -13,6 +13,7 @@ Furthermore, general information on how to use Google Drive can be found in “[
 To proceed with the following steps, make sure you are already logged into ECCS Cloud Mail and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../../../google/drive#access) (an English translation is planned).
 
 ## How to create files
+{:#create-file}
 
 Here, we will explain how to create files in Google Drive.
 
