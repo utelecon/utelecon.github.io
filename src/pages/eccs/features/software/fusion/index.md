@@ -9,7 +9,7 @@ breadcrumb:
    <div>作成: 2020年10月01日</div>
 </div>
 
-ECCS端末のMac環境では，3D CAD/CAM/CAE/PCB統合ソフトウェアであるFusion 360(Autodesk Fusion)を利用できます．
+ECCS端末のMac環境では，3D CAD/CAM/CAE/PCB統合ソフトウェアであるFusion 360(Autodesk Fusion)を利用できます．利用に際しては，事前準備が必要なほか，いくつか注意点があります．
 
 ## 2022.9.29時点の問題点
 
