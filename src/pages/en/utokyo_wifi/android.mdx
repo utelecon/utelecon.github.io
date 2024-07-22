@@ -13,27 +13,27 @@ import Mfa100 from "./_Mfa100.mdx";
 
 <Mfa100 />
 
-<Intro kindOfTerminal="terminal of Android" confirmedTerminal="（Android 13 with Pixel 6a）"/>
+<Intro kindOfTerminal="Android devices" confirmedTerminal="（Android 13 with Pixel 6a）"/>
 
 ## Preparation: Apply for the UTokyo Wi-Fi account
 {:#issue-account}
 <IssueAccount />
 
-## Procedures on Android
+## Procedures on Android devices
 {:#procedure}
-### Step 1：Enable the Wi-Fi function from the “Setting” app of your device
+### Step 1：Enable the Wi-Fi function in the “Settings” of your device
 {:#turn-on}
-Find the setting item “Internet” from the “Network and Internet” menu in the setting app and turn on the Wi-Fi function.
-Note that the names in the actual menu may vary depending on the specific model. Find the corresponding setting items from the proper category as needed. Likewise, in the following procedures, please read with proper replacement when necessary.
+In settins find “Internet” in the “Network and Internet” menu and turn on the Wi-Fi function.
+Note that the names in the actual menu may vary depending on the specific model. Find the corresponding settings of the proper category as needed. Likewise, in the following procedures, please read the respective content and procedures when necessary.
 
 ### Step 2: Select the SSID of connecting destination from the SSID list
 {:#select-ssid}
-<SelectSsid  userIdField="ID"/>
+<SelectSsid  userIdField="an ID"/>
 
 ### Step 3: Delete the existing Wi-Fi setting information.
 {:#delete-profile}
 <DeleteProfile  userIdField="ID"/>
-Tap the SSID found in Step 2 to open the screen of “network details”. Delete the setting information from the screen of network details.
+Tap the SSID found in Step 2 to open the screen of “network details”. Delete the setting information on the screen of network details.
 
 ### Step4：Enter the required information and connect
 {:#create-profile}
@@ -47,16 +47,16 @@ The necessary Wi-Fi setting information will be displayed after you select the S
 | Certificate authority       | 「Select “Use system certificate”             |
 | Online Certificate Verification | Select “Do not verify” or “Request the certificate status”          |
 | Domain        | Enter `u-tokyo.ac.jp`     |
-| ID          | Enter the User ID of UTokyo Wi-Fi (Begin with “u” and end with “@wifi.u-tokyo.ac.jp`”) |
+| ID          | Enter the User ID for the UTokyo Wi-Fi (Begin with “u” and end with “@wifi.u-tokyo.ac.jp`”) |
 | Anonymous ID        | Leave it  empty          |
-| Password       | Enter the password of UTokyo Wi-Fi      |
+| Password       | Enter the password for the UTokyo Wi-Fi      |
 | Select “DHCP”        | Select “DHCP”      |
 
 #### Supplement
 {:#create-profile-notes}
 * If you cannot select “Use the system certificate” in the “CA certificate”, or it does not work even you selected it, try selecting “Trust on the first use” 
-* Enter the User ID and password of the UTokyo account into the field of “ID” and “Password”. Note that they are not the UTokyo common ID and its password. You can check this User ID and password from the notification email of Step ”Preparation” or the screen of the account menu after your application.
-* Please configure if there are necessary setting items other than mentioned above. If you have no particular preference, you can leave the default settings.
+* Enter the user ID and password for the UTokyo account into the fields of “ID” and “Password”. Note that they are not the regular ID and password for the UTokyo Account. You can check the user ID and password in the notification email described in the ”**Preparation**” step or the screen of the completed application.
+* If there are any setting items other than mentioned above, please configure them as needed. If you have no particular preferences, you can leave the default settings.
 
 ## Troubleshooting guide
 {:#trouble-connect}

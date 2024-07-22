@@ -19,12 +19,13 @@ import Mfa100 from "./_Mfa100.mdx";
 {:#issue-account}
 <IssueAccount />
 
-## Procedures on macOS
+## Procedures for macOS
 {:#procedure}
 ### Step 1: Enable the Wi-Fi function from the taskbar
 {:#turn-on}
-Select the “System Settings” from the Apple menu at the left side of the toolbar to see the setting screen. Select “Wi-Fi” from the side bar and turn on the toggle switch to enable the Wi-Fi function.
-Please note that if the OS version is macOS 12 Monterey or earlier, it will be displayed as  “System Preference” rather than “System Settings”. The following procedures may vary slightly in different situations, please read with proper replacement when necessary.
+To see the setting screen, select the “System Settings” from the Apple menu on the left side of the toolbar. Select “Wi-Fi” in the side bar and turn on the toggle switch to enable the Wi-Fi function.
+
+Please note that if the OS version is macOS 12 Monterey or earlier, instead of “System Settings”, “System Preference” will be displayed. The following procedures may vary slightly in different situations, please read the content and procedures for the respective OS version.
 
 ### ### Step 2: Select the SSID of connecting destination from the SSID list
 {:#select-ssid}
@@ -33,25 +34,24 @@ Please note that if the OS version is macOS 12 Monterey or earlier, it will be d
 ### Step 3: Delete the existing Wi-Fi setting information.
 {:#delete-profile}
 <DeleteProfile  userIdField="アカウント名"/>
-Select the SSID found in Step 2 and then select “Forget This Network” on the displayed screen.  When a screen asking “Remove Wi‑Fi “0000UTokyo”?” appears,  select “Remove”.
+Select the SSID found in Step 2 and then select “Forget This Network” on the displayed screen.  When a screen asking “Remove Wi‑Fi “0000UTokyo”?” appears, select “Remove”.
 
 ### Step 4: Enter the required information and connect
 {:#create-profile}
-Select the SSID named `0000UTokyo` from the SSID list again.
-The necessary Wi-Fi setting information will be displayed after you select the SSID . Follow the instruction below to enter the required setting information into each field. You don’t have to set those items that are not displayed here. Once you’ve entered the setting information, select the connection button.
+The screen of the Wi-Fi settings will be displayed after you select the SSID. To enter the required setting information into each field, follow the instructions below. You do not have to set those settings that are not displayed here. Once you’ve entered the setting information, select the connection button.
 
 | Field name    | Content     |
 | :-----------: | :------------------- |
 | ID            | Select “None”      |
-| Account name       | Enter the User ID of UTokyo Wi-Fi (Begin with “u” and end with “@wifi.u-tokyo.ac.jp`”) |
-| Password      | Enter the password of UTokyo Wi-Fi      |
+| Account name       | Enter the User ID for the UTokyo Wi-Fi (begin with a “u” and end with “@wifi.u-tokyo.ac.jp`”) |
+| Password      | Enter the password for the UTokyo Wi-Fi      |
 
 #### Supplement
 {:#create-profile-notes}
-* Enter the User ID and password of the UTokyo account into the field of “Account name” and “Password”. Note that they are not the UTokyo common ID and its password. You can check this User ID and password from the notification email of Step ”Preparation” or the screen of the account menu after your application.
-* Please configure if there are necessary setting items other than mentioned above. If you have no particular preference, you can leave the default settings. Refer to [Instruction page from Apple]((https://support.apple.com/ja-jp/guide/mac-help/mh11935/mac)) for more details.
-*  During the connecting operation, a screen may appear asking if you want to trust the certificate. To verify whether the certificate is correct, compare the “server fingerprint” of the displayed certificate with the fingerprint listed in [Connection Configuration](/utokyo_wifi/#connect-configuration). If they match, trust the certificate.
-    * Additionally, there are two kinds of fingerprint SHA-1 and SHA-256 released on [Connection Configuration](/utokyo_wifi/#connect-configuration), either of them matches is Ok.
+* Enter the user ID and password for the UTokyo account into the fields of “Account name” and “Password”. Note that they are not the regular ID and password for the UTokyo Account. You can check the user ID and password in the notification email described in the ”**Preparation**” step or the screen of the completed application.
+* If there are any setting items other than mentioned above, please configure them as needed. If you have no particular preferences, you can leave the default settings.
+* During the connecting operation, a screen asking if you trust the certificate may appear. To verify whether the certificate is correct, compare the "server fingerprint" of the displayed certificate with the fingerprint listed in 「[Connect Configuration](/utokyo_wifi/#connect-configuration)」. If they match, trust the certificate.
+    * In addition, there are two types of fingerprints (SHA-1 and SHA-256) listed on [Connect Configuration](/utokyo_wifi/#connect-configuration);matching one type will suffice
 
 ## Troubleshooting guide
 {:#trouble-connect}
