@@ -6,6 +6,7 @@ import If from "@components/utils/If.astro";
 
 UTokyo Accountでは，利用者が各自で初期設定を行うことにより，多要素認証の利用が有効化される仕組みとなっており，UTokyo Accountを持つ**すべての皆さん**に有効化をお願いしています．そのため，多要素認証の有効化が完了するまで一部のシステムは利用できない設定になっています．UTokyo Accountのセキュリティを確保することは，利用者個人の情報だけなく，大学が保有する情報資産を守るために非常に重要ですので，多要素認証を利用していただくようご協力をお願いいたします．
 
-<If cond={props.variant === "not-itself"}>
-  多要素認証を利用するための手順については，「[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)」のページを確認してください．
+<If cond={props.variant === "itself"}>
+  <Fragment></Fragment>
+  <Fragment slot="else">多要素認証を利用するための手順については，「[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)」のページを確認してください．</Fragment>
 </If>
