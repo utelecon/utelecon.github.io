@@ -14,9 +14,7 @@ ECCS端末のMac環境では，3D CAD/CAM/CAE/PCB統合ソフトウェアであ�
 
 ## 事前準備
 
-Fusion 360の起動時に，Autodeskアカウントでの認証が必要になりますので，利用前にAutodeskアカウントを作成する必要があります．なお，アカウント作成時に登録するメールアドレスは，ECCSクラウドメールのアドレス(`@g.ecc.u-tokyo.ac.jp` で終わるもの)としてください．
-
-Autodeskアカウントの作成手順については，[Autodesk社のページ](https://knowledge.autodesk.com/ja/customer-service/account-management/account-profile/create-autodesk-account)を参照してください．
+Fusion 360の起動時に，Autodeskアカウントでの認証が必要ですので，利用前にAutodeskアカウントを作成してください．Autodeskアカウントの作成手順については，[Autodesk社のページ](https://knowledge.autodesk.com/ja/customer-service/account-management/account-profile/create-autodesk-account)を参照してください．なお，アカウント作成時に登録するメールアドレスは，ECCSクラウドメールのアドレス(`@g.ecc.u-tokyo.ac.jp` で終わるもの)としてください．
 
 ## 初回利用時の起動手順
 
