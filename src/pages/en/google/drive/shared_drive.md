@@ -3,7 +3,7 @@ title: “Shared Drives” in Google Drive
 breadcrumb:
   title: “Shared Drives”
 parent:
-  url: ""../../../google/drive/""
+  url: "../../../google/drive/"
 ---
 
 This page explains the “Shared Drives” in Google Drive.
