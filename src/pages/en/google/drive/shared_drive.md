@@ -42,7 +42,7 @@ The owners of a shared drive, along with the people (within the same team or org
 
 1. Select “Shared drives” from the left menu on the Google Drive interface. The created shared drive will be displayed. 
 1. Right-click on the name of the shared drives list and click on the “View members” in the displayed menu.
-1. For future additions and deletions, follow the same procedures outlined in “The setup process for sharing with specific individuals” on the page “[Sharing Files Using Google Drive](../../../google/drive/share#individual)”(an English translation is planned).
+1. For future additions and deletions, follow the same procedures outlined in “The setup process for sharing with specific individuals” on the page “[Sharing Files Using Google Drive](../../../google/drive/share.md#individual)”(an English translation is planned).
     - The types of access authorization in shared drives are slightly different. Please refer to the following explanation for details.
     - You cannot copy a link to the shared drive itself. People who are added as members to the shared drive will see it listed when they open "Shared Drives" in the left menu on the Google Drive interface. Please access it from there.
 
@@ -71,9 +71,9 @@ Here are the various types of access authorizations (the allowed operations) in 
 
 ### How to use files and folders in the shared drives
 
-In the shared drives, operations on files or folders such as creating, editing, uploading and downloading can be performed in the same manner as for the standard Google Drive (My Drive). Please refer to “[The basic usage of Google Drive](../../../google/drive/basic)” for more details.
+In the shared drives, operations on files or folders such as creating, editing, uploading and downloading can be performed in the same manner as for the standard Google Drive (My Drive). Please refer to “[The basic usage of Google Drive](../../../google/drive/basic.md)”(an English translation is planned) for more details.
 
-In addition, a shared drive can have multiple owners and members, which allows the sharing of files from the shared drives. With this feature, files and folders stored in a shared drive can be shared with people outside the shared drive. Using this feature, the operations are the same as for “My Drive” (Google Drive other than shared drives). Please refer to “[Share files using Google Drive](../../../google/drive/share)” for more details.
+In addition, a shared drive can have multiple owners and members, which allows the sharing of files from the shared drives. With this feature, files and folders stored in a shared drive can be shared with people outside the shared drive. Using this feature, the operations are the same as for “My Drive” (Google Drive other than shared drives). Please refer to “[Share files using Google Drive](../../../google/drive/share.md)”(an English translation is planned) for more details.
 
 <!--
 
