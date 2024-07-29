@@ -1,8 +1,13 @@
 ---
-title: Googleドライブ
+title: Google Drive
 breadcrumb:
-  title: Googleドライブ
-redirect_from:
-  - /articles/google-drive/
-  - /faculty_members/how/google/share_video
+  title: Google Drive
 ---
+
+# Google Drive
+
+This is the main page for Google Drive documentation.
+
+## Sections
+
+- [Basic usage](./basic.md)
