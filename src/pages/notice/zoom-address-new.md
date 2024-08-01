@@ -75,7 +75,7 @@ UTokyo Accountサインインではないアカウント（ECCSクラウドメ�
     </li>
     <li>
         東京大学専用のZoomページ <a href="https://u-tokyo-ac-jp.zoom.us/">https://u-tokyo-ac-jp.zoom.us/</a>で「Config」ボタンを押して，UTokyo Accountでサインインしてください（<a href="/zoom/signin#browser">「Zoom サインイン方法」のページの「ブラウザからサインインする方法」</a>と同じ手順です）．
-        <img src="/zoom/signin/1.png">
+        <img src="./zoom-signin.png">
         <details>
             <summary>ヘルプ：この手順でサインイン直後に「メールアドレスの確認」などと表示された場合</summary>
             <img src="image/zoom_sso_update_email.png">

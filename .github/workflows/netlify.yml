@@ -29,7 +29,9 @@ jobs:
       - name: Build
         run: |
           npm run build
-
+      - name: Check unused assets
+        run: |
+          npm run unused-asset
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.1
         with:

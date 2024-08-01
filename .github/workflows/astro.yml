@@ -43,6 +43,9 @@ jobs:
       - name: Build
         run: |
           npm run build
+      - name: Check unused assets
+        run: |
+          npm run unused-asset
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v2
