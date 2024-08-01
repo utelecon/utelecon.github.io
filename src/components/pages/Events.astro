@@ -1,7 +1,5 @@
 ---
-import path from "path";
-import fs from "fs/promises";
-import matter from "gray-matter";
+import type { MDXInstance } from "astro";
 import type { Frontmatter } from "@layouts/Layout.astro";
 import If from "@components/utils/If.astro";
 
@@ -11,41 +9,20 @@ interface eventInformation {
   href: string;
 }
 
-async function getEventInformation(eventInfoPath: string): Promise<eventInformation> {
-  const dateMatch = path.basename(eventInfoPath).match(/^([0-9]{4}-[0-9]{2}-[0-9]{2})/)
-
-  if (dateMatch === null) throw new Error;
-
-  const content = await fs.readFile(eventInfoPath).catch((reason: NodeJS.ErrnoException) => {
-    if (reason.code === "EISDIR")
-      return fs.readFile(path.join(eventInfoPath, "index.md"));
-    else
-      throw reason;
-  }).catch((reason: NodeJS.ErrnoException) => {
-    if (reason.code === "ENOENT")
-      return fs.readFile(path.join(eventInfoPath, "index.mdx"));
-    else
-      throw reason;
-  });
-
-  const frontmatter = matter(content).data as Frontmatter;
-
-  return {
-    date: new Date(dateMatch[0]),
-    title: frontmatter.title.replace(/^[0-9]{4}([/-])[0-9]{1,2}\1[0-9]{1,2} */, ""),
-    href: eventInfoPath.replace(/^(.\/)?src\/pages/, ""),
-  };
-}
-
-const eventsInfoDir = "./src/pages/events";
-
-const allEventsList = await fs.readdir(eventsInfoDir).then(async (childNames) =>
-  (await Promise.allSettled(
-    childNames.map((name) => getEventInformation(path.join(eventsInfoDir, name)))
-  )).flatMap((result) =>
-    result.status === "fulfilled" ? [result.value] : []
-  )
-);
+const allEventsList = [
+  await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*/index.{md,mdx}"),
+  await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*.{md,mdx}"),
+].flat().flatMap((instance) => {
+  const dateMatch = instance.file.match(/\/([0-9]{4}-[0-9]{2}-[0-9]{2})[^/]*(?:\/index)?\.mdx?$/);
+  if (dateMatch !== null)
+    return {
+      date: new Date(dateMatch[1]),
+      title: instance.frontmatter.title.replace(/^[0-9]{4}([/-])[0-9]{1,2}\1[0-9]{1,2}\s*/, ""),
+      href: instance.url,
+    };
+  else
+    return [];
+})
 
 const eventsList = allEventsList.filter((eventInfo) =>
   Math.abs(Math.floor((eventInfo.date.getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))) < 180
