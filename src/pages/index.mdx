@@ -6,40 +6,37 @@ top: true
 toc: false
 ---
 
+import "@styles/top.scss";
+
 import Emergency from '@components/Emergency.mdx';
 import Notice from '@components/pages/Notice.astro';
+import Events from '@components/pages/Events.astro';
 
 <Emergency />
 
-## まずはここから
+<div class="largecards">
+  <div class="largecards__card">
+    <a href="/oc/"><span>大学生活に必要な情報システムの準備について<small>（新入生向け）</small></span></a>
+  </div>
+  <div class="largecards__card">
+    <a href="/faculty_members/"><span>東京大学における情報システムの準備について<small>（教員向け）</small></span></a>
+  </div>
+</div>
 
-- [大学生活に必要な情報システムの準備について<small>（新入生向け）</small>](/oc/)
-- [東京大学における情報システムの準備について<small>（教員向け）</small>](/faculty_members/)
-- [オンラインを活用するために](/online/)
-- [サポート窓口](/support/)
-{:.cards}
+<Events />
 
-## ピックアップ
+<div class="container">
+<div class="container__column">
 
-- [東京大学で初めて授業をする先生のためのITツール説明会<small>(2024/03/11)</small>](/events/2024-03-11/)
-- [東京大学でITツールをもっと活用するための説明会<small>(2024/03/15)</small>](/events/2024-03-15/)
-- [UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa)
-- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai)
-- [Googleドライブ](/google/drive/)
-- [OneDrive](/microsoft/onedrive/)
-{:.cards}
+## お知らせ
 
-### 授業にあたって
+{/* お知らせの追加は `src/data/notice.yml` を編集してください */}
 
-- [授業URLの連絡方法（教員向け）](/faculty_members/url)
-- [授業におけるZoom会議室の入室制限<small>（教員向け）</small>](/faculty_members/zoom_access_control)
-- [Zoomの追加ライセンス<small>（301人以上のミーティング・ウェビナー）</small>](/zoom/license)
-- [授業URLの連絡方法（学生向け）](/oc/url)
-- [オンライン授業への入室方法<small>（学生向け）</small>](/oc/join)
-- [オンライン授業の受講に利用可能な教室の一覧](/oc/rooms)
-{:.cards}
+<Notice lang="ja" strip />
 
-### 新着記事
+[過去のお知らせ一覧はこちら](/notice/)
+
+## 新着記事
 
 {/*
   概ね次の基準で掲載する
@@ -56,6 +53,25 @@ import Notice from '@components/pages/Notice.astro';
 - [学習管理システムの概要を知る，ITC-LMSを活用する](/articles/itc-lms/)
 - [オンラインのグループディスカッションで生じやすい問題とその対策案](/articles/group-discussion/)
 - [オンラインのグループディスカッションでワークシートを活用する](/articles/group-discussion-worksheet/)
+
+</div>
+<div class="container__column">
+
+## ピックアップ
+
+- [UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa)
+- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai)
+- [Googleドライブ](/google/drive/)
+- [OneDrive](/microsoft/onedrive/)
+{:.cards}
+
+### 授業にあたって
+- [授業URLの連絡方法（教員向け）](/faculty_members/url)
+- [授業におけるZoom会議室の入室制限<small>（教員向け）</small>](/faculty_members/zoom_access_control)
+- [Zoomの追加ライセンス<small>（301人以上のミーティング・ウェビナー）</small>](/zoom/license)
+- [授業URLの連絡方法（学生向け）](/oc/url)
+- [オンライン授業への入室方法<small>（学生向け）</small>](/oc/join)
+- [オンライン授業の受講に利用可能な教室の一覧](/oc/rooms)
 {:.cards}
 
 ### オンライン授業の実践など
@@ -65,13 +81,8 @@ import Notice from '@components/pages/Notice.astro';
 - [オンライン授業に関するアンケート](/questionnaire/)
 {:.cards}
 
-## お知らせ
-
-{/* お知らせの追加は `src/data/notice.yml` を編集してください */}
-
-<Notice lang="ja" strip />
-
-[過去のお知らせ一覧はこちら](/notice/)
+</div>
+</div>
 
 ## 東京大学のシステム
 
@@ -87,4 +98,5 @@ import Notice from '@components/pages/Notice.astro';
   - [UTokyo Slack](/slack/)
   - [UTokyo VPN](/utokyo_vpn/)
   - [一覧](/systems/)
+  {:.cards}
 </div>

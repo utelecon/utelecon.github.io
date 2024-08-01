@@ -1,0 +1,111 @@
+@import "color";
+@import "components/card.scss";
+
+.largecards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 896px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  grid-auto-rows: 12em;
+  grid-gap: 1em;
+  margin: 1em 0;
+  padding: 0;
+
+  &__card {
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    & > a {
+      @extend .card;
+
+      display: flex;
+      align-items: center;
+      padding: 1em 4em 1em 1em;
+      @media (max-width: 896px) {
+        padding: 1em;
+      }
+
+      &::after {
+        position: absolute;
+        content: "arrow_forward_ios";
+        font-family: "Material Icons";
+        font-weight: bold;
+        color: $heading-color;
+        right: 0.5em;
+      }
+    }
+  }
+}
+
+.largecards + h2 {
+  margin-top: 1.6em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  grid-gap: 2em;
+
+  &__column > .cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(2.5lh, 1fr);
+  }
+
+  &__column li {
+    font-size: 1rem;
+  }
+}
+
+.top__systems > .cards {
+  grid-template-columns: repeat(4, 1fr);
+
+  & > li:last-child {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    grid-column: -2 / -1;
+    justify-content: end;
+    align-items: flex-end;
+
+    & > a {
+      border: none;
+      background-color: transparent;
+      font-weight: normal;
+      height: fit-content;
+      width: fit-content;
+      padding: 0;
+
+      &::after {
+        content: "arrow_forward";
+        font-family: "Material Icons";
+        font-weight: bold;
+        color: $heading-color;
+        vertical-align: middle;
+      }
+
+      &:hover {
+        box-shadow: none;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+ul.date_list {
+  list-style-type: none;
+}
+
+.date {
+  width: 6rem;
+  color: $heading-color;
+  margin-right: 5px;
+
+  margin-left: -1rem;
+  font-size: large;
+  font-weight: bold;
+}

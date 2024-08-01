@@ -20,14 +20,28 @@
 
   & > a,
   & > li > a {
-    display: block;
-    border: 1px solid $black-gray;
-    border-left: 4px solid $heading-color;
-    font-weight: bold;
-    padding: 0.5em;
+    @extend .card;
   }
 }
 
 .cards + h2 {
   margin-top: 1.6em;
+}
+
+.card {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid $black-gray;
+  border-left: 4px solid $heading-color;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.5em;
+  background-color: white;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 2px 2px 3px -1px $heading-color;
+    transition: all .08s ease-in-out;
+  }
 }
