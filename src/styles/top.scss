@@ -63,11 +63,18 @@
 
 .top__systems > .cards {
   grid-template-columns: repeat(4, 1fr);
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 896px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
 
   & > li:last-child {
     display: flex;
-    height: 100%;
-    width: 100%;
     grid-column: -2 / -1;
     justify-content: end;
     align-items: flex-end;
