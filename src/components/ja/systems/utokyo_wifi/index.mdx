@@ -24,20 +24,20 @@ import Connect from "./Connect.mdx";
     />
 
   <Fragment slot="else">
-    - **手順1：利用する機器を確認する**  
-      通常のノートパソコンやスマートフォン，タブレットでは基本的にUTokyo Wi-Fiの利用が可能ですが，これ以外の電子機器や古い機器では接続ができないことがあります．例えば，WPA2-Enterprise方式に対応していない機器は接続できません．接続にあたっては，その機器のOSやドライバのアップデートを確認し，適切に更新して利用するようにしてください．
-    - **手順2：UTokyo Wi-Fiアカウントの発行を申請する**
-      - 既に有効なUTokyo Wi-Fiアカウントを持っている場合，アカウント発行の手順を繰り返す必要はありません（2台目以降の機器も同じアカウントで利用できます）．
-
+    ### 準備編：UTokyo Wi-Fiアカウントの発行を申請する
+    {:#apply}
+    次の手順に沿って，UTokyo Wi-Fiアカウントの発行を申請してください．ただし，既に有効なUTokyo Wi-Fiアカウントを持っている場合，アカウント発行の手順を繰り返す必要はありません（2台目以降の機器も同じアカウントで利用できます）．
       <Apply
         blockLink
         inlineHelp
         jouhouSecurity={<>「<a href="#jouhou-security">情報セキュリティ教育</a>」の項</>}
       />
-    - **手順3：UTokyo Wi-Fiに実際に接続する**
+    ### 利用編：UTokyo Wi-Fiに実際に接続する
+    {:#connect}
+    次の手順に沿って，UTokyo Wi-Fiに実際に接続してください．
       <Connect
-        deviceDescription="手順1で確認した機器"
-        applyStep="手順2"
+        deviceDescription="利用する機器"
+        applyStep="準備編の操作"
         connectConfiguration={<>下の「<a href="#connect-configuration">接続の詳細な設定</a>」の項</>}
       />
     {:.procedure.gap}
