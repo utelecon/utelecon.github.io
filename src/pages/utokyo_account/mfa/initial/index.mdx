@@ -74,7 +74,7 @@ import TabSelector from "@components/ja/mfa/TabSelectorGrid.astro";
     - **Microsoft Authenticatorの場合**：スマホに通知が送られ，サインイン画面に表示されている2桁の数字を入力するように求められるので，そのようにしてください．
         <details>
             <summary>※「Microsoft Autheticator アプリを現在使用できません」の表示について</summary>
-            <img src="signin_screen_msauth.png" alt="「サインイン要求」の画面に「Microsoft Autheticator アプリを現在使用できません」が表示されている" />
+            ![「サインイン要求」の画面に「Microsoft Autheticator アプリを現在使用できません」が表示されている](./signin_screen_msauth.png)
             画面に「Microsoft Authenticator アプリを現在使用できません」との表示が現れますが，これは，もしあなたがMicrosoft Authenticatorを使用できない状態にある場合にはここを押してくださいという旨のヘルプメッセージであり，システムがMicrosoft Authenticatorを使用できない状態にある旨のエラーメッセージではありません．
         </details>
     - **その他の認証アプリの場合**：アプリに表示されるコード（6桁の数字）を入力するように求められるので，そのようにしてください．
@@ -83,7 +83,7 @@ import TabSelector from "@components/ja/mfa/TabSelectorGrid.astro";
     <details>
         <summary>表示されているもの以外の本人確認方法を使いたい場合</summary>
         サインイン時の本人確認方法は，登録されている方法のいずれか（通常，最初に登録したもの）がデフォルトとして自動的に選ばれます．他の本人確認方法を使いたい場合は，画面上の「別の確認オプションを使用する」あるいは「Microsoft Authenticator アプリを現在使用できません」というリンクを押してください．
-        <img src="signin_with_another_method.png" />
+        ![](./signin_with_another_method.png)
         また，デフォルトの方法を変更したい場合は，下の「[既定（デフォルト）の本人確認方法を変更する](../change/#default)」の説明に従って作業してください．
     </details>
 1. 「セキュリティ情報」と書かれた多要素認証の設定ページが表示されればOKです．
@@ -103,13 +103,12 @@ import TabSelector from "@components/ja/mfa/TabSelectorGrid.astro";
 1. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet)にアクセスしてください．
 2. UTokyo Accountのユーザ名（10桁の数字）とパスワードを入力してログインしてください．
 3. 左のメニューにある「多要素認証利用申請」を押してください．
-    <img src="user_menu_1.png" />
+    ![](./user_menu_1.png)
 4. 表示される多要素認証に関する説明をよく読んでから，下の方にある「多要素認証を利用する」を「はい」にして，「保存」を押してください．
-    <img src="user_menu_2.png" />
+    ![](./user_menu_2.png)
 
 <div class="box">
-以上で多要素認証の初期設定手順は完了です．**設定がシステム全体に反映されるまで最大約40分かかります**ので，多要素認証の利用が必須なUTokyo VPNおよびUTokyo Slackを利用したい場合は，それまでしばらくお待ちください．  
-なお，UTokyo VPNを利用したい場合は，[UTokyo VPNのページ](/utokyo_vpn/)に記載されている作業も必要ですので，約40分の経過後，引き続き作業を行うようお願いします．
+以上で多要素認証の初期設定手順は完了です．**設定がシステム全体に反映されるまで最大約40分かかります**ので，UTokyo VPN等の多要素認証の利用が必須なシステムを利用したい場合は，それまでしばらくお待ちください．
 </div>
 
 ## おわりに

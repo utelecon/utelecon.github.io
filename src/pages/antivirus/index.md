@@ -25,3 +25,4 @@ redirect_from:
 - 2023年度にインストールした製品の有効期限は2024年4月30日です．
     - 2024年4月1日から2024年度版のウイルス対策ソフトの提供を開始しますので，有効期限内に「[2024年度 ウイルス対策ソフトウエア利用方法<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EYbM3GhwjNZMpIxtc6Hzv0oBZZ6YipGL_VCRhqhOcAPV_A)」に従って対応してください．有効期限を過ぎるとアップデートが止まり危険な状態になりますので，2024年4月1日以降，お早めに2024年度版の製品に変更してください．
     - 卒業・退職等で東京大学を離れる方は，利用資格を失い，ご利用いただけなくなります．「[2023年度に卒業•離職される方への注意事項<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」に従ってアンインストール等の作業をお願いします．
+       - 既に東京大学を離籍されている場合には、UTokyo Accountにサインインできないため、上記のページを閲覧することができません。その場合は[サポート窓口のメールフォーム](/support/#email-form)にてお問い合わせください。
