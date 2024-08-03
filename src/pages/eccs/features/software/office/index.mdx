@@ -4,15 +4,19 @@ breadcrumb:
   title: Officeアプリ
 ---
 
+import WwweccEol from "@components/ja/WwweccEol.astro";
+
+<WwweccEol systemName="ECCS端末"/>
+
 ECCS端末のMac環境・Windows環境には，いずれにもOfficeアプリがインストールされていますが，利用方法には違いがあります．このページでは，それぞれの環境での利用方法について説明します．
 
-なお，ECCS端末でWeb版Officeを利用する方法は，一般的な場合と同じです．詳しくは，UTokyo Micorsoft Licenseのページの「[Web版Office](https://utelecon.adm.u-tokyo.ac.jp/microsoft/#office_web)」を参照してください．
+なお，ECCS端末でWeb版Officeを利用する方法は，一般的な場合と同じです．詳しくは，UTokyo Micorsoft Licenseのページの「[Web版Office](/microsoft/#office_web)」を参照してください．
 
 ## Mac環境の場合
 
 Mac環境のOfficeアプリでは，利用に際してライセンス認証のための操作は不要です．Officeアプリを起動後そのまま利用できます．
 
-ただし，OneDrive上に保存されたのファイルをOfficeアプリで利用したり，Officeアプリで作成したファイルをOneDrive上に自動的に保存したりするためには，以下の手順に従ってサインインする必要があります．
+ただし，OneDrive上に保存されたファイルをOfficeアプリで利用したり，Officeアプリで作成したファイルをOneDrive上に自動的に保存したりするためには，以下の手順に従ってサインインする必要があります．
 
 ### サインイン方法
 
@@ -22,8 +26,7 @@ Mac環境のOfficeアプリでは，利用に際してライセンス認証の�
 3. サインイン画面が現れるので，UTokyo Accountでサインインしてください．
    - サインイン画面には，`0123456789@utac.u-tokyo.ac.jp`のように，10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたものを入力してください．
    ![](mac-signin.png)
-
-4. サインインが完了すると，スタート画面右上にあなたの氏名が表示されます．OneDrive上に保存されたファイルを利用したい場合は，スタート画面右側の「開く」からアクセスできます．
+4. サインインが完了すると，スタート画面左上にあなたの氏名が表示されます．OneDrive上に保存されたファイルを利用したい場合は，スタート画面左側の「開く」からアクセスできます．
    ![](mac-onedrive.png)
 
 ## Windows環境の場合
@@ -52,8 +55,8 @@ Windows環境のOfficeアプリでは，UTokyo Accountでサインインして�
 
 ### OneDriveの機能をOfficeアプリ上で利用する手順
 
-OneDrive上に保存されたファイルは，ライセンス認証を行った後に，スタート画面右側の「開く」から利用できます．
+OneDrive上に保存されたファイルは，ライセンス認証を行った後に，スタート画面左側の「開く」から利用できます．
 ![](windows-onedrive.png)
 
-直前にライセンス認証を行っていない場合は，画面左上の「サインイン」をクリックして，UTokyo Accountへサインインしてください．その後，スタート画面右側の「開く」から利用できます．
+直前にライセンス認証を行っていない場合は，画面右上の「サインイン」をクリックして，UTokyo Accountへサインインしてください．その後，スタート画面左側の「開く」から利用できます．
 ![](windows-start-signin.png)
