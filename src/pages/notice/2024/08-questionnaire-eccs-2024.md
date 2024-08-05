@@ -21,4 +21,4 @@ toc: false
 - [教育用計算機システム (ECCS) に関するアンケート - 講義担当教職員向け -](https://forms.gle/cyrzzFQXrfiWzNmS6)
   - ECCS を用いて，講義を行っている教(職)員向けのアンケートです．
 
-アンケートには2024年10月31日まで回答可能です． アンケートの集計結果は，個人を特定できないように加工した上で，uteleconサイト<[https://utelecon.adm.u-tokyo.ac.jp/](https://utelecon.adm.u-tokyo.ac.jp/)> で公開する予定です．どのように公開されるかについては，旧教育用計算機システムのウェブサイトで公開している前回の検討作業で実施したアンケート結果を参照ください<[https://www-old.ecc.u-tokyo.ac.jp/announcement/2018/06/18_2811.html](https://www-old.ecc.u-tokyo.ac.jp/announcement/2018/06/18_2811.html)>．
+アンケートには2024年10月31日まで回答可能です． アンケートの集計結果は，個人を特定できないように加工した上で，uteleconサイト<[https://utelecon.adm.u-tokyo.ac.jp/](/)> で公開する予定です．どのように公開されるかについては，旧教育用計算機システムのウェブサイトで公開している前回の検討作業で実施したアンケート結果を参照ください<<https://www-old.ecc.u-tokyo.ac.jp/announcement/2018/06/18_2811.html>>．
