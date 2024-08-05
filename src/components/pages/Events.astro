@@ -1,44 +1,76 @@
 ---
+import assert from "assert";
 import type { MDXInstance } from "astro";
 import type { Frontmatter } from "@layouts/Layout.astro";
 import If from "@components/utils/If.astro";
+import type { Lang } from "@components/types";
 
 interface eventInformation {
-  date: Date;
+  key: string;
+  date: Date | null;
   title: string;
   href: string;
 }
 
-const allEventsList = [
+interface Props {
+  show: string[];
+  lang: Lang;
+  alternative?: Record<this["show"][number], {date?: string; href?: string;}>;
+}
+
+const {
+  show,
+  lang,
+  alternative,
+} = Astro.props;
+
+const allEventsList: Map<string, eventInformation> = new Map([
   await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*/index.{md,mdx}"),
   await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*.{md,mdx}"),
-].flat().flatMap((instance) => {
-  const dateMatch = instance.file.match(/\/([0-9]{4}-[0-9]{2}-[0-9]{2})[^/]*(?:\/index)?\.mdx?$/);
-  if (dateMatch !== null)
-    return {
-      date: new Date(dateMatch[1]),
-      title: instance.frontmatter.title.replace(/^[0-9]{4}([/-])[0-9]{1,2}\1[0-9]{1,2}\s*/, ""),
-      href: instance.url,
-    };
-  else
-    return [];
-})
+].flat().map((instance) => {
+  const dateMatch = instance.file.match(/\/(([0-9]{4}-[0-9]{2}-[0-9]{2})?[^/]*)(?:\/index)?\.mdx?$/);
+  assert(dateMatch !== null);
+  assert(typeof instance.url !== "undefined")
 
-const eventsList = allEventsList.filter((eventInfo) =>
-  Math.abs(Math.floor((eventInfo.date.getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))) < 180
-);
-eventsList.sort((a, b) => b.date.getTime() - a.date.getTime());
+  return [
+    dateMatch[1],
+    {
+      key: dateMatch[1],
+      date: dateMatch[2] ? new Date(dateMatch[2]) : null,
+      title: instance.frontmatter.title?.replace(/^[0-9]{4}([/-])[0-9]{1,2}\1[0-9]{1,2}\s*/, "") ?? "",
+      href: instance.url,
+    },
+  ];
+}));
+
+const eventsList: eventInformation[] = show.map((key) => {
+  const eventInfo = allEventsList.get(key);
+  if (eventInfo)
+    return eventInfo;
+  else
+    throw new Error(`Event information entry for ${key} does not exist.`);
+});
 ---
 
 <If cond={eventsList.length > 0}>
-<h2>説明会情報</h2>
+<h2>{{
+  "ja": "説明会情報",
+  "en": "Recent Briefings"
+}[lang]}</h2>
 
 <ul class="date_list">
   {
-    eventsList.map(({ date, title, href }) => (
+    eventsList.map(({ key, date, title, href }) => (
       <li>
-        <span class="date">{date.toISOString().split("T")[0]}</span>
-        <span><a href={href}>{title}</a></span>
+        <span class="date">{alternative?.[key]?.date ?? date?.toLocaleDateString(lang, {dateStyle: "long"})}</span>
+        <span>
+          <a href={alternative?.[key]?.href ?? href}>
+            <If cond={Astro.slots.has(key)}>
+              <Fragment set:html={Astro.slots.render(key)} />
+              <Fragment slot="else">{title}</Fragment>
+            </If>
+          </a>
+        </span>
       </li>
     ))
   }
@@ -49,11 +81,20 @@ eventsList.sort((a, b) => b.date.getTime() - a.date.getTime());
 
   .date {
     display: inline-block;
-    width: 6rem;
     color: $heading-color;
-    margin-left: -1rem;
-    margin-right: 5px;
-    font-weight: bold;
+    margin-right: 8px;
+  }
+
+  .date_list {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content auto;
+
+    & > li {
+      display: grid;
+      grid-template-columns: subgrid;
+      grid-column: 1 / -1;
+    }
   }
 </style>
 </If>

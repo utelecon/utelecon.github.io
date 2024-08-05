@@ -17,6 +17,7 @@ import type { Lang } from "@components/types";
 export interface Props {
   lang: Lang;
   strip?: boolean;
+  localize?: boolean;
 }
 
 interface NoticeContent {
@@ -24,7 +25,7 @@ interface NoticeContent {
   content: string;
 }
 
-const { lang, strip } = Astro.props;
+const { lang, strip, localize } = Astro.props;
 
 const contents: NoticeContent[] = [];
 
@@ -38,12 +39,12 @@ for (const notice of notices) {
 }
 ---
 
-<ul class="date_list">
+<ul class=`date_list ${localize && "localized"}`>
   {
     contents.map(({ date, content }) => (
       <li>
-        <span class="date">{date.toISOString().split("T")[0]}</span>
-        <Markdown content={content} />
+        <span class="date">{localize ? date.toLocaleDateString(lang, {dateStyle: "long"}) : date.toISOString().split("T")[0]}</span>
+        <span class="title"><Markdown content={content} /></span>
       </li>
     ))
   }
@@ -57,5 +58,9 @@ for (const notice of notices) {
     width: 6rem;
     color: $heading-color;
     margin-right: 5px;
+  }
+
+  .date_list.localized .date {
+    width: auto;
   }
 </style>

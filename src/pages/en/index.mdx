@@ -9,6 +9,7 @@ import "@styles/top.scss";
 
 import Emergency from '@components/Emergency.mdx'
 import Notice from '@components/pages/Notice.astro'
+import Events from '@components/pages/Events.astro'
 
 <Emergency />
 
@@ -21,11 +22,13 @@ import Notice from '@components/pages/Notice.astro'
   </div>
 </div>
 
-## Recent Briefings
-
-- [<span class="date">2024/03/11</span> Briefing Session: Briefing Session on IT Tools for Instructors Teaching for the First Time at UTokyo <small>(only in Japanese)</small>](/events/2024-03-11)
-- [<span class="date">2024/03/15</span> Briefing Session: Briefing Session on Enhancing Use of IT Tools at UTokyo <small>(only in Japanese)</small>](/events/2024-03-15)
-{:.date_list}
+<Events show={[
+  "2024-03-15",
+  "2024-03-11",
+]} lang="en">
+<Fragment slot="2024-03-15">Briefing Session: Briefing Session on Enhancing Use of IT Tools at UTokyo <small>(only in Japanese)</small></Fragment>
+<Fragment slot="2024-03-11">Briefing Session: Briefing Session on IT Tools for Instructors Teaching for the First Time at UTokyo <small>(only in Japanese)</small></Fragment>
+</Events>
 
 <div class="container">
 <div class="container__column">
@@ -34,7 +37,7 @@ import Notice from '@components/pages/Notice.astro'
 
 {/* To add notice here, edit `src/data/notice.yml` */}
 
-<Notice lang="en" strip />
+<Notice lang="en" strip localize />
 
 [List of past notice is here](/en/notice/)
 

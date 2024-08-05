@@ -23,7 +23,11 @@ import Events from '@components/pages/Events.astro';
   </div>
 </div>
 
-<Events />
+<Events show={[
+  "2024-09-13",
+  "2024-03-15",
+  "2024-03-11",
+]} lang="ja" />
 
 <div class="container">
 <div class="container__column">
@@ -32,7 +36,7 @@ import Events from '@components/pages/Events.astro';
 
 {/* お知らせの追加は `src/data/notice.yml` を編集してください */}
 
-<Notice lang="ja" strip />
+<Notice lang="ja" strip localize />
 
 [過去のお知らせ一覧はこちら](/notice/)
 
