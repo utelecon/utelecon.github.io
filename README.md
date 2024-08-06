@@ -173,6 +173,26 @@ redirect_to: "/oc/join#form"
 - 基本的に`/`で始まるパスを指定する
 - リダイレクト先のページ内の特定の場所（例では`#form`）に飛ばしたい，外部のページに飛ばしたいなど，特別の事情がなければ`redirect_from`の方が良い
 
+### 複数ページに緊急のお知らせを掲載する
+
+`src/emergencies`内に以下のようなMarkdownファイルを配置することで，複数のページにまとめて緊急のお知らせを掲載することができます．掲載したいページのパスにマッチする正規表現を`pattern`に指定します．
+
+例：`src/emergencies/DummyLmsFailure.mdx`を作成して，`/utol/`以下のページに緊急のお知らせを掲載する
+```md
+---
+pattern: "^\/utol\/"
+---
+
+<div class="box">
+  UTOLの緊急のお知らせです．
+</div>
+
+```
+注
+- `pattern`には正規表現を文字列で指定してください．
+- `^\/utol\/$`のようにすると，`/utol/`のみに緊急のお知らせを掲載できます．
+- 同じページのパスに2つ以上の緊急のお知らせがマッチする場合，ファイル名の辞書順で同時に掲載されます．
+
 ## For developers
 
 `@components`に関するドキュメントが[`src/components/README.md`](src/components/README.md)にあります．
