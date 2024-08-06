@@ -39,7 +39,7 @@ for (const notice of notices) {
 }
 ---
 
-<ul class=`date_list ${localize && "localized"}`>
+<ul class:list={["date_list", {localized: localize}]}>
   {
     contents.map(({ date, content }) => (
       <li>

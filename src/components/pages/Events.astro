@@ -5,7 +5,7 @@ import type { Frontmatter } from "@layouts/Layout.astro";
 import If from "@components/utils/If.astro";
 import type { Lang } from "@components/types";
 
-interface eventInformation {
+interface EventInformation {
   key: string;
   date: Date | null;
   title: string;
@@ -24,7 +24,7 @@ const {
   alternative,
 } = Astro.props;
 
-const allEventsList: Map<string, eventInformation> = new Map([
+const allEventsList: Map<string, EventInformation> = new Map([
   await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*/index.{md,mdx}"),
   await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*.{md,mdx}"),
 ].flat().map((instance) => {
@@ -43,7 +43,7 @@ const allEventsList: Map<string, eventInformation> = new Map([
   ];
 }));
 
-const eventsList: eventInformation[] = show.map((key) => {
+const eventsList: EventInformation[] = show.map((key) => {
   const eventInfo = allEventsList.get(key);
   if (eventInfo)
     return eventInfo;
@@ -75,6 +75,7 @@ const eventsList: eventInformation[] = show.map((key) => {
     ))
   }
 </ul>
+</If>
 
 <style lang="scss">
   @import "@styles/color.scss";
@@ -97,4 +98,3 @@ const eventsList: eventInformation[] = show.map((key) => {
     }
   }
 </style>
-</If>
