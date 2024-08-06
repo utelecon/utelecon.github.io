@@ -1,7 +1,7 @@
 ---
 let emergencies = [];
 try {
-  emergencies = await Astro.glob("../emergencies/*.md");
+  emergencies = await Astro.glob("../emergencies/*.{md,mdx}");
 } catch (error) {
   if (error.name !== "AstroGlobNoMatch")
     throw error;
