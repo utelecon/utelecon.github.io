@@ -5,8 +5,8 @@ breadcrumb:
 slug: utokyo_wifi
 ---
 
-import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
-
+import Apply from "@components/en/systems/utokyo_wifi/Apply.mdx";
+import Connect from "@components/en/systems/utokyo_wifi/Connect.mdx";
 import Mfa100 from "./_Mfa100.mdx";
 
 <Mfa100 />
@@ -59,12 +59,25 @@ UTokyo Wi-Fi is only available to users who have completed the Information Secur
 
 ### Using UTokyo Wi-Fi on Shared Devices
 
-UTokyo Wi-Fi is only available on individuals' own device: **it is prohibited to use UTokyo Wi-Fi on a shared device by more than one person.** Because it allows anyone other than the user who owns a UTokyo Wi-Fi Account to use the service, and it is considered to be lending of an account, which is prohibited by the Terms of Use. However, if the OS user account is set up separately for each individual, and the UTokyo Wi-Fi account can only be used by the person who has obtained it, UTokyo Wi-Fi is able to be used.
+Laptops, smartphones, and tablets can generally connect to UTokyo Wi-Fi. However, other types of electronic devices and older devices may not be able to connect. For example, devices that do not support WPA2-Enterprise cannot be connected. Please check for updates to the OS and drivers of your devices and update them appropriately before connecting to UTokyo Wi-Fi.
+
+Please note that UTokyo Wi-Fi is only available on individuals' own device: **it is prohibited to use UTokyo Wi-Fi on a shared device by more than one person.** Because it allows anyone other than the user who owns a UTokyo Wi-Fi Account to use the service, and it is considered to be lending of an account, which is prohibited by the Terms of Use. However, if the OS user account is set up separately for each individual, and the UTokyo Wi-Fi account can only be used by the person who has obtained it, UTokyo Wi-Fi is able to be used.
 
 ## Steps to start using the service
 {:#initial-setup}
 
-<UTokyoWiFi variant="individual" class="gap" />
+### Preparation: Apply for a UTokyo Wi-Fi Account
+
+Note: If you already have a valid UTokyo Wi-Fi account, you do not need to repeat the account issuance procedure (the same account can be used for the second and subsequent devices).
+
+<Apply blockLink inlineHelp />
+
+### Usage: Connect to UTokyo Wi-Fi
+
+<Connect
+  applyStep="the above 'Preparation'"
+  connectConfiguration={<><a href="#connect-configuration">"Connect Configuration" section</a> below</>}
+/>
 
 ### Connect Configuration
 {:#connect-configuration}
