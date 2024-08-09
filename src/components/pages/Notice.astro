@@ -1,5 +1,6 @@
 ---
 import notices from "@data/notice.yml";
+import { hash } from "@data/utils/hash";
 import type { Notice } from "@data/schemas/notice";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
@@ -22,6 +23,7 @@ export interface Props {
 interface NoticeContent {
   date: Date;
   content: string;
+  id: string;
 }
 
 const { lang, strip } = Astro.props;
@@ -33,21 +35,27 @@ for (const notice of notices) {
   if (!content) continue;
 
   if (!strip || contents.length < (notice.important ? 12 : 8)) {
-    contents.push({ date: notice.date, content });
+    const id = hash(content);
+    contents.push({ date: notice.date, content, id });
   }
 }
 ---
 
 <ul>
   {
-    contents.map(({ date, content }) => (
-      <li>
+    contents.map(({ date, content, id }) => (
+      <li id={id}>
         <span class="date">{date.toISOString().split("T")[0]}</span>
         <Markdown content={content} />
       </li>
     ))
   }
 </ul>
+
+<script>
+  const target = document.querySelector(location.hash);
+  if (target) target.classList.add("listitem-highlight");
+</script>
 
 <style lang="scss">
   @import "@styles/color.scss";
@@ -57,5 +65,9 @@ for (const notice of notices) {
     width: 6rem;
     color: $heading-color;
     margin-right: 5px;
+  }
+
+  .listitem-highlight {
+    background-color: yellow;
   }
 </style>
