@@ -11,7 +11,7 @@ When you create a team and/or channel in Teams, a folder is automatically create
 
 Please note that the access to Microsoft Teams within the UTokyo Account is restricted to UTokyo faculty and staff members.
 
-If you wish to create a team, please join the「(T) IT Tools Utilization Community for University-wide Faculty and Staff」first and submit an application to create a team via the [UTokyo Portal page (accessible by faculty and staff members only)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx).
+If you wish to create a team, please join the"(T) IT Tools Utilization Community for University-wide Faculty and Staff"(This team name is displayed only in Japanese as「(T)全学教職員・ITツール利活用コミュニティ」) first and submit an application to create a team via the [UTokyo Portal page (accessible by faculty and staff members only)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx).
 
 ## How to access a team folder in Teams
 
