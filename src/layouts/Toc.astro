@@ -198,6 +198,7 @@ for (const heading of Astro.props.headings) {
       position: sticky;
       top: 1rem;
       pointer-events: none;
+      z-index: 100;
     }
     #toc-toggle {
       display: flex;
@@ -239,7 +240,6 @@ for (const heading of Astro.props.headings) {
       width: 100vw;
       height: 100vh;
       background: transparent;
-      z-index: 100;
       pointer-events: auto;
       aside.toc-open & {
         display: block;
@@ -262,7 +262,6 @@ for (const heading of Astro.props.headings) {
     }
     .toc-open #toc {
       display: block;
-      z-index: 100;
     }
   }
 </style>
