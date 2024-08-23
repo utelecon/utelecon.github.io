@@ -14,6 +14,8 @@ componentProps:
   tools: "ITC-LMS, Slack, YouTube, Google Drive, Zoom, iPad Pro, Apple Pencil 2, GoodNotes 5"
 ---
 
+import YouTube from "@components/embed/YouTube.astro";
+
 ## 授業の基本情報
 授業名　　:　計算数理I・計算数理  
 開講部局　:　理学部数学科・教養学部（後期課程）  
@@ -34,16 +36,7 @@ componentProps:
 
 ## 教員の基本情報
  
-<div style="display: flex;">
-<img src="img/saito_1.png" alt="齊藤 宣一 先生" height="150">
-<div style="padding-left:50px; height:150px; position:relative;">
-<p style="position: absolute; top: 50%; -webkit-transform : translateY(-50%); transform : translateY(-50%); width: 500px;">
-齊藤 宣一 先生<br>
-数理科学研究科<br>
-教授
-</p>
-</div>
-</div>
+<div style="display: flex;">![齊藤 宣一 先生](img/saito_1.png){:height="150"}<div style="padding-left:50px; height:150px; position:relative;"><p style="position: absolute; top: 50%; -webkit-transform : translateY(-50%); transform : translateY(-50%); width: 500px;">齊藤 宣一 先生<br />数理科学研究科<br />教授</p></div></div>
 
 
 ## 学生のコメント: この授業が良かった理由
@@ -75,9 +68,7 @@ componentProps:
 ## 工夫したところ
 ### Apple Pencil 2で講義ノートに書き込みを入れた
 
-<div style="padding:75% 0 0 0;position:relative;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/hPtz0fHigNk" title="2020年度Sセメスター グッドプラクティスの共有｜齊藤宣一 先生　計算数理I・計算数理｜GoodNotes 5とApple Pencil 2を用いた講義ノートへの書き込み｜utelecon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<YouTube src="https://www.youtube.com/embed/hPtz0fHigNk" title="2020年度Sセメスター グッドプラクティスの共有｜齊藤宣一 先生　計算数理I・計算数理｜GoodNotes 5とApple Pencil 2を用いた講義ノートへの書き込み｜utelecon" />
 
 授業日程に合わせて、講義ノートと、授業を録画した動画ファイル・録音した音声ファイルをITC-LMSにアップロードしました。授業の核は講義ノートとし、動画の視聴や音声の利用は任意としました。
 
@@ -113,20 +104,9 @@ componentProps:
 |第9-1回|43|
 |第9-2回|36|
 
-<div style="margin:40px 0px">
-<img src="img/saito_2.png" alt="" width="600px" style="display: block; margin : 0 auto">
-<img src="img/saito_3.png" alt="" width="600px" style="display: block; margin : 0 auto">
-<div style="text-align: center;">
-講義ノート
-</div>
-</div>
+<div style="margin:40px 0px">![](img/saito_2.png){:style="display: block; margin : 0 auto"}![](img/saito_3.png){:style="display: block; margin : 0 auto"}<div style="text-align: center;">講義ノート</div></div>
 
-<div style="margin:40px 0px">
-<img src="img/saito_4.png" alt="" width="600px" style="display: block; margin : 0 auto">
-<div style="text-align: center;">
-注釈付きの講義ノート
-</div>
-</div>
+<div style="margin:40px 0px">![](img/saito_4.png){:style="display: block; margin : 0 auto"}<div style="text-align: center;">注釈付きの講義ノート</div></div>
 
 
 
