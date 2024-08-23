@@ -20,7 +20,7 @@ import CreateMeeting from "./CreateMeeting.mdx";
     <SigninBrowser support={props.variant === "oc"} />
   </li>
   <li>
-    **作業：パソコンにアプリをインストールする**
+    **作業：パソコンにアプリをインストールする**<If cond={props.variant === "oc"}>（基本はPCのアプリで参加することを想定しています．Zoomアプリがインストールされていない場合は，インストールしてください．）</If>
     <InstallAppPc support={props.variant === "oc"} />
   </li>
   <li>
