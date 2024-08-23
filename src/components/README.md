@@ -5,6 +5,7 @@
 コンポーネントはHTMLの要素を返す関数で，複数ページに記述されている内容を共通化したり，そのようなコンポーネントを作るために使われたりします．またコンポーネントには，言語（日本語と英語）に依存しないもの，言語をpropで受け取って出し分けるもの，言語ごとに別々に定義されているものの3種類があります．
 
 このファイルの説明は，Markdownに関する基礎知識に加え，以下の2つのドキュメントを読んでいることを前提としています：
+
 - [What is MDX?](https://mdxjs.com/docs/what-is-mdx/)：MDXに関する基本的な説明
 - [スロット](https://docs.astro.build/ja/core-concepts/astro-components/#スロット)：Astroのコンポーネントに子要素を埋め込む「スロット」に関する説明
 
@@ -44,11 +45,13 @@ prop `cond`がtrueの場合だけ中身の要素が表示されます．また�
 ```
 
 注：`.mdx`の場合，JSXの中身もMarkdownとして解釈されます．また，Markdownでは単にテキストを書いた場合は`<p>`要素として解釈されます．よって，1つ目の例で`props.variant === "oc"`のときは以下のHTMLが出力されます：
+
 ```html
 <p>真の場合の内容</p>
 ```
 
 一方，`Fragment`はJSXで用いられる「空のタグ」で，JSXとして認識されますが，HTMLとしては何も出力されません．よって，2つ目の例で`props.variant === "oc"`のときは以下のHTMLが出力されます：
+
 ```html
 真の場合の内容
 ```
@@ -71,6 +74,7 @@ prop `variant`の値によって，表示する要素が切り替わります．
 ```
 
 注：`BlockIALPlugin`により，`.md`および`.mdx`では任意の属性を上のようなsyntaxで指定できます．これは`.astro`で用いられる`slot`属性も含まれます．よって，上の例で`props.variant === "individual"`のときは以下のHTMLが出力されます：
+
 ```html
 <ul>
   <li>学生向けの内容</li>
@@ -87,6 +91,7 @@ prop `variant`の値によって，表示する要素が切り替わります．
 利用例：[`ja/systems/utokyo_account/index.mdx`](ja/systems/utokyo_account/index.mdx)
 
 `/oc/#important`と`/oc/#others`で共通するコンポーネントを作るために利用します．`lang`を指定してください．
+
 - `variant === "oc"`かつ`short`がtrueの場合，`slot="important"`の要素だけが表示されます．
 - `variant === "oc"`かつ`short`がfalseの場合，`slot="important"`の要素は「再掲」と表示されて折りたたまれ，他の要素は表示されます．
 - `variant === "oc"`でない場合，`slot="important"`の要素と他の要素が表示されます．
@@ -120,6 +125,7 @@ prop `variant`の値によって，表示する要素が切り替わります．
 利用例：[`pages/Notice.astro`](pages/Notice.astro)
 
 [`@data`](../data)以下，またはフロントマターにMarkdownで定義されているデータを表示するために利用します．prop `content`にMarkdownを渡すと，それがHTMLに変換されて表示されます．**コンポーネントからコンポーネントにマークアップを渡すために利用しないでください**．代わりに，
+
 - `.mdx`のコンポーネントに渡す場合：`props`に`JSX.Element`を渡して，`{props.hoge}`として埋め込んでください．
   - 例：[`systems/utokyo_wifi/Apply.mdx`](systems/utokyo_wifi/Apply.mdx)
 - `.astro`のコンポーネントに渡す場合：`slot`を利用してください．
@@ -160,4 +166,13 @@ prop `variant`の値によって，表示する要素が切り替わります．
 `@components/{ja,en}/InPreparation.mdx`は，準備中のページを示すコンポーネントです．複数のページを一度に作成する際に，パンくずリストの生成に失敗したり，内部リンクが`404 Not Found`になったりすることを防ぐため，仮のページを作る場合に使われます．言語ごとに別々に定義されています（prop `lang`を取りません）．
 
 ### `WwweccEol.astro`
+
 `@components/{ja,en}/WwweccEol.astro`は，ECCSウェブサイトの閉鎖に伴うuteleconへのコンテンツ移行の旨を示すための特別なコンポーネントです．言語ごとに別々に定義されています（prop `lang`を取りません）．
+
+## 外部メディア等を埋め込むコンポーネント
+
+外部メディア等を埋め込み，スタイルを整えるためのコンポーネントです．これらのコンポーネントは言語に依存しません（prop `lang`を取りません）が，埋め込むメディア等によって異なるpropを取ります．`embed`以下にあります．
+
+### [`YouTube.astro`](embed/YouTube.astro)
+
+`@components/embed/YouTube.astro`は，YouTube動画を埋め込むためのコンポーネントです．prop `src` にYouTubeの埋め込み用URL（`https://www.youtube.com/embed/`から始まるURL）を渡すと，その動画が埋め込まれます．それ以外のprop（`title`など）を指定することもできます．
