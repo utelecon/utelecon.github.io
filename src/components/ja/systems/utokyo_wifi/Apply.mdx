@@ -29,40 +29,42 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
   */}
 
 1. <If cond={props.blockLink}>
-     以下の「UTokyo Wi-Fiアカウントメニュー」にアクセスしてください．
-     <b class="box center">[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
+   以下の「UTokyo Wi-Fiアカウントメニュー」にアクセスしてください．
      <Fragment slot="else">
-       「[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)」にアクセスしてください．
+     「[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)」にアクセスしてください．
      </Fragment>
    </If>
-1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+   - 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+   <If cond={props.blockLink}>
+     <b class="box center">[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
+   </If>
    <If cond={props.inlineHelp}>
      <ApplyHelpMFA type="details" />
      <ApplyHelpJouhouSecurity type="details" />
    </If>
 1. 「新規申請」ボタンを押してください．
-1. アカウント情報（ユーザーID・パスワード）が書かれた通知メールは，[ECCSクラウドメール](/google/)のメールアドレスと，「通知用メールアドレス」欄に表示されているメールアドレスの両方に届きます．<br />
-   ※申請後にアカウントメニューを閉じてしまうと，通知メール以外からはUTokyo Wi-Fiアカウントのパスワードを確認することができなくなります．次の作業に進む前に，通知メールを受け取れる状態になっているかどうかを確認してください．
-   <details>
-     <summary>通知用メールアドレスを変更したい場合</summary>
-     <If cond={props.utasOnly}>
-       通知メールが送信されるメールアドレスは，[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)の「学生情報」メニューにある「現住所等変更入力」の「E-MAIL 1」欄から変更することができます（なお，「E-MAIL 2」のアドレスはUTokyo Wi-Fiのメール送信先としては使えません）．なお，変更が反映されるまでに時間がかかりますので，翌日以降に改めてアカウント発行申請の作業を行ってください．
-       <Fragment slot="else">
-         通知メールが送信されるメールアドレスは次の場所から変更することができます．
-         
-         - 学生の場合 <small>※学生でも教職員でもあるアカウントの場合を含む</small>：[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)の「学生情報」メニューにある「現住所等変更入力」の「E-MAIL 1」欄（なお，「E-MAIL 2」のアドレスはUTokyo Wi-Fiのメール送信先としては使えません）
-         - 教職員の場合<small>※学生でも教職員でもあるアカウントの場合を除く</small>：[人事情報MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx)の「パーソナルメニュー」にある「本人属性変更：登録画面」の「学内メールアドレス」欄（ `u-tokyo.ac.jp` で終わるメールアドレスである必要があります）
-
-         なお，変更が反映されるまでに時間がかかりますので，翌日以降に改めてアカウント発行申請の作業を行ってください．
-       </Fragment>
+   - この時点ではまだ申請は行われていません．引き続き下の案内に従って申請を行ってください．
+1. 表示された画面で，「通知用メールアドレス」欄に記載されているメールアドレスが正しいか確認してください．
+   - UTokyo Wi-FiアカウントのユーザーID・パスワードは，[ECCSクラウドメール](/google/)およびこの「通知用メールアドレス」に宛てて通知されます．
+     <details>
+       <summary>通知用メールアドレスを変更したい場合</summary>
+       <If cond={props.utasOnly}>
+         通知メールが送信されるメールアドレスは，[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)の「学生情報」メニューにある「現住所等変更入力」の「E-MAIL 1」欄から変更することができます（なお，「E-MAIL 2」のアドレスはUTokyo Wi-Fiのメール送信先としては使えません）．なお，変更が反映されるまでに時間がかかりますので，翌日以降に改めてアカウント発行申請の作業を行ってください．
+         <Fragment slot="else">
+           通知メールが送信されるメールアドレスは次の場所から変更することができます．
+           
+           - 学生の場合 <small>※学生でも教職員でもあるアカウントの場合を含む</small>：[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)の「学生情報」メニューにある「現住所等変更入力」の「E-MAIL 1」欄（なお，「E-MAIL 2」のアドレスはUTokyo Wi-Fiのメール送信先としては使えません）
+           - 教職員の場合<small>※学生でも教職員でもあるアカウントの場合を除く</small>：[人事情報MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx)の「パーソナルメニュー」にある「本人属性変更：登録画面」の「学内メールアドレス」欄（ `u-tokyo.ac.jp` で終わるメールアドレスである必要があります）
+  
+           なお，変更が反映されるまでに時間がかかりますので，翌日以降に改めてアカウント発行申請の作業を行ってください．
+         </Fragment>
+       </If>
+     </details>
+1. 「申請」ボタンを押し，直後に画面に表示される内容を確認の上，ユーザーID・パスワードを控えてください．
+   - 「申請」ボタンを押してしばらく待つと，利用上の注意に加えて，新たに発行されたUTokyo Wi-FiアカウントのユーザーID・パスワードが画面上に表示されます．画面を閉じてしまうと，再度表示されませんので，注意してください．ただし，同様の内容は通知メールでも送信されます．
+     <If cond={props.inlineHelp}>
+       <ApplyHelpEmail type="details" />
      </If>
-   </details>
-   <If cond={props.inlineHelp}>
-     <ApplyHelpEmail type="details" />
-   </If>
-1. 「申請」ボタンを押してください．
-1. しばらく待つと通知メールが届きます．また，通知メールと同様の内容がアカウントメニューにも表示されます．
-
 <If cond={props.inlineHelp}>
   <Support lang="ja" show={props.support} />
   <Help lang="ja" support={props.support} slot="else">

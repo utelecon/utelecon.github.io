@@ -1,3 +1,4 @@
+import { fileURLToPath } from "node:url";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import { defineConfig } from "astro/config";
@@ -21,7 +22,7 @@ export default defineConfig({
     plugins: [yaml()],
     resolve: {
       alias: {
-        "@styles": "src/styles",
+        "@styles": fileURLToPath(new URL("./src/styles", import.meta.url)),
       },
     },
     server: {
