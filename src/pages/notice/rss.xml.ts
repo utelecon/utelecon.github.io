@@ -40,7 +40,7 @@ function createItem(notice: NoticeWithJa) {
   const link =
     typeof a?.properties?.href === "string"
       ? a.properties.href
-      : "/notice/#" + hash(notice.content.ja);
+      : `/notice/#${hash(notice.content.ja)}`;
   return {
     title,
     link,
