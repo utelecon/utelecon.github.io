@@ -22,7 +22,7 @@ import JoinBrowser from "./JoinBrowser.mdx";
     <SigninBrowser support={props.variant === "oc"} />
   </li>
   <li>
-    **作業：パソコンにアプリをインストールする**<If cond={props.variant === "oc"}>（基本はPCのアプリで参加することを想定しています．Zoomアプリがインストールされていない場合は，インストールしてください．）</If>
+    **作業：パソコンにアプリをインストールする**
     <InstallAppPc support={props.variant === "oc"} />
   </li>
   <li>
@@ -33,16 +33,14 @@ import JoinBrowser from "./JoinBrowser.mdx";
     **任意の作業：アプリにサインインする** <If cond={props.variant === "oc"}>（自分で会議を開く機会がある人などには便利です）</If>
     <SigninApp support={props.variant === "oc"} />
   </li>
-  <li>
-    **確認：アプリで東大のアカウント専用の会議室に入ってみる** <If cond={props.variant === "oc"}>（実際に授業で使う予定の機器でやっておきましょう．また，予備としてパソコンだけでなくスマホでもやっておくと安心です）</If>
+    **確認：東大のアカウント専用の会議室に入ってみる** <If cond={props.variant === "oc"}>（実際に授業で使う予定の機器でやっておきましょう．また，予備としてパソコンだけでなくスマホでもやっておくと安心です）</If>
     <JoinApp support={props.variant === "oc"} />
-  </li>
   <li>
-    **確認：ブラウザから東大のアカウント専用の会議室に入ってみる** 
+    **確認：ブラウザから東大のアカウント専用の会議室に入ってみる** <If cond={props.variant === "oc"}></If>
     <JoinBrowser support={props.variant === "oc"} />
   </li>
   <If cond={props.variant !== "oc"}>
-  <li>
+    <li>
       **練習：会議室を作ってみる**
       <CreateMeeting support={props.variant === "oc"} />
     </li>
