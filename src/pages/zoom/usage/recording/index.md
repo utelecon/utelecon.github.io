@@ -63,7 +63,9 @@ Zoomアプリの「ミーティングのスケジューリング」，または�
 2. ローカルにレコーディングするかクラウドにレコーディングするかを選択し，「保存」を押してください．
 ![](zoom_autorecording_app.png){:.border}
 ![](zoom_autorecording_appsetting.png){:.border}
-また，Zoomのウェブポータルの「設定」から，「レコーディング」を開き，「自動レコーディング」のトグルを選択して有効にしておくと，ミーティング別に設定を行わなくても，そのユーザーが作成する全てのミーティングで自動的にレコーディングが開始されます．![](zoom_autorecording_portal.png)![](zoom_autorecording_portalsetting.png)
+  * なお，Zoomのウェブポータルの「設定」から，「レコーディング」を開き，「自動レコーディング」のトグルを選択して有効にしておくと，ミーティング別に設定を行わなくても，そのユーザーが作成する全てのミーティングで自動的にレコーディングが開始されます．
+  ![](zoom_autorecording_portal.png){:.border}
+  ![](zoom_autorecording_portalsetting.png){:.border}
 
 ## レコーディングを管理・共有する
 
