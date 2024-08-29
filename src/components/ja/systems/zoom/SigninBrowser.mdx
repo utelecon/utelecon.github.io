@@ -24,11 +24,13 @@ import SigninBrowserHelpExisting from "./SigninBrowserHelpExisting.mdx";
    </If>
 4. サインインが完了します．右上のアイコン（人のマーク，または設定した自分のアイコン）を押したときに，自分のUTokyo Accountとともに「ライセンス ユーザー」と表示されれば，OKです．
    <If cond={props.big}>
-     ![](/zoom/signin/license.png)
+     ![](/zoom/signin/lisence.png){:.medium}
    </If>
 
-<Help lang="ja" support={props.support}>
-  - 上のリンクにアクセスしても「UTokyo Zoom」と書かれたページが表示されない場合：以前から持っていた自分のアカウントで，Zoomにサインインしているときに起きます．Zoomの設定画面の右上のアイコン（人のマーク，または設定した自分のアイコン）を押して，「サインアウト」してください．その後，アクセスし直してみてください．
-
-</Help>
+<If cond={props.inlineHelp}>
+  <Support lang="ja" show={props.support} />
+  <Help lang="ja" support={props.support} slot="else">
+    - <SigninBrowserHelpExisting type="oneline" />
+  </Help>
+</If>
 
