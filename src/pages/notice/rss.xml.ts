@@ -1,5 +1,4 @@
 import rss, { type RSSFeedItem } from "@astrojs/rss";
-import notices from "@data/notice.yml";
 import type { Notice } from "@data/schemas/notice";
 import { unified } from "unified";
 import remarkParse from "remark-parse";

@@ -50,7 +50,7 @@ for (const notice of noticesWithId) {
 </ul>
 
 <script>
-  const target = document.querySelector(location.hash);
+  const target = document.getElementById(location.hash.slice(1));
   if (target) target.classList.add("listitem-highlight");
 </script>
 
