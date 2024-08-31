@@ -24,8 +24,8 @@ export async function GET(context: APIContext) {
     const title = toText(hast);
     const a = select("p > a:only-child[href]", hast);
     const link =
-      typeof a?.properties?.href === "string"
-        ? a.properties.href
+      a && toText(a) === title
+        ? (a.properties.href as string)
         : `/notice/#${notice.id}`;
     itemsMap.set(link, {
       title,
