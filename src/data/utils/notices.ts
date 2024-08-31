@@ -12,7 +12,7 @@ export function getISODateString(date: Date) {
 const noticesWithIdReversed: NoticeWithId[] = [];
 const dateAutoincrementMap = new Map<string, number>();
 
-for (const notice of (notices as Notice[]).slice().reverse()) {
+for (const notice of (notices as Notice[]).toReversed()) {
   if (!notice.content.ja) continue;
 
   const date = getISODateString(notice.date);
@@ -23,6 +23,6 @@ for (const notice of (notices as Notice[]).slice().reverse()) {
   noticesWithIdReversed.push({ ...notice, id });
 }
 
-const noticesWithId = noticesWithIdReversed.slice().reverse();
+const noticesWithId = noticesWithIdReversed.toReversed();
 
 export { noticesWithIdReversed, noticesWithId };
