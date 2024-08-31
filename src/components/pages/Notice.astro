@@ -1,7 +1,5 @@
 ---
-import notices from "@data/notice.yml";
-import { hash } from "@data/utils/hash";
-import type { Notice } from "@data/schemas/notice";
+import { getISODateString, noticesWithId } from "@data/utils/notices";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
 
@@ -30,13 +28,12 @@ const { lang, strip } = Astro.props;
 
 const contents: NoticeContent[] = [];
 
-for (const notice of notices) {
+for (const notice of noticesWithId) {
   const content = notice.content[lang] ?? notice.content.ja;
   if (!content) continue;
 
   if (!strip || contents.length < (notice.important ? 12 : 8)) {
-    const id = hash(content);
-    contents.push({ date: notice.date, content, id });
+    contents.push({ date: notice.date, content, id: notice.id });
   }
 }
 ---
@@ -45,7 +42,7 @@ for (const notice of notices) {
   {
     contents.map(({ date, content, id }) => (
       <li id={id}>
-        <span class="date">{date.toISOString().split("T")[0]}</span>
+        <span class="date">{getISODateString(date)}</span>
         <Markdown content={content} />
       </li>
     ))
