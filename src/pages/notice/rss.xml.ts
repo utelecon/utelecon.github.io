@@ -24,9 +24,16 @@ export async function GET(context: APIContext) {
   return rss({
     title,
     description,
-    site: context.site!,
+    site: context.url.origin,
     items,
     trailingSlash: false,
+    xmlns: {
+      atom: "http://www.w3.org/2005/Atom",
+    },
+    customData: [
+      "<language>ja-jp</language>",
+      `<atom:link href="${context.url}" rel="self" type="application/rss+xml" />`,
+    ].join(""),
   });
 }
 
