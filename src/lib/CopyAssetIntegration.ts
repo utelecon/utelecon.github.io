@@ -25,7 +25,7 @@ export default function CopyAssetIntegration(): AstroIntegration {
       "astro:build:done": async ({ dir, routes }) => {
         await Promise.all(
           routes.map(async ({ pathname, component }) => {
-            if (!pathname || pathname.endsWith("/rss.xml")) return;
+            if (!pathname) return;
             const path =
               pathname === "/404"
                 ? join(fileURLToPath(dir), "404.html")

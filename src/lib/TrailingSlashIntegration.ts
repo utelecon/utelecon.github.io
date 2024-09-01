@@ -9,26 +9,25 @@ export default function trailingSlash(): AstroIntegration {
     hooks: {
       "astro:build:done": async ({ dir, routes }) => {
         await Promise.all(
-          dedupe(routes).map(async ({ component, pathname }) => {
-            if (
-              !pathname ||
-              pathname === "/404" ||
-              pathname.endsWith("/rss.xml")
+          dedupe(routes)
+            .filter(
+              ({ component, pathname }) =>
+                parse(component).name !== "index" &&
+                !component.endsWith("/") &&
+                pathname !== "/404",
             )
-              return;
-            if (parse(component).name === "index" || component.endsWith("/"))
-              return;
-
-            const source = join(fileURLToPath(dir), pathname, "index.html");
-            const sourceDir = join(fileURLToPath(dir), pathname);
-            const destination = join(
-              fileURLToPath(dir),
-              `${pathname.replace(/\/$/, "")}.html`,
-            );
-            await fs.rename(source, destination);
-            const files = await fs.readdir(sourceDir);
-            if (files.length === 0) await fs.rmdir(sourceDir);
-          }),
+            .map(async ({ pathname }) => {
+              if (!pathname) return;
+              const source = join(fileURLToPath(dir), pathname, "index.html");
+              const sourceDir = join(fileURLToPath(dir), pathname);
+              const destination = join(
+                fileURLToPath(dir),
+                `${pathname.replace(/\/$/, "")}.html`,
+              );
+              await fs.rename(source, destination);
+              const files = await fs.readdir(sourceDir);
+              if (files.length === 0) await fs.rmdir(sourceDir);
+            }),
         );
       },
     },

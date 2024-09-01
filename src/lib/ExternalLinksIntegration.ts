@@ -20,7 +20,7 @@ export default function externalLinks(options: Options): AstroIntegration {
       "astro:build:done": async ({ dir, routes }) => {
         await Promise.all(
           routes.map(async ({ pathname }) => {
-            if (!pathname || pathname.endsWith("/rss.xml")) return;
+            if (!pathname) return;
             const path =
               pathname === "/404"
                 ? join(fileURLToPath(dir), "404.html")
