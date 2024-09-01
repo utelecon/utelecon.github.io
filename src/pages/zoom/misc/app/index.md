@@ -41,8 +41,8 @@ breadcrumb:
   <li> 「スケジュール」を押します．<br>
     <img src="top2.png"> </li>
   <li> 以下の情報を設定してミーティングをスケジュールします．<br>  
-    <img src="schedule.png"> <br>
-    <img src="schedule_detail.png"> <br> 
+    <img src="schedule1.png"> <br>
+    <img src="schedule2.png"> <br> 
     以下，特に補足が必要な点に絞って説明します．
     <ul>
       <li> <strong>ビデオ</strong> : ミーティング開始時にビデオを最初からオンにするかオフにするか，ホスト（開催者）と参加者別に設定可能</li>
@@ -50,7 +50,7 @@ breadcrumb:
       <li> <strong>カレンダー</strong> : Outlook や Google カレンダーと連携可能だが，ミーティングの情報をコピー&ペーストするためにも「他のカレンダー」を選択することを推奨</li>
       <li> <strong>詳細オプション</strong> : 
         <ul>
-          <li><strong>ホストより前の参加を有効にする</strong> : オフにするとホストが入らないと他の参加者も会議室に入れない．他の参加者が早めに入って少し話しても良いのであれば ON にすることを推奨</li>
+          <li><strong>開始時刻前に任意の時間に参加することを参加者に許可します</strong> : オフにするとホストが入らないと他の参加者も会議室に入れない．他の参加者が早めに入って少し話しても良いのであれば ON にすることを推奨</li>
           <li><strong>エントリー時に参加者をミュート</strong> : 最初は一方向的に説明したいときなどに ON にすること推奨</li>
         </ul>
       </li>
