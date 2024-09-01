@@ -126,16 +126,16 @@ for (const heading of Astro.props.headings) {
         content: "";
         position: absolute;
         border-radius: 50%;
-        top: 1em;
-        @media (pointer: coarse) {
-          top: 1.5em;
-        }
         left: - calc($toc-ul-left-padding / 2);
         width: 4px;
         height: 4px;
         transform: translate(-50%, -50%);
         background: $link-color-light;
         border: 2px solid $white-gray-light;
+        top: 1em;
+        @media (pointer: coarse) {
+          top: 1.5em;
+        }
       }
     }
     ul.toc-h2 {
@@ -198,6 +198,7 @@ for (const heading of Astro.props.headings) {
       position: sticky;
       top: 1rem;
       pointer-events: none;
+      z-index: 100;
     }
     #toc-toggle {
       display: flex;
@@ -239,7 +240,6 @@ for (const heading of Astro.props.headings) {
       width: 100vw;
       height: 100vh;
       background: transparent;
-      z-index: 100;
       pointer-events: auto;
       aside.toc-open & {
         display: block;
@@ -262,7 +262,6 @@ for (const heading of Astro.props.headings) {
     }
     .toc-open #toc {
       display: block;
-      z-index: 100;
     }
   }
 </style>

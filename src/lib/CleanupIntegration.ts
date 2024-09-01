@@ -12,15 +12,22 @@ export function cleanup(): AstroIntegration {
     hooks: {
       "astro:build:done": async ({ dir }) => {
         const path = fileURLToPath(dir);
-        const files = await glob("**/*", { cwd: path, nodir: true, absolute: true });
-        await Promise.all(files.map((file) => {
-          if (
-            source.includes(extname(file)) ||
-            basename(file).startsWith("_")
-          ) {
-            return fs.rm(file);
-          }
-        }));
+        const files = await glob("**/*", {
+          cwd: path,
+          nodir: true,
+          absolute: true,
+          ignore: "_astro/**/*",
+        });
+        await Promise.all(
+          files.map((file) => {
+            if (
+              source.includes(extname(file)) ||
+              basename(file).startsWith("_")
+            ) {
+              return fs.rm(file);
+            }
+          }),
+        );
       },
     },
   };
