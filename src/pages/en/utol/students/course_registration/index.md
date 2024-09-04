@@ -13,7 +13,7 @@ Once you “register for a course”, it will appear on the timetable, and you c
 
 There are four types of course registrations, and the timetable displays which type of registration has been made.
 
-[英語画像挿入]
+![The timetable shows whether the course is registered through self-registration, or by its instructor, etc.](./type.png)
 
 For your convenience, the course registrations types will be divided into the following two categories.
 
@@ -48,16 +48,16 @@ If a course instructor has set up a course so that students can “audit” it, 
 
 1. To find the course you wish to enroll in, use the [Search Course function](../course_search/). If you check the “Only courses that can be registered” box, only courses that allow “self-registration” will be displayed.
 
-[英語画像挿入]
+    ![](./search.png)
 
 2. Click the course title in the Search Result List to display the course screen. Click the button “Register a course” at the upper right corner of the course screen.
-If the button “Register a course” is not present on the course screen, please ask the instructor to change the course settings or manually register for the course.
+    * If the button “Register a course” is not present on the course screen, please ask the instructor to change the course settings or manually register for the course.
 
-[英語画像挿入]
+    ![](./reg1.png)
 
 3. To register for the course, click the button “Register a course” when the dialogue “Click on the “Register” button to take the course” is displayed.
 
-[英語画像挿入]
+    ![](./reg2.png)
 
 4. Log out of UTOL and log in again. When you open the timetable, the course you have registered for will be displayed.
 
@@ -80,10 +80,10 @@ For “self-registration” courses, students can cancel their registration foll
 1. Click the title of the course from which you wish to unregister.
 2. Click the button “Unregister a course” at the upper right corner of the Course Top screen.
 
-[英語画像挿入]
+    ![](./unreg1.png)
 
 3. Click the button “Unregister the course” when the dialogue “Are you sure you wish to unregister the course?” is displayed.
 
-[英語画像挿入]
+    ![](./unreg2.png)
 
 4. Log out of UTOL and log in again. When you open the timetable, the courses from which you unregistered will not be displayed.
