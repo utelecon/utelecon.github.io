@@ -19,7 +19,7 @@ For your convenience, the course registrations types will be divided into the fo
 
 1. Registration by course instructors or through UTAS:
     * “Enrolled registration”: Automatically registers the courses you have taken.
-    * “Favorite registration”: Is a registration made through the UTAS (the Educational System). This registration will be deleted after the enrollment period.
+    * “Favorite registration”: Is a registration made through the UTAS (the academic affairs system). This registration will be deleted after the enrollment period.
     * “Registered by instructor”: Is a registration that the course instructor made manually.
 
 2. Temporary self-registration by the students:
@@ -27,7 +27,7 @@ For your convenience, the course registrations types will be divided into the fo
 
 After the enrollment registration period ends, the “favorite registrations” will be deleted.  In addition, depending on the course settings, “self-registrations” may be deleted, and you may not be able to register for a new course. In this case, to register for a course, please ask your course instructor to change the course settings.
 
-**Even if you proceed with the “course registration” in UTOL, you will not be enrolled in the course. Therefore, if you need to enroll in a course, be sure to use UTAS (the Educational System) for enrollment registration.**
+**Even if you proceed with the “course registration” in UTOL, you will not be enrolled in the course. Therefore, if you need to enroll in a course, be sure to use UTAS (the academic affairs system) for enrollment registration.**
 
 ## Procedures for registering for a course
 
