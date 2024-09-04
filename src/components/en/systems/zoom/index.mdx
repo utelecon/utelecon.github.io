@@ -2,7 +2,8 @@ import If from "@components/utils/If.astro";
 import SigninBrowser from "./SigninBrowser.mdx";
 import InstallAppPc from "./InstallAppPc.mdx";
 import InstallAppSp from "./InstallAppSp.mdx";
-import Join from "./Join.mdx";
+import JoinApp from "./JoinApp.mdx";
+import JoinBrowser from "./JoinBrowser.mdx";
 import SigninApp from "./SigninApp.mdx";
 import CreateMeeting from "./CreateMeeting.mdx";
 
@@ -20,7 +21,7 @@ import CreateMeeting from "./CreateMeeting.mdx";
     <SigninBrowser support={props.variant === "oc"} />
   </li>
   <li>
-    **Task: Install the application on your computer**
+    **Task: Install the application on your computer**<If cond={props.variant === "oc"}>(It is assumed that you will primarily participate using the PC app. If the Zoom app is not installed, please install it.)</If>
     <InstallAppPc support={props.variant === "oc"} />
   </li>
   <li>
@@ -28,12 +29,16 @@ import CreateMeeting from "./CreateMeeting.mdx";
     <InstallAppSp support={props.variant === "oc"} />
   </li>
   <li>
-    **Check: Enter UTokyo member restricted Zoom meeting rooms** <If cond={props.variant === "oc"}>(Try using the actual device you plan to use in class. It is also a good idea to try this on your smartphone as well as your computer as a backup.)</If>
-    <Join support={props.variant === "oc"} />
+    **Optional Task: Sign in to the application** <If cond={props.variant === "oc"}>(useful for people who have opportunities to host meetings) </If>
+    <SigninApp big support={props.variant === "oc"} />
   </li>
   <li>
-    **Optional Task: Sign in to the application** <If cond={props.variant === "oc"}>(useful for people who have opportunities to host meetings) </If>
-    <SigninApp support={props.variant === "oc"} />
+    **Check: Try joining a meeting room dedicated to UTokyo account using the app** <If cond={props.variant === "oc"}>(Try using the actual device you plan to use in class. It is also a good idea to try this on your smartphone as well as your computer as a backup.)</If>
+    <JoinApp big support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Check: Try joining a meeting room dedicated to UTokyo account from your browser** <If cond={props.variant === "oc"}>(Try using the actual device you plan to use in class. It is also a good idea to try this on your smartphone as well as your computer as a backup.)</If>
+    <JoinBrowser big support={props.variant === "oc"} />
   </li>
   <If cond={props.variant !== "oc"}>
     <li>
