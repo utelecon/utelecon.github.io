@@ -17,28 +17,30 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 
 ## 概要
 - **期日**：2024年9月13日（金）
-- **時間**：15:00～17:00（セッション終了後も質問を受け付けます）
+- **時間**：15:00～17:00（終了後も質問を受け付けます）
 - **会場**：オンライン（Zoomミーティング，[要事前登録](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu)）
 
 説明会の資料・動画はこのページで提供します．
 
-## 内容（予定）
-内容は仮のものであり，[事前アンケート](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu)に寄せられた回答に基づいて見直しをおこないます．
-
-現在は資料の暫定版（[英語版](/en/events/2024-09-13/slides/2024-07-10_tentative_material_en.pdf)・[日本語訳版](/events/2024-09-13/slides/2024-07-10_tentative_material_jp.pdf)）を公開しています．最終版の資料は当日までに更新します．また，説明会の動画を後日アップロードします．
-
+## 内容（更新しました）
 - 説明会の趣旨と全体像
 - Part I: 東京大学における情報システムの基礎
   - UTokyo Account
-  - 情報セキュリティ（多要素認証）
+  - 初期設定と多要素認証
+  - 情報セキュリティ教育
   - UTokyo Wi-Fi
-- Part II: 東京大学での教育活動に利用するシステム - UTASとUTOL
+- Part II: 東京大学で利用可能なコミュニケーションツールとクラウドサービス
+  - Zoom とオンライン会議のためのツール
+  - UTokyo Slack
+  - ECCS クラウドメール (Google Workspace)
+  - UTokyo Microsoft License
+  - 生成AI
+  - サポート体制
+- Part III: 東京大学での教育活動に利用する情報システム – UTAS と UTOLS
   - UTAS
   - UTOL
-- Part III: 東京大学で利用可能なコミュニケーションツールとクラウドサービス
-  - Zoom, Webex, Slack, ECCS (Google), Microsoft
+- 質疑応答（終了後も質問を受け付けます）
 - 全体まとめ
-- 質疑応答
 
 説明会ではSlidoを使って質問を受け付けます．事前の質問も歓迎します．（質問は可能な限り英語でお寄せください．）
 
