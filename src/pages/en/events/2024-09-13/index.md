@@ -41,7 +41,7 @@ Materials and recording of the session will be provided on this page.
 - Q&A session (Questions will also be accepted after the session)
 - Closing Remarks
 
-You can ask questions during the session using Slido. Questions in advance are also welcome.
+You can ask questions during the session using **[this Slido](https://app.sli.do/event/faBx8JbTgARtVdPB75oNQB)** (or access [https://sli.do/](https://sli.do/) and use code = `utelecon20240913`). Questions in advance are also welcome.
 
 ### Presenter
 - TAURA Kenjiro, Executive Director and Vice President
