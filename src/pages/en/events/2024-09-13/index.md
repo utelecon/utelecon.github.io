@@ -22,20 +22,20 @@ In addition, students are also welcome to attend the session, although the expla
 Materials and recording of the session will be provided on this page.
 
 ## Contents (updated)
-- Purpose and Outline of the Session
-- Part I Basics of the ICT Systems in UTokyo
+- Purpose and Outline of the Session ([Material]())
+- Part I Basics of the ICT Systems in UTokyo ([Material]())
   - UTokyo Account
   - Initial Setting and MFA (Multi-Factor Authentication)
   - Information Security Education
   - UTokyo Wi-Fi
-- Part II: Communication Tools and Cloud Services Available in UTokyo
+- Part II: Communication Tools and Cloud Services Available in UTokyo ([Material]())
   - Zoom and Tools for Online Meetings
   - UTokyo Slack
   - ECCS Cloud Email (Google Workspace)
   - UTokyo Microsoft License
   - Generative AI
   - How to Get Supported
-- Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL
+- Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL ([Material]())
   - UTAS
   - UTOL
 - Q&A session (Questions will also be accepted after the session)
