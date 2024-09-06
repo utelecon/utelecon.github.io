@@ -21,24 +21,25 @@ In addition, students are also welcome to attend the session, although the expla
 
 Materials and recording of the session will be provided on this page.
 
-## Contents (tentative)
-**The contents are tentative** and will be revised based on the responses to [pre-session questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu).
-
-You can view a [tentative version of the materials](/en/events/2024-09-13/slides/2024-07-10_tentative_material_en.pdf). The finalized version will be updated by the day of the session. Additionally, the recording of the session will be uploaded on this page after the session.
-
-
+## Contents (updated)
 - Purpose and Outline of the Session
 - Part I Basics of the ICT Systems in UTokyo
   - UTokyo Account
-  - Security (Multi-Factor Authentication)
+  - Initial Setting and MFA (Multi-Factor Authentication)
+  - Information Security Education
   - UTokyo Wi-Fi
-- Part II: Systems for Educational Activities in UTokyo - UTAS and UTOL
+- Part II: Communication Tools and Cloud Services Available in UTokyo
+  - Zoom and Tools for Online Meetings
+  - UTokyo Slack
+  - ECCS Cloud Email (Google Workspace)
+  - UTokyo Microsoft License
+  - Generative AI
+  - How to Get Supported
+- Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL
   - UTAS
   - UTOL
-- Part III: Communication Tools and Cloud Services Available in UTokyo
-  - Zoom, Webex, Slack, ECCS (Google services), Microsoft services
+- Q&A session (Questions will also be accepted after the session)
 - Closing Remarks
-- Q&A session
 
 You can ask questions during the session using Slido. Questions in advance are also welcome.
 
