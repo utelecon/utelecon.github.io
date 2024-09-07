@@ -8,7 +8,7 @@ This page describes the following procedures regarding [UTokyo Account Multi-Fac
 
 - **Reregister Verification Method**: In case you lose access to all verification methods and are unable to sign in to the UTokyo Account, we can take measures to allow you to retry the registration process for MFA all over again and keep using MFA.
     - Check if any of your verification methods can be used beforehand as described below. Please follow the procedures only if all verification methods are no longer available.
-- **Terminate** MFA Use: If you wish to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password, please follow this procedure. We strongly recommend that you continue using MFA for security reasons, but we can take measures to terminate MFA use for unavoidable circumstances. Be aware that after terminating MFA, you cannot use [UTokyo VPN](/en/utokyo_vpn/) and [UTokyo Slack](/en/slack/), which requires the use of MFA.
+- **Terminate** MFA Use: If you wish to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password, please follow this procedure. We strongly ask all users to use  MFA for security reasons, but we can take measures to terminate MFA use for unavoidable circumstances. Be aware that after terminating MFA, you cannot use [UTokyo VPN](/en/utokyo_vpn/) and [UTokyo Slack](/en/slack/), which requires the use of MFA.
 
 The “Reregistering Verification Method” procedure was renamed from the “Resetting” procedure in September 2022.
 
@@ -42,7 +42,7 @@ During this procedure, **you are strongly recommended to register multiple verif
 ### Terminate MFA Use
 {:#terminate}
 
-We recommend that you continue using MFA for security reasons, but, for unavoidable circumstances, we can take measures to terminate MFA use and reverse your UTokyo Account settings to allow signing in with only a password. Please follow the instructions below.
+We ask you to continue using MFA for security reasons, but, for unavoidable circumstances, we can take measures to terminate MFA use and reverse your UTokyo Account settings to allow signing in with only a password. Please follow the instructions below.
 
 1. Please apply for termination by following the procedures in “[Application](#application-method)”.
 1. The MFA for your account will be terminated. A notification email will be sent after a while.
