@@ -1,8 +1,8 @@
 ---
 title: Other Information About the Multi-Factor Authentication for UTokyo Accounts
+breadcrumb:
+  title: Other Information
 ---
-
-[Return to the top page of the description of Multi-Factor Authentication](.)
 
 ## Hardware Tokens (for Faculty Members)
 {:#hardware-token}
@@ -15,8 +15,8 @@ Authentication apps and phone numbers (SMS or phone calls) are the standard veri
 If you are using Microsoft Authenticator for MFA, you can verify your identity by entering the 6-digit code displayed on the app instead of approving the sign-in after receiving a notification on your app (which is the standard method). This method is available even when your phone is offline and is resilient against network failure.
 
 1. Click the “Sign in another way” (or “I can’t use my Microsoft Authenticator app right now.”) link in the verification screen that appears after entering your username (10-digit number) and password for the UTokyo Account.
-1. In the following screen, click “Use a verification code from my mobile app” (or “Use a verification code”).
-1. In the following screen, you will be asked to enter the verification code with the message “Enter code” (or “Enter the code displayed in the authenticator app on your mobile device​​”). Obtain the code (6-digit number) from the Microsoft Authenticator App by following steps below and enter the code.
+1. In the following screen, click “Use a verification code from my mobile app” or “Use a verification code.”
+1. In the following screen, you will be asked to enter the verification code with the message “Enter the code displayed in the authenticator app on your mobile device​​.” Obtain the code (6-digit number) from the Microsoft Authenticator App by following steps below and enter the code.
    1. Launch the Microsoft Authenticator app.
    1. Select “The University of Tokyo” from the list displayed.
    1. In the following screen, the verification code (6-digit number) is displayed below the “One-time password code”.
@@ -42,4 +42,4 @@ These behaviors are due to the connection process between multiple systems conce
 
 ![](redirection_error.png)
 
-When you sign in to the UTokyo Account, you may receive a “For security reasons, we require additional information  to verify your account” error as in the image above depending on the MFA setting. This may occur when you apply for MFA use (Step 4) before setting up the verification methods (Step 1, Step 2) in [the initial setup procedures of MFA](initial). Please register the verification methods by following the procedures in “[Step 1: Set Up the First Verification Method](initial#first)” and “[Step 2: Add Alternative Verification Methods](initial#alternative)”.
+When you sign in to the UTokyo Account, you may receive a “For security reasons, we require additional information  to verify your account” error as in the image above depending on the MFA setting. This may occur when you apply for MFA use (Step 4) before setting up the verification methods (Step 1, Step 2) in [the initial setup procedures of MFA](initial/). Please register the verification methods by following the procedures in “[Step 1: Set Up the First Verification Method](initial/#first)” and “[Step 2: Add Alternative Verification Methods](initial/#alternative)”.

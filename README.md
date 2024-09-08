@@ -1,4 +1,4 @@
-# utelecon (UTokyo Portal for Teleconference Tools)
+# utelecon (The Portal Site of Information Systems @ UTokyo)
 
 https://utelecon.adm.u-tokyo.ac.jp/
 
@@ -6,7 +6,7 @@ uteleconは，オンライン授業やWeb会議に関する情報をワンスト
 
 ## Preview
 
-[Node.js](https://nodejs.org) が必要です．v18の最新版（LTS）をインストールしてください．
+[Node.js](https://nodejs.org) が必要です．v20の最新版（LTS）をインストールしてください．
 
 - レポジトリをクローンしたら，まず`npm install`を実行します．
 - プレビューを開始するには，`npm run dev`を実行します．`^C`で終了します．
@@ -23,7 +23,22 @@ Markdownファイルのフロントマターにかける設定は以下の通り
 - `author`：記事の著者をページ下部に表示する．
   - `affiliation`：所属．`author`を指定する場合は必須．`oes`とすると[OESの説明ページ](https://utelecon.adm.u-tokyo.ac.jp/about/oes)へのリンクが表示される．
   - `name`：著者名．任意．
+- `breadcrumb`：ページ上部のパンくずリストを定義する．
+  - `title`：パンくずリストのそのページ自身の部分のタイトル．`breadcrumb`を指定する場合は必須．親との差分だけを書く．
+  - `parent`：親ページ．任意．デフォルトは`../`．これを辿っていくことでパンくずリストを構成する．
 - `redirect_from`・`redirect_to`：リダイレクトの設定．詳しくは[後述](#redirect_from--redirect_to)．
+
+## Scripts
+
+- `npm run dev`：プレビューを開始する．`^C`で終了する．
+- `npm run build`：ページをビルドし，`dist`に成果物を出力する．
+- `npm run find-link`：引数で指定したページへのリンクをすべて標準出力する．
+  - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
+  - 例：`npm run find-link /oc/url`
+- `npm run broken-link`：サイト内リンクで壊れているものをすべて標準出力する．
+  - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
+- `npm run unused-asset`：使われていないアセットをすべて標準出力する．
+  - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
 
 ## How it works
 
@@ -159,6 +174,26 @@ redirect_to: "/oc/join#form"
 - `redirect_to`は文字列で指定することができる
 - 基本的に`/`で始まるパスを指定する
 - リダイレクト先のページ内の特定の場所（例では`#form`）に飛ばしたい，外部のページに飛ばしたいなど，特別の事情がなければ`redirect_from`の方が良い
+
+### 複数ページに緊急のお知らせを掲載する
+
+`src/emergencies`内に以下のようなMarkdownファイルを配置することで，複数のページにまとめて緊急のお知らせを掲載することができます．掲載したいページのパスにマッチする正規表現を`pattern`に指定します．
+
+例：`src/emergencies/LmsFailure.mdx`を作成して，`/utol/`以下のページに緊急のお知らせを掲載する
+```md
+---
+pattern: "^\/utol\/"
+---
+
+<div class="box">
+  UTOLの緊急のお知らせです．
+</div>
+
+```
+注
+- `pattern`には正規表現を文字列で指定してください．
+- `^\/utol\/$`のようにすると，`/utol/`のみに緊急のお知らせを掲載できます．
+- 同じページのパスに2つ以上の緊急のお知らせがマッチする場合，ファイル名の辞書順で同時に掲載されます．ファイル名は実際のサイトには表示されないため，適宜変更して問題ありません．
 
 ## For developers
 

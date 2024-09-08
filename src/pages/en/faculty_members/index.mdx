@@ -1,5 +1,7 @@
 ---
 title: Getting Ready for ICT Systems at the UTokyo (for Faculty Members)
+breadcrumb:
+  title: Getting Ready for ICT Systems at the UTokyo (for Faculty Members)
 slug: faculty_members # 手順を外部ファイルからincludeするときに使う
 redirect_from:
   - /en/faculty_members/index_2020_s
@@ -7,23 +9,27 @@ redirect_from:
 ---
 
 import Courses from '@components/en/Courses.mdx'
-import ChangeUtacPassword from '@components/en/systems/utokyo_account/ChangePassword.mdx'
+import UTokyoAccountChangePassword from '@components/en/systems/utokyo_account/ChangePassword.mdx'
+import UTokyoAccountMFA from '@components/en/systems/utokyo_account/MFA.mdx'
 import ZoomSigninBrowser from '@components/en/systems/zoom/SigninBrowser.mdx'
 import InformationSecurity from '@components/en/InformationSecurity.mdx'
+import UtolLogin from '@components/en/systems/utol/Login.mdx'
 
 <b class="box">
-A briefing session titled “<a href="/events/2023-09-14/">A briefing session on web conferencing and cloud tools usable in face-to-face classes - also discussing ways to utilize generative AI in teaching</a>” will be held on September 14 at 13:00 (only in Japanese). A recording will be provided after the session. Please refer to this page as well.
+An informatuon session titled "<a href="/en/events/2024-09-13/">Information Session on ICT Systems and Tools for UTokyo Members (Conducted in English)</a>” will be held on September 13 at 15:00. The session will be conducted in English. Materials will be provided by the day of the session, and the recording will be uploaded later. Please refer to this page as well.
 </b>
 
 ## Greetings
 
 Dear new faculty members of the University of Tokyo,
 
-The University of Tokyo will mainly conduct face-to-face classes in the academic year 2023 with the necessary infection prevention measures in place. On the other hand, hybrid classes, which combine face-to-face and online presence in classes, or online-only classes will also be offered when it is possible to enhance the educational effect. Even in face-to-face classes, there are many situations where the use of digital technology is effective, such as electronic distribution of materials and submission of assignments. For classes where students bring their own laptops to the classroom, we are working on related initiatives such as establishing a BYOD policy and enhancing the Wi-Fi to cover most of the campus. We would like to ask you to make the initial account setup and other necessary preparations well in advance so that you can smoothly conduct activities using systems such as the learning management systems (LMS) and web conferencing.
+While digital technology is being used widely in the society these days, the University of Tokyo is also making progress in its Digital Transformation (DX) initiatives. In education, face-to-face classes are the main form of teaching, but there are many situations where the use of digital technology is needed, such as electronic distribution of materials and submission of assignments. For classes where students bring their own laptops to the classroom, we are working on related initiatives such as establishing a BYOD policy and enhancing the Wi-Fi to cover most of the campus. We would like to ask you to make the initial account setup and other necessary preparations well in advance so that you can smoothly conduct activities using systems such as the learning management systems (LMS) and web conferencing.
 
-While digital technology is being used widely in the society these days, the University of Tokyo is also making progress in its Digital Transformation (DX) initiatives. Digital technologies such as chat tools and web conferencing have made it easier for people to interact and collaborate with each other at a distance, and have greatly changed the form of communication. There are many situations in which new technologies can lead to meaningful activities, such as collaborative editing using cloud tools for group work in class. It is also important to learn from the opinions of students who have mastered the tools quickly. Although there is still much work to be done to enhance our overall educational activities, we would like to take on the challenge of creating the next generation of education with the collective efforts of all UTokyo. 
+Nowadays, for the past year or so, generative AI, as represented by ChatGPT, has been a hot topic of discussion. The University of Tokyo appreciates its positive aspects and will not uniformly prohibit the use of generative AI tools, and we will actively explore its potential applications to education and research. On the other hand, there is also a concern that students may carelessly use generative AI and fail to achieve the learning objectives they are supposed to acquire. We hope instructors themselves will try using AI to understand what AI is good at and bad at, and then set their stance as instructors on the use of generative AIs for each class and assignment, in line with the goals of the class, and communicate this stance clearly to students. For details, please refer to the guideline "[Policy on the use of AI tools in classes](/en/docs/ai-tools-in-classes)". We also published a message "[生成系AIについて (About generative AI)](/docs/20230403-generative-ai)" (only in Japanese) last year, so please refer to it as well. Although there are still some aspects that remain to be seen how the University's activities will change, while incorporating the opinions of students who are quickly becoming proficient in using the tools, we would like to take on the challenge of creating the next generation of education with the collective efforts of all the University of Tokyo.
 
-This portal site, "utelecon," aggregates information on the system at the University of Tokyo and also introduces advanced usage of various tools. We hope that this information will lead to your creative and proactive efforts. We also operate a support desk with student staff, so please feel free to use it if you have any problems or difficulties.
+On the other hand, the information security environment has become very severe in recent years, partly due to the worsening social situation. We have a lot of critical information, such as information related to cutting-edge research, and ensuring its security is a serious issue. Although we have taken necessary measures for the operation of the information system, the cooperation of each faculty and staff member is also indispensable, as each member's account is one of the entrances to access information within the university. In particular, we have introduced a "Multi-Factor Authentication (MFA)" system that requires users to sign in using a smartphone or other device in addition to a password, and we require everyone to use this system. This is included as part of the initial setup procedure, so please make sure to do it. We also offer a course called "Information Security Education", which you are requested to attend.
+
+This portal site, "utelecon", aggregates information on the system at the University of Tokyo and also introduces advanced usage of various tools such as chat tools and web conferencing, not to mention the initial setup of accounts and various tools. We hope that this information will lead to your creative and proactive efforts. We also operate a support desk with student staff, so please feel free to use it if you have any problems or difficulties.
 
 Your cooperation is greatly appreciated so that students can have a fulfilling study and student life through our educational activities.
 
@@ -54,25 +60,29 @@ For details on the institutional handling of each class type, please refer to ["
 
 ## Troubleshooting: Technical Support Desk
 
-If you have any problems or need advice on using information systems, please consult the **[Technical Support Desk](/en/support/)**. The Technical Support Desk provides consultation services through three tools: chat, Zoom, and email. The Technical Support Desk will respond quickly through the collaboration of student staff "Common Supporters" and faculty members.
+If you have any problems or need advice on using information systems, please consult the **[Technical Support Desk](/en/support/)**. The Technical Support Desk provides consultation services through three tools: chat, online call, and email form. The Technical Support Desk will respond quickly through the collaboration of student staff "Common Supporters" and faculty members.
 
 ## Getting Started: Initial Setup of the Common ID “UTokyo Account”, etc
 
-“UTokyo Account” is the account used for logging in to UTokyo’s IT systems, such as Zoom and ITC-LMS (which are explained later). Its username is also called “Common ID”.
+“UTokyo Account” is the account used for logging in to UTokyo’s IT systems, such as Zoom and UTOL (which are explained later). Its username is also called “Common ID”.
 
 The following is an explanation of the UTokyo Account’s initial setup procedure. Please read this section carefully, as it is an important procedure necessary for using UTokyo’s systems.
 
 ### Changing the Initial Password for your UTokyo Account
 
-<ChangeUtacPassword variant="faculty_members" />
+<UTokyoAccountChangePassword variant="faculty_members" />
 
 At this point, you will be able to log in to UTokyo’s systems including [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do), which is used to input syllabi and grades. (* For information on how to use UTAS, please check the academic affairs office of your faculty/graduate school, or log in to UTAS, then click “Other” in the menu at the top of the screen and download the manual from the “Download Center”.)
 
 ### Setting up “Multi-Factor Authentication for your UTokyo Account”
 
+<UTokyoAccountMFA variant="faculty_members" />
+
+{/*
 To improve the security of UTokyo’s IT systems, the “multi-factor authentication” (MFA) is available for UTokyo Accounts. MFA is a security process in which users prove their identity with at least two pieces of evidence. In addition to passwords, users are asked to verify their identity via SMS, authentication applications, and other methods when signing in to their accounts. Through the use of MFA, the risk of unauthorized sign-ins can be decreased, even if your password is compromised under certain situations, which enhances security.
 
 For the overall improvement of university security, UTokyo strongly encourages the activation of multi-factor authentication for UTokyo Accounts. In particular for faculty and staff, everyone is expected to use multi-factor authentication. Please follow the setup procedures in the “**[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)**” page.
+*/}
 
 ### Attending the Information Security Education
 {:#information-security-education}
@@ -89,7 +99,7 @@ UTokyo has a license agreement with Zoom, and allowing you to hold meetings with
 
 <ZoomSigninBrowser big inlineHelp support />
 
-The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](/en/zoom/zoom_signin) for more information (please note that you cannot sign in with more than one PCs/tablets/smartphones at the same time; however, you can sign in with one PC, one tablet, and one smartphone simultaneously).
+The app has a different sign-in procedure than that of the browser. Please refer to the [Zoom sign-in procedure page](/en/zoom/signin) for more information.
 
 ### Creating a Meeting Room
 
@@ -106,30 +116,29 @@ Steps below are for setting up a Zoom meeting room.
 
 For detailed instructions on how to use Zoom, please refer to the **[Zoom page on this site](/en/zoom/)**.
 
-## Using the Learning Management System "ITC-LMS"
+## Using the Learning Management System "UTOL"
 
-UTokyo uses the ITC-LMS learning management system. Features of ITC-LMS include distribution of lecture materials, submission of assignments, online examinations, and notification from instructors to students. The ITC-LMS is also used for announcing online class URLs to students. The following explains how to use the ITC-LMS.
+UTokyo uses the UTOL learning management system. Features of UTOL include distribution of lecture materials, submission of assignments, online examinations, and notification from instructors to students. The UTOL is also used for announcing online class URLs to students. The following explains how to use the UTOL.
 
-### Logging in to ITC-LMS
+### Logging in to UTOL
 
-1. Go to [ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/login) and click “Login.”
-2. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
+<UtolLogin />
 
 ### Opening the Course Page
 
-When you log in to the ITC-LMS, the “Course Schedule” timetable screen will be displayed. The courses you will teach should already be displayed. By clicking on each course, you will be taken to the individual course page, where you can perform the following operations.
+When you log in to the UTOL, the “Timetable” screen will be displayed. The courses you will teach should already be displayed. By clicking on each course, you will be taken to the individual course page, where you can perform the following operations.
 
 <details>
 <summary>Troubleshooting guide: When your courses are not displayed</summary>
 <ul>
-    <li>Course information is registered in the ITC-LMS approximately one month before the start of the course. It will not be displayed before that time.</li>    
-    <li>Courses are automatically registered through the Academic Affairs System (UTAS) link, and by default, only courses in UTAS where you are registered as the instructor will be displayed. In addition to the automatic registration through the linkage, faculty members who are already registered as instructors can manually add other instructors using the procedures described on the “<a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/08/08_2282.html">[ITC-LMS] How to add instructors, administrative staff or students to a course on ITC-LMS. (for Academic Staff)</a>” page.</li>
+    <li>Course information is registered in the UTOL approximately one month before the start of the course. It will not be displayed before that time.</li>    
+    <li>Courses are automatically registered through the Academic Affairs System (UTAS) link, and by default, only courses in UTAS where you are registered as the instructor will be displayed. In addition to the automatic registration through the linkage, faculty members who are already registered as instructors can manually add other instructors using the procedures by [adding a course participant](/en/utol/lecturers/settings/course_participants/).</li>
 </ul>
 </details>
 
 ### Announcing Online Class URLs
 
-The basic rule for announcing online class URLs to students is to use the “Online course information” section at the top of the ITC-LMS course page. The editing screen will open when you click the edit button (pencil icon) on the right of the “Online course information” section. On this page, you can enter all the information.
+The basic rule for announcing online class URLs to students is to use the “Online course information” section at the top of the UTOL course page. The editing screen will open when you click the edit button (pencil icon) on the right of the “Online course information” section. On this page, you can enter all the information.
 
 - Please note that only entering the URL will not create a link. Click the ![Link](url_button.png){:.inline} icon on the editing screen to complete the link creation process.
 - It is helpful to input the meeting ID and passcode along with the online class URL so that students can also easily join from their tablets.
@@ -138,12 +147,12 @@ After you have finished entering information, click the “Proceed to Confirmati
 
 For further details on announcing the online class URLs, please see the “[How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url)” page.
 
-### Using ITC-LMS’s Functions
+### Using UTOL’s Functions
 
-The ITC-LMS functions are listed below. For more details on how to use each function, please see the manual, which can be downloaded from the "Manual" button in the upper right corner after logging in.
+The UTOL functions are listed below. For more details on how to use each function, please see the manual, which can be downloaded from the "Manual" button in the upper right corner after logging in.
 
-- **Information notices**: This feature allows instructors to contact students. Depending on the student's settings, the message will be sent by email or LINE.
-- **Messages from students**: This feature allows students to contact the instructors. By default, messages are sent to the email address registered in the staff directory, but this can be changed from "Settings" in the upper right corner.
+- **Information notices**: This feature allows instructors to contact students. Depending on the student's settings, the message will be sent by email, LINE, or [UTokyo Slack](/en/slack/).
+- **Messages**: This feature allows course participants to contact each other. By default, messages from other participants are sent to the email address registered in the staff directory, but this can be changed from "Settings" in the upper right corner.
 - **Course Materials**: This feature allows you to distribute class materials. For more details on how to use this feature, please see the “[Upload Materials](/en/lms_lecturers/course_materials)” page.
 - **Assignments**: This feature allows you to upload reports and other assignments online. For more details on how to use this feature, please see the “[Prepare Assignments](/en/lms_lecturers/assignments)” page.
 - **Quizzes**: This feature allows you to conduct online tests. It enables you to set a time limit for answering questions or to automatically grade multiple-choice questions. For more details on how to use this feature, please see the “[Prepare Quizzes](/en/lms_lecturers/prepare_quizzes)” page.
@@ -151,11 +160,17 @@ The ITC-LMS functions are listed below. For more details on how to use each func
 - **Manage Attendance**: This feature allows you to manage attendance by sending a “one-time password" to attendees via Zoom or other means and asking them to enter it. For more details on how to use this feature, please see the pages “[Prepare for Confirming Attendance in Classes](/en/lms_lecturers/prepare_attendances)”, “[Let Your Students Know the Code for Attendance](/en/lms_lecturers/attendances)” and “[Confirm Attendance](/en/lms_lecturers/view_attendances)”.
 - **Forums**: This is a “bulletin board" feature that allows students and instructors to exchange opinions and ideas.
 
-The ITC-LMS functions are similar to other ICT class support tools, but what is noteworthy is that the system is linked to UTokyo Account and the UTAS for course registration, making it quite easy to pass information to “only students of UTokyo” or to “only students enrolled in the course”. Furthermore, because ITC-LMS is popular among students, it is highly recommended that it be used for distributing lecture materials and collecting/returning assignments.
+The UTOL functions are similar to other ICT class support tools, but what is noteworthy is that the system is linked to UTokyo Account and the UTAS for course registration, making it quite easy to pass information to “only students of UTokyo” or to “only students enrolled in the course”. Furthermore, because UTOL is popular among students, it is highly recommended that it be used for distributing lecture materials and collecting/returning assignments.
 
 ## Using UTokyo’s IT Systems
 
 In addition to the systems described above, UTokyo subscribes to and operates various information systems that can be used for classes, education, and research.
+
+### UTokyo Wi-Fi
+
+This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. Please note that you cannot use this service unless you prepare in advance.
+
+For further details on how to use this feature, please see the “**[UTokyo Wi-Fi](/en/utokyo_wifi)**” page.
 
 ### ECCS Cloud Email (Google Workspace)
 
@@ -165,17 +180,31 @@ With this account, you can use various services including Gmail, which allows yo
 
 For further details on how to use this feature, please see the “**[ECCS Cloud Email (Google Workspace)](/en/google/)**” page.
 
-### UTokyo Microsoft License (Microsoft 365)
+### UTokyo Microsoft License
 
 UTokyo provides access to Microsoft’s services through a university account and offers downloads of Microsoft Office applications such as Word and Excel. Other available services include the Web version of Office, OneDrive (an online storage service), and Microsoft Forms (a form creation service).
 
-For further details on how to use this feature, please see the “**[UTokyo Microsoft License (Microsoft 365)](/en/microsoft/)**” page.
+For further details on how to use this feature, please see the “**[UTokyo Microsoft License](/en/microsoft/)**” page.
 
-### UTokyo Wi-Fi
+{/*
+### UTokyo Slack
 
-This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. Please note that you cannot use this service unless you have created an account in advance.
+ビジネスチャットツールと呼ばれるサービスの一種で，テキストメッセージをやり取りしてコミュニケーションを取るためのツールです．テキストメッセージを投稿できる「チャンネル」という場所を複数作って別々のやり取りを同時並行で行えるのが特徴です．なおUTokyo Slackでは，コミュニケーションを行う人が集まる単位である「ワークスペース」は，教職員からの申請により作成できます．
 
-For further details on how to use this feature, please see the “**[UTokyo Wi-Fi](/en/utokyo_wifi)**” page.
+利用方法などの詳細は，**[UTokyo Slackのページ](/slack/)**をご覧ください．
+*/}
+
+### Slido
+
+Slido is an interaction app that provides features such as Q&A, live polling, and questionnaires that are useful for interactive communication with participants in classes, conferences, and lectures. Because Slido is linked to Webex, of which UTokyo has a licensing agreement, you can use Slido’s paid functions through your university account.
+
+For further details on how to use this feature, please see the “**[Slido](/slido/)**” page (in Japanese).
+
+### MATLAB
+
+MATLAB is a programming language developed for scientific and technical calculations, and numerical calculation and mathematical equation processing software based on it. UTokyo offers MATLAB licenses to students and faculty members to improve their educational effectiveness and research efficiency. In addition, UTokyo provides a support desk for MATLAB users in cooperation with MathWorks, the developer of the software, and is developing a campus community to share information about the software's use in classes.
+
+Please refer to the **[UTokyo MATLAB Campus-Wide License](/en/matlab/)** page for details on usage and technical support.
 
 ### ECCS Terminals
 
@@ -187,23 +216,11 @@ For further details, please see the websites below (below are the main informati
 - **[New Account Application (for Academic and Administrative Staff, Researchers, etc.)](https://www.ecc.u-tokyo.ac.jp/en/announcement/2020/03/02_3127.html)**: This page explains the procedures to start using the ECCS.
 - **[Information for Academic Staff on the use of the Information Technology Center](https://www.ecc.u-tokyo.ac.jp/en/Information%20for%20Academic%20Staff.html)**: This page provides an overview of the services offered by the Information Technology Center, focusing on ECCS.
 
-### Slido
-
-Slido is an interaction app that provides features such as Q&A, live polling, and questionnaires that are useful for interactive communication with participants in classes, conferences, and lectures. Because Slido is linked to Webex, of which UTokyo has a licensing agreement, you can use Slido’s paid functions through your university account.
-
-For further details on how to use this feature, please see the “**[Slido](/slido/)**” page (in Japanese).
-
 ### EZproxy
 
 UTokyo has contracted this service to provide off-campus access to UTokyo members-only e-journals (available to students as well as faculty and staff).
 
 For further details on usage, please see the “**[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**” page.
-
-### MATLAB
-
-MATLAB is a programming language developed for scientific and technical calculations, and numerical calculation and mathematical equation processing software based on it. UTokyo offers MATLAB licenses to students and faculty members to improve their educational effectiveness and research efficiency. In addition, UTokyo provides a support desk for MATLAB users in cooperation with MathWorks, the developer of the software, and is developing a campus community to share information about the software's use in classes.
-
-Please refer to the **[UTokyo MATLAB Campus-Wide License](/en/matlab/)** page for details on usage and technical support.
 
 ## Other Systems
 
@@ -211,7 +228,7 @@ Please refer to the **[UTokyo MATLAB Campus-Wide License](/en/matlab/)** page fo
 
 UTokyo provides [a Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) for faculty members and students. UTokyo requires you to "install appropriate antivirus software on all the computers you administrate" in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use them if necessary.
 
-The version for academic year 2023 will be available from April 1, 2023.
+The version for academic year 2024 will be available from April 1, 2024.
 
 ### UTokyo VPN
 
@@ -235,13 +252,13 @@ This section explains how to record and share a class. Recording a class is not 
 * Uploading recordings of Zoom videos to Google Drive or YouTube after editing them, such as deleting part of them, is a common method of sharing them. In such cases, you can also restrict access to UTokyo members.
   * For further details of these procedures, please see “[Uploading Video Files to Google Drive](/faculty_members/how/google/share_video)” (in Japanese) or “[Restricting YouTube Content to University Members Only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/)".
   * For more information on video editing, please see “[Creating and Sharing Videos](/en/articles/create_share_movie)".
-* By posting video URLs in the "Course Materials" section of the ITC-LMS, you can share these videos with students.
+* By posting video URLs in the "Course Materials" section of the UTOL, you can share these videos with students.
 
 ### Taking Attendance
 
 In this section, we will explain how to record student attendance in online classes.
 
-- ITC-LMS’s attendance management function: This is a feature that allows you to manage attendance by sending a “one-time password” to attendees via Zoom or other means and asking them to enter it.
+- UTOL’s attendance management function: This is a feature that allows you to manage attendance by sending a “one-time password” to attendees via Zoom or other means and asking them to enter it.
     - For more information on how to use the feature, please see “[Prepare for confirming attendance in classes](/en/lms_lecturers/prepare_attendances)", “[Let your students know the code for attendance](/en/lms_lecturers/attendances)" and “[Confirm attendance](/en/lms_lecturers/view_attendances)".
     - Note that the system requires students to log in to register their attendance, but the system cannot prevent absent students from registering attendance using the “one-time password” obtained from other students.
 - Zoom’s reporting feature: This is a feature that allows you to view and download the list of Zoom meeting participants.
@@ -250,11 +267,11 @@ In this section, we will explain how to record student attendance in online clas
     - For participants who were not signed into Zoom, we cannot know for sure if they were present, because participant names can be set by the participants themselves.
     - Because there is a possibility that records will be lost if the system is disconnected or reconnected during class, measures such as allowing participants to check their attendance status may be necessary.
 
-Additionally, because of the nature of online classes, students may not always be listening to the class even if they are connected to the Zoom meeting room, so in addition to taking attendance, it may be a good idea to check the students' understanding of the class content through reaction papers, quizzes, and other means. (You can use the survey feature of ITC-LMS, Google Forms, Microsoft Forms, and others). Because online classes tend to have more assignments, it is suggested to take students’ workload into consideration and have these reaction papers and quizzes completed during the class time.
+Additionally, because of the nature of online classes, students may not always be listening to the class even if they are connected to the Zoom meeting room, so in addition to taking attendance, it may be a good idea to check the students' understanding of the class content through reaction papers, quizzes, and other means. (You can use the survey feature of UTOL, Google Forms, Microsoft Forms, and others). Because online classes tend to have more assignments, it is suggested to take students’ workload into consideration and have these reaction papers and quizzes completed during the class time.
 
 ## How to Use Online Resources
 
-This website, “**Online Class / Web Conference Portal Site @ The University of Tokyo**," also known as “**utelecon**", provides a variety of useful information for online classes, such as how to use the IT systems mentioned on this page.
+This website, “**The Portal Site of Information Systems @ UTokyo**," also known as “**utelecon**", provides a variety of useful information for online classes, such as how to use the IT systems mentioned on this page.
 
 In particular, the “**[Improving Online Classes](/en/online/)**” page covers the use of various information systems in the classroom, practical examples of online classes, and other resources that will help you take the next step toward online classes.
 

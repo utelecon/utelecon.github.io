@@ -1,6 +1,5 @@
 ---
-import notices from "@data/notice.yml";
-import type { Notice } from "@data/schemas/notice";
+import { getISODateString, noticesWithId } from "@data/utils/notices";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
 
@@ -22,38 +21,50 @@ export interface Props {
 interface NoticeContent {
   date: Date;
   content: string;
+  id: string;
 }
 
 const { lang, strip } = Astro.props;
 
 const contents: NoticeContent[] = [];
 
-for (const notice of notices) {
+for (const notice of noticesWithId) {
   const content = notice.content[lang] ?? notice.content.ja;
   if (!content) continue;
 
-  if (!strip || contents.length < (notice.important ? 8 : 4)) {
-    contents.push({ date: notice.date, content });
+  if (!strip || contents.length < (notice.important ? 12 : 8)) {
+    contents.push({ date: notice.date, content, id: notice.id });
   }
 }
 ---
 
 <ul>
   {
-    contents.map(({ date, content }) => (
-      <li>
-        <span class="date">{date.toLocaleDateString("ja-JP")}</span>
+    contents.map(({ date, content, id }) => (
+      <li id={id}>
+        <span class="date">{getISODateString(date)}</span>
         <Markdown content={content} />
       </li>
     ))
   }
 </ul>
 
+<script>
+  const target = document.getElementById(location.hash.slice(1));
+  if (target) target.classList.add("listitem-highlight");
+</script>
+
 <style lang="scss">
   @import "@styles/color.scss";
 
   .date {
+    display: inline-block;
+    width: 6rem;
     color: $heading-color;
     margin-right: 5px;
+  }
+
+  .listitem-highlight {
+    background-color: yellow;
   }
 </style>

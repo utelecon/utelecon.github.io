@@ -3,6 +3,7 @@ import Help from "@components/utils/Help.astro";
 import Support from "@components/utils/Support.astro";
 import ApplyHelpJouhouSecurity from "./ApplyHelpJouhouSecurity.mdx";
 import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
+import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 
 {/**
   * @typedef {object} Props
@@ -15,40 +16,44 @@ import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
 
 1. <If cond={props.blockLink}>
      Access the "UTokyo Wi-Fi Account Menu" below.
-     <b class="box center">[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
      <Fragment slot="else">
-       Access the "[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)".
+     Access the "[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)".
      </Fragment>
    </If>
-1. Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
+   - Unless you have already signed in to your UTokyo Account, the sign-in page will be displayed. Please sign in.
+   <If cond={props.blockLink}>
+     <b class="box center">[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
+   </If>
    <If cond={props.inlineHelp}>
-     <ApplyHelpJouhouSecurity type="details" />
+     <ApplyHelpMFA type="details" />
+     <ApplyHelpJouhouSecurity type="details" /> 
    </If>
 1. Click on the "New Application" Button.
-1. A notification email with your account information (user ID and password) will be sent to both your [ECCS Cloud Email](/en/google/) address and the email address shown in the "Notification E-mail Address" field.<br />
-   \* If you close the account menu after submitting your application, you will not be able to check the password of your UTokyo Wi-Fi account except from the notification email. Please make sure that you can receive the notification email before you proceed to the next step.
-   <details>
-      <summary>If you want to change your notification email address</summary>
-      <If cond={props.utasOnly}>
-        In order to change the email address to which the notification email is sent, log in to [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do) and set "E-MAIL 1" in the "Student Information" menu (note that the "E-MAIL 2" address cannot be used as the UTokyo Wi-Fi email address).
-        <Fragment slot="else">
-          Follow the instructions below to change the email address to which the notification email is sent.
-
-          - For students: Log in to [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do) and set "E-MAIL 1" in the "Student Information" menu (note that the "E-MAIL 2" address cannot be used as the UTokyo Wi-Fi email address).
-          - For faculty members: Log in to [the Personnel Information MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx) and set your "学内メールアドレス" (Campus Email Address) field in the "パーソナルメニュー" (Personal Menu). * The email address for this purpose must end with `u-tokyo.ac.jp`
-        </Fragment>
-      </If>
-        Please note that it will take some time for the change to take effect, so please apply for an account after a day you registered your email.
-    </details>
-    <If cond={props.inlineHelp}>
-      <ApplyHelpEmail type="details" />
-    </If>
-1. Click on the "Apply" button.
-1. After a little while, you will receive a notification email. The same information as in the notification email will also appear in the account menu.
-
+   - At this point, the application is not yet done. Please proceed to the next step to complete the application.
+1. On the screen that appears, confirm that the email address in the “Notification E-mail Address” field is correct.
+   - The user ID and password for your UTokyo Wi-Fi account will be sent to both your [ECCS Cloud Email](/en/google/) address and this "Notification E-mail Address".
+     <details>
+        <summary>If you want to change your notification email address</summary>
+        <If cond={props.utasOnly}>
+          In order to change the email address to which the notification email is sent, log in to [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do) and set "E-MAIL 1" in the "Student Information" menu (note that the "E-MAIL 2" address cannot be used as the UTokyo Wi-Fi email address).
+          <Fragment slot="else">
+            Follow the instructions below to change the email address to which the notification email is sent.
+  
+            - For students <small>including accounts that are both students and faculty and staff members</small>: Log in to [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do) and set "E-MAIL 1" in the "Student Information" menu (note that the "E-MAIL 2" address cannot be used as the UTokyo Wi-Fi email address).
+            - For faculty and staff members <small>excluding accounts that are both students and faculty and staff members</small>: Log in to [the Personnel Information MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx) and set your "学内メールアドレス" (Campus Email Address) field in the "パーソナルメニュー" (Personal Menu). * The email address for this purpose must end with `u-tokyo.ac.jp`
+          </Fragment>
+        </If>
+          Please note that it will take some time for the change to take effect, so please apply for an account after a day you registered your email.
+      </details>
+1. Click on the "Apply" button, confirm the information displayed on the screen immediately afterwards, and write down your user ID and password.
+   - After clicking the “Apply” button, wait a few moments, and the user ID and password for your UTokyo Wi-Fi account will appear on the screen in addition to the instructions for use. Please note that if you close the screen, the ID and password will not be displayed again. The same information will also be sent to you by email.
+     <If cond={props.inlineHelp}>
+       <ApplyHelpEmail type="details" />
+     </If>
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
   <Help lang="en" support={props.support} slot="else">
+    - <ApplyHelpMFA type="default" />
     - <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
   </Help>

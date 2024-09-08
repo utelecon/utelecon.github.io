@@ -1,5 +1,7 @@
 ---
 title: Things You Can Do in Webex Meetings and Webex Webinars (as Host)
+breadcrumb:
+  title: Things You Can Do in Meetings and Webinars (as Host)
 lang: en
 ---
 
@@ -101,7 +103,7 @@ When hosting a highly confidential meeting, you may lock the meeting to prevent 
 	![](img/webex_privilege_participant.png){:.border}
 
 ## Recording the Webex Meeting
-- Webex meetings can be recorded and made available on ITC-LMS or other systems for students who had wifi connection issues or who want to use the videos for review purposes.
+- Webex meetings can be recorded and made available on UTOL or other systems for students who had wifi connection issues or who want to use the videos for review purposes.
 - Recording can be set by turning on "Automatic Recording" during the meeting setup or started at any time by clicking the “Record” button during the meeting.
 - Co-hosts are unable to start the recording if the meeting host is present.
 - Recording is paused during breakout sessions.

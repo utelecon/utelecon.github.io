@@ -1,0 +1,175 @@
+---
+import type { ColumnLabels, RowLabels, Selection, Step } from "./tabs";
+import DemiRadioButton, {
+  type Props as DemiRadioButtonProps,
+} from "./DemiRadioButton.astro";
+
+interface Props {
+  rowLabels: RowLabels;
+  columnLabels: ColumnLabels;
+}
+
+const { rowLabels, columnLabels } = Astro.props;
+
+function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
+  return {
+    id: `radio-${step}-${selection}`,
+    type: "radio",
+    name: `radio-${step}`,
+    value: selection,
+  };
+}
+---
+
+<div class="wrapper">
+  <p class="col-first">{columnLabels.first}</p>
+  <p class="col-alt">{columnLabels.alt}</p>
+
+  <p class="col-label">{rowLabels.ms_auth}</p>
+  <span class="col-first">
+    <DemiRadioButton {...radioProps("first", "ms_auth")} />
+  </span>
+  <span class="col-alt">
+    <DemiRadioButton {...radioProps("alt", "ms_auth")} />
+  </span>
+  <div class="col-description">
+    <slot name="ms_auth" />
+  </div>
+
+  <p class="col-label">{rowLabels.auth_app}</p>
+  <span class="col-first">
+    <DemiRadioButton {...radioProps("first", "auth_app")} />
+  </span>
+  <span class="col-alt">
+    <DemiRadioButton {...radioProps("alt", "auth_app")} />
+  </span>
+  <div class="col-description">
+    <slot name="auth_app" />
+  </div>
+
+  <p class="col-label">{rowLabels.phone}</p>
+  <span class="col-first">
+    <DemiRadioButton {...radioProps("first", "phone")} />
+  </span>
+  <span class="col-alt">
+    <DemiRadioButton {...radioProps("alt", "phone")} />
+  </span>
+  <div class="col-description">
+    <slot name="phone" />
+  </div>
+
+  {
+    rowLabels.fido && (
+      <>
+        <p class="col-label">{rowLabels.fido}</p>
+        <span class="col-first">
+          <DemiRadioButton {...radioProps("first", "fido")} disabled />
+        </span>
+        <span class="col-alt">
+          <DemiRadioButton {...radioProps("alt", "fido")} />
+        </span>
+        <div class="col-description">
+          <slot name="fido" />
+        </div>
+      </>
+    )
+  }
+</div>
+
+<script>
+  import { emitChangeTab, onChangeTab } from "./tabs";
+
+  onChangeTab((step, selection) => {
+    if (selection === "select") return;
+    document
+      .querySelectorAll<HTMLInputElement>(`input[name^="radio-${step}"]`)
+      .forEach((radio) => {
+        radio.checked = radio.value === selection;
+      });
+  });
+
+  function onChange(this: HTMLInputElement) {
+    const [, step, selection] = this.id.split("-");
+    emitChangeTab(step, selection);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document
+      .querySelectorAll<HTMLInputElement>(`input[name^="radio"]`)
+      .forEach((radio) => {
+        radio.addEventListener("change", onChange);
+      });
+  });
+</script>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto 4rem 4rem;
+    // row-gap: 0.5rem;
+    border: 1px solid $white-gray-dark;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+
+    > .col-label {
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+
+    > .col-first {
+      font-weight: bold;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    > .col-alt {
+      font-weight: bold;
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+    > .col-description {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      padding: 0.7rem 0.5rem 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p.col-label {
+      padding: 0.1rem 0.5rem;
+      font-weight: bold;
+      background-color: $white-gray-light;
+    }
+    p.col-first,
+    p.col-alt {
+      text-align: center;
+    }
+    span.col-first,
+    span.col-alt {
+      position: relative;
+      background-color: $white-gray-dark;
+      border-inline-start: 1px solid $white-gray-light;
+      border-inline-end: 1px solid $white-gray-light;
+
+      &:has(input[type="radio"]:disabled) {
+        background-color: $white-gray-light;
+      }
+
+      & > input[type="radio"] {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+
+        &:disabled {
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+</style>

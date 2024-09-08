@@ -1,0 +1,155 @@
+---
+import type { RowLabels, Selection, Step } from "./tabs";
+
+interface Props {
+  step: Step;
+  labels: RowLabels;
+  guide: string;
+}
+
+const { step, labels, guide } = Astro.props;
+
+function buttonProps(selection: Selection) {
+  return {
+    id: `button-${step}-${selection}`,
+    "aria-labelledby": `label-${step}-${selection}`,
+    value: selection,
+  } satisfies astroHTML.JSX.ButtonHTMLAttributes;
+}
+
+function labelProps(selection: Selection) {
+  return {
+    id: `label-${step}-${selection}`,
+    for: `button-${step}-${selection}`,
+  } satisfies astroHTML.JSX.LabelHTMLAttributes;
+}
+---
+
+<div class="wrapper">
+  <p>{guide}</p>
+  <button {...buttonProps("ms_auth")}>
+    <span>
+      <span>
+        <b {...labelProps("ms_auth")}>{labels.ms_auth}</b>
+        <slot name="ms_auth" />
+      </span>
+    </span>
+  </button>
+
+  <button {...buttonProps("auth_app")}>
+    <span>
+      <span>
+        <b {...labelProps("auth_app")}>{labels.auth_app}</b>
+        <slot name="auth_app" />
+      </span>
+    </span>
+  </button>
+
+  <button {...buttonProps("phone")}>
+    <span>
+      <span>
+        <b {...labelProps("phone")}>{labels.phone}</b>
+        <slot name="phone" />
+      </span>
+    </span>
+  </button>
+
+  {
+    labels.fido && (
+      <button {...buttonProps("fido")}>
+        <span>
+          <span>
+            <b {...labelProps("fido")}>{labels.fido}</b>
+            <slot name="fido" />
+          </span>
+        </span>
+      </button>
+    )
+  }
+</div>
+
+<script>
+  import { emitChangeTab } from "./tabs";
+
+  function onClick(this: HTMLButtonElement) {
+    const [, step, selection] = this.id.split("-");
+    emitChangeTab(step, selection);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document
+      .querySelectorAll<HTMLButtonElement>(
+        `button[id^="button"][aria-labelledby^="label"]`
+      )
+      .forEach((button) => {
+        button.addEventListener("click", onClick);
+      });
+  });
+</script>
+
+<style lang="scss">
+  @import "@styles/color.scss";
+
+  $main-color: $heading-color;
+  $sub-color: white;
+
+  // buttonのmarginの優先度を上げるため.wrapperが必要
+  .wrapper button {
+    cursor: pointer;
+    text-align: start;
+    background: $sub-color;
+    margin: 0.2em;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid $main-color;
+    border-bottom: 4px solid $main-color;
+  }
+
+  button:hover {
+    transition: all 0.2s ease;
+    background: $main-color;
+    b,
+    :global(p),
+    > span::after,
+    :global(a) {
+      color: $sub-color;
+    }
+  }
+
+  button > span {
+    display: flex;
+    align-items: center;
+  }
+
+  b {
+    cursor: pointer;
+    font-size: 1.2em;
+    color: $main-color;
+  }
+
+  button > span::after {
+    display: block;
+    content: "arrow_forward_ios";
+    text-align: right;
+    font-family: "Material Icons";
+    font-weight: bold;
+    color: $main-color;
+    margin: 0 0 0 0.5em;
+    flex-shrink: 0;
+  }
+
+  button :global(p) {
+    font-size: 0.9em;
+    color: $black-gray;
+    margin: 0.5em 0 0;
+  }
+
+  p {
+    font-weight: bold;
+    color: $red;
+    margin: 0.2em;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid $red;
+  }
+</style>

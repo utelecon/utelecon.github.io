@@ -1,5 +1,7 @@
 ---
 title: Webex ミーティング・ウェビナーでできること（開催者・参加者）
+breadcrumb:
+  title: ミーティング・ウェビナーでできること（開催者・参加者）
 redirect_from:
   - /webex/do_events
   - /webex/do_meeting_participant
@@ -180,7 +182,3 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 **End-to-End Encrypted Meetingでは，いったん会議室に入った参加者をロビーに送ることができません．**
 
 ![](img/webex_lobby.png){:.border}
-
-<br>
-<br>
-<a href="index" target="_blank">Webexの使い方ページに戻る</a>

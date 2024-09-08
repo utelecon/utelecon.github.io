@@ -1,6 +1,8 @@
 ---
 title: 2021年Sセメスター以降におけるオンライン授業向けツールの利用ガイドライン
-redirected_from:
+breadcrumb:
+  title: オンライン授業向けツールの利用ガイドライン
+redirect_from:
   - "/notice/guideline"
 --- 
 
@@ -24,4 +26,4 @@ redirected_from:
 
 - Zoomの場合：「[授業におけるZoom会議室の入室制限](/faculty_members/zoom_access_control)」のページをご覧ください．
 - Webexの場合：設定の「ロック解除されたミーティング」の項目で設定します．
-![](/notice/image/webex-waitingroom.png)
+![](./webex-waitingroom.png)

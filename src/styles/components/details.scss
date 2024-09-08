@@ -1,17 +1,36 @@
-summary {
-  cursor: pointer;
-  color: $link-color;
-  &:hover {
-    text-decoration: underline;
+details {
+  display: block;
+  
+  margin: 0.125em -0.75em;
+  padding: 0.125em 0.75em;
+  border: solid 1px $gray;
+  border-radius: 0.375em;
+
+  summary {
+    cursor: pointer;
+    color: $link-color;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
+ul > li > details {
+  margin-left: 0;
+}
+
 li > ul ~ details, li > ol ~ details {
-  margin-left: 40px;
-  &>summary {
-    margin-left: -20px;
+  margin-left: calc(40px - 1.75em);
+  padding-left: 1.75em;
+  & > summary {
+    margin-left: -1em;
   }
   @media (max-width: 640px) {
-    margin-left: 20px;
+    margin-left: calc(20px - 1.75em);
   }
+
+}
+
+details + details {
+  margin-top: 0.25em;
 }

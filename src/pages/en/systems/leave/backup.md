@@ -1,5 +1,7 @@
 ---
 title: Data Backup upon Leaving the University of Tokyo
+breadcrumb:
+  title: Data Backup
 ---
 
 This page describes how to back up your data in the various information systems when you leave the University of Tokyo. Please refer to the "**[Notice on Account Revocation due to  Graduation, Resignation or Change of Affiliation](.)**" for more information on the revocation of your UTokyo Account when you leave the University of Tokyo.
@@ -16,7 +18,7 @@ When your UTokyo Account is revoked, you will no longer be able to sign in to yo
 
 ## ECCS Cloud Email
 
-When you leave the University of Tokyo, your ECCS Cloud Email account will be revoked and you will no longer be able to log in. Please perform the following three tasks as necessary.
+When your UTokyo Account is revoked, you will no longer be able to log in. Please perform the following three tasks as necessary.
 
 - Back up your Google contents
 - Set up email forwarding (valid for approximately 180 days)
@@ -26,7 +28,7 @@ The details of each task are described below.
 
 ### Back up your Google contents
 
-After leaving the university, you will no longer be able to log in to your ECCS Cloud Email account, so you will also not be able to access data in Gmail and Google Drive that you used with your ECCS Cloud Email account. Since it is not possible to restore the data after the revocation, please be sure to back up your data according to the procedure described in "[Backing up ECCS Cloud Email data before your graduation, etc.](https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/02/25_2908.html)".
+When your UTokyo Account is revoked, you will also not be able to access data in Gmail and Google Drive that you used with your ECCS Cloud Email account. Since it is not possible to restore the data after the revocation, please be sure to back up your data according to the procedure described in "[Backing up ECCS Cloud Email data before your graduation, etc.](https://www.ecc.u-tokyo.ac.jp/en/announcement/2019/02/25_2908.html)".
 
 ### Set up email forwarding
 

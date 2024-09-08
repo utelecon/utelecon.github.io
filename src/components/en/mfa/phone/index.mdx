@@ -1,0 +1,53 @@
+import { Image } from "astro:assets";
+import If from "@components/utils/If.astro";
+import FirstAccess from "../FirstAccess.mdx";
+import FirstAnotherMethod from "../FirstAnotherMethod.mdx";
+import FirstEmail from "../FirstEmail.mdx";
+import AltAddMethod from "../AltAddMethod.mdx";
+
+import first from "./first.png";
+import alt from "./alt.png";
+
+{/**
+  * @typedef {object} Props
+  * @property {import("@components/pages/mfa/tabs").Step} step
+  */}
+
+<ol>
+  <If cond={props.step === "alt"}>
+    <Fragment>
+      <AltAddMethod
+        selection="the type of phone you want to add"
+        methodSupplement={
+          <Fragment>
+            You can register one number for each type of phone: "Phone", "Alternate Phone" and "Office Phone".
+            <ul>
+              <li><strong>Phone</strong>: The phone you usually use. You can select text or phone call for the method to verify. If you have selected phone number in the initial setup, the number has been registered as "Phone".</li>
+              <li><strong>Alternate Phone</strong>: A substitute phone such as your home phone. Only phone call verification is available and you cannot select text.</li>
+              <li><strong>Office Phone</strong>: A substitute phone of your company. Only phone call verification is available and you cannot select text. Unlike the others, you can register an extension number.</li>
+            </ul>
+          </Fragment>
+        }
+      />
+    </Fragment>
+    <Fragment slot="else">
+      <FirstAccess />
+      <FirstAnotherMethod selection={`"Phone"`} />
+    </Fragment>
+  </If>
+
+  <li>
+    For "What phone number would you like to use?", select the appropriate country code (+81 for Japan) and input your phone number. Also, <If cond={props.step === "alt"}>if you chose "Phone" for the type of phone, </If>choose to either receive a text message with a verification code ("Text me a code") or a phone call ("Call me"). 
+    <Image src={{ first, alt }[props.step]} alt="" />
+  </li>
+  <If cond={props.step === "first"}>
+    <li>Click “Next”.</li>
+  </If>
+  <li>
+    You will receive a text or call on your phone to verify your identity. If you selected "Text me a code", you will receive an SMS message with a 6-digit verification code. Input the code in the setup page. If you selected "Call me", you will receive a phone call asking you press the pound key (#) on your phone to verify your identity. Press the key and end the call. (To display the pound key on your smartphone during the call, press the "keypad" button.)
+  </li>
+
+  <If cond={props.step !== "alt"}>
+    <FirstEmail />
+  </If>
+</ol>

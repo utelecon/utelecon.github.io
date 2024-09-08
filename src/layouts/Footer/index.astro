@@ -1,7 +1,9 @@
 ---
 import Buttons from "./Buttons.astro";
+import { Image } from "astro:assets";
 import Navigation from "./Navigation.astro";
 import type { Lang } from "@components/types";
+import UtokyoLogo from "./20240301_UTokyoLogotypeA_RGB.svg";
 
 interface Props {
   lang: Lang;
@@ -12,8 +14,8 @@ const { lang, support = false } = Astro.props;
 
 const localization = {
   title: {
-    ja: "東京大学 オンライン授業・Web会議ポータルサイト",
-    en: "The University of Tokyo Online Class / Web Conference Portal Site",
+    ja: "情報システムの総合案内サイト @ 東京大学",
+    en: "The Portal Site of Information Systems @ UTokyo",
   },
 };
 const topUrl = {
@@ -26,7 +28,8 @@ const topUrl = {
   support ? (
     <script
       type="text/javascript"
-      src="https://ws.mediatalk.io/client/5e8c740062643.js"
+      data-apikey="sjqCBa7nSLGFhdwGk4kZVQ"
+      src="https://us01ccistatic.zoom.us/us01cci/web-sdk/zcc-sdk.js"
     />
   ) : (
     <Buttons lang={lang} />
@@ -36,9 +39,9 @@ const topUrl = {
 <footer class="footer">
   <div class="logo">
     <a href="https://www.u-tokyo.ac.jp/">
-      <img
+      <Image
         class="logo-utokyo"
-        src="/assets/images/UTlogo.png"
+        src={UtokyoLogo}
         alt="東京大学 the University of Tokyo"
       />
     </a>
@@ -52,17 +55,17 @@ const topUrl = {
   footer.footer {
     background-color: $footer-background-color;
     color: white;
+    padding: 2rem 4rem 8rem;
     :link,
     :visited {
       color: white;
       text-decoration: none;
     }
-    padding: 2rem 4rem 8rem;
     @media (max-width: 768px) {
       padding: 2rem 2rem 8rem;
     }
     @media (max-width: 512px) {
-      padding: 2rem 1rem;
+      padding: 2rem 1rem 6rem;
     }
 
     .logo {
@@ -70,6 +73,7 @@ const topUrl = {
       &-utokyo {
         width: 16rem;
         max-width: 62.5%;
+        height: auto;
       }
       &-utelecon {
         display: block;

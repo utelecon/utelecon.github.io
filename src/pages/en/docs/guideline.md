@@ -1,6 +1,6 @@
 ---
 title: The tools usage guideline for online class since S semester 2021
-redirected_from:
+redirect_from:
   - "/en/notice/guideline"
 --- 
 This is the English translation of the Japanese document.
@@ -25,4 +25,4 @@ Please instruct participants to use a display name that identifies them for secu
 
 - For Zoom: See the page "[Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control)".
 - For Webex: Set this in the "Unlocked Meetings" section of the settings.
-![](/notice/image/webex-waitingroom.png)
+![](./webex-waitingroom.png)

@@ -96,11 +96,10 @@ When doing so, it is helpful to first write down the ideas individually and then
 
 Repeating this process of exchanging opinions while revising the meeting topic through the leader's facilitation makes it easier to build a common base of mutual understanding.  
 
-If the discussion gets stuck and no opinions emerge, a technique called brainstorming can be effective. When brainstorming online, online whiteboard tools such as Miro and Jamboard can be used to efficiently generate and consolidate group opinions.  
+If the discussion gets stuck and no opinions emerge, a technique called brainstorming can be effective. When brainstorming online, online whiteboard tools such as Miro can be used to efficiently generate and consolidate group opinions.  
 
 * Reference
 	* [About Miro (External link)](https://miro.com/whiteboard/)
-	* [About Jamboard (External link)](https://edu.google.com/intl/en_ALL/jamboard/)
 	* Miro usage example
 	![Miro.png](img/Miro.png)  
 

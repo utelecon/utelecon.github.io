@@ -16,7 +16,7 @@ const data: Navigation[] = {
 }[lang];
 ---
 
-<nav class="header">
+<nav class="header mark-external-link">
   <ul>
     {
       data.map((row) => (
@@ -42,16 +42,15 @@ const data: Navigation[] = {
   @import "./variables";
 
   nav.header {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    display: block;
     color: white;
     :link,
     :visited {
       color: white;
       text-decoration: none;
     }
-
-    grid-row: 2 / 3;
-    grid-column: 1 / 3;
-    display: block;
 
     @media not all and (max-width: $header-hamburger-breakpoint) {
       & > ul {

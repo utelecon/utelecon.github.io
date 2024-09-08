@@ -13,14 +13,14 @@ const { lang, canonicalUrl, top = false } = Astro.props;
 
 const localization = {
   ja: {
-    title: "オンライン授業・Web会議ポータルサイト @ 東京大学",
+    title: "情報システムの総合案内サイト @ 東京大学",
     top: "TOP",
     about: "About",
     theOtherLang: "English",
   },
   en: {
     title:
-      "Online Class / Web Conference Portal Site @ the University of Tokyo",
+      "The Portal Site of Information Systems @ UTokyo",
     top: "TOP",
     about: "About",
     theOtherLang: "日本語",
@@ -79,13 +79,13 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   </div>
 </header>
 
-<script lang="ts">
-const button = document.getElementById("hamburger-button");
-const header = document.getElementById("header");
+<script>
+  const button = document.getElementById("hamburger-button")!;
+  const header = document.getElementById("header")!;
 
-button.addEventListener("click", () => {
-  header.classList.toggle("header--hamburger-open");
-});
+  button.addEventListener("click", () => {
+    header.classList.toggle("header--hamburger-open");
+  });
 </script>
 
 <style lang="scss">
@@ -151,13 +151,13 @@ button.addEventListener("click", () => {
     );
   }
   header.header {
+    @include background;
     color: white;
     :link,
     :visited {
       color: white;
       text-decoration: none;
     }
-    @include background;
   }
   @media (max-width: $header-hamburger-breakpoint) {
     .primary {
@@ -213,11 +213,11 @@ button.addEventListener("click", () => {
   }
 
   .title {
+    font-weight: normal;
     margin: 0.5rem 2rem 0.25rem 2rem;
     @media (max-width: $header-hamburger-breakpoint) {
       margin: 0.5rem 1rem 0.5rem 0;
     }
-    font-weight: normal;
     &__link {
       display: block;
     }

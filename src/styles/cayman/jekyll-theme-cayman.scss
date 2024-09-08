@@ -24,8 +24,6 @@ main {
 
   pre {
     padding: 0.8rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: $code-text-color;
     word-wrap: normal;
@@ -82,11 +80,6 @@ main {
     }
   }
 
-  ul,
-  ol {
-    margin-top: 0;
-  }
-
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
@@ -99,25 +92,6 @@ main {
 
     > :last-child {
       margin-bottom: 0;
-    }
-  }
-
-  table {
-    display: block;
-    width: 100%;
-    overflow: auto;
-    word-break: normal;
-    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
-    -webkit-overflow-scrolling: touch;
-
-    th {
-      font-weight: bold;
-    }
-
-    th,
-    td {
-      padding: 0.5rem 1rem;
-      border: 1px solid $table-border-color;
     }
   }
 

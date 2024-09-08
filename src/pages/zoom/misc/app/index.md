@@ -3,6 +3,9 @@ title: Zoomのアプリについて
 redirect_from:
   - /zoom/create_room_software
   - /zoom/install
+breadcrumb:
+  title: アプリについて
+  parent: /zoom/
 ---
 
 ## インストールの方法
@@ -28,13 +31,13 @@ redirect_from:
 <ol>
   <li> Zoom を起動します．</li>
   <li> Zoomアプリで「サインイン」ボタンを押すなどして，Zoomのサインイン画面を開いてください．<br>
-    <img src="/zoom/signin/4.png"> </li>
+    <img src="@components/ja/systems/zoom/4.png"> </li>
   <li> サインイン画面で，「SSO」または「SSOでサインイン」と書かれた文字を探して押してください．（この画面のメールアドレス・パスワード欄にUTokyo Accountの情報を入力してもサインインできません．）<br>
-    <img src="/zoom/signin/5.png"> </li>
+    <img src="@components/ja/systems/zoom/5.png"> </li>
   <li>「会社のドメイン」欄に <code>u-tokyo-ac-jp</code> と入力してください．（ <code>ac</code> の前後はピリオドではなくハイフンであることに注意してください．）<br>
-    <img src="/zoom/signin/6.png"> </li>
+    <img src="@components/ja/systems/zoom/6.png"> </li>
   <li> ブラウザに移動するので，UTokyo Accoutでサインインしてください．（UTokyo Accountにサインイン済みの場合は，この画面を経ずにそのままサインインが完了します．）<br>
-    <img src="/zoom/signin/2.png"> </li>
+    <img src="@components/ja/systems/zoom/2.png"> </li>
   <li> 「スケジュール」を押します．<br>
     <img src="top2.png"> </li>
   <li> 以下の情報を設定してミーティングをスケジュールします．<br>  

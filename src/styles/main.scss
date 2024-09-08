@@ -2,16 +2,21 @@
 
 :is(main) {
   word-wrap: break-word;
-  :lang(ja) {
+  font-size: 1.125rem;
+  color: $text-color;
+  padding: 2rem 4rem;
+
+  &:lang(ja) {
+    text-align: justify;
+
     @media (max-width: 640px) {
       text-align: left;
     }
   }
-  :lang(en) {
+
+  &:lang(en) {
     hyphens: auto;
   }
-  font-size: 1.125rem;
-  color: $text-color;
 
   @import "components/box";
   @import "components/card";
@@ -27,23 +32,28 @@
   @import "components/top";
   @import "components/utils";
 
-  padding: 2rem 4rem;
-
   @media (min-width: 1024px) {
     max-width: 64rem;
     margin: 0 auto;
+
+    &[data-toc] {
+      max-width: 84rem;
+    }
   }
+
   @media (max-width: 768px) {
     padding: 2rem 2rem;
   }
+
   @media (max-width: 640px) {
     font-size: 1rem;
   }
+
   @media (max-width: 512px) {
     padding: 2rem 1rem;
   }
 
-  :first-child {
+  > :first-child {
     margin-top: 0;
   }
 }

@@ -1,5 +1,7 @@
 ---
 title: What is possible with Webex Events?（for Instructors・Participants)
+breadcrumb:
+  title: What is possible with Webex Events?（for Instructors・Participants)
 ---
 
 ## Roles

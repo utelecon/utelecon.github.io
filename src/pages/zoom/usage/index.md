@@ -6,6 +6,8 @@ redirect_from:
   - /zoom/how_to_use_in_classroom_faculty_members
   - /zoom/how_to_use_in_classroom_students
   - /zoom/how_to_use
+breadcrumb:
+  title: ミーティング中の操作方法
 ---
 
 ここでは，Zoom でミーティングに参加している時の具体的な使い方を説明します．  
