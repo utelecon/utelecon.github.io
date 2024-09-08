@@ -1,5 +1,5 @@
 ---
-title: Zoom ミーティングを作成する
+title: Zoomミーティングを作成する
 breadcrumb:
   title: ミーティングを作成する
 ---
@@ -67,7 +67,7 @@ breadcrumb:
 ### その他さまざまな設定
 {:#settings-misc}
 #### 登録
-{:#settings-register}
+{:#settings-registration}
 参加者に事前に氏名や連絡先等を添えて参加登録してもらいたいときに，この機能を利用します．大規模なイベントで参加者を把握するときなどに活用できます．詳しくは「[Zoomミーティングで参加者に登録を求める](/zoom/create_room/registration/)」を参照してください．
 
 #### ミーティングID
@@ -129,7 +129,7 @@ ZoomのミーティングIDは10桁程度の数字でしかなく，なにもセ
 * 「代替ホスト」
   * ホストに代わってミーティングを開始できるユーザーを「代替ホスト」と呼び，この欄を使って指名できます．
   * ただし，指名できるのは，UTokyo AccountでZoomを利用しているユーザのみです．指名したい相手の10桁の共通ID（UTokyo Accountのユーザ名）の後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたもの（例：`0123456789@utac.u-tokyo.ac.jp`）を入力してください．
-  * 詳しくは「[Zoom ミーティングの管理とそれに関わる役割（ホスト・共同ホスト・代替ホストなど）について | 代替ホスト](/zoom/misc/management_roles/#at_host)」を参照してください．
+  * 詳しくは[「Zoom ミーティングの管理とそれに関わる役割（ホスト・共同ホスト・代替ホストなど）について」の「代替ホスト」の項目](/zoom/misc/management_roles/#alt_host)を参照してください．
 
 ## よく使われている機能の設定方法
 {:#popular_functions}
