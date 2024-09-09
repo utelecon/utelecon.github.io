@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
       - name: Setup node_modules Cache
@@ -29,9 +29,11 @@ jobs:
       - name: Build
         run: |
           npm run build
-
+      - name: Check unused assets
+        run: |
+          npm run unused-asset
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v2.1
+        uses: nwtgck/actions-netlify@v3.0
         with:
           publish-dir: dist
           production-branch: master

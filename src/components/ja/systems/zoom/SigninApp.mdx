@@ -11,21 +11,17 @@ import SigninAppHelpDomain from "./SigninAppHelpDomain.mdx";
   */}
 
 1. Zoomアプリを開き，「サインイン」ボタンを押してください．
+2. サインイン画面で「SSO」，「SSOで続行」，または「SSOでサインイン」と書かれた文字を探して押してください<If cond={props.big}>（この画面のメールアドレス・パスワード欄に UTokyo Account の情報を入力してもサインインできません）</If>．
    <If cond={props.big}>
-     ![](/zoom/signin/4.png){:.medium}
-   </If>
-2. サインイン画面で，「SSO」または「SSOで続行」と書かれた文字を探して押してください<If cond={props.big}>（この画面のメールアドレス・パスワード欄に UTokyo Account の情報を入力してもサインインできません）</If>．
-   <If cond={props.big}>
-     ![](/zoom/signin/5.png){:.medium}
-     ![](/zoom/signin/6.png){:.medium}
+     <figure class="gallery">![](./5.png){:.medium}![](./6.png){:.medium}</figure>
    </If>
 3. 「会社のドメイン」の欄に，`u-tokyo-ac-jp`と入力してください（`ac`の前後はピリオドではなくハイフンであることに注意してください）．
    <If cond={props.big}>
-     ![](/zoom/signin/7.png){:.medium}
+     ![](./7.png){:.medium}
    </If>
 4. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面がブラウザで表示されるので，サインインしてください．
    <If cond={props.big}>
-     ![](/zoom/signin/2.png){:.medium}
+     ![](./2.png){:.medium}
    </If>
    <If cond={props.inlineHelp}>
      <SigninAppHelpDomain type="details" />

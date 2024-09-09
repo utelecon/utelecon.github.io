@@ -1,3 +1,4 @@
+import { fileURLToPath } from "node:url";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import { defineConfig } from "astro/config";
@@ -10,6 +11,10 @@ import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
 import externalLinks from "./src/lib/ExternalLinksIntegration.js";
 import trailingSlash from "./src/lib/TrailingSlashIntegration.js";
 import { cleanup } from "./src/lib/CleanupIntegration.js";
+import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
+import copyAsset from "./src/lib/CopyAssetIntegration.js";
+import assetFileNames from "./src/lib/AssetFileNames.js";
+import rehypeRaw from "rehype-raw";
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,11 +22,18 @@ export default defineConfig({
     plugins: [yaml()],
     resolve: {
       alias: {
-        "@styles": "src/styles",
+        "@styles": fileURLToPath(new URL("./src/styles", import.meta.url)),
       },
     },
     server: {
       watch: { usePolling: Boolean(process.env.USE_POLLING) },
+    },
+    build: {
+      rollupOptions: {
+        output: {
+          assetFileNames,
+        },
+      },
     },
   },
   markdown: {
@@ -42,14 +54,14 @@ export default defineConfig({
       footnoteLabelProperties: { className: ["visually-hidden"] },
       footnoteLabelTagName: "b",
     },
+    rehypePlugins: [rehypeRaw, collectHtmlImages],
     shikiConfig: {
       theme: "min-light",
-    }
+    },
   },
-  publicDir: "src/pages",
   scopedStyleStrategy: "where",
   integrations: [
-    mdx(),
+    mdx({ rehypePlugins: [] }),
     react(),
     redirect(),
     externalLinks({
@@ -59,6 +71,7 @@ export default defineConfig({
       contentProperties: { className: ["external-link"] },
     }),
     cleanup(),
+    copyAsset(),
     trailingSlash(),
   ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
