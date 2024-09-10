@@ -30,14 +30,14 @@ Materials are uploaded but may be updated until the session. Recordings will be 
   - Initial Setting and MFA (Multi-Factor Authentication)
   - Information Security Education
   - UTokyo Wi-Fi
-- Part II: Communication Tools and Cloud Services Available in UTokyo ([Material](/en/events/2024-09-13/slides/02_avairable_tools_en.pdf))
+- Part II: Communication Tools and Cloud Services Available in UTokyo ([Material](/en/events/2024-09-13/slides/02_available_tools_en.pdf))
   - Zoom and Tools for Online Meetings
   - UTokyo Slack
   - ECCS Cloud Email (Google Workspace)
   - UTokyo Microsoft License
   - Generative AI
   - How to Get Supported
-- Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL ([Material](/en/events/2024-09-13/slides/03_utas_utol_en.pdf))
+- Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL ([Material](/en/events/2024-09-13/slides/03_utas_utol_en.pdf), [Appendix](/en/events/2024-09-13/slides/04_appendix_on_utol_en.pdf))
   - UTAS
   - UTOL
 - Q&A session (Questions will also be accepted after the session)
