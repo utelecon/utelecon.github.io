@@ -1,3 +1,5 @@
+import If from "@components/utils/If.astro";
+
 {/**
   * @typedef {object} Props
   * @property {string} link
@@ -6,5 +8,5 @@
 <div class="box">
     This page is not translated yet.
 
-    Until the translation is completed, please use the <a href={props.link}>Japanese version</a>, or refer to the **[Manual](https://utol.ecc.u-tokyo.ac.jp/common/support/manual)** (“Manuals” can be found in the top right section of the screen after you log on to UTOL).
+    Until the translation is completed, <If cond={props.link}>please use the <a href={props.link}>Japanese version</a>, or </If>refer to the **[Manual](https://utol.ecc.u-tokyo.ac.jp/common/support/manual)** (“Manuals” can be found in the top right section of the screen after you log on to UTOL).
 </div>
