@@ -21,7 +21,7 @@ In addition, students are also welcome to attend the session, although the expla
 
 Materials and recording of the session will be provided on this page.
 
-## Contents (updated)
+## Contents
 Materials are uploaded but may be updated until the session. Recordings will be uploaded after the session.
 
 - Purpose and Outline of the Session ([Material](/en/events/2024-09-13/slides/00_index_en.pdf))
