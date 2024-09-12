@@ -29,13 +29,13 @@ This section provides information on how to schedule a Zoom Meeting with the Zoo
 <ol>
   <li> Open the Zoom App. </li>
   <li> Click “Sign In” to access the Zoom sign-in page.
-      <img src="@components/en/systems/zoom/4.png"> </li>
+      <img src="/en/zoom/signin/4.png"> </li>
   <li> On the Zoom sign-in page, press “SSO”, or “Sign in with SSO”. (Signing in with UTokyo Account email address and password via Zoom App is unavailable.)
-      <img src="@components/en/systems/zoom/5.png"> </li>
+      <img src="/en/zoom/signin/5.png"> </li>
   <li> Enter <code>u-tokyo-ac-jp</code> in the “Company Domain” field. (Note that <code>ac</code> is preceded and followed by a hyphen, not a period.)
-      <img src="@components/en/systems/zoom/6.png"> </li>
+      <img src="/en/zoom/signin/6.png"> </li>
   <li> You will be redirected to the UTokyo Account sign-in webpage. Sign in to your UTokyo account. (It is possible that this page will not appear if you have already signed into your UTokyo Account.)
-      <img src="@components/en/systems/zoom/2.png"> </li>
+      <img src="/en/zoom/signin/2.png"> </li>
   <li> Press “Schedule”.
       <img src="top2.png"> </li>
   <li> Schedule the meetings with the information as follows.

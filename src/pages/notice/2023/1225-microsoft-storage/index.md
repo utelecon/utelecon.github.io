@@ -2,11 +2,6 @@
 title: UTokyo Accountで利用するOneDrive等の容量制限について（第1報）
 ---
 
-<div class="box">
-
-最新の情報は「[UTokyo Accountで利用するOneDrive等の容量制限について（第2報）](../../2024/0422-microsoft-storage/)」をご覧ください．
-</div>
-
 UTokyo Account 利用者各位
 
 <div style="text-align: right;">情報システム本部</div>
@@ -46,7 +41,7 @@ UTokyo Accountをお持ちの方のうち，学生でも本学に雇用された
 
 ## 参考リンク
 
-[OneDriveの利用方法](/microsoft/onedrive/)
+[OneDriveの利用方法](https://utelecon.adm.u-tokyo.ac.jp/microsoft/onedrive/)
 
 ## 学生でも教職員でもないUTokyo Account保持者の確認方法
 {:#procedure}

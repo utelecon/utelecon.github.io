@@ -2,15 +2,9 @@
 title: Multi-Factor Authentication is Mandatory for UTokyo Account
 ---
 
-<p style="text-align: right">
-Executive Vice President in charge of Information Systems (CIO)
-</br>
-Kunihiro OHTA
-</p> 
-
 To all UTokyo Account users,
 
-Thank you for your continued cooperation in the proper use of information systems. At the University of Tokyo, we are committed to creating an environment where all members can conveniently and securely utilize information systems using UTokyo Account. As part of this effort, **we are going to make multi-factor authentication (MFA) mandatory for UTokyo Account**.  This is a policy that further strengthens the information security of our university, following an earlier announcement to faculty and staff ["Achieving 100% Multi-factor Authentication Adoption for UTokyo Accounts (faculty and staff only)"](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/UTokyo-Account-MFA-100.aspx).
+Thank you for your continued cooperation in the proper use of information systems. At the University of Tokyo, we are committed to creating an environment where all members can conveniently and securely utilize information systems using UTokyo Account. As part of this effort, **we are going to make multi-factor authentication (MFA) mandatory for UTokyo Account**.
 
 Many of you may already be familiar with MFA, a method of authentication that requires, in addition to a password, an additional verification such as Short Message Service (SMS) or a dedicated app when signing in to an account. By MFA, the risk of unauthorized access to an account can be significantly reduced, withstanding attacks even if the password is compromised. As methods of attacking accounts become increasingly sophisticated, relying solely on passwords for account protection is no longer sufficient.
 
@@ -45,7 +39,6 @@ For any other questions or concerns, please contact the [utelecon support desk](
 
 - Our authentication system is undergoing changes to accommodate more MFA options. See "[System Changes to the Authentication Infrastructure of UTokyo Account](/en/notice/2024/02-utac-auth-improvement)" for details.
 - To obtain a UTokyo Wi-Fi account, you also need to pass the information security test. See "[About using UTokyo Wi-Fi accounts for AY 2024](/en/notice/2024/02-wifi)." for more details
-- See also the earlier announcement for faculty and staff ["Achieving 100% Multi-factor Authentication Adoption for UTokyo Accounts (faculty and staff only)"](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/UTokyo-Account-MFA-100.aspx) by the Executive Vice President in charge of Information Systems (CIO).
 
 ## Update History
 {:#history}

@@ -44,3 +44,10 @@ breadcrumb:
 * ホーム画面には一週間以内に開催されるミーティング・ウェビナーが表示されます．それ以降のミーティングを選択したい場合はホーム画面左の「カレンダー」をクリックして，日付を指定して検索します．
 ![](img/webex_home_calendar.jpg){:.border.medium}
 ![](img/webex_calendar.jpg){:.border.medium}
+
+
+
+
+<br>
+<br>
+<a href="index" target="_blank">Webexの使い方ページに戻る</a>

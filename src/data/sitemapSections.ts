@@ -32,9 +32,13 @@ export const sitemapSectionsJa: SitemapSection[] = [
     name: "UTAS",
   },
   {
-    patterns: [/^\/utol($|\/)/],
+    patterns: [
+      /^\/itc_lms$/,
+      /^\/lms_lecturers($|\/)/,
+      /^\/lms_students($|\/)/,
+    ],
     depth: 3,
-    name: "UTOL",
+    name: "ITC-LMS",
   },
   {
     patterns: [/^\/zoom($|\/)/],
@@ -136,9 +140,13 @@ export const sitemapSectionsEn: SitemapSection[] = [
     name: "UTAS",
   },
   {
-    patterns: [/^\/en\/utol($|\/)/],
+    patterns: [
+      /^\/en\/itc_lms$/,
+      /^\/en\/lms_lecturers($|\/)/,
+      /^\/en\/lms_students($|\/)/,
+    ],
     depth: 3,
-    name: "UTOL",
+    name: "ITC-LMS",
   },
   {
     patterns: [/^\/en\/zoom($|\/)/],

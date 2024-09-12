@@ -15,7 +15,7 @@ The "Microsoft Authenticator" application is one of the verification method for 
 ### New sign-in approval procedure
 
 Previously, when signing in using the "Microsoft Authenticator" app, a notification was sent to the phone and the user had to press a button on the app to approve the sign-in. With the new approval procedure, a two-digit number is displayed on the screen after signing in, and the user needs to enter the two-digit number on the app.
-![](./number_matching.png)
+![](/notice/2023/number_matching.png)
 
 If you have already registered the "Microsoft Authenticator" app as a verification method, you can continue to use your current app even if the approval procedure is changed, so there is no need to register your verification method again.
 

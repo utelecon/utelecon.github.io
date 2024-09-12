@@ -1,10 +1,10 @@
 ---
 import If from "@components/utils/If.astro";
-import type { Step, RowLabels, Selection } from "./tabs";
+import type { Step, Labels, Selection } from "./tabs";
 
 interface Props {
   step: Step;
-  labels: RowLabels;
+  labels: Labels;
 }
 
 const { step, labels } = Astro.props;

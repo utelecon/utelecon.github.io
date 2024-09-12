@@ -49,7 +49,7 @@ For an overview of how to create a meeting, please refer to "[Schedule a meeting
 For an overview of usages during a meeting, please refer to "[Usages in Zoom Meeting](usage/)". Also, the following pages provide detailed explanations of individual functions.
 
 - [Use Microphone and Camera](usage/mic_cam/)
-    - [Use Vritual Background and Related Functions (in Japanese)](/zoom/usage/mic_cam/virtual_background/)
+    - [Use Vritual Background (in Japanese)](/zoom/usage/mic_cam/virtual_background/)
 - [Screen Sharing](usage/screen_sharing/)
 - [Use Chat (in Japanese)](/zoom/usage/chat/)
 - [Respond with a Raised Hand or an Emoji (in Japanese)](/zoom/usage/reaction/)

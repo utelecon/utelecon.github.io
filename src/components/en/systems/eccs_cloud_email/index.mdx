@@ -1,3 +1,4 @@
+import Important from "@components/utils/Important.astro";
 import Configure from "./Configure.mdx";
 import Login from "./Login.mdx";
 import Access from "./Access.mdx";
@@ -7,22 +8,38 @@ import UseMail from "./UseMail.mdx";
 {/**
   * @typedef {object} Props
   * @property {string} variant
+  * @property {boolean} [important]
   */}
 
-- **Task: Set your preferred email address**
-  <Configure
-    support={props.variant === "oc"}
-    detailsLink={props.important}
-  />
+<Important
+  short={props.important}
+  variant={props.variant}
+  lang="en"
+  system="ECCS Cloud Email (Google Workspace)"
+  prefix="Task"
+  title="Set your email address"
+>
+  <Fragment slot="important">
+    <Configure
+      support={props.variant === "oc"}
+      detailsLink={props.important}
+    />
+  </Fragment>
 
-- **Check: Log in**
-  <Login />
-
-- **Check: Make sure you can access UTokyo member-only pages**
-  <Access support={props.variant === "oc"} />
-
-- **Optional task: Log in on your smartphone** (for users of Gmail or other Google apps)
-  <LoginSp support={props.variant === "oc"} />
-
-- **Exercise: Use your email** (You can use your email address `xxxx@g.ecc.u-tokyo.ac.jp` in Gmail)
-  <UseMail support={props.variant === "oc"} />
+  <li>
+    **Check: Log in**
+    <Login />
+  </li>
+  <li>
+    **Check: Make sure you can access UTokyo member-only pages**
+    <Access support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Optional task: Log in on your smartphone** (for users of Gmail or other Google apps)
+    <LoginSp support={props.variant === "oc"} />
+  </li>
+  <li>
+    **Exercise: Use your email** (You can use your email address `xxxx@g.ecc.u-tokyo.ac.jp` in Gmail)
+    <UseMail support={props.variant === "oc"} />
+  </li>
+</Important>

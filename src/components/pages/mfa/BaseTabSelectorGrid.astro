@@ -1,15 +1,14 @@
 ---
-import type { ColumnLabels, RowLabels, Selection, Step } from "./tabs";
+import type { Labels, Selection, Step } from "./tabs";
 import DemiRadioButton, {
   type Props as DemiRadioButtonProps,
 } from "./DemiRadioButton.astro";
 
 interface Props {
-  rowLabels: RowLabels;
-  columnLabels: ColumnLabels;
+  labels: Labels;
 }
 
-const { rowLabels, columnLabels } = Astro.props;
+const { labels } = Astro.props;
 
 function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
   return {
@@ -22,10 +21,10 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
 ---
 
 <div class="wrapper">
-  <p class="col-first">{columnLabels.first}</p>
-  <p class="col-alt">{columnLabels.alt}</p>
+  <p class="col-first">手順1</p>
+  <p class="col-alt">手順2</p>
 
-  <p class="col-label">{rowLabels.ms_auth}</p>
+  <p class="col-label">{labels.ms_auth}</p>
   <span class="col-first">
     <DemiRadioButton {...radioProps("first", "ms_auth")} />
   </span>
@@ -36,7 +35,7 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
     <slot name="ms_auth" />
   </div>
 
-  <p class="col-label">{rowLabels.auth_app}</p>
+  <p class="col-label">{labels.auth_app}</p>
   <span class="col-first">
     <DemiRadioButton {...radioProps("first", "auth_app")} />
   </span>
@@ -47,7 +46,7 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
     <slot name="auth_app" />
   </div>
 
-  <p class="col-label">{rowLabels.phone}</p>
+  <p class="col-label">{labels.phone}</p>
   <span class="col-first">
     <DemiRadioButton {...radioProps("first", "phone")} />
   </span>
@@ -59,9 +58,9 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
   </div>
 
   {
-    rowLabels.fido && (
+    labels.fido && (
       <>
-        <p class="col-label">{rowLabels.fido}</p>
+        <p class="col-label">{labels.fido}</p>
         <span class="col-first">
           <DemiRadioButton {...radioProps("first", "fido")} disabled />
         </span>

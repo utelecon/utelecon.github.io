@@ -37,7 +37,7 @@ breadcrumb:
 
 ### Recording
 
-* If you record the entire event and upload it on an online platform like UTOL (How to publish: TODO), you can use the recording as a learning material for students with poor communication conditions or as a material to review the class.
+* If you record the entire event and upload it on an online platform like ITC-LMS (How to publish: TODO), you can use the recording as a learning material for students with poor communication conditions or as a material to review the class.
 * You can start recording anytime during the event by clicking the recorder icon.
 * Recorded video files are automatically saved in ARF format and saved in "My Training Recordings". You can also get a link (URL) with a password to share.
 

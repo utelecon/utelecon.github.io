@@ -48,11 +48,11 @@ import altApproved from "./alt_approved.png";
     以降の手順はこの作業をスマホ（Microsoft Authenticatorアプリをインストールしたもの）でしているかそれ以外（パソコンなど）でしているかによって異なります．
 
     - **スマホでこの作業をしている場合**：「このリンクをクリックして、アカウントをアプリにペアリングします。」を押してください．Microsoft Authenticatorアプリに移動し，自分のUTokyo Accountが表示されればOKです．元の画面に戻って「次へ」を押してください．
-      <Image src={{ firstLink, altLink }[`${props.step}Link`]} class="small" alt="" />
+      <img src={{ firstLink, altLink }[`${props.step}Link`].src} class="small" />
     - **スマホ以外（パソコンなど）でこの作業をしている場合**
       1. 「アカウントのセットアップ」という画面が表示されるので，さらに「次へ」を押してください．QRコードが表示されます．
-          <Image src={{ firstNextNext, altNextNext}[`${props.step}NextNext`]} alt="" />
-          <Image src={{ firstQr, altQr }[`${props.step}Qr`]} alt="" />
+          <img src={{ firstNextNext, altNextNext}[`${props.step}NextNext`].src} />
+          <img src={{ firstQr, altQr }[`${props.step}Qr`].src} />
       1. スマホでMicrosoft Authenticatorアプリを起動してください．なおこの際，インストール後初めてアプリを起動したという場合は，プライバシーに関する事項の同意やデータ収集に関する設定の確認が求められますので，順に進めてください．
           <figure class="gallery">![](./privacy.png){:.small .border}![](./improve.png){:.small .border}</figure>
       1. 「デジタル ライフを保護する」という画像1枚目のような画面が表示されている場合は，「QRコードをスキャンします」という項目を押してください．そうではなく画像2枚目または3枚目のような画面が表示されている場合は，画面右上の「+」を押してから，「職場または学校アカウント」「QRコードをスキャン」の順に選択してください．いずれの場合もカメラの利用を許可するか尋ねられることがありますが，その際は許可してください．

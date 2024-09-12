@@ -54,7 +54,7 @@ breadcrumb:
  
 1. Zoom アカウントの<a href="https://zoom.us/profile/setting" target="_blank">設定ページ</a>（個人の「設定」→「ミーティング」）へ行きます．
     * 取得したアカウントでログインしてください．
-    ![](../usage/zoom_host_setting.png)  
+    ![](/zoom/usage/zoom_host_setting.png)  
  
 1. 必要な設定を ON にします．おすすめの設定は以下のとおりです．
     * （必要に応じて ON）**認証されているユーザーしかミーティングに参加できません**: これを ON にして「大学アカウントでサインイン」を選択すると，東京大学のアカウントでサインインしている人のみ入室できるように制限ができます

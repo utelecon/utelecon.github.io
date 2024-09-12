@@ -24,12 +24,13 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 
 **利用対象者:** UTokyo Accountを持つ東京大学 構成員（教職員・学生）
 
-**利用できる端末の種類:** UTokyo VPNは，WindowsやmacOSなどのコンピュータで利用できます．サポートされているバージョンはそれぞれ以下の通りです．
+**利用できる端末の種類:** UTokyo VPNは，WindowsやmacOSなどのコンピュータで利用できます．また，AndroidやiPhone，iPadなどのモバイル端末からも利用可能です．サポートされているバージョンはそれぞれ以下の通りです．
 
 - Windows: Windows 10, 11
-- macOS: macOS 12 Monterey, 13 Ventura, 14 Sonoma
-
-また，AndroidやiPhone，iPadなどのモバイル端末からも利用可能です．OSや専用のアプリを適切にアップデートしながら利用してください．
+- macOS: macOS 10.15 Catalina, 11 Big Sur, 12 Monterey, 13 Ventura
+- Android: Android 9, 10, 11, 12
+- iOS: iOS 14, 15
+- iPadOS: iPadOS 14, 15
 
 ### UTokyo Accountの多要素認証
 {:#mfa}

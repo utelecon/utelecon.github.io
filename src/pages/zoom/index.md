@@ -39,7 +39,7 @@ Zoomは，東京大学で最も多く使われているWeb会議システムで�
 
 ミーティングの作成方法の概要については，「**[ミーティングを作成する](create_room/)**」を参照してください．また，以下の各ページで個別の機能についてくわしく解説しています．
 
-- [開催日時の詳細な設定](create_room/date_and_time/)
+- [複数回利用できるURLが変わらない会議室を予約する](create_room/date_and_time/)
 - [参加者に認証を求める](create_room/auth/)
 - [待機室を設定する](create_room/waiting_room/)
 - [参加者に登録を求める](create_room/registration/)
@@ -51,7 +51,7 @@ Zoomは，東京大学で最も多く使われているWeb会議システムで�
 ミーティング中の使い方の概要については，「**[ミーティング中の操作方法](usage/)**」を参照してください．また，以下の各ページで個別の機能についてくわしく解説しています．
 
 - [マイクとカメラを使う](usage/mic_cam/)
-    - [バーチャル背景機能など](usage/mic_cam/virtual_background/)
+    - [バーチャル背景を使う](usage/mic_cam/virtual_background/)
 - [画面を共有する](usage/screen_sharing/)
     - [画面共有の許可と制限](usage/screen_sharing/security/)
 - [チャットをする](usage/chat/)
