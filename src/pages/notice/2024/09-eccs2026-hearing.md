@@ -15,7 +15,7 @@ toc: false
 開催概要  
 - 会場：オンライン (Zoom)
 - 日時：2024年9月26日(木) 15:00-16:00
-- 申込先：[https://forms.gle/TP9U6SS7jFw9DWSQ6](https://forms.gle/TP9U6SS7jFw9DWSQ6) (ECCSクラウドメールでのログインが必要)
+- 申込先：<<https://forms.gle/TP9U6SS7jFw9DWSQ6>> (ECCSクラウドメールでのログインが必要)
 
 上記のフォームでの申込みができない方 (UTokyo Accountを取得前の方など)は，[ecc-support@ecc.u-tokyo.ac.jp](mailto:ecc-support@ecc.u-tokyo.ac.jp) 宛に以下の内容をメールしてください．
 
