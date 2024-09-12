@@ -157,7 +157,7 @@ Zoom ミーティングを管理するための機能は，「ミーティング
     ![](img/schedule_or_edit_meeting_on_web_edit.png){:.border}
 1. ミーティングのスケジュール・編集画面で「オプション」の項目の [表示] を選択してください．
 ![](img/meeting_option_web.png){:.border}
-1. 「代替ホスト」欄に，追加対象のユーザーの「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」（例：`1234567890@utac.u-tokyo.ac.jp`）を入力してください．
+1. 「代替ホスト」欄に，追加対象のユーザーの「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」（例：`0123456789@utac.u-tokyo.ac.jp`）を入力してください．
     - なお，間違えて登録してしまった場合などでは，×マークを選択することで削除できます．
 ![](img/add_alt_host_web.png){:.border}
 1. 「保存」を選択して完了してください．
@@ -237,7 +237,7 @@ Zoom ミーティングを管理するための機能は，「ミーティング
 ![](img/scheduling_privilege_add_user_0.png){:.border}
 1. 「ユーザー」欄下部の\[追加\]を選択してください．
 ![](img/scheduling_privilege_add_user_1.png){:.border}
-1. 「ユーザー」欄に，子ユーザーとしたい方の「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」（例：`1234567890@utac.u-tokyo.ac.jp`）を入力してください．
+1. 「ユーザー」欄に，子ユーザーとしたい方の「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」（例：`0123456789@utac.u-tokyo.ac.jp`）を入力してください．
     - なお，間違えて入力してしまった場合などでは，ゴミ箱マークを選択することで削除できます．
 ![](img/scheduling_privilege_add_user_2.png){:.border}
 1. 子ユーザーが非公開になっているミーティングを管理できるようにするか選択してください．

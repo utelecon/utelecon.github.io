@@ -6,7 +6,7 @@ breadcrumb:
 
 ## Using microphone
 
-![](/en/zoom/usage/main_mic_speaker.png)
+![](../main_mic_speaker.png)
 
 Press the microphone mark to mute (mute) or unmute (the screen shows "mute off" because it is currently muted). 
 
@@ -21,7 +21,7 @@ If you press the upper mark next to the microphone mark, an additional menu will
 
 ## Using camera
 
-![](/en/zoom/usage/main_camera.png)
+![](../main_camera.png)
 
 Press the video mark to turn the video on or off (the screen shows "Start Video" because the camera is currently off).
 

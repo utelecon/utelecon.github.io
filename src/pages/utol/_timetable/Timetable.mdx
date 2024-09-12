@@ -11,7 +11,7 @@ import If from "@components/utils/If.astro"
 
 担当教員，TA，または履修者として登録しているコースは，UTOLにログインした後のトップページで確認できます．
 
-この画面には，左メニュー（画面左上の![三本線のボタン](../_icons/hamburger.png){:.logo}を押すと左側に表示されるメニュー）のUTOLのロゴか，「時間割」ボタンを押しても移ることができます．
+この画面には，左メニュー（画面左上の![三本線のボタン](../_icons/hamburger.png){:.icon}を押すと左側に表示されるメニュー）のUTOLのロゴか，「時間割」ボタンを押しても移ることができます．
 
 ![](./sidemenu.png)
 
@@ -51,7 +51,7 @@ import If from "@components/utils/If.astro"
     </li>
     <If cond={props.variant !== "student"}>
       <li>
-        ![](../_icons/download_participant.png){:.logo}（参加者名簿）：教員として登録している場合に表示され，アイコンを押すと参加者名簿をダウンロードできます．
+        ![](../_icons/download_participant.png){:.icon}（参加者名簿）：教員として登録している場合に表示され，アイコンを押すと参加者名簿をダウンロードできます．
       </li>
     </If>
   </ul>

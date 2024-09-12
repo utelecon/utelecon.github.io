@@ -5,9 +5,9 @@ breadcrumb:
   parent: ../..
 ---
 
-**When you leave the University of Tokyo due to graduation, resignation, or other reasons, your UTokyo Account will be revoked and you will no longer be able to sign in.** As a result, you will no longer be able to sign in to the various information systems such as Zoom and the systems of UTokyo Microsoft License provided by the University of Tokyo that require a [UTokyo Account](/en/utokyo_account/) for sign-in. After your account has been revoked, you will not be able to access any data stored in these information systems. In addition, since you will not be able to log in to your [ECCS Cloud Email](/en/google/) account after you leave the university, nor will you be able to access data stored in Gmail, Google Drive, or other services which you used in your ECCS Cloud Email account.
+**When you leave the University of Tokyo due to graduation, resignation, or other reasons, your UTokyo Account will be revoked and you will no longer be able to sign in.** As a result, you will no longer be able to sign in to the various information systems such as [Zoom](/en/zoom/), [ECCS Cloud Email](/en/google/) or [UTokyo Microsoft License](/en/microsoft/) provided by the University of Tokyo that require a [UTokyo Account](/en/utokyo_account/) for sign-in. After your account has been revoked, you will not be able to access any data stored in these information systems.
 
-Also, when your affiliation changes within the University of Tokyo, your UTokyo Account or ECCS Cloud Email account may also be revoked in some cases.
+Also, when your affiliation changes within the University of Tokyo, your UTokyo Account may also be revoked in some cases.
 
 Please check which of the following applies to you, and **back up your data in advance if necessary**.
 
@@ -24,6 +24,7 @@ If you leave the University of Tokyo due to graduation or resignation, your UTok
 Furthermore, some information systems, such as the [UTokyo Antivirus License](/antivirus/), are not automatically terminated even though you are no longer authorized to use them upon leaving the university. Please follow the instructions or each system to terminate their use.
 
 Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers in FY2023<small>(*You must sign in with your UTokyo Account to view this page)</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)" page (in Japanese) for more information on the UTokyo Antivirus License.
+- If you have already left the University of Tokyo, you cannot view the above pages because you cannot sign in to your UTokyo Account. In this case, please contact [the Technical Support Desk via the email form](/en/support/#email-form).
 
 ## If your affiliation changes within the University of Tokyo
 {:#change}
@@ -50,7 +51,8 @@ After 27 February 2024, UTokyo Account will no longer be changed when you become
 
 ## Appendix
 
-- Your UTokyo Account will be revoked at the beginning of the month following the end of your enrollment period at the University of Tokyo. Since the period of enrollment is based on the information registered by the faculty or graduate school you belong to (the academic office for students and the personnel department for faculty and staff), please contact your faculty or graduate school if you wish to confirm the revocation date of your account.
+- Since the period of enrollment is based on the information registered by the faculty or graduate school you belong to (the academic office for students and the personnel department for faculty and staff), please contact your faculty or graduate school if you wish to confirm the revocation date of your account.
+    - Please note that UTokyo Accounts will be rovoked at the beginning of the month following the end of the enrollment period, but only when students graduate.
     - However, some systems such as UTAS and Personnel Information MyWeb will become unavailable at the same time as the end of the enrollment period, which is earlier than the revocation of your UTokyo Account.
 - When your affiliation changes, you may not be able to use your UTokyo Account if your new affiliation is not supposed to grant UTokyo Account under its regulations, or if your UTokyo Account has not been properly registered at your new affiliation for some reason. If you wish to confirm how your UTokyo Account will be managed at your new affiliation, please contact your new faculty or graduate school in advance.
     - Emeritus Professors are eligible to use the UTokyo Account. However, since the title of emeritus professors is not conferred immediately after their resignation, certain procedures must be taken regarding the registration of enrollment information. Please contact the personnel department of your affiliation for details.

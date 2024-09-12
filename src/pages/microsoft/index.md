@@ -9,13 +9,6 @@ breadcrumb:
 
 UTokyo Microsoft Licenseとは，Microsoftの提供するシステムをUTokyo Accountで利用することのできるライセンスです．具体的には，Word，Excel，PowerPointのような，機器にインストールして利用するOfficeソフトウェアなどが含まれます．詳細は[利用可能な主なシステム](#systems)をご覧ください．
 
-### Microsoftのシステムへのサインインについて
-{:#signin}
-
-UTokyo Microsoft Licenseのシステムなどを使っていると，Microsoftのサインイン画面に移動することがあります．この場合にUTokyo Accountを用いてサインインする方法については以下をご覧ください．
-
-**[UTokyo Accountを用いてMicrosoftのシステムにサインインする](signin)**{:.box.center}
-
 ## 利用対象者
 {:#users}
 
@@ -29,7 +22,11 @@ UTokyo Microsoft Licenseは，UTokyo Accountを持つ東京大学の構成員（
 ## 利用可能な主なシステム
 {:#systems}
 
-以下では，UTokyo Microsoft Licenseにより利用可能なシステムについて説明をしています．
+UTokyo Microsoft Licenseで利用可能なシステムの多くは，以下のリンクからアクセスすることができます．
+
+**[Microsoft 365](https://www.microsoft365.com/login)**{:.box.center}
+
+以下では，UTokyo Microsoft Licenseにより利用可能な個別のシステムについて説明します．
 
 <details>
 <summary>ここに掲載されていないシステムについて</summary>
@@ -77,7 +74,10 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 
 2022年11月に，「ITツールの利活用」の取り組みの一環として，事務組織の階層構造に基づく従来までの「チーム」に加えて，任意のメンバーで構成可能な「チーム」の利用が可能になりました（要申請）．マニュアル類に関しては以下をご覧ください（教職員のみアクセス可）．
 - **[Teams管理者マニュアル](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/Teams%E7%AE%A1%E7%90%86%E8%80%85%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB.pdf)**（東京大学における「チーム」機能の立ち位置に関する説明を含んだ，チームの管理者向けのマニュアル）
-- **[Teamsチーム　リファレンス](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/IT_Tool_001/Teams%E3%83%81%E3%83%BC%E3%83%A0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9.pdf)**（「チーム」機能に関する詳細なマニュアル）
+- **[Teamsチームの作成と運用について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx )**
+- **[Teamsチームフォルダについて](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Share_Teams_files.aspx )**
+- **[Teamsチームフォルダ　ストレージ容量変更アプリについて](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Teams_Change_Storage_Limit.aspx)**
+
 
 ### 職員メール
 {:#email}
@@ -94,6 +94,17 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 
 オンラインフォームを作成することのできるシステムです．UTokyo Accountを持つ人限定に公開するフォームを作ることもできます．利用手順などの説明は**[Microsoft Forms クイック スタート](https://support.microsoft.com/ja-jp/office/620daa7a-3e03-4013-8f92-5cce86210ef6)**をご覧ください．
 
+## UTokyo AccountでMicrosoftのシステムにサインインする
+{:#signin}
+
+UTokyo Microsoft Licenseで提供されるシステムを利用するには，UTokyo AccountをMicrosoftアカウントとして用いてサインインする必要があります．
+
+以下の画像のようにサインインを要求された場合には，入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力して，画面の指示に従って続けてください．
+
+![](img/microsoft-signin-instruction-1.png){:.small.center.border}
+
+詳しい手順や，他のMicrosoftアカウントとの使い分けに関しては，「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](signin)」を参照してください．
+
 ## Microsoftが提供するその他のライセンス
 {:#related_licenses}
 
@@ -104,12 +115,12 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 
 **学生のみが利用できます**
 
-WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は**[UTokyo Microsoft Windows 10 for students](https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense_win10.html)**のページをご覧ください．
+WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は**[Windows Education for students](windows_education_for_students)**のページをご覧ください．
 
 ### 共用PC等向けMicrosoftライセンス
 {:#shared_pc}
 
-特定の個人が専有して利用するPCではなく複数人で共用するPCでOfficeアプリを利用したい場合など，UTokyo Microsoft Licenseでの通常のOfficeの提供形態でカバーできない利用に対応するために運用しているOfficeおよびWindowsのライセンスです．主に学科・専攻や研究室等で整備した共用PCでの利用を想定しています．利用手順などの説明はUTokyo Portalの**[共用PC等向けMicrosoftライセンス](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_Microsoft_License_for_University_PC.aspx)**のページをご覧ください（教職員のみアクセス可）．
+特定の個人が専有して利用するPCではなく複数人で共用するPCでOfficeアプリを利用したい場合など，UTokyo Microsoft Licenseでの通常のOfficeの提供形態でカバーできない利用に対応するために運用しているOfficeおよびWindowsのライセンスです．主に学科・専攻や研究室等で整備した共用PCでの利用を想定しています．利用手順などの説明は**[共用PC等向けMicrosoftライセンス](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Microsoft-license-for-shared-PC.aspx)**のページをご覧ください（閲覧にはUTokyo Accountでのサインインが必要です）．
 
 ### UTokyo Microsoft Azure Dev Tools for Teaching
 {:#adt4t}

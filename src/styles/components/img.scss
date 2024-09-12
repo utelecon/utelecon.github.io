@@ -24,6 +24,10 @@ img.small {
   max-height: 30rem;
 }
 
+img.height70 {
+  height: 70px;
+}
+
 img.extra-small {
   max-width: 15rem; /* for IE11 */
   max-width: min(100%, 15rem);
@@ -34,9 +38,10 @@ img.inline {
   display: inline;
 }
 
-img.logo {
+img.icon {
   display: inline;
-  max-height: 2em;
+  max-height: 1.5em; /* slightly larger than text */
+  vertical-align: middle;
 }
 
 img.center {
