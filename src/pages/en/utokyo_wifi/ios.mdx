@@ -33,7 +33,7 @@ Find “Wi-Fi” in Settings and turn on the toggle switch of the Wi-Fi function
 ### Step 3: Delete the existing Wi-Fi setting information.
 {:#delete-profile}
 <DeleteProfile  userIdField="user-name"/>
-Tap the SSID found in Step 2, select “Delete this network setting”. When the screen saying “Forget Wi-Fi network “0000UTokyo”?” comes up, select “Forget”.
+Tap the SSID found in Step 2, select “Forget this Network”. When the screen saying “Forget Wi-Fi network “0000UTokyo”?” comes up, select “Forget”.
 <figure class="gallery">![](img/ios-deleteprofile1.PNG){:.medium.center.border}![](img/ios-deleteprofile2.PNG){:.medium.center.border}</figure>
 
 ### Step 4: Enter the required information and connect
@@ -43,8 +43,8 @@ The necessary Wi-Fi setting information will be displayed after you select the S
 
 | Field name     | Content     |
 | :-----------: | :------------------- |
-| User name       | Enter the User ID of UTokyo Wi-Fi (Begin with “u” and end with “@wifi.u-tokyo.ac.jp`”) |
-| Password       | Enter the password of UTokyo Wi-Fi     |
+| User name       | Enter the User ID of UTokyo Wi-Fi (Begin with `u` and end with `@wifi.u-tokyo.ac.jp`). |  
+| Password       | Enter the password of UTokyo Wi-Fi.     |
 
 <figure class="gallery">![](img/ios-createprofile1.PNG){:.medium.center.border}![](img/ios-createprofile2.PNG){:.medium.center.border}</figure>
 
@@ -52,8 +52,11 @@ The necessary Wi-Fi setting information will be displayed after you select the S
 {:#create-profile-notes}
 * Enter the user ID and password for the UTokyo account into the fields of “User-name” and “Password”. Note that they are not the regular ID and password for the UTokyo Account. You can check the user ID and password in the notification email described in the ”**Preparation**” step or the screen of the completed application.
 * If there are any setting items other than mentioned above, please configure them as needed. If you have no particular preferences, you can leave the default settings.
-* During the connecting operation, a screen asking if you trust the certificate may appear. To verify whether the certificate is correct, compare the "server fingerprint" of the displayed certificate with the fingerprint listed in 「[Connect Configuration](/utokyo_wifi/#connect-configuration)」. If they match, trust the certificate.
-    * In addition, there are two types of fingerprints (SHA-1 and SHA-256) listed on [Connect Configuration](/utokyo_wifi/#connect-configuration);matching one type will suffice
+* During the connecting operation, a screen asking if you trust the certificate may appear. To verify whether the certificate is correct, compare the "server fingerprint" of the displayed certificate with the fingerprint listed in 「[Connect Configuration](/en/utokyo_wifi/#connect-configuration)」. If they match, trust the certificate.
+    * In addition, there are two types of fingerprints (SHA-1 and SHA-256) listed on [Connect Configuration](/en/utokyo_wifi/#connect-configuration);matching one type will suffice
+
+![](img/ios-certificate.PNG){:.medium.center.border}
+
 
 ## Troubleshooting guide
 {:#trouble-connect}
