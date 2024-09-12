@@ -6,7 +6,7 @@ The following is a list of pages that provide information on the operation statu
 
 * UTokyo Account
   * [UTokyo Account page](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)
-* UTOL and ECCS terminals
+* ITC-LMS and ECCS terminals
   * [News](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html)
   * [Service Alert](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html#maintenance)
 * Zoom

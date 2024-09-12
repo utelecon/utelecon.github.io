@@ -1,9 +1,9 @@
 ---
-import type { RowLabels, Selection, Step } from "./tabs";
+import type { Labels, Selection, Step } from "./tabs";
 
 interface Props {
   step: Step;
-  labels: RowLabels;
+  labels: Labels;
   guide: string;
 }
 
@@ -135,7 +135,6 @@ function labelProps(selection: Selection) {
     font-weight: bold;
     color: $main-color;
     margin: 0 0 0 0.5em;
-    flex-shrink: 0;
   }
 
   button :global(p) {

@@ -3,9 +3,8 @@
 import type { Root } from "mdast";
 import { visit } from "unist-util-visit";
 import { visit as estreeVisit } from "estree-util-visit";
-import "mdast-util-mdx";
 
-const ALLOWED_PREFIXES = ["http:", "https:", "/", "./", "../", "@"];
+const ALLOWED_PREFIXES = ["http:", "https:", "/", "./", "../"];
 
 export default function dotSlashPlugin() {
   return (root: Root) => {

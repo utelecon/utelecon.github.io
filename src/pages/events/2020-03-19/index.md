@@ -11,7 +11,7 @@ title: 2020/03/19 オンライン基礎講座「授業のオンライン化を�
   
   
 この講座では単発の会議室の予約方法しか扱えていませんが，同じ URL で複数回利用できる会議室の予約方法がございますので，以下のWebページもご参考にしていただければ幸いです．  
-[Zoom 会議室の作り方](/zoom/create_room)  
+[Zoom 会議室の作り方](https://utelecon.github.io/zoom/create_room)  
 [複数回利用できる URL が変わらない会議室を予約する](/zoom/create_room/date_and_time/)  
 
   

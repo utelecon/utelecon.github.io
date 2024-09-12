@@ -190,7 +190,7 @@ Click on the eye symbol icon on the right (the red circle below) to preview  you
 
 #### Share your Google Form
 
-Click "Send" on the right, and then the link symbol (the blue circle in below) to retrieve the link. You can copy and paste it into the chat box of UTOL or Zoom.
+Click "Send" on the right, and then the link symbol (the blue circle in below) to retrieve the link. You can copy and paste it into the chat box of ITC-LMS or Zoom.
 
 In a large class, it is suggested to duplicate the form for access divide to avoid link breakdown due to heavy internet traffic. For more details, see [Prof. Yotsumoto's Good Practice (only in Japanese)](/good-practice/interview/yotsumoto).
 

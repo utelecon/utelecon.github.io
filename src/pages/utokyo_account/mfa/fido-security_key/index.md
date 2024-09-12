@@ -12,10 +12,19 @@ breadcrumb:
 
 なお，FIDOはセキュリティキーと呼ばれる専用の機器を用いる方法とパソコンやスマホに保存された情報を用いるパスキーという方法の2種類に大別されますが，UTokyo Accountの多要素認証では，現時点ではFIDOにパスキーは利用できず，YubiKeyなどのセキュリティキーのみが利用可能ですので，セキュリティキーを自身で購入してご利用ください．その際，利用可能なセキュリティキーは「FIDO 2」規格に対応したセキュリティキーとなりますので，注意してください．
 
-## 一部のOS・ブラウザでは使えません
+## 注意事項
+
+### 一部のシステムでは対応していません
+{:#unsupported-system}
+
+UTokyo Accountの多要素認証では，多くのシステムでFIDOに対応してますが，一部のシステムではFIDOに対応していません．そのため，FIDO以外の本人確認方法を登録した上で，FIDOは2個目以降の本人確認方法として利用してください．UTokyo Accountで利用できる各システムについて，FIDOに対応しているかどうかについての情報は，[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)を参照してください．
+
+「YubiKey」という製品の一部のモデルでは，FIDOに加え，「Yubico Authenticator」というアプリと連携し，Yubikeyを接続した端末上のアプリに表示されるコード（6桁の数字）を入力するTOTP（Time-based One-Time Password）という本人確認方法も使えるため，便利です．YubiKeyで「Yubico Authenticator」アプリを使用する方法についての詳細は「[UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法](../yubikey-totp/)」のページを参照してください．
+
+### 一部のOS・ブラウザでは使えません
 {:#unsupported-os-browser}
 
-FIDOは，AndroidのGoogle ChromeやLinuxのFirefoxなど一部のOSとブラウザの組み合わせでは利用できません．2024年3月時点で利用できるOSとブラウザの組み合わせは，以下の通りです．
+FIDOは，AndroidのGoogle ChromeやLinuxのFirefoxなど一部のOSとブラウザの組み合わせでは利用できません．2023年8月時点で利用できるOSとブラウザの組み合わせは，以下の通りです．
 
 - Windows - Google Chrome
 - Windows - Microsoft Edge
@@ -60,4 +69,19 @@ FIDOセキュリティキーは，2個目以降の本人確認方法として登
 ![](signin_security_key.png)
 3. 画面の指示に従って，PINの入力あるいは生体認証，セキュリティキーのタップなどを行った後，サインインが完了します．
 
-※サインインがうまくいかない場合は，FIDOが使えないOS・ブラウザの組み合わせである可能性があります．詳細は，「[一部のOS・ブラウザでは使えません](#unsupported-os-browser)」の節を参照してください．
+※サインインがうまくいかない場合は，下の[FIDOセキュリティキーを利用したサインインができない場合](#troubleshooting)を参照してください．
+
+## FIDOセキュリティキーを利用したサインインができない場合
+{:#troubleshooting}
+
+### セキュリティキーが選択肢に現れない場合
+
+FIDOに対応していないシステムのため，別の本人確認方法を利用してください．詳細は，「[一部のシステムでは対応していません](#unsupported-system)」の節を参照してください．
+
+### 「セキュリティ上の理由により，アカウントを検証するための追加情報が必要です」と表示される場合
+
+FIDOに対応していないシステムでは，FIDOセキュリティキー以外の本人確認方法が登録されていない場合，このメッセージが表示されます．5秒後に多要素認証の設定ページに切り替わるため，[「UTokyo Account多要素認証の初期設定手順」の中の「手順2：追加の本人確認方法を登録する」](/utokyo_account/mfa/initial#alternative)の手順に従って，FIDO以外の本人確認方法を登録してください．FIDOが対応していないシステムの詳細は，「[一部のシステムでは対応していません](#unsupported-system)」の節を参照してください．
+
+### 「セキュリティキーを使用する」を押してから先に進まない場合
+
+FIDOが使えないOS・ブラウザの組み合わせである可能性があります．詳細は，「[一部のOS・ブラウザでは使えません](#unsupported-os-browser)」の節を参照してください．

@@ -17,7 +17,7 @@ redirect_from:
 ## 原則：UTOLの「オンライン授業情報」欄を利用する
 {:#use-online-class-info-in-general}
 
-- オンライン授業のURLを学生に連絡する際は，学習管理システム**[UTOL](/utol)の「オンライン授業情報」欄を利用**するのが原則です（[ある授業の記載例](https://utol.ecc.u-tokyo.ac.jp/lms/course?idnumber=2020FEN-EE3d16L10J01)）．
+- オンライン授業のURLを学生に連絡する際は，学習管理システム**[UTOL](/itc_lms)の「オンライン授業情報」欄を利用**するのが原則です（[ある授業の記載例](https://utol.ecc.u-tokyo.ac.jp/lms/course?idnumber=2020FEN-EE3d16L10J01)）．
     - URLが自動的にリンクになりませんので，お手数ですが，編集画面の![](url_button.png){:.inline}ボタンを押してリンク化するようお願いします．
     - タブレットなどのアプリから参加する学生に便利なよう，URLだけでなくミーティングIDとパスコードもなるべく記載するようお願いします．
 - なお，次のような問題が生じないよう，**「お知らせ」や「掲示板」等の他の欄ではなく「オンライン授業情報」欄を利用**してください．
@@ -30,7 +30,7 @@ redirect_from:
 ### 授業URL追加の手順
 
 - [手順動画](https://youtu.be/JeBwwDfhJJw)
-- 「[「UTOLでコース設定を行う（教員・TA向け）](../../utol/lecturers/settings/)」でも手順などの詳細を案内しています．
+- ITC-LMSのお知らせ「[「オンライン授業情報」の追加について](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/16_3208.html)」でも手順などの詳細を案内しています．
 
 
 ## 補足：UTOL以外のシステムでの授業URLの連絡について

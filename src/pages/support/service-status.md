@@ -19,6 +19,5 @@ toc: false
 - **UTokyo Microsoft License**：[Service Status](https://portal.office.com/servicestatus)
 - **Slido**：[Slido Status](https://status.slido.com/)
 - **UTokyo Slack**：[Slack System Status](https://status.slack.com/)
-- **Ezproxy・OPAC**：[データベース・電子ジャーナル・OPAC等の障害情報](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/servicestatus)
 
 また，SNSの書き込みをもとに障害の可能性を表示するサービスである「[Downdetector](https://downdetector.jp/)」の情報も，障害が発生しているかどうかの判断の参考となるかもしれません（各システムの提供元からの公式の情報ではないことに留意して利用してください）．

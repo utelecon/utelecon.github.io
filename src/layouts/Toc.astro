@@ -33,70 +33,46 @@ for (const heading of Astro.props.headings) {
 }
 ---
 
-<aside id="sidebar">
-  <div id="toc-toggle">
-    <button id="toc-toggle-button">
-      <span id="toc-toggle-button-icon">
-        {Astro.props.lang === "ja" ? "目次" : "TOC"}
-      </span>
-    </button>
-    <div id="toc-backdrop"></div>
-  </div>
-  <div id="toc-container">
-    <section id="toc">
-      <b>{Astro.props.lang === "ja" ? "目次" : "Table of Contents"}</b>
-      <ul id="toc-list" class="toc-h2">
-        {
-          headings.map((h2) => (
-            <li>
-              <a href={`#${h2.slug}`}>{h2.text}</a>
-              {h2.children.length > 0 && (
-                <ul class="toc-h3">
-                  {h2.children.map((h3) => (
-                    <li>
-                      <a href={`#${h3.slug}`}>{h3.text}</a>
-                      {h3.children.length > 0 && (
-                        <ul class="toc-h4">
-                          {h3.children.map((h4) => (
-                            <li>
-                              <a href={`#${h4.slug}`}>{h4.text}</a>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))
-        }
-      </ul>
-    </section>
-  </div>
-</aside>
+<section class="main__toc">
+  <h2>{Astro.props.lang === "ja" ? "目次" : "Table of Contents"}</h2>
+  <ul>
+    {
+      headings.map((h2) => (
+        <li>
+          <a href={`#${h2.slug}`}>{h2.text}</a>
+          {h2.children.length > 0 && (
+            <ul>
+              {h2.children.map((h3) => (
+                <li>
+                  <a href={`#${h3.slug}`}>{h3.text}</a>
+                  {h3.children.length > 0 && (
+                    <ul>
+                      {h3.children.map((h4) => (
+                        <li>
+                          <a href={`#${h4.slug}`}>{h4.text}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))
+    }
+  </ul>
+</section>
 
 <style lang="scss">
   @import "@styles/color.scss";
-  @import "@styles/toc.scss";
-
-  #toc {
-    overflow-y: auto;
-    padding: 2rem 0.5rem;
+  .main__toc {
+    padding: 1em 0 0;
+    margin: 2.29em 0;
     font-size: 0.875em;
     border-radius: 1em;
     background-color: $white-gray-light;
-    width: $toc-width;
-    min-width: $toc-width;
-    display: flex;
-    flex-direction: column;
-    position: sticky;
-    top: 2rem;
-    max-height: calc(100vh - 12rem);
-    max-height: calc(100svh - 12rem);
-    text-align: left;
-
-    & > b {
+    & > h2 {
       margin: 0 0 0.4em 0.8em;
       padding: 0;
       border: none;
@@ -109,248 +85,23 @@ for (const heading of Astro.props.headings) {
     }
     ul {
       margin: 0;
-      padding-left: 0;
+      padding-left: 1em;
     }
     li {
       display: contents;
     }
-    li a {
+    li > a {
       display: block;
-      position: relative;
+      border-top: 1px solid white;
       color: $link-color-light;
       padding: 0.25em 1em 0.25em 0;
+      &:hover {
+        color: $link-color;
+        background-color: $white-gray-dark;
+      }
       @media (pointer: coarse) {
         padding: 0.75em 1em 0.75em 0;
       }
-      &:before {
-        content: "";
-        position: absolute;
-        border-radius: 50%;
-        left: - calc($toc-ul-left-padding / 2);
-        width: 4px;
-        height: 4px;
-        transform: translate(-50%, -50%);
-        background: $link-color-light;
-        border: 2px solid $white-gray-light;
-        top: 1em;
-        @media (pointer: coarse) {
-          top: 1.5em;
-        }
-      }
-    }
-    ul.toc-h2 {
-      position: relative;
-      padding-left: $toc-ul-left-padding;
-      &:before {
-        content: "";
-        position: absolute;
-        top: 20px;
-        bottom: 0.6em;
-        left: calc($toc-ul-left-padding / 2);
-        width: 3px;
-        transform: translateX(-50%);
-        background: $white-gray-dark;
-        border-radius: 0 0 5px 5px;
-        @media (pointer: coarse) {
-          bottom: 1.25em;
-        }
-      }
-      > li > a {
-        &:before {
-          width: 0.6em;
-          height: 0.6em;
-        }
-      }
-    }
-    ul.toc-h3 {
-      font-size: 0.9em;
-      a {
-        filter: saturate(0);
-      }
-    }
-    ul.toc-h4 {
-      > li > a {
-        padding-left: 1em;
-        &:before {
-          display: none;
-        }
-      }
-    }
-    li a.active {
-      font-weight: 800;
-      filter: unset;
-      color: $link-color-light;
-      &:before {
-        background: $link-color-light;
-        border: 2px solid $white-gray-dark;
-      }
-    }
-  }
-  #toc-toggle {
-    display: none;
-  }
-  #toc-container {
-    height: 100%;
-  }
-  @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
-    #sidebar {
-      min-width: 0;
-      position: sticky;
-      top: 1rem;
-      pointer-events: none;
-      z-index: 100;
-    }
-    #toc-toggle {
-      display: flex;
-      justify-content: flex-end;
-    }
-    #toc-toggle-button {
-      cursor: pointer;
-      appearance: none;
-      background: #fff;
-      padding: 0.75rem 0.75rem;
-      border: 1px solid #ccc;
-      border-radius: 0.375rem;
-      box-shadow: rgba(0, 0, 0, 0.2) 0 0.25rem 0.5rem 0;
-      color: #212121;
-      pointer-events: auto;
-    }
-    #toc-toggle-button-icon {
-      &:before {
-        content: "";
-        display: inline-block;
-        width: 0.5rem;
-        height: 0.5rem;
-        margin-right: 0.5rem;
-        border-right: 1.5px solid #212121;
-        border-bottom: 1.5px solid #212121;
-        transform: translateY(-0.2em) rotate(45deg);
-      }
-      aside.toc-open & {
-        &:before {
-          transform: translateY(0.1em) rotate(-135deg);
-        }
-      }
-    }
-    #toc-backdrop {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background: transparent;
-      pointer-events: auto;
-      aside.toc-open & {
-        display: block;
-      }
-    }
-    #toc-container {
-      position: relative;
-      height: unset;
-      pointer-events: auto;
-    }
-    #toc {
-      display: none;
-      position: absolute;
-      top: 1rem;
-      right: 0px;
-      border: 1px solid #ccc;
-      box-shadow: rgba(0, 0, 0, 0.2) 0 0.25rem 0.5rem 0;
-      height: unset;
-      border-radius: 1em;
-    }
-    .toc-open #toc {
-      display: block;
     }
   }
 </style>
-
-<script>
-  // Due to the limitation of Astro & Vite, this script seems to be loaded on all page, even if a page doesn't have a toc.
-  // To conditionally load it according to the value of `toc` in fromtmatter, we may need to inject it as raw JS (with `is:inline` directive)
-
-  const sidebar = document.getElementById("sidebar");
-  const toggleButton = document.getElementById("toc-toggle-button");
-  const backdrop = document.getElementById("toc-backdrop");
-  const toc = document.getElementById("toc");
-  const tocList = document.getElementById("toc-list");
-
-  if (sidebar && toggleButton && backdrop) {
-    listen(sidebar, toggleButton, backdrop);
-  }
-
-  if (toc && sidebar && tocList) {
-    observeToc(toc, sidebar, tocList);
-  }
-
-  function listen(sidebar: HTMLElement, toggleButton: HTMLElement, backdrop: HTMLElement) {
-    toggleButton.addEventListener("click", () => {
-      sidebar.classList.toggle("toc-open");
-    });
-
-    backdrop.addEventListener("click", () => {
-      sidebar.classList.remove("toc-open");
-    });
-  }
-
-  function observeToc(toc: HTMLElement, sidebar: HTMLElement, tocList: HTMLElement) {
-    const indices = document.querySelectorAll("#toc a");
-
-    indices[0]?.classList.add("active");
-
-    indices.forEach((index) => {
-      index.addEventListener("click", () => {
-        sidebar.classList.remove("toc-open");
-      });
-    });
-
-    function activateIndex(element: Element) {
-      const newActiveIndex = document.querySelector<HTMLElement>(
-        `#toc a[href='#${element.id}']`,
-      );
-      if (newActiveIndex === null) {
-        return;
-      }
-      const currentActiveIndex = document.querySelector("#toc a.active");
-      if (currentActiveIndex !== null) {
-        currentActiveIndex.classList.remove("active");
-      }
-      newActiveIndex.classList.add("active");
-
-      // scroll so that newActiveIndex is in the middle of the toc
-      // note: `newActiveIndex.offsetTop` is y-coordinate relative to the offsetParent, which is (unfortunately) `tocList` = the <ul> element
-      // so we need to add the `tocList.offsetTop` to get the y-coordinate relative to toc
-      let scrollTop = newActiveIndex.offsetTop - toc.clientHeight / 2 + newActiveIndex.clientHeight + tocList.offsetTop;
-      if (scrollTop < 0) {
-        scrollTop = 0;
-      }
-      toc.scrollTo({ top: scrollTop, behavior: "smooth" });
-    }
-
-    function onHeadingsIntersect(entries: IntersectionObserverEntry[]) {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          activateIndex(entry.target);
-        }
-      });
-    }
-
-    const headingsObserverOptions: IntersectionObserverInit = {
-      root: null,
-      rootMargin: "0px 0px -95% 0px",
-      threshold: 0,
-    };
-
-    const headingsObserver = new IntersectionObserver(
-      onHeadingsIntersect,
-      headingsObserverOptions,
-    );
-
-    const headings = document.querySelectorAll("#content h2, h3, h4");
-
-    headings.forEach((heading) => {
-      headingsObserver.observe(heading);
-    });
-  }
-</script>

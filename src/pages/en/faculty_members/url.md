@@ -15,7 +15,7 @@ For students, please refer to "[How to Obtain the Online Class URL (for Students
 ## Important Rule: Use the UTOL's "Online course information" section
 
 - Add/edit the online class URL **only on the UTOL course page** and **only under the "Online course information" section**. ([Example of an UTOL course page](https://utol.ecc.u-tokyo.ac.jp/lms/course?idnumber=2020FEN-EE3d16L10J01))
-    - Please note that only entering the URL will not create a link. Click the ![](./url_button.png){:.inline} icon on the "Online Course Update" screen and bring up the "Create Link" screen to complete the link creation process.
+    - Please note that only entering the URL will not create a link. Click the ![](/faculty_members/url_button.png){:.inline} icon on the "Online Course Update" screen and bring up the "Create Link" screen to complete the link creation process.
     - It is helpful to input the meeting ID and passcode along with the online class URL, so that students can also easily join from applications on tablets. 
 - **Avoid adding the online class URL to sections other than the "Online course information" (do not add URL to sections such as "Information", "Forums", etc.)** for the following reasons:
     - In students' UTOL, the "Online course information" section appears as a column in their list of registered classes. By adding the online class URL to the "Online course information" section, students can check the online class URL by just looking through the list and not having to open each course page.  
@@ -26,7 +26,7 @@ The procedure to add the online class URL in UTOL is as follows.
 ### How to Add the Online Class URL in UTOL
 
 - [Demo Video (Captions in Japanese only)](https://youtu.be/JeBwwDfhJJw)
-- For details of the procedure, please check the page "[Setting up courses in UTOL (for lecturers / TAs)](../utol/lecturers/settings/)".
+- For details of the procedure, please check the ITC-LMS News "[「オンライン授業情報」の追加について(Adding "Online course information") (Japanese only)](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/16_3208.html)".
 
 ## Supplementary Information: Announcing the Online Class URL using Systems other than UTOL
 

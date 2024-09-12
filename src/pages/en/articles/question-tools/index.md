@@ -214,12 +214,12 @@ So if there are very many questions or several Q&As are being conducted at the s
 
 In this section, we will introduce some tools you can use for classes where asking questions doesn’t play a central role and where you don’t need to collect a large number of questions.
 
-#### Learning Management Systems such as UTOL (in the case of the University of Tokyo)
+#### Learning Management Systems such as ITC-LMS (in the case of the University of Tokyo)
 {:#LMS}
 
-UTOL is a Learning Management System adopted by the University of Tokyo. You can use it to distribute or submit materials or assignments, send notifications to participants, or conduct tests.
+ITC-LMC is a Learning Management System adopted by the University of Tokyo. You can use it to distribute or submit materials or assignments, send notifications to participants, or conduct tests.
 
-UTOL has a message board feature, and you can add a discussion forum with a subject title such as “Ask questions here” to take questions from participants.
+ITC-LMC has a message board feature, and you can add a discussion forum with a subject title such as “Ask questions here” to take questions from participants.
 
 (Advantages)
 * Since everyone can see each other’s messages, participants can also suggest solutions to each other.
@@ -230,7 +230,7 @@ UTOL has a message board feature, and you can add a discussion forum with a subj
 * When too many students access the service at once (for instance, in a large lecture class or an orientation class), you may encounter problems such as unresponsiveness or slow loading times (these issues have largely been resolved as of September 2021).
 
 (References)
-* **[Guide to UTOL](/en/utol/)**: Provides an outline of the service, along with basic instructions on how to use it.
+* **[Guide to ITC-LMS](/en/itc_lms)**: Provides an outline of the service, along with basic instructions on how to use it.
 
 #### Google Classroom
 {:#GoogleClassroom}

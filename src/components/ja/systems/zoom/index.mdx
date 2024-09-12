@@ -5,8 +5,6 @@ import InstallAppSp from "./InstallAppSp.mdx";
 import Join from "./Join.mdx";
 import SigninApp from "./SigninApp.mdx";
 import CreateMeeting from "./CreateMeeting.mdx";
-import JoinApp from "./JoinApp.mdx";
-import JoinBrowser from "./JoinBrowser.mdx";
 
 {/**
   * @typedef {object} Props
@@ -30,16 +28,12 @@ import JoinBrowser from "./JoinBrowser.mdx";
     <InstallAppSp support={props.variant === "oc"} />
   </li>
   <li>
+    **確認：東大のアカウント専用の会議室に入ってみる** <If cond={props.variant === "oc"}>（実際に授業で使う予定の機器でやっておきましょう．また，予備としてパソコンだけでなくスマホでもやっておくと安心です）</If>
+    <Join support={props.variant === "oc"} />
+  </li>
+  <li>
     **任意の作業：アプリにサインインする** <If cond={props.variant === "oc"}>（自分で会議を開く機会がある人などには便利です）</If>
-    <SigninApp big support={props.variant === "oc"} />
-  </li>
-  <li>
-    **確認：アプリで東大のアカウント専用の会議室に入ってみる** <If cond={props.variant === "oc"}>（実際に授業で使う予定の機器でやっておきましょう．また，予備としてパソコンだけでなくスマホでもやっておくと安心です）</If>
-    <JoinApp big support={props.variant === "oc"} />
-  </li>
-  <li>
-    **確認：ブラウザから東大のアカウント専用の会議室に入ってみる** <If cond={props.variant === "oc"}></If>
-    <JoinBrowser big support={props.variant === "oc"} />
+    <SigninApp support={props.variant === "oc"} />
   </li>
   <If cond={props.variant !== "oc"}>
     <li>

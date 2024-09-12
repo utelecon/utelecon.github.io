@@ -13,14 +13,7 @@
   "mdx": {
     "plugins": [
       "remark-gfm",
-      [
-        "remark-attribute-list",
-        {
-          "allowNoSpaceBeforeName": true,
-          "allowUnderscoreInId": true,
-          "allowNoPosition": true
-        }
-      ],
+      "./src/lib/BlockIALPlugin.js",
       "./src/lib/SimpleAttentionPlugin.js"
     ]
   }

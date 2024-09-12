@@ -1,8 +1,7 @@
 export type Step = "first" | "alt";
 export type Group = "intent" | Step;
 export type Selection = "selector" | "ms_auth" | "auth_app" | "phone" | "fido";
-export type RowLabels = Partial<Record<Selection, string>>;
-export type ColumnLabels = Record<Step, string>;
+export type Labels = Partial<Record<Selection, string>>;
 
 type Listener = (step: string, selection: string) => void;
 const listeners: Listener[] = [];

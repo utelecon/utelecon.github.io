@@ -26,4 +26,4 @@ redirect_from:
 
 - Zoomの場合：「[授業におけるZoom会議室の入室制限](/faculty_members/zoom_access_control)」のページをご覧ください．
 - Webexの場合：設定の「ロック解除されたミーティング」の項目で設定します．
-![](./webex-waitingroom.png)
+![](/notice/image/webex-waitingroom.png)

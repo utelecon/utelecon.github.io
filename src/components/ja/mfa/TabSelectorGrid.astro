@@ -9,15 +9,11 @@ import Fido from "./select/Fido.mdx";
 ---
 
 <BaseTabSelectorGrid
-  rowLabels={{
+  labels={{
     ms_auth: "Microsoft Authenticator",
     auth_app: "その他の認証アプリ",
     phone: "電話番号",
     fido: "FIDO セキュリティキー",
-  }}
-  columnLabels={{
-    first: "手順1",
-    alt: "手順2",
   }}
 >
   <MicrosoftAuthenticator group="initial" slot="ms_auth" />

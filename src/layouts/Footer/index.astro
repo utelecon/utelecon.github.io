@@ -1,9 +1,7 @@
 ---
 import Buttons from "./Buttons.astro";
-import { Image } from "astro:assets";
 import Navigation from "./Navigation.astro";
 import type { Lang } from "@components/types";
-import UtokyoLogo from "./20240301_UTokyoLogotypeA_RGB.svg";
 
 interface Props {
   lang: Lang;
@@ -14,8 +12,8 @@ const { lang, support = false } = Astro.props;
 
 const localization = {
   title: {
-    ja: "情報システムの総合案内サイト @ 東京大学",
-    en: "The Portal Site of Information Systems @ UTokyo",
+    ja: "東京大学 オンライン授業・Web会議ポータルサイト",
+    en: "The University of Tokyo Online Class / Web Conference Portal Site",
   },
 };
 const topUrl = {
@@ -39,9 +37,9 @@ const topUrl = {
 <footer class="footer">
   <div class="logo">
     <a href="https://www.u-tokyo.ac.jp/">
-      <Image
+      <img
         class="logo-utokyo"
-        src={UtokyoLogo}
+        src="/assets/images/UTlogo.png"
         alt="東京大学 the University of Tokyo"
       />
     </a>
@@ -55,12 +53,12 @@ const topUrl = {
   footer.footer {
     background-color: $footer-background-color;
     color: white;
-    padding: 2rem 4rem 8rem;
     :link,
     :visited {
       color: white;
       text-decoration: none;
     }
+    padding: 2rem 4rem 8rem;
     @media (max-width: 768px) {
       padding: 2rem 2rem 8rem;
     }
@@ -73,7 +71,6 @@ const topUrl = {
       &-utokyo {
         width: 16rem;
         max-width: 62.5%;
-        height: auto;
       }
       &-utelecon {
         display: block;
