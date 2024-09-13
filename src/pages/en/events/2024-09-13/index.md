@@ -22,7 +22,7 @@ In addition, students are also welcome to attend the session, although the expla
 Materials and recording of the session will be provided on this page.
 
 ## Contents
-Materials are uploaded but may be updated until the session. Recordings will be uploaded after the session.
+Recordings will be uploaded after the session.
 
 - Purpose and Outline of the Session ([Material](/en/events/2024-09-13/slides/00_index_en.pdf))
 - Part I Basics of the ICT Systems in UTokyo ([Material](/en/events/2024-09-13/slides/01_basics_en.pdf))
@@ -61,4 +61,4 @@ The purpose of the pre-session questionnaire is to find out what kind of informa
 We also welcome responses from those who will not be attending the session, as our reference information.
 
 ### Post-session Questionnaire
-A post-session questionnaire will be prepared and sent to participants.
+Please cooperate with [the post-session](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUM09PNjg2SVRKSlo2SDBQUE5JTFI0MERHUSQlQCN0PWcu) questionnaire. The same questionnaire was also displayed when you exited Zoom, so you can also answer it there.
