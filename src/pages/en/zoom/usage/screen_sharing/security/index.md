@@ -5,7 +5,7 @@ breadcrumb:
 ---
 
 ## Introduction
-Zoom's screen-sharing feature allows you to display your screen or part of your screen on the other participants' screens. However, since the default setting only allows the host to share their screens, you need to change the settings to enable participants other than the host to share their screens.
+Zoom's [screen-sharing](../../../usage/scree_sharing/#browser) feature allows you to display your screen or part of your screen on the other participants' screens. However, since the default setting only allows the host to share their screens, you need to change the settings to enable participants other than the host to share their screens.
 
 This page explains how a host grants screen-sharing capability either by allowing all the other participants or only certain participants to do so. In addition, the latter half explains the relevant settings about granting access so that all participants are able to use the compulsory switching of the shared screen to all participants.
 
@@ -16,7 +16,7 @@ The default setting allows only the host to share screens during meetings, but t
 2. Press “Share Screen”
 ![](img/1.png){:.border}{:.medium}
 
-※If you repeat step 1 again and see a checkmark next to the “Share Screen”, it means that the changed setting has been validated.
+If you repeat step 1 again and see a checkmark next to the “Share Screen”, it means that the changed setting has been validated.
 
 ### Granting screen-sharing capability to all participants by default 
 If you provide screen-sharing access during a meeting, the screen-sharing capability is only valid for the meeting in progress. However, there is a way to extend its validity not only to the meeting in progress but also to all meetings that you host.
