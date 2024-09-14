@@ -21,28 +21,28 @@ breadcrumb:
   
   
 ### 会議室の URL を知らない場合
-  1. <a href="https://zoom.us/download" target="_blank">ダウンロードページ</a>へ移動して，ミーティング用Zoomクライアントをダウンロードして ZOOM をインストールしてください
-	![](pc_web.png) 
+  1. <a href="https://zoom.us/download" target="_blank">ダウンロードページ</a>にアクセスしてください．
+  1. 使用しているパソコンのOSに対応する「Zoom Workplace」という名前のアプリをダウンロードしてください．
 
 ## アプリでの会議室の作り方
 
-ここでは，Zoomのアプリから Zoom の会議室を作る方法を説明します．アプリから会議室を作る場合，設定できる項目が一部に限られているため，「[会議室の作り方](/zoom/create_room)」のページで説明しているWebブラウザから作る方法が必要な場合もあります．また，授業などで定期的なミーティングを設定する方法は「[複数回利用できる URL が変わらない会議室を予約する](/zoom/how/faculty_members/schedule)」のページをご覧ください．  
+ここでは，パソコンの Zoom アプリで Zoom の会議室を作る方法を説明します．アプリから会議室を作る場合，設定できる項目が一部に限られているため，「[会議室の作り方](/zoom/create_room)」のページで説明しているWebブラウザから作る方法が必要な場合もあります．また，授業などで定期的なミーティングを設定する方法は「[複数回利用できる URL が変わらない会議室を予約する](/zoom/how/faculty_members/schedule)」のページをご覧ください．  
 
 <ol>
   <li> Zoom を起動します．</li>
   <li> Zoomアプリで「サインイン」ボタンを押すなどして，Zoomのサインイン画面を開いてください．<br>
     <img src="@components/ja/systems/zoom/4.png"> </li>
   <li> サインイン画面で，「SSO」または「SSOでサインイン」と書かれた文字を探して押してください．（この画面のメールアドレス・パスワード欄にUTokyo Accountの情報を入力してもサインインできません．）<br>
-    <img src="@components/ja/systems/zoom/5.png"> </li>
+    <figure class="gallery"><img src="@components/ja/systems/zoom/5.png"><img src="@components/ja/systems/zoom/6.png"></figure> </li>
   <li>「会社のドメイン」欄に <code>u-tokyo-ac-jp</code> と入力してください．（ <code>ac</code> の前後はピリオドではなくハイフンであることに注意してください．）<br>
-    <img src="@components/ja/systems/zoom/6.png"> </li>
+    <img src="@components/ja/systems/zoom/7.png"> </li>
   <li> ブラウザに移動するので，UTokyo Accoutでサインインしてください．（UTokyo Accountにサインイン済みの場合は，この画面を経ずにそのままサインインが完了します．）<br>
     <img src="@components/ja/systems/zoom/2.png"> </li>
   <li> 「スケジュール」を押します．<br>
     <img src="top2.png"> </li>
   <li> 以下の情報を設定してミーティングをスケジュールします．<br>  
-    <img src="schedule.png"> <br>
-    <img src="schedule_detail.png"> <br> 
+    <img src="schedule1.png"> <br>
+    <img src="schedule2.png"> <br> 
     以下，特に補足が必要な点に絞って説明します．
     <ul>
       <li> <strong>ビデオ</strong> : ミーティング開始時にビデオを最初からオンにするかオフにするか，ホスト（開催者）と参加者別に設定可能</li>
@@ -50,7 +50,7 @@ breadcrumb:
       <li> <strong>カレンダー</strong> : Outlook や Google カレンダーと連携可能だが，ミーティングの情報をコピー&ペーストするためにも「他のカレンダー」を選択することを推奨</li>
       <li> <strong>詳細オプション</strong> : 
         <ul>
-          <li><strong>ホストより前の参加を有効にする</strong> : オフにするとホストが入らないと他の参加者も会議室に入れない．他の参加者が早めに入って少し話しても良いのであれば ON にすることを推奨</li>
+          <li><strong>開始時刻前に（任意の時間）に参加することを参加者に許可します</strong> : オフにするとホストが入らないと他の参加者も会議室に入れない．他の参加者が早めに入って少し話しても良いのであれば ON にすることを推奨</li>
           <li><strong>エントリー時に参加者をミュート</strong> : 最初は一方向的に説明したいときなどに ON にすること推奨</li>
         </ul>
       </li>
