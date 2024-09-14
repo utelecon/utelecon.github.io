@@ -23,20 +23,20 @@ In addition, students are also welcome to attend the session, although the expla
 Materials and recording of the session are provided on this page.
 
 ## Contents
-- Purpose and Outline of the Session ([Material](/en/events/2024-09-13/slides/00_index_en.pdf)/[Recorging](https://youtu.be/xuT_-MCYAoM))
-- Part I Basics of the ICT Systems in UTokyo ([Material](/en/events/2024-09-13/slides/01_basics_en.pdf)/[Recorging](https://youtu.be/zMegTRDIu30))
+- Purpose and Outline of the Session ([Material](/en/events/2024-09-13/slides/00_index_en.pdf)/[Recording](https://youtu.be/xuT_-MCYAoM))
+- Part I Basics of the ICT Systems in UTokyo ([Material](/en/events/2024-09-13/slides/01_basics_en.pdf)/[Recording](https://youtu.be/zMegTRDIu30))
   - UTokyo Account
   - Initial Setting and MFA (Multi-Factor Authentication)
   - Information Security Education
   - UTokyo Wi-Fi
-- Part II: Communication Tools and Cloud Services Available in UTokyo ([Material](/en/events/2024-09-13/slides/02_available_tools_en.pdf)/[Recorging](https://youtu.be/GeZEywIQYgQ))
+- Part II: Communication Tools and Cloud Services Available in UTokyo ([Material](/en/events/2024-09-13/slides/02_available_tools_en.pdf)/[Recording](https://youtu.be/GeZEywIQYgQ))
   - Zoom and Tools for Online Meetings
   - UTokyo Slack
   - ECCS Cloud Email (Google Workspace)
   - UTokyo Microsoft License
   - Generative AI
   - How to Get Supported
-- Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL ([Material](/en/events/2024-09-13/slides/03_utas_utol_en.pdf)/[Recorging](https://youtu.be/q1oyLQWU84Y), [Appendix](/en/events/2024-09-13/slides/04_appendix_on_utol_en.pdf))
+- Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL ([Material](/en/events/2024-09-13/slides/03_utas_utol_en.pdf)/[Recording](https://youtu.be/q1oyLQWU84Y), [Appendix](/en/events/2024-09-13/slides/04_appendix_on_utol_en.pdf))
   - UTAS
   - UTOL
 - Q&A session (Questions will also be accepted after the session) ([Transcripts](/en/events/2024-09-13/slides/99_QandA_en.pdf))
