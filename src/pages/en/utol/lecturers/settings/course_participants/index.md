@@ -34,7 +34,7 @@ You can view the information of the course participants in a list format on the 
 
 The following information can be viewed in the “Course participant list”.
 
-* **Authority**: The user's authority will be displayed as one of the following four types: "Course Instructor", "TA", "'Course Designer", or "Enrolled Student". If the user has both TA and enrolled student authorities, it will be displayed as “TA and enrolled student”.
+* **Authority**: The user’s authority will be displayed as one of the following four types: “Course Instructor”, “TA”, “’Course Designer”, or “Enrolled Student”. If the user has both TA and enrolled student authorities, it will be displayed as “TA and enrolled student”.
 * **Category:** The user’s UTokyo Account indicates whether they are a student, a faculty member or a staff member. If the user has both student, and faculty or staff member UTokyo Accounts, it will be displayed as “Enrolled student/Faculty or staff.” Please note that this display does not reflect whether the user participates in the course as a student, a faculty member or a staff member.
 * **The student ID number (User ID):** If the user has a student ID number, this number will be displayed. If the user does not have a student ID number, a 10-digit number (the common ID number of users who log in with their UTokyo Accounts) will be displayed.
 * **Course Title:** The course titles that enrolled students have registered for will be displayed. If the [course group function](../course_group/) is applied, you can confirm the course titles students have registered for.
@@ -71,22 +71,22 @@ Please pay attention to the following points when registering course participant
   * However, enrolled students cannot view contents that are not “To be published” and “In the published period”.
   * Update notices will not be sent to participants for existing contents that became accessible, even after being registered as course participants.
 
-* Although it is possible for students to be registered with "course instructor" authority, but it is recommended that you register them with "TA" authority whenever possible.
-  * Most of the functions can be viewed and operated with "TA" authority, with the exception of enrolled student management and log checking.
+* Although it is possible for students to be registered with “course instructor” authority, but it is recommended that you register them with “TA” authority whenever possible.
+  * Most of the functions can be viewed and operated with “TA” authority, with the exception of enrolled student management and log checking.
 
 ### Search and Register
 {:#search}
 
 1. Click the icon“![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper right while keeping opened the course you would like to operate.
-2. Select "Register Course participants" from the "Course settings"
+2. Select “Register Course participants” from the “Course settings”
     ![](menu.png){:.small}
 
-3. Click the button "Search Students" or "Search a faculty and staff" in the "Specify users" field.
+3. Click the button “Search Students” or “Search a faculty and staff” in the “Specify users” field.
 
     ![](search.png){:.medium}
 
-    * When adding a user with a UTokyo Account categorized as a student, select "Search students”. When adding a faculty or a staff member, select “Search a faculty and staff”.
-    * A user whose UTokyo Account has the status of both "Faculty staff and Student" can be searched with both "Search student" and "Search faculty and staff".
+    * When adding a user with a UTokyo Account categorized as a student, select “Search students”. When adding a faculty or a staff member, select “Search a faculty and staff”.
+    * A user whose UTokyo Account has the status of both “Faculty staff and Student” can be searched with both “Search student” and “Search faculty and staff”.
 4. Enter the information of the user you wish to add, and search.
     * Search Students: You can search students by the user ID, student ID number or by name.
     * Search faculty and staff: You can search faculty and staff by the user’s ID and name.
@@ -95,17 +95,17 @@ Please pay attention to the following points when registering course participant
     ![](search-result.png){:.medium}
 
    * It is possible to select multiple users at once.
-6. Click the "Specify" button at the bottom center. The information of users newly registered for the course will be displayed in red on the "Course participants list" screen.
+6. Click the “Specify” button at the bottom center. The information of users newly registered for the course will be displayed in red on the “Course participants list” screen.
 
     ![](selected.png){:.medium}
 
    * If you would like to add multiple users consecutively, please repeat steps 4 \~ 6\.
    * Please note that newly added course participants have not yet been registered at this point.
-7. Click the "Confirm" button.
+7. Click the “Confirm” button.
 
     ![](confirm.png){:.small}
 
-8. After reviewing the changes, click the "Register" button to add the users (authority) that are displayed.
+8. After reviewing the changes, click the “Register” button to add the users (authority) that are displayed.
 
     ![](confirm-registration.png){:.medium}
 
@@ -117,29 +117,29 @@ Please do not use the student or faculty staff search functions for purposes oth
 {:#excel}
 
 1. Click the icon “![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper right while keeping opened the course you would like to operate.
-2. Select "Register Course participants" in the "Course settings"
+2. Select “Register Course participants” in the “Course settings”
 
     ![](menu.png){:.small}
 
-3. Download the Excel file format to register course participants by clicking the blue "Download Format" link on the "Batch class registration" page.
+3. Download the Excel file format to register course participants by clicking the blue “Download Format” link on the “Batch class registration” page.
 
     ![](download-format.png){:.medium}
 
-4. Enter the course participants' information in the format.
+4. Enter the course participants’ information in the format.
     * The format includes fields for the User ID, the Student ID number, the Authority (required), and the Timetable code.
     * Either the User ID or the Student ID number is required when registering students. The User ID is required when registering faculty and staff members.
-    * Select either 'Course Instructor', 'TA', 'Course Designer', or 'Enrolled Student' from the pull-down menu in the Authority field. If you would like to register as "TA and Enrolled Student", please enter each authority in separate lines.
-    * "Timetable code" is an alphanumeric code displayed between the "course organization name" and the "course name" at the top page of the relevant course page.
+    * Select either “Course Instructor”, “TA”, “Course Designer”, or “Enrolled Student” from the pull-down menu in the Authority field. If you would like to register as “TA and Enrolled Student”, please enter each authority in separate lines.
+    * “Timetable code” is an alphanumeric code displayed between the “course organization name” and the “course name” at the top page of the relevant course page.
     * If you try to register a user who is already registered for the course with the same authority, an error may occur depending on how the user was originally registered
-        * An error will occur when trying to register a participant using the "Instructor search"
-        * The registration method will be [updated to "Instructor search"](#update) when you try to register using "Self-registration" or "Favorite registration".
-        * No error will occur when using the “Course registration”. However, after the data is linked with the UTAS the following morning, the registration method will revert to "Course registration".
+        * An error will occur when trying to register a participant using the “Instructor search”
+        * The registration method will be [updated to “Instructor search”](#update) when you try to register using “Self-registration” or “Favorite registration”.
+        * No error will occur when using the “Course registration”. However, after the data is linked with the UTAS the following morning, the registration method will revert to “Course registration”.
 
-5. Select a file from "Reference" in the "Batch registration" field and upload it.
+5. Select a file from “Reference” in the “Batch registration” field and upload it.
 
     ![](upload-file.png){:.medium}
 
-    * If the upload is successful, the information of newly registered users will be displayed in red on the 'Course participants list' screen".
+    * If the upload is successful, the information of newly registered users will be displayed in red on the “Course participants list’ screen.
     * If an input error occurs, no data in the upload files will be processed. After fixing the error, you will need to re-upload all the data.
     * Please note that, at this point, no additional course participants have been registered yet.
 
@@ -147,18 +147,18 @@ Please do not use the student or faculty staff search functions for purposes oth
 
     ![](confirm.png){:.small}
 
-7. The users (authority) to be added are displayed. Please review the changes and then click the "Register" button.
+7. The users (authority) to be added are displayed. Please review the changes and then click the “Register” button.
 
     ![](confirm-registration.png){:.medium}
 
 ## Updating the method to register course participants
 {:#update}
 
-In addition to cancellation [due to deletion of course participants](#delete), course registration for "Enrolled Students" may be canceled due to the following events,.
+In addition to cancellation [due to deletion of course participants](#delete), course registration for “Enrolled Students” may be canceled due to the following events,.
 
-* When users who registered using 'Self-registration' cancel their registration through UTOL, or when the registration period ends.
-* When users who registered using "Course registration" cancel through UTAS.
-* When users who registered using "Favorite registration" cancel through UTAS, or when the registration period ends.
+* When users who registered using “Self-registration” cancel their registration through UTOL, or when the registration period ends.
+* When users who registered using “Course registration” cancel through UTAS.
+* When users who registered using “Favorite registration” cancel through UTAS, or when the registration period ends.
 
 To prevent the registration of course participants from being canceled for these reasons, you need to switch the registration method from “Self-registration”, “Course registration”, or “Favorite registration” to “Register instructor”, using the function “Switch”.
 
@@ -183,28 +183,28 @@ Course participants can be deleted by either of the following methods.
 {:#delete-individually}
 
 1. Click the“![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper right while keeping opened the course you would like to operate.
-2. Select "Register Course participants" in the "Course settings".
+2. Select “Register Course participants” in the “Course settings”.
 
     ![](menu.png){:.small}
 
-3. Click the "![](../../../_icons/control_btn_icon.png){:.icon}" icon in the "Action" column at the far right of the "Course participants list".
+3. Click the “![](../../../_icons/control_btn_icon.png){:.icon}” icon in the “Action” column at the far right of the “Course participants list”.
 
     ![](operation.png){:.medium}
 
-4. Select "Delete ◯◯ Authority".
+4. Select “Delete ◯◯ Authority”.
 
     ![](delete.png){:.small}
 
     * Please note that course participants have not been yet deleted at this point.
-5. Click "Proceed to confirmation screen".
+5. Click “Proceed to confirmation screen”.
 
     ![](confirm.png){:.small}
 
-6. The users (authority) to be deleted are displayed. Please review the changes and then click the "Register" button.
+6. The users (authority) to be deleted are displayed. Please review the changes and then click the “Register” button.
 
     ![](confirm-delete.png){:.medium}
 
 ### Deleting in batches
 {:#delete-in-bulk}
 
-Select the users you would like to delete by ticking the boxes in the checkbox on the left side of the "Course participants list" in the "Course Participant Registration" screen. Then the selected users can be deleted all at once by clicking the "Batch Deletion" button.
+Select the users you would like to delete by ticking the boxes in the checkbox on the left side of the “Course participants list” in the “Course Participant Registration” screen. Then the selected users can be deleted all at once by clicking the “Batch Deletion” button.
