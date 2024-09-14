@@ -17,7 +17,8 @@ In addition, students are also welcome to attend the session, although the expla
 ## Outline
 - **Date**: Friday, September 13, 2024
 - **Time**: 15:00-17:00 (Questions will also be accepted after the session)
-- **Place**: Online (Zoom meeting; [Registration in advance](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu) required)
+- **Place**: Online (Zoom meeting; Registration in advance required)
+<!-- [Registration in advance](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu) -->
 
 Materials and recording of the session are provided on this page.
 
@@ -41,7 +42,8 @@ Materials and recording of the session are provided on this page.
 - Q&A session (Questions will also be accepted after the session) ([Transcripts](/en/events/2024-09-13/slides/99_QandA_en.pdf))
 - Closing Remarks
 
-You can ask questions during the session using **[this Slido](https://app.sli.do/event/faBx8JbTgARtVdPB75oNQB)** (or access [https://sli.do/](https://sli.do/) and use code = `utelecon20240913`). Questions in advance are also welcome.
+Questions were accepted from Slido and directly during the session. [The transcripts of the Q&A Part](/en/events/2024-09-13/slides/99_QandA_en.pdf) is available.
+<!-- You can ask questions during the session using **[this Slido](https://app.sli.do/event/faBx8JbTgARtVdPB75oNQB)** (or access [https://sli.do/](https://sli.do/) and use code = `utelecon20240913`). Questions in advance are also welcome. -->
 
 ### Presenter
 - TAURA Kenjiro, Executive Director and Vice President
@@ -49,10 +51,12 @@ You can ask questions during the session using **[this Slido](https://app.sli.do
 - SATO Hiroya, Senior Staff, Digital Transformation Promotion Group
 
 ## Registration
-To attend the session, please register by accessing [the registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu). After submitting the form, you will receive an auto-reply email with Zoom information.
+To attend the session, please register by accessing the registration form. After submitting the form, you will receive an auto-reply email with Zoom information.
+<!-- [the registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu) -->
 
 ### Pre-session Questionnaire
-We ask those who have registered for the information session to fill out [the pre-session questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu) in advance.
+We ask those who have registered for the information session to fill out the pre-session questionnaire in advance.
+<!-- [the pre-session questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu) -->
 
 The purpose of the pre-session questionnaire is to find out what kind of information needs non-Japanese-speaking faculty members have about ICT systems and tools. The questionnaire is optional, but we would like to prepare the session based on the responses we receive, so we would greatly appreciate your cooperation.
 
