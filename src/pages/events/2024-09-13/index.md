@@ -45,7 +45,7 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 - 質疑応答（終了後も質問を受け付けます）（質疑応答の記録：[英](/en/events/2024-09-13/slides/99_QandA_ja.pdf)・[和](/events/2024-09-13/slides/99_QandA_ja.pdf)）
 - 全体まとめ
 
-質問は Slido および説明会の中で直接受け付けました．[質疑応答の記録](/events/2024-09-13/slides/99_QandA_ja.pdf)から内容をご覧いただけます．
+質問は Slido および説明会の中で直接受け付けました．[質疑応答の記録（和）](/events/2024-09-13/slides/99_QandA_ja.pdf)から内容をご覧いただけます．
 <!-- 質問は**[こちらの Slido](https://app.sli.do/event/faBx8JbTgARtVdPB75oNQB)** または [https://sli.do/](https://sli.do/) で code = `utelecon20240913`）へ投稿してください．事前の質問も歓迎します．（質問は可能な限り英語でお寄せください．） -->
 
 ### 話者
