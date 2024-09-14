@@ -42,10 +42,10 @@ Google Meet is a web conferencing system provided by Google as part of Google Wo
 
 A “learning management system” is a system that supports the exchange of data and information between students and instructors in a class (e.g. distribution of materials, submission of assignments).
 
-### ITC-LMS
-ITC-LMS is UTokyo’s learning management system. It provides functions such as distribution of class materials, submission of assignments, online examinations, and notifications from faculty members to students. One of ITC-LMS’s advantages is that it is **easy to pass information "only to the students of UTokyo" or "only to the students of a specific class"** because ITC-LMS is linked to the UTokyo Account and UTokyo Academic Affairs System (UTAS, UTokyo’s course registration system). ITC-LMS is also **widely used by students**, so we recommend that you make ITC-LMS the first choice for distributing class materials and exchanging assignments.
+### UTOL
+UTOL is UTokyo’s learning management system. It provides functions such as distribution of class materials, submission of assignments, online examinations, and notifications from faculty members to students. One of UTOL’s advantages is that it is **easy to pass information "only to the students of UTokyo" or "only to the students of a specific class"** because UTOL is linked to the UTokyo Account and UTokyo Academic Affairs System (UTAS, UTokyo’s course registration system). UTOL is also **widely used by students**, so we recommend that you make UTOL the first choice for distributing class materials and exchanging assignments.
 
--  **[utelecon’s ITC-LMS Page (For instructors)](/en/lms_lecturers/)**
+-  **[utelecon’s UTOL Page](/en/utol/)**
 
 ### Google Classroom
 

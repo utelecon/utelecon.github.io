@@ -158,3 +158,6 @@ prop `variant`の値によって，表示する要素が切り替わります．
 ### `InPreparation.mdx`
 
 `@components/{ja,en}/InPreparation.mdx`は，準備中のページを示すコンポーネントです．複数のページを一度に作成する際に，パンくずリストの生成に失敗したり，内部リンクが`404 Not Found`になったりすることを防ぐため，仮のページを作る場合に使われます．言語ごとに別々に定義されています（prop `lang`を取りません）．
+
+### `WwweccEol.astro`
+`@components/{ja,en}/WwweccEol.astro`は，ECCSウェブサイトの閉鎖に伴うuteleconへのコンテンツ移行の旨を示すための特別なコンポーネントです．言語ごとに別々に定義されています（prop `lang`を取りません）．
