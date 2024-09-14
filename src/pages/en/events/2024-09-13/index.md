@@ -2,7 +2,7 @@
 title: "Sep. 13, 2024: Information Session on ICT Systems and Tools for UTokyo Members (Conducted in English)"
 h1: "Sep. 13, 2024: Information Session on ICT Systems and Tools for UTokyo Members (**Conducted in English**)"
 ---
-
+**The session has ended. Materials and recordings are available on this page.**
 ## Purpose
 At the beginning of the Autumn Semester, we will provide an overview of the ICT systems and tools used in UTokyo.
 
