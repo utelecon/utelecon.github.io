@@ -38,7 +38,7 @@ Materials and recording of the session are provided on this page.
 - Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL ([Material](/en/events/2024-09-13/slides/03_utas_utol_en.pdf)/[Recorging](https://youtu.be/q1oyLQWU84Y), [Appendix](/en/events/2024-09-13/slides/04_appendix_on_utol_en.pdf))
   - UTAS
   - UTOL
-- Q&A session (Questions will also be accepted after the session) ([Transcriptsl](/en/events/2024-09-13/slides/99_QandA_en.pdf))
+- Q&A session (Questions will also be accepted after the session) ([Transcripts](/en/events/2024-09-13/slides/99_QandA_en.pdf))
 - Closing Remarks
 
 You can ask questions during the session using **[this Slido](https://app.sli.do/event/faBx8JbTgARtVdPB75oNQB)** (or access [https://sli.do/](https://sli.do/) and use code = `utelecon20240913`). Questions in advance are also welcome.
