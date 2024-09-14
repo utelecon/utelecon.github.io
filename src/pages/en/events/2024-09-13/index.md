@@ -19,28 +19,26 @@ In addition, students are also welcome to attend the session, although the expla
 - **Time**: 15:00-17:00 (Questions will also be accepted after the session)
 - **Place**: Online (Zoom meeting; [Registration in advance](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu) required)
 
-Materials and recording of the session will be provided on this page.
+Materials and recording of the session are provided on this page.
 
 ## Contents
-Recordings will be uploaded a few days after the session.
-
-- Purpose and Outline of the Session ([Material](/en/events/2024-09-13/slides/00_index_en.pdf))
-- Part I Basics of the ICT Systems in UTokyo ([Material](/en/events/2024-09-13/slides/01_basics_en.pdf))
+- Purpose and Outline of the Session ([Material](/en/events/2024-09-13/slides/00_index_en.pdf)/[Recorging](https://youtu.be/xuT_-MCYAoM))
+- Part I Basics of the ICT Systems in UTokyo ([Material](/en/events/2024-09-13/slides/01_basics_en.pdf)/[Recorging](https://youtu.be/zMegTRDIu30))
   - UTokyo Account
   - Initial Setting and MFA (Multi-Factor Authentication)
   - Information Security Education
   - UTokyo Wi-Fi
-- Part II: Communication Tools and Cloud Services Available in UTokyo ([Material](/en/events/2024-09-13/slides/02_available_tools_en.pdf))
+- Part II: Communication Tools and Cloud Services Available in UTokyo ([Material](/en/events/2024-09-13/slides/02_available_tools_en.pdf)/[Recorging](https://youtu.be/GeZEywIQYgQ))
   - Zoom and Tools for Online Meetings
   - UTokyo Slack
   - ECCS Cloud Email (Google Workspace)
   - UTokyo Microsoft License
   - Generative AI
   - How to Get Supported
-- Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL ([Material](/en/events/2024-09-13/slides/03_utas_utol_en.pdf), [Appendix](/en/events/2024-09-13/slides/04_appendix_on_utol_en.pdf))
+- Part III: Systems for Educational Activities in UTokyo – UTAS and UTOL ([Material](/en/events/2024-09-13/slides/03_utas_utol_en.pdf)/[Recorging](https://youtu.be/q1oyLQWU84Y), [Appendix](/en/events/2024-09-13/slides/04_appendix_on_utol_en.pdf))
   - UTAS
   - UTOL
-- Q&A session (Questions will also be accepted after the session)
+- Q&A session (Questions will also be accepted after the session) ([Transcriptsl](/en/events/2024-09-13/slides/99_QandA_en.pdf))
 - Closing Remarks
 
 You can ask questions during the session using **[this Slido](https://app.sli.do/event/faBx8JbTgARtVdPB75oNQB)** (or access [https://sli.do/](https://sli.do/) and use code = `utelecon20240913`). Questions in advance are also welcome.
