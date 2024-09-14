@@ -39,7 +39,7 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
   - UTokyo Microsoft License
   - 生成AI
   - サポート体制
-- Part III：教育活動に利用する情報システム – UTAS と UTOLS（[資料（英）](/en/events/2024-09-13/slides/03_utas_utol_en.pdf)・[資料（和）](/events/2024-09-13/slides/03_utas_utol_ja.pdf)・[動画](https://youtu.be/q1oyLQWU84Y)）
+- Part III：教育活動に利用する情報システム – UTAS と UTOL（[資料（英）](/en/events/2024-09-13/slides/03_utas_utol_en.pdf)・[資料（和）](/events/2024-09-13/slides/03_utas_utol_ja.pdf)・[動画](https://youtu.be/q1oyLQWU84Y)）
   - UTAS
   - UTOL
 - 質疑応答（終了後も質問を受け付けます）（質疑応答の記録：[英](/en/events/2024-09-13/slides/99_QandA_ja.pdf)・[和](/events/2024-09-13/slides/99_QandA_ja.pdf)）
