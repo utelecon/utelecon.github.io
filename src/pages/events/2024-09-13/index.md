@@ -20,7 +20,8 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 ## 概要
 - **期日**：2024年9月13日（金）
 - **時間**：15:00～17:00（終了後も質問を受け付けます）
-- **会場**：オンライン（Zoomミーティング，[要事前登録](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu)）
+- **会場**：オンライン（Zoomミーティング，要事前登録）
+<!-- [要事前登録](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu) -->
 
 説明会の資料・動画はこのページで提供しています．
 
@@ -41,10 +42,11 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 - Part III：教育活動に利用する情報システム – UTAS と UTOLS（[資料（英）](/en/events/2024-09-13/slides/03_utas_utol_en.pdf)・[資料（和）](/events/2024-09-13/slides/03_utas_utol_ja.pdf)・[動画](https://youtu.be/q1oyLQWU84Y)）
   - UTAS
   - UTOL
-- 質疑応答（終了後も質問を受け付けます）（[質疑応答の記録](/events/2024-09-13/slides/99_QandA_ja.pdf)）
+- 質疑応答（終了後も質問を受け付けます）（質疑応答の記録：[英](/en/events/2024-09-13/slides/99_QandA_ja.pdf)・[和](/events/2024-09-13/slides/99_QandA_ja.pdf)）
 - 全体まとめ
 
-質問は**[こちらのSlido](https://app.sli.do/event/faBx8JbTgARtVdPB75oNQB)**または [https://sli.do/](https://sli.do/) で code = `utelecon20240913`）へ投稿してください．事前の質問も歓迎します．（質問は可能な限り英語でお寄せください．）
+質問は Slido および説明会の中で直接受け付けました．[質疑応答の記録](/events/2024-09-13/slides/99_QandA_ja.pdf)から内容をご覧いただけます．
+<!-- 質問は**[こちらの Slido](https://app.sli.do/event/faBx8JbTgARtVdPB75oNQB)** または [https://sli.do/](https://sli.do/) で code = `utelecon20240913`）へ投稿してください．事前の質問も歓迎します．（質問は可能な限り英語でお寄せください．） -->
 
 ### 話者
 - 田浦健次朗　執行役・副学長
@@ -52,10 +54,12 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 - 佐藤　寛也　本部DX推進課 主任
 
 ## 参加登録
-説明会への参加を申し込むには，[参加登録フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu)にアクセスして登録してください．フォームを送信すると，Zoom情報を記載したメールが自動返信されます．
+説明会への参加を申し込むには，参加登録フォームにアクセスして登録してください．フォームを送信すると，Zoom情報を記載したメールが自動返信されます．
+<!-- [参加登録フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUMkdURFZWTTNNQTNNVjlPV1VLOUUzV09FMiQlQCN0PWcu) -->
 
 ### 事前アンケート
-説明会に参加申込をした方に，[事前アンケート](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu)への協力をお願いしています．
+説明会に参加申込をした方に，事前アンケートへの協力をお願いしています．
+<!-- [事前アンケート](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMG0cB0M1D9AlsFXGVVZ8GhUQ1hIR1BFNkhDVFU2REhSTkw2NTdRSjU2MiQlQCN0PWcu) -->
 
 事前アンケートは，日本語母語話者でない教職員の方にどのようなシステム・ツールに関する情報のニーズがあるかをお伺いすることを目的としたものです．回答は任意ですが，いただいた内容を踏まえて説明会の内容をより良いものにできるよう準備したいと考えていますので，ぜひご協力をお願いします．
 
