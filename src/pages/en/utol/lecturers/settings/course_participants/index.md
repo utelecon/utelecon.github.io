@@ -191,7 +191,7 @@ Course participants can be deleted by either of the following methods.
 
     ![](operation.png){:.medium}
 
-4. Select “Delete ◯◯ Authority”.
+4. Select “InstructorAuthorityDelete” or “EnrolledStudentAuthorityDelete”.
 
     ![](delete.png){:.small}
 
