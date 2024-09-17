@@ -66,7 +66,3 @@ There are four main roles in Webex Training．
 	![](img/webex_training_fullscreen_buttons_participant.png)
 
 * Above: Organizers' monitor; Below: Attendees' monitor
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to Use Webex</a>

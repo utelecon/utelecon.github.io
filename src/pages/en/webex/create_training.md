@@ -38,7 +38,3 @@ title: How to create Webex training
 * If organizers designate a presenter, the presenter obtains the following email.
 
 	![招待メール](img/webex_training_mail_presenter.png){:.medium}
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to Use Webex</a>
