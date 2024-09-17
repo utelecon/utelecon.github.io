@@ -16,8 +16,3 @@ title: How to start Webex Meetings
 
 
 * Participants will not be able to join a scheduled meeting unless the organizer clicks “Start Meeting”. However, the organizers can allow participants to join before the host by checking off “Join before host” in the meeting setting screen. (“Show advanced options”→”Scheduling Options”) 
-
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to Use WeBex</a>

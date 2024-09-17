@@ -6,8 +6,6 @@ redirect_from:
   - /faq/msaccount-troubleshooting
 ---
 
-[UTokyo Microsoft Licenseのページのトップに戻る](.)
-
 ## はじめに
 {:#about}
 
