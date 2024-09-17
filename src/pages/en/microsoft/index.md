@@ -4,8 +4,6 @@ breadcrumb:
   title: UTokyo Microsoft License
 ---
 
-import Microsoft from "@components/en/systems/microsoft/index.mdx";
-
 ## はじめに
 {:#about}
 
@@ -14,16 +12,7 @@ UTokyo Microsoft Licenseとは，Microsoftの提供するシステムをUTokyo A
 ## What is UTokyo Microsoft License?
 {:#about}
 
-"UTokyo Microsoft License" provides Microsoft services to UTokyo members.
-
-The main features available are listed below.
-
-- Microsoft Office applications such as **Word** and **Excel**
-- Office for the web (web version of Microsoft Office)
-- **OneDrive**: File storage
-- **Microsoft Forms**: Form creation service
-
-For more information, please refer to the [main systems available](#systems).
+"UTokyo Microsoft License" provides Microsoft services to UTokyo members. It includes Office software that can be installed on your device, such as Word, Excel, and PowerPoint. For more information, please refer to the [main systems available](#systems).
 
 ## 利用対象者
 {:#users}
@@ -226,11 +215,3 @@ Microsoftの教育機関向けの開発者用ソフトウェアライセンス�
 {:#adt4t}
 
 it is a Microsoft developer software license for educational institutions. For instructions on how to use it, please check the **[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t)** page.
-
-By signing in as a member of UTokyo, you can set up sharing to be limited to UTokyo members, which is not possible with a regular Microsoft account. In order to access such pages, even those who already have a Microsoft account need to set up an account as a UTokyo member.
-
-## Initial Setup Procedures
-
-[UTokyo Account](/en/utokyo_account/) is required to use this service. If you have not yet set up your UTokyo Account, please check “[How to start using UTokyo Account](/en/utokyo_account/#procedures)” first.
-
-<Microsoft variant="individual" />
