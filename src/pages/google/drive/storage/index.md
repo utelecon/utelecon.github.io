@@ -134,12 +134,14 @@ breadcrumb:
    - 使用量が容量を上回っている・上回りそうな場合　→「[共有ドライブ容量を増やしたい人／減らしたい人](#Operation-change-shareddrive-limit)」を参照のこと．
 
 <details>
-    <summary>トラブルシュート：代表者になるべき共有ドライブが見つからない</summary>
-    ストレージ管理システムで表示されなければ，それはECCSクラウドメール以外のGoogle Workspaceで作成された共有ドライブですので，何もする必要はありません．
+  <summary>トラブルシュート：代表者になるべき共有ドライブが見つからない</summary>
+  
+  ストレージ管理システムで表示されなければ，それはECCSクラウドメール以外のGoogle Workspaceで作成された共有ドライブですので，何もする必要はありません．
 </details>
 <details>
-    <summary>トラブルシュート：操作に失敗する</summary>
-    自分が参加しているGoogleグループが共有ドライブの管理者として指定され，自分のアカウントが共有ドライブの管理者として指定されていない場合は，自分のアカウントを[共有ドライブの管理者として指定](https://support.google.com/a/users/answer/9310249?hl=ja)してからやり直してください．
+  <summary>トラブルシュート：操作に失敗する</summary>
+
+  自分が参加しているGoogleグループが共有ドライブの管理者として指定され，自分のアカウントが共有ドライブの管理者として指定されていない場合は，自分のアカウントを[共有ドライブの管理者として指定](https://support.google.com/a/users/answer/9310249?hl=ja)してからやり直してください．
 </details>
 
 ### マイドライブ容量を超過している人 【要対応】
@@ -184,12 +186,14 @@ breadcrumb:
 2. 自分を代表者に設定してください．→[簡易マニュアル「共有ドライブの代表権取得」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.8odxz0wha1ko)を参照のこと．
 
 <details>
-    <summary>トラブルシュート：代表者になるべき共有ドライブが見つからない</summary>
-    ストレージ管理システムで表示されなければ，それはECCSクラウドメール以外の Google Workspace で作成された共有ドライブですので，何もする必要はありません．
+  <summary>トラブルシュート：代表者になるべき共有ドライブが見つからない</summary>
+
+  ストレージ管理システムで表示されなければ，それはECCSクラウドメール以外の Google Workspace で作成された共有ドライブですので，何もする必要はありません．
 </details>
 <details>
-    <summary>トラブルシュート：操作に失敗する</summary>
-    自分が参加しているGoogleグループが共有ドライブの管理者として指定され，自分のアカウントが共有ドライブの管理者として指定されていない場合は，自分のアカウントを[共有ドライブの管理者として指定](https://support.google.com/a/users/answer/9310249?hl=ja)してからやり直してください．
+  <summary>トラブルシュート：操作に失敗する</summary>
+
+  自分が参加しているGoogleグループが共有ドライブの管理者として指定され，自分のアカウントが共有ドライブの管理者として指定されていない場合は，自分のアカウントを[共有ドライブの管理者として指定](https://support.google.com/a/users/answer/9310249?hl=ja)してからやり直してください．
 </details>
 
 #### 代表者を自分以外の人に変更したい場合
@@ -220,8 +224,9 @@ breadcrumb:
   * [簡易マニュアル「自分および，追加登録済みのユーザへの容量追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.p93jfxdjykjk)を参照のこと．
 
 <details>
-<summary>トラブルシュート：「予算を持つ教職員」であるにも関わらず「利用負担金支払い情報登録」タブが表示されない</summary>
-新しくできた身分等でリストに未登録の場合があります．[uteleconのサポート窓口](/support/) からご連絡ください．
+  <summary>トラブルシュート：「予算を持つ教職員」であるにも関わらず「利用負担金支払い情報登録」タブが表示されない</summary>
+
+  新しくできた身分等でリストに未登録の場合があります．[uteleconのサポート窓口](/support/) からご連絡ください．
 </details>
 
 ## Q&A
