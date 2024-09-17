@@ -52,7 +52,7 @@ This section provides information on how to schedule a Zoom Meeting using the Zo
       <li> <strong>Calender</strong> : Synchronizing with Outlook or Google Calendar is also possible. However, it is recommended to select “Other Calendars” to copy and paste the meeting information. </li>  
       <li> <strong>Advanced Options</strong>:   
         <ul>
-          <li> <strong>Allow participants to join (Anytime)</strong>: Participants are not allowed to join the meeting before the host if this option is disabled. We recommend that you enable this option if you would like other participants to join the meeting earlier and have a talk. </li>
+          <li> <strong>Allow participants to join (Anytime) before start time</strong>: Participants are not allowed to join the meeting before the host if this option is disabled. We recommend that you enable this option if you would like other participants to join the meeting earlier and have a talk. </li>
           <li> <strong>Mute participants upon entry</strong>: We recommend that you enable this option if you would like to announce something at the beginning of the meeting. </li>
         </ul>
       </li>
