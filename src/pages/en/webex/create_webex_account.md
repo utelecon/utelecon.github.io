@@ -39,10 +39,3 @@ title: How to Log in and Create an UTokyo Webex account
 ## How to change your Username
 * When you log in the first time, your Username is "UTokyo + your 10-digit Common ID." You can change your Username.  Please press the button next to "UTokyo" on the upper right and select "My profile"　on the pull-down menu.
 * Press "Edit the profile" and then you can change your Username and images.
-
-
-
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to Use WeBex</a>

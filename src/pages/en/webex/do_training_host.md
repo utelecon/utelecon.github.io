@@ -64,12 +64,3 @@ title: What is possible with Webex Training?（for Instructors)
 ![](img/webex_training_participants_list_3.png){:.medium}
 1. A list of participants' attendance will be displayed. Click "Export Report" to download the displayed content as a CSV file.
 ![](img/webex_training_participants_list_4.png){:.medium}
-
-
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to Use Webex</a>
-
-
-
