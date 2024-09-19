@@ -9,7 +9,7 @@ breadcrumb:
 
 ## 投票機能とは
 Zoomの投票機能とは、ミーティングのホスト・共同ホストが、参加者の意見などを単一選択、複数選択、記述式等の形で収集できるものです。投票機能では、投票のほかにクイズというものも実施できます。クイズでは、ホスト・共同ホストは選択式の質問に正答を設定することが可能です。  
-なお、投票機能のように参加者とやり取りする手段としては、他に[リアクション機能（挙手・絵文字等）](https://utelecon.adm.u-tokyo.ac.jp/zoom/usage/reaction/)や[チャット](https://utelecon.adm.u-tokyo.ac.jp/zoom/usage/chat/)もあります。Zoomの機能以外では、[Googleフォーム](https://utelecon.adm.u-tokyo.ac.jp/articles/google-form/)を利用することも考えられます。目的に応じて選択し、活用してください。
+なお、投票機能のように参加者とやり取りする手段としては、他に[リアクション機能（挙手・絵文字等）](/zoom/usage/reaction/)や[チャット](/zoom/usage/chat/)もあります。Zoomの機能以外では、[Googleフォーム](/articles/google-form/)を利用することも考えられます。目的に応じて選択し、活用してください。
 
 ## 投票を主催する（ホスト・共同ホスト向け）
 ### 投票機能を有効化する
