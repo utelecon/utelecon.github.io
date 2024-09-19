@@ -3,7 +3,7 @@ title: チャットで相談する
 support: true
 breadcrumb:
   title: チャット
-  parent: ./.
+  parent: ../.
 ---
 
 このページは，uteleconサポート窓口における**チャット**でのサポートのページです．

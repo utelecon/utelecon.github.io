@@ -2,7 +2,7 @@
 title: メールフォームで相談する
 breadcrumb:
   title: メールフォーム
-  parent: ./.
+  parent: ../.
 ---
 
 このページは，uteleconサポート窓口における**メールフォーム**でのサポートのページです．

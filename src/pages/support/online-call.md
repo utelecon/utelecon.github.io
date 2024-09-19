@@ -3,7 +3,7 @@ title: オンライン通話で相談する
 support: true
 breadcrumb:
   title: オンライン通話
-  parent: ./.
+  parent: ../.
 ---
 
 このページは，uteleconサポート窓口における**オンライン通話**でのサポートのページです．
