@@ -145,6 +145,7 @@ Markdown内で，ある要素に対してHTMLの属性を指定することが�
 ```md
 ![uteleconのロゴ](/assets/images/ogp.png){:.medium}
 ```
+なお，複数個の`class`属性を同時に指定したい場合，`.md`ではなく`.mdx`ファイルでなければ正常に動作しないようです．
 
 ### `redirect_from` / `redirect_to`
 
