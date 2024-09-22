@@ -4,7 +4,7 @@ title: UTokyo Accountで利用するOneDrive等の容量制限について（第
 
 <div style="text-align: right;">
   発出: 2024年4月22日<br>
-  更新: 2024年9月23日
+  更新: 2024年9月24日
 </div>
 
 UTokyo Account 利用者各位
@@ -93,7 +93,7 @@ Google WorkspaceのサービスとしてGoogleドライブを100GBまで費用�
 
 - 2024年7月12日：今後の予定やOneDriveの容量確認方法などを追記
 - 2024年7月22日：Microsoft Teams(SharePoint)の記述を一部修正
-- 2024年9月23日：OneDriveのストレージ容量拡張申請について追記
+- 2024年9月24日：OneDriveのストレージ容量拡張申請について追記
 
 ## 本件に関する問い合わせ先
 
