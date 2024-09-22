@@ -34,7 +34,7 @@ breadcrumb:
     - 一つだけユーザグループを登録する場合や，登録するメンバーが少ない場合に適しています．
 
 - Excelファイルをアップロードして登録する方法
-![](register_excel.png){:.border}{:.medium}
+![](register_excel.png){:.border .medium}
     - ユーザグループとそのメンバーについての情報を入力したExcelファイルをアップロードして，一つもしくは複数のユーザグループを登録する方法です．
     - 複数のユーザグループを一度に登録する場合や，履修者の共通IDや学生証番号についての電子データが手元にある場合に適しています．
 
@@ -48,9 +48,9 @@ breadcrumb:
         あなたにはこの操作に必要な<a href=#details>権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href=/utol/lecturers/settings/course_participants/>権限の付与</a>についてご相談ください．
     </details>
 
-    ![](sidebar_ug.png){:.border}{:.medium}
+    ![](sidebar_ug.png){:.border .medium}
 1. 「ユーザグループ管理」の右側にある「+」を押してください．
-![](ug_manage_plus.png){:.border}{:.medium}
+![](ug_manage_plus.png){:.border .medium}
 1. 「ユーザグループ名」と「グループ概要」（任意）を入力してください．これらの情報は，後からユーザグループを区別する際に使用します．
 ![](label.png)
 1. ユーザグループのメンバーとする履修者のチェックボックスをすべて選択し，「確認画面に進む」を押してください．（「グループメンバー選択」の真下にあるチェックボックスを選択すると，表示されているすべての履修者を一度に選択できます．）
@@ -63,20 +63,20 @@ breadcrumb:
 #### Excelファイルをアップロードして登録する方法
 {:#excel}
 1. 対象のコースを開いた状態で左上の三本線のアイコンを押してください．
-![](sidebar.png){:.border}{:.medium}
+![](sidebar.png){:.border .medium}
 1. 「コース設定」の「ユーザグループ設定」を押してください．
     <details>
     <summary>「コース設定」がない場合</summary>
         あなたにはこの操作に必要な<a href=#details>権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href=/utol/lecturers/settings/course_participants/>権限の付与</a>についてご相談ください．
     </details>
 
-    ![](sidebar_ug.png){:.border}{:.medium}
+    ![](sidebar_ug.png){:.border .medium}
 1. 「ユーザグループ管理」の右側にある「一括登録」を押してください．
 ![](ug_manage_whole.png)
 1. 「フォーマットダウンロード」を押して，入力に使用するExcelファイルをダウンロードしてください．
 ![](format_download.png)
 1. ダウンロードしたExcelファイルを開いてください．
-![](register_excel.png){:.border}{:.medium}
+![](register_excel.png){:.border .medium}
 1. 登録するユーザグループごとに，以下の手順で入力してください．なお，登録するユーザグループとExcelファイルの行は一対一で対応しています．すなわち，**一つのユーザグループについて複数の行を用いて記述することはできません**．
     - まず，「ユーザグループ名」と「グループ概要」（任意）を入力してください．これらの情報は，後からユーザグループを区別する際に使用します．
     - 次に，メンバーとする履修者すべてについて，共通IDもしくは学生証番号のどちらかを入力します．共通IDの場合は「ユーザID」欄，学生証番号の場合は「学生証番号」欄に入力してください．共通IDと学生証番号はそれぞれ一つの欄内にセミコロンで区切って入力してください．
@@ -95,14 +95,14 @@ breadcrumb:
 {:#edit}
 登録したユーザグループに対して，メンバーの追加・削除などの変更を加える手順を説明します．
 1. 対象のコースを開いた状態で左上の三本線のアイコンを押してください．
-![](sidebar.png){:.border}{:.medium}
+![](sidebar.png){:.border .medium}
 1. 「コース設定」の「ユーザグループ設定」を押してください．
     <details>
     <summary>「コース設定」がない場合</summary>
         あなたにはこの操作に必要な<a href=#details>権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href=/utol/lecturers/settings/course_participants/>権限の付与</a>についてご相談ください．
     </details>
 
-    ![](sidebar_ug.png){:.border}{:.medium}
+    ![](sidebar_ug.png){:.border .medium}
 1. 「ユーザグループ一覧」のうち，変更を加えたいもののユーザグループ名を押してください．
 ![](fix.png)
 1. [画面上で選択して登録する方法](#web)と同様の画面が表示されます．変更を加えたい項目について編集を加え，「確認画面に進む」を押してください．
@@ -115,14 +115,14 @@ breadcrumb:
 {:#remove}
 登録したユーザグループを削除する手順を説明します．
 1. 対象のコースを開いた状態で左上の三本線のアイコンを押してください．
-![](sidebar.png){:.border}{:.medium}
+![](sidebar.png){:.border .medium}
 1. 「コース設定」の「ユーザグループ設定」を押してください．
     <details>
     <summary>「コース設定」がない場合</summary>
         あなたにはこの操作に必要な<a href=#details>権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href=/utol/lecturers/settings/course_participants/>権限の付与</a>についてご相談ください．
     </details>
 
-    ![](sidebar_ug.png){:.border}{:.medium}
+    ![](sidebar_ug.png){:.border .medium}
 1. 「ユーザグループ一覧」のうち，削除したいものの「操作」メニューを開き，「削除」を押してください．
 ![](del.png)
 1. 「(ユーザグループ名)を削除して宜しいですか？」と表示されます．対象のグループが正しいか確認したうえで「削除」を押してください．
