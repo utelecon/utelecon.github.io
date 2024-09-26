@@ -101,11 +101,18 @@ Zoomの投票機能とは、ミーティングのホスト・共同ホストが�
 3. 結果を閲覧する画面が表示されます。結果を共有したい場合、右下の「結果を共有」を押してください。
     - 結果を共有すると、参加者には2枚目の画像のような画面が表示されます。
 
-![結果閲覧画面](./result.png){:.medium .border}
-![共有中の結果閲覧画面](./sharing.png){:.medium .border}
+        <figure class="gallery">
+        <img src="./result.png" alt="結果閲覧画面" class="border">
+        <img src="./sharing.png" alt="共有中の結果閲覧画面" class="border">
+        </figure>
+
     - クイズの場合は、結果の共有中に1枚目の「全員に正解を表示する」を押すと、正解が共有されます。参加者には、2枚目の画像のような画面が表示されます。
-![クイズの結果共有中の画面](./quizsharingresults.png){:.medium .border}
-![クイズの正解共有中の画面](./answershare.png){:.medium .border}
+        
+        <figure class="gallery">
+        <img src="./quizsharingresults.png" alt="クイズの結果共有中の画面" class="border">
+        <img src="./answershare.png" alt="クイズの正解共有中の画面" class="border">
+        </figure>
+        
     - 結果を共有している間は、新たに投票を開始することはできません。
 
 4. 結果の共有を終了する場合、右下の「共有を停止」を押してください。
