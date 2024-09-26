@@ -14,7 +14,7 @@ The default setting allows only the host to share screens during meetings, but t
 
 1. Press "Security" in the control toolbar at the bottom of the screen.
 2. Press “Share Screen”
-![](img/1.png){:.border}{:.medium}
+![](img/img1.png){:.border}{:.medium}
 
 If you repeat step 1 again and see a checkmark next to the “Share Screen”, it means that the changed setting has been validated.
 
@@ -23,11 +23,11 @@ If you provide screen-sharing access during a meeting, the screen-sharing capabi
 
 1. Sign in to Zoom according to the steps in  “[Sign-in Methods for Zoom](../../../signin/#browser)”.
 2. Press “Settings” in the menu on the left side of the screen.
-![](share_all_default1.png){:.border}{:.medium}
+![](img/img2.png){:.border}{:.medium}
 3. If the settings screen are similar to those in the picture, scroll to “Screen sharing” under “In Meeting (Basic)”.
-![](share_all_default2.png){:.border}{:.medium}
+![](img/img3.png){:.border}{:.medium}
 4. Ensure that the switch on the right of "Screen sharing" is blue and turned on, and change the setting in "Who can share?" to "All Participants".
-![](share_all_default3.png){:.border}{:.medium}
+![](img/img4.png){:.border}{:.medium}
 
 ## Granting screen-sharing capability to specific participants (add co-hosts)
 In meetings you host, if you wish to grant screen-sharing capability to specific participants only, adding them as co-hosts is a useful approach. Since the participants being added as co-hosts gain the authority to perform some of the operations that originally only the host is able to perform, they will be able to share their screen. This setting is particularly useful in lectures attended by multiple faculty members or TAs.
@@ -39,25 +39,25 @@ During a meeting where multiple participants are allowed to share their screens,
 
 1. Press the “^” icon on the right of “Share screen” on the control toolbar at the bottom of the screen.
 2. Press “Advanced Sharing Options”
-![](share_takeover1.png){:.border}{:.medium}
+![](img/img5.png)
 3. When the dialog for “Advanced Sharing Options” appears, make the following selections to allow all participants to forcibly switch to screen sharing.
    - “How many participants can share at the same time?”: “One participant can share at a time”
    - “Who can share?”: “All participants”
    - “Who can start sharing when someone else is sharing”: “All participants”
 
-   ![](share_takeover2.png){:.border}{:.small}
+   ![](img/img6.png){:.border}{:.small}
 
 ### Granting permission to all participants to forcibly switch the shared screen by default
 You can grant permission to all participants to forcibly switch to screen sharing not only in specific meetings in progress but also in all meetings you host.
 
 1. Sign in to Zoom according to the steps in “[Signing in from the UTokyo Zoom Webpage](../../../signin/#browser)” .
 2. Press “Settings” in the menu on the left side of the screen.
-![](share_all_default1.png){:.border}{:.medium}
+![](img/img7.png){:.border}{:.medium}
 3. If the settings screen is similar to that in the picture, scroll to “Screen Sharing” under “In Meeting (Basic)”.
-![](share_all_default2.png){:.border}{:.medium}
+![](img/img8.png){:.border}{:.medium}
 4. For the options within "Screen sharing", make the following selections accordingly and press "Save" to allow all participants to be able to forcibly switch the shared screen.
    - “How many participants can share at the same time?”: “One participant can share at a time”
    - “Who can share?”: “All participants”
    - “Who can start sharing when someone else is sharing”: “All participants”
    
-   ![](share_takeover_default.png){:.border}{:.medium}
+   ![](img/img9.png){:.border}{:.medium}
