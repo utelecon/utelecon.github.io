@@ -39,7 +39,7 @@ During a meeting where multiple participants are allowed to share their screens,
 
 1. Press the “^” icon on the right of “Share screen” on the control toolbar at the bottom of the screen.
 2. Press “Advanced Sharing Options”
-![](img/img5.png)
+![](img/img5.png){:.border}{:.medium}
 3. When the dialog for “Advanced Sharing Options” appears, make the following selections to allow all participants to forcibly switch to screen sharing.
    - “How many participants can share at the same time?”: “One participant can share at a time”
    - “Who can share?”: “All participants”
