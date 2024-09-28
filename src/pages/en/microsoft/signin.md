@@ -1,23 +1,12 @@
 ---
-title: UTokyo Accountを用いてMicrosoftのシステムにサインインする
+title: Sign in to Microsoft systems using UTokyo Account
 breadcrumb:
-  title: UTokyo Accountを用いてサインインする
+  title: Sign in with UTokyo Account
 redirect_from:
-  - /faq/msaccount-troubleshooting
+  - /en/faq/msaccount-troubleshooting
 ---
 
-## はじめに
-{:#about}
-
-このページでは，UTokyo Accountを用いてMicrosoftの提供するシステムにサインインする方法を説明します．
-
-東京大学では，UTokyo AccountでMicrosoftのシステムを利用することができる[UTokyo Microsoft License](/microsoft/)が提供されています．UTokyo AccountでMicrosoftのシステムを利用する際にサインインを要求する画面が表示された場合には，以下の「**[Microsoftのシステムにサインインする](#instruction)**」で説明する手順に従ってMicrosoftのシステムにサインインしてください．
-
-また，UTokyo Accountではない別のMicrosoftアカウントですでにサインインをしていて，UTokyo Accountでの利用に切り替えたい場合は，「[別のMicrosoftアカウントでサインインしている場合にUTokyo Accountでの利用に切り替える](#switch_accounts)」を参照してください．これに関連して，同じブラウザで複数のMicrosoftアカウントを並行して利用する際に推奨される方法を「[一つのブラウザで複数のMicrosoftアカウントを使いわける](#multiple_accounts)」で説明しています．学生用と教職員用とで2つのUTokyo Accountをお持ちの方や，個人や他組織のMicrosoftアカウントと併用して利用したい方などはこちらもお読みください．
-
-なお，UTokyo Microsoft Licenseについての全般的な説明や，利用可能なシステムの詳細は「[UTokyo Microsoft License](/microsoft/)」に記載されています．あわせて参照してください．
-
-## About this page
+## About
 {:#about}
 
 This page explains how to sign in to Microsoft systems using UTokyo Account.
@@ -31,9 +20,9 @@ For general information about UTokyo Microsoft License and details of available 
 ## Sign in to Microsoft systems
 {:#instruction}
 
-ここでは，Microsoftのシステムへのサインインを要求する画面が表示された場合に，UTokyo Accountを用いてサインインする方法を説明します．
+This section explains how to sign in using your UTokyo Account if a screen appears requesting you to sign in to the Microsoft system.
 
-UTokyo AccountでMicrosoftのシステムにサインインする際には，他のシステムにサインインする場合とは異なり，次のようにMicrosoftのロゴ等を含むサインイン画面が表示されることがあります．その場合には，次に示す手順に従ってサインインを行ってください．一方，下のような画面ではなく，通常のサインイン画面（安田講堂の画像が表示されているもの）が表示されている場合には，「[UTokyo Accountで情報システムにサインインする](/utokyo_account/#signin)」に従ってサインインを行ってください．
+When signing in to Microsoft systems using UTokyo Account, contrary to signing in to other systems, you may encounter a sign-in screen that includes the Microsoft logo. In that case, please follow the steps below to sign in. On the other hand, if the screen is not as shown below but a normal sign-in screen (with a picture of Yasuda Auditorium) is displayed, please sign in following "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)".
 
 <figure class="gallery">
 <img src="img/microsoft-signin-instruction-1.png" class="medium center border">
@@ -41,77 +30,74 @@ UTokyo AccountでMicrosoftのシステムにサインインする際には，他
 <img src="img/microsoft-signin-instruction-2.png" class="medium center border">
 </figure>
 
-1. 表示されている画面を確認し，以下の手順を行ってください．
-    - Microsoftまたは東京大学のロゴの下に**「サインイン」**と表示されている場合
-        - 入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力し，「次へ」を押してください．
-    - Microsoftのロゴの下に**「アカウントを選択する」**と表示されている場合
-        - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」というアカウントが表示されている場合には，そのアカウントを選択してください．なお，アカウント名の下に「サインイン済み」と表示されている場合には，すでにUTokyo AccountでMicrosoftのシステムにサインインしています．このアカウントを選択することで，そのままMicrosoftのシステムを利用することができます．
-        - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」というアカウントが表示されていない場合には，「別のアカウントを使用する」を押し，入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力してから「次へ」を押してください．
-1. 「組織のサインイン ページに移動します。」というメッセージのあと，安田講堂の画像が表示されているサインイン画面へ自動的に移動します．以降は「[UTokyo Accountで情報システムにサインインする](/utokyo_account/#signin)」に従ってサインインを行ってください．
+1. Please check the displayed screen and follow the instructions below.
+    - If **"Sign in"** ("サインイン" in Japanese) is displayed below the Microsoft or the UTokyo logo
+        - Enter "10-digit common ID + `@utac.u-tokyo.ac.jp`" in the input field and click "Next" ("次へ" in Japanese) button.
+    - If **"Pick an account"** is displayed below the Microsoft logo
+        - If an account with "10-digit common ID + `@utac.u-tokyo.ac.jp`" is displayed, select that account. If "Signed in" is displayed below the account name, you are already signed in to Microsoft systems with UTokyo Account. By selecting this account, you can continue to use Microsoft systems.
+        - If an account with "10-digit common ID + `@utac.u-tokyo.ac.jp`" is not displayed, click "Use another account," enter "10-digit common ID + `@utac.u-tokyo.ac.jp`" in the input field, and then click "Next."
+2. After the message "Taking you to your organization's sign-in page" is displayed, you will be automatically redirected to the sign-in page with the image of Yasuda Auditorium. Follow the instructions in "[Sign in to the ICT systems with your UTokyo Account](/utokyo_account/#signin)" to sign in.
     <details>
-    <summary>この手順がうまくいかないときのヘルプ</summary>
+    <summary>Help when this procedure does not work</summary>
 
-    - 「**有効な電子メール アドレス、電話番号、Skype 名を入力します。**」または「**そのユーザー名のアカウントが見つかりませんでした。別のユーザー名を入力するか、新しい Microsoft アカウントを取得してください。**」と表示された場合
-        - 入力内容が間違っています．「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を正しく入力したかどうか確認してください．
-    - 「**Microsoft アカウントが存在しません。別のアカウントを入力するか、新しいアカウントを作成してください。**」と表示された場合
-        - このサインイン画面からは，UTokyo Accountでのサインインを行うことができません．UTokyo Accountでのサインインが可能なシステムであるにもかかわらずこの画面が表示されている場合は，[サポート窓口](/support/)に相談してください．
+    - If you see **"Enter a valid email address, phone number, or Skype name."** or **"We couldn't find an account with that username. Try another, or get a new Microsoft account."**
+        - The input is incorrect. Please check if you have entered "10-digit common ID + `@utac.u-tokyo.ac.jp`" correctly.
+    - If you see **"That Microsoft account doesn't exist. Enter a different account or get a new one."**
+        - You cannot sign in with UTokyo Account on this sign-in page. If you see this screen even though the system supports signing in with UTokyo Account, please contact the [support desk](/en/support/).
     </details>
 
-## 別のMicrosoftアカウントでサインインしている場合にUTokyo Accountでの利用に切り替える
+## You are signed in with other Microsoft accounts and switch to using your UTokyo Account
 {:#switch_accounts}
 
-ここでは，別のMicrosoftアカウントですでにサインインをしている場合に，UTokyo AccountでMicrosoftのシステムにサインインする際の手順を説明します．
+This section explains the procedure for signing in to the Microsoft system with your UTokyo Account if you are already signed in with other Microsoft accounts.
 
-1. 利用しているMicrosoftのシステムの画面右上にある人型のアイコンを押してください．
-    - アイコンの外観は利用しているシステムなどによって多少異なります．
-1. プルダウンメニューが表示されるので，以下の手順に従ってください．
-    - サインインしたいUTokyo Accountが表示されている場合
-        - 表示されているアカウント名を選択し，画面の指示に従ってサインインを行ってください．状況により，安田講堂の画像があるサインイン画面が表示される場合や，多要素認証（MFA）の本人確認のみが要求される場合などがあります．サインイン手順の詳細は「[UTokyo Accountで情報システムにサインインする](/utokyo_account/#signin)」を参照してください．
-    - サインインしたい UTokyo Account が表示されていない場合
-        - 「別のアカウントでサインインする」を押してください．続いてMicrosoftのロゴがあるサインイン画面が表示されるので，「[Microsoftのシステムにサインインする](#instruction)」に従ってサインインしてください．
+1. Please click the person icon at the top right of the screen of the Microsoft system you are using.
+    - The appearance of the icon may vary depending on the system you are using.
+2. A pull-down menu will appear, so follow the steps below.
+    - If the UTokyo Account you want to sign in with is displayed
+        - Select the displayed account name and follow the on-screen instructions to sign in. Depending on the situation, you may be asked to confirm your identity with multi-factor authentication (MFA) or be redirected to the sign-in page with the image of Yasuda Auditorium. For detailed sign-in instructions, please refer to "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)."
+    - If the UTokyo Account you want to sign in with is not displayed
+        - Click "Sign in with another account." Then, the sign-in screen with the Microsoft logo will be displayed. Follow the instructions in "[Sign in to Microsoft systems](#instruction)" to sign in.
             <details>
-                <summary>「別のアカウントでサインインする」が表示されていない場合</summary>
-                「サインアウト」を押して現在サインインしているMicrosoftアカウントからサインアウトしたのち，UTokyo Accountで再びサインインしなおしてください．
+                <summary>If "Sign in with another account" is not displayed</summary>
+                Click "Sign out" to sign out of the currently signed-in Microsoft account, and then sign in again with UTokyo Account.
             </details>
 
-以上の手順がうまくいかない場合には，以下の「[一つのブラウザで複数のMicrosoftアカウントを使いわける](#multiple_accounts)」に記載されている，「[シークレットブラウジング機能を利用する](#secret_browsing)」方法や「[複数のプロファイルを使用する](#profiles)」方法もお試しください．
+If the above steps do not work, please try the methods "[using incognito browsing](#secret_browsing)" or "[using multiple profiles](#profiles)" described in "[Using multiple Microsoft accounts in the same browser](#multiple_accounts)."
 
-## 一つのブラウザで複数のMicrosoftアカウントを使いわける
+## Using multiple Microsoft accounts in the same browser
 {:#multiple_accounts}
 
-学生用と教職員用とで2つのUTokyo Accountを付与されている場合や，UTokyo Accountのほかに個人や他組織のMicrosoftアカウントを所有している場合などに，同一のブラウザで複数のMicrosoftアカウントを並行して利用するとアカウントの切り替えが正常に機能しないことがあります．
+If you have been given two UTokyo Accounts, one for students and one for faculty and staff, or if you have a personal or organizational Microsoft account in addition to your UTokyo Account, using multiple Microsoft accounts in the same browser may cause account switching to not function properly.
 
-Microsoftアカウントごとに異なるブラウザを使用することでこの問題を回避することも可能ですが，ブラウザのシークレットブラウジング機能を利用したり複数のプロファイルを使用したりすることで，同一のブラウザで複数のMicrosoftアカウントを使い分けることができます．
+Instead of using a different browser for each Microsoft account to avoid this issue, you can use multiple Microsoft accounts in the same browser by using the browser's incognito browsing function or using multiple profiles.
 
-### シークレットブラウジング機能を利用する
+### Using incognito browsing
 {:#secret_browsing}
 
-一時的に別のMicrosoftアカウントを利用したい場合には，ブラウザのシークレットブラウジング機能を利用するのが便利です．
+If you want to temporarily use a different Microsoft account, it is convenient to use the incognito browsing function of your browser.
 
-シークレットブラウジングとは，ブラウザに閲覧履歴やサインイン情報などの情報を記憶させずにブラウザを利用することができる機能のことです．シークレットブラウジング機能を利用している間は，情報が記憶されないだけでなく，普段そのブラウザを利用している際に記憶された情報の影響を受けません．すなわち，シークレットブラウジングにおいては，ブラウザに記憶されたサインイン情報の影響を受けずにWebページを閲覧することができます．したがって，シークレットブラウジング機能を用いてMicrosoftアカウントにサインインすれば，普段サインインしている別のMicrosoftアカウントの影響を受けずにMicrosoftのシステムを利用することができます．
+Incognito browsing is a function that allows you to use the browser without having the browser remember information such as browsing history or sign-in information. While using the incognito browsing function, not only is no information remembered, but the browser is also unaffected by information that is remembered when you normally use the browser. In other words, in incognito browsing, you can view web pages without being affected by the sign-in information stored in the browser. Therefore, if you sign in to a Microsoft account using the incognito browsing function, you can use the Microsoft system without being affected by the other Microsoft accounts you normally sign in to.
 
-なお，シークレットブラウジングを利用する方法が適しているのは，一時的に別のアカウントでサインインをしたい場合に限られます．これは，ブラウザのウィンドウを閉じてもサインインしたアカウントの情報は保持されないためです．Microsoftアカウントを使用する頻度が高く継続的に利用したい場合には，後述する「[複数のプロファイルを使用する](#profiles)」方法が便利です．
+Note that the incognito browsing method is only suitable if you want to temporarily sign in with a different account. This is because the information of the signed-in account is not retained even if you close the browser window. If you use a Microsoft account frequently and want to use it continuously, the "[Use multiple profiles](#profiles)" method described below is convenient.
 
-シークレットブラウジング機能の名称や利用手順はブラウザごとに異なります．詳細については，以下に記載されている各ブラウザの公式ドキュメントを参照してください．
+The name of the incognito browsing feature and the procedure for using it vary depending on the browser. For details, please refer to the official documentation for each browser listed below.
 
-- **Google Chrome**：[シークレットブラウジング](https://support.google.com/chrome/answer/95464?hl=ja)
-- **Safari**：[MacのSafariでプライバシーを保護した形でブラウズする](https://support.apple.com/ja-jp/guide/safari/ibrw1069/mac)
-- **Microsoft Edge**：[Microsoft Edge で InPrivate ブラウズを使う
-](https://support.microsoft.com/ja-jp/microsoft-edge/microsoft-edge-%E3%81%A7-inprivate-%E3%83%96%E3%83%A9%E3%82%A6%E3%82%BA%E3%82%92%E4%BD%BF%E3%81%86-cd2c9a48-0bc4-b98e-5e46-ac40c84e27e2)
-- **Firefox**：[プライベートブラウジング - 履歴を残さずに Firefox を使用する
-](https://support.mozilla.org/ja/kb/private-browsing-use-firefox-without-history)
+- **Google Chrome**：[Browse in Incognito mode](https://support.google.com/chrome/answer/95464?hl=en)
+- **Safari**：[Browse privately in Safari on Mac](https://support.apple.com/guide/safari/browse-privately-ibrw1069/mac)
+- **Microsoft Edge**：[Browse InPrivate in Microsoft Edge](https://support.microsoft.com/en-us/microsoft-edge/browse-inprivate-in-microsoft-edge-cd2c9a48-0bc4-b98e-5e46-ac40c84e27e2)
+- **Firefox**：[Private Browsing - Use Firefox without saving history](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history)
 
-### 複数のプロファイルを使用する
+### Using multiple profiles
 {:#profiles}
 
-継続的に別のMicrosoftアカウントを利用したい場合には，同一ブラウザ内で複数のプロファイルを使用するのが便利です．
+If you want to use different Microsoft accounts on an ongoing basis, it is convenient to use multiple profiles in the same browser.
 
-プロファイルは，ブラウザに設定・記憶された情報（ブックマーク，履歴，パスワードなど）を複数並列に保持することができる機能です．複数のプロファイルを使用することでプロファイルごとに異なるMicrosoftアカウントにサインインすることができる上，ウィンドウを閉じてもプロファイルごとのサインイン状態が維持されるので，継続的に別のMicrosoftアカウントを利用する場合に適しています．
+A profile is a function that allows you to store multiple pieces of information (bookmarks, history, passwords, etc.) set and stored in the browser in parallel. Using multiple profiles allows you to sign in to different Microsoft accounts for each profile, and the signed-in state for each profile is maintained even when the window is closed, making it ideal for using different Microsoft accounts on an ongoing basis.
 
-プロファイルの作成手順はブラウザごとに異なります．詳細については，以下に記載されている各ブラウザの公式ドキュメントを参照してください．
+The procedure for creating a profile varies depending on the browser. For details, please refer to the official documentation for each browser listed below.
 
-- **Google Chrome**：[複数のプロフィールでChromeを使用する](https://support.google.com/chrome/answer/2364824?hl=ja)
-- **Safari**：[MacのSafariでプロファイルを作成する](https://support.apple.com/ja-jp/guide/safari/ibrwf3a9e7d6/mac)
-- **Microsoft Edge**：[Microsoft Edge でサインインして複数のプロファイルを作成する](https://support.microsoft.com/ja-jp/topic/df94e622-2061-49ae-ad1d-6f0e43ce6435)
-- **Firefox**：[プロファイルマネージャーを使用して、Firefox のプロファイルを作成または削除する](https://support.mozilla.org/ja/kb/profile-manager-create-and-remove-firefox-profiles)
-
+- **Google Chrome**：[Use Chrome with multiple profiles](https://support.google.com/chrome/answer/2364824?hl=en)
+- **Safari**：[Create a profile in Safari on Mac](https://support.apple.com/guide/safari/ibrwf3a9e7d6/mac)
+- **Microsoft Edge**：[Sign in and create multiple profiles in Microsoft Edge](https://support.microsoft.com/en-us/topic/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435)
+- **Firefox**：[Profile Manager - Create, remove or switch Firefox profiles](https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles)
