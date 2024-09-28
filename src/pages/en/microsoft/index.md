@@ -12,7 +12,7 @@ breadcrumb:
 ## Target Users
 {:#users}
 
-UTokyo Microsoft License is available to UTokyo members (students and faculty) with a UTokyo Account. However, the specific systems available through UTokyo Microsoft License vary depending on the student's enrollment or faculty registration. For [available systems](#systems) with limited users, the target users are clearly stated in each section. Conversely, systems that are not specifically mentioned in terms of target users are available to all UTokyo Account holders.
+UTokyo Microsoft License is available to UTokyo members (students and faculty) with a UTokyo Account. However, the specific systems available through UTokyo Microsoft License vary depending on the student's enrollment or faculty registration. For [main available systems](#systems) with limited users, the target users are clearly stated in each section. Conversely, systems that are not specifically mentioned in terms of target users are available to all UTokyo Account holders.
 
 ### When UTokyo Account Expires
 {:#expire}
@@ -48,16 +48,17 @@ An online storage service provided by Microsoft. For instructions on how to use 
 
 **[OneDrive](./onedrive/)**{:.box.center}
 
-#### Office web apps
+#### Microsoft Office Web Apps
+{:#office_web}
 
-To edit files on OneDrive in a web browser, you can use Office web apps. Word, Excel, PowerPoint, etc. are available, but they do not have as many functions as the installed Office apps.
+To edit files on OneDrive in a web browser, you can use Microsoft Office Web Apps. Word, Excel, PowerPoint, etc. are available, but they do not have as many functions as the installed Office apps.
 
 Possible use cases include the following:
 - When minor editing of files on OneDrive is done entirely in the browser
 - When someone who is not a [Microsoft Office applications](#office_apps) user uses Office
 - When the Office app cannot be installed on the device due to permissions or other reasons
 
-For information on how to create and edit files on OneDrive using Office web apps, please see **[Basic usage of OneDrive](onedrive/basic)**.
+For information on how to create and edit files on OneDrive using Microsoft Office Web Apps, please see **[Basic usage of OneDrive](.//onedrive/basic)**.
 
 ### Teams
 {:#teams}
