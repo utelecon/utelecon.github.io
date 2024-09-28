@@ -6,22 +6,10 @@ breadcrumb:
 
 import HelpItem from "@components/utils/HelpItem.astro";
 
-## はじめに
-{:#about}
-
-このページでは，[UTokyo Microsoft License](.)のうち，PCにインストールして利用するOfficeアプリの利用方法について説明します．
-
 ## About
 {:#about}
 
 This page explains how to install and use Office apps that are part of the UTokyo Microsoft License.
-
-## 注意事項
-{:#caution}
-
-- **PCにインストールして利用するOfficeアプリは，学生及び東京大学に雇用されている教職員のみが利用できます**．
-- 最大5台のPCにインストールすることが可能です．
-- ライセンス認証のため，少なくとも30日に一度インターネットに接続する必要があります．ライセンス認証はインターネット接続時に自動で行われるため，特別な操作を行う必要はありません．
 
 ## Cautions
 {:#caution}
@@ -30,76 +18,51 @@ This page explains how to install and use Office apps that are part of the UToky
 - You can install the apps on up to 5 PCs.
 - You need to connect to the internet at least once every 30 days for license authentication. The license authentication is done automatically when you are connected to the internet, so you do not need to perform any special operations.
 
-## 利用手順
-{:#usage}
-
-以下ではOfficeアプリの具体的な利用手順を説明します．手順は**[アプリのPCへのインストール](#install)**と，**[UTokyo Accountでのサインイン](#signin)**の二つの部分に分かれており，利用を開始するにはこれらの両方を完了させる必要があります．
-
-### Usage
+## Usage
 {:#usage}
 
 The following explains how to use Office apps. The procedure is divided into two parts: **[Installing the app on a PC](#install)** and **[Signing in with UTokyo Account](#signin)**. To start using the apps, you need to complete both of these steps.
-
-### インストールする
-{:#install}
-
-1. 以下のMicrosoft 365ホームにアクセスし，UTokyo Accountでサインインしてください．
-**[Microsoft 365ホーム](https://portal.office.com/?auth=2)**{:.box.center}
-サインインの手順については，[**UTokyo Accountを用いてMicrosoftのシステムにサインインする**](signin)をご覧ください．
-1. Microsoft 365ホームの右上にある「アプリをインストール」をクリックして表示されるメニューで，「Microsoft 365 Apps」をクリックしてください．
-    <HelpItem lang="ja" type={"details"}>
-    <Fragment slot="problem">「Microsoft 365 Apps」が表示されない場合</Fragment>
-    <Fragment slot="solution">あなたは[利用対象者](#caution)ではありません．Officeを利用する必要がある場合，代替手段の一つとして[Web版Office](/microsoft/#office_web)があります．
-    もし，自身が利用対象者であると思われるのにもかかわらず「Microsoft 365 Apps」が表示されない場合，自身の学籍や人事上の登録が正しいかどうか，所属の学部・研究科等の窓口（学生は学務・教務担当，教職員は人事担当）にご確認ください．</Fragment>
-    </HelpItem>
-    ![](img/microsoft-install-install-download.png){:.medium}
-
-1. 以後の手順は場合によって異なります．インストールの完了まで自動で進むこともあれば，確認ボタンを押したり，ダウンロードしたファイルを自分で開いたりといった操作の必要があるかもしれません．
-1. インストールが完了した旨表示されれば終了です．続いて，下の「[サインインする](#signin)」の手順に進んでください．
 
 ### Install
 {:#install}
 
 1. Access the following Microsoft 365 Home and sign in with your UTokyo Account.
-**[Microsoft 365 Home](https://portal.office.com/?auth=2)**{:.box.center}
-For the sign-in procedure, see **[Signing in with UTokyo Account](#signin)**.
-1. Click "Install Office apps" at the top right of Microsoft 365 Home and then click "Microsoft 365 Apps" in the menu that appears.
+  **[Microsoft 365 Home](https://portal.office.com/?auth=2)**{:.box.center}
+  For the sign-in procedure, see **[Signing in with UTokyo Account](#signin)**.
+1. Click "Install and more" at the top right of Microsoft 365 Home and then click "Install Microsoft 365 Apps" in the menu that appears.
     <HelpItem lang="en" type={"details"}>
-    <Fragment slot="problem">If "Microsoft 365 Apps" is not displayed</Fragment>
-    <Fragment slot="solution">You are not a [target user](#caution). If you need to use Office, one alternative is to use [Office for the web](/microsoft/#office_web).
+    <Fragment slot="problem">If "Install Microsoft 365 Apps" is not displayed</Fragment>
+    <Fragment slot="solution">You are not a [target user](#caution). If you need to use Office, one alternative is to use [Microsoft Office Web Apps](./#office_web).
     If you believe you are a target user but "Microsoft 365 Apps" is not displayed, please check with the office of your faculty or department (students should contact the academic affairs office, and faculty and staff should contact the personnel office) to confirm that your student or personnel registration is correct.</Fragment>
     </HelpItem>
-    ![](img/microsoft-install-install-download.png){:.medium}
+    ![](img/microsoft-install-install-download.png)
 
 1. The subsequent steps may vary. The installation may proceed automatically, or you may need to press a confirmation button or open the downloaded file yourself.
-1. Once the installation is complete, you are finished. Proceed to the next step, "[Signing in with UTokyo Account](#signin)."
+1. Once the installation is complete, you are finished. Proceed to the next step "[Sign in](#signin)."
 
-### サインインする
+### Sign in
 {:#signin}
 
-1. Word，Excel，PowerPointなど，インストールされたOfficeアプリのうち，いずれかを一つ選んで起動してください．以下ではWordの場合を例にとって説明します．
-1. 表示された画面を確認して，以下の指示に従ってください．
-    - 以下のようなダイアログが表示された場合
+1. Please select and launch one of the installed Office apps, such as Word, Excel, or PowerPoint. The following explains using Word as an example.
+1. Please check the displayed screen and follow the instructions below.
+    - If the following dialog is displayed
       ![](img/microsoft-install-signin-new.png){:.medium}
-      OfficeアプリにどのMicrosoftアカウントでもサインインしていない状態です．「アカウントにサインインまたはアカウントを作成」をクリックしてください．
-    - 上記のような画面が表示されず，通常の編集画面が表示された場合
-    
-      OfficeアプリになんらかのMicrosoftアカウントでサインインしている状態です．右上の人型のアイコンをクリックした後，現在サインインしているアカウントを確認してください．UTokyo Accountでない別のアカウントでサインインしていた場合は「別のアカウントでサインイン」を選択してください．
+      You are not signed in with any Microsoft account in the Office app. Please click "Sign in or create an account."
+    - If the above screen is not displayed and the normal editing screen is displayed
+      You are signed in with a Microsoft account in the Office app. Click the person icon in the upper right and check the account you are currently signed in with. If you are signed in with a different account other than UTokyo Account, select "Sign in with a different account."
       ![](img/microsoft-install-signin-switch.png){:.small}
-1. [インストール](#install)時と同様のサインイン画面が表示されるので，サインインしてください．
-1. Windows端末の場合，「すべてのアプリにサインインしたままにする」というダイアログが表示されることがあります．ここでの設定内容によっては，Officeアプリの利用中にエラーメッセージが発生しうることが確認されています．これを防ぐため，以下のように回答してください．
-    まず，「組織がデバイスを管理できるようにする」の**チェックを外してください**．次に，Officeアプリ以外のMicrosoftのシステム（OneDriveなど）に自動でUTokyo Accountにサインインしたい場合は「はい」を，OfficeアプリのみにUTokyo Accountでサインインしたい場合は「いいえ，このアプリのみにサインインします」を選択してください．   
-    <HelpItem lang="ja" type={"details"}>
-    <Fragment slot="problem">上記と異なった選択をしてしまった場合</Fragment>
-    <Fragment slot="solution">Officeアプリの利用中にエラーメッセージ（エラーコード：80180018など）が表示される場合があります．このエラーはUTokyo Accountの管理上の設定とOfficeアプリの動作が嚙み合わないために発生しているものであり，機器やその他のソフトウェア，保存されたデータなどに悪影響をもたらすものではないため，Officeアプリを問題なく利用できている状況であれば無視して構いません．一方で，このようなエラーメッセージがわずらわしい場合や，そもそもエラーによりOfficeアプリを利用することができない場合は，以下の手順を踏むことで上記の設定に修正し，このようなエラーの発生を防ぐことが可能です．</Fragment>
-    1. WordやExcelといったOfficeアプリを全て終了してください．
-    1. Windowsの「設定」アプリ（左下のWindowsマークのスタートメニューにある歯車マーク）を開いてください．
-    1. 設定メニューのうち，「アカウント」>「職場または学校へのアクセス」を選択してください．
-    1. 「職場または学校にアクセスする」の画面に，UTokyo Accountが表示されている場合は，「切断」を選択してください．
-    1. 改めてOfficeアプリへのサインインをお試しください．
+1. The same sign-in screen as during [installation](#install) will be displayed, so please sign in.
+1. If you are using a Windows device, you may see a dialog that says "Stay signed in to all apps." It has been confirmed that depending on the settings here, an error message may occur while using an Office app. To prevent this, please answer the following questions.
+    **Uncheck the box** that says "Allow my organization to manage my device." Next, if you want to automatically sign in to Microsoft systems other than Office apps (such as OneDrive) with your UTokyo Account, select "OK." If you only want to sign in to Office apps with your UTokyo Account, select "No, sign in to this app only."
+    <HelpItem lang="en" type={"details"}>
+    <Fragment slot="problem">If you make a different choice than above</Fragment>
+    <Fragment slot="solution">Error messages (error code: 80180018, etc.) may appear while using an Office app. This error occurs because the management settings for your UTokyo Account do not match the operation of the Office app, and does not have any adverse effects on your device, other software, or saved data, so you can ignore it if you are able to use the Office app without any problems. On the other hand, if you find such error messages annoying, or if you are unable to use the Office app due to an error in the first place, you can follow the steps below to correct the settings above and prevent such errors from occurring.</Fragment>
+    1. Please close all Office applications such as Word and Excel.
+    1. Please open the "Settings" app on Windows (the gear icon in the lower left of the start menu).
+    1. In the settings menu, select "Accounts" > "Access to work or school."
+    1. If "UTokyo Account" is displayed on the "Access to work or school" screen, please open the pull-down menu and select "Disconnect."
+    1. Please restart the Office app and sign in again.
     </HelpItem>
     ![](img/microsoft-install-signin-mdm.png){:.small}
-1. 右上の人型のアイコンをクリックし，UTokyo Accountでサインインしていることを確認してください．
+1. Please click the person icon in the upper right and check that you are signed in with UTokyo Account.
     ![](img/microsoft-install-signin-confirm.png){:.small}
-
-
