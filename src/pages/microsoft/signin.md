@@ -103,4 +103,3 @@ Microsoftアカウントごとに異なるブラウザを使用することで�
 - **Safari**：[MacのSafariでプロファイルを作成する](https://support.apple.com/ja-jp/guide/safari/ibrwf3a9e7d6/mac)
 - **Microsoft Edge**：[Microsoft Edge でサインインして複数のプロファイルを作成する](https://support.microsoft.com/ja-jp/topic/df94e622-2061-49ae-ad1d-6f0e43ce6435)
 - **Firefox**：[プロファイルマネージャーを使用して、Firefox のプロファイルを作成または削除する](https://support.mozilla.org/ja/kb/profile-manager-create-and-remove-firefox-profiles)
-
