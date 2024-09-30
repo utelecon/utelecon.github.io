@@ -35,7 +35,7 @@ You can view the information of the course participants in a list format on the 
 The following information can be viewed in the “Course participant list”.
 
 * **Authority**: The user’s authority will be displayed as one of the following four types: “Course Instructor”, “TA”, “Course Designer”, or “Enrolled Student”. If the user has both TA and enrolled student authorities, it will be displayed as “TA and enrolled student”.
-* **Category**: The user’s UTokyo Account indicates whether they are a student, a faculty member or a staff member. If the user has both student, and faculty or staff member UTokyo Accounts, it will be displayed as “Student/Faculty and staff.” Please note that this display does not reflect whether the user participates in the course as a student, a faculty member or a staff member.
+* **Category**: The user’s UTokyo Account indicates whether they are a student, a faculty member or a staff member. If the user’s UTokyo Account has both student, and faculty or staff member status, it will be displayed as “Student/Faculty and staff.” Please note that this display does not reflect whether the user participates in the course as a student, a faculty member or a staff member.
 * **Student ID/(User ID)**: If the user has a student ID number, this number will be displayed. If the user does not have a student ID number, a 10-digit number (the common ID number of users who log in with their UTokyo Accounts) will be displayed.
 * **Course Title**: The course titles that enrolled students have registered for will be displayed. If the [course group function](../course_group/) is applied, you can confirm the course titles students have registered for.
 * **Group Name**: When the user belongs to a [user group](../user_groups/), this group name will be displayed. If the user belongs to multiple groups, all group names will be displayed.
@@ -70,7 +70,7 @@ Please pay attention to the following points when registering course participant
 * Newly registered course participants in a course with existing content will have access to all the course’s content.
   * However, enrolled students cannot view contents that are not “Published target” for them and in the “Publication Period”.
   * Update notices will not be sent to participants for existing contents that became accessible, even after being registered as course participants.
-* Although it is possible for students to be registered with “Course Instructor” authority, but it is recommended that you register them with “TA” authority whenever possible.
+* Although it is possible for students to be registered with “Course Instructor” authority, it is recommended that you register them with “TA” authority whenever possible.
   * Most of the functions can be viewed and operated with “TA” authority, with the exception of enrolled student management and log checking.
 
 ### Search and Register
@@ -84,7 +84,7 @@ Please pay attention to the following points when registering course participant
     ![](search.png){:.medium}
 
     * When adding a user with a UTokyo Account categorized as a student, select “Search students”. When adding a faculty or a staff member, select “Search a faculty and staff”.
-    * A user whose UTokyo Account has the status of both “Faculty staff and Student” can be searched with both “Search student” and “Search faculty and staff”.
+    * A user whose UTokyo Account has the status of both “Faculty staff” and “Student” can be searched with both “Search student” and “Search a faculty and staff”.
 4. Enter the information of the user you wish to add, and search.
     * Search Students: You can search students by User ID, Student ID or Name.
     * Search faculty and staff: You can search faculty and staff by User ID and Name.
