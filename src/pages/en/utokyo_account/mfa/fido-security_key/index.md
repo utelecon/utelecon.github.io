@@ -32,7 +32,7 @@ FIDO is not available for some combinations of operating systems and browsers, s
 - iOS - Firefox
 - iOS - Safari
 
-For more information on available OS and browser combinations, please refer to Microsoft's "[Supported browsers](https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/fido2-compatibility#supported-browsers)" page．
+For more information on available OS and browser combinations, please refer to Microsoft's "[Supported browsers](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-fido2-compatibility#supported-browsers)" page．
 
 ## FIDO Security Key Registration Procedure
 
