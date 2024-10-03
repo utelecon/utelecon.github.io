@@ -31,11 +31,10 @@ export default function CopyAssetIntegration(): AstroIntegration {
               pathname === "/404"
                 ? join(fileURLToPath(dir), "404.html")
                 : join(fileURLToPath(dir), pathname);
-            if (parsePath(component).name == "index") {
-              path = join(path, "index.html");
-            } else {
-              path = path.replace(/(\.html)?$/, ".html");
-            }
+            path =
+              parsePath(component).name == "index"
+                ? join(path, "index.html")
+                : path.replace(/(\.html)?$/, ".html");
 
             const source = await read(path);
             const hast = parser.parse(source);
