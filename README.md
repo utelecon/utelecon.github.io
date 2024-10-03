@@ -127,7 +127,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - [前述](#srcpages以下のファイルを公開する)の通り，多くのページは`src/pages`以下でページのソースと画像をまとめて管理し，ソースの中ではファイルシステムの相対パスを用いて画像を参照しています．ファイルシステム上での相対パスとURL上での`/`で始まらない相対パスを対応させるには，上記のようなマッピングが必要です．
   - Astroには，このようなマッピングにする設定がありません．
 - 実装
-  - [`TrailingSlashIntegration`](src/lib/TrailingSlashIntegration.ts)で実現しています．ここでは，ビルド後に`src/pages`を参照しながら`dist`内のファイルパスを書き換えています．
+  - [`astro.config.ts`](astro.config.ts)で`format: "preserve"`を指定し，[`Layout.astro`](src/layouts/Layout.astro)で公開時のパスを状況に応じて書き換えることで実現しています．
 
 ### IAL (Inline Attribute List)
 
