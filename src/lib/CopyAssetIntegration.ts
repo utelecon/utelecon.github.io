@@ -8,6 +8,7 @@ import { selectAll } from "hast-util-select";
 import rehypeParse from "rehype-parse";
 import { read } from "to-vfile";
 import { unified } from "unified";
+import { parse as parsePath } from "path";
 
 const ORIGINS = [
   "https://utelecon.adm.u-tokyo.ac.jp",
@@ -26,10 +27,15 @@ export default function CopyAssetIntegration(): AstroIntegration {
         await Promise.all(
           routes.map(async ({ pathname, component }) => {
             if (!pathname || pathname.endsWith("/rss.xml")) return;
-            const path =
+            let path =
               pathname === "/404"
                 ? join(fileURLToPath(dir), "404.html")
-                : join(fileURLToPath(dir), pathname, "index.html");
+                : join(fileURLToPath(dir), pathname);
+            if (parsePath(component).name == "index") {
+              path = join(path, "index.html");
+            } else {
+              path = path.replace(/(\.html)?$/, ".html");
+            }
 
             const source = await read(path);
             const hast = parser.parse(source);
