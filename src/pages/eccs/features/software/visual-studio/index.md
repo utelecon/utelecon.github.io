@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Communityの利用について
 breadcrumb:
-  title: Visual Studio
+  title: Visual Studio Community
 ---
 
 ECCS端末のWindows環境には，Visual Studio Communityがインストールされています．
@@ -10,8 +10,6 @@ ECCS端末のVisual Studio Communityを利用するには，利用者自身の�
 
 なお，マイクロソフトアカウントをお持ちでない方は，[マイクロソフトアカウントの新規登録ページ](https://account.microsoft.com/)から作成できます．
 
-## 注意事項
+## ソフトウェアライセンスについて
 
-ECCS端末にてVisual Studio Communityを利用する場合，個人で取得したマイクロソフトアカウントでの利用であっても，[マイクロソフトソフトウェアライセンス条項](https://www.visualstudio.com/support/legal/mt171547)の「**組織ライセンス**」に該当します．
-
-なお，情報基盤センターは，ECCS端末においてVisual Studio Communityを個別のマイクロソフトアカウントにて**講義利用**することについて問題ないことを，マイクロソフトに確認済みです．
+ECCS端末のVisual Studio Communityにおいては，個人で取得したMicrosoftアカウントをサインインに利用する場合であっても，[マイクロソフトソフトウェアライセンス条項](https://www.visualstudio.com/support/legal/mt171547)の「**組織ライセンス**」での利用として扱われます．なお，情報基盤センターがマイクロソフトに確認したところによれば，ECCS端末でVisual Studio Communityを個人のMicrosoftアカウントで**講義利用**することは問題ありません．
