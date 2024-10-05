@@ -129,9 +129,10 @@ Please do not use the student or faculty staff search functions for purposes oth
     * Select either “Instructor”, “TA”, “Course Designer”, or “Enrolled Student” from the pull-down menu in the Authority field. If you would like to register as “TA and Enrolled Student”, please enter each authority in separate lines.
     * “Timetable Code” is an alphanumeric code displayed between the “course organization name” and the “course name” at the top page of the relevant course page.
     * If you try to register a user who is already registered for the course with the same authority, an error may occur depending on how the user was originally registered.
-        * An error will occur when trying to register a participant as the “Register instructor.”
-        * The registration method will be [updated to “Register instructor”](#update) when you try to register using “Self registration” or “Favorite users”.
-        * No error will occur when using the “Enrolled registration.” However, after the data is linked with the UTAS the following morning, the registration method will revert to “Enrolled registration.”
+      When the user is currently registered as:
+        * “Register instructor,” an error will occur.
+        * “Self registration” or “Favorite users,” the registration method will be [updated to “Register instructor.”](#update)
+        * “Enrolled registration,” no error will occur. However, after the data is linked with the UTAS the following morning, the registration method will revert to “Enrolled registration.”
 
 5. Select a file from “Reference” in the “Batch registration” field and upload it.
 
