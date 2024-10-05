@@ -6,9 +6,9 @@ breadcrumb:
 
 ECCS端末のWindows環境には，Visual Studio Communityがインストールされています．
 
-ECCS端末のVisual Studio Communityを利用するには，利用者自身のマイクロソフトアカウントでのサインインが必要です．起動後に開くサインイン画面で，ご自身のアカウントでサインインしてご利用ください．
+ECCS端末のVisual Studio Communityを利用するには，利用者自身のMicrosoftアカウントでのサインインが必要です．起動後に開くサインイン画面で，ご自身のアカウントでサインインしてご利用ください．
 
-なお，マイクロソフトアカウントをお持ちでない方は，[マイクロソフトアカウントの新規登録ページ](https://account.microsoft.com/)から作成できます．
+なお，Microsoftアカウントをお持ちでない方は，[Microsoftアカウントの新規登録ページ](https://account.microsoft.com/)から作成できます．
 
 ## ソフトウェアライセンスについて
 
