@@ -58,7 +58,7 @@ Possible use cases include the following:
 - When someone who is not a [Microsoft Office applications](#office_apps) user uses Office
 - When the Office app cannot be installed on the device due to permissions or other reasons
 
-For information on how to create and edit files on OneDrive using Microsoft Office Web Apps, please see **[Basic usage of OneDrive](.//onedrive/basic)**.
+For information on how to create and edit files on OneDrive using Microsoft Office Web Apps, please see **[Basic usage of OneDrive](./onedrive/basic)**.
 
 ### Teams
 {:#teams}
