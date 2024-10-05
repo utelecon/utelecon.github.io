@@ -202,6 +202,38 @@ pattern: "^\/utol\/"
 
 ルート直下のページ（`/utokyo_account/`，`/oc/`など）を除き，パンくずリストを表示するには，`breadcrumb`を記述した上位階層の親ページが必要です．子ページのみに`breadcrumb`を記述することはできません．
 
+#### 例：`/eccs/`以下のページにパンくずリストを表示する場合
+
+- ルート直下の親ページ`/eccs/`（`src/pages/eccs/index.mdx`）
+  ```md
+  ---
+  title: ECCS端末
+  breadcrumb:
+    title: ECCS端末
+  ---
+  ```
+  - ルート直下のページにはパンくずリストが表示されません.
+  - ただし,`breadcrumb`は子ページでパンくずリストを表示するために必須です．
+
+- 子ページ（`parent`を指定しない場合）`/eccs/support/`（`src/pages/eccs/support/index.mdx`）
+  ```md
+  ---
+  title: 問い合わせ先・窓口
+  breadcrumb:
+    title: 問い合わせ
+  ---
+  ```
+  - `parent`はデフォルトで`../`なので，`/eccs/`が親ページになります．
+
+- 子ページ（`parent`を指定することで，`/eccs/`を親ページにする場合）`/eccs/features/printing/`（`src/pages/eccs/features/printing/index.mdx`）
+  ```md
+  ---
+  title: 印刷
+  breadcrumb:
+    title: 印刷
+    parent: ../../
+  ---
+  ```
 
 ## For developers
 
