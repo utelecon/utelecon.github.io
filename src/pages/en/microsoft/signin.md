@@ -13,7 +13,7 @@ This page explains how to sign in to Microsoft systems using UTokyo Account.
 
 The University of Tokyo provides [UTokyo Microsoft License](./), which allows you to use Microsoft systems with UTokyo Account. If you are prompted to sign in to Microsoft systems using UTokyo Account, please follow the instructions in "[Sign in to Microsoft systems](#instruction)" below.
 
-If you are already signed in with a different Microsoft account and want to switch to UTokyo Account, please refer to "[Switching to UTokyo Account when signed in with a different Microsoft account](#switch_accounts)." In addition, the recommended method for using multiple Microsoft accounts in the same browser is explained in "[Using multiple Microsoft accounts in the same browser](#multiple_accounts)." Please refer to this section if you have two UTokyo Accounts, one for students and one for faculty and staff, or if you want to use your personal or other organization's Microsoft account in addition to UTokyo Account.
+If you are already signed in with a different Microsoft account and want to switch to UTokyo Account, please refer to "[Switching to UTokyo Account if signed in with a different Microsoft account](#switch_accounts)." In addition, the recommended method for using multiple Microsoft accounts in the same browser is explained in "[Using multiple Microsoft accounts in the same browser](#multiple_accounts)." Please refer to this section if you have two UTokyo Accounts, one for students and one for faculty and staff, or if you want to use your personal or other organization's Microsoft account in addition to UTokyo Account.
 
 For general information about UTokyo Microsoft License and details of available systems, please refer to "[UTokyo Microsoft License](./)."
 
@@ -46,7 +46,7 @@ When signing in to Microsoft systems using UTokyo Account, contrary to signing i
         - You cannot sign in with UTokyo Account on this sign-in page. If you see this screen even though the system supports signing in with UTokyo Account, please contact the [support desk](/en/support/).
     </details>
 
-## You are signed in with other Microsoft accounts and switch to using your UTokyo Account
+## Switching to UTokyo Account if signed in with a different Microsoft account
 {:#switch_accounts}
 
 This section explains the procedure for signing in to the Microsoft system with your UTokyo Account if you are already signed in with other Microsoft accounts.
