@@ -12,7 +12,7 @@ breadcrumb:
 ## Target Users
 {:#users}
 
-UTokyo Microsoft License is available to UTokyo members (students and faculty) with a UTokyo Account. However, the specific systems available through UTokyo Microsoft License vary depending on the student's enrollment or faculty registration. For [main available systems](#systems) with limited users, the target users are clearly stated in each section. Conversely, systems that are not specifically mentioned in terms of target users are available to all UTokyo Account holders.
+UTokyo Microsoft License is available to UTokyo members (students and faculty) with a UTokyo Account. However, the specific systems available through UTokyo Microsoft License vary depending on the student's enrollment or faculty registration. Some [main available systems](#systems) are restricted to a limited number of users, and the target users are clearly stated in each section. Conversely, systems that are not specifically mentioned in terms of target users are available to all UTokyo Account holders.
 
 ### When UTokyo Account Expires
 {:#expire}
@@ -29,7 +29,7 @@ Many systems available through UTokyo Microsoft License can be accessed via the 
 <details>
 <summary>Systems not listed here</summary>
 
-Microsoft provides systems other than those listed below, and it is possible to sign in and use them with your UTokyo Account. While we **do not guarantee continuous use** of these systems, we do not prevent their use under **your own responsibility**. Specific risks include the possibility that **a system that was previously available may suddenly become unavailable** due to changes in Microsoft's provision policy. In addition, we **may be unable to provide support** for these systems. Please keep these points in mind when using these systems. If you feel that a particular system is **especially** necessary for education, research, or work, please contact us using the [support form](/en/support/#email-form).
+Microsoft provides systems other than those listed below, and it is possible to sign in and use them with your UTokyo Account. While we **do not guarantee continuous use** of these systems, we do not prevent their use under **your own responsibility**. Specific risks include the possibility that **a system that was previously available may suddenly become unavailable** due to changes in Microsoft's provision policy. In addition, we **may be unable to provide support** for these systems. Please keep these points in mind when using these systems. If you feel that a particular system is **especially** necessary for education, research, or work, please contact us using the [email form of the utelecon support desk](/en/support/#email-form).
 </details>
 
 ### Microsoft Office applications
@@ -63,7 +63,7 @@ For information on how to create and edit files on OneDrive using Microsoft Offi
 ### Teams
 {:#teams}
 
-**Available only to faculty**
+**Available only to faculty and staff**
 
 Teams is an application that is used for chats, video meetings and so on. For the instruction of usage, please refer to **[UTokyo Microsoft Teams User Manual (written in Japanese only)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/%E3%80%8C%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%88_Microsoft_Teams%E5%88%A9%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%8820210311%EF%BC%89%E3%80%8D.pdf)** (accessible only to faculty and staff).
 
@@ -80,7 +80,7 @@ In November 2022, as part of our efforts to "utilize IT tools," in addition to t
 
 {:#email}
 
-**Available only to faculty**
+**Available only to faculty and staff**
 
 An email account with the domain `@mail.u-tokyo.ac.jp` is provided as a "staff email" (application required). For an explanation of the usage procedure, including how to apply, please see the **[Email System for Staff](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_system_for_staff.aspx)** page on the UTokyo Portal (accessible only to faculty and staff).
 
