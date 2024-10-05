@@ -13,16 +13,16 @@ This page explains how to sign in to Microsoft systems using UTokyo Account.
 
 The University of Tokyo provides [UTokyo Microsoft License](./), which allows you to use Microsoft systems with UTokyo Account. If you are prompted to sign in to Microsoft systems using UTokyo Account, please follow the instructions in "[Sign in to Microsoft systems](#instruction)" below.
 
-If you are already signed in with a different Microsoft account and want to switch to UTokyo Account, please refer to "[Switching to UTokyo Account when signed in with a different Microsoft account](#switch_accounts)". In addition, the recommended method for using multiple Microsoft accounts in the same browser is explained in "[Using multiple Microsoft accounts in the same browser](#multiple_accounts)". Please refer to this section if you have two UTokyo Accounts, one for students and one for faculty and staff, or if you want to use your personal or other organization's Microsoft account in addition to UTokyo Account.
+If you are already signed in with a different Microsoft account and want to switch to UTokyo Account, please refer to "[Switching to UTokyo Account when signed in with a different Microsoft account](#switch_accounts)." In addition, the recommended method for using multiple Microsoft accounts in the same browser is explained in "[Using multiple Microsoft accounts in the same browser](#multiple_accounts)." Please refer to this section if you have two UTokyo Accounts, one for students and one for faculty and staff, or if you want to use your personal or other organization's Microsoft account in addition to UTokyo Account.
 
-For general information about UTokyo Microsoft License and details of available systems, please refer to "[UTokyo Microsoft License](./)".
+For general information about UTokyo Microsoft License and details of available systems, please refer to "[UTokyo Microsoft License](./)."
 
 ## Sign in to Microsoft systems
 {:#instruction}
 
 This section explains how to sign in using your UTokyo Account if a screen appears requesting you to sign in to the Microsoft system.
 
-When signing in to Microsoft systems using UTokyo Account, contrary to signing in to other systems, you may encounter a sign-in screen that includes the Microsoft logo. In that case, please follow the steps below to sign in. On the other hand, if the screen is not as shown below but a normal sign-in screen (with a picture of Yasuda Auditorium) is displayed, please sign in following "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)".
+When signing in to Microsoft systems using UTokyo Account, contrary to signing in to other systems, you may encounter a sign-in screen that includes the Microsoft logo. In that case, please follow the steps below to sign in. On the other hand, if the screen is not as shown below but a normal sign-in screen (with a picture of Yasuda Auditorium) is displayed, please sign in following "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)."
 
 <figure class="gallery">
 <img src="img/microsoft-signin-instruction-1.png" class="medium center border">
