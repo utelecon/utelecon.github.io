@@ -176,3 +176,7 @@ prop `variant`の値によって，表示する要素が切り替わります．
 ### [`YouTube.astro`](embed/YouTube.astro)
 
 `@components/embed/YouTube.astro`は，YouTube動画を埋め込むためのコンポーネントです．prop `src` にYouTubeの埋め込み用URL（`https://www.youtube.com/embed/`から始まるURL）を渡すと，その動画が埋め込まれます．それ以外のprop（`title`など）を指定することもできます．
+
+```jsx
+<YouTube src="動画の埋め込み用URL" />
+```
