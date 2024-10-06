@@ -16,6 +16,4 @@ breadcrumb:
 
 <br />
 
-[Back to "How to use Webex"](.)
-
 [See "What is possible with Webex Events?"](do_events)

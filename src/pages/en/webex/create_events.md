@@ -50,7 +50,3 @@ You can attach materials to the webinar and share them with participants.
 * Participants can download the files from the page displayed when they click on the invitation URL through their browser.
 ![](img/webex_webinar_material_attendee1.png){:.border.medium}
 ![](img/webex_webinar_material_attendee2.png){:.medium.border}
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to use Webex</a>
