@@ -14,7 +14,6 @@ import { cleanup } from "./src/lib/CleanupIntegration.js";
 import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
 import copyAsset from "./src/lib/CopyAssetIntegration.js";
 import assetFileNames from "./src/lib/AssetFileNames.js";
-import rehypeRaw from "rehype-raw";
 
 // https://astro.build/config
 export default defineConfig({
@@ -49,19 +48,19 @@ export default defineConfig({
           allowNoPosition: true,
         },
       ],
+      collectHtmlImages,
     ],
     remarkRehype: {
       footnoteLabelProperties: { className: ["visually-hidden"] },
       footnoteLabelTagName: "b",
     },
-    rehypePlugins: [rehypeRaw, collectHtmlImages],
     shikiConfig: {
       theme: "min-light",
     },
   },
   scopedStyleStrategy: "where",
   integrations: [
-    mdx({ rehypePlugins: [] }),
+    mdx(),
     react(),
     redirect(),
     externalLinks({

@@ -1,19 +1,29 @@
-import type { Root } from "hast";
+import type { Root as HastRoot } from "hast";
 import { selectAll } from "hast-util-select";
+import type { Root as MdastRoot } from "mdast";
+import { visit } from "unist-util-visit";
+import parse from "rehype-parse";
 import type { MarkdownVFile } from "@astrojs/markdown-remark";
+import type { VFile } from "vfile";
+import { unified } from "unified";
 
 const ALLOWED_PREFIXES = ["/", "./", "../", "@"];
 
 export default function collectHtmlImages() {
-  return (node: Root, file: MarkdownVFile) => {
-    selectAll("img", node).forEach((img) => {
-      if (typeof img.properties?.src !== "string") return;
+  const parser = unified().use(parse);
 
-      const src = img.properties.src;
-      if (!ALLOWED_PREFIXES.some((prefix) => src.startsWith(prefix))) {
-        img.properties.src = `./${src}`;
-      }
-      file.data.imagePaths!.add(img.properties.src);
+  return (node: MdastRoot, file: VFile) => {
+    const imagePaths = ((file as MarkdownVFile).data.imagePaths ??= new Set());
+    visit(node, "html", (html) => {
+      selectAll("img", parser.parse(html.value)).forEach((img) => {
+        if (typeof img.properties?.src !== "string") return;
+
+        const src = img.properties.src;
+        if (!ALLOWED_PREFIXES.some((prefix) => src.startsWith(prefix))) {
+          img.properties.src = `./${src}`;
+        }
+        imagePaths.add(img.properties.src);
+      });
     });
   };
 }
