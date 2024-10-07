@@ -105,6 +105,11 @@
 
 ul.date_list {
   list-style-type: none;
+  margin-left: -1rem;
+
+  & > li {
+    padding-left: 1rem;
+  }
 }
 
 .date {
