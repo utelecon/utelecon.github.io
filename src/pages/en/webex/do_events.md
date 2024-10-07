@@ -91,7 +91,3 @@ Press "Q & A" to send a question to the host, presenter and panelist.
 
 * The left photo shows how the host's screen looks like, and the right photo is the participant's screen. Once the questions have been answered, both the questions and answers will be shared to all participants. People who participated in the event midway can also read the past Q & As.
 * You can choose to send questions to only the host, and not to the other participants of the meeting.
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to Use Webex</a>

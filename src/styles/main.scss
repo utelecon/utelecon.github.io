@@ -2,6 +2,9 @@
 
 :is(main) {
   word-wrap: break-word;
+  font-size: 1.125rem;
+  color: $text-color;
+  padding: 2rem 4rem;
 
   &:lang(ja) {
     text-align: justify;
@@ -14,9 +17,6 @@
   &:lang(en) {
     hyphens: auto;
   }
-
-  font-size: 1.125rem;
-  color: $text-color;
 
   @import "components/box";
   @import "components/card";
@@ -31,8 +31,6 @@
   @import "components/table";
   @import "components/top";
   @import "components/utils";
-
-  padding: 2rem 4rem;
 
   @media (min-width: 1024px) {
     max-width: 64rem;

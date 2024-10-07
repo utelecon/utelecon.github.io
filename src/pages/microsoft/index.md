@@ -74,7 +74,10 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 
 2022年11月に，「ITツールの利活用」の取り組みの一環として，事務組織の階層構造に基づく従来までの「チーム」に加えて，任意のメンバーで構成可能な「チーム」の利用が可能になりました（要申請）．マニュアル類に関しては以下をご覧ください（教職員のみアクセス可）．
 - **[Teams管理者マニュアル](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/Teams%E7%AE%A1%E7%90%86%E8%80%85%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB.pdf)**（東京大学における「チーム」機能の立ち位置に関する説明を含んだ，チームの管理者向けのマニュアル）
-- **[Teamsチーム　リファレンス](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/IT_Tool_001/Teams%E3%83%81%E3%83%BC%E3%83%A0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9.pdf)**（「チーム」機能に関する詳細なマニュアル）
+- **[Teamsチームの作成と運用について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx )**
+- **[Teamsチームフォルダについて](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Share_Teams_files.aspx )**
+- **[Teamsチームフォルダ　ストレージ容量変更アプリについて](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Teams_Change_Storage_Limit.aspx)**
+
 
 ### 職員メール
 {:#email}

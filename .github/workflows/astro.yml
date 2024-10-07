@@ -10,6 +10,7 @@ on:
 
 # Allow this job to clone the repo and create a page deployment
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -26,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
       - name: Setup node_modules Cache
@@ -43,9 +44,12 @@ jobs:
       - name: Build
         run: |
           npm run build
+      - name: Check unused assets
+        run: |
+          npm run unused-asset
 
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
@@ -58,4 +62,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4

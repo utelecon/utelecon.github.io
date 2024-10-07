@@ -11,13 +11,7 @@ breadcrumb:
 1. If the TV Conference is requiring to answer a Password, you may hear the announcement to fill in the form. Participants input the Password from organizers. After pressing the meeting number, please press #. 
     * If the TV conference is not open, the conference automatically is cut off.
 
-
-
-
-
 <br>
-<br>
-<a href="index" target="_blank">Go back to How to Use WeBex</a>
 
 <a href="do_webex" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)</a>
 <br>

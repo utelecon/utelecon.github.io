@@ -23,8 +23,8 @@ export default async function resolveBreadcrumb(
   // ディレクトリが動的なimportは利用できないため，独自にparseしている
   async function getParent(pathname: string) {
     const path = [
-      `./src/pages${pathname}/index.md`,
-      `./src/pages${pathname}/index.mdx`,
+      `./src/pages${pathname}index.md`,
+      `./src/pages${pathname}index.mdx`,
     ].find(existsSync);
     if (!path) return null;
 
@@ -39,7 +39,10 @@ export default async function resolveBreadcrumb(
       pathname: url.pathname,
     });
 
-    url = new URL(breadcrumb.parent ?? "..", url);
+    url = new URL(
+      breadcrumb.parent ?? (url.pathname.endsWith("/") ? ".." : "."),
+      url,
+    );
     if (url.pathname === "/" || url.pathname === "/en/") break;
 
     const parent = await getParent(url.pathname);

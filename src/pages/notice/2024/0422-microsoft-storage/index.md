@@ -4,7 +4,7 @@ title: UTokyo Accountで利用するOneDrive等の容量制限について（第
 
 <div style="text-align: right;">
   発出: 2024年4月22日<br>
-  更新: 2024年7月22日
+  更新: 2024年9月24日
 </div>
 
 UTokyo Account 利用者各位
@@ -36,7 +36,7 @@ Microsoft社によりMicrosoft 365 for Educationクラウドストレージの�
 
 ## 2024年8月1日：UTokyo Accountをお持ちの方全員のストレージ上限が縮小
 
-2024年8月1日から，東京大学全体で使用できるストレージの総量が大幅に縮小されます．これに伴い，学生・教職員を含むUTokyo Accountをお持ちの方全員について，OneDrive及び，職員メールの利用上限をそれぞれ50GBに縮小します．50GB以上のストレージ利用を行っている方はファイルの追加や編集ができなくなりますので，データ整理の準備を行っていただきますようお願いいたします．OneDriveは容量の拡張ができませんので，必要な容量が不足する場合は後述の「[学内で提供されているストレージ関連サービス](#services)」の利用をご検討ください．
+2024年8月1日から，東京大学全体で使用できるストレージの総量が大幅に縮小されます．これに伴い，学生・教職員を含むUTokyo Accountをお持ちの方全員について，OneDrive及び，職員メールの利用上限をそれぞれ50GBに縮小します．50GB以上のストレージ利用を行っている方はファイルの追加や編集ができなくなりますので，データ整理の準備を行っていただきますようお願いいたします．OneDriveは有償での容量の拡張が可能です．詳しくはUTokyo Portalに掲載している「[​​​​​​OneDriveのストレージ容量拡張申請について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/OneDrive_Change_Storage_Limit.aspx)」（教職員限定）をご覧ください．また学生でも，予算を持つ教職員の許可があればOneDriveの容量の拡張が可能ですので，指導教員等にご相談ください．
 
 <details>
 <summary>データ使用量を確認する方法</summary>
@@ -87,12 +87,13 @@ Google WorkspaceのサービスとしてGoogleドライブを100GBまで費用�
 
 ## 参考URL  
 
-[OneDriveの利用方法](https://utelecon.adm.u-tokyo.ac.jp/microsoft/onedrive/)
+[OneDriveの利用方法](/onedrive/)
 
 ## 更新履歴
 
 - 2024年7月12日：今後の予定やOneDriveの容量確認方法などを追記
 - 2024年7月22日：Microsoft Teams(SharePoint)の記述を一部修正
+- 2024年9月24日：OneDriveのストレージ容量拡張申請について追記
 
 ## 本件に関する問い合わせ先
 

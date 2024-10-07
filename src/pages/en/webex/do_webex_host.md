@@ -165,8 +165,3 @@ When hosting a highly confidential meeting, you may lock the meeting to prevent 
 ![](img/webex_slido_do_host_qa.png){:.border}
    * You can answer and manage questions using the Q&A tab.
    * Basic operations are the same as that of the web version of Slido.
-
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to use Webex</a>
