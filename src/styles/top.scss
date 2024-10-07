@@ -4,13 +4,13 @@
 .largecards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  @media (max-width: 896px) {
-    grid-template-columns: repeat(1, 1fr);
-  }
   grid-auto-rows: 12em;
   grid-gap: 1em;
   margin: 1em 0;
   padding: 0;
+  @media (max-width: 896px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   & > &__card {
     display: flex;
@@ -46,10 +46,10 @@
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
   @media (max-width: 1024px) {
     grid-template-columns: repeat(1, 1fr);
   }
-  grid-gap: 2em;
 
   &__column > .cards {
     grid-template-columns: repeat(1, 1fr);
