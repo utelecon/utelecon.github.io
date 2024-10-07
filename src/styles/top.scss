@@ -24,7 +24,7 @@
       align-items: center;
       padding: 1em 4em 1em 1em;
       @media (max-width: 896px) {
-        padding: 1em;
+        padding: 1em 2em 1em 1em;
       }
 
       &::after {
@@ -114,5 +114,6 @@ ul.date_list {
 
 .date {
   margin-left: -1rem;
+  font-size: large;
   font-weight: bold;
 }
