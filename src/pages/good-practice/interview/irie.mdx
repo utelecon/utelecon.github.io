@@ -14,14 +14,16 @@ componentProps:
   tools: "ITC-LMS, Zoom, Microsoft OneNote"
 ---
 
+import YouTube from "@components/embed/YouTube.astro";
+
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2020-11-18/">オンライン授業情報交換会「第20回 学生の声を活かした授業設計の工夫」</a>にて，入江先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>
 
 ## 授業の基本情報
 
-授業名　　:　数理統計 I（S1）、II（S2）<br>
-開講部局　:　経済学部<br>
-対象　　　:　学部生<br>
-学生数　　:　数理統計 I 　約 200 名、数理統計 II 　約 150 名<br>
+授業名　　:　数理統計 I（S1）、II（S2）<br />
+開講部局　:　経済学部<br />
+対象　　　:　学部生<br />
+学生数　　:　数理統計 I 　約 200 名、数理統計 II 　約 150 名<br />
 形態　　　:　全てリアルタイム
 利用したツール　:
 
@@ -31,16 +33,7 @@ componentProps:
 
 ## 教員の基本情報
 
-<div style="display: flex;">
-<img src="img/irie_1.jpg" alt="入江 薫 先生" height="150">
-<div style="padding-left:50px; height:150px; position:relative;">
-<p style="position: absolute; top: 50%; -webkit-transform : translateY(-50%); transform : translateY(-50%); width: 500px;">
-入江 薫 先生<br>
-経済学研究科<br>
-講師<br>
-</p>
-</div>
-</div>
+<div style="display: flex;">![入江 薫 先生](img/irie_1.jpg){:height="150px"}<div style="padding-left:50px; height:150px; position:relative;"><p style="position: absolute; top: 50%; -webkit-transform : translateY(-50%); transform : translateY(-50%); width: 500px;">入江 薫 先生<br />経済学研究科<br />講師<br /></p></div></div>
 
 ## 学生のコメント: この授業が良かった理由
 
@@ -67,9 +60,7 @@ componentProps:
 
 音声を配信するのに用いていたノート PC とは別に、Microsoft Surface を用いて専用のタッチペン（別売）で板書しました。２端末で Zoom に入室し、ノート PC をホスト、Surface を共同ホストに設定して、画面共有機能を使って配信する形式です。OneNote を使うのはこれが初めてでしたが、すぐにある程度使いこなすことができました。手書きとは感覚が異なるので、多少の慣れが必要だったくらいです。特定部分を指示するために指差しができないのは不便でしたが、マーカー機能で代用しました。
 
-<div style="padding:56.25% 0 0 0;position:relative;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/wOnLs_zwJho" title="2020年度Sセメスター グッドプラクティスの共有｜入江薫先生　数理統計I・II｜Microsoft SurfaceのOneNoteを用いた数式の板書｜utelecon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<YouTube src="https://www.youtube.com/embed/wOnLs_zwJho" title="2020年度Sセメスター グッドプラクティスの共有｜入江薫先生　数理統計I・II｜Microsoft SurfaceのOneNoteを用いた数式の板書｜utelecon" />
 
 <div style="text-align: center;">
 公開された授業の録画。色を使い分かりやすい板書がなされています
@@ -99,12 +90,7 @@ componentProps:
 
 アンケートには自由記述欄を設けていたのですが、授業形態について、板書の形式がありがたいというコメントが非常に多くありました。数学的な内容であるため、スライドでの説明だけだと理解しづらく、辛いのだそうです。これを受け、S2 タームも板書中心で続けていこうと決めました。
 
-<div style="margin:40px 0px">
-<img src="img/irie_3.png" alt="" width="600px" style="display: block; margin : 0 auto">
-<div style="text-align: center;">
-アンケート結果
-</div>
-</div>
+<div style="margin:40px 0px">![](img/irie_3.png){:style="display: block; margin : 0 auto"}<div style="text-align: center;">アンケート結果</div></div>
 
 ### 授業の録画配信を行った
 
