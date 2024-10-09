@@ -8,7 +8,7 @@ This page describes the following procedures regarding [UTokyo Account Multi-Fac
 
 - **Reregister Verification Method**: In case you lose access to all verification methods and are unable to sign in to the UTokyo Account, we can take measures to allow you to retry the registration process for MFA all over again and keep using MFA.
     - Check if any of your verification methods can be used beforehand as described below. Please follow the procedures only if all verification methods are no longer available.
-- **Terminate** MFA Use: If you wish to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password, please follow this procedure. We strongly ask all users to use  MFA for security reasons, but we can take measures to terminate MFA use for unavoidable circumstances. Be aware that after terminating MFA, you cannot use [UTokyo VPN](/en/utokyo_vpn/) and [UTokyo Slack](/en/slack/), which requires the use of MFA.
+- **Terminate** MFA Use: If you wish to disable MFA and reverse your UTokyo Account settings to allow signing in with only a password, please follow this procedure. We strongly ask all users to use  MFA for security reasons, but we can take measures to terminate MFA use for unavoidable circumstances. Be aware that after terminating MFA, some information systems will become unavailable, and the password expiration date for your UTokyo Account will also be affected.
 
 The “Reregistering Verification Method” procedure was renamed from the “Resetting” procedure in September 2022.
 
@@ -48,7 +48,7 @@ We ask you to continue using MFA for security reasons, but, for unavoidable circ
 1. The MFA for your account will be terminated. A notification email will be sent after a while.
 1. You can now sign in to your UTokyo Account with only a password. It will take approximately a maximum of 40 minutes for the termination to be reflected in the system, so please wait for a while.
 
-After terminating MFA use, some information systems will become unavailable.
+After terminating MFA use, some information systems will become unavailable. Moreover, the password validity period for your UTokyo Account will expire 31 days after you terminate the use of multi-factor authentication, because the password validity period for a UTokyo Account differs depending on if you are using multi-factor authentication or not.
 
 ## Application
 {:#application-method}
