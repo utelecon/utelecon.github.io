@@ -42,11 +42,11 @@ During this procedure, **you are strongly recommended to register multiple verif
 ### Terminate MFA Use
 {:#terminate}
 
-We ask you to continue using MFA for security reasons, but, for unavoidable circumstances, we can take measures to terminate MFA use and reverse your UTokyo Account settings to allow signing in with only a password. Please follow the instructions below.
+We ask everyone to use MFA for security reasons, but if you have unavoidable circumstances, we will accept your request to terminate the use of MFA and reverse your UTokyo Account settings to allow signing in with only a password. Please follow the instructions below.
 
 1. Please apply for termination by following the procedures in “[Application](#application-method)”.
-1. The MFA for your account will be terminated. A notification email will be sent after a while.
-1. You can now sign in to your UTokyo Account with only a password. It will take approximately a maximum of 40 minutes for the termination to be reflected in the system, so please wait for a while.
+2. The MFA for your account will be terminated. A notification email will be sent after a while.
+3. You can now sign in to your UTokyo Account with only a password. It will take approximately a maximum of 40 minutes for the termination to be reflected in the system, so please wait for a while.
 
 After terminating MFA use, some information systems will become unavailable. Moreover, the password validity period for your UTokyo Account will expire 31 days after you terminate the use of multi-factor authentication, because the password validity period for a UTokyo Account differs depending on if you are using multi-factor authentication or not.
 
