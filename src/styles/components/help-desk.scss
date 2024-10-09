@@ -1,0 +1,60 @@
+.help-desk-list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  & > li {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.help-desk-list-button {
+  display: block;
+  width: 100%;
+  border: 1px solid $heading-color;
+  border-bottom-width: 4px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+  h4 {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: inherit;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: $black-gray;
+    &::after {
+      display: block;
+      content: "arrow_forward_ios";
+      text-align: right;
+      font-family: "Material Icons";
+      font-weight: bold;
+      color: $heading-color;
+      hyphens: initial;
+    }
+  }
+  &:hover {
+    background-color: $heading-color;
+    color: white;
+    transition: all 0.2s ease;
+    &:link {
+      text-decoration: none;
+    }
+    h4, div {
+      color: white;
+      transition: all 0.2s ease;
+      &::after {
+        color: white;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+}
