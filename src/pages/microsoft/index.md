@@ -14,10 +14,10 @@ UTokyo Microsoft Licenseとは，Microsoftの提供するシステムをUTokyo A
 
 UTokyo Microsoft Licenseは，UTokyo Accountを持つ東京大学の構成員（学生および教職員）に付与されます．ただし，UTokyo Microsoft Licenseで具体的に利用可能なシステムは学籍や人事上の登録によって異なります．[利用可能な主なシステム](#systems)のうち，利用対象者が限定されているシステムについてはそれぞれの節で対象者を明示しています．逆に，挙げられているシステムのうち対象者についての記載がないものは，UTokyo Accountを持つ全員が使えるシステムです．
 
-### UTokyo Accountが失効した場合
+### 離籍・所属変更の際の注意点
 {:#expire}
 
-離籍や所属変更によって UTokyo Account が失効した場合，UTokyo Microsoft Licenseのシステムは利用できなくなります．これに伴い，[OneDrive](#onedrive)に保存されたデータなどの関連するデータはすべて失われます．離籍や所属変更の前には，[卒業・退職や所属変更によるアカウント失効についての注意](/systems/leave/)を確認のうえデータのバックアップを取ってください．
+離籍によりUTokyo Accountが失効した場合，UTokyo Microsoft Licenseのシステムは利用できなくなります．これに伴い，[OneDrive](#onedrive)に保存されたデータなどの関連するデータはすべて失われます．また，学生から教職員になる場合など所属変更に伴って，Officeアプリなど，所属により利用可否が異なる機能が使えなくなる可能性があります．離籍や所属変更の前には，[卒業・退職や所属変更によるアカウント失効についての注意](/systems/leave/)を確認のうえデータのバックアップを取ってください．
 
 ## 利用可能な主なシステム
 {:#systems}
