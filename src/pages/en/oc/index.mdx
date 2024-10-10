@@ -11,13 +11,27 @@ redirect_from:
 
 import UTokyoAccountChangePassword from '@components/en/systems/utokyo_account/ChangePassword.mdx'
 import UTokyoAccountMFA from '@components/en/systems/utokyo_account/MFA.mdx'
-import Utas from "@components/en/systems/utas/index.mdx";
-import Utol from "@components/en/systems/utol/index.mdx";
-import UTokyoWiFi from "@components/en/systems/utokyo_wifi/index.mdx";
-import Zoom from "@components/en/systems/zoom/index.mdx";
-import EccsCloudEmail from "@components/en/systems/eccs_cloud_email/index.mdx";
-import Microsoft from "@components/en/systems/microsoft/index.mdx";
-import Eccs from "@components/en/systems/eccs/index.mdx";
+import UtasLogin from "@components/en/systems/utas/Login.mdx";
+import UtasConfirmEmail from "@components/en/systems/utas/ConfirmEmail.mdx";
+import UtolLogin from "@components/en/systems/utol/Login.mdx";
+import UTokyoWiFiApply from "@components/en/systems/utokyo_wifi/Apply.mdx";
+import UTokyoWiFiConnect from "@components/en/systems/utokyo_wifi/Connect.mdx";
+import ZoomSigninBrowser from "@components/en/systems/zoom/SigninBrowser.mdx";
+import ZoomInstallAppPc from "@components/en/systems/zoom/InstallAppPc.mdx";
+import ZoomInstallAppSp from "@components/en/systems/zoom/InstallAppSp.mdx";
+import ZoomSigninApp from "@components/en/systems/zoom/SigninApp.mdx";
+import ZoomJoinApp from "@components/en/systems/zoom/JoinApp.mdx";
+import ZoomJoinBrowser from "@components/en/systems/zoom/JoinBrowser.mdx";
+import EccsCloudEmailConfigure from "@components/en/systems/eccs_cloud_email/Configure.mdx";
+import EccsCloudEmailLogin from "@components/en/systems/eccs_cloud_email/Login.mdx";
+import EccsCloudEmailAccess from "@components/en/systems/eccs_cloud_email/Access.mdx";
+import EccsCloudEmailLoginSp from "@components/en/systems/eccs_cloud_email/LoginSp.mdx";
+import EccsCloudEmailUseMail from "@components/en/systems/eccs_cloud_email/UseMail.mdx";
+import MicrosoftSignin from "@components/en/systems/microsoft/Signin.mdx";
+import MicrosoftAccess from "@components/en/systems/microsoft/Access.mdx";
+import MicrosoftInstallApps from "@components/en/systems/microsoft/InstallApps.mdx";
+import EccsApply from "@components/en/systems/eccs/Apply.mdx";
+import EccsLogin from "@components/en/systems/eccs/Login.mdx";
 import InformationSecurity from "@components/en/InformationSecurity.mdx";
 
 ## Greetings
@@ -136,28 +150,56 @@ Please check the “[大学生活に必要な情報システムの準備につ�
 
 <p>{ about_utas }</p>
 
-<Utas variant="oc" />
+- **Exercise: Login**
+    <UtasLogin variant="oc" support />
+- **Check: Make sure your email address is registered**
+    <UtasConfirmEmail support />
 
 ### UTOL (UTokyo LMS)
 {:#utol}
 
 <p>{ about_utol }</p>
 
-<Utol variant="oc" />
+- **Check: Login to UTOL**
+  <UtolLogin support />
+- **Optional task: Linking UTOL with email / LINE / Slack notification**
+
+  You can receive notifications via email, LINE, or [UTokyo Slack](/en/slack/) when there are updates to your courses. See "Setting notifications on UTOL" page (in preparation) for procedures.
+{:.procedure}
 
 ### UTokyo Wi-Fi
 {:#utokyo_wifi}
 
 This is a campus-wide Wi-Fi service. It provides access to databases and e-journals that are only available on campus. In order to use UTokyo Wi-Fi, you must first enable multi-factor authentication on your UTokyo Account, complete an information security training course, and create a UTokyo Wi-Fi account.
 
-<UTokyoWiFi variant="oc" />
+- **Task: Apply for an account**
+  <UTokyoWiFiApply utasOnly support />
+- **Task: Try connecting**
+  <UTokyoWiFiConnect
+    applyStep="the step above"
+    connectConfiguration={<a href="/en/utokyo_wifi/#connect-configuration">"Connect Configuration" section on UTokyo Wi-Fi page</a>}
+    support
+  />
 
 ### Zoom
 {:#zoom}
 
 <p>{ about_zoom }</p>
 
-<Zoom variant="oc" />
+- [Procedure Video (in Japanese)](/oc/movies#zoom)
+- **Check: Sign in**
+  <ZoomSigninBrowser support />
+- **Task: Install the application on your computer** (It is assumed that you will primarily participate using the PC app. If the Zoom app is not installed, please install it.)
+  <ZoomInstallAppPc support />
+- **Optional task: Install the application on your smartphone** (this is not mandatory but useful in case of emergencies)
+  <ZoomInstallAppSp support />
+- **Optional Task: Sign in to the application** (useful for people who have opportunities to host meetings)
+  <ZoomSigninApp support />
+- **Check: Try joining a meeting room dedicated to UTokyo account using the app** (Try using the actual device you plan to use in class. It is also a good idea to try this on your smartphone as well as your computer as a backup.)
+  <ZoomJoinApp support />
+- **Check: Try joining a meeting room dedicated to UTokyo account from your browser** (Try using the actual device you plan to use in class. It is also a good idea to try this on your smartphone as well as your computer as a backup.)
+  <ZoomJoinBrowser support />
+{:.procedure}
 
 ### ECCS Cloud Email (Google Workspace)
 {:#google}
@@ -166,21 +208,40 @@ This is a campus-wide Wi-Fi service. It provides access to databases and e-journ
 
 Additionally, you can set the part before the @ in the University of Tokyo e-mail address `xxxx@g.ecc.u-tokyo.ac.jp` on your own. If you have not set, "10-digit common ID+`@g.ecc.u-tokyo.ac.jp`" will be your e-mail address.
 
-<EccsCloudEmail variant="oc" />
+- **Task: Set your preferred email address**
+  <EccsCloudEmailConfigure support />
+- **Check: Log in**
+  <EccsCloudEmailLogin support />
+- **Check: Make sure you can access UTokyo member-only pages**
+  <EccsCloudEmailAccess support />
+- **Optional task: Log in on your smartphone** (for users of Gmail or other Google apps)
+  <EccsCloudEmailLoginSp support />
+- **Exercise: Use your email** (You can use your email address `xxxx@g.ecc.u-tokyo.ac.jp` in Gmail)
+  <EccsCloudEmailUseMail support />
 
 ### UTokyo Microsoft License
 {:#microsoft}
 
 <p>{ about_microsoft }</p>
 
-<Microsoft variant="oc" />
+- [Procedure video (in Japanese)](/oc/movies#microsoft)
+- **Check: Sign in**
+  <MicrosoftSignin support />
+- **Check: Make sure you can access UTokyo member-only pages**
+  <MicrosoftAccess support />
+- **Optional task: Install Word or Excel on your computer** (you can use the one you have already installed)
+  <MicrosoftInstallApps support />
+{:.procedure}
 
 ### ECCS terminals
 {:#eccs}
 
 <p>{ about_eccs }</p>
 
-<Eccs variant="oc" />
+- **Task: Apply for system user permission**
+  <EccsApply support />
+- **Exercise: Log in**
+  <EccsLogin support />
 
 ## Others
 
