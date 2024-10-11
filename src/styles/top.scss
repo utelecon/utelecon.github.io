@@ -117,3 +117,16 @@ ul.date_list {
   font-size: large;
   font-weight: bold;
 }
+
+#notice {
+  position: relative;
+  .rss_icon {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    color: $heading-color;
+    font-family: "Material Icons";
+    font-size: 1.125em;
+    text-decoration: none;
+  }
+}
