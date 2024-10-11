@@ -1,12 +1,17 @@
 ---
-title: 9/19 15:00から教育用計算機システム(ECCS)のシステム利用説明会を開催いたします．
+title: 9/19 15:00から教育用計算機システム(ECCS)のシステム利用説明会を開催しました 
 ---
 
 
 <div style="text-align: right;">
 <span>2024年08月26日</span><br />
+<span>2024年09月24日(更新)</span><br />
 <span>情報基盤センター</span><br />
 </div>
+
+## 資料，動画
+以下の説明会は終了しました． 当日使った説明会の資料(当日の動画含む)を大学内限定 (ECCSクラウドメールのアカウントでのログインが必要) でGoogle Drive上に置きます．
+- [説明会資料](https://docs.google.com/document/d/1Gk9h4LNQUEazamVfqP9f2VEabqxOI-ShhQhqxOtwzZk/edit?usp=sharing)
 
 ## 開催趣旨
 
