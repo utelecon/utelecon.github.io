@@ -44,7 +44,7 @@ The following information can be viewed in the “Course participant list”.
   * Register instructor: This indicates that the user was registered for a course by the course instructor or the course designer.
   * Enrolled Registration: This indicates that the course the student registered for through the UTAS has been automatically linked, resulting in their enrollment. Please note that the course registration through the UTAS will be reflected in UTOL the next morning after the registration.
   * Manage Attendance: This indicates that enrolled students have been registered by a batch registration of attendance.
-  * Favorite users: This indicates that students have been registered in the corresponding UTOL course as a result of adding “Favorite” to the syllabus of the UTAS. Please note that adding the course to Favorite in the UTAS will be reflected in UTOL the next morning after the operation. In addition, if the student has clicked “Add to Favorites” on the syllabus of the UTAS, and has also registered for the course in the UTAS, it will be displayed as “Enrolled Registration”.
+  * Favorite registration: This indicates that students have been registered in the corresponding UTOL course as a result of adding “Favorite” to the syllabus of the UTAS. Please note that adding the course to Favorite in the UTAS will be reflected in UTOL the next morning after the operation. In addition, if the student has clicked “Add to Favorites” on the syllabus of the UTAS, and has also registered for the course in the UTAS, it will be displayed as “Enrolled Registration”.
   * System registration: This indicates that the course instructor has registered the student as a course participant as a result of linking the registered information with the UTAS.
 
 ### How to check the list
@@ -131,7 +131,7 @@ Please do not use the student or faculty staff search functions for purposes oth
     * If you try to register a user who is already registered for the course with the same authority, an error may occur depending on how the user was originally registered.
       When the user is currently registered as:
         * “Register instructor,” an error will occur.
-        * “Self registration” or “Favorite users,” the registration method will be [updated to “Register instructor.”](#update)
+        * “Self registration” or “Favorite registration,” the registration method will be [updated to “Register instructor.”](#update)
         * “Enrolled registration,” no error will occur. However, after the data is linked with the UTAS the following morning, the registration method will revert to “Enrolled registration.”
 
 5. Select a file from “Reference” in the “Batch registration” field and upload it.
@@ -157,9 +157,9 @@ In addition to cancellation [due to deletion of course participants](#delete), c
 
 * When users who registered using “Self-registration” cancel their registration through UTOL, or when the registration period ends.
 * When users who registered using “Course registration” cancel through UTAS.
-* When users who registered using “Favorite users” cancel through UTAS, or when the registration period ends.
+* When users who registered using “Favorite registration” cancel through UTAS, or when the registration period ends.
 
-To prevent the registration of course participants from being canceled for these reasons, you need to switch the registration method from “Self-registration”, “Course registration”, or “Favorite users” to “Register instructor”, using the function “Switch.”
+To prevent the registration of course participants from being canceled for these reasons, you need to switch the registration method from “Self-registration”, “Course registration”, or “Favorite registration” to “Register instructor”, using the function “Switch.”
 
 You can update the method of registration of course participants with the “Switch” button in the operation column at the right side of the “Course participants list” on the Course participant registration page.
 
