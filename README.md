@@ -23,9 +23,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
 - `author`：記事の著者をページ下部に表示する．
   - `affiliation`：所属．`author`を指定する場合は必須．`oes`とすると[OESの説明ページ](https://utelecon.adm.u-tokyo.ac.jp/about/oes)へのリンクが表示される．
   - `name`：著者名．任意．
-- `breadcrumb`：ページ上部のパンくずリストを定義する．
-  - `title`：パンくずリストのそのページ自身の部分のタイトル．`breadcrumb`を指定する場合は必須．親との差分だけを書く．
-  - `parent`：親ページ．任意．デフォルトは`../`．これを辿っていくことでパンくずリストを構成する．
+- `breadcrumb`：ページ上部のパンくずリストを定義する．詳しくは[後述](#パンくずリストの表示)．
 - `redirect_from`・`redirect_to`：リダイレクトの設定．詳しくは[後述](#redirect_from--redirect_to)．
 
 ## Scripts
@@ -194,6 +192,48 @@ pattern: "^\/utol\/"
 - `pattern`には正規表現を文字列で指定してください．
 - `^\/utol\/$`のようにすると，`/utol/`のみに緊急のお知らせを掲載できます．
 - 同じページのパスに2つ以上の緊急のお知らせがマッチする場合，ファイル名の辞書順で同時に掲載されます．ファイル名は実際のサイトには表示されないため，適宜変更して問題ありません．
+
+### パンくずリストの表示
+
+`breadcrumb`をMarkdownのfrontmatterに記述することで，ページ上部にパンくずリストを表示することができます．
+
+- `title`：パンくずリストのそのページ自身の部分のタイトル．`breadcrumb`を指定する場合は必須．親との差分だけを書く．
+- `parent`：親ページ．任意．デフォルトは`../`．これを辿っていくことでパンくずリストを構成する．
+
+ルート直下のページ（`/utokyo_account/`，`/oc/`など）を除き，パンくずリストを表示するには，`breadcrumb`を記述した上位階層の親ページが必要です．子ページのみに`breadcrumb`を記述することはできません．
+
+#### 例：`/eccs/`以下のページにパンくずリストを表示する場合
+
+- ルート直下の親ページ`/eccs/`（`src/pages/eccs/index.mdx`）
+  ```md
+  ---
+  title: ECCS端末
+  breadcrumb:
+    title: ECCS端末
+  ---
+  ```
+  - ルート直下のページにはパンくずリストが表示されません.
+  - ただし,`breadcrumb`は子ページでパンくずリストを表示するために必須です．
+
+- 子ページ（`parent`を指定しない場合）`/eccs/support/`（`src/pages/eccs/support/index.mdx`）
+  ```md
+  ---
+  title: 問い合わせ先・窓口
+  breadcrumb:
+    title: 問い合わせ
+  ---
+  ```
+  - `parent`はデフォルトで`../`なので，`/eccs/`が親ページになります．
+
+- 子ページ（`parent`を指定することで，`/eccs/`を親ページにする場合）`/eccs/features/printing/`（`src/pages/eccs/features/printing/index.mdx`）
+  ```md
+  ---
+  title: 印刷
+  breadcrumb:
+    title: 印刷
+    parent: ../../
+  ---
+  ```
 
 ## For developers
 
