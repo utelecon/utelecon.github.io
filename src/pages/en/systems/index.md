@@ -32,17 +32,17 @@ Please also refer to the following.
 - **[UTokyo Microsoft Azure Dev Tools for Teaching](/en/microsoft/adt4t/)**: This service provides Microsoft developer software for educational use.
 - **[UTokyo Antivirus License](/antivirus/)** (in Japanese): This comprehensive antivirus software license is provided for faculty and students. The University of Tokyo requires "[appropriate virus protection](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html) (in Japanese)" for computers, as stated in the "Information Ethics and Computer Use Guidelines". Please use this software as part of your virus protection measures.
 
-## 学内システム全般
+## University-wide Systems
 
-- **[ECCS端末](https://www.ecc.u-tokyo.ac.jp/)**：キャンパス内に設置されているパソコンです．利用には事前に利用権の申請が必要ですので，注意してください．
-- **[UTokyo VPN](/utokyo_vpn/)**：学内ネットワーク専用の事務システムなどにキャンパス外からアクセスするためのシステムです．
-- **[東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)**：オンライン授業URLを確認するためのシステムです．詳細は「[授業URLの連絡方法（学生向け）](/oc/url)」「[授業URLの連絡方法（教員向け）](/faculty_members/url)」のページもご覧ください．
-- 【教職員向け】**[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**：教職員向けの学内ポータルサイトです．
+- **[ECCS Terminals](https://www-old.ecc.u-tokyo.ac.jp/en/)**: These are computers located on campus. Please note that you need to apply for usage rights in advance.
+- **[UTokyo VPN](/en/utokyo_vpn/)**: This system allows you to access administrative systems that are restricted to the university network from outside the campus.
+- **[University of Tokyo Online Lecture Search System (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/en/)**：This system is used to verify URLs for online classes. For more details, please also refer to the pages "[How to Obtain the Online Class URL (for Students)](/en/oc/url)" and "[How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url)".
+- [For Faculty and Staff]**[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**: This is the university portal site for faculty and staff.
 
-### 図書館・電子ジャーナル関連
+### Library and Electronic Journal Resources
 
-- **[東京大学OPAC](https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_search/)**：図書館の蔵書検索や貸出・予約等の手続きを行うシステムです．
-- **[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)**：東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです．
-- **[Literacy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy)**：論文などの学術情報を探す際の「入り口」となるサイトです．
-- [**TREE** (UTokyo REsource Explorer)](https://tokyo.summon.serialssolutions.com/)：さまざまなデータベース・電子ジャーナルを横断して学術情報を検索できる，東大構成員のためのシステムです．
-- **[E-journal & E-book Portal](https://vs2ga4mq9g.search.serialssolutions.com/)**：東京大学の契約している電子ジャーナル・電子ブックを探すためのシステムです．
+- **[The University of Tokyo Library OPAC](https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_search/?lang=1)**: This is the system used for searching library collections and managing borrowing and reservations.
+- **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**: This system allows access to electronic journals contracted by the University of Tokyo from outside the campus. Its use is restricted to university members.
+- **[Literacy](https://www.lib.u-tokyo.ac.jp/en/library/literacy)**: This is a site that serves as an "entrance" for searching academic information, such as research papers.
+- [**TREE** (UTokyo REsource Explorer)](https://tokyo.summon.serialssolutions.com/en/): This is a system for members of the University of Tokyo that allows the search of academic information across various databases and electronic journals.
+- **[E-journal & E-book Portal](https://vs2ga4mq9g.search.serialssolutions.com/)**: This is a system for searching electronic journals and e-books contracted by the University of Tokyo.
