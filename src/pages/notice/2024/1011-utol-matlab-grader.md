@@ -7,7 +7,7 @@ title: UTOLからMATLAB Graderを利用可能となりました
 <span>情報基盤センター</span><br />
 </div>
 
-## 内容
+## 概要
 
 [MATLAB Grader](https://jp.mathworks.com/products/matlab-grader.html)が，学習管理システム[UTOL(UTokyo LMS)](/utol/)から利用可能となりました．この機能は「担当教員」として登録されているコースで，「履修者」に対して，MATLAB Graderで作成した問題を出題することができるものです．なお，問題の出題・解答の際，MathWorksアカウントは原則として不要です．
 
