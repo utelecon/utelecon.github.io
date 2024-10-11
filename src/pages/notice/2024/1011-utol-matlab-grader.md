@@ -9,15 +9,14 @@ title: UTOLからMATLAB Graderを利用可能となりました
 
 ## 内容
 
-[MATLAB Grader](https://jp.mathworks.com/products/matlab-grader.html)を学習管理システムUTOL(UTokyo LMS)から利用可能となりました．「担当教員」として利用するコースがあれば，当該コースの「履修者」に対して，MATLAB Graderで作成した問題を出題することができます．MathWorksアカウントは原則として不要です．
+[MATLAB Grader](https://jp.mathworks.com/products/matlab-grader.html)が，学習管理システム[UTOL(UTokyo LMS)](/utol/)から利用可能となりました．この機能は「担当教員」として登録されているコースで，「履修者」に対して，MATLAB Graderで作成した問題を出題することができるものです．なお，問題の出題・解答の際，MathWorksアカウントは原則として不要です．
 
-使い方については，以下のリンク先にあるユーザガイドをご覧ください．(閲覧には，ECCSクラウドメールでのログインが必要です．)
-[UTOL\_MATLAB-Grader\_UserGuide\_2024-10](https://docs.google.com/document/d/1CYOXHnG3_jla5KgEEO-KhTbu_nDgp-Uc/edit?usp=drive_link&ouid=117510436890962815644&rtpof=true&sd=true)
+使い方については，[UTOL-MATLAB Graderユーザガイド](https://docs.google.com/document/d/1CYOXHnG3_jla5KgEEO-KhTbu_nDgp-Uc/edit?usp=drive_link&ouid=117510436890962815644&rtpof=true&sd=true)をご覧ください．(閲覧には，ECCSクラウドメールでのログインが必要です．)
 
 ## 補足事項
 
-* MathWorksアカウントにサインインした状態であれば，作成した問題を他のコースで利用することもできます．従って教員は，予めMathWorksアカウントを作成しておくことをお勧めします．
-* MATLAB Graderで作成した問題は，UTOLの「課題機能」とは異なり，公開期間や公開対象を設定することはできません．
+* MathWorksアカウントにサインインした状態であれば，作成した問題を他のコースでも利用することができます．従って教員は，予めMathWorksアカウントを作成しておくことをお勧めします．
+* MATLAB Graderで作成した問題は，UTOLの「[課題機能](/utol/lecturers/assignments/)」とは異なり，公開期間や公開対象を設定することはできません．
 * UTOLとMATLAB Graderとの連携に関して不明な点があれば，[uteleconのサポート窓口](/support/)にお問い合わせ下さい．
   * MATLAB Graderの使い方に関しては[MATLAB Grader](https://jp.mathworks.com/products/matlab-grader.html)などをご覧ください．
 
