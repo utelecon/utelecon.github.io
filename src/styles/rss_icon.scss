@@ -11,5 +11,8 @@ h1:has(.rss_icon) {
     font-family: "Material Icons";
     font-size: 1.125em;
     text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
