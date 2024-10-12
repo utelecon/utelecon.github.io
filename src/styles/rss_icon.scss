@@ -1,0 +1,15 @@
+@import "color";
+
+#notice,
+h1:has(.rss_icon) {
+  position: relative;
+  .rss_icon {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    color: $heading-color;
+    font-family: "Material Icons";
+    font-size: 1.125em;
+    text-decoration: none;
+  }
+}
