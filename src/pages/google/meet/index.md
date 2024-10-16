@@ -1,5 +1,9 @@
 ---
 title: Google Meet
+breadcrumb:
+  title: Meet
+redirect_from:
+  - /meet/
 ---
 ## はじめに
 
