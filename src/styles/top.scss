@@ -1,6 +1,10 @@
 @import "color";
 @import "components/card.scss";
 
+.cards {
+  text-align: left;
+}
+
 .largecards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
