@@ -16,7 +16,7 @@ title: Google Meet
 ミーティングは, 参加者全員が発言や画面の共有が出来る形態の会議です. 参加者は100人まで．1-1のミーティングをすぐに行う場合や, 参加者のわかっている少人数授業やゼミなどに適しています. 
 
 * 開催者
-  1. (初期設定) <a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">ECCSクラウドメール</a> (本学でのG Suite for Education契約の名称) を<a href="#signup">有効化</a>
+  1. (初期設定) [ECCSクラウドメール](https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html) (本学でのG Suite for Education契約の名称) を有効化
   1. ECCSクラウドメールのアカウント(`xxx@g.ecc.u-tokyo.ac.jp`)でGoogleに<a href="#signin">サインイン</a>
   1. <a href="#create_meeting">会議を作成</a>して，会議室の情報（URLなど）を周知
   1. URLにアクセスして<a href="#join_meeting">会議へ参加</a>
