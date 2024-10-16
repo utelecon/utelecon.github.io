@@ -1,11 +1,11 @@
 ---
-title: Basic Use of Scrapbox
+title: Basic Use of Cosense
 ---
 
 ## Highlights of This Article
-In this article, we will explain the basic use of Scrapbox.
+In this article, we will explain the basic use of Cosense (formerly Scrapbox).
 
-### Suitable Situations to Use Scrapbox
+### Suitable Situations to Use Cosense
 
 * To prepare a page that summarizes class contents for easy learning.
 * To summarize class materials with multiple users writing on them.
@@ -20,13 +20,13 @@ In this article, we will explain the basic use of Scrapbox.
 * By default, pages are not organized in any particular way, but are listed in the order in which they were created, and the material cannot be structured automatically.
 
 
-## What is Scrapbox?
+## What is Cosense?
 
-Scrapbox is a tool provided by Nota Inc. for storing and organizing a large number of notes and memos online. It can be edited by multiple people at the same time or shared using URLs. It is characterized by its ability to easily connect many pages using "links" and "tags" and its portal function for online classes.
+Cosense is a tool provided by Helpfeel Inc. for storing and organizing a large number of notes and memos online. It can be edited by multiple people at the same time or shared using URLs. It is characterized by its ability to easily connect many pages using "links" and "tags" and its portal function for online classes.
 
 <img src="logo.png" width="300px">
 
-By using Scrapbox, you can easily create a document like the one below.
+By using Cosense, you can easily create a document like the one below.
 
 <figure>
 <img src="30.png">
@@ -38,35 +38,35 @@ For public projects that can be viewed by anyone, all functions can be used free
 
 Note that a Google account is required to use the free version.
 
-It may cost for business use. For details, please check the Scrapbox "[Pricing Plans](https://scrapbox.io/pricing)" page.
+It may cost for business use. For details, please check the Cosense "[Pricing Plans](https://scrapbox.io/pricing)" page.
 
 
 ## Creating an Account
 In this section, you will learn how to create an account with Google Account.
 
-Access the website of Scrapbox  ([https://scrapbox.io/product](https://scrapbox.io/product)) from your browser and click the "TRY IT FOR FREE" button.
+Access the website of Cosense  ([https://scrapbox.io/product](https://scrapbox.io/product)) from your browser and click the "TRY IT FOR FREE" button.
 
 <figure>
 <img src="2.png">
 <figcaption>Click on the area circled in red (or the "SIGN UP" string in the upper right corner). </figcaption>
 </figure>
 
-Enter the email address or phone number associated with the Google account you use for Scrapbox, and then enter the password.
+Enter the email address or phone number associated with the Google account you use for Cosense, and then enter the password.
 
 <figure class="gallery">
 <img src="3.png">
 <img src="4.png">
 </figure>
 
-In some cases, you will be presented with multiple account suggestions (see the figure on the right). Select the account you want to use with Scrapbox.
+In some cases, you will be presented with multiple account suggestions (see the figure on the right). Select the account you want to use with Cosense.
 
-Once your Google account is connected, you will be taken to the Scrapbox account setting page. Please enter "Name" and "Username" respectively.
+Once your Google account is connected, you will be taken to the Cosense account setting page. Please enter "Name" and "Username" respectively.
 
 <figure>
 <img src="5.png">
 </figure>
 
-* Your Google account name will by default be your “Name” in Scrapbox. You might re-enter to change it.
+* Your Google account name will by default be your “Name” in Cosense. You might re-enter to change it.
 * "Username" is used as the page title of your personal page and must be entered in half-width alphanumeric characters. It is best to use your own name for clarity.
 
 Select "Looks Good" to complete the account creation. When the following screen appears, click on the green "Create new project" button to create a project.
@@ -80,7 +80,7 @@ For details on how to create a project, see "[Create a project](#create_project)
 ## Creating a Project
 {:#create_project}
 
-A project in Scrapbox is a unit of space used to organize information. Users can search for information in each project. It is also a unit for information sharing, and sharing settings can be configured for each project.
+A project in Cosense is a unit of space used to organize information. Users can search for information in each project. It is also a unit for information sharing, and sharing settings can be configured for each project.
 
 Below we will explain how to create a project.
 
@@ -95,7 +95,7 @@ Below we will explain how to create a project.
      * Private project
        * Even if you know the project URL, users have no access rights cannot view the private  project.
        * To access private projects, you need an invitation link distributed by the administrator.
-   * **"Upload image to"**: Select where you want to upload the image. Normally, you can select "scrapbox.io". The uploaded image will be saved on Scrapbox.
+   * **"Upload image to"**: Select where you want to upload the image. Normally, you can select "scrapbox.io". The uploaded image will be saved on Cosense.
 4. When you are done, click the green "Create" button.
 
 <figure>
@@ -137,7 +137,7 @@ If you have permission to edit the project, you can perform the following operat
     * **Members**: Allows you to add people to your project by sharing the link shown here.
     * **Settings**: Allows you to change the project link, public and private settings, and other project details.
     * **Theme**: Allows you to change the background color and others
-    * **Notifications**: Allows you to connect Scrapbox to other apps (chat apps like Slack, Discord, etc.)
+    * **Notifications**: Allows you to connect Cosense to other apps (chat apps like Slack, Discord, etc.)
     * **Upload**: Allows you to upload project pages and images
     * **Page Data**: Allows you to set up bookmarks and export/import pages
     * **Backup**: Allows you to create a backup of the page content when it is edited.
@@ -147,7 +147,7 @@ If you have permission to edit the project, you can perform the following operat
 
 ## Creating and Editing a Page
 
-A page in Scrapbox is a unit of information that is stored in a project. When using Scrapbox in a class, it is recommended to create a page for each class.
+A page in Cosense is a unit of information that is stored in a project. When using Cosense in a class, it is recommended to create a page for each class.
 
 The page has the following features.
 
@@ -260,7 +260,7 @@ In the mobile version, click the ![](20.png){:.icon}icon in the upper right corn
 ### Inserting a Hand-drawn Diagram
 #### When Operating on a PC
 
-You can insert a hand-drawn drawing into the page using the drawing function of Scrapbox.
+You can insert a hand-drawn drawing into the page using the drawing function of Cosense.
 
 Click the ![](20.png){:.icon} icon on the right side of the screen and select "Drawing" (red circle) to display the drawing screen.
 
@@ -293,7 +293,7 @@ If you are using the mobile version, click on the ![](20.png){:.icon} icon in th
 
 
 ## Tips: Notifying Updates to Chat Tools such as Slack
-By linking with Slack, you can check the updates of Scrapbox on Slack.
+By linking with Slack, you can check the updates of Cosense on Slack.
 For the basic use of Slack, please refer to "[How to communicate with students in Slack](/en/articles/slack-communication/)".
 
 1. Click the "S" button in the upper left corner of the screen to open the Notifications tab of the Project settings screen.
@@ -301,7 +301,7 @@ For the basic use of Slack, please refer to "[How to communicate with students i
 3. Paste the URL of the "Incoming Webhook" (`https://hooks.slack.com~~`) and click Add.
 
 * Notification timing
-  * 90 seconds after the last writing to Scrapbox, you will be notified.
+  * 90 seconds after the last writing to Cosense, you will be notified.
   * Notifications will not be sent while writing continuously.
 * Notification to other chat tools
   * Notifications can also be sent to URLs other than Slack.
@@ -311,6 +311,6 @@ For the basic use of Slack, please refer to "[How to communicate with students i
 ## (+α) Good Practices and Applications
 
 * [Dr. Tadashi Shiraishi, Law I](/good-practice/interview/shiraishi.html)
-  * A class using Scrapbox is introduced here.
-  * The Scrapbox page  actually used in the class can be accessed via [https://scrapbox.io/jcomp/](https://scrapbox.io/jcomp/).
+  * A class using Scrapbox (now: Cosense) is introduced here.
+  * The Scrapbox page actually used in the class can be accessed via [https://scrapbox.io/jcomp/](https://scrapbox.io/jcomp/).
 * [Tokyo Metropolitan University Online Class Support Page (for teachers) (scrapbox.io)](https://scrapbox.io/tmu-online-tips/)
