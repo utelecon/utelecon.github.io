@@ -17,15 +17,3 @@ title: What is possible with Webex Meetings?（Instructors and Participants from
 * **In addition to the mute setting on the video conference system (whether the audio is sent from the video conference system to Webex), it is possible to mute the video conference system on Webex.**
 * If the host presses "Mute all", Webex will mute the video conferencing system.
 * To set / cancel the mute from the video conference system, enter "* 6" with the dial pad.
-
-
-
-
-
-
-<br>
-<br>
-<a href="index" target="_blank">Go back to How to Use WeBex</a>
-
-
-

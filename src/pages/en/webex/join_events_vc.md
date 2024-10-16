@@ -26,10 +26,6 @@ breadcrumb:
 * When the host presses  "Mute all", Webex will mute the video conferencing system.
 * To set / cancel this mute from the video conference system, enter "* 6" with the dial pad.
 
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to Use Webex</a>
 <br>
 <a href="do_webex" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)</a>
 <br>

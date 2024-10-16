@@ -11,6 +11,13 @@ import ECCSCloudEmailLogin from '@components/ja/systems/eccs_cloud_email/Login.m
 import ECCSCloudEmailAccess from '@components/ja/systems/eccs_cloud_email/Access.mdx';
 import ECCSCloudEmailLoginSp from '@components/ja/systems/eccs_cloud_email/LoginSp.mdx';
 import ECCSCloudEmailUseMail from '@components/ja/systems/eccs_cloud_email/UseMail.mdx';
+import WwweccEol from "@components/ja/WwweccEol.astro";
+
+<WwweccEol systemName="ECCSクラウドメール（Google Workspace）"/>
+
+<div class="box">
+2024年9月30日に，Google社により「安全性の低いアプリケーション（LSA）」が無効化されました．ECCSクラウドメール利用者の中にも，この無効化の影響を受ける方がいる可能性があります．詳しくは「[ECCSクラウドメールにおける「安全性の低いアプリケーション（LSA）」の無効化について](/notice/2024/0930-google-lsa)」および「[2024 年 9 月 30 日以降: パスワードのみを使用して Google アカウントおよび Google Sync にアクセスするサードパーティ アプリのサポートを終了](https://workspaceupdates-ja.googleblog.com/2023/10/2024-9-30-google-google-sync.html)」をご覧ください．
+</div>
 
 ## ECCSクラウドメールとは
 
@@ -25,6 +32,7 @@ import ECCSCloudEmailUseMail from '@components/ja/systems/eccs_cloud_email/UseMa
 - **Googleフォーム**：フォーム作成サービス
 - **YouTube**：動画配信サービス
 - **Google Meet**：Web会議
+- **Gemini**：生成AIサービス ※無料で提供される「その他のGoogleサービス」
 
 東京大学のアカウントでしかアクセスできないページがあるので，既に Google のアカウントを持っている人も，東京大学のアカウントが使えるようにしておいてください．
 
@@ -86,3 +94,7 @@ Gmailで `xxxx@g.ecc.u-tokyo.ac.jp` というメールアドレスが使えま�
     - [Google グループの使用方法](/articles/google-groups/)：Googleグループについて，基本的な使い方を詳細に解説しています．
 - **Googleカレンダー**
     - [Google Calendarの使い方](https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/27_2505.html)（ECCS広報）：情報基盤センターによる説明ページです．
+- **Gemini**
+    - [ECCSクラウドメールでのGeminiの利用について](https://www.ecc.u-tokyo.ac.jp/announcement/2024/06/04_3635.html)（ECCS広報）：情報基盤センターによる説明ページです．
+        - 2024年9月現在，ECCSクラウドメールアカウントでGeminiを使用する場合，ユーザのデータがAIモデルの改良に使用されることはなく，AIモデルを改良する目的で人間によるレビューを受けることもありません．詳しくは下記FAQページを確認してください．
+    - [Gemini アプリに関するよくある質問](https://gemini.google.com/faq)：Google公式のGeminiに関するFAQページです．

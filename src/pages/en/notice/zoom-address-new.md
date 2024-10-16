@@ -26,18 +26,25 @@ The administrator will help delete your old account. Please submit the [UTokyo Z
 
 ## If You Want to Transfer Data to Your New Zoom Account 
 
-Any UTokyo Zoom account that does not use a UTokyo Account for sign-in (e.g. a Zoom account that uses your ECCS Cloud Email with the username of your choice, `xxxx@g.ecc.u-tokyo.ac.jp`) will soon be completely disabled. 
+Any UTokyo Zoom account that does not use a UTokyo Account for sign-in (e.g. a Zoom account that uses your ECCS Cloud Email with the username of your choice, `xxxx@g.ecc.u-tokyo.ac.jp`) are being gradually disabled.
 
-For a while, you will still be able to sign in to such accounts, but **please switch to your new Zoom account that uses UTokyo Account sign-in at the earliest possible**.
+<ins class="box" style="text-decoration: none;">
 
-Steps for non-UTokyo Account sign-in are explained in the next section.
+On August 17, 2023, Zoom accounts that have not been migrated have been <strong class="alert">disabled in principle</strong>. If you have any necessary information (such as meeting rooms that you created and configured, and cloud recordings) on these accounts and you want to continue using (migrate) it, please contact [the Technical Support Desk via the email form](/support/#email-form).
+
+</ins>
+
+~~For a while, you will still be able to sign in to such accounts if they are not disabled yet, but please switch to your new Zoom account that uses UTokyo Account sign-in at the earliest possible.~~
+
+~~Steps for non-UTokyo Account sign-in are explained in the next section.~~
 
 ### Method of non-UTokyo Account Sign-in
 
-For a while, you may still use Zoom with non-UTokyo Account sign-in after the [System Changeover for Spring 2021](/en/change2021s/) (such as accounts using your ECCS Cloud Email address with the username of your choice, `xxxx@g.ecc.u-tokyo.ac.jp`).   
-To use Zoom with such accounts, please **visit the usual Zoom sign-in page, `https://zoom.us/signin`, and enter your previous sign-in email address and Zoom password**.
+~~For a while, you may still use Zoom with non-UTokyo Account sign-in after the [System Changeover for Spring 2021](/en/change2021s/) (such as accounts using your ECCS Cloud Email address with the username of your choice, `xxxx@g.ecc.u-tokyo.ac.jp`).   
+To use Zoom with such accounts, please visit the usual Zoom sign-in page, `https://zoom.us/signin`, and enter your previous sign-in email address and Zoom password.~~
+
 <details>
-    <summary>If you cannot find your previously saved meeting information (meeting room, cloud recording, etc.) after sign-in </summary>
+    <summary><del>If you cannot find your previously saved meeting information (meeting room, cloud recording, etc.) after sign-in</del></summary>
     This occurs when you use the new sign-in method instead of the aforementioned method for UTokyo Accounts. When you use the new sign-in method, a new Zoom account for UTokyo Account sign-in is automatically created, and you will be signed into this new account. You are not seeing your previously saved meeting information because the new account does not inherit the previous account's data.   
     To access your previous data, sign out of the new account, go to the usual Zoom sign-in page at <a href="https://zoom.us/signin">https://zoom.us/signin</a>, and sign in using the previous sign-in email address and Zoom password. </details>
 
@@ -45,10 +52,10 @@ To use Zoom with such accounts, please **visit the usual Zoom sign-in page, `htt
 ### Switching to Sign-in with your UTokyo Account
 {:#change-procedure}
 
-If you are currently signing in to Zoom using the ECCS Cloud Email with the username of your choice (`xxxx@g.ecc.u-tokyo.ac.jp`), please visit the [one-stop migration site](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home) (in Japanese) and follow the instructions to switch to UTokyo Account sign-in. Once the migration is completed, you will be able to sign in to Zoom using your UTokyo Account. The sign-in procedure can be found on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin) page.   
+~~If you are currently signing in to Zoom using the ECCS Cloud Email with the username of your choice (`xxxx@g.ecc.u-tokyo.ac.jp`), please visit the [one-stop migration site](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home) (in Japanese) and follow the instructions to switch to UTokyo Account sign-in. Once the migration is completed, you will be able to sign in to Zoom using your UTokyo Account. The sign-in procedure can be found on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin) page.~~
 
 <details>
-    <summary>If you currently sign in using other email addresses</summary>
+    <summary><del>If you currently sign in using other email addresses</del></summary>
     If you currently sign in using (1) an ECCS Cloud Email address that begins with your 10-digit Common ID (e.g. <code>1234567890@g.ecc.u-tokyo.ac.jp</code>), or (2) an email address other than your ECCS Cloud Email address, please follow the instructions below to manually switch to sign-in using your UTokyo Account.
     <ol>
         <li>
@@ -72,7 +79,7 @@ If you are currently signing in to Zoom using the ECCS Cloud Email with the user
         <li> 
             Access the UTokyo Zoom page, <a href="https://u-tokyo-ac-jp.zoom.us/">https://u-tokyo-ac-jp.zoom.us/</a>, press “Config”, and sign in with your UTokyo Account. 
             (This is the same procedure as described in the <a href="/en/zoom/signin#browser">Signing in from the UTokyo Account Zoom Webpage section on the Sign-in Methods for Zoom page</a>.)
-            <img src="/zoom/signin/1.png">
+            <img src="./zoom-signin.png">
             <details>
                 <summary>If you see the message "Confirm your email address” right after you sign in </summary>
                 <img src="image/zoom_sso_update_email.png">
@@ -88,6 +95,6 @@ If you are currently signing in to Zoom using the ECCS Cloud Email with the user
     </ol>
 </details>
 
-After migration, the license may appear as "BASIC" instead of "LICENSED". In this case, please wait until the next day and check again, as the license is granted on the day after the migration.
+~~After migration, the license may appear as "BASIC" instead of "LICENSED". In this case, please wait until the next day and check again, as the license is granted on the day after the migration.~~
 
 If the above procedure does not work, please contact the [Technical Support Desk](/en/support/).  

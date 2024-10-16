@@ -1,4 +1,4 @@
-# utelecon (UTokyo Portal for Teleconference Tools)
+# utelecon (The Portal Site of Information Systems @ UTokyo)
 
 https://utelecon.adm.u-tokyo.ac.jp/
 
@@ -23,9 +23,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
 - `author`：記事の著者をページ下部に表示する．
   - `affiliation`：所属．`author`を指定する場合は必須．`oes`とすると[OESの説明ページ](https://utelecon.adm.u-tokyo.ac.jp/about/oes)へのリンクが表示される．
   - `name`：著者名．任意．
-- `breadcrumb`：ページ上部のパンくずリストを定義する．
-  - `title`：パンくずリストのそのページ自身の部分のタイトル．`breadcrumb`を指定する場合は必須．親との差分だけを書く．
-  - `parent`：親ページ．任意．デフォルトは`../`．これを辿っていくことでパンくずリストを構成する．
+- `breadcrumb`：ページ上部のパンくずリストを定義する．詳しくは[後述](#パンくずリストの表示)．
 - `redirect_from`・`redirect_to`：リダイレクトの設定．詳しくは[後述](#redirect_from--redirect_to)．
 
 ## Scripts
@@ -36,6 +34,8 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
   - 例：`npm run find-link /oc/url`
 - `npm run broken-link`：サイト内リンクで壊れているものをすべて標準出力する．
+  - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
+- `npm run unused-asset`：使われていないアセットをすべて標準出力する．
   - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
 
 ## How it works
@@ -125,7 +125,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - [前述](#srcpages以下のファイルを公開する)の通り，多くのページは`src/pages`以下でページのソースと画像をまとめて管理し，ソースの中ではファイルシステムの相対パスを用いて画像を参照しています．ファイルシステム上での相対パスとURL上での`/`で始まらない相対パスを対応させるには，上記のようなマッピングが必要です．
   - Astroには，このようなマッピングにする設定がありません．
 - 実装
-  - [`TrailingSlashIntegration`](src/lib/TrailingSlashIntegration.ts)で実現しています．ここでは，ビルド後に`src/pages`を参照しながら`dist`内のファイルパスを書き換えています．
+  - [`astro.config.ts`](astro.config.ts)で`format: "preserve"`を指定し，[`Layout.astro`](src/layouts/Layout.astro)で公開時のパスを状況に応じて書き換えることで実現しています．
 
 ### IAL (Inline Attribute List)
 
@@ -172,6 +172,68 @@ redirect_to: "/oc/join#form"
 - `redirect_to`は文字列で指定することができる
 - 基本的に`/`で始まるパスを指定する
 - リダイレクト先のページ内の特定の場所（例では`#form`）に飛ばしたい，外部のページに飛ばしたいなど，特別の事情がなければ`redirect_from`の方が良い
+
+### 複数ページに緊急のお知らせを掲載する
+
+`src/emergencies`内に以下のようなMarkdownファイルを配置することで，複数のページにまとめて緊急のお知らせを掲載することができます．掲載したいページのパスにマッチする正規表現を`pattern`に指定します．
+
+例：`src/emergencies/LmsFailure.mdx`を作成して，`/utol/`以下のページに緊急のお知らせを掲載する
+```md
+---
+pattern: "^\/utol\/"
+---
+
+<div class="box">
+  UTOLの緊急のお知らせです．
+</div>
+
+```
+注
+- `pattern`には正規表現を文字列で指定してください．
+- `^\/utol\/$`のようにすると，`/utol/`のみに緊急のお知らせを掲載できます．
+- 同じページのパスに2つ以上の緊急のお知らせがマッチする場合，ファイル名の辞書順で同時に掲載されます．ファイル名は実際のサイトには表示されないため，適宜変更して問題ありません．
+
+### パンくずリストの表示
+
+`breadcrumb`をMarkdownのfrontmatterに記述することで，ページ上部にパンくずリストを表示することができます．
+
+- `title`：パンくずリストのそのページ自身の部分のタイトル．`breadcrumb`を指定する場合は必須．親との差分だけを書く．
+- `parent`：親ページ．任意．デフォルトは`../`．これを辿っていくことでパンくずリストを構成する．
+
+ルート直下のページ（`/utokyo_account/`，`/oc/`など）を除き，パンくずリストを表示するには，`breadcrumb`を記述した上位階層の親ページが必要です．子ページのみに`breadcrumb`を記述することはできません．
+
+#### 例：`/eccs/`以下のページにパンくずリストを表示する場合
+
+- ルート直下の親ページ`/eccs/`（`src/pages/eccs/index.mdx`）
+  ```md
+  ---
+  title: ECCS端末
+  breadcrumb:
+    title: ECCS端末
+  ---
+  ```
+  - ルート直下のページにはパンくずリストが表示されません.
+  - ただし,`breadcrumb`は子ページでパンくずリストを表示するために必須です．
+
+- 子ページ（`parent`を指定しない場合）`/eccs/support/`（`src/pages/eccs/support/index.mdx`）
+  ```md
+  ---
+  title: 問い合わせ先・窓口
+  breadcrumb:
+    title: 問い合わせ
+  ---
+  ```
+  - `parent`はデフォルトで`../`なので，`/eccs/`が親ページになります．
+
+- 子ページ（`parent`を指定することで，`/eccs/`を親ページにする場合）`/eccs/features/printing/`（`src/pages/eccs/features/printing/index.mdx`）
+  ```md
+  ---
+  title: 印刷
+  breadcrumb:
+    title: 印刷
+    parent: ../../
+  ---
+  ```
 
 ## For developers
 

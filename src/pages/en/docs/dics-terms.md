@@ -34,4 +34,4 @@ When using these services, please follow the terms below.
 
 ## Service-specific precautions
 
-UTokyo Slack has features working by linking with "UTOL", a learning management system operated by Campus-wide Computing Research Division, Information Technology Center. Please refer to the "[情報メディア教育研究部門の運用ポリシー](https://www.ecc.u-tokyo.ac.jp/system/policy.html)" (in Japanese) for the handling of information on UTOL.
+UTokyo Slack has features working by linking with "UTOL", a learning management system operated by Campus-wide Computing Research Division, Information Technology Center. Please refer to the "[情報メディア教育研究部門の運用ポリシー](https://media.itc.u-tokyo.ac.jp/policy.html)" (in Japanese) for the handling of information on UTOL.

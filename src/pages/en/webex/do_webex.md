@@ -176,5 +176,3 @@ Participants who attempt to join a locked meeting will first be sent to the Lobb
 **In End-to-End Encrypted Meetings, participants who have already joined the meeting cannot be sent to the Lobby.**
 
 ![alt](img/webex_lobby.png){:.medium}
-
-[Back to How to use Webex](.)
