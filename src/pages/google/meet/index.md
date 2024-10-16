@@ -11,7 +11,7 @@ redirect_from:
 * PCではアプリをインストールせずWebブラウザで使います(スマホ用にはアプリもあります)
 * Chrome，Firefox，Safari，Edgeなど最近のほとんどのブラウザに対応しています
 * 複数の会議に同時に参加できます，複数の会議を同時に開催できます
-* 東京大学で使用されているEducationアカウントには全員ミュートや参加者の画面共有権限の制限の機能があります．Educaitonアカウント以外にはこれらの機能は付属していません．
+* 東京大学で使用されているEducationアカウントには全員ミュートや参加者の画面共有権限の制限の機能があります．Educationアカウント以外にはこれらの機能は付属していません．
 * Googleアカウント + ブラウザだけで完結する手軽さと，複数会議を同時に開催できることから少人数のグループをたくさん作るような形態に向いています
 * 100人までのミーティングを作成可能
 
@@ -36,17 +36,17 @@ redirect_from:
 ## ECCSクラウドメール (G Suite for Education)の有効化
 {:#signup}
 
-もし開催者がまだ，<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ，<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>)．`xxxx@g.ecc.u-tokyo.ac.jp` というメールアドレスを使える人は，すでに有効化されています.
+もし開催者がまだ，<a href="https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html" target="_blank">「ECCSクラウドメール」 (G Suite for Education)</a> を有効化していなければ，<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account 利用者メニュー</a> から行ってください (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">手順についての詳細</a>)．`xxxx@g.ecc.u-tokyo.ac.jp` というメールアドレスを使える人は，すでに有効化されています．
 
-有効化したら，有効化の設定を行ってから実際に使えるようになるまで，最大1時間程度を見込んでください(毎時00分に，それ以前の有効化がGoogleに伝搬・反映されます).
+有効化したら，有効化の設定を行ってから実際に使えるようになるまで，最大1時間程度を見込んでください(毎時00分に，それ以前の有効化がGoogleに伝搬・反映されます)．
 
 ## ECCSクラウドメールのアカウント(`xxx@g.ecc.u-tokyo.ac.jp`)でGoogleにログイン
 {:#signin}
 
-* 適当なGoogleのサービス (<a href="https://mail.google.com/" target="_blank" rel="noopener">Gmail</a>，<a href="https://calendar.google.com/" target="_blank" rel="noopener">カレンダー</a>など) にアクセスし，ECCSクラウドメールのアカウント(`xxxx@g.ecc.u-tokyo.ac.jp`) でサインインしてください.
-  * すでに他の(例えば個人の)Googleアカウントでサインインしている場合は，アカウントを切り替えたり，アカウントを追加して，ECCSクラウドメールのアカウント(`xxxx@g.ecc.u-tokyo.ac.jp`) でサインインしてください.
+* 適当なGoogleのサービス (<a href="https://mail.google.com/" target="_blank" rel="noopener">Gmail</a>，<a href="https://calendar.google.com/" target="_blank" rel="noopener">カレンダー</a>など) にアクセスし，ECCSクラウドメールのアカウント(`xxxx@g.ecc.u-tokyo.ac.jp`) でサインインしてください．
+  * すでに他の(例えば個人の)Googleアカウントでサインインしている場合は，アカウントを切り替えたり，アカウントを追加して，ECCSクラウドメールのアカウント(`xxxx@g.ecc.u-tokyo.ac.jp`) でサインインしてください．
   * サインインするアカウントを選択する画面が現れたら`xxxx@g.ecc.u-tokyo.ac.jp`を選んでサインインしてください．`xxxx@g.ecc.u-tokyo.ac.jp`がなければ「アカウントを追加」してください
-  * ページ上部の「ログイン」または"Sign in"ボタンが現れたらそれを押して`xxxx@g.ecc.u-tokyo.ac.jp`でサインインしてください.
+  * ページ上部の「ログイン」または"Sign in"ボタンが現れたらそれを押して`xxxx@g.ecc.u-tokyo.ac.jp`でサインインしてください．
 * 以下は「ECCSクラウドメール(`xxxx@g.ecc.u-tokyo.ac.jp`)でのサインイン」を強制するためのリンクです
   * <a href="https://mail.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">Gmail</a>
   * <a href="https://calendar.google.com/a/g.ecc.u-tokyo.ac.jp" target="_blank" rel="noopener">カレンダー</a>
@@ -61,7 +61,7 @@ Googleアプリであるため，Googleカレンダー，GmailなどGoogleアプ
 * <a href="https://youtu.be/rysK8GiH3KM" target="_blank" rel="noopener">動画</a>
 
 1. ECCSクラウドメールアカウント(`xxxx@g.ecc.u-tokyo.ac.jp`)にサインインした状態で，Gmailなど適当なサービスでGoogleアプリアイコンからMeetを選び，<a href="https://meet.google.com/" target="_blank">meetのトップページ</a>を表示
-1. 「ミーティングに参加または開始」ボタンを押す.
+1. 「ミーティングに参加または開始」ボタンを押す．
 1. 会議名を聞かれるが空欄でよい(空欄にしないと，偶然同じ名前の会議があったらそこへ参加してしまうかも知れない)
 1. カメラやマイクへのアクセス許可を求める窓が出てきたら，「許可」
 1. 「今すぐ参加」を押して会議を開く
@@ -99,8 +99,8 @@ Googleアプリであるため，Googleカレンダー，GmailなどGoogleアプ
 
 ### 資料(画面)の表示
 
-会議中に右下隅「今すぐ表示」を押すと，画面を参加者に送信できます．画面全体を送信することも特定のウィンドウだけを送信することも出来ます．プレゼンテーションや講義資料などを表示するのに使います.
+会議中に右下隅「今すぐ表示」を押すと，画面を参加者に送信できます．画面全体を送信することも特定のウィンドウだけを送信することも出来ます．プレゼンテーションや講義資料などを表示するのに使います．
 
 ### 録画
 
-会議中に右下隅のメニューから「ミーティングを録画」を選ぶと，画像と音声を録画できます．録画が終了すると，動画ファイルがGoogle Driveに保存されます.
+会議中に右下隅のメニューから「ミーティングを録画」を選ぶと，画像と音声を録画できます．録画が終了すると，動画ファイルがGoogle Driveに保存されます．
