@@ -17,7 +17,7 @@ UTokyo Microsoft License is available to UTokyo members (students and faculty) w
 ### When UTokyo Account Expires
 {:#expire}
 
-If your UTokyo Account expires due to graduation, withdrawal, or change of affiliation, you will no longer be able to use the UTokyo Microsoft License systems. As a result, all related data, such as data stored in [OneDrive](#onedrive), will be lost. Before graduation, withdrawal, or change of affiliation, please refer to "[Notice on Account Revocation due to Graduation, Resignation or Change of Affiliation](/en/systems/leave/)" and back up your data.
+If your UTokyo Account expires due to graduation, withdrawal, you will no longer be able to use the UTokyo Microsoft License systems. As a result, all related data, such as data stored in [OneDrive](#onedrive), will be lost. In addition, due to change in affiliation, you may no longer be able to use some functions that differ depending on your affiliation, such as Office apps. Before graduation, withdrawal, or change of affiliation, please refer to "[Notice on Account Revocation due to Graduation, Resignation or Change of Affiliation](/en/systems/leave/)" and back up your data.
 
 ## Main Systems Available
 {:#systems}
@@ -65,7 +65,7 @@ For information on how to create and edit files on OneDrive using Microsoft Offi
 
 **Available only to faculty and staff**
 
-Teams is an application that is used for chats, video meetings and so on. For the instruction of usage, please refer to **[UTokyo Microsoft Teams User Manual (written in Japanese only)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/%E3%80%8C%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%88_Microsoft_Teams%E5%88%A9%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%8820210311%EF%BC%89%E3%80%8D.pdf)** (accessible only to faculty and staff).
+Teams is an application that is used for chats, video meetings and so on. For the instruction of usage, please refer to **[UTokyo Microsoft Teams User Manual (written in Japanese only)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/%E3%80%8C%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%88_Microsoft_Teams%E5%88%A9%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%8820210311%EF%BC%89%E3%80%8D.pdf)** (accessible only to faculty and staff and written in only Japanese).
 
 #### "Team" Function
 {:#team_function}
@@ -82,7 +82,7 @@ In November 2022, as part of our efforts to "utilize IT tools," in addition to t
 
 **Available only to faculty and staff**
 
-An email account with the domain `@mail.u-tokyo.ac.jp` is provided as a "staff email" (application required). For an explanation of the usage procedure, including how to apply, please see the **[Email System for Staff](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_system_for_staff.aspx)** page on the UTokyo Portal (accessible only to faculty and staff).
+An email account with the domain `@mail.u-tokyo.ac.jp` is provided as a "staff email" (application required). For an explanation of the usage procedure, including how to apply, please see the **[Email System for Staff](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_system_for_staff.aspx)** page on the UTokyo Portal (accessible only to faculty and staff and written in only Japanese).
 
 ### Other systems provided by Microsoft
 {:#misc}

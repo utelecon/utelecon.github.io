@@ -79,7 +79,7 @@ If you want to temporarily use a different Microsoft account, it is convenient t
 
 Incognito browsing is a function that allows you to use the browser without having the browser remember information such as browsing history or sign-in information. While using the incognito browsing function, not only is no information remembered, but the browser is also unaffected by information that is remembered when you normally use the browser. In other words, in incognito browsing, you can view web pages without being affected by the sign-in information stored in the browser. Therefore, if you sign in to a Microsoft account using the incognito browsing function, you can use the Microsoft system without being affected by the other Microsoft accounts you normally sign in to.
 
-Note that the incognito browsing method is only suitable if you want to temporarily sign in with a different account. This is because the information of the signed-in account is not retained even if you close the browser window. If you use a Microsoft account frequently and want to use it continuously, the "[Use multiple profiles](#profiles)" method described below is convenient.
+Note that the incognito browsing method is only suitable if you want to temporarily sign in with a different account. This is because the information of the signed-in account is deleted from the browser after closing the browser window. If you use a Microsoft account frequently and want to use it continuously, the "[Use multiple profiles](#profiles)" method described below is convenient.
 
 The name of the incognito browsing feature and the procedure for using it vary depending on the browser. For details, please refer to the official documentation for each browser listed below.
 
