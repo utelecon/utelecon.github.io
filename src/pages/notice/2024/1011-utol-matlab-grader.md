@@ -25,4 +25,3 @@ title: UTOLからMATLAB Graderを利用可能となりました
 * [UTokyo MATLAB Campus-Wide License](/matlab/)
 * [MATLAB Grader](https://jp.mathworks.com/products/matlab-grader.html): MATLAB Grader全般に関するサイト
 * [LTI を使用した LMS の連携(MathWorks 日本)](https://jp.mathworks.com/help/matlabgrader/integrate-lms-using-lti.html?s_tid=CRUX_lftnav): LTI連携に関するサイト
-* 
