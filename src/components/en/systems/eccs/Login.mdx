@@ -1,4 +1,4 @@
-import If from "@components/utils/If.astro";
+import Support from "@components/utils/Support.astro";
 
 {/**
   * @typedef {object} Props
@@ -10,6 +10,4 @@ import If from "@components/utils/If.astro";
 1. Press the power button on the ECCS terminal to turn it on.
 2. In the log-in screen that appears, enter your UTokyo Account username (10-digit number) and password.
 
-<If cond={props.support}>
-- If this procedure does not work, please consult the [ECCS tutors](https://www.sodan.ecc.u-tokyo.ac.jp/about-us/tutors-working/) (student staff) who are available at the main terminal locations.
-</If>
+<Support lang="en" show={props.support}>If this procedure does not work, please consult the [ECCS tutors](https://www.sodan.ecc.u-tokyo.ac.jp/about-us/tutors-working/) (student staff) who are available at the main terminal locations.</Support>
