@@ -13,6 +13,12 @@ breadcrumb:
 
 東京大学では，Microsoft社の情報システムを利用することができるライセンス「[**UTokyo Microsoft License**](..)」が提供されています．これを利用すれば，UTokyo Accountを用いてMicrosoftにサインインすることにより，OneDriveの各種機能を使用することができます．
 
+## ストレージ容量について
+
+UTokyo Microsoft Licenseは，組織契約により提供されるため，個人のMicrosoftアカウントと異なり，**一人あたり50 GBまでのストレージ容量を利用できます**．
+
+なお，ストレージ容量は有償で拡張することができます．詳しくはUTokyo Portalに掲載されている「[OneDriveのストレージ容量拡張申請について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/OneDrive_Change_Storage_Limit.aspx)」（教職員限定）を参照してください．
+
 ## 利用手順
 ここでは，UTokyo Microsoft Licenseのもと，ブラウザ上でOneDriveを利用する手順を説明します．
 
