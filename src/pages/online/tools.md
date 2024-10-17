@@ -33,7 +33,7 @@ Webexは，Cisco社の提供するWeb会議システムです．[Slido](/slido/)
 ### Google Meet
 Google Meetは，GoogleがGoogle Workspaceの一部として提供しているWeb会議システムです．GoogleカレンダーなどGoogleの各種サービスとの連携が充実していることが特徴です．
 
-- **[Google Meet 説明ページ](/meet/)**：使い方をまとめています．
+- **[Google Meet 説明ページ](/google/meet/)**：使い方をまとめています．
 
 
 

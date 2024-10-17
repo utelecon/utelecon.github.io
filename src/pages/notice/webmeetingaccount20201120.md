@@ -31,7 +31,7 @@ Webex の利用については申請は不要となりました。
 
 教職員学生が 同時接続数1000 人までの meetings, trainings, events機能を利用できます。
 
-## [Google Meet](/meet/)
+## [Google Meet](/google/meet/)
 
 現在の大学ライセンスを継続して利用できます。 ECCSクラウドメールのアカウントで同時接続数100 人までの Meet機能、高解像度の録画機能などが利用できます。
 

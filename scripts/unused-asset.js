@@ -40,7 +40,7 @@ const parser = unified().use(rehypeParse);
 const [dists, srcs, optimizedImgs] = await Promise.all([
   glob("dist/**/*.html"),
   // Files whose extension is not in DOCUMENT_EXTS and not starting with "_"
-  // e.g. `src/pages/en/meet/img/meet.png`
+  // e.g. `src/pages/en/google/meet/img/meet.png`
   glob("src/pages/**/!(_)*", {
     ignore: `src/pages/**/*{${DOCUMENT_EXTS.join(",")}}`,
     nodir: true,
