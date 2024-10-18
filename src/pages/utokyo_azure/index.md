@@ -4,12 +4,14 @@ title: "UTokyo Azure"
 
 ## UTokyo Azure とは
 
-2023年8月に東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付が行われることとなりました．
+　2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付が行われることとなりました．
 
-UTokyo Azure は，本寄付による Microsoft Azure のクラウドサービスを東京大学の構成員に広く利用可能とするサービスの名称です．Microsoft Azure には，
+　UTokyo Azure は，本寄付による Microsoft Azure のクラウドサービスを東京大学の構成員に広く利用可能とするサービスの名称です．Microsoft Azure には，
 - 普通の Linux や Windows 環境を立ち上げる，いわゆる仮想マシンサービス
 - 複数の Linux サーバをクラスタ（高性能計算環境）として運用するサービス
-の他に，
+
+という基本的なクラウドサービスの他に，
+
 - Jupyter Notebook などのブラウザベースで利用できる計算環境
 - OpenAI の AI システムをブラウザ経由で利用するサービスや，それをAPI で利用するサービス
 なども提供されています．また，計算機の種類としてもCPU, GPU多種多様なプロセッサやメモリ量を選択でき，様々な用途，分野で利用が可能です．
@@ -26,12 +28,12 @@ UTokyo Azure は，本寄付による Microsoft Azure のクラウドサービ�
 - クレジットは1年毎に5年間提供される予定で有限であることから，大学全体での利用総量を制御しその範囲で提供する．年毎に総量を上回った分についてはその利用量に応じた課金を利用者に対して行う
 
 ## 使ってみる
-- [Azure Portal](https://portal.azure.com/)には UTokyo Account で直ちにログインできます．どのようなサービスが使えるかなどを見ることが出来ます．
-- 実際に UTokyo Azure の利用をするには，あなたのアカウントに紐付いた「サブスクリプション（お財布のようなもの）」を開設する必要があります．そのためにまず[東京大学 Azureクラウド利用申請ページ](https://script.google.com/a/g.ecc.u-tokyo.ac.jp/macros/s/AKfycbyzKZheGNshmHKdFF45a5bhRyprnZ3NWhZ2YeeO3ZgvVPTEmt2ITC_ckW1-bcnoY_o_vw/exec)から申し込みをして下さい．
+- [Azure Portal](https://portal.azure.com/)には UTokyo Account で直ちにログインできます．どのようなサービスが使えるかな どを事前に確認することが出来ます．
+- 実際にUTokyo Azure の利用を開始するには，あなたのアカウントに紐付いた，本サービス専用の「サブスクリプション（お財布の ようなもの）」を開設する必要があります．そのためにまず[東京大学 Azureクラウド利用申請ページ](https://script.google.com/a/g.ecc.u-tokyo.ac.jp/macros/s/AKfycbyzKZheGNshmHKdFF45a5bhRyprnZ3NWhZ2YeeO3ZgvVPTEmt2ITC_ckW1-bcnoY_o_vw/exec)から申し込みをして下さい．
 
 ## 利用例
 
-### [仮想マシン (Virtual Machines) ](virtualmachine)
+### [仮想マシン (Virtual Machines) の作成](virtualmachine)
 
 ### Azure Machine Learning
 
@@ -42,5 +44,5 @@ UTokyo Azure は，本寄付による Microsoft Azure のクラウドサービ�
 ## 複数人グループでの利用
 
 ## 問い合わせ先
-UTokyo Azure サポート担当
+　UTokyo Azure サポート担当
 - utokyo-azure-group@g.ecc.u-tokyo.ac.jp
