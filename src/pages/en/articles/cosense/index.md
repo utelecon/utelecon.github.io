@@ -38,13 +38,13 @@ For public projects that can be viewed by anyone, all functions can be used free
 
 Note that a Google account is required to use the free version.
 
-It may cost for business use. For details, please check the Cosense "[Pricing Plans](https://scrapbox.io/pricing)" page.
+It may cost for business use. For details, please check the Cosense "[Pricing Plans](https://cosen.se/pricing)" page.
 
 
 ## Creating an Account
 In this section, you will learn how to create an account with Google Account.
 
-Access the website of Cosense  ([https://scrapbox.io/product](https://scrapbox.io/product)) from your browser and click the "TRY IT FOR FREE" button.
+Access the website of Cosense  ([https://cosen.se/product](https://cosen.se/product)) from your browser and click the "TRY IT FOR FREE" button.
 
 <figure>
 <img src="2.png">
