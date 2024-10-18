@@ -11,7 +11,7 @@ title: "仮想マシンの作成:UTokyo Azure 利用例"
 {:#select_service}
 
 - 事前に以下サイトよりサブスクリプションを申請してください．
-  - [東京大学 Azureクラウド利用申請ページ](https://script.google.com/a/g.ecc.u-tokyo.ac.jp/macros/s/AKfycbyzKZheGNshmHKdFF45a5bhRyprnZ3NWhZ2YeeO3ZgvVPTEmt2ITC_ckW1-bcnoY_o_vw/exec) ※UTokyo Account 所持者のみアクセス可
+  - 東京大学 Azureクラウド利用申請ページ(公開時にリンク) ※UTokyo Account 所持者のみアクセス可
 
 - [Azure portal](https://potral.azure.com/)に[UTokyo Account](/utokyo_account)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．
 
