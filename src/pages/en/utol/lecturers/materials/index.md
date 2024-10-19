@@ -19,11 +19,11 @@ In UTOL, all materials are managed as “course materials”. Each individual ma
 
 The “course materials” can be divided into sections for each class (e.g. “1st Lecture Materials (4/6)”) or for each group of content (e.g. “Criminal Procedure Law-related Materials”). Furthermore, using the “[label function](/en/utol/lecturers/settings/#label)”, you can also manage the “course materials” by attaching labels (e.g. “For 1st year students”) that are common for assignments and tests.
 
-### "Files" and "Links"
+### “Files” and “Links”
 
-There are two types of teaching materials in the "Course Materials", "Files" and "Links". "Files" are files uploaded directly to UTOL, while "Links" are links to external sites.
+There are two types of teaching materials in the “Course Materials”, “Files” and “Links”. “Files” are files uploaded directly to UTOL, while “Links” are links to external sites.
 
-The main difference between these two types of teaching materials is the file size. Only files of **100MB or less** can be uploaded as "Files". For this reason, you will need to upload larger files to an external site and then post the link to the upload destination as a “link”. For example, you could upload class slides directly as “files”, while uploading class recordings to Google Drive, YouTube, etc. and posting the links as “links”.
+The main difference between these two types of teaching materials is the file size. Only files of **100MB or less** can be uploaded as “Files”. For this reason, you will need to upload larger files to an external site and then post the link to the upload destination as a “link”. For example, you could upload class slides directly as “files”, while uploading class recordings to Google Drive, YouTube, etc. and posting the links as “links”.
 
 Even if the file size is small, you can also manage it using “Links”. This is the case when you manage the materials on an external site (e.g. Google Slides).
 
@@ -45,7 +45,7 @@ The “Materials Editing” page will open. Please fill in or select the followi
 
 [Insert image #2]
 
-* "Title" (Required)
+* “Title” (Required)
 
   * Example: Lecture materials for the first class (4/6)
 * “Contents”
@@ -98,7 +98,7 @@ The “Materials Editing” page will open. Please fill in or select the followi
 
     * A list of enrolled students will be displayed, so check the boxes of the students who you want to make the material available to.
 
-When you have finished filling in, click the "Confirm” button to proceed.
+When you have finished filling in, click the “Confirm” button to proceed.
 The “Check Registration Information screen” page will open, so please check the details and click the “Register” button.
 
 [Insert image #4]
