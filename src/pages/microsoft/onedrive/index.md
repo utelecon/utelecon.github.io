@@ -17,7 +17,7 @@ breadcrumb:
 
 UTokyo Microsoft Licenseは，組織契約により提供されているため，個人のMicrosoftアカウントと異なり，**一人あたり50GBまでのストレージ容量を利用できます**．
 
-なお，ストレージ容量は有償で拡張することができます．詳しくはUTokyo Portalに掲載されている「[OneDriveのストレージ容量拡張申請について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/OneDrive_Change_Storage_Limit.aspx)」（教職員限定）を参照してください．
+なお，ストレージ容量は有償で拡張することができます．詳しくはUTokyo Portalに掲載されている「[OneDriveのストレージ容量拡張申請について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/OneDrive_Change_Storage_Limit.aspx)」（教職員限定）を参照してください．また，学生や予算をもたない教職員でも，予算を持つ教職員の許可があれば容量の拡張が可能ですので，指導教員等にご相談ください．
 
 ## 利用手順
 ここでは，UTokyo Microsoft Licenseのもと，ブラウザ上でOneDriveを利用する手順を説明します．
