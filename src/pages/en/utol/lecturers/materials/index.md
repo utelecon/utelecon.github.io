@@ -15,15 +15,15 @@ The course materials can be managed and viewed by the course instructors, TAs an
 
 ### “Course Materials” and “Supplementary Course Materials”
 
-In UTOL, all materials are managed as “course materials”. Each individual material is called a “supplementary course materials”, and these are grouped together at regular intervals to form the “course materials”.  Settings such as the publication period and publication targets can be set for each “course material”.
+In UTOL, all materials are managed as “course materials”. Each individual material is called a “supplementary course materials”, and these are grouped together at regular intervals to form the “course materials”. Settings such as the publication period and publication targets can be set for each “course material”.
 
 The “course materials” can be divided into sections for each class (e.g. “1st Lecture Materials (4/6)”) or for each group of content (e.g. “Criminal Procedure Law-related Materials”). Furthermore, using the “[label function](/en/utol/lecturers/settings/#label)”, you can also manage the “course materials” by attaching labels (e.g. “For 1st year students”) that are common for assignments and tests.
 
 ### "Files" and "Links"
 
-There are two types of teaching materials in the "Course Materials", "Files" and "Links".  "Files" are files uploaded directly to UTOL, while "Links" are links to external sites.
+There are two types of teaching materials in the "Course Materials", "Files" and "Links". "Files" are files uploaded directly to UTOL, while "Links" are links to external sites.
 
-The main difference between these two types of teaching materials is the file size.   Only files of **100MB or less** can be uploaded as "Files".  For this reason, you will need to upload larger files to an external site and then post the link to the upload destination as a “link”. For example, you could upload class slides directly as “files”, while uploading class recordings to Google Drive, YouTube, etc. and posting the links as “links”.
+The main difference between these two types of teaching materials is the file size. Only files of **100MB or less** can be uploaded as "Files". For this reason, you will need to upload larger files to an external site and then post the link to the upload destination as a “link”. For example, you could upload class slides directly as “files”, while uploading class recordings to Google Drive, YouTube, etc. and posting the links as “links”.
 
 Even if the file size is small, you can also manage it using “Links”. This is the case when you manage the materials on an external site (e.g. Google Slides).
 
@@ -41,7 +41,7 @@ To register new course materials, open the “Course Top” screen and click the
 
 [Insert image #1]
 
-The “Materials Editing” page will open.  Please fill in or select the following information (explanation will be given over two images).
+The “Materials Editing” page will open. Please fill in or select the following information (explanation will be given over two images).
 
 [Insert image #2]
 
@@ -83,7 +83,7 @@ The “Materials Editing” page will open.  Please fill in or select the follow
   * If you want to delete a course material that you have already added, click the button in the “Operations” section at the bottom of the screen and select “Delete”.
 
 * “Target audience”
-  * Select who you want to make the materials available to.  You can choose from the following three types.
+  * Select who you want to make the materials available to. You can choose from the following three types.
   * “All Enrolled Students”
   * “User Group”
     * User groups must be registered in advance.
@@ -94,7 +94,7 @@ The “Materials Editing” page will open.  Please fill in or select the follow
     * Click the group name to see the enrolled students who belong to the group.
   * “Select Enrolled Students”
 
-    *  To make the content available to specific students, you can select them individually from the list of enrolled students.
+    * To make the content available to specific students, you can select them individually from the list of enrolled students.
 
     * A list of enrolled students will be displayed, so check the boxes of the students who you want to make the material available to.
 
@@ -116,9 +116,9 @@ The “Check Registration Information screen” page will open, so please check 
 
 ## Viewing Course Materials
 
-This section explains how to view registered course materials. Not only enrolled students, but also instructors, TAs and course designers can view registered course materials. 
+This section explains how to view registered course materials. Not only enrolled students, but also instructors, TAs and course designers can view registered course materials.
 
-This means that when you actually teach the class,  you can display images, slides, resumes, etc. on UTOL without having to search for the files on your device. It is also useful for checking how registered course materials are viewed by enrolled students.
+This means that when you actually teach the class, you can display images, slides, resumes, etc. on UTOL without having to search for the files on your device. It is also useful for checking how registered course materials are viewed by enrolled students.
 
 UTOL also has a function that allows you to preview some types of course materials. By previewing them on UTOL, you can check the contents of files with the following extensions without having to download them to your device.
 
