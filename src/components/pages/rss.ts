@@ -18,13 +18,14 @@ interface RssParams {
   lang: Lang;
 }
 
-export async function rss({ title, description, url }: RssParams) {
+export async function rss({ title, description, url, lang }: RssParams) {
   const itemsMap = new Map<string, RSSFeedItem>();
 
   for (const notice of noticesWithIdReversed) {
-    if (!notice.content.ja) continue;
+    const content = notice.content[lang] ?? notice.content.ja;
+    if (!content) continue;
 
-    const mdast = parser.parse(notice.content.ja);
+    const mdast = parser.parse(content);
     const hast = toHast(mdast);
     const title = toText(hast);
     const a = select("p > a:only-child[href]", hast);
