@@ -2,17 +2,26 @@
 
 #notice,
 h1:has(.rss_icon) {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   .rss_icon {
-    display: inline-block;
-    position: absolute;
-    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
     color: $heading-color;
     font-family: "Material Icons";
     font-size: 1.125em;
     text-decoration: none;
+    line-height: 0.8;
     &:hover {
       text-decoration: none;
+    }
+    &::after {
+      display: inline-block;
+      font-size: 0.3em;
+      content: "RSS";
     }
   }
 }
