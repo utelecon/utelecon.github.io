@@ -14,18 +14,16 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
   * - `./index.mdx`
   * 
   * 利用ページ：
-  * - https://utelecon.adm.u-tokyo.ac.jp/oc/#important
   * - https://utelecon.adm.u-tokyo.ac.jp/oc/#utokyo_wifi
   * - https://utelecon.adm.u-tokyo.ac.jp/utokyo_wifi/#利用開始までの手順
   */}
 
 {/**
   * @typedef {object} Props
-  * @property {boolean} support
+  * @property {boolean} [support]
   * @property {boolean} [inlineHelp]
   * @property {boolean} [blockLink]
   * @property {boolean} [utasOnly]
-  * @property {JSX.Element} jouhouSecurity
   */}
 
 1. <If cond={props.blockLink}>
