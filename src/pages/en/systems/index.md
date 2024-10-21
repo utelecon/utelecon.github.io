@@ -37,7 +37,7 @@ Please also refer to the following.
 - **[ECCS Terminals](https://www-old.ecc.u-tokyo.ac.jp/en/)**: These are computers located on campus. Please note that you need to apply for usage rights in advance.
 - **[UTokyo VPN](/en/utokyo_vpn/)**: This system allows you to access administrative systems that are restricted to the university network from outside the campus.
 - **[University of Tokyo Online Lecture Search System (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/en/)**：This system is used to verify URLs for online classes. For more details, please also refer to the pages "[How to Obtain the Online Class URL (for Students)](/en/oc/url)" and "[How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url)".
-- [For Faculty and Staff]**[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**: This is the university portal site for faculty and staff.
+- [For Faculty and Staff] **[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**: This is the university portal site for faculty and staff.
 
 ### Library and Electronic Journal Resources
 
