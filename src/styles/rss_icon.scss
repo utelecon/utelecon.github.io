@@ -1,7 +1,6 @@
 @import "color";
 
-#notice,
-h1:has(.rss_icon) {
+:is(h1, h2, h3, h4):has(.rss_icon) {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,6 +21,8 @@ h1:has(.rss_icon) {
       display: inline-block;
       font-size: 0.3em;
       content: "RSS";
+      font-family: "Open Sans Variable", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
     }
   }
 }
