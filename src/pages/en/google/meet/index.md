@@ -1,13 +1,16 @@
 ---
 title: Google Hangouts Meet
+breadcrumb:
+  title: Meet
 redirect_from:
   - /en/google_hangouts_meet/
+  - /en/meet/
 ---
 
 ## Introduction
 
 * Any UTokyo account holder (i.e., student or teacher) can use <a href="https://workspace.google.com/intl/en/products/meet/" target="_blank">Google Hangout Meet</a> as follows.
-  * Video Conference: interactive video communication,  audio communication, showing handouts on screens. If one starts the conference, others join to the session. Organizers need to have UTokyo account, while attendees do not need an UTokyo account.  
+  * Video Conference: interactive video communication, audio communication, showing handouts on screens. If one starts the conference, others join to the session. Organizers need to have UTokyo account, while attendees do not need an UTokyo account.  
   * Live Broadcast: Organizers can send video clips, voice and handouts to the other participants. However, participants cannot send files to organizers.
   * Record Broadcasting: Organizers record their video clip in advance and share the clip on Google drive or broadcast on YouTube. 
 
@@ -39,7 +42,7 @@ One should be the organizer at the conference. The organizers arrange the meetin
      <blockquote>
        <a href="img/meet_no_login.png" target="_blank"><img src="img/meet_no_login.png" width="250"></a>
      </blockquote>
-   * Caution 2: If the screen shows " this account can participate in the meeting only" then you check your accont. You may log in your private account (i.e. `xxxx@gmail.com`). Please switch your account to  G Suite account (`xxxx@g.ecc.u-tokyo.ac.jp`)." You can switch account on top right button (See below) or you re-enter  G Suite account.
+   * Caution 2: If the screen shows " this account can participate in the meeting only" then you check your account. You may log in your private account (i.e. `xxxx@gmail.com`). Please switch your account to  G Suite account (`xxxx@g.ecc.u-tokyo.ac.jp`)." You can switch account on top right button (See below) or you re-enter  G Suite account.
      <blockquote>
        <a href="img/meet_participate_only.png" target="_blank"><img src="img/meet_participate_only.png" width="250"></a>
      </blockquote>
@@ -47,11 +50,11 @@ One should be the organizer at the conference. The organizers arrange the meetin
    <blockquote>
      <a href="https://www.ecc.u-tokyo.ac.jp/files/2020/03/04/meet_ready2.png" target="_blank"><img src="img/meet_ready2.png" width="400"></a>
    </blockquote>
-1. After you click "start the meeting", you can see this screen below. Fill in the meeting name, if needed (no name is fine). Click " continue".
+1. After you click "start the meeting", you can see this screen below. Fill in the meeting name, if needed (no name is fine). Click "continue".
    <blockquote>
      <a href="img/meet_name.png" target="_blank"><img src="img/meet_name.png" width="400"></a>
    </blockquote>
-1. You see the screen above. You notify URL (e.g.   (`https://meet.google.com/xxx-xxxx-xxx`)  to your participants by email. You can copy the URL and paste directly onto the email. 
+1. You see the screen above. You notify URL (e.g. `https://meet.google.com/xxx-xxxx-xxx`)  to your participants by email. You can copy the URL and paste directly onto the email. 
    <blockquote>
       <a href="img/meet_copy.png" target="_blank"><img src="img/meet_copy.png" width="400"></a>
    </blockquote>
@@ -143,7 +146,7 @@ Organizers should prepare for broadcasting as follows.
     </blockquote>
 
     By doing so, URL has been copied onto the clipboard. You now can paste on the information in the given email. You can use UTOL to let students know the URL. Switch on "Mail and LINE notification" on "nofitication", and then only class participants will obtain URL.
-1. <font color="red">Only ECCS Cloud Mail holders (e.g. `xxxx@g.ecc.u-tokyo.ac.jp`) can see live streaming.</font> Below is an example of the invitation (HTML versiton). 
+1. <font color="red">Only ECCS Cloud Mail holders (e.g. `xxxx@g.ecc.u-tokyo.ac.jp`) can see live streaming.</font> Below is an example of the invitation (HTML version). 
 
 ```
       Invitation of Live streaming: 「◯◯◯◯◯」
