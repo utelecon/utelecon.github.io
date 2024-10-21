@@ -40,7 +40,7 @@ ECCSクラウドメールのアカウントに対するGoogle Workspace for Educ
 
 ### 確認手順
 
-1. Google Meetで、[トップページから会議を作成](../../meet/#create_meeting)します。
+1. Google Meetで、[トップページから会議を作成](../../meet/#create_meeting_from_meet_page)します。
 2. 画面右下の「アクティビティ」のアイコンをクリックします．
    ![](./activity_button.png){:.medium}
 3. 機能の利用可否を確認します．
