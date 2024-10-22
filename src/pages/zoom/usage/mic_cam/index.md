@@ -1,4 +1,10 @@
-# Zoomのオーディオとビデオの使い方
+---
+title: Zoom オーディオとビデオの使い方
+redirect_from:
+  - /zoom/how/common/use_mic_and_camera
+breadcrumb:
+  title: オーディオとビデオの使い方
+---
 
 ## はじめに
 
