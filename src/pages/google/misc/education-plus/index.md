@@ -7,7 +7,7 @@ breadcrumb:
 ## 概要
 {:#overview}
 
-東京大学では、Google Workspace for Education Plusのライセンスを契約しています。これは、[Google Workspace for Education（ECCSクラウドメール）の容量制限](https://www-old.ecc.u-tokyo.ac.jp/announcement/2021/10/29_3366.html)に伴い、大学全体でのストレージ容量を増やすため、2023年11月1日から契約しているもので、当面の間は毎年契約を更新する予定です。
+東京大学では，Google Workspace for Education Plusのライセンスを契約しています．これは，[Google Workspace for Education（ECCSクラウドメール）の容量制限](https://www-old.ecc.u-tokyo.ac.jp/announcement/2021/10/29_3366.html)に伴い，大学全体でのストレージ容量を増やすため，2023年11月1日から契約しているもので，当面の間は毎年契約を更新する予定です．
 
 Google Workspace for Education Plusは，大学全体でのストレージ容量の増加，管理者向けの機能強化以外にも，個人にライセンスを付加することにより，ECCSクラウドメールの機能が以下のように強化されます．
 
@@ -17,19 +17,19 @@ Google Workspace for Education Plusは，大学全体でのストレージ容量
 
 その他の機能の違いは，[Google Workspace for Educationのエディションの比較](https://edu.google.com/intl/ALL_jp/workspace-for-education/editions/compare-editions/)をご覧ください．
 
-なおGoogle Workspace for Education Plusは、学生と教職員で異なるライセンスとなっており、ライブストリーミング機能の使用可否など、一部機能に差異があります。
+なおGoogle Workspace for Education Plusは，学生と教職員で異なるライセンスとなっており，ライブストリーミング機能の使用可否など，一部機能に差異があります．
 
 ## ライセンスの申請・付加
 {:#apply-and-grant}
 
-ECCSクラウドメールのアカウントに対するGoogle Workspace for Education Plusのライセンスの付加は、利用者からの申請に基づいて行なっています。
+ECCSクラウドメールのアカウントに対するGoogle Workspace for Education Plusのライセンスの付加は，利用者からの申請に基づいて行なっています．
 
-- ライセンスの付加を希望するユーザは、下記の申請フォームを送信してください。
-    - 申請フォームでは，氏名のほか、学生・教職員の別を正しく入力してください。
-    - 学生・教職員の別を間違えて申請フォームを送信してしまった場合や、学生・教職員の身分が変更になった場合は、再度申請フォームを送信してください。
-    - 申請フォームの送信後、数分程度で自動的にライセンスが付与されます。また、ライセンスが付与された旨のメールが送信されます。
-- Google Workspace for Education Plusのライセンスが不要になった場合でも、取り消しの必要はありません。
-    - すでに身分に応じたライセンスが付いていれば問題ありません。
+- ライセンスの付加を希望するユーザは，下記の申請フォームを送信してください．
+    - 申請フォームでは，氏名のほか，学生・教職員の別を正しく入力してください．
+    - 学生・教職員の別を間違えて申請フォームを送信してしまった場合や，学生・教職員の身分が変更になった場合は，再度申請フォームを送信してください．
+    - 申請フォームの送信後，数分程度で自動的にライセンスが付与されます．また，ライセンスが付与された旨のメールが送信されます．
+- Google Workspace for Education Plusのライセンスが不要になった場合でも，取り消しの必要はありません．
+    - 身分に応じたライセンスであれば，ライセンスが付与されたまま使用して問題ありません．
 
 <b class="box center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd2rXNIL_grmiDU_XG5uFMCNNfWhoqDpK5iemvFUsBN2RUeaA/viewform?usp=sf_link">Google Workspace for Education Plusライセンス申請フォーム</a></b>
 
@@ -39,7 +39,7 @@ ECCSクラウドメールのアカウントに対するGoogle Workspace for Educ
 
 ### 確認手順
 
-1. Google Meetで、[トップページから会議を作成](../../meet/#create_meeting_from_meet_page)します。
+1. Google Meetで，[トップページから会議を作成](../../meet/#create_meeting_from_meet_page)します．
 2. 画面右下の「アクティビティ」のアイコンをクリックします．
    ![](./activity_button.png){:.medium}
 3. 機能の利用可否を確認します．
