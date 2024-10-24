@@ -70,7 +70,7 @@ Teams is an application that is used for chats, video meetings and so on. For th
 #### "Team" Function
 {:#team_function}
 
-In November 2022, as part of our efforts to "utilize IT tools," in addition to the traditional "teams" based on the hierarchical structure of administrative organizations, it will become possible to use "teams" that can be composed of any members (application required). For manuals, please see below (accessible only to faculty and staff).
+In November 2022, as part of our efforts to "utilize IT tools," in addition to the traditional "teams" based on the hierarchical structure of administrative organizations, it will become possible to use "teams" that can be composed of any members (application required). For manuals, please see below (accessible only to faculty and staff and written in only Japanese).
 - **[Teams Administrator Manual](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/Teams%E7%AE%A1%E7%90%86%E8%80%85%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB.pdf)** (Manual for team administrators, including an explanation of the position of the "team" function at the UTokyo)
 - **[About creating and operating Teams](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx )**
 - **[About Teams team folders](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Share_Teams_files.aspx )**
