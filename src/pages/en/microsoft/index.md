@@ -65,7 +65,7 @@ For information on how to create and edit files on OneDrive using Microsoft Offi
 
 **Available only to faculty and staff**
 
-Teams is an application that is used for chats, video meetings and so on. For the instruction of usage, please refer to **[UTokyo Microsoft Teams User Manual (written in Japanese only)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/%E3%80%8C%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%88_Microsoft_Teams%E5%88%A9%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%8820210311%EF%BC%89%E3%80%8D.pdf)** (accessible only to faculty and staff and written in only Japanese).
+Teams is an application that is used for chats, video meetings and so on. For the instruction of usage, please refer to **[UTokyo Microsoft Teams User Manual (written in only Japanese)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/%E3%80%8C%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%88_Microsoft_Teams%E5%88%A9%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%8820210311%EF%BC%89%E3%80%8D.pdf)** (accessible only to faculty and staff).
 
 #### "Team" Function
 {:#team_function}
