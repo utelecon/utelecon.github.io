@@ -80,9 +80,9 @@ The “Materials Editing” page will open. Please fill in or select the followi
   * You can add multiple course materials by repeating the two steps mentioned above.
     * Please note that you can only add up to 30 files at one time.
 
-  * If you want to delete a course material that you have already added, click the button in the “Operations” section at the bottom of the screen and select “Delete”.
+  * If you want to delete a course material that you have already added, click the button in the “Actions” section at the bottom of the screen and select “Delete”.
 
-* “Target audience”
+* “Published target”
   * Select who you want to make the materials available to. You can choose from the following three types.
   * “All Enrolled Students”
   * “User Group”
@@ -92,14 +92,14 @@ The “Materials Editing” page will open. Please fill in or select the followi
       * [Using user group function in UTOL (for Course Instructors / TAs)](/en/utol/lecturers/settings/user_groups/)
 
     * Click the group name to see the enrolled students who belong to the group.
-  * “Select Enrolled Students”
+  * “Select Enrolled Student(s)”
 
     * To make the content available to specific students, you can select them individually from the list of enrolled students.
 
     * A list of enrolled students will be displayed, so check the boxes of the students who you want to make the material available to.
 
 When you have finished filling in, click the “Confirm” button to proceed.
-The “Check Registration Information screen” page will open, so please check the details and click the “Register” button.
+The “Check Registration Confirm of registration” page will open, so please check the details and click the “Register” button.
 
 ![](./04-settings-confirm.png)
 
@@ -132,7 +132,7 @@ UTOL also has a function that allows you to preview some types of course materia
 
     ![](./06-preview-entry.drawio.png)
 
-2. This will take you to the “Screen for viewing”. There, select the file you want to view from the “course materials” column and click it.
+2. This will take you to the “Screen for viewing”. There, select the file you want to view from the “Course Materials” column and click it.
 3. A pop-up window will appear saying “Preview or download file”. Click the “View” button or the “Download” button.
 4. When you have finished viewing, click the “Screen for editing” button at the top of the screen to return to the editing page.
 
@@ -144,7 +144,7 @@ The course instructors and TAs can check which enrolled students have viewed the
 
 ### Procedure
 
-1. Open the “Course Top” page, and in the “Course Materials” column, click the ![⋮](../../_icons/control_btn_icon.png) button in the “Operations” column to the right of the file name for which you want to check the viewing status.
+1. Open the “Course Top” page, and in the “Course Materials” column, click the ![⋮](../../_icons/control_btn_icon.png) button in the “Actions” column to the right of the file name for which you want to check the viewing status.
 
     ![](./07-viewing-status-entry.drawio.png)
 
