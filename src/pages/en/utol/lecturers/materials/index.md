@@ -37,7 +37,7 @@ This section explains the procedure for managing course materials (registering, 
 
 ### Procedure for registering course materials
 
-To register new course materials, open the “Course Top” screen and click the![][image1] button at the bottom left of the “Course Materials” section.
+To register new course materials, open the “Course Top” screen and click the ![+](../../_icons/add_coursetop.png) button at the bottom left of the “Course Materials” section.
 
 ![](./01-settings-entry.drawio.png)
 
@@ -105,9 +105,9 @@ The “Check Registration Information screen” page will open, so please check 
 
 ### Procedure for updating and deleting course materials
 
-1. Open the “Course Top” screen and click the ![][image2]button to the right of the course material name in the “Course Materials” section.
+1. Open the “Course Top” screen and click the ![pencil](../../_icons/edit.png) button to the right of the course material name in the “Course Materials” section.
 
-    ![](./04-settings-confirm.png)
+    ![](./05-edit-entry.drawio.png)
 
 2. This will take you to the Course Materials Edit screen, where you can update or delete the contents.
 
@@ -144,7 +144,7 @@ The course instructors and TAs can check which enrolled students have viewed the
 
 ### Procedure
 
-1. Open the “Course Top” page, and in the “Course Materials” column, click the ![][image3]button in the “Operations” column to the right of the file name for which you want to check the viewing status.
+1. Open the “Course Top” page, and in the “Course Materials” column, click the ![⋮](../../_icons/control_btn_icon.png) button in the “Operations” column to the right of the file name for which you want to check the viewing status.
 
     ![](./07-viewing-status-entry.drawio.png)
 
