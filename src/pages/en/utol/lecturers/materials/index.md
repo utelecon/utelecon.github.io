@@ -39,11 +39,11 @@ This section explains the procedure for managing course materials (registering, 
 
 To register new course materials, open the “Course Top” screen and click the![][image1] button at the bottom left of the “Course Materials” section.
 
-[Insert image #1]
+![](./01-settings-entry.drawio.png)
 
 The “Materials Editing” page will open. Please fill in or select the following information (explanation will be given over two images).
 
-[Insert image #2]
+![](./02-settings-01.png)
 
 * “Title” (Required)
 
@@ -57,7 +57,7 @@ The “Materials Editing” page will open. Please fill in or select the followi
   * End date of publication: It is a good idea that, when to setting this date, to add some extra days so that students can view the materials up to the exam date or the final assignment deadline.
     * The end date of the semester is set as the default day. However, the **exam date and assignment deadline for some subjects may be later than the end date of the semester (especially in the A semester and A2 term)**, so please check the schedule carefully and set the date accordingly.
 
-[Insert image #3]
+![](./03-settings-02.png)
 
 * “Display Label”
   * To create a new label, click the “Create new display label” button.
@@ -101,13 +101,13 @@ The “Materials Editing” page will open. Please fill in or select the followi
 When you have finished filling in, click the “Confirm” button to proceed.
 The “Check Registration Information screen” page will open, so please check the details and click the “Register” button.
 
-[Insert image #4]
+![](./04-settings-confirm.png)
 
 ### Procedure for updating and deleting course materials
 
 1. Open the “Course Top” screen and click the ![][image2]button to the right of the course material name in the “Course Materials” section.
 
-    [Insert image #5]
+    ![](./04-settings-confirm.png)
 
 2. This will take you to the Course Materials Edit screen, where you can update or delete the contents.
 
@@ -130,7 +130,7 @@ UTOL also has a function that allows you to preview some types of course materia
 
 1. Open the course top screen and click the “Screen for viewing” button at the top of the screen.
 
-    [Insert image #6]
+    ![](./06-preview-entry.drawio.png)
 
 2. This will take you to the “Screen for viewing”. There, select the file you want to view from the “course materials” column and click it.
 3. A pop-up window will appear saying “Preview or download file”. Click the “View” button or the “Download” button.
@@ -146,11 +146,11 @@ The course instructors and TAs can check which enrolled students have viewed the
 
 1. Open the “Course Top” page, and in the “Course Materials” column, click the ![][image3]button in the “Operations” column to the right of the file name for which you want to check the viewing status.
 
-    [Insert image #7]
+    ![](./07-viewing-status-entry.drawio.png)
 
 2. Click the “Check view status” link.
 3. A table showing the viewing status will be displayed.
-    [Insert image #8]
+    ![](./08-viewing-status.png)
 
 4. To download in Excel file format:
 
