@@ -37,7 +37,7 @@ This section explains the procedure for managing course materials (registering, 
 
 ### Procedure for registering course materials
 
-To register new course materials, open the “Course Top” screen and click the ![+](../../_icons/add_coursetop.png) button at the bottom left of the “Course Materials” section.
+To register new course materials, open the “Course Top” screen and click the ![Register new course materials](../../_icons/add_coursetop.png) button at the bottom left of the “Course Materials” section.
 
 ![](./01-settings-entry.drawio.png)
 
@@ -105,7 +105,7 @@ The “Check Registration Information screen” page will open, so please check 
 
 ### Procedure for updating and deleting course materials
 
-1. Open the “Course Top” screen and click the ![pencil](../../_icons/edit.png) button to the right of the course material name in the “Course Materials” section.
+1. Open the “Course Top” screen and click the ![edit](../../_icons/edit.png) button to the right of the course material name in the “Course Materials” section.
 
     ![](./05-edit-entry.drawio.png)
 
