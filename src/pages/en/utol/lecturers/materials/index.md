@@ -28,8 +28,8 @@ The main difference between these two types of teaching materials is the file si
 Even if the file size is small, you can also manage it using “Links”. This is the case when you manage the materials on an external site (e.g. Google Slides).
 
 * Related:
-  * [Google Drive](/google/drive/)
-  * [Create and share videos](/articles/create_share_movie/)
+  * [Google Drive](/en/google/drive/)
+  * [Create and share videos](/en/articles/create_share_movie/)
 
 ## Managing course materials
 
@@ -37,7 +37,7 @@ This section explains the procedure for managing course materials (registering, 
 
 ### Procedure for registering course materials
 
-To register new course materials, open the “Course Top” screen and click the ![Register new course materials](../../_icons/add_coursetop.png) button at the bottom left of the “Course Materials” section.
+To register new course materials, open the “Course Top” screen and click the ![Register new course materials](../../_icons/add_coursetop.png){:.icon} button at the bottom left of the “Course Materials” section.
 
 ![](./01-settings-entry.drawio.png)
 
@@ -59,6 +59,7 @@ The “Materials Editing” page will open. Please fill in or select the followi
 
 ![](./03-settings-02.png)
 
+<!-- TODO: Replace here when the display label component is created -->
 * “Display Label”
   * To create a new label, click the “Create new display label” button.
   * To use a label that has already been created, select it from the drop-down menu and click “Add display label” to add it.
@@ -105,7 +106,7 @@ The “Check Registration Confirm of registration” page will open, so please c
 
 ### Procedure for updating and deleting course materials
 
-1. Open the “Course Top” screen and click the ![edit](../../_icons/edit.png) button to the right of the course material name in the “Course Materials” section.
+1. Open the “Course Top” screen and click the ![edit](../../_icons/edit.png){:.icon} button to the right of the course material name in the “Course Materials” section.
 
     ![](./05-edit-entry.drawio.png)
 
@@ -144,7 +145,7 @@ The course instructors and TAs can check which enrolled students have viewed the
 
 ### Procedure
 
-1. Open the “Course Top” page, and in the “Course Materials” column, click the ![⋮](../../_icons/control_btn_icon.png) button in the “Actions” column to the right of the file name for which you want to check the viewing status.
+1. Open the “Course Top” page, and in the “Course Materials” column, click the ![⋮](../../_icons/control_btn_icon.png){:.icon} button in the “Actions” column to the right of the file name for which you want to check the viewing status.
 
     ![](./07-viewing-status-entry.drawio.png)
 
@@ -160,6 +161,6 @@ The course instructors and TAs can check which enrolled students have viewed the
 ## Reference information
 
 * List of related pages
-  * [Google Drive](/google/drive/)
+  * [Google Drive](/en/google/drive/)
   * [Using user group function in UTOL (for Course Instructors / TAs)](/en/utol/lecturers/settings/user_groups/)
-  * [Create and share videos](/articles/create_share_movie/)
+  * [Create and share videos](/en/articles/create_share_movie/)
