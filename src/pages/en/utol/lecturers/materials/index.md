@@ -15,7 +15,7 @@ The course materials can be managed and viewed by the course instructors, TAs an
 
 ### “Course Materials” and “Supplementary Course Materials”
 
-In UTOL, all materials are managed as “course materials”. Each individual material is called a “supplementary course materials”, and these are grouped together at regular intervals to form the “course materials”. Settings such as the publication period and publication targets can be set for each “course material”.
+In UTOL, all materials are managed as “course materials”. Each individual material is called a “supplementary course materials”, and these are grouped together to form the “course materials”. Settings such as the publication period and publication targets can be set for each “course material”.
 
 The “course materials” can be divided into sections for each class (e.g. “1st Lecture Materials (4/6)”) or for each group of content (e.g. “Criminal Procedure Law-related Materials”). Furthermore, using the “[label function](/en/utol/lecturers/settings/#label)”, you can also manage the “course materials” by attaching labels (e.g. “For 1st year students”) that are common for assignments and tests.
 
@@ -50,11 +50,11 @@ The “Materials Editing” page will open. Please fill in or select the followi
   * Example: Lecture materials for the first class (4/6)
 * “Contents”
   * Enter a description of the course materials.
-* “Publication period” (Required)
+* “Publication period” (Required; Please check carefully)
   * Example: From the day before the start of classes to the day of the final exam
   * Start date and time of publication: To avoid a sudden increase in the load on UTOL immediately before the start of classes, it is a good idea to make the course materials available at least a day before the start of classes, so that students can download them in advance.
 
-  * End date of publication: It is a good idea that, when to setting this date, to add some extra days so that students can view the materials up to the exam date or the final assignment deadline.
+  * End date of publication: It is a good idea, when setting this date, to add some extra days so that students can view the materials up to the exam date or the final assignment deadline.
     * The end date of the semester is set as the default day. However, the **exam date and assignment deadline for some subjects may be later than the end date of the semester (especially in the A semester and A2 term)**, so please check the schedule carefully and set the date accordingly.
 
 ![](./03-settings-02.png)
