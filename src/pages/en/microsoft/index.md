@@ -14,7 +14,7 @@ breadcrumb:
 
 UTokyo Microsoft License is available to UTokyo members (students and faculty) with a UTokyo Account. However, the specific systems available through UTokyo Microsoft License vary depending on the student's enrollment or faculty registration. Some [main available systems](#systems) are restricted to a limited number of users, and the target users are clearly stated in each section. Conversely, systems that are not specifically mentioned in terms of target users are available to all UTokyo Account holders.
 
-### When UTokyo Account Expires
+### Cautions in case of leaving or changing affiliation
 {:#expire}
 
 If your UTokyo Account expires due to graduation or resignation, you will no longer be able to use the UTokyo Microsoft License systems. As a result, all related data, such as data stored in [OneDrive](#onedrive), will be lost. In addition, due to change in affiliation, you may no longer be able to use some functions that differ depending on your affiliation, such as Office apps. Before graduation, resignation, or change of affiliation, please refer to "[Notice on Account Revocation due to Graduation, Resignation or Change of Affiliation](/en/systems/leave/)" and back up your data.
