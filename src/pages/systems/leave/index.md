@@ -15,10 +15,15 @@ breadcrumb:
 
 ただし，学生が卒業・修了する場合のみUTokyo Accountは月末まで有効です．
 
-また，[UTokyo Antivirus License](/antivirus/)などの一部の情報システムには，離籍に伴って利用権限がなくなるにもかかわらず，自動的に利用が停止されないものがあります．それぞれの指示にしたがって利用を終了してください．
+また，一部の情報システムには，離籍に伴って利用権限がなくなるにもかかわらず，自動的に利用が停止されないものがあります．それぞれの指示にしたがって利用を終了してください．
 
-UTokyo Antivirus Licenseの対応については「[UTokyo Antivirus License 2023年度に卒業・離職される方への注意事項<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」を参照してください．
-- 既に東京大学を離籍されている場合には，UTokyo Accountにサインインできないため，上記のページを閲覧することができません．その場合は[サポート窓口のメールフォーム](/support/#email-form)にてお問い合わせください．
+特に，[UTokyo Antivirus License](/antivirus/)で提供されている製品をお使いの方は，離籍する前に手動でアンインストールする必要があります．
+- Windows版の場合は「プログラムの追加と削除」からアンインストールできます．
+- iOS版の場合は通常のアプリの削除手順でアンインストールできます．
+- Android版の場合はアプリ内の「設定」から「アンインストール」を選択することでアンインストールできます．
+- Mac版のApexOneをお使いの方は，アンインストールツールが必要になります．UTokyo Accountが失効するとアンインストールツールの取得ができなくなりますので，サポート窓口にお問い合わせください．
+- UTokyo Antivirus Licenseの対応の詳細については「[UTokyo Antivirus License 2023年度に卒業・離職される方への注意事項<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」を参照してください．
+- ※[こちらの部局及び提供製品](https://univtokyo.sharepoint.com/sites/antivirus/SitePages/Home.aspx#5.-%E6%8F%90%E4%BE%9B%E7%AA%93%E5%8F%A3)に該当する場合は、部局の受付窓口にご確認ください。
 
 ## 東京大学内で所属の変更がある場合
 {:#change}
