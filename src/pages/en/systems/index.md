@@ -6,7 +6,7 @@ This section introduces the university-wide systems related to education and res
 
 Please also refer to the following.
 
-- The list of systems available with a UTokyo Account is provided in [the UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/) (in Japanese).
+- The list of systems available with a UTokyo Account is provided in [the UTokyo Account Service Directory](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/Home.aspx) 
 - Selected information regarding systems for faculty and staff (such as administrative systems) is also available on [the UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal).
 - Information regarding systems for ICT administrators is compiled on [the University ICT Administrators' Information Page](/ict-admin) (in Japanese).
 - The page "**[Effective Use of Online Resources: Search Online Resources by Tool](/en/online/tools)**" introduces a variety of tools that can be used for online classes and activities. The resources listed are not limited to those officially operated or contracted by the university.
