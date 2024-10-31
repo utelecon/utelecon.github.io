@@ -43,7 +43,8 @@ title: "UTokyo Azure"
 
 ## 複数人グループでの利用
 
-## 問い合わせ先
+## FAQ・問い合わせ先
+[FAQ](utokyo_azure/faq)
 
 [Microsoft サポート](utokyo_azure/support)
 - Microsoft の担当者に問い合わせができます．技術的な問い合わせにはご活用ください．
