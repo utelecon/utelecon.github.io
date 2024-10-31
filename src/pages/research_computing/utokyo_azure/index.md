@@ -33,7 +33,7 @@ title: "UTokyo Azure"
 
 ## 利用例
 
-### [仮想マシン（Virtual Machines）の作成](utokyo_azure/virtualmachine)
+### [仮想マシン（Virtual Machines）の作成](virtualmachine)
 
 ### Azure Machine Learning
 
