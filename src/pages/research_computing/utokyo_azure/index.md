@@ -44,9 +44,9 @@ title: "UTokyo Azure"
 ## 複数人グループでの利用
 
 ## FAQ・問い合わせ先
-[FAQ](utokyo_azure/faq)
+[FAQ](faq)
 
-[Microsoft サポート](utokyo_azure/support)
+[Microsoft サポート](support)
 - Microsoft の担当者に問い合わせができます．技術的な問い合わせにはご活用ください．
 
 UTokyo Azure サポート担当
