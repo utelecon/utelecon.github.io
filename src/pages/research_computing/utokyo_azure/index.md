@@ -33,7 +33,7 @@ title: "UTokyo Azure"
 
 ## 利用例
 
-### [仮想マシン（Virtual Machines）の作成](utokyo_azure/virtualmachine)
+### [仮想マシン（Virtual Machines）の作成](virtualmachine)
 
 ### Azure Machine Learning
 
@@ -44,12 +44,12 @@ title: "UTokyo Azure"
 ## 複数人グループでの利用
 
 ## FAQ・問い合わせ先
-[FAQ](utokyo_azure/faq)
+[FAQ](faq)
 - 特に多い問い合わせはこちらにまとめてあります．ご参照ください．
 
 [Microsoft サポート](https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview)
 - Microsoft の担当者に問い合わせができます．技術的な問い合わせにはご活用ください．
-- 問い合わせ手順は[こちらも参考](utokyo_azure/support)に
+- 問い合わせ手順は[こちらも参考](support)に
 
 UTokyo Azure サポート担当
 - utokyo-azure-group@g.ecc.u-tokyo.ac.jp
