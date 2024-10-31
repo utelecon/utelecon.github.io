@@ -6,11 +6,10 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 {/**
   * @typedef {object} Props
-  * @property {import("@components/types").HelpItemType} lang="ja"
-  * @property {import("@components/types").HelpItemType} type="details"
+  * @property {import("@components/types").HelpItemType} type
   */}
 
-<HelpItem lang="ja" type={props.type}>
+<HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションを複数人で共同管理したい場合の手順</Fragment>
   <Fragment slot="solution">共同管理するユーザーにサブスクリプションへ権限を付加してください．具体的な手順例は[こちら](addrole)を参照ください．</Fragment>
 </HelpItem>
