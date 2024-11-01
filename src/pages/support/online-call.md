@@ -21,7 +21,7 @@ Please be sure to check [the Support Desk page](/en/support/) before inquiring.
 ### 全般的な注意事項 / Important Notes on Privacy and Confidentiality of Information
 
 - 迅速な対応を行うために，**それぞれの窓口では学生スタッフが対応にあたっています．このことをご理解の上，問い合わせ時に呈示する情報を適切にご判断くださるようお願いします．**なお，学生スタッフによる情報の取り扱いについては，必要な文書を取り交わした上で，教職員の管理・監督のもと行っているため，一般的なアカウント情報などであれば問題ありません．
-- **試験に関する質問・相談は，まず担当教員あるいは開講学部・研究科等に連絡してください．**また，本サポート窓口へ問い合わせたい場合は，[メールフォーム](/support/email-form)窓口のみで受け付けます．
+- **試験に関する質問・相談は，まず担当教員あるいは開講学部・研究科等に連絡してください．**また，本サポート窓口へ問い合わせたい場合は，[メールフォーム](./email-form)窓口のみで受け付けます．
 - 問い合わせで得た情報は，回答の実施およびこれに付随する業務に利用するほか，今後のサポート向上のため内部で共有することがあります．また，サポートに関する取組紹介のため，個人が特定できないようにした上で，事例や統計情報などの形で公開することがあります．法令で定められた例外を除き，これら以外の利用を行うことはありません．
 
 - To ensure prompt response, **the support desk is generally staffed by students, as well as faculty staff. Please be aware of that fact when you make inquiries.** Student staff have signed confidentiality agreements and handle information under the control and supervision of faculty and staff members, so there is no problem with general account information.
@@ -33,9 +33,9 @@ Please be sure to check [the Support Desk page](/en/support/) before inquiring.
 - オペレータ対応は，平日8時25分から18時30分まで受け付けております．11/4（月）のみ8時25分から18時30分まで
   - ※土日休日の対応は，2024年11月4日限定です．通常は平日のみの対応となります．
 - オペレータ対応は，混雑状況により，ご案内までにお時間をいただく場合があります．
-  その場合は[メールフォーム](/support/email-form)で問い合わせいただくか，時間をあけて再度お問い合わせください．
+  その場合は[メールフォーム](./email-form)で問い合わせいただくか，時間をあけて再度お問い合わせください．
 - Zoom社の「Zoom Contact Center」サービスにより運用しています．
-  接続が不安定となるなど上手く利用できない場合は，申し訳ありませんが，[メールフォーム](/support/email-form)窓口の利用もご検討ください．
+  接続が不安定となるなど上手く利用できない場合は，申し訳ありませんが，[メールフォーム](./email-form)窓口の利用もご検討ください．
 - お問い合わせ内容によってはその場で回答するのが困難なため，メール回答に切り替えさせていただく場合があります．あらかじめご了承ください．
 - 会議室の録音・録画は行っておりません．利用者も**録音・録画等の行為を行わないでください**．
 
