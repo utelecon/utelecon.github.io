@@ -50,7 +50,7 @@ export async function rss({ title, description, url, lang }: RssParams) {
       atom: "http://www.w3.org/2005/Atom",
     },
     customData: [
-      "<language>ja-jp</language>",
+      `<language>${{ ja: "ja-jp", en: "en-us" }[lang]}</language>`,
       `<atom:link href="${url}" rel="self" type="application/rss+xml" />`,
     ].join(""),
   });
