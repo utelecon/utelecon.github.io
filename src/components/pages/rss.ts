@@ -36,8 +36,8 @@ export async function rss({ title, description, url, lang }: RssParams) {
     itemsMap.set(link, {
       title,
       link,
-      // 00:00 on next day in order for rss-to-twitter to work correctly
-      pubDate: new Date(notice.date.getTime() + 24 * 60 * 60 * 1000),
+      // 12:00 of the day in order for rss-to-twitter to work correctly
+      pubDate: new Date(notice.date.getTime() + 12 * 60 * 60 * 1000),
     });
   }
 
