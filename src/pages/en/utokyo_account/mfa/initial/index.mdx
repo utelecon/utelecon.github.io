@@ -6,6 +6,7 @@ breadcrumb:
 
 import Tabs from "@components/en/mfa/Tabs.astro";
 import TabSelector from "@components/en/mfa/TabSelectorGrid.astro";
+import YouTube from "@components/embed/YouTube.astro";
 
 ## Introduction
 {:#introduction}
@@ -32,8 +33,7 @@ You may also register the same method for step 1 and 2; for example, you may reg
 
 The following video explains the initial setup procedure in this page.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l84Aa1esNqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<YouTube src="https://www.youtube.com/embed/l84Aa1esNqI" />
 
 ## Step 1: Set Up the First Verification Method
 {:#first.mfa-initial-step-heading}
@@ -107,7 +107,7 @@ If the remote-access environment (Citrix Workspace) of office work devices for a
 4. Read the MFA instructions carefully, and find “Use MFA” at the bottom of the page. Answer “Yes” and click “SAVE”. ![](user_menu_2.png)
 
 <div class="box">
-You have completed the initial setup procedures for MFA. <strong>It will take about 40 minutes for the MFA settings to be reflected in the system after these procedures</strong>, so if you want to use UTokyo VPN and other services in which MFA is required, please be patient and wait for a while.
+You have completed the initial setup procedures for MFA, <strong>but it will take about 40 minutes for the MFA settings to be reflected in the system after these procedures</strong>. If you want to use systems that do not allow you to sign in until the multi-factor authentication settings are completed, please be patient and wait for a while.
 </div>
 
 ## Things to Keep in Mind after Completing Initial Procedure
