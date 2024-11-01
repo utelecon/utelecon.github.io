@@ -3,6 +3,19 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+  date: 2024-11-01
+  content:
+    ja: "[ECCSクラウドメールで書き込み操作ができない問題について](/notice/2024/1101-google-storage-limit/)"
+    en: "[Issue with ECCS Cloud Email: Unable to Perform Write Operations (in Japanese)](/notice/2024/1101-google-storage-limit/)"
+-
+  date: 2024-10-25
+  content:
+    ja: "[2024年度 Aセメスター科目のUTOLでの取り扱いについて](/notice/2024/1025-utol-rikaku)"
+-
+  date: 2024-10-11
+  content:
+    ja: "[UTOLからMATLAB Graderを利用可能となりました](/notice/2024/1011-utol-matlab-grader)"
+-
   date: 2024-10-03
   content:
     ja: "[教育用計算機システム相談員および同分散配置端末巡回連絡員の募集（2024年度Aセメスター）](/notice/2024/1003-tutors)"
