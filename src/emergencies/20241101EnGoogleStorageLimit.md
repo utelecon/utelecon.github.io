@@ -10,5 +10,5 @@ pattern: "^/en(/|/support/|/google/.*)$"
   - Google Form does not accept response
   - Google Photos does not work.
 
-  For the latest information, please refer to [Outage and Maintenance Information](https://univtokyo.sharepoint.com/sites/utokyoaccount/Lists/servicestatus/DispForm.aspx?ID=101&ContentTypeId=0x010077E350E4B86D594C93F01D43B08AD09900D1BA110F28A46C4FAB238B694200CEB3) (UTokyo Account required, in Japanese).
+  For details, please refer to "[Problem with write operation in ECCS Cloud Email](/notice/2024/1101-google-storage-limit/)" (in Japanese).
 </div>
