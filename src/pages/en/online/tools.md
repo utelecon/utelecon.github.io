@@ -34,7 +34,7 @@ Webex is a web conferencing system provided by Cisco. With an UTokyo license, yo
 
 Google Meet is a web conferencing system provided by Google as part of Google Workspace. One of its advantages is its full integration with other Google services such as Google Calendar.
 
--  **[utelecon’s Google Meet Page](/en/meet/)**
+-  **[utelecon’s Google Meet Page](/en/google/meet/)**
 
 
 ## Learning Management Systems
