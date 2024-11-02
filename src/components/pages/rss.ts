@@ -33,11 +33,10 @@ export async function rss({ title, description, url, lang }: RssParams) {
       a && toText(a) === title
         ? (a.properties.href as string)
         : `/notice/#${notice.id}`;
-    itemsMap.set(link, {
-      title,
-      link,
-      pubDate: new Date(notice.date),
-    });
+    const pubDate = new Date(notice.date);
+    // 03:00 UTC (12:00 JST) of the day in order for rss-to-twitter.yml to work correctly
+    pubDate.setUTCHours(3);
+    itemsMap.set(link, { title, link, pubDate });
   }
 
   return getRssResponse({
