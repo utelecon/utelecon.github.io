@@ -13,15 +13,15 @@ ECCSを利用するには，事前に利用権を取得する必要がありま�
 
 以下のサービスをはじめとして，ECCSを利用するには原則として事前に利用権の申請が必要です．
 
-- ECCS端末（Mac，Windows環境）
-- WebDAV環境
-- リモートアクセス環境
-- 印刷
+- [ECCS端末（Mac，Windows環境）](/eccs/)
+- [WebDAV環境](/eccs/features/webdav/)
+- [リモートアクセス環境](/eccs/features/ras/)
+- [印刷](/eccs/features/printing/)
 
 なお，以下のように，利用権を取得せずに利用可能なサービスも一部存在します．
 
-- ECCSクラウドメール
-- UTOL
+- [ECCSクラウドメール](/google/)
+- [UTOL](/utol/)
 
 ## ECCS利用権を申請する
 
@@ -29,7 +29,7 @@ ECCS利用権は，UTokyo Accountをもつ学生・教職員であれば誰で�
 
 以下の手順に従って申請してください．
 
-1. ECCS申請メニューにログインしてください
+1. 以下のリンクからECCS申請メニューを開いてください．
 
     <strong class="box center">
 
@@ -59,7 +59,7 @@ ECCS利用権は，UTokyo Accountをもつ学生・教職員であれば誰で�
 
 自分がECCS利用権を持っているかどうかは，[ECCS利用者メニュー](https://idm.ecc.u-tokyo.ac.jp/webmtn/)から以下の手順で確認できます．
 
-1. ECCS利用者メニューを開いてください．
+1. 以下のリンクからECCS利用者メニューを開いてください．
 
     <strong class="box center">
 
@@ -67,22 +67,24 @@ ECCS利用権は，UTokyo Accountをもつ学生・教職員であれば誰で�
 
     </strong>
 
+1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 1. 左側のメニューから，「ECCSアカウント情報」を開いてください．
 1. ECCS利用権の有無と，ECCS利用権を持っている場合は取得年月日が表示されます．
 
 ## ECCS利用権の失効
 
-ECCS利用権は，東京大学を離籍した場合や，申請によりECCS利用権を停止した場合に失効します．
+ECCS利用権は以下の場合に失効し，ECCSアカウントが無効になります．
+
+- 東京大学を離籍した場合
+  - ECCS利用権はUTokyo Accountに連動しているため，離籍によりUTokyo Accountが失効すると，自動的にECCS利用権も無効になります．
+- [申請によりECCS利用権を停止した場合](#stop-usage-right)
 
 ECCS利用権が失効すると，利用権が必要なECCSサービスを利用できなくなります．特に，WebDAV環境に保存したファイル等にアクセスできなくなりますので，利用権が失効する前にバックアップ等，必要な対応を行ってください．
 
 なお，東京大学教育用計算機システム利用規則では，ECCSの利用期間は利用開始年度の年度末までと定められていますが，UTokyo Accountが有効であればECCS利用権は自動的に更新されます．
 
-### 離籍に伴う失効
-
-ECCS利用権・ECCSアカウントはUTokyo Accountに連動しているため，離籍によりUTokyo Accountが失効すると，自動的にECCS利用権も無効になります．
-
 ### ECCS利用権を停止する
+{:#stop-usage-right}
 
 ECCS利用権が必要なくなった場合，以下の手順により利用権を停止することができます．なお，一度廃止したECCSアカウントを復活させることはできませんのでご注意ください．
 
