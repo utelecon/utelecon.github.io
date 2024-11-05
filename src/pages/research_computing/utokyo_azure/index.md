@@ -33,23 +33,23 @@ title: "UTokyo Azure"
 
 ## 利用例
 
-### [仮想マシン（Virtual Machines）の作成](virtualmachine)
+### [仮想マシン（Virtual Machines）の作成](/research_computing/utokyo_azure/virtualmachine/)
 
 ### Azure Machine Learning
 
-### [Azure OpenAI(Azure AI Studio)](openai)
+### [Azure OpenAI(Azure AI Studio)](/research_computing/utokyo_azure/openai/)
 
 ## データの置き場 (ストレージ) について
 
 ## 複数人グループでの利用
 
 ## FAQ・問い合わせ先
-[FAQ](faq)
+[FAQ](/research_computing/utokyo_azure/faq/)
 - 特に多い問い合わせはこちらにまとめてあります．ご参照ください．
 
 [Microsoft サポート](https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview)
 - Microsoft の担当者に問い合わせができます．技術的な問い合わせにはご活用ください．
-- 問い合わせ手順は[こちらも参考](support)に
+- 問い合わせ手順は[こちらも参考](/research_computing/utokyo_azure/support/)に
 
 UTokyo Azure サポート担当
 - utokyo-azure-group@g.ecc.u-tokyo.ac.jp
