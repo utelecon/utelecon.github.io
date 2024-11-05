@@ -37,7 +37,7 @@ title: "UTokyo Azure"
 
 ### Azure Machine Learning
 
-### Azure OpenAI
+### [Azure OpenAI(Azure AI Studio)](openai)
 
 ## データの置き場 (ストレージ) について
 
