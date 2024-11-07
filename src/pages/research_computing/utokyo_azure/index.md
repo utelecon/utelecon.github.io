@@ -33,11 +33,11 @@ title: "UTokyo Azure"
 
 ## 利用例
 
-### [仮想マシン（Virtual Machines）の作成](/research_computing/utokyo_azure/virtualmachine/)
+### [仮想マシンの作成](/research_computing/utokyo_azure/virtualmachine/)
 
-### Azure Machine Learning
+### Azure Machine Learning の利用
 
-### [Azure OpenAI(Azure AI Studio)](/research_computing/utokyo_azure/openai/)
+### [Azure OpenAI の利用](/research_computing/utokyo_azure/openai/)
 
 ## データの置き場 (ストレージ) について
 
