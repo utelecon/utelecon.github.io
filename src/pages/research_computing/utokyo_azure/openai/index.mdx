@@ -68,21 +68,33 @@ Azure OpenAI Studio のトップページに遷移するので，`Go to Azure Op
 ## ３．Azure OpenAI Studio でモデルをデプロイする
 {:#aistudioproject}
 
-- Azure OpenAI Sutdio に遷移すると，以下のような画面になりますので`＋新しいプロジェクト`をクリックしてください．
+- Azure OpenAI Sutdio に遷移すると以下のような画面になりますので，画面左側のリストから，`チャット`を選択します．
 
-![](img/06_aistudio6.png){:.medium.center.border}
+![](img/05_openai5.png){:.medium.center.border}
 
-- プロジェクト名の入力を促されますので，わかりやすい命名で入力し，`プロジェクトを作成する`をクリックしてください．
-  - ここでは初期値のまま進めます．
+- メイン画面がセットアップになりますので`＋デプロイを作成`をクリックし，現れるプルダウンリストから`基本モデルから`を選択してください．
 
-![](img/07_aistudio7.png){:.medium.center.border}
+![](img/06_openai6.png){:.medium.center.border}
 
-- 元の画面に，作成したプロジェクトが表示されたら作成完了です．
+- モデル選択画面になりますので，左側のリストから`gpt-4`を選択し，右下にある`確認`をクリックしてください．
 
-![](img/08_aistudio8.png){:.medium.center.border}
+![](img/07_openai7.png){:.medium.center.border}
 
-以下，作成したプロジェクトでのモデル利用例です．
+- 確認画面になるので，`デプロイ`をクリックしてください．
 
-### [モデルをデプロイする](/research_computing/utokyo_azure/openai/gpt4)
+![](img/08_openai8.png){:.medium.center.border}
+
+- チャットプレイグランドが下図のようになりましたら完了です．
+  - `デプロイ`をクリックしてからデプロイ完了まで時間がかかる場合があります．
+  - 5分以上待っても変化がない場合は，ブラウザを再読み込みしてみてください．それでもチャットグランドが表示されない場合は，改めてデプロイしなおしてみてください．
+
+![](img/09_openai9.png){:.medium.center.border}
+
+### 補足
+
+- テキストボックスにメッセージを入力し，三角形をクリック（または「Enter」キーを押す）してモデルに送信します．画面右下のトークン数は，このメッセージのトークンとこのモデルのトークン制限を表します．一例として下図では，このメッセージを送信するには582トークンが使用され，全体のトークン制限は128000トークンです．画面左の**モデルに指示とコンテキストを与える**テキストボックスに「システムプロンプト」（またはGPTへの指示）を入力できます．
+
+![](img/06_aistudiogpt6.png){:.medium.center.border}
+
 ### [クォータを管理する](/research_computing/utokyo_azure/openai/quota)
 ### [Python API で利用する](/research_computing/utokyo_azure/openai/python)
