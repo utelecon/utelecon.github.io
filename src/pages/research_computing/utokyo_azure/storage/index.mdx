@@ -57,42 +57,42 @@ Python等を使って、手元の計算機から直接アップロードする�
 - Pythonによるアクセス 
   取得したアクセスキーによる認証で、ローカルのファイルをアップロード可能です。以下はサンプルです。 
 
-import os 
+    import os 
 
-from azure.identity import DefaultAzureCredential 
+    from azure.identity import DefaultAzureCredential 
 
-from azure.storage.blob import BlobServiceClient, ContainerClient, BlobBlock, BlobClient, StandardBlobTier 
-
- 
-
-account_url = "https://<Paste-Your-Storage-Account-Name>.blob.core.windows.net" 
+    from azure.storage.blob import BlobServiceClient, ContainerClient, BlobBlock, BlobClient, StandardBlobTier 
 
  
 
-access_key = "<Paste-Access-Key-For-Your-Storage-Account>" 
+    account_url = "https://<Paste-Your-Storage-Account-Name>.blob.core.windows.net" 
 
  
 
-# Create the BlobServiceClient object 
-
-blob_service_client = BlobServiceClient(account_url, credential=access_key) 
+    access_key = "<Paste-Access-Key-For-Your-Storage-Account>" 
 
  
 
-def upload_blob_file(blob_service_client: BlobServiceClient, container_name: str): 
+    # Create the BlobServiceClient object 
 
-    container_client = blob_service_client.get_container_client(container=container_name) 
+    blob_service_client = BlobServiceClient(account_url, credential=access_key) 
 
-    filepath = "<Paste-Your-File-Path>" 
+ 
 
-    filename = "<Paste-Your-File-Name>" 
+    def upload_blob_file(blob_service_client: BlobServiceClient, container_name: str): 
 
-    with open(file=os.path.join(filepath, filename), mode="rb") as data: 
+        container_client = blob_service_client.get_container_client(container=container_name) 
 
-        blob_client = container_client.upload_blob(name=filename, data=data, overwrite=True) 
+        filepath = "<Paste-Your-File-Path>" 
 
-container_name = "<Paste-Your-Container-Name>" 
+        filename = "<Paste-Your-File-Name>" 
 
-upload_blob_file(blob_service_client,container_name) 
+        with open(file=os.path.join(filepath, filename), mode="rb") as data: 
+
+            blob_client = container_client.upload_blob(name=filename, data=data, overwrite=True) 
+
+    container_name = "<Paste-Your-Container-Name>" 
+
+    upload_blob_file(blob_service_client,container_name) 
 
 - Pythonを用いたデータのダウンロードやファイル一覧の表示、コンテナーの作成などのより高度な利用方法、Python以外の言語の利用に関しては[こちら](https://learn.microsoft.com/ja-jp/azure/storage/blobs/)を参照してください。
