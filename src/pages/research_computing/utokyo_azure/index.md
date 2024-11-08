@@ -39,7 +39,8 @@ title: "UTokyo Azure"
 
 ### [Azure OpenAI の利用](/research_computing/utokyo_azure/openai/)
 
-## データの置き場 (ストレージ) について
+## [データの置き場 (ストレージ) について](/research_computing/utokyo_azure/storage/)
+Microsoft Azureのサービスの一つであるAzure Blob Storage上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．
 
 ## 複数人グループでの利用
 
