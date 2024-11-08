@@ -57,6 +57,7 @@ Python等を使って、手元の計算機から直接アップロードする�
 - Pythonによるアクセス 
   取得したアクセスキーによる認証で、ローカルのファイルをアップロード可能です。以下はサンプルです。 
 
+```
     import os 
 
     from azure.identity import DefaultAzureCredential 
@@ -94,5 +95,6 @@ Python等を使って、手元の計算機から直接アップロードする�
     container_name = "<Paste-Your-Container-Name>" 
 
     upload_blob_file(blob_service_client,container_name) 
+```
 
 - Pythonを用いたデータのダウンロードやファイル一覧の表示、コンテナーの作成などのより高度な利用方法、Python以外の言語の利用に関しては[こちら](https://learn.microsoft.com/ja-jp/azure/storage/blobs/)を参照してください。
