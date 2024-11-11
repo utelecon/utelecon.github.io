@@ -37,7 +37,7 @@ title: "UTokyo Azure"
 
 ### Azure Machine Learning の利用
 
-### [Azure OpenAI の利用](/research_computing/utokyo_azure/openai/)
+### [Azure の AI サービス](/research_computing/utokyo_azure/openai/)
 
 ## データの置き場 (ストレージ) について
 
