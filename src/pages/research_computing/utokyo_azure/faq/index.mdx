@@ -6,22 +6,22 @@ description: "作成中"
 import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">サブスクリプションを複数人で共同管理したい</Fragment>
-  <Fragment slot="solution">１つのサブスクリプションを複数の人間で共同管理したい場合は，共同管理させたいユーザーの UTokyo Account を，そのサブスクリプションの**共同作成者**として権限付加する必要があります．この操作は，そのサブスクリプションに所有者の権限があるアカウントで行う必要があります．具体的な設定手順例は[こちらのリンク先](/research_computing/utokyo_azure/faq/addrole)を参照ください．</Fragment>
+  <Fragment slot="problem">サブスクリプションやリソースの共同利用者に権限を付与したい</Fragment>
+  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに所有者の権限があるアカウントで行う必要があります．具体的な設定手順例は[こちらのリンク先](/research_computing/utokyo_azure/faq/addrole)を参照ください．</Fragment>
 </HelpItem>
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションIDを知りたい</Fragment>
   <Fragment slot="solution">サブスクリプションIDはサブスクリプションの詳細画面で確認できます．詳細は[こちら](/research_computing/utokyo_azure/faq/subscriptionid)を参照ください．</Fragment>
 </HelpItem>
 <HelpItem lang="ja" type="details">
+  <Fragment slot="problem">特権管理者ロールの**所有者**と**共同作成者**は何が違うのでしょうか</Fragment>
+  <Fragment slot="solution">所有者は，サブスクリプションやリソースへ他のアカウントからのアクセス権限を付与することができますが，共同作成者にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．</Fragment>
+</HelpItem>
+<HelpItem lang="ja" type="details">
   <Fragment slot="problem">FAQクエスチョン</Fragment>
   <Fragment slot="solution">FAQソリューション</Fragment>
 </HelpItem>
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">FAQクエスチョン２</Fragment>
-  <Fragment slot="solution">FAQソリューション２</Fragment>
-</HelpItem>
-<HelpItem lang="ja" type="details">
-  <Fragment slot="problem">FAQクエスチョン３</Fragment>
-  <Fragment slot="solution">FAQソリューション３</Fragment>
+  <Fragment slot="problem">FAQクエスチョン</Fragment>
+  <Fragment slot="solution">FAQソリューション</Fragment>
 </HelpItem>
