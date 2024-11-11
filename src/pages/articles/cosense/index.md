@@ -1,5 +1,7 @@
 ---
 title: Cosenseの基本的な使い方
+redirect_from:
+  - /articles/scrapbox/
 ---
 
 ## この記事のハイライト
