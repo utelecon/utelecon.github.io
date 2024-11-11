@@ -11,19 +11,16 @@ ECCSを利用するには，事前に利用権を取得する必要がありま�
 
 ## ECCS利用権が必要なサービス
 
-以下のサービスをはじめとして，ECCSを利用するには原則として事前に利用権の申請が必要です．
+次のシステムを利用する際には，ECCS利用権の取得が必要です．
+- [ECCS端末](/eccs/)
+- [ECCSのWebDAV環境](/eccs/features/webdav/)
+- [ECCSのリモートアクセス環境](/eccs/features/ras/)
+- [ECCSの印刷環境](/eccs/features/printing/)
+- ECCSポータル
 
-- [ECCS端末（Mac，Windows環境）](/eccs/)
-- [WebDAV環境](/eccs/features/webdav/)
-- [リモートアクセス環境](/eccs/features/ras/)
-- [印刷](/eccs/features/printing/)
+なお，[ECCSクラウドメール](/google/)は，名称に「ECCS」とついていますが，利用に際してECCS利用権の取得は不要です．また，UTOLなど，ECCSと同様に情報基盤センター情報メディア教育研究部門が提供しているサービスがいくつかありますが，これらの利用に際してもECCS利用権の取得は不要です．
 
-なお，以下のように，利用権を取得せずに利用可能なサービスも一部存在します．
-
-- [ECCSクラウドメール](/google/)
-- [UTOL](/utol/)
-
-## ECCS利用権を申請する
+## ECCS利用権を取得する
 
 ECCS利用権は，UTokyo Accountをもつ学生・教職員であれば誰でも申請できます．
 
