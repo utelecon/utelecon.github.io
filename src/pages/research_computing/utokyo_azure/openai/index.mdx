@@ -1,105 +1,21 @@
 ---
-title: "Azure OpenAI Studio の利用:UTokyo Azure 利用例"
+title: "Azure の AI サービスを利用する : UTokyo Azure 利用例"
 ---
 
 ## 概要
 {:#about}
 
-Azure OpenAI Studio を本サービスで利用する場合の初期手続き例です．
+### [Azure OpenAI Studio](/research_computing/utokyo_azure/openai/openai)
 
-## １．サービスを選択する
-{:#select_service}
+Azure OpenAI Studio から AI サービスを利用を進める場合の初期手続き例です．
 
-- 事前に以下サイトよりサブスクリプションを申請してください．
-  - 東京大学 Azureクラウド利用申請ページ(公開時にリンク) ※UTokyo Account 所持者のみアクセス可
+### [Azure AI Studio](/research_computing/utokyo_azure/openai/azureai)
 
-- [Azure portal](https://potral.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．
+Azure AI Studio から AI サービスの利用を進める場合の初期手続き例です．
 
-- Azureサービスの一覧の中から`Azure OpenAI Studio`を選択します．
-    - 一覧に無い場合、一覧の右にある`その他のサービス`を選択、左側にあるリストから`AI + Machine Learning`を選択すると， 右側に表示されるメイン画面の`Azure AI サービス + API`の中にあります．
+## さらに利用を進める
+{:#moreuse}
 
-![](img/01_openai1.png){:.medium.center.border}
+### [デプロイしたモデルのクォータを管理する](/research_computing/utokyo_azure/openai/quota)
 
-- Azure OpenAI Studio のメインページが表示されたら，画面左上にある`＋作成`またはメイン画面にある`Azure OpenAI の作成`をクリックします．
-
-## ２．Azure OpenAI のプロジェクトを構成する
-{:#aihub}
-
-> **補足**：説明のない項目は，基本的に初期設定のままで構成することを前提としています．
-
-### 基本パート
-{:#base}
-
-#### プロジェクトの詳細
-
-- **サブスクリプション**：事前に申請したサブスクリプションがすでに設定されていますので、通常はそのままで問題ありません．複数のサブスクリプションをお持ちで、想定していないサブスクリプションが表示されている場合はプルダウンメニューから選択しなおしてください．ここを間違えると想定していない予算から支出することになりますので，よくご確認お願いします．
-- **リソースグループ**：個々のパーツをそれぞれ独立したリソースとして管理するため，同じポリシーで構成されるリソースはリソースグループでまとめて一括管理します．ここでは新規に`openai_resource_group`というリソースグループ名で作成し，そこに以下作成される各リソースをまとめます．
-
-
-#### インスタンスの詳細
-
-- **リージョン**：AIハブをどの地域（リージョン）にあるデータセンターにデプロイするかを指定します．通常は日本国内（`Japan East` か`Japan West`）のリージョンを選択してください．
-- **名前**：リソースのポータルでの名称を設定します．ここでは`openai-utokyoazure-test`としています．
-- **価格レベル**：`Standard S0`を選択してください．
-
-![](img/02_openai2.png){:.medium.center.border}
-
-### ネットワークパート
-{:#network}
-
-初期設定(すべて許可) のまま進めます．
-
-### タグパート
-{:#tag}
-
-初期設定のまま進めます．
-
-### 確認及び作成パート
-{:#execute}
-
-ポータルによる検証が成功したら，画面左下の`作成`ボタンをクリックし，しばらくしてデプロイが正常に完了しましたら，`リソースに移動`をクリックしてください．
-
-![](img/03_openai3.png){:.medium.center.border}
-
-Azure OpenAI Studio のトップページに遷移するので，`Go to Azure OpenAI Studio`をクリックしてください．
-
-> なお，ここで`Explore Azure AI Studio`をクリックすると，外部サービスである [Azure AI Studio](https://ai.azure.com/) でも利用が可能です．
-
-![](img/04_openai4.png){:.medium.center.border}
-
-## ３．Azure OpenAI Studio でモデルをデプロイする
-{:#aistudioproject}
-
-**一例として GPT4 モデルのデプロイ手順を進めます．**
-
-- Azure OpenAI Sutdio に遷移すると以下のような画面になりますので，画面左側のリストから，`チャット`を選択します．
-
-![](img/05_openai5.png){:.medium.center.border}
-
-- メイン画面がセットアップになりますので`＋デプロイを作成`をクリックし，現れるプルダウンリストから`基本モデルから`を選択してください．
-
-![](img/06_openai6.png){:.medium.center.border}
-
-- モデル選択画面になりますので，左側のリストから`gpt-4`を選択し，右下にある`確認`をクリックしてください．
-
-![](img/07_openai7.png){:.medium.center.border}
-
-- 確認画面になるので，`デプロイ`をクリックしてください．
-
-![](img/08_openai8.png){:.medium.center.border}
-
-- チャットプレイグランドが下図のようになりましたら完了です．
-  - `デプロイ`をクリックしてからデプロイ完了まで時間がかかる場合があります．
-  - 5分以上待っても変化がない場合は，ブラウザを再読み込みしてみてください．それでもチャットグランドが表示されない場合は，改めてデプロイしなおしてみてください．
-
-![](img/09_openai9.png){:.medium.center.border}
-
-### 補足
-
-- テキストボックスにメッセージを入力し，三角形をクリック（または「Enter」キーを押す）してモデルに送信します．画面右下のトークン数は，このメッセージのトークンとこのモデルのトークン制限を表します．一例として下図では，このメッセージを送信するには582トークンが使用され，全体のトークン制限は128000トークンです．画面左の**モデルに指示とコンテキストを与える**テキストボックスに「システムプロンプト」（またはGPTへの指示）を入力できます．
-
-![](img/06_aistudiogpt6.png){:.medium.center.border}
-
-さらに利用を進めるために
-### [クォータを管理する](/research_computing/utokyo_azure/openai/quota)
-### [Python API で利用する](/research_computing/utokyo_azure/openai/python)
+### [デプロイしたモデルを Python API から利用する](/research_computing/utokyo_azure/openai/python)
