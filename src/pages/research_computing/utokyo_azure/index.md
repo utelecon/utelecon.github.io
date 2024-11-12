@@ -47,16 +47,15 @@ title: "UTokyo Azure"
 
 #### Azure Machine Learning
 
-- 機械学習 (ML) プロジェクトのライフサイクルを加速および管理するためのクラウドサービスを提供しています．
+- GPT などの既存モデル（生成ＡＩ）を Azure 経由で Web ブラウザや Python プログラムから利用することができます。ChatGPT のような利用も可能です。
 
 #### [Azure OpenAI Studio](/research_computing/utokyo_azure/openai/openai)
 
-- GPT などの OpenAI 技術の利用に特化したサービスを提供しています．
+- OpenAI が提供する GPT シリーズのモデルを使いたい場合がこちらが簡単です。
 
 #### [Azure AI Studio](/research_computing/utokyo_azure/openai/azureai)
 
-- Azure が提供している AI サービスを網羅的に提供しています．
-
+- OpenAI だけでなく Llama や Ministral など様々なモデルを使いたい場合は AI Studio を使ってください。
 
 ## データの置き場 (ストレージ) について
 
