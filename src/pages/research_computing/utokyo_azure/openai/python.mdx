@@ -24,8 +24,8 @@ Azure OpenAI サービスは、OpenAI が提供する Python クライアント�
 - ご自身の Python 環境で，openai パッケージをインストールしてください．
   - ``pip install openai`` 等
 
-- Python でコーディングします．以下はコーディングの一例で，左が OpenAI クラスを利用した場合，右が Azure 互換の OpenAI を利用した場合です．違いは大きく２つで、
-  - クラス名を OenAI Studo の場合`OpenAI`を、AI Studio の場合 `AzureOpenAI` を選択．
-  - コンストラクター パラメーターとして`api_version`と`azure_endpoints`が提供されます．
+- Python でコーディングします．以下はコーディングの一例で，左が OpenAI クラスを利用した場合，右が Azure 互換の OpenAI を利用した場合です．
+  - クラス名を，Azure OpenAI Studo の場合 `OpenAI` を、Azure AI Studio の場合 `AzureOpenAI` を選択する．
+  - コンストラクター パラメーターとして`api_version`と`azure_endpoints`が提供されます．エンドポイントの指定が必要な場合はパラメータを設定してください．
 
 ![](img/03_aistudiopython3.png){:.medium.center.border}
