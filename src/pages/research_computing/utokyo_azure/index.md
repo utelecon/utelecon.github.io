@@ -80,8 +80,8 @@ title: "UTokyo Azure"
 - 特に多い問い合わせはこちらにまとめてあります．
 
 #### [Microsoft サポート](https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview)
-- Microsoft の担当者に問い合わせができます．技術的な問い合わせにはこちらをご活用ください．
-- 問い合わせ手順は[こちらを参考](/research_computing/utokyo_azure/support/)
+- Microsoft の担当者に問い合わせができます．Azure に関する技術的な問い合わせにはこちらをご活用ください．
+- 問い合わせ手順は[”こちら”を参照ください](/research_computing/utokyo_azure/support/)
 
 #### UTokyo Azure サポート担当
 - utokyo-azure-group@g.ecc.u-tokyo.ac.jp
