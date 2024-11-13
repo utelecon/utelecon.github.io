@@ -4,7 +4,7 @@ title: "UTokyo Azure"
 
 ## UTokyo Azure とは
 
-　2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付が行われることとなりました．寄付の詳細については[こちら（学内のみ）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyoAzure_Credit.aspx)をご覧ください．
+　2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付が行われることとなりました．寄付の詳細については[”こちら”（学内のみ）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyoAzure_Credit.aspx)をご覧ください．
 
 　UTokyo Azure は，本寄付による Microsoft Azure のクラウドサービスを東京大学の構成員に広く利用可能とするサービスの名称です．Microsoft Azure には，
 - 普通の Linux や Windows 環境を立ち上げる，いわゆる仮想マシンサービス
@@ -47,15 +47,15 @@ title: "UTokyo Azure"
 
 #### Azure Machine Learning
 
-- GPT などの既存モデル（生成ＡＩ）を Azure 経由で Web ブラウザや Python プログラムから利用することができます。ChatGPT のような利用も可能です。
+- GPT などの既存モデル（生成ＡＩ）を Azure 経由で Web ブラウザや Python プログラムから利用することができます．ChatGPT のような利用も可能です．
 
 #### [Azure OpenAI Studio](/research_computing/utokyo_azure/openai/openai)
 
-- OpenAI が提供する GPT シリーズのモデルを使いたい場合がこちらが簡単です。
+- OpenAI が提供する GPT シリーズのモデルを使いたい場合がこちらが簡単です．
 
 #### [Azure AI Studio](/research_computing/utokyo_azure/openai/azureai)
 
-- OpenAI だけでなく Llama や Ministral など様々なモデルを使いたい場合は AI Studio を使ってください。
+- OpenAI だけでなく Llama や Ministral など様々なモデルを使いたい場合は AI Studio を使ってください．
 
 ## データの置き場 (ストレージ) について
 
