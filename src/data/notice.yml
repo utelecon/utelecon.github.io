@@ -3,6 +3,12 @@
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 -
+ date: 2024-11-10
+ content:
+  ja: "12/20 13:00から「[「生成AIと教育について考える」シンポジウム＋東大教職員ワークショップ](/events/2024-12-20-genai-sympo-ws/)」を開催いたします．"
+  en: "On December 20, an information session titled **\"[Reflecting on Generative AI and Education: Symposium + Workshop for the University of Tokyo Faculty and Staff](/en/events/2024-12-20-genai-sympo-ws/)\"** will be held at 13:00."
+ important: true
+-
   date: 2024-11-01
   content:
     ja: "[ECCSクラウドメールで書き込み操作ができない問題について](/notice/2024/1101-google-storage-limit/)"
