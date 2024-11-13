@@ -74,7 +74,7 @@ title: "UTokyo Azure"
 
 ## Azure を学習する
 
-Microsoft が用意している，より Azure を使いこなすための自己学習コンテンツです．
+Microsoft が用意している，より Azure を使いこなすための自己学習コンテンツです．特に記載がない限り無償で利用できます．
 
 #### [Microsoft Azure の基礎: Azure のアーキテクチャとサービスについて説明する](https://learn.microsoft.com/ja-jp/training/paths/azure-fundamentals-describe-azure-architecture-services/)
 
