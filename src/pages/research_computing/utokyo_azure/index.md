@@ -80,6 +80,8 @@ Microsoft が用意している，より Azure を使いこなすための自己
 
 #### [Microsoft Virtual Training Days](https://www.microsoft.com/ja-jp/events/top/training-days)
 
+#### [Microsoft トレーニング：Azure](https://learn.microsoft.com/ja-jp/training/azure/)
+
 ## FAQ・問い合わせ先
 
 #### [FAQ](/research_computing/utokyo_azure/faq/)
