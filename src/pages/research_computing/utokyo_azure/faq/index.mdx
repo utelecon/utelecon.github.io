@@ -56,19 +56,24 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">共同作成者の権限は，学外の共同研究者や研究支援を行っている民間企業の人にも付与できますか</Fragment>
-  <Fragment slot="solution">UTokyo Account をお持ちの方に限ります.お持ちであれば，例えば客員教員や業務支援の企業の人へも付与可能ですが，設定できる権限は限定される場合があります．</Fragment>
+  <Fragment slot="solution">UTokyo Account をお持ちの方に限ります.お持ちであれば，例えば客員教員や業務支援の企業の人へも付与可能ですが，権限は限定される場合があります．</Fragment>
 </HelpItem>
 
 **サブスクリプション**
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションとはなんですか</Fragment>
-  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションの範囲で利用者は様々なサービスを利用することができます．UTokyo Azure においても，どのくらいの利用があったかや，寄付金総額を超過した場合の負担金額の算出等はサブスクリプション単位で計算します．</Fragment>
+  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションの範囲で利用者は様々なサービスを利用することができます．UTokyo Azure においても，どのくらいの利用があったかや，寄付金総額を超過した場合にどの程度の負担をいただくかはサブスクリプション単位で計算します．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">サブスクリプションを複数持つことはできますか</Fragment>
+  <Fragment slot="solution">UTokyo Azure のサブスクリプションは，UTokyo Account に紐づくため原則1人1つになります．UTokyo Azure に紐づかない，個人で契約するサブスクリプションを同じアカウント内で登録することもできません．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">特権管理者ロールの**所有者**と**共同作成者**は何が違うのでしょうか</Fragment>
-  <Fragment slot="solution">所有者は，サブスクリプションやリソースへ他のアカウントからのアクセス権限を付与することができますが，共同作成者にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．</Fragment>
+  <Fragment slot="solution">**所有者**は，サブスクリプションやリソースに対する他者のアカウントからのアクセス権限を付与（委任）することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．サブスクリプションの申請者は所有者の権限が設定されます．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
