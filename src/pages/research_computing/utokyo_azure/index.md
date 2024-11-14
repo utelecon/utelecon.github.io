@@ -38,7 +38,7 @@ title: "UTokyo Azure"
 
 ### 仮想マシンの作成
 
-#### [Viatual Machines](/research_computing/utokyo_azure/virtualmachine/)
+#### [Virtual Machines](/research_computing/utokyo_azure/virtualmachine/)
 
 - 定番である各 Linux ディストリビューションをはじめ，ライセンスを別途お持ちであれば Windows OS を仮想環境で利用することができます．
 
@@ -79,6 +79,8 @@ Microsoft が用意している，より Azure を使いこなすための自己
 #### [Microsoft Azure の基礎: Azure のアーキテクチャとサービスについて説明する](https://learn.microsoft.com/ja-jp/training/paths/azure-fundamentals-describe-azure-architecture-services/)
 
 #### [Microsoft Virtual Training Days](https://www.microsoft.com/ja-jp/events/top/training-days)
+
+#### [Microsoft トレーニング：Azure](https://learn.microsoft.com/ja-jp/training/azure/)
 
 ## FAQ・問い合わせ先
 
