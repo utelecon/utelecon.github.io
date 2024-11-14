@@ -38,7 +38,7 @@ title: "UTokyo Azure"
 
 ### 仮想マシンの作成
 
-#### [Viatual Machines](/research_computing/utokyo_azure/virtualmachine/)
+#### [Virtual Machines](/research_computing/utokyo_azure/virtualmachine/)
 
 - 定番である各 Linux ディストリビューションをはじめ，ライセンスを別途お持ちであれば Windows OS を仮想環境で利用することができます．
 
