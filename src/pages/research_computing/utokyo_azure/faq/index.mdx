@@ -5,14 +5,77 @@ description: "作成中"
 
 import HelpItem from "@components/utils/HelpItem.astro";
 
+#### **サービス全般**
+
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">サブスクリプションやリソースへ，共同で利用するユーザーの権限を付与したい</Fragment>
-  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに所有者の権限があるアカウントで行う必要があります．具体的な設定手順例は[こちらのリンク先](/research_computing/utokyo_azure/faq/addrole)を参照ください．</Fragment>
+  <Fragment slot="problem">どのような目的で利用が可能でしょうか</Fragment>
+  <Fragment slot="solution">研究・教育用途であれば広くお使いいただけます</Fragment>
 </HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">どのような分野で利用が可能でしょうか</Fragment>
+  <Fragment slot="solution">GX, DI, AI を推進する取り組みを歓迎しますが, これに狭く限定するものではなく，様々な分野でご利用いただけます．
+</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">どのような計算機・サービスが使えますか</Fragment>
+  <Fragment slot="solution">基本的に, MS Azure で提供されるあらゆるサービスが使えます. ブラウザから Jupyter Notebook で GPU 環境にアクセスする, Open AI のチャットや API を使う,クラスタ環境を自分でセットアップして使うなど, 様々な形態の利用が可能です. ただしコスト超過防止のため, デフォルトで利用不可 (opt‑in) になっているものがあります
+</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">いつまで使い続けられますか</Fragment>
+  <Fragment slot="solution">2024/12/1 ～ 最大で 2029/9/30 まで(最大で約 5 年間)使えます. 大学全体として利用できる Azure クレジット (≈ 利用料金) に限りがあるため, これより若干早く終了することもありえます.
+</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">寄付金による運用ということは無料で使い続けられますか</Fragment>
+  <Fragment slot="solution">寄付金の総額までは利用者が負担することなくご利用いただけますが，寄付金の総額を超えた場合は超過分を負担いただくことになります．超過が発生した場合に，どの時期にどのくらい負担いただくことになるかは現在調整中です．
+</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">サービス終了後は構築した環境はどうなりますでしょうか</Fragment>
+  <Fragment slot="solution">未定です. 利活用状況, クラウド移行による経費への効果(正負両方)などを見て継続することはありえますが確定していることはありません. なお, 大規模な計算需要に対しては従来から情報基盤センターが運用しているスーパーコンピュータや mdx を利用することも可能です.
+</Fragment>
+</HelpItem>
+
+#### **利用者**
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">このサービスは誰が申請できますか</Fragment>
+  <Fragment slot="solution">東大の人なら誰でも使えますが, UTokyo Account をお持ちの方が本サービスの申請サイトより利用申請を行い，「サブスクリプション」を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに他のユーザの権限を追加(利用権利を与える)ことも可能です.</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">このサービスの利用も学内の人に限定されますでしょうか</Fragment>
+  <Fragment slot="solution">Azure Portal へのログインは UTokyo Account で認証するため，Azure Portal 機能の利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイしたOSへのログイン認証は UTokyo Account に依存しないため，学外の人間をアカウント登録することによって利用させることは可能です．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">申請したサブスクリプションを研究室のメンバー等で共同利用したい</Fragment>
+  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**の権限があるアカウントで行う必要があります．具体的な設定手順例は[こちらのリンク先](/research_computing/utokyo_azure/faq/addrole)を参照ください．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">共同作成者の権限は，学外の共同研究者や研究支援を行っている民間企業の人にも付与できますか</Fragment>
+  <Fragment slot="solution">UTokyo Account をお持ちの方に限ります.お持ちであれば，例えば客員教員や業務支援の企業の人へも付与可能ですが，設定できる権限は限定される場合があります．</Fragment>
+</HelpItem>
+
+#### **サブスクリプション**
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">サブスクリプションとはなんですか</Fragment>
+  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションの範囲で利用者は様々なサービスを利用することができます．UTokyo Azure においても，どのくらいの利用があったかや，寄付金総額を超過した場合の負担金額の算出等はサブスクリプション単位で計算します．</Fragment>
+</HelpItem>
+
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">特権管理者ロールの**所有者**と**共同作成者**は何が違うのでしょうか</Fragment>
   <Fragment slot="solution">所有者は，サブスクリプションやリソースへ他のアカウントからのアクセス権限を付与することができますが，共同作成者にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．</Fragment>
 </HelpItem>
+
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションIDを知りたい</Fragment>
   <Fragment slot="solution">サブスクリプションIDはサブスクリプションの詳細画面で確認できます．詳細は[こちら](/research_computing/utokyo_azure/faq/subscriptionid)を参照ください．</Fragment>
