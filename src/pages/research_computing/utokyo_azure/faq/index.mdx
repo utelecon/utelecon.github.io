@@ -29,7 +29,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">寄付金による運用ということは無料で使い続けられますか</Fragment>
-  <Fragment slot="solution">寄付金の総額までは利用者が負担することなくご利用いただけますが，寄付金の総額を超えた場合は超過分を負担いただくことになります．超過が発生した場合に，どの時期にどのくらい負担いただくことになるかは現在調整中です．</Fragment>
+  <Fragment slot="solution">申請時に割り当てられたギフト総額（無料保証枠）まではご負担いただくことなくご利用いただけますが，無料保証枠の総額を超えた場合は超過分を負担いただくことになります．3月末と9月末の半期毎に集計し，超過していた場合は超過額を請求する手続きになる予定です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -41,16 +41,21 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">このサービスは誰が申請できますか</Fragment>
-  <Fragment slot="solution">東大の人なら誰でも使えますが, UTokyo Account をお持ちの方が本サービスの申請サイトより利用申請を行い，「サブスクリプション」を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
+  <Fragment slot="solution">東大の教職員なら誰でも使えますが, UTokyo Account をお持ちの方が本サービスの申請サイトより利用申請を行い，「サブスクリプション」を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">学生は申請できますか</Fragment>
+  <Fragment slot="solution">無料保証枠を超えた利用があった場合に負担金が発生するため，申請は教職員に限らせていただいています．ただし，教職員が申請したサブスクリプションに共同作成者として学生のアカウントを登録することは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">このサービスの利用も学内の人に限定されますでしょうか</Fragment>
-  <Fragment slot="solution">Azure Portal へのログインは UTokyo Account で認証するため，Azure Portal 機能の利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイしたOSアカウントへのログイン認証は UTokyo Account に依存しないため，学外の人間をOSにアカウントを登録することによって利用させることは可能です．</Fragment>
+  <Fragment slot="solution">Azure Portal やサブスクリプションポータルへのログインは UTokyo Account で認証するため，これらの利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイしたOSアカウントへのログイン認証は UTokyo Account に依存しないため，学外の人間をOSにアカウントを登録することによって利用させることは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">申請したサブスクリプションを研究室のメンバー等で共同利用したい</Fragment>
+  <Fragment slot="problem">申請したサブスクリプションやリソースを研究室のメンバー等で共同利用したい</Fragment>
   <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**の権限があるアカウントで行う必要があります．具体的な設定手順例は[こちらのリンク先](/research_computing/utokyo_azure/faq/addrole)を参照ください．</Fragment>
 </HelpItem>
 
@@ -63,12 +68,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションとはなんですか</Fragment>
-  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションの範囲で利用者は様々なサービスを利用することができます．UTokyo Azure においても，どのくらいの利用があったかや，寄付金総額を超過した場合にどの程度の負担をいただくかはサブスクリプション単位で計算します．</Fragment>
+  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションを管理単位として利用者は様々なサービスを利用することができます．詳細は[サブスクリプションとは（リンク先）](/research_computing/utokyo_azure/faq/subscription)を参照ください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションを複数持つことはできますか</Fragment>
-  <Fragment slot="solution">UTokyo Azure のサブスクリプションは，UTokyo Account に紐づくため原則1人1つになります．UTokyo Azure に紐づかない，個人で契約するサブスクリプションを同じアカウント内で登録することもできません．</Fragment>
+  <Fragment slot="solution">UTokyo Azure のサブスクリプションは，UTokyo Account に紐づくため原則1人1つになります．UTokyo Azure に紐づかない，個人で契約するサブスクリプションを同じアカウント内で登録することはできません．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
