@@ -19,7 +19,7 @@ title: "UTokyo Azure"
 
 ## 基本方針・目標
 
-運用は情報基盤センター，情報システム部，情報システム本部が行います．提供にあたっての基本方針・目標は以下のとおりです．
+運用は情報基盤センター，情報システム部，情報システム本部が共同で行います．提供にあたっての基本方針・目標は以下のとおりです．
 
 - 利用開始までの敷居を低く，タイムラグを短くし，初めての方を含めて多くの人に利用してもらい，本サービスがなければ必要になってしまう計算機の調達の費用や時間をなくし，本学の研究の加速に貢献する
 - 運用側で利用可能なサービスを取捨選択し，狭く限定することなく Azure で利用可能なサービスを広く利用可能とする
@@ -30,8 +30,8 @@ title: "UTokyo Azure"
 
 
 ## 使ってみる
-- [Azure Portal](https://portal.azure.com/)には UTokyo Account で直ちにログインできます．どのようなサービスが使えるかな どを事前に確認することが出来ます．
-- 実際にUTokyo Azure の利用を開始するには，あなたのアカウントに紐付いた，本サービス専用の[「サブスクリプション」](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります．そのためにまず[UTokyo Azure サブスクリプションポータル](https://utokyo-azure-web.japaneast.cloudapp.azure.com/)から申し込みをして下さい．
+- [Azure Portal](https://portal.azure.com/)には UTokyo Account で直ちにログインできます．どのようなサービスが使えるかなどは申請前に事前に確認することが出来ます．
+- 実際に UTokyo Azure の利用を開始するには，あなたの UTokyo Account に紐付いた，本サービス専用の[「サブスクリプション」](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります．そのためにまず[UTokyo Azure サブスクリプションポータル](https://utokyo-azure-web.japaneast.cloudapp.azure.com/)から申請をして下さい．
 
 
 ## 利用例
