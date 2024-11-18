@@ -36,6 +36,8 @@ title: "UTokyo Azure"
 
 ## 利用例
 
+　ここでは、Azure をあまり使ったことがないというユーザー向けに，クイックスタートできる手順を説明しています．できるだけ初期設定を変えずに利用する手順となりますので．本格的な利用の際は各設定項目をご自身の利用にあった設定に変更してください．
+
 ### 仮想マシンの作成
 
 #### [Virtual Machines](/research_computing/utokyo_azure/virtualmachine/)
@@ -71,6 +73,7 @@ title: "UTokyo Azure"
 #### サービスリソースを共同管理する
 
 #### 利用者を追加する
+
 
 ## Azure を学習する
 
