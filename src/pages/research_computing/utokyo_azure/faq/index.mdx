@@ -41,16 +41,21 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">このサービスは誰が申請できますか</Fragment>
-  <Fragment slot="solution">東大の人なら誰でも使えますが, UTokyo Account をお持ちの方が本サービスの申請サイトより利用申請を行い，「サブスクリプション」を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
+  <Fragment slot="solution">東大の教職員なら誰でも使えますが, UTokyo Account をお持ちの方が本サービスの申請サイトより利用申請を行い，「サブスクリプション」を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">学生は申請できますか</Fragment>
+  <Fragment slot="solution">無料保証枠を超えた利用があった場合に負担金が発生するため，申請は教職員に限らせていただいています．ただし，教職員が申請したサブスクリプションに共同作成者として学生のアカウントを登録することは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">このサービスの利用も学内の人に限定されますでしょうか</Fragment>
-  <Fragment slot="solution">Azure Portal へのログインは UTokyo Account で認証するため，Azure Portal 機能の利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイしたOSアカウントへのログイン認証は UTokyo Account に依存しないため，学外の人間をOSにアカウントを登録することによって利用させることは可能です．</Fragment>
+  <Fragment slot="solution">Azure Portal やサブスクリプションポータルへのログインは UTokyo Account で認証するため，これらの利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイしたOSアカウントへのログイン認証は UTokyo Account に依存しないため，学外の人間をOSにアカウントを登録することによって利用させることは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">申請したサブスクリプションを研究室のメンバー等で共同利用したい</Fragment>
+  <Fragment slot="problem">申請したサブスクリプションやリソースを研究室のメンバー等で共同利用したい</Fragment>
   <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**の権限があるアカウントで行う必要があります．具体的な設定手順例は[こちらのリンク先](/research_computing/utokyo_azure/faq/addrole)を参照ください．</Fragment>
 </HelpItem>
 
