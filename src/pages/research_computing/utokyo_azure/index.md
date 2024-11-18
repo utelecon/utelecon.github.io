@@ -31,7 +31,7 @@ title: "UTokyo Azure"
 
 ## 使ってみる
 - [Azure Portal](https://portal.azure.com/)には UTokyo Account で直ちにログインできます．どのようなサービスが使えるかな どを事前に確認することが出来ます．
-- 実際にUTokyo Azure の利用を開始するには，あなたのアカウントに紐付いた，本サービス専用の「サブスクリプション（お財布の ようなもの）」を開設する必要があります．そのためにまず東京大学 Azureクラウド利用申請ページ(公開時にリンク)から申し込みをして下さい．
+- 実際にUTokyo Azure の利用を開始するには，あなたのアカウントに紐付いた，本サービス専用の[「サブスクリプション」](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります．そのためにまず[UTokyo Azure サブスクリプションポータル](https://utokyo-azure-web.japaneast.cloudapp.azure.com/)から申し込みをして下さい．
 
 
 ## 利用例
