@@ -63,8 +63,11 @@ title: "UTokyo Azure"
 
 #### [Azure Blob Storage](/research_computing/utokyo_azure/storage/)
 
-- Microsoft Azure のサービスの一つである Azure Blob Storage 上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．
+- Microsoft Azure のサービスの一つである Azure Blob Storage 上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．ストレージタイプとしてはオブジェクトストレージで，バイナリデータ等どのようなファイル形式でもほぼ格納することが可能です．
 
+#### Azure Files
+
+- NFS や SMB 等のネットワークファイルシステムとしてアクセスできるストレージです．古くからあるファイルシステムなので様々な環境からアクセスが可能です．
 
 ## 複数人グループでの利用
 
