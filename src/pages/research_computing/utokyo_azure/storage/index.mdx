@@ -9,7 +9,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 Microsoft Azureのサービスの一つであるAzure Blob Storage上に大容量データを保存し，手元のブラウザや計算機からアクセスする手順を説明します．[使用量あたりの料金はこちらのリンク](https://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/)を参考にしてください．
 
-## １．ストレージアカウントの作成 
+## ストレージアカウントの作成 
 {:#storage_account}
 
 - 事前に以下サイトよりサブスクリプションを申請してください．
@@ -33,7 +33,7 @@ Microsoft Azureのサービスの一つであるAzure Blob Storage上に大容�
 
 - 最後に`作成`を押すと数分でストレージアカウントが作成されます．
 
-## ２．手元の計算機等からのアクセス 
+## 手元の計算機等からのアクセス 
 {:#access}
 
 ### コンテナーの作成
@@ -87,6 +87,18 @@ upload_blob_file(blob_service_client,container_name)
 ```
 
 - [Pythonを用いたデータのダウンロードやファイル一覧の表示，コンテナーの作成などのより高度な利用方法，Python以外の言語の利用に関してはこちらのリンク](https://learn.microsoft.com/ja-jp/azure/storage/blobs/)を参照してください．
+
+
+## データの共有
+
+特定のファイルやコンテナーを Shared Access Signature (SAS) を用いて共有することができます。 
+
+- 1.ブラウザ上でファイル/コンテナーの右端の「…」からSASの作成を選択 
+
+- 2.共有する期間やアクセスを許可するIPアドレス範囲、共有相手の権限を設定し、「SASトークンおよびURLを生成」 
+
+- 3.生成されたBLOB SAS URLから共有相手もファイルにアクセスできます。 
+
 
 ## ストレージのマウント
 
