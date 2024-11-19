@@ -93,18 +93,18 @@ upload_blob_file(blob_service_client,container_name)
 
 特定のファイルやコンテナーを Shared Access Signature (SAS) を用いて共有することができます。 
 
-- 1.ブラウザ上でファイル/コンテナーの右端の「…」からSASの作成を選択 
+1\. ブラウザ上でファイル/コンテナーの右端の「…」からSASの作成を選択 
 
-- 2.共有する期間やアクセスを許可するIPアドレス範囲、共有相手の権限を設定し、「SASトークンおよびURLを生成」 
+2\. 共有する期間やアクセスを許可するIPアドレス範囲、共有相手の権限を設定し、「SASトークンおよびURLを生成」 
 
-- 3.生成されたBLOB SAS URLから共有相手もファイルにアクセスできます。 
+3\. 生成されたBLOB SAS URLから共有相手もファイルにアクセスできます。 
 
 
 ## ストレージのマウント
 
 手元のLinux計算機へマウントすることも可能です．以下はRocky Linux 9の例です． 
 
-#### Blobfuse2のインストール 
+#### 1. Blobfuse2のインストール 
 
 ```
  $ wget https://github.com/Azure/azure-storage-fuse/releases/download/blobfuse2-2.3.2/blobfuse2-2.3.2-Rocky-9.0.x86_64.rpm 
@@ -112,7 +112,7 @@ upload_blob_file(blob_service_client,container_name)
 ```
  
 
-#### 設定ファイルの編集
+#### 2. 設定ファイルの編集
 
 ```
 $ mkdir -p ~/.blobfuse2 
@@ -139,7 +139,7 @@ azstorage:
   container: <Container-Name>  
 ```
  
-#### マウント 
+#### 3. マウント 
 
 `$ sudo blobfuse2 mount /mnt/blobfuse --config-file ~/.blobfuse2/config.yaml `
 
