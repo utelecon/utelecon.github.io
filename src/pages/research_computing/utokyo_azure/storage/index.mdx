@@ -36,7 +36,8 @@ Microsoft Azureのサービスの一つであるAzure Blob Storage上に大容�
 ## ２．手元の計算機等からのアクセス 
 {:#access}
 
-### コンテナーの作成（*この操作はPython等で自動化可能です。例えば”[こちらのリンク](https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-quickstart-blobs-python?tabs=managed-identity%2Croles-azure-portal%2Csign-in-azure-cli&pivots=blob-storage-quickstart-scratch/)”）
+### コンテナーの作成
+> *この操作はPython等で自動化可能です。例えば”[**こちらのリンク**](https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-quickstart-blobs-python?tabs=managed-identity%2Croles-azure-portal%2Csign-in-azure-cli&pivots=blob-storage-quickstart-scratch/)”
 
 ファイルシステムのディレクトリに相当する，コンテナーを作成します． 
 
@@ -86,4 +87,49 @@ container_name = "<Paste-Your-Container-Name>"
 upload_blob_file(blob_service_client,container_name) 
 ```
 
-- Pythonを用いたデータのダウンロードやファイル一覧の表示，コンテナーの作成などのより高度な利用方法，[Python以外の言語の利用に関してはこちらのリンク](https://learn.microsoft.com/ja-jp/azure/storage/blobs/)”を参照してください．
+- [Pythonを用いたデータのダウンロードやファイル一覧の表示，コンテナーの作成などのより高度な利用方法，Python以外の言語の利用に関してはこちらのリンク](https://learn.microsoft.com/ja-jp/azure/storage/blobs/)を参照してください．
+
+## ストレージのマウント
+
+手元のLinux計算機へマウントすることも可能です．以下はRocky Linux 9の例です． 
+
+#### Blobfuse2のインストール 
+
+```
+ $ wget https://github.com/Azure/azure-storage-fuse/releases/download/blobfuse2-2.3.2/blobfuse2-2.3.2-Rocky-9.0.x86_64.rpm 
+ $ sudo rpm -Uvh blobfuse2-2.3.2-Rocky-9.0.x86_64.rpm 
+```
+ 
+
+#### 設定ファイルの編集
+
+```
+$ mkdir -p ~/.blobfuse2 
+$ vim ~/.blobfuse2/config.yaml 
+```
+
+- config.yamlの記載例: 
+
+```
+version: 2 
+logging: 
+  type: syslog 
+  level: LOG_WARNING 
+components: 
+  - libfuse 
+  - attr_cache 
+  - azstorage 
+libfuse: 
+  mount_path: /mnt/blobfuse 
+azstorage: 
+  type: block 
+  account-name: <Storage-Account-Name> 
+  account-key: <Access-Key> 
+  container: <Container-Name>  
+```
+ 
+#### マウント 
+
+`$ sudo blobfuse2 mount /mnt/blobfuse --config-file ~/.blobfuse2/config.yaml `
+
+マウントに失敗する場合、設定ファイルやストレージアカウントのネットワーク設定を確認してください。 
