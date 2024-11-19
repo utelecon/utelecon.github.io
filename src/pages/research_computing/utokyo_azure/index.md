@@ -4,7 +4,7 @@ title: "UTokyo Azure"
 
 ## UTokyo Azure とは
 
-　2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付（ギフト）が行われることとなりました．ギフトクレジットの詳細については[”こちら”（学内のみ）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyoAzure_Credit.aspx)をご覧ください．
+　2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付（ギフト）が行われることとなりました．[ギフトクレジットの詳細についてはこちら（学内のみ）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyoAzure_Credit.aspx)をご覧ください．
 
 　UTokyo Azure は，このギフトクレジットによる Microsoft Azure のクラウドサービスを東京大学の構成員に広く利用可能とするサービスの名称です．Microsoft Azure には，
 - 普通の Linux や Windows 環境を立ち上げる，いわゆる仮想マシンサービス
@@ -63,16 +63,15 @@ title: "UTokyo Azure"
 
 #### [Azure Blob Storage](/research_computing/utokyo_azure/storage/)
 
-- Microsoft Azure のサービスの一つである Azure Blob Storage 上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．
+- Microsoft Azure のサービスの一つである Azure Blob Storage 上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．ストレージタイプとしてはオブジェクトストレージで，バイナリデータ等どのようなファイル形式でもほぼ格納することが可能です．
 
+#### Azure Files
+
+- NFS や SMB 等のネットワークファイルシステムとしてアクセスできるストレージです．古くからあるファイルシステムなので様々な環境からアクセスが可能です．
 
 ## 複数人グループでの利用
 
-#### サブスクリプションを共同管理する
-
-#### サービスリソースを共同管理する
-
-#### 利用者を追加する
+一つのサブスクリプションやリソースを複数人で共有するためには，そのサブスクリプションまたはリソースに共有者の UTokyo Account を必要な権限で付与します．[詳細はこちらを参照ください．](/research_computing/utokyo_azure/group/)
 
 
 ## Azure を学習する
