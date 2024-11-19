@@ -24,12 +24,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">いつまで使い続けられますか</Fragment>
-  <Fragment slot="solution">2024/12/1 ～ 最大で 2029/9/30 まで(最大で約 5 年間)使えます. 大学全体として利用できる Azure クレジット (≈ 利用料金) に限りがあるため, これより若干早く終了することもありえます.</Fragment>
+  <Fragment slot="solution">2024/12/1 ～ 最大で 2029/9/30 まで(最大で約 5 年間)使えます. 大学全体として利用できるギフトクレジット (無料保証枠) に限りがあるため, これより若干早く終了することもありえます.</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">寄付金による運用ということは無料で使い続けられますか</Fragment>
-  <Fragment slot="solution">申請時に割り当てられたギフト総額（無料保証枠）まではご負担いただくことなくご利用いただけますが，無料保証枠の総額を超えた場合は超過分を負担いただくことになります．3月末と9月末の半期毎に集計し，超過していた場合は超過額を請求する手続きになる予定です．</Fragment>
+  <Fragment slot="solution">申請時に割り当てられたギフトクレジット（無料保証枠）まではご負担いただくことなくご利用いただけますが，無料保証枠の総額を超えた場合は超過分を負担いただくことになります．3月末と9月末の半期毎に集計し，超過していた場合は超過額を請求する手続きになる予定です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -40,18 +40,18 @@ import HelpItem from "@components/utils/HelpItem.astro";
 **利用者**
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">このサービスは誰が申請できますか</Fragment>
-  <Fragment slot="solution">東大の教職員なら誰でも使えますが, UTokyo Account をお持ちの方が本サービスの申請サイトより利用申請を行い，「サブスクリプション」を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
+  <Fragment slot="problem">このサービスは誰が利用できますか</Fragment>
+  <Fragment slot="solution">東大の教職員なら誰でも使えますが, UTokyo Account をお持ちの方が [UTokyo Azure 新規利用申請ページ](https://utokyo-azure-web.japaneast.cloudapp.azure.com/)より利用申請を行い，[「サブスクリプション」](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">学生は申請できますか</Fragment>
-  <Fragment slot="solution">無料保証枠を超えた利用があった場合に負担金が発生するため，申請は教職員に限らせていただいています．ただし，教職員が申請したサブスクリプションに共同作成者として学生のアカウントを登録することは可能です．</Fragment>
+  <Fragment slot="problem">学生は利用できますか</Fragment>
+  <Fragment slot="solution">作成されたリソースの利用者になることは問題なく可能です．ただし，無料保証枠を超えた利用があった場合に負担金が発生するため，サブスクリプションの申請は教職員に限らせていただいています．作成されたサブスクリプションの共同作成者として権限を追加することは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">このサービスの利用も学内の人に限定されますでしょうか</Fragment>
-  <Fragment slot="solution">Azure Portal やサブスクリプションポータルへのログインは UTokyo Account で認証するため，これらの利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイしたOSアカウントへのログイン認証は UTokyo Account に依存しないため，学外の人間をOSにアカウントを登録することによって利用させることは可能です．</Fragment>
+  <Fragment slot="solution">Azure Portal やサブスクリプションポータルへのログインは UTokyo Account で認証するため，これらの利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイしたOSへのログイン認証は UTokyo Account に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -61,7 +61,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">共同作成者の権限は，学外の共同研究者や研究支援を行っている民間企業の人にも付与できますか</Fragment>
-  <Fragment slot="solution">UTokyo Account をお持ちの方に限ります.お持ちであれば，例えば客員教員や業務支援の企業の人へも付与可能ですが，権限は限定される場合があります．</Fragment>
+  <Fragment slot="solution">UTokyo Account をお持ちの方に限りますが，お持ちであれば，例えば客員教員や業務支援の企業の人へも付与可能です．ただし通常の権限より限定される場合があります．</Fragment>
 </HelpItem>
 
 **サブスクリプション**
@@ -73,12 +73,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションを複数持つことはできますか</Fragment>
-  <Fragment slot="solution">UTokyo Azure のサブスクリプションは，UTokyo Account に紐づくため原則1人1つになります．UTokyo Azure に紐づかない，個人で契約するサブスクリプションを同じアカウント内で登録することはできません．</Fragment>
+  <Fragment slot="solution">UTokyo Azure のサブスクリプションの所有者になることは原則1アカウントにつき1つとしております．なお，UTokyo Azure に紐づかない，個人で契約するサブスクリプションを同じアカウント内で登録することはできません．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">特権管理者ロールの**所有者**と**共同作成者**は何が違うのでしょうか</Fragment>
-  <Fragment slot="solution">**所有者**は，サブスクリプションやリソースに対する他者のアカウントからのアクセス権限を付与（委任）することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．サブスクリプションの申請者は所有者の権限が設定されます．</Fragment>
+  <Fragment slot="solution">**所有者**は，自身が所有者であるサブスクリプションやリソースに対して他者アカウントに権限（ロール）を付与することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．サブスクリプションの申請者は所有者の権限が設定されます．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
