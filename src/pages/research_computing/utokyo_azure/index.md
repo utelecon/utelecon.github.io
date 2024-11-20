@@ -65,7 +65,7 @@ title: "UTokyo Azure"
 
 - Microsoft Azure のサービスの一つである Azure Blob Storage 上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．ストレージタイプとしてはオブジェクトストレージで，バイナリデータ等どのようなファイル形式でもほぼ格納することが可能です．
 
-#### Azure Files
+#### [Azure Files](/research_computing/utokyo_azure/storage/filesystem)
 
 - NFS や SMB 等のネットワークファイルシステムとしてアクセスできるストレージです．古くからあるファイルシステムなので様々な環境からアクセスが可能です．
 
