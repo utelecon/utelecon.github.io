@@ -46,7 +46,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">学生は利用できますか</Fragment>
-  <Fragment slot="solution">作成されたリソースの利用者になることは問題なく可能です．ただし，無料保証枠を超えた利用があった場合に負担金が発生するため，サブスクリプションの申請は教職員に限らせていただいています．作成されたサブスクリプションの共同作成者として権限を追加することは可能です．</Fragment>
+  <Fragment slot="solution">作成されたリソースの利用者になることは問題なく可能です．ただし，無料保証枠を超えた利用があった場合に請求が発生するため，サブスクリプションの申請は教職員に限らせていただいています．作成されたサブスクリプションの共有者として後から権限を付加することは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -60,8 +60,30 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">共同作成者の権限は，学外の共同研究者や研究支援を行っている民間企業の人にも付与できますか</Fragment>
-  <Fragment slot="solution">UTokyo Account をお持ちの方に限りますが，お持ちであれば，例えば客員教員や業務支援の企業の人へも付与可能です．ただし通常の権限より限定される場合があります．</Fragment>
+  <Fragment slot="problem">メンバーへの権限付与は，学外の共同研究者や研究支援を行っている民間企業の人にも与えることができますか</Fragment>
+  <Fragment slot="solution">原則 UTokyo Account をお持ちの方に限ります．Azure Portal の権限付与手順でも UTokyo Account 保持者のみ表示されます．すでに別の理由で UTokyo Account をお持ちの場合は，例えば客員教員や業務支援の企業の人へも付与可能です．</Fragment>
+</HelpItem>
+
+**無料保証枠**
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">無料保証枠とはなんですか</Fragment>
+  <Fragment slot="solution">Microsoft からのギフトクレジットは，申請時に一定額がサブスクリプションに割り当てられます．この金額の枠内で申請者はAzure サービスを利用することができ，この枠を無料保証枠と呼称しています．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">最初に割り当てられる無料保証枠はいくらですか</Fragment>
+  <Fragment slot="solution">一定額として決めておらず，全体で申請されたサブスクリプション数によって動的に変動します．UTokyo Azure 新規申請ページの管理ページから金額を確認することができます．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">最初に割り当てられた無料保証枠は確定で使えますか</Fragment>
+  <Fragment slot="solution">全体で申請されたサブスクリプション数に応じて，利用開始後に減額されます．毎月1回再計算が行われ，その時点での金額はUTokyo Azure 新規申請ページの管理ページから確認することができます．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">管理ページでの無料保証枠が米ドル表示なのですが</Fragment>
+  <Fragment slot="solution">Microsoft のギフトクレジットの取り扱い仕様により，利用中は米ドルでの管理になります．申請者への超過分の請求は，財務会計システムによってその時の変換レートで変換され日本円で請求されます．</Fragment>
 </HelpItem>
 
 **サブスクリプション**
@@ -73,7 +95,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションを複数持つことはできますか</Fragment>
-  <Fragment slot="solution">UTokyo Azure のサブスクリプションの所有者になることは原則1アカウントにつき1つとしております．なお，UTokyo Azure に紐づかない，個人で契約するサブスクリプションを同じアカウント内で登録することはできません．</Fragment>
+  <Fragment slot="solution">UTokyo Azure のサブスクリプションの所有者になることは原則1アカウントにつき1つとしております．なお，UTokyo Azure に紐づかないサブスクリプションを同じアカウント内で作成することもできません．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -85,3 +107,5 @@ import HelpItem from "@components/utils/HelpItem.astro";
   <Fragment slot="problem">サブスクリプションIDを知りたい</Fragment>
   <Fragment slot="solution">サブスクリプションIDはサブスクリプションの詳細画面で確認できます．詳細は[こちら](/research_computing/utokyo_azure/faq/subscriptionid)を参照ください．</Fragment>
 </HelpItem>
+
+
