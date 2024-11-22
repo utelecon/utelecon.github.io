@@ -30,7 +30,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">ギフトクレジットによる運用ということは無料で使い続けられますか</Fragment>
-  <Fragment slot="solution">申請時に割り当てられた無料保証枠まではご負担いただくことなくご利用いただけますが，無料保証枠の総額を超えた場合は超過分を負担いただくことになります．3月末と9月末の半期毎に集計し，超過していた場合は超過額を請求する手続きになる予定です．</Fragment>
+  <Fragment slot="solution">毎月割り当てられる無料保証枠まではご負担いただくことなく利用いただけますが，無料保証枠を超えた場合は超過分を負担いただく可能性があり，3月末と9月末の半期毎に集計し超過していた場合は超過額を請求する手続きになる予定です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -51,13 +51,13 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">このサービスの利用も学内の人に限定されますでしょうか</Fragment>
-  <Fragment slot="solution">Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイした OS へのログイン認証は UTokyo Account に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</Fragment>
+  <Fragment slot="problem">学外の人に利用させることはできないのでしょうか</Fragment>
+  <Fragment slot="solution">Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイした OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">申請したサブスクリプションやリソースを研究室のメンバー等で共同利用したい</Fragment>
-  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**所有者**や**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**フルアクセス権限がある所有者**のアカウントで行う必要があります．[詳細はこちらのリンクを参照ください．](/research_computing/utokyo_azure/group/)</Fragment>
+  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**所有者**や**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**のアカウントで行う必要があります．[詳細はこちらのリンクを参照ください．](/research_computing/utokyo_azure/group/)</Fragment>
 </HelpItem>
 
 **無料保証枠**
@@ -69,7 +69,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">割り当てられる無料保証枠はいくらですか</Fragment>
-  <Fragment slot="solution">一定額として決めておらず，全体で申請されたサブスクリプション数によって月毎に動的に変動します．これはギフトクレジットを後から利用申請された方にも公平に割り当てるための施策で，UTokyo Azure 新規申請ページの管理ページからその月の上限や使用済量を確認することができます．</Fragment>
+  <Fragment slot="solution">一定額として決めておらず，全体で申請されたサブスクリプション数によって月毎に動的に変動した額が割り当てられます．これはギフトクレジットを後から利用申請された方にも公平に割り当てるための施策で，UTokyo Azure 新規申請ページの管理ページからその月の上限や使用済量を確認することができます．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -91,7 +91,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションを複数持つことはできますか</Fragment>
-  <Fragment slot="solution">UTokyo Azure のサブスクリプションの所有者になることは原則1アカウントにつき1つとしております．ただし，他のメンバーが申請したサブスクリプションの共有者として，サブスクリプションの所有者ロールの割り当てを受けることは可能です．</Fragment>
+  <Fragment slot="solution">UTokyo Azure のサブスクリプションの所有者になることは原則1アカウントにつき1つとしております．ただし，他のメンバーが申請したサブスクリプションの共有者として，所有者ロールの割り当てを受けることは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
