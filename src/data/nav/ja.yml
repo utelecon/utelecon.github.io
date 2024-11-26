@@ -48,6 +48,12 @@
     -
       name: "UTokyo VPN"
       url: "/utokyo_vpn/"
+    - 
+      name: "全学向け高速計算機・データ活用基盤"
+      url: "/research_computing/"    
+    -
+      name: "UTokyo Azure"
+      url: "/research_computing/utokyo_azure/"    
     -
       name: "一覧"
       url: "/systems/"
