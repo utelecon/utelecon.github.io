@@ -52,6 +52,9 @@
       name: "High-speed computing and data utilization infrastructure for the university <small>(in Japanese)</small>"
       url: "/research_computing/"
     -
+      name: "UTokyo Azure"
+      url: "/research_computing/utokyo_azure/"
+    -
       name: "Full List"
       url: "/en/systems/"
     # -
