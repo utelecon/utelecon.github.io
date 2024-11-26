@@ -28,14 +28,15 @@ Please also refer to the following.
 - **[UTokyo Slack](/en/slack/)**: This is a type of business chat tool used for communication through text messages. A key feature is the ability to create multiple "channels" where text messages can be posted, allowing separate conversations to take place simultaneously. In UTokyo Slack, "workspaces", which are units where people gather to communicate, can be created upon request by faculty and staff members.
 - **[Slido](/en/slido/)**: This is a web service that provides features for interactive communication with participants during classes, meetings, and lectures, such as Q&A sessions, live polls, and surveys. It integrates with Webex, allowing you to access premium features by signing in with your University of Tokyo Webex account.
 - **[UTokyo MATLAB Campus-Wide License](/en/matlab/)**: This service allows you to use MATLAB, a software for scientific and technical computing, under the University of Tokyo's campus-wide license.
-- [For Students]**[Windows Education for students](/en/microsoft/windows_education_for_students)**: This is a license to upgrade to the Education edition of Windows 10 or Windows 11. Please note that this license is for upgrading only and cannot be used for a clean installation.
-- **[UTokyo Microsoft Azure Dev Tools for Teaching](/en/microsoft/adt4t/)**: This service provides Microsoft developer software for educational use.
+- **[UTokyo Azure](/research_computing/utokyo_azure/)** (in Japanese)： This service is available across the university. It is funded by a donation (gift credit) from Microsoft, based on the basic agreement concluded between the university and Microsoft.
+- [only for educational use] **[UTokyo Microsoft Azure Dev Tools for Teaching](/en/microsoft/adt4t/)**: This service provides Microsoft developer software for educational use.
 - **[UTokyo Antivirus License](/antivirus/)** (in Japanese): This comprehensive antivirus software license is provided for faculty and students. The University of Tokyo requires "[appropriate virus protection](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html) (in Japanese)" for computers, as stated in the "Information Ethics and Computer Use Guidelines". Please use this software as part of your virus protection measures.
 
 ## University-wide Systems
 
 - **[ECCS Terminals](https://www-old.ecc.u-tokyo.ac.jp/en/)**: These are computers located on campus. Please note that you need to apply for usage rights in advance.
 - **[UTokyo VPN](/en/utokyo_vpn/)**: This system allows you to access administrative systems that are restricted to the university network from outside the campus.
+- **[High-speed computing and data utilization infrastructure for the university](/research_computing)** (in Japanese)： This is a high-speed computing and data utilization infrastructure provided by the University of Tokyo for the research and learning of faculty and students.
 - **[University of Tokyo Online Lecture Search System (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/en/)**：This system is used to verify URLs for online classes. For more details, please also refer to the pages "[How to Obtain the Online Class URL (for Students)](/en/oc/url)" and "[How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url)".
 - [For Faculty and Staff] **[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**: This is the university portal site for faculty and staff.
 
