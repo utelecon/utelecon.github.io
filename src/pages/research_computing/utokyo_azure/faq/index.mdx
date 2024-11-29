@@ -42,7 +42,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">このサービスは誰が利用できますか</Fragment>
-  <Fragment slot="solution">東大の教職員なら誰でも使えますが, UTokyo Account をお持ちの方が [UTokyo Azure 新規利用申請ページ（学内アクセス限定）](http://azure.itc.u-tokyo.ac.jp/)より利用申請を行い，[サブスクリプション](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
+  <Fragment slot="solution">東大の構成員なら誰でも使えますが, UTokyo Account をお持ちの方が [UTokyo Azure 新規利用申請ページ（学内アクセス限定）](http://azure.itc.u-tokyo.ac.jp/)より利用申請を行い，[サブスクリプション](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -51,13 +51,13 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">学外の人に利用させることはできないのでしょうか</Fragment>
-  <Fragment slot="solution">Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用は UTokyo Account 保有者に限られます．ただし，例えば作成した仮想マシンにデプロイした OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</Fragment>
+  <Fragment slot="problem">学外の人と共同利用することはできないのでしょうか。</Fragment>
+  <Fragment slot="solution">Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用はすでに UTokyo Account を保有している人に限られます．ただし，例えば作成した仮想マシンにデプロイした OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">申請したサブスクリプションやリソースを研究室のメンバー等で共同利用したい</Fragment>
-  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**所有者**や**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**のアカウントで行う必要があります．[詳細はこちらのリンクを参照ください．](/research_computing/utokyo_azure/group/)</Fragment>
+  <Fragment slot="problem">学外の人とサブスクリプションやリソースを共有するためには UTokyo Account を取得させればいいのでしょうか．</Fragment>
+  <Fragment slot="solution">本サービスの利用を目的とした UTokyo Account 取得はおそらく認められないので，Azure Portal の招待機能を使っていただくことを検討しています．現状は申請者にも割り当てられていない権限のため，今は利用できませんが今後の対応を検討中です．</Fragment>
 </HelpItem>
 
 **サブスクリプション**
@@ -74,12 +74,17 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">特権管理者ロールの所有者と共同作成者は何が違うのでしょうか</Fragment>
-  <Fragment slot="solution">**所有者**は，自身が所有者であるサブスクリプションやリソースに対して他者アカウントに権限（ロール）を付与することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．サブスクリプションの申請者は所有者の権限が設定されます．</Fragment>
+  <Fragment slot="solution">**所有者**は，自身が所有者であるサブスクリプションやリソースに対して他者アカウント（メンバー）に権限（ロール）を付与することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．ただし、所有者の権限にはさらに段階があり，サブスクリプションの申請者は**すべてのロールを割り当てることができる所有者**の権限が設定されます．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">すでに個人で契約しているサブスクリプションを割り当てることはできますか</Fragment>
   <Fragment slot="solution">UTokyo Azure 新規申請ページにて申請されたサブスクリプション以外を割り当てることはできません．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">申請したサブスクリプションやリソースを研究室のメンバー等で共同利用したい</Fragment>
+  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**所有者**や**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**のアカウントで行う必要があります．[詳細はこちらのリンクを参照ください．](/research_computing/utokyo_azure/group/)</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -91,17 +96,17 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料保証枠とはなんですか</Fragment>
-  <Fragment slot="solution">Microsoft からのギフトクレジットは，月ごとに全体のサブスクリプション申請数から算出された上限金額をサブスクリプションに割り当てます．この金額の枠内で申請者は Azure サービスを無料で利用することができ，この枠より使用が下回る場合は確実に請求は発生しません．この枠を無料保証枠と呼称しています．</Fragment>
+  <Fragment slot="solution">Microsoft からのギフトクレジットは，月ごとに全体のサブスクリプション申請数から算出された上限額をサブスクリプションに割り当てます．この金額の枠内で申請者は Azure サービスを無料で利用することができ，この枠より使用が下回る限り確実に請求は発生しません．この枠を無料保証枠と呼称しています．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">割り当てられる無料保証枠はいくらですか</Fragment>
-  <Fragment slot="solution">常に一定額ではなく，全体で申請されたサブスクリプション数によって月毎に動的に変動した額が割り当てられます．これはギフトクレジットを後から利用申請された方にも公平に割り当てるための施策で，UTokyo Azure 新規申請ページの管理ページから，その月の上限や現在の使用済量を確認することができます．</Fragment>
+  <Fragment slot="solution">常に一定額ではなく，UTokyo Azure 全体で申請されたサブスクリプション数によって月毎に変動した額が割り当てられます．これはギフトクレジットを後から利用申請された方にも公平に割り当てるための施策で，UTokyo Azure 新規申請ページの管理ページから，その月の上限や現在の使用済量を確認することができます．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料保証枠を超えてしまった場合，必ず請求されますでしょうか．</Fragment>
-  <Fragment slot="solution">月ごとに利用者全体の使用量を計算し，無料保証枠の残がある場合はその残から補填され，請求は発生しません．もし利用者全体の総額で超過した場合も一旦ギフトクレジットから補填されますが，毎年3月末及び9月末の集計では繰り越されず，その時点で総枠を超えている場合は請求が発生します．最新情報やルールの詳細等は[UTokyo Azure 新規利用申請ページ（学内のみ）](http://azure.itc.u-tokyo.ac.jp/)の管理ページをご参照ください．</Fragment>
+  <Fragment slot="solution">月ごとに利用者全体の使用量を計算し，無料保証枠の合計（以下無料分）に残がある場合はその残から相殺され，請求は発生しません．もし無料分も超過した場合も一旦ギフトクレジットから相殺しますが，毎年3月末及び9月末の集計では相殺せず，その時点で半年分の無料分を超えていた場合は，その超えた分について請求が発生します．最新情報やルールの詳細等は[UTokyo Azure 新規利用申請ページ（学内のみ）](http://azure.itc.u-tokyo.ac.jp/)の管理ページをご参照ください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
