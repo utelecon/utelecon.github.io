@@ -49,11 +49,11 @@
       name: "UTokyo VPN"
       url: "/en/utokyo_vpn/"
     -
-      name: "High-speed computing and data utilization infrastructure for the university <small>(in Japanese)</small>"
-      url: "/research_computing/"
+      name: "High-speed computing and data utilization infrastructure for the university"
+      url: "/en/research_computing/"
     -
       name: "UTokyo Azure"
-      url: "/research_computing/utokyo_azure/"
+      url: "/en/research_computing/utokyo_azure/"
     -
       name: "Full List"
       url: "/en/systems/"
