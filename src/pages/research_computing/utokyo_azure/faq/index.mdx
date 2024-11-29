@@ -30,7 +30,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">ギフトクレジットによる運用ということは無料で使い続けられますか</Fragment>
-  <Fragment slot="solution">毎月割り当てられる無料保証枠まではご負担いただくことなく利用いただけますが，無料保証枠を超えた場合は超過分を負担いただく可能性があり，3月末と9月末の半期毎に集計し超過していた場合は超過額を請求する手続きになる予定です．</Fragment>
+  <Fragment slot="solution">毎月割り当てられる無料分まではご負担いただくことなく利用いただけますが，無料分を超えた場合は超過分を負担いただきます．無料分は利用者の人数（各[サブスクリプション](/research_computing/utokyo_azure/faq/subscription)ごとの人数やサブスクリプションの総数等）により毎月変動します．実際には3月末と9月末の半期毎に各月の超過分・余剰分を集計して半期ごとの通算の超過額を計算します．この通算した超過額を情報基盤センターより請求する予定です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -47,12 +47,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">学生は利用できますか</Fragment>
-  <Fragment slot="solution">デプロイされたサービスの利用者になることは問題なく可能です．サブスクリプションやリソース等のスコープに後からロール付加してメンバーとして割り当てらることも可能です．ただし，無料保証枠を超えた利用があった場合に請求が発生する可能性があるため，サブスクリプションの申請は教職員に限らせていただいています．</Fragment>
+  <Fragment slot="solution">学生を Azure 上に作成した仮想マシンの利用者にすることは問題無く可能です．後からサブスクリプション等のメンバーにすることも可能です．ただし，無料分を超えた利用料の支払いが必要なため，サブスクリプションの申請は教職員に限られます．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">学外の人と共同利用することはできないのでしょうか。</Fragment>
-  <Fragment slot="solution">Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用はすでに UTokyo Account を保有している人に限られます．ただし，例えば作成した仮想マシンにデプロイした OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</Fragment>
+  <Fragment slot="solution">Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用はすでに UTokyo Account を保有している人に限られます．ただし，例えば作成した仮想マシン上で動かしている OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</Fragment>
 </HelpItem>
 
 **サブスクリプション**
@@ -64,7 +64,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションを複数持つことはできますか</Fragment>
-  <Fragment slot="solution">UTokyo Azure のサブスクリプションの所有者になることは原則1アカウントにつき1つとしております．ただし，他のメンバーが申請したサブスクリプションの共有者として，所有者ロールの割り当てを受けることは可能です．</Fragment>
+  <Fragment slot="solution">UTokyo Azure のサブスクリプションは，原則一人につき一つだけ申請できます．ただし，他のメンバーが申請したサブスクリプションの共有者として，所有者ロールの割り当てを受けることは可能です．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -73,8 +73,8 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">すでに個人で契約しているサブスクリプションを割り当てることはできますか</Fragment>
-  <Fragment slot="solution">UTokyo Azure 新規申請ページにて申請されたサブスクリプション以外を割り当てることはできません．</Fragment>
+  <Fragment slot="problem">すでに個人で契約しているサブスクリプションを UTokyo Azure に入れることはできますか</Fragment>
+  <Fragment slot="solution">できません．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -87,16 +87,16 @@ import HelpItem from "@components/utils/HelpItem.astro";
   <Fragment slot="solution">サブスクリプションIDはサブスクリプションの詳細画面で確認できます．</Fragment>
 </HelpItem>
 
-**無料保証枠**
+**無料分と無料保証枠**
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料保証枠とはなんですか</Fragment>
-  <Fragment slot="solution">Microsoft からのギフトクレジットは，月ごとに全体のサブスクリプション申請数から算出された上限額をサブスクリプションに割り当てます．この金額の枠内で申請者は Azure サービスを無料で利用することができ，この枠より使用が下回る限り確実に請求は発生しません．この枠を無料保証枠と呼称しています．</Fragment>
+  <Fragment slot="solution">毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは無料分の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．そこで月初めに、この分までは全額無料になるという最低保証額を公表しています．これが無料保証枠です．月末に計算する無料分よりは少ない額になります．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">割り当てられる無料保証枠はいくらですか</Fragment>
-  <Fragment slot="solution">常に一定額ではなく，UTokyo Azure 全体で申請されたサブスクリプション数によって月毎に変動した額が割り当てられます．これはギフトクレジットを後から利用申請された方にも公平に割り当てるための施策で，UTokyo Azure 新規申請ページの管理ページから，その月の上限や現在の使用済量を確認することができます．</Fragment>
+  <Fragment slot="solution">UTokyo Azure 新規申請ページの管理ページから，その月の無料保証枠や現在の使用済量を確認することができます．公平のため，無料保証枠は常に一定額ではなく，UTokyo Azure 全体の利用量に応じて月毎に変動します．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -106,5 +106,5 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">管理ページでの無料保証枠が米ドル表示なのですが</Fragment>
-  <Fragment slot="solution">Microsoft のギフトクレジットの取り扱い仕様により，利用中は米ドルでの管理になります．申請者へ超過分の請求が発生した場合は，財務会計システムによってその時の変換レートで変換され日本円で請求されます．</Fragment>
+  <Fragment slot="solution">Microsoft のギフトクレジットの取り扱い仕様により，利用料は米ドルでの管理になります．申請者へ超過分の請求が発生した場合は，財務会計システムによってその時の変換レートで変換され日本円で請求されます．</Fragment>
 </HelpItem>
