@@ -6,7 +6,7 @@ breadcrumb:
 
 ## UTokyo Azure とは
 
-2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付（ギフト）が行われることとなりました．ギフトクレジットの詳細については次のリンクを参照ください．[教職員限定：ギフトクレジットについて](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyoAzure_Credit.aspx)
+2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付（ギフト）が行われることとなりました．
 
 UTokyo Azure は，このギフトクレジットによる Microsoft Azure のクラウドサービスを東京大学の構成員に広く利用可能とするサービスの名称です．Microsoft Azure には，
 
@@ -25,23 +25,22 @@ UTokyo Azure は，このギフトクレジットによる Microsoft Azure の�
 運用は情報基盤センター，情報システム部，情報システム本部が共同で行います．提供にあたっての基本方針・目標は以下のとおりです．
 
 - 利用開始までの敷居を低く，タイムラグを短くし，初めての方を含めて多くの人に利用してもらい，本サービスがなければ必要になってしまう計算機の調達の費用や時間をなくし，本学の研究の加速に貢献する．
+- 研究・教育目的で、分野を限定せずに広く利用可能とする
+  - 注：いわゆる事務業務での利用はできません。事務業務にはこれまでも全学で契約している[Microsoft ライセンス](/microsoft/)を使って下さい
 - 運用側で利用可能なサービスを取捨選択し，狭く限定することなく Azure で利用可能なサービスを広く利用可能とする．
   - 原則的には，Microsoft Azureで提供されているサービスがすべてそのまま使えるようにする（個々の利用者の環境に運用側が立ち入ることはしない）．
   - ただし，運用上提供が困難と判断されるサービスについては提供不可とする場合がある．
   - 容易に高額なり容量になるサービスについてはデフォルトで利用禁止とする場合がある．
   - 運用側である規模の標準環境を用意し，標準的なユースケースを環境構築の手間なく利用したいという利用者をサポートする計画がある．
-- ギフトクレジットは有限であることから，大学全体でのギフトクレジットの消費量を制御（目標値を設定）しその範囲で無料利用可能とする．設置した目標値を上回って利用された分についてはその超過した量に応じた課金を利用者に対して行う場合がある．詳細は UTokyo Azure 利用規程および UTokyo Azure 利用料金規則を参照．
-
-## 規則等
-
-- [UTokyo Azure 利用規定](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/UTokyoAzure_Policy/UTokyo%20Azure%E5%88%A9%E7%94%A8%E8%A6%8F%E7%A8%8B_20241128%E5%88%B6%E5%AE%9A.pdf)
-- 教職員限定：UTokyo Azure 利用料金規則
+- ギフトクレジットは有限であることから，大学全体でのギフトクレジットの消費量を制御（目標値を設定）しその範囲で無料利用可能とする．設置した目標値を上回って利用された分についてはその超過した量に応じた課金を利用者に対して行う場合がある．
+- 運用規定，ギフトクレジットの料，利用料金が発生する場合やその際の料金の計算規則などについては，[学内者限定情報の発信サイト](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utokyo-azure-internal/) （東大のGoogleアカウント --- [ECCSクラウドメール](/google/) --- でのサインインが必要です）にて発信していますのでご覧ください
 
 ## 使ってみる
 - [Azure Portal](https://portal.azure.com/)には [UTokyo Account](/utokyo_account/) で直ちにログインできます．どのようなサービスが使えるかなどは申請前に事前に確認することが出来ます．
-- 実際に UTokyo Azure の利用を開始するには，あなたの UTokyo Account に紐付いた，本サービス専用の[**サブスクリプション**](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります．そのためにまず[**UTokyo Azure新規利用申請ページ（学内アクセス限定 ※12/2 から受け付け開始予定）**](http://azure.itc.u-tokyo.ac.jp/)から申請をして下さい．
+- 実際に UTokyo Azure の利用を開始するには，あなたの UTokyo Account に紐付いた，本サービス用の[**サブスクリプション**](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります．そのためにまず[**UTokyo Azure新規利用申請ページ（学内アクセス限定 ※12/2 から受け付け開始予定）**](http://azure.itc.u-tokyo.ac.jp/)から申請をして下さい．
+- 申請ができるのは、利用料金が発生したときに支払いについて責任を持てる教職員に限られます．学生で利用したい人は適切な立場の人（指導教員など）にご相談下さい．
 
-## 利用例・主なサービス
+## 主なサービス・利用法
 
 - 研究・教育でよく現れる利用シーンを想定して、Azure をあまり使ったことがないというユーザー向けにクイックスタートできる手順を説明しています．
 - できるだけ初期設定を変えずに利用する手順となりますので．本格的な利用の際は各設定項目をご自身の利用にあった設定に変更してください．
@@ -92,7 +91,7 @@ Microsoft が用意している，より Azure を使いこなすための自己
 - [Microsoft Virtual Training Days](https://www.microsoft.com/ja-jp/events/top/training-days)
 - [Microsoft トレーニング：Azure](https://learn.microsoft.com/ja-jp/training/azure/)
 
-## FAQ・問い合わせ先
+## FAQ・サポート
 
 #### [FAQ](/research_computing/utokyo_azure/faq/)
 - 特に多い問い合わせはこちらにまとめてあります．
@@ -103,4 +102,7 @@ Microsoft が用意している，より Azure を使いこなすための自己
   - [サポートリクエスト](/research_computing/utokyo_azure/support/)
 
 #### UTokyo Azure サポート担当
-- utokyo-azure-group@g.ecc.u-tokyo.ac.jp
+
+- utelecon のサポート経由での問い合わせを受け付けますが、個々のサービスの利用法や、Azureの技術的な問題については、種類も多く情報も限らているため、Microsoft の担当者に直接問い合わせをしていただくことを基本としますのでご了解下さい
+
+- サポート担当連絡先： utokyo-azure-group@g.ecc.u-tokyo.ac.jp
