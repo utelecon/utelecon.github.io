@@ -5,12 +5,6 @@ breadcrumb:
   title: "Connect" Feature
 ---
 
-<div class="box">
-  2023年10月27日にSlackの新しいデザインが展開されたことに伴い，本ページに記載されている手順が実際の手順と異なることがあります．
-
-  新しいデザインについては，「[Slackの新しいデザインの展開と説明会開催のお知らせ](/notice/2023/0929-new-slack-design)」を参照してください．
-</div>
-
 ## Summary 
 
 In UTokyo Slack, the target users are all members who have a UTokyo Account. Since those who do not have UTokyo accounts (i.e., those outside the university) are not target users, in principle, they cannot participate as UTokyo Slack workspace members. However, it is possible to use UTokyo Slack with those outside the university by using the "Connect" feature in Slack. This page explains how to use this feature. 
@@ -45,6 +39,9 @@ This section describes how to deal with a situation where you have a workspace t
 {:#procedure}
 
 The following explains the procedure for sharing a channel using the "Connect" feature. The explanation is divided into two parts: one for a UTokyo Slack workspace, and one for an external (other than UTokyo Slack) workspace. Please proceed to read them in that order. 
+
+Finally, this section explains how to configure permissions for members joining shared channels from external workspaces. This configuration was originally accessible before step 5 in the "[Operating Procedures in UTokyo Slack Workspace](#Operating-Procedures-in-UTokyo-Slack-Workspace)" section. However, following Slack's major design overhaul in October 2023, this setting is no longer displayed when following the updated procedure below. Please review this information and make any necessary changes if you find it appropriate.
+
 ### Operating Procedures in UTokyo Slack Workspace 
 
 To perform the following procedure in the current UTokyo Slack, you must be granted Owner or Admin privileges of the workspace. 
@@ -65,6 +62,22 @@ To perform the following procedure in the current UTokyo Slack, you must be gran
 1. You will see the "Choose who can see the channel" screen. Please choose your preference from the "Public" and "Private" options and click the "Next" button. *This is to set up this workspace’s (external workspace’s) side and does not change the setting on the UTokyo Slack workspace’s side. 
 1. You will see the "Name this channel for your team" screen. Please enter the channel name and click the "Next" button. *This is to set up this workspace’s (external workspace’s) side and does not change the channel name on the UTokyo Slack workspace’s side. 
 1. Finally, click the "Join Channel" button and complete the sharing. 
+
+### Configuring Permissions for External Workspaces in Shared Channels
+
+This section explains how to configure permissions for members from external workspaces participating in shared channels. Specifically, you can choose whether members from external workspaces have "Permission to post" or "Permission to post, invite, and more" in the shared channel. For more details, please refer to [Slack Connect: Manage channel invitation settings and permissions](https://slack.com/help/articles/1500012572621-Slack-Connect--Manage-channel-invitation-settings-and-permissions).
+
+By default, shared channels configured using the above steps are set to allow "Permission to post, invite, and more" for members from external workspaces, providing advanced management capabilities. If necessary, consider changing this setting.
+
+These steps should be performed within a UTokyo Slack workspace.
+
+1. Open the shared channel for which you want to configure permissions with an external workspace.
+1. Click on the channel name displayed at the top of the screen.
+1. In the dialog that appears, select the "Channel Details" tab. Then, in the "Organization" section at the bottom, click the menu button (three-dot icon) next to the name of the external workspace.
+1. From the displayed menu, select "Manage Permissions".
+1. Choose either "Permission to post" or "Permission to post, invite, and more.", and then click "Next".
+1. Click "Save" to apply the changes and close the dialog.
+
 
 ## Supplementary Information 
 
