@@ -1,0 +1,37 @@
+name: 'Twitter GitHub Action'
+description: ''
+author: 'utelecon'
+branding:
+  icon: 'share-2'
+  color: 'blue'
+
+inputs:
+  OLD_RSS:
+    description: Path to the old RSS file
+    required: true
+  NEW_RSS:
+    description: Path to the new RSS file
+    required: true
+  TWITTER_APIKEY:
+    description: Twitter API Key (App Key)
+    required: true
+  TWITTER_APIKEY_SECRET:
+    description: Twitter API Secret (App key secret)
+    required: true
+  TWITTER_ACCESS_TOKEN:
+    description: Twitter Access Token
+    required: true
+  TWITTER_ACCESS_TOKEN_SECRET:
+    description: Twitter Access Token Secret
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.OLD_RSS }}
+    - ${{ inputs.NEW_RSS }}
+  env:
+    TWITTER_APIKEY: ${{ inputs.TWITTER_APIKEY }}
+    TWITTER_APIKEY_SECRET: ${{ inputs.TWITTER_APIKEY_SECRET }}
+    TWITTER_ACCESS_TOKEN: ${{ inputs.TWITTER_ACCESS_TOKEN }}
+    TWITTER_ACCESS_TOKEN_SECRET: ${{ inputs.TWITTER_ACCESS_TOKEN_SECRET }}

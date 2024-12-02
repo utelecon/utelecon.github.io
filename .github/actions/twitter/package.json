@@ -1,0 +1,11 @@
+{
+  "name": "@utelecon/rss-to-twitter",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "main": "twitter.js",
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "twitter-api-v2": "^1.18.2"
+  }
+}
