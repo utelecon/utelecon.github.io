@@ -38,6 +38,11 @@ title: "「生成AIと教育について考える」シンポジウム＋東大�
 * 本件連絡先: 情報システム部情報支援課 
 * Email: systemshien.adm@gs.mail.u-tokyo.ac.jp
 
+## 参加者用ページ
+
+* 登録後、[参加者用ページ](https://univtokyo.sharepoint.com/sites/DX/generative-ai-and-education-utokyo-workshop) (要UTokyo Accountでサインイン) からZoomリンクなど必要な情報をご覧ください。
+* （学外の方など）閲覧が不可能または困難な場合は上記までご連絡ください。
+
 ## 生成AIに関する意見調査（匿名投票）
 
 https://pol.is というシステムを使い、生成AI（ChatGPT）を、様々な場面で研究者・学生が使うことに関する27個の文章が次々とあらわれますので、「賛成」「反対」を投票していただき、皆様のご意見を伺いたいと思います。投票は匿名で、ご参加いただかない方も可能です。回答分布などの結果は当日報告します。「[https://pol.is/5fthebfuue](https://pol.is/5fthebfuue)」から投票ください。どうぞよろしくお願いします。

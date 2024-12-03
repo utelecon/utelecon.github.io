@@ -44,6 +44,11 @@ This symposium and workshop aim not only to impart knowledge but also to foster 
 * Contact: Information Systems Support Group, Information Systems Department
 * Email: systemshien.adm@gs.mail.u-tokyo.ac.jp
 
+## Participant-only page
+
+* After you register, please see [participant-only page](https://univtokyo.sharepoint.com/sites/DX/generative-ai-and-education-utokyo-workshop) (need to sign in with UTokyo Account) for further information (e.g., Zoom link).
+* Please contact us at the above address if you have a difficulty to open the page (e.g., if you are not UTokyo member).
+
 ## Opinion Poll on Generative AI (anonymous voting)
 
 To roughly gain participants' opinion, we set up a voting site provided by https://pol.is/ system. When you go to the web link below, 27 statements show up and you can anonymously vote "agree", "disagree", or "don't know" to each statement. We will present the results at the workshop. Those who do not participate can vote, too. 
