@@ -1,33 +1,33 @@
 ---
-title: Zoom リアクション（挙手・絵文字等）機能
+title: Zoom’s Reactions (Raised Hand & Emoji) Feature
 redirect_from:
   - /zoom/how/faculty_members/hand_reaction
   - /zoom/how/students/hand_reaction
 breadcrumb:
-  title: リアクション（挙手・絵文字等）機能
+  title: Reactions (Raised Hand & Emoji) Feature
 ---
 
-## リアクション機能とは
+## What is the “Reaction” feature
 
-Zoom 上で，声を出したりチャットで文章を送ったりする以外の，主催者や話者に合図を送る方法です．  
-『手を挙げる』『絵文字』『非言語フィードバック』の 3 種類があります．
+In Zoom, there are various methods other than speaking or sending chat messages when responding to the hosts or speakers.
+There are three methods: "Raised hand", "Emoji", and "Non-verbal feedback".
 
-## リアクション機能の用途
+## Using the Reaction Feature
 
-### 手を挙げる
+### Raised hand
 
-- 対面の教室で実際に「手を挙げる」ことの代替として用います．
-- 対面の教室で実際に挙手する場合と同様に，質問をしたい人がいるかの確認や，説明を理解しているかなどを簡単に尋ねるといったことができます．
+- This is used as an alternative way to physically “raising your hand” in the face-to-face classroom.
+- Similar to actually raising your hand in a face-to-face classroom, you can check to see if there is someone wants to ask a question, or simply ask if people understood your explanation, etc.
 
-### 絵文字
+### Emoji
 
-- 「面白い」「嬉しい」などといった，感情の表現をすることに用います．
-- 表出してから 10 秒後に自動で消えるので，リアルタイム性の高い反応が期待できます．
-- 参加者が気軽に簡易的に反応を送ることでき，ビデオやチャットを用いなくとも一緒に盛り上がることができます．
+- Emojis are used for expressing feelings such as “Interesting” or “Happy”.
+- Since it will automatically disappear in 10 seconds after it appears, high real-time response can be expected.
+- Participants can easily send reactions to enliven the atmosphere without using video or chat.
 
-### 非言語フィードバック
+### Non-verbal feedback
 
-- 「はい」「いいえ」「より遅く」「より早く」などといった，話者に対するフィードバックを送ることに用います．
+- This is used to provide feedback to speakers, such as “Yes”, “No”, “Slower” and “Faster”.
 - 『意思表示アイコン』と呼ばれることもあります．
 
 ## 【参加者向け】リアクションの出し方
