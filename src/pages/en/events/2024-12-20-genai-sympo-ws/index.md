@@ -40,7 +40,7 @@ This symposium and workshop aim not only to impart knowledge but also to foster 
 ## Registration
 
 * Please register through [the event registration page](https://forms.office.com/r/9YxpcArnta).
-* You can register at any time before the event, but to group participants in advance, please register by December 2 (Monday) if possible.  You can register and participate in the workshop after that, but we appreciate your cooperation to register early.
+* You can register at any time before the event, but to group participants in advance, please register by <strike>December 2 (Monday)</strike> December 9 (Monday) if possible.  You can register and participate in the workshop after that, but we appreciate your cooperation to register early.  You are welcome to partially participate in the workshop based on your availability.
 * Contact: Information Systems Support Group, Information Systems Department
 * Email: systemshien.adm@gs.mail.u-tokyo.ac.jp
 
