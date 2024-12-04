@@ -1,6 +1,7 @@
 // @ts-check
 
 import fs from 'fs';
+import { setTimeout } from 'timers/promises';
 import Parser from 'rss-parser';
 import { TwitterApi } from 'twitter-api-v2';
 
@@ -29,6 +30,8 @@ if (newEntries.length > 0) {
     const status = `${entry.title} ${entry.link}`;
     await client.v2.tweet(status);
     console.log('Posted to Twitter:', status);
+
+    await setTimeout(5000);
   }
 
   console.log(`Posted ${newEntries.length} new entries to Twitter.`);
