@@ -50,7 +50,7 @@ async function parseRss(filePath) {
 }
 
 /**
- * Calculate the difference between old and new RSS entries.
+ * Compare the old and new RSS data and get the new entries.
  * @param {RssData} oldRss - The old RSS data.
  * @param {RssData} newRss - The new RSS data.
  * @returns {Parser.Item[]} The new RSS entries.
