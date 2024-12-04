@@ -117,6 +117,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 ![](img/09_complete.png){:.medium.center.border}
 
 ## ４．仮想マシンにログインする
+{:#login}
 
 `リソースに移動`または仮想マシンリソース名のリンクをクリックすると，割り当てられたグローバルIPアドレスが画面右側に表示されていますので，そのIPアドレスに対してご自身の端末からSSHログインを行いログインできたら完了です．
 
@@ -129,8 +130,14 @@ import HelpItem from "@components/utils/HelpItem.astro";
 ログイン成功後は必要に応じて，作業用アカウントの作成や /etc/sudoers の編集などを行ってください．
 
 ## 補足．仮想マシンの一時休止
+{:#suspend}
 
 **仮想マシンはそのままにすると利用料金が課金され続ける**ので．常時起動が不要な場合は仮想マシンを止めておきます．
 
 - 仮想マシンリソースの詳細で上部に、`停止`ボタンがあるのでクリックする．
-- 確認のウィンドウが表示されるので，`確認`をクリックして停止する．
+
+![](img/13_suspend.png){:.small.center.border}
+
+- 確認のウィンドウが表示されるので，`はい`をクリックして停止する．
+
+![](img/14_confirm.png){:.small.center.border}
