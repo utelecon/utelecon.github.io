@@ -1,0 +1,54 @@
+---
+title: "Steps to assign an Azure role to subscriptions and resources"
+breadcrumb:
+  title: "Steps to assign an Azure role to subscriptions and resources"
+---
+
+import HelpItem from "@components/utils/HelpItem.astro";
+
+This is the procedure for granting permissions from the `Access Control (IAM)` function of subscriptions and resources. There are two main operations to perform: determining what permissions (roles) to give to whom (members) for subscriptions and resources.
+
+<div class="box">
+We will show you how to add **Contributor** permissions as an example, but the steps for adding other permissions are the same. Select a **Job function roles** to determine the range of operations that general users will be allowed to perform, or select a **privileged administrator role** to grant administrative permissions to general users.
+</div>
+
+#### 1. From the main screen of the Azure Portal, click the **Subscription** or **Resource** for which you want to grant permissions.
+#### 2. Click `Access Control (IAM)` function from the list on the left side of the screen.
+#### 3. Click `Add role assignment` from the list displayed on the main screen.
+#### 4. Please set each section below in order.
+- **Role** section
+  - There are two options: `Job Function Role` and `Privileged Administrator Role`. If you want to add **Contributor** privileges, select `Privileged Administrator Role`.
+  - A list of selectable roles will be displayed at the bottom of the screen, so click `Contributor`.
+    - If the cell background turns grey, it is selected.
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">**Important**: Considerations when assigning the Owner role to a subscription</Fragment>
+  <Fragment slot="solution">If you grant owner privileges to a subscription,  **That member will also be able to view Usage and Billing Information on the "Subscription Management" Page of the "UTokyo Azure: New Usage Application" Page**. Make sure the member is someone you really want to give permission to.</Fragment>
+</HelpItem>
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">Steps for assigning the Owner role</Fragment>
+  <Fragment slot="solution">A **Condition** section will be added. Select `Allow user to assign all roles` only if you want to transfer all permissions to that member by taking over, etc. In other cases, select other choices.</Fragment>
+</HelpItem>
+
+- **Members** section
+  - **Selected role**：Make sure this is the role you selected in the Role section.
+  - **Assign access to**：Select `User, group or service principal`.
+  - **Members**：Click `+ Select Members`, and a search and selection screen for the accounts to which you want to grant permissions will appear on the right side of the screen. Narrow your search criteria to find and select the accounts to which you want to grant permissions. Finally, click `Select` at the bottom of the selection screen, and the selected members will be displayed on the main screen.
+  - **Description**：Please add a description if necessary.
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">I can't find the account I want to select</Fragment>
+  <Fragment slot="solution">The member must have a UTokyo Account. Please make sure that your search string is correct. Alternatively, if the member may not yet have a UTokyo Account, please ask them to check their UTokyo Account registration status.</Fragment>
+</HelpItem>
+
+- **Assignment type** section
+  - **Selected role**：Make sure this is the role you selected in the Role section.
+  - **Assignment type**：If you have decided in advance how long you want to grant the member authority, select `Eligible`. If you do not want to set a period, select `Active`.
+  - **Assingment Duration**：Select `Permanent` if you do not want to set a deadline, or `Time bound` if you want to set a deadline.
+  - **Start and End date and time**：If you choose to set a deadline, please set a specific deadline.
+- **Review + assign** section
+  - Check the contents and if they are correct, click `Review + assign` at the bottom of the screen.
+
+#### 5. Verify that permissions are granted correctly
+  - Again, follow the steps from the beginning of this page to section 2 and click `View` under **View access to this resource**.
+  - Make sure that the members you are added with the correct roles.
