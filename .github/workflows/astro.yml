@@ -92,11 +92,6 @@ jobs:
     needs: [fetch-rss, build]
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v4
-        with:
-          sparse-checkout: |
-            .github/actions/twitter
       - uses: actions/download-artifact@v4
         with:
           name: rss-old
