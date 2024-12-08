@@ -41,7 +41,7 @@ To register new course materials, open the “Course Top” screen and click the
 
 ![](./01-settings-entry.drawio.png)
 
-The “Materials Editing” page will open. Please fill in or select the following information (explanation will be given over two images).
+The “Course Materials Edit” page will open. Please fill in or select the following information (explanation will be given over two images).
 
 ![](./02-settings-01.png)
 
@@ -100,7 +100,8 @@ The “Materials Editing” page will open. Please fill in or select the followi
     * A list of enrolled students will be displayed, so check the boxes of the students who you want to make the material available to.
 
 When you have finished filling in, click the “Confirm” button to proceed.
-The “Check Registration Confirm of registration” page will open, so please check the details and click the “Register” button.
+
+The “Course Materials Confirm of registration” page will open, so please check the details and click the “Register” button.
 
 ![](./04-settings-confirm.png)
 
@@ -117,9 +118,9 @@ The “Check Registration Confirm of registration” page will open, so please c
 
 ## Viewing Course Materials
 
-This section explains how to view registered course materials. Not only enrolled students, but also instructors, TAs and course designers can view registered course materials.
+This section explains how to view registered course materials.
 
-This means that when you actually teach the class, you can display images, slides, resumes, etc. on UTOL without having to search for the files on your device. It is also useful for checking how registered course materials are viewed by enrolled students.
+Not only enrolled students, but also instructors, TAs and course designers can view registered course materials.This means that when you actually teach the class, you can display images, slides, resumes, etc. on UTOL without having to search for the files on your device. It is also useful for checking how registered course materials are viewed by enrolled students.
 
 UTOL also has a function that allows you to preview some types of course materials. By previewing them on UTOL, you can check the contents of files with the following extensions without having to download them to your device.
 
@@ -145,7 +146,7 @@ The course instructors and TAs can check which enrolled students have viewed the
 
 ### Procedure
 
-1. Open the “Course Top” page, and in the “Course Materials” column, click the ![⋮](../../_icons/control_btn_icon.png){:.icon} button in the “Actions” column to the right of the file name for which you want to check the viewing status.
+1. Open the “Course Top” screen, and in the “Course Materials” column, click the ![⋮](../../_icons/control_btn_icon.png){:.icon} button in the “Actions” column to the right of the file name for which you want to check the viewing status.
 
     ![](./07-viewing-status-entry.drawio.png)
 
