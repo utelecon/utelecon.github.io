@@ -30,73 +30,73 @@ There are three methods: "Raised hand", "Emoji", and "Non-verbal feedback".
 - This is used to provide feedback to speakers, such as “Yes”, “No”, “Slower” and “Faster”.
 - 『意思表示アイコン』と呼ばれることもあります．
 
-## 【参加者向け】リアクションの出し方
+## [For Participants] How to send reactions
 
-### パソコンの場合
+### On PC
 
-1. 画面下の帯部分から［リアクション］を選択します．（［リアクション］ボタンが画面上にない場合には，右下にある［詳細］ボタンをクリックすると，［リアクション］の項目が出てきます．）![](zoom_reaction_button.png)
-2. 帯の上部に表示されるメニューから，出したいリアクションを選択します．![](zoom_each_reaction_button_pc.png)
+1. Select “Reactions” from the toolbar at the bottom of the screen (if the “Reactions” button is not visible on the screen, click on the “More” button at the bottom right corner to find the items of "Reactions").![](zoom_reaction_button.png)
+2. Choose the reaction you want from the menu displayed at the top of the toolbar.![](zoom_each_reaction_button_pc.png)
 
-### スマートフォン・タブレットの場合
+### On smartphones or tablets
 
-1. 画面下の帯部分から［詳細］を選択します．![](zoom_details_button_mobile.png)
-2. 帯の上部に表示されるメニューから，出したいリアクションを選択します．![](zoom_each_reaction_button_mobile.png)
+1. Select “More” from the toolbar at the bottom of the screen.![](zoom_details_button_mobile.png)
+2. Choose the reaction you want from the menu displayed above the toolbar.![](zoom_each_reaction_button_mobile.png)
 
-## 【参加者向け】リアクションの消し方
+## [For participants] How to remove the Reaction
 
-画面下の帯部分の上にある，表示中のリアクション（［手を降ろす］など）のボタンをクリックすると削除できます．![](zoom_reaction_putting_down_hand.png)  
-ただし，絵文字は手動で削除できません（出してから 10 秒後に自動で消えます）．
+You can remove the Reaction by clicking on the current displayed reaction (e.g., Lower Hand) button located above the toolbar at the bottom of the screen.![](zoom_reaction_putting_down_hand.png)  
+However, emojis cannot be manually removed (they will disappear automatically in 10 seconds after it first appears).
 
-### 『手を挙げる』『非言語フィードバック』『絵文字』の挙動の違い
+### Differences in Behavior between “Raised hand”, “Non-verbal feedback” and “Emoji”
 
-『手を挙げる』や『非言語フィードバック』は，参加者またはホストが手動で削除するまで，その表示が消えません．一方で，『絵文字』は 10 秒で自動的に消えます．
+The “Raised hand” and the “Non-verbal feedback” will not disappear unless the participants or host removes them manually. In contrast, the “emoji” will disappear automatically after 10 seconds.
 
-## 【全員向け】リアクションの確認方法
+## [For all] How to Check the Reaction
 
-画面下の帯部分から［参加者］を選択すると，一覧化された参加者の名前の横にリアクションが表示されます．![](zoom_reaction_list.png)  
-また，参加者のビデオ画面部分の左上にも表示されます．![](zoom_reaction_video.png)
+Select the “Participants” from the toolbar at the bottom of screen, the reaction will be displayed next to the listed participant’s name.![](zoom_reaction_list.png)  
+Additionally, it will also appear in the upper left corner of the participants’ video screen section.![](zoom_reaction_video.png)
 
-## 【主催者向け】より詳細な情報
+## [For hosts] More Detailed Information
 
-### ホストとしてのリアクション管理
+### Managing the Reactions as hosts
 
-- ホストは，特定の参加者や参加者全員のリアクションを，まとめて消すことができます．
-  - 参加者が「手を挙げ」ている場合，画面下の帯部分から［参加者］を選択し，参加者の名前の上にマウスを置いて［手を降ろす］をクリックすると，その参加者の「手を降ろす」ことができます．
-  - すべて参加者のリアクションを一度に消去するには，［参加者］，［すべてのフィードバックを消去］の順にクリックします．
-- 各々のリアクションのアイコンの上の数字は，そのアイコンをクリックした参加者の数を示しています．
+- Hosts can remove the reactions of specific participants and all participants all at once.
+  -  If a participant uses the “Raised Hand”, you can lower their hand by selecting “Participants” from the toolbar at the bottom of the screen, hovering over their name and clicking “Lower Hand”.
+  - To clear the reactions of all participants at once, click on “Participants” followed by “Clear All Feedback” in this order.
+- The number above each reaction icon shows how many participants have clicked on that icon.
 
-### ホストするミーティングでのリアクションの有効化
+### Enabling Reactions in Hosted Meetings
 
-- 自らがホストするミーティングで，リアクションのうち『絵文字』『非言語フィードバック』のぞれぞれを有効化するかを選択できます．初期設定では，全て有効になっています．
-- 使用できる絵文字の種類を『すべての絵文字』『選択した絵文字』の中から選ぶことができます．『選択した絵文字』を選んだ場合，参加者は 6 つの標準的な絵文字を用いてリアクションを表出できます．
-- 有効化・無効化の方法
-  1. 「[Zoom ブラウザからサインインする方法](/zoom/signin/#browser)」の手順で Zoom にサインインします．
-  2. ［マイアカウント］をクリックし，［設定］ ( [https://u-tokyo-ac-jp.zoom.us/profile/setting](https://u-tokyo-ac-jp.zoom.us/profile/setting) ) をクリックします．![](zoom_reaction_host_setting.png)
-  3. ［ミーティング］をクリックし，［ミーティングにて（基本）］をクリックします．![](zoom_reaction_meeting_basic_settings.png)
-  4. 『非言語フィードバック』『ミーティングリアクション』のそれぞれを有効化するか選択します．（補足：『絵文字』機能は『ミーティングリアクション』『ミーティングのリアクション』などと呼称されることがあります．）![](zoom_reaction_activate_from_browser.png)
+- In meetings that you host, you can choose whether or not to enable each of the "emoji" and "Non-verbal feedback" among the reactions. By default, both are enabled.
+- You can select the types of emojis from either "All emojis" or "Selected emojis". If you choose "Selected emojis", the participants will be able to express their reactions using only the six standard emojis.
+- How to enable or disable:
+  1. Sign in Zoom following the steps of ["Sign-in Methods for Zoom"](/zoom/signin/#browser).
+  2. Click on “Config” and then click "Settings ([https://u-tokyo-ac-jp.zoom.us/profile/setting](https://u-tokyo-ac-jp.zoom.us/profile/setting))."![](zoom_reaction_host_setting.png)
+  3. Click on “Meeting” and then click “In Meeting (Basic)”.![](zoom_reaction_meeting_basic_settings.png)
+  4. Choose to enable “Non-verbal feedback” and “Meeting reactions” respectively (Note: the "emoji" feature may be referred to as "Meeting reactions" or "Reactions in meetings" etc.).![](zoom_reaction_activate_from_browser.png)
 
-## 【参加者向け】より詳細な情報
+## [For participants] More detailed information
 
-### リアクション用のスキントーンの設定
+### Setting of the Skin Tone for Reactions
 
-Zoom では，リアクションのスキントーンを設定することができます．
+You can set up skin tone that you desire for your Reactions in Zoom.
 
-#### パソコンの場合
+#### On pc
 
-1. 「[アプリからサインインする方法](/zoom/signin/#app)」の手順で Zoom にサインインします．
-2. 右上のプロフィール画像をクリックしてから，［設定］をクリックします．
-3. ［一般］タブを選択し，［リアクション］の［スキントーン］からスキントーンを選択します．
+1. Sign in to Zoom following the steps of "[Signing in in from the Zoom App](/zoom/signin/#app)".
+2. Click “Settings” after you click on the picture of your profile in the upper right.
+3. Select the “General” tab and then select your preferred skin tone from the “Skin tone” of “Reactions”.
 
-#### スマートフォン・タブレットの場合
+#### On smartphones or tablets
 
-1. Zoom アプリを開きます．
-2. ［詳細］タブを選択し，［ミーティング］をタップします．
-3. ［一般］の［リアクション スキントーン］からスキントーンを選択します．
+1. Open the Zoom app.
+2. Select the “More” tab and then tap “Meetings”.
+3. Select your preferred skin tone from the “Reaction - Skin Tone” in “GENERAL”.
 
-### ハンドジェスチャー認識機能
+### Gesture Recognition Feature
 
-- Zoom では，参加者がハンドジェスチャーを一定時間以上の連続して行っているのを認識して，『手を挙げる』/『手を降ろす』，『賛成』（👍）のリアクションを自動的に表示する機能があります．
-- ハンドジェスチャー認識機能は，パソコンの Zoom クライアントで，ハンドジェスチャー認識機能を有効にしていてかつビデオをオンしているときに利用できます．
-- 有効化・無効化は，以下のいずれかの方法で，参加者各々が設定できます．
-  - 下の帯部分の［リアクション］の右上のボタンから有効化する![](zoom_reaction_activate_gesture_from_lower_belt.png)
-  - 右上のプロフィール画像をクリックしてから，［設定］をクリックし，［一般］タブを選択し，［ハンドジェスチャー認識］をオンにします．![「ハンドジェスチャー認識に基づいて以下の絵文字をアクティベートします:👍✋」を選択](zoom_reaction_activate_gesture_from_setting.png)
+- In Zoom, there is a feature that recognizes when a participant makes a hand gesture continuously for more than a certain amount of time and then automatically displays the reactions of "Raised hand" / "Lower Hand" and "Yes" (👍).
+- Hand gesture recognition feature is available when you are a Zoom client on a computer, and you have enabled the hand gesture recognition feature and have your video turned on.
+- Enable / disable can be set up by each participant in one of the following ways.
+  - Enable from the upper right button of “Reactions” in the toolbar at the bottom.![](zoom_reaction_activate_gesture_from_lower_belt.png)
+  - Click on the profile picture at the top right and then click “Settings”. Then select the “General” tab and then turn on “Hand gesture recognition”.![](zoom_reaction_activate_gesture_from_setting.png)
