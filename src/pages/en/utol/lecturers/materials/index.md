@@ -120,7 +120,7 @@ The “Course Materials Confirm of registration” page will open, so please che
 
 This section explains how to view registered course materials.
 
-Not only enrolled students, but also instructors, TAs and course designers can view registered course materials.This means that when you actually teach the class, you can display images, slides, resumes, etc. on UTOL without having to search for the files on your device. It is also useful for checking how registered course materials are viewed by enrolled students.
+Not only enrolled students, but also instructors, TAs and course designers can view registered course materials. This means that when you actually teach the class, you can display images, slides, resumes, etc. on UTOL without having to search for the files on your device. It is also useful for checking how registered course materials are viewed by enrolled students.
 
 UTOL also has a function that allows you to preview some types of course materials. By previewing them on UTOL, you can check the contents of files with the following extensions without having to download them to your device.
 
