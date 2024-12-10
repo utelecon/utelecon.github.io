@@ -8,27 +8,27 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 **General**
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">For what purposes can it be used?</Fragment>
   <Fragment slot="solution">Can be used for research and education purposes</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">In what fields can it be used?</Fragment>
   <Fragment slot="solution">It can be used in a variety of fields. We especially welcome initiatives to promote GX, DI, and AI.</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">What kind of services can I use?</Fragment>
   <Fragment slot="solution">Basically, you can use all the services provided by MS Azure. You can use it in various ways, such as accessing the GPU environment with Jupyter Notebook from a browser, using Open AI chat and API, setting up and using a cluster environment yourself, etc. However, to prevent cost overruns, some services are unavailable by default (opt-in). Also, due to contractual reasons, you cannot use Marketplace services (services provided by third parties).</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">How long can I continue to use it?</Fragment>
   <Fragment slot="solution">The gift credits can be used up to a maximum of 9/30/2029 (approximately a maximum of 5 years). Because there is a limit to the gift credits available to the university as a whole, they may end a little earlier than this.</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">Can I continue using it for free?</Fragment>
   <Fragment slot="solution">Everyone can use UTokyo Azure free of charge until the monthly university-wide UTokyo Azure usage fee reaches the planned consumption amount of gift credits for that month.
 If the university-wide usage fee for that month exceeds the planned consumption amount, the free tier per user for that month will be calculated, and each user will be responsible for any amount exceeding that the Free Tier.
@@ -38,24 +38,24 @@ Furthermore, even if the usage fee exceeds the Guaranteed Free Tier, there will 
 For more information, see **Free Tier and Guaranteed Free Tier** below.</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">What will happen to the environment I created after the service ends?</Fragment>
   <Fragment slot="solution">It is undecided. We may continue depending on the utilization status and the effect on costs of the cloud migration, but nothing has been decided yet. For large-scale computational needs, please consider using the supercomputers and mdx service operated by the Information Infrastructure Center.</Fragment>
 </HelpItem>
 
 **Users**
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">Who can use this service?</Fragment>
   <Fragment slot="solution">Member at the University of Tokyo can use it, but those with a UTokyo Account must apply for use through [UTokyo Azure: New Usage Application](https://azure.itc.u-tokyo.ac.jp/) and open a "subscription". For members who wish to use it jointly, it is possible to add other members' permissions to the opened subscription later.</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">Can students use it?</Fragment>
   <Fragment slot="solution">It is possible to give students user privileges to a virtual machine created on Azure without any problem. It is also possible to give them sharer privileges for subscriptions, etc. later. However, since a usage fee must be paid if the free portion is exceeded, subscription applications are limited to faculty and staff.</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">Can it be shared with people outside the university?</Fragment>
   <Fragment slot="solution">Logging in to the Azure Portal and the "UTokyo Azure:New user application page" requires authentication via a UTokyo Account, so use of these services is limited to those who already have a UTokyo Account. 
 However, for example, login authentication to the OS running on a virtual machine you have created does not depend on the authority of your UTokyo Account, so it is possible to allow external collaborators to register accounts on the OS and use it.</Fragment>
@@ -63,55 +63,55 @@ However, for example, login authentication to the OS running on a virtual machin
 
 **Subscription**
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">What is a subscription?</Fragment>
   <Fragment slot="solution">Subscriptions are the unit of contract and billing in Microsoft Azure, and allow users to use a variety of services by using them as a management unit.</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">Can I have multiple subscriptions?</Fragment>
   <Fragment slot="solution">There is no limit to applying for multiple subscriptions. Please apply as many as necessary. However, please keep in mind that gift credits are assets shared among members of the university.</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">What is the difference between the Owner and Contributor in Privileged administrator roles?</Fragment>
   <Fragment slot="solution">**Owner** is Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.
 **Contributor** is Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">Can I register a subscription created under a different contract to UTokyo Azure?</Fragment>
   <Fragment slot="solution">No．</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">I would like to share the subscriptions and resources I applied for with members of my laboratory, etc.</Fragment>
   <Fragment slot="solution">If you want to share a subscription or resource with multiple people, you need to grant permission to the UTokyo Account of the members you want to share with as an **Owner** or **Contributor**. This operation must be performed by a member with the **Owner** role.</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">I want to know my subscription ID</Fragment>
   <Fragment slot="solution">You can check your subscription ID on the subscription details screen.</Fragment>
 </HelpItem>
 
 **Free Tier and Guaranteed Free Tier**
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">What is the Free Tier?</Fragment>
   <Fragment slot="solution">This is the amount of the free portion of the usage fee for a given month. Each user must pay any usage fees that exceed the free portion from their own research funds, etc. In practice, the excess and surplus amounts for each month are tallied for each half-year at the end of March and September, and the total excess amount for each half-year is calculated. This total excess amount will be invoiced by the Information Infrastructure Center. The Free Tier is calculated at the end of each month to be fair, taking into account the university's overall usage fee and number of subscriptions for that month. The usage fee for each month can be confirmed on the management page of the [UTokyo Azure : New User Application Page (limited to access from the campus network)](http://azure.itc.u-tokyo.ac.jp/).</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">What is the Guaranteed Free Tier?</Fragment>
   <Fragment slot="solution">The monthly Free Tier is calculated at the end of the month, so you will not know until the end of the month how much or what percentage of the amount used that month will be free. This may be unsettling for users who want to use UTokyo Azure within the free limits. For this reason, at the beginning of the month, we announce a minimum guaranteed amount that will always be fully free. This is the Guaranteed Free Tier. It is an amount that is less than the Free Tier calculated at the end of the month. You can check the Guaranteed Free Tier on the management page of the [UTokyo Azure : New User Application Page (Limited to access from the campus network)](http://azure.itc.u-tokyo.ac.jp/).</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">I want to know how to calculate the Free Tier and  Guaranteed Free Tier</Fragment>
   <Fragment slot="solution">For details on the calculation method, please refer to the subscriotion management page of the [UTokyo Azure : New User Application Page (access limited to the campus network)] (http://azure.itc.u-tokyo.ac.jp/).</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">Why are the amounts shown on the Subscription Management page in USD?</Fragment>
   <Fragment slot="solution">Due to the way Microsoft processes gift credits, they are managed in US dollars and therefore displayed in US dollars. If an applicant is billed for an excess amount, the university's financial accounting system will convert the amount at the current conversion rate and bill in Japanese yen.</Fragment>
 </HelpItem>
