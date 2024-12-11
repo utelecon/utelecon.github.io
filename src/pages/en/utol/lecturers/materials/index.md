@@ -23,7 +23,7 @@ The “course materials” can be divided into sections for each class (e.g. “
 
 There are two types of teaching materials in the “Course Materials”, “Files” and “Links”. “Files” are files uploaded directly to UTOL, while “Links” are links to external sites.
 
-The main difference between these two types of teaching materials is the file size. Only files of **100MB or less** can be uploaded as “Files”. For this reason, you will need to upload larger files to an external site and then post the link to the upload destination as a “link”. For example, you could upload class slides directly as “files”, while uploading class recordings to Google Drive, YouTube, etc. and posting the links as “links”.
+If you are unsure which type of teaching material to choose, consider the file size as a guide. Only files of **100MB or less** can be uploaded directly as “Files”. Therefore, for larger files, you will need to upload them to an external site and provide the link as a “Link”. For example, you could upload class slides directly as “files”, while uploading class recordings to Google Drive, YouTube, etc. and posting the links as “links”.
 
 Even if the file size is small, you can also manage it using “Links”. This is the case when you manage the materials on an external site (e.g. Google Slides).
 
