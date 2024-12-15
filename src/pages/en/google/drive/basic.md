@@ -33,8 +33,6 @@ Created files can be edited using the corresponding Google services. For more de
 1. The file will be created and opened in the Google service corresponding to the file type.
     - You can directly edit the file displayed on the screen of the Google service.
 
-<!-- なお，Web版のOfficeアプリで作成されたファイルは，自動的にOneDrive上に保存されます．このことを利用して，OneDriveからではなく，Web版のOfficeアプリからファイルを作成することもできます． ==相当するものは https://docs.google.com/document/ だけど，どれくらい使われているのかしら== -->
-
 ## How to edit files
 
 In this section, we will explain how to edit files in Google Drive.
