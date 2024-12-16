@@ -12,9 +12,9 @@ toc: false
 </div>
 ## アンケートの結果について
 
-アンケートの集計結果を公開します．
-- [全利用者向けアンケート結果](https://drive.google.com/file/d/1VHafxCA9uELUN3mEfGPJLLnQBmzKo6yT/view?usp=drive_link)
-- [講義担当教職員向けアンケート結果](https://drive.google.com/file/d/1SgyzqORG21i_LsAknR3-lyx1FyXARGfj/view?usp=drive_link)
+アンケートの集計結果を公開します（アクセスにはECCSクラウドメールアカウントでログインしてください）．
+- [全利用者向けアンケート結果(PDF)](https://drive.google.com/file/d/1VHafxCA9uELUN3mEfGPJLLnQBmzKo6yT/view?usp=drive_link)
+- [講義担当教職員向けアンケート結果(PDF)](https://drive.google.com/file/d/1SgyzqORG21i_LsAknR3-lyx1FyXARGfj/view?usp=drive_link)
 
 アンケートにご協力頂いた皆様，どうもありがとうございました． 
 
