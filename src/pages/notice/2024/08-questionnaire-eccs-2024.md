@@ -6,9 +6,19 @@ toc: false
 <div style="text-align: right;">
 
 2024年08月05日  
+更新 2024年12月16日
 情報基盤センター
 
 </div>
+## アンケートの結果について
+
+アンケートの集計結果を公開します．
+- [全利用者向けアンケート結果](https://drive.google.com/file/d/1VHafxCA9uELUN3mEfGPJLLnQBmzKo6yT/view?usp=drive_link)
+- [講義担当教職員向けアンケート結果](https://drive.google.com/file/d/1SgyzqORG21i_LsAknR3-lyx1FyXARGfj/view?usp=drive_link)
+
+アンケートにご協力頂いた皆様，どうもありがとうございました． 
+
+## アンケートについて
 
 情報基盤センターでは，2026年3月に大規模更新予定の教育用計算機システム(ECCS)の機器やサービス，システム構成に関する検討作業を行っています．そこで，現行のECCSの利用目的や利用形態，また ECCSで必要な機能などを調査するアンケートを実施します．
 
