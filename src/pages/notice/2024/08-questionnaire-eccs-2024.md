@@ -6,7 +6,7 @@ toc: false
 <div style="text-align: right;">
 
 2024年08月05日  
-更新 2024年12月16日
+更新 2024年12月16日  
 情報基盤センター
 
 </div>
