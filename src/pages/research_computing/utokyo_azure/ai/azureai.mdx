@@ -1,13 +1,17 @@
 ---
-title: "Azure AI Studio : UTokyo Azure 利用例"
+title: "Azure AI Foundry : UTokyo Azure 利用例"
 breadcrumb:
-  title: "Azure AI Studio"
+  title: "Azure AI Foundry"
 ---
 
 ## 概要
 {:#about}
 
-Azure AI Studio を本サービスで利用する場合の初期手続き例です．
+Azure AI Foundry（旧称 Azure AI Studio）を本サービスで利用する場合の初期手続き例です．
+
+<div class="box">
+2024/12 現在，Azure Portal 上は Azure AI Studio 表記です．
+</div>
 
 ## １．サービスを選択する
 {:#select_service}
@@ -24,7 +28,8 @@ Azure AI Studio を本サービスで利用する場合の初期手続き例で�
 
 ![](img/01_aistudio1.png){:.medium.center.border}
 
-- Azure AI Studio のメインページが表示されたら，画面左上にある`＋作成`またはメイン画面にある`Azure AI の作成`をクリックします．
+- Azure AI Studio のメインページが表示されたら，画面左上にある`＋Create`をクリックします．
+- `Project`か`Hub`の選択になります．ここでは`Hub`を選択します．
 
 ## ２．Azure AI ハブを構成する
 {:#aihub}
@@ -65,32 +70,33 @@ AI ハブ のトップページに遷移するので，`Azure AI Studioの起動
 
 ![](img/05_aistudio5.png){:.medium.center.border}
 
+- 初回アクセスでは，プロジェクト名の入力を求められるので，適当なプロジェクト名を入力ください．初期設定のままでも構いません．
 
-ここからは Azure AI Studio の環境で進めます．
+ここからは Azure AI Foundry の環境で進めます．
 
-## ３．Azure AI Studio のプロジェクトにモデルをデプロイする
+## ３．Azure AI Foundry のプロジェクトにモデルをデプロイする
 
 **一例として GPT4 チャットモデルをデプロイします．**
 
-- トップページ画面左側のリストから，`チャット`を選択します．
+- トップページ画面左側のリストから，`モデルカタログ`を選択します．
 
 ![](img/01_aistudiogpt1.png){:.medium.center.border}
 
-- メイン画面がセットアップになりますので，`＋デプロイを作成`をクリックしてください．
+- モデル選択画面になりますので，`gpt-4o`をクリック．
 
 ![](img/02_aistudiogpt2.png){:.medium.center.border}
 
-- モデル選択画面になりますので，左側のリストから`gpt-4`を選択し，右下にある`確認`をクリックしてください．
+- gpt-4o の詳細画面になるので，画面上部にある`デプロイ`をクリック．
 
 ![](img/03_aistudiogpt3.png){:.medium.center.border}
 
-- 確認画面になるので，`デプロイ`をクリックしてください．
+- 確認画面になるので，`リソースを作成してデプロイする`をクリック．
 
 ![](img/04_aistudiogpt4.png){:.medium.center.border}
 
+デプロイが完了したら，`プレイグラウンドで開く`をクリック．
+
 - 下図のようなチャットプレイグランドが表示されたら完了です．
-  - `デプロイ`をクリックしてからデプロイ完了まで時間がかかる場合があります．
-  - 5分以上待っても変化がない場合は，ブラウザを再読み込みしてみてください．それでもチャットグランドが表示されない場合は，改めてデプロイしなおしてみてください．
 
 ![](img/05_aistudiogpt5.png){:.medium.center.border}
 
