@@ -17,7 +17,7 @@ In the first part (the symposium, open to all), Associate Professor Koji Yatani 
 * Date: Friday, December 20, 2024, 13:00–16:00
 * Location: Online (Zoom)
 * Symposium (First Half): (13:00–14:00) Open to all
-  * Special Lecture by Associate Professor Koji Yatani (Graduate School of Engineering): _"What Do People Feel When Working with Generative AI? --- Perspectives from Human-AI Interaction Research"_ (in English) [slide deck](/src/pages/events/2024-12-20-genai-sympo-ws/slides/yatani-lecture-slides.pdf)
+  * Special Lecture by Associate Professor Koji Yatani (Graduate School of Engineering): _"What Do People Feel When Working with Generative AI? --- Perspectives from Human-AI Interaction Research"_ (in English) [slide deck](/events/2024-12-20-genai-sympo-ws/slides/yatani-lecture-slides.pdf)
   * Report by Organizing Committee, Presented by Professor Toshihiko Yamazaki (Graduate School of Information Science and Technology): _"Trends and Cases from Japan and Overseas"_
 * Workshop (Second Half): (14:00–16:00) For UTokyo faculty and staff only
   * Breakout Room Discussions: Group discussions categorized by courses being taught (subjects and formats); further details below
