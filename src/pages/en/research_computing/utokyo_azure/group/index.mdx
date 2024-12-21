@@ -12,6 +12,13 @@ Also, what a sharer can do will depend on which resource they are assigned to, w
 Please refer to this link for instructions on assigning permissions.
 - [Steps to assign an Azure role to subscriptions and resources](/en/research_computing/utokyo_azure/faq/addrole)
 
+<div class="box">
+If you're not sure what to do, we recommend assigning the following:
+- **Sharing with faculty**: For sharing that includes costs, assign to the subscription with the **Owner** role. For sharing that does not include costs, assign to the subscription with the **Contributor** role.
+- **Sharing with students**: If you want them to manage resources including creating new resources, assign to the subscription with the **Contributor** role. If you only want them to manage existing services, assign to the resource or resource group with **Contributor**.
+- **Use only**: If you only want to use the service without managing it, assign the account and permissions to the service, but do not assign roles to the subscription or resources. In this case, the way accounts and permissions are assigned varies depending on the service, so please refer to the help for each service for details.
+</div>
+
 ## Roles and Members (Role-Based Access Control: RBAC)
 
 In Microsoft Azure, you can grant permissions to other accounts to access each scope by setting which permissions (roles) to assign to whom (members). This is called role-based access control (RBAC), and you can use this function to share subscriptions and resources you create.

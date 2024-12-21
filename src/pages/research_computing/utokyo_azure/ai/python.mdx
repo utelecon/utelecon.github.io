@@ -5,20 +5,12 @@ breadcrumb:
 
 ## デプロイしたモデルを Python API で利用する
 
-Azure OpenAI サービスは、OpenAI が提供する Python クライアントと互換性があります．ただし，いくつかの構成が必要です．OpenAI がホストするサービスを使用するには API キーのみで利用可能ですが，Azure AI Studio にデプロイしたモデルを使用するには，API キーに加えて AI ハブへのエンドポイントが必要です．
+Azure OpenAI サービスは，OpenAI が提供する Python クライアントと互換性があります．ただし，いくつかの構成が必要です．
 
-#### Azure AI Studio の場合
-- Azure AI Studio の**AI ハブ概要**のページに移動します．
-- **接続されたリソース**の中から，**種類**が**Azure OpenAI**のリソースをクリックします．
+- Azure OpenAI Studio または Azure AI Foundry の概要に API キー及びエンドポイントの表示があります．これらをコピーしてください．
+  - Azure AI Foundry の場合は，含まれる機能の中から Azure OpenAI を選択してください．
 
 ![](img/01_aistudiopython1.png){:.medium.center.border}
-- 表示されたリソース詳細から，`ターゲット`と`APIキー`をコピーしてメモ帳などにメモしてください．
-
-![](img/02_aistudiopython2.png){:.medium.center.border}
-
-
-#### Azure OpenAI Studio の場合
-- Azure OpenAI Studio のトップページに API キーがあります．
 
 **参考**：[Microsoft Learn:Azure OpenAI API preview lifecycle](https://learn.microsoft.com/en-us/azure/ai-services/openai/api-version-deprecation)で、現在の API バージョンを確認できます。
 
