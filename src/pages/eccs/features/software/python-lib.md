@@ -38,7 +38,7 @@ echo 'export PATH="$PYENV_ROOT/versions/anaconda3-2024.02-1/bin:$PATH"' >> ~/.ba
 source ~/.bashrc
 ```
 
-ただし，上記の実行には10分程度かかります．この後で，必要なライブラリをpyenv環境下にインストールします．以下は，`tensorflow-1.4.1`をインストールする例です(専用のconda環境を作成してインストールする方が一般的ですが，ここでは省略します．)．
+ただし，上記の実行には10分程度かかります．この後で，必要なライブラリをpyenv環境下にインストールします．以下は，`tensorflow-1.4.1`をインストールする例です（専用のconda環境を作成してインストールする方が一般的ですが，ここでは省略します）．
 
 ```bash
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.4.1-py3-none-any.whl
