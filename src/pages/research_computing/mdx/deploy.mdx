@@ -1,0 +1,65 @@
+---
+title: "deploy a new virtual machine in mdx I"
+breadcrumb:
+  title: "deploy a new virtual machine in mdx I"
+---
+
+### ISO イメージを使ったデプロイ
+
+仮想マシンを作成するときに、あらかじめ mdx I 上に用意されたテンプレートにはない OS を利用することもできます。
+その場合は目的の OS のインストーラを自身で入手して、仮想マシンの作成に用います。
+OS のインストーラは ISO 形式のものを用います。
+
+#### ISO イメージのアップロード
+
+[ユーザーポータル](https://oprpl.mdx.jp/login)のページ上部にある「仮想マシン」タブをクリックします。
+ページ左側に「コントロール」「デプロイ」「ISO イメージ」と表示されるので、「ISO イメージ」を選びます。
+「UPLOAD」をクリックし、ISO 形式のインストーラを
+[mdx I にアップロード](https://docs.mdx.jp/ja/index.html#iso%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8)します。
+
+#### デプロイ
+
+次にページ左側の「デプロイ」を選びます。
+用意されたテンプレートの一覧が表示されますから、ISO_image を選びます。
+一覧の最後のページの最後の行です。
+
+ISO_image を選んだら「デプロイ」をクリックします。
+CPU パックを 3 パック、仮想ディスクを 60GB などと入力します。
+ゲスト OS の選択画面で、インストールしようとしている OS がない場合は、近い OS
+を選んでおけばよいでしょう。
+
+デプロイが完了したらページ左側の「コントロール」を選びます。
+デプロイした仮想マシンは PowerOFF になっています。
+
+その仮想マシンを選択して「MOUNT」をクリックします。
+アップロードしておいた ISO イメージを選びます。
+これによって起動時に、その ISO イメージを仮想マシンが読み取れるようになります。
+
+「MOUNT」が「UNMOUNT」に変わったら「MOUNT」は完了です。
+次に「Action」の「電源」、「起動」をクリックします。
+仮想マシンが起動しますから、続いて「CONSOLE」をクリックしてデスクトップ画面を表示します（新しい web ページが開きます）。
+インストーラの指示にしたがってインストールを進めてください。
+
+仮想マシン起動後、デスクトップ画面上で急いで何かしらのキーを押さないと、ISO イメージのインストーラを実行できないかもしれません。
+間に合わなくてタイムアウトした場合、デスクトップ画面の web ページを開いたまま、「Action」の「電源」、「RESET」をクリックします。
+仮想マシンが再起動しますから、再び ISO イメージのインストーラの実行を試みます。
+
+#### ISO イメージの入手
+
+各 OS の ISO イメージの入手方法は各 OS のサイトを参照ください。
+例えば Ubuntu の最新版は
+
+* [https://ubuntu.com/download](https://ubuntu.com/download)
+
+から入手できます。
+
+Windows OS は
+
+* [https://www.microsoft.com/ja-jp/software-download/](https://www.microsoft.com/ja-jp/software-download/)
+
+から入手できますが、仮想マシン上で利用するためには、利用者が自分で Windows OS のライセンスを購入しなければなりません。
+
+また Windows 11 は、インストール先の PC が Trusted Platform Module (TPM) と呼ばれる特別なハードウェアを備えていないとインストールできません。
+2024 年現在、mdx I の仮想マシンは TPM を備えていないので、そのままでは Windows 11 をインストールできません。
+ただし Windows 11 を [TPM なしでインストールする方法](https://knowledge.broadcom.com/external/article?legacyId=86207)は知られているようですので参考にしてください。
+[日本語の記事](https://qiita.com/mizutan/items/f6b333107976c5b9166f)もあります。
