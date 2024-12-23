@@ -11,7 +11,7 @@ title: "「生成AIと教育について考える」シンポジウム＋東大�
 * **日時：** 2024年12月20日（金） 13:00-16:00
 * **場所：** オンライン (Zoom) 開催
 * **前半 シンポジウム： (13:00-14:00)** どなたでも参加できます
-  * 矢谷浩司 准教授（工学系研究科）による特別講演："What Do People Feel When Working with Generative AI? --- Perspectives from Human-AI Interaction Research" (in English) (「生成AIと共に知的作業を行う際に人は何を感じるか？ 〜Human-AI Interaction研究の視点から〜」 英語による講演)
+  * 矢谷浩司 准教授（工学系研究科）による特別講演："What Do People Feel When Working with Generative AI? --- Perspectives from Human-AI Interaction Research" (in English) (「生成AIと共に知的作業を行う際に人は何を感じるか？ 〜Human-AI Interaction研究の視点から〜」 英語による講演) [講演資料](slides/yatani-lecture-slides.pdf)
   * 実行委員会総長補佐グループ（講演者：山﨑俊彦 教授（情報理工学系研究科））：「学内外・国内外の最新動向や事例共有」
 * **後半 ワークショップ： (14:00-16:00)** 東大教職員のみ対象
   * ブレイクアウトルームでの議論： 担当する授業（分野や形式）などでグルーピングをし、グループごとに議論（詳細後述）
