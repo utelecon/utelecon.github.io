@@ -5,6 +5,7 @@ title: "UTokyo Microsoft Azure Dev Tools for Teaching"
 ## 概要
 
 「Azure Dev Tools for Teaching」は，Microsoft社の開発者用ソフトウェアが教育機関向けに提供されているものです．東京大学でも，[UTokyo Microsoft License](/microsoft/)の契約に付帯して利用できるようになっています．Microsoft社の利用規約に従って利用してください．
+なお，本学とMicrosoftとの間で締結した基本合意書に基づき，Microsoftから提供された寄付金（ギフトクレジット）により運用される学内共同利用サービス[UTokyo Azureはこちら](/research_computing/utokyo_azure/)です。
 
 ### 利用できる範囲
 

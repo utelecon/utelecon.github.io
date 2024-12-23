@@ -48,6 +48,15 @@
     -
       name: "UTokyo VPN"
       url: "/en/utokyo_vpn/"
+    -
+      name: "High-speed computing and data utilization infrastructure for the university"
+      url: "/en/research_computing/"
+    -
+      name: "UTokyo Azure"
+      url: "/en/research_computing/utokyo_azure/"
+    -
+      name: "Full List"
+      url: "/en/systems/"
     # -
     #   name: "List of all systems"
     #   url: "/en/systems/"

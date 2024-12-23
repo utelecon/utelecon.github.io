@@ -2,6 +2,35 @@
 
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
+
+# また，お知らせを追加すると，utelecon.adm.u-tokyo.ac.jpへの反映と同時にTwitterにも自動投稿されます．
+# pushする前に内容やリンク先に間違いがないか，今一度ご確認いただきますようお願いいたします．
+# 万一間違ってpushしてしまった場合は，
+# 1. GitHubにてジョブをキャンセルしてください．
+#   a. https://github.com/utelecon/utelecon.github.io/actions/workflows/astro.yml を開いてください．
+#   b. 一番上にある実行中のジョブを押してください．
+#   c. 右上の「Cancel workflow」ボタンを押してください．
+#   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
+# 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
+-
+  date: 2024-11-29
+  content:
+    ja: "[教育用計算機システム(ECCS)に関するアンケートの結果を公表しました](/notice/2024/08-questionnaire-eccs-2024)"
+-
+ date: 2024-11-26
+ content:
+  ja: "12/2から[UTokyo Azure](/research_computing/utokyo_azure/) のサービスを開始します"
+  en: "We are going to launch [UTokyo Azure](/en/research_computing/utokyo_azure/), starting from December 2."
+-
+  date: 2024-11-15
+  content:
+    ja: "[LTI連携機能を用いたUTOLからのZoomミーティングの利用について](/notice/2024/1115-utol-lti-zoom)"
+-
+ date: 2024-11-12
+ content:
+  ja: "12/20 13:00から「[「生成AIと教育について考える」シンポジウム＋東大教職員ワークショップ](/events/2024-12-20-genai-sympo-ws/)」を開催いたします．"
+  en: "On December 20, an information session titled **\"[Reflecting on Generative AI and Education: Symposium + Workshop for the University of Tokyo Faculty and Staff](/en/events/2024-12-20-genai-sympo-ws/)\"** will be held at 13:00."
+ important: true
 -
   date: 2024-11-01
   content:
@@ -78,7 +107,7 @@
     ja: "[履修登録したUTOL上の他学部科目にアクセスできなくなる件について](/notice/2024/0424-utol-announce)"
   important: true
 -
-  date: 2024-04-01
+  date: 2024-04-04
   content:
     ja: "[生成AIの提供方針に関するアンケートの結果等について](/notice/2024/04-aichat-survey-result/)"
 -

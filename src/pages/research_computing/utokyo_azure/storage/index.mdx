@@ -1,0 +1,153 @@
+---
+title: "Azure Blob Storage を利用した大容量データの保存とアクセス"
+breadcrumb:
+  title: "Azure Blob Storage"
+---
+
+import HelpItem from "@components/utils/HelpItem.astro";
+
+## 概要
+{:#about}
+
+Microsoft Azureのサービスの一つであるAzure Blob Storage上に大容量データを保存し，手元のブラウザや計算機からアクセスする手順を説明します．使用量あたりの料金は以下のリンクを参考にしてください．
+- [Azure Blob Storage の価格](https://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/)
+
+## ストレージアカウントの作成 
+{:#storage_account}
+
+<div class="box">
+- まだサブスクリプションをお持ちでない場合は，事前に以下サイトよりサブスクリプションを申請してください．
+  - [UTokyo Azure新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/) ※学内ネットワークからのアクセスに限定．UTokyo Account 所持者のみログイン可
+</div>
+
+- [Azure portal](https://portal.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．（新規申請された場合は表示されるようになるまで時間がかかります）
+
+
+- Azureサービスの検索で“ストレージ”と検索すると表示される，`ストレージアカウント`を選択します．
+
+![](img/01_storage1.png){:.medium.center.border}
+
+
+- 適切なサブスクリプション，リソースグループを選択し，ストレージアカウント名を入力します．ストレージアカウント名は，[規則](https://learn.microsoft.com/ja-jp/azure/storage/common/storage-account-overview#storage-account-name)のもとで自由に設定できます． 
+
+![](img/02_storage2.png){:.medium.center.border}
+
+
+- `次へ`を押して詳細を設定します．特に，「詳細」や「ネットワーク接続」はセキュリティに関わる項目があるため十分に注意して設定してください． 
+
+- 最後に`作成`を押すと数分でストレージアカウントが作成されます．
+
+## 手元の計算機等からのアクセス 
+{:#access}
+
+### コンテナーの作成
+<div class="box">
+この操作はPython等で自動化可能です。例えば以下のリンクを参照ください。
+- [Microsoft Learn: Python 用 Azure Blob Storage クライアント ライブラリ](https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-quickstart-blobs-python?tabs=managed-identity%2Croles-azure-portal%2Csign-in-azure-cli&pivots=blob-storage-quickstart-scratch/)
+</div>
+ファイルシステムのディレクトリに相当する，コンテナーを作成します． 
+
+ブラウザのAzureトップページから「ストレージアカウント」=>「上で作成したストレージアカウント」=>「概要」=> 「Blob service」へアクセスします． 
+
+![](img/03_storage3.png){:.medium.center.border}
+
+`+コンテナー`からコンテナーを作成します．
+
+### データのアップロード/ダウンロード 
+
+ブラウザ上で作成したコンテナーを選択し，`アップロード`からファイルをアップロード可能です．ダウンロードはファイル名の右端の`…`から可能です．
+
+Python等を使って，手元の計算機から直接アップロードすることも可能です．以下はPythonを用いる場合です． 
+
+- 必要なライブラリのインストール 
+  - `$ pip install azure-storage-blob azure-identity`
+
+- アクセスキーの取得 
+  ブラウザ上で作成したストレージアカウントへアクセスし，左端のメニューから`アクセスキー`を選択，キーをメモしておきます．アクセスキーは厳重に管理してください．
+
+
+- Pythonによるアクセス 
+  取得したアクセスキーによる認証で，ローカルのファイルをアップロード可能です．以下はサンプルです． 
+
+
+```
+import os 
+from azure.identity import DefaultAzureCredential 
+from azure.storage.blob import BlobServiceClient, ContainerClient, BlobBlock, BlobClient, StandardBlobTier 
+
+account_url = "https://<Paste-Your-Storage-Account-Name>.blob.core.windows.net" 
+
+access_key = "<Paste-Access-Key-For-Your-Storage-Account>" 
+
+# Create the BlobServiceClient object 
+blob_service_client = BlobServiceClient(account_url, credential=access_key) 
+
+def upload_blob_file(blob_service_client: BlobServiceClient, container_name: str): 
+    container_client = blob_service_client.get_container_client(container=container_name) 
+    filepath = "<Paste-Your-File-Path>" 
+    filename = "<Paste-Your-File-Name>" 
+    with open(file=os.path.join(filepath, filename), mode="rb") as data: 
+        blob_client = container_client.upload_blob(name=filename, data=data, overwrite=True) 
+container_name = "<Paste-Your-Container-Name>" 
+upload_blob_file(blob_service_client,container_name) 
+```
+
+Pythonを用いたデータのダウンロードやファイル一覧の表示，コンテナーの作成などのより高度な利用方法，Python以外の言語の利用に関しては以下のリンクを参照してください．
+- [Microsoft Learn:Azure Blob Storage のドキュメント](https://learn.microsoft.com/ja-jp/azure/storage/blobs/)
+
+
+## データの共有
+
+特定のファイルやコンテナーを Shared Access Signature (SAS) を用いて共有することができます。．
+
+1\. ブラウザ上でファイル/コンテナーの右端の`…`から`SASの作成`を選択．
+
+2\. 共有する期間やアクセスを許可するIPアドレス範囲、共有相手の権限を設定し、`SASトークンおよびURLを生成` 
+
+3\. 生成されたBLOB SAS URLから共有相手もファイルにアクセスできます．
+
+
+## ストレージのマウント
+
+手元のLinux計算機へマウントすることも可能です．以下はRocky Linux 9の例です． 
+
+#### 1. Blobfuse2のインストール 
+
+```
+ $ wget https://github.com/Azure/azure-storage-fuse/releases/download/blobfuse2-2.3.2/blobfuse2-2.3.2-Rocky-9.0.x86_64.rpm 
+ $ sudo rpm -Uvh blobfuse2-2.3.2-Rocky-9.0.x86_64.rpm 
+```
+ 
+
+#### 2. 設定ファイルの編集
+
+```
+$ mkdir -p ~/.blobfuse2 
+$ vim ~/.blobfuse2/config.yaml 
+```
+
+- config.yamlの記載例: 
+
+```
+version: 2 
+logging: 
+  type: syslog 
+  level: LOG_WARNING 
+components: 
+  - libfuse 
+  - attr_cache 
+  - azstorage 
+libfuse: 
+  mount_path: /mnt/blobfuse 
+azstorage: 
+  type: block 
+  account-name: <Storage-Account-Name> 
+  account-key: <Access-Key> 
+  container: <Container-Name>  
+```
+ 
+#### 3. マウント 
+
+`$ sudo blobfuse2 mount /mnt/blobfuse --config-file ~/.blobfuse2/config.yaml `
+
+マウントに失敗する場合，設定ファイルやストレージアカウントのネットワーク設定を確認してください． 
