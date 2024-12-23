@@ -6,11 +6,11 @@ breadcrumb:
 
 ## AI Companionの概要
 
-[東京大学のZoomアカウント](../../signin/)では、ミーティングの要約などをAIにより生成する機能であるAI Companionを利用できます。
+[東京大学のZoomアカウント](../../signin/)では，ミーティングの要約などをAIにより生成する機能である"AI Companion"を利用できます．
 
 ### 機能
 
-主な機能として以下のようなものがあります。ここで紹介しているのは一部機能ですので、詳しくは「[Getting started with Zoom AI Companion features \> Current Zoom AI Companion features](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057623#h_01H9H14D223ZZYMH87XJ865WEE)」を参照してください．
+主な機能としては，以下のようなものがあります．ここで紹介しているのは一部機能ですので，詳しくは「[Getting started with Zoom AI Companion features \> Current Zoom AI Companion features](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057623#h_01H9H14D223ZZYMH87XJ865WEE)」を参照してください．
 
 - Zoom Meetingsで利用する機能
   - [ミーティング内質問](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057748): 
@@ -32,7 +32,7 @@ AI Companionの機能を利用するには，ミーティング前に利用し�
    ![](img/setting.png)
 4. 使用したい機能に応じて，有効化・設定してください．
    - 一部の機能は，「管理者によりロック済み」と表示され，設定を変更できなくなっています．
-   - 各機能の設定の詳細に関しては、「[Settings and Configuration for Zoom AI Companion](https://support.zoom.com/hc/en/category?id=kb_category&kb_category=891c5079c3bdf1104b490e8dc00131da)」の"User"に関する項目を参照してください．
+   - 各機能の設定の詳細に関しては，「[Settings and Configuration for Zoom AI Companion](https://support.zoom.com/hc/en/category?id=kb_category&kb_category=891c5079c3bdf1104b490e8dc00131da)」の"User"に関する項目を参照してください．
 
 ### 各機能の利用方法
 
