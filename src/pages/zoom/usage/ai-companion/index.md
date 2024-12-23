@@ -6,7 +6,7 @@ breadcrumb:
 
 ## AI Companionの概要
 
-[東京大学のZoomアカウント](../../signin/)では，ミーティングの要約などをAIにより生成する機能である"AI Companion"を利用できます．
+[東京大学のZoomアカウント](../../)では，ミーティングの要約などをAIにより生成する機能である"AI Companion"を利用できます．
 
 ### 機能
 
