@@ -9,7 +9,7 @@ Sセメスターで優れた工夫・取り組みのあったオンライン授�
 - 日時：2020年12月23日（水） 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
 - **資料**
-    - [白石先生よりご共有いただいた資料 (動画内で画面共有頂いたScrapboxページへのリンクです)](https://tinyurl.com/y9lxq2wu)
+    - ~~[白石先生よりご共有いただいた資料 (動画内で画面共有頂いたScrapbox（現：Cosense）ページへのリンクです)](https://tinyurl.com/y9lxq2wu)~~（現在は閲覧できません）
     - [グッドプラクティス紹介 白石忠志先生の授業 法Ⅰ](/good-practice/interview/shiraishi)
 - [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020A/2020-12-23) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
 

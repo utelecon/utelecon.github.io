@@ -16,7 +16,7 @@ import HelpMultipleUsers from './_help_multiple_users.html';
 ## 準備編: UTokyo VPNの初期設定
 {:#setup}
 
-まずはUTokyo VPNに接続するために必要なアプリケーションをインストールします．
+まずはUTokyo VPNに接続するために必要なアプリケーション（Cisco Secure Client）をインストールします．
 
 **手順A:**
 [https://vpn1.adm.u-tokyo.ac.jp/](https://vpn1.adm.u-tokyo.ac.jp/) にアクセスします．既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
@@ -25,7 +25,7 @@ import HelpMultipleUsers from './_help_multiple_users.html';
 <HelpSecurityEducation />
 
 
-**手順B:** サインインに成功すると，以下のようなAnyConnectのクライアントアプリケーションをダウンロードするためのページが表示されるので，Download for macOSをクリックして，クライアントアプリケーションをダウンロードしてください．
+**手順B:** サインインに成功すると，以下のようなダウンロードページが表示されるので，「Download for macOS」をクリックしてください．Cisco Secure Clientのインストーラがダウンロードされます．
 
 その後は他のmacOS用アプリケーションと同様にインストールします．
 
@@ -34,21 +34,17 @@ import HelpMultipleUsers from './_help_multiple_users.html';
 
 <HelpWhite />
 
-**手順C:** AnyConnectのインストールの途中で，以下のような「機能拡張がブロックされました」という画面が出る場合があります．その際は表示される手順にしたがって，「システム設定」→「プライバシーとセキュリティ」のペインに表示されている"Cisco Secure Client - Socket Filter"に関する許可を行なってください． また以下のような「"Cisco Secure Client - Socket Filter"がネットワークコンテンツのフィルタリングを求めています」という画面が表示されますので，これも許可してください．
+**手順C:** Cisco Secure Clientのインストールの途中で，以下のような「機能拡張がブロックされました」という画面が出る場合があります．その際は表示される手順にしたがって，「システム設定」→「プライバシーとセキュリティ」のペインに表示されている"Cisco Secure Client - Socket Filter"に関する許可を行なってください． また以下のような「"Cisco Secure Client - Socket Filter"がネットワークコンテンツのフィルタリングを求めています」という画面が表示されますので，これも許可してください．
 
-<figure class="gallery">
-  ![](img/mac04-install-2.png){:.border}
-  ![](img/mac05-install-3.png){:.border}
-</figure>
+<figure class="gallery">![](img/mac04-install-2.png){:.border}![](img/mac05-install-3.png){:.border}</figure>
 
-**手順D:** インストールが完了すると，アプリケーションフォルダに「Cisco」というフォルダが作成され，その中にAnyConnectのクライアントアプリケーションであるCisco Secure Clientがインストールされています．
+**手順D:** インストールが完了すると，アプリケーションフォルダに「Cisco」というフォルダが作成され，その中にVPNのクライアントアプリケーションであるCisco Secure Clientがインストールされています．
 
 ![](img/mac06-cisco-on-app.png){:.medium.center.border}
 
 これで準備は完了です．
 
-macOS 11 Big Sur以降のmacOSにAnyConnectのクライアントアプリケーションをインストールすると，「システム環境設定」→「ネットワーク」に以下のような Cisco Secure Client - Socket Filter という3つの拡張機能が追加されます．これらの拡張機能はUTokyo VPN接続時に通信を振り分けるために必要な機能として常駐しており，通信内容の記録やホスト外への情報送付も行いません．
-またこれらはUTokyo VPNに接続しているか否かに関わらず常時接続状態になります．
+macOS 11 Big Sur以降のmacOSにCisco Secure Clientをインストールすると，「システム環境設定」→「ネットワーク」に以下のような Cisco Secure Client - Socket Filter という3つの拡張機能が追加されます．これらの拡張機能はUTokyo VPN接続時に通信を振り分けるために必要な機能として常駐しており，通信内容の記録やホスト外への情報送付も行いません．またこれらはUTokyo VPNに接続しているか否かに関わらず常時接続状態になります．
 
 ![](img/mac07-macos-pref.png){:.medium.center.border}
 

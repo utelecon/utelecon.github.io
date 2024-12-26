@@ -7,6 +7,7 @@ toc: false
 ---
 
 import "@styles/top.scss";
+import "@styles/rss_icon.scss";
 
 import Emergency from '@components/Emergency.mdx';
 import Notice from '@components/pages/Notice.astro';
@@ -34,7 +35,8 @@ import Events from '@components/pages/Events.astro';
 <div class="container">
 <div class="container__column">
 
-## お知らせ
+## お知らせ <a href="/notice/rss" class="rss_icon" title="RSS">rss_feed</a>
+{:#notice}
 
 {/* お知らせの追加は `src/data/notice.yml` を編集してください */}
 
@@ -65,6 +67,7 @@ import Events from '@components/pages/Events.astro';
 
 ## ピックアップ
 
+- [UTokyo Azure](/research_computing/utokyo_azure)
 - [UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa)
 - [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai)
 - [Googleドライブ](/google/drive/)
@@ -102,7 +105,10 @@ import Events from '@components/pages/Events.astro';
   - [ECCSクラウドメール<small> (Google Workspace)</small>](/google/)
   - [UTokyo Microsoft License](/microsoft/)
   - [UTokyo Slack](/slack/)
+  - [Slido](/slido/)
+  - [UTokyo MATLAB Campus-Wide License](/matlab/)
   - [UTokyo VPN](/utokyo_vpn/)
+  - [ECCS端末](https://www.ecc.u-tokyo.ac.jp/)
   - [一覧](/systems/)
   {:.cards}
 </div>
