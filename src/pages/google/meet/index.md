@@ -57,6 +57,7 @@ redirect_from:
 Googleアプリであるため，Googleカレンダー，GmailなどGoogleアプリ経由での予約が簡単にできます．
 
 ### 方法1: Meetのトップページ経由
+{:#create_meeting_from_meet_page}
 
 * <a href="https://youtu.be/rysK8GiH3KM" target="_blank" rel="noopener">動画</a>
 
