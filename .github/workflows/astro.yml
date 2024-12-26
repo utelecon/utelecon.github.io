@@ -102,7 +102,7 @@ jobs:
           path: rss-new
 
       - name: Twitter
-        uses: utelecon/rssdiff-to-twitter@main
+        uses: utelecon/rssdiff-to-twitter@b924d6941d02a8f378b1adb393e41da93727a6d6
         with:
           OLD_RSS: "rss-old/rss.xml"
           NEW_RSS: "rss-new/rss.xml"
@@ -111,7 +111,7 @@ jobs:
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
       - name: Twitter (English)
-        uses: utelecon/rssdiff-to-twitter@main
+        uses: utelecon/rssdiff-to-twitter@b924d6941d02a8f378b1adb393e41da93727a6d6
         with:
           OLD_RSS: "rss-old/rss-en.xml"
           NEW_RSS: "rss-new/rss-en.xml"
