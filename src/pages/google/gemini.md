@@ -8,7 +8,7 @@ breadcrumb:
 
 ECCSクラウドメールでは，Googleの生成AIである**[Gemini](https://gemini.google.com/)**を，一定の条件のもとで利用できます．
 
-これは，東京大学のGoogle Workspaceの組織契約の中でGoogle社から無償で提供される「その他の Google サービス」としてのものです．
+これは，東京大学のGoogle Workspaceの組織契約の中でGoogle社から無償で提供される「その他のGoogleサービス」としてのものです．
 
 Gemini を利用する場合は，[Google 利用規約](https://policies.google.com/terms)および[生成AIの追加利用規約](https://policies.google.com/terms/generative-ai)が適用されます．2024年9月現在，ECCSクラウドメールアカウントでGeminiを使用する場合，ユーザのデータがAIモデルの改良に使用されることはなく，AIモデルを改良する目的で人間によるレビューを受けることもないことが，Googleより公表されています．
 
