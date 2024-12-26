@@ -110,6 +110,7 @@ jobs:
           TWITTER_APIKEY_SECRET: ${{ secrets.TWITTER_APIKEY_SECRET }}
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          POST_LIMIT: 5
       - name: Twitter (English)
         uses: utelecon/rssdiff-to-twitter@b924d6941d02a8f378b1adb393e41da93727a6d6
         with:
@@ -119,3 +120,4 @@ jobs:
           TWITTER_APIKEY_SECRET: ${{ secrets.TWITTER_EN_APIKEY_SECRET }}
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_EN_ACCESS_TOKEN }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_EN_ACCESS_TOKEN_SECRET }}
+          POST_LIMIT: 5

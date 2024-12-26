@@ -12,6 +12,9 @@
 #   c. 右上の「Cancel workflow」ボタンを押してください．
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
+
+# 加えて，事故を防ぐため，一度に投稿されるお知らせの数を「5」に制限しています．
+# これ以上のお知らせを追加する場合は事前にSlackでご相談ください．
 -
   date: 2024-11-29
   content:
