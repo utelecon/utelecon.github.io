@@ -31,6 +31,7 @@ There is a template function for the reminder notices because it is expected tha
 The template is independent for each enrolled student, even within the same course. For example, in case of a course with multiple course instructors, the templates created by some instructors cannot be used directly by other course instructors. However, it is possible to duplicate a template created by another user, and then modify it to create your own template.
 
 #### Conditions and periods for registering reminder notices
+{:#condition}
 
 To register reminder notices, the following conditions are required.
 
@@ -40,6 +41,7 @@ To register reminder notices, the following conditions are required.
   * If you change from an identified survey to an anonymous survey, your registered Reminder Notices will be deleted.
 
 ### Operation authority for each course participant
+{:#permissions}
 
 Course instructors・TAs・course designers can perform almost all operations. However, course designers cannot check whether or not an information notice has been opened.
 
@@ -86,9 +88,9 @@ In this section, we will use an assignment as an example, but it is possible to 
     <画像省略>
 
     <details>
-    <summary>In case the” Reminder Notices” and “Register Reminder Notices” are not displayed.</summary>
+    <summary>In case the “Reminder Notices” and “Register Reminder Notices” are not displayed.</summary>
 
-    TODO
+    The content may not meet the [conditions and periods for registering reminder notices](#condition).
     </details>
 
 2. Enter the following items.
@@ -142,9 +144,9 @@ This section provides steps to confirm・Edit・delete Information notices (incl
 
         1. Edit the contents of the information notices
             <details>
-            <summary>If some items cannot be edited.</summary>
+            <summary>If some items cannot be edited</summary>
 
-            TODO
+            After the start date of the posting period, i.e. after the notice is published, you cannot edit any items other than the end date of the post period, including the content.
             </details>
 
         2. Click “Confirm” to proceed.
@@ -164,8 +166,8 @@ This section provides steps to confirm the list of enrolled students who have be
     <画像省略>
 
     <details>
-    <summary>If there is no “Read receipt”.</summary>
+    <summary>If there is no “Read receipt” shown</summary>
 
-    TODO
+    You may not have [the authority required to check whether the notice has been opened](#permissions).
     </details>
 2. Please check the table that shows correspondence between users and opening status.
