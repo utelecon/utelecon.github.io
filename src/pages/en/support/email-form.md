@@ -15,6 +15,7 @@ Please be sure to check [the Support Desk page](./) before inquiring.
 - To ensure prompt response, **the support desk is generally staffed by students, as well as faculty staff. Please be aware of that fact when you make inquiries.** Student staff have signed confidentiality agreements and handle information under the control and supervision of faculty and staff members, so there is no problem with general account information.
 - If you have any questions or concerns about examinations, **please first contact your instructor or the department/graduate school that offers the examination. If you wish to contact the Technical Support Desk regarding examinations**, please contact us only through the email form. 
 - Information obtained from inquiries will be used for replying to and performing tasks related to the inquiry. Information may be shared internally to improve future support service. Information may also be disclosed to the public in individually unidentifiable form for the purpose of introducing UTokyo’s support initiatives through case studies and statistical information, etc. Information will not be used for any other purposes except for exceptions specified by laws and regulations.
+- For information systems which departments independently provide, we may not be able to answer. For such systems, please consider contacting the department.
 
 ### Notes on Email Form
 
