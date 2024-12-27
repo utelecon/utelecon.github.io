@@ -89,7 +89,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   twitter:
-    needs: [fetch-rss, build]
+    needs: [fetch-rss, build, deploy]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v4
