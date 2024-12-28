@@ -6,7 +6,7 @@ breadcrumb:
 
 ## AI Companionの概要
 
-[東京大学のZoomアカウント](../../)では，ミーティングの要約などをAIにより生成する機能である"AI Companion"を利用できます．
+[東京大学のZoomアカウント](../)では，ミーティングの要約などをAIにより生成する機能である"AI Companion"を利用できます．
 
 ### 機能
 
@@ -26,7 +26,7 @@ breadcrumb:
 
 AI Companionの機能を利用するには，ミーティング前に利用したい機能を予め有効化する必要があります．
 
-1. 「[Zoom ブラウザからサインインする方法](../../signin/#browser)」の手順でZoomにサインインしてください．
+1. 「[Zoom ブラウザからサインインする方法](../signin/#browser)」の手順でZoomにサインインしてください．
 2. 「設定」タブを開いてください．
 3. 「AI Companion」タブを開いてください．
    ![](img/setting.png)
