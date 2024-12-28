@@ -59,8 +59,8 @@ First, the following is a list of items that can be configured for the assignmen
   - You can later check whether the assignments were submitted within the submission period. This allows you to accept late submissions while deducting points as necessary.
 - **Reference of grade** (Required)
   - Specify whether or not enrolled students can access grades for assignments.
-    - 関連：
-      - [課題を評価する](#evaluate)
+    - Reference:
+      - [Evaluating Assignments](#evaluate)
 - **Cross-Reference of submissions**
   - If you set this option as "Enable", the enrolled students will be able to access each other's submissions.
   - For example, when an enrolled student gives a presentation in class, it would be helpful if other enrolled students could access the submitted handout or slides, thus ensuring that the class proceeds smoothly.
@@ -113,7 +113,7 @@ This section provides procedures for checking the submission status of all assig
 1. Open the course top screen and click on the "Check submission of the all enrolled students" button found at the bottom left of the "Assignment".
    ![全履修者の提出物確認](./07-submission-status-all-entry.png){:.center}
 2. When the "Assignment Confirmation of overall submission status" screen opens, please proceed according to the following two methods of checking.
-   - [すべての履修者について確認する](#submission-status-all-user)
+   - [Checking All Enrolled Students](#submission-status-all-user)
    - [履修者ごとに確認する](#submission-status-per-user)
 
 ### Checking All Enrolled Students
@@ -123,20 +123,20 @@ In the "Assignment Confirmation of overall submission status" screen, a list dis
 
 ![課題全体提出状況確認](./08-submission-status-all-table.png){:.center}
 
-#### 並べ替えて表示する
+#### Displaying in sorted order
 
-一覧表の列の見出し（「学生証番号/(ユーザID)」，「氏名」など）を押すと，それぞれの項目ごとに昇順・降順が切り替わります．
+When you click on the column headers in the list (e.g., "Student ID/(User ID)", "Name"), each item will toggle between ascending and descending orders.
 
-#### 提出状況をダウンロードする
+#### Downloading Submission Status
 
-提出状況をExcelファイル形式でダウンロードすることもできます（なお，ファイルにはパスワードの設定が必須です）．
+You can download the submission status in Excel file format (please note that the file requires a password setting).
 
-1. 一覧表のうち，提出状況を知りたい履修者のチェックボックスを選択してください．
-   - 全員選択：「学生証番号/(ユーザID)」という見出しの左にあるチェックボックス
-   - 個別の履修者を選択：当該履修者の学生証番号の左にあるチェックボックス
-2. 「一括ダウンロード」ボタンを押してください．
-3. Excelファイルのパスワードを設定するよう求められるので，任意のパスワードを決めて入力し，もう一度「ダウンロード」ボタンを押してください．
-4. Excelファイル（`.xlsx` 形式）を含むZIPファイル（`.zip` 形式）がダウンロードされます．
+1. Select the checkbox of the enrolled student in the list whose submission status you would like to know.
+   - Select all enrolled students: Checkbox on the left side of the heading "Student ID/(User ID)"
+   - Select individual enrolled students: Checkbox on the left side of the relevant enrolled student's ID
+2. Click on the "Bulk download" button.
+3. When you are asked to set up a password for the Excel file, enter any password, and click on the "Download" button again.
+4. A file in ZIP format (`.zip` format) enclosing the file in Excel format (`.xlsx` format) will be downloaded.
 
 #### 課題の評価画面へ移動する
 {:#go-to-evaluate-1}
@@ -190,36 +190,36 @@ In the "Assignment Confirmation of overall submission status" screen, a list dis
 
 一覧表のうち，評価したい履修者の行の右端，「編集」の列にある ![edit](../../_icons/edit.png){:.icon} ボタンを押すと，[UTOL上で課題を評価する](#evaluate-on-utol)画面へ遷移します．
 
-## 課題を評価する
+## Evaluating Assignments
 {:#evaluate}
 
-ここでは，課題を評価する手順を説明します．
+This section provides procedures for evaluating assignments.
 
-評価には以下の二種類があり，いずれの要素も任意です．
+There are two kinds of optional evaluating as follows.
 
-- 「評価」
-  - 課題に対する簡潔な評価です．
-  - テキスト形式で，最大255文字まで記載できます．
-- 「フィードバックコメント」
-  - 「コメント」および「フィードバックファイル」から構成されます．
-  - 「コメント」
-    - 課題に対する詳細なフィードバックです．
-    - テキスト形式で，最大1300文字まで記載できます．
-  - 「フィードバックファイル」
-    - テキスト以外の形式でのフィードバックです．
-      - 例：指摘点をまとめたPDFファイル
+- "Grade"
+  - This is a simple evaluation of assignments.
+  - In text format, and up to 255 characters can be entered.
+- "Feedback Comments"
+  - This consists of "Comment" and "Feedback file".
+  - "Comment"
+    - This is detail feedback on an assignment.
+    - In text format, and up to 1300 characters can be entered.
+  - "Feedback file"
+    - This is feedback in a format other than text.
+      - Example: PDF file summarizing the issues
 
-さらに，評価を行う方法として，「UTOL上で評価する」または「フォーマットをダウンロードして評価する」の二通りがあります．両者には以下のような違いがあります．
+In addition, there are two methods of evaluating, "Evaluating on UTOL", or "Evaluating by downloading the format". They have the following differences.
 
-- [UTOL上で評価する](#evaluate-on-utol)
-  - UTOL上の操作によって評価作業を行います．
-  - ブラウザ上ですべての作業が完結するため，簡単です．ただし，履修者一人ごとに評価を行う必要があります．
-- [フォーマットをダウンロードして評価する](#evaluate-with-format)
-  - Excelファイル（`.xlsx` 形式）またはZIPファイル（`.zip` 形式）のフォーマットファイルをダウンロードし，そこに評価を記入します．記入後，ファイルをアップロードするとUTOLがそれを読み取り，評価が反映されます．
-  - 全履修者を一括で評価できるため，履修者が多い場合などに便利です．ただし，作業に慣れが必要です．
-  - なお，ダウンロードしたフォーマットファイルにはパスワードの設定が必須となります．
+- [Evaluating on UTOL](#evaluate-on-utol)
+  - Evaluating is done by operating UTOL.
+  - All tasks are completed within the browser, making it simple. However, evaluating must be done individually for each enrolled student.
+- [Evaluating by downloading the format](#evaluate-with-format)
+  - Download a formatted Excel file (`.xlsx` format) or ZIP file (`.zip` format) and enter the evaluations there. After uploading the file, UTOL will read it and apply the evaluations.
+  - This method is convenient if you have many enrolled students, as it allows for batch evaluation. However, it requires some getting used to working with it.
+  - In addition, a password must be set for the formatted file after downloading.
 
-### UTOL上で評価する
+### Evaluating on UTOL
 {:#evaluate-on-utol}
 
 1. 以下のいずれかの方法で，課題の評価画面に移動してください．
@@ -228,51 +228,53 @@ In the "Assignment Confirmation of overall submission status" screen, a list dis
      - [「課題 提出状況確認」画面（履修者ごとに確認）から遷移する](#go-to-evaluate-2)
    - 「[個別の課題の提出状況を確認する](#submission-status-per-assignment)」のうち
      - [「課題 提出状況確認」画面から遷移する](#go-to-evaluate-3)
-2. 「課題 フィードバック登録/編集」の画面が開くので，「評価」「フィードバックコメント」「フィードバックファイル」を追加し，「登録する」を押してください．
+2. After the "Register/Edit assignment feedback" screen opens, add "Grade", "Feedback comments" and upload the "Feedback file", followed by clicking the "Register" button.
    ![課題フィードバック登録/編集](./12-evaluate-on-utol.png){:.center}
-3. 画面左下の「前へ」ボタン，または右下の「次へ」ボタンを押すと，前／次の履修者の評価に移れます．
+3. When you click the "Prev" button located at the bottom left of the screen, or the "Next" button at the bottom right, you can move on to evaluating the previous/next enrolled student.
 
-### フォーマットをダウンロードして評価する
+### Evaluating by downloading the format
 {:#evaluate-with-format}
 
 1. [「個別の課題の提出状況を確認する」画面](#submission-status-per-assignment)を開きます．
-2. 「提出状況」の欄からフォーマットをダウンロードしてください．「フィードバックファイル」の添付の有無に応じて，ダウンロードするファイルが異なります．
+2. Download a format from the "Submission Status" field. The type of download file varies depending on whether a "Feedback file" is attached.
 
-- 「フィードバックファイル」が不要の場合（「評価」と「フィードバックコメント」いずれもテキストのみでよい場合）
-  1. 「コメントと評価」の行にある，「フォーマットダウンロード」ボタン（青字）を押してください．
-  2. Excelファイルのパスワードを設定するよう求められるので，任意のパスワードを決めて入力し，もう一度「ダウンロード」ボタンを押してください．
-  3. Excelファイル（`.xlsx` 形式）のフォーマットがダウンロードされます．
-- 「フィードバックファイル」を添付したい場合
-  1. 「コメントと評価およびフィードバックファイル(zipファイル)」の行にある，「zipフォーマットダウンロード」ボタン（青字）を押してください．
-  2. ZIPファイルのパスワードを設定するよう求められるので，任意のパスワードを決めて入力し，もう一度「ダウンロード」ボタンを押してください．
-  3. ZIPファイル（`.zip` 形式）のフォーマットがダウンロードされます．
+- If you don't need a "Feedback file" (both "Grade" and "Feedback comments" can be text only).
+  1. Click on the "Download Format" button (in blue text) in the row of "Comment and Grade".
+  2. When you are asked to set up a password for the Excel file, enter any password, and click on the "Download" button again.
+  3. A file in Excel format (`.xlsx` format) will be downloaded.
+- If you need to attach a "feedback file"
+  1. Click on the "Download zip format" button (in blue text) in the row of "Comment, Grade and Feedback file (zip file)".
+  2. When you are asked to set up a password for the ZIP file, enter any password, and click on the "Download" button again.
+  3. A file in ZIP format (`zip` format) will be downloaded.
 
-ダウンロードしたフォーマットの形式に応じて，以下の手順で評価を記入・アップロードしてください．
+Enter and upload the evaluation according to the format of the downloaded file, following the steps below.
 
-#### Excelファイルの場合
+#### For Excel files
 
-1. ダウンロードしたExcelファイル（`.xlsx` 形式）を開いてください．
-2. 「評価」「コメント」の項目を記入し，保存してください．
-   - このとき，ファイル名は変更しないでください．
+1. Open the downloaded Excel file (`.xlsx` format).
+2. Enter "Grade", "Comment" and save the file.
+   - Please do not change the file name at this time.
 3. [「個別の課題の提出状況を確認する」画面](#submission-status-per-assignment)に戻ってください．
-4. 「提出状況」の欄のうち，「コメントと評価」の行にある「参照」ボタンを押し，先ほど記入したExcelファイルを選択してください．
-5. 「アップロード」ボタンを押してください．
+4. Click on the "Reference" button in the row of "Comments and Grade" in the "Submission Status" field and select the Excel file you have just entered.
+5. Click on the "Upload" button.
+6. When you are asked to enter the read password for the file you are uploading, enter the password you set when downloading and press the "Upload" button again.
 
-#### ZIPファイルの場合
+#### For ZIP files
 
-1. ダウンロードしたZIPファイル（`.zip` 形式）を解凍し，解凍先のフォルダ内にあるExcelファイル（`.xlsx` 形式）を開いてください．
-2. 「評価」「コメント」の項目を記入し，保存してください．
-   - このとき，ファイル名は変更しないでください．
-3. フィードバックファイルを，解凍先のフォルダ内にある「フィードバック」フォルダの中に入れ，そのファイル名を「ファイル」の欄に記入してください．
-   - 例：履修者Aへのフィードバックファイルが 「`フィードバック_A.pdf`」だった場合，「`フィードバック_A.pdf`」を「フィードバック」フォルダに入れ，履修者Aの行の「ファイル」欄に「`フィードバック_A.pdf`」と記入
-4. すべての記入を終えたら，お使いのOSのファイルマネージャ（Windowsであれば「エクスプローラー」，Macであれば「Finder」）を開き，解凍先のフォルダ内にあるすべてのファイル・フォルダを選択してください．
-5. 選択したファイルを再び圧縮し，ZIPファイルを作成してください．
-   - 解凍・圧縮にあたっては，トラブルを避けるため，OSのファイルマネージャ付属の標準ツールを使うことをおすすめします．
+1. Unzip the downloaded ZIP file (`.zip` format) and open the Excel file (`.xlsx` format) located in the extracted folder.
+2. Enter "Grade", "Comment" and save the file.
+   - Please do not change the file name at this time.
+3. Place the feedback file in the "Feedback" folder located in the extracted folder and enter the file name in the "File name" field of the Excel file.
+   - e.g.: If the feedback file is for enrolled student A, it will be "`Feedback_A.pdf`". Place "`Feedback_A.pdf`" in the "Feedback" folder, and enter the "`Feedback_A.pdf`" in the "File name" field in the row for enrolled student A.
+4. Once you have finished all the entries, open the file manager of the OS you are using ("Explorer" for Windows, "Finder" for Mac), and select all files and folders in the unzipped folder before.
+5. Compress the selected files again and create a ZIP file.
+   - To avoid trouble, using the standard tool included with the OS file manager when extracting and compressing files is recommended.
 6. [「個別の課題の提出状況を確認する」画面](#submission-status-per-assignment)に戻ってください．
-7. 「提出状況」の欄のうち，「コメントと評価およびフィードバックファイル(zipファイル)」の行にある「参照」ボタンを押し，先ほど圧縮したZIPファイルを選択してください．
-8. 「アップロード」ボタンを押してください．
+7. Click on the "Reference" button in the row of "Comments, Grade and Feedback file (zip file)" in the "Submission Status" field, and select the ZIP file you have just compressed.
+8. Click on the "Upload" button.
+9. When you are asked to enter the read password for the file you are uploading, enter the password you set when downloading and press the "Upload" button again.
 
-## 参考情報
+## Reference Information
 
-- [UTOLでコース設定を行う（教員・TA向け） - ラベル](/utol/lecturers/settings/#label)
-- [UTOLでユーザグループ機能を利用する（教員・TA向け）](/utol/lecturers/settings/user_groups/)
+- [Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors/TAs) > Labels](../settings/#label)
+- [Using user group function in UTOL (for Course Instructors / TAs)](../settings/user_groups/)
