@@ -5,18 +5,20 @@ breadcrumb:
 ---
 
 ## Information Notices
+{:#about}
 
-This page provides detailed information on the usage of the information notices function in UTOL. This feature allows information to be sent as one-way text messages to all or some of the enrolled students. If you wish to contact specific enrolled students, please use the “Message” function.
+This page provides detailed information on the usage of the information notices function in [UTOL](/en/utol/). This feature allows information to be sent as one-way text messages to all or some of the enrolled students. If you wish to contact specific enrolled students, please use the “[Message](/en/utol/lecturers/messages/)” function.
 
 The features of the information notices are as follows.
 
-* When you register the information notice, you can set up the automatic sending of notifications to enrolled students by email and LINE. (For more details on how to set it up, please refer to “Settings in UTOL to receive notifications”).
+* When you register the information notice, you can set up the automatic sending of notifications to enrolled students by email and LINE. (For more details on how to set it up, please refer to “[Settings in UTOL to receive notifications](/en/utol/notification/)”).
   * Please note that **notifications will be sent only if the enrolled students have made changes to their settings to allow notifications to be received**.
   * The contents of the notification will be provided directly in the notification.
 
-* You can confirm the list of enrolled students who have read the notifications on UTOL. For more details on the procedures, please refer to the “Checking that an information notice has been opened” setting, discussed below.
+* You can confirm the list of enrolled students who have read the notifications on UTOL. For more details on the procedures, please refer to the “[Checking that an information notice has been opened](#check)” setting, discussed below.
 
 ### Reminder Notices
+{:#reminder}
 
 In addition to regular information notices, there are “reminder notices” in the information notices. The reminder notices are requests such as those reminding the submission of assignments・quizzes・surveys, etc.
 
@@ -25,6 +27,7 @@ In addition to regular information notices, there are “reminder notices” in 
 * Reminder notices are displayed in the same column as regular notices.
 
 #### Template for the reminder notices
+{:#templates}
 
 There is a template function for the reminder notices because it is expected that texts in the reminder notices will often be the same and used repeatedly in many situations. This function allows you to use prepared texts for multiple reminder notices.
 
@@ -46,10 +49,12 @@ To register reminder notices, the following conditions are required.
 Course instructors・TAs・course designers can perform almost all operations. However, course designers cannot check whether or not an information notice has been opened.
 
 ## Register Information Notices
+{:#register}
 
 This section provides the steps for a new registration of the information notices and reminder notices.
 
 ### Register Information Notices
+{:#register_information}
 
 1. Click the “+” button of “Information” on the course top screen or select “Register New Information” after clicking the “Manage Information”.
 
@@ -74,16 +79,17 @@ This section provides the steps for a new registration of the information notice
         <画像省略>
         * If you have not yet created any labels, click “Create new display label”, enter a label name
         * If you wish to assign multiple labels, select another label from the drop-down list, displayed after clicking “Add display label”
-    * **Target audience**: You can select the target audience for information notices. (As for the User group function, please see “Using User Group Function in UTOL (for course instructors・TAs”)).
+    * **Target audience**: You can select the target audience for information notices. (As for the User group function, please see “[Using User Group Function in UTOL (for course instructors・TAs](/en/utol/settings/user_groups/)”).
 3. Click “Confirm” to proceed.
 4. Please ensure that the content of the information notices you entered is exactly as you intended. Also, you can use the “Preview” screen to reproduce the display on the page of enrolled students.
 5. Click “Register”. When you see “Registration completed” on the screen, it means your procedure was successful.
 
 ### Register Reminder Notices
+{:#register_reminder}
 
 In this section, we will use an assignment as an example, but it is possible to set up quizzes and surveys using the same procedures.
 
-1. For the assignment you wish to register as a reminder notice, click the ≡ mark in the “Action” field in the “Assignment” section of the Course Top screen, and then click the “Register Reminder Information” from the menu displayed on the screen.
+1. For the assignment you wish to register as a reminder notice, click the ![≡](../../../_icons/control_btn_icon.png) mark in the “Action” field in the “Assignment” section of the Course Top screen, and then click the “Register Reminder Information” from the menu displayed on the screen.
 
     <画像省略>
 
@@ -95,7 +101,7 @@ In this section, we will use an assignment as an example, but it is possible to 
 
 2. Enter the following items.
     * **Title**：Title of the reminder notices. Although “Deadline (deadline for the contents) 【 (Types of contents)】(Title of the contents)” is shown as the default title, you can change it.
-    * **Import from template**: This is used when you use the reminder notices templates. If you wish to use it, register the reminder notices template first. To use the registered reminder notices templates, select the title of the preferred reminder notice templates from a pull-down menu, and then click “Apply”.
+    * **Import from template**: This is used when you use the [reminder notices templates](#templates). If you wish to use it, [register the reminder notices template](#register_templates) first. To use the registered reminder notices templates, select the title of the preferred reminder notice templates from a pull-down menu, and then click “Apply”.
     * **Contents**: Plain text to be sent as reminder notices.
     * **Posting period**: Period for posting reminder notices.
         * After the start date of the posting period, **once the information notices have been released, you cannot edit any items, including contents, except the end date of the posting period. Please register carefully.**
@@ -106,6 +112,7 @@ In this section, we will use an assignment as an example, but it is possible to 
 5. Click “Register”. When you see “Registration completed” on the screen, it means your procedure was successful.
 
 #### Register and Edit Reminder Notices Templates
+{:#register_templates}
 
 1. Click the “Manage Information” in the “Information” field on the Course Top screen.
 
@@ -126,6 +133,7 @@ In this section, we will use an assignment as an example, but it is possible to 
 6. Please ensure that the content of the information (including the reminder notices) that you entered is exactly as you intended and click “Register” if there is no problem. When you see “Registration completed” on the screen, it means your procedure was successful.
 
 ### Confirm・Edit・Delete Information Notices
+{:#rud}
 
 This section provides steps to confirm・Edit・delete Information notices (including the reminder notices).
 
@@ -137,7 +145,7 @@ This section provides steps to confirm・Edit・delete Information notices (incl
     Manage Information:
     <画像省略>
 
-2. The same screen as the registration screen appears. You can check the contents of the information notices
+2. The same screen as the [registration screen](#register) appears. You can check the contents of the information notices.
 3. Proceed according to what you would like to do.
 
     * When editing information notices
@@ -158,8 +166,9 @@ This section provides steps to confirm・Edit・delete Information notices (incl
         3. When it’s completed, you will be redirected to the Information Notice Management screen. Please check to ensure that the relevant information notice has been deleted.
 
 ## Checking that an Information Notice has been opened
+{:#check}
 
-This section provides steps to confirm the list of enrolled students who have been opened information notices on UTOL. However, please note that if enrolled students check the content of information notices by email and LINE notification, those notices will not be shown as being opened.
+This section provides steps to confirm the list of enrolled students who have been opened information notices on UTOL. However, please note that **if enrolled students check the content of information notices by [email and LINE notification](#about), those notices will not be shown as being opened.**
 
 1. Click “Read receipt” in the relevant information notices of the “Information” section on the Course Top or “Manage information” screen.
 
