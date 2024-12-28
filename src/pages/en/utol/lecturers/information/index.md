@@ -20,10 +20,10 @@ The features of the information notices are as follows.
 ### Reminder Notices
 {:#reminder}
 
-In addition to regular information notices, there are “reminder notices” in the information notices. The reminder notices are requests such as those reminding the submission of assignments・quizzes・surveys, etc.
+In addition to regular information notices, there are “reminder notices” in the information notices. The reminder notices are requests such as those reminding the submission of assignments, quizzes, surveys, etc.
 
 * Reminder notices will be displayed for those who have not submitted certain required information.
-* Email・LINE notifications are automatically enabled. However, **if enrolled students have chosen in the setup not to receive notifications, they will not be sent.**
+* Email and LINE notifications are automatically enabled. However, **if enrolled students have chosen in the setup not to receive notifications, they will not be sent.**
 * Reminder notices are displayed in the same column as regular notices.
 
 #### Template for the reminder notices
@@ -46,7 +46,7 @@ To register reminder notices, the following conditions are required.
 ### Operation authority for each course participant
 {:#permissions}
 
-Course instructors・TAs・course designers can perform almost all operations. However, course designers cannot check whether or not an information notice has been opened.
+Course instructors, TAs, and course designers can perform almost all operations. However, course designers cannot check whether or not an information notice has been opened.
 
 ## Register Information Notices
 {:#register}
@@ -79,7 +79,7 @@ This section provides the steps for a new registration of the information notice
         <画像省略>
         * If you have not yet created any labels, click “Create new display label”, enter a label name
         * If you wish to assign multiple labels, select another label from the drop-down list, displayed after clicking “Add display label”
-    * **Target audience**: You can select the target audience for information notices. (As for the User group function, please see “[Using User Group Function in UTOL (for course instructors・TAs](/en/utol/settings/user_groups/)”).
+    * **Target audience**: You can select the target audience for information notices. (As for the User group function, please see “[Using User Group Function in UTOL (for course instructors / TAs](/en/utol/settings/user_groups/)”).
 3. Click “Confirm” to proceed.
 4. Please ensure that the content of the information notices you entered is exactly as you intended. Also, you can use the “Preview” screen to reproduce the display on the page of enrolled students.
 5. Click “Register”. When you see “Registration completed” on the screen, it means your procedure was successful.
@@ -132,10 +132,10 @@ In this section, we will use an assignment as an example, but it is possible to 
 5. Click “Confirm” to proceed.
 6. Please ensure that the content of the information (including the reminder notices) that you entered is exactly as you intended and click “Register” if there is no problem. When you see “Registration completed” on the screen, it means your procedure was successful.
 
-### Confirm・Edit・Delete Information Notices
+### Confirm, Edit, or Delete Information Notices
 {:#rud}
 
-This section provides steps to confirm・Edit・delete Information notices (including the reminder notices).
+This section provides steps to confirm, edit, or delete Information notices (including the reminder notices).
 
 1. Click on the “Manage Information” in the “Information” field on the Course Top screen.
 
