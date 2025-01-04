@@ -27,39 +27,39 @@ First, please enter the setting items for the entire quiz. You can edit the sett
 The meanings and notes for each setting item are as follows. Note that the items marked with an asterisk (\*) are required.
 
 -   **Title\*:** The title of the quiz
--   **Contents\***: A quiz description (supports the [markup function](/en/utol/markup/))
+-   **Contents**\*: A quiz description (supports the [markup function](/en/utol/markup/))
 -   **Video URL**: The URL of a video to be displayed on the screen before the quiz starts.
     \[Insert #2 image\]
     -   If the URL starts with `http://`, a link to the video, rather than the video itself, will be displayed.
--   **Answering period\***: Using the start and end dates, specify the period during which students can access the test here.
+-   **Answering period**\*: Using the start and end dates, specify the period during which students can access the test here.
 -   **Time limit**: With this function, you can set a time limit.
     -   If you do, the answers will be sent automatically when the time limit is reached.
--   **Waiting time\***: This is how long students will wait on the “Begin Answer” screen.
+-   **Waiting time**\*: This is how long students will wait on the “Begin Answer” screen.
     -   When you set this, they cannot start the test until the time has elapsed.
     -   This function can be used to ensure that students watch the video specified in the video URL.
 -   **Display the waiting time**: If you set a waiting time, it allows the option to display the waiting time or not.
     \[Insert #3 image\]
--   **Random Quizzes\***: It allows you the option to randomly generate or not questions that differ depending on the student.
+-   **Random Quizzes**\*: It allows you the option to randomly generate or not questions that differ depending on the student.
     -   If you use random questions, please also enter the number of questions you want to ask.
     -   If you want to ensure that a question is always included in the test, regardless of the students, you can make it a required question. For information on how to specify a required question, please refer to the end of [Procedure 2](#create_problem).
--   **Passing score\***: Answers that exceed the specified score will be treated as “passing” on UTOL.
--   **Checking scoring results\***: It allows students the option to refer to the scoring results themselves or not.
+-   **Passing score**\*: Answers that exceed the specified score will be treated as “passing” on UTOL.
+-   **Checking scoring results**\*: It allows students the option to refer to the scoring results themselves or not.
     -   Disabled: The scoring result is not disclosed.
     -   At submission time/After scoring: The student can access the result at the time of submission or later.
     -   After the answering period: The student can access the result after the end **of the** answering period.
         -   In cases other than “Disabled”, the student can refer to the scoring results in order from the questions for which the scoring has been completed.
--   **Checking correct answers\***: It allows the option to disclose the correct answers to the student or not.
+-   **Checking correct answers**\*: It allows the option to disclose the correct answers to the student or not.
     -   Disabled: The correct answers are not disclosed to the student.
     -   At submission time: The student can access the correct answers at the submission time or later.
     -   After scoring: The student can access the correct answers after completing the scoring.
     -   After the answer period: The student can access the correct answers after the answering period ends.
         -   In the case of “at submission time” or “after scoring”, please be careful as the correct answer may be revealed to other students who have not yet taken the test.
--   **Automatic scoring\***: Set whether or not to score questions automatically.
+-   **Automatic scoring**\*: Set whether or not to score questions automatically.
     -   Questions that are not compatible with automatic scoring need to be scored by the instructor or TA.
--   **Re-take\***: Set whether or not the student can re-take the test after submitting answers
+-   **Re-take**\*: Set whether or not the student can re-take the test after submitting answers
     -   It is also possible to only allow re-takes if the student has not reached the passing score.
 -   <span style="color: red">TODO: Add displaylabel component</span>
--   **Published target\***: This function limits the students who can take the test.
+-   **Published target**\*: This function limits the students who can take the test.
     -   By default, “all students” can take the test.
     -   By specifying [user groups](../settings/user_groups/) or students, you can restrict the test to only specific students in the course.
 
@@ -82,23 +82,23 @@ Click on “Create New” in the “Create a New Question” section at the bott
 
     The meanings and notes for each setting item are as follows. Items marked with an asterisk are required.
 
-    -   **Title\***: The title of the question
-    -   **Contents\***: A question description (supports the [markup function](/en/utol/markup/))
+    -   **Title**\*: The title of the question
+    -   **Contents**\*: A question description (supports the [markup function](/en/utol/markup/))
         -   (only the Fill-in-the-blank format) Click on the “Add a fill-in-the-blank tag” at the top right for the blank spaces. The `[fb]`tags are added to the question.
-    -   **Number of answer items\***: (Except for the Free-text format) The number of answer choices or blanks
-    -   **Answer items・Correct Answer\***: (only the selection-formats) Answer choices
+    -   **Number of answer items**\*: (Except for the Free-text format) The number of answer choices or blanks
+    -   **Answer items・Correct Answer**\*: (only the selection-formats) Answer choices
         -   Please specify the correct answer using the radio buttons on the right.
-    -   **Correct Answer\***: (only the Fill-in-the-blank format and Free-text format) Correct answer
+    -   **Correct Answer**\*: (only the Fill-in-the-blank format and Free-text format) Correct answer
         -   This field is required even for the free-text format, which cannot be automatically scored.
-    -   **Automatic scoring\***: (only the Fill-in-the-blank format) How should the scores be allocated when multiple blanks exist?
+    -   **Automatic scoring**\*: (only the Fill-in-the-blank format) How should the scores be allocated when multiple blanks exist?
         -   There are three formats as follows.
             -   The score is allocated according to the number of correct answers (complete match).
             -   If there are any incorrect answers (incomplete match), the score is 0.
             -   The score is not allocated if there are any incorrect answers (incomplete match).
         -   You cannot give each blank a different point value.
-    -   **Commentary**:  Commentary text.
-    -   **Point value\***: Enter a number of points to be given to the correct answer by the automatic scoring.
-    -   **Image**:  You can upload images when you want to ask questions about images or use images as a supplement.
+    -   **Commentary**: Commentary text.
+    -   **Point value**\*: Enter a number of points to be given to the correct answer by the automatic scoring.
+    -   **Image**:You can upload images when you want to ask questions about images or use images as a supplement.
 
 3. After entering the necessary information, click on “Register” at the bottom of the screen to register the question. Please note that although the question has been registered, the test has not yet been completed.
 
