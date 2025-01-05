@@ -15,14 +15,14 @@ AI Companionの主な機能としては，以下のようなものがありま�
 - Zoom Meetingsで利用する機能
   - [ミーティング内質問](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057748): これまでのミーティングの内容について，ミーティングの参加者がAIに質問できる機能です．
   - [ミーティング要約](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013): ミーティングで話し合われた内容の要約と次のステップを，AIがミーティング後に生成する機能です．
-  - [スマート レコーディング](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061101): AIがクラウドレコーディングしたミーティングの録画を，チャプターに分割したりハイライトを生成したりすることで，録画を見やすくする機能です．
+  - [スマート レコーディング](https://support.zoom.com/hc/ja/article?id=zm_kb&sysparm_article=KB0061102): AIがクラウドレコーディングしたミーティングの録画について，チャプターに分割したりハイライトを生成したりすることで，特に長時間のミーティングにおける録画を見やすくできる機能です．
 - その他
   - ホワイトボード コンテンツの生成
   - Zoom Docs
 
 ここで紹介しているのは一部機能です．AI Companionの機能について，詳しくは「[Getting started with Zoom AI Companion features \> Current Zoom AI Companion features](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057623#h_01H9H14D223ZZYMH87XJ865WEE)」を参照してください．
 
-## 注意事項
+## 生成AIの利用についての注意事項
 
 まず，生成AIの利用についての一般的な注意事項については，以下を参照してください．
 
@@ -64,5 +64,5 @@ AI Companionの各機能の利用方法については「[Zoom AI Companion Feat
 
 - [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai)
 - [Zoom AI Companion Support](https://support.zoom.com/hc/en/category?id=kb_category&kb_category=eabaef58c3b139904b490e8dc0013111)
-- [Getting started with Zoom AI Companion features](https://support.zoom.com/hc/ja/article?id=zm_kb&sysparm_article=KB0057623)
+- [Getting started with Zoom AI Companion features](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057623)
   - なお東京大学のZoomアカウントは，[米国の法律に基づく高等教育機関や医療機関に向けたBAA(Business Associate Agreement)](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067751)が適用されているアカウントに対するAI Companionの機能制限の対象とはなっていません．
