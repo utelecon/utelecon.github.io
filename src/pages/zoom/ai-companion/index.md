@@ -6,7 +6,7 @@ breadcrumb:
 
 ## AI Companionの概要
 
-[東京大学のZoomアカウント](../)では，ミーティングの要約などをAIにより生成する機能である"AI Companion"を利用できます．
+[東京大学のZoomアカウント](../)では，ミーティングの要約などをAIにより生成する機能である"Zoom AI Companion"を利用できます．
 
 ### 機能
 
@@ -17,10 +17,9 @@ AI Companionの主な機能としては，以下のようなものがありま�
   - [ミーティング要約](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013): ミーティングで話し合われた内容の要約と次のステップを，AIがミーティング後に生成する機能です．
   - [スマート レコーディング](https://support.zoom.com/hc/ja/article?id=zm_kb&sysparm_article=KB0061102): AIがクラウドレコーディングしたミーティングの録画について，チャプターに分割したりハイライトを生成したりすることで，特に長時間のミーティングにおける録画を見やすくできる機能です．
 - その他
-  - ホワイトボード コンテンツの生成
-  - Zoom Docs
+  - ホワイトボードやZoom Docsでのコンテンツの生成などがあります．
 
-ここで紹介しているのは一部機能です．AI Companionの機能について，詳しくは「[Getting started with Zoom AI Companion features \> Current Zoom AI Companion features](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057623#h_01H9H14D223ZZYMH87XJ865WEE)」を参照してください．
+ここで紹介しているのは一部機能です．AI Companionの各機能について，詳しくは「[Getting started with Zoom AI Companion features \> Current Zoom AI Companion features](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057623#h_01H9H14D223ZZYMH87XJ865WEE)」を参照してください．
 
 ## 生成AIの利用についての注意事項
 
@@ -31,7 +30,7 @@ AI Companionの主な機能としては，以下のようなものがありま�
 - [東京大学の学生の皆さんへ：AIツールの授業における利用について（2023年5月26日付／2023年5月29日掲載）](/docs/ai-tools-in-classes-students)
 - [AIツールの授業における利用について（2023年4月28日付／2023年5月16日掲載）](/docs/ai-tools-in-classes)
 
-特に，取り扱いに注意を要する情報（試験やレポートの問題，業務で知り得た機密情報，発表・公開すべきでない研究内容，その他関係者以外が知りえない情報）を入力しての利用は避けてください．[Zoom社の公式サポートページ](https://support.zoom.com/hc/ja/article?id=zm_kb&sysparm_article=KB0057861)によれば，Zoomで利用した情報やZoomで送信した情報は，生成AIモデルの学習に利用されることはないとされていますが，Zoom社やZoom AI Companionで利用されているサードパーティ製モデルの提供者への送信自体は行われていることに注意する必要があります．
+特に，取り扱いに注意を要する情報（試験やレポートの問題，業務で知り得た機密情報，発表・公開すべきでない研究内容，その他関係者以外が知りえない情報）を入力しての利用は避けてください．[Zoom社の公式サポートページ](https://support.zoom.com/hc/ja/article?id=zm_kb&sysparm_article=KB0057861)によれば，Zoomで利用した情報やZoomで送信した情報は，生成AIモデルの学習に利用されることはないとされていますが，Zoom社やAI Companionで利用されているサードパーティ製モデルの提供者への送信自体は行われていることに注意する必要があります．
 
 また，生成AIを利用してはいけない場面や，利用の条件が決まっている場面もあります．特に**授業においては，生成AIの利用の可否について，授業の特性に応じて担当教員が判断する**ことになっています．所属学科や専攻および各授業の担当教員の**指示に従い，認められていない場合には利用しない**でください．論文誌への投稿についても，生成AIの利用が禁止されている場合や，制限・条件が付けられている場合があるため，よく確認するようにしてください．
 
