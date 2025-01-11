@@ -135,6 +135,12 @@ CPU パックは 3 パック、仮想ディスクは 40GB などと入力しま�
 デプロイした仮想マシンを選択して、「Console」をクリックすると、別ウィンドウで Ubuntu のデスクトップ画面が開きます。
 テンプレートから Ubuntu を選んでいるのなら mdxuser でログインできます。
 
+> デプロイした Ubuntu にログインして、例えば Jupyter 環境を使いたい場合、まずターミナルを開いて
+> ```
+> $ sudo apt-get install python, pip
+> ```
+> のようにして Python をインストールした後、[JupyterLabのインストール方法](https://docs.mdx.jp/ja/index.html#labeljupyterlab) などをみて Jupyter をインストールしてください。
+
 #### ネットワーク設定
 
 インターネット経由で外部から仮想マシンに ssh 等でログインしたい場合は、グローバル IP アドレスを割り当てます。
