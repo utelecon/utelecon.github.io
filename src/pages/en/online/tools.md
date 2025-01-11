@@ -34,7 +34,7 @@ Webex is a web conferencing system provided by Cisco. With an UTokyo license, yo
 
 Google Meet is a web conferencing system provided by Google as part of Google Workspace. One of its advantages is its full integration with other Google services such as Google Calendar.
 
--  **[utelecon’s Google Meet Page](/en/meet/)**
+-  **[utelecon’s Google Meet Page](/en/google/meet/)**
 
 
 ## Learning Management Systems
@@ -131,12 +131,12 @@ Word Online is the online version of Microsoft Word. Word files are saved in a c
 
 Microsoft 365 also provides online versions of Excel and PowerPoint, that can be used similarly.
 
-### Scrapbox
+### Cosense
 
-Scrapbox is a tool for storing and organizing a large number of notes and memos online. It allows multiple users to edit notes simultaneously, and to share notes using URLs. Scrapbox’s unique feature is that you can easily connect many pages using "links" and "tags. Utilizing this feature, Scrapbox can be used as a portal site for online classes.
+Cosense (formerly Scrapbox) is a tool for storing and organizing a large number of notes and memos online. It allows multiple users to edit notes simultaneously, and to share notes using URLs. Cosense’s unique feature is that you can easily connect many pages using "links" and "tags. Utilizing this feature, Cosense can be used as a portal site for online classes.
 
-- **[Basic Use of Scrapbox](/en/articles/scrapbox/)**: utelecon’s page describing how to use Scrapbox.
-- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)** (in Japanese): A practical example of using Scrapbox to share lecture materials.
+- **[Basic Use of Cosense](/en/articles/cosense/)**: utelecon’s page describing how to use Cosense.
+- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)** (in Japanese): A practical example of using Cosense to share lecture materials.
 
 
 ## Handwriting/Whiteboard Apps

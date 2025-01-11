@@ -2,6 +2,7 @@
 title: Orientations / Seminars
 ---
 
+* 2024/09/13 [Reflecting on Generative AI and Education: Symposium + Workshop for the University of Tokyo Faculty and Staff](/en/events/2024-12-20-genai-sympo-ws/)
 * 2024/09/13 [Information Session on ICT Systems and Tools for UTokyo Members (**Conducted in English**)](/en/events/2024-09-13/)
 * 2023/03/15 [Briefing session: A briefing session for more effective use of ICT tools in UTokyo (only in Japanese)](/events/2024-03-15/)
 * 2024/03/11 [Briefing session: A briefing session on ICT tools for faculty teaching for the first time in UTokyo (only in Japanese)](/events/2024-03-11/)
