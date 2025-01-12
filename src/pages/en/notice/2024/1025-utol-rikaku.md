@@ -31,17 +31,15 @@ If you have any questions concerning UTOL, please contact us through the Support
 
 The course confirmation date for the courses offered by the Junior Division of the College of Arts and Sciences is **Thursday, October 17, 2024**.
 
-"If you can no longer access the course because you forgot to register during the registration period", please make sure to complete your registration during the course correction period.  
-Please note that **the course confirmation date for courses shared with merged courses offered by the Junior Division of the College of Arts and Sciences is October 31 for the A1 Term and A Semester, and December 18 for the A2 Term**. Be sure you do not forget to register for your courses during the course registration period.
+"If you can no longer access the course because you forgot to register during the registration period", please make sure to complete your registration during the course correction period. Please note that **the course confirmation date for courses shared with merged courses offered by the Junior Division of the College of Arts and Sciences is October 31 for the A1 Term and A Semester, and December 18 for the A2 Term**. Be sure you do not forget to register for your courses during the course registration period.
 
 ### 2. Changes in the state of taking courses
 
-Courses in the A1 term will be used as an example
+Courses in the A1 term will be used as an example.
 
 #### 2.1 Taking the course
 
-As of October 25, courses for the A1 Term are available on UTOL, and you can access them by adding them to your favorites in the UTAS syllabus listing or by self-registration in UTOL.
-In the timetable on UTOL, "(**Favorite Registration**)" or "(**Self-Registration**)" will be displayed next to "Enrolled Student" for each course.  
+As of October 25, courses for the A1 Term are available on UTOL, and you can access them by adding them to your favorites in the UTAS syllabus listing or by self-registration in UTOL. In the timetable on UTOL, "(**Favorite Registration**)" or "(**Self-Registration**)" will be displayed next to "Enrolled Student" for each course.  
 
 When you register for courses through UTAS after the course registration period begins, "(**Enrolled Registration**)" will be displayed in the timetable on UTOL.
 
@@ -61,11 +59,9 @@ As you may already know, the course registration period and course correction pe
 
 We hear from students who for one reason or other "do not wish to or cannot officially register courses through UTAS but wish to audit the courses".
 
-It is up to the instructors to decide whether or not to allow such students to audit.  
-Please contact the instructor directly to discuss this matter. 
+It is up to the instructors to decide whether or not to allow such students to audit. Please contact the instructor directly to discuss this matter.
 
-If there are only a few students auditing, the registration method will be the (Registered by Instructor).  
-If there are many students auditing, the instructor can change the course settings to allow access. If the instructors do not know the specific procedures, please refer to the following web pages.
+If there are only a few students auditing, the registration method will be the (**Registered by Instructor**). If there are many students auditing, the instructor can change the course settings to allow access. If the instructors do not know the specific procedures, please refer to the following web pages.
 
 * If there are only a few students auditing: "[Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors・TAs) > Update the registration method for course participants](/en/utol/lecturers/settings/course_participants/#update)".
 * If there are many students auditing: "[Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors/TAs > Self-Registration and Student Range Settings](/en/utol/lecturers/settings/)".
