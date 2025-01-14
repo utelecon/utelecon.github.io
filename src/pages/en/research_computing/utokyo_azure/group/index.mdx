@@ -1,92 +1,83 @@
----
-title: "Group Use"
-breadcrumb:
-  title: Group Use
----
 import HelpItem from "@components/utils/HelpItem.astro";
 
-If you want to share **subscriptions** or **resources** (scopes) with members of your laboratory or collaborators, the representative can apply for a subscription and add members to that subscription with the appropriate permissions (roles) to make it possible to share.
+If you want to share **subscriptions** or **resources** (scopes) with laboratory members or collaborators, the representative must apply for the subscription and add the collaborators to the subscription with appropriate roles. At that time, what the sharer can do depends on which scope and role they are assigned to.
 
-Also, what a sharer can do will depend on which resource they are assigned to, who they are assigned to, and what role they are assigned to.
+## Recommended role assignments
 
-Please refer to this link for instructions on assigning permissions.
-- [Steps to assign an Azure role to subscriptions and resources](/en/research_computing/utokyo_azure/faq/addrole)
+| User  | Share | Scope | Role |
+| ------------ | ------- | ---------------- | ------------- |
+| Faculty | Transfer your subscription | Subscription | Owner |
+| For Faculty | Delegate expense and user management | Subscription | Owner |
+| For Faculty | Not Delegate expense and user management | Subscription | Contributor |
+| For Student | Delegate the creation of new resources | Subscription | Contributor |
+| For Student | Not Delegate the creation of new resources | Resource | Contributor |
+| Both | Use only deployed services | (Deployed services) | (Separate management permissions granted for services) |
 
-<div class="box">
-If you're not sure what to do, we recommend assigning the following:
-- **Sharing with faculty**: For sharing that includes costs, assign to the subscription with the **Owner** role. For sharing that does not include costs, assign to the subscription with the **Contributor** role.
-- **Sharing with students**: If you want them to manage resources including creating new resources, assign to the subscription with the **Contributor** role. If you only want them to manage existing services, assign to the resource or resource group with **Contributor**.
-- **Use only**: If you only want to use the service without managing it, assign the account and permissions to the service, but do not assign roles to the subscription or resources. In this case, the way accounts and permissions are assigned varies depending on the service, so please refer to the help for each service for details.
-</div>
+### Difference between an Owner and a Contributor
 
-## Roles and Members (Role-Based Access Control: RBAC)
+Both the Owner and Contributor have what are administrator privileges, but there are the following differences:
 
-In Microsoft Azure, you can grant permissions to other accounts to access each scope by setting which permissions (roles) to assign to whom (members). This is called role-based access control (RBAC), and you can use this function to share subscriptions and resources you create.
+- **Owner**：
+  - (Only if assigned to a subscription) You can view the Free tier, Guaranteed free tier, current usage, etc. on the subscription management page on the UTokyo Azure New application page.
+  - You can assign a shared member role to a subscription, resource group, etc.
+- **Contributer**：
+  - Other than the two privileges mentioned above, the user has the same privileges as the owner.
 
-## Permission Inheritance
+## Role assignment steps
 
-Microsoft Azure inherits permissions from higher scopes to lower scopes. Specifically, in the diagram below, inner scopes inherit permissions from outer scopes. Permissions are irreversible and are not inherited to outer scopes. The top-level scope is a subscription.
+Follow the steps below to assign roles to each scope. We will show the steps for **Contributor** here, but the steps are the same for **Owner** (with some additional steps), so please read them accordingly when assigning owners.
 
-<div class="box">
-- Deployed services such as virtual machines may be an exception to privilege inheritance. (described later)
-- There are cases where permissions are not necessarily inherited. If it is important that permissions are inherited, be sure to check that they are, and if they are not, assign the necessary permissions individually.
-</div>
+#### １．The Azure Portal, click the **Subscription** or **Resource** for which you want to grant privilege.
+#### ２．Click `Access Control (IAM)` from the list on the left side of the screen.
 
-![](img/01_iam_en.png){:.medium.center}
+![](/research_computing/utokyo_azure/group/img/01_addrole1.png){:.center.border}
 
+#### ３．Click `+Add` from the options displayed at the top of the main screen and select `Add role assignment`.
 
-## Assign a member with the **Owner** role to the subscription.
+![](/research_computing/utokyo_azure/group/img/02_addrole2.png){:.medium.center.border}
 
-The **Owner** has the authority to assign all roles (with some exceptions) and is assigned to the applicant's UTokyo Account by default. The main privileges are as follows.
+#### ４．Please set each section below in order.
 
-- Assign other members and roles to the subscription.
-  - However, depending on the conditions when assigning the owner role to a member, that member may not have some privileges.
-- View the details of your subscription on the `Subscription Management page` of the **UTokyo Azure:New Application page**.
-  - The current of limit the Free Tier and Guaranteed Free Tier can only be viewed on the subscription management page of the UTokyo Azure New Application page.
-  - Billing information will also be displayed, so be careful not to give owner privileges to the wrong member.
-- Use that subscription to create resources for the new service.
+- **Role** Section
+  - There are two options, `Job Function Role` and `Privileged Administrator Role`, so select `Privileged Administrator Role`.
+  - A list of selectable roles will be displayed at the bottom of the screen, so click Contributor.
+    - If the cell background turns grey, it is selected.
 
+![](/research_computing/utokyo_azure/group/img/03_addrole3.png){:.medium.center.border}
 
-Unless you want to completely transfer the subscription to another member, please do not assign other members the privileges of the **Owner who can assign all roles**. If you want to assign the owner role to that member for sharing purposes, make sure to make a conditional selection.
+- **Members** section
+  - **Selected role**：Make sure this is the role you selected in the Role section.
+  - **Assign access to**：Select `User, group or service principal`.
+  - **Members**：Click `+ Select Members`, and a search and selection screen for the accounts to which you want to grant permissions will appear on the right side of the screen. Narrow your search criteria to find and select the accounts to which you want to grant permissions. Finally, click `Select` at the bottom of the selection screen, and the selected members will be displayed on the main screen.
+  - **Description**：Please add a description if necessary.
 
-## Assign a member with the **Contributor** role to the subscription.
+![](/research_computing/utokyo_azure/group/img/04_addrole4.png){:.medium.center.border}
 
-**Contributor** role has the same permissions as the Owner role, except that permissions cannot be assigned to other members. Normally, if you want to share your subscription with other members, please grant this privileges.
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">Can't find the account I want to select</Fragment>
+  <Fragment slot="solution">The user must have a UTokyo Account. The search string can be a name or email address registered to a UTokyo Account. Please make sure the search string is correct. Alternatively, if the user may not yet have a UTokyo Account, please ask the user to check their UTokyo Account registration status.</Fragment>
+</HelpItem>
 
-- **have privileges**
-  - Use that subscription to create resources for the new service.
-  - Check resource usage from the Azure Portal.
-- **have no privileges**
-  - Assign roles to other members to each scope.
-  - View the subscription details on the Subscription Management page of the **UTokyo Azure:New Application page**.
+- （Owner role step only）**Conditions** section
+  - **What user can do**：
+    - Typically you would select `Allow user to assign all roles except privileged administrator roles Owner, UAA, RBAC (Recommended)`.
+    - Select `Allow user to assign all roles (highly privileged)` only if you are transferring the subscription to the other person.
+    
 
+![](/research_computing/utokyo_azure/group/img/05_addrole5.png){:.medium.center.border}
 
-## Assign a member with the **Owner** role to a resource or resource group.
+- **Assignment type** section
+  - **Selected role**：Make sure this is the role you selected in the Role section.
+  - **Assignment type**：Please select `Active`. Do not select `Target` .
+  - **Assingment Duration**：Please select `Permanent`. Do not select `Time bound`.
 
-You will be given privileges to assign all roles to that resource.
+![](/research_computing/utokyo_azure/group/img/06_addrole6.png){:.medium.center.border}
 
-- **have privileges**
-  - Assign other members and roles to the resource or resource groups.
-    - However, depending on the conditions when assigning the owner role to a member, that member may not have some privileges.
-  - Create a new resource in the resource group.
-    - For example, adding a new interface to a virtual machine, adding a new subnetwork resources, etc.
-- **have no privileges**
-  - Create a resource or resource group for the new Azure service.
+- Review + assign section
+  - Check the contents and if they are correct, click `Review + assign` at the bottom of the screen.
 
-## Assign a member with the **Contributor** role to the resource or resource groups.
+#### ５.Verify that permissions are granted correctly．
+  - Please repeat the procedure from the beginning to step 2 and click on the `Role assignments` tab.
+  - Make sure that the members you are added with the correct roles.
 
-Has the same privileges as the Owner, except that the role cannot be granted to other members.
-
-- **have privileges**
-  - Create a new resource in the resource group.
-    - For example, adding a new interface to a virtual machine, adding a new subnetwork resources, etc.
-- **have no privileges**
-  - Assign roles to other members to the resource or resource group.
-  - Create a resource for the new Azure service.
-
-## About permissions for deployed services
-
-Deployed services may not be subject to Azure permission inheritance.
-
-- For example, when a virtual machine is deployed, the system account and administrative privileges for that OS will not be inherited from the Azure service and will be managed separately.
-- For such services, if you want to add members only to the service, set the accounts and permissions only in the deployed service, not in Azure.
+![](/research_computing/utokyo_azure/group/img/07_addrole7.png){:.medium.center.border}
