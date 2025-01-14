@@ -89,6 +89,8 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 ### Microsoftが提供するその他のシステム
 {:#misc}
 
+Microsoft365では多様なサービスが提供されていますが，学生向けには個人情報保護対策と管理上の問題があるOutlook(メールサービス)，Teams，PowerPlatform(PowerAutomate，PowerAppsなど)は提供していません．ご了承ください．
+
 #### Microsoft Forms
 {:#forms}
 
