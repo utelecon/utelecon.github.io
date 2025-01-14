@@ -115,7 +115,7 @@ mdx I が提供できる資源量は有限なので、申請した資源量が�
 ユーザポータルのページ上部にある「仮想マシン」タブをクリックします。
 デプロイの手順を知るには[mdxチュートリアル「4. 仮想マシンのデプロイ」](https://www.youtube.com/watch?v=hsvBUTtz7TM)も見てください。
 
-[ISO イメージから任意の OS をインスト−ル](/research_computing/mdx/deploy)することもできますが、すでに用意されているテンプレートから選ぶのが簡単です。
+[ISO イメージから任意の OS（Windows など）をインスト−ル](/research_computing/mdx/deploy)することもできますが、すでに用意されているテンプレートから選ぶのが簡単です。
 ページ左側に「コントロール」「デプロイ」「ISO イメージ」と表示されるので、「デプロイ」を選びます。
 
 例えば Ubuntu Desktop を選び、 「デプロイ」をクリックします。
@@ -134,6 +134,12 @@ CPU パックは 3 パック、仮想ディスクは 40GB などと入力しま�
 
 デプロイした仮想マシンを選択して、「Console」をクリックすると、別ウィンドウで Ubuntu のデスクトップ画面が開きます。
 テンプレートから Ubuntu を選んでいるのなら mdxuser でログインできます。
+
+> デプロイした Ubuntu にログインして、例えば Jupyter 環境を使いたい場合、まずターミナルを開いて
+> ```
+> $ sudo apt-get install python, pip
+> ```
+> のようにして Python をインストールした後、[JupyterLabのインストール方法](https://docs.mdx.jp/ja/index.html#labeljupyterlab) などをみて Jupyter をインストールしてください。
 
 #### ネットワーク設定
 
