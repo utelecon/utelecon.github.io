@@ -250,4 +250,26 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
       padding: 1em;
     }
   }
+
+  @media print {
+    header.header {
+      background-color: inherit;
+      background-image: none;
+    }
+    .hamburger-button,
+    .hamburger-contents {
+      display: none;
+    }
+    .links {
+      display: none;
+    }
+    .title span {
+      &:nth-child(1) {
+        color: $header-background-color-secondary;
+      }
+      &:nth-child(2) {
+        color: $header-background-color-primary;
+      }
+    }
+  }
 </style>
