@@ -23,7 +23,7 @@ We believe that the operational issues encountered in the S semester such as "be
 
 However, personal issues such as mistakenly believing that you are already registered in UTAS because you can access the course may occur. Students are strongly reminded to **complete their course registration through UTAS during the period specified by their affiliated faculty or graduate school. Please note that access to courses in UTOL does not necessarily mean that registration in UTAS has been completed.**
 
-If you have any questions concerning UTOL, please contact us through the Support Desk. If you have any questions concerning your registration through UTAS, please contact with the academic affairs office of your affiliation.
+If you have any questions concerning UTOL, please contact us through the [Support Desk](/en/support/). If you have any questions concerning your registration through UTAS, please contact with the academic affairs office of your affiliation.
 
 ## Supplementary Information
 
@@ -84,7 +84,7 @@ Depending on the course, the dates offered may differ from the standard A1/A2/W 
 | A1 | October 31 |
 | A2 | December 18 |
 | W | February 15 |
-| A1A2 | October 31A |
+| A1A2 | October 31 |
 | A1A2S1 | October 31 |
 | A2S1 | December 18 |
 | A1A2W | October 31 |
