@@ -13,6 +13,10 @@
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
 -
+  date: 2025-01-24
+  content:
+    ja: "[OneDrive容量超過に関する状況確認調査を実施します](/notice/2025/0124-onedrive)"
+-
   date: 2024-12-27
   content:
     ja: "[最新情報をRSSとSNS（X；旧Twitter）で便利に受け取れるようになりました](/notice/2024/1227-rss-sns)"
