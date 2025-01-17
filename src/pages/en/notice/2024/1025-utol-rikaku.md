@@ -39,7 +39,7 @@ Courses in the A1 term will be used as an example.
 
 #### 2.1 Taking the course
 
-As of October 25, courses for the A1 Term are available on UTOL, and you can access them by adding them to your favorites in the UTAS syllabus listing or by self-registration in UTOL. In the timetable on UTOL, "(**Favorite Registration**)" or "(**Self-Registration**)" will be displayed next to "Enrolled Student" for each course.  
+As of October 25, courses for the A1 Term are available on UTOL, and you can access them by adding them to your favorites in the UTAS syllabus listing or by self-registration in UTOL. In the timetable on UTOL, "(**Favorite Registration**)" or "(**Self-Registration**)" will be displayed next to "Enrolled Student" for each course.
 
 When you register for courses through UTAS after the course registration period begins, "(**Enrolled Registration**)" will be displayed in the timetable on UTOL.
 
@@ -68,9 +68,9 @@ If there are only a few students auditing, the registration method will be the (
 
     - In the course settings, please tick “**Always all regardless of registration method" for "the enrolled student range settings", furthermore make sure to set "Self-Registration" to "Permit".**
 
-### 4. There are course settings that differ from regular settings  
+### 4. There are course settings that differ from regular settings
 
-Due to the circumstances of the course instructors, some courses may be accessible only to students who have registered for them through UTAS, even before the course confirmation date. Please contact the instructor directly for further clarification.  
+Due to the circumstances of the course instructors, some courses may be accessible only to students who have registered for them through UTAS, even before the course confirmation date. Please contact the instructor directly for further clarification.
 
 ### 5. Handling of Semester/Term and the Course Confirmation Date
 
