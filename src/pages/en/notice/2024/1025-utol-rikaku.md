@@ -31,7 +31,7 @@ If you have any questions concerning UTOL, please contact us through the [Suppor
 
 The course confirmation date for the courses offered by the Junior Division of the College of Arts and Sciences is **Thursday, October 17, 2024**.
 
-"If you can no longer access the course because you forgot to register during the registration period", please make sure to complete your registration during the course correction period. Please note that **the course confirmation date for courses shared with merged courses offered by the Junior Division of the College of Arts and Sciences is October 31 for the A1 Term and A Semester, and December 18 for the A2 Term**. Be sure you do not forget to register for your courses during the course registration period.
+"If you can no longer access the course because you forgot to register during the registration period", please make sure to complete your registration during the course correction period. Please note that **the course confirmation date for courses shared with merged courses offered by the Senior Division of the College of Arts and Sciences is October 31 for the A1 Term and A Semester, and December 18 for the A2 Term**. Be sure you do not forget to register for your courses during the course registration period.
 
 ### 2. Changes in the state of taking courses
 
