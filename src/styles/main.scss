@@ -37,7 +37,7 @@
     max-width: 64rem;
     margin: 0 auto;
 
-    &[data-toc] {
+    &[data-toc="true"] {
       max-width: 84rem;
     }
   }
