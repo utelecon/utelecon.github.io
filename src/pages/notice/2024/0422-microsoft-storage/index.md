@@ -87,7 +87,7 @@ Google WorkspaceのサービスとしてGoogleドライブを100GBまで費用�
 
 ## 参考URL  
 
-[OneDriveの利用方法](/onedrive/)
+[OneDriveの利用方法](/microsoft/onedrive/)
 
 ## 更新履歴
 
