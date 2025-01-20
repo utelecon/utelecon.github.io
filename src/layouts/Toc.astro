@@ -264,6 +264,12 @@ for (const heading of Astro.props.headings) {
       display: block;
     }
   }
+
+  @media print {
+    #sidebar {
+      display: none;
+    }
+  }
 </style>
 
 <script>

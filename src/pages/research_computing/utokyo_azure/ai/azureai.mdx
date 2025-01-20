@@ -1,13 +1,13 @@
 ---
-title: "Azure AI Studio : UTokyo Azure 利用例"
+title: "Azure AI Foundry : UTokyo Azure 利用例"
 breadcrumb:
-  title: "Azure AI Studio"
+  title: "Azure AI Foundry"
 ---
 
 ## 概要
 {:#about}
 
-Azure AI Studio を本サービスで利用する場合の初期手続き例です．
+Azure AI Foundry（旧称 Azure AI Studio）を本サービスで利用する場合の初期手続き例です．
 
 ## １．サービスを選択する
 {:#select_service}
@@ -19,12 +19,13 @@ Azure AI Studio を本サービスで利用する場合の初期手続き例で�
 
 - [Azure portal](https://portal.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．（新規申請された場合は表示されるようになるまで時間がかかります）
 
-- Azureサービスの一覧の中から`Azure AI Studio`を選択します．
+- Azureサービスの一覧の中から`Azure AI Foundry`を選択します．
     - 一覧に無い場合、一覧の右にある`その他のサービス`を選択、左側にあるリストから`AI + Machine Learning`を選択すると， 右側に表示されるメイン画面の`Azure AI + Machine Learning platforms`の中にあります．
 
 ![](img/01_aistudio1.png){:.medium.center.border}
 
-- Azure AI Studio のメインページが表示されたら，画面左上にある`＋作成`またはメイン画面にある`Azure AI の作成`をクリックします．
+- Azure AI Foundry のメインページが表示されたら，画面左上にある`＋Create`をクリックします．
+- `Project`か`Hub`の選択になります．ここでは`Hub`を選択します．
 
 ## ２．Azure AI ハブを構成する
 {:#aihub}
@@ -61,40 +62,52 @@ Azure AI Studio を本サービスで利用する場合の初期手続き例で�
 
 ![](img/04_aistudio4.png){:.medium.center.border}
 
-AI ハブ のトップページに遷移するので，`Azure AI Studioの起動`をクリックしてください．
+AI ハブ のトップページに遷移するので，`Azure AI Foundry の起動`をクリックしてください．
 
 ![](img/05_aistudio5.png){:.medium.center.border}
 
+- 初回アクセスでは，プロジェクト名の入力を求められるので，適当なプロジェクト名を入力ください．初期設定のままでも構いません．
 
-ここからは Azure AI Studio の環境で進めます．
+ここからは Azure AI Foundry のネイティブ環境で進めます．
 
-## ３．Azure AI Studio のプロジェクトにモデルをデプロイする
+## ３．Azure AI Foundry のプロジェクトにモデルをデプロイする
 
 **一例として GPT4 チャットモデルをデプロイします．**
 
-- トップページ画面左側のリストから，`チャット`を選択します．
+- トップページ画面左側のリストから，`モデルカタログ`を選択します．
 
 ![](img/01_aistudiogpt1.png){:.medium.center.border}
 
-- メイン画面がセットアップになりますので，`＋デプロイを作成`をクリックしてください．
+- モデル選択画面になりますので，`gpt-4o`をクリック．
 
 ![](img/02_aistudiogpt2.png){:.medium.center.border}
 
-- モデル選択画面になりますので，左側のリストから`gpt-4`を選択し，右下にある`確認`をクリックしてください．
+- gpt-4o の詳細画面になるので，画面上部にある`デプロイ`をクリック．
 
 ![](img/03_aistudiogpt3.png){:.medium.center.border}
 
-- 確認画面になるので，`デプロイ`をクリックしてください．
+- 確認画面になるので，`リソースを作成してデプロイする`をクリック．
 
 ![](img/04_aistudiogpt4.png){:.medium.center.border}
 
+デプロイが完了したら，`プレイグラウンドで開く`をクリック．
+
 - 下図のようなチャットプレイグランドが表示されたら完了です．
-  - `デプロイ`をクリックしてからデプロイ完了まで時間がかかる場合があります．
-  - 5分以上待っても変化がない場合は，ブラウザを再読み込みしてみてください．それでもチャットグランドが表示されない場合は，改めてデプロイしなおしてみてください．
 
 ![](img/05_aistudiogpt5.png){:.medium.center.border}
 
-### 補足
+## ４．利用しない期間のリソース停止や削除
+
+**仮想マシンはそのままにすると利用料金が課金され続けます．**
+
+モデルによっては最低でも100近いCPUコアを要求し1日で数百ドルを超える使用料が発生し続ける場合もありますので，利用が一旦終了した際は，
+
+- VMを停める機能がある場合はVMを停める．
+- VMを停める機能が見当たらない場合は，リソースまるごと一旦削除する．
+
+等を実施ください．
+
+### OpenAI利用時の補足
 
 - テキストボックスにメッセージを入力し，三角形をクリック（または「Enter」キーを押す）してモデルに送信します．
 - 画面右下のトークン数は，このメッセージのトークンとこのモデルのトークン制限を表します．
