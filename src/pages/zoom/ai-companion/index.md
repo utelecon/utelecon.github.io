@@ -6,22 +6,24 @@ breadcrumb:
 
 ## AI Companionの概要
 
-[東京大学のZoomアカウント](../)では，生成AIとZoomミーティング等を連携する機能である"Zoom AI Companion"を利用できます．
+[東京大学のZoomアカウント](../)では，Zoomミーティング等における生成AIを活用したアシスタント機能である"Zoom AI Companion"を利用できます．
 
 ### 機能
 
-AI Companionの主な機能としては，以下のようなものがあります．
+AI Companionの機能としては，以下のようなものがあります．
 
 - Zoom Meetingsで利用する機能
   - [ミーティング内質問](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057748): これまでのミーティングの内容について，ミーティングの参加者がAIに質問できる機能です．
   - [ミーティング要約](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013): ミーティングで話し合われた内容の要約と次のステップを，AIがミーティング後に生成する機能です．
   - [スマート レコーディング](https://support.zoom.com/hc/ja/article?id=zm_kb&sysparm_article=KB0061102): AIがクラウドレコーディングしたミーティングの録画について，チャプターに分割したりハイライトを生成したりすることで，特に長時間のミーティングにおける録画を見やすくできる機能です．
 - その他
-  - ホワイトボードやZoom Docsでのコンテンツの生成などがあります．
+  - ホワイトボードやZoom Docs上でのコンテンツの生成機能などがあります．
 
 ここで紹介しているのは一部機能です．AI Companionの各機能について，詳しくは「[Getting started with Zoom AI Companion features \> Current Zoom AI Companion features](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057623#h_01H9H14D223ZZYMH87XJ865WEE)」を参照してください．
 
 ## 生成AIの利用についての注意事項
+
+AI Companionを含む生成AIを活用した機能を利用する際は，以下のような事項に注意する必要があります．
 
 まず，生成AIの利用についての一般的な注意事項については，以下を参照してください．
 
