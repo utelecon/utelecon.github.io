@@ -28,7 +28,6 @@ There are three methods: “Raised hand”, “Emoji”, and “Non-verbal feedb
 ### Non-verbal feedback
 
 - This is used to provide feedback to speakers, such as “Yes”, “No”, “Slower” and “Faster”.
-- 『意思表示アイコン』と呼ばれることもあります．It is also called “Intention Indicating Icon.”
 
 ## [For Participants] How to send reactions
 
