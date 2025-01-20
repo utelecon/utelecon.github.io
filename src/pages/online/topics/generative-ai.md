@@ -13,6 +13,7 @@ title: 生成AI（ChatGPT等）関連情報
 
 ## 全学構成員向けの生成AIサービス
 
+- [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion)（2025年1月27日）
 - [ECCSクラウドメールでのGeminiの利用について](https://www.ecc.u-tokyo.ac.jp/announcement/2024/06/04_3635.html)（2024年6月4日）
     - 2024年9月現在，ECCSクラウドメールアカウントでGeminiを使用する場合，ユーザのデータがAIモデルの改良に使用されることはなく，AIモデルを改良する目的で人間によるレビューを受けることもないことが，Googleより公表されています．
 - [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui)（2024年3月29日）
