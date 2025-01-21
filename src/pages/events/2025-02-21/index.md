@@ -6,7 +6,7 @@ h1: "2025/02/21 説明会：UTokyo Azure利用説明会"
 ## 開催趣旨
 
 Microsoftと東京大学の間で交わされた[GX、D&I、AI研究の推進に向けた連携に関する基本合意書](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)のもとに締結された GIFT AGREEMENT（2024年9月1日）に基づき、Microsoftから東京大学に対し、Microsoft Azureを利用するためのギフトクレジット （総額 $10,000,000 USD）が寄付されることとなりました。
-2024年12月より、このギフトクレジットを利用した「**UTokyo Azure**」の利用が開始しました。
+2024年12月より、このギフトクレジットを利用した[**「UTokyo Azure」**](https://utelecon.adm.u-tokyo.ac.jp/research_computing/utokyo_azure/)の利用が開始しました。
 
 今回の説明会では、UTokyo Azureの概要、利用申請の方法および注意点、利用料金、代表的なサービスの使い方などについて説明します。
 
