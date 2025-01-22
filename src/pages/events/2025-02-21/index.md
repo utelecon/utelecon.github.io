@@ -52,5 +52,5 @@ Microsoftと東京大学の間で交わされた[GX、D&I、AI研究の推進に
 Zoomの[**UTokyo Azure利用説明会 登録ページ**](https://u-tokyo-ac-jp.zoom.us/meeting/register/NsntDBBiSUecESy1vR58bw)よりお申し込みください。
 
 ## 事後アンケート
-[アンケートページ](https://forms.gle/sfL7LCxX3EwY86rP6)からご回答ください．Zoomから退出した際にも同じアンケートが表示されますので、そちらから回答することも可能です。
+[アンケートページ](https://forms.gle/sfL7LCxX3EwY86rP6)からご回答ください。Zoom退出時に同じアンケートが表示されます。
 ※東京大学ECCSクラウドメールユーザ限定
