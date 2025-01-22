@@ -44,12 +44,12 @@ Microsoftと東京大学の間で交わされた[GX、D&I、AI研究の推進に
 
 - 資料は当日までに、動画は後日、本ページにアップロード予定。
 
-- 質問はこちらの**[Slido](https://app.sli.do/event/ig9R1n6FPpnuPoQrDtyje8)**または [https://sli.do/](https://sli.do/) より code = `utokyo-azure20250221`へ投稿してください。事前質問も受け付けます。
+- 質問はこちらの[**Slido**](https://app.sli.do/event/ig9R1n6FPpnuPoQrDtyje8)または [https://sli.do/](https://sli.do/) より code = `utokyo-azure20250221`へ投稿してください。事前質問も受け付けます。
 
 
 
 ## 参加申込
-Zoomの**[UTokyo Azure利用説明会 登録ページ](https://u-tokyo-ac-jp.zoom.us/meeting/register/NsntDBBiSUecESy1vR58bw)**よりお申し込みください。
+Zoomの[**UTokyo Azure利用説明会 登録ページ**](https://u-tokyo-ac-jp.zoom.us/meeting/register/NsntDBBiSUecESy1vR58bw)よりお申し込みください。
 
 ## 事後アンケート
 [アンケートページ](https://forms.gle/sfL7LCxX3EwY86rP6)からご回答ください．Zoomから退出した際にも同じアンケートが表示されますので、そちらから回答することも可能です。
