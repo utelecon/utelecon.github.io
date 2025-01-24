@@ -26,10 +26,12 @@ import Events from '@components/pages/Events.astro'
 </div>
 
 <Events show={[
+  "2025-02-21",
   "2024-09-13",
   "2024-03-15",
   "2024-03-11",
 ]} alternative={{"2024-09-13": {"href": "/en/events/2024-09-13"}}} lang="en">
+<Fragment slot= "2025-02-21">Information Session on UTokyo Azure <small>(only in Japanese)</small></Fragment>
 <Fragment slot="2024-09-13">Information Session on ICT Systems and Tools for UTokyo Members</Fragment>
 <Fragment slot="2024-03-15">Briefing Session: Briefing Session on Enhancing Use of IT Tools at UTokyo <small>(only in Japanese)</small></Fragment>
 <Fragment slot="2024-03-11">Briefing Session: Briefing Session on IT Tools for Instructors Teaching for the First Time at UTokyo <small>(only in Japanese)</small></Fragment>
