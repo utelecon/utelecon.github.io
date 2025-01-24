@@ -5,16 +5,16 @@ h1: "2025/02/21 説明会：UTokyo Azure利用説明会"
 
 ## 開催趣旨
 
-Microsoftと東京大学の間で交わされた[GX、D&I、AI研究の推進に向けた連携に関する基本合意書](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)のもとに締結された GIFT AGREEMENT（2024年9月1日）に基づき、Microsoftから東京大学に対し、Microsoft Azureを利用するためのギフトクレジット （総額 $10,000,000 USD）が寄付されることとなりました。
-2024年12月より、このギフトクレジットを利用した[**「UTokyo Azure」**](https://utelecon.adm.u-tokyo.ac.jp/research_computing/utokyo_azure/)の利用が開始しました。
+Microsoftと東京大学の間で交わされた[GX・D&I・AI研究の推進に向けた連携に関する基本合意書](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)のもとに締結された GIFT AGREEMENT（2024年9月1日）に基づき，Microsoftから東京大学に対し，Microsoft Azureを利用するためのギフトクレジット （総額 $10,000,000 USD）が寄付されることとなりました．
+2024年12月より，このギフトクレジットを利用した[**「UTokyo Azure」**](/research_computing/utokyo_azure/)の利用が開始しました．
 
-今回の説明会では、UTokyo Azureの概要、利用申請の方法および注意点、利用料金、代表的なサービスの使い方などについて説明します。
+今回の説明会では，UTokyo Azureの概要，利用申請の方法および注意点，利用料金，代表的なサービスの使い方などについて説明します．
 
-主にUTokyo Azureをご利用中の方や利用を検討されている方向けの内容となりますが、支払を担当されている事務スタッフ、研究室の秘書の方の参加も歓迎します。
+主にUTokyo Azureをご利用中の方や利用を検討されている方向けの内容となりますが，支払を担当されている事務スタッフ，研究室の秘書の方の参加も歓迎します．
 
-説明する内容により対象者が異なりますので、以下のタイムテーブルをご参照の上、興味のあるパートのみご参加可能です。
-ご質問については、当日の質疑応答に加え、[slido](https://app.sli.do/event/ig9R1n6FPpnuPoQrDtyje8)でも受け付けます。
-是非この機会に積極的にご参加いただき、UTokyo Azureの利用をご検討ください。
+説明する内容により対象者が異なりますので，以下のタイムテーブルをご参照の上，興味のあるパートのみご参加可能です．
+ご質問については，当日の質疑応答に加え，[slido](https://app.sli.do/event/ig9R1n6FPpnuPoQrDtyje8)でも受け付けます．
+是非この機会に積極的にご参加いただき，UTokyo Azureの利用をご検討ください．
 
 ## 概要
 - **日時**：2025/2/21（金） 10:00-12:00（終了後も質問を受け付けます）
@@ -22,7 +22,7 @@ Microsoftと東京大学の間で交わされた[GX、D&I、AI研究の推進に
 - **資料・説明会動画**：このページで提供します
 
 ## タイムテーブル（予定）
-※時間は目安であり、前後する場合があります。
+※時間は目安であり，前後する場合があります．
 
 | 時間   | 内容   | 話者   |
 |--------|--------|--------|
@@ -42,15 +42,15 @@ Microsoftと東京大学の間で交わされた[GX、D&I、AI研究の推進に
 
 ## 資料
 
-- 資料は当日までに、動画は後日、本ページにアップロード予定。
+- 資料は当日までに，動画は後日，本ページにアップロード予定．
 
-- 質問はこちらの[**Slido**](https://app.sli.do/event/ig9R1n6FPpnuPoQrDtyje8)または [https://sli.do/](https://sli.do/) より code = `utokyo-azure20250221`へ投稿してください。事前質問も受け付けます。
+- 質問はこちらの[**Slido**](https://app.sli.do/event/ig9R1n6FPpnuPoQrDtyje8)または [https://sli.do/](https://sli.do/) より code = `utokyo-azure20250221`へ投稿してください．事前質問も受け付けます．
 
 
 
 ## 参加申込
-Zoomの[**UTokyo Azure利用説明会 登録ページ**](https://u-tokyo-ac-jp.zoom.us/meeting/register/NsntDBBiSUecESy1vR58bw)よりお申し込みください。
+Zoomの[**UTokyo Azure利用説明会 登録ページ**](https://u-tokyo-ac-jp.zoom.us/meeting/register/NsntDBBiSUecESy1vR58bw)よりお申し込みください．
 
 ## 事後アンケート
-[アンケートページ](https://forms.gle/sfL7LCxX3EwY86rP6)からご回答ください。Zoom退出時に同じアンケートが表示されます。
+[アンケートページ](https://forms.gle/sfL7LCxX3EwY86rP6)からご回答ください．Zoom退出時に同じアンケートが表示されます．
 ※東京大学ECCSクラウドメールユーザ限定
