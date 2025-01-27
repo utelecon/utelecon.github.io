@@ -22,6 +22,10 @@ const topUrl = {
   ja: "/",
   en: "/en/",
 };
+const xUrl = {
+  ja: "https://twitter.com/utelecon_pr?ref_src=twsrc%5Etfw",
+  en: "https://twitter.com/utelecon_pr_en?ref_src=twsrc%5Etfw",
+};
 ---
 
 {
@@ -46,6 +50,7 @@ const topUrl = {
       />
     </a>
     <a class="logo-utelecon" href={topUrl[lang]}>{localization.title[lang]}</a>
+    <a href={xUrl[lang]} class="twitter-follow-button" data-size="large" data-show-screen-name="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <Navigation lang={lang} />
   </div>
 </footer>
