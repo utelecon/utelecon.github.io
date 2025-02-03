@@ -13,6 +13,12 @@
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
 -
+  date: 2025-02-3
+  content:
+    ja: "[UTokyo Account 認証基盤のバージョンアップについて](/notice/2025/0222-utokyo-account/)"
+    en: "[Notice of UTokyo Account Authentication Infrastructure Versionup](/en/notice/2025/0222-utokyo-account/)"
+  important: true
+-
   date: 2025-01-31
   content:
     ja: "東京大学の情報システムとそのサポート体制について説明する資料[「大学生活に必要な情報システムの準備について（学生向け）」 (PDF)](/notice/2025/getting_ready_for_ICT_systems_students_2025s.pdf)と[「東京大学における情報システムの準備について（教員向け）」 (PDF)](/notice/2025/getting_ready_for_ICT_systems_faculty_members_2025s.pdf)の2025年度Sセメスター版を公開しました．"
