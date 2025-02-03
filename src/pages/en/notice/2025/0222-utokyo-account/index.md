@@ -23,4 +23,4 @@ We are pleased to announce that we will be upgrading the authentication infrastr
 - Note: After noon on February 23, you may be asked to re-sign in to the UTokyo Account for some services. 
 
 ## Contacts
-Division for Information and Communication systems : dics-senryaku.adm@gs.mail.u-tokyo.ac.jp  
+Division for Information and Communication Systems : dics-senryaku.adm@gs.mail.u-tokyo.ac.jp  
