@@ -13,7 +13,7 @@
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
 -
-  date: 2025-02-3
+  date: 2025-02-03
   content:
     ja: "[UTokyo Account 認証基盤のバージョンアップについて](/notice/2025/0222-utokyo-account/)"
     en: "[Notice of UTokyo Account Authentication Infrastructure Versionup](/en/notice/2025/0222-utokyo-account/)"
