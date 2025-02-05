@@ -7,11 +7,11 @@ const tableDiv = document.getElementById('table-div');
 const tableBody = document.getElementById('table-body-div');
 
 function welcomeUser(username) {
-    signInButton.classList.add('d-none');
-    signOutButton.classList.remove('d-none');
-    titleDiv.classList.add('d-none');
-    welcomeDiv.classList.remove('d-none');
-    welcomeDiv.innerHTML = `Welcome ${username}!`;
+//    signInButton.classList.add('d-none');
+//    signOutButton.classList.remove('d-none');
+//    titleDiv.classList.add('d-none');
+//    welcomeDiv.classList.remove('d-none');
+//    welcomeDiv.innerHTML = `Welcome ${username}!`;
     window.location = 'https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/initial/';
 };
 
