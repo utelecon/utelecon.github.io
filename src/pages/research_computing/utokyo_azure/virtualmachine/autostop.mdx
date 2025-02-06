@@ -84,64 +84,6 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 ![](img/04_autostop4.png){:.center.border}
 
-### Runbookの作成
-
-<div class="box">
-初めから２つの Runbook がありますが，Azureが用意する Runbook 例なのでここでは使いません．
-</div>
-
-- `概要`に戻り，画面中央にある`Runbookの作成`をクリックし，`基本`パートを以下の通り設定します．
-  - **Runbook**：ここでは`新規作成`します．
-  - **名前**：自由に命名してください．ここでは`vmstop`とします．
-  - **Runbookの種類**：どのように Runbook を構成するかを選択します．ここでは`PowerShell`を選択します．
-  - **ランタイム環境**：`既存から選択する`をクリックすると別ページが表示されるので，ここでは`PowerShell-7.2`を`選択`します．
-  - **説明**：必要に応じて説明を記入ください．
-- `タグ`パートは設定しません．
-- `確認及び作成`パートで内容に問題なければ，`作成`をクリックします．
-
-![](img/05_autostop5.png){:.center.border}
-
-- 一度Azureポータルの初期画面に戻るので，改めて Runbook に移動します．
-  - 見当たらない場合，リソースグループの中にあります．
-
-![](img/06_autostop6.png){:.center.border}
-
-- 画面上部にある`編集`をクリックし，`ポータルで編集`を選択します．
-- 編集画面に遷移するので，以下のコードを入力します．
-  - `your_resource_group_name`の部分は，リソースグループ名（この例では`testmachine-resource-group`）に置き換えてください．
-  - `your_vm_name`の部分は，リソース名（この例では`testmachine`）に置き換えてください．
-
-```
-# Authenticate to Azure using Managed Identity
-Connect-AzAccount -Identity
-
-# Variables
-$resourceGroupName = "your_resource_group_name"
-$vmName = "your_vm_name"
-
-# Shutdown the virtual machine
-Stop-AzVM -ResourceGroupName $resourceGroupName -Name $vmName -Force
-
-Write-Output "Virtual machine $vmName in resource group $resourceGroupName has been shut down."
-```
-
-- 最後に画面上部にある`保存` > `公開`と順にクリックしてください．
-
-<div class="box">
-先に`テストウィンドウ`を実行すると実際にシャットダウンできるかどうかテストができます．対象の仮想マシンがシャットダウンされますので，停止してもいい状態であることを確認してから実施してください．
-</div>
-
-![](img/07_autostop7.png){:.center.border}
-
-- **状態**が`発行済み`になっていれば，自動化は準備完了です．
-  - **新規**や**編集中**になっている場合は`最新の情報に更新`を行ってみてください．
-
-![](img/08_autostop8.png){:.center.border}
-
-<div class="box">
-Runbook の編集画面に入った場合は，編集終了後は必ず`公開`をクリックして状態を`発行済み`にしてください．編集画面に入ると公開をクリックするまで状態が`編集中`となり機能しません．編集せずそのまま抜けたい場合も同様です．
-</div>
-
 ## ２.監視の構成（Azure Monitor）
 
 ### アラートの作成
@@ -190,10 +132,10 @@ Runbook の編集画面に入った場合は，編集終了後は必ず`公開`�
 
   - `アクション`パート
     - **アクションタイプ、名前**：`Automation Runbook`を選択してください．画面右側に設定項目が表示されるので，以下の通り設定します．名前は自由に設定ください．
-      - **Runbookソース**：`ユーザー`を選択します．
+      - **Runbookソース**：`ビルトイン`を選択します．
+      - **Runbook**：`StopVM`を選択して下さい．
       - **サブスクリプション**：項目が追加されるので，Runbook を作成した Automation アカウントを作成したサブスクリプションを選択してください．
       - **Automation アカウント**：項目が追加されるので，Runbook を作成した Automation アカウントを選択してください．
-      - **Runbook**：作成した Runbook を選択してください．
     
  ![](img/13_autostop13.png){:.center.border}
 
