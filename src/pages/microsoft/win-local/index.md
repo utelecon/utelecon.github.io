@@ -22,14 +22,14 @@ UTokyo Account は組織の Microsoft アカウントですが、 3. の方法�
 
 1. パソコンの電源をいれます。このとき、**有線 LAN には接続しないでください**。
 1. パソコンが起動し、セットアップ画面になります。この画面のまま、 **Shift キーを押しながら F10 キー**を押下します。
-   ![step2](step2.webp)
+   ![step2](step2.webp){:.medium}
 1. すると、黒いウィンドウ（コマンドプロンプト）が開きます。黒いウィンドウを一度クリックし、「`oobe¥BypassNRO.cmd`」と入力、 Enter キーを押下します。再起動します。
    ![step3-1](step3-1.webp)
-   ![step3-2](step3-2.webp)
+   ![step3-2](step3-2.webp){:.medium}
 1. 再起動後、もう一度セットアップ画面が開きます。指示に従いセットアップを進めます。ただし、**ネットワークのセットアップはしない**でください。
-   ![step2](step2.webp)
-   ![step4-2](step4-2.webp)
-   ![step4-3](step4-3.webp)
+   ![step2](step2.webp){:.medium}
+   ![step4-2](step4-2.webp){:.medium}
+   ![step4-3](step4-3.webp){:.medium}
 1. ネットワークのセットアップ画面で、ネットワークに接続せずに「**インターネットに接続していません**」を選択します。
    ※ ネットワークにはセットアップ後に接続可能です。
     <details>
@@ -40,21 +40,21 @@ UTokyo Account は組織の Microsoft アカウントですが、 3. の方法�
 
    ![step5](step5.webp)
 1. ここで再度ネットワークに接続するか問われた場合には、「**制限された設定で続行**」を選択します。
-   ![step6](step6.webp)
+   ![step6](step6.webp){:.medium}
 1. すると今回作成するローカルアカウントのユーザー名の入力を求められます。好きなユーザー名を入力してください。
-   ![step7](step7.webp)
+   ![step7](step7.webp){:.medium}
 1. パスワードを設定します。起動時などに、このパソコンにサインインする際に使用するパスワードです。
-   ![step8-1](step8-1.webp)
-   ![step8-2](step8-2.webp)
+   ![step8-1](step8-1.webp){:.medium}
+   ![step8-2](step8-2.webp){:.medium}
 1. このパスワードを忘れるとサインインできなくなってしまいます。その際に復旧するための秘密の質問を 3つ設定します。
-   ![step9](step9.webp)
+   ![step9](step9.webp){:.medium}
 1. プライバシー設定の選択をします。お好みで選択してください。
-   ![step10](step10.webp)
+   ![step10](step10.webp){:.medium}
 1. 挨拶をされたり、あと少しで終了する旨表示されたりしますが、待ちます。
-   ![step11-1](step11-1.webp)
-   ![step11-2](step11-2.webp)
+   ![step11-1](step11-1.webp){:.medium}
+   ![step11-2](step11-2.webp){:.medium}
 1. 下記画面が表示されましたら、ローカルアカウントを作成したセットアップはこれで完了です。
-   ![step12](step12.webp)
+   ![step12](step12.webp){:.medium}
 1. ネットワークの設定、 Windows Update を行います。
 1. 適宜 Office アプリのセットアップ、 OneDrive アプリへのサインイン等を行います。
 
