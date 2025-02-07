@@ -46,7 +46,7 @@ UTokyo Account は組織の Microsoft アカウントですが、 3. の方法�
 1. パスワードを設定します。起動時などに、このパソコンにサインインする際に使用するパスワードです。
    ![step8-1](step8-1.webp){:.medium}
    ![step8-2](step8-2.webp){:.medium}
-1. このパスワードを忘れるとサインインできなくなってしまいます。その際に復旧するための秘密の質問を 3つ設定します。
+1. このパスワードを忘れるとサインインできなくなってしまいます。パスワードを忘れた際に復旧するための秘密の質問を 3つ求められるので、設定します。
    ![step9](step9.webp){:.medium}
 1. プライバシー設定の選択をします。お好みで選択してください。
    ![step10](step10.webp){:.medium}
@@ -57,6 +57,15 @@ UTokyo Account は組織の Microsoft アカウントですが、 3. の方法�
    ![step12](step12.webp){:.medium}
 1. ネットワークの設定、 Windows Update を行います。
 1. 適宜 Office アプリのセットアップ、 OneDrive アプリへのサインイン等を行います。
+
+### セットアップ終了後の参考ページ
+- ネットワークとして UTokyo Wi-Fi に接続する場合、こちらのページをご参照ください。
+   **[UTokyo Wi-Fi](/utokyo_wifi/)**{:.box.center}
+- Windows Update については、こちらの Microsoft サポートのページをご参照ください。
+   **[Windows Updatesをインストールする (Microsoft サポート)](https://support.microsoft.com/ja-jp/windows/windows-%E3%81%AE%E6%9B%B4%E6%96%B0-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a)**{:.box.center}
+- 東京大学の提供する Microsoft ライセンス (UTokyo Microsoft License) を用いて Office アプリのインストールが可能です。
+   **[UTokyo Microsoft License](/microsoft/)**{:.box.center}
+
 
 ## FAQ
 {:#FAQ}
@@ -78,7 +87,7 @@ Microsoft 365 Personal を契約しているなど、主として**個人の** M
 もちろん、ローカルアカウントを作成しセットアップを行っても、個人の Microsoft アカウントが使用できないわけではありません。
 適宜、個人の Microsoft アカウントや UTokyo Account を用いて OneDrive や Office アプリを使用することが可能です。
 
-### BitLocker 回復キーはクラウドバックアップできるか
+### BitLocker 回復キーをクラウドバックアップできるか
 {:#bitlocker}
 
 ローカルアカウントでのセットアップ後に、 UTokyo Account に適切にサインインすることで UTokyo Account を利用した BitLocker 回復キーのバックアップが可能です。
