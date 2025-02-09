@@ -27,7 +27,7 @@ title: 動画を作成・共有する
 * iMovie（Mac）
   * Mac に標準で備わっている動画編集ソフトウェアです．
   * 初心者でも編集しやすいため，凝った編集をしない場合はこちらのソフトウェアがおすすめです
-  * [使い方（外部サイト）](https://www.pasoble.jp/windows/10/douga-hensyuu.html)
+  * [使い方（外部サイト）](https://www.pc-koubou.jp/magazine/76741)
 * Photo（Windows）
   * Windows に標準で備わっている動画編集ソフトウェアです（Photo という名前ですが動画も編集できます）．
   * [使い方（外部サイト）](https://www.pasoble.jp/windows/10/douga-hensyuu.html)
