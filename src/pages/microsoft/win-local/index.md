@@ -56,15 +56,10 @@ UTokyo Account は組織の Microsoft アカウントですが、 3. の方法�
 1. 下記画面が表示されましたら、ローカルアカウントを作成したセットアップはこれで完了です。
    ![step12](step12.webp){:.medium}
 1. ネットワークの設定、 Windows Update を行います。
-1. 適宜 Office アプリのセットアップ、 OneDrive アプリへのサインイン等を行います。
-
-### セットアップ終了後の参考ページ
-- ネットワークとして UTokyo Wi-Fi に接続する場合、こちらのページをご参照ください。
-   **[UTokyo Wi-Fi](/utokyo_wifi/)**{:.box.center}
-- Windows Update については、こちらの Microsoft サポートのページをご参照ください。
+   **[UTokyo Wi-Fi (学内無線 LAN)](/utokyo_wifi/)**{:.box.center}
    **[Windows Updatesをインストールする (Microsoft サポート)](https://support.microsoft.com/ja-jp/windows/windows-%E3%81%AE%E6%9B%B4%E6%96%B0-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a)**{:.box.center}
-- 東京大学の提供する Microsoft ライセンス (UTokyo Microsoft License) を用いて Office アプリのインストールが可能です。
-   **[UTokyo Microsoft License](/microsoft/)**{:.box.center}
+1. 適宜 Office アプリのセットアップ、 OneDrive アプリへのサインイン等を行います。
+   **[UTokyo Microsoft License (Office アプリ、OneDrive)](/microsoft/)**{:.box.center}
 
 
 ## FAQ
