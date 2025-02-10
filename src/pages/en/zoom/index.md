@@ -6,14 +6,14 @@ breadcrumb:
 
 ## Introduction
 
-Zoom is the most frequently used web conference system for online classes at UTokyo. Zoom can be used by either accessing the Zoom website or by installing the Zoom application. However, please note that some functions are not available on the website version.
+Zoom is the most widely used web conferencing system at the University of Tokyo.
 
 ### UTokyo Zoom Account and License
 {:#license}
 
 - To sign in to Zoom with UTokyo Zoom accounts, please refer to the [“Sign-in Methods for Zoom”](zoom_signin) page. With your UTokyo Zoom account, you can hold meetings with a maximum capacity of 300 participants and a duration of 30 hours.
-  - Please note that the sign-in method has been changed from March 2021 (all users need to sign in using their UTokyo Account). For further details, please refer to the [“System Change for Spring 2021”](/en/change2021s) page.
-- To hold meetings for a capacity of more than 300 participants, a limited number of licenses for large Zoom meetings and Webinars are offered. To use the license, please submit an application. For further details, please access the [“Zoom License for Large Meetings/Webinars”](license) page. 
+  - When using your UTokyo Zoom account, please also refer to ["Precautions for using external services managed and operated by Division for Information and Communication Systems"](/en/docs/dics-terms). You may use your UTokyo Zoom account for your own voluntary activities as a member of the University of Tokyo, including study groups and research groups that you organize or participate in.
+- To hold meetings for a capacity of more than 300 participants, a limited number of licenses for large Zoom meetings and Webinars are offered. To use the license, please submit an application. For further details, please access the [“Zoom License for Large Meetings/Webinars”](license) page.
 
 ## Basic usage for participants
 {:#join}
