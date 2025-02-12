@@ -107,7 +107,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
     .toLowerCase()
     .substring(0, 2);
 
-  if (browserLang == pageLang) {
+  if (browserLang == pageLang || (pageLang == "en" && browserLang != "ja")) {
     const changeLangNavigation = document.getElementById("changeLangNavigation");
     changeLangNavigation.style.display = "none";
   }
@@ -197,9 +197,6 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
     .hamburger-contents {
       background-color: $header-nav-bg-color;
     }
-    #changeLangNavigation {
-      background-color: $header-nav-bg-color-dark;
-    }
   }
 
   .hamburger-button {
@@ -287,25 +284,26 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
 
   #changeLangNavigation {
     text-align: center;
+    background-color: $header-nav-bg-color;
     color: white;
     a {
       display: inline-block;
       width: 100%;
-      ::after {
-        content: "double_arrow";
+      &::after {
+        content: "keyboard_double_arrow_right";
         font-family: "Material Icons";
+        font-weight: 200;
+        vertical-align: middle;
       }
     }
   }
   #changeLangLink {
     display: inline-block;
+    background-color: $header-nav-bg-color;
     font-weight: bold;
     border: 1px solid white;
-    padding: 0.2rem 0.5rem;
+    padding: 0.25rem 0.5rem;
     margin: 0 1em;
-    :hover {
-      text-decoration: none;
-    }
   }
 
   @media print {
