@@ -94,6 +94,15 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
 
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">定期的に仮想マシンをシャットダウンさせたい場合</Fragment>
+  <Fragment slot="solution">毎日定期であれば，**管理**パートの`自動シャットダウン`に条件を入力して下さい．もう少し複雑な操作（平日だけや自動起動も行わせる等）をさせたい場合は，**監視**サービスを利用してください．</Fragment>
+</HelpItem>
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">一定時間利用をしなかった場合に自動でシャットダウンさせたい場合</Fragment>
+  <Fragment slot="solution">[CPU使用率が一定時間に一定値以下だった場合の構成例](/research_computing/utokyo_azure/virtualmachine/autostop)を参照ください．</Fragment>
+</HelpItem>
+
 ### 確認及び作成パート
 {:#execute}
 
