@@ -81,7 +81,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
     </div>
     <Navigation lang={lang} />
   </div>
-  <div class="change-lang-mobile">
+  <div id="changeLangNavigation">
     <a href={theOtherLangUrl}>{localization.theOtherLangNavigation}</a>
   </div>
 </header>
@@ -93,6 +93,24 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   button.addEventListener("click", () => {
     header.classList.toggle("header--hamburger-open");
   });
+
+  // ブラウザの言語設定とページの言語が一致する場合は言語ナビゲーションを表示しない
+  const browserLang = (
+    (navigator.languages && navigator.languages[0]) ||
+    navigator.language ||
+    navigator.userLanguage
+  )
+    .toLowerCase()
+    .substring(0, 2);
+
+  const pageLang = (document.documentElement.lang || "")
+    .toLowerCase()
+    .substring(0, 2);
+
+  if (browserLang == pageLang) {
+    const changeLangNavigation = document.getElementById("changeLangNavigation");
+    changeLangNavigation.style.display = "none";
+  }
 </script>
 
 <style lang="scss">
@@ -118,7 +136,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   .hamburger-contents {
     display: contents;
   }
-  .change-lang-mobile {
+  #changeLangNavigation {
     display: none;
   }
   @media (max-width: $header-hamburger-breakpoint) {
@@ -150,7 +168,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
         overflow-y: scroll;
       }
     }
-    .change-lang-mobile {
+    #changeLangNavigation {
       display: block;
     }
   }
@@ -179,7 +197,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
     .hamburger-contents {
       background-color: $header-nav-bg-color;
     }
-    .change-lang-mobile {
+    #changeLangNavigation {
       background-color: $header-nav-bg-color-dark;
     }
   }
@@ -267,7 +285,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
     }
   }
 
-  .change-lang-mobile {
+  #changeLangNavigation {
     text-align: center;
     color: white;
     a {
