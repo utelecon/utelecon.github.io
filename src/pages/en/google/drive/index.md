@@ -13,7 +13,7 @@ redirect_from:
 
 ### Using Google Drive with a university account.
 
-At the University of Tokyo, Google's "Google Workspace" is provided as "**[ECCS Cloud Email](/google/)**". Since Google Drive is a part of this suite, members of the University of Tokyo can use Google Drive with their ECCS Cloud Email accounts.
+At the University of Tokyo, Google's "Google Workspace" is provided as "**[ECCS Cloud Email](/en/google/)**". Since Google Drive is a part of this suite, members of the University of Tokyo can use Google Drive with their ECCS Cloud Email accounts.
 
 ECCS Cloud Email is provided through an organizational contract, so it has differences from personal Google accounts.
 
@@ -38,24 +38,24 @@ Please access Google Drive through the following link.
 
 **[Google Drive](https://drive.google.com/drive/)**{:.box.center}
 
-When accessing Google Drive, if you are not logged in, you will be prompted to do so. Please refer to the "[Initial Setup Procedures](/google/#initial-setup)" section on the ECCS Cloud Email page for login instructions.
+When accessing Google Drive, if you are not logged in, you will be prompted to do so. Please refer to the "[Initial Setup Procedures](/en/google/#initial-setup)" section on the ECCS Cloud Email page for login instructions.
 
 ### Creating, Editing, Uploading, and Downloading Files
 
 For instructions on how to create, edit, upload, and download files, please refer to the following page.
 
-**[Basic Usage of Google Drive (in Japanese)](basic)**{:.box.center}
+**[Basic Usage of Google Drive (in Japanese)](/google/basic)**{:.box.center}
 
 ### Sharing Files
 
 For instructions on how to share files on Google Drive, please refer to the following page.
 
-**[Sharing Files on Google Drive (in Japanese)](share)**{:.box.center}
+**[Sharing Files on Google Drive (in Japanese)](/google/share)**{:.box.center}
 
 In addition, the following page explains the recommended settings for sharing files on Google Drive for each use case. Please refer to it as well.
 
 **[Recommended Settings for Sharing Files on Google Drive (in Japanese)
-](recommendation)**{:.box.center}
+](google/recommendation)**{:.box.center}
 
 ## Others
 
@@ -74,4 +74,4 @@ However, they are not fully compatible. Viewing and editing Microsoft Office for
 
 ### About Apps and Using Offline
 
-The page titled "[About Google Drive Apps and Using Offline (in Japanese)](app_and_offline)" explains about the Google Drive app, as well as the features for using Google Drive files offline.
+The page titled "[About Google Drive Apps and Using Offline (in Japanese)](google/app_and_offline)" explains about the Google Drive app, as well as the features for using Google Drive files offline.
