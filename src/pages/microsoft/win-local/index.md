@@ -84,20 +84,6 @@ Windows では，パソコンセットアップ時のユーザーアカウント
 
 もちろん，ローカルアカウントを作成しセットアップを行っても，個人の Microsoft アカウントが使用できないわけではありません．適宜，個人の Microsoft アカウントや UTokyo Account を用いて OneDrive や Office アプリを使用することが可能です．
 
-### BitLocker 回復キーをクラウドバックアップできるか
-{:#bitlocker}
-
-ローカルアカウントでのセットアップ後に， UTokyo Account に適切にサインインすることで UTokyo Account を利用した [BitLocker](https://learn.microsoft.com/ja-jp/windows/security/operating-system-security/data-protection/bitlocker/) [回復キー](https://learn.microsoft.com/ja-jp/windows/security/operating-system-security/data-protection/bitlocker/recovery-overview)のバックアップが可能です．
-
-1. パソコンで Office アプリ等にサインインしてください．
-1. サインイン直後に表示されるウィンドウで，組織がこのデバイスを管理できるようにしますか？のチェックボックスを**オフ**にしてください．
-   - ※ オンにしてしまうと様々な制約がかかってしまい，かつ**元に戻すには初期化等が必要です**．特に注意してください．
-1. そのまま OK を押してください．
-   - 「いいえ，このアプリのみにサインインします」を選択すると BitLocker 回復キーは**バックアップされません**．
-1. UTokyo Account がパソコンに接続されます． BitLocker 回復キーがバックアップされます．
-
-BitLocker 回復キーを Microsoft アカウントに保存する代わりに， [USB メモリなどの外部ストレージにバックアップする](https://support.microsoft.com/ja-jp/windows/e63607b4-77fb-4ad3-8022-d6dc428fbd0d)ことも可能です．
-
 ### 個人で専有しない，共用のパソコンでも同じ手順でよいか
 {:#shared-pc}
 
