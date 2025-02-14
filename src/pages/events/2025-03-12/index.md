@@ -22,20 +22,20 @@ Sセメスターの開始にあたり，東京大学で利用されている情�
 説明会の資料・動画はこのページで提供しています．
 
 ## 内容
-- 説明会の趣旨と全体像（[資料](../slides/00_index.pdf)・[動画]()）
-- Part I：東京大学における情報システムの基礎（[資料](../slides/01_basics.pdf)・[動画]()）
+- 説明会の趣旨と全体像（[資料]()・[動画]()）
+- Part I：東京大学における情報システムの基礎（[資料]()・[動画]()）
   - UTokyo Account
   - 初期設定と多要素認証
   - 情報セキュリティ教育
   - UTokyo Wi-Fi
-- Part II：利用可能なコミュニケーションツールとクラウドサービス（[資料](../slides/02_available_tools.pdf)・[動画]()）
+- Part II：利用可能なコミュニケーションツールとクラウドサービス（[資料]()・[動画]()）
   - Zoom とオンライン会議のためのツール
   - UTokyo Slack
   - ECCS クラウドメール (Google Workspace)
   - UTokyo Microsoft License
   - 生成AI
   - サポート体制
-- Part III：教育活動に利用する情報システム – UTAS と UTOL（[資料](../slides/03_utas_utol.pdf)・[動画]()）
+- Part III：教育活動に利用する情報システム – UTAS と UTOL（[資料]()・[動画]()）
   - UTAS
   - UTOL
 - 質疑応答（終了後も質問を受け付けます）
