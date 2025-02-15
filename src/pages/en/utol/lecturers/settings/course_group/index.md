@@ -8,7 +8,7 @@ Courses created automatically on UTOL are registered based on the timetable code
 
 In these cases, you can use the course group function to manage your course materials, tests, notifications, all together. By using the course group function to set up a "course group" that links multiple courses to a single "primary course", you can display the contents of the primary course regardless of which course in the group you are registered to or viewing.
 
-![コースグループ機能のイメージ](./explain.png)
+![コースグループ機能のイメージ](./explain.drawio.png)
 
 If you create a combined course (multiple sign-up course) on UTAS before creating a course on UTOL, a course group will be set up automatically.
 
@@ -50,5 +50,5 @@ Please note the following when you dissolve a course group.
     ![「コースグループ解除」を押す](./menu2.png)
 4. On the "Release Course group" screen, select the course group you wish to dissolve and click on the "Confirm" button to proceed .
     ![解除するコースグループを選択](./unreg.png)
-5.  A dialog box will appear saying, "The data submitted by users enrolled in the targeted  course will no longer be available for reference. Please note that once you release it, you will  not be able to restore it".  Please click "Release".
-6.  A confirmation screen will appear.  Please click "Release".
+5. A dialog box will appear saying, "The data submitted by users enrolled in the targeted  course will no longer be available for reference. Please note that once you release it, you will  not be able to restore it".  Please click "Release".
+6. A confirmation screen will appear.  Please click "Release".
