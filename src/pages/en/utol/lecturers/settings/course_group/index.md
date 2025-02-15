@@ -22,7 +22,7 @@ Before setting up a course group, you must delete all the contents from the cour
 2. Click on ![≡](../../../_icons/hamburger.png){:.icon} at the top left of the screen.
 3. Expand the "Course Content >" menu on the left and click on "Delete All Contents".
     ![「全コンテンツ削除」を押す](./remove.png)
-4. A dialog box will appear asking, "Are you sure you want to delete all contents? *Once deleted, it cannot be restored". Please click "Delete".
+4. A dialog box will appear asking, "Are you sure you wish to delete all contens? Once you delete, they will not be able to be restored." Please click "Delete".
 
 ### Procedure 2: Registering a course group
 
@@ -48,7 +48,8 @@ Please note the following when you dissolve a course group.
 2. Click on  at the top left of the screen.
 3. Expand the "Course group >" menu on the left and click on "Release course group".
     ![「コースグループ解除」を押す](./menu2.png)
-4. On the "Release Course group" screen, select the course group you wish to dissolve and click on the "Confirm" button to proceed .
+4. On the "Release Course group" screen, select the course group you wish to dissolve and click on the "Confirm" button to proceed.
     ![解除するコースグループを選択](./unreg.png)
-5. A dialog box will appear saying, "The data submitted by users enrolled in the targeted  course will no longer be available for reference. Please note that once you release it, you will  not be able to restore it".  Please click "Release".
+5. A dialog box will appear saying, "Is it correct that I will not be able to see the submitted data of users who are enrolled in the course to be deactivated?
+*Once deactivated, it cannot be restored." Please click "Release".
 6. A confirmation screen will appear.  Please click "Release".
