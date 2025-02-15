@@ -31,31 +31,51 @@ breadcrumb:
 ### ライブ配信の有効化⼿順
 
 1. クラウドメールアカウントでYouTubeにログイン
+    ![](./home.png){:.small}
 2. 右上のカメラアイコンをクリック
     * YouTubeチャネルの作成を⾏います．
+
+    ![](./create-channel.drawio.png){:.small}
 3. 「始める」をクリック
+    ![](./create-channel-start.drawio.png){:.small}
 4. 「チャネル名」を設定
+    ![](./create-channel-name.drawio.png){:.small}
 5. 詳細情報の⼊⼒
     * 「SET UP LATER」をクリックして先に進みます．
     * これでチャネルの作成が完了します．
+
+    ![](./create-channel-detail.drawio.png){:.small}
 6. ホーム画⾯から再度カメラアイコンをクリック
+    ![](./home-camera.drawio.png){:.small}
 7. 選択肢から「ライブ配信を開始」をクリック
+    ![](./start-live-1.drawio.png){:.small}
 8. アカウントの確認⽅法を選択
     * 電話⾳声もしくはSMSによる通知の好きな⽅を選択します．
+
+    ![](./verify-account-1.drawio.png){:.small}
 9. 電話番号を⼊⼒
+    ![](./verify-account-2.drawio.png){:.small}
 10. 受け取った６桁のコードを⼊⼒
+    ![](./verify-account-3.drawio.png){:.small}
 11. アカウントの確認が成功
+    ![](./verify-account-4.drawio.png){:.small}
 12. 再度トップページから「ライブ配信の開始」を選択
+    ![](./start-live-2.drawio.png){:.small}
 13. ライブ配信が有効化されるまで待つ
     * 前ページまでの⼿続きから有効化されるまで24時間程度かかります．
+
+    ![](./live-wait.png){:.small}
 
 ### ライブ配信の開始
 
 \* ライブ配信の有効化が完了した後に実施
 
 1. トップページから「ライブ配信の開始」を選択
+    ![](./start-live-2.drawio.png){:.small}
 2. ライブ配信の情報を順次⼊⼒
     * 配信タイトルを⼊⼒します
+
+    ![](./live-name.drawio.png){:.small}
 3. 公開種別の選択
     * 「公開」「限定公開」「⾮公開」から適切なものを選択してください．
     * 「公開」にするとYouTubeで⼀般に公開されて配信されますのでご注意ください．
@@ -63,21 +83,35 @@ breadcrumb:
 
     \* 以後は「限定公開」を想定し説明します．
 
+    ![](./live-public.drawio.png){:.small}
+
 4. 視聴対象年齢と配信
+    ![](./live-age.drawio.png){:.small}
 5. 「カメラ」「マイク」を選択
     * 内臓カメラ・マイク以外にもUSBカメラ・マイクも選択できます．
+
+    ![](./live-camera.drawio.png){:.small}
 6. チャット許可・不可の選択
     * 詳細設定には視聴者からのチャットを許可するか否かの項⽬があります．
     * 初期状態は許可になっていますので，必要に応じて不可にしてください．
     * 前の画⾯に戻り「次へ」をクリックします．
+
+    ![](./live-chat.drawio.png){:.small}
 7. カメラ画像・設定を確認しライブ配信を開始
+    ![](./live-start.drawio.png){:.small}
 8. 配信画⾯
     * 配信が開始され映像が表⽰されます．
     * 「限定公開」⽤のURLは画⾯下部の⽮印をクリックして表⽰できます．
+
+    ![](./live.drawio.png){:.small}
 9. 限定公開URLの確認
     * URLをコピーし視聴して欲しい⼈にメール等で共有してください．
+
+    ![](./share-url.drawio.png){:.small}
 10. 配信終了
     * 配信画⾯下部の「ライブ配信を終了」をクリックします．
+
+    ![](./live-end.drawio.png){:.small}
 
 ## 参考ページ
 
