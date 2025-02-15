@@ -44,18 +44,18 @@ When accessing Google Drive, if you are not logged in, you will be prompted to d
 
 For instructions on how to create, edit, upload, and download files, please refer to the following page.
 
-**[Basic Usage of Google Drive (in Japanese)](/drive/basic/)**{:.box.center}
+**[Basic Usage of Google Drive (in Japanese)](/google/drive/basic/)**{:.box.center}
 
 ### Sharing Files
 
 For instructions on how to share files on Google Drive, please refer to the following page.
 
-**[Sharing Files on Google Drive (in Japanese)](/drive/share/)**{:.box.center}
+**[Sharing Files on Google Drive (in Japanese)](/google/drive/share/)**{:.box.center}
 
 In addition, the following page explains the recommended settings for sharing files on Google Drive for each use case. Please refer to it as well.
 
 **[Recommended Settings for Sharing Files on Google Drive (in Japanese)
-](drive/recommendation/)**{:.box.center}
+](/google/drive/recommendation/)**{:.box.center}
 
 ## Others
 
@@ -74,4 +74,4 @@ However, they are not fully compatible. Viewing and editing Microsoft Office for
 
 ### About Apps and Using Offline
 
-The page titled "[About Google Drive Apps and Using Offline (in Japanese)](drive/app_and_offline/)" explains about the Google Drive app, as well as the features for using Google Drive files offline.
+The page titled "[About Google Drive Apps and Using Offline (in Japanese)](/google/drive/app_and_offline/)" explains about the Google Drive app, as well as the features for using Google Drive files offline.
