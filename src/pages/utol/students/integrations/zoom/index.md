@@ -2,6 +2,8 @@
 title: LTI連携機能でUTOLからのZoomミーティングを利用する
 breadcrumb:
   title: Zoom
+redirect_from:
+  - /utol/students/lti/zoom/
 ---
 
 ## 概要
