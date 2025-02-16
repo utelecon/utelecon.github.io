@@ -120,4 +120,3 @@ YouTubeチャンネルを作成してからライブ配信ができるように�
 
 * ライブ配信：<https://support.google.com/youtube/answer/2474026?hl=ja>
 * エンコーダでライブ配信を作成する：<https://support.google.com/youtube/answer/9227510>
-* ライブ配信エンコーダの設定：<https://support.google.com/youtube/answer/2907883?hl=ja>
