@@ -27,18 +27,18 @@ UTOL の Slack 連携機能を用いると，UTOL 上のコースの担当教員
 6. 「確認画面に進む」\>「登録する」ボタンをクリックしてください．コースで，UTokyo Slack をLTI連携で利用可能となります．  
 7. コーストップ画面に戻ったら「外部連携」の欄にある「Slack」をクリックして下さい．
 
-    ![][image1]
+    ![](./integration.png)
 
 8. "Create Slack Workspace" の画面に遷移したら「Create Workspace」ボタンを押してください．Slack ワークスペースが作成され，自分自身はオーナー権限のメンバーとして登録されます．
 
-    ![][image2]
+    ![](./create-workspace.png)
 
 ## 利用
 
 * コーストップ画面の「外部連携」の欄にある「Slack」をクリックして下さい．  
 * 下記の画面が現れたら，Slack アプリもしくはウェブブラウザから Slack を利用してください．
 
-![][image3]
+![](./login.png)
 
 ## 補足・注意事項
 
