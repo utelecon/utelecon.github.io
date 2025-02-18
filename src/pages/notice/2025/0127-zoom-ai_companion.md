@@ -4,7 +4,7 @@ toc: false
 ---
 
 <div style="text-align: right;">
-<span>2025年2月18日</span><br />
+<span>2025年2月19日</span><br />
 <span>情報システム本部</span><br />
 </div>
 
