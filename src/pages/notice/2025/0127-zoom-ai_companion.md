@@ -4,8 +4,8 @@ toc: false
 ---
 
 <div style="text-align: right;">
-<span>2025年1月27日</span><br />
-<span>情報基盤センター</span><br />
+<span>2025年2月18日</span><br />
+<span>情報システム本部</span><br />
 </div>
 
 [東京大学のZoomアカウント](/zoom/)において，Zoomミーティング等における生成AIを活用したアシスタント機能である"Zoom AI Companion"を利用できるようになりました．AI Companionの機能としては，以下のようなものがあります．
