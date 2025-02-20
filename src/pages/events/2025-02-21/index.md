@@ -27,10 +27,10 @@ Microsoftと東京大学の間で交わされた[GX・D&I・AI研究の推進に
 
 | 時間   | 内容   | 話者   | 資料 | 動画 |
 |--------|--------|--------|------|------|
-| 10:00 - 10:15 | UTokyo Azureの概要   | 田浦   | [資料](/slides/1_overview.pdf) | [動画](#) |
-| 10:15 - 10:35  | 利用料金負担の可能性について   | 田浦   | [資料](/slides/2_Possible billing.pdf) | [動画](#) |
-| 10:35 - 10:50  | 利用申請の流れと注意点   | 有馬 | [資料](/slides/3_Application Guidelines.pdf) | [動画](#) |
-| 10:50 - 11:00  | 利用料金発生時の流れ | 有馬 | [資料](/slides/4_Process_when_charges_occur.pdf) | [動画](#) |
+| 10:00 - 10:15 | UTokyo Azureの概要   | 田浦   | [資料](/events/2025-02-21/slides/1_overview.pdf) | [動画](#) |
+| 10:15 - 10:35  | 利用料金負担の可能性について   | 田浦   | [資料](/events/2025-02-21/slides/2_Possible billing.pdf) | [動画](#) |
+| 10:35 - 10:50  | 利用申請の流れと注意点   | 有馬 | [資料](/events/2025-02-21/slides/3_Application Guidelines.pdf) | [動画](#) |
+| 10:50 - 11:00  | 利用料金発生時の流れ | 有馬 | [資料](/events/2025-02-21/slides/4_Process_when_charges_occur.pdf) | [動画](#) |
 | 11:00 - 11:30 | Azureの代表的なサービスの使い方   | 山肩 | [資料](#) | [動画](#) |
 | 11:30 - 12:00 | 質疑応答 | - | [slido](https://app.sli.do/event/ig9R1n6FPpnuPoQrDtyje8) | [動画](#) |
 
