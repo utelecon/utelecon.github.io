@@ -13,6 +13,10 @@
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
 -  
+   date: 2025-02-20
+   content:
+    ja: "[PC端末初期セットアップガイド](src/pages/notice/2025/device_initial_setup_guide.pdf)"    
+-
    date: 2025-02-19
    content:
     ja: "[Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion)"
