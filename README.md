@@ -235,6 +235,7 @@ pattern: "^\/utol\/"
   ---
   ```
 
+## その他のドキュメント (For developers)
 ### ボタン・タブUIを利用したい場合
 
 [多要素認証の初期設定手順](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/initial/)や[サポート窓口](https://utelecon.adm.u-tokyo.ac.jp/support/)のページでは，ボタンとタブを用いたUIが利用されており，ユーザの選択によって表示内容を切り替えたり，ボタンをクリックして別のページに遷移したりすることができます．
@@ -243,4 +244,5 @@ pattern: "^\/utol\/"
 
 ## For developers
 
-`@components`に関するドキュメントが[`src/components/README.md`](src/components/README.md)にあります．
+- `@components`に関するドキュメント：[`src/components/README.md`](src/components/README.md)
+- `@styles`に関するドキュメント：[`src/styles/README.md`](src/styles/README.md)
