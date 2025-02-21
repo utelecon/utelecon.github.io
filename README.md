@@ -235,6 +235,7 @@ pattern: "^\/utol\/"
   ---
   ```
 
-## For developers
+## その他のドキュメント (For developers)
 
-`@components`に関するドキュメントが[`src/components/README.md`](src/components/README.md)にあります．
+- `@components`に関するドキュメント：[`src/components/README.md`](src/components/README.md)
+- `@styles`に関するドキュメント：[`src/styles/README.md`](src/styles/README.md)
