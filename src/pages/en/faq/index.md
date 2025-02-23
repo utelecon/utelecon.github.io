@@ -75,11 +75,11 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 ### Q. What is UTAS?
 UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabus browsing, course registration and grades checking. For faculty members, syllabus registration, grade registration and course enrollment status checking are available via UTAS.
 ### Q. I cannot sign into UTAS. What can I do?
-* Please check if you can sign into <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account User Menu</a> and <a href="https://utol.ecc.u-tokyo.ac.jp/login" target="_blank">UTOL</a>.
+* Please check if you can sign into <a href="https://utacm.adm.u-tokyo.ac.jp/UserMenu/LoginServlet" target="_blank">UTokyo Account User Menu</a> and <a href="https://utol.ecc.u-tokyo.ac.jp/login" target="_blank">UTOL</a>.
 * If you can sign into UTokyo Account User Menu and UTOL but not UTAS:
   * Your UTAS account may not have been issued. Please send your 10-digit common ID to the faculty office to check if your UTAS account has been issued.
 * If you cannot sign into these systems:
-  * Reset your UTokyo Account <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank"> password</a>.
+  * Reset your UTokyo Account <a href="https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com" target="_blank"> password</a>.
 * Reference: [UTAS](/utas)
 
 ### Q. 「[Error] あなたは現在このシステムを利用することができません」is shown and sign-in is unavailable. What can I do?
@@ -98,10 +98,10 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * Reference: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account User Menu</a>
 * Please check that you have entered your <span style="color:green;">”10-digit common ID”</span> as user ID.
 * Note that <span style="color:red;">it is NOT </span> `10-digit ID@utac.u-tokyo.ac.jp`.
-* If an error occurs even when the user ID is entered correctly, you may have entered the wrong password. Reset your password from [this page](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html).
+* If an error occurs even when the user ID is entered correctly, you may have entered the wrong password. Reset your password from [this page]((https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)).
 
 ### Q. An user ID error occurs when I attempt to reset my UTokyo Account password. What can I do?
-* See [this page](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html) and reset your password.
+* See [this page]((https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)) and reset your password.
 * On the Reset Password page, you should enter your 10-digit ID`@utac.u-tokyo.ac.jp`(e.g. `1234567890@utac.u-tokyo.ac.jp`) as your user ID.
  * NOT the 10-digit common ID
 * Watch also this video <a href="https://www.youtube.com/watch?v=Kumu8aPGnyI&feature=youtu.be" target="_blank">this video </a>.
