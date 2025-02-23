@@ -10,6 +10,9 @@
       name: "東京大学における情報システムの準備について<small>（教員向け）</small>"
       url: "/faculty_members/"
     -
+      name: "東京大学における情報システムの準備について<small>（職員向け）</small>"
+      url: "/staff_members/"
+    -
       name: "オンラインを活用するために"
       url: "/online/"
     -
