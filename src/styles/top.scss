@@ -1,10 +1,11 @@
 @import "color";
 @import "components/card.scss";
 
-h1.title {
+.heading {
   font-size: 1.75rem;
   border-left: unset;
   border-bottom: unset;
+  padding-left: unset;
 }
 
 .cards {
