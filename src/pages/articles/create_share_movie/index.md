@@ -26,8 +26,11 @@ title: 動画を作成・共有する
   * [使い方（外部サイト）](https://www.aiseesoft.jp/tutorials/how-to-use-losslesscut.html)
 * iMovie（Mac）
   * Mac に標準で備わっている動画編集ソフトウェアです．
-  * 初心者でも編集しやすいため，凝った編集をしない場合はこちらのソフトウェアがおすすめです
-  * [使い方（外部サイト）](https://www.pasoble.jp/windows/10/douga-hensyuu.html)
+  * 初心者でも編集しやすいため，凝った編集をしない場合はこちらのソフトウェアがおすすめです．
+  * [使い方（外部サイト: パソコン工房 NEXMAG）](https://www.pc-koubou.jp/magazine/76741)
+    * 基本的な操作を解説したページです．
+  * [使い方（外部サイト: Apple サポート）](https://support.apple.com/ja-jp/guide/imovie/welcome/mac)
+    * Apple社公式のユーザガイドです．詳細な使い方を知りたい場合に有用です．
 * Photo（Windows）
   * Windows に標準で備わっている動画編集ソフトウェアです（Photo という名前ですが動画も編集できます）．
   * [使い方（外部サイト）](https://www.pasoble.jp/windows/10/douga-hensyuu.html)
