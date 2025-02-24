@@ -12,15 +12,23 @@ import "@styles/rss_icon.scss";
 import Emergency from '@components/Emergency.mdx';
 import Notice from '@components/pages/Notice.astro';
 import Events from '@components/pages/Events.astro';
+import FontAwesomeIcon from '@components/embed/FontAwesomeIcon.astro';
+import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-icons';
 
 <Emergency />
 
+# 新しく東京大学の一員となった方へ
+{:.title}
+
 <div class="largecards">
   <div class="largecards__card">
-    <a href="/oc/"><span>大学生活に必要な情報システムの準備について<small>（新入生向け）</small></span></a>
+    <a href="/oc/"><FontAwesomeIcon icon={faPen} /><span>学生向け</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/faculty_members/"><span>東京大学における情報システムの準備について<small>（教員向け）</small></span></a>
+    <a href="/faculty_members/"><FontAwesomeIcon icon={faUserGraduate} /><span>教員向け</span></a>
+  </div>
+  <div class="largecards__card">
+    <a href="/staff_members/"><FontAwesomeIcon icon={faIdCardAlt} /><span>職員向け</span></a>
   </div>
 </div>
 
