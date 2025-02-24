@@ -122,13 +122,13 @@ https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
 ### Q. UTokyo Account利用者メニューにログインできない
 
 * 参考: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>
-* ユーザ名にUTokyo Accountの共通ID <span style="color:green;">「10桁の数字」</span>を入力していることを確認してください
-  * 10桁の数字@utac.u-tokyo.ac.jp <span style="color:red;">ではありません</span>
+* ユーザ名にUTokyo Account <span style="color:green;">10桁の共通ID@utac.u-tokyo.ac.jp</span>を入力していることを確認してください
+  * 10桁の数字 <span style="color:red;">ではありません</span>
 * ユーザ名を正しく入力しているのにエラーが出る(ユーザID・パスワードが不正です．)と出る場合，パスワードが間違っているのかも知れませんので，<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみてください
 
 ### Q. UTokyo Accountのパスワード再設定でUser ID入力欄でエラーになる
 * [こちらのページ](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html)を参照して，パスワードを再設定してください．
-* パスワード再設定画面では，User IDに入力するのは，10桁の数字@utac.u-tokyo.ac.jp です
+* パスワード再設定画面では，User IDに入力するのは，数字10桁の共通ID@utac.u-tokyo.ac.jp です
   * 10桁の数字 ではありません
 * <a href="https://www.youtube.com/watch?v=Kumu8aPGnyI&feature=youtu.be" target="_blank">うまく行く場合の動画</a>もご覧ください 
 
