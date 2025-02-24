@@ -14,6 +14,7 @@ h1.title {
 .largecards {
   display: grid;
   grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   grid-gap: 1em;
   margin: 1em 0;
   padding: 0;
@@ -40,6 +41,7 @@ h1.title {
 
       .font-awesome {
         flex-basis: 3rem;
+        flex-shrink: 0;
         margin: 1rem 1rem 1rem 0.5rem;
 
         @media (max-width: 896px) {
