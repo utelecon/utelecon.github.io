@@ -1,0 +1,27 @@
+---
+title: "利用料金の見積もり：UTokyo Azure"
+breadcrumb:
+  title: 利用料金の見積もり
+---
+
+import HelpItem from "@components/utils/HelpItem.astro";
+
+Microsoft Azure が提供するサービスとその価格表は[Azure 製品：外部ページ](https://azure.microsoft.com/ja-jp/products/)にあります．
+
+Microsoft Azure が用意する[**料金計算ツール**](https://azure.microsoft.com/ja-jp/pricing/calculator/)で，複合的に見積もりを計算することができます．
+
+以下，UTokyo Azure で特に使われると想定されるサービスについて，見積もるべき主な項目などを説明します．
+
+## 共通点
+- UTokyo Azure では料金プランは従量課金のみになります．割引プラン（節約プランや予約プラン等）は利用できません．
+- リソース単位で個別に料金がかかるため，選択したサービスのリソース以外に連携して自動作成されたリソースにも料金がかかる場合があります．
+- リージョンによって使える資源や規模が変わります．欲しい資源が無かったり，あっても必要数を満たさない場合などは別のリージョンを選択ください．
+- 一時利用（スポットや共有）を選択できる場合は，専有するより安く利用できますので，ご自身の利用に合わせてご検討ください．
+
+## サービスごとの例
+#### [**仮想マシン（OS用ストレージ含む）**](/research_computing/utokyo_azure/price/vm)
+#### [**データ用ストレージ**](/research_computing/utokyo_azure/price/storage)
+#### [**Azure Machine Learning**](/research_computing/utokyo_azure/price/aml)
+#### [**Azure OpenAI**](/research_computing/utokyo_azure/price/aoi)
+#### [**Azure AI Foundry**](/research_computing/utokyo_azure/price/aaf)
+#### [**その他主なサービス**](/research_computing/utokyo_azure/price/etc)

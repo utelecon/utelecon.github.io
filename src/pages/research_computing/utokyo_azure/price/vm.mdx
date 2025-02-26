@@ -1,0 +1,32 @@
+---
+title: "利用料金の見積もり：仮想マシン"
+breadcrumb:
+  title: 利用料金の見積もり：仮想マシン
+---
+
+## 1. ほぼ必須な料金
+
+#### [仮想マシンインスタンス](https://azure.microsoft.com/ja-jp/pricing/details/virtual-machines/linux/)
+- CPU/GPU，OS用ストレージ（マネージドストレージ）、一時ストレージ
+
+#### [IPアドレス](https://azure.microsoft.com/ja-jp/pricing/details/ip-addresses/)
+- 外部アクセス用のIPアドレス，いわゆるグローバルIPアドレス
+  - ローカルIPアドレスには料金はかかりません．
+
+#### [Key Vault](https://azure.microsoft.com/ja-jp/pricing/details/key-vault/)
+- ssh 鍵ペアや電子証明書の保存
+
+## 2. 選択によってかかる費用
+
+#### [データ保存用ストレージ](/research_computing/utokyo_azure/price/storage)
+- リンク先の別ページ参照
+
+#### [ファイアウォール](https://azure.microsoft.com/ja-jp/pricing/details/azure-firewall/)
+- 複数のリソースそれぞれ個別に通信にフィルタをかけるのではなく、ネットワークで通信制限を一元化したい場合に利用
+
+#### [Azure Bastion](https://azure.microsoft.com/ja-jp/pricing/details/azure-bastion/)
+- 仮想マシンのコンソールに Azure Portal から直接アクセス
+
+#### [帯域幅](https://azure.microsoft.com/ja-jp/pricing/details/bandwidth/)
+- リージョン間，ゾーン間に通信が発生する場合の通信料
+  - できるだけ同一リージョン，同一ゾーン内に構築するようにしてください．
