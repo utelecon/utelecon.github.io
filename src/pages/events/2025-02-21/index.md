@@ -19,7 +19,7 @@ Microsoftと東京大学の間で交わされた[GX・D&I・AI研究の推進に
 ## 概要
 - **日時**：2025/2/21（金） 10:00-12:00
 - **場所**：オンライン（Zoomミーティング）
-- **資料・説明会動画**：このページで提供します
+- **資料・説明会動画**：このページで提供します(タイムテーブルをご参照ください)
 - **言語**：日本語（英語での説明会は、今後実施予定）
 
 ## タイムテーブル（予定）
@@ -27,12 +27,12 @@ Microsoftと東京大学の間で交わされた[GX・D&I・AI研究の推進に
 
 | 時間   | 内容   | 話者   | 資料 | 動画 |
 |--------|--------|--------|------|------|
-| 10:00 - 10:15 | UTokyo Azureの概要   | 田浦   | [資料](/events/2025-02-21/slides/1_overview.pdf) |動画 |
-| 10:15 - 10:35  | 利用料金負担の可能性について   | 田浦   | [資料](/events/2025-02-21/slides/2_possible_billing.pdf) | 動画 |
-| 10:35 - 10:50  | 利用申請の流れと注意点   | 有馬 | [資料](/events/2025-02-21/slides/3_application_guidelines.pdf) |動画 |
-| 10:50 - 11:00  | 利用料金発生時の流れ | 有馬 | [資料](/events/2025-02-21/slides/4_Process_when_charges_occur.pdf) |動画 |
-| 11:00 - 11:30 | Azureの代表的なサービスの使い方   | 山肩 | [・所有者の追加](/events/2025-02-21/slides/5-1_add_owner.pdf) <br>[・Open AI](/events/2025-02-21/slides/5-2_OpenAI.pdf) <br>[・仮想マシン](/events/2025-02-21/slides/5-3_create_VM.pdf) <br>[・ノートブック](/events/2025-02-21/slides/5-4_notebook.pdf) <br>| 動画 |
-| 11:30 - 12:00 | 質疑応答 | - | [slido](https://app.sli.do/event/ig9R1n6FPpnuPoQrDtyje8) |動画 |
+| 10:00 - 10:15 | UTokyo Azureの概要   | 田浦   | [資料](/events/2025-02-21/slides/1_overview.pdf) |[動画](https://youtu.be/zOA9xxBcGUs) |
+| 10:15 - 10:35  | 利用料金負担の可能性について   | 田浦   | [資料](/events/2025-02-21/slides/2_possible_billing.pdf) | [動画](https://youtu.be/cegbtf0p4ow) |
+| 10:35 - 10:50  | 利用申請の流れと注意点   | 有馬 | [資料](/events/2025-02-21/slides/3_application_guidelines.pdf) |[動画](https://youtu.be/1t_vWeoeWHA) |
+| 10:50 - 11:00  | 利用料金発生時の流れ | 有馬 | [資料](/events/2025-02-21/slides/4_Process_when_charges_occur.pdf) |[動画](https://youtu.be/17z4FFTH_Js) |
+| 11:00 - 11:30 | Azureの代表的なサービスの使い方   | 山肩 | [・所有者の追加](/events/2025-02-21/slides/5-1_add_owner.pdf) <br>[・Open AI](/events/2025-02-21/slides/5-2_OpenAI.pdf) <br>[・仮想マシン](/events/2025-02-21/slides/5-3_create_VM.pdf) <br>[・ノートブック](/events/2025-02-21/slides/5-4_notebook.pdf) <br>| [動画](https://youtu.be/dd_BytRPMRo) <br>[動画](https://youtu.be/fnNlmFr3OZw)<br>[動画](https://youtu.be/J5UOiBDw4tY)<br>[動画](https://youtu.be/YWMCuwH9yVA)|
+| 11:30 - 12:00 | 質疑応答 |  | [slido](https://app.sli.do/event/ig9R1n6FPpnuPoQrDtyje8) | |
 
 
 
@@ -51,8 +51,8 @@ Microsoftと東京大学の間で交わされた[GX・D&I・AI研究の推進に
 
 
 ## 参加申込
-Zoomの[**UTokyo Azure利用説明会 登録ページ**](https://u-tokyo-ac-jp.zoom.us/meeting/register/NsntDBBiSUecESy1vR58bw)よりお申し込みください．
+Zoomの[**UTokyo Azure利用説明会 登録ページ**](https://u-tokyo-ac-jp.zoom.us/meeting/register/NsntDBBiSUecESy1vR58bw)よりお申し込みください．<br>※お申し込みは終了いたしました．
 
 ## 事後アンケート
-[アンケートページ](https://forms.gle/sfL7LCxX3EwY86rP6)からご回答ください．Zoom退出時に同じアンケートが表示されます．
+アンケートページからご回答ください．Zoom退出時に同じアンケートが表示されます．<br>
 ※東京大学ECCSクラウドメールユーザ限定
