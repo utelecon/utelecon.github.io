@@ -1,9 +1,4 @@
-import type {
-  AstroConfig,
-  AstroIntegration,
-  IntegrationResolvedRoute,
-  RedirectConfig,
-} from "astro";
+import type { AstroConfig, AstroIntegration, RedirectConfig } from "astro";
 import { glob } from "glob";
 import { extname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -58,18 +53,5 @@ async function enumerateAssets(
     extensionsSet.has(extname(path))
       ? [`/${path.substring(0, path.lastIndexOf("."))}`]
       : []
-  );
-}
-
-function filterRoutes(
-  routes: IntegrationResolvedRoute[]
-): IntegrationResolvedRoute[] {
-  return routes.filter(
-    (route) =>
-      !(
-        route.type === "redirect" &&
-        typeof route.redirect === "object" &&
-        (route.redirect.status as number) === 410
-      )
   );
 }
