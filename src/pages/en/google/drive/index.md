@@ -10,4 +10,4 @@ This is the main page for Google Drive documentation.
 
 ## Sections
 
-- [Basic usage](./basic.md)
+- [Basic usage](./basic)
