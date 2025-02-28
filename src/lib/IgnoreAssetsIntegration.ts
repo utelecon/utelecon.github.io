@@ -16,10 +16,12 @@ export default function (extensions: string[]): AstroIntegration {
 
         updateConfig({
           redirects: Object.fromEntries(
-            assetsPaths.map((path) => [
-              path,
-              { status: 410, destination: "/" } as unknown as RedirectConfig,
-            ])
+            assetsPaths
+              .filter((path) => config.redirects[path] === undefined)
+              .map((path) => [
+                path,
+                { status: 410, destination: "/" } as unknown as RedirectConfig,
+              ])
           ),
         });
       },
@@ -49,9 +51,10 @@ async function enumerateAssets(
     absolute: false,
   });
 
-  return paths.flatMap((path) =>
-    extensionsSet.has(extname(path))
-      ? [`/${path.substring(0, path.lastIndexOf("."))}`]
-      : []
-  );
+  return paths.flatMap((path) => {
+    const ext = extname(path);
+    return extensionsSet.has(ext)
+      ? [`/${path.substring(0, path.length - ext.length)}`]
+      : [];
+  });
 }
