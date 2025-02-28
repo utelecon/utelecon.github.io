@@ -29,8 +29,11 @@ export default function CopyAssetIntegration(): AstroIntegration {
       },
       "astro:build:done": async ({ dir }) => {
         await Promise.all(
-          routes.map(async ({ pathname, entrypoint }) => {
+          routes.map(async ({ pathname, entrypoint, redirect }) => {
             if (!pathname || pathname.endsWith("/rss.xml")) return;
+            if (typeof redirect === "object" && 400 <= redirect.status) {
+              return;
+            }
             const path = getDistFilePath(dir, pathname, entrypoint);
             const source = await read(path);
             const hast = parser.parse(source);

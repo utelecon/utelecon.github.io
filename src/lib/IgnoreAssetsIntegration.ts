@@ -28,9 +28,6 @@ export default function (extensions: string[]): AstroIntegration {
           ),
         });
       },
-      "astro:routes:resolved": ({ routes }) => {
-        routes.splice(0, Infinity, ...filterRoutes(routes));
-      },
     },
   };
 }
