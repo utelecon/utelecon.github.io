@@ -18,3 +18,4 @@ breadcrumb:
     - [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students)
     - [AIツールの授業における利用について](/docs/ai-tools-in-classes)
     - [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai)
+- [uteleconのソーシャルメディアポリシー](./sns-policy)

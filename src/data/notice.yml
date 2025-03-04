@@ -2,6 +2,105 @@
 
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
+
+# また，お知らせを追加すると，utelecon.adm.u-tokyo.ac.jpへの反映と同時にTwitterにも自動投稿されます．
+# pushする前に内容やリンク先に間違いがないか，今一度ご確認いただきますようお願いいたします．
+# 万一間違ってpushしてしまった場合は，
+# 1. GitHubにてジョブをキャンセルしてください．
+#   a. https://github.com/utelecon/utelecon.github.io/actions/workflows/astro.yml を開いてください．
+#   b. 一番上にある実行中のジョブを押してください．
+#   c. 右上の「Cancel workflow」ボタンを押してください．
+#   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
+# 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
+-  
+   date: 2025-02-20
+   content:
+    ja: "PC端末初期セットアップガイドを公開しました.[PC端末初期セットアップガイド (PDF)](/notice/2025/device_initial_setup_guide.pdf)"    
+-
+   date: 2025-02-19
+   content:
+    ja: "[Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion)"
+    en: "[About providing Zoom AI Companion feature (in Japanese)](/notice/2025/0127-zoom-ai_companion)"
+-
+  date: 2025-02-18
+  content:
+    ja: "3/26 14:30から[教育用計算機システム(ECCS)のシステム利用説明会を開催いたします](/notice/2025/0326-eccs-seminar)"
+-
+  date: 2025-02-14
+  content:
+    ja: "3/12 15:00から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2025-03-12/)」を開催いたします．"
+  important: true
+-
+  date: 2025-02-03
+  content:
+    ja: "[UTokyo Account 認証基盤のバージョンアップについて](/notice/2025/0222-utokyo-account/)"
+    en: "[Notice of UTokyo Account Authentication Infrastructure Versionup](/en/notice/2025/0222-utokyo-account/)"
+  important: true
+-
+  date: 2025-01-31
+  content:
+    ja: "東京大学の情報システムとそのサポート体制について説明する資料[「大学生活に必要な情報システムの準備について（学生向け）」 (PDF)](/notice/2025/getting_ready_for_ICT_systems_students_2025s.pdf)と[「東京大学における情報システムの準備について（教員向け）」 (PDF)](/notice/2025/getting_ready_for_ICT_systems_faculty_members_2025s.pdf)の2025年度Sセメスター版を公開しました．"
+    en: "\"Getting Ready for ICT Systems at UTokyo\" [\\[For New Students\\]](/notice/2025/getting_ready_for_ICT_systems_students_2025s.pdf) [\\[For Faculty Members\\]](/notice/2025/getting_ready_for_ICT_systems_faculty_members_2025s.pdf) (materials explaining ICT systems at UTokyo and its support) has been released. (The English version is on the second page)"
+  important: true
+-
+  date: 2025-01-24
+  content:
+    ja: "2/21 10:00から「[UTokyo Azure利用説明会](/events/2025-02-21/)」を開催いたします．"
+    en: "On February 21, **\"[Information Session on UTokyo Azure](/events/2025-02-21/)\"** will be held at 10:00."
+-
+  date: 2025-01-24
+  content:
+    ja: "[OneDrive容量超過に関する状況確認調査を実施します](/notice/2025/0124-onedrive)"
+-
+  date: 2025-01-17
+  content:
+    ja: "[2025年度Sセメスター「コモンサポーター」募集のお知らせ](/notice/2025/0117-cs) （2月10日13時締切）"
+-
+  date: 2024-12-27
+  content:
+    ja: "[最新情報をRSSとSNS（X；旧Twitter）で便利に受け取れるようになりました](/notice/2024/1227-rss-sns)"
+    en: "[Now you can conveniently receive the latest information via RSS and SNS (X; formerly Twitter)](/en/notice/2024/1227-rss-sns)"
+-
+  date: 2024-11-29
+  content:
+    ja: "[教育用計算機システム(ECCS)に関するアンケートの結果を公表しました](/notice/2024/08-questionnaire-eccs-2024)"
+-
+ date: 2024-11-26
+ content:
+  ja: "12/2から[UTokyo Azure](/research_computing/utokyo_azure/) のサービスを開始します"
+  en: "We are going to launch [UTokyo Azure](/en/research_computing/utokyo_azure/), starting from December 2."
+-
+  date: 2024-11-15
+  content:
+    ja: "[LTI連携機能を用いたUTOLからのZoomミーティングの利用について](/notice/2024/1115-utol-lti-zoom)"
+-
+ date: 2024-11-12
+ content:
+  ja: "12/20 13:00から「[「生成AIと教育について考える」シンポジウム＋東大教職員ワークショップ](/events/2024-12-20-genai-sympo-ws/)」を開催いたします．"
+  en: "On December 20, an information session titled **\"[Reflecting on Generative AI and Education: Symposium + Workshop for the University of Tokyo Faculty and Staff](/en/events/2024-12-20-genai-sympo-ws/)\"** will be held at 13:00."
+ important: true
+-
+  date: 2024-11-01
+  content:
+    ja: "[ECCSクラウドメールで書き込み操作ができない問題について](/notice/2024/1101-google-storage-limit/)"
+    en: "[Issue with ECCS Cloud Email: Unable to Perform Write Operations (in Japanese)](/notice/2024/1101-google-storage-limit/)"
+-
+  date: 2024-10-25
+  content:
+    ja: "[2024年度 Aセメスター科目のUTOLでの取り扱いについて](/notice/2024/1025-utol-rikaku)"
+    en: "[Handling of the 2024 Academic Year A Semester Courses on UTOL](/en/notice/2024/1025-utol-rikaku)"
+-
+  date: 2024-10-11
+  content:
+    ja: "[UTOLからMATLAB Graderを利用可能となりました](/notice/2024/1011-utol-matlab-grader)"
+-
+  date: 2024-10-03
+  content:
+    ja: "[教育用計算機システム相談員および同分散配置端末巡回連絡員の募集（2024年度Aセメスター）](/notice/2024/1003-tutors)"
+-
+  date: 2024-09-30
+  content:
+    ja: "[ECCSクラウドメールにおける「安全性の低いアプリケーション（LSA）」の無効化について](/notice/2024/0930-google-lsa)"
 -
   date: 2024-09-24
   content:
@@ -57,7 +156,7 @@
     ja: "[履修登録したUTOL上の他学部科目にアクセスできなくなる件について](/notice/2024/0424-utol-announce)"
   important: true
 -
-  date: 2024-04-01
+  date: 2024-04-04
   content:
     ja: "[生成AIの提供方針に関するアンケートの結果等について](/notice/2024/04-aichat-survey-result/)"
 -

@@ -1,26 +1,57 @@
 ---
 title: The Portal Site of Information Systems @ UTokyo
 top: true
+# temporary
+description: This website aims to provide one-stop information service about information systems in the University of Tokyo.
 toc: false
 sitemap: false
 ---
 
+import "@styles/top.scss";
+import "@styles/rss_icon.scss";
+
 import Emergency from '@components/Emergency.mdx'
 import Notice from '@components/pages/Notice.astro'
+import Events from '@components/pages/Events.astro'
 
 <Emergency />
 
-## Getting Ready for ICT Systems
+<div class="largecards">
+  <div class="largecards__card">
+    <a href="/en/oc/">For New Students</a>
+  </div>
+  <div class="largecards__card">
+    <a href="/en/faculty_members/">For Faculty Members</a>
+  </div>
+</div>
 
-- [For New Students](/en/oc/)
-- [For Faculty Members](/en/faculty_members/)
-- [Effective Use of Online Resources](/en/online/)
-- [Support Desk](/en/support/)
-{:.cards}
+<Events show={[
+  "2025-03-12",
+  "2025-02-21",
+  "2024-09-13",
+]} alternative={{"2024-09-13": {"href": "/en/events/2024-09-13"}}} lang="en">
+<Fragment slot= "2025-03-12">Information Session on ICT Systems and Tools for UTokyo Members <small>(only in Japanese)</small></Fragment>
+<Fragment slot= "2025-02-21">Information Session on UTokyo Azure <small>(only in Japanese)</small></Fragment>
+<Fragment slot="2024-09-13">Information Session on ICT Systems and Tools for UTokyo Members</Fragment>
+</Events>
+
+<div class="container">
+<div class="container__column">
+
+## Notice <a href="/en/notice/rss" class="rss_icon" title="RSS">rss_feed</a>
+
+{/* To add notice here, edit `src/data/notice.yml` */}
+
+<Notice lang="en" strip localize />
+
+[List of past notice is here](/en/notice/)
+
+</div>
+<div class="container__column">
 
 ## Pickup
 
-- [2024/09/13 Information Session on ICT Systems and Tools for UTokyo Members (**Conducted in English**)](/en/events/2024-09-13)
+- [UTokyo Azure](/en/research_computing/utokyo_azure)
 - [Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)
 {:.cards}
 
@@ -33,13 +64,8 @@ import Notice from '@components/pages/Notice.astro'
 - [How to join a online class <small>(for Students)</small>](/en/oc/join)
 {:.cards}
 
-## Notice
-
-{/* To add notice here, edit `src/data/notice.yml` */}
-
-<Notice lang="en" strip />
-
-[List of past notice is here](/en/notice/)
+</div>
+</div>
 
 ## ICT Systems
 
@@ -53,6 +79,10 @@ import Notice from '@components/pages/Notice.astro'
   - [ECCS Cloud Email<small> (Google Workspace)</small>](/en/google/)
   - [UTokyo Microsoft License](/en/microsoft/)
   - [UTokyo Slack](/en/slack/)
+  - [Slido](/en/slido/)
+  - [UTokyo MATLAB Campus-Wide License](/en/matlab/)
   - [UTokyo VPN](/en/utokyo_vpn/)
-  {/* - [List of all systems](/en/systems/) */}
+  - [ECCS Terminals](https://www.ecc.u-tokyo.ac.jp/en/)
+  -
+  {:.cards}
 </div>

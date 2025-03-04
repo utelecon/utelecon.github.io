@@ -7,8 +7,11 @@
       name: "大学生活に必要な情報システムの準備について<small>（新入生向け）</small>"
       url: "/oc/"
     -
-      name: "東京大学における情報システムの準備について<small>（教員向け）</small>"
+      name: "東京大学における情報システムの準備について（教員向け）"
       url: "/faculty_members/"
+    -
+      name: "東京大学における情報システムの準備について（職員向け）"
+      url: "/staff_members/"
     -
       name: "オンラインを活用するために"
       url: "/online/"
@@ -48,6 +51,12 @@
     -
       name: "UTokyo VPN"
       url: "/utokyo_vpn/"
+    - 
+      name: "全学向け高速計算機・データ活用基盤"
+      url: "/research_computing/"    
+    -
+      name: "UTokyo Azure"
+      url: "/research_computing/utokyo_azure/"    
     -
       name: "一覧"
       url: "/systems/"

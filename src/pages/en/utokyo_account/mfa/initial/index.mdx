@@ -6,6 +6,7 @@ breadcrumb:
 
 import Tabs from "@components/en/mfa/Tabs.astro";
 import TabSelector from "@components/en/mfa/TabSelectorGrid.astro";
+import YouTube from "@components/embed/YouTube.astro";
 
 ## Introduction
 {:#introduction}
@@ -32,8 +33,7 @@ You may also register the same method for step 1 and 2; for example, you may reg
 
 The following video explains the initial setup procedure in this page.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l84Aa1esNqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<YouTube src="https://www.youtube.com/embed/l84Aa1esNqI" />
 
 ## Step 1: Set Up the First Verification Method
 {:#first.mfa-initial-step-heading}
@@ -94,20 +94,20 @@ The setup process is not over. Continue to Step 4.
 *If you could not complete this Step 3 properly, do not proceed to Step 4. Contact the <a href="/en/support/">Technical Support Desk</a>.
 </div>
 
-## Step 4: Apply for MFA Use
+## Step 4: Apply for starting your UTokyo Account
 {:#apply.mfa-initial-step-heading}
 
-The final step is to submit an application for MFA. Once you submit this application, you will be asked to verify your identity with the process in Step 3 whenever you sign in to your UTokyo Account.
+The final step is to submit an application for starting your UTokyo Account. Once you submit this application, you will be asked to verify your identity with the process in Step 3 whenever you sign in to your UTokyo Account.
 
 If the remote-access environment (Citrix Workspace) of office work devices for administrative staff is being used, it will be disconnected once you apply for the MFA. Before moving on to the following procedures, please make sure you are signed out.
 
-1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet).
-2. Sign in with your UTokyo Account username (10-digit Common ID) and password if prompted.
-3. Click “multi-factor authentication setting” in the left menu. ![](./user_menu_1.png)
-4. Read the MFA instructions carefully, and find “Use MFA” at the bottom of the page. Answer “Yes” and click “SAVE”. ![](user_menu_2.png)
+1. Access the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/UserMenu/LoginServlet).
+2. Sign in with your UTokyo Account if prompted.
+3. Click “Start using your UTokyo Account” in the left menu. ![](./user_menu_1.png)
+4. Read the UTokyo Account instructions carefully, and find “Start using your UTokyo Account” at the bottom of the page. Answer “Yes” and click “SAVE”. ![](user_menu_2.png)
 
 <div class="box">
-You have completed the initial setup procedures for MFA. <strong>It will take about 40 minutes for the MFA settings to be reflected in the system after these procedures</strong>, so if you want to use UTokyo VPN and other services in which MFA is required, please be patient and wait for a while.
+You have completed the initial setup procedures for UTokyo Account, <strong>but it will take about 40 minutes for the account settings to be reflected in the system after these procedures</strong>. If you want to use systems that do not allow you to sign in until the multi-factor authentication settings are completed, please be patient and wait for a while.
 </div>
 
 ## Things to Keep in Mind after Completing Initial Procedure
@@ -118,4 +118,4 @@ Once the MFA is enabled, **you will be asked to verify your identity with the SM
 
 In particular, when you get a new phone, register the phone for MFA by following the procedures in “[Changing the Verification Method of Multi-Factor Authentication for UTokyo Accounts](../change/)” while your old phone is available. Once your old phone is disposed of, you will no longer be able to verify your identity with the authentication app using the old phone. In addition, if you change the phone number, the verification with your former phone number will be impossible. Since you need to sign in to the system with your old verification method even when you change the method, it is important to switch your verification method while your old phone is available to avoid being completely locked out of your UTokyo Account.
 
-Once you enable the MFA, you cannot disable it by yourself. If you wish to stop using MFA and reverse your UTokyo Account settings to allow signing in with only a password, you need to “terminate MFA use”. Please visit “[Terminate MFA Use](../reregister_and_terminate)” for more information.
+If you are in trouble in using your UTokyo Account and the MFA, you need to “re-registration MFA”. Please visit “[Terminate MFA Use](../reregister_and_terminate)” for more information.

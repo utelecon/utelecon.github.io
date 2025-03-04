@@ -11,14 +11,36 @@ redirect_from:
 
 import UTokyoAccountChangePassword from "@components/ja/systems/utokyo_account/ChangePassword.mdx";
 import UTokyoAccountMFA from "@components/ja/systems/utokyo_account/MFA.mdx";
-import Utas from "@components/ja/systems/utas/index.mdx";
-import Utol from "@components/ja/systems/utol/index.mdx";
-import UTokyoWiFi from "@components/ja/systems/utokyo_wifi/index.mdx";
-import Zoom from "@components/ja/systems/zoom/index.mdx";
-import EccsCloudEmail from "@components/ja/systems/eccs_cloud_email/index.mdx";
-import Microsoft from "@components/ja/systems/microsoft/index.mdx";
-import Eccs from "@components/ja/systems/eccs/index.mdx";
 import InformationSecurity from "@components/ja/InformationSecurity.mdx";
+
+import UtasLogin from "@components/ja/systems/utas/Login.mdx";
+import UtasConfirmEmail from "@components/ja/systems/utas/ConfirmEmail.mdx";
+
+import UtolLogin from "@components/ja/systems/utol/Login.mdx";
+
+import UTokyoWiFiApply from "@components/ja/systems/utokyo_wifi/Apply.mdx";
+import UTokyoWiFiConnect from "@components/ja/systems/utokyo_wifi/Connect.mdx";
+
+import ZoomSigninBrowser from "@components/ja/systems/zoom/SigninBrowser.mdx";
+import ZoomInstallAppPc from "@components/ja/systems/zoom/InstallAppPc.mdx";
+import ZoomInstallAppSp from "@components/ja/systems/zoom/InstallAppSp.mdx";
+import ZoomSigninApp from "@components/ja/systems/zoom/SigninApp.mdx";
+import ZoomJoinApp from "@components/ja/systems/zoom/JoinApp.mdx";
+import ZoomJoinBrowser from "@components/ja/systems/zoom/JoinBrowser.mdx";
+
+import EccsCloudEmailConfigure from "@components/ja/systems/eccs_cloud_email/Configure.mdx";
+import EccsCloudEmailLogin from "@components/ja/systems/eccs_cloud_email/Login.mdx";
+import EccsCloudEmailAccess from "@components/ja/systems/eccs_cloud_email/Access.mdx";
+import EccsCloudEmailLoginSp from "@components/ja/systems/eccs_cloud_email/LoginSp.mdx";
+import EccsCloudEmailUseMail from "@components/ja/systems/eccs_cloud_email/UseMail.mdx";
+
+import MicrosoftSignin from "@components/ja/systems/microsoft/Signin.mdx";
+import MicrosoftAccess from "@components/ja/systems/microsoft/Access.mdx";
+import MicrosoftInstallApps from "@components/ja/systems/microsoft/InstallApps.mdx";
+
+import EccsApply from "@components/ja/systems/eccs/Apply.mdx";
+import EccsLogin from "@components/ja/systems/eccs/Login.mdx";
+
 
 ## ご挨拶
 
@@ -36,7 +58,7 @@ import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 
 <div style="text-align: right;">
 理事・副学長　最高情報責任者 (CIO) <br />
-太田　邦史
+森山　工
 </div>
 
 ## 東京大学における授業の形態
@@ -111,7 +133,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 ### UTokyo Accountの多要素認証を有効化する
 
-<UTokyoAccountMFA variant="oc" />
+<UTokyoAccountMFA />
 
 ### 情報セキュリティ教育を受講する
 
@@ -129,28 +151,56 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 <p>{ about_utas }</p>
 
-<Utas variant="oc" />
+- **練習：ログインしてみる**
+  <UtasLogin variant="oc" support />
+- **確認：メールアドレスが登録されているか確認する**
+  <UtasConfirmEmail support />
+{:.procedure}
 
 ### UTOL (UTokyo LMS)
 {:#utol}
 
 <p>{ about_utol }</p>
 
-<Utol variant="oc" />
+- **練習：ログインしてみる**
+  <UtolLogin support />
+- **任意の作業：メール・LINE・Slackと通知を連携する**  
+  履修または担当しているコースで更新があったときに，メールやLINE，[UTokyo Slack](/slack/)で通知を受け取ることができます．設定手順については，「[UTOLからの通知を設定する](/utol/notification/)」を参照してください．
+{:.procedure}
 
 ### UTokyo Wi-Fi
 {:#utokyo_wifi}
 
 UTokyo Wi-Fiは東京大学のキャンパス内で提供されている学内向けWi-Fiで，学内限定のデータベースや電子ジャーナルへのアクセスが可能です．利用するためには事前に，UTokyo Accountの多要素認証を有効化した上で，情報セキュリティ教育の受講を完了し，UTokyo Wi-Fiアカウントを作成しておく必要があります．
 
-<UTokyoWiFi variant="oc" />
+- **作業：アカウントの発行を申請する**
+  <UTokyoWiFiApply utasOnly support />
+- **作業：実際に接続する**
+  <UTokyoWiFiConnect
+    applyStep="上の手順"
+    connectConfiguration={<a href="/utokyo_wifi/#connect-configuration">UTokyo Wi-Fiのページの「接続の詳細な設定」</a>}
+  />
+{:.procedure}
 
 ### Zoom
 {:#zoom}
 
 <p>{ about_zoom }</p>
 
-<Zoom variant="oc" />
+- [手順動画](/oc/movies#zoom)
+- **確認：サインインしてみる**
+  <ZoomSigninBrowser support />
+- **作業：パソコンにアプリをインストールする**
+  <ZoomInstallAppPc support />
+- **任意の作業：スマホにアプリをインストールする**（必須ではありませんが，やっておくと，パソコンの調子がおかしいときなど，いざというときに安心です）
+  <ZoomInstallAppSp support />
+- **任意の作業：アプリにサインインする**（自分で会議を開く機会がある人などには便利です）
+  <ZoomSigninApp support />
+- **確認：アプリで東大のアカウント専用の会議室に入ってみる**（実際に授業で使う予定の機器でやっておきましょう．また，予備としてパソコンだけでなくスマホでもやっておくと安心です）
+  <ZoomJoinApp support />
+- **確認：ブラウザから東大のアカウント専用の会議室に入ってみる**
+  <ZoomJoinBrowser support />
+{:.procedure}
 
 ### ECCS クラウドメール (Google Workspace)
 {:#google}
@@ -159,21 +209,42 @@ UTokyo Wi-Fiは東京大学のキャンパス内で提供されている学内�
 
 また，利用したいメールアドレスの@より前の部分は，ご自身で適切なものを考えて設定してください．なお，ご自身で設定しない場合は，「10桁の共通ID＋`@g.ecc.u-tokyo.ac.jp`」がメールアドレスとなっています．
 
-<EccsCloudEmail variant="oc" />
+- **作業：自分で考えたメールアドレスを設定する**
+  <EccsCloudEmailConfigure support />
+- **確認：ログインする**
+  <EccsCloudEmailLogin support />
+- **確認：東大のアカウント専用のページにアクセスできるか確認する**
+  <EccsCloudEmailAccess support />
+- **任意の作業：スマホでログインする**（GmailなどGoogleのアプリを使っている人向け）
+  <EccsCloudEmailLoginSp support />
+- **練習：メールを使ってみる**（Gmailで`xxxx@g.ecc.u-tokyo.ac.jp`というメールアドレスが使えます）
+  <EccsCloudEmailUseMail support />
+{:.procedure}
 
 ### UTokyo Microsoft License
 {:#microsoft}
 
 <p>{ about_microsoft }</p>
 
-<Microsoft variant="oc" />
+- [手順動画](/oc/movies#microsoft)
+- **確認：サインインしてみる**
+  <MicrosoftSignin support />
+- **確認：東大のアカウント専用のページにアクセスできるか確認する**
+  <MicrosoftAccess support />
+- **任意の作業：パソコンにWordやExcelをインストールする**（既にインストール済みなら，それを使えば問題ありません）
+  <MicrosoftInstallApps support />
+{:.procedure}
 
 ### ECCS 端末
 {:#eccs}
 
 <p>{ about_eccs }</p>
 
-<Eccs variant="oc" />
+- **作業：利用権を申請する**
+  <EccsApply support />
+- **練習：ログインしてみる**
+  <EccsLogin support />
+{:.procedure}
 
 ## その他
 

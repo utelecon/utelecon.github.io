@@ -35,7 +35,7 @@
 - `strong.box`, `b.box`
   - `strong`要素や`b`要素に`.box`クラスを付与すると，枠線の幅が`2px`に，文字が太字になります．
   - `.box`を付与しているため，これらはブロック要素として扱われます．
-  - 利用例：[`@components/ja/systems/utol/Login.mdx`](../components/ja/systems/utol/Login.mdx)
+  - 利用例：[`@pages/events/2022-slack/index.md`](../pages/events/2022-slack/index.md)
 
 #### 枠線と文字を太くする場合の実装
 現在の実装では，`strong`と`b`以外の要素に対して「枠線幅`2px`」と「太字」のスタイルのみを適用するクラスはありません．そのため，文字サイズや文字色を変えずにこれらのスタイルを適用する目的で，本来であれば`div`要素や`p`要素を用いるべきところで，`strong`要素や`b`要素に`.box`クラスを付与するような実装が多くの箇所で行われています．

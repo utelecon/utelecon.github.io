@@ -6,6 +6,7 @@ toc: false
 <div style="text-align: right;">
 
 2024年09月12日  
+2024年10月21日(更新)  
 情報基盤センター
 
 </div>
@@ -27,3 +28,5 @@ toc: false
 参加ご希望の方は，必ず事前にお申し込み下さい．
 
 どうぞよろしくお願いいたします．
+
+当日の様子を録画した動画を[公聴会動画(東京大学内からのみアクセス可能)](https://drive.google.com/file/d/18zCskT5AOX28hNVDzvD8D-SbJfj8rf94/view?usp=sharing)に置きました． 

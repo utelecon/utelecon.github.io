@@ -13,14 +13,15 @@ title: 生成AI（ChatGPT等）関連情報
 
 ## 全学構成員向けの生成AIサービス
 
-- [ECCSクラウドメールでのGeminiの利用について](https://www.ecc.u-tokyo.ac.jp/announcement/2024/06/04_3635.html)（2024年6月4日）
+- [ECCSクラウドメールでのGeminiの利用について](/google/gemini)
+- [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion)（2025年1月27日）
 - [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui)（2024年3月29日）
 - [当面の全学構成員向け生成AIサービス提供方針について](/notice/2024/0327-ai-service)（2024年3月27日）
 - [Microsoft Copilotによる生成AIチャットの提供について](/notice/2024/03-microsoft-copilot)（2024年3月1日）
 - [生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat)（2023年10月20日）
 
 ## その他参考情報
-
+- [生成AIの提供方針に関するアンケートの結果等について](/notice/2024/04-aichat-survey-result/)
 - [高校新課程・生成AIで変わる？ 東大情報教育のこれから](https://www.todaishimbun.org/informationeducation_20240313/)（2024年3月13日／東大新聞オンライン）
 - [UTokyo ARC](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utokyoarc/home)：東京大学の総合大学としての特長を活かし，異なる分野のエキスパートが一堂に会する新しい場を創出することを目指して組織されたコミュニティです．定期的に「サロン」等のイベントを開催しています．生成AIをはじめとしたAI関連のトピックに興味を持つ教職員・学生の皆様を歓迎します．
 - 説明会「[対面授業でも活用！Web会議・クラウドツールの説明会 〜 授業における生成AIの活用方法も考える 〜](/events/2023-09-14/)」（2023年9月14日）
