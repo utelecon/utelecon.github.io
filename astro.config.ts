@@ -13,7 +13,7 @@ import { cleanup } from "./src/lib/CleanupIntegration.js";
 import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
 import copyAsset from "./src/lib/CopyAssetIntegration.js";
 import assetFileNames from "./src/lib/AssetFileNames.js";
-import ignoreAssets from "./src/lib/IgnoreAssetsIntegration.js";
+import ignoreAssets from "./src/lib/ignoreassets";
 import rehypeRaw from "rehype-raw";
 
 // https://astro.build/config
