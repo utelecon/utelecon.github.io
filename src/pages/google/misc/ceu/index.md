@@ -4,34 +4,36 @@ breadcrumb:
   title: ChromeOS端末の管理代行
 ---
 
-## はじめに
+## 概要
 
 情報基盤センターでは，部局がChromeOS端末を導入した際に，ECCSクラウドメール(Google Workspace for Education)のアカウントにChrome Education Upgrade (CEU)ライセンスを付与することにより，端末の集中管理をおこなうサービスを提供しています．
 
-## 標準設定
+### 標準設定
 
 以下が標準設定となります．
 
-- サービス希望部局(以下「部局」)が ChromeOS端末(ChromeBox, Chromebook)を部局に導入します．
-  - 端末の導入手段としては，買い取り，リース等が考えられますが，予備機を含めての買い取りが価格的には有利です．
-- 情報基盤センターが指定するVLANをUTNETスイッチの指定ポートに出すので，部局で当該ポートとChromeOS端末の間を接続する有線LANネットワークを用意してください．
-  - 有線LANネットワークには，ループ検出機能，指定機器以外の接続を制限する機能が必要です．
+- サービス希望部局(以下「部局」)で，ChromeOS端末(ディスプレイ，キーボード，マウス含む)・UTNETスイッチと端末間を接続できる集中管理対象となるChromeOS端末専用のネットワーク(ルーター，スイッチ，ネットワーク配線，電源配線，什器等)，CEUライセンスを用意してください．
+  - ChromeOS端末(ChromeBox，Chromebook)の導入手段としては，買い取り，リース等が考えられますが，予備機を含めての買い取りが価格的には有利です．
+  - ので，部局で当該ポートとChromeOS端末の間を接続する有線LANネットワークを用意してください．
+  - ネットワークに関しては，情報基盤センターが指定するVLANをUTNETスイッチの指定ポートに出すので，そのポートから端末までの部分が必要です．ループ検出機能，指定機器以外の接続を制限する機能があるものを用意してください．
 - 情報基盤センターがDHCPサーバ，ファイアウォール機能を提供します．
-- 初期設定時，故障機器交換時は情報基盤センターが設定をおこないます．
+- 初期設定時や故障機器交換時は，情報基盤センターが設定をおこないます．
 - 障害やインシデント発生時には，部局と情報基盤センターで共同で対処します．
 
-## 利用負担金
+### 利用負担金
 
-標準設定では，1年あたりの利用負担金が1台につき1万円です．オプション設定(内容に関しては要相談)は内容によって，利用負担金が1台につき2万円あるいは3万円に増額となります．
+標準設定では，1年あたりの利用負担金が1台につき1万円です．オプション設定(内容は要相談)は内容によって，利用負担金が1台につき2万円あるいは3万円に増額となります．
 
 ## 問い合わせ・申し込み
 
-[部局導入ChromeOS端末の管理代行サービス](https://docs.google.com/forms/d/e/1FAIpQLSdrddEnD_see3tvDMfkWL3RktJyt0vremITPM2u6NdndhpCYQ/viewform?usp=sf_link)の申し込みフォームにご入力ください．ECCSクラウドメール(`XXXXX@g.ecc.u-tokyo.ac.jp`)でのログインが必要です．
+以下の「部局導入ChromeOS端末の管理代行サービス」用のフォームにご入力ください．なお記入・回答には，ECCSクラウドメール(`XXXXX@g.ecc.u-tokyo.ac.jp`)でのログインが必要です．
+
+**[部局導入ChromeOS端末の管理代行サービス](https://docs.google.com/forms/d/e/1FAIpQLSdrddEnD_see3tvDMfkWL3RktJyt0vremITPM2u6NdndhpCYQ/viewform?usp=sf_link)**{:.box.center}
 
 ## 想定される質問と回答
 
 - Q: 古いChromeOS端末があるのですが，それを用いる前提で，このサービスに申し込むことはできますか?
-  - A: 可能ですが，ChromeOS端末には[Auto Update Expiration (AUE) date](https://support.google.com/chrome/a/answer/6220366?hl=ja)が設定されていて，その期間を過ぎると集中管理の対象にならないので注意してください．また，ECCS2021の一部として導入しているChromeOS端末は以下のようなハイエンド機なので，同等の使い勝手を求める場合は，同等以上のChromeOS端末を導入することをお勧めします．
+  - A: 可能ですが，ChromeOS端末には[Auto Update Expiration (AUE) date](https://support.google.com/chrome/a/answer/6220366?hl=ja)が設定されていて，その期間を過ぎると集中管理の対象にならないので注意してください．また，ECCS2021の一部として導入しているChromeOS端末は以下のようなハイエンド機なので，同等の使い勝手を求める場合は，同等以上の性能のChromeOS端末を導入することをお勧めします．
     - 主記憶: 8GB
     - CPU: intel core i5以上
     - SSD: 64GB以上
