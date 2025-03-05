@@ -11,6 +11,16 @@ import { parse, relative, type ParsedPath } from "node:path/posix";
 import { fileURLToPath } from "node:url";
 import { packages } from "../../../package-lock.json";
 
+/**
+ * 動作確認したAstroのバージョン範囲
+ *
+ * @remarks
+ *
+ * `semver` が解釈可能な形式で指定します。動作確認した上で適宜修正してください。
+ * {@link ./README.md}も参照してください。
+ */
+const TESTED_ASTRO_VERSION_RANGE = "5.0.0 - 5.4.2";
+
 export class VersionNotSatisfied extends Error {
   constructor(
     name: string,
@@ -38,8 +48,14 @@ function checkPackageVersion(name: string, range: string | semver.Range) {
   }
 }
 
+/**
+ * 無視するアセットを指定し、Astroインテグレーションを返します
+ *
+ * @param extensions - アセットの拡張子のリスト。プラットフォームにかかわらずcase-sensitiveに判定されます。
+ * @returns `AstroIntegration`
+ */
 export default function (extensions: string[]): AstroIntegration {
-  checkPackageVersion("astro", "5.0.0 - 5.4.2");
+  checkPackageVersion("astro", TESTED_ASTRO_VERSION_RANGE);
 
   const assetExtensionsSet: ReadonlySet<string> = new Set(extensions);
 
