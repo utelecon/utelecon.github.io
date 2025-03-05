@@ -1,7 +1,12 @@
-import type { AstroConfig, AstroIntegration, RedirectConfig } from "astro";
+import {
+  type AstroConfig,
+  type AstroIntegration,
+  type RedirectConfig,
+  type RouteData,
+} from "astro";
 import { glob } from "glob";
 import * as semver from "semver";
-import { extname } from "node:path";
+import { extname, parse } from "node:path/posix";
 import { fileURLToPath } from "node:url";
 import { packages } from "../../../package-lock.json";
 
@@ -35,6 +40,8 @@ function checkPackageVersion(name: string, range: string | semver.Range) {
 export default function (extensions: string[]): AstroIntegration {
   checkPackageVersion("astro", "5.0.0 - 5.4.2");
 
+  const extensionsSet = new Set(extensions);
+
   return {
     name: "ignore-assets",
     hooks: {
@@ -55,6 +62,17 @@ export default function (extensions: string[]): AstroIntegration {
               ])
           ),
         });
+      },
+      "astro:route:setup": (params) => {
+        const { route } = params as unknown as { route: RouteData };
+
+        if (route.type === "page" && route.origin === "project") {
+          const ext = extname(route.component);
+
+          if (extensionsSet.has(ext)) {
+            route.type = "fallback";
+          }
+        }
       },
     },
   };
@@ -80,12 +98,35 @@ async function enumerateAssets(
     cwd: fileURLToPath(pages),
     nodir: true,
     absolute: false,
+    posix: true,
   });
+  const pathsSet = new Set(paths);
+
+  const pageExtensions = [
+    ".astro",
+    ".html",
+    // Extensions below are in SUPPORTED_MARKDOWN_FILE_EXTENSIONS
+    ".markdown",
+    ".mdown",
+    ".mkdn",
+    ".mkd",
+    ".mdwn",
+    ".md",
+    // ".mdx" is added by @astrojs/mdx integration through addPageExtension(), but
+    // there is no way to peek the current value of AstroSettings.pageExtensions.
+    ".mdx",
+  ];
+
+  const sameNamePageExists = (dirname: string, basename: string) =>
+    pageExtensions.reduce(
+      (acc, ext) => acc || pathsSet.has(`${dirname}/${basename}${ext}`),
+      false
+    );
 
   return paths.flatMap((path) => {
-    const ext = extname(path);
-    return extensionsSet.has(ext)
-      ? [`/${path.substring(0, path.length - ext.length)}`]
+    const { dir, name, ext } = parse(path);
+    return extensionsSet.has(ext) && !sameNamePageExists(dir, name)
+      ? [`/${dir}/${name}`]
       : [];
   });
 }
