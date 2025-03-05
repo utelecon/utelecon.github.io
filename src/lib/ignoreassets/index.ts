@@ -1,9 +1,40 @@
 import type { AstroConfig, AstroIntegration, RedirectConfig } from "astro";
 import { glob } from "glob";
+import * as semver from "semver";
 import { extname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { packages } from "../../../package-lock.json";
+
+export class VersionNotSatisfied extends Error {
+  constructor(
+    name: string,
+    version: string | semver.SemVer,
+    range: string | semver.Range
+  ) {
+    const versionStr = typeof version === "string" ? version : version.version;
+    const rangeStr = typeof range === "string" ? range : range.raw;
+    super(
+      `Package ${name}@${versionStr} not satisfy the version range "${rangeStr}"`
+    );
+  }
+}
+
+function checkPackageVersion(name: string, range: string | semver.Range) {
+  const version = (packages as Record<string, { version: string }>)[
+    `node_modules/${name}`
+  ]?.version;
+  if (version === undefined) {
+    throw new Error(`Package ${name} not installed`);
+  }
+
+  if (!semver.satisfies(version, range)) {
+    throw new VersionNotSatisfied(name, version, range);
+  }
+}
 
 export default function (extensions: string[]): AstroIntegration {
+  checkPackageVersion("astro", "5.0.0 - 5.4.2");
+
   return {
     name: "ignore-assets",
     hooks: {
