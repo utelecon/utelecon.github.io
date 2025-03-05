@@ -1,0 +1,14 @@
+---
+import { FontAwesomeIcon as FAIcon, type FontAwesomeIconProps } from "@fortawesome/react-fontawesome";
+
+interface Props extends FontAwesomeIconProps {
+    class?: string;
+}
+
+const { class: className, ...props } = Astro.props;
+---
+
+<span class:list={["font-awesome", className]}><FAIcon {...props} /></span>
+
+<style>
+</style>
