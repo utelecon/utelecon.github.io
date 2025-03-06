@@ -20,7 +20,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">どのような計算機・サービスが使えますか</Fragment>
-  <Fragment slot="solution">基本的に, MS Azure で提供されるあらゆるサービスが使えます. ブラウザから Jupyter Notebook で GPU 環境にアクセスする, Open AI のチャットや API を使う,クラスタ環境を自分でセットアップして使うなど, 様々な形態の利用が可能です. ただしコスト超過防止のため, デフォルトで利用不可 (opt‑in) になっているものがあります．また，契約上 Marketplace のサービス（サードパーティが提供するサービス）は利用できません．</Fragment>
+  <Fragment slot="solution"><p>基本的に, MS Azure で提供されるあらゆるサービスが使えます. ブラウザから Jupyter Notebook で GPU 環境にアクセスする, Open AI のチャットや API を使う,クラスタ環境を自分でセットアップして使うなど, 様々な形態の利用が可能です.</p><p> ただしコスト超過防止のため, デフォルトで利用不可 (opt‑in) になっているものがあります．また，契約上 Marketplace のサービス（サードパーティが提供するサービス）は利用できません．</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">通常のAzureサービスを利用することと機能的に何か違いがありますか．</Fragment>
+  <Fragment slot="solution">ギフトクレジットによる利用はMicrosoftの仕様で一部サービスが制限されていること，利用者に公平にギフトを配分する仕組みを東大独自に導入していること等により，通常の利用とは主に以下のような違いがあります．<p><ul><li>Marketplase（サードパーティが提供するサービス）は利用することができません．仮想マシンのイメージやAIサービスのサーバレスAPI等で多くあります．</li><li>Microsoft のギフト管理が通常の料金管理と独立しているため，Azure Portal のコスト・予算管理関係の機能が利用できません．無料分や使用した料金に関しては[UTokyo Azure 新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/)の管理ページを参照ください．</li><li>使用料は従量課金一択になります．予約プランや節約プラン等の割引プランは利用できません．</li><li>[UTokyo Azure 新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/)から申請したサブスクリプションでのみ利用可能です．その他の方法で作成されたサブスクリプションは UTokyo Azure では利用できません．</li><li>無料保証枠の約90%を利用した時点でサブスクリプションを自動停止する機能を UTokyo Azure 独自に提供しています．</li></ul></p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -30,12 +35,10 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">ギフトクレジットによる運用ということは無料で使い続けられますか</Fragment>
-  <Fragment slot="solution">毎月の大学全体の UTokyo Azure の使用料がギフトクレジットのその月の予定消費額に達するまでは全員が無料で UTokyo Azure を使用できます．
-その月の大学全体の使用料が予定消費額を超えた場合，その月の利用者あたりの無料分が計算されて，その無料分を超過した額を各利用者に負担いただきます．
-また完全に無料で使いたい利用者のためには月初めに無料保証枠を提示します．
-その月の大学全体の使用料がいくらであっても，各利用者の使用料がこの無料保証額を超えなければ，その利用者の費用負担は発生しません．
-なお使用料が無料保証枠を超えていても，月末に計算される無料分以下であれば実際には費用負担は発生しません．
-詳しくは下の**無料分と無料保証枠**を参照ください．</Fragment>
+    <Fragment slot="solution"><p>毎月の大学全体の UTokyo Azure の使用料がギフトクレジットのその月の予定消費額に達するまでは全員が無料で UTokyo Azure を使用できます．</p>
+<p>その月の大学全体の使用料が予定消費額を超えた場合，その月の利用者あたりの無料分が計算されて，その無料分を超過した額を各利用者に負担いただきます．</p>
+<p>また完全に無料で使いたい利用者のためには月初めに無料保証枠を提示します．その月の大学全体の使用料がいくらであっても，各利用者の使用料がこの無料保証額を超えなければ，その利用者の費用負担は発生しません．</p>
+<p>なお使用料が無料保証枠を超えていても，月末に計算される無料分以下であれば実際には費用負担は発生しません．詳しくはFAQの**無料分と無料保証枠**を参照ください．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -57,7 +60,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">学外の人と共同利用することはできないのでしょうか。</Fragment>
-  <Fragment slot="solution">Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用はすでに UTokyo Account を保有している人に限られます．ただし，例えば作成した仮想マシン上で動かしている OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</Fragment>
+  <Fragment slot="solution"><p>Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用はすでに UTokyo Account を保有している人に限られます．</p><p>ただし，例えば作成した仮想マシン上で動かしている OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</p></Fragment>
 </HelpItem>
 
 **サブスクリプション**
@@ -74,7 +77,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">特権管理者ロールの所有者と共同作成者は何が違うのでしょうか</Fragment>
-  <Fragment slot="solution">**所有者**は，自身が所有者であるサブスクリプションやリソースに対して他者アカウント（メンバー）に権限（ロール）を付与することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．ただし、所有者の権限にはさらに段階があり，サブスクリプションの申請者は**すべてのロールを割り当てることができる所有者**の権限が設定されます．</Fragment>
+  <Fragment slot="solution"><p>**所有者**は，自身が所有者であるサブスクリプションやリソースに対して他者アカウント（メンバー）に権限（ロール）を付与することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．</p><p>注意点として、所有者の権限にはさらに段階があり，サブスクリプションの申請者は**すべてのロールを割り当てることができる所有者**の権限が設定されます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -101,12 +104,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料分とはなんですか</Fragment>
-  <Fragment slot="solution">ある月の利用料のうち無料となる分の金額です．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．実際には3月末と9月末の半期毎に各月の超過分・余剰分を集計して半期ごとの通算の超過額を計算します．この通算した超過額を情報基盤センターより請求する予定です．無料分の額は毎月末に、その月の大学全体の使用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</Fragment>
+  <Fragment slot="solution"><p>ある月の利用料のうち無料となる分の金額です．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には3月末と9月末の半期毎に各月の超過分・余剰分を集計して半期ごとの通算の超過額を計算します．この通算した超過額を情報基盤センターより請求する予定です．</p><p>無料分の額は毎月末に、その月の大学全体の使用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料保証枠とはなんですか</Fragment>
-  <Fragment slot="solution">毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．そこで月初めに、この額までは必ず全額無料になるという最低保証額を公表しています．これが無料保証枠です．月末に計算する無料分よりは少ない額になります．無料保証枠は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</Fragment>
+  <Fragment slot="solution"><p>毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．</p><p>そこで月初めに、この額までは必ず全額無料になるという最低保証額を公表しています．これが無料保証枠です．月末に計算する無料分よりは少ない額になります．</p><p>無料保証枠は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
