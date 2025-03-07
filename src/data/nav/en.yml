@@ -113,7 +113,7 @@
       url: "https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/service-status.aspx"
     -
       name: "Cloud Service Status Information"
-      url: "https://utelecon.adm.u-tokyo.ac.jp/en/support/service-status"
+      url: "/en/support/service-status"
     -
       name: "Trouble in Entering Classes"
       url: "/en/oc/join"
