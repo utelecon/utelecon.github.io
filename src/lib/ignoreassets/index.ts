@@ -69,10 +69,7 @@ export default function (extensions: string[]): AstroIntegration {
     ".mkd",
     ".mdwn",
     ".md",
-    // ".mdx" is added by @astrojs/mdx integration through addPageExtension(), but
-    // there is no way to peek the current value of AstroSettings.pageExtensions.
-    ".mdx",
-  ] as const;
+  ];
 
   let filesInPages: Map<
     string,
@@ -82,13 +79,19 @@ export default function (extensions: string[]): AstroIntegration {
     }
   >;
 
-  let pagesDir = "";
+  let pagesDir: string;
 
   async function configSetupHook(options: {
     config: AstroConfig;
     updateConfig: (_: Partial<AstroConfig>) => unknown;
   }): Promise<void> {
     pagesDir = fileURLToPath(new URL("./pages", options.config.srcDir));
+
+    if (options.config.integrations.find((i) => i.name === "@astrojs/mdx")) {
+      // ".mdx" is added by @astrojs/mdx integration through addPageExtension(), but
+      // there is no way to peek the current value of AstroSettings.pageExtensions.
+      pageExtensions.push(".mdx");
+    }
 
     insertPageExtensions(options, extensions);
 
