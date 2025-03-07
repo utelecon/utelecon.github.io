@@ -79,13 +79,14 @@ export default function (extensions: string[]): AstroIntegration {
     }
   >;
 
-  let pagesDir: string;
-
   async function configSetupHook(options: {
     config: AstroConfig;
     updateConfig: (_: Partial<AstroConfig>) => unknown;
   }): Promise<void> {
-    pagesDir = fileURLToPath(new URL("./pages", options.config.srcDir));
+    const pagesDir = relative(
+      "",
+      fileURLToPath(new URL("./pages", options.config.srcDir))
+    );
 
     if (options.config.integrations.find((i) => i.name === "@astrojs/mdx")) {
       // ".mdx" is added by @astrojs/mdx integration through addPageExtension(), but
@@ -103,13 +104,17 @@ export default function (extensions: string[]): AstroIntegration {
           absolute: false,
           posix: true,
         })
-      ).map((path) => {
-        const parsedPath = parse(path);
+      ).map((pathFromPages) => {
+        const parsedPath = parse(pathFromPages);
         return [
-          path,
+          join(pagesDir, pathFromPages),
           {
             ...parsedPath,
-            route: join("/", parsedPath.dir, parsedPath.name),
+            route: join(
+              "/",
+              parsedPath.dir,
+              parsedPath.name === "index" ? "/" : parsedPath.name
+            ),
           },
         ];
       })
@@ -124,11 +129,11 @@ export default function (extensions: string[]): AstroIntegration {
     const sameNamePage = ({ dir, name }: Pick<ParsedPath, "dir" | "name">) =>
       pageExtensions.reduce<string | undefined>((acc, ext) => {
         if (acc !== undefined) return acc;
-        const path = join(dir, `${name}${ext}`);
+        const path = join(pagesDir, dir, `${name}${ext}`);
         return filesInPages.has(path) ? path : undefined;
       }, undefined);
 
-    assetsInPages.values().forEach((file) => {
+    assetsInPages.forEach((file) => {
       file.collidedPath = sameNamePage(file);
     });
 
@@ -137,9 +142,8 @@ export default function (extensions: string[]): AstroIntegration {
         assetsInPages
           .values()
           .filter(
-            (file) =>
-              (options.config.redirects[file.route] ?? file.collidedPath) ===
-              undefined
+            ({ route, collidedPath }) =>
+              (options.config.redirects[route] ?? collidedPath) === undefined
           )
           .map(({ route }) => [
             route,
@@ -158,11 +162,10 @@ export default function (extensions: string[]): AstroIntegration {
     // all routes reachable here are "page" or "endpoint"
     if (
       route.origin === "project" &&
-      filesInPages.get(relative(pagesDir, route.component))?.collidedPath !==
-        undefined
+      filesInPages.get(route.component)?.collidedPath !== undefined
     ) {
       params.logger.info(
-        `File ${route.component} is set to fallback for route collision`
+        `Route to file ${route.component} set to "fallback" due to route collision`
       );
       route.type = "fallback";
     }
