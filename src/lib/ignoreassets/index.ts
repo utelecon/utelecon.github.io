@@ -7,7 +7,7 @@ import {
 } from "astro";
 import { glob } from "glob";
 import * as semver from "semver";
-import { parse, relative, type ParsedPath } from "node:path/posix";
+import { join, parse, relative, type ParsedPath } from "node:path/posix";
 import { fileURLToPath } from "node:url";
 import { packages } from "../../../package-lock.json";
 
@@ -76,8 +76,7 @@ export default function (extensions: string[]): AstroIntegration {
 
   let filesInPages: Map<
     string,
-    {
-      parsedPath: ParsedPath;
+    Pick<ParsedPath, "dir" | "ext" | "name"> & {
       route: string;
       collidedPath?: string;
     }
@@ -93,49 +92,54 @@ export default function (extensions: string[]): AstroIntegration {
 
     insertPageExtensions(options, extensions);
 
-    const paths = (await globPages(pagesDir)).map((path) => ({
-      path,
-      parsedPath: parse(path),
-    }));
-    const assetsInPages = paths.filter(({ parsedPath }) =>
-      assetExtensionsSet.has(parsedPath.ext)
+    filesInPages = new Map(
+      (
+        await glob("**/*", {
+          cwd: pagesDir,
+          nodir: true,
+          absolute: false,
+          posix: true,
+        })
+      ).map((path) => {
+        const parsedPath = parse(path);
+        return [
+          path,
+          {
+            ...parsedPath,
+            route: join("/", parsedPath.dir, parsedPath.name),
+          },
+        ];
+      })
     );
 
-    filesInPages = new Map(
-      paths.map(({ path, parsedPath }) => [
-        path,
-        { parsedPath, route: `/${parsedPath.dir}/${parsedPath.name}` },
-      ])
+    const assetsInPages = new Map(
+      filesInPages
+        .entries()
+        .filter(([_, { ext }]) => assetExtensionsSet.has(ext))
     );
 
     const sameNamePage = ({ dir, name }: Pick<ParsedPath, "dir" | "name">) =>
       pageExtensions.reduce<string | undefined>((acc, ext) => {
         if (acc !== undefined) return acc;
-        const path = `${dir}/${name}${ext}`;
+        const path = join(dir, `${name}${ext}`);
         return filesInPages.has(path) ? path : undefined;
       }, undefined);
 
-    for (const { path, parsedPath } of assetsInPages) {
-      const collidedPath = sameNamePage(parsedPath);
-      if (collidedPath) {
-        filesInPages.set(path, {
-          collidedPath,
-          ...filesInPages.get(path)!,
-        });
-      }
-    }
+    assetsInPages.values().forEach((file) => {
+      file.collidedPath = sameNamePage(file);
+    });
 
     options.updateConfig({
       redirects: Object.fromEntries(
         assetsInPages
-          .filter(({ path }) => {
-            const { route, collidedPath } = filesInPages.get(path)!;
-            return (
-              (options.config.redirects[route] ?? collidedPath) === undefined
-            );
-          })
-          .map(({ path }) => [
-            filesInPages.get(path)!.route,
+          .values()
+          .filter(
+            (file) =>
+              (options.config.redirects[file.route] ?? file.collidedPath) ===
+              undefined
+          )
+          .map(({ route }) => [
+            route,
             { status: 410, destination: "/" } as unknown as RedirectConfig,
           ])
       ),
@@ -176,13 +180,4 @@ function insertPageExtensions(options: {}, extensions: string[]) {
       addPageExtension?: (input: string[]) => void;
     }
   ).addPageExtension?.(extensions);
-}
-
-async function globPages(pagesDir: string): Promise<string[]> {
-  return await glob("**/*", {
-    cwd: pagesDir,
-    nodir: true,
-    absolute: false,
-    posix: true,
-  });
 }
