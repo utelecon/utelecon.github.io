@@ -8,7 +8,7 @@ Courses created automatically on UTOL are registered based on the timetable code
 
 In these cases, you can use the course group function to manage your course materials, tests, notifications, all together. By using the course group function to set up a "course group" that links multiple courses to a single "primary course", you can display the contents of the primary course regardless of which course in the group you are registered to or viewing.
 
-![Image of the course group function](./explain.drawio.png)
+![](./explain.drawio.png)
 
 If you create a combined course (multiple sign-up course) on UTAS before creating a course on UTOL, a course group will be set up automatically.
 
