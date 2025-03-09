@@ -4,6 +4,7 @@ import type { MDXInstance } from "astro";
 import type { Frontmatter } from "@layouts/Layout.astro";
 import If from "@components/utils/If.astro";
 import type { Lang } from "@components/types";
+import { getLocaleDateString } from "@data/utils/notices";
 
 interface EventInformation {
   key: string;
@@ -30,7 +31,7 @@ const allEventsList: Map<string, EventInformation> = new Map([
 ].flat().map((instance) => {
   const dateMatch = instance.file.match(/\/(([0-9]{4}-[0-9]{2}-[0-9]{2})?[^/]*)(?:\/index)?\.mdx?$/);
   assert(dateMatch !== null);
-  assert(typeof instance.url !== "undefined")
+  assert(instance.url !== undefined);
 
   return [
     dateMatch[1],
@@ -54,25 +55,36 @@ const eventsList: EventInformation[] = show.map((key) => {
 
 <If cond={eventsList.length > 0}>
 <h2>{{
-  "ja": "説明会情報",
-  "en": "Recent Briefings"
+  "ja": "説明会資料",
+  "en": "Recent Briefings and Materials"
 }[lang]}</h2>
 
-<ul class="date_list">
+<ul>
   {
-    eventsList.map(({ key, date, title, href }) => (
-      <li>
-        <span class="date">{alternative?.[key]?.date ?? date?.toLocaleDateString(lang, {dateStyle: "long"})}</span>
-        <span>
+    Promise.all(eventsList.map(async ({ key, date, title, href }) => {
+      const pack = (Astro.slots.has(key) ? await Astro.slots.render(key) : title).at(-1) === "）";
+      const heldOnDate = (lang: Lang) => {
+        const localeDate = alternative?.[key]?.date
+          ?? (date !== null ? getLocaleDateString(date, lang, "long") : "");
+        switch (lang) {
+          case "ja":
+            return `（${localeDate} 実施）`;
+          case "en":
+            return `(Held on ${localeDate})`;
+        }
+      }
+
+      return (
+        <li>
           <a href={alternative?.[key]?.href ?? href}>
             <If cond={Astro.slots.has(key)}>
               <Fragment set:html={Astro.slots.render(key)} />
               <Fragment slot="else">{title}</Fragment>
             </If>
+            <span class:list={["date", { date__pack: pack }]}>{heldOnDate(lang)}</span>
           </a>
-        </span>
-      </li>
-    ))
+        </li>
+    )}))
   }
 </ul>
 </If>
@@ -81,8 +93,15 @@ const eventsList: EventInformation[] = show.map((key) => {
   @import "@styles/color.scss";
 
   .date {
-    display: inline-block;
-    color: $heading-color;
-    margin-right: 8px;
+    text-decoration: inherit;
+    font-size: .9rem;
+
+    &:where(:lang(ja)) {
+      margin-left: -0.5rem;
+    }
+
+    &__pack {
+      margin-left: -1rem;
+    }
   }
 </style>

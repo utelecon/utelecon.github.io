@@ -133,11 +133,22 @@ ul.date_list {
 
   & > li {
     padding-left: 1rem;
+
+    .date {
+      margin-left: -1rem;
+      font-size: large;
+      font-weight: bold;
+      margin-right: 0;
+    }
   }
 }
 
-.date {
-  margin-left: -1rem;
-  font-size: large;
-  font-weight: bold;
+ul.date_list.localized > li .date {
+  &:lang(ja) {
+    width: 9rem;
+  }
+
+  &:lang(en) {
+    width: 11.5rem;
+  }
 }
