@@ -29,9 +29,7 @@ Please follow the procedure below to apply.
 
 1. Please open the ECCS Application Menu from the link below.
     <strong class="box center">
-
     [ECCS Application Menu](https://idm.ecc.u-tokyo.ac.jp/idworkflow/)
-
     </strong>
 2. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in screen will appear, so please sign in.
 3. Click "Request Create" in the left menu.
@@ -57,9 +55,7 @@ You can check whether you have Right to use the ECCS using the following procedu
 
 1. Please open the ECCS User Menu from the link below.
     <strong class="box center">
-
     [ECCS User Menu](https://idm.ecc.u-tokyo.ac.jp/webmtn/LoginServlet) 
-
     </strong>
 2. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in screen will appear, so please sign in.
 3. Click "ECCS Account Information" in the left menu.
