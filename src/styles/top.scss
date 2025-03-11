@@ -129,26 +129,14 @@
 
 ul.date_list {
   list-style-type: none;
-  margin-left: -1rem;
 
-  & > li {
-    padding-left: 1rem;
-
-    .date {
-      margin-left: -1rem;
-      font-size: large;
-      font-weight: bold;
-      margin-right: 0;
-    }
-  }
-}
-
-ul.date_list.localized > li .date {
-  &:lang(ja) {
-    width: 9rem;
+  & .date {
+    margin-left: -1rem;
+    font-size: large;
+    font-weight: bold;
   }
 
-  &:lang(en) {
-    width: 11.5rem;
+  &.localized .date {
+    margin-right: 1rem;
   }
 }
