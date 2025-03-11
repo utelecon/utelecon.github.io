@@ -93,11 +93,11 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * Features of UTOL include lecture materials downloading, assignment submission, online examinations, surveys, and forum discussion for courses registered.
 * Reference: [UTOL](/utol/)
 
-## UTokyo Account
+<!-- ## UTokyo Account
 
 ### Q. I reset my password but did not receive any confirmation mail. What can I do?
 * Email delivery delay is likely caused by server problems. Please wait for about an hour.
-* Kindly contact your faculty or graduate school office if the confirmation email remains undelivered.
+* Kindly contact your faculty or graduate school office if the confirmation email remains undelivered. -->
 
 ## Zoom
 
