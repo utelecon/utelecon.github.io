@@ -6,7 +6,7 @@ title: FAQ よくある質問
 
 ## 授業全般
 
-### Q. 出席はどうやってとればよいですか？  
+### Q. 出席はどうやってとればよいですか？
 以下のような方法があります．
   * [UTOLの出席機能](/utol/lecturers/attendances/)を使う
   * Googleフォームや Microsoft Forms などのWebアンケートを使う
@@ -23,7 +23,7 @@ title: FAQ よくある質問
 * todo:
 * 教授に聴講できるか聞く．
 * 教授にitc-lms上のコース設定を変えてもらう．
-* 
+*
 -->
 
 ## ECCSクラウドメール (Google Workspace)
@@ -35,7 +35,7 @@ title: FAQ よくある質問
   * Google Docs（Word に似たもの）
   * Googleスプレッドシート（Excel に似たもの）
   * Google フォーム（Webアンケート）
-  * YouTube 
+  * YouTube
 * 詳しくは [ECCS クラウドメールの説明ページ](/google/)をご覧ください．
 
 ### Q. ECCSクラウドメールを使いたい
@@ -57,7 +57,7 @@ title: FAQ よくある質問
 ### Q. 各種メールアドレス(10桁@utac,10桁@g.ecc,任意文字列@g.ecc)の違いがわからない．
 * 10桁@utac.u-tokyo.ac.jp（例:`1234567890@utac.u-tokyo.ac.jp`）
   * メールアドレスのように見えますが，通常のメールアドレスではありません．例えば，このメールアドレスからメールを送信することはできません．ただし，システムからこのアドレスに宛てて通知メールなどが送信されることがあります．たとえば，ZoomやUTokyo Slackからの通知メールがこれに当てはまります．これらのシステムからこのメールアドレスに送信される通知メールは，各自のECCSクラウドメールのメールボックスで受信できるようになっています．
-  * UTokyo Accountでシステムにサインインする際に，ユーザ名として利用することがあります．また，@以前の10桁の数字は共通IDと呼ばれ，一部のシステムではこの共通IDだけを入力しなければならないことがあります．
+  * UTokyo Accountでシステムにサインインする際に，ユーザ名として利用します．また，@以前の10桁の数字は共通IDと呼ばれ，一部のシステムではこの共通IDだけを入力しなければならないことがあります．
 * 10桁@g.ecc.u-tokyo.ac.jp（例:`1234567890@g.ecc.u-tokyo.ac.jp`）
   * 2024年3月以降に入学・着任した人の場合：初期設定として利用できるECCSクラウドメールのメールアドレスです．特にメールアドレスを設定しない場合，このメールアドレスを利用してGoogleにログインすることになります．後からメールアドレスを設定し，任意@g.ecc.u-tokyo.ac.jpに変更した場合，Googleにログインするには，この後から設定した方のメールアドレスを利用する必要があります．なお，メールアドレスを自分で変更した後も，10桁@g.ecc.u-tokyo.ac.jpへのメールは任意@g.ecc.u-tokyo.ac.jpに届きます．
   * 2024年2月以前に入学・着任した人の場合：ECCSクラウドメールの「エイリアス」（別名）です．Googleのログイン画面にこれを入力してもログインできません．このメールアドレス宛のメールはECCSクラウドメールのメールボックスに入ります．（＝任意@g.ecc.u-tokyo.ac.jpでGmailにログインして確認できます）
@@ -86,11 +86,11 @@ title: FAQ よくある質問
 * UTASは東京大学の学務システムです．学生にとってはシラバス閲覧・履修登録・成績確認などを行うシステムであり，教員にとってはシラバス登録・履修者名簿確認・成績登録などを行うシステムです．
 
 ### Q. UTAS にログインできない
-* <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>や<a href="https://utol.ecc.u-tokyo.ac.jp/login" target="_blank">UTOL</a>にログインできるか確かめてみてください
-  * それらはログインできるのにUTASに出来ない場合:
-    * 稀に，UTokyo Accountが発行されているのにUTASのアカウントが発行されていない場合があります．所属の事務室に，10桁の共通IDとともに，自分にUTASのアカウントが発行されているかを尋ねて下さい
+* <a href="https://utol.ecc.u-tokyo.ac.jp/login" target="_blank">UTOL</a>や<a href="https://utacm.adm.u-tokyo.ac.jp/UserMenu/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>にログインできるか確かめてみてください．
+  * それらにはログインできるのにUTASにはできない場合:
+    * 稀に，UTokyo Accountが発行されているのにUTASのアカウントが発行されていない場合があります．所属の事務室に，UTokyo Accountの情報を添えて，自分にUTASのアカウントが発行されているかを尋ねてください．
   * それらにもログインできない場合:
-    * UTokyo Acount の<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみて下さい
+    * UTokyo Accountの[パスワードを再設定](/utokyo_account/#forget-password)してみてください．
 * 参考: [UTASの説明ページ](/utas)
 
 ### Q.「[Error] あなたは現在このシステムを利用することができません」と表示されてログインできない場合
@@ -107,7 +107,7 @@ title: FAQ よくある質問
 
 ### Q. UTOLって何ですか？
 * 本学の学習管理システムです．
-* 学生が，自分が履修した授業に関して，教員が配布した資料を閲覧できたり，課題を提出したり，教員が作っていた場合は掲示板で議論したり質問したり，アンケートに答えたり，試験を受けたりできます．  
+* 学生が，自分が履修した授業に関して，教員が配布した資料を閲覧できたり，課題を提出したり，教員が作っていた場合は掲示板で議論したり質問したり，アンケートに答えたり，試験を受けたりできます．
 * 参考リンク: [UTOLについて](/utol/)
 
 <!--
@@ -116,25 +116,6 @@ TODO
 
 https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
 -->
-
-## UTokyo Account
-
-### Q. UTokyo Account利用者メニューにログインできない
-
-* 参考: <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>
-* ユーザ名にUTokyo Accountの共通ID <span style="color:green;">「10桁の数字」</span>を入力していることを確認してください
-  * 10桁の数字@utac.u-tokyo.ac.jp <span style="color:red;">ではありません</span>
-* ユーザ名を正しく入力しているのにエラーが出る(ユーザID・パスワードが不正です．)と出る場合，パスワードが間違っているのかも知れませんので，<a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html" target="_blank">パスワードを再設定</a>してみてください
-
-### Q. UTokyo Accountのパスワード再設定でUser ID入力欄でエラーになる
-* [こちらのページ](https://utacm.adm.u-tokyo.ac.jp/webmtn/multi/jpn/reset.html)を参照して，パスワードを再設定してください．
-* パスワード再設定画面では，User IDに入力するのは，10桁の数字@utac.u-tokyo.ac.jp です
-  * 10桁の数字 ではありません
-* <a href="https://www.youtube.com/watch?v=Kumu8aPGnyI&feature=youtu.be" target="_blank">うまく行く場合の動画</a>もご覧ください 
-
-### Q. パスワードを再設定したのにメールが来ない
-* サーバの関係で受信が遅れることがあるため，1時間ほどお待ち下さい
-* それでも来ない場合は，所属学部・研究科等の窓口にご連絡ください
 
 ## Zoom
 
@@ -145,7 +126,7 @@ https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
 * そのため，UTokyo Account を使えるようにすることが大事です．UTokyo Account の使い方については，「（学生向け）[大学生活に必要な情報システムの準備について](/oc/)」「（教員向け）[東京大学における情報システムの準備について](/faculty_members)」に書かれている手順を確認してください．
 * また，[Zoom へのサインインの方法](/zoom/signin)も必要に応じて合わせてお読みください．
 
-#### Q. 料金は必要ですか？  
+#### Q. 料金は必要ですか？
 * 大学の Zoom アカウントを利用するために，追加の使用料がかかることはありません．
 
 #### Q. 東京大学のZoomアカウントにサインインする必要はありますか？
@@ -202,7 +183,7 @@ https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
 #### Q. 会議室への入室を学内限定にしたい
 * 詳しくは[こちら](/faculty_members/zoom_access_control)をご覧ください．複数の方法が紹介されています．
 
-#### Q. Zoom を用いて出席をとりたい  
+#### Q. Zoom を用いて出席をとりたい
 * 以下の手順で，Zoom の会議室にいた人の情報を得ることができるため，それを用いると出席管理できます．
   1. Zoom マイページの左のメニューにある「レポート」[https://zoom.us/account/report](https://zoom.us/account/report) を押して，更に「用途」を押します
   1. これまでに実施したミーティングの一覧が出てくるため，出席確認したいミーティングの「参加者」の列にある数字を押します．
@@ -210,9 +191,9 @@ https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
 <!-- * 以上の方法のほかに[itc-lmsで出席確認をする方法](/lms_lecturers/prepare_attendances)もあります． -->
 
 
-#### Q. オムニバス講義の担当教員や TA に作った部屋の開催者（ホスト）権限を付与したい  
+#### Q. オムニバス講義の担当教員や TA に作った部屋の開催者（ホスト）権限を付与したい
 <!-- これもページを作りたい！ -->
-* 対応する方法は2つあります． 
+* 対応する方法は2つあります．
   1. 主任教員がスケジュールで会議室を作成する際に，詳細オプション「ホストより前の参加を有効にする」をオンにしておき，ホストになってもらいたい担当教員やTAに<a href="https://zoomy.info/zoom_perfect_manual/joining/host_key/" target="_blank">ホストキー</a>を伝えておいて，担当教員やTAが入室後にメニュー「参加者」→「ホストの要求」と押して，ホストキーを入力してホストになってもらう．
      * こうすることで，アカウントを持っていない人でもホストになることができます
   1. スケジュールで会議室を作成する際に<a href="https://zoom-support.nissho-ele.co.jp/hc/ja/articles/360022865192-%E4%BB%A3%E6%9B%BF%E3%83%9B%E3%82%B9%E3%83%88" target="_blank">代替ホストを設定</a>する．
@@ -238,8 +219,8 @@ https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
 * 原則として，共通ID10桁@utac.u-tokyo.ac.jp の東大アカウントのみ代替ホストを割り当てられる仕様になっています．そのため，それ以外のアカウントには，申し訳ございませんが割り当てられません．
 * そのため，共通ID10桁@utac.u-tokyo.ac.jp のアカウントに切り替えていただくか，入室後に共同ホストやホストに権限を与える，ホストキーを通知するなど代替策を講じていただければ幸いです．
 
-<!--  
-### Q. ECCS 端末で Zoom を利用可能でしょうか？  
+<!--
+### Q. ECCS 端末で Zoom を利用可能でしょうか？
 * イヤホンやヘッドセットを持参すれば利用可能です．
 * 本格的なオンライン授業の開始に向けて，マイクの利用形態については現在検討中です．
 * 当面は，周りの迷惑にならない範囲でご利用ください．ECCS端末の入出力端子については<a href="https://userguide.ecc.u-tokyo.ac.jp/current/C3BCCBF62FC6FEBDD0CECFB4C4B6AD.html" target="_blank">利用の手引き</a>でご確認ください．
