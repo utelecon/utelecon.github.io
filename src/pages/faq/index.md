@@ -86,7 +86,7 @@ title: FAQ よくある質問
 * UTASは東京大学の学務システムです．学生にとってはシラバス閲覧・履修登録・成績確認などを行うシステムであり，教員にとってはシラバス登録・履修者名簿確認・成績登録などを行うシステムです．
 
 ### Q. UTAS にログインできない
-* <a href="https://utol.ecc.u-tokyo.ac.jp/login" target="_blank">UTOL</a>や<a href="https://utacm.adm.u-tokyo.ac.jp/UserMenu/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>にログインできるか確かめてみてください．
+* <a href="https://utacm.adm.u-tokyo.ac.jp/UserMenu/LoginServlet" target="_blank">UTokyo Account利用者メニュー</a>や<a href="https://utol.ecc.u-tokyo.ac.jp/login" target="_blank">UTOL</a>にログインできるか確かめてみてください．
   * それらにはログインできるのにUTASにはできない場合:
     * 稀に，UTokyo Accountが発行されているのにUTASのアカウントが発行されていない場合があります．所属の事務室に，UTokyo Accountの情報を添えて，自分にUTASのアカウントが発行されているかを尋ねてください．
   * それらにもログインできない場合:
@@ -116,6 +116,12 @@ TODO
 
 https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
 -->
+
+## UTokyo Account
+
+### Q. パスワードを再設定したのにメールが来ない
+* サーバの関係で受信が遅れることがあるため，1時間ほどお待ちください．
+* それでも来ない場合は，所属学部・研究科等の窓口にご連絡ください．
 
 ## Zoom
 
