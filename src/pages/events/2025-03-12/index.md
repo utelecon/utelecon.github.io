@@ -41,7 +41,7 @@ Sセメスターの開始にあたり，東京大学で利用されている情�
 - 質疑応答（終了後も質問を受け付けます）
 - 全体まとめ
 
-質問は**[こちらの Slido](https://app.sli.do/event/7fF9LrGSUkVowEfYDCVMfp/live/questions)** または [https://sli.do/](https://sli.do/) で code = `utelecon20250312`）へ投稿してください．事前の質問も歓迎します．
+質問は**[こちらの Slido](https://app.sli.do/event/7fF9LrGSUkVowEfYDCVMfp/live/questions)** （または [https://sli.do/](https://sli.do/) で code = `utelecon20250312`）へ投稿してください．事前の質問も歓迎します．
 
 ### 話者
 - 田浦健次朗　執行役・副学長
