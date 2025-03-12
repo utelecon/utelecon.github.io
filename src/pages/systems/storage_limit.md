@@ -9,7 +9,7 @@ title: Google・Microsoft等のストレージの保存容量について
 | クラウドストレージの名称 | 利用対象者 | 保存容量 | 制限を超えて利用する方法 | 備考 |
 | :-: | :-: | :-: | :-: | - |
 | [ECCSクラウドメール（Google Workspace）](/google/) | 学生・教職員 | ひとりあたり125GBまで | 大学の予算を用いて利用負担金を支払う | Gmail，Googleドライブ，Googleフォトの合計 |
-| [OneDrive](/microsoft/onedrive/) | 学生・教職員 | ひとりあたり50GBまで | 大学の予算を用いて利用負担金を支払う | 職員メールは含まず |
+| [OneDrive](/microsoft/onedrive/) | 学生・教職員 | ひとりあたり50GBまで | 大学の予算を用いて利用負担金を支払う | 職員メールは含まない |
 | [Teamsチームフォルダ](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Share_Teams_files.aspx) | 教職員 | 組織あたり100GBまで | 大学の予算を用いて利用負担金を支払う |  |
 
 ## 保存容量の考え方
@@ -19,9 +19,9 @@ title: Google・Microsoft等のストレージの保存容量について
 
 ### 保存容量の計算の仕方
 
-Google Workspaceでは，保存容量は，Gmail，Googleドライブ，Googleフォトの合計で考えます．これらのうちGoogleドライブには，個人が持ち主となる「マイドライブ」と，グループが持ち主となる「共有ドライブ」とがありますが，保存容量に算入されるのは原則としてマイドライブの部分のみです（マイドライブに保存されていて，他の方に共有しているファイル・フォルダ（「共有アイテム」）も含みます）．ただし，共有ドライブの「代表者」となっている方だけは，その共有ドライブの保存容量も計算に含めることになります．共有ドライブの代表者になっているかどうかは，「ECCSストレージ管理システム」の[「共有ドライブ管理」画面](https://storage-mgt.ecc.u-tokyo.ac.jp/shareddrive/list)で確認できます．保存容量の計算にどのように含めるかについて，詳しくは「[ECCSストレージ管理システムについて](https://utelecon.adm.u-tokyo.ac.jp/google/drive/storage/)」のページを参照してください．
+Google Workspaceでは，保存容量は，Gmail，Googleドライブ，Googleフォトの合計で考えます．これらのうちGoogleドライブには，個人が持ち主となる「マイドライブ」と，グループが持ち主となる「共有ドライブ」とがありますが，保存容量に算入されるのは原則としてマイドライブの部分のみです（マイドライブに保存されていて，他の方に共有しているファイル・フォルダ（「共有アイテム」）も含みます）．ただし，共有ドライブの「代表者」となっている方だけは，その共有ドライブの保存容量も計算に含めることになります．共有ドライブの代表者になっているかどうかは，「ECCSストレージ管理システム」の[「共有ドライブ管理」画面](https://storage-mgt.ecc.u-tokyo.ac.jp/shareddrive/list)で確認できます．保存容量の計算にどのように含めるかについて，詳しくは「[ECCSストレージ管理システムについて](/google/drive/storage/)」のページを参照してください．
 
-一方，Microsoftによるサービスである[OneDrive](https://utelecon.adm.u-tokyo.ac.jp/microsoft/onedrive/)，[職員メール](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx)（教職員のみ利用可能） ，[Teamsチームフォルダ](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Share_Teams_files.aspx)（教職員のみ利用可能）では，それぞれ別個に保存容量を計算します．
+一方，Microsoftによるサービスである[OneDrive](/microsoft/onedrive/)，[職員メール](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx)（教職員のみ利用可能） ，[Teamsチームフォルダ](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Share_Teams_files.aspx)（教職員のみ利用可能）では，それぞれ別個に保存容量を計算します．
 
 なお，いずれのストレージに関しても，「ごみ箱」に入っているファイルも保存容量の計算に含まれます．また，OneDriveではバージョン管理の機能が有効になっており，過去のバージョンも保存容量の計算に含まれます．このため，サイズの大きいファイルに関しては過去の不要なバージョンを削除することで，空き容量を増やせます（詳しくは[「OneDriveでサイズの大きいファイルを表示させる，バージョン履歴を削除する方法」の動画](https://univtokyo.sharepoint.com/:v:/s/utokyoaccount/ESkNKTQEvV5Er9Ynu3VLFVIBnoYu1cgwI0_KqkwMWlRKRQ?e=uIWA8q)（UTokyo Accountでのサインインが必要です） を参照してください）．
 
@@ -35,7 +35,7 @@ Google Workspaceでは，保存容量は，Gmail，Googleドライブ，Google�
 
 ECCSクラウドメール（Google Workspace）は，学生・教職員ひとりにつき125GBまで，追加の費用負担なく利用できます．もし共有ドライブの代表者となる場合は，この保存容量の中で各共有ドライブの大きさを割り当てることにより，すべての合計を125GBに収めていただきます．もし割り当てられた容量を超えると，ファイルの追加や編集ができなくなります．
 
-125GBを超えて利用するには，大学の予算を用いて「利用負担金」を支払う必要があります．ただし，大学の予算を持たない構成員であっても，予算を持つ教職員から代わりに利用負担金を負担してもらうことも手続きとしては可能です．保存容量の拡張に関して詳しくは，「[ECCSストレージ管理システムについて](https://utelecon.adm.u-tokyo.ac.jp/google/drive/storage/)」のページを参照してください．
+125GBを超えて利用するには，大学の予算を用いて「利用負担金」を支払う必要があります．ただし，大学の予算を持たない構成員であっても，予算を持つ教職員から代わりに利用負担金を負担してもらうことも手続きとしては可能です．保存容量の拡張に関して詳しくは，「[ECCSストレージ管理システムについて](/google/drive/storage/)」のページを参照してください．
 
 なお，共有ドライブ以外の合計に関して，実際の利用状況は，Googleの[「保存容量」の画面](https://drive.google.com/drive//quota)で確認できます．共有ドライブの実際の利用状況は，「ECCSストレージ管理システム」の[「共有ドライブ管理」画面](https://storage-mgt.ecc.u-tokyo.ac.jp/shareddrive/list)で確認できます．
 
