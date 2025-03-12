@@ -77,7 +77,7 @@ LTI連携機能により，UTOLとZoomミーティングを連携させて利用
 
 ## 参考ページ
 
-- [LTI連携機能でUTOLからのZoomミーティングを利用する（学生向け）](../../../students/lti/zoom/)
+- [LTI連携機能でUTOLからのZoomミーティングを利用する（学生向け）](../../../students/integrations/zoom/)
 - [授業URLの連絡方法（教員向け）](/faculty_members/url)
   - 教員から学生にオンライン授業のURL（Zoomなどの会議室のURL）を連絡する方法です．
 - [東京大学における情報システムの準備について（教員向け）](/faculty_members/)
