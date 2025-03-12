@@ -2,6 +2,7 @@
 title: UTokyo Account多要素認証の本人確認方法再登録について
 breadcrumb:
   title: 本人確認方法の再登録
+redirect_from: /utokyo_account/mfa/reregister_and_terminate
 ---
 
 このページでは，[UTokyo Accountの多要素認証](.)について，「**本人確認方法の再登録**」の手続きの説明をしています．
