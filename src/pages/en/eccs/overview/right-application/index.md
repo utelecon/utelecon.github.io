@@ -28,21 +28,21 @@ Anyone with a UTokyo Account, including students and academic and administrative
 Please follow the procedure below to apply.
 
 1. Please open the ECCS Application Menu from the link below.
-    <strong class="box center">
-    [ECCS Application Menu](https://idm.ecc.u-tokyo.ac.jp/idworkflow/)
-    </strong>
+   <strong class="box center">
+   [ECCS Application Menu](https://idm.ecc.u-tokyo.ac.jp/idworkflow/)
+   </strong>
 2. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in screen will appear, so please sign in.
 3. Click "Request Create" in the left menu.
 4. Please apply for the Right to use the ECCS as follows, depending on whether you are a student or an academic and administrative staff.
    - If you are a student
-     1. Click on the "ECCS Application (for students)" link.
+     1. Click on the "ECCS application(for students)" link.
      2. Confirm the details of your application and click the "Submit" button.
      3. As your application details will be displayed again, confirm them and click the "Submit" button again.
    - If you are an academic and administrative staff
      1. Click on "ECCS Application Form".
      2. Enter the necessary details and click on the "Submit" button.
      3. As your application details will be displayed, confirm them and click the "Submit" button.
-5. You will be granted Right to use the ECCS immediately after completing the application.
+5. You will be granted the Right to use the ECCS immediately after completing the application.
 
 However, the following services will take some time to become available.
 
@@ -51,12 +51,12 @@ However, the following services will take some time to become available.
 
 ## Checking if you have the Right to use the ECCS
 
-You can check whether you have Right to use the ECCS using the following procedure from the [ECCS User Menu](https://idm.ecc.u-tokyo.ac.jp/webmtn/LoginServlet).
+You can check whether you have Right to use the ECCS using the following procedure from the [ECCS User Menu](https://idm.ecc.u-tokyo.ac.jp/webmtn/).
 
 1. Please open the ECCS User Menu from the link below.
-    <strong class="box center">
-    [ECCS User Menu](https://idm.ecc.u-tokyo.ac.jp/webmtn/LoginServlet) 
-    </strong>
+   <strong class="box center">
+   [ECCS User Menu](https://idm.ecc.u-tokyo.ac.jp/webmtn/)
+   </strong>
 2. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in screen will appear, so please sign in.
 3. Click "ECCS Account Information" in the left menu.
 4. Whether or not you have Right to use the ECCS, and if you have Right to use the ECCS, the date of acquisition is displayed.
@@ -79,9 +79,9 @@ In addition, according to the Terms of Service of Educational Campus-wide Comput
 If you no longer need your Right to use the ECCS, you can delete them using the following procedure. Deleting your usage right will prevent you from logging in to ECCS terminals, etc., and will also delete any saved data. You can reapply for a usage right after deleting it. However, any data that has been deleted cannot be restored.
 
 1. Please log into the ECCS Application Menu.
-    <strong class="box center">
-    [ECCS Application Menu](https://idm.ecc.u-tokyo.ac.jp/idworkflow/)
-    </strong>
+   <strong class="box center">
+   [ECCS Application Menu](https://idm.ecc.u-tokyo.ac.jp/idworkflow/)
+   </strong>
 2. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in screen will appear, so please sign in.
 3. Click "Request Create" in the left menu.
 4. Select "Application for the Deletion of ECCS Account".
