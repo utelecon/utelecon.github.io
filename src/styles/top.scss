@@ -97,6 +97,23 @@
     grid-template-columns: 1fr;
   }
 
+  & > li > a {
+    & > img {
+      display: block;
+      max-height: 1.5rem;
+      margin: 0.5rem auto;
+    }
+    & > .material-icons {
+      display: inline-block;
+      font-family: "Material Icons";
+      margin: 0 0.5rem;
+      text-transform: none;
+      white-space: nowrap;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
   & > li:last-child {
     display: flex;
     grid-column: -2 / -1;
