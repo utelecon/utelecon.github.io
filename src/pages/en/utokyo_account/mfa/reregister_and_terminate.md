@@ -1,7 +1,7 @@
 ---
-title: Reregistering Verification Method of the Use of Multi-Factor Authentication for UTokyo Accounts
+title: Reregistering Verification Method for UTokyo Accounts
 breadcrumb:
-  title: Reregistering Verification Method of the Use
+  title: Reregistering Verification Method
 ---
 
 This page describes the following procedures regarding [UTokyo Account Multi-Factor Authentication (MFA)](.): “Reregistering Verification Method” for MFA. 
