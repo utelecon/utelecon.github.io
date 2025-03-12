@@ -9,7 +9,7 @@ This page describes the following procedures regarding [UTokyo Account Multi-Fac
 
 In case you lose access to all verification methods and are unable to sign in to the UTokyo Account, we can take measures to allow you to retry the registration process for MFA all over again and keep using MFA. Check if any of your verification methods can be used beforehand as described below. Please follow the procedures only if all verification methods are no longer available.
 
-For security reasons, UTokyo Account mandates the use of multi-factor authentication. If you have a compelling reason to use multi-factor authentication, please contact our [Support Desk](/support/).
+For security reasons, UTokyo Account mandates the use of multi-factor authentication. If you have a compelling reason to use multi-factor authentication, please contact our [Support Desk](/en/support/email-form).
 
 The “Reregistering Verification Method” procedure was renamed from the “Resetting” procedure in September 2022.
 
