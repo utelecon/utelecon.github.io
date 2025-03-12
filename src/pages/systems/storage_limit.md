@@ -37,7 +37,7 @@ ECCSクラウドメール（Google Workspace）は，学生・教職員ひとり
 
 125GBを超えて利用するには，大学の予算を用いて「利用負担金」を支払う必要があります．ただし，大学の予算を持たない構成員であっても，予算を持つ教職員から代わりに利用負担金を負担してもらうことも手続きとしては可能です．保存容量の拡張に関して詳しくは，「[ECCSストレージ管理システムについて](/google/drive/storage/)」のページを参照してください．
 
-なお，共有ドライブ以外の合計に関して，実際の利用状況は，Googleの[「保存容量」の画面](https://drive.google.com/drive//quota)で確認できます．共有ドライブの実際の利用状況は，「ECCSストレージ管理システム」の[「共有ドライブ管理」画面](https://storage-mgt.ecc.u-tokyo.ac.jp/shareddrive/list)で確認できます．
+なお，共有ドライブ以外の合計に関して，実際の利用状況は，Googleの[「保存容量」の画面](https://drive.google.com/drive/quota)で確認できます．共有ドライブの実際の利用状況は，「ECCSストレージ管理システム」の[「共有ドライブ管理」画面](https://storage-mgt.ecc.u-tokyo.ac.jp/shareddrive/list)で確認できます．
 
 ### OneDrive
 
