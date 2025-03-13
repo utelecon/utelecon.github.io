@@ -22,20 +22,20 @@ Sセメスターの開始にあたり，東京大学で利用されている情�
 説明会の資料・動画はこのページで提供しています．
 
 ## 内容
-- 説明会の趣旨と全体像（[資料](/events/2025-03-12/slides/00_index_ja.pdf)・[動画]()）
-- Part I：東京大学における情報システムの基礎（[資料](/events/2025-03-12/slides/01_basics_ja.pdf)・[動画]()）
+- 説明会の趣旨と全体像（[資料](/events/2025-03-12/slides/00_index_ja.pdf)・[動画](https://youtu.be/2w4f8sWBSLA)）
+- Part I：東京大学における情報システムの基礎（[資料](/events/2025-03-12/slides/01_basics_ja.pdf)・[動画](https://youtu.be/bIQ_9HIl1JA)）
   - UTokyo Account
   - 初期設定と多要素認証
   - 情報セキュリティ教育
   - UTokyo Wi-Fi
-- Part II：利用可能なコミュニケーションツールとクラウドサービス（[資料](/events/2025-03-12/slides/02_cloud_services_ja.pdf)・[動画]()）
+- Part II：利用可能なコミュニケーションツールとクラウドサービス（[資料](/events/2025-03-12/slides/02_cloud_services_ja.pdf)・[動画](https://youtu.be/hLvy62T3_tM)）
   - Zoom とオンライン会議のためのツール
   - UTokyo Slack
   - ECCS クラウドメール (Google Workspace)
   - UTokyo Microsoft License
   - 生成AI
   - サポート体制
-- Part III：教育活動に利用する情報システム – UTAS と UTOL（[資料](/events/2025-03-12/slides/03_systems_for_education_ja.pdf)・[動画]()）
+- Part III：教育活動に利用する情報システム – UTAS と UTOL（[資料](/events/2025-03-12/slides/03_systems_for_education_ja.pdf)・[動画](https://youtu.be/r2YTKpJAySY)）
   - UTAS
   - UTOL
 - 質疑応答（終了後も質問を受け付けます）
