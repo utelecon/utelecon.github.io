@@ -48,6 +48,7 @@ h5 {
   font-weight: bold;
   margin-top: 0.89em;
   margin-bottom: 0.89em;
+  text-decoration: underline 1px;
   color: black;
 }
 
@@ -56,5 +57,5 @@ h6 {
   font-weight: bold;
   margin-top: 0.89em;
   margin-bottom: 0.89em;
-  color: black;
+  color: $heading-color;
 }
