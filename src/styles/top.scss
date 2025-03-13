@@ -140,3 +140,14 @@ ul.date_list {
     margin-right: 1rem;
   }
 }
+
+.systems-link {
+  text-align: right;
+  & > a::after {
+    content: "arrow_forward";
+    font-family: "Material Icons";
+    font-weight: bold;
+    color: $heading-color;
+    vertical-align: middle;
+  }
+}
