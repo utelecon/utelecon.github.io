@@ -12,8 +12,7 @@ import "@styles/rss_icon.scss";
 import Emergency from '@components/Emergency.mdx';
 import Notice from '@components/pages/Notice.astro';
 import Events from '@components/pages/Events.astro';
-import FontAwesomeIcon from '@components/embed/FontAwesomeIcon.astro';
-import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-icons';
+import MaterialIcon from "@components/embed/MaterialIcon.astro";
 
 <Emergency />
 
@@ -22,13 +21,13 @@ import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-
 
 <div class="largecards">
   <div class="largecards__card">
-    <a href="/oc/"><FontAwesomeIcon icon={faPen} /><span>学生向け</span></a>
+    <a href="/oc/"><MaterialIcon name="groups" /><span>学生向け</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/faculty_members/"><FontAwesomeIcon icon={faUserGraduate} /><span>教員向け</span></a>
+    <a href="/faculty_members/"><MaterialIcon name="school" /><span>教員向け</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/staff_members/"><FontAwesomeIcon icon={faIdCardAlt} /><span>職員向け</span></a>
+    <a href="/staff_members/"><MaterialIcon name="badge" /><span>職員向け</span></a>
   </div>
 </div>
 

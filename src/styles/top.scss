@@ -24,9 +24,7 @@
   }
 
   & > &__card {
-    display: flex;
     position: relative;
-    align-items: center;
 
     & > a {
       @extend .card;
@@ -34,21 +32,33 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 1em 4em 1em 1em;
+      padding-right: 4rem;
       @media (max-width: 896px) {
-        padding: 1em 2em 1em 1em;
+        padding-right: 2em;
         justify-content: unset;
       }
 
+      .material-icon,
       .font-awesome {
-        flex-basis: 3rem;
-        flex-shrink: 0;
-        margin: 1rem 1rem 1rem 0.5rem;
+        display: flex;
+        margin: 1.5rem 1rem 1.5rem 1rem;
 
         @media (max-width: 896px) {
-          flex-basis: 2rem;
-          margin: 0 1rem 0 0.5rem;
+          flex-basis: 3rem;
+          margin: .5rem 1rem .5rem .5rem;
         }
+
+        & + span {
+          flex-shrink: 0;
+        }
+      }
+
+      .material-icon {
+        flex-basis: 5rem;
+      }
+
+      .font-awesome {
+        flex-basis: 4rem;
       }
 
       &::after {
