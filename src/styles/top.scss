@@ -108,19 +108,26 @@
   }
 
   & > li > a {
+    text-align: center;
+    color: $black-gray;
     & > img {
       display: block;
-      max-height: 1.5rem;
+      max-height: 2rem;
       margin: 0.5rem auto;
+      @media (max-width: 896px) {
+        max-height: 1.5rem;
+      }
     }
-    & > .material-icons {
-      display: inline-block;
-      font-family: "Material Icons";
-      margin: 0 0.5rem;
-      text-transform: none;
-      white-space: nowrap;
-      text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
+    & > span.material-icon {
+      display: block;
+      text-align: center;
+      svg {
+        fill: $link-color;
+        height: 2rem;
+        @media (max-width: 896px) {
+          height: 1.5rem;
+        }
+      }
     }
   }
 
