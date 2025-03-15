@@ -1,34 +1,58 @@
 @import "color";
 @import "components/card.scss";
 
+.heading {
+  font-size: 1.75rem;
+  border-left: unset;
+  border-bottom: unset;
+  padding-left: unset;
+}
+
 .cards {
   text-align: left;
 }
 
 .largecards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 12em;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   grid-gap: 1em;
   margin: 1em 0;
   padding: 0;
   @media (max-width: 896px) {
-    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: row;
   }
 
   & > &__card {
-    display: flex;
     position: relative;
-    align-items: center;
 
     & > a {
       @extend .card;
 
       display: flex;
       align-items: center;
-      padding: 1em 4em 1em 1em;
+      justify-content: space-between;
+      padding-right: 4rem;
       @media (max-width: 896px) {
-        padding: 1em 2em 1em 1em;
+        padding-right: 2em;
+        justify-content: unset;
+      }
+
+      .material-icon,
+      .font-awesome {
+        display: flex;
+        width: 5rem;
+        flex-shrink: 0;
+        margin: 1.5rem 1rem 1.5rem 1rem;
+
+        @media (max-width: 896px) {
+          width: 3rem;
+          margin: .5rem 1rem .5rem .5rem;
+        }
+      }
+
+      & > :last-child:lang(ja) {
+        flex-shrink: 0;
       }
 
       &::after {
@@ -109,15 +133,25 @@
 
 ul.date_list {
   list-style-type: none;
-  margin-left: -1rem;
 
-  & > li {
-    padding-left: 1rem;
+  & .date {
+    margin-left: -1rem;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  &.localized .date {
+    margin-right: 1rem;
   }
 }
 
-.date {
-  margin-left: -1rem;
-  font-size: large;
-  font-weight: bold;
+.systems-link {
+  text-align: right;
+  & > a::after {
+    content: "arrow_forward";
+    font-family: "Material Icons";
+    font-weight: bold;
+    color: $heading-color;
+    vertical-align: middle;
+  }
 }
