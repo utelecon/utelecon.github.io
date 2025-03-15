@@ -108,22 +108,32 @@
   }
 
   & > li > a {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: $black-gray;
+    // システム名
+    & > span {
+      display: block;
+      text-align: center;      
+    }
+    // ロゴ画像
     & > img {
       display: block;
       max-height: 2rem;
       margin: 0.5rem auto;
+      padding: 0.25rem;
       @media (max-width: 896px) {
         max-height: 1.5rem;
       }
     }
+    // Material Icons
     & > span.material-icon {
       display: block;
       text-align: center;
       svg {
         fill: $link-color;
-        height: 2rem;
+        height: 3rem;
         @media (max-width: 896px) {
           height: 1.5rem;
         }
