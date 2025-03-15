@@ -41,6 +41,8 @@
       .material-icon,
       .font-awesome {
         display: flex;
+        flex-basis: 5rem;
+        flex-shrink: 0;
         margin: 1.5rem 1rem 1.5rem 1rem;
 
         @media (max-width: 896px) {
@@ -48,17 +50,9 @@
           margin: .5rem 1rem .5rem .5rem;
         }
 
-        & + span {
+        & + span:lang(ja) {
           flex-shrink: 0;
         }
-      }
-
-      .material-icon {
-        flex-basis: 5rem;
-      }
-
-      .font-awesome {
-        flex-basis: 4rem;
       }
 
       &::after {
