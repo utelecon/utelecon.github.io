@@ -45,7 +45,7 @@
 
         @media (max-width: 896px) {
           flex-basis: 3rem;
-          margin: .5rem 1rem .5rem .5rem;
+          margin: 0.5rem 1rem 0.5rem 0.5rem;
         }
 
         & + span {
@@ -115,28 +115,29 @@
     // システム名
     & > span {
       display: block;
-      text-align: center;      
+      text-align: center;
     }
-    // ロゴ画像
+    // ロゴ画像・Material Icons
+    & > img,
+    & > span.material-icon {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+    }
     & > img {
-      display: block;
-      max-height: 2rem;
-      margin: 0.5rem auto;
+      max-height: 2.25rem;
+      margin: auto;
       padding: 0.25rem;
       @media (max-width: 896px) {
         max-height: 1.5rem;
       }
     }
-    // Material Icons
-    & > span.material-icon {
-      display: block;
-      text-align: center;
-      svg {
-        fill: $link-color;
-        height: 3rem;
-        @media (max-width: 896px) {
-          height: 1.5rem;
-        }
+    & > span.material-icon > svg {
+      fill: $link-color;
+      height: 3rem;
+      @media (max-width: 896px) {
+        height: 1.5rem;
       }
     }
   }
