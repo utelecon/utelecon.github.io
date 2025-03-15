@@ -41,18 +41,18 @@
       .material-icon,
       .font-awesome {
         display: flex;
-        flex-basis: 5rem;
+        width: 5rem;
         flex-shrink: 0;
         margin: 1.5rem 1rem 1.5rem 1rem;
 
         @media (max-width: 896px) {
-          flex-basis: 3rem;
+          width: 3rem;
           margin: .5rem 1rem .5rem .5rem;
         }
+      }
 
-        & + span:lang(ja) {
-          flex-shrink: 0;
-        }
+      & :last-child:lang(ja) {
+        flex-shrink: 0;
       }
 
       &::after {
