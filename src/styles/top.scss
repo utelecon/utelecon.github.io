@@ -51,7 +51,7 @@
         }
       }
 
-      & :last-child:lang(ja) {
+      & > :last-child:lang(ja) {
         flex-shrink: 0;
       }
 
