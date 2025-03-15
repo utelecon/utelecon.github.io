@@ -12,8 +12,7 @@ import "@styles/rss_icon.scss";
 import Emergency from '@components/Emergency.mdx';
 import Notice from '@components/pages/Notice.astro';
 import Events from '@components/pages/Events.astro';
-import FontAwesomeIcon from '@components/embed/FontAwesomeIcon.astro';
-import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-icons';
+import MaterialIcon from "@components/embed/MaterialIcon.astro";
 
 <Emergency />
 
@@ -22,18 +21,17 @@ import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-
 
 <div class="largecards">
   <div class="largecards__card">
-    <a href="/oc/"><FontAwesomeIcon icon={faPen} /><span>学生向け</span></a>
+    <a href="/oc/"><MaterialIcon name="groups" /><span>学生向け</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/faculty_members/"><FontAwesomeIcon icon={faUserGraduate} /><span>教員向け</span></a>
+    <a href="/faculty_members/"><MaterialIcon name="school" /><span>教員向け</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/staff_members/"><FontAwesomeIcon icon={faIdCardAlt} /><span>職員向け</span></a>
+    <a href="/staff_members/"><MaterialIcon name="badge" /><span>職員向け</span></a>
   </div>
 </div>
 
-<div class="container">
-<div class="container__column">
+<div class="systems-link">[東京大学の情報システムの一覧はこちらから](/systems/)</div>
 
 <Events show={[
   "2025-03-12",
@@ -41,6 +39,9 @@ import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-
   "2024-09-13",
 ]} lang="ja">
 </Events>
+
+<div class="container">
+<div class="container__column">
 
 ## お知らせ <a href="/notice/rss" class="rss_icon" title="RSS">rss_feed</a>
 {:#notice}
@@ -50,9 +51,6 @@ import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-
 <Notice lang="ja" strip localize />
 
 [過去のお知らせ一覧はこちら](/notice/)
-
-</div>
-<div class="container__column">
 
 ## 新着記事
 
@@ -71,6 +69,9 @@ import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-
 - [学習管理システムの概要を知る，ITC-LMSを活用する](/articles/itc-lms/)
 - [オンラインのグループディスカッションで生じやすい問題とその対策案](/articles/group-discussion/)
 - [オンラインのグループディスカッションでワークシートを活用する](/articles/group-discussion-worksheet/)
+
+</div>
+<div class="container__column">
 
 ## ピックアップ
 

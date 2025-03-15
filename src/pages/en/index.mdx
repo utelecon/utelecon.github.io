@@ -13,8 +13,7 @@ import "@styles/rss_icon.scss";
 import Emergency from '@components/Emergency.mdx'
 import Notice from '@components/pages/Notice.astro'
 import Events from '@components/pages/Events.astro'
-import FontAwesomeIcon from '@components/embed/FontAwesomeIcon.astro';
-import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-icons';
+import MaterialIcon from "@components/embed/MaterialIcon.astro";
 
 <Emergency />
 
@@ -23,15 +22,25 @@ import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-
 
 <div class="largecards">
   <div class="largecards__card">
-    <a href="/en/oc/"><FontAwesomeIcon icon={faPen} /><span>For Students</span></a>
+    <a href="/en/oc/"><MaterialIcon name="groups" /><span>For Students</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/en/faculty_members/"><FontAwesomeIcon icon={faUserGraduate} /><span>For Faculty Members</span></a>
+    <a href="/en/faculty_members/"><MaterialIcon name="school" /><span>For Faculty Members</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/en/staff_members/"><FontAwesomeIcon icon={faIdCardAlt} /><span>For Staff</span></a>
+    <a href="/en/staff_members/"><MaterialIcon name="badge" /><span>For Staff</span></a>
   </div>
 </div>
+
+<Events show={[
+  "2025-03-12",
+  "2025-02-21",
+  "2024-09-13",
+]} alternative={{"2024-09-13": {"href": "/en/events/2024-09-13"}}} lang="en">
+<Fragment slot="2025-03-12">Information Session on ICT Systems and Tools for UTokyo Members <small>(only in Japanese)</small></Fragment>
+<Fragment slot="2025-02-21">Information Session on UTokyo Azure <small>(only in Japanese)</small></Fragment>
+<Fragment slot="2024-09-13">Information Session on ICT Systems and Tools for UTokyo Members</Fragment>
+</Events>
 
 <div class="container">
 <div class="container__column">
@@ -46,16 +55,6 @@ import { faPen, faUserGraduate, faIdCardAlt } from '@fortawesome/free-solid-svg-
 
 </div>
 <div class="container__column">
-
-<Events show={[
-  "2025-03-12",
-  "2025-02-21",
-  "2024-09-13",
-]} alternative={{"2024-09-13": {"href": "/en/events/2024-09-13"}}} lang="en">
-<Fragment slot= "2025-03-12">Information Session on ICT Systems and Tools for UTokyo Members <small>(only in Japanese)</small></Fragment>
-<Fragment slot= "2025-02-21">Information Session on UTokyo Azure <small>(only in Japanese)</small></Fragment>
-<Fragment slot="2024-09-13">Information Session on ICT Systems and Tools for UTokyo Members</Fragment>
-</Events>
 
 ## Pickup
 

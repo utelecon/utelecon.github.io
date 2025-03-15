@@ -1,0 +1,129 @@
+---
+import { type Parent, type Element } from "hast";
+import { createRequire } from "node:module";
+import { join } from "node:path/posix";
+import * as React from "react";
+import rehypeParse from "rehype-parse";
+import rehypeStringify from "rehype-stringify";
+import { read } from "to-vfile";
+import * as unified from "unified";
+import { type Node } from "unist";
+import { type VFile } from "vfile";
+
+type Style = "filled" | "outlined" | "round" | "sharp" | "two-tone";
+
+type ReactSVGAttributes = Omit<
+  React.SVGAttributes<never>,
+  "suppressHydrationWarning" | keyof React.DOMAttributes<any>
+>;
+
+type SVGAttributes = Omit<ReactSVGAttributes, "className"> & { class?: string };
+
+const MATERIAL_ICONS_PACKAGE = "@material-design-icons/svg";
+
+const require = createRequire(import.meta.url);
+
+async function resolve(spec: string): Promise<string> {
+  return require.resolve(spec);
+}
+
+function isElement(n: Node): n is Element {
+  return n.type === "element";
+}
+
+function isParent(n: Node): n is Parent {
+  return "children" in n && n.children instanceof Array;
+}
+
+type SVGElement = Element & { tagName: "svg"; properties: SVGAttributes };
+
+function isSVGElement(n: Node): n is SVGElement {
+  return isElement(n) && n.tagName === "svg";
+}
+
+function transformCamelToKebab(
+  obj: Record<string, unknown>
+): Record<string, unknown> {
+  return Object.fromEntries(
+    Object.entries(obj).map(([k, v]) => [
+      k.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase(),
+      v,
+    ])
+  );
+}
+
+type ProcessSVGOptions = {
+  processor: <E extends SVGElement>(_: E) => E;
+};
+
+const processSVG: unified.Plugin<[ProcessSVGOptions, ...unknown[]]> =
+  ({ processor }, ..._: unknown[]) =>
+  <N extends Node>(tree: N, _: VFile): N => {
+    if (isParent(tree)) {
+      return {
+        ...tree,
+        children: tree.children.map((e) =>
+          isSVGElement(e) ? processor(e) : e
+        ),
+      };
+    }
+    return tree;
+  };
+
+async function load({
+  name,
+  style,
+  props = {},
+}: {
+  name: string;
+  style: Style;
+  props?: ReactSVGAttributes;
+}): Promise<string> {
+  const bare = join(MATERIAL_ICONS_PACKAGE, style, `${name}.svg`);
+
+  const kebab = transformCamelToKebab(props);
+  if ("class-name" in kebab) {
+    kebab["class"] = kebab["class-name"];
+    delete kebab["class-name"];
+  }
+
+  const processor = unified
+    .unified()
+    .use(rehypeParse, { fragment: true })
+    .use(processSVG, {
+      processor: (e) => ({
+        ...e,
+        properties: {
+          ...e.properties,
+          ...kebab,
+        },
+      }),
+    })
+    .use(rehypeStringify);
+
+  return await resolve(bare)
+    .then(read)
+    .then((file) => processor.process(file))
+    .then(({ value }) => value.toString());
+}
+
+type Props = {
+  name: string;
+  style?: Style;
+  class?: string;
+  props?: ReactSVGAttributes;
+};
+
+const { class: className, name, style = "filled", props = {} } = Astro.props;
+
+props.height ??= undefined;
+props.width ??= undefined;
+props.fill ??= "currentColor";
+---
+
+<span class:list={[className, "material-icon"]}
+  ><Fragment set:html={load({ name, style, props })} /></span
+>
+
+{/* TODO: set appropriate template directive to limit the scope of style */}
+<style is:global></style>
