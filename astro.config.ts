@@ -20,7 +20,12 @@ import {
   type Options as RehypeExternalLinksOptions,
 } from "rehype-external-links";
 
-const developmentMode = import.meta.env.MODE === "development";
+/**
+ * The official manner to check the mode, `import.meta.env.MODE`, has not been
+ * available until all setup process has been done, including loading of
+ * integrations and unified plugins.
+ */
+const developmentMode = process.argv.includes("dev");
 
 const rehypeExternalLinksOptions: RehypeExternalLinksOptions = {
   target: "_blank",
