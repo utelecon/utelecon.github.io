@@ -73,9 +73,6 @@ export default defineConfig({
       rel: ["noopener", "noreferrer"],
       content: { type: "text", value: "" },
       contentProperties: { className: ["external-link"] },
-      test: ({ properties: { className } }, _index, _parent) =>
-        typeof className === "string" &&
-        className.split(" ").includes("no-external-link-mark"),
     }),
     cleanup(),
     copyAsset(),
