@@ -32,9 +32,10 @@ const onRequest: MiddlewareHandler = async (_, next) => {
   if (contentType?.match(mimeHtmlPattern)) {
     return new Response(
       await response
-        .text()
-        .then((html) => processor.process(html))
-        .then(({ value }) => value.toString()),
+        .blob()
+        .then((b) => b.bytes())
+        .then((ab) => processor.process(ab))
+        .then(({ value }) => value),
       {
         status: response.status,
         headers: response.headers,
