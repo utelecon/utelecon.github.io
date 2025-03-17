@@ -5,21 +5,19 @@ breadcrumb:
 ---
 
 import HelpItem from "@components/utils/HelpItem.astro";
+import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.mdx";
 
 ## 概要
 {:#about}
 
 本サービスで多く利用されると思われる，仮想マシン（Azure のサービス名はVirtual Machines）の作成を最低限の構成で行う一例です．
 
+参考： [**仮想マシンを作ろう -13BのLlama-3モデルをLoRA fine-tuningしたい-**](https://utelecon.adm.u-tokyo.ac.jp/events/2025-02-21/slides/5-3_create_VM.pdf) (2025.02.21 UTokyo Azure 説明会資料)
+
 ## １．サービスを選択する
 {:#select_service}
 
-<div class="box">
-- まだサブスクリプションをお持ちでない場合は，事前に以下サイトよりサブスクリプションを申請してください．
-  - [UTokyo Azure新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/) ※学内ネットワークからのアクセスに限定．UTokyo Account 所持者のみログイン可
-</div>
-
-- [Azure portal](https://portal.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．（新規申請された場合は表示されるようになるまで時間がかかります）
+<FirstTimeUsing type="details" />
 
 ![](img/01_login.png){:.medium.center.border}
 
