@@ -15,27 +15,6 @@ import copyAsset from "./src/lib/CopyAssetIntegration.js";
 import assetFileNames from "./src/lib/AssetFileNames.js";
 import rehypeRaw from "rehype-raw";
 import remarkImageClasslist from "./src/lib/remark-image-classlist.js";
-import {
-  default as rehypeExternalLinks,
-  type Options as RehypeExternalLinksOptions,
-} from "rehype-external-links";
-
-/**
- * The official manner to check the mode, `import.meta.env.MODE`, has not been
- * available until all setup process has been done, including loading of
- * integrations and unified plugins.
- */
-const developmentMode = process.argv.includes("dev");
-
-const rehypeExternalLinksOptions: RehypeExternalLinksOptions = {
-  target: "_blank",
-  rel: ["noopener", "noreferrer"],
-  content: { type: "text", value: "" },
-  contentProperties: { className: ["external-link"] },
-};
-
-const externalLinksForDevelopment = () =>
-  developmentMode ? rehypeExternalLinks(rehypeExternalLinksOptions) : undefined;
 
 // https://astro.build/config
 export default defineConfig({
@@ -79,17 +58,22 @@ export default defineConfig({
       footnoteLabelProperties: { className: ["visually-hidden"] },
       footnoteLabelTagName: "b",
     },
-    rehypePlugins: [rehypeRaw, collectHtmlImages, externalLinksForDevelopment],
+    rehypePlugins: [rehypeRaw, collectHtmlImages],
     shikiConfig: {
       theme: "min-light",
     },
   },
   scopedStyleStrategy: "where",
   integrations: [
-    mdx({ rehypePlugins: [externalLinksForDevelopment] }),
+    mdx({ rehypePlugins: [] }),
     react(),
     redirect(),
-    externalLinks(rehypeExternalLinksOptions),
+    externalLinks({
+      target: "_blank",
+      rel: ["noopener", "noreferrer"],
+      content: { type: "text", value: "" },
+      contentProperties: { className: ["external-link"] },
+    }),
     cleanup(),
     copyAsset(),
   ],
