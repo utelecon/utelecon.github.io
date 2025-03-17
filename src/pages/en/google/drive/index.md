@@ -2,6 +2,9 @@
 title: Google Drive
 breadcrumb:
   title: Google Drive
+redirect_from:
+  - /articles/google-drive/
+  - /faculty_members/how/google/share_video
 ---
 
 ## What is Google Drive?
