@@ -6,8 +6,10 @@ import type { Options } from "rehype-external-links";
 import stringify from "rehype-stringify";
 import { read, write } from "to-vfile";
 import { getDistFilePath } from "./util";
-import { EXIT, visit } from "unist-util-visit";
+import { visit } from "unist-util-visit";
 import type { Root } from "hast";
+
+class Abort extends Error {}
 
 export default function (options: Options): AstroIntegration {
   const processor = unified()
@@ -15,7 +17,6 @@ export default function (options: Options): AstroIntegration {
     .use(() => {
       const externalLinks = rehypeExternalLinks(options);
       return (tree: Root) => {
-        let isRedirectPage = false;
         visit(tree, (node) => {
           if (node.type === "element" && node.tagName === "meta") {
             const httpEquiv = node.properties["httpEquiv"];
@@ -24,12 +25,11 @@ export default function (options: Options): AstroIntegration {
                 ? httpEquiv.includes("refresh")
                 : httpEquiv === "refresh"
             ) {
-              isRedirectPage = true;
-              return EXIT;
+              throw new Abort();
             }
           }
         });
-        if (!isRedirectPage) externalLinks(tree);
+        externalLinks(tree);
       };
     })
     .use(stringify);
@@ -43,8 +43,10 @@ export default function (options: Options): AstroIntegration {
             if (!pathname || type !== "page") return;
             const path = getDistFilePath(dir, pathname, component);
             const source = await read(path);
-            const processed = await processor.process(source);
-            await write(processed);
+            await processor.process(source).then(write, (e) => {
+              if (e instanceof Abort) return;
+              throw e;
+            });
           })
         );
       },
