@@ -67,7 +67,7 @@ Right to use the ECCS will be revoked in the following cases.
 
 - If you leave the University of Tokyo
   - Since right to use the ECCS are linked to your UTokyo Account, if your UTokyo Account is revoked due to leaving the university, your right to use the ECCS will also be automatically revoked.
-- [If you apply for the deletion your right to use the ECCS](#stop-usage-right)
+- [If you apply for the deletion of your right to use the ECCS](#stop-usage-right)
 
 If your right to use the ECCS is revoked, you will no longer be able to use the ECCS services for which you need the usage right. In particular, you will no longer be able to access files saved in the WebDAV environment, so please take the necessary measures, such as backing up your data, before your right to use the ECCS is revoked.
 
