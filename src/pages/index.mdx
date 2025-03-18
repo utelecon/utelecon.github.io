@@ -12,6 +12,7 @@ import "@styles/rss_icon.scss";
 import Emergency from '@components/Emergency.mdx';
 import Notice from '@components/pages/Notice.astro';
 import Events from '@components/pages/Events.astro';
+import FontAwesomeIcon from "@components/embed/FontAwesomeIcon.astro";
 import MaterialIcon from "@components/embed/MaterialIcon.astro";
 
 <Emergency />
@@ -21,13 +22,13 @@ import MaterialIcon from "@components/embed/MaterialIcon.astro";
 
 <div class="largecards">
   <div class="largecards__card">
-    <a href="/oc/"><MaterialIcon name="groups" /><span>学生向け</span></a>
+    <a href="/oc/"><MaterialIcon name="groups" /><span class="title">学生向け</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/faculty_members/"><MaterialIcon name="school" /><span>教員向け</span></a>
+    <a href="/faculty_members/"><FontAwesomeIcon icon="chalkboard-user" /><span class="title">教員向け</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/staff_members/"><MaterialIcon name="badge" /><span>職員向け</span></a>
+    <a href="/staff_members/"><MaterialIcon name="badge" /><span class="title">職員向け</span></a>
   </div>
 </div>
 

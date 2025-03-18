@@ -111,19 +111,29 @@ type Props = {
   name: string;
   style?: Style;
   class?: string;
-  props?: ReactSVGAttributes;
+  svgProps?: ReactSVGAttributes;
 };
 
-const { class: className, name, style = "filled", props = {} } = Astro.props;
-
-props.height ??= undefined;
-props.width ??= undefined;
-props.fill ??= "currentColor";
+const {
+  class: className,
+  name,
+  style = "filled",
+  svgProps = {
+    height: undefined,
+    width: undefined,
+    fill: "currentColor",
+  },
+} = Astro.props;
 ---
 
 <span class:list={[className, "material-icon"]}
-  ><Fragment set:html={load({ name, style, props })} /></span
+  ><Fragment set:html={load({ name, style, props: svgProps })} /></span
 >
 
-{/* TODO: set appropriate template directive to limit the scope of style */}
-<style is:global></style>
+<style>
+  .material-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>

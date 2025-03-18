@@ -1,18 +1,68 @@
 ---
-import { FontAwesomeIcon as FAIcon, type FontAwesomeIconProps } from "@fortawesome/react-fontawesome";
+import type {
+  IconDefinition,
+  IconProp,
+} from "@fortawesome/fontawesome-svg-core";
+import {
+  FontAwesomeIcon as FAIcon,
+  type FontAwesomeIconProps,
+} from "@fortawesome/react-fontawesome";
+
+function isIconDefinition(
+  icon: IconProp & { icon?: unknown }
+): icon is IconDefinition {
+  return (
+    typeof icon === "object" &&
+    !(icon instanceof Array) &&
+    typeof icon.prefix === "string" &&
+    typeof icon.iconName === "string" &&
+    icon.icon instanceof Array
+  );
+}
 
 interface Props extends FontAwesomeIconProps {
-    class?: string;
+  class?: string;
 }
 
 const { class: className, ...props } = Astro.props;
+
+const prefixPattern = /^fas?-(.*)/;
+
+if (typeof props.icon === "string") {
+  const iconName =
+    `fa-${prefixPattern.exec(props.icon)?.at(1) ?? props.icon}`.replace(
+      /([a-z])-([a-z])/g,
+      (_, _1: string, _2: string) => `${_1}${_2.toUpperCase()}`
+    );
+
+  props.icon =
+    (
+      await import(
+        /* @vite-ignore */ `@fortawesome/free-solid-svg-icons/${iconName}`
+      )
+    )?.definition ?? props.icon;
+}
+
+if (isIconDefinition(props.icon)) {
+  // make viewBox square
+  const [w, h] = props.icon.icon;
+  const max = Math.max(w, h);
+
+  props.viewBox ??= `${(w - max) / 2} ${(h - max) / 2} ${max} ${max}`;
+}
 ---
 
-<span class:list={["font-awesome", className]}>{
+<span class:list={["font-awesome", className]}
+  >{
     /* DO NOT remove this comment */
-    }<!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->{
-    }<FAIcon {...props} />{
-}</span>
+  }<!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+  <FAIcon {...props} /></span
+>
 
 <style>
+  .font-awesome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 </style>
