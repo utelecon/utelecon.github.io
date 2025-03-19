@@ -1,4 +1,5 @@
 import type { MiddlewareHandler } from "astro";
+import type { Element } from "hast";
 import rehypeExternalLinks, {
   type Options as RehypeExternalLinksOptions,
 } from "rehype-external-links";
@@ -6,22 +7,41 @@ import rehypeParse from "rehype-parse";
 import rehypeStringify from "rehype-stringify";
 import { unified } from "unified";
 
-const rehypeExternalLinksOptions: RehypeExternalLinksOptions = {
-  target: "_blank",
-  rel: ["noopener", "noreferrer"],
-  content: { type: "text", value: "" },
-  contentProperties: { className: ["external-link"] },
-};
+type Anchor = Element & { tagName: "a"; properties: { href: string } };
 
-const processor = unified()
-  .use(rehypeParse)
-  .use(rehypeExternalLinks, rehypeExternalLinksOptions)
-  .use(rehypeStringify);
+function isAnchor(e: Element): e is Anchor {
+  return e.tagName === "a" && typeof e.properties.href === "string";
+}
 
 const mimeHtmlPattern = /^\s*text\/html(?:[\s;].*|$)/;
 
-const onRequest: MiddlewareHandler = async (_, next) => {
-  const response = await next();
+export const onRequest: MiddlewareHandler = async (context, _next) => {
+  const next = _next();
+
+  const rehypeExternalLinksOptions: RehypeExternalLinksOptions = {
+    target: "_blank",
+    rel: ["noopener", "noreferrer"],
+    content: { type: "text", value: "" },
+    contentProperties: { className: ["external-link"] },
+    test: (e: Element) => {
+      if (!isAnchor(e)) {
+        // shall be unreachable
+        return true;
+      }
+      try {
+        return new URL(e.properties.href).hostname !== context.site?.hostname;
+      } catch {
+        return true;
+      }
+    },
+  };
+
+  const processor = unified()
+    .use(rehypeParse)
+    .use(rehypeExternalLinks, rehypeExternalLinksOptions)
+    .use(rehypeStringify);
+
+  const response = await next;
 
   if (response.headers.get("content-type")?.match(mimeHtmlPattern)) {
     return new Response(
@@ -35,5 +55,3 @@ const onRequest: MiddlewareHandler = async (_, next) => {
 
   return response;
 };
-
-export default onRequest;

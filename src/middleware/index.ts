@@ -1,5 +1,5 @@
 import { sequence } from "astro:middleware";
 
-import externalLinks from "./externalLinks";
+import { onRequest as externalLinks } from "./externalLinks";
 
 export const onRequest = sequence(externalLinks);
