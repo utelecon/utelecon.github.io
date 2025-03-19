@@ -101,13 +101,10 @@
   & > li > a {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
     color: $black-gray;
-    // システム名
-    & > span {
-      display: block;
-      text-align: center;
-    }
+    text-align: center;
+
     // ロゴ画像・Material Icons
     & > img,
     & > span.material-icon {
@@ -130,6 +127,10 @@
       @media (max-width: 896px) {
         height: 1.5rem;
       }
+    }
+
+    > .external-link:last-child {
+      display: none;
     }
   }
 
