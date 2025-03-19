@@ -140,25 +140,18 @@
     align-items: flex-end;
 
     & > a {
-      display: block;
-      border: none;
-      background-color: transparent;
-      font-weight: normal;
-      height: fit-content;
-      width: fit-content;
+      display: revert;
+      color: revert;
+      border: revert;
+      background-color: revert;
+      font-weight: revert;
+      height: revert;
+      width: revert;
       padding: 0;
 
-      &::after {
-        content: "arrow_forward";
-        font-family: "Material Icons";
-        font-weight: bold;
-        color: $heading-color;
-        vertical-align: middle;
-      }
-
       &:hover {
-        box-shadow: none;
-        text-decoration: underline;
+        box-shadow: revert;
+        text-decoration: revert;
       }
     }
   }
@@ -180,11 +173,4 @@ ul.date_list {
 
 .systems-link {
   text-align: right;
-  & > a::after {
-    content: "arrow_forward";
-    font-family: "Material Icons";
-    font-weight: bold;
-    color: $heading-color;
-    vertical-align: middle;
-  }
 }
