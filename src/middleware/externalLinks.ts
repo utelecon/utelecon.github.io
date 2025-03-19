@@ -15,7 +15,10 @@ function isAnchor(e: Element): e is Anchor {
 
 const mimeHtmlPattern = /^\s*text\/html(?:[\s;].*|$)/;
 
-export const onRequest: MiddlewareHandler = async (context, _next) => {
+export const onRequest: MiddlewareHandler = async (
+  { site: { hostname } = {} },
+  _next
+) => {
   const next = _next();
 
   const rehypeExternalLinksOptions: RehypeExternalLinksOptions = {
@@ -23,18 +26,21 @@ export const onRequest: MiddlewareHandler = async (context, _next) => {
     rel: ["noopener", "noreferrer"],
     content: { type: "text", value: "" },
     contentProperties: { className: ["external-link"] },
-    test: (e: Element) => {
+  };
+
+  if (hostname) {
+    rehypeExternalLinksOptions.test = (e: Element) => {
       if (!isAnchor(e)) {
         // shall be unreachable
         return true;
       }
       try {
-        return new URL(e.properties.href).hostname !== context.site?.hostname;
+        return new URL(e.properties.href).hostname !== hostname;
       } catch {
         return true;
       }
-    },
-  };
+    };
+  }
 
   const processor = unified()
     .use(rehypeParse)
