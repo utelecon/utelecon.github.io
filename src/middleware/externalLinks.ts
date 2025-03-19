@@ -23,11 +23,7 @@ const mimeHtmlPattern = /^\s*text\/html(?:[\s;].*|$)/;
 const onRequest: MiddlewareHandler = async (_, next) => {
   const response = await next();
 
-  const headers = new Map(
-    response.headers.entries().map(([k, v]) => [k.toLowerCase(), v])
-  );
-
-  if (headers.get("content-type")?.match(mimeHtmlPattern)) {
+  if (response.headers.get("content-type")?.match(mimeHtmlPattern)) {
     return new Response(
       (await processor.process(await response.text())).value,
       {
