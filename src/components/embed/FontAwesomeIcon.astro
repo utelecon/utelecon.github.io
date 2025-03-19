@@ -20,11 +20,18 @@ function isIconDefinition(
   );
 }
 
-interface Props extends FontAwesomeIconProps {
+interface Props {
+  icon: FontAwesomeIconProps["icon"];
   class?: string;
+  svgProps: Omit<FontAwesomeIconProps, "icon">;
 }
 
-const { class: className, ...props } = Astro.props;
+const { class: className, icon, svgProps } = Astro.props;
+
+const props = {
+  ...svgProps,
+  icon,
+};
 
 const prefixPattern = /^fas?-(.*)/;
 
