@@ -6,7 +6,7 @@ import {
 } from "./utils/materialIcon";
 
 type Props = {
-  name: string;
+  icon: string;
   style?: Style;
   class?: string;
   svgProps?: ReactSVGAttributes;
@@ -14,7 +14,7 @@ type Props = {
 
 const {
   class: className,
-  name,
+  icon,
   style = "filled",
   svgProps = {
     height: undefined,
@@ -25,7 +25,7 @@ const {
 ---
 
 <span class:list={[className, "material-icon"]}
-  ><Fragment set:html={load({ name, style, props: svgProps })} /></span
+  ><Fragment set:html={load({ icon, style, props: svgProps })} /></span
 >
 
 <style>

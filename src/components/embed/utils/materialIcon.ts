@@ -45,15 +45,15 @@ const processSVG: unified.Plugin<[ProcessSVGOptions, ...unknown[]], Root> =
     visit(tree, isSVGElement, processor);
 
 export async function load({
-  name,
+  icon,
   style,
   props = {},
 }: {
-  name: string;
+  icon: string;
   style: Style;
   props?: ReactSVGAttributes;
 }): Promise<string> {
-  const bare = join(MATERIAL_ICONS_PACKAGE, style, `${name}.svg`);
+  const bare = join(MATERIAL_ICONS_PACKAGE, style, `${icon}.svg`);
 
   const processor = unified
     .unified()
