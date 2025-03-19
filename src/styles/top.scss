@@ -98,6 +98,41 @@
     grid-template-columns: 1fr;
   }
 
+  & > li > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $black-gray;
+    // システム名
+    & > span {
+      display: block;
+      text-align: center;
+    }
+    // ロゴ画像・Material Icons
+    & > img,
+    & > span.material-icon {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+    }
+    & > img {
+      max-height: 2.25rem;
+      margin: auto;
+      padding: 0.25rem;
+      @media (max-width: 896px) {
+        max-height: 1.5rem;
+      }
+    }
+    & > span.material-icon > svg {
+      fill: $link-color;
+      height: 3rem;
+      @media (max-width: 896px) {
+        height: 1.5rem;
+      }
+    }
+  }
+
   & > li:last-child {
     display: flex;
     grid-column: -2 / -1;
@@ -105,6 +140,7 @@
     align-items: flex-end;
 
     & > a {
+      display: block;
       border: none;
       background-color: transparent;
       font-weight: normal;
