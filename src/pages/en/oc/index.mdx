@@ -34,25 +34,6 @@ import EccsApply from "@components/en/systems/eccs/Apply.mdx";
 import EccsLogin from "@components/en/systems/eccs/Login.mdx";
 import InformationSecurity from "@components/en/InformationSecurity.mdx";
 
-## Greetings
-
-Welcome to all new students!
-
-The University of Tokyo is promoting the use of digital technology in education, and information systems will be used in a variety of situations, such as the electronic distribution of materials and submission of assignments. We would like to ask you to be ready to use the necessary information systems so that you can participate in the classes smoothly. Please prepare a laptop computer that you can bring with you, and complete the initial setup of your account and various tools.
-
-Nowadays, the information security environment has become very severe in recent years, partly due to the worsening social situation. We have a lot of critical information, such as information related to cutting-edge research, and ensuring its security is a serious issue. Although our university is taking the necessary measures, we need your cooperation to protect our information, as a university account you will be using is one of the entrances to access information within the university. In particular, we have introduced a "Multi-Factor Authentication (MFA)" system that requires users to sign in using a smartphone or other device in addition to a password, and we would like everyone to use this system. This is included as part of the initial setup procedure, so please make sure to do it. We also offer a course called "Information Security Education", which you are requested to attend.
-
-The use of IT is spreading throughout society, and in the past year or so, generative AI, as represented by ChatGPT, has been a hot topic of discussion. The University of Tokyo appreciates its positive aspects and will not uniformly prohibit the use of generative AI tools, and we will actively explore its potential applications to education and research. Students are encouraged to take the opportunity to try it out. On the other hand, please understand that the process of learning at a university is not only about the result of acquiring knowledge and submitting a product, but also about the process of thinking for oneself and improving one's ability, so it is meaningless to use AI simply to make things easier. For details, please refer to the guideline "[Policy on the use of AI tools in classes](/en/docs/ai-tools-in-classes)". We also published a message "[生成系AIについて (About generative AI)](/docs/20230403-generative-ai)" (only in Japanese) last year, so please refer to it as well. There are still some uncertainties about how to incorporate new technologies into university activities, so we would like to take on the challenge of creating the next generation of education together with students. We hope that you will actively participate in our efforts.
-
-This portal site, "utelecon," aggregates information on the system at the University of Tokyo. First of all, please check the necessary preparations for taking classes. We also introduce the advanced usage of various tools such as chat tools and web conferencing, so we hope that you will make use of this site not only for classes, but also for your own activities such as study groups and circle activities, as well as in dialogue and collaboration with others around you. If you have any problems or difficulties, please feel free to ask questions at the support desk.
-
-The University of Tokyo is making necessary improvements to achieve synergy between the campus environment and the ICT environment. For example, the renewal and enhancement of Wi-Fi covering most of the campus is scheduled to be completed in the first half of this academic year. We, the faculty and staff of the university, will do our best to make your studies as effective and fulfilling as possible.
-
-<div style="text-align: right;">
-  Executive Vice President / Chief Information Officer<br />
-  MORIYAMA Takumi
-</div>
-
 ## Class Format at UTokyo
 
 At the University of Tokyo (UTokyo), classes are offered in a wide range of formats, including face-to-face and online. Face-to-face classes are conventional classes held in classrooms, and online classes are classes in which students can participate without being in the classroom using web conferencing systems for example. Please check with the faculty, graduate school or the instructor in charge of the class to find out which format the class will be in.
@@ -71,7 +52,7 @@ You will be using a variety of information systems during your classes at UTokyo
 
 {/* 以下の説明の文章は後でも使うため，一度変数として定義してからそれを呼び出す形で記述している */}
 export const about_utokyo_account =
-  "This is the account you will use to log into UTokyo’s ICT systems. The username may also be referred to as the “Common ID”.";
+  <>This is the account used for the University of Tokyo's information systems. The UTokyo Account follows the format 10-digit common ID followed by the domain indicating the University of Tokyo, such as <code>0123456789@utac.u-tokyo.ac.jp</code>. </>
 export const about_utas =
   "This system allows you to browse the syllabus for each class, register courses, and check your grades (academic affairs system).";
 export const about_utol =
@@ -106,7 +87,7 @@ To take classes, you will need an Internet connection and equipment such as a co
   - For specifications, please refer to “[東京大学の BYOD 方針](/docs/byod) (UTokyo's BYOD Policy)” (in Japanese).
     {/* <!-- - (For first-year undergraduate students) The College of Arts and Sciences provides guidelines for required PC specifications in “オンライン授業に必要な機器や通学前の準備について(Devices necessary for online classes and preparation for attending college)” (in Japanese). --> */}
     - We recommend that you buy a computer with a microphone and a camera. However, if your computer does not already have them, you can buy external cameras and microphones when you need them.
-  - You can also refer to the University Co-op’s special topic page about computers for new students, “[受験生・新入生応援サイト 2024 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html) (Komaba Model PC for Examinees and New Students Support Site)” (in Japanese).
+  - You can also refer to the University Co-op’s special topic page about computers for new students, “[受験生・新入生応援サイト 2025 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html) (Komaba Model PC for Examinees and New Students Support Site)” (in Japanese).
   - If you do not have a computer that meets the above-mentioned specifications, please consult with your faculty or graduate school (For example, the College of Arts and Sciences can [lend out computers](https://www.c.u-tokyo.ac.jp/campuslife/online-lectures.html) (information in Japanese)).
 - **Headset and earphones**: When taking online classes in a free classroom on campus, you will need a headset or earphones to listen to the class without disturbing other students in the same classroom. A headset equipped with a microphone is recommended when purchasing one.
 
@@ -190,7 +171,7 @@ This is a campus-wide Wi-Fi service. It provides access to databases and e-journ
 - [Procedure Video (in Japanese)](/oc/movies#zoom)
 - **Check: Sign in**
   <ZoomSigninBrowser support />
-- **Task: Install the application on your computer** (It is assumed that you will primarily participate using the PC app. If the Zoom app is not installed, please install it.)
+- **Task: Install the application on your computer** 
   <ZoomInstallAppPc support />
 - **Optional task: Install the application on your smartphone** (this is not mandatory but useful in case of emergencies)
   <ZoomInstallAppSp support />
@@ -256,8 +237,8 @@ Additionally, you can set the part before the @ in the University of Tokyo e-mai
 
 - **[Antivirus software](/antivirus/)** (in Japanese)
   - UTokyo provides a [Comprehensive Antivirus Software License (UTokyo Antivirus License)](/antivirus/) (in Japanese) for faculty members and students. UTokyo requires you to "install appropriate antivirus software on all the computers you administrate" in the "[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)". Please use them if necessary.
-  - The version for academic year 2024 will be available from April 1, 2024.
-    - If you submit your application before March, you will need to submit it again after April in order to use the version for academic year 2024.
+  - The version for academic year 2025 will be available from April 1, 2025.
+    - If you submit your application before March, you will need to submit it again after April in order to use the version for academic year 2025.
 - **[EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)**
   - UTokyo subscribes to an e-journal for internal use only. This is a system for off-campus access. Please use it as needed.
 - **[MATLAB](/en/matlab/)**
