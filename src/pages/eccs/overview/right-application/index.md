@@ -7,7 +7,7 @@ breadcrumb:
 
 ECCSを利用するには，事前に利用権を取得する必要があります．
 
-利用権を取得すると，原則としてUTokyo AccountとパスワードでECCSを利用できます．
+利用権を取得すると，原則としてUTokyo Accountの共通IDとパスワードでECCSを利用できます．
 
 ## ECCS利用権が必要なサービス
 
