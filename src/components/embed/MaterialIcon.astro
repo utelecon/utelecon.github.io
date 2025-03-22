@@ -1,0 +1,37 @@
+---
+import {
+  type Style,
+  type ReactSVGAttributes,
+  load,
+} from "./utils/materialIcon";
+
+type Props = {
+  icon: string;
+  style?: Style;
+  class?: string;
+  svgProps?: ReactSVGAttributes;
+};
+
+const {
+  class: className,
+  icon,
+  style = "filled",
+  svgProps = {
+    height: undefined,
+    width: undefined,
+    fill: "currentColor",
+  },
+} = Astro.props;
+---
+
+<span class:list={[className, "material-icon"]}
+  ><Fragment set:html={load({ icon, style, props: svgProps })} /></span
+>
+
+<style>
+  .material-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
