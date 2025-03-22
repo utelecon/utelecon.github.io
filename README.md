@@ -114,7 +114,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - 外部リンクは，別タブで開くのが一般的です．
   - すべての外部リンクに対してこの属性を明示的に付与するのは冗長であり，また忘れる可能性も高いため，自動で付与すべきです．
 - 実装
-  - [Astroのミドルウェア機能](https://docs.astro.build/ja/guides/middleware/)を用いて[`externalLinks.ts`](src/middleware/externalLinks.ts)で実現しています．ここでは，アクセスしてきたユーザーに配信するHTMLをレスポンスの途中で一度Rehypeでパースし，[`rehype-external-links`](https://github.com/rehypejs/rehype-external-links)を適用してから送信するという動作によりページを処理しています．
+  - [Astroのミドルウェア機能](https://docs.astro.build/ja/guides/middleware/)を用いて[`externalLinks.ts`](src/middleware/externalLinks.ts)で実現しています．ここでは，レンダリング後のHTMLを`dist`に保存する前に一度Rehypeでパースし，[`rehype-external-links`](https://github.com/rehypejs/rehype-external-links)を適用するという動作によりページを処理しています．
   - AstroではMarkdownやMDXの変換に後処理を追加することはできますが，同様にページを生成する`.astro`ファイルの変換を操作する手段は提供されていません．外部リンクはページの様々なところに現れうるため，それらを包括的に処理するべくこのような実装となっています．以前は生成された`.html`ファイルを追加で再処理することで実現していました．
 
 ### URL末尾のスラッシュについて
