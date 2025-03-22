@@ -15,7 +15,7 @@ function isAnchor(e: Element): e is Anchor {
   return e.tagName === "a" && typeof e.properties.href === "string";
 }
 
-class ExternalLinkProcessor {
+class Processor {
   hostname?: string;
   private readonly processor;
 
@@ -41,12 +41,12 @@ class ExternalLinkProcessor {
       .use(rehypeStringify);
   }
 
-  process(file: Compatible | undefined) {
+  process(file?: Compatible) {
     return this.processor.process(file);
   }
 }
 
-const processor = new ExternalLinkProcessor({
+const processor = new Processor({
   target: "_blank",
   rel: ["noopener", "noreferrer"],
   content: { type: "text", value: "" },
