@@ -7,9 +7,9 @@ breadcrumb:
 
 import HelpItem from "@components/utils/HelpItem.astro";
 
-仮想マシンにリモートからアクセスする方法としては UNIX 系 OS であれは ssh，Windows OS であれば RDP(Remote Desktop Plotocol) が一般的ですが，いずれも仮想マシンにパブリックアクセスを許す必要があり， 特に RDP は脆弱性が比較的多くパブリックアクセスで利用すべきではありません．
+仮想マシンにリモートからアクセスする方法としては UNIX 系 OS であれは ssh，Windows OS であれば RDP(Remote Desktop Plotocol) が一般的ですが，クラウドへのリモートアクセスに直接これらのプロトコルでパブリックアクセスを許可するべきではありません．
 
-Azure サービスでは，Bastion という踏み台サービスがあり，これらプロトコルによるアクセスをよりセキュアに行う仕組みがあります．
+Azure サービスでは，Bastion という踏み台サービスがあり，これらプロトコルによるパブリックアクセスを回避し，よりセキュアに行う仕組みがあります．
 
 以下は，Bastion を利用した仮想マシンへのアクセス方法について説明します．
 
