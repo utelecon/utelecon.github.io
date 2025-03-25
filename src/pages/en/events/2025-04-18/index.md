@@ -9,8 +9,8 @@ Under the [Strategic Memorandum of Understanding to promote GX, D&I and AI Resea
 
 As of December 2024, the use of [**UTokyo Azure**](/en/research_computing/utokyo_azure/) has started, utilizing these gift credits.
 
-This session will be conducted in English and will cover selected topics from the UTokyo Azure Information Session held on February 21.
-It is mainly intended for those who are currently using UTokyo Azure or considering using it.
+This session will be conducted in English, featuring selected topics from the UTokyo Azure Information Session held on February 21, 2025, and is intended for faculty and staff members whose native language is not Japanese.
+It is mainly designed for those who are currently using UTokyo Azure or are considering using it in the future.
 
 Please feel free to join only the parts that interest you by referring to the timetable below.  
 Questions can be asked during the Q&A session or via [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz).  
