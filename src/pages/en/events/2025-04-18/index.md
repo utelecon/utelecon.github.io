@@ -5,11 +5,11 @@ h1: "Apr. 18,2025: Information Session on UTokyo Azure（**Conducted in English*
 
 ## Purpose
 
-Under the [Strategic Memorandum of Understanding to promote GX, D&I and AI Research](https://www.u-tokyo.ac.jp/focus/en/articles/z1701_00013.html) signed between Microsoft and the University of Tokyo, the GIFT AGREEMENT was concluded (effective September 1, 2024), through which Microsoft will donate $10,000,000 USD in gift credits to the University of Tokyo for the use of Microsoft Azure.
+Under the [Strategic Memorandum of Understanding to promote GX, D&I and AI Research](https://www.u-tokyo.ac.jp/focus/en/articles/z1701_00013.html) signed between Microsoft and the University of Tokyo, the GIFT AGREEMENT was signed (effective September 1, 2024), through which Microsoft will donate 10 million USD in gift credits to the University of Tokyo for the use of Microsoft Azure.
 
-As of December 2024, the use of [**UTokyo Azure**](/en/research_computing/utokyo_azure/) has started, utilizing these gift credits.
+As of December 2024, the use of [**UTokyo Azure**](https://utelecon.adm.u-tokyo.ac.jp/en/research_computing/utokyo_azure/) started, utilizing these gift credits.
 
-This session will be conducted in English, featuring selected topics from the UTokyo Azure Information Session held on February 21, 2025, and is intended for faculty and staff members whose native language is not Japanese.
+This session will be conducted in English and will cover selected topics from the UTokyo Azure Information Session held on February 21, 2025, and is intended for faculty and staff members whose native language is not Japanese.
 It is mainly designed for those who are currently using UTokyo Azure or are considering using it in the future.
 
 Please feel free to join only the parts that interest you by referring to the timetable below.  
@@ -26,11 +26,11 @@ We encourage you to take this opportunity to learn more about UTokyo Azure and c
 *Note: Times are approximate and subject to change.*
 *Links to the slides will be shared by the day of the session, and videos will be provided after the session.*
 
-| Time | Topic | Speaker | Slides | Video |
+| Time | Topic | Speaker | Materials | Recording |
 |------|-------|---------|--------|-------|
 | 10:00 - 10:15 | Introduction | Taura | [Slides] | [Video] |
-| 10:15 - 10:35 | Usage Fees(Possiblity) | Taura | [Slides] | [Video] |
-| 10:35 - 11:30 | How to Use Typical Services | Yamakata | [・Add Owner] <br>[・Open AI] <br>[・Virtual Machines] <br>[・Notebooks] | [Video]<br>[Video]<br>[Video]<br>[Video] |
+| 10:15 - 10:35 | Usage Fees (Possibility) | Taura | [Slides] | [Video] |
+| 10:35 - 11:30 | How to Use Typical Services | Yamakata | [・Assign Owner Role] <br>[・Using Azure OpenAI Service] <br>[・Create Virtual Machine] <br>[・Using Notebooks] | [Video]<br>[Video]<br>[Video]<br>[Video] |
 | 11:30 - 12:00 | Q&A Session |  | [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz) | |
 
 ### Speakers
