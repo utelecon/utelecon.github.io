@@ -1,0 +1,97 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+type Props = {
+  image: ImageMetadata;
+  x: number | string;
+  y: number | string;
+  scale?: number;
+  reverse?: boolean;
+  vertical?: boolean;
+} & Record<string, any>;
+
+const {
+  image: { width, height },
+  x,
+  y,
+  scale: rawScale = 1,
+  reverse = false,
+  vertical = false,
+  ...props
+} = Astro.props;
+
+props.alt ??= "";
+
+const defaultSize = { width: 1280, height: 720 };
+
+const scale =
+  Math.max(width / defaultSize.width, height / defaultSize.height) * rawScale;
+
+function parseCoord(
+  rawX: string | number | null | undefined,
+  rawY: string | number | null | undefined,
+  width?: number,
+  height?: number
+): { x: number; y: number } | undefined {
+  const parse = (coord: number | string | null | undefined, max = 1) =>
+    typeof coord === "string" && coord.endsWith("%")
+      ? (Number(coord.substring(0, coord.length - 1)) * max) / 100
+      : Number(coord);
+
+  const x = parse(rawX, width),
+    y = parse(rawY, height);
+
+  return !Number.isNaN(x) && !Number.isNaN(y) ? { x, y } : undefined;
+}
+
+const pointAt = parseCoord(x, y, defaultSize.width, defaultSize.height);
+
+const xor = (a: boolean, b: boolean) => (a || b) && !(a && b);
+
+const tl = (xor(reverse, vertical) ? -130 : 130) * scale; // tail length
+const tw = 20 * scale; // tail width
+const hl = (xor(reverse, vertical) ? -70 : 70) * scale; // head length
+const ho = 20 * scale; // head overhang
+
+const path =
+  pointAt !== undefined
+    ? [
+        `M ${pointAt.x} ${pointAt.y}`,
+        "l",
+        vertical ? `${-ho - tw / 2} ${-hl}` : `${-hl} ${-ho - tw / 2}`,
+        vertical ? "h" : "v",
+        ho,
+        vertical ? "v" : "h",
+        -tl,
+        vertical ? "h" : "v",
+        tw,
+        vertical ? "v" : "h",
+        tl,
+        vertical ? "h" : "v",
+        ho,
+        "Z",
+      ].join(" ")
+    : "";
+---
+
+<div>
+  <Image src={Astro.props.image} {...props} />
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${width} ${height}`}>
+    <path d={path} fill="#ff3333" stroke="none"></path>
+  </svg>
+</div>
+
+<style>
+  div {
+    position: relative;
+  }
+
+  div > svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+</style>
