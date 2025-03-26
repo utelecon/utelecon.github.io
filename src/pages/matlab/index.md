@@ -34,25 +34,29 @@ MATLABの利用には[UTokyo Account](/utokyo_account/)が必要です．新た�
 UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．
 ### 初めて利用する場合
 1. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」を押してください．
+![](signin_and_start.drawio.png){:.thin-border}
 2. 「MATLAB のダウンロードには、大学のメールアドレスで登録した MathWorks アカウントが必要です」のページが表示されますので「電子メール」のところにUTokyo Accountを入力し「次へ」を押します．すると、UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+![](input_utac.png){:.thin-border}
 3. すると「アカウントを作成する」という画面が開きますので，メールアドレスのところに UTokyo Account を入力します．
+![](create_account.png){:.thin-border}
 4. [ECCSクラウドメール](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)に認証コードが送付されますので、入力します．
 5. Mathworksへの登録情報を入力し，Online Service Agreement　にチェックをします．
+![](create_account_details.png){:.thin-border}
 7. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
 
 この手順がうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
 ### すでに作成済みのMathWorksアカウントがある場合
 1. お持ちのMathWorksアカウントのメールアドレスを，[ECCSクラウドメール](/google/)などの，`u-tokyo.ac.jp`で終わるメールアドレスに更新してください．
     <details>
-        <summary>手順</summary>
-        <ol>
-            <li><a href="https://jp.mathworks.com/mwaccount/">MathWorksアカウントページ</a>にアクセスし，サインインしてください．</li>
-            <li>ページ上部の「プロファイル > プロファイルの編集」を押してください．</li>
-            <li>メールアドレスを変更し，「更新」を押してください．</li>
-            <li><code>service@account.mathworks.com</code>から認証メールが届くので，そのメール内のリンクにアクセスしてください．</li>
-        </ol>
+    <summary>手順</summary>
+
+    - [MathWorksアカウントページ](https://jp.mathworks.com/mwaccount/)にアクセスし，サインインしてください．
+    - ページ上部の「プロファイル > プロファイルの編集」を押してください．![](update_profile.drawio.png){:.thin-border}
+    - メールアドレスを変更し，「更新」を押してください．
+    - `service@account.mathworks.com` から認証メールが届くので，そのメール内のリンクにアクセスしてください．
+
     </details>
-2. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」をクリックしてください．
+2. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」をクリックしてください．![](signin_and_start.drawio.png){:.thin-border}
 3. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 4. 「Sign in to your existing MathWorks Account」と書かれたメニューが表示されたら，「Sign In」をクリックしてください．
 5. お持ちのMathWorksアカウントでサインインしてください．
