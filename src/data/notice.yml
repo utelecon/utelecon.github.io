@@ -26,6 +26,11 @@
    content:
     ja: "PC端末初期セットアップガイドを公開しました.[PC端末初期セットアップガイド (PDF)](/notice/2025/device_initial_setup_guide.pdf)"    
 -
+ date: 2025-02-14
+  content:
+    ja: "3/12 15:00から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2025-03-12/)」を開催いたします．"
+  important: true
+-
    date: 2025-02-19
    content:
     ja: "[Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion)"
