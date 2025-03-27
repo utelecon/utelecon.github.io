@@ -3,11 +3,11 @@ title: "2025/04/18 説明会：UTokyo Azure利用説明会"
 h1: "2025/04/18 説明会：UTokyo Azure利用説明会（**英語開催**）"
 ---
 
-※**今回の説明会は英語で実施します**（[英語ページへのリンク](https://github.com/utelecon/utelecon.github.io/blob/new-event-page-20250418/src/pages/en/events/2025-04-18/index.md)）．
+※**今回の説明会は英語で実施します**（[英語ページへのリンク](/en/events/2025-04-18/)）．
 
 ## 開催趣旨
 
-Microsoftと東京大学の間で交わされた[GX・D&I・AI研究の推進に向けた連携に関する基本合意書](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)のもとに締結された GIFT AGREEMENT（2024年9月1日）に基づき，Microsoftから東京大学に対し，Microsoft Azureを利用するためのギフトクレジット （総額 10,000,000 USD）が寄付されることとなりました．2024年12月より，このギフトクレジットを活用した [**UTokyo Azure**](https://utelecon.adm.u-tokyo.ac.jp/research_computing/utokyo_azure/) の利用が開始されました．
+Microsoftと東京大学の間で交わされた[GX・D&I・AI研究の推進に向けた連携に関する基本合意書](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)のもとに締結された GIFT AGREEMENT（2024年9月1日）に基づき，Microsoftから東京大学に対し，Microsoft Azureを利用するためのギフトクレジット （総額 10,000,000 USD）が寄付されることとなりました．2024年12月より，このギフトクレジットを活用した [**UTokyo Azure**](/research_computing/utokyo_azure/) の利用が開始されました．
 
 今回の説明会は，日本語を母国語としない教職員向けに，2025年2月21日に開催されたUTokyo Azure説明会の内容から抜粋して，**英語**で行います．  
 UTokyo Azureをご利用中の方や，今後の利用を検討している方向けの内容となっています．
