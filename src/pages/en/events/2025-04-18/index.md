@@ -28,9 +28,11 @@ We encourage you to take this opportunity to learn more about UTokyo Azure and c
 
 | Time | Topic | Speaker | Materials | Recording |
 |------|-------|---------|--------|-------|
-| 10:00 - 10:15 | Introduction | Taura | [Slides] | [Video] |
-| 10:15 - 10:35 | Usage Fees (Possibility) | Taura | [Slides] | [Video] |
-| 10:35 - 11:30 | How to Use Typical Services | Yamakata | [・Assign Owner Role] <br>[・Using Azure OpenAI Service] <br>[・Create Virtual Machine] <br>[・Using Notebooks] | [Video]<br>[Video]<br>[Video]<br>[Video] |
+| 10:00 - 10:10 | Introduction | Prof. Taura | [Slides] | [Video] |
+| 10:10 - 10:30 |  (Possibility of) Charges | Prof. Taura | [Slides] | [Video] |
+| 10:30 - 10:40 | How to Apply | Prof. Taura | [Slides] | [Video] |
+| 10:40 - 10:45 | How to Pay | Prof. Taura | [Slides] | [Video] |
+| 10:45 - 11:45 | Using Popular Services |Prof. Yamakata | [・Assign Owner Role] <br>[・Using Azure OpenAI Service] <br>[・Create Virtual Machine] <br>[・Using Notebooks] | [Video]<br>[Video]<br>[Video]<br>[Video] |
 | 11:30 - 12:00 | Q&A Session |  | [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz) | |
 
 ### Speakers
