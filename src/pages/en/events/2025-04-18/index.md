@@ -7,7 +7,7 @@ h1: "Apr. 18,2025: Information Session on UTokyo Azure（**Conducted in English*
 
 Under the [Strategic Memorandum of Understanding to promote GX, D&I and AI Research](https://www.u-tokyo.ac.jp/focus/en/articles/z1701_00013.html) signed between Microsoft and the University of Tokyo, the GIFT AGREEMENT was signed (effective September 1, 2024), through which Microsoft will donate 10 million USD in gift credits to the University of Tokyo for the use of Microsoft Azure.
 
-As of December 2024, the use of [**UTokyo Azure**](https://utelecon.adm.u-tokyo.ac.jp/en/research_computing/utokyo_azure/) started, utilizing these gift credits.
+As of December 2024, the use of [**UTokyo Azure**](/en/research_computing/utokyo_azure/) started, utilizing these gift credits.
 
 This session will be conducted in English and will cover selected topics from the UTokyo Azure Information Session held on February 21, 2025, and is intended for faculty and staff members whose native language is not Japanese.
 It is mainly designed for those who are currently using UTokyo Azure or are considering using it in the future.
