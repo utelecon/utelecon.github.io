@@ -12,6 +12,10 @@
 #   c. 右上の「Cancel workflow」ボタンを押してください．
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
+-
+  date: 2025-03-28
+  content:
+    ja: "3/26 14:30から[教育用計算機システム(ECCS)のシステム利用説明会を開催しました](/notice/2025/0326-eccs-seminar)"
 -  
    date: 2025-03-26
    content:
@@ -26,15 +30,6 @@
    content:
     ja: "[Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion)"
     en: "[About providing Zoom AI Companion feature (in Japanese)](/notice/2025/0127-zoom-ai_companion)"
--
-  date: 2025-02-18
-  content:
-    ja: "3/26 14:30から[教育用計算機システム(ECCS)のシステム利用説明会を開催いたします](/notice/2025/0326-eccs-seminar)"
--
-  date: 2025-02-14
-  content:
-    ja: "3/12 15:00から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2025-03-12/)」を開催いたします．"
-  important: true
 -
   date: 2025-02-03
   content:
