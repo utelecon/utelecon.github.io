@@ -29,7 +29,11 @@ const {
 >
 
 <style is:global>
-  .material-icon > svg {
-    display: block;
+  .material-icon {
+    display: inline-block;
+
+    & > svg {
+      display: block;
+    }
   }
 </style>

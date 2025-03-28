@@ -67,7 +67,11 @@ if (isIconDefinition(props.icon)) {
 >
 
 <style is:global>
-  .font-awesome > svg {
-    display: block;
+  .font-awesome {
+    display: inline-block;
+
+    & > svg {
+      display: block;
+    }
   }
 </style>
