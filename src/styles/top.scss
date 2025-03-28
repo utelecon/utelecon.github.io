@@ -21,13 +21,7 @@
 
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding-right: 4rem;
       position: relative;
-      @media (max-width: 896px) {
-        padding-right: 2em;
-        justify-content: unset;
-      }
 
       .material-icon,
       .font-awesome {
@@ -45,19 +39,29 @@
         padding: 0.1rem;
       }
 
-      & > .title {
+      .title {
+        margin-left: auto;
+        margin-right: 0.5rem;
+
         &:lang(ja) {
           flex-shrink: 0;
+        }
+
+        @media (max-width: 896px) {
+          margin-left: 0;
+          margin-right: auto;
         }
       }
 
       &::after {
-        position: absolute;
+        flex-shrink: 0;
+        flex-grow: 1;
+        max-width: 2rem;
+        text-align: right;
         content: "arrow_forward_ios";
         font-family: "Material Icons";
         font-weight: bold;
         color: $heading-color;
-        right: 0.5em;
       }
     }
   }
