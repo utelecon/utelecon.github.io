@@ -9,15 +9,13 @@
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
-  grid-gap: 1em;
+  gap: 1em;
   margin: 1em 0;
   @media (max-width: 896px) {
     grid-auto-flow: row;
   }
 
   & > &__card {
-    position: relative;
-
     & > a {
       @extend .card;
 
@@ -25,6 +23,7 @@
       align-items: center;
       justify-content: space-between;
       padding-right: 4rem;
+      position: relative;
       @media (max-width: 896px) {
         padding-right: 2em;
         justify-content: unset;
@@ -71,13 +70,14 @@
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2em;
+  gap: 2em;
   @media (max-width: 1024px) {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: none;
+    gap: 0;
   }
 
   &__column > .cards {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: none;
     grid-auto-rows: minmax(2.5lh, 1fr);
   }
 
