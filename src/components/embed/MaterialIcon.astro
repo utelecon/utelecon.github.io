@@ -28,10 +28,8 @@ const {
   ><Fragment set:html={load({ icon, style, props: svgProps })} /></span
 >
 
-<style>
-  .material-icon {
-    > svg {
-      display: block;
-    }
+<style is:global>
+  .material-icon > svg {
+    display: block;
   }
 </style>

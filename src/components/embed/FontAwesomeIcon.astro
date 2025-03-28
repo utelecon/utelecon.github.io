@@ -66,10 +66,8 @@ if (isIconDefinition(props.icon)) {
   <FAIcon {...props} /></span
 >
 
-<style>
-  .font-awesome {
-    > svg {
-      display: block;
-    }
+<style is:global>
+  .font-awesome > svg {
+    display: block;
   }
 </style>
