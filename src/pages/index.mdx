@@ -12,24 +12,27 @@ import "@styles/rss_icon.scss";
 import Emergency from '@components/Emergency.mdx';
 import Notice from '@components/pages/Notice.astro';
 import Events from '@components/pages/Events.astro';
+import FontAwesomeIcon from "@components/embed/FontAwesomeIcon.astro";
+import MaterialIcon from "@components/embed/MaterialIcon.astro";
 
 <Emergency />
 
+## 新しく東京大学の一員となった方へ
+{:.heading}
+
 <div class="largecards">
   <div class="largecards__card">
-    <a href="/oc/"><span>大学生活に必要な情報システムの準備について<small>（新入生向け）</small></span></a>
+    <a href="/oc/"><MaterialIcon icon="groups" /><span class="title">学生の方</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/faculty_members/"><span>東京大学における情報システムの準備について<small>（教員向け）</small></span></a>
+    <a href="/faculty_members/"><FontAwesomeIcon icon="chalkboard-user" /><span class="title">教員の方</span></a>
+  </div>
+  <div class="largecards__card">
+    <a href="/staff_members/"><MaterialIcon icon="badge" /><span class="title">職員の方</span></a>
   </div>
 </div>
 
-<Events show={[
-  "2025-03-12",
-  "2025-02-21",
-  "2024-09-13",
-]} lang="ja">
-</Events>
+<div class="systems-link">[東京大学の情報システムの一覧はこちらから](/systems/){:.arrow-link}</div>
 
 <div class="container">
 <div class="container__column">
@@ -65,6 +68,13 @@ import Events from '@components/pages/Events.astro';
 </div>
 <div class="container__column">
 
+<Events show={[
+  "2025-03-12",
+  "2025-02-21",
+  "2024-09-13",
+]} lang="ja">
+</Events>
+
 ## ピックアップ
 
 - [UTokyo Azure](/research_computing/utokyo_azure)
@@ -93,22 +103,22 @@ import Events from '@components/pages/Events.astro';
 </div>
 </div>
 
-## 東京大学のシステム
+## 東京大学の情報システム
 
 <div class="top__systems">
-  - [UTokyo Account](/utokyo_account/)
-  - [UTAS](/utas)
-  - [UTOL (UTokyo LMS)](/utol/)
-  - [UTokyo Wi-Fi](/utokyo_wifi/)
-  - [Zoom](/zoom/)
-  - [Webex](/webex/)
-  - [ECCSクラウドメール<small> (Google Workspace)</small>](/google/)
-  - [UTokyo Microsoft License](/microsoft/)
-  - [UTokyo Slack](/slack/)
-  - [Slido](/slido/)
-  - [UTokyo MATLAB Campus-Wide License](/matlab/)
-  - [UTokyo VPN](/utokyo_vpn/)
-  - [ECCS端末](https://www.ecc.u-tokyo.ac.jp/)
-  - [一覧](/systems/)
+  - [<MaterialIcon icon="person" />UTokyo Account](/utokyo_account/)
+  - [![](_icons/utas.png)UTAS](/utas)
+  - [![](_icons/utol.png)UTOL (UTokyo LMS)](/utol/)
+  - [<MaterialIcon icon="wifi" />UTokyo Wi-Fi](/utokyo_wifi/)
+  - [![](_icons/zoom.png)Zoom](/zoom/)
+  - [<MaterialIcon icon="videocam" />Webex](/webex/)
+  - [![](_icons/google.png)ECCSクラウドメール<small>(Google Workspace)</small>](/google/)
+  - [![](_icons/microsoft.png)UTokyo Microsoft License](/microsoft/)
+  - [![](_icons/slack.png)UTokyo Slack](/slack/)
+  - [<MaterialIcon icon="quiz" />Slido](/slido/)
+  - [<MaterialIcon icon="bar_chart" />UTokyo MATLAB Campus-Wide License](/matlab/)
+  - [<MaterialIcon icon="vpn_lock" />UTokyo VPN](/utokyo_vpn/)
+  - [<MaterialIcon icon="computer" /><span>ECCS端末<span class="external-link"></span></span>](https://www.ecc.u-tokyo.ac.jp/)
+  - [一覧](/systems/){:.arrow-link}
   {:.cards}
 </div>
