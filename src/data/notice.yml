@@ -13,6 +13,10 @@
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
 -
+  date: 2024-03-31
+  content:
+    ja: "[教育用計算機システム相談員および同分散配置端末巡回連絡員の募集（2025年度Sセメスター）](/notice/2025/03-tutors)"
+-
  date: 2025-03-31
  content:
   ja: "4/18 10:00から「[UTokyo Azure利用説明会](/events/2025-04-18/)」を開催いたします．今回の説明会は**英語で実施**します．"
