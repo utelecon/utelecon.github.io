@@ -5,6 +5,7 @@ breadcrumb:
 ---
 
 import HelpItem from "@components/utils/HelpItem.astro";
+import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.mdx";
 
 ## 概要
 {:#about}
@@ -16,14 +17,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 ## １．サービスを選択する
 {:#select_service}
 
-<div class="box">
-- まだサブスクリプションをお持ちでない場合は，事前に以下サイトよりサブスクリプションを申請してください．
-  - [UTokyo Azure新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/) ※学内ネットワークからのアクセスに限定．UTokyo Account 所持者のみログイン可
-</div>
-
-- [Azure portal](https://portal.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．（新規申請された場合は表示されるようになるまで時間がかかります）
-
-![](img/01_login.png){:.medium.center.border}
+<FirstTimeUsing type="details" />
 
 - Azureサービスの一覧の中から`Virtual Machines`を選択します．
     - 一覧に無い場合、画面上部にある検索欄で検索するか，一覧の右にある`その他のサービス`を選択、左側にあるリストから`コンピューティング`を選択すると，右側に表示されるメイン画面の`Infrastructure as a Service(IaaS)`の中にあります．
