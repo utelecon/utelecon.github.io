@@ -1,0 +1,151 @@
+---
+title: "UTokyo Azure"
+breadcrumb:
+  title: "UTokyo Azure"
+---
+
+## UTokyo Azure とは
+
+2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付（ギフト）が行われることとなりました．
+
+UTokyo Azure は，このギフトクレジットによる Microsoft Azure のクラウドサービスを東京大学の構成員に広く利用可能とするサービスの名称です．Microsoft Azure には，
+
+- 普通の Linux や Windows 環境を立ち上げる，いわゆる仮想マシンサービス．
+- 複数の Linux サーバをクラスタ（高性能計算環境）として運用するサービス．
+
+という基本的なクラウドサービスの他に，
+
+- Jupyter Notebook などのブラウザベースで利用できる計算環境．
+- OpenAI の AI システムをブラウザ経由で利用するサービスや，それをAPI で利用するサービス．
+
+なども提供されています．また，計算機の種類としてもCPU, GPU多種多様なプロセッサやメモリ量を選択でき，様々な用途，分野で利用が可能です．
+
+参考： [**UTokyo Azureの概要**](https://utelecon.adm.u-tokyo.ac.jp/events/2025-02-21/slides/1_overview.pdf) (2025.02.21 UTokyo Azure 説明会資料)
+
+## 基本方針・目標
+
+運用は情報基盤センター，情報システム部，情報システム本部が共同で行います．提供にあたっての基本方針・目標は以下のとおりです．
+
+- 利用開始までの敷居を低く，タイムラグを短くし，初めての方を含めて多くの人に利用してもらい，本サービスがなければ必要になってしまう計算機の調達の費用や時間をなくし，本学の研究の加速に貢献する．
+- 研究・教育目的で、分野を限定せずに広く利用可能とする
+  - 注：いわゆる事務業務での利用はできません。事務業務にはこれまでも全学で契約している[Microsoft ライセンス](/microsoft/)を使って下さい
+- 運用側で利用可能なサービスを取捨選択し，狭く限定することなく Azure で利用可能なサービスを広く利用可能とする．
+  - 原則的には，Microsoft Azureで提供されているサービスがすべてそのまま使えるようにする（個々の利用者の環境に運用側が立 ち入ることはしない）．
+  - ただし，運用上提供が困難と判断されるサービスについては提供不可とする場合がある．
+  - 容易に高額なり容量になるサービスについてはデフォルトで利用禁止とする場合がある．
+- 運用側である規模の標準環境を用意し，標準的なユースケースを環境構築の手間なく利用したいという利用者をサポートする（需要調査含め計画中）．
+- ギフトクレジットは有限であることから，大学全体でのギフトクレジットの消費量を制御（目標値を設定）しその範囲で無料利用可能とする．設置した目標値を上回って利用された分についてはその超過した量に応じた課金を利用者に対して行う場合がある．
+
+## 運用規定など
+
+- 運用規定，ギフトクレジットの量，利用料金が発生する場合やその際の料金の計算規則などについては，[学内者限定情報の発信サ イト](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utokyo-azure-internal/) （東大のGoogleアカウント --- [ECCSクラウドメ ール](/google/) --- でのサインインが必要です）にて提供していますのでご覧ください
+
+## 使ってみる
+
+<div class="box">
+**重要**：本サービスはギフトクレジットが提供される**5年間という年限があるサービスとなります．**その後の継続については未 定なので，長期利用をご検討される場合はその点にご注意ください．詳細は[学内者限定情報の発信サイト](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utokyo-azure-internal/)等もご参照ください．
+</div>
+
+- まず[**UTokyo Azure新規利用申請ページ（学内ネットワークからのアクセスに限定）**](http://azure.itc.u-tokyo.ac.jp/)から 利用申請をして下さい．
+  - 申請ができるのは、利用料金が発生したときに支払いについて責任を持てる教職員に限られます．学生で利用したい人は適切な立場の人（指導教員など）にご相談下さい．
+- 申請をするとあなたの UTokyo Account に紐付いた，本サービス用の[**サブスクリプション**](/research_computing/utokyo_azure/faq/subscription)が割り当てられます．
+- サブスクリプションができたら[Azure Portal](https://portal.azure.com/) ([UTokyo Account](/utokyo_account/))へログインして使って下さい．
+  - サブスクリプションを作成していなくても上記ポータルへログインは可能です．
+  - どのようなサービスが使えるかなどは申請前でも確認することが出来ます．
+
+参考：[**利用申請の流れと注意点**](https://utelecon.adm.u-tokyo.ac.jp/events/2025-02-21/slides/3_application_guidelines.pdf) (2025.02.21 UTokyo Azure 説明会資料)
+
+## 主なサービス・利用法
+
+- 研究・教育でよく現れる利用シーンを想定して、Azure をあまり使ったことがないというユーザー向けにクイックスタートできる手順を説明しています．
+- できるだけ初期設定を変えずに利用する手順となりますので．本格的な利用の際は各設定項目をご自身の利用にあった設定に変更してください．
+- 利用例は順次追加や更新を行う予定です．
+- 参考：[UTokyo Azure 説明会](/events/2025-02-21/)
+
+### 仮想マシン
+
+#### [Virtual Machines](/research_computing/utokyo_azure/virtualmachine/)
+
+- 定番である各 Linux ディストリビューションをはじめ，ライセンスを別途お持ちであれば Windows OS を仮想環境で利用すること ができます．
+
+### AI サービス
+
+#### [Azure Machine Learning](/research_computing/utokyo_azure/ai/aml)
+
+- GPT などの既存モデル（生成AI）を Azure 経由で Web ブラウザや Python プログラムから利用することができます．ChatGPT のような利用も可能です．
+
+#### [Azure OpenAI](/research_computing/utokyo_azure/ai/openai)
+
+- ChatGPT のようなブラウザ上で AI とチャットをするサービスや、それをプログラムから呼び出す API を利用可能です．
+- 以下の Azure AI Foundry と似ていますが、OpenAI 社が提供する GPT シリーズのモデルを使いたい場合、こちらが簡単です．
+
+#### [Azure AI Foundry](/research_computing/utokyo_azure/ai/azureai)
+
+- Azure OpenAI と似ていますが、OpenAI 社によるものだけでなく LLama や Mistral など様々なモデルが選択可能です
+- GPT 以外のモデルを使いたい場合はこちらを使ってください．
+
+## ストレージ (データの置き場) について
+
+#### [Azure Blob Storage](/research_computing/utokyo_azure/storage/)
+
+- Microsoft Azure のサービスの一つである Azure Blob Storage 上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．ストレージタイプとしてはオブジェクトストレージで，バイナリデータ等どのようなファイル形式でもほぼ格納することが可能です．
+
+#### [Azure Files](/research_computing/utokyo_azure/storage/filesystem)
+
+- NFS や SMB 等のネットワークファイルシステムとしてアクセスできるストレージです．古くからあるファイルシステムなので様々 な環境からアクセスが可能です．
+
+## 複数人グループでの利用
+
+一つのサブスクリプションやリソースを複数人で共有するためには，そのサブスクリプションまたはリソースに共有者の UTokyo Account を必要な権限で付与します．詳細は以下を参照ください．
+- [複数人グループでの利用](/research_computing/utokyo_azure/group/)
+
+## Azure を学習する
+
+Microsoft が用意している，より Azure を使いこなすための自己学習コンテンツです．特に記載がない限り無償で利用できます．
+
+- [Microsoft Azure の基礎: Azure のアーキテクチャとサービスについて説明する](https://learn.microsoft.com/ja-jp/training/paths/azure-fundamentals-describe-azure-architecture-services/)
+- [Microsoft Virtual Training Days](https://www.microsoft.com/ja-jp/events/top/training-days)
+- [Microsoft トレーニング：Azure](https://learn.microsoft.com/ja-jp/training/azure/)
+
+## イベント・説明会
+
+- 2025.02.21 [UTokyo Azure 説明会](/events/2025-02-21/)
+  - UTokyo Azure の概要や申請方法，ギフトクレジットの公平な分配の考え方，仮想マシンやAIサービスの始め方の説明と，これらに 関連する意見交換や質疑応答が行われました．
+
+## FAQ・サポート
+
+### [FAQ](/research_computing/utokyo_azure/faq/)
+- 特に多い（多そうな）問い合わせはこちらにまとめてあります．
+
+### [UTokyo Slack](https://app.slack.com/client/E0312P7H7MX/C088H15FH3L?_gl=1*163sxt6*_gcl_au*MTUzNTE1MDYzOS4xNzM2ODIwNzQw)
+- UTokyo Azure ユーザー向けのコミュニティワークスペースを開設しました．登録は自由に行っていただけますので，ぜひ登録いただきユーザー間での情報共有等にご活用ください。
+  - help-utokyo-azure：質疑応答
+  - information-exchange：情報交換
+  - notices：UTokyo Azure からのお知らせ
+
+- **参加方法**
+  - [UTokyo Slackに自由に参加できるワークスペースの中から選んで参加する](https://utelecon.adm.u-tokyo.ac.jp/slack/join)のページの内容を参考に，UTokyo Azure Users Community への参加をご選択ください．
+
+### [Microsoft Copilot](/notice/2024/03-microsoft-copilot)
+- UTokyo Account でログインすることで組織アカウントとしての利用が可能で，複雑な質問でなければ高い正確性で回答が得られま す．
+- 本学における生成系AIの利用についての注意条項（リンク先）をご一読いただいた上で利用ください．
+
+### [Microsoft サポート](https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview)
+- Microsoft の担当者に問い合わせができます．Azure に関する技術的な問い合わせにはこちらをご活用ください．
+- 問い合わせ手順は以下を参照ください．
+  - [サポートリクエスト](/research_computing/utokyo_azure/support/)
+
+### UTokyo Azure サポート担当
+
+- [utelecon のサポート窓口](/support/) 経由での問い合わせを受け付けますが、個々のサービスの利用法や、Azureの技術的な問題については、種類も多く情報も限らているため、Microsoft の担当者に直接問い合わせをしていただくことを基本としますのでご了解下さい
+
+- 東大 UTokyo Azure サポート担当連絡先： utokyo-azure-group@g.ecc.u-tokyo.ac.jp
+
+## 謝辞の記載
+UTokyo Azureを利用して得られた研究成果を論文や学会等で発表する際には、以下の例文を参考に謝辞を記載いただきますようお願いいたします。 
+
+```
+（日）：本研究成果（の一部）は、UTokyo Azure （https://utelecon.adm.u-tokyo.ac.jp/research_computing/utokyo_azure/） を利用して得られたものです。 
+
+（英）：In this research work, we used the UTokyo Azure (https://utelecon.adm.u-tokyo.ac.jp/en/research_computing/utokyo_azure/). 
+```

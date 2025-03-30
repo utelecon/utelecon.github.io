@@ -14,7 +14,7 @@ title: 東京大学のシステム
 
 ## 主要なシステム
 
-- **[UTokyo Account](/utokyo_account/)**：東大の情報システムで使う，「共通ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．
+- **[UTokyo Account](/utokyo_account/)**：東大の情報システムで使うアカウントです．各システムは，このアカウントでログインして使うのが基本になります．
 - **[UTAS](/utas)**：シラバスの掲載や授業関係の手続き（履修登録・成績など）に使うシステム（学務システム）です．
 - **[UTOL](/utol/)**：授業資料の配布や課題の提出などに使うシステム（学習管理システム）です．
 - **[UTokyo Wi-Fi](/utokyo_wifi/)**：キャンパス内で使えるWi-Fiです．事前にアカウントを作っていないと使えないので注意してください．
@@ -28,14 +28,15 @@ title: 東京大学のシステム
 - **[UTokyo Slack](/slack/)**：ビジネスチャットツールと呼ばれるサービスの一種で，テキストメッセージをやり取りしてコミュニケーションを取るためのツールです．テキストメッセージを投稿できる「チャンネル」という場所を複数作って別々のやり取りを同時並行で行えるのが特徴です．なおUTokyo Slackでは，コミュニケーションを行う人が集まる単位である「ワークスペース」は，教職員からの申請により作成できます．
 - **[Slido](/slido/)**：Q&Aやライブ投票・アンケートなど，授業や会議・講演会などでの参加者との双方向コミュニケーションに役立つ機能を提供しているWebサービスです．Webexと連携しており，東京大学のWebexアカウントでサインインすると有料機能を利用することができます．
 - **[UTokyo MATLAB Campus-Wide License](/matlab/)**：科学技術計算のためのソフトウェアであるMATLABを東京大学の包括ライセンスで利用できます．
-- 【学生向け】**[Windows Education for students](/microsoft/windows_education_for_students)**：Windows 10またはWindows 11をEducationエディションにアップグレードするライセンスです．アップグレード用のライセンスであり，クリーンインストールには利用できないことに注意してください．
-- **[UTokyo Microsoft Azure Dev Tools for Teaching](/microsoft/adt4t/)**：Microsoftの開発者用ソフトウェアを提供しています．
+- **[UTokyo Azure](/research_computing/utokyo_azure/)**：本学とMicrosoftとの間で締結した基本合意書に基づき，Microsoftから提供された寄付金（ギフトクレジット）により運用される学内共同利用サービスです．
+- [教育活動向け] **[UTokyo Microsoft Azure Dev Tools for Teaching](/microsoft/adt4t/)**：Microsoftの開発者用ソフトウェアを教育活動向けに提供しています．
 - **[ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) ](/antivirus/)**：教職員・学生を対象に提供しています．東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として，適宜利用してください．
 
 ## 学内システム全般
 
-- **[ECCS端末](https://www.ecc.u-tokyo.ac.jp/)**：キャンパス内に設置されているパソコンです．利用には事前に利用権の申請が必要ですので，注意してください．
+- **[ECCS端末](/eccs/)**：キャンパス内に設置されているパソコンです．利用には事前に利用権の申請が必要ですので，注意してください．
 - **[UTokyo VPN](/utokyo_vpn/)**：学内ネットワーク専用の事務システムなどにキャンパス外からアクセスするためのシステムです．
+- **[全学向け高速計算機・データ活用基盤](/research_computing)**：東京大学が学内の教員や学生の研究や学習に提供している高速計算機やデータ活用基盤です．
 - **[東京大学オンライン講義検索システム (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/)**：オンライン授業URLを確認するためのシステムです．詳細は「[授業URLの連絡方法（学生向け）](/oc/url)」「[授業URLの連絡方法（教員向け）](/faculty_members/url)」のページもご覧ください．
 - 【教職員向け】**[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**：教職員向けの学内ポータルサイトです．
 

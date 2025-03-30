@@ -22,4 +22,10 @@ blockquote, figure, ol, p, ul, .box, .box--alert, .box--important {
   :is(ol, ul) & + & {
     margin-top: 1em;
   }
+  details > &:first-child {
+    margin-top: 1em;
+  }
+  details > &:last-child {
+    margin-bottom: 1em;
+  }
 }

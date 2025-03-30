@@ -15,6 +15,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 {:#caution}
 
 - **PCにインストールして利用するOfficeアプリは，学生及び東京大学に雇用されている教職員のみが利用できます**．
+- **インストールには[UTokyo Accountの多要素認証](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/)が設定済みであることが必要です**．
 - 最大5台のPCにインストールすることが可能です．
 - ライセンス認証のため，少なくとも30日に一度インターネットに接続する必要があります．ライセンス認証はインターネット接続時に自動で行われるため，特別な操作を行う必要はありません．
 
@@ -29,11 +30,11 @@ import HelpItem from "@components/utils/HelpItem.astro";
 1. 以下のMicrosoft 365ホームにアクセスし，UTokyo Accountでサインインしてください．
 **[Microsoft 365ホーム](https://portal.office.com/?auth=2)**{:.box.center}
 サインインの手順については，[**UTokyo Accountを用いてMicrosoftのシステムにサインインする**](signin)をご覧ください．
-1. Microsoft 365ホームの右上にある「アプリをインストール」をクリックして表示されるメニューで，「Microsoft 365 Apps」をクリックしてください．
+1. Microsoft 365ホームの右上にある「インストールなど」をクリックして表示されるメニューで，「Microsoft 365 アプリをインストールする」をクリックしてください．
     <HelpItem lang="ja" type={"details"}>
-    <Fragment slot="problem">「Microsoft 365 Apps」が表示されない場合</Fragment>
+    <Fragment slot="problem">「Microsoft 365 アプリをインストールする」が表示されない場合</Fragment>
     <Fragment slot="solution">あなたは[利用対象者](#caution)ではありません．Officeを利用する必要がある場合，代替手段の一つとして[Web版Office](/microsoft/#office_web)があります．
-    もし，自身が利用対象者であると思われるのにもかかわらず「Microsoft 365 Apps」が表示されない場合，自身の学籍や人事上の登録が正しいかどうか，所属の学部・研究科等の窓口（学生は学務・教務担当，教職員は人事担当）にご確認ください．</Fragment>
+    もし，自身が利用対象者であると思われるのにもかかわらず「Microsoft 365 アプリをインストールする」が表示されない場合，自身の学籍や人事上の登録が正しいかどうか，所属の学部・研究科等の窓口（学生は学務・教務担当，教職員は人事担当）にご確認ください．</Fragment>
     </HelpItem>
     ![](img/microsoft-install-install-download.png){:.medium}
 
@@ -50,7 +51,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
       OfficeアプリにどのMicrosoftアカウントでもサインインしていない状態です．「アカウントにサインインまたはアカウントを作成」をクリックしてください．
     - 上記のような画面が表示されず，通常の編集画面が表示された場合
     
-      OfficeアプリになんらかのMicrosoftアカウントでサインインしている状態です．右上の人型のアイコンをクリックした後，現在サインインしているアカウントを確認してください．UTokyo Accountでない別のアカウントでサインインしていた場合は「別のアカウントでサインイン」を選択してください．
+      OfficeアプリになんらかのMicrosoftアカウントでサインインしている状態です．右上の人型のアイコンをクリックした後，現在サインインしているアカウントを確認してください．UTokyo Accountでない別のアカウントでサインインしていた場合は「アカウントを追加する」を選択してください．
       ![](img/microsoft-install-signin-switch.png){:.small}
 1. [インストール](#install)時と同様のサインイン画面が表示されるので，サインインしてください．
 1. Windows端末の場合，「すべてのアプリにサインインしたままにする」というダイアログが表示されることがあります．ここでの設定内容によっては，Officeアプリの利用中にエラーメッセージが発生しうることが確認されています．これを防ぐため，以下のように回答してください．

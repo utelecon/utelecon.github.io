@@ -11,33 +11,35 @@ redirect_from:
 
 import UTokyoAccountChangePassword from "@components/ja/systems/utokyo_account/ChangePassword.mdx";
 import UTokyoAccountMFA from "@components/ja/systems/utokyo_account/MFA.mdx";
-import Utas from "@components/ja/systems/utas/index.mdx";
-import Utol from "@components/ja/systems/utol/index.mdx";
-import UTokyoWiFi from "@components/ja/systems/utokyo_wifi/index.mdx";
-import Zoom from "@components/ja/systems/zoom/index.mdx";
-import EccsCloudEmail from "@components/ja/systems/eccs_cloud_email/index.mdx";
-import Microsoft from "@components/ja/systems/microsoft/index.mdx";
-import Eccs from "@components/ja/systems/eccs/index.mdx";
 import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 
-## ご挨拶
+import UtasLogin from "@components/ja/systems/utas/Login.mdx";
+import UtasConfirmEmail from "@components/ja/systems/utas/ConfirmEmail.mdx";
 
-新入生の皆さん，ご入学おめでとうございます．
+import UtolLogin from "@components/ja/systems/utol/Login.mdx";
 
-東京大学では教育におけるデジタル技術の活用を進めており，電子的な資料配布や課題提出をはじめ，場合によってはオンライン授業など，さまざまな場面で情報システムを利用することになります．そこで皆さんには，スムーズに授業に参加できるよう，必要な情報システムの準備をしておくようお願いしたいと思います．持ち運びのできるノートパソコンを用意し，アカウントや各種ツールの初期設定をしておいてください．
+import UTokyoWiFiApply from "@components/ja/systems/utokyo_wifi/Apply.mdx";
+import UTokyoWiFiConnect from "@components/ja/systems/utokyo_wifi/Connect.mdx";
 
-近年は，社会情勢の悪化もあり，情報セキュリティ環境が非常に厳しくなっています．大学では，先端的な研究に関する情報などの重要な情報をたくさん有しており，セキュリティの確保は大きな課題です．私たち大学側でも必要な取り組みを行っていますが，皆さんがこれから使うことになる大学のアカウントは大学の情報にアクセスする入口の一つになりますので，それを守るために皆さんにもご協力をお願いしたい点があります．具体的には，パスワードに加えてスマートフォンなどを使ってサインインを行う「多要素認証」という方式を導入していますので，これを全員にお使いいただきたいということです．初期設定の一部として手順に含まれていますので，必ず行うようにしてください．また，「情報セキュリティ教育」という講習も行っていますので，受講をお願いします．
+import ZoomSigninBrowser from "@components/ja/systems/zoom/SigninBrowser.mdx";
+import ZoomInstallAppPc from "@components/ja/systems/zoom/InstallAppPc.mdx";
+import ZoomInstallAppSp from "@components/ja/systems/zoom/InstallAppSp.mdx";
+import ZoomSigninApp from "@components/ja/systems/zoom/SigninApp.mdx";
+import ZoomJoinApp from "@components/ja/systems/zoom/JoinApp.mdx";
+import ZoomJoinBrowser from "@components/ja/systems/zoom/JoinBrowser.mdx";
 
-さて，ITの利用は社会全体で広がっているところですが，中でもここ1年ほどは，ChatGPTに代表される生成AIが特に話題となっています．東京大学では，そのポジティブな側面を評価し，生成AIの利用を一律に禁止することはせず，教育・研究等における利用の可能性を積極的に探る方針を取っています．学生の皆さんも，まずは機会を捉えて使ってみてください．一方で大学での学修は，知識を得て成果物を提出するという結果（だけ）が重要なのではなく，自ら考え能力を高めるという学ぶ過程にこそ価値がありますので，単に楽をするために使うのでは意味がないということもよく理解しておいてください．授業での注意事項をまとめた「[AIツールの授業における利用について](/docs/ai-tools-in-classes-students)」というガイドラインも確認してください．より詳しくは，昨年発表したメッセージ「[生成系AIについて](/docs/20230403-generative-ai)」もあわせてご覧いただければと思います．大学の活動に新しい技術をどうやって取り入れていくかは未知数の部分もありますので，学生の皆さんと一緒に，次世代の教育を作るチャレンジをしていきたいと考えています．積極的に参加してもらえたら幸いです．
+import EccsCloudEmailConfigure from "@components/ja/systems/eccs_cloud_email/Configure.mdx";
+import EccsCloudEmailLogin from "@components/ja/systems/eccs_cloud_email/Login.mdx";
+import EccsCloudEmailAccess from "@components/ja/systems/eccs_cloud_email/Access.mdx";
+import EccsCloudEmailLoginSp from "@components/ja/systems/eccs_cloud_email/LoginSp.mdx";
+import EccsCloudEmailUseMail from "@components/ja/systems/eccs_cloud_email/UseMail.mdx";
 
-このポータルサイト「utelecon」には，東京大学のシステムに関する情報を集約しています．まずは授業を受けるために必要な準備について確認してください．また，チャットツールやWeb会議などさまざまなツールの進んだ使い方も紹介していますので，授業だけでなく勉強会やサークルなど，皆さんが自身で活動する際，そして周りの人と対話・協働して活動する際にも活用していただければと思います．トラブルや困ったことがあれば，サポート窓口で質問も受け付けています．
+import MicrosoftSignin from "@components/ja/systems/microsoft/Signin.mdx";
+import MicrosoftAccess from "@components/ja/systems/microsoft/Access.mdx";
+import MicrosoftInstallApps from "@components/ja/systems/microsoft/InstallApps.mdx";
 
-東京大学ではキャンパスの環境とICT環境の相乗効果を発揮できるよう必要な整備を進めており，たとえば，キャンパスの大部分をカバーするWi-Fiの更新・増強が今年度前半に完了する予定です．本学教職員一同，皆さんが効果的に学び，そして充実した学生生活を送れるよう，最善を尽くしてまいります．
-
-<div style="text-align: right;">
-理事・副学長　最高情報責任者 (CIO) <br />
-森山　工
-</div>
+import EccsApply from "@components/ja/systems/eccs/Apply.mdx";
+import EccsLogin from "@components/ja/systems/eccs/Login.mdx";
 
 ## 東京大学における授業の形態
 
@@ -56,7 +58,7 @@ import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 東大の授業では，さまざまな情報システムを使います．アカウントの設定を行い，授業で使う際の手順を確認・練習しておきましょう．詳細な手順はこの後の項でくわしく説明しますが，ここで一覧を挙げておきます．
 
 {/* 以下の説明の文章は後でも使うため，一度変数として定義してからそれを呼び出す形で記述している */}
-export const about_utokyo_account = "東大の情報システムで使う，「共通 ID」と呼ばれるアカウントです．各システムは，このアカウントでログインして使うのが基本になります．"
+export const about_utokyo_account = <>東大の情報システムで使うアカウントです．UTokyo Accountは<code>0123456789@utac.u-tokyo.ac.jp</code>のように，10桁の数字（共通ID）の後に東京大学であることを表す記号<code>@utac.u-tokyo.ac.jp</code>を付けたもので表されます．</>
 export const about_utas = "各授業の概要説明（シラバス）の閲覧，受ける授業の登録手続き，成績の確認などに使うシステム（学務システム）です．"
 export const about_utol = "授業で使う資料のダウンロードや課題の提出などに使うシステム（学習管理システム）です．"
 export const about_zoom = "「同時双方向型」のオンライン授業で使う Web 会議システムです．"
@@ -77,14 +79,14 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 授業を受けるためには，インターネット環境やパソコンなどの機器が必要です．どのようなものを用意すればよいか，説明します．
 
-- **インターネット環境**：動画が安定して閲覧できれば問題ありませんが，オンライン授業を長時間受講する場合には，通信の容量に注意してください．特に，スマホをモバイルネットワーク（LTE など）に直接つなげている場合，「ギガが足りない」ということにならないか，契約などを確認してください．
+- **インターネット環境**：動画が安定して閲覧できれば問題ありませんが，オンライン授業を長時間受講する場合には，通信の容量に注意してください．特に，スマホをモバイルネットワーク（5G/4G LTE通信など）で通信している場合，「ギガが足りない」ということにならないか，通信事業者との契約などを確認してください．
   - キャンパス内では大学が Wi-Fi を提供していますので心配ありません．
     {/* 東京大学では，十分なネットワーク環境が整わない人のための支援を，新入学生を対象に実施しています．詳細は「[教育・研究活動のためのネットワーク環境支援](/mobile/)」のページを確認してください． */}
 - **パソコン**：レポートの作成などで必要になる機会が多くなるほか，オンライン授業を受けながらちょっとした作業や演習をする際にも必要です．
   - キャンパスでも使えるよう，持ち運びのできるノートパソコンがおすすめです．
   - スペックについては，「[東京大学の BYOD 方針](/docs/byod)」に目安が掲載されています．
     - マイクやカメラの付いているものがおすすめですが，既に持っているパソコンに付いていないという場合は，必要なときに外付けのものを買い足すという方法もあります．
-  - 生協が公開している新入生向けパソコンについての特集ページ「[受験生・新入生応援サイト 2024 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html)」も参考になるかもしれません．
+  - 生協が公開している新入生向けパソコンについての特集ページ「[受験生・新入生応援サイト 2025 駒場モデルパソコン](https://text.univ.coop/puk/START/utcoop/pc.html)」も参考になるかもしれません．
   - 十分なパソコン環境が整わない人は，所属の学部・研究科等に相談してください（例えば，教養学部では[パソコンの貸し出しを実施](https://www.c.u-tokyo.ac.jp/campuslife/online-lectures.html)しています）．
 - **ヘッドセットやイヤホン**：キャンパスの空き教室でオンライン授業を受ける際に，同じ教室を利用する学生の迷惑にならないように音声を聞くために，ヘッドセットやイヤホンが必要になります．新しく購入する場合は，マイク付きのヘッドセットがおすすめです．
 
@@ -129,28 +131,56 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 <p>{ about_utas }</p>
 
-<Utas variant="oc" />
+- **練習：ログインしてみる**
+  <UtasLogin variant="oc" support />
+- **確認：メールアドレスが登録されているか確認する**
+  <UtasConfirmEmail support />
+{:.procedure}
 
 ### UTOL (UTokyo LMS)
 {:#utol}
 
 <p>{ about_utol }</p>
 
-<Utol variant="oc" />
+- **練習：ログインしてみる**
+  <UtolLogin support />
+- **任意の作業：メール・LINE・Slackと通知を連携する**  
+  履修または担当しているコースで更新があったときに，メールやLINE，[UTokyo Slack](/slack/)で通知を受け取ることができます．設定手順については，「[UTOLからの通知を設定する](/utol/notification/)」を参照してください．
+{:.procedure}
 
 ### UTokyo Wi-Fi
 {:#utokyo_wifi}
 
 UTokyo Wi-Fiは東京大学のキャンパス内で提供されている学内向けWi-Fiで，学内限定のデータベースや電子ジャーナルへのアクセスが可能です．利用するためには事前に，UTokyo Accountの多要素認証を有効化した上で，情報セキュリティ教育の受講を完了し，UTokyo Wi-Fiアカウントを作成しておく必要があります．
 
-<UTokyoWiFi variant="oc" />
+- **作業：アカウントの発行を申請する**
+  <UTokyoWiFiApply utasOnly support />
+- **作業：実際に接続する**
+  <UTokyoWiFiConnect
+    applyStep="上の手順"
+    connectConfiguration={<a href="/utokyo_wifi/#connect-configuration">UTokyo Wi-Fiのページの「接続の詳細な設定」</a>}
+  />
+{:.procedure}
 
 ### Zoom
 {:#zoom}
 
 <p>{ about_zoom }</p>
 
-<Zoom variant="oc" />
+- [手順動画](/oc/movies#zoom)
+- **確認：サインインしてみる**
+  <ZoomSigninBrowser support />
+- **作業：パソコンにアプリをインストールする**
+  <ZoomInstallAppPc support />
+- **任意の作業：スマホにアプリをインストールする**（必須ではありませんが，やっておくと，パソコンの調子がおかしいときなど，いざというときに安心です）
+  <ZoomInstallAppSp support />
+- **任意の作業：アプリにサインインする**（自分で会議を開く機会がある人などには便利です）
+  <ZoomSigninApp support />
+- **確認：アプリで東大のアカウント専用の会議室に入ってみる**（実際に授業で使う予定の機器でやっておきましょう．また，予備としてパソコンだけでなくスマホでもやっておくと安心です）
+  <ZoomJoinApp support />
+- **確認：ブラウザから東大のアカウント専用の会議室に入ってみる**
+  <ZoomJoinBrowser support />
+{:.procedure}
 
 ### ECCS クラウドメール (Google Workspace)
 {:#google}
@@ -159,21 +189,42 @@ UTokyo Wi-Fiは東京大学のキャンパス内で提供されている学内�
 
 また，利用したいメールアドレスの@より前の部分は，ご自身で適切なものを考えて設定してください．なお，ご自身で設定しない場合は，「10桁の共通ID＋`@g.ecc.u-tokyo.ac.jp`」がメールアドレスとなっています．
 
-<EccsCloudEmail variant="oc" />
+- **作業：自分で考えたメールアドレスを設定する**
+  <EccsCloudEmailConfigure support />
+- **確認：ログインする**
+  <EccsCloudEmailLogin support />
+- **確認：東大のアカウント専用のページにアクセスできるか確認する**
+  <EccsCloudEmailAccess support />
+- **任意の作業：スマホでログインする**（GmailなどGoogleのアプリを使っている人向け）
+  <EccsCloudEmailLoginSp support />
+- **練習：メールを使ってみる**（Gmailで`xxxx@g.ecc.u-tokyo.ac.jp`というメールアドレスが使えます）
+  <EccsCloudEmailUseMail support />
+{:.procedure}
 
 ### UTokyo Microsoft License
 {:#microsoft}
 
 <p>{ about_microsoft }</p>
 
-<Microsoft variant="oc" />
+- [手順動画](/oc/movies#microsoft)
+- **確認：サインインしてみる**
+  <MicrosoftSignin support />
+- **確認：東大のアカウント専用のページにアクセスできるか確認する**
+  <MicrosoftAccess support />
+- **任意の作業：パソコンにWordやExcelをインストールする**（既にインストール済みなら，それを使えば問題ありません）
+  <MicrosoftInstallApps support />
+{:.procedure}
 
-### ECCS 端末
+### ECCS端末
 {:#eccs}
 
 <p>{ about_eccs }</p>
 
-<Eccs variant="oc" />
+- **作業：利用権を申請する**
+  <EccsApply support />
+- **練習：ログインしてみる**
+  <EccsLogin support />
+{:.procedure}
 
 ## その他
 
@@ -187,8 +238,8 @@ UTokyo Wi-Fiは東京大学のキャンパス内で提供されている学内�
 
 - **[ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License)](/antivirus/)**
   - 教職員・学生を対象に，ウイルス対策ソフトウェア包括ライセンス (UTokyo Antivirus License) を提供しています．東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」にて，コンピュータについて「適切なウイルス対策」をすることを求めていますので，対策の一環として，適宜利用してください．
-  - 2024 年度版の提供は 2024 年 4 月 1 日から開始します．
-    - 2024年3月までは2023年度のソフトウェアの申請になります．3月までに申請を行った場合でも，2024年度版をご利用いただくには4月以降にもう一度申請を行っていただく必要があります．
+  - 2025 年度版の提供は 2025 年 4 月 1 日から開始します．
+    - 2025年3月までは2024年度のソフトウェアの申請になります．3月までに申請を行った場合でも，2025年度版をご利用いただくには4月以降にもう一度申請を行っていただく必要があります．
 - **[EZproxy](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/campus/offcampus/ezproxy)**
   - 東京大学が契約している学内者限定の電子ジャーナルにキャンパス外からアクセスするためのシステムです．必要な場合に利用してください．
 - **[MATLAB](/matlab/)**
@@ -200,3 +251,5 @@ UTokyo Wi-Fiは東京大学のキャンパス内で提供されている学内�
 お疲れさまでした．もし，ここまでの手順の中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
 以上でオンライン授業を受けるための準備手順は終わりですが，このサイト「**情報システムの総合案内サイト @ 東京大学**」，愛称「**utelecon**」では，このページで挙げた情報システムを使いこなすための情報をたくさん紹介しています．授業で使っていてよくわからなくなったときはもちろん，サークルや勉強会などで，自分たちで Web 会議やその他の情報システムを使う機会もあると思います．そんなときに，ぜひこのサイトを訪れてみてください．
+
+また，uteleconでは[公式Xアカウント](https://x.com/utelecon_pr)を通じて，更新情報やお知らせなどを発信しています．ぜひフォローして，最新の情報を得てください．

@@ -1,11 +1,14 @@
 ---
 title: The Portal Site of Information Systems @ UTokyo
 top: true
+# temporary
+description: This website aims to provide one-stop information service about information systems in the University of Tokyo.
 toc: false
 sitemap: false
 ---
 
 import "@styles/top.scss";
+import "@styles/rss_icon.scss";
 
 import Emergency from '@components/Emergency.mdx'
 import Notice from '@components/pages/Notice.astro'
@@ -15,27 +18,27 @@ import Events from '@components/pages/Events.astro'
 
 <div class="largecards">
   <div class="largecards__card">
-    <a href="/oc/">For New Students</a>
+    <a href="/en/oc/">For New Students</a>
   </div>
   <div class="largecards__card">
-    <a href="/faculty_members/">For Faculty Members</a>
+    <a href="/en/faculty_members/">For Faculty Members</a>
   </div>
 </div>
 
 <Events show={[
+  "2025-03-12",
+  "2025-02-21",
   "2024-09-13",
-  "2024-03-15",
-  "2024-03-11",
 ]} alternative={{"2024-09-13": {"href": "/en/events/2024-09-13"}}} lang="en">
+<Fragment slot= "2025-03-12">Information Session on ICT Systems and Tools for UTokyo Members <small>(only in Japanese)</small></Fragment>
+<Fragment slot= "2025-02-21">Information Session on UTokyo Azure <small>(only in Japanese)</small></Fragment>
 <Fragment slot="2024-09-13">Information Session on ICT Systems and Tools for UTokyo Members</Fragment>
-<Fragment slot="2024-03-15">Briefing Session: Briefing Session on Enhancing Use of IT Tools at UTokyo <small>(only in Japanese)</small></Fragment>
-<Fragment slot="2024-03-11">Briefing Session: Briefing Session on IT Tools for Instructors Teaching for the First Time at UTokyo <small>(only in Japanese)</small></Fragment>
 </Events>
 
 <div class="container">
 <div class="container__column">
 
-## Notice
+## Notice <a href="/en/notice/rss" class="rss_icon" title="RSS">rss_feed</a>
 
 {/* To add notice here, edit `src/data/notice.yml` */}
 
@@ -48,6 +51,7 @@ import Events from '@components/pages/Events.astro'
 
 ## Pickup
 
+- [UTokyo Azure](/en/research_computing/utokyo_azure)
 - [Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)
 {:.cards}
 
@@ -75,7 +79,10 @@ import Events from '@components/pages/Events.astro'
   - [ECCS Cloud Email<small> (Google Workspace)</small>](/en/google/)
   - [UTokyo Microsoft License](/en/microsoft/)
   - [UTokyo Slack](/en/slack/)
+  - [Slido](/en/slido/)
+  - [UTokyo MATLAB Campus-Wide License](/en/matlab/)
   - [UTokyo VPN](/en/utokyo_vpn/)
+  - [ECCS Terminals](https://www.ecc.u-tokyo.ac.jp/en/)
   -
   {:.cards}
 </div>

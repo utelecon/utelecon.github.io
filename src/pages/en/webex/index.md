@@ -4,14 +4,11 @@ breadcrumb:
   title: Webex
 ---
 
-## Introduction
+Webex is one of the web conferencing systems provided by the University of Tokyo.
 
-- Allows for up to 1000 participants while using a basic license, which makes it suitable for meetings with a large number of participants
-- Can host end-to-end encrypted meetings (where the data is not decrypted on the cloud), which means it is recommended for meetings that are highly confidential or where there is a need to avoid censorship
-- Offers a variety of features, including voting, breakout rooms, and the ability to mute all participants
-- A browser-only version is available that can be used without installing the app, but it is limited to basic functionality
-- The app is compatible with Windows, Mac, iOS, and Android (Linux is not supported)
-- Starting from March 2021, you will be required to sign in using your UTokyo Account. For more details, see [Signing in to Webex](signin) and [System Change for Spring 2021](/en/change2021s/).
+[Signing in to your University of Tokyo account](signin) allows you to hold a meeting with a maximum of 1,000 participants and a maximum duration of 24 hours. A “webinar” function which is suitable for lectures, is also available. This feature is recommended for those who wish to hold lectures or meetings with a large number of participants.
+
+When using a University of Tokyo account, please also refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms)". You may use your University of Tokyo account for your own voluntary activities as a member of the University of Tokyo, including study groups and research groups that you organize or participate in.
 
 ## On Webex Services
 

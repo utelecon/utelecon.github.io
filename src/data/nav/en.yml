@@ -10,6 +10,9 @@
       name: "For Faculty Members"
       url: "/en/faculty_members/"
     -
+      name: "For Staff Members"
+      url: "/en/staff_members/"
+    -
       name: "Effective Use of Online Resources"
       url: "/en/online/"
     -
@@ -48,6 +51,15 @@
     -
       name: "UTokyo VPN"
       url: "/en/utokyo_vpn/"
+    -
+      name: "High-speed computing and data utilization infrastructure for the university"
+      url: "/en/research_computing/"
+    -
+      name: "UTokyo Azure"
+      url: "/en/research_computing/utokyo_azure/"
+    -
+      name: "Full List"
+      url: "/en/systems/"
     # -
     #   name: "List of all systems"
     #   url: "/en/systems/"
@@ -68,14 +80,14 @@
       url: "/en/articles/copyright/"
 -
   name: "Guides / Events"
-  contents: 
+  contents:
     -
       name: "Notice"
       url: "/en/notice/"
     -
       name: "Information Security Portal Site"
       url: "https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Home.aspx"
-    # - 
+    # -
     #   name: "Policies related to ICT"
     #   url: "/en/docs/"
     -

@@ -14,6 +14,7 @@ import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
 import copyAsset from "./src/lib/CopyAssetIntegration.js";
 import assetFileNames from "./src/lib/AssetFileNames.js";
 import rehypeRaw from "rehype-raw";
+import remarkImageClasslist from "./src/lib/remark-image-classlist.js";
 
 // https://astro.build/config
 export default defineConfig({
@@ -51,6 +52,7 @@ export default defineConfig({
           allowNoPosition: true,
         },
       ],
+      remarkImageClasslist,
     ],
     remarkRehype: {
       footnoteLabelProperties: { className: ["visually-hidden"] },

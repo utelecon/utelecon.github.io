@@ -16,3 +16,7 @@ html {
 @import "main";
 @import "margin";
 @import "external-link";
+
+@media print {
+  @import "printing";
+}
