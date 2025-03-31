@@ -9,99 +9,103 @@ title: How to handle the 2025 Academic Year S Semester Courses on UTOL
 
 ## Course Confirmation Date for the S Semester
 
-The Learning Management System "UTOL" (UTokyo LMS) even if you have not officially registered for a course on UTAS, you can use the course by adding it to your UTAS syllabus favorites (hereafter referred to as "**favorite registration**") or by pressing the "Register for Course" button on UTOL (hereafter referred to as "**self-registration**"). Of these, for courses that you have not registered for on UTAS, a deadline is set by which students can use the course (hereafter referred to as the "**course registration confirmation date**"). 
+The Learning Management System "UTOL" (UTokyo LMS) even if you have not officially registered for a course on UTAS, you can use the course by adding it to your UTAS syllabus favorites (hereafter referred to as "**favorite registration**") or by pressing the "Register for Course" button on UTOL (hereafter referred to as "**self-registration**"). Of these, for courses that you have not registered for on UTAS, a deadline is set by which students can use the course (hereafter referred to as the "**course confirmation date**").
 
-2025年度Sセメスターは一律で次のように設定します．
+The 2025 Academic Year S semester will be set as follows.
 
-| 開講期間             | 教養学部前期課程 | 前期課程以外 |
-| :------------------- | :--------------- | :----------- |
-| S1ターム/Sセメスター | **4/30**         | **4/30**     |
-| S2ターム             | **補足1を参照**  | **6/15**     |
+| Term               | College of Arts and Sciences Junior Division            | All others   |
+| :----------------- | :------------------------------------------------------ | :----------- |
+| S1 Term/S Semester | **April 30**                                            | **April 30** |
+| S2 Term            | **See [Supplementary Information 1](#junior-division)** | **June 15**  |
 
-これにより，2024年度Sセメスターで発生した「履修登録期間が始まる前に，履修予定の科目の開講組織の履修登録期間（もしくは履修訂正期間）が終了し，対応するコースから締め出されて，教材や課題などが参照できなくなる」といった運用上の問題は，ある程度回避できると考えております．
+We believe that the operational issues encountered in the 2024 Academic Year S Semester, such as students being locked out of courses they plan to register for and subsequently losing access to course materials or assignments before the registration period starts, can be avoided to some extent.
 
-ただし「UTOLのコースに参加できているので，UTASで履修登録済みと勘違いしていた」という個人の問題は起き得ます．学生の皆さんは，**所属する学部や大学院研究科から通知された履修登録期間中にUTASで履修登録を行うのを忘れないようにくれぐれもよろしくお願いします．UTOLのコースを利用できても，UTASの履修登録が完了しているとは限りません．**
+However, there is a possibility that individuals may mistakenly believe that they have completed course registration in UTAS simply because they can access the course. Students are strongly advised to **ensure that they complete their course registration through UTAS during the period specified by their affiliated faculty or graduate school. Please note that access to courses in UTOL does not necessarily mean that registration in UTAS has been completed.**
 
-UTOLに関してご不明な点があれば，[サポート窓口](/support/)よりお問い合わせ下さい．UTASでの履修登録については，ご所属組織の教務窓口等にお問い合わせ下さい．
+If you have any questions concerning UTOL, please contact us through the [Support Desk](<(/en/support/)>). If you have any questions concerning your registration through UTAS, please contact the academic affairs office of your affiliation.
 
-## 補足事項
+## Supplementary Information
 
-### 1. 教養学部前期課程授業のコース
+### 1. Courses for the Junior Division of the College of Arts and Sciences
 
-2025年度に**教養学部前期課程が開講する授業のコースの履修確定日は，Sセメスター/S1タームは【2025年4月30日（水）】，Aセメスター/A1タームは【2025年10月16日（木）】**です．「履修登録期間中に登録を忘れてコースが見えなくなった」場合は，**履修訂正期間内に必ず履修登録を行って下さい**．また**S2ターム/A2タームのコースは，履修登録期間終了後も自己登録で利用可能**です．履修登録手続を行うのを忘れないよう，特に気を付けて下さい．
+{:#junior-division}
 
-なお，教養学部後期課程が開講する科目との二枚看板（合併科目）の科目に対応するコースの履修確定日は上記とは異なります．履修登録期間中にUTASで履修登録を行うのを忘れないように気を付けて下さい．
+The course confirmation date for courses offered by the Junior Division of the College of Arts and Sciences is Wednesday, April 30, 2025, for the S Semester/S1 Term while the course confirmation date is Thursday, October 16, 2025, for the A Semester/A1 Term/A2 Term. If you can no longer access a course because you forgot to register during the registration period, please make sure to complete your registration during the course correction period. In addition, **S2 Term/A2 Term courses will be available for self-registration even after the course registration period ends**. Please be especially careful not to forget to complete the course registration procedure.
 
-### 2. コースの利用状態の変化
+Please note that the course confirmation dates for courses held on the same day, and period by the same professor (multiple course) that are offered by the Senior Division of the College of Arts and Sciences are different from the above. Please be sure to register for these courses using UTAS during the relevant course registration period.
 
-この項では，S1タームのコース（科目）を例に，一般的なコースの利用可/不可の変化を時系列で説明します
+### 2. Changes in the course access status
 
-#### 3/4~: コースの利用開始
+Courses in the S1 Term will be used as an example to explain the general changes in course access status over time.
 
-3/4より，Sセメスター／S1ターム／S2タームのコースはUTOL上に登録され，UTAS上でのシラバスお気に入り登録やUTOL上での自己登録により，UTOL上のコースに参加できるようになります．これらの方法により，参加したコースについてはUTOL上の時間割表に表示され，UTASで履修登録するのを忘れないよう『UTAS「履修登録」要確認！』などの注意喚起が表示されます．履修登録期間開始後に，UTASで履修登録を行うと，前述の注意喚起は表示されなくなります．
+#### March 4~: Courses become available
 
-なお，UTAS上でのシラバスお気に入り登録や履修登録の情報は，毎日未明にUTASから抽出されて同日の早朝にUTOLに登録されます．すなわち，UTASでの履修登録がUTOLの時間割表上の表示に反映されるのは，概ね翌朝です．
+From March 4, courses for the S Semester, S1 Term and S2 Term will be registered in UTOL, and you will be able to access the courses by adding them to your UTAS syllabus favorites or by self-registering in UTOL. The courses you are taking will be displayed in the timetable on UTOL. However, please note that you will also see warnings such as "Ensure [Course Registration] on UTAS" to remind you to register for them in UTAS.
+If you register for the course in UTAS after the course registration period begins, the warning will disappear.
 
-#### 履修登録期間（履修訂正期間）終了後: お気に入り登録での利用不可
+Please note that information regarding adding courses to your favorites in the UTAS syllabus listing or registering for courses will be extracted from UTAS early each morning, and reflected in UTOL later that same morning. Therefore, changes made in UTAS are generally reflected in UTOL the following morning.
 
-履修登録期間あるいは履修訂正期間の終了日の翌朝になると，UTASからのお気に入り登録ではコースを利用できなくなります．ご存知の通り，履修登録期間や履修訂正期間は，所属部局や学年によって異なります．つまり、UTASからのお気に入り登録で利用できなくなる日付は，学生の皆さんの所属・学年により異なりますが，一部の例外を除き4/30以前となる見込みです．
+#### 履修登録期間（履修訂正期間）終了後: “Favorite Registration” becomes unavailable
 
-#### 4/30~: 自己登録での利用不可
+You will no longer be able to access courses using the "(Favorite Registration)" starting from the morning after the end of the course registration period or the course correction period. As you may already know, the course registration period and course correction period vary depending on your affiliation or year of study. Consequently, the date when the "(Favorite Registration)" becomes unavailable differs for each student. However, with a few exceptions, it is expected to be before April 30.
 
-S1タームの履修確定日である4/30の翌日，5/1の早朝以降，自己登録ではコースを利用できなくなります．但し，当該コースの設定を担当教員が変更することで，引き続き利用できる場合があります．
+#### April 30~: “Self-Registration” is unavailable
 
-### 3. 聴講について
+You will no longer be able to access courses using "(Self-Registration)" starting from early in the morning of May 1, following the April 30 course confirmation date for the S1 Term. However, you may still be able to access the course if the instructor changes the settings for the relevant course.
 
-諸々の理由で「UTASで正規の履修登録はしない／できないが，あるコースを聴講したい」といった学生の皆さんの声を聞くことがあります．このような聴講を認めるかどうかは担当教員の先生方のご判断です．学生の皆さん各自で先生にご相談下さい．
+### 3. Auditing
 
-なお聴講する学生によるUTOLの閲覧を可能とするには，聴講を希望する学生が少ない場合は当該学生の登録方法を担当教員登録に更新する，聴講を希望する学生が多い場合はコースの設定を変更する，といった方法があります．もし，先生が具体的な方法をご存じない場合は，以下のページをご紹介下さい．
+We sometimes hear from students who, for various reasons, either “do not wish to or cannot officially register for courses through UTAS but still want to audit them”. It is up to the instructors to decide whether or not to allow such students to audit. Please contact the instructor directly to discuss this matter.
 
-- 聴講を希望する学生が少ない場合:「[UTOLのコース参加者を管理する（確認・登録など）（教員・TA向け） \> コース参加者の登録方法を更新する](/utol/lecturers/settings/course_participants/#update)」
-- 聴講を希望する学生が多い場合:「[UTOLでコース設定を行う（教員・TA向け）\> 自己登録・履修者範囲設定](/utol/lecturers/settings/#self-registration-and-content-use-scope)」
-  - コース設定において「履修者範囲設定」を「常に登録方法によらず全て」として，更に「自己登録」を「許可する」にチェックして下さい．
+If there are only a few students auditing, the registration method will be the (Registered by Instructor).
+If there are many students auditing, the instructor can change the course settings to allow access. If the instructors do not know the specific procedures, please refer to the following web pages.
 
-### 4. 通常と異なる設定のコースはあります
+- If there are only a few students auditing:「[UTOLのコース参加者を管理する（確認・登録など）（教員・TA向け） \> コース参加者の登録方法を更新する](/en/utol/lecturers/settings/course_participants/#update)」
+- If there are many students auditing:「[UTOLでコース設定を行う（教員・TA向け）\> 自己登録・履修者範囲設定](/en/utol/lecturers/settings/#self-registration-and-content-use-scope)」
+  - In the course settings, please tick “Always all regardless of registration method" for "the enrolled student range settings". Furthermore, make sure to set "Self-Registration" to "Permit".
 
-コースを担当する先生方のご都合によって，履修確定日以前であってもUTASで履修登録を行った学生しか利用できないコースも存在し得ます．学生の皆さん各自で先生にご相談下さい．
+### 4. There are course settings that differ from regular settings
 
-### 5. 開講区分と履修確定日の対応
+Due to the circumstances of the course instructors, some courses may be accessible only to students who have registered for them through UTAS, even before the course confirmation date. Please contact the instructor directly for further clarification.
 
-科目によっては，S1/S2のような標準的なタームとは異なる日程で開講されます．開講期間と履修確定日の対応については，下記の表をご覧ください．教養学部前期課程の科目については上の表をご覧ください．
+### 5. Handling of Semester/Term and the Course Confirmation Date
 
-| 開講期間(日本語) | 開講期間(英語)  | 履修確定日 |
-| ---------------- | --------------- | ---------- |
-| 夏学期           | Summer semester | 4/30       |
-| 冬学期           | Winter semester | 未定       |
-| 通年             | Year-long       | 4/30       |
-| 集中             | Intensive       | 4/30       |
-| 年度跨り         |                 | 未定       |
-| その他           |                 | 未定       |
-| 認定             |                 | 4/30       |
-| 年度跨り④        |                 | 4/30       |
-| 年度跨り⑩        |                 | 未定       |
-| Ｓ１             | Ｓ１            | 4/30       |
-| Ｓ２             | Ｓ２            | 6/15       |
-| Ａ１             | Ａ１            | 未定       |
-| Ａ２             | Ａ２            | 未定       |
-| Ｗ               | Ｗ              | 未定       |
-| S1S2             | S1S2            | 4/30       |
-| S1S2A1           | S1S2A1          | 4/30       |
-| S2A1             | S2A1            | 6/15       |
-| S2A1A2           | S2A1A2          | 6/15       |
-| A1A2             | A1A2            | 未定       |
-| A1A2S1           | A1A2S1          | 未定       |
-| A2S1             | A2S1            | 未定       |
-| S1A1             | S1A1            | 4/30       |
-| S1A1A2           | S1A1A2          | 4/30       |
-| A1A2W            | A1A2W           | 未定       |
-| A2W              | A2W             | 未定       |
-| WS1              | WS1             | 未定       |
-| S1A2             | S1A2            | 4/30       |
-| S2A2             | S2A2            | 6/15       |
-| S2A2W            | S2A2W           | 6/15       |
-| WS1A1            | WS1A1           | 未定       |
-| 年度跨り⑪        |                 | 未定       |
-| S1S2A1A2         | S1S2A1A2        | 4/30       |
-| Ｗ(農)           | Ｗ              | 未定       |
-| Ｓ               | S               | 4/30       |
-| Ａ               | A               | 未定       |
+Depending on the course, the dates offered may differ from the standard such as S1, S2 etc. Please refer to the table below for the handling of the Semester/Term and the course confirmation dates. For the Junior Division of the College of Arts and Sciences, please refer to the table above.
+
+| Semester/Term (Japanese) | Semester/Term (English) | Course Confirmation Date |
+| ------------------------ | ----------------------- | ------------------------ |
+| 夏学期                   | Summer semester         | April 30                 |
+| 冬学期                   | Winter semester         | To be determined         |
+| 通年                     | Year-long               | April 30                 |
+| 集中                     | Intensive               | April 30                 |
+| 年度跨り                 |                         | To be determined         |
+| その他                   |                         | To be determined         |
+| 認定                     |                         | April 30                 |
+| 年度跨り④                |                         | April 30                 |
+| 年度跨り⑩                |                         | To be determined         |
+| Ｓ１                     | Ｓ１                    | April 30                 |
+| Ｓ２                     | Ｓ２                    | June 15                  |
+| Ａ１                     | Ａ１                    | To be determined         |
+| Ａ２                     | Ａ２                    | To be determined         |
+| Ｗ                       | Ｗ                      | To be determined         |
+| S1S2                     | S1S2                    | April 30                 |
+| S1S2A1                   | S1S2A1                  | April 30                 |
+| S2A1                     | S2A1                    | June 15                  |
+| S2A1A2                   | S2A1A2                  | June 15                  |
+| A1A2                     | A1A2                    | To be determined         |
+| A1A2S1                   | A1A2S1                  | To be determined         |
+| A2S1                     | A2S1                    | To be determined         |
+| S1A1                     | S1A1                    | April 30                 |
+| S1A1A2                   | S1A1A2                  | April 30                 |
+| A1A2W                    | A1A2W                   | To be determined         |
+| A2W                      | A2W                     | To be determined         |
+| WS1                      | WS1                     | To be determined         |
+| S1A2                     | S1A2                    | April 30                 |
+| S2A2                     | S2A2                    | June 15                  |
+| S2A2W                    | S2A2W                   | June 15                  |
+| WS1A1                    | WS1A1                   | To be determined         |
+| 年度跨り⑪                |                         | To be determined         |
+| S1S2A1A2                 | S1S2A1A2                | April 30                 |
+| Ｗ(農)                   | Ｗ                      | To be determined         |
+| Ｓ                       | S                       | April 30                 |
+| Ａ                       | A                       | To be determined         |
