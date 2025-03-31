@@ -110,4 +110,4 @@ This setting controls whether participants will join the meeting with their came
 {:#settings-audio}
 This setting controls the types of audio participants can use during the meeting. Zoom offers a method for joining by phone for audio-only participation, even without an internet connection. However, if "Computer Audio" is selected, this method will not be available. Generally, it is fine to leave the setting on "Both".
 
-#### 
+#### Options
