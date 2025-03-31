@@ -11,9 +11,9 @@ title: How to handle the 2025 Academic Year S Semester Courses on UTOL
 
 The Learning Management System "UTOL" (UTokyo LMS) even if you have not officially registered for a course on UTAS, you can use the course by adding it to your UTAS syllabus favorites (hereafter referred to as "**favorite registration**") or by pressing the "Register for Course" button on UTOL (hereafter referred to as "**self-registration**"). Of these, for courses that you have not registered for on UTAS, a deadline is set by which students can use the course (hereafter referred to as the "**course confirmation date**").
 
-The 2025 Academic Year S semester will be set as follows.
+In the S semester of 2025, course confirmation dates will be set uniformly as follows:
 
-| Term               | College of Arts and Sciences Junior Division            | All others   |
+| Term/Semester      | College of Arts and Sciences Junior Division            | All others   |
 | :----------------- | :------------------------------------------------------ | :----------- |
 | S1 Term/S Semester | **April 30**                                            | **April 30** |
 | S2 Term            | **See [Supplementary Information 1](#junior-division)** | **June 15**  |
@@ -22,7 +22,7 @@ We believe that the operational issues encountered in the 2024 Academic Year S S
 
 However, there is a possibility that individuals may mistakenly believe that they have completed course registration in UTAS simply because they can access the course. Students are strongly advised to **ensure that they complete their course registration through UTAS during the period specified by their affiliated faculty or graduate school. Please note that access to courses in UTOL does not necessarily mean that registration in UTAS has been completed.**
 
-If you have any questions concerning UTOL, please contact us through the [Support Desk](<(/en/support/)>). If you have any questions concerning your registration through UTAS, please contact the academic affairs office of your affiliation.
+If you have any questions concerning UTOL, please contact us through the [Support Desk](/en/support/). If you have any questions concerning your registration through UTAS, please contact the academic affairs office of your affiliation.
 
 ## Supplementary Information
 
@@ -30,39 +30,37 @@ If you have any questions concerning UTOL, please contact us through the [Suppor
 
 {:#junior-division}
 
-The course confirmation date for courses offered by the Junior Division of the College of Arts and Sciences is Wednesday, April 30, 2025, for the S Semester/S1 Term while the course confirmation date is Thursday, October 16, 2025, for the A Semester/A1 Term/A2 Term. If you can no longer access a course because you forgot to register during the registration period, please make sure to complete your registration during the course correction period. In addition, **S2 Term/A2 Term courses will be available for self-registration even after the course registration period ends**. Please be especially careful not to forget to complete the course registration procedure.
+**The course confirmation date for courses offered by the Junior Division of the College of Arts and Sciences in AY2025 is Wednesday, April 30, 2025, for the S Semester/S1 Term while the course confirmation date is Thursday, October 16, 2025, for the A Semester/A1 Term/A2 Term**. If you can no longer access a course because you forgot to register during the registration period, please make sure to complete your registration during the course correction period. In addition, **S2 Term/A2 Term courses will be available for self-registration even after the course registration period ends**. Please be especially careful not to forget to complete the course registration procedure.
 
 Please note that the course confirmation dates for courses held on the same day, and period by the same professor (multiple course) that are offered by the Senior Division of the College of Arts and Sciences are different from the above. Please be sure to register for these courses using UTAS during the relevant course registration period.
 
 ### 2. Changes in the course access status
 
-Courses in the S1 Term will be used as an example to explain the general changes in course access status over time.
+In this section, courses in the S1 Term will be used as an example to explain the general changes in course access status over time.
 
 #### March 4~: Courses become available
 
-From March 4, courses for the S Semester, S1 Term and S2 Term will be registered in UTOL, and you will be able to access the courses by adding them to your UTAS syllabus favorites or by self-registering in UTOL. The courses you are taking will be displayed in the timetable on UTOL. However, please note that you will also see warnings such as "Ensure [Course Registration] on UTAS" to remind you to register for them in UTAS.
-If you register for the course in UTAS after the course registration period begins, the warning will disappear.
+From March 4, courses for the S Semester, S1 Term, and S2 Term will be registered in UTOL, and you will be able to access the courses by "Add Your Favorites" on the syllabus of UTAS (Favorite Registration) or by self-registration in UTOL. Through these registration methods, the courses you have registered in will be displayed in the timetable on UTOL, and a reminder such as "Ensure [Course Registration] on UTAS" will appear to ensure you do not forget to register for courses on UTAS.
 
-Please note that information regarding adding courses to your favorites in the UTAS syllabus listing or registering for courses will be extracted from UTAS early each morning, and reflected in UTOL later that same morning. Therefore, changes made in UTAS are generally reflected in UTOL the following morning.
+Please note that information regarding adding courses to course registration or favorite registration on the syllabus will be extracted from UTAS early each morning and reflected in UTOL later that same morning. In short, changes made in UTAS are generally reflected in UTOL the following morning.
 
-#### 履修登録期間（履修訂正期間）終了後: “Favorite Registration” becomes unavailable
+#### After the end of registration period (or course correction period): "Favorite Registration" becomes unavailable
 
-You will no longer be able to access courses using the "(Favorite Registration)" starting from the morning after the end of the course registration period or the course correction period. As you may already know, the course registration period and course correction period vary depending on your affiliation or year of study. Consequently, the date when the "(Favorite Registration)" becomes unavailable differs for each student. However, with a few exceptions, it is expected to be before April 30.
+You will no longer be able to access courses using the "Favorite Registration" starting from the morning after the end of the course registration period or the course correction period. As you may already know, the course registration period and course correction period vary depending on your affiliation or year of study. Consequently, the date when the "Favorite Registration" becomes unavailable differs for each student. However, with a few exceptions, it is expected to be before April 30.
 
-#### April 30~: “Self-Registration” is unavailable
+#### April 30~: "Self-Registration" is unavailable
 
-You will no longer be able to access courses using "(Self-Registration)" starting from early in the morning of May 1, following the April 30 course confirmation date for the S1 Term. However, you may still be able to access the course if the instructor changes the settings for the relevant course.
+You will no longer be able to access courses using "Self-Registration" starting from early in the morning of May 1, following the April 30 course confirmation date for the S1 Term. However, you may still be able to access the course if the course instructor changes the settings for the relevant course.
 
 ### 3. Auditing
 
-We sometimes hear from students who, for various reasons, either “do not wish to or cannot officially register for courses through UTAS but still want to audit them”. It is up to the instructors to decide whether or not to allow such students to audit. Please contact the instructor directly to discuss this matter.
+We sometimes hear from students who, for various reasons, either "do not wish to or cannot officially register for courses through UTAS but still want to audit them". It is up to the course instructors to decide whether or not to allow such students to audit. Please contact the instructor directly to discuss this matter.
 
-If there are only a few students auditing, the registration method will be the (Registered by Instructor).
-If there are many students auditing, the instructor can change the course settings to allow access. If the instructors do not know the specific procedures, please refer to the following web pages.
+To allow audit students to view UTOL, if there are only a few students auditing, instructor can update the student's registration method to "Register instructor", or if there are many students auditing, instructor can change the course settings. If your instructor does not know the specific methods, please introduce them to the following page.
 
-- If there are only a few students auditing:「[UTOLのコース参加者を管理する（確認・登録など）（教員・TA向け） \> コース参加者の登録方法を更新する](/en/utol/lecturers/settings/course_participants/#update)」
-- If there are many students auditing:「[UTOLでコース設定を行う（教員・TA向け）\> 自己登録・履修者範囲設定](/en/utol/lecturers/settings/#self-registration-and-content-use-scope)」
-  - In the course settings, please tick “Always all regardless of registration method" for "the enrolled student range settings". Furthermore, make sure to set "Self-Registration" to "Permit".
+- If there are only a few students auditing:「[Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors・TAs) \> Updating the method to register course participants](/en/utol/lecturers/settings/course_participants/#update)」
+- If there are many students auditing:「[Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors/TAs) \> Self-Registration and Student Range Settings](/en/utol/lecturers/settings/#self-registration-and-content-use-scope)」
+  - In the course settings, please tick always "All regardless of registration method" for "the enrolled student range settings". Furthermore, make sure to set "Self-Registration" to "Permit".
 
 ### 4. There are course settings that differ from regular settings
 
