@@ -50,4 +50,4 @@ title: 教育用計算機システム相談員および同分散配置端末巡�
 
 ### 応募方法
 
-この募集に興味のある方は，「[相談員・巡回連絡員の募集に関する詳細情報（2025年度Sセメスター）](https://docs.google.com/document/d/*/edit?usp=sharing)」（閲覧にはECCSクラウドメールでのログインが必要です）を確認した上で，それに記載の方法で応募してください．
+この募集に興味のある方は，「[相談員・巡回連絡員の募集に関する詳細情報（2025年度Sセメスター）](https://docs.google.com/document/d/1tLGgL5aRQJPOf4JD2Db9PQbhRYsUxyJLhObKx9wYDeI/edit?usp=sharing)」（閲覧にはECCSクラウドメールでのログインが必要です）を確認した上で，それに記載の方法で応募してください．
