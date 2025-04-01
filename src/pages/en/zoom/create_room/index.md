@@ -137,3 +137,39 @@ By selecting "Settings" in the side menu of your Zoom profile page, you will ope
 
 This section will explain how to open "My Settings" and introduce some commonly used features that can be configured from there.
 
+### How to Open the "My Settings" Page
+
+1. Access your [Zoom profile](https://u-tokyo-ac-jp.zoom.us/profile) through a web browser.
+2. Select "Settings" from the side menu.
+![](./9_opensetting.png){:.border}
+
+### Commonly Used Features
+
+#### Meeting Tab
+{:#meeting_tab}
+The settings for these features can be accessed by selecting the "Meeting" tab from the top section of the "My Settings" page.
+![](./10_meetingtab.png){:.border}
+
+* Embed Passcode in the Invitation Link enable joining in with One-Click
+  * When enabled, the passcode is embedded in the invitation link, eliminating the need to separately inform participants of the passcode. Unless there is a specific reason, it is recommended to keep this setting on.
+* Allow Participants to Join Before Host
+  * Normally, a meeting does not start until the host joins. However, if this option is enabled, participants can join the meeting and wait even before the host enters. Additionally, you can configure specific details about when participants are allowed to join before the host. Enabling this option can be convenient.
+  * Even if this option is turned off, you can still allow participants to join before the host when creating each meeting (see "[Allow Participants to Join](#allow-entrance)" above). However, detailed control will not be available.
+* Meeting Chat - Auto-Save
+  * When enabled, the chat will be automatically saved at the end of the meeting.
+  * For more details, please refer to "[Using Chat in Zoom Meetings](/zoom/usage/chat/) (in Japanese)".
+* Co-Host
+  * A co-host is a role that the host can assign to others during the meeting, and the co-host has access to almost the same functions as the host. If this option is enabled, you can assign co-hosts during the meeting, so it is recommended to leave this on unless there is a specific reason to disable it.
+  * For more details, please refer to “[Host and Co-host Controls in a Zoom Meeting](/en/zoom/misc/management_roles/)”.
+* Meeting Polls / Quizzes
+  * This is a useful feature for collecting responses to questions from all participants during the meeting. It is recommended to leave it enabled unless there is a specific reason to disable it.
+  * For more details, please refer to "[Zoom's Polling Feature](/zoom/usage/poll/) (in Japanese)".
+* Screen Sharing
+  * This feature allows you to share the content displayed on your screen with participants during the meeting.
+  * When this option is enabled, you can further specify who is allowed to share their screen (whether only the host can share, or if participants other than the host can also share their screen).
+  * It is recommended to leave this enabled unless there is a specific reason to disable it.
+  * For more details, please refer to “[Screen Sharing in Zoom](/en/zoom/usage/screen_sharing/)”.
+* Breakout Rooms - Meeting
+  * For an explanation of Breakout Rooms, please refer to "[Zoom's Breakout Room Feature](/zoom/usage/breakout) (in Japanese)".
+* Auto-Generated Captions
+  * When enabled, the content spoken by participants is automatically transcribed and displayed as captions on the Zoom screen.
