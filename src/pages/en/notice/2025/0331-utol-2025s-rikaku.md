@@ -9,7 +9,7 @@ title: Handling of the 2025 Academic Year S Semester Courses on UTOL
 
 ## Course Confirmation Date for the S Semester
 
-In the Learning Management System "UTOL" (UTokyo LMS) even if you have not officially registered for a course on UTAS, you can use the course by adding it to your UTAS syllabus favorites (hereafter referred to as "**favorite registration**") or by pressing the "Register for Course" button on UTOL (hereafter referred to as "**self-registration**"). Of these, for courses that you have not registered for on UTAS, a deadline is set by which students can use the course (hereafter referred to as the "**course confirmation date**").
+In the Learning Management System "UTOL" (UTokyo LMS), even if you have not officially registered for a course on UTAS, you can use the course by adding it to your UTAS syllabus favorites (hereafter referred to as "**favorite registration**") or by pressing the "Register for Course" button on UTOL (hereafter referred to as "**self-registration**"). Of these, for courses that you have not registered for on UTAS, a deadline is set by which students can use the course (hereafter referred to as the "**course confirmation date**").
 
 In the S semester of 2025, course confirmation dates will be set uniformly as follows:
 
