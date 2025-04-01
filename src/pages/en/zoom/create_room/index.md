@@ -111,3 +111,24 @@ This setting controls whether participants will join the meeting with their came
 This setting controls the types of audio participants can use during the meeting. Zoom offers a method for joining by phone for audio-only participation, even without an internet connection. However, if "Computer Audio" is selected, this method will not be available. Generally, it is fine to leave the setting on "Both".
 
 #### Options
+{:#settings-options}
+* <span id='allow-entrance'>Allow Participants to Join</span>
+  * This feature allows participants to enter the meeting before the host joins. You can change the number of minutes before the host opens the meeting that participants are allowed to enter from the settings page. For more details, please refer to the section below, "[How to Set Up Commonly Used Features](#popular_functions)".
+* Q&A
+  * This is a feature designed to make it easier to manage questions from participants.
+* Mute Participants Upon Entry
+  * This feature mutes participants when they join the meeting. It only controls whether or not participants are muted upon entry and does not affect their ability to switch their microphone on or off during the meeting.
+* Pre-Assign Breakout Rooms
+  * By using the breakout room feature, you can split participants from the main meeting room into multiple breakout rooms. This feature allows you to pre-assign participants to specific rooms in advance.
+  * For more details, please refer to "[Zoom's Breakout Room Feature](/zoom/usage/breakout) (in Japanese)".
+* Automatically Record the Meeting
+  * This feature automatically starts recording as soon as the meeting begins. You can choose to save the recording either on your local computer (your PC) or on the cloud. Even if this option is turned off, you can manually start recording during the meeting.
+  * For more details, please refer to “[Recording Zoom Meetings](/en/zoom/usage/recording/)”.
+* Approve or Block Users from Specific Regions/Countries
+  * This setting allows you to permit or deny participation from specific regions or countries. When enabled, you can select the regions or countries and specify whether to allow or block participation from those locations.
+* Alternative Host
+  * An "Alternative Host" is a user who can start the meeting on behalf of the host. You can designate an alternative host using this field.
+  * However, only users with a UTokyo Account can be designated. To assign someone, enter their 10-digit common ID (UTokyo Account username) followed by the symbol `@utac.u-tokyo.ac.jp` (e.g., `0123456789@utac.u-tokyo.ac.jp`).
+  * For more details, please refer to the section on "Alternative Host" in "[Host and Co-host Controls in a Zoom Meeting](/zoom/misc/management_roles/#alt_host)(in Japanese)".
+
+
