@@ -131,4 +131,9 @@ This setting controls the types of audio participants can use during the meeting
   * However, only users with a UTokyo Account can be designated. To assign someone, enter their 10-digit common ID (UTokyo Account username) followed by the symbol `@utac.u-tokyo.ac.jp` (e.g., `0123456789@utac.u-tokyo.ac.jp`).
   * For more details, please refer to the section on "Alternative Host" in "[Host and Co-host Controls in a Zoom Meeting](/zoom/misc/management_roles/#alt_host)(in Japanese)".
 
+## How to Set Up Commonly Used Features
+{:#popular_functions}
+By selecting "Settings" in the side menu of your Zoom profile page, you will open the "My Settings" page. Features such as "Breakout Rooms" (to divide participants into separate rooms) and "Screen Sharing" (to share your screen with other participants) are not included in the meeting creation settings and must be configured from this separate "My Settings" page. Please note that settings made in "My Settings" will apply to all meetings you create.
+
+This section will explain how to open "My Settings" and introduce some commonly used features that can be configured from there.
 
