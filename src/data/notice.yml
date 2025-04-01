@@ -12,6 +12,34 @@
 #   c. 右上の「Cancel workflow」ボタンを押してください．
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
+-
+   date: 2025-04-01
+   content:
+    ja: "[UTOLにおける時間割表とコーストップ画面の変更について](/notice/2025/0401-utol-change/)"
+    en: "[Changes to the timetable and course top page of UTOL (in Japanese)](/notice/2025/0401-utol-change/)"
+-
+ date: 2025-03-31
+ content:
+  ja: "[2025年度Sセメスター科目のUTOL履修確定日の取り扱いについて](/notice/2025/0331-utol-2025s-rikaku)"
+  en: "[Handling of the 2025 Academic Year S Semester Courses on UTOL](/en/notice/2025/0331-utol-2025s-rikaku)"
+-
+  date: 2024-03-31
+  content:
+    ja: "[教育用計算機システム相談員および同分散配置端末巡回連絡員の募集（2025年度Sセメスター）](/notice/2025/03-tutors)"
+-
+ date: 2025-03-31
+ content:
+  ja: "4/18 10:00から「[UTokyo Azure利用説明会](/events/2025-04-18/)」を開催いたします．今回の説明会は**英語で実施**します．"
+  en: "On Apr. 18, an information session titled **\"[Information Session on UTokyo Azure](/en/events/2025-04-18/)\"** will be held at 10:00. This session will be **conducted in English**."
+-
+  date: 2025-03-28
+  content:
+    ja: "3/26 14:30から[教育用計算機システム(ECCS)のシステム利用説明会を開催しました](/notice/2025/0326-eccs-seminar)"
+-  
+   date: 2025-03-26
+   content:
+    ja: "[UTOLの「更新通知」や「お知らせ・メッセージ通知」をLINEで受け取る機能の更新について](/notice/2025/0326-utol-notification-line)"
+    en: "[Updates to the feature for receiving UTOL update notifications and announcements/message notifications via LINE (in Japanese)](/notice/2025/0326-utol-notification-line)"
 -  
    date: 2025-02-20
    content:
@@ -21,10 +49,6 @@
    content:
     ja: "[Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion)"
     en: "[About providing Zoom AI Companion feature (in Japanese)](/notice/2025/0127-zoom-ai_companion)"
--
-  date: 2025-02-18
-  content:
-    ja: "3/26 14:30から[教育用計算機システム(ECCS)のシステム利用説明会を開催いたします](/notice/2025/0326-eccs-seminar)"
 -
   date: 2025-02-14
   content:

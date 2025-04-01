@@ -14,4 +14,4 @@ LTI連携機能を用いて，学習管理システム[UTOL(UTokyo LMS)](/utol/)
 - コース内に登録されている他の担当教員やTAが，Zoomミーティングの「代替ホスト」として自動的に登録されます．
 - ミーティングをクラウドレコーディング（クラウド記録）した場合，録画URLの公開などをしなくても，その録画をコース参加者が閲覧できるようになります．
 
-使い方については，「LTI連携機能を用いたUTOLからのZoomミーティングの利用について（[教員向け](/utol/lecturers/lti/zoom/)・[学生向け](/utol/students/lti/zoom/)）」をご覧ください．
+使い方については，「LTI連携機能を用いたUTOLからのZoomミーティングの利用について（[教員向け](/utol/lecturers/integrations/zoom/)・[学生向け](/utol/students/integrations/zoom/)）」をご覧ください．
