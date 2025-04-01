@@ -1,12 +1,63 @@
 ---
-title: ECCS Terminals
+title: Educational Campus-Wide Computing System (ECCS) Terminals
 breadcrumb:
   title: ECCS Terminals
 ---
 
-import InPreparation from "@components/en/InPreparation.mdx";
 import WwweccEol from "@components/en/WwweccEol.astro";
 
-<InPreparation />
-
 <WwweccEol systemName="ECCS terminals"/>
+
+Educational Campus-wide Computing System (ECCS) is a system that allows students and staff of the University of Tokyo to use computers and networks for research and education. The entire system is replaced approximately every few years. The current system, "ECCS2021" has been in operation since March, 2021. ECCS consist of ECCS terminals and ECCS multifunction printers distributed across campus, software available on the terminals, an environment that replicates the terminal environment, and a system that allows users to access data saved on terminals from outside the campus. Users log in with their accounts to use ECCS.
+
+## Basic User Guide
+{:#overview}
+
+### ECCS Terminals, Chromebox Terminals, and Available Environments
+{:#environments}
+As part of ECCS2021, more than 1,000 ECCS have been installed across the Hongo, Komaba, and Kashiwa Campuses. For more details on facilities where ECCS terminals are available, please refer to the "[Available facilities to use ECCS terminals and ECCS](./overview/facilities/)" page. Each facility where ECCS terminals are installed also has UTokyo Wi-Fi access points, allowing users to connect to the Internet using their own devices.
+
+In ECCS2021, there are two types of terminals, iMac and mac mini. Users can select either mac OS or Windows at start-up. Regardless of the terminal or terminal room, the same environment is available for each OS. Additionally, the saved data can be accessed from any terminal. For more details on the specifications of these terminals and how to use each OS, please refer to the following pages. 
+
+- [Specifications of ECCS Terminal](./overview/spec/)
+- [How to use Mac environment](./overview/usage-mac/)
+- [How to use Windows environment](./overview/usage-windows/)
+
+To use ECCS, you must first obtain the ECCS usage right. Once granted, you can access ECCS using your UTokyo Account's common ID (10-digit number) and password. For more details on obtaining ECCS usage rights, please refer to "[Apply for ECCS usage rights](./overview/right-application/)".
+
+In ECCS2021, Chromebox terminals are installed in addition to iMac and mac mini ECCS terminals, allowing users to access the ChromeOS environment. The same environment is available on any terminal in any terminal room. Unlike iMac and mac mini terminals, Chromebox terminals require users to log in with their [ECCS Cloud Email](/en/google/) account. For more details on how to use Chromebox terminals, please refer to "[Chromebox Terminals](./chromeos)".
+
+### Notices When Using
+{:#precautions}
+
+Please refer to the "[Notices When Using](./overview/precautions/)" page.
+
+## Available Systems in ECCS2021
+
+### Software
+{:#software}
+Various software are installed on ECCS terminals and can be used on both MacOS and Windows environments from any terminal. For more details on available software, please refer to the [Software](./features/software/) page. Please note that software requiring administrator privileges cannot be installed, as actions requiring administrator privileges cannot be executed on ECCS terminals.
+
+### Printing
+{:#printing}
+ECCS provides RICOH multifunction printers as printing equipment, referred to as ECCS multifunction printers. ECCS multifunction printers are equipped with a print operation terminal and payment device for performing certain operations that require payment. In addition to printing, copying and scanning functions are also available.
+
+For more details, please refer to the "[Printing](./features/printing/)" page.
+
+### Use of ECCS From Off-campus
+{:#outside}
+
+#### Remote Access Environment
+{:#ras}
+ECCS provides a system that allows users to access a GUI environment similar to the macOS environment of the ECCS terminals using an exclusive client. For more details, please refer to the "[Remote Access Environment](./features/ras/)" page.
+
+#### SSH Servers
+{:#ssh}
+ECCS provides SSH servers that allows users to log in remotely via Secure Shell (SSH) and use the Mac environment through the command line. Although only the Mac environment can be accessed, files saved in the Windows environment are also available. For more details, please refer to the "[Use of SSH Servers](./features/ssh/)" page.
+
+#### WebDAV Environment
+ECCS provides a WebDAV environment that allows users to access files on ECCS terminals from outside the system and transfer files between the Mac environment and the Windows environment, which have separate home directories. For more details, please refer to the "[Use of WebDAV Environment](./features/webdav/)" page.
+
+#### Guest Account
+{:#guests}
+To use ECCS, you must first obtain the ECCS usage right. However, a special account is available for users who need temporary access to the macOS environment, such as for obtaining ECCS usage right. For more details, please refer to the "[Guest Account](./overview/guest-account/)" page.
