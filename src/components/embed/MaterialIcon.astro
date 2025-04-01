@@ -12,16 +12,11 @@ type Props = {
   svgProps?: ReactSVGAttributes;
 };
 
-const {
-  class: className,
-  icon,
-  style = "filled",
-  svgProps = {
-    height: undefined,
-    width: undefined,
-    fill: "currentColor",
-  },
-} = Astro.props;
+const { class: className, icon, style = "filled", svgProps = {} } = Astro.props;
+
+svgProps.width ??= undefined;
+svgProps.height ??= undefined;
+svgProps.fill ??= "currentColor";
 ---
 
 <span class:list={[className, "material-icon"]}
