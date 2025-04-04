@@ -15,11 +15,11 @@ At the University of Tokyo, Google's "Google Workspace" is provided as "**[ECCS 
 ECCS Cloud Email is provided through an organizational contract, so it has differences from personal Google accounts.
 
 - With personal Google accounts, the free storage limit is up to 15GB, but with ECCS Cloud Email, you can use up to 100GB without any cost.
-    - By paying a usage fee, it is possible to use storage capacity exceeding 100GB. For more details, please refer to the "[ECCS Storage Management System (in Japanese)](https://www.ecc.u-tokyo.ac.jp/storage_mgt/)" page.
+    - By paying a usage fee, it is possible to use storage capacity exceeding 100GB. For more details, please refer to the "[ECCS Storage Management System (in Japanese)](/google/drive/storage/)" page.
 - When sharing files on Google Drive, it is possible to set them to be shared only with ECCS Cloud Email accounts.
 - You can use a system called "Shared Drives,", which is suitable for jointly managing files with a team or within an organization.
     - For details about the "Shared Drives" feature and its differences from the regular Google Drive (My Drive), please refer to “[About the "Shared Drive" of Google Drive](shared_drive)” page.
-    - Due to the storage capacity considerations, there are restrictions on the creation and management of Shared Drives. For more details, please refer to the "[ECCS Storage Management System (in Japanese)](https://www.ecc.u-tokyo.ac.jp/storage_mgt/)" page.
+    - Due to the storage capacity considerations, there are restrictions on the creation and management of Shared Drives. For more details, please refer to the "[ECCS Storage Management System (in Japanese)](/google/drive/storage/)" page.
   
 ### Video about Google Drive
 This page also explains the basic content of Google Drive in a video format.
