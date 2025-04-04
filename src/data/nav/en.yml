@@ -115,5 +115,8 @@
       name: "System Failures and Maintenance Information"
       url: "https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/service-status.aspx"
     -
+      name: "Cloud Service Status Information"
+      url: "/en/support/service-status"
+    -
       name: "Trouble in Entering Classes"
       url: "/en/oc/join"
