@@ -16,96 +16,114 @@ interface EventInformation {
 interface Props {
   show: string[];
   lang: Lang;
-  alternative?: Record<this["show"][number], {date?: string; href?: string;}>;
+  alternative?: Record<this["show"][number], { date?: string; href?: string }>;
 }
 
-const {
-  show,
-  lang,
-  alternative,
-} = Astro.props;
+const { show, lang, alternative } = Astro.props;
 
-const allEventsList: Map<string, EventInformation> = new Map([
-  await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*/index.{md,mdx}"),
-  await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*.{md,mdx}"),
-].flat().map((instance) => {
-  const dateMatch = instance.file.match(/\/(([0-9]{4}-[0-9]{2}-[0-9]{2})?[^/]*)(?:\/index)?\.mdx?$/);
-  assert(dateMatch !== null);
-  assert(instance.url !== undefined);
+const allEventsList: Map<string, EventInformation> = new Map(
+  [
+    await Astro.glob<MDXInstance<Frontmatter>>(
+      "/src/pages/events/*/index.{md,mdx}"
+    ),
+    await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*.{md,mdx}"),
+  ]
+    .flat()
+    .map((instance) => {
+      const dateMatch = instance.file.match(
+        /\/(([0-9]{4}-[0-9]{2}-[0-9]{2})?[^/]*)(?:\/index)?\.mdx?$/
+      );
+      assert(dateMatch !== null);
+      assert(instance.url !== undefined);
 
-  return [
-    dateMatch[1],
-    {
-      key: dateMatch[1],
-      date: dateMatch[2] ? new Date(dateMatch[2]) : null,
-      title: instance.frontmatter.title?.replace(/^[0-9]{4}([/-])[0-9]{1,2}\1[0-9]{1,2}\s*/, "") ?? "",
-      href: instance.url,
-    },
-  ];
-}));
+      return [
+        dateMatch[1],
+        {
+          key: dateMatch[1],
+          date: dateMatch[2] ? new Date(dateMatch[2]) : null,
+          title:
+            instance.frontmatter.title?.replace(
+              /^[0-9]{4}([/-])[0-9]{1,2}\1[0-9]{1,2}\s*/,
+              ""
+            ) ?? "",
+          href: instance.url,
+        },
+      ];
+    })
+);
 
 const eventsList: EventInformation[] = show.map((key) => {
   const eventInfo = allEventsList.get(key);
-  if (eventInfo)
-    return eventInfo;
-  else
-    throw new Error(`Event information entry for ${key} does not exist.`);
+  if (eventInfo) return eventInfo;
+  else throw new Error(`Event information entry for ${key} does not exist.`);
 });
+
+function heldOnDate(date: string): string {
+  if (date) {
+    switch (lang) {
+      case "ja":
+        return `（${date} 実施）`;
+      case "en":
+        return `(Held on ${date})`;
+    }
+  } else {
+    return "";
+  }
+}
 ---
 
 <If cond={eventsList.length > 0}>
-<h2>{{
-  "ja": "説明会資料",
-  "en": "Recent Briefings and Materials"
-}[lang]}</h2>
+  <h2>
+    {
+      {
+        ja: "説明会資料",
+        en: "Recent Briefings and Materials",
+      }[lang]
+    }
+  </h2>
 
-<ul>
-  {
-    Promise.all(eventsList.map(async ({ key, date, title, href }) => {
-      const pack = (Astro.slots.has(key) ? await Astro.slots.render(key) : title).at(-1) === "）";
-      const heldOnDate = (lang: Lang) => {
-        const localeDate = alternative?.[key]?.date
-          ?? (date !== null ? getLocaleDateString(date, lang, "long") : "");
-        if (localeDate) {
-          switch (lang) {
-            case "ja":
-              return `（${localeDate} 実施）`;
-            case "en":
-              return `(Held on ${localeDate})`;
-          }
-        } else {
-          return "";
-        }
-      };
+  <ul>
+    {
+      eventsList.map(async ({ key, date, title: _title, href }) => {
+        const title = Astro.slots.has(key)
+          ? await Astro.slots.render(key)
+          : _title;
+        const pack_date = title.at(-1) === "）";
+        const heldOn = heldOnDate(
+          alternative?.[key]?.date ??
+            (date !== null ? getLocaleDateString(date, lang, "long") : "")
+        );
 
-      return (
-        <li>
-          <a href={alternative?.[key]?.href ?? href}>
-            <If cond={Astro.slots.has(key)}>
-              <Fragment set:html={Astro.slots.render(key)} />
-              <Fragment slot="else">{title}</Fragment>
-            </If>
-            <span class:list={["date", { date__pack: pack }]}>{heldOnDate(lang)}</span>
-          </a>
-        </li>
-    )}))
-  }
-</ul>
+        return (
+          <li>
+            <a href={alternative?.[key]?.href ?? href}>
+              <span
+                set:html={title}
+                class:list={[{ pack_date }]}
+              /><span class:list={["date"]}>{heldOn}</span>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
 </If>
 
 <style lang="scss">
-  @import "@styles/color.scss";
-
   .date {
     text-decoration: inherit;
-    font-size: .9rem;
+    font-size: 0.9rem;
 
-    &:where(:lang(ja)) {
-      margin-left: -0.5rem;
+    &:lang(ja) {
+      margin-left: -0.3rem;
     }
 
-    &__pack {
-      margin-left: -1rem;
+    &:lang(en) {
+      margin-left: 0.3rem;
     }
+  }
+
+  .pack_date {
+    margin-right: -0.3rem;
   }
 </style>
