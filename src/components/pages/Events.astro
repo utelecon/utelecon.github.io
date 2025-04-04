@@ -66,13 +66,17 @@ const eventsList: EventInformation[] = show.map((key) => {
       const heldOnDate = (lang: Lang) => {
         const localeDate = alternative?.[key]?.date
           ?? (date !== null ? getLocaleDateString(date, lang, "long") : "");
-        switch (lang) {
-          case "ja":
-            return `（${localeDate} 実施）`;
-          case "en":
-            return `(Held on ${localeDate})`;
+        if (localeDate) {
+          switch (lang) {
+            case "ja":
+              return `（${localeDate} 実施）`;
+            case "en":
+              return `(Held on ${localeDate})`;
+          }
+        } else {
+          return "";
         }
-      }
+      };
 
       return (
         <li>
