@@ -38,7 +38,7 @@ breadcrumb:
   <tr>
     <th>利用するアカウント</th> <td>UTokyo Wi-Fiアカウント (0000UTokyoと同一)</td>
   </tr>
-  </table>
+</table>
 
 ## サービス提供箇所
 
