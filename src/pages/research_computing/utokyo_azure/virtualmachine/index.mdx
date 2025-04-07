@@ -69,7 +69,9 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 #### 受信ポートの規則
 
-ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- 別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion) を利用してリモートコンソール接続を行う場合は，`なし`を選択してください．
+- ここで選択する受信ポート規則は作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg)機能で設定してください．
 
 ### ディスクパート
 {:#disk}
@@ -88,7 +90,9 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ### ネットワーク，管理，監視，詳細，タグの各パート
 {:#eachpart}
 
-ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- リモートからのコンソールアクセスに別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion) を利用し，かつデータ転送用に外部からの接続を許可する必要が無い場合は，**パブリック受信ポート** は`なし`を設定してください．
+- ここで選択する受信ポートは作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg)機能で設定してください．
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">定期的に仮想マシンをシャットダウンさせたい場合</Fragment>
