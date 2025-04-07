@@ -19,7 +19,7 @@ Zoomのアプリのインストールには，アプリを事前にインスト�
 {:#install-before}
 1. Zoomの「[ダウンロードセンター](https://zoom.us/download)」にアクセスしてください．
 2. 「Zoom Workplace」の「ダウンロード」ボタンを押してください．Zoom Workplaceのインストーラーがダウンロードされます．「Zoom Workplace」とは，Zoomを利用するためのアプリの名称です．
-![](./ZoomApps_download_windows.PNG){:.medium}
+![](./ZoomApps_download_windows.PNG){:.border .medium}
 ![](./ZoomApps_download_mac.PNG){:.border}
 3. 以後の手順は場合によって異なります．インストールの完了まで自動で進むこともあれば，確認ボタンを押したり，ダウンロードしたファイルを自分で開いたりといった操作の必要があるかもしれません．
   
@@ -59,14 +59,14 @@ Zoomのアプリがインストールできたら，「[Zoom サインイン方�
 ![](./ZoomApps_newmeeting.PNG){:.border}
 3. ミーティングが開始されたら，ミーティング画面の「参加者」の横の「^」を押して，「招待リンクをコピー」するか，ミーティング画面上部の緑色の盾マークから「リンクをコピー」して，参加者に通知してください．
 ![](./ZoomApps_copylink.PNG){:.border}
-![](./ZoomApps_copylink_meetinginfo.png){:.border}
+![](./ZoomApps_copylink_meetinginfo.png){:.border .small}
 
 ## アプリ上でのミーティングの確認と編集
 {:#manage}
 作成したミーティングはアプリ画面上部の「ミーティング」から確認でき，招待リンクのコピーやミーティングの編集が可能です．
-![](./ZoomApps_schedule_check.png){:.border}
+![](./ZoomApps_schedule_check.png){:.border .medium}
 ミーティング当日には「ホーム」に下の画像のような表示が出ます．「・・・」から招待リンクのコピーやミーティングの編集が可能です．
-![](./ZoomApps_schedule_remind.png){:.border}
+![](./ZoomApps_schedule_remind.png){:.border .medium}
 
 ## アプリでのおすすめ設定
 {:#settings}
@@ -98,7 +98,7 @@ Zoomのアプリは定期的に新しいバージョンが提供され，新機�
 
 また，自動更新の設定をしておくと便利です．
 ホーム画面右上の歯車のアイコンを押して設定ウィンドウを開き，「一般」の「Zoomデスクトップクライアントを自動更新する」にチェックを入れることで自動更新が有効になります．こうすることで，Zoomの新しいバージョンが利用可能な場合，下の画像のように更新を促すメッセージが表示されます．
-![](./ZoomApps_updatable.PNG){:.border}
+![](./ZoomApps_updatable.PNG){:.border .medium}
 メッセージが出たときに「あとで」を押す，またはウィンドウを閉じた場合，次にアプリを起動したときに更新プログラムが自動的にインストールされ，以下のメッセージが表示されます．
 ![](./ZoomApps_installed.PNG){:.border}
 
