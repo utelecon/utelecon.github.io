@@ -7,7 +7,7 @@ breadcrumb:
 
 import HelpItem from "@components/utils/HelpItem.astro";
 
-仮想マシンにリモートからアクセスする方法としては UNIX 系 OS であれは ssh，Windows OS であれば RDP(Remote Desktop Plotocol) を利用することが一般的ですが，クラウドサービスへのリモートアクセスに直接これらのプロトコルでパブリックアクセスを許可することは，セキュリティ上のリスクが高く原則するべきではありません．
+仮想マシンにリモートからアクセスする方法としては UNIX 系 OS であれは ssh，Windows OS であれば RDP(Remote Desktop Protocol) を利用することが一般的ですが，クラウドサービスへのリモートアクセスに直接これらのプロトコルでパブリックアクセスを許可することは，セキュリティ上のリスクが高く原則するべきではありません．
 
 Azure サービスでは Bastion という踏み台サービスがあり，これらプロトコルによる直接のパブリックアクセスを回避し，よりセキュアに接続を行うことができるようになる仕組みがあります．
 
@@ -19,14 +19,14 @@ Bastion は Azure Portal に構成され、Web ブラウザ上で仮想マシン
 - Azure Portal 内に踏み台サーバとして構成され，仮想マシンへのアクセスは Bastion 経由で行う形になります．（下図参照）
 - ssh や RDP によるリモート接続のために，仮想マシンにパブリックアクセス用の IP を設定する必要がなくなるので，これらプロトコルの脆弱性を突いた不正アクセスの懸念が無くなります．
 - 端末から Azure Portal 間は，強固な認証を経たブラウザによる https (TLS) 接続内を通信するので、より安全に仮想マシンへのリモートアクセスが可能になります．
-- Bastoin サービスは有料なのでギフトを消費します．1時間でおよそ 0.2 ドルから 0.5 ドル 程度で，5GB/月以上のデータ送受信には別途通信料がかかります．詳細は以下の URL を参照ください．
+- Bastion サービスは有料なのでギフトを消費します．1時間でおよそ 0.2 ドルから 0.5 ドル 程度で，5GB/月以上のデータ送受信には別途通信料がかかります．詳細は以下の URL を参照ください．
   - [Azure Bastion の価格](https://azure.microsoft.com/ja-jp/pricing/details/azure-bastion/)
 
 ![](img/01_bastion1.png){:.center.border}
 
 ## ２.Bastion の構成
 
-本ページでは，Azure VirtualMachines を Linux OS で構成した直後に，初期アクセスをする手順として進めます．
+本ページでは，Azure Virtual Machines を Linux OS で構成した直後に，初期アクセスをする手順として進めます．
  
 2-1. 仮想マシンリソース（この例では testmachine）の左側一覧にある，`接続` > `Bastion` を選択する．
 
