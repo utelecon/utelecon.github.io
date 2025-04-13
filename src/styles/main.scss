@@ -34,12 +34,8 @@
   @import "components/utils";
 
   @media (min-width: 1024px) {
-    max-width: 84rem;
+    max-width: 72rem;
     margin: 0 auto;
-
-    &[data-toc] {
-      max-width: 84rem;
-    }
   }
 
   @media (max-width: 768px) {
