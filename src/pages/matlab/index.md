@@ -52,7 +52,7 @@ UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Account
 
     - [MathWorksアカウントページ](https://jp.mathworks.com/mwaccount/)にアクセスし，サインインしてください．
     - ページ上部の「プロファイル > プロファイルの編集」を押してください．![](update_profile.drawio.png){:.thin-border}
-    - メールアドレスを変更し，「更新」を押してください．
+    - メールアドレスを変更し，「更新」を押してください．![](change_email_address.drawio.png){:.thin-border}
     - `service@account.mathworks.com` から認証メールが届くので，そのメール内のリンクにアクセスしてください．
 
     </details>
