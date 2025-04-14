@@ -139,19 +139,17 @@
   }
 
   & > li:last-child {
-    display: flex;
+    display: block;
     grid-column: -2 / -1;
-    justify-content: end;
-    align-items: flex-end;
+    justify-self: end;
+    align-self: end;
 
     & > a {
-      display: revert;
+      display: inline;
       color: revert;
       border: revert;
       background-color: revert;
       font-weight: revert;
-      height: revert;
-      width: revert;
       padding: 0;
 
       &:hover {
