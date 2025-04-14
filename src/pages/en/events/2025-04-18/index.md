@@ -2,6 +2,8 @@
 title: "2025/04/18 Info Session: UTokyo Azure Usage"
 h1: "Apr. 18,2025: Information Session on UTokyo Azure（**Conducted in English**） "
 ---
+[Link to the previous information session](/events/2025-02-21/) (held on February 21, 2025, in Japanese)
+
 
 ## Purpose
 
