@@ -29,11 +29,11 @@ UTokyo Azureをご利用中の方や，今後の利用を検討している方�
 
 | 時間 | 内容 | 話者 | 資料 | 動画 |
 |------|------|------|------|------|
-| 10:00 - 10:10 | UTokyo Azureの概要 | 田浦 | [資料] | [動画] |
-| 10:10 - 10:30 | 利用料金負担の可能性について | 田浦 | [資料] | [動画] |
-| 10:30 - 10:40 | 利用申請の流れと注意点 | 田浦 | [資料] | [動画] |
-| 10:40 - 10:45 | 利用料金発生時の流れ | 田浦 | [資料] | [動画] |
-| 10:45 - 11:45 | Azureの代表的なサービスの使い方 | 山肩 | [・所有者の追加]<br>[・Open AIのサービスを利用しよう]<br>[・仮想マシンを作ろう]<br>[・ノートブックを使おう] | [動画]<br>[動画]<br>[動画]<br>[動画] |
+| 10:00 - 10:10 | UTokyo Azureの概要 | 田浦 | [資料](/events/2025-04-18/slides/1_introduction.pdf) | [動画] |
+| 10:10 - 10:30 | 利用料金負担の可能性について | 田浦 | [資料](/events/2025-04-18/slides/2_possibility_of_charges.pdf) | [動画] |
+| 10:30 - 10:40 | 利用申請の流れと注意点 | 田浦 | [資料](/events/2025-04-18/slides/3_how_to_apply.pdf) | [動画] |
+| 10:40 - 10:45 | 利用料金発生時の流れ | 田浦 | [資料](/events/2025-04-18/slides/4_how_to_pay.pdf) | [動画] |
+| 10:45 - 11:45 | Azureの代表的なサービスの使い方 | 山肩 | [・所有者の追加](/events/2025-04-18/slides/5-1_Assign_Owner_Role.pdf)<br>[・Open AIのサービスを利用しよう](/events/2025-04-18/slides/5-2_Using_Azure_OpenAI_Service.pdf)<br>[・仮想マシンを作ろう](/events/2025-04-18/slides/5-3_Create_Virtual_Machine.pdf)<br>[・ノートブックを使おう](/events/2025-04-18/slides/5-4_Using_Notebooks.pdf) | [動画]<br>[動画]<br>[動画]<br>[動画] |
 | 11:30 - 12:00 | 質疑応答 |  | [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz) |  |
 
 ### 話者
