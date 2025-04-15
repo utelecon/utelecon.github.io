@@ -3,7 +3,7 @@ title: uteleconのソーシャルメディアポリシー
 toc: false
 ---
 
-<div style="text-align: right;">2024年10月31日 情報システム本部</div>
+<div style="text-align: right;">2024年12月27日 情報システム本部</div>
 
 情報システム本部では，東京大学の情報システムに関連する情報を発信するためのソーシャルメディア公式アカウント（「utelecon公式SNS」）を保有しています．情報システム本部は，utelecon公式SNSを，本ポリシーの方針に沿って管理・運用しています．
 
