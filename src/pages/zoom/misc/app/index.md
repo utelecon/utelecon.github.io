@@ -20,7 +20,7 @@ Zoomのアプリのインストールには，アプリを事前にインスト�
 1. Zoomの「[ダウンロードセンター](https://zoom.us/download)」にアクセスしてください．
 2. 「Zoom Workplace」の「ダウンロード」ボタンを押してください．Zoom Workplaceのインストーラーがダウンロードされます．「Zoom Workplace」とは，Zoomを利用するためのアプリの名称です．
 ![](./ZoomApps_download_windows.PNG){:.border .medium}
-![](./ZoomApps_download_mac.PNG){:.border}
+![](./ZoomApps_download_mac.PNG){:.border .medium}
 3. 以後の手順は場合によって異なります．インストールの完了まで自動で進むこともあれば，確認ボタンを押したり，ダウンロードしたファイルを自分で開いたりといった操作の必要があるかもしれません．
   
 ### ミーティングに参加するタイミングでインストールする
