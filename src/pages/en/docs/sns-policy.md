@@ -1,41 +1,41 @@
 ---
-title: uteleconのソーシャルメディアポリシー
+title: utelecon Social Media Policy
 toc: false
 ---
 
-<div style="text-align: right;">2024年10月31日 情報システム本部</div>
+<div style="text-align: right;">April 15, 2025 Division for Information and Communication Systems</div>
 
-情報システム本部では，東京大学の情報システムに関連する情報を発信するためのソーシャルメディア公式アカウント（「utelecon公式SNS」）を保有しています．情報システム本部は，utelecon公式SNSを，本ポリシーの方針に沿って管理・運用しています．
+The Division for Information and Communication Systems has official social media accounts (the “utelecon official SNS”) for sharing information related to the University of Tokyo's information systems. The Division for Information and Communication Systems manages and operates the utelecon official SNS in accordance with the policy outlined in this document.
 
-## アカウント一覧
+## List of Accounts
 
-以下のアカウントを保有しています．
-- X（旧Twitter）（日本語）：[utelecon お知らせ](https://x.com/utelecon_pr)
-- X（旧Twitter）（英語）：[utelecon notice](https://x.com/utelecon_pr_en)
+The following accounts are available.
+- X (formerly Twitter) (in Japanese): [utelecon お知らせ](https://x.com/utelecon_pr)
+- X (formerly Twitter) (in English): [utelecon notice](https://x.com/utelecon_pr_en)
 - YouTube：[utelecon](https://www.youtube.com/@utelecon/videos)
 
-## utelecon公式SNSの運用
+## Operation of the utelecon official SNS (social networking service)
 
-### 発信内容について
-utelecon公式SNSでは，東京大学の情報システムに関連する情報を発信します．その際，他者の権利を不当に侵害することのないよう細心の注意を払い，関連する法令等を遵守します．
+### Regarding the contents of the posts
+We will post information related to the information systems of the University of Tokyo on the utelecon official SNS sites. On such occasions, we will pay close attention to ensure that we do not infringe on the rights of others, and that we will comply with relevant laws.
 
-### 返信・コメントについて
+### Replies and comments
 
-利用者の発言・投稿に対する返信・コメント等は原則として行いません．utelecon公式SNSの投稿内容等について返信が必要な場合は，[uteleconサポート窓口のメールフォーム](/support/#email-form)からお願いします．なお，利用者による発言・投稿の中に不適切と思われるものがあった場合は，利用者の承諾を得ずに非表示にしまたは削除する場合があります．
+In principle, we will not reply to or comment on users' posts or messages. If you need a reply regarding a content posted on the utelecon official SNS, please contact us via [the utelecon support email form](/support/#email-form). Also, if we find any inappropriate content in a user's post or message, we may hide or delete it without obtaining prior consent from the user's.
 
-### シェア・リポスト・いいね・フォロー等について
+### Sharing, reposting, liking, following, etc.
 
-シェア・リポスト・いいね・フォロー等は原則として行いませんが，情報システム本部の判断によりこれらを行う場合もあります．
+In principle, we do not share, repost, like, or follow posts or other accounts. However, there may be cases where we do so, but this will be at the discretion of the Division for Information and Communication Systems.
 
-## 知的財産権等について
+## Intellectual property rights, etc.
 
-utelecon公式SNSに掲載される写真・イラスト・音声・動画及び記事等の知的財産権は，東京大学または正当な権利を有する者に帰属します．
+The intellectual property rights of photos, illustrations, audio, video, articles, etc. posted on the utelecon official SNS belong to the University of Tokyo or their rightful owners.
 
 
-## 免責事項について
+## Disclaimers
 
-情報システム本部は，utelecon公式SNSで発信する情報の正確性には万全を期すものの，利用者がこの情報を用いて行う一切の行為について，何ら責任を負うものではありません．また，利用者により投稿されたコメントやutelecon公式SNSに関連して，利用者間または利用者と第三者間でトラブルや紛争が発生した場合であっても，情報システム本部は何ら責任を負いません．情報システム本部は，ソーシャルメディアを利用したこと，または利用できなかったことによって被った損害について一切責任を負いません．utelecon公式SNSに掲載されたコンテンツは，予告なく変更，移転，削除等が行われることがあります．
+Although the Division for Information and Communication Systems makes every effort to ensure the accuracy of the information it posts on the utelecon official SNS, it bears no responsibility for any actions taken by users based on this information. Furthermore, the Division for Information and Communication Systems also bears no responsibility for any trouble or conflict that may arise between users or between users and third parties in relation to comments posted by users or the utelecon official SNS. The Information Systems Division is not responsible for any damages suffered by users as a result of using or being unable to use the social media. The content posted on the utelecon official SNS may be changed, moved, deleted, etc. without any notice.
 
-## その他
+## Other
 
-本ポリシーは随時更新されます．
+This policy is subject to change without any notice.
