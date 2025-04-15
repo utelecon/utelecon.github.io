@@ -18,7 +18,7 @@ We will also share the latest information posted on the utelecon portal site via
 - [uteleconお知らせ](https://x.com/utelecon_pr) (in Japanese)
 - [utelecon notice](https://x.com/utelecon_pr_en) (in English)
 
-Note that this account does not respond to inquiries from users. If you need a reply, please contact us using [the email form on the support desk page](/en/support/#email-form). For other detailed usage policies, please refer to the [“utelecon Social Media Policy”](/docs/sns-policy).
+Note that this account does not respond to inquiries from users. If you need a reply, please contact us using [the email form on the support desk page](/en/support/#email-form). For other detailed usage policies, please refer to the [“utelecon Social Media Policy”](/en/docs/sns-policy).
 
 In addition, you can also follow this account and turn on notifications for new posts from this account to find out about the latest posts immediately. Please make use of these functions as well.
 
