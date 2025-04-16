@@ -180,3 +180,11 @@ prop `variant`の値によって，表示する要素が切り替わります．
 ```jsx
 <YouTube src="動画の埋め込み用URL" />
 ```
+
+### [`MaterialIcon.astro`](embed/MaterialIcon.astro)
+
+`@components/embed/MaterialIcon.astro`は，Googleによって提供されている[Material Symbols and Icons](https://fonts.google.com/icons)を埋め込むためのコンポーネントです．`icon`プロパティにアイコン名をsnake_caseの文字列として渡すと，対応するアイコンがインラインSVGとして埋め込まれます．また，styleプロパティによりスタイルを指定することもできます（デフォルトは`outlined`）．SVGタグに追加で属性を適用したい場合は`svgProps`にオブジェクトを渡してください．
+
+### [`FontAwesomeIcon.astro`](embed/FontAwesomeIcon.astro)
+
+`@components/embed/FontAwesomeIcon.astro`は，[Font Awesome](https://fontawesome.com/)によるアイコンを埋め込むためのコンポーネントです．`icon`プロパティにアイコン名をkebab-caseの文字列として渡すか，あるいは`@fortawesome/free-solid-svg-icons`から直接アイコンをインポートして渡すと，対応するアイコンがインラインSVGとして埋め込まれます．SVGタグに追加で属性を適用したい場合は`svgProps`にオブジェクトを渡してください．
