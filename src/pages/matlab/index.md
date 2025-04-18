@@ -59,7 +59,7 @@ UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Account
 2. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」をクリックしてください．![](signin_and_start.drawio.png){:.thin-border}
 3. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 4. 「Sign in to your existing MathWorks Account」と書かれたメニューが表示されたら，「Sign In」をクリックしてください．
-5. 先ほどメールアドレスを変更したMathWorksアカウントに，変更後のメールアドレスを使ってサインインしてください．
+5. UTokyo Accountと，お持ちのMathWorksアカウントのパスワードを使ってサインインしてください．
 6. 「所属する学校の Campus-Wide License がご利用の MathWorks アカウントにリンクされました。」と表示されたら準備は完了です．
 
 この手順がうまくいかない場合は，MathWorks社のサポート（`service@mathworks.co.jp`）にメールしてサポートを依頼してください．
