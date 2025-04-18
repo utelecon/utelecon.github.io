@@ -31,7 +31,7 @@ We encourage you to take this opportunity to learn more about UTokyo Azure and c
 | Time | Topic | Speaker | Materials | Recording |
 |------|-------|---------|--------|-------|
 | 10:00 - 10:10 | Introduction | Prof. Taura | [Slides](/en/events/2025-04-18/slides/1_introduction.pdf)| [Video] |
-| 10:10 - 10:30 |  (Possibility of) Charges | Prof. Taura | [Slides](en/events/2025-04-18/slides/2_possibility_of_charges.pdf) | [Video] |
+| 10:10 - 10:30 |  (Possibility of) Charges | Prof. Taura | [Slides](/en/events/2025-04-18/slides/2_possibility_of_charges.pdf) | [Video] |
 | 10:30 - 10:40 | How to Apply | Prof. Taura | [Slides](/en/events/2025-04-18/slides/3_how_to_apply.pdf)| [Video] |
 | 10:40 - 10:45 | How to Pay | Prof. Taura | [Slides](/en/events/2025-04-18/slides/4_how_to_pay.pdf)| [Video] |
 | 10:45 - 11:45 | Using Popular Services |Prof. Yamakata | [・Assign Owner Role](/en/events/2025-04-18/slides/5-1_Assign_Owner_Role.pdf) <br>[・Using Azure OpenAI Service](/en/events/2025-04-18/slides/5-2_Using_Azure_OpenAI_Service.pdf)<br>[・Create Virtual Machine](/en/events/2025-04-18/slides/5-3_Create_Virtual_Machine.pdf) <br>[・Using Notebooks](/en/events/2025-04-18/slides/5-4_Using_Notebooks.pdf)| [Video]<br>[Video]<br>[Video]<br>[Video] |
