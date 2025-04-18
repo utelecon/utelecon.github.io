@@ -118,5 +118,8 @@
       name: "障害・メンテナンス情報"
       url: "https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/service-status.aspx"
     -
+      name: "クラウドサービス稼働情報"
+      url: "/support/service-status" 
+    -
       name: "授業入室トラブル"
       url: "/oc/join"
