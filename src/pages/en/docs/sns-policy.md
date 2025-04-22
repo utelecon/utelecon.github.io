@@ -3,7 +3,9 @@ title: utelecon Social Media Policy
 toc: false
 ---
 
-<div style="text-align: right;">April 15, 2025 Division for Information and Communication Systems</div>
+<div style="text-align: right;">April 15, 2025</div>
+<div style="text-align: right;">Division for Information and Communication Systems</div>
+Comment
 
 The Division for Information and Communication Systems has official social media accounts (the “utelecon official SNS”) for sharing information related to the University of Tokyo's information systems. The Division for Information and Communication Systems manages and operates the utelecon official SNS in accordance with the policy outlined in this document.
 
