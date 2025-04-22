@@ -5,9 +5,8 @@ toc: false
 
 <div style="text-align: right;">April 15, 2025</div>
 <div style="text-align: right;">Division for Information and Communication Systems</div>
-Comment
 
-The Division for Information and Communication Systems has official social media accounts (the “utelecon official SNS”) for sharing information related to the University of Tokyo's information systems. The Division for Information and Communication Systems manages and operates the utelecon official SNS in accordance with the policy outlined in this document.
+The Division for Information and Communication Systems has official social media accounts (the “utelecon official SNS”) for sharing information related to the University of Tokyo's information systems. The Division for Information and Communication Systems manages and operates the utelecon official SNS (social networking service) in accordance with the policy outlined in this document.
 
 ## List of Accounts
 
@@ -16,7 +15,7 @@ The following accounts are available.
 - X (formerly Twitter) (in English): [utelecon notice](https://x.com/utelecon_pr_en)
 - YouTube：[utelecon](https://www.youtube.com/@utelecon/videos)
 
-## Operation of the utelecon official SNS (social networking service)
+## Operation of the utelecon official SNS
 
 ### Regarding the contents of the posts
 We will post information related to the information systems of the University of Tokyo on the utelecon official SNS sites. On such occasions, we will pay close attention to ensure that we do not infringe on the rights of others, and that we will comply with relevant laws.
