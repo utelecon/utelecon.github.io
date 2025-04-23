@@ -9,7 +9,7 @@ The University of Tokyo has introduced the software "[MATLAB](https://www.mathwo
 ## About MATLAB
 [MATLAB](https://www.mathworks.com/products/matlab.html) is a programming language and a numerical computation / computer algebra software developed for scientific and technical computing. MATLAB can be used for various purposes, including mathematical processing of algebra, geometry and analysis, machine learning, statistical analysis, data visualization, control simulation, and its implementation on hardware. Since the software can be operated using GUI without writing a code, it can be easily introduced not only for research use in specialized fields such as engineering and science, but also for basic education for beginners in programming, and data analysis in the humanities and social sciences.
 
-The University of Tokyo has a comprehensive license agreement that allows **all students and all faculty and staff members employed by the university** to use the following functions from their individual devices without additional costs. The number of functions provided may increase or decrease depending on the university's situation and the terms of the contract.
+The University of Tokyo has a comprehensive license agreement that allows **all members of the university** to use the following functions from their individual devices without additional costs. The number of functions provided may increase or decrease depending on the university's situation and the terms of the contract.
 
 - Installing and using MATLAB
 - Unlimited use of MATLAB Online
