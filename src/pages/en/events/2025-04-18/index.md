@@ -30,12 +30,12 @@ We encourage you to take this opportunity to learn more about UTokyo Azure and c
 
 | Time | Topic | Speaker | Materials | Recording |
 |------|-------|---------|--------|-------|
-| 10:00 - 10:10 | Introduction | Prof. Taura | [Slides](/en/events/2025-04-18/slides/1_introduction.pdf)| [Video] |
-| 10:10 - 10:30 |  (Possibility of) Charges | Prof. Taura | [Slides](/en/events/2025-04-18/slides/2_possibility_of_charges.pdf) | [Video] |
-| 10:30 - 10:40 | How to Apply | Prof. Taura | [Slides](/en/events/2025-04-18/slides/3_how_to_apply.pdf)| [Video] |
-| 10:40 - 10:45 | How to Pay | Prof. Taura | [Slides](/en/events/2025-04-18/slides/4_how_to_pay.pdf)| [Video] |
-| 10:45 - 11:45 | Using Popular Services |Prof. Yamakata | [・Assign Owner Role](/en/events/2025-04-18/slides/5-1_Assign_Owner_Role.pdf) <br>[・Using Azure OpenAI Service](/en/events/2025-04-18/slides/5-2_Using_Azure_OpenAI_Service.pdf)<br>[・Create Virtual Machine](/en/events/2025-04-18/slides/5-3_Create_Virtual_Machine.pdf) <br>[・Using Notebooks](/en/events/2025-04-18/slides/5-4_Using_Notebooks.pdf)| [Video]<br>[Video]<br>[Video]<br>[Video] |
-| 11:30 - 12:00 | Q&A Session |  | [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz) | |
+| 10:00 - 10:10 | Introduction | Prof. Taura | [Slides](/en/events/2025-04-18/slides/1_introduction.pdf)| [Video](https://youtu.be/q8Y1WafJCI0) |
+| 10:10 - 10:30 |  (Possibility of) Charges | Prof. Taura | [Slides](/en/events/2025-04-18/slides/2_possibility_of_charges.pdf) | [Video](https://youtu.be/yvFnA4XI9cc) |
+| 10:30 - 10:40 | How to Apply | Prof. Taura | [Slides](/en/events/2025-04-18/slides/3_how_to_apply.pdf)| [Video](https://youtu.be/Bp5jOhLTZLw) |
+| 10:40 - 10:45 | How to Pay | Prof. Taura | [Slides](/en/events/2025-04-18/slides/4_how_to_pay.pdf)| [Video](https://youtu.be/Wp6EMbXvfaw) |
+| 10:45 - 11:45 | Using Popular Services |Prof. Yamakata | [a)Assign Owner Role](/en/events/2025-04-18/slides/5-1_Assign_Owner_Role.pdf) <br>[b)Using Azure OpenAI Service](/en/events/2025-04-18/slides/5-2_Using_Azure_OpenAI_Service.pdf)<br>[c)Create Virtual Machine](/en/events/2025-04-18/slides/5-3_Create_Virtual_Machine.pdf) <br>[d)Using Notebooks](/en/events/2025-04-18/slides/5-4_Using_Notebooks.pdf)| [a)Video](https://youtu.be/B3GDL-d5ED4)<br>[b)Video](https://youtu.be/ZqtGvnPVvso)<br>[c)Video](https://youtu.be/Y5x8itqFIDg)<br>d)No video available due to time constraints. |
+| 11:45 - 12:00 | Q&A Session |  | [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz) | |
 
 ### Speakers
 - Kenjiro Taura (Executive Director & Vice President, The University of Tokyo)
