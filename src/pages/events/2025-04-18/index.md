@@ -29,12 +29,12 @@ UTokyo Azureをご利用中の方や，今後の利用を検討している方�
 
 | 時間 | 内容 | 話者 | 資料 | 動画 |
 |------|------|------|------|------|
-| 10:00 - 10:10 | UTokyo Azureの概要 | 田浦 | [資料](/events/2025-04-18/slides/1_introduction.pdf) | [動画] |
-| 10:10 - 10:30 | 利用料金負担の可能性について | 田浦 | [資料](/events/2025-04-18/slides/2_possibility_of_charges.pdf) | [動画] |
-| 10:30 - 10:40 | 利用申請の流れと注意点 | 田浦 | [資料](/events/2025-04-18/slides/3_how_to_apply.pdf) | [動画] |
-| 10:40 - 10:45 | 利用料金発生時の流れ | 田浦 | [資料](/events/2025-04-18/slides/4_how_to_pay.pdf) | [動画] |
-| 10:45 - 11:45 | Azureの代表的なサービスの使い方 | 山肩 | [・所有者の追加](/events/2025-04-18/slides/5-1_Assign_Owner_Role.pdf)<br>[・OpenAI](/events/2025-04-18/slides/5-2_Using_Azure_OpenAI_Service.pdf)<br>[・仮想マシン](/events/2025-04-18/slides/5-3_Create_Virtual_Machine.pdf)<br>[・ノートブック](/events/2025-04-18/slides/5-4_Using_Notebooks.pdf) | [動画]<br>[動画]<br>[動画]<br>[動画] |
-| 11:30 - 12:00 | 質疑応答 |  | [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz) |  |
+| 10:00 - 10:10 | UTokyo Azureの概要 | 田浦 | [資料](/events/2025-04-18/slides/1_introduction.pdf) | [動画](https://youtu.be/q8Y1WafJCI0) |
+| 10:10 - 10:30 | 利用料金負担の可能性について | 田浦 | [資料](/events/2025-04-18/slides/2_possibility_of_charges.pdf) | [動画](https://youtu.be/yvFnA4XI9cc) |
+| 10:30 - 10:40 | 利用申請の流れと注意点 | 田浦 | [資料](/events/2025-04-18/slides/3_how_to_apply.pdf) | [動画](https://youtu.be/Bp5jOhLTZLw) |
+| 10:40 - 10:45 | 利用料金発生時の流れ | 田浦 | [資料](/events/2025-04-18/slides/4_how_to_pay.pdf) | [動画](https://youtu.be/Wp6EMbXvfaw) |
+| 10:45 - 11:45 | Azureの代表的なサービスの使い方 | 山肩 | [a)所有者の追加](/events/2025-04-18/slides/5-1_Assign_Owner_Role.pdf)<br>[b)OpenAI](/events/2025-04-18/slides/5-2_Using_Azure_OpenAI_Service.pdf)<br>[c)仮想マシン](/events/2025-04-18/slides/5-3_Create_Virtual_Machine.pdf)<br>[d)ノートブック](/events/2025-04-18/slides/5-4_Using_Notebooks.pdf) | [a)動画](https://youtu.be/B3GDL-d5ED4)<br>[b)動画](https://youtu.be/ZqtGvnPVvso)<br>[c)動画](https://youtu.be/Y5x8itqFIDg)<br>d)タイムアップにより動画なし |
+| 11:45 - 12:00 | 質疑応答 |  | [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz) |  |
 
 ### 話者
 - 田浦 健次朗（東京大学 執行役・副学長）  
