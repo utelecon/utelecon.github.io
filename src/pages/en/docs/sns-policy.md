@@ -11,8 +11,8 @@ The Division for Information and Communication Systems has official social media
 ## List of Accounts
 
 The following accounts are available.
-- X (formerly Twitter) (in Japanese): [utelecon お知らせ](https://x.com/utelecon_pr)
-- X (formerly Twitter) (in English): [utelecon notice](https://x.com/utelecon_pr_en)
+- X (formerly Twitter) (in Japanese): [utelecon | 東京大学](https://x.com/utelecon_pr)
+- X (formerly Twitter) (in English): [utelecon | UTokyo](https://x.com/utelecon_pr_en)
 - YouTube：[utelecon](https://www.youtube.com/@utelecon/videos)
 
 ## Operation of the utelecon official SNS
