@@ -45,7 +45,7 @@ It is assumed that the FIDO security key will be registered as the second or sub
 ![](select_security_key.png)
 4. When adding a security key, you will be prompted to choose either a 'USB device' or an 'NFC device'. Therefore, please click on the appropriate option.
 ![](select_connection_method.png)
-5. When the dialogue box displaying "Have your security key ready" appears, please click “Next”.
+5. When the dialogue box displaying "Have your key ready" appears, please click “Next”.
 ![](prepare_key.png)
 6. Follow the on-screen instructions to complete the security key setup. Specifically, you will be asked to add the security key, set a PIN or biometric authentication, or tap the security key.
 7. After setting up the security key, give a name to the security key.
@@ -57,7 +57,7 @@ It is assumed that the FIDO security key will be registered as the second or sub
 
 1. When signing into your UTokyo Account (and after entering your password), you will be prompted to verify your identification using the multi-factor authentication with the default verification method. Click on the "Sign in with a different method" or "I can’t use my Microsoft Authenticator app right now" link.
 ![](signin_other_method.png)
-2. When the screen to select a different authentication method appears, please click on the "Use a security key" option.
+2. When the screen to select a different authentication method appears, please click on the "Face, fingerprint, PIN or security key" option.
 ![](signin_security_key.png)
 3. Follow the instructions on the screen to complete actions such as entering a PIN, biometric authentication, or tapping the security key. After these steps, the sign-in process will be completed.
 
