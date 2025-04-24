@@ -1,7 +1,7 @@
 ---
 title: How to use FIDO Security Keys for UTokyo Account Multi-factor Authentication
 breadcrumb:
-  title: FIDOセキュリティキーの利用方法
+  title: How to use FIDO Security Keys
 ---
 
 <div class="box">Starting from March 12, 2024, <a href="/en/notice/2024/02-utac-auth-improvement">using the FIDO security key with multi-factor authentication for UTokyo Account will be made more convenient.</a>．</div>
