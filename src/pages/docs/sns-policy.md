@@ -10,8 +10,8 @@ toc: false
 ## アカウント一覧
 
 以下のアカウントを保有しています．
-- X（旧Twitter）（日本語）：[utelecon お知らせ](https://x.com/utelecon_pr)
-- X（旧Twitter）（英語）：[utelecon notice](https://x.com/utelecon_pr_en)
+- X（旧Twitter）（日本語）：[utelecon | 東京大学](https://x.com/utelecon_pr)
+- X（旧Twitter）（英語）：[utelecon | UTokyo](https://x.com/utelecon_pr_en)
 - YouTube：[utelecon](https://www.youtube.com/@utelecon/videos)
 
 ## utelecon公式SNSの運用
