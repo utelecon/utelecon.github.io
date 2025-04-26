@@ -2,7 +2,7 @@
 title: UTokyo Antivirus License
 ---
 
-UTokyo provides TrendMicro products under the UTokyo Antivirus License. UTokyo requires you to “install appropriate antivirus software on all the computers you administrate” in the “[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/content/400156696.pdf)”. It is strongly recommended that you use these products as part of your antivirus strategy.
+The University of Tokyo (UTokyo) provides TrendMicro products under the UTokyo Antivirus License. UTokyo requires you to “install appropriate antivirus software on all the computers you administrate” in the “[Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/content/400156696.pdf)”. It is strongly recommended that you use these products as part of your antivirus strategy.
 
 * Provided by: Information Technology Center
 * Eligible Users: Faculty, staff, and students of UTokyo
