@@ -9,7 +9,7 @@ The University of Tokyo has introduced the software "[MATLAB](https://www.mathwo
 ## About MATLAB
 [MATLAB](https://www.mathworks.com/products/matlab.html) is a programming language and a numerical computation / computer algebra software developed for scientific and technical computing. MATLAB can be used for various purposes, including mathematical processing of algebra, geometry and analysis, machine learning, statistical analysis, data visualization, control simulation, and its implementation on hardware. Since the software can be operated using GUI without writing a code, it can be easily introduced not only for research use in specialized fields such as engineering and science, but also for basic education for beginners in programming, and data analysis in the humanities and social sciences.
 
-The University of Tokyo has a comprehensive license agreement that allows **all students and all faculty and staff members employed by the university** to use the following functions from their individual devices without additional costs. The number of functions provided may increase or decrease depending on the university's situation and the terms of the contract.
+The University of Tokyo has a comprehensive license agreement that allows **all members of the university** to use the following functions from their individual devices without additional costs. The number of functions provided may increase or decrease depending on the university's situation and the terms of the contract.
 
 - Installing and using MATLAB
 - Unlimited use of MATLAB Online
@@ -24,15 +24,9 @@ The University of Tokyo has a comprehensive license agreement that allows **all 
 - Use of MATLAB Grader
     - This service allows you to create programming assignments, distribute problems, and automatically grade and evaluate them all at once．
 
-## Cautions for use
-Please observe the following when you use MATLAB．
-- The purpose of use is limited to educational and research activities, and work related to these activities．
-- You may use the service during the period you are enrolled at the university．
-- You must agree to the Terms of Use before using MATLAB. Users must comply with the Policy for Information Security and related regulations established by the university, and use the service in accordance with the rules presented by the university．
-- User information will be used for university administration and service provision．
-- If any information management or security control problems arise, the service will be terminated．
+The purpose of use is limited to educational and research activities and related work. The use of the service for commercial purposes is not permitted. If you are considering commercial use, please contact MathWorks．
 
-If you are considering commercial use, please contact MathWorks．
+Also, please refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms)".
 
 ## How to start using MATLAB
 To use MATLAB, you need to create a MathWorks account. In addition, you will need a [UTokyo Account](/en/utokyo_account/) and an email address ending with `u-tokyo.ac.jp` provided by the University of Tokyo to activate the blanket license．
@@ -44,12 +38,12 @@ If you have not used UTokyo Account yet, please refer to [How to start using UTo
 2. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in page will appear. So please sign in．
 3. When the menu labeled "Create a MathWorks Account" appears, click "Create"．
     <!---![](https://i.imgur.com/AAD3U9B.png)--->
-4. Follow the instructions on your screen to create a MathWorks account using an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/google/). 
+4. Follow the instructions on your screen to create a MathWorks account using an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/google/).
 5. You will receive an authentication email from `service@account.mathworks.com` to your registered email address. If you do not receive the email, check to see if it has not been classified as spam mail.
 6. When you see the message "Your school's Campus-Wide License has been linked to your MathWorks account.” is displayed, you are ready to go.
 
 If the above procedure does not work, please contact MathWorks technical support desk at `service@mathworks.com` for assistance．
-### If you have already created a MathWorks account 
+### If you have already created a MathWorks account
 1. Update the email address of your MathWorks account to an email address ending with `u-tokyo.ac.jp`, such as [ECCS Cloud Email](/en/google/)．
     <details>
         <summary>Procedures</summary>
@@ -62,7 +56,7 @@ If the above procedure does not work, please contact MathWorks technical support
     </details>
 2. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click "Sign in to get started" in the middle of the page．
 3. Unless you have already signed in to your UTokyo Account, the UTokyo Account sign-in page will appear．
-4. Click "Sign In" when the "Sign in to your existing MathWorks Account" menu appears. 
+4. Click "Sign In" when the "Sign in to your existing MathWorks Account" menu appears.
 5. Sign in with your existing MathWorks account.
 6. When you see "Your school's Campus-Wide License has been linked to your MathWorks Account" is displayed, you are ready to go．
 

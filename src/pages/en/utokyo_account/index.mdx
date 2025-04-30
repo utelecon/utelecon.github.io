@@ -14,20 +14,12 @@ import InformationSecurity from '@components/en/InformationSecurity.mdx'
 {:#about}
 
 - **UTokyo Account** is a university-wide account that is required to use the ICT systems of the University of Tokyo. Students, faculty and staff of the University of Tokyo are required to sign in with this account to use various ICT systems.
-  - Even if you do not currently have an account,  a UTokyo Account can be issued if necessary. If you wish to obtain an account, please contact the relevant office of your department (students should contact the academic office, and faculty and staff members should contact the personnel department).
+  - Even if you do not currently have an account, you can receive a UTokyo Account if you are a member of an organization that has been accepted and managed by the university. If you wish to obtain an account, please contact the relevant office of your department (students should contact the academic office, and faculty and staff members should contact the personnel department).
 - The username of UTokyo Account is represented by a 10-digit number and is also called the **“Common ID”**. In the ICT systems, a 10-digit Common ID followed by `@utac.u-tokyo.ac.jp`, which indicates that you are a member of the University of Tokyo, is sometimes used, such as `0123456789@utac.u-tokyo.ac.jp`.
   - The "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is not an email address that can be used normally.
-  - System notification emails sent to "10-digit common ID + `@utac.u-tokyo.ac.jp`" may be forwarded to [the ECCS Cloud Email (Google Workspace)](/en/google/), but you cannot send emails using "10-digit common ID + `@utac.u-tokyo.ac.jp`".
+  - System notification emails sent to "10-digit Common ID + `@utac.u-tokyo.ac.jp`" may be forwarded to [the ECCS Cloud Email (Google Workspace)](/en/google/), but you cannot send emails using "10-digit Common ID + `@utac.u-tokyo.ac.jp`".
 - For more information on the services available through the UTokyo Account, please see the **[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)** and [the "Systems of the University of Tokyo" page (in Japanese)](/systems).
-
-## Notes on using UTokyo Account
-{:#notes}
-
-1. UTokyo Account is granted to members of the university who are systematically accepted and managed by the university. (It will not be granted to those who are not systematically accepted by the university.)
-1. The services available through the UTokyo Account vary depending on the user's identity, affiliation and so on.
-1. To use the UTokyo Account and ICT systems that require a UTokyo Account, you must comply with the [UTokyo Guidelines for Information Ethics and Computer Use](https://www.u-tokyo.ac.jp/content/400156696.pdf). (Reference: [UTokyo Policy for Information Security](https://www.u-tokyo.ac.jp/en/about/information-security.html))
-1. If you use the system inappropriately or cause safety issues that are against the Information Ethics and Computer Usage Guidelines for using the UTokyo Account and ICT systems that require a UTokyo Account, your account will be suspended.
-1. Please refer to the information on this website for details on using UTokyo Account.
+  - The available systems differ depending on the user's enrollment status, affiliation, and so on, and not all systems are available to all users.
 
 ## How to start using UTokyo Account
 {:#procedures}
@@ -39,7 +31,7 @@ import InformationSecurity from '@components/en/InformationSecurity.mdx'
 
 <MFA />
 
-### Attending the Information Security Education
+### Taking the Information Security Education
 {:#information-security-education}
 
 <InformationSecurity variant="individual" />
@@ -57,15 +49,21 @@ Once you have completed the above tasks, please also refer to the following page
 ## Sign in to the ICT systems with your UTokyo Account
 {:#signin}
 
-UTokyo Account provides access to a variety of ICT systems. The sign-in methods vary depending on the situation.
+This section explains how to sign in to various ICT systems using your UTokyo Account.
 
-- When the following screen (with an image of Yasuda Auditorium) is displayed, you can sign in with your 10-digit Common ID and password.
-![](img/signin-yasuda.png)
-- If the image of Yasuda Auditorium does not appear and the sign-in screen appears as shown below, please enter "10-digit common ID + `@utac.u-tokyo.ac.jp`".
-    <figure class="gallery">
-        ![](img/signin-utac-01.png)
-        ![](img/signin-utac-02.png)
-    </figure>
+When using the ICT systems, if the following sign-in screen (with an image of Akamon Gate) appears, you need to sign in with your UTokyo Account. Please follow these steps to sign in:
+
+![](img/signin-akamon.png){:.small.center.thin-border}
+1. Enter "10-digit Common ID + `@utac.u-tokyo.ac.jp`" in the input field, then click "Next."
+1. When the screen shown in the bottom-left screenshot appears, enter your password and click "Sign in."
+1. If the "Verify your identity" screen shown in the bottom-right screenshot or the "Approve sign in request" screen appears, follow the on-screen instructions to complete the multi-factor authentication.
+1. You will be signed in and redirected to the system page you are trying to access.
+
+<figure class="gallery">![](img/password-akamon.png){:.small.center.thin-border}![](img/mfa-akamon.png){:.small.center.thin-border}</figure>
+
+Additionally, during sign-in, you may see a screen like the following. In this case, please select the item labeled "10-digit Common ID + `@utac.u-tokyo.ac.jp`".
+
+![](img/signin-select-account.png){:.small.center.thin-border}
 
 Many of the ICT systems that allow users to sign in using their UTokyo Account are linked to each other, so that once a user has signed in with their username and password on one ICT system, the user does not subsequently need to enter the username and password to use another ICT system. This behavior is called **Single Sign-On (SSO)**.
 
@@ -74,12 +72,12 @@ Many of the ICT systems that allow users to sign in using their UTokyo Account a
 ### Validity period of a password
 {:#password-expiration}
 
-If you are using Multi-Factor Authentication, your password does not expire. Otherwise, your password is valid for 397 days (1 year + 1 month) after it is changed. The expiration date of the current password can be checked from [the User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet).
+If you are using Multi-Factor Authentication, your password does not expire. Otherwise, your password is valid for 397 days (1 year + 1 month) after it is changed. The expiration date of the current password can be checked from [the User Menu](https://utacm.adm.u-tokyo.ac.jp/UserMenu/LoginServlet).
 
 ### Changing passwords
 {:#change-password}
 
-You can change your password from the "Password Change" menu on the [User Menu](https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet). The password can be changed even if it has expired, so there is no need to reset or reissue a password.
+You can change your password from the "Password" menu on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com).
 
 ### If you forget your password
 {:#forget-password}
@@ -91,7 +89,7 @@ If you forget your UTokyo Account password, you can sign back into your account 
 
 If you have registered your email address in advance on one of the following, you can reset your password using that email address.
 
-- [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com).  
+- [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com).
 *This email address is registered during [the step 1 of Setting up Multi-Factor Authentication](mfa/initial/#first). If you wish to register directly on this page, please follow the steps below.
   1. Access [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com).
   1. Click "Add sign-in method" button.

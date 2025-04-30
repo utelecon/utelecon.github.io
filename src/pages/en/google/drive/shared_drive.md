@@ -26,7 +26,7 @@ The counterpart of “Shared drives” is “**My Drive**”. All files and fold
 
 ### Using with a UTokyo account
 
-This page explains how to use the shared drives with your "[ECCS Cloud Email](/en/google/)" account of the University of Tokyo. However, please note that the creation and management of shared drives via ECCS Cloud Email are restricted due to storage limitations. For more details, please refer to "[ECCS Storage Management System](https://www.ecc.u-tokyo.ac.jp/storage_mgt/)".
+This page explains how to use the shared drives with your "[ECCS Cloud Email](/en/google/)" account of the University of Tokyo. However, please note that the creation and management of shared drives via ECCS Cloud Email are restricted due to storage limitations. For more details, please refer to "[ECCS Storage Management System](/google/drive/storage/)".
 
 ## Procedure for using shared drives
 
@@ -34,7 +34,7 @@ The following section outlines the procedures for creating shared drives and sha
 
 ### Creating Shared drives
 
-With ECCS Cloud Email, you can create shared drives using the “ECCS Storage Management System”, instead of doing it on the interface of Google Drive. For more details, please refer to “[ECCS Storage Management System](https://www.ecc.u-tokyo.ac.jp/storage_mgt/)”.
+With ECCS Cloud Email, you can create shared drives using the “ECCS Storage Management System”, instead of doing it on the interface of Google Drive. For more details, please refer to “[ECCS Storage Management System](/google/drive/storage/)”.
 
 ### Add and manage members of a shared drive
 

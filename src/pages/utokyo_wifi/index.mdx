@@ -7,10 +7,6 @@ breadcrumb:
 import Apply from "@components/ja/systems/utokyo_wifi/Apply.mdx"
 import Connect from "@components/ja/systems/utokyo_wifi/Connect.mdx"
 
-import Mfa100 from "./_Mfa100.mdx";
-
-<Mfa100 />
-
 ## UTokyo Wi-Fiとは
 
 UTokyo Wi-Fiは，東京大学の構成員が教育・研究などの大学の活動を目的として利用できるWi-Fiサービスです．現在，キャンパス内のほとんどの建物で利用可能になっています．「[東京大学無線ネットワークシステム（UTokyo WiFi）利用規程](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)」に従って利用してください．
@@ -37,7 +33,7 @@ UTokyo Wi-Fiは，東京大学の構成員が教育・研究などの大学の�
 
 UTokyo Wi-Fiの利用にあたっては，情報セキュリティ教育の受講を完了することを必須としています．情報セキュリティ教育は，東京大学全体の[情報セキュリティ](https://univtokyo.sharepoint.com/sites/Security)の向上を目的として，毎年度UTokyo Accountを持つ全ての方を対象に実施しています．実施時期になりましたら通知がありますので，必ず受講してください．実施時期や受講の手順については[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)のページを確認してください．
 
-- 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo Wi-Fiの利用資格が停止されます．具体的には，UTokyo Wi-Fiアカウントメニューへのサインインやアカウントの新規発行ができなくなります．さらに，UTokyo Wi-Fiアカウントを以前に発行していた場合は，アカウントが削除されUTokyo Wi-Fiに接続することができなくなります． 
+- 所定の時期に情報セキュリティ教育の受講を完了しなかった場合はUTokyo Wi-Fiの利用資格が停止されます．具体的には，UTokyo Wi-Fiアカウントメニューへのサインインやアカウントの新規発行ができなくなります．さらに，UTokyo Wi-Fiアカウントを以前に発行していた場合は，アカウントが削除されUTokyo Wi-Fiに接続することができなくなります．
 - 利用資格が停止された場合は，情報セキュリティ教育を受講してください．確認テストに合格するとただちに利用資格の停止が解除されるので，[アカウントを再発行・再度設定する手順](#reissue-account)に従って，UTokyo Wi-Fiアカウントメニューから新しいアカウントを発行し，デバイスに設定してください．
 - 新たに入学・着任した方については，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)を受講し，確認テストに合格した後にUTokyo Wi-Fiの利用が可能となります．利用開始の前に情報セキュリティ教育を受講してください．
 
@@ -67,11 +63,6 @@ UTokyo Wi-Fiの利用にあたっては，情報セキュリティ教育の受�
   applyStep="上の「準備編」"
   connectConfiguration={<>下の「<a href="#connect-configuration">接続の詳細な設定</a>」の項</>}
 />
-
-#### 端末の種類ごとの詳しい接続手順
-{:#procedure-by-device-type}
-
-以下の各ページで，端末の種類ごとに詳しい接続手順を説明しています．
 
 #### 端末の種類別の詳しい接続手順
 {:#procedure-by-device-type}
@@ -107,8 +98,8 @@ UTokyo Wi-Fiの利用にあたっては，情報セキュリティ教育の受�
         <li>名称 (Common Name): <code>acm.wifi.adm.u-tokyo.ac.jp</code></li>
         <li>発行元: <code>NII Open Domain CA - G7 RSA</code></li>
         <li>ルート証明書: <code>Security Communication RootCA2</code></li>
-        <li>指紋 (Fingerprint) SHA-1: <code style="word-break: break-all;">C0:F2:3C:69:53:63:57:B3:57:0B:C7:7B:E8:6C:3E:3B:09:4F:74:CD</code></li>
-        <li>指紋 (Fingerprint) SHA-256: <code style="word-break: break-all;">FE:80:95:86:F5:2C:DE:CD:10:08:FC:02:CE:3D:2F:6D:AD:22:6D:94:B2:42:C7:3E:7F:8F:95:E4:19:50:F9:87</code></li>
+        <li>指紋 (Fingerprint) SHA-1: <code style="word-break: break-all;">69:38:BB:94:1A:98:04:85:A3:96:46:DA:C2:7F:45:62:EF:62:0B:AF</code></li>
+        <li>指紋 (Fingerprint) SHA-256: <code style="word-break: break-all;">DA:8D:7C:56:C8:6D:15:C6:38:2B:17:7E:40:EF:1C:DF:3B:13:54:83:26:AB:73:C2:80:AD:03:02:B6:84:EC:F0</code></li>
       </ul>
       ※証明書の「ドメイン」を入力するよう求められた場合は，<code style="word-break: break-all;">u-tokyo.ac.jp</code>を入力してください．
     </td>
@@ -142,6 +133,7 @@ UTokyo Wi-Fiを含む本学のネットワークでは，全学セキュリテ�
 - UTokyo Wi-Fiのアカウントあたりの接続機器の数には上限はありません．
 - UTokyo Wi-Fiのアカウントを直接削除することはできません．ただし，「UTokyo Wi-Fiアカウントメニュー」の「新規申請」ボタンを押してアカウントを発行し直すことで，既存のアカウントは無効になります．
 - UTokyo Wi-Fiは一時的に特定の場所，または学内全域でトラブルが発生して利用に支障が出ることがあります．ご不便をおかけいたしますが，速やかに対応できるよう努めてまいりますので，ご理解ください．
+- 学生宿舎における日常生活に必要なネットワーク接続のために，宿舎Wi-Fiを提供しています．詳細は「[宿舎Wi-Fi](/utokyo_wifi/lodge/)」のページをご覧ください．
 - 東京大学には，UTokyo Wi-Fiの他にも学内で共通に利用できる無線LANサービスがあります．東京大学の構成員の方は「[東京大学構成員の無線LAN利用](/systems/wlan)」のページを，学外の方は「[東京大学での無線LAN利用](https://www.u-tokyo.ac.jp/adm/dics/ja/wlan.html)」のページをそれぞれ参照し，適切に利用してください．
     - UTokyo Wi-FiアカウントのユーザーIDとパスワードを用いて，大学や研究機関等での相互利用が可能な無線LANサービス[eduroam](https://eduroam.jp/)に接続することができます．詳細は[「東京大学構成員の無線LAN利用」のページの「eduroam」の項](/systems/wlan#eduroam)を参照してください．
 - いくつかの教室・会議室では，UTokyo Wi-Fiアカウントで接続できる有線ポートが提供されています（原則として教職員向け）．詳細は「[教室等の有線接続サービスについて](wired_lan)」をご覧ください．
