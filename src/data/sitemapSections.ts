@@ -77,6 +77,21 @@ export const sitemapSectionsJa: SitemapSection[] = [
     name: "UTokyo VPN",
   },
   {
+    patterns: [/^\/research_computing$/],
+    depth: 3,
+    name: "全学向け高速計算機・データ活用基盤",
+  },
+  {
+    patterns: [/^\/research_computing\/mdx($|\/)/],
+    depth: 4,
+    name: "mdx",
+  },
+  {
+    patterns: [/^\/research_computing\/utokyo_azure($|\/)/],
+    depth: 4,
+    name: "UTokyo Azure",
+  },
+  {
     patterns: [/^\/online($|\/)/, /^\/articles\//],
     depth: 2,
     name: "オンラインを活用するために",
