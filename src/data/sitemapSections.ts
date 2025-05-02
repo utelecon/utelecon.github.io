@@ -196,6 +196,16 @@ export const sitemapSectionsEn: SitemapSection[] = [
     name: "UTokyo VPN",
   },
   {
+    patterns: [/^\/en\/research_computing$/],
+    depth: 3,
+    name: "High-performance computing and data utilization platform",
+  },
+  {
+    patterns: [/^\/en\/research_computing\/utokyo_azure($|\/)/],
+    depth: 4,
+    name: "UTokyo Azure",
+  },
+  {
     patterns: [/^\/en\/online($|\/)/, /^\/articles\//],
     depth: 2,
     name: "Teaching Excellence",
