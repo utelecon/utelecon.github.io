@@ -77,6 +77,16 @@ export const sitemapSectionsJa: SitemapSection[] = [
     name: "UTokyo VPN",
   },
   {
+    patterns: [/^\/eccs($|\/)/],
+    depth: 3,
+    name: "ECCS端末",
+  },
+  {
+    patterns: [/^\/research_computing($|\/)/],
+    depth: 3,
+    name: "全学向け高速計算機・データ活用基盤",
+  },
+  {
     patterns: [/^\/online($|\/)/, /^\/articles\//],
     depth: 2,
     name: "オンラインを活用するために",
@@ -179,6 +189,16 @@ export const sitemapSectionsEn: SitemapSection[] = [
     patterns: [/^\/en\/utokyo_vpn($|\/)/],
     depth: 3,
     name: "UTokyo VPN",
+  },
+  {
+    patterns: [/^\/en\/eccs($|\/)/],
+    depth: 3,
+    name: "ECCS Terminals",
+  },
+  {
+    patterns: [/^\/en\/research_computing($|\/)/],
+    depth: 3,
+    name: "High-performance computing and data utilization platform",
   },
   {
     patterns: [/^\/en\/online($|\/)/, /^\/articles\//],
