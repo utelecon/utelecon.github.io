@@ -79,7 +79,7 @@ export const sitemapSectionsJa: SitemapSection[] = [
   {
     patterns: [/^\/eccs($|\/)/],
     depth: 3,
-    name: "ECCS端末",
+    name: "教育用計算機システム（ECCS）",
   },
   {
     patterns: [/^\/research_computing($|\/)/],
@@ -193,7 +193,7 @@ export const sitemapSectionsEn: SitemapSection[] = [
   {
     patterns: [/^\/en\/eccs($|\/)/],
     depth: 3,
-    name: "ECCS Terminals",
+    name: "Educational Campus-Wide Computing System (ECCS) Terminals",
   },
   {
     patterns: [/^\/en\/research_computing($|\/)/],
