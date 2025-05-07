@@ -8,7 +8,6 @@ breadcrumb:
 ---
 
 ## What are the Polls in Zoom?
-
 {:#about}
 The polling feature in Zoom allows the meeting host and co-hosts to gather responses from their participants in various formats, such as single-choice, multiple-choice, and open-ended questions. In addition to regular polls, the host and co-hosts can conduct quizzes in which they can set correct answers for closed-ended questions.
 
