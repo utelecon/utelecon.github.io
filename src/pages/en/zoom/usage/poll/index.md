@@ -113,6 +113,7 @@ The following procedures allow you to view the results of polls that have alread
 ![the screen during the results sharing](./stopsharing.png){:.medium .border}
    - After stopping the sharing, the host and co-hosts can still view or share the results from the “Polls/quizzes” button until the meeting ends.
 
+
 ### Reviewing the poll results after the meeting
 {:#view_after_meeting}
 The person who created the meeting can review the poll results from the Zoom web portal even after the meeting has ended.
