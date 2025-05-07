@@ -101,13 +101,11 @@ The following procedures allow you to view the results of polls that have alread
 3. A screen will appear where you can view the results. If you want to share them, press the “Share results” button at the bottom right.
    - When the results are shared, participants will see a screen like the second image.
 
-    <figure class="gallery">
-![the result viewing screen](./result.png){:.medium .border}![the result viewing screen during sharing](./sharing.png){:.medium .border}</figure>
+    <figure class="gallery">![the result viewing screen](./result.png){:.medium .border}![the result viewing screen during sharing](./sharing.png){:.medium .border}</figure>
 
    - In the case of quizzes, you can share the correct answers. Check the “Show correct answers to all” option at the bottom left on the first image during the results sharing. Participants will see a screen like the second image.
 
-        <figure class="gallery">
-![the Quiz results sharing screen](./quizsharingresults.png){:.medium .border}![the Quiz answers sharing screen](./answershare.png){:.medium .border}</figure>
+        <figure class="gallery">![the Quiz results sharing screen](./quizsharingresults.png){:.medium .border}![the Quiz answers sharing screen](./answershare.png){:.medium .border}</figure>
 
    - You cannot begin a new poll while the results are being shared.
 
