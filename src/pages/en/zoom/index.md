@@ -54,7 +54,7 @@ For an overview of usages during a meeting, please refer to "[Usages in Zoom Mee
 - [Use Chat (in Japanese)](/zoom/usage/chat/)
 - [Respond with a Raised Hand or an Emoji (in Japanese)](/zoom/usage/reaction/)
 - (For organizers)[Use Breakout Room (in Japanese)](/zoom/usage/breakout/)
-- (For organizers)[Use Poll (in Japanese)](/zoom/usage/poll/)
+- (For organizers)[Use Poll](usage/poll/)
 - (For organizers)[Recording Zoom Meeting](usage/recording/)
 
 ## Misc
