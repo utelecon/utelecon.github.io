@@ -1,5 +1,7 @@
 ---
 title: Basic Use of Cosense
+redirect_from:
+  - /en/articles/scrapbox/
 ---
 
 ## Highlights of This Article
