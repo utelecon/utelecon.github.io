@@ -49,6 +49,9 @@
       name: "UTokyo Slack"
       url: "/slack/"
     -
+      name: "教育用計算機システム（ECCS）"
+      url: "/eccs/"
+    -
       name: "UTokyo VPN"
       url: "/utokyo_vpn/"
     - 
