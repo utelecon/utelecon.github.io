@@ -82,9 +82,19 @@ export const sitemapSectionsJa: SitemapSection[] = [
     name: "教育用計算機システム（ECCS）",
   },
   {
-    patterns: [/^\/research_computing($|\/)/],
+    patterns: [/^\/research_computing$/],
     depth: 3,
     name: "全学向け高速計算機・データ活用基盤",
+  },
+  {
+    patterns: [/^\/research_computing\/mdx($|\/)/],
+    depth: 4,
+    name: "mdx",
+  },
+  {
+    patterns: [/^\/research_computing\/utokyo_azure($|\/)/],
+    depth: 4,
+    name: "UTokyo Azure",
   },
   {
     patterns: [/^\/online($|\/)/, /^\/articles\//],
@@ -196,9 +206,14 @@ export const sitemapSectionsEn: SitemapSection[] = [
     name: "Educational Campus-Wide Computing System (ECCS) Terminals",
   },
   {
-    patterns: [/^\/en\/research_computing($|\/)/],
+    patterns: [/^\/en\/research_computing$/],
     depth: 3,
     name: "High-performance computing and data utilization platform",
+  },
+  {
+    patterns: [/^\/en\/research_computing\/utokyo_azure($|\/)/],
+    depth: 4,
+    name: "UTokyo Azure",
   },
   {
     patterns: [/^\/en\/online($|\/)/, /^\/articles\//],
