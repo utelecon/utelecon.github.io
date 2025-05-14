@@ -30,7 +30,7 @@ Please also refer to the following.
 - **[UTokyo MATLAB Campus-Wide License](/en/matlab/)**: This service allows you to use MATLAB, a software for scientific and technical computing, under the University of Tokyo's campus-wide license.
 - **[UTokyo Azure](/research_computing/utokyo_azure/)** (in Japanese)： This service is available across the university. It is funded by a donation (gift credit) from Microsoft, based on the basic agreement concluded between the university and Microsoft.
 - [only for educational use] **[UTokyo Microsoft Azure Dev Tools for Teaching](/en/microsoft/adt4t/)**: This service provides Microsoft developer software for educational use.
-- **[UTokyo Antivirus License](/antivirus/)** (in Japanese): This comprehensive antivirus software license is provided for faculty and students. The University of Tokyo requires "[appropriate virus protection](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html) (in Japanese)" for computers, as stated in the "Information Ethics and Computer Use Guidelines". Please use this software as part of your virus protection measures.
+- **[UTokyo Antivirus License](/en/antivirus/)**: This comprehensive antivirus software license is provided for faculty and students. The University of Tokyo requires "[appropriate virus protection](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html) (in Japanese)" for computers, as stated in the "Information Ethics and Computer Use Guidelines". Please use this software as part of your virus protection measures.
 
 ## University-wide Systems
 

@@ -52,3 +52,28 @@ Bastion は Azure Portal に構成され、Web ブラウザ上で仮想マシン
 2-5. 接続に成功したら下図のようにプロンプトが表示され，仮想サーバの操作ができるようになる．
 
 ![](img/04_bastion4.png){:.medium.center.border}
+
+## Azure CLI を利用した Bastion 経由での接続
+
+Bastion サービスはブラウザ上で VM のコマンドラインインターフェース(CLI)にアクセスすることが想定されていますが，Azure CLI の機能を使うと，ローカル端末のターミナルからコマンドで接続することが可能です．
+
+1. **2. Bastion の構成**の 2-3 までを進める．
+2. ローカル端末に Azure CLI 機能をインストールする．インストール方法は[コマンドラインインターフェースでリソースを利用する](/research_computing/utokyo_azure/virtualmachine/azcli)を参照．
+3. 上記のリンク先にある**UTokyo Account で事前に認証する**までを実行しておく．
+3. `az network bastion ssh`コマンドを，以下の引数で実行する．
+```
+$ az network bastion ssh \
+    --name [Bastion のリソース名] \
+    --resource-group [Bastion を構成したリソースグループ名] \
+    --target-resource-id [接続先 VM のリソースID]\
+    --auth-type "ssh-key"\
+    --username [ログイン先の username]\
+    --ssh-key [ssh 秘密鍵ファイル名（パス含む）]
+```
+
+例：Windows Powershell ターミナルから実行
+![](img/05_bastion5.png){:.medium.center.border}
+
+### リソースIDの確認方法
+
+Azure Portal で ID を知りたいリソース（この場合は接続先VMのリソース）のページで，画面右上に`JSONビュー`という小さいリンクがあるので，そこをクリックして表示される中にある`id`項目に記載されている．
