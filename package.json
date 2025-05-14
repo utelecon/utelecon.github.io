@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "@astrojs/mdx": "4.0.8",
+    "@astrojs/partytown": "^2.1.4",
     "@astrojs/react": "4.2.0",
     "@astrojs/rss": "^4.0.11",
-    "@astrolib/analytics": "0.6.1",
     "@fontsource-variable/open-sans": "^5.1.1",
     "@fontsource/material-icons": "^5.1.1",
     "@rollup/plugin-yaml": "4.1.2",

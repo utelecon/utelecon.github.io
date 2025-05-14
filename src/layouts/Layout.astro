@@ -1,6 +1,6 @@
 ---
 import { SEO, type Props as SEOProps } from "astro-seo";
-import { GoogleAnalytics } from "@astrolib/analytics";
+import GoogleAnalytics from "./GoogleAnalytics.astro";
 import Header from "./Header/index.astro";
 import Footer from "./Footer/index.astro";
 import Toc from "./Toc.astro";
@@ -128,7 +128,7 @@ const resolvedBreadcrumb =
   <head>
     <SEO {...seoProps} />
 
-    <GoogleAnalytics id={gaid} partytown />
+    <GoogleAnalytics id={gaid} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#157878" />
     <meta

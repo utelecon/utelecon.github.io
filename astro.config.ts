@@ -1,6 +1,7 @@
 import { fileURLToPath } from "node:url";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
+import partytown from "@astrojs/partytown";
 import { defineConfig } from "astro/config";
 import yaml from "@rollup/plugin-yaml";
 import remarkAttributeList from "remark-attribute-list";
@@ -15,6 +16,7 @@ import copyAsset from "./src/lib/CopyAssetIntegration.js";
 import assetFileNames from "./src/lib/AssetFileNames.js";
 import ignoreAssets from "./src/lib/ignoreassets";
 import rehypeRaw from "rehype-raw";
+import remarkImageClasslist from "./src/lib/remark-image-classlist.js";
 
 // https://astro.build/config
 export default defineConfig({
@@ -52,6 +54,7 @@ export default defineConfig({
           allowNoPosition: true,
         },
       ],
+      remarkImageClasslist,
     ],
     remarkRehype: {
       footnoteLabelProperties: { className: ["visually-hidden"] },
@@ -75,6 +78,11 @@ export default defineConfig({
     }),
     cleanup(),
     copyAsset(),
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
     ignoreAssets([
       ".avif",
       ".docx",

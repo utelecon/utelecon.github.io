@@ -8,33 +8,17 @@ slug: utokyo_wifi
 import Apply from "@components/en/systems/utokyo_wifi/Apply.mdx";
 import Connect from "@components/en/systems/utokyo_wifi/Connect.mdx";
 
-import Mfa100 from "./_Mfa100.mdx";
-
-<Mfa100 />
-
 ## About UTokyo Wi-Fi
 
-UTokyo Wi-Fi is a Wi-Fi service available to members of the University of Tokyo (UTokyo) for educational and research purposes. Currently, UTokyo Wi-Fi is available in most locations of the campus, including Hongo, Komaba, Kashiwa, and other campuses. Please refer to the [Before using UTokyo Wi-Fi](#before-to-use) to confirm what you need to know before using UTokyo Wi-Fi.
+UTokyo Wi-Fi is a Wi-Fi service available to members of the University of Tokyo for the purposes of education, research, and other university-related activities. It is currently accessible in most buildings on campus. Please use the service in accordance with the "[Terms of Use for the University of Tokyo Wireless Network System (UTokyo WiFi)](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)"
 
 ## Before using UTokyo Wi-Fi
 {:#before-to-use}
 ### Availabilities
 
 - UTokyo Wi-Fi is available to members of UTokyo (students & faculty and staff members) who have a [UTokyo Account](/en/utokyo_account/).
-　- UTokyo Wi-Fi are unavailable for UTokyo Accounts without Multi-factor authentication. Please refer to the "[Multi-Factor Authentication for UTokyo Accounts](#mfa)" section below for more details.
+  - UTokyo Wi-Fi are unavailable for UTokyo Accounts without Multi-factor authentication. Please refer to the "[Multi-Factor Authentication for UTokyo Accounts](#mfa)" section below for more details.
   - If you have not completed the Information Security Education course, your access may be suspended even if you are a member of UTokyo. Please refer to the "[Information Security Education](#jouhou-security)" section below for more details.
-
-### Caution
-{:#caution-to-use}
-
-1. UTokyo Wi-Fi is available only for the University’s education and research, as well as the business activities stipulated by the National University Corporation Act.
-2. UTokyo Wi-Fi is available to those who have agreed to the "[Terms of Use for the University of Tokyo Wireless Network System (UTokyo WiFi)](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)" and have applied to use the service.
-3. Only the applicant is allowed using UTokyo Wi-Fi. The account must not be lent to others. Please manage your so it will not be abused.
-4. UTokyo Wi-Fi will monitor communications and restrict access to sites supposedly inappropriate to ensure information security.
-5. UTokyo Wi-Fi account will be suspended when "[Terms of Use for the University of Tokyo Wireless Network System (UTokyo WiFi)](https://www.u-tokyo.ac.jp/adm/dics/ja/wifi_termsofuse.html)" are violated. (e.g. failure to attend the Information Security Education specified by the university)
-6. Please deal with a security incident immediately when you receive a notification for it while using UTokyo Wi-Fi.
-7. UTokyo Wi-Fi is provided for those who can set up their own devices by themselves.
-8. UTokyo Wi-Fi usage data may be disclosed to the public for the purposes of the university administration with the statistical process to make individuals not identified.
 
 ### Multi-Factor Authentication for UTokyo Accounts
 {:#mfa}
@@ -43,9 +27,10 @@ You are required to enable multi-factor authentication on your UTokyo Account to
 
  - If you have not enabled multi-factor authentication on your UTokyo Account, your privilege to use the UTokyo Wi-Fi will be suspended. Specifically, you will no longer be able to sign into the UTokyo Wi-Fi Account Menu or create a new account.
 
- - Before using the UTokyo Wi-Fi, you **must** complete the initial setup for Multi-Factor Authentication on your UTokyo Account. Please refer to the "[Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts](/utokyo_account/mfa/initial/))" for specific instructions.
+ - Before using the UTokyo Wi-Fi, you **must** complete the initial setup for Multi-Factor Authentication on your UTokyo Account. Please refer to the "[Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/initial/))" for specific instructions.
 
 ### Information Security Education
+
 {:#jouhou-security}
 
 UTokyo Wi-Fi is only available to users who have completed the Information Security Education. The Information Security Education is held annually for all UTokyo Account holders with the aim of improving [Information Security at UTokyo](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Home.aspx). For details about the timing and the procedure of the course, kindly refer to the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) page.
@@ -59,14 +44,13 @@ UTokyo Wi-Fi is only available to users who have completed the Information Secur
 
 ### Using UTokyo Wi-Fi on Shared Devices
 
-Laptops, smartphones, and tablets can generally connect to UTokyo Wi-Fi. However, other types of electronic devices and older devices may not be able to connect. For example, devices that do not support WPA2-Enterprise cannot be connected. Please check for updates to the OS and drivers of your devices and update them appropriately before connecting to UTokyo Wi-Fi.
-
-Please note that UTokyo Wi-Fi is only available on individuals' own device: **it is prohibited to use UTokyo Wi-Fi on a shared device by more than one person.** Because it allows anyone other than the user who owns a UTokyo Wi-Fi Account to use the service, and it is considered to be lending of an account, which is prohibited by the Terms of Use. However, if the OS user account is set up separately for each individual, and the UTokyo Wi-Fi account can only be used by the person who has obtained it, UTokyo Wi-Fi is able to be used.
+UTokyo Wi-Fi is only available on individuals' own device: **it is prohibited to use UTokyo Wi-Fi on a shared device by more than one person.** Because it allows anyone other than the user who owns a UTokyo Wi-Fi Account to use the service, and it is considered to be lending of an account, which is prohibited by the Terms of Use. However, if the OS user account is set up separately for each individual, and the UTokyo Wi-Fi account can only be used by the person who has obtained it, UTokyo Wi-Fi is able to be used.
 
 ## Steps to start using the service
 {:#initial-setup}
 
 ### Preparation: Apply for a UTokyo Wi-Fi Account
+{:#apply}
 
 In order to use UTokyo Wi-Fi, a UTokyo Wi-Fi account must be issued each academic year. In this “Step 2”, we will explain the procedure for applying for a UTokyo Wi-Fi account.
 
@@ -75,11 +59,24 @@ You can apply for your own account using the “UTokyo Wi-Fi Account Menu”. Th
 <Apply blockLink inlineHelp />
 
 ### Usage: Connect to UTokyo Wi-Fi
+{:#connect}
+
+Follow the steps below to connect to UTokyo Wi-Fi.
 
 <Connect
   applyStep="the above 'Preparation'"
   connectConfiguration={<><a href="#connect-configuration">"Connect Configuration" section</a> below</>}
 />
+
+# Procedure by Device Type
+{:#procedure-by-device-type}
+Additionally, the following pages provide detailed connection instructions for each type of device.
+
+* [Using UTokyo Wi-Fi on Windows 10](/en/utokyo_wifi/windows)
+* [Using UTokyo Wi-Fi on macOS](/en/utokyo_wifi/macos)
+* [Using UTokyo Wi-Fi on Android](/en/utokyo_wifi/android)
+* [Using UTokyo Wi-Fi on iPhone and iPad](/en/utokyo_wifi/ios)
+{:.cards}
 
 ### Connect Configuration
 {:#connect-configuration}
@@ -113,8 +110,8 @@ You can apply for your own account using the “UTokyo Wi-Fi Account Menu”. Th
 </table>
 
 ## Information on usage
-
 ### Account expiration date
+
 {:#expiration}
 
 UTokyo Wi-Fi accounts expire at the early May of the following academic year. New accounts can be issued before the start of each academic year, so if you wish to continue using the service, you must reissue an account each academic year. For details on how to reissue an account, please refer to the "[Procedure for reissuing or re-setting up your account](#reissue-account)".
@@ -139,7 +136,7 @@ In some cases, a previously used UTokyo Wi-Fi account may become invalid for som
 1. Re-issue an account from the UTokyo Wi-Fi Account Menu according to step 2 of the "[Steps to start using the service](#initial-setup)".
     - If the error message "申し訳ありませんが、サインイン中に問題が発生しました。" or "Sorry, but we're having trouble signing you in." appears, please take the "[Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx)" and pass the confirmation test. To pass the confirmation test, you must answer all questions correctly.
 2. Follow step 3 of "[Steps to start using the service](#initial-setup)" to re-set up your account on the device.
-    - In some cases, the device may store your previous UTokyo Wi-Fi account information and not allow you to change it (i.e., the screen for entering a new user ID and password does not appear). In this case, please delete the UTokyo Wi-Fi account information. The specific procedure for deleting the information varies depending on the operating system and type of device, so refer to the manual of the respective device.
+    - In some cases, the device may store your previous UTokyo Wi-Fi account information and not allow you to change it (i.e., the screen for entering a new user ID and password does not appear). In this case, please delete the UTokyo Wi-Fi account information. The specific procedure for deleting the information varies depending on the operating system and type of device, so refer to [the manual of the respective device](#procedure-by-device-type).
 
 ### Security measure
 
@@ -157,6 +154,7 @@ The network of UTokyo, including UTokyo Wi-Fi, is secured by UTokyo Campuswide F
 - Please note that UTokyo Wi-Fi may become temporarily unavailable in certain locations or throughout the campus due to trouble. We apologize for any inconvenience, and we will make efforts to deal with the problem quickly.
 - In addition to UTokyo Wi-Fi, UTokyo has other wireless LAN services that are available on campus. If you're a member of the UTokyo, please refer to the [Wireless LAN Services for the Members of the University of Tokyo](/en/systems/wlan) page. If you're from outside the university, consult the [Wireless LAN Service at the University of Tokyo](https://www.u-tokyo.ac.jp/adm/dics/ja/wlan.html) page for proper use.
   - Using your UTokyo Wi-Fi account's User ID and password, you can connect to the [eduroam](https://eduroam.jp/en) wireless LAN service, which allows mutual use across various universities and research institutions. For details, see the [eduroam section on the Wireless LAN Services for the Members of the University of Tokyo page](/en/systems/wlan#eduroam).
+- In some classrooms and conference rooms, wired ports that can be accessed with a UTokyo Wi-Fi account are provided (primarily for faculty and staff). For more details, please refer to "[About the Wired Connection Service in Classrooms](/utokyo_wifi/wired_lan)(in Japanese)" 
 - If you are in charge of a network of your department,  please also refer to [the Information on UTokyo Portal](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyo_WiFi_Management.aspx).
 
 ## Troubleshooting and Inquiries
@@ -171,5 +169,7 @@ If you still have trouble, please contact **[Technical Support Desk](/en/support
 
 - We receive many inquiries. In most cases, it is difficult to respond immediately.
 - We cannot always provide support for a specific model because it is impractical to possess and test all types of equipment. Please consider contacting the distributor or manufacturer.
+
+If you find yourself in a situation where you are consistently (or frequently) unable to connect only at a specific location, you can also contact the person in charge of managing the facility. For contact information, please check the "[Departmental Contact for UTokyo Wi-Fi](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/utokyo_wifi_department_contact.aspx)" page (UTokyo Account sign-in required).
 
 [ECCS Tutors](https://www.sodan.ecc.u-tokyo.ac.jp/en/about-us-en/tutors-working/), the student staff, are located at several places on campus and available for face-to-face, in-person consultation.
