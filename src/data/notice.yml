@@ -13,6 +13,11 @@
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
 -
+   date: 2025-05-14
+   content:
+    ja: "[UTOLにおけるLINE更新通知機能の変更について（2025年3月・4月）](/notice/2025/0514-utol-notification-line/)"
+    en: "[Changes in LINE update notification function on UTOL (in March and April 2025)](/en/notice/2025/0514-utol-notification-line/)"
+-
    date: 2025-04-01
    content:
     ja: "[UTOLにおける時間割表とコーストップ画面の変更について](/notice/2025/0401-utol-change/)"
