@@ -1,0 +1,44 @@
+---
+title: "UTokyo Account で仮想マシンに ssh ログインする"
+breadcrumb:
+  title: "UTokyo Account で仮想マシンにログイン"
+---
+
+## 概要
+
+Azure 仮想マシンへのログインには，予め設定をすることによって UTokyo Account を使って ssh ログインすることもできます．
+
+## １. Azure Cli をインストール
+
+仮想マシンへは Azure Cli を使ってアクセスします．なので予め仮想マシンにアクセスする端末等の環境に Azure Cli をインストールしてください．
+- [コマンドラインインターフェースでリソースを利用する](/research_computing/utokyo_azure/virtualmachine/azcli)
+- UTokyo Account による認証はこの後で行いますが，このタイミングで事前に行っていてもかまいません．
+
+## ２．仮想マシンを構成する
+
+[Virtual Machines : UTokyo Azure 利用例](/research_computing/utokyo_azure/virtualmachine/)とほぼ同じ手順で仮想マシンを作成します．一か所だけ，管理パートで`Microsoft Entra ID でログイン`にチェックを入れる必要がありますので，忘れずにチェックを入れてください． 
+
+![](img/01_entraidlogin1.png){:.medium.center.border}
+
+## ３．仮想マシンにログインする
+
+- Azure Cli でまだ UTokyo Acount の認証が済んでいない場合はここでご自身の Azure Cli をインストールしたローカル環境で`az login`コマンドを実行し，UTokyo Account で認証を行ってください．
+- 認証手順の詳細は、[コマンドラインインターフェースでリソースを利用する](/research_computing/utokyo_azure/virtualmachine/azcli)の**UTokyo Account で事前に認証する**を参照ください．
+
+準備が整ったら，以下の Azure Cli コマンドを実行してください．
+
+`az ssh vm -n [仮想マシンのリソース名] -g [仮想マシンリソースがあるリソースグループ名]`
+
+問題なければ、以下の図のようにログインができます．
+
+![](img/02_entraidlogin.png){:.medium.center.border}
+
+
+## 補足
+
+- az コマンドを利用していますが，仮想マシンにはグローバルIPへ ssh プロトコルでアクセスします．少なくとも仮想マシンにはローカル環境からの ssh アクセスが許可されている必要があります．
+- 仮想マシンの作成時に設定したアカウント（変更していなければ`azureuser`）は利用されず，以下のステータスのアカウントが作成されます．
+  - アカウント名：[UTokyo Account](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/)の@以降を含めた文字列
+  - グループ名：アカウント名と同じ
+  - ホームディレクトリ：/home/[10桁の共通ID]
+- 今後初期アカウントを利用しない場合は，初期アカウントを`deluser`コマンドで削除してください．
