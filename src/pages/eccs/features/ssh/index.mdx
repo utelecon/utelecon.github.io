@@ -73,7 +73,7 @@ PuTTYGenで鍵ペアを生成する際にその場で表示される公開鍵は
 公開鍵は，Mac環境のホームディレクトリ内の`~/.ssh/authorized_keys`に配置する必要があります．ここでは，ECCSポータルの「公開鍵アップロード」を利用する方法を説明します．WebDAV等を利用して，公開鍵を登録することもできます．
 
 1. [ECCSポータル](https://portal.ecc.u-tokyo.ac.jp/)にアクセスしてください．
-2. UTokyo Accountの共通IDとパスワードを入力してください．
+2. 共通ID（UTokyo Accountの先頭10桁の数字のみの部分）とパスワードを入力してください．
    ![](eccs-portal-login.jpg){:.border}{:.medium}
 3. 「Upload your SSH public key」もしくは「SSHサーバ公開鍵アップロード」を選択してください．
    ![](eccs-portal-menu.jpg){:.border}{:.medium}
@@ -85,7 +85,7 @@ PuTTYGenで鍵ペアを生成する際にその場で表示される公開鍵は
 SSHクライアントを利用して，SSHサーバへ接続します．ここでは，OpenSSHクライアントを利用する方法を説明しますが，その他のSSHクライアントも利用できます．SSHサーバは複数の利用者で共有して利用しますので，後述する方法で利用者の少ないサーバを選ぶようにしてください．
 
 1. Macの場合はターミナルを，Windowsの場合はコマンドプロンプトまたはPowerShellをを起動してください．
-2. UTokyo Accountの共通IDと接続するSSHサーバのホスト名を指定した以下のコマンドを実行してください．
+2. 共通ID（UTokyo Accountの先頭10桁の数字のみの部分）と接続するSSHサーバのホスト名を指定した以下のコマンドを実行してください．
    - `ssh01.ecc.u-tokyo.ac.jp`に接続する場合
 
      `ssh 0123456789@ssh01.ecc.u-tokyo.ac.jp`
