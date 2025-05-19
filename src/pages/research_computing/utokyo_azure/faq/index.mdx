@@ -8,7 +8,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 ## FAQ
 
-### サービス全般
+### UTokyo Azure 全般
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">どのような目的で利用が可能でしょうか</Fragment>
@@ -122,4 +122,26 @@ import HelpItem from "@components/utils/HelpItem.astro";
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">管理ページでの金額表示が米ドルなのですが</Fragment>
   <Fragment slot="solution">Microsoft のギフトクレジットの取り扱い仕様により米ドルで管理されるため表示も米ドルになります．申請者へ超過分の請求が発生した場合は，財務会計システムによってその時の変換レートで変換され日本円で請求されます．</Fragment>
+</HelpItem>
+
+### サービス
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">AIやVMサービスで使いたいGPU等が選択できない</Fragment>
+  <Fragment slot="solution"><p>リージョンごとに，用意されている資源に違いがあります．以下のページから使いたいGPU等がそのリージョンに準備されているかどうかご確認ください．他のリージョンにある場合は，そのリージョンでリソースを再構築してください．</p><p>以下のページは Azure の全ての資源について記載されていますので，仮想マシン資源を確認したい場合は Product で Virtual Machine の項を参照してください．</p><ul><li>[Product Availability by Region](https://azure.microsoft.com/ja-JP/explore/global-infrastructure/products-by-region/table)</li></ul></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">AIやVMサービスで使いたいGPU等はあるが，使える数が少ないかゼロと表示されて使えない</Fragment>
+  <Fragment slot="solution"><p>Azure で利用できる資源は，初期状態では利用できる上限値（クォータ）が少な目に設定されています．利用できる量を増やしたい場合は，Microsoftの担当者にクォータ増量の申請をリクエストしてください．</p><p>仮想マシン資源のクォータ申請方法は以下のリンクを参照ください．</p><ul><li>[クォータの管理](/research_computing/utokyo_azure/ai/quota)</li></ul></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">利用したいサービスを使うと，どのくらいギフトクレジットを消費するのか予め確認したい</Fragment>
+  <Fragment slot="solution">Microsoft Azure に[料金計算ツール](/research_computing/utokyo_azure/support/calculator)が用意されていますので，こちらをご活用ください．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">想定していたよりギフトクレジットの使用料が多く，原因を調べて対応したい</Fragment>
+  <Fragment slot="solution"><p>[UTokyo Azure 新規申請ページの管理画面](https://azure.itc.u-tokyo.ac.jp/list)の一番下に，使用料の内訳詳細が表になっていますので，こちらから各リソースが日毎に消費した使用料が確認いただけます．</p><p>Cost の項で降順にすると，使用料の多い内訳が上に来ますので，そのリソースについて想定通りに設定されているか等を確認ください．</p></Fragment>
 </HelpItem>
