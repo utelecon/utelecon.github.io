@@ -3,6 +3,27 @@ title: Changes in LINE update notification function on UTOL (in March and April 
 toc: false
 ---
 
-import InPreparation from "@components/en/InPreparation.mdx";
+<div style="text-align: right;">Original Japanese text created: May 14, 2025</div>
+<div style="text-align: right;">Original Japanese text last updated: May 14, 2025</div>
+<div style="text-align: right;">English translation: May 20, 2025</div>
+<div style="text-align: right;">Information Technology Center</div>
 
-<InPreparation />
+## Overview
+Some changes were made to the function to receive notifications via LINE about updates to assignments and course materials in the Learning Management System UTOL (UTokyo LMS) – hereafter referred to as the “LINE update notification function” – in March and April 2025. Furthermore, the LINE update notification function was unavailable for an extended period from mid- to end of April 2025. We sincerely apologize for any inconvenience that this may have caused.
+
+## Changes
+### Discontinuation of advertisement display
+Since Tuesday, March 25, the LINE update notification function has been operated using the [Messaging API](https://developers.line.biz/en/services/messaging-api/), a paid service provided by LY Corporation. Adverts were sometimes displayed when receiving notifications via LINE with the LINE Notify system that was used previously. However, as of May 2025 - about one month after switching to the Messaging API - adverts are no longer displayed.
+
+Please note that in providing all its services, including the communication app LINE, LY Corporation may collect various user information under its [privacy policy](https://www.lycorp.co.jp/en/company/privacypolicy/) and use it for advertising purposes. Due to these circumstances, adverts may still be displayed in the future. If you have any concerns about the LINE update notification function, please notify the Information Technology Center via [the utelecon support desk](/en/support/).
+
+### The target of the “Instant Transfer” setting is now limited to messages and notifications only
+Considering the operational cost of the LINE Messaging API relative to the overall cost of running UTOL, as well as the urgency of update information such as assignments and notifications, we have limited the targets of the “Instant Transfer” setting for LINE update notifications to message notifications and information only, effective of Wednesday, April 30.
+
+When this change was implemented, users who had set the notification frequency for content other than messages and notifications to “Instant Transfer” were collectively switched to the “Redirecting all information once a day” setting.
+There were no changes to the “Information and Message Notifications” feature, which delivers the full text of information and messages.
+
+## Note
+The settings of the LINE update notification function may be changed in the future depending on its operation. We appreciate your understanding and cooperation.
+
+In addition to the LINE update notification function, you can also receive update notifications via email or UTokyo Slack. For more details, please refer to “[Setting up notifications in UTOL](/en/utol/notification/)”.
