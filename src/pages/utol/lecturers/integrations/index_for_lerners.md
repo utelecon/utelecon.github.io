@@ -12,4 +12,10 @@ UTOLはLTIという規格によりSlackやZoom等の外部ツールと連携す�
 なお，LINEやSlackを経由した通知は，「[UTOLからの通知を設定する](https://utelecon.adm.u-tokyo.ac.jp/utol/notification/)」を参照してください．
 
 # **外部ツールの利用方法**
-コーストップ画面で、外部連携のところに表示されているサービスが利用可能です。詳細は以下に添付する各ページを確認してください。
+コーストップ画面で、外部連携のところに表示されているサービスが利用可能です。詳細は以下に添付する各ページを参照してください。
+- Zoom：詳しくは「[LTI連携機能でUTOLからのZoomミーティングを利用する](https://utelecon.adm.u-tokyo.ac.jp/utol/lecturers/integrations/zoom/)」を参照してください．
+
+- Slack：詳しくは「Slack連携機能でUTOLからUTokyo Slackのワークスペースを利用する（準備中）」を参照してください．
+
+- MATLAB Grader：詳しくは「UTOLからMATLAB Graderを利用する（準備中）」を参照してください．
+
