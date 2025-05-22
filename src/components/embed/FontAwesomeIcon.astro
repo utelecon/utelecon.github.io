@@ -23,10 +23,10 @@ function isIconDefinition(
 interface Props {
   icon: FontAwesomeIconProps["icon"];
   class?: string;
-  svgProps: Omit<FontAwesomeIconProps, "icon">;
+  svgProps?: Omit<FontAwesomeIconProps, "icon">;
 }
 
-const { class: className, icon, svgProps } = Astro.props;
+const { class: className, icon, svgProps = {} } = Astro.props;
 
 const props = {
   ...svgProps,
