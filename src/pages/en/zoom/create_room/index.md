@@ -163,7 +163,7 @@ The settings for these features can be accessed by selecting the "Meeting" tab f
   * For more details, please refer to “[Host and Co-host Controls in a Zoom Meeting](/en/zoom/misc/management_roles/)”.
 * Meeting Polls / Quizzes
   * This is a useful feature for collecting responses to questions from all participants during the meeting. It is recommended to leave it enabled unless there is a specific reason to disable it.
-  * For more details, please refer to "[Zoom's Polling Feature (in Japanese)](/zoom/usage/poll/)".
+  * For more details, please refer to "[Polls in Zoom](/en/zoom/usage/poll/)".
 * Screen Sharing
   * This feature allows you to share the content displayed on your screen with participants during the meeting.
   * When this option is enabled, you can further specify who is allowed to share their screen (whether only the host can share, or if participants other than the host can also share their screen).

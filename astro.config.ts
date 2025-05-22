@@ -1,6 +1,7 @@
 import { fileURLToPath } from "node:url";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
+import partytown from "@astrojs/partytown";
 import { defineConfig } from "astro/config";
 import yaml from "@rollup/plugin-yaml";
 import remarkAttributeList from "remark-attribute-list";
@@ -76,6 +77,11 @@ export default defineConfig({
     }),
     cleanup(),
     copyAsset(),
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
   ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
 });
