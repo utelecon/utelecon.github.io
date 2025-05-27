@@ -79,7 +79,7 @@ author:
       <li>「公表」する場合に「法人等の著作名義」で公表されるものであること</li>
       <li>「契約や就業規則」に「職員を著作者とする」という定めがないこと</li>
     </ol>
-    （[文化庁「著作権テキスト」11頁](https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf)）
+    （<a href="https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf">文化庁「著作権テキスト」11頁</a> ）
 
 職務著作が認められる場合，次項で後述する著作者の権利は，使用者である法人などに最初から帰属することになります．
 

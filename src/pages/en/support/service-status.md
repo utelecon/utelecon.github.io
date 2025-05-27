@@ -1,29 +1,26 @@
 ---
-title: List of Information on System Operation Status (Service Alerts, etc.)
+title: Information on the Service Status of Cloud Services
+toc: false
 ---
 
-The following is a list of pages that provide information on the operation status (service alerts, etc.) of the main information systems operated or contracted by the University of Tokyo.
+If you are unable to use cloud services provided by external providers, please refer to the information on the service status provided from each provider, as well as the information on failures and maintenance provided by the University for users.
 
-* UTokyo Account
-  * [UTokyo Account page](https://www.u-tokyo.ac.jp/adm/dics/ja/account.html)
-* ITC-LMS and ECCS terminals
-  * [News](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html)
-  * [Service Alert](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html#maintenance)
-* Zoom
-  * [Zoom Service Status](https://status.zoom.us/)
-  * [Zoom Release Notes](https://support.zoom.us/hc/en-us/sections/201214205-Release-Notes)
-* Webex
-  * [Webex Service Status](https://status.webex.com/service/status?lang=en_US)
-  * [What’s New](https://help.webex.com/en-us/xcwws1/What-s-New-for-the-Latest-Channel-of-Webex-Meetings)
-* ECCS Cloud Email (Google Workspace)
-  * [Google Workspace Status Dashboard](https://www.google.co.jp/appsstatus/dashboard/) (in Japanese)
-  * [ECCS News](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html)
-  * [ECCS Service Alert](https://www.ecc.u-tokyo.ac.jp/en/announcement/categorized.html#maintenance)
-* UTokyo Microsoft License
-  * [Service Status](https://portal.office.com/servicestatus)
-* UTokyo Wi-Fi
-  * [UTokyo Wi-Fi page](/en/utokyo_wifi/)
-* UTNET（On-campus network including UTokyo Wi-Fi）
-  * [Notification](https://www.nc.u-tokyo.ac.jp/infoall) (in Japanese)
+Below are the main service status pages.
 
-Information from “[Downdetector](https://downdetector.com/)”, a service that notifies you of possible failures based on SNS posts, may also help determine whether or not there are problems with systems provided by external organizations such as Zoom, Webex, ECCS Cloud Email (Google Workspace), and UTokyo Microsoft License. (Please note that this is not official information from the provider of each system.)
+- **Zoom**: [Zoom Service Status](https://status.zoom.us/)
+- **Webex**: [Webex Global Service Status](https://status.webex.com/)
+- **ECCS Cloud Email (Google Workspace)**: [Google Workspace Status Dashboard](https://www.google.com/appsstatus/dashboard/)
+- **UTokyo Microsoft License**: [Service health](https://portal.office.com/servicestatus)
+- **Slido**: [Slido Status](https://status.slido.com/)
+- **UTokyo Slack**: [Slack System Status](https://slack-status.com/)
+- **EZproxy・OPAC**: [Failure information on databases, e-journals, OPAC, etc.](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/servicestatus)
+
+Information from “[Downdetector](https://downdetector.com/),” a service that notifies you of possible failures based on SNS posts, may also help determine whether or not there are problems with systems provided by external organizations such as Zoom, Webex, ECCS Cloud Email (Google Workspace), and UTokyo Microsoft License. (Please note that this is not official information from the provider of each system.)
+
+## Supplementary Information
+
+Information on failures and maintenance provided by the University of Tokyo is posted on the following page. To access this page, you must sign in with your [UTokyo Account](/en/utokyo_account).
+
+<b class="box--important center">["System Failures and Maintenance Information"](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/service-status.aspx)</b>
+
+Also, the University of Tokyo’s network connects to the Internet via the academic information network “SINET,” which is operated and maintained by the National Institute of Informatics. Please also refer to the [SINET Announcements](https://www.sinet.ad.jp/announce) (in japanese) as the university’s systems and network may be affected by SINET failures or maintenance.

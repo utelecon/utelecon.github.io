@@ -1,6 +1,5 @@
 ---
-import notices from "@data/notice.yml";
-import type { Notice } from "@data/schemas/notice";
+import { getISODateString, noticesWithId } from "@data/utils/notices";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
 
@@ -17,37 +16,44 @@ import type { Lang } from "@components/types";
 export interface Props {
   lang: Lang;
   strip?: boolean;
+  localize?: boolean;
 }
 
 interface NoticeContent {
   date: Date;
   content: string;
+  id: string;
 }
 
-const { lang, strip } = Astro.props;
+const { lang, strip, localize } = Astro.props;
 
 const contents: NoticeContent[] = [];
 
-for (const notice of notices) {
+for (const notice of noticesWithId) {
   const content = notice.content[lang] ?? notice.content.ja;
   if (!content) continue;
 
   if (!strip || contents.length < (notice.important ? 12 : 8)) {
-    contents.push({ date: notice.date, content });
+    contents.push({ date: notice.date, content, id: notice.id });
   }
 }
 ---
 
-<ul>
+<ul class:list={["date_list", {localized: localize}]}>
   {
-    contents.map(({ date, content }) => (
-      <li>
-        <span class="date">{date.toISOString().split("T")[0]}</span>
-        <Markdown content={content} />
+    contents.map(({ date, content, id }) => (
+      <li id={id}>
+        <span class="date">{localize ? date.toLocaleDateString(lang, {dateStyle: "long"}) : date.toISOString().split("T")[0]}</span>
+        <span class="title"><Markdown content={content} /></span>
       </li>
     ))
   }
 </ul>
+
+<script>
+  const target = document.getElementById(location.hash.slice(1));
+  if (target) target.classList.add("listitem-highlight");
+</script>
 
 <style lang="scss">
   @import "@styles/color.scss";
@@ -57,5 +63,13 @@ for (const notice of notices) {
     width: 6rem;
     color: $heading-color;
     margin-right: 5px;
+  }
+
+  .date_list.localized .date {
+    width: auto;
+  }
+
+  .listitem-highlight {
+    background-color: yellow;
   }
 </style>

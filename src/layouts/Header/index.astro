@@ -13,17 +13,18 @@ const { lang, canonicalUrl, top = false } = Astro.props;
 
 const localization = {
   ja: {
-    title: "オンライン授業・Web会議ポータルサイト @ 東京大学",
+    title: "情報システムの総合案内サイト @ 東京大学",
     top: "TOP",
     about: "About",
     theOtherLang: "English",
+    theOtherLangNavigation: "English version is here",
   },
   en: {
-    title:
-      "Online Class / Web Conference Portal Site @ the University of Tokyo",
+    title: "The Portal Site of Information Systems @ UTokyo",
     top: "TOP",
     about: "About",
     theOtherLang: "日本語",
+    theOtherLangNavigation: "日本語はここから",
   },
 }[lang];
 
@@ -68,14 +69,20 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   </div>
   <div class="hamburger-contents">
     <div class="links">
+      <a id="changeLangLink" href={theOtherLangUrl}
+        >{localization.theOtherLang}</a
+      >
       <Search />
       <div>
         <a href={urls.top}>{localization.top}</a> | <a href={urls.about}
           >{localization.about}</a
-        > | <a href={theOtherLangUrl}>{localization.theOtherLang}</a>
+        >
       </div>
     </div>
     <Navigation lang={lang} />
+  </div>
+  <div id="changeLangNavigation">
+    <a href={theOtherLangUrl}>{localization.theOtherLangNavigation}</a>
   </div>
 </header>
 
@@ -86,6 +93,24 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   button.addEventListener("click", () => {
     header.classList.toggle("header--hamburger-open");
   });
+
+  // ブラウザの言語設定とページの言語が一致する場合は言語ナビゲーションを表示しない
+  const browserLang = (
+    (navigator.languages && navigator.languages[0]) ||
+    navigator.language ||
+    navigator.userLanguage
+  )
+    .toLowerCase()
+    .substring(0, 2);
+
+  const pageLang = (document.documentElement.lang || "")
+    .toLowerCase()
+    .substring(0, 2);
+
+  if (browserLang == pageLang || (pageLang == "en" && browserLang != "ja")) {
+    const changeLangNavigation = document.getElementById("changeLangNavigation");
+    changeLangNavigation.style.display = "none";
+  }
 </script>
 
 <style lang="scss">
@@ -111,6 +136,9 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   .hamburger-contents {
     display: contents;
   }
+  #changeLangNavigation {
+    display: none;
+  }
   @media (max-width: $header-hamburger-breakpoint) {
     header.header {
       display: flex;
@@ -133,12 +161,15 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
       position: fixed;
       width: 100%;
       height: 100%;
-      z-index: 1;
+      z-index: 3;
       .hamburger-contents {
         display: block;
         flex: auto;
         overflow-y: scroll;
       }
+    }
+    #changeLangNavigation {
+      display: block;
     }
   }
 
@@ -151,13 +182,13 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
     );
   }
   header.header {
+    @include background;
     color: white;
     :link,
     :visited {
       color: white;
       text-decoration: none;
     }
-    @include background;
   }
   @media (max-width: $header-hamburger-breakpoint) {
     .primary {
@@ -213,11 +244,11 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   }
 
   .title {
+    font-weight: normal;
     margin: 0.5rem 2rem 0.25rem 2rem;
     @media (max-width: $header-hamburger-breakpoint) {
       margin: 0.5rem 1rem 0.5rem 0;
     }
-    font-weight: normal;
     &__link {
       display: block;
     }
@@ -248,6 +279,52 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
       flex-direction: column;
       row-gap: 1em;
       padding: 1em;
+    }
+  }
+
+  #changeLangNavigation {
+    text-align: center;
+    background-color: $header-nav-bg-color;
+    color: white;
+    a {
+      display: inline-block;
+      width: 100%;
+      &::after {
+        content: "keyboard_double_arrow_right";
+        font-family: "Material Icons";
+        font-weight: 200;
+        vertical-align: middle;
+      }
+    }
+  }
+  #changeLangLink {
+    display: inline-block;
+    background-color: $header-nav-bg-color;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 0.25rem 0.5rem;
+    margin: 0 1em;
+  }
+
+  @media print {
+    header.header {
+      background-color: inherit;
+      background-image: none;
+    }
+    .hamburger-button,
+    .hamburger-contents {
+      display: none;
+    }
+    .links {
+      display: none;
+    }
+    .title span {
+      &:nth-child(1) {
+        color: $header-background-color-secondary;
+      }
+      &:nth-child(2) {
+        color: $header-background-color-primary;
+      }
     }
   }
 </style>

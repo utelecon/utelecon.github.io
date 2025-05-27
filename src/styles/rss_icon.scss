@@ -1,0 +1,28 @@
+@import "color";
+
+:is(h1, h2, h3, h4):has(.rss_icon) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .rss_icon {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    color: $heading-color;
+    font-family: "Material Icons";
+    font-size: 1.125em;
+    text-decoration: none;
+    line-height: 0.8;
+    &:hover {
+      text-decoration: none;
+    }
+    &::after {
+      display: inline-block;
+      font-size: 0.3em;
+      content: "RSS";
+      font-family: "Open Sans Variable", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    }
+  }
+}

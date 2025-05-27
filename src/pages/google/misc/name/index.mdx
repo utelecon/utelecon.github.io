@@ -1,0 +1,58 @@
+---
+title: ECCSクラウドメールで姓・名を変更する
+breadcrumb:
+  title: 姓名の変更
+---
+
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
+## 概要
+{:#overview}
+
+- ECCSクラウドメールのアカウントにおける「プロフィールの姓名」は，システムからの自動連携で作成されていますが，自分で変更することができます．
+- 一部のシステムでは，プロフィールの姓名ではなく，[「システム管理上の姓名」が表示されてしまうケース](#system-name-issue)があります．なお，「システム管理上の姓名」をユーザが変更することはできません．
+
+## プロフィールの姓・名を変更する手順
+{:#edit-name}
+
+1. ブラウザで，[ECCSクラウドメールにログイン](/google/#login)してください．
+2. 右上のアイコンをクリックしてメニューを開き，「Googleアカウントを管理」をクリックしてください．
+   ![](./open-setting.png){:.small .border}
+3. 「個人情報」タブを開いてください．
+   <figure class="gallery">![](./settings-personal-info.png){:.small .border}![](./settings-personal-info-2.png){:.small .border}</figure>
+4. 「基本情報」欄内にある「名前」をクリックしてください．
+   ![](./settings-profile.png){:.small .border}
+5. 名前（姓・名）を入力して，「保存」をクリックしてください．
+   ![](./input-name.png){:.small .border}
+
+## 「プロフィールの姓名」と「システム管理上の姓名」について
+{:#profile-and-system-name}
+
+ECCSクラウドメールのアカウントでは，利用者が変更できる「プロフィールの姓名」と，予めシステムの処理により登録されている「システム管理上の姓名」の2つの姓名があります．
+
+### プロフィールの姓名
+{:#profile-name}
+
+- Google Chatを利用する際や，ファイルやGoogleカレンダーの共有を行う場合に，相手に通知される姓名です．
+- 利用者自身で[変更する](#edit-name)ことができます．
+
+### システム管理上の姓名
+{:#system-name}
+
+- ECCSクラウドメールのユーザを作成する際，システムの一連の処理の中で自動的に設定される姓名です.
+- 利用者側の操作により，姓名を変更することはできません.
+
+#### システム管理上の姓名が表示されるケースについて
+{:#system-name-issue}
+
+一部のシステムを使用する際，表示される姓名が見覚えのない「システム管理上の姓名」になってしまうケースの存在が確認されています．
+
+2022年5月の時点では，Google Chatでのみ，このような問題が確認されています．Google Chatの場合，自分の画面では「システム管理上の姓名」が表示されますが，相手の画面では「プロフィールの姓名」が表示されます．自分の画面と相手の画面で表示される姓名が異なるため紛らわしいですが，想定された挙動ですので，ご理解ください.
+
+![](./chat-system-name.png)
+
+## 参考ページ
+
+- [Googleアカウントヘルプ：Google アカウントの写真や名前などの情報を変更するにはどうすればよいですか？](https://support.google.com/accounts/answer/27442?hl=ja)

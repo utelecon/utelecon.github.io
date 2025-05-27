@@ -24,6 +24,10 @@ img.small {
   max-height: 30rem;
 }
 
+img.height70 {
+  height: 70px;
+}
+
 img.extra-small {
   max-width: 15rem; /* for IE11 */
   max-width: min(100%, 15rem);
@@ -50,6 +54,11 @@ img.border {
   & + img.border {
     margin-top: 0.5em;
   }
+}
+
+img.thin-border {
+  @extend .border;
+  border-color: color-mix(in srgb, currentcolor 50%, transparent);
 }
 
 img.shadow {

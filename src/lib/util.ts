@@ -1,11 +1,17 @@
-import fs from "fs/promises";
-import { join } from "path";
+import { fileURLToPath } from "node:url";
+import { join } from "node:path";
+import { parse as parsePath } from "path";
 
-export async function* walk(path: string): AsyncGenerator<string> {
-  const entries = await fs.readdir(path, { withFileTypes: true });
-  for (const entry of entries) {
-    const entryPath = join(path, entry.name);
-    if (entry.isDirectory()) yield* walk(entryPath);
-    else if (entry.isFile()) yield entryPath;
+export function getDistFilePath(dir: URL, pathname: string, component: string) {
+  const base = fileURLToPath(dir);
+  
+  if (pathname === "/404") {
+    return join(base, "404.html");
   }
+
+  if (parsePath(component).name === "index") {
+    return join(base, pathname, "index.html");
+  }
+
+  return join(base, pathname + ".html");
 }

@@ -10,7 +10,7 @@ filters:
   keywords: []
 componentProps:
   title: "白石忠志 先生の授業: 法Ⅰ（教養学部 前期課程 約400名）"
-  point: "授業資料を Scrapbox で公開 海外の方も含めた学外ゲストの登壇"
+  point: "授業資料を Scrapbox（現：Cosense）で公開 海外の方も含めた学外ゲストの登壇"
   tools: "ITC-LMS, Scrapbox, Zoom, Mixlr, TwitCasting, YouTube, GoodNotes 5, Google Forms, Slack"
 ---
 
@@ -26,7 +26,7 @@ componentProps:
 利用したツール　:
 
 - ITC-LMS：学習管理システム（受講生全員が利用できるため、資料の配布手段の一つとして利用）
-- Scrapbox：文書共有サービス（一般に公開できるレジュメや授業内容のノート、受講生からの質問への返答に利用）
+- Scrapbox（現：Cosense）：文書共有サービス（一般に公開できるレジュメや授業内容のノート、受講生からの質問への返答に利用）
 - Zoom：Web 会議システム（画面共有を用いたリアルタイムの授業を行うために利用）
 - Mixlr：音声配信サービス（音声のみでのリアルタイムの授業を行うために利用）
 - TwitCasting：音声配信サービス（音声のみでのリアルタイムの授業を行うために利用）

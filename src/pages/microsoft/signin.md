@@ -6,18 +6,16 @@ redirect_from:
   - /faq/msaccount-troubleshooting
 ---
 
-[UTokyo Microsoft Licenseのページのトップに戻る](.)
-
 ## はじめに
 {:#about}
 
 このページでは，UTokyo Accountを用いてMicrosoftの提供するシステムにサインインする方法を説明します．
 
-東京大学では，UTokyo AccountでMicrosoftのシステムを利用することができる[UTokyo Microsoft License](/microsoft/)が提供されています．UTokyo AccountでMicrosoftのシステムを利用する際にサインインを要求する画面が表示された場合には，以下の「**[Microsoftのシステムにサインインする](#instruction)**」で説明する手順に従ってMicrosoftのシステムにサインインしてください．
+東京大学では，UTokyo AccountでMicrosoftのシステムを利用することができる[UTokyo Microsoft License](./)が提供されています．UTokyo AccountでMicrosoftのシステムを利用する際にサインインを要求する画面が表示された場合には，以下の「**[Microsoftのシステムにサインインする](#instruction)**」で説明する手順に従ってMicrosoftのシステムにサインインしてください．
 
 また，UTokyo Accountではない別のMicrosoftアカウントですでにサインインをしていて，UTokyo Accountでの利用に切り替えたい場合は，「[別のMicrosoftアカウントでサインインしている場合にUTokyo Accountでの利用に切り替える](#switch_accounts)」を参照してください．これに関連して，同じブラウザで複数のMicrosoftアカウントを並行して利用する際に推奨される方法を「[一つのブラウザで複数のMicrosoftアカウントを使いわける](#multiple_accounts)」で説明しています．学生用と教職員用とで2つのUTokyo Accountをお持ちの方や，個人や他組織のMicrosoftアカウントと併用して利用したい方などはこちらもお読みください．
 
-なお，UTokyo Microsoft Licenseについての全般的な説明や，利用可能なシステムの詳細は「[UTokyo Microsoft License](/microsoft/)」に記載されています．あわせて参照してください．
+なお，UTokyo Microsoft Licenseについての全般的な説明や，利用可能なシステムの詳細は「[UTokyo Microsoft License](./)」に記載されています．あわせて参照してください．
 
 ## Microsoftのシステムにサインインする
 {:#instruction}
@@ -81,7 +79,7 @@ Microsoftアカウントごとに異なるブラウザを使用することで�
 
 シークレットブラウジングとは，ブラウザに閲覧履歴やサインイン情報などの情報を記憶させずにブラウザを利用することができる機能のことです．シークレットブラウジング機能を利用している間は，情報が記憶されないだけでなく，普段そのブラウザを利用している際に記憶された情報の影響を受けません．すなわち，シークレットブラウジングにおいては，ブラウザに記憶されたサインイン情報の影響を受けずにWebページを閲覧することができます．したがって，シークレットブラウジング機能を用いてMicrosoftアカウントにサインインすれば，普段サインインしている別のMicrosoftアカウントの影響を受けずにMicrosoftのシステムを利用することができます．
 
-なお，シークレットブラウジングを利用する方法が適しているのは，一時的に別のアカウントでサインインをしたい場合に限られます．これは，ブラウザのウィンドウを閉じてもサインインしたアカウントの情報は保持されないためです．Microsoftアカウントを使用する頻度が高く継続的に利用したい場合には，後述する「[複数のプロファイルを使用する](#profiles)」方法が便利です．
+なお，シークレットブラウジングを利用する方法が適しているのは，一時的に別のアカウントでサインインをしたい場合に限られます．これは，ブラウザのウィンドウを閉じると，サインインしたアカウントの情報はブラウザ上から消去されてしまうためです．Microsoftアカウントを使用する頻度が高く継続的に利用したい場合には，後述する「[複数のプロファイルを使用する](#profiles)」方法が便利です．
 
 シークレットブラウジング機能の名称や利用手順はブラウザごとに異なります．詳細については，以下に記載されている各ブラウザの公式ドキュメントを参照してください．
 
@@ -105,4 +103,3 @@ Microsoftアカウントごとに異なるブラウザを使用することで�
 - **Safari**：[MacのSafariでプロファイルを作成する](https://support.apple.com/ja-jp/guide/safari/ibrwf3a9e7d6/mac)
 - **Microsoft Edge**：[Microsoft Edge でサインインして複数のプロファイルを作成する](https://support.microsoft.com/ja-jp/topic/df94e622-2061-49ae-ad1d-6f0e43ce6435)
 - **Firefox**：[プロファイルマネージャーを使用して、Firefox のプロファイルを作成または削除する](https://support.mozilla.org/ja/kb/profile-manager-create-and-remove-firefox-profiles)
-

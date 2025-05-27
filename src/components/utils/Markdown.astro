@@ -1,11 +1,28 @@
 ---
-import { renderMarkdown } from "@astrojs/markdown-remark";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
+import { unified } from "unified";
+import type { Root } from "hast";
+import type { Transformer } from "unified";
+
+function removePtag(): Transformer<Root> {
+  return function (root) {
+    const [p] = root.children;
+    if (p?.type === "element") return { ...root, children: p.children };
+    else return root;
+  };
+}
+
+const processor = unified()
+  .use(remarkParse)
+  .use(remarkRehype, { allowDangerousHtml: true })
+  .use(removePtag)
+  .use(rehypeStringify, { allowDangerousHtml: true });
 
 async function render(md: string) {
-  return renderMarkdown(md, {}).then(
-    // remove <p> and </p>
-    (result) => result.code.slice(3, -4)
-  );
+  const result = await processor.process(md);
+  return result.value.toString();
 }
 
 interface Props {

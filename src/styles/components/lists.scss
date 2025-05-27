@@ -27,15 +27,20 @@ ol {
       margin-bottom: 0;
     }
   }
+
+  & > li > p.additional-info {
+    display: list-item;
+    list-style-type: circle;
+    margin-left: 40px;
+
+    @media (max-width: 640px) {
+      margin-left: 20px;
+    }
+  }
 }
 
 li > ul > li:first-child,
 li > ol > li:first-child {
-  margin-top: 0.125em;
-}
-
-li > ul.gap > li:first-child,
-li > ol.gap > li:first-child {
   margin-top: 0.125em;
 }
 
@@ -47,4 +52,13 @@ li > ol.gap > li:first-child {
 
 ol.bracket {
   list-style: decimal-bracket;
+}
+
+ul.none {
+  list-style: none;
+  padding-left: 0;
+
+  & ul {
+    list-style: none;
+  }
 }

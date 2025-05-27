@@ -32,13 +32,9 @@ export const sitemapSectionsJa: SitemapSection[] = [
     name: "UTAS",
   },
   {
-    patterns: [
-      /^\/itc_lms$/,
-      /^\/lms_lecturers($|\/)/,
-      /^\/lms_students($|\/)/,
-    ],
+    patterns: [/^\/utol($|\/)/],
     depth: 3,
-    name: "ITC-LMS",
+    name: "UTOL",
   },
   {
     patterns: [/^\/zoom($|\/)/],
@@ -79,6 +75,26 @@ export const sitemapSectionsJa: SitemapSection[] = [
     patterns: [/^\/utokyo_vpn($|\/)/],
     depth: 3,
     name: "UTokyo VPN",
+  },
+  {
+    patterns: [/^\/eccs($|\/)/],
+    depth: 3,
+    name: "教育用計算機システム（ECCS）",
+  },
+  {
+    patterns: [/^\/research_computing$/],
+    depth: 3,
+    name: "全学向け高速計算機・データ活用基盤",
+  },
+  {
+    patterns: [/^\/research_computing\/mdx($|\/)/],
+    depth: 4,
+    name: "mdx",
+  },
+  {
+    patterns: [/^\/research_computing\/utokyo_azure($|\/)/],
+    depth: 4,
+    name: "UTokyo Azure",
   },
   {
     patterns: [/^\/online($|\/)/, /^\/articles\//],
@@ -140,13 +156,9 @@ export const sitemapSectionsEn: SitemapSection[] = [
     name: "UTAS",
   },
   {
-    patterns: [
-      /^\/en\/itc_lms$/,
-      /^\/en\/lms_lecturers($|\/)/,
-      /^\/en\/lms_students($|\/)/,
-    ],
+    patterns: [/^\/en\/utol($|\/)/],
     depth: 3,
-    name: "ITC-LMS",
+    name: "UTOL",
   },
   {
     patterns: [/^\/en\/zoom($|\/)/],
@@ -187,6 +199,21 @@ export const sitemapSectionsEn: SitemapSection[] = [
     patterns: [/^\/en\/utokyo_vpn($|\/)/],
     depth: 3,
     name: "UTokyo VPN",
+  },
+  {
+    patterns: [/^\/en\/eccs($|\/)/],
+    depth: 3,
+    name: "Educational Campus-Wide Computing System (ECCS) Terminals",
+  },
+  {
+    patterns: [/^\/en\/research_computing$/],
+    depth: 3,
+    name: "High-performance computing and data utilization platform",
+  },
+  {
+    patterns: [/^\/en\/research_computing\/utokyo_azure($|\/)/],
+    depth: 4,
+    name: "UTokyo Azure",
   },
   {
     patterns: [/^\/en\/online($|\/)/, /^\/articles\//],

@@ -10,6 +10,7 @@ on:
 
 # Allow this job to clone the repo and create a page deployment
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -19,6 +20,18 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  fetch-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - run: wget -O rss.xml https://utelecon.adm.u-tokyo.ac.jp/notice/rss.xml
+      - run: wget -O rss-en.xml https://utelecon.adm.u-tokyo.ac.jp/en/notice/rss.xml
+      - uses: actions/upload-artifact@v4
+        with:
+          path: |
+            rss.xml
+            rss-en.xml
+          name: rss-old
+
   build:
     runs-on: ubuntu-latest
     steps:
@@ -26,25 +39,46 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
-          cache: 'npm'
-          cache-dependency-path: package-lock.json
+          node-version: 22
+      - name: Setup node_modules Cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
       - name: Install
         run: |
           npm install
       - name: Build
         run: |
           npm run build
+      - name: Check unused assets
+        run: |
+          npm run unused-asset
 
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+      - name: Collect RSS Artifact
+        run: |
+          cp dist/notice/rss.xml rss.xml
+          cp dist/en/notice/rss.xml rss-en.xml
+      - name: Upload RSS Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: |
+            rss.xml
+            rss-en.xml
+          name: rss-new
 
   deploy:
-    needs: build
+    needs: [fetch-rss, build]
+    if: ${{ needs.build.result == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -52,4 +86,36 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
+
+  twitter:
+    needs: [fetch-rss, build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: rss-old
+          path: rss-old
+      - uses: actions/download-artifact@v4
+        with:
+          name: rss-new
+          path: rss-new
+
+      - name: Twitter
+        uses: utelecon/rssdiff-to-twitter@main
+        with:
+          OLD_RSS: "rss-old/rss.xml"
+          NEW_RSS: "rss-new/rss.xml"
+          TWITTER_APIKEY: ${{ secrets.TWITTER_APIKEY }}
+          TWITTER_APIKEY_SECRET: ${{ secrets.TWITTER_APIKEY_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      - name: Twitter (English)
+        uses: utelecon/rssdiff-to-twitter@main
+        with:
+          OLD_RSS: "rss-old/rss-en.xml"
+          NEW_RSS: "rss-new/rss-en.xml"
+          TWITTER_APIKEY: ${{ secrets.TWITTER_EN_APIKEY }}
+          TWITTER_APIKEY_SECRET: ${{ secrets.TWITTER_EN_APIKEY_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_EN_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_EN_ACCESS_TOKEN_SECRET }}

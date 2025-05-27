@@ -103,7 +103,7 @@ When hosting a highly confidential meeting, you may lock the meeting to prevent 
 	![](img/webex_privilege_participant.png){:.border}
 
 ## Recording the Webex Meeting
-- Webex meetings can be recorded and made available on ITC-LMS or other systems for students who had wifi connection issues or who want to use the videos for review purposes.
+- Webex meetings can be recorded and made available on UTOL or other systems for students who had wifi connection issues or who want to use the videos for review purposes.
 - Recording can be set by turning on "Automatic Recording" during the meeting setup or started at any time by clicking the “Record” button during the meeting.
 - Co-hosts are unable to start the recording if the meeting host is present.
 - Recording is paused during breakout sessions.
@@ -165,8 +165,3 @@ When hosting a highly confidential meeting, you may lock the meeting to prevent 
 ![](img/webex_slido_do_host_qa.png){:.border}
    * You can answer and manage questions using the Q&A tab.
    * Basic operations are the same as that of the web version of Slido.
-
-
-<br>
-<br>
-<a href="index" target="_blank">Back to How to use Webex</a>
