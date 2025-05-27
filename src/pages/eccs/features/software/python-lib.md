@@ -57,10 +57,10 @@ chmod og+x ~/
 chmod -R og+rX ~/.pyenv
 ```
 
-学生には実行前に以下のコマンドを実行するように指導してください．
+学生には実行前に以下のコマンドを実行するように指導してください（`0123456789`の箇所は，教員の共通ID（UTokyo Accountの先頭10桁の数字のみの部分）に置き換えてください）．
 
 ```bash
-export PYENV_ROOT=/home/(教員の共通ID10桁)/.pyenv
+export PYENV_ROOT=/home/0123456789/.pyenv
 export PATH=$PYENV_ROOT/bin:$PATH
 eval "$(pyenv init --no-rehash -)"
 ```
