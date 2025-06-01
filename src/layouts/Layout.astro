@@ -202,7 +202,7 @@ const resolvedBreadcrumb =
     font-weight: bold;
     color: black;
   }
-  main[data-toc] {
+  main[data-toc="true"] {
     #article {
       display: flex;
       flex-direction: row-reverse;
@@ -215,7 +215,7 @@ const resolvedBreadcrumb =
     }
   }
   @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
-    main[data-toc] {
+    main[data-toc="true"] {
       #article {
         flex-direction: column;
       }

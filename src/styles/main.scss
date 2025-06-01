@@ -36,6 +36,10 @@
   @media (min-width: 1024px) {
     max-width: 72rem;
     margin: 0 auto;
+
+    &[data-toc="true"] {
+      max-width: 84rem;
+    }
   }
 
   @media (max-width: 768px) {
