@@ -97,6 +97,12 @@ However, for example, login authentication to the OS running on a virtual machin
 </HelpItem>
 
 <HelpItem lang="en" type="details">
+  <Fragment slot="problem">I want to know how to apply roles to multiple people at once.</Fragment>
+  <Fragment slot="solution"><p>If you want to set it up using the **GUI from the Azure Portal**, in the procedure for [Group Use](/en/research_computing/utokyo_azure/group/), when selecting members in the **Member section** of the **Role assignment steps**, you can add roles to multiple people at once by repeating the searching and selecting all members one by one.</p><p>If you're using **Azure Cli from the command line**, you can add a role using the following steps. This assumes a Linux environment, but the steps are roughly the same for other environments where Azure Cli installed.</p><ol><li>Refer to [How to install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) to install Azure CLI in your Linux environment and authenticate with a UTokyo Account that already has Owner privileges for the subscription to which you want to assign a role.</li><li>Prepare a text file that lists the UTokyo Accounts to which you want to add roles.</li><li>Run the following command. ```for i in `cat [textfile name]` ; do az role assignment create --role "Owner" --scope [scope of subscriptions, resources, etc. you want to assign] --assignee $i ; done```</li></ol><ul><li>Note 1: If you want to add a contributor role, specify **Contributor** for `--role`.</li><li>Note 2: For information on scope format, please refer to the [Microsoft Learn documentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview#scope-format).</li></ul></Fragment>
+</HelpItem>
+
+
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">I want to know my subscription ID</Fragment>
   <Fragment slot="solution">You can check your subscription ID on the subscription details screen.</Fragment>
 </HelpItem>
