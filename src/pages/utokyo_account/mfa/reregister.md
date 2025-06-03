@@ -91,4 +91,4 @@ UTokyo Accountにサインイン可能な場合は，専用のMicrosoftフォー
 <a href="https://identification.adm.u-tokyo.ac.jp/ident/">本人確認方法の再登録申請サイト</a>
 </b>
 
-上のリンクにアクセスし，UTokyo Accountでサインインしてください．サインインの際に多要素認証は不要となっており，ユーザ名とパスワードのみでサインインできます．
+上のリンクにアクセスし，UTokyo Accountでサインインしてください．サインインの際に多要素認証は不要となっております．

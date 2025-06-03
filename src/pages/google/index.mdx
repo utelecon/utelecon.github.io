@@ -15,35 +15,20 @@ import WwweccEol from "@components/ja/WwweccEol.astro";
 
 <WwweccEol systemName="ECCSクラウドメール（Google Workspace）"/>
 
-<div class="box">
-2024年9月30日に，Google社により「安全性の低いアプリケーション（LSA）」が無効化されました．ECCSクラウドメール利用者の中にも，この無効化の影響を受ける方がいる可能性があります．詳しくは「[ECCSクラウドメールにおける「安全性の低いアプリケーション（LSA）」の無効化について](/notice/2024/0930-google-lsa)」および「[2024 年 9 月 30 日以降: パスワードのみを使用して Google アカウントおよび Google Sync にアクセスするサードパーティ アプリのサポートを終了](https://workspaceupdates-ja.googleblog.com/2023/10/2024-9-30-google-google-sync.html)」をご覧ください．
-</div>
-
 ## ECCSクラウドメールとは
 
-「ECCSクラウドメール」は，Googleのシステムを東京大学のアカウントで利用するもの (Google Workspace for Education) です．
+「ECCSクラウドメール」は，GmailやGoogleドライブなどのGoogleのシステムを東京大学のアカウントで利用するもの (Google Workspace for Education) です．
 
-利用できるGoogleのサービスのうち，主なものを以下に挙げます（完全な一覧はECCSウェブサイトの「[ECCSクラウドメール利用の手引](https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/26_2495.html)」をご覧ください）．
+UTokyo Accountを取得した方は，個人的に Google のアカウントを持っている場合でも，ECCSクラウドメールのアカウントが使えるようにしておいてください．ECCSクラウドメールのアカウントでしかアクセスできないように設定されたページやファイルに，アクセスするよう求められることがあるためです．
 
-- **Gmail**：東京大学のメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` が使えるウェブメール
-- **Googleドライブ**：ファイル置き場
-- **Googleドキュメント**：文書作成サービス
-- **Googleスプレッドシート**：表計算サービス
-- **Googleフォーム**：フォーム作成サービス
-- **YouTube**：動画配信サービス
-- **Google Meet**：Web会議
-- **Gemini**：生成AIサービス ※無料で提供される「その他のGoogleサービス」
-
-東京大学のアカウントでしかアクセスできないページがあるので，既に Google のアカウントを持っている人も，東京大学のアカウントが使えるようにしておいてください．
-
-また，東京大学のメールアドレス`xxxx@g.ecc.u-tokyo.ac.jp`の@より前の部分は，ご自身で設定することが可能です．なお，ご自身で設定しない場合は，「10桁の共通ID+`@g.ecc.u-tokyo.ac.jp`」がメールアドレスとなります．
+ECCSクラウドメールのメールアドレス（ユーザ名）は，`xxxx@g.ecc.u-tokyo.ac.jp`の形をしています．`@`より前の部分は，ご自身で適切なものを考えて設定してください．なお，ご自身で設定しない場合は，「10桁の共通ID+`@g.ecc.u-tokyo.ac.jp`」がメールアドレスとなります．これに関して詳しくは，「[メールアドレスに関する制限・仕様など](./misc/localpart)」のページを参照してください．
 
 ## 利用開始の手順
 {:#initial-setup}
 
 ECCSクラウドメールの利用（アカウントの初期設定）には[UTokyo Account](/utokyo_account/)が必要です．UTokyo Accountをまだ使ったことがなければ，先に「[UTokyo Accountを使い始めるには](/utokyo_account/#procedures)」を参照してください．
 
-### 作業：自分で考えたメールアドレスを設定する
+### 自分で考えたメールアドレスを設定する
 {:#configure}
 
 ※既にECCSクラウドメールを利用している場合でも，利用開始の場合と同様にこの手順でメールアドレスを変更することができます．
@@ -52,49 +37,89 @@ ECCSクラウドメールの利用（アカウントの初期設定）には[UTo
 
 メールアドレスを設定してから，反映に**最大約40分**かかるので，**ログインできるようになるまでしばらく待ってください**．
 
-### 確認：ログインしてみる
+### ログインしてみる
+{:#login}
 
 <ECCSCloudEmailLogin inlineHelp />
 
-### 確認：東大のアカウント専用のページにアクセスできるか確認する
+## 利用できるサービスと使い方
+{:#services}
 
-<ECCSCloudEmailAccess />
+### Gmail
+{:#gmail}
+東京大学のメールアドレス `xxxx@g.ecc.u-tokyo.ac.jp` が使えるウェブメールです．
+- 基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/mail)や，はいぱーワークブックの記事「[9. 電子メール](https://hwb.ecc.u-tokyo.ac.jp/hwb2023/literacy/email/)」などを参照してください．
+- 届くはずのメールが届かないときは，Googleのヘルプページ「[Gmail のメールが見つからない](https://support.google.com/mail/answer/7015314?hl=ja)」を参照して対処してみてください．
 
-### 任意の作業：スマホでログインする
-
-GmailなどGoogleのアプリを使っている人向けです．
-
-<ECCSCloudEmailLoginSp />
-
-### 練習：メールを使ってみる
-
-Gmailで `xxxx@g.ecc.u-tokyo.ac.jp` というメールアドレスが使えます．
-
-<ECCSCloudEmailUseMail />
-
-## 利用方法
-
-- **全般**
-    - [ECCSクラウドメールサービスのご案内](https://www.ecc.u-tokyo.ac.jp/announcement/2016/02/08_2116.html)（ECCS広報）：情報基盤センターによる説明ページです．
-    - [Google ヘルプ](https://support.google.com/)：Googleの公式ヘルプです．
-- **Gmail**
-    - [Gmail を用いた電子メールの読み書き](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/gmail/)（はいぱーワークブック）：情報システムに関する学生向け自習教材「はいぱーワークブック」のGmailに関する項目です．
-- **Googleドライブ**・**Googleドキュメント**・**Googleスプレッドシート**・**Googleスライド**
-    - [Googleドライブ](drive/)：Googleドライブについて，基本的な使い方を詳細に解説しています．
-    - [Googleドキュメント](document/)：Googleドキュメントについて，基本的な使い方を詳細に解説しています．
+### Googleドライブ・Googleドキュメント・Googleスプレッドシート・Googleスライド・Googleフォーム
+{:#drive}
+Googleドライブとは，様々なファイルを保存できるオンラインストレージです．PDFなど一般的な形式のファイルを保存できるほか，GoogleドキュメントなどGoogle独自の形式のファイルも保存できます．
+- Googleドライブの基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/drive)や「[Googleドライブ](./drive/)」のページを参照してください．
+- Googleドライブの「共有ドライブ」機能の利用については，[共有ドライブ](./drive/shared_drive)のページを参照してください．
+- Googleドキュメント等の基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/docs)や[Googleドキュメント](./document/)のページを参照してください．
+- 活用例
     - [オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)：Googleスライドを用いてグループワークを行った授業の実践例です．
     - [オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)：グループワークで活用するために雛形ファイルのコピーを複数作る，という作業を自動化するスクリプト（簡単なプログラム）が紹介されています．
-    - [共有ドライブの利用について（ECCSクラウドメール付加サービス）](https://www.ecc.u-tokyo.ac.jp/announcement/2018/04/23_2794.html)（ECCS広報）：亜種である「共有ドライブ」という機能の説明ページです．
-- **Googleフォーム**
     - [Googleフォームで小テストやアンケートを実施する](/articles/google-form/)：小テストやアンケートを想定して基本的な使い方を説明しています.
-- **Google Meet**
-    - [Google Meet](meet/)：使い方をまとめたページです．
-- **Googleグループ**
-    - [Googleグループの使い方](https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/27_2504.html)（ECCS広報）：情報基盤センターによる説明ページです．
-    - [Google グループの使用方法](/articles/google-groups/)：Googleグループについて，基本的な使い方を詳細に解説しています．
-- **Googleカレンダー**
-    - [Google Calendarの使い方](https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/27_2505.html)（ECCS広報）：情報基盤センターによる説明ページです．
-- **Gemini**
-    - [ECCSクラウドメールでのGeminiの利用について](https://www.ecc.u-tokyo.ac.jp/announcement/2024/06/04_3635.html)（ECCS広報）：情報基盤センターによる説明ページです．
-        - 2024年9月現在，ECCSクラウドメールアカウントでGeminiを使用する場合，ユーザのデータがAIモデルの改良に使用されることはなく，AIモデルを改良する目的で人間によるレビューを受けることもありません．詳しくは下記FAQページを確認してください．
-    - [Gemini アプリに関するよくある質問](https://gemini.google.com/faq)：Google公式のGeminiに関するFAQページです．
+
+### Google Meet
+{:#meet}
+基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/meet)や[Google Meet](./meet/)のページを参照してください．
+
+### Googleグループ
+{:#groups}
+複数のGoogleアカウントをグループに登録することで，メーリングリストのようにメッセージをやり取りしたり，登録されたアカウントに対して一括してファイル共有・権限管理を行ったりできる仕組みです．
+
+基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/groups)や[Googleグループの使い方](./group/)のページを参照してください．
+
+### Googleカレンダー
+{:#calendar}
+オンラインで利用できる電子カレンダーです．
+- 基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/calendar)や[Google Calendarの使い方](calendar)のページを参照してください．
+- 活用例については，[Googleカレンダーを用いたコラボレーション](/google/calendar/collab/)の記事を参照してください．
+
+### YouTube
+{:#youtube}
+動画配信サービスです．
+- 基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/youtube)を参照してください．
+- 活用例
+    - [クラウドメールアカウントでのYouTubeライブ配信方法](./youtube/live/)
+    - （参考）[YouTubeのコンテンツを学内構成員限定で公開する](https://www.sodan.ecc.u-tokyo.ac.jp/hack/youtube-utokyo-only/)
+
+### Google Classroom
+{:#classroom}
+Googleが提供する学習管理システムです．
+
+- 基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/edu/classroom/)や[Google Classroom](./classroom)のページを参照してください．
+- 複数のクラスを同じ名前で作成することは可能ですが，複数の同じ名称のクラスに参加するユーザには区別がつきにくくなります．クラス作成時には参加者が他のクラスと区別しやすいクラス名をつけるように心がけてください．
+- 活用例
+    - **[オンライン授業情報交換会 第14回 オンライン授業で使えるツール(3) Google Classroom](/events/luncheon/2020-07-15/)**：Google Classroom の授業における使い方に関する資料と動画があります（動画のみ学内限定公開）．
+
+### Google Assignments
+{:#assignments}
+他の学習管理システムと連携させることで効果を発揮する，課題管理システムです．
+
+基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/edu/assignments/)や[Google Assignments](./assignments)のページを参照してください．
+
+### Gemini
+{:#gemini}
+Googleの生成AIサービスです．なお，2024年9月現在，ECCSクラウドメールアカウントでGeminiを使用する場合，ユーザのデータがAIモデルの改良に使用されることはなく，AIモデルを改良する目的で人間によるレビューを受けることもありません．
+
+基本的な使い方については，[ECCSクラウドメールでのGeminiの利用について](./gemini)のページや[Googleの公式FAQページ](https://gemini.google.com/faq)を参照してください．
+
+### その他のサービスの例
+- Google Keep
+- Google Chrome Sync
+- Google Travel
+- Googleサイト
+- 連絡先
+- Google フォト
+- Blogger
+- Googleアナリティクス
+- Google Cloud Console
+- Google Chat
+- Notebook LM
+
+## その他の情報
+{:#misc}
+利用に際しては，[ECCSクラウドメールの利用に関するその他の情報](./misc)も参考にしてください．
