@@ -137,7 +137,7 @@ This page explains the procedure for publishing content (e.g., course materials,
 ![](assignments.png)
 1. The new registration/edit assignment screen will appear. After entering and editing the other items, select the "Selected user group" in the "Published target" as shown below.
 ![](selected_ug.png)
-1. From the "User Group List", select all the checkboxes for the user groups of published targets. When finished, click the "Confirm" button. (Selecting the checkbox directly below the "user group list" will allow you to select all the displayed user groups simultaneously.)
+1. From the "User Group List", select all the checkboxes for the user groups of published targets. When finished, click the "Confirm" button. (Selecting the checkbox directly below the "User Group List" will allow you to select all the displayed user groups simultaneously.)
 ![](assignments_ug_checkboxes.png)
 1. Check the details, and if there are no problems, click on "Register" button.
 ![](confirm_assignments.png){:.medium}
