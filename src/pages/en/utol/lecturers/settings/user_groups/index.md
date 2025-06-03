@@ -18,7 +18,7 @@ If you frequently restrict access to contents to certain students, you can avoid
 
 ### Relation to the course group
 {:#course_group}
-When you register a [course group](/utol/lecturers/settings/course_group/), a user group with members who are enrolled in each of the grouped courses are automatically registered with the name “(academic year)_(department code)_(timetable code)-group”. This is called the “default user group”. If the enrolled students are changed on UTAS after registration, the changes will be reflected in the list of members of each default user group through system integration.
+When you register a [course group](../course_group/), a user group with members who are enrolled in each of the grouped courses are automatically registered with the name “(academic year)\_(department code)\_(timetable code)-group”. This is called the “default user group”. If the enrolled students are changed on UTAS after registration, the changes will be reflected in the list of members of each default user group through system integration.
 
 ## Managing user groups
 {:#manage}
