@@ -45,7 +45,7 @@ There are two ways to register a user group.
 1. Click on "User group settings" under "Course settings".
     <details>
     <summary>If there are no “Course settings”</summary>
-        You may not have <a href=#details>the authority required to manage user groups</a>. If you consider it necessary, please consult the course instructor about <a href=/utol/lecturers/settings/course_participants/>granting the authority</a>.
+        You may not have <a href=#details>the authority required to manage user groups</a>. If you consider it necessary, please consult the course instructor about <a href=../course_participants/>granting the authority</a>.
     </details>
 
     ![](sidebar_ug.png){:.border}{:.medium}
@@ -67,7 +67,7 @@ There are two ways to register a user group.
 1. Click "User group settings" under "Course settings".
     <details>
     <summary>If there are no "Course settings"</summary>
-        You may not have <a href=#details>the authority required to manage user groups</a>. If you consider it necessary, please consult the course instructor about <a href=/utol/lecturers/settings/course_participants/>granting the authority</a>.
+        You may not have <a href=#details>the authority required to manage user groups</a>. If you consider it necessary, please consult the course instructor about <a href=../course_participants/>granting the authority</a>.
     </details>
 
     ![](sidebar_ug.png){:.border}{:.medium}
@@ -119,7 +119,7 @@ This section explains the procedure for deleting user groups.
 1. Click "User group settings" under "Course settings".
     <details>
     <summary>If there are no "Course settings"</summary>
-         You may not have <a href=#details>the authority required to manage user groups</a>. If you consider it necessary, please consult the course instructor about <a href=/utol/lecturers/settings/course_participants/>granting the authority</a>.
+         You may not have <a href=#details>the authority required to manage user groups</a>. If you consider it necessary, please consult the course instructor about <a href=../course_participants/>granting the authority</a>.
     </details>
 
     ![](sidebar_ug.png){:.border}{:.medium}
