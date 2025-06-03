@@ -53,7 +53,7 @@ There are two ways to register a user group.
 ![](ug_manage_plus.png){:.border}{:.medium}
 1. Enter the “User group name” and “Group summary” (optional). This information will be used to distinguish between user groups later.
 ![](label.png)
-1. Select all the checkboxes for the users you want to add to the user group and click on the "Confirm" button to proceed. (You can select all the displayed users at once by selecting the checkbox directly "Select group members".
+1. Select all the checkboxes for the users you want to add to the user group and click on the "Confirm" button to proceed. (You can select all the displayed users at once by selecting the checkbox directly "Select group members".)
 ![](checkboxes.png)
 1. Check the details, and if there are no problems, click on the “Register” button.
 ![](confirm.png)
