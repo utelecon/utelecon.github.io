@@ -77,7 +77,7 @@ There are two ways to register a user group.
 ![](format_download.png)
 1. Open the downloaded Excel file.
 ![](register_excel.png){:.border}{:.medium}
-1. Please follow the procedure below to enter the information for each user group you wish to register. Note that each user group corresponds to a single row in the Excel file.In other words,**you cannot use multiple rows to describe a single user group**.
+1. Please follow the procedure below to enter the information for each user group you wish to register. Note that each user group corresponds to a single row in the Excel file. In other words, **you cannot use multiple rows to describe a single user group**.
     - First, enter the "User Group Name" and "Details" (optional). This information will be used to distinguish between user groups later.
     - Next, enter either the common ID or student ID number for all members. If it is a common ID, enter it in the "User ID" field, and if it is a student ID number, enter it in the "User Number" field. Please enter the common ID and student ID number in one field, separated by a semicolon.
   
@@ -99,7 +99,7 @@ This section explains the procedure for changing registered user groups, such as
 1. Click "User group settings" under "Course settings".
     <details>
     <summary>If there are no "Course settings"</summary>
-         You may not have <a href=#details>the authority required to manage user groups</a>. If you consider it necessary, please consult the course instructor about <a href=/utol/lecturers/settings/course_participants/>granting the authority</a>.
+         You may not have <a href=#details>the authority required to manage user groups</a>. If you consider it necessary, please consult the course instructor about <a href=../course_participants/>granting the authority</a>.
     </details>
 
     ![](sidebar_ug.png){:.border}{:.medium}
@@ -127,11 +127,11 @@ This section explains the procedure for deleting user groups.
 ![](del.png)
 1. The message "Are you sure you wish to delete (user group name)?" will be displayed. Please check that the target group is correct and click the "Delete" button.
 ![](confirm_del.png)
-1. If the target group has been deleted from the "User Group List",  the registration process has been completed.
+1. If the target group has been deleted from the "User Group List", the registration process has been completed.
 
 ## Publishing content only to selected user groups
 {:#access_management}
-This page explains the procedure for publishing content (e.g., course materials, assignments) only to selected user groups. The example here is for [assignments](/utol/lecturers/assignments/), but the same procedure applies to other types of content.
+This page explains the procedure for publishing content (e.g., course materials, assignments) only to selected user groups. The example here is for [assignments](../../assignments/), but the same procedure applies to other types of content.
 1. Open the target course.
 1. Click the "+" button in the "Assignments" box to register a new assignment. To edit an existing assignment, click the assignment name you want to edit in the "Assignments" box.
 ![](assignments.png)
