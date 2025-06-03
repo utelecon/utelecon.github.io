@@ -6,7 +6,7 @@ breadcrumb:
 
 ## What is the user group?
 {:#about}
-In the courses on [UTOL](/utol/), you can create units called “user groups” from among the students taking the course. These are used to make course contents (such as [course materials](/utol/lecturers/materials/) and [assignments](/utol/lecturers/assignments/)) available only to certain students, allowing you to choose to make the contents available only to certain user groups.
+In the courses on [UTOL](../../../), you can create units called “user groups” from among the students taking the course. These are used to make course contents (such as [course materials](../../materials/) and [assignments](../../assignments/)) available only to certain students, allowing you to choose to make the contents available only to certain user groups.
 
 If you frequently restrict access to contents to certain students, you can avoid the trouble of specifying which students can access them each time by registering user groups in advance. One possible case of use is when you want to divide the students into several groups and make different contents available for each group in a group work project.
 
