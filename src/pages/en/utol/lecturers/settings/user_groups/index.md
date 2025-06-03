@@ -125,7 +125,7 @@ This section explains the procedure for deleting user groups.
     ![](sidebar_ug.png){:.border}{:.medium}
 1. Open the "Actions" menu for the user group you want to delete in the "User Group List" and click on the" Delete" button.
 ![](del.png)
-1. The message "Are you sure you wish to delete (user group name)?" will be displayed. Please check that the target group is correct and click the" Delete" button.
+1. The message "Are you sure you wish to delete (user group name)?" will be displayed. Please check that the target group is correct and click the "Delete" button.
 ![](confirm_del.png)
 1. If the target group has been deleted from the "User Group List",  the registration process has been completed.
 
