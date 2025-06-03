@@ -49,7 +49,7 @@ There are two ways to register a user group.
     </details>
 
     ![](sidebar_ug.png){:.border}{:.medium}
-1. 「Click on the “+” button on the right of "Manage User Group".
+1. Click on the “+” button on the right of "Manage User Group".
 ![](ug_manage_plus.png){:.border}{:.medium}
 1. Enter the “User group name” and “Group summary” (optional). This information will be used to distinguish between user groups later.
 ![](label.png)
