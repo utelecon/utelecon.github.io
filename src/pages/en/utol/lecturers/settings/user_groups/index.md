@@ -57,7 +57,7 @@ There are two ways to register a user group.
 ![](checkboxes.png)
 1. Check the details, and if there are no problems, click on the “Register” button.
 ![](confirm.png)
-1. When the "Registration is completed" message appears, the registration process has been completed.
+1. When the "Registration is completed." message appears, the registration process has been completed.
 ![](finished.png)
 
 #### Registration by uploading an Excel file
