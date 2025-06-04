@@ -15,7 +15,7 @@ Chromebox端末では，Google Chromeとそのextensionとして実現されて�
 
 なお，Google Playストアで提供されている，教育や研究に必要な無料のAndroidアプリに関しては，以下の申請フォーム（ECCSクラウドメールでのログインが必要です）からリクエストしていただくと，許可リストに追加し，Chromebox端末から利用できるようにすることがあります．
 
-<b class="box center">[ChromeOS用のGoogle Play Storeアプリ / Google Play Store Apps for ChromeOS](https://docs.google.com/forms/d/e/1FAIpQLSdZ7vt6-Tahig8CMhwE0Uipjqk1PeY_FRh4RnVpXox_ycyvGg/viewform?usp=sf_link)</b>
+<b class="box center">[ChromeOS用のGoogle Play Storeアプリ](https://docs.google.com/forms/d/e/1FAIpQLSdZ7vt6-Tahig8CMhwE0Uipjqk1PeY_FRh4RnVpXox_ycyvGg/viewform?usp=sf_link)</b>
 
 ## 利用方法
 
