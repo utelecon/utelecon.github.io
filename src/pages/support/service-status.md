@@ -7,7 +7,7 @@ toc: false
 
 該当する主なシステムの稼働状況の情報提供ページを以下に挙げます．
 
-- **Zoom**：[Zoom Service Status](https://status.zoom.us/)
+- **Zoom**：[Zoom Service Status](https://www.zoomstatus.com/)
 - **Webex**：[Latest Webex Status Information](https://status.webex.com/)
 - **ECCSクラウドメール (Google Workspace)**：[Google Workspace ステータス ダッシュボード](https://www.google.co.jp/appsstatus/dashboard/)
 - **UTokyo Microsoft License**：[Service Status](https://portal.office.com/servicestatus)
