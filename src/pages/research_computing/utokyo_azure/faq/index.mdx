@@ -150,3 +150,8 @@ import HelpItem from "@components/utils/HelpItem.astro";
   <Fragment slot="problem">想定していたよりギフトクレジットの使用料が多く，原因を調べて対応したい</Fragment>
   <Fragment slot="solution"><p>[UTokyo Azure 新規申請ページの管理画面](https://azure.itc.u-tokyo.ac.jp/list)の一番下に，使用料の内訳詳細が表になっていますので，こちらから各リソースが日毎に消費した使用料が確認いただけます．</p><p>Cost の項で降順にすると，使用料の多い内訳が上に来ますので，そのリソースについて想定通りに設定されているか等を確認ください．</p></Fragment>
 </HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">仮想マシンを Windows OS で使いたい</Fragment>
+  <Fragment slot="solution"><p>UTokyo Azure では、Windows OS をライセンス認証された状態で利用できます。仮想マシンを構成する際に、**「マルチテナントをホストする権利を持つ有効な Windows 10/11 ライセンスを所有しています」**にチェックを入れてください．</p><p>Windows 11 の場合は，ハードウェア要件により利用できない，または制限がかかるVMファミリがありますので，以下のURLを参考に対応しているVMファミリがあるリージョンを選択ください．</p><ul><li>[Microsofr Learn：Azure 仮想マシンでの Windows 11 のサポート](https://learn.microsoft.com/ja-jp/troubleshoot/azure/virtual-machines/windows/windows-11-support-azure-virtual-machines)</li></ul></Fragment>
+</HelpItem>
