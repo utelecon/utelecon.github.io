@@ -45,5 +45,5 @@ Chromebox端末の利用に当たっては，27インチディスプレイとChr
 ## 注意・補足
 
 * 27インチディスプレイにはHDMIケーブルが取り付けられており，Chromeboxを使う代わりに，自分の持ち込みPCを接続してディスプレイだけを使うこともできます．この場合は，ディスプレイ前面のボタンで入力を切り替えてください．　
-* Chromebox端末では，ECCS複合機での[オンデマンドプリント](../features/printing/#ondemand)による印刷ができません．Chromebox端末からECCS複合機を利用したい場合は，[Webアップロード印刷](../features/printing/web-upload)または[USB印刷](../features/printing/#usb)を利用してください．
+* Chromebox端末では，ECCS複合機での[オンデマンドプリント](../features/printing/#ondemand)ができません．Chromebox端末からECCS複合機を利用したい場合は，[Webアップロード印刷](../features/printing/web-upload)または[USB印刷](../features/printing/#usb)を利用してください．
 * 設定等は予告なく変更することがあります．
