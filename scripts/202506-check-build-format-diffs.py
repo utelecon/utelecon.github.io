@@ -9,8 +9,8 @@ with open("after.txt", "r") as f:
         if line == "./404.html\n":
             line = f.readline()
             continue
-        path = line.replace("index.html", "")
-        after_pages.append(path)
+        path = line.replace("index.html\n", "")
+        after_pages.append([path, line.replace("\n", "")])
         line = f.readline()
 
 before_pages = []
@@ -21,13 +21,14 @@ with open("before.txt", "r") as f:
             line = f.readline()
             continue
         if line.endswith("index.html\n"):
-            path = line.replace("index.html", "")
+            path = line.replace("index.html\n", "")
         else:
-            path = line.replace(".html", "/")
-        before_pages.append(path)
+            path = line.replace(".html\n", "/")
+        before_pages.append([path, line.replace("\n", "")])
         line = f.readline()
 
-after_pages.sort()
-before_pages.sort()
+after_pages.sort(key=lambda x: x[0])
+before_pages.sort(key=lambda x: x[0])
 for a, b in zip(after_pages, before_pages):
-    assert a == b
+    print(a[1], b[1])
+    assert a[0] == b[0]
