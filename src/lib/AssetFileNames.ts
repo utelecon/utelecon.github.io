@@ -15,7 +15,8 @@ const IMAGE_EXTS = [
 
 // This function adds a SHA-1 (base64url) hash to the filename of image assets,
 // so that they can later be identified in `scripts/unused-asset.js`.
-const assetFileNames = ({ name, source }: PreRenderedAsset): string => {
+const assetFileNames = ({ names, source }: PreRenderedAsset): string => {
+  const name = names[0];
   if (
     name &&
     IMAGE_EXTS.includes(parse(name).ext) &&

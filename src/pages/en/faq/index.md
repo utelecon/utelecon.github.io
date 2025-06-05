@@ -75,7 +75,7 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 ### Q. What is UTAS?
 UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabus browsing, course registration and grades checking. For faculty members, syllabus registration, grade registration and course enrollment status checking are available via UTAS.
 ### Q. I cannot sign into UTAS. What can I do?
-* Please check if you can sign into <a href="https://utacm.adm.u-tokyo.ac.jp/webmtn/LoginServlet" target="_blank">UTokyo Account User Menu</a> and <a href="https://utol.ecc.u-tokyo.ac.jp/login" target="_blank">UTOL</a>.
+* Please check if you can sign into <a href="https://utacm.adm.u-tokyo.ac.jp/UserMenu/LoginServlet" target="_blank">UTokyo Account User Menu</a> and <a href="https://utol.ecc.u-tokyo.ac.jp/login" target="_blank">UTOL</a>.
 * If you can sign into UTokyo Account User Menu and UTOL but not UTAS:
   * Your UTAS account may not have been issued. Please send your UTokyo Account to the faculty office to check if your UTAS account has been issued.
 * If you cannot sign into these systems:
