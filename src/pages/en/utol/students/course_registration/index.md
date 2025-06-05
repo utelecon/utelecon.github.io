@@ -4,6 +4,10 @@ breadcrumb:
   title: Registering for courses
 ---
 
+<b class="box">
+  On March 25th, 2025, the display of course registration status in the timetable and course top screen was changed. If the course registration status in UTOL is “favorite registration”, “registered by instructor”, or “self-registration”, the message “Ensure [Course Registration] on UTAS” will now be displayed at the bottom of each course box in the timetable. If you have enrolled in a course via UTAS, the text at the bottom of each course box will not be displayed. The text that used to appear on UTOL about how to register is no longer displayed. For more details, please read the notice “<a href="/notice/2025/0401-utol-change/">Changes to the timetable and course top page of UTOL</a>” (only in Japanese).
+</b>
+
 In UTOL, courses offered per term or semester are called “courses”.
 
 Once you “register for a course”, it will appear on the timetable, and you can view the course materials.

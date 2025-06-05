@@ -39,6 +39,11 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 **補足**：説明のない項目は，基本的に初期設定のままで構成することを前提としています．
 </div>
 
+<div class="box">
+仮想マシンに UTokyo Account の認証を使ってログインすることができます．手順は以下のURLを参照ください．
+- [UTokyo Account で仮想マシンに ssh ログインする](/research_computing/utokyo_azure/virtualmachine/entraid_login)
+</div>
+
 ### 基本パート
 {:#base}
 
@@ -69,7 +74,9 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 #### 受信ポートの規則
 
-ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- 別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion) を利用してリモートコンソール接続を行う場合は，`なし`を選択してください．
+- ここで選択する受信ポート規則は作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg)機能で設定してください．
 
 ### ディスクパート
 {:#disk}
@@ -88,7 +95,9 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ### ネットワーク，管理，監視，詳細，タグの各パート
 {:#eachpart}
 
-ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- リモートからのコンソールアクセスに別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion) を利用し，かつデータ転送用に外部からの接続を許可する必要が無い場合は，**パブリック受信ポート** は`なし`を設定してください．
+- ここで選択する受信ポートは作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg)機能で設定してください．
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">定期的に仮想マシンをシャットダウンさせたい場合</Fragment>
@@ -122,6 +131,10 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 ## ４．仮想マシンにログインする
 {:#login}
+
+<div class="box">
+以下はパブリックIPに直接 ssh でアクセスする例です．できる限り[Bastion](/research_computing/utokyo_azure/virtualmachine/bastion)等の機能を使ってアクセスするようにしてください．
+</div>
 
 `リソースに移動`または仮想マシンリソース名のリンクをクリックすると，割り当てられたグローバルIPアドレスが画面右側に表示されていますので，そのIPアドレスに対してご自身の端末からSSHログインを行いログインできたら完了です．
 
