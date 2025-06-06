@@ -1,5 +1,6 @@
 # build.format = "preserve" と build.format = "directory"
 # の両者で同一のページが意図した形で生成されることを確認するスクリプト
+# python3 202506-check-build-format-diffs.py > pairs.txt で202506-check-no-diffs.shで使うpairs.txtを生成する
 # cd dist && find -name "*.html" > after.txt のようにafter.txtとbefore.txtを生成した
 
 after_pages = []
@@ -30,5 +31,5 @@ with open("before.txt", "r") as f:
 after_pages.sort(key=lambda x: x[0])
 before_pages.sort(key=lambda x: x[0])
 for a, b in zip(after_pages, before_pages):
-    print(a[1], b[1])
+    print(f"{a[1]},{b[1]}")
     assert a[0] == b[0]
