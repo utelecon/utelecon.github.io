@@ -37,7 +37,7 @@ export default defineConfig({
     },
   },
   build: {
-    format: "preserve",
+    format: "directory",
   },
   markdown: {
     remarkPlugins: [
