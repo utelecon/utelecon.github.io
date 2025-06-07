@@ -20,7 +20,7 @@ export default function externalLinks(options: Options): AstroIntegration {
         await Promise.all(
           routes.map(async ({ pathname, component }) => {
             if (!pathname || pathname.endsWith("/rss.xml")) return;
-            const path = getDistFilePath(dir, pathname, component);
+            const path = getDistFilePath(dir, pathname);
             const source = await read(path);
             const processed = await processor.process(source);
             await write(processed);
