@@ -1,6 +1,5 @@
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
-import { parse as parsePath } from "path";
 
 export function getDistFilePath(dir: URL, pathname: string) {
   const base = fileURLToPath(dir);
