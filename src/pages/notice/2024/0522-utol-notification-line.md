@@ -2,6 +2,9 @@
 title: UTOLにおける，LINE通知機能の提供開始と利用上の注意事項について
 ---
 
+<div class="box">
+    2025年3月と4月に，LINE通知機能を一部変更し，このお知らせの内容は一部古くなっています．お知らせ「<a href="/notice/2025/0514-utol-notification-line">UTOLにおけるLINE更新通知機能の変更について（2025年3月・4月）</a>」をご覧ください．なお，LINE通知機能の詳しい利用方法については，「<a href="/utol/notification/">UTOLからの通知を設定する</a>」の記事も参照してください．（2025年5月14日追記）
+</div>
 
 <div style="text-align: right;">
 <span>2024年05月22日</span><br />

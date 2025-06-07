@@ -2,6 +2,9 @@
 title: Commencement of the provision of the LINE notification function on UTOL and precautions for when using the function
 ---
 
+<div class="box">
+    In March and April 2025, we made some changes in the LINE notification function. As a result, some of the information in this notice is now out of date. Please refer to the notice titled "<a href="/en/notice/2025/0514-utol-notification-line">Changes in LINE update notification function on UTOL (in March and April 2025)</a>." For more information on how to use the LINE notification function, please refer to the article "<a href="/en/utol/notification/">UTOLからの通知を設定する</a>Settings in UTOL to receive notifications</a>." (Added on May 9, 2025) 
+</div>
 
 <div style="text-align: right;">
 <span>Jul. 17, 2024</span><br />
