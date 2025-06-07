@@ -26,7 +26,7 @@
       url: "/en/utokyo_account/"
     -
       name: "UTAS"
-      url: "/en/utas"
+      url: "/en/utas/"
     -
       name: "UTOL<small> (UTokyo LMS)</small>"
       url: "/en/utol/"
@@ -74,7 +74,7 @@
       url: "/en/online/"
     -
       name: "Search Online Resources by Tool"
-      url: "/en/online/tools"
+      url: "/en/online/tools/"
     -
       name: "Search Online Resources by Purpose"
       url: "/en/online/topics/"
@@ -98,7 +98,7 @@
       url: "/en/systems/leave/"
     -
       name: "List of classrooms available for attending online classes on campus <small>(in Japanese)</small>"
-      url: "/oc/rooms"
+      url: "/oc/rooms/"
     -
       name: "Orientations / Seminars"
       url: "/en/events/"
@@ -119,7 +119,7 @@
       url: "https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/service-status.aspx"
     -
       name: "Cloud Service Status Information"
-      url: "/en/support/service-status"
+      url: "/en/support/service-status/"
     -
       name: "Trouble in Entering Classes"
-      url: "/en/oc/join"
+      url: "/en/oc/join/"
