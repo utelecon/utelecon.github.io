@@ -12,9 +12,9 @@ author:
 著作権法では，一定の条件の下で，著作物を自由に利用することができることを定めています．
 しかし，著作者に許諾を得ずに著作物を利用する場合には，厳密に条件が定められています．
 詳しくは，当サイトの
-[学校は著作権の例外？　改正著作権法35条](article35-and-educational-institutions)，
-[授業用として素材を自由に利用できるのはどういう場合か？](educational-use-examples)，
-[授業目的公衆送信補償金制度およびSARTRAS設立の経緯と意義](sartras)
+[学校は著作権の例外？　改正著作権法35条](article35-and-educational-institutions/)，
+[授業用として素材を自由に利用できるのはどういう場合か？](educational-use-examples/)，
+[授業目的公衆送信補償金制度およびSARTRAS設立の経緯と意義](sartras/)
 で説明しています．
 
 著作物の使用の可否，使用方法詳細を確認するには，版元の利用規約を参照することをおすすめいたします．それでもなお，使用にあたり自信がない場合は，直接問い合わせてみましょう．
@@ -296,6 +296,6 @@ Japan Cable and Telecommunications Association
 
 ## あわせて読みたい記事
 
-- [授業目的公衆送信補償金制度およびSARTRAS設立の経緯と意義](sartras)
-- [学校は著作権の例外？　改正著作権法35条](article35-and-educational-institutions)
-- [授業用として素材を自由に利用できるのはどういう場合か？](educational-use-examples)
+- [授業目的公衆送信補償金制度およびSARTRAS設立の経緯と意義](sartras/)
+- [学校は著作権の例外？　改正著作権法35条](article35-and-educational-institutions/)
+- [授業用として素材を自由に利用できるのはどういう場合か？](educational-use-examples/)

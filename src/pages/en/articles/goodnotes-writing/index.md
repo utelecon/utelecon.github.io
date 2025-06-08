@@ -313,9 +313,9 @@ The following video shows a demonstration of real-time writing during a class, w
 ## Examples of Good Practices and Application (Japanese Only)
 {:#advanced}
 
-* [Professor Tadashi Shiraishi: Law I](/good-practice/interview/shiraishi)
+* [Professor Tadashi Shiraishi: Law I](/good-practice/interview/shiraishi/)
   * Professor Shiraishi's class was a large class with about 400 students. He used GoodNotes 5 for handwriting during the lecture. After the lecture, images of the handwriting were uploaded to Scrapbox (now: Cosense).
-* [Professor Norikazu Saito: Numerical Mathematics I / Computational Mathmatics ](/good-practice/interview/saito)
+* [Professor Norikazu Saito: Numerical Mathematics I / Computational Mathmatics ](/good-practice/interview/saito/)
   * Professor Saito's class was a medium-sized lecture with about 70 students. He used GoodNotes 5 for handwriting during the lecture, and shared the images of the handwriting as PDF files with the students after the lecture.
 
 The following are some of the tips shared by the professors.

@@ -6,7 +6,7 @@ title: System Changes to the Authentication Infrastructure of UTokyo Account
 When using passwordless sign-in with Microsoft Authenticator as the default method, it cannot be removed. To remove it, you need to set a different sign-in method as the default first.
 </b>
 
-On 12 March 2024 (scheduled), several system changes will be applied to the authentication infrastructure of UTokyo Account. These changes are intended to make multi-factor authentication, which becomes mandatory for UTokyo Account, more convenient to use. For more information on the mandatory use of multi-factor authentication, please refer to "[Multi-Factor Authentication is Mandatory for UTokyo Account](/en/notice/2024/mfa100-schedule)”.
+On 12 March 2024 (scheduled), several system changes will be applied to the authentication infrastructure of UTokyo Account. These changes are intended to make multi-factor authentication, which becomes mandatory for UTokyo Account, more convenient to use. For more information on the mandatory use of multi-factor authentication, please refer to "[Multi-Factor Authentication is Mandatory for UTokyo Account](/en/notice/2024/mfa100-schedule/)”.
 
 ## More information systems will require `@utac.u-tokyo.ac.jp` when signing in
 {:#require-utac}

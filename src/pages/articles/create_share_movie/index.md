@@ -58,8 +58,8 @@ Google Drive，YouTube どちらも学内限定公開することができます
 * Google Drive で共有する
   * ダウンロード禁止の設定もできます
   * 参考ページ
-    * [Googleドライブでファイルを共有する](/google/drive/share)
-    * [Googleドライブ ファイル共有のおすすめの利用方法](/google/drive/recommendation)
+    * [Googleドライブでファイルを共有する](/google/drive/share/)
+    * [Googleドライブ ファイル共有のおすすめの利用方法](/google/drive/recommendation/)
 * YouTube で共有する
   * 学内限定公開にすると，YouTube に ECCS クラウドメールでログインする必要があり，人によっては切り替えが上手くいかない場合がある点，注意が必要です．
   * **[YouTubeのコンテンツを学内構成員限定で公開する方法](https://www.sodan.ecc.u-tokyo.ac.jp/hack/youtube-utokyo-only/)**

@@ -7,7 +7,7 @@ breadcrumb:
 ## はじめに
 このページでは，OneDriveに保存されたファイルを取り扱う際の具体的な操作手順について説明します．
 
-なお，OneDriveの利用についての全般的な説明は「[OneDrive](.)」に，ファイルを共有する方法については「[OneDriveでファイルを共有する](share)」に記載されています．あわせて参照してください．
+なお，OneDriveの利用についての全般的な説明は「[OneDrive](./)」に，ファイルを共有する方法については「[OneDriveでファイルを共有する](share/)」に記載されています．あわせて参照してください．
 
 <!-- 以降の手順を行うには，あらかじめUTokyo AccountでMicrosoftにサインインし，ブラウザ上でOneDriveを開いている必要があります．この作業が完了していない場合には，[OneDriveのページの「ブラウザ上でOneDriveを開く」](/microsoft/onedrive/#signin)を参照してください． -->
 
