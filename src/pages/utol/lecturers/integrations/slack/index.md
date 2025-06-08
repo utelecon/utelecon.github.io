@@ -14,7 +14,7 @@ UTOLのSlack連携機能を用いると，UTOL上のコースの担当教員や�
 * コースの開講期間の終了と共に，連携したワークスペースはアーカイブ化され，「ワークスペースのオーナー」以外は閲覧できなくなります．
 * 同じワークスペースを他の授業（コース）で利用することはできません．例えば，翌年度に同じ内容の授業を開講する場合でも，翌年度に当該授業用に作成されたコースと連携する新たなワークスペースを作成することになります．
 
-## 準備
+## コースでSlack連携機能を利用開始する
 
 1. [UTokyo Slack](/slack/)の利用に必須である，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講や，[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化が完了していない場合は，それらを完了させてください．
 2. [UTokyo Slackにおけるワークスペースの作成と運用](/slack/workspace/)を読み，ワークスペースの運用方法や運用における注意事項などをご確認ください．
@@ -35,10 +35,11 @@ UTOLのSlack連携機能を用いると，UTOL上のコースの担当教員や�
 
     ![](./create-workspace.png)
 
-## 利用
+## Slack連携機能を利用する
 
-1. コーストップ画面の「外部連携」の欄にある「Slack」を押してください．
-2. 下記の画面が現れたら，SlackアプリもしくはウェブブラウザからSlackを利用してください．
+1. [UTokyo Slack](/slack/)の利用に必須である，[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講や，[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化が完了していない場合は，それらを完了させてください．
+2. コーストップ画面の「外部連携」の欄にある「Slack」を押してください．
+3. 下記の画面が現れたら，SlackアプリもしくはウェブブラウザからSlackを利用してください．
 
     ![](./login.png)
 
