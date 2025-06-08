@@ -50,11 +50,11 @@ UTokyo VPN is only available to users who have completed the Information Securit
 
 The following pages explain how to install the VPN client application on your device and connect to UTokyo VPN for each operating system. Note that UTokyo VPN can be configured outside of the campus.
 
-* [How to use UTokyo VPN on Windows devices](windows/)
-* [How to use UTokyo VPN on macOS devices](macos/)
-* [How to use UTokyo VPN on Android devices (in Japanese)](/utokyo_vpn/android/)
-* [How to use UTokyo VPN on iPad devices](ipad/)
-* [How to use UTokyo VPN on iPhone devices](iphone/)
+* [How to use UTokyo VPN on Windows devices](windows)
+* [How to use UTokyo VPN on macOS devices](macos)
+* [How to use UTokyo VPN on Android devices (in Japanese)](/utokyo_vpn/android)
+* [How to use UTokyo VPN on iPad devices](ipad)
+* [How to use UTokyo VPN on iPhone devices](iphone)
 {:.cards}
 
 ## FAQ

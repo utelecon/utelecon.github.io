@@ -20,7 +20,7 @@ Slack通知の利用には，UTokyo Slackに関する設定をする必要があ
 
 ### 2. ワークスペース「UTOL 通知」への参加
 
-次に，UTokyo Slackのワークスペース「UTOL 通知 (<https://utol-dm.slack.com/>)」に参加する必要があります．「[UTokyo Slackに自由に参加できるワークスペースの中から選んで参加する](/slack/join/)」のページの案内を参考にして「UTOL通知」に参加して下さい．
+次に，UTokyo Slackのワークスペース「UTOL 通知 (<https://utol-dm.slack.com/>)」に参加する必要があります．「[UTokyo Slackに自由に参加できるワークスペースの中から選んで参加する](/slack/join)」のページの案内を参考にして「UTOL通知」に参加して下さい．
 
 ### 3. UTOL上の設定
 

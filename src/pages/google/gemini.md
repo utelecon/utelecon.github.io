@@ -19,9 +19,9 @@ Gemini を利用する場合は，[Google 利用規約](https://policies.google.
 まず，生成AIの利用についての一般的な注意事項について，以下を参照してください．
 
 - [東京大学における生成AI利用に係るセキュリティガイドライン</small>](https://univtokyo.sharepoint.com/sites/Security/SitePages/ai_use_security_guideline.aspx)（2024年3月12日）<small>※閲覧にはUTokyo Accountでのサインインが必要です</small>
-- [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について（2023年4月3日）](/docs/20230403-generative-ai/)
-- [東京大学の学生の皆さんへ：AIツールの授業における利用について（2023年5月26日付／2023年5月29日掲載）](/docs/ai-tools-in-classes-students/)
-- [AIツールの授業における利用について（2023年4月28日付／2023年5月16日掲載）](/docs/ai-tools-in-classes/)
+- [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について（2023年4月3日）](/docs/20230403-generative-ai)
+- [東京大学の学生の皆さんへ：AIツールの授業における利用について（2023年5月26日付／2023年5月29日掲載）](/docs/ai-tools-in-classes-students)
+- [AIツールの授業における利用について（2023年4月28日付／2023年5月16日掲載）](/docs/ai-tools-in-classes)
 
 
 特に，取り扱いに注意を要する情報（試験やレポートの問題，業務で知り得た機密情報，発表・公開すべきでない研究内容，その他関係者以外が知りえない情報）を入力しての利用は避けてください．
@@ -32,8 +32,8 @@ Gemini を利用する場合は，[Google 利用規約](https://policies.google.
 
 ## 情報共有・問い合わせ先
 
-本サービスを含む生成AIチャットに関する情報共有のため，UTokyo Slack内に設けられている「UTokyo ARC」ワークスペースに専用のチャンネル `#arc-aichat-users` を作成しています．「[UTokyo Slackに自由に参加できるワークスペースの中から選んで参加する](/slack/join/)」ページの手順に従って自身で参加してください．
+本サービスを含む生成AIチャットに関する情報共有のため，UTokyo Slack内に設けられている「UTokyo ARC」ワークスペースに専用のチャンネル `#arc-aichat-users` を作成しています．「[UTokyo Slackに自由に参加できるワークスペースの中から選んで参加する](/slack/join)」ページの手順に従って自身で参加してください．
 
 本サービスはGoogleによって提供されているものであるため，機能の詳細や不具合などについての問い合わせには回答できません．上記の情報共有の場へ投稿してください．
 
-その他，生成AIの関連情報は，「[生成AI（ChatGPT等）関連情報](/online/topics/generative-ai/)」のページにまとめています．
+その他，生成AIの関連情報は，「[生成AI（ChatGPT等）関連情報](/online/topics/generative-ai)」のページにまとめています．

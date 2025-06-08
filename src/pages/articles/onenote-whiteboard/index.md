@@ -257,7 +257,7 @@ OneNoteを用いて予め授業資料を作っておくことも可能です．�
 ### 画面共有
 
 受講している学生とリアルタイムで板書を共有する最も簡単な方法は，OneNoteを利用している画面をそのままZoomで画面共有することです．   
-Zoomでの画面共有の方法は，uteleconの「[画面共有](/zoom/usage/screen_sharing/)」を参考にしてください．  
+Zoomでの画面共有の方法は，uteleconの「[画面共有](/zoom/usage/screen_sharing)」を参考にしてください．  
 
 以下の画像はZoomを用いてOneNoteの画面共有を行った様子です．
 
@@ -314,7 +314,7 @@ PDFで配布することのメリットは，受講生が扱い慣れている�
 
 ## グッドプラクティス・応用例の紹介
 
-* [入江薫　先生：数理統計I，Ⅱ](/good-practice/interview/irie/)
+* [入江薫　先生：数理統計I，Ⅱ](/good-practice/interview/irie)
   * 入江先生の授業ではOneNoteを板書代わりに用いて，それをZoomで画面共有するという方法が用いられていました．
   * 入江先生はOneNoteを授業で使う際，以下の点を工夫されていました．  
     * Microsoft SurfaceとSurfacePenを用いて板書をした．

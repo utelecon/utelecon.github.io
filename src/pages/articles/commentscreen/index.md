@@ -131,4 +131,4 @@ CommentScreenの[ダウンロードページ](https://commentscreen.com/#downloa
 
 ### グッドプラクティス
 CommentScreenを使用した授業の実践例を紹介します．工学系研究科の杉田直彦先生による「生産システム」の授業(学生数は約100名)において，実際にCommentScreenが使わました．教員，そして学生の双方が，ともにお互いとの距離が近く感じられて，使いやすかったと感じているようです．  
-（詳しい内容を知りたい方は，[杉田先生の生産システムの記事](/good-practice/interview/sugita/)をご覧ください．）
+（詳しい内容を知りたい方は，[杉田先生の生産システムの記事](/good-practice/interview/sugita)をご覧ください．）

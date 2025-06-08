@@ -22,13 +22,13 @@ title: 2022年8月・9月 UTokyo Slack説明会
     - **<del>[編入（移行）の概要](part1_migration.pdf)</del>** <small>※編入（移行）手続きは2023年8月24日正午をもって受付を終了しました．</small>
     - **[Microsoft Teamsのアップデート](part1_teams.pdf)**
 - 録画：**[説明会ビデオ](https://youtu.be/n1LsNZfGEVw)**
-- 質疑応答：**[いただいたご質問と回答のまとめ](https://docs.google.com/spreadsheets/d/1b6w-Y1qQg6qJve9_cPzBLG_B1geZmM2geZWlOzpJMkU/edit?usp=sharing)**を掲載しました（2022年9月13日．掲載に時間がかかり申し訳ありませんでした）．なお，閲覧には[ECCSクラウドメール](/eccs_cloud_email/)へのログインが必要です．
+- 質疑応答：**[いただいたご質問と回答のまとめ](https://docs.google.com/spreadsheets/d/1b6w-Y1qQg6qJve9_cPzBLG_B1geZmM2geZWlOzpJMkU/edit?usp=sharing)**を掲載しました（2022年9月13日．掲載に時間がかかり申し訳ありませんでした）．なお，閲覧には[ECCSクラウドメール](/eccs_cloud_email)へのログインが必要です．
 
 ## パート2 「既存ワークスペースの編入（移行）について」
 {:#part2}
 
 <b class="box">
-（2023年9月）本説明会で説明した編入（移行）手続きは，<b class="alert">2023年8月24日正午をもって受付を終了しました</b>．詳細は<a href="/notice/2023/06-slack-migration/">お知らせページ</a>をご覧ください．APIを用いた「移植」については引き続きご利用いただけますが，個別のトラブル対応などのサポートは終了予定です．
+（2023年9月）本説明会で説明した編入（移行）手続きは，<b class="alert">2023年8月24日正午をもって受付を終了しました</b>．詳細は<a href="/notice/2023/06-slack-migration">お知らせページ</a>をご覧ください．APIを用いた「移植」については引き続きご利用いただけますが，個別のトラブル対応などのサポートは終了予定です．
 </b>
 
 - 日程：2022年8月31日（水）16時30分～17時30分

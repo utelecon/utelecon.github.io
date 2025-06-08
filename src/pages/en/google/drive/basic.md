@@ -76,7 +76,7 @@ You can also download multiple files as a file batch. Specifically, on the folde
 
 ### Appendix
 
-If you wish others to be able to view or edit a file, instead of sending the downloaded files as email attachments, etc., it is more convenient to use the sharing feature by granting direct access to files on the Google Drive to others. With the sharing feature, changes will be immediately shown to your collaborators, and multiple people can edit files simultaneously. The sharing feature helps reduce the hassle of managing files via email. For information about the sharing feature, please refer to the [“Share files on Google Drive"](../../../google/drive/share/) (an English translation is planned) page.
+If you wish others to be able to view or edit a file, instead of sending the downloaded files as email attachments, etc., it is more convenient to use the sharing feature by granting direct access to files on the Google Drive to others. With the sharing feature, changes will be immediately shown to your collaborators, and multiple people can edit files simultaneously. The sharing feature helps reduce the hassle of managing files via email. For information about the sharing feature, please refer to the [“Share files on Google Drive"](../../../google/drive/share) (an English translation is planned) page.
 
 ## How to create folders
 

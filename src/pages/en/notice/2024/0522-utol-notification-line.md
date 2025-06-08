@@ -3,7 +3,7 @@ title: Commencement of the provision of the LINE notification function on UTOL a
 ---
 
 <div class="box">
-    In March and April 2025, we made some changes in the LINE notification function. As a result, some of the information in this notice is now out of date. Please refer to the notice titled "<a href="/en/notice/2025/0514-utol-notification-line/">Changes in LINE update notification function on UTOL (in March and April 2025)</a>." For more information on how to use the LINE notification function, please refer to the article "<a href="/en/utol/notification/">UTOLからの通知を設定する</a>Settings in UTOL to receive notifications</a>." (Added on May 9, 2025) 
+    In March and April 2025, we made some changes in the LINE notification function. As a result, some of the information in this notice is now out of date. Please refer to the notice titled "<a href="/en/notice/2025/0514-utol-notification-line">Changes in LINE update notification function on UTOL (in March and April 2025)</a>." For more information on how to use the LINE notification function, please refer to the article "<a href="/en/utol/notification/">UTOLからの通知を設定する</a>Settings in UTOL to receive notifications</a>." (Added on May 9, 2025) 
 </div>
 
 <div style="text-align: right;">
@@ -13,7 +13,7 @@ title: Commencement of the provision of the LINE notification function on UTOL a
 
 ## Overview
 
-The LINE notification function was implemented on [UTOL](/utol/) on May 14, 2024, allowing users to receive notifications of content updates, information, and messages on LINE. Please note that when you use LINE Notify, the LY Corporation (hereinafter, referred to as "LINE Corp.") may acquire and utilize the information related to the notifications. For example, advertisements may be displayed on the LINE app when receiving notifications. Please be aware of this before using LINE Notify.
+The LINE notification function was implemented on [UTOL](/utol) on May 14, 2024, allowing users to receive notifications of content updates, information, and messages on LINE. Please note that when you use LINE Notify, the LY Corporation (hereinafter, referred to as "LINE Corp.") may acquire and utilize the information related to the notifications. For example, advertisements may be displayed on the LINE app when receiving notifications. Please be aware of this before using LINE Notify.
 
 ## Display of Advertisement
 

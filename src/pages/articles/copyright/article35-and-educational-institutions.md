@@ -140,10 +140,10 @@ author:
 
 ## あわせて読みたい記事
 
-* [著作権法に関する基本](basic/)
-* [授業用として素材を自由に利用できるのはどういう場合か](educational-use-examples/)
-* [授業目的公衆送信補償金制度およびSARTRAS設立の経緯と意義](sartras/)
-* [SARTRASに加盟する団体一覧](sartras-member-organizations/)
+* [著作権法に関する基本](basic)
+* [授業用として素材を自由に利用できるのはどういう場合か](educational-use-examples)
+* [授業目的公衆送信補償金制度およびSARTRAS設立の経緯と意義](sartras)
+* [SARTRASに加盟する団体一覧](sartras-member-organizations)
 
 [^1]:
     例えば，教育機関における授業目的で，PDF化された著作物を先生が学生に送信するといったことが該当します．この記事では，「公の伝達」といった言葉もほぼ同義で使用しています．公衆送信や公の伝達についてより詳しく知りたい方は，参考文献などをご確認ください．参考：SARTRAS「授業目的講習送信補償金制度とは」（[https://sartras.or.jp/seido/](https://sartras.or.jp/seido/)）

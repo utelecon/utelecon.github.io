@@ -19,7 +19,7 @@ Information from “[Downdetector](https://downdetector.com/),” a service that
 
 ## Supplementary Information
 
-Information on failures and maintenance provided by the University of Tokyo is posted on the following page. To access this page, you must sign in with your [UTokyo Account](/en/utokyo_account/).
+Information on failures and maintenance provided by the University of Tokyo is posted on the following page. To access this page, you must sign in with your [UTokyo Account](/en/utokyo_account).
 
 <b class="box--important center">["System Failures and Maintenance Information"](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/service-status.aspx)</b>
 

@@ -6,7 +6,7 @@ lang: en
 ---
 
 - This article provides an overview of Webex Meetings and Webex Webinars features specific to the host.
-- For basic instructions on how to use Webex, please click [here](do_webex/).
+- For basic instructions on how to use Webex, please click [here](do_webex).
 
 ## Breakout Session
 Hosts can set the number of breakout sessions, assign participants to breakout sessions, rename each breakout session, and set the time limits and countdown timers for breakout sessions.**Please note that breakout sessions are not available for End-to-End Encrypted Meetings.**

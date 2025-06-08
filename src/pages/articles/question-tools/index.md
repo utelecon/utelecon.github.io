@@ -22,7 +22,7 @@ title: 授業における質問の受け付け方の工夫
 #### ZoomなどのWeb会議システムの活用
 {:#web-conf}
 
-Web会議システムの例として，ここではZoomを取り上げます（主なWeb会議システムは[こちら](/online/tools/#web-conf)の記事からご参照ください）．
+Web会議システムの例として，ここではZoomを取り上げます（主なWeb会議システムは[こちら](/online/tools#web-conf)の記事からご参照ください）．
 
 Zoomを用いて質問を募集するには，基本的に発声で質問してもらう方法と，[チャット](/zoom/usage/chat/)で質問してもらう方法があります．  
 発声で質問してもらうには，適宜質疑応答のための間を設けたり，[挙手機能](/zoom/usage/reaction/)などを使ったりするとスムーズに行えます．  
@@ -77,7 +77,7 @@ CommentScreenは投稿されたコメントを，ZoomなどのWeb会議システ
 
 （参考ページ）
 * **[CommentScreenで学生とコミュニケーションをとる](/articles/commentscreen/)**：サービスの概要と基本的な使い方をまとめています．
-* **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita/)**：授業においてCommentScreenを活用して，質問を受け付ける実践例です．
+* **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita)**：授業においてCommentScreenを活用して，質問を受け付ける実践例です．
 * **[CommentScreen 公式サイト](https://commentscreen.com/)**：システムについての概要がまとまっています．
 
 ### 授業規模が大きい・多くの質問を受け付ける場合
@@ -118,9 +118,9 @@ Slidoにはいくつかの機能がありますが，ここでは「Q&A」の機
 
 （参考ページ）  
 * **[Slido 説明ページ](/slido/)**：サービスの概要と基本的な使い方をまとめています．
-* **[オンライン授業のグッドプラクティス／四本裕子先生 心理I](/good-practice/interview/yotsumoto/)**：授業におけるSlidoを活用した質問募集，及びTipsの実践例です．
-* **[オンライン授業のグッドプラクティス／田中庸介先生 解剖学第3(神経)](/good-practice/interview/tanaka/)**：授業においてSlidoを活用して質問を募集・回答する実践例です．
-* **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita/)**：授業においてSlidoを活用して質問を募集する実践例です．
+* **[オンライン授業のグッドプラクティス／四本裕子先生 心理I](/good-practice/interview/yotsumoto)**：授業におけるSlidoを活用した質問募集，及びTipsの実践例です．
+* **[オンライン授業のグッドプラクティス／田中庸介先生 解剖学第3(神経)](/good-practice/interview/tanaka)**：授業においてSlidoを活用して質問を募集・回答する実践例です．
+* **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)**：授業においてSlidoを活用して質問を募集する実践例です．
 * **[Slido 公式サイト](https://www.sli.do/)**：サービスの概要がまとめられています．
 
 ## オンデマンド授業や授業外で質問を募集する
@@ -165,7 +165,7 @@ Slackでは，まずグループの「ワークスペース」を作り，その
 
 （参考ページ）
 * **[Slack 説明ページ](/articles/slack-communication/)**：サービスの概要と様々な使い方をまとめています．  
-* **[オンライン授業のグッドプラクティス／齊藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito/)**：Slackを用いて質問を募集する実践例です．
+* **[オンライン授業のグッドプラクティス／齊藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito)**：Slackを用いて質問を募集する実践例です．
 * **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi.html)**：Slackを用いて質問を募集する実践例です．
 * **[ゼミ形式の授業でSlackを活用する](/articles/slack-seminar/)**：ゼミ形式の授業でSlackを活用する方法を紹介しています．
 * **[Slack公式サイト](https://slack.com/intl/ja-jp/)**：サービスの概要がまとまっています．
@@ -197,7 +197,7 @@ Slackでは複数の「チャンネル」を作成できるのに対し，LINE�
 そのため，質問が非常に多い，複数の質疑応答が同時並行で行われる，他の連絡をする，といったことが起きると，閲覧しにくくなったり流れてしまったりすることがあるので，注意が必要です．
 
 （参考ページ）
-* **[オンライン授業のグッドプラクティス／廣瀬敬先生 固体地球科学](/good-practice/interview/hirose/)**：LINEオープンチャットを利用して質問を募集する実践例です．
+* **[オンライン授業のグッドプラクティス／廣瀬敬先生 固体地球科学](/good-practice/interview/hirose)**：LINEオープンチャットを利用して質問を募集する実践例です．
 * **[LINE公式サイト](https://guide.line.me/ja/services/openchat.html)**：サービスの特徴や利用方法がまとまっています．
 
 ### 授業規模が小さい・質問の募集は最低限できればよいという場合
@@ -237,7 +237,7 @@ Google ClassroomはGoogleの提供する学習管理システムで，資料・�
 * 質問の募集がメインのサービスではないため，多くの質問があると少し見にくくなる．
 
 （参考ページ）
-* **[Google Classroom 説明ページ](/online/tools/#google-classroom)**：サービスの概要と基本的な利用方法を紹介しています．
+* **[Google Classroom 説明ページ](/online/tools#google-classroom)**：サービスの概要と基本的な利用方法を紹介しています．
 * **[Google公式サイト](https://edu.google.com/intl/ALL_jp/products/classroom/)**：サービスの概要がまとめられています．
 
 #### メール

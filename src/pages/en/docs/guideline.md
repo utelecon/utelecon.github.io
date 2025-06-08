@@ -23,6 +23,6 @@ Please instruct participants to use a display name that identifies them for secu
 
 ## (Reference) Setting restrictions on access to web conferencing for classes
 
-- For Zoom: See the page "[Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control/)".
+- For Zoom: See the page "[Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control)".
 - For Webex: Set this in the "Unlocked Meetings" section of the settings.
 ![](./webex-waitingroom.png)

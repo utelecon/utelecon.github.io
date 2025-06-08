@@ -25,13 +25,13 @@ Please keep checking back for more updates.
 
 For your easy reference, several filtering options are available for you to look up ways of utilizing online resources. We hope they help you find relevant tips to enhance your online classes and activities.
 
-* **[Search by Tool](tools/)**
+* **[Search by Tool](tools)**
   * For users who are interested in better use of online tools.
   * For users who have questions such as “I need to use online tool XXX in my online class, but don’t know how to use it.”, “What are the features and functions of online tool XXX?”.
 * **[Search by Purpose](topics/)**
   * For users who want to find tools that best match their purpose and learn how to use them.
   * For users who have questions such as “How can I create a video?”, “How can I handwrite on online boards?”.
-* **[Utilizing Online Resources in Teaching](courses/)** (in Japanese)
+* **[Utilizing Online Resources in Teaching](courses)** (in Japanese)
   * This page summarizes useful information on conducting online classes at UTokyo, where online resource support is in great need.
   * For users who want to learn to improve their online classes. 
   * For users who have questions such as “How can I deliver an online class?”, “What tools should I use in my online class?”, “How can I make my online class more effective?”.
@@ -40,15 +40,15 @@ For your easy reference, several filtering options are available for you to look
   (将来的にオンライン授業での活用方法以外のコンテンツを追加する場合、上記リストの3項目目を以下に書き換えるとよい)
 
  * **Search by Situation**
-    * [Teaching](/en/courses/) 
+    * [Teaching](/en/courses) 
       * For users who ……
-	  * [Learning](/en/xxxxxxx/)
+	  * [Learning](/en/xxxxxxx)
 		  * For users who …...
-	  * [Research](/en/xxxxxx/) 
+	  * [Research](/en/xxxxxx) 
 		  * For users who …...
-    * [Extracurricular Activities](/en/xxxxxx/) 
+    * [Extracurricular Activities](/en/xxxxxx) 
 		  * For users who …...
-    * [Workplace](/en/xxxxxx/)
+    * [Workplace](/en/xxxxxx)
       * For users who …...
 ---->
 

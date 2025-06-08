@@ -109,7 +109,7 @@ Enter a question in the green frame below.
 
 Select "Paragraph" from the arrow icon on the right (the red circle in the image above).
 
-To prevent answers from being deleted mistakenly while inputting, it is recommended to write answers in a separate file on students’ computers before copying and pasting to Google Forms. (For details, see [Prof. Yotsumoto's Good Practice (only in Japanese)](/good-practice/interview/yotsumoto/)).
+To prevent answers from being deleted mistakenly while inputting, it is recommended to write answers in a separate file on students’ computers before copying and pasting to Google Forms. (For details, see [Prof. Yotsumoto's Good Practice (only in Japanese)](/good-practice/interview/yotsumoto)).
 
 Note that the automatic grading function (explanation in next section) cannot be used for paragraph questions.
 
@@ -192,7 +192,7 @@ Click on the eye symbol icon on the right (the red circle below) to preview  you
 
 Click "Send" on the right, and then the link symbol (the blue circle in below) to retrieve the link. You can copy and paste it into the chat box of UTOL or Zoom.
 
-In a large class, it is suggested to duplicate the form for access divide to avoid link breakdown due to heavy internet traffic. For more details, see [Prof. Yotsumoto's Good Practice (only in Japanese)](/good-practice/interview/yotsumoto/).
+In a large class, it is suggested to duplicate the form for access divide to avoid link breakdown due to heavy internet traffic. For more details, see [Prof. Yotsumoto's Good Practice (only in Japanese)](/good-practice/interview/yotsumoto).
 
 <figure>
 <img src="photo_17.png">
@@ -253,7 +253,7 @@ Below are steps to create a matrix questionnaire.
 ## Tips on Actual Implementation
 {:#implementation_tips}
 
-[Professor Hisashi Ohtsuki - Adaptive Behavior Theory (only in Japanese)](/good-practice/interview/ohtsuki/)  ([Online Class Information Exchange #26 (only in Japanese)](/events/luncheon/2021-01-15/))
+[Professor Hisashi Ohtsuki - Adaptive Behavior Theory (only in Japanese)](/good-practice/interview/ohtsuki)  ([Online Class Information Exchange #26 (only in Japanese)](/events/luncheon/2021-01-15/))
 
 There were more than 600 students in Professor Ohtsuki's class and he conducted Google Forms quizzes twice per class. Here are his tips.
 

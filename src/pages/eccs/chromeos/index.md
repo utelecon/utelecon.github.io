@@ -4,7 +4,7 @@ breadcrumb:
   title: Chromebox端末
 ---
 
-Chromebox端末は，駒場情報教育棟1階自習室，浅野情報基盤センター1階自習室，総合図書館，駒場図書館，柏図書館に設置しております．最新の設置場所および設置台数は，[ECCS端末配置場所の開室・閉室状況](/eccs/overview/facilities/#location_and_business_hours)を参照してください．
+Chromebox端末は，駒場情報教育棟1階自習室，浅野情報基盤センター1階自習室，総合図書館，駒場図書館，柏図書館に設置しております．最新の設置場所および設置台数は，[ECCS端末配置場所の開室・閉室状況](/eccs/overview/facilities#location_and_business_hours)を参照してください．
 
 ## 利用可能なアプリケーション
 Chromebox端末では，Google Chromeとそのextensionとして実現されているアプリケーションが利用可能です．

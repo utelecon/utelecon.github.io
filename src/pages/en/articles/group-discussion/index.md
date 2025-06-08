@@ -14,13 +14,13 @@ For example, Zoom's "Breakout Rooms" and Google Meet and Webex's "Breakout Sessi
 
 * Zoom: [Using the Breakout Room Function in Zoom (in Japanese)](/zoom/usage/breakout/)｜utelecon
 * Google Meet: [Using Breakout Sessions in Google Meet](https://support.google.com/meet/answer/10099500?hl=ja)
-* Webex: [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](/en/webex/do_webex/)｜utelecon
+* Webex: [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](/en/webex/do_webex)｜utelecon
 
 ## Unexpected Difficulties with Using Breakout Rooms?
 
 Breakout group discussions are often used in online classes and conferences. However, while it is a useful feature, it has some difficulties that are unique to online discussions and that are not present in face-to-face meetings.  
 
-As part of our activities as [Online Education Supporters](/en/about/oes/), we discussed the difficulties we experienced in online classes with other members. During these discussions, members frequently mentioned “having trouble with group discussions."  
+As part of our activities as [Online Education Supporters](/en/about/oes), we discussed the difficulties we experienced in online classes with other members. During these discussions, members frequently mentioned “having trouble with group discussions."  
 
 For example, the following comments were received.  
 
@@ -121,7 +121,7 @@ Alternatively, if the instructor can transcribe the same content into the chat, 
 
 One good way for organizers in the main meeting room to keep track of the progress of breakout discussions is to share an online worksheet. As participants discuss, they can enter the proceedings and results of their tasks on the worksheet using a cloud tool. The organizer can indirectly track the progress of each group by viewing the worksheets as they are being filled out in real time.  
 
-☞ You can also refer to "[Using Worksheets in Online Group Discussions](/en/articles/group-discussion-worksheet/)," which provides detailed examples of how to create and use worksheets.   
+☞ You can also refer to "[Using Worksheets in Online Group Discussions](/en/articles/group-discussion-worksheet)," which provides detailed examples of how to create and use worksheets.   
 
 Let’s say that the organizer is browsing through the worksheets during the discussions and notices the following:  
 
@@ -168,7 +168,7 @@ There is not necessarily a single right answer, as the appropriate method depend
 
 [Using Worksheets in Online Group Discussions](/en/articles/group-discussion-worksheet/)  
 
-[How to Duplicate Files and Folders in Google Drive Using GAS (in Japanese)](/articles/gas/copy/)  
+[How to Duplicate Files and Folders in Google Drive Using GAS (in Japanese)](/articles/gas/copy)  
 
 [Using the Zoom Breakout Room Feature (in Japanese)](/zoom/usage/breakout/)   
 

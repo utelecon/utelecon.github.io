@@ -110,7 +110,7 @@ Google ドキュメントは，Google Workspaceに含まれる文書作成ツー
 {:#google-slides}
 Google スライドは，Google Workspaceに含まれるプレゼンテーション作成ツールです．クラウド（Googleドライブ）上に文書を保存するため，複数人が同時編集をしたり，URLを使って文書を共有したりすることが簡単にできます．
 
-- **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita/)**：Googleスライドを用いてグループワークを行った授業の実践例です．
+- **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita)**：Googleスライドを用いてグループワークを行った授業の実践例です．
 - **[オンライン授業情報交換会 第11回 オンライン授業で使えるツール(1)](/events/luncheon/2020-06-24/)**：グループワークで活用するために，Google スライドなどで作成した雛形ファイルのコピーを複数作るという作業を自動化するスクリプト（簡単なプログラム）が紹介されています．
 
 上記以外の資料作成ツールとして，表計算サービスの「Google スプレッドシート」などがあり，同じように使うことができます．
@@ -129,7 +129,7 @@ Google グループ（Google Groups）はGoogleの無料サービスの1つで�
 Google Apps Script（GAS）はGoogleが提供するプラットフォームで，元々Googleのアプリケーションにおいてメニューやボタンを操作して使用できる機能だけではできない高度な操作を，プログラミング技術を使って実現することができます．たとえば各種Googleサービス（Googleドキュメント，Googleスライド，Googleスプレッドシートなど）の機能の拡張，外部の他のサービスとの連携，操作の自動化などができます．
 
 - **[GAS（Google Apps Script）を使ってみましょう](/articles/gas/)**: GASがどういったものか，その機能や，簡単に始められる方法を紹介しています．
-- **[GASを使ってGoogleドライブでファイルとフォルダを複製する方法](/articles/gas/copy/)**: Googleドライブのファイルやフォルダの複製作業を，GASを用いて実現する方法を紹介しています．
+- **[GASを使ってGoogleドライブでファイルとフォルダを複製する方法](/articles/gas/copy)**: Googleドライブのファイルやフォルダの複製作業を，GASを用いて実現する方法を紹介しています．
 
 ### Microsoft 365に含まれるツール
 
@@ -146,7 +146,7 @@ Word以外にも，ExcelやPowerPointのオンライン版が同様に利用で�
 Cosense（旧：Scrapbox）は，オンラインで多数のメモ書きやノートを保存して整理するためのツールです．複数人が共同で同時編集をしたり，URLを使って内容を共有したりすることができます．「リンク」や「タグ」などを使って多数のページを簡単に繋げることができるのが特徴で，これを活用して，オンライン授業で資料をまとめたポータルサイトのように使うことができます．
 
 - **[Cosenseの基本的な使い方](/articles/cosense/)**：Cosenseの基本的な使い方を説明しています．
-- **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi/)**：授業においてCosenseで資料を共有する実践例です．
+- **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてCosenseで資料を共有する実践例です．
 
 ### Mathpix
 Mathpixは，スクリーン上の数式や手書きした数式を読み取ることができるツールです．
@@ -164,15 +164,15 @@ Mathpixは，スクリーン上の数式や手書きした数式を読み取る�
 iPadで使える，最もポピュラーと思われる手書きノートアプリです．有料アプリで，980円(2022年1月現在)で購入できます．
 
 - **[GoodNotes 5で板書をする](/articles/goodnotes-writing/)**：基本的な使い方と板書での活用方法を説明しています．
-- **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi/)**：授業においてGoodNotes 5で板書をする実践例です．
-- **[オンライン授業のグッドプラクティス／齊藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito/)**：授業においてGoodNotes 5で板書をする実践例です．
+- **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：授業においてGoodNotes 5で板書をする実践例です．
+- **[オンライン授業のグッドプラクティス／齊藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito)**：授業においてGoodNotes 5で板書をする実践例です．
 
 ### OneNote
 
 OneNoteは，Microsoft 365に含まれる電子ノートツールです．Webブラウザからも（使い勝手は悪いですが）同時編集をすることができます．
 
 - **[OneNoteで板書する](/articles/onenote-whiteboard/)**：基本的な使い方と板書での活用方法を説明しています．
-- **[オンライン授業のグッドプラクティス／入江薫先生 数理統計I、II](/good-practice/interview/irie/)**：授業においてOneNoteで板書をする実践例です．
+- **[オンライン授業のグッドプラクティス／入江薫先生 数理統計I、II](/good-practice/interview/irie)**：授業においてOneNoteで板書をする実践例です．
 
 ### Miro
 Miro社が提供するオンラインのホワイトボードツールです．
@@ -197,33 +197,33 @@ Slackはグループウェアと呼ばれるアプリの一種で，グループ
 - **[UTokyo Slack 説明ページ](/slack/)**：全学的に運用しているSlackである「UTokyo Slack」について，ワークスペース作成などの手続き方法や活用のヒントなどをまとめています．
 - **[Slackで学生とコミュニケーションを取る方法](/articles/slack-communication/)**：基本的な使い方などを説明しています．
 - **[ゼミ形式の授業でSlackを活用する](/articles/slack-seminar/)**：特にゼミ形式の授業において，Slackを活用する方法を紹介しています．
-- **[オンライン授業のグッドプラクティス／斎藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito/)** ：オンデマンド形式の授業でSlackを使用されており，Slackで授業内容に関する質問を募っている実践例です．
-- **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi/)**：Slackで質問や相談を受けた授業の実践例です．
-- **[Slackでの授業における質問の受け付け方](/articles/question-tools/#Slack)**：実際の授業でのSlack活用例として，質問を受け付ける方法とそのコツを紹介しています．
+- **[オンライン授業のグッドプラクティス／斎藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito)** ：オンデマンド形式の授業でSlackを使用されており，Slackで授業内容に関する質問を募っている実践例です．
+- **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)**：Slackで質問や相談を受けた授業の実践例です．
+- **[Slackでの授業における質問の受け付け方](/articles/question-tools#Slack)**：実際の授業でのSlack活用例として，質問を受け付ける方法とそのコツを紹介しています．
 
 ### Discord
 Discordは，グループやチーム内でコミュニケーション用ツールです．Slackに似た「チャンネル」でテキストチャットがやり取りできるほか，ボイスチャット（音声による通話）も可能で，グループやチーム内で気軽なWeb会議のように使うこともできます．
 
 - **[Discord（外部サイト）](https://discord.com/)**：公式ウェブサイトです．
-- **[Discordを使って交流する](/articles/online-interaction/#discord)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Discordを使って交流する](/articles/online-interaction#discord)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### LINEオープンチャット
 {:#line-openchat}
 「LINEオープンチャット」は，チャットアプリ「LINE」の機能で，あらかじめLINEの「友だち」として登録していなくても指定の「コード」を共有して参加できるチャットルーム（トークルーム）を作ることができるものです．オープンチャットのトークルームでは，LINE全体のプロフィールとは異なるプロフィールを設定できるため，プライベートなプロフィールを見せないでよく（匿名にすることもできる），学生も参加しやすいのが利点です．
 
 - **[オープンチャットを利用する（LINEみんなの使い方ガイド）（外部サイト）](https://guide.line.me/ja/services/openchat.html)**：オープンチャットに関するLINE公式の説明ページです．
-- **[オンライン授業のグッドプラクティス／廣瀬敬先生 固体地球科学](/good-practice/interview/hirose/)**：授業においてLINEオープンチャットで匿名の質問を受け付けた実践例です．
-- **[LINEオープンチャットでの授業における質問の受け付け方](/articles/question-tools/#LINEopenchat)** 実際の授業でのLINEオープンチャット活用例として，質問を受け付ける方法とそのコツを紹介しています．
+- **[オンライン授業のグッドプラクティス／廣瀬敬先生 固体地球科学](/good-practice/interview/hirose)**：授業においてLINEオープンチャットで匿名の質問を受け付けた実践例です．
+- **[LINEオープンチャットでの授業における質問の受け付け方](/articles/question-tools#LINEopenchat)** 実際の授業でのLINEオープンチャット活用例として，質問を受け付ける方法とそのコツを紹介しています．
 
 ### Gather
 レトロゲーム風の遊び心のあるUIが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
 - **[Gather（外部サイト）](https://www.gather.town/)**：Gatherの公式サイトです．
-- **[Gatherを使って交流する](/articles/online-interaction/#gather)**：Gatherを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Gatherを使って交流する](/articles/online-interaction#gather)**：Gatherを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### Remo
 画面上にある自分のアイコンを動かすことで擬似的な「テーブル」を移動できることが特徴の会議ツールです．ZoomやWebexなどのフォーマルな場面で使うWeb会議と少し毛色の違った，交流のためのオンライン通話に使えるツールです．
 - **[Remo（外部サイト）](https://jp.remo.co/)**：Remoの公式サイトです．
-- **[Remoを使って交流する](/articles/online-interaction/#remo)**：Remoを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
+- **[Remoを使って交流する](/articles/online-interaction#remo)**：Remoを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
 
 ### SpatialChat
 SpatialChatは，画面上での他の人との「距離」によって音量が変化する会議ツールです．
@@ -240,14 +240,14 @@ Web会議ツールと併用することで学生と教員の双方向のコミ�
 Slidoは，Q&Aやライブ投票・アンケートなど，授業や会議・講演会などでの参加者との双方向コミュニケーションに役立つ機能を提供しているWebサービスです．
 
 - **[Slido 説明ページ](/slido/)**：使い方や活用事例をまとめています．
-- **[Slidoを用いた授業における質問の受け付け方](/articles/question-tools/#Slido)**：実際の授業でのSlido活用例として，質問を受け付ける方法とそのコツを紹介しています．
+- **[Slidoを用いた授業における質問の受け付け方](/articles/question-tools#Slido)**：実際の授業でのSlido活用例として，質問を受け付ける方法とそのコツを紹介しています．
 
 ### CommentScreen
 CommentScreenは，オンライン授業をしている画面上に，直接学生の質問やコメントを匿名・リアルタイムで表示することができるツールです．
 
 - **[CommentScreenで学生とコミュニケーションをとる](/articles/commentscreen/)**：基本的な使い方をを説明しています．
-- **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita/)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
-- **[CommentScreenを用いた授業における質問の受け付け方](/articles/question-tools/#CommentScreen)**：実際の授業でのCommentScreen活用例として，質問を受け付ける方法とそのコツを紹介しています．
+- **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
+- **[CommentScreenを用いた授業における質問の受け付け方](/articles/question-tools#CommentScreen)**：実際の授業でのCommentScreen活用例として，質問を受け付ける方法とそのコツを紹介しています．
 
 
 

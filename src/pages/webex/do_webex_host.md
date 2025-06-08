@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 * ここでは，開催者特有のWebex Meetings・Webex Webinarsの機能を説明します．	
-* 基本的な使い方については<a href="do_webex/" target="_blank">こちら</a>をご覧ください．
+* 基本的な使い方については<a href="do_webex" target="_blank">こちら</a>をご覧ください．
 
 ## ブレイクアウトセッション
 

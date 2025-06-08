@@ -6,7 +6,7 @@ breadcrumb:
 
 このページでは，Slidoの主催者側画面において，主催者ができることを説明しています．主催者側画面には，[イベントの一覧ページ](https://admin.sli.do/events)からアクセスしてください．
 
-Slidoに参加者として参加する場合の操作方法は「[Slidoで参加者ができること](how_to_use_audience/)」を確認してください．
+Slidoに参加者として参加する場合の操作方法は「[Slidoで参加者ができること](how_to_use_audience)」を確認してください．
 
 ## 学生の質問を確認する
 

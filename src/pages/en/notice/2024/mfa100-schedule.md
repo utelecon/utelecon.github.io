@@ -43,8 +43,8 @@ For any other questions or concerns, please contact the [email form of the utele
 ## Additional Notes
 {:#check-also}
 
-- Our authentication system is undergoing changes to accommodate more MFA options. See "[System Changes to the Authentication Infrastructure of UTokyo Account](/en/notice/2024/02-utac-auth-improvement/)" for details.
-- To obtain a UTokyo Wi-Fi account, you also need to pass the information security test. See "[About using UTokyo Wi-Fi accounts for AY 2024](/en/notice/2024/02-wifi/)" for more details
+- Our authentication system is undergoing changes to accommodate more MFA options. See "[System Changes to the Authentication Infrastructure of UTokyo Account](/en/notice/2024/02-utac-auth-improvement)" for details.
+- To obtain a UTokyo Wi-Fi account, you also need to pass the information security test. See "[About using UTokyo Wi-Fi accounts for AY 2024](/en/notice/2024/02-wifi)" for more details
 - See also the earlier announcement for faculty and staff ["Achieving 100% Multi-factor Authentication Adoption for UTokyo Accounts"](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=4768) (faculty and staff only) by the Executive Vice President in charge of Information Systems (CIO).
 
 ## Update History

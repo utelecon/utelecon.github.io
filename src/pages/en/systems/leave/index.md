@@ -12,7 +12,7 @@ Please check which of the following applies to you, and **back up your data in a
 ## If you are no longer affiliated with the University of Tokyo
 {:#leave}
 
-If you leave the University of Tokyo due to graduation or resignation, your UTokyo Account will be revoked after the end of the enrollment period and you will not be able to use the various information systems. Please back up your data according to the instructions given on the **“[Data Backup upon Leaving the University of Tokyo](backup/)”** page.
+If you leave the University of Tokyo due to graduation or resignation, your UTokyo Account will be revoked after the end of the enrollment period and you will not be able to use the various information systems. Please back up your data according to the instructions given on the **“[Data Backup upon Leaving the University of Tokyo](backup)”** page.
 
 Only if students graduate, the revocation will be at the end of the final month of the enrollment period.
 
@@ -26,7 +26,7 @@ Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers 
 
 If your affiliation changes within the University of Tokyo, **as long as your affiliation is uninterrupted**, you will continue to be able to use the information systems with the same UTokyo Account. Therefore, there is no need to back up your data.
 
-- However, if your enrollment period is interrupted when you change your affiliation, your UTokyo Account will be revoked, so please make sure to back up your data according to the instructions on the "**[Data Backup upon Leaving the University of Tokyo](backup/)**" page.
+- However, if your enrollment period is interrupted when you change your affiliation, your UTokyo Account will be revoked, so please make sure to back up your data according to the instructions on the "**[Data Backup upon Leaving the University of Tokyo](backup)**" page.
 - Depending on whether you are a student or a faculty/staff member, your employment status and other factors, some systems may not be available to you, or the scope of functions you can use may be limited.
     - For example, only students and faculty/staff members employed by the University of Tokyo can install and use the Office applications under the UTokyo Microsoft License. If you no longer qualify for this due to a change in affiliation, you will no longer be able to use them.
     - And, for example, only faculty/staff members can access UTokyo Portal. If you no longer qualify for this due to a change in affiliation, you will no longer be able to access it.

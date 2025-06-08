@@ -34,7 +34,7 @@ UTokyo VPN経由で東京大学附属図書館が契約・提供する電子ジ�
 ### UTokyo Accountの多要素認証
 {:#mfa}
 
-セキュリティの観点より，UTokyo VPNの利用に当たっては[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須としております．「**[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial/)**」を**最後の「手順4：多要素認証の利用を申請する」まで確実に**行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が**システムに反映されるまで約40分かかるので，それまでしばらく待ってからUTokyo VPNを利用**してください．
+セキュリティの観点より，UTokyo VPNの利用に当たっては[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須としております．「**[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」を**最後の「手順4：多要素認証の利用を申請する」まで確実に**行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が**システムに反映されるまで約40分かかるので，それまでしばらく待ってからUTokyo VPNを利用**してください．
 
 ### 情報セキュリティ教育
 {:#information-security-education}
@@ -50,11 +50,11 @@ UTokyo VPNの利用にあたっては，情報セキュリティ教育の受講�
 
 UTokyo VPNを利用するには，専用のアプリ「Cisco Secure Client」を端末にインストールし，接続を行います．以下の各ページで，OSごとにその方法を説明しています．なお，初期設定を含めたすべての作業を学外から行うことが可能です．
 
-* [WindowsでUTokyo VPNを利用する](windows/)
-* [macOSでUTokyo VPNを利用する](macos/)
-* [AndroidでUTokyo VPNを利用する](android/)
-* [iPadでUTokyo VPNを利用する](ipad/)
-* [iPhoneでUTokyo VPNを利用する](iphone/)
+* [WindowsでUTokyo VPNを利用する](windows)
+* [macOSでUTokyo VPNを利用する](macos)
+* [AndroidでUTokyo VPNを利用する](android)
+* [iPadでUTokyo VPNを利用する](ipad)
+* [iPhoneでUTokyo VPNを利用する](iphone)
 {:.cards}
 
 ## FAQ

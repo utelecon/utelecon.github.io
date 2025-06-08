@@ -271,7 +271,7 @@ It is possible to create class materials in advance using OneNote. If you have a
 
 The easiest way to share your notes with students in real time is to share your OneNote screen in Zoom.
 
-Please refer to "[Screen Sharing](/en/zoom/usage/screen_sharing/)" of utelecon on how to screen share via Zoom.  
+Please refer to "[Screen Sharing](/en/zoom/usage/screen_sharing)" of utelecon on how to screen share via Zoom.  
 
 
 The following image shows the Zoom screen sharing of OneNote.
@@ -331,7 +331,7 @@ You can share or save a PDF by clicking on "Send a copy of the page" in the imag
 
 ## Examples of Good Practices and Application
 
-* [Professor Kaoru Irie: Mathematical Statistics I, II (Japanese Only)](/good-practice/interview/irie/)
+* [Professor Kaoru Irie: Mathematical Statistics I, II (Japanese Only)](/good-practice/interview/irie)
   * OneNote is used as a digital whiteboard and shared via Zoom.  
     * Microsoft Surface and SurfacePen are used to write on the board.
     * To cover the inconvenience of pointing to specific pieces of information, the marker function is utilized.
