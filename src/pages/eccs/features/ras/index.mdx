@@ -67,7 +67,7 @@ ECCSでは，リモートアクセス環境を利用することにより，外�
 1. Splashtop Enterpriseを起動してください．
 1. 以下の情報を入力し，「ログイン」を押してください．
     - Splashtop Center：`ras2.ecc.u-tokyo.ac.jp`
-    - メールアドレス：UTokyo Accountのユーザー名（10桁の共通ID＋`@utac.u-tokyo.ac.jp`，例：`0123456789@utac.u-tokyo.ac.jp`）
+    - メールアドレス：UTokyo Account（例：`0123456789@utac.u-tokyo.ac.jp`）
     - パスワード：UTokyo Accountのパスワード
 
     ![](./splashtop-login.png){:.small}
@@ -75,7 +75,7 @@ ECCSでは，リモートアクセス環境を利用することにより，外�
     - サーバが混雑している場合，数分かかることがあります．
 
     ![](./select-computer.png){:.small}
-1. Mac環境のログイン画面が表示されます．通常のECCS端末と同様に，10桁の共通IDとUTokyo Accountのパスワードでログインして利用してください．
+1. Mac環境のログイン画面が表示されます．通常のECCS端末と同様に，共通ID（UTokyo Accountの先頭10桁の数字のみの部分）とUTokyo Accountのパスワードでログインして利用してください．
     - 接続元のデバイスで利用しているキーボードが正しく判別されず，パスワード中の記号が正しく入力できない場合があります．入力される記号を「名前」欄で確認したうえで，「パスワードを入力」欄に入力してください．
 
     ![](./mac-signin.png){:.small}
@@ -85,5 +85,5 @@ ECCSでは，リモートアクセス環境を利用することにより，外�
 Mac環境にログインする画面で，キーチェーンに関するメッセージが表示されることがあります．この場合，以下の方法に従って，キーチェーンの関連ファイルを削除することで，メッセージが表示されなくなります．
 
 1. WebDAV環境のMac環境にログインしてください（詳しくは「[WebDAV環境を利用する](/eccs/features/webdav/)」を参照してください）．
-1. WebDAV環境上で，ディレクトリ`<共通ID>/Library/Keychains`を選択し，削除してください．
+1. WebDAV環境上で，ディレクトリ`<共通ID（UTokyo Accountの先頭10桁の数字のみの部分）>/Library/Keychains`を選択し，削除してください．
     ![](./webdav-remove-keychains.drawio.png){:.medium}

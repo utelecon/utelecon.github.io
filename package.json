@@ -28,6 +28,7 @@
     "github-slugger": "^2.0.0",
     "glob": "^11.0.1",
     "gray-matter": "^4.0.3",
+    "hast-util-is-element": "^3.0.0",
     "hast-util-select": "6.0.4",
     "hast-util-to-text": "^4.0.2",
     "mdast-util-mdx": "3.0.0",

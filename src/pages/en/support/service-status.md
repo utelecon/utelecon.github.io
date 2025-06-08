@@ -7,7 +7,7 @@ If you are unable to use cloud services provided by external providers, please r
 
 Below are the main service status pages.
 
-- **Zoom**: [Zoom Service Status](https://status.zoom.us/)
+- **Zoom**: [Zoom Service Status](https://www.zoomstatus.com/)
 - **Webex**: [Webex Global Service Status](https://status.webex.com/)
 - **ECCS Cloud Email (Google Workspace)**: [Google Workspace Status Dashboard](https://www.google.com/appsstatus/dashboard/)
 - **UTokyo Microsoft License**: [Service health](https://portal.office.com/servicestatus)
