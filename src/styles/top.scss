@@ -1,5 +1,5 @@
-@import "color";
-@import "components/card.scss";
+@use "color";
+@use "components/card";
 
 .cards {
   text-align: left;
@@ -36,7 +36,7 @@
         content: "arrow_forward_ios";
         font-family: "Material Icons";
         font-weight: bold;
-        color: $heading-color;
+        color: color.$heading-color;
         right: 0.5em;
       }
     }
@@ -95,7 +95,7 @@
         content: "arrow_forward";
         font-family: "Material Icons";
         font-weight: bold;
-        color: $heading-color;
+        color: color.$heading-color;
         vertical-align: middle;
       }
 
