@@ -49,6 +49,9 @@
       name: "UTokyo Slack"
       url: "/en/slack/"
     -
+      name: "Educational Campus-wide Computing System (ECCS)"
+      url: "/en/eccs/"
+    -
       name: "UTokyo VPN"
       url: "/en/utokyo_vpn/"
     -
@@ -114,6 +117,9 @@
     -
       name: "System Failures and Maintenance Information"
       url: "https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/service-status.aspx"
+    -
+      name: "Cloud Service Status Information"
+      url: "/en/support/service-status"
     -
       name: "Trouble in Entering Classes"
       url: "/en/oc/join"
