@@ -80,7 +80,7 @@ title: Webex meeting room 101（for instructors）
 
 <br>
 <br>
-<a href="../index/" target="_blank">Return to "How to use WebEx"</a>
+<a href="../" target="_blank">Return to "How to use WebEx"</a>
 
 
 
