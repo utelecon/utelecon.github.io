@@ -56,4 +56,4 @@ You can restrict access to a Zoom meeting room by editing the following fields (
     * (3) Who should go in the waiting room?: “Everyone”
 
 * Method D (**Not recommended**): Only admit participants signed in with university accounts into the meeting room
-    * (2) Require authentication to join: Turn on this option and select ”大学アカウントでサインイン”(Sign in with university account) , and confirm that the domain showing up below is ‘*.u-tokyo.ac.jp’.（[Details](/en/zoom/auth.html)）
+    * (2) Require authentication to join: Turn on this option and select ”大学アカウントでサインイン”(Sign in with university account) , and confirm that the domain showing up below is ‘*.u-tokyo.ac.jp’.（[Details](/en/zoom/auth/)）

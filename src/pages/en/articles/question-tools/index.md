@@ -175,7 +175,7 @@ As a rule, we recommend collecting questions using the channel. However, it migh
 (References)
 * **[Guide to Slack](/en/articles/slack-communication/)**: Provides an overview of the service, along with instructions on how to take advantage of its various features.
 * **[Good Practices for Online Classes / Professor Saito Norikazu, Numerical Analysis I & Numerical Analysis](/good-practice/interview/saito/)** (in Japanese): A practical example of collecting questions using Slack.
-* **[Good Practices for Online Classes / Professor Tadashi Shiraishi, Jurisprudence I](/good-practice/interview/shiraishi.html)** (in Japanese): A practical example of collecting questions using Slack.
+* **[Good Practices for Online Classes / Professor Tadashi Shiraishi, Jurisprudence I](/good-practice/interview/shiraishi/)** (in Japanese): A practical example of collecting questions using Slack.
 * **[Using Slack in a Seminar](/articles/slack-seminar/)** (in Japanese): Provides instructions on how to use Slack effectively in a seminar course.
 * **[Slack Official Website](https://slack.com/)**: Provides an overview of the service.
 

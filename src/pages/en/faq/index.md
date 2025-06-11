@@ -182,7 +182,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * Please refer to [here](/en/zoom/license/) for the application procedure.
 
 #### Q. Can I use my UTokyo Zoom account to host meetings and events outside the university?
-* Please refer to the bottom of [this page](/notice/webmeetingaccount20201120.html) for related information before making a decision.
+* Please refer to the bottom of [this page](/notice/webmeetingaccount20201120/) for related information before making a decision.
     * As a member of UTokyo, you are welcome to use these services (Zoom, Webex, Google Meets) for research, education, study, and academic purposes. If you wish to host a meeting that exceeds the participant capacity allowed by the university license, please purchase an individual license on your own.
 
 #### Q. How can I edit a single occurrence of a recurring meeting?

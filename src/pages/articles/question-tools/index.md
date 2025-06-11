@@ -166,7 +166,7 @@ Slackでは，まずグループの「ワークスペース」を作り，その
 （参考ページ）
 * **[Slack 説明ページ](/articles/slack-communication/)**：サービスの概要と様々な使い方をまとめています．  
 * **[オンライン授業のグッドプラクティス／齊藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito/)**：Slackを用いて質問を募集する実践例です．
-* **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi.html)**：Slackを用いて質問を募集する実践例です．
+* **[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi/)**：Slackを用いて質問を募集する実践例です．
 * **[ゼミ形式の授業でSlackを活用する](/articles/slack-seminar/)**：ゼミ形式の授業でSlackを活用する方法を紹介しています．
 * **[Slack公式サイト](https://slack.com/intl/ja-jp/)**：サービスの概要がまとまっています．
 
