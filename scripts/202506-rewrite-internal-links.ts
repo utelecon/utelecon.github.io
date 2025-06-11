@@ -19,17 +19,17 @@ function splitPathAndAnchor(url: string): { path: string; anchor: string | null 
 function addTrailingSlash(url: string): string {
   // パス部分と可能性のあるアンカー部分を分離
   const { path: urlPath, anchor } = splitPathAndAnchor(url);
-  
+
   // ファイル拡張子、クエリパラメータがある場合や、
   // すでにスラッシュで終わっている場合は処理しない
   if (
-    /\.[a-zA-Z0-9]+$/.test(urlPath) || 
-    urlPath.includes('?') || 
+    /\.[a-zA-Z0-9]+$/.test(urlPath) ||
+    urlPath.includes('?') ||
     urlPath.endsWith('/')
   ) {
     return url;
   }
-  
+
   // スラッシュを追加してアンカーも戻す
   return anchor ? `${urlPath}/${anchor}` : `${urlPath}/`;
 }
@@ -40,9 +40,23 @@ function isInternalLink(url: string): boolean {
   if (/^https?:\/\//.test(url)) {
     return url.includes('utelecon.adm.u-tokyo.ac.jp');
   }
-  
+
   // 相対URLの場合（/から始まるか、./や../で始まるか、文字から始まる）
   return /^\/[^/]|^\.\/|^\.\.\/|^[^/:#?]/.test(url) && !url.startsWith('mailto:');
+}
+
+function isContentLink(url: string): boolean {
+  const { path: urlPath, anchor } = splitPathAndAnchor(url);
+  // .htmlで終わるファイルへのリンクか拡張子がない場合
+  return /\.(html)$/.test(urlPath) || !/\.[a-zA-Z0-9]+$/.test(urlPath);
+}
+
+function isRelativeLink(url: string): boolean {
+  return !url.startsWith('/');
+}
+
+function isIndexFile(filePath: string): boolean {
+  return path.basename(filePath) === 'index.md' || path.basename(filePath) === 'index.mdx' || path.basename(filePath) === 'index.astro';
 }
 
 // マークダウンリンクを処理する正規表現
@@ -54,30 +68,38 @@ const htmlLinkRegex = /href=["']([^"']+)["']/g;
 async function processFile(filePath: string): Promise<void> {
   try {
     const content = await fs.readFile(filePath, 'utf-8');
-    
+
     // 更新されたコンテンツ
     let updatedContent = content;
-    
+
     // マークダウンリンクを処理
     updatedContent = updatedContent.replace(mdLinkRegex, (match, text, url) => {
-      if (isInternalLink(url)) {
+      if (isInternalLink(url) && isContentLink(url)) {
         // トレーリングスラッシュを追加（相対パスはそのままで）
-        const processedUrl = addTrailingSlash(url);
+        let processedUrl = addTrailingSlash(url);
+        // 相対パスの先頭に../を追加
+        if (isRelativeLink(processedUrl) && !isIndexFile(filePath)) {
+          processedUrl = `../${processedUrl}`
+        }
         return `[${text}](${processedUrl})`;
       }
       return match;
     });
-    
+
     // HTMLリンクを処理
     updatedContent = updatedContent.replace(htmlLinkRegex, (match, url) => {
-      if (isInternalLink(url)) {
+      if (isInternalLink(url) && isContentLink(url)) {
         // トレーリングスラッシュを追加（相対パスはそのままで）
-        const processedUrl = addTrailingSlash(url);
+        let processedUrl = addTrailingSlash(url);
+        // 相対パスの先頭に../を追加
+        if (isRelativeLink(processedUrl) && !isIndexFile(filePath)) {
+          processedUrl = `../${processedUrl}`
+        }
         return `href="${processedUrl}"`;
       }
       return match;
     });
-    
+
     // ファイルが変更された場合のみ書き込み
     if (content !== updatedContent) {
       await fs.writeFile(filePath, updatedContent, 'utf-8');
@@ -91,10 +113,10 @@ async function processFile(filePath: string): Promise<void> {
 async function main() {
   // 処理対象ファイルを検索
   const files = await glob('{src/pages/**/*.{md,mdx,astro},src/components/**/*.{md,mdx,astro}}', { ignore: 'node_modules/**' });
-  
+
   // 各ファイルを並行処理
   await Promise.all(files.map(processFile));
-  
+
   console.log(`All files processed successfully! Processed ${files.length} files.`);
 }
 
