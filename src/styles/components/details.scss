@@ -1,14 +1,15 @@
+@use "@styles/color";
+
 details {
   display: block;
-  
   margin: 0.125em -0.75em;
   padding: 0.125em 0.75em;
-  border: solid 1px $gray;
+  border: solid 1px color.$gray;
   border-radius: 0.375em;
 
   summary {
     cursor: pointer;
-    color: $link-color;
+    color: color.$link-color;
     &:hover {
       text-decoration: underline;
     }

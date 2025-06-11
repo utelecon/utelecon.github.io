@@ -88,9 +88,9 @@ function labelProps(selection: Selection) {
 </script>
 
 <style lang="scss">
-  @import "@styles/color.scss";
+  @use "@styles/color";
 
-  $main-color: $heading-color;
+  $main-color: color.$heading-color;
   $sub-color: white;
 
   // buttonのmarginの優先度を上げるため.wrapperが必要
@@ -140,16 +140,16 @@ function labelProps(selection: Selection) {
 
   button :global(p) {
     font-size: 0.9em;
-    color: $black-gray;
+    color: color.$black-gray;
     margin: 0.5em 0 0;
   }
 
   p {
     font-weight: bold;
-    color: $red;
+    color: color.$red;
     margin: 0.2em;
     padding: 12px;
     border-radius: 5px;
-    border: 1px solid $red;
+    border: 1px solid color.$red;
   }
 </style>

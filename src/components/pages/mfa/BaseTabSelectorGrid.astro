@@ -103,13 +103,13 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
 </script>
 
 <style lang="scss">
-  @import "@styles/color.scss";
+  @use "@styles/color";
 
   .wrapper {
     display: grid;
     grid-template-columns: auto 4rem 4rem;
     // row-gap: 0.5rem;
-    border: 1px solid $white-gray-dark;
+    border: 1px solid color.$white-gray-dark;
     margin: 1rem 0;
     padding: 0.5rem 0;
 
@@ -141,7 +141,7 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
     p.col-label {
       padding: 0.1rem 0.5rem;
       font-weight: bold;
-      background-color: $white-gray-light;
+      background-color: color.$white-gray-light;
     }
     p.col-first,
     p.col-alt {
@@ -150,12 +150,12 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
     span.col-first,
     span.col-alt {
       position: relative;
-      background-color: $white-gray-dark;
-      border-inline-start: 1px solid $white-gray-light;
-      border-inline-end: 1px solid $white-gray-light;
+      background-color: color.$white-gray-dark;
+      border-inline-start: 1px solid color.$white-gray-light;
+      border-inline-end: 1px solid color.$white-gray-light;
 
       &:has(input[type="radio"]:disabled) {
-        background-color: $white-gray-light;
+        background-color: color.$white-gray-light;
       }
 
       & > input[type="radio"] {

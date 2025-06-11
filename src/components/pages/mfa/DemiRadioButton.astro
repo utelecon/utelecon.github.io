@@ -11,11 +11,11 @@ export interface Props
 <span class="button-inner"></span>
 
 <style lang="scss">
-  @import "@styles/color.scss";
+  @use "@styles/color";
 
   span.button-outer {
     position: absolute;
-    border: 2px solid $black-gray;
+    border: 2px solid color.$black-gray;
     border-radius: 50%;
     width: 1.2rem;
     height: 1.2rem;
@@ -30,8 +30,8 @@ export interface Props
 
   span.button-inner {
     position: absolute;
-    border: 2px solid $white-gray-light;
-    background-color: $white-gray-light;
+    border: 2px solid color.$white-gray-light;
+    background-color: color.$white-gray-light;
     border-radius: 50%;
     width: 0.8rem;
     height: 0.8rem;
@@ -39,7 +39,7 @@ export interface Props
     margin: auto !important;
 
     input:checked ~ & {
-      background-color: $black-gray;
+      background-color: color.$black-gray;
     }
 
     input:disabled ~ & {

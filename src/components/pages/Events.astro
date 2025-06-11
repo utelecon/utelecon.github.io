@@ -78,11 +78,11 @@ const eventsList: EventInformation[] = show.map((key) => {
 </If>
 
 <style lang="scss">
-  @import "@styles/color.scss";
+  @use "@styles/color";
 
   .date {
     display: inline-block;
-    color: $heading-color;
+    color: color.$heading-color;
     margin-right: 8px;
   }
 

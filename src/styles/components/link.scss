@@ -1,8 +1,10 @@
+@use "@styles/color";
+
 :link {
-  color: $link-color;
+  color: color.$link-color;
 }
 :visited {
-  color: $visited-color;
+  color: color.$visited-color;
 }
 :link,
 :visited {

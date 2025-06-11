@@ -52,7 +52,7 @@ const supportUrl = {
 </div>
 
 <style lang="scss">
-  @import "@styles/color.scss";
+  @use "@styles/color";
   .wrap {
     position: fixed;
     right: 0;
@@ -107,7 +107,7 @@ const supportUrl = {
 
         &:hover {
           color: #fff;
-          background-color: $body-link-color;
+          background-color: color.$body-link-color;
         }
       }
 
@@ -131,7 +131,7 @@ const supportUrl = {
         transition: all 0.2s ease-in-out;
 
         @media not all and (max-width: 768px) {
-          background-color: $footer-background-color;
+          background-color: color.$footer-background-color;
           margin: 0 auto;
 
           width: 3rem;
@@ -167,7 +167,7 @@ const supportUrl = {
 
         @media not all and (max-width: 768px) {
           margin-top: 0.375rem;
-          color: $footer-background-color;
+          color: color.$footer-background-color;
           font-size: 0.75rem;
         }
 
@@ -180,11 +180,11 @@ const supportUrl = {
       @media not all and (max-width: 768px) {
         &:hover {
           .icon {
-            background-color: $body-link-color;
+            background-color: color.$body-link-color;
           }
 
           .description {
-            color: $body-link-color;
+            color: color.$body-link-color;
           }
         }
       }

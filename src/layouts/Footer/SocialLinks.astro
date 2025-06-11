@@ -61,11 +61,11 @@ const socialMediaPolicy: {
 </div>
 
 <style lang="scss">
-  @import "../../styles/color.scss";
+  @use "@styles/color";
 
   div.social-links {
-    background: $white-gray-light;
-    border-bottom: 5px solid $heading-color;
+    background: color.$white-gray-light;
+    border-bottom: 5px solid color.$heading-color;
 
     padding: 0.5rem 4rem 0.5rem;
     @media (max-width: 768px) {
@@ -114,7 +114,7 @@ const socialMediaPolicy: {
         align-items: center;
         & > a {
           text-decoration: none;
-          color: $footer-background-color;
+          color: color.$footer-background-color;
           &:hover {
             text-decoration: underline;
           }

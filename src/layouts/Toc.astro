@@ -77,17 +77,17 @@ for (const heading of Astro.props.headings) {
 </aside>
 
 <style lang="scss">
-  @import "@styles/color.scss";
-  @import "@styles/toc.scss";
+  @use "@styles/color";
+  @use "@styles/toc";
 
   #toc {
     overflow-y: auto;
     padding: 2rem 0.5rem;
     font-size: 0.875em;
     border-radius: 1em;
-    background-color: $white-gray-light;
-    width: $toc-width;
-    min-width: $toc-width;
+    background-color: color.$white-gray-light;
+    width: toc.$toc-width;
+    min-width: toc.$toc-width;
     display: flex;
     flex-direction: column;
     position: sticky;
@@ -102,7 +102,7 @@ for (const heading of Astro.props.headings) {
       border: none;
       font-size: 1.25em;
       font-weight: bold;
-      color: $text-color;
+      color: color.$text-color;
       &:only-child {
         padding-bottom: 0.8em;
       }
@@ -117,7 +117,7 @@ for (const heading of Astro.props.headings) {
     li a {
       display: block;
       position: relative;
-      color: $link-color-light;
+      color: color.$link-color-light;
       padding: 0.25em 1em 0.25em 0;
       @media (pointer: coarse) {
         padding: 0.75em 1em 0.75em 0;
@@ -126,12 +126,12 @@ for (const heading of Astro.props.headings) {
         content: "";
         position: absolute;
         border-radius: 50%;
-        left: - calc($toc-ul-left-padding / 2);
+        left: - calc(toc.$toc-ul-left-padding / 2);
         width: 4px;
         height: 4px;
         transform: translate(-50%, -50%);
-        background: $link-color-light;
-        border: 2px solid $white-gray-light;
+        background: color.$link-color-light;
+        border: 2px solid color.$white-gray-light;
         top: 1em;
         @media (pointer: coarse) {
           top: 1.5em;
@@ -140,16 +140,16 @@ for (const heading of Astro.props.headings) {
     }
     ul.toc-h2 {
       position: relative;
-      padding-left: $toc-ul-left-padding;
+      padding-left: toc.$toc-ul-left-padding;
       &:before {
         content: "";
         position: absolute;
         top: 20px;
         bottom: 0.6em;
-        left: calc($toc-ul-left-padding / 2);
+        left: calc(toc.$toc-ul-left-padding / 2);
         width: 3px;
         transform: translateX(-50%);
-        background: $white-gray-dark;
+        background: color.$white-gray-dark;
         border-radius: 0 0 5px 5px;
         @media (pointer: coarse) {
           bottom: 1.25em;
@@ -179,10 +179,10 @@ for (const heading of Astro.props.headings) {
     li a.active {
       font-weight: 800;
       filter: unset;
-      color: $link-color-light;
+      color: color.$link-color-light;
       &:before {
-        background: $link-color-light;
-        border: 2px solid $white-gray-dark;
+        background: color.$link-color-light;
+        border: 2px solid color.$white-gray-dark;
       }
     }
   }
@@ -192,7 +192,7 @@ for (const heading of Astro.props.headings) {
   #toc-container {
     height: 100%;
   }
-  @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
+  @media screen and (max-width: calc(768px + toc.$toc-width + toc.$article-gap)) {
     #sidebar {
       min-width: 0;
       position: sticky;

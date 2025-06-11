@@ -1,3 +1,5 @@
+@use "@styles/color";
+
 @mixin box {
   display: block;
   border: 1px solid currentcolor;
@@ -20,7 +22,7 @@
 
   &--alert {
     @include box--bold;
-    color: $red;
+    color: color.$red;
   }
 }
 

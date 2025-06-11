@@ -1,5 +1,7 @@
+@use "@styles/color";
+
 .alert {
-  color: $red;
+  color: color.$red;
 }
 
 .center {
