@@ -71,4 +71,4 @@ Press "Chat" to enable text chat. You cannot read the chat history before you jo
 
 <br>
 <br>
-<a href="index" target="_blank">Return to How to Use WeBex</a>
+<a href="../index/" target="_blank">Return to How to Use WeBex</a>

@@ -7,11 +7,11 @@ title: 2020/03/19 オンライン基礎講座「授業のオンライン化を�
   
 <a href="https://todai.tv/contents-list/lecture/online-teaching/02">動画（要UTokyo Account）</a>  
 <a href="report/workshop_how_to_use_zoom.pdf">発表資料</a>  
-<a href="report">開催報告</a>  
+<a href="report/">開催報告</a>  
   
   
 この講座では単発の会議室の予約方法しか扱えていませんが，同じ URL で複数回利用できる会議室の予約方法がございますので，以下のWebページもご参考にしていただければ幸いです．  
-[Zoom 会議室の作り方](/zoom/create_room)  
+[Zoom 会議室の作り方](/zoom/create_room/)  
 [複数回利用できる URL が変わらない会議室を予約する](/zoom/create_room/date_and_time/)  
 
   

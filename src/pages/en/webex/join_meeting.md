@@ -20,8 +20,8 @@ breadcrumb:
 
 <br>
 <br>
-<a href="index" target="_blank">Return to How to Use WeBex</a>
+<a href="../index/" target="_blank">Return to How to Use WeBex</a>
 
-<a href="do_webex" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)</a>
+<a href="../do_webex/" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)</a>
 <br>
-<a href="do_webex_host" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host)</a>
+<a href="../do_webex_host/" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host)</a>

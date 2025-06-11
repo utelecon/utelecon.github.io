@@ -173,7 +173,7 @@ Webex ウェビナーには主に以下の権限があります．（[「Webex W
 
 ![](img/webex_breakout_callhelp.png){:.border}
 
-主催者の操作については，[Webex 会議室でできること（開催者）](do_webex_host)をご覧ください．
+主催者の操作については，[Webex 会議室でできること（開催者）](../do_webex_host/)をご覧ください．
 
 ## ロビー機能（Webex Meetingsのみ）
 

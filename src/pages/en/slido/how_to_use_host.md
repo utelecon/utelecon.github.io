@@ -6,7 +6,7 @@ breadcrumb:
 
 This page explains what hosts can do in Slido’s host page. Please access the host page from [Event List Page](https://admin.sli.do/events).
 
-Please refer to “[What Students Can Do in Slido](how_to_use_audience)” when you use Slido as a participant.
+Please refer to “[What Students Can Do in Slido](../how_to_use_audience/)” when you use Slido as a participant.
 
 ## Checking Students’ Questions
 
