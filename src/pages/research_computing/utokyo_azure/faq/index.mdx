@@ -125,6 +125,16 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
+  <Fragment slot="problem">自分が今どの程度無料分や無料保証枠を消費しているのか知りたい</Fragment>
+  <Fragment slot="solution"><p>所有者権限のアカウントのみ：[UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から，ご自身のサブスクリプションが今どの程度ギフトクレジットを使ったかが表示されます．また，無料分全体を利用者全体でどの程度消費したかをグラフで表示しています．これらの情報の更新は１日単位です．</p><p>また，UTokyo Azure 独自機能として，無料保証枠の 50%, 75%, 90%, 100%, のそれぞれに達した際に，所有者の登録メールアドレス宛に通知メールを送信します．これらの情報もご活用ください．</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">特定のリソースのギフトクレジット消費量を知りたい</Fragment>
+  <Fragment slot="solution">所有者権限のアカウントのみ：[UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)の最後の方に，リソース単位での詳細情報が表形式で表示されますので，そのうちの Cost の項目を参照ください．表示される金額はその日に消費された量ですので，トータルで知りたい場合は，同じリソースの Cost について知りたい期間分合計してください．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
   <Fragment slot="problem">管理ページでの金額表示が米ドルなのですが</Fragment>
   <Fragment slot="solution">Microsoft のギフトクレジットの取り扱い仕様により米ドルで管理されるため表示も米ドルになります．申請者へ超過分の請求が発生した場合は，財務会計システムによってその時の変換レートで変換され日本円で請求されます．</Fragment>
 </HelpItem>
