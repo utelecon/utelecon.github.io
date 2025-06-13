@@ -111,12 +111,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料分とはなんですか</Fragment>
-  <Fragment slot="solution"><p>ある月の利用料のうち無料となる分の金額です．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には，3月末と9月末の半期毎に各月の超過分・余剰分を集計して半期ごとの通算の超過額を計算します．この通算した超過額を情報基盤センターより請求する予定です．</p><p>無料分の額は毎月末に、その月の大学全体の使用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
+  <Fragment slot="solution"><p>ある月の利用料のうち無料となる分の金額で, 月末に全ユーザの利用者を元に計算されます．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には，およそ半期毎に各月の超過分・余剰分を集計して半期ごとの通算の超過額を計算します．この通算した超過額を情報基盤センターより請求する予定です．詳細は [UTokyo Azure 説明会資料](https://utelecon.adm.u-tokyo.ac.jp/events/2025-02-21/slides/3_application_guidelines.pdf)をご参照ください．</p><p>無料分の額は毎月末に、その月の大学全体の使用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料保証枠とはなんですか</Fragment>
-  <Fragment slot="solution"><p>毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．</p><p>そこで月初めに、この額までは必ず全額無料になるという最低保証額を公表しています．これが無料保証枠です．月末に計算する無料分よりは少ない額になります．</p><p>無料保証枠は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
+  <Fragment slot="solution"><p>毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．</p><p>そこで月初めに、この額までは必ず無料になるという最低保証額を公表しています．これが無料保証枠です．月末に計算する無料分よりは少ない額になります．</p><p>無料保証枠は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -125,8 +125,8 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">自分が今どの程度無料分や無料保証枠を消費しているのか知りたい</Fragment>
-  <Fragment slot="solution"><p>所有者権限のアカウントのみ：[UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から，ご自身のサブスクリプションが今どの程度ギフトクレジットを使ったかが表示されます．また，無料分全体を利用者全体でどの程度消費したかをグラフで表示しています．これらの情報の更新は１日単位です．</p><p>また，UTokyo Azure 独自機能として，無料保証枠の 50%, 75%, 90%, 100%, のそれぞれに達した際に，所有者の登録メールアドレス宛に通知メールを送信します．これらの情報もご活用ください．</p></Fragment>
+  <Fragment slot="problem">自分の無料保証枠がどのくらい残っているか，あとどのくらい無料で使えるかを知りたい</Fragment>
+  <Fragment slot="solution"><p>所有者権限のアカウントのみ：[UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から，ご自身のサブスクリプションが今どの程度利用されたかが表示されます．また，無料分全体を利用者全体でどの程度消費したかをグラフで表示しています．これらの情報の更新は１日単位です．</p><p>また，UTokyo Azure 独自機能として，無料保証枠の 50%, 75%, 90%, 100%, のそれぞれに達した際に，所有者の登録メールアドレス宛に通知メールを送信します．これらの情報もご活用ください．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
