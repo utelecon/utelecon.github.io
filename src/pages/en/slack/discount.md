@@ -3,7 +3,7 @@ title: Application for the “Slack for Education” program at the University o
 ---
 
 *This page is a guide to the procedures for making individually paid subscriptions to Slack. 
-Please see the [UTokyo Slack page](.) for information on the university-wide subscription of the University of Tokyo.
+Please see the [UTokyo Slack page](.././) for information on the university-wide subscription of the University of Tokyo.
 
 ## Overview
 

@@ -6,11 +6,11 @@ redirect_from:
 
 This page explains how instructors announce the online class URL (the URL of web conference rooms such as Zoom) to students. 
 
-Faculty members used to announce the online class URLs to their students differently, which had caused confusion. It was hence decided to unify the announcement method among all faculty members. The "[Guideline for Using Online Tools for AY2021S Semester Classes](/en/docs/guideline)" was also established following the decision.
+Faculty members used to announce the online class URLs to their students differently, which had caused confusion. It was hence decided to unify the announcement method among all faculty members. The "[Guideline for Using Online Tools for AY2021S Semester Classes](/en/docs/guideline/)" was also established following the decision.
 
 Below is the announcement method based on the aforementioned guideline. Your cooperation to adopt the specified method is kindly appreciated.
 
-For students, please refer to "[How to Obtain the Online Class URL (for Students)](/en/oc/url)". 
+For students, please refer to "[How to Obtain the Online Class URL (for Students)](/en/oc/url/)". 
 
 ## Important Rule: Use the UTOL's "Online course information" section
 
@@ -26,7 +26,7 @@ The procedure to add the online class URL in UTOL is as follows.
 ### How to Add the Online Class URL in UTOL
 
 - [Demo Video (Captions in Japanese only)](https://youtu.be/JeBwwDfhJJw)
-- For details of the procedure, please check the page "[Setting up courses in UTOL (for lecturers / TAs)](../utol/lecturers/settings/)".
+- For details of the procedure, please check the page "[Setting up courses in UTOL (for lecturers / TAs)](../../utol/lecturers/settings/)".
 
 ## Supplementary Information: Announcing the Online Class URL using Systems other than UTOL
 
@@ -50,5 +50,5 @@ It is NOT recommended to change the online class URL for every class you hold or
 
 ## Related Pages
 
-- "[How to Obtain the Online Class URL (for Students)](/en/oc/url)": The student's page on online class URL announcement
-- "[Restricting Access to Zoom Meeting Rooms for Online Classes](zoom_access_control)": A page explaining when and how to restrict meeting room access to UTokyo members only when scheduling a Zoom meeting.
+- "[How to Obtain the Online Class URL (for Students)](/en/oc/url/)": The student's page on online class URL announcement
+- "[Restricting Access to Zoom Meeting Rooms for Online Classes](../zoom_access_control/)": A page explaining when and how to restrict meeting room access to UTokyo members only when scheduling a Zoom meeting.

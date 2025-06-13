@@ -7,18 +7,18 @@ title: 生成AI（ChatGPT等）関連情報
 ## ガイドライン・メッセージ等
 
 - [東京大学における生成AI利用に係るセキュリティガイドライン](https://univtokyo.sharepoint.com/sites/Security/SitePages/ai_use_security_guideline.aspx)（2024年3月12日）<small>※閲覧にはUTokyo Accountでのサインインが必要です</small>
-- [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students)（2023年5月26日付／2023年5月29日掲載）
-- [AIツールの授業における利用について](/docs/ai-tools-in-classes)（2023年4月28日付／2023年5月16日掲載）
-- [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai)（2023年4月3日／太田邦史理事・副学長）
+- [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students/)（2023年5月26日付／2023年5月29日掲載）
+- [AIツールの授業における利用について](/docs/ai-tools-in-classes/)（2023年4月28日付／2023年5月16日掲載）
+- [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai/)（2023年4月3日／太田邦史理事・副学長）
 
 ## 全学構成員向けの生成AIサービス
 
-- [ECCSクラウドメールでのGeminiの利用について](/google/gemini)
-- [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion)（2025年1月27日）
-- [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui)（2024年3月29日）
-- [当面の全学構成員向け生成AIサービス提供方針について](/notice/2024/0327-ai-service)（2024年3月27日）
-- [Microsoft Copilotによる生成AIチャットの提供について](/notice/2024/03-microsoft-copilot)（2024年3月1日）
-- [生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat)（2023年10月20日）
+- [ECCSクラウドメールでのGeminiの利用について](/google/gemini/)
+- [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion/)（2025年1月27日）
+- [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui/)（2024年3月29日）
+- [当面の全学構成員向け生成AIサービス提供方針について](/notice/2024/0327-ai-service/)（2024年3月27日）
+- [Microsoft Copilotによる生成AIチャットの提供について](/notice/2024/03-microsoft-copilot/)（2024年3月1日）
+- [生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat/)（2023年10月20日）
 
 ## その他参考情報
 - [生成AIの提供方針に関するアンケートの結果等について](/notice/2024/04-aichat-survey-result/)

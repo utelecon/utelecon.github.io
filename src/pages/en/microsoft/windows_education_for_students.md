@@ -12,4 +12,4 @@ Previously, students at the University of Tokyo were able to obtain licenses to 
 
 ### Usage
 
-Please refer to the page "[UTokyo Microsoft Azure Dev Tools for Teaching](./adt4t/)."
+Please refer to the page "[UTokyo Microsoft Azure Dev Tools for Teaching](.././adt4t/)."

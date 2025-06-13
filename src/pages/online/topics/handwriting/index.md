@@ -14,17 +14,17 @@ iPadなどのタブレットにタブレット用のペンを用いて書き込�
 - アプリとして「**GoodNotes 5**」を使う方法
     - タブレットとペンは，iPadとApple Pencilを使うのが基本になります（WindowsやAndroidには非対応）．
     - 有料アプリで，980円で購入できます．
-    - 解説記事：**[GoodNotes 5で板書をする](/articles/goodnotes-writing)**
-    - 実践例：[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi)（白石先生による映像でのご報告を[第25回オンライン授業情報交換会](/events/luncheon/2020-12-23/)のページで学内限定公開しています）
-    - 実践例：[オンライン授業のグッドプラクティス／齊藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito)
+    - 解説記事：**[GoodNotes 5で板書をする](/articles/goodnotes-writing/)**
+    - 実践例：[オンライン授業のグッドプラクティス／白石忠志先生 法Ⅰ](/good-practice/interview/shiraishi/)（白石先生による映像でのご報告を[第25回オンライン授業情報交換会](/events/luncheon/2020-12-23/)のページで学内限定公開しています）
+    - 実践例：[オンライン授業のグッドプラクティス／齊藤宣一先生 計算数理I・計算数理](/good-practice/interview/saito/)
 - アプリとして「**Microsoft OneNote**」を使う方法
     - iPadだけでなくWindowsやAndoridのタブレットにも対応しています．
     - 基本的な機能は無料で利用できます．また，東京大学の[UTokyo Microsoft License](/microsoft/)では追加の有料機能も利用することができます．
-    - 解説記事：**[OneNoteで板書する](/articles/onenote-whiteboard)**
-    - 実践例：[オンライン授業のグッドプラクティス／入江薫先生 数理統計I、II](/good-practice/interview/irie)（入江先生による映像でのご報告を[第20回オンライン授業情報交換会](/events/luncheon/2020-11-18/)のページで学内限定公開しています）
+    - 解説記事：**[OneNoteで板書する](/articles/onenote-whiteboard/)**
+    - 実践例：[オンライン授業のグッドプラクティス／入江薫先生 数理統計I、II](/good-practice/interview/irie/)（入江先生による映像でのご報告を[第20回オンライン授業情報交換会](/events/luncheon/2020-11-18/)のページで学内限定公開しています）
 - Zoomの「注釈（コメント）」機能を使う方法
     - Zoomでは，画面共有で共有した画面に手書きの「注釈（コメント）」を書き込むことができます．画面共有時に「ホワイトボード」を選択することで白紙の画面に書き込むこともできます．ただし，書き込んだ内容をスクロールすることができないなど，機能は限られており，ちょっとした書き込みをサッと行いたいという場合に向いていると思われます．
-    - 操作方法を[Zoomの画面共有についての説明ページ「画面共有中に注釈を付ける」の項](/zoom/usage/screen_sharing#画面共有中に注釈を付ける)で説明しています．
+    - 操作方法を[Zoomの画面共有についての説明ページ「画面共有中に注釈を付ける」の項](/zoom/usage/screen_sharing/#画面共有中に注釈を付ける)で説明しています．
     - 実践例：[タブレットあるいは電子ホワイトボードを利用した板書のオンライン化の実践例](http://noneq.c.u-tokyo.ac.jp/online_lecture.html)（工学系研究科 沙川先生）
 - その他
     - [Windowsタブレット一台でPowerPointなどに手書きしながらZoomで配信する](https://www.youtube.com/watch?v=gj-xBZEgt-A)（情報理工学系 川原研博士課程・笹谷さん）：タブレットで手書きを行うさまざまな方法を動画で実演しています．
