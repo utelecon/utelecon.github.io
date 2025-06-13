@@ -135,6 +135,11 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
+  <Fragment slot="problem">複数人でサブスクリプションを共有していて，自分が消費した分を知りたい</Fragment>
+  <Fragment slot="solution">消費量を確認できる最小単位はサブスクリプションまでで，ユーザーアカウント単位では確認できません．ただし，特定のリソースを自分だけが使っているという場合は，リソース単位での確認は可能です．詳細は`FAQ：特定のリソースのギフトクレジット消費量を知りたい`をご参照ください．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
   <Fragment slot="problem">管理ページでの金額表示が米ドルなのですが</Fragment>
   <Fragment slot="solution">Microsoft のギフトクレジットの取り扱い仕様により米ドルで管理されるため表示も米ドルになります．申請者へ超過分の請求が発生した場合は，財務会計システムによってその時の変換レートで変換され日本円で請求されます．</Fragment>
 </HelpItem>
