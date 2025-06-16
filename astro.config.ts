@@ -92,6 +92,8 @@ export default defineConfig({
       ".xlsx",
       ".JPG",
       ".PNG",
+      ".bat",
+      ".sh",
     ]),
   ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
