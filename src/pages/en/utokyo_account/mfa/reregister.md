@@ -5,7 +5,7 @@ breadcrumb:
 redirect_from: /en/utokyo_account/mfa/reregister_and_terminate
 ---
 
-This page describes the following procedures regarding [UTokyo Account Multi-Factor Authentication (MFA)](.././): “**Reregistering Verification Method**” for MFA. 
+This page describes the following procedures regarding [UTokyo Account Multi-Factor Authentication (MFA)](../): “**Reregistering Verification Method**” for MFA. 
 
 In case you lose access to all verification methods and are unable to sign in to the UTokyo Account, we can take measures to allow you to retry the registration process for MFA all over again and keep using MFA. Check if any of your verification methods can be used beforehand as described below. Please follow the procedures only if all verification methods are no longer available.
 

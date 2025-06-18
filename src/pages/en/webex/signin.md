@@ -16,4 +16,4 @@ An [UTokyo Account](/en/utokyo_account/) is necessary to sign into Webex.
 
 Please contact the **[Technical Support Desk](/en/support/)** if you have issues signing in with the above method.
 
-Please visit the [utelecon Webex page](.././) to learn how to use Webex for your meetings. 
+Please visit the [utelecon Webex page](../) to learn how to use Webex for your meetings. 

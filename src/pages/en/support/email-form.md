@@ -8,7 +8,7 @@ This is a page for **email form** support at the utelecon Support Desk.
 
 ## Before Inquiring
 
-Please be sure to check [the Support Desk page](.././) before inquiring.
+Please be sure to check [the Support Desk page](../) before inquiring.
 
 ### Important Notes on Privacy and Confidentiality of Information 
 
