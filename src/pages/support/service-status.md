@@ -12,7 +12,7 @@ toc: false
 - **ECCSクラウドメール (Google Workspace)**：[Google Workspace ステータス ダッシュボード](https://www.google.co.jp/appsstatus/dashboard/)
 - **UTokyo Microsoft License**：[Service Status](https://portal.office.com/servicestatus)
 - **Slido**：[Slido Status](https://status.slido.com/)
-- **UTokyo Slack**：[Slack System Status](https://status.slack.com/)
+- **UTokyo Slack**：[Slack Status](https://slack-status.com/)
 - **UTokyo MATLAB Campus-Wide License**：[Application Status](https://status.mathworks.com/)
 - **Ezproxy・OPAC**：[データベース・電子ジャーナル・OPAC等の障害情報](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/servicestatus)
 
