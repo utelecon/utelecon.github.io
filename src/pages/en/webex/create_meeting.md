@@ -9,7 +9,7 @@ breadcrumb:
   - The “Schedule Meeting” page allows you to configure settings such as the topic, password, date, and attendees. The details for each item are as follows.
   - **Meeting type**: Select the type of meeting you want to schedule.
     - **Webex Meetings (1. Standard Meeting**)**: This option should be selected for standard lectures and meetings. You can create cloud recordings, connect to teleconference systems (such as Polycom), and make use of functions such as breakout sessions and lobbies.
-    - **Webex Meetings (2. End-to-End Encrypted Meeting)**: This option should be selected if End-to-End Encryption is required. Certain functions such as cloud recordings and connection to teleconference systems are disabled. Please refer to “[End-to-End Encryption for Webex Meeting](encrypted_meeting)” and “[Recommended Practices for Holding Secure Meetings on Webex.](how_to_open_secure_meetings)”
+    - **Webex Meetings (2. End-to-End Encrypted Meeting)**: This option should be selected if End-to-End Encryption is required. Certain functions such as cloud recordings and connection to teleconference systems are disabled. Please refer to “[End-to-End Encryption for Webex Meeting](../encrypted_meeting/)” and “[Recommended Practices for Holding Secure Meetings on Webex.](../how_to_open_secure_meetings/)”
   - **Topic**: Enter the topic of the meeting. This field is required.
   - **Meeting password**: An arbitrary string will be displayed by default, which can be changed.
   - **Date and Time**: The time when the screen was most recently opened will be displayed. You can change the time by pressing the symbol on the right-hand corner.  You can also repeat meetings. Checking the box marked “Recurrence” will take you to a page where you can set the rules for repeating a meeting.
@@ -48,6 +48,6 @@ To edit the contents of a meeting you have scheduled, select the meeting in ques
 
 <br>
 <br>
-<a href="index" target="_blank">Return to the How to Use Webex Page</a>
+<a href="../index/" target="_blank">Return to the How to Use Webex Page</a>
 
 

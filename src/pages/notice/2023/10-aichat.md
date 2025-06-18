@@ -4,7 +4,7 @@ title: 生成AIチャットサービスの実験的な提供について
 
 <div style="text-align: right;">2023年10月20日公開</div>
 
-<div class="box alert">（2024年3月28日）「<a href="/notice/2024/0327-ai-service">当面の全学構成員向け生成AIサービス提供方針について</a>」でお知らせしているように，今後の全学構成員向けの生成AIサービスは，<strong><a href="/notice/2024/03-microsoft-copilot">Microsoft Copilotによる生成AIチャットの提供</a></strong>を中心として位置付けています．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，<strong>2024年3月28日をもって運用を停止いたします</strong>．なお，直ちに完全に終了するわけではなく，「<a href="/notice/2024/03-chatbot-ui">2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について</a>」でご案内している通り，Microsoft Copilotではカバーできない利用に対応するための運用は行う予定です（ただし，これまでお使いいただいていた方で引き続いての利用を希望する方には，あらためて手続きをお願いすることとします）．</div>
+<div class="box alert">（2024年3月28日）「<a href="/notice/2024/0327-ai-service/">当面の全学構成員向け生成AIサービス提供方針について</a>」でお知らせしているように，今後の全学構成員向けの生成AIサービスは，<strong><a href="/notice/2024/03-microsoft-copilot/">Microsoft Copilotによる生成AIチャットの提供</a></strong>を中心として位置付けています．本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，<strong>2024年3月28日をもって運用を停止いたします</strong>．なお，直ちに完全に終了するわけではなく，「<a href="/notice/2024/03-chatbot-ui/">2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について</a>」でご案内している通り，Microsoft Copilotではカバーできない利用に対応するための運用は行う予定です（ただし，これまでお使いいただいていた方で引き続いての利用を希望する方には，あらためて手続きをお願いすることとします）．</div>
 
 いつも本学の情報システムの運営にご協力いただきありがとうございます．
 
@@ -77,9 +77,9 @@ APIの使用には上限があり，また従量課金となっていること�
 
 以下も参照してください．
 
-- [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students)（2023年5月26日付／2023年5月29日掲載）
-- [AIツールの授業における利用について](/docs/ai-tools-in-classes)（2023年4月28日付／2023年5月16日掲載）
-- [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai)（2023年4月3日／太田邦史理事・副学長）
+- [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students/)（2023年5月26日付／2023年5月29日掲載）
+- [AIツールの授業における利用について](/docs/ai-tools-in-classes/)（2023年4月28日付／2023年5月16日掲載）
+- [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai/)（2023年4月3日／太田邦史理事・副学長）
 
 ### 別件の会話は新しいセッションを作成しなおして行う
 
@@ -101,7 +101,7 @@ APIの使用には上限があり，また従量課金となっていること�
 
 本サービスの利用には**[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講と[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化を必須**とします．あらかじめこれらを済ませた上で，以下の手順に進んでください．
 
-<div class="box alert">（2024年3月28日）本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，<strong>2024年3月28日をもって運用を停止しました</strong>．経緯等の詳細は「<a href="/notice/2024/0327-ai-service">当面の全学構成員向け生成AIサービス提供方針について</a>」をご覧ください．</div>
+<div class="box alert">（2024年3月28日）本ページの「生成AIチャットサービスの実験的な提供」については，運用負担や費用負担などの観点で課題があることから，<strong>2024年3月28日をもって運用を停止しました</strong>．経緯等の詳細は「<a href="/notice/2024/0327-ai-service/">当面の全学構成員向け生成AIサービス提供方針について</a>」をご覧ください．</div>
 
 1. 以下の申請フォームを入力・送信してください．<div class="box center"><del>申請フォーム</del></div>
 1. **申請後，利用できるようになるまでに時間がかかる場合があります．下の「申請の受付状況について」をご覧いただき，利用できるようになるまでしばらくお待ちください．**{:.alert}
@@ -113,7 +113,7 @@ APIの使用には上限があり，また従量課金となっていること�
     </details>
     <details>
         <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
-        本サービスの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
+        本サービスの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial/">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が<strong>システムに反映されるまで約40分かかるので，それまでしばらくお待ちください</strong>．
     </details>
 
 ※情報セキュリティ教育の受講が完了していない（確認テストに合格していない）状態で申請した場合，そのデータは破棄されます．受講が完了した後に，もう1度申請をし直してください．
@@ -139,6 +139,6 @@ APIの使用には上限があり，また従量課金となっていること�
 
 ## 情報共有・問い合わせ先
 
-本サービスに関する情報共有のため，UTokyo Slack内に設けられている「UTokyo ARC」ワークスペースに専用のチャンネル `#arc-aichat-users` を作成しています．「[UTokyo Slackに自由に参加できるワークスペースの中から選んで参加する](/slack/join)」ページの手順に従って自身で参加してください．
+本サービスに関する情報共有のため，UTokyo Slack内に設けられている「UTokyo ARC」ワークスペースに専用のチャンネル `#arc-aichat-users` を作成しています．「[UTokyo Slackに自由に参加できるワークスペースの中から選んで参加する](/slack/join/)」ページの手順に従って自身で参加してください．
 
 本サービスは実験的に提供するものであり，対応のリソースが限られているため，メールやuteleconサポート窓口での問い合わせは受け付けません．質問はSlackへ投稿してください．

@@ -111,7 +111,7 @@ Google Docs is a document editor included in Google Workspace. Multiple users ca
 #### Google Slides
 Google Slides is a slideshow maker  that is included in Google Workspace. Multiple users can easily edit documents simultaneously or share documents using URLs because they are stored in a cloud (Google Drive).
 
-- **[Good Practices of Online Classes - Prof. Kurita: Creating a “Learning Environment” ](/good-practice/interview/kurita)** (in Japanese): A practical example of using Google Slides in an online class group work.
+- **[Good Practices of Online Classes - Prof. Kurita: Creating a “Learning Environment” ](/good-practice/interview/kurita/)** (in Japanese): A practical example of using Google Slides in an online class group work.
 - **[Online Class Information Exchange Meeting #11: Useful Tools for Online Class (1) ](/events/luncheon/2020-06-24/)**(in Japanese): This article explains how to use a script (simple program) to automate the process of creating multiple copies of template files for group work.
 
 Google Workspace also provides other document generation tools such as the spreadsheet editor  Google Sheets, that can be used similarly.
@@ -136,7 +136,7 @@ Microsoft 365 also provides online versions of Excel and PowerPoint, that can be
 Cosense (formerly Scrapbox) is a tool for storing and organizing a large number of notes and memos online. It allows multiple users to edit notes simultaneously, and to share notes using URLs. Cosense’s unique feature is that you can easily connect many pages using "links" and "tags. Utilizing this feature, Cosense can be used as a portal site for online classes.
 
 - **[Basic Use of Cosense](/en/articles/cosense/)**: utelecon’s page describing how to use Cosense.
-- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)** (in Japanese): A practical example of using Cosense to share lecture materials.
+- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi/)** (in Japanese): A practical example of using Cosense to share lecture materials.
 
 
 ## Handwriting/Whiteboard Apps
@@ -150,15 +150,15 @@ Below are tools for handwriting text and diagrams on tablets and touch screen PC
 GoodNotes 5 is probably the most popular note-taking application for iPad. It is a paid app that can be purchased for 980 yen (as of Jan. 2022).
 
 - **[Writing on GoodNotes 5](/en/articles/goodnotes-writing/)**: utelecon page introducing basic usage of GoodNotes 5 and how to utilize it for board writing.
-- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)** (in Japanese): A practical example of board writing with GoodNotes 5 in a class. 
-- **[Good Practices of Online Classes - Prof. Saito: Numerical Mathematics I / Computational Mathematics](/good-practice/interview/saito)** (in Japanese): A practical example of board writing in class using GoodNotes 5. 
+- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi/)** (in Japanese): A practical example of board writing with GoodNotes 5 in a class. 
+- **[Good Practices of Online Classes - Prof. Saito: Numerical Mathematics I / Computational Mathematics](/good-practice/interview/saito/)** (in Japanese): A practical example of board writing in class using GoodNotes 5. 
 
 ### OneNote
 
 OneNote is a digital note-taking application that is included in Microsoft 365. Notes can be simultaneously edited also from the web browser, although there are some differences/limitations in functionality. 
 
 - **[Writing on OneNote](/en/articles/onenote-whiteboard/)**: utelecon page introducing basic usage of OneNote and how to utilize it for board writing.
-- **[Good Practices of Online Classes - Prof. Irie: Mathematical Statistics I, II](/good-practice/interview/irie)**(in Japanese): A practical example of board writing in class using OneNote.
+- **[Good Practices of Online Classes - Prof. Irie: Mathematical Statistics I, II](/good-practice/interview/irie/)**(in Japanese): A practical example of board writing in class using OneNote.
 
 ### Miro
 Miro is an online whiteboard app provided by *Miro*.
@@ -180,8 +180,8 @@ Slack is a groupware app, and is a tool for communicating with group/team member
 
 - **[How to Communicate With Students on Slack](/en/articles/slack-communication/)**: This page explains basic use of Slack.
 - **[Using Slack in a Seminar-style Class](/articles/slack-seminar/)** (in Japanese): This page introduces how to use Slack particularly in seminar-style classes.
-- **[Good Practices of Online Classes - Prof. Saito: Numerical Mathematics I / Computational Mathematics](/good-practice/interview/saito)** (in Japanese): A practical example of using Slack to collect questions regarding class content in on-demand classes. 
-- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi)** (in Japanese): A practical example of using Slack in a course to accept questions from students and provide consultation. 
+- **[Good Practices of Online Classes - Prof. Saito: Numerical Mathematics I / Computational Mathematics](/good-practice/interview/saito/)** (in Japanese): A practical example of using Slack to collect questions regarding class content in on-demand classes. 
+- **[Good Practices of Online Classes - Prof. Shiraishi: Law I](/good-practice/interview/shiraishi/)** (in Japanese): A practical example of using Slack in a course to accept questions from students and provide consultation. 
 
 ### Discord
 Discord is a tool for communicating within a group or team. In addition to text chatting in Slack-like "channels", voice chatting (voice calls) is possible. The voice chatting feature is useful for holding casual meetings among friends. 
@@ -196,18 +196,18 @@ LINE OpenChat is a feature of the LINE messaging app that allows users to create
 
 - **[\[LINE\] OpenChat Broadens LINE User Experience(external site)](https://linecorp.com/en/pr/news/en/2019/2883)**: The official press release on launch of OpenChat, summarizing the main features.
 - **[How to Use OpenChat (LINE Everyone’s User Guide) (external site)](https://guide.line.me/ja/services/openchat.html)** (in Japanese): The official user guide.
-- **[Good Practices of Online Classes - Prof. Hirose: Solid Earth Science](/good-practice/interview/hirose)** (in Japanese): A practical example of using LINE OpenChat in a course to accept anonymous questions. 
-- **[How to Accept Questions in Class via LINE OpenChat](/articles/question-tools#LINEopenchat)** (in Japanese):  A practical example of using LINE OpenChat in class to receive questions, and tips for collecting questions.
+- **[Good Practices of Online Classes - Prof. Hirose: Solid Earth Science](/good-practice/interview/hirose/)** (in Japanese): A practical example of using LINE OpenChat in a course to accept anonymous questions. 
+- **[How to Accept Questions in Class via LINE OpenChat](/articles/question-tools/#LINEopenchat)** (in Japanese):  A practical example of using LINE OpenChat in class to receive questions, and tips for collecting questions.
 
 ### Gather
 Gather is a conference tool with a playful retro-game style UI. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
 - **[Gather (external site)](https://www.gather.town/)**: The official Gather site．
-- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#gather)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Gather.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/#gather)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Gather.
 
 ### Remo
 Remo is a web conference tool that allows you to join different meetings by moving your icon  between pseudo “tables” on your screen. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
 - **[Remo (external site)](https://remo.co/)**: The official Remo site.
-- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction#remo)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Remo.
+- **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/#remo)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Remo.
 
 ### SpatialChat
 SpatialChat is a conference tool in which the sound volume changes depending on the "distance" between you and other users on the screen.
@@ -225,10 +225,10 @@ Here we introduce tools that can be used in conjunction with web conferencing sy
 ### Slido
 Slido is an interaction app that provides functions such as Q&A, live polling, and questionnaires that are useful for interactive communication with participants in classes, conferences, and lectures.
 - **[Slido](/slido/)** (in Japanese): utelecon’s page summarizing usage and practical examples of Slido. 
-- **[How to Collect Questions via Slido](/articles/question-tools#Slido)** (in Japanese): A practical example of using Slido in class to receive questions, and tips for collecting questions.
+- **[How to Collect Questions via Slido](/articles/question-tools/#Slido)** (in Japanese): A practical example of using Slido in class to receive questions, and tips for collecting questions.
 
 ### CommentScreen
 CommentScreen is a tool that allows you to display student questions and comments anonymously and in real time directly on the screen of an online class.
 - **[CommentScreen (external site)](https://commentscreen.com/)**: The official CommentScreen website.
-- **[Good Practices of Online Classes - Prof. Sugita: Manufacturing System](/good-practice/interview/sugita)** (in Japanese): A practical example of class interaction with CommentScreen.
-- **[How to Collect Questions via CommentScreen](/articles/question-tools#CommentScreen)** (in Japanese): A practical example of using CommentScreen in class to receive questions, and tips for collecting questions.
+- **[Good Practices of Online Classes - Prof. Sugita: Manufacturing System](/good-practice/interview/sugita/)** (in Japanese): A practical example of class interaction with CommentScreen.
+- **[How to Collect Questions via CommentScreen](/articles/question-tools/#CommentScreen)** (in Japanese): A practical example of using CommentScreen in class to receive questions, and tips for collecting questions.

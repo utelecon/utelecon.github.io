@@ -54,4 +54,4 @@ ChatGPTに送った質問の文章も、ChatGPTのシステムに蓄積され、
 
 2023年4月3日訂正：GPT-4のパラメーター数については公式に開示されていないとの情報を得ましたので、削除いたしました。また、誤字を修正しました。
 
-[本ポータルサイト (utelecon) の生成AI（ChatGPT等）関連情報ページはこちら](/online/topics/generative-ai)
+[本ポータルサイト (utelecon) の生成AI（ChatGPT等）関連情報ページはこちら](/online/topics/generative-ai/)

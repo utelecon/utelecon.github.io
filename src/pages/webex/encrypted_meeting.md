@@ -28,7 +28,7 @@ WebexにはUTokyo Accountでログインします．Webexのサイト **https://
 
 安全な会議は以下の手順で利用してください．
 
-[Webexで安全性の高い会議を行うためのプラクティス](how_to_open_secure_meetings)
+[Webexで安全性の高い会議を行うためのプラクティス](../how_to_open_secure_meetings/)
 
 ## FAQ
 

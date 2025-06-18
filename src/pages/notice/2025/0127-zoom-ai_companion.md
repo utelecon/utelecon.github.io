@@ -21,4 +21,4 @@ toc: false
 
 ## 参考ページ
 
-- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai)
+- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai/)

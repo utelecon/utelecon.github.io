@@ -28,9 +28,9 @@ AI Companionを含む生成AIを活用した機能を利用する際は，以下
 まず，生成AIの利用についての一般的な注意事項については，以下を参照してください．
 
 - [東京大学における生成AI利用に係るセキュリティガイドライン（2024年3月12日）</small>](https://univtokyo.sharepoint.com/sites/Security/SitePages/ai_use_security_guideline.aspx)<small>※閲覧にはUTokyo Accountでのサインインが必要です</small>
-- **[生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について（2023年4月3日）](/docs/20230403-generative-ai)**
-- [東京大学の学生の皆さんへ：AIツールの授業における利用について（2023年5月26日付／2023年5月29日掲載）](/docs/ai-tools-in-classes-students)
-- [AIツールの授業における利用について（2023年4月28日付／2023年5月16日掲載）](/docs/ai-tools-in-classes)
+- **[生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について（2023年4月3日）](/docs/20230403-generative-ai/)**
+- [東京大学の学生の皆さんへ：AIツールの授業における利用について（2023年5月26日付／2023年5月29日掲載）](/docs/ai-tools-in-classes-students/)
+- [AIツールの授業における利用について（2023年4月28日付／2023年5月16日掲載）](/docs/ai-tools-in-classes/)
 
 特に，取り扱いに注意を要する情報（試験やレポートの問題，業務で知り得た機密情報，発表・公開すべきでない研究内容，その他関係者以外が知りえない情報）を入力しての利用は避けてください．[Zoom社の公式サポートページ](https://support.zoom.com/hc/ja/article?id=zm_kb&sysparm_article=KB0057861)によれば，Zoomで利用した情報やZoomで送信した情報は，生成AIモデルの学習に利用されることはないとされていますが，Zoom社やAI Companionで利用されているサードパーティ製モデルの提供者への送信自体は行われていることに注意する必要があります．
 
@@ -63,7 +63,7 @@ AI Companionの各機能の利用方法については「[Zoom AI Companion Feat
 
 ## 参考情報
 
-- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai)
+- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai/)
 - [Zoom AI Companion Support](https://support.zoom.com/hc/en/category?id=kb_category&kb_category=eabaef58c3b139904b490e8dc0013111)
 - [Getting started with Zoom AI Companion features](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057623)
   - なお東京大学のZoomアカウントは，[米国の法律に基づく高等教育機関や医療機関に向けたBAA(Business Associate Agreement)](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067751)が適用されているアカウントに対するAI Companionの機能制限の対象とはなっていません．

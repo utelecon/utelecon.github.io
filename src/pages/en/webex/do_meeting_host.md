@@ -3,7 +3,7 @@ title: Webex meeting room 101（for instructors）
 ---
 
 * In this section, we will explain the Webex Meetings functions that are unique to the Host of the meeting.
-* Click <a href="do_meeting" target="_blank">here</a> to see the basic features of Webex.
+* Click <a href="../do_meeting/" target="_blank">here</a> to see the basic features of Webex.
 
 ## Options unique to the host
 
@@ -80,7 +80,7 @@ title: Webex meeting room 101（for instructors）
 
 <br>
 <br>
-<a href="index" target="_blank">Return to "How to use WebEx"</a>
+<a href="../" target="_blank">Return to "How to use WebEx"</a>
 
 
 

@@ -42,9 +42,9 @@ In addition, because it is difficult for participants to work together only with
 　80% percent of the participants were faculty members, and more than 90% of the respondents answered that the online workshop was useful.  
 　Although there is room for improvement, the instructors were relieved with the feedback. 
 
-![Results of questionnaire: role of participants](img/survey_role.png)  
+![Results of questionnaire: role of participants](../img/survey_role.png)  
 
-![Results of questionnaire: overall evaluation](img/survey_evaluation.png)  
+![Results of questionnaire: overall evaluation](../img/survey_evaluation.png)  
 
     
 ## In conclusion

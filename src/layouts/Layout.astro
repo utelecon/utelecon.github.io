@@ -83,10 +83,7 @@ const locale = {
 
 const gaid = "G-ZM6H96EWBD";
 
-const canonicalUrl = new URL(Astro.url);
-if (parsePath(file).name !== "index") {
-  canonicalUrl.pathname = canonicalUrl.pathname.replace(/\/$/, "");
-}
+const canonicalUrl = Astro.url;
 
 const seoProps: SEOProps = {
   title,

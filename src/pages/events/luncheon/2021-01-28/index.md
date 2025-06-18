@@ -6,12 +6,12 @@ Sセメスターで優れた工夫・取り組みのあったオンライン授�
 
 今回は，約30名の学生が履修する農学部 獣医学課程４年生の授業「内分泌病学Ⅰ」にて行われた，オンデマンドとライブ形式を組み合わせた授業設計の工夫を，農学生命科学研究科の米澤智洋先生にご共有頂きます．
 
-オンデマンドとライブ配信を組み合わせた授業のメリットや難しかった点について，先生が取り組まれた経験を元に情報提供を頂きます．また，授業の構成やオンデマンド講義の資料について紹介頂き取り組みの実際を共有頂く予定です．先生の取り組みについての記事は[こちら](/good-practice/interview/yonezawa)にございます．
+オンデマンドとライブ配信を組み合わせた授業のメリットや難しかった点について，先生が取り組まれた経験を元に情報提供を頂きます．また，授業の構成やオンデマンド講義の資料について紹介頂き取り組みの実際を共有頂く予定です．先生の取り組みについての記事は[こちら](/good-practice/interview/yonezawa/)にございます．
 
 - 日時：2021年1月28日（木） 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々及び学生
-- **資料**：[グッドプラクティス紹介 米澤智洋先生の授業 内分泌病学 Ⅰ](/good-practice/interview/yonezawa)
-- [**録画**はこちら](https://drive.google.com/file/d/1lc9WLYJlkAPwclcN0pRF-2z3ew2yohtc/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- **資料**：[グッドプラクティス紹介 米澤智洋先生の授業 内分泌病学 Ⅰ](/good-practice/interview/yonezawa/)
+- [**録画**はこちら](https://drive.google.com/file/d/1lc9WLYJlkAPwclcN0pRF-2z3ew2yohtc/view?usp=sharing) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email/)が必要です）</small>
 
 ---
 
