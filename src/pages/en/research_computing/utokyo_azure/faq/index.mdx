@@ -6,7 +6,9 @@ breadcrumb:
 
 import HelpItem from "@components/utils/HelpItem.astro";
 
-**General**
+## FAQ
+
+### General
 
 <HelpItem lang="en" type="details">
   <Fragment slot="problem">For what purposes can it be used?</Fragment>
@@ -48,7 +50,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
   <Fragment slot="solution">It is undecided. We may continue depending on the utilization status and the effect on costs of the cloud migration, but nothing has been decided yet. For large-scale computational needs, please consider using the supercomputers and mdx service operated by the Information Infrastructure Center.</Fragment>
 </HelpItem>
 
-**Users**
+### Users
 
 <HelpItem lang="en" type="details">
   <Fragment slot="problem">Who can use this service?</Fragment>
@@ -66,7 +68,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 However, for example, login authentication to the OS running on a virtual machine you have created does not depend on the authority of your UTokyo Account, so it is possible to allow external collaborators to register accounts on the OS and use it.</Fragment>
 </HelpItem>
 
-**Subscription**
+### Subscription
 
 <HelpItem lang="en" type="details">
   <Fragment slot="problem">What is a subscription?</Fragment>
@@ -95,6 +97,12 @@ However, for example, login authentication to the OS running on a virtual machin
 </HelpItem>
 
 <HelpItem lang="en" type="details">
+  <Fragment slot="problem">I want to know how to apply roles to multiple people at once.</Fragment>
+  <Fragment slot="solution"><p>If you want to set it up using the **GUI from the Azure Portal**, in the procedure for [Group Use](/en/research_computing/utokyo_azure/group/), when selecting members in the **Member section** of the **Role assignment steps**, you can add roles to multiple people at once by repeating the searching and selecting all members one by one.</p><p>If you're using **Azure Cli from the command line**, you can add a role using the following steps. This assumes a Linux environment, but the steps are roughly the same for other environments where Azure Cli installed.</p><ol><li>Refer to [How to install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) to install Azure CLI in your Linux environment and authenticate with a UTokyo Account that already has Owner privileges for the subscription to which you want to assign a role.</li><li>Prepare a text file that lists the UTokyo Accounts to which you want to add roles.</li><li>Run the following command. ```for i in `cat [textfile name]` ; do az role assignment create --role "Owner" --scope [scope of subscriptions, resources, etc. you want to assign] --assignee $i ; done```</li></ol><ul><li>Note 1: If you want to add a contributor role, specify **Contributor** for `--role`.</li><li>Note 2: For information on scope format, please refer to the [Microsoft Learn documentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview#scope-format).</li></ul></Fragment>
+</HelpItem>
+
+
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">I want to know my subscription ID</Fragment>
   <Fragment slot="solution">You can check your subscription ID on the subscription details screen.</Fragment>
 </HelpItem>
@@ -104,11 +112,11 @@ However, for example, login authentication to the OS running on a virtual machin
   <Fragment slot="solution">Subscriptions and data cannot be restored. If you wish to continue using the service for a certain period of time or longer, please be sure to turn off the Auto Suspension function from the subscription management page on the Utokyo Azure:New application page.</Fragment>
 </HelpItem>
 
-**Free Tier and Guaranteed Free Tier**
+### Free Tier and Guaranteed Free Tier
 
 <HelpItem lang="en" type="details">
   <Fragment slot="problem">What is the Free Tier?</Fragment>
-  <Fragment slot="solution"><p>This is the amount of the free portion of the usage fee for a given month. </p><p>Each user must pay any usage fees that exceed the free portion from their own research funds, etc. In practice, the excess and surplus amounts for each month are tallied for each half-year at the end of March and September, and the total excess amount for each half-year is calculated. This total excess amount will be invoiced by the Information Infrastructure Center. The Free Tier is calculated at the end of each month to be fair, taking into account the university's overall usage fee and number of subscriptions for that month. </p><p>The usage fee for each month can be confirmed on the management page of the [UTokyo Azure : New User Application Page (limited to access from the campus network)](http://azure.itc.u-tokyo.ac.jp/).</p></Fragment>
+  <Fragment slot="solution"><p>This is the free portion of the usage fee for a given month, calculated based on all users at the end of the month.</p><p>Each user must pay any usage fees that exceed the free portion from their own research funds, etc. In practice, the excess and surplus amounts for each month are tallied for each half-year at the end of March and September, and the total excess amount for each half-year is calculated. This total excess amount will be invoiced by the Information Infrastructure Center. For further details, please refer to the [UTokyo Azure information session materials.](/events/2025-04-18/slides/2_possibility_of_charges.pdf) </p><p>The Free Tier is calculated at the end of each month to be fair, taking into account the university's overall usage fee and number of subscriptions for that month. </p><p>The usage fee for each month can be confirmed on the management page of the [UTokyo Azure : New User Application Page (limited to access from the campus network)](http://azure.itc.u-tokyo.ac.jp/).</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="en" type="details">
@@ -122,6 +130,53 @@ However, for example, login authentication to the OS running on a virtual machin
 </HelpItem>
 
 <HelpItem lang="en" type="details">
+  <Fragment slot="problem">I would like to know how much Guaranteed Free Tier use is left and how much I can use for free.</Fragment>
+  <Fragment slot="solution"><p>Owner only: The [UTokyo Azure New User Application Management Page](http://azure.itc.u-tokyo.ac.jp/list) will show you how much your subscription has used so far. It also shows a graph of how much of the free credits have been used by all users overall. This information is updated daily.</p><p>In addition, a unique feature of UTokyo Azure is that when the amount of gift credits consumed reaches 50%, 75%, 90%, or 100% of the Guaranteed Free Tier for that month, a notification email is sent to the Owner's registered email address.</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">I want to know how much gift credits a particular resource costs</Fragment>
+  <Fragment slot="solution">Owner only: Detailed information on a resource-by-resource basis is displayed in table format at the end of the [UTokyo Azure New User Application Management Page](http://azure.itc.u-tokyo.ac.jp/list), so please refer to the "Cost" section. The amount displayed is the amount consumed on that day, so if you want to know the total amount, add up the costs for the same resource for the period you want to know about.</Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+<Fragment slot="problem">I share my subscription with multiple people and I want to know how many gift credits each person has used.</Fragment>
+  <Fragment slot="solution">The smallest unit at which you can check gift credit consumption is the subscription, and it cannot be checked on a user account basis. However, if you are the only one using a specific resource, it is possible to check on a resource basis. For details, please refer to `FAQ: I want to know how much gift credits a particular resource costs`.</Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">Why are the amounts shown on the Subscription Management page in USD?</Fragment>
   <Fragment slot="solution">Due to the way Microsoft processes gift credits, they are managed in US dollars and therefore displayed in US dollars. If an applicant is billed for an excess amount, the university's financial accounting system will convert the amount at the current conversion rate and bill in Japanese yen.</Fragment>
+</HelpItem>
+
+### Service
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">Why are there cases where you cannot select the GPU you want to use for AI or VM services?</Fragment>
+  <Fragment slot="solution"><p>The resources available vary depending on the region. Please check the following page to see if the GPUs etc. you want to use are available in that region. If they are available in another region, please reconstruct the resources in that region.</p><p>The following page describes all Azure resources, so if you want to check virtual machine resources, please refer to the Virtual Machine section under Products.</p><ul><li>[Product Availability by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table)</li></ul></Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">Why are the resources I want to use for AI or VM services, such as GPUs, displayed as low or zero and cannot be used?</Fragment>
+  <Fragment slot="solution">The resources available in Azure are initially set to a low upper limit (quota). If you would like to increase the amount available, please request a quota from your Microsoft representative.</Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">I want to estimate the fees for the services I want to use in advance.</Fragment>
+  <Fragment slot="solution">Microsoft Azure provides a [pricing calculator](/en/research_computing/utokyo_azure/support/calculator), so please use it.</Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">My gift credits are being used more than I expected, and I'd like to find out why and take action. What should I do?</Fragment>
+  <Fragment slot="solution"><p>At the bottom of the management screen of the UTokyo Azure new application page, there is a table showing a detailed breakdown of the gift credits consumed by each resource each day, which you can check here.</p><p>If you sort by Cost in descending order, the items that consume the most gift credits will be at the top, so please check that the settings for those resources are correct.</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">Can I use a virtual machine with a Windows OS?</Fragment>
+  <Fragment slot="solution">Yes. You can use the [UTokyo Microsoft License](/en/microsoft/) with UTokyo Azure. When configuring a virtual machine, check **"I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."**</Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">Can I use a virtual machine with a Windows 11?</Fragment>
+  <Fragment slot="solution"><p>Yes. please see the following link for more information:</p><ul><li>[Microsoft Learn:Windows 11 support on Azure virtual machines](https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/windows-11-support-azure-virtual-machines)</li></ul></Fragment>
 </HelpItem>

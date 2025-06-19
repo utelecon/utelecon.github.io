@@ -7,12 +7,13 @@ toc: false
 
 該当する主なシステムの稼働状況の情報提供ページを以下に挙げます．
 
-- **Zoom**：[Zoom Service Status](https://status.zoom.us/)
+- **Zoom**：[Zoom Service Status](https://www.zoomstatus.com/)
 - **Webex**：[Latest Webex Status Information](https://status.webex.com/)
 - **ECCSクラウドメール (Google Workspace)**：[Google Workspace ステータス ダッシュボード](https://www.google.co.jp/appsstatus/dashboard/)
 - **UTokyo Microsoft License**：[Service Status](https://portal.office.com/servicestatus)
 - **Slido**：[Slido Status](https://status.slido.com/)
-- **UTokyo Slack**：[Slack System Status](https://status.slack.com/)
+- **UTokyo Slack**：[Slack Status](https://slack-status.com/)
+- **UTokyo MATLAB Campus-Wide License**：[Application Status](https://status.mathworks.com/)
 - **Ezproxy・OPAC**：[データベース・電子ジャーナル・OPAC等の障害情報](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/servicestatus)
 
 また，SNSの書き込みをもとに障害の可能性を表示するサービスである「[Downdetector](https://downdetector.jp/)」の情報も，障害が発生しているかどうかの判断の参考となるかもしれません（各システムの提供元からの公式の情報ではないことに留意して利用してください）．
