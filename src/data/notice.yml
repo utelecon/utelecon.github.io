@@ -13,9 +13,9 @@
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
 -
-  date: 2025-06-19
+  date: 2025-06-20
   content:
-    ja: "[LTI連携機能を用いたUTOLからのUTokyo Slackの利用について](/notice/2025/0619-utol-lti-slack)"
+    ja: "[LTI連携機能を用いたUTOLからのUTokyo Slackの利用について](/notice/2025/0620-utol-lti-slack)"
 -
    date: 2025-05-14
    content:
