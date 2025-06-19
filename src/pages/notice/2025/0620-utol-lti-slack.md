@@ -4,7 +4,7 @@ toc: false
 ---
 
 <div style="text-align: right;">
-<span>2025年6月19日</span><br />
+<span>2025年6月20日</span><br />
 <span>情報基盤センター</span><br />
 </div>
 
