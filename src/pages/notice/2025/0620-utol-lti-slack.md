@@ -8,7 +8,7 @@ toc: false
 <span>情報基盤センター</span><br />
 </div>
 
-学習管理システム[UTOL(UTokyo LMS)](/utol/)と[UTokyo Slack](/slack/)をLTI連携により利用できるようになりました．これにより，UTOL上のコースの担当教員・履修者等をメンバーとする専用のUTokyo Slackワークスペースを簡便に運用することが可能となりました．
+学習管理システム[UTOL(UTokyo LMS)](/utol/)と[UTokyo Slack](/slack/)のLTI連携が利用できるようになりました．これにより，UTOL上のコースの担当教員・履修者等をメンバーとする専用のUTokyo Slackワークスペースを簡便に運用することが可能となりました．
 
 UTOLとSlackとの連携機能は，以下のような特徴を持ちます．
 
