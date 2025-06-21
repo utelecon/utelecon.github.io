@@ -31,7 +31,7 @@ breadcrumb:
 
 ## 問い合わせ・申し込み
 
-以下の「部局導入ChromeOS端末の管理代行サービス」用のフォームにご入力ください．なお記入・回答には，ECCSクラウドメール(`XXXXX@g.ecc.u-tokyo.ac.jp`)でのログインが必要です．
+以下の「部局導入ChromeOS端末の管理代行サービス」用のフォームにご入力ください．なお記入・回答には，ECCSクラウドメールでのログインが必要です．
 
 **[部局導入ChromeOS端末の管理代行サービス](https://docs.google.com/forms/d/e/1FAIpQLSdrddEnD_see3tvDMfkWL3RktJyt0vremITPM2u6NdndhpCYQ/viewform?usp=sf_link)**{:.box.center}
 
