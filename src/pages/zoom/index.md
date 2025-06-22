@@ -64,6 +64,7 @@ Zoomは，東京大学で最も多く使われているWeb会議システムで�
 ## その他
 {:#misc}
 
+- [Zoom AI Companionを使う](ai-companion/)
 - [ミーティングの管理とそれに関わる役割（ホスト・共同ホスト・代替ホストなど）について](misc/management_roles/)
 - [Zoomのレポート機能を使って出席を管理する](misc/report/)
 - [Zoomのアプリについて](misc/app/)
