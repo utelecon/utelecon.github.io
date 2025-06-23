@@ -5,7 +5,7 @@ breadcrumb:
 ---
 
 * This section describes the Webex Events functions only available to the host.	
-* Click <a href="do_events" target="_blank">here</a> for basic usage instructions.
+* Click <a href="../do_events/" target="_blank">here</a> for basic usage instructions.
 
 ## Functions only available to the host
 

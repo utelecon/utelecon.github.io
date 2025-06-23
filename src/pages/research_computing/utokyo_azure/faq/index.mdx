@@ -52,7 +52,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">このサービスは誰が利用できますか</Fragment>
-  <Fragment slot="solution">東大の構成員なら誰でも使えますが, UTokyo Account をお持ちの方が [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)より利用申請を行い，[サブスクリプション](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
+  <Fragment slot="solution">東大の構成員なら誰でも使えますが, UTokyo Account をお持ちの方が [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)より利用申請を行い，[サブスクリプション](/research_computing/utokyo_azure/faq/subscription/)を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -69,7 +69,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションとはなんですか</Fragment>
-  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションを管理単位として利用者は様々なサービスを利用することができます．詳細は[サブスクリプションとは（リンク先）](/research_computing/utokyo_azure/faq/subscription)を参照ください．</Fragment>
+  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションを管理単位として利用者は様々なサービスを利用することができます．詳細は[サブスクリプションとは（リンク先）](/research_computing/utokyo_azure/faq/subscription/)を参照ください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -94,7 +94,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">複数人へ一度に所有者ロールを付加したい</Fragment>
-  <Fragment slot="solution"><p>**Azure Portal から GUI で行う**には，[複数人グループでの利用](/research_computing/utokyo_azure/group/)の手順で，ロールの割り当て手順のメンバーパートでメンバーを選択する際，1人ずつ複数回検索と選択を繰り返すことで，複数人へのロール付加を一度にまとめて行えます．</p><p>**Azure Cli を利用してコマンドラインから行う**には，以下の手順でロールを付加できます．Linux 環境を想定していますが，Azure Cli がインストールされた環境であれば同じようなことが可能です．</p><ol><li>[コマンドラインインターフェースでリソースを利用する](/research_computing/utokyo_azure/virtualmachine/azcli)を参考に，Linux 環境に Azure Cli をインストールし，ロールを割り当てたいサブスクリプションに対して既に所有者(Owner)権限がある UTokyo Account で認証してください．</li><li>ロールを付加したい UTokyo Account を箇条書きにしたテキストファイルを用意してください．</li><li>右のコマンドを実行してください． ```for i in `cat [作成したファイル名]` ; do az role assignment create --role "Owner" --scope [割り当てたいサブスクリプションやリソース等のスコープ] --assignee $i ; done```</li></ol><ul><li>補足１：所有者ロールではなく共同作成者権限を付加したい場合は，`--role` に Owner ではなく **Contributor** と指定してください．</li><li>補足２：スコープの書式については[Microsoft Learn のドキュメント](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/scope-overview#scope-format)を参照ください．</li></ul></Fragment>
+  <Fragment slot="solution"><p>**Azure Portal から GUI で行う**には，[複数人グループでの利用](/research_computing/utokyo_azure/group/)の手順で，ロールの割り当て手順のメンバーパートでメンバーを選択する際，1人ずつ複数回検索と選択を繰り返すことで，複数人へのロール付加を一度にまとめて行えます．</p><p>**Azure Cli を利用してコマンドラインから行う**には，以下の手順でロールを付加できます．Linux 環境を想定していますが，Azure Cli がインストールされた環境であれば同じようなことが可能です．</p><ol><li>[コマンドラインインターフェースでリソースを利用する](/research_computing/utokyo_azure/virtualmachine/azcli/)を参考に，Linux 環境に Azure Cli をインストールし，ロールを割り当てたいサブスクリプションに対して既に所有者(Owner)権限がある UTokyo Account で認証してください．</li><li>ロールを付加したい UTokyo Account を箇条書きにしたテキストファイルを用意してください．</li><li>右のコマンドを実行してください． ```for i in `cat [作成したファイル名]` ; do az role assignment create --role "Owner" --scope [割り当てたいサブスクリプションやリソース等のスコープ] --assignee $i ; done```</li></ol><ul><li>補足１：所有者ロールではなく共同作成者権限を付加したい場合は，`--role` に Owner ではなく **Contributor** と指定してください．</li><li>補足２：スコープの書式については[Microsoft Learn のドキュメント](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/scope-overview#scope-format)を参照ください．</li></ul></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -153,12 +153,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">AIやVMサービスで使いたいGPU等はあるが，使える数が少ないかゼロと表示されて使えない</Fragment>
-  <Fragment slot="solution"><p>Azure で利用できる資源は，初期状態では利用できる上限値（クォータ）が少な目に設定されています．利用できる量を増やしたい場合は，Microsoftの担当者にクォータ増量の申請をリクエストしてください．</p><p>仮想マシン資源のクォータ申請方法は以下のリンクを参照ください．</p><ul><li>[クォータの管理](/research_computing/utokyo_azure/ai/quota)</li></ul></Fragment>
+  <Fragment slot="solution"><p>Azure で利用できる資源は，初期状態では利用できる上限値（クォータ）が少な目に設定されています．利用できる量を増やしたい場合は，Microsoftの担当者にクォータ増量の申請をリクエストしてください．</p><p>仮想マシン資源のクォータ申請方法は以下のリンクを参照ください．</p><ul><li>[クォータの管理](/research_computing/utokyo_azure/ai/quota/)</li></ul></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">利用したいサービスを使うと，どのくらいギフトクレジットを消費するのか予め確認したい</Fragment>
-  <Fragment slot="solution">Microsoft Azure に[料金計算ツール](/research_computing/utokyo_azure/support/calculator)が用意されていますので，こちらをご活用ください．</Fragment>
+  <Fragment slot="solution">Microsoft Azure に[料金計算ツール](/research_computing/utokyo_azure/support/calculator/)が用意されていますので，こちらをご活用ください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
