@@ -11,7 +11,12 @@ jobs:
     if: >-
       ${{
         github.event_name == 'pull_request' ||
-        (github.event_name == 'issue_comment' && github.event.issue.pull_request)
+        (
+          github.event_name == 'issue_comment' &&
+          github.event.issue.pull_request &&
+          !github.event.issue.closed &&
+          github.event.comment.body == '/deploy-preview'
+        )
       }}
     outputs:
       pr_number: ${{ steps.set_pr_number.outputs.pr_number }}
@@ -22,16 +27,11 @@ jobs:
           PR_NUMBER=""
           if [ "${{ github.event_name }}" == "pull_request" ]; then
             PR_NUMBER="${{ github.event.pull_request.number }}"
-            echo "Triggered by pull request: $PR_NUMBER"
           elif [ "${{ github.event_name }}" == "issue_comment" ]; then
-            echo "Triggered by issue comment: ${{ github.event.comment.body }} on issue #${{ github.event.issue.number }}"
-            if [[ "${{ github.event.comment.body }}" =~ ^/deploy-preview$ ]]; then
-              PR_NUMBER="${{ github.event.issue.number }}"
-            else
-              echo "No deploy-preview command found in comment."
-            fi
+            PR_NUMBER="${{ github.event.issue.number }}"
           fi
 
+          echo "Triggered by ${{ github.event_name }}: $PR_NUMBER"
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
 
   build:
