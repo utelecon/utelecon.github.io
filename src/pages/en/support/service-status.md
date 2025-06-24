@@ -12,14 +12,14 @@ Below are the main service status pages.
 - **ECCS Cloud Email (Google Workspace)**: [Google Workspace Status Dashboard](https://www.google.com/appsstatus/dashboard/)
 - **UTokyo Microsoft License**: [Service health](https://portal.office.com/servicestatus)
 - **Slido**: [Slido Status](https://status.slido.com/)
-- **UTokyo Slack**: [Slack System Status](https://slack-status.com/)
+- **UTokyo Slack**: [Slack Status](https://slack-status.com/)
 - **EZproxy・OPAC**: [Failure information on databases, e-journals, OPAC, etc.](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/servicestatus)
 
 Information from “[Downdetector](https://downdetector.com/),” a service that notifies you of possible failures based on SNS posts, may also help determine whether or not there are problems with systems provided by external organizations such as Zoom, Webex, ECCS Cloud Email (Google Workspace), and UTokyo Microsoft License. (Please note that this is not official information from the provider of each system.)
 
 ## Supplementary Information
 
-Information on failures and maintenance provided by the University of Tokyo is posted on the following page. To access this page, you must sign in with your [UTokyo Account](/en/utokyo_account).
+Information on failures and maintenance provided by the University of Tokyo is posted on the following page. To access this page, you must sign in with your [UTokyo Account](/en/utokyo_account/).
 
 <b class="box--important center">["System Failures and Maintenance Information"](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/service-status.aspx)</b>
 

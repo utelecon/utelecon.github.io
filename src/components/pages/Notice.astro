@@ -1,5 +1,5 @@
 ---
-import { getISODateString, noticesWithId } from "@data/utils/notices";
+import { getISODateString, getLocaleDateString, noticesWithId } from "@data/utils/notices";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
 
@@ -43,8 +43,8 @@ for (const notice of noticesWithId) {
   {
     contents.map(({ date, content, id }) => (
       <li id={id}>
-        <span class="date">{localize ? date.toLocaleDateString(lang, {dateStyle: "long"}) : date.toISOString().split("T")[0]}</span>
-        <span class="title"><Markdown content={content} /></span>
+        <span class="date">{localize ? getLocaleDateString(date, lang, "long") : getISODateString(date)}</span>{
+        }<span class="title"><Markdown content={content} /></span>
       </li>
     ))
   }
@@ -63,10 +63,10 @@ for (const notice of noticesWithId) {
     width: 6rem;
     color: $heading-color;
     margin-right: 5px;
-  }
 
-  .date_list.localized .date {
-    width: auto;
+    :where(.date_list).localized & {
+      width: auto;
+    }
   }
 
   .listitem-highlight {

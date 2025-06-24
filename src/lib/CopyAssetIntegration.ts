@@ -33,13 +33,13 @@ export default function CopyAssetIntegration(): AstroIntegration {
             if (!pathname || pathname.endsWith("/rss.xml") || type !== "page") {
               return;
             }
-            const path = getDistFilePath(dir, pathname, entrypoint);
+            const path = getDistFilePath(dir, pathname);
             const source = await read(path);
             const hast = parser.parse(source);
 
             const base = new URL(
               join(relative("src/pages", dirname(entrypoint)), sep),
-              ORIGINS[0],
+              ORIGINS[0]
             );
 
             for (const tag of selectAll("a", hast)) {
@@ -53,7 +53,7 @@ export default function CopyAssetIntegration(): AstroIntegration {
                 assetPathsCache.add(assetPath);
               }
             }
-          }),
+          })
         );
 
         await Promise.all(
@@ -78,7 +78,7 @@ export default function CopyAssetIntegration(): AstroIntegration {
               await mkdir(dirname(destPath), { recursive: true });
             }
             await copyFile(srcPath, destPath);
-          }),
+          })
         );
       },
     },

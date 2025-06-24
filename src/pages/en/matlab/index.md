@@ -26,7 +26,7 @@ The University of Tokyo has a comprehensive license agreement that allows **all 
 
 The purpose of use is limited to educational and research activities and related work. The use of the service for commercial purposes is not permitted. If you are considering commercial use, please contact MathWorks．
 
-Also, please refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms)".
+Also, please refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms/)".
 
 ## How to start using MATLAB
 To use MATLAB, you need to create a MathWorks account. In addition, you will need a [UTokyo Account](/en/utokyo_account/) and an email address ending with `u-tokyo.ac.jp` provided by the University of Tokyo to activate the blanket license．
@@ -125,7 +125,7 @@ This is an open forum where you can get information about MATLAB product updates
 
 A workspace named "**東京大学MATLABユーザコミュニティ (University of Tokyo MATLAB User Community)**" is available in [UTokyo Slack](/en/slack/). Please refer to the following page to join．
 
-see: **[Joining an open workspace in UTokyo Slack](/en/slack/join)**
+see: **[Joining an open workspace in UTokyo Slack](/en/slack/join/)**
 
 ### UTokyo MATLAB Ambassadors
 "UTokyo MATLAB Ambassadors" is a student team who hold workshops on how to use MATLAB and events for interaction among users in the university. They also provide consultation services via email and Zoom. Please refer to [**Ambassador Portal Site**](https://sites.google.com/view/ut-matlab-amb/) (in Japanese) for details．
