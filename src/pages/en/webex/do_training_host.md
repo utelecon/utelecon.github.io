@@ -3,7 +3,7 @@ title: What is possible with Webex Training?（for Instructors)
 ---
 
 * This section describes the Webex Training functions only available to the host.	
-* Click <a href="do_training" target="_blank">here</a> for basic use instructions.
+* Click <a href="../do_training/" target="_blank">here</a> for basic use instructions.
 
 ## Functions only available to the host
 

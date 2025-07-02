@@ -9,7 +9,6 @@ import redirect from "./src/lib/RedirectIntegration.js";
 import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
 import dotSlashPlugin from "./src/lib/DotSlashPlugin.js";
 import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
-import externalLinks from "./src/lib/ExternalLinksIntegration.js";
 import { cleanup } from "./src/lib/CleanupIntegration.js";
 import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
 import copyAsset from "./src/lib/CopyAssetIntegration.js";
@@ -38,7 +37,7 @@ export default defineConfig({
     },
   },
   build: {
-    format: "preserve",
+    format: "directory",
   },
   markdown: {
     remarkPlugins: [
@@ -69,12 +68,6 @@ export default defineConfig({
     mdx({ rehypePlugins: [] }),
     react(),
     redirect(),
-    externalLinks({
-      target: "_blank",
-      rel: ["noopener", "noreferrer"],
-      content: { type: "text", value: "" },
-      contentProperties: { className: ["external-link"] },
-    }),
     cleanup(),
     copyAsset(),
     partytown({
