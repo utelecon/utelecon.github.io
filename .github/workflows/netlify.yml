@@ -21,8 +21,32 @@ jobs:
     outputs:
       pr_number: ${{ steps.set_pr_number.outputs.pr_number }}
     steps:
+      - name: Check if commenter is org member (for issue_comment)
+        if: ${{ github.event_name == 'issue_comment' }}
+        id: check_org_member
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const org = context.repo.owner;
+            const username = context.payload.comment.user.login;
+            try {
+              const res = await github.rest.orgs.checkMembershipForUser({
+                org,
+                username
+              });
+              core.info(`${username} is a member of ${org}`);
+              core.setOutput('is_member', true);
+            } catch (error) {
+              if (error.status === 404) {
+                core.setFailed(`${username} is not a member of ${org}`);
+              } else {
+                throw error;
+              }
+            }
+
       - name: Determine Pull Request Number
         id: set_pr_number
+        if: ${{ github.event_name == 'pull_request' || steps.check_org_member.outputs.is_member == 'true' }}
         run: |
           PR_NUMBER=""
           if [ "${{ github.event_name }}" == "pull_request" ]; then
