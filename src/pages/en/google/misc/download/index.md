@@ -13,7 +13,7 @@ For detailed settings and troubleshooting, please refer to [Google Account Help 
 1. Please log in to your ECCS Cloud Email.
 1. Please click the profile picture or your initials in the top right corner, then select “Manage your Google Account”.
 
-   ![Manage your Google Account](./_google_misc_backup_download_en1.png)
+   ![Manage your Google Account](./_google_misc_backup_download_en1_pdf.png)
 
 1. From the left-hand menu, please select “Data & privacy,”, then click “Download your data”.
 
