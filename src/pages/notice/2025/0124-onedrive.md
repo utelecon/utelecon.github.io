@@ -16,4 +16,4 @@ UTokyo AccountでOneDriveを利用される場合，組織契約により本学�
 
 ## 参考
 
-- [UTokyo Accountで利用するOneDrive等の容量制限について（第2報）](../2024/0422-microsoft-storage/)
+- [UTokyo Accountで利用するOneDrive等の容量制限について（第2報）](../../2024/0422-microsoft-storage/)

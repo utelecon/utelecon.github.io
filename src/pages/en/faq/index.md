@@ -13,10 +13,10 @@ Some options for taking attendance are:
 * To avoid fake attendance, require students to answer questions related to the contents of lecture or give feedback on the class.
 * To avoid faking attendance, enable the “Collect emails” function when creating Google forms with ECCS Cloud Email account (UTokyo G Suite). Students’ email addresses would be collected for identity confirmation, making it harder for students to fake attendance. To do this, go to “Settings (the gear icon)”, check the box next to "Collect emails" and select “Restrict to users of UTokyo ECCS Cloud Email and its trusted organizations”.
 * Call the roll (suitable for smaller size classes using web conference systems). You might have the participants turn on cameras and confirm their identities.
-* Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/en/zoom/how/faculty_members/attendance" target="_blank"> Zoom for staff: Managing Attendance</a>.
+* Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/en/zoom/how/faculty_members/attendance/" target="_blank"> Zoom for staff: Managing Attendance</a>.
 
 ### Q. What should I do if I cannot join an online class?
-* Please consult the following link “[How to join an online class](/en/oc/join)”. It contains information on how to search for online class URLs, common problems, and where to contact when you cannot join a class.
+* Please consult the following link “[How to join an online class](/en/oc/join/)”. It contains information on how to search for online class URLs, common problems, and where to contact when you cannot join a class.
 
 ## ECCS Cloud Email (Google Workspace)
 ### Q. What is ECCS Cloud Email?
@@ -80,7 +80,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
   * Your UTAS account may not have been issued. Please send your UTokyo Account to the faculty office to check if your UTAS account has been issued.
 * If you cannot sign into these systems:
   * Reset your UTokyo Account [password](/utokyo_account/#forget-password).
-* Reference: [UTAS](/utas)
+* Reference: [UTAS](/utas/)
 
 ### Q. 「[Error] あなたは現在このシステムを利用することができません」is shown and sign-in is unavailable. What can I do?
 * This may occur during affiliation transition, for example, from undergraduate to graduate. Please try again later.
@@ -105,8 +105,8 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 #### Q. How do I create a university account?
 * UTokyo Zoom Account is generated automatically if you own a UTokyo Account.
-* Activation of your UTokyo Account is therefore crucial. Please consult[Getting Ready for ICT Systems (for new students)](/en/oc/)or [Getting Ready for ICT Systems (for faculty members)](/en/faculty_members)」for further details on UTokyo Accounts.
-* If necessary, please also refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin).
+* Activation of your UTokyo Account is therefore crucial. Please consult[Getting Ready for ICT Systems (for new students)](/en/oc/)or [Getting Ready for ICT Systems (for faculty members)](/en/faculty_members/)」for further details on UTokyo Accounts.
+* If necessary, please also refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin/).
 
 #### Q. Is this service free?
 * Yes. No additional charges will be incurred for the use of UTokyo Zoom Account service.
@@ -114,15 +114,15 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 #### Q. Do I need to sign in to my UTokyo Zoom Account?
 
 * Please sign in to your account. Non-UTokyo Zoom Account users might be prohibited from joining specific meeting rooms. There are also additional settings which are only accessible to UTokyo Zoom Account users.
-* Please refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin) for instructions on how to sign in.
+* Please refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin/) for instructions on how to sign in.
 
 #### Q. I received the error message “ Error AADSTS50105…” and cannot sign in to Zoom.
 * Please retry after a while. If the problem persists, kindly contact the [Technical Support Desk](/en/support/).
 
 
 #### Q. My account license type is shown as “Basic”, instead of “Licensed”.
-* You are likely not signed in properly to your UTokyo Zoom Account. Please consult [Sign-in Methods for Zoom](/en/zoom/zoom_signin) and try again.
-* If you are using a non-10-digit Common ID Zoom account, please refer to [Signing in to Zoom with a non-UTokyo ID](/en/notice/zoom-address-new). Your license type should become “licensed” after switching your sign-in email to [10-digit Common ID]@utac.u-tokyo.ac.jp.
+* You are likely not signed in properly to your UTokyo Zoom Account. Please consult [Sign-in Methods for Zoom](/en/zoom/zoom_signin/) and try again.
+* If you are using a non-10-digit Common ID Zoom account, please refer to [Signing in to Zoom with a non-UTokyo ID](/en/notice/zoom-address-new/). Your license type should become “licensed” after switching your sign-in email to [10-digit Common ID]@utac.u-tokyo.ac.jp.
 * If your license type remains “Basic” even after signing in with [10-digit Common ID]@utac.u-tokyo.ac.jp, please contact the [Technical Support Desk](/en/support/) for assistance.
 
 ### Trouble joining a meeting
@@ -134,7 +134,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 #### Q. The message “This meeting is for authorized attendees only” (or similar) is shown.
 * The meeting is restricted to UTokyo Zoom Account users, but you are not signed in.
-* Click on “Sign In to Join” or “Switch Account to Join”, and sign in to your UTokyo Zoom account following the procedures in [Sign-in Methods for Zoom](/en/zoom/zoom_signin).
+* Click on “Sign In to Join” or “Switch Account to Join”, and sign in to your UTokyo Zoom account following the procedures in [Sign-in Methods for Zoom](/en/zoom/zoom_signin/).
 
 #### Q. The message “Please wait, the meeting host will let you in soon” (or similar) is shown.
 * The lecturer has enabled the Waiting Room feature.
@@ -147,11 +147,11 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 #### Q. “Enter Meeting Passcode” is displayed.
 * I"Passcode" is required in addition to the URL to join a Zoom meeting.
-* Please check if the passcode is sent with the class URL. If not, report it to "[Report on Attendance Issues](/en/oc/join#form)".
+* Please check if the passcode is sent with the class URL. If not, report it to "[Report on Attendance Issues](/en/oc/join/#form)".
 
 #### Q. "This meeting is locked by the host” is displayed.
 * The teacher has “locked” the meeting room so that no entry is permitted during the meeting.
-* Please report to "[Report on Attendance Issues](/en/oc/join#form)".
+* Please report to "[Report on Attendance Issues](/en/oc/join/#form)".
 
 #### Q. "Invalid address" is displayed.
 * Several cases below display such a message.
@@ -162,14 +162,14 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 ### Specific Use
 
 #### Q. How can I restrict the meeting room to on-campus access only?
-* Please refer to [here](/en/faculty_members/zoom_access_control) for details. Several methods are introduced.
+* Please refer to [here](/en/faculty_members/zoom_access_control/) for details. Several methods are introduced.
 
 #### Q. How can I take attendance using Zoom?
 * You can get a list of  meeting participants through the following procedure.
   1. Click "Report" [https://zoom.us/account/report](https://zoom.us/account/report) on the left menu of Zoom My Page, and then "Use".
   1. Click the number in the "Attendee" column of the meeting you want to confirm the attendance of.
   1. Names, join time, leave time, scheduling time, and Zoom account email address of attendees would be displayed.
-* For more details, check [Prepare for confirming attendance in classes](/en/lms_lecturers/prepare_attendances).
+* For more details, check [Prepare for confirming attendance in classes](/en/lms_lecturers/prepare_attendances/).
 
 #### Q. How can I assign omnibus speakers or TAs as hosts?
 * There are two ways to handle this.
@@ -179,10 +179,10 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 #### Q. How can I host a large meeting (more than 301 people) in zoom?
 * Prior application for a large meeting license is essential. With such license, you can hold a zoom meeting beyond normal capacity and gain access to additional features.
-* Please refer to [here](/en/zoom/license) for the application procedure.
+* Please refer to [here](/en/zoom/license/) for the application procedure.
 
 #### Q. Can I use my UTokyo Zoom account to host meetings and events outside the university?
-* Please refer to the bottom of [this page](/notice/webmeetingaccount20201120.html) for related information before making a decision.
+* Please refer to the bottom of [this page](/notice/webmeetingaccount20201120/) for related information before making a decision.
     * As a member of UTokyo, you are welcome to use these services (Zoom, Webex, Google Meets) for research, education, study, and academic purposes. If you wish to host a meeting that exceeds the participant capacity allowed by the university license, please purchase an individual license on your own.
 
 #### Q. How can I edit a single occurrence of a recurring meeting?
