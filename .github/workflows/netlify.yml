@@ -94,7 +94,6 @@ jobs:
         uses: nwtgck/actions-netlify@v3.0
         with:
           publish-dir: dist
-          production-branch: master
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Preview for #${{ needs.pr_number.outputs.pr_number }}"
           enable-pull-request-comment: true
