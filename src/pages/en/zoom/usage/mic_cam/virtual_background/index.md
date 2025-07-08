@@ -87,7 +87,7 @@ When used appropriately in closed areas such as seminars and clubs, both functio
 
 3. Select the avatar of your choice. (When an avatar is set, the camera background will disappear, and only the avatar will be displayed. If a virtual background is set, the set image will be displayed behind the avatar.)
   ![](images/select_avatar.png)
-  **Note:** When the virtual background is set
+   ※ When the virtual background is set
     ![](images/avatar_with_virtual_screen.png)
 
    * Click on the “+” to create your original avatar.
