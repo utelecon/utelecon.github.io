@@ -16,6 +16,8 @@ uteleconは，オンライン授業やWeb会議に関する情報をワンスト
 - 最後にプレビューを作成してから時間が経つと，「Site not found」のように表示され，アクセスできなくなることがあります．
 - Dependabotが作成したPull Requestでは，権限の問題でプレビューが作成されません．
 
+なお，conflictのあるPull Requestで「/deploy-preview」を使った場合，最後にマージ可能だった時点の状態で生成されます．
+
 ## Frontmatter
 
 Markdownファイルのフロントマターにかける設定は以下の通りです：
