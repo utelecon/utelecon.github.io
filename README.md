@@ -13,7 +13,7 @@ uteleconは，オンライン授業やWeb会議に関する情報をワンスト
 
 ### Pull Requestのプレビューについて
 
-[utelecon/utelecon.github.io](https://github.com/utelecon/utelecon.github.io/)でPull Requestを作成すると，自動的にNetlify上にプレビューが作成され，編集されたサイトをオンラインで確認することができます．
+上記のローカルでのプレビューに加え，[utelecon/utelecon.github.io](https://github.com/utelecon/utelecon.github.io/)でPull Requestを作成すると，自動的にNetlify上にプレビューが作成され，編集されたサイトをオンラインで確認することができます．
 
 具体的には，Pull Requestを新しく作成したり，既存のPull Requestのコミットを追加・変更したりしたときに，プレビューが作成されます．また，自動的に作成されるプレビューが利用できない場合（Dependabotが作成したPull Requestや，最後にプレビューを作成してから時間が経ったPull Request等）は，Pull Requestに`/deploy-preview`というコメントを送ると，強制的に作成させることができます．
 
