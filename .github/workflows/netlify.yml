@@ -2,72 +2,14 @@ name: Build and Deploy to Netlify
 
 on:
   pull_request:
-  issue_comment:
-    types: [created]
+  workflow_dispatch:
 
 jobs:
-  pr_number:
-    runs-on: ubuntu-latest
-    if: >-
-      ${{
-        github.event_name == 'pull_request' ||
-        (
-          github.event_name == 'issue_comment' &&
-          github.event.issue.pull_request &&
-          github.event.issue.state == 'open' &&
-          github.event.comment.body == '/deploy-preview'
-        )
-      }}
-    outputs:
-      pr_number: ${{ steps.set_pr_number.outputs.pr_number }}
-    steps:
-      - name: Check if commenter is org member (for issue_comment)
-        if: ${{ github.event_name == 'issue_comment' }}
-        id: check_org_member
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const org = context.repo.owner;
-            const username = context.payload.comment.user.login;
-            try {
-              const res = await github.rest.orgs.checkMembershipForUser({
-                org,
-                username
-              });
-              core.info(`${username} is a member of ${org}`);
-              core.setOutput('is_member', true);
-            } catch (error) {
-              if (error.status === 404) {
-                core.setFailed(`${username} is not a member of ${org}`);
-              } else {
-                throw error;
-              }
-            }
-
-      - name: Determine Pull Request Number
-        id: set_pr_number
-        if: ${{ github.event_name == 'pull_request' || steps.check_org_member.outputs.is_member == 'true' }}
-        run: |
-          PR_NUMBER=""
-          if [ "${{ github.event_name }}" == "pull_request" ]; then
-            PR_NUMBER="${{ github.event.pull_request.number }}"
-          elif [ "${{ github.event_name }}" == "issue_comment" ]; then
-            PR_NUMBER="${{ github.event.issue.number }}"
-          fi
-
-          echo "Triggered by ${{ github.event_name }}: $PR_NUMBER"
-          echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
-
   build:
     runs-on: ubuntu-latest
-    needs: pr_number
-    if: ${{ needs.pr_number.outputs.pr_number != '' }}
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: refs/pull/${{ needs.pr_number.outputs.pr_number }}/merge
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -96,12 +38,12 @@ jobs:
           publish-dir: dist
           production-branch: master
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Preview for #${{ needs.pr_number.outputs.pr_number }}"
+          deploy-message: "Preview for #${{ github.event.number }}"
           enable-pull-request-comment: true
           overwrites-pull-request-comment: true
           enable-commit-comment: false
           enable-github-deployment: false
-          alias: deploy-preview-${{ needs.pr_number.outputs.pr_number }}
+          alias: deploy-preview-${{ github.event.number }}
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

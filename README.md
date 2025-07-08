@@ -11,20 +11,6 @@ uteleconは，オンライン授業やWeb会議に関する情報をワンスト
 - レポジトリをクローンしたら，まず`npm install`を実行します．
 - プレビューを開始するには，`npm run dev`を実行します．`^C`で終了します．
 
-### Pull Requestのプレビューについて
-
-上記のローカルでのプレビューに加え，[utelecon/utelecon.github.io](https://github.com/utelecon/utelecon.github.io/)でPull Requestを作成すると，自動的にNetlify上にプレビューが作成され，編集されたサイトをオンラインで確認することができます．
-
-具体的には，Pull Requestを新しく作成したり，既存のPull Requestのコミットを追加・変更したりしたときに，自動的にプレビューが作成されます．また，自動的に作成されるプレビューが利用できない場合（Dependabotが作成したPull Requestや，最後にプレビューを作成してから時間が経ったPull Request等）は，Pull Requestに`/deploy-preview`とコメントを送ると，強制的に作成させることができます．
-
-なお，以下のようにいくつか注意点があります：
-
-- プレビューは，その時点で「もし当該Pull Requestがマージされたとした場合の」状態で作成されます．
-  - このため，ブランチが古い場合，ローカルで作成したプレビューとは内容が異なる場合があります．`git merge master`を行うとローカルと一致します．
-- コンフリクトのあるPull Requestでは自動的なプレビューの作成は行われません．
-  - また，コンフリクトのあるPull Requestで`/deploy-preview`を使った場合，最後にマージ可能だった時点の状態で作成されます．
-- `/deploy-preview`は[GitHub上の `utelecon` organization](https://github.com/utelecon/)のメンバーのみ利用できます．
-
 ## Frontmatter
 
 Markdownファイルのフロントマターにかける設定は以下の通りです：
