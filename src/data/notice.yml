@@ -13,6 +13,11 @@
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
 -
+  date: 2025-07-10
+  content:
+    ja: "9/10 15:00から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2025-09-10/)」を開催いたします．"
+  important: true
+-
   date: 2025-06-20
   content:
     ja: "[LTI連携機能を用いたUTOLからのUTokyo Slackの利用について](/notice/2025/0620-utol-lti-slack)"
