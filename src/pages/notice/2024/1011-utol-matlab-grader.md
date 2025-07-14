@@ -3,7 +3,8 @@ title: UTOLからMATLAB Graderを利用可能となりました
 ---
 
 <div style="text-align: right;">
-<span>2024年10月16日</span><br />
+<span>公開：2024年10月16日</span><br />
+<span>更新：2025年07月14日</span><br />
 <span>情報基盤センター</span><br />
 </div>
 
