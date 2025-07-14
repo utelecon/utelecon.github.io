@@ -25,7 +25,7 @@ This section introduces several tools and methods that will allow you to take qu
 #### Using Web Conferencing Systems Such as Zoom
 {:#web-conf}
 
-Here, we will focus on Zoom as an example of a web conferencing system (see [this link](/en/online/tools#web-conf) for an explanation of some representative web conferencing systems).
+Here, we will focus on Zoom as an example of a web conferencing system (see [this link](/en/online/tools/#web-conf) for an explanation of some representative web conferencing systems).
 
 There are two methods for taking questions through Zoom: to have the students voice their questions out loud and to have them use [the Chat feature](/zoom/usage/chat/) (in Japanese). Things will go more smoothly if you set aside time for Q&A, or ask your students to use [the Raise Hand feature](/zoom/usage/reaction/) (in Japanese) when having students ask their questions out loud.
 
@@ -80,7 +80,7 @@ Since you can have the posted questions flow across your screen, you can read an
 
 (Online References)
 * **[Communicating with Your Students Using Commentscreen](/articles/commentscreen/)** (in Japanese): Provides an overview of the service, along with instructions on how to use it.
-* **[Good Practices for Online Classes / Professor Naohiko Sugita, Manufacturing Systems](/good-practice/interview/sugita)** (in Japanese): A practical example of a class using CommenScreen to take questions.
+* **[Good Practices for Online Classes / Professor Naohiko Sugita, Manufacturing Systems](/good-practice/interview/sugita/)** (in Japanese): A practical example of a class using CommenScreen to take questions.
 * **[CommentScreen Official Website](https://commentscreen.com/en)**: Gives an overview of the system.
 
 ### For Large Classes or When You Want to Take Many Questions at Once
@@ -124,9 +124,9 @@ You might find it hard to check Slido while simultaneously looking at the Zoom w
 
 (References) 
 * **[Guide to Slido](/en/slido/)**: Provides an overview of the service, along with instructions on how to use it.
-* **[Good Practices for Online Classes: Professor Yuko Yotsumoto, Psychology I](/good-practice/interview/yotsumoto)** (in Japanese): A practical example of collecting questions during class using Slido, implementing the above Tips.
-* **[Good Practices for Online Classes / Professor Yosuke Tanaka, Anatomy 3 (Nervous System)](/good-practice/interview/tanaka)** (in Japanese): A practical example of collecting and responding to questions during class using Slido.
-* **[Good Practices for Online Classes / Professor Kayoko Kurita, Creating “A Place for Learning”](/good-practice/interview/kurita)** (in Japanese): A practical example of how to collect and respond to questions during class using Slido.
+* **[Good Practices for Online Classes: Professor Yuko Yotsumoto, Psychology I](/good-practice/interview/yotsumoto/)** (in Japanese): A practical example of collecting questions during class using Slido, implementing the above Tips.
+* **[Good Practices for Online Classes / Professor Yosuke Tanaka, Anatomy 3 (Nervous System)](/good-practice/interview/tanaka/)** (in Japanese): A practical example of collecting and responding to questions during class using Slido.
+* **[Good Practices for Online Classes / Professor Kayoko Kurita, Creating “A Place for Learning”](/good-practice/interview/kurita/)** (in Japanese): A practical example of how to collect and respond to questions during class using Slido.
 * **[Slido Official Website](https://www.slido.com/)**: Provides an overview of the service.
 
 ## Collecting Questions During or Before/After On-Demand Classes
@@ -174,8 +174,8 @@ As a rule, we recommend collecting questions using the channel. However, it migh
 
 (References)
 * **[Guide to Slack](/en/articles/slack-communication/)**: Provides an overview of the service, along with instructions on how to take advantage of its various features.
-* **[Good Practices for Online Classes / Professor Saito Norikazu, Numerical Analysis I & Numerical Analysis](/good-practice/interview/saito)** (in Japanese): A practical example of collecting questions using Slack.
-* **[Good Practices for Online Classes / Professor Tadashi Shiraishi, Jurisprudence I](/good-practice/interview/shiraishi.html)** (in Japanese): A practical example of collecting questions using Slack.
+* **[Good Practices for Online Classes / Professor Saito Norikazu, Numerical Analysis I & Numerical Analysis](/good-practice/interview/saito/)** (in Japanese): A practical example of collecting questions using Slack.
+* **[Good Practices for Online Classes / Professor Tadashi Shiraishi, Jurisprudence I](/good-practice/interview/shiraishi/)** (in Japanese): A practical example of collecting questions using Slack.
 * **[Using Slack in a Seminar](/articles/slack-seminar/)** (in Japanese): Provides instructions on how to use Slack effectively in a seminar course.
 * **[Slack Official Website](https://slack.com/)**: Provides an overview of the service.
 
@@ -207,7 +207,7 @@ While Slack allows you to create multiple channels, LINE Open Chat only allows y
 So if there are very many questions or several Q&As are being conducted at the same time, or if you want to send other notifications, then you need to be careful since people may overlook or lose track of the messages.
 
 (References)
-* **[Good Practices for Online Classes / Professor Kei Hirose, Geoscience](/good-practice/interview/hirose)** (in Japanese): Provides an overview of the service, along with instructions on how to use them.
+* **[Good Practices for Online Classes / Professor Kei Hirose, Geoscience](/good-practice/interview/hirose/)** (in Japanese): Provides an overview of the service, along with instructions on how to use them.
 * **[LINE’s Official Website](https://guide.line.me/ja/services/openchat.html)** (in Japanese): Provides an overview of the service, along with instructions on how to use them.
 
 ### For Small Classes or When You Don’t Need to Take Too Many Questions
@@ -247,7 +247,7 @@ There is a message-board-like feature called the “Stream” page, where you ca
 * Since taking questions is not its main purpose, it becomes difficult to view when there are too many questions.
 
 (References)
-* **[Guide to Google Classroom](/en/online/tools#google-classroom)**:  Provides an overview of the service, along with basic instructions on how to use it.
+* **[Guide to Google Classroom](/en/online/tools/#google-classroom)**:  Provides an overview of the service, along with basic instructions on how to use it.
 
 * **[Google Official Website](https://edu.google.com/intl/en_ALL/workspace-for-education/classroom/)**: Provides an overview of the service.
 

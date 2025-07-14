@@ -41,7 +41,7 @@ Microsoftは下記以外のシステムも提供しており，それらにつ�
 
 Word，Excel，PowerPointなど，機器にインストールして利用するOfficeアプリです．それぞれのアプリの最新版のみを利用することができます．利用開始の手順については以下をご覧ください．
 
-**[UTokyo Microsoft LicenseでOfficeアプリをインストールする](install)**{:.box.center}
+**[UTokyo Microsoft LicenseでOfficeアプリをインストールする](install/)**{:.box.center}
 
 ### OneDrive
 {:#onedrive}
@@ -60,7 +60,7 @@ Webブラウザ上でOneDrive上にあるファイルを編集するには，Web
 - [Officeアプリの利用対象者](#office_apps)でない方がOfficeを利用する場合
 - 権限などの理由により，機器にOfficeアプリをインストールできない場合
 
-Web版Officeを利用してOneDrive上でファイルを作成・編集する方法については**[OneDriveの基本的な使い方](onedrive/basic)**をご覧ください．
+Web版Officeを利用してOneDrive上でファイルを作成・編集する方法については**[OneDriveの基本的な使い方](onedrive/basic/)**をご覧ください．
 
 ### Teams
 {:#teams}
@@ -89,6 +89,8 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 ### Microsoftが提供するその他のシステム
 {:#misc}
 
+Microsoft365では多様なサービスが提供されていますが，学生向けには個人情報保護対策と管理上の問題があるOutlook(メールサービス)，Teams，PowerPlatform(PowerAutomate，PowerAppsなど)は提供していません．ご了承ください．
+
 #### Microsoft Forms
 {:#forms}
 
@@ -103,7 +105,7 @@ UTokyo Microsoft Licenseで提供されるシステムを利用するには，UT
 
 ![](img/microsoft-signin-instruction-1.png){:.small.center.border}
 
-詳しい手順や，他のMicrosoftアカウントとの使い分けに関しては，「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](signin)」を参照してください．
+詳しい手順や，他のMicrosoftアカウントとの使い分けに関しては，「[UTokyo Accountを用いてMicrosoftのシステムにサインインする](signin/)」を参照してください．
 
 ## Microsoftが提供するその他のライセンス
 {:#related_licenses}
@@ -115,7 +117,7 @@ UTokyo Microsoft Licenseで提供されるシステムを利用するには，UT
 
 **学生のみが利用できます**
 
-WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は**[Windows Education for students](windows_education_for_students)**のページをご覧ください．
+WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は**[Windows Education for students](windows_education_for_students/)**のページをご覧ください．
 
 ### 共用PC等向けMicrosoftライセンス
 {:#shared_pc}
@@ -125,4 +127,4 @@ WindowsをEducationエディションにアップグレードするライセン�
 ### UTokyo Microsoft Azure Dev Tools for Teaching
 {:#adt4t}
 
-Microsoftの教育機関向けの開発者用ソフトウェアライセンスです．利用手順などの説明は**[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t)**のページをご覧ください．
+Microsoftの教育機関向けの開発者用ソフトウェアライセンスです．利用手順などの説明は**[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t/)**のページをご覧ください．

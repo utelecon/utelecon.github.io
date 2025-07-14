@@ -5,23 +5,19 @@ breadcrumb:
 ---
 
 import HelpItem from "@components/utils/HelpItem.astro";
+import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.mdx";
 
 ## 概要
 {:#about}
 
 本サービスで多く利用されると思われる，仮想マシン（Azure のサービス名はVirtual Machines）の作成を最低限の構成で行う一例です．
 
+参考： [**仮想マシンを作ろう -13BのLlama-3モデルをLoRA fine-tuningしたい-**](https://utelecon.adm.u-tokyo.ac.jp/events/2025-02-21/slides/5-3_create_VM.pdf) (2025.02.21 UTokyo Azure 説明会資料)
+
 ## １．サービスを選択する
 {:#select_service}
 
-<div class="box">
-- まだサブスクリプションをお持ちでない場合は，事前に以下サイトよりサブスクリプションを申請してください．
-  - [UTokyo Azure新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/) ※学内ネットワークからのアクセスに限定．UTokyo Account 所持者のみログイン可
-</div>
-
-- [Azure portal](https://portal.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．（新規申請された場合は表示されるようになるまで時間がかかります）
-
-![](img/01_login.png){:.medium.center.border}
+<FirstTimeUsing type="details" />
 
 - Azureサービスの一覧の中から`Virtual Machines`を選択します．
     - 一覧に無い場合、画面上部にある検索欄で検索するか，一覧の右にある`その他のサービス`を選択、左側にあるリストから`コンピューティング`を選択すると，右側に表示されるメイン画面の`Infrastructure as a Service(IaaS)`の中にあります．
@@ -41,6 +37,11 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <div class="box">
 **補足**：説明のない項目は，基本的に初期設定のままで構成することを前提としています．
+</div>
+
+<div class="box">
+仮想マシンに UTokyo Account の認証を使ってログインすることができます．手順は以下のURLを参照ください．
+- [UTokyo Account で仮想マシンに ssh ログインする](/research_computing/utokyo_azure/virtualmachine/entraid_login/)
 </div>
 
 ### 基本パート
@@ -73,7 +74,9 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 #### 受信ポートの規則
 
-ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- 別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用してリモートコンソール接続を行う場合は，`なし`を選択してください．
+- ここで選択する受信ポート規則は作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で設定してください．
 
 ### ディスクパート
 {:#disk}
@@ -92,7 +95,18 @@ import HelpItem from "@components/utils/HelpItem.astro";
 ### ネットワーク，管理，監視，詳細，タグの各パート
 {:#eachpart}
 
-ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
+- リモートからのコンソールアクセスに別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用し，かつデータ転送用に外部からの接続を許可する必要が無い場合は，**パブリック受信ポート** は`なし`を設定してください．
+- ここで選択する受信ポートは作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で設定してください．
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">定期的に仮想マシンをシャットダウンさせたい場合</Fragment>
+  <Fragment slot="solution">毎日定期であれば，**管理**パートの`自動シャットダウン`に条件を入力して下さい．もう少し複雑な操作（平日だけや自動起動も行わせる等）をさせたい場合は，**監視**サービスを利用してください．</Fragment>
+</HelpItem>
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">一定時間利用をしなかった場合に自動でシャットダウンさせたい場合</Fragment>
+  <Fragment slot="solution">[CPU使用率が一定時間に一定値以下だった場合の構成例](/research_computing/utokyo_azure/virtualmachine/autostop/)を参照ください．</Fragment>
+</HelpItem>
 
 ### 確認及び作成パート
 {:#execute}
@@ -117,6 +131,10 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 ## ４．仮想マシンにログインする
 {:#login}
+
+<div class="box">
+以下はパブリックIPに直接 ssh でアクセスする例です．できる限り[Bastion](/research_computing/utokyo_azure/virtualmachine/bastion/)等の機能を使ってアクセスするようにしてください．
+</div>
 
 `リソースに移動`または仮想マシンリソース名のリンクをクリックすると，割り当てられたグローバルIPアドレスが画面右側に表示されていますので，そのIPアドレスに対してご自身の端末からSSHログインを行いログインできたら完了です．
 

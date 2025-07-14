@@ -45,8 +45,8 @@ UTokyo Accountを持つすべての方に対して，段階的に，多要素認
 ## 関連情報
 {:#check-also}
 
-- 2024年3月12日に，UTokyo Accountの多要素認証をより便利に利用していただけるよう，システム変更を実施しました．詳しい変更内容については，「[UTokyo Accountの認証基盤のシステム変更について](/notice/2024/02-utac-auth-improvement)」を参照してください．
-- 2024年度より，UTokyo Wi-Fiアカウントを発行するためには，UTokyo Accountの多要素認証を利用していることのほか，情報セキュリティ教育に合格していることも必要になりました．詳しくは「[2024年度のUTokyo Wi-Fiアカウントの利用について](/notice/2024/02-wifi)」を参照してください．
+- 2024年3月12日に，UTokyo Accountの多要素認証をより便利に利用していただけるよう，システム変更を実施しました．詳しい変更内容については，「[UTokyo Accountの認証基盤のシステム変更について](/notice/2024/02-utac-auth-improvement/)」を参照してください．
+- 2024年度より，UTokyo Wi-Fiアカウントを発行するためには，UTokyo Accountの多要素認証を利用していることのほか，情報セキュリティ教育に合格していることも必要になりました．詳しくは「[2024年度のUTokyo Wi-Fiアカウントの利用について](/notice/2024/02-wifi/)」を参照してください．
 - 教職員向け情報システム担当理事通知（令和5年6月）「[UTokyo Account における多要素認証利用率100％の達成に向けて](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=4768)」（教職員限定ページ）もご覧ください．
 
 

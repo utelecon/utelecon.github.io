@@ -58,7 +58,7 @@ Here we explain how to compress video using YouTube and VLC Player.
 You can release within university by both Google Drive and YouTube.
 * Sharing on Google Drive
   * You can also set prohibitions on downloading.
-  * **[Concrete Instructions](/faculty_members/how/google/share_video)** (in Japanese)
+  * **[Concrete Instructions](/faculty_members/how/google/share_video/)** (in Japanese)
 * Sharing on YouTube
   * If you make availability limited to within the university, it is necessary for others to log into YouTube by their ECCS Cloud Mail address.  There are times when this switchover does not go well for people, so some caution on this point is necessary.
   * **[Restricting YouTube Content to University Members Only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/)**

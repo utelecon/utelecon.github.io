@@ -1,4 +1,4 @@
-import type { AstroIntegration } from "astro";
+import type { AstroIntegration, IntegrationResolvedRoute } from "astro";
 
 import { existsSync } from "node:fs";
 import { copyFile, mkdir } from "node:fs/promises";
@@ -19,20 +19,24 @@ const assetPathsCache = new Set<string>();
 
 export default function CopyAssetIntegration(): AstroIntegration {
   const parser = unified().use(rehypeParse);
+  let routes: IntegrationResolvedRoute[] = [];
 
   return {
     name: "copy-asset",
     hooks: {
-      "astro:build:done": async ({ dir, routes }) => {
+      "astro:routes:resolved": (params) => {
+        routes = params.routes;
+      },
+      "astro:build:done": async ({ dir }) => {
         await Promise.all(
-          routes.map(async ({ pathname, component }) => {
+          routes.map(async ({ pathname, entrypoint }) => {
             if (!pathname || pathname.endsWith("/rss.xml")) return;
-            const path = getDistFilePath(dir, pathname, component);
+            const path = getDistFilePath(dir, pathname);
             const source = await read(path);
             const hast = parser.parse(source);
 
             const base = new URL(
-              join(relative("src/pages", dirname(component)), sep),
+              join(relative("src/pages", dirname(entrypoint)), sep),
               ORIGINS[0],
             );
 

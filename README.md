@@ -11,6 +11,20 @@ uteleconは，オンライン授業やWeb会議に関する情報をワンスト
 - レポジトリをクローンしたら，まず`npm install`を実行します．
 - プレビューを開始するには，`npm run dev`を実行します．`^C`で終了します．
 
+### Pull Requestのプレビューについて
+
+上記のローカルでのプレビューに加え，[utelecon/utelecon.github.io](https://github.com/utelecon/utelecon.github.io/)でPull Requestを作成すると，自動的にNetlify上にプレビューが作成され，編集されたサイトをオンラインで確認することができます．
+
+具体的には，Pull Requestを新しく作成したり，既存のPull Requestのコミットを追加・変更したりしたときに，自動的にプレビューが作成されます．また，自動的に作成されるプレビューが利用できない場合（Dependabotが作成したPull Requestや，最後にプレビューを作成してから時間が経ったPull Request等）は，Pull Requestに`/deploy-preview`とコメントを送ると，強制的に作成させることができます．
+
+なお，以下のようにいくつか注意点があります：
+
+- プレビューは，その時点で「もし当該Pull Requestがマージされたとした場合の」状態で作成されます．
+  - このため，ブランチが古い場合，ローカルで作成したプレビューとは内容が異なる場合があります．`git merge master`を行うとローカルと一致します．
+- コンフリクトのあるPull Requestでは自動的なプレビューの作成は行われません．
+  - また，コンフリクトのあるPull Requestで`/deploy-preview`を使った場合，最後にマージ可能だった時点の状態で作成されます．
+- `/deploy-preview`は[GitHub上の `utelecon` organization](https://github.com/utelecon/)のメンバーのみ利用できます．
+
 ## Frontmatter
 
 Markdownファイルのフロントマターにかける設定は以下の通りです：
@@ -114,7 +128,8 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - 外部リンクは，別タブで開くのが一般的です．
   - すべての外部リンクに対してこの属性を明示的に付与するのは冗長であり，また忘れる可能性も高いため，自動で付与すべきです．
 - 実装
-  - [`ExternalLinksIntegration.ts`](src/lib/ExternalLinksIntegration.ts)で実現しています．ここでは，ビルド後に全てのHTMLファイルをRehypeで改めてパースし，[`rehype-external-links`](https://github.com/rehypejs/rehype-external-links)を適用しています．
+  - [Astroのミドルウェア機能](https://docs.astro.build/ja/guides/middleware/)を用いて[`externalLinks.ts`](src/middleware/externalLinks.ts)で実現しています．ここでは，レンダリング後のHTMLを`dist`に保存する前に一度Rehypeでパースし，[`rehype-external-links`](https://github.com/rehypejs/rehype-external-links)を適用するという動作によりページを処理しています．
+  - AstroではMarkdownやMDXの変換に後処理を追加することはできますが，同様にページを生成する`.astro`ファイルの変換を操作する手段は提供されていません．外部リンクはページの様々なところに現れうるため，それらを包括的に処理するべくこのような実装となっています．以前は生成された`.html`ファイルを追加で再処理することで実現していました．
 
 ### URL末尾のスラッシュについて
 
@@ -235,6 +250,13 @@ pattern: "^\/utol\/"
   ---
   ```
 
-## For developers
+### ボタン・タブUIを利用したい場合
 
-`@components`に関するドキュメントが[`src/components/README.md`](src/components/README.md)にあります．
+[多要素認証の初期設定手順](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/mfa/initial/)や[サポート窓口](https://utelecon.adm.u-tokyo.ac.jp/support/)のページでは，ボタンとタブを用いたUIが利用されており，ユーザの選択によって表示内容を切り替えたり，ボタンをクリックして別のページに遷移したりすることができます．
+
+これらの実装はコンポーネントとしての共通化が困難であるため，ページごとに個別に実装することとなっています．**ボタン・タブUIを利用したい場合は，既存の実装を参考に実装いただくか，Slackでご連絡ください．**
+
+## その他のドキュメント (For developers)
+
+- `@components`に関するドキュメント：[`src/components/README.md`](src/components/README.md)
+- `@styles`に関するドキュメント：[`src/styles/README.md`](src/styles/README.md)

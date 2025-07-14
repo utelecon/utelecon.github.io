@@ -51,7 +51,7 @@ You can also use markups in this setting. For details on how to use markups, ple
 
 If you conduct online classes, use the **Online course information** section to provide details such as URLs for accessing online classes.
 
-When notifying students about the URLs of online classes, always use the **Online course information field** and avoid including them in the **Course Summary**, information notices, or forums. For more information, see [**How to Announce Online Class URLs (for Faculty Members)**](/en/faculty_members/url).
+When notifying students about the URLs of online classes, always use the **Online course information field** and avoid including them in the **Course Summary**, information notices, or forums. For more information, see [**How to Announce Online Class URLs (for Faculty Members)**](/en/faculty_members/url/).
 
 When editing the **Online course information**, keep the following points in mind:
 

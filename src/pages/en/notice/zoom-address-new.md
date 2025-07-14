@@ -18,7 +18,7 @@ Since we are in the process of migrating to a unified sign-in method to enable c
 ## If You No Longer Need Your Current Zoom Account
 {:#existing-account-is-unnecessary}
 
-In the case that your account that uses non-UTokyo Account sign-in (e.g. accounts that use ECCS Cloud Email addresses setup with the username of your choice, `xxxx@g.ecc.u-tokyo.ac.jp`) is no longer necessary, you can just abandon it and follow the instructions on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin.html) page to start using the new Zoom account which uses UTokyo Account for sign-in.
+In the case that your account that uses non-UTokyo Account sign-in (e.g. accounts that use ECCS Cloud Email addresses setup with the username of your choice, `xxxx@g.ecc.u-tokyo.ac.jp`) is no longer necessary, you can just abandon it and follow the instructions on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin/) page to start using the new Zoom account which uses UTokyo Account for sign-in.
 
 <!--
 The administrator will help delete your old account. Please submit the [UTokyo Zoom Unnecessary Account Declaration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhHUY5ws7h1xGr9koV-KGC8RUNTBGSjJPN0ZWN0RIVFI2TVZZODZNT0xRRy4u).
@@ -52,7 +52,7 @@ To use Zoom with such accounts, please visit the usual Zoom sign-in page, `https
 ### Switching to Sign-in with your UTokyo Account
 {:#change-procedure}
 
-~~If you are currently signing in to Zoom using the ECCS Cloud Email with the username of your choice (`xxxx@g.ecc.u-tokyo.ac.jp`), please visit the [one-stop migration site](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home) (in Japanese) and follow the instructions to switch to UTokyo Account sign-in. Once the migration is completed, you will be able to sign in to Zoom using your UTokyo Account. The sign-in procedure can be found on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin) page.~~
+~~If you are currently signing in to Zoom using the ECCS Cloud Email with the username of your choice (`xxxx@g.ecc.u-tokyo.ac.jp`), please visit the [one-stop migration site](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-zoom-checker/home) (in Japanese) and follow the instructions to switch to UTokyo Account sign-in. Once the migration is completed, you will be able to sign in to Zoom using your UTokyo Account. The sign-in procedure can be found on the [Sign-in Methods for Zoom](/en/zoom/zoom_signin/) page.~~
 
 <details>
     <summary><del>If you currently sign in using other email addresses</del></summary>
@@ -78,7 +78,7 @@ To use Zoom with such accounts, please visit the usual Zoom sign-in page, `https
         <li> Access your <a href="https://zoom.us/profile">Zoom profile page</a> again and click the profile picture in the top right corner (the profile picture is either a default human icon or a picture you added earlier). Click “SIGN OUT” to sign out of Zoom. </li>
         <li> 
             Access the UTokyo Zoom page, <a href="https://u-tokyo-ac-jp.zoom.us/">https://u-tokyo-ac-jp.zoom.us/</a>, press “Config”, and sign in with your UTokyo Account. 
-            (This is the same procedure as described in the <a href="/en/zoom/signin#browser">Signing in from the UTokyo Account Zoom Webpage section on the Sign-in Methods for Zoom page</a>.)
+            (This is the same procedure as described in the <a href="/en/zoom/signin/#browser">Signing in from the UTokyo Account Zoom Webpage section on the Sign-in Methods for Zoom page</a>.)
             <img src="./zoom-signin.png">
             <details>
                 <summary>If you see the message "Confirm your email address” right after you sign in </summary>

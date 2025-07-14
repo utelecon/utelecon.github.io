@@ -4,6 +4,8 @@ breadcrumb:
   title: "Azure AI Foundry"
 ---
 
+import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.mdx";
+
 ## 概要
 {:#about}
 
@@ -12,12 +14,7 @@ Azure AI Foundry（旧称 Azure AI Studio）を本サービスで利用する場
 ## １．サービスを選択する
 {:#select_service}
 
-<div class="box">
-- まだサブスクリプションをお持ちでない場合は，事前に以下サイトよりサブスクリプションを申請してください．
-  - [UTokyo Azure新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/) ※学内ネットワークからのアクセスに限定．UTokyo Account 所持者のみログイン可
-</div>
-
-- [Azure portal](https://portal.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．（新規申請された場合は表示されるようになるまで時間がかかります）
+<FirstTimeUsing type="details" />
 
 - Azureサービスの一覧の中から`Azure AI Foundry`を選択します．
     - 一覧に無い場合、一覧の右にある`その他のサービス`を選択、左側にあるリストから`AI + Machine Learning`を選択すると， 右側に表示されるメイン画面の`Azure AI + Machine Learning platforms`の中にあります．
@@ -96,7 +93,18 @@ AI ハブ のトップページに遷移するので，`Azure AI Foundry の起�
 
 ![](img/05_aistudiogpt5.png){:.medium.center.border}
 
-### 補足
+## ４．利用しない期間のリソース停止や削除
+
+**仮想マシンはそのままにすると利用料金が課金され続けます．**
+
+モデルによっては最低でも100近いCPUコアを要求し1日で数百ドルを超える使用料が発生し続ける場合もありますので，利用が一旦終了した際は，
+
+- VMを停める機能がある場合はVMを停める．
+- VMを停める機能が見当たらない場合は，リソースまるごと一旦削除する．
+
+等を実施ください．
+
+### OpenAI利用時の補足
 
 - テキストボックスにメッセージを入力し，三角形をクリック（または「Enter」キーを押す）してモデルに送信します．
 - 画面右下のトークン数は，このメッセージのトークンとこのモデルのトークン制限を表します．
@@ -113,6 +121,6 @@ AI ハブ のトップページに遷移するので，`Azure AI Foundry の起�
 - OpenAI が提供する ChatGPT アプリケーションとは異なり，Azure の OpenAI サービスはトークンによって課金されるため，トークンの消費方法に注意してください．
 </div>
 
-### [デプロイしたモデルのクォータを管理する](/research_computing/utokyo_azure/ai/quota)
+### [デプロイしたモデルのクォータを管理する](/research_computing/utokyo_azure/ai/quota/)
 
-### [デプロイしたモデルを Python API から利用する](/research_computing/utokyo_azure/ai/python)
+### [デプロイしたモデルを Python API から利用する](/research_computing/utokyo_azure/ai/python/)
