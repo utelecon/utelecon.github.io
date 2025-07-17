@@ -52,6 +52,7 @@
     "remark-attribute-list": "0.3.1",
     "remark-parse": "^11.0.0",
     "sass": "^1.85.0",
+    "semver": "^7.7.1",
     "to-vfile": "8.0.0",
     "unified": "11.0.5",
     "unist-util-remove": "^4.0.0",
@@ -62,6 +63,7 @@
     "@types/hast": "3.0.4",
     "@types/mdast": "4.0.4",
     "@types/node": "^22.13.5",
+    "@types/semver": "^7.5.8",
     "@types/unist": "3.0.3",
     "typescript": "^5.7.3"
   }

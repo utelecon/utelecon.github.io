@@ -29,15 +29,17 @@ export default function CopyAssetIntegration(): AstroIntegration {
       },
       "astro:build:done": async ({ dir }) => {
         await Promise.all(
-          routes.map(async ({ pathname, entrypoint }) => {
-            if (!pathname || pathname.endsWith("/rss.xml")) return;
+          routes.map(async ({ pathname, entrypoint, type }) => {
+            if (!pathname || pathname.endsWith("/rss.xml") || type !== "page") {
+              return;
+            }
             const path = getDistFilePath(dir, pathname);
             const source = await read(path);
             const hast = parser.parse(source);
 
             const base = new URL(
               join(relative("src/pages", dirname(entrypoint)), sep),
-              ORIGINS[0],
+              ORIGINS[0]
             );
 
             for (const tag of selectAll("a", hast)) {
@@ -51,7 +53,7 @@ export default function CopyAssetIntegration(): AstroIntegration {
                 assetPathsCache.add(assetPath);
               }
             }
-          }),
+          })
         );
 
         await Promise.all(
@@ -76,7 +78,7 @@ export default function CopyAssetIntegration(): AstroIntegration {
               await mkdir(dirname(destPath), { recursive: true });
             }
             await copyFile(srcPath, destPath);
-          }),
+          })
         );
       },
     },
