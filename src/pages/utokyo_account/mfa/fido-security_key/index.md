@@ -13,9 +13,10 @@ breadcrumb:
 なお，FIDOはセキュリティキーと呼ばれる専用の機器を用いる方法とパソコンやスマホに保存された情報を用いるパスキーという方法の2種類に大別されますが，UTokyo Accountの多要素認証では，現時点ではFIDOにパスキーは利用できず，YubiKeyなどのセキュリティキーのみが利用可能ですので，セキュリティキーを自身で購入してご利用ください．その際，利用可能なセキュリティキーは「FIDO 2」規格に対応したセキュリティキーとなりますので，注意してください．
 
 ## 一部のOS・ブラウザでは使えません
+
 {:#unsupported-os-browser}
 
-FIDOは，AndroidのGoogle ChromeやLinuxのFirefoxなど一部のOSとブラウザの組み合わせでは利用できません．2024年3月時点で利用できるOSとブラウザの組み合わせは，以下の通りです．
+FIDOは，AndroidのFirefoxなど一部のOSとブラウザの組み合わせでは利用できません．2025年7月時点で利用できるOSとブラウザの組み合わせは，以下の通りです．
 
 - Windows - Google Chrome
 - Windows - Microsoft Edge
@@ -26,10 +27,14 @@ FIDOは，AndroidのGoogle ChromeやLinuxのFirefoxなど一部のOSとブラウ
 - macOS - Safari
 - ChromeOS - Google Chrome
 - Linux - Google Chrome
+- Linux - Microsoft Edge
+- Linux - Firefox
 - iOS - Google Chrome
 - iOS - Microsoft Edge
 - iOS - Firefox
 - iOS - Safari
+- Android - Google Chrome
+- Android - Microsoft Edge
 
 利用できるOSとブラウザの組み合わせについての詳細は，Microsoft社の「[サポートされているブラウザ](https://learn.microsoft.com/ja-jp/azure/active-directory/authentication/fido2-compatibility#supported-browsers)」のページを参照してください．
 
