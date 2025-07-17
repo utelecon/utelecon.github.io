@@ -13,3 +13,10 @@
     text-decoration: underline;
   }
 }
+
+.arrow-link::after {
+  content: "arrow_forward";
+  font-family: "Material Icons";
+  font-weight: bold;
+  vertical-align: bottom;
+}

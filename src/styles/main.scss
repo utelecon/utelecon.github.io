@@ -22,7 +22,7 @@
   @include meta.load-css("components");
 
   @media (min-width: 1024px) {
-    max-width: 64rem;
+    max-width: 72rem;
     margin: 0 auto;
 
     &[data-toc="true"] {
