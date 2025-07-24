@@ -4,7 +4,7 @@ title: Download data saved on ECCS Cloud Email
 
 This page explains how to download data stored on your ECCS Cloud Email account all at once.
 
-However, please note that certain types of data, such as emails, can also be transferred to another Google account. For instructions on how to migrate your data, please refer to “[Transferring content from ECCS Cloud Email to another Google account](/src/pages/google/misc/backup/transfer/) (in Japanese).”
+However, please note that certain types of data, such as emails, can also be transferred to another Google account. For instructions on how to migrate your data, please refer to “[Transferring content from ECCS Cloud Email to another Google account](/google/misc/backup/transfer/) (in Japanese).”
 
 For detailed settings and troubleshooting, please refer to [Google Account Help > Manage your information > How to download your Google data](https://support.google.com/accounts/answer/3024190?hl=en).
 
