@@ -70,7 +70,7 @@ Due to the circumstances of the course instructors, some courses may be accessib
 
 Depending on the course, the dates offered may differ from the standard such as A1, A2 etc. Please refer to the table below for the handling of the Semester/Term and the course confirmation dates. For the Junior Division of the College of Arts and Sciences, please refer to the table above.
 
-| Semester/Term (Japanese) | Semester/Term (English)  | Course Confirmation Date |
+| Semester/Term (Japanese) | Semester/Term (English)  | Course Confirmation Date (Month/Day) |
 | ---------------- | --------------- | ---------- |
 | 冬学期           | Winter semester | 10/16      |
 | 年度跨り         |                 | 10/16      |
