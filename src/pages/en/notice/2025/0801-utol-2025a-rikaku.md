@@ -74,6 +74,7 @@ Depending on the course, the dates offered may differ from the standard such as 
 | ---------------- | --------------- | ---------- |
 | 冬学期           | Winter semester | 10/16      |
 | 年度跨り         |                 | 10/16      |
+| 集中             | Intensive       | 10/16      |
 | Ａ１             | Ａ１            | 10/16      |
 | Ａ２             | Ａ２            | 12/7       |
 | Ｗ               | Ｗ              | 2/4        |
