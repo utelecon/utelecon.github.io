@@ -1,0 +1,54 @@
+---
+title: "UTokyo Azure CSIRT : UTokyo Azure"
+breadcrumb:
+  title: "UTokyo Azure CSIRT : UTokyo Azure"
+---
+
+## UTokyo Azure CSIRT
+
+UTokyo Azure は商用クラウドサービスである Microsoft Azure の資源を利用したサービスですが，学内向けに提供しているサービスなので，UTokyo Azure 上で構築されたシステムで何らかのインシデントが発生した場合には東京大学宛にも通報が来ることが予想されるため，外部からの通報の窓口として，そしてその後の連絡・対応・報告を一本化するため，UTokyo Azure CSIRT を設置しています．
+
+UTokyo Azure CSIRT は情報基盤センターCERT(ITC-CERT)の下部組織として設置され，本 CSIRT が対応するインシデントは ITC-CERT を通じて UTokyo-CERT にインシデント情報を報告・共有いたします．
+
+![](img/03_csirt3.png){:.center.border}
+
+## 責任分解点
+
+UTokyo Azure は Microsoft Azure サービスの資源を利用したクラウドサービスなので，その責任分解点は主に IaaS であるか SaaS であるかで２通りに分類されます。
+- サービスの提供形式により，必ずしもこの形に収まらない場合があります．実際のインシデントが発生した場合は，発生元のリソース等からどちらの責任範囲でありそうかを UTokyo Azure CSIRT が判断します．
+
+![](img/01_csirt1.png){:.medium.center.border}
+
+## UTokyo Azure CSIRT に通報があった場合の対応の流れ
+
+UTokyo Azure CSIRT が一次通報先または通報経路となった場合の対応の流れは大まかに以下の通りになります。
+
+- CSIRT 担当
+  - UTokyo Azure に対するインシデント通報の一次受付を行い，CSIRT 責任者に報告します．
+  - CSIRT 責任者やインシデント責任者と連携して，その業務や対応を支援します．
+- CSIRT 責任者
+  - CSIRT の最高責任者で，通報のあったインシデントが CSIRT が取り扱うべき内容と判断した場合は，インシデント責任者にインシデントの管理と対応を指示します．
+  - インシデントの影響度合いに応じて，上位 CERT などへの報告等を実施します．
+- インシデント責任者
+  - UTokyo Azure 上で発生するインシデントを管理する責任者です．
+  - CSIRT 責任者から指示があり次第，CISRT 担当と連携してそのインシデントに対応するべき先を調査特定しインシデント担当者に対応を指示します．
+  - インシデントが Azure 側に起因すると判断した場合は，Microsoft 社に対応を依頼します．
+- インシデント担当者
+  - 部局CERTの担当者またはそのプロジェクトのインシデント担当者等が想定されています．
+  - インシデント責任者からの指示に従い，対応するべきユーザーの特定や連絡などの実務を担当します．  
+- サブスクリプション責任者
+  - インシデントを起こしたシステムリソースが割り当てられているサブスクリプションの管理者です．
+  - インシデント担当者からの指示に従いインシデントの特定および対応を行います．
+
+![](img/02_csirt2.png){:.medium.center.border}
+
+## UTokyo Azure CSIRT を経由しない通報
+
+通報者は通常，インシデントを受けた場合に送信元のIPアドレスやドメインのインシデント連絡先等を見て通報するため、利用者がどのように Azure サービスを利用していたかによっては，必ずしも UTokyo Azure CSIRT 経由でインシデントの通報を行うとは限らず，部局CERTやサブスクリプション管理者，システムの担当者に直接連絡が行く可能性もあります．
+その場合は，主には部局CERTに報告を上げて，以後どのように対応するべきかご相談ください．
+
+その際のお願いとして，UTokyo Azure CSIRT では UTokyo Azure 上で発生したインシデントを把握，記録しておりますので，UTokyo Azure CSIRT の対応は不要と判断した場合でも，UTokyo Azure CISRT にも何らかのご一報をお願いいたします．
+
+## 問い合わせ・連絡・通報先
+
+- UTokyo Azure CSIRT 担当： utokyo-azure-csirt-group@g.ecc.u-tokyo.ac.jp
