@@ -13,7 +13,7 @@ export default function collectHtmlImages() {
       if (!ALLOWED_PREFIXES.some((prefix) => src.startsWith(prefix))) {
         img.properties.src = `./${src}`;
       }
-      const imagePaths = file.data.astro!.imagePaths;
+      const imagePaths = file.data.astro!.localImagePaths;
       if (imagePaths?.includes(img.properties.src)) return;
       imagePaths?.push(img.properties.src);
     });
