@@ -76,7 +76,7 @@ You need to sign in with MFA to access this form. If it is impossible for you, y
 
 You can apply for reregistration at the relevant office of your faculty/graduate school (the academic office for students, and the personnel department for faculty and staff members)
 
-- Please indicate which procedure you wish to take (reregisteration of verification method of MFA use).
+- Please request reregistration of the verification method of MFA use.
 - Please bring your student/staff ID to verify your identity.
 - [Please refer to this page if you are in charge of the relevant office of faculty/graduate school (only for faculty members)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/MFA_Reset_Request.aspx)．
 
