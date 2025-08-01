@@ -62,8 +62,21 @@ function rehypePrediff() {
         className.sort();
       }
 
+      // TODO(#1605): Remove this before merge
+      if (node.tagName === "img" && node.properties.fetchPriority) delete node.properties.fetchPriority;
+      if (
+        node.tagName === "a" &&
+        node.children[0]?.type === "text" &&
+        node.children[0].value.trim() === "Redirecting from"
+      ) {
+        if (typeof node.properties.href === "string")
+          node.properties.href = node.properties.href.replace("https://utelecon.adm.u-tokyo.ac.jp", "");
+        if (node.children[3]?.type === "element" && node.children[3].tagName === "code" && node.children[3].children[0]?.type === "text")
+          node.children[3].children[0].value = node.children[3].children[0].value.replace("https://utelecon.adm.u-tokyo.ac.jp", "");
+      }
+
       if (node.tagName === "img" && typeof node.properties.src === "string" && node.properties.src.startsWith("/_astro/")) {
-        node.properties.src = node.properties.src.replace(/\.[-_0-9a-zA-Z]+\.(webp|png)$/, ".$1");
+        node.properties.src = node.properties.src.replace(/\.[-_0-9a-zA-Z]+\.(webp|png|svg)$/, ".$1");
       }
     });
     remove(
