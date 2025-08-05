@@ -12,6 +12,27 @@
 #   c. 右上の「Cancel workflow」ボタンを押してください．
 #   参考：https://docs.github.com/ja/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/canceling-a-workflow
 # 2. もしキャンセルが間に合わず，投稿されてしまった場合は，Slackでご連絡ください．
+
+# 加えて以下の点にもご注意ください．
+# - 新規のお知らせは一番上（すべての既存のお知らせよりも上）にある必要があります．特にブランチ上で作業している場合は，マージ直前にmasterとの差分を確認し，追加したお知らせがマージ後に一番上に来るようにしてください．
+# - 事故を防ぐため，一度に投稿されるお知らせの数を「5」に制限しています．6個以上のお知らせを一度に追加する場合は事前にSlackでご相談ください．
+# - 既存のお知らせを編集する場合，以下にご注意ください．
+#   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
+#   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
+
+-
+  date: 2025-07-25
+  content:
+    ja: "[2025年度Aセメスター「コモンサポーター」募集のお知らせ](/notice/2025/0725-cs) （8月7日13時締切）"
+-
+  date: 2025-06-20
+  content:
+    ja: "[LTI連携機能を用いたUTOLからのUTokyo Slackの利用について](/notice/2025/0620-utol-lti-slack)"
+-
+   date: 2025-05-14
+   content:
+    ja: "[UTOLにおけるLINE更新通知機能の変更について（2025年3月・4月）](/notice/2025/0514-utol-notification-line)"
+    en: "[Changes in LINE update notification function on UTOL (in March and April 2025)](/en/notice/2025/0514-utol-notification-line)"
 -
    date: 2025-04-01
    content:
@@ -23,7 +44,7 @@
   ja: "[2025年度Sセメスター科目のUTOL履修確定日の取り扱いについて](/notice/2025/0331-utol-2025s-rikaku)"
   en: "[Handling of the 2025 Academic Year S Semester Courses on UTOL](/en/notice/2025/0331-utol-2025s-rikaku)"
 -
-  date: 2024-03-31
+  date: 2025-03-31
   content:
     ja: "[教育用計算機システム相談員および同分散配置端末巡回連絡員の募集（2025年度Sセメスター）](/notice/2025/03-tutors)"
 -

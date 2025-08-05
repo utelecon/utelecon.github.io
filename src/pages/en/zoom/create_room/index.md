@@ -7,7 +7,7 @@ breadcrumb:
 ## Introduction
 {:#introduction}
 This page explains how to create a Zoom meeting in a web browser and provides an overview of the settings available when creating a meeting.
-For information on creating Zoom meetings using the app, please refer to [Scheduling a Zoom Meeting (Zoom App)](/en/zoom/misc/app). Be sure to check it out as well.
+For information on creating Zoom meetings using the app, please refer to [Scheduling a Zoom Meeting (Zoom App)](/en/zoom/misc/app/). Be sure to check it out as well.
 
 ## Scheduling Meetings
 {:#steps-to-create}
@@ -46,7 +46,7 @@ By clicking "Add Description", you can enter a detailed description of the topic
 
 ### Settings for the Meeting Date and Time
 {:#settings-date_and_time}
-For more details, please refer to "[Scheduling Recurring Zoom Meetings](/en/zoom/create_room/date_and_time)".
+For more details, please refer to "[Scheduling Recurring Zoom Meetings](/en/zoom/create_room/date_and_time/)".
 
 #### Date and Time of the Meeting
 
@@ -88,11 +88,11 @@ This is a virtual whiteboard feature that can be used during the meeting.
 {:#settings-security}
 Zoom meeting IDs are typically 10-digit numbers, and without any security measures in place, there is a risk that someone who shouldn't have the ID could guess the numbers and join the meeting. To enhance security, please use these features.
 
-For more details, refer to the page "[Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control)." The article focuses on the settings recommended for use in classes, but the content is also applicable to general meetings and other events.
+For more details, refer to the page "[Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control/)." The article focuses on the settings recommended for use in classes, but the content is also applicable to general meetings and other events.
 
 * Passcode
   * When enabled, participants will be required to enter a passcode in addition to the meeting ID when joining the meeting. It is very difficult to randomly guess both the passcode and the meeting ID, which significantly reduces the risk of unauthorized third parties joining the meeting. By default, this setting is enabled, so unless you have a specific reason, it is recommended to leave it on. You can either specify your own passcode or use an automatically generated one.
-  * In the default settings, the invitation link for the meeting includes both the meeting ID and passcode information. Therefore, even if the passcode feature is enabled, participants only need to be provided with the invitation link, and there is no need to separately inform them of the passcode. However, there may be cases where it is useful to share both the meeting ID and passcode in addition to the invitation link (for more details, please refer to the notice “[how to announce online class URL](/en/faculty_members/url#use-online-class-info-in-general)”). If you do not want the passcode information to be embedded in the invitation link, it can be changed from the settings page. For more information, please refer to the "[How to Set Up Commonly Used Features](#popular_functions)" section below.
+  * In the default settings, the invitation link for the meeting includes both the meeting ID and passcode information. Therefore, even if the passcode feature is enabled, participants only need to be provided with the invitation link, and there is no need to separately inform them of the passcode. However, there may be cases where it is useful to share both the meeting ID and passcode in addition to the invitation link (for more details, please refer to the notice “[how to announce online class URL](/en/faculty_members/url/#use-online-class-info-in-general)”). If you do not want the passcode information to be embedded in the invitation link, it can be changed from the settings page. For more information, please refer to the "[How to Set Up Commonly Used Features](#popular_functions)" section below.
 * Waiting Room
   * When enabled, participants will not be able to join the meeting directly until the host individually approves their entry, and they will remain in the waiting room. This feature is useful if you want to allow only approved participants to attend the meeting.
   * For more details, please refer to "[Setting up a Zoom Waiting Room](/en/zoom/create_room/waiting_room/)".
@@ -120,7 +120,7 @@ This setting controls the types of audio participants can use during the meeting
   * This feature mutes participants when they join the meeting. It only controls whether or not participants are muted upon entry and does not affect their ability to switch their microphone on or off during the meeting.
 * Pre-Assign Breakout Rooms
   * By using the breakout room feature, you can split participants from the main meeting room into multiple breakout rooms. This feature allows you to pre-assign participants to specific rooms in advance.
-  * For more details, please refer to "[Zoom's Breakout Room Feature (in Japanese)](/zoom/usage/breakout)".
+  * For more details, please refer to "[Zoom's Breakout Room Feature (in Japanese)](/zoom/usage/breakout/)".
 * Automatically Record the Meeting
   * This feature automatically starts recording as soon as the meeting begins. You can choose to save the recording either on your local computer (your PC) or on the cloud. Even if this option is turned off, you can manually start recording during the meeting.
   * For more details, please refer to “[Recording Zoom Meetings](/en/zoom/usage/recording/)”.
@@ -163,13 +163,13 @@ The settings for these features can be accessed by selecting the "Meeting" tab f
   * For more details, please refer to “[Host and Co-host Controls in a Zoom Meeting](/en/zoom/misc/management_roles/)”.
 * Meeting Polls / Quizzes
   * This is a useful feature for collecting responses to questions from all participants during the meeting. It is recommended to leave it enabled unless there is a specific reason to disable it.
-  * For more details, please refer to "[Zoom's Polling Feature (in Japanese)](/zoom/usage/poll/)".
+  * For more details, please refer to "[Polls in Zoom](/en/zoom/usage/poll/)".
 * Screen Sharing
   * This feature allows you to share the content displayed on your screen with participants during the meeting.
   * When this option is enabled, you can further specify who is allowed to share their screen (whether only the host can share, or if participants other than the host can also share their screen).
   * It is recommended to leave this enabled unless there is a specific reason to disable it.
   * For more details, please refer to “[Screen Sharing in Zoom](/en/zoom/usage/screen_sharing/)”.
 * Breakout Rooms - Meeting
-  * For an explanation of Breakout Rooms, please refer to "[Zoom's Breakout Room Feature (in Japanese)](/zoom/usage/breakout)".
+  * For an explanation of Breakout Rooms, please refer to "[Zoom's Breakout Room Feature (in Japanese)](/zoom/usage/breakout/)".
 * Auto-Generated Captions
   * When enabled, the content spoken by participants is automatically transcribed and displayed as captions on the Zoom screen.

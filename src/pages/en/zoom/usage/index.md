@@ -96,7 +96,8 @@ If you press the menu "Chat", text chat will be available. It is important to no
 Here is a brief description of the menus specific to the organizer. 
   ![](host_main_menu.png)
   1. **Polls(setting required)** : Allows participants to respond to polls. The questions themselves need to be created with a web browser, and you can create a question by pressing "Edit" or "Add question", when you are creating a question for the first time.
+     * For details, please refer to [Polls in Zoom](poll/).
   1. **Breakout(setting required)** : Participants can be divided into subgroups. You can decide the number of people and assign them automatically, or you can assign them manually.
   1. **Recording** : You can record the state of the meeting.
-     * For detalis, please refer to [Cloud Recording](recording/).
+     * For details, please refer to [Cloud Recording](recording/).
   

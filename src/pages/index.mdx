@@ -12,30 +12,32 @@ import "@styles/rss_icon.scss";
 import Emergency from '@components/Emergency.mdx';
 import Notice from '@components/pages/Notice.astro';
 import Events from '@components/pages/Events.astro';
+import FontAwesomeIcon from "@components/embed/FontAwesomeIcon.astro";
+import MaterialIcon from "@components/embed/MaterialIcon.astro";
 
 <Emergency />
 
+## 新しく東京大学の一員となった方へ
+{:.heading}
+
 <div class="largecards">
   <div class="largecards__card">
-    <a href="/oc/"><span>大学生活に必要な情報システムの準備について<small>（新入生向け）</small></span></a>
+    <a href="/oc/"><MaterialIcon icon="groups" /><span class="title">学生の方</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/faculty_members/"><span>東京大学における情報システムの準備について<small>（教員向け）</small></span></a>
+    <a href="/faculty_members/"><FontAwesomeIcon icon="chalkboard-user" /><span class="title">教員の方</span></a>
+  </div>
+  <div class="largecards__card">
+    <a href="/staff_members/"><MaterialIcon icon="badge" /><span class="title">職員の方</span></a>
   </div>
 </div>
 
-<Events show={[
-  "2025-04-18",
-  "2025-03-12",
-  "2025-02-21",
-  "2024-09-13",
-]} lang="ja">
-</Events>
+<div class="systems-link">[東京大学の情報システムの一覧はこちらから](/systems/){:.arrow-link}</div>
 
 <div class="container">
 <div class="container__column">
 
-## お知らせ <a href="/notice/rss" class="rss_icon" title="RSS">rss_feed</a>
+## お知らせ <a href="/notice/rss/" class="rss_icon" title="RSS">rss_feed</a>
 {:#notice}
 
 {/* お知らせの追加は `src/data/notice.yml` を編集してください */}
@@ -55,33 +57,57 @@ import Events from '@components/pages/Events.astro';
   - 目安としては3記事から6記事程度を掲載する
 */}
 
-- [Google・Microsoft等のストレージの保存容量について](/systems/storage_limit)
+- [Googleカレンダーを用いたコラボレーション](/google/calendar/collab/)
+- [Google・Microsoft等のストレージの保存容量について](/systems/storage_limit/)
 - [クラウドストレージを用いた新しいファイル共有方針の提案](/articles/share-policy/)
 - [理数系のレポート作成に便利なツールの紹介](/articles/paper-writing/)
 - [学校・その他教育機関における著作権の取り扱い](/articles/copyright/)
 - [学習管理システムの概要を知る，ITC-LMSを活用する](/articles/itc-lms/)
-- [オンラインのグループディスカッションで生じやすい問題とその対策案](/articles/group-discussion/)
-- [オンラインのグループディスカッションでワークシートを活用する](/articles/group-discussion-worksheet/)
 
 </div>
 <div class="container__column">
 
+{/*
+  `src/pages/events`以下から説明会情報を取得・表示します．
+  `/events/1970-01-01/`のページを表示するには，
+  `show`プロパティに`"1970-01-01"`を含む配列を渡します．
+  開催日としてパスの`yyyy-mm-dd`の形式を認識し，
+  フロントマターの`title`と併せて表示します．
+
+  - 開催日が複数にまたがるなどの事情でそれ以外の形式のパスを使用する場合は，
+  `alternative`プロパティに`{"1970-events": {date: "1970年1月3日・4日"}}`
+  のように表示する日付を指定できます（指定しない場合日付は表示されません）．
+  - 英語版など，`src/pages/events/1970-01-01/`以外のページにリンクさせたい
+  場合は，`alternative`に`{"1970-01-01": {href: "/en/1970-01-01/"}}`
+  のようにURLを指定できます．
+  - 英語版など，フロントマターの`title`以外をタイトルとして表示したい場合は，
+  `slot="1970-01-01"`に対して`Fragment`等を渡してください．
+*/}
+
+<Events show={[
+  "2025-04-18",
+  "2025-03-12",
+  "2025-02-21",
+  "2024-09-13",
+]} lang="ja">
+</Events>
+
 ## ピックアップ
 
-- [UTokyo Azure](/research_computing/utokyo_azure)
-- [UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa)
-- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai)
+- [UTokyo Azure](/research_computing/utokyo_azure/)
+- [UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)
+- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai/)
 - [Googleドライブ](/google/drive/)
 - [OneDrive](/microsoft/onedrive/)
 {:.cards}
 
 ### 授業にあたって
-- [授業URLの連絡方法（教員向け）](/faculty_members/url)
-- [授業におけるZoom会議室の入室制限<small>（教員向け）</small>](/faculty_members/zoom_access_control)
-- [Zoomの追加ライセンス<small>（301人以上のミーティング・ウェビナー）</small>](/zoom/license)
-- [授業URLの連絡方法（学生向け）](/oc/url)
-- [オンライン授業への入室方法<small>（学生向け）</small>](/oc/join)
-- [オンライン授業の受講に利用可能な教室の一覧](/oc/rooms)
+- [授業URLの連絡方法（教員向け）](/faculty_members/url/)
+- [授業におけるZoom会議室の入室制限<small>（教員向け）</small>](/faculty_members/zoom_access_control/)
+- [Zoomの追加ライセンス<small>（301人以上のミーティング・ウェビナー）</small>](/zoom/license/)
+- [授業URLの連絡方法（学生向け）](/oc/url/)
+- [オンライン授業への入室方法<small>（学生向け）</small>](/oc/join/)
+- [オンライン授業の受講に利用可能な教室の一覧](/oc/rooms/)
 {:.cards}
 
 ### オンライン授業の実践など
@@ -94,22 +120,22 @@ import Events from '@components/pages/Events.astro';
 </div>
 </div>
 
-## 東京大学のシステム
+## 東京大学の情報システム
 
 <div class="top__systems">
-  - [UTokyo Account](/utokyo_account/)
-  - [UTAS](/utas)
-  - [UTOL (UTokyo LMS)](/utol/)
-  - [UTokyo Wi-Fi](/utokyo_wifi/)
-  - [Zoom](/zoom/)
-  - [Webex](/webex/)
-  - [ECCSクラウドメール<small> (Google Workspace)</small>](/google/)
-  - [UTokyo Microsoft License](/microsoft/)
-  - [UTokyo Slack](/slack/)
-  - [Slido](/slido/)
-  - [UTokyo MATLAB Campus-Wide License](/matlab/)
-  - [UTokyo VPN](/utokyo_vpn/)
-  - [ECCS端末](/eccs/)
-  - [一覧](/systems/)
+  - [<MaterialIcon icon="person" />UTokyo Account](/utokyo_account/)
+  - [![](_icons/utas.png)UTAS](/utas/)
+  - [![](_icons/utol.png)UTOL (UTokyo LMS)](/utol/)
+  - [<MaterialIcon icon="wifi" />UTokyo Wi-Fi](/utokyo_wifi/)
+  - [![](_icons/zoom.png)Zoom](/zoom/)
+  - [![](_icons/webex.png)Webex](/webex/)
+  - [![](_icons/google.png)ECCSクラウドメール<small>(Google Workspace)</small>](/google/)
+  - [![](_icons/microsoft.png)UTokyo Microsoft License](/microsoft/)
+  - [![](_icons/slack.png)UTokyo Slack](/slack/)
+  - [![](_icons/slido.png)Slido](/slido/)
+  - [<MaterialIcon icon="bar_chart" />UTokyo MATLAB Campus-Wide License](/matlab/)
+  - [<MaterialIcon icon="vpn_lock" />UTokyo VPN](/utokyo_vpn/)
+  - [<MaterialIcon icon="computer" />ECCS端末](/eccs/)
+  - [一覧](/systems/){:.arrow-link}
   {:.cards}
 </div>

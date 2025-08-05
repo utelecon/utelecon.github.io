@@ -95,7 +95,7 @@ Cons:
 * Students can mistakenly edit the pages used by other groups.
 * When editing documents instead of slides, students may find their pages shifting suddenly and becoming difficult to read because people in earlier numbered groups are filling in their pages while they are filling in theirs. (You can try to insert a page break, but this does not completely solve the problem).  
 
-☞ Extra tip: If duplicating sheets with the same content over and over again for each group or class session is a hassle, there is a simple programming technique called Google Apps Script (a.k.a. GAS) that can be used to automate the process. Please refer to utelecon "[How to Copy Files and Folders on Google Drive Using GAS (in Japanese)](/articles/gas/copy)”.  
+☞ Extra tip: If duplicating sheets with the same content over and over again for each group or class session is a hassle, there is a simple programming technique called Google Apps Script (a.k.a. GAS) that can be used to automate the process. Please refer to utelecon "[How to Copy Files and Folders on Google Drive Using GAS (in Japanese)](/articles/gas/copy/)”.  
 
 ## Intervene if Needed
 
@@ -141,9 +141,9 @@ The format and use of the worksheet may vary depending on the content of the ass
 
 [Problems That Tend to Arise in Online Group Discussions and Suggested Solutions](/en/articles/group-discussion/)  
 
-[How to Copy Files and Folders on Google Drive Using GAS (in Japanese)](/articles/gas/copy)  
+[How to Copy Files and Folders on Google Drive Using GAS (in Japanese)](/articles/gas/copy/)  
 
-[Search Online Resources by Tool](/en/online/tools)  
+[Search Online Resources by Tool](/en/online/tools/)  
 
 [Using the Breakout Room in Zoom (in Japanese)](/zoom/usage/breakout/)  
 

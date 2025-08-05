@@ -32,7 +32,7 @@
       url: "/utokyo_account/"
     -
       name: "UTAS"
-      url: "/utas"
+      url: "/utas/"
     -
       name: "UTOL<small> (UTokyo LMS)</small>"
       url: "/utol/"
@@ -55,11 +55,20 @@
       name: "UTokyo Slack"
       url: "/slack/"
     -
+      name: "教育用計算機システム（ECCS）"
+      url: "/eccs/"
+    -
       name: "UTokyo VPN"
       url: "/utokyo_vpn/"
     - 
       name: "全学向け高速計算機・データ活用基盤"
       url: "/research_computing/"    
+    -
+      name: "mdx"
+      url: "/research_computing/mdx/"
+      hidden: true
+      sitemap:
+        parent: "/research_computing/"
     -
       name: "UTokyo Azure"
       url: "/research_computing/utokyo_azure/"
@@ -80,13 +89,13 @@
         section: true
     -
       name: "使えるツールから探す"
-      url: "/online/tools"
+      url: "/online/tools/"
     -
       name: "やりたいことから探す"
       url: "/online/topics/"
     -
       name: "よりよい授業の実施方法を探す"
-      url: "/online/courses"
+      url: "/online/courses/"
     -
       name: "東大の実践を知る"
       url: "/online/#utokyo"
@@ -126,7 +135,7 @@
       url: "/systems/leave/"
     -
       name: "オンライン授業の受講に利用可能な教室の一覧"
-      url: "/oc/rooms"
+      url: "/oc/rooms/"
     -
       name: "説明会等"
       url: "/events/"
@@ -152,7 +161,7 @@
       url: "https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/service-status.aspx"
     -
       name: "クラウドサービス稼働情報"
-      url: "/support/service-status" 
+      url: "/support/service-status/" 
     -
       name: "授業入室トラブル"
-      url: "/oc/join"
+      url: "/oc/join/"
