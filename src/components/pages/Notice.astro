@@ -56,12 +56,12 @@ for (const notice of noticesWithId) {
 </script>
 
 <style lang="scss">
-  @import "@styles/color.scss";
+  @use "@styles/color";
 
   .date {
     display: inline-block;
     width: 6rem;
-    color: $heading-color;
+    color: color.$heading-color;
     margin-right: 5px;
 
     :where(.date_list).localized & {

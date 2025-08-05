@@ -174,27 +174,16 @@ const resolvedBreadcrumb =
       </div>
     </main>
     <Footer lang={lang} support={support} />
-    <style lang="scss">
-      @import "../styles/color.scss";
-      .title {
-        margin-bottom: 2rem;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid $white-gray-dark;
-        font-size: 2rem;
-        font-weight: bold;
-        color: black;
-      }
-    </style>
   </body>
 </html>
 
 <style lang="scss">
-  @import "@styles/color.scss";
-  @import "@styles/toc.scss";
+  @use "@styles/color";
+  @use "@styles/toc";
   .title {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid $white-gray-dark;
+    border-bottom: 1px solid color.$white-gray-dark;
     font-size: 2rem;
     font-weight: bold;
     color: black;
@@ -203,7 +192,7 @@ const resolvedBreadcrumb =
     #article {
       display: flex;
       flex-direction: row-reverse;
-      gap: $article-gap;
+      gap: toc.$article-gap;
     }
     #content {
       /* so that the content does not overflow the viewport */
@@ -211,7 +200,7 @@ const resolvedBreadcrumb =
       flex-grow: 1;
     }
   }
-  @media screen and (max-width: calc(768px + $toc-width + $article-gap)) {
+  @media screen and (max-width: calc(768px + toc.$toc-width + toc.$article-gap)) {
     main[data-toc="true"] {
       #article {
         flex-direction: column;

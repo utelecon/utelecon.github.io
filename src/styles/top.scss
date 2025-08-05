@@ -1,5 +1,5 @@
-@import "color";
-@import "components/card.scss";
+@use "color";
+@use "components/card";
 
 .cards {
   text-align: left;
@@ -61,7 +61,7 @@
         content: "arrow_forward_ios";
         font-family: "Material Icons";
         font-weight: bold;
-        color: $heading-color;
+        color: color.$heading-color;
       }
     }
   }
@@ -106,7 +106,7 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    color: $black-gray;
+    color: color.$black-gray;
     text-align: center;
 
     // ロゴ画像・Material Icons
@@ -126,7 +126,7 @@
       }
     }
     & > span.material-icon > svg {
-      fill: $link-color;
+      fill: color.$link-color;
       height: 3rem;
       @media (max-width: 896px) {
         height: 1.5rem;
