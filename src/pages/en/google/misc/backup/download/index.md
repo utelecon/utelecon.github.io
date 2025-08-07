@@ -11,21 +11,21 @@ For detailed settings and troubleshooting, please refer to [Google Account Help 
 1. Please log in to your ECCS Cloud Email.
 1. Please click the profile picture or your initials in the top right corner, then select “Manage your Google Account”.
 
-   ![Manage your Google Account](./backup-new01.png)
+   <img src="./backup-new01.png" alt="Manage your Google Account" class="border" />
 
 1. From the left-hand menu, please select “Data & privacy,”, then click “Download your data”.
 
-   ![Data & privacy > Download your data](./backup-new02.png)
+   <img src="./backup-new02.png" alt="Manage your Google Account" class="border" />
 
 1. Please select the services where you want to export the data, then click “Next step”.
 
-   ![Which data you export](./backup-new03.png)
+   <img src="./backup-new03.png" alt="Manage your Google Account" class="border" />
 
 1. Please select the file format, archive size, and delivery method, then click “Create export”.
    - Depending on the size of the data, the export process can take anything from several hours to a few days. If you select “Send download link via email” in the "Destination" section , you’ll receive a notification in your ECCS Cloud Email once exporting has finished.
 
-   ![Create export](./backup-new04.png)
+   <img src="./backup-new04.png" alt="Manage your Google Account" class="border" />
 
 1. If you select “Send download link via email” in the “Destination” section, you’ll receive an email once exporting has finished.  Click the download link in that email to download your data.
 
-   ![Download the export](./backup-new05.png)
+   <img src="./backup-new05.png" alt="Manage your Google Account" class="border" />
