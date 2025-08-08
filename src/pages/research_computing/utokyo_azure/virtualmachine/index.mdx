@@ -24,15 +24,12 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 ![](img/02_selectvm.png){:.medium.center.border}
 
-- Virtual Machines のメインページが表示されたら，`＋作成`をクリックします．
+- Virtual Machines のメインページが表示されたら，`＋作成`をクリックし`Azure仮想マシン`を選択ます．
 
 ![](img/03_start.png){:.medium.center.border}
 
 <div class="box">
-**補足１**：どの方法で仮想マシンを作成するかの選択肢が出てきますが，以下`Azure仮想マシン`を選択したものとしています．
-</div>
-<div class="box">
-**補足２**：複数マシンによるクラスタ構成を組みたい場合は[スケールセット(VMSS)](https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/overview)を選択ください．その場合の構成手順はリンク先をご参照ください．
+**補足**：複数マシンによるクラスタ構成を組みたい場合は[スケールセット(VMSS)](https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/overview)を選択ください．その場合のこの後の構成手順はリンク先をご参照ください．
 </div>
 
 ## ２．仮想マシンを構成する
@@ -52,7 +49,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 #### プロジェクトの詳細
 
-- **サブスクリプション**：事前に申請したサブスクリプションがすでに設定されていますので、通常はそのままで問題ありません．設定が無い場合はサブスクリプションが作成完了しているかどうか確認ください．
+- [**サブスクリプション**](/research_computing/utokyo_azure/faq/subscription/)：事前に申請したサブスクリプションがすでに設定されていますので、通常はそのままで問題ありません．設定が無い場合はサブスクリプションが作成完了しているかどうか確認ください．
 - **[リソースグループ](https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/manage-resource-groups-portal)**：ここでは新規に`resource_group`というリソースグループ名で作成し，以下に作成される各リソースをまとめます．まとめられたリソースは，権限の継承や削除などを一括で対応することが可能となります．
 
 ![](img/04_base1.png){:.medium.center.border}
@@ -60,7 +57,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 #### インスタンスの詳細
 
 - **仮想マシン名**：仮想マシンをAzure Portal 内で管理する際の名称です．わかりやすい名称を入力してくだささい．ここでは`testmachine`と入力しています．
-- **リージョン**：仮想マシンをどの地域（リージョン）にあるデータセンターにデプロイするかを指定します．使いたい機能が特定の国のリージョンにしかない場合は，その国のリージョンを選択ください．パブリッククラウド上での情報管理に不安がある場合は日本国内（`Japan East` か`Japan West`）のリージョンを選択することも可能です．
+- **リージョン**：仮想マシンをどの地域（リージョン）にあるデータセンターにデプロイするかを指定します．使いたい機能が特定の国のリージョンにしかない場合は，その国のリージョンを選択ください．海外のパブリッククラウド上での情報管理に不安がある場合は日本国内（`Japan East` か`Japan West`）のリージョンを選択することも可能です．
 - **可用性オプション**：特段の必要が無ければ`インフラストラクチャ冗長は必要ありません`を選択してください．
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">可用性ゾーンとは</Fragment>
