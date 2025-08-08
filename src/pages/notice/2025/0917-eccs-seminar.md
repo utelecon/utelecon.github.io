@@ -1,4 +1,6 @@
 ---
+title: 9/17 15:00から教育用計算機システム(ECCS)のシステム利用説明会を開催します．
+---
 
 
 <div style="text-align: right;">
