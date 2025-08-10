@@ -19,18 +19,19 @@ import HelpItem from "@components/utils/HelpItem.astro";
 ## 概要
 
 この設定例では，主に３つのサービスで構成されます．
-- 自動シャットダウンさせる対象．ここでは[Virtual Machines](/research_computing/utokyo_azure/virtualmachine/)や[Azure Machine Learning](/research_computing/utokyo_azure/ai/aml)，[Azure AI Studio](/research_computing/utokyo_azure/ai/azureai)で作成したVMを想定しています．
+- 自動シャットダウンさせる対象．ここでは[Virtual Machines](/research_computing/utokyo_azure/virtualmachine/)や[Azure Machine Learning](/research_computing/utokyo_azure/ai/aml/)，[Azure AI Studio](/research_computing/utokyo_azure/ai/azureai/)で作成したVMを想定しています．
+  - Azure Machine Laearning は独自のidle停止機能を持っています．その独自機能よりもさらに細かい条件でシャットダウンさせたい場合は本手順を利用ください．
 - 自動シャットダウンさせる対象を監視するサービス（Azure Moniter）
 - 仮想マシンのシャットダウンを自動化するサービス（Automation アカウント）
 
 ![](img/01_autostop1.jpg){:.center.border}
 
 ### 補足
-- 自動シャットダウンさせる仮想マシンのリソースは，以下のものが事前に用意されているものとします．
+- この例では，自動シャットダウンさせる仮想マシンのリソースとして以下のものが事前に用意されているものとします．
   - リソースグループ名：testmachine-resource-group
   - リソース名：testmachine
   - デプロイしたOS：ubuntu OS
-- Azure Moniter 及び Automation アカウントも testmachine-resource-group 内に設定しています．
+- Azure Moniter 及び Automation アカウントも，この例では testmachine-resource-group 内に設定します．
 
 ## １.自動化の構成（Automation アカウント）
 
@@ -45,7 +46,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
   - **サブスクリプション**：自動シャットダウン対象の仮想マシンが所属しているサブスクリプションを設定してください．
   - **[リソースグループ](https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/manage-resource-groups-portal)**：ここでは既存のリソースグループ`testmachine-resource-group`を指定します．
   - **Automation アカウント名**：自由に命名してください．ここでは`utokyoazure-automation`としています．
-  - **地域**：どのリージョンに設定するかを指定します．どのリージョンでも構いませんが，仮想マシンと同じリージョンにしておいた方が無難です．
+  - **地域**：どのリージョンに設定するかを指定します．どのリージョンでも動作はしますが，基本的に自動シャットダウン対象の仮想マシンと同じリージョンにしてください．
  
 ![](img/03_autostop3.png){:.medium.center.border}
 
@@ -111,7 +112,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">ルール設定の考え方</Fragment>
-  <Fragment slot="solution"><p>仮想マシンはバックグラウンドでも動作しているため，あまり低いCPU使用率を設定するといつまでも条件にヒットしません．かといって高すぎると常時ヒットしてしまい，コンソール作業中等でも問答無用でシャットダウンされるようになってしまいます．条件パート画面では，画面右側に過去６時間（初期設定）の監視結果のグラフが表示されます．また，AI等の計算を実行している場合は常に100%に近いCPU使用率になります．それらを参考にしきい値を決めてください．</p><p>この例では 5% 以下が１時間継続した場合としましたが，簡単に自動シャットダウンがかかってほしくない場合はCPU使用率を低く設定するか，継続時間を長めに設定するなどしてください．逆に計算以外の作業はさしえないのでできるだけ節約したい場合は，CPU使用率を数十パーセントに設定し継続時間も短めにすると，CPU使用率が落ち着いたらすぐにシャットダウンするようになります．</p></Fragment>
+  <Fragment slot="solution"><p>仮想マシンはバックグラウンドでも動作しているため，あまり低いCPU使用率を閾値として設定するといつまでも条件にヒットしません．かといって高すぎると常時ヒットしてしまい，コンソール作業中等でも問答無用でシャットダウンされるようになってしまいます．条件パート画面では，画面右側に過去６時間（初期設定）の監視結果のグラフが表示されます．また，AI等の計算を実行している時は常に100%に近いCPU使用率になります．それらを参考にしきい値を決めてください．</p><p>この例では 5% 以下が１時間継続した場合としましたが，簡単に自動シャットダウンがかかってほしくない場合はCPU使用率を低く設定するか，ルックバック期間を長めに設定するなどしてください．逆に計算以外の作業はさしえないのでできるだけ節約したい場合は，CPU使用率を数十パーセントに設定しルックバック期間も短めにすると，CPU使用率が落ち着いたらすぐにシャットダウンするようになります．</p></Fragment>
 </HelpItem>
 
 ![](img/11_autostop11.png){:.center.border}
@@ -146,7 +147,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 - `詳細`パート
   - **重大度**：`3.情報`のままで問題ありません．
-  - **アラートルール名**：監視リソース名になります．ここでは`idle-cpu`とします．
+  - **アラートルール名**：監視リソース名になります．自由に設定可能ですがここでは`idle-cpu`とします．
   - **アラートルールの説明**：必要に応じて説明を記載ください．
  
  ![](img/14_autostop14.png){:.center.border}
@@ -167,4 +168,3 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 #### 手動による動作確認
 - アクショングループはトップページ画面上部にある`テスト`から，アラートルールに関係なく手動で起動させることができます．実行して仮想マシンがシャットダウンされるかどうか確認ください．
-- Runbook は編集画面でテストウィンドウを選択することで手動起動できます．実行して仮想マシンがシャットダウンされるかどうか確認ください．

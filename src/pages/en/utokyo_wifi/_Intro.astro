@@ -1,0 +1,20 @@
+---
+interface Props {
+  kindOfTerminal?: string;
+  confirmedTerminal?: string;
+}
+
+const { kindOfTerminal, confirmedTerminal } = Astro.props;
+---
+
+<p>
+    This page provides the detailed procedures on how to use the UTokyo Wi-Fi on  {kindOfTerminal}.
+</p>
+<p>
+    UTokyo Wi-Fi is a Wi-Fi service available to members of the University of Tokyo for educational and research purposes. Please refer to
+    <a href="/en/utokyo_wifi/">UTokyo Wi-Fi</a>
+    page first, which summarizes the general instructions for using the UTokyo Wi-Fi. If you still need the detailed instructions for { kindOfTerminal }, please refer to this page.
+</p>
+<p>
+    During configuration and while in operation, different content and procedures may be displayed in the Wi-Fi settings even for the same kind of OS. This page was created based on the behavior confirmed for some specific { confirmedTerminal } available at the time of creation of this page. Therefore, when necessary, please read the content and procedures for the respective device and OS version
+</p>

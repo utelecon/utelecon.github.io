@@ -6,7 +6,7 @@ breadcrumb:
 
 import Tabs from "@components/en/mfa/Tabs.astro";
 import TabSelector from "@components/en/mfa/TabSelectorGrid.astro";
-import YouTube from "@components/embed/YouTube.astro";
+// import YouTube from "@components/embed/YouTube.astro";
 
 ## Introduction
 {:#introduction}
@@ -29,11 +29,11 @@ You may also register the same method for step 1 and 2; for example, you may reg
 
 **Complete all the tasks from Step 1 to Step 4.** After you complete the whole procedure, **you will be asked to verify your identity with the registered SMS, apps, etc., whenever you sign in to your UTokyo Account. **Be well aware that your UTokyo Account will be inaccessible if you lose access to every verification method (smartphone apps, phone number, etc.).
 
-### Video of the Initial Setup
+{/* ### Video of the Initial Setup
 
 The following video explains the initial setup procedure in this page.
 
-<YouTube src="https://www.youtube.com/embed/l84Aa1esNqI" />
+<YouTube src="https://www.youtube.com/embed/l84Aa1esNqI" /> */}
 
 ## Step 1: Set Up the First Verification Method
 {:#first.mfa-initial-step-heading}
@@ -79,7 +79,7 @@ The next step is to check that you can sign in to your UTokyo Account using MFA.
         </details>
     - **Other Authenticator Apps**: You will see a 6-digit code for your account in the authenticator app. Enter the code in the sign-in page.
     - **Phone Number (verification via SMS)**: An SMS message with a 6-digit code will be sent to your phone. Enter the code in the sign-in page and click “Verify”.
-    - **Phone Number (verification via call)**: You will receive a phone call, asking you to press the pound key (#) on your phone. Press the key and end the call. (To display the pound key on your smartphone during the call, press the “keypad” button.)
+    - **Phone Number (verification via call)**: You will receive a phone call, asking you to press the pound key (#) on your phone. Press the key and end the call. (To display the pound key on your smartphone during the call, press the “keypad” button.)　※A phone capable of tone dialing is required.
     <details>
         <summary>If you want to use a verification method not displayed</summary>
         One of the added verification methods (usually the first method added) will automatically become your “default sign-in method”. When you sign in, the system will ask you to verify your identity using the default sign-in method. If you wish to sign in with a different method, click the “Use a different verification option” or “I can’t use my Microsoft Authenticator app right now” link.
@@ -107,7 +107,7 @@ If the remote-access environment (Citrix Workspace) of office work devices for a
 4. Read the UTokyo Account instructions carefully, and find “Start using your UTokyo Account” at the bottom of the page. Answer “Yes” and click “SAVE”. ![](user_menu_2.png)
 
 <div class="box">
-You have completed the initial setup procedures for UTokyo Account, <strong>but it will take about 40 minutes for the account settings to be reflected in the system after these procedures</strong>. If you want to use systems that do not allow you to sign in until the multi-factor authentication settings are completed, please be patient and wait for a while.
+You have completed the initial setup procedures for UTokyo Account, <strong>but it will take about 30 minutes for the account settings to be reflected in the system after these procedures</strong>. If you want to use systems that do not allow you to sign in until the multi-factor authentication settings are completed, please be patient and wait for a while.
 </div>
 
 ## Things to Keep in Mind after Completing Initial Procedure
@@ -118,4 +118,4 @@ Once the MFA is enabled, **you will be asked to verify your identity with the SM
 
 In particular, when you get a new phone, register the phone for MFA by following the procedures in “[Changing the Verification Method of Multi-Factor Authentication for UTokyo Accounts](../change/)” while your old phone is available. Once your old phone is disposed of, you will no longer be able to verify your identity with the authentication app using the old phone. In addition, if you change the phone number, the verification with your former phone number will be impossible. Since you need to sign in to the system with your old verification method even when you change the method, it is important to switch your verification method while your old phone is available to avoid being completely locked out of your UTokyo Account.
 
-If you are in trouble in using your UTokyo Account and the MFA, you need to “re-registration MFA”. Please visit “[Terminate MFA Use](../reregister_and_terminate)” for more information.
+If you are in trouble in using your UTokyo Account and the MFA, you need to “re-registration MFA”. Please visit “[Reregistering Verification Method for UTokyo Accounts](../reregister/)” for more information.

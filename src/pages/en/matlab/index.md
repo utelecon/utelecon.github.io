@@ -9,7 +9,7 @@ The University of Tokyo has introduced the software "[MATLAB](https://www.mathwo
 ## About MATLAB
 [MATLAB](https://www.mathworks.com/products/matlab.html) is a programming language and a numerical computation / computer algebra software developed for scientific and technical computing. MATLAB can be used for various purposes, including mathematical processing of algebra, geometry and analysis, machine learning, statistical analysis, data visualization, control simulation, and its implementation on hardware. Since the software can be operated using GUI without writing a code, it can be easily introduced not only for research use in specialized fields such as engineering and science, but also for basic education for beginners in programming, and data analysis in the humanities and social sciences.
 
-The University of Tokyo has a comprehensive license agreement that allows **all students and all faculty and staff members employed by the university** to use the following functions from their individual devices without additional costs. The number of functions provided may increase or decrease depending on the university's situation and the terms of the contract.
+The University of Tokyo has a comprehensive license agreement that allows **all members of the university** to use the following functions from their individual devices without additional costs. The number of functions provided may increase or decrease depending on the university's situation and the terms of the contract.
 
 - Installing and using MATLAB
 - Unlimited use of MATLAB Online
@@ -26,7 +26,7 @@ The University of Tokyo has a comprehensive license agreement that allows **all 
 
 The purpose of use is limited to educational and research activities and related work. The use of the service for commercial purposes is not permitted. If you are considering commercial use, please contact MathWorks．
 
-Also, please refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms)".
+Also, please refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms/)".
 
 ## How to start using MATLAB
 To use MATLAB, you need to create a MathWorks account. In addition, you will need a [UTokyo Account](/en/utokyo_account/) and an email address ending with `u-tokyo.ac.jp` provided by the University of Tokyo to activate the blanket license．
@@ -125,7 +125,7 @@ This is an open forum where you can get information about MATLAB product updates
 
 A workspace named "**東京大学MATLABユーザコミュニティ (University of Tokyo MATLAB User Community)**" is available in [UTokyo Slack](/en/slack/). Please refer to the following page to join．
 
-see: **[Joining an open workspace in UTokyo Slack](/en/slack/join)**
+see: **[Joining an open workspace in UTokyo Slack](/en/slack/join/)**
 
 ### UTokyo MATLAB Ambassadors
 "UTokyo MATLAB Ambassadors" is a student team who hold workshops on how to use MATLAB and events for interaction among users in the university. They also provide consultation services via email and Zoom. Please refer to [**Ambassador Portal Site**](https://sites.google.com/view/ut-matlab-amb/) (in Japanese) for details．

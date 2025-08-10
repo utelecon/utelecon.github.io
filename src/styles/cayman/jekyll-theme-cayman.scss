@@ -1,5 +1,5 @@
-@import "rouge-github";
-@import "variables";
+@use "rouge-github";
+@use "variables";
 
 main {
 
@@ -25,17 +25,17 @@ main {
   pre {
     padding: 0.8rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    color: $code-text-color;
+    color: variables.$code-text-color;
     word-wrap: normal;
-    background-color: $code-bg-color;
-    border: solid 1px $border-color;
+    background-color: variables.$code-bg-color;
+    border: solid 1px variables.$border-color;
     border-radius: 0.3rem;
 
     > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: $code-text-color;
+      color: variables.$code-text-color;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -83,8 +83,8 @@ main {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
+    color: variables.$blockquote-text-color;
+    border-left: 0.3rem solid variables.$border-color;
 
     > :first-child {
       margin-top: 0;
@@ -115,7 +115,7 @@ main {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
-    background-color: $hr-border-color;
+    background-color: variables.$hr-border-color;
     border: 0;
   }
 }

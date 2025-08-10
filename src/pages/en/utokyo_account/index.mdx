@@ -17,8 +17,8 @@ import InformationSecurity from '@components/en/InformationSecurity.mdx'
   - Even if you do not currently have an account, you can receive a UTokyo Account if you are a member of an organization that has been accepted and managed by the university. If you wish to obtain an account, please contact the relevant office of your department (students should contact the academic office, and faculty and staff members should contact the personnel department).
 - The username of UTokyo Account is represented by a 10-digit number and is also called the **“Common ID”**. In the ICT systems, a 10-digit Common ID followed by `@utac.u-tokyo.ac.jp`, which indicates that you are a member of the University of Tokyo, is sometimes used, such as `0123456789@utac.u-tokyo.ac.jp`.
   - The "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is not an email address that can be used normally.
-  - System notification emails sent to "10-digit common ID + `@utac.u-tokyo.ac.jp`" may be forwarded to [the ECCS Cloud Email (Google Workspace)](/en/google/), but you cannot send emails using "10-digit common ID + `@utac.u-tokyo.ac.jp`".
-- For more information on the services available through the UTokyo Account, please see the **[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)** and [the "Systems of the University of Tokyo" page (in Japanese)](/systems).
+  - System notification emails sent to "10-digit Common ID + `@utac.u-tokyo.ac.jp`" may be forwarded to [the ECCS Cloud Email (Google Workspace)](/en/google/), but you cannot send emails using "10-digit Common ID + `@utac.u-tokyo.ac.jp`".
+- For more information on the services available through the UTokyo Account, please see the **[UTokyo Account Service Directory](https://login.adm.u-tokyo.ac.jp/utokyoaccount/)** and [the "Systems of the University of Tokyo" page (in Japanese)](/systems/).
   - The available systems differ depending on the user's enrollment status, affiliation, and so on, and not all systems are available to all users.
 
 ## How to start using UTokyo Account
@@ -31,7 +31,7 @@ import InformationSecurity from '@components/en/InformationSecurity.mdx'
 
 <MFA />
 
-### Attending the Information Security Education
+### Taking the Information Security Education
 {:#information-security-education}
 
 <InformationSecurity variant="individual" />
@@ -49,15 +49,21 @@ Once you have completed the above tasks, please also refer to the following page
 ## Sign in to the ICT systems with your UTokyo Account
 {:#signin}
 
-UTokyo Account provides access to a variety of ICT systems. The sign-in methods vary depending on the situation.
+This section explains how to sign in to various ICT systems using your UTokyo Account.
 
-- When the following screen (with an image of Yasuda Auditorium) is displayed, you can sign in with your 10-digit Common ID and password.
-![](img/signin-yasuda.png)
-- If the image of Yasuda Auditorium does not appear and the sign-in screen appears as shown below, please enter "10-digit common ID + `@utac.u-tokyo.ac.jp`".
-    <figure class="gallery">
-        ![](img/signin-utac-01.png)
-        ![](img/signin-utac-02.png)
-    </figure>
+When using the ICT systems, if the following sign-in screen (with an image of Akamon Gate) appears, you need to sign in with your UTokyo Account. Please follow these steps to sign in:
+
+![](img/signin-akamon.png){:.small.center.thin-border}
+1. Enter "10-digit Common ID + `@utac.u-tokyo.ac.jp`" in the input field, then click "Next."
+1. When the screen shown in the bottom-left screenshot appears, enter your password and click "Sign in."
+1. If the "Verify your identity" screen shown in the bottom-right screenshot or the "Approve sign in request" screen appears, follow the on-screen instructions to complete the multi-factor authentication.
+1. You will be signed in and redirected to the system page you are trying to access.
+
+<figure class="gallery">![](img/password-akamon.png){:.small.center.thin-border}![](img/mfa-akamon.png){:.small.center.thin-border}</figure>
+
+Additionally, during sign-in, you may see a screen like the following. In this case, please select the item labeled "10-digit Common ID + `@utac.u-tokyo.ac.jp`".
+
+![](img/signin-select-account.png){:.small.center.thin-border}
 
 Many of the ICT systems that allow users to sign in using their UTokyo Account are linked to each other, so that once a user has signed in with their username and password on one ICT system, the user does not subsequently need to enter the username and password to use another ICT system. This behavior is called **Single Sign-On (SSO)**.
 
@@ -71,7 +77,7 @@ If you are using Multi-Factor Authentication, your password does not expire. Oth
 ### Changing passwords
 {:#change-password}
 
-You can change your password from the "Password" menu on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com). 
+You can change your password from the "Password" menu on the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com).
 
 ### If you forget your password
 {:#forget-password}
@@ -112,12 +118,12 @@ The procedure for resetting the password is as follows.
 
 If you have not registered your email address, or if the above procedure does not work, please contact the following help desks to reissue your password.
 
-- The academic office of our college/faculty/graduate school (students only).
+- For stdents: academic affairs office of your college/faculty/graduate school
     - Please bring your Student ID card.
-- Personnel department of your department (faculty and staff members only)
-- [ECCS Help Desks](https://www.ecc.u-tokyo.ac.jp/en/emap.html)
-    - Students must bring their Student ID card, and faculty and staff members must bring their Staff ID card.
-    - The Help Desks are located in the Information Education Building (Komaba Campus), Information Technology Center (Asano Section, Hongo Campus), and Fukutake Hall (Hongo Campus).
+    - If you are a first-year undergraduate student who has not yet received your student ID card, please bring your admission notification letter with you.
+- For faculty and staff members: personnel office of your department
+
+*Previously, ECCS Help Desks also accepted password reissuance requests, but due to repeated violations of the request guidelines, we have ended this service as of May 2025.
 
 After completing the procedures, you will receive a "Notification regarding password for the UTokyo Account" containing your initial password. Please change your initial password to a new one, referring to "Task: Change the initial password" in [How to start using UTokyo Account](#procedures). (You cannot use the ICT services with your initial password.)
 

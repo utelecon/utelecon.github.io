@@ -4,23 +4,20 @@ breadcrumb:
   title: "Azure Machine Learning"
 ---
 
+import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.mdx";
+
 ## 概要
 {:#about}
 
 Azure Machine Learning なら Jupyter notebook のようなインタフェースで GPU を使った Python プログラミング等ができます．
 このページは Azure Machine Learning を本サービスで利用する場合の初期手続き例です．
 
-参考：[**ノートブックを使おう -Google ColaboratoryのようにJupyter Notebookを使って開発したい！-**](https://utelecon.adm.u-tokyo.ac.jp/events/2025-02-21/slides/5-4_notebook.pdf) (2025.02.21 UTokyo Azure 説明会資料)
+参考：[**ノートブックを使おう -Google ColaboratoryのようにJupyter Notebookを使って開発したい！-**](/events/2025-02-21/slides/5-4_notebook.pdf) (2025.02.21 UTokyo Azure 説明会資料)
 
 ## １．サービスを選択する
 {:#select_service}
 
-<div class="box">
-- まだサブスクリプションをお持ちでない場合は，事前に以下サイトよりサブスクリプションを申請してください．
-  - [UTokyo Azure新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/) ※学内ネットワークからのアクセスに限定．UTokyo Account 所持者のみログイン可
-</div>
-
-- [Azure portal](https://portal.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．（新規申請された場合は表示されるようになるまで時間がかかります）
+<FirstTimeUsing type="details" />
 
 - Azureサービスの一覧の中から`Azure Machine Learning`を選択します．
     - 一覧に無い場合、一覧の右にある`その他のサービス`を選択、左側にあるリストから`AI + Machine Learning`を選択すると， 右側に表示されるメイン画面の`Azure AI + Machine Learning platforms`の中にあります．
@@ -117,6 +114,10 @@ AI ハブ のトップページに遷移するので，`スタジオの起動`�
 
 ![](img/13_aml13.png){:.medium.center.border}
 
+<div class="box">
+もっと複雑な停止条件を指定したい場合は，[Azure監視サービスを使った自動停止](/research_computing/utokyo_azure/virtualmachine/autostop/)を参照ください．
+</div>
+
 #### セキュリティ、アプリケーション、タグ
 
 - この構成では初期値のまま進めます．
@@ -149,9 +150,9 @@ Python 等のコードを書くためのファイルを作成します．
 ![](img/11_aml11.png){:.medium.center.border}
 
 
-## ４．一時休止
+## ５．手動による仮想マシンの休止
 
-アイドル状態やスケジュールによる自動シャットダウンを設定していない，または設定はしてあるがその日の利用は終わったので停止させたい，などの場合に手動でシャットダウンさせる手順です．
+アイドル状態やスケジュールによる自動シャットダウンを設定していない，または設定はしてあるがその日の利用は終わったのですぐに停止させたい，などの場合に手動でシャットダウンさせる手順です．
 
 - ファイル編集画面の上部に、`コンピューティングの停止`ボタンがあるのでクリックする．
 
