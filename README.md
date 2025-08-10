@@ -136,7 +136,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
 - 概要
   - すべてのURLの末尾にスラッシュが付くようになっています．
   - `src/pages`以下のページファイルで，`src/pages/oc/index.mdx`や`src/pages/systems/index.md`などの`index`ファイルは，`/oc/`や`/systems/`などの`index`を除いた`/`で終わるURLにマップされます．
-  - `src/pages`以下のページファイルで，`src/pages/oc/movies.mdx`や`src/pages/systems/wlan.md`などの`index`でないファイルは，`/oc/movies`や`/systems/wlan`などのファイル名がそのままで，`/`で終わるURLにマップされます．
+  - `src/pages`以下のページファイルで，`src/pages/oc/movies.mdx`や`src/pages/systems/wlan.md`などの`index`でないファイルは，`/oc/movies/`や`/systems/wlan/`などのファイル名から拡張子を取り除いて`/`を加えたURLにマップされます．
 - 理由
   - 従来，indexファイルは`/`で終わるURLに，indexでないファイルは`/`で終わらないURLにマップされていましたが，複数の問題がありました．
     - ページファイルの配置変更で，`/`で終わるURLのページが`/`で終わらないURLのページに変更になった場合にリダイレクトができない．
