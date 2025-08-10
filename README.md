@@ -134,13 +134,21 @@ Markdownファイルのフロントマターにかける設定は以下の通り
 ### URL末尾のスラッシュについて
 
 - 概要
+  - すべてのURLの末尾にスラッシュが付くようになっています．
   - `src/pages`以下のページファイルで，`src/pages/oc/index.mdx`や`src/pages/systems/index.md`などの`index`ファイルは，`/oc/`や`/systems/`などの`index`を除いた`/`で終わるURLにマップされます．
-  - `src/pages`以下のページファイルで，`src/pages/oc/movies.mdx`や`src/pages/systems/wlan.md`などの`index`でないファイルは，`/oc/movies`や`/systems/wlan`などのファイル名そのままの（末尾に`/`がつかない）URLにマップされます．
+  - `src/pages`以下のページファイルで，`src/pages/oc/movies.mdx`や`src/pages/systems/wlan.md`などの`index`でないファイルは，`/oc/movies`や`/systems/wlan`などのファイル名がそのままで，`/`で終わるURLにマップされます．
 - 理由
-  - [前述](#srcpages以下のファイルを公開する)の通り，多くのページは`src/pages`以下でページのソースと画像をまとめて管理し，ソースの中ではファイルシステムの相対パスを用いて画像を参照しています．ファイルシステム上での相対パスとURL上での`/`で始まらない相対パスを対応させるには，上記のようなマッピングが必要です．
-  - Astroには，このようなマッピングにする設定がありません．
+  - 従来，indexファイルは`/`で終わるURLに，indexでないファイルは`/`で終わらないURLにマップされていましたが，複数の問題がありました．
+    - ページファイルの配置変更で，`/`で終わるURLのページが`/`で終わらないURLのページに変更になった場合にリダイレクトができない．
+    - URL末尾の`/`の扱いがホスティングサービスにより異なるため，ホスティングサービスの変更が困難．
+  - そこで，すべてのURLの末尾に統一して`/`を付けるように変更を行いました．
 - 実装
-  - [`astro.config.ts`](astro.config.ts)で`format: "preserve"`を指定し，[`Layout.astro`](src/layouts/Layout.astro)で公開時のパスを状況に応じて書き換えることで実現しています．
+  - [`astro.config.ts`](astro.config.ts)で`format: "directory"`を指定しています．
+- 注意点
+  - 非indexページでは，内部リンクの相対パスの起点が1つ上の階層になります．
+  - 例：`src/pages/aaa/bbb.md`から`src/pages/aaa/ccc.md`に相対パスで内部リンクを貼る場合
+    - `../ccc/`とする必要があります．
+    - それぞれのページが`/aaa/bbb/`，`/aaa/ccc/`というURLパスにマップされるためです．
 
 ### IAL (Inline Attribute List)
 
