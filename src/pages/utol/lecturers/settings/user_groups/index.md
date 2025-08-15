@@ -67,7 +67,7 @@ breadcrumb:
 1. 「コース設定」の「ユーザグループ設定」を押してください．
     <details>
     <summary>「コース設定」がない場合</summary>
-        あなたにはこの操作に必要な<a href=#details>権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href=/utol/lecturers/settings/course_participants/>権限の付与</a>についてご相談ください．
+        あなたにはこの操作に必要な<a href="#details">権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href="/utol/lecturers/settings/course_participants/">権限の付与</a>についてご相談ください．
     </details>
 
     ![](sidebar_ug.png){:.border}{:.medium}
@@ -99,7 +99,7 @@ breadcrumb:
 1. 「コース設定」の「ユーザグループ設定」を押してください．
     <details>
     <summary>「コース設定」がない場合</summary>
-        あなたにはこの操作に必要な<a href=#details>権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href=/utol/lecturers/settings/course_participants/>権限の付与</a>についてご相談ください．
+        あなたにはこの操作に必要な<a href="#details">権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href="/utol/lecturers/settings/course_participants/">権限の付与</a>についてご相談ください．
     </details>
 
     ![](sidebar_ug.png){:.border}{:.medium}
@@ -119,7 +119,7 @@ breadcrumb:
 1. 「コース設定」の「ユーザグループ設定」を押してください．
     <details>
     <summary>「コース設定」がない場合</summary>
-        あなたにはこの操作に必要な<a href=#details>権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href=/utol/lecturers/settings/course_participants/>権限の付与</a>についてご相談ください．
+        あなたにはこの操作に必要な<a href="#details">権限</a>がありません．必要と思われる場合は，授業を担当する教員と<a href="/utol/lecturers/settings/course_participants/">権限の付与</a>についてご相談ください．
     </details>
 
     ![](sidebar_ug.png){:.border}{:.medium}
