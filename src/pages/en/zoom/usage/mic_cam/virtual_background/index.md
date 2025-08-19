@@ -1,9 +1,9 @@
 ---
-title: （Zoom 学生・教員共通編）カメラに映る背景を隠すためにバーチャル背景（仮想背景）を設定する
+title: (Zoom Student/Faculty Common Edition) Set up a virtual background to hide 　the background from the camera
 redirect_from:
   - /zoom/how/common/virtual_background
 breadcrumb:
-  title: Zoomのバーチャル背景機能など
+  title: Zoom's virtual background feature, etc
 ---
 
 ## What is a virtual background
@@ -106,6 +106,7 @@ When used appropriately in closed areas such as seminars and clubs, both functio
 
      * Click on the “+” to create your original avatar.
   ![](images/add_original_avatar.png)
+
 
 
 
