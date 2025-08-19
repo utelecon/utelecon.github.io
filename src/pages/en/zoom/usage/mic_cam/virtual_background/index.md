@@ -34,7 +34,7 @@ This page introduces the basic operation procedures for the Windows Zoom applica
   ![](images/select_settings_of_virtual_screen.png)
 
 3. 	Select the virtual background of your choice. (If you select “None”, no virtual background will be set.)
-   * Select the “+” to upload an original image as a virtual background.
+     * Select the “+” to upload an original image as a virtual background.
      ![](images/open_settings_of_virtual_screen.png)
       <br/>
      ![](images/add_virtual_screen.png)
@@ -106,6 +106,7 @@ When used appropriately in closed areas such as seminars and clubs, both functio
 
      * Click on the “+” to create your original avatar.
   ![](images/add_original_avatar.png)
+
 
 
 
