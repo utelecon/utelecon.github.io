@@ -13,6 +13,7 @@ import { cleanup } from "./src/lib/CleanupIntegration.js";
 import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
 import copyAsset from "./src/lib/CopyAssetIntegration.js";
 import assetFileNames from "./src/lib/AssetFileNames.js";
+import ignoreAssets from "./src/lib/ignoreassets";
 import rehypeRaw from "rehype-raw";
 import remarkImageClasslist from "./src/lib/remark-image-classlist.js";
 
@@ -75,6 +76,25 @@ export default defineConfig({
         forward: ["dataLayer.push"],
       },
     }),
+    ignoreAssets([
+      ".avif",
+      ".docx",
+      ".gif",
+      ".jpg",
+      ".jpeg",
+      ".mp4",
+      ".png",
+      ".pdf",
+      ".pptx",
+      ".svg",
+      ".txt",
+      ".webp",
+      ".xlsx",
+      ".JPG",
+      ".PNG",
+      ".bat",
+      ".sh",
+    ]),
   ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
 });

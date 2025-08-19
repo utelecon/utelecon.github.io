@@ -1,4 +1,4 @@
-@import "color";
+@use "color";
 
 :is(h1, h2, h3, h4):has(.rss_icon) {
   display: flex;
@@ -9,7 +9,7 @@
     flex-direction: column;
     gap: 0;
     align-items: center;
-    color: $heading-color;
+    color: color.$heading-color;
     font-family: "Material Icons";
     font-size: 1.125em;
     text-decoration: none;

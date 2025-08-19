@@ -1,3 +1,5 @@
+@use "@styles/color";
+
 .help-desk-list {
   display: flex;
   flex-direction: column;
@@ -15,7 +17,7 @@
 .help-desk-list-button {
   display: block;
   width: 100%;
-  border: 1px solid $heading-color;
+  border: 1px solid color.$heading-color;
   border-bottom-width: 4px;
   border-radius: 0.5rem;
   padding: 0.5rem;
@@ -30,19 +32,19 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: $black-gray;
+    color: color.$black-gray;
     &::after {
       display: block;
       content: "arrow_forward_ios";
       text-align: right;
       font-family: "Material Icons";
       font-weight: bold;
-      color: $heading-color;
+      color: color.$heading-color;
       hyphens: initial;
     }
   }
   &:hover {
-    background-color: $heading-color;
+    background-color: color.$heading-color;
     color: white;
     transition: all 0.2s ease;
     &:link {

@@ -1,7 +1,7 @@
 ---
-title: "Virtual Machines : UTokyo Azure 利用例"
+title: "仮想マシン : UTokyo Azure 利用例"
 breadcrumb:
-  title: "Virtual Machines"
+  title: "仮想マシン"
 ---
 
 import HelpItem from "@components/utils/HelpItem.astro";
@@ -10,7 +10,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ## 概要
 {:#about}
 
-本サービスで多く利用されると思われる，仮想マシン（Azure のサービス名はVirtual Machines）の作成を最低限の構成で行う一例です．
+本サービスで多く利用されると思われる，仮想マシンの作成を最低限の構成で行う一例です．
 
 参考： [**仮想マシンを作ろう -13BのLlama-3モデルをLoRA fine-tuningしたい-**](https://utelecon.adm.u-tokyo.ac.jp/events/2025-02-21/slides/5-3_create_VM.pdf) (2025.02.21 UTokyo Azure 説明会資料)
 
@@ -19,7 +19,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 <FirstTimeUsing type="details" />
 
-- Azureサービスの一覧の中から`Virtual Machines`を選択します．
+- Azureサービスの一覧の中から`仮想マシン`を選択します．
     - 一覧に無い場合、画面上部にある検索欄で検索するか，一覧の右にある`その他のサービス`を選択、左側にあるリストから`コンピューティング`を選択すると，右側に表示されるメイン画面の`Infrastructure as a Service(IaaS)`の中にあります．
 
 ![](img/02_selectvm.png){:.medium.center.border}
@@ -29,7 +29,10 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ![](img/03_start.png){:.medium.center.border}
 
 <div class="box">
-**補足**：どの方法で仮想マシンを作成するかの選択肢が出てきますが，以下`Azure仮想マシン`を選択したものとしています．
+**補足１**：どの方法で仮想マシンを作成するかの選択肢が出てきますが，以下`Azure仮想マシン`を選択したものとしています．
+</div>
+<div class="box">
+**補足２**：複数マシンによるクラスタ構成を組みたい場合は[スケールセット(VMSS)](https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/overview)を選択ください．その場合の構成手順はリンク先をご参照ください．
 </div>
 
 ## ２．仮想マシンを構成する
@@ -59,7 +62,15 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 - **仮想マシン名**：仮想マシンをAzure Portal 内で管理する際の名称です．わかりやすい名称を入力してくだささい．ここでは`testmachine`と入力しています．
 - **リージョン**：仮想マシンをどの地域（リージョン）にあるデータセンターにデプロイするかを指定します．使いたい機能が特定の国のリージョンにしかない場合は，その国のリージョンを選択ください．パブリッククラウド上での情報管理に不安がある場合は日本国内（`Japan East` か`Japan West`）のリージョンを選択することも可能です．
 - **可用性オプション**：特段の必要が無ければ`インフラストラクチャ冗長は必要ありません`を選択してください．
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">可用性ゾーンとは</Fragment>
+  <Fragment slot="solution"><p>同一リージョン内で，ネットワーク，電源，冷却装置等が独立しているデータセンター群で，イメージとしては隣接している複数のビルそれぞれに構築されているデータセンターの集まりです．</p><p>通常3ゾーン以上で構成されていて，可用性ゾーンを複数指定するとそのゾーン間でプライマリバックアップやHAを構成することが可能になります．</p><p>※ 本利用例の通りに設定した場合は冗長構成はとられず，いずれかのゾーン内に単独で構成されます．</p></Fragment>
+</HelpItem>
 - **イメージ**：利用したいＯＳを選択してください．ここでは ubuntu OS を選択しています．
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">WindowsOS を選択した場合</Fragment>
+  <Fragment slot="solution"><p>ページ最下部に**マルチテナントをホストする権利を持つ有効な Windows 10/11 ライセンスを所有しています**という項目があるのでチェックを入れてください．UTokyo Azure では [UTokyo Microsoft License](/microsoft/) で認証されたOSを利用できます．</p><p>また，WindowsOS は必要最小スペックが高めですので、VMサイズを選択する際は Windows 10/11 での最小スペックにご注意ください．特に Windows11 を選択する場合は [Microsoft Learn：Azure 仮想マシンでの Windows 11 のサポート](https://learn.microsoft.com/ja-jp/troubleshoot/azure/virtual-machines/windows/windows-11-support-azure-virtual-machines)を事前に参照ください．</p></Fragment>
+</HelpItem>
 - **サイズ**：CPUコア数やメモリ量などの組み合わせを選択してください．右側にある金額は，それを選択した際にかかると予想される費用試算（月額）です．その他の選択や利用状況により増減するので、ご参考程度にお考え下さい．
 
 ![](img/05_base2.png){:.medium.center.border}
@@ -75,8 +86,8 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 #### 受信ポートの規則
 
 - ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
-- 別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用してリモートコンソール接続を行う場合は，`なし`を選択してください．
-- ここで選択する受信ポート規則は作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で設定してください．
+  - 別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用してリモートコンソール接続を行う場合は，`なし`を選択してください．
+  - ここで選択する受信ポート規則は作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で設定してください．
 
 ### ディスクパート
 {:#disk}
@@ -96,8 +107,8 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 {:#eachpart}
 
 - ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
-- リモートからのコンソールアクセスに別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用し，かつデータ転送用に外部からの接続を許可する必要が無い場合は，**パブリック受信ポート** は`なし`を設定してください．
-- ここで選択する受信ポートは作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で設定してください．
+  - リモートからのコンソールアクセスに別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用し，かつデータ転送用に外部からの接続を許可する必要が無い場合は，**パブリック受信ポート** は`なし`を設定してください．
+  - ここで選択する受信ポートは作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で設定してください．
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">定期的に仮想マシンをシャットダウンさせたい場合</Fragment>
@@ -120,7 +131,6 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 `確認及び作成`をクリックするとVM作成が実行されます．
 
-- `優先する電話番号`:本学の本件契約担当の番号が自動入力されています．そのままで問題ありません．
 - SSH鍵の新規作成を選択した場合，SSH鍵ペアの秘密鍵をダウンロードするかどうかの選択が表示されるので，ダウンロードしてください．リモートから初期アクセスする際にこの秘密鍵を使ってログインします．作成した仮想マシンにログインするリモート端末の適切な場所に，秘密鍵を事前に配置してください．
 
 ![](img/08_sshkey.png){:.medium.center.border}
@@ -149,7 +159,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ## 補足．仮想マシンの一時休止
 {:#suspend}
 
-**仮想マシンはそのままにするとCPU，GPUやストレージの利用に課金され続ける**ので．常時起動が不要な場合，利用しない時間は仮想マシンを止めておきます．
+**仮想マシンはそのままにするとCPU，GPUの利用に課金され続ける**ので．常時起動が不要な場合，利用しない時間は仮想マシンを止めておきます．
 
 - 仮想マシンリソースの詳細で上部に、`停止`ボタンがあるのでクリックする．
 

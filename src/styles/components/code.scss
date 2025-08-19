@@ -1,8 +1,10 @@
+@use "@styles/color";
+
 code {
   padding: 0.2em 0.4em;
   font-size: 0.9em;
   color: black;
-  background-color: $white-gray-light;
+  background-color: color.$white-gray-light;
 }
 
 code,
