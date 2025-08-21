@@ -46,9 +46,9 @@ Please note that information regarding adding courses to course registration or 
 
 #### After the end of registration period (or course correction period): "Favorite Registration" becomes unavailable
 
-You will no longer be able to access courses using the "Favorite Registration" starting from the morning after the end of the course registration period or the course correction period. As you may already know, the course registration period and course correction period vary depending on your affiliation or year of study. Consequently, the date when the "Favorite Registration" becomes unavailable differs for each student. However, with a few exceptions, it is expected to be before October 16.
+You will no longer be able to access courses using the "Favorite Registration" starting from the morning after the end of the course registration period or the course correction period. As you may already know, the course registration period and course correction period vary depending on your affiliation or year of study. Consequently, the date when the "Favorite Registration" becomes unavailable differs for each student. However, with a few exceptions, it is expected to be before October 17.
 
-#### October 16~: "Self-Registration" is unavailable
+#### October 17~: "Self-Registration" is unavailable
 
 You will no longer be able to access courses using "Self-Registration" starting from early in the morning of October 17, following the October 16 course confirmation date for the A1 Term. However, you may still be able to access the course if the course instructor changes the settings for the relevant course.
 
