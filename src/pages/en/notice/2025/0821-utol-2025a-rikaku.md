@@ -3,7 +3,7 @@ title: Handling of the 2025 Academic Year A Semester Courses on UTOL
 ---
 
 <div style="text-align: right;">
-<span>August 1, 2025</span><br />
+<span>August 21, 2025</span><br />
 <span>Information Technology Center</span><br />
 </div>
 

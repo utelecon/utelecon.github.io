@@ -3,7 +3,7 @@ title: 2025年度Aセメスター科目のUTOL履修確定日の取り扱いに�
 ---
 
 <div style="text-align: right;">
-<span>2025年8月1日</span><br />
+<span>2025年8月21日</span><br />
 <span>情報基盤センター</span><br />
 </div>
 
