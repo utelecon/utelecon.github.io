@@ -19,7 +19,7 @@ import { packages } from "../../../package-lock.json";
  * `semver` が解釈可能な形式で指定します。動作確認した上で適宜修正してください。
  * {@link ./README.md}も参照してください。
  */
-const TESTED_ASTRO_VERSION_RANGE = "5.0.0 - 5.9.1";
+const TESTED_ASTRO_VERSION_RANGE = "5.0.0 - 5.12.7";
 
 export class VersionNotSatisfied extends Error {
   constructor(

@@ -12,7 +12,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">どのような目的で利用が可能でしょうか</Fragment>
-  <Fragment slot="solution">研究・教育用途であれば広くお使いいただけます</Fragment>
+  <Fragment slot="solution"><p>研究・教育用途であれば広くお使いいただけます．</p><p>事務業務利用でも動作・検証目的であれば利用可能です．検証後本格利用に移行する際は，別途，リソース（Microsoft Azure）をご準備ください</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -40,7 +40,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
     <Fragment slot="solution"><p>毎月の大学全体の UTokyo Azure の使用料がギフトクレジットのその月の予定消費額に達するまでは全員が無料で UTokyo Azure を使用できます．</p>
 <p>その月の大学全体の使用料が予定消費額を超えた場合，その月の利用者あたりの無料分が計算されて，その無料分を超過した額を各利用者に負担いただきます．</p>
 <p>また完全に無料で使いたい利用者のためには月初めに無料保証枠を提示します．その月の大学全体の使用料がいくらであっても，各利用者の使用料がこの無料保証額を超えなければ，その利用者の費用負担は発生しません．</p>
-<p>なお使用料が無料保証枠を超えていても，月末に計算される無料分以下であれば実際には費用負担は発生しません．詳しくはFAQの**無料分と無料保証枠**を参照ください．</p></Fragment>
+<p>なお使用料が無料保証枠を超えていても，月末に計算される無料分以下であれば実際には費用負担は発生しません．詳しくはFAQの[**無料分とはなんですか**](/research_computing/utokyo_azure/faq/#:~:text=%E7%84%A1%E6%96%99%E4%BF%9D%E8%A8%BC%E6%9E%A0-,%E3%83%98%E3%83%AB%E3%83%97%EF%BC%9A%E7%84%A1%E6%96%99%E5%88%86%E3%81%A8%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B,-%E3%83%98%E3%83%AB%E3%83%97%EF%BC%9A%E7%84%A1%E6%96%99%E4%BF%9D%E8%A8%BC)と[**無料保証枠とはなんですか**](/research_computing/utokyo_azure/faq/#:~:text=%E3%83%98%E3%83%AB%E3%83%97%EF%BC%9A%E7%84%A1%E6%96%99%E4%BF%9D%E8%A8%BC%E6%9E%A0%E3%81%A8%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B,-%E3%83%98%E3%83%AB%E3%83%97%EF%BC%9A%E7%84%A1%E6%96%99%E5%88%86)を参照ください．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -69,7 +69,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションとはなんですか</Fragment>
-  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションを管理単位として利用者は様々なサービスを利用することができます．詳細は[サブスクリプションとは（リンク先）](/research_computing/utokyo_azure/faq/subscription/)を参照ください．</Fragment>
+  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションを管理単位として利用者は様々なサービスを利用することができます．詳細は[サブスクリプションとは](/research_computing/utokyo_azure/faq/subscription/)を参照ください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -89,7 +89,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">申請したサブスクリプションやリソースを研究室のメンバー等で共同利用したい</Fragment>
-  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**所有者**や**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**のアカウントで行う必要があります．[詳細はこちらのリンクを参照ください．](/research_computing/utokyo_azure/group/)</Fragment>
+  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**所有者**や**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**のアカウントで行う必要があります．詳細はこちらの[**複数人グループでの利用**](/research_computing/utokyo_azure/group/)を参照ください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -111,12 +111,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料分とはなんですか</Fragment>
-  <Fragment slot="solution"><p>ある月の利用料のうち無料となる分の金額で, 月末に全ユーザの利用者を元に計算されます．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には，およそ半期毎に各月の超過分・余剰分を集計して半期ごとの通算の超過額を計算します．この通算した超過額を情報基盤センターより請求する予定です．詳細は [UTokyo Azure 説明会資料](/events/2025-02-21/slides/3_application_guidelines.pdf)をご参照ください．</p><p>無料分の額は毎月末に、その月の大学全体の使用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
+  <Fragment slot="solution"><p>ある月の利用料のうち無料となる分の金額で, 月末に全ユーザの利用者を元に計算されます．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には，およそ半期毎に各月の超過分・余剰分を集計して半期ごとの通算の超過額を計算します．この通算した超過額を情報基盤センターより請求する予定です．詳細は [UTokyo Azure 説明会資料](/events/2025-02-21/slides/3_application_guidelines.pdf)をご参照ください．</p><p>無料分の額は毎月末に、その月の大学全体の使用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料保証枠とはなんですか</Fragment>
-  <Fragment slot="solution"><p>毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．</p><p>そこで月初めに、この額までは必ず無料になるという最低保証額を公表しています．これが無料保証枠です．月末に計算する無料分よりは少ない額になります．</p><p>無料保証枠は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
+  <Fragment slot="solution"><p>毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．</p><p>そこで月初めに、この額までは必ず無料になるという最低保証額を公表しています．これが無料保証枠です．月末に計算する無料分よりは少ない額になります．</p><p>無料保証枠は [UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -136,7 +136,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">複数人でサブスクリプションを共有していて，自分が消費した分を知りたい</Fragment>
-  <Fragment slot="solution">消費量を確認できる最小単位はサブスクリプションまでで，ユーザーアカウント単位では確認できません．ただし，特定のリソースを自分だけが使っているという場合は，リソース単位での確認は可能です．詳細は`FAQ：特定のリソースのギフトクレジット消費量を知りたい`をご参照ください．</Fragment>
+  <Fragment slot="solution">消費量を確認できる最小単位はサブスクリプションまでで，ユーザーアカウント単位では確認できません．ただし，特定のリソースを自分だけが使っているという場合は，リソース単位での確認は可能です．詳細はFAQ：[**特定のリソースのギフトクレジット消費量を知りたい**](/research_computing/utokyo_azure/faq/#:~:text=%E3%83%98%E3%83%AB%E3%83%97%EF%BC%9A%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E3%82%AE%E3%83%95%E3%83%88%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E6%B6%88%E8%B2%BB%E9%87%8F%E3%82%92%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84)をご参照ください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
