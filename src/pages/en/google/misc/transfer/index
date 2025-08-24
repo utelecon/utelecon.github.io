@@ -33,24 +33,25 @@ For information on how to back up other types of data, please refer to "[Downloa
    ![](./01.png){:.small}
 1.Please open “[Transfer your content](https://takeout.google.com/transfer)" page.
 1. Enter the Google account to which you want to transfer the data, then push "SEND CODE".
-
+   ![](./02.png){:.small}
 ### Step 2: Obtain the confirmation code.
 {:#receive-code}
 
 1. An email like the following will be sent to the Google account that you want to transfer the data to. Please check that the Google account which has the data you want to copy (ECCS Cloud Email) is correct, then click "Get confirmation code".
+   ![](./03.png){:.small}
 1. Please make a note of the confirmation code (in the example below, it appears as 5**5E**1).
-   ![](./05.png){:.small}
+   ![](./04.png){:.small}
 
 ### Step 3: Enter the confirmation code and start the data transfer.
 {:#transfer}
 
 1. Please open the screen for “[Step 1: Send a confirmation code to the account where you want to copy your content](#send-code)”.
 1. Enter the verification code obtained in “[Step 2: Obtain the confirmation code](#receive-code)”, then click "VERIFY".
-   ![](./06.png){:.small}
+   ![](./05.png){:.small}
 1. Select the content you want to copy, then click "START TRANSFER".
-   ![](./07.png){:.small}
+   ![](./06.png){:.small}
 1. The transfer will start.
-   ![](./08.png){:.small}
+   ![](./07.png){:.small}
    - It may take some time for the transfer to be completed.
    - You can check the progress in the VIEW HISTORY section.
-     ![](./09.png){:.small}
+     ![](./08.png){:.small}
