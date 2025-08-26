@@ -1,7 +1,5 @@
 ---
 title: (Zoom Student/Faculty Common Edition) Set up a virtual background to hide the background from the camera
-redirect_from:
-  - /zoom/how/common/virtual_background
 breadcrumb:
   title: Zoom's virtual background feature, etc
 ---
@@ -106,6 +104,7 @@ When used appropriately in closed areas such as seminars and clubs, both functio
 
      * Click on the “+” to create your original avatar.
   ![](images/add_original_avatar.png)
+
 
 
 
