@@ -17,7 +17,7 @@ redirect_from:
 
 ## 基本的な性能要件
 - OS：Windows または macOS の最新バージョン（Windows 11 または macOS 15） 
-- CPU：Intel Core i5、 AMD Ryzen7、 Qualcom Snapdragon X 相当または Apple M3 相当以上 
+- CPU：Intel Core i5、 AMD Ryzen7、 Qualcomm Snapdragon X 相当または Apple M3 相当以上 
 - メモリ：16GB 以上 
 - 記憶装置 (ストレージ)：SSD 256GB以上 
 - ネットワーク：無線LAN Wi-Fi 6 以上対応 (IEEE802.11ax 以上対応) 
