@@ -45,10 +45,6 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
     2. Tap "Add another account" to add your Google account.
     3. You will be prompted to enter your email address and password, so enter your ECCS Cloud Email email address and password that you set up above.
 
-### Q. I forgot my password / I cannot change my password. What can I do?
-
-* See [ECCS Cloud Email – “Initial Setup Procedures”](/en/google/#initial-setup-procedures), and follow the instructions in “Task: Set your password and email address”.
-
 ### Q. What is the difference among `10-digits-ID@utac`, `10-digits-ID@g.ecc`, and `xxxx@g.ecc` (email address named after your choice) email addresses?
 * `10-digits-ID@utac.u-tokyo.ac.jp`(e.g. `1234567890@utac.u-tokyo.ac.jp`)
   * Although it resembles an email address, it cannot be used for sending emails. However, the system may still send notifications or other messages to this address. For instance, regarding Zoom or UTokyo Slack, system-generated emails sent to this address can be received in each individual’s mailbox of ECCS Cloud Email.
