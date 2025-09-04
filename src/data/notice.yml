@@ -21,6 +21,11 @@
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 
 -
+  date: 2025-09-05
+  content:
+    ja: "[Windows10や一部のOfficeアプリのサポートが終了します（10月14日）](/notice/2025/1014-win10eol/)"
+  important: true
+-
   date: 2025-09-03
   content:
     ja: "東京大学の情報システムとそのサポート体制について説明する資料 [「大学生活に必要な情報システムの準備について（学生向け）」 (PDF)](/notice/2025/getting_ready_for_ICT_systems_students_2025a.pdf) と [「東京大学における情報システムの準備について（教員向け）」 (PDF)](/notice/2025/getting_ready_for_ICT_systems_faculty_members_2025a.pdf) の2025年度Aセメスター版を公開しました．"
