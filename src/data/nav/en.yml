@@ -6,9 +6,13 @@
     -
       name: "For New Students"
       url: "/en/oc/"
+      sitemap:
+        section: true
     -
       name: "For Faculty Members"
       url: "/en/faculty_members/"
+      sitemap:
+        section: true
     -
       name: "For Staff Members"
       url: "/en/staff_members/"
@@ -20,6 +24,8 @@
       url: "/en/support/"
 -
   name: "ICT Systems at UTokyo"
+  sitemap:
+    section: true
   contents:
     -
       name: "UTokyo Account"
@@ -60,9 +66,13 @@
     -
       name: "UTokyo Azure"
       url: "/en/research_computing/utokyo_azure/"
+      sitemap:
+        parent: "/en/research_computing/"
     -
       name: "Full List"
       url: "/en/systems/"
+      sitemap:
+        section: false
     # -
     #   name: "List of all systems"
     #   url: "/en/systems/"
@@ -72,6 +82,8 @@
     -
       name: "Effective Use of Online Resources"
       url: "/en/online/"
+      sitemap:
+        section: true
     -
       name: "Search Online Resources by Tool"
       url: "/en/online/tools/"
@@ -81,12 +93,21 @@
     -
       name: "Copyright Handling on Creating Materials"
       url: "/en/articles/copyright/"
+    -
+      name: "Articles"
+      url: "/en/articles/"
+      hidden: true
+      sitemap:
+        section: false
+        parent: "/en/online/"
 -
   name: "Guides / Events"
   contents:
     -
       name: "Notice"
       url: "/en/notice/"
+      sitemap:
+        section: true
     -
       name: "Information Security Portal Site"
       url: "https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Home.aspx"
@@ -102,6 +123,8 @@
     -
       name: "Orientations / Seminars"
       url: "/en/events/"
+      sitemap:
+        section: true
     # -
     #   name: "Community of Online Education Practices"
     #   url: "/en/events/2020-luncheon/"
