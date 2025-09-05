@@ -15,13 +15,13 @@ This page introduces the basic operation procedures for the Windows Zoom applica
 ### Setting up before a meeting
 
 1. Launch the Zoom application, open “Settings” and select “Background & effects”.
-![](images/open_settings.png)
+![](images/open_settings.png){:.border}
 
 2. Select the virtual background of your choice. (If you select “None”, no virtual background will be set. Select “Blur” to simply blur the background instead of replacing it with an image or a movie).
-   ![](images/open_settings_of_virtual_screen.png)
+   ![](images/open_settings_of_virtual_screen.png){:.border}
 
    * Select the “+” to upload an original image as a virtual background.
-     ![](images/add_virtual_screen.png)
+     ![](images/add_virtual_screen.png){:.border}
 
 ### Enabling virtual background during a meeting
 
@@ -33,9 +33,9 @@ This page introduces the basic operation procedures for the Windows Zoom applica
 
 3. 	Select the virtual background of your choice. (If you select “None”, no virtual background will be set.)
      * Select the “+” to upload an original image as a virtual background.
-    ![](images/open_settings_of_virtual_screen.png)
+    ![](images/open_settings_of_virtual_screen.png){:.border}
       <br/>
-    ![](images/add_virtual_screen.png)
+    ![](images/add_virtual_screen.png){:.border}
 
 ## Tips for setting up
 
@@ -56,10 +56,10 @@ When used appropriately in closed areas such as seminars and clubs, both functio
 #### Setting up before a meeting
 
 1. 	Launch the Zoom application, open “Settings”, and select “Background & effects”.
-![](images/open_settings.png)
+![](images/open_settings.png){:.border}
 
 2. Select “Video filters”.
-   ![](images/open_settings_of_video_filter.png)
+   ![](images/open_settings_of_video_filter.png){:.border}
 
 3. Select the video filter of your choice. (Unlike virtual backgrounds, the video filters do not allow you to upload original images, etc.)
 
@@ -78,18 +78,18 @@ When used appropriately in closed areas such as seminars and clubs, both functio
 #### Setting up before a meeting
 
 1. Launch the Zoom application, open “Settings”, and select “Background & effects”.
-![](images/open_settings.png)
+![](images/open_settings.png){:.border}
 
 2. Select “Avatars”.
-   ![](images/open_settings_of_avatar.png)
+   ![](images/open_settings_of_avatar.png){:.border}
 
 3. Select the avatar of your choice. (When an avatar is set, the camera background will disappear, and only the avatar will be displayed. If a virtual background is set, the set image will be displayed behind the avatar.)
-   ![](images/select_avatar.png)
+   ![](images/select_avatar.png){:.border}
    ※ When the virtual background is set
-    ![](images/avatar_with_virtual_screen.png)
+    ![](images/avatar_with_virtual_screen.png){:.border}
 
    * Click on the “+” to create your original avatar.
-   ![](images/add_original_avatar.png)
+   ![](images/add_original_avatar.png){:.border}
 
 #### Enabling the avatar during a meeting
 
@@ -100,10 +100,11 @@ When used appropriately in closed areas such as seminars and clubs, both functio
     ![](images/select_settings_of_avatar.png)
 
 3. 	Select the avatar of your choice. (When an avatar is set, the camera background will disappear, and only the avatar will be displayed. If a virtual background has been set, the image will be displayed behind the avatar.)
-    ![](images/select_avatar.png)
+    ![](images/select_avatar.png){:.border}
 
      * Click on the “+” to create your original avatar.
-  ![](images/add_original_avatar.png)
+  ![](images/add_original_avatar.png){:.border}
+
 
 
 
