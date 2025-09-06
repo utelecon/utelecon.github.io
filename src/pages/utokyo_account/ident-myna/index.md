@@ -38,10 +38,12 @@ UTokyo Account 本人確認サービス（以下「本人確認サービス」�
 事前連携の手続きの際，実際に本人確認に利用する際のいずれの場面でも，以下のものが必要です．
 
 - 本人のマイナンバーカード[^2]
-- マイナンバーカードを読み取れるスマートフォン（iOS / Android）
+- マイナンバーカードを読み取れるスマートフォン（iOS / Android）[^5]
 - マイナンバーカードを受け取る際に登録した数字4桁の暗証番号（[利用者証明用電子証明書](https://faq.myna.go.jp/faq/show/3494)，[券面事項入力補助用](https://faq.myna.go.jp/faq/show/2385)）
 
 [^2]: 2025年9月現在，物理的なカードのみ利用可能です．いわゆる[スマートフォンのマイナンバーカード](https://www.digital.go.jp/policies/mynumber/smartphone-certification)（Androidのスマホ用電子証明書やiPhoneのマイナンバーカード）は利用できませんが，デジタル認証アプリが対応すれば利用できるようになる見込みです．
+
+[^5]: 利用可能なスマートフォンのリストは<https://www.jpki.go.jp/prepare/pdf/nfclist.pdf>にあります．
 
 ### 取得する情報について
 
