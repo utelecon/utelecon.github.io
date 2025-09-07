@@ -18,7 +18,9 @@ redirect_from: /utokyo_account/mfa/reregister_and_terminate
 故障や機種変更などで本人確認方法が使えなくなった場合，登録済みの他の本人確認方法が使える状態であれば，それを使ってサインインすることができますので，まずはそれを試してください．
 
 サインイン時（パスワード入力後）に表示される本人確認を行う画面で，「問題がありますか? 別の方法でサインインする」または「別の確認オプションを使用する」，あるいは「Microsoft Authenticator アプリを現在使用できません」というリンクを探して押してください．
-<img src="initial/signin_with_another_method.png">
+
+![](../initial/signin_with_another_method.png)
+
 デフォルト（自動的に選ばれるもの）以外のものも含め，設定済みの本人確認方法が一覧で表示されます．
 
 - この中に使える状態の本人確認方法があれば，それを選んでその方法で本人確認を行うことでUTokyo Accountにサインインすることができますので，本人確認方法の再登録手続きは不要です．
@@ -76,7 +78,7 @@ UTokyo Account本人確認サービスを利用すると，曜日や時間帯に
 
 1. [/security-info](https://mysignins.microsoft.com/security-info)を開いてください．
 1. サインインを要求されるので，IDに自分のUTokyo AccountのID，パスワードに先ほど発行された一時アクセスパスを入力し，サインインしてください．![][image6]![][image7]
-1. 「[UTokyo Account多要素認証の初期設定手順](/utokyo_account/mfa/initial/)」ページの初期設定手順にある「[手順2：追加の本人確認方法を登録する](/utokyo_account/mfa/initial/#alternative)」の手順で本人確認方法を登録し直してください．
+1. 「[UTokyo Account多要素認証の初期設定手順](../initial/)」ページの初期設定手順にある「[手順2：追加の本人確認方法を登録する](../initial/#alternative)」の手順で本人確認方法を登録し直してください．
 1. 登録した本人確認方法を使ってUTokyo Accountにサインインできるようになります．
 
 なおこの際，本人確認方法が使えない状態が再び生じた場合にサインインできない事態にならないよう，**複数の本人確認方法を登録しておくことを強く推奨**します．
