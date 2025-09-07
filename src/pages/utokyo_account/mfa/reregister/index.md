@@ -64,20 +64,23 @@ UTokyo Account本人確認サービスを利用すると，曜日や時間帯に
 1. 画面に表示された手順に沿って，マイナンバーカードで本人確認を行なってください．
 1. 「UTokyo Accountの多要素認証の再設定、パスワードのリセットを申請する」を押してください．
 
-![][image2]
+    ![](./myna-mfa-reset-button.jpg){:.medium}
 
 1. 「発行したいものを選んでください」欄から「一時アクセスパス（多要素認証の設定）」を選択し，その下の「パスワードを発行する」を押してください．
 
-![][image3]
-
-![][image4]
+    ![](./myna-issue-temp-access-pass-select.jpg){:.medium}
+    ![](./myna-issue-temp-access-pass-button.jpg){:.medium}
 
 1. 一時アクセスパスが発行され，「パスワード」のところに表示されるので，コピーしてください．
 
-![][image5]
+    ![](./myna-copy-pass.jpg){:.medium}
 
 1. [/security-info](https://mysignins.microsoft.com/security-info)を開いてください．
-1. サインインを要求されるので，IDに自分のUTokyo AccountのID，パスワードに先ほど発行された一時アクセスパスを入力し，サインインしてください．![][image6]![][image7]
+1. サインインを要求されるので，IDに自分のUTokyo AccountのID，パスワードに先ほど発行された一時アクセスパスを入力し，サインインしてください．
+
+    ![](./myna-utac-login.png){:.small}
+    ![](./myna-enter-temp-access-pass.png){:.small}
+
 1. 「[UTokyo Account多要素認証の初期設定手順](../initial/)」ページの初期設定手順にある「[手順2：追加の本人確認方法を登録する](../initial/#alternative)」の手順で本人確認方法を登録し直してください．
 1. 登録した本人確認方法を使ってUTokyo Accountにサインインできるようになります．
 
