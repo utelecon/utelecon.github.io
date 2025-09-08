@@ -56,7 +56,7 @@
   date: 2025-06-20
   content:
     ja: "[LTI連携機能を用いたUTOLからのUTokyo Slackの利用について](/notice/2025/0620-utol-lti-slack)"
-    en: "[How to use UTOL and UTokyo Slack through LTI integration](/notice/2025/0620-utol-lti-slack) (in Japanese)
+    en: "[How to use UTOL and UTokyo Slack through LTI integration](/notice/2025/0620-utol-lti-slack) (in Japanese)"
 -
    date: 2025-05-14
    content:
@@ -103,7 +103,7 @@
   date: 2025-02-14
   content:
     ja: "3/12 15:00から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2025-03-12/)」を開催いたします．"
-        en: "On September 10, an information session titled **\"[Information Session on ICT Systems and Tools for UTokyo Members]((/events/2025-03-12/))\"** will be held at 15:00. This session will be **conducted in Japanese**."
+    en: "On September 10, an information session titled **\"[Information Session on ICT Systems and Tools for UTokyo Members]((/events/2025-03-12/))\"** will be held at 15:00. This session will be **conducted in Japanese**."
   important: true
 -
   date: 2025-02-03
