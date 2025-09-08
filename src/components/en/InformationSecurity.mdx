@@ -1,3 +1,5 @@
+import Help from "@components/utils/Help.astro";
+
 {/**
   * @typedef {object} Props
   * @property {import("@components/types").Variant} variant
@@ -12,3 +14,8 @@ export const recommendations = {
 UTokyo is conducting various initiatives for the improvement of information security, all of which are detailed on "[Information Security at UTokyo](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Home.aspx)" page. A prime example of these initiatives is the implementation of the annual Information Security Education for all UTokyo Account holders. {recommendations[props.variant]}
 
 For details about {props.variant === "individual" && "the timing and"} the procedure of the course, kindly refer to [the Information Security Education page](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx). Please note that some systems will be unavailable until course completion.
+
+<Help lang="en" support={true} >
+  - **If you see an error message stating "You don’t have access to this" or 「これに対するアクセス権がありません」 (Error Code 53003) even after changing your initial password:**
+  It may take some time (up to 30 minutes) after changing your password before you can actually use the system. Please wait a moment and try the operation again.
+</Help>
