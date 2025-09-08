@@ -30,28 +30,31 @@
   date: 2025-09-03
   content:
     ja: "[PC端末初期セットアップガイド (PDF)](/notice/2025/device_initial_setup_guide_2025a.pdf) を更新しました．"
+    en: "[PC Initial Setup Guide (PDF)](/notice/2025/device_initial_setup_guide_2025a.pdf) has updated.(in Japanese)"
 - 
   date: 2025-08-21 
   content:
     ja: "[2025年度Aセメスター科目のUTOL履修確定日の取り扱いについて](/notice/2025/0821-utol-2025a-rikaku/)"
     en: "[Handling of the 2025 Academic Year A Semester Courses on UTOL](/en/notice/2025/0821-utol-2025a-rikaku/)"
 -
-  date: 2025-08-21
-  content:
     ja: "9/10 15:00から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2025-09-10/)」を開催いたします．"
+    en: "On September 10, an information session titled **\"[Information Session on ICT Systems and Tools for UTokyo Members]((/events/2025-09-10/))\"** will be held at 15:00. This session will be **conducted in Japanese**."
   important: true
 -
   date: 2025-08-08
   content:
     ja: "9/17 15:00から[教育用計算機システム(ECCS)のシステム利用説明会を開催いたします](/notice/2025/0917-eccs-seminar)"
+    en: "On September 17, an information session titled **\"[Use of Information Session on Education Computer Systems (ECCS)]((/notice/2025/0917-eccs-seminar))\"** will be held at 15:00. This session will be **conducted in Japanese**."
 -
   date: 2025-07-25
   content:
     ja: "[2025年度Aセメスター「コモンサポーター」募集のお知らせ](/notice/2025/0725-cs) （8月7日13時締切）"
+    en: "[job opportunities:AY2025 A Semester common suppoters](/notice/2025/0725-cs) （close at August 7, 13:00）(in Japanese)"
 -
   date: 2025-06-20
   content:
     ja: "[LTI連携機能を用いたUTOLからのUTokyo Slackの利用について](/notice/2025/0620-utol-lti-slack)"
+    en: "[How to use UTOL and UTokyo Slack through LTI integration](/notice/2025/0620-utol-lti-slack) (in Japanese)
 -
    date: 2025-05-14
    content:
@@ -98,6 +101,7 @@
   date: 2025-02-14
   content:
     ja: "3/12 15:00から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2025-03-12/)」を開催いたします．"
+        en: "On September 10, an information session titled **\"[Information Session on ICT Systems and Tools for UTokyo Members]((/events/2025-03-12/))\"** will be held at 15:00. This session will be **conducted in Japanese**."
   important: true
 -
   date: 2025-02-03
