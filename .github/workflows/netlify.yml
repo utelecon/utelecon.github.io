@@ -150,10 +150,10 @@ jobs:
           OLD_RSS: "rss-old/rss.xml"
           NEW_RSS: "rss-new/rss.xml"
           DRY_RUN: true
-          TWITTER_APIKEY: ""
-          TWITTER_APIKEY_SECRET: ""
-          TWITTER_ACCESS_TOKEN: ""
-          TWITTER_ACCESS_TOKEN_SECRET: ""
+          TWITTER_APIKEY: "dummy value"
+          TWITTER_APIKEY_SECRET: "dummy value"
+          TWITTER_ACCESS_TOKEN: "dummy value"
+          TWITTER_ACCESS_TOKEN_SECRET: "dummy value"
           POST_LIMIT: 5
       - name: Twitter (English)
         uses: utelecon/rssdiff-to-twitter@b924d6941d02a8f378b1adb393e41da93727a6d6
@@ -161,8 +161,8 @@ jobs:
           OLD_RSS: "rss-old/rss-en.xml"
           NEW_RSS: "rss-new/rss-en.xml"
           DRY_RUN: true
-          TWITTER_APIKEY: ""
-          TWITTER_APIKEY_SECRET: ""
-          TWITTER_ACCESS_TOKEN: ""
-          TWITTER_ACCESS_TOKEN_SECRET: ""
+          TWITTER_APIKEY: "dummy value"
+          TWITTER_APIKEY_SECRET: "dummy value"
+          TWITTER_ACCESS_TOKEN: "dummy value"
+          TWITTER_ACCESS_TOKEN_SECRET: "dummy value"
           POST_LIMIT: 5
