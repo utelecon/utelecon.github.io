@@ -32,7 +32,10 @@ export async function rss({ title, description, url, lang }: RssParams) {
     const link =
       a && toText(a) === title
         ? (a.properties.href as string)
-        : `/notice/#${notice.id}`;
+        : {
+            ja: `/notice/#${notice.id}`,
+            en: `/en/notice/#${notice.id}`,
+          }[lang];
     const pubDate = new Date(notice.date);
     // 03:00 UTC (12:00 JST) of the day in order for rss-to-twitter.yml to work correctly
     pubDate.setUTCHours(3);
