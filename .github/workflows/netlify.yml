@@ -105,3 +105,64 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         timeout-minutes: 10
+
+      - name: Collect RSS Artifact
+        run: |
+          cp dist/notice/rss.xml rss.xml
+          cp dist/en/notice/rss.xml rss-en.xml
+      - name: Upload RSS Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: |
+            rss.xml
+            rss-en.xml
+          name: rss-new
+
+  fetch-rss:
+    runs-on: ubuntu-latest
+    needs: pr_number
+    steps:
+      - run: wget -O rss.xml https://utelecon.adm.u-tokyo.ac.jp/notice/rss.xml
+      - run: wget -O rss-en.xml https://utelecon.adm.u-tokyo.ac.jp/en/notice/rss.xml
+      - uses: actions/upload-artifact@v4
+        with:
+          path: |
+            rss.xml
+            rss-en.xml
+          name: rss-old
+
+  twitter:
+    needs: [fetch-rss, build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: rss-old
+          path: rss-old
+      - uses: actions/download-artifact@v4
+        with:
+          name: rss-new
+          path: rss-new
+
+      - name: Twitter
+        uses: utelecon/rssdiff-to-twitter@b924d6941d02a8f378b1adb393e41da93727a6d6
+        with:
+          OLD_RSS: "rss-old/rss.xml"
+          NEW_RSS: "rss-new/rss.xml"
+          DRY_RUN: true
+          TWITTER_APIKEY: ""
+          TWITTER_APIKEY_SECRET: ""
+          TWITTER_ACCESS_TOKEN: ""
+          TWITTER_ACCESS_TOKEN_SECRET: ""
+          POST_LIMIT: 5
+      - name: Twitter (English)
+        uses: utelecon/rssdiff-to-twitter@b924d6941d02a8f378b1adb393e41da93727a6d6
+        with:
+          OLD_RSS: "rss-old/rss-en.xml"
+          NEW_RSS: "rss-new/rss-en.xml"
+          DRY_RUN: true
+          TWITTER_APIKEY: ""
+          TWITTER_APIKEY_SECRET: ""
+          TWITTER_ACCESS_TOKEN: ""
+          TWITTER_ACCESS_TOKEN_SECRET: ""
+          POST_LIMIT: 5
