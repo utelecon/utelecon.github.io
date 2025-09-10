@@ -2,7 +2,6 @@
 title: Reregistering Verification Method for UTokyo Accounts
 breadcrumb:
   title: Reregistering Verification Method
-redirect_from: /en/utokyo_account/mfa/reregister_and_terminate
 ---
 
 This page describes the following procedures regarding [UTokyo Account Multi-Factor Authentication (MFA)](../): “**Reregistering Verification Method**” for MFA. 
