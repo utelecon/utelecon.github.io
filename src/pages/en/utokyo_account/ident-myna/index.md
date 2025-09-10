@@ -24,7 +24,7 @@ Furthermore, your UTokyo Account will be revoked and you will be unable to sign 
 
 ### Requirements
 
-**To use the Identity Verification Service, you must complete the "[pre-link](#link)" procedure in advance while you are still able to sign in to your UTokyo Account**．This will link the authentication information on your My Number Card to your UTokyo Account[^4], making it available for identity verification.
+**To use the Identity Verification Service, you must complete the "[pre-link](#link)" procedure in advance while you are still able to sign in to your UTokyo Account**. This will link the authentication information on your My Number Card to your UTokyo Account[^4], making it available for identity verification.
 
 [^4]: This link remains valid even after renewing your My Number Card or changing your smartphone model. For details, please refer to the [Pre-link Procedure](#link).
 
