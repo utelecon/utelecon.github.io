@@ -121,3 +121,10 @@ UTokyo Microsoft Licenseで提供されるシステムを利用するには，UT
 {:#shared_pc}
 
 特定の個人が専有して利用するPCではなく複数人で共用するPCでOfficeアプリを利用したい場合など，UTokyo Microsoft Licenseでの通常のOfficeの提供形態でカバーできない利用に対応するために運用しているOfficeおよびWindowsのライセンスです．主に学科・専攻や研究室等で整備した共用PCでの利用を想定しています．利用手順などの説明は**[共用PC等向けMicrosoftライセンス](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Microsoft-license-for-shared-PC.aspx)**のページをご覧ください（閲覧にはUTokyo Accountでのサインインが必要です）．
+
+### Azure for Students
+{:#a4s}
+
+Microsoftの学生向けの開発者用ソフトウェアライセンスです．詳しい内容については，Microsoftによる[Azure for Studentsの説明ページ](https://azure.microsoft.com/ja-jp/free/students/)を参照してください．
+
+このページの「無料で始める」ボタンを押すと，（UTokyo Accountでサインイン済みの場合を除き，）Microsoftアカウントでサインインする画面が表示されます．ここにUTokyo Accountを入力してサインインすると，東京大学の学生としての資格でAzure for Studentsを利用できます．
