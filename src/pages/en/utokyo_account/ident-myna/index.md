@@ -10,9 +10,9 @@ The UTokyo Account Identity Verification Service (hereinafter referred to as the
 
 Specifically, it can be used in the following situations:
 
-- When you fail to sign in to your UTokyo Account and want to reset it (e.g., when you have forgotten your password or need to reconfigure multi-factor authentication).
-- When you need to retrieve cloud data after leaving the university (due to graduation, resignation, etc.) that you forgot to back up beforehand (i.e., when using the cloud data salvage service).
-- When joining alumni services after graduation.
+- When you fail to sign in to your UTokyo Account and want to reset it (e.g., when you have forgotten your password or need to reconfigure multi-factor authentication)
+- When you need to retrieve cloud data after leaving the university (due to graduation, resignation, etc.) that you forgot to back up beforehand (i.e., when using the cloud data salvage service)
+- When joining alumni services after graduation (As of September 2025, this service is under preparation.)
 
 ### Advantages
 
@@ -34,7 +34,7 @@ The following items are required for both the pre-link procedure and for the act
 - A smartphone (iOS / Android) capable of reading the My Number Card[^5]
 - The 4-digit PIN (personal identification number) you registered when you received your My Number Card ([PIN for User Certificate for Digital Signature](https://faq.myna.go.jp/faq/show/3494)(in Japanese), [PIN for Card Info Input Support](https://faq.myna.go.jp/faq/show/2385)(in Japanese))
 
-[^2]: As of September 2025, only physical cards are supported. So-called [My Number Card on smartphone](https://www.digital.go.jp/policies/mynumber/smartphone-certification)(in Japanese) (digital certificates for Android or My Number Card on iPhone) cannot be used, but they are expected to become available once the digital identification app supports them.
+[^2]: As of September 2025, only physical cards are supported. So-called [My Number Card on smartphone](https://www.digital.go.jp/en/policies/mynumber/smartphone-certification) (digital certificates for Android or My Number Card on iPhone) cannot be used, but they are expected to become available once the digital identification app supports them.
 
 [^5]: A list of compatible smartphones is available at <https://www.jpki.go.jp/prepare/pdf/nfclist.pdf> (in Japanese).
 
@@ -42,10 +42,10 @@ The following items are required for both the pre-link procedure and for the act
 
 The Identity Verification Service uses your My Number Card, but it only acquires and retains the following information:
 
-- An ID that is valid only within the Identity Verification Service to identify the user (called "linkage ID" in the service. Technically, it is a [PPID: Pseudonymous Personal Identifier](https://www.digital.go.jp/policies/mynumber/local-government/mykey-platform#guidance2)(in Japanese)).
+- An ID that is valid only within the Identity Verification Service to identify the user (called "linkage ID" in the service. Technically, it is a [PPID: Pairwise Pseudonymous Identifier](https://www.digital.go.jp/en/policies/mynumber/local-government/mykey-platform#guidance2).)
   - This ID can only be used for the purpose of "determining if the user is the same person," and it is designed so that personal information such as the My Number cannot be obtained using it.
   - Furthermore, even for the same person, a different ID is issued for services other than the Identity Verification Service, so it is not possible to match users across services using this ID.
-- The name printed on the card face.
+- The name printed on the card face
 
 Therefore, **neither the My Number itself nor PIN is stored in UTokyo's systems**[^3]. In addition, personal information other than the name (such as address, date of birth, gender, etc.) is not acquired. It also does not create a copy of your My Number Card on your smartphone.
 
