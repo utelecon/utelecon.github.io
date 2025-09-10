@@ -2,6 +2,10 @@
 title: "UTokyo Microsoft Azure Dev Tools for Teaching"
 ---
 
+<b class="box">
+Microsoft社のサービス変更により，2025年7月現在，提供は終了しています．
+</b>
+
 ## 概要
 
 「Azure Dev Tools for Teaching」は，Microsoft社の開発者用ソフトウェアが教育機関向けに提供されているものです．東京大学でも，[UTokyo Microsoft License](/microsoft/)の契約に付帯して利用できるようになっています．Microsoft社の利用規約に従って利用してください．
