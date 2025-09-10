@@ -6,7 +6,7 @@ breadcrumb:
 
 ## Overview
 
-The UTokyo Account Identity Verification Service (hereinafter referred to as the "Identity Verification Service") is a system that allows you to verify your identity online using your My Number Card that has been pre-linked with your UTokyo Account, in case you are unable to sign in to your UTokyo Account.
+The UTokyo Account Identity Verification Service (hereinafter referred to as the "Identity Verification Service") is a system that allows you to verify your identity online using your [My Number Card (Individual Number Card of Japan)](https://www.digital.go.jp/en/policies/mynumber) that has been pre-linked with your UTokyo Account, in case you are unable to sign in to your UTokyo Account.
 
 Specifically, it can be used in the following situations:
 
