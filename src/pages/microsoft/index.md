@@ -110,21 +110,21 @@ UTokyo Microsoft Licenseで提供されるシステムを利用するには，UT
 ## Microsoftが提供するその他のライセンス
 {:#related_licenses}
 
-以下では，UTokyo Microsoft License以外の，学内で利用可能なMicrosoftのシステムに関わるライセンスを紹介しています．
+以下では，UTokyo Microsoft License以外の，学内で利用可能なMicrosoftのシステムに関わるライセンスを紹介します．
 
-### UTokyo Microsoft Windows 10 for students
-{:#windows}
+なお，次のものは以前は提供されていましたが，**現在は提供が終了しており，利用できません**．
+- [UTokyo Microsoft Windows 10 for students](windows_education_for_students/)（学生に限り，WindowsをEducationエディションにアップグレードするライセンス）
+- [UTokyo Microsoft Azure Dev Tools for Teaching](adt4t/)（Microsoftの教育機関向けの開発者用ソフトウェアライセンス）
 
-**学生のみが利用できます**
-
-WindowsをEducationエディションにアップグレードするライセンスです．利用手順などの説明は**[Windows Education for students](windows_education_for_students/)**のページをご覧ください．
 
 ### 共用PC等向けMicrosoftライセンス
 {:#shared_pc}
 
 特定の個人が専有して利用するPCではなく複数人で共用するPCでOfficeアプリを利用したい場合など，UTokyo Microsoft Licenseでの通常のOfficeの提供形態でカバーできない利用に対応するために運用しているOfficeおよびWindowsのライセンスです．主に学科・専攻や研究室等で整備した共用PCでの利用を想定しています．利用手順などの説明は**[共用PC等向けMicrosoftライセンス](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Microsoft-license-for-shared-PC.aspx)**のページをご覧ください（閲覧にはUTokyo Accountでのサインインが必要です）．
 
-### UTokyo Microsoft Azure Dev Tools for Teaching
-{:#adt4t}
+### Azure for Students
+{:#a4s}
 
-Microsoftの教育機関向けの開発者用ソフトウェアライセンスです．利用手順などの説明は**[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t/)**のページをご覧ください．
+Microsoftの学生向けの開発者用ソフトウェアライセンスです．詳しい内容については，Microsoftによる[Azure for Studentsの説明ページ](https://azure.microsoft.com/ja-jp/free/students/)を参照してください．
+
+このページの「無料で始める」ボタンを押すと，（UTokyo Accountでサインイン済みの場合を除き，）Microsoftアカウントでサインインする画面が表示されます．ここにUTokyo Accountを入力してサインインすると，東京大学の学生としての資格でAzure for Studentsを利用できます．
