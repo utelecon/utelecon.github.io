@@ -63,7 +63,7 @@ Please follow the steps below to perform the pre-link.
 In principle, the pre-link procedure only needs to be performed once and does not need to be done again when renewing your card or changing your smartphone model, unless you have deactivated the service.
 
 - **In case of renewal or re-issuance of My Number Card, or renewal of the digital certificate**: You do not need to perform the pre-link again.
-- **In case of changing your smartphone model**: You do not need to perform the pre-link again. However, if the Digital Authentication App is not installed on your new smartphone, you will need to install the [Digital Authentication App](https://services.digital.go.jp/auth-and-sign/)(in Japanese) and complete the [user registration for the Digital Authentication App](https://services.digital.go.jp/auth-and-sign/start-guide/)(in Japanese).
+- **In case of changing your smartphone model**: You do not need to perform the pre-link again. However, if the Digital Identification App is not installed on your new smartphone, you will need to install the [Digital Identification App](https://services.digital.go.jp/auth-and-sign/)(in Japanese) and complete the [user registration for the Digital Identification App](https://services.digital.go.jp/auth-and-sign/start-guide/)(in Japanese).
 - **If your digital certificate has been revoked due to expiration, loss, etc., and you have had it reissued, or if you have changed your My Number**: This is currently under investigation as of September 2025, but it is possible that the link will become invalid. Therefore, please perform the pre-link again just in case.
 
 ## Usage Procedures (Identity Verification Procedures)
