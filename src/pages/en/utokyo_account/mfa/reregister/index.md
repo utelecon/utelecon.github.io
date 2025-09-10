@@ -59,7 +59,7 @@ To use this service, you must meet all of the following conditions:
 
 4. From the "Select the items you would like to issue" field, select "Temporary access password (re-set MFA)" and then click "Issue a password" below it.
 
-![](myna-issue-temp-access-pass-select.png){:.medium}
+![](myna-issue-temp-access-pass-select.jpg){:.medium}
 ![](myna-issue-temp-access-pass-button.png){:.medium}
 
 5. A temporary access pass (TAP) will be issued and displayed in the "Password" field. Please copy it.
