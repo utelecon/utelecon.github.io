@@ -56,16 +56,16 @@ To use this service, you must meet all of the following conditions:
 2. Follow the on-screen instructions to verify your identity with your My Number Card.
 3. Click "Request to reset multi-factor authentication and password for your UTokyo Account"
 
-![](./myna-mfa-reset-button.jpg){:.medium}
+![](./myna-mfa-reset-button.png){:.medium}
 
 4. From the "Select the items you would like to issue" field, select "Temporary access password (re-set MFA)" and then click "Issue a password" below it.
 
-![](./myna-issue-temp-access-pass-select.jpg){:.medium}
-![](./myna-issue-temp-access-pass-button.jpg){:.medium}
+![](./myna-issue-temp-access-pass-select.png){:.medium}
+![](./myna-issue-temp-access-pass-button.png){:.medium}
 
 5. A temporary access pass (TAP) will be issued and displayed in the "Password" field. Please copy it.
 
-![](./myna-copy-pass.jpg){:.medium}
+![](./myna-copy-pass.png){:.medium}
 
 6. Open "Security Info" from the link below.
 [Security Info](https://mysignins.microsoft.com/security-info/){:.box.center}
@@ -80,19 +80,18 @@ To use this service, you must meet all of the following conditions:
 
 At this time, we strongly recommend registering multiple verification methods to avoid being locked out again if one method becomes unusable.
 
-1. Please apply for reregistration following the procedures in “[Application](#application-method)”.
-1. The MFA verification method will be initialized for reregistration procedures. A notification email will be sent after a while.
-1. After you received the Email, follow the instructions in “[Step 1: Set Up the First Verification Method](../initial/#first)” and “[Step 2: Add Alternative Verification Method](../initial/#alternative)” in the “[Initial Setup Procedures for Multi-Factor Authentication (MFA) for UTokyo Accounts](../initial/)" page to set up new verification methods.
-1. You can now sign in to your UTokyo Account with the newly registered verification method.
-
-During this procedure, **you are strongly recommended to register multiple verification methods** to avoid being locked out from your UTokyo Account because the registered verification method becomes unavailable again.
-
 ## Register by Application
-{:#application-method}
+1. There are three ways to apply for the reregistration of your verification method. Please refer to the explanations and apply using the method available to you.
+   - Apply using the dedicated Microsoft Form (if you can sign in to your UTokyo Account)
+   - Apply at your college/faculty/graduate school office
+   - Apply via the dedicated application website
+2. Shortly after you submit your application, the process to enable the reregistration of your verification method will be initiated, and you will be notified by email.
+3. Once you receive the notification email, follow the instructions in ["Step 1: Set Up the First Verification Method" and "Step 2: Add Alternative Verification Methods" on the "Initial Setup Procedures for UTokyo Account Multi-Factor Authentication"](https://utelecon.adm.u-tokyo.ac.jp/en/utokyo_account/mfa/initial/) page to re-register your verification methods.
+4. You will now be able to sign in to your UTokyo Account using the newly registered verification method.
 
-There are three ways to apply for reregistration. Read the following descriptions and select the procedures available to you.
+At this time, we strongly recommend registering multiple verification methods to avoid being locked out again if one method becomes unusable.
 
-### Apply via the Microsoft Form (If You Can Sign in to Your UTokyo Account)
+### Apply using the dedicated Microsoft Form (if you can sign in to your UTokyo Account)
 {:#ms-form}
 
 If you can sign in to your UTokyo Account, you can apply via the Microsoft Form for reregistration.
@@ -118,7 +117,7 @@ You need to sign in with MFA to access this form. If it is impossible for you, y
     </ul>
 </details>
 
-### Apply at the Office of Your Faculty or Graduate School
+### Apply at your college/faculty/graduate school office
 {:#office}
 
 You can apply for reregistration at the relevant office of your faculty/graduate school (the academic office for students, and the personnel department for faculty and staff members)
@@ -127,7 +126,7 @@ You can apply for reregistration at the relevant office of your faculty/graduate
 - Please bring your student/staff ID to verify your identity.
 - [Please refer to this page if you are in charge of the relevant office of faculty/graduate school (only for faculty members)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/MFA_Reset_Request.aspx)．
 
-### Apply via the Application Website
+### Apply via the dedicated application website
 {:#dedicated-site}
 
 You can apply for reregistration via the application website. You are required to upload the photo of your student / staff ID card to verify your identity on this website.
