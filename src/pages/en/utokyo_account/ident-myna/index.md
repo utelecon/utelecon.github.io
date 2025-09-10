@@ -32,7 +32,7 @@ The following items are required for both the pre-link procedure and for the act
 
 - Your own My Number Card[^2]
 - A smartphone (iOS / Android) capable of reading the My Number Card[^5]
-- The 4-digit PIN you registered when you received your My Number Card ([PIN for User Certificate for Digital Signature](https://faq.myna.go.jp/faq/show/3494)(in Japanese), [PIN for Card Info Input Support](https://faq.myna.go.jp/faq/show/2385)(in Japanese))
+- The 4-digit PIN (personal identification number) you registered when you received your My Number Card ([PIN for User Certificate for Digital Signature](https://faq.myna.go.jp/faq/show/3494)(in Japanese), [PIN for Card Info Input Support](https://faq.myna.go.jp/faq/show/2385)(in Japanese))
 
 [^2]: As of September 2025, only physical cards are supported. So-called [My Number Card on smartphone](https://www.digital.go.jp/policies/mynumber/smartphone-certification)(in Japanese) (digital certificates for Android or My Number Card on iPhone) cannot be used, but they are expected to become available once the digital identification app supports them.
 
