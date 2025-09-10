@@ -12,6 +12,7 @@ redirect_from:
 import UTokyoAccountChangePassword from "@components/ja/systems/utokyo_account/ChangePassword.mdx";
 import UTokyoAccountMFA from "@components/ja/systems/utokyo_account/MFA.mdx";
 import InformationSecurity from "@components/ja/InformationSecurity.mdx";
+import PrelinkingIdentMyna from "@components/ja/systems/utokyo_account/PrelinkingIdentMyna.mdx";
 
 import UtasLogin from "@components/ja/systems/utas/Login.mdx";
 import UtasConfirmEmail from "@components/ja/systems/utas/ConfirmEmail.mdx";
@@ -102,22 +103,30 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 {/* 以下の手順説明は他のページと共通しているため，変更があった場合に対応しやすいよう，コンポーネントとして定義したものをこのファイル上部で import して埋め込んでいる．実体は `src/components/ja/systems` ディレクトリにある． */}
 
-## 情報システムを使うために必須の手順
+## 情報システムを使うための基本的な手順
 {:#important}
 
-上で紹介した各種情報システムの準備について，まずアカウントの作成などの，絶対に行っておくベき重要な作業を説明します．授業開始に間に合うよう，余裕を持って作業してください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
+上で紹介した各種情報システムの準備について，まずアカウントの有効化などの，はじめに取り組むベき基本的な作業を説明します．授業開始に間に合うよう，余裕を持って作業してください．もし，手順の途中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
-### UTokyo Accountの初期パスワードを変更する
+### 【必須】UTokyo Accountの初期パスワードを変更する
+{:#change-initial-password}
 
 <UTokyoAccountChangePassword variant="oc" />
 
-### UTokyo Accountの多要素認証を有効化する
+### 【必須】UTokyo Accountの多要素認証を有効化する
+{:#setting-up-mfa}
 
 <UTokyoAccountMFA />
 
-### 情報セキュリティ教育を受講する
+### 【必須】情報セキュリティ教育を受講する
+{:#information-security-education}
 
 <InformationSecurity variant="oc" />
+
+### 【推奨】UTokyo Account本人確認サービスの事前連携
+{:#myna-link}
+
+<PrelinkingIdentMyna />
 
 ## 情報システムに関するその他の準備手順
 {:#procedure}
@@ -144,7 +153,7 @@ export const about_eccs = "キャンパス内に設置されているパソコ�
 
 - **練習：ログインしてみる**
   <UtolLogin support />
-- **任意の作業：メール・LINE・Slackと通知を連携する**  
+- **任意の作業：メール・LINE・Slackと通知を連携する**
   履修または担当しているコースで更新があったときに，メールやLINE，[UTokyo Slack](/slack/)で通知を受け取ることができます．設定手順については，「[UTOLからの通知を設定する](/utol/notification/)」を参照してください．
 {:.procedure}
 
@@ -250,6 +259,6 @@ UTokyo Wi-Fiは東京大学のキャンパス内で提供されている学内�
 
 お疲れさまでした．もし，ここまでの手順の中でうまくいかないことがあれば，**[サポート窓口](/support/)**に相談してください．
 
-以上でオンライン授業を受けるための準備手順は終わりですが，このサイト「**情報システムの総合案内サイト @ 東京大学**」，愛称「**utelecon**」では，このページで挙げた情報システムを使いこなすための情報をたくさん紹介しています．授業で使っていてよくわからなくなったときはもちろん，サークルや勉強会などで，自分たちで Web 会議やその他の情報システムを使う機会もあると思います．そんなときに，ぜひこのサイトを訪れてみてください．
+以上で大学生活に必要な情報システムに関する準備手順は終わりですが，このサイト「**情報システムの総合案内サイト @ 東京大学**」，愛称「**utelecon**」では，このページで挙げた情報システムを使いこなすための情報をたくさん紹介しています．授業で使っていてよくわからなくなったときはもちろん，サークルや勉強会などで，自分たちで Web 会議やその他の情報システムを使う機会もあると思います．そんなときに，ぜひこのサイトを訪れてみてください．
 
 また，uteleconでは[公式Xアカウント](https://x.com/utelecon_pr)を通じて，更新情報やお知らせなどを発信しています．ぜひフォローして，最新の情報を得てください．

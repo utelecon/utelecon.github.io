@@ -8,6 +8,7 @@ description: This page provides step-by-step instructions of the necessary prepa
 
 import UTokyoAccountChangePassword from '@components/en/systems/utokyo_account/ChangePassword.mdx'
 import UTokyoAccountMFA from '@components/en/systems/utokyo_account/MFA.mdx'
+import PrelinkingIdentMyna from "@components/en/systems/utokyo_account/PrelinkingIdentMyna.mdx";
 import ZoomSigninBrowser from '@components/en/systems/zoom/SigninBrowser.mdx'
 import InformationSecurity from '@components/en/InformationSecurity.mdx'
 import UtolLogin from '@components/ja/systems/utol/Login.mdx'
@@ -46,7 +47,7 @@ The UTokyo provides various information systems such as Microsoft, Google, and s
 
 ![Overall view of the UTokyo system](overall_system_en_upside_down.png)
 
-At the start of semesters, the UTokyo holds a briefing session for faculty and staff on the overview of each of the UTokyo systems. The information systems provided by the UTokyo are diverse and difficult to grasp, but the explanations of each system and its relationship are provided at the briefing sessions to make them easier to understand. Please refer to "[Information Session on ICT Systems and Tools for UTokyo Members (only in Japanese)](/events/2025-03-12/)" for the briefing for 2025 S Semester.
+At the start of semesters, the UTokyo holds a briefing session for faculty and staff on the overview of each of the UTokyo systems. The information systems provided by the UTokyo are diverse and difficult to grasp, but the explanations of each system and its relationship are provided at the briefing sessions to make them easier to understand. Please refer to "[Information Session on ICT Systems and Tools for UTokyo Members (only in Japanese)](/events/2025-09-10/)" for the briefing for 2025 A Semester.
 
 ## Getting Started: Initial Setup of the Common ID "UTokyo Account", etc
 
@@ -56,20 +57,25 @@ UTokyo Account is represented by a 10-digit number (Common ID) followed by `@uta
 
 The following is an explanation of the UTokyo Account’s initial setup procedure. Please read this section carefully, as it is an important procedure necessary for using UTokyo’s systems.
 
-### Changing the Initial Password for your UTokyo Account
+### [Required] Changing the Initial Password for your UTokyo Account
 {:#change-initial-password}
 
 <UTokyoAccountChangePassword variant="faculty_members" />
 
-### Setting up "Multi-Factor Authentication for your UTokyo Account"
+### [Required] Setting up "Multi-Factor Authentication for your UTokyo Account"
 {:#setting-up-mfa}
 
 <UTokyoAccountMFA />
 
-### Attending the Information Security Education
+### [Required] Attending the Information Security Education
 {:#information-security-education}
 
 <InformationSecurity variant="faculty_members" />
+
+### [Recommended] Pre-linking the UTokyo Account Identity Verification Service
+{:#myna-link}
+
+<PrelinkingIdentMyna />
 
 ### Initial setup for Staff Members
 

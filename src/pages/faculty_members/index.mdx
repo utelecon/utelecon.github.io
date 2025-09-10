@@ -11,13 +11,14 @@ redirect_from:
 
 import UTokyoAccountChangePassword from '@components/ja/systems/utokyo_account/ChangePassword.mdx'
 import UTokyoAccountMFA from '@components/ja/systems/utokyo_account/MFA.mdx'
+import PrelinkingIdentMyna from "@components/ja/systems/utokyo_account/PrelinkingIdentMyna.mdx";
 import ZoomSigninBrowser from "@components/ja/systems/zoom/SigninBrowser.mdx";
 import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 import UtolLogin from '@components/ja/systems/utol/Login.mdx'
 
 <b class="box">
-{/*2025/3/12 15:00から，説明会「<a href="/events/2025-03-12/">東京大学における情報システムとコミュニケーションツール</a>」を開催します．本ページとあわせてご参照ください．*/}
-2025/3/12 に，説明会「<a href="/events/2025-03-12/">東京大学における情報システムとコミュニケーションツール</a>」を開催しました．説明会の資料と動画をリンク先のページで提供していますので，本ページとあわせてご参照ください．
+2025/9/10 15:00から，説明会「<a href="/events/2025-09-10/">東京大学における情報システムとコミュニケーションツール</a>」を開催します．本ページとあわせてご参照ください．
+{/* 2025/3/12 に，説明会「<a href="/events/2025-03-12/">東京大学における情報システムとコミュニケーションツール</a>」を開催しました．説明会の資料と動画をリンク先のページで提供していますので，本ページとあわせてご参照ください． */}
 </b>
 
 ## 基本的なご案内
@@ -50,7 +51,7 @@ import UtolLogin from '@components/ja/systems/utol/Login.mdx'
 
 ![東京大学の情報システムの概要](overall_system_ja_upside_down.png)
 
-なお東京大学では，セメスターの開始にあたり，教職員の方向けに，東京大学の各システムの概要についての説明会を実施しています．東京大学で提供している情報システムは多岐にわたり，把握するのが難しいですが，説明会ではそれぞれのシステムとその関係性について説明しておりますのでよりわかりやすくなっています．2025年度Sセメスターに向けた説明会につきましては，「[東京大学における情報システムとコミュニケーションツール](/events/2025-03-12/)」をご覧ください．
+なお東京大学では，セメスターの開始にあたり，教職員の方向けに，東京大学の各システムの概要についての説明会を実施しています．東京大学で提供している情報システムは多岐にわたり，把握するのが難しいですが，説明会ではそれぞれのシステムとその関係性について説明しておりますのでよりわかりやすくなっています．2025年度Aセメスターに向けた説明会につきましては，「[東京大学における情報システムとコミュニケーションツール](/events/2025-09-10/)」をご覧ください．
 
 以下では，東京大学のシステム，およびその利用方法について個別に説明いたします．
 
@@ -60,14 +61,14 @@ import UtolLogin from '@components/ja/systems/utol/Login.mdx'
 
 UTokyo Accountは，`0123456789@utac.u-tokyo.ac.jp`のように，10桁の数字（共通ID）の後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたもので表されます．
 
-
 以下，UTokyo Accountの初期設定について説明します．システムを利用するために必要となる重要な作業ですので，よく読んで作業を行ってください．
 
-### UTokyo Accountの初期パスワードを変更する
+### 【必須】UTokyo Accountの初期パスワードを変更する
+{:#change-initial-password}
 
 <UTokyoAccountChangePassword variant="faculty_members" />
 
-### UTokyo Accountの「多要素認証」を有効化する
+### 【必須】UTokyo Accountの「多要素認証」を有効化する
 {:#setting-up-mfa}
 
 <UTokyoAccountMFA />
@@ -78,10 +79,15 @@ UTokyo Accountは，`0123456789@utac.u-tokyo.ac.jp`のように，10桁の数字
 大学全体のセキュリティ向上のため，東京大学では，UTokyo Accountの多要素認証を有効化することを強く推奨しています．特に教職員については，全員が多要素認証を利用することになっています．「**[UTokyo Accountの多要素認証の初期設定手順](/utokyo_account/mfa/initial/)**」のページに記載の手順で，有効化を行ってください．
 */}
 
-### 情報セキュリティ教育の受講
+### 【必須】情報セキュリティ教育の受講
 {:#information-security-education}
 
 <InformationSecurity variant="faculty_members" />
+
+### 【推奨】UTokyo Account本人確認サービスの事前連携
+{:#myna-link}
+
+<PrelinkingIdentMyna />
 
 ## 学務システム「UTAS」を使う
 

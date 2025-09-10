@@ -8,13 +8,14 @@ description: このページでは，新たに東京大学で働く職員を対�
 
 import UTokyoAccountChangePassword from '@components/ja/systems/utokyo_account/ChangePassword.mdx'
 import UTokyoAccountMFA from '@components/ja/systems/utokyo_account/MFA.mdx'
+import PrelinkingIdentMyna from "@components/ja/systems/utokyo_account/PrelinkingIdentMyna.mdx";
 import ZoomSigninBrowser from "@components/ja/systems/zoom/SigninBrowser.mdx";
 import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 import UtolLogin from '@components/ja/systems/utol/Login.mdx'
 
 <b class="box">
-{/* 2025/3/12 15:00から，説明会「<a href="/events/2025-03-12/">東京大学における情報システムとコミュニケーションツール</a>」を開催します．本ページとあわせてご参照ください． */}
-2025/3/12 に，説明会「<a href="/events/2025-03-12/">東京大学における情報システムとコミュニケーションツール</a>」を開催しました．説明会の資料と動画をリンク先のページで提供していますので，本ページとあわせてご参照ください．
+2025/9/10 15:00から，説明会「<a href="/events/2025-09-10/">東京大学における情報システムとコミュニケーションツール</a>」を開催します．本ページとあわせてご参照ください．
+{/* 2025/3/12 に，説明会「<a href="/events/2025-03-12/">東京大学における情報システムとコミュニケーションツール</a>」を開催しました．説明会の資料と動画をリンク先のページで提供していますので，本ページとあわせてご参照ください． */}
 </b>
 
 ## 基本的なご案内
@@ -56,12 +57,12 @@ UTokyo Accountは，`0123456789@utac.u-tokyo.ac.jp`のように，共通ID（UTo
 
 以下，UTokyo Accountの初期設定について説明します．システムを利用するために必要となる重要な作業ですので，よく読んで作業を行ってください．
 
-### UTokyo Accountの初期パスワードを変更する
+### 【必須】UTokyo Accountの初期パスワードを変更する
 {:#change-initial-password}
 
 <UTokyoAccountChangePassword variant="faculty_members" />
 
-### UTokyo Accountの「多要素認証」を有効化する
+### 【必須】UTokyo Accountの「多要素認証」を有効化する
 {:#setting-up-mfa}
 
 <UTokyoAccountMFA />
@@ -72,10 +73,15 @@ UTokyo Accountは，`0123456789@utac.u-tokyo.ac.jp`のように，共通ID（UTo
 UTokyo Accountでは，利用者が各自で初期設定を行うことにより，多要素認証が有効化される仕組みとなっています．UTokyo Accountのセキュリティを確保することは，利用者個人の情報だけでなく，大学が保有する情報資産を守るために非常に重要ですので，多要素認証の利用は必須となっています．多要素認証の有効化が完了するまで一部のシステムは利用できません．「**[UTokyo Accountの多要素認証の初期設定手順](/utokyo_account/mfa/initial/)**」のページを確認いただき，設定してください．
 */}
 
-### 情報セキュリティ教育の受講
+### 【必須】情報セキュリティ教育の受講
 {:#information-security-education}
 
 <InformationSecurity variant="faculty_members" />
+
+### 【推奨】UTokyo Account本人確認サービスの事前連携
+{:#myna-link}
+
+<PrelinkingIdentMyna />
 
 ### 職員向けの初期設定
 ここまでの手順により，以下のページの「はじめに」の項目の部分が完了します．
