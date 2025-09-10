@@ -24,7 +24,7 @@ If your UTokyo Account expires due to graduation or resignation, you will no lon
 
 Many systems available through UTokyo Microsoft License can be accessed via the following link.
 
-**[Microsoft 365](https://www.microsoft365.com/login)**{:.box.center}
+**[Microsoft 365](https://m365.cloud.microsoft/apps/?auth=2)**{:.box.center}
 
 <details>
 <summary>Systems not listed here</summary>

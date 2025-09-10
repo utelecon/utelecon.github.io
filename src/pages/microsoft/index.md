@@ -24,7 +24,7 @@ UTokyo Microsoft Licenseは，UTokyo Accountを持つ東京大学の構成員（
 
 UTokyo Microsoft Licenseで利用可能なシステムの多くは，以下のリンクからアクセスすることができます．
 
-**[Microsoft 365](https://www.microsoft365.com/login)**{:.box.center}
+**[Microsoft 365](https://m365.cloud.microsoft/apps/?auth=2)**{:.box.center}
 
 以下では，UTokyo Microsoft Licenseにより利用可能な個別のシステムについて説明します．
 
