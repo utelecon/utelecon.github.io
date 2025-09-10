@@ -9,6 +9,8 @@ breadcrumb:
 
 Please check which of the following applies to you, and **back up your data in advance if necessary**.
 
+However, if for some reason you are unable to create a backup before leaving and you have a justifiable reason to access your data or account after you have left, we may be able to provide exceptional access to some of your data or account under certain conditions. For more details, please visit the page of "[cloud data salvage](./salvage/)".
+
 ## If you are no longer affiliated with the University of Tokyo
 {:#leave}
 
