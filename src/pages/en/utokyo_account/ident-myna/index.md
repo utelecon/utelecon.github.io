@@ -51,7 +51,7 @@ Therefore, **neither the My Number itself nor PIN is stored in UTokyo's systems*
 
 [^3]: When receiving salary or honorarium from UTokyo, you may be asked to submit your My Number for tax and social security processing, but this is a separate procedure from the pre-link for the Identity Verification Service. Please handle this separately, even if you have already completed the pre-link for the Identity Verification Service.
 
-For the operational policy, please refer to "[UTokyo Account規則](https://www.u-tokyo.ac.jp/gen01/reiki_int/reiki_pdf/r060321094.pdf)"(in Japanese) and "[Precautions for using external services managed and operated by Division for Information and Communication Systems](en/docs/dics-terms/)". For the privacy policy of the smartphone app "Digital Identification App" (Digital Agency) used to read the My Number Card, please refer to "[デジタル認証アプリサービス個人情報保護方針](https://services.digital.go.jp/auth-and-sign/privacy-policy/)"(in Japanese).
+For the operational policy, please refer to "[UTokyo Account規則](https://www.u-tokyo.ac.jp/gen01/reiki_int/reiki_pdf/r060321094.pdf)"(in Japanese) and "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms/)". For the privacy policy of the smartphone app "Digital Identification App" (Digital Agency) used to read the My Number Card, please refer to "[デジタル認証アプリサービス個人情報保護方針](https://services.digital.go.jp/auth-and-sign/privacy-policy/)"(in Japanese).
 
 ## Pre-link Procedure
 {:#link}
@@ -63,13 +63,13 @@ Please follow the steps below to perform the pre-link.
 In principle, the pre-link procedure only needs to be performed once and does not need to be done again when renewing your card or changing your smartphone model, unless you have deactivated the service.
 
 - **In case of renewal or re-issuance of My Number Card, or renewal of the digital certificate**: You do not need to perform the pre-link again.
-- **In case of changing your smartphone model**: You do not need to perform the pre-link again. However, if the Digital Identification App is not installed on your new smartphone, you will need to install the [Digital Identification App](https://services.digital.go.jp/auth-and-sign/)(in Japanese) and complete the [user registration for the Digital Identification App](https://services.digital.go.jp/auth-and-sign/start-guide/)(in Japanese).
+- **In case of changing your smartphone model**: You do not need to perform the pre-link again. However, if the Digital Identification App is not installed on your new smartphone, you will need to install the [Digital Identification App](https://services.digital.go.jp/en/auth-and-sign/) and complete the [user registration for the Digital Identification App](https://services.digital.go.jp/en/auth-and-sign/start-guide/).
 - **If your digital certificate has been revoked due to expiration, loss, etc., and you have had it reissued, or if you have changed your My Number**: This is currently under investigation as of September 2025, but it is possible that the link will become invalid. Therefore, please perform the pre-link again just in case.
 
 ## Usage Procedures (Identity Verification Procedures)
 {:#procedures}
 
-To use the Identity Verification Service (i.e., to use it for identity verification), you must have completed the pre-link. If you become unable to sign in to your UTokyo Account without having completed the pre-link, you will need to verify your identity through other methods, such as in-person verification at the office. Please refer to the respective procedures for details.
+To use the Identity Verification Service (i.e., to use it for identity verification), you must have completed the [pre-link](#link). If you become unable to sign in to your UTokyo Account without having completed the pre-link, you will need to verify your identity through other methods, such as in-person verification at the office. Please refer to the respective procedures for details.
 
 ### Password Reissue
 {:#reissue-password}
@@ -79,12 +79,12 @@ To use the Identity Verification Service (i.e., to use it for identity verificat
 ### Reregistering for Multi-Factor Authentication
 {:#mfa-reregister}
 
-**[About Reregistering Verification Method for UTokyo Account Multi-Factor Authentication](/en/utokyo_account/mfa/reregister/)**{:.box.center}
+**[Reregistering Verification Method for UTokyo Accounts](/en/utokyo_account/mfa/reregister/)**{:.box.center}
 
 ### Cloud Data Salvage After Leaving the University
 {:#cloud-salvage}
 
-**[Trial: About Cloud Data Salvage after UTokyo Account Revocation](/en/systems/leave/salvage/)**{:.box.center}
+**[Trial Operation: About Cloud Data Salvage after UTokyo Account Revocation](/en/systems/leave/salvage/)**{:.box.center}
 
 ## Deleting the Link
 
