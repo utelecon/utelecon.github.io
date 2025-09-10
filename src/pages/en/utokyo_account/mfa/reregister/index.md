@@ -56,24 +56,24 @@ To use this service, you must meet all of the following conditions:
 2. Follow the on-screen instructions to verify your identity with your My Number Card.
 3. Click "Request to reset multi-factor authentication and password for your UTokyo Account"
 
-![](./myna-mfa-reset-button.png){:.medium}
+![](myna-mfa-reset-button.png){:.medium}
 
 4. From the "Select the items you would like to issue" field, select "Temporary access password (re-set MFA)" and then click "Issue a password" below it.
 
-![](./myna-issue-temp-access-pass-select.png){:.medium}
-![](./myna-issue-temp-access-pass-button.png){:.medium}
+![](myna-issue-temp-access-pass-select.png){:.medium}
+![](myna-issue-temp-access-pass-button.png){:.medium}
 
 5. A temporary access pass (TAP) will be issued and displayed in the "Password" field. Please copy it.
 
-![](./myna-copy-pass.png){:.medium}
+![](myna-copy-pass.png){:.medium}
 
 6. Open "Security Info" from the link below.
 [Security Info](https://mysignins.microsoft.com/security-info/){:.box.center}
 
 7. You will be asked to sign in. Enter your UTokyo Account ID for the ID and the temporary access pass you just issued for the password, then sign in.
 
-![](./myna-utac-login.png){:.small}
-![](./myna-enter-temp-access-pass.png){:.small}
+![](myna-utac-login.png){:.small}
+![](myna-enter-temp-access-pass.png){:.small}
 
 8. Follow the instructions in ["Step 2: Add Alternative Verification Methods" on the "Initial Setup Procedures for UTokyo Account Multi-Factor Authentication"](https://utelecon.adm.u-tokyo.ac.jp/en/utokyo_account/mfa/initial/) page to re-register your verification methods.
 9. You will now be able to sign in to your UTokyo Account using the newly registered verification method.
