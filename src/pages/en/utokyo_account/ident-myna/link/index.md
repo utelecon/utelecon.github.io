@@ -7,16 +7,16 @@ This page explains the "pre-link" procedure, which must be completed in advance 
 
 The overall process is as follows:
 
-- Step 1:[Set up the digital identification app](#app-setup)
-- Step 2:[Perform identity verification using the app and your My Number Card](#auth)
-- Step 3:[Sign in with your UTokyo Account and make the link](#signin)
-- Step 4:[Confirm the link status](#statuscheck)
+- Step 1: [Set up the digital identification app](#app-setup)
+- Step 2: [Perform identity verification using the app and your My Number Card](#auth)
+- Step 3: [Sign in with your UTokyo Account and make the link](#signin)
+- Step 4: [Confirm the link status](#statuscheck)
 
-When accessing the UTokyo Account Identity Verification Service, the procedure in Step 2 differs depending on whether you use a PC (In case of using both a PC and a smartphone) or a smartphone (In case of using only a smartphone). We recommend completing the process using only a smartphone, as the procedure is more straightforward.
+When accessing the UTokyo Account Identity Verification Service, the procedure in Step 2 differs depending on whether you use a PC (in case of using both a PC and a smartphone) or not (in case of using only a smartphone). We recommend completing the process using only a smartphone, as the procedure is more straightforward.
 
 ## What you need
 
-- Your physical My Number Card[^1]
+- Your physical [My Number Card (Individual Number Card of Japan)](https://www.digital.go.jp/en/policies/mynumber) [^1]
 - The 4-digit PIN (Personal Identification Number) you registered when you received your My Number Card.（[Electronic Certificate of User Proof(in Japanese)](https://faq.myna.go.jp/faq/show/3494)，[PIN for Card Info Input Support(in Japanese)](https://faq.myna.go.jp/faq/show/2385)）[^2]
 - A smartphone that can use the digital identification app (iOS 16.0 or later, or Android 11 or later) [^3]
 - A PC if you perform the procedure from a PC (you can also complete the entire procedure on a smartphone)
@@ -25,7 +25,7 @@ When accessing the UTokyo Account Identity Verification Service, the procedure i
 [^2]: If you have forgotten your PIN or it has been locked, you need to go to the office of the municipality where you are registered to have it initialized and reset. For details, please check the [My Number Card General Portal Site(in Japanese)](https://www.kojinbango-card.go.jp/faq_pin3/).
 [^3]:The device must be listed in the "List of Smartphones Compatible with My Number Card" file on the page linked from the [JPKI (Japan Public Key Infrastructure) Portal Site(in Japanese)](https://www.jpki.go.jp/prepare/reader_writer.html).
 
-## Step1
+## Step 1
 {:#app-setup}
 The UTokyo Account Identity Verification Service uses the "Digital Identification App" provided by Digital Agency. First, you need to install this app and create a user registration.
 
