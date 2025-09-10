@@ -9,5 +9,5 @@ title: "Windows Education for students"
 
 ## 概要
 
-これまで，東京大学の**学生**は，Windows 10またはWindows 11をEducationエディションにアップグレードするライセンスを取得できました．しかし，2024年4月から提供方法が変わり Azure Dev Tools for Teaching で利用できる Windows OS を利用することとして提供されています．
+これまで，東京大学の**学生**は，Windows 10またはWindows 11をEducationエディションにアップグレードするライセンスを取得できました．
 
