@@ -6,7 +6,7 @@ breadcrumb:
 
 ## 概要
 
-UTokyo Account 本人確認サービス（以下「本人確認サービス」）は，UTokyo Accountにサインインできない場合に，UTokyo Accountと事前連携しておいたマイナンバーカードを用いて，オンラインで本人確認を行う仕組みです．
+UTokyo Account 本人確認サービス（以下「本人確認サービス」）は，UTokyo Accountにサインインできない場合に，UTokyo Accountと事前連携しておいた[マイナンバーカード](https://www.digital.go.jp/policies/mynumber)を用いて，オンラインで本人確認を行う仕組みです．
 
 具体的には，次の場面で利用できます．
 
