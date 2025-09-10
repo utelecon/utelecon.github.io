@@ -1,7 +1,5 @@
 ---
 title: UTokyo Account Identity Verification Service
-breadcrumb:
-  title: Pre-link
 ---
 
 ## Introduction
