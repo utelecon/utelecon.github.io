@@ -10,4 +10,8 @@ Anyone with a valid UTokyo Account who possesses a My Number Card and a smartpho
 
 For details, please see the information on the following page. Some explanations are currently under preparation, but will be released sequentially.
 
-**[UTokyo Account Identity Verification Service](/en/utokyo_account/ident-myna/)**{:.box.center}
+**[About UTokyo Account Identity Verification Service](/en/utokyo_account/ident-myna/)**{:.box.center}
+
+You can access the service via the following link.
+
+**[UTokyo Account Identity Verification Service](https://identification.adm.u-tokyo.ac.jp/verify/)**{:.box.center}
