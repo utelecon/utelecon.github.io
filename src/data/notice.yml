@@ -22,6 +22,11 @@
 -
   date: 2025-09-11
   content:
+    ja: "[「UTokyo Account本人確認サービス」を開始しました．事前連携の手続きにご協力ください．](/notice/2025/0911-ident-myna/)"
+    en: "[“UTokyo Account Identity Verification Service” is now available. Take a few moments to complete the pre-linking procedure.](/en/notice/2025/0911-ident-myna/)"
+-
+  date: 2025-09-11
+  content:
     ja: "[ECCS端末Windows環境のOSバージョンアップ](/notice/2025/ECCS_Windows11)"
     en: "[Upgrading the OS version of the ECCS terminal Windows environment](/notice/2025/ECCS_Windows11) (in Japanese only)"
   important: true
