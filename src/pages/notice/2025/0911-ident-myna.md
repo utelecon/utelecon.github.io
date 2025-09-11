@@ -10,4 +10,4 @@ UTokyo Accountを利用可能で，マイナンバーカードと，カード読
 
 詳しくは，次のページの案内をご覧ください．なお一部の説明は準備中ですが，順次公開します．
 
-https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/ident-myna/
+**[UTokyo Account本人確認サービス](/utokyo_account/ident-myna/)**{:.box.center}
