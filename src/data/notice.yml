@@ -19,7 +19,12 @@
 # - 既存のお知らせを編集する場合，以下にご注意ください．
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
-
+-
+  date: 2025-09-11
+  content:
+    ja: "[ECCS端末Windows環境のOSバージョンアップ](/notice/2025/ECCS_Windows11)"
+    en: "[Upgrading the OS version of the ECCS terminal Windows environment](/notice/2025/ECCS_Windows11) (in Japanese only)"
+  important: true
 -
   date: 2025-09-05
   content:
