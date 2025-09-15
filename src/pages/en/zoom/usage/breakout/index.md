@@ -29,8 +29,8 @@ The steps required to enable the breakout room feature are as follows:
 
 Detailed explanations for each item are located in the following places:
 
-* "Allow host to assign participants to breakout rooms when scheduling": See ["Load a Pre-assigned Allocation"](#start-assignment-preloading).
-* "Broadcast message to participants" and "Broadcast voice to breakout rooms": See ["Broadcast a Message or Voice to All Participants"](#host-massage).
+* "Allow host to assign participants to breakout rooms when scheduling": See ["Loading a Pre-assigned Allocation"](#start-assignment-preloading).
+* "Broadcast message to participants" and "Broadcast voice to breakout rooms": See ["Broadcasting a Message or Voice to All Participants"](#host-massage).
 * "Allow host to create, rename, and delete breakout rooms": See ["Adjustments for Rooms"](#start-coordination-room).
 
 ## Start a Breakout Session as a Host
