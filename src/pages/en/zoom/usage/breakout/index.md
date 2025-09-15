@@ -123,7 +123,7 @@ The steps to create a meeting with a pre-set assignment on the Zoom web portal a
 
 The CSV file must contain the email address of the Zoom account the participant will use that day and the name of the breakout room they are assigned to. When using a UTokyo Zoom account, use the UTokyo Account (10-digit Common ID @utac.u-tokyo.ac.jp) as an email address. For details, see ["Pre-assigning participants to breakout rooms using a CSV file (in Japanese)"](https://www.sodan.ecc.u-tokyo.ac.jp/hack/zoom-pre-assign-breakout-rooms-with-csv/).
 
-For recurring meetings, in addition to "Create Rooms" and "Import from CSV", you can also pre-assign participants to breakout rooms using an assignment saved from a previous meeting. This method is explained later in ["Saving Participant Assignments"](#host-save-allocation)
+For recurring meetings, in addition to "Create Rooms" and "Import from CSV", you can also pre-assign participants to breakout rooms using an assignment saved from a previous meeting. This method is explained later in ["Save Participant Assignments"](#host-save-allocation)
 
 ### Setting Options
 {:#start-option-settings}
