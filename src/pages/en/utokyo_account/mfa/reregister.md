@@ -18,7 +18,7 @@ When one of your verification methods becomes unavailable due to malfunction, ph
 
 In the verification screen that appears after entering your password, Click the "Having trouble? Sign in another way" or "Use a different verification option" or "I can't use my Microsoft Authenticator app right now" link.
 
-![](signin_with_another_method.png)
+![](./reregister/signin_with_another_method.png)
 
 A list of verification methods that you have set up (including the default sign-in method) will be displayed.
 
@@ -31,7 +31,7 @@ If none of the verification methods registered are available, reregister your ve
 
 There are two ways to reregister: by using the Identity Verification Service or by submitting an application.
 
-The Identity Verification Service allows you to reregister on your own. However, to use this service, you must meet several [requirements](.#ident-myna-conditions), such as having alreay completed the pre-link for the "[UTokyo Account Identity Verification Service](../../ident-myna/)".
+The Identity Verification Service allows you to reregister on your own. However, to use this service, you must meet several [requirements](.#ident-myna-conditions), such as having alreay completed the pre-link for the "[UTokyo Account Identity Verification Service](/en/utokyo_account/ident-myna/)".
 
 - To reregister using the Identity Verification Service, please refer to "[Reregister using the Identity Verification Service](.#ident-myna)" and follow the procedure.
 
@@ -62,17 +62,17 @@ To use this service, you must meet all of the following conditions:
 **[UTokyo Account Identity Verification Service](https://identification.adm.u-tokyo.ac.jp/verify/)**{:.box.center}
 2. Follow the on-screen instructions to verify your identity with your My Number Card.
 3. Click "Request to reset multi-factor authentication and password for your UTokyo Account"
-![](myna-mfa-reset-button.png){:.medium}
+![](./reregister/myna-mfa-reset-button.png){:.medium}
 4. From the "Select the items you would like to issue" field, select "Temporary access password (re-set MFA)" and then click "Issue a password" below it.
-![](myna-issue-temp-access-pass-select.jpg){:.medium}
-![](myna-issue-temp-access-pass-button.png){:.medium}
+![](./reregister/myna-issue-temp-access-pass-select.jpg){:.medium}
+![](./reregister/myna-issue-temp-access-pass-button.png){:.medium}
 5. A temporary access pass (TAP) will be issued and displayed in the "Password" field. Please copy it.
-![](myna-copy-pass.png){:.medium}
+![](./reregister/myna-copy-pass.png){:.medium}
 6. Open "Security Info" from the link below.
 **[Security Info](https://mysignins.microsoft.com/security-info/)**{:.box.center}
 7. You will be asked to sign in. Enter your UTokyo Account ID for the ID and the temporary access pass you just issued for the password, then sign in.
-![](myna-utac-login.png){:.small}
-![](myna-enter-temp-access-pass.png){:.small}
+![](./reregister/myna-utac-login.png){:.small}
+![](./reregister/myna-enter-temp-access-pass.png){:.small}
 8. Follow the instructions in "[Step 2: Add Alternative Verification Methods](../initial/#alternative)" on the "[Initial Setup Procedures for UTokyo Account Multi-Factor Authentication](../initial/)" page to re-register your verification methods.
 9. You will now be able to sign in to your UTokyo Account using the newly registered verification method.
 
