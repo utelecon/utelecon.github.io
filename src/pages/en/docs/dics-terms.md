@@ -20,7 +20,7 @@ This document applies to the following external services managed and operated by
 - [UTokyo MATLAB Campus-Wide License](/en/matlab/)
     - External service provider: The MathWorks, Inc.
 - [UTokyo Account Identity Verification Service](/en/utokyo_account)
-    - External service provider: UTokyo Division for Information and Communication Systems
+    - External service provider: Division for Information and Communication Systems, UTokyo
 
 When using these services, please follow the terms below.
 
