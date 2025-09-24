@@ -36,7 +36,7 @@ The following information can be viewed in the “Course participant list”.
 
 * **Authority**: The user’s authority will be displayed as one of the following four types: “Course Instructor”, “TA”, “Course Designer”, or “Enrolled Student”. If the user has both TA and enrolled student authorities, it will be displayed as “TA and enrolled student”.
 * **Category**: The user’s UTokyo Account indicates whether they are a student, a faculty member or a staff member. If the user’s UTokyo Account has both student, and faculty or staff member status, it will be displayed as “Student/Faculty and staff.” Please note that this display does not reflect whether the user participates in the course as a student, a faculty member or a staff member.
-* **Student ID/(User ID)**: If the user has a student ID number, this number will be displayed. If the user does not have a student ID number, a 10-digit number (the common ID number of users who log in with their UTokyo Accounts) will be displayed.
+* **Student ID/(User ID)**: If the user has a student ID number, this number will be displayed. If the user does not have a student ID number, a Common ID (the first 10-digit numerical part of the UTokyo Account) will be displayed.
 * **Course Title**: The course titles that enrolled students have registered for will be displayed. If the [course group function](../course_group/) is applied, you can confirm the course titles students have registered for.
 * **Group Name**: When the user belongs to a [user group](../user_groups/), this group name will be displayed. If the user belongs to multiple groups, all group names will be displayed.
 * **Registration Method**: The method by which the user registers for a course will be displayed.
