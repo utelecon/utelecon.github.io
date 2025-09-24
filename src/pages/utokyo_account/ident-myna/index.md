@@ -96,4 +96,4 @@ UTokyo Account 本人確認サービス（以下「本人確認サービス」�
 
 ## 補足
 
-- 複数のUTokyo Accountを持っている場合，本人確認サービスは複数アカウントとの紐付けが想定されていないため，学生として付与されている方のUTokyo Accountのみで利用できます．
+- 一人で二つのUTokyo Account（教職員としてのUTokyo Accountと学生としてのUTokyo Account）を持っている場合，本人確認サービスは複数アカウントとの紐付けが想定されていないため，学生としてのUTokyo Accountのみで利用できます．
