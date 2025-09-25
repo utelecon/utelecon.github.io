@@ -19,8 +19,9 @@ Zoomのチャット機能を用いると，ミーティング中にホストや�
 1. 「[Zoom サインイン方法](https://utelecon.adm.u-tokyo.ac.jp/zoom/signin/)」を参考にしてブラウザでZoomのウェブポータルにアクセスし，「設定」を開いてください．  
    ![](Zoomwebportal.png)
 2. 「ミーティング」のタブを選択してください．  
-   ![](webportal_meeting.png){.small}
-3. 「ミーティング内（基本）」内の「ミーティングチャット」の項目をオンにしてください．![][]
+   ![](Webportal_meeting.png){.small}
+3. 「ミーティング内（基本）」内の「ミーティングチャット」の項目をオンにしてください．
+   ![][chat_on.png]
 
 #### チャット機能の利用範囲
 
