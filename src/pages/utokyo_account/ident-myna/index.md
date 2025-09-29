@@ -6,7 +6,7 @@ breadcrumb:
 
 ## 概要
 
-UTokyo Account 本人確認サービス（以下「本人確認サービス」）は，UTokyo Accountにサインインできない場合に，UTokyo Accountと事前連携しておいたマイナンバーカードを用いて，オンラインで本人確認を行う仕組みです．
+UTokyo Account 本人確認サービス（以下「本人確認サービス」）は，UTokyo Accountにサインインできない場合に，UTokyo Accountと事前連携しておいた[マイナンバーカード](https://www.digital.go.jp/policies/mynumber)を用いて，オンラインで本人確認を行う仕組みです．
 
 具体的には，次の場面で利用できます．
 
@@ -42,7 +42,7 @@ UTokyo Account 本人確認サービス（以下「本人確認サービス」�
 
 本人確認サービスではマイナンバーカードを利用しますが，以下の情報のみを取得・保持します．
 
-- 本人確認サービスのみで有効な，利用者を識別するID（本人確認サービスでは「連携ID」と呼びます．技術的には[PPID]( https://www.digital.go.jp/policies/mynumber/local-government/mykey-platform#guidance2)と呼ばれます．）
+- 本人確認サービスのみで有効な，利用者を識別するID（本人確認サービスでは「連携ID」と呼びます．技術的には[PPID: 仮名識別子]( https://www.digital.go.jp/policies/mynumber/local-government/mykey-platform#guidance2)と呼ばれます．）
   - このIDは「利用者が同一かどうかを判定する」目的だけに使うことができ，これを用いてマイナンバーなどの個人情報を取得することはできない仕様になっています．
   - また，同一人物であっても，本人確認サービス以外のサービスには異なるIDが発行されるため，IDを用いたサービス間での突合はできません．
 - 券面に記載されている氏名
