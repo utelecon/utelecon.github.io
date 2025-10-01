@@ -2,6 +2,9 @@
   "[mdx]": {
     "editor.formatOnSave": false
   },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
   "mdx.experimentalLanguageServer": true,
   "editor.wordBasedSuggestions": "off"
 }
