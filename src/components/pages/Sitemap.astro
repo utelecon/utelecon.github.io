@@ -1,90 +1,157 @@
 ---
-import {
-  sitemapSectionsJa as ja,
-  sitemapSectionsEn as en,
-  type SitemapSection,
-} from "@data/sitemapSections";
+import en from "@data/nav/en.yml";
+import ja from "@data/nav/ja.yml";
 import { basename } from "path";
-import type { AstroInstance, MDXInstance, MarkdownInstance } from "astro";
+import type { MDXInstance, MarkdownInstance } from "astro";
 import Slugger from "github-slugger";
-import Layout, { Frontmatter } from "@layouts/Layout.astro";
+import Layout, { type Frontmatter } from "@layouts/Layout.astro";
 import type { Lang } from "@components/types";
+import type { Navigation } from "@data/schemas/nav";
+import Markdown from "@components/utils/Markdown.astro";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import { toHast } from "mdast-util-to-hast";
+import { toText } from "hast-util-to-text";
 
 interface Props {
   lang: Lang;
 }
 
-interface AstroInstanceExt extends AstroInstance {
-  title: string;
-  sitemap?: boolean;
+const { lang } = Astro.props;
+const navigations: Navigation[] = { ja, en }[lang];
+
+interface SectionNode {
+  name: string;
+  prefixes: string[];
+  children: SectionNode[];
 }
 
-type PageInstance =
-  | MarkdownInstance<Frontmatter>
-  | MDXInstance<Frontmatter>
-  | AstroInstanceExt;
+const parser = unified().use(remarkParse);
+function text(content: string) {
+  const mdast = parser.parse(content);
+  const hast = toHast(mdast);
+  return toText(hast);
+}
 
-interface Page {
+function findChild(node: SectionNode, prefix: string): SectionNode | undefined {
+  if (node.prefixes.includes(prefix)) return node;
+  for (const child of node.children) {
+    const found = findChild(child, prefix);
+    if (found) return found;
+  }
+}
+
+const root: SectionNode = {
+  name: "",
+  prefixes: [],
+  children: [],
+};
+for (const nav of navigations) {
+  let parent = root;
+  if (nav.sitemap?.section) {
+    parent = {
+      name: text(nav.name),
+      prefixes: [],
+      children: [],
+    };
+    root.children.push(parent);
+  }
+  for (const content of nav.contents) {
+    if (!nav.sitemap && !content.sitemap) continue;
+    const sitemap = { ...nav.sitemap, ...content.sitemap };
+
+    let parentWithOverride = parent;
+    if (sitemap.parent) {
+      const overridingParent = findChild(root, sitemap.parent);
+      if (!overridingParent) {
+        throw new Error(`Parent not found: ${sitemap.parent}`);
+      }
+      parentWithOverride = overridingParent;
+    }
+    if (sitemap.section) {
+      const section = {
+        name: text(content.name),
+        prefixes: [content.url],
+        children: [],
+      };
+      parentWithOverride.children.push(section);
+    } else {
+      parentWithOverride.prefixes.push(content.url);
+    }
+  }
+}
+root.children.push({
+  name: { ja: "その他", en: "Others" }[lang],
+  prefixes: [{ ja: "/", en: "/en/" }[lang]],
+  children: [],
+});
+
+type Depth = 1 | 2 | 3 | 4 | 5 | 6;
+function nextDepth(depth: Depth) {
+  if (depth >= 6) throw new Error("Depth too deep");
+  return (depth + 1) as Depth;
+}
+interface Entry {
   title: string;
   url: string;
 }
-
-interface Section extends SitemapSection {
+interface Section {
+  name: string;
   slug: string;
-  links: Page[];
+  depth: Depth;
+  prefixes: string[];
+  entries: Entry[];
 }
 
-type HeadingType = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+function resolveSections(
+  node: SectionNode,
+  slugger = new Slugger(),
+  depth: Depth = 1,
+) {
+  const sections: Section[] = [
+    {
+      name: node.name,
+      slug: slugger.slug(node.name),
+      depth,
+      prefixes: node.prefixes,
+      entries: [],
+    },
+  ];
+  for (const child of node.children) {
+    const childSections = resolveSections(child, slugger, nextDepth(depth));
+    sections.push(...childSections);
+  }
+  return sections;
+}
+const sections = resolveSections(root);
+sections.shift(); // remove root
 
-const { lang } = Astro.props;
+type Page = MarkdownInstance<Frontmatter> | MDXInstance<Frontmatter>;
+const pages = await Astro.glob<Page>("/src/pages/**/*.{md,mdx}");
 
-let pages = (await Astro.glob<PageInstance>("/src/pages/**/*.{astro,md,mdx}"))
-  .filter((page): page is PageInstance & { url: string } => {
-    if (!page.url) return false;
-    if (basename(page.url).startsWith("_")) return false;
-    if ("frontmatter" in page) {
-      const { layout, sitemap, redirect_to } = page.frontmatter;
-      if (layout === false || sitemap === false || redirect_to) return false;
-    } else {
-      const { sitemap } = page;
-      if (sitemap === false) return false;
-    }
-    return page.url.startsWith("/en/") === (lang === "en");
-  })
-  .map<Page>((page) => {
-    const { title } = "frontmatter" in page ? page.frontmatter : page;
-    return { title, url: page.url };
-  });
+const indexSectionByPrefixes = sections.flatMap((section) =>
+  section.prefixes.map((prefix) => ({ prefix, section })),
+);
+// longest prefix first
+indexSectionByPrefixes.sort((a, b) => b.prefix.length - a.prefix.length);
+for (const page of pages) {
+  if (!page.url) continue;
+  if (basename(page.url).startsWith("_")) continue;
+  const { layout, sitemap, redirect_to } = page.frontmatter;
+  if (layout === false || sitemap === false || redirect_to) continue;
+  if (page.url.startsWith("/en/") !== (lang === "en")) continue;
 
-// https://stackoverflow.com/questions/979256/sorting-an-array-of-objects-by-property-values#comment48111034_979289
-// @ts-ignore
-pages.sort((a, b) => (a.url > b.url) - (a.url < b.url));
-
-const slugger = new Slugger();
-
-const sections = { ja, en }[lang].map<Section>((section) => {
-  let links: Page[] = [];
-  section.patterns?.forEach((pattern) => {
-    pages = pages.filter((page) => {
-      let cond = false;
-      cond ||= pattern.test(page.url);
-      if (section.negativePatterns) {
-        cond &&= !section.negativePatterns.some((pattern) =>
-          pattern.test(page.url)
-        );
-      }
-      if (cond) {
-        links.push(page);
-      }
-      return !cond;
-    });
-  });
-  return {
-    ...section,
-    slug: slugger.slug(section.name),
-    links,
-  };
-});
+  const { section } = indexSectionByPrefixes.find(
+    (item) =>
+      page.url!.startsWith(item.prefix) || page.url + "/" === item.prefix,
+  )!; // the "Others" section should catch
+  section.entries.push({ title: page.frontmatter.title, url: page.url });
+}
+for (const section of sections) {
+  // https://stackoverflow.com/questions/979256/sorting-an-array-of-objects-by-property-values#comment48111034_979289
+  // @ts-ignore
+  section.entries.sort((a, b) => (a.url > b.url) - (a.url < b.url));
+}
 
 const meta = {
   file: `src/pages${{ en: "/en", ja: "" }[lang]}/sitemap.astro`,
@@ -102,7 +169,7 @@ const meta = {
     ...meta,
   }}
   headings={sections.map((section) => ({
-    text: section.name,
+    text: text(section.name),
     slug: section.slug,
     depth: section.depth,
   }))}
@@ -110,15 +177,17 @@ const meta = {
 >
   {
     sections.map((section) => {
-      const Heading: HeadingType = `h${section.depth}`;
+      const Heading = `h${section.depth}` as const;
       return (
         <>
-          <Heading id={section.slug}>{section.name}</Heading>
+          <Heading id={section.slug}>
+            <Markdown content={section.name} />
+          </Heading>
           <ul>
-            {section.links.map((link) => {
+            {section.entries.map(({ url, title }) => {
               return (
                 <li>
-                  <a href={link.url}>{link.title}</a>
+                  <a href={url}>{title}</a>
                 </li>
               );
             })}
