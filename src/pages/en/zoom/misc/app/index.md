@@ -21,7 +21,7 @@ There are two ways to install the Zoom app: in advance, or when joining a meetin
 1. Please access the "[Download Center](https://zoom.us/download)” from the Zoom website.
 
 2. Please press the "Download” button in "Zoom Workplace”. The installer of Zoom Workplace will be downloaded ("Zoom Workplace” is the name of the app for using Zoom). 
-![](./en_ZoomApps_download_windows.PNG){:.border .medium}  
+![](./en_ZoomApps_download_windows.PNG){:.border .medium}
 ![](./en_ZoomApps_download_mac.PNG){:.border .medium}
 3. Following steps vary depending on the case. Sometimes the installation proceeds automatically to completion, other times you may need operations that are pressing a confirmation button or opening the downloaded files yourself. 
   
