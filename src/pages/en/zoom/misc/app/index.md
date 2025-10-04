@@ -59,7 +59,7 @@ When you have an urgent meeting e.g., you can set up a meeting immediately.
 1. Please press "New Meeting”. There are two types of meeting IDs used in this case: 
 a random meeting ID (11 digits) and “the Personal Meeting ID (10 digits)”. By default, a random meeting ID is newly generated each time and becomes invalid immediately after the meeting . On the other hand, when you want to use your personal meeting ID, please press "∨” next to "New Meeting” and check "Use my personal meeting ID”.
   * The personal meeting ID is a meeting ID that is uniquely assigned to each user as meetings for personal use. One advantage is that you don’t need to send out an invitation if the other person already knows your personal meeting ID.On the other hand, when you do not set up a lock of a meeting, or waiting room function, people who know your personal meeting ID can enter the room even when you are using a meeting for other purposes, so caution is required.  
-![](en_ZoomApps_newmeeting.PNG){:.border}
+![](./en_ZoomApps_newmeeting.PNG){:.border}
 3. When the meeting starts, by pressing “^” next to “Participants” on the meeting screen and “Copy invite link” or by “Copy Link” from the green shield symbol at the top of the meeting screen, please notify the participants.  
 ![](./en_ZoomApps_copylink.PNG){:.border}  
 ![](./en_ZoomApps_copylink_meetinginfo.png){:.border .small}
