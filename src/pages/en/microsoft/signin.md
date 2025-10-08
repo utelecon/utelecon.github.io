@@ -32,16 +32,16 @@ When signing in to Microsoft systems using UTokyo Account, contrary to signing i
 
 1. Please check the displayed screen and follow the instructions below.
     - If **"Sign in"** ("サインイン" in Japanese) is displayed below the Microsoft or the UTokyo logo
-        - Enter "10-digit common ID + `@utac.u-tokyo.ac.jp`" in the input field and click "Next" ("次へ" in Japanese) button.
+        - Enter "10-digit Common ID + `@utac.u-tokyo.ac.jp`" in the input field and click "Next" ("次へ" in Japanese) button.
     - If **"Pick an account"** is displayed below the Microsoft logo
-        - If an account with "10-digit common ID + `@utac.u-tokyo.ac.jp`" is displayed, select that account. If "Signed in" is displayed below the account name, you are already signed in to Microsoft systems with UTokyo Account. By selecting this account, you can continue to use Microsoft systems.
-        - If an account with "10-digit common ID + `@utac.u-tokyo.ac.jp`" is not displayed, click "Use another account," enter "10-digit common ID + `@utac.u-tokyo.ac.jp`" in the input field, and then click "Next."
+        - If an account with "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is displayed, select that account. If "Signed in" is displayed below the account name, you are already signed in to Microsoft systems with UTokyo Account. By selecting this account, you can continue to use Microsoft systems.
+        - If an account with "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is not displayed, click "Use another account," enter "10-digit Common ID + `@utac.u-tokyo.ac.jp`" in the input field, and then click "Next."
 2. After the message "Taking you to your organization's sign-in page" is displayed, you will be automatically redirected to the sign-in page with the image of Yasuda Auditorium. Follow the instructions in "[Sign in to the ICT systems with your UTokyo Account](/utokyo_account/#signin)" to sign in.
     <details>
     <summary>Help when this procedure does not work</summary>
 
     - If you see **"Enter a valid email address, phone number, or Skype name."** or **"We couldn't find an account with that username. Try another, or get a new Microsoft account."**
-        - The input is incorrect. Please check if you have entered "10-digit common ID + `@utac.u-tokyo.ac.jp`" correctly.
+        - The input is incorrect. Please check if you have entered "10-digit Common ID + `@utac.u-tokyo.ac.jp`" correctly.
     - If you see **"That Microsoft account doesn't exist. Enter a different account or get a new one."**
         - You cannot sign in with UTokyo Account on this sign-in page. If you see this screen even though the system supports signing in with UTokyo Account, please contact the [support desk](/en/support/).
     </details>
