@@ -1,8 +1,5 @@
 {
-  "[mdx]": {
-    "editor.formatOnSave": false
-  },
-  "[markdown]": {
+  "[mdx][markdown]": {
     "editor.formatOnSave": false
   },
   "mdx.experimentalLanguageServer": true,
