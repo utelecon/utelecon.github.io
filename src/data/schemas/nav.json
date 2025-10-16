@@ -9,6 +9,17 @@
         "type": "string",
         "description": "ナビゲーションのまとまりのタイトルです．"
       },
+      "sitemap": {
+        "type": "object",
+        "description": "`/sitemap/` の生成に関する設定です．存在する場合はこの名前の見出しが生成され，`contents` の全ての項目の親となります．",
+        "properties": {
+          "section": {
+            "type": "boolean",
+            "description": "見出しに現れることを宣言します．"
+          }
+        },
+        "required": ["section"]
+      },
       "contents": {
         "type": "array",
         "description": "そのまとまりのナビゲーションの中身です．",
@@ -23,6 +34,23 @@
             "url": {
               "type": "string",
               "description": "ナビゲーションのリンク先です．`/`から始めてください．"
+            },
+            "sitemap": {
+              "type": "object",
+              "properties": {
+                "section": {
+                  "type": "boolean",
+                  "description": "見出しに現れるかどうかを指定します．`false` の場合，親の見出しの中に直接入ります．"
+                },
+                "parent": {
+                  "type": "string",
+                  "description": "親の見出しがどれかを指定します．"
+                }
+              }
+            },
+            "hidden": {
+              "type": "boolean",
+              "description": "ヘッダーとフッターには表示しない場合に指定します．"
             }
           },
           "required": ["name", "url"],
