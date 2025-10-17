@@ -4,6 +4,60 @@ breadcrumb:
   title: Messages
 ---
 
-import UtolInPreparation from "@components/en/UtolInPreparation.mdx";
+## What is the message function
 
-<UtolInPreparation />
+Enrolled students in a course on UTOL can send messages to course instructors, TAs, and other enrolled students. Please note that this feature is unavailable unless the course instructor has enabled it.
+
+## How to use
+
+This section provides an explanation of how to use the message function.
+
+### Start a new conversation
+
+1. Click the "+" button on the course top screen to go to the "Messages" screen. You will now be able to create a new message. 
+   ![](course-top.png)
+2. Enter the following information.
+   ![](message-create.png)
+    * Title
+    * Message body
+      * You can use the markup function in UTOL. For more information about the markup function, please refer to "[Using the markup function in UTOL](../../markup/)".
+    * Attachments
+      * To attach a file, click the "Reference" button, select a file, and click the "Add".
+      * Please refrain from using attachments when in an emergency or mass sending.
+    * 宛先：教員・TAや履修者，あるいはその両者を宛先として設定できます．
+      * 宛先に教員・TA（コース管理者）を指定する
+        * コース管理者の宛先は「すべての担当教員及びTA」「すべての担当教員」「指定なし」から選択できます．    
+        * 複数の教員・TAが参加するコースで特定の教員・TAに対してのみメッセージを送ることはできません．
+        * 教員にのみ伝えたい内容かどうかで「すべての担当教員およびTA」か「すべての担当教員」かを使い分けてください．      
+        * コース管理者の宛先に「指定なし」を選択すると，履修者同士のメッセージのやりとりとなります．なおこの時，担当教員やTAはメッセージに参加できませんが，担当教員はメッセージを閲覧することができます．また，「指定なし」を選択した場合は1人以上の履修者を宛先に指定してください．
+      * 宛先に履修者を指定する
+        * 以下の手順に従って追加できます．
+          1. 「履修者を検索して追加」ボタンを押すと，履修者検索画面がポップアップで表示されます
+          2. 追加したい履修者のID（UTokyo Accountでログインしているユーザの場合は，10桁の共通ID）を「ユーザID」欄に入力し，「検索」を押してください．検索結果一覧にユーザが表示されます．
+          3. 追加したいユーザのチェックボックスにチェックを入れてください．
+          4. 「指定」ボタンを押してください．
+       ![](message-to-enrolled-students.png)
+3. Click the "Send" button to send the message.
+   ![](message-sending.png)
+
+### 受信したメッセージを確認する・返信する
+
+#### 受信したメッセージを確認する
+
+新しく受信したメッセージは，コーストップの「メッセージ」欄から以下のように確認できます．
+* すでに始めた会話に返信があるとき
+  * 既存の会話の「ステータス」列に「未読」と表示されます．
+* 担当教員やTA、他の履修者が自分を含む新しい会話を始めたとき
+  * 新しく会話が作られ，「ステータス」列に「未読」と表示されます．
+![](message-status.png)
+
+なお，更新通知からも確認できます．また，メール・LINEで返信内容を受信することもできます．詳しい通知設定方法については「[UTOLからの通知を設定する](../../notification/)」をご参照ください． 
+
+#### 既存の会話に返信する
+
+以下の手順で返信できます．
+1. 「タイトル」列のリンクを押すと，「メッセージ投稿」画面に移り，返信を確認できます．
+   ![](message-title.png)
+   ![](response-create.png)
+   この画面を開いている間に届いた新着メッセージを確認したい時は画面上部の[更新]ボタンを押してください．
+2. メッセージに返信する場合は，本文と添付ファイルを入力して送信してください．
