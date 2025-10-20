@@ -52,6 +52,23 @@ Markdownファイルのフロントマターにかける設定は以下の通り
 - `npm run unused-asset`：使われていないアセットをすべて標準出力する．
   - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
 
+## Navigation
+
+utelecon のナビゲーションは原則として，パス構造をもとにした木構造に基づきます．サイト全体のナビゲーションには主に以下の4つがあります：
+- ヘッダー
+  - `src/data/nav/{ja,en}.yml` の通りに生成されます．
+  - `hidden: true` とあるエントリーは表示されません．
+- フッター
+  - `src/data/nav/{ja,en}.yml` の通りに生成されます．
+  - `hidden: true` とあるエントリーは表示されません．
+- サイトマップ (`/sitemap/`)
+  - `src/data/nav/{ja,en}.yml` の通りに見出しが生成され，その構造に合わせて全てのページのリンクが表示されます．
+  - `sitemap:` の内容によって挙動が変わります．詳しくは [`src/data/schemas/nav.json`](./src/data/schemas/nav.json) を参照してください．
+  - フロントマターに `sitemap: false` と書いたページは表示されません．
+- パンくずリスト
+  - フロントマターの `breadcrumb:` の通りに生成されます．
+  - 詳しくは[パンくずリストの表示](#パンくずリストの表示)を参照してください．
+
 ## How it works
 
 [Astro](https://astro.build)という静的サイトジェネレータを用いています．特殊な機能について以下で説明します．
