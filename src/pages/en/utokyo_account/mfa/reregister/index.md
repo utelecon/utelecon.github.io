@@ -31,7 +31,7 @@ If none of the verification methods registered are available, reregister your ve
 
 There are two ways to reregister: by using the Identity Verification Service or by submitting an application.
 
-The Identity Verification Service allows you to reregister on your own. However, to use this service, you must meet several [requirements](.#ident-myna-conditions), such as having already completed the pre-link for the "[UTokyo Account Identity Verification Service](../../ident-myna/)".
+The Identity Verification Service allows you to reregister on your own. However, to use this service, you must meet several [requirements](.#ident-myna-conditions), such as having already completed the pre-link for the "[UTokyo Account Identity Verification Service](/en/utokyo_account/ident-myna/)".
 
 - To reregister using the Identity Verification Service, please refer to "[Reregister using the Identity Verification Service](.#ident-myna)" and follow the procedure.
 
