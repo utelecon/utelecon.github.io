@@ -43,7 +43,7 @@ Googleの公式ヘルプ「[Google サイトの使い方](https://support.google
 ### サイトの公開
 
 1. 公開したいサイトの編集画面で，右上の「公開」を押してください．
-![サイトの編集画面](edit_site_screen.png){:.medium}
+![サイトの編集画面](edit_site_screen.png){:.medium .border}
 2. サイトを閲覧できるユーザーを確認してください．
 ![公開前の画面](set_url_manage.png){:.medium}
   - そのままで良い場合は，手順3に進んでください．
