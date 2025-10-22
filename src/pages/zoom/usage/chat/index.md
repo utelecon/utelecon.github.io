@@ -241,7 +241,7 @@ Zoomミーティングの[クラウドレコーディング](https://utelecon.ad
 
 1. 「[Zoom サインイン方法](https://utelecon.adm.u-tokyo.ac.jp/zoom/signin/)」を参考にしてブラウザでZoomのウェブポータルにアクセスし，「レコーディングと文字起こし」を開いてください．
 2. 「クラウドレコーディング」の画面を開き，該当のレコーディングを選択し，「チャットファイル」をダウンロードしてください．
-* クラウドレコーディングについての詳細は，「[Zoomレコーディング](https://utelecon.adm.u-tokyo.ac.jp/zoom/usage/recording/)」の記事を参照してください．
-* クラウドレコーディングで保存されたチャットファイルは，リンクで共有することもできます．
+   * クラウドレコーディングについての詳細は，「[Zoomレコーディング](https://utelecon.adm.u-tokyo.ac.jp/zoom/usage/recording/)」の記事を参照してください．
+   * クラウドレコーディングで保存されたチャットファイルは，リンクで共有することもできます．
 
 ![](cloud_chat_download.png)
