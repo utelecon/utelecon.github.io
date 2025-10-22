@@ -171,7 +171,7 @@ Zoomのチャット機能を用いると，ミーティング中にホストや�
    ![](screenshot_area.png)
 5. 適宜絵文字や文章を追加し，「キャプチャー」を押してください．
 6. チャット画面に戻り，送信ボタンをクリックしてください．
-   ![](send_screenshot.png){:.border}
+   ![](send_screenshot.png){:.border .middle}
 
 #### チャットで絵文字を使用する
 {:#emoji}
