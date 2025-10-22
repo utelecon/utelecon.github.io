@@ -95,7 +95,7 @@ Zoomのチャット機能を用いると，ミーティング中にホストや�
 4. テキストを入力し，送信してください．  
    ![](howtoreply.png){:.border .middle}
 5. スレッドが作成され，返信が元のメッセージの右下に表示されます．
-   ![](reply_display.png){:.border}
+   ![](reply_display.png){:.border .middle}
 
 #### チャットをローカルに手動保存する 
 {:#manual-save}
