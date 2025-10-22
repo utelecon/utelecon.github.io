@@ -168,7 +168,7 @@ Zoomのチャット機能を用いると，ミーティング中にホストや�
 2. チャット画面で下部のスクリーンショットアイコンを押してください．
    ![](screenshot_icon.png){:.small}{:.border}
 3. スクリーンショットを取得するウインドウを選択するか，ドラッグして撮影する範囲を選択してください．
-   ![](screenshot_area.png)
+   ![](screenshot_area.png){:.middle}
 5. 適宜絵文字や文章を追加し，「キャプチャー」を押してください．
 6. チャット画面に戻り，送信ボタンをクリックしてください．
    ![](send_screenshot.png){:.border .middle}
