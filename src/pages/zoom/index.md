@@ -60,6 +60,7 @@ Zoomは，東京大学で最も多く使われているWeb会議システムで�
 - （主催者向け）[ブレイクアウトルーム機能を使う](usage/breakout/)
 - （主催者向け）[投票をする](usage/poll/)
 - （主催者向け）[レコーディングをする](usage/recording/)
+     - [レコーディングのレイアウト](usage/recording/layout/)
 
 ## その他
 {:#misc}
