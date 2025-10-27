@@ -24,7 +24,7 @@ You can open the screens for editing and managing meetings as follows.
 As noted above, this article distinguishes between the**Meeting Edit screen**and the**Meeting Management screen**, so please keep this in mind when reading.
 
 ## Operations on the Meeting Edit Screen
-{:#edit}
+
 On the Meeting Edit screen, you can review and change the basic items that were set when creating the meeting, such as the meeting name (topic) and the date/time. For detailed explanations of these items, see [Creating a Zoom Meeting].(/zoom/create_room/)」
 ![](edit.png)
 
