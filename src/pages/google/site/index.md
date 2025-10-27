@@ -57,5 +57,7 @@ Googleの公式ヘルプ「[Google サイトの使い方](https://support.google
         3. 「完了」を押してください．
             ![](set_visibility.png){:.small}
 3. ウェブアドレス欄に任意の文字列を入力して「公開」を押してください．
-  - 「<a href="#withutac">カスタムドメイン設定サービス</a>」を利用していない場合，URLは`https://sites.google.com/g.ecc.u-tokyo.ac.jp/xxx`という形式になります．
-![ウェブアドレス入力画面](publish_site.png){:.small}
+   - 「[カスタムドメイン設定サービス](#with-utac)」を利用していない場合，URLは`https://sites.google.com/g.ecc.u-tokyo.ac.jp/xxx`という形式になります．
+
+    ![ウェブアドレス入力画面](publish_site.png){:.small}
+
