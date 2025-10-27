@@ -35,7 +35,7 @@ These operations can be performed not only from the browser but also from the ap
 ![](edit-app.png)
 
 ## Operations on the Meeting Management Screen
-{:#manage}
+
 On the Meeting Management screen, you can review basic items such as the meeting name and date/time. Unlike on the Meeting Edit screen, you can only review these items but you cannot change them.
 ![](manage.png)
 
