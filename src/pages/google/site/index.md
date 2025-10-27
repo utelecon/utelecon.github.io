@@ -38,7 +38,7 @@ Google サイトは，ブラウザ上でウェブサイトを作成して公開�
 
 ### サイトの作成・編集
 
-Googleの公式ヘルプ「[Google サイトの使い方](https://support.google.com/sites/answer/6372878?hl=ja)」を参照してください．ただし，上記「<a href="#withutac">カスタムドメイン設定サービス</a>」を利用する場合は，先にそちらの手続きをしてください．
+Googleの公式ヘルプ「[Google サイトの使い方](https://support.google.com/sites/answer/6372878?hl=ja)」を参照してください．ただし，上記「[カスタムドメイン設定サービス](#with-utac)」を利用する場合は，先にそちらの手続きをしてください．
 
 ### サイトの公開
 
