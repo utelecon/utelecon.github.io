@@ -43,7 +43,7 @@ Googleの公式ヘルプ「[Google サイトの使い方](https://support.google
 ### サイトの公開
 
 1. 公開したいサイトの編集画面で，右上の「公開」を押してください．
-![サイトの編集画面](edit_site_screen.png){:.medium .border}
+![](edit_site_screen.png){:.medium .border}
 2. サイトを閲覧できるユーザーを確認してください．
     - そのままで良い場合は，手順3に進んでください．
     - 変更したい場合は，以下の手順を行ってください．
@@ -59,5 +59,5 @@ Googleの公式ヘルプ「[Google サイトの使い方](https://support.google
 3. ウェブアドレス欄に任意の文字列を入力して「公開」を押してください．
    - 「[カスタムドメイン設定サービス](#with-utac)」を利用していない場合，URLは`https://sites.google.com/g.ecc.u-tokyo.ac.jp/xxx`という形式になります．
 
-    ![ウェブアドレス入力画面](publish_site.png){:.small}
+    ![](publish_site.png){:.small}
 
