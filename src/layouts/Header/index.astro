@@ -114,8 +114,8 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
 </script>
 
 <style lang="scss">
-  @import "../../styles/color";
-  @import "./variables";
+  @use "@styles/color";
+  @use "variables";
 
   header.header {
     display: grid;
@@ -139,7 +139,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   #changeLangNavigation {
     display: none;
   }
-  @media (max-width: $header-hamburger-breakpoint) {
+  @media (max-width: variables.$header-hamburger-breakpoint) {
     header.header {
       display: flex;
       flex-flow: column;
@@ -174,11 +174,11 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   }
 
   @mixin background {
-    background-color: $header-background-color-primary;
+    background-color: color.$header-background-color-primary;
     background-image: linear-gradient(
       120deg,
-      $header-background-color-secondary,
-      $header-background-color-primary
+      color.$header-background-color-secondary,
+      color.$header-background-color-primary
     );
   }
   header.header {
@@ -190,12 +190,12 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
       text-decoration: none;
     }
   }
-  @media (max-width: $header-hamburger-breakpoint) {
+  @media (max-width: variables.$header-hamburger-breakpoint) {
     .primary {
       @include background;
     }
     .hamburger-contents {
-      background-color: $header-nav-bg-color;
+      background-color: color.$header-nav-bg-color;
     }
   }
 
@@ -246,7 +246,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   .title {
     font-weight: normal;
     margin: 0.5rem 2rem 0.25rem 2rem;
-    @media (max-width: $header-hamburger-breakpoint) {
+    @media (max-width: variables.$header-hamburger-breakpoint) {
       margin: 0.5rem 1rem 0.5rem 0;
     }
     &__link {
@@ -275,7 +275,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
     :visited:hover {
       text-decoration: underline;
     }
-    @media (max-width: $header-hamburger-breakpoint) {
+    @media (max-width: variables.$header-hamburger-breakpoint) {
       flex-direction: column;
       row-gap: 1em;
       padding: 1em;
@@ -284,7 +284,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
 
   #changeLangNavigation {
     text-align: center;
-    background-color: $header-nav-bg-color;
+    background-color: color.$header-nav-bg-color;
     color: white;
     a {
       display: inline-block;
@@ -299,7 +299,7 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
   }
   #changeLangLink {
     display: inline-block;
-    background-color: $header-nav-bg-color;
+    background-color: color.$header-nav-bg-color;
     font-weight: bold;
     border: 1px solid white;
     padding: 0.25rem 0.5rem;
@@ -320,10 +320,10 @@ const theOtherLangUrl = canonicalUrl.pathname.startsWith("/en/")
     }
     .title span {
       &:nth-child(1) {
-        color: $header-background-color-secondary;
+        color: color.$header-background-color-secondary;
       }
       &:nth-child(2) {
-        color: $header-background-color-primary;
+        color: color.$header-background-color-primary;
       }
     }
   }

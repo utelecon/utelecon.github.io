@@ -1,4 +1,4 @@
-import type { AstroIntegration } from "astro";
+import type { AstroIntegration, IntegrationResolvedRoute } from "astro";
 
 import { existsSync } from "node:fs";
 import { copyFile, mkdir } from "node:fs/promises";
@@ -19,21 +19,27 @@ const assetPathsCache = new Set<string>();
 
 export default function CopyAssetIntegration(): AstroIntegration {
   const parser = unified().use(rehypeParse);
+  let routes: IntegrationResolvedRoute[] = [];
 
   return {
     name: "copy-asset",
     hooks: {
-      "astro:build:done": async ({ dir, routes }) => {
+      "astro:routes:resolved": (params) => {
+        routes = params.routes;
+      },
+      "astro:build:done": async ({ dir }) => {
         await Promise.all(
-          routes.map(async ({ pathname, component }) => {
-            if (!pathname || pathname.endsWith("/rss.xml")) return;
-            const path = getDistFilePath(dir, pathname, component);
+          routes.map(async ({ pathname, entrypoint, type }) => {
+            if (!pathname || pathname.endsWith("/rss.xml") || type !== "page") {
+              return;
+            }
+            const path = getDistFilePath(dir, pathname);
             const source = await read(path);
             const hast = parser.parse(source);
 
             const base = new URL(
-              join(relative("src/pages", dirname(component)), sep),
-              ORIGINS[0],
+              join(relative("src/pages", dirname(entrypoint)), sep),
+              ORIGINS[0]
             );
 
             for (const tag of selectAll("a", hast)) {
@@ -47,7 +53,7 @@ export default function CopyAssetIntegration(): AstroIntegration {
                 assetPathsCache.add(assetPath);
               }
             }
-          }),
+          })
         );
 
         await Promise.all(
@@ -72,7 +78,7 @@ export default function CopyAssetIntegration(): AstroIntegration {
               await mkdir(dirname(destPath), { recursive: true });
             }
             await copyFile(srcPath, destPath);
-          }),
+          })
         );
       },
     },

@@ -9,14 +9,16 @@ breadcrumb:
 
 Please check which of the following applies to you, and **back up your data in advance if necessary**.
 
+However, if for some reason you are unable to create a backup before leaving and you have a justifiable reason to access your data or account after you have left, we may be able to provide exceptional access to some of your data or account under certain conditions. For more details, please visit the page of "[cloud data salvage](./salvage/)".
+
 ## If you are no longer affiliated with the University of Tokyo
 {:#leave}
 
-If you leave the University of Tokyo due to graduation or resignation, your UTokyo Account will be revoked after the end of the enrollment period and you will not be able to use the various information systems. Please back up your data according to the instructions given on the **“[Data Backup upon Leaving the University of Tokyo](backup)”** page.
+If you leave the University of Tokyo due to graduation or resignation, your UTokyo Account will be revoked after the end of the enrollment period and you will not be able to use the various information systems. Please back up your data according to the instructions given on the **“[Data Backup upon Leaving the University of Tokyo](backup/)”** page.
 
 Only if students graduate, the revocation will be at the end of the final month of the enrollment period.
 
-Furthermore, some information systems, such as the [UTokyo Antivirus License](/antivirus/), are not automatically terminated even though you are no longer authorized to use them upon leaving the university. Please follow the instructions or each system to terminate their use.
+Furthermore, some information systems, such as the [UTokyo Antivirus License](/en/antivirus/), are not automatically terminated even though you are no longer authorized to use them upon leaving the university. Please follow the instructions or each system to terminate their use.
 
 Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers in FY2023<small>(*You must sign in with your UTokyo Account to view this page)</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)" page (in Japanese) for more information on the UTokyo Antivirus License.
 - If you have already left the University of Tokyo, you cannot view the above pages because you cannot sign in to your UTokyo Account. In this case, please contact [the Technical Support Desk via the email form](/en/support/#email-form).
@@ -26,7 +28,7 @@ Please refer to the "[UTokyo Antivirus License: Notes for Graduates and Leavers 
 
 If your affiliation changes within the University of Tokyo, **as long as your affiliation is uninterrupted**, you will continue to be able to use the information systems with the same UTokyo Account. Therefore, there is no need to back up your data.
 
-- However, if your enrollment period is interrupted when you change your affiliation, your UTokyo Account will be revoked, so please make sure to back up your data according to the instructions on the "**[Data Backup upon Leaving the University of Tokyo](backup)**" page.
+- However, if your enrollment period is interrupted when you change your affiliation, your UTokyo Account will be revoked, so please make sure to back up your data according to the instructions on the "**[Data Backup upon Leaving the University of Tokyo](backup/)**" page.
 - Depending on whether you are a student or a faculty/staff member, your employment status and other factors, some systems may not be available to you, or the scope of functions you can use may be limited.
     - For example, only students and faculty/staff members employed by the University of Tokyo can install and use the Office applications under the UTokyo Microsoft License. If you no longer qualify for this due to a change in affiliation, you will no longer be able to use them.
     - And, for example, only faculty/staff members can access UTokyo Portal. If you no longer qualify for this due to a change in affiliation, you will no longer be able to access it.

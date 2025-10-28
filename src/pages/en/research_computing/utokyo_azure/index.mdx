@@ -1,5 +1,5 @@
 ---
-Title: "UTokyo Azure"
+title: "UTokyo Azure"
 breadcrumb:
   title: "UTokyo Azure"
 ---
@@ -20,13 +20,15 @@ as well as
 
 Furthermore, a wide variety of CPUs and GPUs with various processor models and memory capacities is available, making the service applicable to a diverse range of purposes and fields.
 
+- Reference: [Information Session UTokyo Azure](/en/events/2025-04-18/slides/1_introduction.pdf) (April 18, 2025:Information Session Slide)
+
 ## Operation Policies and Goals
 
 Operation is performed by the Information Technology Center, the Information System Department, and the Information System Headquarters. The basic policies and goals are as follows.
 
 - Lower the barrier to entry and minimize the time lag for starting use, encouraging a broad range of users, including first-time users, to take advantage of it. By eliminating the costs and time associated with procuring computing resources that would otherwise be necessary, we hope this service will contribute to accelerating research at the University of Tokyo.
 - Make it available for a wide range of uses without restricting fields, provided the purpose is research or education.  
-  - Note: Usage for administrative tasks is not permitted. For administrative purposes, please continue to use the [Microsoft licenses](/en/microsoft/) already contracted for the entire university.
+  - Note: It can also be used for administrative tasks purposes as long as it is for operational and functional testing. If you wish to move to full-scale use after testing, please sign a separate contract for Microsoft Azure instead of this service.
 - Allow access to as wide a range of Azure services as possible without narrowly restricting the available options.  
   - In principle, all services offered by Microsoft Azure will be made available as-is, and the operational team will not interfere with or become involved in individual users' environments.  
   - However, services deemed operationally difficult to provide may be excluded.  
@@ -47,14 +49,28 @@ Operation is performed by the Information Technology Center, the Information Sys
 - First, please submit an application via the [**UTokyo Azure New Usage Application Page (accessible only within the university network)**](http://azure.itc.u-tokyo.ac.jp/).  
   - Applications can only be submitted by faculty or staff members who can take responsibility for payment if usage fees are incurred. Students who wish to use the service should consult with an appropriate person in a supervisory role, such as their academic advisor.
 
-- Once your application is approved, a [**subscription (in Japanese)**](/research_computing/utokyo_azure/faq/subscription) linked to your UTokyo Account will be assigned for this service.  
+- Once your application is approved, a [**subscription (in Japanese)**](/research_computing/utokyo_azure/faq/subscription/) linked to your UTokyo Account will be assigned for this service. 
+
+<div class="box">
+**Important：**UTokyo Azure subscriptions have a unique feature that automatically cancels your subscription when 90% of the Guaranteed Free Tier has been used up; this feature is enabled by default. This is a feature for users who want to be sure to stop using the service within the Guaranteed Free Tier, but at that point the subscription will be canceled immediately, making it impossible to recover and preventing access to resources. **If you do not want your data or other resources to be canceled, please visit the [**UTokyo Azure New User Application Management Page**](http://azure.itc.u-tokyo.ac.jp/list) and remember to disable the "Automatic Suspension" feature for any subscriptions you do not want to cancel.**
+</div>
+
 - After the subscription is created, log in to the [Azure Portal](https://portal.azure.com/) using your [UTokyo Account](/en/utokyo_account/) to start using the service.  
   - You can log in to the portal even without an active subscription.
   - This allows you to check which services are available before applying.
 
+- Reference: [UTokyo Azure Worklow of Application](/en/events/2025-04-18/slides/3_how_to_apply.pdf) (April 18, 2025:Information Session Slide)
+
 ## Frequently Used Services and How to Use Them
 
-* under construction 
+### Virtual Machine
+- Reference: [Let's create a virtual machine](/en/events/2025-04-18/slides/5-3_Create_Virtual_Machine.pdf) (April 18, 2025:Information Session Slide)
+
+### Azure Open AI
+- Reference: [Get started with OpenAI's services](/en/events/2025-04-18/slides/5-2_Using_Azure_OpenAI_Service.pdf) (April 18, 2025:Information Session Slide)
+
+### Azure Machine Learning
+- Reference: [Use a notebook](/en/events/2025-04-18/slides/5-4_Using_Notebooks.pdf) (April 18, 2025:Information Session Slide)
 
 ## Groups Use
 
@@ -63,29 +79,33 @@ Operation is performed by the Information Technology Center, the Information Sys
 - [Groups use](/en/research_computing/utokyo_azure/group/)
 
 ## Events
-#### 2025.02.21 [Information Session on UTokyo Azure](https://utokyo-azure.github.io/events/2025-02-21/) (only in Japanese)
+
+| Date | Event |
+| ---- | ---- |
+| 2025.04.18 | [Information Session on UTokyo Azure（Conducted in English)](/en/events/2025-04-18/) |
+| 2025.02.21 | [Information Session on UTokyo Azure (Conducted in Japanese)](/events/2025-02-21/) |
 
 ## FAQ & Support
 
 #### [FAQ](/en/research_computing/utokyo_azure/faq/)  
 - Frequently asked (or potentially frequently asked) questions are compiled here.  
 
-#### [UTokyo Slack channel](https://app.slack.com/client/E0312P7H7MX/C088H15FH3L?_gl=1*163sxt6*_gcl_au*MTUzNTE1MDYzOS4xNzM2ODIwNzQw)
+#### UTokyo Slack channel
 - Joining to `UTokyo Azure Users Community`
-- How to Join > [Joining an open workspace in UTokyo Slack](https://utelecon.adm.u-tokyo.ac.jp/en/slack/join)
+- How to Join > [Joining an open workspace in UTokyo Slack](/en/slack/join/)
 
-#### [Microsoft Copilot](/notice/2024/03-microsoft-copilot)
+#### [Microsoft Copilot](/notice/2024/03-microsoft-copilot/)
 - [URL](https://copilot.microsoft.com/)：Please log in using your [UTokyo Account](/utokyo_account/).
 
 #### [Microsoft Support](https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview)  
-- You can contact Microsoft's support representatives. For technical inquiries related to Azure, please utilize this resource.  
+- This is where you can contact a Microsoft representative. If you have any questions, especially regarding quota requests, please contact us here.
+- When you enter your technical inquiry about UTokyo Azure, Microsoft Azure-related documents, FAQs, links to user communities, etc. are suggested. To receive an accurate answer, please enter and select your inquiry and options as specifically and accurately as possible.
 - Refer to the following guide for instructions on submitting support requests:  
   - [Support Requests](/en/research_computing/utokyo_azure/support/)  
 
 #### UTokyo Azure Support Team  
 
-- Inquiries can be made through [utelecon technical support desk](/en/support/). However, for general questions about individual service usage or technical issues related to Azure, please understand that due to the wide variety of services and limited available information, it is recommended to contact Microsoft representatives directly.  
-
+- Inquiries can be made through [utelecon technical support desk](/en/support/).  
 - UTokyo Azure Support Team in UTokyo: utokyo-azure-group@g.ecc.u-tokyo.ac.jp
 
 ## aknowledgement

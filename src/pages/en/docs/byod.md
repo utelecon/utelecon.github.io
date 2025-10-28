@@ -15,7 +15,7 @@ Starting from the 2022 academic year, the University of Tokyo will implement BYO
 ## Basic performance requirements
 
 - OS: Latest version of Windows or macOS (Windows 11 or macOS 14)
-- CPU: Equivalent to Intel Core i5, AMD Ryzen7, Qualcom Snapdragon X, or Apple M2 or higher
+- CPU: Equivalent to Intel Core i5, AMD Ryzen7, Qualcomm Snapdragon X, or Apple M2 or higher
 - Memory: 16GB or more
 - Storage: SSD 256GB or more
 - Network: Wireless LAN Wi-Fi 6 or higher (IEEE802.11ax or higher)

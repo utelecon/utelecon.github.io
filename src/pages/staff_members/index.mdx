@@ -8,13 +8,14 @@ description: このページでは，新たに東京大学で働く職員を対�
 
 import UTokyoAccountChangePassword from '@components/ja/systems/utokyo_account/ChangePassword.mdx'
 import UTokyoAccountMFA from '@components/ja/systems/utokyo_account/MFA.mdx'
+import PrelinkingIdentMyna from "@components/ja/systems/utokyo_account/PrelinkingIdentMyna.mdx";
 import ZoomSigninBrowser from "@components/ja/systems/zoom/SigninBrowser.mdx";
 import InformationSecurity from "@components/ja/InformationSecurity.mdx";
 import UtolLogin from '@components/ja/systems/utol/Login.mdx'
 
 <b class="box">
-{/* 2025/3/12 15:00から，説明会「<a href="/events/2025-03-12/">東京大学における情報システムとコミュニケーションツール</a>」を開催します．本ページとあわせてご参照ください． */}
-2025/3/12 に，説明会「<a href="/events/2025-03-12/">東京大学における情報システムとコミュニケーションツール</a>」を開催しました．説明会の資料と動画をリンク先のページで提供していますので，本ページとあわせてご参照ください．
+{/* 2025/9/10 15:00から，説明会「<a href="/events/2025-09-10/">東京大学における情報システムとコミュニケーションツール</a>」を開催します．本ページとあわせてご参照ください． */}
+2025/9/10 に，説明会「<a href="/events/2025-09-10/">東京大学における情報システムとコミュニケーションツール</a>」を開催しました．説明会の資料と動画をリンク先のページで提供していますので，本ページとあわせてご参照ください．
 </b>
 
 ## 基本的なご案内
@@ -52,16 +53,16 @@ import UtolLogin from '@components/ja/systems/utol/Login.mdx'
 
 「UTokyo Account」は，東京大学の情報システムを利用する際に必要となる全学的なアカウントです．この後で説明するZoomやUTOLなどの各システムは，このアカウントでログインして使うのが基本になります．
 
-UTokyo Accountのユーザ名は，`0123456789@utac.u-tokyo.ac.jp`のように，10桁の数字（共通ID）の後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたもので表されます．
+UTokyo Accountは，`0123456789@utac.u-tokyo.ac.jp`のように，共通ID（UTokyo Accountの先頭10桁の数字のみの部分）の後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたもので表されます．
 
 以下，UTokyo Accountの初期設定について説明します．システムを利用するために必要となる重要な作業ですので，よく読んで作業を行ってください．
 
-### UTokyo Accountの初期パスワードを変更する
+### 【必須】UTokyo Accountの初期パスワードを変更する
 {:#change-initial-password}
 
 <UTokyoAccountChangePassword variant="faculty_members" />
 
-### UTokyo Accountの「多要素認証」を有効化する
+### 【必須】UTokyo Accountの「多要素認証」を有効化する
 {:#setting-up-mfa}
 
 <UTokyoAccountMFA />
@@ -69,13 +70,18 @@ UTokyo Accountのユーザ名は，`0123456789@utac.u-tokyo.ac.jp`のように�
 {/*
 東京大学では，情報システムのセキュリティ向上を目的として，UTokyo Accountには多要素認証を導入しています．また，UTokyo Accountを持つすべての方が#多要素認証の設定を必須#としております．「多要素認証 (Multi-Factor Authentication, MFA)」とは，アカウントへのサインイン時に，パスワードに加えて，SMSや専用のアプリなどで本人確認を行う認証方法です．多要素認証を利用すると，なんらかの事情でパスワードが他人に知られた場合でも，アカウントにサインインされる可能性を低くすることができ，セキュリティを向上することができます．
 
-UTokyo Accountでは，利用者が各自で初期設定を行うことにより，多要素認証が有効化される仕組みとなっています．UTokyo Accountのセキュリティを確保することは，利用者個人の情報だけでなく，大学が保有する情報資産を守るために非常に重要ですので，多要素認証の利用は必須となっています．多要素認証の有効化が完了するまで一部のシステムは利用できません．「**[UTokyo Accountの多要素認証の初期設定手順](/utokyo_account/mfa/initial)**」のページを確認いただき，設定してください．
+UTokyo Accountでは，利用者が各自で初期設定を行うことにより，多要素認証が有効化される仕組みとなっています．UTokyo Accountのセキュリティを確保することは，利用者個人の情報だけでなく，大学が保有する情報資産を守るために非常に重要ですので，多要素認証の利用は必須となっています．多要素認証の有効化が完了するまで一部のシステムは利用できません．「**[UTokyo Accountの多要素認証の初期設定手順](/utokyo_account/mfa/initial/)**」のページを確認いただき，設定してください．
 */}
 
-### 情報セキュリティ教育の受講
+### 【必須】情報セキュリティ教育の受講
 {:#information-security-education}
 
 <InformationSecurity variant="faculty_members" />
+
+### 【推奨】UTokyo Account本人確認サービスの事前連携
+{:#myna-link}
+
+<PrelinkingIdentMyna />
 
 ### 職員向けの初期設定
 ここまでの手順により，以下のページの「はじめに」の項目の部分が完了します．

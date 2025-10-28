@@ -42,7 +42,7 @@ The owners of a shared drive, along with the people (within the same team or org
 
 1. Select “Shared drives” from the left menu on the Google Drive interface. The created shared drive will be displayed. 
 1. Right-click on the name of the shared drives list and click on the “View members” in the displayed menu.
-1. For future additions and deletions, follow the same procedures outlined in “The setup process for sharing with specific individuals” on the page “[Sharing Files Using Google Drive](share#individual)”(an English translation is planned).
+1. For future additions and deletions, follow the same procedures outlined in “The setup process for sharing with specific individuals” on the page “[Sharing Files Using Google Drive](../share/#individual)”(an English translation is planned).
     - The types of access authorization in shared drives are slightly different. Please refer to the following explanation for details.
     - You cannot copy a link to the shared drive itself. People who are added as members to the shared drive will see it listed when they open "Shared Drives" in the left menu on the Google Drive interface. Please access it from there.
 
@@ -71,9 +71,24 @@ Here are the various types of access authorizations (the allowed operations) in 
 
 ### How to use files and folders in the shared drives
 
-In the shared drives, operations on files or folders such as creating, editing, uploading and downloading can be performed in the same manner as for the standard Google Drive (My Drive). Please refer to “[The basic usage of Google Drive](basic)”(an English translation is planned) for more details.
+In the shared drives, operations on files or folders such as creating, editing, uploading and downloading can be performed in the same manner as for the standard Google Drive (My Drive). Please refer to “[The basic usage of Google Drive](../basic/)”(an English translation is planned) for more details.
 
-In addition, a shared drive can have multiple owners and members, which allows the sharing of files from the shared drives. With this feature, files and folders stored in a shared drive can be shared with people outside the shared drive. Using this feature, the operations are the same as for “My Drive” (Google Drive other than shared drives). Please refer to “[Share files using Google Drive](share)”(an English translation is planned) for more details.
+In addition, a shared drive can have multiple owners and members, which allows the sharing of files from the shared drives. With this feature, files and folders stored in a shared drive can be shared with people outside the shared drive. Using this feature, the operations are the same as for “My Drive” (Google Drive other than shared drives). Please refer to “[Share files using Google Drive](../share/)”(an English translation is planned) for more details.
+
+## Rules regarding access authorization
+
+In order to ensure appropriate use of shared drives in ECCS Cloud Email, the following rules have been established regarding users' access authorization.
+
+- At least one user must have "Manager" access authorization.
+- When a Manager leaves UTokyo, please designate another ECCS Cloud Email user as the new Manager in advance.
+- Do not grant "Manager" access authorization to users outside of ECCS Cloud Email.
+    - Granting access authorization other than "Manager" is acceptable.
+
+These rules will be checked regularly, and the following actions will be taken for shared drives found to be in violate of these rules.
+
+- Shared drives without a manager may be deleted.
+- For shared drives where users other than ECCS Cloud Email have "Manager" access authorization, we will notify the Manager via email of the rule violation and request corrective action. If no corrective action is taken, the system will change the access authorization of users other than ECCS Cloud Email from "Manager" to "Content Manager."
+    - If the Manager is no longer assigned, the shared drive may be deleted.
 
 <!--
 
