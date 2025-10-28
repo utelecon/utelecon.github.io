@@ -25,7 +25,7 @@ As noted above, this article distinguishes between the**Meeting Edit screen**and
 
 ## Operations on the Meeting Edit Screen
 
-On the Meeting Edit screen, you can review and change the basic items that were set when creating the meeting, such as the meeting name (topic) and the date/time. For detailed explanations of these items, see [Creating a Zoom Meeting].(/en/zoom/create_room/)」
+On the Meeting Edit screen, you can review and change the basic items that were set when creating the meeting, such as the meeting name (topic) and the date/time. For detailed explanations of these items, see [Creating a Zoom Meeting](/en/zoom/create_room/)
 ![](edit.png)
 
 For recurring meetings, selecting Edit All Occurrences allows you to review and change settings for all instances at once. Selecting Edit This Occurrence lets you edit only a specific instance, but the items that can be reviewed or changed are limited.
@@ -41,11 +41,11 @@ On the Meeting Management screen, you can review basic items such as the meeting
 
 On the other hand, for features such as polls/quizzes, surveys, live streaming, and Q&A, you can both review and change the settings. Each of these can be managed from its respective tab.
 
-In addition, you can convert a meeting into a webinar (a separate additional license is required) or add it to a calendar. These operations can be performed from the More tab.
+In addition, you can convert a meeting into a webinar [a separate additional license is required](/zoom/license) or add it to a calendar. These operations can be performed from the More tab.
 
 ## Delete a Meeting
 
-You can delete a meeting from the meeting list screen in the web portal or from the Meeting Management screen. Note that you cannot delete a meeting from the Meeting Edit screen.．
+You can delete a meeting from the [meeting list screen](https://u-tokyo-ac-jp.zoom.us/meeting) in the web portal or from the Meeting Management screen. Note that you cannot delete a meeting from the Meeting Edit screen.．
 
 ### How to Delete from the Meeting List Screen
 
