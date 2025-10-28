@@ -41,7 +41,7 @@ On the Meeting Management screen, you can review basic items such as the meeting
 
 On the other hand, for features such as polls/quizzes, surveys, live streaming, and Q&A, you can both review and change the settings. Each of these can be managed from its respective tab.
 
-In addition, you can convert a meeting into a webinar [a separate additional license is required](/zoom/license) or add it to a calendar. These operations can be performed from the More tab.
+In addition, you can convert a meeting into a webinar [a separate additional license is required](en/zoom/license) or add it to a calendar. These operations can be performed from the More tab.
 
 ## Delete a Meeting
 
