@@ -25,7 +25,7 @@ As noted above, this article distinguishes between the**Meeting Edit screen**and
 
 ## Operations on the Meeting Edit Screen
 
-On the Meeting Edit screen, you can review and change the basic items that were set when creating the meeting, such as the meeting name (topic) and the date/time. For detailed explanations of these items, see [Creating a Zoom Meeting].(/zoom/create_room/)」
+On the Meeting Edit screen, you can review and change the basic items that were set when creating the meeting, such as the meeting name (topic) and the date/time. For detailed explanations of these items, see [Creating a Zoom Meeting].(/en/zoom/create_room/)」
 ![](edit.png)
 
 For recurring meetings, selecting Edit All Occurrences allows you to review and change settings for all instances at once. Selecting Edit This Occurrence lets you edit only a specific instance, but the items that can be reviewed or changed are limited.
