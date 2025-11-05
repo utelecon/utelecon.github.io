@@ -6,6 +6,7 @@ title: UTokyo Accountのパスワード設定に関するトラブルと対応
 <div style="text-align: right;">更新 2023年3月21日18時</div>
 
 <b class="box">
+
 このページの内容はシステムの更新により，現在無効となっています．UTokyo Accountでのサインインに問題が生じている場合は，[UTokyo Accountのページ](/utokyo_account/)もご参照ください．
 
 </b>
