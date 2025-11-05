@@ -2,7 +2,6 @@
 title:  Editing and managing Zoom meetings
 breadcrumb:
   title:  Editing and managing Zoom meetings
-  parent: /zoom/
 ---
 
 When scheduling a Zoom meeting, you can configure various items such as the meeting name and date/time. These settings can also be reviewed and changed after the meeting has been created. It is possble to even delete a meeting entirely. However, **the screen you use differs depending on whether you are reviewing, edeting,or,deleting a meeting.Since multiple screens that are similar exist**,it is important to be careful.
