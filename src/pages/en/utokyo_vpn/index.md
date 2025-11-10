@@ -31,7 +31,7 @@ You can use UTokyo VPN on iPhone, Android, and other mobile devices, though we c
 ### Enable Multi-factor Authentication
 {:#mfa}
 
-To use UTokyo VPN, you are required to enable multi-factor authentication for your UTokyo Account (please refer to [Using multi-factor authentication](/en/utokyo_account/mfa/) for your UTokyo Account). Thereafter, enable multi-factor authentication for your UTokyo Account (Multi-factor UTokyo VPN will be available 40 minutes after you apply for the authentication).
+To use UTokyo VPN, you are required to enable multi-factor authentication for your UTokyo Account (please refer to [Using multi-factor authentication](/en/utokyo_account/mfa/) for your UTokyo Account). Thereafter, enable multi-factor authentication for your UTokyo Account (Multi-factor UTokyo VPN will be available 30 minutes after you apply for the authentication).
 
 ### Information Security Education
 {:#information-security-education}
