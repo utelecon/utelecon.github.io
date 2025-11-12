@@ -24,7 +24,7 @@ If your UTokyo Account expires due to graduation or resignation, you will no lon
 
 Many systems available through UTokyo Microsoft License can be accessed via the following link.
 
-**[Microsoft 365](https://www.microsoft365.com/login)**{:.box.center}
+**[Microsoft 365](https://m365.cloud.microsoft/apps/?auth=2)**{:.box.center}
 
 <details>
 <summary>Systems not listed here</summary>
@@ -39,7 +39,7 @@ Microsoft provides systems other than those listed below, and it is possible to 
 
 Office applications that are installed on your device, such as Word, Excel, and PowerPoint. You can use only the latest version of each application. For instructions on how to get started, please refer to the following.
 
-**[Installing Office Applications with UTokyo Microsoft License](./install)**{:.box.center}
+**[Installing Office Applications with UTokyo Microsoft License](./install/)**{:.box.center}
 
 ### OneDrive
 {:#onedrive}
@@ -58,7 +58,7 @@ Possible use cases include the following:
 - When someone who is not a [Microsoft Office applications](#office_apps) user uses Office
 - When the Office app cannot be installed on the device due to permissions or other reasons
 
-For information on how to create and edit files on OneDrive using Microsoft Office Web Apps, please see **[Basic usage of OneDrive](./onedrive/basic)**.
+For information on how to create and edit files on OneDrive using Microsoft Office Web Apps, please see **[Basic usage of OneDrive](./onedrive/basic/)**.
 
 ### Teams
 {:#teams}
@@ -101,7 +101,7 @@ If you are asked to sign in as shown in the image below, enter "10-digit common 
 
 ![](./img/microsoft-signin-instruction-1.png){:.small.center.border}
 
-For detailed instructions and how to distinguish between other Microsoft accounts, please refer to **[Signing in with UTokyo Account](./signin)**.
+For detailed instructions and how to distinguish between other Microsoft accounts, please refer to **[Signing in with UTokyo Account](./signin/)**.
 
 ## Other licenses provided by Microsoft
 {:#related_licenses}
@@ -113,7 +113,7 @@ The following introduces licenses related to Microsoft systems available within 
 
 **Available only to students**
 
-This is a license to upgrade Windows to the Education edition. For instructions on how to use it, please refer to **[Windows Education for students](./windows_education_for_students)**.
+This is a license to upgrade Windows to the Education edition. For instructions on how to use it, please refer to **[Windows Education for students](./windows_education_for_students/)**.
 
 ### Microsoft License for shared PCs, etc.
 {:#shared_pc}
@@ -123,4 +123,4 @@ This is a license for Office and Windows that is operated to cover usage that ca
 ### UTokyo Microsoft Azure Dev Tools for Teaching
 {:#adt4t}
 
-it is a Microsoft developer software license for educational institutions. For instructions on how to use it, please check the **[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t)** page.
+it is a Microsoft developer software license for educational institutions. For instructions on how to use it, please check the **[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t/)** page.

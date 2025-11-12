@@ -14,4 +14,4 @@ This page describes how to create an event using Slido.
     * Share by QR code: Hover your mouse over the “Share” button on the upper right of the event screen to display the “Download QR Code” button. Click this button to save the QR code that participants can scan to join the event.
     * Share by event code: Share the 6-digit number starting with `#`shown at the top of the event screen with the participants. Participants can join the event by typing the event code on the [Slido website](https://app.sli.do/).
 
-After creating an event, you can access the event settings page to configure more advanced settings. For more information, please see “[Change Event Settings in Slido](change_event_settings)” .
+After creating an event, you can access the event settings page to configure more advanced settings. For more information, please see “[Change Event Settings in Slido](../change_event_settings/)” .

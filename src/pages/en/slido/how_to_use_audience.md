@@ -6,7 +6,7 @@ breadcrumb:
 
 This page describes what operations the participants (students) can perform in Slido.
 
-To use Slido as an event host, please refer to “[What Hosts Can Do in Slido](how_to_use_host).”
+To use Slido as an event host, please refer to “[What Hosts Can Do in Slido](../how_to_use_host/).”
 	
 ## Using the Q&A Feature
 

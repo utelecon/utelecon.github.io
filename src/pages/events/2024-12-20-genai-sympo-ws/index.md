@@ -11,7 +11,7 @@ title: "「生成AIと教育について考える」シンポジウム＋東大�
 * **日時：** 2024年12月20日（金） 13:00-16:00
 * **場所：** オンライン (Zoom) 開催
 * **前半 シンポジウム： (13:00-14:00)** どなたでも参加できます
-  * 矢谷浩司 准教授（工学系研究科）による特別講演："What Do People Feel When Working with Generative AI? --- Perspectives from Human-AI Interaction Research" (in English) (「生成AIと共に知的作業を行う際に人は何を感じるか？ 〜Human-AI Interaction研究の視点から〜」 英語による講演)
+  * 矢谷浩司 准教授（工学系研究科）による特別講演："What Do People Feel When Working with Generative AI? --- Perspectives from Human-AI Interaction Research" (in English) (「生成AIと共に知的作業を行う際に人は何を感じるか？ 〜Human-AI Interaction研究の視点から〜」 英語による講演) [講演資料](slides/1-slide-genAI-koji.pdf)
   * 実行委員会総長補佐グループ（講演者：山﨑俊彦 教授（情報理工学系研究科））：「学内外・国内外の最新動向や事例共有」
 * **後半 ワークショップ： (14:00-16:00)** 東大教職員のみ対象
   * ブレイクアウトルームでの議論： 担当する授業（分野や形式）などでグルーピングをし、グループごとに議論（詳細後述）
@@ -34,9 +34,14 @@ title: "「生成AIと教育について考える」シンポジウム＋東大�
 ## 参加申込
 
 * こちらの[参加申込ページ](https://forms.office.com/r/9YxpcArnta)から登録して下さい。
-* 当日まで申込可能ですが、ワークショップにおけるグルーピングを事前に行うために、なるべく12月2日(月)までに登録をお願いします。それ以降も申込み・ワークショップへの参加は可能ですが、早めの登録にご協力下さい。
+* 当日まで申込可能ですが、ワークショップにおけるグルーピングを事前に行うために、なるべく<strike>12月2日(月)</strike> 12月9日(月) までに登録をお願いします。それ以降も申込み・ワークショップへの参加は可能ですが、早めの登録にご協力下さい。ご都合により一部のみの参加も可能です。
 * 本件連絡先: 情報システム部情報支援課 
 * Email: systemshien.adm@gs.mail.u-tokyo.ac.jp
+
+## 参加者用ページ
+
+* 登録後、[参加者用ページ](https://univtokyo.sharepoint.com/sites/DX/generative-ai-and-education-utokyo-workshop) (要UTokyo Accountでサインイン) からZoomリンクなど必要な情報をご覧ください。
+* （学外の方など）閲覧が不可能または困難な場合は上記までご連絡ください。
 
 ## 生成AIに関する意見調査（匿名投票）
 

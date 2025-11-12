@@ -1,6 +1,7 @@
 import { fileURLToPath } from "node:url";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
+import partytown from "@astrojs/partytown";
 import { defineConfig } from "astro/config";
 import yaml from "@rollup/plugin-yaml";
 import remarkAttributeList from "remark-attribute-list";
@@ -8,12 +9,13 @@ import redirect from "./src/lib/RedirectIntegration.js";
 import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
 import dotSlashPlugin from "./src/lib/DotSlashPlugin.js";
 import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
-import externalLinks from "./src/lib/ExternalLinksIntegration.js";
 import { cleanup } from "./src/lib/CleanupIntegration.js";
 import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
 import copyAsset from "./src/lib/CopyAssetIntegration.js";
 import assetFileNames from "./src/lib/AssetFileNames.js";
+import ignoreAssets from "./src/lib/ignoreassets";
 import rehypeRaw from "rehype-raw";
+import remarkImageClasslist from "./src/lib/remark-image-classlist.js";
 
 // https://astro.build/config
 export default defineConfig({
@@ -36,7 +38,7 @@ export default defineConfig({
     },
   },
   build: {
-    format: "preserve",
+    format: "directory",
   },
   markdown: {
     remarkPlugins: [
@@ -51,6 +53,7 @@ export default defineConfig({
           allowNoPosition: true,
         },
       ],
+      remarkImageClasslist,
     ],
     remarkRehype: {
       footnoteLabelProperties: { className: ["visually-hidden"] },
@@ -66,14 +69,32 @@ export default defineConfig({
     mdx({ rehypePlugins: [] }),
     react(),
     redirect(),
-    externalLinks({
-      target: "_blank",
-      rel: ["noopener", "noreferrer"],
-      content: { type: "text", value: "" },
-      contentProperties: { className: ["external-link"] },
-    }),
     cleanup(),
     copyAsset(),
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
+    ignoreAssets([
+      ".avif",
+      ".docx",
+      ".gif",
+      ".jpg",
+      ".jpeg",
+      ".mp4",
+      ".png",
+      ".pdf",
+      ".pptx",
+      ".svg",
+      ".txt",
+      ".webp",
+      ".xlsx",
+      ".JPG",
+      ".PNG",
+      ".bat",
+      ".sh",
+    ]),
   ],
   site: "https://utelecon.adm.u-tokyo.ac.jp",
 });

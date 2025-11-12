@@ -17,7 +17,7 @@ In the first part (the symposium, open to all), Associate Professor Koji Yatani 
 * Date: Friday, December 20, 2024, 13:00–16:00
 * Location: Online (Zoom)
 * Symposium (First Half): (13:00–14:00) Open to all
-  * Special Lecture by Associate Professor Koji Yatani (Graduate School of Engineering): _"What Do People Feel When Working with Generative AI? --- Perspectives from Human-AI Interaction Research"_ (in English)
+  * Special Lecture by Associate Professor Koji Yatani (Graduate School of Engineering): _"What Do People Feel When Working with Generative AI? --- Perspectives from Human-AI Interaction Research"_ (in English) [slide deck](/events/2024-12-20-genai-sympo-ws/slides/1-slide-genAI-koji.pdf)
   * Report by Organizing Committee, Presented by Professor Toshihiko Yamazaki (Graduate School of Information Science and Technology): _"Trends and Cases from Japan and Overseas"_
 * Workshop (Second Half): (14:00–16:00) For UTokyo faculty and staff only
   * Breakout Room Discussions: Group discussions categorized by courses being taught (subjects and formats); further details below
@@ -40,9 +40,14 @@ This symposium and workshop aim not only to impart knowledge but also to foster 
 ## Registration
 
 * Please register through [the event registration page](https://forms.office.com/r/9YxpcArnta).
-* You can register at any time before the event, but to group participants in advance, please register by December 2 (Monday) if possible.  You can register and participate in the workshop after that, but we appreciate your cooperation to register early.
+* You can register at any time before the event, but to group participants in advance, please register by <strike>December 2 (Monday)</strike> December 9 (Monday) if possible.  You can register and participate in the workshop after that, but we appreciate your cooperation to register early.  You are welcome to partially participate in the workshop based on your availability.
 * Contact: Information Systems Support Group, Information Systems Department
 * Email: systemshien.adm@gs.mail.u-tokyo.ac.jp
+
+## Participant-only page
+
+* After you register, please see [participant-only page](https://univtokyo.sharepoint.com/sites/DX/generative-ai-and-education-utokyo-workshop) (need to sign in with UTokyo Account) for further information (e.g., Zoom link).
+* Please contact us at the above address if you have a difficulty to open the page (e.g., if you are not UTokyo member).
 
 ## Opinion Poll on Generative AI (anonymous voting)
 

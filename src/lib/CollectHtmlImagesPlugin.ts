@@ -1,11 +1,11 @@
 import type { Root } from "hast";
+import type { VFile } from "vfile";
 import { selectAll } from "hast-util-select";
-import type { MarkdownVFile } from "@astrojs/markdown-remark";
 
 const ALLOWED_PREFIXES = ["/", "./", "../", "@"];
 
 export default function collectHtmlImages() {
-  return (node: Root, file: MarkdownVFile) => {
+  return (node: Root, file: VFile) => {
     selectAll("img", node).forEach((img) => {
       if (typeof img.properties?.src !== "string") return;
 
@@ -13,7 +13,9 @@ export default function collectHtmlImages() {
       if (!ALLOWED_PREFIXES.some((prefix) => src.startsWith(prefix))) {
         img.properties.src = `./${src}`;
       }
-      file.data.imagePaths!.add(img.properties.src);
+      const imagePaths = file.data.astro!.localImagePaths;
+      if (imagePaths?.includes(img.properties.src)) return;
+      imagePaths?.push(img.properties.src);
     });
   };
 }

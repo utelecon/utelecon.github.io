@@ -5,6 +5,7 @@ breadcrumb:
 ---
 
 import HelpItem from "@components/utils/HelpItem.astro";
+import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.mdx";
 
 ## 概要
 {:#about}
@@ -15,13 +16,7 @@ Microsoft Azureのサービスの一つであるAzure Blob Storage上に大容�
 ## ストレージアカウントの作成 
 {:#storage_account}
 
-<div class="box">
-- まだサブスクリプションをお持ちでない場合は，事前に以下サイトよりサブスクリプションを申請してください．
-  - [UTokyo Azure新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/) ※学内アクセス限定．UTokyo Account 所持者のみログイン可
-</div>
-
-- [Azure portal](https://portal.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．（新規申請された場合は表示されるようになるまで時間がかかります）
-
+<FirstTimeUsing type="details" />
 
 - Azureサービスの検索で“ストレージ”と検索すると表示される，`ストレージアカウント`を選択します．
 
@@ -98,13 +93,13 @@ Pythonを用いたデータのダウンロードやファイル一覧の表示�
 
 ## データの共有
 
-特定のファイルやコンテナーを Shared Access Signature (SAS) を用いて共有することができます。 
+特定のファイルやコンテナーを Shared Access Signature (SAS) を用いて共有することができます。．
 
-1\. ブラウザ上でファイル/コンテナーの右端の`…`から`SASの作成`を選択 
+1\. ブラウザ上でファイル/コンテナーの右端の`…`から`SASの作成`を選択．
 
 2\. 共有する期間やアクセスを許可するIPアドレス範囲、共有相手の権限を設定し、`SASトークンおよびURLを生成` 
 
-3\. 生成されたBLOB SAS URLから共有相手もファイルにアクセスできます。 
+3\. 生成されたBLOB SAS URLから共有相手もファイルにアクセスできます．
 
 
 ## ストレージのマウント
@@ -150,4 +145,4 @@ azstorage:
 
 `$ sudo blobfuse2 mount /mnt/blobfuse --config-file ~/.blobfuse2/config.yaml `
 
-マウントに失敗する場合、設定ファイルやストレージアカウントのネットワーク設定を確認してください。 
+マウントに失敗する場合，設定ファイルやストレージアカウントのネットワーク設定を確認してください． 

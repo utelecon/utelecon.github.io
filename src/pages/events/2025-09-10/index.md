@@ -1,0 +1,68 @@
+---
+title: "2025/09/10 説明会：東京大学における情報システムとコミュニケーションツール"
+---
+
+## 開催趣旨
+
+Aセメスターの開始にあたり，東京大学で利用されている情報システムやコミュニケーションツールの概要を説明します．
+
+大学での教育研究活動には様々な情報システムを利用する必要があり，東京大学はそのための環境を提供しています．一部には，すべての教職員が必ずしなければならない手続きや，使わなければならないシステムもあります．
+
+今回の説明会では，UTokyo Account，情報セキュリティ，学内Wi-Fi環境，授業に必要なシステム（UTAS，UTOL）について説明します．加えて，教育研究活動や業務に利用できるツールやクラウドサービス（Zoom，Slack，Google，Microsoftなど）も紹介します．
+
+東京大学に来たばかりでこれから情報システム・ツールを利用する方はもちろん，以前から東京大学で情報システム・ツールを使っている方の参加も歓迎します．皆様のご参加をお待ちしております．
+
+なお，説明は主に教職員に向けた内容になりますが，学生の参加も歓迎します．説明会の内容は，各学部・研究科等で行われる学生向けガイダンスを補うものになります．
+
+## 概要
+
+- **期日**：2025年9月10日（水）
+- **時間**：15:00～17:00（終了後も質問を受け付けます）
+- **会場**：オンライン
+  [要事前登録](https://u-tokyo-ac-jp.zoom.us/meeting/register/XsbHhaQSRfudJ6r4AGAnIw)
+    <!-- 詳細については，今後このページにてアナウンスします． -->
+
+説明会の資料・録画はこのページで提供しています（録画の[再生リスト](https://www.youtube.com/playlist?list=PLKo_naYprM4cr2anu4Qsjn9K61scitHrz)）．
+
+## 内容
+
+- 説明会の趣旨と全体像（[資料](slides/00_index_ja.pdf)・[録画](https://youtu.be/5plQFL7nmLY)）
+- Part I：東京大学における情報システムの基礎（[資料](slides/01_basics_ja.pdf)・[録画](https://youtu.be/EZp6d9fBNqM)）
+    - UTokyo Account
+    - 初期設定と多要素認証
+    - 情報セキュリティ教育
+    - UTokyo Wi-Fi
+- Part II：利用可能なコミュニケーションツールとクラウドサービス（[資料](slides/02_cloud_services.pdf)・[録画](https://youtu.be/sX5hbcLjjAQ)）
+    - Zoom とオンライン会議のためのツール
+    - UTokyo Slack
+    - ECCS クラウドメール (Google Workspace)
+    - UTokyo Microsoft License
+    - 生成AI
+    - サポート体制
+- Part III：教育活動に利用する情報システム – UTAS と UTOL（[資料](slides/03_systems_for_education_ja.pdf)・[録画](https://youtu.be/7LWyH-WuXl4)）
+    - UTAS
+    - UTOL
+- 質疑応答（終了後も質問を受け付けます）
+- 全体まとめ
+
+質問は**[こちらの Slido](https://app.sli.do/event/7mJmPfBbqw52TcgGTmeCSt/live/questions)** （または [https://sli.do/](https://sli.do/) で code = `utelecon20250910`）へ投稿してください．事前の質問も歓迎します．<ins>（9月11日追記：質問の受付は終了しました．開催時のご質問と回答はまだご覧いただけますが，録画を視聴されての新たなご質問は[サポート窓口](/support/)にお寄せください．）</ins>
+
+### 話者
+
+- 田浦健次朗　執行役・副学長
+- 雨宮　智浩　情報基盤センター 教授
+- 玉造　潤史　情報システム本部 准教授
+- 園井　健太　本部情報戦略課 係長
+
+## 参加登録
+
+説明会への参加を申し込むには，参加登録フォームにアクセスして登録してください．フォームを送信すると，Zoom情報を記載したメールが自動返信されます．
+[参加登録フォーム](https://u-tokyo-ac-jp.zoom.us/meeting/register/XsbHhaQSRfudJ6r4AGAnIw)
+
+### 事前アンケート
+
+[事前アンケート](https://forms.office.com/r/Sh6r3VexS6)にご協力をお願いします.
+
+### 事後アンケート
+
+[事後アンケート](https://forms.office.com/r/EnGhSHCF2j)にご協力をお願いします. Zoomから退出した際に表示されたアンケートと同じものですので，そちらから回答することも可能です．

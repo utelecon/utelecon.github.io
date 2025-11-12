@@ -8,36 +8,37 @@ sitemap: false
 ---
 
 import "@styles/top.scss";
+import "@styles/rss_icon.scss";
 
 import Emergency from '@components/Emergency.mdx'
 import Notice from '@components/pages/Notice.astro'
 import Events from '@components/pages/Events.astro'
+import FontAwesomeIcon from "@components/embed/FontAwesomeIcon.astro";
+import MaterialIcon from "@components/embed/MaterialIcon.astro";
 
 <Emergency />
 
+## For Newcomers to UTokyo
+{:.heading}
+
 <div class="largecards">
   <div class="largecards__card">
-    <a href="/oc/">For New Students</a>
+    <a href="/en/oc/"><MaterialIcon icon="groups" /><span class="title">For Students</span></a>
   </div>
   <div class="largecards__card">
-    <a href="/faculty_members/">For Faculty Members</a>
+    <a href="/en/faculty_members/"><FontAwesomeIcon icon="chalkboard-user" /><span class="title">For Faculty Members</span></a>
+  </div>
+  <div class="largecards__card">
+    <a href="/en/staff_members/"><MaterialIcon icon="badge" /><span class="title">For Staff</span></a>
   </div>
 </div>
 
-<Events show={[
-  "2024-09-13",
-  "2024-03-15",
-  "2024-03-11",
-]} alternative={{"2024-09-13": {"href": "/en/events/2024-09-13"}}} lang="en">
-<Fragment slot="2024-09-13">Information Session on ICT Systems and Tools for UTokyo Members</Fragment>
-<Fragment slot="2024-03-15">Briefing Session: Briefing Session on Enhancing Use of IT Tools at UTokyo <small>(only in Japanese)</small></Fragment>
-<Fragment slot="2024-03-11">Briefing Session: Briefing Session on IT Tools for Instructors Teaching for the First Time at UTokyo <small>(only in Japanese)</small></Fragment>
-</Events>
+<div class="systems-link">[To the list of ICT systems of UTokyo](/en/systems/){:.arrow-link}</div>
 
 <div class="container">
 <div class="container__column">
 
-## Notice
+## Notice <a href="/en/notice/rss/" class="rss_icon" title="RSS">rss_feed</a>
 
 {/* To add notice here, edit `src/data/notice.yml` */}
 
@@ -48,19 +49,36 @@ import Events from '@components/pages/Events.astro'
 </div>
 <div class="container__column">
 
+{/*
+  To add alternative (English for Japanese page) title,
+  place `Fragment` of title to the `slot=_key_`.
+  For details, see `src/pages/index.mdx`.
+*/}
+
+<Events show={[
+  "2025-09-10",
+  "2025-04-18",
+  "2025-02-21",
+  "2024-09-13",
+]} alternative={{"2024-09-13": {"href": "/en/events/2024-09-13"}}} lang="en">
+<Fragment slot="2025-09-10">Information Session on ICT Systems and Tools for UTokyo Members <small>(only in Japanese)</small></Fragment>
+<Fragment slot="2025-02-21">Information Session on UTokyo Azure <small>(only in Japanese)</small></Fragment>
+<Fragment slot="2024-09-13">Information Session on ICT Systems and Tools for UTokyo Members</Fragment>
+</Events>
+
 ## Pickup
 
-- [UTokyo Azure <small>(in Japanese)</small>](/research_computing/utokyo_azure)
+- [UTokyo Azure](/en/research_computing/utokyo_azure/)
 - [Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)
 {:.cards}
 
 ### Information on Beginning of Semester
 
-- [How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url)
-- [Restricting Access to Zoom Meeting Rooms for Online Classes <small>(for Faculty Members)</small>](/en/faculty_members/zoom_access_control)
-- [Additional License for Zoom <small>(Meeting over 300 participants / Webinar)</small>](/en/zoom/license)
-- [How to Obtain the Online Class URL (for Students)](/en/oc/url)
-- [How to join a online class <small>(for Students)</small>](/en/oc/join)
+- [How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url/)
+- [Restricting Access to Zoom Meeting Rooms for Online Classes <small>(for Faculty Members)</small>](/en/faculty_members/zoom_access_control/)
+- [Additional License for Zoom <small>(Meeting over 300 participants / Webinar)</small>](/en/zoom/license/)
+- [How to Obtain the Online Class URL (for Students)](/en/oc/url/)
+- [How to join a online class <small>(for Students)</small>](/en/oc/join/)
 {:.cards}
 
 </div>
@@ -69,19 +87,19 @@ import Events from '@components/pages/Events.astro'
 ## ICT Systems
 
 <div class="top__systems">
-  - [UTokyo Account](/en/utokyo_account/)
-  - [UTAS](/en/utas)
-  - [UTOL (UTokyo LMS)](/en/utol/)
-  - [UTokyo Wi-Fi](/en/utokyo_wifi/)
-  - [Zoom](/en/zoom/)
-  - [Webex](/en/webex/)
-  - [ECCS Cloud Email<small> (Google Workspace)</small>](/en/google/)
-  - [UTokyo Microsoft License](/en/microsoft/)
-  - [UTokyo Slack](/en/slack/)
-  - [Slido](/en/slido/)
-  - [UTokyo MATLAB Campus-Wide License](/en/matlab/)
-  - [UTokyo VPN](/en/utokyo_vpn/)
-  - [ECCS Terminals](https://www.ecc.u-tokyo.ac.jp/en/)
-  -
+  - [<MaterialIcon icon="person" />UTokyo Account](/en/utokyo_account/)
+  - [![](../_icons/utas.png)UTAS](/en/utas/)
+  - [![](../_icons/utol.png)UTOL (UTokyo LMS)](/en/utol/)
+  - [<MaterialIcon icon="wifi" />UTokyo Wi-Fi](/en/utokyo_wifi/)
+  - [![](../_icons/zoom.png)Zoom](/en/zoom/)
+  - [![](../_icons/webex.png)Webex](/en/webex/)
+  - [![](../_icons/google.png)ECCS Cloud Email<small> (Google Workspace)</small>](/en/google/)
+  - [![](../_icons/microsoft.png)UTokyo Microsoft License](/en/microsoft/)
+  - [![](../_icons/slack.png)UTokyo Slack](/en/slack/)
+  - [![](../_icons/slido.png)Slido](/en/slido/)
+  - [<MaterialIcon icon="bar_chart" />UTokyo MATLAB Campus-Wide License](/en/matlab/)
+  - [<MaterialIcon icon="vpn_lock" />UTokyo VPN](/en/utokyo_vpn/)
+  - [<MaterialIcon icon="computer" />ECCS Terminals](/en/eccs/)
+  - [List](/en/systems/){:.arrow-link}
   {:.cards}
 </div>

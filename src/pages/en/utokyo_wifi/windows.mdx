@@ -1,0 +1,64 @@
+---
+title: Using UTokyo Wi-Fi on Windows
+breadcrumb:
+  title: Using UTokyo Wi-Fi on Windows
+---
+import Intro from "./_Intro.astro"
+import IssueAccount from "./_IssueAccount.mdx"
+import SelectSsid from "./_SelectSsid.astro"
+import DeleteProfile from "./_DeleteProfile.astro"
+import TroubleConnect from "./_TroubleConnect.mdx"
+
+import Mfa100 from "./_Mfa100.mdx";
+
+<Mfa100 />
+
+<Intro kindOfTerminal="terminal of Windows" confirmedTerminal=""/>
+
+## Preparation: Apply for a UTokyo Wi-Fi account
+{:#issue-account}
+<IssueAccount />
+
+## Procedures for Windows
+{:#procedure}
+### Step 1: Enable the Wi-Fi function in the taskbar
+{:#turn-on}
+Select the globe icon in the taskbar, and then select the fan-shaped “Wi-Fi” icon to enable the Wi-Fi function.
+If there is only the fan-shaped “Wi-Fi” icon but no globe icon, simply select the former.
+![](img/windows10-turnon-globe.PNG){:.medium.center.border}
+![](img/windows10-turnon-sector.PNG){:.medium.center.border}
+
+### Step 2: Select the proper SSID from the SSID list
+{:#select-ssid}
+<SelectSsid userIdField="user-name"/>
+![](img/windows10-selectssid.PNG){:.medium.center.border}
+
+### Step 3: Delete the existing Wi-Fi setting information
+{:#delete-profile}
+<DeleteProfile userIdField="user-name"/>
+Right click the SSID you found in Step 2, select “Forget” from the displayed menu.
+![](img/windows10-deleteprofile.jpg){:.medium.center.border}
+
+### Step 4: Enter the required information and connect
+{:#create-profile}
+Select the SSID named `0000UTokyo` from the SSID list again.
+The screen of the Wi-Fi settings will be displayed after you select the SSID. To enter the required setting information into each field, follow the instructions below. You do not have to set those items that are shown in the following table but are not displayed on the screen. Once you have entered the setting information, select the connection button.
+
+| Field name      | Content     |
+| :-----------: | :------------------- |
+| Username      | Enter the user ID for the UTokyo Wi-Fi (Begin with a `u` and ending with `@wifi.u-tokyo.ac.jp`). |
+| Password      | Enter the password for the UTokyo Wi-Fi.      |
+
+![](img/windows10-createprofile.jpg){:.medium.center.border}
+
+#### Supplement
+{:#create-profile-notes}
+* Enter the user ID and password for the UTokyo account into the fields of “User name” and “Password”. Note that they are not the regular ID and password for the UTokyo Account. You can check the user ID and password in the notification email described in the ”**Preparation**” step or the screen of the completed application.
+* If there are any setting items other than mentioned above, please configure them as needed. If you have no particular preferences, you can leave the default settings.
+* During the connecting operation, a screen asking if you trust the certificate may appear. To verify whether the certificate is correct, compare the "server fingerprint" of the displayed certificate with the fingerprint listed in 「[Connect Configuration](/utokyo_wifi/#connect-configuration)」. If they match, trust the certificate.
+    * In addition, there are two types of fingerprints (SHA-1 and SHA-256) listed on [Connect Configuration](/en/utokyo_wifi/#connect-configuration);matching one type will suffice
+
+
+## Troubleshooting guide 
+{:#trouble-connect}
+<TroubleConnect />

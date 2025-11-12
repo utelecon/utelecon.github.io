@@ -1,30 +1,29 @@
 ---
-title: "Azure OpenAI Studio : UTokyo Azure 利用例"
+title: "Azure OpenAI : UTokyo Azure 利用例"
 breadcrumb:
-  title: "Azure OpenAI Studio"
+  title: "Azure OpenAI"
 ---
+
+import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.mdx";
 
 ## 概要
 {:#about}
 
-Azure OpenAI Studio を本サービスで利用する場合の初期手続き例です．
+Azure OpenAI を本サービスで利用する場合の初期手続き例です．
+
+参考：[**OpenAIのサービスを利用しよう**](/events/2025-02-21/slides/5-2_OpenAI.pdf) (2025.02.21 UTokyo Azure 説明会資料)
 
 ## １．サービスを選択する
 {:#select_service}
 
-<div class="box">
-- まだサブスクリプションをお持ちでない場合は，事前に以下サイトよりサブスクリプションを申請してください．
-  - [UTokyo Azure新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/) ※学内アクセス限定．UTokyo Account 所持者のみログイン可
-</div>
+<FirstTimeUsing type="details" />
 
-- [Azure portal](https://portal.azure.com/)に[UTokyo Account](/utokyo_account/)でログインし、リソースの欄に申請したサブスクリプションがあることを確認してください．（新規申請された場合は表示されるようになるまで時間がかかります）
-
-- Azureサービスの一覧の中から`Azure OpenAI Studio`を選択します．
+- Azureサービスの一覧の中から`Azure OpenAI`を選択します．
     - 一覧に無い場合、一覧の右にある`その他のサービス`を選択、左側にあるリストから`AI + Machine Learning`を選択すると， 右側に表示されるメイン画面の`Azure AI サービス + API`の中にあります．
 
 ![](img/01_openai1.png){:.medium.center.border}
 
-- Azure OpenAI Studio のメインページが表示されたら，画面左上にある`＋作成`またはメイン画面にある`Azure OpenAI の作成`をクリックします．
+- Azure OpenAI のメインページが表示されたら，画面左上にある`＋作成`またはメイン画面にある`Azure OpenAI の作成`をクリックします．
 
 ## ２．Azure OpenAI のプロジェクトを構成する
 {:#aihub}
@@ -49,15 +48,10 @@ Azure OpenAI Studio を本サービスで利用する場合の初期手続き例
 
 ![](img/02_openai2.png){:.medium.center.border}
 
-### ネットワークパート
+### ネットワーク，タグの各パート
 {:#network}
 
 ここでは初期設定(すべて許可) のまま進めます．
-
-### タグパート
-{:#tag}
-
-ここでは初期設定のまま進めます．
 
 ### 確認及び作成パート
 {:#execute}
@@ -66,24 +60,18 @@ Azure ポータルによる検証が成功したら，画面左下の`作成`ボ
 
 ![](img/03_openai3.png){:.medium.center.border}
 
-Azure OpenAI Studio のトップページに遷移するので，`Go to Azure OpenAI Studio`をクリックしてください．
-
-<div class="box">
-なお，ここで`Explore Azure AI Studio`をクリックすると，[Azure AI Studio](https://ai.azure.com/) でも利用が可能です．
-</div>
+Azure OpenAI のトップページに遷移するので，画面右上の`Go to Azure AI Foundry Portal`または画面下の`Azure OpenAI Metrics Dashboard`をクリックしてください．
 
 ![](img/04_openai4.png){:.medium.center.border}
 
-## ３．Azure OpenAI Studio でモデルをデプロイする
+以降は Azure AI Foundry で進めます．
+
+## ３．Azure AI Foundry でモデルをデプロイする
 {:#aistudioproject}
 
 **一例として GPT4 モデルのデプロイ手順を進めます．**
 
-- Azure OpenAI Sutdio に遷移すると以下のような画面になりますので，画面左側のリストから，`チャット`を選択します．
-
-![](img/05_openai5.png){:.medium.center.border}
-
-- メイン画面がセットアップになりますので`＋デプロイを作成`をクリックし，現れるプルダウンリストから`基本モデルから`を選択してください．
+- Azure AI Foundry に遷移すると以下のような画面になりますので`＋デプロイを作成`をクリックし，現れるプルダウンリストから`基本モデルから`を選択してください．
 
 ![](img/06_openai6.png){:.medium.center.border}
 
@@ -93,11 +81,13 @@ Azure OpenAI Studio のトップページに遷移するので，`Go to Azure Op
 
 - 確認画面になるので，`デプロイ`をクリックしてください．
 
+<div class="box">
+最新のモデルバージョンではクォータが足りないというエラーが出る場合があります．その場合はクォータの追加を依頼するか，古いモデルバージョンを選択ください．
+</div>
+
 ![](img/08_openai8.png){:.medium.center.border}
 
 - チャットプレイグランドが下図のようになりましたら完了です．
-  - `デプロイ`をクリックしてからデプロイ完了まで時間がかかる場合があります．
-  - 5分以上待っても変化がない場合は，ブラウザを再読み込みしてみてください．それでもチャットグランドが表示されない場合は，改めてデプロイしなおしてみてください．
 
 ![](img/09_openai9.png){:.medium.center.border}
 
@@ -118,6 +108,6 @@ Azure OpenAI Studio のトップページに遷移するので，`Go to Azure Op
 - OpenAI が提供する ChatGPT アプリケーションとは異なり，Azure の OpenAI サービスはトークンによって課金されるため，トークンの消費方法に注意してください．
 </div>
 
-### [デプロイしたモデルのクォータを管理する](/research_computing/utokyo_azure/ai/quota)
+### [デプロイしたモデルのクォータを管理する](/research_computing/utokyo_azure/ai/quota/)
 
-### [デプロイしたモデルを Python API から利用する](/research_computing/utokyo_azure/ai/python)
+### [デプロイしたモデルを Python API から利用する](/research_computing/utokyo_azure/ai/python/)

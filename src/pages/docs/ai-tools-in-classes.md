@@ -80,4 +80,4 @@ breadcrumb:
 
 ---
 
-[本ポータルサイト (utelecon) の生成AI（ChatGPT等）関連情報ページはこちら](/online/topics/generative-ai)
+[本ポータルサイト (utelecon) の生成AI（ChatGPT等）関連情報ページはこちら](/online/topics/generative-ai/)
