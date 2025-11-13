@@ -15,6 +15,7 @@ toc: false
 - **UTokyo Slack**：[Slack Status](https://slack-status.com/)
 - **UTokyo MATLAB Campus-Wide License**：[Application Status](https://status.mathworks.com/)
 - **Ezproxy・OPAC**：[データベース・電子ジャーナル・OPAC等の障害情報](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/servicestatus)
+- **UTokyo Azure**：[Azure status](https://azure.status.microsoft/ja-jp/status)
 
 また，SNSの書き込みをもとに障害の可能性を表示するサービスである「[Downdetector](https://downdetector.jp/)」の情報も，障害が発生しているかどうかの判断の参考となるかもしれません（各システムの提供元からの公式の情報ではないことに留意して利用してください）．
 
