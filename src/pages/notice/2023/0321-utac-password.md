@@ -7,7 +7,7 @@ title: UTokyo Accountのパスワード設定に関するトラブルと対応
 
 <b class="box">
 
-このページの内容はシステムの更新により，現在無効となっています．UTokyo Accountでのサインインに問題が生じている場合は，[UTokyo Accountのページ](/utokyo_account/)もご参照ください．
+このページの内容はシステムの更新により，2025年現在は該当しません．UTokyo Accountでのサインインに問題が生じている場合は，[UTokyo Accountのページ](/utokyo_account/)もご参照ください．
 
 </b>
 
