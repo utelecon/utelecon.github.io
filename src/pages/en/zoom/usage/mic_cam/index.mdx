@@ -398,7 +398,7 @@ please refer to the “[General troubleshooting methods for audio and video issu
 
 #### I am the only one where other participants' videos are not being displayed
 {:#other-video-trouble}
-Network issues may be the cause. Try the “[General troubleshooting methods for audio and video problems.](#general-troubleshooting)”
+Network issues may be the cause. Try the “[General troubleshooting methods for audio and video issues](#general-troubleshooting)”.
 
 #### My video is not visible to other participants
 {:#my-video-trouble}
@@ -420,4 +420,41 @@ If changing the camera does not resolve the issue, the following causes may be p
   * For iOS：Go to Settings → Privacy and Security → Microphone, then turn on Zoom.
   * For Android (confirmed on Pixel 6a running Android 13)：Go to Settings → Apps → Zoom, then navigate to Permissions → Camera and grant camera permission.
 * **Multiple applications using the same camera are running simultaneously, causing interference**：If you have multiple applications using the same camera running at the same time, they may interfere with each other. Please close any other applications using the same camera.
-* **The driver is not the latest version (for non-macOS systems)**：The camera driver version may not be up to date. For instructions on how to check the version, please refer to “Troubleshooting issues with Zoom video crashing or freezing”.
+* **The driver is not the latest version (for non-macOS systems)**：The camera driver version may not be up to date. For instructions on how to check the version, please refer to “[Troubleshooting issues with Zoom video crashing or freezing](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062684)”.
+
+### General troubleshooting methods for audio and video issues
+{:#general-troubleshooting}
+Here, we provide solutions for audio or video issues that persist even after trying the methods above, as well as solutions for other problems that may arise. 
+Please try the following troubleshooting steps.
+
+* **Change the network.**
+  * There may be an issue with your network connection. Please check your connected devices or use another network. If you are connected to Wi-Fi, try moving to a different location.
+* **Restart the Zoom app.**
+  * Click the × button displayed in the upper-right corner of the Zoom app to close it, then restart the application.
+* **Restart the PC itself, external speakers, and so on.**
+* **Use the latest version of Zoom.**
+  * Updating may resolve bugs that occurred in older versions. For instructions on how to update, please refer to the “[Updating Zoom to the latest version](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060716)” page.
+* **Uninstall the Zoom app, then reinstall it.**
+  * For uninstallation instructions, please refer to “[Uninstalling and reinstalling the Zoom application](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065146)”.
+* **Update the operating system and drivers to the latest versions.**
+  * A driver is software that enables specific hardware devices to function on a PC. Updating the drivers can resolve bugs and issues that occurred in older versions.
+  * Please visit the support page or download page for your device and update the driver to the latest version.
+* **Clear Zoom's cache and cookies.**
+  * Cache and cookies are files that temporarily store frequently used data to enable faster access. Deleting them can sometimes resolve various issues.
+  * For Windows
+    1. Please open Explorer.
+    2. Navigate to `C:/Users/Username/AppData/Roaming/Zoom` and delete the `data` folder located there.
+  * For Mac
+    1. Please open Finder.
+    2. Click \[Go\] in the menu bar at the top of the screen, then select \[Go to Folder\].
+    3. After entering `/Library/Application Support/zoom.us` in the window that appears, double-click to open the Zoom folder.
+    4. Please delete the `data` folder.
+  * For Android (confirmed on a Pixel 6a running Android 13)
+    1. Press “Settings” → “Apps” on your device.
+    2. Scroll down, select “Zoom” from the list of apps, then tap “Storage & Cache” → “Clear Data” → “Clear Cache”.
+  * For iOS
+    1. Tap Settings → General → iPhone Storage in sequence.
+    2. Scroll down, select “Zoom” from the list of apps, and tap “Delete App.”
+    3. Please reinstall the app from the App Store.
+  
+If the problem persists even after trying the above solutions, please contact our [**Technical Support Desk**](/en/support/).
