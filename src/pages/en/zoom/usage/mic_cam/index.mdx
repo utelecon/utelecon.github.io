@@ -333,8 +333,91 @@ please refer to the “[General troubleshooting methods for audio and video issu
 #### Problem with the speakers (cannot hear the other party)
 {:#speaker-trouble}
 
-##### 特定のスピーカーのみ聞こえない
+##### Only specific speakers are not audible
 {:#specific-speaker-trouble}
 
+If you can hear the voices when switching to different speakers, 
+or if you cannot hear any voices even when a specific speaker is selected, 
+there may be an issue with the speakers you are using. Please check that the speakers are turned on and properly connected. 
+If you still cannot hear any sound even after changing speakers, or if the speaker test shows no issues, 
+please refer to the section below titled “[The speakers are fine, but I can't hear anything](#audio-trouble-other-than-speakers)”.
 
+##### The speakers are fine, but I can't hear anything
+{:#audio-trouble-other-than-speakers}
 
+Please check if the following issues are occurring.
+* **The device volume is set to 0.**
+* **Microphone permission has not been granted to Zoom**：To grant microphone access, please follow the steps below.
+  * For Windows: Go to Start > Settings > Privacy or Privacy & Security > Microphone, then allow access for Zoom.
+  * For macOS: Go to System Settings → Privacy & Security → Microphone, then turn on Zoom.
+  * For iOS: Go to Settings → Privacy and Security → Microphone, then turn on Zoom.
+  * For Android: Go to Settings → Apps → Zoom. Next, go to Permissions → Microphone and turn on Zoom.
+* **Multiple applications using speakers are running simultaneously, causing interference**：If you have multiple applications using speakers running at the same time, they may interfere with each other. Therefore, if you wish to use speakers in Zoom, please close any other applications using speakers.
+* **Audio is disabled**：If the headphone icon appears in the bottom left corner of the meeting screen instead of the microphone icon, the audio functionality is not enabled. Press “Connect to Audio” (headphone icon), then press “Join with computer audio” on a PC or “WiFi or cellular data” on a smartphone.
+
+If the above methods do not resolve the issue, please refer to the “[General troubleshooting methods for audio and video issues](#general-troubleshooting)”.
+
+#### Problem with the microphone (my voice isn't reaching the other party)
+{:#mic-trouble}
+
+If the sound you're making isn't reaching the other party, there's a high chance that your microphone is malfunctioning. 
+Please check if any of the following issues apply:
+
+##### Only specific microphones cannot be used.
+{:#specific-mic-trouble}
+
+If switching to a different microphone allows your voice to be transmitted, or if a specific microphone does not transmit when selected, 
+there may be an issue with the microphone you are using. 
+Please check that the microphone is turned on and properly connected. 
+If no sound is transmitted even after changing microphones, or if a microphone test shows no issues, 
+please refer to the section below titled “[The microphone itself is fine, but the audio isn't being transmitted](#audio-trouble-other-than-mic)”.
+
+##### The microphone itself is fine, but the audio isn't being recognized.
+{:#audio-trouble-other-than-mic}
+
+Please check if the following issues are occurring.
+
+* **Microphone permission has not been granted to Zoom**：To grant microphone access, please follow the steps below.
+  * For Windows: Go to Start > Settings > Privacy or Privacy & Security > Microphone, then allow access for Zoom.
+  * For macOS: Go to System Settings → Privacy & Security → Microphone, then turn on Zoom.
+  * For iOS: Go to Settings → Privacy and Security → Microphone, then turn on Zoom.
+  * For Android: Go to Settings → Apps → Zoom. Next, go to Permissions → Microphone and turn on Zoom.
+* **Multiple applications using microphones are running simultaneously, causing interference**：If you have multiple applications that use microphones running at the same time, they may interfere with each other. Therefore, if you wish to use microphones in Zoom, please close any other applications using microphones.
+* **Audio is disabled**：If a headphone icon appears in the bottom left corner of the meeting screen instead of a microphone icon, the audio functionality is not enabled. Press “Connect to Audio” (headphone icon), then press “Join with computer audio” on a PC or “WiFi or cellular data” on a smartphone.
+
+If the above methods do not resolve the issue, please refer to the “[General troubleshooting methods for audio and video issues](#general-troubleshooting)”.
+
+### Video
+{:#video-trouble}
+
+For a PC, first perform a video test following the procedures in the “[Testing the Video](#video-test)”, then check the applicable items below. 
+For smartphones, check all countermeasures closest to the symptoms you are experiencing.
+
+If you are experiencing issues beyond video playback, or if the problem persists after following the steps below, 
+please refer to the “[General troubleshooting methods for audio and video issues](#general-troubleshooting)”.
+
+#### I am the only one where other participants' videos are not being displayed
+{:#other-video-trouble}
+Network issues may be the cause. Try the “[General troubleshooting methods for audio and video problems.](#general-troubleshooting)”
+
+#### My video is not visible to other participants
+{:#my-video-trouble}
+
+##### Only specific cameras cannot be used
+{:#specific-camera-trouble}
+If the video is displayed when switching to a different camera, the camera you are using may be malfunctioning. 
+Please verify that the camera is powered on and properly connected. If the video test shows no issues, proceed to the next item.
+
+##### The camera itself is fine, but it's not displaying anything
+{:#video-trouble-other-than-camera}
+If changing the camera does not resolve the issue, the following causes may be possible.
+
+* **The video has not started**：Press the video icon in the lower left corner to start the video.
+* **The host has stopped the video**：If you cannot start the video, the host may have stopped it. Therefore, please ask the host to press “[Ask to start video](#video-host-operations)”.
+* **Zoom does not have access permissions for the device**：To grant access permissions, follow the steps below.
+  * For Windows：Go to Settings → Privacy or Privacy & Security → Camera, then turn on “Allow this device to access the camera” and “Allow desktop apps to access the camera.”
+  * For macOS：Go to System Settings → Privacy & Security → Camera and turn on Zoom.
+  * For iOS：Go to Settings → Privacy and Security → Microphone, then turn on Zoom.
+  * For Android (confirmed on Pixel 6a running Android 13)：Go to Settings → Apps → Zoom, then navigate to Permissions → Camera and grant camera permission.
+* **Multiple applications using the same camera are running simultaneously, causing interference**：If you have multiple applications using the same camera running at the same time, they may interfere with each other. Please close any other applications using the same camera.
+* **The driver is not the latest version (for non-macOS systems)**：The camera driver version may not be up to date. For instructions on how to check the version, please refer to “Troubleshooting issues with Zoom video crashing or freezing”.
