@@ -21,15 +21,15 @@ There are two ways to install the Zoom app: in advance, or when joining a meetin
 1. Please access the "[Download Center](https://zoom.us/download)” from the Zoom website.
 
 2. Please press the "Download” button in "Zoom Workplace”. The Zoom Workplace installer will be downloaded ("Zoom Workplace” is the name of the app for using Zoom).
-![](./en_ZoomApps_download_windows.png){:.border .medium}  
-![](./en_ZoomApps_download_mac.png){:.border .medium}
+![](./ZoomApps_download_windows.png){:.border .medium}  
+![](./ZoomApps_download_mac.png){:.border .medium}
 3. Following steps vary depending on the situation. Sometimes the installation proceeds automatically to completion, while other times you may need to go through operations that require pressing of confirmation buttons or opening the downloaded files yourself. 
   
 ### Installing when you participate in a meeting
 {:#install-on-join}
 1. Please access the meeting URL.
 2. When the Zoom app is not installed, the files you need are downloaded automatically. If it is not downloaded, the following screen appears and you can download them by pressing "Download Now”.
-![](./en_ZoomApps_download_web.png){:.border}
+![](./ZoomApps_download_web.png){:.border}
 3. Please open the files you downloaded and install Zoom.
 
 ### Sign in using your UTokyo Account
@@ -45,11 +45,11 @@ When you hold a meeting, it is convenient to create the meeting using the app. H
 If the date and time of a meeting are already determined, you can create the meeting in advance.
 1. Open the Zoom app.
 2. Press "Schedule”．  
-   ![](./en_ZoomApps_schedule.png){:.border .medium}
+   ![](./ZoomApps_schedule.png){:.border .medium}
 3. Please set up information for a meeting. Details of settings for a meeting are shown in the "[Scheduling a Zoom Meeting](/en/zoom/create_room/#settings)” pages.  
-![](./en_ZoomApps_schedule_detail.png){:.border}
+![](./ZoomApps_schedule_detail.png){:.border}
 4. Press "Save” in the lower right corner. In the previous screen, if you selected “Other calendars” for “Calendar”, a screen such as that shown below will appear. Select the meeting URL, meeting ID, passcode, e.g., listed under “Join Zoom Meeting” and notify the participants by e-mail.
-![](./en_ZoomApps_schedule_invitation.png){:.border}
+![](./ZoomApps_schedule_invitation.png){:.border}
 
 ### Start a meeting immediately
 {:#create-now}
@@ -59,22 +59,22 @@ If you have an urgent meeting, you can set up a meeting immediately.
 2. Press "New Meeting”. There are two types of meeting IDs used in this case: 
 a random meeting ID (11 digits) and the “Personal Meeting ID” (10 digits). By default, a random meeting ID is newly generated each time and becomes invalid immediately after the meeting . On the other hand, if you want to use your personal meeting ID, please press the "∨” next to "New Meeting” and check "Use my personal meeting ID”.
   * The personal meeting ID is a meeting ID that is uniquely assigned to each user as meetings for personal use. One advantage is that you don’t need to send out an invitation if the other person already knows your personal meeting ID. However, if you do not set up a lock for the meeting, or use the waiting room feature, people who know your personal meeting ID can enter the room even when you are using a meeting for other purposes, so you need to be careful.
-![](en_ZoomApps_newmeeting.png){:.border}
+![](ZoomApps_newmeeting.png){:.border}
 3. When the meeting starts, notify the participants by pressing “^” next to “Participants” on the meeting screen and “Copy invite link” or by “Copy Link” from the green shield symbol at the top of the meeting screen and sending the link to the participants.
-![](./en_ZoomApps_copylink.png){:.border}  
-![](./en_ZoomApps_copylink_meetinginfo.png){:.border .small}
+![](./ZoomApps_copylink.png){:.border}  
+![](./ZoomApps_copylink_meetinginfo.png){:.border .small}
 
 ## Confirmation and editing of a meeting on the app
 {:#manage}
 You can confirm the created meeting from “Meetings” at the top of the app screen, and copy the invitation link as well as edit the meeting.
-![](./en_ZoomApps_schedule_check.png){:.border .medium}  
+![](./ZoomApps_schedule_check.png){:.border .medium}  
 On the day of the meeting, a screen like the image below will appear in the “Home” page. You can copy the invitation link and edit the meeting from “...”.
-![](./en_ZoomApps_schedule_remind.png){:.border .medium}
+![](./ZoomApps_schedule_remind.png){:.border .medium}
 
 ## Recommended settings in the app
 {:#settings}
 Press the gear icon in the upper right corner of the home screen to display a window where you can set up each setting of the app. Here are some recommended settings that can improve your experience with the Zoom app.
-![](./en_ZoomApps_setting.png){:.border}
+![](./ZoomApps_setting.png){:.border}
 
 ### Video
 {:#settings-video}
@@ -84,7 +84,7 @@ Press the gear icon in the upper right corner of the home screen to display a wi
 ### Audio
 {:#settings-audio}
 * **When you join, automatically connect to audio on your computer**：by checking the box, you can save yourself the trouble of confirming the dialog for the audio selection as shown in the image below when you enter a meeting.
-![](./en_ZoomApps_audio.png){:.border}
+![](./ZoomApps_audio.png){:.border}
 * **When you join, mute the microphone**：by checking the box, your microphone will be automatically turned off when you join a meeting.
 
 ## Updating your version
@@ -94,13 +94,13 @@ The Zoom app is regularly updated with new versions, where new feature functions
 ### Steps to update
 {:#update-steps}
 From the icon on the home screen, please press the “Check for updates”. Then, a check starts to confirm whether or not you have the latest version. When the latest version is already installed, the message "You are up to date” is displayed. When a newer version is available, the message“A newer version of Zoom is available” is displayed. Please press “Update Now” to install the latest version.
-![](./en_ZoomApps_updatecheck_1.png){:.border}  
-![](./en_ZoomApps_updatecheck_2.png){:.border}
+![](./ZoomApps_updatecheck_1.png){:.border}  
+![](./ZoomApps_updatecheck_2.png){:.border}
 
 Also, it is useful to set your settings for automatic updates. Press the gear icon in the upper right corner of the home screen to open the settings window, and by checking the box for “Update app automatically” in the “General” section, automatic updates are enabled. In this way, when a newer version of Zoom becomes available, a message that prompts updating as shown in the image below is displayed.
 ![](./ZoomApps_updatable.png){:.border .medium}  
 When the message appears, if you press “Later” or close the window, when you next launch the application, the update program is automatically installed, and the following message is displayed.
-![](./en_ZoomApps_installed.png){:.border}
+![](./ZoomApps_installed.png){:.border}
 
 ## About the app for mobile devices
 {:#mobile}
@@ -113,7 +113,7 @@ You can download the mobile app "Zoom Workplace” from the application store.
 3. Please download the app named “Zoom Workplace”. You should be careful that other apps with the name “Zoom” or similar fake apps may be displayed.
 
 You can also open the app store from the “[Download Center](https://zoom.us/download)” on the official website. By going through the official website, you can avoid downloading the wrong apps.
-![](./en_ZoomApps_download_mobile.png){:.border}
+![](./ZoomApps_download_mobile.png){:.border}
 You need to sign in when you start using the app. Please refer to the “[Sign-in Methods for Zoom](/en/zoom/signin/#app)” and sign in with your UTokyo Account similar to the desktop application.
 
 ### Differences between the mobile and desktop apps
@@ -136,7 +136,7 @@ To switch devices, you need to sign in on the PC, smartphone, or other devices t
 {:#device-switch-steps}
 1. Please launch the Zoom app on the device you are switching to during the meeting.
 2. Please press the “Switch” button displayed on the screen. The device you were previously using will be automatically disconnected.
-![](./en_ZoomApps_changedevice.png){:.border}
+![](./ZoomApps_changedevice.png){:.border}
 
 Please be aware of the following features when switching devices.
 - Chat Feature
