@@ -34,11 +34,11 @@ There are two ways to install the Zoom app: in advance, or when joining a meetin
 
 ### Sign in using your UTokyo Account
 {:#signin}
-Once you have installed the Zoom app, please refer to the "[Sign-in Method for Zoom](/zoom/signin/#app)” and sign in using your UTokyo Account.
+Once you have installed the Zoom app, please refer to the "[Sign-in Method for Zoom](/en/zoom/signin/#app)” and sign in using your UTokyo Account.
 
 ## How to create meetings on the app
 {:#create}
-When you hold a meeting, it is convenient to create the meeting using the app. Here, we explain how to create a meeting in advance and how to start it immediately using the app. Some settings, such as the whiteboard feature and pre-assigning breakout rooms, are not available. So, if you want to configure detailed settings, please create a Zoom meeting from your browser using the method described in “[Scheduling a Zoom Meeting](/zoom/create_room/)”.
+When you hold a meeting, it is convenient to create the meeting using the app. Here, we explain how to create a meeting in advance and how to start it immediately using the app. Some settings, such as the whiteboard feature and pre-assigning breakout rooms, are not available. So, if you want to configure detailed settings, please create a Zoom meeting from your browser using the method described in “[Scheduling a Zoom Meeting](/en/zoom/create_room/)”.
 
 ### Create a meeting in advance
 {:#create-schedule}
@@ -46,7 +46,7 @@ If the date and time of a meeting are already determined, you can create the mee
 1. Open the Zoom app.
 2. Press "Schedule”．  
    ![](./en_ZoomApps_schedule.png){:.border .medium}
-3. Please set up information for a meeting. Details of settings for a meeting are shown in the "[Scheduling a Zoom Meeting](/zoom/create_room/#settings)” pages.  
+3. Please set up information for a meeting. Details of settings for a meeting are shown in the "[Scheduling a Zoom Meeting](/en/zoom/create_room/#settings)” pages.  
 ![](./en_ZoomApps_schedule_detail.png){:.border}
 4. Press "Save” in the lower right corner. In the previous screen, if you selected “Other calendars” for “Calendar”, a screen such as that shown below will appear. Select the meeting URL, meeting ID, passcode, e.g., listed under “Join Zoom Meeting” and notify the participants by e-mail.
 ![](./en_ZoomApps_schedule_invitation.png){:.border}
@@ -114,15 +114,15 @@ You can download the mobile app "Zoom Workplace” from the application store.
 
 You can also open the app store from the “[Download Center](https://zoom.us/download)” on the official website. By going through the official website, you can avoid downloading the wrong apps.
 ![](./en_ZoomApps_download_mobile.png){:.border}
-You need to sign in when you start using the app. Please refer to the “[Sign-in Methods for Zoom](/zoom/signin/#app)” and sign in with your UTokyo Account similar to the desktop application.
+You need to sign in when you start using the app. Please refer to the “[Sign-in Methods for Zoom](/en/zoom/signin/#app)” and sign in with your UTokyo Account similar to the desktop application.
 
 ### Differences between the mobile and desktop apps
 {:#mobile-vs-desktop}
 Among the differences in functionality between mobile and desktop apps, notable ones are listed below.
 
-* **Polling Feature**(reference pages: [Polls in Zoom](/zoom/usage/poll/)): The desktop app allows you to create a poll/quiz on the app, but if you have not created a poll in advance, the mobile app will create the poll in the browser by pressing “Poll/Quiz” > “Create”.
-* **Breakout room**(reference pages: [Using the Zoom breakout room function](/zoom/usage/breakout/)(in Japanese)): It is not possible to create a breakout room from the mobile app. Therefore, if you want to create a breakout room, please use the desktop app. However, it is possible to participate in a breakout room via the mobile app.
-* **The Recording Feature**(reference pages: [Recording Zoom Meeting](/zoom/usage/recording/)): computer recording is not available in the mobile app.
+* **Polling Feature**(reference pages: [Polls in Zoom](/en/zoom/usage/poll/)): The desktop app allows you to create a poll/quiz on the app, but if you have not created a poll in advance, the mobile app will create the poll in the browser by pressing “Poll/Quiz” > “Create”.
+* **Breakout room**(reference pages: [Using the Zoom breakout room function](/en/zoom/usage/breakout/)(in Japanese)): It is not possible to create a breakout room from the mobile app. Therefore, if you want to create a breakout room, please use the desktop app. However, it is possible to participate in a breakout room via the mobile app.
+* **The Recording Feature**(reference pages: [Recording Zoom Meeting](/en/zoom/usage/recording/)): computer recording is not available in the mobile app.
 
 ## Switching devices
 {:#device-switch}
