@@ -121,7 +121,7 @@ You need to sign in when you start using the app. Please refer to the “[Sign-i
 Among the differences in functionality between mobile and desktop apps, notable ones are listed below.
 
 * **Polling Feature**(reference pages: [Polls in Zoom](/en/zoom/usage/poll/)): The desktop app allows you to create a poll/quiz on the app, but if you have not created a poll in advance, the mobile app will create the poll in the browser by pressing “Poll/Quiz” > “Create”.
-* **Breakout room**(reference pages: [Using the Zoom breakout room function](/en/zoom/usage/breakout/)(in Japanese)): It is not possible to create a breakout room from the mobile app. Therefore, if you want to create a breakout room, please use the desktop app. However, it is possible to participate in a breakout room via the mobile app.
+* **Breakout room**(reference pages: [Using the Zoom breakout room function](/en/zoom/usage/breakout/)): It is not possible to create a breakout room from the mobile app. Therefore, if you want to create a breakout room, please use the desktop app. However, it is possible to participate in a breakout room via the mobile app.
 * **The Recording Feature**(reference pages: [Recording Zoom Meeting](/en/zoom/usage/recording/)): computer recording is not available in the mobile app.
 
 ## Switching devices
