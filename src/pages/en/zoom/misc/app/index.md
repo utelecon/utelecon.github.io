@@ -9,7 +9,7 @@ breadcrumb:
 ---
 ## Introduction
 {:#overview} 
-This page provides an introduction to the basic usage and useful features of the Zoom application. Zoom can be used from the browser as well as from the app, but when used from the browser, there are limitations in terms of functionality and usability. It is more comfortable to use the Zoom app. In this article, first, we explain how to install the desktop app for PC, and the basic operations, e.g. making and editing meetings. Then, we briefly explain the app for smartphones and other mobile devices and finally, we also show you how to switch meetings you are participating in between multiple devices.  
+This page provides an introduction to the basic usage and useful features of the Zoom application. Zoom can be used from the browser as well as from the app, but when used from the browser, there are limitations in terms of functionality and usability. It is more comfortable to use the Zoom app. In this article, first, we explain how to install the desktop app for PC, and the basic operations, e.g., making and editing meetings. Then, we briefly explain the app for smartphones and other mobile devices and finally, we also show you how to switch meetings you are participating in between multiple devices.  
 
 ## How to install the app for PC
 {:#install} 
@@ -57,7 +57,7 @@ If you have an urgent meeting, you can set up a meeting immediately.
 
 1. Open the Zoom app.
 2. Press "New Meeting”. There are two types of meeting IDs used in this case: 
-a random meeting ID (11 digits) and the “Personal Meeting ID” (10 digits). By default, a random meeting ID is newly generated each time and becomes invalid immediately after the meeting . On the other hand, if you want to use your personal meeting ID, please press the "∨” next to "New Meeting” and check "Use my personal meeting ID”.
+a random meeting ID (11 digits) and the “Personal Meeting ID” (10 digits). By default, a random meeting ID is newly generated each time and becomes invalid immediately after the meeting. On the other hand, if you want to use your personal meeting ID, please press the "∨” next to "New Meeting” and check "Use my personal meeting ID”.
   * The personal meeting ID is a meeting ID that is uniquely assigned to each user as meetings for personal use. One advantage is that you don’t need to send out an invitation if the other person already knows your personal meeting ID. However, if you do not set up a lock for the meeting, or use the waiting room feature, people who know your personal meeting ID can enter the room even when you are using a meeting for other purposes, so you need to be careful.
 ![](ZoomApps_newmeeting.png){:.border}
 3. When the meeting starts, notify the participants by pressing “^” next to “Participants” on the meeting screen and “Copy invite link” or by “Copy Link” from the green shield symbol at the top of the meeting screen and sending the link to the participants.
@@ -120,9 +120,9 @@ You need to sign in when you start using the app. Please refer to the “[Sign-i
 {:#mobile-vs-desktop}
 Among the differences in functionality between mobile and desktop apps, notable ones are listed below.
 
-* **Polling Feature**(reference pages: [Polls in Zoom](/en/zoom/usage/poll/)): The desktop app allows you to create a poll/quiz on the app, but if you have not created a poll in advance, the mobile app will create the poll in the browser by pressing “Poll/Quiz” > “Create”.
-* **Breakout room**(reference pages: [Using the Zoom breakout room function](/en/zoom/usage/breakout/)): It is not possible to create a breakout room from the mobile app. Therefore, if you want to create a breakout room, please use the desktop app. However, it is possible to participate in a breakout room via the mobile app.
-* **The Recording Feature**(reference pages: [Recording Zoom Meeting](/en/zoom/usage/recording/)): computer recording is not available in the mobile app.
+* **Polling Feature** (reference pages: [Polls in Zoom](/en/zoom/usage/poll/)): The desktop app allows you to create a poll/quiz on the app, but if you have not created a poll in advance, the mobile app will create the poll in the browser by pressing “Poll/Quiz” > “Create”.
+* **Breakout room** (reference pages: [Using the Zoom breakout room function](/en/zoom/usage/breakout/)): It is not possible to create a breakout room from the mobile app. Therefore, if you want to create a breakout room, please use the desktop app. However, it is possible to participate in a breakout room via the mobile app.
+* **The Recording Feature** (reference pages: [Recording Zoom Meeting](/en/zoom/usage/recording/)): computer recording is not available in the mobile app.
 
 ## Switching devices
 {:#device-switch}
