@@ -91,16 +91,14 @@ jobs:
         run: |
           npm run unused-asset
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v3.0
-        with:
-          publish-dir: dist
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Preview for #${{ needs.pr_number.outputs.pr_number }}"
-          enable-pull-request-comment: true
-          overwrites-pull-request-comment: true
-          enable-commit-comment: false
-          enable-github-deployment: false
-          alias: deploy-preview-${{ needs.pr_number.outputs.pr_number }}
+        run: |
+          npm install -D netlify-cli
+          npx netlify deploy \
+            --no-build \
+            --dir=dist \
+            --message="Preview for #${{ needs.pr_number.outputs.pr_number }}" \
+            --alias="deploy-preview-${{ needs.pr_number.outputs.pr_number }}" \
+            --auth=$NETLIFY_AUTH_TOKEN
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
