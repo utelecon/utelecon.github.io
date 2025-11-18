@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2025-11-18
+  content:
+    ja: "[**ファイル転送サービス「NII FileSender」** の利用に関する情報を掲載しました](/filesender/)"
+    en: "[We posted information about the use of the **file transfer service “NII FileSender”** (in Japanese only)](/filesender/)"
+-
   date: 2025-10-06
   content:
     ja: "[Google AI StudioがECCSクラウドメールで利用可能になりました](/notice/2025/1006_GoogleAIStudio/)"
