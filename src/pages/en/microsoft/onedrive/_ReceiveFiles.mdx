@@ -1,0 +1,15 @@
+export const univLink = <>"<a href="#univ-share">Editing Files/Folders with Members of the University</a>"</>;
+export const outsideLink = <>"<a href="#outside-share">Editing Files/Folders with External Users</a>"</>;
+
+{/* * @typedef {object} Props
+* @property {boolean} isOnCampus */}
+
+<>When receiving files from an unspecified number of {" "}
+{props.isOnCampus ? "members of the university" : "external users"}</>, it is recommended that you create a folder and then **a file request link** for that folder. Users who receive the file request link can upload files to the link creator's folder by accessing the link.
+
+For detailed procedures, please refer to "[Creating a New File Request Link](/microsoft/onedrive/share/)" in "[Sharing Files on OneDrive](/microsoft/onedrive/share/#create-request-link)" (in Japanese).
+
+- Access to the uploaded files is limited to the owner of the folder. For this reason, **please use this method when receiving files containing sensitive information**.
+- Make sure you do not unintentionally grant other users access rights to folders created to receive files.
+    - When creating a shared link to a folder, you can access all the files and folders under that folder via this link. Therefore, if you share a folder as described in { props.isOnCampus ? univLink : outsideLink } section and you create a folder for receiving files in that shared folder, anyone with access rights to the shared folder can view and edit the files uploaded in the folder for receiving. If this situation is undesirable, please create a folder for receiving files independently from a shared folder.
+- You can also receive files by having them uploaded to a shared folder using the method described in the { props.isOnCampus ? univLink : outsideLink } above. However, since uploaded files can be viewed and edited by anyone with access rights to the folder, this method is not recommended for receiving files containing sensitive information.
