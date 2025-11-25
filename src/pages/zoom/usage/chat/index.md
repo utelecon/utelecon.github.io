@@ -1,11 +1,3 @@
----
-title: Zoomミーティングでチャットを使う
-redirect_from:
-  - /zoom/how/common/chat
-  - /zoom/how/faculty_members/chat
-breadcrumb:
-  title: チャットを使う
----
 # Zoomミーティングでチャットを使う
 
 Zoomのチャット機能を用いると，ミーティング中にホストや参加者がテキストやファイルをやりとりすることが可能です．チャット機能を用いることで質疑応答を行ったり，授業資料のファイルを共有したりといったことができます．
