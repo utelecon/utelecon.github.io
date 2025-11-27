@@ -1,0 +1,21 @@
+---
+title: "Paper Citation Code for BibTex"
+breadcrumb:
+  title: "Paper Citation Code for BibTex"
+---
+
+
+```
+@article{Makoto Nakamura20250030,
+title={UTokyo Azure: Deployment of a Cloud Computing Service at the University of Tokyo},
+author={Makoto Nakamura and Ryo Nakamura and Kazumi Arima and Kaoru Sasaki and Yoko Yamakata and Kenichiro Ito and Manabu Nishijima and Hiroshi Miyazaki and Tsutomu Ishizaki and Junji Tamatsukuri and Tomohiro Amemiya and Shigeru Chiba and Kenjiro Taura},
+journal={Journal for Academic Computing and Networking},
+volume={29},
+number={1},
+pages={180-186},
+year={2025},
+doi={10.24669/jacn.29\_0030}
+}
+
+```
+
