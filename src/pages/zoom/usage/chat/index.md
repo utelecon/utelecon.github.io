@@ -243,4 +243,4 @@ Zoomミーティングの[クラウドレコーディング](https://utelecon.ad
    * クラウドレコーディングについての詳細は，「[Zoomレコーディング](https://utelecon.adm.u-tokyo.ac.jp/zoom/usage/recording/)」の記事を参照してください．
    * クラウドレコーディングで保存されたチャットファイルは，リンクで共有することもできます．
 
-![](cloud_chat_download.png)
+![](cloud_chat_download.png){:.border}
