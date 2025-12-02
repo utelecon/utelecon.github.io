@@ -53,7 +53,7 @@ function parseCoord(
   return !Number.isNaN(x) && !Number.isNaN(y) ? { x, y } : undefined;
 }
 
-const pointAt = parseCoord(x, y, defaultWidth, defaultHeight);
+const pointAt = parseCoord(x, y, image.width, image.height);
 
 const xor = (a: boolean, b: boolean) => (a || b) && !(a && b);
 
