@@ -36,7 +36,7 @@
     "hast-util-select": "6.0.4",
     "hast-util-to-text": "^4.0.2",
     "mdast-util-mdx": "3.0.0",
-    "mdast-util-to-hast": "^13.2.0",
+    "mdast-util-to-hast": "^13.2.1",
     "micromark-core-commonmark": "2.0.3",
     "micromark-util-character": "2.1.1",
     "micromark-util-symbol": "2.0.1",
