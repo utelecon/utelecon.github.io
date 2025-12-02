@@ -31,7 +31,7 @@ This section provides information on how to schedule a Zoom Meeting using the Zo
   <li> Open the Zoom App. </li>
   <li> Click “Sign In” to access the Zoom sign-in page.
       <img src="@components/en/systems/zoom/4.png"> </li>
-  <li> On the Zoom sign-in page, press “SSO”, or “Sign in with SSO”. (Signing in with UTokyo Account email address and password via Zoom App is unavailable.)
+  <li> On the Zoom sign-in page, press “SSO”, or “Sign in with SSO”. (Signing in with UTokyo Account and password via Zoom App is unavailable.)
       <figure class="gallery">
       <img src="@components/en/systems/zoom/5.png"> 
       <img src="@components/en/systems/zoom/6.png"></figure></li>
