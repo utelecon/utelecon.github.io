@@ -97,7 +97,7 @@ Microsoft Forms is a system that allows you to create online forms. You can also
 
 To use the systems provided by UTokyo Microsoft License, you need to sign in with your UTokyo Account as a Microsoft account.
 
-If you are asked to sign in as shown in the image below, enter your UTokyo Account (10-digit Common ID@utac.u-tokyo.ac.jp) in the input field and follow the on-screen instructions.
+If you are asked to sign in as shown in the image below, enter your UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`) in the input field and follow the on-screen instructions.
 
 ![](./img/microsoft-signin-instruction-1.png){:.small.center.border}
 

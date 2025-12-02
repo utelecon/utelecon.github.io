@@ -22,7 +22,7 @@ Webex Meetingsには，クライアント間で暗号化された（途中で復
 
 ## アカウントについて
 
-WebexにはUTokyo Accountでログインします．Webexのサイト **https://utelecon.webex.com** の右上の「サインイン」をクリックし，メールアドレス欄に 数字10桁の共通ID＋`@utac.u-tokyo.ac.jp` を入力して「次へ」をクリックすると，UTokyo Accountのログインフォームが表示されます．
+WebexにはUTokyo Accountでログインします．Webexのサイト **https://utelecon.webex.com** の右上の「サインイン」をクリックし，メールアドレス欄にUTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）を入力して「次へ」をクリックすると，UTokyo Accountのログインフォームが表示されます．
 
 ## 使い方
 

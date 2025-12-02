@@ -5,7 +5,7 @@ layout: false
 切り替え終了後の3月13日0時（予定）以降，東大のWebexアカウントを利用する際は，以下の方法でサインインしてください．
 
 1. [東京大学のWebexページ](https://utelecon.webex.com/)で「サインイン」ボタンを押すなどして，Webexのサインイン画面を開いてください．
-2. UTokyo Account（数字10桁の共通ID＋`@utac.u-tokyo.ac.jp`）を入力してください．
+2. UTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）を入力してください．
     - ECCSクラウドメール（ <code>@<em>g.ecc</em>.u-tokyo.ac.jp</code> ）ではありません．
     - これまで使っていたWebex専用のパスワードではありません．
 

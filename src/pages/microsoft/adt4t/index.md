@@ -25,7 +25,7 @@ Microsoft社のサービス変更により，2025年7月現在，提供は終了
     <b class="box center"><a href="https://aka.ms/devtoolsforteaching/">Azure Dev Tools for Teaching</a></b>
 1. 「Sign In」ボタンを押してください．
     ![](sign_in.png){:.border.medium}
-1. もしサインインしていなければサインイン画面が表示されるので，UTokyo Account（数字10桁の共通ID＋`@utac.u-tokyo.ac.jp`）を入力してください．
+1. もしサインインしていなければサインイン画面が表示されるので，UTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）を入力してください．
 1. サインインが完了したら，順に「学生の確認」「使用条件」といった画面に移動します．表示される指示に従い，手続きを進めてください．
     <figure class="gallery"><img src="student_verification.png"><img src="terms.png"></figure>
 1. 「Microsoft Azure」の画面が表示されたら，「Education」画面の左側にあるメニューから「ソフトウェア」を開いてください．<br>※「Education」の画面が表示されていない場合は，画面上の検索ボックスから検索して表示してください．

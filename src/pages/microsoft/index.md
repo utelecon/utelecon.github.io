@@ -101,7 +101,7 @@ Microsoft365では多様なサービスが提供されていますが，学生�
 
 UTokyo Microsoft Licenseで提供されるシステムを利用するには，UTokyo AccountをMicrosoftアカウントとして用いてサインインする必要があります．
 
-以下の画像のようにサインインを要求された場合には，入力欄にUTokyo Account（数字10桁の共通ID＋`@utac.u-tokyo.ac.jp`）を入力して，画面の指示に従って続けてください．
+以下の画像のようにサインインを要求された場合には，入力欄にUTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）を入力して，画面の指示に従って続けてください．
 
 ![](img/microsoft-signin-instruction-1.png){:.small.center.border}
 

@@ -15,7 +15,7 @@ After the transfer (scheduled on March 15, 6:00), for the use of UTokyo Zoom Acc
     1. On the Zoom sign-in page, press “SSO”, or “Sign in with SSO”.
         - Signing in with UTokyo Accounts is unavailable with this page.
     1. Depending on the information shown, the sign-in method differs as follows.
-        - If “Company Email” appears, enter your UTokyo Account (10-digit Common ID + @utac.u-tokyo.ac.jp).
+        - If “Company Email” appears, enter your UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`).
         - If “Company Domain” appears, enter “u-tokyo-ac-jp”.
     1. When a sign-in page which requires your UTokyo Account username and password (same as UTAS, the website with the picture of Yasuda Auditorium) appears, enter your UTokyo Account information accordingly.
 
