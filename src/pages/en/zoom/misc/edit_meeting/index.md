@@ -14,10 +14,10 @@ This page explains in detail how to review and change meeting settings and how t
 To edit or manage meetings on a browser, you must first sign in to the Zoom web portal. After you have signed in, open Meetings in the portal to view the meeting list.
 
 You can open the screens for editing and managing meetings as follows.
-- Hover over the meeting you want to operate on, and click the Edit button that appears. This opens the Edit "My Meeting" screen. 
+- Hover over the meeting you want to operate on, and click the Edit button that appears. This opens the Edit "My Meeting(This is where the name of the meeting you scheduled will be inserted)" screen. 
   - In this article, we will call this the Meeting Edit screen.
 ![](how-to-enter-edit.png){:.medium}
-- On the other hand, if you click the meeting title itself, the Manage “My Meeting” screen appears. 
+- On the other hand, if you click the meeting title itself, the Manage “My Meeting(This is where the name of the meeting you scheduled will be inserted)” screen appears. 
   - In this article, we call this the Meeting Management screen.
 ![](how-to-enter-manage.png){:.medium}
 
