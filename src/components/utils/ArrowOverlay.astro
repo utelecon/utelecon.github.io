@@ -9,32 +9,26 @@ type Props = {
   x: number | string;
   y: number | string;
   scale?: number;
-  reverse?: boolean;
-  vertical?: boolean;
+  angle?: number;
   color?: string;
   class?: string;
 } & Record<string, any>;
+
+const longerSide = Math.max(Astro.props.image.width, Astro.props.image.height);
 
 const {
   image,
   x,
   y,
-  scale: rawScale = 1,
-  reverse = false,
-  vertical = false,
+  scale = 1,
+  angle,
   color = "#ff3333",
-  tailLength = 130,
-  headLength = 70,
-  tailWidth = 20,
-  headOverhang = 20,
+  tailLength = longerSide / 10,
+  headLength = longerSide / 20,
+  tailWidth = longerSide / 64,
+  headOverhang = longerSide / 64,
   ...props
 } = Astro.props;
-
-const defaultWidth = 1280,
-  defaultHeight = 720;
-
-const scale =
-  Math.max(image.width / defaultWidth, image.height / defaultHeight) * rawScale;
 
 function parseCoord(
   rawX: string | number | null | undefined,
@@ -55,47 +49,42 @@ function parseCoord(
 
 const pointAt = parseCoord(x, y, image.width, image.height);
 
-const xor = (a: boolean, b: boolean) => (a || b) && !(a && b);
-
-const tl = tailLength * (xor(reverse, vertical) ? -scale : scale);
+const tl = tailLength * scale;
 const tw = tailWidth * scale;
-const hl = headLength * (xor(reverse, vertical) ? -scale : scale);
+const hl = headLength * scale;
 const ho = headOverhang * scale;
 
 const path =
   pointAt !== undefined
     ? [
         `M ${pointAt.x} ${pointAt.y}`,
-        "l",
-        vertical ? `${-ho - tw / 2} ${-hl}` : `${-hl} ${-ho - tw / 2}`,
-        vertical ? "h" : "v",
+        `l ${-hl} ${-ho - tw / 2}`,
+        "v",
         ho,
-        vertical ? "v" : "h",
+        "h",
         -tl,
-        vertical ? "h" : "v",
+        "v",
         tw,
-        vertical ? "v" : "h",
+        "h",
         tl,
-        vertical ? "h" : "v",
+        "v",
         ho,
         "Z",
       ].join(" ")
     : "";
+
+const transform =
+  pointAt !== undefined && angle !== undefined ? `rotate(${angle} ${pointAt.x} ${pointAt.y})` : "";
 ---
 
 <If cond={Boolean(path)}>
   <div class:list={props.class}>
     <Image src={image} alt={props.alt ?? ""} {...props} />
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox={`0 0 ${image.width} ${image.height}`}
-    >
-      <path d={path} fill={color} stroke="none"></path>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${image.width} ${image.height}`}>
+      <path d={path} transform={transform} fill={color} stroke="none"></path>
     </svg>
   </div>
-  <Fragment slot="else"
-    ><Image src={image} alt={props.alt ?? ""} {...props} /></Fragment
-  >
+  <Fragment slot="else"><Image src={image} alt={props.alt ?? ""} {...props} /></Fragment>
 </If>
 
 <style>
