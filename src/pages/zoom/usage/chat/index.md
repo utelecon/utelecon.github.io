@@ -126,7 +126,7 @@ Zoomのチャット機能を用いると，ミーティング中にホストや�
 
 #### 基本的な設定手順
 {:#basic-setting}
-1. 「[Zoom サインイン方法](https://utelecon.adm.u-tokyo.ac.jp/zoom/signin/)」を参考にしてブラウザでZoomのウェブポータルにアクセスし，「設定」を開いてください．
+1. 「[Zoom サインイン方法](../../signin/)」を参考にしてブラウザでZoomのウェブポータルにアクセスし，「設定」を開いてください．
    ![](Zoomwebportal.png){:.border}
 2. 「ミーティング」のタブを選択してください．
    ![](Webportal_meeting.png){:.border}
