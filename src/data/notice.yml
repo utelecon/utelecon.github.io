@@ -21,6 +21,16 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2025-12-04
+  content:
+    ja: "[ECCS端末やWebDAV環境（Proself）に保存されているデータが削除されます（2026年2月21日予定）](/notice/2025/1204-eccs-data-deletion/)"
+    en: "[All data stored on ECCS terminals and WebDAV environment (Proself) will be deleted (scheduled for February 21, 2026).(in Japanese only)](/notice/2025/1204-eccs-data-deletion/)"
+-
+  date: 2025-12-04
+  content:
+    ja: "[次期教育用計算機システム(ECCS2026)でのプリンタプリペイドカードについて](/notice/2025/1204-eccs-printer/)"
+    en: "[Printer prepaid cards for the Next generation of Educational Campus-wide Computing System (ECCS2026) (in Japanese only)](/notice/2025/1204-eccs-printer/)"
+-
   date: 2025-11-18
   content:
     ja: "[**ファイル転送サービス「NII FileSender」** の利用に関する情報を掲載しました](/filesender/)"
