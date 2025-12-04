@@ -21,9 +21,9 @@ There are two ways to install the Zoom app: in advance, or when joining a meetin
 1. Please access the "[Download Center](https://zoom.us/download)” from the Zoom website.
 
 2. Please press the "Download” button in "Zoom Workplace”. The Zoom Workplace installer will be downloaded ("Zoom Workplace” is the name of the app for using Zoom).
-![](./ZoomApps_download_windows.png){:.border .medium}  
+![](./ZoomApps_download_windows.png){:.border .medium}
 ![](./ZoomApps_download_mac.png){:.border .medium}
-3. Following steps vary depending on the situation. Sometimes the installation proceeds automatically to completion, while other times you may need to go through operations that require pressing of confirmation buttons or opening the downloaded files yourself. 
+4. Following steps vary depending on the situation. Sometimes the installation proceeds automatically to completion, while other times you may need to go through operations that require pressing of confirmation buttons or opening the downloaded files yourself. 
   
 ### Installing when you participate in a meeting
 {:#install-on-join}
@@ -61,8 +61,8 @@ a random meeting ID (11 digits) and the “Personal Meeting ID” (10 digits). B
   * The personal meeting ID is a meeting ID that is uniquely assigned to each user as meetings for personal use. One advantage is that you don’t need to send out an invitation if the other person already knows your personal meeting ID. However, if you do not set up a lock for the meeting, or use the waiting room feature, people who know your personal meeting ID can enter the room even when you are using a meeting for other purposes, so you need to be careful.
 ![](ZoomApps_newmeeting.png){:.border}
 3. When the meeting starts, notify the participants by pressing “^” next to “Participants” on the meeting screen and “Copy invite link” or by “Copy Link” from the green shield symbol at the top of the meeting screen and sending the link to the participants.
-![](./ZoomApps_copylink.png){:.border}  
-<img src="./ZoomApps_copylink_meetinginfo.png" width="500">
+![](./ZoomApps_copylink.png){:.border}
+![](./ZoomApps_copylink_meetinginfo.png){:.border}
 
 ## Confirmation and editing of a meeting on the app
 {:#manage}
