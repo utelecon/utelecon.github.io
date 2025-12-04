@@ -2,7 +2,7 @@
 title: ECCS端末やWebDAV環境（Proself）に保存されているデータが削除されます（2026年2月21日予定）
 ---
 ## 概要
-現行の教育用計算機システム（ECCS2021）は2026年2月21日をもって運用を終了し、2026年3月から新システム（ECCS2026）にリプレースされます。
+現行の[教育用計算機システム](https://utelecon.adm.u-tokyo.ac.jp/eccs/)（ECCS2021）は2026年2月21日をもって運用を終了し、2026年3月から新システム（[ECCS2026](https://utelecon.adm.u-tokyo.ac.jp/notice/2025/eccs2026-announcement/)）にリプレースされます。
 ECCS2026の仕様はECCS2021と大きく異なるため、ECCS2021に保存されているデータは新システムには移行されず、ECCS2021の運用終了と同時に廃棄されます。
 また、WebDAV環境そのものもECCS2021運用終了時に廃止となります。
 運用終了後にデータを復旧することはできません。
@@ -10,16 +10,16 @@ ECCS2021に保存しているデータや、WebDAV環境で公開しているフ
 
 ## QA
 - Q.ECCS2021の運用終了に伴い、ECCSクラウドメールについても何か対応が必要ですか？
-  - A.ECCS2021の運用が終了してもECCSクラウドメール(Google Workspace)への影響はないため、特別な対応は不要です。
+  - A.ECCS2021の運用が終了しても[ECCSクラウドメール(Google Workspace)](https://utelecon.adm.u-tokyo.ac.jp/google/)への影響はないため、特別な対応は不要です。
 
 - Q.ECCS端末のホーム領域のデータを取得するには、どのような方法がありますか？ECCS端末が設置されている場所まで出向く必要がありますか？
-  - A.WebDAV環境を利用することで、ECCS端末設置場所以外からでもECCS端末上のファイルを直接ダウンロードできます。Mac環境とWindows環境のホームディレクトリはそれぞれ独立しており、アクセスに用いるURLが異なります。、間違いや取りこぼしのないようにご注意ください。
+  - A.[WebDAV環境](https://utelecon.adm.u-tokyo.ac.jp/eccs/features/webdav/)を利用することで、ECCS端末設置場所以外からでもECCS端末上のファイルを直接ダウンロードできます。Mac環境とWindows環境のホームディレクトリはそれぞれ独立しており、アクセスに用いるURLが異なります。間違いや取りこぼしのないようにご注意ください。
 
 - Q.ECCS2021のデータの退避先にはどのような場所がありますか？
-  - A.Google ドライブやOneDriveが主な退避先として想定されます。
+  - A.[Google ドライブ](https://utelecon.adm.u-tokyo.ac.jp/google/drive/)や[OneDrive](https://utelecon.adm.u-tokyo.ac.jp/microsoft/onedrive/)が主な退避先として想定されます。
 
 - Q.WebDAV環境のファイル公開機能を利用していたのですが、ECCS2026では同様の機能は提供されないのでしょうか？
-  - A.ECCS2026ではWebDAV環境と同様のファイル公開機能の提供はありません。ファイル共有にはGoogle ドライブやOneDriveの利用をご検討願います。ファイル共有に関しては「クラウドストレージを用いた新しいファイル共有方針の提案」のページもご参考としてください。なお、WebDAV環境に近いファイル公開のシステムとしてはNII FileSenderもあります。（NII FireSenderはWebDAV環境全ての機能を代替するものではありません。詳細についてはNII FileSenderのWebページをご参照願います。）
+  - A.ECCS2026ではWebDAV環境と同様のファイル公開機能の提供はありません。ファイル共有には[Google ドライブ](https://utelecon.adm.u-tokyo.ac.jp/google/drive/)や[OneDrive](https://utelecon.adm.u-tokyo.ac.jp/microsoft/onedrive/)の利用をご検討願います。ファイル共有に関しては「[クラウドストレージを用いた新しいファイル共有方針の提案](https://utelecon.adm.u-tokyo.ac.jp/articles/share-policy/)」のページもご参考としてください。なお、WebDAV環境に近いファイル公開のシステムとしては[NII FileSender](https://utelecon.adm.u-tokyo.ac.jp/filesender/)もあります。（NII FireSenderはWebDAV環境全ての機能を代替するものではありません。詳細については[NII FileSender](https://utelecon.adm.u-tokyo.ac.jp/filesender/)のWebページをご参照願います。）
 
 - Q.ECCS2021上のファイルをWebDAV環境から一括ダウンロードする際、ファイルサイズが心配です。事前にファイルサイズを確認する方法はありますか？
-  - A.WebDAV環境上で一括ダウンロード時のファイルサイズを確認する方法はありません。ただし、Windows環境とMac環境のホームディレクトリ両方の容量の上限は合計18GBであるため、18GBを超えることはありません。また、ECCSポータルでWindows環境とMac環境の使用量の合計を確認することもできるため、その値を目安としてください。
+  - A.WebDAV環境上で一括ダウンロード時のファイルサイズを確認する方法はありません。ただし、Windows環境とMac環境のホームディレクトリ両方の容量の上限は合計18GBであるため、18GBを超えることはありません。また、[ECCSポータル](https://portal.ecc.u-tokyo.ac.jp/)でWindows環境とMac環境の使用量の合計を確認することもできるため、その値を目安としてください。
