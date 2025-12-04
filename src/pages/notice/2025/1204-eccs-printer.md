@@ -3,8 +3,8 @@ title: 次期教育用計算機システム(ECCS2026)でのプリンタプリペ
 ---
 
 <div style="text-align: right;">
-<span>2025年10月30日 作成</span><br />
-<span>2025年12月04日 更新</span><br />
+<span>2025年10月30日  作成</span><br />
+<span>2025年12月04日  更新</span><br />
 <span>情報基盤センター 教育用計算機システム担当</span><br />
 </div>
 
