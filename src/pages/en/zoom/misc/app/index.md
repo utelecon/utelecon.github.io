@@ -62,7 +62,7 @@ a random meeting ID (11 digits) and the “Personal Meeting ID” (10 digits). B
 ![](ZoomApps_newmeeting.png){:.border}
 3. When the meeting starts, notify the participants by pressing “^” next to “Participants” on the meeting screen and “Copy invite link” or by “Copy Link” from the green shield symbol at the top of the meeting screen and sending the link to the participants.
 ![](./ZoomApps_copylink.png){:.border}  
-![](./ZoomApps_copylink_meetinginfo.png){:.border .small}
+<img src="./ZoomApps_copylink_meetinginfo.png" width="500">
 
 ## Confirmation and editing of a meeting on the app
 {:#manage}
