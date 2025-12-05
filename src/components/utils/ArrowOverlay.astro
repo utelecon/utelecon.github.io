@@ -1,0 +1,102 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+import If from "@components/utils/If.astro";
+
+type Props = {
+  image: ImageMetadata;
+  x: number | string;
+  y: number | string;
+  scale?: number;
+  angle?: number;
+  color?: string;
+  class?: string;
+} & Record<string, any>;
+
+const longerSide = Math.max(Astro.props.image.width, Astro.props.image.height);
+
+const {
+  image,
+  x,
+  y,
+  scale = 1,
+  angle,
+  color = "#ff3333",
+  tailLength = longerSide / 10,
+  headLength = longerSide / 20,
+  tailWidth = longerSide / 64,
+  headOverhang = longerSide / 64,
+  ...props
+} = Astro.props;
+
+function parseCoord(
+  rawX: string | number | null | undefined,
+  rawY: string | number | null | undefined,
+  width?: number,
+  height?: number
+): { x: number; y: number } | undefined {
+  const parse = (coord: number | string | null | undefined, max = 1) =>
+    typeof coord === "string" && coord.endsWith("%")
+      ? (Number(coord.substring(0, coord.length - 1)) * max) / 100
+      : Number(coord);
+
+  const x = parse(rawX, width),
+    y = parse(rawY, height);
+
+  return !Number.isNaN(x) && !Number.isNaN(y) ? { x, y } : undefined;
+}
+
+const pointAt = parseCoord(x, y, image.width, image.height);
+
+const tl = tailLength * scale;
+const tw = tailWidth * scale;
+const hl = headLength * scale;
+const ho = headOverhang * scale;
+
+const path =
+  pointAt !== undefined
+    ? [
+        `M ${pointAt.x} ${pointAt.y}`,
+        `l ${-hl} ${-ho - tw / 2}`,
+        "v",
+        ho,
+        "h",
+        -tl,
+        "v",
+        tw,
+        "h",
+        tl,
+        "v",
+        ho,
+        "Z",
+      ].join(" ")
+    : "";
+
+const transform =
+  pointAt !== undefined && angle !== undefined ? `rotate(${angle} ${pointAt.x} ${pointAt.y})` : "";
+---
+
+<If cond={Boolean(path)}>
+  <div class:list={props.class}>
+    <Image src={image} alt={props.alt ?? ""} {...props} />
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${image.width} ${image.height}`}>
+      <path d={path} transform={transform} fill={color} stroke="none"></path>
+    </svg>
+  </div>
+  <Fragment slot="else"><Image src={image} alt={props.alt ?? ""} {...props} /></Fragment>
+</If>
+
+<style>
+  div {
+    position: relative;
+  }
+
+  div > svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+</style>

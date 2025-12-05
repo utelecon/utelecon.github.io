@@ -3,6 +3,11 @@
   * @property {string} selection
   */}
 
+import { Image } from "astro:assets";
+import If from "@components/utils/If.astro"
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import altAddMethodWindow from "./alt_add_method_window.png";
+
 <li>
   [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)にアクセスしてください．
 </li>
@@ -13,5 +18,10 @@
 <li>
   「サインイン方法の追加」欄で{props.selection}を押してください．
   {props.methodSupplement}
-  ![](./alt_add_method_window.png)
+  <If cond={props.selection === "「Microsoft Authenticator」"}>
+    <ArrowOverlay image={altAddMethodWindow} x={420} y={290} />
+    <Fragment slot="else">
+      <Image src={altAddMethodWindow} alt="" />
+    </Fragment>
+  </If>
 </li>
