@@ -50,6 +50,8 @@
     "rehype-remove-empty-attribute": "^4.0.1",
     "rehype-stringify": "10.0.1",
     "remark-attribute-list": "0.4.0",
+    "remark-cjk-friendly": "^1.2.3",
+    "remark-cjk-friendly-gfm-strikethrough": "^1.2.3",
     "remark-parse": "^11.0.0",
     "sass": "^1.89.2",
     "semver": "^7.7.2",

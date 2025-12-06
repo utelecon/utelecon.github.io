@@ -6,7 +6,7 @@ Notifications
 ---------------------------
 
 * <span style="color:blue;">2020/10/4:</span> We apologize that allocating the class supporters has been delayed  because the number of applicants is much less than the number of what the lecturers need. 
-* <span style="color:blue;">2020/9/11:</span> **We started A semester's class supporter system. **
+* <span style="color:blue;">2020/9/11:</span> **We started A semester's class supporter system.**
 * <span style="color:blue;">2020/9/11:</span> We now process the payment of class supporters on S semester.We apologize for your inconvenience. Click on the previous information <a href="/supporters/class/" target="_blank">here</a>
 
 <br>
