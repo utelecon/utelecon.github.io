@@ -123,7 +123,7 @@ utelecon のナビゲーションは原則として，パス構造をもとに�
     - このような状態になっているのは，JekyllでKramdownが利用されていたためです．
   - 日本語では単語間の区切りに空白を入れないため，Remarkの記法は不自然です．
 - 実装
-  - [`SimpleAttentionPlugin.js`](src/lib/SimpleAttentionPlugin.js)で実現しています．このプラグインはRemarkプラグインで，パーサーのうちトークナイザーの部分を上書きしています．
+  - `remark-cjk-friendly` および `remark-cjk-friendly-gfm-strikethrough` というプラグインを導入しています．
 
 ### リダイレクト
 
