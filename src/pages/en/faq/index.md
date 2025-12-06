@@ -57,7 +57,7 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
 
 ## Microsoft 365 (formerly Office 365)
 ### Q. I cannot sign into Microsoft Office. What can I do?
-* ** If you see “That Microsoft account doesn't exist. Enter a different account or get a new one.” on the “Sign In” page**: Enter your `10-digit ID@utac.u-tokyo.ac.jp` for user ID. Your 10-digit number is your 10-digit common ID.
+* **If you see “That Microsoft account doesn't exist. Enter a different account or get a new one.” on the “Sign In” page**: Enter your `10-digit ID@utac.u-tokyo.ac.jp` for user ID. Your 10-digit number is your 10-digit common ID.
 
 ### Q. I cannot edit after signing in. What can I do?
 * There may be issues with license authentication. In such cases, editing might not be possible in Office applications such as Word.
