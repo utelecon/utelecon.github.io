@@ -37,8 +37,8 @@ UTokyo Azureをご利用中の方、これから使ってみたい方、教員�
 ## 参加申込
 [**参加登録フォーム**](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)よりお申し込みください．
 - **申込期限**：
-    - ポスター発表申込： 2026年2月 2日(月)正午
-    - 参加（聴講）申込： 2026年2月12日(木)正午
+    - ポスター発表申込： **2026年2月 2日(月)正午**
+    - 参加（聴講）申込： **2026年2月12日(木)正午**
 
 ## プログラム（予定）
 ※変更する場合があります．
