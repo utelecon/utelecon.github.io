@@ -20,94 +20,92 @@ There is an option that allows the host to manually decide whether or not to app
 
 Here, we will explain how the host creates a meeting where the participant registration feature is enabled and how the participants register in advance and how they attend the meeting.
 
-### 「参加者の登録」が必要なミーティングを新しく作成する場合
+### When Creating a New Meeting Requiring Participant Registration
 
-1.  Web ブラウザで[Zoomのミーティングページ](https://u-tokyo-ac-jp.zoom.us/meeting/)へ移動し，「ミーティングをスケジューリング」を押してください．
-1. 次の画面で「登録」の「必須」チェックボックスをオンにしてください．
+1. Please go to the [Zoom meeting page](https://u-tokyo-ac-jp.zoom.us/meeting/) in your web browser and click on "Schedule a Meeting".
+1. On the next screen, please switch on  the "Required" checkbox for "Registration".
    ![](MustRegisterCheckOn.png){:.medium} 
-1. 下にある「保存」を押してください．
-1. 次の画面に表示される「登録リンク」を参加希望者に知らせてください．
+1. Please click on the "Save" button at the bottom.
+1. Please inform prospective participants of the "Registration Link" shown below.
    ![](RegisterLink.png){:.medium}
-1. 参加希望者は「登録リンク」を通じて登録手続きをすることができます．
-   登録手続きが完了した参加希望者には，自動的に参加用URLが記載された確認メールが送られます．
+1. Prospective participants can perform the necessary registration procedures through the "Registration Link".
+   Participants who have completed the registration procedure will automatically receive a confirmation email containing the individualised link.
 
-※ホストは，参加希望者が確認メールを受け取るかどうか，個別に決定することができます．
-後述の「手動承認」オプションを使ってください．
+※For the host to be able to individually decide whether or not a prospective participant will receive the confirmation email or not, please use the "Manual Approval" option mentioned below.
 
-### すでに作成されたミーティングで「参加者の登録」機能を有効にする場合（非推奨）
+### Enabling the Participant Registration Feature in an Already Created Meeting (Not Recommended)
 
-参加者の登録が不要なミーティングを，参加者の登録が必要なミーティングに，後から変更することができます．ただし，ホストがこの変更を適用した後でも，参加者が登録用URLではなくミーティング参加用のURLを知っていれば登録手続きをしなくてもミーティングに参加できてしまうため，推奨されません．
+You can change a meeting that did not require participant registration to one that requires after it has been scheduled. However, this is not recommended because if the participants have the original link instead of the registration link created after the host has applied this change, they will be able to attend the meeting without completing the registration procedure.
 
-1. Web ブラウザで[Zoomのミーティングページ](https://u-tokyo-ac-jp.zoom.us/meeting/)へ移動してください．
-1. 参加者の登録機能を有効にしたいミーティングにマウスを重ねると，右側に「編集」ボタンが表示されます．このボタンを押してください．
+1. Please go to the [Zoom meeting page](https://u-tokyo-ac-jp.zoom.us/meeting/) in your web browser.
+1. When you hover the mouse over the meeting which you wish to enable the participant registration feature, the "Edit" button will be displayed on the right side. Please click on this button.
    ![](ChangeToRegister.png){:.medium}
-1. 次の画面で「登録」の「必須」チェックボックスをオンにしてください．
-1. 下にある「保存」を押してください．
-1. 次の画面に表示される「登録リンク」を参加希望者に知らせてください．
+1. On the next screen, please switch on the "Required" checkbox for "Registration".
+1. Click on the "Save" button at the bottom.
+1. Please inform the prospective participants of the "Registration Link" displayed on the next screen.
 
-### 参加希望者がすること
+### What Prospective Participants Need to Do
 
-1. ホストから知らされた「登録リンク」を押してください．
-1. 図のような画面が表示されます．入力欄に自分の情報を入力し，下にある「登録してご参加ください」ボタンを押してください．
-   メールアドレスの欄には，自分のメールアドレスを入力してください．
-   東京大学の構成員はUTokyo Account（10桁の共通ID＋`@utac.u-tokyo.ac.jp`）を入力してください．
+1. Please click on the "Registration Link" informed by the host.
+1. The screen shown in the figure will be displayed. 
+   Please enter your information in the entry fields and click on the "Register" button below. 
+   In the email address field, enter your own email address. 
+   Members of the University of Tokyo should enter their UTokyo Account (10-digit Common ID) followed by @utac.u-tokyo.ac.jp, e.g. `0123456789@utac.u-tokyo.ac.jp`.
    ![](RegistrationForm_new.png){:.medium}
-1. ホストに承認されると，入力したメールアドレス宛に確認メールが送付されます．
-   確認メールには，ミーティングの参加に必要な参加用URLが記載されています．
-   参加用URLは登録した参加希望者に個別に割り当てられるため，他の人に漏らしたり，なくしたりしないようにしてください．
-1. ミーティング当日は，参加用URLを押してミーティングに参加してください．
+1. Once approved by the host, a confirmation email will be sent to the entered email address. 
+   An individualized link required to attend the meeting will be provided in the confirmation email. 
+   Since this link is assigned individually to registered prospective participants, please make sure not to leak it to others or lose it.
+1. On the day of the meeting, please click on the join link to attend the meeting.
 
-#### 学内向けのミーティングに参加登録ができない場合
+#### If You Are Unable to Register for UTokyo Member Restricted Zoom Meetings
 
-東京大学の構成員にもかかわらず，学内向けに参加登録が制限されたミーティングに登録ができない場合は，以下を確認してください．
-参加登録が学外にも開放されている場合は，この操作は不要です．
+In spite of being a member of the University of Tokyo, if you cannot register for a meeting restricted to UTokyo members, please check the following. 
+If participant registration is open to external participants as well, this step is not necessary.
 
--  **`0123456789@utac.u-tokyo.ac.jp`形式のメールアドレスを入力していない**：10桁の共通IDの後に東京大学であることを表す記号`@utac.u-tokyo.ac.jp`を付けたものを入力してください．
--  **東京大学のZoomアカウントでZoomにサインインしたことがない**： 
-   今まで一度も東京大学のZoomアカウントにログインしたことがない場合，学内向けのZoomミーティングに登録できないことがあります．
-   このような場合は，[Zoom サインイン方法](/zoom/signin/)に従い一度サインインした後，再度登録手続きを行ってください．
+-  You have not entered your UTokyo Account: Please enter your UTokyo Account (10-digit Common ID＋`@utac.u-tokyo.ac.jp`).
+-  **You have never signed in to Zoom with your Zoom account of the University of Tokyo**： 
+   If you have never logged into your account of the University of Tokyo before, it is possible that you cannot register for Zoom meetings restricted to UTokyo Member. 
+   In such cases, please perform the registration procedure again after signing in following the [Sign-in Methods for Zoom](/en/zoom/signin/).
 
-※ホスト向け：「参加時に認証を求める」オプションが有効のとき，このトラブルが生じる可能性があります．
+※For Hosts: This problem may occur when the "Require authentication to join" option is enabled.
 
-## 「参加時に認証を求める」オプション
+## "Require authentication to join" Option
 
-ここでは，事前登録を学内向けに制限できる「**参加時に認証を求める**」オプションについて説明します．
-これは，特定のメールアドレスを持つ参加希望者だけが事前の登録をできるようにするオプションです．
-東京大学の構成員のみに割り当てられる，末尾が`u-tokyo.ac.jp`のメールアドレスを持つ参加希望者だけが登録できるようにすれば，「参加者の登録」を学内向けに制限できます．
+Here, we will explain the "Require authentication to join" option, which allows you to restrict registration in advance to UTokyo members. 
+This is an option that only prospective participants having specific email addresses can register in advance. 
+By setting so that only participants who have a UTokyo Account which have `u-tokyo.ac.jp` at the end, assigned to members of the University of Tokyo, can attend, you can restrict "Participant Registration" to UTokyo members only.
 
-1. Web ブラウザで[Zoomのミーティングページ](https://u-tokyo-ac-jp.zoom.us/meeting/)へ移動し，「ミーティングをスケジューリング」を押してください．
-1. 次の画面で，「登録」の「必須」チェックボックスをオンにしてください．
-1. 続けて同じ画面で，「認証されたユーザーのみ参加可能」チェックボックスをオンにしてください．
+1. Please go to the [Zoom meeting page](https://u-tokyo-ac-jp.zoom.us/meeting/) in your web browser and click on "Schedule a Meeting".
+1. On the following screen, please switch on the "Required" checkbox for "Registration".
+1. Then, on the same screen, please switch on the "Require authentication to join" checkbox.
    ![](OnlyVerifiedUserCheckOn.png){:.medium}
-1. 続けて直下のプルダウンメニューで，「大学アカウントでサインイン」を選択してください．
-1. メニューのさらに下の欄が「*.u-tokyo.ac.jp」となっていることを確認してください．そうでない場合は，となりの「編集」を押して変更してください．
+1. Then select "大学アカウントとしてサインイン (Sign in with university account)" from the dropdown menu just below.
+1. Please ensure that the field further down in the menu is "*.u-tokyo.ac.jp". If not, please click on next "Edit" to change it.
    ![](OnlyVerifiedUserDomain.png){:.medium}
-1. 下にある「保存」を押してください．
-1. 次の画面に表示される「登録リンク」を参加希望者に知らせてください．
-   「メールアドレス」の欄には`0123456789@utac.u-tokyo.ac.jp`のように，
-   10桁の共通IDの後に東京大学であることを表す記号 `@utac.u-tokyo.ac.jp` を付けたものを入力するよう，参加希望者に案内してください．
+1. Click on the "Save" button at the bottom.
+1.	Please inform the prospective participants of the "Registration Link" displayed on the next screen and guide prospective participants to enter their UTokyo Account (10-digit Common ID+ `@utac.u-tokyo.ac.jp`), e. g. `0123456789@utac.u-tokyo.ac.jp` in the email address field.
    ![](RegisterLink.png){:.medium}
 
-※Zoomのシステム上は，参加希望者のメールアドレスが`0123456789@utac.u-tokyo.ac.jp`の形式ではなくても登録可能な場合があります（末尾が`u-tokyo.ac.jp`のZoomアカウントがある場合）．
-しかしながら，東京大学では10桁の共通IDの後に東京大学であることを表す記号 `@utac.u-tokyo.ac.jp` を付けた形式のZoomアカウントをお使いいただくのが基本であるため，`0123456789@utac.u-tokyo.ac.jp`の形式で入力するようにしてください．
+※If the email addresses of prospective participants are not in the format of `0123456789@utac.u-tokyo.ac.jp`, you may still be able to register in the Zoom system (if you have the Zoom account with `u-tokyo.ac.jp` at the end). 
+However, because using the UTokyo Account (10-digit Common ID+`@utac.u-tokyo.ac.jp`) as the Zoom account is standard at the University of Tokyo, please enter in the format of `0123456789@utac.u-tokyo.ac.jp`.
 
-## 確認メールの再送
+## Resending Confirmation Email
 
-ここでは，登録済みの参加希望者に確認メールを再送する方法について説明します．
-この方法を使えば，登録済み参加希望者に何度でも確認メールを再送することができます．登録を終えた参加希望者から「確認メールを紛失した」「もう一度確認メールを送ってほしい」という問い合せを受けたときなどに役立ちます．
+Here, we will explain how to resend a confirmation email to registered prospective participants. This method allows you to resend the confirmation email as many times as needed to registered prospective participants. 
+This is useful when you receive inquiries from prospective participants who have completed the registration procedure, such as "I lost the confirmation email" or "Please send the confirmation email again".
 
-1. Web ブラウザで[Zoomのミーティングページ](https://u-tokyo-ac-jp.zoom.us/meeting/)へ移動してください．
-1. 自分のスケジュールしたミーティングが，リストとして表示されます．確認メールを再送したい登録済み参加希望者が登録したミーティングの名前を押してください．
+1. Please go to [Zoom meeting page](https://u-tokyo-ac-jp.zoom.us/meeting/) in your web browser.
+1. Your scheduled meetings will be displayed as a list. Please click on the name of the meeting registered by the prospective participants to whom you want to resend the conformation email.
    ![](ResendMailChooseMeeting.png){:.medium}
-1. ミーティングの情報が表示されます．上の方に「登録」「メール設定」等のタブが並んでいます．「登録」タブを選択してください．
+1. The meeting information will be displayed. You will see a row of tabs at the top, such as "Registration", "Email Settings", etc. Please select the "Registration" tab.
    ![](ResendMailRegisterTab.png){:.medium}
-1. 「登録者を管理」の右側にある，「表示」ボタンを押してください．
+1. Please click on the "View" button located to the right of "Manage Registants".
    ![](ResendMailShowList.png){:.medium}
-1. ミーティングの登録者が一覧表示されます．
-1. 確認メールを再送したい登録者のチェックボックスをオンにして，「確認メールを再送信」ボタンを押してください．
+1. The list of the meeting registrants will be displayed.
+1. Click on the checkbox for the registrant to whom you want to resend the confirmation email, and click on the "Resend Confirmation Email" button.
    ![](ResendMailResend.png){:.medium}
 
-※参加者の手動承認を設定している場合（後述）は，「承認済み」リストに表示されている参加希望者にしか，確認メールを再送できません．
+※If you have set up manual approval (as described below), you can only resend the confirmation email to prospective participants who are listed in the "Approved" list.
 
 ## そのほかのオプション
 
