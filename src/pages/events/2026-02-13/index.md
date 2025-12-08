@@ -32,7 +32,7 @@ h1: "2026/02/13ワークショップ：UTokyo Azure Day"
 UTokyo Azureをご利用中の方、これから使ってみたい方、教員・職員・学生を問わずエントリーをお待ちしています.学内の異分野の研究者・学生と交流する機会となれば幸いです.
 
 発表頂ける方は、参加登録フォームの発表の有無欄にて”ポスター発表”にチェック願います.  
-※ポスター発表申込期限：2月2日(月)正午
+※ポスター発表申込期限：**2月2日(月)正午**
 
 ## 参加申込
 [**参加登録フォーム**](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)よりお申し込みください．
