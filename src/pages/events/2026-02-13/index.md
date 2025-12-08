@@ -45,11 +45,11 @@ UTokyo Azureをご利用中の方、これから使ってみたい方、教員�
 
 | 時間          | タイトル                                                                 | スピーカー（所属）                                   |
 |---------------|---------------------------------------------------------------------------|--------------------------------------------------------|
-| 13:00-13:20   | UTokyo Azure Status Report<br>What is it? Who uses it and how? Where it stands? | 田浦 健次朗（執行役・副学長）                         |
-| 13:20-14:00   | Azure の代表的なサービスの使い方<br>Azure OpenAI Service Tutorial          | 山肩 洋子（情報基盤センター 教授）                    |
-| 14:00-14:30   | 行政データの活用とプラットフォームの構築                                  | 川口 大司（公共政策大学院 教授）                     |
-| 14:45-15:15   | 情報学を軸とした学際研究の推進<br>〜知能社会国際卓越大学院（IIW）プログラム〜 | 鶴岡 慶雅（情報理工学系研究科 教授）                 |
-| 15:15-15:45   | Truth and Trust: Enhancing Factual Reliability in LLM Generation for Japanese Medical Text | Li Zihui（工学系研究科 特任講師）                     |
+| 13:00-13:20   | UTokyo Azure Status Report<br>What is it? Who uses it and how? Where it stands? | 田浦 健次朗<br>（執行役・副学長）                         |
+| 13:20-14:00   | Azure の代表的なサービスの使い方<br>Azure OpenAI Service Tutorial          | 山肩 洋子<br>（情報基盤センター 教授）                    |
+| 14:00-14:30   | 行政データの活用とプラットフォームの構築                                  | 川口 大司<br>（公共政策大学院 教授）                     |
+| 14:45-15:15   | 情報学を軸とした学際研究の推進<br>〜知能社会国際卓越大学院（IIW）プログラム〜 | 鶴岡 慶雅<br>（情報理工学系研究科 教授）                 |
+| 15:15-15:45   | Truth and Trust: Enhancing Factual Reliability in LLM Generation for Japanese Medical Text | Li Zihui<br>（工学系研究科 特任講師）                     |
 | 15:45-16:15   | TBA                                                                       | TBA                                                    |
 | 16:45-18:30   | ポスターセッション（フラッシュトーク数分/件を含む）                       | ―                                                      |
 | 18:30-19:30   | 情報交換会                                                                | ―                                                      |
