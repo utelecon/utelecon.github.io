@@ -50,7 +50,7 @@ Please register using the **[Registration Form](https://forms.office.com/Pages/R
 |---------------|-----------------------------------------------------------------------|----------------------------------------------------------|
 | 13:00–13:20   | UTokyo Azure Status Report<br>What is it? Who uses it and how? Where it stands? | Kenjiro Taura<br>(Executive Director and Vice President)   |
 | 13:20–14:00   | How to Use Popular Azure Services<br>Azure OpenAI Service Tutorial | Yoko Yamakata<br>(Information Technology Center / Professor) |
-| 14:00–14:30   | Toward the Platform of Administrative Data - Past, Present and Future -                   | Daiji Kawaguchi<br>(Graduate School of Public Policy / Professor) |
+| 14:00–14:30   | Toward the Platform of Administrative Data<br> - Past, Present and Future -                   | Daiji Kawaguchi<br>(Graduate School of Public Policy / Professor) |
 | 14:30–14:45   | Break                                                                  | ―                                                        |
 | 14:45–15:15   | Promoting Interdisciplinary Research Centered on Informatics<br>– IIW Program – | Yoshimasa Tsuruoka<br>(Graduate School of Information Science and Technology / Professor) |
 | 15:15–15:45   | Truth and Trust: Enhancing Factual Reliability in LLM Generation for Japanese Medical Text | Li Zihui<br>(Graduate School of Engineering / Project Lecturer) |
