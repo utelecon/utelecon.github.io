@@ -5,13 +5,18 @@ h1: "Feb. 13,2026: Workshop: UTokyo Azure Day（**Conducted in English**） "
 
 ## Purpose of the Workshop
 
-From October 2024 to September 2029, Microsoft Corporation will donate Microsoft Azure gift credits to the University of Tokyo for a period of five years.  
-This enables members of the University to use various Azure services through [**“UTokyo Azure”**](https://utokyo-azure.github.io/en/research_computing/utokyo_azure/) in their research and educational activities.
+From October 2024 to September 2029, the University of Tokyo will receive donated Microsoft Azure gift credits from Microsoft.
+These credits enable UTokyo members to utilize UTokyo Azure, which provides access to a wide range of Azure services for research and educational activities.
 
-This event will provide an overview of UTokyo Azure, introduce recent research use cases that leverage Azure, and offer tutorials on representative Azure services.  
-A consultation booth for Azure usage will also be available on-site.
+This event is an on-campus networking opportunity for anyone interested in UTokyo Azure.
+Whether you are exploring cloud technologies for the first time or already actively using them, all are welcome.
+We also invite submissions for poster presentations!
 
-We welcome participants who are interested in cloud computing or are considering using Azure in their research and education.
+We especially encourage participation from:
+- Those interested in using UTokyo Azure (GPU resources, generative AI, storage, etc.)
+- Current UTokyo Azure users
+- AI/CS researchers seeking interdisciplinary collaboration
+- Researchers working in AI- and data-driven fields (AI for Science)
 
 ## Overview
 - **Date:** February 13, 2026 (Fri.) 13:00–18:30  
@@ -33,7 +38,8 @@ We welcome poster presentations by on-site participants.
 Whether you are already using UTokyo Azure or plan to start using it—faculty, staff, and students alike—we encourage you to submit an entry.  
 We hope this will be an opportunity for interdisciplinary exchange among researchers and students across the University.
 
-If you wish to present, please select **“Poster presentation”** in the presentation Status section of the registration form.  
+If you wish to present a poster, please select **“Poster Presentation”** in the registration form and provide the title of your presentation.
+
 **Poster presentation application deadline:** **Monday, February 2 (Noon)**
 
 ## Registration
