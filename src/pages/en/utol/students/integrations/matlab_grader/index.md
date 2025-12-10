@@ -20,7 +20,7 @@ This section explains how to use MATLAB Grader in UTOL.
 
     ![](solve_2.png)
 
-3. If the following "MATLAB Grader Terms of Use" screen appears, please review the content, check "I accept the terms of use," and click "Submit."
+3. If the following "MATLAB Grader Terms of Use" screen appears, please review the content, check "I accept the terms of use", and click "Submit".
 
     ![](solve_terms_of_use.png)
 
