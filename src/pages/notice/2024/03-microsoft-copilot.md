@@ -25,7 +25,7 @@ UTokyo Accountを持つ全構成員
 
 ## 利用手順
 
-1. [https://copilot.microsoft.com/](https://copilot.microsoft.com/) にアクセスしてください．
+1. [https://m365.cloud.microsoft/chat](https://m365.cloud.microsoft/chat) にアクセスしてください．
 1. 右上の「ログイン」ボタンから「職場または学校アカウントでサインイン」を押し，UTokyo Accountでサインインしてください（既にMicrosoftのシステムにUTokyo Accountでサインインしている場合でも，あらためてログイン操作が必要です）．もし中央に「サインイン」と書かれたボタンが表示された場合には，そのボタンを押し，UTokyo Accountでサインインしてください．
 1. Microsoft Copilot の画面が開きます．右上に緑色の盾のマークが表示され，そのマークを選択したときに「商用データ保護 このチャットに適用されます。 個人データと組織データを共有する場合は慎重に行ってください。」と表示されれば，大学の契約の下での「商用データ保護を備えたMicrosoft Copilot」を利用している状態です．
 
