@@ -2,6 +2,7 @@
 title: Orientations / Seminars
 ---
 
+* 2026/02/13 [Workshop: UTokyo Azure Day (**Oral Session Conducted in English**)](/en/events/2026-02-13/)
 * 2025/09/10 [Information Session on ICT Systems and Tools for UTokyo Members (only in Japanese)](/events/2025-09-10/)
 * 2025/04/18 [Information Session on UTokyo Azure (**Conducted in English**)](/en/events/2025-04-18/)
 * 2025/03/12 [Information Session on ICT Systems and Tools for UTokyo Members (only in Japanese)](/events/2025-03-12/)
