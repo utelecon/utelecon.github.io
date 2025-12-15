@@ -96,8 +96,8 @@ MacOSでは，OS標準機能のFileVaultを利用してドライブの暗号化�
 
 #### リモートワイプの実施方法（端末を紛失したとき）
 
-1. [iCloud.com](https://www.icloud.com/) にアクセスし，Apple IDでサインインしてください．
-2. 「iPhone を探す」を開いてください（Macの場合も含まれます）．
+1. [iCloud](https://www.icloud.com/)にアクセスし，Apple IDでサインインしてください．
+2. 「iPhone を探す」を開いてください(Macの場合も「iPhone を探す」に含まれます)．
 3. 上部のデバイス一覧から，対象のMacを選択してください．
 4. 「Mac を消去」を選び，画面の指示に従って実行してください．
 
