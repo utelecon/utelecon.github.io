@@ -28,6 +28,7 @@ We especially encourage participation from:
 - **Participation Fee:** Free (Networking session has a separate fee)  
 - **Networking Session:**  
   - **Venue:** Takeda Hall Foyer  
+  - **Time:** 18:30–19:30  
   - **Capacity:** Around 40 participants  
   - **Fee:** Approx. ¥1,000 (to be collected at the reception desk on the day)
 
