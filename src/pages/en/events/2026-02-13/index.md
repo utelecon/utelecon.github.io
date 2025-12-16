@@ -46,7 +46,7 @@ If you wish to present a poster, please select **“Poster Presentation”** in 
 ## Registration
 Please register using the **[Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)**.
 
-- **Deadline:** **Thursday, February 12, 2026 (Noon)**  
+- **Deadline:** **Monday, February 9, 2026 (Noon)**  
 
 ## Program (Tentative)
 *Subject to change.*
