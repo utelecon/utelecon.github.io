@@ -24,7 +24,7 @@ We especially encourage participation from:
 - **Venue:** Takeda Hall (5F, Takeda Frontier Science Hall, Asano Campus, The University of Tokyo)
 - **Eligibility:** Faculty, staff, students, and collaborative researchers of the University of Tokyo  
 - **Capacity:** Approx. 150 participants (First-come-first-served basis)  
-- **Language:** The lecture sessions will be conducted in English, while the poster presentations may be given in any language.  
+- **Language:** The lecture session will be conducted in **English**, while poster presentations, including lightning talks, may be given in **either English or Japanese**.  
 - **Participation Fee:** Free (Networking session has a separate fee)  
 - **Networking Session:**  
   - **Venue:** Takeda Hall Foyer  
