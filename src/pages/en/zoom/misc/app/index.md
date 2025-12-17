@@ -29,7 +29,7 @@ There are two ways to install the Zoom app: in advance, or when joining a meetin
 {:#install-on-join}
 1. Please access the meeting URL.
 2. When the Zoom app is not installed, the files you need are downloaded automatically. If it is not downloaded, the following screen appears and you can download them by pressing "Download Now”.
-![](./ZoomApps_download_web.png){:.border}
+![](./ZoomApps_download_web.png){:.border .medium}
 3. Please open the files you downloaded and install Zoom.
 
 ### Sign in using your UTokyo Account
@@ -67,9 +67,9 @@ a random meeting ID (11 digits) and the “Personal Meeting ID” (10 digits). B
 ## Confirmation and editing of a meeting on the app
 {:#manage}
 You can confirm the created meeting from “Meetings” at the top of the app screen, and copy the invitation link as well as edit the meeting.
-![](./ZoomApps_schedule_check.png){:.border .medium}  
+![](./ZoomApps_schedule_check.png){:.border}  
 On the day of the meeting, a screen like the image below will appear in the “Home” page. You can copy the invitation link and edit the meeting from “...”.
-![](./ZoomApps_schedule_remind.png){:.border .medium}
+![](./ZoomApps_schedule_remind.png){:.border}
 
 ## Recommended settings in the app
 {:#settings}
