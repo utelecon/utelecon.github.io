@@ -72,7 +72,3 @@ Please register using the **[Registration Form](https://forms.office.com/Pages/R
 
 ## Contact
 utokyo-azure-admin-group [at] g.ecc.u-tokyo.ac.jp
-
-## Materials and Recorded Videos
-
-Presentation materials will be available by the day of the event, and recorded videos will be posted after the event.
