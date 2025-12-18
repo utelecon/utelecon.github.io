@@ -71,9 +71,6 @@ UTokyo Azureをご利用中の方、これから使ってみたい方、教員�
 ## 問い合わせ
 utokyo-azure-admin-group [at] g.ecc.u-tokyo.ac.jp
 
-## 資料・録画映像
-
-- 講演資料は当日までに，録画映像は本イベント終了後，本ページにて公開予定．
 
 
 
