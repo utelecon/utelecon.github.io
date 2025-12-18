@@ -11,13 +11,18 @@ Slidoに参加者として参加する場合の操作方法は「[Slidoで参加
 ## 学生の質問を確認する
 
 Slidoでは，学生が自由に質問・感想を送ることができます．
-画面左上または「Add new interaction」内の「Audience Q&A」を選択してください．学生からの質問・感想は，画面右側の「Live」欄に表示されます．
+画面左上または「Add new interaction」内の「Audience Q&A」を選択してください．
+
+<figure>
+<img src="img/slido11.png">
+</figure>
+
+学生からの質問・感想は，画面右側の「Live」欄に表示されます．
 
 標準では，それぞれの投稿に付けられた「いいね」の数の順番に質問・感想が表示されており（「Top」：人気順），自動的に更新されます．
 画面右上の下矢印を選択することで，「Recent」：投稿順 に変更することもできます．
 
 <figure>
-<img src="img/slido11.png">
 <img src="img/slido19.png">
 </figure>
 
