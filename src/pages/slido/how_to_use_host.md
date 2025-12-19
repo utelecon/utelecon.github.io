@@ -58,13 +58,33 @@ Slidoでは，投票（polls）機能を使うことで，教員から学生に�
 ### 投票を作成する
 投票には以下の6種類があります．投票機能の画面から，各機能のアイコンのボタンをクリックすることで新規の投票を作成できます．
 
-* Multiple choiceー選択形式で答える質問を設定する <img src="img/slido2.png" class="medium">
-* Word cloudー参加者の回答が「cloud」として可視化される質問を設定する（参加者はOpen textと同様に短文形式で答える） <img src="img/slido3.png" class="medium">
-    * 回答が図のように表示されます．同一の回答が複数あった場合，その単語が大きく表示されます．（学生側の表示） <img src="img/slido4.png" class="medium">
-* Quizー正解が表示される問題を設定する <img src="img/slido5.png" class="medium">
-* Ratingー最大10段階で評価される評価軸を設定する<img src="img/slido6.png" class="medium">
-* Open textー短文形式で答える質問を設定する<img src="img/slido7.png" class="medium">
-* Rankingー参加者に順位付けしてもらうための複数の項目を設定する <img src="img/slido8.png" class="medium">
+* Multiple choiceー選択形式で答える質問を設定する
+
+  <img src="img/slido2.png" class="medium">
+  
+* Word cloudー参加者の回答が「cloud」として可視化される質問を設定する（参加者はOpen textと同様に短文形式で答える）
+
+  <img src="img/slido3.png" class="medium">
+  
+    * 回答が図のように表示されます．同一の回答が複数あった場合，その単語が大きく表示されます．（学生側の表示）
+    
+      <img src="img/slido4.png" class="medium">
+      
+* Quizー正解が表示される問題を設定する
+
+  <img src="img/slido5.png" class="medium">
+  
+* Ratingー最大10段階で評価される評価軸を設定する
+
+  <img src="img/slido6.png" class="medium">
+  
+* Open textー短文形式で答える質問を設定する
+
+  <img src="img/slido7.png" class="medium">
+  
+* Rankingー参加者に順位付けしてもらうための複数の項目を設定する
+
+  <img src="img/slido8.png" class="medium">
 
 ### 作成した投票を管理する
 
