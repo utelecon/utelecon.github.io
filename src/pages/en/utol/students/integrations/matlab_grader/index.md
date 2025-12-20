@@ -14,7 +14,7 @@ This section explains how to use MATLAB Grader in UTOL.
 
     ![](solve_1.png)
 
-2. When you click on the title (in the above screen, "Signal Processing A, Assignment 5"), it transitions to the following screen, displaying details such as the content and the publication period. Check the 'Content', etc., and click on "Link to MATLAB Grader LTI 1.3". The MATLAB Grader screen will open in a separate tab (or window).
+2. When you click on the title (in the above screen, "Signal Processing A, Assignment 5"), it transitions to the following screen, displaying details such as the content and the publication period. Check the "Content", etc., and click on "Link to MATLAB Grader LTI 1.3". The MATLAB Grader screen will open in a separate tab (or window).
 
     **When the publication period ends, the "Link to MATLAB Grader LTI 1.3" will be deactivated, and the problems on MATLAB Grader will no longer be accessible.**
 
