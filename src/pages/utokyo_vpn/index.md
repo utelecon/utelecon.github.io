@@ -70,7 +70,7 @@ UTokyo VPN接続時は，そのままだとコンピュータの繋がってい�
     <figcaption>Windowsの場合</figcaption>
   </figure>
   <figure class="center">
-    <img src="img/mac09-anyconnect-mac-pref.png" class="border">
+    <img src="img/mac09_1-anyconnect-mac-pref.png" class="border">
     <figcaption>macOSの場合</figcaption>
   </figure>
 </div>
