@@ -1,13 +1,15 @@
+import { getEntry } from "astro:content";
 import type { RSSFeedItem } from "@astrojs/rss";
 import getRssResponse from "@astrojs/rss";
 import remarkParse from "remark-parse";
 import { unified } from "unified";
 
-import { noticesWithIdReversed } from "@data/utils/notices";
 import { toHast } from "mdast-util-to-hast";
 import { toText } from "hast-util-to-text";
 import { select } from "hast-util-select";
 import type { Lang } from "@components/types";
+
+const { data: noticesWithId } = await getEntry("notices", "notice")!
 
 const parser = unified().use(remarkParse);
 
@@ -21,7 +23,7 @@ interface RssParams {
 export async function rss({ title, description, url, lang }: RssParams) {
   const itemsMap = new Map<string, RSSFeedItem>();
 
-  for (const notice of noticesWithIdReversed) {
+  for (const notice of noticesWithId.toReversed()) {
     const content = notice.content[lang] ?? notice.content.ja;
     if (!content) continue;
 
