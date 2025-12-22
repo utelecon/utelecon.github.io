@@ -68,4 +68,14 @@ const notices = defineCollection({
   })
 })
 
-export const collections = { emergencies, events, notices };
+const pages = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/pages" }),
+  schema: z.object({
+    layout: z.boolean().optional(),
+    sitemap: z.boolean().optional(),
+    redirect_to: z.string().optional(),
+    title: z.string().optional()
+  })
+})
+
+export const collections = { emergencies, events, notices, pages };
