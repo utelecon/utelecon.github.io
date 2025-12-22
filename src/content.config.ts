@@ -2,7 +2,7 @@ import { styleText } from "node:util";
 import { defineCollection } from "astro:content";
 import { z } from "astro/zod"
 import { glob } from "astro/loaders";
-import { getISODateString } from "@data/utils/notices";
+import { getISODateString } from "src/lib/util";
 
 const emergencies = defineCollection({
   loader: glob({pattern: "*.{md,mdx}", base: "./src/emergencies" }),
