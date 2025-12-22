@@ -31,23 +31,23 @@ import HelpCiscoSecureClient from './_help_cisco_secure_client.md';
 その後は他のmacOS用アプリケーションと同様にインストールします．
 
 ![](img/mac02-download-page.png){:.medium.center.border}
-![](img/mac03-install-1.png){:.medium.center.border}
+![](img/mac03_1-install-1.png){:.medium.center.border}
 
 <HelpWhite />
 
 **手順C:** Cisco Secure Clientのインストールの途中で，以下のような「機能拡張がブロックされました」という画面が出る場合があります．その際は表示される手順にしたがって，「システム設定」→「プライバシーとセキュリティ」のペインに表示されている"Cisco Secure Client - Socket Filter"に関する許可を行なってください． また以下のような「"Cisco Secure Client - Socket Filter"がネットワークコンテンツのフィルタリングを求めています」という画面が表示されますので，これも許可してください．
 
-<figure class="gallery">![](img/mac04-install-2.png){:.border}![](img/mac05-install-3.png){:.border}</figure>
+<figure class="gallery">![](img/mac04_1-install-2.png){:.border}![](img/mac05_1-install-3.png){:.border}</figure>
 
 **手順D:** インストールが完了すると，アプリケーションフォルダに「Cisco」というフォルダが作成され，その中にVPNのクライアントアプリケーションであるCisco Secure Clientがインストールされています．
 
-![](img/mac06-cisco-on-app.png){:.medium.center.border}
+![](img/mac06_1-cisco-on-app.png){:.medium.center.border}
 
 これで準備は完了です．
 
 macOS 11 Big Sur以降のmacOSにCisco Secure Clientをインストールすると，「システム環境設定」→「ネットワーク」→「フィルタ」に以下のような Cisco Secure Client - Socket Filter という3つの拡張機能が追加されます．これらの拡張機能はUTokyo VPN接続時に通信を振り分けるために必要な機能として常駐しており，通信内容の記録やホスト外への情報送付も行いません．またこれらはUTokyo VPNに接続しているか否かに関わらず常時接続状態になります．
 
-![](img/mac07-macos-pref.png){:.medium.center.border}
+![](img/mac07_1-macos-pref.png){:.medium.center.border}
 
 ## 利用編: UTokyo VPNへの接続
 {:#connect}
@@ -56,7 +56,7 @@ macOS 11 Big Sur以降のmacOSにCisco Secure Clientをインストールする�
 
 **手順E:** 準備編でインストールしたCisco Secure Clientを起動すると，以下のような画面が出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「接続」ボタンをクリックします．
 
-![](img/mac08-app-window-connect.png){:.medium.center.border}
+![](img/mac08_1-app-window-connect.png){:.medium.center.border}
 
 
 **手順F:** 「接続」ボタンを押してください．既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
@@ -72,4 +72,4 @@ macOS 11 Big Sur以降のmacOSにCisco Secure Clientをインストールする�
 
 VPNを切断する際は，この画面の「切断」ボタンをクリックしてください．
 
-![](img/mac11-vpn-connected-window.png){:.medium.center.border}
+![](img/mac11_1-vpn-connected-window.png){:.medium.center.border}
