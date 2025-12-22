@@ -68,6 +68,29 @@ const notices = defineCollection({
   })
 })
 
+const nav = defineCollection({
+  loader: glob({ pattern: "*.yml", base: "./src/data/nav" }),
+  schema: z.array(
+    z.object({
+      name: z.string(),
+      sitemap: z.object({
+        section: z.boolean().optional()
+      }).optional(),
+      contents: z.array(
+        z.object({
+          name: z.string(),
+          url: z.string(),
+          sitemap: z.object({
+            section: z.boolean().optional(),
+            parent: z.string().optional()
+          }).optional(),
+          hidden: z.boolean().optional()
+        })
+      )
+    })
+  )
+})
+
 const pages = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/pages" }),
   schema: z.object({
@@ -78,4 +101,4 @@ const pages = defineCollection({
   })
 })
 
-export const collections = { emergencies, events, notices, pages };
+export const collections = { emergencies, events, notices, nav, pages };

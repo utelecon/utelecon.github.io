@@ -1,12 +1,9 @@
 ---
-import en from "@data/nav/en.yml";
-import ja from "@data/nav/ja.yml";
 import { basename } from "path";
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import Slugger from "github-slugger";
 import Layout from "@layouts/Layout.astro";
 import type { Lang } from "@components/types";
-import type { Navigation } from "@data/schemas/nav";
 import Markdown from "@components/utils/Markdown.astro";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
@@ -18,7 +15,7 @@ interface Props {
 }
 
 const { lang } = Astro.props;
-const navigations: Navigation[] = { ja, en }[lang];
+const { data: navigations } = await getEntry("nav", lang)!
 
 interface SectionNode {
   name: string;
