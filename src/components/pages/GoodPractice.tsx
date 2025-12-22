@@ -44,6 +44,13 @@ export const TOOLS = [
   { label: "GoodNotes", value: "goodnotes" },
   "br",
   { label: "Comment Screen", value: "comment-screen" },
+  { label: "TeX", value: "tex" },
+  { label: "Mathematica", value: "mathematica" },
+  { label: "UTAS", value: "utas" },
+  { label: "Google Drive", value: "google-drive" },
+  { label: "Scrapbox", value: "scrapbox" },
+  { label: "Mixlr", value: "mixlr" },
+  { label: "TwitCasting", value: "twitcasting" },
 ] satisfies (Filter | "br")[];
 
 export const KEYWORDS = [
@@ -51,6 +58,7 @@ export const KEYWORDS = [
   { label: "実験・実習", value: "experiment" },
   { label: "グループワーク", value: "group-work" },
   { label: "TA", value: "ta" },
+  { label: "テキスト", value: "text"}
 ] satisfies Filter[];
 
 export interface Interview {
