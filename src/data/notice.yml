@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2025-12-23
+  content:
+    ja: "[ワークショップ：UTokyo Azure Day](/events/2026-02-13/)を開催します。UTokyo Azureに関心をお持ちの方が気軽に参加できる学内ネットワーキングイベントです。"
+    en: "[Workshop: UTokyo Azure Day](/en/events/2026-02-13/) will be held. It is an on-campus networking opportunity for anyone interested in UTokyo Azure."
+-
   date: 2025-12-04
   content:
     ja: "[ECCS端末やWebDAV環境（Proself）に保存されているデータが削除されます（2026年2月21日予定）](/notice/2025/1204-eccs-data-deletion/)"
