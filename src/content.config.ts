@@ -2,6 +2,7 @@ import { styleText } from "node:util";
 import { defineCollection } from "astro:content";
 import { z } from "astro/zod"
 import { glob } from "astro/loaders";
+import { FORMATS, NUMBERS, TOOLS, KEYWORDS } from "@components/pages/GoodPractice";
 import { getISODateString } from "src/lib/util";
 
 const emergencies = defineCollection({
@@ -101,4 +102,43 @@ const pages = defineCollection({
   })
 })
 
-export const collections = { emergencies, events, notices, nav, pages };
+function createEnumFromFilters<T extends string>(
+  filters: readonly { value: T; label: string }[]
+) {
+  const values = filters.map((f) => f.value);
+  // z.enum() は [string, ...string[]] 型を要求する
+  return z.enum([values[0], ...values.slice(1)]);
+}
+
+const formatSchema = createEnumFromFilters(FORMATS);
+type Format = z.infer<typeof formatSchema>;
+
+const numberSchema = createEnumFromFilters(NUMBERS);
+type Number = z.infer<typeof numberSchema>;
+
+const toolSchema = createEnumFromFilters(TOOLS.filter((f) => f !== "br"));
+type Tool = z.infer<typeof toolSchema>;
+
+const keywordSchema = createEnumFromFilters(KEYWORDS);
+type Keyword = z.infer<typeof keywordSchema>;
+
+const interviews = defineCollection({
+  loader: glob({ pattern: "good-practice/interview/*.md", base: "./src/pages" }),
+  schema: z.object({
+    title: z.string(),
+    filters: z.object({
+      format: z.array(formatSchema),
+      number: numberSchema,
+      tools: z.array(toolSchema),
+      keywords: z.array(keywordSchema)
+    }),
+    componentProps: z.object({
+      title: z.string(),
+      point: z.string(),
+      tools: z.string()
+    })
+  })
+})
+
+export const collections = { emergencies, events, notices, nav, pages, interviews };
+export type { Format, Number, Tool, Keyword };
