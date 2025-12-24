@@ -78,8 +78,8 @@ Microsoft社によりMicrosoft 365 for Educationクラウドストレージの�
 
 ### ECCSクラウドメール (Google Workspace)
 
-Google WorkspaceのサービスとしてGoogleドライブを100GBまで費用負担なく利用可能です．
-また大学予算での支払いに限り有償で100GBを超えた利用も可能です．
+Google WorkspaceのサービスとしてGoogleドライブを125GBまで費用負担なく利用可能です．
+また大学予算での支払いに限り有償で125GBを超えた利用も可能です．
 
 詳しくは[ECCSストレージ管理システムについて](https://www.ecc.u-tokyo.ac.jp/storage_mgt/index.html)をご参照ください．
 
