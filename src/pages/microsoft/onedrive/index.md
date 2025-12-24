@@ -14,10 +14,26 @@ breadcrumb:
 東京大学では，Microsoft社の情報システムを利用することができるライセンス「[**UTokyo Microsoft License**](../)」が提供されています．これを利用すれば，UTokyo Accountを用いてMicrosoftにサインインすることにより，OneDriveの各種機能を使用することができます．
 
 ## ストレージ容量について
+{:#storage_capacity}
 
-UTokyo Microsoft Licenseは，組織契約により提供されているため，個人のMicrosoftアカウントと異なり，**一人あたり50GBまでのストレージ容量を利用できます**．
+UTokyo Accountで利用するOneDriveには，ストレージ容量の制限があります．個人別のストレージ容量は，原則として50GBが上限です（家庭用の一般的なOneDriveとは異なります）．この上限を超えてしまう場合，ファイルの追加や編集ができなくなります（ファイルの受け取りにも失敗する可能性があります．一方，データの読み取りや，ダウンロード，不要ファイルの削除などは可能です）．
 
-なお，ストレージ容量は有償で拡張することができます．詳しくはUTokyo Portalに掲載されている「[OneDriveのストレージ容量拡張申請について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/OneDrive_Change_Storage_Limit.aspx)」（教職員限定）を参照してください．また，学生や予算をもたない教職員でも，予算を持つ教職員の許可があれば容量の拡張が可能ですので，指導教員等にご相談ください．
+ただし，別途「利用負担金」を支払うことで，ストレージ容量を拡張できます．詳しくはUTokyo Portalに掲載されている「[OneDriveのストレージ容量拡張申請について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/OneDrive_Change_Storage_Limit.aspx)」（教職員限定）を参照してください．なお，予算をもたない教職員や，学生の方でも，予算を持つ教職員の許可があれば容量の拡張が可能です．学生の場合は指導教員等に相談してください．
+
+### 保存されたデータの整理
+{:#reorganizing_data}
+
+現在使用中のストレージについて確認するには，ブラウザで[OneDriveのストレージ管理画面](https://univtokyo-my.sharepoint.com/largestfiles)にアクセスしてください．サイズが大きくストレージを圧迫しているファイルを確認できるほか，画面左下の「ストレージ」欄で全体の使用量を確認できます．
+
+<details>
+    <summary>サイズの大きなファイルを削除しても，空き容量があまり増えない場合</summary>
+    次の点を確認してください．
+    <ul>
+        <li>OneDrive上で削除されたファイルは，基本的に「ごみ箱」に移されます．これらのファイルもストレージの使用量に算入されることに注意してください（ただし，<a href="https://support.microsoft.com/ja-jp/office/5fa924ee-16d7-487b-9a0a-021b9062d14b">「第2段階のごみ箱」にあるファイルは算入されないとされています</a>）．</li>
+        <li>東京大学のOneDriveでバージョン管理機能が有効になっているためかもしれません．過去の不要なバージョンを削除することで，空き容量を増やせる場合があります．詳しくは<a href="https://univtokyo.sharepoint.com/:v:/s/utokyoaccount/ESkNKTQEvV5Er9Ynu3VLFVIBnoYu1cgwI0_KqkwMWlRKRQ?e=uIWA8q">OneDriveでサイズの大きいファイルを表示させる，バージョン履歴を削除する方法（学内限定）</a>を参照してください．</li>
+    </ul>
+</details>
+
 
 ## 利用手順
 ここでは，UTokyo Microsoft Licenseのもと，ブラウザ上でOneDriveを利用する手順を説明します．
