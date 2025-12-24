@@ -2,6 +2,7 @@
 title: "2026/02/13ワークショップ：UTokyo Azure Day"
 h1: "2026/02/13ワークショップ：UTokyo Azure Day"
 ---
+![](../../en/events/2026-02-13/banner.jpeg)
 
 ## 開催趣旨
 
