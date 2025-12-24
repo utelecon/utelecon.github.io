@@ -5,7 +5,7 @@ breadcrumb:
 ---
 
 <div class="box--alert">
-    【お知らせ】<a href="/notice/2024/0422-microsoft-storage/">UTokyo Accountで利用するOneDrive等の容量制限について（第2報）</a>
+    【お知らせ】<a href="/notice/2025/1224-microsoft-storage/">UTokyo Accountで利用するOneDrive等の容量制限について（第3報）</a>
 </div>
 
 ## OneDriveとは
