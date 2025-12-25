@@ -32,7 +32,7 @@ We especially encourage participation from:
   - **Time:** 18:30–19:30  
   - **Capacity:** Around 40 participants  
   - **Fee:** Approx. ¥1,000 (to be collected at the reception desk on the day)
-- **Flyer:**  [UTokyo Azure Day Flyer](flyer.pdf)
+- **Flyer:**  [UTokyo Azure Day Flyer](/flyer.pdf)
 
 ## Call for Poster Presentations
 
