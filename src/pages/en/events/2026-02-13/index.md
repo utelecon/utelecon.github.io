@@ -43,7 +43,8 @@ We hope this will be an opportunity for interdisciplinary exchange among researc
 If you wish to present a poster, please select **“Poster Presentation”** in the registration form and provide the title of your presentation.
 
 - **Poster presentation application deadline:** Monday, February 9 (Noon)
-- **Poster Presentation Capacity:** Up to 30 presentations 
+- **Poster Presentation Capacity:** Up to 30 presentations
+- **Eligibility:** Open to faculty, staff, and students (UTokyo Azure usage is not required)
 
 ## Registration
 Please register using the **[Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)**.
