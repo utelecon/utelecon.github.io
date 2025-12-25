@@ -59,6 +59,10 @@ uteleconは以下のコンテンツから構成されています．それぞれ
 
 uteleconポータルサイトでは，利用状況の統計を取得するため，Google Analyticsを使用しています．Googleによるデータの取り扱いについては，「[Google のサービスを使用するサイトやアプリから収集した情報の Google による使用](https://policies.google.com/technologies/partner-sites)」等をご覧ください．
 
+## Microsoft Clarityの使用について
+
+uteleconポータルサイトでは，利用状況の統計の取得およびポータルサイトの改善を行うため，Microsoft Clarityを使用しています．Microsoftによるデータの取り扱いについては同サービスの利用規約「[MICROSOFT CLARITY - TERMS OF USE](https://clarity.microsoft.com/terms)」および「[Microsoft Clarity プライバシーに関する声明](https://privacy.microsoft.com/ja-jp/privacystatement)」等をご覧ください．
+
 ## Contribution
 
 準備中
