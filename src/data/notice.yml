@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2025-12-25
+  content:
+    ja: "[UTokyo Accountで利用するOneDrive等の容量制限について（第3報）](/notice/2025/1224-microsoft-storage/)"
+    en: "[Reduction of the storage capacity of OneDrive with UTokyo Accounts (3rd Announcement) (only in Japanese)](/notice/2025/1224-microsoft-storage/)"
+-
   date: 2025-12-23
   content:
     ja: "[ワークショップ：UTokyo Azure Day](/events/2026-02-13/)を開催します。UTokyo Azureに関心をお持ちの方が気軽に参加できる学内ネットワーキングイベントです。"
