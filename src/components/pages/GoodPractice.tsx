@@ -1,24 +1,23 @@
 import { useReducer } from "react";
+import type { Format, Number, Tool, Keyword } from "src/content.config";
 
 interface Filter {
   label: string;
   value: Lowercase<string>;
 }
 
-const FORMATS = [
+export const FORMATS = [
   { label: "リアルタイムオンライン", value: "realtime_online" },
   { label: "オンデマンド", value: "ondemand" },
 ] satisfies Filter[];
-type Format = (typeof FORMATS)[number]["value"];
 
-const NUMBERS = [
+export const NUMBERS = [
   { label: "101名以上", value: "mt100" },
   { label: "30名以上100名未満", value: "mt30-lt100" },
   { label: "30名未満", value: "lt30" },
 ] satisfies Filter[];
-type Number = (typeof NUMBERS)[number]["value"];
 
-const TOOLS = [
+export const TOOLS = [
   { label: "ITC-LMS", value: "itc-lms" },
   { label: "Google Classroom", value: "google-classroom" },
   { label: "Slack", value: "slack" },
@@ -45,16 +44,22 @@ const TOOLS = [
   { label: "GoodNotes", value: "goodnotes" },
   "br",
   { label: "Comment Screen", value: "comment-screen" },
+  { label: "TeX", value: "tex" },
+  { label: "Mathematica", value: "mathematica" },
+  { label: "UTAS", value: "utas" },
+  { label: "Google Drive", value: "google-drive" },
+  { label: "Scrapbox", value: "scrapbox" },
+  { label: "Mixlr", value: "mixlr" },
+  { label: "TwitCasting", value: "twitcasting" },
 ] satisfies (Filter | "br")[];
-type Tool = Extract<(typeof TOOLS)[number], Filter>["value"];
 
-const KEYWORDS = [
+export const KEYWORDS = [
   { label: "板書", value: "hand-writing" },
   { label: "実験・実習", value: "experiment" },
   { label: "グループワーク", value: "group-work" },
   { label: "TA", value: "ta" },
+  { label: "テキスト", value: "text"}
 ] satisfies Filter[];
-type Keyword = (typeof KEYWORDS)[number]["value"];
 
 export interface Interview {
   path: string;

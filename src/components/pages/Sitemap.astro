@@ -1,12 +1,9 @@
 ---
-import en from "@data/nav/en.yml";
-import ja from "@data/nav/ja.yml";
 import { basename } from "path";
-import type { MDXInstance, MarkdownInstance } from "astro";
+import { getCollection, getEntry } from "astro:content";
 import Slugger from "github-slugger";
-import Layout, { type Frontmatter } from "@layouts/Layout.astro";
+import Layout from "@layouts/Layout.astro";
 import type { Lang } from "@components/types";
-import type { Navigation } from "@data/schemas/nav";
 import Markdown from "@components/utils/Markdown.astro";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
@@ -18,7 +15,7 @@ interface Props {
 }
 
 const { lang } = Astro.props;
-const navigations: Navigation[] = { ja, en }[lang];
+const { data: navigations } = await getEntry("nav", lang)!
 
 interface SectionNode {
   name: string;
@@ -126,8 +123,7 @@ function resolveSections(
 const sections = resolveSections(root);
 sections.shift(); // remove root
 
-type Page = MarkdownInstance<Frontmatter> | MDXInstance<Frontmatter>;
-const pages = await Astro.glob<Page>("/src/pages/**/*.{md,mdx}");
+const pages = await getCollection("pages");
 
 const indexSectionByPrefixes = sections.flatMap((section) =>
   section.prefixes.map((prefix) => ({ prefix, section })),
@@ -135,17 +131,18 @@ const indexSectionByPrefixes = sections.flatMap((section) =>
 // longest prefix first
 indexSectionByPrefixes.sort((a, b) => b.prefix.length - a.prefix.length);
 for (const page of pages) {
-  if (!page.url) continue;
-  if (basename(page.url).startsWith("_")) continue;
-  const { layout, sitemap, redirect_to } = page.frontmatter;
-  if (layout === false || sitemap === false || redirect_to) continue;
-  if (page.url.startsWith("/en/") !== (lang === "en")) continue;
+  const url = `/${page.id}`;
+  if (!url) continue;
+  if (basename(url).startsWith("_")) continue;
+  const { layout, sitemap, redirect_to, title } = page.data;
+  if (layout === false || sitemap === false || redirect_to || !title) continue;
+  if (url.startsWith("/en/") !== (lang === "en")) continue;
 
   const { section } = indexSectionByPrefixes.find(
     (item) =>
-      page.url!.startsWith(item.prefix) || page.url + "/" === item.prefix,
+      url!.startsWith(item.prefix) || url + "/" === item.prefix,
   )!; // the "Others" section should catch
-  section.entries.push({ title: page.frontmatter.title, url: page.url });
+  section.entries.push({ title, url });
 }
 for (const section of sections) {
   // https://stackoverflow.com/questions/979256/sorting-an-array-of-objects-by-property-values#comment48111034_979289
