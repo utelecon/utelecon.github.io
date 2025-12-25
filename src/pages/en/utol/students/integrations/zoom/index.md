@@ -1,12 +1,10 @@
 ---
 title: Using Zoom meeting with LTI integration in UTOL
 breadcrumb:
-  title: Zoom
-redirect_from:
-  - /utol/students/lti/zoom/
+  title: Zoom 
 ---
 
-## 概要
+## Overview
 
 When using Zoom meetings with the LTI integration in UTOL, enrolled students attending the course can join Zoom meetings with a simple screen operation by clicking the Zoom button in the “External Tool Link” section of the UTOL, or view meetings recorded on the cloud (cloud recording).
 
@@ -16,7 +14,7 @@ This page explains how enrolled students can use the Zoom meetings through the L
 
 Course participants can join Zoom meetings that have been configured using an LTI integration, with a simple screen operation.
 
-### 手順
+### Steps
 
 1. Open the course top screen.
 2. Click “Zoom” in the “External Tool Link” section.
@@ -30,7 +28,7 @@ Course participants can join Zoom meetings that have been configured using an LT
 
 When the course instructors or TAs have record Zoom meetings configured using an LTI integration onto the cloud, enrolled students can view the recordings through a web browser.
 
-### 手順
+### Steps
 
 1. Open the course top screen.
 2. Click “Zoom” in the “External Tool Link” section.
