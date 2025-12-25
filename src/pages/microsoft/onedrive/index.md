@@ -28,10 +28,9 @@ UTokyo Accountで利用するOneDriveには，ストレージ容量の制限が�
 <details>
     <summary>サイズの大きなファイルを削除しても，空き容量があまり増えない場合</summary>
     次の点を確認してください．
-    <ul>
-        <li>OneDrive上で削除されたファイルは，基本的に「ごみ箱」に移されます．これらのファイルもストレージの使用量に算入されることに注意してください（ただし，<a href="https://support.microsoft.com/ja-jp/office/5fa924ee-16d7-487b-9a0a-021b9062d14b">「第2段階のごみ箱」にあるファイルは算入されないとされています</a>）．</li>
-        <li>東京大学のOneDriveでバージョン管理機能が有効になっているためかもしれません．過去の不要なバージョンを削除することで，空き容量を増やせる場合があります．詳しくは<a href="https://univtokyo.sharepoint.com/:v:/s/utokyoaccount/ESkNKTQEvV5Er9Ynu3VLFVIBnoYu1cgwI0_KqkwMWlRKRQ?e=uIWA8q">OneDriveでサイズの大きいファイルを表示させる，バージョン履歴を削除する方法（学内限定）</a>を参照してください．</li>
-    </ul>
+
+- OneDrive上で削除されたファイルは，基本的に「ごみ箱」に移されます．これらのファイルもストレージの使用量に算入されることに注意してください（ただし，[「第2段階のごみ箱」にあるファイルは算入されないとされています](https://support.microsoft.com/ja-jp/office/5fa924ee-16d7-487b-9a0a-021b9062d14b)）．
+- 東京大学のOneDriveでバージョン管理機能が有効になっているためかもしれません．過去の不要なバージョンを削除することで，空き容量を増やせる場合があります．詳しくは[OneDriveでサイズの大きいファイルを表示させる，バージョン履歴を削除する方法（学内限定）](https://univtokyo.sharepoint.com/:v:/s/utokyoaccount/ESkNKTQEvV5Er9Ynu3VLFVIBnoYu1cgwI0_KqkwMWlRKRQ?e=uIWA8q)を参照してください．
 </details>
 
 
