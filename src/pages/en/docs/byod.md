@@ -1,5 +1,7 @@
 ---
-title: The University of Tokyo BYOD Policy 
+title: The University of Tokyo BYOD Policy
+breadcrumb:
+  title: BYOD Policy
 redirect_from:
   - /en/notice/byod
 ---
