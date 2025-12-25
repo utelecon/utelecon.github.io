@@ -24,14 +24,14 @@ Cases of device loss or theft, such as during business trips, are on the rise. I
 
 You can use the standard BitLocker feature in Windows to encrypt your drive. Steps to enable BitLocker:
 
-1. Open the Control Panel from the Start menu.
+1. Open the "Control Panel" from the Start menu.
 2. Select "System and Security" and click "BitLocker Drive Encryption."
 3. Choose "Turn on BitLocker."
 4. When prompted to "Choose how you want to back up your recovery key," select a backup method.
-   - If saving to a file, store it on a USB drive.
-   - If printing, keep the printed recovery key in a secure place, separate from your device.
+   - If you choose "Save to a file," store it on a USB drive.
+   - If you choose "Print the recovery key," keep the printed recovery key in a secure place, separate from your device.
 
-   ※ いずれの場合でも，USBメモリおよび印刷した用紙は厳重に，端末とは異なる場所に保管してください．
+   ※ In either case, ensure that the USB drive or printed paper is stored securely and separately from the device.
 5. When asked to "Choose how much of your drive to encrypt," select "Encrypt entire drive."
 6. For "Choose which encryption mode to use," select "New encryption mode" for internal drives, or "Compatible mode" for external drives and USBs.
 7. Check "Run BitLocker system check" and proceed.
@@ -39,22 +39,20 @@ You can use the standard BitLocker feature in Windows to encrypt your drive. Ste
 
 ### For MacOS
 
-You can use the standard FileVault feature in macOS to encrypt your drive. FileVault is supported on Macs with Intel CPUs (2018 and later) and Apple Silicon (M1-M5). Steps to enable FileVault:
+You can use the standard FileVault feature in macOS to encrypt your drive. FileVault is supported on Macs with Intel CPUs (2018 and later) and Apple Silicon (M1〜M5). Steps to enable FileVault:
 
-1. Open "System Settings" from the Apple menu.
-2. Click "Privacy & Security."
-3. Scroll down and turn on FileVault. You may be prompted to enter your password.
-4. Choose a method to unlock the disk or reset your password if forgotten: 
+1. Open "System Settings" from the Apple menu, and then click "Privacy & Security."
+2. Scroll down and turn on FileVault. You may be prompted to enter your password.
+3. Choose a method to unlock the disk or reset your password if forgotten: 
    - iCloud account: Click "Allow my iCloud account to unlock my disk." If you're not using iCloud, set it up as prompted.
    - Recovery key: Click "Create a recovery key and do not use my iCloud account." Write down the recovery key and store it safely.
-5. Click "Continue."
+4. Click "Continue."
 
 ## Regular Backups
 {:#regular-backup}
 
-- 暗号化やリモートからの削除を設定しても，端末に入っているデータは保護できません．定期的なデータのバックアップを取るようにしてください．
-- In addition to local disks, you can use cloud storage services such as [Google Drive](/en/google/drive/) or [OneDrive](/en/microsoft/onedrive/), which are available through the university. Please be mindful of storage limits.
-   - Note: Data will be deleted a certain period after graduation or resignation.
+- Even with encryption and remote wipe settings, data on the device is not protected. Please ensure to back up your data regularly.
+- In addition to local disks, you can use cloud storage services such as [Google Drive](/en/google/drive/) or [OneDrive](/en/microsoft/onedrive/), which are available through the university. Please be mindful of storage limits. In addition, data will be deleted a certain period after graduation or resignation.
 
 ## Setting Up Remote Lock/Wipe in Advance
 {:#remote-lock-wipe}
@@ -86,20 +84,21 @@ If your Windows device is lost or stolen, you can remotely lock it to prevent un
 
 ### For MacOS
 
-If your Mac is lost or stolen, you can remotely erase all data via iCloud, provided you have set up the "Find My" feature in advance.
+If your Mac is lost or stolen, **you can remotely erase all data via iCloud, provided you have set up the "Find My" feature in advance**.
 
 #### Pre-setup
 
 1. Open "System Settings" from the Apple menu.
-2. Select "Apple ID" and ensure you are signed in.
+2. Select "Apple Account" and ensure you are signed in.
 3. Click "iCloud."
-4. In the list of apps using iCloud, turn on "Find My Mac." (If not listed, click "Show All.")
+4. In the list of apps using iCloud, turn on "Find My Mac."
+   - If not listed, click "Show All."
 5. Make sure "Find My Mac" is enabled.
 
 #### How to Remotely Wipe (if device is lost)
 
-1. Go to [iCloud.com](https://www.icloud.com/) and log in with your Apple ID.
-2. Open "Find iPhone" (includes Macs).
+1. Go to [iCloud](https://www.icloud.com/) and sign in with your Apple Account.
+2. Open "Find iPhone." (Macs are included under "iPhone" on this context.)
 3. From the device list, select your Mac.
 4. Click "Erase Mac" and follow the on-screen instructions.
 
