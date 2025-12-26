@@ -20,7 +20,7 @@ Course participants can join Zoom meetings that have been configured using an LT
 2. Click “Zoom” in the “External Tool Link” section.
   ![](utol_lti.png){:.small}
 3. Click the “Join” button for the meeting on the screen and the Zoom application will start.
-   - If the language setting is “English”, click the “Join” button.
+   - If the language setting is "Japanese", click the "参加" button.
 
    ![](zoom_next_meeting_join.png)
 
