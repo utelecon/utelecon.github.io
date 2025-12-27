@@ -6,7 +6,7 @@ uteleconは，オンライン授業やWeb会議に関する情報をワンスト
 
 ## Preview
 
-[Node.js](https://nodejs.org) が必要です．v22の最新版（LTS）をインストールしてください．
+[Node.js](https://nodejs.org) が必要です．v24の最新版（LTS）をインストールしてください．
 
 - レポジトリをクローンしたら，まず`npm install`を実行します．
 - プレビューを開始するには，`npm run dev`を実行します．`^C`で終了します．
