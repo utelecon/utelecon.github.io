@@ -4,6 +4,8 @@ breadcrumb:
   title: 連携解除
 ---
 
+import CheckStatus from "../_CheckStatus.mdx"
+
 ## はじめに
 このページでは，UTokyo Account本人確認サービスを既に利用している方が，「[事前連携](../link/)」を解除する手続きについて説明します．
 
@@ -185,10 +187,4 @@ UTokyo Account本人確認サービスにアクセスする際に，PCを用い�
 ## 手順4: 連携状況を確認する
 {:#statuscheck}
 
-連携状況はUTokyo Account利用者情報確認サイト上で確認することが出来ます．
-
-1. [UTokyo Account利用者情報確認サイト](https://login.adm.u-tokyo.ac.jp/my/)にアクセスしてください．
-1. 右上の「Sign In」ボタンを押してください．
-1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-1. 「情報を表示 / Display information」ボタンを押してください．
-1. 「UTokyo Account本人確認サービスを利用していません」と表示されていれば，連携解除が完了しています．
+<CheckStatus variant="unlink"/>
