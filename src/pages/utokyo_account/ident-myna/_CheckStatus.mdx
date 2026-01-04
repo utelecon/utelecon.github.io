@@ -21,7 +21,7 @@ import If from "@components/utils/If.astro"
 1. 右上の「Sign In」ボタンを押してください．
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 1. 「情報を表示 / Display information」ボタンを押してください．
-<If cond={props.variant === "notSpecified"}>
+<If cond={props.variant !== "notSpecified"}>
 1. <If cond={props.variant === "link"}>
    「UTokyo Account本人確認サービスを利用しています」と表示されていれば，事前連携が完了しています．
    </If>
