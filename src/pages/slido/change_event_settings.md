@@ -6,7 +6,7 @@ breadcrumb:
 
 [東京大学のアカウントでSlidoを利用する](../login/)場合，無料のアカウントと比べて，イベントの設定を細かく変更することができます．
 
-設定はイベントの主催者側画面左上の「Setting」（歯車アイコン）を選択することで行うことができます．主催者側画面には，[イベントの一覧ページ](https://admin.sli.do/events)からアクセスしてください．
+設定はイベントの主催者側画面左上の「Settings」（歯車アイコン）を選択することで行うことができます．主催者側画面には，[イベントの一覧ページ](https://admin.sli.do/events)からアクセスしてください．
 
 <img src="img/settings.png">
 <img src="img/settings_details.png">
