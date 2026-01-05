@@ -1,7 +1,7 @@
 ---
-title: "Azure AI Foundry : UTokyo Azure 利用例"
+title: "Microsoft Foundry : UTokyo Azure 利用例"
 breadcrumb:
-  title: "Azure AI Foundry"
+  title: "Microsoft Foundry"
 ---
 
 import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.mdx";
@@ -9,7 +9,13 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ## 概要
 {:#about}
 
-Azure AI Foundry（旧称 Azure AI Studio）を本サービスで利用する場合の初期手続き例です．
+Microsoft Foundry（旧称 Azure AI Foundry）でポータルを構築する初期手続き例です．
+
+### 注意（2026年1月現在）
+
+- Azure Portal において，Azure AI Foundry から移行中のページやリソースがまだ多数あります．当面は頻繁な仕様変更が想定されますので，ここに記載の内容と一致しない場合は[Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/ai-foundry/what-is-azure-ai-foundry?view=foundry-classic)をご参照ください．
+- あたらしい Foundry が提供されているリージョンはまだ限られている模様です．日本のリージョンでは Japan East では提供済みですが，Japan West は未提供となっています．ご利用される場合は，選択するリージョンで利用可能か事前にご確認ください．
+  - [Microsoft Learn:クラウド リージョン間での Microsoft Foundry 機能の可用性](https://learn.microsoft.com/ja-jp/azure/ai-foundry/reference/region-support?view=foundry)
 
 ## １．サービスを選択する
 {:#select_service}
@@ -17,83 +23,67 @@ Azure AI Foundry（旧称 Azure AI Studio）を本サービスで利用する場
 <FirstTimeUsing type="details" />
 
 - Azureサービスの一覧の中から`Azure AI Foundry`を選択します．
-    - 一覧に無い場合、一覧の右にある`その他のサービス`を選択、左側にあるリストから`AI + Machine Learning`を選択すると， 右側に表示されるメイン画面の`Azure AI + Machine Learning platforms`の中にあります．
+　- 2026年1月以降，アイコンのサービス名が`Microsoft Foundry`に変更になる可能性があります．
+  - 一覧に無い場合，Portal 画面上部にある検索窓に`Azure AI Foundry`や`Foundry`などと入力すると表示されます．
 
 ![](img/01_aistudio1.png){:.medium.center.border}
 
-- Azure AI Foundry のメインページが表示されたら，画面左上にある`＋Create`をクリックします．
-- `Project`か`Hub`の選択になります．ここでは`Hub`を選択します．
+- Azure AI Foundry のメインページが表示されたら，画面左にあるリストから`Use with Foundry → Foundry`をクリックします．
 
-## ２．Azure AI ハブを構成する
+## ２．Foundry ポータルを構成する
 {:#aihub}
 
 <div class="box">
 **補足**：説明のない項目は，基本的に初期設定のままで構成することを前提としています．
 </div>
 
-### 基本パート
+### 基本情報パート
 {:#base}
 
-#### 組織の詳細
+#### インスタンスの詳細
 
 - **サブスクリプション**：事前に申請したサブスクリプションがすでに設定されていますので、通常はそのままで問題ありません．設定が無い場合はサブスクリプションが作成完了しているかどうか確認ください．
-- **[リソースグループ](https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/manage-resource-groups-portal)**：ここでは新規に`aihub_resource_group`というリソースグループ名で作成し，以下に作成される各リソースをまとめます．まとめられたリソースは，権限の継承や削除などを一括で対応することが可能となります．
-- **リージョン**：AIハブをどの地域（リージョン）にあるデータセンターにデプロイするかを指定します．使いたい機能が特定の国のリージョンにしかない場合は，その国のリージョンを選択ください．パブリッククラウド上での情報管理に不安がある場合は日本国内（`Japan East` か`Japan West`）のリージョンを選択することも可能です．
+- **[リソースグループ](https://learn.microsoft.com/ja-jp/azure/azure-resource-manager/management/manage-resource-groups-portal)**：ここでは新規に`rg-roletest-ai`というリソースグループ名で作成し，以下に作成される各リソースをまとめます．まとめられたリソースは，権限の継承や削除などを一括で対応することが可能となります．
+- **リージョン**：Foundryをどの地域（リージョン）にあるデータセンターにデプロイするかを指定します．使いたい機能が特定の国のリージョンにしかない場合は，その国のリージョンを選択ください．
+  - （2026年1月現在）[Japan West は Foundry サービスがまだ未提供です](https://learn.microsoft.com/ja-jp/azure/ai-foundry/reference/region-support?view=foundry)．
 
-#### リソースの詳細
+#### 最初のプロジェクト
 
-- **名前**：リソースのポータルでの名称を設定します．ここでは`ai_test`としています．
-- それ以外の項目は初期設定のまま進めます．
+- **Default project name**：適当なプロジェクト名を入力してください．ここでは`proj-test-ai`としています．
 
 ![](img/02_aistudio2.png){:.medium.center.border}
 
-### ストレージ，ネットワーク，暗号化，ID，タグの各パート
+### Storageパート
 {:#storage}
 
-ここでは初期設定のまま進めます．
+ここでは，完全に新規利用の想定で初期設定のまま進めます．
+- Azure 上にある既存データを利用する場合は`Key Vault`や`Storage Account`などの設定を行ってください．
+
+### ネットワーク，Identity，暗号化，タグの各パート
+{:etcpart}
+
+ここでは，初期設定のまま進めます．
 
 ### 確認及び作成パート
 {:#execute}
 
-ポータルによる検証が成功したら，画面左下の`作成`ボタンをクリックし，しばらくしてデプロイが正常に完了しましたら，`リソースに移動`をクリックしてください．
+- ポータルによる検証が成功したら，画面左下の`作成`ボタンをクリックし，しばらくしてデプロイが正常に完了しましたら，`リソースに移動`をクリックしてください．
+- Foundry のトップページに遷移するので，`Go to Foundry Portal`をクリックしてください．
 
-![](img/04_aistudio4.png){:.medium.center.border}
-
-AI ハブ のトップページに遷移するので，`Azure AI Foundry の起動`をクリックしてください．
-
-![](img/05_aistudio5.png){:.medium.center.border}
+![](img/03_aistudio3.png){:.medium.center.border}
 
 - 初回アクセスでは，プロジェクト名の入力を求められるので，適当なプロジェクト名を入力ください．初期設定のままでも構いません．
 
-ここからは Azure AI Foundry のネイティブ環境で進めます．
+Foundry ポータルが立ち上がりますので，以降は Foundry ポータル上でモデルのデプロイを進めます．
 
-## ３．Azure AI Foundry のプロジェクトにモデルをデプロイする
+![](img/04_aistudio4.png){:.medium.center.border}
 
-**一例として GPT4 チャットモデルをデプロイします．**
+## 補足１：モデルデプロイを進めるにあたっての注意事項
 
-- トップページ画面左側のリストから，`モデルカタログ`を選択します．
+- モデルによってデプロイするためには事前登録が必要であったり，必要な入力情報やデプロイ手順が違ったりします．デプロイボタンがグレーアウトしていてデプロイできない場合は，必要条件がそろっているかどうかご確認ください．
+- Foundryポータル上部にある`新しいFoundry`スイッチを切り替えると，UIが新しいバージョンに更新されます．このページでは旧バージョン（クラシック版）で説明していますのでご注意ください．新しいバージョンのUIで使う場合は，Microsoft Learn の[Microsoft Foundry（新しい）ポータル]（https://learn.microsoft.com/ja-jp/azure/ai-foundry/what-is-azure-ai-foundry?view=foundry&preserve-view=true）を参照してください．
 
-![](img/01_aistudiogpt1.png){:.medium.center.border}
-
-- モデル選択画面になりますので，`gpt-4o`をクリック．
-
-![](img/02_aistudiogpt2.png){:.medium.center.border}
-
-- gpt-4o の詳細画面になるので，画面上部にある`デプロイ`をクリック．
-
-![](img/03_aistudiogpt3.png){:.medium.center.border}
-
-- 確認画面になるので，`リソースを作成してデプロイする`をクリック．
-
-![](img/04_aistudiogpt4.png){:.medium.center.border}
-
-デプロイが完了したら，`プレイグラウンドで開く`をクリック．
-
-- 下図のようなチャットプレイグランドが表示されたら完了です．
-
-![](img/05_aistudiogpt5.png){:.medium.center.border}
-
-## ４．利用しない期間のリソース停止や削除
+## 補足２：利用しない期間のリソース停止や削除
 
 **仮想マシンはそのままにすると利用料金が課金され続けます．**
 
