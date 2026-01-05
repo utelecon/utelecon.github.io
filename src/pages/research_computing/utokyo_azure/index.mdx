@@ -80,15 +80,16 @@ UTokyo Azure は，このギフトクレジットによる Microsoft Azure の�
 
 - GPT などの既存モデル（生成AI）を Azure 経由で Web ブラウザや Python プログラムから利用することができます．ChatGPT のような利用も可能です．
 
-#### [Azure OpenAI](/research_computing/utokyo_azure/ai/openai/)
-
-- ChatGPT のようなブラウザ上で AI とチャットをするサービスや、それをプログラムから呼び出す API を利用可能です．
-- OpenAI 社が提供する GPT シリーズのモデルのみを Azure で利用したい場合、この手順が簡単です．
-
 #### [Microsoft Foundry](/research_computing/utokyo_azure/ai/azureai/)
 
 - Azure における AI サービスの総合プラットフォームで、OpenAI 社によるものだけでなく LLama や Mistral など様々なモデルが選択可能です
-- GPT 以外のモデルを使いたい場合はこちらを使ってください．
+- OpenAI のモデルも含め，基本的にはこちらからご利用ください．
+
+#### [Azure OpenAI](/research_computing/utokyo_azure/ai/openai/)
+
+- ChatGPT のようなブラウザ上で AI とチャットをするサービスや、それをプログラムから呼び出す API を利用可能です．
+- ~~ OpenAI 社が提供する GPT シリーズのモデルのみを Azure で利用したい場合、この手順が簡単です． ~~
+  - Foundry 以降は Azure OpenAI も順次統合され，初期手順に少し違いがある以外，最終的には Foundry ポータルでデプロイして利用する形となるため，OpenAI 利用の場合も通常は Microsoft Foundry からデプロイしてください．過去に調整したモデルとのAPI互換性などが問題になる場合はこちらをご利用ください．
 
 ## ストレージ (データの置き場) について
 
