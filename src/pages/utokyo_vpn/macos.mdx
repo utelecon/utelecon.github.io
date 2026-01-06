@@ -35,11 +35,18 @@ import HelpCiscoSecureClient from './_help_cisco_secure_client.md';
 
 <HelpWhite />
 
-**手順C:** Cisco Secure Clientのインストールの途中で，以下のような「"Cisco Secure Client -Socket Filter"が新しいネットワーク機能拡張を使おうとしています」という画面が出る場合があります．その際は表示される手順にしたがって，「システム設定」→「プライバシーとセキュリティ」のペインに表示されている"Cisco Secure Client - Socket Filter"に関する許可を行ってください．また以下のような「Cisco Secure Clientセキュアモビリティクライアント通知」というポップアップが表示されたら，表示される手順にしたがって，「システム設定」→「一般」→「ログイン項目と機能拡張」にすすみ，「機能拡張」の「カテゴリ別」を選択し「ネットワーク機能拡張」の右にあるiボタンをクリックしてCisco Secure Clientを有効にしてください．
+**手順C:**Cisco Secure Clientのインストールの途中で，以下のような「Action Required AnyConnect VPN Service Not Enabled」というポップアップが表示されます．ポップアップの指示に従って，「システム設定」→「一般」→「ログイン項目と機能拡張」にすすみ，「アプリのバックグラウンドでのアクティビティ」のCisco Secure Client - AnyConnect VPN Serviceを有効にしてください．この際，「"Cisco Secure Client -Socket Filter"が新しいネットワーク機能拡張を使おうとしています」という画面が出る場合があります．表示される手順にしたがって，「システム設定」→「プライバシーとセキュリティ」のペインに表示されている"Cisco Secure Client - Socket Filter"に関する許可を行ってください．
 
-<figure class="gallery">![](img/mac04_1-install-2.png){:.border}![](img/mac04_2-install-2.png){:.border}</figure>
+![](img/mac04_0-install-2.png){:.medium.center.border}
+![](img/mac04_1-install-2.png){:.medium.center.border}
 
-**手順D:** インストールが完了すると，アプリケーションフォルダに「Cisco」というフォルダが作成され，その中にVPNのクライアントアプリケーションであるCisco Secure Clientがインストールされています．
+**手順D**
+以下のような「Cisco Secure Clientセキュアモビリティクライアント通知」というポップアップが表示されたら，表示される手順にしたがって，「システム設定」→「一般」→「ログイン項目と機能拡張」にすすみ，「機能拡張」の「カテゴリ別」を選択し「ネットワーク機能拡張」の右にあるiボタンをクリックしてCisco Secure Clientを有効にしてください．
+
+![](img/mac04_2-install-2.png}{:.medium.center.border}
+
+
+**手順E:** インストールが完了すると，アプリケーションフォルダに「Cisco」というフォルダが作成され，その中にVPNのクライアントアプリケーションであるCisco Secure Clientがインストールされています．
 
 ![](img/mac06_1-cisco-on-app.png){:.medium.center.border}
 
@@ -54,21 +61,21 @@ macOS 11 Big Sur以降のmacOSにCisco Secure Clientをインストールする�
 
 以下の手順はVPNを利用するたびに必要です．特にPCを起動した直後に自動的にVPNに接続されるわけではありませんので，ご注意ください．
 
-**手順E:** 準備編でインストールしたCisco Secure Clientを起動すると，以下のような画面が出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「Connect」ボタンをクリックします．
+**手順F:** 準備編でインストールしたCisco Secure Clientを起動すると，以下のような画面が出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「Connect」ボタンをクリックします．
 
 ![](img/mac08_1-app-window-connect.png){:.medium.center.border}
 
 
-**手順F:** 「Connect」ボタンを押してください．既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+**手順G:** 「Connect」ボタンを押してください．既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
 
 <HelpMfa />
 <HelpSecurityEducation />
 <HelpCiscoSecureClient />
 
 
-**手順G:** サインインに成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
+**手順H:** サインインに成功すれば，VPNへの接続は完了です．ZoomやWebexなどVPNを経由する必要のない一部の通信や電子ジャーナルサイトなどを除く全ての通信は，このVPNを経由して，東京大学キャンパスネットワークに接続している状態で行われます．
 
-**手順H:** 再度Cisco Secure Clientをクリックし，現在の状態を確認します．表示された画面で，以下のように「Connected to vpn1.adm.u-tokyo.ac.jp.」と表示されていれば，お使いの機器はUTokyo VPNに接続している状態です．
+**手順I:** 再度Cisco Secure Clientをクリックし，現在の状態を確認します．表示された画面で，以下のように「Connected to vpn1.adm.u-tokyo.ac.jp.」と表示されていれば，お使いの機器はUTokyo VPNに接続している状態です．
 
 VPNを切断する際は，この画面の「Disconnect」ボタンをクリックしてください．
 
