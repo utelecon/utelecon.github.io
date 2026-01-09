@@ -28,36 +28,36 @@ Members of the University of Tokyo can create Google Sites using their [ECCS Clo
 
 Google sites are suitable for one-way dissemination of structured information within seminars or research groups. For easy information sharing, [Google Docs (in Japanese)](../document/) or [Google Drive](../drive/) may also be suitable. However, it is difficult to compile various types of information, such as tables and images, in an easy-to-understand format using Google Docs. Organizing information by splitting it into multiple files on Google Drive makes it harder to access the necessary information. In such cases, sharing the information as a website using Google Sites allows various types of information to be gathered in an easily accessible format.
 
-小規模なサークルや人の入れ替わりが早いサークルでは，ウェブサイト制作に詳しい人材が不足している場合があります．Google サイトは操作が直感的なので，編集が簡単であり，このようなサークルでも作成や維持管理が比較的容易です．
+In small clubs or clubs with a rapid turnover of members, there may be a lack of people familiar with website creation. Since Google Sites is intuitive to operate, editing is simple, making creation and maintenance relatively easy even for such clubs.
 
-東大の学生のみからなる団体の場合は，新規メンバーを勧誘する際に，学内者のみに情報を発信するようなことが考えられます．このようなときは，勧誘用のサイトをGoogle サイトで作成すれば，学内の構成員に限定して公開できます．
+For organizations composed only of UTokyo students, they might consider communicating information only to those within the university when recruiting new members. In this case, creating a recruitment site using Google Sites allows the site to be published only to university members.
 
-## 基本的な使い方
+## Basic Usage
 
-以下ではサイトの作成，編集や公開などの基本的な操作について説明します．
+The following describes the basic operations such as site creation, editing, and publishing.
 
-### サイトの作成・編集
+### Site Creation and Editing
 
-Googleの公式ヘルプ「[Google サイトの使い方](https://support.google.com/sites/answer/6372878?hl=ja)」を参照してください．ただし，上記「[カスタムドメイン設定サービス](#with-utac)」を利用する場合は，先にそちらの手続きをしてください．
+Please refer to the official Google Help for [How to use Google Sites](https://support.google.com/sites/answer/6372878?hl=en). However, if you plan to use the [Custom Domain Setting Service](#with-utac) mentioned above, complete that procedure first.
 
-### サイトの公開
+### Site Publishing
 
-1. 公開したいサイトの編集画面で，右上の「公開」を押してください．
+1. In the editing screen of the site you want to publish, click “Publish” in the upper right.
 ![](edit_site_screen.png){:.medium .border}
-2. サイトを閲覧できるユーザーを確認してください．
-    - そのままで良い場合は，手順3に進んでください．
-    - 変更したい場合は，以下の手順を行ってください．
-        1. 「管理」を押してください．
+2. Check the users who can view the site.
+    - If no changes are needed, proceed to step 3.
+    - If you wish to make changes, follow the steps below.
+        1. Click “Manage”.
             ![](set_url_manage.png){:.small}
-        2. 公開範囲を「制限付き」，「東京大学ECCSクラウドメール」，「公開」の中から選択してください．
-            - 「制限付き」を選択した場合，アクセス権のあるユーザーだけが，閲覧できるようになります．アクセス権はサイトの「オーナー」が，個別のユーザーやGoogle グループに与えることができます．Google グループについて詳しくは，Google グループのページを参照してください．
-            - 「東京大学ECCSクラウドメール」を選択した場合，ECCSクラウドメールのユーザーだけが閲覧できるようになります．大学構成員に公開範囲を限定したいときは，「東京大学ECCSクラウドメール」を選択してください．
-            - 「公開」を選択した場合，インターネット上の誰でも閲覧できるようになります．外部に公開してはいけない内容を含んでいないか，注意が必要です．
-            - なお，同じサイトでページごとに異なる公開範囲を設定することはできません．異なる公開範囲のページを公開したいときは，別のサイトを作成する必要があります．
-        3. 「完了」を押してください．
+        2. Select the publication range from “Restricted”, “The University of Tokyo ECCS Cloud Email”, or “Public”.
+            - If you select “Restricted”, only users with access permission will be able to view the site. Access permission can be granted by the site’s “Owner” to individual users or Google Groups. (For more details on Google Groups, please refer to the Google Groups page.)
+            - If you select “The University of Tokyo ECCS Cloud Email”, only ECCS Cloud Email users will be able to view the site. Select this option if you want to limit the publication range to university members.
+            - If you select “Public”, anyone on the Internet will be able to view the site. Be cautious about including content that should not be publicly exposed.
+            - Note: It is not possible to set different publication range for different page within the same site. If you wish to publish pages with different publication ranges, you must create a separate site.
+        3. Click “Done”.
             ![](set_visibility.png){:.small}
-3. ウェブアドレス欄に任意の文字列を入力して「公開」を押してください．
-   - 「[カスタムドメイン設定サービス](#with-utac)」を利用していない場合，URLは`https://sites.google.com/g.ecc.u-tokyo.ac.jp/xxx`という形式になります．
+3. Enter a web address of your choice in the  address field, then click “Publish”.
+   - If you are not using the [Custom Domain Setting Service](#with-utac), the URL will be in the format: `https://sites.google.com/g.ecc.u-tokyo.ac.jp/xxx`.
 
     ![](publish_site.png){:.small}
 
