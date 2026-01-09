@@ -31,7 +31,9 @@ We especially encourage participation from:
   - **Venue:** Takeda Hall Foyer  
   - **Time:** 18:30–19:30  
   - **Capacity:** Around 40 participants  
-  - **Fee:** Approx. ¥1,000 (to be collected at the reception desk on the day)
+ - **Fee:** <span style="color: red;">Free</span> *(Updated Jan. 9)* ~~Approx. ¥1,000 (to be collected at the reception desk on the day)~~
+
+
 - **Flyer:**  [UTokyo Azure Day Flyer](/en/events/2026-02-13/Flyer.pdf)
 
 ## Call for Poster Presentations
@@ -45,6 +47,9 @@ If you wish to present a poster, please select **“Poster Presentation”** in 
 - **Poster presentation application deadline:** Monday, February 9 (Noon)
 - **Poster Presentation Capacity:** Up to 30 presentations
 - **Eligibility:** Open to faculty, staff, and students (UTokyo Azure usage is not required)
+- **Board Size:** W 85 cm × H 175 cm (excluding the frame)
+- **Poster Size:** Any format is acceptable—either a single A0 poster or multiple sheets (e.g., A4) arranged and posted together.
+
 
 ## Registration
 Please register using the **[Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)**.

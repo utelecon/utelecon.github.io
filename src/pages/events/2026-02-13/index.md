@@ -32,7 +32,8 @@ h1: "2026/02/13ワークショップ：UTokyo Azure Day"
   - 会場：武田ホール ホワイエ
   - 時間：18:30-19:30
   - 定員：40名程度
-  - 参加費：1,000円（予定） ※当日受付にて申し受けます
+  - 参加費：<span style="color: red;">無料</span>（1月9日更新） <br>~~1,000円（予定） ※当日受付にて申し受けます~~
+
 - **チラシ**： [UTokyo Azure Day Flyer](/en/events/2026-02-13/Flyer.pdf)
 
 
@@ -45,6 +46,8 @@ UTokyo Azureをご利用中の方、これから使ってみたい方、教員�
 - **ポスター募集件数**：30件
 - **申込資格**：教員・職員・学生どなたでも歓迎（UTokyo Azure利用の有無は問いません）
 - **ポスター発表申込期限**：2026年2月9日(月)正午
+- **ボードサイズ**：W 85 cm × H 175 cm（フレーム部分は除く）
+- **ポスターサイズ**：A0サイズ1枚でも、A4などを複数枚貼る形でも、形式は問いません
 
 ## 参加申込
 [**参加登録フォーム**](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)よりお申し込みください．
