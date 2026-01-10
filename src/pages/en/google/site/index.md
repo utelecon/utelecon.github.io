@@ -22,11 +22,11 @@ Google Sites is a service that allows users to create and publish websites direc
 Members of the University of Tokyo can create Google Sites using their [ECCS Cloud Email](/en/google/) account. When created this way, it differs from creating a site with a general Google Account in the following aspects.
 
 - You can set the access to be limited only to accounts under ECCS Cloud Email.
-- URLに[Mail Hosting Service (Japanese page - machine translation available)](https://mh.ecc.u-tokyo.ac.jp/service/) in the URL. If you wish to do this, apply for the [Google Sites Custom Domain Setting Service (Trial Operation) (Japanese page - machine translation available)](https://mh.ecc.u-tokyo.ac.jp/googlesites-customdomain/). However, only the domain administrator of the Mail Hosting Service may apply.
+- You can use the domain or subdomains of the [Mail Hosting Service (Japanese page - machine translation available)](https://mh.ecc.u-tokyo.ac.jp/service/) in the URL. If you wish to do this, apply for the [Google Sites Custom Domain Setting Service (Trial Operation) (Japanese page - machine translation available)](https://mh.ecc.u-tokyo.ac.jp/googlesites-customdomain/). However, only the domain administrator of the Mail Hosting Service may apply.
 
 ### Examples of Use
 
-Google sites are suitable for one-way dissemination of structured information within seminars or research groups. For easy information sharing, [Google Docs (in Japanese)](../document/) or [Google Drive](../drive/) may also be suitable. However, it is difficult to compile various types of information, such as tables and images, in an easy-to-understand format using Google Docs. Organizing information by splitting it into multiple files on Google Drive makes it harder to access the necessary information. In such cases, sharing the information as a website using Google Sites allows various types of information to be gathered in an easily accessible format.
+Google Sites are suitable for one-way dissemination of structured information within seminars or research groups. For easy information sharing, [Google Docs (in Japanese)](../document/) or [Google Drive](../drive/) may also be suitable. However, it is difficult to compile various types of information, such as tables and images, in an easy-to-understand format using Google Docs. Organizing information by splitting it into multiple files on Google Drive makes it harder to access the necessary information. In such cases, sharing the information as a website using Google Sites allows various types of information to be gathered in an easily accessible format.
 
 In small clubs or clubs with a rapid turnover of members, there may be a lack of people familiar with website creation. Since Google Sites is intuitive to operate, editing is simple, making creation and maintenance relatively easy even for such clubs.
 
@@ -53,10 +53,10 @@ Please refer to the official Google Help for [How to use Google Sites](https://s
             - If you select “Restricted”, only users with access permission will be able to view the site. Access permission can be granted by the site’s “Owner” to individual users or Google Groups. (For more details on Google Groups, please refer to the Google Groups page.)
             - If you select “The University of Tokyo ECCS Cloud Email”, only ECCS Cloud Email users will be able to view the site. Select this option if you want to limit the publication range to university members.
             - If you select “Public”, anyone on the Internet will be able to view the site. Be cautious about including content that should not be publicly exposed.
-            - Note: It is not possible to set different publication range for different page within the same site. If you wish to publish pages with different publication ranges, you must create a separate site.
+            - Note: It is not possible to set different publication range for different pages within the same site. If you wish to publish pages with different publication ranges, you must create a separate site.
         3. Click “Done”.
             ![](set_visibility.png){:.small}
-3. Enter a web address of your choice in the  address field, then click “Publish”.
+3. Enter a web address of your choice in the address field, then click “Publish”.
    - If you are not using the [Custom Domain Setting Service](#with-utac), the URL will be in the format: `https://sites.google.com/g.ecc.u-tokyo.ac.jp/xxx`.
 
     ![](publish_site.png){:.small}
