@@ -26,7 +26,7 @@ Members of the University of Tokyo can create Google Sites using their [ECCS Clo
 
 ### Examples of Use
 
-Google Sites are suitable for one-way dissemination of structured information within seminars or research groups. For easy information sharing, [Google Docs (in Japanese)](../document/) or [Google Drive](../drive/) may also be suitable. However, it is difficult to compile various types of information, such as tables and images, in an easy-to-understand format using Google Docs. Organizing information by splitting it into multiple files on Google Drive makes it harder to access the necessary information. In such cases, sharing the information as a website using Google Sites allows various types of information to be gathered in an easily accessible format.
+Google Sites are suitable for one-way dissemination of structured information within seminars or research groups. For easy information sharing, [Google Docs (in Japanese)](../../../google/document/) or [Google Drive](../drive/) may also be suitable. However, it is difficult to compile various types of information, such as tables and images, in an easy-to-understand format using Google Docs. Organizing information by splitting it into multiple files on Google Drive makes it harder to access the necessary information. In such cases, sharing the information as a website using Google Sites allows various types of information to be gathered in an easily accessible format.
 
 In small clubs or clubs with a rapid turnover of members, there may be a lack of people familiar with website creation. Since Google Sites is intuitive to operate, editing is simple, making creation and maintenance relatively easy even for such clubs.
 
