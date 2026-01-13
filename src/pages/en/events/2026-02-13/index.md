@@ -50,7 +50,7 @@ If you wish to present a poster, please select **“Poster Presentation”** in 
 - **Board Size:** W 85 cm × H 175 cm (excluding the frame)
 - **Poster Size:** Any format is acceptable—either a single A0 poster or multiple sheets (e.g., A4) arranged and posted together.
 - **Lightning Talk:** Presenters are requested to give a one-minute oral summary for each poster.
-
+- **Poster session venue:** Takeda Hall Foyer
 
 ## Registration
 Please register using the **[Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)**.
@@ -62,6 +62,7 @@ Please register using the **[Registration Form](https://forms.office.com/Pages/R
 
 | Time          | Title                                                                 | Speaker (Affiliation)                                   |
 |---------------|-----------------------------------------------------------------------|----------------------------------------------------------|
+| 12:30–13:00   | Reception                                                                  | ―                                                        |
 | 13:00–13:20   | UTokyo Azure Status Report<br>What is it? Who uses it and how? Where it stands? | Kenjiro Taura<br>(Executive Director and Vice President)   |
 | 13:20–14:00   | How to Use Popular Azure Services<br>Azure OpenAI Service Tutorial | Yoko Yamakata<br>(Information Technology Center / Professor) |
 | 14:00–14:30   | Toward the Platform of Administrative Data<br> - Past, Present and Future -                   | Daiji Kawaguchi<br>(Graduate School of Public Policy / Professor) |
@@ -71,7 +72,7 @@ Please register using the **[Registration Form](https://forms.office.com/Pages/R
 | 15:45–16:15   | Intro to Microsoft Research Asia - Tokyo                                                                   | Yasuyuki Matsushita<br>(Microsoft Research Asia – Tokyo / Senior Director)                                                     |
 | 16:15–16:45   | Lightning Talk                                                         | Poster presenters(1 min / poster)                                                       |
 | 16:45–17:15   | Break                                                                  | ―                                                        |
-| 17:15–18:30   | Poster Session                                                         | ―                                                        |
+| 17:15–18:30   | Poster Session                                                         | Poster presenters                                                       |
 | 18:30–19:30   | Networking Session                                                     | ―                                                        |
 
 ## Notes
