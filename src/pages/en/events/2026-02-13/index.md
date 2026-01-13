@@ -49,6 +49,7 @@ If you wish to present a poster, please select **“Poster Presentation”** in 
 - **Eligibility:** Open to faculty, staff, and students (UTokyo Azure usage is not required)
 - **Board Size:** W 85 cm × H 175 cm (excluding the frame)
 - **Poster Size:** Any format is acceptable—either a single A0 poster or multiple sheets (e.g., A4) arranged and posted together.
+- **Lightning Talk:** Presenters are requested to give a one-minute oral summary for each poster.
 
 
 ## Registration
@@ -68,7 +69,7 @@ Please register using the **[Registration Form](https://forms.office.com/Pages/R
 | 14:45–15:15   | Promoting Interdisciplinary Research Centered on Informatics<br>– IIW Program – | Yoshimasa Tsuruoka<br>(Graduate School of Information Science and Technology / Professor) |
 | 15:15–15:45   | Truth and Trust: Enhancing Factual Reliability in LLM Generation for Japanese Medical Text | Li Zihui<br>(Graduate School of Engineering / Project Lecturer) |
 | 15:45–16:15   | Intro to Microsoft Research Asia - Tokyo                                                                   | Yasuyuki Matsushita<br>(Microsoft Research Asia – Tokyo / Senior Director)                                                     |
-| 16:15–16:45   | Lightning Talk                                                         | ―                                                        |
+| 16:15–16:45   | Lightning Talk                                                         | Poster presenters(1 min / poster)                                                       |
 | 16:45–17:15   | Break                                                                  | ―                                                        |
 | 17:15–18:30   | Poster Session                                                         | ―                                                        |
 | 18:30–19:30   | Networking Session                                                     | ―                                                        |
