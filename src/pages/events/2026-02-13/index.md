@@ -48,6 +48,7 @@ UTokyo Azureをご利用中の方、これから使ってみたい方、教員�
 - **ポスター発表申込期限**：2026年2月9日(月)正午
 - **ボードサイズ**：W 85 cm × H 175 cm（フレーム部分は除く）
 - **ポスターサイズ**：A0サイズ1枚でも、A4などを複数枚貼る形でも、形式は問いません
+- **Lightning Talk**：ポスター1件あたり1分以内で、ポスターの概要を口頭でご説明頂きます
 
 ## 参加申込
 [**参加登録フォーム**](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)よりお申し込みください．
@@ -65,7 +66,7 @@ UTokyo Azureをご利用中の方、これから使ってみたい方、教員�
 | 14:45-15:15   | 情報学を軸とした学際研究の推進<br>〜知能社会国際卓越大学院（IIW）プログラム〜 | 鶴岡 慶雅<br>（情報理工学系研究科・教授）                 |
 | 15:15-15:45   | Truth and Trust: Enhancing Factual Reliability in LLM Generation for Japanese Medical Text | Li Zihui<br>（工学系研究科・特任講師）                     |
 | 15:45-16:15   | マイクロソフトリサーチアジア東京の紹介                                                                       | 松下 康之<br>（Microsoft Research Asia-Tokyo・所長）                                                       |
-| 16:15-16:45   | Lightning Talk                       | ―                                                      |
+| 16:15-16:45   | Lightning Talk                       | ポスター発表者                                                      |
 | 16:45-17:15   | Break                                  | ―                     |
 | 17:15-18:30   | ポスターセッション                      | ―                                                      |
 | 18:30-19:30   | 情報交換会                                                                | ―                                                      |
