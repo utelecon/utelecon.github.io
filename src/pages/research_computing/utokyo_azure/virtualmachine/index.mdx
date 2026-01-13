@@ -10,7 +10,9 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ## 概要
 {:#about}
 
-本サービスで多く利用されると思われる，仮想マシンの作成を最低限の構成で行う一例です．
+本サービスで多く利用されると思われる，仮想マシンの作成を最低限の構成で行う一例です．詳細な設定，構築方法は以下の Microsoft Lean の記事もご参照ください．
+- [クイック スタート:Azure portal で Linux 仮想マシンを作成する](https://learn.microsoft.com/ja-jp/azure/virtual-machines/linux/quick-create-portal?WT.mc_id=UI_empg&tabs=ubuntu)
+- [クイック スタート:Azure Portal で Windows 仮想マシンを作成する](https://learn.microsoft.com/ja-jp/azure/virtual-machines/windows/quick-create-portal?WT.mc_id=UI_empg)
 
 参考： [**仮想マシンを作ろう -13BのLlama-3モデルをLoRA fine-tuningしたい-**](https://utelecon.adm.u-tokyo.ac.jp/events/2025-02-21/slides/5-3_create_VM.pdf) (2025.02.21 UTokyo Azure 説明会資料)
 
@@ -39,10 +41,10 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 **補足**：説明のない項目は，基本的に初期設定のままで構成することを前提としています．
 </div>
 
-<div class="box">
-仮想マシンに UTokyo Account の認証を使ってログインすることができます．手順は以下のURLを参照ください．
-- [UTokyo Account で仮想マシンに ssh ログインする](/research_computing/utokyo_azure/virtualmachine/entraid_login/)
-</div>
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">UTokyo Account で仮想マシンに ssh ログインさせたい場合</Fragment>
+  <Fragment slot="solution"><p>仮想マシンに UTokyo Account の認証を使ってログインすることができます．手順は以下のURLを参照ください．</p><p>[UTokyo Account で仮想マシンに ssh ログインする](/research_computing/utokyo_azure/virtualmachine/entraid_login/)</p></Fragment>
+</HelpItem>
 
 ### 基本パート
 {:#base}
@@ -61,7 +63,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 - **可用性オプション**：特段の必要が無ければ`インフラストラクチャ冗長は必要ありません`を選択してください．
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">可用性ゾーンとは</Fragment>
-  <Fragment slot="solution"><p>同一リージョン内で，ネットワーク，電源，冷却装置等が独立しているデータセンター群で，イメージとしては隣接している複数のビルそれぞれに構築されているデータセンターの集まりです．</p><p>通常3ゾーン以上で構成されていて，可用性ゾーンを複数指定するとそのゾーン間でプライマリバックアップやHAを構成することが可能になります．</p><p>※ 本利用例の通りに設定した場合は冗長構成はとられず，いずれかのゾーン内に単独で構成されます．</p></Fragment>
+  <Fragment slot="solution"><p>同一リージョン内で，ネットワーク，電源，冷却装置等が独立しているデータセンターの集合で，イメージとしては，隣接している複数のビルそれぞれに独立して構築されているデータセンター（ゾーン）が一つの可用性ゾーンを形成している感じになります．</p><p>可用性ゾーンは通常3ゾーン以上で構成されていて，ゾーンを複数指定するとそのゾーン間でプライマリバックアップやHAを構成することが可能になります．</p><p>※ 本利用例の通りに設定した場合は冗長構成はとられず，いずれかのゾーン内に単独で構成されます．</p></Fragment>
 </HelpItem>
 - **イメージ**：利用したいＯＳを選択してください．ここでは ubuntu OS を選択しています．
 <HelpItem lang="ja" type="details">
@@ -83,8 +85,15 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 #### 受信ポートの規則
 
 - ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
-  - 別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用してリモートコンソール接続を行う場合は，`なし`を選択してください．
-  - ここで選択する受信ポート規則は作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で設定してください．
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">Bastion サービス（踏み台サーバサービス）を利用する場合</Fragment>
+  <Fragment slot="solution">[Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用してリモートコンソール接続を行う場合，**パブリック受信ポート**は`なし`を選択してください．</Fragment>
+</HelpItem>
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">運用開始後の受信ポート規則について</Fragment>
+  <Fragment slot="solution">ここで選択する受信ポート規則はVM作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後，[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で改めて設定してください．</Fragment>
+</HelpItem>
 
 ### ディスクパート
 {:#disk}
@@ -96,7 +105,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 #### OSディスク
 
 - **OSディスクサイズ**：いくつかのサイズから選択できますので，必要な容量を選択ください．
-- **OSディスクの種類**：初期選択の`Premium SSD`は Standard HDD の約３～５倍，`Standard SSD`は約２倍の費用がかかるので．ディスクに高性能を求める構成でなければ`Satndard HDD`をご選択ください．
+- **OSディスクの種類**：初期選択の`Premium SSD`は Standard HDD の約３～５倍，`Standard SSD`は約２倍の費用がかかるので．**ディスクに高性能を求める構成でなければ`Satndard HDD`をご選択ください．**
 
 ![](img/06_osdisk.png){:.medium.center.border}
 
@@ -104,9 +113,14 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 {:#eachpart}
 
 - ここでは初期設定のままで進めます．既にご希望がある場合は設定を変更してください．
-  - リモートからのコンソールアクセスに別ページで説明する [Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用し，かつデータ転送用に外部からの接続を許可する必要が無い場合は，**パブリック受信ポート** は`なし`を設定してください．
-  - ここで選択する受信ポートは作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後に[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で設定してください．
-
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">Bastion サービス（踏み台サーバサービス）を利用する場合</Fragment>
+  <Fragment slot="solution">[Bastion サービス](/research_computing/utokyo_azure/virtualmachine/bastion/) を利用し，かつデータ転送用に外部からの接続を許可する必要が無い場合は，**パブリック受信ポート** は`なし`を設定してください．</Fragment>
+</HelpItem>
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">運用開始後の受信ポート設定について</Fragment>
+  <Fragment slot="solution">ここで選択する受信ポート規則はVM作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後，[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で改めて設定してください．</Fragment>
+</HelpItem>
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">定期的に仮想マシンをシャットダウンさせたい場合</Fragment>
   <Fragment slot="solution">毎日定期であれば，**管理**パートの`自動シャットダウン`に条件を入力して下さい．もう少し複雑な操作（平日だけや自動起動も行わせる等）をさせたい場合は，**監視**サービスを利用してください．</Fragment>
@@ -120,6 +134,11 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 {:#execute}
 
 構成内容の検証結果，１時間ごとの予想費用，使用条件及びここまで設定してきた内容の詳細の確認の画面が表示されるので，問題が無ければ画面左下の`確認及び作成`ボタンをクリックしてください．
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">「優先する電話番号」という項目がある場合</Fragment>
+  <Fragment slot="solution">本サービス契約担当者の電話番号が自動入力されていますので変更しないようお願いします．この項目が表示されない場合はそのまま進めて問題ありません．</Fragment>
+</HelpItem>
 
 ![](img/07_confirm1.png){:.medium.center.border}
 
@@ -167,6 +186,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ![](img/14_confirm.png){:.small.center.border}
 
 <div class="box">
-- 利用が完全に終了した仮想マシンであれば，削除でも課金が停止します．
+- 利用が完全に終了した仮想マシンであれば，仮想マシン自体を削除することでもギフトクレジットの消費は停止します．
 - デプロイしたマシンから`halt`や`shotdown`を実施してもマシンは停止しますが，Azure Portal のリソース上は起動したままの表示になっていますので，改めて起動したい場合は`再起動`をクリックしてください．
+- ストレージは，VMの状態に関わらずストレージサービス自体を停止または削除しない限り常にギフトクレジットを消費し続けます．ご注意ください．
 </div>
