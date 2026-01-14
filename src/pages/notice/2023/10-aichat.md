@@ -106,7 +106,7 @@ APIの使用には上限があり，また従量課金となっていること�
 1. 以下の申請フォームを入力・送信してください．<div class="box center"><del>申請フォーム</del></div>
 1. **申請後，利用できるようになるまでに時間がかかる場合があります．下の「申請の受付状況について」をご覧いただき，利用できるようになるまでしばらくお待ちください．**{:.alert}
     - 利用できるようになった際の個別の連絡はしません．お手数ですが，本ページや，下で説明している「UTokyo ARC」Slackワークスペースにて，各自ご確認ください．
-1. 利用できるようになったら，以下のリンクにアクセスしてください．<div class="box center"><del>https://aichat.adm.u-tokyo.ac.jp/<del></div>
+1. 利用できるようになったら，以下のリンクにアクセスしてください．<div class="box center"><del>aichat<del></div>
     <details>
         <summary>ヘルプ：「申し訳ありませんが、サインイン中に問題が発生しました。」または「Sorry, but we’re having trouble signing you in.」というエラーが表示される場合</summary>
         まだ利用できるようになっていないか，あるいは，本サービスの利用に必要な<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>の受講が完了していないために，申請が却下されています．申請時刻からは利用できるようになっているはずと思われる場合は，情報セキュリティ教育の受講を完了（確認テストに合格）してから，もう1度申請をし直してください．
