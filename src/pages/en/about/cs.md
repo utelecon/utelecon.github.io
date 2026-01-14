@@ -4,7 +4,7 @@ title: About Common Supporters
 
 <div class="box">
   Recruitment for Common Supporters will end in August 2025. Starting in 2026, recruitment will begin for a new role: “utelecon Support Staff.” For details on uutelecon Support Staff recruitment, please check the latest notice within the [Notice List](/notice/) on the utelecon website.
-</box>
+</div>
 
 <p style="text-align: right">
 November 19, 2021</p>
