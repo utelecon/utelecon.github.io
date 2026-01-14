@@ -8,7 +8,7 @@ import If from "@components/utils/If.astro"
   * @property {"link" | "unlink" | "notSpecified"} variant
   */}
 
-連携状況は，UTokyo Account本人確認サービスまたはUTokyo Account利用者情報確認サイト上で確認することができます．
+You can check the link status on the UTokyo Account Identity Verification Service or the “View Your UTokyo Account User Information” site.
 
 ### Checking on the UTokyo Account Identity Verification Service
 1. On the UTokyo Account Identity Verification Service, confirm that your name and the linked UTokyo Account are displayed correctly.
@@ -22,11 +22,11 @@ import If from "@components/utils/If.astro"
 1. Unless you are already signed in to your UTokyo Account, the sign-in screen will be displayed. Please sign in.
 1. Click the "Display information" button.
 1. <If cond={props.variant === "link"}>
-   「UTokyo Account本人確認サービスを利用しています」と表示されていれば，事前連携が完了しています．
+   If "You are using the UTokyo Account Identity Verification Service" is displayed, the pre-link is complete.
    </If>
    <If cond={props.variant === "unlink"}>
-   「UTokyo Account本人確認サービスを利用していません」と表示されていれば，連携解除が完了しています．
+   "You are NOT using UTokyo Account Identity Verification Service" is displayed, the pre-link is not complete.
    </If>
    <If cond={props.variant === "notSpecified"}>
-   「UTokyo Account本人確認サービスを利用しています」または「UTokyo Account本人確認サービスを利用していません」と表示されている行を確認してください．
+   Please check the line displaying "You are using the UTokyo Account Identity Verification Service" or "You are NOT using the UTokyo Account Identity Verification Service".
    </If>
