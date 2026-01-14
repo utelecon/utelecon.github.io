@@ -2,6 +2,10 @@
 title: コモンサポーターについて
 ---
 
+<div class="box">
+  コモンサポーターの募集は2025年8月を最後に終了し，2026年より新たに「utelecon相談員」として募集を行います．utelecon相談員の募集については，uteleconの[お知らせ一覧](/notice/)の中から，最新の案内を確認してください．
+</box>
+
 <p style="text-align: right">
 2024年4月4日</p>
 
