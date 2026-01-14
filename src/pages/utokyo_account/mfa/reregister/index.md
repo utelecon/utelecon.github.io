@@ -43,9 +43,9 @@ redirect_from: /utokyo_account/mfa/reregister_and_terminate
 ### 本人確認サービスを利用して再登録する
 {:#ident-myna}
 
-[UTokyo Account本人確認サービス](./ident-myna/)での事前連携を以前に済ませていた場合，マイナンバーカードを利用してオンラインで本人確認を行なうことで，曜日や時間帯に関わらず，ご自身で本人確認方法の再登録をすることができます．
+[UTokyo Account本人確認サービス](./ident-myna/)での事前連携を以前に済ませていた場合，マイナンバーカードを利用してオンラインで本人確認を行うことで，曜日や時間帯に関わらず，ご自身で本人確認方法の再登録をすることができます．
 
-「[本人確認サービスを利用して再登録するための必要事項](#ident-myna-conditions)」を確認のうえ，「[手順](#ident-myna-procedure)」に沿って再登録を行なってください．
+「[本人確認サービスを利用して再登録するための必要事項](#ident-myna-conditions)」を確認のうえ，「[手順](#ident-myna-procedure)」に沿って再登録を行ってください．
 
 #### 本人確認サービスを利用して再登録するための必要事項
 {:#ident-myna-conditions}
@@ -68,7 +68,7 @@ redirect_from: /utokyo_account/mfa/reregister_and_terminate
 
     **[UTokyo Account本人確認サービス](https://identification.adm.u-tokyo.ac.jp/verify/)**{:.box.center}
 
-1. 画面に表示された手順に沿って，マイナンバーカードで本人確認を行なってください．
+1. 画面に表示された手順に沿って，マイナンバーカードで本人確認を行ってください．
 1. 「UTokyo Accountの多要素認証の再設定、パスワードのリセットを申請する」を押してください．
 
     ![](./myna-mfa-reset-button.jpg){:.medium}
