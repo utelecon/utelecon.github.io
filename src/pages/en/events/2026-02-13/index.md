@@ -4,6 +4,8 @@ h1: "Feb. 13,2026: Workshop: UTokyo Azure Day（**Conducted in English**） "
 ---
 ![](banner.jpeg)
 
+[Updated Jan. 15, 2026]
+
 ## Purpose of the Workshop
 
 From October 2024 to September 2029, the University of Tokyo will receive donated Microsoft Azure gift credits from Microsoft.
@@ -26,7 +28,7 @@ We especially encourage participation from:
 - **Eligibility:** Faculty, staff, students, and collaborative researchers of the University of Tokyo  
 - **Capacity:** Approx. 150 participants (First-come-first-served basis)  
 - **Language:** The lecture session will be conducted in **English**, while poster presentations, including lightning talks, may be given in **either English or Japanese**.  
-- **Participation Fee:** Free (Networking session has a separate fee)  
+- **Participation Fee:** Free  
 - **Networking Session:**  
   - **Venue:** Takeda Hall Foyer  
   - **Time:** 18:30–19:30  
@@ -49,8 +51,18 @@ If you wish to present a poster, please select **“Poster Presentation”** in 
 - **Eligibility:** Open to faculty, staff, and students (UTokyo Azure usage is not required)
 - **Board Size:** W 85 cm × H 175 cm (excluding the frame)
 - **Poster Size:** Any format is acceptable—either a single A0 poster or multiple sheets (e.g., A4) arranged and posted together.
-- **Lightning Talk:** Presenters are requested to give a one-minute oral summary for each poster.
-- **Poster session venue:** Takeda Hall Foyer
+- **Lightning Talk**: For each poster, presenters will give a brief oral overview within one minute.  
+  Please submit one PDF per presenter to be projected on the screen by 12:00 noon on the day before the event.
+  - The submitted PDF may be in a standard slide format such as 16:9 or 4:3, or it may be the poster PDF itself.
+  - File names are arbitrary.
+    - Since the uploader’s name will be automatically appended to the file name, if someone other than the presenter uploads the file on their behalf, please name the file “PresenterName.pdf”.
+  - During the lightning talks on the day, we will project the submitted materials sequentially on the screen.  
+    Please give a brief explanation within one minute. After one minute, the display will automatically switch to the next material.  
+    The screen will also show the name of the next presenter (the uploaded file name), so the next presenter should prepare to come to the stage accordingly.
+  - Upload deadline: <span style="color: red;">Thursday, February 12, noon</span>
+  - Upload URL:
+  https://univtokyo.sharepoint.com/:f:/t/Teams.azure.adm/IgCG1YR5PuRjQL2VEbiGdITgATvQ1LzGwTJrgE1jCZwt5e8
+
 
 ## Registration
 Please register using the **[Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)**.
@@ -64,21 +76,22 @@ Please register using the **[Registration Form](https://forms.office.com/Pages/R
 |---------------|-----------------------------------------------------------------------|----------------------------------------------------------|
 | 12:30–13:00   | Reception                                                                  | ―                                                        |
 | 13:00–13:20   | UTokyo Azure Status Report<br>What is it? Who uses it and how? Where it stands? | Kenjiro Taura<br>(Executive Director and Vice President)   |
-| 13:20–14:00   | How to Use Popular Azure Services<br>Azure OpenAI Service Tutorial | Yoko Yamakata<br>(Information Technology Center / Professor) |
-| 14:00–14:30   | Toward the Platform of Administrative Data<br> - Past, Present and Future -                   | Daiji Kawaguchi<br>(Graduate School of Public Policy / Professor) |
-| 14:30–14:45   | Break                                                                  | ―                                                        |
-| 14:45–15:15   | Promoting Interdisciplinary Research Centered on Informatics<br>– IIW Program – | Yoshimasa Tsuruoka<br>(Graduate School of Information Science and Technology / Professor) |
-| 15:15–15:45   | Truth and Trust: Enhancing Factual Reliability in LLM Generation for Japanese Medical Text | Li Zihui<br>(Graduate School of Engineering / Project Lecturer) |
-| 15:45–16:15   | Intro to Microsoft Research Asia - Tokyo                                                                   | Yasuyuki Matsushita<br>(Microsoft Research Asia – Tokyo / Senior Director)                                                     |
-| 16:15–16:45   | Lightning Talk＜<br>(1-minute lightning talk by poster presenters )                               | Poster presenters(1 min / poster)                                                       |
-| 16:45–17:15   | Break                                                                  | ―                                                        |
-| 17:15–18:30   | Poster Session                                                         | Poster presenters                                                       |
+| 13:20–13:50   | How to Use Popular Azure Services<br>Azure OpenAI Service Tutorial | Yoko Yamakata<br>(Information Technology Center / Professor) |
+| 13:50–14:20   | Intro to Microsoft Research Asia - Tokyo                                                                   | Yasuyuki Matsushita<br>(Microsoft Research Asia – Tokyo / Senior Director)                                                     |
+| 14:20–14:50   | Toward the Platform of Administrative Data<br> - Past, Present and Future -                   | Daiji Kawaguchi<br>(Graduate School of Public Policy / Professor) |
+| 14:50–15:05   | Break                                                                  | ―                                                        |
+| 15:05–15:35   | Promoting Interdisciplinary Research Centered on Informatics<br>– IIW Program – | Yoshimasa Tsuruoka<br>(Graduate School of Information Science and Technology / Professor) |
+| 15:35–16:05   | Truth and Trust: Enhancing Factual Reliability in LLM Generation for Japanese Medical Text | Li Zihui<br>(Graduate School of Engineering / Project Lecturer) |
+| 16:05–16:35   | Using MD simulations to predict protein interactions and oncogenic enzymatic activity                                                                   | Donald Cameron<br>(Institute for Quantitative Biosciences / Associate Professor)                                                     |
+| 16:35–16:55   | Break                                                                  | ―                                                        |
+| 16:55–17:30   | Lightning Talk<br>(1-minute lightning talk by poster presenters )                               | Poster presenters(1 min / poster)                                                       |
+| 17:30–18:30   | Poster Session                                                         | Poster presenters                                                       |
 | 18:30–19:30   | Networking Session                                                     | ―                                                        |
 
 ## Notes
 - Even before the respective application deadlines, registration for participation, poster presentations, and the networking session may close once capacity is reached.
 - Participants are responsible for their own travel expenses related to attendance and poster presentations.
-- If you need to cancel your participation in the networking session, please contact the office by email no later than Monday, February 9, 2026, at noon.
+
 
 ## Contact
 utokyo-azure-admin-group [at] g.ecc.u-tokyo.ac.jp
