@@ -1,9 +1,62 @@
 ---
-title: Recommended methods for file sharing with OneDrive
+title: Recommended Usage for Sharing Files on OneDrive
 breadcrumb:
-  title: Recommended methods for file sharing
+  title: Recommended Usage for Sharing Files
 ---
+import ReceiveFiles from "./_ReceiveFiles.mdx"
 
-import InPreparation from "@components/en/InPreparation.mdx";
+## Introduction
+This page describes the recommended usage for sharing files on OneDrive, on a case-by-case basis.
 
-<InPreparation />
+For an overview of how to share files on OneDrive, please refer to "**[Sharing Files on OneDrive](/microsoft/onedrive/share/)**" (in Japanese). Additionally, a general introduction to OneDrive can be found on "[OneDrive](../)" and the basic usage instructions can be found on "[Basic Usage of OneDrive](../basic/)”. 
+
+Additionally, as a recommendation for file-sharing policies to enhance productivity and security, please refer to the “[Guideline For Sharing New Files on Cloud](/articles/share-policy/)” (in Japanese) as needed.
+
+### Advantages of Sharing Files on OneDrive
+First, OneDrive includes authentication and verification features that enable secure file sharing. Members of the university can be authenticated using their UTokyo Account, while external users, even those who do not have the account can verify their identity using confirmation codes. This ensures that files are shared securely.
+
+Additionally, by using OneDrive, you can work with high productivity. By sharing files in a folder for each meeting, multiple users can edit these files together without having to adjust the sharing settings for each file individually.
+
+## Case by Case Usage
+### Sharing Files with Members of the University
+#### Editing Files/Folders with Members of the University
+{:#univ-share}
+When editing files/folders with members of the university, we recommend that you create a folder, create **a shared link** that grants "**Can edit**" access right to "**People you choose**" for this folder, and notify the recipients via email or chat tools, etc. This allows for collaborative editing between the sender and recipients without the need to share files individually each time.
+
+For detailed procedures, please refer to "[Creating a New Shared Link](/microsoft/onedrive/share/)" in "[Sharing Files on OneDrive](/microsoft/onedrive/share/#create-link)" (in Japanese).
+
+Faculty and staff can also jointly edit files/folders with other members of the university by using the Teams team folder in Microsoft Teams. In this case, you can access files stored in Microsoft Teams directly from OneDrive by creating a shortcut to your Teams team folder in OneDrive. In this way, you can edit files or folders in almost the same way as you would jointly edit files in a folder created in OneDrive.
+
+Please refer to "[When accessing a team folder in Teams using OneDrive](/en/microsoft/teams_team_folder/#access-from-onedrive)" in the "[Teams Folder](/en/microsoft/teams_team_folder/)" for details.
+
+#### Publicizing Files to Members of the University
+{:#univ-release}
+If you want to publicize files to members of the university such as students, faculty, or staff, it is recommended that you set the sharing target to "**People in The University of Tokyo**", and create **a shared link** with the type of access rights to "**Can view**" and notify recipients via email, chat tools, etc.
+
+For detailed procedures, please refer to "[Creating a New Shared Link](/microsoft/onedrive/share/)" in "[Sharing Files on OneDrive](/microsoft/onedrive/share/#create-link)" (in Japanese).
+
+#### When Receiving Files from Unspecified Number of Members of the University
+
+<ReceiveFiles isOnCampus />
+
+
+
+### Sharing Files with External Users
+#### Editing Files/Folders with External Users
+{:#outside-share}
+It is also possible to share files with external users. It is recommended that you create a shared link that grants "**Can edit**" access right to "**People you choose**" and notify the recipients by email or other means if you want to edit files with them.
+
+
+Additionally, if the user (visitor) you want to share files with accesses the link, a one-time passcode will be sent to their email address, and the user will be required to enter the passcode on the confirmation screen.
+
+
+For detailed procedures, please refer to "[Creating a New Shared Link](/microsoft/onedrive/share/)" in "[Sharing Files on OneDrive](/microsoft/onedrive/share/#create-link)" (in Japanese).
+
+#### Publicizing Files to External Users
+{:#outside-release}
+If you want to publicize files to external users in the read-only mode, it is recommended that you create a shared link that grants "**Can view**" access right to "**Anyone**" and notify the recipients by email or other means.
+
+For detailed procedures, please refer to "[Creating a New Shared Link](/microsoft/onedrive/share/)" in "[Sharing Files on OneDrive](/microsoft/onedrive/share/#create-link)" (in Japanese).
+
+#### When Receiving Files from Unspecified Number of External Users
+<ReceiveFiles />

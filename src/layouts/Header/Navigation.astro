@@ -23,13 +23,15 @@ const data: Navigation[] = {
         <li>
           <div>{row.name}</div>
           <ul>
-            {row.contents.map(({ name, url }) => (
-              <li>
-                <a href={url}>
-                  <Markdown content={name} />
-                </a>
-              </li>
-            ))}
+            {row.contents
+              .filter((content) => !content.hidden)
+              .map(({ name, url }) => (
+                <li>
+                  <a href={url}>
+                    <Markdown content={name} />
+                  </a>
+                </li>
+              ))}
           </ul>
         </li>
       ))

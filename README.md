@@ -6,7 +6,7 @@ uteleconは，オンライン授業やWeb会議に関する情報をワンスト
 
 ## Preview
 
-[Node.js](https://nodejs.org) が必要です．v22の最新版（LTS）をインストールしてください．
+[Node.js](https://nodejs.org) が必要です．v24の最新版（LTS）をインストールしてください．
 
 - レポジトリをクローンしたら，まず`npm install`を実行します．
 - プレビューを開始するには，`npm run dev`を実行します．`^C`で終了します．
@@ -51,6 +51,23 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
 - `npm run unused-asset`：使われていないアセットをすべて標準出力する．
   - `dist`以下のHTMLファイルを読むため，あらかじめ`npm run build`してから実行する．
+
+## Navigation
+
+utelecon のナビゲーションは原則として，パス構造をもとにした木構造に基づきます．サイト全体のナビゲーションには主に以下の4つがあります：
+- ヘッダー
+  - `src/data/nav/{ja,en}.yml` の通りに生成されます．
+  - `hidden: true` とあるエントリーは表示されません．
+- フッター
+  - `src/data/nav/{ja,en}.yml` の通りに生成されます．
+  - `hidden: true` とあるエントリーは表示されません．
+- サイトマップ (`/sitemap/`)
+  - `src/data/nav/{ja,en}.yml` の通りに見出しが生成され，その構造に合わせて全てのページのリンクが表示されます．
+  - `sitemap:` の内容によって挙動が変わります．詳しくは [`src/data/schemas/nav.json`](./src/data/schemas/nav.json) を参照してください．
+  - フロントマターに `sitemap: false` と書いたページは表示されません．
+- パンくずリスト
+  - フロントマターの `breadcrumb:` の通りに生成されます．
+  - 詳しくは[パンくずリストの表示](#パンくずリストの表示)を参照してください．
 
 ## How it works
 
@@ -106,7 +123,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
     - このような状態になっているのは，JekyllでKramdownが利用されていたためです．
   - 日本語では単語間の区切りに空白を入れないため，Remarkの記法は不自然です．
 - 実装
-  - [`SimpleAttentionPlugin.js`](src/lib/SimpleAttentionPlugin.js)で実現しています．このプラグインはRemarkプラグインで，パーサーのうちトークナイザーの部分を上書きしています．
+  - `remark-cjk-friendly` および `remark-cjk-friendly-gfm-strikethrough` というプラグインを導入しています．
 
 ### リダイレクト
 

@@ -14,6 +14,7 @@ Below are the main service status pages.
 - **Slido**: [Slido Status](https://status.slido.com/)
 - **UTokyo Slack**: [Slack Status](https://slack-status.com/)
 - **EZproxy・OPAC**: [Failure information on databases, e-journals, OPAC, etc.](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/servicestatus)
+- **UTokyo Azure**: [Azure Status](https://azure.status.microsoft/status)
 
 Information from “[Downdetector](https://downdetector.com/),” a service that notifies you of possible failures based on SNS posts, may also help determine whether or not there are problems with systems provided by external organizations such as Zoom, Webex, ECCS Cloud Email (Google Workspace), and UTokyo Microsoft License. (Please note that this is not official information from the provider of each system.)
 

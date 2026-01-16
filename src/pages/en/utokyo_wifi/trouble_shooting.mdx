@@ -1,0 +1,181 @@
+---
+title: Troubleshooting UTokyo Wi-Fi
+breadcrumb:
+  title: Troubleshooting
+---
+
+import ApplyHelpJouhouSecurity from "@components/en/systems/utokyo_wifi/ApplyHelpJouhouSecurity.mdx";
+import ApplyHelpMFA from "@components/en/systems/utokyo_wifi/ApplyHelpMFA.mdx";
+
+## About This Page
+{:#about}
+This page is intended to help you troubleshoot issues in the event you are not able to connect to [the UTokyo Wi-Fi](/en/utokyo_wifi/). If you have just started using the UTokyo Wi-Fi but cannot connect, or if you were previously able to connect but suddenly cannot, please follow the steps described on this page in order. If you are unable to solve the issue on your own, this page also explains how and where to make an inquiry, but we ask that you read through this page first before contacting support whenever possible.
+
+For the basic instructions on how to connect to the UTokyo Wi-Fi, please refer to the “[Steps to start using the service](/en/utokyo_wifi/#initial-setup)”.
+
+## Check the Basics
+{:#basic-confirmations}
+
+First, please check some basic points. We kindly ask that you read the instructions below carefully and follow the steps as described.
+
+### Check 1: Make sure your UTokyo Wi-Fi account is valid
+{:#account-validation}
+Please follow the steps bellow to confirm that your UTokyo Wi-Fi account is valid.
+
+1. Please have the user ID and password for your current UTokyo Wi-Fi account ready. Note that the UTokyo Wi-Fi account is **different from your [UTokyo Account](/en/utokyo_account/)**. The user ID consists of 8 alphanumeric characters starting with <code>u</code>, followed by <code>@<em style="font-style: normal; background-color: yellow;">wifi</em>.u-tokyo.ac.jp</code> (e.g. <code>u2499999@wifi.u-tokyo.ac.jp</code>).
+   <details>
+     <summary>If you do not know the user ID or password for your UTokyo Wi-Fi account</summary>
+     The user ID and password for your UTokyo Wi-Fi account were emailed to you at the time of issue. Please check your ECCS Cloud Email and the email address you registered as your “Notification Mail Address”. If you are unable to find the user ID or password even after checking your mailbox, please have your account reissued. For instructions on how to reissue an account, please refer to the “[Preparation: Apply for a UTokyo Wi-Fi Account](/en/utokyo_wifi/#apply)”. After the account has been reissued, please continue to try connecting again following the steps in the “[Usage: Connect to UTokyo Wi-Fi](/en/utokyo_wifi/#connect)”.
+   </details>
+2. Access the “[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/user/user_applies/main_index/1)”.
+3. If you have not already signed in to your UTokyo Account, the UTokyo Account sign-in page will appear. Please sign in.
+   <ApplyHelpMFA type="details" />
+   <ApplyHelpJouhouSecurity type="details" />
+4. In the “User ID” field, you will see an 8-character alphanumeric string starting with <code>u</code>”. Please compare it with the part of the User ID before the <code>@</code> that you have prepared. If they match, your account is valid. Please proceed to Check 2.
+   <details>
+     <summary>If your account is not displayed</summary>
+     The account you had been using **has been deleted**, possibly due to expiration or other reasons. To resume use, please reissue your account. For instructions on how to reissue an account, please refer to the “[Preparation: Apply for a UTokyo Wi-Fi Account](/en/utokyo_wifi/#apply)”. After your account has been reissued, please continue to try connecting again following the steps in the “[Usage: Connect to UTokyo Wi-Fi](/en/utokyo_wifi/#connect)”. **If your account continues to be deleted the day after reissuance no matter how many times you try**, it is highly likely that the “enrollment period” registered in the Personnel Information System has ended. Please contact the human resources team of your affiliated department to confirm whether or not there are any issues with the enrollment period settings.
+   </details>
+   <details>
+     <summary>If the user ID does not match</summary>
+     Only the account displayed on the screen is valid. This is because if you have applied for account issuance multiple times in the past, any previously issued accounts will have become invalid. If you do not know the password for the current account, please reissue your account. For instructions on how to reissue an account, please refer to the “[Preparation: Apply for a UTokyo Wi-Fi Account](/en/utokyo_wifi/#apply)”. After your account has been reissued, please continue to try connecting again following the steps in the “[Usage: Connect to UTokyo Wi-Fi](/en/utokyo_wifi/#connect)”.
+   </details>
+
+### Check 2: Make sure that you are entering your user ID, password, and other information correctly
+{:#confirm-input}
+
+Please follow the steps below to enter your user ID, password, and other information accurately.
+
+Please note that the specific procedures vary depending on the type of your device. Refer to steps 1 through 4 on the following corresponding page for your device.
+* [Using UTokyo Wi-Fi on Windows](/en/utokyo_wifi/windows/)
+* [Using Utokyo Wi-Fi on macOS](/en/utokyo_wifi/macos/)
+* [Using UTokyo Wi-Fi on Android](/en/utokyo_wifi/android/)
+* [Using UTokyo Wi-Fi on iPhone and iPad](/en/utokyo_wifi/ios/)
+{:.cards}
+
+1. Follow **step 1** on the appropriate page above.
+2. Follow **step 2** on the appropriate page above.
+3. Follow **step 3** on the appropriate page above, and then **restart** your device.
+4. Following the explanation at the beginning of **step 4** on the appropriate page above, open the screen where you can enter the Wi-Fi setting information.
+5. Following step 4 on the appropriate page above, enter the required setting information into each field. Please note the following points when doing so.
+   - Please **make sure to include** **both** **the initial <code>u</code>** and **the trailing <code>@wifi.u-tokyo.ac.jp</code>** when entering your user ID.
+   - Please check again that you have entered all characters in your user ID and password correctly.
+     - Make sure you have not accidentally used **uppercase** letters where **lowercase** should be, or vice versa.
+     - Make sure you are entering the characters in **half-width format**. Please be careful not to use full-width format of symbols such as <code>@</code> or <code>-</code>.
+     - Please check that the Caps Lock or Num Lock key is not turned on, as this might lead to input errors.
+     - Depending on your language settings, the position of letters and symbols on the keyboard may differ. Please ensure that the correct characters are being entered.
+     - If you still cannot connect after checking the items above, try copying and pasting the password directly from the notification email. When doing so, make sure that there are no extra spaces, colons <code>:</code> or other unwanted characters before or after the password.
+
+If you still cannot connect after completing the above checks, please proceed to the next section.
+
+## If the Problem Persists
+{:#not-resolved}
+If the problem is not resolved even after completing the two checks above, please follow the instructions below to narrow down the possible cause of the problem and take the appropriate action based on the results.
+
+### Narrowing Down the Possible Cause of the Problem
+{:#breakdown-problem}
+Please conduct the following two checks to determine the scope and conditions under which the issue with the UTokyo Wi-Fi is occurring.
+
+#### Check 1: Check the “System Failures and Maintenance Information” page
+{:#check-service-status}
+First, please check the “[System Failures and Maintenance Information](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/service-status.aspx)” page (sign-in with a UTokyo Account is required to view this page). If your problem matches the information listed on the page, please wait until the service is restored before attempting to use the UTokyo Wi-Fi.
+
+#### Check 2: Check the situation of people around you or try with another device
+{:#on-other-devices}
+To narrow down the cause of the problem at hand, please ask those around you about their connection status or try connecting with another device you have. When asking others, try to ask as many people as possible, including your friends and colleagues, as well as those who are nearby at the time.
+
+The effective approach may depend on the results of your inquiries and attempts. Please address the situation according to the following cases.
+
+- **If most people around you and your other devices are also unable to use the UTokyo Wi-Fi**: It is likely that the problem lies not with your device but with the network infrastructure or related facilities. In this case, you may skip the “If you suspect a problem with your device” section and proceed to the “If you suspect a problem other than with your device” section below.
+- **If the UTokyo Wi-Fi is accessible on other people’s devices or your other devices**: There may be a problem with the device you are currently trying to use. In this case, please refer to the “If you suspect a problem with your device” section below. Additionally, please refer to the “If you suspect a problem other than with your device” section below, if necessary.
+- **If you are having difficulty narrowing down the possible cause of the problem because it is difficult to check the situation of people around you or try with another device, or because the situation alternates between being able and unable to use the UTokyo Wi-Fi**: Please refer to both the “If you suspect a problem with your device” and the “If you suspect a problem other than with your device” sections below.
+
+### If you suspect a problem with your device
+{:#device-problem}
+If you think that there might be a problem with the device you are currently trying to use, please try the following steps to resolve it.
+
+#### Method 1: Update your operating system
+{:#update-os}
+In general, OS updates include bug fixes and other improvements, and applying the updates may resolve various problems. Therefore, if possible, please try the following steps.
+
+1. Check for available updates and update your OS to the latest version. For detailed instructions, please refer to the documentation provided by the device manufacturer.
+   - [For Windows](https://support.microsoft.com/en-us/windows/install-windows-updates-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a)
+   - [For Mac](https://support.apple.com/en-us/108382)
+   - [For Android](https://support.google.com/android/answer/7680439?hl=en&sjid=3090688273739027813-NC)
+   - [For iPhone or iPad](https://support.apple.com/en-us/118575)
+2. Restart your device.
+3. Try to connect again.
+
+#### Method 2: Consult the manufacturer or retailer
+{:#consult-manufacturer-or-seller}
+If the problem is specific to your device, specialized support from the manufacturer or retailer may be effective. Please understand that it is practically impossible for the utelecon Technical Support Desk to prepare and test every type of device, so please consider consulting the manufacturer or retailer for assistance.
+
+If you need to provide documents (such as connection logs or detailed specifications) when consulting with them, or if you are not sure how to approach such consultation, please contact us using the methods described in "Inquiries" below.
+
+#### If the problem remains unresolved
+{:#also-not-resolved}
+If the above methods do not resolve the problem, please proceed to the “If you suspect a problem other than with your device” section.
+
+Additionally, if you contact us with the detailed situation described above, we may be able to provide some suggestions that could help lead to a resolution. Please contact us using the methods described in “Inquiries” below.
+
+### If you suspect a problem other than with your device
+{:#no-device-problems}
+If you suspect that the problem lies somewhere other than the device you are trying to use, if possible, please try connecting again after some time has passed or from a different location.
+
+If the problem persists, and if waiting or relocating is difficult, or if the problem recurs frequently after being temporarily resolved, please contact the utelecon Technical Support Desk using the methods described in “Inquiries” below.
+
+On the other hand, if the problem consistently (or frequently) occurs only in a specific location, you may also contact the person in charge at the department or unit that manages the facility directly. For contact information, please refer to the “[Department Contacts for the UTokyo Wi-Fi (in Japanese only)](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/utokyo_wifi_department_contact.aspx)” page (sign-in with UTokyo Account is required to view it).
+
+## Inquiries
+{:#inquiry}
+In addition to the above points, if you encounter anything unclear during the troubleshooting process or if you have anything you would like to consult about, please contact us.
+
+### When Making Inquiries
+{:#precautions-for-inquiry}
+Before making an inquiry, please make sure to understand the following points.
+- The Technical Support Desk receives a very large number of inquiries every day. In most cases, it is **difficult to respond immediately**.
+- **Your cooperation is essential** for effective problem solving. Please try any troubleshooting steps or the possible cause identification procedures that you can perform yourself, and include the results in your inquiry.
+- We cannot always provide support for a specific device. It is practically impossible for us to possess and test every type of device. Please also consider contacting the retailer or device manufacturer.
+
+When we receive your inquiry, our Technical Support Desk staff will investigate system connection logs and other relevant data based on the information you provide and respond to you accordingly. In order to conduct a thorough investigation, we kindly ask you to provide as much of the following information as possible.
+- When did you first notice the problem? When was the last time you were able to use the service without any problems?
+- Does the problem occur only under certain conditions, or does it tend to happen more frequently in particular situations?
+- Please list the devices you are currently using to connect to the UTokyo Wi-Fi, and specify which one(s) are experiencing the problem (e.g. “I use both a Windows PC and an iPhone, but only the iPhone is having trouble connecting”).
+- Please provide as many successful connection cases as possible, with as much detail as you can.
+  - The UTokyo Wi-Fi account user ID used
+  - Date and time (as precise as possible, down to minutes and seconds)
+  - Location (as detailed as possible, including floors and rooms)
+  - Device used (type such as PC or smartphone, operating system, model, and if possible, MAC address)
+    - A separate guide on how to check the MAC address is being prepared.
+- Please also provide as many failed connection cases as possible, with as much detail as you can.
+  - The UTokyo Wi-Fi account user ID used
+  - Date and time (as precise as possible, down to minutes and seconds)
+  - Location (as detailed as possible, including floors and rooms)
+  - Device used (type such as PC or smartphone, operating system, model, and if possible, MAC address)
+    - A separate guide on how to check the MAC address is being prepared.
+- Please describe in detail what happened when the connection failed.
+  - If an error message such as “Connection failed” or a specific error code appears, please provide the exact wording as accurately as possible.
+  - Screenshots or similar documentation are also acceptable.
+- If there are any other relevant details, please let us know.
+  - Any web pages you have already referred to
+  - If you have already contacted the retailer or device manufacturer, please share their response if available
+
+### Contact Information
+{:#where-to-inquire}
+The following two official support contacts provided support university-wide.
+
+- **ECCS tutors**
+  - ECCS tutors are student staff members stationed at designated locations on the Hongo and Komaba Campuses. While their primary role is to provide support related to the ECCS, they also provide consultation regarding the UTokyo Wi-Fi. If you would like to consult with a tutor, please refer to the “[Work Locations and Hours](https://www.sodan.ecc.u-tokyo.ac.jp/en/about-us-en/tutors-working/)” page.
+  - Consultations with tutors are conducted in person. However, please note that they cannot perform troubleshooting involving UTokyo Wi-Fi connection logs or other relevant data accessible only to system administrators.
+    - If such investigation is necessary, you will be referred to the utelecon Technical Support Desk described below, but as a preliminary step, ECCS tutors can assist you in identifying the cause of the problem, which may help facilitate a smoother resolution through the utelecon Technical Support Desk.
+- **The utelecon Technical Support Desk**
+  - This is the central support desk for information systems at the University of Tokyo. For details, please see the “[Technical Support Desk](/en/support/)” page.
+  - This is not a face-to-face support service, but if you contact us using the email form, the system administrators can investigate system connection logs and other relevant data if necessary and respond accordingly.
+    - Three inquiry methods are available: chat, online call, and email form. Please note that troubleshooting involving system data that are accessible only to system administrators cannot be performed through chat or online call. However, both methods can assist you in identifying the cause of the problem beforehand.
+
+In addition, if the problem consistently (or frequently) occurs only in a specific location, you may also contact the person in charge at the department or unit that manages the facility directly. For contact information, please refer to the “[Department Contacts for UTokyo Wi-Fi (in Japanese only)](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/utokyo_wifi_department_contact.aspx)” page (sign-in with a UTokyo Account is required to view this page).
+
+In principle, the following contact points do not provide support for UTokyo Wi-Fi.
+- In-person help desks of the Information Technology Center, such as that located in the Information Education Building on Komaba I Campus, the Information Technology Center on Asano Section of Hongo Campus, or the Fukutake Hall on Hongo Campus.
+- Academic affairs or student support offices within faculties or graduate schools.
+- The University of Tokyo Library counters.

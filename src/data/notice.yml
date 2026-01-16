@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=./schemas/notice.json
 
 # contentはMarkdown記法で入力できます．二重引用符はエスケープが必要ですので注意してください．
+# `ja:`の後に日本語の、`en:`の後に英語のタイトルを，それぞれ書いてください．仮にリンク先ページが片方の言語でしか書かれていなかったとしても，トップページでお知らせを発見できるよう，タイトルは両方の言語で書いてください．
 # "important: true"を含めるとトップページにより長い期間表示されるようになります（必要な場合に限って利用してください）
 
 # また，お知らせを追加すると，utelecon.adm.u-tokyo.ac.jpへの反映と同時にTwitterにも自動投稿されます．
@@ -19,6 +20,51 @@
 # - 既存のお知らせを編集する場合，以下にご注意ください．
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
+-
+  date: 2026-01-15
+  content:
+    ja: "[2026年度Sセメスター「utelecon相談員」募集のお知らせ](/notice/2026/0115-cs/) （2月9日13時締切）"
+    en: "[job opportunities:AY2026 S Semester utelecon Support Staff](/notice/2026/0115-cs/) （close at February 9, 13:00）(in Japanese)"
+-
+  date: 2025-12-25
+  content:
+    ja: "[UTokyo Accountで利用するOneDrive等の容量制限について（第3報）](/notice/2025/1224-microsoft-storage/)"
+    en: "[Reduction of the storage capacity of OneDrive with UTokyo Accounts (3rd Announcement) (only in Japanese)](/notice/2025/1224-microsoft-storage/)"
+-
+  date: 2025-12-23
+  content:
+    ja: "[ワークショップ：UTokyo Azure Day](/events/2026-02-13/)を開催します。UTokyo Azureに関心をお持ちの方が気軽に参加できる学内ネットワーキングイベントです。"
+    en: "[Workshop: UTokyo Azure Day](/en/events/2026-02-13/) — An On-Campus Networking Event for Anyone Interested in UTokyo Azure."
+-
+  date: 2025-12-04
+  content:
+    ja: "[ECCS端末やWebDAV環境（Proself）に保存されているデータが削除されます（2026年2月21日予定）](/notice/2025/1204-eccs-data-deletion/)"
+    en: "[All data stored on ECCS terminals and WebDAV environment (Proself) will be deleted (scheduled for February 21, 2026).(in Japanese only)](/notice/2025/1204-eccs-data-deletion/)"
+-
+  date: 2025-12-04
+  content:
+    ja: "[次期教育用計算機システム(ECCS2026)でのプリンタプリペイドカードについて](/notice/2025/1204-eccs-printer/)"
+    en: "[Printer prepaid cards for the Next generation of Educational Campus-wide Computing System (ECCS2026) (in Japanese only)](/notice/2025/1204-eccs-printer/)"
+-
+  date: 2025-11-18
+  content:
+    ja: "[**ファイル転送サービス「NII FileSender」** の利用に関する情報を掲載しました](/filesender/)"
+    en: "[We posted information about the use of the **file transfer service “NII FileSender”** (in Japanese only)](/filesender/)"
+-
+  date: 2025-10-06
+  content:
+    ja: "[Google AI StudioがECCSクラウドメールで利用可能になりました](/notice/2025/1006_GoogleAIStudio/)"
+    en: "[Google AI Studio is now available on ECCS Cloud Email account](/notice/2025/1006_GoogleAIStudio/) (in Japanese only)"
+-
+  date: 2025-10-02
+  content:
+    ja: "[教育用計算機システム相談員および同分散配置端末巡回連絡員の募集（2025年度Aセメスター）](/notice/2025/09-tutors/)"
+    en: "[Recruitment of tutors and distributed terminals inspectors for Educational Campus-wide Computing System (for Semester A in the academic year of 2025)](/notice/2025/09-tutors/) (in Japanese only)"
+-
+  date: 2025-09-30
+  content:
+    ja: "[2026年度の浅野大演習室の利用について](/notice/2025/0930-asano/)"
+    en: "[Regarding the Use of the Large PC Classrooms in the Information Technology Center at Asano Campus after August 2026](/notice/2025/0930-asano/) (only in Japanese)"
 -
   date: 2025-09-12
   content:
@@ -66,8 +112,8 @@
 -
   date: 2025-08-08
   content:
-    ja: "9/17 15:00から[教育用計算機システム(ECCS)のシステム利用説明会を開催いたします](/notice/2025/0917-eccs-seminar)"
-    en: "On September 17, an information session titled **\"[Use of Information Session on Education Computer Systems (ECCS)](/notice/2025/0917-eccs-seminar)\"** will be held at 15:00. This session will be **conducted in Japanese**."
+    ja: "9/17 15:00から[教育用計算機システム(ECCS)のシステム利用説明会を開催しました](/notice/2025/0917-eccs-seminar)"
+    en: "On September 17, an information session titled **\"[Use of Information Session on Education Computer Systems (ECCS)](/notice/2025/0917-eccs-seminar)\"** was held at 15:00. This session will be **conducted in Japanese**."
 -
   date: 2025-07-25
   content:

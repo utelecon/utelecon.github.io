@@ -13,6 +13,8 @@
   "mdx": {
     "plugins": [
       "remark-gfm",
+      "remark-cjk-friendly",
+      "remark-cjk-friendly-gfm-strikethrough",
       [
         "remark-attribute-list",
         {
@@ -20,8 +22,7 @@
           "allowUnderscoreInId": true,
           "allowNoPosition": true
         }
-      ],
-      "./src/lib/SimpleAttentionPlugin.js"
+      ]
     ]
   }
 }

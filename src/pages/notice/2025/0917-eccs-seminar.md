@@ -5,8 +5,13 @@ title: 9/17 15:00から教育用計算機システム(ECCS)のシステム利用
 
 <div style="text-align: right;">
 <span>2025年08月8日</span><br />
+<span>2025年09月26日(更新)</span><br />
 <span>情報基盤センター</span><br />
 </div>
+
+## 資料，動画
+以下の説明会は終了しました． 当日使った説明会の資料(当日の動画含む)を大学内限定 (ECCSクラウドメールのアカウントでのログインが必要) でGoogle Drive上に置きます．
+- [説明会資料](https://docs.google.com/document/d/1V7WlKVJ_3JqkAfT_eVieYHYseZlKyxHE84_ZZvvuVLI/edit?usp=drive_link)
 
 ## 開催趣旨
 

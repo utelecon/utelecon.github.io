@@ -13,12 +13,14 @@ This document applies to the following external services managed and operated by
     - External service provider: Zoom Video Communications, Inc.
 - [Webex](/en/webex/) (including [Slido](/en/slido/) available with a Webex account)
     - External service provider: Cisco Systems, Inc.
-- [UTokyo Microsoft License](/microsoft/) (including Teams and [Email System for Staff](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx))
+- [UTokyo Microsoft License](/en/microsoft/) (including Teams and [Email System for Staff](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx))
     - External service provider: Microsoft Corporation
-- [UTokyo Slack](/slack/)
+- [UTokyo Slack](/en/slack/)
     - External service provider: Slack Technologies, LLC
-- [UTokyo MATLAB Campus-Wide License](/matlab/)
+- [UTokyo MATLAB Campus-Wide License](/en/matlab/)
     - External service provider: The MathWorks, Inc.
+- [UTokyo Account Identity Verification Service](/en/utokyo_account)
+    - External service provider: Division for Information and Communication Systems, UTokyo
 
 When using these services, please follow the terms below.
 

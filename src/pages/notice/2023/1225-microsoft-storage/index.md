@@ -4,7 +4,7 @@ title: UTokyo Accountで利用するOneDrive等の容量制限について（第
 
 <div class="box">
 
-最新の情報は「[UTokyo Accountで利用するOneDrive等の容量制限について（第2報）](../../2024/0422-microsoft-storage/)」をご覧ください．
+最新の情報は「[UTokyo Accountで利用するOneDrive等の容量制限について（第3報）](../../2025/1224-microsoft-storage/)」をご覧ください．
 </div>
 
 UTokyo Account 利用者各位

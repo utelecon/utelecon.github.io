@@ -1,7 +1,7 @@
 ---
 title: ECCS Cloud Email (Google Workspace)
 breadcrumb:
-  title: Google
+  title: ECCS Cloud Email
 redirect_from:
   - /en/eccs_cloud_email
 ---
@@ -13,77 +13,156 @@ import ECCSCloudEmailLoginSp from '@components/en/systems/eccs_cloud_email/Login
 import ECCSCloudEmailUseMail from '@components/en/systems/eccs_cloud_email/UseMail.mdx';
 import WwweccEol from "@components/en/WwweccEol.astro";
 
-<WwweccEol systemName="ECCS Cloud Email (Google Workspace)"/>
-
-<div class="box">
-On September 30, 2024, Google disabled Less Secure Applications (LSA). Some ECCS Cloud Email users may be affected by this change. For more information, please see "[Disabling Less Secure Applications (LSA) in ECCS Cloud Email](/notice/2024/0930-google-lsa/)" (written in Japanese only) and "[Beginning September 30, 2024: third-party apps that use only a password to access Google Accounts and Google Sync will no longer be supported](https://workspaceupdates.googleblog.com/2023/09/winding-down-google-sync-and-less-secure-apps-support.html)."
-</div>
+<WwweccEol systemName="ECCS Cloud Email（Google Workspace）"/>
 
 ## What is ECCS Cloud Email?
 
-ECCS Cloud Email is a Cloud Email service that is available to all users with a UTokyo Account. It gives users access to Google Workspace for Education.  
+The ECCS Cloud Email is the email system of the University of Tokyo, which is linked to your UTokyo Account. 
+It grants you access to the Google Workspace for Education, a suite of Google services such as Gmail and Google Drive.
 
-The Google tools and services that are available through ECCS Cloud Email include: 
+If you have obtained a UTokyo Account, please make sure that your ECCS Cloud Email account is set up and ready to use, 
+even if you already have a personal Google account. 
+This is because some university pages and files are configured to allow access only through an ECCS Cloud Email account.
 
-- **Gmail**：Email service using your Todai email address, `xxx@g.ecc.u-tokyo.ac.jp`
-- **Google Drive**：File storage service
-- **Google Docs**：Word processor
-- **Google Sheets**：Spreadsheet program
-- **Google Forms**：Survey administration software
-- **YouTube**：Online video-sharing platform
-- **Google Meet**：Video communication service
+Your ECCS Cloud Email address (aka username) follows the format `xxxx@g.ecc.u-tokyo.ac.jp`. 
+When setting up of your account, you can choose an appropriate name to appear before the “`@`” symbol. 
+If you do not specify one yourself, your email address will automatically be set to "your 10-digit Common ID+`@g.ecc.u-tokyo.ac.jp`".
+For more details, please refer to the page 
+"[Restrictions and specifications regarding email addresses (in Japanese)](../../google/misc/localpart/)".
 
-Please refer to [the User’s Guide](https://www.ecc.u-tokyo.ac.jp/announcement/2017/04/26_2495.html) (currently available only in Japanese) in the ECCS website for a full list of available tools and services. 
+## Steps to Start Using Your ECCS Cloud Email
+{:#initial-setup}
 
-Since some UTokyo web pages can only be accessed by UTokyo members, please make sure you can use your University of Tokyo account.
+To use your ECCS Cloud Email (and complete the initial account setup), you need a [UTokyo Account](../utokyo_account/). 
+If you have not yet used your UTokyo Account, please refer to the page 
+"[How to start using UTokyo Account](../utokyo_account/#procedures)" first.
 
-Additionally, you can set the part before the @ in the University of Tokyo email address `xxxx@g.ecc.u-tokyo.ac.jp` on your own. If you have not set, "10-digit Common ID+`@g.ecc.u-tokyo.ac.jp`" will be your email address.
-
-## Initial Setup Procedures
-
-### Task: Set your preferred email address
+### How to Set Up Your Own Email Address
 {:#configure}
 
-\* Even if you are already using ECCS Cloud Email, you can change your email address by following this procedure as in the initial setup.
+Note: Even if you are already using your ECCS Cloud Email, you can still change your email address by following the same steps outlined below.
 
-<ECCSCloudEmailConfigure img inlineHelp waitForReflection />
+<ECCSCloudEmailConfigure img />
 
-After setting your email address, it will take **up to about 40 minutes** to take effect, so **please wait a while until you are able to log in**.
+After setting your email address, it may take **up to about 40 minutes** for the change to take effect. 
+**Please wait for it to update before logging in**.
 
-### Check: Log in
+### Log In to Check
+{:#login}
 
 <ECCSCloudEmailLogin inlineHelp />
 
-### Check: Make sure you can access UTokyo member-only pages
+## Available Services and How to Use Them
+{:#services}
 
-<ECCSCloudEmailAccess />
+### Gmail
+{:#gmail}
+Gmail is a web-based email service that allows you to use your University of Tokyo email address (`xxxx@g.ecc.u-tokyo.ac.jp`).
+- For basic usage instructions, please refer to [Google's official Help pages](https://support.google.com/mail#topic=7065107?hl=en) and the article 
+"[9. Email (in Japanese)](https://hwb.ecc.u-tokyo.ac.jp/hwb2023/literacy/email/)" in the Hyper Workbook.
+- If you have not received an email you are expecting, please refer to Google's Help page 
+"[Gmail messages are missing](https://support.google.com/mail/answer/7015314?hl=en)" and follow the suggested steps to resolve the issue.
 
-### Optional task: Log in on your smartphone
+### Google Drive, Google Docs, Google Sheets, Google Slides, and Google Forms
+{:#drive}
+Google Drive is an online storage service where you can store and/or edit various types of files. 
+In addition to common file formats such as PDFs, you can also store and edit files in Google's own formats, such as Google Docs and other Google Workspace files.
+- For basic instructions on how to use Google Drive, please refer to [Google's official Help pages](https://support.google.com/drive) and the 
+"[Google Drive](./drive/)" page.
+- For information on using the Shared drives feature in Google Drive, please refer to the [Shared drives](./drive/shared_drive/) page.
+- For basic instructions on how to use Google Docs and other related services, please refer to 
+[Google's official Help pages](https://support.google.com/docs#topic=1382883?hl=en) and the 
+[Google Docs page (in Japanese)](../../google/document/).
+- Tutorials
+  - ["Good Practices in Online Teaching" (Kayoko Kurita) (in Japanese)](../../good-practice/interview/kurita/)
+  : This is an example of a class where Google Slides was used to facilitate group work, 
+  as part of creating an effective “learning environment”.
+  - [Online Class Information Exchange Meeting, Session 11 - 
+  Tools for Online Classes (1) (in Japanese)](../../events/luncheon/2020-06-24/): 
+  This recorded session introduces a script (a simple program) that automates 
+  the process of creating multiple copies of a template file for use in group work.
+  - [Conducting Quizzes and Surveys with Google Forms](../articles/google-form/): 
+  This article explains the basics of using Google Forms, focusing on use cases such as quizzes and surveys.
 
-This is for users of Gmail or other Google apps.
+### Google Meet
+{:#meet}
+For basic instructions on how to use Google Meet, 
+please refer to [Google’s official Help pages](https://support.google.com/meet#topic=14074839?hl=en) and 
+[the Google Meet page](./meet/).
 
-<ECCSCloudEmailLoginSp />
+### Google Groups
+{:#groups}
+By registering multiple Google accounts in a Google Group, you can exchange messages in a manner similar to a mailing list, 
+and also manage file sharing and access permissions collectively.
 
-### Exercise: Use your email
+For basic instructions on how to use Google Groups, 
+please refer to [Google’s official Help pages](https://support.google.com/groups#topic=9216?hl=en) and 
+[the Google Groups Usage page (in Japanese)](../../google/group/).
 
-You can use your email address `xxxx@g.ecc.u-tokyo.ac.jp` in Gmail.
+### Google Calendar
+{:#calendar}
+Google Calendar is an online calendar service that can be used to manage your schedule.
+- For basic instructions on how to use Google Calendar, 
+please refer to [Google’s official Help pages](https://support.google.com/calendar#topic=10509740?hl=en) and 
+[the Google Calendar Usage page (under construction)](./calendar/).
+- For examples of how to use this service, please refer to the article on 
+[collaboration using Google Calendar](./calendar/collab/).
 
-<ECCSCloudEmailUseMail />
+### YouTube
+{:#youtube}
+YouTube is a video streaming service.
+- For basic instructions on how to use YouTube, please refer to 
+[Google’s official Help pages](https://support.google.com/youtube#topic=9257498?hl=en).
+- Tutorials
+  - [Broadcast live on YouTube using your ECCS Cloud Email account (in Japanese)](../../google/youtube/live/)
+  - (Reference) [Publishing YouTube Content for University Members Only (in Japanese)](https://www.sodan.ecc.u-tokyo.ac.jp/hack/youtube-utokyo-only/)
 
-## Useful Resources for Using Google Workspace for Education
+### Google Classroom
+{:#classroom}
+Google Classroom is a learning management system provided by Google.
 
-- General
-    - [Information on ECCS Cloud Email](https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/06/07_2197.html) (ECCS News)
-    - [Google Help](https://support.google.com/)
-- Gmail
-    - [Reading and Writing email using Gmail](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/gmail/) (HYPER WORKBOOK; Japanese Only)
-- Google Drive
-    - [Using Google Drive](https://www.ecc.u-tokyo.ac.jp/en/announcement/2017/05/17_2530.html) (ECCS News)
-    - [Uploading recorded video file to Google Drive](/faculty_members/how/google/share_video/) (Japanese only)
-    - [Use of Team Drives (Supplementary Service for ECCS Cloud Email)](https://www.ecc.u-tokyo.ac.jp/en/announcement/2018/07/11_2822.html) (ECCS News)
-- Google Meet
-    - [Google Meet](/en/google/meet/)
-- Google Group
-    - [How to Use the Google Group](https://www.ecc.u-tokyo.ac.jp/en/announcement/2016/10/31_2362.html) (ECCS News)
-- Google Calendar
-    - [Using Google Calendar](https://www.ecc.u-tokyo.ac.jp/en/announcement/2017/05/17_2526.html) (ECCS News)
+- For basic instructions on how to use Google Classroom, 
+please refer to [Google’s official Help pages](https://support.google.com/edu/classroom/#topic=10298088?hl=en) and 
+[the Google Classroom page (under construction)](./classroom/).
+- Though is possible to create multiple classes with the same name, 
+users who are enrolled in multiple classes with identical names may find it difficult to distinguish between them. 
+Therefore, when creating a class, please make sure to give it a name that participants can easily recognize and distinguish from other classes.
+- Tutorials
+  - [Online Class Information Exchange Meeting, Session 14 — Tools for Online Classes (3): Google Classroom (in Japanese)](../../events/luncheon/2020-07-15/): 
+  Video and other materials regarding the use of Google Classroom in course instruction. 
+  (Please note that the video is available only to members of the University of Tokyo.)
+
+### Google Assignments
+{:#assignments}
+Google Assignments is an assignment management system that is most effective when used in conjunction with other learning management systems.
+
+For basic instructions on how to use Google Assignments, 
+please refer to [Google’s official Help pages](https://support.google.com/edu/assignments/#topic=9069280?hl=en) and 
+[the Google Assignments page (in Japanese)](../../google/assignments/).
+
+### Gemini
+{:#gemini}
+Gemini is Google’s generative AI service. As of September 2024, when using Gemini with an ECCS Cloud Email account, 
+user data is not used to improve AI models, nor is it subject to human review for the purpose of model improvement.
+
+For basic instructions on how to use Gemini with an ECCS Cloud Email, 
+please refer to the page on [Using Gemini with an ECCS Cloud Email (in Japanese)](../../google/gemini/) and 
+[Google’s official FAQ page](https://support.google.com/gemini?&jid=5288930114617748420-NC#topic=15280100?hl=en).
+
+### Other Examples of Services
+- Google Keep
+- Google Chrome Sync
+- Google Travel
+- [Google Sites (in Japanese)](../../google/site/)
+- Google Contacts
+- Google Photos
+- Blogger
+- Google Analytics
+- Google Cloud Console
+- Google Chat
+- Notebook LM
+
+## Additional Information
+{:#misc}
+For more information on these services, please refer to 
+[other information regarding the use of ECCS Cloud Email (in Japanese)](../../google/misc/).
