@@ -8,8 +8,8 @@ breadcrumb:
 
 設定はイベントの主催者側画面左上の「Settings」（歯車アイコン）を選択することで行うことができます．主催者側画面には，[イベントの一覧ページ](https://admin.sli.do/events)からアクセスしてください．
 
-<img src="img/settings.png">
-<img src="img/settings_details.png">
+<img src="img/settings_jp.png">
+<img src="img/settings_details_jp.png">
 
 このページでは，特に授業でSlidoを利用する場合に確認が必要な設定項目について説明します．
 
