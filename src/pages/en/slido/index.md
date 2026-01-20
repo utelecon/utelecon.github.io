@@ -29,7 +29,7 @@ For more information about what you can do with Slido, please see "**[What Stude
 
 In Slido, each room is called an "event". If you want to use Slido as a host, you need to create an "event". The procedure is as follows.
 
-1. [Sign in with your UTokyo account](login/).
+1. [Sign in with your UTokyo Account](login/).
 2. Create an event and check the URL to share it](create_event)
     - Change the settings](change_event_settings) if necessary
 3. Share the URL with students. In class, you may share the URL with students via Zoom chat.
@@ -43,7 +43,7 @@ Slido can be used for free. However, you can use the paid features below by sign
 * **Poll/Survey**: You can embed polls in images and conduct polls with multiple questions.
 * **Export**: You can export (download) question data.
 
-It is recommended to [sign in with a UTokyo account](login/) when using Slido in class. Please also refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms/)" when using an account at the University of Tokyo.
+It is recommended to [sign in with a UTokyo Account](login/) when using Slido in class. Please also refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms/)" when using an account at the University of Tokyo.
 
 
 ## Implementation and Practices

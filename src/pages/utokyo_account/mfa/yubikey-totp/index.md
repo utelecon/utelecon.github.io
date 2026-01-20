@@ -32,7 +32,7 @@ Yubico AuthenticatorアプリをUTokyo Accountの多要素認証の本人確認�
 多要素認証の本人確認方法を1個も登録しておらず，Yubico Authenticatorアプリを1個目の本人確認方法として登録する場合，手順は以下の通りです．
 
 1. [多要素認証の設定ページ](https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=univtokyo.onmicrosoft.com)にアクセスしてください．
-2. （サインイン済みでなければ）サインイン画面が表示されるので，共通ID（UTokyo Accountの先頭10桁の数字のみの部分）とパスワードを入力してください．
+2. （サインイン済みでなければ）サインイン画面が表示されるので，UTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）とパスワードを入力してください．
 3. 「詳細情報が必要」という画面が表示されるので，「次へ」を押してください．
 ![](../first.png)
 4.  「別の認証アプリを使用します」を押してください．
