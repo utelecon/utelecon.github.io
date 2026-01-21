@@ -10,7 +10,7 @@ Slack integration feature on UTOL provides a dedicated UTokyo Slack workspace fo
 
 ## Preparation
 
-If you have not yet completed the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) and/or enabled the [Multi-Factor Authentication for UTokyo Accounts]((/en/utokyo_account/mfa/)), please do so.
+If you have not yet completed the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) and/or enabled the [Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/), please do so.
 
 ## How to use
 
