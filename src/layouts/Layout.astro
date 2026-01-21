@@ -93,13 +93,19 @@ const seoProps: SEOProps = {
   charset: "UTF-8",
   canonical: canonicalUrl.href,
 };
+
+const ogpImagePath = {
+  en: "/assets/images/ogp_en.png",
+  ja: "/assets/images/ogp.png",
+}[lang];
+
 if (title) {
   seoProps.openGraph = {
     basic: {
       title,
       type: "website",
       url: canonicalUrl.href,
-      image: new URL("/assets/images/ogp.png", Astro.site).href,
+      image: new URL(ogpImagePath, Astro.site).href,
     },
     optional: {
       description,
