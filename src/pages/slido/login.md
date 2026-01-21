@@ -15,6 +15,7 @@ Slidoには，個人のアカウントを利用してサインインすること
 5. 画面の左上にThe University of Tokyoと書かれたSlidoのページが表示されればOKです．<img src="img/slido_main_jp.png">
 
 ### 管理画面を日本語にする
+{:#language}
 サインイン直後の画面が英語で表示されている場合は，以下の手順で日本語に変更することができます．
 1. ①画面右上のプロフィールアイコンをクリックし，②「EDIT」ボタンをクリックします．<img src="img/profile_edit.png">
 2. 「General」欄の設定項目から「Language」を選択します．「Japanese (Japan)」を選択し，「Save」をクリックすると，メニューなどが日本語で表示されるようになります．<img src="img/profile_edit_language.png">
