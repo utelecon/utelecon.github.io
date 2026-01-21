@@ -95,11 +95,8 @@
   @media (max-width: 1024px) {
     grid-template-columns: repeat(3, 1fr);
   }
-  @media (max-width: 896px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
   @media (max-width: 640px) {
-    grid-template-columns: 1fr;
+    gap: 0.5em;
   }
 
   & > li > a {
@@ -108,6 +105,10 @@
     justify-content: end;
     color: color.$black-gray;
     text-align: center;
+
+    @media (max-width: 640px) {
+      font-size: 0.75rem;
+    }
 
     // ロゴ画像・Material Icons
     & > img,
