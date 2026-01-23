@@ -107,7 +107,8 @@
 
     font-size: 0.75rem;
     line-height: 0.875rem;
-    @media (max-width: 640px) {
+    padding: 0.125rem;
+    @media (max-width: 896px) {
       font-size: 0.625rem;
       line-height: 0.75rem;
     }
