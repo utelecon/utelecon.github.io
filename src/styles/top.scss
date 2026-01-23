@@ -92,9 +92,10 @@
 
 .top__systems > .cards {
   grid-template-columns: repeat(6, 1fr);
-  gap: 0.5rem;
-  @media (max-width: 896px) {
+  gap: 0.5em;
+  @media (max-width: 640px) {
     grid-template-columns: repeat(4, 1fr);
+    gap: 0.25em;
   }
 
   & > li > a {
@@ -105,8 +106,10 @@
     text-align: center;
 
     font-size: 0.75rem;
+    line-height: 0.875rem;
     @media (max-width: 640px) {
-      font-size: 0.5rem;
+      font-size: 0.625rem;
+      line-height: 0.75rem;
     }
 
     // ロゴ画像・Material Icons
@@ -121,14 +124,14 @@
       max-height: 1.5rem;
       margin: auto;
       @media (max-width: 896px) {
-        max-height: 1.25rem;
+        max-height: 1rem;
       }
     }
     & > span.material-icon > svg {
       fill: color.$link-color;
       height: 2rem;
       @media (max-width: 896px) {
-        height: 1.75rem;
+        height: 1.25rem;
       }
     }
 
