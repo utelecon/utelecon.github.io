@@ -1,10 +1,8 @@
 ---
-import assert from "assert";
-import type { MDXInstance } from "astro";
-import type { Frontmatter } from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
 import If from "@components/utils/If.astro";
 import type { Lang } from "@components/types";
-import { getLocaleDateString } from "@data/utils/notices";
+import { getLocaleDateString } from "src/lib/util";
 
 interface EventInformation {
   key: string;
@@ -21,36 +19,31 @@ interface Props {
 
 const { show, lang, alternative } = Astro.props;
 
-const allEventsList: Map<string, EventInformation> = new Map(
-  [
-    await Astro.glob<MDXInstance<Frontmatter>>(
-      "/src/pages/events/*/index.{md,mdx}"
-    ),
-    await Astro.glob<MDXInstance<Frontmatter>>("/src/pages/events/*.{md,mdx}"),
-  ]
-    .flat()
-    .map((instance) => {
-      const dateMatch = instance.file.match(
-        /\/(([0-9]{4}-[0-9]{2}-[0-9]{2})?[^/]*)(?:\/index)?\.mdx?$/
-      );
-      assert(dateMatch !== null);
-      assert(instance.url !== undefined);
+const events = await getCollection("events")
 
-      return [
-        dateMatch[1],
-        {
-          key: dateMatch[1],
-          date: dateMatch[2] ? new Date(dateMatch[2]) : null,
-          title:
-            instance.frontmatter.title?.replace(
-              /^[0-9]{4}([/-])[0-9]{1,2}\1[0-9]{1,2}\s*/,
-              ""
-            ) ?? "",
-          href: instance.url,
-        },
-      ];
-    })
-);
+const allEventsList: Map<string, EventInformation> = new Map(
+  events.map((event) => {
+    const dateMatch = event.filePath?.match(
+      /(([0-9]{4}-[0-9]{2}-[0-9]{2})?[^/]*)(?:\/index)?\.mdx?$/
+    );
+    if (!dateMatch) {
+      throw new Error(`Invalid file path: ${event.filePath}`);
+    }
+    return [
+      dateMatch[1],
+      {
+        key: dateMatch[1],
+        date: dateMatch[2] ? new Date(dateMatch[2]) : null,
+        title:
+          event.data.title?.replace(
+            /^[0-9]{4}([/-])[0-9]{1,2}\1[0-9]{1,2}\s*/,
+            ""
+          ) ?? "",
+        href: `/${event.id}`,
+      },
+    ];
+  })
+)
 
 const eventsList: EventInformation[] = show.map((key) => {
   const eventInfo = allEventsList.get(key);
