@@ -8,12 +8,15 @@ breadcrumb:
 
 イベントの主催者としてSlidoを使う場合の使い方は，「[Slidoで主催者ができること](../how_to_use_host/)」を確認してください．
 
-## 表示言語を日本語にする
+<details>
+  <summary>受講者画面を日本語で表示するには</summary>
 
 Slidoの画面が英語で表示されている場合は，以下の手順で言語を日本語に変更することができます．
 
-1. ①画面右上のアイコンをクリックし，②「My profile」を選択します．<img src="img/audience_edit.png">
+1. ①画面右上のアイコンをクリックし，②「My profile」を選択してください．<img src="img/audience_edit.png">
 2. 「Your language」から「日本語」を選択し，「Save」をクリックしてください．<img src="img/audience_edit_language.png">
+
+</details>
 
 ## Q&A機能を使う
 
