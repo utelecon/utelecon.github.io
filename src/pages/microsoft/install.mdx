@@ -5,7 +5,7 @@ breadcrumb:
 ---
 
 import HelpItem from "@components/utils/HelpItem.astro";
-import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
+
 
 ## はじめに
 {:#about}
@@ -31,7 +31,11 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 1. Microsoft 365 Copilotアプリの画面にアクセスし，UTokyo Accountでサインインしてください．
 **[Microsoft 365 Copilotアプリ](https://m365.cloud.microsoft/apps/?auth=2)**{:.box.center}
 サインインの手順については，[**UTokyo Accountを用いてMicrosoftのシステムにサインインする**](../signin/)をご覧ください．
-  <ApplyHelpMFA type="details" />
+    <details>
+       <summary>ヘルプ：「これに対するアクセス権がありません」または「You don’t have access to this」というエラーが表示される場合</summary>
+        UTokyo Slackの利用に必要な<a href="/utokyo_account/mfa/">UTokyo Accountの多要素認証</a>の申請およびその反映が完了していない可能性があります．「<strong><a href="/utokyo_account/mfa/initial/">UTokyo Account多要素認証の初期設定手順</a></strong>」を<strong>最後の「手順4：多要素認証の利用を申請する」まで確実に</strong>行って，UTokyo Accountの多要素認証を有効化してください．その後，多要素認証の設定が<strong>システムに反映されるまで約30分かかるので，それまでしばらくお待ちください</strong>．
+        <div>それでもうまくいかなければ，<a href="/support/">サポート窓口</a>に相談してください．</div> 
+    </details>
 1. 画面の右上にある「アプリをインストール」をクリックして表示されるメニューで，「Microsoft 365 Apps」をクリックしてください．
     <HelpItem lang="ja" type={"details"}>
     <Fragment slot="problem">「Microsoft 365 Apps」が表示されない場合</Fragment>
