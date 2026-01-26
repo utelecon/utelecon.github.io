@@ -91,58 +91,67 @@
 }
 
 .top__systems > .cards {
-  grid-template-columns: repeat(4, 1fr);
-  @media (max-width: 1024px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  @media (max-width: 896px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media (max-width: 640px) {
-    grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 0.5em;
+
+  overflow-x: auto;
+  scroll-snap-type: mandatory x;
+  &::-webkit-scrollbar {
+    display: none;
   }
 
-  & > li > a {
+  & > li {
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    color: color.$black-gray;
-    text-align: center;
+    flex: 0 0 calc(100% / 4.5);
+    @media (max-width: 896px) {
+      flex: 0 0 calc(100% / 3.5);
+    }
+    @media (max-width: 640px) {
+      flex: 0 0 calc(100% / 2.5);
+    }
 
-    // ロゴ画像・Material Icons
-    & > img,
-    & > span.material-icon {
+    & > a {
       display: flex;
-      flex: 1;
-      align-items: center;
-      justify-content: center;
-    }
-    & > img {
-      max-height: 2.25rem;
-      margin: auto;
-      padding: 0.25rem;
-      @media (max-width: 896px) {
-        max-height: 1.5rem;
-      }
-    }
-    & > span.material-icon > svg {
-      fill: color.$link-color;
-      height: 3rem;
-      @media (max-width: 896px) {
-        height: 1.5rem;
-      }
-    }
+      flex-direction: column;
+      justify-content: end;
+      color: color.$black-gray;
+      text-align: center;
 
-    > .external-link:last-child {
-      display: none;
+      @media (max-width: 640px) {
+        font-size: 0.75rem;
+      }
+
+      // ロゴ画像・Material Icons
+      & > img,
+      & > span.material-icon {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+      }
+      & > img {
+        max-height: 2.25rem;
+        margin: auto;
+        padding: 0.25rem;
+      }
+      & > span.material-icon > svg {
+        fill: color.$link-color;
+        height: 3rem;
+      }
+
+      > .external-link:last-child {
+        display: none;
+      }
     }
   }
 
   & > li:last-child {
+    flex: none;
     display: block;
     grid-column: -2 / -1;
-    justify-self: end;
-    align-self: end;
+    align-self: center;
 
     & > a {
       display: inline;
