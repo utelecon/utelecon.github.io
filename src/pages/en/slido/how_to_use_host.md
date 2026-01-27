@@ -39,7 +39,7 @@ In Slido, the polls feature allows teachers to ask questions/quizzes to students
 Select “Live polls” in the upper left corner of the screen.
 
 <figure>
-<img src="img/slido1.jpg">
+<img src="img/slido1.png">
 </figure>.
 
 (1) Event name and date<br>
