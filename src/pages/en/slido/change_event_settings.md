@@ -8,6 +8,7 @@ When Slido is used with a University of Tokyo account, users are eligible for ad
 The settings can be changed by selecting “Settings” in the upper-right corner of the event host’s screen. The host screen can be accessed from the [event list page](https://admin.sli.do/events).
 
 <img src="img/settings.png">
+<img src="img/settings_details.png">
 
 This page describes the settings that need to be checked, particularly when Slido is used in class.
 
