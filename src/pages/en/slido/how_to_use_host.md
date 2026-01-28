@@ -8,16 +8,42 @@ This page explains what hosts can do in Slido’s host page. Please access the h
 
 Please refer to “[What Students Can Do in Slido](../how_to_use_audience/)” when you use Slido as a participant.
 
-## Checking Students’ Questions
+## Starting a Q&A
 
-In Slido, students can send questions and comments.
-Please select “Audience Q&A"” in the upper left corner of the screen. The questions and comments from students will be displayed in the "Live" column on the right side of the screen.
+In Slido, the Q&A feature allows students to freely send questions and comments.
 
-By default, the questions and comments are displayed in descending order of the number of “Likes” given to each post (“Top”: most popular), and are automatically updated.
-You can also sort by “Recent”: sort posts from newest to oldest. Just select the down arrow at the top right of the screen.
+### Creating a Q&A
+
+To create a Q&A, select “Audience Q&A” in the upper left corner of the screen or under “Add new interaction”.
 
 <figure>
 <img src="img/slido11.png">
+</figure>
+
+### Q&A Settings
+
+Clicking “Q&A settings” in the top right corner of the Q&A screen allows you to change detailed settings for accepting questions. It is recommended to configure these in advance according to the nature of the class.
+
+* **Moderation**: Keeps submitted questions hidden from the screen until approved by the teacher. This is effective for preventing inappropriate posts.
+* **Replies**: Allows students to reply to other people's questions.
+* **Character limit**: Sets the maximum number of characters that can be entered for a question.
+* **Labels**: Enables the use of the tag (label) feature to categorize and manage questions. You can also create new labels from the “Create a new label” field.
+* **Downvotes**: Allows students to downvote questions to express disagreement. Note that the “Like” (upvote) feature is always enabled.
+
+<figure>
+<img src="img/slido21.png">
+<img src="img/slido22.png">
+</figure>
+
+### Checking Students’ Questions
+
+The questions and comments from students will be displayed in the "Live" column on the right side of the screen.
+
+By default, the questions and comments are displayed in descending order of the number of “Likes” given to each post (“Top”: most popular), and are automatically updated.
+You can also sort by “Recent”: sort posts from newest to oldest. Just select the up/down arrows (“⇅” icon) at the top right of the screen.
+
+<figure>
+<img src="img/slido19.png">
 </figure>
 
 By hovering the cursor over each question/comment, the following buttons will appear and you can make an action to the question/comment. <img src="img/post.png" class="medium">
