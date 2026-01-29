@@ -8,30 +8,60 @@ This page explains what hosts can do in Slido’s host page. Please access the h
 
 Please refer to “[What Students Can Do in Slido](../how_to_use_audience/)” when you use Slido as a participant.
 
-## Checking Students’ Questions
+## Starting a Q&A
 
-In Slido, students can send questions and comments.
-Please select “Audience Q&A"” in the upper left corner of the screen. The questions and comments from students will be displayed in the "Live" column on the right side of the screen.
+In Slido, the Q&A feature allows students to freely send questions and comments.
 
-By default, the questions and comments are displayed in descending order of the number of “Likes” given to each post (“Top”: most popular), and are automatically updated.
-You can also sort by “Recent”: sort posts from newest to oldest. Just select the down arrow at the top right of the screen.
+### Creating a Q&A
+
+To create a Q&A, select “Audience Q&A” in the upper left corner of the screen or under “Add new interaction”.
 
 <figure>
 <img src="img/slido11.png">
 </figure>
 
+### Q&A Settings
+
+Clicking “Q&A settings” in the top right corner of the Q&A screen allows you to change detailed settings for accepting questions. It is recommended to configure these in advance according to the nature of the class.
+
+* **Moderation**: Keeps submitted questions hidden from the screen until approved by the teacher. This is effective for preventing inappropriate posts.
+* **Replies**: Allows students to reply to other people's questions.
+* **Character limit**: Sets the maximum number of characters that can be entered for a question.
+* **Labels**: Allows you to use the tag (label) feature to categorize and manage questions. You can also create new labels from the “Create a new label” field.
+* **Downvotes**: Allows students to downvote questions to express disagreement. Note that the “Like” (upvote) feature is always enabled.
+
+<figure>
+<img src="img/slido21.png">
+<img src="img/slido22.png">
+</figure>
+
+### Checking Students’ Questions
+
+The questions and comments from students will be displayed in the "Live" column on the right side of the screen.
+
+By default, the questions and comments are displayed in descending order of the number of “Likes” given to each post (“Top”: most popular), and are automatically updated.
+You can also sort by “Recent”: sort posts from newest to oldest. Just select the up/down arrows (“⇅” icon) at the top right of the screen.
+
+<figure>
+<img src="img/slido19.png">
+</figure>
+
 By hovering the cursor over each question/comment, the following buttons will appear and you can make an action to the question/comment. <img src="img/post.png" class="medium">
-**"★" (Star Question)**: Slido changes the display every time a new question/feedback is submitted, so it is easy to lose track of the question/feedback. By marking a Star to a question/comment, you can check the starred questions and comments later. Please note that the participants will not know which question/comment is starred.
-* **"^" (Highlight Question)**: You can pin a specific question/comment to the top of the screen. Pinned posts will be fixed at the top of all participants' screens.
-* **"☑︎" (Mark as answered)**: By selecting this button, you can archive a question/comment 
+* **Highlight (Green icon)**: Pins a specific question/comment to the top of the screen. Posts set here will also be fixed at the top of all participants' screens.
+* **Mark as answered (Checkmark)**: By selecting this button, you can archive a question/comment 
 . Archived questions will be invisible to students, but always visible to teachers.
+* **Reply (Speech bubble icon)**: Allows you to reply to the question/comment.
+* **Label (Tag icon)**: Since Slido updates the display every time a new question/comment is submitted, it is easy to lose track of items. By creating and attaching labels such as “Later” or “Important”, you can categorize and manage questions from students. Note that participants cannot see that the host has attached a label.
 
 By clicking on the ellipsis at the bottom right, you can see the options below:
-* **Edit**: Edit questions/comments from students.
-* **Reply**: Reply to a question/comment.
-* **Archive**: Archive questions/comments from students. The archived questions/comments are not visible to the students, but are always available to the teachers (select Archive above the tab). You can also retrieve the questions/comments from the archive by clicking the "Restore question" button.
-* **Delete**: Delete questions/comments from students.
+* **Select ☑︎**: Allows you to select questions/comments from students and perform actions such as labeling or archiving in bulk.
+* **Edit**: Edits questions/comments from students.
+* **Archive**: Archives questions/comments from students. The archived questions/comments are not visible to the students, but are always available to the teachers (select Archive above the tab). You can also retrieve the questions/comments from the archive by clicking the "Restore question" button.
+* **Delete**: Deletes questions/comments from students.
 
+If you click **Archive** at the top right of the screen, a list of archived questions/comments will be displayed. Hovering the cursor over each question/comment reveals the following button (in addition to those already mentioned), allowing you to perform actions on it.
+
+* **Restore (Counter-clockwise arrow)**: Restores the question/comment from the archive.
 
 ## Starting a Poll
 
@@ -39,7 +69,7 @@ In Slido, the polls feature allows teachers to ask questions/quizzes to students
 Select “Live polls” in the upper left corner of the screen.
 
 <figure>
-<img src="img/slido1.jpg">
+<img src="img/slido1.png">
 </figure>.
 
 (1) Event name and date<br>
