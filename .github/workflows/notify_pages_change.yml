@@ -1,0 +1,91 @@
+name: Weekly Pages Update Digest
+
+on:
+  # テスト用に、現在の作業ブランチへのpushで動くようにする
+  push:
+    branches:
+      - feature/add-notification  # あなたの作業ブランチ名
+#  schedule:
+#    # 毎週月曜日の朝 9:00 (JST) = UTC 0:00 に実行
+#    - cron: '0 0 * * 1'
+#  # 手動実行も可能にしておく（テスト用）
+#  workflow_dispatch:
+
+jobs:
+  digest-notification:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read # PR情報の取得に必要
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Collect Merged PRs for src/pages
+        id: collect-prs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 7日前の日付を取得 (UTC)
+          DATE=$(date -d "7 days ago" +%Y-%m-%d)
+          echo "Searching PRs merged since $DATE..."
+
+          # 過去7日間にマージされたPRを取得
+          # src/pages/ を変更したものだけをフィルタリングしてリスト化
+          PR_LIST=""
+          COUNT=0
+          
+          # ghコマンドでマージ済みPRを取得し、ループ処理
+          # --json で必要な情報のみ取得
+          PRS=$(gh pr list --base main --state merged --search "merged:>=$DATE" --json number,title,url --limit 100)
+          
+          # jqで各PRを処理（空の場合はスキップ）
+          if [ "$PRS" != "[]" ]; then
+            for row in $(echo "${PRS}" | jq -r '.[] | @base64'); do
+              _jq() {
+               echo ${row} | base64 --decode | jq -r ${1}
+              }
+              
+              PR_NUM=$(_jq '.number')
+              PR_TITLE=$(_jq '.title')
+              PR_URL=$(_jq '.url')
+              
+              # そのPRで変更されたファイルを取得し、src/pagesが含まれるか確認
+              FILES=$(gh pr view $PR_NUM --json files -q '.files[].path')
+              
+              if echo "$FILES" | grep -q "^src/pages/"; then
+                # リストに追加 (Slack用フォーマット: <URL|Text>)
+                PR_LIST="${PR_LIST}• <${PR_URL}|#${PR_NUM}>: ${PR_TITLE}\n"
+                COUNT=$((COUNT + 1))
+              fi
+            done
+          fi
+
+          echo "Found $COUNT PRs."
+          
+          # 環境変数として出力 (改行を含む文字列のセット方法)
+          {
+            echo "PR_MESSAGE<<EOF"
+            echo -e "$PR_LIST"
+            echo "EOF"
+          } >> $GITHUB_ENV
+          
+          # 件数を次のステップに渡す
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
+
+      - name: Send Slack Notification
+        if: steps.collect-prs.outputs.count > 0 # 対象PRがある場合のみ実行
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_CHANNEL: 'contens-english'
+          SLACK_USERNAME: 'Weekly Pages Digest'
+          SLACK_ICON: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+          SLACK_COLOR: '#36a64f'
+          SLACK_TITLE: 'Weekly Update: src/pages/'
+          # 生成したPRリストをメッセージとして使用
+          SLACK_MESSAGE: |
+            先週、src/pages/ に以下の変更がマージされました:
+            
+            ${{ env.PR_MESSAGE }}
