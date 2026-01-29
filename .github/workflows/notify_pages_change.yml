@@ -73,9 +73,11 @@ jobs:
           
           # 件数を次のステップに渡す
           echo "count=$COUNT" >> $GITHUB_OUTPUT
-
-      - name: Send Slack Notification
-        if: steps.collect-prs.outputs.count > 0 # 対象PRがある場合のみ実行
+  
+      # ケース1: 変更があった場合（件数 > 0）
+      # 色: 緑 (#36a64f)
+      - name: Send Slack Notification (Updates Found)
+        if: steps.collect-prs.outputs.count > 0
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -84,8 +86,21 @@ jobs:
           SLACK_ICON: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
           SLACK_COLOR: '#36a64f'
           SLACK_TITLE: 'Weekly Update: src/pages/'
-          # 生成したPRリストをメッセージとして使用
           SLACK_MESSAGE: |
             先週、src/pages/ に以下の変更がマージされました:
             
             ${{ env.PR_MESSAGE }}
+
+      # ケース2: 変更がなかった場合（件数 == 0）
+      # 色: グレー (#cccccc) - 落ち着いた色にして「異常なし」を表現
+      - name: Send Slack Notification (No Updates)
+        if: steps.collect-prs.outputs.count == 0
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_CHANNEL: 'contens-english'
+          SLACK_USERNAME: 'Weekly Pages Digest'
+          SLACK_ICON: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+          SLACK_COLOR: '#cccccc'
+          SLACK_TITLE: 'Weekly Update: src/pages/'
+          SLACK_MESSAGE: '先週、src/pages/ 配下の変更はありませんでした。'
