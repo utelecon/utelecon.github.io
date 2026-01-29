@@ -28,7 +28,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 7日前の日付を取得 (UTC)
-          DATE=$(date -d "7 days ago" +%Y-%m-%d)
+          DATE=$(date -d "30 days ago" +%Y-%m-%d)
           echo "Searching PRs merged since $DATE..."
 
           # 過去7日間にマージされたPRを取得
