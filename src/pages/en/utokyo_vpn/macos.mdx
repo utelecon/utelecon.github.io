@@ -33,22 +33,25 @@ After these steps, install the application as you would do for any other macOS a
 
 <HelpWhite />
 
-**Step C:** During the installation of Cisco Secure Client, a window with the following message “Action Required AnyConnect VPN Service Not Enabled” may appear. Please follow the instructions to allow the system software from "Cisco Secure Client - AnyConnect VPN Service", which is displayed in the "App Background Activity" in "Login Items & Extensions" in "General" in "System Preferences". A window with the following message will appear '"Cisco Secure Client - Socket Filter" would like to use a new network extension' please click the "OK" button.
+**Step C:** During the installation of Cisco Secure Client, a window with the following message “Action Required AnyConnect VPN Service Not Enabled.” may appear. Please follow the instructions to allow the system software from "Cisco Secure Client - AnyConnect VPN Service", which is displayed in the "App Background Activity" in "Login Items & Extensions" in "General" in "System Preferences". A window with the following message will appear '"Cisco Secure Client - Socket Filter" would like to use a new network extension' please click the "OK" button.
 
 ![](img/mac04-install_1-2.png){:.medium.center.border}
 ![](img/mac05-install_1-3.png){:.medium.center.border}
 
-**Step D:** 
+**Step D:** Wait a while minute, a window with the following message "Action Required Cisco Secure Client - System Extension Blocked." may appear. Please follow the instructions to allow the system software from "Cisco Secure Client - Socket Filter" to click the 🛈️ button, which is displayed in the right of "Network Extensions" in "Login Items & Extensions" in "General" in "System Preferences". A window with the following message will appear '"Cisco Secure Client - Socket Filter" Would Like to Filter Network Content' please click the "Allow" button.
+
+![](img/mac06-install_1-4.png){:.medium.center.border}
+![](img/mac07-install_1_5.png){:.medium.center.border}
 
 **Step E:** If the installation was completed successfully, a folder named “Cisco” is created in the Applications folder. In the folder, the AnyConnect client application “Cisco AnyConnect Secure Mobility Client.app” is installed. 
 
-![](img/mac06-cisco-on-app.png){:.medium.center.border}
+![](img/mac08-app-window-connect_1.png){:.medium.center.border}
 
 You are now ready to use VPN.
 
 Note: After installing the AnyConnect client application on a macOS 11 Big Sur or later, three extensions with the name “Cisco AnyConnect Socket Filter” are added to the “Network” in the “System Preferences”. These extensions are necessary for shifting networks between VPN and others such as Wi-Fi or LAN. They do not record the contents of communications or send the information outside the host. These extensions' statuses are always “connected (green dot)” regardless of a real connection to the UTokyo VPN. 
 
-![](img/mac07-macos-pref.png){:.medium.center.border}
+![](img/mac09-filters&proxies.png){:.medium.center.border}
 
 ## Steps to connect to the UTokyo VPN
 {:#connect}
