@@ -69,7 +69,7 @@ In Slido, the polls feature allows teachers to ask questions/quizzes to students
 
 <figure>
 <img src="img/slido1.png">
-</figure>.
+</figure>
 
 (1) Event name and date<br>
 (2) Event code<br>
