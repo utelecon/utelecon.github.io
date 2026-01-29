@@ -83,17 +83,17 @@ In Slido, the polls feature allows teachers to ask questions/quizzes to students
 To create a poll, select “Add (Add new interaction)” in the upper left corner of the screen.
 There are six types of polls. You can create a new poll by clicking the button of each function icon from the poll function screen.
 
-* Multiple choice - Set up questions in multiple choice format <img src="img/slido2.png" class="medium">.
-* Word cloud - Answers to questions are visualized as a "cloud" (participants answer in a short text form same as in Open text) <img src="img/slido3.png" class="medium">
+* Multiple choice - Set up questions in multiple choice format. <img src="img/slido2.png" class="medium">
+* Word cloud - Answers to questions are visualized as a "cloud" (participants answer in a short text form same as in Open text). <img src="img/slido3.png" class="medium">
     * The answers will be displayed in format as shown in the figure. If there are multiple identical answers, the word will be displayed larger. (On students' screen) <img src="img/slido4.png" class="medium">
-* Open text - Set up short answer questions<img src="img/slido7.png" class="medium">.
-* Ranking - Set multiple items for participants to rank <img src="img/slido8.png" class="medium">.
-* Rating - Set up a 10-point scale item <img src="img/slido6.png" class="medium">.
-* Quiz - Set up questions for which the correct answers will be displayed <img src="img/slido5.png" class="medium">.
-* Survey - Create a survey combining multiple questions (unlike the above 6 types, participants answer multiple questions collectively as one set).
+* Open text - Set up short answer questions.<img src="img/slido7.png" class="medium">
+* Ranking - Set multiple items for participants to rank. <img src="img/slido8.png" class="medium">
+* Rating - Set up a 10-point scale item. <img src="img/slido6.png" class="medium">
+* Quiz - Set up questions for which the correct answers will be displayed. <img src="img/slido5.png" class="medium">
+* Survey - Create a survey combining multiple questions (unlike the above 6 types, participants answer multiple questions collectively as one set).<img src="img/slido20.png" class="medium">
 
 ### Managing Your Polls
 
-The created polls will be displayed on both the left and right side of the screen. On the left side of the screen, all polls you have created will be displayed. On the right side of the screen, the votes displayed to participants will be shown. To stop displaying polls to participants, click the red button displayed on the left side of the screen. <img src="img/slido9.png">.
+The created polls will be displayed on both the left and right side of the screen. On the left side of the screen, all polls you have created will be displayed. On the right side of the screen, the votes displayed to participants will be shown. To stop displaying polls to participants, click the red button displayed on the left side of the screen. <img src="img/slido9.png">
 
 When you click the red button, polls displayed on the right side of the screen will disappear. If you want to make the polls visible to participants again, click the green button (which was originally red) on the left side of the screen. <img src="img/slido10.png">
