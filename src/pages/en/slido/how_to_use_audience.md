@@ -7,16 +7,6 @@ breadcrumb:
 This page describes what operations the participants (students) can perform in Slido.
 
 To use Slido as an event host, please refer to “[What Hosts Can Do in Slido](../how_to_use_host/).”
-
-<details>
-  <summary>How to display the participant view in English</summary>
-
-If the Slido screen is displayed in a language other than English, you can change the language to English by following these steps:
-
-1. Click ① the icon in the top right corner of the screen, and select ② “My profile”. <img src="img/audience_edit.png">
-2. Select “English (US)” from “Your language”, and click “Save”. <img src="img/audience_edit_language_en.png">
-
-</details>
 	
 ## Using the Q&A Feature
 
