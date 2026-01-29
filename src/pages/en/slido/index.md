@@ -30,8 +30,8 @@ For more information about what you can do with Slido, please see "**[What Stude
 In Slido, each room is called an "event". If you want to use Slido as a host, you need to create an "event". The procedure is as follows.
 
 1. [Sign in with your UTokyo Account](login/).
-2. Create an event and check the URL to share it](create_event)
-    - Change the settings](change_event_settings) if necessary
+2. [Create an event and check the URL to share it.](create_event/)
+    - [Change the settings](change_event_settings/) if necessary.
 3. Share the URL with students. In class, you may share the URL with students via Zoom chat.
 4. Check out students’ questions and vote on them. See "**[What Hosts Can Do in Slido](how_to_use_host/)**" for specific steps.
 {:start="0"}
