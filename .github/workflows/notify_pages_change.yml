@@ -8,8 +8,8 @@ on:
 #  schedule:
 #    # 毎週月曜日の朝 9:00 (JST) = UTC 0:00 に実行
 #    - cron: '0 0 * * 1'
-#  # 手動実行も可能にしておく（テスト用）
-#  workflow_dispatch:
+  # 手動実行も可能にしておく（テスト用）
+  workflow_dispatch:
 
 jobs:
   digest-notification:
@@ -80,7 +80,7 @@ jobs:
         if: steps.collect-prs.outputs.count > 0
         uses: rtCamp/action-slack-notify@v2
         env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL_CE }}
           SLACK_CHANNEL: 'contens-english'
           SLACK_USERNAME: 'Weekly Pages Digest'
           SLACK_ICON: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
@@ -97,7 +97,7 @@ jobs:
         if: steps.collect-prs.outputs.count == 0
         uses: rtCamp/action-slack-notify@v2
         env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL_CE }}
           SLACK_CHANNEL: 'contens-english'
           SLACK_USERNAME: 'Weekly Pages Digest'
           SLACK_ICON: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
