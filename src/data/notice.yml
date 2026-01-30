@@ -21,6 +21,13 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-01-30
+  content:
+    ja: "[次期教育用計算機システム(ECCS2026)でのプリンタプリペイドカードについて](/notice/2025/1204-eccs-printer) "
+    en: "[Printer prepaid cards for the Next generation of Educational Campus-wide Computing System (ECCS2026) (in Japanese only)](/notice/2025/1204-eccs-printer) "  
+    
+
+-
   date: 2026-01-27
   content:
     ja: "[「みんなのキャンパス・デザインラボ」第1期ラボメンバーの募集について](/notice/2026/01-cdl/) （2月16日13時締切）"
