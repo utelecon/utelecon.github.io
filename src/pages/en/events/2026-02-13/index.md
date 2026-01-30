@@ -4,7 +4,7 @@ h1: "Feb. 13,2026: Workshop: UTokyo Azure Day（**Conducted in English**） "
 ---
 ![](banner.jpeg)
 
-[Updated Jan. 15, 2026]
+[Updated Jan. 30, 2026]
 
 ## Purpose of the Workshop
 
@@ -51,6 +51,7 @@ If you wish to present a poster, please select **“Poster Presentation”** in 
 - **Eligibility:** Open to faculty, staff, and students (UTokyo Azure usage is not required)
 - **Board Size:** W 85 cm × H 175 cm (excluding the frame)
 - **Poster Size:** Any format is acceptable—either a single A0 poster or multiple sheets (e.g., A4) arranged and posted together.
+- **On-site Poster Setup**: Please print and bring your poster with you and display it on the board with your assigned number by **16:55**. The location and numbering of the boards will be provided at the venue on the day.
 - **Lightning Talk**: For each poster, presenters will give a brief oral overview within one minute.  
   Please submit one PDF per presenter to be projected on the screen by 12:00 noon on the day before the event.
   - The submitted PDF may be in a standard slide format such as 16:9 or 4:3, or it may be the poster PDF itself.
