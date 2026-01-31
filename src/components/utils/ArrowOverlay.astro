@@ -11,6 +11,7 @@ type Props = {
   scale?: number;
   angle?: number;
   color?: string;
+  outerClass?: string;
   class?: string;
 } & Record<string, any>;
 
@@ -78,8 +79,8 @@ const transform =
 ---
 
 <If cond={Boolean(path)}>
-  <div class:list={props.class}>
-    <Image src={image} alt={props.alt ?? ""} {...props} />
+  <div class:list={props.outerClass}>
+    <Image src={image} alt={props.alt ?? ""} class:list={props.class} {...props} />
     <svg xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${image.width} ${image.height}`}>
       <path d={path} transform={transform} fill={color} stroke="none"></path>
     </svg>
