@@ -13,11 +13,16 @@
   margin: 1em 0;
   @media (max-width: 896px) {
     grid-auto-flow: row;
+    gap: 0.5em;
   }
 
   & > &__card {
     & > a {
       @extend .card;
+
+      @media (max-width: 896px) {
+        padding: 0.25em;
+      }
 
       display: flex;
       align-items: center;
@@ -31,7 +36,7 @@
 
         @media (max-width: 896px) {
           width: 3rem;
-          margin: 0.5rem 1rem 0.5rem 0.5rem;
+          margin: 0.3rem 1rem 0.3rem 0.5rem;
         }
       }
 
