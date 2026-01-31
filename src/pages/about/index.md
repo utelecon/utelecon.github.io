@@ -61,7 +61,7 @@ uteleconポータルサイトでは，利用状況の統計を取得するため
 
 ## Microsoft Clarityの使用について
 
-uteleconポータルサイトでは，利用状況の統計の取得およびポータルサイトの改善を行うため，Microsoft Clarityを使用しています．Microsoftによるデータの取り扱いについては同サービスの利用規約「[MICROSOFT CLARITY - TERMS OF USE](https://clarity.microsoft.com/terms)」および「[Microsoft Clarity プライバシーに関する声明](https://privacy.microsoft.com/ja-jp/privacystatement)」等をご覧ください．
+uteleconポータルサイトでは，利用状況の統計の取得およびポータルサイトの改善を行うため，Microsoft Clarityを使用しています．Microsoftによるデータの取り扱いについては同サービスの利用規約「[MICROSOFT CLARITY - TERMS OF USE](https://clarity.microsoft.com/terms)」および「[Microsoft プライバシー ステートメント](https://privacy.microsoft.com/ja-jp/privacystatement)」等をご覧ください．
 
 ## Contribution
 
