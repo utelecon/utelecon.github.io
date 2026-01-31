@@ -7,7 +7,7 @@ breadcrumb:
 
 If you wish to use ECCS, you must obtain the "ECCS usage rights" in advance.
 
-Once you have obtained the right, you can use ECCS with your UTokyo Account's common ID (10-digit) and password.
+Once you have obtained the right, you can use ECCS with your UTokyo Account and password.
 
 ## The services that require the ECCS usage rights
 

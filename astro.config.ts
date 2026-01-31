@@ -8,7 +8,6 @@ import remarkAttributeList from "remark-attribute-list";
 import redirect from "./src/lib/RedirectIntegration.js";
 import defaultFrontmatterPlugin from "./src/lib/DefaultFrontmatterPlugin.js";
 import dotSlashPlugin from "./src/lib/DotSlashPlugin.js";
-import simpleAttentionPlugin from "./src/lib/SimpleAttentionPlugin.js";
 import { cleanup } from "./src/lib/CleanupIntegration.js";
 import collectHtmlImages from "./src/lib/CollectHtmlImagesPlugin.js";
 import copyAsset from "./src/lib/CopyAssetIntegration.js";
@@ -16,6 +15,8 @@ import assetFileNames from "./src/lib/AssetFileNames.js";
 import ignoreAssets from "./src/lib/ignoreassets";
 import rehypeRaw from "rehype-raw";
 import remarkImageClasslist from "./src/lib/remark-image-classlist.js";
+import remarkCjkFriendly from "remark-cjk-friendly";
+import remarkCjkFriendlyGfmStrikethrough from "remark-cjk-friendly-gfm-strikethrough";
 
 // https://astro.build/config
 export default defineConfig({
@@ -44,7 +45,6 @@ export default defineConfig({
     remarkPlugins: [
       dotSlashPlugin,
       [defaultFrontmatterPlugin, { layout: "@layouts/Layout.astro" }],
-      simpleAttentionPlugin,
       [
         remarkAttributeList,
         {
@@ -54,6 +54,8 @@ export default defineConfig({
         },
       ],
       remarkImageClasslist,
+      remarkCjkFriendly,
+      remarkCjkFriendlyGfmStrikethrough,
     ],
     remarkRehype: {
       footnoteLabelProperties: { className: ["visually-hidden"] },

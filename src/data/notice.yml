@@ -21,6 +21,33 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-01-30
+  content:
+    ja: "[次期教育用計算機システム(ECCS2026)でのプリンタプリペイドカードについて](/notice/2025/1204-eccs-printer) "
+    en: "[Printer prepaid cards for the Next generation of Educational Campus-wide Computing System (ECCS2026) (in Japanese only)](/notice/2025/1204-eccs-printer) "  
+    
+
+-
+  date: 2026-01-27
+  content:
+    ja: "[「みんなのキャンパス・デザインラボ」第1期ラボメンバーの募集について](/notice/2026/01-cdl/) （2月16日13時締切）"
+    en: "[Founding Members Recruitment: “Our Campus Design Lab”](/en/notice/2026/01-cdl/) (close at February 16, 13:00)"
+-
+  date: 2026-01-15
+  content:
+    ja: "[2026年度Sセメスター「utelecon相談員」募集のお知らせ](/notice/2026/0115-cs/) （2月9日13時締切）"
+    en: "[job opportunities:AY2026 S Semester utelecon Support Staff](/notice/2026/0115-cs/) （close at February 9, 13:00）(in Japanese)"
+-
+  date: 2025-12-25
+  content:
+    ja: "[UTokyo Accountで利用するOneDrive等の容量制限について（第3報）](/notice/2025/1224-microsoft-storage/)"
+    en: "[Reduction of the storage capacity of OneDrive with UTokyo Accounts (3rd Announcement) (only in Japanese)](/notice/2025/1224-microsoft-storage/)"
+-
+  date: 2025-12-23
+  content:
+    ja: "[ワークショップ：UTokyo Azure Day](/events/2026-02-13/)を開催します。UTokyo Azureに関心をお持ちの方が気軽に参加できる学内ネットワーキングイベントです。"
+    en: "[Workshop: UTokyo Azure Day](/en/events/2026-02-13/) — An On-Campus Networking Event for Anyone Interested in UTokyo Azure."
+-
   date: 2025-12-04
   content:
     ja: "[ECCS端末やWebDAV環境（Proself）に保存されているデータが削除されます（2026年2月21日予定）](/notice/2025/1204-eccs-data-deletion/)"
@@ -55,6 +82,7 @@
   content:
     ja: "[教育用計算機システム(ECCS2026)について](/notice/2025/eccs2026-announcement/)"
     en: "[Announcement on the Educational Campuswide Computing System (ECCS2026)](/notice/2025/eccs2026-announcement/) (in Japanese only)"
+  important: true
 -
   date: 2025-09-11
   content:

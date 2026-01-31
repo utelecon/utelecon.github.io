@@ -4,6 +4,8 @@ breadcrumb:
   title: 事前連携
 ---
 
+import CheckStatus from "../_CheckStatus.mdx"
+
 ## はじめに
 このページでは，UTokyo Account本人確認サービスを利用するために，あらかじめ済ませておく必要がある，「事前連携」の手続きについて説明します．
 
@@ -11,7 +13,7 @@ breadcrumb:
 
 - 手順1:[デジタル認証アプリをセットアップする](#app-setup)
 - 手順2:[アプリとマイナンバーカードで本人認証する](#auth)
-- 手順3:[UTokyo Accountでサインインして紐付けを行う](#signin)
+- 手順3:[UTokyo Accountでサインインしてひも付けを行う](#signin)
 - 手順4:[連携状況を確認する](#statuscheck)
 
 UTokyo Account本人確認サービスにアクセスする際に，PCを用いる(PCとスマートフォンと併用して作業を行う)か，スマートフォンを用いる(スマートフォンのみで作業を行う)かにより，手順2での作業が異なります．手順が簡潔であるため，スマートフォンのみで完結する方法を推奨します．
@@ -66,7 +68,7 @@ UTokyo Account本人確認サービスにアクセスする際に，PCを用い�
     {/* ここから共通 */}
 1. デジタル認証アプリ上の案内に従って，生体情報・パスコード等による認証を行ってください．
 1. 「はじめる」ボタンを押して認証手順をすすめてください．
-    ![](auth_app_initial.png){:.border}
+    ![](auth_app_initial_1.png){:.border}
 1. マイナンバーカードの利用者証明用電子証明書の暗証番号を入力してください．
     ![](auth_app_pass1.png){:.border}
 1. 券面事項入力補助用の暗証番号を入力してください．利用者証明用電子証明書の暗証番号と同じ物を使用している場合は「直前と同じ番号を入力」ボタンを押すことで省略できます．
@@ -77,7 +79,7 @@ UTokyo Account本人確認サービスにアクセスする際に，PCを用い�
     
     <figure class="gallery">![](auth_app_read1.png){:.border} ![](auth_app_read2.png){:.border} ![](auth_app_read3.png){:.border}</figure>
 1. UTokyo Account本人確認サービスへの認証の許可を求める画面が表示されます．プライバシーポリシーや利用規約を確認の上，「許可」ボタンを押してください．
-    ![](auth_app_permittion1.png){:.border}
+    ![](auth_app_permission1.png){:.border}
 
     <details>
     <summary>「認証と情報提供を中止しますか」という選択ボタンが出た場合</summary>
@@ -133,7 +135,7 @@ UTokyo Account本人確認サービスにアクセスする際に，PCを用い�
     {/* ここから共通 */}
 1.  デジタル認証アプリ上の案内に従って，生体情報・パスコード等による認証を行ってください．
 1. 「次へ」ボタンを押して認証手順をすすめてください．
-    ![](auth_app_initial_renew.png){:.border}
+    ![](auth_app_initial_2.png){:.border}
 1. マイナンバーカードの利用者証明用電子証明書の暗証番号を入力してください．
     ![](auth_app_pass1.png){:.border}
 1. 券面事項入力補助用の暗証番号を入力してください．利用者証明用電子証明書の暗証番号と同じ物を使用している場合は「直前と同じ番号を入力」ボタンを押すことで省略できます．
@@ -144,7 +146,7 @@ UTokyo Account本人確認サービスにアクセスする際に，PCを用い�
     
     <figure class="gallery">![](auth_app_read1.png){:.border} ![](auth_app_read2.png){:.border} ![](auth_app_read3.png){:.border}</figure>
 1. UTokyo Account本人確認サービスへの認証の許可を求める画面が表示されます．プライバシーポリシーや利用規約を確認の上，「許可」ボタンを押してください．
-    ![](auth_app_permittion1.png){:.border}
+    ![](auth_app_permission1.png){:.border}
 
     <details>
     <summary>「認証と情報提供を中止しますか」という選択ボタンが出た場合</summary>
@@ -165,27 +167,18 @@ UTokyo Account本人確認サービスにアクセスする際に，PCを用い�
 初期設定はまだ完了していません．[手順3](#signin)に進んでください．
 </div>
 
-## 手順3: UTokyo Accountでサインインして紐付けを行う
+## 手順3: UTokyo Accountでサインインしてひも付けを行う
 {:#signin}
 
 1. 「UTokyo Accountでサインイン」ボタンを押してください．
     ![](service_step2.png){:.border}{:.medium}
 1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-1. 「紐付けを行う」ボタンを押して，デジタル認証アプリの連携IDとUTokyo Accountを紐付けしてください．
+1. 「ひも付けを行う」ボタンを押して，デジタル認証アプリの連携IDとUTokyo Accountをひも付けしてください．
     ![](service_step3.png){:.border}{:.medium}
-1. 「上記の紐付けを解除する」ボタンが出てくれば，連携が出来ています．
+1. 「上記のひも付けを解除する」ボタンが出てくれば，連携が出来ています．
     ![](service_step4.png){:.border}{:.medium}
 
 ## 手順4: 連携状況を確認する
 {:#statuscheck}
 
-### UTokyo Account本人確認サービス上での確認
-1. UTokyo Account本人確認サービス上で，名前と紐付けされているUTokyo Accountが正しく表示されているか確認してください．
-
-{/* 9/7: /myでの確認方法はまだ利用できない状況です，したがって画像は用意できてません */}
-
-### UTokyo Account利用者情報確認サイト上での確認
-1. [UTokyo Account利用者情報確認サイト](https://login.adm.u-tokyo.ac.jp/my/)にアクセスしてください．
-1. 右上の「Sign In」ボタンを押してください．
-1. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-1. 「情報を表示 / Display information」ボタンを押してください．
+<CheckStatus variant="link"/>

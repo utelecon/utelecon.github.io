@@ -60,8 +60,10 @@ For an overview of usages during a meeting, please refer to "[Usages in Zoom Mee
 ## Misc
 {:#misc}
 
+- [How to use Zoom AI Companion (in Japanese)](../../zoom/ai-companion/)
 - [Difference between Host and Co-host](misc/management_roles/)
 - [Using Zoom's Report Feature to Manage Attendance](misc/report/)
 - [About the Zoom App](misc/app/)
+- [Editing and managing Zoom meetings](./misc/edit_meeting/)
 - [How to Reduce Zoom Traffic in Online Classes](/en/articles/zoom-data-traffic/)
 - [Online Lecture "How to Use Zoom in Online Classes" (in Japanese)](/events/2021-03-25/)

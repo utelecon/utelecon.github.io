@@ -36,7 +36,7 @@ There are two ways to register a user group.
 - Registration by uploading an Excel file
 ![](register_excel.png){:.border}{:.medium}
     - Use this method to register one or more user groups by uploading an Excel file containing information about the user groups and their members.
-    - This is suitable for registering multiple user groups at once or when electronic data is available on the student's common IDs or student ID numbers.
+    - This is suitable for registering multiple user groups at once or when electronic data is available on the student's Common IDs or student ID numbers.
 
 #### Registration by selecting on the screen
 {:#web}
@@ -79,7 +79,7 @@ There are two ways to register a user group.
 ![](register_excel.png){:.border}{:.medium}
 1. Please follow the procedure below to enter the information for each user group you wish to register. Note that each user group corresponds to a single row in the Excel file. In other words, **you cannot use multiple rows to describe a single user group**.
     - First, enter the "User Group Name" and "Details" (optional). This information will be used to distinguish between user groups later.
-    - Next, enter either the common ID or student ID number for all members. If it is a common ID, enter it in the "User ID" field, and if it is a student ID number, enter it in the "User Number" field. Please enter the common ID and student ID number in one field, separated by a semicolon.
+    - Next, enter either the Common ID or student ID number for all members. If it is a Common ID, enter it in the "User ID" field, and if it is a student ID number, enter it in the "User Number" field. Please enter the Common ID and student ID number in one field, separated by a semicolon.
   
     The following image is an example of how to enter the information.
 ![](sample.png){:.border}

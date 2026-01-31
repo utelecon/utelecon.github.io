@@ -119,7 +119,7 @@ This section describes the settings related to **Self-registration**, which allo
 
 First, in the **Self-registration** settings, you can choose whether or not to allow users to register themselves as *enrolled student*, by clicking the **Register for Enrollment** button on UTOL. The default setting is **Permit**.
 
-Next, in the **Enrolled student range setting**, and among those who are registered as *enrolled students***,** you can choose the range of people who can use the content (such as those downloading course materials and/or submitting assignments).
+Next, in the **Enrolled student range setting**, and among those who are registered as *enrolled students*, you can choose the range of people who can use the content (such as those downloading course materials and/or submitting assignments).
 
 The **Enrolled student range** settings automatically switch from **All regardless of registration method** to **Registration and instructor registration only on the course confirmation date**. However, in courses that the course instructor has applied for creation, the **Enrolled student range** setting is always fixed to **Always "All regardless of registration method"**.
 

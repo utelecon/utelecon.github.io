@@ -1,6 +1,8 @@
 ---
 title: ECCSクラウドメールにおける「安全性の低いアプリケーション（LSA）」の無効化について
 toc: false
+redirect_from:
+  - /google/misc/lsa/
 ---
 
 <div style="text-align: right;">2024年9月30日</div>

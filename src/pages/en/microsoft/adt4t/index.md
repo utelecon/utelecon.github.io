@@ -20,7 +20,7 @@ title: "UTokyo Microsoft Azure Dev Tools for Teaching"
     <b class="box center"><a href="https://aka.ms/devtoolsforteaching/">Azure Dev Tools for Teaching</a></b>
 1. Press the "Sign In" button.
     ![](sign_in.png){:.border.medium}
-1. The sign-in screen will appear if you are not already signed in. Enter your 10-digit Common ID (UTokyo Account username) followed by `@utac.u-tokyo.ac.jp` to indicate your affiliation with UTokyo (e.g., `0123456789@utac.u-tokyo.ac.jp`).
+1. The sign-in screen will appear if you are not already signed in. Enter your UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`).
 1. After signing in, you will be taken to the "Student Verification" and "Terms" screens sequentially. Follow the instructions on the screen to proceed.
     <figure class="gallery"><img src="student_verification.png"><img src="terms.png"></figure>
 1. Once you reach the "Microsoft Azure" screen, open "Software" from the menu on the left side of the "Education" screen.<br>* If the "Education" screen is not displayed, search it from the search box at the top of the screen.

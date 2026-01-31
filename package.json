@@ -50,6 +50,8 @@
     "rehype-remove-empty-attribute": "^4.0.1",
     "rehype-stringify": "10.0.1",
     "remark-attribute-list": "0.4.0",
+    "remark-cjk-friendly": "^1.2.3",
+    "remark-cjk-friendly-gfm-strikethrough": "^1.2.3",
     "remark-parse": "^11.0.0",
     "sass": "^1.89.2",
     "semver": "^7.7.2",
@@ -62,7 +64,7 @@
   "devDependencies": {
     "@types/hast": "3.0.4",
     "@types/mdast": "4.0.4",
-    "@types/node": "^22.17.0",
+    "@types/node": "^24.10.4",
     "@types/semver": "^7.7.0",
     "@types/unist": "3.0.3",
     "typescript": "^5.9.2"

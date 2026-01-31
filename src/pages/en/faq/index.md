@@ -45,25 +45,25 @@ For more information, please refer to [“ECCS Cloud Email (Google Workspace)”
     2. Tap "Add another account" to add your Google account.
     3. You will be prompted to enter your email address and password, so enter your ECCS Cloud Email email address and password that you set up above.
 
-### Q. What is the difference among `10-digits-ID@utac`, `10-digits-ID@g.ecc`, and `xxxx@g.ecc` (email address named after your choice) email addresses?
-* `10-digits-ID@utac.u-tokyo.ac.jp`(e.g. `1234567890@utac.u-tokyo.ac.jp`)
+### Q. What is the difference among `10-digit-ID@utac`, `10-digit-ID@g.ecc`, and `xxxx@g.ecc` (email address named after your choice) email addresses?
+* `10-digit-ID@utac.u-tokyo.ac.jp`(e.g. `1234567890@utac.u-tokyo.ac.jp`)
   * Although it resembles an email address, it cannot be used for sending emails. However, the system may still send notifications or other messages to this address. For instance, regarding Zoom or UTokyo Slack, system-generated emails sent to this address can be received in each individual’s mailbox of ECCS Cloud Email.
-  * This is used as your user name when you sign in to the system with your UTokyo Account. The 10-digit number before @ is called the common ID, and some systems require only this common ID to sign in.
-* `10-digits-ID@g.ecc.u-tokyo.ac.jp`(e.g. `1234567890@g.ecc.u-tokyo.ac.jp`)
-  * For those who newly enrolled or appointed after March 2024: This email address can be used as it is as an email address if you do not set up the ECCS Cloud Email initially. If you don’t set up a specific email address, you will use this address to log into Google. If you set up an email address later and change it to `xxxx@g.ecc.u-tokyo.ac.jp`, you will need to use this newly set up email address to log into Google. Please note that even after changing the email address, emails sent to `10-digits-ID@g.ecc.u-tokyo.ac.jp` will be delivered to `xxxx@g.ecc.u-tokyo.ac.jp`.
+  * This is used as your user name when you sign in to the system with your UTokyo Account. The 10-digit number before @ is called the Common ID, and some systems require only this Common ID to sign in.
+* `10-digit-ID@g.ecc.u-tokyo.ac.jp`(e.g. `1234567890@g.ecc.u-tokyo.ac.jp`)
+  * For those who newly enrolled or appointed after March 2024: This email address can be used as it is as an email address if you do not set up the ECCS Cloud Email initially. If you don’t set up a specific email address, you will use this address to log into Google. If you set up an email address later and change it to `xxxx@g.ecc.u-tokyo.ac.jp`, you will need to use this newly set up email address to log into Google. Please note that even after changing the email address, emails sent to `10-digit-ID@g.ecc.u-tokyo.ac.jp` will be delivered to `xxxx@g.ecc.u-tokyo.ac.jp`.
   * For those who enrolled or appointed before February 2024: This is the ‘alias’ of ECCS Cloud Email. You cannot log in by entering this on Google’s login screen. Emails sent to this address will go to your ECCS Cloud Email mailbox. You can check this by logging into Gmail at `xxxx@g.ecc.u-tokyo.ac.jp`.
 * `xxxx@g.ecc.u-tokyo.ac.jp` (email address named after your choice)
   * The string preceding the ‘@’ is something you set yourself in the UTokyo Account user menu. You can log into Google services like Gmail with this email address. However, depending on when you enrolled or appointed, there are differences. For those who enrolled or appointed before February 2024, a certain `xxxx@g.ecc.u-tokyo.ac.jp` is set from the beginning, so if you don’t set it yourself, you will use it as an `xxxx@g.ecc.u-tokyo.ac.jp`. On the other hand, for those who enrolled or appointed after March 2024, a `10-digit-ID@g.ecc.u-tokyo.ac.jp` is set initially, so unless you set the string yourself, you cannot use an email address in the form of `xxxx@g.ecc.u-tokyo.ac.jp`.
 
 ## Microsoft 365 (formerly Office 365)
 ### Q. I cannot sign into Microsoft Office. What can I do?
-* ** If you see “That Microsoft account doesn't exist. Enter a different account or get a new one.” on the “Sign In” page**: Enter your `10-digit ID@utac.u-tokyo.ac.jp` for user ID. Your 10-digit number is your 10-digit common ID.
+* **If you see “That Microsoft account doesn't exist. Enter a different account or get a new one.” on the “Sign In” page**: Enter your `10-digit ID@utac.u-tokyo.ac.jp` for user ID. Your 10-digit number is your Common ID (the first 10-digit numerical part of the UTokyo Account).
 
 ### Q. I cannot edit after signing in. What can I do?
 * There may be issues with license authentication. In such cases, editing might not be possible in Office applications such as Word.
 * For Mac users: Please follow the instructions below to delete your Office License and retry license authentication.
   1. Follow the steps in [How to remove Office license files on a Mac – Office support](https://support.microsoft.com/en-us/office/how-to-remove-office-license-files-on-a-mac-b032c0f6-a431-4dad-83a9-6b727c03b193?ui=en-US&rs=en-US&ad=US) to download the Microsoft license removal tool.
-  2. When you open Office applications such as Word after deleting the license, you will be asked to sign into Microsoft 365 (if you are not asked to sign in, find and click the button which says “Sign In”). Please try to sign in with your UTokyo Account (10-digit ID@@utac.u-tokyo.ac.jp) again.
+  2. When you open Office applications such as Word after deleting the license, you will be asked to sign into Microsoft 365 (if you are not asked to sign in, find and click the button which says “Sign In”). Please try to sign in with your UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`) again.
   3. Once you have signed in, your license will be authenticated automatically.
 * For other OS users: Please contact the support desk.
 
