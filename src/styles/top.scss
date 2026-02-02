@@ -72,10 +72,6 @@
   }
 }
 
-.largecards + h2 {
-  margin-top: 1.6em;
-}
-
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -179,8 +175,4 @@ ul.date_list {
   &.localized .date {
     margin-right: 1rem;
   }
-}
-
-.systems-link {
-  text-align: right;
 }
