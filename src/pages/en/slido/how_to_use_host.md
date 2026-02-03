@@ -81,7 +81,7 @@ In Slido, the polls feature allows teachers to ask questions/quizzes to students
 ### Creating a Poll
 
 To create a poll, select “Add (Add new interaction)” in the upper left corner of the screen.
-There are six types of polls. You can create a new poll by clicking the button of each function icon from the poll function screen.
+There are six types of single questions and a Survey, which allows you to run them together. You can create a new poll by clicking the button of each function icon from the poll function screen.
 
 * Multiple choice - Set up questions in multiple choice format. <img src="img/slido2.png" class="medium">
 * Word cloud - Answers to questions are visualized as a "cloud" (participants answer in a short text form same as in Open text). <img src="img/slido3.png" class="medium">
