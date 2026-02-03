@@ -25,18 +25,33 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 1829番のPRが持っているファイルパスを具体的に表示させる
-          echo "--- Files in PR #1829 ---"
-          gh pr view 1829 --json files -q '.files[].path'
-          
-          # 判定ロジックを通るかテスト
-          echo "--- Path Match Test ---"
-          FILES=$(gh pr view 1829 --json files -q '.files[].path')
-          if echo "$FILES" | grep -q "^src/pages/"; then
-            echo "Match found!"
-          else
-            echo "No match. Actual paths start with something else."
+          # 基準となる日付を取得 (例: 7日前)
+          SINCE_DATE=$(date -d "7 days ago" +%Y-%m-%dT%H:%M:%SZ)
+          echo "Target since: $SINCE_DATE"
+
+          # 1. 検索クエリを使わず、直近のマージ済みPRを多めに取得 (100件)
+          # 2. jq で「指定の日付以降」かつ「src/pages/ を含む」ものを抽出
+          PR_DATA=$(gh pr list --base main --state merged --json number,title,url,mergedAt,files --limit 100 \
+            | jq -r --arg since "$SINCE_DATE" '
+              .[] | select(.mergedAt >= $since) 
+              | select(.files[].path | startswith("src/pages/")) 
+              | {number, title, url}' \
+            | jq -s 'unique_by(.number)')
+
+          COUNT=$(echo "$PR_DATA" | jq '. | length')
+          echo "Found $COUNT matching PRs."
+
+          if [ "$COUNT" -gt 0 ]; then
+            # Slack用メッセージ生成
+            PR_LIST=$(echo "$PR_DATA" | jq -r '.[] | "• <\(.url)|#\(.number)>: \(.title)"')
+            {
+              echo "PR_MESSAGE<<EOF"
+              echo "$PR_LIST"
+              echo "EOF"
+            } >> $GITHUB_ENV
           fi
+
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
   
       - name: Send Slack Notification
         uses: rtCamp/action-slack-notify@v2
