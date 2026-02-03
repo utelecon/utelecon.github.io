@@ -25,8 +25,19 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 1. 比較基準となる時刻（7日前）をUNIXタイムで取得
+          # 基準日の確認
           SINCE_UNIX=$(date -d "7 days ago" +%s)
+          echo "Threshold (Unix): $SINCE_UNIX"
+          echo "Threshold (Date): $(date -d @$SINCE_UNIX)"
+
+          # 直近のPRのマージ日時を表示
+          echo "--- Checking PR Dates ---"
+          gh pr list --base main --state merged --limit 5 --json number,mergedAt,title \
+            | jq -r '.[] | "PR #\(.number) merged at: \(.mergedAt) \t(Unix: \(.mergedAt | fromdateiso8601))"'          
+
+
+          # 1. 比較基準となる時刻（7日前）をUNIXタイムで取得
+          SINCE_UNIX=$(date -d "30 days ago" +%s)
           echo "Target since (Unix): $SINCE_UNIX"
 
           # 2. PRリストを取得し、jq内でUNIXタイムに変換して比較
