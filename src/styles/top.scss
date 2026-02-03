@@ -153,6 +153,9 @@
       background-color: revert;
       font-weight: revert;
       padding: 0;
+ 
+      font-size: inherit;
+      line-height: inherit;
 
       &:hover {
         box-shadow: revert;
