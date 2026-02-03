@@ -21,8 +21,11 @@ import altAddMethodWindow from "./alt_add_method_window.png";
   {props.methodSupplement}
   <If cond={props.selection === "「Microsoft Authenticator」"}>
     <ArrowOverlay image={altAddMethodWindow} x={630} y={460} />
-    <Fragment slot="else">
-      <Image src={altAddMethodWindow} alt="" />
-    </Fragment>
+  </If>
+  <If cond={props.selection === "「パスキー」"}>
+    <ArrowOverlay image={altAddMethodWindow} x={630} y={340} />
+  </If>
+  <If cond={props.selection === "登録したい種類の電話番号"}>
+    <Image src={altAddMethodWindow} alt="" />
   </If>
 </li>
