@@ -25,30 +25,14 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 過去7日間の日付を取得
-          SINCE_DATE=$(date -d "30 days ago" --iso-8601)
-          echo "Searching PRs merged since $SINCE_DATE..."
+          # 1. まず条件なしで直近のPRが取れるか確認
+          RAW_DATA=$(gh pr list --state merged --limit 5 --json number,title)
+          echo "Latest PRs: $RAW_DATA"
 
-          # マージされたPRを取得し、ファイルをフィルタリング
-          # jq内で直接、src/pagesを含むPRのみを抽出して整形
-          PR_DATA=$(gh pr list --base main --state merged --search "merged:>=$SINCE_DATE" --json number,title,url,files --limit 100 \
-            | jq -r '.[] | select(.files[].path | startswith("src/pages/")) | {number, title, url}' \
-            | jq -s 'unique_by(.number)')
-
-          COUNT=$(echo "$PR_DATA" | jq '. | length')
-          
-          if [ "$COUNT" -gt 0 ]; then
-            # Slack用メッセージの組み立て
-            PR_LIST=$(echo "$PR_DATA" | jq -r '.[] | "• <\(.url)|#\(.number)>: \(.title)"')
-            
-            {
-              echo "PR_MESSAGE<<EOF"
-              echo "$PR_LIST"
-              echo "EOF"
-            } >> $GITHUB_ENV
-          fi
-
-          echo "count=$COUNT" >> $GITHUB_OUTPUT
+          # 2. 変更ファイルの中身を生データで表示
+          # <PR_NUMBER> は実際にマージ済みの番号に書き換えてテスト
+          FILES=$(gh pr view <実際にマージしたPR番号> --json files -q '.files[].path')
+          echo "Files in PR: $FILES"
   
       - name: Send Slack Notification
         uses: rtCamp/action-slack-notify@v2
