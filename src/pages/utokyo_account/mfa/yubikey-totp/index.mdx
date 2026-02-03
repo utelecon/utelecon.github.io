@@ -6,6 +6,7 @@ breadcrumb:
 
 import { Image } from "astro:assets"
 import ArrowOverlay from "@components/utils/ArrowOverlay.astro"
+import SigninAnotherMethod from "@components/ja/mfa/common/SigninAnotherMethod.mdx";
 import AuthAppShowQr from "@components/ja/mfa/auth_app/ShowQr.mdx";
 import tabHome from "./tab_home.png";
 import tabAccount from "./tab_account.png";
@@ -14,6 +15,7 @@ import addAccount from "./add_account.png";
 import scanQr from "./scan_qr.png";
 import accountList from "./account_list.png";
 import firstEmail from "@components/ja/mfa/common/first_email.png";
+import signinEnterCode from "@components/ja/mfa/common/signin_enter_code.png";
 
 ## はじめに
 
@@ -78,10 +80,12 @@ Yubico AuthenticatorアプリをUTokyo Accountの多要素認証の本人確認�
 
 ## Yubico Authenticatorでのサインイン手順
 
-1. UTokyo Accountでサインイン時（パスワード入力後）に，デフォルトの本人確認方法で多要素認証の本人確認を行う画面が表示されますが，その画面で「問題がありますか? 別の方法でサインインする」あるいは「Microsoft Authenticator アプリを現在使用できません」というリンクを押してください．<br />
-※デフォルトの本人確認方法を「アプリベースの認証またはハードウェアトークン - コード」に設定している場合は初めから3.の画面が表示されるため，1.と2.の手順を省略して3.の手順を行ってください．
-![](signin_other_method.png)
-2. 「確認コードを使用する」を押してください．
-![](signin_select_totp.png)
-3. 「コードの入力」という入力欄が表示されるので，YubiKeyを接続した状態でYubico Authenticatorアプリを開いて6桁の数字を確認し，それを入力欄に入力してください．
-![](signin_enter_code.png)
+UTokyo Accountでサインイン時（パスワード入力後）に，デフォルトの本人確認方法で多要素認証の本人確認を行う画面が表示されますが，その画面で以下のように操作してください．
+
+<ol>
+  <SigninAnotherMethod method="「確認コードを使用する」" methodSupplement="※デフォルトの本人確認方法を「アプリベースの認証またはハードウェアトークン - コード」に設定している場合は初めから3.の画面が表示されるため，1. と2. の手順を省略して3. の手順を行ってください．" />
+  <li>
+    「コードの入力」という入力欄が表示されるので，YubiKeyを接続した状態でYubico Authenticatorアプリを開いて6桁の数字を確認し，それを入力欄に入力してください．
+    <figure class="gallery"><ArrowOverlay image={accountList} x={600} y={680} scale={0.8} /><Image src={signinEnterCode} alt="" /></figure>
+  </li>
+</ol>
