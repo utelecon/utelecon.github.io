@@ -6,6 +6,7 @@
 import { Image } from "astro:assets";
 import If from "@components/utils/If.astro"
 import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import altAddMethod from "./alt_add_method.png";
 import altAddMethodWindow from "./alt_add_method_window.png";
 
 <li>
@@ -13,13 +14,13 @@ import altAddMethodWindow from "./alt_add_method_window.png";
 </li>
 <li>
   「サインイン方法の追加」を押してください．
-  ![](./alt_add_method.png)
+  <ArrowOverlay image={altAddMethod} x={750} y={325} angle={180} />
 </li>
 <li>
   「サインイン方法の追加」欄で{props.selection}を押してください．
   {props.methodSupplement}
   <If cond={props.selection === "「Microsoft Authenticator」"}>
-    <ArrowOverlay image={altAddMethodWindow} x={420} y={290} />
+    <ArrowOverlay image={altAddMethodWindow} x={630} y={460} />
     <Fragment slot="else">
       <Image src={altAddMethodWindow} alt="" />
     </Fragment>
