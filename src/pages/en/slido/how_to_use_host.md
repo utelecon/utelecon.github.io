@@ -54,7 +54,7 @@ By hovering the cursor over each question/comment, the following buttons will ap
 * **Label (Tag icon)**: Since Slido updates the display every time a new question/comment is submitted, it is easy to lose track of items. By creating and attaching labels such as “Later” or “Important”, you can categorize and manage questions from students. Note that participants cannot see that the host has attached a label.
 
 By clicking on the ellipsis at the bottom right, you can see the options below:
-* **Select ☑︎**: Select questions/comments from students and perform actions such as labeling or archiving in bulk.
+* **Select**: Select questions/comments from students and perform actions such as labeling or archiving in bulk.
 * **Edit**: Edit questions/comments from students.
 * **Archive**: Archive questions/comments from students. The archived questions/comments are not visible to the students, but are always available to the teachers (select Archive above the tab). You can also retrieve the questions/comments from the archive by clicking the "Restore question" button.
 * **Delete**: Delete questions/comments from students.

@@ -37,9 +37,9 @@ In Slido, each room is called an "event". If you want to use Slido as a host, yo
 {:start="0"}
 
 ### Slido Account and License for UTokyo Members
-Slido can be used for free. However, you can use the paid features below by signing in with a UTokyo Webex account as Slido is linked to Webex .
+Slido can be used for free. However, you can use the paid features below by signing in with a UTokyo Webex account as Slido is linked to Webex.
 * **Moderation**: You can choose whether a question posted by a participant(student) will be visible to other students immediately or only after the host (lecturer) has reviewed the content. (In the free version, it will always be visible to other students immediately).
-**Replies**: You can choose whether only the host or both the host and students can reply to a posted question (in the free version, only the host can reply).
+* **Replies**: You can choose whether only the host or both the host and students can reply to a posted question (in the free version, only the host can reply).
 * **Poll/Survey**: You can embed polls in images and conduct polls with multiple questions.
 * **Export**: You can export (download) question data.
 
@@ -50,6 +50,6 @@ It is recommended to [sign in with a UTokyo Account](login/) when using Slido in
 
 * **[Basic Use and Practices of Slido](https://dalt.c.u-tokyo.ac.jp/wp-content/uploads/2019/02/KOMEX-DALT-Newsletter-201806.pdf)** (in Japanese): This article concerns the basic use and implementation of Slido in class. It is published in the Active Learning Newsletter of Division of Active Learning and Teaching, Komaba Organization for Educational Excellence (KOMEX), College of Arts and Sciences, UTokyo. 　
 * **[How to use Slido in class](https://dalt.c.u-tokyo.ac.jp/wp-content/uploads/2019/07/KOMEX-DALT-Newsletter-201907.pdf)** (in Japanese): This article exemplifies how Slido is adopted in two classes. It is published in the Active Learning Newsletter of Division of Active Learning and Teaching, Komaba Organization for Educational Excellence (KOMEX), College of Arts and Sciences, UTokyo.
-* **[Good Practice of Online Class / Professor Yuko Yoshimoto, Pychology I](/good-practice/interview/yotsumoto/)** (in Japanese): This article is about how anonymous questions and inquiries are received from students via Slido in a class of College of Arts and Sciences. Slido serves not only as a tool in class, but also as a means for student interaction.
+* **[Good Practice of Online Class / Professor Yuko Yoshimoto, Psychology I](/good-practice/interview/yotsumoto/)** (in Japanese): This article is about how anonymous questions and inquiries are received from students via Slido in a class of College of Arts and Sciences. Slido serves not only as a tool in class, but also as a means for student interaction.
 * **[Good Practice of Online Class / Professor Yosuke Tanaka, Anatomy III (Neurology)](/good-practice/interview/tanaka/)** (in Japanese): This article is about how anonymous questions and inquiries are collected in a class of the Faculty of Medicine.
 * **[Good Practice of Online Class / Professor Kayoko Kurita: Creating a "Place for Learning"](/good-practice/interview/kurita/)** (in Japanese): This article is about how anonymous questions and inquiries are managed in a class of the Faculty of Education.

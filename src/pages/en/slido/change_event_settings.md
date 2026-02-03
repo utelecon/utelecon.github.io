@@ -17,7 +17,7 @@ This page describes the settings that need to be checked, particularly when Slid
   * **Language**: You can set the language displayed to participants. To display in English, click "SHOW ADDITIONAL SETTINGS" under "Basic information", select "English (US)" from "Language", and save.
   * **Multiple rooms**: Multiple groups can be created within an event.
 * **Collaboration**
-  * **Add co-hosts** Co-hosts(members who comanage the event, similar to Zoom’s alternative host) can be added. When Slido is used in a class, it is recommended to set members, such as teaching assistants, as co-hosts.
+  * **Add co-hosts** Co-hosts (members who comanage the event, similar to Zoom’s alternative host) can be added. When Slido is used in a class, it is recommended to set members, such as teaching assistants, as co-hosts.
 * **Privacy**
   * **Hidden from search**: Users can prevent the site from showing up in search results, such as Google. It is recommended to turn this on when Slido is used in class.
   * **Require authentication**: Participants may be required to enter their names, email addresses, and event-specific passcodes to join an event.
