@@ -4,6 +4,9 @@ breadcrumb:
   title: FIDOセキュリティキーの利用方法
 ---
 
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import AltAddMethod from "@components/ja/mfa/common/AltAddMethod.mdx";
+
 <div class="box">2024年3月12日（予定）から，UTokyo Accountの多要素認証で<a href="/notice/2024/02-utac-auth-improvement/">さらに便利にFIDOセキュリティキーを利用できるようになります</a>．</div>
 
 ## はじめに
@@ -41,18 +44,24 @@ FIDOは，AndroidのFirefoxなど一部のOSとブラウザの組み合わせで
 
 FIDOセキュリティキーは，2個目以降の本人確認方法として登録することを前提としています．多要素認証を初めて利用する方は，[「UTokyo Account多要素認証の初期設定手順」の中の「手順1：1個目の本人確認方法を登録する」](/utokyo_account/mfa/initial/#first)の手順に従って1個目の本人確認方法を登録してから，追加の本人確認方法としてFIDOセキュリティキーを登録してください．
 
-1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info)にアクセスし，サインインしてください．
-2. 「サインイン方法の追加」を押してください．
-![](add_signin_method.png)
-3. 「方法を選択します」を押して，現れる選択肢から「セキュリティキー」を押し，「追加」を押してください．
-![](select_security_key.png)
-4. セキュリティキーの接続方法として，「USBデバイス」または「NFCデバイス」を選択するよう求められるので，該当する方のボタンを押してください．
-![](select_connection_method.png)
-5. 「キーの用意をしてください」という画面が表示されるので，「次へ」を押してください．
-![](prepare_key.png)
-6. 画面の指示に従って，セキュリティキーの設定を完了してください．具体的には，セキュリティキーの接続や，PINあるいは生体認証の設定，セキュリティキーのタップなどが求められます．
-7. セキュリティキーの設定が完了したら，セキュリティキーに名前を付けてください．
-![](name_security_key.png)
+<ol>
+  <AltAddMethod selection="「パスキー」" />
+  <li>
+    「Sign in faster with your face, fingerprint, or PIN」という画面が表示されるので，「次へ」を押してください．
+    ![](passkey_prompt.png)
+  </li>
+  <li>
+    画面が遷移し，「パスキーを設定しています」という画面が表示されるので，「次へ」を押してください（自動で 6. に進むこともあります）．
+    ![](passkey_setup.png)
+  </li>
+  <li>
+    画面の指示に従って，セキュリティキーの設定を完了してください．具体的には，セキュリティキーの接続や，PINあるいは生体認証の設定，セキュリティキーのタップなどが求められます．
+  </li>
+  <li>
+    セキュリティキーの設定が完了したら，セキュリティキーに名前を付けてください．
+    ![](name_security_key.png)
+  </li>
+</ol>
 
 ※FIDOセキュリティキーは「既定のサインイン方法」には設定できないため，別の本人確認方法を「既定のサインイン方法」に設定した上で，サインイン時に別の本人確認方法としてセキュリティキーを選択する必要があります．
 
