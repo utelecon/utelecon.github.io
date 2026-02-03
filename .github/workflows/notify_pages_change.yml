@@ -1,14 +1,12 @@
 name: Weekly Pages Update Digest
 
 on:
-  # テスト用に、現在の作業ブランチへのpushで動くようにする
   push:
     branches:
-      - feature/add-notification  # あなたの作業ブランチ名
-#  schedule:
-#    # 毎週月曜日の朝 9:00 (JST) = UTC 0:00 に実行
-#    - cron: '0 0 * * 1'
-  # 手動実行も可能にしておく（テスト用）
+      - feature/add-notification
+  schedule:
+    # 毎週月曜日の朝 9:00 (JST)
+    - cron: '0 0 * * 1'
   workflow_dispatch:
 
 jobs:
@@ -16,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pull-requests: read # PR情報の取得に必要
+      pull-requests: read
       
     steps:
       - name: Checkout code
@@ -27,80 +25,40 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 7日前の日付を取得 (UTC)
-          DATE=$(date -d "30 days ago" +%Y-%m-%d)
-          echo "Searching PRs merged since $DATE..."
+          # 過去7日間の日付を取得
+          SINCE_DATE=$(date -d "30 days ago" --iso-8601)
+          echo "Searching PRs merged since $SINCE_DATE..."
 
-          # 過去7日間にマージされたPRを取得
-          # src/pages/ を変更したものだけをフィルタリングしてリスト化
-          PR_LIST=""
-          COUNT=0
+          # マージされたPRを取得し、ファイルをフィルタリング
+          # jq内で直接、src/pagesを含むPRのみを抽出して整形
+          PR_DATA=$(gh pr list --base main --state merged --search "merged:>=$SINCE_DATE" --json number,title,url,files --limit 100 \
+            | jq -r '.[] | select(.files[].path | startswith("src/pages/")) | {number, title, url}' \
+            | jq -s 'unique_by(.number)')
+
+          COUNT=$(echo "$PR_DATA" | jq '. | length')
           
-          # ghコマンドでマージ済みPRを取得し、ループ処理
-          # --json で必要な情報のみ取得
-          PRS=$(gh pr list --base main --state merged --search "merged:>=$DATE" --json number,title,url --limit 100)
-          
-          # jqで各PRを処理（空の場合はスキップ）
-          if [ "$PRS" != "[]" ]; then
-            for row in $(echo "${PRS}" | jq -r '.[] | @base64'); do
-              _jq() {
-               echo ${row} | base64 --decode | jq -r ${1}
-              }
-              
-              PR_NUM=$(_jq '.number')
-              PR_TITLE=$(_jq '.title')
-              PR_URL=$(_jq '.url')
-              
-              # そのPRで変更されたファイルを取得し、src/pagesが含まれるか確認
-              FILES=$(gh pr view $PR_NUM --json files -q '.files[].path')
-              
-              if echo "$FILES" | grep -q "^src/pages/"; then
-                # リストに追加 (Slack用フォーマット: <URL|Text>)
-                PR_LIST="${PR_LIST}• <${PR_URL}|#${PR_NUM}>: ${PR_TITLE}\n"
-                COUNT=$((COUNT + 1))
-              fi
-            done
+          if [ "$COUNT" -gt 0 ]; then
+            # Slack用メッセージの組み立て
+            PR_LIST=$(echo "$PR_DATA" | jq -r '.[] | "• <\(.url)|#\(.number)>: \(.title)"')
+            
+            {
+              echo "PR_MESSAGE<<EOF"
+              echo "$PR_LIST"
+              echo "EOF"
+            } >> $GITHUB_ENV
           fi
 
-          echo "Found $COUNT PRs."
-          
-          # 環境変数として出力 (改行を含む文字列のセット方法)
-          {
-            echo "PR_MESSAGE<<EOF"
-            echo -e "$PR_LIST"
-            echo "EOF"
-          } >> $GITHUB_ENV
-          
-          # 件数を次のステップに渡す
           echo "count=$COUNT" >> $GITHUB_OUTPUT
   
-      # ケース1: 変更があった場合（件数 > 0）
-      # 色: 緑 (#36a64f)
-      - name: Send Slack Notification (Updates Found)
-        if: steps.collect-prs.outputs.count > 0
+      - name: Send Slack Notification
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL_CE }}
-          SLACK_CHANNEL: 'contens-english'
+          SLACK_CHANNEL: 'notify-update'
           SLACK_USERNAME: 'Weekly Pages Digest'
-          SLACK_ICON: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
-          SLACK_COLOR: '#36a64f'
+          SLACK_COLOR: ${{ steps.collect-prs.outputs.count > 0 && '#36a64f' || '#cccccc' }}
           SLACK_TITLE: 'Weekly Update: src/pages/'
           SLACK_MESSAGE: |
-            先週、src/pages/ に以下の変更がマージされました:
-            
-            ${{ env.PR_MESSAGE }}
-
-      # ケース2: 変更がなかった場合（件数 == 0）
-      # 色: グレー (#cccccc) - 落ち着いた色にして「異常なし」を表現
-      - name: Send Slack Notification (No Updates)
-        if: steps.collect-prs.outputs.count == 0
-        uses: rtCamp/action-slack-notify@v2
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL_CE }}
-          SLACK_CHANNEL: 'contens-english'
-          SLACK_USERNAME: 'Weekly Pages Digest'
-          SLACK_ICON: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
-          SLACK_COLOR: '#cccccc'
-          SLACK_TITLE: 'Weekly Update: src/pages/'
-          SLACK_MESSAGE: '先週、src/pages/ 配下の変更はありませんでした。'
+            ${{ steps.collect-prs.outputs.count > 0 
+                && format('先週、src/pages/ に以下の変更がマージされました:\n\n{0}', env.PR_MESSAGE) 
+                || '先週、src/pages/ 配下の変更はありませんでした。' }}
