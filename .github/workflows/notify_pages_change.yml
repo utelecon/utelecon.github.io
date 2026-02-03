@@ -30,8 +30,6 @@ jobs:
           # 設定: 集計期間 (通常は 7 days ago, テスト時は 30 days ago 等に変更可)
           # ---------------------------------------------------------
           SINCE_UNIX=$(date -d "7 days ago" +%s)
-          # ファイルリンク生成用にリポジトリのURLを定義
-          REPO_URL="https://github.com/$GITHUB_REPOSITORY"
           echo "Collecting PRs merged since (Unix): $SINCE_UNIX"
 
           # ---------------------------------------------------------
@@ -40,13 +38,12 @@ jobs:
           # 2. mergedAt を UNIXタイムに変換して数値比較し、期間判定を厳密に行う
           # 3. ファイルパスに src/pages/ が含まれるものだけを抽出
           # ---------------------------------------------------------
-
           PR_DATA=$(gh pr list --state merged --json number,title,url,mergedAt,files --limit 100 \
             | jq -r --argjson since "$SINCE_UNIX" '
               .[] | 
               select((.mergedAt | fromdateiso8601) >= $since) | 
               select(.files[].path | startswith("src/pages/")) | 
-              {number, title, url, files} ' \
+              {number, title, url}' \
             | jq -s 'unique_by(.number) // []')
 
           # 件数カウント
@@ -56,22 +53,9 @@ jobs:
 
           # 件数が1件以上あれば、環境変数にメッセージをセット
           if [ "$COUNT" -gt 0 ]; then
-            # ここで Slack 用の文字列を一気に整形します
-            # 1. PRごとにループ
-            # 2. その中の files を src/pages/ でフィルタリング
-            # 3. ファイルごとにインデント付きリンクを生成
-            PR_LIST=$(echo "$PR_DATA" | jq -r --arg repo_url "$REPO_URL" '
-              .[] | 
-              # フィルタリングしたファイルリストを作成
-              (.files | map(select(.path | startswith("src/pages/")))) as $targets |
-              
-              # PRの行を出力
-              "• <\(.url)|#\(.number)>: \(.title)\n" + 
-              
-              # ファイルの行を出力 (インデント + リンク)
-              ($targets | map("    - <\($repo_url)/blob/master/\(.path)|\(.path)>") | join("\n"))
-            ')
-
+            PR_LIST=$(echo "$PR_DATA" | jq -r '.[] | "• <\(.url)|#\(.number)>: \(.title)"')
+            
+            # シェル内なら普通に改行を書けば反映されます
             MESSAGE_CONTENT="先週、src/pages/ に以下の変更がマージされました：
 
           ${PR_LIST}"
