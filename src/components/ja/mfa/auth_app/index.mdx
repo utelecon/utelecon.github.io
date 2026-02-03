@@ -1,14 +1,7 @@
 import { Image } from "astro:assets";
 import If from "@components/utils/If.astro";
-import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
-import FirstAccess from "../common/FirstAccess.mdx";
 import FirstEmail from "../common/FirstEmail.mdx";
-import AltAddMethod from "../common/AltAddMethod.mdx";
-
-import firstMsAuth from "../common/first_ms_auth.png";
-import altMsAuth from "../common/alt_ms_auth.png";
-import firstQr from "./first_qr.png";
-import altQr from "./alt_qr.png";
+import AuthAppShowQr from "./ShowQr.mdx";
 
 {/**
   * @typedef {object} Props
@@ -16,28 +9,12 @@ import altQr from "./alt_qr.png";
   */}
 
 <ol>
-  <If cond={props.step === "alt"}>
-    <Fragment>
-      <AltAddMethod selection="「Microsoft Authenticator」" />
-      <li>
-        「別の認証アプリを設定する」というリンクを探して押してください．
-        <ArrowOverlay image={altMsAuth} x={680} y={800} />
-      </li>
-    </Fragment>
-    <Fragment slot="else">
-      <FirstAccess />
-      <li>
-        画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．
-        <ArrowOverlay image={firstMsAuth} x={300} y={597} />
-      </li>
-    </Fragment>
-  </If>
+  <AuthAppShowQr step={props.step} />
 
   <li>
-    画面の指示に従って進むとQRコードが表示されるので，お使いの認証アプリでQRコードを読み取り，設定を行ってください．
+    お使いの認証アプリでQRコードを読み取り，設定を行ってください．
 
     ※「YubiKey」と「Yubico Authenticator」アプリを使う場合の設定手順については，「[UTokyo Account多要素認証におけるYubico Authenticatorアプリの利用方法](/utokyo_account/mfa/yubikey-totp/)」をご覧ください．
-    <Image src={{ firstQr, altQr }[`${props.step}Qr`]} alt="" />
   </li>
 
   <If cond={props.step !== "alt"}>
