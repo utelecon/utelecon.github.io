@@ -49,19 +49,26 @@ jobs:
           # 件数カウント
           COUNT=$(echo "$PR_DATA" | jq '. | length')
           echo "Found $COUNT matching PRs."
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
 
           # 件数が1件以上あれば、環境変数にメッセージをセット
           if [ "$COUNT" -gt 0 ]; then
             PR_LIST=$(echo "$PR_DATA" | jq -r '.[] | "• <\(.url)|#\(.number)>: \(.title)"')
-            {
-              echo "PR_MESSAGE<<EOF"
-              echo "$PR_LIST"
-              echo "EOF"
-            } >> $GITHUB_ENV
+            
+            # シェル内なら普通に改行を書けば反映されます
+            MESSAGE_CONTENT="先週、src/pages/ に以下の変更がマージされました：
+
+          ${PR_LIST}"
+          else
+            MESSAGE_CONTENT="先週、src/pages/ 配下の変更はありませんでした。"
           fi
 
-          # 次のステップへ件数を渡す
-          echo "count=$COUNT" >> $GITHUB_OUTPUT
+          # 環境変数 RESULT_MESSAGE にセット
+          {
+            echo "RESULT_MESSAGE<<EOF"
+            echo "$MESSAGE_CONTENT"
+            echo "EOF"
+          } >> $GITHUB_ENV
   
       - name: Send Slack Notification
         uses: rtCamp/action-slack-notify@v2
@@ -74,7 +81,4 @@ jobs:
           SLACK_COLOR: ${{ steps.collect-prs.outputs.count > 0 && '#36a64f' || '#cccccc' }}
           SLACK_TITLE: 'Weekly Update: src/pages/'
           # 件数に応じてメッセージを切り替え
-          SLACK_MESSAGE: |
-            ${{ steps.collect-prs.outputs.count > 0 
-                && format('先週、src/pages/ に以下の変更がマージされました:\n\n{0}', env.PR_MESSAGE) 
-                || '先週、src/pages/ 配下の変更はありませんでした。' }}
+          SLACK_MESSAGE: ${{ env.RESULT_MESSAGE }}
