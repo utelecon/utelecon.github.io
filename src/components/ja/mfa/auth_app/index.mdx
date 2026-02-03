@@ -1,9 +1,12 @@
 import { Image } from "astro:assets";
 import If from "@components/utils/If.astro";
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
 import FirstAccess from "../common/FirstAccess.mdx";
 import FirstEmail from "../common/FirstEmail.mdx";
 import AltAddMethod from "../common/AltAddMethod.mdx";
 
+import firstMsAuth from "../common/first_ms_auth.png";
+import altMsAuth from "../common/alt_ms_auth.png";
 import firstQr from "./first_qr.png";
 import altQr from "./alt_qr.png";
 
@@ -17,15 +20,15 @@ import altQr from "./alt_qr.png";
     <Fragment>
       <AltAddMethod selection="「Microsoft Authenticator」" />
       <li>
-        「別の認証アプリを使用します」というリンクを探して押してください．
-        ![](./alt.png)
+        「別の認証アプリを設定する」というリンクを探して押してください．
+        <ArrowOverlay image={altMsAuth} x={680} y={800} />
       </li>
     </Fragment>
     <Fragment slot="else">
       <FirstAccess />
       <li>
         画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．
-        ![](./first.png)
+        <ArrowOverlay image={firstMsAuth} x={300} y={597} />
       </li>
     </Fragment>
   </If>

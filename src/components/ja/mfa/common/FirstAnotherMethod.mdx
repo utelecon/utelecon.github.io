@@ -1,3 +1,6 @@
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro"
+import firstMsAuth from "./first_ms_auth.png"
+
 {/**
   * @typedef {object} Props
   * @property {string} selection
@@ -5,7 +8,7 @@
 
 <li>
   画面の下の方にある「別の方法を設定します」というリンクを探して押してください．
-  ![](./first_another_method.png)
+  <ArrowOverlay image={firstMsAuth} x={300} y={700} angle={45} />
 </li>
 <li>
   「どの方法を使用しますか?」欄で{props.selection}を選び，「確認」を押してください．
