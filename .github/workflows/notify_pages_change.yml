@@ -25,14 +25,18 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 1. まず条件なしで直近のPRが取れるか確認
-          RAW_DATA=$(gh pr list --state merged --limit 5 --json number,title)
-          echo "Latest PRs: $RAW_DATA"
-
-          # 2. 変更ファイルの中身を生データで表示
-          # <PR_NUMBER> は実際にマージ済みの番号に書き換えてテスト
-          FILES=$(gh pr view <実際にマージしたPR番号> --json files -q '.files[].path')
-          echo "Files in PR: $FILES"
+          # 1829番のPRが持っているファイルパスを具体的に表示させる
+          echo "--- Files in PR #1829 ---"
+          gh pr view 1829 --json files -q '.files[].path'
+          
+          # 判定ロジックを通るかテスト
+          echo "--- Path Match Test ---"
+          FILES=$(gh pr view 1829 --json files -q '.files[].path')
+          if echo "$FILES" | grep -q "^src/pages/"; then
+            echo "Match found!"
+          else
+            echo "No match. Actual paths start with something else."
+          fi
   
       - name: Send Slack Notification
         uses: rtCamp/action-slack-notify@v2
