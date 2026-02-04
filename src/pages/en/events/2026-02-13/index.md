@@ -4,7 +4,7 @@ h1: "Feb. 13,2026: Workshop: UTokyo Azure Day（**Conducted in English**） "
 ---
 ![](banner.jpeg)
 
-[Updated Jan. 30, 2026]
+[Updated Feb. 4, 2026]
 
 ## Purpose of the Workshop
 
@@ -77,7 +77,7 @@ Please register using the **[Registration Form](https://forms.office.com/Pages/R
 |---------------|-----------------------------------------------------------------------|----------------------------------------------------------|
 | 12:30–13:00   | Reception                                                                  | ―                                                        |
 | 13:00–13:20   | UTokyo Azure Status Report<br>What is it? Who uses it and how? Where it stands? | Kenjiro Taura<br>(Executive Director and Vice President)   |
-| 13:20–13:50   | How to Use Popular Azure Services<br>Azure OpenAI Service Tutorial | Yoko Yamakata<br>(Information Technology Center / Professor) |
+| 13:20–13:50   | Building with Azure OpenAI Codex-5:<br>Deployment to VS Code Integration | Yoko Yamakata<br>(Information Technology Center / Professor) |
 | 13:50–14:20   | Intro to Microsoft Research Asia - Tokyo                                                                   | Yasuyuki Matsushita<br>(Microsoft Research Asia – Tokyo / Senior Director)                                                     |
 | 14:20–14:50   | Toward the Platform of Administrative Data<br> - Past, Present and Future -                   | Daiji Kawaguchi<br>(Graduate School of Public Policy / Professor) |
 | 14:50–15:05   | Break                                                                  | ―                                                        |
