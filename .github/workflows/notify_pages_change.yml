@@ -1,13 +1,9 @@
 name: Weekly Pages Update Digest
 
 on:
-  # テスト用に現在の作業ブランチへのpushで動作
-  push:
-    branches:
-      - feature/add-notification
   # 本番運用: 毎週月曜日の朝 9:00 (JST)
-#  schedule:
-#    - cron: '0 0 * * 1'
+  schedule:
+    - cron: '0 0 * * 1'
   workflow_dispatch:
 
 jobs:
