@@ -37,7 +37,7 @@ import alt from "./alt.png";
   </If>
 
   <li>
-    「どの電話番号を使用しますか?」欄は，適切な国番号（日本の場合は「Japan (+81)」）を選択してから，自分の電話番号を入力してください．また，<If cond={props.step === "alt"}>電話番号の種類として「電話」を選んだ場合は，</If>この電話番号を使って本人確認を行う方法として，「コードをSMSで送信する」と「電話する」のうちから好みの方を選んでください．
+    「どの電話番号を使用しますか?」欄は，適切な国番号（日本の場合は「<If cond={props.step === "first"}><Fragment>Japan</Fragment><Fragment slot="else">日本</Fragment></If> (+81)」）を選択してから，自分の電話番号を入力してください．また，<If cond={props.step === "alt"}>電話番号の種類として「電話」を選んだ場合は，</If>この電話番号を使って本人確認を行う方法として，<If cond={props.step === "first"}><Fragment>「コードをSMS送信する」と「電話する」</Fragment><Fragment slot="else">「コードのSMS送信」と「呼び出し」</Fragment></If>のうちから好みの方を選んでください．
     <Image src={{ first, alt }[props.step]} alt="" />
   </li>
   <If cond={props.step === "first"}>
