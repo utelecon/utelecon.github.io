@@ -1,6 +1,7 @@
 ---
 import { SEO, type Props as SEOProps } from "astro-seo";
 import GoogleAnalytics from "./GoogleAnalytics.astro";
+import MicrosoftClarity from "./MicrosoftClarity.astro";
 import Header from "./Header/index.astro";
 import Footer from "./Footer/index.astro";
 import Toc from "./Toc.astro";
@@ -82,6 +83,7 @@ const locale = {
 }[lang];
 
 const gaid = "G-ZM6H96EWBD";
+const clarityProjectId = "vat2444uow";
 
 const canonicalUrl = Astro.url;
 
@@ -132,6 +134,7 @@ const resolvedBreadcrumb =
     <SEO {...seoProps} />
 
     <GoogleAnalytics id={gaid} />
+    <MicrosoftClarity projectId={clarityProjectId} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#157878" />
     <meta
