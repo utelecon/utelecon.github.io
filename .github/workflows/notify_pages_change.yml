@@ -1,10 +1,14 @@
 name: Weekly Pages Update Digest
 
 on:
+  push:
+      branches:
+        - feature/add-notification
   # 本番運用: 毎週月曜日の朝 9:00 (JST)
   schedule:
     - cron: '0 0 * * 1'
   workflow_dispatch:
+  
 
 jobs:
   digest-notification:
@@ -48,8 +52,21 @@ jobs:
           echo "count=$COUNT" >> $GITHUB_OUTPUT
 
           # 件数が1件以上あれば、環境変数にメッセージをセット
+          # エスケープ処理もここで実施
           if [ "$COUNT" -gt 0 ]; then
-            PR_LIST=$(echo "$PR_DATA" | jq -r '.[] | "• <\(.url)|#\(.number)>: \(.title)"')
+            PR_LIST=$(gh pr list --state merged --json number,title,url,mergedAt,files --limit 100 \
+              | jq -r --argjson since "$SINCE_UNIX" '
+                .[] | 
+                select((.mergedAt | fromdateiso8601) >= $since) | 
+                select(.files[].path | startswith("src/pages/")) | 
+                {number, title, url}' \
+              | jq -s 'unique_by(.number) // []' \
+              | jq -r '.[] | 
+                # タイトル内の &, <, >, " をエスケープまたは置換する
+                (.title | gsub("&";"&amp;") | gsub("<";"&lt;") | gsub(">";"&gt;") | gsub("\"";"\\\"")) as $safe_title |
+                "• <\(.url)|#\(.number)>: \($safe_title)"'
+            )
+
             
             # シェル内なら普通に改行を書けば反映されます
             MESSAGE_CONTENT="先週、src/pages/ に以下の変更がマージされました：
