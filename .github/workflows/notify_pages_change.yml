@@ -1,0 +1,97 @@
+name: Weekly Pages Update Digest
+
+on:
+  push:
+      branches:
+        - feature/add-notification
+  # 本番運用: 毎週月曜日の朝 9:00 (JST)
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+  
+
+jobs:
+  digest-notification:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Collect Merged PRs for src/pages
+        id: collect-prs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # ---------------------------------------------------------
+          # 設定: 集計期間 (通常は 7 days ago, テスト時は 30 days ago 等に変更可)
+          # ---------------------------------------------------------
+          SINCE_UNIX=$(date -d "7 days ago" +%s)
+          echo "Collecting PRs merged since (Unix): $SINCE_UNIX"
+
+          # ---------------------------------------------------------
+          # PR取得とフィルタリング
+          # 1. --base を指定しないことで、デフォルトブランチ(master)を自動対象にする
+          # 2. mergedAt を UNIXタイムに変換して数値比較し、期間判定を厳密に行う
+          # 3. ファイルパスに src/pages/ が含まれるものだけを抽出
+          # ---------------------------------------------------------
+          PR_DATA=$(gh pr list --state merged --json number,title,url,mergedAt,files --limit 100 \
+            | jq -r --argjson since "$SINCE_UNIX" '
+              .[] | 
+              select((.mergedAt | fromdateiso8601) >= $since) | 
+              select(.files[].path | startswith("src/pages/")) | 
+              {number, title, url}' \
+            | jq -s 'unique_by(.number) // []')
+
+          # 件数カウント
+          COUNT=$(echo "$PR_DATA" | jq '. | length')
+          echo "Found $COUNT matching PRs."
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
+
+          # 件数が1件以上あれば、環境変数にメッセージをセット
+          # エスケープ処理もここで実施
+          if [ "$COUNT" -gt 0 ]; then
+            PR_LIST=$(gh pr list --state merged --json number,title,url,mergedAt,files --limit 100 \
+              | jq -r --argjson since "$SINCE_UNIX" '
+                .[] | 
+                select((.mergedAt | fromdateiso8601) >= $since) | 
+                select(.files[].path | startswith("src/pages/")) | 
+                {number, title, url}' \
+              | jq -s 'unique_by(.number) // []' \
+              | jq -r '.[] | 
+                # タイトル内の &, <, >, " をエスケープまたは置換する
+                (.title | gsub("&";"&amp;") | gsub("<";"&lt;") | gsub(">";"&gt;") | gsub("\"";"\\\"")) as $safe_title |
+                "• <\(.url)|#\(.number)>: \($safe_title)"'
+            )
+
+            
+            # シェル内なら普通に改行を書けば反映されます
+            MESSAGE_CONTENT="先週、src/pages/ に以下の変更がマージされました：
+
+          ${PR_LIST}"
+          else
+            MESSAGE_CONTENT="先週、src/pages/ 配下の変更はありませんでした。"
+          fi
+
+          # 環境変数 RESULT_MESSAGE にセット
+          {
+            echo "RESULT_MESSAGE<<EOF"
+            echo "$MESSAGE_CONTENT"
+            echo "EOF"
+          } >> $GITHUB_ENV
+  
+      - name: Send Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL_CE }}
+          SLACK_CHANNEL: 'notify-update'
+          SLACK_USERNAME: 'Weekly Pages Digest'
+          SLACK_ICON: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+          # 件数があれば緑(#36a64f)、なければグレー(#cccccc)
+          SLACK_COLOR: ${{ steps.collect-prs.outputs.count > 0 && '#36a64f' || '#cccccc' }}
+          SLACK_TITLE: 'Weekly Update: src/pages/'
+          # 件数に応じてメッセージを切り替え
+          SLACK_MESSAGE: ${{ env.RESULT_MESSAGE }}
