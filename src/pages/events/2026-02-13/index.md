@@ -4,7 +4,7 @@ h1: "2026/02/13ワークショップ：UTokyo Azure Day"
 ---
 ![](../../en/events/2026-02-13/banner.jpeg)
 
-[2026/02/04更新]
+[2026/02/09更新]
 
 ## 開催趣旨
 
@@ -63,7 +63,7 @@ UTokyo Azureをご利用中の方,これから使ってみたい方,教員・職
 
   
 ## 参加申込
-[**参加登録フォーム**](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)よりお申し込みください．
+参加登録は締め切りました．本学所属者は当日の聴講も受け付けますので、直接会場にお越しください.
 - **申込期限**：**<span style="color: red;">2026年2月9日(月)正午</span>**
 
 ## プログラム（予定）
