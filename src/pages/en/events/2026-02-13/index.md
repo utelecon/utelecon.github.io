@@ -4,7 +4,7 @@ h1: "Feb. 13,2026: Workshop: UTokyo Azure Day（**Conducted in English**） "
 ---
 ![](banner.jpeg)
 
-[Updated Feb. 4, 2026]
+[Updated Feb. 9, 2026]
 
 ## Purpose of the Workshop
 
@@ -66,7 +66,8 @@ If you wish to present a poster, please select **“Poster Presentation”** in 
 
 
 ## Registration
-Please register using the **[Registration Form](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)**.
+Registration has closed.
+Members of the University of Tokyo may still attend with on-site registration available. Please come directly to the venue.
 
 - **Deadline:** **Monday, February 9, 2026 (Noon)**  
 
