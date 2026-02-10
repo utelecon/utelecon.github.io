@@ -64,7 +64,9 @@ If you wish to present a poster, please select **“Poster Presentation”** in 
   - Upload URL:
   https://univtokyo.sharepoint.com/:f:/t/Teams.azure.adm/IgCG1YR5PuRjQL2VEbiGdITgATvQ1LzGwTJrgE1jCZwt5e8
 
-
+## Poster Presentations
+- [Poster Presentations (PDF)](poster_presentations.pdf)
+  
 ## Registration
 Registration has closed.
 Members of the University of Tokyo may still attend with on-site registration available. Please come directly to the venue.
