@@ -26,7 +26,11 @@ export default function redirect(): AstroIntegration {
           const { redirect_to, redirect_from } = file.data;
           const here =
             "/" +
-            relative(pages, file.path).replace(
+            // `path.relative()` returns platform-specific separators.
+            // Redirect routes must be URL paths, so normalize to POSIX.
+            relative(pages, file.path)
+              .replaceAll("\\", "/")
+              .replace(
               /(?:index)?\.(?:md|mdx|markdown|astro)$/,
               ""
             );
