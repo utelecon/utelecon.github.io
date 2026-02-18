@@ -1,7 +1,7 @@
 ---
-title: Download data saved on ECCS Cloud Email
+title: Downloading data saved on your ECCS Cloud Email Account
 breadcrumb:
-  title: download data
+  title: downloading data
 ---
 
 This page explains how to download data stored on your ECCS Cloud Email account all at once.
