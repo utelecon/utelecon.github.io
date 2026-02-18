@@ -40,7 +40,7 @@ After launching the app, you may be able to join the meeting immediately, or add
 ![](zoom_join_signin.png){:.border .small}
 - If a screen prompting "Enter meeting passcode" appears, enter the passcode.
 - If prompted to connect to audio after joining the meeting, adjust your audio settings and click "Join with computer audio".
-![](zoom_join_app_audio.png){:.small}
+![](zoom_join_audio_setup.png){:.small}
 
 #### Using the Browser
 {:#procedure-browser}
