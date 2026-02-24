@@ -4,6 +4,10 @@ breadcrumb:
   title: FIDOセキュリティキーの利用方法
 ---
 
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import AltAddMethod from "@components/ja/mfa/common/AltAddMethod.mdx";
+import SigninAnotherMethod from "@components/ja/mfa/common/SigninAnotherMethod.mdx";
+
 <div class="box">2024年3月12日（予定）から，UTokyo Accountの多要素認証で<a href="/notice/2024/02-utac-auth-improvement/">さらに便利にFIDOセキュリティキーを利用できるようになります</a>．</div>
 
 ## はじめに
@@ -41,27 +45,36 @@ FIDOは，AndroidのFirefoxなど一部のOSとブラウザの組み合わせで
 
 FIDOセキュリティキーは，2個目以降の本人確認方法として登録することを前提としています．多要素認証を初めて利用する方は，[「UTokyo Account多要素認証の初期設定手順」の中の「手順1：1個目の本人確認方法を登録する」](/utokyo_account/mfa/initial/#first)の手順に従って1個目の本人確認方法を登録してから，追加の本人確認方法としてFIDOセキュリティキーを登録してください．
 
-1. [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info)にアクセスし，サインインしてください．
-2. 「サインイン方法の追加」を押してください．
-![](add_signin_method.png)
-3. 「方法を選択します」を押して，現れる選択肢から「セキュリティキー」を押し，「追加」を押してください．
-![](select_security_key.png)
-4. セキュリティキーの接続方法として，「USBデバイス」または「NFCデバイス」を選択するよう求められるので，該当する方のボタンを押してください．
-![](select_connection_method.png)
-5. 「キーの用意をしてください」という画面が表示されるので，「次へ」を押してください．
-![](prepare_key.png)
-6. 画面の指示に従って，セキュリティキーの設定を完了してください．具体的には，セキュリティキーの接続や，PINあるいは生体認証の設定，セキュリティキーのタップなどが求められます．
-7. セキュリティキーの設定が完了したら，セキュリティキーに名前を付けてください．
-![](name_security_key.png)
+<ol>
+  <AltAddMethod selection="「パスキー」" />
+  <li>
+    「Sign in faster with your face, fingerprint, or PIN」という画面が表示されるので，「次へ」を押してください．
+    ![](passkey_prompt.png)
+  </li>
+  <li>
+    画面が遷移し，「パスキーを設定しています」という画面が表示されるので，「次へ」を押してください（自動で 6. に進むこともあります）．
+    ![](passkey_setup.png)
+  </li>
+  <li>
+    画面の指示に従って，セキュリティキーの設定を完了してください．具体的には，セキュリティキーの接続や，PINあるいは生体認証の設定，セキュリティキーのタップなどが求められます．
+  </li>
+  <li>
+    セキュリティキーの設定が完了したら，セキュリティキーに名前を付けてください．
+    ![](name_security_key.png)
+  </li>
+</ol>
 
 ※FIDOセキュリティキーは「既定のサインイン方法」には設定できないため，別の本人確認方法を「既定のサインイン方法」に設定した上で，サインイン時に別の本人確認方法としてセキュリティキーを選択する必要があります．
 
 ## FIDOセキュリティキーでのサインイン方法
 
-1. UTokyo Accountでサインイン時（パスワード入力後）にデフォルトの本人確認方法で多要素認証の本人確認を行う画面が表示されますが，その画面で「問題がありますか? 別の方法でサインインする」あるいは「Microsoft Authenticator アプリを現在使用できません」というリンクを押してください．
-![](signin_other_method.png)
-2. 別の本人確認方法を選択する画面が表示されるので，「セキュリティ キーを使用する」を押してください．
-![](signin_security_key.png)
-3. 画面の指示に従って，PINの入力あるいは生体認証，セキュリティキーのタップなどを行った後，サインインが完了します．
+UTokyo Accountでサインイン時（パスワード入力後）に，デフォルトの本人確認方法で多要素認証の本人確認を行う画面が表示されますが，その画面で以下のように操作してください．
+
+<ol>
+  <SigninAnotherMethod method="「顔、指紋、PIN、またはセキュリティ キー」" />
+  <li>
+    画面の指示に従って，PINの入力あるいは生体認証，セキュリティキーのタップなどを行った後，サインインが完了します．
+  </li>
+</ol>
 
 ※サインインがうまくいかない場合は，FIDOが使えないOS・ブラウザの組み合わせである可能性があります．詳細は，「[一部のOS・ブラウザでは使えません](#unsupported-os-browser)」の節を参照してください．
