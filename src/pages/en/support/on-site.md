@@ -1,6 +1,5 @@
 ---
 title: Support via On-site
-support: true
 breadcrumb:
   title: On-site
 ---
