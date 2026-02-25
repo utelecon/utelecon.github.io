@@ -8,8 +8,8 @@ To host an event, you are required to log into Slido. Login is not necessary if 
 
 Login is possible with your personal account, but logging in with your UTokyo Account allows you to use Slido’s paid functions. The following are steps to log in with your UTokyo Account: (※If you have not used your UTokyo Account yet, please check "[How to start Using UTokyo Account](/en/utokyo_account/#procedures)" first.)
 
-1. Go to the [official website](https://www.sli.do/). <img src="img/slido_top_page_en.png"> 
-2. Click “Log in” in the upper right corner of the screen. Then click “Log in with Webex.” You will not use the “Your email” field on this screen. <img src="img/login01.png"> 
-3. After the Webex sign-in screen opens, enter UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`). <img src="img/login02.png"> 
+1. Go to the [official website](https://www.sli.do/). <img src="img/slido_top_page_en.png" class="border"> 
+2. Click “Log in” in the upper right corner of the screen. Then click “Log in with Webex.” You will not use the “Your email” field on this screen. <img src="img/login01.png" class="border"> 
+3. After the Webex sign-in screen opens, enter UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`). <img src="img/login02.png" class="border"> 
 4. Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
-5. If you see “The University of Tokyo” in the top left corner of the screen, you have successfully logged into Slido with your UTokyo Account. <img src="img/slido_main.png">
+5. If you see “The University of Tokyo” in the top left corner of the screen, you have successfully logged into Slido with your UTokyo Account. <img src="img/slido_main.png" class="border">
