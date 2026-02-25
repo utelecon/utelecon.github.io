@@ -7,5 +7,5 @@
   2. Select "Login Items & Extensions" in "General" in "System Settings".
   3. When "Cisco Secure Client - AnyConnect VPN Service" in "App Background Activity" (or "Allow Apps to Run in the Background") is disalbled, please enable "Cisco Secure Client - AnyConnect VPN Service" (click the toggule to the right of the item name and it turns blue).
 
-  <div></div>
+  <div>If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.</div>
 </details>
