@@ -17,7 +17,7 @@ In Slido, the Q&A feature allows students to freely send questions and comments.
 To create a Q&A, select “Audience Q&A” in the upper left corner of the screen or under “Add new interaction”.
 
 <figure>
-<img src="img/slido11.png">
+<img src="img/slido11.png" class="border">
 </figure>
 
 ### Q&A Settings
@@ -31,8 +31,8 @@ Clicking “Q&A settings” in the top right corner of the Q&A screen allows you
 * **Downvotes**: Students can downvote questions to express disagreement. Note that the “Like” (upvote) feature is always enabled.
 
 <figure>
-<img src="img/slido21.png">
-<img src="img/slido22.png">
+<img src="img/slido21.png" class="border">
+<img src="img/slido22.png" class="border">
 </figure>
 
 ### Checking Students’ Questions
@@ -43,7 +43,7 @@ By default, the questions and comments are displayed in descending order of the 
 You can also sort by “Recent”: sort posts from newest to oldest. Just select the up/down arrows (“⇅” icon) at the top right of the screen.
 
 <figure>
-<img src="img/slido19.png">
+<img src="img/slido19.png" class="border">
 </figure>
 
 By hovering the cursor over each question/comment, the following buttons will appear and you can make an action to the question/comment. <img src="img/post.png" class="medium">
@@ -68,7 +68,7 @@ If you click **Archive** at the top right of the screen, a list of archived ques
 In Slido, the polls feature allows teachers to ask questions/quizzes to students.
 
 <figure>
-<img src="img/slido1.png">
+<img src="img/slido1.png" class="border">
 </figure>
 
 (1) Event name and date<br>
@@ -94,6 +94,6 @@ There are six types of single questions and a Survey, which allows you to run th
 
 ### Managing Your Polls
 
-The created polls will be displayed on both the left and right side of the screen. On the left side of the screen, all polls you have created will be displayed. On the right side of the screen, the votes displayed to participants will be shown. To stop displaying polls to participants, click the red button displayed on the left side of the screen. <img src="img/slido9.png">
+The created polls will be displayed on both the left and right side of the screen. On the left side of the screen, all polls you have created will be displayed. On the right side of the screen, the votes displayed to participants will be shown. To stop displaying polls to participants, click the red button displayed on the left side of the screen. <img src="img/slido9.png" class="border">
 
-When you click the red button, polls displayed on the right side of the screen will disappear. If you want to make the polls visible to participants again, click the green button (which was originally red) on the left side of the screen. <img src="img/slido10.png">
+When you click the red button, polls displayed on the right side of the screen will disappear. If you want to make the polls visible to participants again, click the green button (which was originally red) on the left side of the screen. <img src="img/slido10.png" class="border">
