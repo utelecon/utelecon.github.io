@@ -1,5 +1,5 @@
 <details>
   <summary>
-    Troubleshooting guide:  
+    Troubleshooting guide: When the message
   </summary>
 </details>
