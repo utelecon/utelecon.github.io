@@ -1,5 +1,5 @@
 <details>
   <summary>
-    Troubleshooting: 
+    Troubleshooting guide:  
   </summary>
 </details>
