@@ -1,6 +1,5 @@
 ---
 title: 対面で相談する
-support: true
 breadcrumb:
   title: 対面
 ---
