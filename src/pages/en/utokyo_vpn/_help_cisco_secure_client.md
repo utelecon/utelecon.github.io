@@ -1,5 +1,5 @@
 <details>
   <summary>
-    Help: 
+    Troubleshooting: 
   </summary>
 </details>
