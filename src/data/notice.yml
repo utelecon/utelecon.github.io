@@ -21,12 +21,16 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-02-25
+  content:
+    ja: "3/16 15:30から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2026-03-16/)」を開催いたします．"
+    en: "On March 16, an information session titled **\"[Information Session on ICT Systems and Tools for UTokyo Members](/events/2026-03-16/)\"** will be held at 15:30. This session will be **conducted in Japanese**."
+  important: true
+-
   date: 2026-01-30
   content:
     ja: "[次期教育用計算機システム(ECCS2026)でのプリンタプリペイドカードについて](/notice/2025/1204-eccs-printer) "
-    en: "[Printer prepaid cards for the Next generation of Educational Campus-wide Computing System (ECCS2026) (in Japanese only)](/notice/2025/1204-eccs-printer) "  
-    
-
+    en: "[Printer prepaid cards for the Next generation of Educational Campus-wide Computing System (ECCS2026) (in Japanese only)](/notice/2025/1204-eccs-printer) "
 -
   date: 2026-01-27
   content:
@@ -111,8 +115,8 @@
   content:
     ja: "[PC端末初期セットアップガイド (PDF)](/notice/2025/device_initial_setup_guide_2025a.pdf) を更新しました．"
     en: "[PC Initial Setup Guide (PDF)](/notice/2025/device_initial_setup_guide_2025a.pdf) has updated.(in Japanese)"
-- 
-  date: 2025-08-21 
+-
+  date: 2025-08-21
   content:
     ja: "[2025年度Aセメスター科目のUTOL履修確定日の取り扱いについて](/notice/2025/0821-utol-2025a-rikaku/)"
     en: "[Handling of the 2025 Academic Year A Semester Courses on UTOL](/en/notice/2025/0821-utol-2025a-rikaku/)"
@@ -165,15 +169,15 @@
   date: 2025-03-28
   content:
     ja: "3/26 14:30から[教育用計算機システム(ECCS)のシステム利用説明会を開催しました](/notice/2025/0326-eccs-seminar)"
--  
+-
    date: 2025-03-26
    content:
     ja: "[UTOLの「更新通知」や「お知らせ・メッセージ通知」をLINEで受け取る機能の更新について](/notice/2025/0326-utol-notification-line)"
     en: "[Updates to the feature for receiving UTOL update notifications and announcements/message notifications via LINE (in Japanese)](/notice/2025/0326-utol-notification-line)"
--  
+-
    date: 2025-02-20
    content:
-    ja: "PC端末初期セットアップガイドを公開しました.[PC端末初期セットアップガイド (PDF)](/notice/2025/device_initial_setup_guide.pdf)"    
+    ja: "PC端末初期セットアップガイドを公開しました.[PC端末初期セットアップガイド (PDF)](/notice/2025/device_initial_setup_guide.pdf)"
 -
    date: 2025-02-19
    content:
@@ -633,11 +637,11 @@
   content:
     ja: "[UTokyo Account利用者メニューのメンテナンス(2022/6/6)](/notice/2022/0606-account)"
     en: "[Maintenace on UTokyo Account User Menu (June 6, 2022)](/en/notice/2022/0606-account)"
-- 
+-
   date: 2022-05-22
   content:
     ja: "[クラスサポーター制度受付終了日について](/supporters/class_2022)"
-- 
+-
   date: 2022-05-20
   content:
     ja: "[UTokyo VPN のメンテナンス(2022/5/27)](/notice/2022/0527-vpn)"
