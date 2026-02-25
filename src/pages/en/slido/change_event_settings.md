@@ -7,8 +7,8 @@ breadcrumb:
 When [Slido is used with a University of Tokyo account](../login/), users are eligible for advanced event settings that are unavailable in free accounts.
 The settings can be changed by selecting “Settings” in the upper-left corner of the event host’s screen. The host screen can be accessed from the [event list page](https://admin.sli.do/events).
 
-<img src="img/settings.png">
-<img src="img/settings_details.png">
+<img src="img/settings.png" class="border">
+<img src="img/settings_details.png" class="border">
 
 This page describes the settings that need to be checked, particularly when Slido is used in class.
 
