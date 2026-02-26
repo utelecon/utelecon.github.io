@@ -11,9 +11,9 @@ breadcrumb:
 
 UTOL has a feature that allows you to send (forward) notifications to external services such as email, LINE, UTokyo Slack, etc. By setting up notifications to services you use regularly, you will be able to stay informed immediately when assignments or announcements are added.
 
-There are two types of notifications that can be sent: “Updates notification” and “Information notices and Messages”.
+There are two types of notifications that can be sent: “Updates information” and “Information/Message Notifications”.
 
-### Updates notification
+### Updates information
 
 - This notifies you **when there are updates** to courses you are registered for.
 - **Only the title** of the update will be sent. You can view details by accessing UTOL through the link attached to the notification.
@@ -25,15 +25,15 @@ There are two types of notifications that can be sent: “Updates notification�
   - **Day and period**
   - **Course title**
   - **Course instructor name**
-  - **Update details**
+  - **Update Contents**
   - **URL of the updates** (Slack only)
 
 A sample text of an update notification is shown below
 
 ```txt
 Day,Period: Mon 1
-Course: (Course)
-Faculty: (Faculty)
+Course: (Course Title)
+Faculty: (Faculty Name)
 Updated Contents:
 The notifications (Title of Notification) was added.(2025/10/22 20:01)
 https://utol.ecc.u-tokyo.ac.jp/lms/course?idnumber=XXXX
@@ -68,10 +68,10 @@ You can select multiple destinations for notifications and configure different s
 
 A brief comparison of the available destinations is shown below.
 
-| Destination       | Updates notification | Information/Message Notifications | Details of destination        |
+| Destination       | Updates information | Information/Message Notifications | Details of destination        |
 | :----------- | :------- | :----------------------- | :-------------------------------------------------------------- |
 | Email       | ◯        | ◯                        | Any email addresses                                            |
-| LINE         | △ (※1)        | ◯                        | Individual chat room with "東京大学UTOL" (Slack App)               |
+| LINE         | △ (※1)        | ◯                        | Individual chat room with "東京大学UTOL" (LINE official account)               |
 | UTokyo Slack | ◯        | ×                        | Direct messages with UTOL通知" (Slack App)              |
 
 ※1. When forwarding to LINE, the "Instant transfer" of update information for assignments, course materials, quizzes, surveys, and forums are not available. Only the "Redirecting all information once a day" option is available (you can also select "Do not forward").
@@ -87,26 +87,24 @@ This section explains the initial setup procedures to enable notifications to be
   <figure class="gallery">![個人設定を開く（デスクトップ）](./personal-setting-open-desktop.png){:.center}![個人設定を開く（モバイル）](./personal-setting-open-mobile.png){:.center}</figure>
 2. In the "Email" section, select an email address or enter the email address where you would like to receive notifications.
     - "Linked e-mail address"
-      - For students: The email address registered as "E-MAIL1" in UTAS will be displayed.
-        - You can confirm this email address in UTAS by accessing "Student Information" > "View University Registry Information" > "Student Personal Information" > "Current Address Information".
+      - For students: The email address registered as "E-MAIL 1" in UTAS will be displayed.
+        - You can confirm this email address in UTAS by accessing "Student Info" > "View University Registry Information" > "Student Personal Information" > "Current Address Information".
       - For faculty: The email address registered in the Personnel Information System will be displayed.    
 
     - "Manually registered e-mail address" 
       - You can register any email address manually.
-3. Scroll down to the bottom of the screen, then click the "Confirm" button.
+3. Scroll down to the bottom of the screen, then click the "Proceed to the Confirmation Screen/Confirm" button.
   ![確認画面に進む](./notification-range-all.png){:.center}
-4. When the "Confirm Personal Setting" screen opens, review the settings and click the 
-"Submit/Register" button
+4. When the "Confirm Personal Setting" screen opens, review the settings and click the "Submit/Register" button.
   ![個人設定確認](./personal-setting-confirm.png){:.center}
-5. 
-The "Complete personal setting" screen will appear. If you received a message stating "Settings have been completed. A confirmation Email has been sent to the email address you set. Please check whether or not the e-mail addresses you set is correct if the emails are not received even after a while.", your setup was successful.
+5. The "Complete personal setting" screen will appear. If you received a message stating "Settings have been completed. A confirmation Email has been sent to the email address you set. Please check whether or not the e-mail addresses you set is correct if the emails are not received even after a while.", your setup was successful.
 6. Please make sure that the confirmation email has been received by the email address you specified.
     <details>
     <summary>If you do not receive the confirmation email</summary>
 
     - Please check that the email address you entered is correct.
-    - **Please check your spam mail folder as the email may have been filtered as spam.
-      - In addition, if you are using an email filter, please also check that the sender's email address of no-reply@utol-mail.ecc.u-tokyo.ac.jp is not being blocked.
+    - Please check your spam mail folder as the email may have been filtered as spam.
+      - In addition, if you are using an email filter, please also check that the sender's email address of `no-reply@utol-mail.ecc.u-tokyo.ac.jp` is not being blocked.
     </details>
 7. Follow the steps under "[Set notification scope](#notification-range)" to set the notification destinations and content.
     - If you do not complete this setting, **no notification will be sent by default**.
@@ -139,7 +137,7 @@ To complete the following steps, a mobile device with the LINE App installed is 
 
     ![](./line-reissue.png){:.small}
     </details>
-6. Please make sure the message "LINE is now linked with 東京大学UTOL" has been displayed.
+6. Please make sure the message "LINE is now linked with 東京大学UTOL." has been displayed.
   ![](./line-integration-success.jpg){:.center.small.border}
 7. Follow the steps under "[Set notification scope](#notification-range)" to set the notification destinations and content.
     - If you do not complete this setting, **no notification will be sent by default**.
@@ -147,19 +145,19 @@ To complete the following steps, a mobile device with the LINE App installed is 
 ### To receive via UTokyo Slack
 
 - You must meet the requirements for using UTokyo Slack in advance.
-  -  For more details, please refer to the[UTokyo Slack page](/en/slack/).
+  -  For more details, please refer to the [UTokyo Slack page](/en/slack/).
 - If you use Slack, you will not be able to receive the contents of the "Notification" and "Message" (Information notices and messages).
 - Notification will be sent via direct message from "UTOL通知" (Slack App). You can view these direct messages by opening the "UTOL通知" in the Apps menu.
   ![](./slack-app-list.png){:.center}
 
 #### Step1: Join the "UTOL通知" workspace
 
-1. Open the "Workspaces at UTokyo Slack" and follow Procedures 1 to 5 in [Joining an open workspace in UTokyo Slack](/slack/join/#procedure)".
-2. Type "UTOL" or "UTOL<mark> </mark>通知" (Note: include a half-width space) in the search box at the top, and select "UTOL通知" from the search results.
+1. Open the "Workspaces at UTokyo Slack" and follow Procedures 1 to 5 in [Joining an open workspace in UTokyo Slack](/en/slack/join/#procedure)".
+2. Type "UTOL" or "UTOL<mark> </mark>通知" (Note: include a half-width space) in the search box at the top, and select "UTOL 通知" from the search results.
   ![](./slack-ws-search.png)
-3. Once the list is narrowed down to "UTOL通知", then click the "View Details"
+3. Once the list is narrowed down to "UTOL 通知", then click the "View details"
   ![](./slack-ws-search-result.png)
-4. Review the workspace description, and click "Join and lLaunch Slack"
+4. Review the workspace description, and click "Join and launch Slack".
   ![](./slack-ws-detail.png){:.center}
 5. After joining Slack, the workspace screen will appear. Open the drop-down list shows workspace name in the top left and confirm that "UTOL通知" appears in the list of workspaces.
   ![ワークスペース一覧](./slack-ws-list.png){:.center}
@@ -180,9 +178,9 @@ To complete the following steps, a mobile device with the LINE App installed is 
 
 This section explains how to configure the notification scope (specifying which destination to send to, what type of notifications to send, and how frequently to send them) for each destination.
 
-Settings can be configured separately for [Updates notification](#update-notification-range) (**title only**), and [Information/Message Notifications](#message-notification-range) (information notice and message **content**). However, setup options available differ between the two.
+Settings can be configured separately for [Updates information](#update-notification-range) (**title only**), and [Information/Message Notifications](#message-notification-range) (information notice and message **content**). However, setup options available differ between the two.
 
-- Updates notification: destination, type, and frequency
+- Updates information: destination, type, and frequency
 - Information/Message Notifications: **destination only**
 
 ### Update information
@@ -193,10 +191,10 @@ This section explains how to configure the destinations, type, and frequency of 
 - **Destination**
   - You can configure settings individually for "Email", "LINE", and "UTokyo Slack".
 - **Type**
-  - You can select from seven types of notifications: "Message", "Information notices", "Report", "Material", "Test", "Survey", and "Forum"
+  - You can select from seven types of notifications: "Message", "Information", "Report", "Material", "Test", "Survey", and "Forum".
 - **Frequency**
   - You can choose one from the following options: "Do not forward", "Instant transfer", and "Redirecting all information once a day".
-    - However, if LINE is selected as the destination, "Instant transfer" is not available for sending update information related to "Report", "Material", "Test", "Survey", and "Forum"
+    - However, if LINE is selected as the destination, "Instant transfer" is not available for sending update information related to "Report", "Material", "Test", "Survey", and "Forum".
 
 In addition to [the overall UTOL common updates notification settings](#update-notification-range-all), you can also [configure updates notification individually for each course](#update-notification-range-per-course). This is useful if you "prefer to receive updates notification via Slack for specific important courses only".
 
@@ -209,7 +207,7 @@ The following explains both [the common (overall UTOL) settings](#update-notific
   <figure class="gallery">![個人設定を開く（デスクトップ）](./personal-setting-open-desktop.png){:.center}![個人設定を開く（モバイル）](./personal-setting-open-mobile.png){:.center}</figure>
 2. Move to the "Updates information" > "Update information email/UTokyo Slack/LINE forwarding settings"
   ![全体設定](./notification-range-all.png){:.center}
-    - "Updates notification"
+    - "Updates information"
       - Select whether or not to send updates notification.
     - "Updates information Email/LINE/Slack Forwarding settings"
       - Select the frequency for each destination and type of updates notification from the dropdown list.
@@ -217,7 +215,6 @@ The following explains both [the common (overall UTOL) settings](#update-notific
 4. When the "Personal Settings" confirmation screen appears, review your settings, and click "Submit/Register".
   ![個人設定確認](./personal-setting-confirm.png){:.center}
 5. The "Personal Settings Completed" screen will appear. If you have received a message "Settings have been completed. Confirmation Email is sent to Email address you set. Please check whether e-mail adresses you set is coreect if mails are not sent even after a while.", your setup was successful.
-
 
 #### Settings for each course
 {:#update-notification-range-per-course}
@@ -230,16 +227,14 @@ Warning: If you modify [the overall UTOL settings](#update-notification-range-al
 3. Select your preferred sending frequency for each type of updates notification and destination from the dropdown list.
   ![通知の種類ごとに送信頻度を選択](./notification-range-per-course-mail.png){:.center}
 4. Once you have made your selection, click "Proceed to the Confirmation Screen".
-Review your settings, click "Submit".
-
-5. The "Complete personal setting" will appear. If you see the "Settings have been completed" message, your setup was successful.
+5. Review your settings, click "Submit".
   ![コースごとの送信頻度登録](./notification-range-per-course-mail-confirm.png){:.center}
-6. 「個人設定完了」画面が開きます．「設定が完了しました」と表示されていれば問題ありません．
+6. The "Complete personal setting" will appear. If you see the "Settings have been completed" message, your setup was successful.
 
 ### Information/Message Notifications
 {:#message-notification-range}
 
-This section explains how to set where "Information notices and messages" are sent.
+This section explains how to set where "Information/Message Notifications" are sent.
 
 1. Open the "Settings" screen from the menu at the top of the screen.
   <figure class="gallery">![個人設定を開く（デスクトップ）](./personal-setting-open-desktop.png){:.center}![個人設定を開く（モバイル）](./personal-setting-open-mobile.png){:.center}</figure>
@@ -249,8 +244,7 @@ This section explains how to set where "Information notices and messages" are se
 4. When the "Personal Settings" confirmation screen appears, review your settings, and click "Submit/Register".
   ![個人設定確認](./personal-setting-confirm.png){:.center}
 5. The "Personal Settings Completed" screen will appear. If you have received a message "Settings have been completed
-Confirmation Email is sent to Email address you set.
-Please check whether e-mail adresses you set is coreect if mails are not sent even after a while.", your setup was successful.
+Confirmation Email is sent to Email address you set. Please check whether e-mail adresses you set is coreect if mails are not sent even after a while.", your setup was successful.
 
 
 
@@ -274,7 +268,7 @@ Please check whether e-mail adresses you set is coreect if mails are not sent ev
 
 ### LINE
 
-If you block "東京大学UTOL" or remove it from your friends list, notifications will automatically be disabled.
+If you block "東京大学 UTOL" or remove it from your friends list, notifications will automatically be disabled.
 
 #### Blocking
 
