@@ -1,3 +1,0 @@
-<summary>
-  ヘルプ：
-</summary>
