@@ -201,7 +201,7 @@ LINE OpenChat is a feature of the LINE messaging app that allows users to create
 
 ### Gather
 Gather is a conference tool with a playful retro-game style UI. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
-- **[Gather (external site)](https://www.gather.town/)**: The official Gather site．
+- **[Gather (external site)](https://www.gather.town/)**: The official Gather site.
 - **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/#gather)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Gather.
 
 ### Remo
