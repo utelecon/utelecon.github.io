@@ -11,7 +11,6 @@ redirect_from:
   - /en/eccs/misc/keychain/
   - /en/eccs/misc/mac-initialize-profile/
   - /en/eccs/misc/online-meeting/
-  - /en/eccs/features/printing/ipp-windows/_add_printer/
   - /en/eccs/features/printing/ipp-windows/
   - /en/eccs/features/printing/
   - /en/eccs/features/printing/web-upload/
