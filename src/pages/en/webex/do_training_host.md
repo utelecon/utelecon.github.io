@@ -27,7 +27,7 @@ title: What is possible with Webex Training?（for Instructors)
 
 ### Recording
 
-* If you record the entire training and upload it on an online platform like ITC-LMS (How to publish: TODO), you can use the recording as a learning material for students with poor communication conditions or as a review material for the class.
+* If you record the entire training and upload it on an online platform like UTOL<!--(How to publish: TODO)-->, you can use the recording as a learning material for students with poor communication conditions or as a review material for the class.
 * You can start recording anytime during the meeting by clicking the recorder icon.
 
 	![レコーダーパネル](img/webex_training_recorder.png){:.small}
