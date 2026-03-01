@@ -44,8 +44,8 @@ redirect_from:
 
 The features previously introduced on this page have been discontinued following the termination of the **Educational Campus Computing System 2021 (ECCS2021)** operations on February 21, 2026. For further details, please refer to the following announcements:
 
-- [About the Educational Campus Computing System (ECCS2026)](/notice/2025/eccs2026-announcement/)
-- [Data stored on ECCS terminals and the Web Distributed Authoring and Versioning (WebDAV) environment (Proself) will be deleted](/notice/2025/1204-eccs-data-deletion/)
-- [Printer prepaid cards for the next Educational Campus Computing System (ECCS2026)](/notice/2025/1204-eccs-printer/)
+- [About the Educational Campus Computing System (ECCS2026)](/notice/2025/eccs2026-announcement/) (in Japanese)
+- [Data stored on ECCS terminals and the Web Distributed Authoring and Versioning (WebDAV) environment (Proself) will be deleted](/notice/2025/1204-eccs-data-deletion/) (in Japanese)
+- [Printer prepaid cards for the next Educational Campus Computing System (ECCS2026)](/notice/2025/1204-eccs-printer/) (in Japanese)
 
 Please note that there are no changes to [ECCS Cloud Email](/google/) associated with the end of ECCS2021 operations.
