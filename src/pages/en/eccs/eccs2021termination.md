@@ -47,4 +47,4 @@ The features previously introduced on this page have been discontinued following
 - [Data stored on ECCS terminals and the Web Distributed Authoring and Versioning (WebDAV) environment (Proself) will be deleted](/notice/2025/1204-eccs-data-deletion/) (in Japanese)
 - [Printer prepaid cards for the next Educational Campus Computing System (ECCS2026)](/notice/2025/1204-eccs-printer/) (in Japanese)
 
-Please note that there are no changes to [ECCS Cloud Email](/google/) associated with the end of ECCS2021 operations.
+Please note that there are no changes to [ECCS Cloud Email](/en/google/) associated with the end of ECCS2021 operations.
