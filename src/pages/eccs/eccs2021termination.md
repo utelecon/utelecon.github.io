@@ -1,5 +1,7 @@
 ---
 title: "ECCS2021はECCS2026に移行されました"
+breadcrumb:
+  title: ECCS2021の運用終了
 redirect_from:
   - /eccs/misc/dotfiles/
   - /eccs/misc/mac-dock-icon/
