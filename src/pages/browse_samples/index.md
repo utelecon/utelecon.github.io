@@ -1,6 +1,8 @@
 ---
 title: オンライン授業の実際
 sitemap: false
+redirect_from:
+  - /webex/browse_samples/
 ---
 
 
