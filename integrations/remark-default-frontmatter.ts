@@ -9,7 +9,7 @@ interface Options {
 /**
  * https://github.com/withastro/astro/issues/397#issuecomment-1236231783
  */
-export default function defaultFrontmatterPlugin({ layout }: Options) {
+export default function remarkDefaultFrontmatter({ layout }: Options) {
   return function (_: Node, file: VFile) {
     const frontmatter = file.data.astro!.frontmatter!;
     const path = relative(join(file.cwd, "src", "pages"), file.path);
