@@ -1,11 +1,10 @@
 ---
-title: Google AI StudioがECCSクラウドメールで利用可能になりました
+title: Googleドキュメント, Googleスライド, GoogleフォームでGeminiが使えるようになりました
 ---
-[Google AI Studio](https://aistudio.google.com/)について、ECCSクラウドメールの全ユーザが利用できるように機能を解放しました。  
-ただし、利用は無料の範囲内でお願いします。  
-有料機能を利用するためのクレジットカード登録等は行わないでください。  
-有料機能の利用が必要な場合は、ECCSクラウドメール以外のGoogleアカウントでご利用をお願いします。  
+2026年2月24日からECCSクラウドメールのアカウントを使ってGoogleドキュメント、Googleスライド、Googleフォームを利用する際に Gemini の機能にアクセスできるようになりました。
 
-また、無料枠のGoogle AI Studioにおいて、入力データはトレーニング等の対象になる可能性があります。  
-（データ保護の対象となるGoogle Workspace for Education のGeminiとは扱いが異なります）  
-機密情報などを入力しないようにご注意ください。
+- 利用にあたっては[Google Workspace for Education Plusライセンス](https://utelecon.adm.u-tokyo.ac.jp/google/misc/education-plus/)の付加が必要になります。学生用、教職員用でライセンスの種類は異なりますが、どちらでも同様に利用できます。ご自身の身分に従ってライセンス付与の申請をおこなってください。ライセンス付与の申請後、24時間以内に使えるようになります。
+    - 2026年11月2日以降は申請なしで、ユーザ全員にライセンスが付加されます。
+- 利用方法については、[Google Workspace with Gemini を使ってみる](https://support.google.com/calendar/answer/13952129) を参照してください。
+- Geminiの利用に関する一般的な注意は、[ECCSクラウドメールでのGeminiの利用について](https://utelecon.adm.u-tokyo.ac.jp/google/gemini/) を御覧ください。
+
