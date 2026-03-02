@@ -17,13 +17,13 @@ redirect_from:
 以下の性能要件は新規に購入し、履修期間（4年間）にわたる利用ができることを想定した基準としています。この性能要件を参考にして端末の用意をお願いします。
 
 ## 基本的な性能要件
-- OS：Windows または macOS の最新バージョン（Windows 11 または macOS 16） 
-- CPU：CPU：Intel Core 5またはCore Ultra5以上、 AMD Ryzen7以上（7030シリーズ以降）、 Qualcomm Snapdragon X 以上 または Apple M4 相当以上 
+- OS：Windows または macOS の最新バージョン（Windows 11 または macOS Tahoe 26） 
+- CPU：Intel Core 5またはCore Ultra5以上、 AMD Ryzen7以上（7030シリーズ以降）、 Qualcomm Snapdragon X 以上 または Apple M4 相当以上 
 - メモリ：16GB 以上 
 - 記憶装置 (ストレージ)：SSD 256GB以上 
 - ネットワーク：無線LAN Wi-Fi 6 以上対応 (IEEE802.11ax 以上対応) 
 - ディスプレイ：11 インチ以上
-- USBポート： Type-C（DisplayPort Alt Mode対応※） 
+- USBポート： Type-C（DisplayPort Alt Mode [^1] 対応） 
 - 入力装置：物理キーボード (脱着式・分離型でも可) 
 - バッテリー駆動時間 (カタログ上の記載)：15 時間以上 
 - 外部インターフェース：ヘッドホンおよびマイク、カメラが使用できること 
@@ -35,4 +35,4 @@ redirect_from:
 
 既に所有しているPC等を利用する場合も、上記の性能要件を参考にご用意ください。 
 
-※ DisplayのUSB接続に対応していること。
+[^1]: ディスプレイのUSB接続に対応していること。
