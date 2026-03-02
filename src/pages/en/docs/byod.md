@@ -2,6 +2,7 @@
 title: The University of Tokyo BYOD Policy
 breadcrumb:
   title: BYOD Policy
+toc: false
 redirect_from:
   - /en/notice/byod
 ---
