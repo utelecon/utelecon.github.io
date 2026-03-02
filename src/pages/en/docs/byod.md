@@ -13,7 +13,9 @@ This page is translation of the Japanese original.
 <div>2026-03-02　Update of the Educational System Improvement WG</div>
 </div>
 
-Starting from the 2022 academic year, the University of Tokyo will implement BYOD (Bring Your Own Device: PC required), which requires students to use their own mobile PC in university classes, for incoming students. Please prepare your own PC and home network environment based on the following basic performance requirements. Please also check the information of the faculty or graduate school you are entering, as there may be special requirements for courses after the latter half of the undergraduate program. In addition to the implementation of this policy, the support will also be provided to students who have difficulty preparing their PCs for economic reasons. 
+Starting from the academic year 2022, the University of Tokyo has implemented BYOD (Bring Your Own Device: PC required), which requires students to use their own mobile PC in university classes, for incoming students. Please prepare your own PC and home network environment based on the following basic performance requirements. Please also check the information of the faculty or graduate school you are entering, as there may be special requirements for courses after the latter half of the undergraduate program. In addition to the implementation of this policy, the support will also be provided to students who have difficulty preparing their PCs for economic reasons. 
+
+The following performance requirements are intended as a standard for students purchasing a new device to be used throughout their four-year degree program.
 
 ## Basic performance requirements
 
@@ -36,11 +38,4 @@ If your environment allows you to use a PC that meets the above performance requ
 
 Even if you use a PC or other device that you already own, please prepare it with reference to the performance requirements above.
 
-## Remarks
-
-The above requirements are only intended as a guide to the necessary performance for attending classes.
-
-Please check for individual requirements for the following departments. 
-- School of Law, Graduate Schools for Law and Politics
-
-[^1]: It means the feature of connecting the display via USB is supported.
+[^1]: Supports video output via USB.
