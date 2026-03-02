@@ -2,7 +2,7 @@
 title: 東京大学のBYOD方針
 breadcrumb:
   title: 東京大学のBYOD方針
-toc： false
+toc: false
 redirect_from:
   - /notice/byod
 ---
