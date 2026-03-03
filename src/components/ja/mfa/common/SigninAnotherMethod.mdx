@@ -1,0 +1,36 @@
+{/**
+  * @typedef {object} Props
+  * @property {string} method
+  */}
+
+import { Image } from "astro:assets";
+import If from "@components/utils/If.astro"
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import CannotUseMsAuth from "./CannotUseMsAuth.mdx";
+import signinEnterCode from "./signin_enter_code.png";
+import signinEnterSmsCode from "./signin_enter_sms_code.png";
+import signinMethodList from "./signin_method_list.png";
+
+<li>
+  画面上の「問題がありますか? 別の方法でサインインする」または「別の確認オプションを使用する」あるいは「Microsoft Authenticator アプリを現在使用できません」というリンクを押してください．
+  {props.methodSupplement}
+  <If cond={props.method === "「確認コードを使用する」"}>
+    <ArrowOverlay image={signinEnterSmsCode} x={1650} y={465} angle={180} scale={0.7} />
+    <Fragment slot="else">
+      <ArrowOverlay image={signinEnterCode} x={1650} y={465} angle={180} scale={0.7} />
+    </Fragment>
+  </If>
+  <CannotUseMsAuth />
+</li>
+<li>
+  デフォルト（自動的に選ばれるもの）以外のものも含め，設定済みの本人確認方法が一覧で表示されるので，{props.method}を押してください．
+  <If cond={props.method === "「顔、指紋、PIN、またはセキュリティ キー」"}>
+    <ArrowOverlay image={signinMethodList} x={1600} y={300} angle={90} scale={0.8} />
+  </If>
+  <If cond={props.method === "「確認コードを使用する」"}>
+   <ArrowOverlay image={signinMethodList} x={1570} y={557} angle={180} scale={0.9} />
+  </If>
+  <If cond={props.method === "使用したい方法"}>
+    <Image src={signinMethodList} alt="" />
+  </If>
+</li>

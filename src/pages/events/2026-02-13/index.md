@@ -4,7 +4,7 @@ h1: "2026/02/13ワークショップ：UTokyo Azure Day"
 ---
 ![](../../en/events/2026-02-13/banner.jpeg)
 
-[2026/02/04更新]
+[2026/02/09更新]
 
 ## 開催趣旨
 
@@ -61,9 +61,12 @@ UTokyo Azureをご利用中の方,これから使ってみたい方,教員・職
   - アップロード先：<br>
   https://univtokyo.sharepoint.com/:f:/t/Teams.azure.adm/IgCG1YR5PuRjQL2VEbiGdITgATvQ1LzGwTJrgE1jCZwt5e8
 
+## ポスター発表一覧
+- [ポスター発表一覧（PDF）](../../en/events/2026-02-13/poster_presentations.pdf)
+
   
 ## 参加申込
-[**参加登録フォーム**](https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhMnMUjT-HAJEmtUvNy6sajtUNlRPWkZUT1BYR1BVSjZITEJXU1ExTlhLQi4u)よりお申し込みください．
+参加登録は締め切りました．本学所属者は当日の聴講も受け付けますので、直接会場にお越しください.
 - **申込期限**：**<span style="color: red;">2026年2月9日(月)正午</span>**
 
 ## プログラム（予定）
@@ -73,7 +76,7 @@ UTokyo Azureをご利用中の方,これから使ってみたい方,教員・職
 |---------------|---------------------------------------------------------------------------|--------------------------------------------------------|
 | 12:30-13:00   | 受付                         | ―
 | 13:00-13:20   | UTokyo Azure Status Report<br>What is it? Who uses it and how? Where it stands? | 田浦 健次朗<br>（執行役・副学長）                         |
-| 13:20-13:50   | Building with Azure OpenAI Codex-5:<br>Deployment to VS Code Integration | 山肩 洋子<br>（情報基盤センター・教授）                    |
+| 13:20-13:50   | Building with Azure OpenAI Codex-5:<br>Deployment to VS Code Integration<br>[資料](/en/events/2026-02-13/Using_Azure_CodeAI.pdf) | 山肩 洋子<br>（情報基盤センター・教授）                    |
 | 13:50-14:20   | マイクロソフトリサーチアジア東京の紹介                                  | 松下 康之<br>（Microsoft Research Asia-Tokyo・所長）                      |
 | 14:20-14:50   | 行政データの活用とプラットフォームの構築                                  | 川口 大司<br>（公共政策大学院・教授）                     |
 | 14:50-15:05   | 休憩 |     ―             |
