@@ -132,7 +132,6 @@ const indexSectionByPrefixes = sections.flatMap((section) =>
 indexSectionByPrefixes.sort((a, b) => b.prefix.length - a.prefix.length);
 for (const page of pages) {
   const url = `/${page.id}`;
-  if (!url) continue;
   if (basename(url).startsWith("_")) continue;
   const { layout, sitemap, redirect_to, title } = page.data;
   if (layout === false || sitemap === false || redirect_to || !title) continue;
@@ -140,7 +139,7 @@ for (const page of pages) {
 
   const { section } = indexSectionByPrefixes.find(
     (item) =>
-      url!.startsWith(item.prefix) || url + "/" === item.prefix,
+      url.startsWith(item.prefix) || url + "/" === item.prefix,
   )!; // the "Others" section should catch
   section.entries.push({ title, url });
 }
