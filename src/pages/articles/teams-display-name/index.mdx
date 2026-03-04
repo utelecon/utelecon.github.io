@@ -1,0 +1,73 @@
+---
+title: Microsoft Teams会議での表示名を変更する
+---
+
+<div class="box">
+  これまでMicrosoft Teams会議では，ZoomやWebexと異なりミーティング参加時の表示名変更ができませんでした。しかし，2025年1月の機能向上で対応できる方法が提供されましたので，UTokyo Microsoft Licenseのアカウントで開催する会議では，事前に開催者が設定していれば変更できるようにしています。
+</div>
+
+[UTokyo Microsoft License](/microsoft/)のアカウントで開催するMicrosoft Teams会議では，会議の開催者または共同開催者(ホスト)が会議前に変更を許可する設定をしていれば，出席者が会議中の表示名を変更することができます。これはUTokyo Microsoft Licenseのアカウントで開催するTeams会議では，表示名変更が可能な設定を，[テナントの管理者として有効にしている](#admin-setting)ためです。
+
+ただし，表示名を変更した場合，会議中に表示されている名前の横に，その表示名が編集済みのものであることが表示されます。また**議事録など，一部の機能では変更前のデフォルトの表示名のままになることがあります**。加えて，他の機関が開催する会議の場合は，UTokyo Microsoft Licenseのアカウントで参加しているかに関わらず，表示名の変更可否はテナントの管理者による設定によって異なります。
+
+このページではTeams会議の表示名の変更方法を，[開催者による事前の設定方法](#host-setting)と，[参加者による表示名の変更方法](#participant-change)に分けて説明します。また参加者向けに，表示名変更ができない会議の場合や，表示名を変更する機能では変更できない部分でも表示名を変更したい場合の[ワークアラウンド](#work-around)も示します。
+
+## (開催者向け)会議前に表示名変更を許可する設定を行う
+{:#host-setting}
+
+会議参加時の表示名の変更を可能にするには，会議開始前に事前設定をする必要があります。なお設定は会議ごとに行う必要があります(ただし「定期的なイベント」は一括で設定できます)。設定手順は以下の通りです。
+
+1. Teamsで予定表(カレンダー)を開いてください。
+2. 以下のいずれかの方法で，会議のオプションにアクセスしてください。
+    - **会議の作成時に設定する場合**
+        1. イベントを作成したい時間帯をドラッグするか，「新規」ボタンないし「新規」ボタンの右側の「チャネル会議」ボタンから新しいイベントまたは会議を選択してください。
+            - 新しいイベントとして作成する場合「Teams会議」のトグルがオフであればオンにしてください。
+        2. 「オプション」または「その他のオプション」を選択してください。
+            <figure class="gallery">![](new-channel-meeting-option.png){:.small .border} ![](new-event-option.png){:.small .border}</figure>
+    - **すでに作成済みの会議で設定する場合**
+        1. Teams予定表を開いてください。
+        2. イベントをダブルクリックするか，![](FullScreen-icon.png){:.icon}アイコンまたは「編集」ボタンをクリックしてください。
+            - 「このイベント」「今回とこれ以降のすべてのイベント」「この定期的なイベントのすべて」のオプションが出てきた場合は，設定したい範囲を選択してください。
+        3. 「オプション」または「会議オプション」を選択してください。
+            ![](edit-event-option.png){:.small .border}
+3. 「参加状況」の項目から「ユーザーが表示名を編集できるようにする」のトグルをオンにしてください。
+   ![](meeting-options.png){:.medium .border}
+4. 「保存」または「適用」ボタンを押してください。
+
+なお会議のオプションの詳細は「[Microsoft Teamsの会議オプション](https://support.microsoft.com/ja-jp/office/microsoft-teams%E3%81%AE%E4%BC%9A%E8%AD%B0%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-53261366-dbd5-45f9-aae9-a70e6354f88e)」をご覧ください。
+
+## (参加者向け)表示名の変更方法
+{:#participant-change}
+
+ のリンクを貼る or 中身を書き下す 
+
+### ワークアラウンド
+{:#work-around}
+
+もし，表示名変更ができない会議の場合や，上記の方法では変更されない部分でも表示名を変更したい場合も，サインインせずにプライベートブラウザ(UTokyo Accountでサインインしていない状態のブラウザ)から参加することで表示名を変更することができます。
+
+1. 参加URLをプライベートブラウザ(あるいは，UTokyo Accountでサインインしていない状態のブラウザ)で開いてください。
+    - 以下のようなポップアップが出た場合は「キャンセル」を選択してください。
+      ![](work-around-popup-allow-open-app.png){:.small}
+2. 「このブラウザで続ける」を選択してください。
+    ![](work-around-continue-browser.png){:.small .border}
+    - カメラ・マイクなどのアクセス許可に関するポップアップが出た場合は，必要に応じて許可してください。
+3. 名前の入力が求められますので名前を設定してください。
+    ![](work-around-input-name.png){:.medium .border}
+
+## (参考)Microsoft Teams 管理者による表示名変更の許可設定
+{:#admin-setting}
+
+UTokyo Microsoft licenseのアカウント(東京大学のOffice365テナント)では，テナント管理者の側で表示名の変更を可能にする設定をしているので，主催者が許可していればワークアラウンドを用いずとも表示名の変更ができますが，他の機関のアカウントで開催するTeams会議の場合，テナント管理者による設定によっては表示名の変更ができないことがあります。
+
+テナントの管理者が表示名の変更を可能にする設定を行うには，以下のPowershellコマンドを実行してください。(2026年3月時点でまだTeams管理センターGUIから設定できません。)
+
+```
+Set-CsTeamsMeetingPolicy -Identity Global -ParticipantNameChange Enabled
+```
+
+- 参考: [Microsoft Teams > New-CsTeamsMeetingPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoftteams/new-csteamsmeetingpolicy?view=teams-ps#-participantnamechange)
+
+## 参考情報
+
+- [Microsoft 365 Insider Blog: Edit your display name in Teams meetings](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/edit-your-display-name-in-teams-meetings/4389359)
