@@ -1,12 +1,12 @@
 import { styleText } from "node:util";
 import { defineCollection } from "astro:content";
-import { z } from "astro/zod"
+import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 import { FORMATS, NUMBERS, TOOLS, KEYWORDS } from "@components/pages/GoodPractice";
 import { getISODateString } from "src/lib/util";
 
 const emergencies = defineCollection({
-  loader: glob({pattern: "*.{md,mdx}", base: "./src/emergencies" }),
+  loader: glob({ pattern: "*.{md,mdx}", base: "./src/emergencies" }),
   schema: z.object({
     pattern: z.string().refine((v) => {
       try {
@@ -24,7 +24,7 @@ const emergencies = defineCollection({
 })
 
 const events = defineCollection({
-  loader: glob({pattern: ["events/*/index.{md,mdx}", "events/*.{md,mdx}"], base: "./src/pages" }),
+  loader: glob({ pattern: ["events/*/index.{md,mdx}", "events/*.{md,mdx}"], base: "./src/pages" }),
   schema: z.object({
     title: z.string()
   })
@@ -32,7 +32,7 @@ const events = defineCollection({
 
 const notices = defineCollection({
   // 本来は file() を使うべきだが、file() は各エントリに id / slug を含めることを要求するため面倒
-  loader: glob({pattern: "notice.yml", base: "./src/data"}),
+  loader: glob({ pattern: "notice.yml", base: "./src/data" }),
   schema: z.array(
     z.object({
       date: z.date(),

@@ -19,7 +19,7 @@ interface Props {
 
 const { show, lang, alternative } = Astro.props;
 
-const events = await getCollection("events")
+const events = await getCollection("events");
 
 const allEventsList: Map<string, EventInformation> = new Map(
   events.map((event) => {
@@ -43,7 +43,7 @@ const allEventsList: Map<string, EventInformation> = new Map(
       },
     ];
   })
-)
+);
 
 const eventsList: EventInformation[] = show.map((key) => {
   const eventInfo = allEventsList.get(key);

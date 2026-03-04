@@ -9,7 +9,7 @@ import { toText } from "hast-util-to-text";
 import { select } from "hast-util-select";
 import type { Lang } from "@components/types";
 
-const { data: noticesWithId } = await getEntry("notices", "notice")!
+const { data: noticesWithId } = await getEntry("notices", "notice")!;
 
 const parser = unified().use(remarkParse);
 

@@ -15,7 +15,7 @@ interface Props {
 }
 
 const { lang } = Astro.props;
-const { data: navigations } = await getEntry("nav", lang)!
+const { data: navigations } = await getEntry("nav", lang)!;
 
 interface SectionNode {
   name: string;

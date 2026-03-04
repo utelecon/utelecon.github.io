@@ -58,7 +58,7 @@ export const KEYWORDS = [
   { label: "実験・実習", value: "experiment" },
   { label: "グループワーク", value: "group-work" },
   { label: "TA", value: "ta" },
-  { label: "テキスト", value: "text"}
+  { label: "テキスト", value: "text" }
 ] satisfies Filter[];
 
 export interface Interview {
