@@ -15,7 +15,7 @@ title: Microsoft Teams会議での表示名を変更する
 ## (開催者向け)会議前に表示名変更を許可する設定を行う
 {:#host-setting}
 
-会議参加時の表示名の変更を可能にするには，会議開始前に事前設定をする必要があります．なお設定は会議ごとに行う必要があります(ただし「定期的なイベント」は一括で設定できます)．設定手順は以下の通りです．
+会議参加時の表示名の変更を可能にするには，開催者または共同開催者が，会議開始前に事前設定をする必要があります．なお設定は会議ごとに行う必要があります(ただし「定期的なイベント」は一括で設定できます)．設定手順は以下の通りです．
 
 1. Teamsで予定表(カレンダー)を開いてください．
 2. 以下のいずれかの方法で，会議のオプションにアクセスしてください．
@@ -39,7 +39,19 @@ title: Microsoft Teams会議での表示名を変更する
 ## (参加者向け)表示名の変更方法
 {:#participant-change}
 
- のリンクを貼る or 中身を書き下す 
+表示名の変更は，会議の開始後に行うことができます．変更すると，その会議の間は，変更後の表示名が表示されます．
+
+なお変更の手順は以下の通りです．
+
+1. 「参加者」パネルを開いてください．
+    ![](open-participants-panel.png){:.medium .border}
+2. 自分の名前の横にある「…」ボタンを押してください．
+3. 「表示名の編集」を選択してください．
+    ![](select-edit-display-name.png){:.small .border}
+4. 表示名の欄に，変更後に表示したい名前を入力してください．
+    ![](edit-display-name-popup.png){:.medium .border}
+5. 「保存」ボタンを押してください．以降，以下の画像のように，表示名が「変更後の表示名(編集済み)」と表示されるようになります．
+    ![](edited-display-name.png){:.small .border}
 
 ### ワークアラウンド
 {:#work-around}
@@ -71,3 +83,4 @@ Set-CsTeamsMeetingPolicy -Identity Global -ParticipantNameChange Enabled
 ## 参考情報
 
 - [Microsoft 365 Insider Blog: Edit your display name in Teams meetings](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/edit-your-display-name-in-teams-meetings/4389359)
+- [Microsoft Teamsで会議に参加する > 表示名を編集する](https://support.microsoft.com/ja-jp/office/microsoft-teams%E3%81%A7%E4%BC%9A%E8%AD%B0%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%99%E3%82%8B-1613bb53-f3fa-431e-85a9-d6a91e3468c9#bkmk_edit_display_name)
