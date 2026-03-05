@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-03-06
+  content:
+    ja: "3/26 14:30から[3/26 14:30から教育用計算機システム(ECCS)のシステム利用説明会を開催いたします](/notice/2026/0326-eccs-seminar)"
+    en: "On March 26, an information session titled **\"[Use of Information Session on Education Computer Systems (ECCS)](/notice/2026/0326-eccs-seminar)\"** was held at 14:30. This session will be **conducted in Japanese**."
+-
   date: 2026-03-02
   content:
     ja: "[Googleドキュメント, Googleスライド, GoogleフォームでGeminiが使えるようになりました](/notice/2026/0302-gemini-gws/)"
