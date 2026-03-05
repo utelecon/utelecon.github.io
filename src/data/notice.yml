@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-03-05
+  content:
+    ja: "個別にSlack有償プランを契約する場合の[「教育支援プログラム」への一括での取り次ぎ](/slack/discount/)は，**3月x日で終了します**．"
+    en: "We will end [the university's bulk application process for the “Slack for Education” program](/en/slack/discount/), which may be used when departments within the university contract paid Slack subscriptions, **on March x**."
+-
   date: 2026-03-02
   content:
     ja: "[Googleドキュメント, Googleスライド, GoogleフォームでGeminiが使えるようになりました](/notice/2026/0302-gemini-gws/)"
