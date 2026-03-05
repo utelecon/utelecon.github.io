@@ -52,6 +52,14 @@ The utelecon portal consists of the following content. All pages can be accessed
 * “[How UTokyo moved 5,000 classes online in a month](https://www.u-tokyo.ac.jp/focus/en/features/z0508_00181.html)” (University of Tokyo, July 20, 2020)  
 * [Documentary: “Why the University of Tokyo's online classes were a success”](https://todai-umeet.com/article/55241) (UmeeT, July 8, 2020)  
 
+## Use of Google Analytics
+
+The utelecon portal site uses Google Analytics to collect usage statistics. For information on how Google handles data, please see "[How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites)" and other relevant resources.
+
+## Use of Microsoft Clarity
+
+The utelecon portal site uses Microsoft Clarity to collect usage statistics and improve the portal site. For information on how Microsoft handles data, please see the service's terms of use "[MICROSOFT CLARITY - TERMS OF USE](https://clarity.microsoft.com/terms)" and "[Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)" and other relevant resources.
+
 ## Contribution  
 
 In preparation  
