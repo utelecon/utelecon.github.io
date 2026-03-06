@@ -35,7 +35,7 @@ title: Webex meeting room 101（for instructors）
 
 ### Recording
 
-* By recording the entire meeting and publishing it on ITC-LMS etc. (publication method TODO), it can be used as a learning material for students who had poor network conditions or for the students to revise afterwards.
+* By recording the entire meeting and publishing it on UTOL etc.<!-- (publication method TODO)>--, it can be used as a learning material for students who had poor network conditions or for the students to revise afterwards.
 * Recording can be done at any time by setting "Automatic Recording" when setting up the conference, or by clicking the recording icon during the conference.
 
 	![自動録画](img/webex_meeting_auto_record.png){:.small}
