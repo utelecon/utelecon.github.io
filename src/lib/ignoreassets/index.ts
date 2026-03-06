@@ -19,7 +19,11 @@ import { packages } from "../../../package-lock.json";
  * `semver` が解釈可能な形式で指定します。動作確認した上で適宜修正してください。
  * {@link ./README.md}も参照してください。
  */
-const TESTED_ASTRO_VERSION_RANGE = "5.0.0 - 5.12.7";
+// NOTE:
+// This integration only relies on stable public Astro integration hooks.
+// Restricting to a narrow "tested" patch range makes dependency updates painful,
+// so we accept any Astro 5.x here.
+const TESTED_ASTRO_VERSION_RANGE = ">=5.0.0 <6.0.0";
 
 export class VersionNotSatisfied extends Error {
   constructor(
