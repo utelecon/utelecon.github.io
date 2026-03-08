@@ -48,8 +48,8 @@
     tabs: Record<string, Tab>;
   }
   interface Tab {
-    tabNodes: HTMLButtonElement[];
-    panelNodes: HTMLDivElement[];
+    tabNodes?: HTMLButtonElement[];
+    panelNodes?: HTMLDivElement[];
   }
   const tabGroups: Record<string, TabGroup> = {};
 
@@ -101,16 +101,24 @@
     history.replaceState(null, "", url.href);
   }
 
-  function activateTab(groupName: string, tabName: string) {
+  function activateTab(groupName: string, tabName?: string) {
     const group = tabGroups[groupName];
     if (!group) return;
 
-    for (const [name, { tabNodes, panelNodes }] of Object.entries(group.tabs)) {
+    const tabNames = Object.keys(group.tabs);
+    if (!tabName || !tabNames.includes(tabName)) {
+      tabName =
+        tabNames.find((name) => name.toLowerCase().includes("default")) ||
+        tabNames[0];
+    }
+
+    for (const name of tabNames) {
+      const { tabNodes, panelNodes } = group.tabs[name];
       const selected = name === tabName;
-      tabNodes.forEach((node) => {
+      tabNodes?.forEach((node) => {
         node.setAttribute("aria-selected", selected.toString());
       });
-      panelNodes.forEach((node) => {
+      panelNodes?.forEach((node) => {
         node.hidden = !selected;
       });
     }
@@ -122,13 +130,7 @@
     const url = new URL(location.href);
     Object.keys(tabGroups).forEach((groupName) => {
       const selectedTab = url.searchParams.get(groupName);
-      if (selectedTab) {
-        activateTab(groupName, selectedTab);
-      } else {
-        // Activate the first tab by default
-        const firstTabName = Object.keys(tabGroups[groupName].tabs)[0];
-        activateTab(groupName, firstTabName);
-      }
+      activateTab(groupName, selectedTab ?? undefined);
     });
   });
 </script>
