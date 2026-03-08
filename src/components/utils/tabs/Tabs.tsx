@@ -29,7 +29,6 @@ export default function Tabs(props: {
               role="tab"
               aria-controls={`panel_${id}_${tabName}`}
               aria-selected="false"
-              className="tab"
               data-tab={tabName}
             >
               {element}
@@ -46,7 +45,6 @@ export default function Tabs(props: {
               id={`panel_${id}_${tabName}`}
               role="tabpanel"
               aria-labelledby={`tab_${id}_${tabName}`}
-              className="panel"
               data-tab={tabName}
             >
               {element}
