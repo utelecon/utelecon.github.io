@@ -124,6 +124,10 @@
       const selectedTab = url.searchParams.get(groupName);
       if (selectedTab) {
         activateTab(groupName, selectedTab);
+      } else {
+        // Activate the first tab by default
+        const firstTabName = Object.keys(tabGroups[groupName].tabs)[0];
+        activateTab(groupName, firstTabName);
       }
     });
   });
