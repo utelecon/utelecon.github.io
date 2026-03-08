@@ -1,0 +1,147 @@
+---
+
+---
+
+<style lang="scss" is:global>
+  @use "@styles/color";
+
+  .generic-tabgroup {
+    > .tab-list {
+      display: flex;
+
+      &[hidden] {
+        display: none;
+      }
+
+      button[role="tab"] {
+        display: block;
+        flex: 1;
+        background-color: color.$white-gray-dark;
+        padding: 0.75rem 0.5rem;
+        border-width: 0 0.5px;
+        border-style: solid;
+        border-color: color.$white-gray-light;
+        outline: none;
+        box-shadow: none;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &[aria-selected="true"] {
+          color: color.$heading-color;
+          background-color: color.$white-gray-light;
+          border-bottom: 4px solid color.$heading-color;
+          font-weight: bold;
+        }
+      }
+    }
+    > .panel-list {
+      padding: 0.5rem;
+      margin: 0 0 1.5rem;
+      border: 1px solid color.$white-gray-light;
+    }
+  }
+</style>
+
+<script>
+  interface TabGroup {
+    tabs: Record<string, Tab>;
+  }
+  interface Tab {
+    default?: boolean;
+    tabNodes?: HTMLButtonElement[];
+    panelNodes?: HTMLDivElement[];
+  }
+  const tabGroups: Record<string, TabGroup> = {};
+
+  function registerTabs() {
+    const tabGroupNodes =
+      document.querySelectorAll<HTMLDivElement>(`div.generic-tabgroup`);
+    tabGroupNodes.forEach((groupNode) => {
+      const groupName = groupNode.dataset.group;
+      if (!groupName) return;
+
+      const tabs: Record<string, Tab> = tabGroups[groupName]?.tabs || {};
+
+      const tabNodes =
+        groupNode.querySelectorAll<HTMLButtonElement>(`button[role="tab"]`);
+      tabNodes.forEach((tabNode) => {
+        const tabName = tabNode.dataset.tab;
+        if (!tabName) return;
+
+        const tab = tabs[tabName] || {};
+        if (!tab.tabNodes) tab.tabNodes = [];
+        tab.tabNodes.push(tabNode);
+
+        if (tabNode.dataset.default === "true") {
+          tab.default = true;
+        }
+
+        tabs[tabName] = tab;
+
+        tabNode.addEventListener("click", () => {
+          activateTab(groupName, tabName);
+          onChangeTab(groupName, tabName);
+        });
+      });
+
+      const panelNodes =
+        groupNode.querySelectorAll<HTMLDivElement>(`div[role="tabpanel"]`);
+      panelNodes.forEach((panelNode) => {
+        const tabName = panelNode.dataset.tab;
+        if (!tabName) return;
+
+        const tab = tabs[tabName] || {};
+        if (!tab.panelNodes) tab.panelNodes = [];
+        tab.panelNodes.push(panelNode);
+
+        if (panelNode.dataset.default === "true") {
+          tab.default = true;
+        }
+
+        tabs[tabName] = tab;
+      });
+
+      tabGroups[groupName] = { tabs };
+    });
+  }
+
+  function onChangeTab(groupName: string, tabName: string) {
+    const url = new URL(location.href);
+    url.searchParams.set(groupName, tabName);
+    history.replaceState(null, "", url.href);
+  }
+
+  function activateTab(groupName: string, tabName?: string) {
+    const group = tabGroups[groupName];
+    if (!group) return;
+
+    const tabNames = Object.keys(group.tabs);
+    if (!tabName || !tabNames.includes(tabName)) {
+      tabName =
+        tabNames.find((name) => group.tabs[name].default) || tabNames[0];
+    }
+
+    for (const name of tabNames) {
+      const { tabNodes, panelNodes } = group.tabs[name];
+      const selected = name === tabName;
+      tabNodes?.forEach((node) => {
+        node.setAttribute("aria-selected", selected.toString());
+      });
+      panelNodes?.forEach((node) => {
+        node.hidden = !selected;
+      });
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    registerTabs();
+
+    const url = new URL(location.href);
+    Object.keys(tabGroups).forEach((groupName) => {
+      const selectedTab = url.searchParams.get(groupName);
+      activateTab(groupName, selectedTab ?? undefined);
+    });
+  });
+</script>
