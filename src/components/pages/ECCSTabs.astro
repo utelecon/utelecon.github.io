@@ -1,0 +1,29 @@
+---
+interface Props {
+  id: string;
+}
+
+import TabScript from "@components/utils/tabs/TabScript.astro";
+import Tabs from "@components/utils/tabs/Tabs";
+
+const { id } = Astro.props;
+---
+
+<TabScript />
+<Tabs id={id} groupName="os">
+  <div slot="panel.5.default.os-default">
+    上のタブからOSを選択してください．
+  </div>
+  <div slot="tab.1.windows">
+    Windows
+  </div>
+  <div slot="panel.1.windows">
+    <slot name="windows" />
+  </div>
+  <div slot="tab.2.mac">
+    Mac
+  </div>
+  <div slot="panel.2.mac">
+    <slot name="mac" />
+  </div>
+</Tabs>

@@ -7,6 +7,25 @@ redirect_from:
   - /eccs/overview/facilities/
 ---
 
-import InPreparation from "@components/ja/InPreparationECCS2026.mdx";
+import Tabs from "@components/utils/tabs/Tabs";
+import TabScript from "@components/utils/tabs/TabScript.astro";
 
-<InPreparation />
+import ECCSTabs from "@components/pages/ECCSTabs.astro";
+
+<ECCSTabs id="tab-group-1">
+  <Fragment slot="windows">
+    Windowsの説明
+  </Fragment>
+  <Fragment slot="mac">
+    Macの説明
+  </Fragment>
+</ECCSTabs>
+
+<ECCSTabs id="tab-group-2">
+  <Fragment slot="windows">
+    Windowsの説明その2
+  </Fragment>
+  <Fragment slot="mac">
+    Macの説明その2
+  </Fragment>
+</ECCSTabs>
