@@ -11,16 +11,16 @@ export default function Tabs(props: {
     throw new Error("Tabs id cannot contain underscores");
   }
 
-  const tabs = Object.entries(props).filter(([key]) => key.startsWith("tab-"));
+  const tabs = Object.entries(props).filter(([key]) => key.startsWith("tab."));
   const panels = Object.entries(props).filter(([key]) =>
-    key.startsWith("panel-"),
+    key.startsWith("panel."),
   );
 
   return (
     <div className="generic-tabgroup" data-group={groupName}>
       <div className="tab-list" role="tablist">
         {tabs.map(([key, element]) => {
-          const tabName = key.replace(/^tab-/, "");
+          const tabName = key.replace(/^tab\.(\d+\.)?/, "");
           return (
             <button
               key={key}
@@ -38,7 +38,7 @@ export default function Tabs(props: {
       </div>
       <div className="panel-list">
         {panels.map(([key, element]) => {
-          const tabName = key.replace(/^panel-/, "");
+          const tabName = key.replace(/^panel\.(\d+\.)?/, "");
           return (
             <div
               key={key}
