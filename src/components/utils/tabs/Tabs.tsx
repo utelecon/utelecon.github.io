@@ -35,7 +35,7 @@ export default function Tabs(props: {
               aria-controls={`panel_${id}_${tabName}`}
               aria-selected="false"
               data-tab={tabName}
-              data-default={key === defaultTab ? "true" : "false"}
+              data-default={key === defaultTab ? true : null}
             >
               {element}
             </button>
@@ -52,7 +52,7 @@ export default function Tabs(props: {
               role="tabpanel"
               aria-labelledby={`tab_${id}_${tabName}`}
               data-tab={tabName}
-              data-default={key === defaultTab ? "true" : "false"}
+              data-default={key === defaultTab ? true : null}
             >
               {element}
             </div>
