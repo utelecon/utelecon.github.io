@@ -153,6 +153,76 @@ prop `variant`の値によって，表示する要素が切り替わります．
 - `outerClass` (`string` 型) … 描画される画像を包む `<div>` タグに適用するCSSクラスを指定します．複数指定する場合は半角スペースを空けて並べます．
   - 注：`ArrowOverlay` は内部的には `<div>` タグの中に `Image` コンポーネントと `<svg>` タグを並べた形になっており，指定したCSSクラスはこの `<div>` タグに適用されます．
 
+### [`Tabs`](utils/tabs/Tabs.tsx), [`TabScript`](utils/tabs/TabScript.astro)
+
+タブUIのコンポーネントです．タブを選択することにより，ユーザーが表示内容を切り替えることができます．
+
+また，複数のタブUIの選択内容を同期させることができ，URLのsearch paramsを通して事前に選択内容を指定することもできます（サポート窓口で活用できると思われます）．
+
+利用するには，まず利用したいタブグループ（選択内容が同期されるタブUIの集合）ごとにAstroコンポーネントを以下のように作成してください．
+
+```astro
+---
+interface Props {
+  id: string;
+}
+
+import TabScript from "@components/utils/tabs/TabScript.astro";
+import Tabs from "@components/utils/tabs/Tabs";
+
+const { id } = Astro.props;
+---
+
+<TabScript />
+<Tabs id={id} groupName="os">
+  <div slot="panel.5.default.os-default">
+    上のタブからOSを選択してください．
+  </div>
+  <div slot="tab.1.windows">
+    Windows
+  </div>
+  <div slot="panel.1.windows">
+    <slot name="windows" />
+  </div>
+  <div slot="tab.2.mac">
+    Mac
+  </div>
+  <div slot="panel.2.mac">
+    <slot name="mac" />
+  </div>
+</Tabs>
+```
+
+主要なパラメータを以下に示します：
+
+- `groupName` … タブグループの名前です．異なるタブグループ間で重複しないようにしてください．
+- slotの名前 … ドットで区切られた文字列で，タブ名などを指定します．
+  - 書式 … tab/panel + `.` + digits + `.` + `default.` + tab name
+    - tab/panel … 当該slotがタブ本体か，タブを選択すると表示されるパネルかを指定します．
+    - 「digits + `.`」と「`default.`」は任意です（最小構成では「tab/panel + `.` + tab name」のようになります）．
+      - digits … 表示順を制御するのに使えます．
+      - `default.` … これを含めると，何も選択されていないときにはそのタブが選択されているものとして扱われます．
+    - tab name … タブ名です．タブとパネルの組ごとに異なるタブ名を指定してください．
+  - 例：`tab.windows`とすると，`panel.windows`もしくは`panel.(数字).windows`を指定したパネルが表示されます．
+  - 例：`tab.default.windows`と指定すると，何も選択されていないときは`windows`が表示されます．
+
+原則としてタブとパネルはセットですが，上の例のように，タブを作らずにパネルだけにしておき，パネルに`.default`を付けると，何も選択されていないときのメッセージを表示できます．
+
+利用したいページでは，以下のように上で作成したAstroコンポーネントを通して使います．なお，`id`はページ内でユニークになるようにしてください．
+
+```mdx
+import OSTabs from "@components/ja/hogehoge/OSTabs.astro";
+
+<OSTabs id="tab-group-1">
+  <Fragment slot="windows">
+    Windowsの説明がここに入ります
+  </Fragment>
+  <Fragment slot="mac">
+    Macの説明がここに入ります
+  </Fragment>
+</OSTabs>
+```
+
 ## 複数ページで記述されている内容を共通化するコンポーネント
 
 ### 各システムの基本的な手順を説明するコンポーネント
