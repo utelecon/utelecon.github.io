@@ -16,11 +16,16 @@ export default function Tabs(props: {
     key.startsWith("panel."),
   );
 
+  const defaultTab = [
+    ...tabs,
+    ...panels,
+  ].find(([key]) => /^(tab|panel)\.(\d+\.)?default\./.test(key))?.[0];
+
   return (
     <div className="generic-tabgroup" data-group={groupName}>
       <div className="tab-list" role="tablist">
         {tabs.map(([key, element]) => {
-          const tabName = key.replace(/^tab\.(\d+\.)?/, "");
+          const tabName = key.replace(/^tab\.(\d+\.)?(default\.)?/, "");
           return (
             <button
               key={key}
@@ -30,6 +35,7 @@ export default function Tabs(props: {
               aria-controls={`panel_${id}_${tabName}`}
               aria-selected="false"
               data-tab={tabName}
+              data-default={key === defaultTab ? "true" : "false"}
             >
               {element}
             </button>
@@ -38,7 +44,7 @@ export default function Tabs(props: {
       </div>
       <div className="panel-list">
         {panels.map(([key, element]) => {
-          const tabName = key.replace(/^panel\.(\d+\.)?/, "");
+          const tabName = key.replace(/^panel\.(\d+\.)?(default\.)?/, "");
           return (
             <div
               key={key}
@@ -46,6 +52,7 @@ export default function Tabs(props: {
               role="tabpanel"
               aria-labelledby={`tab_${id}_${tabName}`}
               data-tab={tabName}
+              data-default={key === defaultTab ? "true" : "false"}
             >
               {element}
             </div>

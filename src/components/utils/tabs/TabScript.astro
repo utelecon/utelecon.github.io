@@ -49,6 +49,7 @@
     tabs: Record<string, Tab>;
   }
   interface Tab {
+    default?: boolean;
     tabNodes?: HTMLButtonElement[];
     panelNodes?: HTMLDivElement[];
   }
@@ -72,6 +73,11 @@
         const tab = tabs[tabName] || {};
         if (!tab.tabNodes) tab.tabNodes = [];
         tab.tabNodes.push(tabNode);
+
+        if (tabNode.dataset.defaultTab === "true") {
+          tab.default = true;
+        }
+
         tabs[tabName] = tab;
 
         tabNode.addEventListener("click", () => {
@@ -89,6 +95,11 @@
         const tab = tabs[tabName] || {};
         if (!tab.panelNodes) tab.panelNodes = [];
         tab.panelNodes.push(panelNode);
+
+        if (panelNode.dataset.default === "true") {
+          tab.default = true;
+        }
+
         tabs[tabName] = tab;
       });
 
@@ -109,8 +120,7 @@
     const tabNames = Object.keys(group.tabs);
     if (!tabName || !tabNames.includes(tabName)) {
       tabName =
-        tabNames.find((name) => name.toLowerCase().includes("default")) ||
-        tabNames[0];
+        tabNames.find((name) => group.tabs[name].default) || tabNames[0];
     }
 
     for (const name of tabNames) {
