@@ -75,7 +75,7 @@ export default defineConfig({
     copyAsset(),
     partytown({
       config: {
-        forward: ["dataLayer.push", "clarity"],
+        forward: ["dataLayer.push"],
       },
     }),
     ignoreAssets([
