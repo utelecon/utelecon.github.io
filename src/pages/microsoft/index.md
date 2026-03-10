@@ -70,6 +70,8 @@ Web版Officeを利用してOneDrive上でファイルを作成・編集する方
 
 チャットやビデオ会議などができるビジネスコミュニケーションツールです．利用手順などの説明は**[東京大学版Microsoft Teams利用者マニュアル](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/%E3%80%8C%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%88_Microsoft_Teams%E5%88%A9%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%8820210311%EF%BC%89%E3%80%8D.pdf)**をご覧ください（教職員のみアクセス可）．
 
+また，Teams会議での表示名の変更方法については，**[Microsoft Teams会議での表示名を変更する](/articles/teams-display-name/)**をご覧ください．
+
 #### 「チーム」機能
 {:#team_function}
 

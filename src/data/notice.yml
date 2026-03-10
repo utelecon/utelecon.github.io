@@ -21,6 +21,26 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-03-09
+  content:
+    ja: "[メンテナンスのためUTokyo Accountで一部のシステムにサインインできません **（3/12 19時に実施）** ](/notice/2026/0312-utacvup-shibb/)"
+    en: "[Sign-in with UTokyo Account is temporarily unavailable on some systems due to maintenance **(from 7 PM on March 12)**](/en/notice/2026/0312-utacvup-shibb/)"
+-
+  date: 2026-03-09
+  content:
+    ja: "[メンテナンスのためUTokyo Account利用者メニュー・UTokyo Account申請メニューを使用できません **（3/12 正午に実施）** ](/notice/2026/0312-utacvup-lm/)"
+    en: "[The UTokyo Account User Menu and UTokyo Account Application Menu are unavailable due to maintenance **(from noon on March 12)**](/en/notice/2026/0312-utacvup-lm/)"
+-
+  date: 2026-03-06
+  content:
+    ja: "[3/26 14:30から教育用計算機システム(ECCS)のシステム利用説明会を開催いたします](/notice/2026/0326-eccs-seminar)"
+    en: "On March 26, an information session titled **\"[Use of Information Session on Education Computer Systems (ECCS)](/notice/2026/0326-eccs-seminar)\"** was held at 14:30. This session will be **conducted in Japanese**."
+-
+  date: 2026-03-02
+  content:
+    ja: "[Googleドキュメント, Googleスライド, GoogleフォームでGeminiが使えるようになりました](/notice/2026/0302-gemini-gws/)"
+    en: "[Gemini is now available in Google Docs, Slides, and Forms.](/notice/2026/0302-gemini-gws/) (in Japanese)"
+-
   date: 2026-02-26
   content:
     ja: "東京大学の情報システムとそのサポート体制について説明する資料 [「大学生活に必要な情報システムの準備について（学生向け）」 (PDF)](/assets/material/preparing_the_information_systems_students.pdf) と [「東京大学における情報システムの準備について（教員向け）」 (PDF)](/assets/material/preparing_the_information_systems_faculty_members.pdf) の2026年度Sセメスター版を公開しました．"

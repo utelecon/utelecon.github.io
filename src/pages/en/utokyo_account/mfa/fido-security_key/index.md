@@ -4,7 +4,7 @@ breadcrumb:
   title: How to use FIDO Security Keys
 ---
 
-<div class="box">Starting from March 12, 2024, <a href="/en/notice/2024/02-utac-auth-improvement/">using the FIDO security key with multi-factor authentication for UTokyo Account will be made more convenient.</a>．</div>
+<div class="box">Starting from March 12, 2024, <a href="/en/notice/2024/02-utac-auth-improvement/">using the FIDO security key with multi-factor authentication for UTokyo Account will be made more convenient.</a>.</div>
 
 ## Introduction
 
@@ -32,7 +32,7 @@ FIDO is not available for some combinations of operating systems and browsers, s
 - iOS - Firefox
 - iOS - Safari
 
-For more information on available OS and browser combinations, please refer to Microsoft's "[Supported browsers](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-fido2-compatibility#supported-browsers)" page．
+For more information on available OS and browser combinations, please refer to Microsoft's "[Supported browsers](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-fido2-compatibility#supported-browsers)" page.
 
 ## FIDO Security Key Registration Procedure
 
