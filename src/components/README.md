@@ -167,27 +167,23 @@ interface Props {
   id: string;
 }
 
-import TabScript from "@components/utils/tabs/TabScript.astro";
 import Tabs from "@components/utils/tabs/Tabs";
-
-const { id } = Astro.props;
 ---
 
-<TabScript />
-<Tabs id={id} groupName="os">
-  <div slot="panel.5.default.os-default">
+<Tabs queryKey="os">
+  <div slot="panel.default">
     上のタブからOSを選択してください．
   </div>
-  <div slot="tab.1.windows">
+  <div slot="tab.windows">
     Windows
   </div>
-  <div slot="panel.1.windows">
+  <div slot="panel.windows">
     <slot name="windows" />
   </div>
-  <div slot="tab.2.mac">
+  <div slot="tab.mac">
     Mac
   </div>
-  <div slot="panel.2.mac">
+  <div slot="panel.mac">
     <slot name="mac" />
   </div>
 </Tabs>
@@ -195,25 +191,25 @@ const { id } = Astro.props;
 
 主要なパラメータを以下に示します：
 
-- `groupName` … タブグループの名前です．異なるタブグループ間で重複しないようにしてください．
+- `queryKey` … どのクエリパラメータを使用するか指定します．
+  - 例：`queryKey="os"`とすると，タブの選択内容がURLの`?os=windows`のようなクエリパラメータと同期します．
 - slotの名前 … ドットで区切られた文字列で，タブ名などを指定します．
-  - 書式 … tab/panel + `.` + digits + `.` + `default.` + tab name
-    - tab/panel … 当該slotがタブ本体か，タブを選択すると表示されるパネルかを指定します．
-    - 「digits + `.`」と「`default.`」は任意です（最小構成では「tab/panel + `.` + tab name」のようになります）．
-      - digits … 表示順を制御するのに使えます．
-      - `default.` … これを含めると，何も選択されていないときにはそのタブが選択されているものとして扱われます．
+  - 書式 … `tab`/`panel` + `.` + tab name
+    - `tab`/`panel` … 当該slotがタブ本体か，タブを選択すると表示されるパネルかを指定します．
     - tab name … タブ名です．タブとパネルの組ごとに異なるタブ名を指定してください．
-  - 例：`tab.windows`とすると，`panel.windows`もしくは`panel.(数字).windows`を指定したパネルが表示されます．
-  - 例：`tab.default.windows`と指定すると，何も選択されていないときは`windows`が表示されます．
+      - デフォルトのタブでは `default` を指定してください．
+  - 例：`tab.windows`とすると，`panel.windows`もしくは`panel.windows`を指定したパネルが表示されます．
+  - 例：`panel.default`と指定すると，何も選択されていないときはこのパネルが表示されます．
+- タブが表示される順番は書いた順番に従います．
 
-原則としてタブとパネルはセットですが，上の例のように，タブを作らずにパネルだけにしておき，パネルに`.default`を付けると，何も選択されていないときのメッセージを表示できます．
+原則としてタブとパネルはセットですが，上の例のように，タブを作らずにパネルだけにしておき，名前を`default`とすると，何も選択されていないときのメッセージを表示できます．
 
-利用したいページでは，以下のように上で作成したAstroコンポーネントを通して使います．なお，`id`はページ内でユニークになるようにしてください．
+利用したいページでは，以下のように上で作成したAstroコンポーネントを通して使います．
 
 ```mdx
 import OSTabs from "@components/ja/hogehoge/OSTabs.astro";
 
-<OSTabs id="tab-group-1">
+<OSTabs>
   <Fragment slot="windows">
     Windowsの説明がここに入ります
   </Fragment>

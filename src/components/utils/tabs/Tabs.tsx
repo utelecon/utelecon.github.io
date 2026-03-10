@@ -1,58 +1,55 @@
+import styles from "./Tabs.module.scss"
+
 export default function Tabs(props: {
-  id: string;
-  groupName: string;
-  [key: string]: React.ReactNode;
+  queryKey: string;
+  [key: `tab.${string}`]: React.ReactNode;
+  [key: `panel.${string}`]: React.ReactNode;
 }) {
-  const { id, groupName } = props;
-  if (!id || !groupName) {
-    throw new Error("Tabs requires id and groupName props");
-  }
-  if (id.includes("_")) {
-    throw new Error("Tabs id cannot contain underscores");
-  }
+  const [selectedTab, setSelectedTab] = useSearchParamsState(props.queryKey);
 
   const tabs = Object.entries(props).filter(([key]) => key.startsWith("tab."));
   const panels = Object.entries(props).filter(([key]) =>
     key.startsWith("panel."),
   );
 
-  const defaultTab = [
-    ...tabs,
-    ...panels,
-  ].find(([key]) => /^(tab|panel)\.(\d+\.)?default\./.test(key))?.[0];
+  const baseId = useId();
 
   return (
-    <div className="generic-tabgroup" data-group={groupName}>
-      <div className="tab-list" role="tablist">
+    <div className={styles["generic-tabgroup"]}>
+      <div className={styles["tab-list"]} role="tablist">
         {tabs.map(([key, element]) => {
-          const tabName = key.replace(/^tab\.(\d+\.)?(default\.)?/, "");
+          const tabName = key.replace(/^tab\./, "");
           return (
             <button
               key={key}
-              id={`tab_${id}_${tabName}`}
+              id={`${baseId}-tab-${tabName}`}
               type="button"
               role="tab"
-              aria-controls={`panel_${id}_${tabName}`}
-              aria-selected="false"
+              aria-controls={`${baseId}-panel-${tabName}`}
+              aria-selected={selectedTab === tabName}
               data-tab={tabName}
-              data-default={key === defaultTab ? true : null}
+              data-default={tabName === "default" ? true : null}
+              onClick={() => {
+                setSelectedTab(tabName)
+              }}
             >
               {element}
             </button>
           );
         })}
       </div>
-      <div className="panel-list">
+      <div className={styles["panel-list"]}>
         {panels.map(([key, element]) => {
-          const tabName = key.replace(/^panel\.(\d+\.)?(default\.)?/, "");
+          const tabName = key.replace(/^panel\./, "");
           return (
             <div
               key={key}
-              id={`panel_${id}_${tabName}`}
+              id={`${baseId}-panel-${tabName}`}
               role="tabpanel"
-              aria-labelledby={`tab_${id}_${tabName}`}
+              aria-labelledby={`${baseId}-tab-${tabName}`}
               data-tab={tabName}
-              data-default={key === defaultTab ? true : null}
+              data-default={tabName === "default" ? true : null}
+              hidden={selectedTab !== tabName}
             >
               {element}
             </div>
@@ -61,4 +58,31 @@ export default function Tabs(props: {
       </div>
     </div>
   );
+}
+
+import { useCallback, useId, useSyncExternalStore } from "react";
+
+const searchParamsChange = new EventTarget();
+
+function useSearchParamsState(queryKey: string) {
+  const value = useSyncExternalStore(
+    (onStorechange) => {
+      searchParamsChange.addEventListener("change", onStorechange);
+      return () => searchParamsChange.removeEventListener("change", onStorechange);
+    },
+    () => {
+      const url = new URL(location.href);
+      return url.searchParams.get(queryKey) ?? "default";
+    },
+    () => "default"
+  );
+
+  const setValue = useCallback((newValue: string) => {
+    const url = new URL(location.href);
+    url.searchParams.set(queryKey, newValue);
+    history.replaceState(null, "", url.href);
+    searchParamsChange.dispatchEvent(new Event("change"));
+  }, [queryKey]);
+
+  return [value, setValue] as const;
 }
