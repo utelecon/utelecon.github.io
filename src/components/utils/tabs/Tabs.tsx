@@ -15,7 +15,7 @@ export default function Tabs(props: {
   const baseId = useId();
 
   return (
-    <div className={styles["generic-tabgroup"]}>
+    <div className={styles["tabs"]}>
       <div className={styles["tab-list"]} role="tablist">
         {tabs.map(([key, element]) => {
           const tabName = key.replace(/^tab\./, "");

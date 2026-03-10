@@ -153,7 +153,7 @@ prop `variant`の値によって，表示する要素が切り替わります．
 - `outerClass` (`string` 型) … 描画される画像を包む `<div>` タグに適用するCSSクラスを指定します．複数指定する場合は半角スペースを空けて並べます．
   - 注：`ArrowOverlay` は内部的には `<div>` タグの中に `Image` コンポーネントと `<svg>` タグを並べた形になっており，指定したCSSクラスはこの `<div>` タグに適用されます．
 
-### [`Tabs`](utils/tabs/Tabs.tsx), [`TabScript`](utils/tabs/TabScript.astro)
+### [`Tabs`](utils/tabs/Tabs.tsx)
 
 タブUIのコンポーネントです．タブを選択することにより，ユーザーが表示内容を切り替えることができます．
 
