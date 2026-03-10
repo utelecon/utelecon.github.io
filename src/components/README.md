@@ -170,7 +170,7 @@ interface Props {
 import Tabs from "@components/utils/tabs/Tabs";
 ---
 
-<Tabs queryKey="os">
+<Tabs queryKey="os" client:visible>
   <div slot="panel.default">
     上のタブからOSを選択してください．
   </div>
@@ -193,6 +193,8 @@ import Tabs from "@components/utils/tabs/Tabs";
 
 - `queryKey` … どのクエリパラメータを使用するか指定します．
   - 例：`queryKey="os"`とすると，タブの選択内容がURLの`?os=windows`のようなクエリパラメータと同期します．
+- `client:visible`：おまじないです．
+  - 詳しくは [Astro のドキュメント](https://docs.astro.build/ja/reference/directives-reference/#クライアントディレクティブ)を参照してください．
 - slotの名前 … ドットで区切られた文字列で，タブ名などを指定します．
   - 書式 … `tab`/`panel` + `.` + tab name
     - `tab`/`panel` … 当該slotがタブ本体か，タブを選択すると表示されるパネルかを指定します．
