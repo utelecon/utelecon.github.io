@@ -42,9 +42,3 @@ UTokyo Accountが失効すると，東京大学が提供しているUTokyo Micro
 ### Windowsを使用している場合の注意
 WindowsでOneDriveのファイルを同期して利用している場合，「デスクトップ」「ドキュメント」などのフォルダがOneDrive上に存在する場合があります．バックアップのためにOneDriveからダウンロードしたファイルは，OneDriveと同期されていないフォルダに保存してください．
 
-
-## ECCS端末
-UTokyo Accountの失効後は，ECCS端末に保存されたデータにアクセスすることができなくなります．UTokyo Accountが有効である期間中に，データのバックアップを取ってください．
-
-ECCS端末内のデータを自身の端末に保存するにあたっては，USBメモリを経由する方法のほか，[WebDAV環境を利用する](/eccs/features/webdav/)方法もあります．
-
