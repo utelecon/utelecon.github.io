@@ -48,7 +48,7 @@ In addition, you can convert a meeting into a webinar [a separate additional lic
 ## Delete a Meeting
 {:#delete}
 
-You can delete a meeting from the [meeting list screen](https://u-tokyo-ac-jp.zoom.us/meeting) in the web portal or from the Meeting Management screen. Note that you cannot delete a meeting from the Meeting Edit screen.．
+You can delete a meeting from the [meeting list screen](https://u-tokyo-ac-jp.zoom.us/meeting) in the web portal or from the Meeting Management screen. Note that you cannot delete a meeting from the Meeting Edit screen.
 
 ### How to Delete from the Meeting List Screen
 

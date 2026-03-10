@@ -1,7 +1,8 @@
 ---
-import { getISODateString, getLocaleDateString, noticesWithId } from "@data/utils/notices";
+import { getEntry } from "astro:content";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
+import { getISODateString, getLocaleDateString } from "src/lib/util";
 
 /**
  * `Markdown`の利用例として紹介されています．
@@ -26,6 +27,8 @@ interface NoticeContent {
 }
 
 const { lang, strip, localize } = Astro.props;
+
+const { data: noticesWithId } = await getEntry("notices", "notice")!;
 
 const contents: NoticeContent[] = [];
 
