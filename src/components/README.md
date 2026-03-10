@@ -163,10 +163,6 @@ prop `variant`の値によって，表示する要素が切り替わります．
 
 ```astro
 ---
-interface Props {
-  id: string;
-}
-
 import Tabs from "@components/utils/tabs/Tabs";
 ---
 
