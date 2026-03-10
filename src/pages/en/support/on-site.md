@@ -37,7 +37,7 @@ Consultations are generally available on weekdays from 10:20 a.m. to 6:30 p.m. H
 - As student staff work on a rotating schedule, we may not be able to respond even during the above hours. The actual availability[^1] is published on the following page (scroll the table toward the right to view it):
 <b class="box center">[Consultation Schedule](https://cs-gm.adm.u-tokyo.ac.jp/gm/schedule/2026pres/) (only in Japanese)</b>
 - During Periods of particularly high demand, consultation days and hours may be extended.
-- From Saturday, March 14, 2026 through Sunday, April 19, 2026 (Including Friday, March 20) business hours on weekends and holidays are available at Komaba Library and General Library. The operator service is not available at Information Technology Education Building.
+    - From Saturday, March 14, 2026 through Sunday, April 19, 2026 (Including Friday, March 20) business hours on weekends and holidays are available at Komaba Library and General Library. The operator service is not available at Information Technology Education Building.
 
 [^1]: The meaning of each time slot displayed on the schedule page is as shown in the following table.　Early, mid, and late: <table>
     <tr>
