@@ -1,11 +1,18 @@
+import { useCallback, useId, useSyncExternalStore } from "react";
 import styles from "./Tabs.module.scss"
 
 export default function Tabs(props: {
   queryKey: string;
+  defaultTab: string;
   [key: `tab.${string}`]: React.ReactNode;
   [key: `panel.${string}`]: React.ReactNode;
 }) {
+  if (!props.queryKey || !props.defaultTab) {
+    throw new Error("props.queryKey and props.defaultTab are required")
+  }
+
   const [selectedTab, setSelectedTab] = useSearchParamsState(props.queryKey);
+  const selectedTabWithDefault = selectedTab ?? props.defaultTab;
 
   const tabs = Object.entries(props).filter(([key]) => key.startsWith("tab."));
   const panels = Object.entries(props).filter(([key]) =>
@@ -26,9 +33,7 @@ export default function Tabs(props: {
               type="button"
               role="tab"
               aria-controls={`${baseId}-panel-${tabName}`}
-              aria-selected={selectedTab === tabName}
-              data-tab={tabName}
-              data-default={tabName === "default" ? true : null}
+              aria-selected={selectedTabWithDefault === tabName}
               onClick={() => {
                 setSelectedTab(tabName)
               }}
@@ -47,9 +52,7 @@ export default function Tabs(props: {
               id={`${baseId}-panel-${tabName}`}
               role="tabpanel"
               aria-labelledby={`${baseId}-tab-${tabName}`}
-              data-tab={tabName}
-              data-default={tabName === "default" ? true : null}
-              hidden={selectedTab !== tabName}
+              hidden={selectedTabWithDefault !== tabName}
             >
               {element}
             </div>
@@ -59,8 +62,6 @@ export default function Tabs(props: {
     </div>
   );
 }
-
-import { useCallback, useId, useSyncExternalStore } from "react";
 
 const searchParamsChange = new EventTarget();
 
@@ -72,9 +73,9 @@ function useSearchParamsState(queryKey: string) {
     },
     () => {
       const url = new URL(location.href);
-      return url.searchParams.get(queryKey) ?? "default";
+      return url.searchParams.get(queryKey);
     },
-    () => "default"
+    () => null
   );
 
   const setValue = useCallback((newValue: string) => {
