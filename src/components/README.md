@@ -166,8 +166,8 @@ prop `variant`の値によって，表示する要素が切り替わります．
 import Tabs from "@components/utils/tabs/Tabs";
 ---
 
-<Tabs queryKey="os" client:visible>
-  <div slot="panel.default">
+<Tabs client:visible queryKey="os" defaultTab="pleaseSelect">
+  <div slot="panel.pleaseSelect">
     上のタブからOSを選択してください．
   </div>
   <div slot="tab.windows">
@@ -187,20 +187,22 @@ import Tabs from "@components/utils/tabs/Tabs";
 
 主要なパラメータを以下に示します：
 
-- `queryKey` … どのクエリパラメータを使用するか指定します．
-  - 例：`queryKey="os"`とすると，タブの選択内容がURLの`?os=windows`のようなクエリパラメータと同期します．
 - `client:visible`：おまじないです．
   - 詳しくは [Astro のドキュメント](https://docs.astro.build/ja/reference/directives-reference/#クライアントディレクティブ)を参照してください．
-- slotの名前 … ドットで区切られた文字列で，タブ名などを指定します．
-  - 書式 … `tab`/`panel` + `.` + tab name
+- `queryKey` … どのクエリパラメータを使用するか指定します．必須です．
+  - 例：`queryKey="os"` とすると，タブの選択内容がURLの `?os=windows` のようなクエリパラメータと同期します．
+- `defaultTab` … 初期状態でどのタブを選択しているかを指定します．必須です．
+- slotの名前 (`<slot name="...">`) … ドットで区切られた文字列で，タブ名などを指定します．
+  - 書式 … `tab`/`panel` + `.` + タブ名
     - `tab`/`panel` … 当該slotがタブ本体か，タブを選択すると表示されるパネルかを指定します．
-    - tab name … タブ名です．タブとパネルの組ごとに異なるタブ名を指定してください．
-      - デフォルトのタブでは `default` を指定してください．
-  - 例：`tab.windows`とすると，`panel.windows`もしくは`panel.windows`を指定したパネルが表示されます．
-  - 例：`panel.default`と指定すると，何も選択されていないときはこのパネルが表示されます．
+    - タブ名 … タブとパネルの組ごとに異なるタブ名を指定してください．
+      - `camelCase` としてください．`kebab-case` などにすると正しく動作しません[^1]。
+  - 例：`tab.windows`とすると，`panel.windows` を指定したパネルが表示されます．
 - タブが表示される順番は書いた順番に従います．
 
-原則としてタブとパネルはセットですが，上の例のように，タブを作らずにパネルだけにしておき，名前を`default`とすると，何も選択されていないときのメッセージを表示できます．
+[^1]: 内部的には React を使用していますが，Astro が React に名前付き slot を渡す際に `kebab-case` を `camelCase` に変換します[†](https://docs.astro.build/ja/guides/framework-components/#フレームワークコンポーネントへの子要素の受け渡し)が，HTML 生成時とクライアント側の hydrate 時で挙動が異なるようです．そのため、変換が行われないようにするために `camelCase` のみをタブ名として使います．
+
+原則としてタブとパネルはセットですが，上の例の `pleaseSelect` のように，タブを作らずにパネルだけにしておいて `defaultTab` に指定すると，何も選択されていないときのメッセージを表示できます．
 
 利用したいページでは，以下のように上で作成したAstroコンポーネントを通して使います．
 
