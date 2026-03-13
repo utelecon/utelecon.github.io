@@ -33,19 +33,18 @@ title: 生成AI（ChatGPT等）関連情報
 
 チャット形式ではなく，既存の特定の機能を実現するアプリの中に組み込まれている生成AIサービスもあります．このようなサービスでは，多くの場合，アプリの機能と関連した特定のAI機能(例えば，オンラインミーティングでの議事録作成，ドキュメント作成の支援)が提供されており，比較的簡単な操作で利用できる傾向があります．東大全学で契約しているものとしては，次のような例があります．
 
-- [Zoom](/zoom/): AI Companion
-    - [Zoom AI Companionを使う](/zoom/ai-companion/)
+- [Zoom](/zoom/): [AI Companion](/zoom/ai-companion/)
     - [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion/)（2025年1月27日）
-- [Slack](/slack/): Slack AI
-    - Proプラン相当のベーシックなものを使えます[出典]
+- [Slack](/slack/): [Slack AI](https://slack.com/intl/ja-jp/help/articles/25076892548883-Slack-%E3%81%AE-AI-%E6%A9%9F%E8%83%BD%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9%E3%82%AC%E3%82%A4%E3%83%89)
+    - Proプラン相当のベーシックな機能が利用可能です．
 - [Webex](/webex/)
-    - Cisco AI アシスタント https://help.webex.com/ja-jp/article/nyzkuik/ 
-    - Webex AI https://www.webex.com/jp/ja/ai/index.html 
-- [Slido](/slido/)
-    - https://www.slido.com/ai 
-- [Teams](/microsoft#teams)(教職員のみに提供): Copilot in Teams
-        - https://www.microsoft.com/ja-jp/microsoft-teams/teams-ai
-        - https://support.microsoft.com/ja-jp/office/microsoft-teams-%E4%BC%9A%E8%AD%B0%E3%81%A7-copilot-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1 
+    - [Cisco AI アシスタント](https://help.webex.com/ja-jp/article/nyzkuik/) 
+    - [Webex AI](https://www.webex.com/jp/ja/ai/index.html) 
+- [Slido](/slido/): [Slido AI](https://www.slido.com/ai)
+- [Teams](/microsoft#teams)(教職員のみに提供): [Copilot in Teams](https://www.microsoft.com/ja-jp/microsoft-teams/teams-ai)
+    - [Microsoft Teams 会議で Copilot を使用する(Microsoft公式ヘルプ)](https://support.microsoft.com/ja-jp/office/microsoft-teams-%E4%BC%9A%E8%AD%B0%E3%81%A7-copilot-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
+- [ECCSクラウドメール(Google Workspace for Education)](/google/): Gemini for Google Workspace
+    - 利用には，[Google Workspace for Education Plusライセンス](/google/misc/education-plus/)の申請が必要です．詳細は「[Googleドキュメント, Googleスライド, GoogleフォームでGeminiが使えるようになりました](/notice/2026/0302-gemini-gws/)」をご覧ください．
 
 ### その他のサービス
 
@@ -59,8 +58,7 @@ title: 生成AI（ChatGPT等）関連情報
 
 #### 開発者向けのサービス
 
-- [MATLAB](/matlab/): AI Chat Playground
-    - https://jp.mathworks.com/matlabcentral/playground?s_tid=gn_mlc_playground
+- [MATLAB](/matlab/): [AI Chat Playground](https://jp.mathworks.com/matlabcentral/playground?s_tid=gn_mlc_playground)
 - [UTokyo Azure](/research_computing/utokyo_azure/)
     - UTokyo Azureでは，APIをはじめとした様々な方法で[AIを利用できる環境](/research_computing/utokyo_azure/ai/)を提供しています．また選択可能なモデルの種類も多様です．
 
