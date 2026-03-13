@@ -7,24 +7,23 @@ breadcrumb:
   title: the Zoom App
   parent: /zoom/
 ---
+
+import InstallAppPc from "@components/en/systems/zoom/InstallAppPc.mdx";
+import InstallAppSp from "@components/en/systems/zoom/InstallAppSp.mdx";
+
 ## Introduction
-{:#overview} 
-This page provides an introduction to the basic usage and useful features of the Zoom application. Zoom can be used from the browser as well as from the app, but when used from the browser, there are limitations in terms of functionality and usability. It is more comfortable to use the Zoom app. In this article, first, we explain how to install the desktop app for PC, and the basic operations, e.g., making and editing meetings. Then, we briefly explain the app for smartphones and other mobile devices and finally, we also show you how to switch meetings you are participating in between multiple devices.  
+{:#overview}
+This page provides an introduction to the basic usage and useful features of the Zoom application. Zoom can be used from the browser as well as from the app, but when used from the browser, there are limitations in terms of functionality and usability. It is more comfortable to use the Zoom app. In this article, first, we explain how to install the desktop app for PC, and the basic operations, e.g., making and editing meetings. Then, we briefly explain the app for smartphones and other mobile devices and finally, we also show you how to switch meetings you are participating in between multiple devices.
 
 ## How to install the app for PC
-{:#install} 
+{:#install}
 To use the app, you first need to install it.
 There are two ways to install the Zoom app: in advance, or when joining a meeting.
 
 ### Installing in advance
 {:#install-before}
-1. Please access the "[Download Center](https://zoom.us/download)” from the Zoom website.
+<InstallAppPc support variant="individual" />
 
-2. Please press the "Download” button in "Zoom Workplace”. The Zoom Workplace installer will be downloaded ("Zoom Workplace” is the name of the app for using Zoom).
-![](./ZoomApps_download_windows.png){:.border .medium}
-![](./ZoomApps_download_mac.png){:.border .medium}
-4. Following steps vary depending on the situation. Sometimes the installation proceeds automatically to completion, while other times you may need to go through operations that require pressing of confirmation buttons or opening the downloaded files yourself. 
-  
 ### Installing when you participate in a meeting
 {:#install-on-join}
 1. Please access the meeting URL.
@@ -46,7 +45,7 @@ If the date and time of a meeting are already determined, you can create the mee
 1. Open the Zoom app.
 2. Press "Schedule”.
    ![](./ZoomApps_schedule.png){:.border .small}
-3. Please set up information for a meeting. Details of settings for a meeting are shown in the "[Scheduling a Zoom Meeting](/en/zoom/create_room/#settings)” pages.  
+3. Please set up information for a meeting. Details of settings for a meeting are shown in the "[Scheduling a Zoom Meeting](/en/zoom/create_room/#settings)” pages.
 ![](./ZoomApps_schedule_detail.png){:.border .medium}
 4. Press "Save” in the lower right corner. In the previous screen, if you selected “Other calendars” for “Calendar”, a screen such as that shown below will appear. Select the meeting URL, meeting ID, passcode, e.g., listed under “Join Zoom Meeting” and notify the participants by e-mail.
 ![](./ZoomApps_schedule_invitation.png){:.border .medium}
@@ -56,7 +55,7 @@ If the date and time of a meeting are already determined, you can create the mee
 If you have an urgent meeting, you can set up a meeting immediately.
 
 1. Open the Zoom app.
-2. Press "New Meeting”. There are two types of meeting IDs used in this case: 
+2. Press "New Meeting”. There are two types of meeting IDs used in this case:
 a random meeting ID (11 digits) and the “Personal Meeting ID” (10 digits). By default, a random meeting ID is newly generated each time and becomes invalid immediately after the meeting. On the other hand, if you want to use your personal meeting ID, please press the "∨” next to "New Meeting” and check "Use my personal meeting ID”.
   * The personal meeting ID is a meeting ID that is uniquely assigned to each user as meetings for personal use. One advantage is that you don’t need to send out an invitation if the other person already knows your personal meeting ID. However, if you do not set up a lock for the meeting, or use the waiting room feature, people who know your personal meeting ID can enter the room even when you are using a meeting for other purposes, so you need to be careful.
 ![](./ZoomApps_newmeeting.png){:.border .small}
@@ -67,7 +66,7 @@ a random meeting ID (11 digits) and the “Personal Meeting ID” (10 digits). B
 ## Confirmation and editing of a meeting on the app
 {:#manage}
 You can confirm the created meeting from “Meetings” at the top of the app screen, and copy the invitation link as well as edit the meeting.
-![](./ZoomApps_schedule_check.png){:.border .medium}  
+![](./ZoomApps_schedule_check.png){:.border .medium}
 On the day of the meeting, a screen like the image below will appear in the “Home” page. You can copy the invitation link and edit the meeting from “...”.
 ![](./ZoomApps_schedule_remind.png){:.border .medium}
 
@@ -94,11 +93,11 @@ The Zoom app is regularly updated with new versions, where new feature functions
 ### Steps to update
 {:#update-steps}
 From the icon on the home screen, please press the “Check for updates”. Then, a check starts to confirm whether or not you have the latest version. When the latest version is already installed, the message "You are up to date” is displayed. When a newer version is available, the message“A newer version of Zoom is available” is displayed. Please press “Update Now” to install the latest version.
-![](./ZoomApps_updatecheck_1.png){:.border .medium}  
+![](./ZoomApps_updatecheck_1.png){:.border .medium}
 ![](./ZoomApps_updatecheck_2.png){:.border .medium}
 
 Also, it is useful to set your settings for automatic updates. Press the gear icon in the upper right corner of the home screen to open the settings window, and by checking the box for “Update app automatically” in the “General” section, automatic updates are enabled. In this way, when a newer version of Zoom becomes available, a message that prompts updating as shown in the image below is displayed.
-![](./ZoomApps_updatable.png){:.border .medium}  
+![](./ZoomApps_updatable.png){:.border .medium}
 When the message appears, if you press “Later” or close the window, when you next launch the application, the update program is automatically installed, and the following message is displayed.
 ![](./ZoomApps_installed.png){:.border .medium}
 
@@ -108,12 +107,9 @@ We have explained the desktop app until now, here, we will explain about the mob
 ### Installation
 {:#mobile-install}
 You can download the mobile app "Zoom Workplace” from the application store.
-1. Please open the “App Store” for the iOS version or “Google Play Store” for the Android version.
-2. Please enter “zoom” in the search window and search.
-3. Please download the app named “Zoom Workplace”. You should be careful that other apps with the name “Zoom” or similar fake apps may be displayed.
 
-You can also open the app store from the “[Download Center](https://zoom.us/download)” on the official website. By going through the official website, you can avoid downloading the wrong apps.
-![](./ZoomApps_download_mobile.png){:.border .medium}
+<InstallAppSp />
+
 You need to sign in when you start using the app. Please refer to the “[Sign-in Methods for Zoom](/en/zoom/signin/#app)” and sign in with your UTokyo Account similar to the desktop application.
 
 ### Differences between the mobile and desktop apps
