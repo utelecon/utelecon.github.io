@@ -1,8 +1,8 @@
 ---
-title: 生成AI（ChatGPT等）関連情報
+title: 生成AI関連情報
 ---
 
-このページでは，ChatGPT等の生成AI (Generative AI) に関する情報をまとめていきます（随時更新予定）．
+このページでは，生成AI (Generative AI) に関する情報をまとめていきます（随時更新予定）．
 
 ## ガイドライン・メッセージ等
 
@@ -13,6 +13,8 @@ title: 生成AI（ChatGPT等）関連情報
 
 ## 全学構成員向けの生成AIサービス
 
+2026年3月時点での全学構成員向けの生成AIサービスの提供状況について，以下にまとめています．
+
 ### よく問い合わせがある生成AIサービス
 
 #### チャット形式のサービス
@@ -22,7 +24,9 @@ title: 生成AI（ChatGPT等）関連情報
 - [Gemini](https://gemini.google.com/app)
 - [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat/)
 
-上記の2つのサービスは，いずれも東京大学のアカウントで有償契約相当の基本的な機能が利用できるものです．UTokyo Accountを持っていれば誰でも利用できます．またデータ保護などについて，一定の規約が定めらています．(ただし，これは2026年3月現在の情報であり，実際に使える機能や条件などの変更があった場合には，学内での利用のルールや注意に変化があるかもしれません．特に，データ保護条項については，ユーザ自身でも適切であるか，常に確認してください．場合によっては明示的にオプトアウトの操作を行うことなどが必要になるかもしれません．)東大のアカウントでの利用について，詳しくは以下のページをご覧ください．
+上記の2つのサービスは，いずれも東京大学のアカウントで有償契約相当の基本的な機能が利用できるものです．UTokyo Accountを持っていれば誰でも利用できます．またデータ保護などについて，一定の規約が定めらています．(ただし，これは2026年3月現在の情報であり，実際に使える機能や条件などの変更があった場合には，学内での利用のルールや注意に変化があるかもしれません．特に，データ保護条項については，ユーザ自身でも適切であるか，常に確認してください．場合によっては明示的にオプトアウトの操作を行うことなどが必要になるかもしれません．)
+
+東大のアカウントでの利用について，詳しくは以下のページをご覧ください．
 
 - [ECCSクラウドメールでのGeminiの利用について](/google/gemini/)
 - [Microsoft Copilotによる生成AIチャットの提供について](/notice/2024/03-microsoft-copilot/)（2024年3月1日）
@@ -31,15 +35,17 @@ title: 生成AI（ChatGPT等）関連情報
 
 #### 一般的なアプリに組み込まれているAIサービス
 
-チャット形式ではなく，既存の特定の機能を実現するアプリの中に組み込まれている生成AIサービスもあります．このようなサービスでは，多くの場合，アプリの機能と関連した特定のAI機能(例えば，オンラインミーティングでの議事録作成，ドキュメント作成の支援)が提供されており，比較的簡単な操作で利用できる傾向があります．東大全学で契約しているものとしては，次のような例があります．
+チャット形式ではなく，既存の特定の機能を実現するアプリの中に組み込まれている生成AIサービスもあります．このようなサービスでは，多くの場合，アプリの機能と関連した特定のAI機能(例えば，オンラインミーティングでの議事録作成，ドキュメント作成の支援)が提供されており，比較的簡単な操作で利用できる傾向があります．
+
+東大全学で契約しているものとしては，次のような例があります．
 
 - [Zoom](/zoom/): [AI Companion](/zoom/ai-companion/)
-    - [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion/)（2025年1月27日）
-- [Slack](/slack/): [Slack AI](https://slack.com/intl/ja-jp/help/articles/25076892548883-Slack-%E3%81%AE-AI-%E6%A9%9F%E8%83%BD%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9%E3%82%AC%E3%82%A4%E3%83%89)
+    - 「[Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion/)（2025年1月27日）」も併せてご覧ください．
+- [UTokyo Slack](/slack/): [Slack AI](https://slack.com/intl/ja-jp/help/articles/25076892548883-Slack-%E3%81%AE-AI-%E6%A9%9F%E8%83%BD%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9%E3%82%AC%E3%82%A4%E3%83%89)
     - Proプラン相当のベーシックな機能が利用可能です．
 - [Webex](/webex/): [Cisco AI アシスタント](https://help.webex.com/ja-jp/article/nyzkuik/)，[Webex AI](https://www.webex.com/jp/ja/ai/index.html) 
 - [Slido](/slido/): [Slido AI](https://www.slido.com/ai)
-- [Teams](/microsoft#teams)(教職員のみに提供): [Copilot in Teams](https://www.microsoft.com/ja-jp/microsoft-teams/teams-ai)
+- [Microsoft Teams](/microsoft#teams)(教職員のみに提供): [Copilot in Teams](https://www.microsoft.com/ja-jp/microsoft-teams/teams-ai)
     - [Microsoft Teams 会議で Copilot を使用する(Microsoft公式ヘルプ)](https://support.microsoft.com/ja-jp/office/microsoft-teams-%E4%BC%9A%E8%AD%B0%E3%81%A7-copilot-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
 - [ECCSクラウドメール(Google Workspace for Education)](/google/): Gemini for Google Workspace
     - 利用には，[Google Workspace for Education Plusライセンス](/google/misc/education-plus/)の申請が必要です．詳細は「[Googleドキュメント, Googleスライド, GoogleフォームでGeminiが使えるようになりました](/notice/2026/0302-gemini-gws/)」をご覧ください．
@@ -52,11 +58,11 @@ title: 生成AI（ChatGPT等）関連情報
 - [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat/)のエージェント機能，ノートブック機能
     - 一部の教職員を対象として提供されています．詳しくは[UTokyo Portalの該当ページ](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981)(教職員のみアクセス可能，UTokyo Accountでのサインインが必要)をご覧ください．
 - [TREE Summon Research Assistant beta](https://tokyo-summon-serialssolutions-com.utokyo.idm.oclc.org/#!/research_assistant)
-    - [TREE新機能：生成AIツール「Summon Research Assistant（BETA版)」の提供開始](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20250828)
+    - 詳しくは「[TREE新機能：生成AIツール「Summon Research Assistant（BETA版)」の提供開始](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20250828)」をご覧ください．
 
 #### 開発者向けのサービス
 
-- [MATLAB](/matlab/): [AI Chat Playground](https://jp.mathworks.com/matlabcentral/playground?s_tid=gn_mlc_playground)
+- [UTokyo MATLAB Campus-Wide License](/matlab/): [AI Chat Playground](https://jp.mathworks.com/matlabcentral/playground?s_tid=gn_mlc_playground)
 - [UTokyo Azure](/research_computing/utokyo_azure/)
     - UTokyo Azureでは，APIをはじめとした様々な方法で[AIを利用できる環境](/research_computing/utokyo_azure/ai/)を提供しています．また選択可能なモデルの種類も多様です．
 
