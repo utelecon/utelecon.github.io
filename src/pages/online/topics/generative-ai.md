@@ -47,7 +47,7 @@ title: 生成AI関連情報
 - [Slido](/slido/): [Slido AI](https://www.slido.com/ai)
 - [Microsoft Teams](/microsoft#teams)(教職員のみに提供): [Copilot in Teams](https://www.microsoft.com/ja-jp/microsoft-teams/teams-ai)
     - [Microsoft Teams 会議で Copilot を使用する(Microsoft公式ヘルプ)](https://support.microsoft.com/ja-jp/office/microsoft-teams-%E4%BC%9A%E8%AD%B0%E3%81%A7-copilot-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
-- [ECCSクラウドメール(Google Workspace for Education)](/google/): Gemini for Google Workspace
+- [ECCSクラウドメール(Google Workspace for Education)](/google/): [Gemini for Google Workspace](https://knowledge.workspace.google.com/admin/gemini/google-workspace-with-gemini?hl=ja-#education)
     - 利用には，[Google Workspace for Education Plusライセンス](/google/misc/education-plus/)の申請が必要です．詳細は「[Googleドキュメント, Googleスライド, GoogleフォームでGeminiが使えるようになりました](/notice/2026/0302-gemini-gws/)」をご覧ください．
 
 ### その他のサービス
