@@ -37,9 +37,7 @@ title: 生成AI（ChatGPT等）関連情報
     - [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion/)（2025年1月27日）
 - [Slack](/slack/): [Slack AI](https://slack.com/intl/ja-jp/help/articles/25076892548883-Slack-%E3%81%AE-AI-%E6%A9%9F%E8%83%BD%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9%E3%82%AC%E3%82%A4%E3%83%89)
     - Proプラン相当のベーシックな機能が利用可能です．
-- [Webex](/webex/)
-    - [Cisco AI アシスタント](https://help.webex.com/ja-jp/article/nyzkuik/) 
-    - [Webex AI](https://www.webex.com/jp/ja/ai/index.html) 
+- [Webex](/webex/): [Cisco AI アシスタント](https://help.webex.com/ja-jp/article/nyzkuik/)，[Webex AI](https://www.webex.com/jp/ja/ai/index.html) 
 - [Slido](/slido/): [Slido AI](https://www.slido.com/ai)
 - [Teams](/microsoft#teams)(教職員のみに提供): [Copilot in Teams](https://www.microsoft.com/ja-jp/microsoft-teams/teams-ai)
     - [Microsoft Teams 会議で Copilot を使用する(Microsoft公式ヘルプ)](https://support.microsoft.com/ja-jp/office/microsoft-teams-%E4%BC%9A%E8%AD%B0%E3%81%A7-copilot-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
@@ -65,8 +63,9 @@ title: 生成AI（ChatGPT等）関連情報
 ### 参考情報
 
 - [当面の全学構成員向け生成AIサービス提供方針について](/notice/2024/0327-ai-service/)（2024年3月27日）
-- [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui/)（2024年3月29日）
-- [生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat/)（2023年10月20日）
+- 以下のページで紹介している「Chatbot UI」による生成AIチャットサービスの実験的な提供は，2024年3月28日をもって終了しました．
+    - [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui/)（2024年3月29日）
+    - [生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat/)（2023年10月20日）
 
 ## その他参考情報
 - [生成AIの提供方針に関するアンケートの結果等について](/notice/2024/04-aichat-survey-result/)
