@@ -13,11 +13,61 @@ title: 生成AI（ChatGPT等）関連情報
 
 ## 全学構成員向けの生成AIサービス
 
+### よく問い合わせがある生成AIサービス
+
+#### チャット形式のサービス
+
+東京大学で全学的に契約している生成AIサービスの中で，チャット形式のものとして，主に以下の2つのサービスがあります．
+
+- Gemini https://gemini.google.com/app
+- Microsoft 365 Copilot Chat https://m365.cloud.microsoft/chat/
+
+上記の2つのサービスは，いずれも東京大学のアカウントで有償契約相当の基本的な機能が利用できるものです．UTokyo Accountを持っていれば誰でも利用できます．またデータ保護などについて，一定の規約が定めらています．(ただし，これは2026年3月現在の情報であり，実際に使える機能や条件などの変更があった場合には，学内での利用のルールや注意に変化があるかもしれません．特に，データ保護条項については，ユーザ自身でも適切であるか，常に確認してください．っては明示的にオプトアウトの操作を行うことなどが必要になるかもしれません．)東大のアカウントでの利用について，詳しくは以下のページをご覧ください．
+
 - [ECCSクラウドメールでのGeminiの利用について](/google/gemini/)
-- [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion/)（2025年1月27日）
-- [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui/)（2024年3月29日）
-- [当面の全学構成員向け生成AIサービス提供方針について](/notice/2024/0327-ai-service/)（2024年3月27日）
 - [Microsoft Copilotによる生成AIチャットの提供について](/notice/2024/03-microsoft-copilot/)（2024年3月1日）
+
+なおよくお問合せいただきますが，ChatGPTについては全学での契約はありません．
+
+#### 一般的なアプリに組み込まれているAIサービス
+
+チャット形式ではなく，既存の特定の機能を実現するアプリの中に組み込まれている生成AIサービスもあります．このようなサービスでは，多くの場合，アプリの機能と関連した特定のAI機能(例えば，オンラインミーティングでの議事録作成，ドキュメント作成の支援)が提供されており，比較的簡単な操作で利用できる傾向があります．東大全学で契約しているものとしては，次のような例があります．
+
+- [Zoom](/zoom/): AI Companion
+    - [Zoom AI Companionを使う](/zoom/ai-companion/)
+    - [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion/)（2025年1月27日）
+- [Slack](/slack/): Slack AI
+    - Proプラン相当のベーシックなものを使えます[出典]
+- [Webex](/webex/)
+    - Cisco AI アシスタント https://help.webex.com/ja-jp/article/nyzkuik/ 
+    - Webex AI https://www.webex.com/jp/ja/ai/index.html 
+- [Slido](/slido/)
+    - https://www.slido.com/ai 
+- [Teams](/microsoft#teams)(教職員のみに提供): Copilot in Teams
+        - https://www.microsoft.com/ja-jp/microsoft-teams/teams-ai
+        - https://support.microsoft.com/ja-jp/office/microsoft-teams-%E4%BC%9A%E8%AD%B0%E3%81%A7-copilot-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1 
+
+### その他のサービス
+
+#### 特定の機能に特化した高度な機能を有するサービスなど
+
+- NotebookLM https://notebooklm.google.com/ 
+- Microsoft 365 Copilotのエージェント機能，ノートブック機能 https://m365.cloud.microsoft/chat/ (+α)
+- TREE Summon Research Assistant beta
+    - https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20250828 
+    - https://tokyo-summon-serialssolutions-com.utokyo.idm.oclc.org/#!/research_assistant
+
+#### 開発者向けのサービス
+
+- [MATLAB](/matlab/): AI Chat Playground
+    - https://jp.mathworks.com/matlabcentral/playground?s_tid=gn_mlc_playground
+- [UTokyo Azure](/research_computing/utokyo_azure/)
+    - UTokyo Azureでは，APIをはじめとした様々な方法で[AIを利用できる環境](/research_computing/utokyo_azure/ai/)を提供しています．また選択可能なモデルの種類も多様です．
+
+### 参考情報
+
+- [当面の全学構成員向け生成AIサービス提供方針について](/notice/2024/0327-ai-service/)（2024年3月27日）
+- [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui/)（2024年3月29日）
 - [生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat/)（2023年10月20日）
 
 ## その他参考情報
