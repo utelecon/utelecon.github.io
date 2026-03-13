@@ -19,8 +19,8 @@ title: 生成AI（ChatGPT等）関連情報
 
 東京大学で全学的に契約している生成AIサービスの中で，チャット形式のものとして，主に以下の2つのサービスがあります．
 
-- Gemini https://gemini.google.com/app
-- Microsoft 365 Copilot Chat https://m365.cloud.microsoft/chat/
+- [Gemini](https://gemini.google.com/app)
+- [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat/)
 
 上記の2つのサービスは，いずれも東京大学のアカウントで有償契約相当の基本的な機能が利用できるものです．UTokyo Accountを持っていれば誰でも利用できます．またデータ保護などについて，一定の規約が定めらています．(ただし，これは2026年3月現在の情報であり，実際に使える機能や条件などの変更があった場合には，学内での利用のルールや注意に変化があるかもしれません．特に，データ保護条項については，ユーザ自身でも適切であるか，常に確認してください．っては明示的にオプトアウトの操作を行うことなどが必要になるかもしれません．)東大のアカウントでの利用について，詳しくは以下のページをご覧ください．
 
@@ -50,11 +50,11 @@ title: 生成AI（ChatGPT等）関連情報
 
 #### 特定の機能に特化した高度な機能を有するサービスなど
 
-- NotebookLM https://notebooklm.google.com/ 
-- Microsoft 365 Copilotのエージェント機能，ノートブック機能 https://m365.cloud.microsoft/chat/ (+α)
-- TREE Summon Research Assistant beta
-    - https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20250828 
-    - https://tokyo-summon-serialssolutions-com.utokyo.idm.oclc.org/#!/research_assistant
+- [NotebookLM](https://notebooklm.google.com/) 
+- [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat/)のエージェント機能，ノートブック機能
+    - (+α)
+- [TREE Summon Research Assistant beta](https://tokyo-summon-serialssolutions-com.utokyo.idm.oclc.org/#!/research_assistant)
+    - [TREE新機能：生成AIツール「Summon Research Assistant（BETA版)」の提供開始](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20250828)
 
 #### 開発者向けのサービス
 
