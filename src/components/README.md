@@ -200,7 +200,7 @@ import Tabs from "@components/utils/tabs/Tabs";
   - 例：`tab.windows`とすると，`panel.windows` を指定したパネルが表示されます．
 - タブが表示される順番は書いた順番に従います．
 
-[^1]: 内部的には React を使用していますが，Astro が React に名前付き slot を渡す際に `kebab-case` を `camelCase` に変換します[†](https://docs.astro.build/ja/guides/framework-components/#フレームワークコンポーネントへの子要素の受け渡し)が，HTML 生成時とクライアント側の hydrate 時で挙動が異なるようです．そのため、変換が行われないようにするために `camelCase` のみをタブ名として使います．
+[^1]: `Tabs` は React コンポーネントとして実装されています．Astro が React に名前付き slot を渡す際に `kebab-case` を `camelCase` に変換します[†](https://docs.astro.build/ja/guides/framework-components/#フレームワークコンポーネントへの子要素の受け渡し)が，HTML 生成時とクライアント側の hydrate 時で挙動が異なるようです．そのため、変換が行われないようにするために `camelCase` のみをタブ名として使います．
 
 原則としてタブとパネルはセットですが，上の例の `pleaseSelect` のように，タブを作らずにパネルだけにしておいて `defaultTab` に指定すると，何も選択されていないときのメッセージを表示できます．
 
