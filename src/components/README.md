@@ -167,21 +167,21 @@ import Tabs from "@components/utils/tabs/Tabs";
 ---
 
 <Tabs client:visible queryKey="os" defaultTab="pleaseSelect">
-  <div slot="panel.pleaseSelect">
+  <Fragment slot="panel.pleaseSelect">
     上のタブからOSを選択してください．
-  </div>
-  <div slot="tab.windows">
+  </Fragment>
+  <Fragment slot="tab.windows">
     Windows
-  </div>
-  <div slot="panel.windows">
+  </Fragment>
+  <Fragment slot="panel.windows">
     <slot name="windows" />
-  </div>
-  <div slot="tab.mac">
+  </Fragment>
+  <Fragment slot="tab.mac">
     Mac
-  </div>
-  <div slot="panel.mac">
+  </Fragment>
+  <Fragment slot="panel.mac">
     <slot name="mac" />
-  </div>
+  </Fragment>
 </Tabs>
 ```
 
@@ -196,8 +196,8 @@ import Tabs from "@components/utils/tabs/Tabs";
   - 書式 … `tab`/`panel` + `.` + タブ名
     - `tab`/`panel` … 当該slotがタブ本体か，タブを選択すると表示されるパネルかを指定します．
     - タブ名 … タブとパネルの組ごとに異なるタブ名を指定してください．
-      - `camelCase` としてください．`kebab-case` などにすると正しく動作しません[^1]。
-  - 例：`tab.windows`とすると，`panel.windows` を指定したパネルが表示されます．
+      - `camelCase` で記述してください．`kebab-case` などにすると正しく動作しません[^1]。
+  - 例：`tab.windows`を指定したタブを押すと，`panel.windows` を指定したパネルが表示されます．
 - タブが表示される順番は書いた順番に従います．
 
 [^1]: `Tabs` は React コンポーネントとして実装されています．Astro が React に名前付き slot を渡す際に `kebab-case` を `camelCase` に変換します[†](https://docs.astro.build/ja/guides/framework-components/#フレームワークコンポーネントへの子要素の受け渡し)が，HTML 生成時とクライアント側の hydrate 時で挙動が異なるようです．そのため、変換が行われないようにするために `camelCase` のみをタブ名として使います．
