@@ -20,20 +20,20 @@ import If from "@components/utils/If.astro"
 </Switch>
 
 1. Access [Microsoft 365 > Apps](https://m365.cloud.microsoft/apps/?auth=2) and sign in with your UTokyo Account (your 10-digit Common ID followed by `@utac.u-tokyo.ac.jp`).
-    <If cond={props.variant !== "oc"}>For detailed instructions and information on switching between Microsoft accounts, see [**Signing in to Microsoft Systems with UTokyo Account**](/microsoft/signin/).</If>
+    <If cond={props.variant !== "oc"}>For detailed instructions and information on switching between Microsoft accounts, see [**Signing in to Microsoft Systems with UTokyo Account**](/en/microsoft/signin/).</If>
     <details>
        <summary>Help: If you see a "You don't have access to this" error</summary>
-        The <a href="/utokyo_account/mfa/">Multi-Factor Authentication for your UTokyo Account</a> required to use Microsoft Office applications may not have been completed or may not yet be reflected in the system. Please make sure to complete the "<strong><a href="/utokyo_account/mfa/initial/">Initial Setup Procedures for UTokyo Account Multi-Factor Authentication</a></strong>" <strong>all the way through "Step 4: Apply to use Multi-Factor Authentication"</strong> to enable Multi-Factor Authentication for your UTokyo Account. After that, <strong>please wait approximately 30 minutes for the Multi-Factor Authentication settings to be reflected in the system</strong>.
-        <div>If the problem persists, please consult the <a href="/support/">Technical Support Desk</a>.</div>
+        The <a href="/en/utokyo_account/mfa/">Multi-Factor Authentication for your UTokyo Account</a> required to use Microsoft Office applications may not have been completed or may not yet be reflected in the system. Please make sure to complete the "<strong><a href="/en/utokyo_account/mfa/initial/">Initial Setup Procedures for UTokyo Account Multi-Factor Authentication</a></strong>" <strong>all the way through "Step 4: Apply to use Multi-Factor Authentication"</strong> to enable Multi-Factor Authentication for your UTokyo Account. After that, <strong>please wait approximately 30 minutes for the Multi-Factor Authentication settings to be reflected in the system</strong>.
+        <div>If the problem persists, please consult the <a href="/en/support/">Technical Support Desk</a>.</div>
     </details>
 2. Click "Install apps" in the upper right corner of the screen, and then click "Microsoft 365 Apps" from the menu that appears.
     <HelpItem lang="en" type={"details"}>
       <Fragment slot="problem">If "Microsoft 365 Apps" is not displayed</Fragment>
       <Fragment slot="solution">
         <If cond={props.variant === "oc"}>
-          You may not be registered as an [eligible user](/microsoft/install/#caution). If you believe you are eligible but "Microsoft 365 Apps" is not displayed, please check with the academic affairs office of your faculty/graduate school to confirm your student enrollment status.
+          You may not be registered as an [eligible user](/en/microsoft/install/#caution). If you believe you are eligible but "Microsoft 365 Apps" is not displayed, please check with the academic affairs office of your faculty/graduate school to confirm your student enrollment status.
           <Fragment slot="else">
-            You are not an [eligible user](/microsoft/install/#caution). If you need to use Office, one alternative is [Microsoft Office Web Apps](/microsoft/#office_web). If you believe you are an eligible user but "Microsoft 365 Apps" is not displayed, please check with the relevant office of your faculty/graduate school (academic affairs office for students, human resources office for faculty and staff) to confirm your enrollment or personnel registration status.
+            You are not an [eligible user](/en/microsoft/install/#caution). If you need to use Office, one alternative is [Microsoft Office Web Apps](/en/microsoft/#office_web). If you believe you are an eligible user but "Microsoft 365 Apps" is not displayed, please check with the relevant office of your faculty/graduate school (academic affairs office for students, human resources office for faculty and staff) to confirm your enrollment or personnel registration status.
           </Fragment>
         </If>
       </Fragment>
