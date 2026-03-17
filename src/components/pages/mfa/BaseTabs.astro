@@ -47,6 +47,23 @@ function panelProps(selection: Selection) {
     <div {...panelProps("fido")}><slot name="fido" /></div>
   </If>
 </div>
+<div id={`tab-list-${step}`} class="tab-list" role="tablist">
+  <button {...tabProps("ms_auth")}>{labels.ms_auth}</button>
+  <button {...tabProps("auth_app")}>{labels.auth_app}</button>
+  <button {...tabProps("phone")}>{labels.phone}</button>
+  <If cond={Boolean(labels.iCloud)}>
+    <button {...tabProps("iCloud")}>{labels.iCloud}</button>
+  </If>
+</div>
+<div id={`panel-list-${step}`} class="panel-list">
+  <div {...panelProps("selector")}><slot name="selector" /></div>
+  <div {...panelProps("ms_auth")}><slot name="ms_auth" /></div>
+  <div {...panelProps("auth_app")}><slot name="auth_app" /></div>
+  <div {...panelProps("phone")}><slot name="phone" /></div>
+  <If cond={Boolean(labels.iCloud)}>
+    <div {...panelProps("iCloud")}><slot name="iCloud" /></div>
+  </If>
+</div>
 
 <script>
   import { onChangeTab, emitChangeTab } from "./tabs";
