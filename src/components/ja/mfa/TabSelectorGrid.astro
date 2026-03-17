@@ -6,7 +6,7 @@ import MicrosoftAuthenticator from "./select/MicrosoftAuthenticator.mdx";
 import AuthenticatorApplication from "./select/AuthenticatorApplication.mdx";
 import Phone from "./select/Phone.mdx";
 import Fido from "./select/Fido.mdx";
-import iCloud from "./select/iCloud.mdx";
+import Icloud from "./select/iCloud.mdx";
 ---
 
 <BaseTabSelectorGrid
@@ -15,7 +15,7 @@ import iCloud from "./select/iCloud.mdx";
     auth_app: "その他の認証アプリ",
     phone: "電話番号",
     fido: "FIDO セキュリティキー",
-    iCloud: "iCloudパスキー",
+    Icloud: "iCloudパスキー",
   }}
   columnLabels={{
     first: "手順1",
@@ -26,5 +26,5 @@ import iCloud from "./select/iCloud.mdx";
   <AuthenticatorApplication group="initial" slot="auth_app" />
   <Phone group="initial" slot="phone" />
   <Fido group="initial" slot="fido" />
-  <iCloud group="initial" slot="iCloud" />
+  <Icloud group="initial" slot="iCloud" />
 </BaseTabSelectorGrid>
