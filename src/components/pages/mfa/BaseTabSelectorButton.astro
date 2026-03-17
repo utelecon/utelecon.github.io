@@ -66,6 +66,18 @@ function labelProps(selection: Selection) {
       </button>
     )
   }
+{
+    labels.iCloud && (
+      <button {...buttonProps("iCloud")}>
+        <span>
+          <span>
+            <b {...labelProps("iCloud")}>{labels.iCloud}</b>
+            <slot name="iCloud" />
+          </span>
+        </span>
+      </button>
+    )
+  }
 </div>
 
 <script>
