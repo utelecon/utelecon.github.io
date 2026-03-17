@@ -74,6 +74,22 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
       </>
     )
   }
+{
+    rowLabels.iCloud && (
+      <>
+        <p class="col-label">{rowLabels.iCloud}</p>
+        <span class="col-first">
+          <DemiRadioButton {...radioProps("first", "iCloud")} disabled />
+        </span>
+        <span class="col-alt">
+          <DemiRadioButton {...radioProps("alt", "iCloud")} />
+        </span>
+        <div class="col-description">
+          <slot name="iCloud" />
+        </div>
+      </>
+    )
+  }
 </div>
 
 <script>
