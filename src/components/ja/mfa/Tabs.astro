@@ -7,7 +7,7 @@ import MicrosoftAuthenticator from "./ms_auth/index.mdx";
 import AuthenticatorApplication from "./auth_app/index.mdx";
 import Phone from "./phone/index.mdx";
 import Fido from "./fido/index.mdx";
-import iCloud from "./iCloud/index.mdx";
+import ICloud from "./iCloud/index.mdx";
 import TabSelectorButton from "./TabSelectorButton.astro";
 
 interface Props {
@@ -32,5 +32,5 @@ const { step } = Astro.props;
   <AuthenticatorApplication step={step} slot="auth_app" />
   <Phone step={step} slot="phone" />
   <Fido step={step} slot="fido" />
-  <iCloud step={step} slot="iCloud" />
+  <ICloud step={step} slot="iCloud" />
 </BaseTabs>
