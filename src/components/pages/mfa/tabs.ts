@@ -15,7 +15,7 @@ export function emitChangeTab(step: string, selection: string | null) {
   if (!["first", "alt"].includes(step)) return;
 
   selection ??= "selector";
-  if (!["selector", "ms_auth", "auth_app", "phone", "fido"].includes(selection))
+  if (!["selector", "ms_auth", "auth_app", "phone", "fido", "iCloud"].includes(selection))
     selection = "selector";
 
   for (const listener of listeners) {
