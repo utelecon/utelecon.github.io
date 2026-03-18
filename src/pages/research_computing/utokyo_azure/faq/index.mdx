@@ -83,6 +83,11 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
+  <Fragment slot="problem">共同作成者にもロール割り当てを許可したい</Fragment>
+  <Fragment slot="solution"><p>特権管理者ロールの１つである**アクセス管理者**を追加で割り当てると，所有者権限は無い状態で他者のアカウント（メンバー）に権限（ロール）を付与することができるようになります．</p><p>このロールを設定する場合，設定ウィザードに条件パートが追加されますので，できるだけ必要最低限を選択するようにしてください．</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
   <Fragment slot="problem">すでに個人で契約しているサブスクリプションを UTokyo Azure に入れることはできますか</Fragment>
   <Fragment slot="solution">できません．</Fragment>
 </HelpItem>
