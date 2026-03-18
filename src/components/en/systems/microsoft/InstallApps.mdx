@@ -62,7 +62,7 @@ import If from "@components/utils/If.astro"
 1. Check the screen that appears and follow the instructions below.
     - If a dialog saying "Sign in to get the most out of Office" or similar is displayed: You are not signed in to any Microsoft account in the Office app. Click "Sign in or create account".
       <If cond={props.variant == "individual"}>![](img/microsoft-install-signin-new.png){:.medium}</If>
-    - If the above screen does not appear and the normal editing screen is displayed: You are signed in to the Office app with some Microsoft account. Click the person icon in the upper right corner, then check which account you are currently signed in with. If you are signed in with an account other than your UTokyo Account, select "Add account".
+    - If the above screen does not appear and the normal editing screen is displayed: You are signed in to the Office app with some Microsoft account. Click the person icon in the upper right corner (for Windows) or the circle icon in the upper left corner (for macOS), then check which account you are currently signed in with. If you are signed in with an account other than your UTokyo Account, select "Add account".
       <If cond={props.variant == "individual"}>![](img/microsoft-install-signin-switch.png){:.small}</If>
 1. <If cond={props.variant == "individual"}>[Installation](#install)<Fragment slot="else">Installation</Fragment></If> will show a similar sign-in screen. Sign in.
 1. On Windows, a dialog saying "Stay signed in to all your apps" may appear. Depending on your selections here, error messages may occur while using the Office app. To prevent this, please respond as follows:
