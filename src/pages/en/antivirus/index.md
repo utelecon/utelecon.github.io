@@ -15,6 +15,11 @@ The University of Tokyo (UTokyo) provides TrendMicro products under the UTokyo A
 
 For detailed instructions on the installation and usage, please refer to **[the UTokyo Antivirus License page <small>(UTokyo Account sign-in required; available in Japanese only)</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EZ3Qvmj4LLROlck10EyiwBsBts0PVpjPCZ_qgF6YLJ3ULA)**.
 
+## Usage in AY2026
+
+- The AY2026 version will be available from April 1, 2026.
+  - Applications submitted through March 2026 will be for the AY2025 version. If you apply before the end of March, you will need to submit a new application from April onward to use the AY2026 version.
+
 ## Usage in AY2025
 
 - The AY2025 version will be available from April 1, 2025.
