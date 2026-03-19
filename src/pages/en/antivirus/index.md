@@ -17,7 +17,7 @@ For detailed instructions on the installation and usage, please refer to **[the 
 
 ## Usage in AY2026
 
-- The AY2026 version will be available from April 1, 2026.
+- The AY2026 version will be available from April 1, 2026. For example, students enrolling in April 2026 should install the software on or after April 1, 2026.
   - Applications submitted through March 2026 will be for the AY2025 version. If you apply before the end of March, you will need to submit a new application from April onward to use the AY2026 version.
 
 ## Usage in AY2025
