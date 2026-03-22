@@ -49,9 +49,3 @@ When your UTokyo Account is revoked, you will no longer be able to use the UToky
 ### Note for Windows users
 
 If you are using the file synchronization function of OneDrive on Windows, folders such as "Desktop" and "Documents" may exist on OneDrive. Files downloaded from OneDrive for backup should be saved in a folder that is not synchronized with OneDrive.
-
-## ECCS Terminal
-
-After your UTokyo Account is revoked, you will not be able to access the data stored on your ECCS terminal. Please back up your data while your UTokyo Account is active.
-
-You can save the data on your ECCS terminal to your own terminal via a USB memory stick or by using the [WevDAV environment](https://www.ecc.u-tokyo.ac.jp/en/webdav.html).

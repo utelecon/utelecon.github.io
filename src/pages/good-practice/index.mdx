@@ -5,7 +5,8 @@ breadcrumb:
   title: グッドプラクティスの共有
 ---
 
-import Loader from './_Loader.astro'
+import GoodPractice from "@components/pages/GoodPractice";
+import { getCollection } from "astro:content";
 
 ## はじめに
 
@@ -29,4 +30,10 @@ import Loader from './_Loader.astro'
 
 以下のチェックボックスを使うことで記事の絞り込みができます．
 
-<Loader />
+<GoodPractice
+  client:visible
+  interviews={(await getCollection("interviews")).map(({ id, data }) => ({
+    path: `/${id}`,
+    ...data,
+  }))}
+/>

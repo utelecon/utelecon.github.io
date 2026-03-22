@@ -1,14 +1,13 @@
 ---
-let emergencies = [];
-try {
-  emergencies = await Astro.glob("../emergencies/*.{md,mdx}");
-} catch (error) {
-  if (error.name !== "AstroGlobNoMatch")
-    throw error;
-}
+import { getCollection, render } from "astro:content";
+
+const emergencies = await getCollection("emergencies");
 const filtered = emergencies.filter((emergency) =>
-  new RegExp(emergency.frontmatter.pattern).test(Astro.url.pathname),
+  emergency.data.pattern.test(Astro.url.pathname),
 );
 ---
 
-{filtered.map(({ default: Component }) => <Component />)}
+{filtered.map(async (emergency) => {
+  const { Content } = await render(emergency);
+  return <Content />;
+})}

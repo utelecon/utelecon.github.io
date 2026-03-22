@@ -14,7 +14,7 @@ In this section we give concrete directions on how to use Zoom.
 The following screen is displayed when entering a meeting room(this screenshot shows a meeting room with only 1 participant).
 If you move the mouse cursor over the Zoom screen, the menu bar shown in the figure below will pop up.
   ![](main_numbering.png)  
-The menu buttons are explained from left to right (some version may not display all the buttons as here)．
+The menu buttons are explained from left to right (some version may not display all the buttons as here).
   1. **Microphone mark** : Press this to mute (mute) or unmute (the screen shows "mute off" because it is currently muted). Pressing the arrow mark next to it enables you to make settings related to the microphone.
   1. **Video mark** : Press to turn the video on or off (the screen shows "Start Video" because the camera is currently off). Pressing the up mark next to it will allow you to make video settings.
   1. **Invitation** : You can send an invitation by e-mail. Since the organizer and participants already know the URL of the conference room, they can invite others by sharing the meeting URL.
