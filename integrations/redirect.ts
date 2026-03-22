@@ -13,7 +13,7 @@ export default function redirect(): AstroIntegration {
     hooks: {
       "astro:config:setup": async ({ updateConfig, config }) => {
         const pages = join(fileURLToPath(config.srcDir), "pages");
-        const paths = await glob("**/*.{md|mdx|markdown|astro}", {
+        const paths = await glob("**/*.{md,mdx,markdown,astro}", {
           cwd: pages,
           nodir: true,
           absolute: true,
