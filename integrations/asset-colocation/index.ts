@@ -53,6 +53,7 @@ export default function assetColocation(
         });
       },
       async "astro:build:done"() {
+        // Warn for unused assets
         const files = await glob("**/!(_)*", {
           cwd: "src/pages",
           ignore: ["**/*.{md,markdown,mdx,html,astro}"],
@@ -92,6 +93,7 @@ export default function assetColocation(
           await noticeProcessor.process(vfile);
         }
 
+        // Warn for referred assets not existing
         const copyFiles: { from: string; to: string }[] = [];
         for (const referredPath of referredPaths) {
           if (!extensions.includes(path.extname(referredPath))) continue;
@@ -107,6 +109,7 @@ export default function assetColocation(
           }
         }
 
+        // Copy assets from source to output directory
         await Promise.all(
           copyFiles.map(async ({ from, to }) => {
             await mkdir(path.dirname(to), { recursive: true });
