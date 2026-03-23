@@ -1,11 +1,11 @@
 import type { AstroIntegration } from "astro";
-import type { Root } from "mdast";
+import type { Root as MdastRoot } from "mdast";
+import type { Root as HastRoot } from "hast";
 import type { VFile } from "vfile";
 import { selectAll } from "hast-util-select";
 import { visit as unistVisit } from "unist-util-visit";
 import { visit as estreeVisit } from "estree-util-visit";
-import { unified } from "unified";
-import rehypeParse from "rehype-parse";
+import rehypeRaw from "rehype-raw";
 import "mdast-util-mdx";
 import path from "node:path";
 import { glob } from "glob";
@@ -38,6 +38,11 @@ export default function assetColocation(
             remarkPlugins: [
               [collectImagePaths, { usedImages }],
               [collectReferredPaths, { referredPaths }],
+            ],
+            rehypePlugins: [
+              rehypeRaw,
+              [rehypeCollectImagePaths, { usedImages }],
+              [rehypeCollectReferredPaths, { referredPaths }],
             ],
           },
         });
@@ -90,20 +95,28 @@ export default function assetColocation(
 
 const ALLOWED_PREFIXES = ["http:", "https:", "/", "./", "../", "@"];
 
-function collectImagePaths({ usedImages }: { usedImages: Set<string> }) {
-  const parser = unified().use(rehypeParse);
-  return (root: Root, file: VFile) => {
-    const imagePaths = new Set(file.data.astro!.localImagePaths);
-    const basePath = "/" + path.dirname(path.relative("src/pages", file.path));
-    function fixAndCollect(p: string) {
-      if (!ALLOWED_PREFIXES.some((prefix) => p.startsWith(prefix))) {
-        p = `./${p}`;
-      }
-      imagePaths.add(p);
-      const resolvedPath = path.resolve(basePath, p);
-      usedImages.add(resolvedPath);
-      return p;
+function createFixAndCollect(usedImages: Set<string>, file: VFile) {
+  const imagePaths = new Set(file.data.astro!.localImagePaths);
+  const basePath = "/" + path.dirname(path.relative("src/pages", file.path));
+  function fixAndCollect(p: string) {
+    if (!ALLOWED_PREFIXES.some((prefix) => p.startsWith(prefix))) {
+      p = `./${p}`;
     }
+    if (p.startsWith(".")) imagePaths.add(p);
+    const resolvedPath = path.resolve(basePath, p);
+    usedImages.add(resolvedPath);
+    return p;
+  }
+  return Object.assign(fixAndCollect, {
+    [Symbol.dispose]() {
+      file.data.astro!.localImagePaths = Array.from(imagePaths);
+    },
+  });
+}
+
+function collectImagePaths({ usedImages }: { usedImages: Set<string> }) {
+  return (root: MdastRoot, file: VFile) => {
+    using fixAndCollect = createFixAndCollect(usedImages, file);
 
     // For MDX (remark-images-to-components)
     unistVisit(root, "mdxjsEsm", (node) => {
@@ -118,20 +131,31 @@ function collectImagePaths({ usedImages }: { usedImages: Set<string> }) {
       });
     });
 
-    // For HTML
-    unistVisit(root, "html", (node) => {
-      selectAll("img", parser.parse(node.value)).forEach((img) => {
-        if (typeof img.properties.src !== "string") return;
-        img.properties.src = fixAndCollect(img.properties.src);
-      });
-    });
-
     // For md
     unistVisit(root, "image", (node) => {
       node.url = fixAndCollect(node.url);
     });
+  };
+}
 
-    file.data.astro!.localImagePaths = Array.from(imagePaths);
+function rehypeCollectImagePaths({ usedImages }: { usedImages: Set<string> }) {
+  return (root: HastRoot, file: VFile) => {
+    using fixAndCollect = createFixAndCollect(usedImages, file);
+
+    selectAll("img", root).forEach((img) => {
+      if (typeof img.properties.src !== "string") return;
+      img.properties.src = fixAndCollect(img.properties.src);
+    });
+  };
+}
+
+function createCollectReferredPaths(referredPaths: Set<string>, file: VFile) {
+  const baseUrl = new URL(path.relative("src/pages", file.path), ORIGINS[0]);
+  if (path.parse(file.path).name !== "index") baseUrl.pathname += "/";
+  return function collect(p: string) {
+    const url = new URL(p, baseUrl);
+    if (!ORIGINS.includes(url.origin)) return;
+    referredPaths.add(fileURLToPath(new URL(url.pathname, "file:///")));
   };
 }
 
@@ -140,21 +164,8 @@ function collectReferredPaths({
 }: {
   referredPaths: Set<string>;
 }) {
-  const parser = unified().use(rehypeParse);
-  return (root: Root, file: VFile) => {
-    const baseUrl = new URL(path.relative("src/pages", file.path), ORIGINS[0]);
-    if (path.parse(file.path).name !== "index") baseUrl.pathname += "/";
-    function collect(p: string) {
-      const url = new URL(p, baseUrl);
-      if (!ORIGINS.includes(url.origin)) return;
-      referredPaths.add(fileURLToPath(new URL(url.pathname, "file:///")));
-    }
-    unistVisit(root, "html", (node) => {
-      selectAll("a", parser.parse(node.value)).forEach((a) => {
-        if (typeof a.properties.href !== "string") return;
-        collect(a.properties.href);
-      });
-    });
+  return (root: MdastRoot, file: VFile) => {
+    const collect = createCollectReferredPaths(referredPaths, file);
 
     unistVisit(root, "mdxJsxFlowElement", (node) => {
       if (node.data?.hName !== "a") return;
@@ -170,6 +181,21 @@ function collectReferredPaths({
 
     unistVisit(root, "link", (node) => {
       collect(node.url);
+    });
+  };
+}
+
+function rehypeCollectReferredPaths({
+  referredPaths,
+}: {
+  referredPaths: Set<string>;
+}) {
+  return (root: HastRoot, file: VFile) => {
+    const collect = createCollectReferredPaths(referredPaths, file);
+
+    selectAll("a", root).forEach((a) => {
+      if (typeof a.properties.href !== "string") return;
+      collect(a.properties.href);
     });
   };
 }
