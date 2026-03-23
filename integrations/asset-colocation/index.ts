@@ -65,6 +65,16 @@ export default function assetColocation(
             .filter((file) => extensions.includes(path.extname(file)))
             .map((file) => "/" + file),
         );
+        const publicFiles = await glob("**", {
+          cwd: "public",
+          nodir: true,
+          absolute: false,
+        });
+        const publicAssets = new Set(
+          publicFiles
+            .filter((file) => extensions.includes(path.extname(file)))
+            .map((file) => "/" + file),
+        );
         for (const asset of assets) {
           if (!usedImages.has(asset) && !referredPaths.has(asset)) {
             console.warn(
@@ -101,8 +111,10 @@ export default function assetColocation(
             const from = path.resolve("src/pages", "." + referredPath);
             const to = path.resolve("dist", "." + referredPath);
             copyFiles.push({ from, to });
-          } else {
-            if (existsSync(`src/pages${referredPath}.md`)) continue; // redirect file
+          } else if (
+            !publicAssets.has(referredPath) &&
+            !existsSync(`src/pages${referredPath}.md`) // redirect file
+          ) {
             console.warn(
               `[asset-colocation] Warning: Referred asset "${referredPath}" does not exist in src/pages.`,
             );
