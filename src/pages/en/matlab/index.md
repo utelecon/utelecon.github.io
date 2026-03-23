@@ -45,7 +45,7 @@ To use your UTokyo Account as a MathWorks account, please complete the initial s
 6. The “Create MathWorks Account” screen will be displayed. Enter your name and other required information. This will complete the creation of your MathWorks account.
 7. Please confirm that the University of Tokyo campus-wide license has been applied to the MathWorks account created through the above procedure. Access the [MathWorks account page](https://jp.mathworks.com/mwaccount/), and verify that `40790257 MATLAB (Individual)` is displayed in the Software Licenses section.
 
-If you encounter any issues with this procedure, please contact MathWorks Support at `service@mathworks.co.jp` for assistance.
+If you encounter any issues with this procedure, please contact MathWorks Support(service@mathworks.co.jp) for assistance.
 
 ## How to Use MATLAB Basically
 To use the full functionality of MATLAB, it is recommended to install the software version on your computer, which is required to have a processor with sufficient performance and enough storage space. Internet communication is also required during installation.
