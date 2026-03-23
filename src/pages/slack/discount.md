@@ -9,7 +9,7 @@ breadcrumb:
 
 ## 概要
 
-[Slack](https://slack.com/intl/ja-jp/)では，[有償プラン（プロプランまたはビジネスプラスプラン）](https://slack.com/intl/ja-jp/help/articles/115003205446)が85%割引になる「教育支援プログラム」が提供されています．
+[Slack](https://slack.com/intl/ja-jp/)では，[有償プラン（プロプランまたはビジネスプラスプラン）](https://slack.com/intl/ja-jp/help/articles/115003205446)が85%割引になる「[教育支援プログラム](https://slack.com/intl/ja-jp/help/articles/206646877)」が提供されています．
 
 通常，このプログラムに申し込む際は，申し込みごとに教育機関であることを証明する書類を提出する必要がありますが，東京大学ではSlackとの協議の上，**申し込みごとの証明書が不要な手続き**を設けています．このページでは，この手続きについて詳細を説明します．
 
