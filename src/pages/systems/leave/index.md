@@ -22,7 +22,7 @@ breadcrumb:
 - Windows版，iOS版，Android版のApexOneの場合は，通常のアプリの削除手順でアンインストールすることができます．
 - Mac版のApexOneをアンインストールするには，アンインストールツールが必要になります．UTokyo Accountが失効するとアンインストールツールの取得ができなくなりますので，失効された場合には[サポート窓口のメールフォーム](/support/#メールフォーム)にお問い合わせください．
 
-UTokyo Antivirus Licenseの対応の詳細については，「[UTokyo Antivirus License 2023年度に卒業・離職される方への注意事項<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」を参照してください．※[こちらの部局及び提供製品](https://univtokyo.sharepoint.com/sites/antivirus/SitePages/Home.aspx#5.-%E6%8F%90%E4%BE%9B%E7%AA%93%E5%8F%A3)に該当する場合は、部局の受付窓口にご確認ください。
+UTokyo Antivirus Licenseの対応の詳細については，「[UTokyo Antivirus License 2025年度に卒業・離職される方への注意事項<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」を参照してください．※[こちらの部局及び提供製品](https://univtokyo.sharepoint.com/sites/antivirus/SitePages/Home.aspx#5.-%E6%8F%90%E4%BE%9B%E7%AA%93%E5%8F%A3)に該当する場合は、部局の受付窓口にご確認ください。
 
 ## 東京大学内で所属の変更がある場合
 {:#change}
