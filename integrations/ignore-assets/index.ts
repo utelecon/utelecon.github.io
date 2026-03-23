@@ -9,7 +9,7 @@ import { glob } from "glob";
 import * as semver from "semver";
 import { join, parse, relative, type ParsedPath } from "node:path/posix";
 import { fileURLToPath } from "node:url";
-import { packages } from "../../../package-lock.json";
+import { packages } from "../../package-lock.json";
 
 /**
  * 動作確認したAstroのバージョン範囲
@@ -25,12 +25,12 @@ export class VersionNotSatisfied extends Error {
   constructor(
     name: string,
     version: string | semver.SemVer,
-    range: string | semver.Range
+    range: string | semver.Range,
   ) {
     const versionStr = typeof version === "string" ? version : version.version;
     const rangeStr = typeof range === "string" ? range : range.raw;
     super(
-      `Package ${name}@${versionStr} not satisfy the version range "${rangeStr}"`
+      `Package ${name}@${versionStr} not satisfy the version range "${rangeStr}"`,
     );
   }
 }
@@ -85,7 +85,7 @@ export default function (extensions: string[]): AstroIntegration {
   }): Promise<void> {
     const pagesDir = relative(
       "",
-      fileURLToPath(new URL("./pages", options.config.srcDir))
+      fileURLToPath(new URL("./pages", options.config.srcDir)),
     );
 
     if (options.config.integrations.find((i) => i.name === "@astrojs/mdx")) {
@@ -113,17 +113,17 @@ export default function (extensions: string[]): AstroIntegration {
             route: join(
               "/",
               parsedPath.dir,
-              parsedPath.name === "index" ? "/" : parsedPath.name
+              parsedPath.name === "index" ? "/" : parsedPath.name,
             ),
           },
         ];
-      })
+      }),
     );
 
     const assetsInPages = new Map(
       filesInPages
         .entries()
-        .filter(([_, { ext }]) => assetExtensionsSet.has(ext))
+        .filter(([_, { ext }]) => assetExtensionsSet.has(ext)),
     );
 
     const sameNamePage = ({ dir, name }: Pick<ParsedPath, "dir" | "name">) =>
@@ -143,12 +143,12 @@ export default function (extensions: string[]): AstroIntegration {
           .values()
           .filter(
             ({ route, collidedPath }) =>
-              (options.config.redirects[route] ?? collidedPath) === undefined
+              (options.config.redirects[route] ?? collidedPath) === undefined,
           )
           .map(({ route }) => [
             route,
             { status: 410, destination: "/" } as unknown as RedirectConfig,
-          ])
+          ]),
       ),
     });
   }
@@ -165,7 +165,7 @@ export default function (extensions: string[]): AstroIntegration {
       filesInPages.get(route.component)?.collidedPath !== undefined
     ) {
       params.logger.info(
-        `Route to file ${route.component} set to "fallback" due to route collision`
+        `Route to file ${route.component} set to "fallback" due to route collision`,
       );
       route.type = "fallback";
     }

@@ -1,11 +1,10 @@
 import { visit } from "unist-util-visit";
 import type { Root } from "mdast";
-import type { Plugin } from "unified";
 
 // Fixes the issue that multiple classes are concatenated with commas by Astro
 // NOTE: This plugin must be used at the end of the plugins list
-const remarkImageClasslist: Plugin<[], Root> = () => {
-  return (tree) => {
+export default function remarkImageClasslist() {
+  return (tree: Root) => {
     visit(tree, "image", (node) => {
       if (node.type === "image") {
         node.data = node.data || {};
@@ -17,6 +16,4 @@ const remarkImageClasslist: Plugin<[], Root> = () => {
       }
     });
   };
-};
-
-export default remarkImageClasslist;
+}
