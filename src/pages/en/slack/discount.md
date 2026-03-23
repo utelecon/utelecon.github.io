@@ -5,6 +5,11 @@ title: Application for the “Slack for Education” program at the University o
 *This page is a guide to the procedures for making individually paid subscriptions to Slack. 
 Please see the [UTokyo Slack page](../) for information on the university-wide subscription of the University of Tokyo.
 
+<div class="box--important">
+
+Starting March 23, 2026, we will be making some changes to our application process. We apologize that the English translation is not yet available; please refer to the [Japanese page](/slack/discount/) for details.
+</div>
+
 ## Overview
 
 [Slack](https://slack.com/) offers an 85% discount on paid plans (Pro or “Business+” plans) under the ["Slack for Education" program](https://slack.com/help/articles/206646877).
