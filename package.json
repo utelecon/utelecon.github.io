@@ -11,8 +11,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "find-link": "node scripts/find-link.js",
-    "broken-link": "node scripts/broken-link.js",
-    "unused-asset": "node scripts/unused-asset.js"
+    "broken-link": "node scripts/broken-link.js"
   },
   "dependencies": {
     "@astrojs/mdx": "4.3.2",
