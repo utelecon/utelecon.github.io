@@ -53,6 +53,26 @@ export default function assetColocation(
         });
       },
       async "astro:build:done"() {
+        const noticeProcessor = unified()
+          .use(remarkParse)
+          .use(collectReferredPaths, { referredPaths })
+          .use(remarkRehype, { allowDangerousHtml: true })
+          .use(rehypeRaw)
+          .use(rehypeCollectReferredPaths, { referredPaths })
+          .use(rehypeStringify); // ないと process できない
+
+        // notice.yml だけは特別扱いして，そこが参照しているパスも収集する
+        const noticeYmlPath = path.resolve("src/data/notice.yml");
+        const noticeYml = await readFile(noticeYmlPath, "utf-8");
+        const notice = yaml.load(noticeYml) as {
+          content: Record<"ja" | "en", string>;
+        }[];
+        for (const { content } of notice) {
+          const value = Object.values(content).join("\n");
+          const vfile = new VFile({ path: noticeYmlPath, value });
+          await noticeProcessor.process(vfile);
+        }
+
         // Warn for unused assets
         const files = await glob("**/!(_)*", {
           cwd: "src/pages",
@@ -81,26 +101,6 @@ export default function assetColocation(
               `[asset-colocation] Warning: Asset "${asset}" is not used in any page and will be ignored.`,
             );
           }
-        }
-
-        const noticeProcessor = unified()
-          .use(remarkParse)
-          .use(collectReferredPaths, { referredPaths })
-          .use(remarkRehype, { allowDangerousHtml: true })
-          .use(rehypeRaw)
-          .use(rehypeCollectReferredPaths, { referredPaths })
-          .use(rehypeStringify); // ないと process できない
-
-        // notice.yml だけは特別扱いして，そこが参照しているパスも収集する
-        const noticeYmlPath = path.resolve("src/data/notice.yml");
-        const noticeYml = await readFile(noticeYmlPath, "utf-8");
-        const notice = yaml.load(noticeYml) as {
-          content: Record<"ja" | "en", string>;
-        }[];
-        for (const { content } of notice) {
-          const value = Object.values(content).join("\n");
-          const vfile = new VFile({ path: noticeYmlPath, value });
-          await noticeProcessor.process(vfile);
         }
 
         // Warn for referred assets not existing
