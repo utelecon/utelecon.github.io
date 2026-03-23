@@ -1,7 +1,7 @@
 import type { AstroIntegration } from "astro";
 import type { Root as MdastRoot } from "mdast";
 import type { Root as HastRoot } from "hast";
-import type { VFile } from "vfile";
+import { VFile } from "vfile";
 import { selectAll } from "hast-util-select";
 import { visit as unistVisit } from "unist-util-visit";
 import { visit as estreeVisit } from "estree-util-visit";
@@ -15,6 +15,8 @@ import { readFile, copyFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
 
 /** @type {[string, ...string[]]} */
 const ORIGINS = [
@@ -70,16 +72,24 @@ export default function assetColocation(
           }
         }
 
+        const noticeProcessor = unified()
+          .use(remarkParse)
+          .use(collectReferredPaths, { referredPaths })
+          .use(remarkRehype, { allowDangerousHtml: true })
+          .use(rehypeRaw)
+          .use(rehypeCollectReferredPaths, { referredPaths })
+          .use(rehypeStringify); // ないと process できない
+
         // notice.yml だけは特別扱いして，そこが参照しているパスも収集する
-        const noticeYml = await readFile("src/data/notice.yml", "utf-8");
+        const noticeYmlPath = path.resolve("src/data/notice.yml");
+        const noticeYml = await readFile(noticeYmlPath, "utf-8");
         const notice = yaml.load(noticeYml) as {
           content: Record<"ja" | "en", string>;
         }[];
         for (const { content } of notice) {
-          if (content.ja)
-            collectReferredPathsFromStr(referredPaths, content.ja);
-          if (content.en)
-            collectReferredPathsFromStr(referredPaths, content.en);
+          const value = Object.values(content).join("\n");
+          const vfile = new VFile({ path: noticeYmlPath, value });
+          await noticeProcessor.process(vfile);
         }
 
         const copyFiles: { from: string; to: string }[] = [];
@@ -213,15 +223,4 @@ function rehypeCollectReferredPaths({
       collect(a.properties.href);
     });
   };
-}
-
-const parser = unified().use(remarkParse);
-function collectReferredPathsFromStr(
-  referredPaths: Set<string>,
-  markdown: string,
-) {
-  const tree = parser.parse(markdown);
-  unistVisit(tree, "link", (node) => {
-    if (node.url.startsWith("/")) referredPaths.add(node.url);
-  });
 }
