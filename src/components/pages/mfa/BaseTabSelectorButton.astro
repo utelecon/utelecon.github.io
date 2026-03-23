@@ -66,6 +66,18 @@ function labelProps(selection: Selection) {
       </button>
     )
   }
+{
+    labels.passkey && (
+      <button {...buttonProps("passkey")}>
+        <span>
+          <span>
+            <b {...labelProps("passkey")}>{labels.passkey}</b>
+            <slot name="passkey" />
+          </span>
+        </span>
+      </button>
+    )
+  }
 </div>
 
 <script>
