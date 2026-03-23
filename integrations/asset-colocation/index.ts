@@ -9,9 +9,12 @@ import rehypeRaw from "rehype-raw";
 import "mdast-util-mdx";
 import path from "node:path";
 import { glob } from "glob";
+import yaml from "js-yaml";
 import { fileURLToPath } from "node:url";
-import { copyFile, mkdir } from "node:fs/promises";
+import { readFile, copyFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
 
 /** @type {[string, ...string[]]} */
 const ORIGINS = [
@@ -65,6 +68,18 @@ export default function assetColocation(
               `[asset-colocation] Warning: Asset "${asset}" is not used in any page and will be ignored.`,
             );
           }
+        }
+
+        // notice.yml だけは特別扱いして，そこが参照しているパスも収集する
+        const noticeYml = await readFile("src/data/notice.yml", "utf-8");
+        const notice = yaml.load(noticeYml) as {
+          content: Record<"ja" | "en", string>;
+        }[];
+        for (const { content } of notice) {
+          if (content.ja)
+            collectReferredPathsFromStr(referredPaths, content.ja);
+          if (content.en)
+            collectReferredPathsFromStr(referredPaths, content.en);
         }
 
         const copyFiles: { from: string; to: string }[] = [];
@@ -198,4 +213,15 @@ function rehypeCollectReferredPaths({
       collect(a.properties.href);
     });
   };
+}
+
+const parser = unified().use(remarkParse);
+function collectReferredPathsFromStr(
+  referredPaths: Set<string>,
+  markdown: string,
+) {
+  const tree = parser.parse(markdown);
+  unistVisit(tree, "link", (node) => {
+    if (node.url.startsWith("/")) referredPaths.add(node.url);
+  });
 }
