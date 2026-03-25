@@ -74,6 +74,22 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
       </>
     )
   }
+{
+    rowLabels.passkey && (
+      <>
+        <p class="col-label">{rowLabels.passkey}</p>
+        <span class="col-first">
+          <DemiRadioButton {...radioProps("first", "passkey")} disabled />
+        </span>
+        <span class="col-alt">
+          <DemiRadioButton {...radioProps("alt", "passkey")} />
+        </span>
+        <div class="col-description">
+          <slot name="passkey" />
+        </div>
+      </>
+    )
+  }
 </div>
 
 <script>

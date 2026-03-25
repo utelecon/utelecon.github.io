@@ -37,6 +37,9 @@ function panelProps(selection: Selection) {
   <If cond={Boolean(labels.fido)}>
     <button {...tabProps("fido")}>{labels.fido}</button>
   </If>
+<If cond={Boolean(labels.passkey)}>
+    <button {...tabProps("passkey")}>{labels.passkey}</button>
+  </If>
 </div>
 <div id={`panel-list-${step}`} class="panel-list">
   <div {...panelProps("selector")}><slot name="selector" /></div>
@@ -45,6 +48,9 @@ function panelProps(selection: Selection) {
   <div {...panelProps("phone")}><slot name="phone" /></div>
   <If cond={Boolean(labels.fido)}>
     <div {...panelProps("fido")}><slot name="fido" /></div>
+  </If>
+  <If cond={Boolean(labels.passkey)}>
+    <div {...panelProps("passkey")}><slot name="passkey" /></div>
   </If>
 </div>
 

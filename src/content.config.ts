@@ -3,7 +3,7 @@ import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 import { FORMATS, NUMBERS, TOOLS, KEYWORDS } from "@components/pages/GoodPractice";
-import { getISODateString } from "src/lib/util";
+import { getISODateString } from "src/util";
 
 const emergencies = defineCollection({
   loader: glob({ pattern: "*.{md,mdx}", base: "./src/emergencies" }),
