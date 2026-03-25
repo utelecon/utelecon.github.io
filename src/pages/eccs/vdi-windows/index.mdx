@@ -1,9 +1,94 @@
 ---
-title: vdi-windows
+title: Windowsリモート環境
 breadcrumb:
-  title: vdi-windows
+  title: Windowsリモート環境
 ---
 
-import InPreparation from "@components/ja/InPreparationECCS2026.mdx";
+## 概要
 
-<InPreparation />
+Windowsリモート環境とは，インターネット経由でWindows環境を利用できるサービスです[^1]．Windowsリモート環境を使うと，手元のPCにWindowsがインストールされていなくても，Microsoft Office等のソフトウェアを利用できます．また，Stata/SE等の大学がライセンスを提供する一部のソフトウェアを無償で利用できます．
+
+[^1]: 一般的にはVDIと呼ばれるサービスです．具体的には[Windows 365](https://www.microsoft.com/ja-jp/windows-365)を提供しています．
+
+Windowsリモート環境を利用できるのは，UTokyo Accountを持つ東京大学の構成員（教職員・学生）です．
+
+なお，通常のWindows PCとは異なる点があります．利用の前に[通常のWindows PCとの相違点](#differences)をよく読み，データの喪失などには十分ご注意ください．
+
+また，全学で同時利用可能なセッション数に制限があるため，利用枠の予約ができます．詳しくは[利用枠と予約](#quota-and-reservation)を参照してください．
+
+
+### 通常のWindows PCとの相違点
+{:#differences}
+
+Windowsリモート環境は，通常のWindowsがインストールされたPCと異なる点があります．以下にその一部を挙げます．
+
+- 切断してから，あるいは最後に操作してから一定時間経過すると自動的にセッションが削除され，環境内の全てのデータ・作業履歴が消去されます．
+  - --データの喪失を防ぐため，必要なデータは定期的にOneDrive等のクラウドストレージに保存するか，ファイル転送機能を使ってダウンロードするようにしてください．--
+    - ファイル転送機能では，作業中のファイルが自動的にバックアップされないので，クラウドストレージの利用をお勧めします．
+  - なお，いくつかのフォルダは自動的にOneDriveと同期されます．
+    - Desktopフォルダ，Documentsフォルダ，Picturesフォルダは自動的にOneDriveと同期されます．
+    - また，エクスプローラーからOneDriveにアクセスすることもでき，そこに作成したファイルは自動的にOneDriveにアップロードされます．
+  - OneDriveの容量には制限がありますので，保存する必要のない大きなファイルを上記のフォルダに置かないよう，ご注意ください．
+- アプリの新規インストールはできません．
+  - そのほか，管理者権限の必要な操作（WSLの環境の作成など）もできません．
+  - 特に，環境内でZoomアプリを使うことができません．授業等で画面共有をしたい場合は，基本的には接続元のPCからZoomに接続し，リモート接続しているブラウザ，もしくはWindows Appを画面共有することをお勧めします．
+- 東京大学のネットワーク内にはないため，東京大学の学内からのみ利用できるサービス（電子ジャーナルを含む）にはアクセスできません．
+  - ただし，EzProxy経由であれば利用できます．
+
+## スペック
+
+スペックは以下の通りです・
+
+- OS: Windows 11 Enterprise  
+- CPU: 2 vCPU  
+- Mem: 8 GB  
+- Storage: 256 GB  
+  - ただし，[通常のWindows PCとの相違点](#differences)の通り，接続を切ってから一定時間，あるいは一定時間の無操作の後に消去されます．
+
+### 利用できるソフトウェア（一部）
+
+CADをはじめとする，コンピュータの性能が要求されるソフトウェアでは性能が不足する可能性があります．もし手元のデバイスで利用可能であれば，手元のデバイスにインストールして利用することをお勧めします．
+
+#### ライセンス認証が必要なもの等
+
+- Microsoft Office365 (Word, PowerPointなど)：サインイン時に使用したUTokyo Accountに基づいて，自動的に認証されます．  
+- MATLAB：自身で作成したMathWorksアカウントでサインインして利用してください．東京大学では[UTokyo MATLAB License](/matlab/)により追加の費用負担なく利用できます．  
+- Autodesk Fusion：自身で作成したAutodeskアカウントでサインインして利用してください．なお，[Autodesk Student Access](https://www.autodesk.com/education/edu-software/overview)に登録すると無料で利用できます（2026年3月現在）．  
+- JMP Pro：自身で作成したMy JMPアカウントでサインインして利用してください．なお，[JMP Student Edition](https://www.jmp.com/en/academic/jmp-student-edition)に登録すると無料で利用できます（2026年3月現在）．  
+- Stata/SE：大学がライセンスを提供しています．  
+- EndNote online：大学がライセンスを提供しています．  
+- TNTlite：無料版がインストールされています．
+
+#### その他のインストールされているソフトウェア
+
+- Firefox  
+- Google Chrome  
+- Microsoft Edge  
+- Adobe Acrobat Reader DC  
+- VLC media player  
+- Microsoft Build of OpenJDK  
+- Visual Studio Code  
+- MinGW-w64  
+- Ruby  
+- GIMP  
+- Inkscape  
+- TexLive  
+- R  
+- RStudio
+
+## 利用枠と予約
+{:#quota-and-reservation}
+
+Windowsリモート環境の同時接続可能数は，全学で合計200までとなっています．
+
+このうち，予約なしで利用できるフリー枠は計18個，予約が必要な枠は182個です．フリー枠で利用可能な枠は少ないため，確実に利用したい場合，事前の予約をお勧めします．
+
+- フリー枠（計18枠）：予約なしで利用できます．
+  - ユーザーをほぼ同数の6つのグループに分けており，グループごとに3枠ずつ利用可能です．
+  - [Windows App](https://windows.cloud.microsoft/#/devices)のウェブページでは，「ECCS-FREEn」（nは1から6までの数字）という名前で表示されます．枠が埋まっている場合は表示されなかったり，接続に失敗したりすることがあります．詳しくは[利用方法](./usage/)を参照してください．
+- 予約枠（182枠）：利用には事前の予約が必要です．
+  - 授業用・個人利用など，利用目的に応じて異なる予約方法があります．予約方法については[予約](./reservation/)を参照してください．
+
+## 利用方法
+
+ブラウザ，もしくは専用のアプリから利用できます．詳しい使い方については，[利用方法](./usage/)を参照してください．
