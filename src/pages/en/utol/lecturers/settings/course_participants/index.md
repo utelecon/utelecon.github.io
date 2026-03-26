@@ -42,9 +42,9 @@ The following information can be viewed in the “Course participant list”.
 * **Registration Method**: The method by which the user registers for a course will be displayed.
   * Self registration: This indicates that the enrolled students have [registered for a course](../../../students/course_registration/#self-registration) in UTOL by themselves. This will depend on [the settings for self registration or the enrollee range settings](../#self-registration-and-content-use-scope) whether or not enrolled students can register by themselves.
   * Register instructor: This indicates that the user was registered for a course by the course instructor or the course designer.
-  * Enrolled Registration: This indicates that the course the student registered for through the UTAS has been automatically linked, resulting in their enrollment. Please note that the course registration through the UTAS will be reflected in UTOL the next morning after the registration.
+  * Enrolled Registration: This indicates that the course the student registered for through the UTAS has been automatically linked, resulting in their enrollment. Please note that the course registration through the UTAS will be reflected in UTOL within one hour.
   * Manage Attendance: This indicates that enrolled students have been registered by a batch registration of attendance.
-  * Favorite registration: This indicates that students have been registered in the corresponding UTOL course as a result of adding “Favorite” to the syllabus of the UTAS. Please note that adding the course to Favorite in the UTAS will be reflected in UTOL the next morning after the operation. In addition, if the student has clicked “Add to Favorites” on the syllabus of the UTAS, and has also registered for the course in the UTAS, it will be displayed as “Enrolled Registration”.
+  * Favorite registration: This indicates that students have been registered in the corresponding UTOL course as a result of adding “Favorite” to the syllabus of the UTAS. Please note that adding the course to Favorite in the UTAS will be reflected in UTOL within one hour. In addition, if the student has clicked “Add to Favorites” on the syllabus of the UTAS, and has also registered for the course in the UTAS, it will be displayed as “Enrolled Registration”.
   * System registration: This indicates that the course instructor has registered the student as a course participant as a result of linking the registered information with the UTAS.
 
 ### How to check the list
@@ -167,7 +167,7 @@ Regardless of whether they are officially enrolled, please use this function if 
 
 In addition, if you would like to allow students, wishing to audit a course without registering for it, to broadly access its content, please set up the [self-registration and the enrolled student range settings](../#self-registration-and-content-use-scope).
 
-Moreover, if you change to “Course Instructor Registration”, even if a student has registered for a course through UTAS, the registration method will be switched back to “Course Registration” the following day.
+Moreover, if you change to “Course Instructor Registration”, even if a student has registered for a course through UTAS, the registration method will be switched back to “Course Registration” within one hour.
 
 ## Deleting Course Participants
 {:#delete}
