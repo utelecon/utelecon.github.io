@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+ date: 2026-03-31
+ content:
+  ja: "[2026年度Sセメスター科目のUTOL履修確定日の取り扱いについて](/notice/2026/0331-rikaku/)"
+  en: "[Handling of the 2026 Academic Year S Semester Courses on UTOL](/en/notice/2026/0331-rikaku/)"
+-
   date: 2026-03-23
   content:
     ja: "[東京大学におけるSlack「教育支援プログラム」の取り扱いの変更について](/notice/2026/0323-slack-discount/)"
