@@ -40,7 +40,7 @@ The lodge Wi-Fi network has fewer access restrictions than the campus network, e
 ## Service Availability
 - Available from April 1, 2025:
     - Mitaka International Hall of Residence
-- Scheduled for availability during the 2025 academic year:
+- Svailable from March 26, 2026:
     - International Lodge, Komaba Lodge (Main, Annex, B, C and D, Komaba II Campus)
     - Oiwake International Lodge
     - Toshima International Hall of Residence
