@@ -88,7 +88,7 @@ At this time, we **strongly recommend registering multiple verification methods*
 3. Once you receive the notification email, follow the instructions in "[Step 1: Set Up the First Verification Method](../initial/#first)" and "[Step 2: Add Alternative Verification Methods](../initial/#alternative)" on the "[Initial Setup Procedures for UTokyo Account Multi-Factor Authentication](../initial/)" page to re-register your verification methods.
 4. You will now be able to sign in to your UTokyo Account using the newly registered verification method.
 
-At this time, we **strongly recommend registering multiple verification methods** to avoid being locked out again if one method becomes unusable.
+At this time, we **strongly recommend registering multiple verification methods** to avoid being locked out again if one method becomes unusable. In case you lose access to all verification methods and are unable to sign in to the UTokyo Account, the UTokyo Account Identity Verification Service allows you to reregister your verification method by yourself at any time. Please review the “[UTokyo Account Identity Verification Service](../../ident-myna/)“.
 
 #### Apply using the dedicated Microsoft Form (if you can sign in to your UTokyo Account)
 {:#ms-form}
