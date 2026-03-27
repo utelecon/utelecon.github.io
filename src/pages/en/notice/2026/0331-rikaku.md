@@ -58,8 +58,8 @@ We sometimes hear from students who, for various reasons, either "do not wish to
 To allow audit students to view UTOL, if there are only a few students auditing, the instructor can update the student's registration method to "Instructor Registration", or if there are many students auditing, the instructor can change the course settings. If your instructor does not know the specific methods, please refer them to the following page. 
 
 - If there are only a few students auditing: "[Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors・TAs) \> Updating the method to register course participants](/en/utol/lecturers/settings/course_participants/#update)"
-- If there are many students auditing: "[Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors/TAs) > Self-Registration and Student Range Settings](/en/utol/lecturers/settings/#self-registration-and-content-use-scope)" 	- If there are many students auditing: "[Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors/TAs) \> Self-Registration and Student Range Settings](/en/utol/lecturers/settings/#self-registration-and-content-use-scope)"
-- In the course settings, please tick "All regardless of registration method" for "the enrolled student range settings", and make sure to set "Self-Registration" to "Permit". 	- In the course settings, please tick always "All regardless of registration method" for "the enrolled student range settings". Furthermore, make sure to set "Self-Registration" to "Permit". 
+- If there are many students auditing: "[Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors/TAs) > Self-Registration and Student Range Settings](/en/utol/lecturers/settings/#self-registration-and-content-use-scope)"
+- In the course settings, please tick "All regardless of registration method" for "the enrolled student range settings", and make sure to set "Self-Registration" to "Permit".
 
 ### 4. There are course settings that differ from regular settings
 
