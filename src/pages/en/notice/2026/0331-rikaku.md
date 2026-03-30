@@ -31,7 +31,7 @@ If you have any questions concerning UTOL, please contact us through the [Suppor
 
 **The course confirmation date for courses offered by the Junior Division of the College of Arts and Sciences in AY2026 is Tuesday, April 28, 2026, for the S Semester/S1 Term**. If you can no longer access a course because you forgot to register during the registration period, please make sure to complete your registration during the course correction period. In addition, **S2 Term courses will be available for self-registration even after the course registration period ends**. Please be especially careful not to forget to complete the course registration procedure.
 
-Please note that the course confirmation dates for courses held on the same day, and period by the same professor (combined course, or multiple signature courses) that are offered by the Senior Division of the College of Arts and Sciences are different from the above. Please be sure to register for these courses using UTAS during the relevant course registration period. 
+Please note that the course confirmation dates for courses held on the same day, and period by the same professor (combined course, or multiple signature courses) that are offered by the Senior Division of the College of Arts and Sciences are different from the above. Please be sure to register for these courses using UTAS during the relevant course registration period.
 
 ### 2. Changes in the course access status
 
@@ -55,7 +55,7 @@ You will no longer be able to access courses using "Self-Registration" starting 
 
 We sometimes hear from students who, for various reasons, either "do not wish to or cannot officially register for courses through UTAS but still want to audit them". It is up to the course instructors to decide whether or not to allow such students to audit. Please contact the instructor directly to discuss this matter.
 
-To allow audit students to view UTOL, if there are only a few students auditing, the instructor can register/update the student's registration method to "Instructor Registration", or if there are many students auditing, the instructor can change the course settings. If your instructor does not know the specific methods, please refer them to the following page. 
+To allow audit students to view UTOL, if there are only a few students auditing, the instructor can register/update the student's registration method to "Instructor Registration", or if there are many students auditing, the instructor can change the course settings. If your instructor does not know the specific methods, please refer them to the following page.
 
 - If there are only a few students auditing:
   - "[Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors・TAs) \> Registering Course Participants](/en/utol/lecturers/settings/course_participants/#register)"
@@ -78,6 +78,8 @@ Depending on the course, the dates offered may differ from the standard such as 
 | 通年                     | Year-long               | April 29                 |
 | 集中                     | Intensive               | April 29                 |
 | 年度跨り                 |                         | To be determined         |
+| その他                   |                         | April 29                 |
+| 認定                     |                         | April 29                 |
 | 年度跨り④                |                         | April 29                 |
 | 年度跨り⑩                |                         | To be determined         |
 | Ｓ１                     | Ｓ１                    | April 29                 |
