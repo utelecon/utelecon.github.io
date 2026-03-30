@@ -55,9 +55,11 @@ You will no longer be able to access courses using "Self-Registration" starting 
 
 We sometimes hear from students who, for various reasons, either "do not wish to or cannot officially register for courses through UTAS but still want to audit them". It is up to the course instructors to decide whether or not to allow such students to audit. Please contact the instructor directly to discuss this matter.
 
-To allow audit students to view UTOL, if there are only a few students auditing, the instructor can update the student's registration method to "Instructor Registration", or if there are many students auditing, the instructor can change the course settings. If your instructor does not know the specific methods, please refer them to the following page. 
+To allow audit students to view UTOL, if there are only a few students auditing, the instructor can register/update the student's registration method to "Instructor Registration", or if there are many students auditing, the instructor can change the course settings. If your instructor does not know the specific methods, please refer them to the following page. 
 
-- If there are only a few students auditing: "[Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors・TAs) \> Updating the method to register course participants](/en/utol/lecturers/settings/course_participants/#update)"
+- If there are only a few students auditing:
+  - "[Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors・TAs) \> Registering Course Participants](/en/utol/lecturers/settings/course_participants/#register)"
+  - "[Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors・TAs) \> Updating the method to register course participants](/en/utol/lecturers/settings/course_participants/#update)"
 - If there are many students auditing: "[Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors/TAs) > Self-Registration and Student Range Settings](/en/utol/lecturers/settings/#self-registration-and-content-use-scope)"
 - In the course settings, please tick "All regardless of registration method" for "the enrolled student range settings", and make sure to set "Self-Registration" to "Permit".
 
