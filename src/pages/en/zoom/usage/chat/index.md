@@ -1,246 +1,246 @@
 ---
-title: Zoomミーティングでチャットを使う
+title: Using Chat in Zoom Meetings
 redirect_from:
   - /zoom/how/common/chat
   - /zoom/how/faculty_members/chat
 breadcrumb:
-  title: チャットを使う
+  title: Using Chat
 ---
 
-Zoomのチャット機能を用いると，ミーティング中にホストや参加者がテキストやファイルをやりとりすることが可能です．チャット機能を用いることで質疑応答を行ったり，授業資料のファイルを共有したりといったことができます．
+The chat feature in Zoom allows hosts and participants to exchange text and files during a meeting. This feature allows you to conduct Q&A sessions and share class material files.
 
-このページでは，チャット機能の基本的な使い方と応用的な使い方に分けて，機能や使用手順を紹介します．
+This page introduces the features and operating procedures, dividing them into basic and advanced uses of the chat feature.
 
-なお，機能によっては事前に設定が必要なものもあります．このような機能では，ミーティング進行中に設定変更を行っても，そのミーティングには変更が適用されない点に注意が必要です．進行中のミーティングに適用したい場合は，一度ミーティングを終了してから再び開始してください．
+Note that some features require configuration in advance. For such features, changing the settings while a meeting is in progress does not apply the changes to that meeting. If you wish to apply the changes to an ongoing meeting, end the meeting once and start it again.
 
-## 基本操作
+## Understanding Basic Operations
 {:#basic-operation}
 
-ここでは，Zoomミーティングでチャット機能を使うための有効化の手順と，基本的な使い方を紹介します．
+This section introduces the procedures for activating the chat feature in Zoom meetings and its basic usage.
 
-### チャット機能の有効化・設定
+### Activating and Configuring the Chat Feature
 {:#activate-setting}
 
-自身がホストであるミーティングで，自身や参加者がチャットを使うためには，チャット機能が有効化されている必要があります．またこのとき，チャットを有効化する対象を設定することもできます．なお，デフォルトの設定ではチャット機能は有効化されています．
+To use the chat feature yourself and allow participants to use it in a meeting where you are the host, the chat feature must be activated. At this time, you can also configure the scope of the chat feature. Note that the chat feature is enabled by default.
 
-#### チャット機能を有効化する
+#### Activating the Chat Feature
 {:#activate}
 
-チャット機能を有効化する手順は以下の通りです．
+The procedure for activating the chat feature is as follows.
 
-1. 「[Zoom サインイン方法](../../signin/)」を参考にしてブラウザでZoomのウェブポータルにアクセスし，「設定」を開いてください．
+1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open **Settings**.
    ![](Zoomwebportal.png)
-2. 「ミーティング」のタブを選択してください．
+2. Select the **Meetings** tab.
    ![](Webportal_meeting.png)
-3. 「ミーティング内（基本）」内の「ミーティングチャット」の項目をオンにしてください．
+3. Turn on the **Meeting chat** item in **In-Meeting (Basic)**.
    ![](chat_on.png){:.border}
 
-#### チャット機能の利用範囲
+#### Setting the Scope of the Chat Feature
 {:#scope}
 
-下の画像のように，「[チャット機能を有効化する](#activate)」と同じ画面にあるプルダウンから，参加者がチャットを送ることができる対象を制限できます．プルダウンの設定がいずれの場合も，チャット機能が有効化されている限り，ホスト・共同ホストは参加者全員に向けてチャットを送れます．この制限はミーティング中にもチャットパネル上部のプルダウンより変更できます．
+As shown in the image below, you can restrict the recipients to whom participants can send chats from the pull-down menu on the same screen as "[Activating the Chat Feature](#activate)". Regardless of the pull-down menu setting, the host and co-hosts can send chats to all participants as long as the chat feature is enabled. This restriction can also be changed during a meeting from the pull-down menu at the top of the chat panel.
 ![](pulldown.png){:.small}{:.border}
 
-* 対象者なし：参加者はチャットを送れません．
-* ホストと共同ホスト：参加者はホストと共同ホストのみにチャットを送れます．
-* 全員：参加者はミーティングに参加している全員に向けてチャットを送れます．
-* 全員の公開チャットとダイレクトチャット：参加者は任意の参加者に個別に非公開メッセージを送れます．
-  * この選択肢は下で紹介する「[宛先を選択する](#select)」を有効にすると表示されます．
+* **No one**: Prevents participants from sending chats.
+* **Host and co-hosts**: Allows participants to send chats only to the host and co-hosts.
+* **Everyone**: Allows participants to send chats to everyone in the meeting.
+* **Everyone and anyone directly**: Allows participants to send private messages individually to any participant.
+  * This option appears when you enable "[Selecting Recipients](#select)" introduced below.
 
-#### チャットのコピーまたは手動保存を許可する
+#### Allowing the Copying or Manual Saving of Chats
 {:#copy}
 
-ホストが「[チャット機能の有効化](#activate)」と同じ画面にある「ミーティングからチャットのコピーまたは保存をユーザーに許可する」の項目をオンにすると，ミーティングの参加者はチャットをコピーまたは手動で保存することができます．また，ホストはチャットのコピーおよび手動保存を許可する範囲を「ホストと共同ホスト」「全員」「アカウント内のユーザーのみ」から選択できます．
+Enabling the **Allow users to copy or save chats from the meeting** item on the same screen as "[Activating the Chat Feature](#activate)" allows meeting participants to copy or manually save chats. The host can also select the scope of permission for copying and manually saving chats from **Host and co-hosts**, **Everyone**, or **Users in my account only**.
 
-実際の使用手順は，「[チャットをローカルに手動保存する](#manual-save)」を参照してください．
+Refer to "[Saving Chats Locally Manually](#manual-save)" for the actual operating procedure.
 
-### チャット機能の使い方
+### Using the Chat Feature
 {:#usage}
 
-チャット機能では，単にメッセージを送信するだけでなく，フォーマット（書式）の変更や，他のメッセージへの返信，やりとりを保存などもできます．以下では，基本的なチャットの機能を紹介します．
+The chat feature allows you not only to send messages but also to change the format, reply to other messages, and save exchanges. The basic chat features are introduced below.
 
-#### チャットを閲覧・送信する
+#### Viewing and Sending Chats
 {:#view-send}
-チャットを閲覧・送信する手順は以下の通りです．
+The procedure for viewing and sending chats is as follows.
 
-1. ミーティング中に画面下部の「チャット」アイコンを押してください．チャットパネルが開き，この画面からチャットの閲覧・送信ができます．
+1. Click the **Chat** icon at the bottom of the screen during a meeting. The chat panel opens, and allows you to view and send chats from this screen.
    ![](howtouse.png)
-   * 「チャット」アイコンが画面上にない場合には，右下にある「詳細」ボタンをクリックすると，「チャット」の項目が出てきます．
+   * If the **Chat** icon is not on the screen, click the **More** button in the bottom right to reveal the **Chat** item.
    ![](chatpanel.png){:.border .small}
-   * 自分がミーティングに参加する前に送信されたチャットは閲覧することができません．
+   * You cannot view chats sent before you joined the meeting.
 
-2. チャットを送信する場合は，宛先を指定してください．デフォルトではミーティングに参加している全員に送るよう設定されています．
-   * 宛先を指定して個別にメッセージを送信する方法は，「[宛先を選択する](#select)」を参照してください．
-3. メッセージを入力し，送信アイコン（紙飛行機のアイコン）を押して送信してください．
+2. Specify the recipient when sending a chat. By default, it is configured to send to everyone participating in the meeting.
+   * Refer to "[Selecting Recipients](#select)" for how to specify a recipient and send messages individually.
+3. Enter your message and click the send icon (paper plane icon) to send it.
    ![](send.png){:.border .small}
 
-#### フォーマットを変更する
+#### Changing the Format
 {:#format}
-送信するチャットのフォーマットを変更できます．具体的には，文字を太字にしたり，下線をつけたり，箇条書きにしたりできます．
+Allows you to change the format of the chat you send. Specifically, you can make the text bold, add underlines, or create bulleted lists.
 
-##### 使用手順
+##### Following the Procedure
 
-1. ミーティング中に画面下部の「チャット」アイコンを押し，チャットの入力欄を開いてください．
-   * 「チャット」アイコンが画面上にない場合には，右下にある「詳細」ボタンをクリックすると，「チャット」の項目が出てきます．
-2. 下部の「フォーマット」アイコンを押してください．
+1. Click the **Chat** icon at the bottom of the screen during a meeting to open the chat input field.
+   * If the **Chat** icon is not on the screen, click the **More** button in the bottom right to reveal the **Chat** item.
+2. Click the **Format** icon at the bottom.
    ![](format.png){:.border .small}
-3. 変更したいフォーマットを選択してください．下の画像にフォーマットのを変更した例を示します．
+3. Select the format you wish to apply. The image below shows an example of changing the format.
    ![](format_kind.png){:.border .small}
 
-#### メッセージへ返信する
+#### Replying to Messages
 {:#reply}
-自分または他の参加者が送信したメッセージに対し，返信することができます．また返信すると，元のメッセージの下部にスレッドが自動的に作成され，話題ごとにチャット欄を整理することができます．
+Allows you to reply to messages sent by yourself or other participants. Replying also automatically creates a thread below the original message, which allows you to organize the chat field by topic.
 
-##### 使用手順
+##### Following the Procedure
 
-1. ミーティング中に画面下部の「チャット」アイコンを押し，チャットの一覧を開いてください．
-   * 「チャット」アイコンが画面上にない場合には，右下にある「詳細」ボタンをクリックすると，「チャット」の項目が出てきます．
-2. 返信したいメッセージにカーソルを合わせてください．
-3. 返信のアイコンを押してください．
-4. テキストを入力し，送信してください．
+1. Click the **Chat** icon at the bottom of the screen during a meeting to open the chat list.
+   * If the **Chat** icon is not on the screen, click the **More** button in the bottom right to reveal the **Chat** item.
+2. Hover your cursor over the message you wish to reply to.
+3. Click the reply icon.
+4. Enter your text and send it.
    ![](howtoreply.png){:.border .small}
-5. スレッドが作成され，返信が元のメッセージの右下に表示されます．
+5. Creates a thread and displays the reply at the bottom right of the original message.
    ![](reply_display.png){:.border .small}
 
-#### チャットをローカルに手動保存する 
+#### Saving Chats Locally Manually 
 {:#manual-save}
-チャットパネルの内容はテキストファイルとして保存できます．ただし，チャットの手動保存やコピーをするには，ホストがZoomのウェブポータルで「ミーティングからチャットを保存することをユーザーに許可する」の項目を有効化している必要があります．なお，自分がホストするミーティングのチャットは，毎回手動で保存しなくても，自動的に保存することができます．自動保存の詳細は，「[チャットをローカルに自動保存する](#auto-save)」を参照してください．またクラウドに保存したい場合は，「[チャットをクラウドに自動保存する](#cloud-save)」を参照してください．
+Allows you to save the contents of the chat panel as a text file. However, to copy or manually save chats, the host must enable the **Allow users to save chats from the meeting** item on the Zoom web portal. Note that chats in meetings you host can be saved automatically without manually saving them every time. Refer to "[Saving Chats Locally Automatically](#auto-save)" for details on automatic saving. Also, refer to "[Saving Chats Automatically to the Cloud](#cloud-save)" if you wish to save them to the cloud.
 
-##### 使用手順
+##### Following the Procedure
 
-1. チャット画面上部の「...」を押し，「チャットを保存」を選択してください．
+1. Click **...** at the top of the chat screen and select **Save Chat**.
    ![](savechat.png){:.border .small}
-2. 格納フォルダとチャットを記録したtxtファイルが作成され，ローカル（各自のPCなど）に保存されます．保存場所はローカルレコーディングと同じです．Zoomのアプリの「設定」→「レコーディング」→「レコーディングの保存場所」から確認できます．
+2. Creates a destination folder and a .txt file recording the chat, and saves them locally (e.g., on your PC). The save location is the same as for local recording. You can check it from **Settings** -> **Recording** -> **Local Recording** in the Zoom app.
    ![](where_to_save.png)
 
-## 応用機能
+## Using Advanced Features
 {:#applied-functions}
-ここでは，Zoomのチャット機能を活用するための様々な機能について，その設定方法や使用手順を説明します．
+This section explains the configuration methods and operating procedures for various features to utilize the chat feature in Zoom.
 
-ミーティング中に設定変更を行った場合，一度そのミーティングを終了して再び開始しなければ変更が適用されませんのでご注意ください．また，使用しているZoomアプリのバージョンが古い場合，一部機能が使えないことがあります．定期的にZoomを最新版にアップデートしてください．
+Note that if you change settings during a meeting, the changes will not be applied unless you end the meeting and start it again. Also, some features may not be available if the version of your Zoom app is outdated. Update Zoom to the latest version regularly.
 
-### ミーティング内（基本）で設定できる機能
+### Using Features Configurable in In-Meeting (Basic)
 {:#meeting-basic}
-チャットに関する機能の有効化は，ほとんどがウェブポータルの「ミーティング内（基本）」という項目から設定できます．ここでは，「ミーティング内（基本）」から設定できるチャット関連の機能の基本的な設定手順と，使用手順について説明します．
+The activation of most chat-related features can be configured from the **In-Meeting (Basic)** item on the web portal. This section explains the basic configuration procedures and operating procedures for chat-related features that can be configured from **In-Meeting (Basic)**.
 
-#### 基本的な設定手順
+#### Configuring Basic Settings
 {:#basic-setting}
-1. 「[Zoom サインイン方法](../../signin/)」を参考にしてブラウザでZoomのウェブポータルにアクセスし，「設定」を開いてください．
+1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open **Settings**.
    ![](Zoomwebportal.png){:.border}
-2. 「ミーティング」のタブを選択してください．
+2. Select the **Meetings** tab.
    ![](Webportal_meeting.png){:.border}
-3. 「ミーティング内（基本）」で，設定したい機能のトグルのON/OFFを切り替えてください．
+3. Toggle the ON/OFF switch for the feature you wish to configure in **In-Meeting (Basic)**.
    ![](meeting_basic.png){:.border}
 
-#### チャットを削除する
+#### Deleting Chats
 {:#delete}
-ホストが「ミーティング チャットでのメッセージを削除することを参加者に許可する」を有効にしている場合，ミーティング内の参加者は自分が送ったチャットを削除することができます．またこの機能を有効にしている場合，ホストおよび共同ホストは任意の参加者が送ったチャットを削除することができます．
+If the host enables **Allow participants to delete messages in the meeting chat**, it allows participants in the meeting to delete chats they have sent. Also, if this feature is enabled, it allows the host and co-hosts to delete chats sent by any participant.
 
-##### 使用手順
+##### Following the Procedure
 {:#delete-usage}
-1. チャット画面で，送信したメッセージ下の「...」アイコンを押してください．
-2. 「削除」を選択してください．
-3. メッセージを削除するか確認する画面が表示されるので，もう一度「削除」を押してください．
+1. Click the **...** icon below your sent message on the chat screen.
+2. Select **Delete**.
+3. Click **Delete** again when the confirmation screen asking if you want to delete the message appears.
 
 ![](howtodelete.png){:.small .border}
 
-#### メッセージを編集する
+#### Editing Messages
 {:#edit}
-ホストが「ミーティング チャットでのメッセージを編集することを参加者に許可する」を有効にしている場合，参加者はミーティング中に送信された自分のメッセージを編集できます．メッセージの送信後に，メッセージを追加・修正したり，フォーマットを変更することができます．
+If the host enables **Allow participants to edit messages in the meeting chat**, it allows participants to edit their own messages sent during the meeting. It allows you to add or modify messages, or change the format after sending the message.
 
-##### 使用手順
+##### Following the Procedure
 {:#delete-usage}
-1. チャット画面で，送信したメッセージ下の「...」アイコンを押してください．
-2. 「編集」を選択してください．
-3. メッセージを編集してください．
-4. 編集が終了したら，チェックのボタンを押して終了してください．
+1. Click the **...** icon below your sent message on the chat screen.
+2. Select **Edit**.
+3. Edit the message.
+4. Click the check button to finish when editing is complete.
      
 ![](edit.png){:.border .middle}
 
-#### スクリーンショットを送信する
+#### Sending Screenshots
 {:#screenshot}
-ホストが「ミーティング チャットでスクリーンショット機能を有効にする」を有効にしている場合，参加者はミーティング中に自分の画面のウインドウ全体や選択した範囲のスクリーンショットをチャットで送信できます．
+If the host enables **Enable screenshot feature in meeting chat**, it allows participants to send screenshots of an entire window or a selected area of their screen in the chat during a meeting.
 
-##### 使用手順
+##### Following the Procedure
 {:#screenshot-usage}
-1. ミーティング中に画面下部の「チャット」アイコンを押し，チャットの一覧を開いてください．
-   * 「チャット」アイコンが画面上にない場合には，右下にある「詳細」ボタンをクリックすると，「チャット」の項目が出てきます．
-2. チャット画面で下部の「スクリーンショット」アイコンを押してください．
+1. Click the **Chat** icon at the bottom of the screen during a meeting to open the chat list.
+   * If the **Chat** icon is not on the screen, click the **More** button in the bottom right to reveal the **Chat** item.
+2. Click the **Screenshot** icon at the bottom of the chat screen.
    ![](screenshot_icon.png){:.border .small}
-3. スクリーンショットを取得するウインドウを選択するか，ドラッグして撮影する範囲を選択してください．
+3. Select the window to take a screenshot of, or drag to select the area to capture.
    ![](screenshot_area.png){:.middle}
-5. 適宜絵文字や文章を追加し，「キャプチャー」を押してください．
-6. チャット画面に戻り，送信ボタンをクリックしてください．
+5. Add emojis or text as needed, and click **Capture**.
+6. Return to the chat screen and click the send button.
    ![](send_screenshot.png){:.border .middle}
 
-#### チャットで絵文字を使用する
+#### Using Emojis in Chat
 {:#emoji}
-ホストが「ミーティング チャットでの絵文字の使用を参加者に許可する」を有効にしている場合，ミーティングの参加者はチャットに直接絵文字を送ることができます．ホストは，参加者が送ることができる絵文字を「全ての絵文字」または「選択された絵文字」の中から選択することができます．
+If the host enables **Allow participants to use emojis in meeting chat**, it allows meeting participants to send emojis directly in the chat. The host can select the emojis that participants can send from **All emojis** or **Selected emojis**.
 
-この機能を用いることにより，文章を入力するよりも簡単に意思表示をすることなどができます．
+Using this feature enables you to express your intentions more easily than typing text.
 
-##### 使用手順
+##### Following the Procedure
 {:#emoji-usage}
-1. チャット画面下部の絵文字アイコンを押してください．
+1. Click the emoji icon at the bottom of the chat screen.
    ![](emoji_icon.png){:.border}
-3. 送信する絵文字を選択してください．
-   * この時，絵文字一覧の右下にある「スキントーン」欄で，送信する絵文字のスキントーンを変更することができます．
-4. 送信アイコンを押してください．以下の画像のように絵文字が送信されます．
+3. Select the emoji you wish to send.
+   * At this time, you can change the skin tone of the emoji to be sent in the **Skin tone** section at the bottom right of the emoji list.
+4. Click the send icon. Sends the emoji as shown in the image below.
    ![](emoji_sent.png){:.border}
 
-#### 宛先を選択する 
+#### Selecting Recipients 
 {:#select}
-ホストは「ミーティング チャット \- ダイレクト メッセージ」を有効にすることで，「チャット機能の有効化手順」で説明した，チャットを送信する対象を制限するプルダウンにおける，参加者間のダイレクトメッセージを許可する項目を選べるようになります．
+Enabling **Meeting chat - Direct messages** allows the host to select the option that permits direct messages between participants in the pull-down menu for restricting chat recipients, which was explained in "[Activating the Chat Feature](#activate)".
 
-デフォルトの設定(「ミーティング チャット \- ダイレクト メッセージ」が無効)でも，ホスト・共同ホスト⇔参加者の間ではダイレクトメッセージを送れます．ダイレクトメッセージを許可することで，相手がホストや共同ホストであるかに関わらず，参加者同士でダイレクトメッセージを送れるようになります．
+Even with the default settings (where **Meeting chat - Direct messages** is disabled), direct messages can be sent between the host/co-hosts and participants. Enabling direct messages allows participants to send direct messages to each other regardless of whether the recipient is a host or co-host.
 
-##### 使用手順
+##### Following the Procedure
 {:#select-usage}
-チャット入力画面の上部の「宛先」から，ダイレクトメッセージの送信先を選択してください．「ミーティング中の全員」を選択すると全体向けのチャットとなります．
+Select the destination for the direct message from **To** at the top of the chat input screen. Selecting **Everyone in Meeting** makes the chat visible to everyone.
 ![](direct_select.png){:.border}
 
-なお，参加者の誰かからダイレクトメッセージが来た場合，次に自分が送信するチャットの送信先が自動でその参加者に変わってしまうので，注意してください．
+Note that if you receive a direct message from a participant, the destination of your next chat automatically changes to that participant.
 
-#### チャットをローカルに自動保存する
+#### Saving Chats Locally Automatically
 {:#auto-save}
-「ミーティング チャット \- 自動保存」を有効にすると，自分がホスト（または共同ホスト）として参加したミーティングのチャットが，ミーティング終了後，自動的にローカルに保存されます．保存されるのは自身がやり取りしたチャットのみであり，他の参加者間のダイレクトメッセージなどは保存されません．また，ミーティングの作成者が必ずしもホストであるとは限らないため，この点に注意が必要です．
-なお，クラウドに保存したい場合は，「[チャットをクラウドに自動保存する](#cloud-save)」を参照してください．
+Enabling **Meeting chat - Auto-save** automatically saves the chats of the meetings you participated in as a host (or co-host) locally after the meeting ends. It saves only the chats you exchanged, and does not save direct messages between other participants. Also, note that the creator of the meeting is not always the host.
+Refer to "[Saving Chats Automatically to the Cloud](#cloud-save)" if you wish to save them to the cloud.
 
-#### ファイルを送る
+#### Sending Files
 {:#file}
-「ミーティングチャットでファイルを送る」を有効にすると，チャットで授業資料などのファイルを直接送ることができます．送信を許可するファイル形式の設定や，最大ファイルサイズの設定もZoomのウェブポータルからできます．
+Enabling **Send files via meeting chat** allows you to send files such as class materials directly in the chat. It allows you to configure settings for permitted file formats and maximum file sizes from the Zoom web portal as well.
 
-##### 使用手順
+##### Following the Procedure
 {:#file-usage}
-1. チャット画面下部のファイルアイコンを押してください．
-2. コンピュータ内から送信するファイルを選択し送信アイコンを押してください．
+1. Click the file icon at the bottom of the chat screen.
+2. Select the file you wish to send from your computer and click the send icon.
 
 ![](file_send.png){:.border .small}
 
-### ミーティング内（基本）以外で設定できる機能
+### Using Features Configurable Outside of In-Meeting (Basic)
 {:#not-meeting-basic}
 
-Zoomのウェブポータルの他の設定画面にもチャットに関する項目があります．
+There are also chat-related items on other settings screens of the Zoom web portal.
 
-#### チャットをクラウドに自動保存する
+#### Saving Chats Automatically to the Cloud
 {:#cloud-save}
-Zoomミーティングの[クラウドレコーディング](../recording/)機能を用いて，チャットの内容を，ローカル（各自のPCなど）だけでなく，Zoomクラウドに保存することも可能です．保存したチャットは，ルームの作成者のアカウントからのみアクセスすることが可能です．ルームの作成者とホストが異なる場合など，ホストであったミーティングでもアクセスできない場合がありますので，お気をつけください．
+Using the [Cloud Recording](../recording/) feature of Zoom meetings allows you to save chat contents not only locally (e.g., on your PC) but also to the Zoom cloud. It allows access to the saved chats only from the account of the room creator. Please be aware that you may not be able to access them even for meetings where you were the host, such as when the room creator and the host are different.
 
-##### 設定手順
+##### Configuring the Settings
 {:#cloud-setting}
-1. 「[Zoom サインイン方法](../../signin/)」を参考にしてブラウザでZoomのウェブポータルにアクセスし，「設定」を開いてください．
-2. 画面上のバーから「レコーディング」のタブを選択してください．
+1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open **Settings**.
+2. Select the **Recording** tab from the bar at the top of the screen.
    ![](cloud_setting.png)
-3. 「一般」セクションの「クラウドレコーディング」のトグルをオンにし，「ミーティング / ウェビナーからのチャット メッセージを保存する」にチェックを入れください．その上でクラウドレコーディングをすると，チャットの内容も自動でクラウドに保存されます．
+3. Turn on the **Cloud recording** toggle in the **General** section, and check **Save chat messages from the meeting / webinar**. When you start cloud recording after this, it automatically saves the chat contents to the cloud.
    ![](cloud_chat_save.png)
 
-##### クラウドに保存されたチャットの確認方法
+##### Checking Chats Saved to the Cloud
 {:#cloud-view}
-下記の手順でクラウド保存されたチャットファイルをダウンロードすることができます．
+The following procedure allows you to download chat files saved to the cloud.
 
-1. 「[Zoom サインイン方法](../../signin/)」を参考にしてブラウザでZoomのウェブポータルにアクセスし，「レコーディングと文字起こし」を開いてください．
-2. 「クラウドレコーディング」の画面を開き，該当のレコーディングを選択し，「チャットファイル」をダウンロードしてください．
-   * クラウドレコーディングについての詳細は，「[Zoomレコーディング](../recording/)」の記事を参照してください．
-   * クラウドレコーディングで保存されたチャットファイルは，リンクで共有することもできます．
+1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open **Recordings and Transcripts**.
+2. Open the **Cloud Recordings** screen, select the relevant recording, and download the **Chat file**.
+   * Refer to the "[Zoom Recording](../recording/)" article for details on cloud recording.
+   * It allows you to share chat files saved via cloud recording with a link.
 
 ![](cloud_chat_download.png){:.border}
