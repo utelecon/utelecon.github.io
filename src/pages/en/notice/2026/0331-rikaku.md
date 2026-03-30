@@ -3,7 +3,7 @@ title: Handling of the 2026 Academic Year S Semester Courses on UTOL
 ---
 
 <div style="text-align: right;">
-<span>March XX, 2026</span><br />
+<span>March 31, 2026</span><br />
 <span>Information Technology Center</span><br />
 </div>
 
@@ -16,7 +16,7 @@ In the S semester of 2026, course confirmation dates will be set uniformly as fo
 | Term/Semester      | College of Arts and Sciences Junior Division            | All others   |
 | :----------------- | :------------------------------------------------------ | :----------- |
 | S1 Term/S Semester | **April 28**                                            | **April 29** |
-| S2 Term            | **See [Supplementary Information 1](#junior-division)** | **April 29** |
+| S2 Term            | **See [Supplementary Information 1](#junior-division)** | **June 14** |
 
 We believe that the operational issues encountered in the 2024 Academic Year S Semester, such as students being locked out of courses they plan to register for and subsequently losing access to course materials or assignments before the registration period starts, can be avoided to some extent.
 
@@ -78,19 +78,17 @@ Depending on the course, the dates offered may differ from the standard such as 
 | 通年                     | Year-long               | April 29                 |
 | 集中                     | Intensive               | April 29                 |
 | 年度跨り                 |                         | To be determined         |
-| その他                   |                         | To be determined         |
-| 認定                     |                         | April 29                 |
 | 年度跨り④                |                         | April 29                 |
 | 年度跨り⑩                |                         | To be determined         |
 | Ｓ１                     | Ｓ１                    | April 29                 |
-| Ｓ２                     | Ｓ２                    | April 29                 |
+| Ｓ２                     | Ｓ２                    | June 14                  |
 | Ａ１                     | Ａ１                    | To be determined         |
 | Ａ２                     | Ａ２                    | To be determined         |
 | Ｗ                       | Ｗ                      | To be determined         |
 | S1S2                     | S1S2                    | April 29                 |
 | S1S2A1                   | S1S2A1                  | April 29                 |
-| S2A1                     | S2A1                    | April 29                 |
-| S2A1A2                   | S2A1A2                  | April 29                 |
+| S2A1                     | S2A1                    | June 14                  |
+| S2A1A2                   | S2A1A2                  | June 14                  |
 | A1A2                     | A1A2                    | To be determined         |
 | A1A2S1                   | A1A2S1                  | To be determined         |
 | A2S1                     | A2S1                    | To be determined         |
@@ -100,8 +98,8 @@ Depending on the course, the dates offered may differ from the standard such as 
 | A2W                      | A2W                     | To be determined         |
 | WS1                      | WS1                     | To be determined         |
 | S1A2                     | S1A2                    | April 29                 |
-| S2A2                     | S2A2                    | April 29                 |
-| S2A2W                    | S2A2W                   | April 29                 |
+| S2A2                     | S2A2                    | June 14                  |
+| S2A2W                    | S2A2W                   | June 14                  |
 | WS1A1                    | WS1A1                   | To be determined         |
 | 年度跨り⑪                |                         | To be determined         |
 | S1S2A1A2                 | S1S2A1A2                | April 29                 |
