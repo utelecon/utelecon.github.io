@@ -7,6 +7,7 @@ breadcrumb:
 このページでは，ECCSにおける不具合等の情報の一覧を掲載しています．
 
 ## ChromeOSデバイス
+{:#chromeos}
 
 - [Chromebookでカメラ映像が真っ黒になる/うまく映らない](./chromebook-camera-recognition/)
 - [USBの認識問題](./chromebook-dock-recognition/)
