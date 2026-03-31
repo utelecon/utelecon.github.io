@@ -8,5 +8,5 @@ breadcrumb:
 
 ## ChromeOSデバイス
 
-- [Chromebookでカメラ映像が真っ黒になる/うまく映らない](/chromebook-camera-recognition/)
-- [USBの認識問題](/chromebook-dock-recognition/)
+- [Chromebookでカメラ映像が真っ黒になる/うまく映らない](./chromebook-camera-recognition/)
+- [USBの認識問題](./chromebook-dock-recognition/)
