@@ -67,6 +67,8 @@ For information on how to create and edit files on OneDrive using Microsoft Offi
 
 Teams is an application that is used for chats, video meetings and so on. For the instruction of usage, please refer to **[UTokyo Microsoft Teams User Manual (written in only Japanese)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/%E3%80%8C%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%88_Microsoft_Teams%E5%88%A9%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%8820210311%EF%BC%89%E3%80%8D.pdf)** (accessible only to faculty and staff).
 
+For information on how to change your display name in Teams meetings, see the “[Change Your Display Name in Microsoft Teams Meetings](/en/articles/teams-display-name/)” page.
+
 #### "Team" Function
 {:#team_function}
 
@@ -97,7 +99,7 @@ Microsoft Forms is a system that allows you to create online forms. You can also
 
 To use the systems provided by UTokyo Microsoft License, you need to sign in with your UTokyo Account as a Microsoft account.
 
-If you are asked to sign in as shown in the image below, enter "10-digit common ID + `@utac.u-tokyo.ac.jp`" in the input field and follow the on-screen instructions.
+If you are asked to sign in as shown in the image below, enter your UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`) in the input field and follow the on-screen instructions.
 
 ![](./img/microsoft-signin-instruction-1.png){:.small.center.border}
 

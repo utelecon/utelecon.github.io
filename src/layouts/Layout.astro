@@ -1,6 +1,7 @@
 ---
 import { SEO, type Props as SEOProps } from "astro-seo";
 import GoogleAnalytics from "./GoogleAnalytics.astro";
+import MicrosoftClarity from "./MicrosoftClarity.astro";
 import Header from "./Header/index.astro";
 import Footer from "./Footer/index.astro";
 import Toc from "./Toc.astro";
@@ -82,6 +83,7 @@ const locale = {
 }[lang];
 
 const gaid = "G-ZM6H96EWBD";
+const clarityProjectId = "vat2444uow";
 
 const canonicalUrl = Astro.url;
 
@@ -93,13 +95,19 @@ const seoProps: SEOProps = {
   charset: "UTF-8",
   canonical: canonicalUrl.href,
 };
+
+const ogpImagePath = {
+  en: "/assets/images/ogp_en.png",
+  ja: "/assets/images/ogp.png",
+}[lang];
+
 if (title) {
   seoProps.openGraph = {
     basic: {
       title,
       type: "website",
       url: canonicalUrl.href,
-      image: new URL("/assets/images/ogp.png", Astro.site).href,
+      image: new URL(ogpImagePath, Astro.site).href,
     },
     optional: {
       description,
@@ -126,6 +134,7 @@ const resolvedBreadcrumb =
     <SEO {...seoProps} />
 
     <GoogleAnalytics id={gaid} />
+    <MicrosoftClarity projectId={clarityProjectId} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#157878" />
     <meta

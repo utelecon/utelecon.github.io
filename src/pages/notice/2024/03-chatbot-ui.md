@@ -101,8 +101,8 @@ APIの使用には上限があり，また従量課金となっていること�
 
 本サービスの利用には**[UTokyo Accountの多要素認証](/utokyo_account/mfa/)の有効化と2024年度分の[情報セキュリティ教育](https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx)の受講を必須**とします．あらかじめこれらを済ませた上で，以下の手順に進んでください．
 
-1. 以下の申請フォームを入力・送信してください．<b class="box center"><a href="https://forms.office.com/r/w0KZwqi0KH">申請フォーム</a></b>
-1. 以下のリンクにアクセスしてください．<b class="box center"><a href="https://aichat.adm.u-tokyo.ac.jp/">https://aichat.adm.u-tokyo.ac.jp/</a></b>
+1. 以下の申請フォームを入力・送信してください．<b class="box center"><del>申請フォーム</del></b>
+1. 以下のリンクにアクセスしてください．<b class="box center"><del>aichat</del></b>
     <details>
         <summary>ヘルプ：「申し訳ありませんが、サインイン中に問題が発生しました。」または「Sorry, but we’re having trouble signing you in.」というエラーが表示される場合</summary>
         本サービスの利用に必要な<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education.aspx">情報セキュリティ教育</a>の受講が完了していないために，申請が却下されています．情報セキュリティ教育の受講を完了（確認テストに合格）してから，もう1度申請をし直してください．

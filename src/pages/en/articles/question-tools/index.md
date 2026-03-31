@@ -94,7 +94,7 @@ These tools can also be used for classes with fewer participants.
 
 Slido is a web-based service that comes with Q&A and polling features and can be used to facilitate interactive communication between participants during classes and lectures.
 
-The functions needed to collect questions can be used for free. However, you can gain access to paid functions (like allowing participants to respond to each other’s questions or exporting questions and other data) by signing in with your UTokyo account. See [here](/en/slido/#slido-account-and-license-for-utokyo-members)for more information. 
+The functions needed to collect questions can be used for free. However, you can gain access to paid functions (like allowing participants to respond to each other’s questions or exporting questions and other data) by signing in with your UTokyo Account. See [here](/en/slido/#slido-account-and-license-for-utokyo-members)for more information. 
 
 Although Slido has several features, we will focus on examples of how to collect questions using the “Q&A” feature. 
 

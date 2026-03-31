@@ -1,5 +1,8 @@
 ---
 title: Policy on the use of AI tools in classes
+h1: "Policy on the use of AI tools in classes<small> (ver. 1.0)</small>"
+breadcrumb:
+  title: Policy on the use of AI tools in classes
 ---
 
 <div style="text-align: right;">April 28, 2023</div>

@@ -30,7 +30,7 @@ You need to display the QR code to register the Yubico Authenticator application
 If you have not registered any verification method and wish to register the Yubico Authenticator application as your first verification method, please follow the procedures below.
 
 1. Access the [Security info page](https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=univtokyo.onmicrosoft.com).
-2. The sign in page will appear (if you are not already signed in). Enter your UTokyo Account username (10-digit Common ID) and password and click “Sign in”.
+2. The sign in page will appear (if you are not already signed in). Enter your Common ID (the first 10-digit numerical part of the UTokyo Account) and password and click “Sign in”.
 ![](../first.png)
 3. Click “Next” in the “More information required” page.
 4. Click “I want to use a different authentication app” in the middle of the setup page.

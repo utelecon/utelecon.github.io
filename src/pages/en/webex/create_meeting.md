@@ -41,7 +41,7 @@ To edit the contents of a meeting you have scheduled, select the meeting in ques
 ![](img/webex_home_list_mtg.png){:.border.medium}
 ![](img/webex_edit_meeting.png){:.border.medium}
 
-- On the home page, you can view any meetings and webinars scheduled within the next seven days. If you want to select a meeting scheduled at a later date, click the “Calendar” button on the left-hand side of the home page and search for the desired date．
+- On the home page, you can view any meetings and webinars scheduled within the next seven days. If you want to select a meeting scheduled at a later date, click the “Calendar” button on the left-hand side of the home page and search for the desired date.
 ![](img/webex_home_calendar.png){:.border.medium}
 ![](img/webex_calendar.png){:.border.medium}
 

@@ -11,9 +11,6 @@ import ECCSCloudEmailLogin from '@components/ja/systems/eccs_cloud_email/Login.m
 import ECCSCloudEmailAccess from '@components/ja/systems/eccs_cloud_email/Access.mdx';
 import ECCSCloudEmailLoginSp from '@components/ja/systems/eccs_cloud_email/LoginSp.mdx';
 import ECCSCloudEmailUseMail from '@components/ja/systems/eccs_cloud_email/UseMail.mdx';
-import WwweccEol from "@components/ja/WwweccEol.astro";
-
-<WwweccEol systemName="ECCSクラウドメール（Google Workspace）"/>
 
 ## ECCSクラウドメールとは
 
@@ -21,7 +18,7 @@ import WwweccEol from "@components/ja/WwweccEol.astro";
 
 UTokyo Accountを取得した方は，個人的に Google のアカウントを持っている場合でも，ECCSクラウドメールのアカウントが使えるようにしておいてください．ECCSクラウドメールのアカウントでしかアクセスできないように設定されたページやファイルに，アクセスするよう求められることがあるためです．
 
-ECCSクラウドメールのメールアドレス（ユーザ名）は，`xxxx@g.ecc.u-tokyo.ac.jp`の形をしています．`@`より前の部分は，ご自身で適切なものを考えて設定してください．なお，ご自身で設定しない場合は，「10桁の共通ID+`@g.ecc.u-tokyo.ac.jp`」がメールアドレスとなります．これに関して詳しくは，「[メールアドレスに関する制限・仕様など](./misc/localpart/)」のページを参照してください．
+ECCSクラウドメールのメールアドレス（ユーザ名）は，`xxxx@g.ecc.u-tokyo.ac.jp`の形をしています．`@`より前の部分は，ご自身で適切なものを考えて設定してください．なお，ご自身で設定しない場合は，「数字10桁の共通ID+`@g.ecc.u-tokyo.ac.jp`」がメールアドレスとなります．これに関して詳しくは，「[メールアドレスに関する制限・仕様など](./misc/localpart/)」のページを参照してください．
 
 ## 利用開始の手順
 {:#initial-setup}
@@ -35,7 +32,7 @@ ECCSクラウドメールの利用（アカウントの初期設定）には[UTo
 
 <ECCSCloudEmailConfigure img />
 
-メールアドレスを設定してから，反映に**最大約40分**かかるので，**ログインできるようになるまでしばらく待ってください**．
+メールアドレスを設定してから，反映に**最大約30分**かかるので，**ログインできるようになるまでしばらく待ってください**．
 
 ### ログインしてみる
 {:#login}
@@ -122,4 +119,4 @@ Googleの生成AIサービスです．なお，2024年9月現在，ECCSクラウ
 
 ## その他の情報
 {:#misc}
-利用に際しては，[ECCSクラウドメールの利用に関するその他の情報](./misc/)も参考にしてください．
+利用に際しては，[ECCSクラウドメールの利用に際する関連情報](./misc/)も参考にしてください．

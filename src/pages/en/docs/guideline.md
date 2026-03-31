@@ -1,5 +1,7 @@
 ---
 title: The tools usage guideline for online class since S semester 2021
+breadcrumb:
+  title: Guideline for Online Class Tools Usage
 redirect_from:
   - "/en/notice/guideline"
 --- 

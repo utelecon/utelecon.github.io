@@ -20,7 +20,8 @@ Please be sure to check [the Support Desk page](../) before inquiring.
 
 ### Notes on Chat
 
-- Operators are available 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri), except for December, 29 through January, 2.
+- Operators are available 8:25 a.m.-6:30 p.m. on weekdays (Mon-Fri) and 10:20 a.m.-4:35 p.m. on weekends or holidays.
+  - Note: business hours on weekends and holidays are available from Saturday, March 14, 2026 through Sunday, April 19, 2026 (Including Friday, March 20). Normally, the operator service is available only on weekdays.
 - Please note that it may take some time for operators to respond, depending on the volume of inquiries.
   In such cases, please use [the email form](../email-form/) or try again later.
 - This support system is powered by "Zoom Contact Center" service provided by Zoom.

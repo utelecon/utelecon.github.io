@@ -1,88 +1,91 @@
 ---
-title: UTokyo Account Identity Verification Service
+title: How to set up the UTokyo Account Identity Verification Service
+breadcrumb:
+  title: Pre-linking
 ---
 
+import CheckStatus from "../_CheckStatus.mdx"
+
 ## Introduction
-This page explains the "pre-link" procedure, which must be completed in advance to use the UTokyo Account Identity Verification Service.
+This page explains the "pre-link process" that you need to complete before using the UTokyo Account Identity Verification Service.
 
 The overall process is as follows:
 
-- Step 1: [Set up the digital identification app](#app-setup)
-- Step 2: [Perform identity verification using the app and your My Number Card](#auth)
-- Step 3: [Sign in with your UTokyo Account and make the link](#signin)
+- Step 1: [Setting up the Digital Identification App](#app-setup)
+- Step 2: [Verify your identity using the app and your My Number Card](#auth)
+- Step 3: [Sign in with your UTokyo Account to complete pre-linking ](#signin)
 - Step 4: [Confirm the link status](#statuscheck)
 
-When accessing the UTokyo Account Identity Verification Service, the procedure in Step 2 differs depending on whether you use a PC (in case of using both a PC and a smartphone) or not (in case of using only a smartphone). We recommend completing the process using only a smartphone, as the procedure is more straightforward.
+When accessing the UTokyo Account Identity Verification Service, the procedure in Step 2 differs depending on whether you use a PC (together with a smartphone) or only a smartphone. We recommend completing the process using only a smartphone, as the procedure is more straightforward.
 
 ## What you need
 
 - Your physical [My Number Card (Individual Number Card of Japan)](https://www.digital.go.jp/en/policies/mynumber) [^1]
-- The 4-digit PIN (Personal Identification Number) you registered when you received your My Number Card.（[Electronic Certificate of User Proof(in Japanese)](https://faq.myna.go.jp/faq/show/3494)，[PIN for Card Info Input Support(in Japanese)](https://faq.myna.go.jp/faq/show/2385)）[^2]
-- A smartphone that can use the digital identification app (iOS 16.0 or later, or Android 11 or later) [^3]
+- The 4-digit PIN (Personal Identification Number) you registered when you received your My Number Card. ([Electronic Certificate of User Proof (in Japanese)](https://faq.myna.go.jp/faq/show/3494), [PIN for Card Info Input Support (in Japanese)](https://faq.myna.go.jp/faq/show/2385)) [^2]
+- A smartphone that can use the Digital Identification App (iOS 16.0 or later, or Android 11 or later) [^3]
 - A PC, if you perform the procedure from a PC (you can also complete the entire procedure on a smartphone)
 
-[^1]: As of September 2025, the so-called [“Smartphone My Number Card"](https://www.digital.go.jp/en/policies/mynumber/smartphone-certification) (e.g., electronic certification for smartphones on Androids  or iPhone My Number Card) is not available.
-[^2]: If you have forgotten your PIN or it has been locked, you need to go to the office of the municipality where you are registered to have it initialized and reset. For details, please check the [My Number Card General Portal Site(in Japanese)](https://www.kojinbango-card.go.jp/faq_pin3/).
-[^3]:The device must be listed in the "List of Smartphones Compatible with My Number Card" file on the page linked from the [JPKI (Japan Public Key Infrastructure) Portal Site(in Japanese)](https://www.jpki.go.jp/prepare/reader_writer.html).
+[^1]: As of September 2025, the so-called ["Smartphone My Number Card"](https://www.digital.go.jp/en/policies/mynumber/smartphone-certification) (e.g., electronic certification for smartphones on Androids or iPhone My Number Card) is not available.
+[^2]: If you have forgotten your PIN or it has been locked, you need to go to the office of the municipality where you are registered to have it initialized and reset. For details, please check the [My Number Card General Portal Site FAQ](https://www.kojinbango-card.go.jp/en-faq/#kojinbango) "Q10 I do not know the PIN for my Individual Number Card. What should I do?".
+[^3]: The devices listed in the "マイナンバーカードに対応したスマートフォン一覧" (List of Smartphones Compatible with My Number Card) file on the page linked from the [JPKI (Japan Public Key Infrastructure) Portal Site (in Japanese)](https://www.jpki.go.jp/prepare/reader_writer.html) can be used.
 
-## Step 1
+## Step 1: Setting up the Digital Identification App
 {:#app-setup}
-The UTokyo Account Identity Verification Service uses the "Digital Identification App" provided by the Digital Agency. First, you need to install this app and create a user registration.
+First, please set up the Digital Identification App.
 
-1. Install the “Digital Identification App”.
-    - [Link for iPhone](https://apps.apple.com/jp/app/id6454900894)
+1. Install the "Digital Identification App" onto your smartphone from the following links.
+    - [Link for iPhone](https://apps.apple.com/jp/app/id6454900894?l=en-US)
     - [Link for Android](https://play.google.com/store/apps/details?id=jp.go.digital.auth_and_sign)
-1. Complete the user registration for the app by following the [registration method published by the Digital Agency.](https://services.digital.go.jp/auth-and-sign/start-guide/).
+1. Complete the user registration for the app by following the [registration method published on the Digital Agency of Japan's official website](https://services.digital.go.jp/en/auth-and-sign/start-guide/).
 
-## Step 2
+## Step 2: Perform identity verification using the app and your My Number Card
 {:#auth}
 
-Use your My Number Card and the digital identification app to perform identity verification. The procedure is slightly different for **[the case of using only a smartphone](#auth-smartphone)** and **[the case of using both a PC and a smartphone](#auth-pc)**. Please follow the steps applicable to your situation.
+Next, verify your identity using your My Number Card and the Digital Identification App.  The steps differ slightly depending on whether you complete the verification **[using only a smartphone](#auth-smartphone)** or **[use both a PC and a smartphone](#auth-pc)**. The method is simpler if you only use a smartphone. Please follow the steps applicable to your situation.
 
-### In case of using only a smartphone
+### If using a smartphone only
 {:#auth-smartphone}
 
-1. Access the [UTokyo Account Identity Verification Service](https://identification.adm.u-tokyo.ac.jp/verify/) on your smartphone．
-2. Tap "Verify identity with My Number Card." This will redirect you to the digital identification app. If the menu of authentication steps is displayed, the process is working correctly．
+1. Access the [UTokyo Account Identity Verification Service](https://identification.adm.u-tokyo.ac.jp/verify/) on your smartphone.
+1. Tap "Verify identity with My Number Card" This will redirect you to the Digital Identification App. If the authentication steps menu appears, the process is working correctly.
     ![](./images/service_step1.png){:.border}{:.medium}
 
     {/* ここから共通 */}
     <details>
-    <summary>If the digital identification app does not open and a different screen is displayed</summary>
-
-    If the app is not installed, a screen will prompt you to install it．Depending on your browser's display zoom settings, it may be detected as a PC access, and a screen with a QR code may be displayed．In either case, please go back to [Step1](#app-setup) to install this app and create a user registration.
+    <summary>If the Digital Identification App does not open and a different screen is displayed</summary>
+    If the Digital Identification App is not installed, a screen will appear prompting you to install the app. Depending on your browser's display zoom settings, the system may detect the access as coming from a PC and display a QR code instead. In either case, please return to [Step 1](#app-setup),  install the Digital Identification App, and complete the registration. 
     ![](./images/promote_install.png){:.border}{:.small}
     </details>
 
     <details>
-    <summary>If the digital identification app opens but a different screen is displayed</summary>
+    <summary>If the Digital Identification App opens but a different screen is displayed.</summary>
 
-    The app may be installed, but if you have not completed user registration, the registration process may have been initiated．Please go back to [Step1](#app-setup) and create a user registration.
+    The app may be installed, but if you have not completed the user registration, the registration process may have been initiated. Please return to [Step 1](#app-setup) and complete the user registration.
     </details>
     {/* ここまで共通 */}
 
     {/* ここから共通 */}
-3.  The digital identification app will ask for biometric authentication or a passcode; please follow the instructions.
-4. Tap "Start" to proceed with the authentication steps.
-    ![](./images/auth_app_initial.png){:.border}
-5. Enter the PIN for the “electronic certificate of user proof.”
+1. Follow the instructions in the app to authenticate using biometrics or a passcode.
+1. Tap "Start" to proceed with the authentication steps.
+    ![](./images/auth_app_initial_1.png){:.border}
+1. Enter the PIN for the "electronic certificate of user proof".
     ![](./images/auth_app_pass1.png){:.border}
-6. Enter the PIN of the “app to support entering items on the card.” If it is the same as the previous PIN, you can skip this step by tapping "Insert same PIN."
+1. Enter the PIN of the "app to support entering items on the card" (previously referred to as "PIN for Card Info Input Support"). If it is the same as the previous PIN, you can skip this step by tapping "Insert same PIN".
     ![](./images/auth_app_pass2.png){:.border}
-7. Follow the instructions in the app, tap the "Read the card"  button, and scan your My Number Card with your smartphone.
+1. Follow the instructions in the app, tap the "Read the card" button, and scan your My Number Card with your smartphone.
     - While the message "Reading…" is displayed, do not move the My Number Card away from your smartphone.
     - Once the scan is complete, the data will be automatically sent to the server.
 
     <figure class="gallery">![](./images/auth_app_read1.png){:.border} ![](./images/auth_app_read2.png){:.border} ![](./images/auth_app_read3.png){:.border}</figure>
-8. A screen will appear asking for permission to authenticate with the UTokyo Account Identity Verification Service. After reviewing the privacy policy and terms and conditions, tap "Allow."
-    ![](./images/auth_app_permittion1.png){:.border}
+1. A screen will appear asking for permission to authenticate with the UTokyo Account Identity Verification Service. After reviewing the privacy policy and terms and conditions, tap "Allow".
+    ![](./images/auth_app_permission1.png){:.border}
 
     <details>
-    <summary>When a selection button appears asking, “Stop authentication and information sharing?”</summary>
+    <summary>When an option appears asking, "Stop authentication and information sharing?"</summary>
 
-    Although the format differs slightly between Android and iOS, a prompt will appear asking, "Stop authentication and information sharing?"．
-   - If you select 'Stop', you will be redirected to a page that displays "Bad Request…" because this action is not supported by the UTokyo Account Identity Verification Service．In this case, please return to the UTokyo Account Identiy Verification Service page and start over from the beginning of [Step2](#auth-smartphone)．
-   - If you select 'Cancel' on this pop-up, you will be returned to the previous screen. Please proceed with the remaining steps.
+    Although the format differs slightly between Android and iOS, a prompt will appear asking, "Stop authentication and information sharing?".
+    - If you select 'Stop', you will be redirected to a page that displays "Bad Request…" because this action is not supported by the UTokyo Account Identity Verification Service. In this case, please return to the UTokyo Account Identity Verification Service page and start over from the beginning of [Step 2](#auth-smartphone).
+    - If you select 'Cancel' on this pop-up, you will be returned to the previous screen. Please proceed with the remaining steps.
 
     <figure class="gallery">![](./images/auth_app_cancelpop_android.png){:.border}{:.small} ![](./images/auth_app_cancelpop_iOS.png){:.border}{:.small}</figure>
 
@@ -91,66 +94,66 @@ Use your My Number Card and the digital identification app to perform identity v
     </details>
 
     {/* ここまで共通 */}
-10. The app will return you to the UTokyo Account Identity Verification Service page. This will happen either by tapping "Return to the service in use" in the app or by waiting 10 seconds.
+1. Tap "Return to the service in use" in the Digital Identification App or wait 10 seconds after the screen changes. You will be returned to the UTokyo Account Identity Verification Service.
     ![](./images/auth_app_end.png){:.border}
 
 <div class="box">
-Initial setup is not yet complete．Proceed to [Step 3](#signin)．
+Initial setup is not yet complete. Proceed to [Step 3](#signin).
 </div>
 
-### In case of using both a PC and a smartphone
+### If using both a PC and a smartphone
 {:#auth-pc}
 
-1. Access the [UTokyo Account Identity Verification Service](https://identification.adm.u-tokyo.ac.jp/verify/) on your PC．
-2. Click "Verify identity with My Number Card."  A QR code will be displayed.
+1. Access the [UTokyo Account Identity Verification Service](https://identification.adm.u-tokyo.ac.jp/verify/) on your PC.
+1. Click "Verify identity with My Number Card". A QR code will be displayed.
     ![](./images/service_step1.png){:.border}{:.medium}
 
-3. Scan the large QR code with the smartphone you set up in Step 1. If the QR code becomes invalid, click "Refresh QR code" below it to get a new one. **Do not close the PC page after this**．
+1. Scan the large QR code with the smartphone you set up in Step 1. If the QR code becomes invalid, click "Refresh QR code" below it to generate a new one. **Do not close the PC page after this**.
 
     <figure class="gallery"> ![](./images/auth_pc_qr.png){:.border}{:.medium} ![](./images/auth_pc_qr_invalid.png){:.border}{:.medium}</figure>
 
     <details>
     <summary>If you close the PC page</summary>
-    Plese restart from the beginning of [Step2](#auth-pc)．
+    Plese restart from the beginning of [Step 2](#auth-pc).
     </details>
     {/* ここから共通 */}
     <details>
-    <summary>If the digital identification app does not open and a different screen is displayed</summary>
+    <summary>If the Digital Identification App does not open and a different screen is displayed</summary>
 
-    If the app is not installed, a screen will prompt you to install it. Depending on your browser's display zoom settings, it may be detected as a PC access, and a screen with a QR code may be displayed. In either case, please go back to [Step1](#app-setup) to install and register the digital identification app．
+    If the Digital Identification App is not installed, a screen will prompt you to install it. Depending on your browser's display zoom settings, the system may detect the access as coming from a PC and display a QR code instead. In either case, please return to [Step 1](#app-setup) to install and register the Digital Identification App.
     ![](./images/promote_install.png){:.border}{:.small}
     </details>
 
     <details>
-    <summary>If the digital identification app opens but a different screen is displayed</summary>
+    <summary>If the Digital Identification App opens but a different screen is displayed</summary>
 
-    The app may be installed, but if you have not completed user registration, the registration process may have been initiated．Please go back to [Step1](#app-setup) and register the app.
+    The app may be installed, but if you have not completed user registration, the registration process may have been initiated. Please return to [Step 1](#app-setup) and register the app.
     </details>
     {/* ここまで共通 */}
 
-4. Enter the 6-digit number displayed on your smartphone into your PC. If it expires, refresh the 6-digit number.
+1. Enter the 6-digit number displayed on your smartphone into your PC. If it expires, refresh the 6-digit number.
 
     {/* ここから共通 */}
-5.  The digital identification app will ask for biometric authentication or a passcode; please follow the instructions.
-6. Tap "Next" to proceed with the authentication steps.
-    ![](./images/auth_app_initial_renew.png){:.border}
-7. Enter the PIN for the “electronic certificate of user proof.”
+1. Follow the instructions shown on the app to authenticate using biometrics or a passcode.
+1. Tap "Next" to proceed with the authentication steps.
+    ![](./images/auth_app_initial_2.png){:.border}
+1. Enter the PIN for the "electronic certificate of user proof".
     ![](./images/auth_app_pass1.png){:.border}
-8. Enter the PIN of the “app to support entering items on the card.” If it is the same as the previous PIN, you can skip this step by tapping "Insert same PIN."
+1. Enter the PIN of the "app to support entering items on the card" (previously referred to as "PIN for Card Info Input Support"). If it is the same as the previous PIN, you can skip this step by tapping "Insert same PIN".
     ![](./images/auth_app_pass2.png){:.border}
-9. Follow the instructions in the app, tap the "Read the card"  button, and scan your My Number Card with your smartphone.
+1. Follow the instructions in the app, tap the "Read the card" button, and scan your My Number Card with your smartphone.
     - While the message "Reading…" is displayed, do not move the My Number Card away from your smartphone.
     - Once the scan is complete, the data will be automatically sent to the server.
 
     <figure class="gallery">![](./images/auth_app_read1.png){:.border} ![](./images/auth_app_read2.png){:.border} ![](./images/auth_app_read3.png){:.border}</figure>
-10. A screen will appear asking for permission to authenticate with the UTokyo Account Identity Verification Service. After reviewing the privacy policy and terms and conditions, tap "Allow."
-    ![](./images/auth_app_permittion1.png){:.border}
+1. A screen will appear asking for permission to authenticate with the UTokyo Account Identity Verification Service. After reviewing the privacy policy and terms and conditions, tap "Allow".
+    ![](./images/auth_app_permission1.png){:.border}
 
     <details>
-    <summary>When a selection button appears asking, “Stop authentication and information sharing?”</summary>
+    <summary>When an options appears asking, "Stop authentication and information sharing?"</summary>
 
     Although the format differs slightly between Android and iOS, a prompt will appear asking, "Stop authentication and information sharing?"
-    - If you select 'Stop', you will be redirected to a page that displays "Bad Request…" because this action is not supported by the UTokyo Account Identity Verification Service. In this case, please return to the UTokyo Account Identity Verification Service page and start over from the beginning of [Step2](#auth-smartphone)．
+    - If you select 'Stop,' you will be redirected to a page that displays "Bad Request…" because this action is not supported by the UTokyo Account Identity Verification Service. In this case, please return to the UTokyo Account Identity Verification Service page and start over from the beginning of [Step 2](#auth-smartphone).
     - If you select 'Cancel' on this pop-up, you will be returned to the previous screen. Please proceed with the remaining steps.
 
     <figure class="gallery">![](./images/auth_app_cancelpop_android.png){:.border}{:.small} ![](./images/auth_app_cancelpop_iOS.png){:.border}{:.small}</figure>
@@ -161,33 +164,24 @@ Initial setup is not yet complete．Proceed to [Step 3](#signin)．
 
     {/* ここまで共通 */}
 
-11.Your work on the smartphone is now complete. Return to the PC screen.
+1. Your work on the smartphone is now complete. Return to the PC screen.
 
 <div class="box">
-Initial setup is not yet complete.　Proceed to [Step 3](#signin)．
+Initial setup is not yet complete. Proceed to [Step 3](#signin).
 </div>
 
-## Step 3
+## Step 3: Sign in with your UTokyo Account and complete the pre-linking process
 {:#signin}
 
-1. Click "Sign in with your  UTokyo Account."
+1. Click "Sign in with your UTokyo Account".
     ![](./images/service_step2.png){:.border}{:.medium}
-2. Unless you are already signed in to your UTokyo Account, the sign-in screen will be displayed. Please sign in.
-3. Click "Link your UTokyo Account and linked ID as described above" to link the accounts.
+1. Unless you are already signed in to your UTokyo Account, the sign-in screen will be displayed. Please sign in.
+1. Click "Link your UTokyo Account and linked ID as described above" to link the accounts.
     ![](./images/service_step3.png){:.border}{:.medium}
-4. If a button that says "Unlink the above " appears, the linkage has been successfully completed.
+1. If a button that says "Unlink the above" appears, the linkage has been successfully completed.
     ![](./images/service_step4.png){:.border}{:.medium}
 
-## Step 4
+## Step 4: Confirm the link status
 {:#statuscheck}
 
-### Checking on the UTokyo Account Identity Verification Service
-1. On the UTokyo Account Identity Verification Service, confirm that your name and the linked UTokyo Account are displayed correctly.
-
-{/* 9/7: /myでの確認方法はまだ利用できない状況です，したがって画像は用意できてません */}
-
-### Checking on the “View Your UTokyo Account User Information” site
-1. Access the “[View Your UTokyo Account User Information](https://login.adm.u-tokyo.ac.jp/my/)” site.
-2. Click the "Sign In" button in the upper right corner.
-3. Unless you are already signed in to your UTokyo Account, the sign-in screen will be displayed. Please sign in.
-4. Click the "Display information" button.
+<CheckStatus variant="link"/>

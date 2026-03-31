@@ -2,6 +2,11 @@
 title: Reduction of the storage capacity of OneDrive with UTokyo Accounts (Revised)
 ---
 
+<div class="box">
+
+For the latest information, please see "[Reduction of the storage capacity of OneDrive with UTokyo Accounts (3rd Announcement)](/notice/2025/1224-microsoft-storage/)" (only in Japanese).
+</div>
+
 <div style="text-align: right;">
   Issued: April 22, 2024<br>
   Updated: July 12, 2024

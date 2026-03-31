@@ -41,7 +41,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
       - name: Setup node_modules Cache
         uses: actions/cache@v4
         with:
@@ -56,10 +56,6 @@ jobs:
       - name: Build
         run: |
           npm run build
-      - name: Check unused assets
-        run: |
-          npm run unused-asset
-
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:

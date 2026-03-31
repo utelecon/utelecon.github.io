@@ -215,8 +215,7 @@ You can configure the messaging function and the attendance display settings usi
 
 LTI integration allows UTOL courses to connect with external tools[^3].
 
-[^3]: UTOLはLearning Tool Interoperability (LTI) v1.3に対応しており，Learning Platformとしての動作ができます．<br/>
-      UTOL supports Learning Tool Interoperability (LTI) v1.3 and functions as a Learning Platform.
+[^3]: UTOL supports Learning Tool Interoperability (LTI) v1.3 and functions as a Learning Platform.
 
 This section describes the procedures for using external tools in a course. For information on the functionality of the external tools, please refer to their respective websites.
 

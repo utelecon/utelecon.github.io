@@ -1,0 +1,66 @@
+import type { AstroIntegration } from "astro";
+import matter from "gray-matter";
+import { extname, join, relative } from "path";
+import { fileURLToPath } from "url";
+import { glob } from "glob";
+import { read } from "to-vfile";
+
+const source = [".md", ".markdown", ".mdx"];
+
+export default function redirect(): AstroIntegration {
+  return {
+    name: "redirect",
+    hooks: {
+      "astro:config:setup": async ({ updateConfig, config }) => {
+        const pages = join(fileURLToPath(config.srcDir), "pages");
+        const paths = await glob("**/*.{md,mdx,markdown,astro}", {
+          cwd: pages,
+          nodir: true,
+          absolute: true,
+        });
+        const files = (
+          await Promise.all(
+            paths.map(async (path) => {
+              if (!source.includes(extname(path))) return null;
+              return readFile(path);
+            }),
+          )
+        ).filter((file) => file !== null);
+        const redirects = files.flatMap((file) => {
+          const { redirect_to, redirect_from } = file.data;
+          const here =
+            "/" +
+            relative(pages, file.path).replace(
+              /(?:index)?\.(?:md|mdx|markdown|astro)$/,
+              "",
+            );
+          if (typeof redirect_to === "string") {
+            return { from: here, to: redirect_to };
+          }
+          if (typeof redirect_from === "string") {
+            return { from: redirect_from, to: here };
+          }
+          if (
+            Array.isArray(redirect_from) &&
+            redirect_from.every((x) => typeof x === "string")
+          ) {
+            return redirect_from.map((from) => ({ from, to: here }));
+          }
+          return [];
+        });
+        updateConfig({
+          redirects: Object.fromEntries(
+            redirects.map(({ from, to }) => [from, to]),
+          ),
+        });
+      },
+    },
+  };
+}
+
+async function readFile(path: string) {
+  const file = await read(path);
+  const { data } = matter(file.value.toString());
+  file.data = data;
+  return file;
+}

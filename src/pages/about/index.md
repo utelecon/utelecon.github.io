@@ -17,7 +17,7 @@ breadcrumb:
 
 開設後間もなく，有志学生が参加し，現在はオンライン授業やWeb会議に留まらない，本学のICT利用に関する整理された情報発信とサポートを，教職員と学生が協力して行う取り組みになりました．
 
-* 情報システム，サービスに関する技術サポートや質問対応には，本学学生が[コモンサポーター](cs/)として貢献しています．
+* 情報システム，サービスに関する技術サポートや質問対応には，本学学生がutelecon相談員（前身は[ECCS相談員・巡回連絡員](/eccs/tutors/)，[コモンサポーター](cs/)）として貢献しています．
 * 本サイト内の記事作成や英語化などの業務には，本学学生が[オンライン教育支援サポーター（OES）](oes/)として貢献していました．
 * 本サイトの管理やutelecon内の記事作成などの業務には，本学学生が[uteleconサポーター](us/)として貢献しています．
 
@@ -58,6 +58,10 @@ uteleconは以下のコンテンツから構成されています．それぞれ
 ## Google Analyticsの使用について
 
 uteleconポータルサイトでは，利用状況の統計を取得するため，Google Analyticsを使用しています．Googleによるデータの取り扱いについては，「[Google のサービスを使用するサイトやアプリから収集した情報の Google による使用](https://policies.google.com/technologies/partner-sites)」等をご覧ください．
+
+## Microsoft Clarityの使用について
+
+uteleconポータルサイトでは，利用状況の統計の取得およびポータルサイトの改善を行うため，Microsoft Clarityを使用しています．Microsoftによるデータの取り扱いについては同サービスの利用規約「[MICROSOFT CLARITY - TERMS OF USE](https://clarity.microsoft.com/terms)」および「[Microsoft プライバシー ステートメント](https://privacy.microsoft.com/ja-jp/privacystatement)」等をご覧ください．
 
 ## Contribution
 

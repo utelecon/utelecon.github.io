@@ -128,7 +128,7 @@ This setting controls the types of audio participants can use during the meeting
   * This setting allows you to permit or deny participation from specific regions or countries. When enabled, you can select the regions or countries and specify whether to allow or block participation from those locations.
 * Alternative Host
   * An "Alternative Host" is a user who can start the meeting on behalf of the host. You can designate an alternative host using this field.
-  * However, only users with a UTokyo Account can be designated. To assign someone, enter their 10-digit common ID (UTokyo Account username) followed by the symbol `@utac.u-tokyo.ac.jp` (e.g., `0123456789@utac.u-tokyo.ac.jp`).
+  * However, only users with a UTokyo Account can be designated. To assign someone, enter their UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`).
   * For more details, please refer to the section on "Alternative Host" in "[Host and Co-host Controls in a Zoom Meeting(in Japanese)](/zoom/misc/management_roles/#alt_host)".
 
 ## How to Set Up Commonly Used Features
