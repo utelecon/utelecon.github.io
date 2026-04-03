@@ -49,6 +49,7 @@ export default defineConfig({
   build: {
     format: "directory",
   },
+  trailingSlash: "always",
   markdown: {
     remarkPlugins: [
       [remarkDefaultFrontmatter, { layout: "@layouts/Layout.astro" }],
