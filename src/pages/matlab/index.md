@@ -51,11 +51,25 @@ UTokyo AccountをMathWorksアカウントとして利用するため，次の手
 ![](img/img.png){:.medium.center.border}
 
 2. MATLABのサインイン画面が表示されるので，「電子メール」欄にUTokyo Account（例：`0123456789@utac.u-tokyo.ac.jp`）を入力し，「アカウントを作成する」を押してください．
-3. 「アカウントを作成する」という画面が表示されるので，「メールアドレス」欄に再度UTokyo Account（例：`0123456789@utac.u-tokyo.ac.jp`）を入力し，「次へ」を押してください．
-4. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
-5. 「メール アドレスの認証」という画面が表示されるので，認証コードを入力してください．認証コードは，[ECCSクラウドメール](/google/#login)のメールボックスに届きます．
-6. MathWorksアカウントを作成する画面が表示されるので，氏名やその他の必要事項を入力してください．これでMathWorks アカウントが作成されます．
-7. 以上の手順で作成したMathWorks アカウントに東京大学の包括ライセンスが適用されているか確認してください．[「マイアカウント」の画面](https://jp.mathworks.com/mwaccount/)にアクセスし，ソフトウェアライセンスの欄に「40790257 MATLAB (Individual)」と表示されていれば，問題ありません．
+3. 以下のような「アカウントを作成する」という画面が表示されるので，「メールアドレス」欄に再度UTokyo Account（例：`0123456789@utac.u-tokyo.ac.jp`）を入力し，「次へ」を押してください．
+
+![](img/img-3.png){:.medium.center.border}
+
+4. 既にUTokyo Accountにサインイン済みの場合を除き，以下のようなUTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+
+![](img/img-5.png){:.medium.center.border}
+5. 以下のような「メール アドレスの認証」という画面が表示されるので，認証コードを入力してください．認証コードは，[ECCSクラウドメール](/google/#login)のメールボックスに届きます．
+
+![](img/img-6.png){:.medium.center.border}
+
+6. 以下のようなMathWorksアカウントを作成する画面が表示されるので，氏名やその他の必要事項を入力してください．これでMathWorks アカウントが作成されます．
+
+![](img/img-9.png){:.medium.center.border}
+
+7. 以上の手順で作成したMathWorks アカウントに東京大学の包括ライセンスが適用されているか確認してください．以下のような[「マイアカウント」の画面](https://jp.mathworks.com/mwaccount/)にアクセスし，ソフトウェアライセンスの欄に「40790257 MATLAB (Individual)」と表示されていれば，問題ありません．
+
+![](img/img-11.png){:.medium.center.border}
+
 この手順がうまくいかない場合は，MathWorks社のサポート（service@mathworks.co.jp）にメールしてサポートを依頼してください．
 
 ## 基本的な利用の方法
