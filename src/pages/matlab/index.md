@@ -36,15 +36,20 @@ title: UTokyo MATLAB Campus-Wide License
 
 ![](img/img.png){:.medium.center.border}
 
-2. MATLABのサインイン画面が表示されるので，「電子メール」欄にUTokyo Account（例：`0123456789@utac.u-tokyo.ac.jp`）を入力し，「次へ」を押してください．
+2. 以下のようなMATLABのサインイン画面が表示されるので，「電子メール」欄にUTokyo Account（例：`0123456789@utac.u-tokyo.ac.jp`）を入力し，「次へ」を押してください．
 
 ![](img/img-1.png){:.medium.center.border}
 
-3. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+3. 既にUTokyo Accountにサインイン済みの場合を除き，以下のようなUTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+
+![](img/img-5.png){:.medium.center.border}
 
 ### まだMathWorksアカウントを作成していない場合
 UTokyo AccountをMathWorksアカウントとして利用するため，次の手順で初期設定を行ってください．
 1. MathWorks社の提供する[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」を押してください．
+
+![](img/img.png){:.medium.center.border}
+
 2. MATLABのサインイン画面が表示されるので，「電子メール」欄にUTokyo Account（例：`0123456789@utac.u-tokyo.ac.jp`）を入力し，「アカウントを作成する」を押してください．
 3. 「アカウントを作成する」という画面が表示されるので，「メールアドレス」欄に再度UTokyo Account（例：`0123456789@utac.u-tokyo.ac.jp`）を入力し，「次へ」を押してください．
 4. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
