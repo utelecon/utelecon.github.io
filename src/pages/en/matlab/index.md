@@ -32,14 +32,25 @@ Also, please refer to "[Precautions for using external services managed and oper
 When using MATLAB under the University of Tokyo’s campus-wide license, your UTokyo Account is used as your MathWorks account.
 Please note that even if you created a MathWorks account before December 2024 using the previously provided format (i.e., a University of Tokyo email address ending with u-tokyo.ac.jp rather than a UTokyo Account), you can still sign in using your UTokyo Account.
 1. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click “Sign In to Get Started” located in the middle of the page.
-2. When the MATLAB sign-in screen appears, enter your UTokyo Account (e.g., 0123456789@utac.u-tokyo.ac.jp) in the “Email” field, and then click “Next.”
-3. Unless you are already signed in with your UTokyo Account, the UTokyo Account sign-in page will be displayed. Please sign in accordingly.
 
+![](img/img-0.png){:.medium.center.border}
+
+2. When the MATLAB sign-in screen appears, enter your UTokyo Account (e.g., 0123456789@utac.u-tokyo.ac.jp) in the “Email” field, as illustlated below, and then click “Next".
+
+![](img/img-2.png){:.medium.center.border}
+
+3. Unless you are already signed in with your UTokyo Account, the UTokyo Account sign-in page will be displayed. Please sign in accordingly.
 ### If you have not created a MathWorks account yet
 To use your UTokyo Account as a MathWorks account, please complete the initial setup by following the steps below.
 1. Access the  [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click “Sign In to Get Started” located in the middle of the page.
+
+![](img/img-0.png){:.medium.center.border}
+
 2. When the MATLAB sign-in screen appears, enter your UTokyo Account (e.g., `0123456789@utac.u-tokyo.ac.jp`) in the “Email” field, and click “Create Account.”
-3. The “Create Account” screen will be displayed. Enter your UTokyo Account (e.g., `0123456789@utac.u-tokyo.ac.jp`) again in the “Email Address” field, and click “Next.”
+3. The “Create Account” screen, as illustlated below, will be displayed. Enter your UTokyo Account (e.g., `0123456789@utac.u-tokyo.ac.jp`) again in the “Email Address” field, and click “Next.”
+
+![](img/img-3.png){:.medium.center.border}
+
 4. Unless you are already signed in with your UTokyo Account, the UTokyo Account sign-in page will be displayed. Please sign in accordingly.
 5. When the “Verify Email Address” screen appears, enter the verification code. The verification code will be sent to your mailbox in [ECCS Cloud Email](/en/google/#login).
 6. The “Create MathWorks Account” screen will be displayed. Enter your name and other required information. This will complete the creation of your MathWorks account.
