@@ -56,6 +56,7 @@ For an overview of usages during a meeting, please refer to "[Usages in Zoom Mee
 - (For organizers)[Use Breakout Room (in Japanese)](/zoom/usage/breakout/)
 - (For organizers)[Use Poll](usage/poll/)
 - (For organizers)[Recording Zoom Meeting](usage/recording/)
+    - [Recording Layout](usage/recording/layout/)
 
 ## Misc
 {:#misc}
