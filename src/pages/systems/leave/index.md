@@ -26,6 +26,8 @@ breadcrumb:
 
 UTokyo Antivirus Licenseの対応の詳細については，「[UTokyo Antivirus License 2025年度に卒業・離職される方への注意事項<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」を参照してください．※[こちらの部局及び提供製品](https://univtokyo.sharepoint.com/sites/antivirus/SitePages/Home.aspx#5.-%E6%8F%90%E4%BE%9B%E7%AA%93%E5%8F%A3)に該当する場合は、部局の受付窓口にご確認ください。
 
+また，個人のWindows PCのセットアップ時にUTokyo Accountを使用してサインインした場合，そのPCがUTokyo Accountに関連付けられた状態（「Microsoft Entra 参加済み」の状態）になっていることがあります．この状態のままだと，UTokyo Accountの失効後にPCにサインインできなくなります．心当たりがある方は，「Windows PCからUTokyo Accountの関連付けを解除する」の手順に従って，在籍中に関連付けの解除を行ってください．
+
 ## 東京大学内で所属の変更がある場合
 {:#change}
 東京大学内で所属が変わる際，**在籍期間が連続する場合は**，引き続き同じUTokyo Accountで各種情報システムを利用することができます．この場合，データのバックアップを取る必要はありません．
