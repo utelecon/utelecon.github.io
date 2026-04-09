@@ -28,11 +28,11 @@ To use the chat feature yourself and allow participants to use it in a meeting w
 
 The procedure for activating the chat feature is as follows.
 
-1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open **Settings**.
+1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open "Settings".
    ![](Zoomwebportal.png)
-2. Select the **Meetings** tab.
+2. Select the "Meeting" tab.
    ![](Webportal_meeting.png)
-3. Turn on the **Meeting chat** item in **In-Meeting (Basic)**.
+3. Turn on the "Meeting chat" item in "In Meeting (Basic)".
    ![](chat_on.png){:.border}
 
 #### Setting the Scope of the Chat Feature
@@ -41,16 +41,16 @@ The procedure for activating the chat feature is as follows.
 As shown in the image below, you can restrict the recipients to whom participants can send chats from the pull-down menu on the same screen as "[Activating the Chat Feature](#activate)". Regardless of the pull-down menu setting, the host and co-hosts can send chats to all participants as long as the chat feature is enabled. This restriction can also be changed during a meeting from the pull-down menu at the top of the chat panel.
 ![](pulldown.png){:.small}{:.border}
 
-* **No one**: Prevents participants from sending chats.
-* **Host and co-hosts**: Allows participants to send chats only to the host and co-hosts.
-* **Everyone**: Allows participants to send chats to everyone in the meeting.
-* **Everyone and anyone directly**: Allows participants to send private messages individually to any participant.
+* No one: Prevents participants from sending chats.
+* Host and co-hosts: Allows participants to send chats only to the host and co-hosts.
+* Everyone: Allows participants to send chats to everyone in the meeting.
+* Everyone and anyone directly: Allows participants to send private messages individually to any participant.
   * This option appears when you enable "[Selecting Recipients](#select)" introduced below.
 
 #### Allowing the Copying or Manual Saving of Chats
 {:#copy}
 
-Enabling the **Allow users to copy or save chats from the meeting** item on the same screen as "[Activating the Chat Feature](#activate)" allows meeting participants to copy or manually save chats. The host can also select the scope of permission for copying and manually saving chats from **Host and co-hosts**, **Everyone**, or **Users in my account only**.
+Enabling the "Allow users to copy or save chats from the meeting" item on the same screen as "[Activating the Chat Feature](#activate)" allows meeting participants to copy or manually save chats. The host can also select the scope of permission for copying and manually saving chats from "Host and co-hosts", "Everyone", or "Only users in your account".
 
 Refer to "[Saving Chats Locally Manually](#manual-save)" for the actual operating procedure.
 
@@ -65,7 +65,7 @@ The procedure for viewing and sending chats is as follows.
 
 1. Click the **Chat** icon at the bottom of the screen during a meeting. The chat panel opens, and allows you to view and send chats from this screen.
    ![](howtouse.png)
-   * If the **Chat** icon is not on the screen, click the **More** button in the bottom right to reveal the **Chat** item.
+   * If the "Chat" icon is not on the screen, click the "More" button in the bottom right to reveal the "Chat" item.
    ![](chatpanel.png){:.border .small}
    * You cannot view chats sent before you joined the meeting.
 
@@ -80,9 +80,9 @@ Allows you to change the format of the chat you send. Specifically, you can make
 
 ##### Following the Procedure
 
-1. Click the **Chat** icon at the bottom of the screen during a meeting to open the chat input field.
-   * If the **Chat** icon is not on the screen, click the **More** button in the bottom right to reveal the **Chat** item.
-2. Click the **Format** icon at the bottom.
+1. Click the "Chat" icon at the bottom of the screen during a meeting to open the chat input field.
+   * If the "Chat" icon is not on the screen, click the "More" button in the bottom right to reveal the "Chat" item.
+2. Click the "Format" icon at the bottom.
    ![](format.png){:.border .small}
 3. Select the format you wish to apply. The image below shows an example of changing the format.
    ![](format_kind.png){:.border .small}
@@ -93,8 +93,8 @@ Allows you to reply to messages sent by yourself or other participants. Replying
 
 ##### Following the Procedure
 
-1. Click the **Chat** icon at the bottom of the screen during a meeting to open the chat list.
-   * If the **Chat** icon is not on the screen, click the **More** button in the bottom right to reveal the **Chat** item.
+1. Click the "Chat" icon at the bottom of the screen during a meeting to open the chat list.
+   * If the "Chat" icon is not on the screen, click the "More" button in the bottom right to reveal the "Chat" item.
 2. Hover your cursor over the message you wish to reply to.
 3. Click the reply icon.
 4. Enter your text and send it.
@@ -104,13 +104,13 @@ Allows you to reply to messages sent by yourself or other participants. Replying
 
 #### Saving Chats Locally Manually 
 {:#manual-save}
-Allows you to save the contents of the chat panel as a text file. However, to copy or manually save chats, the host must enable the **Allow users to save chats from the meeting** item on the Zoom web portal. Note that chats in meetings you host can be saved automatically without manually saving them every time. Refer to "[Saving Chats Locally Automatically](#auto-save)" for details on automatic saving. Also, refer to "[Saving Chats Automatically to the Cloud](#cloud-save)" if you wish to save them to the cloud.
+Allows you to save the contents of the chat panel as a text file. However, to copy or manually save chats, the host must enable the "Allow users to save chats from the meeting" item on the Zoom web portal. Note that chats in meetings you host can be saved automatically without manually saving them every time. Refer to "[Saving Chats Locally Automatically](#auto-save)" for details on automatic saving. Also, refer to "[Saving Chats Automatically to the Cloud](#cloud-save)" if you wish to save them to the cloud.
 
 ##### Following the Procedure
 
-1. Click **...** at the top of the chat screen and select **Save Chat**.
+1. Click "..." at the top of the chat screen and select "Save chat".
    ![](savechat.png){:.border .small}
-2. Creates a destination folder and a .txt file recording the chat, and saves them locally (e.g., on your PC). The save location is the same as for local recording. You can check it from **Settings** -> **Recording** -> **Local Recording** in the Zoom app.
+2. Creates a destination folder and a .txt file recording the chat, and saves them locally (e.g., on your PC). The save location is the same as for local recording. You can check it from "Settings" → "Recording" → "Local recording storage" in the Zoom app.
    ![](where_to_save.png)
 
 ## Using Advanced Features
