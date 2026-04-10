@@ -94,4 +94,4 @@ UTokyo VPN authentication is done with a UTokyo Account, not a UTokyo Wi-Fi acco
 ## Inquiry
 {:#inquiry}
 
-Please contact via [Techinical Support Desk](/en/support/).
+Please contact via [Technical Support Desk](/en/support/).

@@ -27,7 +27,7 @@ title: 2020/03/26 Briefing - How to notify students of online classes
 
 * Video
   * [Briefing session video](https://drive.google.com/open?id=1BsaPc-qBNUQOAB4wXP09SyrMIKuraPGv)(要ECCSクラウドメール)
-  * (Faculty and its representatives) [Registrating the URL of online class in UTAS](https://youtu.be/rlHrutdrjbo)
+  * (Faculty and its representatives) [Registering the URL of online class in UTAS](https://youtu.be/rlHrutdrjbo)
   * (Students) [Get online class URL from UTAS](https://youtu.be/J9dnXmFiIcI)
 
 

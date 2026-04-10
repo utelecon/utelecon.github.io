@@ -4,7 +4,7 @@ title: "2020/05/08 Briefing session: Using copyrighted materials in online class
 
 * **Date and time:** Friday, May 8 17: 00-18: 30
 
-* **Palce:** Online (Zoom) and youtube  <br>
+* **Place:** Online (Zoom) and youtube  <br>
 　　　Check the[Information sheet] at the bottom of the page( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing )
 
 

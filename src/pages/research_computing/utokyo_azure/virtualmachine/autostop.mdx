@@ -21,7 +21,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 この設定例では，主に３つのサービスで構成されます．
 - 自動シャットダウンさせる対象．ここでは[Virtual Machines](/research_computing/utokyo_azure/virtualmachine/)や[Azure Machine Learning](/research_computing/utokyo_azure/ai/aml/)，[Azure AI Studio](/research_computing/utokyo_azure/ai/azureai/)で作成したVMを想定しています．
   - Azure Machine Laearning は独自のidle停止機能を持っています．その独自機能よりもさらに細かい条件でシャットダウンさせたい場合は本手順を利用ください．
-- 自動シャットダウンさせる対象を監視するサービス（Azure Moniter）
+- 自動シャットダウンさせる対象を監視するサービス（Azure Monitor）
 - 仮想マシンのシャットダウンを自動化するサービス（Automation アカウント）
 
 ![](img/01_autostop1.jpg){:.center.border}
@@ -31,7 +31,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
   - リソースグループ名：testmachine-resource-group
   - リソース名：testmachine
   - デプロイしたOS：ubuntu OS
-- Azure Moniter 及び Automation アカウントも，この例では testmachine-resource-group 内に設定します．
+- Azure Monitor 及び Automation アカウントも，この例では testmachine-resource-group 内に設定します．
 
 ## １.自動化の構成（Automation アカウント）
 
