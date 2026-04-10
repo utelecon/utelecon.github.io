@@ -15,7 +15,7 @@ Furthermore, if you configure the forwarding settings in UTOL to use LINE notifi
 - **Information/Message Notifications**
   If configured according to "[Information/Message Notifications](../#message-notification-range)," the content of these notifications may be viewed by LY Corporation.
 
-- **Assignment Titles, Posting Dates etc.**
+- **Assignment Titles, Posting Dates, etc.**
   If configured according to "[Update information](../#update-notification-range)," the titles of assignments, their posting dates and times, and other related content may be viewed by LY Corporation.
 
 In addition to the above, LY Corporation may acquire and use data indicating the usage status, such as the fact that you are regularly receiving LINE messages from UTOL.
