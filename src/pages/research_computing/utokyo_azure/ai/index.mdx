@@ -4,12 +4,26 @@ breadcrumb:
   title: "AI サービス"
 ---
 
-## [Microsoft Foundry](/research_computing/utokyo_azure/ai/azureai/)
+## UTokyo Azure の主要な AI サービス
 
-## [Azure Machine Learning](/research_computing/utokyo_azure/ai/aml/)
+### Azure Machine Learning
 
-## [Azure OpenAI](/research_computing/utokyo_azure/ai/openai/)
+[Azure Machine Learning](./aml/)では，GPT などの既存モデル（生成AI）を Azure 経由で Web ブラウザや Python プログラムから利用することができます．ChatGPT のような利用も可能です．
 
-## [デプロイしたモデルのクォータを管理する](/research_computing/utokyo_azure/ai/quota/)
+### Microsoft Foundry
+- [Microsoft Foundry](./azureai/)は，Azure における AI サービスの総合プラットフォームで、OpenAI 社によるものだけでなく LLama や Mistral，最近では Claude や Grok など様々なモデルが選択可能です．
+- OpenAI のモデルも含め，通常はこちらからご利用ください．
 
-## [デプロイしたモデルを Python API から利用する](/research_computing/utokyo_azure/ai/python/)
+<div class="box">
+[Azure OpenAI](/research_computing/utokyo_azure/ai/openai/) サービスは、Microsoft Foundry サービス開始以降 Foundry に統合され，初期手順に少し違いがある以外は最終的に Foundry ポータル上でデプロイして利用する形となるため，OpenAI 利用の場合も通常は Microsoft Foundry からデプロイしてください．
+</div>
+
+## 補足
+
+### デプロイしたモデルのクォータを管理する
+
+クォータの確認方法や増量したい場合の手順は，[クォータの管理](./quota/)のページをご確認ください．
+
+### デプロイしたモデルを Python API から利用する
+- Python から API にアクセスさせたい場合の利用方法は「[デプロイしたモデルを Python API で利用する](./python/)」をご確認ください．
+- Foundry 以降は，Foundry ポータルの各モデル説明に利用手順の詳細がありますので，ここの記載ではうまくいかなかったり，さらなる詳細が知りたい等の場合は，各モデルのドキュメントを参照ください．
