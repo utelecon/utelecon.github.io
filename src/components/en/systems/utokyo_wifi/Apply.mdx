@@ -1,9 +1,9 @@
 import If from "@components/utils/If.astro";
 import Help from "@components/utils/Help.astro";
 import Support from "@components/utils/Support.astro";
+import HelpHaveNoAccess from '@components/en/systems/utokyo_account/HelpHaveNoAccess.mdx'
 import ApplyHelpJouhouSecurity from "./ApplyHelpJouhouSecurity.mdx";
 import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
-import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 
 {/**
   * @typedef {object} Props
@@ -25,13 +25,13 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
      <b class="box center">[UTokyo Wi-Fi Account Menu](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
    </If>
    <If cond={props.inlineHelp}>
-     <ApplyHelpMFA type="details" />
+     <HelpHaveNoAccess system="the UTokyo Wi-Fi" type="details" />
      <ApplyHelpJouhouSecurity type="details" />
    </If>
 1. Click on the "New Application" Button.
    - At this point, the application is not yet done. Please proceed to the next step to complete the application.
-1. On the screen that appears, confirm that the email address in the “Notification E-mail Address” field is correct.
-   - The user ID and password for your UTokyo Wi-Fi account will be sent to both your [ECCS Cloud Email](/en/google/) address and this "Notification E-mail Address".
+1. On the screen that appears, confirm that the email address in the “Notification E-mail Address” field is correct. For the first time, the "Notification E-mail Address" field is blank.
+   - The user ID and password for your UTokyo Wi-Fi account will be sent to both your [ECCS Cloud Email](/en/google/) address and this "Notification E-mail Address". For the first time, the user ID and password for your UTokyo Wi-Fi account will be sent to both your [ECCS Cloud Email](/en/google/) address and your contact email address in [UTokyo Account User Information](https://login.adm.u-tokyo.ac.jp/my/).
      <details>
         <summary>If you want to change your notification email address</summary>
         <If cond={props.utasOnly}>
@@ -54,7 +54,7 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 <If cond={props.inlineHelp}>
   <Support lang="en" show={props.support} />
   <Help lang="en" support={props.support} slot="else">
-    - <ApplyHelpMFA type="default" />
+    - <HelpHaveNoAccess system="the UTokyo Wi-Fi" type="default" />
     - <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
   </Help>

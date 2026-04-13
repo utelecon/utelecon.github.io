@@ -7,10 +7,9 @@ import { visit as unistVisit } from "unist-util-visit";
 import { visit as estreeVisit } from "estree-util-visit";
 import rehypeRaw from "rehype-raw";
 import "mdast-util-mdx";
-import path from "node:path";
 import { glob } from "glob";
 import yaml from "js-yaml";
-import { fileURLToPath } from "node:url";
+import { pathToFileURL } from "node:url";
 import { readFile, copyFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { unified } from "unified";
@@ -18,8 +17,7 @@ import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 
-/** @type {[string, ...string[]]} */
-const ORIGINS = [
+const ORIGINS: [string, ...string[]] = [
   "https://utelecon.adm.u-tokyo.ac.jp",
   "https://utelecon.github.io",
 ];
@@ -31,23 +29,38 @@ const ORIGINS = [
 export default function assetColocation(
   extensions: string[],
 ): AstroIntegration {
+  /** 使用されている画像のパス．File URL を文字列にしたもの */
   const usedImages = new Set<string>();
+  /** ページからリンクされているパス．HTTP URL の pathname */
   const referredPaths = new Set<string>();
+
+  let pagesDirUrl!: URL;
+  let publicDirUrl!: URL;
+  let outDirUrl!: URL;
+
+  let noticeYmlUrl!: URL;
 
   return {
     name: "asset-colocation",
     hooks: {
-      "astro:config:setup"({ updateConfig }) {
+      "astro:config:setup"({ config, updateConfig }) {
+        pagesDirUrl = new URL("./src/pages/", config.root);
+        publicDirUrl = new URL(config.publicDir);
+        outDirUrl = new URL(config.outDir);
+
+        noticeYmlUrl = new URL("./src/data/notice.yml", config.root);
+
         updateConfig({
+          // アセットのパスを収集するための remarkPlugin と rehypePlugin を追加
           markdown: {
             remarkPlugins: [
               [collectImagePaths, { usedImages }],
-              [collectReferredPaths, { referredPaths }],
+              [collectReferredPaths, { pagesDirUrl, referredPaths }],
             ],
             rehypePlugins: [
               rehypeRaw,
               [rehypeCollectImagePaths, { usedImages }],
-              [rehypeCollectReferredPaths, { referredPaths }],
+              [rehypeCollectReferredPaths, { pagesDirUrl, referredPaths }],
             ],
           },
         });
@@ -55,76 +68,83 @@ export default function assetColocation(
       async "astro:build:done"() {
         const noticeProcessor = unified()
           .use(remarkParse)
-          .use(collectReferredPaths, { referredPaths })
+          .use(collectReferredPaths, { pagesDirUrl, referredPaths })
           .use(remarkRehype, { allowDangerousHtml: true })
           .use(rehypeRaw)
-          .use(rehypeCollectReferredPaths, { referredPaths })
+          .use(rehypeCollectReferredPaths, { pagesDirUrl, referredPaths })
           .use(rehypeStringify); // ないと process できない
 
         // notice.yml だけは特別扱いして，そこが参照しているパスも収集する
-        const noticeYmlPath = path.resolve("src/data/notice.yml");
-        const noticeYml = await readFile(noticeYmlPath, "utf-8");
+        const noticeYml = await readFile(noticeYmlUrl, "utf-8");
         const notice = yaml.load(noticeYml) as {
           content: Record<"ja" | "en", string>;
         }[];
         for (const { content } of notice) {
           const value = Object.values(content).join("\n");
-          const vfile = new VFile({ path: noticeYmlPath, value });
+          const vfile = new VFile({ path: noticeYmlUrl, value });
           await noticeProcessor.process(vfile);
         }
 
-        // Warn for unused assets
-        const files = await glob("**/!(_)*", {
-          cwd: "src/pages",
-          ignore: ["**/*.{md,markdown,mdx,html,astro}"],
+        const files = await glob(`**/!(_)*{${extensions.join(",")}}`, {
+          cwd: pagesDirUrl,
           nodir: true,
-          absolute: false,
+          absolute: true,
         });
+        /** src/pages 以下に存在するアセットの一覧．File URL を文字列にしたもの．参照されたものはここから削除される */
         const assets = new Set(
-          files
-            .filter((file) => extensions.includes(path.extname(file)))
-            .map((file) => "/" + file),
+          files.map((file) => pathToFileURL(file).toString()),
         );
-        const publicFiles = await glob("**", {
-          cwd: "public",
-          nodir: true,
-          absolute: false,
-        });
-        const publicAssets = new Set(
-          publicFiles
-            .filter((file) => extensions.includes(path.extname(file)))
-            .map((file) => "/" + file),
-        );
-        for (const asset of assets) {
-          if (!usedImages.has(asset) && !referredPaths.has(asset)) {
-            console.warn(
-              `[asset-colocation] Warning: Asset "${asset}" is not used in any page and will be ignored.`,
-            );
-          }
-        }
 
-        // Warn for referred assets not existing
-        const copyFiles: { from: string; to: string }[] = [];
+        // 必要なアセットをコピーしつつ，コピーしたものは assets から削除する
+        const copyFiles: { from: URL; to: URL }[] = [];
         for (const referredPath of referredPaths) {
-          if (!extensions.includes(path.extname(referredPath))) continue;
-          if (assets.has(referredPath)) {
-            const from = path.resolve("src/pages", "." + referredPath);
-            const to = path.resolve("dist", "." + referredPath);
-            copyFiles.push({ from, to });
-          } else if (
-            !publicAssets.has(referredPath) &&
-            !existsSync(`src/pages${referredPath}.md`) // redirect file
-          ) {
-            console.warn(
-              `[asset-colocation] Warning: Referred asset "${referredPath}" does not exist in src/pages.`,
-            );
+          const ext = referredPath.slice(referredPath.lastIndexOf("."));
+          if (!extensions.includes(ext)) continue;
+
+          // もし src/pages にあるならこの File URL にあるはず
+          const from = new URL(`.${referredPath}`, pagesDirUrl);
+          if (assets.has(from.toString())) {
+            // src/pages にあるのでコピーする
+            const to = new URL(`.${referredPath}`, outDirUrl);
+            copyFiles.push({ from: from, to });
+
+            // 参照されたので assets から削除する
+            assets.delete(from.toString());
+            continue;
           }
+
+          // もし public にあるならこの File URL にあるはず
+          if (existsSync(new URL(`.${referredPath}`, publicDirUrl))) {
+            // public にあるので何もしない
+            continue;
+          }
+
+          // もしリダイレクトファイルがあるならこの File URL にあるはず
+          if (existsSync(new URL(`.${referredPath}.md`, pagesDirUrl))) {
+            // リダイレクトファイルがあるので何もしない
+            continue;
+          }
+
+          // どこにもないので警告する
+          console.warn(
+            `[asset-colocation] "${referredPath}" に対応するアセットが見つかりません．`,
+          );
         }
 
-        // Copy assets from source to output directory
+        // usedImages にあるものは assets から削除する
+        for (const usedImage of usedImages) assets.delete(usedImage);
+
+        // この時点で assets に残っているものは参照されていないので警告する
+        for (const asset of assets) {
+          console.warn(
+            `[asset-colocation] "${asset}" はどのページでも使用されていません．このアセットは無視されます．`,
+          );
+        }
+
+        // コピーする
         await Promise.all(
           copyFiles.map(async ({ from, to }) => {
-            await mkdir(path.dirname(to), { recursive: true });
+            await mkdir(new URL("./", to), { recursive: true });
             await copyFile(from, to);
           }),
         );
@@ -133,18 +153,26 @@ export default function assetColocation(
   };
 }
 
-const ALLOWED_PREFIXES = ["http:", "https:", "/", "./", "../", "@"];
+const ALLOWED_PREFIXES = ["http:", "https:", "./", "../", "@"];
 
-function createFixAndCollect(usedImages: Set<string>, file: VFile) {
+interface CollectImagePathsOptions {
+  usedImages: Set<string>;
+}
+
+function createFixAndCollect(
+  { usedImages }: CollectImagePathsOptions,
+  file: VFile,
+) {
   const imagePaths = new Set(file.data.astro!.localImagePaths);
-  const basePath = "/" + path.dirname(path.relative("src/pages", file.path));
   function fixAndCollect(p: string) {
     if (!ALLOWED_PREFIXES.some((prefix) => p.startsWith(prefix))) {
       p = `./${p}`;
     }
-    if (p.startsWith(".")) imagePaths.add(p);
-    const resolvedPath = path.resolve(basePath, p);
-    usedImages.add(resolvedPath);
+    if (p.startsWith(".")) {
+      imagePaths.add(p);
+      const url = new URL(p, pathToFileURL(file.path));
+      usedImages.add(url.toString());
+    }
     return p;
   }
   return Object.assign(fixAndCollect, {
@@ -154,9 +182,9 @@ function createFixAndCollect(usedImages: Set<string>, file: VFile) {
   });
 }
 
-function collectImagePaths({ usedImages }: { usedImages: Set<string> }) {
+function collectImagePaths(options: CollectImagePathsOptions) {
   return (root: MdastRoot, file: VFile) => {
-    using fixAndCollect = createFixAndCollect(usedImages, file);
+    using fixAndCollect = createFixAndCollect(options, file);
 
     // For MDX (remark-images-to-components)
     unistVisit(root, "mdxjsEsm", (node) => {
@@ -178,9 +206,9 @@ function collectImagePaths({ usedImages }: { usedImages: Set<string> }) {
   };
 }
 
-function rehypeCollectImagePaths({ usedImages }: { usedImages: Set<string> }) {
+function rehypeCollectImagePaths(options: CollectImagePathsOptions) {
   return (root: HastRoot, file: VFile) => {
-    using fixAndCollect = createFixAndCollect(usedImages, file);
+    using fixAndCollect = createFixAndCollect(options, file);
 
     selectAll("img", root).forEach((img) => {
       if (typeof img.properties.src !== "string") return;
@@ -189,23 +217,40 @@ function rehypeCollectImagePaths({ usedImages }: { usedImages: Set<string> }) {
   };
 }
 
-function createCollectReferredPaths(referredPaths: Set<string>, file: VFile) {
-  const baseUrl = new URL(path.relative("src/pages", file.path), ORIGINS[0]);
-  if (path.parse(file.path).name !== "index") baseUrl.pathname += "/";
+interface CollectReferredPathsOptions {
+  pagesDirUrl: URL;
+  referredPaths: Set<string>;
+}
+
+function createCollectReferredPaths(
+  { pagesDirUrl, referredPaths }: CollectReferredPathsOptions,
+  file: VFile,
+) {
+  const baseUrl = getReferrerUrl(pagesDirUrl, file);
   return function collect(p: string) {
     const url = new URL(p, baseUrl);
     if (!ORIGINS.includes(url.origin)) return;
-    referredPaths.add(fileURLToPath(new URL(url.pathname, "file:///")));
+    referredPaths.add(url.pathname);
   };
 }
 
-function collectReferredPaths({
-  referredPaths,
-}: {
-  referredPaths: Set<string>;
-}) {
+function getReferrerUrl(pagesDirUrl: URL, file: VFile) {
+  const fileUrl = pathToFileURL(file.path);
+  if (!fileUrl.href.startsWith(pagesDirUrl.href)) {
+    // `.` で始まる相対パスは用いられない
+    new URL(ORIGINS[0]);
+  }
+  const relativePath = fileUrl.href.slice(pagesDirUrl.href.length - 1);
+  const httpPathname = relativePath.replace(/\/([^\/]+?)\.\w+$/, (_, name) =>
+    // buid.format: "directory" のため
+    name === "index" ? "/" : `/${name}/`,
+  );
+  return new URL(httpPathname, ORIGINS[0]);
+}
+
+function collectReferredPaths(options: CollectReferredPathsOptions) {
   return (root: MdastRoot, file: VFile) => {
-    const collect = createCollectReferredPaths(referredPaths, file);
+    const collect = createCollectReferredPaths(options, file);
 
     unistVisit(root, "mdxJsxFlowElement", (node) => {
       if (node.data?.hName !== "a") return;
@@ -225,13 +270,9 @@ function collectReferredPaths({
   };
 }
 
-function rehypeCollectReferredPaths({
-  referredPaths,
-}: {
-  referredPaths: Set<string>;
-}) {
+function rehypeCollectReferredPaths(options: CollectReferredPathsOptions) {
   return (root: HastRoot, file: VFile) => {
-    const collect = createCollectReferredPaths(referredPaths, file);
+    const collect = createCollectReferredPaths(options, file);
 
     selectAll("a", root).forEach((a) => {
       if (typeof a.properties.href !== "string") return;

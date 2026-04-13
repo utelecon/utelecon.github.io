@@ -21,6 +21,16 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+ date: 2026-04-01
+ content:
+  ja: "[4月1日付の着任・離任・異動等の情報の一部がシステムに正しく反映されないことによるトラブルについて](/notice/2026/0401-jjs/)"
+  en: "[There is an issue where some information regarding personnel appointments, departures, and transfers effective April 1 has not been correctly reflected in the system](/en/notice/2026/0401-jjs/)"
+-
+ date: 2026-03-31
+ content:
+  ja: "[2026年度Sセメスター科目のUTOL履修確定日の取り扱いについて](/notice/2026/0331-rikaku/)"
+  en: "[Handling of the 2026 Academic Year S Semester Courses on UTOL](/en/notice/2026/0331-rikaku/)"
+-
   date: 2026-03-23
   content:
     ja: "[東京大学におけるSlack「教育支援プログラム」の取り扱いの変更について](/notice/2026/0323-slack-discount/)"
@@ -38,7 +48,7 @@
 -
   date: 2026-03-06
   content:
-    ja: "[3/26 14:30から教育用計算機システム(ECCS)のシステム利用説明会を開催いたします](/notice/2026/0326-eccs-seminar)"
+    ja: "[3/26 14:30から教育用計算機システム(ECCS)のシステム利用説明会を開催しました](/notice/2026/0326-eccs-seminar)"
     en: "On March 26, an information session titled **\"[Use of Information Session on Education Computer Systems (ECCS)](/notice/2026/0326-eccs-seminar)\"** was held at 14:30. This session will be **conducted in Japanese**."
 -
   date: 2026-03-02
@@ -667,7 +677,7 @@
   date: 2022-06-01
   content:
     ja: "[UTokyo Account利用者メニューのメンテナンス(2022/6/6)](/notice/2022/0606-account)"
-    en: "[Maintenace on UTokyo Account User Menu (June 6, 2022)](/en/notice/2022/0606-account)"
+    en: "[Maintenance on UTokyo Account User Menu (June 6, 2022)](/en/notice/2022/0606-account)"
 -
   date: 2022-05-22
   content:
@@ -755,7 +765,7 @@
   date: 2021-09-09
   content:
     ja: "東京大学の情報システムとそのサポート体制について説明する資料[「オンライン授業を受けるために（学生向け）」 (PDF)](/notice/getting_ready_for_online_classes_students_2021a.pdf)と[「オンライン授業を始めるために（教員向け）」 (PDF)](/notice/getting_ready_for_online_classes_faculty_2021a.pdf)を公開しました．"
-    en: "\"Getting Ready for Online Classes\" [\\[For Students\\]](/notice/getting_ready_for_online_classes_students_2021a.pdf) [\\[For Faculty Members\\]](/notice/getting_ready_for_online_classes_faculty_2021a.pdf) (materials explaining ICT systems at UTokyo and its support) has been relased. (The English version is on the second page)"
+    en: "\"Getting Ready for Online Classes\" [\\[For Students\\]](/notice/getting_ready_for_online_classes_students_2021a.pdf) [\\[For Faculty Members\\]](/notice/getting_ready_for_online_classes_faculty_2021a.pdf) (materials explaining ICT systems at UTokyo and its support) has been released. (The English version is on the second page)"
   important: true
 -
   date: 2021-09-06
