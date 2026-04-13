@@ -227,7 +227,7 @@ This section describes the procedures for using external tools in a course. For 
    <details>
    <summary>When an external tool is not displayed</summary>
 
-   If you have a license for an LTI v1.3-compliant external tool that is not shown in the **LTI Usage Settings** and wish to use it, please contact the UTOL team via email. Please inform us of the tool, its license, and the scope of use you wish to request (i.e., whether you wish to use the tool only for a specific department or course, or for the entire university).
+  If you have a license for an LTI v1.3-compliant external tool that is not shown in the **LTI Usage Settings** and wish to use it, please contact the UTOL team (`lms-support@itc.u-tokyo.ac.jp`). Please inform us of the tool, its license, and the scope of use you wish to request (i.e., whether you wish to use the tool only for a specific department or course, or for the entire university).
    </details>
 
 1. Click the **Confirm** button, review the details, and then click **Register**.
