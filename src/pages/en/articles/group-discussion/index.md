@@ -152,7 +152,7 @@ If an instructor (e.g., a member who is more senior than the participant) is sch
 <p>☞ Extra tip:</p>
 <p>Zoom lets you send messages to breakout rooms!</p>
 <p>During a breakout, it is not possible to chat with participants in the main room or other breakout rooms. However, if you are the meeting host, you can use the "Send Message to All" feature to send a text message to all participants, including those in the breakout room.</p>
-<p>After starting the breakout, click the "Breakout Rooms" button, and then click the "Broadcast a message to alll" button in the breakout operation window that pops up to send a message.</p>
+<p>After starting the breakout, click the "Breakout Rooms" button, and then click the "Broadcast a message to all" button in the breakout operation window that pops up to send a message.</p>
 <img src="img/broadcast-message.png" />
 <p>Messages can only be sent in one direction from the host to participants. Messages cannot be sent from a participant to the host, nor from one participant to another. Messages are displayed as a notification at the top of the participant's window, not in the chat area.</p>
 <p>For example, it is useful for announcing "You have XX minutes left” or for giving additional hints.</p>

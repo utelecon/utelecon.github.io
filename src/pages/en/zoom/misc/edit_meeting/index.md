@@ -5,7 +5,7 @@ breadcrumb:
   parent: ../..
 ---
 
-When scheduling a Zoom meeting, you can configure various items such as the meeting name and date/time. These settings can also be reviewed and changed after the meeting has been created. It is possble to even delete a meeting entirely. However, **the screen you use differs depending on whether you are reviewing, edeting,or,deleting a meeting.Since multiple screens that are similar exist**,it is important to be careful.
+When scheduling a Zoom meeting, you can configure various items such as the meeting name and date/time. These settings can also be reviewed and changed after the meeting has been created. It is possible to even delete a meeting entirely. However, **the screen you use differs depending on whether you are reviewing, editing, or deleting a meeting.Since multiple screens that are similar exist**,it is important to be careful.
 
 This page explains in detail how to review and change meeting settings and how to delete meetings. Some operations can also be performed through the Zoom app, but others require the web browser. Here, we primarily describe how to operate from the browser.
 

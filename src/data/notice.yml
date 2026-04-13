@@ -21,6 +21,12 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-04-13
+  content:
+    ja: "[uteleconメールマガジンの配信を開始します](/notice/2026/0413-newsletter/)"
+    en: "[Launch of the utelecon Newsletter (uteleconメールマガジン) — Available in Japanese](/en/notice/2026/0413-newsletter/)"
+  important: true
+-
  date: 2026-04-01
  content:
   ja: "[4月1日付の着任・離任・異動等の情報の一部がシステムに正しく反映されないことによるトラブルについて](/notice/2026/0401-jjs/)"
@@ -677,7 +683,7 @@
   date: 2022-06-01
   content:
     ja: "[UTokyo Account利用者メニューのメンテナンス(2022/6/6)](/notice/2022/0606-account)"
-    en: "[Maintenace on UTokyo Account User Menu (June 6, 2022)](/en/notice/2022/0606-account)"
+    en: "[Maintenance on UTokyo Account User Menu (June 6, 2022)](/en/notice/2022/0606-account)"
 -
   date: 2022-05-22
   content:
@@ -765,7 +771,7 @@
   date: 2021-09-09
   content:
     ja: "東京大学の情報システムとそのサポート体制について説明する資料[「オンライン授業を受けるために（学生向け）」 (PDF)](/notice/getting_ready_for_online_classes_students_2021a.pdf)と[「オンライン授業を始めるために（教員向け）」 (PDF)](/notice/getting_ready_for_online_classes_faculty_2021a.pdf)を公開しました．"
-    en: "\"Getting Ready for Online Classes\" [\\[For Students\\]](/notice/getting_ready_for_online_classes_students_2021a.pdf) [\\[For Faculty Members\\]](/notice/getting_ready_for_online_classes_faculty_2021a.pdf) (materials explaining ICT systems at UTokyo and its support) has been relased. (The English version is on the second page)"
+    en: "\"Getting Ready for Online Classes\" [\\[For Students\\]](/notice/getting_ready_for_online_classes_students_2021a.pdf) [\\[For Faculty Members\\]](/notice/getting_ready_for_online_classes_faculty_2021a.pdf) (materials explaining ICT systems at UTokyo and its support) has been released. (The English version is on the second page)"
   important: true
 -
   date: 2021-09-06

@@ -1,0 +1,77 @@
+---
+import type { MarkdownInstance } from "astro";
+import type { Lang } from "@components/types";
+import { getISODateString } from "src/util";
+
+interface Frontmatter {
+    title: string;
+    breadcrumb: {
+        title: string;
+    };
+}
+
+export interface Props {
+    mailLang?: Lang;
+    displayLang?: Lang;
+}
+
+const { mailLang = "ja", displayLang = "ja" } = Astro.props;
+
+const allArchives = {
+    ja: Object.values(
+        import.meta.glob<MarkdownInstance<Frontmatter>>("/src/pages/newsletter/archives/*/index.md", { eager: true }),
+    ),
+    en: Object.values(
+        import.meta.glob<MarkdownInstance<Frontmatter>>("/src/pages/en/newsletter/archives/*/index.md", {
+            eager: true,
+        }),
+    ),
+};
+
+const archives = allArchives[mailLang];
+
+const items = archives
+    .map((archive) => {
+        const dirName = archive.file.split("/").at(-2)!;
+        // ディレクトリ名からYYYYMMDD部分を抽出して日付に変換
+        const dateMatch = dirName.match(/^(\d{4})(\d{2})(\d{2})/);
+        const date = dateMatch ? new Date(`${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}`) : new Date(0);
+        return {
+            date,
+            title: archive.frontmatter.breadcrumb.title,
+            url: archive.url!,
+        };
+    })
+    .sort((a, b) => b.date.getTime() - a.date.getTime());
+
+const itemsByYear = Map.groupBy(items, ({ date }) => date.getFullYear());
+---
+
+{
+    [...itemsByYear.entries()].map(([year, yearItems]) => (
+        <>
+            <h2>{displayLang === "en" ? year : `${year}年`}</h2>
+            <ul class="date_list">
+                {yearItems.map(({ date, title, url }) => (
+                    <li>
+                        <span class="date">{getISODateString(date)}</span>
+                        <span class="title">
+                            <a href={url}>{title}</a>
+                        </span>
+                    </li>
+                ))}
+            </ul>
+        </>
+    ))
+}
+
+<style lang="scss">
+    @use "@styles/color";
+
+    .date {
+        display: inline-block;
+        width: 6rem;
+        color: color.$heading-color;
+        margin-right: 5px;
+    }
+</style>
