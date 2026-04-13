@@ -12,7 +12,7 @@ There are four main roles in Webex Training.
 
 ## Webex Training Screen
 
-* Below is the Webex Training screen. Although this screenshot looks small, the actual brower can be a maximum screen.
+* Below is the Webex Training screen. Although this screenshot looks small, the actual browser can be a maximum screen.
 	* Entering the training session, the screen shows "Test your speaker/ microphone". Choose the speaker and mirophone that you want to use. Click OK button and test your speaker and microphone.
 	![](img/webex_training_view.png){:.medium}
 
