@@ -28,7 +28,7 @@ To use the chat feature yourself and allow participants to use it in a meeting w
 
 The procedure for activating the chat feature is as follows.
 
-1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open "Settings".
+1. Access the Zoom web portal in your browser by referring to "[Sign-in Methods for Zoom](../../signin/)", and open "Settings".
    ![](Zoomwebportal.png)
 2. Select the "Meeting" tab.
    ![](Webportal_meeting.png)
@@ -119,39 +119,39 @@ This section explains the configuration methods and operating procedures for var
 
 Note that if you change settings during a meeting, the changes will not be applied unless you end the meeting and start it again. Also, some features may not be available if the version of your Zoom app is outdated. Update Zoom to the latest version regularly.
 
-### Using Features Configurable in In-Meeting (Basic)
+### Using Features Configurable in In Meeting (Basic)
 {:#meeting-basic}
-The activation of most chat-related features can be configured from the **In-Meeting (Basic)** item on the web portal. This section explains the basic configuration procedures and operating procedures for chat-related features that can be configured from **In-Meeting (Basic)**.
+The activation of most chat-related features can be configured from the "In Meeting (Basic)" item on the web portal. This section explains the basic configuration procedures and operating procedures for chat-related features that can be configured from "In Meeting (Basic)".
 
 #### Configuring Basic Settings
 {:#basic-setting}
-1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open **Settings**.
+1. Access the Zoom web portal in your browser by referring to "[Sign-in Methods for Zoom](../../signin/)", and open "Settings".
    ![](Zoomwebportal.png){:.border}
-2. Select the **Meetings** tab.
+2. Select the "Meetings" tab.
    ![](Webportal_meeting.png){:.border}
-3. Toggle the ON/OFF switch for the feature you wish to configure in **In-Meeting (Basic)**.
+3. Toggle the ON/OFF switch for the feature you wish to configure in "In Meeting (Basic)".
    ![](meeting_basic.png){:.border}
 
 #### Deleting Chats
 {:#delete}
-If the host enables **Allow participants to delete messages in the meeting chat**, it allows participants in the meeting to delete chats they have sent. Also, if this feature is enabled, it allows the host and co-hosts to delete chats sent by any participant.
+If the host enables "Allow participants to delete messages in meeting chat", it allows participants in the meeting to delete chats they have sent. Also, if this feature is enabled, it allows the host and co-hosts to delete chats sent by any participant.
 
 ##### Following the Procedure
 {:#delete-usage}
-1. Click the **...** icon below your sent message on the chat screen.
-2. Select **Delete**.
-3. Click **Delete** again when the confirmation screen asking if you want to delete the message appears.
+1. Click the "..." icon below your sent message on the chat screen.
+2. Select "Delete".
+3. Click "Delete" again when the confirmation screen asking if you want to delete the message appears.
 
 ![](howtodelete.png){:.small .border}
 
 #### Editing Messages
 {:#edit}
-If the host enables **Allow participants to edit messages in the meeting chat**, it allows participants to edit their own messages sent during the meeting. It allows you to add or modify messages, or change the format after sending the message.
+If the host enables "Allow participants to edit messages in meeting chat", it allows participants to edit their own messages sent during the meeting. It allows you to add or modify messages, or change the format after sending the message.
 
 ##### Following the Procedure
 {:#delete-usage}
-1. Click the **...** icon below your sent message on the chat screen.
-2. Select **Edit**.
+1. Click the "..." icon below your sent message on the chat screen.
+2. Select "Edit".
 3. Edit the message.
 4. Click the check button to finish when editing is complete.
      
@@ -159,23 +159,23 @@ If the host enables **Allow participants to edit messages in the meeting chat**,
 
 #### Sending Screenshots
 {:#screenshot}
-If the host enables **Enable screenshot feature in meeting chat**, it allows participants to send screenshots of an entire window or a selected area of their screen in the chat during a meeting.
+If the host enables "Enable the Screenshot feature meeting chat", it allows participants to send screenshots of an entire window or a selected area of their screen in the chat during a meeting.
 
 ##### Following the Procedure
 {:#screenshot-usage}
-1. Click the **Chat** icon at the bottom of the screen during a meeting to open the chat list.
-   * If the **Chat** icon is not on the screen, click the **More** button in the bottom right to reveal the **Chat** item.
-2. Click the **Screenshot** icon at the bottom of the chat screen.
+1. Click the "Chat" icon at the bottom of the screen during a meeting to open the chat list.
+   * If the "Chat" icon is not on the screen, click the "More" button in the bottom right to reveal the "Chat" item.
+2. Click the "Screenshot" icon at the bottom of the chat screen.
    ![](screenshot_icon.png){:.border .small}
 3. Select the window to take a screenshot of, or drag to select the area to capture.
    ![](screenshot_area.png){:.middle}
-5. Add emojis or text as needed, and click **Capture**.
+5. Add emojis or text as needed, and click "Capture".
 6. Return to the chat screen and click the send button.
    ![](send_screenshot.png){:.border .middle}
 
 #### Using Emojis in Chat
 {:#emoji}
-If the host enables **Allow participants to use emojis in meeting chat**, it allows meeting participants to send emojis directly in the chat. The host can select the emojis that participants can send from **All emojis** or **Selected emojis**.
+If the host enables "Allow participants to use emojis in meeting chat", it allows meeting participants to send emojis directly in the chat. The host can select the emojis that participants can send from "All emojis" or "Selected emojis".
 
 Using this feature enables you to express your intentions more easily than typing text.
 
@@ -184,31 +184,31 @@ Using this feature enables you to express your intentions more easily than typin
 1. Click the emoji icon at the bottom of the chat screen.
    ![](emoji_icon.png){:.border}
 3. Select the emoji you wish to send.
-   * At this time, you can change the skin tone of the emoji to be sent in the **Skin tone** section at the bottom right of the emoji list.
+   * At this time, you can change the skin tone of the emoji to be sent in the "Skin tone" section at the bottom right of the emoji list.
 4. Click the send icon. Sends the emoji as shown in the image below.
    ![](emoji_sent.png){:.border}
 
 #### Selecting Recipients 
 {:#select}
-Enabling **Meeting chat - Direct messages** allows the host to select the option that permits direct messages between participants in the pull-down menu for restricting chat recipients, which was explained in "[Activating the Chat Feature](#activate)".
+Enabling "Meeting chat - Direct messages" allows the host to select the option that permits direct messages between participants in the pull-down menu for restricting chat recipients, which was explained in "[Activating the Chat Feature](#activate)".
 
-Even with the default settings (where **Meeting chat - Direct messages** is disabled), direct messages can be sent between the host/co-hosts and participants. Enabling direct messages allows participants to send direct messages to each other regardless of whether the recipient is a host or co-host.
+Even with the default settings (where "Meeting chat - Direct messages" is disabled), direct messages can be sent between the host/co-hosts and participants. Enabling direct messages allows participants to send direct messages to each other regardless of whether the recipient is a host or co-host.
 
 ##### Following the Procedure
 {:#select-usage}
-Select the destination for the direct message from **To** at the top of the chat input screen. Selecting **Everyone in Meeting** makes the chat visible to everyone.
+Select the destination for the direct message from "To" at the top of the chat input screen. Selecting "Meeting group chat" makes the chat visible to everyone.
 ![](direct_select.png){:.border}
 
 Note that if you receive a direct message from a participant, the destination of your next chat automatically changes to that participant.
 
 #### Saving Chats Locally Automatically
 {:#auto-save}
-Enabling **Meeting chat - Auto-save** automatically saves the chats of the meetings you participated in as a host (or co-host) locally after the meeting ends. It saves only the chats you exchanged, and does not save direct messages between other participants. Also, note that the creator of the meeting is not always the host.
+Enabling "Meeting chat - Auto-save" automatically saves the chats of the meetings you participated in as a host (or co-host) locally after the meeting ends. It saves only the chats you exchanged, and does not save direct messages between other participants. Also, note that the creator of the meeting is not always the host.
 Refer to "[Saving Chats Automatically to the Cloud](#cloud-save)" if you wish to save them to the cloud.
 
 #### Sending Files
 {:#file}
-Enabling **Send files via meeting chat** allows you to send files such as class materials directly in the chat. It allows you to configure settings for permitted file formats and maximum file sizes from the Zoom web portal as well.
+Enabling "Send files via meeting chat" allows you to send files such as class materials directly in the chat. It allows you to configure settings for permitted file formats and maximum file sizes from the Zoom web portal as well.
 
 ##### Following the Procedure
 {:#file-usage}
@@ -217,30 +217,30 @@ Enabling **Send files via meeting chat** allows you to send files such as class 
 
 ![](file_send.png){:.border .small}
 
-### Using Features Configurable Outside of In-Meeting (Basic)
+### Using Features Configurable Outside of In Meeting (Basic)
 {:#not-meeting-basic}
 
 There are also chat-related items on other settings screens of the Zoom web portal.
 
 #### Saving Chats Automatically to the Cloud
 {:#cloud-save}
-Using the [Cloud Recording](../recording/) feature of Zoom meetings allows you to save chat contents not only locally (e.g., on your PC) but also to the Zoom cloud. It allows access to the saved chats only from the account of the room creator. Please be aware that you may not be able to access them even for meetings where you were the host, such as when the room creator and the host are different.
+Using the [Recording Zoom Meeting](../recording/) feature of Zoom meetings allows you to save chat contents not only locally (e.g., on your PC) but also to the Zoom cloud. It allows access to the saved chats only from the account of the room creator. Please be aware that you may not be able to access them even for meetings where you were the host, such as when the room creator and the host are different.
 
 ##### Configuring the Settings
 {:#cloud-setting}
-1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open **Settings**.
-2. Select the **Recording** tab from the bar at the top of the screen.
+1. Access the Zoom web portal in your browser by referring to "[Sign-in Methods for Zoom](../../signin/)", and open "Settings".
+2. Select the "Recording" tab from the bar at the top of the screen.
    ![](cloud_setting.png)
-3. Turn on the **Cloud recording** toggle in the **General** section, and check **Save chat messages from the meeting / webinar**. When you start cloud recording after this, it automatically saves the chat contents to the cloud.
+3. Turn on the "Cloud recording" toggle in the "General" section, and check "Save chat messages from the meeting / webinar". When you start cloud recording after this, it automatically saves the chat contents to the cloud.
    ![](cloud_chat_save.png)
 
 ##### Checking Chats Saved to the Cloud
 {:#cloud-view}
 The following procedure allows you to download chat files saved to the cloud.
 
-1. Access the Zoom web portal in your browser by referring to "[How to sign in to Zoom](../../signin/)", and open **Recordings and Transcripts**.
-2. Open the **Cloud Recordings** screen, select the relevant recording, and download the **Chat file**.
-   * Refer to the "[Zoom Recording](../recording/)" article for details on cloud recording.
+1. Access the Zoom web portal in your browser by referring to "[Sign-in Methods for Zoom](../../signin/)", and open "Recordings & Transcripts".
+2. Open the "Cloud recordings" screen, select the relevant recording, and download the "Chat file".
+   * Refer to the "[Recording Zoom Meeting](../recording/)" article for details on cloud recording.
    * It allows you to share chat files saved via cloud recording with a link.
 
 ![](cloud_chat_download.png){:.border}
