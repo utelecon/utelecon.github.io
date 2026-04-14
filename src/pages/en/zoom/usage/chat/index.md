@@ -32,7 +32,7 @@ The procedure for activating the chat feature is as follows.
    ![](Zoomwebportal.png)
 2. Select the "Meeting" tab.
    ![](Webportal_meeting.png)
-3. Turn on the "Meeting chat" item in "In Meeting (Basic)".
+3. In "In Meeting (Basic)", turn on the "Meeting chat" item.
    ![](chat_on.png){:.border}
 
 #### Setting the Scope of the Chat Feature
@@ -63,7 +63,7 @@ The chat feature allows you not only to send messages but also to change the for
 {:#view-send}
 The procedure for viewing and sending chats is as follows.
 
-1. Click the **Chat** icon at the bottom of the screen during a meeting. The chat panel opens, and allows you to view and send chats from this screen.
+1. Click the "Chat" icon at the bottom of the screen during a meeting. The chat panel opens, and allows you to view and send chats from this screen.
    ![](howtouse.png)
    * If the "Chat" icon is not on the screen, click the "More" button in the bottom right to reveal the "Chat" item.
    ![](chatpanel.png){:.border .small}
@@ -129,7 +129,7 @@ The activation of most chat-related features can be configured from the "In Meet
    ![](Zoomwebportal.png){:.border}
 2. Select the "Meeting" tab.
    ![](Webportal_meeting.png){:.border}
-3. Toggle the ON/OFF switch for the feature you wish to configure in "In Meeting (Basic)".
+3. In "In Meeting (Basic)", Toggle the ON/OFF switch for the feature you wish to configure.
    ![](meeting_basic.png){:.border}
 
 #### Deleting Chats
@@ -159,7 +159,7 @@ If the host enables "Allow participants to edit messages in meeting chat", it al
 
 #### Sending Screenshots
 {:#screenshot}
-If the host enables "Enable the Screenshot feature meeting chat", it allows participants to send screenshots of an entire window or a selected area of their screen in the chat during a meeting.
+If the host enables "Enable the Screenshot feature in meeting chat", it allows participants to send screenshots of an entire window or a selected area of their screen in the chat during a meeting.
 
 ##### Following the Procedure
 {:#screenshot-usage}
@@ -196,7 +196,7 @@ Even with the default settings (where "Meeting chat - Direct messages" is disabl
 
 ##### Following the Procedure
 {:#select-usage}
-Select the destination for the direct message from "To" at the top of the chat input screen. Selecting "Meeting group chat" makes the chat visible to everyone.
+Select the destination for the direct message from "To" at the top of the chat input screen. Selecting "Meeting group chat" or "Everyone" makes the chat visible to everyone.
 ![](direct_select.png){:.border}
 
 Note that if you receive a direct message from a participant, the destination of your next chat automatically changes to that participant.
@@ -231,7 +231,7 @@ Using the [Recording Zoom Meeting](../recording/) feature of Zoom meetings allow
 1. Access the Zoom web portal in your browser by referring to "[Sign-in Methods for Zoom](../../signin/)", and open "Settings".
 2. Select the "Recording" tab from the bar at the top of the screen.
    ![](cloud_setting.png)
-3. Turn on the "Cloud recording" toggle in the "General" section, and check "Save chat messages from the meeting / webinar". When you start cloud recording after this, it automatically saves the chat contents to the cloud.
+3. In the "General" section, turn on the "Cloud recording" toggle, and check "Save chat messages from the meeting / webinar". When you start cloud recording after this, it automatically saves the chat contents to the cloud.
    ![](cloud_chat_save.png)
 
 ##### Checking Chats Saved to the Cloud
