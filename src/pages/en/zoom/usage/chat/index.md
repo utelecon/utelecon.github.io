@@ -127,7 +127,7 @@ The activation of most chat-related features can be configured from the "In Meet
 {:#basic-setting}
 1. Access the Zoom web portal in your browser by referring to "[Sign-in Methods for Zoom](../../signin/)", and open "Settings".
    ![](Zoomwebportal.png){:.border}
-2. Select the "Meetings" tab.
+2. Select the "Meeting" tab.
    ![](Webportal_meeting.png){:.border}
 3. Toggle the ON/OFF switch for the feature you wish to configure in "In Meeting (Basic)".
    ![](meeting_basic.png){:.border}
