@@ -129,7 +129,7 @@ The activation of most chat-related features can be configured from the "In Meet
    ![](Zoomwebportal.png){:.border}
 2. Select the "Meeting" tab.
    ![](Webportal_meeting.png){:.border}
-3. In "In Meeting (Basic)", Toggle the ON/OFF switch for the feature you wish to configure.
+3. In "In Meeting (Basic)", toggle the ON/OFF switch for the feature you wish to configure.
    ![](meeting_basic.png){:.border}
 
 #### Deleting Chats
