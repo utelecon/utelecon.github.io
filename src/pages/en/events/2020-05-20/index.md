@@ -23,7 +23,7 @@ We will explain the purpose of the class supporter program, the outline of the p
 * If you become a class supporter, please make the possible to attend this training. If you are unable to attend the class on the day of the event, please watch the recording as it will be made available later.
 
 ## Who else can attend?
-* **Those planning to become class supporters soon**（NOTE: this will be a non-paid training）
+* **Those planning to become class supporters soon** (NOTE: this will be a non-paid training)
 * **Faculty members that want to know more about the class supporters** (NOTE: this training is designed for the class supporters)
 
 ## Application

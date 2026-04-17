@@ -1,5 +1,5 @@
 ---
-title: What is possible with Webex Training?（for Instructors・Participants)
+title: What is possible with Webex Training? (for Instructors・Participants)
 ---
 
 ## Roles
