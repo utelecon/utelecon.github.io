@@ -58,7 +58,7 @@ With a shared drive, you can manage files in the drive within your organization.
 
 Shared drives access levels:
 	
-* **Managerr**: A manager has the highest privilege in the shared drive. You can control the files, members, and settings on the shared drive. (In the case of Google Group, only yourself would be the administrator.)
+* **Manager**: A manager has the highest privilege in the shared drive. You can control the files, members, and settings on the shared drive. (In the case of Google Group, only yourself would be the administrator.)
 * **Content Manager**: You can add, edit, move, and delete files. You can add, edit, move, and delete files. However, you cannot manage members and shared drive settings.
 * **Contributor**: Can add and edit files. However, it is not possible to move files within the shared drive.
 * **Commenter**: You can view and comment on the file. However, you may not be able to download the file depending on the file sharing settings.

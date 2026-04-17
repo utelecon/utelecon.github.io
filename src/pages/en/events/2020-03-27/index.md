@@ -22,7 +22,7 @@ In order to prepare for asynchronous online classes, we will conduct an online b
   
   
 **Overview:**  
-Online consultation meeting focused on language acquisition classes (unlike other courses presented here, this is a consultation meeting base don participants questions).  
+Online consultation meeting focused on language acquisition classes (unlike other courses presented here, this is a consultation meeting based on participants' questions).  
   
 **Handouts:** <a href="talk_language_education.pdf">pdf</a>  
 

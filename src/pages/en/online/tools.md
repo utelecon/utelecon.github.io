@@ -166,7 +166,7 @@ Miro is an online whiteboard app provided by *Miro*.
 
 ### Padlet
 Padlet is an online digital canvas provided by *Padlet*.
-- **[Padlet (external site)](https://padlet.com/)**: The officiant website.
+- **[Padlet (external site)](https://padlet.com/)**: The official website.
 
 
 ## Communication Tools

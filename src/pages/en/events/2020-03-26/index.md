@@ -4,11 +4,11 @@ title: 2020/03/26 Briefing - How to notify students of online classes
 
 **Date:** 3/26(Thu) 15:30-17:00 
 
-**Place:**  Lecture Room 285, Science Department Bldg. 1, East Blg. (Available Online)
+**Place:**  Lecture Room 285, Science Department Bldg. 1, East Bldg. (Available Online)
 
 **Contents:**
  * Greetings (3 minutes) Tatsuya Okubo、Head of the Graduate School of Engineering
- * Explanation (37 minutes) Kenjiro Taura Director, Hed of the Information Technology Center
+ * Explanation (37 minutes) Kenjiro Taura Director, Head of the Information Technology Center
  * Break (5 minutes)
  * Q & A (45 minutes) 
 
