@@ -35,7 +35,7 @@ Please note that even if you created a MathWorks account before December 2024 us
 
 ![](img/img-0.png){:.medium.center.border}
 
-2. When the MATLAB sign-in screen appears, enter your UTokyo Account (e.g., 0123456789@utac.u-tokyo.ac.jp) in the “Email” field, as illustlated below, and then click “Next".
+2. When the MATLAB sign-in screen appears, enter your UTokyo Account (e.g., 0123456789@utac.u-tokyo.ac.jp) in the “Email” field, as illustrated below, and then click “Next".
 
 ![](img/img-2.png){:.medium.center.border}
 
