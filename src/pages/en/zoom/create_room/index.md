@@ -120,7 +120,7 @@ This setting controls the types of audio participants can use during the meeting
   * This feature mutes participants when they join the meeting. It only controls whether or not participants are muted upon entry and does not affect their ability to switch their microphone on or off during the meeting.
 * Pre-Assign Breakout Rooms
   * By using the breakout room feature, you can split participants from the main meeting room into multiple breakout rooms. This feature allows you to pre-assign participants to specific rooms in advance.
-  * For more details, please refer to "[Zoom's Breakout Room Feature (in Japanese)](/zoom/usage/breakout/)".
+  * For more details, please refer to "[How to use Breakout Rooms](/en/zoom/usage/breakout/)".
 * Automatically Record the Meeting
   * This feature automatically starts recording as soon as the meeting begins. You can choose to save the recording either on your local computer (your PC) or on the cloud. Even if this option is turned off, you can manually start recording during the meeting.
   * For more details, please refer to “[Recording Zoom Meetings](/en/zoom/usage/recording/)”.
@@ -170,6 +170,6 @@ The settings for these features can be accessed by selecting the "Meeting" tab f
   * It is recommended to leave this enabled unless there is a specific reason to disable it.
   * For more details, please refer to “[Screen Sharing in Zoom](/en/zoom/usage/screen_sharing/)”.
 * Breakout Rooms - Meeting
-  * For an explanation of Breakout Rooms, please refer to "[Zoom's Breakout Room Feature (in Japanese)](/zoom/usage/breakout/)".
+  * For an explanation of Breakout Rooms, please refer to "[How to use Breakout Rooms](/en/zoom/usage/breakout/)".
 * Auto-Generated Captions
   * When enabled, the content spoken by participants is automatically transcribed and displayed as captions on the Zoom screen.

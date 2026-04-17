@@ -7,7 +7,7 @@ Please see the [UTokyo Slack page](../) for information on the university-wide s
 
 <div class="box--important">
 
-Starting March 23, 2026, we will be making some changes to our application process. We apologize that the English translation is not yet available; please refer to the [Japanese page](/slack/discount/) for details.
+Starting March 23, 2026, we will be making some changes to our application process. We apologize that the English translation is not yet available; please refer to the [this page](/en/slack/discount/) for details.
 </div>
 
 ## Overview

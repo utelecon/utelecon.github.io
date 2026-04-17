@@ -271,7 +271,7 @@ In GoodNotes 5, you can import PowerPoint, Word, PDF, and various image files, a
 
 The following section explains how to import files saved on Google Drive into GoodNotes 5.
 
-1. Save the file you want to import into GoodNotes 5 to your Google Drive. For instructions, see “[Basic usage of Google Drive](/articles/google-drive/)”.
+1. Save the file you want to import into GoodNotes 5 to your Google Drive. For instructions, see “[Basic usage of Google Drive](/en/articles/google-drive/)”.
 2. Open Google Drive on your iPad.
    * You can install Google Drive from [App Store](https://apps.apple.com/jp/app/google-%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96-%E5%AE%89%E5%85%A8%E3%81%AA%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8/id507874739).
 3. Navigate to the folder that contains the file you want to open in Google Drive (PDF, Power Point, or Word file), and tap the "..." button next to the file name of the file. <img src="pic41.jpeg">

@@ -43,7 +43,7 @@ The utelecon portal consists of the following content. All pages can be accessed
 
 * This page is for students, faculty, and staff of the University of Tokyo. Please review this section if you have any questions or problems regarding online classes or activities.  
 * The "Support" page also has a chatbot (automatic response robot) function for responding to questions. You can ask questions from the widget in the lower-right corner of the screen.  
-* Students of the University of Tokyo are working on the support team as "utelecon Support Staff" (formerly [Common Supporters](cs/) and [ECCS Tutors/Inspectors](/eccs/tutors/)). 
+* Students of the University of Tokyo are working on the support team as "utelecon Support Staff" (formerly [Common Supporters](cs/) and [ECCS Tutors/Inspectors](/en/eccs/tutors/)). 
 
 ### List of External Publications  
 

@@ -41,7 +41,7 @@ When accessing Google Drive, if you are not logged in, you will be prompted to d
 
 For instructions on how to create, edit, upload, and download files, please refer to the following page.
 
-**[Basic Usage of Google Drive (in Japanese)](/google/drive/basic/)**{:.box.center}
+**[Basic Usage of Google Drive](/en/google/drive/basic/)**{:.box.center}
 
 ### Sharing Files
 

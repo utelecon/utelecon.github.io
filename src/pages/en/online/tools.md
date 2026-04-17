@@ -22,7 +22,7 @@ Zoom is one of the most popular web conferencing systems and is used in many onl
 - **[utelecon’s Zoom Page](/en/zoom/)**: A page that summarizes basic use and various functions of Zoom.
 - Selected Information on Zoom
     - **[Online Course “Using Zoom in Online Classes”](/events/2021-03-25/)** (in Japanese): A course explaining how to use Zoom in online classes. (Video is for UTokyo members only.)
-    - **[Reducing Zoom Data Traffic for Online Classes](/articles/zoom-data-traffic/)** (in Japanese): This article provides Zoom’s average data usage and tips on how to reduce data traffic in online classes.
+    - **[How to Reduce Zoom Traffic During Online Classes](/en/articles/zoom-data-traffic/)**: This article provides Zoom’s average data usage and tips on how to reduce data traffic in online classes.
 
 ### Webex
 
@@ -120,7 +120,7 @@ Google Workspace also provides other document generation tools such as the sprea
 #### Google Drive
 Google Drive is an online storage provided by Google Workspace, which can store documents such as those created with Google Docs.  
 
-- **[The Basics of Using Google Drive](/articles/google-drive/)** (in Japanese): This utelecon page describes how to use Google Drive, a space to store documents created with Google Docs.
+- **[The Basics of Using Google Drive](/en/articles/google-drive/)**: This utelecon page describes how to use Google Drive, a space to store documents created with Google Docs.
 
 
 ### Tools Included in Microsoft 365
@@ -197,7 +197,7 @@ LINE OpenChat is a feature of the LINE messaging app that allows users to create
 - **[\[LINE\] OpenChat Broadens LINE User Experience(external site)](https://linecorp.com/en/pr/news/en/2019/2883)**: The official press release on launch of OpenChat, summarizing the main features.
 - **[How to Use OpenChat (LINE Everyone’s User Guide) (external site)](https://guide.line.me/ja/services/openchat.html)** (in Japanese): The official user guide.
 - **[Good Practices of Online Classes - Prof. Hirose: Solid Earth Science](/good-practice/interview/hirose/)** (in Japanese): A practical example of using LINE OpenChat in a course to accept anonymous questions. 
-- **[How to Accept Questions in Class via LINE OpenChat](/articles/question-tools/#LINEopenchat)** (in Japanese):  A practical example of using LINE OpenChat in class to receive questions, and tips for collecting questions.
+- **[How to Accept Questions in Class via LINE OpenChat](/en/articles/question-tools/#LINEopenchat)**:  A practical example of using LINE OpenChat in class to receive questions, and tips for collecting questions.
 
 ### Gather
 Gather is a conference tool with a playful retro-game style UI. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
@@ -224,11 +224,11 @@ Here we introduce tools that can be used in conjunction with web conferencing sy
 
 ### Slido
 Slido is an interaction app that provides functions such as Q&A, live polling, and questionnaires that are useful for interactive communication with participants in classes, conferences, and lectures.
-- **[Slido](/slido/)** (in Japanese): utelecon’s page summarizing usage and practical examples of Slido. 
-- **[How to Collect Questions via Slido](/articles/question-tools/#Slido)** (in Japanese): A practical example of using Slido in class to receive questions, and tips for collecting questions.
+- **[Slido](/en/slido/)**: utelecon’s page summarizing usage and practical examples of Slido. 
+- **[How to Collect Questions via Slido](/en/articles/question-tools/#Slido)**: A practical example of using Slido in class to receive questions, and tips for collecting questions.
 
 ### CommentScreen
 CommentScreen is a tool that allows you to display student questions and comments anonymously and in real time directly on the screen of an online class.
 - **[CommentScreen (external site)](https://commentscreen.com/)**: The official CommentScreen website.
 - **[Good Practices of Online Classes - Prof. Sugita: Manufacturing System](/good-practice/interview/sugita/)** (in Japanese): A practical example of class interaction with CommentScreen.
-- **[How to Collect Questions via CommentScreen](/articles/question-tools/#CommentScreen)** (in Japanese): A practical example of using CommentScreen in class to receive questions, and tips for collecting questions.
+- **[How to Collect Questions via CommentScreen](/en/articles/question-tools/#CommentScreen)** (in Japanese): A practical example of using CommentScreen in class to receive questions, and tips for collecting questions.

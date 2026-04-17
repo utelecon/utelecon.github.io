@@ -8,7 +8,7 @@ In addition to smartphone apps such as the “Google Authenticator” that are u
 
 This page provides information on how to register and sign in by using the YubiKey security key and Yubico Authenticator application as the verification method for the multi-factor authentication of UTokyo Accounts.
 
-YubiKey also has the ability to work in conjunction with another advanced security system “FIDO” for the multi-factor authentication. Please refer to the "[Using the FIDO Security Key for Multi-Factor Authentication of UTokyo Accounts](/utokyo_account/mfa/fido-security_key/)" (in Japanese) for more details. Additionally, even if the YubiKey has been registered as a FIDO security key, it still can be also registered through an authentication app (which is useful as it allows you to sign in to [some systems where FIDO is not available](/utokyo_account/mfa/fido-security_key/#unsupported-system) (in Japanese)).
+YubiKey also has the ability to work in conjunction with another advanced security system “FIDO” for the multi-factor authentication. Please refer to the "[Using the FIDO Security Key for Multi-Factor Authentication of UTokyo Accounts](/en/utokyo_account/mfa/fido-security_key/)" for more details. Additionally, even if the YubiKey has been registered as a FIDO security key, it still can be also registered through an authentication app (which is useful as it allows you to sign in to [some systems where FIDO is not available](/en/utokyo_account/mfa/fido-security_key/#unsupported-system)).
 
 ## Procedures to register Yubico Authenticator
 
