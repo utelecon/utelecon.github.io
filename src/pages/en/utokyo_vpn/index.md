@@ -7,9 +7,9 @@ breadcrumb:
 ## Introduction
 {:#introduction}
 
-UTokyo VPN is a VPN service available to all the faculties and staff of the University of Tokyo (UTokyo). When a device is connected to the UTokyo VPN from outside the campus, the device communicates via the VPN gateway installed at the Information Technology Center. Thereafter, the device virtually connects to the UTNET - UTokyo campus network.
+UTokyo VPN is a VPN service available to all faculty, staff, and students of the University of Tokyo (UTokyo). When a device is connected to the UTokyo VPN from outside the campus, the device communicates via the VPN gateway installed at the Information Technology Center. Thereafter, the device virtually connects to the UTNET - UTokyo campus network.
 
-To use UTokyo VPN, first install AnyConnect, a VPN client application, on your device. When the installed application is launched, it connects to the VPN gateway through the UTokyo Account authentication process, allowing communication from the device to the outside world through UTNET via VPN.
+To use UTokyo VPN, first install Cisco Secure Client, a VPN client application, on your device. When the installed application is launched, it connects to the VPN gateway through the UTokyo Account authentication process, allowing communication from the device to the outside world through UTNET via VPN.
 
 ### Access to e-journals
 {:#journal}
@@ -20,18 +20,18 @@ You cannot access e-journals and e-books subscribed by UTokyo Library via UTokyo
 ## Requirements for use
 {:#note}
 
-**Eligible user:** University of Tokyo faculties, staff and students having a UTokyo Account.
+**Eligible user:** University of Tokyo faculty, staff and students having a UTokyo Account.
 
 **Device Types and OS for VPN:** UTokyo VPN is accessible on the following versions of Windows and macOS. 
-- Windows: Windows 10, 11
-- macOS: macOS 12 Monterey, 13 Ventura, 14 Sonoma
+- Windows: Windows 11
+- macOS: macOS 13 Ventura, 14 Sonoma, 15 Sequoia, 26 Tahoe
 
 You can use UTokyo VPN on iPhone, Android, and other mobile devices, though we currently provide limited English manuals for them. If you use it on these mobile devices, please keep the OS and dedicated app properly updated while using it.
 
 ### Enable Multi-factor Authentication
 {:#mfa}
 
-To use UTokyo VPN, you are required to enable multi-factor authentication for your UTokyo Account (please refer to [Using multi-factor authentication](/en/utokyo_account/mfa/) for your UTokyo Account). Thereafter, enable multi-factor authentication for your UTokyo Account (Multi-factor UTokyo VPN will be available 30 minutes after you apply for the authentication).
+To use UTokyo VPN, you are required to enable multi-factor authentication for your UTokyo Account (please refer to [Using multi-factor authentication](/en/utokyo_account/mfa/) for your UTokyo Account). Complete **[Initial setup of UTokyo Account MFA](/en/utokyo_account/mfa/initial/)** through Step 4, then wait about 30 minutes before using UTokyo VPN.
 
 ### Information Security Education
 {:#information-security-education}
@@ -52,7 +52,7 @@ The following pages explain how to install the VPN client application on your de
 
 * [How to use UTokyo VPN on Windows devices](windows/)
 * [How to use UTokyo VPN on macOS devices](macos/)
-* [How to use UTokyo VPN on Android devices (in Japanese)](/utokyo_vpn/android/)
+* [How to use UTokyo VPN on Android devices](android/)
 * [How to use UTokyo VPN on iPad devices](ipad/)
 * [How to use UTokyo VPN on iPhone devices](iphone/)
 {:.cards}
@@ -83,8 +83,8 @@ A. Yes, you can access the employee ID card issued and employment management sys
 ### Q. Will I be able to view internal departmental websites?
 A. No. It depends on the access restrictions of your departmental site. You are required to ask your department.
 
-### Q. Is it necessary to get a new account every six months like a UTokyo Wi-Fi account?
-UTokyo VPN authentication is done with a UTokyo Account, not a UTokyo Wi-Fi account. Therefore, you can continue to use UTokyo VPN without changing it. However, users are required to complete an information security training session, annually.
+### Q. Is it necessary to get a new account every year like a UTokyo Wi-Fi account?
+UTokyo VPN authentication is done with a UTokyo Account, not a UTokyo Wi-Fi account. Therefore, you can continue to use UTokyo VPN without changing it. However, users are required to complete an information security training session annually.
 
 ## Regulations (only in Japanese)
 {:#regulations}
