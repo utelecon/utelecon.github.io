@@ -51,8 +51,8 @@ For instructions on how to share files on Google Drive, please refer to the foll
 
 In addition, the following page explains the recommended settings for sharing files on Google Drive for each use case. Please refer to it as well.
 
-**[Recommended Settings for Sharing Files on Google Drive (in Japanese)
-](/google/drive/recommendation/)**{:.box.center}
+**[Recommended Settings for Sharing Files on Google Drive
+](./recommendation/)**{:.box.center}
 
 ## Others
 

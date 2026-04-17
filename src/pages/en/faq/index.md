@@ -75,8 +75,8 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * If you can sign into UTokyo Account User Menu and UTOL but not UTAS:
   * Your UTAS account may not have been issued. Please send your UTokyo Account to the faculty office to check if your UTAS account has been issued.
 * If you cannot sign into these systems:
-  * Reset your UTokyo Account [password](/utokyo_account/#forget-password).
-* Reference: [UTAS](/utas/)
+  * Reset your UTokyo Account [password](/en/utokyo_account/#forget-password).
+* Reference: [UTAS](/en/utas/)
 
 ### Q. 「[Error] あなたは現在このシステムを利用することができません」is shown and sign-in is unavailable. What can I do?
 * This may occur during affiliation transition, for example, from undergraduate to graduate. Please try again later.
@@ -87,7 +87,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 ### Q. What is UTOL?
 * UTOL is the learning management system of UTokyo.
 * Features of UTOL include lecture materials downloading, assignment submission, online examinations, surveys, and forum discussion for courses registered.
-* Reference: [UTOL](/utol/)
+* Reference: [UTOL](/en/utol/)
 
 <!-- ## UTokyo Account
 
