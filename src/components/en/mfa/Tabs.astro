@@ -7,6 +7,7 @@ import MicrosoftAuthenticator from "./ms_auth/index.mdx";
 import AuthenticatorApplication from "./auth_app/index.mdx";
 import Phone from "./phone/index.mdx";
 import Fido from "./fido/index.mdx";
+import Passkey from "./passkey/index.mdx";
 import TabSelectorButton from "./TabSelectorButton.astro";
 
 interface Props {
@@ -23,6 +24,7 @@ const { step } = Astro.props;
     auth_app: "Other Authenticator Apps",
     phone: "Phone Number",
     fido: step === "alt" ? "FIDO Security Key" : undefined,
+    passkey: "Passkey",
   }}
 >
   <TabSelectorButton step={step} slot="selector" />
