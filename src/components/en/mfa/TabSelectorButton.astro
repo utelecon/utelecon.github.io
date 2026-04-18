@@ -7,6 +7,7 @@ import AuthenticatorApplication from "./select/AuthenticatorApplication.mdx";
 import Phone from "./select/Phone.mdx";
 import Fido from "./select/Fido.mdx";
 import type { Step } from "@components/pages/mfa/tabs";
+import Passkey from "./select/Passkey.mdx";
 
 interface Props {
   step: Step;
@@ -22,6 +23,7 @@ const { step } = Astro.props;
     auth_app: "Other Authenticator Apps",
     phone: "Phone Number",
     fido: step === "alt" ? "FIDO Security Key" : undefined,
+    passkey: "Passkey",
   }}
   guide="Select an verification method you will register."
 >
