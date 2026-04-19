@@ -10,19 +10,18 @@
     width: 100% !important;
     border-radius: 20px 0 0 20px !important;
     color: black;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
   }
   .gsc-search-button .gsc-search-button-v2 {
     height: 30px !important;
     border-radius: 0 20px 20px 0 !important;
+    padding: 0 10px !important;
   }
   .gsc-control-cse {
     border: none !important;
     background: none !important;
-  }
-  .gsc-input-box {
-    .gsc-input {
-      border-radius: 20px !important;
-    }
   }
   .gsc-input {
     padding-right: 0 !important;
@@ -37,6 +36,11 @@
   }
   .gsib_a {
     padding: 2px !important;
+    display: flex;
+  }
+  .gsib_b {
+    height: unset !important;
+    padding: 0 !important;
   }
   td.gsc-input {
     width: 10rem;
@@ -45,4 +49,25 @@
     width: calc(100% - 10px) !important;
     margin-left: 10px !important;
   }
+  form.gsc-search-box {
+    margin: 0 !important;
+  }
+  /* To override default style, which has !important directive,
+   * this selector must be more specific than .gsc-search-button. */
+  .gsc-search-box .gsc-search-button {
+    display: block !important;
+  }
+  .gsc-input tr {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .gsc-results-wrapper-overlay {
+    background-color: white !important;
+  }
+  .gsc-wrapper, .gsc-above-wrapper-area {
+    max-width: unset !important;
+  }
+
+  
 </style>

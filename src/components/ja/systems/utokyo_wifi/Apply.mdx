@@ -1,9 +1,9 @@
 import If from "@components/utils/If.astro";
 import Help from "@components/utils/Help.astro";
 import Support from "@components/utils/Support.astro";
+import HelpHaveNoAccess from '@components/ja/systems/utokyo_account/HelpHaveNoAccess.mdx'
 import ApplyHelpJouhouSecurity from "./ApplyHelpJouhouSecurity.mdx";
 import ApplyHelpEmail from "./ApplyHelpEmail.mdx";
-import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 
 {/**
   * `Markdown`を回避する例として紹介されています．
@@ -37,13 +37,13 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
      <b class="box center">[UTokyo Wi-Fiアカウントメニュー](https://acm.wifi.adm.u-tokyo.ac.jp/secure/user_applies/index/1/)</b>
    </If>
    <If cond={props.inlineHelp}>
-     <ApplyHelpMFA type="details" />
+     <HelpHaveNoAccess system="UTokyo Wi-Fi" type="details" />
      <ApplyHelpJouhouSecurity type="details" />
    </If>
 1. 「新規申請」ボタンを押してください．
    - この時点ではまだ申請は行われていません．引き続き下の案内に従って申請を行ってください．
-1. 表示された画面で，「通知用メールアドレス」欄に記載されているメールアドレスが正しいか確認してください．
-   - UTokyo Wi-FiアカウントのユーザーID・パスワードは，[ECCSクラウドメール](/google/)およびこの「通知用メールアドレス」に宛てて通知されます．
+1. 表示された画面で，「通知用メールアドレス」欄に記載されているメールアドレスが正しいか確認してください．初回の申請の場合，「通知用メールアドレス」欄は空白になっています．
+   - UTokyo Wi-FiアカウントのユーザーID・パスワードは，[ECCSクラウドメール](/google/)およびこの「通知用メールアドレス」に宛てて通知されます．初回の申請の場合，UTokyo Wi-FiアカウントのユーザーID・パスワードは，[ECCSクラウドメール](/google/)および[UTokyo Account利用者情報確認サイト](https://login.adm.u-tokyo.ac.jp/my/)の連絡先メールアドレスに宛てて通知されます．
      <details>
        <summary>通知用メールアドレスを変更したい場合</summary>
        <If cond={props.utasOnly}>
@@ -59,6 +59,7 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
        </If>
      </details>
 1. 「申請」ボタンを押し，直後に画面に表示される内容を確認の上，ユーザーID・パスワードを控えてください．
+   - 「この内容で登録します。よろしいですか？」のポップアップが出た場合は「OK」を押してください．
    - 「申請」ボタンを押してしばらく待つと，利用上の注意に加えて，新たに発行されたUTokyo Wi-FiアカウントのユーザーID・パスワードが画面上に表示されます．画面を閉じてしまうと，再度表示されませんので，注意してください．ただし，同様の内容は通知メールでも送信されます．
      <If cond={props.inlineHelp}>
        <ApplyHelpEmail type="details" />
@@ -66,7 +67,7 @@ import ApplyHelpMFA from "./ApplyHelpMFA.mdx";
 <If cond={props.inlineHelp}>
   <Support lang="ja" show={props.support} />
   <Help lang="ja" support={props.support} slot="else">
-    - <ApplyHelpMFA type="default" />
+    - <HelpHaveNoAccess system="UTokyo Wi-Fi" type="default" />
     - <ApplyHelpJouhouSecurity type="default" />
     - <ApplyHelpEmail type="default" />
   </Help>

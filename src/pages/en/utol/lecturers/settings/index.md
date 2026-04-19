@@ -51,7 +51,7 @@ You can also use markups in this setting. For details on how to use markups, ple
 
 If you conduct online classes, use the **Online course information** section to provide details such as URLs for accessing online classes.
 
-When notifying students about the URLs of online classes, always use the **Online course information field** and avoid including them in the **Course Summary**, information notices, or forums. For more information, see [**How to Announce Online Class URLs (for Faculty Members)**](/en/faculty_members/url).
+When notifying students about the URLs of online classes, always use the **Online course information field** and avoid including them in the **Course Summary**, information notices, or forums. For more information, see [**How to Announce Online Class URLs (for Faculty Members)**](/en/faculty_members/url/).
 
 When editing the **Online course information**, keep the following points in mind:
 
@@ -119,14 +119,14 @@ This section describes the settings related to **Self-registration**, which allo
 
 First, in the **Self-registration** settings, you can choose whether or not to allow users to register themselves as *enrolled student*, by clicking the **Register for Enrollment** button on UTOL. The default setting is **Permit**.
 
-Next, in the **Enrolled student range setting**, and among those who are registered as *enrolled students***,** you can choose the range of people who can use the content (such as those downloading course materials and/or submitting assignments).
+Next, in the **Enrolled student range setting**, and among those who are registered as *enrolled students*, you can choose the range of people who can use the content (such as those downloading course materials and/or submitting assignments).
 
 The **Enrolled student range** settings automatically switch from **All regardless of registration method** to **Registration and instructor registration only on the course confirmation date**. However, in courses that the course instructor has applied for creation, the **Enrolled student range** setting is always fixed to **Always "All regardless of registration method"**.
 
 The **Enrolled student range** settings have the following options, which also affect whether self-registration is allowed:
 
 - **Always "Registration and instructor registration only"**: Only participants registered through methods such as enrollment registration or instructor registration[^2] can use the content. Specifically, those who have registered themselves through self-registration cannot access the content, therefore, self-registration is fixed to **Not Permit**.
-  - To register a participant by instructor registration, please refer to [**Course Participant Registration > Update Registration Method**](course_participants/#renew-method), where instructors or course designers can re-register the user.
+  - To register a participant by instructor registration, please refer to [**Course Participant Registration > Update Registration Method**](course_participants/#update), where instructors or course designers can re-register the user.
 - **Always "All regardless of registration method"**: Anyone who has enrolled can use the content. You can choose whether to allow self-registration.
 - Automatically switch from **All regardless of registration method to Registration and instructor registration only on the course confirmation date (Before Enrollment Registration Deadline Only)**: Before the enrollment registration deadline, this option behaves the same as **Always "All regardless of registration method"**. After the enrollment registration deadline, it behaves the same as **Always "Registration and instructor registration only"**. If self-registration is set to **Permit**, it will automatically switch to **Not Permit** after the enrollment registration deadline.
 
@@ -151,7 +151,7 @@ To configure these settings:
       - Set the enrolled student range to **Always "All regardless of registration method"** and self-registration to **Permit**.
     - If you want to restrict *auditing* to specific participants or disallow it:
       - Set the enrolled student range to **Always "Registration and instructor registration only"**.
-      - If there are participants you want to allow for *auditing*, please refer to [**Course Participant Registration > Update Registration Method**](course_participants/#renew-method), and re-register them as instructors.
+      - If there are participants you want to allow for *auditing*, please refer to [**Course Participant Registration > Update Registration Method**](course_participants/#update), and re-register them as instructors.
 3. Click the **Confirm** button, review the details, and then click **Register**.
 
 ### Labels
@@ -215,8 +215,7 @@ You can configure the messaging function and the attendance display settings usi
 
 LTI integration allows UTOL courses to connect with external tools[^3].
 
-[^3]: UTOLはLearning Tool Interoperability (LTI) v1.3に対応しており，Learning Platformとしての動作ができます．<br/>
-      UTOL supports Learning Tool Interoperability (LTI) v1.3 and functions as a Learning Platform.
+[^3]: UTOL supports Learning Tool Interoperability (LTI) v1.3 and functions as a Learning Platform.
 
 This section describes the procedures for using external tools in a course. For information on the functionality of the external tools, please refer to their respective websites.
 

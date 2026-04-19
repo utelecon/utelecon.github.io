@@ -29,7 +29,7 @@ For example, by using LMS to manage tests and assignments, you can easily set su
 
 ### What Is ITC-LMS?
 
-ITC-LMS (Information Technology Center-Learning Management System) is a learning management system used in many classes at the University of Tokyo. Through ITC-LMS, instructors can post assignments, give tests and display attendance forms, as well as contact students individually. The University of Tokyo as a whole recommends the use of ITC-LMS for announcements related to class. ([The tools usage guideline for online class since S semester 2021](/en/docs/guideline))
+ITC-LMS (Information Technology Center-Learning Management System) is a learning management system used in many classes at the University of Tokyo. Through ITC-LMS, instructors can post assignments, give tests and display attendance forms, as well as contact students individually. The University of Tokyo as a whole recommends the use of ITC-LMS for announcements related to class. ([The tools usage guideline for online class since S semester 2021](/en/docs/guideline/))
 
 ## Things to Keep In Mind When Using ITC-LMS
 
@@ -46,13 +46,13 @@ In the following, we propose ways to effectively utilize the ITC-LMS according t
 
 ![](pic1.jpg)
 
-The ITC-LMS has a test function that allows users to create quizzes and final exams to assess their daily learning. You can set the format of the tests to be in essay form or multiple choice questions, or allow retaking the exam, etc. For detailed instructions on how to create tests, please refer to [this page](/en/lms_lecturers/prepare_quizzes).
+The ITC-LMS has a test function that allows users to create quizzes and final exams to assess their daily learning. You can set the format of the tests to be in essay form or multiple choice questions, or allow retaking the exam, etc. For detailed instructions on how to create tests, please refer to [this page](/en/lms_lecturers/prepare_quizzes/).
 
 For tests of high importance, it is important to set clear deadlines for answers and time limits, and enter them in the "Answer period/deadline" field. Students will often look at this field to check when they need to work on the assignment, so it is a good idea to make sure that students can confirm the deadlines via the system, in addition to announcing them verbally during class.
 
 ### Take Attendance
 
-The ITC-LMS has an attendance management function, which can be used to take attendance during classes. Attendance management can be edited from the Course Content tab on the editing screen for faculty members on ITC-LMS. Please refer to [this page](/en/lms_lecturers/view_attendances) for detailed information on how to manage attendance.
+The ITC-LMS has an attendance management function, which can be used to take attendance during classes. Attendance management can be edited from the Course Content tab on the editing screen for faculty members on ITC-LMS. Please refer to [this page](/en/lms_lecturers/view_attendances/) for detailed information on how to manage attendance.
 
 ![](pic2.jpg)
 
@@ -62,7 +62,7 @@ When actually requesting attendance confirmations, the password must be presente
 
 ### Distribute Class Materials in an Easy-To-Understand Manner
 
-In ITC-LMS, you can place class materials such as slides in the "Teaching Materials" section. Please refer to [this page](/en/lms_lecturers/course_material) for details on how to place teaching materials.
+In ITC-LMS, you can place class materials such as slides in the "Teaching Materials" section. Please refer to [this page](/en/lms_lecturers/course_material/) for details on how to place teaching materials.
 
 ![](pic3.jpg)
 
@@ -72,7 +72,7 @@ The most important thing to keep in mind here is how to title the material. In a
 
 ### Set Easy-To-Read Deadlines for Assignments
 
-The ITC-LMS allows teachers to place assignments in the "Assignment" section. Please refer to [this page](/en/lms_lecturers/assignments) for details on how to create and place assignments.
+The ITC-LMS allows teachers to place assignments in the "Assignment" section. Please refer to [this page](/en/lms_lecturers/assignments/) for details on how to create and place assignments.
 
 ![](pic5.jpg)
 
@@ -84,4 +84,4 @@ The key point to be considered when setting an assignment is the date and time o
 
 In addition to the methods described in this article, ITC-LMS has a variety of other functions, such as a bulletin board function and a "Message to Teacher" function. It is important to find and use the function that best suits your purpose.
 
-In addition, when there are students who could not attend a class, you can record the class and post it on ITC-LMS later. For example, in Professor Ryosuke Higuchi's class at the Graduate Schools for Law and Politics, ITC-LMS was used to distribute class recordings as well as to share materials. For details, please refer to [this page](/good-practice/interview/higuchi#%E5%AD%A6%E7%94%9F%E3%81%AE%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88-%E3%81%93%E3%81%AE%E6%8E%88%E6%A5%AD%E3%81%8C%E8%89%AF%E3%81%8B%E3%81%A3%E3%81%9F%E7%90%86%E7%94%B1).
+In addition, when there are students who could not attend a class, you can record the class and post it on ITC-LMS later. For example, in Professor Ryosuke Higuchi's class at the Graduate Schools for Law and Politics, ITC-LMS was used to distribute class recordings as well as to share materials. For details, please refer to [this page](/good-practice/interview/higuchi/#%E5%AD%A6%E7%94%9F%E3%81%AE%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88-%E3%81%93%E3%81%AE%E6%8E%88%E6%A5%AD%E3%81%8C%E8%89%AF%E3%81%8B%E3%81%A3%E3%81%9F%E7%90%86%E7%94%B1).

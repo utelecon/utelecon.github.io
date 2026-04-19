@@ -15,7 +15,7 @@ Zoom accounts are provided to current members of the University of Tokyo, so if 
     - Therefore, even if you have changed your affiliation, your account is not subject to revocation as long as you are still using the same UTokyo Account.
 - For accounts other than UTokyo Account sign-in, revocation will be applied to **accounts registered with an email address of ECCS Cloud Email (`@g.ecc.u-tokyo.ac.jp`) that is no longer valid due to a leaving or a change of email address**.
     - If an email address of ECCS Cloud Email has been changed and a Zoom account is registered with the old email address, the account will be revoked in the same manner as those who have left the university, since it is difficult to confirm whether the user  is still a member of the university or not.
-    - As previously announced in the "[Using Zoom with Non-UTokyo Account Sign-in](/en/notice/zoom-address-new)", accounts other than UTokyo Account sign-in will be disabled as part of the sign-in method transition, even if the account does not meet the criteria above.
+    - As previously announced in the "[Using Zoom with Non-UTokyo Account Sign-in](/en/notice/zoom-address-new/)", accounts other than UTokyo Account sign-in will be disabled as part of the sign-in method transition, even if the account does not meet the criteria above.
 
 ## Contact
 

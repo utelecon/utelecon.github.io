@@ -9,3 +9,5 @@ ECCSクラウドメールではGoogle Paymentsを無効にしています．
 Google Colab Pro，Youtube Premiumなど，Google Paymentsを使って利用料金を払う必要のある有償サービスは，ECCSクラウドメールアカウントではご利用いただけません．
 
 このようなサービスを使う必要がある場合は，ECCSクラウドメール以外のGoogleアカウント (`XXX@gmail.com`など) をお使いください．
+
+また，ECCSクラウドメールアカウントを用いたGoogle Cloud Platformの有料機能の利用も原則として禁止しています．

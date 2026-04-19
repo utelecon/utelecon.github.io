@@ -1,3 +1,5 @@
+@use "@styles/color";
+
 table {
   display: block;
   border-collapse: collapse;
@@ -14,6 +16,6 @@ table {
   th,
   td {
     padding: 0.5em 1em;
-    border: 1px solid $gray;
+    border: 1px solid color.$gray;
   }
 }

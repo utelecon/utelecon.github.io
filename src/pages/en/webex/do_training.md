@@ -4,7 +4,7 @@ title: What is possible with Webex Training?（for Instructors・Participants)
 
 ## Roles
 
-There are four main roles in Webex Training．
+There are four main roles in Webex Training.
 * **Host**： Hosts can start/ close the event,  change the other participants' authorizations and build breakout session.  However, hosts cannot share the contents, nor participate in a poll. 
 * **Presenter**： Presenters can share the contents and change the other participants' authorizations. Presenters can also make and organize polls and breakout sessions.
 * **Panelist**： Panelists can answer questions from participants.
@@ -12,7 +12,7 @@ There are four main roles in Webex Training．
 
 ## Webex Training Screen
 
-* Below is the Webex Training screen. Although this screenshot looks small, the actual brower can be a maximum screen.
+* Below is the Webex Training screen. Although this screenshot looks small, the actual browser can be a maximum screen.
 	* Entering the training session, the screen shows "Test your speaker/ microphone". Choose the speaker and mirophone that you want to use. Click OK button and test your speaker and microphone.
 	![](img/webex_training_view.png){:.medium}
 
@@ -47,7 +47,7 @@ There are four main roles in Webex Training．
 
 ### Poll Panel
 
-* Poll panel allows participants to answer quizzes and questionnaires. Only presenters can start polling．
+* Poll panel allows participants to answer quizzes and questionnaires. Only presenters can start polling.
 
 	![](img/webex_training_poll.png){:.small}
 

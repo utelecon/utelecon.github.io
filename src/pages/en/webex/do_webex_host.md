@@ -6,7 +6,7 @@ lang: en
 ---
 
 - This article provides an overview of Webex Meetings and Webex Webinars features specific to the host.
-- For basic instructions on how to use Webex, please click [here](do_webex).
+- For basic instructions on how to use Webex, please click [here](../do_webex/).
 
 ## Breakout Session
 Hosts can set the number of breakout sessions, assign participants to breakout sessions, rename each breakout session, and set the time limits and countdown timers for breakout sessions.**Please note that breakout sessions are not available for End-to-End Encrypted Meetings.**
@@ -57,7 +57,7 @@ Hosts can set the number of breakout sessions, assign participants to breakout s
 
 
 ## Locking your Webex Meeting
-When hosting a highly confidential meeting, you may lock the meeting to prevent new participants from freely joining. **Note that the Lobby fuction is not available in End-to-End Encrypted Meetings.**
+When hosting a highly confidential meeting, you may lock the meeting to prevent new participants from freely joining. **Note that the Lobby function is not available in End-to-End Encrypted Meetings.**
 - When a meeting is locked, new participants who come to join the meeting will wait in the lobby.
 	![](img/webex_meeting_lock.png){:.border}
 

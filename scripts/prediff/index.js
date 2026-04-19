@@ -63,7 +63,7 @@ function rehypePrediff() {
       }
 
       if (node.tagName === "img" && typeof node.properties.src === "string" && node.properties.src.startsWith("/_astro/")) {
-        node.properties.src = node.properties.src.replace(/\.[-_0-9a-zA-Z]+\.(webp|png)$/, ".$1");
+        node.properties.src = node.properties.src.replace(/\.[-_0-9a-zA-Z]+\.(webp|png|svg)$/, ".$1");
       }
     });
     remove(

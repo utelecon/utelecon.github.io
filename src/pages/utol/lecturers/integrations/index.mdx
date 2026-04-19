@@ -1,9 +1,27 @@
 ---
-title: UTOLで外部ツールとの連携機能を利用する
+title: UTOLで外部ツールとの連携機能を利用する（教員・TA向け）
 breadcrumb:
   title: 外部連携
 ---
 
-import InPreparation from "@components/ja/InPreparation.mdx";
+UTOLはLTIという規格によりSlackやZoom等の外部ツールと連携することができます．これら連携機能を利用することにより，授業を円滑に進めることができます．
+なお，LINEやSlackを経由した通知は，「[UTOLからの通知を設定する](../../notification/)」を参照してください．
 
-<InPreparation />
+## 利用可能な外部ツール
+UTOLでは，以下の外部ツール連携を利用可能です．
+- Zoom：コースの参加者とZoomミーティングとの連携などができます．詳しくは「[LTI連携機能でUTOLからのZoomミーティングを利用する](./zoom/)」を参照してください．
+
+- Slack：コースの参加者が参加するSlackワークスペースを作成できます．詳しくは「[Slack連携機能でUTOLからUTokyo Slackのワークスペースを利用する](./slack/)」を参照してください．
+
+- MATLAB Grader：コースの履修者に対し，MATLAB Graderで作成した問題を出題できます．詳しくは「[UTOLからMATLAB Graderを利用する](./matlab_grader/)」を参照してください．
+
+### 利用可能な外部ツールの確認方法
+現在利用可能な外部ツールの一覧は，以下の手順で確認できます．
+1. 操作したいコースを開いた状態で，左上の「![３本線のボタン](../../_icons/hamburger.png){:.icon}」アイコンを押してください．
+2. 「コース設定」から「LTI利用設定」を選択してください．
+![](utol_lti_setting_1.png)
+3. 利用可能なツールの一覧が表示されるので，確認してください．
+![](utol_lti_setting_2.png)
+
+## 外部ツールの追加を申請する
+現在利用可能になっていない LTI v1.3 に対応する外部ツールのライセンスをお持ちで，UTOLからの連携で利用することを検討中の方は，UTOL担当(`lms-support@itc.u-tokyo.ac.jp`)宛にご連絡下さい．その際には，当該ツール及びそのライセンス，利用を希望する範囲（特定の学部・コースのみでの利用か，全学での利用を希望か）等をお教え下さい．

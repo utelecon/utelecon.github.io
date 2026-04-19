@@ -11,11 +11,11 @@ redirect_from:
 
 This page explains how to sign in to Microsoft systems using UTokyo Account.
 
-The University of Tokyo provides [UTokyo Microsoft License](./), which allows you to use Microsoft systems with UTokyo Account. If you are prompted to sign in to Microsoft systems using UTokyo Account, please follow the instructions in "[Sign in to Microsoft systems](#instruction)" below.
+The University of Tokyo provides [UTokyo Microsoft License](../), which allows you to use Microsoft systems with UTokyo Account. If you are prompted to sign in to Microsoft systems using UTokyo Account, please follow the instructions in "[Sign in to Microsoft systems](#instruction)" below.
 
 If you are already signed in with a different Microsoft account and want to switch to UTokyo Account, please refer to "[Switching to UTokyo Account if signed in with a different Microsoft account](#switch_accounts)." In addition, the recommended method for using multiple Microsoft accounts in the same browser is explained in "[Using multiple Microsoft accounts in the same browser](#multiple_accounts)." Please refer to this section if you have two UTokyo Accounts, one for students and one for faculty and staff, or if you want to use your personal or other organization's Microsoft account in addition to UTokyo Account.
 
-For general information about UTokyo Microsoft License and details of available systems, please refer to "[UTokyo Microsoft License](./)."
+For general information about UTokyo Microsoft License and details of available systems, please refer to "[UTokyo Microsoft License](../)."
 
 ## Sign in to Microsoft systems
 {:#instruction}
@@ -32,16 +32,16 @@ When signing in to Microsoft systems using UTokyo Account, contrary to signing i
 
 1. Please check the displayed screen and follow the instructions below.
     - If **"Sign in"** ("サインイン" in Japanese) is displayed below the Microsoft or the UTokyo logo
-        - Enter "10-digit common ID + `@utac.u-tokyo.ac.jp`" in the input field and click "Next" ("次へ" in Japanese) button.
+        - Enter "10-digit Common ID + `@utac.u-tokyo.ac.jp`" in the input field and click "Next" ("次へ" in Japanese) button.
     - If **"Pick an account"** is displayed below the Microsoft logo
-        - If an account with "10-digit common ID + `@utac.u-tokyo.ac.jp`" is displayed, select that account. If "Signed in" is displayed below the account name, you are already signed in to Microsoft systems with UTokyo Account. By selecting this account, you can continue to use Microsoft systems.
-        - If an account with "10-digit common ID + `@utac.u-tokyo.ac.jp`" is not displayed, click "Use another account," enter "10-digit common ID + `@utac.u-tokyo.ac.jp`" in the input field, and then click "Next."
+        - If an account with "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is displayed, select that account. If "Signed in" is displayed below the account name, you are already signed in to Microsoft systems with UTokyo Account. By selecting this account, you can continue to use Microsoft systems.
+        - If an account with "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is not displayed, click "Use another account," enter "10-digit Common ID + `@utac.u-tokyo.ac.jp`" in the input field, and then click "Next."
 2. After the message "Taking you to your organization's sign-in page" is displayed, you will be automatically redirected to the sign-in page with the image of Yasuda Auditorium. Follow the instructions in "[Sign in to the ICT systems with your UTokyo Account](/utokyo_account/#signin)" to sign in.
     <details>
     <summary>Help when this procedure does not work</summary>
 
     - If you see **"Enter a valid email address, phone number, or Skype name."** or **"We couldn't find an account with that username. Try another, or get a new Microsoft account."**
-        - The input is incorrect. Please check if you have entered "10-digit common ID + `@utac.u-tokyo.ac.jp`" correctly.
+        - The input is incorrect. Please check if you have entered "10-digit Common ID + `@utac.u-tokyo.ac.jp`" correctly.
     - If you see **"That Microsoft account doesn't exist. Enter a different account or get a new one."**
         - You cannot sign in with UTokyo Account on this sign-in page. If you see this screen even though the system supports signing in with UTokyo Account, please contact the [support desk](/en/support/).
     </details>

@@ -6,7 +6,7 @@ breadcrumb:
 
 This page describes what operations the participants (students) can perform in Slido.
 
-To use Slido as an event host, please refer to “[What Hosts Can Do in Slido](how_to_use_host).”
+To use Slido as an event host, please refer to “[What Hosts Can Do in Slido](../how_to_use_host/).”
 	
 ## Using the Q&A Feature
 
@@ -23,6 +23,13 @@ To submit a question or comment, click “Type your question” on the “Q&A”
 <img src="img/audience_qa_2.png">
 
 Type your question or comment in the text input field on the screen, and click “Send” to send your question or comment.
+
+When you select an option in the “Question AI” section, the text you entered will be rewritten by the AI as follows:
+* **Improve**: Fixes typos and refines the text into more natural and clear expressions.
+* **Shorten**: Summarizes long text into simple questions containing only the key points. (Useful when there is a character limit.)
+* **Professional**: Converts the text into polite expressions suitable for addressing superiors or for formal situations.
+* **Casual**: Converts the text into slightly informal and friendly expressions.
+* **Joyful**: Adds emojis to the end of sentences and converts the text into a cheerful and lively tone.
 
 You can send your question or comment anonymously, but if you want to enter your name, please use the “Your name (optional)” field at the bottom right of the text input field. The name you enter into this field will be visible to other participants.
 

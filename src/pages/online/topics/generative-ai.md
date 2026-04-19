@@ -1,24 +1,81 @@
 ---
-title: 生成AI（ChatGPT等）関連情報
+title: 生成AI関連情報
 ---
 
-このページでは，ChatGPT等の生成AI (Generative AI) に関する情報をまとめていきます（随時更新予定）．
+このページでは，生成AI (Generative AI) に関する情報をまとめていきます（随時更新予定）．
 
 ## ガイドライン・メッセージ等
 
 - [東京大学における生成AI利用に係るセキュリティガイドライン](https://univtokyo.sharepoint.com/sites/Security/SitePages/ai_use_security_guideline.aspx)（2024年3月12日）<small>※閲覧にはUTokyo Accountでのサインインが必要です</small>
-- [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students)（2023年5月26日付／2023年5月29日掲載）
-- [AIツールの授業における利用について](/docs/ai-tools-in-classes)（2023年4月28日付／2023年5月16日掲載）
-- [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai)（2023年4月3日／太田邦史理事・副学長）
+- [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students/)（2023年5月26日付／2023年5月29日掲載）
+- [AIツールの授業における利用について](/docs/ai-tools-in-classes/)（2023年4月28日付／2023年5月16日掲載）
+- [生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について](/docs/20230403-generative-ai/)（2023年4月3日／太田邦史理事・副学長）
 
 ## 全学構成員向けの生成AIサービス
 
-- [ECCSクラウドメールでのGeminiの利用について](/google/gemini)
-- [Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion)（2025年1月27日）
-- [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui)（2024年3月29日）
-- [当面の全学構成員向け生成AIサービス提供方針について](/notice/2024/0327-ai-service)（2024年3月27日）
-- [Microsoft Copilotによる生成AIチャットの提供について](/notice/2024/03-microsoft-copilot)（2024年3月1日）
-- [生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat)（2023年10月20日）
+2026年3月時点での全学構成員向けの生成AIサービスの提供状況について，以下にまとめています．
+
+### よく問い合わせがある生成AIサービス
+
+#### チャット形式のサービス
+
+東京大学で全学的に契約している生成AIサービスの中で，チャット形式のものとして，主に以下の2つのサービスがあります．
+
+- [Gemini](https://gemini.google.com/app)
+- [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat/)
+{:.cards}
+
+上記の2つのサービスは，いずれも東京大学のアカウントで有償契約相当の基本的な機能が利用できるものです．UTokyo Accountを持っていれば誰でも利用できます．またデータ保護などについて，一定の規約が定めらています．(ただし，これは2026年3月現在の情報であり，実際に使える機能や条件などの変更があった場合には，学内での利用のルールや注意に変化があるかもしれません．特に，データ保護条項については，ユーザ自身でも適切であるか，常に確認してください．場合によっては明示的にオプトアウトの操作を行うことなどが必要になるかもしれません．)
+
+東大のアカウントでの利用について，詳しくは以下のページをご覧ください．
+
+- [ECCSクラウドメールでのGeminiの利用について](/google/gemini/)
+- [Microsoft Copilotによる生成AIチャットの提供について](/notice/2024/03-microsoft-copilot/)（2024年3月1日）
+
+なおよくお問合せいただきますが，ChatGPTについては全学での契約はありません．
+
+#### 一般的なアプリに組み込まれているAIサービス
+
+チャット形式ではなく，既存の特定の機能を実現するアプリの中に組み込まれている生成AIサービスもあります．このようなサービスでは，多くの場合，アプリの機能と関連した特定のAI機能(例えば，オンラインミーティングでの議事録作成，ドキュメント作成の支援)が提供されており，比較的簡単な操作で利用できる傾向があります．
+
+東大全学で契約しているものとしては，次のような例があります．
+
+- [Zoom](/zoom/)における**[AI Companion](/zoom/ai-companion/)**
+    - 「[Zoom AI Companion機能の提供について](/notice/2025/0127-zoom-ai_companion/)（2025年1月27日）」も併せてご覧ください．
+- [UTokyo Slack](/slack/)における**[Slack AI](https://slack.com/intl/ja-jp/help/articles/25076892548883)**
+    - Proプラン相当のベーシックな機能が利用可能です．
+- [Webex](/webex/)における**[Cisco AI アシスタント](https://help.webex.com/ja-jp/article/nyzkuik/)**，**[Webex AI](https://www.webex.com/jp/ja/ai/index.html)**
+- [Slido](/slido/)における**[Slido AI](https://www.slido.com/ai)**
+- [Microsoft Teams](/microsoft#teams)(教職員のみに提供)における**[Copilot in Teams](https://www.microsoft.com/ja-jp/microsoft-teams/teams-ai)**
+    - [Microsoft Teams 会議で Copilot を使用する(Microsoft公式ヘルプ)](https://support.microsoft.com/ja-jp/office/0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
+    - 一部の教職員を対象として提供されています．2026年3月現在，「生成AIの活用による業務改革の推進」の一環として，少人数ではありますが一定の条件のもとで[検証](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981)に参加している教職員のみが利用できます(UTokyo Accountでのサインインが必要，教職員のみアクセス可能)．
+- [ECCSクラウドメール(Google Workspace for Education)](/google/)における**[Gemini for Google Workspace](https://knowledge.workspace.google.com/admin/gemini/google-workspace-with-gemini?hl=ja-#education)**
+    - 利用には，[Google Workspace for Education Plusライセンス](/google/misc/education-plus/)の申請が必要です．詳細は「[Googleドキュメント, Googleスライド, GoogleフォームでGeminiが使えるようになりました](/notice/2026/0302-gemini-gws/)」をご覧ください．
+
+### その他のサービス
+
+#### 特定の機能に特化した高度な機能を有するサービスなど
+
+- **[NotebookLM](https://notebooklm.google.com/)**
+    - GeminiのAIモデルを用いて，指定した資料等（PDF，Googleドキュメント，YouTubeの動画，ウェブページなど）を分析させ，要約，整理，質問応答，資料作成などができる，アシスタントツールです．
+- **[Microsoft 365 Copilot](https://m365.cloud.microsoft/chat/)**の**エージェント**機能，**ノートブック**機能
+    - Microsoft 365 Copilot Chatで利用できるのとおおむね同様のAIモデルを用いて，指定した資料等を分析させたり，特定のタスクをある程度自律的に遂行させたりできる，アシスタントツールです．
+    - 一部の教職員を対象として提供されています．2026年3月現在，「生成AIの活用による業務改革の推進」の一環として，少人数ではありますが一定の条件のもとで[検証](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981)に参加している教職員のみが利用できます(UTokyo Accountでのサインインが必要，教職員のみアクセス可能)．
+- [**TREE Summon Research Assistant beta**](https://tokyo-summon-serialssolutions-com.utokyo.idm.oclc.org/#!/research_assistant)
+    - 詳しくは「[TREE新機能：生成AIツール「Summon Research Assistant（BETA版)」の提供開始](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20250828)」をご覧ください．
+
+#### 開発者向けのサービス
+
+- [UTokyo MATLAB Campus-Wide License](/matlab/)における**[AI Chat Playground](https://jp.mathworks.com/matlabcentral/playground?s_tid=gn_mlc_playground)**
+- **[UTokyo Azure](/research_computing/utokyo_azure/)**
+    - UTokyo Azureでは，APIをはじめとした様々な方法で[AIを利用できる環境](/research_computing/utokyo_azure/ai/)を提供しています．また選択可能なモデルの種類も多様です．
+
+### 参考情報
+
+- [当面の全学構成員向け生成AIサービス提供方針について](/notice/2024/0327-ai-service/)（2024年3月27日）
+- 以下のページで紹介している「Chatbot UI」による生成AIチャットサービスの実験的な提供は，2024年3月28日をもって終了しました．
+    - [2024年度における「Chatbot UI」での生成AIチャットサービスの暫定的な提供について](/notice/2024/03-chatbot-ui/)（2024年3月29日）
+    - [生成AIチャットサービスの実験的な提供について](/notice/2023/10-aichat/)（2023年10月20日）
 
 ## その他参考情報
 - [生成AIの提供方針に関するアンケートの結果等について](/notice/2024/04-aichat-survey-result/)

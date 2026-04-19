@@ -3,7 +3,8 @@ title: UTOLからMATLAB Graderを利用可能となりました
 ---
 
 <div style="text-align: right;">
-<span>2024年10月16日</span><br />
+<span>公開：2024年10月16日</span><br />
+<span>更新：2025年07月14日</span><br />
 <span>情報基盤センター</span><br />
 </div>
 
@@ -11,7 +12,9 @@ title: UTOLからMATLAB Graderを利用可能となりました
 
 [MATLAB Grader](https://jp.mathworks.com/products/matlab-grader.html)が，学習管理システム[UTOL(UTokyo LMS)](/utol/)から利用可能となりました．この機能は「担当教員」として登録されているコースで，「履修者」に対して，MATLAB Graderで作成した問題を出題することができるものです．なお，問題の出題・解答の際，MathWorksアカウントは原則として不要です．
 
-使い方については，「[UTOL-MATLAB Graderユーザガイド](https://docs.google.com/document/d/1CYOXHnG3_jla5KgEEO-KhTbu_nDgp-Uc/edit?usp=drive_link&ouid=117510436890962815644&rtpof=true&sd=true)」をご覧ください．(閲覧には，ECCSクラウドメールでのログインが必要です．)
+使い方については，「[UTOLからMATLAB Graderを利用する（教員・TA向け）](/utol/lecturers/integrations/matlab_grader/)」，「[UTOLからMATLAB Graderを利用する（学生向け）](/utol/students/integrations/matlab_grader/)」をご覧ください．
+
+また，「[UTOL-MATLAB Graderユーザガイド](https://docs.google.com/document/d/1CYOXHnG3_jla5KgEEO-KhTbu_nDgp-Uc/edit?usp=drive_link&ouid=117510436890962815644&rtpof=true&sd=true)」も合わせてご利用ください．(閲覧には，ECCSクラウドメールでのログインが必要です．)
 
 ## 補足事項
 

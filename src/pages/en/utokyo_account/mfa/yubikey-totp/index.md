@@ -8,7 +8,7 @@ In addition to smartphone apps such as the “Google Authenticator” that are u
 
 This page provides information on how to register and sign in by using the YubiKey security key and Yubico Authenticator application as the verification method for the multi-factor authentication of UTokyo Accounts.
 
-YubiKey also has the ability to work in conjunction with another advanced security system “FIDO” for the multi-factor authentication. Please refer to the "[Using the FIDO Security Key for Multi-Factor Authentication of UTokyo Accounts](/utokyo_account/mfa/fido-security_key)" (in Janpanese) for more details. Additionally, even if the YubiKey has been registered as a FIDO security key, it still can be also registered through an authentication app (which is useful as it allows you to sign in to [some systems where FIDO is not available](/utokyo_account/mfa/fido-security_key#unsupported-system) (in Japanese)).
+YubiKey also has the ability to work in conjunction with another advanced security system “FIDO” for the multi-factor authentication. Please refer to the "[Using the FIDO Security Key for Multi-Factor Authentication of UTokyo Accounts](/utokyo_account/mfa/fido-security_key/)" (in Janpanese) for more details. Additionally, even if the YubiKey has been registered as a FIDO security key, it still can be also registered through an authentication app (which is useful as it allows you to sign in to [some systems where FIDO is not available](/utokyo_account/mfa/fido-security_key/#unsupported-system) (in Japanese)).
 
 ## Procedures to register Yubico Authenticator
 
@@ -30,7 +30,7 @@ You need to display the QR code to register the Yubico Authenticator application
 If you have not registered any verification method and wish to register the Yubico Authenticator application as your first verification method, please follow the procedures below.
 
 1. Access the [Security info page](https://account.activedirectory.windowsazure.com/proofup.aspx?proofup=1&whr=univtokyo.onmicrosoft.com).
-2. The sign in page will appear (if you are not already signed in). Enter your UTokyo Account username (10-digit Common ID) and password and click “Sign in”.
+2. The sign in page will appear (if you are not already signed in). Enter your Common ID (the first 10-digit numerical part of the UTokyo Account) and password and click “Sign in”.
 ![](../first.png)
 3. Click “Next” in the “More information required” page.
 4. Click “I want to use a different authentication app” in the middle of the setup page.
@@ -69,7 +69,7 @@ If you have already registered another verification method as your first one and
 
 <details><summary>Regarding the registration of your email address</summary>If you register Yubico Authenticator application as the first verification method, you will be prompted to enter your email address after completing the code input test. Please enter an email address OTHER THAN your ECCS Cloud Email if possible, and click “Next”. Enter the 6-digit code sent to your email address, and click “Next”.  <img src="first_email.png"></details>
 
-Once you have completed the registration for the verification method, **make sure to follow all the steps up to step 4 in the "[Initial Setup Procedure of Multi-Factor Authentication for UTokyo Accounts](initial)" and enable Multi-Factor Authentication.**
+Once you have completed the registration for the verification method, **make sure to follow all the steps up to step 4 in the "[Initial Setup Procedure of Multi-Factor Authentication for UTokyo Accounts](initial/)" and enable Multi-Factor Authentication.**
 
 ### Procedures of signing in Yubico Authenticator
 

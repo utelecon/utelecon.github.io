@@ -24,6 +24,6 @@ redirect_from:
 
 ## （参考）授業におけるWeb会議の入室制限の設定について
 
-- Zoomの場合：「[授業におけるZoom会議室の入室制限](/faculty_members/zoom_access_control)」のページをご覧ください．
+- Zoomの場合：「[授業におけるZoom会議室の入室制限](/faculty_members/zoom_access_control/)」のページをご覧ください．
 - Webexの場合：設定の「ロック解除されたミーティング」の項目で設定します．
 ![](./webex-waitingroom.png)

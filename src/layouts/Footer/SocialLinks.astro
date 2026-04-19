@@ -1,0 +1,130 @@
+---
+import { Image } from "astro:assets";
+import type { Lang } from "@components/types";
+import XLogo from "./x_logo.png";
+import YouTubeLogo from "./youtube_logo.png";
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const socialLinks: {
+  title: string;
+  url: string;
+  icon: any;
+}[] = [
+  {
+    title: "X",
+    url: {
+      "ja": "https://x.com/utelecon_pr",
+      "en": "https://x.com/utelecon_pr_en",
+    }[lang],
+    icon: XLogo,
+  },
+  {
+    title: "YouTube",
+    url: "https://www.youtube.com/@utelecon",
+    icon: YouTubeLogo,
+  },
+];
+
+const socialMediaPolicy: {
+  title: string;
+  url: string;
+} = {
+  "ja": {
+    title: "ソーシャルメディアポリシー",
+    url: "/docs/sns-policy",
+  },
+  "en": {
+    title: "Social Media Policy",
+    url: "/en/docs/sns-policy",
+  },
+}[lang];
+---
+
+<div class="social-links">
+  <ul>
+    {
+      socialLinks.map(({title, url, icon}) =>
+        <li class="social-link">
+          <a href={url} title={title}>
+            <Image class="social-logo" src={icon} alt={title} />
+          </a>
+        </li>
+      )
+    }
+    <li><a href={socialMediaPolicy.url}>{socialMediaPolicy.title}</a></li>
+  </ul>
+</div>
+
+<style lang="scss">
+  @use "@styles/color";
+
+  div.social-links {
+    background: color.$white-gray-light;
+    border-bottom: 5px solid color.$heading-color;
+
+    padding: 0.5rem 4rem 0.5rem;
+    @media (max-width: 768px) {
+      padding: 0.5rem 2rem 0.5rem;
+    }
+    @media (max-width: 512px) {
+      padding: 0.5rem 1rem 0.5rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      li {
+        flex-shrink: 0;
+      }
+
+      li.social-link {
+        width: 2.25rem;
+        height: 2.25rem;
+        background: white;
+        &:hover {
+          text-decoration: none;
+        }
+        & > a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0.4rem;
+          width: 100%;
+          height: 100%;
+          & > img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      li:last-child {
+        align-self: center;
+        display: flex;
+        align-items: center;
+        & > a {
+          text-decoration: none;
+          color: color.$footer-background-color;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &::before {
+          font-family: "Material Icons";
+          content: "arrow_forward";
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+</style>

@@ -11,11 +11,11 @@ redirect_from:
 
 このページでは，UTokyo Accountを用いてMicrosoftの提供するシステムにサインインする方法を説明します．
 
-東京大学では，UTokyo AccountでMicrosoftのシステムを利用することができる[UTokyo Microsoft License](./)が提供されています．UTokyo AccountでMicrosoftのシステムを利用する際にサインインを要求する画面が表示された場合には，以下の「**[Microsoftのシステムにサインインする](#instruction)**」で説明する手順に従ってMicrosoftのシステムにサインインしてください．
+東京大学では，UTokyo AccountでMicrosoftのシステムを利用することができる[UTokyo Microsoft License](../)が提供されています．UTokyo AccountでMicrosoftのシステムを利用する際にサインインを要求する画面が表示された場合には，以下の「**[Microsoftのシステムにサインインする](#instruction)**」で説明する手順に従ってMicrosoftのシステムにサインインしてください．
 
 また，UTokyo Accountではない別のMicrosoftアカウントですでにサインインをしていて，UTokyo Accountでの利用に切り替えたい場合は，「[別のMicrosoftアカウントでサインインしている場合にUTokyo Accountでの利用に切り替える](#switch_accounts)」を参照してください．これに関連して，同じブラウザで複数のMicrosoftアカウントを並行して利用する際に推奨される方法を「[一つのブラウザで複数のMicrosoftアカウントを使いわける](#multiple_accounts)」で説明しています．学生用と教職員用とで2つのUTokyo Accountをお持ちの方や，個人や他組織のMicrosoftアカウントと併用して利用したい方などはこちらもお読みください．
 
-なお，UTokyo Microsoft Licenseについての全般的な説明や，利用可能なシステムの詳細は「[UTokyo Microsoft License](./)」に記載されています．あわせて参照してください．
+なお，UTokyo Microsoft Licenseについての全般的な説明や，利用可能なシステムの詳細は「[UTokyo Microsoft License](../)」に記載されています．あわせて参照してください．
 
 ## Microsoftのシステムにサインインする
 {:#instruction}
@@ -32,16 +32,16 @@ UTokyo AccountでMicrosoftのシステムにサインインする際には，他
 
 1. 表示されている画面を確認し，以下の手順を行ってください．
     - Microsoftまたは東京大学のロゴの下に**「サインイン」**と表示されている場合
-        - 入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力し，「次へ」を押してください．
+        - 入力欄にUTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）を入力し，「次へ」を押してください．
     - Microsoftのロゴの下に**「アカウントを選択する」**と表示されている場合
-        - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」というアカウントが表示されている場合には，そのアカウントを選択してください．なお，アカウント名の下に「サインイン済み」と表示されている場合には，すでにUTokyo AccountでMicrosoftのシステムにサインインしています．このアカウントを選択することで，そのままMicrosoftのシステムを利用することができます．
-        - 「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」というアカウントが表示されていない場合には，「別のアカウントを使用する」を押し，入力欄に「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を入力してから「次へ」を押してください．
+        - UTokyo Accountが表示されている場合には，そのアカウントを選択してください．なお，アカウント名の下に「サインイン済み」と表示されている場合には，すでにUTokyo AccountでMicrosoftのシステムにサインインしています．このアカウントを選択することで，そのままMicrosoftのシステムを利用することができます．
+        - UTokyo Accountが表示されていない場合には，「別のアカウントを使用する」を押し，入力欄にUTokyo Accountを入力してから「次へ」を押してください．
 1. 「組織のサインイン ページに移動します。」というメッセージのあと，安田講堂の画像が表示されているサインイン画面へ自動的に移動します．以降は「[UTokyo Accountで情報システムにサインインする](/utokyo_account/#signin)」に従ってサインインを行ってください．
     <details>
     <summary>この手順がうまくいかないときのヘルプ</summary>
 
     - 「**有効な電子メール アドレス、電話番号、Skype 名を入力します。**」または「**そのユーザー名のアカウントが見つかりませんでした。別のユーザー名を入力するか、新しい Microsoft アカウントを取得してください。**」と表示された場合
-        - 入力内容が間違っています．「10桁の共通ID＋`@utac.u-tokyo.ac.jp`」を正しく入力したかどうか確認してください．
+        - 入力内容が間違っています．UTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）を正しく入力したかどうか確認してください．
     - 「**Microsoft アカウントが存在しません。別のアカウントを入力するか、新しいアカウントを作成してください。**」と表示された場合
         - このサインイン画面からは，UTokyo Accountでのサインインを行うことができません．UTokyo Accountでのサインインが可能なシステムであるにもかかわらずこの画面が表示されている場合は，[サポート窓口](/support/)に相談してください．
     </details>

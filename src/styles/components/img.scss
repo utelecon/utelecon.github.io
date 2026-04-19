@@ -1,3 +1,5 @@
+@use "@styles/color";
+
 img {
   display: block;
   max-height: 40rem;
@@ -64,7 +66,7 @@ img.thin-border {
 img.shadow {
   box-shadow: 0 0 0.75em 0.75em white inset;
   padding: 1em;
-  background: $gray;
+  background: color.$gray;
 }
 
 figure {

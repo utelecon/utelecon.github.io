@@ -7,7 +7,7 @@ title: オンライン授業情報交換会 第2回 グループワークをす�
 - 日時：2020年4月27日 12:10-12:50
 - 対象：本学の授業を担当する教員や授業支援をする方々
 - [**スライド**はこちら](luncheon_2_slides.pdf)
-- [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-04-27) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email)が必要です）</small>
+- [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-04-27) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email/)が必要です）</small>
 
 ---
 

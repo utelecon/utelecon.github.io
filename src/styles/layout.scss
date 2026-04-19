@@ -1,4 +1,5 @@
-@import "../../node_modules/normalize.css/normalize.css";
+@use "node_modules/normalize.css/normalize";
+@use "sass:meta";
 
 * {
   box-sizing: border-box;
@@ -11,12 +12,12 @@ html {
   line-height: 1.5;
 }
 
-@import "cayman/jekyll-theme-cayman";
-@import "visually-hidden";
-@import "main";
-@import "margin";
-@import "external-link";
+@include meta.load-css("cayman/jekyll-theme-cayman");
+@include meta.load-css("visually-hidden");
+@include meta.load-css("main");
+@include meta.load-css("margin");
+@include meta.load-css("external-link");
 
 @media print {
-  @import "printing";
+  @include meta.load-css("printing");
 }

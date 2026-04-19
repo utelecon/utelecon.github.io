@@ -4,7 +4,7 @@ breadcrumb:
   title: Data Backup
 ---
 
-This page describes how to back up your data in the various information systems when you leave the University of Tokyo. Please refer to the "**[Notice on Account Revocation due to  Graduation, Resignation or Change of Affiliation](.)**" for more information on the revocation of your UTokyo Account when you leave the University of Tokyo.
+This page describes how to back up your data in the various information systems when you leave the University of Tokyo. Please refer to the "**[Notice on Account Revocation due to  Graduation, Resignation or Change of Affiliation](../)**" for more information on the revocation of your UTokyo Account when you leave the University of Tokyo.
 
 **When you leave the University of Tokyo due to graduation, resignation, or other reasons, your UTokyo Account will be revoked and you will not be able to use the various information systems** such as Zoom, ECCS Cloud Email, and Microsoft 365 provided by the University of Tokyo. After your account has been revoked, you will not be able to access any data stored in the systems, so please **make backups of your data as necessary**. Some systems limit the amount of data that can be backed up at one time, so if you have a large amount of data to back up, we recommend that you do so well in advance of leaving the university.
 
@@ -49,9 +49,3 @@ When your UTokyo Account is revoked, you will no longer be able to use the UToky
 ### Note for Windows users
 
 If you are using the file synchronization function of OneDrive on Windows, folders such as "Desktop" and "Documents" may exist on OneDrive. Files downloaded from OneDrive for backup should be saved in a folder that is not synchronized with OneDrive.
-
-## ECCS Terminal
-
-After your UTokyo Account is revoked, you will not be able to access the data stored on your ECCS terminal. Please back up your data while your UTokyo Account is active.
-
-You can save the data on your ECCS terminal to your own terminal via a USB memory stick or by using the [WevDAV environment](https://www.ecc.u-tokyo.ac.jp/en/webdav.html).

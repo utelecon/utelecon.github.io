@@ -2,6 +2,10 @@
 title: Orientations / Seminars
 ---
 
+* 2026/03/16 [Information Session on ICT Systems and Tools for UTokyo Members (only in Japanese)](/events/2026-03-16/)
+* 2026/02/13 [Workshop: UTokyo Azure Day (**Oral Session Conducted in English**)](/en/events/2026-02-13/)
+* 2025/09/10 [Information Session on ICT Systems and Tools for UTokyo Members (only in Japanese)](/events/2025-09-10/)
+* 2025/04/18 [Information Session on UTokyo Azure (**Conducted in English**)](/en/events/2025-04-18/)
 * 2025/03/12 [Information Session on ICT Systems and Tools for UTokyo Members (only in Japanese)](/events/2025-03-12/)
 * 2024/09/13 [Reflecting on Generative AI and Education: Symposium + Workshop for the University of Tokyo Faculty and Staff](/en/events/2024-12-20-genai-sympo-ws/)
 * 2024/09/13 [Information Session on ICT Systems and Tools for UTokyo Members (**Conducted in English**)](/en/events/2024-09-13/)
@@ -13,7 +17,7 @@ title: Orientations / Seminars
 * 2022/03/16 [Briefing session: Not only online classes! A briefing session on ICT and online conference tools for education and research (only in Japanese)](/events/2022-03-16/)
 * 2021/09/15 [Briefing session: Online Classes for 2021 A semester - Educational ICT and Online / Hybrid Classes (only in Japanese)](/events/2021-09-15/)
 * 2021/03/25 [Online Course How to use Zoom 2021 (only in Japanese)](/events/2021-03-25/)
-* 2021/03/17 [Briefing session: Toward an Online Classes for 2021 - Based on the Experiense of 2020 (only in Japanese)](/events/2021-03-17/)
+* 2021/03/17 [Briefing session: Toward an Online Classes for 2021 - Based on the Experience of 2020 (only in Japanese)](/events/2021-03-17/)
 * 2020/09/11 [Briefing session: Toward an Online/ Hybrid Classes for A Semester - Based on the Experience of S emester (only in Japanese)](/events/2020-09-11/)
 * 2020/08/05 [Information system seminar: How to create and publish videos in business (only in Japanese)](/events/2020-09-02/)
 * 2020/05/20 [Training: Class Supporters](2020-05-20/)

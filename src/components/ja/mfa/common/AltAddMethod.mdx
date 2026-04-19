@@ -3,15 +3,29 @@
   * @property {string} selection
   */}
 
+import { Image } from "astro:assets";
+import If from "@components/utils/If.astro"
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import altAddMethod from "./alt_add_method.png";
+import altAddMethodWindow from "./alt_add_method_window.png";
+
 <li>
   [多要素認証の設定ページ](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com)にアクセスしてください．
 </li>
 <li>
-  「方法の追加」を押してください．
-  ![](./alt_add_method.png)
+  「サインイン方法の追加」を押してください．
+  <ArrowOverlay image={altAddMethod} x={750} y={325} angle={180} />
 </li>
 <li>
-  「どの方法を使用しますか?」欄で{props.selection}を選び，「追加」を押してください．  
+  「サインイン方法の追加」欄で{props.selection}を押してください．
   {props.methodSupplement}
-  ![](./alt_add_method_pull_down.png)
+  <If cond={props.selection === "「Microsoft Authenticator」"}>
+    <ArrowOverlay image={altAddMethodWindow} x={630} y={460} />
+  </If>
+  <If cond={props.selection === "「パスキー」"}>
+    <ArrowOverlay image={altAddMethodWindow} x={630} y={340} />
+  </If>
+  <If cond={props.selection === "登録したい種類の電話番号"}>
+    <Image src={altAddMethodWindow} alt="" />
+  </If>
 </li>

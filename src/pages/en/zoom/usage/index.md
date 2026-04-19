@@ -14,7 +14,7 @@ In this section we give concrete directions on how to use Zoom.
 The following screen is displayed when entering a meeting room(this screenshot shows a meeting room with only 1 participant).
 If you move the mouse cursor over the Zoom screen, the menu bar shown in the figure below will pop up.
   ![](main_numbering.png)  
-The menu buttons are explained from left to right (some version may not display all the buttons as here)．
+The menu buttons are explained from left to right (some version may not display all the buttons as here).
   1. **Microphone mark** : Press this to mute (mute) or unmute (the screen shows "mute off" because it is currently muted). Pressing the arrow mark next to it enables you to make settings related to the microphone.
   1. **Video mark** : Press to turn the video on or off (the screen shows "Start Video" because the camera is currently off). Pressing the up mark next to it will allow you to make video settings.
   1. **Invitation** : You can send an invitation by e-mail. Since the organizer and participants already know the URL of the conference room, they can invite others by sharing the meeting URL.
@@ -96,7 +96,8 @@ If you press the menu "Chat", text chat will be available. It is important to no
 Here is a brief description of the menus specific to the organizer. 
   ![](host_main_menu.png)
   1. **Polls(setting required)** : Allows participants to respond to polls. The questions themselves need to be created with a web browser, and you can create a question by pressing "Edit" or "Add question", when you are creating a question for the first time.
+     * For details, please refer to [Polls in Zoom](poll/).
   1. **Breakout(setting required)** : Participants can be divided into subgroups. You can decide the number of people and assign them automatically, or you can assign them manually.
   1. **Recording** : You can record the state of the meeting.
-     * For detalis, please refer to [Cloud Recording](recording/).
+     * For details, please refer to [Cloud Recording](recording/).
   

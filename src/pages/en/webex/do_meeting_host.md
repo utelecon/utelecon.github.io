@@ -3,7 +3,7 @@ title: Webex meeting room 101（for instructors）
 ---
 
 * In this section, we will explain the Webex Meetings functions that are unique to the Host of the meeting.
-* Click <a href="do_meeting" target="_blank">here</a> to see the basic features of Webex.
+* Click <a href="../do_meeting/" target="_blank">here</a> to see the basic features of Webex.
 
 ## Options unique to the host
 
@@ -35,7 +35,7 @@ title: Webex meeting room 101（for instructors）
 
 ### Recording
 
-* By recording the entire meeting and publishing it on ITC-LMS etc. (publication method TODO), it can be used as a learning material for students who had poor network conditions or for the students to revise afterwards.
+* By recording the entire meeting and publishing it on UTOL etc.<!-- (publication method TODO)>--, it can be used as a learning material for students who had poor network conditions or for the students to revise afterwards.
 * Recording can be done at any time by setting "Automatic Recording" when setting up the conference, or by clicking the recording icon during the conference.
 
 	![自動録画](img/webex_meeting_auto_record.png){:.small}
@@ -80,7 +80,7 @@ title: Webex meeting room 101（for instructors）
 
 <br>
 <br>
-<a href="index" target="_blank">Return to "How to use WebEx"</a>
+<a href="../" target="_blank">Return to "How to use WebEx"</a>
 
 
 

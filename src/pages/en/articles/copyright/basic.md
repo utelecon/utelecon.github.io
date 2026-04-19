@@ -85,7 +85,7 @@ For example, the University of Tokyo has internal guidelines regarding “Works 
 
 ![Principle: For types of works that are considered general, the creator of the work becomes the author. Exception 1 in university rules: For works created by faculty members in the course of their duties, such as exam questions, based on the university's directive, the university becomes the author. Exception 2 in university rules: For works related to duties created by faculty and staff through research conducted using university funds or facilities, the faculty and staff become the authors. (However, notification is required when providing the work to outsiders for a fee; copyright is transferred to the university, which then distributes a portion of the income to the author.) Exception 3 in university rules: Works that do not fall under the above two exceptions are authored by the faculty or staff who created the work.](img/copyright_basic_3.png)
 
-&lt;Figure 2: Ownership of copyrighted works at the University of Tokyo&gt;(Prepared by [Online Education Supporter](/en/about/oes) with reference to the "[The University of Tokyo Rules for the Treatment of Works](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)" (in Japanese) by the University of Tokyo's Industry-University Collaboration and Creation Promotion Division)
+&lt;Figure 2: Ownership of copyrighted works at the University of Tokyo&gt;(Prepared by [Online Education Supporter](/en/about/oes/) with reference to the "[The University of Tokyo Rules for the Treatment of Works](https://www.ducr.u-tokyo.ac.jp/rules_and_forms/copyright.html)" (in Japanese) by the University of Tokyo's Industry-University Collaboration and Creation Promotion Division)
 
 ### What Rights Does the Author Have?
 
@@ -164,7 +164,7 @@ Therefore, the Copyright Act stipulates that unauthorized use of a copyrighted w
 
 The copyright restrictions on the use of copyrighted works in educational institutions include quotation (Article 32) and reproduction in schools and other educational institutions (Article 35).
 
-This section outlines Article 32, which has to do with quotations. Article 35 is discussed in more detail in another article, "[When Can Materials Be Freely Used for Class?](educational-use-examples)."[^6]
+This section outlines Article 32, which has to do with quotations. Article 35 is discussed in more detail in another article, "[When Can Materials Be Freely Used for Class?](../educational-use-examples/)."[^6]
 
 [^6]:In addition, there are various other provisions restricting rights, such as those for private reproduction (Article 30), those for the reproduction of works in libraries (Article 31), and those that allow the use of works without permission when creating training data sets that include works in machine learning (Article 30-4). For details, please refer to the Agency for Cultural Affairs "[Copyright Textbook](https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/93293301_01.pdf)," pp. 64-94, etc.
 
@@ -204,5 +204,5 @@ In this article, "Agency for Cultural Affairs 'Copyright Textbook'" refers to "C
 
 ## Further Reading
 
-+ [Are Schools Exempt from Copyrights? Article 35 of the Revised Copyright Law](article35-and-educational-institutions)
-+ [The Background and Role of the Compensation System for Public Transmission for Educational Purposes / SARTRAS](sartras)
++ [Are Schools Exempt from Copyrights? Article 35 of the Revised Copyright Law](../article35-and-educational-institutions/)
++ [The Background and Role of the Compensation System for Public Transmission for Educational Purposes / SARTRAS](../sartras/)

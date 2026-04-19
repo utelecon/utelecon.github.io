@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 * ここでは，開催者特有のWebex Meetings・Webex Webinarsの機能を説明します．	
-* 基本的な使い方については<a href="do_webex" target="_blank">こちら</a>をご覧ください．
+* 基本的な使い方については<a href="../do_webex/" target="_blank">こちら</a>をご覧ください．
 
 ## ブレイクアウトセッション
 
@@ -223,7 +223,7 @@ redirect_from:
 ![](img/webex_stagemanager_before_background.png)
 1. デフォルトで表示されている7つの背景から選択，もしくはファイルをアップロードし，背景を変更します．
 1. アップロードする場合は「＋」を選択します． アップロードするファイルを選択する画面が表示されます．
-1. 利用したいファイルを選択します。 「開く」を選択し，ファイルをアップロードします．
+1. 利用したいファイルを選択します．「開く」を選択し，ファイルをアップロードします．
 ![](img/webex_stagemanager_before_background_select.png)
 1. アップロードが完了するとアップロードしたファイルが背景に設定されます．
 ![](img/webex_stagemanager_before_background_selected.png)

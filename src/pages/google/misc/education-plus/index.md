@@ -7,13 +7,14 @@ breadcrumb:
 ## 概要
 {:#overview}
 
-東京大学では，Google Workspace for Education Plusのライセンスを契約しています．これは，[Google Workspace for Education（ECCSクラウドメール）の容量制限](https://www-old.ecc.u-tokyo.ac.jp/announcement/2021/10/29_3366.html)に伴い，大学全体でのストレージ容量を増やすため，2023年11月1日から契約しているもので，当面の間は毎年契約を更新する予定です．
+東京大学では，Google Workspace for Education Plusのライセンスを契約しています．これは，Google Workspace for Education（ECCSクラウドメール）の容量制限に伴い，大学全体でのストレージ容量を増やすために契約しているものです．
 
 Google Workspace for Education Plusは，大学全体でのストレージ容量の増加，管理者向けの機能強化以外にも，個人にライセンスを付加することにより，ECCSクラウドメールの機能が以下のように強化されます．
 
 - Google Meetでの多人数会議，ライブストリーミング，録画機能が利用可能
 - Google Classroom，Google Assignmentでの独自性レポートの制限の緩和
 - AppSheetが利用可能
+- [Googleドキュメント、Googleスライド、Googleフォームでの Gemini の機能へのアクセス](/notice/2026/0302-gemini-gws/)．
 
 その他の機能の違いは，[Google Workspace for Educationのエディションの比較](https://edu.google.com/intl/ALL_jp/workspace-for-education/editions/compare-editions/)をご覧ください．
 
@@ -22,7 +23,7 @@ Google Workspace for Education Plusは，大学全体でのストレージ容量
 ## ライセンスの申請・付加
 {:#apply-and-grant}
 
-ECCSクラウドメールのアカウントに対するGoogle Workspace for Education Plusのライセンスの付加は，利用者からの申請に基づいて行なっています．
+ECCSクラウドメールのアカウントに対するGoogle Workspace for Education Plusのライセンスの付加は，利用者からの申請に基づいて行なっています(2026年11月2日からは申請なしに全ユーザにライセンスを付与する予定です)．
 
 - ライセンスの付加を希望するユーザは，下記の申請フォームを送信してください．
     - 申請フォームでは，氏名のほか，学生・教職員の別を正しく入力してください．

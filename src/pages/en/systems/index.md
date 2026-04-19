@@ -2,20 +2,20 @@
 title: ICT Systems at UTokyo
 ---
 
-This section introduces the university-wide systems related to education and research at the University of Tokyo. For first-time users, please refer to the pages "**[Getting Ready for ICT Systems at UTokyo (for New Students)](/en/oc/)**" and "**[Getting Ready for ICT Systems at the UTokyo (for Faculty Members)](/en/faculty_members)**" where the procedures for account creation and other steps are explained.
+This section introduces the university-wide systems related to education and research at the University of Tokyo. For first-time users, please refer to the pages "**[Getting Ready for ICT Systems at UTokyo (for New Students)](/en/oc/)**" and "**[Getting Ready for ICT Systems at the UTokyo (for Faculty Members)](/en/faculty_members/)**" where the procedures for account creation and other steps are explained.
 
 Please also refer to the following.
 
 - The list of systems available with a UTokyo Account is provided in [the UTokyo Account Service Directory](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/en/Home.aspx) 
 - Selected information regarding systems for faculty and staff (such as administrative systems) is also available on [the UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal).
-- Information regarding systems for ICT administrators is compiled on [the University ICT Administrators' Information Page](/ict-admin) (in Japanese).
-- The page "**[Effective Use of Online Resources: Search Online Resources by Tool](/en/online/tools)**" introduces a variety of tools that can be used for online classes and activities. The resources listed are not limited to those officially operated or contracted by the university.
+- Information regarding systems for ICT administrators is compiled on [the University ICT Administrators' Information Page](/ict-admin/) (in Japanese).
+- The page "**[Effective Use of Online Resources: Search Online Resources by Tool](/en/online/tools/)**" introduces a variety of tools that can be used for online classes and activities. The resources listed are not limited to those officially operated or contracted by the university.
 - For systems independently provided by faculties or graduate schools, please refer to the information provided by the respective source.
 
 ## Major Systems
 
 - **[UTokyo Account](/en/utokyo_account/)**: This is the account, also known as the "Common ID", used for accessing the University of Tokyo's information systems. The basic usage of each system involves logging in with this account.
-- **[UTAS](/en/utas)**: This is an academic affairs system used for publishing syllabi and handling class-related procedures such as course registration and grades.
+- **[UTAS](/en/utas/)**: This is an academic affairs system used for publishing syllabi and handling class-related procedures such as course registration and grades.
 - **[UTOL](/en/utol/)**: This is a learning management system used for distributing course materials, submitting assignments, and other class-related activities.
 - **[UTokyo Wi-Fi](/en/utokyo_wifi/)**: This is the Wi-Fi service available on campus. Please note that you cannot use it without creating an account in advance.
 
@@ -30,14 +30,14 @@ Please also refer to the following.
 - **[UTokyo MATLAB Campus-Wide License](/en/matlab/)**: This service allows you to use MATLAB, a software for scientific and technical computing, under the University of Tokyo's campus-wide license.
 - **[UTokyo Azure](/research_computing/utokyo_azure/)** (in Japanese)： This service is available across the university. It is funded by a donation (gift credit) from Microsoft, based on the basic agreement concluded between the university and Microsoft.
 - [only for educational use] **[UTokyo Microsoft Azure Dev Tools for Teaching](/en/microsoft/adt4t/)**: This service provides Microsoft developer software for educational use.
-- **[UTokyo Antivirus License](/antivirus/)** (in Japanese): This comprehensive antivirus software license is provided for faculty and students. The University of Tokyo requires "[appropriate virus protection](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html) (in Japanese)" for computers, as stated in the "Information Ethics and Computer Use Guidelines". Please use this software as part of your virus protection measures.
+- **[UTokyo Antivirus License](/en/antivirus/)**: This comprehensive antivirus software license is provided for faculty and students. The University of Tokyo requires "[appropriate virus protection](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html) (in Japanese)" for computers, as stated in the "Information Ethics and Computer Use Guidelines". Please use this software as part of your virus protection measures.
 
 ## University-wide Systems
 
 - **[ECCS Terminals](https://www-old.ecc.u-tokyo.ac.jp/en/)**: These are computers located on campus. Please note that you need to apply for usage rights in advance.
 - **[UTokyo VPN](/en/utokyo_vpn/)**: This system allows you to access administrative systems that are restricted to the university network from outside the campus.
-- **[High-speed computing and data utilization infrastructure for the university](/research_computing)** (in Japanese)： This is a high-speed computing and data utilization infrastructure provided by the University of Tokyo for the research and learning of faculty and students.
-- **[University of Tokyo Online Lecture Search System (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/en/)**：This system is used to verify URLs for online classes. For more details, please also refer to the pages "[How to Obtain the Online Class URL (for Students)](/en/oc/url)" and "[How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url)".
+- **[High-speed computing and data utilization infrastructure for the university](/research_computing/)** (in Japanese)： This is a high-speed computing and data utilization infrastructure provided by the University of Tokyo for the research and learning of faculty and students.
+- **[University of Tokyo Online Lecture Search System (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/en/)**：This system is used to verify URLs for online classes. For more details, please also refer to the pages "[How to Obtain the Online Class URL (for Students)](/en/oc/url/)" and "[How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url/)".
 - [For Faculty and Staff] **[UTokyo Portal](https://login.adm.u-tokyo.ac.jp/utokyoportal)**: This is the university portal site for faculty and staff.
 
 ### Library and Electronic Journal Resources

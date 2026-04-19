@@ -311,7 +311,7 @@ Slackの基本的な使い方は，「[Slackで学生とコミュニケーショ
 
 ## （＋α）グッドプラクティス・応用例の紹介
 
-* [白石忠志 先生　法Ⅰ](/good-practice/interview/shiraishi.html)
+* [白石忠志 先生　法Ⅰ](/good-practice/interview/shiraishi/)
   * Scrapbox（現：Cosense）を活用した授業が紹介されています．
   * 授業で実際に用いられたScrapboxのページは，[https://scrapbox.io/jcomp/](https://scrapbox.io/jcomp/)からアクセスできます．
 * [東京都立大学オンライン授業サポートページ（教員用） (scrapbox.io)](https://scrapbox.io/tmu-online-tips/)

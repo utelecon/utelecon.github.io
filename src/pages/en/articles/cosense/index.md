@@ -310,7 +310,7 @@ For the basic use of Slack, please refer to "[How to communicate with students i
 
 ## (+α) Good Practices and Applications
 
-* [Dr. Tadashi Shiraishi, Law I](/good-practice/interview/shiraishi.html)
+* [Dr. Tadashi Shiraishi, Law I](/good-practice/interview/shiraishi/)
   * A class using Scrapbox (now: Cosense) is introduced here.
   * The Scrapbox page actually used in the class can be accessed via [https://scrapbox.io/jcomp/](https://scrapbox.io/jcomp/).
 * [Tokyo Metropolitan University Online Class Support Page (for teachers) (scrapbox.io)](https://scrapbox.io/tmu-online-tips/)

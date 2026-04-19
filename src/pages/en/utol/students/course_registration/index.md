@@ -4,6 +4,10 @@ breadcrumb:
   title: Registering for courses
 ---
 
+<b class="box">
+  On March 25th, 2025, the display of course registration status in the timetable and course top screen was changed. If the course registration status in UTOL is “favorite registration”, “registered by instructor”, or “self-registration”, the message “Ensure [Course Registration] on UTAS” will now be displayed at the bottom of each course box in the timetable. If you have enrolled in a course via UTAS, the text at the bottom of each course box will not be displayed. The text that used to appear on UTOL about how to register is no longer displayed. For more details, please read the notice “<a href="/notice/2025/0401-utol-change/">Changes to the timetable and course top page of UTOL</a>” (only in Japanese).
+</b>
+
 In UTOL, courses offered per term or semester are called “courses”.
 
 Once you “register for a course”, it will appear on the timetable, and you can view the course materials.
@@ -37,8 +41,8 @@ The registration procedure for a course varies depending on the [course registra
 
 Registrations through UTAS or by the course instructors can be made by following the steps below.
 
-* “Enrolled registration”: You will be automatically registered you for the courses you are currently taking. If enrollment registration for a course on UTAS is made, the registration on UTOL will be completed the following morning.
-* “Favorite registration”: If you register for a favorite-listed course on UTAS, you will be enrolled in the course on UTOL the following morning. This registration will be deleted when the enrollment is confirmed.
+* “Enrolled registration”: You will be automatically registered you for the courses you are currently taking. If enrollment registration for a course on UTAS is made, the registration on UTOL will be completed within one hour.
+* “Favorite registration”: If you register for a favorite-listed course on UTAS, you will be enrolled in the course on UTOL within one hour. This registration will be deleted when the enrollment is confirmed.
 * “Registered by instructor”: For courses that students are not currently taking, they can request the instructor to register them for the courses manually.
 
 ### When students make temporary self-registrations
@@ -69,8 +73,8 @@ The procedure for unregistering a course varies depending on the [course registr
 
 If you have registered for a course through UTAS or with the help of a course instructor, you can unregister from it by following the steps below.
 
-* “Enrolled registration”: If you cancel your registration on UTAS during the enrollment registration/modification period, your course registration will be canceled the following morning. At any other period, the course registrations cannot be canceled.
-* “Favorite registration”: If you remove your “favorite registration” on UTAS, your course registration will be canceled the following morning. In addition, all “favorite registrations” will be canceled when the enrollment registration period ends.
+* “Enrolled registration”: If you cancel your registration on UTAS during the enrollment registration/modification period, your course registration will be canceled within one hour. At any other period, the course registrations cannot be canceled.
+* “Favorite registration”: If you remove your “favorite registration” on UTAS, your course registration will be canceled within one hour. In addition, all “favorite registrations” will be canceled when the enrollment registration period ends.
 * “Registered by instructor”: Request your course instructor to cancel your course registration.
 
 ### If students have temporarily self-registered for a course

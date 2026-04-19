@@ -4,7 +4,7 @@ title: How to Obtain the Online Class URL (for Students)
  
 A specific URL is essential to participate in a “simultaneous interactive” online class. This page explains how to obtain the class URL. 
  
-[Guidelines for Faculty Members](/en/faculty_members/url)
+[Guidelines for Faculty Members](/en/faculty_members/url/)
  
 ## The "Online Course Information" section in UTOL
  
@@ -26,5 +26,5 @@ For some classes, the URL information may be announced by other means. If you ca
 - "Notification" and "Bulletin Board" in UTOL.
 - Departments/Major specific methods of contact.
  
-Teachers are asked to update the "Online Class Information" section in UTOL. If they have no idea about it, encourage them to read "[How to Obtain the Online Class URL (for Faculty Members)](/en/faculty_members/url)".
+Teachers are asked to update the "Online Class Information" section in UTOL. If they have no idea about it, encourage them to read "[How to Obtain the Online Class URL (for Faculty Members)](/en/faculty_members/url/)".
 

@@ -11,8 +11,8 @@ Below are some options.
 * Admit all participants in the Waiting Room before entering the meeting room
 * Allow participants with UTokyo Zoom Account domains to bypass the Waiting Room. Such settings are shared among all meetings. Please double check if the settings are in place before starting a meeting.
 
-For details on how to set up a Zoom meeting, please refer to [Scheduling a Zoom Meeting (Web Portal)](..).
-For recommendations on meeting room settings for online classes, please see [Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control).
+For details on how to set up a Zoom meeting, please refer to [Scheduling a Zoom Meeting (Web Portal)](../).
+For recommendations on meeting room settings for online classes, please see [Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control/).
 
 ## Setup Procedure
 1. In your web browser, go to the [Zoom Settings page](https://u-tokyo-ac-jp.zoom.us/profile/setting).

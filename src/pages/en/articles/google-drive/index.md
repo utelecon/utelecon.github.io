@@ -16,7 +16,7 @@ Members of the University of Tokyo can use Google Drive with their UTokyo Google
 * You can become an administrator of the shared drive with a ECCS Cloud Email Account but not with a free personal account.
 
 If you do not have an ECCS Cloud Email Account, please refer to the following article.    
-[ECCS Cloud Email (Google Workspace)](/en/eccs_cloud_email)
+[ECCS Cloud Email (Google Workspace)](/en/eccs_cloud_email/)
 
 The following explanation assumes that you are logged in to Google Drive with an ECCS Cloud Email Account.
 
@@ -110,7 +110,7 @@ This section explains how to set the sharing options in My Drive.
 ## How to Share Files in a Shared Drive
 
 <strong class="box">
-  In August 2023, the method for creating shared drives in ECCS Cloud Email was changed. The description in this article refers to the method used before that time. For information on the new creation method, please see the <a href="https://www.ecc.u-tokyo.ac.jp/en/announcement/2023/12/27_3602.html">"ECCS Storage Management System."</a>
+  In August 2023, the method for creating shared drives in ECCS Cloud Email was changed. The description in this article refers to the method used before that time. For information on the new creation method, please see the <a href="/google/drive/storage/">"ECCS Storage Management System."</a>
 </strong>
 
 The following is an explanation of the process of sharing documents in actual classes. Please try it for group work. 

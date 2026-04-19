@@ -5,6 +5,12 @@ title: UTokyo Accountのパスワード設定に関するトラブルと対応
 <div style="text-align: right;">第1報 2023年3月21日16時</div>
 <div style="text-align: right;">更新 2023年3月21日18時</div>
 
+<b class="box">
+
+このページの内容はシステムの更新により，2025年現在は該当しません．UTokyo Accountでのサインインに問題が生じている場合は，[UTokyo Accountのページ](/utokyo_account/)もご参照ください．
+
+</b>
+
 現在，UTokyo Accountのパスワードを設定したあと，PCやスマートフォンのパスワード自動入力機能で入力されるパスワードでサインインできなくなってしまう，というトラブルが発生しています．
 
 このページで，問題の回避策および，パスワードが分からなくなってしまった場合の対処法をお知らせします．

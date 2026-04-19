@@ -24,7 +24,7 @@ If your UTokyo Account expires due to graduation or resignation, you will no lon
 
 Many systems available through UTokyo Microsoft License can be accessed via the following link.
 
-**[Microsoft 365](https://www.microsoft365.com/login)**{:.box.center}
+**[Microsoft 365](https://m365.cloud.microsoft/apps/?auth=2)**{:.box.center}
 
 <details>
 <summary>Systems not listed here</summary>
@@ -39,7 +39,7 @@ Microsoft provides systems other than those listed below, and it is possible to 
 
 Office applications that are installed on your device, such as Word, Excel, and PowerPoint. You can use only the latest version of each application. For instructions on how to get started, please refer to the following.
 
-**[Installing Office Applications with UTokyo Microsoft License](./install)**{:.box.center}
+**[Installing Office Applications with UTokyo Microsoft License](./install/)**{:.box.center}
 
 ### OneDrive
 {:#onedrive}
@@ -58,7 +58,7 @@ Possible use cases include the following:
 - When someone who is not a [Microsoft Office applications](#office_apps) user uses Office
 - When the Office app cannot be installed on the device due to permissions or other reasons
 
-For information on how to create and edit files on OneDrive using Microsoft Office Web Apps, please see **[Basic usage of OneDrive](./onedrive/basic)**.
+For information on how to create and edit files on OneDrive using Microsoft Office Web Apps, please see **[Basic usage of OneDrive](./onedrive/basic/)**.
 
 ### Teams
 {:#teams}
@@ -66,6 +66,8 @@ For information on how to create and edit files on OneDrive using Microsoft Offi
 **Available only to faculty and staff**
 
 Teams is an application that is used for chats, video meetings and so on. For the instruction of usage, please refer to **[UTokyo Microsoft Teams User Manual (written in only Japanese)](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/SiteAssets/d/Useful_Tools/%E3%80%8C%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%88_Microsoft_Teams%E5%88%A9%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%8820210311%EF%BC%89%E3%80%8D.pdf)** (accessible only to faculty and staff).
+
+For information on how to change your display name in Teams meetings, see the “[Change Your Display Name in Microsoft Teams Meetings](/en/articles/teams-display-name/)” page.
 
 #### "Team" Function
 {:#team_function}
@@ -97,11 +99,11 @@ Microsoft Forms is a system that allows you to create online forms. You can also
 
 To use the systems provided by UTokyo Microsoft License, you need to sign in with your UTokyo Account as a Microsoft account.
 
-If you are asked to sign in as shown in the image below, enter "10-digit common ID + `@utac.u-tokyo.ac.jp`" in the input field and follow the on-screen instructions.
+If you are asked to sign in as shown in the image below, enter your UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`) in the input field and follow the on-screen instructions.
 
 ![](./img/microsoft-signin-instruction-1.png){:.small.center.border}
 
-For detailed instructions and how to distinguish between other Microsoft accounts, please refer to **[Signing in with UTokyo Account](./signin)**.
+For detailed instructions and how to distinguish between other Microsoft accounts, please refer to **[Signing in with UTokyo Account](./signin/)**.
 
 ## Other licenses provided by Microsoft
 {:#related_licenses}
@@ -113,7 +115,7 @@ The following introduces licenses related to Microsoft systems available within 
 
 **Available only to students**
 
-This is a license to upgrade Windows to the Education edition. For instructions on how to use it, please refer to **[Windows Education for students](./windows_education_for_students)**.
+This is a license to upgrade Windows to the Education edition. For instructions on how to use it, please refer to **[Windows Education for students](./windows_education_for_students/)**.
 
 ### Microsoft License for shared PCs, etc.
 {:#shared_pc}
@@ -123,4 +125,4 @@ This is a license for Office and Windows that is operated to cover usage that ca
 ### UTokyo Microsoft Azure Dev Tools for Teaching
 {:#adt4t}
 
-it is a Microsoft developer software license for educational institutions. For instructions on how to use it, please check the **[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t)** page.
+it is a Microsoft developer software license for educational institutions. For instructions on how to use it, please check the **[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t/)** page.

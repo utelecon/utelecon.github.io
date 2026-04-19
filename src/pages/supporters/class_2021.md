@@ -234,13 +234,13 @@ title: クラスサポーター制度のご案内
 <p style="padding-left:2em">
  【1.サインインする】 
   <br><a href="https://www.office.com/" target="_blank">https://www.office.com/</a>　へサインイン 
-  <br>アカウント：UTokyo Account 10桁@utac.u-tokyo.ac.jp 
+  <br>アカウント：UTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）
   <br>パスワード：ご自身で設定されたもの 
   <br>※既にサインインしている場合は1度サインアウトして再度サインインをお願いいたします. 
   <br><a href="https://www.youtube.com/watch?v=SiOS0M9FChk&feature=youtu.beyoutube" target="_blank">YouTube動画</a>で サインインとサインアウトの方法が確認できます. 
   <br> 
   <br>【2.リンク先をクリック】 
-  <br>UTokyo Account 10桁 @utac.u-tokyo.ac.jpでサインインした後 
+  <br>UTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）でサインインした後 
   <br>フォームのリンク先をクリックします. 
   <br>万が一これでも報告ができない場合は 
   <br>以下リンク先の画面右下に表されるチャットサポートでご相談いただけます. 
@@ -324,7 +324,7 @@ class-support.adm[at]gs.mail.u-tokyo.ac.jp
 所属 : 所属部局・学部・研究科等を記入してください．
 構成員分類 : 教職員か学生かを記入してください．
 身分・学年 : 
-共通ID（10桁の数字） : 
+共通ID（UTokyo Accountの先頭10桁の数字のみの部分） : 
 問い合わせ内容 : 
 以下のa，bを可能な限り埋めてください．
 

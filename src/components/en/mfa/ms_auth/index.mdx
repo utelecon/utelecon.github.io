@@ -1,5 +1,6 @@
 import { Image } from "astro:assets";
 import If from "@components/utils/If.astro";
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
 import FirstAccess from "../FirstAccess.mdx";
 import FirstEmail from "../FirstEmail.mdx";
 import AltAddMethod from "../AltAddMethod.mdx";
@@ -8,6 +9,7 @@ import firstLink from "./first_link.png";
 import firstQr from "./first_qr.png";
 import altLink from "./alt_link.png";
 import altQr from "./alt_qr.png";
+import firstNext from "./first_next.png";
 import firstNextNext from "./first_next_next.png";
 import altNextNext from "./alt_next_next.png";
 import firstTry from "./first_try.png";
@@ -29,7 +31,7 @@ import altApproved from "./alt_approved.png";
 
   <If cond={props.step === "alt"}>
     <Fragment>
-      <AltAddMethod selection={`"Authenticator app"`} />
+      <AltAddMethod selection={`"Microsoft Authenticator"`} />
       <li>
         Click "Next" on the "Start by getting the app" screen.
         ![](./alt_next.png)
@@ -39,7 +41,7 @@ import altApproved from "./alt_approved.png";
       <FirstAccess />
       <li>
         You are required to set up a verification method. By default, Microsoft Authenticator app is selected, so just click "Next".
-        ![](./first_next.png)
+        <ArrowOverlay image={firstNext} x={820} y={620} angle={180} />
       </li>
     </Fragment>
   </If>
@@ -50,7 +52,7 @@ import altApproved from "./alt_approved.png";
     - **Smartphone (the same device where you installed the Microsoft Authenticator app)**: Click "Pair your account to the app by clicking this link". Check that your UTokyo Account appears in the Microsoft Authenticator app. Go back to the browser and click "Next".
       <Image src={{ firstLink, altLink }[`${props.step}Link`]} alt="" />
     - **Other Devices (PC etc.)**
-      1. Click "Next" on "Set up your account" screen, and then QR code is shown.
+      1. Click "Next" on <If cond={props.step == "first"}><Fragment>"Now pair Authenticator with your account"</Fragment><Fragment slot="else">"Set up your account"</Fragment></If> screen, and then QR code is shown.
           <Image src={{ firstNextNext, altNextNext }[`${props.step}NextNext`]} alt="" />
           <Image src={{ firstQr, altQr }[`${props.step}Qr`]} alt="" />
       1. Open the Microsoft Authenticator app on your smartphone. If you open the app for the first time after installation, you will be asked to accept privacy policy and to select whether to share your app usage data, so follow the instructions.
@@ -69,7 +71,7 @@ import altApproved from "./alt_approved.png";
   </li>
 
   <li>
-    When "Notification approved" is appeared, click "Next".
+    When <If cond={props.step == "first"}><Fragment>"Authenticator Added"</Fragment><Fragment slot="else">"Notification approved"</Fragment></If> is appeared, click "Next".
     <Image src={{ firstApproved, altApproved }[`${props.step}Approved`]} alt="" />
   </li>
 
