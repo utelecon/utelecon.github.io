@@ -139,7 +139,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 #### Q. “This meeting has reached its maximum number of participants.” is displayed.
 * The number of participants has exceeded the maximum capacity for Zoom meeting.
 
-* Please check UTOL or UTAS for any urgent updates from the lecturer. If none is found, please report your case viar [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
+* Please check UTOL or UTAS for any urgent updates from the lecturer. If none is found, please report your case via [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 
 #### Q. “Enter Meeting Passcode” is displayed.
 * I"Passcode" is required in addition to the URL to join a Zoom meeting.

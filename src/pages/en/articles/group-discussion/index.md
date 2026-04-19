@@ -8,7 +8,7 @@ author:
 
 When conducting online classes using a web conferencing system, or group discussions in an online conference, it is convenient to use features that allow you to assign participants to several rooms.  
 
-For example, Zoom's "Breakout Rooms" and Google Meet and Webex's "Breakout Sessions" allow participants to move from the main room to individual rooms for group discussions. (In the following, these features are collectively referred to as “breakouts.”))  
+For example, Zoom's "Breakout Rooms" and Google Meet and Webex's "Breakout Sessions" allow participants to move from the main room to individual rooms for group discussions. (In the following, these features are collectively referred to as “breakouts.”)  
 
 ☞For detailed instructions on how to use the Breakout feature, please refer to the following page.  
 
