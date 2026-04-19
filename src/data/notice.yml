@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-04-19
+  content:
+    ja: "「[端末の紛失・盗難対策ガイド（学生・教職員向け）](/docs/guide-for-lost-stolen-devices/)」を公開しました。本学の構成員は内容を確認し、紛失・盗難に備えて必要な対策をあらかじめ行ってください。"
+    en: "\"[Device Loss and Theft Prevention Guide (For students, faculty and staff)](/en/docs/guide-for-lost-stolen-devices/)\" is now available. Members of the University are encouraged to review the guide and take the necessary measures in advance to prepare for device loss or theft."
+-
   date: 2026-04-13
   content:
     ja: "[uteleconメールマガジンの配信を開始します](/notice/2026/0413-newsletter/)"
