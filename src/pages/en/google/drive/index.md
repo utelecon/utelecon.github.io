@@ -33,7 +33,7 @@ This page also explains the basic content of Google Drive in a video format.
 
 Please access Google Drive through the following link.
 
-**[Google Drive](https://drive.google.com/drive/)**{:.box.center}
+**[Google Drive](https://drive.google.com/a/g.ecc.u-tokyo.ac.jp/drive/)**{:.box.center}
 
 When accessing Google Drive, if you are not logged in, you will be prompted to do so. Please refer to the "[Initial Setup Procedures](/en/google/#initial-setup-procedures)" section on the ECCS Cloud Email page for login instructions.
 
