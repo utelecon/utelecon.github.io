@@ -54,7 +54,7 @@ We are interested in the status of all users using Korea Telecom, affected or no
 
 If you are affected or using Korea Telecom, [please report your status here](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 
-* To the question **"What is your inquiry?"**, check <font color="blue">"*Troubles with other external online tools or Utokyo systems*"</font>
+* To the question **"What is your inquiry?"**, check <font color="blue">"*Troubles with other external online tools or UTokyo systems*"</font>
 * To the question **"What did you try to accomplish?"**, say <font color="blue">"*Tried to access UTAS*"</font>
 * To the question **"Describe the problem"**, include
   1. <font color="blue">The result of https://bgp.tools/ (texts below "You are connecting from")</font>

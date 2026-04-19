@@ -129,7 +129,7 @@ This setting controls the types of audio participants can use during the meeting
 * Alternative Host
   * An "Alternative Host" is a user who can start the meeting on behalf of the host. You can designate an alternative host using this field.
   * However, only users with a UTokyo Account can be designated. To assign someone, enter their UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`).
-  * For more details, please refer to the section on "Alternative Host" in "[Host and Co-host Controls in a Zoom Meeting(in Japanese)](/zoom/misc/management_roles/#alt_host)".
+  * For more details, please refer to the section on "Alternative Host" in "[Host and Co-host Controls in a Zoom Meeting](/zoom/misc/management_roles/#alt_host)" (in Japanese).
 
 ## How to Set Up Commonly Used Features
 {:#popular_functions}

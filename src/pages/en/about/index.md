@@ -29,7 +29,7 @@ The utelecon portal consists of the following content. All pages can be accessed
 
 ### Systems in the University of Tokyo  
 
-* This section includes information on the services and tools used for Internet-based activities at the University of Tokyo, such as a Utokyo Account and Zoom.  
+* This section includes information on the services and tools used for Internet-based activities at the University of Tokyo, such as a UTokyo Account and Zoom.  
 
 ### Online Utilization (Internet)  
 
