@@ -94,7 +94,7 @@ Examples of MATLAB use in the classroom are available on the [MathWorks website]
 
 ### File sharing with MATLAB Drive
 
-When faculty members distribute MATLAB sample files to students, they can use [MATLAB Drive](https://www.mathworks.com/products/matlab-drive.html) or [File Exchange](https://www.mathworks.com/matlabcentral/fileexchange) to make it easier  to receive files and execute programs.
+When faculty members distribute MATLAB sample files to students, they can use [MATLAB Drive](https://www.mathworks.com/products/matlab-drive.html) or [File Exchange](https://www.mathworks.com/matlabcentral/fileexchange) to make it easier to receive files and execute programs.
 
 Detailed instructions are in preparation.
 

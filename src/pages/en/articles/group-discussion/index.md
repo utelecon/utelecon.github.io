@@ -54,7 +54,7 @@ You should determine the appropriate number of students by consulting feedback f
 
 ### Tips That Can be Implemented Before the Breakout Begins: Give All Necessary Instructions
 
-The organizer should do their best to provide clear instructions and detailed explanations  before starting the breakout. This will make it easier for participants to start the discussion smoothly.  
+The organizer should do their best to provide clear instructions and detailed explanations before starting the breakout. This will make it easier for participants to start the discussion smoothly.  
 
 The following are examples of information that should be explained in advance.  
 
@@ -74,7 +74,7 @@ Participants are encouraged to make the most efficient use of their time, by bei
 
 #### Let Participants Know the Type of Output You Are Looking for
 
-If participants are expected to share the results of their discussion afterwards (e.g., after the discussion ends, the participants must give a presentation to the whole group or complete a  specific task), letting them know the type of output in advance will make it easier for them to participate in the discussion with a clear sense of purpose.  
+If participants are expected to share the results of their discussion afterwards (e.g., after the discussion ends, the participants must give a presentation to the whole group or complete a specific task), letting them know the type of output in advance will make it easier for them to participate in the discussion with a clear sense of purpose.  
 
 If the meeting is conducted without sufficient explanation, participants may be upset later, saying, "I just talked aimlessly because I did not expect to share it with the whole group," or “I did not take any notes.”  
 

@@ -29,7 +29,7 @@ Webex Event has the following roles.
 	1. **Recording the meeting**： Only the organizer can start and stop recording. You can record the meeting. You can leave it either on the cloud (Webex server) or on your computer, but depending on your settings, recording on your computer may be disabled.
 	1. **Participants**： Press the participant button to display the list of participants.
 	1. **Chat**： Pressing the chat button will bring up a chat window where you can send a message to everyone or a specific person. Participants can only chat with the host, presenters and panelists.
-	1. **Other settings**： There are other settings here. You can make settings such as stopping anyone else from joining the event, playing a sound when a  participant enters the room, or have participants enter on mute. The voting function cannot be performed in a browser, and requires a desktop application.
+	1. **Other settings**： There are other settings here. You can make settings such as stopping anyone else from joining the event, playing a sound when a participant enters the room, or have participants enter on mute. The voting function cannot be performed in a browser, and requires a desktop application.
 	1. **Leave**： Leave the meeting.
 
 以下，主に利用するメニュー項目について，追加で詳細を説明します．

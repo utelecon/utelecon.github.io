@@ -26,7 +26,7 @@ Zoom is one of the most popular web conferencing systems and is used in many onl
 
 ### Webex
 
-Webex is a web conferencing system provided by Cisco. With an UTokyo license, you may hold Webex meetings for up to 1000 participants, which is a larger capacity than Zoom. You can also hold meetings with high security by enabling E2E (End-to-end) encryption.
+Webex is a web conferencing system provided by Cisco. With a UTokyo license, you may hold Webex meetings for up to 1000 participants, which is a larger capacity than Zoom. You can also hold meetings with high security by enabling E2E (End-to-end) encryption.
 
 - **[utelecon’s Webex Page](/en/webex/)**
 
@@ -109,12 +109,12 @@ Google Docs is a document editor included in Google Workspace. Multiple users ca
 - **[Online Class Information Exchange Meeting #11: Useful Tools for Online Class (1) ](/events/luncheon/2020-06-24/)**(in Japanese): This article explains how to use a script (simple program) to automate the process of creating multiple copies of template files that are necessary for group work.
 
 #### Google Slides
-Google Slides is a slideshow maker  that is included in Google Workspace. Multiple users can easily edit documents simultaneously or share documents using URLs because they are stored in a cloud (Google Drive).
+Google Slides is a slideshow maker that is included in Google Workspace. Multiple users can easily edit documents simultaneously or share documents using URLs because they are stored in a cloud (Google Drive).
 
 - **[Good Practices of Online Classes - Prof. Kurita: Creating a “Learning Environment” ](/good-practice/interview/kurita/)** (in Japanese): A practical example of using Google Slides in an online class group work.
 - **[Online Class Information Exchange Meeting #11: Useful Tools for Online Class (1) ](/events/luncheon/2020-06-24/)**(in Japanese): This article explains how to use a script (simple program) to automate the process of creating multiple copies of template files for group work.
 
-Google Workspace also provides other document generation tools such as the spreadsheet editor  Google Sheets, that can be used similarly.
+Google Workspace also provides other document generation tools such as the spreadsheet editor Google Sheets, that can be used similarly.
 
 
 #### Google Drive
@@ -205,7 +205,7 @@ Gather is a conference tool with a playful retro-game style UI. Users enjoy inte
 - **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/#gather)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Gather.
 
 ### Remo
-Remo is a web conference tool that allows you to join different meetings by moving your icon  between pseudo “tables” on your screen. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
+Remo is a web conference tool that allows you to join different meetings by moving your icon between pseudo “tables” on your screen. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.
 - **[Remo (external site)](https://remo.co/)**: The official Remo site.
 - **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/#remo)**: This article introduces and compares several tools for multiple-user voice calls/interactions, including Remo.
 

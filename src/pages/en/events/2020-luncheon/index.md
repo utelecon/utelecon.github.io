@@ -13,8 +13,8 @@ Please be aware that the session will be recorded and then the video will be sho
   * In case of trouble accessing, click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp) and sign in using your ECCS account.
   * In case you have not yet used your Cloud Mail account, click [here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/) and undergo the initial setup for your account.
 * [Excel Online](https://tinyurl.com/y8wdd9ku) 
-  * You need to sign in to Office.com using  your UTokyo Account with `10-digitsID@utac.u-tokyo.ac.jp`.
-  * In case you have not yet used your Cloud Mail account, click [here](https://www.office.com/), and sign in using  your UTokyo Account with `10-digitsID@utac.u-tokyo.ac.jp` (if you are already signed in to other account, please sign out first).
+  * You need to sign in to Office.com using your UTokyo Account with `10-digitsID@utac.u-tokyo.ac.jp`.
+  * In case you have not yet used your Cloud Mail account, click [here](https://www.office.com/), and sign in using your UTokyo Account with `10-digitsID@utac.u-tokyo.ac.jp` (if you are already signed in to other account, please sign out first).
 
 
 ◆ 3rd Meeting
@@ -24,7 +24,7 @@ Please be aware that the session will be recorded and then the video will be sho
 <!--【Slides】[pdf file](luncheon_2_slides.pdf)  
 【Video】[mp4 file](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-04-27)ECCS cloud mail required）（Click [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp) to sign in with ECCS cloud mail (https://mail.google.com/a/g.ecc.u-tokyo.ac.jp)．Click <a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">here</a>）for those who have not yet completed the initial settings (ECCS cloud mail setting method).   -->
 【Target】Faculty members in charge of classes at our university, and those who support classes 
-【Summary】We will introduce ways to record class material videos (e.g., PowerPoint, Google Meets, Zoom. We will focus on the video production on Open Broadcast Software).
+【Summary】We will introduce ways to record class material videos (e.g., PowerPoint, Google Meet, Zoom. We will focus on the video production on Open Broadcast Software).
 
 ◆ 2nd Meeting
 

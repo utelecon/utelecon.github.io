@@ -13,7 +13,7 @@ Members of the University of Tokyo can use Google Drive with their UTokyo Google
 
 * In contrast to the 15 GB storage capacity limit for each personal free account, you can use up to 100 GB of capacity with your ECCS Cloud Email account, at no extra cost to you.
 * You can restrict file sharing in ’My Drive' and shared drives to ECCS Cloud Email Account holders through settings.
-* You can become an administrator of the shared drive with a ECCS Cloud Email Account but not with a free personal account.
+* You can become an administrator of the shared drive with an ECCS Cloud Email Account but not with a free personal account.
 
 If you do not have an ECCS Cloud Email Account, please refer to the following article.    
 [ECCS Cloud Email (Google Workspace)](/en/google/)

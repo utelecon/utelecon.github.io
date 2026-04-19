@@ -161,7 +161,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * Please refer to [here](/en/faculty_members/zoom_access_control/) for details. Several methods are introduced.
 
 #### Q. How can I take attendance using Zoom?
-* You can get a list of  meeting participants through the following procedure.
+* You can get a list of meeting participants through the following procedure.
   1. Click "Report" [https://zoom.us/account/report](https://zoom.us/account/report) on the left menu of Zoom My Page, and then "Use".
   1. Click the number in the "Attendee" column of the meeting you want to confirm the attendance of.
   1. Names, join time, leave time, scheduling time, and Zoom account email address of attendees would be displayed.
@@ -179,13 +179,13 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 #### Q. Can I use my UTokyo Zoom account to host meetings and events outside the university?
 * Please refer to the bottom of [this page](/notice/webmeetingaccount20201120/) for related information before making a decision.
-    * As a member of UTokyo, you are welcome to use these services (Zoom, Webex, Google Meets) for research, education, study, and academic purposes. If you wish to host a meeting that exceeds the participant capacity allowed by the university license, please purchase an individual license on your own.
+    * As a member of UTokyo, you are welcome to use these services (Zoom, Webex, Google Meet) for research, education, study, and academic purposes. If you wish to host a meeting that exceeds the participant capacity allowed by the university license, please purchase an individual license on your own.
 
 #### Q. How can I edit a single occurrence of a recurring meeting?
 * You can set up irregular meeting dates/times in a recurring meeting.  (For example, you may change the day of a meeting regularly scheduled on Tuesdays to a Thursday for a specific week.) In the Zoom web portal, open the recurring meeting you want to edit. In the “Time” section, click “Show all occurrences”, and then “Edit” on the occurrence you want to change.
 
 #### Q. Can I host multiple meetings at the same time?
-* You can host up to a maximum of 2 meetings at the same time with an UTokyo Zoom Account. Both meetings need to be started by the original meeting host or by an alternative host.
+* You can host up to a maximum of 2 meetings at the same time with a UTokyo Zoom Account. Both meetings need to be started by the original meeting host or by an alternative host.
 * For more information, please refer to [“Can I Host Concurrent Meetings?"](https://support.zoom.us/hc/en-us/articles/206122046-Can-I-Host-Concurrent-Meetings-) or [ECCS Tutor’s page](https://www.sodan.ecc.u-tokyo.ac.jp/hack/can-i-host-concurrent-meetings/).
 
 #### Q. How can I assign an alternative host?
