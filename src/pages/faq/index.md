@@ -190,7 +190,7 @@ https://www.sodan.ecc.u-tokyo.ac.jp/meeting/2021%e5%b9%b44%e6%9c%8814%e6%97%a5/
   1. Zoom マイページの左のメニューにある「レポート」[https://zoom.us/account/report](https://zoom.us/account/report) を押して，更に「用途」を押します
   1. これまでに実施したミーティングの一覧が出てくるため，出席確認したいミーティングの「参加者」の列にある数字を押します．
   1. そうすると，名前，参加時刻，退出時刻，所要時間，またアカウントでサインインしていればメールアドレスを確認することができます．
-<!-- * 以上の方法のほかに[itc-lmsで出席確認をする方法](/lms_lecturers/prepare_attendances/)もあります． -->
+<!-- * 以上の方法のほかに[UTOLで出席確認をする方法](/utol/lecturers/attendances/)もあります． -->
 
 
 #### Q. オムニバス講義の担当教員や TA に作った部屋の開催者（ホスト）権限を付与したい
