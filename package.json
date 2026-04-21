@@ -14,7 +14,7 @@
     "broken-link": "node scripts/broken-link.js"
   },
   "dependencies": {
-    "@astrojs/mdx": "4.3.14",
+    "@astrojs/mdx": "5.0.3",
     "@astrojs/partytown": "^2.1.5",
     "@astrojs/react": "4.4.2",
     "@astrojs/rss": "^4.0.18",
@@ -25,7 +25,7 @@
     "@fortawesome/react-fontawesome": "^3.3.0",
     "@material-design-icons/svg": "^0.14.15",
     "@rollup/plugin-yaml": "4.1.2",
-    "astro": "5.18.1",
+    "astro": "6.1.8",
     "astro-seo": "0.8.4",
     "estree-util-visit": "2.0.0",
     "github-slugger": "^2.0.0",
