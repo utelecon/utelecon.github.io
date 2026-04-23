@@ -56,6 +56,17 @@ The following information can be viewed in the “Course participant list”.
 2. Select “Register course participants” in the “Course settings”
     ![](menu.png){:.medium}
 
+### How to download the list as an Excel file
+{:#how-to-download}
+
+1. Click the icon "![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}" in the upper left while keeping opened the course you would like to operate.
+2. Select "Register Course participants" in the "Course settings".
+    ![](menu.png){:.medium}
+3. Click the "Download" button in the "Download Course participants list" field.
+    ![](download.png){:.medium}
+4. You will be prompted to set a password for the Excel file. Enter a password of your choice, then click the "Download" button again. The Excel file (`.xlsx` format) will be downloaded.
+    ![](set-password.png){:.medium}
+
 ## Registering Course Participants
 {:#register}
 
