@@ -17,14 +17,20 @@ breadcrumb:
 
 ただし，学生が卒業・修了する場合のみ，UTokyo Accountは学位授与日を含む月の月末まで有効です．
 
-また，一部の情報システムには，離籍に伴って利用権限がなくなるにもかかわらず，自動的に利用が停止されないものがあります．それぞれの指示にしたがって利用を終了してください．
+また，一部の情報システムには，離籍に伴って利用権限がなくなるにもかかわらず，自動的に利用が停止されないものがあります．それぞれの指示にしたがって利用を終了してください．特に以下の項目に該当する方は注意してください．
 
-特に，[UTokyo Antivirus License](/antivirus/)で提供されている製品をお使いの方は，離籍する前に手動でアンインストールする必要があります．
+### UTokyo Antivirus Licenseで提供されている製品をお使いの方
+
+[UTokyo Antivirus License](/antivirus/)で提供されている製品をお使いの方は，離籍する前に手動でアンインストールする必要があります．
 
 - Windows版，iOS版，Android版のApexOneの場合は，通常のアプリの削除手順でアンインストールすることができます．
 - Mac版のApexOneをアンインストールするには，アンインストールツールが必要になります．UTokyo Accountが失効するとアンインストールツールの取得ができなくなりますので，失効された場合には[サポート窓口のメールフォーム](/support/#メールフォーム)にお問い合わせください．
 
 UTokyo Antivirus Licenseの対応の詳細については，「[UTokyo Antivirus License 2025年度に卒業・離職される方への注意事項<small>（※閲覧にはUTokyo Accountでサインインする必要があります）</small>](https://univtokyo.sharepoint.com/:u:/s/antivirus/EWHWpO6rbANMnCDH3xtWQjcBtgwnBZ4G9KgIei0VlVSxtA)」を参照してください．※[こちらの部局及び提供製品](https://univtokyo.sharepoint.com/sites/antivirus/SitePages/Home.aspx#5.-%E6%8F%90%E4%BE%9B%E7%AA%93%E5%8F%A3)に該当する場合は、部局の受付窓口にご確認ください。
+
+### 個人のWindows PCのセットアップ時にUTokyo Accountを使用してサインインした方
+
+個人のWindows PCのセットアップ時にUTokyo Accountを使用してサインインした場合，そのPCがUTokyo Accountに関連付けられた状態（「Microsoft Entra 参加済み」の状態）になっていることがあります．この状態のままだと，UTokyo Accountの失効後にPCにサインインできなくなります．心当たりがある方は，「[Windows PCからUTokyo Accountの関連付けを解除する](./entrajoined/)」の手順に従って，在籍中に関連付けの解除を行ってください．
 
 ## 東京大学内で所属の変更がある場合
 {:#change}
