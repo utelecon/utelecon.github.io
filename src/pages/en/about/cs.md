@@ -4,7 +4,7 @@ title: About Common Supporters
 
 <div class="box">
 
-  Recruitment for Common Supporters will end in August 2025. Starting in 2026, recruitment will begin for a new role: “utelecon Support Staff.” For details on uutelecon Support Staff recruitment, please check the latest notice within the [Notice List](/notice/) on the utelecon website.
+  Recruitment for Common Supporters will end in August 2025. Starting in 2026, recruitment will begin for a new role: “utelecon Support Staff.” For details on utelecon Support Staff recruitment, please check the latest notice within the [Notice List](/en/notice/) on the utelecon website.
 </div>
 
 <p style="text-align: right">
@@ -41,5 +41,5 @@ Common Supporter is mainly operated by UTokyo faculty members of [Information Sy
 * Chujo, R., Kaneko, R., Komatsu, H., Takeuchi, A., & Yamada, N (2020, July 31). _Operation of Online Class Support Chat by Students_. The 13th [Cyber Symposium on the Status of Efforts for Distance Learning at Universities from April](https://www.nii.ac.jp/event/other/decs/).
 ([document](https://www.nii.ac.jp/event/upload/20200731-08_Chujo.pdf), [video](https://www.youtube.com/watch?v=_giwSi2K1c4&feature=youtu.be))
 * _[Do you know about the chat support for online classes? \[Interview with a student member\]](https://todai-umeet.com/article/55605)_. (2020, July 23). UmeeT.
-* Chujo, R., Kaneko, R., Komatsu, H., Takeuchi, A., & Yamada, N (2020, June 29). _Introduction to Common Supporter's Activities_. 12th [Online Class Information Exchange](/events/2020-luncheon/). ([document](/events/2020-luncheon/luncheon_12_slides.pdf), [video](https://drive.google.com/file/d/1vuFdU29dg0usyn3LwZJznckPIBHrhXic/view))
+* Chujo, R., Kaneko, R., Komatsu, H., Takeuchi, A., & Yamada, N (2020, June 29). _Introduction to Common Supporter's Activities_. 12th [Online Class Information Exchange](/en/events/2020-luncheon/). ([document](/events/2020-luncheon/luncheon_12_slides.pdf), [video](https://drive.google.com/file/d/1vuFdU29dg0usyn3LwZJznckPIBHrhXic/view))
 

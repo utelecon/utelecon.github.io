@@ -48,7 +48,7 @@ title: 本学教職員からご共有いただいた資料
 
 * **ペンタッチ機能をもったWindowsタブレット一台（Surfaceなど）で資料に手書きをしながら配信する方法** [\[動画(YouTube)\]](https://www.youtube.com/watch?v=gj-xBZEgt-A) (情報理工学系 川原研博士課程・笹谷さん)：授業pdfを開き画面共有しながらそこに書き込んだり，OneNoteなどを共有して直接書き込む方法の紹介です．
 
-* **Google meetを使ったグループワーク型授業の例** [\[PDF\]](google_meet_groupwork.pdf)  (工学系・柳澤先生): オンラインにおいてグループワークをする方法が説明されています（Zoomのブレークアウトでは教員の声などを伝えられませんが，その点を克服している画期的な方法です）
+* **Google meetを使ったグループワーク型授業の例** [\[PDF\]](google_meet_groupwork.pdf)  (工学系・柳澤先生): オンラインにおいてグループワークをする方法が説明されています（Zoomのブレイクアウトでは教員の声などを伝えられませんが，その点を克服している画期的な方法です）
 
 * **VRセンターが教えるclusterで簡単にVR会議を開く方法**[\[Website\]](https://vr.u-tokyo.ac.jp/instructionvrsns/) (バーチャルリアリティー教育研究センター 相澤先生) まじめな会議や授業用ではありませんがZoomとは違うfunも提供できるものです．clusterは無料でつかえるツールです．[学生有志主催による本年3月のVR卒業式](https://www.youtube.com/watch?v=6Yij2rj59do)でも使われました. 
 

@@ -4,11 +4,11 @@ title: 2020/03/26 Briefing - How to notify students of online classes
 
 **Date:** 3/26(Thu) 15:30-17:00 
 
-**Place:**  Lecture Room 285, Science Department Bldg. 1, East Blg. (Available Online)
+**Place:**  Lecture Room 285, Science Department Bldg. 1, East Bldg. (Available Online)
 
 **Contents:**
  * Greetings (3 minutes) Tatsuya Okubo、Head of the Graduate School of Engineering
- * Explanation (37 minutes) Kenjiro Taura Director, Hed of the Information Technology Center
+ * Explanation (37 minutes) Kenjiro Taura Director, Head of the Information Technology Center
  * Break (5 minutes)
  * Q & A (45 minutes) 
 
@@ -17,7 +17,7 @@ title: 2020/03/26 Briefing - How to notify students of online classes
  * Technical staff who will or will provide (mainly technical) support for conducting online classes in graduate schools, faculties, and departments.
  * Faculty members who will or will be conducting online instruction for online classes in graduate schools, faculties, and departments (assuming faculty members in charge).
 
-**Purpose and Schedule:** In order to prevent the spread of the new coronavirus COVID-19 infection, the University of Tokyo will reduce face-to-face classes as much as possible next semester, and conduct full-scale online classes. The urgent task is how to assure that when you hold a class online, students will be able to connect to it.  It is necessary for the school to provide a protocoled way for students to join online classes without problems. Otherwise, new students who have never attended school (1st year undergraduates, undergraduate students, graduate students entering from other universities, etc.) might not be able to join classes. In this briefing session, we propose a standard method for managing online classes, describing what roles need to be shared to achieve it (i.e., teaching affairs, teachers who teach classes, technical staff).
+**Purpose and Schedule:** In order to prevent the spread of the new coronavirus COVID-19 infection, the University of Tokyo will reduce face-to-face classes as much as possible next semester, and conduct full-scale online classes. The urgent task is how to assure that when you hold a class online, students will be able to connect to it. It is necessary for the school to provide a protocolled way for students to join online classes without problems. Otherwise, new students who have never attended school (1st year undergraduates, undergraduate students, graduate students entering from other universities, etc.) might not be able to join classes. In this briefing session, we propose a standard method for managing online classes, describing what roles need to be shared to achieve it (i.e., teaching affairs, teachers who teach classes, technical staff).
 
 * Briefing session slides [pdf](notification.pdf), [pptx](notification.pptx)
 * [Participation application](https://tinyurl.com/vzfpuv8)

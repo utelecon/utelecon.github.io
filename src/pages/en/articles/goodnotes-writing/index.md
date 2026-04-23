@@ -21,7 +21,7 @@ GoodNotes 5 is a note-taking/drawing application that allows you to annotate imp
 <img src="pic01.jpeg">
 </figure>
 
-While GoodNotes 5 can be used on an iPad, iPhone, or Mac, we recommend using it on an iPad when writing on the board. The small screen size of an iPhone makes it difficult to write detailed notes on the board, even with a stylus. Likewise, it is possible to write on the board with a Mac with a separately purchased graphic tablet, but it is not possible to write by  directly touching the screen like on an iPad.
+While GoodNotes 5 can be used on an iPad, iPhone, or Mac, we recommend using it on an iPad when writing on the board. The small screen size of an iPhone makes it difficult to write detailed notes on the board, even with a stylus. Likewise, it is possible to write on the board with a Mac with a separately purchased graphic tablet, but it is not possible to write by directly touching the screen like on an iPad.
 
 You can purchase this app from [App Store](https://apps.apple.com/app/goodnotes-5/id1444383602).
 
@@ -271,7 +271,7 @@ In GoodNotes 5, you can import PowerPoint, Word, PDF, and various image files, a
 
 The following section explains how to import files saved on Google Drive into GoodNotes 5.
 
-1. Save the file you want to import into GoodNotes 5 to your Google Drive. For instructions, see “[Basic usage of Google Drive](/articles/google-drive/)”.
+1. Save the file you want to import into GoodNotes 5 to your Google Drive. For instructions, see “[Basic usage of Google Drive](/en/articles/google-drive/)”.
 2. Open Google Drive on your iPad.
    * You can install Google Drive from [App Store](https://apps.apple.com/jp/app/google-%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96-%E5%AE%89%E5%85%A8%E3%81%AA%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8/id507874739).
 3. Navigate to the folder that contains the file you want to open in Google Drive (PDF, Power Point, or Word file), and tap the "..." button next to the file name of the file. <img src="pic41.jpeg">
@@ -315,7 +315,7 @@ The following video shows a demonstration of real-time writing during a class, w
 
 * [Professor Tadashi Shiraishi: Law I](/good-practice/interview/shiraishi/)
   * Professor Shiraishi's class was a large class with about 400 students. He used GoodNotes 5 for handwriting during the lecture. After the lecture, images of the handwriting were uploaded to Scrapbox (now: Cosense).
-* [Professor Norikazu Saito: Numerical Mathematics I / Computational Mathmatics ](/good-practice/interview/saito/)
+* [Professor Norikazu Saito: Numerical Mathematics I / Computational Mathematics ](/good-practice/interview/saito/)
   * Professor Saito's class was a medium-sized lecture with about 70 students. He used GoodNotes 5 for handwriting during the lecture, and shared the images of the handwriting as PDF files with the students after the lecture.
 
 The following are some of the tips shared by the professors.

@@ -24,7 +24,7 @@ This document applies to the following external services managed and operated by
 
 When using these services, please follow the terms below.
 
-## Common preactions
+## Common precautions
 
 - The use of each service is subject to the general rules for the use of information system at the University of Tokyo. Please use this system appropriately, taking into account that it is maintained and operated for activities at UTokyo.
 - Please note that the handling of information of users (including data linked from UTokyo Account) in each service follows specifications of the service by the respective external service provider.

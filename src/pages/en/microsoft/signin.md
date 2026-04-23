@@ -36,7 +36,7 @@ When signing in to Microsoft systems using UTokyo Account, contrary to signing i
     - If **"Pick an account"** is displayed below the Microsoft logo
         - If an account with "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is displayed, select that account. If "Signed in" is displayed below the account name, you are already signed in to Microsoft systems with UTokyo Account. By selecting this account, you can continue to use Microsoft systems.
         - If an account with "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is not displayed, click "Use another account," enter "10-digit Common ID + `@utac.u-tokyo.ac.jp`" in the input field, and then click "Next."
-2. After the message "Taking you to your organization's sign-in page" is displayed, you will be automatically redirected to the sign-in page with the image of Yasuda Auditorium. Follow the instructions in "[Sign in to the ICT systems with your UTokyo Account](/utokyo_account/#signin)" to sign in.
+2. After the message "Taking you to your organization's sign-in page" is displayed, you will be automatically redirected to the sign-in page with the image of Yasuda Auditorium. Follow the instructions in "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)" to sign in.
     <details>
     <summary>Help when this procedure does not work</summary>
 

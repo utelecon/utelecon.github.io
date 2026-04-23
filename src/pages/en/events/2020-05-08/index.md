@@ -23,7 +23,7 @@ III/GSII　Machiko SAKAI　Associate Professor
 "Use of copyrighted material in online classes" is the content for this briefing. In addition to the basic idea of ​​using copyrighted works a face-to-face style, Dr. Sakai will explain about the points of enforcement of the revised copyright law for about 40 minutes, following with time for questions and answers. Even during the explanation time, the facilitator will take up the question interactively as appropriate.
   * We will accept questions from those who have left over as long as time allows, even after the specified time.
   * We will answer questions on sli.do and chat at a later date.
-  * Comments will be turned off on the youtube side, so if you have any questions, please visit sli.do if you have any questions.
+  * Comments will be turned off on the youtube side, so if you have any questions, please visit sli.do.
 
 
 
@@ -37,5 +37,5 @@ III/GSII　Machiko SAKAI　Associate Professor
 * [Briefing Session Information Sheet]( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing ) (To grasp the number of participants, please apply from the participation application form link at the top of the Excel sheet at this URL before May 8)
 
   * **To access, you need to be signed in to Google with an ECCS cloud mail (`xxx@g.ecc.u-tokyo.ac.jp`) account.**
-  * If you have trouble accessing it, please sign in with ECCS Cloud Email[here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp).
-  * If you have never used ECCS cloud email, please click [here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/)to make initial settings for account use.
+  * If you have trouble accessing it, please sign in with ECCS Cloud Email [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp).
+  * If you have never used ECCS cloud email, please click [here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/) to make initial settings for account use.

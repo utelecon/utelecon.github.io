@@ -22,7 +22,7 @@ Here we introduce methods for filming a video through Zoom and PowerPoint. We ex
 ### Editing the Video
 Here we introduce software for cutting, inserting captions, and other ways of editing video. We explain the different features of each, so use them according to your needs.
 
-* losslesscut（Mac, Windows, Linux）
+* losslesscut (Mac, Windows, Linux)
   * The unique feature of losslesscut is that only cutting is possible and the time for writing out a video is extremely short.
   * There are times when the place cut misses where you want it to go (This is part of the specifications of the software, so if you want to make sure it cuts right where you specify use the software below).
   * [How to Use (External link)](https://www.aiseesoft.jp/tutorials/how-to-use-losslesscut.html) (in Japanese)
@@ -58,7 +58,7 @@ Here we explain how to compress video using YouTube and VLC Player.
 You can release within university by both Google Drive and YouTube.
 * Sharing on Google Drive
   * You can also set prohibitions on downloading.
-  * **[Concrete Instructions](/faculty_members/how/google/share_video/)** (in Japanese)
+  * **[Concrete Instructions](/google/drive/share/#target)**
 * Sharing on YouTube
   * If you make availability limited to within the university, it is necessary for others to log into YouTube by their ECCS Cloud Mail address.  There are times when this switchover does not go well for people, so some caution on this point is necessary.
   * **[Restricting YouTube Content to University Members Only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/)**

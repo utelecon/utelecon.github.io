@@ -49,11 +49,11 @@ For an overview of how to create a meeting, please refer to "[Schedule a meeting
 For an overview of usages during a meeting, please refer to "[Usages in Zoom Meeting](usage/)". Also, the following pages provide detailed explanations of individual functions.
 
 - [Use Microphone and Camera](usage/mic_cam/)
-    - [Use Virtual Background and Related Functions (in Japanese)](/zoom/usage/mic_cam/virtual_background/)
+    - [Use Virtual Background and Related Functions](/en/zoom/usage/mic_cam/virtual_background/)
 - [Screen Sharing](usage/screen_sharing/)
 - [Use Chat (in Japanese)](/zoom/usage/chat/)
-- [Respond with a Raised Hand or an Emoji (in Japanese)](/zoom/usage/reaction/)
-- (For organizers)[Use Breakout Room (in Japanese)](/zoom/usage/breakout/)
+- [Respond with a Raised Hand or an Emoji](/en/zoom/usage/reaction/)
+- (For organizers)[How to use Breakout Rooms](/en/zoom/usage/breakout/)
 - (For organizers)[Use Poll](usage/poll/)
 - (For organizers)[Recording Zoom Meeting](usage/recording/)
     - [Recording Layout](usage/recording/layout/)

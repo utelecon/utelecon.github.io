@@ -11,19 +11,19 @@ Google Drive is a cloud service provided by Google Inc, which allows you to stor
 
 Members of the University of Tokyo can use Google Drive with their UTokyo Google account (hereinafter referred to as ECCS Cloud Email Account). ECCS Cloud Email Account is a paid account, and has the following differences from the free account for individuals.
 
-* In contrast to the 15 GB storage capacity limit for each personal free account, you can use up to 100 GB of capacity with your ECCS Cloud Eail account, at no extra cost to you.
+* In contrast to the 15 GB storage capacity limit for each personal free account, you can use up to 100 GB of capacity with your ECCS Cloud Email account, at no extra cost to you.
 * You can restrict file sharing in ’My Drive' and shared drives to ECCS Cloud Email Account holders through settings.
-* You can become an administrator of the shared drive with a ECCS Cloud Email Account but not with a free personal account.
+* You can become an administrator of the shared drive with an ECCS Cloud Email Account but not with a free personal account.
 
 If you do not have an ECCS Cloud Email Account, please refer to the following article.    
-[ECCS Cloud Email (Google Workspace)](/en/eccs_cloud_email/)
+[ECCS Cloud Email (Google Workspace)](/en/google/)
 
 The following explanation assumes that you are logged in to Google Drive with an ECCS Cloud Email Account.
 
 
 ### How to Start and Operate
 
-Go to [My Drive - Google Drive](https://drive.google.com/drive/u/0/my-drive) and log in with your ECCS Cloud Email Account.
+Go to [My Drive - Google Drive](https://drive.google.com/a/g.ecc.u-tokyo.ac.jp) and log in with your ECCS Cloud Email Account.
 Then, the following screen will be displayed.
 
 #### My Drive
@@ -58,7 +58,7 @@ With a shared drive, you can manage files in the drive within your organization.
 
 Shared drives access levels:
 	
-* **Managerr**: A manager has the highest privilege in the shared drive. You can control the files, members, and settings on the shared drive. (In the case of Google Group, only yourself would be the administrator.)
+* **Manager**: A manager has the highest privilege in the shared drive. You can control the files, members, and settings on the shared drive. (In the case of Google Group, only yourself would be the administrator.)
 * **Content Manager**: You can add, edit, move, and delete files. You can add, edit, move, and delete files. However, you cannot manage members and shared drive settings.
 * **Contributor**: Can add and edit files. However, it is not possible to move files within the shared drive.
 * **Commenter**: You can view and comment on the file. However, you may not be able to download the file depending on the file sharing settings.
@@ -92,7 +92,7 @@ You can see the files and folders that you have shared or that have been shared 
 This section explains how to set the sharing options in My Drive.
 
 1. **Select or create a file to share** 
-   1. Log in to [My Drive - Google Drive](https://drive.google.com/drive/u/0/my-drive) using your university Google account (ECCS Cloud Email Account), and open My Drive. 
+   1. Log in to [My Drive - Google Drive](https://drive.google.com/a/g.ecc.u-tokyo.ac.jp) using your university Google account (ECCS Cloud Email Account), and open My Drive. 
    2. Select or create the file you want to share. If you are creating a file, click the New button in the upper left corner and create the necessary file. 
    3. When the file you want to share is selected, click the share icon. 
 2. **Share the file**: You can share the file by registering the Google account of the person you want to share with, or simply by copying the link and sending it to that person. 
@@ -115,8 +115,8 @@ This section explains how to set the sharing options in My Drive.
 
 The following is an explanation of the process of sharing documents in actual classes. Please try it for group work. 
 
-1. **Create a shared drive**: Log in to [My Drive - Google Drive](https://drive.google.com/drive/u/0/my-drive) using your university Google account (ECCS Cloud Email Account), select the shared drive, and create a new shared folder.<img src="pic4.png"> 
-2. **Register members and set their permissions**: Open the shared folder you created and click the Manage Members button at the top right to register the ECCS Cloud Email Accounts of all the members you want to share with. Then set up the members’ permission. <br> Please note that free individual accounts can also be added as members, but not as administrators. <br>  (For more information on permission, see the [above section](#share_drive)). <img src="pic5.png">
+1. **Create a shared drive**: Log in to [My Drive - Google Drive](https://drive.google.com/a/g.ecc.u-tokyo.ac.jp) using your university Google account (ECCS Cloud Email Account), select the shared drive, and create a new shared folder.<img src="pic4.png"> 
+2. **Register members and set their permissions**: Open the shared folder you created and click the Manage Members button at the top right to register the ECCS Cloud Email Accounts of all the members you want to share with. Then set up the members’ permission. <br> Please note that free individual accounts can also be added as members, but not as administrators. <br>  (For more information on permission, see the [above section](#share_drive).) <img src="pic5.png">
 3. **Setting up the shared drive**: Click the setting icon displayed in the upper right corner of the screen when managing members in Step 2 to set up the shared drive. <img src="pic6.png"> 
 4. **How to share documents**: Open the shared folder, click the "New" button on the upper left, and then select the google tool you want to use. <img src="pic7.png">
 
@@ -142,7 +142,7 @@ You need to use Google Chrome browser.
 
 1. Connect to the Internet and open Google Chrome browser. 
 2. Install [Offline Chrome extension for Google Docs](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi). 
-3. Open [Google Drive](https://drive.google.com/), and click the setting icon on the upper right. 
+3. Open [Google Drive](https://drive.google.com/a/g.ecc.u-tokyo.ac.jp), and click the setting icon on the upper right. 
 4. Turn on [Offline]. 
 5. This setting allows you to view and edit files even when you are offline. If you are connected to the Internet, your edits will be synchronized.
 

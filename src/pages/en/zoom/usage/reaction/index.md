@@ -69,10 +69,10 @@ Additionally, it will also appear in the upper left corner of the participants�
 - In meetings that you host, you can choose whether or not to enable each of the “emoji” and “Non-verbal feedback” among the reactions. By default, both are enabled.
 - You can select the types of emojis from either “All emojis” or “Selected emojis”. If you choose “Selected emojis”, the participants will be able to express their reactions using only the six standard emojis.
 - How to enable or disable:
-  1. Sign in Zoom following the steps of [“Sign-in Methods for Zoom (in Japanese)”](https://utelecon.adm.u-tokyo.ac.jp/zoom/).
-  1. Click on “Config” and then click “Settings ([https://u-tokyo-ac-jp.zoom.us/profile/setting](https://u-tokyo-ac-jp.zoom.us/profile/setting)).”![](8_fig_zoom_usage_reaction.png)
-  1. Click on “Meeting” and then click “In Meeting (Basic)”.![](9_fig_zoom_usage_reaction.png)
-  1. Choose to enable “Non-verbal feedback” and “Meeting reactions” respectively (Note: the “emoji” feature may be referred to as “Meeting reactions” or “Reactions in meetings” etc.).![](10_fig_zoom_usage_reaction.png)
+  1. Sign in Zoom following the steps of [“Sign-in Methods for Zoom”](/en/zoom/signin/#app).
+  2. Click on “Config” and then click “Settings ([https://u-tokyo-ac-jp.zoom.us/profile/setting](https://u-tokyo-ac-jp.zoom.us/profile/setting)).”![](8_fig_zoom_usage_reaction.png)
+  3. Click on “Meeting” and then click “In Meeting (Basic)”.![](9_fig_zoom_usage_reaction.png)
+  4. Choose to enable “Non-verbal feedback” and “Meeting reactions” respectively (Note: the “emoji” feature may be referred to as “Meeting reactions” or “Reactions in meetings” etc.).![](10_fig_zoom_usage_reaction.png)
 
 ## [For participants] More detailed information
 
@@ -82,7 +82,7 @@ You can set up skin tone that you desire for your Reactions in Zoom.
 
 #### On pc
 
-1. Sign in to Zoom following the steps of “[Signing in in from the Zoom App (in Japanese)](https://utelecon.adm.u-tokyo.ac.jp/zoom/)”.
+1. Sign in to Zoom following the steps of “[Signing in from the Zoom App](/en/zoom/signin/#app)”.
 2. Click “Settings” after you click on the picture of your profile in the upper right.
 3. Select the “General” tab and then select your preferred skin tone from the “Skin tone” of “Reactions”.
 

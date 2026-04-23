@@ -13,7 +13,7 @@ In order to prepare for asynchronous online classes, we will conduct an online b
 **Handouts:** <a href="seminar_ondemand.pdf">pdf</a>  
   
   
-**Video:** <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-03-27-1">Video file（ECCS Cloud Mail required）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">How to set up ECCS Cloud Mail</a>）  
+**Video:** <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-03-27-1">Video file (ECCS Cloud Mail required)</a> (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">How to set up ECCS Cloud Mail</a>)  
 
 
 ## Online class consultation specializing in language learning
@@ -22,12 +22,12 @@ In order to prepare for asynchronous online classes, we will conduct an online b
   
   
 **Overview:**  
-Online consultation meeting focused on language acquisition classes (unlike other courses presented here, this is a consultation meeting base don participants questions).  
+Online consultation meeting focused on language acquisition classes (unlike other courses presented here, this is a consultation meeting based on participants' questions).  
   
 **Handouts:** <a href="talk_language_education.pdf">pdf</a>  
 
   
-**Video:** <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-03-27-2">Video file（ECCS Cloud Mail required）</a>（<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">How to set up ECCS Cloud Mail</a>）  
+**Video:** <a href="https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events/2020-03-27-2">Video file (ECCS Cloud Mail required)</a> (<a href="https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/" target="_blank">How to set up ECCS Cloud Mail</a>)  
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: What is possible with Webex Training?（for Instructors・Participants)
+title: What is possible with Webex Training? (for Instructors・Participants)
 ---
 
 ## Roles
@@ -13,7 +13,7 @@ There are four main roles in Webex Training.
 ## Webex Training Screen
 
 * Below is the Webex Training screen. Although this screenshot looks small, the actual browser can be a maximum screen.
-	* Entering the training session, the screen shows "Test your speaker/ microphone". Choose the speaker and mirophone that you want to use. Click OK button and test your speaker and microphone.
+	* Entering the training session, the screen shows "Test your speaker/ microphone". Choose the speaker and microphone that you want to use. Click OK button and test your speaker and microphone.
 	![](img/webex_training_view.png){:.medium}
 
 * For presenters, you can see the screen below. Click "Share your desktop screen", and share your screen with participants. Click the arrow next to "Share your desktop,"  and presenters can share designated applications.
@@ -22,7 +22,7 @@ There are four main roles in Webex Training.
 ### Participants Panel
 
 * On the participant panel, you can see the list of participants. Hosts and presenters can mute or give the authorizations to attendees on right click.
-* If a partcipant shares their camera screen, the shared screen is shown as below. If you double-click the screen, the clip maximize on your computer / tablets.
+* If a participant shares their camera screen, the shared screen is shown as below. If you double-click the screen, the clip maximize on your computer / tablets.
 * Press the icon on the bottom and you can give feedback to organizers.
 
 	![](img/webex_training_participants.png){:.small}

@@ -6,7 +6,7 @@ redirect_from:
 
 _<font color="red">**Update: 21:24 (JST) March 18 2022.**</font>  The issue below should be fixed now.  We will continue to watch the issue for any adverse effect the fix might have caused.  To that end, had you experienced any issues in accessing UTAS or ITC-LMS, [please let us know](#how-to-report)._
 
-As of March 17 2022, we are aware that a few users from Korea cannot access several ICT services operated by the University of Tokyo including [UTAS](/en/utas/) and [ITC-LMS](/en/itc_lms/). We have confirmed that it is an issue about the Internet routing connecting the user's carrier and the cloud vendor hosting our servers. We are cooperating with the cloud vender to fix the issue.
+As of March 17 2022, we are aware that a few users from Korea cannot access several ICT services operated by the University of Tokyo including [UTAS](/en/utas/) and [ITC-LMS](/en/itc_lms/). We have confirmed that it is an issue about the Internet routing connecting the user's carrier and the cloud vendor hosting our servers. We are cooperating with the cloud vendor to fix the issue.
 
 In this page, we describe who is affected, how to know if you are affected, how affected users might be able to work around the issue, etc.
 
@@ -54,7 +54,7 @@ We are interested in the status of all users using Korea Telecom, affected or no
 
 If you are affected or using Korea Telecom, [please report your status here](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 
-* To the question **"What is your inquiry?"**, check <font color="blue">"*Troubles with other external online tools or Utokyo systems*"</font>
+* To the question **"What is your inquiry?"**, check <font color="blue">"*Troubles with other external online tools or UTokyo systems*"</font>
 * To the question **"What did you try to accomplish?"**, say <font color="blue">"*Tried to access UTAS*"</font>
 * To the question **"Describe the problem"**, include
   1. <font color="blue">The result of https://bgp.tools/ (texts below "You are connecting from")</font>

@@ -1,5 +1,5 @@
 ---
-title: What is possible with Webex Meetings?（for Instructors・Participants)
+title: What is possible with Webex Meetings? (for Instructors・Participants)
 ---
 
 ## Roles
@@ -18,7 +18,7 @@ Webex Meetings has the following roles.
 * Buttons are lined up at the bottom of the screen. Hover the mouse over the button to display the name. We will explain from left to right.
 
 	![](img/webex_meeting_entryview_numbering.png){:.medium}
-	1. **Mute**： This button turns black when the microphone is on, and  turns red when muted. **Mute your microphone (make the icon red) when you don’t speak. Unexpected sounds may be leaked to other participants if you do not mute the mic.**
+	1. **Mute**： This button turns black when the microphone is on, and turns red when muted. **Mute your microphone (make the icon red) when you don’t speak. Unexpected sounds may be leaked to other participants if you do not mute the mic.**
 	1. **Stop video**： This button turns black when the camera is on, turns red when the camera is off.**If the connection environment is unstable, stop the video (make the icon red).**
 	1. **Share contents**： Share your screens to share materials with other participants. There are three options: share your PC screen, share specific application windows, or share specific Chrome tabs. It is also used to show a PowerPoint document at hand, to show a video, and to show your writing by connecting to a OH camera, etc. There is also a whiteboard function, so you can share material you have handwritten on your device.
 	1. **Record meeting**： You can record your meeting. You can save it to the cloud (on the Webex server) or your computer, but sometimes it does not allow you to save it to your computer, depending on the setting.
@@ -36,7 +36,7 @@ When you press "Share Content", the screen options to share will appear. Select 
 ![](img/webex_share.png){:.small}
 	
 * When "Screen 1" is selected, a screen which the person is literally looking at is shared with everyone (If there are multiple screens such as when using a multi-monitor, the number of options increases like “Screen 1,” “Screen 2,” ...).
-* The currently open window/app is also displayed as an option. You can  share a specific window/app to share. If you don't want participants to see the whole screen, select only the window/app you want to share.
+* The currently open window/app is also displayed as an option. You can share a specific window/app to share. If you don't want participants to see the whole screen, select only the window/app you want to share.
 * If you select "New Whiteboard", a whiteboard that participants can draw freely will be shared with everyone.
 
 ## Detailed Settings for Speaker, Microphone and Camera
