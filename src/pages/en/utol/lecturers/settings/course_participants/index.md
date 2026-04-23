@@ -52,7 +52,7 @@ The following information can be viewed in the “Course participant list”.
 
 “Course participants list” can be viewed by following the steps below.
 
-1. Click the icon “![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper right corner while the course you would like to operate is being displayed.
+1. Click the icon “![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper left corner while the course you would like to operate is being displayed.
 2. Select “Register course participants” in the “Course settings”
     ![](menu.png){:.medium}
 
@@ -180,7 +180,7 @@ Course participants can be deleted by either of the following methods.
 ### Deleting individually
 {:#delete-individually}
 
-1. Click the“![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper right while keeping opened the course you would like to operate.
+1. Click the “![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper left while keeping opened the course you would like to operate.
 2. Select “Register Course participants” in the “Course settings”.
 
     ![](menu.png){:.small}
