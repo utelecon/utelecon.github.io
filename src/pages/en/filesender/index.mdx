@@ -9,7 +9,6 @@ breadcrumb:
 
 NII FileSender is a file transfer service provided by the National Institute of Informatics (NII). Members of the University of Tokyo can use this service with their UTokyo Account. It also allows you to send files to and receive files from users who do not have a UTokyo Account.
 
-なおNII FileSenderは，東京大学のほか，日本の多くの大学や研究機関等でも，[学術認証フェデレーション「学認（GakuNin）」](https://www.gakunin.jp/)の仕組みを通じて，各大学等のアカウントで利用可能です．利用するには，送信者・受信者のどちらかがアカウントを持っていれば十分です．
 NII FileSender is available to many universities and research institutions in Japan, including UTokyo, through [“GakuNin”, the Academic Access Management Federation in Japan](https://www.gakunin.jp/en), using accounts issued by each institution. To use the service, it is sufficient for either the sender or the recipient to have an account from a participating institution.
 
 
@@ -38,24 +37,29 @@ For details about the service and its usage, please refer to the following NII p
 - [“About NII FileSender” ](https://nii-auth.atlassian.net/wiki/x/QoGjAg)(in Japanese)
 - [NII FileSender “Help”](https://filesender.nii.ac.jp/?s=help)
 
-### ログオン手順
+### Login Procedure
 
-1. [NII FileSenderのアップロードページ](https://filesender.nii.ac.jp/?s=upload)にアクセスしてください．
-2. 画面右上または中央にある「ログオン」ボタンを押してください．
-    ![](logon.png){:.border.medium}
+1. Access [the NII FileSender upload page](https://filesender.nii.ac.jp/?s=upload).
+2. Click the “Login” button at the top right or center of the screen.
+  ![](./Filesender 1.png){:.border.medium}
 3. 所属機関の選択画面に遷移します．テキストボックスに「東京大学」と入力・選択するか，赤い下矢印ボタンを押して「東京大学」を選択してください．
     ![](select_affiliation.png){:.border .small}
     - この画面で「ブラウザ起動中は自動ログイン」にチェックを入れた場合，現在利用中のブラウザを起動している間は，再ログオン時に所属機関の選択・UTokyo Accountでのサインインが自動的に行われます．
-4. テキストボックスの右側にある「選択」ボタンを押してください．
-5. 既にUTokyo Accountにサインイン済みの場合を除き，UTokyo Accountのサインイン画面が表示されるので，サインインしてください．
+3. You will be directed to the affiliated organization selection screen. Enter and select “The University of Tokyo” in the text box, or click the red down arrow button to select it.
+     ![](./Filesender 2.png){:.border .small}
+     - If you check “Remember selection for this web browser session” on this screen, your selected affiliated organization and sign-in with your UTokyo Account will be performed automatically upon subsequent login while the browser is running.
+4. Click the “Login” button to the right of the text box.
+5. Unless you are already signed in to your UTokyo Account, the UTokyo Account sign-in page will appear. Please sign in.
 
-## 東京大学での固有の設定
+## The University of Tokyo Specific Settings
 
-NII FileSenderにおける送信者などとしてのメールアドレスは，以下の項目に基づいて設定されています．
+In NII FileSender, the email address used as the sender, etc. is determined based on the following:
 
 - 学生の場合 <small>※学生でも教職員でもあるアカウントの場合を含む</small>：[UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do)の「学生情報」メニューにある「現住所等変更入力」の「E-MAIL 1」欄（なお，「E-MAIL 2」のアドレスはNII FileSenderでのメールアドレスとしては使えません）
 - 教職員の場合<small>※学生でも教職員でもあるアカウントの場合を除く</small>：[人事情報MyWeb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx)の「パーソナルメニュー」にある「本人属性変更：登録画面」の「学内メールアドレス」欄（ `u-tokyo.ac.jp` で終わるメールアドレスである必要があります）
+- (For students <small>including accounts that are both students and faculty and staff members</small>) "E-MAIL 1" field on the "Register Address Update, etc." page in the "Student Info" section of [UTAS](https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do).(Note: The “E-MAIL 2” address cannot be used as the NII FileSender email address.)
+- (For faculty and staff members <small>excluding accounts that are both students and faculty and staff members</small>) "学内メールアドレス" (Campus Email Address) in the "パーソナルメニュー" (Personal Menu) of the [Personnel Information Myweb](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Personal_information_and_ID_card.aspx)
+    - The email address for this purpose must end with `u-tokyo.ac.jp`.
+Please note that if this contact email address is changed, it will become available for use in NII FileSender on the day following the change.
 
-なお，この連絡先メールアドレスを変更した場合，NII FileSenderで利用できるようになるのは変更の翌日です．
-
-[^1]: [NII FileSender「このサービスについて」](https://filesender.nii.ac.jp/?s=about)
+[^1]: [NII FileSender “About”](https://filesender.nii.ac.jp/?s=about)
