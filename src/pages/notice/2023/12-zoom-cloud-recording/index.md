@@ -42,7 +42,7 @@ title: Zoomクラウド録画における不要なデータ削除等のお願い
 
 - Googleドライブ
     - 使い方は「[Googleドライブ](/google/drive/)」のページをご覧ください．
-    - 保存容量は1人あたり100GBまでです．利用負担金を支払って容量を増やすこともできます．
+    - 保存容量は1人あたり125GBまでです．利用負担金を支払って容量を増やすこともできます．
 - YouTube
     - 使い方は[YouTubeヘルプ「YouTube 動画をアップロードする」](https://support.google.com/youtube/answer/57407?hl=ja)をご覧ください．また，[YouTubeのコンテンツを学内構成員限定で公開する](https://www.sodan.ecc.u-tokyo.ac.jp/hack/youtube-utokyo-only/)こともできます．
     - [15分を超える動画のアップロード](https://support.google.com/youtube/answer/71673?hl=ja)には「アカウントの確認」と呼ばれる手続きが必要です．また，アカウントの確認が済んでも，1つのファイルで256GBまたは12時間を超えるような動画はアップロードできません．現在のところ，アップロードできる動画の数や合計サイズには上限がありません．
