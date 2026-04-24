@@ -7,8 +7,8 @@ This page summarizes information related to Generative AI (to be updated as need
 ## Guidelines, Messages, etc.
 
 - [Security Guidelines for the Use of Generative AI at the University of Tokyo](https://univtokyo.sharepoint.com/sites/Security/SitePages/ai_use_security_guideline.aspx) (March 12, 2024) <small>*Sign in with your UTokyo Account is required to view this page.</small>
-- [Notification to Students on the Use of AI Tools in Classes (ver. 1.0)](/docs/ai-tools-in-classes-students/) (Dated May 26, 2023 / Published May 29, 2023)
-- [Policy on the use of AI tools in classes (ver. 1.0)](/docs/ai-tools-in-classes/) (Dated April 28, 2023 / Published May 16, 2023)
+- [Notification to Students on the Use of AI Tools in Classes (ver. 1.0)](../../../docs/ai-tools-in-classes-students/) (Dated May 26, 2023 / Published May 29, 2023)
+- [Policy on the use of AI tools in classes (ver. 1.0)](../../../docs/ai-tools-in-classes/) (Dated April 28, 2023 / Published May 16, 2023)
 - [Regarding Generative AI (ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion, etc.) (in Japanese)](/docs/20230403-generative-ai/) (April 3, 2023 / Executive Vice President Kunio Ohta)
 
 ## Generative AI Services for All University Members
@@ -40,16 +40,16 @@ There are also Generative AI services that are not chat-based, but are built int
 
 Examples of services contracted university-wide by UTokyo include the following:
 
-- **[AI Companion (in Japanese)](/zoom/ai-companion/)** in [Zoom](/zoom/)
+- **[AI Companion (in Japanese)](/zoom/ai-companion/)** in [Zoom](../../../zoom/)
     - Please also see "[Provision of Zoom AI Companion Features (in Japanese)](/notice/2025/0127-zoom-ai_companion/)" (January 27, 2025).
-- **[Slack AI](https://slack.com/intl/en-gb/help/articles/25076892548883)** in [UTokyo Slack](/slack/)
+- **[Slack AI](https://slack.com/intl/en-gb/help/articles/25076892548883)** in [UTokyo Slack](../../../slack/)
     - Basic features equivalent to the Pro plan are available.
-- **[Cisco AI Assistant](https://help.webex.com/en-us/article/nyzkuik/)** and **[Webex AI](https://www.webex.ai/)** in [Webex](/webex/)
-- **[Slido AI](https://www.slido.com/ai)** in [Slido](/slido/)
-- **[Copilot in Teams](https://www.microsoft.com/en-us/microsoft-teams/teams-ai)** in [Microsoft Teams](/microsoft#teams) (Provided to faculty and staff only)
+- **[Cisco AI Assistant](https://help.webex.com/en-us/article/nyzkuik/)** and **[Webex AI](https://www.webex.ai/)** in [Webex](../../../webex/)
+- **[Slido AI](https://www.slido.com/ai)** in [Slido](../../../slido/)
+- **[Copilot in Teams](https://www.microsoft.com/en-us/microsoft-teams/teams-ai)** in [Microsoft Teams](../../../microsoft/#teams) (Provided to faculty and staff only)
     - [Using Copilot in Microsoft Teams Meetings (Microsoft Official Help)](https://support.microsoft.com/en-us/office/0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
     - This is provided to a limited number of faculty and staff. As of March 2026, as part of the "Promotion of Operational Reform using Generative AI," it is only available to a small number of faculty and staff participating in the [verification](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981) under certain conditions (Sign in with UTokyo Account is required; accessible only to faculty and staff).
-- **[Gemini for Google Workspace](https://knowledge.workspace.google.com/admin/gemini/google-workspace-with-gemini?hl=en-#education)** in [ECCS Cloud Email (Google Workspace for Education)](/google/)
+- **[Gemini for Google Workspace](https://knowledge.workspace.google.com/admin/gemini/google-workspace-with-gemini?hl=en-#education)** in [ECCS Cloud Email (Google Workspace for Education)](../../../google/)
     - To use this, you must apply for a [Google Workspace for Education Plus license (in Japanese)](/google/misc/education-plus/). For details, please see "[Gemini is now available in Google Docs, Google Slides, and Google Forms (in Japanese)](/notice/2026/0302-gemini-gws/)".
 
 ### Other Services
@@ -66,8 +66,8 @@ Examples of services contracted university-wide by UTokyo include the following:
 
 #### Services for Developers
 
-- **[AI Chat Playground](https://www.mathworks.com/matlabcentral/playground?s_tid=gn_mlc_playground)** in [UTokyo MATLAB Campus-Wide License](/matlab/)
-- **[UTokyo Azure](/research_computing/utokyo_azure/)**
+- **[AI Chat Playground](https://www.mathworks.com/matlabcentral/playground?s_tid=gn_mlc_playground)** in [UTokyo MATLAB Campus-Wide License](../../../matlab/)
+- **[UTokyo Azure](../../../research_computing/utokyo_azure/)**
     - UTokyo Azure provides an [environment where you can use AI (in Japanese)](/research_computing/utokyo_azure/ai/) through various methods, including APIs. Furthermore, a diverse variety of models is available to choose from.
 
 ### Reference Information
@@ -98,4 +98,4 @@ Examples of services contracted university-wide by UTokyo include the following:
 
 ---
 
-This portal site (utelecon) summarizes information useful for better online classes and activities. Please also see the "**[Effective Use of Online Resources](/online/)**" page, which compiles various resources.
+This portal site (utelecon) summarizes information useful for better online classes and activities. Please also see the "**[Effective Use of Online Resources](../../../online/)**" page, which compiles various resources.
