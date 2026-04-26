@@ -98,15 +98,15 @@ Creating a meeting via Calendar allows you to schedule the meeting directly on G
 
 #### Screen Sharing
 
-During the meeting, click the rectangle with an arrow icon ("Present now") at the bottom to share your screen with the participants. You can share your entire screen or a specific window. This is used to display presentations or lecture materials.
+During the meeting, click the rectangle with an arrow icon ("Share screen") at the bottom to share your screen with the participants. You can share your entire screen or a specific window. This is used to display presentations or lecture materials.
 
 #### Recording
 
-During the meeting, click the shapes icon ("Activities") in the bottom right corner, and select "Recording" from the list of activities. This will record both video and audio. Once the recording is stopped, the recording file will be saved to Google Drive.
+During the meeting, click the three-dot icon ("More options") at the bottom, select "Manage recording" from the displayed list, and click "Start recording". This will record both video and audio. Once the recording is stopped, the recording file will be saved to Google Drive.
 
 ## Miscellaneous
 
 ### About the Google Meet App for Smartphones and Tablets
 {:#mobile-app}
 
-Google Meet has dedicated apps for smartphones and tablets, allowing you to hold meetings and calls on mobile devices. For detailed usage instructions, please refer to the [Google Meet Help](https://support.google.com/meet/answer/12389066?hl=ja).
+Google Meet has dedicated apps for smartphones and tablets, allowing you to hold meetings and calls on mobile devices. For detailed usage instructions, please refer to the [Google Meet Help](https://support.google.com/meet/answer/12389066?hl=en).
