@@ -61,7 +61,7 @@ You can create a meeting not only from the Google Meet top page but also from ot
 1. Click the icon in the top right corner and confirm that you are signed in with your ECCS Cloud Email account (`xxxx@g.ecc.u-tokyo.ac.jp`).
    - If you are signed in with a different account, select your ECCS Cloud Email account from the account list.
 1. Click the "New meeting" button and select "Create a meeting for later".
-1. The meeting URL (`https://meet.google.com/xxx-xxxx-xxx`) will be displayed as "joining info". Copy it and share it with the participants.
+1. The meeting URL (`https://meet.google.com/xxx-xxxx-xxx`) will be displayed as "Here's your joining info". Copy it and share it with the participants.
 
 #### Method 2: Via Gmail
 
