@@ -1,5 +1,5 @@
 ---
-title: Google Hangouts Meet
+title: Google Meet
 breadcrumb:
   title: Meet
 redirect_from:
