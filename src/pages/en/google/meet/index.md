@@ -15,11 +15,11 @@ This page introduces the basic usage of Google Meet.
 
 **Google Meet** is a web conferencing system provided by Google. It allows you to hold online meetings and calls.
 
-- You do not need to install any apps on your PC; you can use it directly from your web browser.
+- You do not need to install any apps on your computer; you can use it directly from your web browser.
   - Dedicated apps are available for smartphones and tablets.
 - It supports most modern browsers, including Chrome, Firefox, Safari, and Edge.
 - You can join and host multiple meetings at the same time.
-- Google Meet is well-suited for organizing many small group sessions, because it only requires a Google account and a browser, and allows simultaneous meetings.
+- Google Meet is well-suited for organizing many small group sessions, because it only requires a Google Account and a browser, and allows simultaneous meetings.
 - (By default) You can create meetings with up to 100 participants. 
 
 ### Using Google Meet with a UTokyo Account
@@ -28,7 +28,7 @@ At the University of Tokyo, Google Workspace is provided as "**[ECCS Cloud Email
 
 ## Usage Procedures
 
-This section explains the steps to hold a "meeting" using Google Meet in a PC browser.
+This section explains the steps to hold a "meeting" using Google Meet in a web browser.
 
 "Meetings" are suitable for general conferences, small group classes, and seminars. Please note that Google Meet also has a "call" feature using contact information such as phone numbers, but this guide will not cover it.
 
@@ -98,7 +98,7 @@ Creating a meeting via Google Calendar allows you to schedule the meeting direct
 
 #### Screen Sharing
 
-During the meeting, click the rectangle with an arrow icon ("Share screen") at the bottom to share your screen with the participants. You can share your entire screen or a specific window. This is used to display presentations or lecture materials.
+During the meeting, click the rectangle with an arrow icon ("Present now") at the bottom to share your screen with the participants. You can share your entire screen or a specific window. This is used to display presentations or lecture materials.
 
 #### Recording
 
