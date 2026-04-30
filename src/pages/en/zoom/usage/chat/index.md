@@ -139,7 +139,7 @@ If the host enables "Allow participants to delete messages in meeting chat", it 
 
 ##### Following the Procedure
 {:#delete-usage}
-1. Click the "…" icon below your sent message on the chat screen.
+1. Click the "..." icon below your sent message on the chat screen.
 2. Select "Delete".
 3. Click "Delete" again when the confirmation screen asking if you want to delete the message appears.
 
