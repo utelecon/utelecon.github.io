@@ -11,7 +11,8 @@ The chat feature in Zoom allows hosts and participants to exchange text and file
 
 This page introduces the features and operating procedures, dividing them into basic and advanced uses of the chat feature.
 
-Note that some features require configuration in advance. For such features, changing the settings while a meeting is in progress does not apply the changes to that meeting. If you wish to apply the changes to an ongoing meeting, end the meeting once and start it again.
+Please note that some features require configuration in advance. For such features, any changes made to the settings during a meeting is not applied to that meeting. If you wish to apply the changes to an ongoing meeting, first, end the meeting and start it again.
+
 
 ## Understanding Basic Operations
 {:#basic-operation}
@@ -38,7 +39,7 @@ The procedure for activating the chat feature is as follows.
 #### Setting the Scope of the Chat Feature
 {:#scope}
 
-As shown in the image below, you can restrict the recipients to whom participants can send chats from the pull-down menu on the same screen as "[Activating the Chat Feature](#activate)". Regardless of the pull-down menu setting, the host and co-hosts can send chats to all participants as long as the chat feature is enabled. This restriction can also be changed during a meeting from the pull-down menu at the top of the chat panel.
+As shown in the image below, you can restrict the recipients to whom participants can send chats by using the pull-down menu on the same screen as the "[Activating the Chat Feature](#activate)". Regardless of the pull-down menu setting, the host and co-hosts can send chats to all participants as long as the chat feature is enabled. This restriction can also be changed during a meeting from the pull-down menu at the top of the chat panel.
 ![](pulldown.png){:.small}{:.border}
 
 * No one: Prevents participants from sending chats.
@@ -117,7 +118,7 @@ Allows you to save the contents of the chat panel as a text file. However, to co
 {:#applied-functions}
 This section explains the configuration methods and operating procedures for various features to utilize the chat feature in Zoom.
 
-Note that if you change settings during a meeting, the changes will not be applied unless you end the meeting and start it again. Also, some features may not be available if the version of your Zoom app is outdated. Update Zoom to the latest version regularly.
+Please note that if you change settings during a meeting, the changes will not be applied unless you end the meeting and start it again. Also, some features may not be available if the version of your Zoom app is outdated. Update Zoom to the latest version regularly.
 
 ### Using Features Configurable in In Meeting (Basic)
 {:#meeting-basic}
@@ -138,7 +139,7 @@ If the host enables "Allow participants to delete messages in meeting chat", it 
 
 ##### Following the Procedure
 {:#delete-usage}
-1. Click the "..." icon below your sent message on the chat screen.
+1. Click the "…" icon below your sent message on the chat screen.
 2. Select "Delete".
 3. Click "Delete" again when the confirmation screen asking if you want to delete the message appears.
 
