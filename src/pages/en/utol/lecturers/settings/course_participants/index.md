@@ -1,5 +1,5 @@
 ---
-title: Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors・TAs)
+title: Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors / TAs)
 redirect_from:
  - /en/itc_lms/lecturers/settings/course_participants
 breadcrumb:

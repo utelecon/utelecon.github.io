@@ -1,5 +1,5 @@
 ---
-title: Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors/TAs)
+title: Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors / TAs)
 redirect_from:
   - /en/lms_lecturers/course_settings
   - /en/itc_lms/lecturers/settings
