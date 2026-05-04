@@ -32,7 +32,9 @@ import { getCollection } from "astro:content";
 
 <GoodPractice
   client:visible
-  interviews={(await getCollection("interviews")).map(({ id, data }) => ({
+  interviews={(await getCollection("interviews"))
+    .sort((a, b) => a.id.localeCompare(b.id)) // interviewの.mdのアルファベット順にソート
+    .map(({ id, data }) => ({
     path: `/${id}`,
     ...data,
   }))}
