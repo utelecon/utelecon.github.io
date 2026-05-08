@@ -1,5 +1,5 @@
 ---
-title: Using Zoom meeting with LTI integration in UTOL
+title: Using Zoom meeting with LTI integration in UTOL (for enrolled students)
 breadcrumb:
   title: Zoom 
 ---
