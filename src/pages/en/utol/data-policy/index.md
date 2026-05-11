@@ -4,6 +4,9 @@ breadcrumb:
   title: Data Use Policy
 ---
 
+<div style="text-align: right;">Published: May 12, 2026</div>
+<div style="text-align: right;">Information Technology Center</div>
+
 ## Overview
 
 At the University of Tokyo, a wide range of learning activities take place through the learning management system UTOL (UTokyo LMS), including viewing course materials, submitting assignments, taking quizzes, and participating in discussions. 
@@ -15,7 +18,7 @@ The data recorded through these activities (learning logs) are valuable resource
 * Developing learning environments and tools tailored to individual students  
 * Academic research related to the above
 
-To appropriately promote research that contributes to improving education and learning, the Information Media Education Division of the Information Technology Center requests students' prior consent for the use of data recorded on UTOL.
+To appropriately promote research that contributes to improving education and learning, the Campus-wide Computing Research Division of the Information Technology Center requests students' prior consent for the use of data recorded on UTOL.
 
 ## What types of data are used?
 
@@ -69,13 +72,13 @@ to ensure that individuals cannot be identified.
 
 ### （4）Research ethics review is mandatory.
 
-All research must be approved by the University's research ethics review board.
+Data will only be provided for research projects that have been approved by the university's Research ethics review board.
 
 For further details on our policies, please refer to [the policies of the Campus-wide Computing Research Division at the Information Technology Center](https://media.itc.u-tokyo.ac.jp/policy.html).
 
 ## Frequently Asked Questions (FAQ)
 
-### Q1. Will instructors monitor my individual activities?
+### Q1. Will the University closely monitor my individual activities?
 
 No. Access to course data is restricted to authorized personnel such as course instructors, and student activity logs are not freely accessible. Instructors may review learning progress within the scope necessary for course management.
 
@@ -110,6 +113,10 @@ However, this is strictly limited to cases where:
 
 ### Q4. How can I change my consent status?
 
-You can change your consent status at any time via the "Consent" option at the top of the UTOL course page. If you withdraw consent, your data will no longer be used for research from that point forward. 
+You can change your consent status at any time via the “Consent” option at the top of the UTOL timetable page. If you withdraw consent, your data will no longer be used for research from that point forward. 
 
 If you change from non-consent to consent, your data from all past periods may become eligible for research use.
+
+## Inquiries
+
+If you have any questions, please contact the UTOL team `lms-support@itc.u-tokyo.ac.jp`.
