@@ -9,7 +9,7 @@ import SelectSsid from "./_SelectSsid.astro"
 import DeleteProfile from "./_DeleteProfile.astro"
 import TroubleConnect from "./_TroubleConnect.mdx"
 
-<Intro kindOfTerminal="terminal with macOS 26 Tahoe" confirmedTerminal="（MacBook Pro with macOS 26 Tahoe）"/>
+<Intro kindOfTerminal="terminal with macOS 26 Tahoe" confirmedTerminal="（MacBook Air with macOS 26 Tahoe）"/>
 
 ## Preparation: Apply for the UTokyo Wi-Fi account
 {:#issue-account}
@@ -21,8 +21,7 @@ import TroubleConnect from "./_TroubleConnect.mdx"
 {:#turn-on}
 To see the setting screen, select the “System Settings” from the Apple menu on the left side of the menu bar. Select “Wi-Fi” in the side bar and turn on the toggle switch to enable the Wi-Fi function.
 
-Please note that if the OS version is macOS 12 Monterey or earlier, instead of “System Settings”, “System Preference” will be displayed. The following procedures may vary slightly in different situations, please read the content and procedures for the respective OS version.
-<figure class="gallery">![](img/macos26-turnon1.png){:.medium.center.border}![](img/macos26-turnon2.png){:.medium.center.border}</figure>
+<figure class="gallery">![](./img/macos26-turnon1.png){:.medium.center.border}![](./img/macos26-turnon2.png){:.medium.center.border}</figure>
 
 ### Step 2: Select the SSID of connecting destination from the SSID list
 {:#select-ssid}
@@ -31,8 +30,8 @@ Please note that if the OS version is macOS 12 Monterey or earlier, instead of �
 ### Step 3: Delete the existing Wi-Fi setting information.
 {:#delete-profile}
 <DeleteProfile  userIdField="Account name"/>
-Select the SSID you found in Step 2, and select the “...” icon on the right side. Then select “Forget This Network” on the displayed screen. When a screen asking “Forget Wi‑Fi Network “0000UTokyo”?” appears, select “Forget”.
-<figure class="gallery">![](img/macos26-deleteprofile1.png){:.medium.center.border}![](img/macos26-deleteprofile2.png){:.medium.center.border}</figure>
+Select the SSID you found in Step 2, and select the “...” icon on the right side. Then select “Forget This Network…” on the displayed screen. When a screen asking “Forget Wi‑Fi Network “0000UTokyo”?” appears, select “Forget”.
+<figure class="gallery">![](./img/macos26-deleteprofile1.png){:.medium.center.border}![](./img/macos26-deleteprofile2.png){:.medium.center.border}</figure>
 
 ### Step 4: Enter the required information and connect
 {:#create-profile}
@@ -44,14 +43,14 @@ The screen of the Wi-Fi settings will be displayed after you select the SSID `00
 | Account name       | Enter the User ID for the UTokyo Wi-Fi (begin with a `u` and end with `@wifi.u-tokyo.ac.jp`) |
 | Password      | Enter the password for the UTokyo Wi-Fi      |
 
-![](img/macos26-createprofile.png){:.medium.center.border}
+![](./img/macos26-createprofile.png){:.medium.center.border}
 
 #### Supplement
 {:#create-profile-notes}
-* Enter the user ID and password for the UTokyo Wi-Fi account into the fields of “Account name” and “Password”. Note that they are not the regular ID and password for the UTokyo Account. You can check the user ID and password in the notification email described in the ”**Preparation**” step or the screen of the completed application.
+* Enter the user ID and password for the UTokyo Wi-Fi account into the fields of “Account name” and “Password”. Note that they are not the 10-digit Common ID and password for the UTokyo Account. You can check the user ID and password in the notification email described in the ”**Preparation**” step or the screen of the completed application.
 * If there are any setting items other than mentioned above, please configure them as needed. If you have no particular preferences, you can leave the default settings. For details, please refer to the [Apple Support page](https://support.apple.com/en-us/guide/mac-help/mh11935/mac).
 * During the connecting operation, a screen asking if you trust the certificate may appear. To verify whether the certificate is correct, compare the "server fingerprint" of the displayed certificate with the fingerprint listed in 「[Connect Configuration](/en/utokyo_wifi/#connect-configuration)」. If they match, trust the certificate.
-    * In addition, there are two types of fingerprints (SHA-1 and SHA-256) listed on [Connect Configuration](/en/utokyo_wifi/#connect-configuration);matching one type will suffice. ![](img/macos26-certificate.png){:.medium.center.border}
+    * In addition, there are two types of fingerprints (SHA-1 and SHA-256) listed on [Connect Configuration](/en/utokyo_wifi/#connect-configuration);matching one type will suffice. ![](./img/macos26-certificate.png){:.medium.center.border}
 
 ## Troubleshooting guide
 {:#trouble-connect}
