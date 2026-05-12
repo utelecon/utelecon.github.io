@@ -23,7 +23,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ### 重要
 
 <div class="box">
-**OSディスクの種類**の選択で、初期選択の`Premium SSD`を選択すると Standard HDD の約３～５倍のクレジットを消費し，`Standard SSD`の場合は約２倍のクレジットを消費するため，想定外のクレジット消費が発生し問い合わせるケースが増えております．**ディスクに高性能を求める構成でなければ`Satndard HDD`をご選択ください．**
+**OSディスクの種類**の選択で、初期選択の`Premium SSD`を選択すると Standard HDD の約３～５倍のクレジットを消費し，`Standard SSD`の場合は約２倍のクレジットを消費するため，想定外のクレジット消費が発生し問い合わせるケースが増えております．**ディスクに高性能を求める構成でなければ`Standard HDD`をご選択ください．**
 
 **注意**：`Standard HDD`は 2028 年 9 月に提供が終了される予定で，それまでに`Standard SSD`か`Premium SSD`に移行する必要がある旨 Microsoft Azure からアナウンスされています．当面はまだ利用可能ですが，長期利用を検討されている場合はあらかじめご留意ください．
 </div>
@@ -49,7 +49,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">可用性ゾーンとは</Fragment>
-  <Fragment slot="solution"><p>同一リージョン内に配置された，ネットワーク・電源・冷却設備などが独立したデータセンター群を指します．概念としては，隣接する複数の建物にそれぞれ独立して構築されたデータセンター（ゾーン）が，1つの可用性ゾーンを構成しているイメージです．</p><p>一般的に，可用性ゾーンは3つ以上のゾーンで構成されます．複数のゾーンを指定することで，ゾーン間でプライマリ／バックアップ構成やHA（High Availability：高可用性）構成を実現できます．</p><p>※ 本利用例の通りに設定した場合は冗長構成はとられず，いずれかのゾーン内に単独で構成されます．</p></Fragment>
+  <Fragment slot="solution"><p>同一リージョン内に配置された，ネットワーク・電源・冷却設備などが独立したデータセンター群を指します．概念としては，隣接する複数の建物にそれぞれ独立して構築されたデータセンター（ゾーン）が，1つの可用性ゾーンを構成しているイメージです．</p><p>一般的に，可用性ゾーンは3つ以上のゾーンで構成されます．複数のゾーンを指定することで，ゾーン間でプライマリ／バックアップ構成やHA（High Availability：高可用性）構成を実現できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
