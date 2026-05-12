@@ -1,5 +1,5 @@
 ---
-title: Maintenace on UTokyo Account User Menu (June 6, 2022)
+title: Maintenance on UTokyo Account User Menu (June 6, 2022)
 ---
 
 <div>Dear UTokyo Account Users</div>

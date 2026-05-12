@@ -57,7 +57,7 @@ Hosts can set the number of breakout sessions, assign participants to breakout s
 
 
 ## Locking your Webex Meeting
-When hosting a highly confidential meeting, you may lock the meeting to prevent new participants from freely joining. **Note that the Lobby fuction is not available in End-to-End Encrypted Meetings.**
+When hosting a highly confidential meeting, you may lock the meeting to prevent new participants from freely joining. **Note that the Lobby function is not available in End-to-End Encrypted Meetings.**
 - When a meeting is locked, new participants who come to join the meeting will wait in the lobby.
 	![](img/webex_meeting_lock.png){:.border}
 

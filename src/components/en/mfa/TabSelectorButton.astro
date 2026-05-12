@@ -6,6 +6,7 @@ import MicrosoftAuthenticator from "./select/MicrosoftAuthenticator.mdx";
 import AuthenticatorApplication from "./select/AuthenticatorApplication.mdx";
 import Phone from "./select/Phone.mdx";
 import Fido from "./select/Fido.mdx";
+import Passkey from "./select/Passkey.mdx";
 import type { Step } from "@components/pages/mfa/tabs";
 
 interface Props {
@@ -22,6 +23,7 @@ const { step } = Astro.props;
     auth_app: "Other Authenticator Apps",
     phone: "Phone Number",
     fido: step === "alt" ? "FIDO Security Key" : undefined,
+    passkey: step === "alt" ? "Passkey" : undefined,
   }}
   guide="Select an verification method you will register."
 >
@@ -29,4 +31,5 @@ const { step } = Astro.props;
   <AuthenticatorApplication group={step} slot="auth_app" />
   <Phone group={step} slot="phone" />
   <Fido group={step} slot="fido" />
+  <Passkey group={step} slot="passkey" />
 </BaseTabSelectorButton>

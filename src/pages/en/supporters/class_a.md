@@ -40,7 +40,7 @@ The Work for Class Supporter (Examples of the expected work)
 * Class Supporters will <font color="green">intervene</font> when you find some fundamental troubles at your class as follows: 
   * If class supporters realize the lecturers mute, please say "Teacher, I cannot hear your voice/ see your shared screen. Please unmute/ reset your shared screen." 
   * Checking chat sent by the students. (Depending on the class style) 
-  * The job of class supporters, in a word, is to prevent from occuring the worst case of happening (e.g. the lecturers spoke 30 minutes without noticing theri unmute)
+  * The job of class supporters, in a word, is to prevent from occurring the worst case of happening (e.g. the lecturers spoke 30 minutes without noticing their unmute)
   * The Class Supporter masters the very fundamental troubleshooting on the online conference systems.  
 * <font color="green">Collecting information regarding online conference systems and sharing with it, if the Class Supporter affard to do.</font>
 

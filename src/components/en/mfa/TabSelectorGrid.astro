@@ -6,6 +6,7 @@ import MicrosoftAuthenticator from "./select/MicrosoftAuthenticator.mdx";
 import AuthenticatorApplication from "./select/AuthenticatorApplication.mdx";
 import Phone from "./select/Phone.mdx";
 import Fido from "./select/Fido.mdx";
+import Passkey from "./select/Passkey.mdx";
 ---
 
 <BaseTabSelectorGrid
@@ -14,6 +15,7 @@ import Fido from "./select/Fido.mdx";
     auth_app: "Other Authenticator Apps",
     phone: "Phone Number",
     fido: "FIDO Security Key",
+    passkey: "Passkey",
   }}
   columnLabels={{
     first: "Step 1",
@@ -24,4 +26,5 @@ import Fido from "./select/Fido.mdx";
   <AuthenticatorApplication group="initial" slot="auth_app" />
   <Phone group="initial" slot="phone" />
   <Fido group="initial" slot="fido" />
+  <Passkey group="initial" slot="passkey" />
 </BaseTabSelectorGrid>

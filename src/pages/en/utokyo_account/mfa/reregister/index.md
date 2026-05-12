@@ -128,7 +128,7 @@ You can apply for reregistration at the relevant office of your faculty/graduate
 #### Apply via the dedicated application website
 {:#dedicated-site}
 
-You can apply for reregistration via the application website. You are required to upload the photo of your student / staff ID card to verify your identity on this website.
+You can apply for reregistration via the application website. You are required to upload the photo of your student / staff ID card to verify your identity on this website. The maximum file size for photo uploads is 1.9MB. If your file exceeds this limit, an error will occur. Please reduce the image size before submitting your application.
 
 Please note that your application will not be processed until the next business day or later if you apply at night or on weekends and holidays because your application will be reviewed by our staff before processing.
 

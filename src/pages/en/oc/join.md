@@ -1,5 +1,5 @@
 --- 
-title: How to join a online class
+title: How to join an online class
 ---
 
 This page explains how to join a “simultaneous interactive” online class conducted via web conference systems such as Zoom or Webex. 

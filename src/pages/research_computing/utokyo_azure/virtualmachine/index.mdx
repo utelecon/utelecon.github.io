@@ -10,11 +10,11 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 ## 概要
 {:#about}
 
-本サービスで多く利用されると思われる，仮想マシンの作成を最低限の構成で行う一例です．詳細な設定，構築方法は以下の Microsoft Lean の記事もご参照ください．
+本サービスで多く利用されると思われる，仮想マシンの作成を最低限の構成で行う一例です．詳細な設定，構築方法は以下の Microsoft Learn の記事もご参照ください．
 - [クイック スタート:Azure portal で Linux 仮想マシンを作成する](https://learn.microsoft.com/ja-jp/azure/virtual-machines/linux/quick-create-portal?WT.mc_id=UI_empg&tabs=ubuntu)
 - [クイック スタート:Azure Portal で Windows 仮想マシンを作成する](https://learn.microsoft.com/ja-jp/azure/virtual-machines/windows/quick-create-portal?WT.mc_id=UI_empg)
 
-参考： [**仮想マシンを作ろう -13BのLlama-3モデルをLoRA fine-tuningしたい-**](https://utelecon.adm.u-tokyo.ac.jp/events/2025-02-21/slides/5-3_create_VM.pdf) (2025.02.21 UTokyo Azure 説明会資料)
+参考： [**仮想マシンを作ろう -13BのLlama-3モデルをLoRA fine-tuningしたい-**](/events/2025-02-21/slides/5-3_create_VM.pdf) (2025.02.21 UTokyo Azure 説明会資料)
 
 ## １．サービスを選択する
 {:#select_service}
@@ -58,7 +58,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 #### インスタンスの詳細
 
-- **仮想マシン名**：仮想マシンをAzure Portal 内で管理する際の名称です．わかりやすい名称を入力してくだささい．ここでは`testmachine`と入力しています．
+- **仮想マシン名**：仮想マシンをAzure Portal 内で管理する際の名称です．わかりやすい名称を入力してください．ここでは`testmachine`と入力しています．
 - **リージョン**：仮想マシンをどの地域（リージョン）にあるデータセンターにデプロイするかを指定します．使いたい機能が特定の国のリージョンにしかない場合は，その国のリージョンを選択ください．海外のパブリッククラウド上での情報管理に不安がある場合は日本国内（`Japan East` か`Japan West`）のリージョンを選択することも可能です．
 - **可用性オプション**：特段の必要が無ければ`インフラストラクチャ冗長は必要ありません`を選択してください．
 <HelpItem lang="ja" type="details">
@@ -105,7 +105,7 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 #### OSディスク
 
 - **OSディスクサイズ**：いくつかのサイズから選択できますので，必要な容量を選択ください．
-- **OSディスクの種類**：初期選択の`Premium SSD`は Standard HDD の約３～５倍，`Standard SSD`は約２倍の費用がかかるので．**ディスクに高性能を求める構成でなければ`Satndard HDD`をご選択ください．**
+- **OSディスクの種類**：初期選択の`Premium SSD`は Standard HDD の約３～５倍，`Standard SSD`は約２倍の費用がかかるので．**ディスクに高性能を求める構成でなければ`Standard HDD`をご選択ください．**
 
 ![](img/06_osdisk.png){:.medium.center.border}
 
@@ -187,6 +187,6 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 <div class="box">
 - 利用が完全に終了した仮想マシンであれば，仮想マシン自体を削除することでもギフトクレジットの消費は停止します．
-- デプロイしたマシンから`halt`や`shotdown`を実施してもマシンは停止しますが，Azure Portal のリソース上は起動したままの表示になっていますので，改めて起動したい場合は`再起動`をクリックしてください．
+- デプロイしたマシンから`halt`や`shutdown`を実施してもマシンは停止しますが，Azure Portal のリソース上は起動したままの表示になっていますので，改めて起動したい場合は`再起動`をクリックしてください．
 - ストレージは，VMの状態に関わらずストレージサービス自体を停止または削除しない限り常にギフトクレジットを消費し続けます．ご注意ください．
 </div>

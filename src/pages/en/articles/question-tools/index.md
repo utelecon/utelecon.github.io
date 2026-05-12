@@ -80,7 +80,7 @@ Since you can have the posted questions flow across your screen, you can read an
 
 (Online References)
 * **[Communicating with Your Students Using Commentscreen](/articles/commentscreen/)** (in Japanese): Provides an overview of the service, along with instructions on how to use it.
-* **[Good Practices for Online Classes / Professor Naohiko Sugita, Manufacturing Systems](/good-practice/interview/sugita/)** (in Japanese): A practical example of a class using CommenScreen to take questions.
+* **[Good Practices for Online Classes / Professor Naohiko Sugita, Manufacturing Systems](/good-practice/interview/sugita/)** (in Japanese): A practical example of a class using CommentScreen to take questions.
 * **[CommentScreen Official Website](https://commentscreen.com/en)**: Gives an overview of the system.
 
 ### For Large Classes or When You Want to Take Many Questions at Once

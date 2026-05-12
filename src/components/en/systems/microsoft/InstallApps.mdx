@@ -2,6 +2,7 @@ import Support from "@components/utils/Support.astro";
 import Switch from "@components/utils/Switch.astro";
 import HelpItem from "@components/utils/HelpItem.astro";
 import If from "@components/utils/If.astro"
+import HelpHaveNoAccess from '@components/en/systems/utokyo_account/HelpHaveNoAccess.mdx'
 
 {/**
   * @typedef {object} Props
@@ -21,11 +22,7 @@ import If from "@components/utils/If.astro"
 
 1. Access [Microsoft 365 > Apps](https://m365.cloud.microsoft/apps/?auth=2) and sign in with your UTokyo Account (your 10-digit Common ID followed by `@utac.u-tokyo.ac.jp`).
     <If cond={props.variant !== "oc"}>For detailed instructions and information on switching between Microsoft accounts, see [**Signing in to Microsoft Systems with UTokyo Account**](/en/microsoft/signin/).</If>
-    <details>
-       <summary>Help: If you see a "You don't have access to this" error</summary>
-        The <a href="/en/utokyo_account/mfa/">Multi-Factor Authentication for your UTokyo Account</a> required to use Microsoft Office applications may not have been completed or may not yet be reflected in the system. Please make sure to complete the "<strong><a href="/en/utokyo_account/mfa/initial/">Initial Setup Procedures for UTokyo Account Multi-Factor Authentication</a></strong>" <strong>all the way through "Step 4: Apply to use Multi-Factor Authentication"</strong> to enable Multi-Factor Authentication for your UTokyo Account. After that, <strong>please wait approximately 30 minutes for the Multi-Factor Authentication settings to be reflected in the system</strong>.
-        <div>If the problem persists, please consult the <a href="/en/support/">Technical Support Desk</a>.</div>
-    </details>
+    <HelpHaveNoAccess system="Microsoft Office applications" type="details" />
 2. Click "Install apps" in the upper right corner of the screen, and then click "Microsoft 365 Apps" from the menu that appears.
     <HelpItem lang="en" type={"details"}>
       <Fragment slot="problem">If "Microsoft 365 Apps" is not displayed</Fragment>
