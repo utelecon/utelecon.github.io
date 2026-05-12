@@ -72,7 +72,7 @@ to ensure that individuals cannot be identified.
 
 ### （4）Research ethics review is mandatory.
 
-Data will only be provided for research projects that have been approved by the university's Research ethics review board.
+Data will only be provided for research projects that have been approved by the university's research ethics review board.
 
 For further details on our policies, please refer to [the policies of the Campus-wide Computing Research Division at the Information Technology Center](https://media.itc.u-tokyo.ac.jp/policy.html).
 
