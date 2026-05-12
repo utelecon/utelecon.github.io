@@ -20,9 +20,14 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 
 <FirstTimeUsing type="details" />
 
+### 重要
+
 <div class="box">
-**補足**：複数マシンによるクラスタ構成を組みたい場合は[スケールセット(VMSS)](https://learn.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/overview)を選択ください．その場合のこの後の構成手順はリンク先をご参照ください．
+**OSディスクの種類**を選択する際、初期選択の`Premium SSD`を選択すると Standard HDD の約３～５倍のクレジットを消費し，`Standard SSD`の場合は約２倍のクレジットを消費するため，想定外のクレジット消費が発生し問い合わせるケースが増えております．**ディスクに高性能を求める構成でなければ`Satndard HDD`をご選択ください．**
+注意：`Satndard HDD`は 2028 年 9 月に提供が終了される予定で，それまでに`Standard SSD`か`Premium SSD`に移行する必要がある旨アナウンスされています．当面はまだ利用可能ですが，長期利用を検討されている場合はあらかじめご留意ください．
 </div>
+
+### UTokyo Azure 向け補足
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">UTokyo Account で仮想マシンに ssh ログインさせたい場合</Fragment>
@@ -30,13 +35,20 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">可用性ゾーンとは</Fragment>
-  <Fragment slot="solution"><p>同一リージョン内で，ネットワーク，電源，冷却装置等が独立しているデータセンターの集合で，イメージとしては，隣接している複数のビルそれぞれに独立して構築されているデータセンター（ゾーン）が一つの可用性ゾーンを形成している感じになります．</p><p>可用性ゾーンは通常3ゾーン以上で構成されていて，ゾーンを複数指定するとそのゾーン間でプライマリバックアップやHAを構成することが可能になります．</p><p>※ 本利用例の通りに設定した場合は冗長構成はとられず，いずれかのゾーン内に単独で構成されます．</p></Fragment>
+  <Fragment slot="problem">仮想マシン OS に Windows OS のテンプレートを選択した場合</Fragment>
+  <Fragment slot="solution"><p>ページ最下部に**マルチテナントをホストする権利を持つ有効な Windows 10/11 ライセンスを所有しています**という項目があるのでチェックを入れてください．UTokyo Azure では [UTokyo Microsoft License](/microsoft/) で認証されたOSを利用できます．※Server エディションは適用外です．ご注意ください．</p><p>Windows 10 は 2025年10月に公式のサポートは終了しております．互換性等の事情で必須である場合以外は Windows 11 を選択してください．</p><p>WindowsOS は必要最小スペックが高めですので、VMサイズを選択する際は最小スペックにご注意ください．特に Windows11 を選択する場合は [Microsoft Learn：Azure 仮想マシンでの Windows 11 のサポート](https://learn.microsoft.com/ja-jp/troubleshoot/azure/virtual-machines/windows/windows-11-support-azure-virtual-machines)を事前に参照ください．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">仮想マシン OS に Windows OS のテンプレートを選択した場合</Fragment>
-  <Fragment slot="solution"><p>ページ最下部に**マルチテナントをホストする権利を持つ有効な Windows 10/11 ライセンスを所有しています**という項目があるのでチェックを入れてください．UTokyo Azure では [UTokyo Microsoft License](/microsoft/) で認証されたOSを利用できます．※Server エディションは適用外です．ご注意ください．</p><p>Windows 10 は 2025年10月に公式のサポートは終了しております．互換性等の事情で必須である場合以外は Windows 11 を選択してください．</p><p>WindowsOS は必要最小スペックが高めですので、VMサイズを選択する際は最小スペックにご注意ください．特に Windows11 を選択する場合は [Microsoft Learn：Azure 仮想マシンでの Windows 11 のサポート](https://learn.microsoft.com/ja-jp/troubleshoot/azure/virtual-machines/windows/windows-11-support-azure-virtual-machines)を事前に参照ください．</p></Fragment>
+  <Fragment slot="problem">最後の確認で「優先する電話番号」という項目がある場合</Fragment>
+  <Fragment slot="solution">本サービス契約担当者の電話番号が自動入力されていますので変更しないようお願いします．この項目が表示されない場合はそのまま進めて問題ありません．</Fragment>
+</HelpItem>
+
+### その他
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">可用性ゾーンとは</Fragment>
+  <Fragment slot="solution"><p>同一リージョン内で，ネットワーク，電源，冷却装置等が独立しているデータセンターの集合で，イメージとしては，隣接している複数のビルそれぞれに独立して構築されているデータセンター（ゾーン）が一つの可用性ゾーンを形成している感じになります．</p><p>可用性ゾーンは通常3ゾーン以上で構成されていて，ゾーンを複数指定するとそのゾーン間でプライマリバックアップやHAを構成することが可能になります．</p><p>※ 本利用例の通りに設定した場合は冗長構成はとられず，いずれかのゾーン内に単独で構成されます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -48,10 +60,6 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
   <Fragment slot="solution">ここで選択する受信ポート規則はVM作成直後の接続用の設定なので，運用中に通信するポート規則は仮想マシン作成後，[ネットワークセキュリティグループ](/research_computing/utokyo_azure/virtualmachine/nsg/)機能で改めて設定してください．</Fragment>
 </HelpItem>
 
-<div class="box">
-**OSディスクの種類**：初期選択の`Premium SSD`は Standard HDD の約３～５倍，`Standard SSD`は約２倍の費用がかかるので．**ディスクに高性能を求める構成でなければ`Satndard HDD`をご選択ください．**
-</div>
-
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">定期的に仮想マシンをシャットダウンさせたい場合</Fragment>
   <Fragment slot="solution">毎日定期であれば，**管理**パートの`自動シャットダウン`に条件を入力して下さい．もう少し複雑な操作（平日だけや自動起動も行わせる等）をさせたい場合は，**監視**サービスを利用してください．</Fragment>
@@ -61,10 +69,6 @@ import FirstTimeUsing from "@components/ja/systems/utokyo_azure/FirstTimeUsing.m
   <Fragment slot="solution">[CPU使用率が一定時間に一定値以下だった場合の構成例](/research_computing/utokyo_azure/virtualmachine/autostop/)を参照ください．</Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
-  <Fragment slot="problem">「優先する電話番号」という項目がある場合</Fragment>
-  <Fragment slot="solution">本サービス契約担当者の電話番号が自動入力されていますので変更しないようお願いします．この項目が表示されない場合はそのまま進めて問題ありません．</Fragment>
-</HelpItem>
 
 ## 仮想マシンの一時休止
 
