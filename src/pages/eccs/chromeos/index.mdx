@@ -91,7 +91,7 @@ uteleconでは，ECCSのChromeOSデバイスに特有の事項を中心に説明
       </details>
    - （Chromeboxの場合）まず，キーボードのCtrlキーを押してください[^2]．
    
-      [^2]: 任意のキーで構いませんが，Enterキー等は予期しない操作をしてしまう可能性があるため，避けたほうが良いとされます．
+      [^2]: 任意のキーで構いませんが，Enterキー等は予期しない操作をしてしまう可能性があるため，避けたほうが無難です．
 
       - ディスプレイの電源が切れているとき（右下にある電源インジケータが光っていないとき）は，画面右下の電源ボタンを押して，電源を入れてください．
       - 本体の電源がついていないときは，ディスプレイの背面にある，Chromebox本体の電源ボタンを押してください．
@@ -99,15 +99,31 @@ uteleconでは，ECCSのChromeOSデバイスに特有の事項を中心に説明
 
    <details id="disconnect-wifi">
    <summary>Wi-Fiに接続してしまった場合</summary>
-      1. 右下の時刻表示を押し，Ethernetと表示されているボタンを押してください．
+
+      Wi-Fiに接続してしまった場合は，接続情報を削除するようにしてください．サインイン時の画面からも削除できますが，現在その場に存在しないネットワークや，接続できないネットワークはサインイン後でないと削除できません．
+
+      **サインイン画面から削除する場合**
+
+      1. 右下の時刻表示を押し，「Ethernet」と表示されているボタンを押してください．
+         ![](./img/wifi-disconnect-signin-1.drawio.png)
       2. 接続してしまったWi-Fiを選択してください．
+         ![](./img/wifi-disconnect-signin-2.drawio.png)
       3. 「Forget」を押してください．
+         ![](./img/wifi-disconnect-signin-3.drawio.png)
+
+      **サインイン後に削除する場合**
+
+      1. 「設定」を開き，左側のタブから「ネットワーク」を選択してください．
+      2. 「Wi-Fi」を開き，「既知のネットワーク」を開いてください．
+         ![](./img/wifi-disconnect-settings-1.drawio.png)
+      3. 削除したいネットワークの右側の「⋮」を押し，「削除」を押してください．
+         ![](./img/wifi-disconnect-settings-2.drawio.png)
    </details>
 
 3. 「Enter your email」の欄に，[ECCSクラウドメール](/google/)のメールアドレス（設定した文字列+`@g.ecc.u-tokyo.ac.jp`）を入力してください．
    - [10桁の共通ID+`@g.ecc.u-tokyo.ac.jp`や，エイリアス](/google/misc/localpart/)は利用できません．
 4. UTokyo Accountでのサインインを求められますので，サインインしてください．
-   - FIDOセキュリティキーを利用して，パスワードレスでサインインすることも可能です．ドックのUSB Type-A，もしくはUSB Type-Cのコネクタにセキュリティキーを接続して，「Sign-in Options」を押し，「Face, fingerprint, PIN or security key」を選択してください．
+   - FIDOセキュリティキーを利用して，パスワードレスでサインインすることも可能です．ドックのUSB Type-A，もしくはUSB Type-Cポートにセキュリティキーを接続して，「Sign-in Options」を押し，「Face, fingerprint, PIN or security key」を選択してください．
       - 認識されない場合は一度抜いて差し直してください
    - Stay signed in?と聞かれますが，Yes/Noのどちらを選択しても影響はありません．
 
