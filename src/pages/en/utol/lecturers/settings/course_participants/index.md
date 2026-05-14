@@ -64,7 +64,7 @@ The following information can be viewed in the “Course participant list”.
     ![](menu.png){:.medium}
 3. Click the "Download" button in the "Download Course participants list" field.
     ![](download.png){:.medium}
-4. You will be prompted to set a password for the Excel file. Enter a password of your choice, then click the "Download" button again. The Excel file (`.xlsx` format) will be downloaded.
+4. You will be prompted to set a password for the Excel file. Enter a password of your choice, then click the "Download" button again. The Excel file (`.xlsx` format) will be downloaded. (This password will be required when viewing the list in the Excel file.)
     ![](set-password.png){:.medium}
 
 ## Registering Course Participants
