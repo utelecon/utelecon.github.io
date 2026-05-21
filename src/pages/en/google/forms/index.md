@@ -57,7 +57,7 @@ If you wish to use grading features, please refer to the [Quiz Settings](#テス
 
 ## Basic Flow for Creating a Form
 
-This section introduces the general flow for creating a form. For more detailed information on usage, please refer to "[How to Use Google Forms](https://support.google.com/docs/answer/6281888?hl=ja&co=GENIE.Platform%3DDesktop)"（official help）and the sections below "Useful Features When Editing a Form" on this page.やこのページの「[フォーム編集時の便利機能](#useful_features_for_form_editing)」より下の部分を確認してください．
+This section introduces the general flow for creating a form. For more detailed information on usage, please refer to "[How to Use Google Forms](https://support.google.com/docs/answer/6281888?hl=ja&co=GENIE.Platform%3DDesktop)"（official help）and the sections below "[Useful Features When Editing a Form](#useful_features_for_form_editing)" on this page.
 
 フォームを作成する全体の流れは次のようになります．
 
