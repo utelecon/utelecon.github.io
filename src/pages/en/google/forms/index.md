@@ -59,168 +59,168 @@ If you wish to use grading features, please refer to the [Quiz Settings](#テス
 
 This section introduces the general flow for creating a form. For more detailed information on usage, please refer to "[How to Use Google Forms](https://support.google.com/docs/answer/6281888?hl=ja&co=GENIE.Platform%3DDesktop)"（official help）and the sections below "[Useful Features When Editing a Form](#useful_features_for_form_editing)" on this page.
 
-フォームを作成する全体の流れは次のようになります．
+The overall flow for creating a form is as follows:
 
-* 手順1：[新規フォーム作成](#create_new_form)
-* 手順2：[質問作成](#create_questions)
-* 手順3：[公開・共有](#publish_and_share)
-* 手順4：[回答の確認](#check_answer)
+* Step 1：[Create a New Form](#create_new_form)
+* Step 2：[Create Questions](#create_questions)
+* Step 3：[Publish & Share](#publish_and_share)
+* Step 4：[Check Responses](#check_answer)
 
-### 手順1：新規フォーム作成
+### Step 1: Create a New Form
 {:#create_new_form}
 
-1. [https://docs.google.com/forms/](https://docs.google.com/forms/)にアクセスしてください．
-2. 『新しいフォームを作成』の中のテンプレートから，作成したいフォームを選択してください．
+1. Go to[https://docs.google.com/forms/](https://docs.google.com/forms/)．
+2. From the "Create a new form" section, select a template for the type of form you want to create.
 
-### 手順2：質問作成
+### Step 2: Create Questions
 {:#create_questions}
 
-フォームは，任意の個数の質問から構成されています．以下では，質問の作成方法を説明します．「[フォームを編集する](https://support.google.com/docs/answer/2839737?hl=ja&ref_topic=6063584&sjid=2142759939340137168-NC#zippy=)」（公式ヘルプ）も適宜ご参照ください．
+A form consists of any number of questions. The following explains how to create questions. Please also refer to "[Edit a Form](https://support.google.com/docs/answer/2839737?hl=ja&ref_topic=6063584&sjid=2142759939340137168-NC#zippy=)" (official help)as needed.
 
 ![](./creating-form.png){:.medium}
-1. 「質問を追加」ボタンから質問を追加してください．
-2. 質問の内容を記述してください．
-3. 質問の形式を設定してください．
-   * より具体的な方法は「[フォームの質問の形式を選択する](https://support.google.com/docs/answer/7322334?hl=ja&ref_topic=6063584&sjid=2142759939340137168-NC#zippy=)」（公式ヘルプ）をご参照ください．
-   * ファイルをアップロードするタイプの解答選択肢は，共有ドライブに置かれているフォームでは使えないことに注意してください．
-4. 選択式の回答形式においては，選択肢の設定を行ってください．
+1. Click the "Add question" button to add a question.
+2. Enter the content of the question.
+3. Set the question format.
+   * For more specific instructions, see"[Choose a question format for your form](https://support.google.com/docs/answer/7322334?hl=ja&ref_topic=6063584&sjid=2142759939340137168-NC#zippy=)" (official help).
+   * Please note that file upload answer options cannot be used in forms stored in shared drives.
+4. For multiple-choice answer formats, configure the answer options.
 
-### 手順3：公開・共有
+### Step 3: Publish & Share
 {:#publish_and_share}
 
-作成したフォームを公開して他者が回答できるように共有したり，フォームを他者と共同で編集するように共有したりする手順を説明します．「[フォームを公開して回答者と共有する](https://support.google.com/docs/answer/2839588?hl=ja&ref_topic=6063592&sjid=18353895898968559699-NC)」（公式ヘルプ）もご参照ください．
+This section explains how to publish a completed form so others can respond, and how to share it for collaborative editing. Please also refer to "[Publish a form and share it with respondents](https://support.google.com/docs/answer/2839588?hl=ja&ref_topic=6063592&sjid=18353895898968559699-NC)" (official help).
 
-なお，テストとして利用する場合の設定や回答内容の記録に関する設定など，フォームを公開して回答してもらう前に行うべき設定もあります．必要に応じて下部「[フォームに関する設定](#form_settings)」も確認し設定してください．
+Please note that there are settings you should configure before publishing the form, such as settings for use as a test or for recording responses. Check the "[Form Settings](#form_settings)section at the bottom of this page and configure as needed.
 
-#### フォームの公開
+#### Publishing the Form
 
-ページ右上の「公開」ボタンから，フォームを回答できる状態に公開することができます．
+You can publish the form to accept responses by clicking the "Publish" button in the upper right of the page.
 
 ![](./publishing-form.png){:.medium}
 
-公開後は，「回答を受付中」のボタンから回答の受付を停止することができます．フォームを公開しただけでは，誰も回答することはできません．以下「[回答者への共有](#sharing_with_respondents)」を経て回答することができるようになります．
+After publishing, you can stop accepting responses using the "Accepting responses" button. Simply publishing the form does not allow anyone to respond — respondents must be given access through the "[Sharing with Respondents](#sharing_with_respondents)" step below.
 
-#### フォームの共有
+#### Sharing the Form
 
-フォームを共有する際，相手は[回答者](#sharing_with_respondents)と[編集者](#sharing_with_editors)の二つの立場が想定されます．そのため共有時の権限も，編集権限と回答権限の異なる2種類があり，回答者には回答権限を，編集者には編集権限を与えることになります．編集権限とは，フォームを編集することができる権限を指し，この権限があれば質問を編集したり回答を見たりすることができます．本来回答してほしい相手に編集権限を譲渡するリンクを共有してしまうと，回答するはずだった相手がフォームを編集することができるようになり収集した情報の漏洩につながるため，注意が必要です．
+there are two types of people you may be sharing with: [respondents](#sharing_with_respondents)and[editors](#sharing_with_editors)．Accordingly, there are two types of permissions — editing permission and response permission. Respondents should be given response permission, while editors should be given editing permission. Editing permission allows the holder to edit the form and view responses. Be careful not to share a link granting editing permission with someone who is only meant to respond, as doing so would allow them to edit the form and could lead to a data breach of the collected information.
 
-またフォームを共有する際，個人情報などの機密情報を収集するようなフォームにおいて「[結果の概要の表示機能](https://support.google.com/docs/answer/2839588?hl=ja#zippy=)」（公式ヘルプ）を利用していると，情報漏洩につながる可能性があるため，注意が必要です．
+Additionally, when sharing forms that collect sensitive information such as personal data, be aware that using the "[Show summary of responses](https://support.google.com/docs/answer/2839588?hl=ja#zippy=)"（official help）feature may lead to information leaks.
 
-編集者・回答者のそれぞれの「制限付き」「東京大学ECCSクラウドメール」などの権限が書かれているボタンを押すことで，フォームに回答することができる人の範囲を変更することができます．
+You can change the scope of users who can respond to the form by clicking the respective buttons for editors and respondents that display permission levels, such as "Restricted" or "The University of Tokyo ECCS Cloud Email."
 
 ![](./sharing-form.png){:.medium}
 
-##### 回答者への共有
+##### Sharing with Respondents
 {:#sharing_with_respondents}
 
-フォームに回答してもらうには，以下の手順で，回答用のリンクを共有する必要があります．
+To have others respond to your form, share the response link by following these steps:
 
-1. 右上のリンクアイコン（「回答者へのリンクをコピー」）を押してください．
-2. 回答用リンクをコピーしてください．
-   * 「URLを短縮」をオンにすることで，短いリンクとして共有することもできます．
+1. Click the link icon in the upper right ("Copy link for respondents").
+2. Copy the response link.
+   * You can also share a shortened link by turning on "Shorten URL."
 
 ![image4](./sharing-form-link.png)
 
-##### 編集者への共有
+##### Sharing with Editors
 {:#sharing_with_editors}
 
-フォームを編集するには，以下のいずれかの方法で編集権限を共有する必要があります．
+To allow others to edit the form, share editing permission using one of the following methods:
 
-* アクセスできるユーザーを直接入力する方法：共有したい相手のメールアドレスなどを入力することで共有できます．
-* ブラウザのツールバーにあるURLをコピーして共有する方法：編集者の選択画面において，「リンクを知っている全員」もしくは「東京大学ECCSクラウドメール」に編集者ビューを許可しておく必要があります．
+* Directly entering the user: Share by entering the email address of the person you want to share with.
+* Copying and sharing the URL from the browser toolbar: You must first allow the editor view for "Anyone with the link" or "The University of Tokyo ECCS Cloud EMail" in the editor selection screen.
 
-#### 公開範囲の管理
+#### Managing Visibility
 
-回答者の「管理」のボタンから，「リンクを知っている全員」もしくは「東京大学ECCSクラウドメール」に公開範囲を限定することができます．「東京大学ECCSクラウドメール」により，回答者を学内構成員に限定することができます．（この場合，学外者はリンクを知っていてもフォームに回答したり，フォームの質問を見たりすることはできません．）
+From the "Manage" button under Respondents, you can limit visibility to "Anyone with the link" or "The University of Tokyo ECCS Cloud Email." Using "University of Tokyo ECCS Cloud Mail" restricts respondents to members within the university. (In this case, people outside the university cannot respond to or view the form's questions, even if they have the link.)
 
-## 手順4：回答の確認
+## Step 4: Check Responses
 {:#check_answer}
 
-ここでは，得られた回答を確認する方法を紹介します．
+This section introduces how to review the responses you have collected.
 
-フォームを編集することができる「質問」タブを「回答」タブに切り替えると，質問ごとまたは個別の回答ごとに回答を確認することができます．また，結果に応じてグラフなどの可視化ツールを自動で用いることができます．
+Switch from the "Questions" tab (where you edit the form) to the "Responses" tab to view responses by question or by individual respondent. Visualization tools such as graphs are also automatically applied based on the results.
 
 ![](./form-result.png){:.medium}
 
-### スプレッドシートに出力する
-得られた結果を，「スプレッドシートにリンク」のボタンからスプレッドシートに自動で出力されるように設定することもできます（すでに得られた回答もスプレッドシートに転記されます）．
+### Exporting to a Spreadsheet
+You can configure the results to be automatically exported to a spreadsheet by clicking the "Link to Sheets" button. (Responses already collected will also be transferred to the spreadsheet.)
 
 ![image6](./linking-spreadsheet.png){:.medium}
 
-スプレッドシート内にある機能を用いて回答を管理したい場合に便利です．また，スプレッドシート上で出力される収集した回答は自由に編集することができます．
+This is useful when you want to manage responses using spreadsheet features. Responses exported to the spreadsheet can be freely edited.
 
-詳しくは，「[フォームの回答の保存先を選択する](https://support.google.com/docs/answer/2917686?hl=ja&ref_topic=6063592&sjid=18353895898968559699-NC)」（公式ヘルプ）をご参照ください．
+For more details, refer to "[Choose where to save form responses](https://support.google.com/docs/answer/2917686?hl=ja&ref_topic=6063592&sjid=18353895898968559699-NC)"（official help）.
 
-#### 回答の削除
+#### Deleting Responses
 
-一部または全部の回答を削除することができます．ただし，一度回答を削除すると，削除された回答を復元することはできないため，注意が必要です．また，回答を削除しても，リンクされているスプレッドシートからは削除されないので注意が必要です．
+You can delete some or all responses. However, once a response is deleted, it cannot be recovered, so please be careful. Also note that deleting responses does not remove them from any linked spreadsheet.
 
-## フォームに回答する際の基本的な流れ
+## Basic Flow for Responding to a Form
 
-ここでは，回答者がGoogleフォームを利用してフォームに回答する際の流れを説明します．
+This section explains the flow for respondents to answer a Google Form.
 
-フォームのオーナーが作成する「回答者へのリンク」にアクセスすることで，回答することができます．全ての必要事項を選択・入力し，「送信」ボタンを押すことで，回答が記録されます．
+You can respond by accessing the "link for respondents" created by the form owner. Select and fill in all required fields, then click the "Submit" button to record your response.
 
-Googleアカウントにログインしたブラウザでは，入力途中の回答が下書きとして30日間自動で保存されます．ただし，これはネットにつながったオンラインの環境下で「フォームのオーナーが自動保存を無効にしていない」場合にのみ可能な機能です．
+When using a browser signed in to a Google account, responses in progress are automatically saved as a draft for 30 days. Note that this feature is only available in an online environment and when "the form owner has not disabled auto-save".
 
-### 「アクセス権が必要です」と表示される場合
+### When "Access Required" Is Displayed
 
-原因は，以下の二つが主に考えられます．詳しくは，「[Google フォームを開く権限を取得する](https://support.google.com/docs/answer/160166?sjid=9391686295985041241-NC)」（公式ヘルプ）もご参照ください
+There are two main possible causes. Please also refer to "[Get permission to open a Google Form](https://support.google.com/docs/answer/160166?sjid=9391686295985041241-NC)"（official help）for more details.
 
-* フォームを開く権限がない
-  * 問題解決には，Google フォームを開く権限を取得する必要があります．
-  * 任意でメッセージを入力し，「アクセス権限をリクエスト」ボタンから権限をリクエストすると，フォームのオーナーに通知されます．
+* You do not have permission to open the form
+  * You need to obtain permission.
+  * You can optionally enter a message and request access via the "Request access" button, which will notify the form owner.
     ![](./access-trouble.png){:.small}
-* アクセス権がないGoogleアカウントにログインしている
-  * 問題解決には，アクセス権を持つ別の Google アカウントにログインする必要があります．
-  * 例えば，「東京大学ECCSクラウドメール」の範囲に限定して公開されているフォームに対しては，東京大学のアカウント以外でログインしていると上記のエラーとなってしまいます．
+* You are signed in to a Google account that does not have access
+  * You need to sign in with a different Google account that has access. 
+  * For example, if a form is restricted to "The University of Tokyo ECCS Cloud Email" accounts, signing in with any other account will result in the above error.
 
-## フォーム編集時の便利機能
+## Useful Features When Editing a Form
 {:#useful_features_for_form_editing}
 
-ここでは，フォームを編集しているときに便利な機能を説明します．
+This section introduces useful features available when editing a form.
 
-下図中の数字は，以下の説明の番号と対応しています．
+The numbers below correspond to the numbered descriptions. 
 ![質問編集画面の右側や下側にあるアイコンでできる機能を紹介しています．](./editing-form.png)
 
-1. 質問のインポート
-   * 「質問のインポート」ボタンからは，他のフォームにおける質問を再利用することができます．ボタンからアクセスし，インポートしたいフォーム，インポートしたい質問の順に選択してください．似たようなフォームを作成する場合など，既に参考にすることができる質問がある場合に作成の手間を省くことができます．
-2. 質問の複製
-   * 「質問を複製」ボタンからは，作成した質問を複製することができます．複製することで，既に作成した質問と似たような質問を作成する際に，1から作り始める必要がなくなります．
-3. 画像，動画の挿入
-   * 「画像を追加」「動画を追加」ボタンからは，フォームに写真や動画を挿入することができます．質問の内容を画像や動画で補足する際に便利です．
-   * 類似の機能として，質問内や選択肢内に画像を挿入する機能もありますが，挿入する画像が質問や選択肢と直接関連するかどうかが異なります．質問内や選択肢内への画像挿入については，後述「[質問編集時の便利機能](#useful_features_for_question_editing) > 画像の挿入」をご参照ください．
-4. セクションの追加
-   * 「セクションの追加」ボタンからは，質問をセクションと呼ばれる単位に分割することで，別々のページに表示したり，これまでの質問の回答によって異なる質問をしたりすることができます．
-   * 質問の回答に応じたセクションの移動に関しては，後述「[質問編集時の便利機能](#useful_features_for_question_editing) > セクションへの移動」をご参照ください．
-   * 作成したセクションは場所を移動したり複製して再度利用することが可能です．また，セクションの削除や結合，順序の移動も可能です．「セクションを削除」ではセクションに含まれる質問も削除されるため，区切りとしてのセクションを削除したい場合は「上と結合」を選択してください．
+1. Import Questions
+   * The "Import questions" button lets you reuse questions from other forms. Click the button, then select the form and the questions you want to import. This saves time when creating a similar form where existing questions can be referenced.
+2. Duplicate a Question
+   * The "Duplicate question" button lets you copy an existing question. This eliminates the need to build a similar question from scratch.
+3. Insert Images and Videos
+   * The "Add image" and "Add video" buttons let you insert photos or videos into the form. This is useful for supplementing question content with visuals. 
+   * Note that there is also a separate feature for inserting images directly within a question or answer option. See "[Useful Features When Editing a Question ](#useful_features_for_question_editing) >  Inserting Images" below for details.
+4. Add a Section
+   * The "Add section" button lets you divide questions into units called sections, which can be displayed on separate pages or used to show different questions based on previous answers.
+   * For details on navigating between sections based on responses, see "[Useful Features When Editing a Question ](#useful_features_for_question_editing) > Navigate to Section" below. 
+   * Sections can be moved, duplicated, deleted, merged, and reordered. Note that "Delete section" also deletes the questions within it — if you only want to remove the section break, choose "Merge with above" instead.
 
-### 質問編集時の便利機能
+### Useful Features When Editing a Question
 {:#useful_features_for_question_editing}
 
-ここでは，フォームの編集の中でも，特に質問を編集しているときに便利な機能を説明します．
+This section introduces features that are particularly useful when editing individual questions.
 
 ![質問編集画面の下側「必須」のトグル，およびその隣のトリコロンの内容を紹介しています．](./editing-question.png)
 
-1. 質問への回答の必須化
-   * 質問の下部「必須」のトグルをオンにすると，該当する質問の回答を必須にすることができます．フォームの回答者は，必須となっている質問に回答せずには「フォームを送信する」または「次のページに進む」ことができないので，回答者から必ず取得したい回答は必須にしておくことが推奨されます．
-2. 選択肢の順序のシャッフル
-   * 「選択肢の順序をシャッフルする」ボタンからは，質問における選択肢の順序を，シャッフルすることができます．テストなどとして利用する際に，回答者によって異なる順番で選択肢を出すことなどが利点として考えられます．
-3. セクションへの移動
-   * 回答方法が選択式（ラジオボタン，プルダウン）である場合，「回答に応じてセクションに移動」ボタンから，回答に応じて移動するセクションを設定することができます．
+1. Making a Response Required
+   * Turning on the "Required" toggle for a question makes it mandatory. Respondents cannot submit the form or proceed to the next page without answering required questions, so it is recommended to mark any question you must receive an answer to as required.
+2. Shuffle Option Order
+   * The "Shuffle option order" button randomizes the order in which answer options are displayed. This can be useful for tests, where you may want different respondents to see options in a different order.
+3. Navigate to Section
+   * For questions with a selection-based format (radio buttons, dropdown), the "Go to section based on answer" button lets you set which section respondents are directed to depending on their answer.Questions to be shown for each answer must be created in separate sections. For detailed setup instructions, refer to "Show questions based on answers" (official help).
    * ある質問における回答に応じて異なる質問を用意している場合，回答に応じて自動的に異なる質問を表示させることができます．この場合，回答に応じて表示する質問はそれぞれ別のセクション内に作成しておく必要があります．
    * 詳しい設定方法は「[回答に応じて質問を表示する](https://support.google.com/docs/answer/141062?hl=ja&ref_topic=6063584&sjid=13364979449790478673-NC) 」(公式ヘルプ)を参照してください．
-4. 回答の検証
+4. Response Validation
    ![](./editing-question-setting.png)
-   * 回答方法が記述を伴うもの，チェックボックス式である場合，「回答の検証」ボタンから回答の際のルール（「値が整数値でなければエラーを出力する」など）を設定することができます．
-   * 集まった回答を用いて処理する場合などには，書式が揃っている方が管理しやすいことが多いです．例えば，年齢を聞く質問において，「半角算用数字」を要求しておけば，漢数字や全角数字での回答はできないので，回答を管理しやすくなることが期待できます．
-5. 画像の挿入
+   * For short-answer or checkbox questions, the "Response validation" button lets you set rules for responses (e.g., "Show an error if the value is not an integer").
+   * Standardizing formats — such as requiring half-width Arabic numerals for an age field — makes it easier to manage collected responses.
+5. Inserting Images
    ![](./editing-question-photo.png)
-   * 質問の内容を補足するために，質問文の右側のボタン（a.）からは質問文に，選択肢の右のボタン（b.）からは選択肢に画像を添付することができます．
-   * 実際に画像を挿入すると，回答画面は以下のように表示されます．質問文の横から挿入した画像は質問文の下に，選択肢の横から挿入した画像は選択肢の上に表示されます．
+   * You can attach images to a question using the button to the right of the question text (a.), or to an answer option using the button to the right of the option (b.). 
+   * Images inserted next to the question text appear below the question; images inserted next to an answer option appear above the option.
       ![](./editing-question-photo-result.png)
 
-## フォームに関する設定
+## Form Settings
 {:#form_settings}
 
 ここでは，フォームに関して設定できるものを紹介します．
