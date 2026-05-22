@@ -1,1 +1,41 @@
+---
+title: About Storage Capacity Limits for Google, Microsoft, and Other Services
+---
 
+The University of Tokyo has university-wide contracts for cloud services provided by Google, Microsoft, and others, which are made available for use by its members. However, when focusing on the amount of data that can be stored in the cloud, there are currently very few services that can be used with unlimited storage capacity. Users are therefore required to use these services within certain limits, or they may be asked to share the cost if they wish to use them beyond those limits.
+
+This article provides an overview of these storage limits, as well as the conditions and methods for using the services beyond those limits. 
+
+| Cloud Storage Name | Eligible Users | Storage Capacity | How to Increase Storage Capacity | Notes |
+| :-: | :-: | :-: | :-: | - |
+| [ECCS Cloud Email (Google Workspace)](/google/) | Students, faculty, and staff | Up to 125 GB per user | Pay the usage fee using a university budget | Total combined storage for Gmail, Google Drive, and Google Photo |
+| [OneDrive](/microsoft/onedrive/) | Students, faculty, and staff| Up to 50 GB per user | Pay the usage fee using a university budget | Does not include staff email |
+| [Microsoft Teams Folders](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Share_Teams_files.aspx) | Faculty and staff members | Up to 100 GB per organization | Pay the usage fee using a university budget |  |
+
+## How to Think About Storage Capacity
+### Is the “Owner” an Individual or a Group?
+
+
+When comparing the terms and conditions of different cloud storage services, there is an important concept you should understand first. Depending on the cloud storage service, the “owner” of files and folders may be either an individual or a group. In most cases, files and folders stored in cloud storage are owned by a specific individual’s account. Therefore, if that person leaves the shared group (for example, due to graduation, retirement, or a transfer), it is necessary to take steps in advance, such as transferring ownership of the files and folders to another person. To address this issue, some services provide a feature that allows multiple users to jointly act as the “owner”. Such functionality is available in the shared drives in Google Drive and team folders in Microsoft Teams. Therefore, if you wish to share files on an ongoing basis within a group or organization where members may change, we recommend using shared drives in Google Drive or team folders in Microsoft Teams.Please read the following sections with this distinction in mind
+
+### How Storage Usage Is Calculated
+
+In Google Workspace, storage usage is calculated as the total amount used by Gmail, Google Drive, and Google Photos. Within Google Drive, there are My Drive, which is owned by an individual, and shared drives, which are owned by a group. In principle, only the storage used in My Drive is counted toward your storage usage. This includes files and folders stored in My Drive that are shared with others (so-called “shared items”).However, if you are designated as a “representative” of a shared drive, the storage usage of that shared drive is also included in your calculation. You can check whether you are a representative of a shared drive on[the Shared Drive Management screen](https://storage-mgt.ecc.u-tokyo.ac.jp/shareddrive/list) in the ECCS Storage Management System. For details on how storage usage is calculated, see 「the page About the ECCS Storage Management System](/google/drive/storage/)」．(only in Japanese)
+
+一方，Microsoftによるサービスである[OneDrive](/microsoft/onedrive/)，[職員メール](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx)（教職員のみ利用可能） ，[Teamsチームフォルダ](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Share_Teams_files.aspx)（教職員のみ利用可能）では，それぞれ別個に保存容量を計算します．
+
+なお，いずれのストレージに関しても，「ごみ箱」に入っているファイルも保存容量の計算に含まれます．また，OneDriveではバージョン管理の機能が有効になっており，過去のバージョンも保存容量の計算に含まれます．このため，サイズの大きいファイルに関しては過去の不要なバージョンを削除することで，空き容量を増やせます（詳しくは[「OneDriveでサイズの大きいファイルを表示させる，バージョン履歴を削除する方法」の動画](https://univtokyo.sharepoint.com/:v:/s/utokyoaccount/ESkNKTQEvV5Er9Ynu3VLFVIBnoYu1cgwI0_KqkwMWlRKRQ?e=uIWA8q)（UTokyo Accountでのサインインが必要です） を参照してください）．
+
+## 容量制限の内容と保存容量の拡張方法
+
+容量制限の内容や，制限を超えて利用するための手続きは，次の通りです．
+
+なお，これらの制限・手続きは，各クラウドサービスの提供事業者との組織契約の内容に基づいて，構成員の皆さんに公平かつ効果的に利用していただけるように，運用ルールとして定めているものです．契約内容の変更によって今後大きく制限・手続きの内容を変えざるを得ない可能性もあるため，注意してください．
+
+### ECCSクラウドメール（Google Workspace）
+
+ECCSクラウドメール（Google Workspace）は，学生・教職員ひとりにつき125GBまで，追加の費用負担なく利用できます．もし共有ドライブの代表者となる場合は，この保存容量の中で各共有ドライブの大きさを割り当てることにより，すべての合計を125GBに収めていただきます．もし割り当てられた容量を超えると，ファイルの追加や編集ができなくなります．
+
+125GBを超えて利用するには，大学の予算を用いて「利用負担金」を支払う必要があります．ただし，大学の予算を持たない構成員であっても，予算を持つ教職員から代わりに利用負担金を負担してもらうことも手続きとしては可能です．保存容量の拡張に関して詳しくは，「[ECCSストレージ管理システムについて](/google/drive/storage/)」のページを参照してください．
+
+なお，共有ドライブ以外の合計に関して，実際の利用状況は，Googleの[「保存容量」の画面](https://drive.google.com/drive/quota)で確認できます．共有ドライブの実際の利用状況は，「ECCSストレージ管理システム」の[「共有ドライブ管理」画面](https://storage-mgt.ecc.u-tokyo.ac.jp/shareddrive/list)で確認できます．
