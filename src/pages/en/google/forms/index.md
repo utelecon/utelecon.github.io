@@ -163,7 +163,7 @@ You can respond by accessing the "link for respondents" created by the form owne
 
 When using a browser signed in to a Google account, responses in progress are automatically saved as a draft for 30 days. Note that this feature is only available in an online environment and when "the form owner has not disabled auto-save".
 
-### When "Access Required" Is Displayed
+### When "You need access" Is Displayed
 
 There are two main possible causes. Please also refer to "[Get permission to open a Google Form](https://support.google.com/docs/answer/160166?sjid=9391686295985041241-NC)"（official help）for more details.
 
@@ -185,12 +185,12 @@ The numbers below correspond to the numbered descriptions.
 
 1. Import Questions
    * The "Import questions" button lets you reuse questions from other forms. Click the button, then select the form and the questions you want to import. This saves time when creating a similar form where existing questions can be referenced.
-2. Duplicate a Question
+2. Duplicate Question
    * The "Duplicate question" button lets you copy an existing question. This eliminates the need to build a similar question from scratch.
-3. Insert Images and Videos
+3. Add Images and Videos
    * The "Add image" and "Add video" buttons let you insert photos or videos into the form. This is useful for supplementing question content with visuals. 
-   * Note that there is also a separate feature for inserting images directly within a question or answer option. See "[Useful Features When Editing a Question ](#useful_features_for_question_editing) >  Inserting Images" below for details.
-4. Add a Section
+   * Note that there is also a similar feature for inserting images directly within a question or responce option. See "[Useful Features When Editing a Question ](#useful_features_for_question_editing) >  Add Images" below for details.
+4. Add Section
    * The "Add section" button lets you divide questions into units called sections, which can be displayed on separate pages or used to show different questions based on previous answers.
    * For details on navigating between sections based on responses, see "[Useful Features When Editing a Question ](#useful_features_for_question_editing) > Navigate to Section" below. 
    * Sections can be moved, duplicated, deleted, merged, and reordered. Note that "Delete section" also deletes the questions within it — if you only want to remove the section break, choose "Merge with above" instead.
@@ -203,18 +203,18 @@ This section introduces features that are particularly useful when editing indiv
 ![質問編集画面の下側「必須」のトグル，およびその隣のトリコロンの内容を紹介しています．](./editing-question.png)
 
 1. Making a Response Required
-   * Turning on the "Required" toggle for a question makes it mandatory. Respondents cannot submit the form or proceed to the next page without answering required questions, so it is recommended to mark any question you must receive an answer to as required.
+   * Turning on the "Required" toggle for a question makes it mandatory. Respondents cannot "Submit" or proceed to "Next" without answering required questions, so it is recommended to mark any question you must receive an answer to as required.
 2. Shuffle Option Order
    * The "Shuffle option order" button randomizes the order in which answer options are displayed. This can be useful for tests, where you may want different respondents to see options in a different order.
 3. Navigate to Section
-   * For questions with a selection-based format (radio buttons, dropdown), the "Go to section based on answer" button lets you set which section respondents are directed to depending on their answer.Questions to be shown for each answer must be created in separate sections. For detailed setup instructions, refer to "Show questions based on answers" (official help).
+   * For questions with a selection-based format (Multiple Choice, Drop-down), the "Go to section based on answer" button lets you set which section respondents are directed to depending on their answer.Questions to be shown for each answer must be created in separate sections. For detailed setup instructions, refer to "Show questions based on answers" (official help).
    * ある質問における回答に応じて異なる質問を用意している場合，回答に応じて自動的に異なる質問を表示させることができます．この場合，回答に応じて表示する質問はそれぞれ別のセクション内に作成しておく必要があります．
-   * 詳しい設定方法は「[回答に応じて質問を表示する](https://support.google.com/docs/answer/141062?hl=ja&ref_topic=6063584&sjid=13364979449790478673-NC) 」(公式ヘルプ)を参照してください．
+   * For more details, see "[Show questions based on answers](https://support.google.com/docs/answer/141062?hl=en-GB&ref_topic=6063584&sjid=2301396309535665051-NC)" (official help).
 4. Response Validation
    ![](./editing-question-setting.png)
-   * For short-answer or checkbox questions, the "Response validation" button lets you set rules for responses (e.g., "Show an error if the value is not an integer").
+   * For short answer or checkboxes questions, the "Response validation" button lets you set rules for responses (e.g., "Show an error if the value is not an integer").
    * Standardizing formats — such as requiring half-width Arabic numerals for an age field — makes it easier to manage collected responses.
-5. Inserting Images
+5. Add Images
    ![](./editing-question-photo.png)
    * You can attach images to a question using the button to the right of the question text (a.), or to an answer option using the button to the right of the option (b.). 
    * Images inserted next to the question text appear below the question; images inserted next to an answer option appear above the option.
@@ -235,8 +235,8 @@ Switching to the "Settings" tab allows you to configure settings related to test
    * Turning on "Make this a quiz" lets you set point values and correct answers for each question, and notifies respondents of their score. 
    * The timing of grading and how results are shared can be configured as needed. 
    * For more information, please refer to the following resources as needed.
-      * [Googleフォームでテストを作成，採点する](https://support.google.com/docs/answer/7032287?hl=ja&ref_topic=6063584&sjid=2142759939340137168-NC#zippy=)（公式ヘルプ）
-      * [Googleフォームで小テストやアンケートを実施する](/articles/google-form/)
+      * [Create & grade quizzes with Google Forms](https://support.google.com/docs/answer/7032287?hl=en&ref_topic=6063584&sjid=18170600648034425782-NC#zippy)（official help）
+      * [Conducting Quizzes and Surveys with Google Forms](/en/articles/google-form/)
 
 ### Response Settings
 
