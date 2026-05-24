@@ -223,50 +223,50 @@ This section introduces features that are particularly useful when editing indiv
 ## Form Settings
 {:#form_settings}
 
-ここでは，フォームに関して設定できるものを紹介します．
+This section introduces the settings available for your form.
 
-「設定」タブに切り替えると，テストに関する設定や回答・質問に関する設定を行うことができます．
+Switching to the "Settings" tab allows you to configure settings related to tests, responses, and question display.
 
-### テストに関する設定
+### Test Settings
 
 ![](./form-setting-test.png)
 
-1. テストとして利用する
-   * 小テストなどにGoogleフォームを利用したいときは，設定タブの「テストにする」をオンにすることで，テストとして利用することができます．テスト機能を用いることで，各々の質問に対し配点と模範解答を設定し，それに基づいた成績を回答者に知らせる採点機能を利用することができるようになります．
-   * 回答後すぐに採点を行うかなどの採点のタイミング・結果の共有の方法などは場合に応じて選択することができます．
-   * その他，適宜以下のサイトをご確認ください．
+1. Use as a Test
+   * Turning on "Make this a quiz" lets you set point values and correct answers for each question, and notifies respondents of their score. 
+   * The timing of grading and how results are shared can be configured as needed. 
+   * For more information, please refer to the following resources as needed.
       * [Googleフォームでテストを作成，採点する](https://support.google.com/docs/answer/7032287?hl=ja&ref_topic=6063584&sjid=2142759939340137168-NC#zippy=)（公式ヘルプ）
       * [Googleフォームで小テストやアンケートを実施する](/articles/google-form/)
 
-### 回答に関する設定
+### Response Settings
 
 ![](./form-setting-answer.png)
 
-2. <span id='collect_email_addresses'>メールアドレスの収集</span>
-   * 「メールアドレスを収集する」を選択すると，回答者のメールアドレスを収集できます．「確認済み」を選択すると自動で，「回答者からの入力」を選択すると回答者の入力により収集することができます．メールアドレスの収集により，回答者の連絡先を入手することができるほか，回答のコピーを回答者に送信することができます．
-   * 「確認済み」を選択する場合，回答者はGoogleアカウントでログインした状態でフォームに回答する必要があり，ログインしていない状態ではログインが求められます．「回答者からの入力」を選択する場合は，ログインの必要はありません．
-3. 回答のコピーの送信
-   * 「回答のコピーを回答者に送信」を選択すると，回答者自身の回答が，入力された（収集された）メールアドレス宛に送信されます．回答者としては自分の回答内容を確認することができます．「常に表示」を選択すれば回答者の意思に関わらず回答を送信することになります．
-4. 回答の編集
-   * 「回答の編集を許可する」をオンにすると，回答者が回答を送信した後でも，回答送信後の画面に表示されるリンクにアクセスすると，送信した回答を編集することができるようになります．ただし，編集することができるのは「回答の受付を終了」するまでです．
-5. 回答回数の制限
-   * 「回答を1回に制限する」をオンにすると，同一のGoogle アカウントからの回答を1回に制限することができます．これをオンにすると，既にフォームに回答したことがある人が回答しようとした場合，既に回答済みである旨が表示されます．ただし同じ人であっても，前の回答で用いたGoogleアカウントとは別のアカウントを利用している場合は，回答できてしまうことに注意が必要です．
-   * 回答者は，Googleアカウントでログインした状態でフォームに回答する必要があります．
+2. <span id='collect_email_addresses'>Collect Email Addresses</span>
+   * Selecting "Collect email addresses" allows you to collect respondents' email addresses. Choosing "Verified" collects them automatically, while "Respondent input" collects them via the respondent's own entry. Collecting email addresses lets you obtain respondents' contact information and send them a copy of their responses.
+   * When "Verified" is selected, respondents must be signed in to a Google account to submit the form; if not signed in, they will be prompted to do so. When "Respondent input" is selected, no sign-in is required.
+3. Send Response Copy
+   * Selecting "Send respondents a copy of their response" sends each respondent's answers to the email address they entered (or that was collected). Respondents can use this to review what they submitted. Selecting "Always" sends the copy regardless of the respondent's preference.
+4. Allow Response Editing
+   * Turning on "Allow response editing" lets respondents edit their submitted answers via a link shown on the post-submission screen, even after submitting. Note that editing is only possible until responses are closed.
+5. Limit to One Response
+   * Turning on "Limit to 1 response" restricts submissions to once per Google account. If someone who has already responded tries to submit again, they will be shown a message indicating they have already responded. Note, however, that the same person can still submit again if they use a different Google account from the one used for their previous response. 
+   * Respondents must be signed in to a Google account to submit the form.
 
-### 質問の表示に関する設定
+### Question Display Settings
 
 ![](./form-setting-display.png)
 
-6. 進行状況バーを表示
-   * 「進行状況バーを表示」をオンにすることで，回答箇所が何セクション目なのかを視覚的に表示させることができます．
-7. 質問のシャッフル
-   * 「質問の順序をシャッフルする」をオンにすることにより，テストなどとして利用する際に，質問を回答者によって異なる順序で表示することができます．シャッフルされるのは、同一セクション内の質問に限ります．
-   * 記録された回答を編集者として確認するときには，元の順番通りとなります．
-8. 結果の概要の表示
-   * 「結果の概要を表示する」をオンにすると，すでに収集されている回答を，フォームの回答が終わった人に対して共有することができます．
-   * この機能は，組織内でのアンケート結果を共有する際などには便利ですが，個人情報を収集するようなフォームにおいて用いると情報漏洩につながる可能性があるため，注意が必要です．
-9. 回答の自動保存
-   * デフォルトでは，Googleフォームに回答する際にその下書きは30日間自動で保存されます．
-   * 「すべての回答者に対して自動保存を無効にする」をオンにすると，自動保存が無効化されます．
-   * 詳しくは，「[Google フォームに入力途中の回答を自動保存する](https://support.google.com/docs/answer/10952360?sjid=9391686295985041241-NC)」（公式ヘルプ）もご参照ください．
+6. Show Progress Bar
+   * Turning on "Show progress bar" displays a visual indicator of which section the respondent is currently on.
+7. Shuffle Question Order
+   * Turning on "Shuffle question order" displays questions in a different order for each respondent, which can be useful for tests. Only questions within the same section are shuffled.
+   * When editors review recorded responses, questions appear in their original order.
+8. Show Summary of Responses
+   * Turning on "Show summary of responses" shares the already-collected results with respondents after they complete the form.
+   * While convenient for sharing survey results within an organization, this feature may lead to information leaks when used with forms that collect personal data, so caution is advised.
+9. Auto-save Responses
+   * By default, response drafts are automatically saved for 30 days when filling out a Google Form.
+   * Turning on "Disable auto-save for all respondents" disables this feature.
+   *For more details, please refer to[Google フォームに入力途中の回答を自動保存する](https://support.google.com/docs/answer/10952360?sjid=9391686295985041241-NC)」(official help).
 
