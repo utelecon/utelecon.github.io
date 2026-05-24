@@ -77,7 +77,7 @@ The overall flow for creating a form is as follows:
 
 A form consists of any number of questions. The following explains how to create questions. Please also refer to "[Edit your Form](https://support.google.com/docs/answer/2839737?hl=en&ref_topic=6063584&sjid=10457253941811607885-NC#zippy)" (official help)as needed.
 
-![](./creating-form.png){:.medium}
+![](./creating-form.jpg){:.medium}
 1. Click the "Add question" button to add a question.
 2. Enter the content of the question.
 3. Set the question format.
@@ -96,7 +96,7 @@ Please note that there are settings you should configure before publishing the f
 
 You can publish the form to accept responses by clicking the "Publish" button in the upper right of the page.
 
-![](./publishing-form.png){:.medium}
+![](./publishing-form.jpg){:.medium}
 
 After publishing, you can stop accepting responses using the "Accepting responses" button. Simply publishing the form does not allow anyone to respond — respondents must be given access through the "[Sharing with Respondents](#sharing_with_respondents)" step below.
 
@@ -108,7 +108,7 @@ Additionally, when sharing forms that collect sensitive information such as pers
 
 You can change the scope of users who can respond to the form by clicking the respective buttons for editors and respondents that display permission levels, such as "Restricted" or "The University of Tokyo ECCS Cloud Email."
 
-![](./sharing-form.png){:.medium}
+![](./sharing-form.jpg){:.medium}
 
 ##### Sharing with Respondents
 {:#sharing_with_respondents}
@@ -119,7 +119,7 @@ To have others respond to your form, share the response link by following these 
 2. Copy the response link.
    * You can also share a shortened link by turning on "Shorten URL."
 
-![image4](./sharing-form-link.png)
+![image4](./sharing-form-link.jpg)
 
 ##### Sharing with Editors
 {:#sharing_with_editors}
@@ -140,12 +140,12 @@ This section introduces how to review the responses you have collected.
 
 Switch from the "Questions" tab (where you edit the form) to the "Responses" tab to view responses by question or by individual respondent. Visualization tools such as graphs are also automatically applied based on the results.
 
-![](./form-result.png){:.medium}
+![](./form-result.jpg){:.medium}
 
 ### Exporting to a Spreadsheet
 You can configure the results to be automatically exported to a spreadsheet by clicking the "Link to Sheets" button. (Responses already collected will also be transferred to the spreadsheet.)
 
-![image6](./linking-spreadsheet.png){:.medium}
+![image6](./linking-spreadsheet.jpg){:.medium}
 
 This is useful when you want to manage responses using spreadsheet features. Responses exported to the spreadsheet can be freely edited.
 
@@ -170,7 +170,7 @@ There are two main possible causes. Please also refer to "[Get permission to ope
 * You do not have permission to open the form
   * You need to obtain permission.
   * You can optionally enter a message and request access via the "Request access" button, which will notify the form owner.
-    ![](./access-trouble.png){:.small}
+    ![](./access-trouble.jpg){:.small}
 * You are signed in to a Google account that does not have access
   * You need to sign in with a different Google account that has access. 
   * For example, if a form is restricted to "The University of Tokyo ECCS Cloud Email" accounts, signing in with any other account will result in the above error.
@@ -181,7 +181,7 @@ There are two main possible causes. Please also refer to "[Get permission to ope
 This section introduces useful features available when editing a form.
 
 The numbers below correspond to the numbered descriptions. 
-![質問編集画面の右側や下側にあるアイコンでできる機能を紹介しています．](./editing-form.png)
+![質問編集画面の右側や下側にあるアイコンでできる機能を紹介しています．](./editing-form.jpg)
 
 1. Import Questions
    * The "Import questions" button lets you reuse questions from other forms. Click the button, then select the form and the questions you want to import. This saves time when creating a similar form where existing questions can be referenced.
@@ -200,7 +200,7 @@ The numbers below correspond to the numbered descriptions.
 
 This section introduces features that are particularly useful when editing individual questions.
 
-![質問編集画面の下側「必須」のトグル，およびその隣のトリコロンの内容を紹介しています．](./editing-question.png)
+![質問編集画面の下側「必須」のトグル，およびその隣のトリコロンの内容を紹介しています．](./editing-question.jpg)
 
 1. Making a Response Required
    * Turning on the "Required" toggle for a question makes it mandatory. Respondents cannot "Submit" or proceed to "Next" without answering required questions, so it is recommended to mark any question you must receive an answer to as required.
@@ -211,14 +211,14 @@ This section introduces features that are particularly useful when editing indiv
    * ある質問における回答に応じて異なる質問を用意している場合，回答に応じて自動的に異なる質問を表示させることができます．この場合，回答に応じて表示する質問はそれぞれ別のセクション内に作成しておく必要があります．
    * For more details, see "[Show questions based on answers](https://support.google.com/docs/answer/141062?hl=en-GB&ref_topic=6063584&sjid=2301396309535665051-NC)" (official help).
 4. Response Validation
-   ![](./editing-question-setting.png)
+   ![](./editing-question-setting.jpg)
    * For short answer or checkboxes questions, the "Response validation" button lets you set rules for responses (e.g., "Show an error if the value is not an integer").
    * Standardizing formats — such as requiring half-width Arabic numerals for an age field — makes it easier to manage collected responses.
 5. Add Images
-   ![](./editing-question-photo.png)
+   ![](./editing-question-photo.jpg)
    * You can attach images to a question using the button to the right of the question text (a.), or to an answer option using the button to the right of the option (b.). 
    * Images inserted next to the question text appear below the question; images inserted next to an answer option appear above the option.
-      ![](./editing-question-photo-result.png)
+      ![](./editing-question-photo-result.jpg)
 
 ## Form Settings
 {:#form_settings}
@@ -229,7 +229,7 @@ Switching to the "Settings" tab allows you to configure settings related to test
 
 ### Test Settings
 
-![](./form-setting-test.png)
+![](./form-setting-test.jpg)
 
 1. Use as a Test
    * Turning on "Make this a quiz" lets you set point values and correct answers for each question, and notifies respondents of their score. 
@@ -240,7 +240,7 @@ Switching to the "Settings" tab allows you to configure settings related to test
 
 ### Response Settings
 
-![](./form-setting-answer.png)
+![](./form-setting-answer.jpg)
 
 2. <span id='collect_email_addresses'>Collect Email Addresses</span>
    * Selecting "Collect email addresses" allows you to collect respondents' email addresses. Choosing "Verified" collects them automatically, while "Respondent input" collects them via the respondent's own entry. Collecting email addresses lets you obtain respondents' contact information and send them a copy of their responses.
@@ -255,7 +255,7 @@ Switching to the "Settings" tab allows you to configure settings related to test
 
 ### Question Display Settings
 
-![](./form-setting-display.png)
+![](./form-setting-display.jpg)
 
 6. Show Progress Bar
    * Turning on "Show progress bar" displays a visual indicator of which section the respondent is currently on.
