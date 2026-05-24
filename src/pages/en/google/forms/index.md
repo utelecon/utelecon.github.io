@@ -70,25 +70,25 @@ The overall flow for creating a form is as follows:
 {:#create_new_form}
 
 1. Go to[https://docs.google.com/forms/](https://docs.google.com/forms/)．
-2. From the "Create a new form" section, select a template for the type of form you want to create.
+2. From the "Start a new form" section, select a template for the type of form you want to create.
 
 ### Step 2: Create Questions
 {:#create_questions}
 
-A form consists of any number of questions. The following explains how to create questions. Please also refer to "[Edit a Form](https://support.google.com/docs/answer/2839737?hl=ja&ref_topic=6063584&sjid=2142759939340137168-NC#zippy=)" (official help)as needed.
+A form consists of any number of questions. The following explains how to create questions. Please also refer to "[Edit your Form](https://support.google.com/docs/answer/2839737?hl=en&ref_topic=6063584&sjid=10457253941811607885-NC#zippy)" (official help)as needed.
 
 ![](./creating-form.png){:.medium}
 1. Click the "Add question" button to add a question.
 2. Enter the content of the question.
 3. Set the question format.
-   * For more specific instructions, see"[Choose a question format for your form](https://support.google.com/docs/answer/7322334?hl=ja&ref_topic=6063584&sjid=2142759939340137168-NC#zippy=)" (official help).
+   * For more specific instructions, see"[Choose a type of question for your form](https://support.google.com/docs/answer/7322334?hl=en&ref_topic=6063584&sjid=10457253941811607885-NC#zippy)" (official help).
    * Please note that file upload answer options cannot be used in forms stored in shared drives.
 4. For multiple-choice answer formats, configure the answer options.
 
 ### Step 3: Publish & Share
 {:#publish_and_share}
 
-This section explains how to publish a completed form so others can respond, and how to share it for collaborative editing. Please also refer to "[Publish a form and share it with respondents](https://support.google.com/docs/answer/2839588?hl=ja&ref_topic=6063592&sjid=18353895898968559699-NC)" (official help).
+This section explains how to publish a completed form so others can respond, and how to share it for collaborative editing. Please also refer to "[Publish & share your form with responders](https://support.google.com/docs/answer/2839588?hl=en&ref_topic=6063592&sjid=10457253941811607885-NC)" (official help).
 
 Please note that there are settings you should configure before publishing the form, such as settings for use as a test or for recording responses. Check the "[Form Settings](#form_settings)section at the bottom of this page and configure as needed.
 
@@ -102,9 +102,9 @@ After publishing, you can stop accepting responses using the "Accepting response
 
 #### Sharing the Form
 
-there are two types of people you may be sharing with: [respondents](#sharing_with_respondents)and[editors](#sharing_with_editors)．Accordingly, there are two types of permissions — editing permission and response permission. Respondents should be given response permission, while editors should be given editing permission. Editing permission allows the holder to edit the form and view responses. Be careful not to share a link granting editing permission with someone who is only meant to respond, as doing so would allow them to edit the form and could lead to a data breach of the collected information.
+There are two types of people you may be sharing with: [respondents](#sharing_with_respondents)and[editors](#sharing_with_editors)．Accordingly, there are two types of permissions — editing permission and response permission. Respondents should be given response permission, while editors should be given editing permission. Editing permission allows the holder to edit the form and view responses. Be careful not to share a link granting editing permission with someone who is only meant to respond, as doing so would allow them to edit the form and could lead to a data breach of the collected information.
 
-Additionally, when sharing forms that collect sensitive information such as personal data, be aware that using the "[Show summary of responses](https://support.google.com/docs/answer/2839588?hl=ja#zippy=)"（official help）feature may lead to information leaks.
+Additionally, when sharing forms that collect sensitive information such as personal data, be aware that using the "[Show a summary of responses](https://support.google.com/docs/answer/2839588?hl=en&sjid=10457253941811607885-NC#zippy=%2C回答の概要を表示する%2Cshow-a-summary-of-responses)"（official help）feature may lead to information leaks.
 
 You can change the scope of users who can respond to the form by clicking the respective buttons for editors and respondents that display permission levels, such as "Restricted" or "The University of Tokyo ECCS Cloud Email."
 
@@ -115,7 +115,7 @@ You can change the scope of users who can respond to the form by clicking the re
 
 To have others respond to your form, share the response link by following these steps:
 
-1. Click the link icon in the upper right ("Copy link for respondents").
+1. Click the link icon in the upper right ("Copy responder link").
 2. Copy the response link.
    * You can also share a shortened link by turning on "Shorten URL."
 
@@ -131,7 +131,7 @@ To allow others to edit the form, share editing permission using one of the foll
 
 #### Managing Visibility
 
-From the "Manage" button under Respondents, you can limit visibility to "Anyone with the link" or "The University of Tokyo ECCS Cloud Email." Using "University of Tokyo ECCS Cloud Mail" restricts respondents to members within the university. (In this case, people outside the university cannot respond to or view the form's questions, even if they have the link.)
+From the "Manage" button under Respondents, you can limit visibility to "Anyone with the link" or "The University of Tokyo ECCS Cloud Email." Using "The University of Tokyo ECCS Cloud Email" restricts respondents to members within the university. (In this case, people outside the university cannot respond to or view the form's questions, even if they have the link.)
 
 ## Step 4: Check Responses
 {:#check_answer}
