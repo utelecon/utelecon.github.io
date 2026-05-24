@@ -149,7 +149,7 @@ You can configure the results to be automatically exported to a spreadsheet by c
 
 This is useful when you want to manage responses using spreadsheet features. Responses exported to the spreadsheet can be freely edited.
 
-For more details, refer to "[Choose where to save form responses](https://support.google.com/docs/answer/2917686?hl=ja&ref_topic=6063592&sjid=18353895898968559699-NC)"（official help）.
+For more details, refer to "[Choose where to save form responses](https://support.google.com/docs/answer/2917686?hl=en-GB&ref_topic=6063592&sjid=2301396309535665051-NC)"（official help）.
 
 #### Deleting Responses
 
