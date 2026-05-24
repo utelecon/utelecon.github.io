@@ -268,5 +268,5 @@ Switching to the "Settings" tab allows you to configure settings related to test
 9. Auto-save Responses
    * By default, response drafts are automatically saved for 30 days when filling out a Google Form.
    * Turning on "Disable auto-save for all respondents" disables this feature.
-   *For more details, please refer to[Google フォームに入力途中の回答を自動保存する](https://support.google.com/docs/answer/10952360?sjid=9391686295985041241-NC)」(official help).
+   *For more details, please refer to[Autosave your response progress on a Google Form](https://support.google.com/docs/answer/10952360?sjid=9391686295985041241-NC)(official help).
 
