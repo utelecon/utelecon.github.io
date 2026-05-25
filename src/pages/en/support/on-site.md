@@ -35,7 +35,7 @@ Consultations are available at two locations in the Komaba area and one location
 Consultations are generally available on weekdays from 10:20 a.m. to 6:30 p.m. However, please note the following:
 - Services are provided only during each facility’s opening hours.
 - As student staff work on a rotating schedule, we may not be able to respond even during the above hours. The actual availability[^1] is published on the following page (scroll the table toward the right to view it):
-<b class="box center">[Consultation Schedule](https://cs-gm.adm.u-tokyo.ac.jp/gm/schedule/2026pres/) (only in Japanese)</b>
+<b class="box center">[Consultation Schedule](https://cs-gm.adm.u-tokyo.ac.jp/gm/schedule/2026s/) (only in Japanese)</b>
 - During Periods of particularly high demand, consultation days and hours may be extended.
 
 [^1]: The meaning of each time slot displayed on the schedule page is as shown in the following table.　Early, mid, and late: <table>
