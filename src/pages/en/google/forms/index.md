@@ -243,12 +243,12 @@ Switching to the "Settings" tab allows you to configure settings related to test
 ![](./form-setting-answer.jpg)
 
 2. <span id='collect_email_addresses'>Collect Email Addresses</span>
-   * Selecting "Collect email addresses" allows you to collect respondents' email addresses. Choosing "Verified" collects them automatically, while "Respondent input" collects them via the respondent's own entry. Collecting email addresses lets you obtain respondents' contact information and send them a copy of their responses.
-   * When "Verified" is selected, respondents must be signed in to a Google account to submit the form; if not signed in, they will be prompted to do so. When "Respondent input" is selected, no sign-in is required.
+   * Selecting "Collect email addresses" allows you to collect respondents' email addresses. Choosing "Verified" allows you to collect them automatically, or "Respondender input" allows you to collect them via the respondent's own entry. Collecting email addresses lets you obtain respondents' contact information and send them a copy of their responses.
+   * When "Verified" is selected, respondents must be signed in to a Google account to submit the form; if not signed in, they will be prompted to do so. When "Respondender input" is selected, no sign-in is required.
 3. Send Response Copy
-   * Selecting "Send respondents a copy of their response" sends each respondent's answers to the email address they entered (or that was collected). Respondents can use this to review what they submitted. Selecting "Always" sends the copy regardless of the respondent's preference.
+   * If you select "Send respondents a copy of their answers," a copy of their responses will be sent to the email address they provided. This allows respondents to review their own submitted answers. If you select "Always," a copy will be sent regardless of the respondent's preference.
 4. Allow Response Editing
-   * Turning on "Allow response editing" lets respondents edit their submitted answers via a link shown on the post-submission screen, even after submitting. Note that editing is only possible until responses are closed.
+   * Turning on "Allow response editing" lets respondents edit their submitted answers via a link shown on the post-submission screen, even after submitting.Please note that editing is only possible until responses are closed.
 5. Limit to One Response
    * Turning on "Limit to 1 response" restricts submissions to once per Google account. If someone who has already responded tries to submit again, they will be shown a message indicating they have already responded. Note, however, that the same person can still submit again if they use a different Google account from the one used for their previous response. 
    * Respondents must be signed in to a Google account to submit the form.
