@@ -4,36 +4,36 @@ breadcrumb:
   title: Google Forms
 ---
 
-This page explains how to use Google Forms. It also outlines potential use cases tailored for utilizing the service within the University of Tokyo.
+This page explains how to use Google Forms. It also includes examples of anticipated use case when used at the University of Tokyo.
 
-## About Google Forms
+## What is Google Forms?
 
 Google Forms is a tool that allows you to easily create forms and surveys to collect information. 
 It features the following capabilities:
 
-* You can create forms easily.
-* You can also use form templates.
-* You can clearly organize and analyze collected information.
-* You can collaborate throughout the entire process.
+* Create forms easily
+* Use form templates as needed
+* Organize and analyze collected information clearly
+* Collaborate throughout the entire process
 
-This page introduces the basic workflow of creating and responding to forms, as well as the functions and settings available when editing them. Please note that the instructions provided here assume you are operating from a PC. For detailed usage and specific procedures, please refer to the Official Help.
+This page introduces the basic workflow of creating and responding to forms, as well as the functions and settings available when editing them. Please note that the instructions provided here assume you are operating from a PC. For detailed usage and specific procedures, please refer to the official help.
 
-You can access Google Forms by using your ECCS Cloud Email account (the University of Tokyo's Google account). By using your ECCS Cloud Email account, you can restrict form access exclusively to UTokyo members.
+You can access Google Forms by using your ECCS Cloud Email account (the University of Tokyo's Google account). By using your ECCS Cloud Email account, you can restrict form access to UTokyo members only.
 
-## Potential Use Cases
+## Use Cases
 
 ### Using as a Survey Form
 
-This section introduces how to use Google Forms as a survey form.Please note that [UTOL](/utol/lecturers/surveys/) also offers similar features for conducting surveys within a class.
+This section introduces how to use Google Forms as a survey form. Please note that [UTOL](/utol/lecturers/surveys/) also offers similar features for conducting surveys within a class.
 
-Potential scenarios for use include class attendance forms, event registration, and feedback surveys.By[メcollecting email addresses],(#collect_email_addresses)you can send detailed event information directly to the respondents' email addresses.
+Possible use cases include class attendance forms, event registration, and feedback surveys. By [collecting email addresses](#collect_email_addresses) you can send event details and other information to the respondents' email addresses.
 
 #### Using as an Attendance Form
 
-When instructors use a survey form as a class attendance form,please note that[UTOL](/utol/lecturers/attendances/)also provides similar capabilities. The respective advantages of Google Forms and UTOL are as follows:
+When instructors use a survey form as a class attendance form, please note that [UTOL](/utol/lecturers/attendances/) also provides similar capabilities. The respective advantages of Google Forms and UTOL are as follows:
 
 * Advantages of using Google Forms
-  * You can easily share survey results in lectures that invite external lecturers, where using UTOL might be difficult.
+  * In lectures where external instructors are invited and UTOL may be difficult to use, survey results can be shared more easily.
   * You can conduct anonymous surveys by turning off the email address collection setting.
 * Advantages of using UTOL
   * You can configure settings for late registration.
@@ -43,7 +43,7 @@ When instructors use a survey form as a class attendance form,please note that[U
 
 This section introduces how to use Google Forms for quizzes.
 
-This is intended for instructors to check students' understanding of the lecture.As with the class attendance forms,[UTOL](/utol/lecturers/quizzes/)also offers similar features.
+This is intended for instructors to check students' understanding of the lecture. As with the class attendance forms,[UTOL](/utol/lecturers/quizzes/) also offers similar features.
 
 * Advantages of using Google Forms
   * You can allow non-registered participants (such as auditors) to respond without requiring any special configurations.
@@ -53,11 +53,11 @@ This is intended for instructors to check students' understanding of the lecture
   * You can immediately check the response status of registered students.
   * You can immediately download grading data.
 
-If you wish to use grading features, please refer to the [Quiz Settings](#テストに関する設定)section described later in this document.
+If you wish to use grading features, please refer to the [Quiz Settings](#test-settings) section described later in this page.
 
 ## Basic Flow for Creating a Form
 
-This section introduces the general flow for creating a form. For more detailed information on usage, please refer to "[How to Use Google Forms](https://support.google.com/docs/answer/6281888?hl=ja&co=GENIE.Platform%3DDesktop)"（official help）and the sections below "[Useful Features When Editing a Form](#useful_features_for_form_editing)" on this page.
+This section introduces the general flow for creating a form. For more detailed information on usage, please refer to "[How to Use Google Forms](https://support.google.com/docs/answer/6281888?hl=en&co=GENIE.Platform%3DDesktop&sjid=7739918649012816148-NC)"（official help）and the sections below "[Useful Features When Editing a Form](#useful_features_for_form_editing)" on this page.
 
 The overall flow for creating a form is as follows:
 
@@ -69,13 +69,13 @@ The overall flow for creating a form is as follows:
 ### Step 1: Create a New Form
 {:#create_new_form}
 
-1. Go to[https://docs.google.com/forms/](https://docs.google.com/forms/)．
+1. Go to [https://docs.google.com/forms/](https://docs.google.com/forms/)．
 2. From the "Start a new form" section, select a template for the type of form you want to create.
 
 ### Step 2: Create Questions
 {:#create_questions}
 
-A form consists of any number of questions. The following explains how to create questions. Please also refer to "[Edit your Form](https://support.google.com/docs/answer/2839737?hl=en&ref_topic=6063584&sjid=10457253941811607885-NC#zippy)" (official help)as needed.
+A form consists of any number of questions. The following explains how to create questions. Please also refer to "[Edit your Form](https://support.google.com/docs/answer/2839737?hl=en&ref_topic=6063584&sjid=10457253941811607885-NC#zippy)" (official help) as needed.
 
 ![](./creating-form.jpg){:.medium}
 1. Click the "Add question" button to add a question.
@@ -88,9 +88,9 @@ A form consists of any number of questions. The following explains how to create
 ### Step 3: Publish & Share
 {:#publish_and_share}
 
-This section explains how to publish a completed form so others can respond, and how to share it for collaborative editing. Please also refer to "[Publish & share your form with responders](https://support.google.com/docs/answer/2839588?hl=en&ref_topic=6063592&sjid=10457253941811607885-NC)" (official help).
+This section explains how to publish a completed form so that others can respond, and how to share it for collaborative editing. Please also refer to "[Publish & share your form with responders](https://support.google.com/docs/answer/2839588?hl=en&ref_topic=6063592&sjid=10457253941811607885-NC)" (official help).
 
-Please note that there are settings you should configure before publishing the form, such as settings for use as a test or for recording responses. Check the "[Form Settings](#form_settings)section at the bottom of this page and configure as needed.
+Please note that there are settings you should configure before publishing the form, such as settings for use as a test and for recording responses. Check the "[Form Settings](#form_settings)" section at the bottom of this page and configure as needed.
 
 #### Publishing the Form
 
@@ -98,11 +98,11 @@ You can publish the form to accept responses by clicking the "Publish" button in
 
 ![](./publishing-form.jpg){:.medium}
 
-After publishing, you can stop accepting responses using the "Accepting responses" button. Simply publishing the form does not allow anyone to respond — respondents must be given access through the "[Sharing with Respondents](#sharing_with_respondents)" step below.
+After publishing, you can stop accepting responses using the "Accepting responses" button. Simply publishing the form does not allow anyone to respond.Responses can only be collected after completing the steps described in "[Sharing with Respondents](#sharing_with_respondents)" step below.
 
 #### Sharing the Form
 
-There are two types of people you may be sharing with: [respondents](#sharing_with_respondents)and[editors](#sharing_with_editors)．Accordingly, there are two types of permissions — editing permission and response permission. Respondents should be given response permission, while editors should be given editing permission. Editing permission allows the holder to edit the form and view responses. Be careful not to share a link granting editing permission with someone who is only meant to respond, as doing so would allow them to edit the form and could lead to a data breach of the collected information.
+There are two types of people you may be sharing with: [respondents](#sharing_with_respondents) and [editors](#sharing_with_editors)．Accordingly, there are two types of permissions — editing permission and response permission. Respondents should be given response permission, while editors should be given editing permission. Editing permission allows the holder to edit the form and view responses. Be careful not to share a link granting editing permission with someone who is only meant to respond, as doing so would allow them to edit the form and could lead to a data breach of the collected information.
 
 Additionally, when sharing forms that collect sensitive information such as personal data, be aware that using the "[Show a summary of responses](https://support.google.com/docs/answer/2839588?hl=en&sjid=10457253941811607885-NC#zippy=%2C回答の概要を表示する%2Cshow-a-summary-of-responses)"（official help）feature may lead to information leaks.
 
