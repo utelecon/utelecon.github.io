@@ -1,9 +1,123 @@
 ---
-title: vdi-windows
+title: Remote Windows Environment
 breadcrumb:
-  title: vdi-windows
+  title: Remote Windows Environment
 ---
 
-import InPreparationECCS2026 from "@components/en/InPreparationECCS2026.mdx";
+## Overview
 
-<InPreparationECCS2026 />
+The Remote Windows Environment is a service that enables users to access Windows environments via the internet[^1]. By using this service, users can use software such as Microsoft 365 Apps (Microsoft Office) even without a Windows PC at hand. In addition, software such as Stata/SE, for which the university provides licenses, are available free of charge through this service.
+
+[^1]: This is generally referred to as a Virtual Desktop Infrastructure (VDI). In particular, [Windows 365 Frontline](https://www.microsoft.com/ja-jp/windows-365)(in Japanese) is provided.
+
+The Remote Windows Environment is available only to members of the University of Tokyo (academic staff, administrative staff, and students) who have a UTokyo Account.
+
+Please note that this environment differs from a typical Windows PC. Before using this service, be sure to review the [differences](#differences) outlined below carefully and take appropriate precautions to prevent data loss.
+
+Additionally, it is important to note that there is a university-wide limit on the number of concurrent users. If you need to use it for courses, you can make a reservation for usage slots. For more details, please refer to the "[Usage Limits and Reservations](#quota-and-reservation)" section.
+
+### Differences From a Typical Windows Device
+{:#differences}
+
+The Remote Windows Environment differs from a typical Windows PC. Some of the differences are listed below:
+
+#### If the connection is lost, any data you are working on may be deleted
+
+In the following cases, the session will automatically be terminated, and all data and work history in the environment will be deleted.
+
+- A certain period of time has passed since the last recorded user activity.
+- A certain period of time has passed since the connection was disconnected.
+- When using a service with a reservation, and the reserved time has ended (please note that the session may not be terminated exactly at the scheduled end time).
+
+To prevent data loss, please be sure to save necessary files frequently and store them outside of this environment. The following can be used for external storage:
+
+- **OneDrive** (some folders will automatically be synchronized with the cloud)
+  - OneDrive provided under the UTokyo Microsoft License is automatically available on the virtual environment, which is linked to the UTokyo Account used to sign in to it.
+  - The **Desktop, Document** and **Picture folders** are automatically synchronized with OneDrive.
+  - You can also access OneDrive through Explorer. Files created there are automatically uploaded to OneDrive.
+
+- **Google Drive** (selected folders are automatically synchronized with the cloud)
+  - Initial setup using the Google Drive app is required
+  - Folders to be synchronized can be selected in the Google Drive app.
+
+- **Downloading via File Transfer**
+  - If you do not wish to store files in cloud storage, you can download them to your local device.
+  - Please note that you need to download files each time you make changes in the remote
+    environment in order to save them.
+
+In addition, when using Microsoft Office365 apps (such as Word or PowerPoint), you can save files directly to OneDrive from within the app.
+
+Please note that OneDrive and Google Drive have storage limits. Therefore, please be careful not to place unnecessarily large files in folders that are synchronized with the cloud.
+
+#### Unable to Install New Apps
+
+You cannot install new applications on the Remote Windows Environment (including from the Microsoft Store).
+In addition, actions that require administrative privileges (such as creating a WSL environment) are not permitted.
+
+In particular, since the Zoom app is not installed in the Remote Windows Environment, if you need to share your screen in classes, please access Zoom from your local device and share your screen using a browser or Windows app.
+
+#### Unable to Access Services Available Only on the UTokyo Network
+
+Because the Remote Windows Environment is not on the UTokyo network, services that are available only within the University (including e-journals) cannot be accessed.
+
+For access to e-journals, please consider using EzProxy. For other services, please consider connecting from your local devices using the UTokyo VPN instead of the Remote Windows Environment.
+
+## Specifications
+
+The specifications are as follows:
+
+- OS: Windows 11 Enterprise
+- CPU: 2 vCPU
+- Memory: 8 GB
+- Storage: 256 GB
+  - Please note that, as described in "Differences From a Typical Windows Device", data may be deleted after a certain period of time has passed since the connection was disconnected or since the last recorded user activity.
+
+### Available Software (partial list)
+
+Software which requires high computing performance, such as CAD applications, may not perform well in this environment. If such software can be used on your local device, we recommend installing and using it there.
+
+#### Software that Requires Software License Authentication, etc.
+
+- Microsoft 365 Apps (Microsoft Office; Word, PowerPoint, etc.): Automatically activated based on the UTokyo Account used to sign in to the environment. Please note that these applications are available only to students and academic and administrative staff employed by the University of Tokyo.
+- MATLAB: Sign in using your own MathWorks account. At the University of Tokyo, MATLAB is available at no additional cost under the UTokyo MATLAB license. For details on how to start using it, please refer to the UTokyo MATLAB License webpage.
+- Autodesk Fusion: Sign in using your own Autodesk account. As of March 2026, it is available free of charge upon registration for Autodesk Student Access.
+- JMP Pro: Sign in using your own My JMP account. As of March 2026, it is available free of charge upon registration for JMP Student Edition.
+- Stata/SE:A license is provided by the University.
+- EndNOTE online: A licence is provided by the University.
+- TNTlite: A free version is installed.
+
+#### Other Installed Software
+
+A list of software installed in addition to the above is provided below. Other software may also be available, so please check the actual environment for details.
+
+- Firefox
+- Google Chrome
+- Microsoft Edge
+- Adobe Acrobat Reader DC
+- VLC media player
+- Microsoft Build of OpenJDK
+- Visual Studio Code
+- MinGW-w64
+- Ruby
+- GIMP
+- Inkscape
+- TexLive
+- R
+- RStudio
+
+## Usage Limits and Reservations
+{:#quota-and-reservation}
+
+The total number of concurrent users for the Remote Windows Environment is limited to 200 across the University.
+
+Of these, 18 slots are available without reservations (free slots), and 182 slots require a reservation. As the number of free slots is limited, reservation in advance is recommended if you need to ensure access.
+
+- Free Slots (3 slots x 6 groups \= 18 slots in total): Available without reservation.
+  - Users are divided into 6 groups of approximately equal size, with 3 slots available per group.
+  - In the screen of the Windows App, they are displayed as "ECCS-FREEn" (where n is a number from 1 to 6). These options may not appear or connections may fail if the slots are full. For more details, please refer to the "How to Use" section.
+- Reserved slots (182 slots): Reservation in Advance required
+  - Reservation methods differ depending on what the virtual environment will be used for (e.g. for courses vs. for personal use). Please refer to the “Reservations” page for details.
+
+## How to Use
+
+You can access the service via a web browser or a dedicated application. For detailed instructions, please refer to the "[How to Use](./usage/)" page.
