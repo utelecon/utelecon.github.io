@@ -29,6 +29,8 @@ The purpose of use is limited to educational and research activities and related
 Also, please refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms/)".
 
 ## How to start using MATLAB
+{:#how-to-start}
+
 When using MATLAB under the University of Tokyo’s campus-wide license, your UTokyo Account is used as your MathWorks account.
 Please note that even if you created a MathWorks account before December 2024 using the previously provided format (i.e., a University of Tokyo email address ending with u-tokyo.ac.jp rather than a UTokyo Account), you can still sign in using your UTokyo Account.
 1. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click “Sign In to Get Started” located in the middle of the page.
