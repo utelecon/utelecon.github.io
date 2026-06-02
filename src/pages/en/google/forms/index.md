@@ -192,7 +192,7 @@ The numbers below correspond to the numbered descriptions.
    * There is also a similar feature for inserting images to questions or options. The key difference is whether the image directly relates to the content. See "[Useful Features When Editing a Question ](#useful_features_for_question_editing) >  Add Images" below for details.
 4. Add Section
    * The "Add section" button lets you divide questions into units called sections, which can be displayed on separate pages or used to show different questions based on previous answers.
-   * For details on navigating between sections based on responses, see "[Useful Features When Editing a Question ](#useful_features_for_question_editing) > Navigate to Section" below. 
+   * For details on going to sections based on responses, see "[Useful Features When Editing a Question ](#useful_features_for_question_editing) > Go to Section" below. 
    * You can move or duplicate created sections to reuse them. Additionally, you can delete, merge, or reorder sections. Note that "Delete section" also deletes the questions within it. If you only want to remove the section break, choose "Merge with above" instead.
 
 ### Useful Features When Editing a Question
@@ -204,20 +204,20 @@ This section introduces features that are particularly useful when editing indiv
 
 1. Making a Response Required
    * Turning on the "Required" toggle for a question makes it mandatory. Respondents cannot "Submit" or proceed to "Next" without answering required questions, so it is recommended to mark any question you must receive an answer to as required.
-2. Shuffle Option Order
+2. Go to Section
+   * For questions with a selection-based format (Multiple Choice, Drop-down), the "Go to section based on answer" button lets you set which section respondents are directed to depending on their answer. 
+   * You can automatically display different questions based on the respondent's answers. Questions to be shown for each answer must be created in separate sections. 
+   * For detailed setup instructions, refer to "[Show questions based on answers](https://support.google.com/docs/answer/141062?hl=en-GB&ref_topic=6063584&sjid=2301396309535665051-NC)" (official help). 
+3. Shuffle Option Order
    * The "Shuffle option order" button randomizes the order in which answer options are displayed. This can be useful for tests, where you may want different respondents to see options in a different order.
-3. Navigate to Section
-   * For questions with a selection-based format (Multiple Choice, Drop-down), the "Go to section based on answer" button lets you set which section respondents are directed to depending on their answer.Questions to be shown for each answer must be created in separate sections. For detailed setup instructions, refer to "Show questions based on answers" (official help).
-   * ある質問における回答に応じて異なる質問を用意している場合，回答に応じて自動的に異なる質問を表示させることができます．この場合，回答に応じて表示する質問はそれぞれ別のセクション内に作成しておく必要があります．
-   * For more details, see "[Show questions based on answers](https://support.google.com/docs/answer/141062?hl=en-GB&ref_topic=6063584&sjid=2301396309535665051-NC)" (official help).
 4. Response Validation
    ![](./editing-question-setting.jpg)
    * For short answer or checkboxes questions, the "Response validation" button lets you set rules for responses (e.g., "Show an error if the value is not an integer").
-   * Standardizing formats — such as requiring half-width Arabic numerals for an age field — makes it easier to manage collected responses.
+   * When processing collected responses, having a consistent format often makes data management easier.For example, if you require "half-width numbers" for an age question, respondents will be blocked from entering kanji numerals or full-width numbers, making response management far more efficient.
 5. Add Images
    ![](./editing-question-photo.jpg)
-   * You can attach images to a question using the button to the right of the question text (a.), or to an answer option using the button to the right of the option (b.). 
-   * Images inserted next to the question text appear below the question; images inserted next to an answer option appear above the option.
+   * To provide additional context for your questions, you can attach images to a question using the button on the right of the question text (a.), or to an answer option using the button on the right of the each option (b.). 
+   * When you insert images,he respondent view will look like this: images added next to the question text appear below the question, while images added next to an option appear above that option.
       ![](./editing-question-photo-result.jpg)
 
 ## Form Settings
@@ -232,8 +232,8 @@ Switching to the "Settings" tab allows you to configure settings related to test
 ![](./form-setting-test.jpg)
 
 1. Use as a Test
-   * Turning on "Make this a quiz" lets you set point values and correct answers for each question, and notifies respondents of their score. 
-   * The timing of grading and how results are shared can be configured as needed. 
+   * If you want to use Google Forms for tests, you can enable this by turning on the "Make this a quiz" option. By using the quiz feature, you can assign point values and correct answers for each question. This allows you to utilize the grading functionality to share scores with respondents based on their answers.
+   * Depending on your needs, you can customize the grading options, such as choosing whether to release scores immediately after each submission or at a later time.
    * For more information, please refer to the following resources as needed.
       * [Create & grade quizzes with Google Forms](https://support.google.com/docs/answer/7032287?hl=en&ref_topic=6063584&sjid=18170600648034425782-NC#zippy)（official help）
       * [Conducting Quizzes and Surveys with Google Forms](/en/articles/google-form/)
@@ -243,13 +243,13 @@ Switching to the "Settings" tab allows you to configure settings related to test
 ![](./form-setting-answer.jpg)
 
 2. <span id='collect_email_addresses'>Collect Email Addresses</span>
-   * Selecting "Collect email addresses" allows you to collect respondents' email addresses. Choosing "Verified" allows you to collect them automatically, or "Respondender input" allows you to collect them via the respondent's own entry. Collecting email addresses lets you obtain respondents' contact information and send them a copy of their responses.
+   * Selecting "Collect email addresses" allows you to gather respondents' email addresses. You can choose either "Verified" to collect them automatically, or "Responder input" to have respondents enter them manually. This enables you to obtain their contact information and send them a copy of their responses.
    * When "Verified" is selected, respondents must be signed in to a Google account to submit the form; if not signed in, they will be prompted to do so. When "Respondender input" is selected, no sign-in is required.
 3. Send Response Copy
-   * If you select "Send respondents a copy of their answers," a copy of their responses will be sent to the email address they provided. This allows respondents to review their own submitted answers. If you select "Always," a copy will be sent regardless of the respondent's preference.
+   * If you select "Send responders a copy of their response," a copy of their responses will be sent to the email address they provided. This allows respondents to review their own submitted answers. If you select "Always," a copy will be sent regardless of the respondent's preference.
 4. Allow Response Editing
    * Turning on "Allow response editing" lets respondents edit their submitted answers via a link shown on the post-submission screen, even after submitting.Please note that editing is only possible until responses are closed.
-5. Limit to One Response
+5. Limit to 1 Response
    * Turning on "Limit to 1 response" restricts submissions to once per Google account. If someone who has already responded tries to submit again, they will be shown a message indicating they have already responded. Note, however, that the same person can still submit again if they use a different Google account from the one used for their previous response. 
    * Respondents must be signed in to a Google account to submit the form.
 
