@@ -131,7 +131,7 @@ To allow others to edit the form, share editing permission using one of the foll
 
 #### Managing Visibility
 
-From the "Manage" button under Respondents, you can limit visibility to "Anyone with the link" or "The University of Tokyo ECCS Cloud Email." Using "The University of Tokyo ECCS Cloud Email" restricts respondents to members within the university. (In this case, people outside the university cannot respond to or view the form's questions, even if they have the link.)
+From the "Manage" button under "Respondents," you can limit visibility to "Anyone with the link" or "The University of Tokyo ECCS Cloud Email." Using "The University of Tokyo ECCS Cloud Email" restricts respondents to members within the university. (In this case, people outside the university cannot respond to or view the form's questions, even if they have the link.)
 
 ## Step 4: Check Responses
 {:#check_answer}
@@ -143,7 +143,7 @@ Switch from the "Questions" tab (where you edit the form) to the "Responses" tab
 ![](./form-result.jpg){:.medium}
 
 ### Exporting to a Spreadsheet
-You can configure the results to be automatically exported to a spreadsheet by clicking the "Link to Sheets" button. (Responses already collected will also be transferred to the spreadsheet.)
+You can configure the results to be automatically exported to a spreadsheet by clicking the "Link to Sheets" button (Responses already collected will also be transferred to the spreadsheet).
 
 ![image6](./linking-spreadsheet.jpg){:.medium}
 
@@ -161,17 +161,17 @@ This section explains the flow for respondents to answer a Google Form.
 
 You can respond by accessing the "link for respondents" created by the form owner. Select and fill in all required fields, then click the "Submit" button to record your response.
 
-When using a browser signed in to a Google account, responses in progress are automatically saved as a draft for 30 days. Note that this feature is only available in an online environment and when "the form owner has not disabled auto-save".
+When using a browser signed in to a Google account, responses in progress are automatically saved as a draft for 30 days. Please note that this feature is only available in an online environment and when "the form owner has not disabled auto-save."
 
 ### When "You need access" Is Displayed
 
 There are two main possible causes. Please also refer to "[Get permission to open a Google Form](https://support.google.com/docs/answer/160166?sjid=9391686295985041241-NC)"（official help）for more details.
 
-* You do not have permission to open the form
+* You do not have permission to open the form.
   * You need to obtain permission.
   * You can optionally enter a message and request access via the "Request access" button, which will notify the form owner.
     ![](./access-trouble.jpg){:.small}
-* You are signed in to a Google account that does not have access
+* You are signed in to a Google account that does not have access.
   * You need to sign in with a different Google account that has access. 
   * For example, if a form is restricted to "The University of Tokyo ECCS Cloud Email" accounts, signing in with any other account will result in the above error.
 
@@ -189,11 +189,11 @@ The numbers below correspond to the numbered descriptions.
    * The "Duplicate question" button lets you copy an existing question. This eliminates the need to build a similar question from scratch.
 3. Add Images and Videos
    * The "Add image" and "Add video" buttons let you insert photos or videos into the form. This is useful for supplementing question content with visuals. 
-   * Note that there is also a similar feature for inserting images directly within a question or responce option. See "[Useful Features When Editing a Question ](#useful_features_for_question_editing) >  Add Images" below for details.
+   * There is also a similar feature for inserting images to questions or options. The key difference is whether the image directly relates to the content. See "[Useful Features When Editing a Question ](#useful_features_for_question_editing) >  Add Images" below for details.
 4. Add Section
    * The "Add section" button lets you divide questions into units called sections, which can be displayed on separate pages or used to show different questions based on previous answers.
    * For details on navigating between sections based on responses, see "[Useful Features When Editing a Question ](#useful_features_for_question_editing) > Navigate to Section" below. 
-   * Sections can be moved, duplicated, deleted, merged, and reordered. Note that "Delete section" also deletes the questions within it — if you only want to remove the section break, choose "Merge with above" instead.
+   * You can move or duplicate created sections to reuse them. Additionally, you can delete, merge, or reorder sections. Note that "Delete section" also deletes the questions within it. If you only want to remove the section break, choose "Merge with above" instead.
 
 ### Useful Features When Editing a Question
 {:#useful_features_for_question_editing}
