@@ -10,7 +10,7 @@ On this page, we will explain the specific operational steps for handling files 
 
 Furthermore, general information on how to use Google Drive can be found in “[Google Drive](../../../google/drive/index.md)” (an English translation is planned). In addition, an introduction on how to share files can be found in “[Share files with Google Drive](../../../google/drive/share.md)” (an English translation is planned). Please refer to these documents for more information.
 
-To proceed with the following steps, make sure you are already logged into ECCS Cloud Mail and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../../../google/drive/index.md#access) (an English translation is planned).
+To proceed with the following steps, make sure you are already logged into ECCS Cloud Email and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../../../google/drive/index.md#access) (an English translation is planned).
 
 ## How to create files
 {:#create-file}
