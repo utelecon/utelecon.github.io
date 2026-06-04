@@ -12,8 +12,7 @@ Here we introduce methods for filming a video through Zoom and PowerPoint. We ex
 * Zoom
   * The unique feature of Zoom is that you can use its recording function to easily make a video.
   * It is equipped with a standard noise suppression function for voice, so it can maintain a fixed sound quality, even if you do not pay attention to the microphone.
-  * Reference site: 
-[It's simple to record video on Zoom! Use this during your meetings (External link)](https://zoom.nissho-ele.co.jp/blog/manual/zoom-recording.html) (in Japanese)
+  * Reference: [Recording Zoom Meeting](/en/zoom/usage/recording/)
 * PowerPoint
   * The unique feature of PowerPoint is that, by using the Record Slideshow function, it is possible to record slide by slide, making it easy to upgrade slides and re-record them.
   * There is no noise suppression function, so we recommend checking the sound recording after.
