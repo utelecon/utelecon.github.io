@@ -60,7 +60,7 @@ You can release within university by both Google Drive and YouTube.
   * You can also set prohibitions on downloading.
   * **[Concrete Instructions](/google/drive/share/#target)**
 * Sharing on YouTube
-  * If you make availability limited to within the university, it is necessary for others to log into YouTube by their ECCS Cloud Mail address.  There are times when this switchover does not go well for people, so some caution on this point is necessary.
+  * If you make availability limited to within the university, it is necessary for others to log into YouTube by their ECCS Cloud Email address.  There are times when this switchover does not go well for people, so some caution on this point is necessary.
   * **[Restricting YouTube Content to University Members Only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/)**
 
 

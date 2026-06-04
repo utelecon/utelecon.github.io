@@ -54,4 +54,4 @@ Please register via the [**Zoom Registration Page**](https://u-tokyo-ac-jp.zoom.
 
 ## Post-Session Survey
 We’d appreciate it if you could take a moment to complete the survey that will appear when you leave the Zoom session.  
-*Note: Available to ECCS Cloud Mail users only.*
+*Note: Available to ECCS Cloud Email users only.*
