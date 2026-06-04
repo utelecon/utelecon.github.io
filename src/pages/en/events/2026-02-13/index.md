@@ -1,6 +1,6 @@
 ---
 title: "2026/02/13 Workshop: UTokyo Azure Day"
-h1: "Feb. 13,2026: Workshop: UTokyo Azure Day（**Conducted in English**） "
+h1: "Feb. 13,2026: Workshop: UTokyo Azure Day (**Conducted in English**)"
 ---
 ![](banner.jpeg)
 

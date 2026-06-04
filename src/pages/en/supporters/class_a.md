@@ -58,7 +58,7 @@ List of non-expected duties as a Class Supporter
 * We do not expect that Class Supporters to<font color="red">take a  movie and follow the lecturers move </font>in front of the blackboard<u>.</u>
 * We do not expect that Class Supporters <font color="red">cope with all troubleshooting on the online conference system</font> (e.g. Some students cannot enter the online classroom or cannot hear the lectures voice)<u>.</u>(Of course, we do not think that the lecturers should cope with all troubles at the online classroom<u>.</u>)
 
-What the Class Supporters duty  is  (1) to prepare for the online classes with the lecturers and (2) to cope with the problems if the lecturers do not notice them (e.g. Audio trouble, forget to unmute).If the lecturers want Class Supporters to do some more duties, please consent to the Class Supporter or hire another person as a TA. Lecturers should not ask the duties no more than 10 hours including 2 hour training sessions. 
+What the Class Supporters duty is (1) to prepare for the online classes with the lecturers and (2) to cope with the problems if the lecturers do not notice them (e.g. Audio trouble, forget to unmute). If the lecturers want Class Supporters to do some more duties, please consent to the Class Supporter or hire another person as a TA. Lecturers should not ask the duties no more than 10 hours including 2 hour training sessions.
 
 How to Find a Class Supporter? (For Lecturers) 
 ---------------------------

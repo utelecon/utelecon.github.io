@@ -30,7 +30,7 @@ In a Zoom class session, it is recommended that someone with a class assisting r
 1. Rename a participant (student)
 1. Lock the meeting to prevent any participants (students) from joining
 1. Choose to play an enter or exit chime
-1. Manage breakout rooms（for December 2020 version 5.4.6 or higher）
+1. Manage breakout rooms (for December 2020 version 5.4.6 or higher)
 
 Please refer to the below article to learn more about the different meeting controls for hosts, co-hosts, and participants.
 [https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting](https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting)

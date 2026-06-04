@@ -27,7 +27,7 @@ This section introduces several tools and methods that will allow you to take qu
 
 Here, we will focus on Zoom as an example of a web conferencing system (see [this link](/en/online/tools/#web-conf) for an explanation of some representative web conferencing systems).
 
-There are two methods for taking questions through Zoom: to have the students voice their questions out loud and to have them use [the Chat feature](/zoom/usage/chat/) (in Japanese). Things will go more smoothly if you set aside time for Q&A, or ask your students to use [the Raise Hand feature](/zoom/usage/reaction/) (in Japanese) when having students ask their questions out loud.
+There are two methods for taking questions through Zoom: to have the students voice their questions out loud and to have them use [the Chat feature](/zoom/usage/chat/) (in Japanese). Things will go more smoothly if you set aside time for Q&A, or ask your students to use [the Raise Hand feature](/en/zoom/usage/reaction/) when having students ask their questions out loud.
 
 Using the Chat feature allows participants to ask questions whenever they want, and you can keep a written record of their questions.
 

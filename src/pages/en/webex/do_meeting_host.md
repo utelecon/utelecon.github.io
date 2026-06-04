@@ -1,5 +1,5 @@
 ---
-title: Webex meeting room 101（for instructors）
+title: Webex meeting room 101 (for instructors)
 ---
 
 * In this section, we will explain the Webex Meetings functions that are unique to the Host of the meeting.

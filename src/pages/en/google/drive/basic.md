@@ -10,7 +10,7 @@ On this page, we will explain the specific operational steps for handling files 
 
 Furthermore, general information on how to use Google Drive can be found in “[Google Drive](../../../google/drive/index.md)” (an English translation is planned). In addition, an introduction on how to share files can be found in “[Share files with Google Drive](../../../google/drive/share.md)” (an English translation is planned). Please refer to these documents for more information.
 
-To proceed with the following steps, make sure you are already logged into ECCS Cloud Mail and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../../../google/drive/index.md#access) (an English translation is planned).
+To proceed with the following steps, make sure you are already logged into ECCS Cloud Email and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../../../google/drive/index.md#access) (an English translation is planned).
 
 ## How to create files
 {:#create-file}
@@ -20,7 +20,7 @@ Here, we will explain how to create files in Google Drive.
 The main formats of files that can be created in Google Drive are listed below.
 
 - Google Document: equivalent to Microsoft Word.
-- Google Spreadsheet: equivalent to Microsoft Excel
+- Google Sheets: equivalent to Microsoft Excel
 - Google Slide: equivalent to Microsoft PowerPoint
 
 Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index.md#format) (an English translation is planned).
@@ -72,7 +72,7 @@ Files of Google services such as Google Docs can be downloaded after converting 
 1. The files will be downloaded.
     - Folders will be downloaded in a compressed .zip format.
 
-You can also download multiple files as a file batch. Specifically, on the folder screen, you can select multiple files by holding down the Ctrl key (Windows) or ⌘ key (Mac) and choosing the files. After selecting the files of your choice, click "Download" in the right-click menu that appears. The selected files will be downloaded. 
+You can also download multiple files as a file batch. Specifically, on the folder screen, you can select multiple files by holding down the Ctrl key (Windows) or ⌘ key (Mac) and choosing the files. After selecting the files of your choice, click "Download" in the right-click menu that appears. The selected files will be downloaded.
 
 ### Appendix
 

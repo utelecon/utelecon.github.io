@@ -33,7 +33,7 @@ This page also explains the basic content of Google Drive in a video format.
 
 Please access Google Drive through the following link.
 
-**[Google Drive](https://drive.google.com/drive/)**{:.box.center}
+**[Google Drive](https://drive.google.com/a/g.ecc.u-tokyo.ac.jp/drive/)**{:.box.center}
 
 When accessing Google Drive, if you are not logged in, you will be prompted to do so. Please refer to the "[Initial Setup Procedures](/en/google/#initial-setup-procedures)" section on the ECCS Cloud Email page for login instructions.
 
@@ -41,7 +41,7 @@ When accessing Google Drive, if you are not logged in, you will be prompted to d
 
 For instructions on how to create, edit, upload, and download files, please refer to the following page.
 
-**[Basic Usage of Google Drive (in Japanese)](/google/drive/basic/)**{:.box.center}
+**[Basic Usage of Google Drive](/en/google/drive/basic/)**{:.box.center}
 
 ### Sharing Files
 
@@ -51,8 +51,8 @@ For instructions on how to share files on Google Drive, please refer to the foll
 
 In addition, the following page explains the recommended settings for sharing files on Google Drive for each use case. Please refer to it as well.
 
-**[Recommended Settings for Sharing Files on Google Drive (in Japanese)
-](/google/drive/recommendation/)**{:.box.center}
+**[Recommended Settings for Sharing Files on Google Drive
+](./recommendation/)**{:.box.center}
 
 ## Others
 

@@ -32,7 +32,7 @@ By creating the proper atmosphere — for example, by using tools to facilitate 
 
 ### I Want to Prepare Group Presentations Online
 
-- **[Preparing Group Presentations Online](/articles/group-presentation/)** (in Japanese): This site introduces various online tools you can use to efficiently prepare and execute presentations carried out by multiple people.
+- **[Preparing a Group Presentation Online](/en/articles/group-presentation/)**: This site introduces various online tools you can use to efficiently prepare and execute presentations carried out by multiple people.
 
 
 ## I Want to Promote Exchange among Students Online
@@ -40,7 +40,7 @@ By creating the proper atmosphere — for example, by using tools to facilitate 
 In order for work to go smoothly, it is also important to promote extracurricular activities, such as out-of-class group work and club activities. By making the most of online tools, it is possible to deepen relationships even more than when face to face.
 
 - **[Using Online Meeting Tools to Interact](/en/articles/online-interaction/)**: While web conferencing programs like Zoom and Webex are used often in formal situations, this page introduces some tools of a slightly different nature that can be used in online communication for informal exchange.
-- **[How to Start an Online Study Group](/articles/student-communication/)** (in Japanese): This page introduces how students can create their own online study groups, as well as tools useful in doing this.
-- **[Preparing Online Group Presentations](/articles/group-presentation/)** (in Japanese)
-- **[Online Tools Useful for Club Activities](/articles/club-activity/)** (in Japanese): Here we introduce different possible approaches and online tools for holding exchange, particularly for students engaged in club activities.
+- **[How to Start an Online Study Group](/en/articles/student-communication/)**: This page introduces how students can create their own online study groups, as well as tools useful in doing this.
+- **[Preparing a Online Group Presentations](/en/articles/group-presentation/)**
+- **[Online Tools for Club Activities](/en/articles/club-activity/)**:  Here we introduce different possible approaches and online tools for holding exchange, particularly for students engaged in club activities.
 - **[Manage Your Schedule with Online Tools](/articles/en/schedule-management/)**

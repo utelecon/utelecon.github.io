@@ -1,6 +1,6 @@
 ---
 title: "2025/04/18 Info Session: UTokyo Azure Usage"
-h1: "Apr. 18,2025: Information Session on UTokyo Azure（**Conducted in English**） "
+h1: "Apr. 18,2025: Information Session on UTokyo Azure (**Conducted in English**)"
 ---
 [Link to the previous information session](/events/2025-02-21/) (held on February 21, 2025, in Japanese)
 
@@ -54,4 +54,4 @@ Please register via the [**Zoom Registration Page**](https://u-tokyo-ac-jp.zoom.
 
 ## Post-Session Survey
 We’d appreciate it if you could take a moment to complete the survey that will appear when you leave the Zoom session.  
-*Note: Available to ECCS Cloud Mail users only.*
+*Note: Available to ECCS Cloud Email users only.*
