@@ -23,7 +23,7 @@ title: How to Log in and Create a UTokyo Webex account
 
 * <span style="color:red">**Do not press "Log in" on this screen**</span>. Please go back to <a href="https://apj27.webex.com/mw3300/mywebex/default.do?siteurl=apj27&viewFrom=modern&login_return_url=https%3A%2F%2Fapj27.webex.com%2Fwebappng%2Fsites%2Fapj27%2Fdashboard%3Fsiteurl%3Dapj27" target="_blank">Log in screen</a>.
 
-## Log in to WebEx
+## Log in to Webex
 * In the Log in screen, please add your Username and Password. Username is described in your obtained mail from Webex (UTokyoxxxx - your 10-digit Common ID). Password is set by you on the process of creating an account.
 
 	![ログイン画面](img/webex_login.PNG){:.medium}
@@ -32,7 +32,7 @@ title: How to Log in and Create a UTokyo Webex account
 
 * You can see this home screen when you succeed to log in.
 
-	![WebExのホーム画面](img/webex_home.png){:.medium}
+	![Home Screen of Webex](img/webex_home.png){:.medium}
 
 <br>
 

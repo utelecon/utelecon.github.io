@@ -9,7 +9,7 @@ redirect_from:
 UTokyo Zoom account (`10-digit Common ID @utac.u-tokyo.ac.jp`) supports cloud recording.
 Here are procedures on how to record a Zoom meeting to the cloud and set up internal sharing.
 
-1.  In your meeting, select "Record to the Cloud" ([If you do not see "Record to the Cloud"](#no_menu)).
+1. In your meeting, select "Record to the Cloud" ([If you do not see "Record to the Cloud"](#no_menu)).
    ![Select "Record to the Cloud"](3.png)
 
 2. As the meeting ends, you will receive a notification email from Zoom once the recording file becomes available. Click on the link "this link can be used only by the host" in the email to access the "Recordings" page of your Zoom account ([https://zoom.us/recording](https://zoom.us/recording)).

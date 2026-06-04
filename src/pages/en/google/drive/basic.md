@@ -19,9 +19,9 @@ Here, we will explain how to create files in Google Drive.
 
 The main formats of files that can be created in Google Drive are listed below.
 
-- Google Document: equivalent to Microsoft Word.
+- Google Docs: equivalent to Microsoft Word.
 - Google Sheets: equivalent to Microsoft Excel
-- Google Slide: equivalent to Microsoft PowerPoint
+- Google Slides: equivalent to Microsoft PowerPoint
 
 Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index.md#format) (an English translation is planned).
 

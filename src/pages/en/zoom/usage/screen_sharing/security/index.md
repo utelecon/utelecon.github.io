@@ -21,7 +21,7 @@ If you repeat step 1 again and see a checkmark next to the “Share Screen”, i
 ### Granting screen-sharing capability to all participants by default 
 If you provide screen-sharing access during a meeting, the screen-sharing capability is only valid for the meeting in progress. However, there is a way to extend its validity not only to the meeting in progress but also to all meetings that you host.
 
-1. Sign in to Zoom according to the steps in  “[Sign-in Methods for Zoom](../../../signin/#browser)”.
+1. Sign in to Zoom according to the steps in “[Sign-in Methods for Zoom](../../../signin/#browser)”.
 2. Press “Settings” in the menu on the left side of the screen.
 ![](img/img2.png){:.border}{:.medium}
 3. If the settings screen are similar to those in the picture, scroll to “Screen sharing” under “In Meeting (Basic)”.

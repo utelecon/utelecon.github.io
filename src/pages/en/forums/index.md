@@ -22,4 +22,4 @@ Sign in with your ECCS Cloud Email (`xxxx@g.ecc.u-tokyo.ac.jp`), and register to
 * [utelecon-announce](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/g/utelecon-announce-group)
 * [utelecon-questions](https://groups.google.com/a/g.ecc.u-tokyo.ac.jp/g/utelecon-questions-group)
 
-(The following is an explanation for those who are already familiar with Google Groups) If someone is already a member (let's say Mr./Ms. H) and the registered address is a Google account or its alias, that person can be added to the group.  Mr./Ms. H can visit the group’s homepage to edit.
+(The following is an explanation for those who are already familiar with Google Groups) If someone is already a member (let's say Mr./Ms. H) and the registered address is a Google account or its alias, that person can be added to the group. Mr./Ms. H can visit the group’s homepage to edit.

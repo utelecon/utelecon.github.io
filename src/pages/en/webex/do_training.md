@@ -5,7 +5,7 @@ title: What is possible with Webex Training? (for Instructors・Participants)
 ## Roles
 
 There are four main roles in Webex Training.
-* **Host**： Hosts can start/ close the event,  change the other participants' authorizations and build breakout session.  However, hosts cannot share the contents, nor participate in a poll. 
+* **Host**： Hosts can start/ close the event, change the other participants' authorizations and build breakout session. However, hosts cannot share the contents, nor participate in a poll. 
 * **Presenter**： Presenters can share the contents and change the other participants' authorizations. Presenters can also make and organize polls and breakout sessions.
 * **Panelist**： Panelists can answer questions from participants.
 * **Participant**： Participants can share their camera screen and mute/ unmute their microphone. However, if organizers or presenters mute participants, the unmute function becomes locked. 
@@ -16,7 +16,7 @@ There are four main roles in Webex Training.
 	* Entering the training session, the screen shows "Test your speaker/ microphone". Choose the speaker and microphone that you want to use. Click OK button and test your speaker and microphone.
 	![](img/webex_training_view.png){:.medium}
 
-* For presenters, you can see the screen below. Click "Share your desktop screen", and share your screen with participants. Click the arrow next to "Share your desktop,"  and presenters can share designated applications.
+* For presenters, you can see the screen below. Click "Share your desktop screen", and share your screen with participants. Click the arrow next to "Share your desktop," and presenters can share designated applications.
 	![](img/webex_training_presenterview.png){:.medium}
 
 ### Participants Panel
@@ -29,19 +29,19 @@ There are four main roles in Webex Training.
 
 ### Chat Panel
 
-*  Chat panel allows all attendees to send messages. You can send a message to organizers or presenters by switching the email destiny. 
+* Chat panel allows all attendees to send messages. You can send a message to organizers or presenters by switching the email destination. 
 
 	![](img/webex_training_chat.png){:.small}
 
 ### Recorder Panel
 
-* In the recorder panel,  you can manipulate recording on the server.
+* In the recorder panel, you can manipulate recording on the server.
 
 	![](img/webex_training_recorder.png){:.small}
 
 ### Q&A Panel
 
-* Q&A allows participants ask questions to panelists, presenters and organizers. Answered questions can be seen on the other participants' screen.  Those who have just entered the session can read all Q&As.
+* Q&A allows participants to ask questions to panelists, presenters and organizers. Answered questions can be seen on the other participants' screen. Those who have just entered the session can read all Q&As.
 
 	![](img/webex_training_qa.png){:.small}
 
@@ -53,7 +53,7 @@ There are four main roles in Webex Training.
 
 ### Breakout Session Panel
 
-*  At the breakout session panel, organizers and presenters can organize breakout sessions.
+* At the breakout session panel, organizers and presenters can organize breakout sessions.
 
 	![](img/webex_training_breakout.png){:.small}
 

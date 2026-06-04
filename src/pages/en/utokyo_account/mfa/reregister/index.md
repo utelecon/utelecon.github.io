@@ -98,7 +98,7 @@ If you can sign in to your UTokyo Account, you can apply via the Microsoft Form 
 Please note that your application will not be processed until the next business day or later if you apply at night or on weekends and holidays because your application will be reviewed by our staff before processing.
 
 <b class="box center">
-<a href="https://forms.office.com/r/NS4sh40RjR">Application form for reregisteration of verification method of MFA use</a><br />(in Japanese)
+<a href="https://forms.office.com/r/NS4sh40RjR">Application form for reregistration of verification method of MFA use</a><br />(in Japanese)
 </b>
 
 You need to sign in with MFA to access this form. If it is impossible for you, you cannot access this form. Use the other procedures described below.
@@ -133,7 +133,7 @@ You can apply for reregistration via the application website. You are required t
 Please note that your application will not be processed until the next business day or later if you apply at night or on weekends and holidays because your application will be reviewed by our staff before processing.
 
 <b class="box center">
-<a href="https://identification.adm.u-tokyo.ac.jp/ident/">Application website for reregisteration of verification method of MFA use</a>
+<a href="https://identification.adm.u-tokyo.ac.jp/ident/">Application website for reregistration of verification method of MFA use</a>
 </b>
 
 Access the link above and sign in with your UTokyo Account. MFA is not necessary when signing in, and only the username and password are required.

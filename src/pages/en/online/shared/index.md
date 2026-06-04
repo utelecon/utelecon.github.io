@@ -9,14 +9,14 @@ We would like to express our gratitude for their kind contributions.
 **In utelecon (this portal site), we provide useful information on online resources to enhance your online classes and activities. Please refer to the [Effective Use of Online Resources](/en/online/) page for more information.**
  
 If you would like to share new materials, please contact us at [utelecon-inquiries@googlegroups.com](mailto:utelecon-inquiries@googlegroups.com). 
-Or, if you are familiar with Github, please fork the utelecon Github, add your material in the new information section at the bottom of this page, and send us a pull request. We will then place your material in the appropriate section accordingly.
+Or, if you are familiar with GitHub, please fork the utelecon GitHub, add your material in the new information section at the bottom of this page, and send us a pull request. We will then place your material in the appropriate section accordingly.
  
 
 ## Comprehensive Resources for Conducting Online Classes 
 
 * **This is All You Need to Teach a Class! Self-Study Package for Teachers** [\[PowerPoint (Google Drive)\]](https://drive.google.com/file/d/1u1lpIx56wkBRUL1LliV5rh0vcGiowv7g/view)(in Japanese) :
 	* Contributed by Prof. Tanoi and Prof. Nakashima, Graduate School of Agricultural and Life Sciences
-	* This is a collection of compact and easy-to-understand slide presentations. The topics included are "Setup of  ECCS Cloud Email", "Setup of Zoom", "Using Zoom", "Using ITC-LMS", "Information Sharing Between Faculty Members Before Taking Classes", and "Omnibus Lectures".
+	* This is a collection of compact and easy-to-understand slide presentations. The topics included are "Setup of ECCS Cloud Email", "Setup of Zoom", "Using Zoom", "Using ITC-LMS", "Information Sharing Between Faculty Members Before Taking Classes", and "Omnibus Lectures".
 * **Faculty of Agriculture/Graduate School of Agricultural and Life Sciences_Learning Seminar on Online Teaching for Lecturers** [\[Video List\]](https://www.youtube.com/playlist?list=PL77zY9Ue8XbaL1lqxT0zzKLLfIjaj6a7V)(in Japanese):
 	* Contributed by Prof. Tanoi, Prof. Nakashima, Prof. Sasabe and Prof. Nakanishi, Graduate School of Agricultural and Life Sciences
 	* This is a series of videos featuring a workshop held at the Graduate School of Agricultural and Life Sciences. The four videos cover a wide range of topics, such as explanations of basic forms of online classes and requirements for a class.
@@ -63,7 +63,7 @@ Or, if you are familiar with Github, please fork the utelecon Github, add your m
 	* This web page summarizes the disadvantages and advantages of using tablets and electronic whiteboards in classroom.
 * **Online Lecture With a Laptop** [\[Powerpoint\]](online_example_1pc.pptx) [\[Movie(MPEG4)\]](online_example_1pc.mp4)(in Japanese) 
 	* Contributed by Prof. Kawahara, Graduate School of Engineering
-	* This tutorial illustrates how to  boardwrite in online lectures with a video.
+	* This tutorial illustrates how to boardwrite in online lectures with a video.
 
 
 ## How to Enrich Online Classes
@@ -94,7 +94,7 @@ Or, if you are familiar with Github, please fork the utelecon Github, add your m
 
 ## Improving Work Efficiency
 
-* **How to Automatically Create Multiple Files in a Google Spreadsheet With Sequential Numbers and Get a List of “Shareable Links” URLs** [\[PDF\]](saito_gas.pdf) [\[Script\]](saito_script.txt)(in Japanese)
+* **How to Automatically Create Multiple Files in a Google Sheets With Sequential Numbers and Get a List of “Shareable Links” URLs** [\[PDF\]](saito_gas.pdf) [\[Script\]](saito_script.txt)(in Japanese)
 	* Contributed by Prof. Saito, Graduate School and College of Arts and Sciences
 
 

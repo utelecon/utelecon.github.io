@@ -17,7 +17,7 @@ The University of Tokyo has a comprehensive license agreement that allows **all 
 - Unlimited use of MATLAB Mobile
     - This application is available for smartphones and tablets.
 - MATLAB Toolbox
-    -  You can use the related optional products listed in the "List of Available Products" on the [University of Tokyo's Comprehensive License Page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html).
+    - You can use the related optional products listed in the "List of Available Products" on the [University of Tokyo's Comprehensive License Page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html).
 - MATLAB Drive storage capacity (20 GB)
     - This is a cloud service for storing data of MATLAB Online and others.
 - Taking online tutorial courses
@@ -42,7 +42,7 @@ Please note that even if you created a MathWorks account before December 2024 us
 3. Unless you are already signed in with your UTokyo Account, the UTokyo Account sign-in page will be displayed. Please sign in accordingly.
 ### If you have not created a MathWorks account yet
 To use your UTokyo Account as a MathWorks account, please complete the initial setup by following the steps below.
-1. Access the  [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click “Sign In to Get Started” located in the middle of the page.
+1. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click “Sign In to Get Started” located in the middle of the page.
 
 ![](img/img-0.png){:.medium.center.border}
 

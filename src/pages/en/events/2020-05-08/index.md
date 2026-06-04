@@ -4,7 +4,7 @@ title: "2020/05/08 Briefing session: Using copyrighted materials in online class
 
 * **Date and time:** Friday, May 8 17: 00-18: 30
 
-* **Place:** Online (Zoom) and youtube  <br>
+* **Place:** Online (Zoom) and YouTube  <br>
 　　　Check the[Information sheet] at the bottom of the page( https://docs.google.com/spreadsheets/d/1OoQcKe1tPOJWnDmSMtIYmEejd9tBlxnCStlHUMIGbGY/edit?usp=sharing )
 
 
@@ -23,7 +23,7 @@ III/GSII　Machiko SAKAI　Associate Professor
 "Use of copyrighted material in online classes" is the content for this briefing. In addition to the basic idea of ​​using copyrighted works a face-to-face style, Dr. Sakai will explain about the points of enforcement of the revised copyright law for about 40 minutes, following with time for questions and answers. Even during the explanation time, the facilitator will take up the question interactively as appropriate.
   * We will accept questions from those who have left over as long as time allows, even after the specified time.
   * We will answer questions on sli.do and chat at a later date.
-  * Comments will be turned off on the youtube side, so if you have any questions, please visit sli.do.
+  * Comments will be turned off on the YouTube side, so if you have any questions, please visit sli.do.
 
 
 
@@ -38,4 +38,4 @@ III/GSII　Machiko SAKAI　Associate Professor
 
   * **To access, you need to be signed in to Google with an ECCS Cloud Email (`xxx@g.ecc.u-tokyo.ac.jp`) account.**
   * If you have trouble accessing it, please sign in with ECCS Cloud Email [here](https://mail.google.com/a/g.ecc.u-tokyo.ac.jp).
-  * If you have never used ECCS cloud email, please click [here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/) to make initial settings for account use.
+  * If you have never used ECCS Cloud Email, please click [here](https://hwb.ecc.u-tokyo.ac.jp/wp/literacy/email/initialize/) to make initial settings for account use.

@@ -14,7 +14,7 @@ This article compares several online interaction tools that may be useful during
 * Want to share ideas and facilitate online meetings, but are not sure of what tool to use
 * Want to make it easier and more intuitive to divide up breakout sessions, since it currently takes a long time to assign participants to different rooms when zooming
 
-Here is a comparison of four tools for online meetings and conferencing: Discord, Gather, and Remo.
+Here is a comparison of three tools for online meetings and conferencing: Discord, Gather, and Remo.
 
 ## Discord
 
@@ -126,7 +126,7 @@ Remo is an online communication tool that allows users to enter a virtual room w
 * [Video] Join an Event: [How to Register for a Remo Event as a Guest](https://www.youtube.com/watch?v=v7HW3Emb3BA&list=PL0OTlNhIJiS2u-Csz3NoOdW8vnGDHleRR&index=1)
 * [Video] Create your event: <https://youtu.be/NP6DJodI53s> (in Japanese)
 * [Video] How to make a banner: [How to Design a Sponsor Banner in Remo Virtual Conference](https://www.youtube.com/watch?v=KSHAhr61ZJw)
-* [Video] Troubleshooting:  <https://www.youtube.com/watch?v=r5WVj07y4mU> (in Japanese)
+* [Video] Troubleshooting: <https://www.youtube.com/watch?v=r5WVj07y4mU> (in Japanese)
 
 ## Comparison of 3 Tools
 
