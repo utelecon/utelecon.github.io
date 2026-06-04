@@ -20,7 +20,7 @@ Here, we will explain how to create files in Google Drive.
 The main formats of files that can be created in Google Drive are listed below.
 
 - Google Document: equivalent to Microsoft Word.
-- Google Spreadsheet: equivalent to Microsoft Excel
+- Google Sheets: equivalent to Microsoft Excel
 - Google Slide: equivalent to Microsoft PowerPoint
 
 Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index.md#format) (an English translation is planned).
@@ -72,7 +72,7 @@ Files of Google services such as Google Docs can be downloaded after converting 
 1. The files will be downloaded.
     - Folders will be downloaded in a compressed .zip format.
 
-You can also download multiple files as a file batch. Specifically, on the folder screen, you can select multiple files by holding down the Ctrl key (Windows) or ⌘ key (Mac) and choosing the files. After selecting the files of your choice, click "Download" in the right-click menu that appears. The selected files will be downloaded. 
+You can also download multiple files as a file batch. Specifically, on the folder screen, you can select multiple files by holding down the Ctrl key (Windows) or ⌘ key (Mac) and choosing the files. After selecting the files of your choice, click "Download" in the right-click menu that appears. The selected files will be downloaded.
 
 ### Appendix
 
