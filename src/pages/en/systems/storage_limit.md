@@ -44,7 +44,7 @@ You can check your actual storage usage, excluding shared drives, on Google’s 
 OneDrive can be used by each student and faculty/staff member with up to 50 GB of storage at no additional cost. To use more than 50 GB of storage, it is necessary to pay a “usage fee” using the university’s budget. However, even if a member does not have access to a university budget, it is procedurally possible for a faculty or staff member who does have a budget to cover the usage fee on their behalf. For details on expanding storage capacity, see the page About [Applying for OneDrive Storage Capacity Expansion ](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/OneDrive_Change_Storage_Limit.aspx) (available only to faculty and staff members．
 
 You can check your actual storage usage by accessing [OneDrive](https://univtokyo-my.sharepoint.com/)in a browser and viewing the Storage section at the bottom left of the screen. By clicking the “Used Storage” button there, you can also view large files.
-![](./image5.png){:.border}
+![](./image4.png){:.border}
 
 ### Microsoft Teams Folders
 
@@ -61,7 +61,7 @@ You can check the actual storage usage by accessing the [ relevant page ](https:
 
 1. Access [Outlook](https://outlook.com/utac.u-tokyo.ac.jp) in a browser.
 2.  Click the gear icon, open Settings, then General, and then Storage, in that order.
-![](./image4.png)
+![](./image5.png)
 
 ### Other Options
 
