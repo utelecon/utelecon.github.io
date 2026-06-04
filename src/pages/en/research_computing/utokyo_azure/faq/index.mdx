@@ -173,7 +173,7 @@ However, for example, login authentication to the OS running on a virtual machin
 
 <HelpItem lang="en" type="details">
   <Fragment slot="problem">Can I use a virtual machine with a Windows OS?</Fragment>
-  <Fragment slot="solution">Yes. You can use the [UTokyo Microsoft License](/en/microsoft/) with UTokyo Azure. When configuring a virtual machine, check **"I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."**</Fragment>
+  <Fragment slot="solution"><p>Yes. You can use the [UTokyo Microsoft License](/en/microsoft/) with UTokyo Azure. When configuring a virtual machine, check **"I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."**</p><p>Official support for Windows 10 ended in October 2025. Unless there are special circumstances, please use Windows 11.</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="en" type="details">
@@ -184,4 +184,9 @@ However, for example, login authentication to the OS running on a virtual machin
 <HelpItem lang="en" type="details">
   <Fragment slot="problem">Why do errors sometimes occur when proceeding with the steps to request a VM size quota?</Fragment>
     <Fragment slot="solution">A VM size quota request can be made through various steps, and we have received inquiries from users about problems such as some steps not proceeding as expected or links leading to errors. If you encounter such a situation, please contact the UTokyo Azure service staff and tell them which step caused the problem. Then, proceed with the quota request using the alternative steps below.<ul><li>[(Japanese) VMサイズのクォータ要求でエラー表示が出る場合の代替手順](https://univtokyo.sharepoint.com/:b:/t/Teams.azure.adm/EZQGpSZd0rBGg02rzaYJabgB26SajE7VYwNiJlLBGemJOg?e=QZAldo)</li><li>Authentication with a UTokyo Account is required to access this document</li></ul></Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">Can I use an external tenant (External Entra ID)?</Fragment>
+    <Fragment slot="solution">Do not create an external tenant linked to UTokyo Azure. Even if you are able to create one, you will not be given the authority to create subscriptions in that external tenant, so it will be pointless. Also, even if you manage to create a subscription somehow, that subscription will not be linked to UTokyo Azure, and the full usage fee will be charged to the user.</Fragment>
 </HelpItem>

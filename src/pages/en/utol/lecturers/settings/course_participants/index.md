@@ -1,5 +1,5 @@
 ---
-title: Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors・TAs)
+title: Managing Course Participants on UTOL (Confirmation, Registration, etc.) (for Course Instructors / TAs)
 redirect_from:
  - /en/itc_lms/lecturers/settings/course_participants
 breadcrumb:
@@ -52,9 +52,20 @@ The following information can be viewed in the “Course participant list”.
 
 “Course participants list” can be viewed by following the steps below.
 
-1. Click the icon “![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper right corner while the course you would like to operate is being displayed.
+1. Click the icon “![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper left corner while the course you would like to operate is being displayed.
 2. Select “Register course participants” in the “Course settings”
     ![](menu.png){:.medium}
+
+### How to download the list as an Excel file
+{:#how-to-download}
+
+1. Click the icon "![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}" in the upper left while keeping opened the course you would like to operate.
+2. Select "Register Course participants" in the "Course settings".
+    ![](menu.png){:.medium}
+3. Click the "Download" button in the "Download Course participants list" field.
+    ![](download.png){:.medium}
+4. You will be prompted to set a password for the Excel file. Enter a password of your choice, then click the "Download" button again. The Excel file (`.xlsx` format) will be downloaded. (This password will be required when viewing the list in the Excel file.)
+    ![](set-password.png){:.medium}
 
 ## Registering Course Participants
 {:#register}
@@ -180,7 +191,7 @@ Course participants can be deleted by either of the following methods.
 ### Deleting individually
 {:#delete-individually}
 
-1. Click the“![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper right while keeping opened the course you would like to operate.
+1. Click the “![Icon with three horizontal lines](../../../_icons/hamburger.png){:.icon}” in the upper left while keeping opened the course you would like to operate.
 2. Select “Register Course participants” in the “Course settings”.
 
     ![](menu.png){:.small}

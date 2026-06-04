@@ -27,7 +27,7 @@ Before setting up a course group, you must delete all the contents from the cour
 ### Procedure 2: Registering a course group
 
 1. From the timetable, click on the course that will be the primary course, and open the Course Top screen.
-2. Click on  at the top left of the screen.
+2. Click on ![≡](../../../_icons/hamburger.png){:.icon} at the top left of the screen.
 3. Expand the "Course group >" menu displayed on the left, and click on "Register Course group".
     ![](./menu1.png)
 4. On the "Register Course group" screen, click the checkbox to the left of the row for the course you wish to set as a secondary course, and then click on the "Confirm" button to proceed.
@@ -45,7 +45,7 @@ Please note the following when you dissolve a course group.
 ### Procedures
 
 1. From the timetable, click on the course which you want to dissolve as a course group to open the Course Top screen.
-2. Click on  at the top left of the screen.
+2. Click on ![≡](../../../_icons/hamburger.png){:.icon} at the top left of the screen.
 3. Expand the "Course group >" menu on the left and click on "Release course group".
     ![](./menu2.png)
 4. On the "Release Course group" screen, select the course group you wish to dissolve and click on the "Confirm" button to proceed.

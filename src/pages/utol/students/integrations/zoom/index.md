@@ -1,5 +1,5 @@
 ---
-title: LTI連携機能でUTOLからのZoomミーティングを利用する
+title: LTI連携機能でUTOLからのZoomミーティングを利用する（履修者向け）
 breadcrumb:
   title: Zoom
 redirect_from:
