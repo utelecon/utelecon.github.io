@@ -16,7 +16,7 @@ We also plan to further enrich this page with more methods and practical example
 Please keep checking back for more updates.
 
 **For those who are not yet prepared to use UTokyo’s ICT system, please access** 
-* **[Getting Ready for ICT Systems at the University of Tokyo (for new students)](/en/oc/)** <br> or 
+* **[Preparing the Essential Information Systems for University Life (for New Students)](/en/oc/)** <br> or 
 * **[Getting Ready for ICT Systems at the University of Tokyo (for faculty members)](/en/faculty_members/)**
 
 
