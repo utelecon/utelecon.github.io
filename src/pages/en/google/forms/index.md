@@ -104,7 +104,7 @@ After publishing, you can stop accepting responses using the "Accepting response
 
 There are two types of people you may be sharing with: [respondents](#sharing_with_respondents) and [editors](#sharing_with_editors)．Accordingly, there are two types of permissions — editing permission and response permission. Respondents should be given response permission, while editors should be given editing permission. Editing permission allows the holder to edit the form and view responses. Be careful not to share a link granting editing permission with someone who is only meant to respond, as doing so would allow them to edit the form and could lead to a data breach of the collected information.
 
-Additionally, when sharing forms that collect sensitive information such as personal data, be aware that using the "[Show a summary of responses](https://support.google.com/docs/answer/2839588?hl=en&sjid=10457253941811607885-NC#zippy=%2C回答の概要を表示する%2Cshow-a-summary-of-responses)"（official help）feature may lead to information leaks.
+Additionally, when sharing forms that collect sensitive information such as personal data, be aware that using the "[Show a summary of responses](https://support.google.com/docs/answer/2839588?hl=en&sjid=6654291467577157387-NC#zippy)"（official help）feature may lead to information leaks.
 
 You can change the scope of users who can respond to the form by clicking the respective buttons for editors and respondents that display permission levels, such as "Restricted" or "The University of Tokyo ECCS Cloud Email."
 
@@ -268,5 +268,5 @@ Switching to the "Settings" tab allows you to configure settings related to test
 9. Auto-save Responses
    * By default, response drafts are automatically saved for 30 days when filling out a Google Form.
    * Turning on "Disable auto-save for all respondents" disables this feature.
-   *For more details, please refer to[Autosave your response progress on a Google Form](https://support.google.com/docs/answer/10952360?sjid=9391686295985041241-NC)(official help).
+   * For more details, please refer to [Autosave your response progress on a Google Form](https://support.google.com/docs/answer/10952360?sjid=9391686295985041241-NC)(official help).
 
