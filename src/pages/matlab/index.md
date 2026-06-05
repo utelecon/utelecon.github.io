@@ -30,6 +30,8 @@ title: UTokyo MATLAB Campus-Wide License
 また，利用の際は「[情報システム本部が管理・運用する外部サービスの利用にあたっての注意事項](/docs/dics-terms/)」も参照してください．
 
 ## 利用開始の手順
+{:#how-to-start}
+
 東京大学の包括ライセンスのもとでMATLABを利用する場合は，UTokyo AccountをMathWorksアカウントとして利用します．
 なお，2024年12月以前に，それまで提供していた形式（UTokyo Accountではなく，u-tokyo.ac.jpで終わる東京大学のメールアドレス）のMathWorksアカウントを作成し, UTokyo MATLAB CWL を利用していた方も，サインインにはUTokyo Accountを利用できます．
 1. MathWorks社の提供する東京大学の[東京大学の包括ライセンス紹介ページ](https://jp.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html)にアクセスし，ページ中ほどの「サインインして使い始める」を押してください．

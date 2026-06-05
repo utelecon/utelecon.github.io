@@ -9,6 +9,7 @@ breadcrumb:
 **Google Drive** is an online storage service provided by Google. It allows you to create and edit files, as well as share them with other users.
 
 ### Using Google Drive with a university account.
+{:#using_with_utokyo_account}
 
 At the University of Tokyo, Google's "Google Workspace" is provided as "**[ECCS Cloud Email](/en/google/)**". Since Google Drive is a part of this suite, members of the University of Tokyo can use Google Drive with their ECCS Cloud Email accounts.
 
