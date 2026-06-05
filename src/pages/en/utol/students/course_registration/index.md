@@ -29,7 +29,7 @@ For your convenience, the course registrations types will be divided into the fo
 2. Temporary self-registration by the students:
     * This is a “self-registration” that can be made by clicking the button “Register a course” on UTOL. (This registration may be deleted after the enrollment registration period.)
 
-After the enrollment registration period ends, the “favorite registrations” will be deleted.  In addition, depending on the course settings, “self-registrations” may be deleted, and you may not be able to register for a new course. In this case, to register for a course, please ask your course instructor to change the course settings.
+After the enrollment registration period ends, the “favorite registrations” will be deleted. In addition, depending on the course settings, “self-registrations” may be deleted, and you may not be able to register for a new course. In this case, to register for a course, please ask your course instructor to change the course settings.
 
 **Even if you proceed with the “course registration” in UTOL, you will not be enrolled in the course. Therefore, if you need to enroll in a course, be sure to use UTAS (the academic affairs system) for enrollment registration.**
 

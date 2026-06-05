@@ -51,4 +51,4 @@ Please note the following when you dissolve a course group.
 4. On the "Release Course group" screen, select the course group you wish to dissolve and click on the "Confirm" button to proceed.
     ![](./unreg.png)
 5. A dialog box will appear saying, "Is it correct that I will not be able to see the submitted data of users who are enrolled in the course to be deactivated? *Once deactivated, it cannot be restored." Please click "Release".
-6. A confirmation screen will appear.  Please click "Release".
+6. A confirmation screen will appear. Please click "Release".

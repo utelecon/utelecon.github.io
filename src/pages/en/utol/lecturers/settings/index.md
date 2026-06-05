@@ -259,10 +259,10 @@ If you are registered as an instructor in both courses (source and destination c
 
 Otherwise, ask the instructor of the source course to perform the following steps:
 
-1.  Open **Course Settings > Course Settings**[^1] in the source course.
-2.  Check the option **Allow the contents of the courses to be used (copied) for both courses you are in charge of and not in charge of**. 
+1. Open **Course Settings > Course Settings**[^1] in the source course.
+2. Check the option **Allow the contents of the courses to be used (copied) for both courses you are in charge of and not in charge of**. 
    ![](./_img/contents-reuse-step1.png){:.small}
-3.  Click the **Confirm** button, review the details, and then click **Register**.
+3. Click the **Confirm** button, review the details, and then click **Register**.
 
 #### Step 2: Actions in the Destination Course
 {:#contents-reuse-step2}

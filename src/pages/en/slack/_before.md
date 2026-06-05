@@ -8,7 +8,7 @@ UTokyo Slack is only available to users who have completed the Information Secur
 
 - If your access gets suspended, please ensure to undergo the Information Security Education. As soon as you pass the confirmation test, the suspension of your access will be restored immediately. 
 
-- For those who are newly enrolled and appointed, complete the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) and pass the confirmation test in order to start using UTokyo Slack. Please complete the Information Security Educationbefore starting to use the UTokyo Slack.
+- For those who are newly enrolled and appointed, complete the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) and pass the confirmation test in order to start using UTokyo Slack. Please complete the Information Security Education before starting to use the UTokyo Slack.
 
 
 In addition, to use UTokyo Slack, you are required to enable Multi-Factor Authentication for UTokyo Accounts. Please make sure to follow the initial setup procedures on the "**[Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)**" page **up to the last step "Step 4: Apply for MFA Use"** to enable multi-factor authentication for your UTokyo Account. **It will take about 30 minutes for your account settings to be reflected in the system, so please wait before proceeding** to the following step.

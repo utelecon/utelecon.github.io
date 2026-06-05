@@ -15,8 +15,8 @@ title: How to create Webex training
 3. Set up
 	* **Agenda**：fill in the title of meeting. **(required field)**
 	* **Session Password**： Optional, but **you can change it as necessary.**
-	* **Mute when joining**： Turn participants mute when joining a meeting  (recommended).
-	* **Date**： The date is displayed on the screen when opening the browser, and you can change it when necessary. If you want to set repeated training sessions, select other than "single session class", then  you can fix the meeting schedule regularly like a classroom. 
+	* **Mute when joining**： Turn participants mute when joining a meeting (recommended).
+	* **Date**： The date is displayed on the screen when opening the browser, and you can change it when necessary. If you want to set repeated training sessions, select other than "single session class", then you can fix the meeting schedule regularly like a classroom. 
 	* **Require participants to register in advance**： You can ask participants to register for the training. However, you do not have to use this when using Webex Training at school.
 	* After you get used to manipulate Webex Training, try and adjust .other settings
 	* When you finish all settings, press "Schedule".
@@ -29,7 +29,7 @@ title: How to create Webex training
 
 	![トレーニング設定の画面](img/webex_training_info.png){:.medium}
 
-	* Organizers  notify session number and password to your participants.
+	* Organizers notify session number and password to your participants.
 
 * Participants obtain the email after organizers schedule the training session. 
 

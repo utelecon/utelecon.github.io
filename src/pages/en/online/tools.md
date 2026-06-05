@@ -34,7 +34,7 @@ Webex is a web conferencing system provided by Cisco. With a UTokyo license, you
 
 Google Meet is a web conferencing system provided by Google as part of Google Workspace. One of its advantages is its full integration with other Google services such as Google Calendar.
 
--  **[utelecon’s Google Meet Page](/en/google/meet/)**
+- **[utelecon’s Google Meet Page](/en/google/meet/)**
 
 
 ## Learning Management Systems
@@ -45,7 +45,7 @@ A “learning management system” is a system that supports the exchange of dat
 ### UTOL
 UTOL is UTokyo’s learning management system. It provides functions such as distribution of class materials, submission of assignments, online examinations, and notifications from faculty members to students. One of UTOL’s advantages is that it is **easy to pass information "only to the students of UTokyo" or "only to the students of a specific class"** because UTOL is linked to the UTokyo Account and UTokyo Academic Affairs System (UTAS, UTokyo’s course registration system). UTOL is also **widely used by students**, so we recommend that you make UTOL the first choice for distributing class materials and exchanging assignments.
 
--  **[utelecon’s UTOL Page](/en/utol/)**
+- **[utelecon’s UTOL Page](/en/utol/)**
 
 ### Google Classroom
 
@@ -64,14 +64,14 @@ Google Classroom is a tool provided by Google as part of Google Workspace, which
 
 Google Workspace is a collection of Google services such as Gmail, Google Drive, Google Docs, and Google Sheets. UTokyo has subscribed to a paid license, which is provided under the name "ECCS Cloud Email".
 
--  **[utelecon’s ECCS Cloud Email (Google Workspace) Page](/en/google/)**
+- **[utelecon’s ECCS Cloud Email (Google Workspace) Page](/en/google/)**
 
 ### Microsoft 365 (UTokyo Microsoft License)
 {:#microsoft-365}
 
 Microsoft 365 is a collection of Microsoft services such as OneDrive and the online versions of Office. UTokyo has subscribed to a paid license, which is provided under the name "UTokyo Microsoft License".
 
--  **[UTokyo Microsoft License Page](/en/microsoft/)**: This page provides important notes on how to use the UTokyo Microsoft License.
+- **[UTokyo Microsoft License Page](/en/microsoft/)**: This page provides important notes on how to use the UTokyo Microsoft License.
 
 
 
@@ -197,7 +197,7 @@ LINE OpenChat is a feature of the LINE messaging app that allows users to create
 - **[\[LINE\] OpenChat Broadens LINE User Experience(external site)](https://linecorp.com/en/pr/news/en/2019/2883)**: The official press release on launch of OpenChat, summarizing the main features.
 - **[How to Use OpenChat (LINE Everyone’s User Guide) (external site)](https://guide.line.me/ja/services/openchat.html)** (in Japanese): The official user guide.
 - **[Good Practices of Online Classes - Prof. Hirose: Solid Earth Science](/good-practice/interview/hirose/)** (in Japanese): A practical example of using LINE OpenChat in a course to accept anonymous questions. 
-- **[How to Accept Questions in Class via LINE OpenChat](/en/articles/question-tools/#LINEopenchat)**:  A practical example of using LINE OpenChat in class to receive questions, and tips for collecting questions.
+- **[How to Accept Questions in Class via LINE OpenChat](/en/articles/question-tools/#LINEopenchat)**: A practical example of using LINE OpenChat in class to receive questions, and tips for collecting questions.
 
 ### Gather
 Gather is a conference tool with a playful retro-game style UI. Users enjoy interacting through online calls in a different way from the formal meetings on web conferencing systems such as Zoom or Webex.

@@ -36,10 +36,10 @@ Please refer to the below article to learn more about the different meeting cont
 [https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting](https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting)
 
 **＜Notes>**
-Teachers and teaching assistants should confirm with each other their respective roles before classes start. It is also suggested testing the functions in advance.Note that only the host can take attendance with the report function.
+Teachers and teaching assistants should confirm with each other their respective roles before classes start. It is also suggested testing the functions in advance. Note that only the host can take attendance with the report function.
 
 ## How to Check Who the (Co-)Host is
-Click "Participants" on the Zoom screen (1).  The participant list will appear on the right side of your screen, with your name showing up at the top. Below your name are the host’s and co-host’s names, with their roles specified next to their names (2).
+Click "Participants" on the Zoom screen (1). The participant list will appear on the right side of your screen, with your name showing up at the top. Below your name are the host’s and co-host’s names, with their roles specified next to their names (2).
 1. Click “Participants”
 ![co-host](1.png)
 1. Participant list

@@ -63,7 +63,7 @@ The following is a description of the specific function of each icon.
 #### ② Changing display
 
 - You can choose to display the schedule in "Day," "Week," "Month," "Year," "Schedule," or "4 Days (Custom View)."
-- You can change the view to suit your own preferences in the "Custom View." The default setting for this "Custom View" is "4 days," but you can change it to, for example,  "3 days" or "2 weeks" from "Set custom view" in "Settings" to suit your own preferences.
+- You can change the view to suit your own preferences in the "Custom View." The default setting for this "Custom View" is "4 days," but you can change it to, for example, "3 days" or "2 weeks" from "Set custom view" in "Settings" to suit your own preferences.
 
 #### ③ Changing account
 

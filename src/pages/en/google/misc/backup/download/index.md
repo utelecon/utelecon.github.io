@@ -28,6 +28,6 @@ For detailed settings and troubleshooting, please refer to [Google Account Help 
 
    <img src="./backup-new04.png" alt="Create export" class="border" />
 
-1. If you select “Send download link via email” in the “Destination” section, you’ll receive an email once exporting has finished.  Click the download link in that email to download your data.
+1. If you select “Send download link via email” in the “Destination” section, you’ll receive an email once exporting has finished. Click the download link in that email to download your data.
 
    <img src="./backup-new05.png" alt="Download the export]" class="border" />

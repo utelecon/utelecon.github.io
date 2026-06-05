@@ -12,8 +12,7 @@ Here we introduce methods for filming a video through Zoom and PowerPoint. We ex
 * Zoom
   * The unique feature of Zoom is that you can use its recording function to easily make a video.
   * It is equipped with a standard noise suppression function for voice, so it can maintain a fixed sound quality, even if you do not pay attention to the microphone.
-  * Reference site: 
-[It's simple to record video on Zoom!  Use this during your meetings (External link)](https://zoom.nissho-ele.co.jp/blog/manual/zoom-recording.html) (in Japanese)
+  * Reference: [Recording Zoom Meeting](/en/zoom/usage/recording/)
 * PowerPoint
   * The unique feature of PowerPoint is that, by using the Record Slideshow function, it is possible to record slide by slide, making it easy to upgrade slides and re-record them.
   * There is no noise suppression function, so we recommend checking the sound recording after.
@@ -60,7 +59,7 @@ You can release within university by both Google Drive and YouTube.
   * You can also set prohibitions on downloading.
   * **[Concrete Instructions](/google/drive/share/#target)**
 * Sharing on YouTube
-  * If you make availability limited to within the university, it is necessary for others to log into YouTube by their ECCS Cloud Email address.  There are times when this switchover does not go well for people, so some caution on this point is necessary.
+  * If you make availability limited to within the university, it is necessary for others to log into YouTube by their ECCS Cloud Email address. There are times when this switchover does not go well for people, so some caution on this point is necessary.
   * **[Restricting YouTube Content to University Members Only](https://www.sodan.ecc.u-tokyo.ac.jp/en/hack/youtube-utokyo-only-en/)**
 
 

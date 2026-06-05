@@ -30,7 +30,7 @@ Zoom is the most widely used web conferencing system at the University of Tokyo.
 1. [Sign in to University of Tokyo account](signin/)
 1. [Create a meeting](create_room/)
 1. Inform participants of the meeting information (URL, etc.)
-    - If you are holding an online class, please refer to [How to Announce Online Class URL  (for Faculty Members)](/en/faculty_members/url/).
+    - If you are holding an online class, please refer to [How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url/).
 1. [Join a meeting](join/)
 1. [Hold a meeting](usage/)
 

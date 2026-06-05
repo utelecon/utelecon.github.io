@@ -11,7 +11,7 @@ Some options for taking attendance are:
 * Use [the attendance feature in UTOL](/en/utol/lecturers/attendances/)
 * Answer online questionnaires such as Google Forms or Microsoft Forms
 * To avoid fake attendance, require students to answer questions related to the contents of lecture or give feedback on the class.
-* To avoid faking attendance, enable the “Collect emails” function when creating Google forms with ECCS Cloud Email account (UTokyo G Suite). Students’ email addresses would be collected for identity confirmation, making it harder for students to fake attendance. To do this, go to “Settings (the gear icon)”, check the box next to "Collect emails" and select “Restrict to users of UTokyo ECCS Cloud Email and its trusted organizations”.
+* To avoid faking attendance, enable the “Collect emails” function when creating Google Forms with ECCS Cloud Email account (UTokyo Google Workspace). Students’ email addresses would be collected for identity confirmation, making it harder for students to fake attendance. To do this, go to “Settings (the gear icon)”, check the box next to "Collect emails" and select “Restrict to users of UTokyo ECCS Cloud Email and its trusted organizations”.
 * Call the roll (suitable for smaller size classes using web conference systems). You might have the participants turn on cameras and confirm their identities.
 * Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/en/zoom/misc/report/" target="_blank"> Zoom for staff: Managing Attendance</a>.
 
@@ -101,7 +101,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 #### Q. How do I create a university account?
 * UTokyo Zoom Account is generated automatically if you own a UTokyo Account.
-* Activation of your UTokyo Account is therefore crucial. Please consult[Getting Ready for ICT Systems (for new students)](/en/oc/)or [Getting Ready for ICT Systems (for faculty members)](/en/faculty_members/)」for further details on UTokyo Accounts.
+* Activation of your UTokyo Account is therefore crucial. Please consult [Getting Ready for ICT Systems (for new students)](/en/oc/) or [Getting Ready for ICT Systems (for faculty members)](/en/faculty_members/) for further details on UTokyo Accounts.
 * If necessary, please also refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin/).
 
 #### Q. Is this service free?
@@ -142,7 +142,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * Please check UTOL or UTAS for any urgent updates from the lecturer. If none is found, please report your case via [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 
 #### Q. “Enter Meeting Passcode” is displayed.
-* I"Passcode" is required in addition to the URL to join a Zoom meeting.
+* "Passcode" is required in addition to the URL to join a Zoom meeting.
 * Please check if the passcode is sent with the class URL. If not, report it to "[Report on Attendance Issues](/en/oc/join/#form)".
 
 #### Q. "This meeting is locked by the host” is displayed.
@@ -173,8 +173,8 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
     ＊In that case, one can become a host even without an account.
   1. When scheduling a meeting, select <a href="https://oit.colorado.edu/tutorial/zoom-add-alternate-host-your-meeting" target="_blank"> “Set up an alternate host”</a>.
 
-#### Q. How can I host a large meeting (more than 301 people) in zoom?
-* Prior application for a large meeting license is essential. With such license, you can hold a zoom meeting beyond normal capacity and gain access to additional features.
+#### Q. How can I host a large meeting (more than 301 people) in Zoom?
+* Prior application for a large meeting license is essential. With such license, you can hold a Zoom meeting beyond normal capacity and gain access to additional features.
 * Please refer to [here](/en/zoom/license/) for the application procedure.
 
 #### Q. Can I use my UTokyo Zoom account to host meetings and events outside the university?
@@ -182,7 +182,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
     * As a member of UTokyo, you are welcome to use these services (Zoom, Webex, Google Meet) for research, education, study, and academic purposes. If you wish to host a meeting that exceeds the participant capacity allowed by the university license, please purchase an individual license on your own.
 
 #### Q. How can I edit a single occurrence of a recurring meeting?
-* You can set up irregular meeting dates/times in a recurring meeting.  (For example, you may change the day of a meeting regularly scheduled on Tuesdays to a Thursday for a specific week.) In the Zoom web portal, open the recurring meeting you want to edit. In the “Time” section, click “Show all occurrences”, and then “Edit” on the occurrence you want to change.
+* You can set up irregular meeting dates/times in a recurring meeting. (For example, you may change the day of a meeting regularly scheduled on Tuesdays to a Thursday for a specific week.) In the Zoom web portal, open the recurring meeting you want to edit. In the “Time” section, click “Show all occurrences”, and then “Edit” on the occurrence you want to change.
 
 #### Q. Can I host multiple meetings at the same time?
 * You can host up to a maximum of 2 meetings at the same time with a UTokyo Zoom Account. Both meetings need to be started by the original meeting host or by an alternative host.

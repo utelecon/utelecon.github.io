@@ -50,7 +50,7 @@ Technically, the class supporters are meant to “Help professors prepare for on
 * If you <span style="color:green">CAN find a class supporter on your own</span>:
   * 13,000 yen per class.  
   * Ask for a maximum of 10 hours of work (including 2 hours of training).
-  * Notify that the payment will be made after August when consulting with the class supporter. For example, if you have students in the laboratory, major students, students in the class, etc., this is recommended. If the student agrees, the student or teacher should fill in the  <a href="https://tinyurl.com/ugrxm4r" target="_blank">class supporter activity start report</a>.
+  * Notify that the payment will be made after August when consulting with the class supporter. For example, if you have students in the laboratory, major students, students in the class, etc., this is recommended. If the student agrees, the student or teacher should fill in the <a href="https://tinyurl.com/ugrxm4r" target="_blank">class supporter activity start report</a>.
 
 * If you <span style="color:green">CANNOT find a class supporter on your own</span>:
   * Fill out the <a href="https://tinyurl.com/rcu2lgz" target="_blank">Class Supporter Assignment Request Form</a>. Based on this information, the system management side will perform matching and assign class supporters.

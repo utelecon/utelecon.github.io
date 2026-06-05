@@ -40,7 +40,7 @@ Below, you can find out more about how to use Webex Meetings and Webex Webinars.
 1. Have your host send you the details of the meeting room (such as the URL)
     - For classes, please refer to [How to Obtain the Online Class URL (for Students)](/en/oc/url/)
 1. [Join the meeting room](join_meeting/)
-    - Depending on the meeting room, you may be required to [log in to your UTokyo Account](signin/)
+    - Depending on the meeting room, you may be required to [sign in to your UTokyo Account](signin/)
     - Other participants will not be able to join until the host presses “start” for the meeting
 1. Use the meeting room
     - [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](do_webex/)

@@ -3,7 +3,7 @@ title: How to start Webex Meetings
 ---
 
 ## How to Begin a Meeting
-* **To start a meeting, the organizer must operate the WebEx system.**
+* **To start a meeting, the organizer must operate the Webex system.**
 * There are two kinds of meetings: Scheduled meeting and Instant meeting.
 * To start a scheduled meeting, locate your meeting in the “Upcoming Meetings” section on the home screen and select “Start”. Check the connected devices and audio on the preview screen, and select the "Start a meeting" button.
 

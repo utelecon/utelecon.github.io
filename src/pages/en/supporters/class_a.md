@@ -12,7 +12,7 @@ Notifications
 <br>
 
 **<font color="red">Important！！</font>** <br>
-**If you want to access the forms below, please log in office 365 in advance. <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">Please refer to this link</a>  and  you can get the office 365 licence. In addition, <a href="/oc/#office-365%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%81%AE%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF " target="_blank">Please refer to the checksheet whether you can log in to your account.  You can also find video clips to set-ups. </a> Still you cannot access the office 365, please contact the manager of the class supporters (See the end of this page).**
+**If you want to access the forms below, please log in Office 365 in advance. <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">Please refer to this link</a>  and  you can get the Office 365 licence. In addition, <a href="/oc/#office-365%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%81%AE%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF " target="_blank">Please refer to the checksheet whether you can log in to your account.  You can also find video clips to set-ups. </a> Still you cannot access the Office 365, please contact the manager of the class supporters (See the end of this page).**
 
 
 What is a Class Supporter?

@@ -18,12 +18,12 @@ breadcrumb:
 ### Contents sharing
 
 * When you start contents sharing from the video conference system, the contents are also shared with hosts & participants from Webex Training.
-* When content are shared from the host & participants on Webex, the contents are also shared with the host & participants from the video conference system.
+* When content is shared from the host & participants on Webex, the contents are also shared with the host & participants from the video conference system.
 
 ### Mute / Unmute Settings
 
 * **In addition to the mute setting of the video conference system (whether to send audio from the video conference system to Webex), it is possible to mute the video conference system from the Webex side.**
-* When the host presses  "Mute all", Webex will mute the video conferencing system.
+* When the host presses "Mute all", Webex will mute the video conferencing system.
 * To set / cancel this mute from the video conference system, enter "* 6" with the dial pad.
 
 <br>

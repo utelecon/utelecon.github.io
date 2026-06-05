@@ -8,11 +8,11 @@ breadcrumb:
 - To schedule a meeting, select “Schedule Meeting” on the home page and configure the various settings.
   - The “Schedule Meeting” page allows you to configure settings such as the topic, password, date, and attendees. The details for each item are as follows.
   - **Meeting type**: Select the type of meeting you want to schedule.
-    - **Webex Meetings (1. Standard Meeting**)**: This option should be selected for standard lectures and meetings. You can create cloud recordings, connect to teleconference systems (such as Polycom), and make use of functions such as breakout sessions and lobbies.
+    - **Webex Meetings (1. Standard Meeting)**: This option should be selected for standard lectures and meetings. You can create cloud recordings, connect to teleconference systems (such as Polycom), and make use of functions such as breakout sessions and lobbies.
     - **Webex Meetings (2. End-to-End Encrypted Meeting)**: This option should be selected if End-to-End Encryption is required. Certain functions such as cloud recordings and connection to teleconference systems are disabled. Please refer to “[End-to-End Encryption for Webex Meeting](../encrypted_meeting/)” and “[Recommended Practices for Holding Secure Meetings on Webex.](../how_to_open_secure_meetings/)”
   - **Topic**: Enter the topic of the meeting. This field is required.
   - **Meeting password**: An arbitrary string will be displayed by default, which can be changed.
-  - **Date and Time**: The time when the screen was most recently opened will be displayed. You can change the time by pressing the symbol on the right-hand corner.  You can also repeat meetings. Checking the box marked “Recurrence” will take you to a page where you can set the rules for repeating a meeting.
+  - **Date and Time**: The time when the screen was most recently opened will be displayed. You can change the time by pressing the symbol on the right-hand corner. You can also repeat meetings. Checking the box marked “Recurrence” will take you to a page where you can set the rules for repeating a meeting.
   - **Attendees**: Enter the e-mail addresses of the attendees. Once you complete this setting, the meeting URL and other information will be automatically sent to the registered attendees. 
   - **Show Advanced Scheduling Options**: This allows you to change the audio connection options, add an agenda, and set scheduling options. For example, you can configure the settings to automatically start recording or allow attendees to join before the host. You can also register attendees, set reminder emails, and so on.
 
@@ -44,10 +44,4 @@ To edit the contents of a meeting you have scheduled, select the meeting in ques
 - On the home page, you can view any meetings and webinars scheduled within the next seven days. If you want to select a meeting scheduled at a later date, click the “Calendar” button on the left-hand side of the home page and search for the desired date.
 ![](img/webex_home_calendar.png){:.border.medium}
 ![](img/webex_calendar.png){:.border.medium}
-
-
-<br>
-<br>
-<a href="../index/" target="_blank">Return to the How to Use Webex Page</a>
-
 

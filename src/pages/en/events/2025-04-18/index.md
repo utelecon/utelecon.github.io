@@ -15,7 +15,7 @@ This session will be conducted in English and will cover selected topics from th
 It is mainly designed for those who are currently using UTokyo Azure or are considering using it in the future.
 
 Please feel free to join only the parts that interest you by referring to the timetable below.  
-Questions can be asked during the Q&A session or via [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz).  
+Questions can be asked during the Q&A session or via [Slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz).  
 We encourage you to take this opportunity to learn more about UTokyo Azure and consider using it.
 
 ## Overview
@@ -35,7 +35,7 @@ We encourage you to take this opportunity to learn more about UTokyo Azure and c
 | 10:30 - 10:40 | How to Apply | Prof. Taura | [Slides](/en/events/2025-04-18/slides/3_how_to_apply.pdf)| [Video](https://youtu.be/Bp5jOhLTZLw) |
 | 10:40 - 10:45 | How to Pay | Prof. Taura | [Slides](/en/events/2025-04-18/slides/4_how_to_pay.pdf)| [Video](https://youtu.be/Wp6EMbXvfaw) |
 | 10:45 - 11:45 | Using Popular Services |Prof. Yamakata | [a)Assign Owner Role](/en/events/2025-04-18/slides/5-1_Assign_Owner_Role.pdf) <br>[b)Using Azure OpenAI Service](/en/events/2025-04-18/slides/5-2_Using_Azure_OpenAI_Service.pdf)<br>[c)Create Virtual Machine](/en/events/2025-04-18/slides/5-3_Create_Virtual_Machine.pdf) <br>[d)Using Notebooks](/en/events/2025-04-18/slides/5-4_Using_Notebooks.pdf)| [a)Video](https://youtu.be/B3GDL-d5ED4)<br>[b)Video](https://youtu.be/ZqtGvnPVvso)<br>[c)Video](https://youtu.be/Y5x8itqFIDg)<br>d)No video available due to time constraints. |
-| 11:45 - 12:00 | Q&A Session |  | [slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz) | |
+| 11:45 - 12:00 | Q&A Session |  | [Slido](https://app.sli.do/event/4wZSDZmLxCteBuC5p8T3Jz) | |
 
 ### Speakers
 - Kenjiro Taura (Executive Director & Vice President, The University of Tokyo)

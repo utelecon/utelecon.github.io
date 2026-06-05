@@ -44,7 +44,7 @@ It may cost for business use. For details, please check the Cosense "[Pricing Pl
 ## Creating an Account
 In this section, you will learn how to create an account with Google Account.
 
-Access the website of Cosense  ([https://cosen.se/product](https://cosen.se/product)) from your browser and click the "TRY IT FOR FREE" button.
+Access the website of Cosense ([https://cosen.se/product](https://cosen.se/product)) from your browser and click the "TRY IT FOR FREE" button.
 
 <figure>
 <img src="2.png">
@@ -93,7 +93,7 @@ Below we will explain how to create a project.
        * By sharing an "invite link", which is different from the public URL, you can also grant writing access to the page.
        * It is also displayed in search results of Google and other search engines.
      * Private project
-       * Even if you know the project URL, users have no access rights cannot view the private  project.
+       * Even if you know the project URL, users have no access rights cannot view the private project.
        * To access private projects, you need an invitation link distributed by the administrator.
    * **"Upload image to"**: Select where you want to upload the image. Normally, you can select "scrapbox.io". The uploaded image will be saved on Cosense.
 4. When you are done, click the green "Create" button.
@@ -162,7 +162,7 @@ The following explains how to format and edit a page.
 
 ### Entering Text
 
-The first line is the title, and the second and subsequent lines are the body. The title line can be left blank. However, as  it will become the heading in the page list screen, it is recommended that you write something in it for easy location.
+The first line is the title, and the second and subsequent lines are the body. The title line can be left blank. However, as it will become the heading in the page list screen, it is recommended that you write something in it for easy location.
 
 <figure>
 <img src="9.png">

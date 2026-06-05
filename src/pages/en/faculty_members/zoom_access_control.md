@@ -23,7 +23,7 @@ Take into consideration the following when selecting an access restriction metho
 * **Managing the Waiting Room**: If a Waiting Room is set up, it is necessary to manage the participant flow so that no participant is accidentally left behind in the Waiting Room.
 
 #### Pros and Cons of the Access Restriction Methods
-* Method A:  In this method, there is no risk of wrongly blocking students, including those who have not managed to set up their university accounts. However, there is a risk of unauthorized participants obtaining the meeting room URL and entering the meeting room if the URL is leaked.
+* Method A: In this method, there is no risk of wrongly blocking students, including those who have not managed to set up their university accounts. However, there is a risk of unauthorized participants obtaining the meeting room URL and entering the meeting room if the URL is leaked.
 * Method B: In this method, there is a lower risk of unauthorized participant entrance owing to the fact that unauthorized participants will be placed in the Waiting Room even if the URL is leaked. However, if a large number of UTokyo students who have no university account are placed in the Waiting Room, there is a higher risk of student flow mishandling, such as forgetting to move late students out of the Waiting Room and into the meeting room during class.
 
 Please choose the most appropriate method based on the nature of your class and student population. Kindly also check whether your department has its own policy on access restriction.

@@ -60,7 +60,7 @@ Additionally, it will also appear in the upper left corner of the participants�
 ### Managing the Reactions as hosts
 
 - Hosts can remove the reactions of specific participants and all participants all at once.
-  -  If a participant uses the “Raised Hand”, you can lower their hand by selecting “Participants” from the toolbar at the bottom of the screen, hovering over their name and clicking “Lower Hand”.
+  - If a participant uses the “Raised Hand”, you can lower their hand by selecting “Participants” from the toolbar at the bottom of the screen, hovering over their name and clicking “Lower Hand”.
   - To clear the reactions of all participants at once, click on “Participants” followed by “Clear All Feedback” in this order.
 - The number above each reaction icon shows how many participants have clicked on that icon.
 

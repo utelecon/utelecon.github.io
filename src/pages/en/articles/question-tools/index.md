@@ -167,7 +167,6 @@ For more information, see [here](/en/articles/slack-communication/#in_class).
 
 (Notes of Caution)
 * While it is possible to register under a nickname, as a rule, you will need to register using your real name.
-* While it is possible to register under a nickname, as a rule, you will need to register using your real name.
 
 (Tips)
 As a rule, we recommend collecting questions using the channel. However, it might be convenient to allow DMs (Direct Messages) to accommodate students who don’t feel comfortable having their names displayed or students with personal questions related to their grades.
@@ -200,7 +199,6 @@ You can set up a room for the class and host Q&A sessions by inviting participan
 * Offers various other ways of communicating with participants, such as polls.
 
 (Notes of Caution)
-* (Notes of Caution)
 
 While Slack allows you to create multiple channels, LINE Open Chat only allows you to exchange messages in one room.
 
@@ -247,7 +245,7 @@ There is a message-board-like feature called the “Stream” page, where you ca
 * Since taking questions is not its main purpose, it becomes difficult to view when there are too many questions.
 
 (References)
-* **[Guide to Google Classroom](/en/online/tools/#google-classroom)**:  Provides an overview of the service, along with basic instructions on how to use it.
+* **[Guide to Google Classroom](/en/online/tools/#google-classroom)**: Provides an overview of the service, along with basic instructions on how to use it.
 
 * **[Google Official Website](https://edu.google.com/intl/en_ALL/workspace-for-education/classroom/)**: Provides an overview of the service.
 
@@ -260,7 +258,7 @@ Email is the most common method for collecting questions.
 * Most students and faculty use it daily and are familiar with it.
 
 (Notes of Caution)
-* Some students might feel not feel comfortable asking questions over e-mail.
+* Some students might not feel comfortable asking questions over email.
 * It’s less convenient when you want to ask several questions in succession or ask multiple questions at once.
 * You might overlook an email.
 * Students may become anxious since they have no way of knowing whether the instructor has read the email, aside from waiting for a reply.

@@ -10,8 +10,8 @@ Webex Event has the following roles.
 * **Host**： In addition to starting and ending the event, you have control over the roles of other participants.
 * **Presenter**： You can share content with others, and can also mute/unmute yourself.  
 * **Panelist**： You can answer Q & A from participants, and can also mute/unmute yourself.  
-* **Managing Polls**：  Any one of the host, presenter, or the panelists can be in charge of creating a poll.
-* **Participants**： Video images of the participants will not be shown (the participants' camera will be turned off completely), and they cannot unmute themselves unless the host does. Also, since it is assumed that participants of the event do not know each other, chatting is not possible between the participants.  The participants can only chat with the host, the panelists and the presenter. The Q&A is the only platform on which participants can view other participants' messages.
+* **Managing Polls**： Any one of the host, presenter, or the panelists can be in charge of creating a poll.
+* **Participants**： Video images of the participants will not be shown (the participants' camera will be turned off completely), and they cannot unmute themselves unless the host does. Also, since it is assumed that participants of the event do not know each other, chatting is not possible between the participants. The participants can only chat with the host, the panelists and the presenter. The Q&A is the only platform on which participants can view other participants' messages.
 
 
 ## Screen composition
@@ -32,7 +32,7 @@ Webex Event has the following roles.
 	1. **Other settings**： There are other settings here. You can make settings such as stopping anyone else from joining the event, playing a sound when a participant enters the room, or have participants enter on mute. The voting function cannot be performed in a browser, and requires a desktop application.
 	1. **Leave**： Leave the meeting.
 
-以下，主に利用するメニュー項目について，追加で詳細を説明します．
+The following sections provide additional details about the menu items you will mainly use.
 
 ## Screen sharing
 	
