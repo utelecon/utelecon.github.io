@@ -24,9 +24,9 @@ Google Docs is a software that enables you to create and edit documents online. 
     - Cost: Available at no extra cost as far as not exceeding the capacity limit (15GB for each personal free account, 125GB for each ECCS Cloud Email account).
 
 ## How to Install
-To create and share Google Docs documents, you need a Google account. (For more information on how to create a Google account, please refer to the [official Google account help page](https://support.google.com/accounts/answer/27441?hl=en).
+To create and share Google Docs documents, you need a Google account. (For more information on how to create a Google account, please refer to the [official Google account help page](https://support.google.com/accounts/answer/27441?hl=en)).
 
-If you are a UTokyo member, we recommend that you sign in with your ECCS Cloud Email account, which grants you free 10GB storage and functions such as restricted sharing among UTokyo account holders. For more information on how to use ECCS Cloud Email, please check "[ECCS Cloud Email (Google Workspace)](/en/eccs_cloud_email/)".
+If you are a UTokyo member, we recommend that you sign in with your ECCS Cloud Email account, which grants you free 10GB storage and functions such as restricted sharing among UTokyo account holders. For more information on how to use ECCS Cloud Email, please check "[ECCS Cloud Email (Google Workspace)](/en/google/)".
 
 You can use the visitor function to view and edit documents shared by others, even if you do not have a Google account.
 

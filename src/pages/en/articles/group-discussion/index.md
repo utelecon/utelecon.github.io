@@ -8,11 +8,11 @@ author:
 
 When conducting online classes using a web conferencing system, or group discussions in an online conference, it is convenient to use features that allow you to assign participants to several rooms.  
 
-For example, Zoom's "Breakout Rooms" and Google Meet and Webex's "Breakout Sessions" allow participants to move from the main room to individual rooms for group discussions. (In the following, these features are collectively referred to as “breakouts.”))  
+For example, Zoom's "Breakout Rooms" and Google Meet and Webex's "Breakout Sessions" allow participants to move from the main room to individual rooms for group discussions. (In the following, these features are collectively referred to as “breakouts.”)  
 
 ☞For detailed instructions on how to use the Breakout feature, please refer to the following page.  
 
-* Zoom: [Using the Breakout Room Function in Zoom (in Japanese)](/zoom/usage/breakout/)｜utelecon
+* Zoom: [How to use Breakout Rooms](/en/zoom/usage/breakout/)｜utelecon
 * Google Meet: [Using Breakout Sessions in Google Meet](https://support.google.com/meet/answer/10099500?hl=ja)
 * Webex: [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](/en/webex/do_webex/)｜utelecon
 
@@ -54,7 +54,7 @@ You should determine the appropriate number of students by consulting feedback f
 
 ### Tips That Can be Implemented Before the Breakout Begins: Give All Necessary Instructions
 
-The organizer should do their best to provide clear instructions and detailed explanations  before starting the breakout. This will make it easier for participants to start the discussion smoothly.  
+The organizer should do their best to provide clear instructions and detailed explanations before starting the breakout. This will make it easier for participants to start the discussion smoothly.  
 
 The following are examples of information that should be explained in advance.  
 
@@ -70,11 +70,11 @@ Examples of such rules are as follows:
 
 #### Indicate the Time Required
 
-Participants are encouraged to make the most efficient use of their time, by being aware of the time allotted for discussion and the ending time. (Zoom has a timer function (e.g., "[How Timers Work in Zoom (in Japanese)](/zoom/usage/breakout/#オプションの設定)") that allows you to specify a time limit for the breakout.)  
+Participants are encouraged to make the most efficient use of their time, by being aware of the time allotted for discussion and the ending time. (Zoom has a timer function (e.g., "[How to use Breakout Rooms](/en/zoom/usage/breakout/#start-option-settings)") that allows you to specify a time limit for the breakout.)  
 
 #### Let Participants Know the Type of Output You Are Looking for
 
-If participants are expected to share the results of their discussion afterwards (e.g., after the discussion ends, the participants must give a presentation to the whole group or complete a  specific task), letting them know the type of output in advance will make it easier for them to participate in the discussion with a clear sense of purpose.  
+If participants are expected to share the results of their discussion afterwards (e.g., after the discussion ends, the participants must give a presentation to the whole group or complete a specific task), letting them know the type of output in advance will make it easier for them to participate in the discussion with a clear sense of purpose.  
 
 If the meeting is conducted without sufficient explanation, participants may be upset later, saying, "I just talked aimlessly because I did not expect to share it with the whole group," or “I did not take any notes.”  
 
@@ -170,7 +170,7 @@ There is not necessarily a single right answer, as the appropriate method depend
 
 [How to Duplicate Files and Folders in Google Drive Using GAS (in Japanese)](/articles/gas/copy/)  
 
-[Using the Zoom Breakout Room Feature (in Japanese)](/zoom/usage/breakout/)   
+[How to use Breakout Rooms](/en/zoom/usage/breakout/)   
 
 [Online Class Information Exchange Meeting No. 1: Doing Group Work (1) (in Japanese)](/events/luncheon/2020-04-22/)  
 

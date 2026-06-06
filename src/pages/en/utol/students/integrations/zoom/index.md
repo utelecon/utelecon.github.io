@@ -26,7 +26,7 @@ Course participants can join Zoom meetings that have been configured using an LT
 
 ## View Cloud Recordings
 
-When the course instructors or TAs have record Zoom meetings configured using an LTI integration onto the cloud, enrolled students can view the recordings through a web browser.
+When the course instructors or TAs have recorded Zoom meetings configured using an LTI integration onto the cloud, enrolled students can view the recordings through a web browser.
 
 ### Steps
 

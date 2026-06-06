@@ -12,7 +12,7 @@ Notifications
 <br>
 
 **<font color="red">Important！！</font>** <br>
-**If you want to access the forms below, please log in office 365 in advance. <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">Please refer to this link</a>  and  you can get the office 365 licence. In addition, <a href="/oc/#office-365%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%81%AE%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF " target="_blank">Please refer to the checksheet whether you can log in to your account.  You can also find video clips to set-ups. </a> Still you cannot access the office 365, please contact the manager of the class supporters (See the end of this page).**
+**If you want to access the forms below, please log in Office 365 in advance. <a href="https://www.u-tokyo.ac.jp/adm/dics/ja/mslicense.html" target="_blank">Please refer to this link</a>  and  you can get the Office 365 licence. In addition, <a href="/oc/#office-365%E3%81%8C%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%81%AE%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF " target="_blank">Please refer to the checksheet whether you can log in to your account.  You can also find video clips to set-ups. </a> Still you cannot access the Office 365, please contact the manager of the class supporters (See the end of this page).**
 
 
 What is a Class Supporter?
@@ -58,7 +58,7 @@ List of non-expected duties as a Class Supporter
 * We do not expect that Class Supporters to<font color="red">take a  movie and follow the lecturers move </font>in front of the blackboard<u>.</u>
 * We do not expect that Class Supporters <font color="red">cope with all troubleshooting on the online conference system</font> (e.g. Some students cannot enter the online classroom or cannot hear the lectures voice)<u>.</u>(Of course, we do not think that the lecturers should cope with all troubles at the online classroom<u>.</u>)
 
-What the Class Supporters duty  is  (1) to prepare for the online classes with the lecturers and (2) to cope with the problems if the lecturers do not notice them (e.g. Audio trouble, forget to unmute).If the lecturers want Class Supporters to do some more duties, please consent to the Class Supporter or hire another person as a TA. Lecturers should not ask the duties no more than 10 hours including 2 hour training sessions. 
+What the Class Supporters duty is (1) to prepare for the online classes with the lecturers and (2) to cope with the problems if the lecturers do not notice them (e.g. Audio trouble, forget to unmute). If the lecturers want Class Supporters to do some more duties, please consent to the Class Supporter or hire another person as a TA. Lecturers should not ask the duties no more than 10 hours including 2 hour training sessions.
 
 How to Find a Class Supporter? (For Lecturers) 
 ---------------------------

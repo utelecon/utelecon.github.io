@@ -14,7 +14,7 @@ To use UTokyo VPN, first install Cisco Secure Client, a VPN client application, 
 ### Access to e-journals
 {:#journal}
 
-You cannot access e-journals and e-books subscribed by UTokyo Library via UTokyo VPN.  Instead use EZProxy to access these e-journals and e-books.  To quickly download the pdf of a paper from the publisher's landing page, it's convenient to [Read using the bookmarklet](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others#marklet), also explained in [this page](https://note.com/k_yamamoto/n/n0ee13fe38f24) (in Japanese).  There are of course papers not subscribed by the library, as well as papers subscribed but cannot be obtained by this method.  For more details about the usage and eligible users, be sure to read the page "[Using EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)" and "[Supplement : How to read paper found outside the university](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others)" provided by the library.
+You cannot access e-journals and e-books subscribed by UTokyo Library via UTokyo VPN. Instead use EZproxy to access these e-journals and e-books. To quickly download the pdf of a paper from the publisher's landing page, it's convenient to [Read using the bookmarklet](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others#marklet), also explained in [this page](https://note.com/k_yamamoto/n/n0ee13fe38f24) (in Japanese). There are of course papers not subscribed by the library, as well as papers subscribed but cannot be obtained by this method. For more details about the usage and eligible users, be sure to read the page "[Using EZproxy](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy)" and "[Supplement : How to read paper found outside the university](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/campus/offcampus/ezproxy/others)" provided by the library.
 
 
 ## Requirements for use
@@ -40,7 +40,7 @@ UTokyo VPN is only available to users who have completed the Information Securit
 
 - If you don't complete the Information Security Education within the implementation period, your privilege to use the UTokyo VPN will be suspended. Specifically, you will no longer be able to install the application required to use the UTokyo VPN. Furthermore, even if you have already installed it, you will no longer be able to connect to the UTokyo VPN.
 
-- If your access gets suspended, please ensure to undergo the Information Security Education. As soon as you pass the confirmation test, the suspension of your  access will be restored immediately. 
+- If your access gets suspended, please ensure to undergo the Information Security Education. As soon as you pass the confirmation test, the suspension of your access will be restored immediately. 
 
 - For those who are newly enrolled and appointed, complete the [Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx) and pass the confirmation test in order to start using UTokyo VPN. Please complete the Information Security Education before starting to use the UTokyo VPN.
 

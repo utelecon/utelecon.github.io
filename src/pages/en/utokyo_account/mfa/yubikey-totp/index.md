@@ -8,7 +8,7 @@ In addition to smartphone apps such as the “Google Authenticator” that are u
 
 This page provides information on how to register and sign in by using the YubiKey security key and Yubico Authenticator application as the verification method for the multi-factor authentication of UTokyo Accounts.
 
-YubiKey also has the ability to work in conjunction with another advanced security system “FIDO” for the multi-factor authentication. Please refer to the "[Using the FIDO Security Key for Multi-Factor Authentication of UTokyo Accounts](/utokyo_account/mfa/fido-security_key/)" (in Janpanese) for more details. Additionally, even if the YubiKey has been registered as a FIDO security key, it still can be also registered through an authentication app (which is useful as it allows you to sign in to [some systems where FIDO is not available](/utokyo_account/mfa/fido-security_key/#unsupported-system) (in Japanese)).
+YubiKey also has the ability to work in conjunction with another advanced security system “FIDO” for the multi-factor authentication. Please refer to the "[Using the FIDO Security Key for Multi-Factor Authentication of UTokyo Accounts](/en/utokyo_account/mfa/fido-security_key/)" for more details. Additionally, even if the YubiKey has been registered as a FIDO security key, it still can be also registered through an authentication app (which is useful as it allows you to sign in to [some systems where FIDO is not available](/en/utokyo_account/mfa/fido-security_key/#unsupported-system)).
 
 ## Procedures to register Yubico Authenticator
 
@@ -53,7 +53,7 @@ If you have already registered another verification method as your first one and
 
 ### Adding an account to Yubico Authenticator
 
-1. To add an account to the Yubico Authenticator application, please click on the “Configure Yubikey” in the upper right corner of the screen, and press the “Add account” displayed on the screen.
+1. To add an account to the Yubico Authenticator application, please click on the “Configure YubiKey” in the upper right corner of the screen, and press the “Add account” displayed on the screen.
 ![](add_account.png)
 1. Press the “Scan QR code” and scan the QR code according to the instructions on your screen, and press “Save”. <br>
 \* If you are using a PC, the QR code displayed on the screen will be read in automatically and you do not need to scan the QR code with the camera of your PC. Therefore, when you do this process for the first time, it may ask you for the permission to record the screen.

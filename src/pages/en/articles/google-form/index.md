@@ -31,7 +31,7 @@ Google Forms is a tool provided by Google that allows you to easily create quest
 
 If you are logged in to your Google account (ECCS Cloud Email account), you can use the application from your browser (the following explanation assumes that you are logged in to your ECCS Cloud Email account).
 
-※For information on how to use your ECCS Cloud  Email account, see "[ECCS Cloud Email](/en/google/)" in the "Initial Setup Procedures" section.
+※For information on how to use your ECCS Cloud Email account, see "[ECCS Cloud Email](/en/google/)" in the "Initial Setup Procedures" section.
 
 On the Google page, click the square with six dots next to your Google account icon in the upper right corner, and then "Forms" to start.
 
@@ -136,7 +136,7 @@ Add explanatory text, links, or videos by clicking "Add answer feedback" if deem
 <img src="photo_10.png">
 </figure>
 
-Change your preference on  "Release Marks" and "Respondents Settings" from “Settings".
+Change your preference on "Release Marks" and "Respondents Settings" from “Settings".
 
 <figure>
 <img src="photo_11.png">
@@ -150,7 +150,7 @@ If you want to add more questions, click on the right cross button icon (the lig
 <img src="photo_12.png">
 </figure>
 
-You can also shuffle the test questions themselves by clicking “Settings” (the light blue rectangle in the image below) and turning on  the "Shuffle question order" under “Presentation” (shuffling question order is effective in preventing cheating).
+You can also shuffle the test questions themselves by clicking “Settings” (the light blue rectangle in the image below) and turning on the "Shuffle question order" under “Presentation” (shuffling question order is effective in preventing cheating).
 
 <figure>
 <img src="photo_13.png">
@@ -172,7 +172,7 @@ If you do not want to do this, you can skip this section.
 
 ##### Allow answer checking after submission
 
-Click on “Settings” (the red circle  below), open “Responses”, turn on “Collect email addresses”, select “Always” for “Send responders a copy of their response”.
+Click on “Settings” (the red circle below), open “Responses”, turn on “Collect email addresses”, select “Always” for “Send responders a copy of their response”.
 
 <figure>
 <img src="photo_15.png">
@@ -182,7 +182,7 @@ Click on “Settings” (the red circle  below), open “Responses”, turn on �
 
 #### Preview your quiz before sharing
 
-Click on the eye symbol icon on the right (the red circle below) to preview  your quiz before sharing.
+Click on the eye symbol icon on the right (the red circle below) to preview your quiz before sharing.
 
 <figure>
 <img src="photo_16.png">
@@ -253,7 +253,7 @@ Below are steps to create a matrix questionnaire.
 ## Tips on Actual Implementation
 {:#implementation_tips}
 
-[Professor Hisashi Ohtsuki - Adaptive Behavior Theory (only in Japanese)](/good-practice/interview/ohtsuki/)  ([Online Class Information Exchange #26 (only in Japanese)](/events/luncheon/2021-01-15/))
+[Professor Hisashi Ohtsuki - Adaptive Behavior Theory (only in Japanese)](/good-practice/interview/ohtsuki/) ([Online Class Information Exchange #26 (only in Japanese)](/events/luncheon/2021-01-15/))
 
 There were more than 600 students in Professor Ohtsuki's class and he conducted Google Forms quizzes twice per class. Here are his tips.
 

@@ -75,7 +75,7 @@ Zoom's recording function can save the shared screen in video format, so it is a
 
 * Reference
     * [Basic Use of Google Docs](/en/articles/google-document/)
-    * Examples  of  minutes format
+    * Examples of minutes format
 	![presentation.png](img/presentation.png)  
 
 #### Flow of the first meeting

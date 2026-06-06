@@ -103,7 +103,7 @@ When hosting a highly confidential meeting, you may lock the meeting to prevent 
 	![](img/webex_privilege_participant.png){:.border}
 
 ## Recording the Webex Meeting
-- Webex meetings can be recorded and made available on UTOL or other systems for students who had wifi connection issues or who want to use the videos for review purposes.
+- Webex meetings can be recorded and made available on UTOL or other systems for students who had Wi-Fi connection issues or who want to use the videos for review purposes.
 - Recording can be set by turning on "Automatic Recording" during the meeting setup or started at any time by clicking the “Record” button during the meeting.
 - Co-hosts are unable to start the recording if the meeting host is present.
 - Recording is paused during breakout sessions.
@@ -131,7 +131,7 @@ When hosting a highly confidential meeting, you may lock the meeting to prevent 
 1. Click "Completed" and select the meeting for which you wish to obtain the participant list.
    * Only meetings from the last 7 days are displayed by default. Search for earlier dates by selecting them from the date selector.
 ![](img/webex_calendar_completed.png){:.border}
-1. The participant list will be displayed.You may export the information by selecting “Export attendance report".
+1. The participant list will be displayed. You may export the information by selecting “Export attendance report".
 ![](img/webex_participants_report.png){:.border}
    - You may download the information as a CSV file containing details such as the participants’ names, e-mail addresses, and connection time.
 

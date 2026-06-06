@@ -61,7 +61,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">学外の人と共同利用することはできないのでしょうか。</Fragment>
+  <Fragment slot="problem">学外の人と共同利用することはできないのでしょうか．</Fragment>
   <Fragment slot="solution"><p>Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用はすでに UTokyo Account を保有している人に限られます．</p><p>ただし，例えば作成した仮想マシン上で動かしている OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</p></Fragment>
 </HelpItem>
 
@@ -79,7 +79,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">特権管理者ロールの所有者と共同作成者は何が違うのでしょうか</Fragment>
-  <Fragment slot="solution"><p>**所有者**は，自身が所有者であるサブスクリプションやリソースに対して他者アカウント（メンバー）に権限（ロール）を付与することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．</p><p>注意点として、所有者の権限にはさらに段階があり，サブスクリプションの申請者は**すべてのロールを割り当てることができる所有者**の権限が設定されます．</p></Fragment>
+  <Fragment slot="solution"><p>**所有者**は，自身が所有者であるサブスクリプションやリソースに対して他者アカウント（メンバー）に権限（ロール）を付与することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．</p><p>注意点として，所有者の権限にはさらに段階があり，サブスクリプションの申請者は**すべてのロールを割り当てることができる所有者**の権限が設定されます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -116,12 +116,12 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料分とはなんですか</Fragment>
-  <Fragment slot="solution"><p>ある月の利用料のうち，ギフトクレジットから支払いされ無料となる分の金額で, 月末に全ユーザの利用料を元に計算されます．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には，およそ半期毎に各月の超過分・余剰分を集計して通算の超過額を計算します．この時に超過した額を情報基盤センターより請求する予定です．詳細は [UTokyo Azure 説明会資料](/events/2025-02-21/slides/3_application_guidelines.pdf)をご参照ください．</p><p>無料分の額は毎月末に、その月の大学全体の利用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から確認できます．</p></Fragment>
+  <Fragment slot="solution"><p>ある月の利用料のうち，ギフトクレジットから支払いされ無料となる分の金額で, 月末に全ユーザの利用料を元に計算されます．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には，およそ半期毎に各月の超過分・余剰分を集計して通算の超過額を計算します．この時に超過した額を情報基盤センターより請求する予定です．詳細は [UTokyo Azure 説明会資料](/events/2025-02-21/slides/3_application_guidelines.pdf)をご参照ください．</p><p>無料分の額は毎月末に，その月の大学全体の利用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料保証枠とはなんですか</Fragment>
-  <Fragment slot="solution"><p>毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは確実に無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．</p><p>そこで月初めに、この額までは必ず無料になるという最低保証額を公表しています．これが無料保証枠です．月末に集計される無料分よりは少ない額になります．</p><p>無料保証枠は [UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から確認できます．</p></Fragment>
+  <Fragment slot="solution"><p>毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは確実に無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．</p><p>そこで月初めに，この額までは必ず無料になるという最低保証額を公表しています．これが無料保証枠です．月末に集計される無料分よりは少ない額になります．</p><p>無料保証枠は [UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -173,7 +173,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">仮想マシンを Windows OS で使いたい</Fragment>
-  <Fragment slot="solution"><p>UTokyo Azure では、Windows OS を [UTokyo Microsoft License](/microsoft/) にて認証された状態で利用できます．仮想マシンを構成する際に，**「マルチテナントをホストする権利を持つ有効な Windows 10/11 のライセンスを所有しています」**にチェックを入れてください．</p><p>Windows 10 は 2025年10月に公式のサポートは終了しております．互換性等の事情で必須である場合以外は Windows 11 を選択してください．</p><p>Windows Server は対象外です．Server テンプレートをご利用になりたい場合は別途ライセンスを購入ください．</p></Fragment>
+  <Fragment slot="solution"><p>UTokyo Azure では，Windows OS を [UTokyo Microsoft License](/microsoft/) にて認証された状態で利用できます．仮想マシンを構成する際に，**「マルチテナントをホストする権利を持つ有効な Windows 10/11 のライセンスを所有しています」**にチェックを入れてください．</p><p>Windows 10 は 2025年10月に公式のサポートは終了しております．互換性等の事情で必須である場合以外は Windows 11 を選択してください．</p><p>Windows Server は対象外です．Server テンプレートをご利用になりたい場合は別途ライセンスを購入ください．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">

@@ -15,7 +15,7 @@ In addition, worksheets can be saved on to the cloud to serve as a record of act
 
 ☞ Extra tip: Please refer to the following page for detailed instructions and notes on using breakout discussions.  
 
-* Zoom: [Zoom ブレークアウトルーム機能を使う (in Japanese)](/zoom/usage/breakout/)｜utelecon
+* Zoom: [How to use Breakout Rooms](/en/zoom/usage/breakout/)
 * [Problems That Tend to Arise in Online Group Discussions and Suggested Solutions](/en/articles/group-discussion/)
 
 
@@ -145,7 +145,7 @@ The format and use of the worksheet may vary depending on the content of the ass
 
 [Search Online Resources by Tool](/en/online/tools/)  
 
-[Using the Breakout Room in Zoom (in Japanese)](/zoom/usage/breakout/)  
+[How to use Breakout Rooms](/en/zoom/usage/breakout/)  
 
 [Online Class Information Exchange Session 1: Doing Groupwork (1) (in Japanese)](/events/luncheon/2020-04-22/)  
 

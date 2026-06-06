@@ -17,7 +17,7 @@ The University of Tokyo has a comprehensive license agreement that allows **all 
 - Unlimited use of MATLAB Mobile
     - This application is available for smartphones and tablets.
 - MATLAB Toolbox
-    -  You can use the related optional products listed in the "List of Available Products" on the [University of Tokyo's Comprehensive License Page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html).
+    - You can use the related optional products listed in the "List of Available Products" on the [University of Tokyo's Comprehensive License Page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html).
 - MATLAB Drive storage capacity (20 GB)
     - This is a cloud service for storing data of MATLAB Online and others.
 - Taking online tutorial courses
@@ -29,25 +29,27 @@ The purpose of use is limited to educational and research activities and related
 Also, please refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms/)".
 
 ## How to start using MATLAB
+{:#how-to-start}
+
 When using MATLAB under the University of Tokyo’s campus-wide license, your UTokyo Account is used as your MathWorks account.
 Please note that even if you created a MathWorks account before December 2024 using the previously provided format (i.e., a University of Tokyo email address ending with u-tokyo.ac.jp rather than a UTokyo Account), you can still sign in using your UTokyo Account.
 1. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click “Sign In to Get Started” located in the middle of the page.
 
 ![](img/img-0.png){:.medium.center.border}
 
-2. When the MATLAB sign-in screen appears, enter your UTokyo Account (e.g., 0123456789@utac.u-tokyo.ac.jp) in the “Email” field, as illustlated below, and then click “Next".
+2. When the MATLAB sign-in screen appears, enter your UTokyo Account (e.g., 0123456789@utac.u-tokyo.ac.jp) in the “Email” field, as illustrated below, and then click “Next".
 
 ![](img/img-2.png){:.medium.center.border}
 
 3. Unless you are already signed in with your UTokyo Account, the UTokyo Account sign-in page will be displayed. Please sign in accordingly.
 ### If you have not created a MathWorks account yet
 To use your UTokyo Account as a MathWorks account, please complete the initial setup by following the steps below.
-1. Access the  [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click “Sign In to Get Started” located in the middle of the page.
+1. Access the [University of Tokyo's comprehensive license introduction page](https://www.mathworks.com/academia/tah-portal/university-of-tokyo-40790257.html) provided by MathWorks, and click “Sign In to Get Started” located in the middle of the page.
 
 ![](img/img-0.png){:.medium.center.border}
 
 2. When the MATLAB sign-in screen appears, enter your UTokyo Account (e.g., `0123456789@utac.u-tokyo.ac.jp`) in the “Email” field, and click “Create Account.”
-3. The “Create Account” screen, as illustlated below, will be displayed. Enter your UTokyo Account (e.g., `0123456789@utac.u-tokyo.ac.jp`) again in the “Email Address” field, and click “Next.”
+3. The “Create Account” screen, as illustrated below, will be displayed. Enter your UTokyo Account (e.g., `0123456789@utac.u-tokyo.ac.jp`) again in the “Email Address” field, and click “Next.”
 
 ![](img/img-3.png){:.medium.center.border}
 
@@ -94,7 +96,7 @@ Examples of MATLAB use in the classroom are available on the [MathWorks website]
 
 ### File sharing with MATLAB Drive
 
-When faculty members distribute MATLAB sample files to students, they can use [MATLAB Drive](https://www.mathworks.com/products/matlab-drive.html) or [File Exchange](https://www.mathworks.com/matlabcentral/fileexchange) to make it easier  to receive files and execute programs.
+When faculty members distribute MATLAB sample files to students, they can use [MATLAB Drive](https://www.mathworks.com/products/matlab-drive.html) or [File Exchange](https://www.mathworks.com/matlabcentral/fileexchange) to make it easier to receive files and execute programs.
 
 Detailed instructions are in preparation.
 
