@@ -138,7 +138,9 @@ Here, we will explain how to enable the "Manual Approval" option.
 1. Click on the "Edit" button on the right of "Registration Options".
    ![](ManualEditOption.png){:.medium}
 1. On the displayed screen, please select "Manually Approve". 
+   ![](ManualApplied.png){:.medium}
 1. Click on the "Save All" button.
+   ![](ManualAccepted.png){:.medium}
 
 #### Participant Approval
 
@@ -149,7 +151,7 @@ Here, we will explain how to individually approve participants who have complete
    ![](ManualChooseMeeting.png){:.medium}
 1. The meeting information will be displayed. You will see a row of tabs at the top, such as "Registration", "Email Settings", etc. Please select the "Registration" tab.
    ![](ManualRegisterTab.png){:.medium}
-1. Please click on the "View" button on the right of the "Manage Registrants" section.
+1. Please click on the "Edit" button on the right of the "Manage Registrants" section.
    ![](ManualManage.png){:.medium}
 1. A list of prospective participants who have completed the registration procedure will be displayed in the "Pending Approval" list on the screen.
    ![](ManualApplied.png){:.medium}
@@ -168,7 +170,7 @@ The denied prospective participants will receive a "Registration Denial Email" i
    ![](ManualChooseMeeting.png){:.medium}
 1. The meeting information will be displayed. You will see a row of tabs at the top, such as "Registration" and "Email Settings", etc. Please select the "Registration" tab.
    ![](ManualRegisterTab.png){:.medium}
-1. Click on the "View" button on the right of the "Manage Registrants" section.
+1. Click on the "Edit" button on the right of the "Manage Registrants" section.
    ![](ManualManage.png){:.medium}
 1. A list of prospective participants who have completed the registration procedure will be displayed in the "Pending Approval" list on the displayed screen.
    ![](ManualApplied.png){:.medium}
@@ -210,7 +212,7 @@ This can be useful for conducting surveys with prospective participants in advan
    1. On the displayed screen, please select the "Questions" tab.．
       ![](FormQuestionnaireTab.png){:.medium} 
    1. Click on "Add Question".
-      ![](FormQuestionnaireTab.png){:.medium}
+      ![](FormQuestionnaireAddOriginal.png){:.medium}
    1. Enter your custom question in the top text box.
       ![](FormQuestionnaireOriginalQuestion_new.png){:.medium}
    1. From the menu next to "Question Type", select the format for your question. "Short text" is for open-ended responses, and "Single Choice" is for multiple-choice questions.
