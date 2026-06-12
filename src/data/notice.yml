@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-06-12
+  content:
+    ja: "[オンライン学習プラットフォーム「LinkedIn Learning」の導入に向けた説明会（教員向け）を実施します（6月26日13時）](/notice/2026/0626-lil/)"
+    en: "[Information Session for Faculty Members on the Introduction of the Online Learning Platform \"LinkedIn Learning\" (June 26, 1:00 PM)](/en/notice/2026/0626-lil/)"
+-
   date: 2026-05-12
   content:
     ja: "[UTOLにおける学習データ利活用に関する事前同意のお願い](/notice/2026/0512-utol-data-policy/)"
