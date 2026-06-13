@@ -24,14 +24,15 @@ To use the Slack integration feature, you need to first [apply to use it and com
 1. If you have not yet completed the required steps for using [UTokyo Slack](/en/slack/), such as taking the "[Information Security Education](https://univtokyo.sharepoint.com/sites/Security/SitePages/en/Information_Security_Education.aspx)" training and enabling [Multi-Factor Authentication for a UTokyo Account](/en/utokyo_account/mfa/), please complete them in advance.
 2. Please read the "[Creation and operation of workspaces in UTokyo Slack](/en/slack/workspace/)" page and review the workspace management procedures and important notes.
    * Workspaces for Slack integration are created via UTOL. There is no need to submit a separate request to create a new workspace in UTokyo Slack.
-3. Please apply to use the Slack Integration feature by filling in the required information in the "[\[UTOL\] Application Form for Slack Integration](https://forms.office.com/pages/responsepage.aspx?id=T6978HAr10eaAgh1yvlMhAV1xFVIiWBKstSDeuZIIuFUQVNXSzlSUEk5VEpOU1dGV0pUNjA3RVBZVSQlQCN0PWcu&route=shorturl)".
+3. Please apply to use the Slack Integration feature by filling in the required information in the "[\[UTOL\] Application form for Slack Integration
+](https://forms.office.com/pages/responsepage.aspx?id=T6978HAr10eaAgh1yvlMhAV1xFVIiWBKstSDeuZIIuFUQVNXSzlSUEk5VEpOU1dGV0pUNjA3RVBZVSQlQCN0PWcu&route=shorturl)".
    * A separate application is required for each course.
    * Once the setup is completed, the UTOL Support Team will contact you by email. Please note that it may take a few days depending on operational circumstances.
    * Only the course instructor(s) of the relevant courses can apply. Students, including TAs, are not allowed to apply.
 4. Select "Course settings" \> "LTI usage settings" from the left menu on the course top page.
    * **From this point onwards, all steps must be performed by academic and administrative staff appointed as [representatives](/en/slack/workspace/#overview-and-preactions), who are responsible for the management and operation of the workspace.** The users who perform these steps will be granted owner privileges for their workspace and will be treated as representatives.
 5. In the table, click "Slack" under the "Use" checkbox column on the left.
-6. Click on the "Proceed" button, then click "Register". UTokyo Slack will become available for the course via LTI integration.
+6. Click on the "Confirm" button, then click "Register". UTokyo Slack will become available for the course via LTI integration.
 7. Return to the course top page and click "Slack" under the "External Tool Link".
 
     ![](./integration.png)
