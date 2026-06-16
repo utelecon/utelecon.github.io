@@ -4,88 +4,59 @@ breadcrumb:
   title: Google Calendar
 ---
 
-## はじめに
+## Introduction
 {:#introduction}
 
 Google Calendar is a schedule management tool provided by Google. You can create and share events, set reminders, and manage tasks online.
 
-Googleカレンダーは，Googleアカウントにログインすることで利用できます．なお，ECCSクラウドメール（東京大学のGoogleアカウント）でログインした場合は，一般のGoogleアカウントでログインした場合よりも多くの機能を使うことができます（のちほど説明する「[不在](#set-out-of-office)」，「[勤務場所](#set-working-location)」，「[サイレントモード](#set-focus-time)」など）．そこで，以下ではECCSクラウドメールのアカウントで利用することを前提として説明します．
 Google Calendar can be used by signing in to your Google account. Note that if you sign in with your ECCS Cloud Email (The University of Tokyo's Google account), you can use more features than with a standard Google account (such as "[Out of office](#set-out-of-office)", "[Working location](#set-working-location)", and "[Focus time](#set-focus-time)", which will be explained later). Therefore, the following explanation assumes the use of an ECCS Cloud Email account.
 
-Googleカレンダーはクラウドサービスであるため，同一のアカウントを複数のデバイスで使用することができます．すなわち，異なるデバイス間でも予定などが自動的に同期されるため，PCやスマホで同じアカウントにログインすれば，どの端末からも同じカレンダーを利用できます．なお，PCではブラウザから，スマートフォンなどのモバイル端末ではアプリ，ブラウザから利用できます．この記事では，特にPCのブラウザ版について説明します．モバイル端末版との違いは「[PC・モバイル版の違い，複数のデバイスでの仕様/同期](#differences-by-device)」 で説明します．
 Since Google Calendar is a cloud service, the same account can be used on multiple devices. That is, schedules and other information are automatically synchronized between different devices; by signing in to the same account on your PC or smartphone, you can access the same calendar from any device. On a PC, it can be accessed via a browser, and on mobile devices such as smartphones, it can be accessed via an app or a browser. This article specifically explains the browser version for PC. The differences from the mobile version are explained in "[Differences between PC and mobile versions, specifications/synchronization for multiple devices](#differences-by-device)".
 
-さらに，Googleカレンダーでは，カレンダーを他の人に公開して予定を共有したり，ミーティングなどの予定に他の人を招待したりすることができます．なお，ECCSクラウドメールのアカウントで利用する場合には，カレンダーを共有する範囲を，ECCSクラウドメールのアカウントのユーザーのみに限定することができます．一方で，一般のGoogleアカウント同様に範囲を限定せずに公開することも可能です．詳しくは「[他の人と連携したGoogleカレンダーの利用](#colab)」で説明します．
-Furthermore, Google Calendar allows you to share your calendar with others by making it public and to invite others to events such as meetings. When using an ECCS Cloud Email account, you can restrict the scope of calendar sharing to only users with ECCS Cloud Email accounts. On the other hand, just like with a standard Google account, it is also possible to make it public without restricting the scope. For more details, please refer to "[Using Google Calendar in collaboration with others](#colab)".
+Furthermore, With Google Calendar, you can share your calendar with others and invite them to events like meetings. When using an ECCS Cloud Email account, you can limit calendar sharing to only users who also have an ECCS Cloud Email account. On the other hand, just like with a standard Google account, you can also make it public without any restrictions.  For more details, please refer to "[Using Google Calendar in collaboration with others](#colab)".
 
-## Googleカレンダーにおける「カレンダー」
-{:#what-calender-is}
 ## “Calendar” in Google Calendar
 {:#what-calender-is}
 
-Googleカレンダーでは，予定を作成したり管理したりする入れ物のようなものを「カレンダー」と呼びます．
-In Google Calendar, the container-like entity used to create and manage events is called a "calendar."
+In Google Calendar, the container like entity used to create and manage events is called a "calendar."
 
-まず，Googleカレンダーを初めて利用するGoogleアカウントには1つのカレンダーがあります．さらにカレンダーを追加で作成することで，同じアカウントで複数のカレンダーを管理することもできます．そして，例えば，講義用のカレンダー，サークル用のカレンダー，バイト用のカレンダーといったように，複数のカレンダーを使い分けることによって，異なるタイプの予定をグループ分けして管理できます．また，カレンダーごとに個別に共有範囲などを設定できます．
-First, a Google account using Google Calendar for the first time has one calendar. You can also manage multiple calendars under the same account by creating additional calendars. By using multiple calendars separately—for example, a lecture calendar, a club activity calendar, and a part-time job calendar—you can manage different types of events in groups. Furthermore, you can individually configure settings such as the sharing scope for each calendar.
+A Google account using Google Calendar for the first time has one calendar. You can also manage multiple calendars under the same account by creating additional calendars. By using multiple calendars separately like a lecture calendar, a club activity calendar, and a part-time job calendar, You can manage different types of events separately. Furthermore, you can individually configure settings such as the sharing settings for each calendar.
 
-## 基本的な使い方
-{:#basic-usage}
 ## Basic Usage
 {:#basic-usage}
 
-まず，GoogleカレンダーをPCのブラウザで開くと以下の画像のようになります．
-First, when you open Google Calendar in a PC browser, it will appear as shown in the image below.
+ When you open Google Calendar in a PC browser, it will appear as shown in the image below.
 
-画面中央の表になっている部分には予定が表示されます．また，①では予定を作成することができます．②にはカレンダーの一覧があります．さらに，③，④，⑤ではそれぞれ，カレンダーに関する設定，カレンダーの表示方法，使用するアカウントを変更できます．
 Events are displayed in the grid section in the center of the screen. You can create an event at ①. A calendar list is located at ②. Furthermore, at ③, ④, and ⑤, you can change the calendar settings, the calendar display mode, and the account you are using, respectively.
 
 ![](home.PNG){:.border}
 
-以下で，各機能について具体的に説明します．
 Specific details for each feature are explained below.
 
-### 予定を作成する(①)
-{:#create-event}
 ### Create an event (①)
 {:#create-event}
 
-ここでは最も基本的な機能として，予定の入れ方について説明します．応用的な設定項目などについては，下記の「[詳細な予定の作成](#event-creation-detail)」を参照してください．
 In this section, we explain how to add events as one of the most basic features. For more advanced configuration settings, please refer to "[Creating detailed events](#event-creation-detail)" below.
 
-手順は以下の通りです．
 The procedure is as follows.
 
-1. 予定を入れたい時間帯または左上にある「作成」を押してください．下の画像の赤枠部分のような画面が表示されます．
 1. Click on the time slot where you want to add an event, or click "Create" in the upper left corner. A screen will appear, such as the area outlined in red in the image below.
   ![](create-event.png){:.border}
-2. 一番上にある「タイトルを追加」に予定の名前を入力してください．
 2. Enter the name of the event in "Add title" at the top.
-3. その下の時計のアイコンの部分で，開始と終了の時刻を設定してください．
 3. Set the start and end times at the clock icon below.
-4. 右下にある「保存」を押してください．
 4. Click "Save" in the lower right corner.
 
-### マイカレンダーと他のカレンダーを管理する(②)
-{:#manage-calendars}
 ### Manage My calendars and Other calendars (②)
 {:#manage-calendars}
 
-「マイカレンダー」には，管理権限が自分にあるカレンダーが表示されます．一方で，「他のカレンダー」には，管理権限が他の人にあり，他人から共有されたカレンダーが表示されます．そして，自分でカレンダーを作成したり他の人からカレンダーを共有されたりすると，各欄にカレンダーが追加されていきます．
-各カレンダーは，チェックボックスを押すことで表示/非表示を切り替えることができます．なお，カレンダーの共有については下記の「[他の人と連携したGoogleカレンダーの利用](#colab)」を参照してください．
 "My calendars" displays calendars for which you have administrative privileges. On the other hand, "Other calendars" displays calendars for which others have administrative privileges and that have been shared with you. As you create calendars yourself or have them shared by others, the new calendars will be added to each section.
 You can toggle the visibility of each calendar by clicking its checkbox. For information on sharing calendars, please refer to "[Using Google Calendar in collaboration with others](#colab)" below.
 
-### 設定を変更する(③)
-{:#change-setting}
 ### Change settings (③)
 {:#change-setting}
 
-個人の好みに合わせて，カレンダーの細かい設定ができます．例えば，予定の「通知設定」や「ビューの設定」などを自分の使いやすいように変更できます．他にも，「ごみ箱」にある削除済みの予定を確認することもできます．なお，詳細については下記の「[詳細な設定](#detailed-setting)」を参照してください．
 You can configure detailed calendar settings to suit your personal preferences. For example, you can change "Notification settings" and "View settings" to make them easier for you to use. You can also check deleted events in the "Trash." For more information, please refer to "[Detailed settings](#detailed-setting)" below.
 
-### 表示を変更する(④)
-{:#change-display-density}
 ### Change the view (④)
 {:#change-display-density}
 
