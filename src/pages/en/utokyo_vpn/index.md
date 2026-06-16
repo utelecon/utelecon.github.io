@@ -61,7 +61,7 @@ The following pages explain how to install the VPN client application on your de
 {:#faq}
 
 ### Q. I want to use a local printer even when connected to UTokyo VPN.
-When you are connected to UTokyo VPN, the communication to the local network to which your computer is connected also goes through the VPN. Click the gear button on the bottom left of the AnyConnect Secure Mobility Client window. The following window will appear. In the "Preferences" tab of this window, check the "Allow local (LAN) access when using VPN (if configured)" check box.
+When you are connected to UTokyo VPN, the communication to the local network to which your computer is connected also goes through the VPN. Click the gear button on the bottom left of the Cisco AnyConnect Secure Mobility Client window. The following window will appear. In the "Preferences" tab of this window, check the "Allow local (LAN) access when using VPN (if configured)" check box.
 
 <div class="gallery">
   <figure class="center">
