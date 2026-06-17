@@ -82,4 +82,4 @@ At the University of Tokyo, as a general rule, URLs for online classes should be
   - This is how instructors announce the online class URL (the URL of web conference rooms such as Zoom) to students.
 - [Getting Ready for ICT Systems at UTokyo (for Faculty Members)](/en/faculty_members/)
   - This page explains how to use the information system, mainly used for educational activities.
-  - Please also see "[Announcing Online Class URLs](/en/faculty_members/#announcing-online-course-urls)" and "[Using Zoom](/en/faculty_members/#using-zoom)" in the middle of the page.
+  - Please also see "[Announcing Online Class URLs](/en/faculty_members/#course-url)" and "[Using Zoom](/en/faculty_members/#zoom)" in the middle of the page.
