@@ -23,7 +23,7 @@ At the University of Tokyo, as a general rule, URLs for online classes should be
 1. Please apply to use LTI integration via the "[UTOL Zoom LTI Integration Application Form (in Japanese)](https://forms.gle/GY1GsxkoTDdUeSCKA)".
    - A separate application is required for each course.
    - Once the setup is complete, UTOL staff will contact you via email. Please understand that it may take several days due to other work commitments.
-2. Select “Course setting” > “LTI usage settings” from the left-side menu on the Course Top screen of the relevant course.
+2. Select “Course settings” > “LTI usage settings” from the left-side menu on the Course Top screen of the relevant course.
    ![](utol_menu.png){:.small}
 3. Check the “Zoom” checkbox in the “Use” column on the left side.
    ![](utol_lti_setting.png)
@@ -31,7 +31,7 @@ At the University of Tokyo, as a general rule, URLs for online classes should be
 
 ### Create a meeting
 
-1. Return to the Course Top screen, click on “ZOOM” in the “External Tool Link” section.
+1. Return to the Course Top screen, click on “Zoom” in the “External Tool Link” section.
    ![](utol_lti.png){:.small}
 2. Click the “Schedule a New Meeting” button in the upper right corner of the Zoom screen.
    ![](zoom_next_meeting.png)
@@ -53,7 +53,7 @@ At the University of Tokyo, as a general rule, URLs for online classes should be
 
 1. Selecting the “Previous Meetings” tab in a Zoom meeting displays previous meetings.
    ![](zoom_past_meeting_report.png)
-2. Click “Report” for each meeting to view the participants.
+2. Click “View Meeting Report” for each meeting to view the participants.
    ![](zoom_meeting_report.png)
 
 ### View Cloud Recordings
@@ -77,7 +77,7 @@ At the University of Tokyo, as a general rule, URLs for online classes should be
 
 ## Reference Page
 
-- [Using Zoom meeting with LTI integration in UTOL](../../../students/integrations/zoom/)
+- [Using Zoom meeting with LTI integration in UTOL (for enrolled students)](../../../students/integrations/zoom/)
 - [How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url/)
   - This is how instructors announce the online class URL (the URL of web conference rooms such as Zoom) to students.
 - [Getting Ready for ICT Systems at UTokyo (for Faculty Members)](/en/faculty_members/)
