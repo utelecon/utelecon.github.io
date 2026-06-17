@@ -4,6 +4,11 @@ breadcrumb:
   title: MATLAB Grader
 ---
 
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import create1 from "./create_1.png";
+import create4 from "./create_4.png";
+import confirm1 from "./confirm_1.png";
+
 ## Overview
 
 This section explains how to use the MATLAB Grader function in UTOL.
@@ -33,25 +38,25 @@ Create a problem for students using MATLAB Grader.
 
 1. Open the Course Top screen, then click the ![Add](../../../_icons/add_coursetop.png){:.icon} button in the "MATLAB Grader LTI 1.3" column.
 
-    ![](create_1.png)
+    <ArrowOverlay image={create1} x={60} y={245} angle={180} />
 
 2. Set the title, publication period, and published target for the MATLAB Grader problem. Also, set the content, attachments, and display labels as needed.
 
     - When "enrolled students" included in the published target visit the Course Top screen during the publication period, they can access the created MATLAB Grader problem by clicking the link to it.
 
-    - The "publication period" set here is the due date for students to submit. When the publication period ends, students will no longer be able to access the problems on MATLAB Grader. Please also check the "[Additional Notes](#appendix)".
+    - The "open period" set here is the due date for students to submit. When the publication period ends, students will no longer be able to access the problems on MATLAB Grader. Please also check the "[Additional Notes](#appendix)".
 
     ![](create_2.png)
 
 3. Click the "Register" button, and the confirmation screen will appear. If no issues are found, click the "Register" button.
 
-4. Returning to the Course Top screen, (1) click the ![Menu](../../../_icons/control_btn_icon.png){:.icon} button in the "Actions" column, and then (2) click "Launch External Tool".
+4. Returning to the Course Top screen, (1) click the ![Menu](../../../_icons/control_btn_icon.png){:.icon} button in the "Actions" column, and then (2) click "Launch external tool".
 
     ![](create_3.png)
 
 5. When the screen shown below appears, click "Link to MATLAB Grader LTI 1.3". The MATLAB Grader screen will open in a separate tab (or window).
 
-    ![](create_4.png)
+    <ArrowOverlay image={create4} x={1000} y={375} angle={180} />
 
 ## Operations on MATLAB Grader
 {:#grader}
@@ -79,7 +84,7 @@ Create a problem for students using MATLAB Grader.
 
 Scores can be checked by clicking the "List of grade" button on the Course Top screen of UTOL.
 
-![](confirm_1.png)
+<ArrowOverlay image={confirm1} x={230} y={250} angle={180} />
 
 For details other than scores, such as the submitted answers, please check them in MATLAB Grader. Click 「レポート」(Report) in the top-right corner of the MATLAB Grader screen to review the 「概要」(Overview) and individual 「受講者の解答」(Student Submissions).
 
