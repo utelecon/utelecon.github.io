@@ -36,7 +36,7 @@ At the University of Tokyo, as a general rule, URLs for online classes should be
 2. Click the “Schedule a New Meeting” button in the upper right corner of the Zoom screen.
    ![](zoom_next_meeting.png)
 3.  The settings screen will appear. Configure the settings as needed. 
-   - The settings are the same as for a [regular Zoom meeting](/en/zoom/create_room/#settings-general).
+    - The settings are the same as for a [regular Zoom meeting](/en/zoom/create_room/#settings-general).
 4. Click the “Save” button at the bottom of the page.
    ![](zoom_next_meeting_save.png)
 
