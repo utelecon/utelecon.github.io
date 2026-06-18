@@ -112,12 +112,13 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * Please sign in to your account. Non-UTokyo Zoom Account users might be prohibited from joining specific meeting rooms. There are also additional settings which are only accessible to UTokyo Zoom Account users.
 * Please refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin/) for instructions on how to sign in.
 
+<!--
 #### Q. I received the error message “ Error AADSTS50105…” and cannot sign in to Zoom.
 * Please retry after a while. If the problem persists, kindly contact the [Technical Support Desk](/en/support/).
+-->
 
-
-#### Q. My account license type is shown as “Basic”, instead of “Licensed”.
-* You are likely not signed in properly to your UTokyo Zoom Account. Please consult [Sign-in Methods for Zoom](/en/zoom/zoom_signin/) and try again.
+#### Q. Meetings end after 40 minutes.
+* With a UTokyo Zoom account, you can host meetings lasting up to 30 hours. If your meetings end after 30 minutes, You are likely not signed in properly to your UTokyo Zoom Account. Please consult [Sign-in Methods for Zoom](/en/zoom/zoom_signin/) and try again.
 * If you are using a non-10-digit Common ID Zoom account, please refer to [Signing in to Zoom with a non-UTokyo ID](/en/notice/zoom-address-new/). Your license type should become “licensed” after switching your sign-in email to [10-digit Common ID]@utac.u-tokyo.ac.jp.
 * If your license type remains “Basic” even after signing in with [10-digit Common ID]@utac.u-tokyo.ac.jp, please contact the [Technical Support Desk](/en/support/) for assistance.
 
@@ -134,7 +135,9 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 #### Q. The message “Please wait, the meeting host will let you in soon” (or similar) is shown.
 * The lecturer has enabled the Waiting Room feature.
-* Wait for the lecturer to admit you. If you are not admitted after a considerable length of time, please report to [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
+* There are cases where you are sent to the waiting room when you are not signed in to your UTokyo Zoom account.
+* Click the “Sign In to Join” or “Switch Accounts to Join” button, and follow the instructions on the [Sign-in Methods for Zoom](/en/zoom/signin/) to sign in.
+* If the situation does not change even with your UTokyo Account, wait for the lecturer to admit you. If you are not admitted after a considerable length of time, please report to [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 
 #### Q. “This meeting has reached its maximum number of participants.” is displayed.
 * The number of participants has exceeded the maximum capacity for Zoom meeting.
@@ -161,11 +164,14 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * Please refer to [here](/en/faculty_members/zoom_access_control/) for details. Several methods are introduced.
 
 #### Q. How can I take attendance using Zoom?
+* Please see [Managing Attendance of Zoom Meeting](/en/zoom/misc/report/).
+<!--
 * You can get a list of meeting participants through the following procedure.
   1. Click "Report" [https://zoom.us/account/report](https://zoom.us/account/report) on the left menu of Zoom My Page, and then "Use".
   1. Click the number in the "Attendee" column of the meeting you want to confirm the attendance of.
   1. Names, join time, leave time, scheduling time, and Zoom account email address of attendees would be displayed.
 * For more details, check [Prepare for confirming attendance in classes](/en/utol/lecturers/attendances/).
+-->
 
 #### Q. How can I assign omnibus speakers or TAs as hosts?
 * There are two ways to handle this.
