@@ -65,7 +65,7 @@ At the University of Tokyo, as a general rule, URLs for online classes should be
 4. Click the title of the meeting you wish to view.
    ![](zoom_cloud_recording.png)
 5. Click the button on the recording you wish to view.
-   ![](zoom_cloud_recording_detail.png)
+   ![](zoom_cloud_recording_detail.png){:.small}
 
 ## Supplementary Notes
 
