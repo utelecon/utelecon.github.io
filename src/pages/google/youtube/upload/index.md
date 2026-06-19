@@ -25,9 +25,3 @@ breadcrumb:
     - アップロード後に公開範囲を変更することもできます．
 
 詳しい操作手順については，YouTube公式ヘルプの「[動画をアップロードする](https://support.google.com/youtube/answer/57407?hl=ja)」も参照してください．
-
-## 関連ページ
-{:#related}
-
-- [動画の公開範囲を設定する](../sharing/)
-- [クラウドメールアカウントでのYouTubeライブ配信方法](../live/)
