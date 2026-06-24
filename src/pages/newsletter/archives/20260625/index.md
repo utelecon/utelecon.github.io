@@ -35,6 +35,7 @@ X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://
 〇 2026年6月10日：「ChromeOSで利用可能なアプリケーション」のページを新たに追加しました。
 <a href="https://utelecon.adm.u-tokyo.ac.jp/eccs/chromeos/apps/">https://utelecon.adm.u-tokyo.ac.jp/eccs/chromeos/apps/</a>
 
+
 ●---------------------------------------------------------------------------------------●
 ◆ オンライン学習プラットフォーム「LinkedIn Learning」の導入に向けた説明会（教員向け）（2026/06/26）
 ●---------------------------------------------------------------------------------------●
