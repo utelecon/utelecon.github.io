@@ -12,10 +12,10 @@ breadcrumb:
 ●---------------------------------------------------------------------------------------●
 
 ★本メールマガジンはこちらからもご覧いただけます：
-<a href="https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20260625/" target="_blank">https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20260625/</a>
+<a href="https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20260625/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20260625/</a>
 
 ★最新情報はuteleconポータルサイトでご確認ください
-ポータルサイト：<a href="https://utelecon.adm.u-tokyo.ac.jp/" target="_blank">https://utelecon.adm.u-tokyo.ac.jp/</a>
+ポータルサイト：<a href="https://utelecon.adm.u-tokyo.ac.jp/">https://utelecon.adm.u-tokyo.ac.jp/</a>
 X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://x.com/utelecon_pr</a>
 
 ●----目 次----------------------------------------------------------------------------●
@@ -33,7 +33,7 @@ X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://
 2026年5月〜6月の主な更新情報は以下のとおりです。
 
 〇 2026年6月10日：「ChromeOSで利用可能なアプリケーション」のページを新たに追加しました。
-<a href="https://utelecon.adm.u-tokyo.ac.jp/eccs/chromeos/apps/" target="_blank">https://utelecon.adm.u-tokyo.ac.jp/eccs/chromeos/apps/</a>
+<a href="https://utelecon.adm.u-tokyo.ac.jp/eccs/chromeos/apps/">https://utelecon.adm.u-tokyo.ac.jp/eccs/chromeos/apps/</a>
 
 ●---------------------------------------------------------------------------------------●
 ◆ オンライン学習プラットフォーム「LinkedIn Learning」の導入に向けた説明会（教員向け）（2026/06/26）
@@ -49,7 +49,7 @@ X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://
 なお、学生の方向けの説明は別途準備します。今回の説明会に参加いただいてもかまいませんが、趣旨はご理解ください。
 
 詳細は以下のuteleconポータルサイトのページをご覧ください。
-<a href="https://utelecon.adm.u-tokyo.ac.jp/notice/2026/0626-lil/" target="_blank">https://utelecon.adm.u-tokyo.ac.jp/notice/2026/0626-lil/</a>
+<a href="https://utelecon.adm.u-tokyo.ac.jp/notice/2026/0626-lil/">https://utelecon.adm.u-tokyo.ac.jp/notice/2026/0626-lil/</a>
 
 
 ●---------------------------------------------------------------------------------------●
@@ -70,7 +70,7 @@ UTokyo Account 本人確認サービスは、東大を離籍した後などUToky
 氏名以外の個人情報（住所、生年月日、性別など）は取得しません。
 
 詳細は以下のuteleconポータルサイトのページをご覧ください。
-<a href="https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/ident-myna/" target="_blank">https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/ident-myna/</a>
+<a href="https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/ident-myna/">https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/ident-myna/</a>
 
 
 最後までお読みいただきありがとうございました。
@@ -78,16 +78,16 @@ UTokyo Account 本人確認サービスは、東大を離籍した後などUToky
 ===================================================
 配信先アドレス変更・配信停止をご希望の場合は、
 下記ページのフォームよりご連絡ください。
-<a href="https://utelecon.adm.u-tokyo.ac.jp/newsletter/" target="_blank">https://utelecon.adm.u-tokyo.ac.jp/newsletter/</a>
+<a href="https://utelecon.adm.u-tokyo.ac.jp/newsletter/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/</a>
 ===================================================
 
 発行：
 東京大学 uteleconプロジェクト
-ポータルサイト：<a href="https://utelecon.adm.u-tokyo.ac.jp/" target="_blank">https://utelecon.adm.u-tokyo.ac.jp/</a>
+ポータルサイト：<a href="https://utelecon.adm.u-tokyo.ac.jp/">https://utelecon.adm.u-tokyo.ac.jp/</a>
 X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://x.com/utelecon_pr</a>
 
 このメールアドレスは配信専用であり、返信を受け付けておりません。
 本メールマガジンに関するお問い合わせは、uteleconサポート窓口のメールフォームよりご連絡ください。
-<a href="https://utelecon.adm.u-tokyo.ac.jp/support/email-form/" target="_blank">https://utelecon.adm.u-tokyo.ac.jp/support/email-form/</a>
+<a href="https://utelecon.adm.u-tokyo.ac.jp/support/email-form/">https://utelecon.adm.u-tokyo.ac.jp/support/email-form/</a>
 
 </pre>
