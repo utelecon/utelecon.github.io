@@ -1,54 +1,56 @@
 ---
-title: vol.2
+title: vol.3
 breadcrumb:
-  title: vol.2
+  title: vol.3
 ---
 
 <pre>
 ●---------------------------------------------------------------------------------------●
                                [u] uteleconメールマガジン
-                                   2026/05/27  vol.2
+                                   2026/06/25  vol.3
                            発行：東京大学uteleconプロジェクト
 ●---------------------------------------------------------------------------------------●
 
 ★本メールマガジンはこちらからもご覧いただけます：
-<a href="/newsletter/archives/20260527/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20260527/</a>
+<a href="/newsletter/archives/20260625/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20260625/</a>
 
 ★最新情報はuteleconポータルサイトでご確認ください
 ポータルサイト：<a href="/">https://utelecon.adm.u-tokyo.ac.jp/</a>
-X（旧Twitter）：<a href="https://x.com/utelecon_pr" >https://x.com/utelecon_pr</a>
+X（旧Twitter）：<a href="https://x.com/utelecon_pr">https://x.com/utelecon_pr</a>
 
 ●----目 次----------------------------------------------------------------------------●
 
-◆ 2026年4月〜5月のuteleconポータルサイト更新情報
-◆ 情報セキュリティ教育の受講期間が終了しました
+◆ 2026年5月〜6月のuteleconポータルサイト更新情報
+◆ 【イベント情報】オンライン学習プラットフォーム「LinkedIn Learning」の導入に向けた説明会（教員向け）（2026/06/26）
 ◆ UTokyo Account 本人確認サービスの事前連携をおすすめします
 
 ●---------------------------------------------------------------------------------------●
 
 ●---------------------------------------------------------------------------------------●
-◆ 2026年4月〜5月のuteleconポータルサイト更新情報
+◆ 2026年5月〜6月のuteleconポータルサイト更新情報
 ●---------------------------------------------------------------------------------------●
 
-2026年4月〜5月の主な更新情報は以下のとおりです。
+2026年5月〜6月の主な更新情報は以下のとおりです。
 
-〇 2026年4月4日：「Google Meet」のページを大幅に更新しました。
-<a href="/google/meet/">https://utelecon.adm.u-tokyo.ac.jp/google/meet/</a>
-
-〇 2026年4月13日：「uteleconメールマガジン」のページを新たに追加しました。
-<a href="/newsletter/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/</a>
+〇 2026年6月10日：「ChromeOSで利用可能なアプリケーション」のページを新たに追加しました。
+<a href="/eccs/chromeos/apps/">https://utelecon.adm.u-tokyo.ac.jp/eccs/chromeos/apps/</a>
 
 
 ●---------------------------------------------------------------------------------------●
-◆ 情報セキュリティ教育の受講期間が終了しました
+◆ オンライン学習プラットフォーム「LinkedIn Learning」の導入に向けた説明会（教員向け）（2026/06/26）
 ●---------------------------------------------------------------------------------------●
 
-2026年度の情報セキュリティ教育の受講期限は5月7日でした。
-受講のうえ確認テストに合格（全問正解）していない場合は、UTokyo Wi-Fi・UTokyo VPN・UTokyo Slackなどの一部のサービスが利用できなくなっています。
-これらのサービスを利用しない場合も含め、未受講の場合は必ず受講してください。周囲の方にもお声掛けいただくなど、ご協力をよろしくお願いします。
+【日時】2026年6月26日（金）13:00～14:00
+【会場】オンライン（Zoom）
+【参加登録】<a href="https://u-tokyo-ac-jp.zoom.us/meeting/register/8ZScN2w0Q_aLEGGNyUwEIA">https://u-tokyo-ac-jp.zoom.us/meeting/register/8ZScN2w0Q_aLEGGNyUwEIA</a>
 
-詳細は以下のページをご覧ください。
-<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education_2026.aspx" >https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education_2026.aspx</a>
+学生のスキル向上やキャリア形成を促す目的のDX基盤として、オンライン学習プラットフォーム「LinkedIn Learning」を導入し、2026年7月1日より全学の学生・教職員が利用できるようにする予定です。
+これに関して、東京大学の教員の方（非常勤講師の方を含む）を主な対象として情報提供を行います。
+特に学生とかかわる業務に携わっている方を中心に、学内の教職員の方は幅広くどなたでもご参加いただけます。
+なお、学生の方向けの説明は別途準備します。今回の説明会に参加いただいてもかまいませんが、趣旨はご理解ください。
+
+詳細は以下のuteleconポータルサイトのページをご覧ください。
+<a href="/notice/2026/0626-lil/">https://utelecon.adm.u-tokyo.ac.jp/notice/2026/0626-lil/</a>
 
 
 ●---------------------------------------------------------------------------------------●
