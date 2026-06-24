@@ -16,7 +16,7 @@ breadcrumb:
 
 ★最新情報はuteleconポータルサイトでご確認ください
 ポータルサイト：<a href="https://utelecon.adm.u-tokyo.ac.jp/">https://utelecon.adm.u-tokyo.ac.jp/</a>
-X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://x.com/utelecon_pr</a>
+X（旧Twitter）：<a href="https://x.com/utelecon_pr">https://x.com/utelecon_pr</a>
 
 ●----目 次----------------------------------------------------------------------------●
 
@@ -42,7 +42,7 @@ X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://
 
 【日時】2026年6月26日（金）13:00～14:00
 【会場】オンライン（Zoom）
-【参加登録】<a href="https://u-tokyo-ac-jp.zoom.us/meeting/register/8ZScN2w0Q_aLEGGNyUwEIA" target="_blank">https://u-tokyo-ac-jp.zoom.us/meeting/register/8ZScN2w0Q_aLEGGNyUwEIA</a>
+【参加登録】<a href="https://u-tokyo-ac-jp.zoom.us/meeting/register/8ZScN2w0Q_aLEGGNyUwEIA">https://u-tokyo-ac-jp.zoom.us/meeting/register/8ZScN2w0Q_aLEGGNyUwEIA</a>
 
 学生のスキル向上やキャリア形成を促す目的のDX基盤として、オンライン学習プラットフォーム「LinkedIn Learning」を導入し、2026年7月1日より全学の学生・教職員が利用できるようにする予定です。
 これに関して、東京大学の教員の方（非常勤講師の方を含む）を主な対象として情報提供を行います。
@@ -85,7 +85,7 @@ UTokyo Account 本人確認サービスは、東大を離籍した後などUToky
 発行：
 東京大学 uteleconプロジェクト
 ポータルサイト：<a href="https://utelecon.adm.u-tokyo.ac.jp/">https://utelecon.adm.u-tokyo.ac.jp/</a>
-X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://x.com/utelecon_pr</a>
+X（旧Twitter）：<a href="https://x.com/utelecon_pr" >https://x.com/utelecon_pr</a>
 
 このメールアドレスは配信専用であり、返信を受け付けておりません。
 本メールマガジンに関するお問い合わせは、uteleconサポート窓口のメールフォームよりご連絡ください。

@@ -16,7 +16,7 @@ breadcrumb:
 
 ★最新情報はuteleconポータルサイトでご確認ください
 ポータルサイト：<a href="https://utelecon.adm.u-tokyo.ac.jp/">https://utelecon.adm.u-tokyo.ac.jp/</a>
-X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://x.com/utelecon_pr</a>
+X（旧Twitter）：<a href="https://x.com/utelecon_pr" >https://x.com/utelecon_pr</a>
 
 ●----目 次----------------------------------------------------------------------------●
 
@@ -48,7 +48,7 @@ X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://
 これらのサービスを利用しない場合も含め、未受講の場合は必ず受講してください。周囲の方にもお声掛けいただくなど、ご協力をよろしくお願いします。
 
 詳細は以下のページをご覧ください。
-<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education_2026.aspx" target="_blank">https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education_2026.aspx</a>
+<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education_2026.aspx" >https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education_2026.aspx</a>
 
 
 ●---------------------------------------------------------------------------------------●
@@ -83,7 +83,7 @@ UTokyo Account 本人確認サービスは、東大を離籍した後などUToky
 発行：
 東京大学 uteleconプロジェクト
 ポータルサイト：<a href="https://utelecon.adm.u-tokyo.ac.jp/">https://utelecon.adm.u-tokyo.ac.jp/</a>
-X（旧Twitter）：<a href="https://x.com/utelecon_pr" target="_blank">https://x.com/utelecon_pr</a>
+X（旧Twitter）：<a href="https://x.com/utelecon_pr" >https://x.com/utelecon_pr</a>
 
 このメールアドレスは配信専用であり、返信を受け付けておりません。
 本メールマガジンに関するお問い合わせは、uteleconサポート窓口のメールフォームよりご連絡ください。
