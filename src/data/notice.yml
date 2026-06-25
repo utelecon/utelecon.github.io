@@ -21,7 +21,7 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
-  date: 2026-06-23
+  date: 2026-06-25
   content:
     ja: "[UTokyo Accountの多要素認証（MFA）を2026年6月26日から必須化します](/notice/2026/0623-mfa/)"
     en: "[Mandatory Multi-Factor Authentication (MFA) for UTokyo Account from June 26, 2026](/en/notice/2026/0623-mfa/)"
