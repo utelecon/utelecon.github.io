@@ -23,11 +23,12 @@
 -
   date: 2026-06-29
   content:
-    ja: "[東京大学におけるZoomの提供内容の変更について](/notice/2026/0801-zoom/)"
-    en: "[Changes to the Zoom Service Provided by the UTokyo (Available in Japanese now)](/notice/2026/0801-zoom/)"
+    ja: "[東京大学におけるZoomの提供内容の変更について](/notice/2026/0801-zoom-contract-renewal/)"
+    en: "[Changes to the Zoom Service Provided by the UTokyo (Available in Japanese now)](/notice/2026/0801-zoom-contract-renewal/)"
   important: true
 -
   date: 2026-06-25
+  content:
     ja: "[UTokyo Account 多要素認証が全サービスで必要となります](/notice/2026/0623-mfa/)"
     en: "[UTokyo Account Multi-Factor Authentication is now required for all services](/en/notice/2026/0623-mfa/)"
 -
