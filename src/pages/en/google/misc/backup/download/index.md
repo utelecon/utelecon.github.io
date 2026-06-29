@@ -15,7 +15,7 @@ For detailed settings and troubleshooting, please refer to [Google Account Help 
 
    <img src="./backup-new01.png" alt="Manage your Google Account" class="border" />
 
-1. From the left-hand menu, please select “Data & privacy,”, then click “Download your data”.
+1. From the left-hand menu, please select “Data & privacy,” then click “Download your data”.
 
    <img src="./backup-new02.png" alt="Data & privacy > Download your data" class="border" />
 
@@ -24,7 +24,7 @@ For detailed settings and troubleshooting, please refer to [Google Account Help 
    <img src="./backup-new03.png" alt="Which data you export" class="border" />
 
 1. Please select the file format, archive size, and delivery method, then click “Create export”.
-   - Depending on the size of the data, the export process can take anything from several hours to a few days. If you select “Send download link via email” in the "Destination" section , you’ll receive a notification in your ECCS Cloud Email once exporting has finished.
+   - Depending on the size of the data, the export process can take anything from several hours to a few days. If you select “Send download link via email” in the "Destination" section, you’ll receive a notification in your ECCS Cloud Email once exporting has finished.
 
    <img src="./backup-new04.png" alt="Create export" class="border" />
 

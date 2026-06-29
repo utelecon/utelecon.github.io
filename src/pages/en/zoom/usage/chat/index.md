@@ -11,7 +11,7 @@ The chat feature in Zoom allows hosts and participants to exchange text and file
 
 This page introduces the features and operating procedures, dividing them into basic and advanced uses of the chat feature.
 
-Please note that some features require configuration in advance. For such features, any changes made to the settings during a meeting is not applied to that meeting. If you wish to apply the changes to an ongoing meeting, first, end the meeting and start it again.
+Please note that some features require configuration in advance. For such features, any changes made to the settings during a meeting are not applied to that meeting. If you wish to apply the changes to an ongoing meeting, first, end the meeting and start it again.
 
 
 ## Understanding Basic Operations
