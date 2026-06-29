@@ -3,7 +3,7 @@ title: Changes to the Zoom Service Provided at the University of Tokyo
 ---
 
 <div style="text-align: right;">
-<span>June 24, 2026</span><br />
+<span>June 29, 2026</span><br />
 <span>Division for Information and Communication Systems</span><br />
 </div>
 
