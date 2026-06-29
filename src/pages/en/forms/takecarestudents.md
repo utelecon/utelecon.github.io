@@ -21,7 +21,7 @@ If we get too many inquiries, we will consider distributing them between departm
  It means not leaving students alone, such as listening to students individually in the case like (a) above, contacting the teacher in charge of the lesson, telling them what to do, and keeping students informed in cases like (b).
  We will reply directly to those who need appropriate technical support, and we will also respond to questions from departments and majors. Please contact us via `utelecon@googlegroups.com`.
  
- Please make sure that only teachers and faculty staff register in this form, as in some cases emails which includes students’ personal situation may be sent to the mailing list.
+ Please make sure that only teachers and faculty staff register in this form, as in some cases emails which include students’ personal situations may be sent to the mailing list.
  
  The University of Tokyo Online Class Support Group
 

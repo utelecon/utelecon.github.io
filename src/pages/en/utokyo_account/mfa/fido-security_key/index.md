@@ -4,13 +4,13 @@ breadcrumb:
   title: How to use FIDO Security Keys
 ---
 
-<div class="box">Starting from March 12, 2024, <a href="/en/notice/2024/02-utac-auth-improvement/">using the FIDO security key with multi-factor authentication for UTokyo Account will be made more convenient.</a>.</div>
+<div class="box">Starting from March 12, 2024, <a href="/en/notice/2024/02-utac-auth-improvement/">using the FIDO security key with multi-factor authentication for UTokyo Account will be made more convenient.</a></div>
 
 ## Introduction
 
 This page explains how to use FIDO security keys for multi-factor authentication for UTokyo Accounts, including precautions, registration, and usage. FIDO (Fast IDentity Online) is a new technology that is being promoted to improve the security when signing-in for online services. It is a sign-in method that does not share confidential information such as passwords and PINs with servers, thus reducing the risk of information leakage, while allowing a smooth operation without requiring the use of applications other than a browser. 
 
-FIDO can be classified into two main types: one that uses a dedicated device called a security key, and another that uses a passkey using information stored on a PC or smartphone. However, the UTokyo Account's multi-factor authentication does not currently support FIDO passkeys, but only security keys such as YubiKey. Therefore, please purchase and use your own security key. Please note that the security keys that can be used are those compatible with the 'FIDO 2' standard
+FIDO can be classified into two main types: one that uses a dedicated device called a security key, and another that uses a passkey using information stored on a PC or smartphone. However, the UTokyo Account's multi-factor authentication does not currently support FIDO passkeys, but only security keys such as YubiKey. Therefore, please purchase and use your own security key. Please note that the security keys that can be used are those compatible with the 'FIDO 2' standard.
 
 
 ## Unavailability for some OS or browsers combinations

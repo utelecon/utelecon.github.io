@@ -70,7 +70,7 @@ The following is a description of the specific function of each icon.
 - If you have more than one Google account, you can change the account by clicking here.
 - When you change the account, the calendar will switch to the calendar of that account.
 
-#### ④ My Calenders
+#### ④ My Calendars
 
 - The "My calendars" column shows the calendars for which you have the "Make changes & manage sharing" access permission enabled in the calendar sharing settings.
 - "Make changes & manage sharing" is the most powerful access permission that can be granted to the calendar sharer, allowing him or her to perform the same operations as the owner of the calendar, such as changing appointments and sharing settings.

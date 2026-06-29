@@ -81,7 +81,7 @@ MATLAB Online allows you to access online resources from your browser and use MA
 
 #### Access to MATLAB Drive
 - Access [MATLAB Drive Online](https://drive.matlab.com/files) and sign in.
-- Install [MATLAB Drive Connecter](https://www.mathworks.com/products/matlab-drive.html) in your computer to mount a drive synchronized with MATLAB Drive data.
+- Install [MATLAB Drive Connector](https://www.mathworks.com/products/matlab-drive.html) in your computer to mount a drive synchronized with MATLAB Drive data.
 
 ### Learning how to operate
 Online training courses are available in tutorial format, covering everything from basic operation to advanced features for different purposes.

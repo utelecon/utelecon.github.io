@@ -125,4 +125,4 @@ This is a license for Office and Windows that is operated to cover usage that ca
 ### UTokyo Microsoft Azure Dev Tools for Teaching
 {:#adt4t}
 
-it is a Microsoft developer software license for educational institutions. For instructions on how to use it, please check the **[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t/)** page.
+It is a Microsoft developer software license for educational institutions. For instructions on how to use it, please check the **[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t/)** page.

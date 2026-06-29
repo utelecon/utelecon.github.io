@@ -93,7 +93,7 @@ Below we will explain how to create a project.
        * By sharing an "invite link", which is different from the public URL, you can also grant writing access to the page.
        * It is also displayed in search results of Google and other search engines.
      * Private project
-       * Even if you know the project URL, users have no access rights cannot view the private project.
+       * Even if you know the project URL, users who have no access rights cannot view the private project.
        * To access private projects, you need an invitation link distributed by the administrator.
    * **"Upload image to"**: Select where you want to upload the image. Normally, you can select "scrapbox.io". The uploaded image will be saved on Cosense.
 4. When you are done, click the green "Create" button.
@@ -242,7 +242,7 @@ To insert an image saved on your PC, drag and drop or copy and paste it into the
 <figcaption>画像がページに挿入されます．</figcaption>
 </figure> -->
 
-On the right side of the screen, You can also select "Upload file" from the ![](20.png){:.icon} icon (red circle in the image below) and select the file you want to insert.
+On the right side of the screen, you can also select "Upload file" from the ![](20.png){:.icon} icon (red circle in the image below) and select the file you want to insert.
 
 <figure>
 <img src="21.png">
