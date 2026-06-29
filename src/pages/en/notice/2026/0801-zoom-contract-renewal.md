@@ -26,7 +26,7 @@ To check whether you qualify as a "faculty or staff member employed by the unive
 
 <details>
 <summary>If you are a student or a "faculty/staff member not employed by the University" and wish to use the features above</summary>
-Students and those who qualify as "faculty/staff members not employed by the University" can continue to use the same features as before. You can create meetings with up to 300 participants. You cannot create webinars. You cannot enable the "Translated Captions" feature for meetings and webinars you create. However, you can serve as a co-host or alternative host in meetings and webinars created by "faculty or staff member employed by the university." If you wish to use the additional features, please consult a "faculty or staff member employed by the University" associated with you. We ask that "faculty or staff members employed by the university" give due consideration when they receive such requests.
+Students and those who qualify as "faculty/staff members not employed by the University" can continue to use the same features as before. You can create meetings with up to 300 participants. You cannot create webinars. You cannot enable the "Translated Captions" feature for meetings and webinars you create. However, you can serve as a co-host or alternative host in meetings and webinars created by "faculty or staff member employed by the university." If you wish to use the additional features, please consult a "faculty or staff member employed by the university" associated with you. We ask that "faculty or staff members employed by the university" give due consideration when they receive such requests.
 </details>
 
 ## Change 2: Reduction of additional license offerings
