@@ -115,7 +115,7 @@ To customize the display:
 #### Self-Registration and Student Range Settings
 {:#self-registration-and-content-use-scope}
 
-This section describes the settings related to **Self-registration**, which allows users to use the course content without registering for the course on UTAS (so-called *auditing*), and **Enrolled student range setting**. Note that self-registration is also necessary if you want participants to register themselves for [**courses created through request**](#course-application).
+This section describes the settings related to **Self-registration**, which allows users to use the course content without registering for the course on UTAS (so-called *auditing*), and **Enrolled student range setting**. Note that self-registration is also necessary if you want participants to register themselves for [**courses created through request**](../#course-application).
 
 First, in the **Self-registration** settings, you can choose whether or not to allow users to register themselves as *enrolled student*, by clicking the **Register for Enrollment** button on UTOL. The default setting is **Permit**.
 
