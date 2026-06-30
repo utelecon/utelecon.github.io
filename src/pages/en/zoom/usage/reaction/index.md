@@ -17,7 +17,7 @@ There are three methods: “Raised hand”, “Emoji”, and “Non-verbal feedb
 ### Raised hand
 
 - This is used as an alternative way to physically “raising your hand” in the face-to-face classroom.
-- Similar to actually raising your hand in a face-to-face classroom, you can check to see if there is someone wants to ask a question, or simply ask if people understood your explanation, etc.
+- Similar to actually raising your hand in a face-to-face classroom, you can check to see if there is someone who wants to ask a question, or simply ask if people understood your explanation, etc.
 
 ### Emoji
 

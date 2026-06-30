@@ -10,7 +10,7 @@ The following inquiries are increasing after the classes start.
 
 In such cases, each department / major can actually contact the instructor in charge, care for the student, and follow up after the case.
 
-Therefore, we ask at least one faculty member from each department and school, and additional faculty members and clerical staff if necessary, to register to this form.
+Therefore, we ask at least one faculty member from each department and school, and additional faculty members and clerical staff if necessary, to register on this form.
 We will create a mailing list of those people, and forward all of the inquiries (students who should be in contact with their faculty professors and clerical work) that should be notified to the department / major to the mailing list.
 We do not divide emails by department or school. 
 We will forward all inquiries to the same mailing list. Appropriate departments and schools should receive them and contact the student.

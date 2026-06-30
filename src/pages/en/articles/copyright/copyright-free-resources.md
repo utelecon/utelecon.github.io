@@ -129,7 +129,7 @@ If you want to add a little decoration or background to make your slides slightl
 #### Old Book Illustrations
 
 <p style="text-indent: 1em;"><code>Image</code></p>
-Old Book Illustrations is a collection of illustrations of old books mainly from the 19th and 20th centuries, including those by Beatrix Potter, famous for her picture book "Peter Rabbit. You can search by author or publisher. Most are either in the public domain or available under a CC license.
+Old Book Illustrations is a collection of illustrations of old books mainly from the 19th and 20th centuries, including those by Beatrix Potter, famous for her picture book "Peter Rabbit." You can search by author or publisher. Most are either in the public domain or available under a CC license.
 
 * [Official website](https://www.oldbookillustrations.com/)
 * [Terms of Use](https://www.oldbookillustrations.com/terms-of-use/)

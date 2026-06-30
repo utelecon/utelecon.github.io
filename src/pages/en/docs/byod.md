@@ -6,7 +6,7 @@ toc: false
 redirect_from:
   - /en/notice/byod
 ---
-This page is translation of the Japanese original. 
+This page is a translation of the Japanese original. 
 
 <div style="text-align: right">
 <div>2024-12-09　Update of the Educational System Improvement WG</div>
