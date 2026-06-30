@@ -49,7 +49,7 @@ In particular, many students may be uncomfortable with having their names displa
 
 (Tips)  
 One way to solve the problem of students being uncomfortable with having their names displayed is to have them use the private messaging feature.
-Chats labeled “Privately,” like in the second question in the image above, cannot be seen by other participants. We recommend that the instructor read the question out loud, or copy and paste them into the general chat. 
+Chats labeled “Privately,” like in the second question in the image above, cannot be seen by other participants. We recommend that the instructor read the questions out loud, or copy and paste them into the general chat.
 
 (Online References)
 * **[Guide to Zoom](/en/zoom/)**: Provides basic instructions on how to use Zoom and its various features.
@@ -142,7 +142,7 @@ For larger classes where you constantly need to collect and answer many question
 
 Slack is a messaging app mainly used for business purposes.
 
-To use Slack, create a “workspace” for your group. You can set up multiple “channels” inside the workplace.
+To use Slack, create a “workspace” for your group. You can set up multiple “channels” inside the workspace.
 
 You can exchange messages within each channel.
 

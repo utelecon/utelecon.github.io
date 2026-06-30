@@ -33,7 +33,7 @@ Please be sure to check [the Support Desk page](../) before inquiring.
 If the email form is not working, please send a direct email to `contact@utelecon.zendesk.com`. Please include the following information in your email:
 
 - **Name**
-- **10-digits Common ID** (If you don't know, please leave it blank.)
+- **10-digit Common ID** (If you don't know, please leave it blank.)
 - **Faculty or Graduate School**
 - **Position**: Select from the following.
     - Student (new student)

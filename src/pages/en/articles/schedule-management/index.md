@@ -128,7 +128,7 @@ This section describes how to add and set up appointments in general. In univers
 **C. More options**
 
 - You can set up more advanced options for your schedule here.
-- When you click on the button, the following window will be displayed. The information that can be entered in "B. Contents of the appointment" can also be entered using the "More options" screen. Please refer to the ["Appointment details"](#appointment-details) below for the details that can be entered in each field. Entering the items found in "B. Contents of the appointment" are generally sufficient to set up a meeting, but some settings can only be entered using the "More options" screen; for example, the guest’s permission settings in "⑦ Adding guests."
+- When you click on the button, the following window will be displayed. The information that can be entered in "B. Contents of the appointment" can also be entered using the "More options" screen. Please refer to the ["Appointment details"](#appointment-details) below for the details that can be entered in each field. Entering the items found in "B. Contents of the appointment" is generally sufficient to set up a meeting, but some settings can only be entered using the "More options" screen; for example, the guest’s permission settings in "⑦ Adding guests."
 
 ![Screenshot from Google Calendar. A page to edit details of the event is shown.](img/schedule_settings.png)
 
@@ -136,7 +136,7 @@ This section describes how to add and set up appointments in general. In univers
 <strong>Appointment details</strong>
 </p>
 
-**① Settings date and time**
+**① Setting date and time**
 
 - This is where you set the date and time of the appointment.
 - You can also set the time zone and set a repeating or all-day schedule.

@@ -15,7 +15,7 @@ With UTokyo Zoom Accounts, you can hold online meetings for a maximum capacity o
 * Licenses for online classes are granted for the whole semester (from the beginning to the end of the semester). 
 
 ### Webinar
-* Licenses are available for Webinars with up to either 500 or 3000 attendees.
+* Licenses are available for Webinars with up to either 1000 or 3000 attendees.
 * For online classes, please use Large Meetings instead of Webinars.
 * The maximum license period (from the license effective date to the license expiration date) per event is 1 month. 
 
