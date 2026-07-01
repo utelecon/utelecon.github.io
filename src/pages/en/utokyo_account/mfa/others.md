@@ -24,7 +24,7 @@ If you are using Microsoft Authenticator for MFA, you can verify your identity b
       <br>* When the countdown reaches 0, the verification code turns into a new one. In this case, enter the new code instead of the old one.
 1. You can now sign in to your UTokyo Account.
 
-## Irregular Behaviors During Verification 
+## Irregular Behaviors During Verification
 {:#irregular}
 
 Normally, when you sign in with MFA, you first enter your password and then verify your identity with MFA.
@@ -42,4 +42,4 @@ These behaviors are due to the connection process between multiple systems conce
 
 ![](redirection_error.png)
 
-When you sign in to the UTokyo Account, you may receive a “For security reasons, we require additional information to verify your account” error as in the image above depending on the MFA setting. This may occur when you apply for MFA use (Step 4) before setting up the verification methods (Step 1, Step 2) in [the initial setup procedures of MFA](../initial/). Please register the verification methods by following the procedures in “[Step 1: Set Up the First Verification Method](../initial/#first)” and “[Step 2: Add Alternative Verification Methods](../initial/#alternative)”.
+When you sign in to the UTokyo Account, you may receive a “For security reasons, we require additional information to verify your account” error as in the image above depending on the MFA setting. This may occur when you apply for starting your UTokyo Account (Step 4) before setting up the verification methods (Step 1, Step 2) in [the initial setup procedures of MFA](../initial/). Please register the verification methods by following the procedures in “[Step 1: Set Up the First Verification Method](../initial/#first)” and “[Step 2: Add Alternative Verification Methods](../initial/#alternative)”.
