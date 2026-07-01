@@ -46,7 +46,7 @@ Online Education Supporters have been working mainly online, and almost all of o
 
 Generally, it is good to limit the number of participants in a face-to-face group discussion to five or six to make it more productive. This is because as the number of participants increases, each person has less time to speak and so can contribute less, and it is more difficult to achieve consensus among a large number of people.  
 
-In many cases, especially in online sessions, participants often start the session without knowing each other's faces or how to get along with each other, and It may facilitate the progression among participants to keep the number of participants to three or four.  
+In many cases, especially in online sessions, participants often start the session without knowing each other's faces or how to get along with each other, and it may facilitate the progression among participants to keep the number of participants to three or four.  
 
 However, if the number of participants is reduced too much, there is a risk that, when some people lose their Zoom connection or do not speak, the number of remaining participants will be extremely small.  
 

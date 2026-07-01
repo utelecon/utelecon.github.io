@@ -10,7 +10,7 @@ If this FAQ cannot solve your problem, please contact the [Technical Support Des
 Some options for taking attendance are:
 * Use [the attendance feature in UTOL](/en/utol/lecturers/attendances/)
 * Answer online questionnaires such as Google Forms or Microsoft Forms
-* To avoid fake attendance, require students to answer questions related to the contents of lecture or give feedback on the class.
+* To avoid fake attendance, require students to answer questions related to the contents of the lecture or give feedback on the class.
 * To avoid faking attendance, enable the “Collect emails” function when creating Google Forms with ECCS Cloud Email account (UTokyo Google Workspace). Students’ email addresses would be collected for identity confirmation, making it harder for students to fake attendance. To do this, go to “Settings (the gear icon)”, check the box next to "Collect emails" and select “Restrict to users of UTokyo ECCS Cloud Email and its trusted organizations”.
 * Call the roll (suitable for smaller size classes using web conference systems). You might have the participants turn on cameras and confirm their identities.
 * Use the Zoom Webinar Report; You can use the Webinar Report’s participant join time and exit time information for attendance taking. Details can be found at <a href="/en/zoom/misc/report/" target="_blank"> Zoom for staff: Managing Attendance</a>.
@@ -137,7 +137,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 * Wait for the lecturer to admit you. If you are not admitted after a considerable length of time, please report to [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 
 #### Q. “This meeting has reached its maximum number of participants.” is displayed.
-* The number of participants has exceeded the maximum capacity for Zoom meeting.
+* The number of participants has exceeded the maximum capacity for a Zoom meeting.
 
 * Please check UTOL or UTAS for any urgent updates from the lecturer. If none is found, please report your case via [Consultation Form of utelecon Support Desk](https://docs.google.com/forms/d/e/1FAIpQLSeYMeqsVKfvc_THs_frehBaPoslYQfIKtE-fyIsfTDuazhkjQ/viewform).
 

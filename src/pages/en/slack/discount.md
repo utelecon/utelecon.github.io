@@ -38,6 +38,6 @@ In this specific procedure, your applications are received internally by the Uni
 
 You may apply for the "Slack for Education" program even if you are already subscribed to a paid plan. In this case, the discount will be applied from the first payment after approval.
 
-If you pay annually, it may take some time for the discount to be applied, as it will depend on when the payment is made. If you wish to change when the discount is applied from to an earlier date, please contact `feedback@slack.com`.
+If you pay annually, it may take some time for the discount to be applied, as it will depend on when the payment is made. If you wish to change when the discount is applied to an earlier date, please contact `feedback@slack.com`.
 
 If you pay by invoice, please contact `feedback@slack.com` to confirm when the discount will be applied, as it depends on your payment status.

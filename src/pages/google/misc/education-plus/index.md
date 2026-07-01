@@ -12,7 +12,7 @@ breadcrumb:
 Google Workspace for Education Plusは，大学全体でのストレージ容量の増加，管理者向けの機能強化以外にも，個人にライセンスを付加することにより，ECCSクラウドメールの機能が以下のように強化されます．
 
 - Google Meetでの多人数会議，ライブストリーミング，録画機能が利用可能
-- Google Classroom，Google Assignmentでの独自性レポートの制限の緩和
+- Google Classroom，Google Assignmentsでの独自性レポートの制限の緩和
 - AppSheetが利用可能
 - [Googleドキュメント、Googleスライド、Googleフォームでの Gemini の機能へのアクセス](/notice/2026/0302-gemini-gws/)．
 

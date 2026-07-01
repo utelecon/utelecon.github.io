@@ -49,7 +49,7 @@ In particular, many students may be uncomfortable with having their names displa
 
 (Tips)  
 One way to solve the problem of students being uncomfortable with having their names displayed is to have them use the private messaging feature.
-Chats labeled “Privately,” like in the second question in the image above, cannot be seen by other participants. We recommend that the instructor read the question out loud, or copy and paste them into the general chat. 
+Chats labeled “Privately,” like in the second question in the image above, cannot be seen by other participants. We recommend that the instructor read the questions out loud, or copy and paste them into the general chat.
 
 (Online References)
 * **[Guide to Zoom](/en/zoom/)**: Provides basic instructions on how to use Zoom and its various features.
@@ -94,7 +94,7 @@ These tools can also be used for classes with fewer participants.
 
 Slido is a web-based service that comes with Q&A and polling features and can be used to facilitate interactive communication between participants during classes and lectures.
 
-The functions needed to collect questions can be used for free. However, you can gain access to paid functions (like allowing participants to respond to each other’s questions or exporting questions and other data) by signing in with your UTokyo Account. See [here](/en/slido/#slido-account-and-license-for-utokyo-members)for more information. 
+The functions needed to collect questions can be used for free. However, you can gain access to paid functions (like allowing participants to respond to each other’s questions or exporting questions and other data) by signing in with your UTokyo Account. See [here](/en/slido/#slido-account-and-license-for-utokyo-members) for more information. 
 
 Although Slido has several features, we will focus on examples of how to collect questions using the “Q&A” feature. 
 
@@ -142,7 +142,7 @@ For larger classes where you constantly need to collect and answer many question
 
 Slack is a messaging app mainly used for business purposes.
 
-To use Slack, create a “workspace” for your group. You can set up multiple “channels” inside the workplace.
+To use Slack, create a “workspace” for your group. You can set up multiple “channels” inside the workspace.
 
 You can exchange messages within each channel.
 
