@@ -25,7 +25,7 @@ Among the Generative AI services that the University of Tokyo has a university-w
 - [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat/)
 {:.cards}
 
-For these services, you can use basic features equivalent to those of a paid contract with your UTokyo Account. Anyone with a UTokyo Account can use them. In addition, certain terms and conditions are established regarding data protection and other matters. (However, this information is as of March 2026. If there are changes to the actual available features or conditions, the rules and precautions for on-campus use may change. In particular, please constantly confirm by yourself that the data protection clauses are appropriate. In some cases, it may be necessary to explicitly perform opt-out operations.)
+For these services, you can use the basic features equivalent to those of a paid contract with your UTokyo Account. Anyone with a UTokyo Account can use them. In addition, certain terms and conditions are established regarding data protection and other matters. (However, this information is as of March 2026. If there are changes to the actual available features or conditions, the rules and precautions for on-campus use may change. In particular, please constantly confirm that the data protection clauses are appropriate by yourself. In some cases, it may be necessary to explicitly perform opt-out operations.)
 
 For details on using these services with your UTokyo account, please see the following pages:
 
@@ -46,9 +46,9 @@ Among those services, these are the ones that the University of Tokyo has a univ
     - Basic features equivalent to those of the Pro plan are available.
 - **[Cisco AI Assistant](https://help.webex.com/en-us/article/nyzkuik/)** and **[Webex AI](https://www.webex.ai/)** on [Webex](../../../webex/)
 - **[Slido AI](https://www.slido.com/ai)** on [Slido](../../../slido/)
-- **[Copilot in Teams](https://www.microsoft.com/en-us/microsoft-teams/teams-ai)** on [Microsoft Teams](../../../microsoft/#teams) (Provided to faculty and staff members only)
+- **[Copilot in Teams](https://www.microsoft.com/en-us/microsoft-teams/teams-ai)** on [Microsoft Teams](../../../microsoft/#teams) (provided to faculty and staff members only)
     - [Using Copilot in Microsoft Teams Meetings (Microsoft Official Help)](https://support.microsoft.com/en-us/office/0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
-    - This is provided to a limited number of faculty and staff members. As of March 2026, as part of the "Promotion of Operational Reform using Generative AI," it is only available to a small number of faculty and staff members participating in the [verification](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981) under certain conditions (Signing in with UTokyo Account is required; accessible only to faculty and staff members).
+    - This is provided to a limited number of faculty and staff members. As of March 2026, as part of the "Promotion of Operational Reform using Generative AI," it is only available to a small number of faculty and staff members participating in the [verification](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981) under certain conditions (signing in with UTokyo Account is required; accessible only to faculty and staff members).
 - **[Gemini for Google Workspace](https://knowledge.workspace.google.com/admin/gemini/google-workspace-with-gemini?hl=en-#education)** in [ECCS Cloud Email (Google Workspace for Education)](../../../google/)
     - To use this, you need to apply for a [Google Workspace for Education Plus license (in Japanese)](/google/misc/education-plus/). For details, please refer to the article "[Gemini is now available in Google Docs, Google Slides, and Google Forms (in Japanese)](/notice/2026/0302-gemini-gws/)".
 
@@ -57,10 +57,10 @@ Among those services, these are the ones that the University of Tokyo has a univ
 #### Services with Advanced Features Specialized for Specific Functions, etc.
 
 - **[NotebookLM](https://notebooklm.google.com/)**
-    - This is an assistance tool that uses the Gemini AI model to analyze materials you chose(PDFs, Google Docs, YouTube videos, webpages, etc.) and perform summarization, organization, question-answering, and document creation.
+    - This is an assistance tool that uses the Gemini AI model to analyze materials you choose(PDFs, Google Docs, YouTube videos, webpages, etc.) and perform summarization, organization, question-answering, and document creation.
 - **Agent** and **Notebook** features of **[Microsoft 365 Copilot](https://m365.cloud.microsoft/chat/)**
     - These are assistance tools that use an AI model generally similar to the one available in Microsoft 365 Copilot Chat to analyze materials you chose and execute specific tasks somewhat autonomously.
-    - This is provided to a limited number of faculty and staff members. As of March 2026, as part of the "Promotion of Operational Reform using Generative AI," it is only available to a small number of faculty and staff members participating in the [verification](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981) under certain conditions (Signing in with UTokyo Account is required; accessible only to faculty and staff members).
+    - This is provided to a limited number of faculty and staff members. As of March 2026, as part of the "Promotion of Operational Reform using Generative AI," it is only available to a small number of faculty and staff members participating in the [verification](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981) under certain conditions (signing in with UTokyo Account is required; accessible only to faculty and staff members).
 - **[TREE Summon Research Assistant beta](https://tokyo-summon-serialssolutions-com.utokyo.idm.oclc.org/#!/research_assistant)**
     - For details, please check the article "[New TREE Feature: Launch of Generative AI Tool 'Summon Research Assistant (BETA)'](https://www.lib.u-tokyo.ac.jp/en/library/literacy/news/20250828)".
 
