@@ -20,7 +20,9 @@ redirect_from:
 - [UTokyo MATLAB Campus-Wide License](/matlab/)
     - 提供事業者：The MathWorks, Inc.
 - [UTokyo Account 本人確認サービス](/utokyo_account/)
-    - 提供事業者：東京大学情報システム本部  
+    - 提供事業者：東京大学情報システム本部
+- [LinkedIn Learning](/lil/)
+    - 提供事業者：LinkedIn Corporation
 
 これらのサービスを利用するにあたっては，以下の事項に注意してください．
 

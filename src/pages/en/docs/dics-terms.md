@@ -21,6 +21,8 @@ This document applies to the following external services managed and operated by
     - External service provider: The MathWorks, Inc.
 - [UTokyo Account Identity Verification Service](/en/utokyo_account)
     - External service provider: Division for Information and Communication Systems, UTokyo
+- [LinkedIn Learning](/en/lil/)
+    - External service provider: LinkedIn Corporation
 
 When using these services, please follow the terms below.
 
