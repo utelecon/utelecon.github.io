@@ -1,9 +1,276 @@
 ---
-title: Google Calendar
+title: How to Use Google Calendar
 breadcrumb:
   title: Google Calendar
 ---
 
-import InPreparation from "@components/en/InPreparation.mdx";
+## Introduction
+{:#introduction}
 
-<InPreparation />
+Google Calendar is a schedule management tool provided by Google. You can create and share events, set reminders, and manage tasks online.
+
+Google Calendar can be used by signing in to your Google account. Note that if you sign in with your ECCS Cloud Email (The University of Tokyo's Google account), you can use more features than with a standard Google account (such as "[Out of office](#set-out-of-office)", "[Working location](#set-working-location)", and "[Focus time](#set-focus-time)", which will be explained later). Therefore, the following explanation assumes the use of an ECCS Cloud Email account.
+
+Since Google Calendar is a cloud service, the same account can be used on multiple devices. That is, schedules and other information are automatically synchronized between different devices; by signing in to the same account on your PC or smartphone, you can access the same calendar from any device. On a PC, it can be accessed via a browser, and on mobile devices such as smartphones, it can be accessed via an app or a browser. This article specifically explains the browser version for PC. The differences from the mobile version are explained in "[Differences between PC and mobile versions, specifications/synchronization for multiple devices](#differences-by-device)".
+
+Furthermore, With Google Calendar, you can share your calendar with others and invite them to events like meetings. When using an ECCS Cloud Email account, you can limit calendar sharing to only users who also have an ECCS Cloud Email account. On the other hand, just like with a standard Google account, you can also make it public without any restrictions.  For more details, please refer to "[Using Google Calendar in collaboration with others](#colab)".
+
+## “Calendar” in Google Calendar
+{:#what-calender-is}
+
+In Google Calendar, the container like entity used to create and manage events is called a "calendar."
+
+A Google account using Google Calendar for the first time has one calendar. You can also manage multiple calendars under the same account by creating additional calendars. By using multiple calendars separately like a lecture calendar, a club activity calendar, and a part-time job calendar, You can manage different types of events separately. Furthermore, you can individually configure settings such as the sharing settings for each calendar.
+
+## Basic Usage
+{:#basic-usage}
+
+ When you open Google Calendar in a PC browser, it will appear as shown in the image below.
+
+Events are displayed in the grid section in the center of the screen. You can create an event at ①. A calendar list is located at ②. Furthermore, at ③, ④, and ⑤, you can change the calendar settings, the calendar display mode, and the account you are using, respectively.
+
+![](home.PNG){:.border}
+
+Specific details for each feature are explained below.
+
+### Create an event (①)
+{:#create-event}
+
+In this section, we explain how to add events as one of the most basic features. For more advanced configuration settings, please refer to "[Creating detailed events](#event-creation-detail)" below.
+
+The procedure is as follows.
+
+1. Click on the time slot where you want to add an event, or click "Create" in the upper left corner. A screen will appear, such as the area outlined in red in the image below.
+  ![](create-event.png){:.border}
+2. Enter the name of the event in "Add title" at the top.
+3. Set the start and end times at the clock icon below.
+4. Click "Save" in the lower right corner.
+
+### Manage My calendars and Other calendars (②)
+{:#manage-calendars}
+
+"My calendars" displays calendars for which you have administrative privileges. On the other hand, "Other calendars" displays calendars for which others have administrative privileges and that have been shared with you. As you create calendars yourself or have them shared by others, the new calendars will be added to each section.
+You can toggle the visibility of each calendar by clicking its checkbox. For information on sharing calendars, please refer to "[Using Google Calendar in collaboration with others](#colab)" below.
+
+### Change settings (③)
+{:#change-setting}
+
+You can configure detailed calendar settings to suit your personal preferences. For example, you can change "Notification settings" and "View settings" to make them easier for you to use. You can also check deleted events in the "Trash." For more information, please refer to "[Detailed settings](#detailed-setting)" below.
+
+### Change the view (④)
+{:#change-display-density}
+
+You can choose the calendar view from "Day," "Week," "Month," "Year," "Schedule," or "4 days (or the number of days customized in [Settings](#change-setting))" (this can also be changed from "Settings"). Selecting "Day," "Week," "Year," or "4 days" displays each period on a single screen. Note that while "Week" starts on Sunday, "4 days" can start on any day of the week. Selecting "Schedule" displays your events in a list format.
+
+![](diplay-density.PNG){:.border}
+
+### Switch accounts (⑤)
+{:#switsch-account}
+
+If you have multiple Google accounts, you can switch accounts by clicking here. Switching accounts will change the view to that account's calendar.
+
+## Creating detailed events
+{:#event-creation-detail}
+
+In this section, we provide a detailed explanation of features related to event creation. For all of these features, you can open the input field by clicking the time slot where you want to add an event and selecting the appropriate tab, or by clicking the item you want to configure from "Create" in the upper left corner. Once you have finished entering the information, click "Save" in the lower right corner.
+
+### Creating an event
+{:#create-event-detail}
+
+This section provides a more detailed explanation than the "[Create an event (①)](#create-event)" section above.
+
+You can configure the following items for each event:
+- Title
+  - Enter the name of the event in "Add title."
+- Time zone
+  - You can set the start and end times, as well as the recurrence settings.
+    - By configuring the recurrence settings, you can add the same event at a specific frequency. Select a frequency, such as weekly or monthly, from the dropdown menu (default is "Does not repeat"). Clicking "Custom" allows you to set frequencies such as every other week or specify an end date.
+- Guests
+  - Entering the email addresses of the people you wish to invite will send an invitation email to them.
+- Video conferencing
+  - You can create a Google Meet room for meetings at the same time you create the event.
+- Add rooms or location
+  - You can set the venue. For example, you can enter a conference room for a meeting, or the name of a facility or an address for a business trip.
+- Description or attachments
+  - You can add a description or attach files related to the event.
+- Change My calendars, Color
+  - You can color-code events according to their type.
+
+### Creating a task
+{:#create-task}
+
+You can register things you need to do (tasks) in Google Calendar. By registering tasks, you can more easily coordinate the time to perform them with other events, or use them as reminders. You can also create tasks by clicking the checkmark icon in the upper right corner of the screen (Switch to [Tasks]). In the calendar, tasks are displayed as shown in the red box in the image below.
+
+![](task.png){:.border.small}
+
+You can configure the following items for each task:
+
+- Title
+  - Enter the name of the task in "Add title."
+- Time zone
+  - You can set the start and end times, as well as the recurrence settings.
+- Description
+  - Optionally, enter a description of the task.
+
+- Mark an existing task as completed
+  - When you open the input field of an existing task, there is a "Mark completed" button in the lower left corner. Clicking this button marks the task as completed, and it will no longer appear in the task display. Note that if you complete a recurring task, it will be marked as completed for that instance, but it will reappear when the next scheduled date and time approach.
+### 不在を設定する
+### Out of office
+{:#set-out-of-office}
+
+不在となる時間をあらかじめ設定することで，共有しているカレンダーを通じて他の人に知らせたり，その時間に招待された会議などの予定を自動で辞退したりすることができます．
+By setting your "Out of office" hours in advance, you can notify others through your shared calendar or automatically decline meeting invitations during that time.
+
+不在に関する設定項目には以下のようなものがあります．
+Items you can configure for "Out of office" include:
+- タイトル
+- Title:
+  - 一番上にある「タイトルを追加」に任意の名前を入力してください．必要に応じて不在の理由などを登録できます．なお，デフォルトでは「不在」となっています．
+  - Enter a name of your choice in "Add title" at the top. You can register the reason for your absence if necessary. The default is "Out of office."
+- 時間帯
+- Time zone:
+  - 開始および終了時刻を設定することができます．
+  - You can set the start and end times.
+- 不在時に会議への招待を自動的に辞退するか否かの設定
+- Automatically decline meetings:
+  - 新しい会議への招待のみを辞退するか，既存および新しい会議への招待を辞退するか選択することができます．
+  - You can choose to decline only new meeting invitations or both existing and new ones.
+  - 辞退する際にメッセージを残すことができます．
+  - You can also leave a message when declining.
+- 不在予定を公開するか否かの設定
+- Set whether to make the "Out of office" event public or not.
+
+### サイレントモードを設定する
+### Focus time
+{:#set-focus-time}
+
+Googleカレンダーでは予定が近づいたときに通知が来ますが，この設定をした時間にはGoogleカレンダーからの通知が来なくなります．通知などに邪魔されることなく作業に集中する時間を作ることができます．
+Google Calendar sends notifications as an event approaches, but during the time set for "Focus time," these notifications will be silenced. This allows you to create time to concentrate on tasks without being disturbed.
+
+サイレントモードに関する設定項目には以下のようなものがあります．
+Items you can configure for "Focus time" include:
+- 時間帯
+- Time zone:
+  - 開始および終了時刻を設定することができ，繰り返しについても設定することができます．
+  - You can set the start and end times, as well as recurrence settings.
+- サイレントモード
+- Focus time:
+  - チャットの通知をミュートすることができます．
+  - You can mute chat notifications.
+- 会議への招待を自動で辞退する
+- Automatically decline meetings:
+  - サイレントモード中に会議へ招待された際に自動で辞退することができます．
+  - You can automatically decline meeting invitations received during "Focus time."
+- 説明や添付ファイル
+- Description or attachments:
+  - 予定に関する説明を追加したりファイルを添付したりできます．
+  - You can add a description or attach files related to the event.
+- マイカレンダーの変更，色
+- Change My calendars, Color:
+  - 予定の種類ごとに色分けするといった使い方が可能です．
+  - You can color-code events according to their type.
+
+### 勤務場所を設定する
+### Working location
+{:#set-working-location}
+
+ある時間帯における所在を登録することができます．カレンダーを共有している人に対して所在を知らせたい場合に役立ちます．
+You can register your location for a specific time slot. This is useful for letting people who share your calendar know where you are.
+
+勤務場所に関する設定項目には以下のようなものがあります．
+Items you can configure for "Working location" include:
+
+- 時間帯
+- Time zone:
+  - 開始および終了時刻を設定でき，繰り返しについても設定できます．
+  - You can set the start and end times, as well as recurrence settings.
+- 場所の選択
+- Location selection:
+  - 「自宅」「オフィス」「その他の場所」から選択できます．
+  - You can choose from "Home," "Office," or "Other location." 
+    - 「その他の場所」からはさらに「別のオフィス」「別の場所」を選択できます．
+    - Under "Other location," you can further select "Another office" or "Somewhere else."
+- マイカレンダーの変更，色
+- Change My calendars, Color:
+  - 予定の種類ごとに色分けするといった使い方が可能です．
+  - You can color-code events according to their type.
+
+### 予約スケジュールを設定する
+### Appointment schedules
+{:#set-appointment-slots}
+
+不特定多数の人に自分の空き時間を知らせたい場合に使います．「予約スケジュール」が設定されると，他の人は設定された予約枠にエントリーして会議などを設定することができます．例えば，教員が学生と打合せ可能な時間をあらかじめ設定しておき，学生がその時間の中から都合の良い時間を選択して打合せを依頼するというような使い方が考えられます．
+This feature is used when you want to share your availability with many people. Once an "Appointment schedule" is set, others can book a meeting by entering an available slot. For example, a faculty member can set available times for meetings with students, and students can select a convenient slot to request a meeting.
+
+## 他の人と連携したGoogleカレンダーの利用
+## Using Google Calendar in collaboration with others
+{:#colab}
+
+ここでは，Googleカレンダーを他の人と連携して使う方法を紹介します．Googleカレンダーにおいて他の人と連携して使う方法には，カレンダーを共有する方法と，予定にゲストを招待する方法の２つがあります．なお，共有と招待のいずれについても，「[Googleカレンダーを用いたコラボレーション](./collab/)」 を参考にしてください．
+This section introduces how to use Google Calendar in collaboration with others. There are two main ways: sharing your calendar and inviting guests to an event. For both sharing and inviting, please refer to "[Collaboration using Google Calendar](./collab/)."
+
+### カレンダーを共有する方法
+### Sharing your calendar
+{:#share}
+
+Googleカレンダーでは，自分のカレンダーを他の人に共有することができます．例えば，教員が学生にカレンダーを共有し，学生は教員のカレンダーを参照してミーティングを依頼するといった使い方ができます．また，共有範囲を設定することで，特定の人だけが閲覧できるようにしたり，ウェブサイト等に公開して誰でも自由に閲覧できるようにしたりできます．これらの使い方を活用することで，関係者間のスケジュール把握や管理がスムーズになります．なお，共有されたカレンダーを閲覧するためには，画面左側にある「ユーザー検索」に検索したいユーザーのGoogleアカウント名あるいはメールアドレスを入力し検索します．その人のカレンダーが共有されていた場合には，「他のカレンダー」に追加され閲覧することができるようになります．
+You can share your own calendar with others. For example, a faculty member can share their calendar with students, and students can refer to it to request a meeting. By setting the sharing permissions, you can limit access to specific people or make it public on a website for anyone to view. These features facilitate smooth schedule management and coordination among stakeholders. To view a shared calendar, enter the Google account name or email address of the user you want to find in "Search for people" on the left side of the screen. If the person's calendar is shared, it will be added to "Other calendars" for you to view.
+
+### 予定にゲストを招待する方法
+### Inviting guests to an event
+{:#invite}
+
+Googleカレンダーでは，他の人を会議やイベントなどの予定に招待することができます．招待されたゲストには予定の内容がメールで通知されたり，Googleカレンダーを利用している場合は，招待された予定がカレンダーに追加されたりします．例えば，会議の予定を入れる際に，一人が会議の参加者全員を招待すれば，各参加者は自分で予定を作成する必要が無くなります．招待したい場合は，予定の作成時に， 「ゲストを追加」で招待したいの人のGoogleアカウントやメールアドレスを入力してください．招待を受けた人がGoogleカレンダーを利用している場合は，招待を承諾するか拒否するかを選ぶことができます．
+You can invite others to events such as meetings. Invited guests will receive an email notification, and if they use Google Calendar, the event will be added to their calendar. For example, if one person invites all participants when creating a meeting, each participant does not need to create the event themselves. To invite someone, enter their Google account or email address in "Add guests" when creating the event. If the invitee uses Google Calendar, they can choose to accept or decline the invitation.
+
+## 詳細な設定
+## Detailed settings
+{:#detailed-setting}
+
+ここでは，[設定](#change-setting)から変更できる項目の中から抜粋して説明します．なお，この記事で扱わない項目については「[Google カレンダーの設定を変更する](https://support.google.com/calendar/answer/6084644?hl=ja&co=GENIE.Platform%3DDesktop)」（公式ヘルプ）を参照してください．
+This section provides an excerpt of items that can be changed from [the settings](#change-setting). For items not covered in this article, please refer to "[Change your Google Calendar settings](https://support.google.com/calendar/answer/6084644?hl=ja&co=GENIE.Platform%3DDesktop)" (Official Help).
+
+- 予定の設定
+- Event settings:
+  - 予定を作成する際のデフォルトの長さを選ぶことができます．例えば，ミーティングが毎回1時間と決まっている場合はデフォルトを1時間にしておくと便利です．また，「会議の迅速化」を選ぶと予定が短めに設定されるようになります．
+  - You can choose the default duration for creating events. This is useful, for example, if your meetings are always set to one hour. Selecting "Speedy meetings" will set the events to end a few minutes early.
+- ゲストの権限
+- Guest permissions:
+  - ゲストの権限を「予定を変更する」「他のユーザーを招待する」「ゲストリストを表示する」の中から選ぶことができます．
+  - You can choose guest permissions from "Modify event," "Invite others," and "See guest list."
+- 通知設定
+- Notification settings:
+  - 通知の種類を「デスクトップ通知」「アラート」「OFF」から選ぶことができます．また，スヌーズ中の通知を表示するタイミングを予定の0分前～5分前から選ぶことができます．また，通知音を鳴らすか否か，不参加の予定の通知を受け取るか否かも選ぶことができます．
+  - You can choose the notification type from "Desktop notifications," "Alerts," or "Off." You can also choose when to show snoozed notifications (from 0 to 5 minutes before the event). Additionally, you can choose whether to play notification sounds and whether to receive notifications for declined events.
+- ビューの設定
+- View settings:
+  - 週末を非表示とした場合は，土曜日と日曜日が非表示となり金曜日の次が月曜日となります．
+  - If you uncheck "Show weekends," Saturdays and Sundays will be hidden.
+  - 辞退した予定を表示した場合は，招待されて拒否した予定も消えずに表示されます．
+  - If you check "Show declined events," events you have declined will remain visible.
+  - 完了したタスクを表示した場合は，完了したタスクも消えずに表示されます．
+  - If you check "Show completed tasks," tasks you have finished will remain visible.
+- Gmail から自動的に作成された予定をカレンダーに表示する
+- Events from Gmail:
+  - 選択すると，フライトやホテル，レストランの予約といった予定がGmailから自動的に作成・表示されます．
+  - When selected, events such as flights, hotels, and restaurant reservations will be automatically created and displayed from Gmail.
+- 業務時間と勤務場所
+- Working hours & location:
+  - 業務時間と勤務場所を設定し，カレンダーを共有している相手に公開することができます．
+  - You can set your working hours and location and make them visible to those with whom you share your calendar.
+
+## PC・モバイル版の違い，複数のデバイスでの仕様/同期
+## Differences between PC and Mobile versions / Synchronization
+{:#differences-by-device}
+
+ここでは，PCとモバイル端末それぞれで利用したときの違いや見た目について説明します．モバイル端末ではアプリがあるのに対し，PCではブラウザからの利用のみで，アプリはありません．なお，モバイル端末のアプリ版のUIはPCのブラウザ版に準拠しています．同一アカウントのカレンダーは異なるデバイス間でも自動的に同期されます．そのため，同じアカウントでログインしていれば，PCで入れた予定をモバイル端末でも表示・管理することができます（その逆もしかりです）．
+This section explains the differences in usage and appearance between PC and mobile devices. While there are apps for mobile devices, PC users access the service via a browser (there is no dedicated PC app). The UI of the mobile app follows the design of the PC browser version. Calendars for the same account are automatically synchronized across different devices. Therefore, as long as you are logged in with the same account, you can view and manage events entered on a PC from a mobile device (and vice versa).
+
+**PCのブラウザ版**
+**PC Browser version**
+
+![](pc-browser.PNG){:.border}
+
+**モバイル端末のアプリ版**
+**Mobile App version**
+<figure class="gallery">![](mobile-app-month.JPG){:.small}![](mobile-app-day.JPG){:.small}</figure>
