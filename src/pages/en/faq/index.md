@@ -118,7 +118,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 -->
 
 #### Q. Meetings end after 40 minutes.
-* With a UTokyo Zoom account, you can host meetings lasting up to 30 hours. If your meetings end after 40 minutes, you are likely not signed in properly to your UTokyo Zoom account. Please consult [Sign-in Methods for Zoom](/en/zoom/zoom_signin/) and try again.
+* With a UTokyo Zoom account, you can host meetings lasting up to 30 hours. If your meetings end after 40 minutes, you are likely not signed in properly to your UTokyo Zoom account. Please consult [Sign-in Methods for Zoom](/en/zoom/signin/) and try again.
 * If you are using a non-10-digit Common ID Zoom account, please refer to [Signing in to Zoom with a non-UTokyo ID](/en/notice/zoom-address-new/). Your license type should become “licensed” after switching your sign-in email to [10-digit Common ID]@utac.u-tokyo.ac.jp.
 * If your license type remains “Basic” even after signing in with [10-digit Common ID]@utac.u-tokyo.ac.jp, please contact the [Technical Support Desk](/en/support/) for assistance.
 
