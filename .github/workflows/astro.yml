@@ -25,7 +25,7 @@ jobs:
     steps:
       - run: wget -O rss.xml https://utelecon.adm.u-tokyo.ac.jp/notice/rss.xml
       - run: wget -O rss-en.xml https://utelecon.adm.u-tokyo.ac.jp/en/notice/rss.xml
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           path: |
             rss.xml
@@ -36,14 +36,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 24
       - name: Setup node_modules Cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             ~/.npm
@@ -57,7 +57,7 @@ jobs:
         run: |
           npm run build
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: dist
       - name: Collect RSS Artifact
@@ -65,7 +65,7 @@ jobs:
           cp dist/notice/rss.xml rss.xml
           cp dist/en/notice/rss.xml rss-en.xml
       - name: Upload RSS Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           path: |
             rss.xml
@@ -82,17 +82,17 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
   twitter:
     needs: [fetch-rss, build, deploy]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: rss-old
           path: rss-old
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: rss-new
           path: rss-new
