@@ -1,271 +1,272 @@
 ---
-title: Zoom ミーティングの管理とそれに関わる役割（ホスト・共同ホスト・代替ホストなど）について
+title: Managing Zoom Meetings and Related Roles (Host, Co-host, Alternative Host, etc.)
 redirect_from:
   - /zoom/misc/host_cohost/
   - /zoom/how/common/host_cohost
 breadcrumb:
-  title: ミーティングの管理とそれに関わる役割について
+  title: Managing Meetings and Related Roles
   parent: /zoom/
 ---
 
-## Zoom ミーティングを管理する
+## Managing Zoom Meetings
 {:#manage}
-### ミーティング管理機能の種類
+### Types of meeting-management functions
 {:#functions}
-Zoom ミーティングを管理するための機能は，「ミーティングの設定変更や記録確認に関する機能」と「ミーティングの進行に関する機能」の二つに大きく分類することが可能です．ミーティングの管理に関わる役割（後述する「[ホスト](#host)」「[共同ホスト](#co-host)」など）が利用することのできる機能のそれぞれの範囲は，この枠組みを用いることで整理することができます．たとえば，ホストは2種類の機能の両方が使える一方で，共同ホストは後者の「[ミーティングの進行に関する機能](#moderate)」しか使うことができません．
+The functions for managing Zoom meetings can be broadly divided into two categories: “functions for changing meeting settings and reviewing records” and “functions for moderating meetings.” This framework helps clarify the scope of functions that can be used by the roles involved in meeting management (such as the “[host](#host)” and “[co-host](#co-host)” described below). For example, hosts can use both types of functions, whereas co-hosts can use only the latter, “[functions for moderating meetings](#moderate).”
 
-#### ミーティングの設定変更や記録確認に関する機能
+#### Functions for changing meeting settings and reviewing records
 {:#settings_and_records}
-ミーティングの設定変更や記録確認に関する機能としては，具体的には以下の機能が挙げられます．
-- [Setting up a Zoom Waiting Room](/en/zoom/create_room/waiting_room/)する
-- [Requiring Authentication to Join a Zoom Meeting](/en/zoom/create_room/auth/)
-- ミーティングの[Getting started with Zoom reporting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060623)を確認する
-- ミーティングを開始する
+Specific functions for changing meeting settings and reviewing records include the following:
+- Use [Setting up a Zoom Waiting Room](/en/zoom/create_room/waiting_room/) to set up a waiting room.
+- Use [Requiring Authentication to Join a Zoom Meeting](/en/zoom/create_room/auth/) to require authentication.
+- Review [Getting started with Zoom reporting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060623) for the meeting.
+- Start the meeting.
 
-#### ミーティングの進行に関する機能
+#### Functions for moderating meetings
 {:#moderate}
-ミーティングの進行に関する機能としては，具体的には以下の機能が挙げられます．
-- [How to use Breakout Rooms](/en/zoom/usage/breakout/)を作成する
-- [Polls in Zoom](/en/zoom/usage/poll/)を作成する
-- 参加者をミュートする
+Specific functions for moderating meetings include the following:
+- Use [How to use Breakout Rooms](/en/zoom/usage/breakout/) to create breakout rooms.
+- Use [Polls in Zoom](/en/zoom/usage/poll/) to create polls.
+- Mute participants.
 
-### ミーティングの管理の方法
+### Ways to manage a meeting
 {:#how_to_manage}
-ミーティングを作成した人は原則として[^1]自動的に「[ホスト](#host)」という役割に割り当てられ，上記の2種類の管理機能の両方が利用可能です．加えて作成者以外の方を「[共同ホスト](#co-host)」「[代替ホスト](#alt_host)」といった役割に設定することで，ミーティングの管理を補助してもらうことができます．これらのミーティングの管理に関わる役割について，以下で説明します．
+In principle,[^1] the person who creates a meeting is automatically assigned the role of “[host](#host)” and can use both types of management functions described above. In addition, you can assign people other than the creator roles such as “[co-host](#co-host)” or “[alternative host](#alt_host)” to help manage the meeting. The following sections explain these meeting-management roles.
 
-## ホスト
+## Host
 {:#host}
-### ホストとは
+### What is a host?
 {:#host_desc}
-ホストとは，ミーティングの作成者に対して付与される役割のことです．一つのミーティングに対し，一人だけ存在します．ミーティング中に誰がホストになっているかを確認するには，ミーティング画面下部の「Participants」ボタンを選択してください．
+A host is the role assigned to the person who created the meeting. There is only one host per meeting. To check who is currently the host during a meeting, select the “Participants” button at the bottom of the meeting window.
 ![](img/participants.png)
-表示された参加者の一覧のうち，ホストになっている参加者には名前の右側に「Host」の表示があります．
+In the displayed participant list, the person who is the host has “Host” shown to the right of their name.
 ![](img/host.png)
 
-### ホストができること
+### What a host can do
 {:#host_authority}
-ホストは，[ミーティングの設定変更や記録確認に関する機能](#settings_and_records)と，[ミーティングの進行に関する機能](#moderate)の両方が利用でき，ミーティングの管理に関する役割の中で最も多くの機能を扱える役割です．
-### ホストの譲渡
+Hosts can use both [functions for changing meeting settings and reviewing records](#settings_and_records) and [functions for moderating meetings](#moderate). Of the roles involved in meeting management, hosts can use the widest range of functions.
+
+### Transferring the host role
 {:#transfer_host}
-ホストが利用できる[2つの機能](#functions)のうち，[ミーティングの進行に関する機能](#moderate)を行う権限に関しては，ミーティングの開催中に他の参加者に譲渡することが可能です．[ミーティングの設定変更や記録確認に関する機能](#settings_and_records)については譲渡することはできません．
-- **ただし，他の参加者にミーティングの進行に関する機能を使って補助してもらう場合は，ホストを譲渡するよりも，下で説明する「[共同ホスト](#co-host)」に割り当てたほうが便利な場合があります．**
-- **また，画面共有の権限など，個別具体的な機能についてはホスト自体を譲渡することなく特定の参加者に許可をすることが可能です．**
+Of the [two types of functions](#functions) available to hosts, the authority to perform [functions for moderating meetings](#moderate) can be transferred to another participant while the meeting is in progress. [Functions for changing meeting settings and reviewing records](#settings_and_records) cannot be transferred.
+- **However, when you want another participant to help with functions for moderating the meeting, assigning them as a “[co-host](#co-host),” described below, may be more convenient than transferring the host role.**
+- **You can also grant a specific participant permission for individual functions, such as screen-sharing privileges, without transferring the host role itself.**
   **→ [Zoom Granting and limiting screen-sharing capabilities](/en/zoom/usage/screen_sharing/security/)**
 
-**ホストの譲渡は，自身からホスト権限を解除して，なおかつ他の参加者にホスト権限を割り当てたい場合に利用します．**たとえば，本来ホストとして表示されるべき人の代わりにミーティングを作成してしまった場合や，自分がホストであることを他の参加者に対して明示したくない場合に利用することが考えられます．ミーティングが自身のものの場合[^4]，譲渡したホストは「[ホストの再要求](#reclaim_host)」で再びホストに戻ることが可能です．手順については，[**ホストの譲渡の手順**](#transfer_host_instructions)をご覧ください．
+**Transfer the host role when you want to relinquish your own host privileges and assign host privileges to another participant.** For example, this may be useful when you created a meeting on behalf of the person who should appear as the host, or when you do not want to make it clear to other participants that you are the host. If the meeting belongs to you,[^4] the host who transferred the role can become the host again by “[reclaiming the host role](#reclaim_host).” For the procedure, see [**Instructions for transferring the host role**](#transfer_host_instructions).
 
-### ホストキー
+### Host key
 {:#host_key}
-ホストは，あらかじめ他のユーザーに「[Using your host key](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067063)」とよばれるコードを共有しておくことで，ミーティング開始時に自身が不在の場合であっても，代わりに他のユーザーにホストを務めてもらうことができます．この機能は，ホストがミーティングに遅れて参加する場合[^2]で，他のユーザーに一時的にホストを担ってもらいたい場合などに利用します．この場合，元々のホストがミーティングに参加すると「[共同ホスト](#co-host)」に割り当てられますが，「[ホストの再要求](#reclaim_host)」を行うことでホストに復帰することが可能です．
+By sharing a code called [Using your host key](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067063) with another user in advance, a host can have that user act as host in their place even if the host is absent when the meeting starts. This feature is useful, for example, when the host will join a meeting late[^2] and wants another user to act as host temporarily. In this case, when the original host joins the meeting, they are assigned as a “[co-host](#co-host),” but they can return to being the host by “[reclaiming the host role](#reclaim_host).”
 
-**ホストキーはホストキーを発行したホストが作成した全てのミーティングに対して共通なため，セキュリティ上慎重な運用が求められます．一時的にホストを担ってもらいたい方が東京大学の Zoom アカウントを利用している場合は，下で説明する「[代替ホスト](#alt_host)」に割り当てた方が便利な場合があります．**
-利用手順については，[**ホストキーの利用手順**](#host_key_instructions)をご覧ください．
+**A host key is common to all meetings created by the host who issued it, so it must be handled carefully for security reasons. If the person who is to act as host temporarily uses a UTokyo Zoom account, assigning them as an “[alternative host](#alt_host)” described below may be more convenient.**
+For instructions, see [**Instructions for using a host key**](#host_key_instructions).
 
-### ホストの退出
+### Leaving a meeting as the host
 {:#host_leave}
-[Passing host controls to leave the meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067794)場合，以下のように「End meeting for all」と「Leave meeting」の2つの選択肢が表示されることがあります．
+When [passing host controls to leave the meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067794), the following two options may be displayed: “End meeting for all” and “Leave meeting.”
 ![](img/host_leave.png)
-これは，1つのミーティングに対しては原則として[^3]常に1人のホストが存在している必要があるため，ホストがミーティングを退出する場合，ミーティング自体を終了させるか他の参加者にホストを移動させる必要があるために表示されているものです．
+This is displayed because, in principle,[^3] one host must always be present for a meeting. Therefore, when the host leaves the meeting, they must either end the meeting itself or transfer the host role to another participant.
 
-ホストの退室に伴ってミーティングを終了させる場合，「End meeting for all」を選択してください．もし，ホストが退出した後も他の参加者にホストを移動させてミーティングを継続させたい場合は，「Leave meeting」を選択したあと，ホストを移動させたい参加者を選択して，「Assign and leave」を選択してください．
+To end the meeting when the host leaves, select “End meeting for all.” To continue the meeting after the host leaves by transferring the host role to another participant, select “Leave meeting,” choose the participant to whom you want to transfer the host role, and then select “Assign and leave.”
 ![](img/assign_new_host.png)
 
-### ホストの意図しないミーティング離脱
+### When the host unintentionally leaves a meeting
 {:#host_accidental_leave}
-インターネット回線が切断されたなどの理由でホストが意図せずミーティングから離脱することになった場合，一定時間経過後，以下の順番で他の参加者にホストが移動することが確認されています．元々のホストは，再度ミーティングに参加することにより自動的にホストを回復することができます．
-- ミーティングに共同ホストが存在する場合  
-  共同ホストにホストが移動します．共同ホストが複数人存在する場合は，その中で当該のミーティングの最初の参加者に移動します．
-- ミーティングに共同ホストが存在しない場合  
-  東京大学の Zoom アカウントのうち最初の参加者に移動します．離脱したホスト以外がすべて東京大学の Zoom アカウントでないアカウントで参加していた場合は，当該のミーティングの最初の参加者に移動します．
+If the host unintentionally leaves a meeting, for example because their internet connection is disconnected, it has been confirmed that, after a certain period of time, the host role is transferred to another participant in the following order. The original host can automatically recover the host role by rejoining the meeting.
+- When the meeting has a co-host  
+  The host role is transferred to a co-host. If there are multiple co-hosts, it is transferred to the first participant in that meeting among them.
+- When the meeting has no co-host  
+  The host role is transferred to the first participant with a UTokyo Zoom account. If all participants other than the disconnected host are using accounts other than UTokyo Zoom accounts, it is transferred to the first participant in that meeting.
 
-上記の動作により，ミーティングに共同ホストが存在しない状態でホストが意図せず離脱した場合，想定しない参加者にホストが移動してしまう可能性があります．**悪意のある参加者にホストが移動する可能性を低減するため，不特定多数が参加するミーティングにおいては共同ホストを設定することを推奨します．**
+Under this behavior, if a host unintentionally leaves while the meeting has no co-host, the host role may be transferred to an unintended participant. **To reduce the possibility of the host role being transferred to a malicious participant, we recommend assigning a co-host for meetings open to an unspecified number of participants.**
 
-### ホストを回復する
+### Reclaiming the host role
 {:#reclaim_host}
-ホストが他の参加者に移動したあと（[ホストの譲渡](#transfer_host)，[ホストキーの使用](#host_key)，[ホストの退出](#host_leave)，[ホストの意図しないミーティング離脱](#host_accidental_leave)などによる），元々のホストが再びホストに戻ることを希望する場合は，以下の手順でホストを回復することができます．この機能を実行できるのは，自分自身のミーティングについてのみであり，たとえば「[代替ホスト](#alt_host_desc)」を設定されたことで他者のミーティングのホストになっていた場合は実行することはできません．
+After the host role has been transferred to another participant (for example, through [transferring the host role](#transfer_host), [using a host key](#host_key), [leaving the meeting as the host](#host_leave), or [the host unintentionally leaving a meeting](#host_accidental_leave)), the original host can reclaim the host role by following the procedure below. This function can be used only for meetings that you own. For example, you cannot use it when you are the host of someone else’s meeting because you were assigned as an “[alternative host](#alt_host_desc).”
 ![](img/reclaim.png)
-ミーティング中の「参加者」欄に表示されている自身の名前にマウスを合わせ，表示された「More」をクリックし，「Reclaim host」を選択することで，再びホストに戻ることが可能です．
+In the “Participants” panel during the meeting, hover over your name, click the displayed “More,” and select “Reclaim host” to become the host again.
 
-## 共同ホスト
+## Co-host
 {:#co-host}
-### 共同ホストとは
+### What is a co-host?
 {:#co-host_desc}
-共同ホストとは，あるミーティングにおいて，[ミーティングの進行に関する機能](#moderate)に関して，ホストから管理権限を付与された役割のことです．ホストと異なり，同一ミーティングに対し複数名が存在することが可能です．ミーティング中に誰が共同ホストになっているかを確認するには，「Participants」ボタンを選択してください．
+A co-host is a role to which the host grants management privileges for [functions for moderating meetings](#moderate) in a meeting. Unlike the host, multiple co-hosts can exist in the same meeting. To check who is a co-host during a meeting, select the “Participants” button.
 ![](img/participants.png)
-表示された参加者の一覧のうち，共同ホストになっている参加者には，名前の右側に「Co-host」の表示があります．
+In the displayed participant list, a participant who is a co-host has “Co-host” shown to the right of their name.
 ![](img/co-host.png)
 
-### 共同ホストができること・できないこと
+### What co-hosts can and cannot do
 {:#co-host_authority}
-- [ミーティングの設定変更や記録確認に関する機能](#settings_and_records)に関しては利用することができません．
-- [ミーティングの進行に関する機能](#moderate)に関してはホストとほとんど同様に利用することができます．なお，参加者を共同ホストに指定できるのはホストだけで，共同ホストが他の参加者をさらに共同ホストに指定することはできません．
+- Co-hosts cannot use [functions for changing meeting settings and reviewing records](#settings_and_records).
+- Co-hosts can use [functions for moderating meetings](#moderate) in almost the same way as the host. However, only the host can assign a participant as a co-host; a co-host cannot assign another participant as a co-host.
 
-### 共同ホストを使うとき
+### When to use co-hosts
 {:#co-host_usage}
-具体的には，以下のような状況で使うことが想定されます．
-- 授業内演習の進行をTAに補助してもらうため，共同ホストに設定する．
-- 会議の幹事を共同ホストに設定することで，進行を複数人で分担して行う．
+Examples of situations in which co-hosts may be useful include the following:
+- Assign TAs as co-hosts to help facilitate in-class exercises.
+- Assign meeting organizers as co-hosts to share meeting moderation among several people.
 
-### 共同ホストに設定する手順
+### How to assign co-hosts
 {:#assign_co-hosts}
 
-#### ミーティング進行中に他の参加者を指定する
+#### Assigning other participants during a meeting
 {:#assign_co-hosts_during_meeting}
-ホストは，ミーティングの進行中に他の参加者を指定することで共同ホストに設定することが可能です．具体的な手順は以下の通りです．
-1. ミーティング画面下部の「Participants」ボタンを選択してください．
+The host can assign other participants as co-hosts while the meeting is in progress. The procedure is as follows:
+1. Select the “Participants” button at the bottom of the meeting window.
 ![](img/participants.png)
-1. ミーティング中の「Participants」欄に表示されている自分以外の参加者のうち，共同ホストに割り当てたい参加者にマウスを合わせてください．
+1. In the “Participants” panel during the meeting, hover over the participant, other than yourself, whom you want to assign as a co-host.
 ![](img/kebab.png)
-1. 表示された「More」をクリックし，「Make co-host」を選択してください．
+1. Click the displayed “More” and select “Make co-host.”
 ![](img/assign_co-host.png)
-1. 共同ホストの設定が完了しました．必要に応じて[共同ホストになっていることを確認](#co-host_desc)することができます．
+1. The participant has now been assigned as a co-host. You can [check that they are a co-host](#co-host_desc) as necessary.
 
-なお，必要が済んで共同ホストを解除する場合は，「Revoke co-host permission」を選択してください．
+To remove a co-host after their assistance is no longer needed, select “Revoke co-host permission.”
 ![](img/remove_cohost.png)
 
-#### 事前に共同ホストを設定する
+#### Assigning co-hosts in advance
 {:#assign_co-hosts_before_meeting}
-[進行中に指定する方法](#assign_co-hosts_during_meeting)では，ミーティング開催中にしか共同ホストを設定することができません．ミーティングの開始前にあらかじめ共同ホストを設定しておきたい場合は，指定したい東京大学の Zoom アカウントを，下で説明する「[代替ホスト](#alt_host)」に指定することで実現できます．これは，代替ホストに指定されたユーザーがミーティングに参加した場合，ホストもしくは共同ホストとして設定されるからです．この方法を用いることで，定期的なミーティングの場合などで毎回共同ホストを設定する手間を省くことが可能です．
+With the [method of assigning co-hosts during a meeting](#assign_co-hosts_during_meeting), you can assign co-hosts only while the meeting is in progress. To assign co-hosts in advance before the meeting starts, designate the intended UTokyo Zoom accounts as “[alternative hosts](#alt_host),” described below. This works because, when a user designated as an alternative host joins the meeting, they are assigned as either the host or a co-host. This method can save you the effort of assigning co-hosts each time for recurring meetings and similar situations.
 
-## 代替ホスト
+## Alternative host
 {:#alt_host}
-### 代替ホストとは
+### What is an alternative host?
 {:#alt_host_desc}
-代替ホストとは，あるミーティングにおいて，そのミーティングの開始権限を[ホスト](#host)から付与された役割です．ホストと異なり，同一ミーティングに対し複数名が存在することが可能です．代替ホストとして指定されたユーザーは，実際のミーティング内ではホストもしくは[共同ホスト](#co-host)として表示されます．ホストと代替ホストの中で，一番最初にミーティングに参加したユーザーがミーティング内でのホストとなり，それ以外は共同ホストとして表示されます．**なお，代替ホストに設定できるのは，東京大学の Zoom アカウントに限定されます**．
+An alternative host is a role to which the [host](#host) grants the privilege to start a meeting. Unlike the host, multiple alternative hosts can exist for the same meeting. A user designated as an alternative host is displayed as either the host or a [co-host](#co-host) in the actual meeting. Among the host and alternative hosts, the first user to join the meeting becomes the host, and the others are displayed as co-hosts. **Only UTokyo Zoom accounts can be designated as alternative hosts.**
 
-### 代替ホストができること・できないこと
+### What alternative hosts can and cannot do
 {:#alt_host_authority}
-- [ミーティングの設定変更や記録確認に関する機能](#settings_and_records)に関しては，「ミーティングの開始」のみ行うことが可能で，それ以外は利用することができません．
-- [ミーティングの進行に関する機能](#moderate)に関しては，[ホスト](#host)・[共同ホスト](#co-host)とほとんど同様に利用することができます．
+- With regard to [functions for changing meeting settings and reviewing records](#settings_and_records), alternative hosts can only “start the meeting”; they cannot use the other functions.
+- Alternative hosts can use [functions for moderating meetings](#moderate) in almost the same way as [hosts](#host) and [co-hosts](#co-host).
 
-### 代替ホストを使うとき
+### When to use alternative hosts
 {:#alt_host_usage}
-具体的には，以下のような状況で使うことが想定されます．
-- 説明会で，主催者側の誰でもミーティングを始められるようにしたいため，あらかじめ主催者側のメンバーを代替ホストに設定しておく．
-- TAに授業の進行を手伝ってもらいたいが，毎回手動で共同ホストに設定するのは手間なため，あらかじめ代替ホストに設定しておく．
+Examples of situations in which alternative hosts may be useful include the following:
+- For an information session, designate members of the organizing side as alternative hosts in advance so that any of them can start the meeting.
+- When you want TAs to help facilitate a class but assigning them as co-hosts manually every time is burdensome, designate them as alternative hosts in advance.
 
-### 代替ホストを設定する
+### How to assign alternative hosts
 {:#assign_alt_hosts}
-他のユーザーを代替ホストに設定する方法について，Webブラウザでの手順を説明します．アプリやプラグインなどでの手順については，公式サポートページをご覧ください．→ [**Using scheduling privilege**](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061749)
+The following explains how to assign another user as an alternative host in a web browser. For procedures using apps or plugins, please see the official support page. → [**Using scheduling privilege**](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061749)
 
-1. Zoom ウェブポータルの「[Meetings](https://u-tokyo-ac-jp.zoom.us/meeting)」ページにアクセスしてください．
-1. 新しくスケジュールするミーティングに代替ホストを設定する場合は「Schedule a Meeting」を選択してください．
-既に作成したミーティングに代替ホストを追加する場合は，「Upcoming」を選択し，一覧に表示されているミーティングにカーソルを合わせてください．新しく「Edit」が表示されるのでこれを選択してください．
-    - 新しくスケジュールするミーティングに代替ホストを設定する場合
+1. Open the “[Meetings](https://u-tokyo-ac-jp.zoom.us/meeting)” page in the Zoom web portal.
+1. To assign alternative hosts to a newly scheduled meeting, select “Schedule a Meeting.”
+To add alternative hosts to an existing meeting, select “Upcoming,” hover over the meeting shown in the list, and select the newly displayed “Edit.”
+    - To assign alternative hosts to a newly scheduled meeting
     ![](img/schedule_or_edit_meeting_on_web_new.png){:.border}
-    - 既に作成したミーティングに代替ホストを追加する場合
+    - To add alternative hosts to an existing meeting
     ![](img/schedule_or_edit_meeting_on_web_edit.png){:.border}
-1. ミーティングのスケジュール・編集画面で「Options」の項目の [Show] を選択してください．
+1. On the meeting scheduling or editing screen, select [Show] in the “Options” section.
 ![](img/meeting_option_web.png){:.border}
-1. 「Alternative Hosts」欄に，追加対象のユーザーのUTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）を入力してください．
-    - なお，間違えて登録してしまった場合などでは，×マークを選択することで削除できます．
+1. In the “Alternative Hosts” field, enter the intended user’s UTokyo Account (a 10-digit Common ID + `@utac.u-tokyo.ac.jp`).
+    - If you entered an account by mistake, you can remove it by selecting the × mark.
 ![](img/add_alt_host_web.png){:.border}
-1. 「Save」を選択して完了してください．
+1. Select “Save” to finish.
 
-## スケジュール作成特権
+## Scheduling privilege
 {:#scheduling_privilege}
 
-### スケジュール作成特権とは
+### What is scheduling privilege?
 {:#scheduling_privilege_desc}
-スケジュール作成特権とは，他のユーザーに対し，自身のものとして新しいミーティングを作成させ，またすでに作成された自身のミーティングを編集することを許可する機能のことです．**スケジュール作成特権を設定されたユーザー（以下「子ユーザー」とする）は，設定したユーザー（以下「親ユーザー」とする）のすべてのミーティングにおいて代替ホストとして設定されるため，セキュリティ上慎重な運用が必要になります．なお，スケジュール作成特権を付与できるのは，東京大学の Zoom アカウントに限定されます．**スケジュール作成特権を設定されたユーザーは，Zoom プラグイン・アドイン・アドオンを用いることで，Outlook やGoogle カレンダーなどからミーティングを管理することも可能です．
-利用手順については[**スケジュール作成特権の利用手順**](#scheduling_privilege_instructions)をご覧ください．
+Scheduling privilege is a feature that allows another user to create new meetings on your behalf and edit meetings that you have already created. **Because a user granted scheduling privilege (hereafter, the “child user”) is designated as an alternative host for all meetings of the user who granted the privilege (hereafter, the “parent user”), this feature must be handled carefully for security reasons. Only UTokyo Zoom accounts can be granted scheduling privilege.** Users granted scheduling privilege can also manage meetings from Outlook, Google Calendar, and similar services by using Zoom plugins, add-ins, or add-ons.
+For instructions, see [**Instructions for using scheduling privilege**](#scheduling_privilege_instructions).
 
-### スケジュール作成特権の下でできること・できないこと
+### What users can and cannot do with scheduling privilege
 {:#scheduling_privilege_authority}
-- [ミーティングの設定変更や記録確認に関する機能](#settings_and_records)に関しては，以下の通りです．
-  - 親ユーザーの代わりにミーティングをスケジュールすることができます．
-  - 親ユーザーがスケジュールしたミーティングについて，自由に開始・編集・削除することができます．
-    - このため，子ユーザーは既存の親ユーザーのミーティングに対して以下のような設定に関する変更を行うことができます．
-      - [Setting up a Zoom Waiting Room](/en/zoom/create_room/waiting_room/)する．
-      - [Requiring Authentication to Join a Zoom Meeting](/en/zoom/create_room/auth/)．
-    - **また，子ユーザーは親ユーザーのミーティングを自分自身のミーティングにすることができます．ミーティングがいったん子ユーザーのものとなった場合，親ユーザーの側から自分のものに戻すことは，二者が互いにスケジュール作成特権を設定しあっている場合を除き，不可能です．**
-  - 録画されたレコーディングや，レポートなどに関しては，子ユーザーは利用することができません．
-- [ミーティングの進行に関する機能](#moderate)に関しては，[ホスト](#host)・[共同ホスト](#co-host)とほとんど同様に利用することができます．
+- With regard to [functions for changing meeting settings and reviewing records](#settings_and_records), the following apply:
+  - Child users can schedule meetings on behalf of the parent user.
+  - For meetings scheduled by the parent user, child users can freely start, edit, and delete the meeting.
+    - Therefore, child users can make the following settings changes to the parent user’s existing meetings:
+      - Use [Setting up a Zoom Waiting Room](/en/zoom/create_room/waiting_room/) to set up a waiting room.
+      - Use [Requiring Authentication to Join a Zoom Meeting](/en/zoom/create_room/auth/) to require authentication.
+    - **In addition, child users can make the parent user’s meeting their own. Once a meeting becomes the child user’s meeting, the parent user cannot make it their own again, unless the two users have granted scheduling privilege to each other.**
+  - Child users cannot access recorded recordings or reports.
+- Child users can use [functions for moderating meetings](#moderate) in almost the same way as [hosts](#host) and [co-hosts](#co-host).
 
-### スケジュール作成特権を使うとき
+### When to use scheduling privilege
 {:#scheduling_privilege_usage}
-具体的には，以下のような状況で使うことが想定されます．
-- 教員である自分が主催するミーティングについて，秘書にあらかじめスケジュールを行ってもらうため，スケジュール作成特権を付与する．
+An example of when scheduling privilege may be useful is the following:
+- As an instructor, grant scheduling privilege to an assistant so that they can schedule meetings that you host in advance.
 
-## 各種操作の手順
+## Instructions for each operation
 {:#instructions}
-ここでは，これまでに説明したそれぞれの機能を利用するための具体的な手順を列挙しています．それぞれの機能について，上述の説明をお読みになったうえで操作ください．
+This section lists the specific procedures for using each function described above. Before following a procedure, please read the explanation of the relevant function above.
 
-### ホストの譲渡の手順
+### Instructions for transferring the host role
 {:#transfer_host_instructions}
-1. ミーティング画面下部の「Participants」ボタンを選択してください．
+1. Select the “Participants” button at the bottom of the meeting window.
 ![](img/participants.png)
-1. ミーティング中の「Participants」欄に表示されている自分以外の参加者のうち，ホストに割り当てたい参加者にマウスを合わせてください．
+1. In the “Participants” panel during the meeting, hover over the participant, other than yourself, whom you want to assign as the host.
 ![](img/kebab.png)
-1. 表示された「More」をクリックし，「Make host」を選択してください．
+1. Click the displayed “More” and select “Make host.”
 ![](img/assign_host.png)
 
-### ホストキーの利用手順
+### Instructions for using a host key
 {:#host_key_instructions}
 
-#### ホスト側の操作
+#### Operations for the host
 {:#host_key_instructions_hosts}
-ホストは，以下の手順で自身のホストキーを取得・編集するすることができます．取得したホストキーは，ホストを務めてもらいたいユーザーに共有します．
-1. Zoom ウェブポータルの「[Profile](https://zoom.us/profile)」ページにアクセスしてください．
-1. "Meeting"欄まで移動し，「Host Key」の横にある瞳のアイコンをクリックしてください．表示された6桁の数字がホストキーです．
-    - もし，ホストキーが意図しない他者に知られてしまった場合などで，新しくホストキーを設定することを希望する場合，右側の\[Edit\]から設定することができます．
+The host can obtain or edit their own host key as follows. Share the retrieved host key with the user who is to act as host.
+1. Open the “[Profile](https://zoom.us/profile)” page in the Zoom web portal.
+1. Scroll to the “Meeting” section and click the eye icon next to “Host Key.” The displayed six-digit number is the host key.
+    - If you want to set a new host key, for example because the current key has become known to an unintended person, you can do so from \[Edit\] on the right.
 ![](img/host_key.png){:.border}
-1. 取得したホストキーを，ホストを務めてもらいたいユーザーに共有してください．
+1. Share the retrieved host key with the user who is to act as host.
 
-#### ホストキーを使用する側の操作
+#### Operations for the user using the host key
 {:#host_key_instructions_participants}
-ホストからホストキーを共有されたユーザーは，以下の手順でホストになることができます．
-1. ホストが不在のミーティングに入室してください．
-1. 「Participants」ボタンを選択してください．
+A user who has received a host key from the host can become the host by following the procedure below.
+1. Join a meeting in which the host is absent.
+1. Select the “Participants” button.
 ![](img/participants.png)
-1. 参加者欄の下部にある「Claim host」を選択してください．
+1. Select “Claim host” at the bottom of the participant list.
 ![](img/claim_host.png)
-1. ホストから共有されたホストキーを入力してください．
+1. Enter the host key shared by the host.
 ![](img/input_host_key_before.png)
-1. 入力を進めると「Claim host」が新しく表示されます．最後まで入力が完了したらこれを選択してください．
+1. As you continue entering the key, “Claim host” is displayed. When you have finished entering the key, select it.
 ![](img/input_host_key_after.png)
-1. ホストの取得が完了しました．必要に応じて[自分がホストになっていることを確認](#host_desc)することができます．
+1. You have now claimed the host role. You can [check that you are the host](#host_desc) as necessary.
 
-### スケジュール作成特権の利用手順
+### Instructions for using scheduling privilege
 {:#scheduling_privilege_instructions}
 
-#### スケジュール作成特権を設定する
+#### Granting scheduling privilege
 {:#grant_scheduling_privilege}
-親ユーザーが子ユーザーにスケジュール作成特権を設定する具体的な手順は以下の通りです．
-1. Zoom ウェブポータルの「[設定](https://zoom.us/profile/setting)」ページにアクセスしてください．
-1. 「Meeting」タブを選択し，「Other」欄の「Schedule Privilege」まで移動し，\[Add\]を選択してください．
-1. 「Users」欄に，子ユーザーとしたい方のUTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）を入力してください．
-    - なお，間違えて入力してしまった場合などでは，ゴミ箱マークを選択することで削除できます．
+The specific procedure for a parent user to grant scheduling privilege to a child user is as follows.
+1. Open the “[Settings](https://zoom.us/profile/setting)” page in the Zoom web portal.
+1. Select the “Meeting” tab, navigate to “Schedule Privilege” in the “Other” section, and select \[Add\].
+1. In the “Users” field, enter the UTokyo Account of the person you want to designate as the child user (a 10-digit Common ID + `@utac.u-tokyo.ac.jp`).
+    - If you entered an account by mistake, you can remove it by selecting the trash can icon.
 ![](img/scheduling_privilege_add_user_2.png){:.border}
-1. 子ユーザーが非公開になっているミーティングを管理できるようにするか選択してください．
+1. Choose whether to allow the child user to manage private meetings.
 ![](img/scheduling_privilege_add_user_3.png){:.border}
-    - 有効の場合の子ユーザー側の表示
+    - What the child user sees when this option is enabled
     ![](img/private_meeting_on.png){:.border}
-    - 無効の場合の子ユーザー側の表示
+    - What the child user sees when this option is disabled
     ![](img/private_meeting_off.png){:.border}
-6. 「Save」を選択して完了してください
+6. Select “Save” to finish.
 
-#### スケジュール作成特権を用いてミーティングをスケジュール・編集する
+#### Scheduling or editing meetings using scheduling privilege
 {:#schedule_meetings_using_privilege}
-スケジュール作成特権を用いてのミーティングのスケジュールと編集について，Webブラウザでの手順を説明します．アプリやプラグインなどでの手順については，公式サポートページをご覧ください．→ [**Using scheduling privilege**](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061749)
-- 新しくミーティングをスケジュールする場合の手順
-  1. Zoom ウェブポータルの[Meetings](https://u-tokyo-ac-jp.zoom.us/meeting)ページにアクセスしてください．
-  1. 「Schedule a Meeting」を選択してください．
+The following explains how to schedule and edit meetings using scheduling privilege in a web browser. For procedures using apps or plugins, please see the official support page. → [**Using scheduling privilege**](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061749)
+- Procedure for scheduling a new meeting
+  1. Open the [Meetings](https://u-tokyo-ac-jp.zoom.us/meeting) page in the Zoom web portal.
+  1. Select “Schedule a Meeting.”
   ![](img/schedule_meetings_using_privilege_web_new_0.png){:.border}
-  1. 「Schedule for」のプルダウンメニューから親ユーザーを選択してください．
+  1. Select the parent user from the “Schedule for” drop-down menu.
   ![](img/schedule_meetings_using_privilege_web_new_1.png){:.border}
-  1. その後は通常通りに[Scheduling a Zoom Meeting](/en/zoom/create_room/)してください．
+  1. Then schedule the meeting as usual using [Scheduling a Zoom Meeting](/en/zoom/create_room/).
 
-- 既存のミーティングを編集する場合の手順
-  1. Zoom ウェブポータルの[Meetings](https://u-tokyo-ac-jp.zoom.us/meeting)ページにアクセスしてください．
-  1. 「Schedule a Meeting」の左側にあるプルダウンメニューから，「All」もしくは親ユーザーを選択してください．「All」を選択した場合は自分自身のミーティングと親ユーザーのミーティングの一覧が，親ユーザーを選択した場合は親ユーザーのミーティングの一覧が表示されます．
+- Procedure for editing an existing meeting
+  1. Open the [Meetings](https://u-tokyo-ac-jp.zoom.us/meeting) page in the Zoom web portal.
+  1. From the drop-down menu to the left of “Schedule a Meeting,” select “All” or the parent user. Selecting “All” displays a list of both your own meetings and the parent user’s meetings. Selecting the parent user displays a list of the parent user’s meetings.
   ![](img/schedule_meetings_using_privilege_web_edit_0.png){:.border}
-  1. 対象とするミーティングにカーソルを合わせると，新しく「Edit」が表示されます．これを選択してください．
+  1. Hover over the meeting you want to edit. The newly displayed “Edit” will appear; select it.
   ![](img/schedule_meetings_using_privilege_web_edit_1.png){:.border}
-  1. その後は通常通りに[Editing and managing Zoom meetings](/en/zoom/misc/edit_meeting/)してください．なお，この編集画面で「Schedule for」を「Myself」に変更をすると，当該ミーティングを親ユーザーのものから子ユーザーのものにすることが可能です．
+  1. Then edit the meeting as usual using [Editing and managing Zoom meetings](/en/zoom/misc/edit_meeting/). Note that changing “Schedule for” to “Myself” on this editing screen makes it possible to transfer the meeting from the parent user to the child user.
   ![](img/change_owner_web.png){:.border}
 
-[^1]: 例外として，後述するスケジュール作成特権を用いてミーティングを作成した場合には付与されません．
-[^2]: ホストがミーティングを開始する前に参加者がミーティングに参加するためには，[ミーティング作成時](/zoom/create_room/#settings)の詳細オプションで「参加者に参加を許可する任意の時間」を有効にしている必要があります．
-[^3]: ミーティング作成時の詳細オプションで「参加者に参加を許可する任意の時間」を有効にしている場合，ホストが参加するまでの間は，ホスト不在でミーティングが進行します．
-[^4]: 「[代替ホスト](#alt_host_desc)」に設定されるなどで，ミーティング中にホストであっても自身のミーティングではない場合が存在します．
+[^1]: As an exception, the person who creates a meeting using the scheduling privilege described below is not assigned the host role.
+[^2]: For participants to join a meeting before the host starts it, the detailed options [when creating the meeting](/zoom/create_room/#settings) must have “Allow participants to join anytime” enabled.
+[^3]: If “Allow participants to join anytime” is enabled in the detailed options when creating the meeting, the meeting proceeds without a host until the host joins.
+[^4]: There are cases in which you are the host in a meeting but it is not your own meeting, for example because you were designated as an “[alternative host](#alt_host_desc).”
