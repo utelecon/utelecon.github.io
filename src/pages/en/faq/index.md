@@ -102,7 +102,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 #### Q. How do I create a university account?
 * UTokyo Zoom account is generated automatically if you own a UTokyo Account.
 * Activation of your UTokyo Account is therefore crucial. Please consult [Getting Ready for ICT Systems (for new students)](/en/oc/) or [Getting Ready for ICT Systems (for faculty members)](/en/faculty_members/) for further details on UTokyo Accounts.
-* If necessary, please also refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin/).
+* If necessary, please also refer to [Sign-in Methods for Zoom](/en/zoom/signin/).
 
 #### Q. Is this service free?
 * Yes. No additional charges will be incurred for the use of UTokyo Zoom account service.
@@ -110,7 +110,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 #### Q. Do I need to sign in to my UTokyo Zoom Account?
 
 * Please sign in to your account. Non-UTokyo Zoom account users might be prohibited from joining specific meeting rooms. There are also additional settings which are only accessible to UTokyo Zoom account users.
-* Please refer to [Sign-in Methods for Zoom](/en/zoom/zoom_signin/) for instructions on how to sign in.
+* Please refer to [Sign-in Methods for Zoom](/en/zoom/signin/) for instructions on how to sign in.
 
 <!--
 #### Q. I received the error message “ Error AADSTS50105…” and cannot sign in to Zoom.
@@ -131,7 +131,7 @@ UTAS is the academic affairs system of UTokyo. For students, UTAS allows syllabu
 
 #### Q. The message “This meeting is for authorized attendees only” (or similar) is shown.
 * The meeting is restricted to UTokyo Zoom account users, but you are not signed in.
-* Click on “Sign In to Join” or “Switch Account to Join”, and sign in to your UTokyo Zoom account following the procedures in [Sign-in Methods for Zoom](/en/zoom/zoom_signin/).
+* Click on “Sign In to Join” or “Switch Account to Join”, and sign in to your UTokyo Zoom account following the procedures in [Sign-in Methods for Zoom](/en/zoom/signin/).
 
 #### Q. The message “Please wait, the meeting host will let you in soon” (or similar) is shown.
 * The lecturer has enabled the Waiting Room feature.
