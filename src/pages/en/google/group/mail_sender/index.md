@@ -1,35 +1,35 @@
 ---
-title: Googleグループのメールアドレスを差出人に指定してメールを送信する
+title: Sending emails using a Google Group email address as the sender
 breadcrumb:
-  title: Googleグループのメールアドレスを差出人に指定してメールを送信する
+  title: Sending emails using a Google Group email address as the sender
 ---
-## 概要
+## Overview
 
-ECCSクラウドメール内で作成したGoogleグループをメーリングリストとして用いる際，そのメールアドレスを差出人としてメールを送信することが可能です．そのためには，事前に下記の手順のような設定が必要です．
+When using a Google Group created within ECCS Cloud Mail as a mailing list, you can send emails using that group’s email address as the sender. To do so, you must configure the following settings in advance.
 
-## 手順
+## Procedure
 
-1. グループを作成してください．その際，いったん「ウェブ上のすべてのユーザー」に投稿権限を与えてください．
-    - もし投稿権限を「ウェブ上のすべてのユーザー」にしなかった場合，この後の手順リスト6番で受け取るはずのメールが受け取れなくなってしまうため，この操作が必要です．手順リスト6番の操作が済んだら，投稿権限は自由に設定してかまいません．
+1. Create a group. When doing so, temporarily allow posting permissions to “Anyone on the web”.
+    - This setting is necessary because if you do not set the posting permission to “Anyone on the web”, you will not be able to receive the email required in step 6. Once you have completed step 6, you may change the posting permissions as needed.
   ![](./groups01.png){:.border}
   ![](./groups02.png){:.border}
-2. ECCSクラウドメールの設定画面を開いてください．
+2. Open the ECCS Cloud Email settings page.
   ![](./groups04.png){:.border}
-3. 設定画面で，「アカウント」タブを開き，「他のメールアドレスを追加」のボタンを押してください．
+3. On the settings screen, open the “Accounts” tab and press the “Add another email address” button.
   ![](./groups05.png){:.border}
-4. 「名前」に送信時に表示したい名前を，「メールアドレス」にメーリングリストのアドレスをそれぞれ入力して，次のステップに進んでください．
-  ![](./groups06.png){:.border}{:.small}
-5. 「確認メールの送信」を押してください．
-  ![](./groups07.png){:.border}{:.small}
-6. メーリングリストに宛てて，確認メールが送信されます．メール本文中のリンクを押し，あなたがこのメーリングリストのメンバーであることを示してください．
+4. Enter the name you wish to display when sending emails in the “Name” field, and the mailing list address in the “Email address” field. Then proceed to the next step.
+  ![](./groups06.png){:.border}
+5. Press the “Send Verification” button.
+  ![](./groups07.png){:.border}
+6. A verification email will be sent to the mailing list. Press the link in the email body to confirm that you are a member of this mailing list.
   ![](./groups09.png){:.border}
-    - 下記のような画面が表示されるので，指示に従って操作してください
+    - The following screens will be displayed. Please follow the instructions on them.
     ![](./groups10.png){:.border}
     ![](./groups11.png){:.border}
-7. ECCSクラウドメールの設定画面で，「名前」の欄にメーリングリストのアドレスが追加されていることを確認してください．
+7. Return to the ECCS Cloud Mail settings page and confirm that the mailing list address has been added to the “Send mail as” section.
   ![](./groups12.png){:.border}
-8. ECCSクラウドメールのメール作成画面で「差出人」の欄を操作し，メーリングリストのアドレスを選択できることを確認してください．
+8. Open the email compose window in ECCS Cloud Mail. In the “From” field, confirm that you can select the mailing list address as the sender address.
   ![](./groups13.png){:.border}
-9. この一連の手順の冒頭，Googleグループを作成する際に，「ウェブ上のすべてのユーザー」からの投稿を許可しましたが，必要であればこれを修正してください．
+9. After completing these steps, you may change the Google Group’s posting permissions from “Anyone on the web” to another setting if necessary.
   ![](./groups14.png){:.border}
   ![](./groups15.png){:.border}
