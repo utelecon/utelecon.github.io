@@ -4,7 +4,7 @@ breadcrumb:
   title: Issues where the dock is not detected when starting up a Chromebook
 ---
 
-When starting up an ECCS Chromebook, issues may occur, such as the dock not being detected or the external display failing to show an image.
+When starting up an ECCS Chromebook, issues may occur, such as the dock not being detected and the external display failing to show an image.
 
 Please note that if this issue does not occur at the initial startup, then subsequent actions like logging out will have no effect. It occurs only on Chromebooks and has not been observed on Chromeboxes.
 
