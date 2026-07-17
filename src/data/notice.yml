@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-07-17
+  content:
+    ja: "[Zoomのライセンス切り替えに伴うメンテナンスについて（**7/25に実施**）](/notice/2026/0725-zoom/)"
+    en: "[Zoom Maintenance Due to a License Switchover (**scheduled for July 25**) (in Japanese only for now)](/notice/2026/0725-zoom/)"
+-
   date: 2026-07-15
   content:
     ja: "[大規模GPUシステム「SYNKA」が利用できるようになりました](/notice/2026/0715-synka/)"
