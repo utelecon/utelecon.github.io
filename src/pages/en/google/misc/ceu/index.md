@@ -16,7 +16,7 @@ The standard configuration is as follows.
 
 - Departments wishing to use this service (hereafter referred to as "Department") are required to prepare ChromeOS devices (including displays, keyboards, and mice), a network environment, and CEU (Chrome Education Upgrade) licenses.
   - The required network environments are as follows.
-    - A VLAN designated by the Information Technology Center will be assigned to a specified port on the UTNET switch. the Department is responsible for preparing the equipment required to connect the devices to that port, such as routers, switching hubs, and network cabling.
+    - A VLAN designated by the Information Technology Center will be assigned to a specified port on the UTNET switch. The Department is responsible for preparing the equipment required to connect the devices to that port, such as routers, switching hubs, and network cabling.
     - Functions for loop detection and for allowing connections only from designated devices are required.
     - A dedicated network for centrally managed ChromeOS devices is required.
       - WiFi LAN services that require users to authenticate with their individual accounts, such as UTokyo WiFi, cannot be used.
@@ -31,7 +31,7 @@ The usage fee for standard configuration is JPY 10,000 per device per year. Depe
 
 ## Inquiries and Applications
 
-Please fill out the following form "Device Management Service for Departmental ChromeOS Devices". Please note that signing in with your ECCS Cloud Email is required to complete the form.
+Please fill out the following form "Device Management Service for Departmental ChromeOS Devices" (only in Japanese). Please note that signing in with your ECCS Cloud Email is required to complete the form.
 
 **[Device Management Service for Departmental ChromeOS Devices](https://docs.google.com/forms/d/e/1FAIpQLSdrddEnD_see3tvDMfkWL3RktJyt0vremITPM2u6NdndhpCYQ/viewform)**{:.box.center}
 
