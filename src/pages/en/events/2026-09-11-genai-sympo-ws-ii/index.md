@@ -21,7 +21,7 @@ In a world where using AI for research and work is now assumed, we must consider
 
 We look forward to the participation of many faculty members.
 
-While the main purpose is information sharing and discussion among faculty, staff and students are also welcome to attend.
+While the main purpose is information sharing and discussion among faculty, staff and students are also welcome.
 
 ## Program Details
 
@@ -58,7 +58,7 @@ If you would like to present, or are able to, please let us know via the registr
   * Registration for attendance will be accepted up until the day of the event, but we ask that you register early to help us gauge the number of participants.
 * Organizer: Kenjiro Taura, Executive Director and Vice President
 * Contact: Information Systems Support Group, Information Systems Department
-* Email: systemshien.adm@gs.mail.u-tokyo.ac.jp
+* Email: ai2.adm@gs.mail.u-tokyo.ac.jp
 
 ## Ongoing Survey on Generative AI in the Classroom
 
