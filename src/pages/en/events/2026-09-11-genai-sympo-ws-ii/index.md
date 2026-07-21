@@ -66,4 +66,4 @@ We are continuing to conduct a [survey on the introduction and use of AI in cour
 
 ## Participant-only Page
 
-* After registering, please see the [participant-only page](https://drive.google.com/drive/folders/1OBMSSzHufVamH2R0h9KmlykEpLkEps5l?usp=sharing) (to be created later; requires sign-in with a UTokyo Account) for information such as the Zoom link.
+* After registering, please see the [participant-only page](https://drive.google.com/drive/folders/1OBMSSzHufVamH2R0h9KmlykEpLkEps5l?usp=sharing) (requires sign-in with a UTokyo Account) for information such as the Zoom link.

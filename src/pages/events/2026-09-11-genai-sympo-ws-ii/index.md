@@ -66,6 +66,6 @@ AIが、大学で課される基本的な課題の多くを解いてしまうの
 
 ## 参加者用ページ
 
-* 登録後、[参加者用ページ](https://drive.google.com/drive/folders/1OBMSSzHufVamH2R0h9KmlykEpLkEps5l?usp=sharing)（後日作成, 要UTokyo Accountでサインイン）からZoomリンクなど必要な情報をご覧ください。
+* 登録後、[参加者用ページ](https://drive.google.com/drive/folders/1OBMSSzHufVamH2R0h9KmlykEpLkEps5l?usp=sharing)（要UTokyo Accountでサインイン）からZoomリンクなど必要な情報をご覧ください。
 
 
