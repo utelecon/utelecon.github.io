@@ -34,7 +34,7 @@
     "hast-util-is-element": "^3.0.0",
     "hast-util-select": "6.0.4",
     "hast-util-to-text": "^4.0.2",
-    "js-yaml": "^4.1.1",
+    "js-yaml": "^4.3.0",
     "mdast-util-mdx": "3.0.0",
     "mdast-util-to-hast": "^13.2.1",
     "micromark-core-commonmark": "2.0.3",
