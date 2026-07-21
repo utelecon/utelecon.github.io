@@ -21,6 +21,12 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+ date: 2026-07-21
+ content:
+  ja: "9/11 13:00から「[第二回「生成AIと教育について考える」ワークショップ](/events/2026-09-11-genai-sympo-ws-ii/)」を開催いたします．"
+  en: "On September 11, an information session titled **\"[Second Workshop: Reflecting on Generative AI and Education](/en/events/2026-09-11-genai-sympo-ws-ii/)\"** will be held at 13:00."
+ important: true
+-
   date: 2026-07-17
   content:
     ja: "[Zoomのライセンス切り替えに伴うメンテナンスについて（**7/25に実施**）](/notice/2026/0725-zoom/)"
