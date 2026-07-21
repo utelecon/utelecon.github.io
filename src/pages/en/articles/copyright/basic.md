@@ -68,7 +68,7 @@ On the other hand, examples of non-copyrighted “works” include:
 In principle, the law acknowledges the person who performed the act of creation as the author. However, for example, if a company plans to produce a pamphlet for its own company and has its employees create it as part of their duties, the company, not the creator of the pamphlet (i.e., the employee), becomes the author. Such works are called “Works Made for Hire.”[^4]
 
 [^4]:
-    "Works Made for Hire" may also be called corporate work. Not everything created by an employee of a company is"Works Made for Hire." The following requirements must be met;
+    "Works Made for Hire" may also be called corporate work. Not everything created by an employee of a company is "Works Made for Hire." The following requirements must be met;
     <ol type="a">
       <li>The "plan" for the creation of the work is made by a legal entity or other "user" (e.g., the State, a company, etc.; hereinafter referred to as a "legal entity, etc.").</li>
       <li>Creation by a "person engaged in the business" of a corporation, etc.</li>

@@ -3,7 +3,7 @@ title: Online Resources Shared by UTokyo Faculty and Staff Members
 ---
 
 ## Introduction
-This page covers online resources that UTokyo faculty staff members have shared with us. The online resources introduced here include materials created by UTokyo members and also external materials that UTokyo members found useful and worth sharing.  
+This page covers online resources that UTokyo faculty and staff members have shared with us. The online resources introduced here include materials created by UTokyo members and also external materials that UTokyo members found useful and worth sharing.  
 We would like to express our gratitude for their kind contributions. 
  
 **In utelecon (this portal site), we provide useful information on online resources to enhance your online classes and activities. Please refer to the [Effective Use of Online Resources](/en/online/) page for more information.**

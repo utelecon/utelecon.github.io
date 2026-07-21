@@ -12,7 +12,7 @@ Webexは，東京大学で提供されているWeb会議システムの一つで
 
 ## Webexサービスについて
 
-Webexは，一般的にはWebex Meetingsが使われていますが，他にもWebex Webinars，Webex Training，Webex Supportがあり, 全部で4種類があります．それぞれ長短があります．
+Webexは，一般的にはWebex Meetingsが使われていますが，他にもWebex Webinars，Webex Training，Webex Supportがあり，全部で4種類があります．それぞれ長短があります．
 
 * Webex Meetings
 	* 最大参加者数は1,000．うちテレビ会議システムからの接続最大200を含む．
@@ -31,7 +31,7 @@ Webexは，一般的にはWebex Meetingsが使われていますが，他にもW
 	* タブレット・スマートホンは不可．
 	* 基本的に1:1のITサポートに用いられる．
 
-以下ではWebex Meetings，Webex Webinarsについて利用方法を説明していきます.
+以下ではWebex Meetings，Webex Webinarsについて利用方法を説明していきます．
 
 ## 「情報システムゼミ」スライド資料
 

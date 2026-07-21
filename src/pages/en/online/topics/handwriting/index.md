@@ -43,7 +43,7 @@ The following is information on this method shared by a faculty and staff member
 
 - [How to Use a Smartphone and a Writing Camera to Give a Handwritten Lecture on a PC](/online/shared/doc-cam-lecture.pdf) (Dr. Koseki, Graduate School of Engineering): This article explains how to use a document camera in combination with slides to give a lecture. He also presents a video of an actual mock class using a document camera.
 
-## Taking pictures of a blackboard or whiteboard and write on it
+## Taking pictures of a blackboard or whiteboard and writing on it
 {:#board}
 
 Here, we introduce a method to take pictures of a blackboard or whiteboard with a PC camera and stream the pictures via Zoom for writing by hand in class. 
