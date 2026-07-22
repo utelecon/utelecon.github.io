@@ -1,7 +1,7 @@
 ---
 title: Orientations / Seminars
 ---
-
+* 2026/07/21 [Second Workshop: Reflecting on Generative AI and Education](/en/events/2026-09-11-genai-sympo-ws-ii/)
 * 2026/03/16 [Information Session on ICT Systems and Tools for UTokyo Members (only in Japanese)](/events/2026-03-16/)
 * 2026/02/13 [Workshop: UTokyo Azure Day (**Oral Session Conducted in English**)](/en/events/2026-02-13/)
 * 2025/09/10 [Information Session on ICT Systems and Tools for UTokyo Members (only in Japanese)](/events/2025-09-10/)
