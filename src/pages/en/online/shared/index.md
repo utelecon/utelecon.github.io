@@ -29,9 +29,9 @@ Or, if you are familiar with GitHub, please fork the utelecon GitHub, add your m
 * **Online Teaching and Learning in Psychology Profession** [\[Website\]](https://note.com/inext/n/nc852e556efcf?magazine_key=m71869b115aa0)(in Japanese):
 	* Contributed by Prof. Shimoyama and Prof. Kitahara, Graduate School of Education
 	* This article featured in iNEXT, a clinical psychology magazine published by Shimoyama Laboratory, explains how to use Zoom and, in particular, how to teach online classes in the field of clinical psychology.
-* **Guide to Online Lectures Using Educational Campuswide Computing Research Division** [\[Website\]](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/09_3206.html)(in Japanese):
+<!-- * **Guide to Online Lectures Using Educational Campuswide Computing Research Division** [\[Website\]](https://www.ecc.u-tokyo.ac.jp/announcement/2020/09/09_3206.html)(in Japanese):
 	* Contributed by the Information Technology Center, Campus-wide Computing Research Division
-	* This is a compilation of useful information for those who want to switch to conducting lectures via Zoom from training rooms of the Educational Campus Wide Computing System.
+	* This is a compilation of useful information for those who want to switch to conducting lectures via Zoom from training rooms of the Educational Campus Wide Computing System. -->
 
 
 ## Accessibility Considerations for Online Classes

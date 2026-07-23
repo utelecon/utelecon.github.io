@@ -34,7 +34,7 @@ Please also refer to the following.
 
 ## University-wide Systems
 
-- **[ECCS Terminals](https://www-old.ecc.u-tokyo.ac.jp/en/)**: These are computers located on campus. Please note that you need to apply for usage rights in advance.
+- **[Educational Campus-Wide Computing System (ECCS)](/en/eccs/)**: ECCS) is a facility including computers and other equipment available to the students, faculty, and staff of the University of Tokyo for education and research. It consists of on-campus ChromeOS devices, facilities for using personal devices, and environments that allow remote access to specific software.
 - **[UTokyo VPN](/en/utokyo_vpn/)**: This system allows you to access administrative systems that are restricted to the university network from outside the campus.
 - **[High-speed computing and data utilization infrastructure for the university](/en/research_computing/)**： This is a high-speed computing and data utilization infrastructure provided by the University of Tokyo for the research and learning of faculty and students.
 - **[University of Tokyo Online Lecture Search System (UTAS Lite2, UTIL Lite)](https://utelecon-directory.adm.u-tokyo.ac.jp/en/)**：This system is used to verify URLs for online classes. For more details, please also refer to the pages "[How to Obtain the Online Class URL (for Students)](/en/oc/url/)" and "[How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url/)".
