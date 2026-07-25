@@ -34,11 +34,11 @@ import If from "@components/utils/If.astro"
    ![](img/my_display_info.png){:.border}
 1. <If cond={props.variant === "link"}>
    「UTokyo Account本人確認サービスを利用しています」と表示されていれば，事前連携が完了しています．
-   ![](img/my_status_link.png){:.border}
+   ![](img/ident_myna_using.png){:.border}
    </If>
    <If cond={props.variant === "unlink"}>
    「UTokyo Account本人確認サービスを利用していません」と表示されていれば，連携解除が完了しています．
-   ![](img/my_status_unlink.png){:.border}
+   ![](img/ident_myna_not_using.png){:.border}
    </If>
    <If cond={props.variant === "notSpecified"}>
    「UTokyo Account本人確認サービスを利用しています」または「UTokyo Account本人確認サービスを利用していません」と表示されている行を確認してください．
