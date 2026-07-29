@@ -70,7 +70,7 @@ The following is a description of the specific function of each icon.
 - If you have more than one Google account, you can change the account by clicking here.
 - When you change the account, the calendar will switch to the calendar of that account.
 
-#### ④ My Calenders
+#### ④ My Calendars
 
 - The "My calendars" column shows the calendars for which you have the "Make changes & manage sharing" access permission enabled in the calendar sharing settings.
 - "Make changes & manage sharing" is the most powerful access permission that can be granted to the calendar sharer, allowing him or her to perform the same operations as the owner of the calendar, such as changing appointments and sharing settings.
@@ -128,7 +128,7 @@ This section describes how to add and set up appointments in general. In univers
 **C. More options**
 
 - You can set up more advanced options for your schedule here.
-- When you click on the button, the following window will be displayed. The information that can be entered in "B. Contents of the appointment" can also be entered using the "More options" screen. Please refer to the ["Appointment details"](#appointment-details) below for the details that can be entered in each field. Entering the items found in "B. Contents of the appointment" are generally sufficient to set up a meeting, but some settings can only be entered using the "More options" screen; for example, the guest’s permission settings in "⑦ Adding guests."
+- When you click on the button, the following window will be displayed. The information that can be entered in "B. Contents of the appointment" can also be entered using the "More options" screen. Please refer to the ["Appointment details"](#appointment-details) below for the details that can be entered in each field. Entering the items found in "B. Contents of the appointment" is generally sufficient to set up a meeting, but some settings can only be entered using the "More options" screen; for example, the guest’s permission settings in "⑦ Adding guests."
 
 ![Screenshot from Google Calendar. A page to edit details of the event is shown.](img/schedule_settings.png)
 
@@ -136,7 +136,7 @@ This section describes how to add and set up appointments in general. In univers
 <strong>Appointment details</strong>
 </p>
 
-**① Settings date and time**
+**① Setting date and time**
 
 - This is where you set the date and time of the appointment.
 - You can also set the time zone and set a repeating or all-day schedule.
@@ -238,7 +238,7 @@ Here you will see a list of the tasks you have created, and you can do things su
 
 If you have multiple Google accounts and use separate calendars for each account, your events are scattered between different Google calendars, which can be troublesome to coordinate. In such a case, you can integrate the calendars of different accounts into one calendar for better visibility and centralized management of events.
 
-1. Open the Google Calendar of the account you want to share．
+1. Open the Google Calendar of the account you want to share.
 2. Go to Settings and select the calendar you want to share.
 3. Select "Share with specific people or groups" and click "+Add people and groups".
    ![](img/authorization_settings.png)

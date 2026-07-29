@@ -7,7 +7,7 @@ breadcrumb:
 This page describes what a team folder/file in Teams is and how to access it.
 
 ## What is a Teams folder?
-When you create a team and/or channel in Teams, a folder is automatically created in SharePoint for each channel. This newly created folder is called the **Teams folder**. The files in the Teams folder are shared among the members of the team/channel, and is not and does not belong to any individual account.
+When you create a team and/or channel in Teams, a folder is automatically created in SharePoint for each channel. This newly created folder is called the **Teams folder**. The files in the Teams folder are shared among the members of the team/channel, and are not and do not belong to any individual account.
 
 Please note that the access to Microsoft Teams within the UTokyo Account is restricted to UTokyo faculty and staff members.
 

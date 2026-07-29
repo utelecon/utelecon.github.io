@@ -12,7 +12,7 @@ redirect_from:
 The host is the user (teacher) who scheduled the meeting (class). The host has full permission to manage the meeting.
 (Please click here to schedule a meeting.)
 
-## What is Co-host?
+## What is a Co-host?
 The co-host is a user who has similar hosting privileges as the host. The host can assign a participant as co-host.
 In a Zoom class session, it is recommended that someone with a class assisting role (e.g. a teaching assistant) be the co-host.
 
@@ -36,7 +36,7 @@ Please refer to the below article to learn more about the different meeting cont
 [https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting](https://support.zoom.us/hc/en-us/articles/360040324512-Roles-in-a-meeting)
 
 **＜Notes>**
-Teachers and teaching assistants should confirm with each other their respective roles before classes start. It is also suggested testing the functions in advance. Note that only the host can take attendance with the report function.
+Teachers and teaching assistants should confirm with each other their respective roles before classes start. It is also suggested that you test the functions in advance. Note that only the host can take attendance with the report function.
 
 ## How to Check Who the (Co-)Host is
 Click "Participants" on the Zoom screen (1). The participant list will appear on the right side of your screen, with your name showing up at the top. Below your name are the host’s and co-host’s names, with their roles specified next to their names (2).

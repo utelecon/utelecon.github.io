@@ -12,11 +12,11 @@ breadcrumb:
 ●---------------------------------------------------------------------------------------●
 
 ★本メールマガジンはこちらからもご覧いただけます：
-https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20260527/
+<a href="/newsletter/archives/20260527/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20260527/</a>
 
 ★最新情報はuteleconポータルサイトでご確認ください
-ポータルサイト：https://utelecon.adm.u-tokyo.ac.jp/
-X（旧Twitter）：https://x.com/utelecon_pr
+ポータルサイト：<a href="/">https://utelecon.adm.u-tokyo.ac.jp/</a>
+X（旧Twitter）：<a href="https://x.com/utelecon_pr" >https://x.com/utelecon_pr</a>
 
 ●----目 次----------------------------------------------------------------------------●
 
@@ -33,10 +33,10 @@ X（旧Twitter）：https://x.com/utelecon_pr
 2026年4月〜5月の主な更新情報は以下のとおりです。
 
 〇 2026年4月4日：「Google Meet」のページを大幅に更新しました。
-https://utelecon.adm.u-tokyo.ac.jp/google/meet/
+<a href="/google/meet/">https://utelecon.adm.u-tokyo.ac.jp/google/meet/</a>
 
 〇 2026年4月13日：「uteleconメールマガジン」のページを新たに追加しました。
-https://utelecon.adm.u-tokyo.ac.jp/newsletter/
+<a href="/newsletter/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/</a>
 
 
 ●---------------------------------------------------------------------------------------●
@@ -48,7 +48,7 @@ https://utelecon.adm.u-tokyo.ac.jp/newsletter/
 これらのサービスを利用しない場合も含め、未受講の場合は必ず受講してください。周囲の方にもお声掛けいただくなど、ご協力をよろしくお願いします。
 
 詳細は以下のページをご覧ください。
-https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education_2026.aspx
+<a href="https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education_2026.aspx" >https://univtokyo.sharepoint.com/sites/Security/SitePages/Information_Security_Education_2026.aspx</a>
 
 
 ●---------------------------------------------------------------------------------------●
@@ -69,7 +69,7 @@ UTokyo Account 本人確認サービスは、東大を離籍した後などUToky
 氏名以外の個人情報（住所、生年月日、性別など）は取得しません。
 
 詳細は以下のuteleconポータルサイトのページをご覧ください。
-https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/ident-myna/
+<a href="/utokyo_account/ident-myna/">https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/ident-myna/</a>
 
 
 最後までお読みいただきありがとうございました。
@@ -77,16 +77,16 @@ https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/ident-myna/
 ===================================================
 配信先アドレス変更・配信停止をご希望の場合は、
 下記ページのフォームよりご連絡ください。
-https://utelecon.adm.u-tokyo.ac.jp/newsletter/
+<a href="/newsletter/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/</a>
 ===================================================
 
 発行：
 東京大学 uteleconプロジェクト
-ポータルサイト：https://utelecon.adm.u-tokyo.ac.jp/
-X（旧Twitter）：https://x.com/utelecon_pr
+ポータルサイト：<a href="/">https://utelecon.adm.u-tokyo.ac.jp/</a>
+X（旧Twitter）：<a href="https://x.com/utelecon_pr" >https://x.com/utelecon_pr</a>
 
 このメールアドレスは配信専用であり、返信を受け付けておりません。
 本メールマガジンに関するお問い合わせは、uteleconサポート窓口のメールフォームよりご連絡ください。
-https://utelecon.adm.u-tokyo.ac.jp/support/email-form/
+<a href="/support/email-form/">https://utelecon.adm.u-tokyo.ac.jp/support/email-form/</a>
 
 </pre>

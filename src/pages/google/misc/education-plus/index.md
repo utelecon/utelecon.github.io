@@ -12,7 +12,7 @@ breadcrumb:
 Google Workspace for Education Plusは，大学全体でのストレージ容量の増加，管理者向けの機能強化以外にも，個人にライセンスを付加することにより，ECCSクラウドメールの機能が以下のように強化されます．
 
 - Google Meetでの多人数会議，ライブストリーミング，録画機能が利用可能
-- Google Classroom，Google Assignmentでの独自性レポートの制限の緩和
+- Google Classroom，Google Assignmentsでの独自性レポートの制限の緩和
 - AppSheetが利用可能
 - [Googleドキュメント、Googleスライド、Googleフォームでの Gemini の機能へのアクセス](/notice/2026/0302-gemini-gws/)．
 
@@ -37,12 +37,12 @@ ECCSクラウドメールのアカウントに対するGoogle Workspace for Educ
 ## ライセンスの確認方法
 {:#check-grant}
 
-ライセンスが付加されているかどうかは，[Google Meet](../../meet/)のアクティビティ機能の利用可否から確認できます．なお，アクティビティ機能は，学生向けと教職員向けのいずれもで利用可能なものです．
+ライセンスが付加されているかどうかは，[Google Meet](../../meet/)の一部の会議ツールの利用可否から確認できます．なお，それらの会議ツールは，学生向けと教職員向けのいずれもで利用可能なものです．
 
 ### 確認手順
 
 1. Google Meetで，[トップページから会議を作成](../../meet/#create_meeting_from_meet_page)します．
-2. 画面右下の「アクティビティ」のアイコンをクリックします．
+2. 画面右下の「会議ツール」のアイコンをクリックします．
    ![](./activity_button.png){:.medium}
 3. 機能の利用可否を確認します．
     - ライセンスが付加されている場合，Q&Aやアンケート，ブレイクアウトルームなどの機能が利用可能になっています．

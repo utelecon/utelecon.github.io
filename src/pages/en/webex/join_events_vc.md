@@ -17,7 +17,7 @@ breadcrumb:
 
 ### Contents sharing
 
-* When you start contents sharing from the video conference system, the contents are also shared with hosts & participants from Webex Training.
+* When you start contents sharing from the video conference system, the contents are also shared with hosts & participants from Webex.
 * When content is shared from the host & participants on Webex, the contents are also shared with the host & participants from the video conference system.
 
 ### Mute / Unmute Settings

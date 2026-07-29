@@ -11,11 +11,11 @@ redirect_from:
 In this section we give concrete directions on how to use Zoom.  
 
 
-The following screen is displayed when entering a meeting room(this screenshot shows a meeting room with only 1 participant).
+The following screen is displayed when entering a meeting room (this screenshot shows a meeting room with only 1 participant).
 If you move the mouse cursor over the Zoom screen, the menu bar shown in the figure below will pop up.
   ![](main_numbering.png)  
-The menu buttons are explained from left to right (some version may not display all the buttons as here).
-  1. **Microphone mark** : Press this to mute (mute) or unmute (the screen shows "mute off" because it is currently muted). Pressing the arrow mark next to it enables you to make settings related to the microphone.
+The menu buttons are explained from left to right (some versions may not display all the buttons as here).
+  1. **Microphone mark** : Press this to mute or unmute (the screen shows "mute off" because it is currently muted). Pressing the arrow mark next to it enables you to make settings related to the microphone.
   1. **Video mark** : Press to turn the video on or off (the screen shows "Start Video" because the camera is currently off). Pressing the up mark next to it will allow you to make video settings.
   1. **Invitation** : You can send an invitation by e-mail. Since the organizer and participants already know the URL of the conference room, they can invite others by sharing the meeting URL.
   1. **Screen Share** : You can share screens in your device.
@@ -71,7 +71,7 @@ When you press the menu "Share screen", the options of screens to be shared appe
   * When "Screen" is selected, the screen of the person sharing the image itself is shared with everyone (If there are multiple screens such as a multi-monitor like an image, screen 1 and screen 2 have more options).
   * If you select "Whiteboard", a whiteboard in which you can draw freely will be shared with everyone.
   * Selecting "iPhone / iPad" will allow you to share your iPhone / iPad screen (plug-in required). You can share via AirPlay from devices in the same Wi-Fi network.
-  * The currently open window is also displayed as an option. You can also share the screen in window units. If you don't want others to see all of your computer windows, we recommend that you select the window unity you want to share.
+  * The currently open window is also displayed as an option. You can also share the screen in window units. If you don't want others to see all of your computer windows, we recommend that you select the window unit you want to share.
   
   <!--About Sharing audio-->
   

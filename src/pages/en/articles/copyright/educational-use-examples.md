@@ -68,7 +68,7 @@ In contrast, the following activities do not fall under this category.
 
 #### d. What Uses Are Allowed: "Reproduction," "Public Transmission," "Public Communication" [^16]
 
-The three types of use permitted under Article 35 are "reproduction," "public transmission," and "public communication.
+The three types of use permitted under Article 35 are "reproduction," "public transmission," and "public communication."
 
 First, "reproduction" means "the physical replication of a work through printing, photography, or copying, through the recording of sound or visuals, or in any other way"[^17], and refers to the following uses, for example.
 
@@ -80,7 +80,7 @@ First, "reproduction" means "the physical replication of a work through printing
 
 Next, "public transmission" refers to transmission to the public (unspecified persons or a large number of specified persons) by means of broadcasting, cable broadcasting, Internet transmission (including uploading to a server), and so on[^18]. For example, it includes distributing class videos and uploading lecture materials to the Internet, such as to a learning management system[^19].
 
-Finally, "public communication" refers to the communication of a publicly transmitted work to the public using a receiving device[^20]. For example, this includes making a video related to the content of a class on the Internet is available to students through a display in the classroom.
+Finally, "public communication" refers to the communication of a publicly transmitted work to the public using a receiving device[^20]. For example, this includes making videos on the Internet that are related to the class content available to students through a classroom display.
 
 In addition, you can reproduce or publicly transmit a work after translating, arranging, or adapting it[^21].
 
@@ -187,7 +187,7 @@ The following examples use copyrighted works beyond the necessary limits for lec
 ##### (3) Reproducing a Book
 
 - An instructor reproduces a workbook or drill book and uses it or provides it in class for all students to solve, including students who have not purchased the book, even though the book in question is intended for all students to purchase and use.
-- Reproducing or providing copyrighted materials from textbooks that are usually purchased by instructors or students, provided to educational institutions on a contractual basis, or lent to be used by instructors and students in class, as well as materials in workbooks that each student fills in directly as exercises[^28], in such as way that all the contents can be viewed without having the purchase the materials.
+- Reproducing or providing copyrighted materials from textbooks that are usually purchased by instructors or students, provided to educational institutions on a contractual basis, or lent to be used by instructors and students in class, as well as materials in workbooks that each student fills in directly as exercises[^28], in such a way that all the contents can be viewed without having the purchase the materials.
 - An instructor reproducing and distributing many parts of a book in one class: chapter 1 in the first class, chapter 2 in the second class, and so on, resulting in the majority of the book's usage in that class.
 - Providing copies of all references that are thought to be helpful to students, even though they will not be covered in class.
 - The instructor scans all or most of the pages of a paper textbook, creates a PDF version of the digital textbook, and distributes it to students.

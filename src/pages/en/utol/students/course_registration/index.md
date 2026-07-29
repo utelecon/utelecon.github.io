@@ -19,7 +19,7 @@ There are four types of course registrations, and the timetable displays which t
 
 ![The timetable shows whether the course is registered through self-registration, or by its instructor, etc.](./type.png)
 
-For your convenience, the course registrations types will be divided into the following two categories.
+For your convenience, the course registration types will be divided into the following two categories.
 
 1. Registration by course instructors or through UTAS:
     * “Enrolled registration”: Automatically registers the courses you have taken.
@@ -41,7 +41,7 @@ The registration procedure for a course varies depending on the [course registra
 
 Registrations through UTAS or by the course instructors can be made by following the steps below.
 
-* “Enrolled registration”: You will be automatically registered you for the courses you are currently taking. If enrollment registration for a course on UTAS is made, the registration on UTOL will be completed within one hour.
+* “Enrolled registration”: You will be automatically registered for the courses you are currently taking. If enrollment registration for a course on UTAS is made, the registration on UTOL will be completed within one hour.
 * “Favorite registration”: If you register for a favorite-listed course on UTAS, you will be enrolled in the course on UTOL within one hour. This registration will be deleted when the enrollment is confirmed.
 * “Registered by instructor”: For courses that students are not currently taking, they can request the instructor to register them for the courses manually.
 

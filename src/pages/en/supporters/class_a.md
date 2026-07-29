@@ -18,7 +18,7 @@ Notifications
 What is a Class Supporter?
 ---------------------------
 
-Every undergraduate / graduate student and postdoctoral researcher belonging to the University of Tokyo can become Class Supporters. The job of Class Supporters is to support the lecturers' online courses. If you are interested in availing the Class Supporer, please read carefully the text below to understand the system of the class supporter.  
+Every undergraduate / graduate student and postdoctoral researcher belonging to the University of Tokyo can become Class Supporters. The job of Class Supporters is to support the lecturers' online courses. If you are interested in availing the Class Supporter, please read carefully the text below to understand the system of the class supporter.  
 
 Aims and the Goal of Class Supporters
 ---------------------------
@@ -26,7 +26,7 @@ Aims and the Goal of Class Supporters
 * Class Supporters are NOT a TA. We do not expect that Class Supporters  work hard as well as TAs are supposed to do.
 * We aim to match the lectures and the Class Supporters as soon as possible.
 * We also aim to make interdisciplinary connections through the system of the Class supporter.
-* The budget of the Class supporter system is independently of any departments. Therefore, all lecturers can be  allocated to the Class Supporter without any budget restrictions of their department.
+* The budget of the Class supporter system is independent of any departments. Therefore, all lecturers can be allocated to the Class Supporter without any budget restrictions of their department.
 * The lectures can hire both Class Supporters and TAs. However, if there are TAs already at your online class, the Class Supporters may not be necessary.  
 
 The Work for Class Supporter (Examples of the expected work)
@@ -74,7 +74,7 @@ There are two ways to find Class Supporters.
     *  After approving, we will send two types of forms to lectures. One is to confirm how to undergo the payment, so that the students must fill in the form. The students who become a Class Supporter also have this form but please ask them whether they fill in and submit the form. Another is to report to notify the completion of the Class Supporters' duty. The lecturer should fill in this form after finishing their duty.
 1. Please submit the latter form after finishing their job because we cannot pay for a Class Supporters reward unless the lectures submit this form.
 
-**Lecturers aks for help to find Class Supporters**
+**Lecturers ask for help to find Class Supporters**
 1. Please fill in <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhE94RPB63wNJlBYuMusGyS9URDJDMVFIUEhVSExOUTBWNlU2TFZBNEpNQy4u" target="_blank">the Class Supporter Request form</a>.
 1. We will find the Class Supporter who can match your request in the classroom. If we find the Class Supporter based on your request, then we will <font color="red">send you an email</font> to notify who will be the Class Supporters.
     * Please contact your Class Supporter as soon as you receive our message.

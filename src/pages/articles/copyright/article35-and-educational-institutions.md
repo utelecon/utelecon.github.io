@@ -146,7 +146,7 @@ author:
 * [SARTRASに加盟する団体一覧](../sartras-member-organizations/)
 
 [^1]:
-    例えば，教育機関における授業目的で，PDF化された著作物を先生が学生に送信するといったことが該当します．この記事では，「公の伝達」といった言葉もほぼ同義で使用しています．公衆送信や公の伝達についてより詳しく知りたい方は，参考文献などをご確認ください．参考：SARTRAS「授業目的講習送信補償金制度とは」（[https://sartras.or.jp/seido/](https://sartras.or.jp/seido/)）
+    例えば，教育機関における授業目的で，PDF化された著作物を先生が学生に送信するといったことが該当します．この記事では，「公の伝達」といった言葉もほぼ同義で使用しています．公衆送信や公の伝達についてより詳しく知りたい方は，参考文献などをご確認ください．参考：SARTRAS「授業目的公衆送信補償金制度とは」（[https://sartras.or.jp/seido/](https://sartras.or.jp/seido/)）
 
 [^2]:
     著作権法35条2項を参照
@@ -167,8 +167,8 @@ author:
     47条の6第1項1号を参照
 
 [^8]:
-    【参考】文化庁著作権課「教育のDXを加速する著作権制度〜授業目的講習送信補償金制度について〜」p. 5，2021年1月29日（[https://sartras.or.jp/wp-content/uploads/bunkachoshiryo_20210129.pdf](https://sartras.or.jp/wp-content/uploads/bunkachoshiryo_20210129.pdf)）
+    【参考】文化庁著作権課「教育のDXを加速する著作権制度〜授業目的公衆送信補償金制度について〜」p. 5，2021年1月29日（[https://sartras.or.jp/wp-content/uploads/bunkachoshiryo_20210129.pdf](https://sartras.or.jp/wp-content/uploads/bunkachoshiryo_20210129.pdf)）
 
 [^9]:
 
-    本記事では，著作物の利用に際する補償金の支払いの方法の説明は行っていません．具体的に補償金の支払いが発生する場合については，「[授業でのどのような利用が，どんな条件で認められるの？](#conditions)」や，文化庁著作権課「教育のDXを加速する著作権制度〜授業目的講習送信補償金制度について〜」2021年1月29日（[https://sartras.or.jp/wp-content/uploads/bunkachoshiryo_20210129.pdf](https://sartras.or.jp/wp-content/uploads/bunkachoshiryo_20210129.pdf)）などを適宜参照し，計画している著作物の使用に補償金の支払いの義務が発生するかどうかを確認してください．
+    本記事では，著作物の利用に際する補償金の支払いの方法の説明は行っていません．具体的に補償金の支払いが発生する場合については，「[授業でのどのような利用が，どんな条件で認められるの？](#conditions)」や，文化庁著作権課「教育のDXを加速する著作権制度〜授業目的公衆送信補償金制度について〜」2021年1月29日（[https://sartras.or.jp/wp-content/uploads/bunkachoshiryo_20210129.pdf](https://sartras.or.jp/wp-content/uploads/bunkachoshiryo_20210129.pdf)）などを適宜参照し，計画している著作物の使用に補償金の支払いの義務が発生するかどうかを確認してください．
