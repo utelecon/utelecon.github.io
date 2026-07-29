@@ -6,6 +6,7 @@ breadcrumb:
 ---
 
 import ExcuseForAccuracy from '@components/ja/ExcuseForAccuracy.mdx'
+import RequireEnableStriming from '../../_require_enable_striming.md'
 
 <ExcuseForAccuracy />
 
@@ -46,14 +47,21 @@ ZoomからYouTubeへ配信するには，Zoomミーティングの開始前に�
 {:#direct}
 
 1. ミーティングかウェビナーを開始してください．
-2. ミーティングコントロールの「詳細」から「YouTubeにてライブ中」を選択してください．
-3. ECCSクラウドメール（`xxxx@g.ecc.u-tokyo.ac.jp`）アカウントでYouTubeにサインインしてください．
-4. 「Zoom ミーティングをYouTubeライブにブロードキャスト」のページで，以下の設定を行ってください．
+2. ミーティングコントロールの「詳細」から「ライブストリーム」を選択してください．
+3. 「YouTube でライブ」を選択してください．
+    ![](./start-live-streaming.png){:.small}
+4. ECCSクラウドメール（`xxxx@g.ecc.u-tokyo.ac.jp`）アカウントでYouTubeにサインインしてください．
+    - 「Google は、あなたに関する情報へのアクセスを Zoom に許可します」「Zoom が Google アカウントへのアクセスを求めています」といった画面が出てきた場合，権限を与えないとストリーミング配信ができないケースがあるので，注意してください．
+6. 「Zoom ミーティングをYouTubeライブにブロードキャスト」のページで，以下の設定を行ってください．
     - **YouTubeでのZoom ミーティングタイトル**：Zoomミーティング／ウェビナーのトピックが自動的に入力されています．必要に応じてテキストボックスから変更してください．
     - **プライバシー**：「プライベート」を選択してください．
 
     ![](./broadcast-settings.png){:.medium.border}
-5. 「ライブへ」ボタンを押してください．
+7. 「ライブへ」ボタンを押してください．
+    <details>
+    <summary>「The user is not enabled for live streaming...」というエラーが出た場合</summary>
+    YouTubeの[ライブ配信の有効化](../../#enable-live)が完了していない可能性があります．「[機能の利用資格](https://www.youtube.com/features)」の画面で，「ライブ配信」（「中級者向け機能」の一部です）が有効になっているか確認してください．
+    </details>
 
 ### 予定されたYouTubeのイベントに配信する
 {:#scheduled}
@@ -62,14 +70,15 @@ ZoomからYouTubeへ配信するには，Zoomミーティングの開始前に�
 
 1. YouTubeにサインインしてください．
 2. 右上の「作成」アイコンから「ライブ配信を開始」を選択してください．
+    <RequireEnableStriming />
 3. 「今すぐ」または「後で」を選択してください．
     ![](./schedule-now-later.png){:.medium.border}
 4. 「ストリーミングソフトウェア」を選択してください．
 5. 手順3で「後で」を選択した場合は，右上の「ライブ配信をスケジュール設定」を選択してください．（「今すぐ」を選択した場合はこの操作は必要ありません．）
-6. 新しいタブを開き，[Zoom Webポータル](https://u-tokyo-ac-jp.zoom.us/profile)を開いてください．
+6. 新しいタブで，[Zoom Webポータル](https://u-tokyo-ac-jp.zoom.us/profile)にサインインしてください．
 7. ミーティング／ウェビナーをスケジュールし保存してください．既にスケジュール済みの場合は，「ミーティング（／ウェビナー）」＞「次回のミーティング（／ウェビナー）」＞トピックを選択してください．
-8. 下部にある「ライブストリーム配信」から「カスタムストリーミングサービスを設定」を選択してください．
-    ![](./zoom-custom-streaming.png){:.medium.border}
+8. 「ライブストリーム配信」タブから「カスタムストリーミングサービスを設定」を選択してください．
+    ![](./zoom-custom-streaming.drawio.png){:.medium.border}
 9. YouTubeのライブ配信の設定画面で「ストリームURL」「ストリームキー」「ライブストリーム配信ページのURL」をコピーし，ミーティング／ウェビナーの「カスタムストリーミングサービスを設定」にペーストしてください．
     - ライブストリーム配信ページのURLは，YouTubeにて共有の矢印アイコンをクリックすることでリンクをコピーできます．
     - この手順を飛ばして次に進むこともできます．その場合は，代わりに手順11の後で同様の設定を行ってください．
