@@ -39,6 +39,7 @@ Markdownファイルのフロントマターにかける設定は以下の通り
   - `name`：著者名．任意．
 - `breadcrumb`：ページ上部のパンくずリストを定義する．詳しくは[後述](#パンくずリストの表示)．
 - `redirect_from`・`redirect_to`：リダイレクトの設定．詳しくは[後述](#redirect_from--redirect_to)．
+- `ogpImage`: ページに任意のOGP画像を設定する. 詳しくは[後述](#任意のOGP画像を設定する)
 
 ## Scripts
 
@@ -270,6 +271,25 @@ pattern: "^\/utol\/"
     parent: ../../
   ---
   ```
+
+### 任意のOGP画像を設定する
+
+`ogpImage`をMarkdownのfrontmatterに記述することで，SNS共有時などに表示されるOGP画像をページごとに個別設定できます．
+言語ごとに任意のOGP画像を設定可能となっており，設定がない場合はデフォルトのOGP画像が利用されます．
+
+指定する画像は`public/assets/images/`以下に配置し，`/assets/images/custom_ogp_ja.png`のように指定してください．
+
+### 記述例
+
+```md
+---
+title: "記事のタイトル"
+lang: "ja"
+ogpImage:
+  ja: "/assets/images/custom_ogp_ja.png"
+  en: "/assets/images/custom_ogp_en.png"
+---
+```
 
 ### ボタン・タブUIを利用したい場合
 
