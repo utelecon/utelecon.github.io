@@ -6,6 +6,8 @@ top: true
 toc: false
 ---
 
+import { Image } from "astro:assets";
+
 import "@styles/top.scss";
 import "@styles/rss_icon.scss";
 
@@ -14,6 +16,8 @@ import Notice from '@components/pages/Notice.astro';
 import Events from '@components/pages/Events.astro';
 import FontAwesomeIcon from "@components/embed/FontAwesomeIcon.astro";
 import MaterialIcon from "@components/embed/MaterialIcon.astro";
+
+import UtoneLogo from "./_icons/utone.svg";
 
 <Emergency />
 
@@ -38,6 +42,7 @@ import MaterialIcon from "@components/embed/MaterialIcon.astro";
   - [<MaterialIcon icon="person" />UTokyo Account](/utokyo_account/)
   - [![](_icons/utas.png)UTAS](/utas/)
   - [![](_icons/utol.png)UTOL (UTokyo LMS)](/utol/)
+  - [<Image src={UtoneLogo} alt=""/>UTONE (UTokyo One)](https://www.he.u-tokyo.ac.jp/activities/utone/utone2026/)
   - [<MaterialIcon icon="wifi" />UTokyo Wi-Fi](/utokyo_wifi/)
   - [![](_icons/zoom.png)Zoom](/zoom/)
   - [![](_icons/webex.png)Webex](/webex/)
@@ -47,7 +52,8 @@ import MaterialIcon from "@components/embed/MaterialIcon.astro";
   - [![](_icons/slido.png)Slido](/slido/)
   - [<MaterialIcon icon="bar_chart" />UTokyo MATLAB Campus-Wide License](/matlab/)
   - [<MaterialIcon icon="vpn_lock" />UTokyo VPN](/utokyo_vpn/)
-  - [<MaterialIcon icon="computer" />教育用計算機システム(ECCS)](/eccs/)
+  - [<MaterialIcon icon="computer" />教育用計算機システム](/eccs/)
+  - [![](_icons/research_computing.png)全学向け高速計算機・データ活用基盤](/research_computing/)
   - [一覧](/systems/){:.arrow-link}
   {:.cards}
 </div>
