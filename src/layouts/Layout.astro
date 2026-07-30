@@ -1,18 +1,17 @@
 ---
-import { SEO, type Props as SEOProps } from "astro-seo";
+import SEO, { type OgpImage } from "./SEO.astro";
 import GoogleAnalytics from "./GoogleAnalytics.astro";
 import MicrosoftClarity from "./MicrosoftClarity.astro";
 import Header from "./Header/index.astro";
 import Footer from "./Footer/index.astro";
 import Toc from "./Toc.astro";
 import "@styles/layout.scss";
-import type { MDXLayoutProps, MarkdownHeading } from "astro";
+import type { MDXLayoutProps } from "astro";
 import Author, { type Author as AuthorProps } from "./Author.astro";
 import Breadcrumb from "./Breadcrumb.astro";
 import type { Breadcrumb as BreadcrumbProps } from "./resolve-breadcrumb";
 import Markdown from "@components/utils/Markdown.astro";
 import type { Lang } from "@components/types";
-import { parse as parsePath } from "path";
 import "@fontsource/material-icons";
 import "@fontsource-variable/open-sans";
 import resolveBreadcrumb from "./resolve-breadcrumb";
@@ -33,36 +32,20 @@ export interface Frontmatter {
   redirect_to?: string;
   author?: AuthorProps;
   breadcrumb?: BreadcrumbProps;
+  ogpImage?: OgpImage;
 }
 
-function createDefaultDescription(
-  lang: Lang,
-  headings: MarkdownHeading[],
-): string {
-  return (
-    (
-      {
-        ja: "目次: ",
-        en: "Table of Contents: ",
-      }[lang] +
-      headings
-        .filter(({ depth }) => depth === 2)
-        .map(({ text }) => text)
-        .join("; ")
-    ).slice(0, 97) + "..."
-  );
-}
-
-const { frontmatter, headings, file } = Astro.props;
+const { frontmatter, headings } = Astro.props;
 const {
   title,
-  description = createDefaultDescription(frontmatter.lang, headings),
+  description,
   lang,
   h1,
   top,
   support,
   author,
   breadcrumb,
+  ogpImage,
 } = frontmatter;
 
 const displayToc = !top && (frontmatter.toc ?? true) && headings.length > 0;
@@ -77,52 +60,10 @@ const htmlAttributes = {
   },
 }[lang];
 
-const locale = {
-  en: "en_US",
-  ja: "ja_JP",
-}[lang];
-
 const gaid = "G-ZM6H96EWBD";
 const clarityProjectId = "vat2444uow";
 
 const canonicalUrl = Astro.url;
-
-const seoProps: SEOProps = {
-  title,
-  titleTemplate: "%s | utelecon",
-  titleDefault: "utelecon",
-  description,
-  charset: "UTF-8",
-  canonical: canonicalUrl.href,
-};
-
-const ogpImagePath = {
-  en: "/assets/images/ogp_en.png",
-  ja: "/assets/images/ogp.png",
-}[lang];
-
-if (title) {
-  seoProps.openGraph = {
-    basic: {
-      title,
-      type: "website",
-      url: canonicalUrl.href,
-      image: new URL(ogpImagePath, Astro.site).href,
-    },
-    optional: {
-      description,
-      locale,
-      siteName: "utelecon",
-    },
-    image: {
-      alt: "utelecon",
-    },
-  };
-  seoProps.twitter = {
-    title,
-    description,
-  };
-}
 
 const resolvedBreadcrumb =
   breadcrumb && (await resolveBreadcrumb(Astro.url, breadcrumb));
@@ -131,7 +72,13 @@ const resolvedBreadcrumb =
 <!doctype html>
 <html {...htmlAttributes}>
   <head>
-    <SEO {...seoProps} />
+    <SEO
+      title={title}
+      description={description}
+      lang={lang}
+      headings={headings}
+      ogpImage={ogpImage}
+    />
 
     <GoogleAnalytics id={gaid} />
     <MicrosoftClarity projectId={clarityProjectId} />
