@@ -1,5 +1,5 @@
 ---
-import SEO, { type OgpImage } from "./SEO.astro";
+import SEO from "./SEO.astro";
 import GoogleAnalytics from "./GoogleAnalytics.astro";
 import MicrosoftClarity from "./MicrosoftClarity.astro";
 import Header from "./Header/index.astro";
@@ -32,7 +32,7 @@ export interface Frontmatter {
   redirect_to?: string;
   author?: AuthorProps;
   breadcrumb?: BreadcrumbProps;
-  ogpImage?: OgpImage;
+  ogpImage?: string;
 }
 
 const { frontmatter, headings } = Astro.props;

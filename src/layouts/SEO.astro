@@ -8,12 +8,7 @@ interface Props {
   description?: string;
   lang: Lang;
   headings?: MarkdownHeading[];
-  ogpImage?: OgpImage;
-}
-
-export interface OgpImage {
-  ja?: string;
-  en?: string;
+  ogpImage?: string;
 }
 
 const { title, description, lang, headings = [], ogpImage } = Astro.props;
@@ -60,7 +55,7 @@ const defaultOgpImagePath = {
   ja: "/assets/images/ogp.png",
 }[lang];
 
-const ogpImagePath = ogpImage?.[lang] ?? defaultOgpImagePath;
+const ogpImagePath = ogpImage ?? defaultOgpImagePath;
 
 if (title) {
   seoProps.openGraph = {
