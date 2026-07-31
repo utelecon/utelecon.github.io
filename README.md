@@ -274,10 +274,9 @@ pattern: "^\/utol\/"
 
 ### 任意のOGP画像を設定する
 
-`ogpImage`をMarkdownのfrontmatterに記述することで，SNS共有時などに表示されるOGP画像をページごとに個別設定できます．
-言語ごとに任意のOGP画像を設定可能となっており，設定がない場合はデフォルトのOGP画像が利用されます．
+`ogpImage`をMarkdownのfrontmatterに記述することで，SNS共有時などに表示されるOGP画像をページごとに個別設定できます．設定がない場合はデフォルトのOGP画像が利用されます．
 
-指定する画像は`public/assets/images/`以下に配置し，`/assets/images/custom_ogp_ja.png`のように指定してください．
+指定する画像は`public/assets/images/`以下に配置し，`/assets/images/custom_ogp.png`のように指定してください．
 
 ### 記述例
 
@@ -285,9 +284,7 @@ pattern: "^\/utol\/"
 ---
 title: "記事のタイトル"
 lang: "ja"
-ogpImage:
-  ja: "/assets/images/custom_ogp_ja.png"
-  en: "/assets/images/custom_ogp_en.png"
+ogpImage: "/assets/images/custom_ogp.png"
 ---
 ```
 
