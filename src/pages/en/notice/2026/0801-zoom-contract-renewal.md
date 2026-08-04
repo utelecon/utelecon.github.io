@@ -40,7 +40,8 @@ Please note that **applications for these additional licenses will be accepted u
 
 <details>
 <summary>If you wish to hold a webinar with more than 500 participants</summary>
-If you wish to hold a webinar with more than 500 participants, additional licenses cannot be provided, so please consider an alternative method. For example, you can stream the webinar simultaneously on YouTube Live (detailed instructions will be provided separately). At present, Webex Webinars is also an option.
+
+If you wish to hold a webinar with more than 500 participants, additional licenses cannot be provided, so please consider an alternative method. For example, you can [stream the webinar simultaneously on YouTube Live](/google/youtube/live/streaming/zoom/). At present, Webex Webinars is also an option.
 </details>
 
 <details>
