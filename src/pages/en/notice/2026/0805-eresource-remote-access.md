@@ -20,4 +20,4 @@ The descriptions of EZproxy on utelecon pages will be updated after the change.
 
 ## Contact
 
-For questions about how to use electronic resources, please contact the University of Tokyo Library System through the [Ask Service](https://opac.dl.itc.u-tokyo.ac.jp/opac/ask/?lang=1). For questions about your UTokyo Account, please contact the **[Technical Support Desk](/en/support/)**.
+For questions about how to use electronic resources, please contact the University of Tokyo Library System through the [ASK Service](https://opac.dl.itc.u-tokyo.ac.jp/opac/ask/?lang=1). For questions about your UTokyo Account, please contact the **[Technical Support Desk](/en/support/)**.
