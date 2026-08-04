@@ -20,4 +20,4 @@ uteleconでEZproxyを紹介している各ページの記述は，変更後に�
 
 ## 問い合わせ先
 
-電子リソースの利用方法に関することは，附属図書館の[Askサービス](https://opac.dl.itc.u-tokyo.ac.jp/opac/ask/?lang=0)へお問い合わせください．UTokyo Accountに関することは，**[サポート窓口](/support/)**で受け付けています．
+電子リソースの利用方法に関することは，附属図書館の[ASKサービス](https://opac.dl.itc.u-tokyo.ac.jp/opac/ask/?lang=0)へお問い合わせください．UTokyo Accountに関することは，**[サポート窓口](/support/)**で受け付けています．
