@@ -21,10 +21,10 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
-  date: 2026-07-31
+  date: 2026-08-05
   content:
-    ja: "[電子リソースの学外からの利用方法の変更について（**8/10より**）](/notice/2026/0731-eresource-remote-access/)"
-    en: "[Change to the Off-Campus Access Method for Electronic Resources (**effective August 10**)](/en/notice/2026/0731-eresource-remote-access/)"
+    ja: "[電子リソースの学外からの利用方法の変更について（**8/10より**）](/notice/2026/0805-eresource-remote-access/)"
+    en: "[Change to the Off-Campus Access Method for Electronic Resources (**effective August 10**)](/en/notice/2026/0805-eresource-remote-access/)"
   important: true
 -
   date: 2026-07-24
