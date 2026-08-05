@@ -4,10 +4,6 @@ breadcrumb:
   title: UTokyo VPN
 ---
 
-import EResourceAccessNotice from "@components/en/EResourceAccessNotice.mdx";
-
-<EResourceAccessNotice />
-
 ## Introduction
 {:#introduction}
 
@@ -69,11 +65,11 @@ When you are connected to UTokyo VPN, the communication to the local network to 
 
 <div class="gallery">
   <figure class="center">
-    ![](img/win08-anyconnect-win-pref.png)
+    <img src="img/win08-anyconnect-win-pref.png" class="border">
     <figcaption>In case of Windows</figcaption>
   </figure>
   <figure class="center">
-    ![](img/mac09-anyconnect-mac-pref.png)
+    <img src="img/mac09-anyconnect-mac-pref.png" class="border">
     <figcaption>In case of macOS</figcaption>
   </figure>
 </div>

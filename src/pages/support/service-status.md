@@ -14,7 +14,7 @@ toc: false
 - **Slido**：[Slido Status](https://status.slido.com/)
 - **UTokyo Slack**：[Slack Status](https://slack-status.com/)
 - **UTokyo MATLAB Campus-Wide License**：[Application Status](https://status.mathworks.com/)
-- **EZproxy・OPAC**：[データベース・電子ジャーナル・OPAC等の障害情報](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/servicestatus)
+- **Ezproxy・OPAC**：[データベース・電子ジャーナル・OPAC等の障害情報](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/user-guide/servicestatus)
 - **UTokyo Azure**：[Azure status](https://azure.status.microsoft/ja-jp/status)
 - **LinkedIn Learning**：[LinkedIn's Status Page](https://www.linkedin-status.com/)
 
