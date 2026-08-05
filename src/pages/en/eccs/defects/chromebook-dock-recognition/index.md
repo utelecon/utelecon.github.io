@@ -17,7 +17,7 @@ As a result, the external display at the desk will remain blank. In addition, ac
 ## How to Fix
 
 1. Disconnect the USB Type-C cable extending from the dock (highlighted with a blue frame in the image) from the Chromebook. (Please be careful not to disconnect the cable that is fixed to the device by mistake.)
-    ![Disconnect the cable that extends from the dock.](./img/cable.drawio.png){:.small}
+    ![Disconnect the cable that extends from the dock](./img/cable.drawio.png){:.small}
 1. Perform a forced shutdown by pressing and holding the power button located on the left side of the device.
     ![](./img/power-button.drawio.png)
 1. **While holding down the Refresh key (🔄) on the top row of the keyboard,** press the power button to start up. You may release them once the Chromebook logo (the "Chromebook Plus" text) appears on the screen.
