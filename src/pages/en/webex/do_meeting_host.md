@@ -48,7 +48,7 @@ title: Webex meeting room 101 (for instructors)
 ### Return as the "Host"
 
 * If the host disconnects from the meeting due to network trouble, etc., the role of the "Host" will be assigned to another participant.
-* In that case, after re joining as a participant, press "Regain the role of the host" from the "Participant" menu and enter the "Host Key" that was displayed when the meeting was created. Then, you can reassume the role as the "Host."
+* In that case, after rejoining as a participant, press "Regain the role of the host" from the "Participant" menu and enter the "Host Key" that was displayed when the meeting was created. Then, you can reassume the role as the "Host."
 
 	![](img/webex_participants_regain_host.png){:.small}
 

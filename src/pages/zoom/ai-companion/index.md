@@ -27,7 +27,7 @@ AI Companionを含む生成AIを活用した機能を利用する際は，以下
 
 まず，生成AIの利用についての一般的な注意事項については，以下を参照してください．
 
-- [東京大学における生成AI利用に係るセキュリティガイドライン（2024年3月12日）</small>](https://univtokyo.sharepoint.com/sites/Security/SitePages/ai_use_security_guideline.aspx)<small>※閲覧にはUTokyo Accountでのサインインが必要です</small>
+- [東京大学における生成AI利用に係るセキュリティガイドライン（2024年3月12日）](https://univtokyo.sharepoint.com/sites/Security/SitePages/ai_use_security_guideline.aspx)<small>※閲覧にはUTokyo Accountでのサインインが必要です</small>
 - **[生成系AI(ChatGPT, BingAI, Bard, Midjourney, Stable Diffusion等)について（2023年4月3日）](/docs/20230403-generative-ai/)**
 - [東京大学の学生の皆さんへ：AIツールの授業における利用について（2023年5月26日付／2023年5月29日掲載）](/docs/ai-tools-in-classes-students/)
 - [AIツールの授業における利用について（2023年4月28日付／2023年5月16日掲載）](/docs/ai-tools-in-classes/)

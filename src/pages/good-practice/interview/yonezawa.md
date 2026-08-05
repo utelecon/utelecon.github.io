@@ -38,7 +38,7 @@ componentProps:
 ## 教員の基本情報
 
 <div style="display: flex;">
-<img src="img/yonezawa_1.png" alt="栗田佳代子 先生" height="150">
+<img src="img/yonezawa_1.png" alt="米澤智洋 先生" height="150">
 <div style="padding-left:50px; height:150px; position:relative;">
 <p style="position: absolute; top: 50%; -webkit-transform : translateY(-50%); transform : translateY(-50%); width: 500px;">
 米澤 智洋 先生<br>

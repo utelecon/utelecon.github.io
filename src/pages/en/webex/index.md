@@ -12,7 +12,7 @@ When using a University of Tokyo account, please also refer to "[Precautions for
 
 ## On Webex Services
 
-In addition to Webex Meetings, which is most commonly used, Webex offers four other services: Webex Webinars, Webex Training, and Webex Support. Each service has its advantages and disadvantages.
+In addition to Webex Meetings, which is most commonly used, Webex offers three other services: Webex Webinars, Webex Training, and Webex Support. Each service has its advantages and disadvantages.
 
 - Webex Meetings
   - The maximum number of participants is 1000 (including up to 200 participants joining via video conferencing systems).

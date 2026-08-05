@@ -53,7 +53,7 @@ Please refer to the official Google Help for [How to use Google Sites](https://s
             - If you select “Restricted”, only users with access permission will be able to view the site. Access permission can be granted by the site’s “Owner” to individual users or Google Groups. (For more details on Google Groups, please refer to the Google Groups page.)
             - If you select “The University of Tokyo ECCS Cloud Email”, only ECCS Cloud Email users will be able to view the site. Select this option if you want to limit the publication range to university members.
             - If you select “Public”, anyone on the Internet will be able to view the site. Be cautious about including content that should not be publicly exposed.
-            - Note: It is not possible to set different publication range for different pages within the same site. If you wish to publish pages with different publication ranges, you must create a separate site.
+            - Note: It is not possible to set a different publication range for different pages within the same site. If you wish to publish pages with different publication ranges, you must create a separate site.
         3. Click “Done”.
             ![](set_visibility.png){:.small}
 3. Enter a web address of your choice in the address field, then click “Publish”.

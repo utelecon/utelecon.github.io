@@ -21,6 +21,49 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-07-31
+  content:
+    ja: "[東京大学OPACシステム更新に伴うMyOPAC・ASKサービス停止について](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20260708) （**影響日：8月3日〜8月10日**）"
+    en: "[Temporary Suspension of MyOPAC and ASK Services](https://www.lib.u-tokyo.ac.jp/en/library/literacy/news/20260708) (**Affected Dates: August 3–August 10**)"
+-
+  date: 2026-07-24
+  content:
+    ja: "[2026年度Aセメスター「utelecon相談員」募集のお知らせ](/notice/2026/0724-uss/) （8月17日13時締切）"
+    en: "[Job Opportunities: AY2026 A Semester utelecon Support Staff](/notice/2026/0724-uss/) （Closes on August 17 at 13:00）(in Japanese)"
+-
+ date: 2026-07-21
+ content:
+  ja: "9/11 13:00から「[第二回「生成AIと教育について考える」ワークショップ](/events/2026-09-11-genai-sympo-ws-ii/)」を開催いたします．"
+  en: "On September 11, an information session titled **\"[Second Workshop: Reflecting on Generative AI and Education](/en/events/2026-09-11-genai-sympo-ws-ii/)\"** will be held at 13:00."
+ important: true
+-
+  date: 2026-07-17
+  content:
+    ja: "[Zoomのライセンス切り替えに伴うメンテナンスについて（**7/25に実施**）](/notice/2026/0725-zoom/)"
+    en: "[Zoom Maintenance Due to a License Switchover (**scheduled for July 25**)](/en/notice/2026/0725-zoom/)"
+-
+  date: 2026-07-15
+  content:
+    ja: "[大規模GPUシステム「SYNKA」が利用できるようになりました](/notice/2026/0715-synka/)"
+  important: true
+-
+  date: 2026-07-01
+  content:
+    ja: "[オンライン学習プラットフォーム「**LinkedIn Learning**」の提供を開始します](/notice/2026/0701-linkedinlearning-goeslive/)"
+    en: "[The online learning platform “**LinkedIn Learning**” is now available.](/en/notice/2026/0701-linkedinlearning-goeslive/)"
+  important: true
+-
+  date: 2026-06-29
+  content:
+    ja: "[東京大学におけるZoomの提供内容の変更について](/notice/2026/0801-zoom-contract-renewal/)"
+    en: "[Changes to the Zoom Service Provided by the UTokyo](/en/notice/2026/0801-zoom-contract-renewal/)"
+  important: true
+-
+  date: 2026-06-25
+  content:
+    ja: "[UTokyo Account 多要素認証が全サービスで必要となります](/notice/2026/0623-mfa/)"
+    en: "[UTokyo Account Multi-Factor Authentication is now required for all services](/en/notice/2026/0623-mfa/)"
+-
   date: 2026-06-12
   content:
     ja: "[オンライン学習プラットフォーム「LinkedIn Learning」の導入に向けた説明会（教員向け）を実施します（6月26日13時）](/notice/2026/0626-lil/)"

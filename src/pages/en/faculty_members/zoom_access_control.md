@@ -48,7 +48,7 @@ You can restrict access to a Zoom meeting room by editing the following fields (
 * Method B: Place participants entering without a university account in the Waiting Room
     * (1) Waiting Room: On
     * (2) Require authentication to join: Off
-    * (3) Who should go in the waiting room?: Select “Users who are not in your account and not part of your whitelisted domains” and input ‘*.u-tokyo.ac.jp’ in the field appears.
+    * (3) Who should go in the waiting room?: Select “Users who are not in your account and not part of your whitelisted domains” and input ‘*.u-tokyo.ac.jp’ in the field that appears.
 
 * Method C (**Not recommended**): Place all participants first in the Waiting Room
     * (1) Waiting Room: On
