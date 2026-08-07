@@ -89,6 +89,8 @@ An email account with the domain `@mail.u-tokyo.ac.jp` is provided as a "staff e
 ### Other systems provided by Microsoft
 {:#misc}
 
+Microsoft 365 offers a wide range of services. However, due to concerns regarding personal data protection and administration, Outlook (email service), Teams, and Power Platform (such as Power Automate and Power Apps) are not available to students. Thank you for your understanding.
+
 #### Microsoft Forms
 {:#forms}
 
