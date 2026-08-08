@@ -254,16 +254,13 @@ Here, we will explain how to retrieve a list of answers.
 
     ※The "Usage Reports" tab is usually selected by default.
    ![](ViewReportStatus.png){:.medium}
-1. Click on "Meeting".
+1. Click on "Meeting and webinar registrations".
    ![](ViewReportMeeting.png){:.medium}
 1. A list of meetings will be displayed. Find the meeting for which you want to view the summary, and click on the "Generate" button on the right.
    ![](ViewReportSelect.png){:.medium}
-1. On the following screen, select the prospective participants for whom you want to generate the summary. Select from "All Registrants", "Approved Registrants", or "Denied Registrants", and click on the "Continue" button.
+1. You will see options for "All Registrants", "Approved Registrants", and "Denied Registrants". Please select the option that best suits the participants for whom you wish to generate the summary.
    ![](ViewReportWho.png){:.medium}
-1. You will be automatically sent to the "Report Queue" screen.
-1. Find the meeting for which you want to view the summary, and click on the "Download" button on the right.
-   ![](ViewReportDownload.png){:.medium}
-1. The summary results will be generated.
+1. Once you select that, the summary will be automatically generated adn downloaded.
 
 ### Require Advance Registration for Recurring Meetings from Prospective Participants
 
