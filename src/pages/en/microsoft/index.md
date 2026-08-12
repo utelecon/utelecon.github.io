@@ -35,7 +35,8 @@ Microsoft provides systems other than those listed below, and it is possible to 
 ### Microsoft Office applications
 {:#office_apps}
 
-**Available only to students and faculty employed by the University of Tokyo**
+**Available only to students and faculty employed by the University of Tokyo.
+To install this, you must have multi-factor authentication set up for your UTokyo Account.**
 
 Office applications that are installed on your device, such as Word, Excel, and PowerPoint. You can use only the latest version of each application. For instructions on how to get started, please refer to the following.
 
