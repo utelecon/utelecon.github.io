@@ -113,12 +113,9 @@ For detailed instructions and how to distinguish between other Microsoft account
 
 The following introduces licenses related to Microsoft systems available within the University of Tokyo, other than UTokyo Microsoft License.
 
-### UTokyo Microsoft Windows 10 for students
-{:#windows}
-
-**Available only to students**
-
-This is a license to upgrade Windows to the Education edition. For instructions on how to use it, please refer to **[Windows Education for students](./windows_education_for_students/)**.
+Please note that the following items were previously available but are no longer offered and cannot be used.
+- [UTokyo Microsoft Windows 10 for students](./windows_education_for_students/)(a license allowing students only to upgrade to the Education edition of Windows)
+- [UTokyo Microsoft Azure Dev Tools for Teaching](./adt4t/)(a Microsoft software license for developers at educational institutions)
 
 ### Microsoft License for shared PCs, etc.
 {:#shared_pc}
@@ -128,4 +125,6 @@ This is a license for Office and Windows that is operated to cover usage that ca
 ### UTokyo Microsoft Azure Dev Tools for Teaching
 {:#adt4t}
 
-It is a Microsoft developer software license for educational institutions. For instructions on how to use it, please check the **[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t/)** page.
+It is a Microsoft developer software license for educational institutions. For more details, please refer to Microsoft's [Azure for Students information page](https://azure.microsoft.com/en-us).
+
+When you click the “Get Started with Azure” button on this page, a screen will appear prompting you to sign in with your Microsoft account (unless you are already signed in with your UTokyo Account). If you enter your UTokyo Account credentials here to sign in, you will be able to use Azure for Students as a University of Tokyo student.
