@@ -1,39 +1,39 @@
 ---
-title: ECCSクラウドメールのGmailでg.ecc.u-tokyo.ac.jp以外のドメインのメールアドレスを利用する方法と注意点
+title: How to Use Your Email Address Whose Domain is NOT g.ecc.u-tokyo.ac.jp in ECCS Cloud Email
 breadcrumb:
-    title: 他のドメインのメールアドレス
+    title: Your Email Address Whose Domain is NOT g.ecc.u-tokyo.ac.jp
 ---
 
-## はじめに
+## Introduction
 
-ECCSクラウドメールのGmailでは，アカウント所持者が設定を行うことで，ECCSクラウドメールのアドレス (`xxx@g.ecc.u-tokyo.ac.jp`) 以外のメールアドレスを送信アドレスとしたメールをGmail経由で送ることができます．
+In ECCS Cloud Email, you can send emails from your email address whose domain is NOT g.ecc.u-tokyo.ac.jp via Gmail after the required setup. 
 
-設定と利用にあたっては，パスワードの入力を求められる場合とそうでない場合があります．パスワードを入力する場合は下記の点に十分にご留意をいただきご利用ください．
+To fulfill the setup and use the service, you need to enter your password in some cases. Check the points below before entering your password. 
 
-- この設定ではメールアカウントの情報をGoogle社のサービスに入力・保存することとなる点にご注意ください．
-- UTokyo AccountやECCSクラウドメールのアカウントが悪意のある第三者に漏れた場合は，ECCSクラウドメールのアドレスのみならず，設定されている他のアドレスが悪意のある第三者に利用され，標的型攻撃の送信やその他のサイバー攻撃に利用される可能性があります．
+- The information of your email account is entered and stored in the format of Google. 
+- If your UTokyo Account or your ECCS Cloud Email account are compromised, your ECCS Cloud Email address and another email address you add can be both used for a targeted attack and other kinds of cyber attacks. 
 
-なお，メールサービスによっては，本ページで案内する方法での送信に対応していない場合がありますのでご注意ください．
+In addition, notice that some email services cannot be used in the way explained on this page.
 
-## 設定
+## How to Set up
 
-設定の手順は以下の通りです．
+Follow the procedures below to fulfill the required setup. 
 
-1. ECCSクラウドメールのGmailにアクセスし，画面右上の歯車のアイコンを押してください．
+1. Access your ECCS Cloud Email and push the gear icon at the upper right on the screen. 
 
-1. 「クイック設定」画面が開くので，「すべての設定を表示」を押してください．
+1. The screen of "Quick Settings" is shown and select "See all settings."
 
-1. 「設定」画面が開くので，「アカウント」を押してください．
+1. The screen of "Settings" is shown and select "Accounts."
 
-1. 「他のメールアドレスを追加」を押し，表示されたフォームに従って必要な情報を入力してください．
-    - 初期状態では「エイリアスとして扱います。」にチェックが入っており，登録するメールアドレスがECCSクラウドメールのメールアドレスと同等として扱われます（例えば，登録するメールアドレスに送られたメールが，ECCSクラウドメールのGmailの受信トレイにも表示されます）．ただし，他のアカウントの代理でメールを送信する場合など，「エイリアスとして扱います。」のチェックを外すことが推奨される場合があります．設定の詳細については，Googleのヘルプ「[Gmail の「エイリアスとして扱います」の使用方法](https://support.google.com/a/answer/1710338)」を参照してください．
+1. Select "Add another email address" and enter the required information in the displayed form. 
+    - In the initial condition, "Treat as an alias" is checked off and your added email address is treated equally as your ECCS Cloud Email address (for example, an email sent to your added email address is displayed in the Gmail inbox of your ECCS Cloud Email). However, it is recommended to uncheck "Treat as an alias" in some cases such as when you send an email as proxy for another account of your own. For more details of settings, please refer to Google's official Help Page [Should I uncheck "Treat as an alias" in Gmail?](https://knowledge.workspace.google.com/admin/users/should-i-uncheck-treat-as-an-alias-in-gmail?visit_id=639220986364895751-2561577113&rd=1).
 
 <figure class="center">
     <img src="alias-01.png">
-    <figcaption>設定画面</figcaption>
+    <figcaption>The Screen of Settings</figcaption>
 </figure>
 
 <figure class="center">
     <img src="alias-02.png">
-    <figcaption>メールアドレス追加画面</figcaption>
+    <figcaption>The Screen to add your email address</figcaption>
 </figure>
