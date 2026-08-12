@@ -2,42 +2,50 @@
 title: Application for the “Slack for Education” program at the University of Tokyo
 ---
 
-*This page is a guide to the procedures for making individually paid subscriptions to Slack. 
+*This page is a guide to the procedures for making individually paid subscriptions to Slack.
 Please see the [UTokyo Slack page](../) for information on the university-wide subscription of the University of Tokyo.
-
-<div class="box--important">
-
-Starting March 23, 2026, we will be making some changes to our application process. We apologize that the English translation is not yet available; please refer to [this page](/en/slack/discount/) for details.
-</div>
 
 ## Overview
 
 [Slack](https://slack.com/) offers an 85% discount on paid plans (Pro or “Business+” plans) under the ["Slack for Education" program](https://slack.com/help/articles/206646877).
 
-Normally, applicants for this program are required to submit documents to prove that they are from an educational institution for each application, but the University of Tokyo, in consultation with Slack, has established a procedure that does not require such proof each time.
+Normally, applicants for this program are required to submit documents to prove that they are from an educational institution for each application, but the University of Tokyo, in consultation with Slack, has established **a procedure that does not require such proof each time**.
 
-In this specific procedure, your applications are received internally by the University of Tokyo which is then submitted to Slack. Please note that this procedure is different from the normal application procedure.
+Although the procedures have been simplified, certain requirements still apply. Please make sure you understand them before submitting your application.
 
 ## Procedures
 
-### Application and confirmation of review results
+Please note that this procedure is different from the normal application procedure.
 
-1. Please fill out and submit the application form below. <b class="box center">Application Form for "Slack for Education" program at the University of Tokyo (in Japanese)</b> *Please note that only faculty and staff members are eligible to apply using this procedure.
-1. Please wait while the application information is passed on to Slack for review.
-1. We will contact you by email as soon as we receive the result of the review. If approved, please proceed to the next step, "Upgrade to paid plan".
+### Requirements
 
-### Upgrade to paid plan
+- Regarding the number of licenses
+  - Applications are accepted for 20 or more licenses (the number of users who join the workspace and use Slack).
+  - Additional licenses can be added at any time, by contacting Salesforce, not just during the contract renewal period.
+  - The number of licenses may only be reduced upon contract renewal.
+- Regarding the contract period
+  - Payment is made annually for the contract period specified separately. Monthly payments and prorated charges during the academic year are not available.
+  - For the applicable period, please refer to the document "Special Program for AXIES Regular Members by Salesforce Japan Co., Ltd." posted on the [Academic eXchange for Information Environment and Strategy's website](https://axies.jp/admission/benefits/).
+- Regarding contract renewal
+  - Contracts to which the "Slack for Education" program has been applied through this procedure are automatically renewed annually under the same terms.
+  - Upon renewal, only an invoice will be issued. No quotation, purchase order, or delivery note will be provided.
+  - If you do not wish to renew under the same terms, please contact Salesforce to request a change, cancellation or reduction at least one month before the contract expiration date.
+- Regarding the payment method
+  - Only payment by invoice (bank transfer) is available. Credit card payment is not available. The invoice date will be the day before the start of the contract period.
+- Others
+  - If you already have a paid plan and are newly applying for the "Slack for Education" program, you cannot apply through this procedure. Please prepare the required documentation yourself and apply for the "Slack for Education" Program through the standard process.
+  - If there are special circumstances that prevent you from meeting some of the requirements, please contact Salesforce directly by email through its dedicated contact point.
 
-*If you perform the following operations before your application for the "Slack for Education" program has been approved, your fee will not be discounted. Please make sure that you proceed with the following steps **only after you receive the notification of approval**.
+### How to Apply
 
-1. Press "Workspace settings" in the "Settings & administration" menu in the upper left corner of the workspace screen.
-1. Press "Billing" in the menu on the left.
-1. Follow the instructions on the screen to upgrade to a paid plan. If your "Slack for Education" program has been approved, you will be charged the discounted rate.
+Please apply directly by email to Salesforce using the instructions below. **Do not use** the University of Tokyo's application form (previously used through March 23, 2026) or Slack's web application form. The University of Tokyo will not handle applications, but you do not need to prepare or submit a proof of eligibility.
 
-## If you are already on a paid plan
+<b class="box center"><a href="https://docs.google.com/document/d/13jjAwdGASStwc48dmIXjgzlkJJWKO3KLRz5ZD2dsLTA/edit?usp=sharing/">Instructions for Creating the Application Email</a></b> (Please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
 
-You may apply for the "Slack for Education" program even if you are already subscribed to a paid plan. In this case, the discount will be applied from the first payment after approval.
+In addition, please notify the University of Tokyo using the form below.
+<b class="box center"><a href="https://forms.gle/fkGypcu127Svvu588/">Notification Form</a></b> (Please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
 
-If you pay annually, it may take some time for the discount to be applied, as it will depend on when the payment is made. If you wish to change when the discount is applied to an earlier date, please contact `feedback@slack.com`.
+### Procedure After Approval for the "Slack for Education" program
 
-If you pay by invoice, please contact `feedback@slack.com` to confirm when the discount will be applied, as it depends on your payment status.
+1. **Quotation and order**: A quotation and order form will be issued as a PDF and sent to the billing email address. Please sign and stamp the quotation and order form and return it in PDF format. DocuSign can also be used to complete this procedure.
+1. **Billing, payment, and service activation**: An invoice will be issued as a PDF and sent to the billing email address. The invoice date is the day before the contract start date. Please pay the full annual fee in a lump-sum by the end of the month following the invoice date. The workspace will be upgraded to a paid plan on the contract start date. No delivery note or receipt will be issued.
