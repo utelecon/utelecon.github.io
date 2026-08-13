@@ -13,7 +13,7 @@ Below are the main service status pages.
 - **UTokyo Microsoft License**: [Service health](https://portal.office.com/servicestatus)
 - **Slido**: [Slido Status](https://status.slido.com/)
 - **UTokyo Slack**: [Slack Status](https://slack-status.com/)
-- **EZproxy・OPAC**: [Failure information on databases, e-journals, OPAC, etc.](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/servicestatus)
+- **OpenAthens・OPAC**: [Failure information on databases, e-journals, OPAC, etc.](https://www.lib.u-tokyo.ac.jp/en/library/literacy/user-guide/servicestatus)
 - **UTokyo Azure**: [Azure Status](https://azure.status.microsoft/status)
 - **LinkedIn Learning**：[LinkedIn's Status Page](https://www.linkedin-status.com/)
 
