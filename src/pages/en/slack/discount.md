@@ -40,7 +40,7 @@ Please note that this procedure is different from the normal application procedu
 
 Please apply directly by email to Salesforce using the instructions below. **Do not use** the University of Tokyo's application form (previously used through March 23, 2026) or Slack's web application form. The University of Tokyo will not handle applications, but you do not need to prepare or submit a proof of eligibility.
 
-<b class="box center"><a href="https://docs.google.com/document/d/13jjAwdGASStwc48dmIXjgzlkJJWKO3KLRz5ZD2dsLTA/edit?usp=sharing/">Instructions for Creating the Application Email</a></b> (Please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
+<b class="box center"><a href="https://docs.google.com/document/d/13jjAwdGASStwc48dmIXjgzlkJJWKO3KLRz5ZD2dsLTA/edit?usp=sharing/">Instructions for Creating the Application Email</a></b> (in Japanese; please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
 
 In addition, please notify the University of Tokyo using the form below.
 <b class="box center"><a href="https://forms.gle/fkGypcu127Svvu588/">Notification Form</a></b> (Please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
