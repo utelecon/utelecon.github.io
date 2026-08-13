@@ -95,7 +95,7 @@ Microsoft 365 offers a wide range of services. However, due to concerns regardin
 #### Microsoft Forms
 {:#forms}
 
-Microsoft Forms is a system that allows you to create online forms. You can also create forms that are only available to people with a UTokyo Account. For instructions on how to use it, please see **[Microsoft Forms Quick Start](https://support.microsoft.com/ja-jp/office/620daa7a-3e03-4013-8f92-5cce86210ef6)**.
+Microsoft Forms is a system that allows you to create online forms. You can also create forms that are only available to people with a UTokyo Account. For instructions on how to use it, please see **[Microsoft Forms Quick Start](https://support.microsoft.com/en-US/Forms/sign-in-to-microsoft-forms)**.
 
 ## Sign in to Microsoft systems with UTokyo Account
 {:#signin}
@@ -113,8 +113,8 @@ For detailed instructions and how to distinguish between other Microsoft account
 
 The following introduces licenses related to Microsoft systems available within the University of Tokyo, other than UTokyo Microsoft License.
 
-Please note that the following items were previously available but are no longer offered and cannot be used.
-- [UTokyo Microsoft Windows 10 for students](./windows_education_for_students/)(a license allowing students only to upgrade to the Education edition of Windows)
+Please note that the following items were previously available but **are no longer offered and cannot be used**.
+- [UTokyo Microsoft Windows 10 for students](./windows_education_for_students/)(a license allowing only students to upgrade to the Education edition of Windows)
 - [UTokyo Microsoft Azure Dev Tools for Teaching](./adt4t/)(a Microsoft software license for developers at educational institutions)
 
 ### Microsoft License for shared PCs, etc.
@@ -122,9 +122,9 @@ Please note that the following items were previously available but are no longer
 
 This is a license for Office and Windows that is operated to cover usage that cannot be covered by the normal provision of Office under UTokyo Microsoft License, such as when you want to use Office apps on a PC that is shared by multiple people rather than being used exclusively by a specific individual. It is mainly intended for use on shared PCs set up in departments, majors, laboratories, etc. For instructions on how to use it, please refer to the **[Microsoft License for shared PCs, etc.](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Microsoft-license-for-shared-PC.aspx)** page (sign-in with UTokyo Account is required to view).
 
-### UTokyo Microsoft Azure Dev Tools for Teaching
+### Azure for Students
 {:#adt4t}
 
-It is a Microsoft developer software license for educational institutions. For more details, please refer to Microsoft's [Azure for Students information page](https://azure.microsoft.com/en-us).
+It is a Microsoft developer software license for educational institutions. For more details, please refer to Microsoft's [Azure for Students information page](https://azure.microsoft.com/en-us/free/students).
 
-When you click the “Get Started with Azure” button on this page, a screen will appear prompting you to sign in with your Microsoft account (unless you are already signed in with your UTokyo Account). If you enter your UTokyo Account credentials here to sign in, you will be able to use Azure for Students as a University of Tokyo student.
+When you click the “Start free” button on this page, a screen will appear prompting you to sign in with your Microsoft account (unless you have already signed in with your UTokyo Account). If you sign in with your UTokyo Account, you will be able to use Azure for Students as a student at the University of Tokyo.
