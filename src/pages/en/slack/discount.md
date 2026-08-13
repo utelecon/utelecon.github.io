@@ -27,7 +27,7 @@ Please note that this procedure is different from the normal application procedu
   - The number of licenses may only be reduced upon contract renewal.
 - Regarding the contract period
   - Payment is made annually for the contract period specified separately. Monthly payments and prorated charges during the academic year are not available.
-  - For the applicable period, please refer to the document "Special Program for AXIES Regular Members by Salesforce Japan Co., Ltd." posted on the [Academic eXchange for Information Environment and Strategy's website](https://axies.jp/admission/benefits/).
+  - For the applicable period, please refer to the document "Special Program for AXIES Regular Members by Salesforce Japan Co., Ltd." posted on the [Academic eXchange for Information Environment and Strategy's website](https://axies.jp/admission/benefits/)(in Japanese).
 - Regarding contract renewal
   - Contracts to which the "Slack for Education" program has been applied through this procedure are automatically renewed annually under the same terms.
   - Upon renewal, only an invoice will be issued. No quotation, purchase order, or delivery note will be provided.
