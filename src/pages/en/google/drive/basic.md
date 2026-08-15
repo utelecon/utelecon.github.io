@@ -28,8 +28,8 @@ Created files can be edited using the corresponding Google services. For more de
 ### Procedure
 
 1. In Google Drive, please navigate to the folder where you would like to create the file.
-1. Please click the “New” button at the top left of the screen.![](top-new.png){:.medium.center}
-1. A list of file types is displayed. Please select the type of file you wish to create.![](new-item.png){:.medium.center}
+1. Please click the “New” button at the top left of the screen.![](basic01.png){:.medium.center}
+1. A list of file types is displayed. Please select the type of file you wish to create.![](basic02.png){:.medium.center}
 1. The file will be created and opened in the Google service corresponding to the file type.
     - You can directly edit the file displayed on the screen of the Google service.
 
@@ -53,8 +53,8 @@ Any type of file, including images, videos, audio, etc., can be uploaded to Goog
 ### Procedure
 
 1. In Google Drive, please navigate to the folder where you would like to upload your files.
-1. Please click the “New” button at the top left of the screen.![](top-new.png){:.medium.center}
-1. If you wish to upload a single file, please choose “File upload”. If you wish to upload all the files in a specific folder, please choose “Folder upload”.![](new-upload.png){:.medium.center}
+1. Please click the “New” button at the top left of the screen.![](basic01.png){:.medium.center}
+1. If you wish to upload a single file, please choose “File upload”. If you wish to upload all the files in a specific folder, please choose “Folder upload”.![](basic03.png){:.medium.center}
 1. After a screen for selecting files/folders opens, please select the file or the folder you wish to upload.
 1. The file or folder will be uploaded.
 
@@ -67,7 +67,7 @@ Files of Google services such as Google Docs can be downloaded after converting 
 ### Procedure
 
 1. In Google Drive, please navigate to the folder containing the file you wish to edit.
-1. Please right-click the file (or folder) you wish to download and select “Download” in the context menu that appears.![](file-contextmenu-download.png){:.medium.center}
+1. Please right-click the file (or folder) you wish to download and select “Download” in the context menu that appears.![](basic04.png){:.medium.center}
 1. After a screen for selecting files opens, please choose the download destination folder.
 1. The files will be downloaded.
     - Folders will be downloaded in a compressed .zip format.
@@ -85,8 +85,8 @@ Here, we will explain how to create folders on Google Drive.
 ### Procedure
 
 1. Please navigate to the folder where you wish to create the new folder.
-1. Please click the “New” button at the top left of the screen and select “New Folder”.![](new-folder.png){:.medium.center}
-1. In the dialogue box titled “New folder” that is displayed, please enter the name of the folder.![](new-folder-dialog.png){:.medium.center}
+1. Please click the “New” button at the top left of the screen and select “New Folder”.![](basic05.png){:.medium.center}
+1. In the dialogue box titled “New folder” that is displayed, please enter the name of the folder.![](basic06.png){:.medium.center}
 1. Please click “Create” at the bottom right of the dialogue box. The new folder will be created.
 
 ## How to move the files
@@ -95,11 +95,11 @@ Here we will explain how to move a file in Google Drive by changing the folder w
 
 ### Procedure
 
-1. Please right-click the file you wish to move and select “Organize” → ”Move” in the context menu that appears.![](file-contextmenu-organize-move.png){:.medium.center}
+1. Please right-click the file you wish to move and select “Organize” → ”Move” in the context menu that appears.![](basic07.png){:.medium.center}
 1. After the file selection screen appears, please open the folder to which you want to move the file.
     - You can change what is displayed using the tabs at the top of the screen. For example, if you wish to view the folders hierarchically, please select the "All locations" tab.
 
-    ![](move.png){:.medium.center}
+    ![](basic08.png){:.medium.center}
 1. Please click “Move” at the bottom of the display. The file will be moved to the selected folder.
 
 You can also move multiple files as a file batch. Specifically, on the folder screen, you can select multiple files by holding down the Ctrl key (Windows) or ⌘ key (Mac). After selecting the files of your choice, click “Organize” → ”Move” in the right-click menu that appears. The selected files will be moved to the desired location.
