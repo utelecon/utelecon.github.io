@@ -42,7 +42,7 @@ Files stored in Google Drive, such as Google Docs, can be edited using the corre
 ### Procedure
 
 1. In Google Drive, please navigate to the folder where the file you would like to edit is located.
-1. Double-click the name of the file you would like to edit. A screen of the corresponding Google service will be displayed in a new tab so that you can edit the file.
+1. Double-click the file you would like to edit. A screen of the corresponding Google service will be displayed in a new tab so that you can edit the file.
 
 ## How to upload files
 
