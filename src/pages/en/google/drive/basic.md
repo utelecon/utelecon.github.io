@@ -8,9 +8,9 @@ breadcrumb:
 
 On this page, we will explain the specific operational steps for handling files stored on Google Drive.
 
-Furthermore, general information on how to use Google Drive can be found in “[Google Drive](../../../google/drive/index.md)” (an English translation is planned). In addition, an introduction on how to share files can be found in “[Share files with Google Drive](../../../google/drive/share.md)” (an English translation is planned). Please refer to these documents for more information.
+Furthermore, general information on how to use Google Drive can be found in “[Google Drive](../)”. In addition, an introduction on how to share files can be found in “[Share files with Google Drive](../share/)”. Please refer to these documents for more information.
 
-To proceed with the following steps, make sure you are already logged into ECCS Cloud Email and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../../../google/drive/index.md#access) (an English translation is planned).
+To proceed with the following steps, make sure you are already logged into ECCS Cloud Email and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../#access) (an English translation is planned).
 
 ## How to create files
 {:#create-file}
@@ -19,17 +19,17 @@ Here, we will explain how to create files in Google Drive.
 
 The main formats of files that can be created in Google Drive are listed below.
 
-- Google Docs: equivalent to Microsoft Word.
+- Google Docs: equivalent to Microsoft Word
 - Google Sheets: equivalent to Microsoft Excel
 - Google Slides: equivalent to Microsoft PowerPoint
 
-Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index.md#format) (an English translation is planned).
+Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](../#format).
 
 ### Procedure
 
 1. In Google Drive, please navigate to the folder where you would like to create the file.
 1. Please click the “New” button at the top left of the screen.![](basic01.png){:.medium.center}
-1. A list of file types is displayed. Please select the type of file you wish to create.![](basic02.png){:.medium.center}
+1. A list of the file types is displayed. Please select the type of file you wish to create.![](basic02.png){:.medium.center}
 1. The file will be created and opened in the Google service corresponding to the file type.
     - You can directly edit the file displayed on the screen of the Google service.
 
@@ -37,18 +37,18 @@ Created files can be edited using the corresponding Google services. For more de
 
 In this section, we will explain how to edit files in Google Drive.
 
-Files stored in Google Drive, such as Google Docs, can be edited using the corresponding Google service. In addition, you can edit Microsoft Office format files, such as Word or Excel, using the Google services. However, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index.md#format) (an English translation is planned)).
+Files stored in Google Drive, such as Google Docs, can be edited using the corresponding Google service. In addition, you can edit Microsoft Office format files, such as Word or Excel, using the Google services. However, as they are not completely compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index.md#format) (an English translation is planned)).
 
 ### Procedure
 
 1. In Google Drive, please navigate to the folder where the file you would like to edit is located.
-1. Double-click the file you would like to edit. A screen of the corresponding Google service will be displayed in a new tab so that you can edit the file.
+1. Double-click the file you would like to edit. A screen of the corresponding Google service will be displayed in a new tab and you can edit the file.
 
 ## How to upload files
 
 Here, we will explain how to upload files to Google Drive.
 
-Any type of file, including images, videos, audio, etc., can be uploaded to Google Drive. However, regarding Microsoft Office format files such as Word or Excel, as they are not 100% compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index.md#format) (an English translation is planned)).
+Any type of file, including images, videos, audio, etc., can be uploaded to Google Drive. However, regarding Microsoft Office format files such as Word or Excel, as they are not completely compatible, there may be some parts that will need your attention (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index.md#format) (an English translation is planned)).
 
 ### Procedure
 
@@ -62,7 +62,7 @@ Any type of file, including images, videos, audio, etc., can be uploaded to Goog
 
 Here, we will explain how to download files from Google Drive.
 
-Files of Google services such as Google Docs can be downloaded after converting them to the corresponding Microsoft Office format (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../../../google/drive/index.md#format) (an English translation is planned)).
+Files of Google services such as Google Docs can be downloaded after converting them to the corresponding Microsoft Office format (for details, please refer to [“File types in Google Drive” section on the Google Drive page](../#format)).
 
 ### Procedure
 
@@ -70,13 +70,13 @@ Files of Google services such as Google Docs can be downloaded after converting 
 1. Please right-click the file (or folder) you wish to download and select “Download” in the context menu that appears.![](basic04.png){:.medium.center}
 1. After a screen for selecting files opens, please choose the download destination folder.
 1. The files will be downloaded.
-    - Folders will be downloaded in a compressed .zip format.
+    - Folders will be downloaded in a compressed '.zip' format.
 
 You can also download multiple files as a file batch. Specifically, on the folder screen, you can select multiple files by holding down the Ctrl key (Windows) or ⌘ key (Mac) and choosing the files. After selecting the files of your choice, click "Download" in the right-click menu that appears. The selected files will be downloaded.
 
 ### Appendix
 
-If you wish others to be able to view or edit a file, instead of sending the downloaded files as email attachments, etc., it is more convenient to use the sharing feature by granting direct access to files on the Google Drive to others. With the sharing feature, changes will be immediately shown to your collaborators, and multiple people can edit files simultaneously. The sharing feature helps reduce the hassle of managing files via email. For information about the sharing feature, please refer to the [“Share files on Google Drive"](../../../../google/drive/share/) (an English translation is planned) page.
+If you wish others to be able to view or edit a file, instead of sending the downloaded files as email attachments, etc., it is more convenient to use the sharing feature by granting direct access to files on the Google Drive to others. With the sharing feature, changes will be immediately shown to your collaborators, and multiple people can edit files simultaneously. The sharing feature helps reduce the hassle of managing files via email. For information about the sharing feature, please refer to the [“Share files on Google Drive" page](../share/).
 
 ## How to create folders
 
@@ -91,7 +91,7 @@ Here, we will explain how to create folders on Google Drive.
 
 ## How to move the files
 
-Here we will explain how to move a file in Google Drive by changing the folder where it is located.
+Here, we will explain how to move a file in Google Drive by changing the folder where it is located.
 
 ### Procedure
 
