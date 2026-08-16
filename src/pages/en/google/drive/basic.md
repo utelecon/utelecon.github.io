@@ -65,7 +65,7 @@ Here, we will explain how to download files from Google Drive.
 Files of Google services such as Google Docs can be downloaded after converting them to the corresponding Microsoft Office format (for details, please refer to [“About File Formats in Google Drive” section on the Google Drive page](../#format))
 ### Procedure
 
-1. In Google Drive, please navigate to the folder containing the file you wish to edit.
+1. In Google Drive, please navigate to the folder containing the file you wish to download.
 1. Please right-click the file (or folder) you wish to download and select “Download” in the context menu that appears.![](basic04.png){:.medium.center}
 1. After a screen for selecting files opens, please choose the download destination folder.
 1. The files will be downloaded.
@@ -88,7 +88,7 @@ Here, we will explain how to create folders on Google Drive.
 1. In the dialogue box titled “New folder” that is displayed, please enter the name of the folder.![](basic06.png){:.medium.center}
 1. Please click “Create” at the bottom right of the dialogue box. The new folder will be created.
 
-## How to move the files
+## How to move files
 
 Here, we will explain how to move a file in Google Drive by changing the folder where it is located.
 
