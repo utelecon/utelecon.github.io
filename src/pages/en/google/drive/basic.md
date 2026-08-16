@@ -73,7 +73,7 @@ Files of Google services such as Google Docs can be downloaded after converting 
 
 You can also download multiple files as a file batch. Specifically, on the folder screen, you can select multiple files by holding down the Ctrl key (Windows) or ⌘ key (Mac) and choosing the files. After selecting the files of your choice, click "Download" in the right-click menu that appears. The selected files will be downloaded.
 
-### Appendix
+### Tip: Sharing files instead of downloading
 
 If you wish others to be able to view or edit a file, instead of sending the downloaded files as email attachments, etc., it is more convenient to use the sharing feature by granting direct access to files on the Google Drive to others. With the sharing feature, changes will be immediately shown to your collaborators, and multiple people can edit files simultaneously. The sharing feature helps reduce the hassle of managing files via email. For information about the sharing feature, please refer to the [“Sharing Files on Google Drive" page](../share/).
 
@@ -101,4 +101,4 @@ Here, we will explain how to move a file in Google Drive by changing the folder 
     ![](basic08.png){:.medium.center}
 1. Please click “Move” at the bottom of the display. The file will be moved to the selected folder.
 
-You can also move multiple files as a file batch. Specifically, on the folder screen, you can select multiple files by holding down the Ctrl key (Windows) or ⌘ key (Mac). After selecting the files of your choice, click “Organize” → ”Move” in the right-click menu that appears. The selected files will be moved to the desired location.
+You can also move multiple files at once. Specifically, on the folder screen, you can select multiple files by holding down the Ctrl key (Windows) or ⌘ key (Mac). After selecting the files of your choice, click “Organize” → ”Move” in the right-click menu that appears. The selected files will be moved to the desired location.
