@@ -8,9 +8,9 @@ breadcrumb:
 
 On this page, we will explain the specific operational steps for handling files stored on Google Drive.
 
-Furthermore, general information on how to use Google Drive can be found in “[Google Drive](../)”. In addition, an introduction on how to share files can be found in “[Share files with Google Drive](../share/)”. Please refer to these documents for more information.
+Furthermore, general information on how to use Google Drive can be found in “[Google Drive](../)”. In addition, an introduction on how to share files can be found in “[Sharing files on Google Drive](../share/)”. Please refer to these documents for more information.
 
-To proceed with the following steps, make sure you are already logged into ECCS Cloud Email and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Open Google Drive in the browser” on the Google Drive page](../#access) (an English translation is planned).
+To proceed with the following steps, make sure you are already logged into ECCS Cloud Email and have Google Drive open in your browser. If you have not completed these two steps, please refer to [“Opening Google Drive in a Browser” on the Google Drive page](../#access) (an English translation is planned).
 
 ## How to create files
 {:#create-file}
@@ -23,7 +23,7 @@ The main formats of files that can be created in Google Drive are listed below.
 - Google Sheets: equivalent to Microsoft Excel
 - Google Slides: equivalent to Microsoft PowerPoint
 
-Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“File types in Google Drive” section on the Google Drive page](../#format).
+Created files can be edited using the corresponding Google services. For more details regarding the file types, please refer to [“About File Formats in Google Drive” section on the Google Drive page](../#format).
 
 ### Procedure
 
