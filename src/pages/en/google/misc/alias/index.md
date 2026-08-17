@@ -30,10 +30,10 @@ Follow the procedures below to fulfill the required setup.
 
 <figure class="center">
     <img src="alias-01-en.png">
-    <figcaption>The Screen of Settings</figcaption>
+    <figcaption>The Display of Settings</figcaption>
 </figure>
 
 <figure class="center">
     <img src="alias-02-en.png">
-    <figcaption>The Screen to add your email address</figcaption>
+    <figcaption>The Display to add your email address</figcaption>
 </figure>
