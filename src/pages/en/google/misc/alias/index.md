@@ -10,7 +10,7 @@ In Gmail of your ECCS Cloud Email, you can send emails from your email address w
 
 To fulfill the required setup and use the service, you need to enter your password in some cases. Check the points below before entering your password. 
 
-- The information of your email account is entered and stored by Google. 
+- The information of your email account is entered and stored in the format of Google. 
 - If your UTokyo Account or your ECCS Cloud Email account are compromised, your ECCS Cloud Email address and another email address you add can be both used for a targeted attack and other kinds of cyber attacks. 
 
 In addition, notice that some email services cannot be used in the way explained on this page.
