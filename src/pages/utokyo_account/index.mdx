@@ -8,6 +8,7 @@ slug: utokyo_account # 手順を外部ファイルからincludeするときに�
 import ChangePassword from "@components/ja/systems/utokyo_account/ChangePassword.mdx";
 import MFA from "@components/ja/systems/utokyo_account/MFA.mdx";
 import InformationSecurity from '@components/ja/InformationSecurity.mdx'
+import IdentMynaRequiredThings from "@components/ja/IdentMynaRequiredThings.mdx";
 
 ## UTokyo Accountとは
 {:#about}
@@ -129,24 +130,20 @@ UTokyo Accountのパスワードを忘れた場合には，次のような手順
 - 多要素認証で設定している本人確認方法が利用できること．
 	- 利用できない場合は，先に[多要素認証の本人確認方法を再登録](mfa/reregister/)してください．
 - 以下のものがお手元にそろっていること．
-	- ご自身のマイナンバーカード（有効な利用者証明用電子証明書が搭載されたもの）
-	- マイナンバーカードの読み取りに対応したスマートフォン（デジタル認証アプリがインストール済みであること）
-	- マイナンバーカード作成時に設定した以下の暗証番号
-		- 利用者証明用電子証明書の暗証番号（4桁）
-		- 券面事項入力補助用の暗証番号（4桁）
+   <IdentMynaRequiredThings variant="notSpecified"/>
 
 ##### 再発行の手順
-以下の手順はPCでもスマートフォンでも行えますが，スマートフォンを使用するとデジタル認証アプリとの連携がスムーズです．
+以下の手順はPCでもスマートフォンでも行えますが，スマートフォンを使用するとマイナアプリとの連携がスムーズです．
 1. 以下の「UTokyo Account本人確認サービス」にアクセスしてください．
-**[UTokyo Account本人確認サービス](https://identification.adm.u-tokyo.ac.jp/verify/)**{:.box.center}
+    **[UTokyo Account本人確認サービス](https://identification.adm.u-tokyo.ac.jp/verify/)**{:.box.center}
 1. 「マイナンバーカードで本人確認」を押して，画面に表示される手順に従って本人確認を完了させてください．
-![](img/mynumber_verification.png){:.small.center.thin-border}
+    ![](img/mynumber_verification.png){:.small.thin-border}
 1. 「UTokyo Accountの多要素認証の再設定、パスワードのリセットを申請する」を押してください．
-![](img/request-password-reset.png){:.small.center.thin-border}
+    ![](img/request-password-reset.png){:.small.thin-border}
 1. 「発行したいものを選んでください」の欄で「パスワード（パスワードを忘れた）」を選択して，「パスワードを発行する」を押してください．
-![](img/issue-password.png){:.small.center.thin-border}
+    ![](img/issue-password.png){:.small.thin-border}
 1. 「パスワードが発行されました」と表示されます．表示された仮パスワードをコピーし，UTokyo Accountでの認証が必要なページ（例：[セキュリティ情報](https://mysignins.microsoft.com/security-info)）にアクセスしてください．
-![](img/password-issue-complete.png){:.small.center.thin-border}
+    ![](img/password-issue-complete.png){:.small.thin-border}
 1. サインイン画面が表示されたら，UTokyo Account（10桁の共通ID＋`@utac.u-tokyo.ac.jp`）と仮パスワードを入力してください．
 	<details>
 	<summary>サインイン画面が表示されない場合</summary>
