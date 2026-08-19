@@ -6,7 +6,7 @@ breadcrumb:
 
 ## Introduction
 
-In Gmail of your ECCS Cloud Email, you can send emails from your email address whose domain is NOT g.ecc.u-tokyo.ac.jp via Gmail after the required setup. 
+In Gmail of your ECCS Cloud Email, you can send emails from your email address with a domain other than g.ecc.u-tokyo.ac.jp via Gmail after the required setup. 
 
 To fulfill the required setup and use the service, you need to enter your password in some cases. Check the points below before entering your password. 
 
