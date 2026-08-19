@@ -29,11 +29,11 @@ Follow the procedures below to fulfill the required setup.
     - In the initial condition, "Treat as an alias" is checked off and your added email address is treated equally as your ECCS Cloud Email address (for example, an email sent to your added email address is displayed in the Gmail inbox of your ECCS Cloud Email). However, it is recommended to uncheck "Treat as an alias" in some cases such as when you send an email from your ECCS Cloud Email address as proxy for your added account. For more details of settings, please refer to Google's official Help Page [Should I uncheck "Treat as an alias" in Gmail?](https://knowledge.workspace.google.com/admin/users/should-i-uncheck-treat-as-an-alias-in-gmail?visit_id=639220986364895751-2561577113&rd=1).
 
 <figure class="center">
-    <img src="alias-01-en.png">
+    <img src="alias-01.png">
     <figcaption>The Display of Settings</figcaption>
 </figure>
 
 <figure class="center">
-    <img src="alias-02-en.png">
+    <img src="alias-02.png">
     <figcaption>The Display to add your email address</figcaption>
 </figure>
