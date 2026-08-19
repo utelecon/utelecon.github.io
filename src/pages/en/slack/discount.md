@@ -15,24 +15,24 @@ Normally, applicants for this program are required to submit documents to prove 
 
 Although the procedures have been simplified, certain requirements still apply. Please make sure you understand them before submitting your application.
 
-## Procedures
+## Application Overview
 
-Please note that this procedure is different from the normal application procedure.
+This procedure does not involve coordination with or referral through the University of Tokyo. Please note that this procedure is different from the normal application procedure.
 
 ### Requirements
 
-- Regarding the number of licenses
+- The number of licenses
   - Applications are accepted for 20 or more licenses (the number of users who join the workspace and use Slack).
   - Additional licenses can be added at any time, by contacting Salesforce, not just during the contract renewal period.
   - The number of licenses may only be reduced upon contract renewal.
-- Regarding the contract period
+- The contract period
   - Payment is made annually for the contract period specified separately. Monthly payments and prorated charges during the academic year are not available.
-  - For the applicable period, please refer to the document "Special Program for AXIES Regular Members by Salesforce Japan Co., Ltd." posted on the [Academic eXchange for Information Environment and Strategy's website](https://axies.jp/admission/benefits/) (in Japanese).
-- Regarding contract renewal
+  - For the applicable period, please refer to the document "Special Program for AXIES Regular Members by Salesforce Japan Co., Ltd." posted on the [Academic eXchange for Information Environment and Strategy(AXIES)'s website](https://axies.jp/admission/benefits/) (in Japanese).
+- Contract renewal
   - Contracts to which the "Slack for Education" program has been applied through this procedure are automatically renewed annually under the same terms.
   - Upon renewal, only an invoice will be issued. No quotation, purchase order, or delivery note will be provided.
   - If you do not wish to renew under the same terms, please contact Salesforce to request a change, cancellation or reduction at least one month before the contract expiration date.
-- Regarding the payment method
+- The payment method
   - Only payment by invoice (bank transfer) is available. Credit card payment is not available. The invoice date will be the day before the start of the contract period.
 - Others
   - If you already have a paid plan and are newly applying for the "Slack for Education" program, you cannot apply through this procedure. Please prepare the required documentation yourself and apply for the "Slack for Education" Program through the standard process.
@@ -40,9 +40,9 @@ Please note that this procedure is different from the normal application procedu
 
 ### How to apply
 
-Please apply directly by email to Salesforce's dedicated contact point, following the instructions below. **Do not use** the University of Tokyo's application form (previously used through March 23, 2026) or Slack's web application form. The University of Tokyo will not handle applications, but you do not need to prepare or submit proof of eligibility.
+Please apply directly by email to Salesforce's dedicated contact point, following the instructions below. **Do not use** Slack's web application form. The University of Tokyo will not handle applications, but you do not need to prepare or submit proof of eligibility.
 
-<b class="box center"><a href="https://docs.google.com/document/d/13jjAwdGASStwc48dmIXjgzlkJJWKO3KLRz5ZD2dsLTA/edit?usp=sharing/">Instructions for Creating the Application Email</a></b> (in Japanese; please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
+<b class="box center"><a href="https://docs.google.com/document/d/13jjAwdGASStwc48dmIXjgzlkJJWKO3KLRz5ZD2dsLTA/edit?tab=t.b0zsmtuve1xg">Application Email Guidelines</a></b> (in Japanese; please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
 
 In addition, please report the content of your application to the University of Tokyo using the form below.
 <b class="box center"><a href="https://forms.gle/fkGypcu127Svvu588/">Notification Form</a></b> (in Japanese; please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
