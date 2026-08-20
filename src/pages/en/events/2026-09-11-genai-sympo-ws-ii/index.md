@@ -29,11 +29,14 @@ While the main purpose is information sharing and discussion among faculty, staf
 * Location: Online (Zoom)
 * Program (subject to change)
   * 13:00–13:15 Kenjiro Taura (Executive Director and Vice President): "Opening remarks and the current state of AI use in courses, based on survey results"
-  * 13:15–14:15 Associate Professor Rui Yoshida (School of Engineering): "Utilizing generative AI in the classroom — considering its potential and risks"
-  * 14:15–17:00 Participant presentations (we are calling) and wrap-up discussions
-    * Details to be posted once finalized
+  * 13:15–14:15 Associate Professor Lui Yoshida (School of Engineering): "Utilizing generative AI in the classroom — considering its potential and risks"
+  * 14:15–14:45 Akie Okada, Project Associate Professor (Komaba Organization for Educational Excellence, College of Arts and Sciences) --- "Classroom Use of Generative AI and Measures Against Its Misuse in Paper Writing for First-Year Seminar (Humanities and Social Sciences)"
+  * 14:45–15:15 Tomoya Oyama, Associate Professor (Information Technology Center) --- "Generative AI Use in Report Assignments: Case Studies in the "Information" course (Humanities and Social Sciences Classes) in the Junior Division of the College of Arts and Sciences"
+  * 15:15–15:45 Masahiro Kasahara, Associate Professor (Graduate School of Frontier Sciences) --- "Teaching Efficiently with Generative AI: A Programming Course for Biology Students Starting from Scratch"
+  * 15:45–16:15 Thomas Kilburn Gally, Professor Emeritus (Project Professor, Center for Global Education, the University of Tokyo) --- "How Autonomously Can AI Agents Conduct Research?"
+  * 16:15-  TBA
 
-## Call for Presentations
+## Call for Presentations (Closed)
 
 We are soliciting presentations on, but not limited to, the following topics:
 
