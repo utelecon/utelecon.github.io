@@ -9,7 +9,7 @@ Please see the [UTokyo Slack page](../) for information on the university-wide s
 
 ## Overview
 
-[Slack](https://slack.com/intl/en-gb/) offers an 85% discount on [paid plans (Pro or "Business+" plans)](https://slack.com/intl/en-gb/help/articles/115003205446) under the ["Slack for Education" program](https://slack.com/intl/en-gb/help/articles/206646877).
+[Slack](https://slack.com/) offers an 85% discount on [paid plans (Pro or "Business+" plans)](https://slack.com/help/articles/115003205446) under the ["Slack for Education" program](https://slack.com/help/articles/206646877).
 
 Normally, applicants for this program are required to submit documents to prove that they are from an educational institution for each application, but the University of Tokyo, in consultation with Slack, has established **a procedure that does not require such proof each time**. This page explains that procedure in detail.
 
@@ -27,7 +27,7 @@ This procedure does not involve coordination with or referral through the Univer
   - The number of licenses may only be reduced upon contract renewal.
 - The contract period
   - Payment is made annually for the contract period specified separately. Monthly payments and prorated charges during the academic year are not available.
-  - For the applicable period, please refer to the document "Special Program for AXIES Regular Members by Salesforce Japan Co., Ltd." posted on the [Academic eXchange for Information Environment and Strategy(AXIES)'s website](https://axies.jp/admission/benefits/) (in Japanese).
+  - For the applicable period, please refer to the document "Special Program for AXIES Regular Members by Salesforce Japan Co., Ltd." posted on the [Academic eXchange for Information Environment and Strategy (AXIES) website](https://axies.jp/admission/benefits/) (in Japanese).
 - Contract renewal
   - Contracts to which the "Slack for Education" program has been applied through this procedure are automatically renewed annually under the same terms.
   - Upon renewal, only an invoice will be issued. No quotation, purchase order, or delivery note will be provided.
@@ -42,7 +42,7 @@ This procedure does not involve coordination with or referral through the Univer
 
 Please apply directly by email to Salesforce's dedicated contact point, following the instructions below. **Do not use** Slack's web application form. The University of Tokyo will not handle applications, but you do not need to prepare or submit proof of eligibility.
 
-<b class="box center"><a href="https://docs.google.com/document/d/13jjAwdGASStwc48dmIXjgzlkJJWKO3KLRz5ZD2dsLTA/edit?tab=t.b0zsmtuve1xg">Application Email Guidelines</a></b> (in Japanese; please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
+<b class="box center"><a href="https://docs.google.com/document/d/13jjAwdGASStwc48dmIXjgzlkJJWKO3KLRz5ZD2dsLTA/edit?tab=t.b0zsmtuve1xg">Application Email Guidelines</a></b> (please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)
 
 In addition, please report the content of your application to the University of Tokyo using the form below.
 <b class="box center"><a href="https://forms.gle/fkGypcu127Svvu588/">Notification Form</a></b> (in Japanese; please access this while signed in to your ECCS Cloud Email with your UTokyo Account.)

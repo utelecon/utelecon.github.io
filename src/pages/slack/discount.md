@@ -38,16 +38,12 @@ breadcrumb:
   - 特段の事情があり，一部の条件に合致しない場合は，Salesforce社の専用窓口にメールで直接相談してください．
 
 ### 申し込み方法
-### 申し込み方法
 
-次の要領に沿って，Salesforce社の専用窓口にメールで直接申し込んでください．東京大学の申し込みフォーム（2026年3月23日までの手続きに使用）や，SlackのWeb申し込みフォームは**使用しないでください**．大学での取りまとめはしませんが，証明書の作成・提出は不要です．
+次の要領に沿って，Salesforce社の専用窓口にメールで直接申し込んでください．SlackのWeb申し込みフォームは**使用しないでください**．大学での取りまとめはしませんが，証明書の作成・提出は不要です．
 
 <b class="box center"><a href="https://docs.google.com/document/d/13jjAwdGASStwc48dmIXjgzlkJJWKO3KLRz5ZD2dsLTA/edit?usp=sharing">申し込みメール作成要領</a></b>（UTokyo AccountでECCSクラウドメールにサインインした状態でアクセスしてください．）
 
 なお，メールで申し込んだ内容は，次のフォームから大学にも届け出てください．
-<b class="box center"><a href="https://forms.gle/fkGypcu127Svvu588">届出フォーム</a></b>（UTokyo AccountでECCSクラウドメールにサインインした状態でアクセスしてください．）
-
-
 <b class="box center"><a href="https://forms.gle/fkGypcu127Svvu588">届出フォーム</a></b>（UTokyo AccountでECCSクラウドメールにサインインした状態でアクセスしてください．）
 
 ### 教育支援プログラムの適用が認可された後の手続きの流れ
