@@ -1,0 +1,273 @@
+---
+import DemiRadioButton from "@components/pages/mfa/DemiRadioButton.astro";
+---
+
+<div class="wrapper">
+  <p class="col-select">選択</p>
+
+  <label class="col-label" for="new-pc-scenario-private">
+    このPCは自分のお金（私費）で買いました
+  </label>
+  <span class="col-select">
+    <DemiRadioButton
+      id="new-pc-scenario-private"
+      type="radio"
+      name="new-pc-scenario"
+      value="private"
+    />
+  </span>
+  <div class="col-description">購入した本人が使うPCです．</div>
+
+  <label class="col-label" for="new-pc-scenario-official-self">
+    このPCは研究費などの校費で買ったもので，自分で使います
+  </label>
+  <span class="col-select">
+    <DemiRadioButton
+      id="new-pc-scenario-official-self"
+      type="radio"
+      name="new-pc-scenario"
+      value="officialSelf"
+    />
+  </span>
+  <div class="col-description">
+    購入した教職員本人が主に使うPCです．
+  </div>
+
+  <label class="col-label" for="new-pc-scenario-official-others">
+    このPCは研究費などの校費で買ったもので，学生や他の教職員に使ってもらいます
+  </label>
+  <span class="col-select">
+    <DemiRadioButton
+      id="new-pc-scenario-official-others"
+      type="radio"
+      name="new-pc-scenario"
+      value="officialOthers"
+    />
+  </span>
+  <div class="col-description">
+    研究室などで学生や教職員へ貸与・共用するPCです．
+  </div>
+
+  <label class="col-label" for="new-pc-scenario-staff-university">
+    このPCは大学が用意したもので，職員として業務に使います
+  </label>
+  <span class="col-select">
+    <DemiRadioButton
+      id="new-pc-scenario-staff-university"
+      type="radio"
+      name="new-pc-scenario"
+      value="staffUniversity"
+    />
+  </span>
+  <div class="col-description">
+    所属部署から貸与・指定された業務用PCです．
+  </div>
+</div>
+
+<p aria-live="polite" data-selection-status>
+  選択すると，ここにあなた向けの案内が表示されます．
+</p>
+
+<section
+  id="new-pc-panel-private"
+  role="region"
+  aria-labelledby="new-pc-heading-private"
+  data-scenario-panel="private"
+  hidden
+>
+  <h3 id="new-pc-heading-private">私費で買う場合</h3>
+  <slot name="private" />
+</section>
+
+<section
+  id="new-pc-panel-official-self"
+  role="region"
+  aria-labelledby="new-pc-heading-official-self"
+  data-scenario-panel="officialSelf"
+  hidden
+>
+  <h3 id="new-pc-heading-official-self">
+    教職員が校費で買って自分で使う場合
+  </h3>
+  <slot name="officialSelf" />
+</section>
+
+<section
+  id="new-pc-panel-official-others"
+  role="region"
+  aria-labelledby="new-pc-heading-official-others"
+  data-scenario-panel="officialOthers"
+  hidden
+>
+  <h3 id="new-pc-heading-official-others">
+    教職員が校費で買って学生や教職員に使わせる場合
+  </h3>
+  <slot name="officialOthers" />
+</section>
+
+<section
+  id="new-pc-panel-staff-university"
+  role="region"
+  aria-labelledby="new-pc-heading-staff-university"
+  data-scenario-panel="staffUniversity"
+  hidden
+>
+  <h3 id="new-pc-heading-staff-university">職員が大学のPCを使う場合</h3>
+  <slot name="staffUniversity" />
+</section>
+
+<div data-new-pc-os-selector hidden>
+  <slot name="afterSelector" />
+</div>
+
+<div data-scenario-panel="private" hidden>
+  <slot name="privateOperatingSystem" />
+</div>
+
+<div data-scenario-panel="officialSelf" hidden>
+  <slot name="officialSelfOperatingSystem" />
+</div>
+
+<div data-scenario-panel="officialOthers" hidden>
+  <slot name="officialOthersOperatingSystem" />
+</div>
+
+<script>
+  const validScenarios = new Set([
+    "private",
+    "officialSelf",
+    "officialOthers",
+    "staffUniversity",
+  ]);
+
+  function initializeScenarioGuide() {
+    const inputs = document.querySelectorAll<HTMLInputElement>(
+      'input[name="new-pc-scenario"]',
+    );
+    const panels = document.querySelectorAll<HTMLElement>(
+      "[data-scenario-panel]",
+    );
+    const status = document.querySelector<HTMLElement>(
+      "[data-selection-status]",
+    );
+    const osSelector = document.querySelector<HTMLElement>(
+      "[data-new-pc-os-selector]",
+    );
+    const osPanels = document.querySelectorAll<HTMLElement>(
+      "[data-new-pc-os]",
+    );
+
+    function selectScenario(value: string, updateUrl: boolean) {
+      if (!validScenarios.has(value)) return;
+
+      let selectedLabel = "";
+      inputs.forEach((input) => {
+        input.checked = input.value === value;
+        if (input.checked) {
+          selectedLabel =
+            document
+              .querySelector<HTMLLabelElement>(`label[for="${input.id}"]`)
+              ?.textContent?.trim() ?? "";
+        }
+      });
+      panels.forEach((panel) => {
+        panel.hidden = panel.dataset.scenarioPanel !== value;
+      });
+
+      const followsDepartmentInstructions = value === "staffUniversity";
+      if (osSelector) osSelector.hidden = followsDepartmentInstructions;
+      const selectedOs = new URL(location.href).searchParams.get("os");
+      osPanels.forEach((panel) => {
+        panel.hidden =
+          followsDepartmentInstructions || panel.dataset.newPcOs !== selectedOs;
+      });
+
+      if (status) {
+        status.textContent = followsDepartmentInstructions
+          ? `「${selectedLabel}」を選択しました．`
+          : `「${selectedLabel}」を選択しました．該当する案内を表示しています．`;
+      }
+
+      if (updateUrl) {
+        const url = new URL(location.href);
+        url.searchParams.set("scenario", value);
+        history.replaceState(null, "", url.href);
+      }
+    }
+
+    inputs.forEach((input) => {
+      if (input.dataset.initialized === "true") return;
+      input.dataset.initialized = "true";
+      input.addEventListener("change", () => {
+        selectScenario(input.value, true);
+      });
+    });
+
+    const scenarioFromUrl = new URL(location.href).searchParams.get(
+      "scenario",
+    );
+    if (scenarioFromUrl) selectScenario(scenarioFromUrl, false);
+  }
+
+  document.addEventListener("DOMContentLoaded", initializeScenarioGuide);
+  document.addEventListener("astro:page-load", initializeScenarioGuide);
+</script>
+
+<style lang="scss">
+  @use "@styles/color";
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto 4rem;
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    border: 1px solid color.$white-gray-dark;
+
+    > .col-label {
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+
+    > .col-select {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      font-weight: bold;
+    }
+
+    > .col-description {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      padding: 0.7rem 0.5rem 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    label.col-label {
+      padding: 0.1rem 0.5rem;
+      font-weight: bold;
+      background-color: color.$white-gray-light;
+    }
+
+    p.col-select {
+      text-align: center;
+    }
+
+    span.col-select {
+      position: relative;
+      background-color: color.$white-gray-dark;
+      border-inline-start: 1px solid color.$white-gray-light;
+      border-inline-end: 1px solid color.$white-gray-light;
+
+      & > input[type="radio"] {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+      }
+    }
+  }
+</style>
