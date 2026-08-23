@@ -17,8 +17,8 @@ UTASで履修登録すると，自動的にUTOL上でも受講登録されます
 
 本ページでは，以下の2つを説明します．
 
-* [コースの登録状態の確認方法](:#registration-status)
-* [コースへの登録・登録解除の操作方法](:#registration-operation)
+* [コースの登録状態の確認方法](#registration-status)
+* [コースへの登録・登録解除の操作方法](#registration-operation)
 
 ## コースの登録状態の確認方法
 {:#registration-status}
