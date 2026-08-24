@@ -21,7 +21,7 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
-  date: 2026-08-24
+  date: 2026-08-25
   content:
     ja: "9/9 15:00から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2026-09-09/)」を開催いたします．"
     en: "On September 9, an information session titled **\"[Information Session on ICT Systems and Tools for UTokyo Members](/events/2026-09-09/)\"** will be held at 15:00. This session will be **conducted in Japanese**."
