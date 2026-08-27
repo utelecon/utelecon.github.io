@@ -110,7 +110,7 @@ You need to sign in with MFA to access this form. If it is impossible for you, y
         <li>
             If the trouble occurred during the initial setup of MFA and you need to reregister your verification method
             <ul>
-                <li>It may be possible to sign in and access Microsoft Forms during the initial setup process, as MFA is not required for sign-in until Step 4 (Apply for MFA Use) of the initial setup.</li>
+                <li>It may be possible to sign in and access Microsoft Forms during the initial setup process, as MFA is not required for sign-in until Step 4 (Apply for Starting Your UTokyo Account) of the initial setup.</li>
             </ul>
         </li>
     </ul>

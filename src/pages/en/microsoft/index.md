@@ -35,7 +35,8 @@ Microsoft provides systems other than those listed below, and it is possible to 
 ### Microsoft Office applications
 {:#office_apps}
 
-**Available only to students and faculty employed by the University of Tokyo**
+**Available only to students and faculty employed by the University of Tokyo.
+To install this, you must have [multi-factor authentication set up for your UTokyo Account](/en/utokyo_account/mfa/).**
 
 Office applications that are installed on your device, such as Word, Excel, and PowerPoint. You can use only the latest version of each application. For instructions on how to get started, please refer to the following.
 
@@ -89,10 +90,12 @@ An email account with the domain `@mail.u-tokyo.ac.jp` is provided as a "staff e
 ### Other systems provided by Microsoft
 {:#misc}
 
+Microsoft 365 offers a wide range of services. However, due to concerns regarding personal data protection and administration, Outlook (email service), Teams, and Power Platform (such as Power Automate and Power Apps) are not available to students. Thank you for your understanding.
+
 #### Microsoft Forms
 {:#forms}
 
-Microsoft Forms is a system that allows you to create online forms. You can also create forms that are only available to people with a UTokyo Account. For instructions on how to use it, please see **[Microsoft Forms Quick Start](https://support.microsoft.com/ja-jp/office/620daa7a-3e03-4013-8f92-5cce86210ef6)**.
+Microsoft Forms is a system that allows you to create online forms. You can also create forms that are only available to people with a UTokyo Account. For instructions on how to use it, please see **[Microsoft Forms Quick Start](https://support.microsoft.com/en-US/Forms/sign-in-to-microsoft-forms)**.
 
 ## Sign in to Microsoft systems with UTokyo Account
 {:#signin}
@@ -110,19 +113,18 @@ For detailed instructions and how to distinguish between other Microsoft account
 
 The following introduces licenses related to Microsoft systems available within the University of Tokyo, other than UTokyo Microsoft License.
 
-### UTokyo Microsoft Windows 10 for students
-{:#windows}
-
-**Available only to students**
-
-This is a license to upgrade Windows to the Education edition. For instructions on how to use it, please refer to **[Windows Education for students](./windows_education_for_students/)**.
+Please note that the following items were previously available but **are no longer offered and cannot be used**.
+- [UTokyo Microsoft Windows 10 for students](./windows_education_for_students/)(a license allowing only students to upgrade to the Education edition of Windows)
+- [UTokyo Microsoft Azure Dev Tools for Teaching](./adt4t/)(a Microsoft software license for developers at educational institutions)
 
 ### Microsoft License for shared PCs, etc.
 {:#shared_pc}
 
 This is a license for Office and Windows that is operated to cover usage that cannot be covered by the normal provision of Office under UTokyo Microsoft License, such as when you want to use Office apps on a PC that is shared by multiple people rather than being used exclusively by a specific individual. It is mainly intended for use on shared PCs set up in departments, majors, laboratories, etc. For instructions on how to use it, please refer to the **[Microsoft License for shared PCs, etc.](https://univtokyo.sharepoint.com/sites/utokyoaccount/SitePages/Microsoft-license-for-shared-PC.aspx)** page (sign-in with UTokyo Account is required to view).
 
-### UTokyo Microsoft Azure Dev Tools for Teaching
+### Azure for Students
 {:#adt4t}
 
-It is a Microsoft developer software license for educational institutions. For instructions on how to use it, please check the **[UTokyo Microsoft Azure Dev Tools for Teaching](adt4t/)** page.
+It is a Microsoft developer software license for educational institutions. For more details, please refer to Microsoft's [Azure for Students information page](https://azure.microsoft.com/en-us/free/students).
+
+When you click the “Start free” button on this page, a screen will appear prompting you to sign in with your Microsoft account (unless you have already signed in with your UTokyo Account). If you sign in with your UTokyo Account, you will be able to use Azure for Students as a student at the University of Tokyo.
