@@ -5,7 +5,7 @@ breadcrumb:
 ---
 ## Overview
 
-When using a Google Group created within ECCS Cloud Mail as a mailing list, you can send emails using that group’s email address as the sender. To do so, you must configure the following settings in advance.
+When using a Google Group created within ECCS Cloud Email as a mailing list, you can send emails using that group’s email address as the sender. To do so, you must configure the following settings in advance.
 
 ## Procedure
 
