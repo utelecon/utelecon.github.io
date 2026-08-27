@@ -26,7 +26,7 @@ When using a Google Group created within ECCS Cloud Email as a mailing list, you
     - The following screens will be displayed. Please follow the instructions on them.
     ![](./groups10.png){:.border}
     ![](./groups11.png){:.border}
-7. Return to the ECCS Cloud Mail settings page and confirm that the mailing list address has been added to the “Send mail as” section.
+7. Return to the ECCS Cloud Email settings page and confirm that the mailing list address has been added to the “Send mail as” section.
   ![](./groups12.png){:.border}
 8. Open the email compose window in ECCS Cloud Mail. In the “From” field, confirm that you can select the mailing list address as the sender address.
   ![](./groups13.png){:.border}
