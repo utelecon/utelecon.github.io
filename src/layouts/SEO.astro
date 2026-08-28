@@ -1,0 +1,84 @@
+---
+import { SEO as AstroSEO, type Props as SEOProps } from "astro-seo";
+import type { MarkdownHeading } from "astro";
+import type { Lang } from "@components/types";
+
+interface Props {
+  title?: string;
+  description?: string;
+  lang: Lang;
+  headings?: MarkdownHeading[];
+  ogpImage?: string;
+}
+
+const { title, description, lang, headings = [], ogpImage } = Astro.props;
+
+function createDefaultDescription(
+  lang: Lang,
+  headings: MarkdownHeading[],
+): string {
+  return (
+    (
+      {
+        ja: "目次: ",
+        en: "Table of Contents: ",
+      }[lang] +
+      headings
+        .filter(({ depth }) => depth === 2)
+        .map(({ text }) => text)
+        .join("; ")
+    ).slice(0, 97) + "..."
+  );
+}
+
+const resolvedDescription =
+  description ?? createDefaultDescription(lang, headings);
+
+const locale = {
+  en: "en_US",
+  ja: "ja_JP",
+}[lang];
+
+const canonicalUrl = Astro.url;
+
+const seoProps: SEOProps = {
+  title,
+  titleTemplate: "%s | utelecon",
+  titleDefault: "utelecon",
+  description,
+  charset: "UTF-8",
+  canonical: canonicalUrl.href,
+};
+
+const defaultOgpImagePath = {
+  en: "/assets/images/ogp_en.png",
+  ja: "/assets/images/ogp.png",
+}[lang];
+
+const ogpImagePath = ogpImage ?? defaultOgpImagePath;
+
+if (title) {
+  seoProps.openGraph = {
+    basic: {
+      title,
+      type: "website",
+      url: canonicalUrl.href,
+      image: new URL(ogpImagePath, Astro.site).href,
+    },
+    optional: {
+      description: resolvedDescription,
+      locale,
+      siteName: "utelecon",
+    },
+    image: {
+      alt: "utelecon",
+    },
+  };
+  seoProps.twitter = {
+    title,
+    description: resolvedDescription,
+  };
+}
+---
+
+<AstroSEO {...seoProps} />
