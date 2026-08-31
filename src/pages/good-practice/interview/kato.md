@@ -14,6 +14,10 @@ componentProps:
   tools: "ITC-LMS, Zoom, TeX, Adobe Illustrator, Mathematica"
 ---
 
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
 ## 授業の基本情報
 
 授業名　　:　ベクトル解析<br>
