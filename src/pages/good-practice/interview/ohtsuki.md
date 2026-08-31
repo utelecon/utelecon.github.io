@@ -13,6 +13,9 @@ componentProps:
   point: "テスト設計の工夫　アクセスしやすい授業設計(音声・データ量低減)　質問による双方向授業"
   tools: "ITC-LMS, Zoom, Google Forms, UTAS, Google Drive"
 ---
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2021-01-15/">オンライン授業情報交換会「第26回 大人数のオンライン授業の実施とテストの工夫」</a>にて，大槻先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>
 
