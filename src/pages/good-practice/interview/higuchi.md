@@ -14,7 +14,7 @@ componentProps:
   tools: "ITC-LMS, Zoom"
 ---
 
-import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.md";
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
 
 <ExcuseForAccuracy />
 
