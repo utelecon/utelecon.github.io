@@ -14,6 +14,10 @@ componentProps:
   tools: "ITC-LMS, Zoom, LINE, YouTube, Bandicam, Windows Movie Maker, Audacity, EcoDecoTooL"
 ---
 
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2021-01-28/">オンライン授業情報交換会「第28回 オンデマンドとライブ形式を組み合わせた授業設計の工夫」</a>にて，米澤先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>
 
 ## 授業の基本情報
