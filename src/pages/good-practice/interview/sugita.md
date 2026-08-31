@@ -13,6 +13,9 @@ componentProps:
   point: "インタラクションの工夫 演習の工夫"
   tools: "ITC-LMS, Zoom, Comment Screen"
 ---
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
 
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2020-11-27/">オンライン授業情報交換会「第21回 ライブ授業でのインタラクションを活発化する工夫」</a>にて，杉田先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>
 
