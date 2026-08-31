@@ -14,6 +14,10 @@ componentProps:
   tools: "ITC-LMS, Zoom"
 ---
 
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
 ## 授業の基本情報
 
 授業名　　:　刑法第２部<br>
