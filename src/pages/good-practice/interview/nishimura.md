@@ -14,6 +14,10 @@ componentProps:
   tools: "ITC-LMS, Zoom, YouTube"
 ---
 
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2021-01-20/">オンライン授業情報交換会「第27回 オンデマンド教材の制作の取り組み」</a>にて，西村先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>
 
 ## 授業の基本情報
