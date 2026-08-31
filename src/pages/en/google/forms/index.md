@@ -4,7 +4,7 @@ breadcrumb:
   title: Google Forms
 ---
 
-This page explains how to use Google Forms. It also includes examples of anticipated use case when used at the University of Tokyo.
+This page explains how to use Google Forms. It also includes examples of anticipated case of use when used at the University of Tokyo.
 
 ## What is Google Forms?
 
@@ -16,11 +16,11 @@ It features the following capabilities:
 * Organize and analyze collected information clearly
 * Collaborate throughout the entire process
 
-This page introduces the basic workflow of creating and responding to forms, as well as the functions and settings available when editing them. Please note that the instructions provided here assume you are operating from a PC. For detailed usage and specific procedures, please refer to the official help.
+This page introduces the basic workflow for creating and responding to forms, as well as the functions and settings available when editing them. Please note that the instructions provided here assume you are operating from a PC. For detailed usage and specific procedures, please refer to the official help.
 
 You can access Google Forms by using your ECCS Cloud Email account (the University of Tokyo's Google account). By using your ECCS Cloud Email account, you can restrict form access to UTokyo members only.
 
-## Use Cases
+## Cases of Use
 
 ### Using as a Survey Form
 
@@ -83,7 +83,7 @@ A form consists of any number of questions. The following explains how to create
 2. Enter the content of the question.
 3. Set the question format.
    * For more specific instructions, see "[Choose a type of question for your form](https://support.google.com/docs/answer/7322334?hl=en)" (official help).
-   * Please note that file upload answer options cannot be used in forms stored in shared drives.
+   * Please note that the file upload answer options cannot be used in forms stored in shared drives.
 4. For multiple-choice answer formats, configure the answer options.
 
 ### Step 3: Publish & Share
@@ -118,7 +118,7 @@ To have others respond to your form, share the response link by following these 
 
 1. Click the link icon in the upper right ("Copy responder link").
 2. Copy the response link.
-   * You can also share a shortened link by turning on "Shorten URL."
+   * You can also share a shortened link by turning on "Shorten URL".
 
 ![](./sharing-form-link.jpg)
 
@@ -132,7 +132,7 @@ To allow others to edit the form, share editing permission using one of the foll
 
 #### Managing Visibility
 
-From the "Manage" button under "Respondents," you can limit visibility to "Anyone with the link" or "東京大学ECCSクラウドメール" (Japanese name for "The University of Tokyo ECCS Cloud Email"). Using "東京大学ECCSクラウドメール" restricts respondents to members within the university. (In this case, people outside the university cannot respond to or view the form's questions, even if they have the link.)
+From the "Manage" button under "Respondents", you can limit visibility to "Anyone with the link" or "東京大学ECCSクラウドメール" (Japanese name for "The University of Tokyo ECCS Cloud Email"). Using "東京大学ECCSクラウドメール" restricts respondents to members within the university. (In this case, people outside the university cannot respond to or view the form's questions, even if they have the link.)
 
 ## Step 4: Check Responses
 {:#check_answer}
@@ -163,7 +163,7 @@ This section explains the flow for respondents to answer a Google Form.
 
 You can respond by accessing the "link for respondents" created by the form owner. Select and fill in all required fields, then click the "Submit" button to record your response.
 
-When using a browser signed in to a Google account, responses in progress are automatically saved as a draft for 30 days. Please note that this feature is only available in an online environment and when "the form owner has not disabled auto-save."
+When using a browser signed in to a Google account, responses in progress are automatically saved as a draft for 30 days. Please note that this feature is only available in an online environment and when "the form owner has not disabled auto-save".
 
 ### When "You need access" Is Displayed
 
@@ -248,7 +248,7 @@ Switching to the "Settings" tab allows you to configure settings related to test
    * Selecting "Collect email addresses" allows you to gather respondents' email addresses. You can choose either "Verified" to collect them automatically, or "Responder input" to have respondents enter them manually. This enables you to obtain their contact information and send them a copy of their responses.
    * When "Verified" is selected, respondents must be signed in to a Google account to submit the form; if not signed in, they will be prompted to do so. When "Responder input" is selected, no sign-in is required.
 3. Send Response Copy
-   * If you select "Send responders a copy of their response," a copy of their responses will be sent to the email address they provided. This allows respondents to review their own submitted answers. If you select "Always," a copy will be sent regardless of the respondent's preference.
+   * If you select "Send responders a copy of their response", a copy of their responses will be sent to the email address they provided. This allows respondents to review their own submitted answers. If you select "Always," a copy will be sent regardless of the respondent's preference.
 4. Allow Response Editing
    * Turning on "Allow response editing" lets respondents edit their submitted answers via a link shown on the post-submission screen, even after submitting. Please note that editing is only possible until responses are closed.
 5. Limit to 1 Response
