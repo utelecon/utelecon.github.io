@@ -14,6 +14,10 @@ componentProps:
   tools: "Google Classroom, Zoom, Slido, Google Documents, Sheets, Slides, Forms"
 ---
 
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
 ## 授業の基本情報
 
 授業名　　:　「学びの場」づくり<br>
