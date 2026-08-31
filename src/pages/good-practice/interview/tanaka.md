@@ -14,6 +14,10 @@ componentProps:
   tools: "ITC-LMS, Zoom, Slido, Google Forms"
 ---
 
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
 ## 授業の基本情報
 
 授業名　　:　解剖学第 3 (神経)<br>
