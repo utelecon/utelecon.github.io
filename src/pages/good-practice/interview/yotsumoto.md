@@ -14,6 +14,10 @@ componentProps:
   tools: "ITC-LMS, Zoom, Slido, Google Forms"
 ---
 
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
+
 <div class="box">このグッドプラクティスは，2020年度<a href="/events/luncheon/2020-11-10/">オンライン授業情報交換会「第19回 大人数のオンライン授業におけるインタラクションの工夫」</a>にて，四本先生にご登壇いただき，内容をご紹介いただきました．学内限定でランチョンの映像を公開しておりますので，ぜひご活用ください．</div>
 
 ## 授業の基本情報
