@@ -123,7 +123,7 @@ const keywordSchema = createEnumFromFilters(KEYWORDS);
 type Keyword = z.infer<typeof keywordSchema>;
 
 const interviews = defineCollection({
-  loader: glob({ pattern: "good-practice/interview/*.md", base: "./src/pages" }),
+  loader: glob({ pattern: "good-practice/interview/*.(md|mdx)", base: "./src/pages" }),
   schema: z.object({
     title: z.string(),
     filters: z.object({
