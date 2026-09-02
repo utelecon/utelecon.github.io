@@ -16,7 +16,7 @@ title: オンライン会議ツールを使って交流する
 
 ## Discord
 
-![](pic01.png){:width="200px"}
+![](pic01.png){:.small}
 
 ### Discordとは
 
