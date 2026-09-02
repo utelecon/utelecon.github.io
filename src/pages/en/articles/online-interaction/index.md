@@ -18,7 +18,7 @@ Here is a comparison of three tools for online meetings and conferencing: Discor
 
 ## Discord
 
-![](pic01.png){:width="200px"}
+![](pic01.png){:.small}
 
 ### What is Discord?
 
@@ -51,7 +51,7 @@ Discord is a tool for online voice chat (conversation through voice). It is char
 
 ## Gather
 
-![](pic06.png){:width="200px"}
+![](pic06.png){:.small}
 
 ### What is Gather?
 
@@ -82,7 +82,7 @@ This online communication tool features a playful UI in the style of retro games
 
 ## Remo
 
-![](pic08.png){:width="200px"}
+![](pic08.png){:.small}
 
 ### What is Remo?
 
