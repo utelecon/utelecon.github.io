@@ -47,7 +47,7 @@ title: オンライン会議ツールを使って交流する
 
 ## Gather
 
-![](pic06.png){:width="200px"}
+![](pic06.png){:.small}
 
 ### Gatherとは
 
@@ -78,7 +78,7 @@ title: オンライン会議ツールを使って交流する
 
 
 ## Remo
-![](pic08.png){:width="200px"}
+![](pic08.png){:.small}
 
 ### Remoとは
 
