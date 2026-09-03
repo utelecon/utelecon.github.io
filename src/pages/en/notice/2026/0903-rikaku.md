@@ -33,7 +33,7 @@ If you have any questions concerning UTOL, please contact us through the [Suppor
 
 **The course confirmation date for courses offered by the Junior Division of the College of Arts and Sciences in AY2026 is Tuesday, October 20, 2026, for the A Semester/A1 Term**. If you can no longer access a course because you forgot to register during the registration period, please make sure to complete your registration during the course correction period. In addition, **A2 Term courses will be available for self-registration even after the course registration period ends**. Please be especially careful not to forget to complete the course registration procedure.
 
-Please note that the course confirmation dates for courses held on the same day, and period by the same professor (combined course, or multiple signature courses) that are offered by the Senior Division of the College of Arts and Sciences are different from the above. Please be sure to register for these courses using UTAS during the relevant course registration period.
+Please note that the course confirmation dates for courses held on the same day and during the same period by the same professor (combined course, or multiple signature courses) that are offered by the Senior Division of the College of Arts and Sciences are different from the above. Please be sure to register for these courses using UTAS during the relevant course registration period.
 
 ### 2. Courses for the Faculty of Law, the Faculty of Economics, and the Graduate School of Arts and Sciences
 {:#law-econ-soc}
