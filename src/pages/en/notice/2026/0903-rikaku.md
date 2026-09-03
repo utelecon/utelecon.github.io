@@ -15,7 +15,7 @@ In the A semester of 2026, course confirmation dates will be set uniformly as fo
 
 Please refer to [Supplementary Information 1](#junior-division) for the Junior Division of the College of Arts and Sciences, and [Supplementary Information 2](#law-econ-soc) for the Faculty of Law, the Faculty of Economics, and the Graduate School of Arts and Sciences.
 
-| Term/Semester      | College of Arts and Sciences Junior Division            | All others      |
+| Term/Semester      | College of Arts and Sciences Junior Division            | **All others (See [Supplementary Information 2](#law-econ-soc))**|
 | :----------------- | :------------------------------------------------------ | :-------------- |
 | A1 Term/A Semester | **October 20**                                          | **October 15**  |
 | A2 Term            | **See [Supplementary Information 1](#junior-division)** | **December 10** |
@@ -35,7 +35,8 @@ If you have any questions concerning UTOL, please contact us through the [Suppor
 
 Please note that the course confirmation dates for courses held on the same day, and period by the same professor (combined course, or multiple signature courses) that are offered by the Senior Division of the College of Arts and Sciences are different from the above. Please be sure to register for these courses using UTAS during the relevant course registration period.
 
-### 2. Courses for the Faculty of Law, the Faculty of Economics, and the Graduate School of Arts and Sciences.
+### 2. Courses for the Faculty of Law, the Faculty of Economics, and the Graduate School of Arts and Sciences
+{:#law-econ-soc}
 
 The course confirmation date varies for certain courses offered by the Faculty of Law.
 
