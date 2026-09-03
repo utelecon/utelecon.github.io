@@ -16,9 +16,7 @@ In Slido, the Q&A feature allows students to freely send questions and comments.
 
 To create a Q&A, select “Audience Q&A” in the upper left corner of the screen or under “Add new interaction”.
 
-<figure>
-<img src="img/slido11.png" class="border">
-</figure>
+![](img/slido11.png){:.border}
 
 ### Q&A Settings
 
@@ -30,10 +28,8 @@ Clicking “Q&A settings” in the top right corner of the Q&A screen allows you
 * **Labels**: You can use the tag (label) feature to categorize and manage questions. You can also create new labels from the “Create a new label” field.
 * **Downvotes**: Students can downvote questions to express disagreement. Note that the “Like” (upvote) feature is always enabled.
 
-<figure>
-<img src="img/slido21.png" class="border">
-<img src="img/slido22.png" class="border">
-</figure>
+![](img/slido21.png){:.border}
+![](img/slido22.png){:.border}
 
 ### Checking Students’ Questions
 
@@ -42,9 +38,7 @@ The questions and comments from students will be displayed in the "Live" column 
 By default, the questions and comments are displayed in descending order of the number of “Likes” given to each post (“Top”: most popular), and are automatically updated.
 You can also sort by “Recent”: sort posts from newest to oldest. Just select the up/down arrows (“⇅” icon) at the top right of the screen.
 
-<figure>
-<img src="img/slido19.png" class="border">
-</figure>
+![](img/slido19.png){:.border}
 
 By hovering the cursor over each question/comment, the following buttons will appear and you can make an action to the question/comment. <img src="img/post.png" class="medium">
 * **Highlight (Green icon)**: You can pin a specific question/comment to the top of the screen. Posts set here will also be fixed at the top of all participants' screens.
@@ -67,9 +61,7 @@ If you click **Archive** at the top right of the screen, a list of archived ques
 
 In Slido, the polls feature allows teachers to ask questions/quizzes to students.
 
-<figure>
-<img src="img/slido1.png" class="border">
-</figure>
+![](img/slido1.png){:.border}
 
 (1) Event name and date<br>
 (2) Event code<br>
