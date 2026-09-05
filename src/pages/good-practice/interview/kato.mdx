@@ -14,13 +14,18 @@ componentProps:
   tools: "ITC-LMS, Zoom, TeX, Adobe Illustrator, Mathematica"
 ---
 
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+import kato2 from "./img/kato_2.png";
+
+<ExcuseForAccuracy />
+
 ## 授業の基本情報
 
-授業名　　:　ベクトル解析<br>
-開講部局　:　教養学部（前期課程）<br>
-対象　　　:　学部 2 年生（選択）、工学部の学生も 1 割程度参加<br>
-学生数　　:　約 200 名<br>
-形態　　　:　全てリアルタイム<br>
+授業名　　:　ベクトル解析<br />
+開講部局　:　教養学部（前期課程）<br />
+対象　　　:　学部 2 年生（選択）、工学部の学生も 1 割程度参加<br />
+学生数　　:　約 200 名<br />
+形態　　　:　全てリアルタイム<br />
 利用したツール　:
 
 - ITC-LMS: 学習管理システム（課題の配布、学生へのフィードバック）
@@ -31,16 +36,8 @@ componentProps:
 
 ## 教員の基本情報
 
-<div style="display: flex;">
-<img src="img/kato_1.png" alt="加藤 晃史 先生" height="150">
-<div style="padding-left:50px; height:150px; position:relative;">
-<p style="position: absolute; top: 50%; -webkit-transform : translateY(-50%); transform : translateY(-50%); width: 500px;">
-加藤 晃史 先生<br>
-数理科学研究科<br>
-准教授<br>
-</p>
-</div>
-</div>
+
+<div style="display: flex;">![加藤 晃史 先生](img/kato_1.png){:height="150px"}<div style="padding-left:50px; height:150px; position:relative;"><p style="position: absolute; top: 50%; -webkit-transform : translateY(-50%); transform : translateY(-50%); width: 500px;">加藤 晃史 先生<br />数理科学研究科<br />准教授<br /></p></div></div>
 
 ## 学生のコメント: この授業が良かった理由
 
@@ -67,10 +64,10 @@ componentProps:
 
 配布資料の長さは 300 ページ近くにもなりました。教科書にしたいくらいのボリュームですね。更新を繰り返し、最終的に配布したのは「version6.1」です。ただ、なかなかの自転車操業で、学生が誤植を指摘してくれることもありました。特にこだわったのは「図」で、Mathematica や Adobe Illustrator を使って学生の理解を助けることのできるようなものを多く挿入しました。
 
-<div style="margin:40px 0px">
-<img src="img/kato_2.png" alt="" width="600px" style="display: block; margin : 0 auto">
+<div style={{ margin: "40px 0px" }}>
+<img src={kato2.src} alt="" width="600" style={{ display: "block", margin: "0 auto" }} />
 
-<div style="text-align: center;">
+<div style={{ textAlign: "center" }}>
 </div>
 </div>
 
