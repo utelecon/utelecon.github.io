@@ -4,6 +4,10 @@ on:
   pull_request:
     branches: [master]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 jobs:
   build_base:
     runs-on: ubuntu-latest
@@ -15,17 +19,14 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 24
-      - uses: actions/cache@v5
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.os }}-node-
+          cache: npm
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-artifact@v7
         with:
           name: dist-base
           path: dist/
+          include-hidden-files: true
 
   build_pr:
     runs-on: ubuntu-latest
@@ -37,21 +38,19 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 24
-      - uses: actions/cache@v5
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.os }}-node-
+          cache: npm
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-artifact@v7
         with:
           name: dist-pr
           path: dist/
+          include-hidden-files: true
 
   compare:
     needs: [build_base, build_pr]
     runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
     steps:
       - uses: actions/download-artifact@v8
         with:
@@ -61,4 +60,38 @@ jobs:
         with:
           name: dist-pr
           path: dist-pr/
-      - run: diff -r dist-base/ dist-pr/
+      - name: Compare
+        run: |
+          diff -r  dist-base/ dist-pr/ >diff.txt       || true
+          diff -rq dist-base/ dist-pr/ >diff-brief.txt || true
+
+          count=$(wc -l <diff-brief.txt)
+          if [ "$count" -eq 0 ]; then
+            echo 'No differences found between the base and the PR build.' >>"$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          {
+            echo "Differences found in $count file(s)."
+            echo
+            echo '<details><summary>Changed files</summary>'
+            echo
+            echo '```'
+            head -n 100 diff-brief.txt
+            if [ "$count" -gt 100 ]; then
+              echo "... and $((count - 100)) more."
+            fi
+            echo '```'
+            echo
+            echo '</details>'
+            echo
+            echo 'Download the `diff` artifact of this run for the full output.'
+          } >>"$GITHUB_STEP_SUMMARY"
+          exit 1
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: diff
+          path: |
+            diff.txt
+            diff-brief.txt
