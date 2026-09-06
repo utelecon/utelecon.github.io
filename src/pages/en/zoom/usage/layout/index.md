@@ -36,12 +36,12 @@ In the Gallery view, you can set the maximum number of participants displayed on
 
 * Please note that you may not be able to select displaying 49 participants due to your CPU performance. Please refer to "[Adjusting your video layout during a virtual meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063672)" for details.
 
-1. Press the gear icon (Settings) on the upper right of the screen.
+1. Press the gear icon (Settings) on the bottom left of the screen.
 ![](gallery_max1.png)
-2. Press the "Video" on the left side of the setting window.
+2. Press the “Meetings & webinars” on the left side of the setting window.
 ![](gallery_max2.png)
-3. Select the maximum number of participants from "Maximum participants displayed per screen in gallery view"
-![](gallery_max3_Japanese.png)
+3. Select the maximum number of participants from “Maximum participants displayed per screen in gallery view”
+![](gallery_max3.png)
 
 #### Customize the video layout
 In Gallery view, you can customize the video layout of the participants according to your preference. If you want to change the layout, drag the video tile of the participant to your desired location on the screen.
@@ -73,8 +73,8 @@ In the Side-by-side mode, the display ratio between the shared screen and partic
 #### Set the Side-by-side mode as default.
 Setting the Side-by-side mode as default would be very convenient if you wish to use a Side-by-side mode every time. Here are the steps to enable this setting:
 
-1. Press the gear icon (Settings) at the upper right of the screen.
-![](leftright_default1.png)
+1. Press the gear icon (Settings) on the bottom left of the screen.
+![](gallery_max1.png)
 2. Press "Share screen"
 3. Press the box of "Side-by-side mode" to turn it on.
 ![](leftright_default2.png)
