@@ -36,27 +36,58 @@ jobs:
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Read the report
-        id: report
-        if: steps.download.outcome == 'success'
-        run: |
-          pr=$(cat report/pr-number)
-          count=$(cat report/count)
-          echo "pr=$pr"       >>"$GITHUB_OUTPUT"
-          echo "count=$count" >>"$GITHUB_OUTPUT"
-          echo "PR #$pr: $count differing file(s)"
-
-      - name: Post or update the comment
-        if: steps.report.outcome == 'success' && (env.MODE == 'comment' || env.MODE == 'both')
+      # 比較まで到達していれば report/ がある。ビルドが失敗した場合は無いので、
+      # その場合も PR 番号だけは特定して、古い承認やコメントを残さないようにする。
+      - name: Resolve the pull request and the result
+        id: result
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR: ${{ steps.report.outputs.pr }}
-          COUNT: ${{ steps.report.outputs.count }}
+          PAYLOAD_PR: ${{ github.event.workflow_run.pull_requests[0].number }}
+          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+        run: |
+          if [ -f report/pr-number ]; then
+            pr=$(cat report/pr-number)
+            count=$(cat report/count)
+            state=compared
+          else
+            pr="$PAYLOAD_PR"
+            if [ -z "$pr" ]; then
+              pr=$(gh api "repos/$GITHUB_REPOSITORY/pulls?state=open&head=${GITHUB_REPOSITORY%%/*}:$HEAD_BRANCH" \
+                     --jq '.[0].number // empty')
+            fi
+            count=
+            state=incomplete
+          fi
+
+          if [ -z "$pr" ]; then
+            echo 'Could not determine the pull request number. Nothing to do.'
+            state=unknown
+          fi
+
+          {
+            echo "pr=$pr"
+            echo "count=$count"
+            echo "state=$state"
+          } >>"$GITHUB_OUTPUT"
+          echo "pr=$pr count=$count state=$state"
+
+      - name: Post or update the comment
+        if: steps.result.outputs.state != 'unknown' && (env.MODE == 'comment' || env.MODE == 'both')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ steps.result.outputs.pr }}
+          COUNT: ${{ steps.result.outputs.count }}
+          STATE: ${{ steps.result.outputs.state }}
           RUN_URL: ${{ github.event.workflow_run.html_url }}
         run: |
           marker='<!-- dependabot-diff-report -->'
 
-          if [ "$COUNT" -eq 0 ]; then
+          if [ "$STATE" != 'compared' ]; then
+            body=$(printf '%s\n%s\n\n%s\n' \
+              "$marker" \
+              'Build output comparison: **could not compare**. The build did not complete.' \
+              "See the [workflow run]($RUN_URL) for details.")
+          elif [ "$COUNT" -eq 0 ]; then
             body=$(printf '%s\n%s\n\n%s\n' \
               "$marker" \
               'Build output comparison: **no differences** between the base branch and this pull request.' \
@@ -82,10 +113,10 @@ jobs:
 
       # 差分がなければ approve する。既に自分の承認があれば何もしない (冪等)。
       - name: Approve when there is no difference
-        if: steps.report.outcome == 'success' && steps.report.outputs.count == '0' && (env.MODE == 'approve' || env.MODE == 'both')
+        if: steps.result.outputs.state == 'compared' && steps.result.outputs.count == '0' && (env.MODE == 'approve' || env.MODE == 'both')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR: ${{ steps.report.outputs.pr }}
+          PR: ${{ steps.result.outputs.pr }}
         run: |
           existing=$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR/reviews" --paginate \
             --jq '[.[] | select(.user.login == "github-actions[bot]" and .state == "APPROVED")] | length')
@@ -99,18 +130,26 @@ jobs:
             -f event=APPROVE \
             -f body='The build output is identical to the base branch.'
 
-      # 差分が出たのに以前の承認が残っている場合は取り消す。
-      - name: Dismiss a stale approval when differences appear
-        if: steps.report.outcome == 'success' && steps.report.outputs.count != '0' && (env.MODE == 'approve' || env.MODE == 'both')
+      # 差分が出た場合と、比較まで到達しなかった場合は、過去の承認を取り消す。
+      # 取り消すのは Bot 自身の承認だけで、人によるレビューには触れない。
+      - name: Dismiss a stale approval
+        if: steps.result.outputs.state != 'unknown' && steps.result.outputs.count != '0' && (env.MODE == 'approve' || env.MODE == 'both')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR: ${{ steps.report.outputs.pr }}
+          PR: ${{ steps.result.outputs.pr }}
+          STATE: ${{ steps.result.outputs.state }}
         run: |
+          if [ "$STATE" = 'compared' ]; then
+            reason='The build output no longer matches the base branch.'
+          else
+            reason='The build output could not be compared because the build did not complete.'
+          fi
+
           gh api "repos/$GITHUB_REPOSITORY/pulls/$PR/reviews" --paginate \
             --jq '.[] | select(.user.login == "github-actions[bot]" and .state == "APPROVED") | .id' |
           while read -r id; do
             gh api -X PUT "repos/$GITHUB_REPOSITORY/pulls/$PR/reviews/$id/dismissals" \
-              -f message='The build output no longer matches the base branch.' \
+              -f message="$reason" \
               -f event=DISMISS >/dev/null
             echo "Dismissed review $id"
           done
