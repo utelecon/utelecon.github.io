@@ -45,7 +45,7 @@ In the Gallery view, you can set the maximum number of participants displayed on
 
 #### Customize the video layout
 In Gallery view, you can customize the video layout of the participants according to your preference. If you want to change the layout, drag the video tile of the participant to your desired location on the screen.
-![](customize1_Japanese.png)
+![](customize1.png)
 When you want to end the customization and revert to the automatic order, press "View" in the upper right corner and then click "Release Video Order".
 ![](customize2.png)
 
