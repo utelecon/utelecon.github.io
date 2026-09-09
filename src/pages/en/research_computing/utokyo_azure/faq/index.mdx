@@ -113,7 +113,7 @@ However, for example, login authentication to the OS running on a virtual machin
   <Fragment slot="solution"><p>Assigning the **Access Administrator** role allows a user to grant roles to other accounts (members) without possessing owner privileges.</p><p>When configuring this role, a "Conditions" section is added to the setup wizard; please ensure you select only the minimum necessary settings.</p></Fragment>
 </HelpItem>
 
-<HelpItem lang="ja" type="details">
+<HelpItem lang="en" type="details">
   <Fragment slot="problem">Role settings are not applied, or an error occurs when changing role settings.</Fragment>
   <Fragment slot="solution"><p>If you select `Eligible` as the **assignment type** when configuring permissions, the assignment will not take effect until the recipient approves it. (**Important:** Please **do not select** `Eligible`, as it requires a license.) Selecting `Active` makes the assignment effective immediately.</p><p>The system treats permission settings configured as `Eligible` and those configured as `Active` as distinct entities, even for the same account. Consequently, if you attempt to add or modify permissions for an account that already has an `Eligible` or `Active` setting using the other type, an error will occur indicating that a role is already assigned to the account. If a role is currently set to `Eligible`, please remove it first and then reconfigure it as `Active`.</p><p>Reference: [Groups Use](/en/research_computing/utokyo_azure/group/)</p></Fragment>
 </HelpItem>
@@ -138,6 +138,11 @@ However, for example, login authentication to the OS running on a virtual machin
 <HelpItem lang="en" type="details">
   <Fragment slot="problem">I want to know how to calculate the Free Tier and Guaranteed Free Tier</Fragment>
   <Fragment slot="solution">For details on the calculation method, please refer to the UTokyo Azure Usage Fee Policy of the [UTokyo Azure：UTokyo Member-only Site](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utokyo-azure-internal-en).</Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">The "weight" setting is not being reflected, or the figures do not match my own calculations.</Fragment>
+  <Fragment slot="solution"><p>The "weight" setting reflects unique accounts that are validly registered to a subscription or resource. Invalid roles—such as those configured with "Eligible" status—are not included in the calculation. Additionally, if the same account is registered to multiple resources, it is deduplicated across the subscription. However, if the same account is registered to different subscriptions, it is counted as valid for each one.</p><p>The recalculation of "weight" settings takes place at a specific time on the first day of each month. Changes are not reflected immediately after configuring a role, so please wait until the following month.</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="en" type="details">
