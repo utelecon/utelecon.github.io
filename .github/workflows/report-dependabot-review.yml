@@ -1,0 +1,155 @@
+name: Report Dependabot Review
+
+# 権限を持つ側。workflow_run で発火するため master 側のこのファイルが使われ、
+# PR のコードは一切実行しない。したがって pull-requests: write を持たせても安全。
+
+on:
+  workflow_run:
+    workflows: [Review Dependabot PRs]
+    types: [completed]
+
+permissions:
+  actions: read
+  pull-requests: write
+
+env:
+  # 差分がなかったときの動作を切り替える。
+  #   comment  … コメントするだけ
+  #   approve  … approve するだけ
+  #   both     … 両方
+  # approve を使う場合、リポジトリ設定の
+  # "Allow GitHub Actions to create and approve pull requests" が有効である必要がある。
+  MODE: comment
+
+jobs:
+  report:
+    if: github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download the report
+        id: download
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          name: diff-report
+          path: report/
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 比較まで到達していれば report/ がある。ビルドが失敗した場合は無いので、
+      # その場合も PR 番号だけは特定して、古い承認やコメントを残さないようにする。
+      - name: Resolve the pull request and the result
+        id: result
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAYLOAD_PR: ${{ github.event.workflow_run.pull_requests[0].number }}
+          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+        run: |
+          if [ -f report/pr-number ]; then
+            pr=$(cat report/pr-number)
+            count=$(cat report/count)
+            state=compared
+          else
+            pr="$PAYLOAD_PR"
+            if [ -z "$pr" ]; then
+              pr=$(gh api "repos/$GITHUB_REPOSITORY/pulls?state=open&head=${GITHUB_REPOSITORY%%/*}:$HEAD_BRANCH" \
+                     --jq '.[0].number // empty')
+            fi
+            count=
+            state=incomplete
+          fi
+
+          if [ -z "$pr" ]; then
+            echo 'Could not determine the pull request number. Nothing to do.'
+            state=unknown
+          fi
+
+          {
+            echo "pr=$pr"
+            echo "count=$count"
+            echo "state=$state"
+          } >>"$GITHUB_OUTPUT"
+          echo "pr=$pr count=$count state=$state"
+
+      - name: Post or update the comment
+        if: steps.result.outputs.state != 'unknown' && (env.MODE == 'comment' || env.MODE == 'both')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ steps.result.outputs.pr }}
+          COUNT: ${{ steps.result.outputs.count }}
+          STATE: ${{ steps.result.outputs.state }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+        run: |
+          marker='<!-- dependabot-diff-report -->'
+
+          if [ "$STATE" != 'compared' ]; then
+            body=$(printf '%s\n%s\n\n%s\n' \
+              "$marker" \
+              'Build output comparison: **could not compare**. The build did not complete.' \
+              "See the [workflow run]($RUN_URL) for details.")
+          elif [ "$COUNT" -eq 0 ]; then
+            body=$(printf '%s\n%s\n\n%s\n' \
+              "$marker" \
+              'Build output comparison: **no differences** between the base branch and this pull request.' \
+              "See the [workflow run]($RUN_URL) for details.")
+          else
+            body=$(printf '%s\n%s\n\n%s\n' \
+              "$marker" \
+              "Build output comparison: **$COUNT file(s) differ** between the base branch and this pull request." \
+              "Review the \`diff\` artifact of the [workflow run]($RUN_URL) before merging.")
+          fi
+
+          # 同じ marker を持つ既存コメントがあれば書き換える (毎回積み上げない)
+          id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$PR/comments" --paginate \
+                 --jq "[.[] | select(.body | startswith(\"$marker\"))] | last | .id // empty")
+
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$id" -f body="$body" >/dev/null
+            echo "Updated comment $id"
+          else
+            gh api -X POST "repos/$GITHUB_REPOSITORY/issues/$PR/comments" -f body="$body" >/dev/null
+            echo "Created a new comment"
+          fi
+
+      # 差分がなければ approve する。既に自分の承認があれば何もしない (冪等)。
+      - name: Approve when there is no difference
+        if: steps.result.outputs.state == 'compared' && steps.result.outputs.count == '0' && (env.MODE == 'approve' || env.MODE == 'both')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ steps.result.outputs.pr }}
+        run: |
+          existing=$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR/reviews" --paginate \
+            --jq '[.[] | select(.user.login == "github-actions[bot]" and .state == "APPROVED")] | length')
+
+          if [ "$existing" -gt 0 ]; then
+            echo 'Already approved. Nothing to do.'
+            exit 0
+          fi
+
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pulls/$PR/reviews" \
+            -f event=APPROVE \
+            -f body='The build output is identical to the base branch.'
+
+      # 差分が出た場合と、比較まで到達しなかった場合は、過去の承認を取り消す。
+      # 取り消すのは Bot 自身の承認だけで、人によるレビューには触れない。
+      - name: Dismiss a stale approval
+        if: steps.result.outputs.state != 'unknown' && steps.result.outputs.count != '0' && (env.MODE == 'approve' || env.MODE == 'both')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ steps.result.outputs.pr }}
+          STATE: ${{ steps.result.outputs.state }}
+        run: |
+          if [ "$STATE" = 'compared' ]; then
+            reason='The build output no longer matches the base branch.'
+          else
+            reason='The build output could not be compared because the build did not complete.'
+          fi
+
+          gh api "repos/$GITHUB_REPOSITORY/pulls/$PR/reviews" --paginate \
+            --jq '.[] | select(.user.login == "github-actions[bot]" and .state == "APPROVED") | .id' |
+          while read -r id; do
+            gh api -X PUT "repos/$GITHUB_REPOSITORY/pulls/$PR/reviews/$id/dismissals" \
+              -f message="$reason" \
+              -f event=DISMISS >/dev/null
+            echo "Dismissed review $id"
+          done
