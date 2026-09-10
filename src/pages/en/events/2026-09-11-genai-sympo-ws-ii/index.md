@@ -34,7 +34,7 @@ While the main purpose is information sharing and discussion among faculty, staf
   * 14:45–15:15 Tomoya Oyama, Associate Professor (Information Technology Center) --- "Generative AI Use in Report Assignments: Case Studies in the "Information" course (Humanities and Social Sciences Classes) in the Junior Division of the College of Arts and Sciences"
   * 15:15–15:45 Masahiro Kasahara, Associate Professor (Graduate School of Frontier Sciences) --- "Teaching Efficiently with Generative AI: A Programming Course for Biology Students Starting from Scratch"
   * 15:45–16:15 Thomas Kilburn Gally, Professor Emeritus (Project Professor, Center for Global Education, the University of Tokyo) --- "How Autonomously Can AI Agents Conduct Research?"
-  * 16:15-  TBA
+  * 16:15-17:00 Kenjiro Taura, (Executive Director and Vice President): What's next (my thoughts + discussion)
 
 ## Call for Presentations (Closed)
 
