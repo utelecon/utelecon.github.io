@@ -21,35 +21,35 @@ Aセメスターの開始にあたり，東京大学で利用されている情�
 - **会場**：オンライン
 - [**要事前登録**](https://u-tokyo-ac-jp.zoom.us/meeting/register/lSKY6USKTfiVimn0wLYVpw)
 
-詳細については，今後このページにてアナウンスします．
+<!-- 詳細については，今後このページにてアナウンスします．-->
 
- <!-- - **録画**：[Zoom]()（チャット・文字起こしが表示可能），[YouTube]() -->
+<!-- - **録画**：[Zoom]()（チャット・文字起こしが表示可能），[YouTube]() -->
 
-説明会の資料・録画もこのページで提供します．<!-- （録画の[再生リスト]()）． -->
+<!--説明会の資料・録画もこのページで提供します． （録画の[再生リスト]()）． -->
 
 ## 内容
 
-資料は当日までに順次掲載します．録画は終了後に掲載します．
+<!-- 資料は当日までに順次掲載します．録画は終了後に掲載します．-->
 
-* 説明会の趣旨と全体像（[資料](slides/00_index_ja.pdf)・録画）
-* Part I：東京大学における情報システムの基礎（[資料](slides/01_basics_ja.pdf)・録画）
+* 説明会の趣旨と全体像（[資料](slides/00_index_ja.pdf)・[録画](https://www.youtube.com/watch?v=GW3OQIJuTkc&t=75)）
+* Part I：東京大学における情報システムの基礎（[資料](slides/01_basics_ja.pdf)・[録画](https://www.youtube.com/watch?v=GW3OQIJuTkc&t=231)）
     * UTokyo Account
     * 初期設定と多要素認証
     * 情報セキュリティ教育
     * UTokyo Wi-Fi
-* Part II：利用可能なコミュニケーションツールとクラウドサービス（[資料](slides/02_cloud_services.pdf)・録画）
+* Part II：利用可能なコミュニケーションツールとクラウドサービス（[資料](slides/02_cloud_services.pdf)・[録画](https://www.youtube.com/watch?v=GW3OQIJuTkc&t=1977)）
     * Zoom とオンライン会議のためのツール
     * UTokyo Slack
     * ECCS クラウドメール (Google Workspace)
     * UTokyo Microsoft License
     * 生成AI
     * サポート体制
-* Part III：教育活動に利用する情報システム – UTAS と UTOL（[資料](slides/03_systems_for_education_ja.pdf)・録画）
+* Part III：教育活動に利用する情報システム – UTAS と UTOL（[資料](slides/03_systems_for_education_ja.pdf)・[録画](https://www.youtube.com/watch?v=GW3OQIJuTkc&t=5711)）
     * UTAS
     * UTOL
 * 質疑応答（終了後も質問を受け付けます）
 
-質問は**[こちらの Slido](https://app.sli.do/event/vecCSissbxMyEL53XgTx4E)** （または [https://sli.do/](https://sli.do/) で code = `utelecon20260909`）へ投稿してください．事前の質問も歓迎します．<!-- <ins>（9月11日追記：質問の受付は終了しました．開催時のご質問と回答はまだご覧いただけますが，録画を視聴されての新たなご質問は[サポート窓口](/support/)にお寄せください．）</ins> -->
+質問は**[こちらの Slido](https://app.sli.do/event/vecCSissbxMyEL53XgTx4E)** （または [https://sli.do/](https://sli.do/) で code = `utelecon20260909`）へ投稿してください．事前の質問も歓迎します．<ins>（9月11日追記：質問の受付は終了しました．開催時のご質問と回答はまだご覧いただけますが，録画を視聴されての新たなご質問は[サポート窓口](/support/)にお寄せください．）</ins>
 
 ### 話者
 
