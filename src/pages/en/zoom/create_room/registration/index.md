@@ -31,7 +31,7 @@ Here, we will explain how the host creates a meeting where the participant regis
 1. Prospective participants can perform the necessary registration procedures through the "Registration Link".
    Participants who have completed the registration procedure will automatically receive a confirmation email containing the individualised link.
 
-※For the host to be able to individually decide whether or not a prospective participant will receive the confirmation email or not, please use the "Manual Approval" option mentioned below.
+※To individually decide whether a prospective participant will receive a confirmation email or not, please use the "Manual Approval" option mentioned below.
 
 ### Enabling the Participant Registration Feature in an Already Created Meeting (Not Recommended)
 
