@@ -111,7 +111,7 @@ This is useful when you receive inquiries from prospective participants who have
 
 Using Zoom's participant registration feature allows you to accomplish the following.
 
--  Using the "Manually Approve" option to prevent registered prospective participants from receiving the join link until approved by the host.
+-  Use the "Manually Approve" option to prevent registered prospective participants from receiving the join link until approved by the host.
 -  Customize the fields in the form that prospective participants fill out on the registration page.
 -  View the information entered on the registration page by prospective participants.
 -  Ask for registration in advance for recurring meetings.
