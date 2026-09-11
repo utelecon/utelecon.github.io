@@ -87,7 +87,7 @@ By setting so that only participants who have a UTokyo Account which have `u-tok
    ![](RegisterLink.png){:.medium}
 
 ※If the email addresses of prospective participants are not in the format of `0123456789@utac.u-tokyo.ac.jp`, you may still be able to register in the Zoom system (if you have the Zoom account with `u-tokyo.ac.jp` at the end). 
-However, because using the UTokyo Account (10-digit Common ID+`@utac.u-tokyo.ac.jp`) as the Zoom account is standard at the University of Tokyo, please enter in the format of `0123456789@utac.u-tokyo.ac.jp`.
+However, because using the UTokyo Account (10-digit Common ID+`@utac.u-tokyo.ac.jp`) as the Zoom account is standard at the University of Tokyo, please enter it in the format of `0123456789@utac.u-tokyo.ac.jp`.
 
 ## Resending Confirmation Email
 
