@@ -27,14 +27,15 @@ AIが、大学で課される基本的な課題の多くを解いてしまうの
 
 * **日時：** 2026年9月11日（金） 13:00-17:00（終了時間は前後する可能性があります）
 * **場所：** オンライン (Zoom) 開催
-* **内容（変更されることがあります）**
-  * 13:00-13:15 田浦健次朗（執行役・副学長） 「挨拶および授業へのAI利用の現状〜アンケート結果を踏まえて」
-  * 13:15-14:15 吉田塁 准教授（工学系研究科）「授業における生成AIの活用 ～生成AIの可能性とリスクをふまえて～」
-  * 14:15-14:45 岡田晃枝 特任准教授（教養学部附属教養教育高度化機構）「『初年次ゼミナール文科』論文執筆における生成AIの授業利用や不正利用対策」
-  * 14:45-15:15 大山智也 准教授（情報基盤センター） 「教養前期課程『情報』（必修・文科系クラス）におけるレポート課題への生成AI利用事例」
-  * 15:15-15:45 笠原雅弘 准教授（新領域創成科学研究科） 「生成AIで効率良く教える、一から学ぶ生物系向けプログラミング授業」
-  * 15:45-16:15 Thomas Kilburn GALLY 名誉教授（東京大学グローバル教育センター特任教授）「AIエージェントがどこまで自律的に研究ができるか?」
-  * 16:15-17:00 田浦健次朗（執行役・副学長）今後の全学の取り組みについて
+* **内容** (動画および utac とついた資料は東大のGoogleアカウント (g.ecc) が必要です)
+
+  * 13:00-13:15 田浦健次朗（執行役・副学長） 「挨拶および授業へのAI利用の現状〜アンケート結果を踏まえて」 ([スライド](https://drive.google.com/file/d/1jk4BaycoVT9xmgXG5VRaEaaG0_Uvfq3H/view?usp=drive_link)・[動画](https://drive.google.com/file/d/1Wzwuqh5zOxIInzBr1camZpTnVeVROF8r/view?usp=drive_link))
+  * 13:15-14:15 吉田塁 准教授（工学系研究科）「授業における生成AIの活用 ～生成AIの可能性とリスクをふまえて～」 ([スライド](https://drive.google.com/file/d/1TOf21mGk78ultGmQmjFRX-QXHoBNnbxz/view?usp=drive_link)・[動画](https://drive.google.com/file/d/1pXkvgs0a3pol0OsbwKUaWrrXRG0XN_qS/view?usp=drive_link))
+  * 14:15-14:45 岡田晃枝 特任准教授（教養学部附属教養教育高度化機構）「『初年次ゼミナール文科』論文執筆における生成AIの授業利用や不正利用対策」 ([スライド (utac)](https://drive.google.com/file/d/1Bw6gEQG7B91U8fbWXZVrHD0vNejfVUOH/view?usp=drive_link)・[動画](https://drive.google.com/file/d/13IJsonosiH83f1W8s9fDxlXup7zNh94f/view?usp=drive_link))
+  * 14:45-15:15 大山智也 准教授（情報基盤センター） 「教養前期課程『情報』（必修・文科系クラス）におけるレポート課題への生成AI利用事例」 ([スライド](https://drive.google.com/file/d/1fjagskE6sfbjK2zyZ_AZH04KPyy6j85b/view?usp=drive_link)・[動画](https://drive.google.com/file/d/1ACbHtnqiTPhEPB4JW56l21VIgjVzzziu/view?usp=drive_link))
+  * 15:15-15:45 笠原雅弘 准教授（新領域創成科学研究科） 「生成AIで効率良く教える、一から学ぶ生物系向けプログラミング授業」 ([スライド](https://drive.google.com/file/d/1ZwaDSkxt07gQb-fmNbkcLJIBvzURjaUy/view?usp=drive_link)・[動画](https://drive.google.com/file/d/1KQRfl8ZgWOoVUu0klNjmQS2VG7tCBzhF/view?usp=drive_link))
+  * 15:45-16:15 Thomas Kilburn GALLY 名誉教授（東京大学グローバル教育センター特任教授）「AIエージェントがどこまで自律的に研究ができるか?」 ([スライド (utac)](https://drive.google.com/file/d/1LI7eBbGgPjtQeADiWjP3RKFnrNKwpGoG/view?usp=drive_link)・[動画](https://drive.google.com/file/d/1_9xn_voOMOlRexBvhPfGRnd0d4ptHSTT/view?usp=drive_link))
+  * 16:15-17:00 田浦健次朗（執行役・副学長）今後の全学の取り組みについて ([スライド](https://drive.google.com/file/d/1jk4BaycoVT9xmgXG5VRaEaaG0_Uvfq3H/view?usp=drive_link)・[動画](https://drive.google.com/file/d/1iOTVz27r_jkDY14_KDZFI-A1gRlSyP-a/view?usp=drive_link))
 
 * 資料は[参加者用ページ](https://drive.google.com/drive/folders/1OBMSSzHufVamH2R0h9KmlykEpLkEps5l?usp=sharing)からご覧下さい（要UTokyo Accountでサインイン）
 

@@ -27,14 +27,14 @@ While the main purpose is information sharing and discussion among faculty, staf
 
 * Date: Friday, September 11, 2026, 13:00–17:00 (end time may vary)
 * Location: Online (Zoom)
-* Program (subject to change)
-  * 13:00–13:15 Kenjiro Taura (Executive Director and Vice President): "Opening remarks and the current state of AI use in courses, based on survey results"
-  * 13:15–14:15 Associate Professor Lui Yoshida (School of Engineering): "Utilizing generative AI in the classroom — considering its potential and risks"
-  * 14:15–14:45 Akie Okada, Project Associate Professor (Komaba Organization for Educational Excellence, College of Arts and Sciences) --- "Classroom Use of Generative AI and Measures Against Its Misuse in Paper Writing for First-Year Seminar (Humanities and Social Sciences)"
-  * 14:45–15:15 Tomoya Oyama, Associate Professor (Information Technology Center) --- "Generative AI Use in Report Assignments: Case Studies in the "Information" course (Humanities and Social Sciences Classes) in the Junior Division of the College of Arts and Sciences"
-  * 15:15–15:45 Masahiro Kasahara, Associate Professor (Graduate School of Frontier Sciences) --- "Teaching Efficiently with Generative AI: A Programming Course for Biology Students Starting from Scratch"
-  * 15:45–16:15 Thomas Kilburn Gally, Professor Emeritus (Project Professor, Center for Global Education, the University of Tokyo) --- "How Autonomously Can AI Agents Conduct Research?"
-  * 16:15-17:00 Kenjiro Taura, (Executive Director and Vice President): What's next (my thoughts + discussion)
+* Program (videos and slides with "utac" requires sign in with UTokyo Google account (g.ecc))
+  * 13:00–13:15 Kenjiro Taura (Executive Director and Vice President): "Opening remarks and the current state of AI use in courses, based on survey results" ([slides](https://drive.google.com/file/d/1jk4BaycoVT9xmgXG5VRaEaaG0_Uvfq3H/view?usp=drive_link)・[video](https://drive.google.com/file/d/1Wzwuqh5zOxIInzBr1camZpTnVeVROF8r/view?usp=drive_link))
+  * 13:15–14:15 Associate Professor Lui Yoshida (School of Engineering): "Utilizing generative AI in the classroom — considering its potential and risks" ([slides](https://drive.google.com/file/d/1TOf21mGk78ultGmQmjFRX-QXHoBNnbxz/view?usp=drive_link)・[video](https://drive.google.com/file/d/1pXkvgs0a3pol0OsbwKUaWrrXRG0XN_qS/view?usp=drive_link))
+  * 14:15–14:45 Akie Okada, Project Associate Professor (Komaba Organization for Educational Excellence, College of Arts and Sciences) --- "Classroom Use of Generative AI and Measures Against Its Misuse in Paper Writing for First-Year Seminar (Humanities and Social Sciences)" ([slides (utac)](https://drive.google.com/file/d/1Bw6gEQG7B91U8fbWXZVrHD0vNejfVUOH/view?usp=drive_link)・[video](https://drive.google.com/file/d/13IJsonosiH83f1W8s9fDxlXup7zNh94f/view?usp=drive_link))
+  * 14:45–15:15 Tomoya Oyama, Associate Professor (Information Technology Center) --- "Generative AI Use in Report Assignments: Case Studies in the "Information" course (Humanities and Social Sciences Classes) in the Junior Division of the College of Arts and Sciences" ([slides](https://drive.google.com/file/d/1fjagskE6sfbjK2zyZ_AZH04KPyy6j85b/view?usp=drive_link)・[video](https://drive.google.com/file/d/1ACbHtnqiTPhEPB4JW56l21VIgjVzzziu/view?usp=drive_link))
+  * 15:15–15:45 Masahiro Kasahara, Associate Professor (Graduate School of Frontier Sciences) --- "Teaching Efficiently with Generative AI: A Programming Course for Biology Students Starting from Scratch" ([slides](https://drive.google.com/file/d/1ZwaDSkxt07gQb-fmNbkcLJIBvzURjaUy/view?usp=drive_link)・[video](https://drive.google.com/file/d/1KQRfl8ZgWOoVUu0klNjmQS2VG7tCBzhF/view?usp=drive_link))
+  * 15:45–16:15 Thomas Kilburn Gally, Professor Emeritus (Project Professor, Center for Global Education, the University of Tokyo) --- "How Autonomously Can AI Agents Conduct Research?" ([slides (utac)](https://drive.google.com/file/d/1LI7eBbGgPjtQeADiWjP3RKFnrNKwpGoG/view?usp=drive_link)・[video](https://drive.google.com/file/d/1_9xn_voOMOlRexBvhPfGRnd0d4ptHSTT/view?usp=drive_link))
+  * 16:15-17:00 Kenjiro Taura, (Executive Director and Vice President): What's next (my thoughts + discussion) ([slides](https://drive.google.com/file/d/1jk4BaycoVT9xmgXG5VRaEaaG0_Uvfq3H/view?usp=drive_link)・[video](https://drive.google.com/file/d/1iOTVz27r_jkDY14_KDZFI-A1gRlSyP-a/view?usp=drive_link))
 
 ## Call for Presentations (Closed)
 
