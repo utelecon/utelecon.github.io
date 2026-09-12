@@ -28,9 +28,7 @@ Cosense is a tool provided by Helpfeel Inc. for storing and organizing a large n
 
 By using Cosense, you can easily create a document like the one below.
 
-<figure>
-<img src="30.png">
-</figure>
+![](30.png)
 
 ### Rate Plans
 (As of October 2021) 
@@ -47,7 +45,7 @@ In this section, you will learn how to create an account with Google Account.
 Access the website of Cosense ([https://cosen.se/product](https://cosen.se/product)) from your browser and click the "TRY IT FOR FREE" button.
 
 <figure>
-<img src="2.png">
+<img src="2.png"/>
 <figcaption>Click on the area circled in red (or the "SIGN UP" string in the upper right corner). </figcaption>
 </figure>
 
@@ -62,18 +60,14 @@ In some cases, you will be presented with multiple account suggestions (see the 
 
 Once your Google account is connected, you will be taken to the Cosense account setting page. Please enter "Name" and "Username" respectively.
 
-<figure>
-<img src="5.png">
-</figure>
+![](5.png)
 
 * Your Google account name will by default be your “Name” in Cosense. You might re-enter to change it.
 * "Username" is used as the page title of your personal page and must be entered in half-width alphanumeric characters. It is best to use your own name for clarity.
 
 Select "Looks Good" to complete the account creation. When the following screen appears, click on the green "Create new project" button to create a project.
 
-<figure>
-<img src="13.png">
-</figure>
+![](13.png)
 
 For details on how to create a project, see "[Create a project](#create_project)".
 
@@ -98,9 +92,7 @@ Below we will explain how to create a project.
    * **"Upload image to"**: Select where you want to upload the image. Normally, you can select "scrapbox.io". The uploaded image will be saved on Cosense.
 4. When you are done, click the green "Create" button.
 
-<figure>
-<img src="14.png">
-</figure>
+![](14.png)
 <!-- <img src="006.png"> -->
 
 ## Sharing a Project
@@ -164,15 +156,11 @@ The following explains how to format and edit a page.
 
 The first line is the title, and the second and subsequent lines are the body. The title line can be left blank. However, as it will become the heading in the page list screen, it is recommended that you write something in it for easy location.
 
-<figure>
-<img src="9.png">
-</figure>
+![](9.png)
 
 By typing a space at the beginning of a line, you can create a bullet list; pressing Enter will automatically move to the next bullet list. If you want to stop bulleting, press the Enter key twice.
 
-<figure>
-<img src="10.png">
-</figure>
+![](10.png)
 
 You can create a hierarchy by typing a space at the beginning of each line. The depth of the hierarchy can be freely adjusted by the number of single-byte spaces.
 
@@ -180,20 +168,14 @@ You can create a hierarchy by typing a space at the beginning of each line. The 
 <img src="25.png">
 </figure> -->
 
-<figure>
-<img src="26.png">
-</figure>
+![](26.png)
 
 You can also add decorations such as bold, italic, strikethrough and others. by selecting the text.
 
 For example, if you select a string of text and choose "strong" from the window that comes up, you can make the text bold.
-<figure>
-<img src="28.png">
-</figure>
+![](28.png)
 
-<figure>
-<img src="29.png">
-</figure>
+![](29.png)
 
 ### Jumping From One Page to Another
 
@@ -201,60 +183,44 @@ If you want to structure pages (relate pages to each other), you can use the lin
 You can automatically generate links by enclosing the string you want to link with `[ ]`, and hashtags by prefixing the string with `#`.
 
 Links and hashtags are displayed in blue and pink respectively.
-<figure>
-<img src="11.png">
-</figure>
+![](11.png)
 
 Clicking on a link or a hashtag string will take you to a page titled with the respective string.  
 If you click on the "Link" string in the previous image, you will be taken to a new page with the title "Link". From here, you can create a new page by typing the text.
 
-<figure>
-<img src="12.png">
-</figure>
+![](12.png)
 
 Pages with the same hashtag will be displayed together at the bottom of the screen. You can use the same hashtag for all related pages to make the connection easier to understand.
 
-<figure>
-<img src="27.png">
-</figure>
+![](27.png)
 
 Clicking on the project name in the upper left corner will take you to the page list screen (the top page of the project).
 
-<figure>
-<img src="15.png">
-</figure>
+![](15.png)
 
-<figure>
-<img src="16.png">
-</figure>
+![](16.png)
 
 ### Inserting an Image
 #### When Operating on a PC
 
 To insert an image saved on your PC, drag and drop or copy and paste it into the page.
 
-<figure>
-<img src="17.png">
-</figure>
+![](17.png)
 
 <!-- <figure>
-<img src="18.png">
+<img src="18.png"/>
 <figcaption>画像がページに挿入されます．</figcaption>
 </figure> -->
 
 On the right side of the screen, you can also select "Upload file" from the ![](20.png){:.icon} icon (red circle in the image below) and select the file you want to insert.
 
-<figure>
-<img src="21.png">
-</figure>
+![](21.png)
 
 #### When Operating on a Mobile Phone
 
 In the mobile version, click the ![](20.png){:.icon}icon in the upper right corner, select "Upload file" (red circle in the image) to insert an image saved on your cell phone.
 
-<figure>
-<img src="19.png">
-</figure>
+![](19.png)
 
 
 ### Inserting a Hand-drawn Diagram
@@ -266,30 +232,21 @@ Click the ![](20.png){:.icon} icon on the right side of the screen and select "D
 
 On the drawing screen, you can use the mouse or a pen-tab to draw freely.
 
-<figure>
-<img src="22.png">
-</figure>
+![](22.png)
 
 Once you have created an image to insert, click the green "Upload" button in the upper right corner.
 
-<figure>
-<img src="23.png">
-</figure>
+![](23.png)
 
 The created image will be inserted into the page.
 
-<figure>
-<img src="24.png">
-<figcaption></figcaption>
-</figure>
+![](24.png)
 
 #### When Operating on a Mobile Phone
 
 If you are using the mobile version, click on the ![](20.png){:.icon} icon in the upper right corner, select "drawing" (red circle in the image) to perform the same operation.
 
-<figure>
-<img src="31.png">
-</figure>
+![](31.png)
 
 
 ## Tips: Notifying Updates to Chat Tools such as Slack

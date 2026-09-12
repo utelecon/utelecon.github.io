@@ -59,11 +59,11 @@ The following systems are available for saving and sharing video data online at 
 ## Survey Results of Cloud Recording Usage
 
 <figure>
-    <img src="access_history.png" class="border medium center">
+    <img src="access_history.png" class="border medium center"/>
     <figcaption class="center">Figure 1: Access history of Zoom cloud recordings (by time of recording)</figcaption>
 </figure>
 
 <figure>
-    <img src="access_period.png" class="border medium center">
+    <img src="access_period.png" class="border medium center"/>
     <figcaption class="center">Figure 2: Distribution of time between recording and last access for Zoom cloud recordings</figcaption>
 </figure>

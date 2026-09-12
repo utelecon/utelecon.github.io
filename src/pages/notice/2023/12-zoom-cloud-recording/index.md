@@ -61,11 +61,11 @@ title: Zoomクラウド録画における不要なデータ削除等のお願い
 ## クラウド録画の使用状況の調査結果
 
 <figure>
-    <img src="access_history.png" class="border medium center">
+    <img src="access_history.png" class="border medium center"/>
     <figcaption class="center">図1：Zoomクラウド録画のアクセス履歴の有無（録画時期別）</figcaption>
 </figure>
 
 <figure>
-    <img src="access_period.png" class="border medium center">
+    <img src="access_period.png" class="border medium center"/>
     <figcaption class="center">図2：Zoomクラウド録画における録画から最終アクセスまでの期間の分布</figcaption>
 </figure>
