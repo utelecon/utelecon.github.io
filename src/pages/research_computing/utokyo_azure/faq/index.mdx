@@ -137,6 +137,11 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
+  <Fragment slot="problem">「重み」が反映されない、または自分の計算と合わないのですが</Fragment>
+  <Fragment slot="solution"><p>重みには，サブスクリプションに有効に登録されている，ユニークかつ有効なアカウントが反映されます．ロールは Active で設定してください．</p><p>同じアカウントが同一サブスクリプション内に複数のロールで登録されている場合重複排除されます．別のサブスクリプションに登録されている場合はそれぞれ有効です．</p><p>重みの再集計は毎月1日のとあるタイミングで実施されます．ロール設定直後は反映されませんので，翌月までお待ちください．</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
   <Fragment slot="problem">自分の無料保証枠がどのくらい残っているか，あとどのくらい無料で使えるかを知りたい</Fragment>
   <Fragment slot="solution"><p>所有者権限のアカウントのみ：[UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から，ご自身のサブスクリプションが今どの程度利用されているかが表示されます．また，無料分全体を利用者全体でどの程度消費したかをグラフで表示しています．これらの情報の更新は１日単位です．</p><p>また，UTokyo Azure 独自機能として，無料保証枠の 50%, 75%, 90%, 100%, のそれぞれに達した際に，所有者の登録メールアドレス宛に通知メールを送信します．これらの情報もご活用ください．</p></Fragment>
 </HelpItem>
