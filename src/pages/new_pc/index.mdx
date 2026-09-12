@@ -1,0 +1,211 @@
+---
+title: 新たにPCを買う方へ／新たにPCを買った方へ
+description: 新しくPCを購入する方や，新しいPCの利用を開始する東京大学の学生・教職員に向けて，購入前の確認事項と初期セットアップを案内します．
+breadcrumb:
+  title: 新たにPCを買う方へ／新たにPCを買った方へ
+---
+
+import ScenarioGuide from "@components/ja/new-pc/ScenarioGuide.astro";
+import OperatingSystemTabs from "@components/ja/new-pc/OperatingSystemTabs.astro";
+import OperatingSystemPanel from "@components/ja/new-pc/OperatingSystemPanel.astro";
+import UTokyoWiFiApply from "@components/ja/systems/utokyo_wifi/Apply.mdx";
+import UTokyoWiFiConnect from "@components/ja/systems/utokyo_wifi/Connect.mdx";
+import MicrosoftInstallApps from "@components/ja/systems/microsoft/InstallApps.mdx";
+import ZoomInstallAppPc from "@components/ja/systems/zoom/InstallAppPc.mdx";
+
+import PrivateGuide from "./_private.mdx";
+import OfficialSelfGuide from "./_official-self.mdx";
+import OfficialOthersGuide from "./_official-others.mdx";
+import StaffUniversityGuide from "./_staff-university.mdx";
+import WindowsGuide from "./_windows.mdx";
+import MacGuide from "./_mac.mdx";
+
+## はじめに
+{:#introduction}
+
+### このページの目的
+{:#purpose}
+
+このページは，新しくPCを購入する方や，新しいPCの利用を開始する東京大学の学生・教職員に向けた案内ページです．PCを選ぶときに確認したいことから，端末の初期セットアップ，東京大学でよく利用するソフトウェアやサービスの準備までを説明します．
+
+新たに東京大学の構成員となった方は，PCの準備だけでなく，大学の情報システムを使い始めるための設定も必要です．次のページもあわせて確認してください．
+
+- 新入生の方：[大学生活に必要な情報システムの準備について（新入生向け）](/oc/)
+- 新任教員の方：[東京大学における情報システムの準備について（教員向け）](/faculty_members/)
+- 新任職員の方：[業務に必要な情報システムの準備について（職員向け）](/staff_members/)
+
+## PCを買う前に
+{:#before-buying}
+
+### 学生の方
+{:#before-buying-students}
+
+授業や学修で使用するPCに求められる性能や機能は，「[東京大学のBYOD方針](/docs/byod/)」を確認してください．持ち運んで使用する場合は，性能だけでなく，本体の重さ，バッテリー駆動時間，保証・修理サービスも確認すると安心です．
+
+PCの選定・購入にあたっては，東京大学消費生活協同組合が公開している新入生向けの特集ページ「[受験生・新入生応援サイト 東大モデルPC](https://start.utcoop.or.jp/pc/#model)」も参考になるかもしれません．
+
+### 教職員の方
+{:#before-buying-faculty-and-staff}
+
+担当する業務・教育・研究に必要なソフトウェアや周辺機器を確認し，必要な性能を満たすPCを購入してください．機種を検討する際は，「[東京大学のBYOD方針](/docs/byod/)」に掲載されている学生用PCの目安も参考にできます．
+
+校費（大学予算・研究費等）で購入する場合は，発注前に所属組織の会計・調達担当者へ相談し，購入方法，利用できる経費，指定機種の有無，資産・物品としての管理方法を確認してください．
+
+## PCを使い始めるにあたって
+{:#getting-started}
+
+### セットアップ前の準備
+{:#preparation}
+
+- **校費で購入したPCや，所属組織から貸与されたPCを利用する場合**：初期設定について所属組織から指示がある場合は，その指示に従ってください．既に設定済みのPCを渡された場合は，自分で初期化や再セットアップを行わないでください．
+- **設定時にUTokyo Wi-Fiを利用する場合**：あらかじめ別のPCやスマートフォンなどを使って，[UTokyo Accountを使い始めるための設定](/utokyo_account/#procedures)と，[UTokyo Wi-Fiアカウントの発行](/utokyo_wifi/#initial-setup)を済ませてください．新しいPCをネットワークへ接続する段階で必要になるため，セットアップを始める前にUTokyo Wi-FiアカウントのユーザーIDとパスワードを用意しておいてください．
+- **手元に以前のPCがある場合**：必要なファイル，ブラウザのブックマーク，メール，アプリの設定などをバックアップし，新しいPCへ移すデータを整理してください．
+- **各種アカウントの情報**：初期セットアップで使用する個人用MicrosoftアカウントまたはApple AccountのID・パスワードと，本人確認に使うスマートフォンなどを用意してください．
+
+### 端末の初期セットアップ
+{:#initial-setup}
+
+PCの購入方法と主な利用者によって，初期セットアップに使用するアカウントや，管理上の注意点が異なります．次の4つから最も近いものを選んでください．大学が用意したPCを職員として業務に使う場合を除き，選択後にWindowsまたはMacのタブを選ぶと，該当する案内が表示されます．
+
+<ScenarioGuide>
+  <OperatingSystemTabs slot="afterSelector" />
+  <div slot="private">
+    <PrivateGuide />
+  </div>
+  <div slot="officialSelf">
+    <OfficialSelfGuide />
+  </div>
+  <div slot="officialOthers">
+    <OfficialOthersGuide />
+  </div>
+  <div slot="staffUniversity">
+    <StaffUniversityGuide />
+  </div>
+  <div slot="privateOperatingSystem">
+    <OperatingSystemPanel os="windows">
+      <WindowsGuide ownership="personal" />
+    </OperatingSystemPanel>
+    <OperatingSystemPanel os="mac">
+      <MacGuide ownership="personal" />
+    </OperatingSystemPanel>
+  </div>
+  <div slot="officialSelfOperatingSystem">
+    <OperatingSystemPanel os="windows">
+      <WindowsGuide ownership="organization" />
+    </OperatingSystemPanel>
+    <OperatingSystemPanel os="mac">
+      <MacGuide ownership="organization" />
+    </OperatingSystemPanel>
+  </div>
+  <div slot="officialOthersOperatingSystem">
+    <OperatingSystemPanel os="windows">
+      <WindowsGuide ownership="organization" />
+    </OperatingSystemPanel>
+    <OperatingSystemPanel os="mac">
+      <MacGuide ownership="organization" />
+    </OperatingSystemPanel>
+  </div>
+</ScenarioGuide>
+
+どのケースを選べばよいか分からない場合は，セットアップを始める前に，所属組織の会計・調達担当者または情報システム担当者へ確認してください．
+
+## ウイルス対策ソフトウェアのインストール
+{:#antivirus}
+
+東京大学では，「[情報倫理・コンピュータ利用ガイドライン](https://www.u-tokyo.ac.jp/adm/cie/ja/index.html)」において，コンピュータに「適切なウイルス対策」を行うことを求めています．OSやソフトウェアを最新の状態に保ち，OSに標準搭載されたセキュリティ機能または所属組織が指定するウイルス対策ソフトウェアを有効にしてください．
+
+東京大学は学生・教職員に対し，ウイルス対策ソフトウェアの包括ライセンスとしてTrend Micro社の製品を提供しています．必要に応じて利用してください．利用対象者，対応OS，インストール手順については，「[ウイルス対策ソフトウェア包括ライセンス](/antivirus/)」を確認してください．
+
+<OperatingSystemPanel os="windows">
+    Windowsでは，包括ライセンスによりTrend Micro Apex OneのWindows版を利用できます．所属組織から使用する製品を指定されている場合は，その指示を優先してください．インストール前にWindows Updateを実行し，既に別のウイルス対策ソフトウェアがインストールされている場合は，併用の可否を確認してください．
+
+    [Windowsで利用する場合の申請・インストール手順を確認する](/antivirus/)
+</OperatingSystemPanel>
+<OperatingSystemPanel os="mac">
+    Macでは，包括ライセンスによりTrend Micro Apex OneのmacOS版を利用できます．所属組織から使用する製品を指定されている場合は，その指示を優先してください．インストール中に機能拡張やフルディスクアクセスなどの許可を求められた場合は，配布元の手順に従って設定してください．
+
+    [Macで利用する場合の申請・インストール手順を確認する](/antivirus/)
+</OperatingSystemPanel>
+
+## Microsoft Officeのインストール
+{:#office}
+
+UTokyo Microsoft Licenseの利用対象者は，UTokyo Accountを使ってWord，Excel，PowerPointなどのMicrosoft 365 Appsをインストールできます．利用条件や注意事項については，「[UTokyo Microsoft LicenseでOfficeアプリをインストールする](/microsoft/install/)」も確認してください．
+
+<OperatingSystemPanel os="windows">
+    <MicrosoftInstallApps support variant="individual" os="windows" compact />
+</OperatingSystemPanel>
+<OperatingSystemPanel os="mac">
+    <MicrosoftInstallApps support variant="individual" os="mac" compact />
+</OperatingSystemPanel>
+
+## その他のサービスの準備
+{:#other-services}
+
+東京大学でよく利用するサービスのうち，PC側でアカウントの発行やアプリのインストールが必要なものを紹介します．授業・業務・研究で利用するものを準備してください．
+
+### UTokyo Wi-Fi
+{:#utokyo-wifi}
+
+キャンパス内でUTokyo Wi-Fiを利用するには，UTokyo Accountとは別に，UTokyo Wi-Fiアカウントを発行してPCへ設定します．初めて利用する方は「[UTokyo Wi-Fi](/utokyo_wifi/)」の利用条件も確認してください．
+
+<details>
+  <summary>UTokyo Wi-Fiアカウントの発行手順を確認する</summary>
+  <UTokyoWiFiApply inlineHelp support />
+</details>
+
+PCへ設定する手順は，上で選択したOSに応じて表示されます．
+
+<OperatingSystemPanel os="windows">
+    <UTokyoWiFiConnect
+      applyStep="上のアカウント発行手順"
+      connectConfiguration={<a href="/utokyo_wifi/windows/">Windows向けの詳しい接続手順</a>}
+    />
+</OperatingSystemPanel>
+<OperatingSystemPanel os="mac">
+    <UTokyoWiFiConnect
+      applyStep="上のアカウント発行手順"
+      connectConfiguration={<a href="/utokyo_wifi/macos/">macOS向けの詳しい接続手順</a>}
+    />
+</OperatingSystemPanel>
+
+### UTokyo VPN
+{:#utokyo-vpn}
+
+学外から学内ネットワークへ接続する必要がある場合は，UTokyo VPNを利用できます．利用にはCisco Secure Clientのインストールが必要です．利用条件については「[UTokyo VPN](/utokyo_vpn/)」を確認してください．
+
+<OperatingSystemPanel os="windows">
+    Windows版のCisco Secure Clientをインストールし，UTokyo Accountで認証して接続します．インストールから接続確認までの手順は，「[WindowsでUTokyo VPNを利用する](/utokyo_vpn/windows/)」を確認してください．
+</OperatingSystemPanel>
+<OperatingSystemPanel os="mac">
+    macOS版のCisco Secure Clientをインストールし，UTokyo Accountで認証して接続します．インストール時にシステム拡張機能などの許可を求められる場合があります．詳しい手順は，「[macOSでUTokyo VPNを利用する](/utokyo_vpn/macos/)」を確認してください．
+</OperatingSystemPanel>
+
+### Zoom
+{:#zoom}
+
+オンライン授業や会議でZoomを利用する場合は，Zoom Workplaceアプリをインストールしてください．
+
+<OperatingSystemPanel os="windows">
+    <ZoomInstallAppPc support variant="individual" os="windows" />
+</OperatingSystemPanel>
+<OperatingSystemPanel os="mac">
+    <ZoomInstallAppPc support variant="individual" os="mac" />
+</OperatingSystemPanel>
+
+## Q&A
+{:#qa}
+
+### Q. 卒業・退職後はどうすればよいですか？
+{:#after-leaving}
+
+個人のアカウントでセットアップした端末は，卒業や退職により東京大学を離れた後もそのまま利用できます．ただし，UTokyo Accountで利用していたOffice，OneDriveなどのライセンスやデータは利用できなくなるため，離籍前に「[卒業・退職や所属変更によるアカウント失効についての注意](/systems/leave/)」を確認してください．
+
+組織内で後任者に引き継ぐなど，その端末を残していく場合は，必要なデータを引き継いだ上で端末を初期化するか，後任者のユーザアカウントに管理者権限を付与してから，自身のユーザアカウントと個人データを削除してください．実際の作業は，所属組織の情報システム担当者の指示に従ってください．
+
+## 困ったときは
+{:#help}
+
+- UTokyo Accountや，uteleconで案内している大学の情報サービスについて分からないことがある場合は，[uteleconのサポート窓口](/support/)へ相談してください．
+- PC本体の故障，初期不良，修理については，購入店またはメーカーのサポートを利用してください．東京大学消費生活協同組合で購入したPCなどの修理については，生協の「[修理](https://www.utcoop.or.jp/service/tools/repair/)」の案内を確認し，保証書などを用意して駒場購買部または本郷第一購買部などへ相談してください．
+- 生協で取り扱うPCやサポートの最新情報が必要な場合は，Webで「東大生協 PC」と検索してください．

@@ -1,0 +1,11 @@
+---
+interface Props {
+  os: "windows" | "mac";
+}
+
+const { os } = Astro.props;
+---
+
+<div data-new-pc-os={os} hidden>
+  <slot />
+</div>
