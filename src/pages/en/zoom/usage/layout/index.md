@@ -64,7 +64,8 @@ Following are the setting procedures for starting the Side-by-side mode.
 2. Press "Side-by-side mode".
 ![](leftright.png)
 
-If you want to exit the side-by-side display, press the check mark of "Side-by-Side Mode" in Step 2. Additionally, you can switch between the Speaker view and Gallery view for the participants on the right side by pressing on "Display" in the top right corner of the screen.
+If you want to exit the side-by-side display, press the check mark of "Side-by-Side Mode" in Step 2. 
+Additionally, you can switch between the Speaker view and Gallery view for the participants on the right side by pressing on "Display" in the top right corner of the screen.
 ![](view_switch.png)
 
 #### Change the displayed ratio between shared screen and participants' videos.
@@ -110,7 +111,6 @@ To start Focus Mode, follow the steps below.
 
 1. Press "More" in the meeting toolbar at the bottom of the screen.
 2. Press "Start Focus Mode" in the menu.
-
 ![](focus_on1.png)
 3. When the message "Start Focus mode?" appears, press "Start" to confirm or check the box labeled "Don't ask me again" to skip this confirmation process in the future.
 ![](focus_on2.png)
