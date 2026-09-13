@@ -50,8 +50,8 @@ Slidoは無料でも使うことができますが，Webexと連携している�
 
 ## 活用方法・実践例
 
-* **[Slido の基本的な使い方と実践](https://dalt.c.u-tokyo.ac.jp/wp-content/uploads/2019/02/KOMEX-DALT-Newsletter-201806.pdf)**: 教養学部 附属教養教育高度化機構 アクティブラーニング部門のアクティブラーニングニュースレターの記事として Slido の基本的な使い方や授業における使い方が載っています．
-* **[Slido の授業における使い方](https://dalt.c.u-tokyo.ac.jp/wp-content/uploads/2019/07/KOMEX-DALT-Newsletter-201907.pdf)**: 教養学部 附属教養教育高度化機構 アクティブラーニング部門のアクティブラーニングニュースレターの記事として 2つの授業における Slido の使い方が載っています．
+* **[Slido の基本的な使い方と実践](https://warp.ndl.go.jp/web/20240515182414/https://komex-ex.c.u-tokyo.ac.jp/wp-content/uploads/2024/03/KOMEX-DALT-Newsletter-5-1.pdf)**: 教養学部 附属教養教育高度化機構 アクティブラーニング部門のアクティブラーニングニュースレターの記事として Slido の基本的な使い方や授業における使い方が載っています．（リンク先はウェブアーカイブ）
+* **[Slido の授業における使い方](https://warp.ndl.go.jp/web/20250515012742/https://komex-ex.c.u-tokyo.ac.jp/wp-content/uploads/2019/07/KOMEX-DALT-Newsletter-201907.pdf)**: 教養学部 附属教養教育高度化機構 アクティブラーニング部門のアクティブラーニングニュースレターの記事として 2つの授業における Slido の使い方が載っています．（リンク先はウェブアーカイブ）
 * **[オンライン授業のグッドプラクティス／四本裕子先生 心理I](/good-practice/interview/yotsumoto/)**: 教養学部の授業にて匿名での質問や相談を受け付ける実践です．Slidoを授業内だけではなく，学生同士の交流の場として活用していました．
 * **[オンライン授業のグッドプラクティス／田中庸介先生 解剖学第3 (神経)](/good-practice/interview/tanaka/)**: 医学部の授業にて匿名での質問や相談を受け付ける実践です．
 * **[オンライン授業のグッドプラクティス／栗田佳代子先生 「学びの場」づくり](/good-practice/interview/kurita/)**: 教育学部の授業にて匿名での質問や相談を受け付ける実践です．
