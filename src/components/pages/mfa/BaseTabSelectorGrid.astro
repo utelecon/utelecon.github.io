@@ -147,7 +147,11 @@ function radioProps(step: Step, selection: Selection): DemiRadioButtonProps {
     > .col-description {
       grid-column-start: 1;
       grid-column-end: 4;
-      padding: 0.7rem 0.5rem 0;
+      padding: 0.3rem 0.5rem 1rem;
+
+      &:last-child {
+        padding-bottom: 0.5rem;
+      }
     }
 
     p {
