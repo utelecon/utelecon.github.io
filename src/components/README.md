@@ -153,6 +153,31 @@ prop `variant`の値によって，表示する要素が切り替わります．
 - `outerClass` (`string` 型) … 描画される画像を包む `<div>` タグに適用するCSSクラスを指定します．複数指定する場合は半角スペースを空けて並べます．
   - 注：`ArrowOverlay` は内部的には `<div>` タグの中に `Image` コンポーネントと `<svg>` タグを並べた形になっており，指定したCSSクラスはこの `<div>` タグに適用されます．
 
+#### [`RadioTable`](utils/radio-table/RadioTable.astro)
+
+利用例：[`pages/mfa/BaseTabSelectorGrid.astro`](pages/mfa/BaseTabSelectorGrid.astro)
+
+選択肢ごとに，名前・ラジオボタン・説明文を並べた表を表示するコンポーネントです．[`RadioTableRow`](utils/radio-table/RadioTableRow.astro)を中に並べて使います．このコンポーネントは表示だけを担うため，ラジオボタンを選択したときの処理は利用する側で`<script>`に記述してください．
+
+```astro
+<RadioTable columns={["手順1", "手順2"]}>
+  <RadioTableRow
+    label="電話番号"
+    radios={[
+      { id: "radio-first-phone", name: "radio-first", value: "phone" },
+      { id: "radio-alt-phone", name: "radio-alt", value: "phone", disabled: true },
+    ]}
+  >
+    電話番号の説明文
+  </RadioTableRow>
+</RadioTable>
+```
+
+- `RadioTable`の`columns` (必須，`string[]` 型) … ラジオボタンの列の見出しを指定します．配列の長さが列の数になります．
+- `RadioTableRow`の`label` (必須，`string` 型) … 選択肢の名前を指定します．ラジオボタンが1つだけの場合は`<label>`として関連付けられ，名前を押してもラジオボタンが選択されます．
+- `RadioTableRow`の`radios` (必須) … 各列のラジオボタンの`id`，`name`，`value`，`disabled`を，`columns`と同じ順番・数だけ指定します．
+- `RadioTableRow`の中身 … 選択肢の説明文として，名前とラジオボタンの下に表示されます．
+
 ### [`Tabs`](utils/tabs/Tabs.tsx)
 
 タブUIのコンポーネントです．タブを選択することにより，ユーザーが表示内容を切り替えることができます．
