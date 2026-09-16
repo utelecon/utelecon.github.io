@@ -68,6 +68,8 @@ Examples of uses falling under each scenario:
   - evaluate AI output by checking it against peer-reviewed literature and other sources
   - learn how to work with AI itself: writing programs that incorporate AI (APIs), working with RAG, working with agents, and so on
 
+<a name=labels> </a>
+
 ## Permitted AI Use Labels to Display to Students
 
 - Ti means that S1 through Si are permitted
