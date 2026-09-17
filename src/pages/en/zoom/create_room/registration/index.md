@@ -176,7 +176,7 @@ The denied prospective participants will receive a "Registration Denial Email" i
    ![](ManualApplied.png){:.medium}
 1. Click on the checkbox on the left of the prospective participants you want to reject and click on the "Deny" button.
    ![](ManualRejected.png){:.medium}
-1. The screen for "Send Registration Refusal Email" will be displayed. Enter the message you want to convey to the rejected prospective participant, and click on "Send". The rejected prospective participant will receive the registration rejection email that contains what you enter here.
+1. The screen for "Send Registration Denial Email" will be displayed. Enter the message you want to convey to the rejected prospective participant, and click on "Send". The rejected prospective participant will receive the registration rejection email that contains what you enter here.
    ![](ManualRejectedMessage.png){:.medium}
 
 ※The list of rejected prospective participants can be viewed in the "Denied" list.
