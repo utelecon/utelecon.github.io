@@ -1,0 +1,124 @@
+name: Review Dependabot PRs
+
+# 権限を持たない側。PR のコードをビルドするため、read-only で動かす。
+# 結果を artifact に書き出し、PR への書き込みは report-dependabot-review.yml が行う。
+
+on:
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  build_base:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    steps:
+      # マージ後の状態と、その計算元になった master を比較する。
+      # base.sha はイベント発生時点で固定される一方、マージ ref は別のタイミングで
+      # 再計算されるため、両者を混ぜると PR と無関係な master の変更を拾ってしまう。
+      - uses: actions/checkout@v7
+        with:
+          ref: refs/pull/${{ github.event.pull_request.number }}/merge
+          fetch-depth: 2
+      - name: Move to the base parent of the merge commit
+        run: git checkout HEAD^1
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-artifact@v7
+        with:
+          name: dist-base
+          path: dist/
+          include-hidden-files: true
+
+  build_pr:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: refs/pull/${{ github.event.pull_request.number }}/merge
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-artifact@v7
+        with:
+          name: dist-pr
+          path: dist/
+          include-hidden-files: true
+
+  compare:
+    needs: [build_base, build_pr]
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist-base
+          path: dist-base/
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist-pr
+          path: dist-pr/
+
+      - name: Compare
+        id: compare
+        run: |
+          diff -r  dist-base/ dist-pr/ >diff.txt       || true
+          diff -rq dist-base/ dist-pr/ >diff-brief.txt || true
+
+          count=$(wc -l <diff-brief.txt)
+
+          mkdir -p report
+          echo "${{ github.event.pull_request.number }}" >report/pr-number
+          echo "$count"                                  >report/count
+
+          if [ "$count" -eq 0 ]; then
+            echo 'No differences found between the base and the PR build.' >>"$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          {
+            echo "Differences found in $count file(s)."
+            echo
+            echo '<details><summary>Changed files</summary>'
+            echo
+            echo '```'
+            head -n 100 diff-brief.txt
+            if [ "$count" -gt 100 ]; then
+              echo "... and $((count - 100)) more."
+            fi
+            echo '```'
+            echo
+            echo '</details>'
+            echo
+            echo 'Download the `diff` artifact of this run for the full output.'
+          } >>"$GITHUB_STEP_SUMMARY"
+          exit 1
+
+      # 差分の有無にかかわらず結果を残す。report 側がこれを読む。
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: diff-report
+          path: report/
+
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: diff
+          path: |
+            diff.txt
+            diff-brief.txt
