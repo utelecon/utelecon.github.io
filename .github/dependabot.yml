@@ -1,0 +1,22 @@
+# Dependabot の設定。
+#
+# このリポジトリでは脆弱性由来の更新 (security updates) のみを運用しており、
+# 定期的なバージョン更新 (version updates) は行っていない。
+# open-pull-requests-limit を 0 にすると version updates の PR は作成されず、
+# security updates はこの上限の対象外となるため、現状の運用が維持される。
+#
+# labels は security updates の PR にも適用される。ここで指定した値は
+# デフォルトのラベルを置き換えるため、これまで自動で付いていた
+# dependencies と javascript も明示している。
+
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    labels:
+      - dependencies
+      - javascript
+      - web_development
