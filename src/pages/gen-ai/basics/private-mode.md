@@ -14,10 +14,10 @@ title: プライベートモード
 
 なお，プライベートモードでも，入力した内容がインターネットを通じてAI事業者（GoogleやMicrosoftなど）のサーバに送られること自体は変わりません．「学外に一切出ない」わけではない点には注意してください．どのような使い方をすると情報がどこに流れ，溜まるかということについては，[情報セキュリティと情報漏洩リスク](../../security/) をご覧下さい．
 
-|                   |                                               |
-|-------------------|-----------------------------------------------|
-| Google Gemini     | ![Google Gemini](img/gemini_private.png)      |
-| Microsoft Copilot | ![Microsoft Copilot](img/copilot_private.png) |
+|                        |                                                    |
+|------------------------|----------------------------------------------------|
+| Google Gemini          | ![Google Gemini](img/gemini_private.png)           |
+| Microsoft Copilot Chat | ![Microsoft Copilot Chat](img/copilot_private.png) |
 
 
 ## プライベートモードの制限
