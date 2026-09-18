@@ -13,7 +13,7 @@ This page describes [how to upload a video and livestream](#for-creators) and [h
 ## To Upload a Video and Livestream
 {:#for-creators}
 
-Follow the procedures below to upload a video and livestream on YouTube with your ECCS Cloud Email account. [Create your channel](#create-channel) first and [upload a video](#upload), [complete the setup to share a video](#sharing) or livestream(#live) according your purpose. 
+Follow the procedures below to upload a video and livestream on YouTube with your ECCS Cloud Email account. [Create your channel](#create-channel) first and [upload a video](#upload), [complete video privacy settings](#sharing) or livestream(#live) according your purpose. 
 
 ### About Your Channel and Account
 {:#channel}
@@ -22,29 +22,29 @@ To upload a video or livestream on YouTube, you need **your channel** linked to 
 
 There are two kinds of YouTube channels: **created with a personal account** and **created with a brand account.** Also, **on a channel created by a personal account, you can share contents only with students, faculty and staff of the University of Tokyo.** **If you upload a video or livestream only for students, faculty and staff of the University of Tokyo**, you need to **use a channel created with your personal ECCS Cloud Email Account (instead of the brand account of the University of Tokyo). On the other hand, on a channel created with a brand account, you can manage the account with others and create plural channels with one account.
 
-### チャンネルを作成する
+### To Create a Channel
 {:#create-channel}
 
-動画の投稿やライブ配信を行うには，あらかじめECCSクラウドメールアカウントでチャンネルを作成する必要があります．以下では，ECCSクラウドメールアカウントでYouTubeにログインし，個人アカウントのチャンネルを作成する手順を案内します．なお，**ブランドアカウントのチャンネルを作成したい場合は，「[YouTube チャンネルの作成](https://support.google.com/youtube/answer/1646861?hl=ja)」>「ビジネスなどで使う名前でチャンネルを作成する」を参照してください**．
+Before uploading a video or livestreaming, you need to create your channel with your ECCS Cloud Email account. Follow the procedures below to log in YouTube with your ECCS Cloud Email account and create a channel with your personal account. Furthermore, **to create a channel with a brand account, visit "[Create a YouTube channel](https://support.google.com/youtube/answer/1646861?hl=en&sjid=12429287744673113938-NC)">"Create a channel with a business or other name."** なお，**ブランドアカウントのチャンネルを作成したい場合は，「[YouTube チャンネルの作成](https://support.google.com/youtube/answer/1646861?hl=ja)」>「ビジネスなどで使う名前でチャンネルを作成する」を参照してください**．
 
-1. ECCSクラウドメールアカウントでYouTubeにログインしてください．
-2. 画面右上の「作成」を押してください．
+1. Log in YouTube with your ECCS Cloud Email account.
+2. Click "Create" on the upper right of the screen. 
     ![](./create-channel.drawio.png){:.small.border}
-3. 「動画をアップロード」または「ライブ配信を開始」を押してください．
+3. Click "Upload video" or "Go Live."
     ![](./create-channel-start.drawio.png){:.small.border}
-4. チャンネルのプロフィールを入力してください．
+4. Enter the profile of your channel. 
     ![](./create-channel-name.drawio.png){:.small}
-5. 「チャンネルを作成」を押してください．
+5. Click "Create channel."
 
-### 動画をアップロードする
+### To Upload a Video
 {:#upload}
 
-YouTubeに動画をアップロードする基本的な手順については，「[YouTubeに動画をアップロードする](./upload/)」を参照してください．
+To check the basic procedures to upload a video on YouTube, please visit "[YouTubeに動画をアップロードする](./upload/)."
 
-### 動画の公開範囲を設定する
+### To Complete Video Privacy Settings
 {:#sharing}
 
-「公開」「限定公開」「非公開」の違いや，視聴を東大構成員のみに限定して公開する方法については，「[YouTube動画の公開範囲を設定する](./sharing/)」を参照してください．
+To check the differences between "Public", "Private" and "Unlisted" and the procedures to share contents only with students, faculty and staff of the University of Tokyo, please visit "[YouTube動画の公開範囲を設定する](./sharing/).
 
 ### ライブ配信を行う
 {:#live}
