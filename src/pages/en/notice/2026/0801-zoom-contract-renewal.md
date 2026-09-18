@@ -51,6 +51,10 @@ For large meetings with up to 1,000 participants, we will continue to accept app
 
 ## Change 3: Cloud recordings will be retained for up to three years
 
+<div class="box--important">
+    The latest information is available in <a href="../0918-postpone_zoom_cloudrec_deletion/">Report 2: Deletion of Cloud Recordings Postponed</a>. [September 18, 2026]
+</div>
+
 The volume of cloud recording data stored at the University of Tokyo has been increasing year after year, and the associated cost burden can no longer be ignored. Recorded data has been stored indefinitely until now, and the volume used is expected to keep growing. We also presume that a large amount of recorded data continues to be stored even though it is no longer needed[^3]. Against this background, we have determined that reducing the volume used is necessary for sustainable operation, and we have decided to delete cloud recordings.
 
 [^3]: The volume of stored cloud recording data is approaching 100 TB for the university as a whole, and its usage trends are largely the same as those found in the [analysis conducted in December 2023](/en/notice/2023/12-zoom-cloud-recording/). This still suggests that a large amount of data continues to be stored even though it is no longer needed.
