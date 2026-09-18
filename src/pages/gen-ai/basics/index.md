@@ -15,7 +15,7 @@ title: 生成AIとは
 
 ## 本学で使えるサービス
 
-最近は多くのサービスにAI機能が組み込まれています（Zoomの文字起こし，要約，Slackの要約など）が，ここでは主にAIに明示的に指示を与えるタイプの対話型AIに絞って紹介します．Google Gemini, Gemini NotebookはGoogleアカウント (@g.ecc.u-tokyo.ac.jp), Microsoft 365 Copilot Chat は UTokyo Account でログインしますが，GoogleアカウントもUTokyo Accountがあれば使えますので，以下はUTokyo Accountを持っている全ての人が使えます．
+最近は多くのサービスにAI機能が組み込まれています（Zoomの文字起こし，要約，Slackの要約など）が，ここでは主にAIに明示的に指示を与えるタイプの対話型AIに絞って紹介します．Google Gemini, Gemini NotebookはGoogleアカウント (@g.ecc.u-tokyo.ac.jp), Microsoft Copilot Chat は UTokyo Account でログインしますが，GoogleアカウントもUTokyo Accountがあれば使えますので，以下はUTokyo Accountを持っている全ての人が使えます．
 
 
 
@@ -23,24 +23,24 @@ title: 生成AIとは
 
 [Google Gemini](https://gemini.google.com/app) にアクセスし，サインインを求められたら ○○○@g.ecc.u-tokyo.ac.jp でサインインします．
 
-### Microsoft 365 Copilot Chat
+### Microsoft Copilot Chat
 
-[Microsoft 365 Copilot Chat](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat) にアクセスして「Copilot Chat を開く」を選び，サインインを求められたらUTokyo Account (10桁@utac.u-tokyo.ac.jp) でサインインします．
+[Microsoft Copilot Chat](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat) にアクセスして「Copilot Chat を開く」を選び，サインインを求められたらUTokyo Account (10桁@utac.u-tokyo.ac.jp) でサインインします．
 
-### Google NotebookLM
+### Gemini Notebook
 
-与えた文章の分析，要約（動画，音声などへの変換も含め）に特化したAIです．[Google NotebookLM](https://notebooklm.google.com/) にアクセスし，サインインを求められたら ○○○@g.ecc.u-tokyo.ac.jp でサインインします．
+与えた文章の分析，要約（動画，音声などへの変換も含め）に特化したAIです．[Gemini Notebook](https://notebooklm.google.com/) にアクセスし，サインインを求められたら ○○○@g.ecc.u-tokyo.ac.jp でサインインします．
 
 ## データ保護
 
-- どれも 入力が学習に使われない設定で利用できます
+- どれも入力が学習に使われない設定で利用できます
 - 入力してよい情報の範囲について，より詳しい説明は[情報セキュリティと情報漏洩リスク](../security/)をご覧下さい
 
 ## 使い分け
 
-- **通常の会話・質問用途** であれば Google Gemini と Microsoft 365 Copilot Chat のどちらでも問題ありません
+- **通常の会話・質問用途** であれば Google Gemini と Microsoft Copilot Chat のどちらでも問題ありません
 - **資料（PDFや複数の文書）を読み込ませて，** その中身についてだけ答えてほしいとか，資料を色々な形式（会話音声，動画，テキストなど）で要約，コメントしてほしい場合にはGemini Notebook を推奨します
 
-# 次
+## 次
 
 [質問のしかた](ask/)

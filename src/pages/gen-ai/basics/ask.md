@@ -8,10 +8,10 @@ title: AIと対話する
 
 左のメニューから「チャットを新規作成」「新しいチャット」などを選びます．
 
-|                                                                                          |                                             |
-|------------------------------------------------------------------------------------------|---------------------------------------------|
-| [Google Gemini](https://gemini.google.com/app)                                           | ![Google Gemini](img/gemini_new.png)      |
-| [Microsoft 365 Copilot Chat](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat) | ![Microsoft Copilot](img/copilot_new.png) |
+|                                                                                      |                                                |
+|--------------------------------------------------------------------------------------|------------------------------------------------|
+| [Google Gemini](https://gemini.google.com/app)                                       | ![Google Gemini](img/gemini_new.png)           |
+| [Microsoft Copilot Chat](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat) | ![Microsoft Copilot Chat](img/copilot_new.png) |
 
 
 ## 質問
@@ -21,16 +21,16 @@ title: AIと対話する
 例：
 
 - わからない3文字略語を文脈と共に聞く（文脈によって答えがありすぎて所望の答えが見つからない）
-  - 「**留学の文脈で**，LoRって言われたんだけど何?」
+  - 「**留学の文脈で**，LoRって言われたんだけど何？」
 - 思い出せない何かを聞く（検索キーワードが，答えそのものである）
-  - 「ほら，秋田にあって，**国際化で有名な大学なんて言ったっけ?**」
+  - 「ほら，秋田にあって，**国際化で有名な大学なんて言ったっけ？**」
 - 自分向けの解説が欲しい（普通の検索で見つかるのは長めの解説ばかり）
-  - 「留学生受け入れの時に皆が口にする『ユーザリスト』ってなんのこと?」
+  - 「留学生受け入れの時に皆が口にする『ユーザリスト』ってなんのこと？」
 
-|                                                                                          |                                             |
-|------------------------------------------------------------------------------------------|---------------------------------------------|
-| [Google Gemini](https://gemini.google.com/app)                                           | ![Google Gemini](img/gemini_start.png)      |
-| [Microsoft 365 Copilot Chat](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat) | ![Microsoft Copilot](img/copilot_start.png) |
+|                                                                                      |                                                  |
+|--------------------------------------------------------------------------------------|--------------------------------------------------|
+| [Google Gemini](https://gemini.google.com/app)                                       | ![Google Gemini](img/gemini_start.png)           |
+| [Microsoft Copilot Chat](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat) | ![Microsoft Copilot Chat](img/copilot_start.png) |
 
 ## 調査・まとめ
 
@@ -63,10 +63,10 @@ title: AIと対話する
 
 キーボードで打つ代わりに，声で入力することもできます（スマホアプリや，多くのサービスのマイクボタン）．
 
-|                                                                                          |                                             |
-|------------------------------------------------------------------------------------------|---------------------------------------------|
-| [Google Gemini](https://gemini.google.com/app)                                           | ![Google Gemini](img/gemini_voice.png)      |
-| [Microsoft 365 Copilot Chat](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat) | ![Microsoft Copilot](img/copilot_voice.png) |
+|                                                                                      |                                                  |
+|--------------------------------------------------------------------------------------|--------------------------------------------------|
+| [Google Gemini](https://gemini.google.com/app)                                       | ![Google Gemini](img/gemini_voice.png)           |
+| [Microsoft Copilot Chat](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat) | ![Microsoft Copilot Chat](img/copilot_voice.png) |
 
 ## 次
 
