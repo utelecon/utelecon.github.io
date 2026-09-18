@@ -6,21 +6,21 @@ breadcrumb:
 
 **YouTube** is a video streaming service provided by Google in which you can upload and release videos, or livestream. 
 
-Students, faculty and staff of the University of Tokyo can use YouTube with [ECCS Cloud Email account](/en/google). With your ECCS Cloud Email account, you can release a video of a lecture, a livestreamed ceremony and any other content **only to students, faculty and staff of the University of Tokyo.**
+Students, faculty and staff of the University of Tokyo can use YouTube with [ECCS Cloud Email account](/en/google). With your ECCS Cloud Email account, you can share a video of a lecture, a livestreamed ceremony and any other content **only with students, faculty and staff of the University of Tokyo.**
 
 This page describes [how to upload a video and livestream](#for-creators) and [how to watch contents released only to students, faculty and staff of the University of Tokyo](#watching). If you need to know basic procedures to use Youtube, please visit [Google's official help page](https://support.google.com/youtube?hl=en&sjid=14250656160075261256-NC#topic=9257498). 
 
 ## To Upload a Video and Livestream
 {:#for-creators}
 
-ECCSクラウドメールのアカウントを使って，動画の投稿やライブ配信を行う方法を案内します．はじめに[チャンネルを作成](#create-channel)し，目的に応じて[動画をアップロード](#upload)したり，[動画の公開範囲を設定](#sharing)したり，[ライブ配信](#live)を行ったりしてください．
+Follow the procedures below to upload a video and livestream on YouTube with your ECCS Cloud Email account. [Create your channel](#create-channel) first and [upload a video](#upload), [complete the setup to share a video](#sharing) or livestream(#live) according your purpose. 
 
-### チャンネルとアカウントについて
+### About Your Channel and Account
 {:#channel}
 
-YouTubeに動画を投稿したりライブ配信を行ったりするには，アカウントに紐づいた**チャンネル**が必要です．
+To upload a video or livestream on YouTube, you need **your channel** linked to your account. 
 
-YouTubeのチャンネルには，**個人のアカウントで作成するもの**と，**「ブランドアカウント」で作成するもの**の2種類があります．このうち，**個人アカウントで作成されたチャンネルでは，コンテンツの視聴を東京大学の構成員のみに限定することができます**．そのため，**東大構成員限定で動画やライブ配信を行いたい場合は，（ブランドアカウントではなく）個人のECCSクラウドメールアカウントで作成したチャンネルを使う**必要があります．一方，ブランドアカウントのチャンネルは，視聴を東京大学の構成員に限定することはできませんが，アカウントを複数人で管理したり，1つのアカウントで複数のチャンネルを使い分けたりできるのが特徴です．
+There are two kinds of YouTube channels: **created with a personal account** and **created with a brand account.** Also, **on a channel created by a personal account, you can share contents only with students, faculty and staff of the University of Tokyo.** **If you upload a video or livestream only for students, faculty and staff of the University of Tokyo**, you need to **use a channel created with your personal ECCS Cloud Email Account (instead of the brand account of the University of Tokyo). On the other hand, on a channel created with a brand account, you can manage the account with others and create plural channels with one account.
 
 ### チャンネルを作成する
 {:#create-channel}
