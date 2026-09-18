@@ -4,13 +4,13 @@ breadcrumb:
   title: YouTube
 ---
 
-**YouTube**は，Google社が提供する動画配信サービスです．動画を投稿して公開したり，ライブ配信を行ったりすることができます．
+**YouTube** is a video streaming service provided by Google in which you can upload and release videos, or livestream. 
 
-東京大学の構成員は，[ECCSクラウドメール](/google/)のアカウントでYouTubeを利用することができます．ECCSクラウドメールのアカウントで動画を配信すると，**視聴を東京大学の構成員のみに限定する**こともできるため，学内向けの講義動画や行事の配信などに活用できます．
+Students, faculty and staff of the University of Tokyo can use YouTube with [ECCS Cloud Email account](/en/google). With your ECCS Cloud Email account, you can release a video of a lecture, a livestreamed ceremony and any other content **only to students, faculty and staff of the University of Tokyo.**
 
-このページでは，ECCSクラウドメールのアカウントを使って[動画を投稿・配信する人向けの情報](#for-creators)と，[学内構成員限定で公開されたコンテンツを視聴する人向けの情報](#watching)を案内します．基本的な使い方については，[Googleの公式ヘルプ](https://support.google.com/youtube)を参照してください．
+This page describes [how to upload a video and livestream](#for-creators) and [how to watch contents released only to students, faculty and staff of the University of Tokyo](#watching). If you need to know basic procedures to use Youtube, please visit [Google's official help page](https://support.google.com/youtube?hl=en&sjid=14250656160075261256-NC#topic=9257498). 
 
-## 動画を投稿・配信する人向けの情報
+## To Upload a Video and Livestream
 {:#for-creators}
 
 ECCSクラウドメールのアカウントを使って，動画の投稿やライブ配信を行う方法を案内します．はじめに[チャンネルを作成](#create-channel)し，目的に応じて[動画をアップロード](#upload)したり，[動画の公開範囲を設定](#sharing)したり，[ライブ配信](#live)を行ったりしてください．
