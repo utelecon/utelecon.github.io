@@ -4,6 +4,10 @@ breadcrumb:
   title: How to use FIDO Security Keys
 ---
 
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import AltAddMethod from "@components/en/mfa/AltAddMethod.mdx";
+import SigninAnotherMethod from "@components/en/mfa/SigninAnotherMethod.mdx";
+
 <div class="box">Starting from March 12, 2024, <a href="/en/notice/2024/02-utac-auth-improvement/">using the FIDO security key with multi-factor authentication for UTokyo Account will be made more convenient.</a></div>
 
 ## Introduction
@@ -38,28 +42,34 @@ For more information on available OS and browser combinations, please refer to M
 
 It is assumed that the FIDO security key will be registered as the second or subsequent verification method. If you are using the multi-factor authentication for the first time, please follow the procedure described in "[Step 1: Set Up the First Verification Method" in the "Initial Setup Procedures for Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/initial/#first)"section, and then register a FIDO security key as the additional verification method.
 
-1. Access the [Security info page](https://mysignins.microsoft.com/security-info) and sign in.
-2. Click on "Add sign-in method".
-![](add_signin_method.png)
-3. Click on "Choose a method", and from the choices that appear, click on "Security Key", followed by "Add".
-![](select_security_key.png)
-4. When adding a security key, you will be prompted to choose either a 'USB device' or an 'NFC device'. Therefore, please click on the appropriate option.
-![](select_connection_method.png)
-5. When the dialogue box displaying "Have your key ready" appears, please click “Next”.
-![](prepare_key.png)
-6. Follow the on-screen instructions to complete the security key setup. Specifically, you will be asked to add the security key, set a PIN or biometric authentication, or tap the security key.
-7. After setting up the security key, give a name to the security key.
-![](name_security_key.png)
+
+<ol>
+  <AltAddMethod selection="Passkey" />
+  <li>
+    When the "Sign in faster with your face, fingerprint, or PIN" screen appears, click Next.
+    ![](passkey_prompt_en.png)
+  </li>
+  <li>
+    The screen will transition to "Setting up your passkey". Click Next (it may also proceed to the next screen automatically).
+  </li>
+  <li>
+    Follow the on-screen instructions to complete the security key setup. Specifically, you will be asked to add the security key, set a PIN or biometric authentication, or tap the security key.
+  </li>
+  <li>
+     After setting up the security key, give a name to the security key.
+  </li>
+</ol>
+
 
 *FIDO security keys cannot be set as the "default sign-in method". Therefore, for signing in, you must first set another verification method as the "default sign-in method" and then select the FIDO security key as the additional verification method.
 
 ## How to sign in with a FIDO security key
 
-1. When signing into your UTokyo Account (and after entering your password), you will be prompted to verify your identification using the multi-factor authentication with the default verification method. Click on the "Sign in with a different method" or "I can’t use my Microsoft Authenticator app right now" link.
-![](signin_other_method.png)
-2. When the screen to select a different authentication method appears, please click on the "Face, fingerprint, PIN or security key" option.
-![](signin_security_key.png)
-3. Follow the instructions on the screen to complete actions such as entering a PIN, biometric authentication, or tapping the security key. After these steps, the sign-in process will be completed.
+<ol>
+  <SigninAnotherMethod method="Face, fingerprint, PIN or security key" />
+  <li>
+    Follow the instructions on the screen to complete actions such as entering a PIN, biometric authentication, or tapping the security key. After these steps, the sign-in process will be completed.
+  </li>
+</ol>
 
 *If you have trouble signing in, please refer to "[If you cannot sign in using a FIDO security key](#unsupported-os-browser)".
-

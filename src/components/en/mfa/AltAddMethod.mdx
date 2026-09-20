@@ -3,15 +3,26 @@
   * @property {string} selection
   */}
 
+import { Image } from "astro:assets";
+import If from "@components/utils/If.astro"
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import altAddMethod from "./alt_add_method_en.png";
+import altAddMethodWindow from "./alt_add_method_window_en.png";
+
 <li>
-  Open [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com).
+  Access the [Security info page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com) and sign in.
 </li>
 <li>
   Click "Add sign-in method".
-  ![](./alt_add_method.png)
+  <ArrowOverlay image={altAddMethod} x={1000} y={450} angle={180} />
 </li>
 <li>
   For "Add a sign-in method", select {props.selection}.
   {props.methodSupplement}
-  ![](./alt_add_method_window.png)
+  <If cond={props.selection === "Authenticator app"}>
+    <ArrowOverlay image={altAddMethodWindow} x={1050} y={250} />
+  </If>
+  <If cond={props.selection === "Passkey"}>
+    <ArrowOverlay image={altAddMethodWindow} x={1050} y={410} />
+  </If>
 </li>
