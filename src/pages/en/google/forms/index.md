@@ -83,7 +83,7 @@ A form consists of any number of questions. The following explains how to create
 2. Enter the content of the question.
 3. Set the question format.
    * For more specific instructions, see "[Choose a type of question for your form](https://support.google.com/docs/answer/7322334?hl=en)" (official help).
-   * Please note that the file upload answer options cannot be used in forms stored in shared drives.
+   * Please note that the file upload answer options cannot be used in forms stored on shared drives.
 4. For multiple-choice answer formats, configure the answer options.
 
 ### Step 3: Publish & Share
