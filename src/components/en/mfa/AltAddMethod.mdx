@@ -25,4 +25,7 @@ import altAddMethodWindow from "./alt_add_method_window_en.png";
   <If cond={props.selection === "Passkey"}>
     <ArrowOverlay image={altAddMethodWindow} x={1050} y={410} />
   </If>
+    <If cond={props.selection === ""}>
+    <Image src={altAddMethodWindow} alt="" />
+  </If>
 </li>
