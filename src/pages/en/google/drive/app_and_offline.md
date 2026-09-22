@@ -34,17 +34,17 @@ This section explains how to use files stored in Google Drive while offline (tha
 
 There are three different methods, depending on whether you are using a computer or a smartphone/tablet and whether the files you want to use are files from Google services, such as Google Docs.
 
-- **If you want to use files from Google services offline on a computer:**
+- If you want to use files from Google services offline on a computer:
   - You need to use the Google Chrome or Microsoft Edge browser.
   - Before going offline, you need to install the required browser extension and enable offline use in the Google Drive settings.
   - You also need to make each file “Available offline” before going offline. Note that only files that you have made available offline in advance can be used while offline.
 
-- **If you want to use files other than files from Google services offline on a computer:**
+- If you want to use files other than files from Google services offline on a computer:
   - You need to use the “Google Drive for desktop” app.
   - In general, you need to make each file “Available offline” before going offline. Note that only files that you have made available offline in advance can be used while offline.
   - Instead of making files available offline one by one, you can also change the app setting from “streaming” to “mirroring” to make all files in My Drive available offline. However, if you have a large number of files stored in Google Drive, the corresponding amount of storage space will be used on your computer. For details, please refer to [Google Drive Help: “Stream & mirror files with Drive for desktop”](https://support.google.com/drive/answer/13401938?hl=en).
 
-- **If you want to use files offline on a smartphone or tablet:**
+- If you want to use files offline on a smartphone or tablet:
   - You need to use the Google Drive app.
   - You need to make each file “Available offline” before going offline. Note that only files that you have made available offline in advance can be used while offline.
 
