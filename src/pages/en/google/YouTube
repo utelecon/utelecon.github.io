@@ -39,64 +39,64 @@ Before uploading a video or livestreaming, you need to create your channel with 
 ### To Upload a Video
 {:#upload}
 
-To check the basic procedures to upload a video on YouTube, please visit "[YouTubeに動画をアップロードする](./upload/)."
+To understand the basic procedures to upload a video on YouTube, please check "[YouTubeに動画をアップロードする](./upload/)."
 
 ### To Complete Video Privacy Settings
 {:#sharing}
 
-To check the differences between "Public", "Private" and "Unlisted" and the procedures to share contents only with students, faculty and staff of the University of Tokyo, please visit "[YouTube動画の公開範囲を設定する](./sharing/).
+To understand the differences between "Public", "Private" and "Unlisted" and the procedures to share contents only with students, faculty and staff of the University of Tokyo, please check "[YouTube動画の公開範囲を設定する](./sharing/).
 
-### ライブ配信を行う
+### To Livestream
 {:#live}
 
-ライブ配信機能の有効化と，配信を開始する方法については，「[クラウドメールアカウントでのYouTubeライブ配信方法](./live/)」を参照してください．なお**ライブ配信の有効化には，リクエスト後24時間程度かかる**ため，時間に余裕をもって行ってください．
+To turn on the option of livestreaming and start it, please check "[クラウドメールアカウントでのYouTubeライブ配信方法](./live/)". Also, **it takes around 24 hours to turn on the option of livestreaming after your request.**
 
-またライブ配信の一つの方法として，**ZoomミーティングやウェビナーをYouTubeでライブ配信する**こともできます．Zoomで開催するミーティングやウェビナーをそのままYouTubeで配信したい場合は，「[ZoomミーティングやウェビナーをYouTubeでストリーミング配信する](./live/streaming/zoom/)」を参照してください．
+Furthermore, **you can livestream a meeting or a webinar on Zoom through Youtube.** Please check "[ZoomミーティングやウェビナーをYouTubeでストリーミング配信する](./live/streaming/zoom/)" for more detail. 
 
-## 学内構成員限定の動画を視聴する人向けの情報
+## To Watch a Video Only Shared with Students, Faculty and Staff of the University of Tokyo
 {:#watching}
 
-視聴を東京大学の構成員に限定しているYouTubeのコンテンツを視聴する場合，**ECCSクラウドメール（`xxxx@g.ecc.u-tokyo.ac.jp`）のアカウントに切り替える**必要があります．
+To watch a video only shared with students, faculty and staff of the University of Tokyo, **you need to use your ECCS Cloud Email account.**
 
-ログインしていない場合や，他のアカウントでコンテンツを視聴しようとした場合は，以下のどちらかのエラー画面が表示されます．
+Each of the error messages below will be displayed when you try to watch such a video without logging in or with another account. 
 
-- [「**非公開動画 動画へのアクセスが許可されている場合はログインすると視聴できます**」（画面中央にログインボタンが**ある**）](#watching-private)
-- [「**動画を再生できません この動画は非公開です**」（画面にログインボタンが**ない**）](#watching-cannot-play)
+- ["**Private video: Sign in if you've been granted access to this video**"（The "Log in" banner **IS** in the center of the display）](#watching-private)
+- ["**Video unavailable: This video is private**"（The "Log in" banner is **NOT** on the display）](#watching-cannot-play)
 
-それぞれの場合について，ECCSクラウドメールのアカウントに切り替えてコンテンツを視聴する方法を案内します．
+Please follow the procedures below to watch the video with your ECCS Cloud Email account.
 
-### 「非公開動画 ……」と表示された場合
+### When The Video Is Displayed as "Private"「非公開動画 ……」と表示された場合
 {:#watching-private}
 
-ECCSクラウドメールのアカウントや，個人のGoogleアカウントのいずれにもログインしていない状態で学内構成員限定のコンテンツにアクセスすると，「非公開動画」という表示になります．
+When you try to watch a video only shared with the students and faculties without logging in, the video will be displayed as "Private."
 
 ![](./watch-private.png){:.small.border}
 
-この場合，以下の手順でアカウントにログインすると，動画を視聴できるようになります．
+In this case, please follow the procedures below to log in and watch the video. 
 
-1. 画面中央の「ログイン」をクリックしてください．
-    - 画面にログインボタンがない場合は，次の「[「動画を再生できません……」と表示された場合](#watching-cannot-play)」を参照してください．
-2. Googleのログイン画面が表示されるので，ECCSクラウドメールのメールアドレス（自分で設定したアドレス，または「数字10桁の共通ID＋`@g.ecc.u-tokyo.ac.jp`」）を入力してください．
-3. [UTokyo Account](/utokyo_account/)のサインイン画面が表示されるので，サインインすると動画にアクセスできます．
+1. Click the "Log in" banner in the center of the display. 
+    - If there is no "Log in" banner on the display, please check "["When The Video Is Displayed as 'Video unavailable'"](#watching-cannot-play)."
+2. Enter your ECCS Cloud Email address (one setup with the username of your choice, or your 10-digit Common ID + `@g.ecc.u-tokyo.ac.jp`) on Google's login screen. 
+3. Sign in your [UTokyo Account](/utokyo_account/) to watch the video. 
 
-### 「動画を再生できません ……」と表示された場合
+### When The Video Is Displayed as "Video unavailable"
 {:#watching-cannot-play}
 
 ![](./watch-cannot-play.png){:.small.border}
 
-このエラー画面は，以下のような場合に表示されます．
+This error message will be displayed in the cases below. 
 
-- ECCSクラウドメール**以外**のアカウントでログインしているが，ECCSクラウドメールのアカウントでログインしていない．
-- ECCSクラウドメールのアカウントでログインしているが，別のアカウントで閲覧している．
+- You have logged in with an account **other than** your ECCS Cloud Email account.．
+- You use another account to watch YouTube although you have logged in with your ECCS Cloud Email account. 
 
-この場合は，以下の手順でECCSクラウドメールのアカウントに切り替えてください．
+In these cases, please follow the procedures below to log in YouTube with your ECCS Cloud Email account. 
 
-1. エラー画面ではアカウントを切り替えることができないので，まず[YouTubeのトップページ](https://www.youtube.com/)にアクセスして，画面右上のアカウントのアイコン（画像を設定していない場合は，氏名の一部やイニシャルが表示されることもあります）をクリックしてください．
+1. Visit [the top page of YouTube](https://www.youtube.com/) and click the icon of your account on the upper right of the screen (if you have not set up an image as your icon, part of your name or your initial may be displayed as your icon).
     ![](./watch-account-icon.png){:.small.border}
-2. 出現したメニューの「アカウントを切り替える」をクリックしてください．
+2. Click "Switch account."
     ![](./watch-switch-account.png){:.small.border}
-3. 現在ログインしているアカウントの一覧が表示されるので，この中にECCSクラウドメールのアカウント（`@g.ecc.u-tokyo.ac.jp`で終わるもの）が含まれていたら，そのアカウントを選択してください．
-    - ECCSクラウドメールのアカウントが無い場合は，「アカウントを追加」を選択して，上記の「[「非公開動画……」と表示された場合](#watching-private)」と同様にECCSクラウドメールにログインしてから，再度動画ページにアクセスしてください．
+3. Select your ECCS Cloud Email account (the account with the domain `@g.ecc.u-tokyo.ac.jp`) if it is on the displayed list of your accounts used to log in. 
+    - If your ECCS Cloud Email account is not on the list, please select "Add account," log in with your ECCS Cloud Email account described as "[When The Video Is Displayed as 'Video unavailable']" and access the video again. 
 
     ![](./watch-select-account.png){:.small.border}
-4. 再度学内構成員限定のYouTubeコンテンツにアクセスしてください．
+4. Access the video again. 
