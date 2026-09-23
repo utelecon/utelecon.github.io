@@ -1,5 +1,5 @@
 ---
-title: UTOL Assignment Features Can Now Set "Permitted AI Use"
+title: Setting "Permitted AI Use" Will Become Required in UTOL Assignments
 ---
 
 <div style="text-align: right;">
@@ -9,7 +9,7 @@ title: UTOL Assignment Features Can Now Set "Permitted AI Use"
 
 ## Overview
 
-At the University of Tokyo, we have previously announced regarding the use of generative AI in classes: "[2] Clearly state your stance as instructor on the use of generative AIs for each class and assignment." (For details, please refer to the utelecon webpage "[Policy on the use of AI tools in classes (ver. 1.0)](/en/docs/ai-tools-in-classes/)"). Therefore, for the 2026 Autumn Semester, we are enabling instructors to set "**Permitted AI Use**" in "Assignments" created within UTOL (UTokyo LMS).
+At the University of Tokyo, we have previously announced regarding the use of generative AI in classes: "[2] Clearly state your stance as instructor on the use of generative AIs for each class and assignment." (For details, please refer to the utelecon webpage "[Policy on the use of AI tools in classes (ver. 1.0)](/en/docs/ai-tools-in-classes/)"). Therefore, ahead of the 2026 Autumn Semester, we are introducing the "**Permitted AI Use**" feature in "Assignments" created within UTOL (UTokyo LMS), and setting it will be required for assignments created from then on.
 
 Please note that as of September 2026, this feature is under development. Actual UTOL screens during operation may differ from the figures shown below. We ask for your understanding. The release of this feature to UTOL is scheduled for the lunch break on Tuesday, September 29.
 
@@ -49,20 +49,20 @@ Therefore, when working on an assignment, instructors will specify whether AI us
 [^1]: Ti means permitting the use of AI in scenes S1 through Si.
 [^2]: AIAS refers to "[The AI Assessment Scale](https://aiassessmentscale.com)".
 
-However, if the assignment does not fall under any of the ranges in Table 2, please explain "Permitted AI use" for that assignment.
+Note that if the assignment does not fall under any of the ranges in Table 2, the instructor setting the assignment should give a specific explanation of the Permitted AI Use for that assignment.
 
 ## Changes to Assignment Features
 
 ### For Course Instructors / TAs
 
-Figures 1 and 2 show the assignment editing screen operated by instructors. When registering an assignment, please select one of the labels from Table 2 using the drop-down menu in Figure 1.
+Figures 1 and 2 show the assignment editing screen operated by course instructors and TAs. When creating an assignment, please select one of the labels from Table 2 using the drop-down menu in Figure 1.
 
 <figure>
 <img src="setting_label.png" alt="" class="border medium">
 <figcaption>Figure 1: Permitted AI Use options on the assignment editing screen</figcaption>
 </figure>
 
-If the Permitted AI Use for the assignment does not fall under any of the options in Table 2, please select "Other". As shown in Figure 2, a text input form will appear, where you can explain the AI use range for the assignment.
+If the Permitted AI Use for the assignment does not fall under any of the options in Table 2, please select "Other". As shown in Figure 2, a text input form will appear, where you can explain the Permitted AI Use for the assignment.
 
 <figure>
 <img src="text_field.png" alt="" class="border medium">
@@ -71,7 +71,7 @@ If the Permitted AI Use for the assignment does not fall under any of the option
 
 ### For Students
 
-Figure 3 shows the assignment submission screen operated by students. 
+Figure 3 shows the assignment submission screen operated by students.
 
 The Permitted AI Use by the instructor for the given assignment will be displayed. If you do not understand the meaning of terms or symbols, please click the link directly below to refer to the webpage explaining them in detail.
 
