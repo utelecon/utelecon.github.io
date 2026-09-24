@@ -30,7 +30,7 @@ For detailed instructions on how to use the Google Drive app for smartphones and
 
 ## Using Google Drive Offline
 
-This section explains how to use files stored in Google Drive while offline (that is, when your device is not connected to a network).
+This section explains how to use files stored in Google Drive while offline (without an internet connection).
 
 There are three different methods, depending on whether you are using a computer or a smartphone/tablet and whether the files you want to use are files from Google services, such as Google Docs.
 
