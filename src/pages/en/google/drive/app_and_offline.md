@@ -10,6 +10,7 @@ This page explains:
 - how to use files stored in Google Drive offline
 
 ## About the Apps
+{:#app}
 
 Google Drive provides apps for both computers and smartphones/tablets.
 
