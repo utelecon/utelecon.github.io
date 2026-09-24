@@ -33,6 +33,7 @@ For detailed instructions on how to use the Google Drive app for smartphones and
 - By default, files are stored only in Google Drive and are downloaded as needed when you open them. Therefore, simply installing the app does not allow you to open files in Google Drive when your smartphone or tablet is offline. For information on using files offline, please refer to the “[Using Google Drive Offline](#using-google-drive-offline)” section on this page.
 
 ## Using Google Drive Offline
+{#offline}
 
 This section explains how to use files stored in Google Drive while offline (without an internet connection).
 
