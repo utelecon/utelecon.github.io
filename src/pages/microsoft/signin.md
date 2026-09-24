@@ -22,7 +22,7 @@ redirect_from:
 
 ここでは，Microsoftのシステムへのサインインを要求する画面が表示された場合に，UTokyo Accountを用いてサインインする方法を説明します．
 
-UTokyo AccountでMicrosoftのシステムにサインインする際には，他のシステムにサインインする場合とは異なり，次のようにMicrosoftのロゴ等を含むサインイン画面が表示されることがあります．その場合には，次に示す手順に従ってサインインを行ってください．一方，下のような画面ではなく，通常のサインイン画面（安田講堂の画像が表示されているもの）が表示されている場合には，「[UTokyo Accountで情報システムにサインインする](/utokyo_account/#signin)」に従ってサインインを行ってください．
+UTokyo AccountでMicrosoftのシステムにサインインする際には，他のシステムにサインインする場合とは異なり，次のようにMicrosoftのロゴ等を含むサインイン画面が表示されることがあります．その場合には，次に示す手順に従ってサインインを行ってください．一方，下のような画面ではなく，通常のサインイン画面（赤門の画像が表示されているもの）が表示されている場合には，「[UTokyo Accountで情報システムにサインインする](/utokyo_account/#signin)」に従ってサインインを行ってください．
 
 <figure class="gallery">
 <img src="img/microsoft-signin-instruction-1.png" class="medium center border">
