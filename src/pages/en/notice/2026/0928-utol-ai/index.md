@@ -22,7 +22,7 @@ Our university classifies typical AI use scenarios into five categories, as show
 
 | Scene | Name | Description |
 | :---- | :---- | :---- |
-| **S1** | questions/research | ask about points you do not understand look up general or background knowledge about the topic of the assignment |
+| **S1** | questions/research | ask about points you do not understand<br/>look up general or background knowledge about the topic of the assignment |
 | **S2** | 	discussion/idea-bouncing | discuss with AI, i.e. bounce ideas off it consult about the choice of topic in assignments where students set their own topic |
 | **S3** | feedback | obtain feedback on answers or reports you have written yourself |
 | **S4** | drafting | have AI produce a draft or part of your submission, then build on it to finalize what you submit |
