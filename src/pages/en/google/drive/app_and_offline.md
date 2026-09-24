@@ -12,7 +12,7 @@ This page explains:
 ## About the Apps
 {:#app}
 
-Google Drive provides apps for both computers and smartphones/tablets.
+Google Drive provides apps for computers and for smartphones and tablets.
 
 ### App for Computers
 
@@ -38,7 +38,7 @@ For detailed instructions on how to use the Google Drive app for smartphones and
 
 This section explains how to use files stored in Google Drive while offline (without an internet connection).
 
-There are three different methods, depending on whether you are using a computer or a smartphone/tablet and whether the files you want to use are files from Google services, such as Google Docs.
+There are three different methods, depending on the device you are using and whether the files you want to use are from Google services, such as Google Docs.
 
 - If you want to use files from Google services offline on a computer:
   - You need to use the Google Chrome or Microsoft Edge browser.
