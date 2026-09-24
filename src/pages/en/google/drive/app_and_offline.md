@@ -42,7 +42,6 @@ There are three different methods, depending on whether you are using a computer
   - You need to use the Google Chrome or Microsoft Edge browser.
   - Before going offline, you need to install the required browser extension and enable offline use in the Google Drive settings.
   - You also need to make each file “Available offline” before going offline. Note that only files that you have made available offline in advance can be used while offline.
-
 - If you want to use files other than files from Google services offline on a computer:
   - You need to use the “Google Drive for desktop” app.
   - In general, you need to make each file “Available offline” before going offline. Note that only files that you have made available offline in advance can be used while offline.
