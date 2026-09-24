@@ -1,5 +1,22 @@
+import If from "@components/utils/If.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {"lecturer" | "student"} [variant] 既定値は`"lecturer"`
+  */}
+
 <div class="box--important">
 
+<If cond={props.variant === "student"}>
+
+2026年9月29日より，担当教員が「課題」ごとに**AI利用範囲**を設定するようになります．設定された課題では，提出画面にその範囲が表示されますので，課題に取り組む前に確認してください．詳しくは「[UTOLの課題機能でAI利用範囲の設定が必須になります](/notice/2026/0928-utol-ai/)」をご覧ください．
+
+<Fragment slot="else">
+
 2026年9月29日より，UTOLで作成する「課題」において**AI利用範囲**の設定が必須になります．詳しくは「[UTOLの課題機能でAI利用範囲の設定が必須になります](/notice/2026/0928-utol-ai/)」をご覧ください．
+
+</Fragment>
+
+</If>
 
 </div>
