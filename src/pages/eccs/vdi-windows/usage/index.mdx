@@ -1,9 +1,292 @@
 ---
-title: usage
+title: Windowsリモート環境の基本的な使い方
 breadcrumb:
-  title: usage
+  title: 基本的な使い方
 ---
 
-import InPreparation from "@components/ja/InPreparationECCS2026.mdx";
+import FreeSlotNote from "./_FreeSlotNote.mdx";
+import FreeSlotSetupNote from "./_FreeSlotSetupNote.mdx";
 
-<InPreparation />
+このページでは，Windowsリモート環境の基本的な使い方について説明します．
+
+## 概要
+{:#introduction}
+
+Windowsリモート環境は，**ブラウザ**から利用する方法と，**Windows App**（Microsoftが提供する専用アプリ）をインストールして利用する方法があります．いずれの場合も，PCやタブレットなど，画面が大きくキーボードが使える端末からの利用をおすすめします．
+
+- **ブラウザから利用する**：インストール等の準備は不要です．[ブラウザから接続する](#connect-browser)を参照してください．
+- **Windows Appから利用する**：使用する端末にアプリをインストールする必要があります．[初期設定](#setup)を行った上で，[Windows Appから接続する](#connect-app)を参照してください．
+
+### 予約について
+{:#reservation}
+
+予約なしでも利用できますが，同時に利用できる枠数が限られているため，必ずしも利用できるとは限りません．特定の時間帯に確実に利用したい場合は，事前に予約することをおすすめします．授業で使う場合には，[教員が一括で予約する](../reservation/#class-owner)こともできます．
+
+予約に関する詳細は[予約](../reservation/)を参照してください．
+
+### 注意事項
+{:#notes}
+
+{/* TODO */}
+
+## 初期設定（Windows Appのインストール・サインイン）
+{:#setup}
+
+Windows Appを利用する場合は，あらかじめアプリのインストールとサインインが必要です．ブラウザから利用する場合，この作業は必要ありません．
+
+なお，以下の手順の途中で，アプリの紹介画面（「Skip」や「Next」で進む画面）や，利用状況の送信に同意するかどうかを尋ねる画面が表示されることがあります．これらはどちらを選んでも利用に影響しませんので，適宜選択して進めてください．
+
+### Windows
+{:#setup-windows}
+
+お手元のPCがWindowsの場合，そのPCの環境をそのまま利用する方が快適に作業できることが多いため，**まずはお手元のPCの利用をご検討ください**．その上でWindowsリモート環境を利用する場合は，以下の手順でWindows Appをインストールできます．
+
+1. [Microsoft Store](https://apps.microsoft.com/detail/9n1f85v9t8bn)にアクセスし，Windows Appをインストールしてください．
+    ![](img/windows01-store.png){:.medium}
+1. Windows Appを起動し，「Sign in」を押してください．
+    ![](img/windows02-signin.png){:.medium}
+1. [UTokyo Account](/utokyo_account/)（共通ID（10桁の数字）に`@utac.u-tokyo.ac.jp`を付けたもの）でサインインしてください．
+1. 以下のようにクラウドPC（「ECCS-FREE」などの名前のもの）の一覧が表示されれば，初期設定は完了です．
+    ![](img/windows06-devices.png){:.medium}
+
+    <FreeSlotSetupNote />
+
+### macOS
+{:#setup-macos}
+
+Windows Appには日本語版がなく，英語版と中国語版のみが提供されています．そのため，以下の手順では英語版で説明します．
+
+1. [App Store](https://apps.apple.com/jp/app/windows-app/id1295203466?mt=12)からWindows Appをインストールしてください．なお，対応するOSのバージョンはApp Storeのページで確認できます．
+    ![](img/macos01-app-store.png){:.medium}
+1. Windows Appを起動してください．マイクやカメラへのアクセス許可を求める画面が表示された場合は，リモート環境でマイク・カメラを使いたい場合のみ許可してください．後から変更することもできます．
+    ![](img/macos03-request-access.png){:.small}
+    <figure class="gallery">![](img/macos04-allow-microphone.png){:.small}![](img/macos05-allow-camera.png){:.small}</figure>
+1. ローカルネットワーク上のデバイスの検索を求める画面が表示された場合は，〜
+    ![](img/macos06-allow-local-network.png){:.small}
+1. 「No Devices」と表示されるので，右上の「+」から「Add Work or School Account」を選択してください．
+    ![](img/macos07-no-devices.png){:.medium}
+    ![](img/macos08-add-account.png){:.medium}
+1. [UTokyo Account](/utokyo_account/)（共通ID（10桁の数字）に`@utac.u-tokyo.ac.jp`を付けたもの）でサインインしてください．
+1. しばらく待ち，クラウドPC（「ECCS-FREE」などの名前のもの）の一覧が表示されれば，初期設定は完了です．
+    <FreeSlotSetupNote />
+
+### ChromeOS・Android
+{:#setup-chromeos}
+
+Windows Appを利用する場合は，以下の手順でインストールしてください．なおChromeOSから利用する場合は，ブラウザ版の方が快適に利用できることが多いため，まずはブラウザ版の利用をご検討ください．
+
+1. [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&hl=ja)からWindows Appをインストールしてください．
+    ![](img/android01-play-store.png){:.medium}
+1. Windows Appを起動してください．
+    ![](img/android02-launcher.png){:.small}
+1. プライバシーに関する声明が表示されるので，「承諾する」を押してください．
+    ![](img/android03-consent.png){:.small}
+1. 「サインイン」を押してください．
+    ![](img/android04-signin.png){:.small}
+1. [UTokyo Account](/utokyo_account/)（共通ID（10桁の数字）に`@utac.u-tokyo.ac.jp`を付けたもの）でサインインしてください．
+1. 以下のようにクラウドPC（「ECCS-FREE」などの名前のもの）が表示されれば，初期設定は完了です．
+    ![](img/android06-devices.png){:.small}
+
+    <FreeSlotSetupNote />
+
+### iPadOS・iOS
+{:#setup-ipados}
+
+1. [App Store](https://apps.apple.com/jp/app/windows-app-mobile/id714464092)からWindows App Mobileをインストールしてください．
+1. アプリを起動し，右上の「+」から「職場アカウントまたは学校アカウント」を選択してください．
+    <figure class="gallery">![](img/ipados01-devices-empty.png)![](img/ipados02-account-type.png)</figure>
+1. [UTokyo Account](/utokyo_account/)（共通ID（10桁の数字）に`@utac.u-tokyo.ac.jp`を付けたもの）でサインインしてください．
+1. 以下のようにクラウドPC（「ECCS-FREE」などの名前のもの）が表示されれば，初期設定は完了です．
+    ![](img/ipados04-devices.png){:.small}
+
+    <FreeSlotSetupNote />
+
+## 接続方法
+{:#connect}
+
+以下の手順は，Windowsリモート環境を利用するたびに必要です．
+
+### ブラウザから接続する
+{:#connect-browser}
+
+ブラウザから接続する場合，以下の環境が必要です（[Microsoftのドキュメント](https://learn.microsoft.com/ja-jp/windows-365/end-user-access-cloud-pc)による）．
+
+- OS：Windows，macOS，ChromeOS，Linux
+- ブラウザ：Microsoft Edge，Google Chrome，Safari，Mozilla Firefox (v55.0以降) などの最新のブラウザ
+
+1. [https://windows.cloud.microsoft/](https://windows.cloud.microsoft/)にアクセスしてください．
+1. [UTokyo Account](/utokyo_account/)（共通ID（10桁の数字）に`@utac.u-tokyo.ac.jp`を付けたもの）にサインインしていない場合は，サインインしてください．
+1. 利用できるクラウドPCが表示されます．予約している場合は「ECCS-RESERVE」を，予約していない場合は「ECCS-FREE」（末尾に1から6までの数字が付きます）を選んでください．タイル（または「…」メニュー）から「接続」を押します．
+    <figure class="gallery">![](img/browser01-devices.png)![](img/browser02-connect.png)</figure>
+
+    <FreeSlotNote />
+
+1. 「セッション設定」の画面が表示された場合は，利用したい機能を選択して「接続」を押してください．設定項目については[セッション設定](#session-settings)を参照してください．
+    ![](img/browser03-session-settings.png){:.small}
+1. 「クラウドPCにサインイン」と表示されたら「サインイン」を押してください．
+    ![](img/browser04-signin.png){:.medium}
+1. 「リモートデスクトップ接続を許可しますか？」と表示されたら「はい」を選択してください．
+    ![](img/browser05-allow.png){:.medium}
+1. 接続が完了すると，ブラウザ内にWindowsのデスクトップが表示され，利用できるようになります．
+    ![](img/browser06-desktop.png){:.medium}
+
+### Windows Appから接続する
+{:#connect-app}
+
+以下の手順は，OSによらずほぼ共通です．
+
+1. Windows Appを起動し，接続したいクラウドPCをダブルクリック（またはタップ）してください．「…」メニューから「接続」を選ぶこともできます．
+    <figure class="gallery">![](img/app01-devices.png)![](img/app02-connect.png)</figure>
+
+    予約している場合は「ECCS-RESERVE」を，予約していない場合は「ECCS-FREE」（末尾に1から6までの数字が付きます）を選んでください．
+
+    <FreeSlotNote />
+
+1. 「セッション設定」の画面が表示された場合は，利用したい機能を選択して「接続」を押してください．設定項目については[セッション設定](#session-settings)を参照してください．
+    ![](img/app03-session-settings.png){:.small}
+1. サインインやパスワードの入力を求められた場合は，UTokyo Accountでサインインしてください．また，リモートデスクトップ接続を許可するか尋ねる画面が表示されたら，許可してください．
+    ![](img/app04-allow.png){:.small}
+1. 接続が完了すると，Windowsのデスクトップが表示され，利用できるようになります．
+    <figure class="gallery">![](img/app05-connecting.png)![](img/app06-desktop.png)</figure>
+
+## ログアウト方法
+{:#signout}
+
+利用を終えるときは，**必ずログアウト（サインアウト）してください**．スタートメニューからアカウントのアイコンを選び，「Sign out」（日本語表示の場合は「サインアウト」）を選択します．
+
+![](img/signout01-start-menu.png){:.medium}
+
+なお，ログアウトしても，環境内に保存したデータは消去されます．必要なファイルは[ファイル（データ）の扱い方](#files)を参考に，環境外に保存してください．
+
+## 設定・ローカルデバイスの利用
+{:#settings}
+
+### セッション設定
+{:#session-settings}
+
+接続元のPC（クライアント）に接続されているデバイスや，クライアント上の情報をWindowsリモート環境から利用するには，「セッション設定」を使います．セッション設定は接続時の画面で行います．
+
+主な設定項目は以下の通りです．
+
+- **プリンター・マイク・カメラ・場所**：クライアントに接続されているデバイスを，リモート環境から利用できるようにします．リモート環境で使わないものはチェックを外してください．
+- **クリップボード・ファイル転送**：クライアントとリモート環境の間でのコピー＆ペーストや，ファイルの受け渡しができるようになります．
+- **キーボードショートカット**：キーボードショートカットをリモート環境側に送ります．全画面表示にする必要があります．
+- **代替キーボードレイアウト**：クライアントのキーボードに合わせて，リモート環境側のキーボードレイアウトを変更できます．日本語キーボードを使っている場合は「日本語 (106/109 キー)」を選択してください．
+    ![](img/session01-keyboard-layout.png){:.medium}
+
+- **複数のディスプレイ（プレビュー）**：リモートのセッションを2つのディスプレイに分割して表示します．利用するには「高度なグラフィックス（ハードウェアアクセラレータ）」がオンになっている必要があります．
+    ![](img/session02-multiple-displays.png){:.medium}
+- **高度なグラフィックス（ハードウェアアクセラレータ）**：ネットワークの待機時間が短縮され，特にグラフィックを多く使うアプリの利用時に，よりスムーズな操作感が得られます．
+- **高DPI**：4Kモニターなどを使った際に，グラフィックスの忠実度を高め，テキストの明瞭度を向上させます．
+
+詳細は[Microsoftのドキュメント](https://learn.microsoft.com/ja-jp/windows-app/display-settings?tabs=web)も参照してください．
+
+### ブラウザとWindows Appを切り替える
+{:#connection-user}
+
+[https://windows.cloud.microsoft/](https://windows.cloud.microsoft/)から接続する際に，ブラウザで開くか，インストール済みのWindows Appで開くかを選択できます．クラウドPCの「…」メニューから「接続ユーザー」→「ブラウザー（規定値）」または「デスクトップアプリ」を選択してください．
+
+![](img/session03-connection-user.png){:.medium}
+
+### ECCSのChromeOSデバイスを利用する場合の注意事項
+{:#chromeos-notes}
+
+{/* TODO: 執筆中（要検証） */}
+
+## 表示の設定
+{:#display}
+
+### ダークモードにする
+{:#dark-mode}
+
+1. 「Settings」（設定）を開き，「Personalization」→「Colors」を選択してください．
+    ![](img/darkmode01-colors.png){:.medium}
+
+1. 「Choose your mode」で「Dark」を選択してください．
+    ![](img/darkmode02-choose-dark.png){:.medium}
+
+1. ダークモードに切り替わります．
+    ![](img/darkmode03-applied.png){:.medium}
+
+詳細は[Microsoftのドキュメント](https://support.microsoft.com/ja-jp/windows/experience/personalization/personalize-your-colors-in-windows)も参照してください．
+
+### スクリーンキーボードを使う
+{:#on-screen-keyboard}
+
+キーボードの入力が意図した通りにならない場合などは，画面上のキーボード（スクリーンキーボード）で確認できます．
+
+1. 画面下部の検索バーで「osk」と入力してください．
+    ![](img/keyboard01-search-osk.png){:.medium}
+1. 「On-Screen Keyboard」をクリックすると，キーボードが表示されます．
+    ![](img/keyboard02-osk.png){:.medium}
+1. スクリーンキーボード右下の「Options」から「Keyboard layout」を「English (United States)」から「Japanese」に変えると，キーボード右端のブロックが日本語表示になります．それ以外の表示は変化しません．
+    ![](img/keyboard03-layout.png){:.medium}
+
+## ファイル（データ）の扱い方
+{:#files}
+
+Windowsリモート環境では，**接続を切断してから一定時間が経過すると，環境内のデータがすべて消去されます**．必要なファイルは，こまめに環境外に保存してください．詳しくは[通常のWindows PCとの相違点](../#differences)を参照してください．
+
+### OneDriveを使う
+{:#onedrive}
+
+サインインに使用したUTokyo Accountで自動的に認証されるため，設定なしで利用できます．
+
+1. エクスプローラーを開いてください．
+    ![](img/onedrive01-explorer.png){:.medium}
+1. 左側のタブから「（名前） - The University of Tokyo」を選択してください．このタブが表示されるまで，少し時間がかかることがあります．
+    ![](img/onedrive02-folder.png){:.medium}
+
+ブラウザから使う場合は，[https://univtokyo-my.sharepoint.com/](https://univtokyo-my.sharepoint.com/)にアクセスしてください．
+
+### Google Driveを使う
+{:#google-drive}
+
+1. デスクトップアプリのGoogle Driveを開いてください．
+    ![](img/googledrive01-launch.png){:.medium}
+1. 「Get started」を押し，画面の指示に従ってGoogleアカウントにサインインしてください．
+    <figure class="gallery">![](img/googledrive02-welcome.png)![](img/googledrive03-google-signin.png)![](img/googledrive04-confirm.png)</figure>
+1. サインインが完了すると，以下のような画面が表示されます．エクスプローラーで開きたい場合は「Open Drive folder」を，ブラウザで開きたい場合は「Open Drive web」を選択してください．
+    ![](img/googledrive05-open.png){:.medium}
+
+### 接続元のローカルにあるデータを利用する
+{:#local-files}
+
+USBメモリなど，接続元のPC（クライアント）にあるデータをWindowsリモート環境で利用するには，以下の方法があります．
+
+- **OneDriveやGoogle Driveを経由する**：クライアントからアップロードし，Windowsリモート環境側でサインインしてダウンロードします．
+- **セッション設定の「ファイル転送」を使う**：接続時の[セッション設定](#session-settings)で「ファイル転送」を有効にしてください．
+- **セッション設定の「クリップボード」を使う**：テキストなどは，[セッション設定](#session-settings)で「クリップボード」を有効にすると，コピー＆ペーストで受け渡しできます．
+
+## その他特有の仕様
+{:#others}
+
+- Windowsリモート環境では，**すでにUTokyo Accountにサインインした状態**になっています．個人の（`g.ecc`ではない）Googleアカウントを利用する場合など，意図しないアカウントでの操作にならないようご注意ください．
+- Windowsリモート環境は，初期状態では英語表示になっており，日本語を含む他言語に変更することはできません．
+- macOS版のWindows Appには，日本語版はありません．
+  ![](img/macos02-app-language.png){:.medium}
+
+## トラブル時の対応
+{:#trouble}
+
+### よくあるトラブルと対処法
+{:#faq}
+
+Windows 365全般の既知の問題については，[Windows 365 Enterprise と現場での既知の問題](https://learn.microsoft.com/ja-jp/troubleshoot/windows-365/known-issues-enterprise)も参照してください．
+
+#### 接続開始時にエラーが表示される
+{:#trouble-connect}
+
+ブラウザからの接続時に「切断」「セッションの接続が解除されました」と表示される場合があります．この場合は「再接続」を選ぶと，「セッション設定」の画面に戻ります．
+![](img/trouble01-disconnected.png){:.medium}
+
+#### カメラや位置情報にアクセスできない
+{:#trouble-permissions}
+
+ブラウザから接続している場合，ブラウザ側でカメラや位置情報へのアクセスが許可されていないと，以下のような通知が表示されます．ブラウザの設定からアクセスを許可してください．
+![](img/trouble02-permissions.png){:.medium}
+
+### ログの採取方法
+{:#logs}
+
+{/* TODO */}
