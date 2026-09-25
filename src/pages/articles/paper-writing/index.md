@@ -168,7 +168,7 @@ Mathpixは，パソコンのスクリーン上から数式を読み取ること�
 画面の下にキーボードが表示されるので，それを用いて表示したい数式を記入していきます．記入が終わると，画面にグラフが生成されます．複数のグラフを記入したい場合は，［入力］をクリックし，新しい数式を記入していくことで，新しいグラフを挿入できます．
 
 <figure>
-<img src="pic18.png">
+<img src="pic18.png"/>
 <figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
 </figure>
 
@@ -176,12 +176,12 @@ Mathpixは，パソコンのスクリーン上から数式を読み取ること�
 x軸やy軸の単位やラベルの設定ができます．
 
 <figure>
-<img src="pic19.png" class="small">
+<img src="pic19.png" class="small"/>
 <figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
 </figure>
 
 <figure>
-<img src="pic20.png">
+<img src="pic20.png"/>
 <figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
 </figure>
 
@@ -191,7 +191,7 @@ x軸やy軸の単位やラベルの設定ができます．
 また，二次元座標系だけでなく，空間図形の描画など，様々なことができます．
 
 <figure>
-<img src="pic21.png">
+<img src="pic21.png"/>
 <figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
 </figure>
 
@@ -268,12 +268,12 @@ Google Keepは画像を保存することが出来るほか，画像のテキス
 まず，スキャンした画像をGoogle Keepに読み込ませます．
 
 <figure>
-<img src="pic28.png">
+<img src="pic28.png"/>
 <figcaption><a href="/en/improvement/">https://utelecon.adm.u-tokyo.ac.jp/en/improvement/</a></figcaption>
 </figure>
 
 <figure>
-<img src="pic29.png">
+<img src="pic29.png"/>
 <figcaption><a href="/en/improvement/">https://utelecon.adm.u-tokyo.ac.jp/en/improvement/</a></figcaption>
 </figure>
 
@@ -282,7 +282,7 @@ Google Keepは画像を保存することが出来るほか，画像のテキス
 また，下部のアイコンから背景の選択や図形の追加などの操作を行うことができます．
 
 <figure>
-<img src="pic30.png">
+<img src="pic30.png"/>
 <figcaption><a href="/en/improvement/">https://utelecon.adm.u-tokyo.ac.jp/en/improvement/</a></figcaption>
 </figure>
 
