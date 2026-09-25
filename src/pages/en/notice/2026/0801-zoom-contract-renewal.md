@@ -4,12 +4,13 @@ title: Changes to the Zoom Service Provided at the University of Tokyo
 
 <div style="text-align: right;">
 <span>June 29, 2026</span><br />
+<span>Updated: September 25, 2026</span><br />
 <span>Division for Information and Communication Systems</span><br />
 </div>
 
 The University of Tokyo provides Zoom to members who have a UTokyo Account as a web conferencing system that can be used widely for university activities. We began providing Zoom in 2020, but in light of the significant changes to Zoom's features and licensing structure over the past several years, we have decided to review how the service is provided to our members. This page describes the specific changes.
 
-In particular, "Change 3" is a very important change that includes the **deletion of cloud recording data**. **Before the date on which Change 3 takes effect (October 1, 2026)**, please be sure to organize the cloud recordings you need and back up any videos you will continue to need. Deleted cloud recordings **cannot be restored**.
+In particular, "Change 3" is a very important change that includes the **deletion of cloud recording data**. **Before the date on which Change 3 takes effect (March 1, 2027)**, please be sure to organize the cloud recordings you need and back up any videos you will continue to need. Deleted cloud recordings **cannot be restored**.
 
 ## Change 1: Expanded features for "faculty or staff members employed by the university"
 
@@ -52,16 +53,16 @@ For large meetings with up to 1,000 participants, we will continue to accept app
 ## Change 3: Cloud recordings will be retained for up to three years
 
 <div class="box--important">
-    The latest information is available in <a href="../0918-postpone_zoom_cloudrec_deletion/">Report 2: Deletion of Cloud Recordings Postponed</a>. [September 18, 2026]
+    The latest information is available in <a href="../0918-postpone_zoom_cloudrec_deletion/">Report 2: Deletion of Cloud Recordings Postponed</a>. [September 25, 2026]
 </div>
 
 The volume of cloud recording data stored at the University of Tokyo has been increasing year after year, and the associated cost burden can no longer be ignored. Recorded data has been stored indefinitely until now, and the volume used is expected to keep growing. We also presume that a large amount of recorded data continues to be stored even though it is no longer needed[^3]. Against this background, we have determined that reducing the volume used is necessary for sustainable operation, and we have decided to delete cloud recordings.
 
 [^3]: The volume of stored cloud recording data is approaching 100 TB for the university as a whole, and its usage trends are largely the same as those found in the [analysis conducted in December 2023](/en/notice/2023/12-zoom-cloud-recording/). This still suggests that a large amount of data continues to be stored even though it is no longer needed.
 
-From **October 1, 2026**, **the retention period for cloud recordings will be uniformly set to up to three years**, and **cloud recordings that are three years old will be deleted on the day they reach three years**.
+From **March 1, 2027**, **the retention period for cloud recordings will be uniformly set to up to three years**, and **cloud recordings that are three years old will be deleted on the day they reach three years**.
 
-* On October 1, 2026, we will delete all cloud recordings created up to September 2023. Those affected will also be notified separately by email (in preparation).
+* On March 1, 2027, we will delete all cloud recordings created up to September 2023. Those affected will also be notified separately by email (in preparation).
 * After that, cloud recordings that reach three years from their creation date will be automatically deleted every day.
 
 Deleted cloud recordings **cannot be restored**. Before they are deleted, please be sure to **organize the cloud recordings you need such as by obtaining backups**. Examples of specific methods (such as moving recordings to a YouTube channel) will be provided separately.
