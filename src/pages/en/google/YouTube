@@ -4,28 +4,28 @@ breadcrumb:
   title: YouTube
 ---
 
-**YouTube** is a video streaming service provided by Google in which you can upload and release videos, or livestream. 
+**YouTube** is a video streaming service provided by Google in which you can upload and release a video, or offer a livestreaming of an event. 
 
-Students, faculty and staff of the University of Tokyo can use YouTube with [ECCS Cloud Email account](/en/google). With your ECCS Cloud Email account, you can share a video of a lecture, a livestreamed ceremony and any other content **only with students, faculty and staff of the University of Tokyo.**
+If you are one of students, faculty and staff of the University of Tokyo can use YouTube with your [ECCS Cloud Email account](/en/google). With your ECCS Cloud Email account, you can share a video of a lecture, a livestreamed ceremony and any other content **only with students, faculty and staff of the University of Tokyo.**
 
-This page describes [how to upload a video and livestream](#for-creators) and [how to watch contents released only to students, faculty and staff of the University of Tokyo](#watching). If you need to know basic procedures to use Youtube, please visit [Google's official help page](https://support.google.com/youtube?hl=en&sjid=14250656160075261256-NC#topic=9257498). 
+This page describes [how to upload a video and offer a livestreaming](#for-creators) and [how to watch contents shared only with students, faculty and staff of the University of Tokyo](#watching). If you need to know basic procedures to use Youtube, please visit [Google's official help page](https://support.google.com/youtube?hl=en&sjid=14250656160075261256-NC#topic=9257498). 
 
-## To Upload a Video and Livestream
+## To Upload a Video and Offer a Livestreaming
 {:#for-creators}
 
-Follow the procedures below to upload a video and livestream on YouTube with your ECCS Cloud Email account. [Create your channel](#create-channel) first and [upload a video](#upload), [complete video privacy settings](#sharing) or livestream(#live) according your purpose. 
+Follow the procedures below to upload a video and offer a livestreaming on YouTube with your ECCS Cloud Email account. Please [create your channel](#create-channel) first and [upload a video](#upload), [complete video privacy settings](#sharing) or offer a livestreaming(#live) according your purpose. 
 
 ### About Your Channel and Account
 {:#channel}
 
-To upload a video or livestream on YouTube, you need **your channel** linked to your account. 
+To upload a video or offer a livestreaming on YouTube, you need **your channel** linked to your account. 
 
-There are two kinds of YouTube channels: **created with a personal account** and **created with a brand account.** Also, **on a channel created by a personal account, you can share contents only with students, faculty and staff of the University of Tokyo.** **If you upload a video or livestream only for students, faculty and staff of the University of Tokyo**, you need to **use a channel created with your personal ECCS Cloud Email Account (instead of the brand account of the University of Tokyo). On the other hand, on a channel created with a brand account, you can manage the account with others and create plural channels with one account.
+There are two kinds of YouTube channels: **created with a personal account** and **created with a brand account.** Also, **on a channel created by a personal account, you can share contents only with students, faculty and staff of the University of Tokyo.** **If you upload a video or offer a livestreaming only for students, faculty and staff of the University of Tokyo**, you need to **use a channel created with your personal ECCS Cloud Email Account (instead of the brand account of the University of Tokyo). On the other hand, on a channel created with a brand account, you can manage the account with other members and create plural channels with one account.
 
 ### To Create a Channel
 {:#create-channel}
 
-Before uploading a video or livestreaming, you need to create your channel with your ECCS Cloud Email account. Follow the procedures below to log in YouTube with your ECCS Cloud Email account and create a channel with your personal account. Furthermore, **to create a channel with a brand account, visit "[Create a YouTube channel](https://support.google.com/youtube/answer/1646861?hl=en&sjid=12429287744673113938-NC)">"Create a channel with a business or other name."** なお，**ブランドアカウントのチャンネルを作成したい場合は，「[YouTube チャンネルの作成](https://support.google.com/youtube/answer/1646861?hl=ja)」>「ビジネスなどで使う名前でチャンネルを作成する」を参照してください**．
+Before uploading a video or offering a livestreaming, you need to create your channel with your ECCS Cloud Email account. Follow the procedures below to log in YouTube with your ECCS Cloud Email account and create a channel with your personal account. **To create a channel with a brand account, please visit "[Create a YouTube channel](https://support.google.com/youtube/answer/1646861?hl=en&sjid=12429287744673113938-NC)">"Create a channel with a business or other name."** 
 
 1. Log in YouTube with your ECCS Cloud Email account.
 2. Click "Create" on the upper right of the screen. 
@@ -44,28 +44,28 @@ To understand the basic procedures to upload a video on YouTube, please check "[
 ### To Complete Video Privacy Settings
 {:#sharing}
 
-To understand the differences between "Public", "Private" and "Unlisted" and the procedures to share contents only with students, faculty and staff of the University of Tokyo, please check "[YouTube動画の公開範囲を設定する](./sharing/).
+To understand the differences between "Public", "Private" and "Unlisted" and the procedures to share contents only with students, faculty and staff of the University of Tokyo, please check "[YouTube動画の公開範囲を設定する](./sharing/)."
 
-### To Livestream
+### To Offer a Livestreaming
 {:#live}
 
-To turn on the option of livestreaming and start it, please check "[クラウドメールアカウントでのYouTubeライブ配信方法](./live/)". Also, **it takes around 24 hours to turn on the option of livestreaming after your request.**
+To turn on the option of livestreaming and start it, please check "[クラウドメールアカウントでのYouTubeライブ配信方法](./live/)." Also, **it takes around 24 hours to turn on the option of livestreaming after your request.**
 
 Furthermore, **you can livestream a meeting or a webinar on Zoom through Youtube.** Please check "[ZoomミーティングやウェビナーをYouTubeでストリーミング配信する](./live/streaming/zoom/)" for more detail. 
 
 ## To Watch a Video Only Shared with Students, Faculty and Staff of the University of Tokyo
 {:#watching}
 
-To watch a video only shared with students, faculty and staff of the University of Tokyo, **you need to use your ECCS Cloud Email account.**
+To watch a video only shared with students, faculty and staff of the University of Tokyo, **you need to log in YouTube with your ECCS Cloud Email account.**
 
 Each of the error messages below will be displayed when you try to watch such a video without logging in or with another account. 
 
 - ["**Private video: Sign in if you've been granted access to this video**"（The "Log in" banner **IS** in the center of the display）](#watching-private)
 - ["**Video unavailable: This video is private**"（The "Log in" banner is **NOT** on the display）](#watching-cannot-play)
 
-Please follow the procedures below to watch the video with your ECCS Cloud Email account.
+Please follow the procedures below to watch the video with your ECCS Cloud Email account in each case.
 
-### When The Video Is Displayed as "Private"「非公開動画 ……」と表示された場合
+### When The Video Is Displayed as "Private"
 {:#watching-private}
 
 When you try to watch a video only shared with the students and faculties without logging in, the video will be displayed as "Private."
