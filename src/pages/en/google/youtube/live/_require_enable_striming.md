@@ -7,5 +7,5 @@
 <img src="./request-live-streaming.png" class="small" />
 <img src="./live-wait.png" class="small" />
 </figure>
-</details>
 
+</details>
