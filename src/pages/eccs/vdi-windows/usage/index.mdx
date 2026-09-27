@@ -7,8 +7,6 @@ breadcrumb:
 import FreeSlotNote from "./_FreeSlotNote.mdx";
 import FreeSlotSetupNote from "./_FreeSlotSetupNote.mdx";
 
-このページでは，Windowsリモート環境の基本的な使い方について説明します．
-
 ## 概要
 {:#introduction}
 
@@ -48,7 +46,6 @@ Windows Appを利用する場合は，あらかじめアプリのインストー
 1. [UTokyo Account](/utokyo_account/)（共通ID（10桁の数字）に`@utac.u-tokyo.ac.jp`を付けたもの）でサインインしてください．
 1. 以下のようにクラウドPC（「ECCS-FREE」などの名前のもの）の一覧が表示されれば，初期設定は完了です．
     ![](img/windows06-devices.png){:.medium}
-
     <FreeSlotSetupNote />
 
 ### macOS
@@ -64,8 +61,7 @@ Windows Appには日本語版がなく，英語版と中国語版のみが提供
 1. ローカルネットワーク上のデバイスの検索を求める画面が表示された場合は，〜
     ![](img/macos06-allow-local-network.png){:.small}
 1. 「No Devices」と表示されるので，右上の「+」から「Add Work or School Account」を選択してください．
-    ![](img/macos07-no-devices.png){:.medium}
-    ![](img/macos08-add-account.png){:.medium}
+    <figure class="gallery">![](img/macos07-no-devices.png){:.medium}![](img/macos08-add-account.png){:.medium}</figure>
 1. [UTokyo Account](/utokyo_account/)（共通ID（10桁の数字）に`@utac.u-tokyo.ac.jp`を付けたもの）でサインインしてください．
 1. しばらく待ち，クラウドPC（「ECCS-FREE」などの名前のもの）の一覧が表示されれば，初期設定は完了です．
     <FreeSlotSetupNote />
@@ -137,11 +133,8 @@ Windows Appを利用する場合は，以下の手順でインストールして
 
 1. Windows Appを起動し，接続したいクラウドPCをダブルクリック（またはタップ）してください．「…」メニューから「接続」を選ぶこともできます．
     <figure class="gallery">![](img/app01-devices.png)![](img/app02-connect.png)</figure>
-
     予約している場合は「ECCS-RESERVE」を，予約していない場合は「ECCS-FREE」（末尾に1から6までの数字が付きます）を選んでください．
-
     <FreeSlotNote />
-
 1. 「セッション設定」の画面が表示された場合は，利用したい機能を選択して「接続」を押してください．設定項目については[セッション設定](#session-settings)を参照してください．
     ![](img/app03-session-settings.png){:.small}
 1. サインインやパスワードの入力を求められた場合は，UTokyo Accountでサインインしてください．また，リモートデスクトップ接続を許可するか尋ねる画面が表示されたら，許可してください．
@@ -173,7 +166,6 @@ Windows Appを利用する場合は，以下の手順でインストールして
 - **キーボードショートカット**：キーボードショートカットをリモート環境側に送ります．全画面表示にする必要があります．
 - **代替キーボードレイアウト**：クライアントのキーボードに合わせて，リモート環境側のキーボードレイアウトを変更できます．日本語キーボードを使っている場合は「日本語 (106/109 キー)」を選択してください．
     ![](img/session01-keyboard-layout.png){:.medium}
-
 - **複数のディスプレイ（プレビュー）**：リモートのセッションを2つのディスプレイに分割して表示します．利用するには「高度なグラフィックス（ハードウェアアクセラレータ）」がオンになっている必要があります．
     ![](img/session02-multiple-displays.png){:.medium}
 - **高度なグラフィックス（ハードウェアアクセラレータ）**：ネットワークの待機時間が短縮され，特にグラフィックを多く使うアプリの利用時に，よりスムーズな操作感が得られます．
@@ -201,10 +193,8 @@ Windows Appを利用する場合は，以下の手順でインストールして
 
 1. 「Settings」（設定）を開き，「Personalization」→「Colors」を選択してください．
     ![](img/darkmode01-colors.png){:.medium}
-
 1. 「Choose your mode」で「Dark」を選択してください．
     ![](img/darkmode02-choose-dark.png){:.medium}
-
 1. ダークモードに切り替わります．
     ![](img/darkmode03-applied.png){:.medium}
 
@@ -230,14 +220,14 @@ Windowsリモート環境では，**接続を切断してから一定時間が�
 ### OneDriveを使う
 {:#onedrive}
 
-サインインに使用したUTokyo Accountで自動的に認証されるため，設定なしで利用できます．
+サインインに使用したUTokyo Accountで自動的に認証されるため，以下の手順により，特段の設定をしなくてもOneDriveアプリを利用できます．
 
 1. エクスプローラーを開いてください．
     ![](img/onedrive01-explorer.png){:.medium}
 1. 左側のタブから「（名前） - The University of Tokyo」を選択してください．このタブが表示されるまで，少し時間がかかることがあります．
     ![](img/onedrive02-folder.png){:.medium}
 
-ブラウザから使う場合は，[https://univtokyo-my.sharepoint.com/](https://univtokyo-my.sharepoint.com/)にアクセスしてください．
+なおブラウザから使う場合は，[https://univtokyo-my.sharepoint.com/](https://univtokyo-my.sharepoint.com/)にアクセスしてください．
 
 ### Google Driveを使う
 {:#google-drive}
@@ -286,7 +276,4 @@ Windows 365全般の既知の問題については，[Windows 365 Enterprise と
 ブラウザから接続している場合，ブラウザ側でカメラや位置情報へのアクセスが許可されていないと，以下のような通知が表示されます．ブラウザの設定からアクセスを許可してください．
 ![](img/trouble02-permissions.png){:.medium}
 
-### ログの採取方法
-{:#logs}
-
-{/* TODO */}
+## 問い合わせ
