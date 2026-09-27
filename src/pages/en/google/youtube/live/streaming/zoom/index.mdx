@@ -5,6 +5,8 @@ breadcrumb:
   parent: ../../
 ---
 
+import RequireEnableStriming from '../../_require_enable_striming.md'
+
 This page guides you through the process of streaming Zoom meetings and webinars on YouTube using a University of Tokyo [Zoom](/en/zoom/) account.
 
 By using a UTokyo [ECCS Cloud Email](/en/google/) account (`xxxx@g.ecc.u-tokyo.ac.jp`) for your YouTube account, you can also restrict viewing of YouTube contents (including live streams) exclusively to members of the University of Tokyo.
@@ -43,9 +45,8 @@ There are two ways to stream: [directly from Zoom](#direct), or [to a YouTube ev
 
 1. Start your meeting or webinar.
 2. Click "More" in the meeting controls and select "Livestream".
-    ![](./start-live-streaming.png){:.small}
 3. Select "Live on YouTube".
-    ![](./start-live-streaming2.png){:.small}
+    ![](./start-live-streaming.png){:.small}
 4. Sign in to YouTube using your ECCS Cloud Email (`xxxx@g.ecc.u-tokyo.ac.jp`) account.
     - Please note that if screens such as "Google will allow Zoom to access this info about you" or "Zoom wants to access your Google Account" appear, you may need to grant the requested permissions in order to stream.
 6. On the "Broadcast Zoom Meeting to YouTube Live" page, configure the following settings:
@@ -66,16 +67,7 @@ Use this method if you want to obtain and share the live stream link with partic
 
 1. Sign in to YouTube.
 2. Click the “Create” icon in the upper-right corner and select “Go live.
-<details>
-<summary>If screens such as "Request access to live streaming" or "Only ... until you can stream"</summary>
-
-[YouTube live streaming may not yet have been enabled.](/en/google/youtube/live/#enable-live) has not been completed. Check whether "Live streaming" (part of "Intermediate features") is enabled on the "[Feature eligibility](https://www.youtube.com/features)" page.
-
-<figure class="gallery">
-![Request access to live streaming](./request-live-streaming.png){:small.border}
-![Live streaming wait](./live-wait.png){:.small.border}
-</figure>
-</details>
+<RequireEnableStriming />
 3. Select "Stream".
 4. Click "Edit" to set and save the title, description, visibility, etc.
     - The settings are the same as those described in "[Starting a Live Stream](../../#start-live)".
