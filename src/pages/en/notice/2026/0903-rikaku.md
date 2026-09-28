@@ -55,7 +55,7 @@ In this section, courses in the A1 Term will be used as an example to explain th
 
 From September 1, courses for the A Semester, A1 Term, A2 Term, and W Term will be registered in UTOL, and you will be able to access the courses by "Add Your Favorites" on the syllabus of UTAS (Favorite Registration) or by self-registration in UTOL. Through these registration methods, the courses you have registered in will be displayed in the timetable on UTOL, and a reminder such as "Ensure [Course Registration] on UTAS" will appear to ensure you do not forget to register for courses on UTAS. After the course registration period begins, once you complete course registration on UTAS, this reminder will no longer be displayed.
 
-Please note that information regarding adding courses to course registration or favorite registration on the syllabus will be extracted from UTAS early each morning and reflected in UTOL later that same morning. In short, changes made in UTAS are generally reflected in UTOL the following morning.
+Please note that information on syllabus favorites and course registrations on UTAS is extracted from UTAS and registered in UTOL once every hour between 6:00 and 23:00 daily.
 
 #### After the end of registration period (or course correction period): "Favorite Registration" becomes unavailable
 
