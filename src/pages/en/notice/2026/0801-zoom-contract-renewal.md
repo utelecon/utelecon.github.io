@@ -26,8 +26,8 @@ From August 1, 2026, the following features will be added for "faculty or staff 
 To check whether you qualify as a "faculty or staff member employed by the university," [view your UTokyo Account user information](https://login.adm.u-tokyo.ac.jp/my/).
 
 <details>
-<summary>If you are a student or a "faculty/staff member not employed by the University" and wish to use the features above</summary>
-Students and those who qualify as "faculty/staff members not employed by the University" can continue to use the same features as before. You can create meetings with up to 300 participants. You cannot create webinars. You cannot enable the "Translated Captions" feature for meetings and webinars you create. However, you can serve as a co-host or alternative host in meetings and webinars created by "faculty or staff member employed by the university." If you wish to use the additional features, please consult a "faculty or staff member employed by the university" associated with you. We ask that "faculty or staff members employed by the university" give due consideration when they receive such requests.
+<summary>If you are a student or a "faculty or staff member not employed by the university" and wish to use the features above</summary>
+Students and those who qualify as "faculty or staff members not employed by the university" can continue to use the same features as before. You can create meetings with up to 300 participants. You cannot create webinars. You cannot enable the "Translated Captions" feature for meetings and webinars you create. However, you can serve as a co-host or alternative host in meetings and webinars created by "faculty or staff member employed by the university." If you wish to use the additional features, please consult a "faculty or staff member employed by the university" associated with you. We ask that "faculty or staff members employed by the university" give due consideration when they receive such requests.
 </details>
 
 ## Change 2: Reduction of additional license offerings
