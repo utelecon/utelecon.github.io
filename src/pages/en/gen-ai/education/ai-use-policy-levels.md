@@ -108,6 +108,8 @@ Much of the activity of learning, however, is devoted to practice in preparation
 
 Put plainly, this is the same thing that has always been said ("don't do what does you no good"), but being conscious of it has become extremely important now that generating the "work product" itself has become so easy. Please do not miss the opportunity to grow (= **change**).
 
+Also, while AI has the advantage that you can ask it anything, at any time, for as long as you like, make sure you do not end up having fewer discussions or conversations with your friends. Use your precious time at university to interact with many people.
+
 With that in mind, here are some general remarks on what we would like you to keep in mind for each permitted AI use label:
 
 - S1: broaden your understanding of the subject by clearly putting your questions into words (what it is that you do not understand), and by exploring and organizing the information and background knowledge you need
