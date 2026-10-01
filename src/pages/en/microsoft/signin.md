@@ -22,7 +22,7 @@ For general information about UTokyo Microsoft License and details of available 
 
 This section explains how to sign in using your UTokyo Account if a screen appears requesting you to sign in to the Microsoft system.
 
-When signing in to Microsoft systems using UTokyo Account, contrary to signing in to other systems, you may encounter a sign-in screen that includes the Microsoft logo. In that case, please follow the steps below to sign in. On the other hand, if the screen is not as shown below but a normal sign-in screen (with a picture of Yasuda Auditorium) is displayed, please sign in following "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)."
+When signing in to Microsoft systems using UTokyo Account, contrary to signing in to other systems, you may encounter a sign-in screen that includes the Microsoft logo. In that case, please follow the steps below to sign in. On the other hand, if the screen is not as shown below but a normal sign-in screen (with a picture of the Akamon Gate) is displayed, please sign in following "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)."
 
 <figure class="gallery">
 <img src="img/microsoft-signin-instruction-1.png" class="medium center border">
@@ -36,7 +36,7 @@ When signing in to Microsoft systems using UTokyo Account, contrary to signing i
     - If **"Pick an account"** is displayed below the Microsoft logo
         - If an account with "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is displayed, select that account. If "Signed in" is displayed below the account name, you are already signed in to Microsoft systems with UTokyo Account. By selecting this account, you can continue to use Microsoft systems.
         - If an account with "10-digit Common ID + `@utac.u-tokyo.ac.jp`" is not displayed, click "Use another account," enter "10-digit Common ID + `@utac.u-tokyo.ac.jp`" in the input field, and then click "Next."
-2. After the message "Taking you to your organization's sign-in page" is displayed, you will be automatically redirected to the sign-in page with the image of Yasuda Auditorium. Follow the instructions in "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)" to sign in.
+2. After the message "Taking you to your organization's sign-in page" is displayed, you will be automatically redirected to the sign-in page with the image of the Akamon Gate. Follow the instructions in "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)" to sign in.
     <details>
     <summary>Help when this procedure does not work</summary>
 
@@ -55,7 +55,7 @@ This section explains the procedure for signing in to the Microsoft system with 
     - The appearance of the icon may vary depending on the system you are using.
 2. A pull-down menu will appear, so follow the steps below.
     - If the UTokyo Account you want to sign in with is displayed
-        - Select the displayed account name and follow the on-screen instructions to sign in. Depending on the situation, you may be asked to confirm your identity with multi-factor authentication (MFA) or be redirected to the sign-in page with the image of Yasuda Auditorium. For detailed sign-in instructions, please refer to "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)."
+        - Select the displayed account name and follow the on-screen instructions to sign in. Depending on the situation, you may be asked to confirm your identity with multi-factor authentication (MFA) or be redirected to the sign-in page with the image of the Akamon Gate. For detailed sign-in instructions, please refer to "[Sign in to the ICT systems with your UTokyo Account](/en/utokyo_account/#signin)."
     - If the UTokyo Account you want to sign in with is not displayed
         - Click "Sign in with another account." Then, the sign-in screen with the Microsoft logo will be displayed. Follow the instructions in "[Sign in to Microsoft systems](#instruction)" to sign in.
             <details>

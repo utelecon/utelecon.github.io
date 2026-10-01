@@ -81,12 +81,6 @@ However, for example, login authentication to the OS running on a virtual machin
 </HelpItem>
 
 <HelpItem lang="en" type="details">
-  <Fragment slot="problem">What is the difference between the Owner and Contributor in Privileged administrator roles?</Fragment>
-  <Fragment slot="solution">**Owner** is Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.
-**Contributor** is Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.</Fragment>
-</HelpItem>
-
-<HelpItem lang="en" type="details">
   <Fragment slot="problem">Can I register a subscription created under a different contract to UTokyo Azure?</Fragment>
   <Fragment slot="solution">No．</Fragment>
 </HelpItem>
@@ -97,12 +91,6 @@ However, for example, login authentication to the OS running on a virtual machin
 </HelpItem>
 
 <HelpItem lang="en" type="details">
-  <Fragment slot="problem">I want to know how to apply roles to multiple people at once.</Fragment>
-    <Fragment slot="solution"><p>If you want to set it up using the **GUI from the Azure Portal**, in the procedure for [Group Use](/en/research_computing/utokyo_azure/group/), when selecting members in the **Member section** of the **Role assignment steps**, you can add roles to multiple people at once by repeating the searching and selecting all members one by one.</p><p>If you're using **Azure CLI from the command line**, you can add a role using the following steps. This assumes a Linux environment, but the steps are roughly the same for other environments where Azure CLI is installed.</p><ol><li>Refer to [How to install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) to install Azure CLI in your Linux environment and authenticate with a UTokyo Account that already has Owner privileges for the subscription to which you want to assign a role.</li><li>Prepare a text file that lists the UTokyo Accounts to which you want to add roles.</li><li>Run the following command. ```for i in `cat [textfile name]` ; do az role assignment create --role "Owner" --scope [scope of subscriptions, resources, etc. you want to assign] --assignee $i ; done```</li></ol><ul><li>Note 1: If you want to add a contributor role, specify **Contributor** for `--role`.</li><li>Note 2: For information on scope format, please refer to the [Microsoft Learn documentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview#scope-format).</li></ul></Fragment>
-</HelpItem>
-
-
-<HelpItem lang="en" type="details">
   <Fragment slot="problem">I want to know my subscription ID</Fragment>
   <Fragment slot="solution">You can check your subscription ID on the subscription details screen.</Fragment>
 </HelpItem>
@@ -110,6 +98,29 @@ However, for example, login authentication to the OS running on a virtual machin
 <HelpItem lang="en" type="details">
   <Fragment slot="problem">Can I recover my service and data if I accidentally cancel my subscription?</Fragment>
   <Fragment slot="solution">Subscriptions and data cannot be restored. If you wish to continue using the service for a certain period of time or longer, please be sure to turn off the Auto Suspension function from the subscription management page on the UTokyo Azure:New application page.</Fragment>
+</HelpItem>
+
+### Role
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">What is the difference between the Owner and Contributor in Privileged administrator roles?</Fragment>
+  <Fragment slot="solution">**Owner** is Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.
+**Contributor** is Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.</Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">I would like to grant the authority to assign roles to Contributors as well.</Fragment>
+  <Fragment slot="solution"><p>Assigning the **Access Administrator** role allows a user to grant roles to other accounts (members) without possessing owner privileges.</p><p>When configuring this role, a "Conditions" section is added to the setup wizard; please ensure you select only the minimum necessary settings.</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">Role settings are not applied, or an error occurs when changing role settings.</Fragment>
+  <Fragment slot="solution"><p>If you select `Eligible` as the **assignment type** when configuring permissions, the assignment will not take effect until the recipient approves it. (**Important:** Please **do not select** `Eligible`, as it requires a license.) Selecting `Active` makes the assignment effective immediately.</p><p>The system treats permission settings configured as `Eligible` and those configured as `Active` as distinct entities, even for the same account. Consequently, if you attempt to add or modify permissions for an account that already has an `Eligible` or `Active` setting using the other type, an error will occur indicating that a role is already assigned to the account. If a role is currently set to `Eligible`, please remove it first and then reconfigure it as `Active`.</p><p>Reference: [Groups Use](/en/research_computing/utokyo_azure/group/)</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="en" type="details">
+  <Fragment slot="problem">I want to know how to apply roles to multiple people at once.</Fragment>
+    <Fragment slot="solution"><p>If you want to set it up using the **GUI from the Azure Portal**, in the procedure for [Group Use](/en/research_computing/utokyo_azure/group/), when selecting members in the **Member section** of the **Role assignment steps**, you can add roles to multiple people at once by repeating the searching and selecting all members one by one.</p><p>If you're using **Azure CLI from the command line**, you can add a role using the following steps. This assumes a Linux environment, but the steps are roughly the same for other environments where Azure CLI is installed.</p><ol><li>Refer to [How to install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) to install Azure CLI in your Linux environment and authenticate with a UTokyo Account that already has Owner privileges for the subscription to which you want to assign a role.</li><li>Prepare a text file that lists the UTokyo Accounts to which you want to add roles.</li><li>Run the following command. ```for i in `cat [textfile name]` ; do az role assignment create --role "Owner" --scope [scope of subscriptions, resources, etc. you want to assign] --assignee $i ; done```</li></ol><ul><li>Note 1: If you want to add a contributor role, specify **Contributor** for `--role`.</li><li>Note 2: For information on scope format, please refer to the [Microsoft Learn documentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview#scope-format).</li></ul></Fragment>
 </HelpItem>
 
 ### Free Tier and Guaranteed Free Tier
