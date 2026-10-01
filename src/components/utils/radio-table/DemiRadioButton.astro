@@ -2,11 +2,11 @@
 export interface Props
   extends Pick<
     astroHTML.JSX.IntrinsicElements["input"],
-    "id" | "type" | "name" | "value" | "disabled"
+    "id" | "name" | "value" | "disabled"
   > {}
 ---
 
-<input {...Astro.props} />
+<input type="radio" {...Astro.props} />
 <span class="button-outer"></span>
 <span class="button-inner"></span>
 
