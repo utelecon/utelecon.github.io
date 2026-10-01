@@ -1,0 +1,32 @@
+{/**
+  * @typedef {object} Props
+  * @property {string} method
+  */}
+
+import { Image } from "astro:assets";
+import If from "@components/utils/If.astro"
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+import signinEnterCode from "./signin_other_method.png";
+import signinMethodList from "./signin_security_key.png";
+
+<li>
+  When signing into your UTokyo Account (and after entering your password), you will be prompted to verify your identification using the multi-factor authentication with the default verification method. Click on the “Sign in with a different method” or “I can’t use my Microsoft Authenticator app right now” link.
+  {props.methodSupplement}
+  <If cond={props.method === "Sign in with a different method"}>
+    <Fragment slot="else">
+      <ArrowOverlay image={signinEnterCode} x={2600} y={860} angle={180} scale={0.7} />
+    </Fragment>
+  </If>
+</li>
+<li>
+  When the screen to select a different authentication method appears, please click on the "{props.method}" option.
+  <If cond={props.method === "Face, fingerprint, PIN or security key"}>
+    <ArrowOverlay image={signinMethodList} x={1950} y={450} angle={0} scale={0.8} />
+  </If>
+  <If cond={props.method === "Use a verification code"}>
+   <ArrowOverlay image={signinMethodList} x={1570} y={557} angle={180} scale={0.9} />
+  </If>
+  <If cond={props.method === ""}>
+    <Image src={signinMethodList} alt="" />
+  </If>
+</li>
