@@ -1,0 +1,42 @@
+import If from "@components/utils/If.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {"personal" | "organization"} ownership
+  */}
+
+<div class="box">
+東京大学が学内構成員に提供しているUTokyo AccountはMicrosoftアカウントですが，**Windows端末の初期セットアップには使用できません**．初期セットアップでは，個人用Microsoftアカウントまたはローカルアカウントを使用してください．
+</div>
+
+万が一，UTokyo Accountを使ってWindowsの初期セットアップを行い，PCがUTokyo Accountに関連付けられた場合，卒業・退職などでアカウントが失効した後にPCへサインインできなくなる可能性があります．在籍中に「[Windows PCからUTokyo Accountの関連付けを解除する](/systems/leave/entrajoined/)」の手順を確認し，関連付けを解除してください．
+
+<If cond={props.ownership === "personal"}>
+
+**個人で購入した端末の場合**
+
+個人用Microsoftアカウントを使ってセットアップしてください．既に使用している個人用MicrosoftアカウントのOneDriveなどに保存したデータへアクセスする予定がある場合は，そのアカウントを使ってセットアップするとスムーズです．
+
+  <Fragment slot="else">
+
+**組織のために購入した端末の場合**
+
+管理者となる方が，自身の個人用Microsoftアカウント，またはその端末の管理用に新しく作成したMicrosoftアカウントを使ってセットアップしてください．個人用アカウントを使用する場合は，異動・退職時に端末を初期化するか，別の管理者へ管理権限を移す必要があることに注意してください．アカウントのパスワードを複数人で共有しないでください．
+
+セットアップ後，必要に応じて，実際にPCを利用する方のログイン用アカウントやゲストアカウントを作成してください．共用PCでは，管理者用アカウントを日常利用に使わず，利用者ごとに別のアカウントを作成してください．
+
+  </Fragment>
+</If>
+
+Windowsの同一のログイン環境内で複数の個人用Microsoftアカウントを併用することは推奨されません．既に使用している個人用MicrosoftアカウントのOneDriveなどへアクセスする使い方を想定している場合は，そのアカウントを使ってセットアップしてください．なお，個人用Microsoftアカウントと，東京大学から付与されるMicrosoftアカウント（UTokyo Account）をOfficeやOneDriveなどのアプリ内で併用することは可能です．
+
+**ローカルアカウントを利用する場合**
+
+Microsoftアカウントを使わず，端末固有のローカルアカウントを作成してセットアップすることもできます．詳しくは「[Windows 11でローカルアカウントを用いてセットアップする方法](/microsoft/win-local/)」を参照してください．ただし，Windowsの更新により手順が変わる可能性があるため，作業時点の最新情報も確認してください．
+
+**セットアップ後に確認すること**
+
+1. Windows Updateを実行し，OSとドライバーを最新の状態にする
+2. Microsoft Defenderなど，指定されたセキュリティ機能が有効になっていることを確認する
+3. BitLockerまたはデバイスの暗号化を有効にし，回復キーをPC以外の安全な場所へ保管する
+4. Windows HelloのPINなど，画面を安全にロック解除する方法を設定する
