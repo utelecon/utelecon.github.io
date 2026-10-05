@@ -5,8 +5,8 @@ ol {
   }
 
   & > li {
-    margin-top: 0.125em;
-    margin-bottom: 0.125em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
   }
   & > li:first-child {
     margin-top: 0;
@@ -41,7 +41,7 @@ ol {
 
 li > ul > li:first-child,
 li > ol > li:first-child {
-  margin-top: 0.125em;
+  margin-top: 0.25em;
 }
 
 @counter-style decimal-bracket {
