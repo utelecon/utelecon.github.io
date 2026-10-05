@@ -157,6 +157,11 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
+  <Fragment slot="problem">どういう条件で請求が発生するのかがわからない</Fragment>
+  <Fragment slot="solution">[UTokyo Azure サブスクリプション管理サイトの使用量ページ](https://azure.itc.u-tokyo.ac.jp/list/usage)に表示される各サブスクリプションの使用量で，請求額欄に$0.0以外の金額が表示された場合，10月または4月にその金額の日本円換算分が請求されます．詳細は[請求の確認方法](/research_computing/utokyo_azure/faq/usage/)のページを参照ください．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
   <Fragment slot="problem">管理ページでの金額表示が米ドルなのですが</Fragment>
   <Fragment slot="solution">Microsoft のギフトクレジットの取り扱い仕様により米ドルで管理されるため表示も米ドルになります．申請者へ超過分の請求が発生した場合は，財務会計システムによってその時の変換レートで変換され日本円で請求されます．</Fragment>
 </HelpItem>
