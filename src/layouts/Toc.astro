@@ -82,7 +82,7 @@ for (const heading of Astro.props.headings) {
 
   #toc {
     overflow-y: auto;
-    padding: 2rem 0.5rem;
+    padding: 0 0.5rem;
     font-size: 0.875em;
     width: toc.$toc-width;
     min-width: toc.$toc-width;
@@ -98,8 +98,6 @@ for (const heading of Astro.props.headings) {
       margin: 0 0 0.4em 0;
       padding: 0;
       border: none;
-      font-size: 1.25em;
-      font-weight: bold;
       color: color.$text-color;
 
       &:only-child {
@@ -139,21 +137,20 @@ for (const heading of Astro.props.headings) {
       }
     }
 
-    ul.toc-h3 {
+    #toc ul.toc-h3 {
       font-size: 0.9em;
 
       a {
         filter: saturate(0);
       }
+      > li > a {
+        padding-left:1em;
+      }
     }
 
-    ul.toc-h4 {
+    #toc ul.toc-h4 {
       > li > a {
-        padding-left: 1em;
-
-        &:before {
-          display: none;
-        }
+        padding-left: 2em;
       }
     }
 
