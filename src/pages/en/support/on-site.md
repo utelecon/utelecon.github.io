@@ -34,6 +34,6 @@ Consultations are available at two locations in the Komaba area and one location
 
 Consultations are generally available on weekdays from 10:20 a.m. to 6:30 p.m. However, please note the following:
 - Services are provided only during each facility’s opening hours.
-- As student staff work on a rotating schedule, we may not be able to respond even during the above hours. The actual availability is published on the following page (updated automatically from time to time):
+- As student staff work on a rotating schedule, we may not be able to respond even during the above hours. The actual availability is published on the following page (automatically updated at least once per hour):
 <b class="box center">[utelecon Support Staff Walk-in Schedule](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?usp=sharing)</b>
 - During Periods of particularly high demand, consultation days and hours may be extended.
