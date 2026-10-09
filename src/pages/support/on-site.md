@@ -32,6 +32,9 @@ breadcrumb:
 いずれも平日10時20分から18時30分まで受け付けます．ただし，
 - 施設の開館時間内に限ります．
 - 学生スタッフが交代で勤務している都合上，この時間帯であっても対応できない場合があります．実際の対応可能時間は，次のページで公開しています（毎時程度以上の頻度で自動的に更新されます）．
-<b class="box center">[utelecon相談員 対面対応スケジュール](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?usp=sharing)</b>
+    - [情報教育棟](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?gid=1286064927#gid=1286064927)
+    - [駒場図書館](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?gid=1282943948#gid=1282943948)
+    - [総合図書館](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?gid=944805225#gid=944805225)
+    {:.cards}
 - 相談件数が特に多い時期に限り，対応曜日・時間帯を拡張する場合があります．
 <!-- 地図などはいずれ https://www.sodan.ecc.u-tokyo.ac.jp/about-us/tutors-working/ から移植する -->
