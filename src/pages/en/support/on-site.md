@@ -38,4 +38,5 @@ Consultations are generally available on weekdays from 10:20 a.m. to 6:30 p.m. H
     - [Information Education Building, Komaba](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?gid=1286064927#gid=1286064927)
     - [Komaba Library, Komaba](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?gid=1282943948#gid=1282943948)
     - [General Library, Hongo](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?gid=944805225#gid=944805225)
+    {:.cards}
 - During Periods of particularly high demand, consultation days and hours may be extended.
