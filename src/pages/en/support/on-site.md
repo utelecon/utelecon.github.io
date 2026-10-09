@@ -37,7 +37,3 @@ Consultations are generally available on weekdays from 10:20 a.m. to 6:30 p.m. H
 - As student staff work on a rotating schedule, we may not be able to respond even during the above hours. The actual availability is published on the following page (updated automatically from time to time):
 <b class="box center">[utelecon Support Staff Walk-in Schedule](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?usp=sharing)</b>
 - During Periods of particularly high demand, consultation days and hours may be extended.
-
-<div class="iframe-container" style="--aspect-ratio: 90%;">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRv7KqoCTRfwEaBSBabCt8SETqqptFA4QytZHmf-YjSznT4qkv6jk1AfblHDH1zQVHfmKIAhj_0NLEB/pubhtml?widget=true&amp;headers=false"></iframe>
-</div>

@@ -35,7 +35,3 @@ breadcrumb:
 <b class="box center">[utelecon相談員 対面対応スケジュール](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?usp=sharing)</b>
 - 相談件数が特に多い時期に限り，対応曜日・時間帯を拡張する場合があります．
 <!-- 地図などはいずれ https://www.sodan.ecc.u-tokyo.ac.jp/about-us/tutors-working/ から移植する -->
-
-<div class="iframe-container" style="--aspect-ratio: 90%;">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRv7KqoCTRfwEaBSBabCt8SETqqptFA4QytZHmf-YjSznT4qkv6jk1AfblHDH1zQVHfmKIAhj_0NLEB/pubhtml?widget=true&amp;headers=false"></iframe>
-</div>
