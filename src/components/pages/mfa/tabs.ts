@@ -1,6 +1,6 @@
 export type Step = "first" | "alt";
 export type Group = "intent" | Step;
-export type Selection = "selector" | "ms_auth" | "auth_app" | "phone" | "fido";
+export type Selection = "selector" | "ms_auth" | "auth_app" | "phone" | "fido" | "passkey";
 export type RowLabels = Partial<Record<Selection, string>>;
 export type ColumnLabels = Record<Step, string>;
 
@@ -15,7 +15,7 @@ export function emitChangeTab(step: string, selection: string | null) {
   if (!["first", "alt"].includes(step)) return;
 
   selection ??= "selector";
-  if (!["selector", "ms_auth", "auth_app", "phone", "fido"].includes(selection))
+  if (!["selector", "ms_auth", "auth_app", "phone", "fido", "passkey"].includes(selection))
     selection = "selector";
 
   for (const listener of listeners) {

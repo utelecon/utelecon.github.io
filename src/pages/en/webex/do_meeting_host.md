@@ -1,5 +1,5 @@
 ---
-title: Webex meeting room 101（for instructors）
+title: Webex meeting room 101 (for instructors)
 ---
 
 * In this section, we will explain the Webex Meetings functions that are unique to the Host of the meeting.
@@ -35,7 +35,7 @@ title: Webex meeting room 101（for instructors）
 
 ### Recording
 
-* By recording the entire meeting and publishing it on ITC-LMS etc. (publication method TODO), it can be used as a learning material for students who had poor network conditions or for the students to revise afterwards.
+* By recording the entire meeting and publishing it on UTOL etc.<!-- (publication method TODO)>--, it can be used as a learning material for students who had poor network conditions or for the students to revise afterwards.
 * Recording can be done at any time by setting "Automatic Recording" when setting up the conference, or by clicking the recording icon during the conference.
 
 	![自動録画](img/webex_meeting_auto_record.png){:.small}
@@ -47,8 +47,8 @@ title: Webex meeting room 101（for instructors）
 
 ### Return as the "Host"
 
-* If the host disconnects from the meeting due to network trouble, etc., the role of the  "Host" will be assigned to another participant.
-* In that case, after re joining as a participant, press "Regain the role of the host" from the "Participant" menu and enter the "Host Key" that was displayed when the meeting was created. Then, you can reassume the role as the "Host."
+* If the host disconnects from the meeting due to network trouble, etc., the role of the "Host" will be assigned to another participant.
+* In that case, after rejoining as a participant, press "Regain the role of the host" from the "Participant" menu and enter the "Host Key" that was displayed when the meeting was created. Then, you can reassume the role as the "Host."
 
 	![](img/webex_participants_regain_host.png){:.small}
 
@@ -74,13 +74,4 @@ title: Webex meeting room 101（for instructors）
 
 ## What Webex Meetings cannot do 
 
-* It is not possible to conduct group work on WebEx because it does not have the function to divide participants into groups. If you want to do group activities, we recommend <a href="/en/zoom/" target="_blank">Zoom</a> or Webex Training.
-
-
-
-<br>
-<br>
-<a href="../" target="_blank">Return to "How to use WebEx"</a>
-
-
-
+* It is not possible to conduct group work on Webex because it does not have the function to divide participants into groups. If you want to do group activities, we recommend [Zoom](/en/zoom/) or Webex Training.

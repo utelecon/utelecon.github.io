@@ -21,9 +21,129 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-09-28
+  content:
+    ja: "[UTOLの課題機能でAI利用範囲の設定が必須になります](/notice/2026/0928-utol-ai/)"
+    en: "[Setting \"Permitted AI Use\" Will Become Required in UTOL Assignments](/en/notice/2026/0928-utol-ai/)"
+- 
+ date: 2026-09-25
+ content:
+  ja: "[東京大学におけるZoomの提供内容の変更について（第2報：**クラウド録画削除開始日の延期**）](/notice/2026/0925-postpone_zoom_cloudrec_deletion/)"
+  en: "[Changes to Zoom Services at the University of Tokyo (Report 2: **Deletion of Cloud Recordings Postponed**)](/en/notice/2026/0925-postpone_zoom_cloudrec_deletion/)"
+-
+ date: 2026-09-03
+ content:
+  ja: "[2026年度Aセメスター科目のUTOL履修確定日の取り扱いについて](/notice/2026/0903-rikaku/)"
+  en: "[Handling of the 2026 Academic Year A Semester Courses on UTOL](/en/notice/2026/0903-rikaku/)"
+-
+  date: 2026-08-25
+  content:
+    ja: "9/9 15:00から「[説明会：東京大学における情報システムとコミュニケーションツール](/events/2026-09-09/)」を開催いたします．"
+    en: "On September 9, an information session titled **\"[Information Session on ICT Systems and Tools for UTokyo Members](/events/2026-09-09/)\"** will be held at 15:00. This session will be **conducted in Japanese**."
+-
+  date: 2026-08-17
+  content:
+    ja: "[情報システムゼミの開催（**9/4**）「東京大学 Zoom AI 活用セミナー ～明日から使えるZoom AI～」](/notice/2026/0904-ictseminar/)"
+    en: "[**On September 4**, an information session titled “UTokyo Zoom AI Utilization Seminar: Zoom AI You Can Start Using Tomorrow” will be held at 14:00. This session will be **conducted in Japanese**.](/notice/2026/0904-ictseminar/)"
+-
+  date: 2026-08-05
+  content:
+    ja: "[電子リソース リモートアクセス方法の変更について（2026年8月10日より）](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20260708-0)"
+    en: "[Notice of Change to Off-Campus Access Method for Electronic Resources (Effective August 10, 2026)](https://www.lib.u-tokyo.ac.jp/en/library/literacy/news/20260708-0)"
+  important: true
+-
+  date: 2026-07-31
+  content:
+    ja: "[東京大学OPACシステム更新に伴うMyOPAC・ASKサービス停止について](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20260708) （**影響日：8月3日〜8月10日**）"
+    en: "[Temporary Suspension of MyOPAC and ASK Services](https://www.lib.u-tokyo.ac.jp/en/library/literacy/news/20260708) (**Affected Dates: August 3–August 10**)"
+-
+  date: 2026-07-24
+  content:
+    ja: "[2026年度Aセメスター「utelecon相談員」募集のお知らせ](/notice/2026/0724-uss/) （8月17日13時締切）"
+    en: "[Job Opportunities: AY2026 A Semester utelecon Support Staff](/notice/2026/0724-uss/) （Closes on August 17 at 13:00）(in Japanese)"
+-
+ date: 2026-07-21
+ content:
+  ja: "9/11 13:00から「[第二回「生成AIと教育について考える」ワークショップ](/events/2026-09-11-genai-sympo-ws-ii/)」を開催いたします．"
+  en: "On September 11, an information session titled **\"[Second Workshop: Reflecting on Generative AI and Education](/en/events/2026-09-11-genai-sympo-ws-ii/)\"** will be held at 13:00."
+ important: true
+-
+  date: 2026-07-17
+  content:
+    ja: "[Zoomのライセンス切り替えに伴うメンテナンスについて（**7/25に実施**）](/notice/2026/0725-zoom/)"
+    en: "[Zoom Maintenance Due to a License Switchover (**scheduled for July 25**)](/en/notice/2026/0725-zoom/)"
+-
+  date: 2026-07-15
+  content:
+    ja: "[大規模GPUシステム「SYNKA」が利用できるようになりました](/notice/2026/0715-synka/)"
+  important: true
+-
+  date: 2026-07-01
+  content:
+    ja: "[オンライン学習プラットフォーム「**LinkedIn Learning**」の提供を開始します](/notice/2026/0701-linkedinlearning-goeslive/)"
+    en: "[The online learning platform “**LinkedIn Learning**” is now available.](/en/notice/2026/0701-linkedinlearning-goeslive/)"
+  important: true
+-
+  date: 2026-06-29
+  content:
+    ja: "[東京大学におけるZoomの提供内容の変更について](/notice/2026/0801-zoom-contract-renewal/)"
+    en: "[Changes to the Zoom Service Provided by the UTokyo](/en/notice/2026/0801-zoom-contract-renewal/)"
+  important: true
+-
+  date: 2026-06-25
+  content:
+    ja: "[UTokyo Account 多要素認証が全サービスで必要となります](/notice/2026/0623-mfa/)"
+    en: "[UTokyo Account Multi-Factor Authentication is now required for all services](/en/notice/2026/0623-mfa/)"
+-
+  date: 2026-06-12
+  content:
+    ja: "[オンライン学習プラットフォーム「LinkedIn Learning」の導入に向けた説明会（教員向け）を実施します（6月26日13時）](/notice/2026/0626-lil/)"
+    en: "[Information Session for Faculty Members on the Introduction of the Online Learning Platform \"LinkedIn Learning\" (June 26, 1:00 PM)](/en/notice/2026/0626-lil/)"
+-
+  date: 2026-05-12
+  content:
+    ja: "[UTOLにおける学習データ利活用に関する事前同意のお願い](/notice/2026/0512-utol-data-policy/)"
+    en: "[Request for Prior Consent for the Use of Learning Activity Data on UTOL](/en/notice/2026/0512-utol-data-policy/)"
+-
+  date: 2026-04-20
+  content:
+    ja: "「[端末の紛失・盗難対策ガイド（学生・教職員向け）](/docs/guide-for-lost-stolen-devices/)」を公開しました。本学の構成員は内容を確認し、紛失・盗難に備えて必要な対策をあらかじめ行ってください。"
+    en: "\"[Device Loss and Theft Prevention Guide (For students, faculty and staff)](/en/docs/guide-for-lost-stolen-devices/)\" is now available. Members of the University are encouraged to review the guide and take the necessary measures in advance to prepare for device loss or theft."
+-
+  date: 2026-04-13
+  content:
+    ja: "[uteleconメールマガジンの配信を開始します](/notice/2026/0413-newsletter/)"
+    en: "[Launch of the utelecon Newsletter (uteleconメールマガジン) — Available in Japanese](/en/notice/2026/0413-newsletter/)"
+  important: true
+-
+ date: 2026-04-01
+ content:
+  ja: "[4月1日付の着任・離任・異動等の情報の一部がシステムに正しく反映されないことによるトラブルについて](/notice/2026/0401-jjs/)"
+  en: "[There is an issue where some information regarding personnel appointments, departures, and transfers effective April 1 has not been correctly reflected in the system](/en/notice/2026/0401-jjs/)"
+-
+ date: 2026-03-31
+ content:
+  ja: "[2026年度Sセメスター科目のUTOL履修確定日の取り扱いについて](/notice/2026/0331-rikaku/)"
+  en: "[Handling of the 2026 Academic Year S Semester Courses on UTOL](/en/notice/2026/0331-rikaku/)"
+-
+  date: 2026-03-23
+  content:
+    ja: "[東京大学におけるSlack「教育支援プログラム」の取り扱いの変更について](/notice/2026/0323-slack-discount/)"
+    en: "[Changes to the application process for the “Slack for Education” program at the University of Tokyo (only in Japanese)](/notice/2026/0323-slack-discount/)"
+-
+  date: 2026-03-09
+  content:
+    ja: "[メンテナンスのためUTokyo Accountで一部のシステムにサインインできません **（3/12 19時に実施）** ](/notice/2026/0312-utacvup-shibb/)"
+    en: "[Sign-in with UTokyo Account is temporarily unavailable on some systems due to maintenance **(from 7 PM on March 12)**](/en/notice/2026/0312-utacvup-shibb/)"
+-
+  date: 2026-03-09
+  content:
+    ja: "[メンテナンスのためUTokyo Account利用者メニュー・UTokyo Account申請メニューを使用できません **（3/12 正午に実施）** ](/notice/2026/0312-utacvup-lm/)"
+    en: "[The UTokyo Account User Menu and UTokyo Account Application Menu are unavailable due to maintenance **(from noon on March 12)**](/en/notice/2026/0312-utacvup-lm/)"
+-
   date: 2026-03-06
   content:
-    ja: "[3/26 14:30から教育用計算機システム(ECCS)のシステム利用説明会を開催いたします](/notice/2026/0326-eccs-seminar)"
+    ja: "[3/26 14:30から教育用計算機システム(ECCS)のシステム利用説明会を開催しました](/notice/2026/0326-eccs-seminar)"
     en: "On March 26, an information session titled **\"[Use of Information Session on Education Computer Systems (ECCS)](/notice/2026/0326-eccs-seminar)\"** was held at 14:30. This session will be **conducted in Japanese**."
 -
   date: 2026-03-02
@@ -652,7 +772,7 @@
   date: 2022-06-01
   content:
     ja: "[UTokyo Account利用者メニューのメンテナンス(2022/6/6)](/notice/2022/0606-account)"
-    en: "[Maintenace on UTokyo Account User Menu (June 6, 2022)](/en/notice/2022/0606-account)"
+    en: "[Maintenance on UTokyo Account User Menu (June 6, 2022)](/en/notice/2022/0606-account)"
 -
   date: 2022-05-22
   content:
@@ -740,7 +860,7 @@
   date: 2021-09-09
   content:
     ja: "東京大学の情報システムとそのサポート体制について説明する資料[「オンライン授業を受けるために（学生向け）」 (PDF)](/notice/getting_ready_for_online_classes_students_2021a.pdf)と[「オンライン授業を始めるために（教員向け）」 (PDF)](/notice/getting_ready_for_online_classes_faculty_2021a.pdf)を公開しました．"
-    en: "\"Getting Ready for Online Classes\" [\\[For Students\\]](/notice/getting_ready_for_online_classes_students_2021a.pdf) [\\[For Faculty Members\\]](/notice/getting_ready_for_online_classes_faculty_2021a.pdf) (materials explaining ICT systems at UTokyo and its support) has been relased. (The English version is on the second page)"
+    en: "\"Getting Ready for Online Classes\" [\\[For Students\\]](/notice/getting_ready_for_online_classes_students_2021a.pdf) [\\[For Faculty Members\\]](/notice/getting_ready_for_online_classes_faculty_2021a.pdf) (materials explaining ICT systems at UTokyo and its support) has been released. (The English version is on the second page)"
   important: true
 -
   date: 2021-09-06

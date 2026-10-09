@@ -31,13 +31,11 @@ Google Forms is a tool provided by Google that allows you to easily create quest
 
 If you are logged in to your Google account (ECCS Cloud Email account), you can use the application from your browser (the following explanation assumes that you are logged in to your ECCS Cloud Email account).
 
-※For information on how to use your ECCS Cloud  Email account, see "[ECCS Cloud Email](/en/google/)" in the "Initial Setup Procedures" section.
+※For information on how to use your ECCS Cloud Email account, see "[ECCS Cloud Email](/en/google/)" in the "Initial Setup Procedures" section.
 
 On the Google page, click the square with six dots next to your Google account icon in the upper right corner, and then "Forms" to start.
 
-<figure>
-<img src="photo_01.png">
-</figure>
+![](photo_01.png)
 
 ## Basic Use (Quiz)
 
@@ -49,23 +47,17 @@ In this section, we will show you how to create a quiz.
 
 In the "Start a new form" field, click the leftmost "Blank Quiz" button.
 
-<figure>
-<img src="photo_02.png">
-</figure>
+![](photo_02.png)
 
 After clicking, you will see a screen like the one below.
 
-<figure>
-<img src="photo_03.png">
-</figure>
+![](photo_03.png)
 
 #### Setting up as a Quiz
 
 Click on the Settings (the blue circle in the picture below) and turn on the "Make this a quiz". If you turn on "Make this a quiz", you can use automatic scoring (see [Apply automatic scoring](#apply-automatic-scoring)). You can also set the method of grade disclosure and other options.
 
-<figure>
-<img src="photo_04.png">
-</figure>
+![](photo_04.png)
 
 #### Create a Question
 
@@ -73,15 +65,11 @@ Click on the Settings (the blue circle in the picture below) and turn on the "Ma
 
 Click on the arrow icon on the right of the question form (the red circle as shown in the image below) and select "Multiple Choice". Enter the question in the green frame and answers in the light blue frame.
 
-<figure>
-<img src="photo_05.png">
-</figure>
+![](photo_05.png)
 
 Click on the "︙" (a red circle in the lower right corner), and select "Shuffle row order".
 
-<figure>
-<img src="photo_06.png">
-</figure>
+![](photo_06.png)
 
 ※Automatic grading is possible. For details, see [Apply automatic scoring](#apply-automatic-scoring).
 
@@ -101,9 +89,7 @@ Select "Short answer" from the down arrow icon on the right (refer to the red ci
 
 Enter a question in the green frame below.
 
-<figure>
-<img src="photo_07.png">
-</figure>
+![](photo_07.png)
 
 ##### Create long descriptive questions with "Paragraph".
 
@@ -120,41 +106,29 @@ In Google Forms, you can enter model answers in advance for automatic scoring. D
 
 Click "Create Answer key" at the bottom left.
 
-<figure>
-<img src="photo_08.png">
-</figure>
+![](photo_08.png)
 
 Fill in, select the correct answers and set the score.
 
-<figure>
-<img src="photo_09.png">
-</figure>
+![](photo_09.png)
 
 Add explanatory text, links, or videos by clicking "Add answer feedback" if deemed necessary.
 
-<figure>
-<img src="photo_10.png">
-</figure>
+![](photo_10.png)
 
-Change your preference on  "Release Marks" and "Respondents Settings" from “Settings".
+Change your preference on "Release Marks" and "Respondents Settings" from “Settings".
 
-<figure>
-<img src="photo_11.png">
-</figure>
+![](photo_11.png)
 
 #### Add a question/section
 
 If you want to add more questions, click on the right cross button icon (the light blue circle in the image below). If you want to add more sections, click on the icon with two squares (the green circle in the image below).
 
-<figure>
-<img src="photo_12.png">
-</figure>
+![](photo_12.png)
 
-You can also shuffle the test questions themselves by clicking “Settings” (the light blue rectangle in the image below) and turning on  the "Shuffle question order" under “Presentation” (shuffling question order is effective in preventing cheating).
+You can also shuffle the test questions themselves by clicking “Settings” (the light blue rectangle in the image below) and turning on the "Shuffle question order" under “Presentation” (shuffling question order is effective in preventing cheating).
 
-<figure>
-<img src="photo_13.png">
-</figure>
+![](photo_13.png)
 
 #### Public settings
 
@@ -166,27 +140,21 @@ If you do not want to do this, you can skip this section.
 1. Click on “Settings” (the red circle in the image below) and open “Responses”.
 2. Make sure that the "Restrict to users in 東京大学ECCSクラウドメール and its trusted organisations" is turned on. If you turn on "Collect email addresses", the ECCS email address of respondents will be automatically recorded.
 
-<figure>
-<img src="photo_14.png">
-</figure>
+![](photo_14.png)
 
 ##### Allow answer checking after submission
 
-Click on “Settings” (the red circle  below), open “Responses”, turn on “Collect email addresses”, select “Always” for “Send responders a copy of their response”.
+Click on “Settings” (the red circle below), open “Responses”, turn on “Collect email addresses”, select “Always” for “Send responders a copy of their response”.
 
-<figure>
-<img src="photo_15.png">
-</figure>
+![](photo_15.png)
 
 ### Steps for Implementation
 
 #### Preview your quiz before sharing
 
-Click on the eye symbol icon on the right (the red circle below) to preview  your quiz before sharing.
+Click on the eye symbol icon on the right (the red circle below) to preview your quiz before sharing.
 
-<figure>
-<img src="photo_16.png">
-</figure>
+![](photo_16.png)
 
 #### Share your Google Form
 
@@ -194,17 +162,13 @@ Click "Send" on the right, and then the link symbol (the blue circle in below) t
 
 In a large class, it is suggested to duplicate the form for access divide to avoid link breakdown due to heavy internet traffic. For more details, see [Prof. Yotsumoto's Good Practice (only in Japanese)](/good-practice/interview/yotsumoto/).
 
-<figure>
-<img src="photo_17.png">
-</figure>
+![](photo_17.png)
 
 Note: "Add collaborators" option appears when you click on the "︙" button next to “Send”. This allows you to add users who can create questions or check the results. In other words, they share the same management controls with the form creator. Note that this "Get Link" is for form editing but not answering.
 
 #### End the quiz
 
-<figure>
-<img src="photo_18.png">
-</figure>
+![](photo_18.png)
 
 When time is up, click "Responses" (the red circle above) to turn off "Accepting responses" (the blue circle above) to end your quiz.
 
@@ -223,9 +187,7 @@ Click on "Responses" (the red circle below) to view respondents’ answers.
 
 A downloadable spreadsheet containing all answers can be generated by clicking the spreadsheet icon (the orange circle in the image below).
 
-<figure>
-<img src="photo_19.png">
-</figure>
+![](photo_19.png)
 
 ## Basic Use (Questionnaire)
 
@@ -237,9 +199,7 @@ Below are steps to create a matrix questionnaire.
 1. Click the arrow symbol on the right (the red circle in the image below) and select "Multiple-choice grid".
 2. Enter questions in “Rows” and choices in “Columns”.
 
-<figure>
-<img src="photo_20.png">
-</figure>
+![](photo_20.png)
 
 ## Basic Use (Others)
 
@@ -253,7 +213,7 @@ Below are steps to create a matrix questionnaire.
 ## Tips on Actual Implementation
 {:#implementation_tips}
 
-[Professor Hisashi Ohtsuki - Adaptive Behavior Theory (only in Japanese)](/good-practice/interview/ohtsuki/)  ([Online Class Information Exchange #26 (only in Japanese)](/events/luncheon/2021-01-15/))
+[Professor Hisashi Ohtsuki - Adaptive Behavior Theory (only in Japanese)](/good-practice/interview/ohtsuki/) ([Online Class Information Exchange #26 (only in Japanese)](/events/luncheon/2021-01-15/))
 
 There were more than 600 students in Professor Ohtsuki's class and he conducted Google Forms quizzes twice per class. Here are his tips.
 

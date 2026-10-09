@@ -1,7 +1,7 @@
 ---
-title: What is possible with Webex Events?（for Instructors)
+title: What is possible with Webex Events? (for Instructors)
 breadcrumb:
-  title: What is possible with Webex Events?（for Instructors)
+  title: What is possible with Webex Events? (for Instructors)
 ---
 
 * This section describes the Webex Events functions only available to the host.	
@@ -51,7 +51,7 @@ breadcrumb:
 
 	![](img/webex_events_regain_host.png){:.small}
 
-* If you enable “Attendees can join at least n minutes before the start time” when scheduling the event time, participants can enter the training before the host. If a participant changes his/her own role to the host before the original host joins, he/she will be able to proceed the event as a host.
+* If you enable “Attendees can join at least n minutes before the start time” when scheduling the event time, participants can enter the training before the host. If a participant changes his/her own role to the host before the original host joins, he/she will be able to proceed with the event as a host.
 
 	![](img/webex_events_join_before_host.png){:.medium}
 

@@ -93,7 +93,7 @@ Googleドキュメントでも下図のように適当な大きさで貼り付�
 
 この方法を用いれば，PC上に表示している資料の数式の読み取りも可能になるほか，ノートに記入した数式や教科書に記載されている数式などを写真撮影し，画像ファイルをスクリーン上に表示することですぐにWordファイルに変換できます．
 
-snippingについてのさらなる情報は，Mathpixの提供する[こちらのサイト](https://mathpix.com/docs/snip/overview)をごらんください．
+snippingについてのさらなる情報は，Mathpixの提供する[こちらのサイト](https://mathpix.com/docs/snip/overview)をご覧ください．
 
 次に手書きで読み取る方法について説明します．左上のアイコンの左から3番目のアイコンをクリックします．
 
@@ -168,7 +168,7 @@ Mathpixは，パソコンのスクリーン上から数式を読み取ること�
 画面の下にキーボードが表示されるので，それを用いて表示したい数式を記入していきます．記入が終わると，画面にグラフが生成されます．複数のグラフを記入したい場合は，［入力］をクリックし，新しい数式を記入していくことで，新しいグラフを挿入できます．
 
 <figure>
-<img src="pic18.png">
+<img src="pic18.png"/>
 <figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
 </figure>
 
@@ -176,12 +176,12 @@ Mathpixは，パソコンのスクリーン上から数式を読み取ること�
 x軸やy軸の単位やラベルの設定ができます．
 
 <figure>
-<img src="pic19.png" class="small">
+<img src="pic19.png" class="small"/>
 <figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
 </figure>
 
 <figure>
-<img src="pic20.png">
+<img src="pic20.png"/>
 <figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
 </figure>
 
@@ -191,7 +191,7 @@ x軸やy軸の単位やラベルの設定ができます．
 また，二次元座標系だけでなく，空間図形の描画など，様々なことができます．
 
 <figure>
-<img src="pic21.png">
+<img src="pic21.png"/>
 <figcaption><a href="https://www.geogebra.org">https://www.geogebra.org</a>, Byju's</figcaption>
 </figure>
 
@@ -209,7 +209,7 @@ GeoGebraの特徴は，数式を記述すれば簡単にグラフが出力でき
 
 Google Colaboratoryと検索すると，上図のようなページが出てきます．
 
-ここにGoogle Colabratryについての説明も載っています．グラフ作成にあたっては，「データサイエンス」の説明文が参考になるかもしれません．また，ライブラリであるMatplotib，NumPyもグラフ作成に便利です．
+ここにGoogle Colaboratoryについての説明も載っています．グラフ作成にあたっては，「データサイエンス」の説明文が参考になるかもしれません．また，ライブラリであるMatplotlib，NumPyもグラフ作成に便利です．
 
 ［+コード］をクリックするとプログラムが書けるようになります．
 
@@ -268,12 +268,12 @@ Google Keepは画像を保存することが出来るほか，画像のテキス
 まず，スキャンした画像をGoogle Keepに読み込ませます．
 
 <figure>
-<img src="pic28.png">
+<img src="pic28.png"/>
 <figcaption><a href="/en/improvement/">https://utelecon.adm.u-tokyo.ac.jp/en/improvement/</a></figcaption>
 </figure>
 
 <figure>
-<img src="pic29.png">
+<img src="pic29.png"/>
 <figcaption><a href="/en/improvement/">https://utelecon.adm.u-tokyo.ac.jp/en/improvement/</a></figcaption>
 </figure>
 
@@ -282,7 +282,7 @@ Google Keepは画像を保存することが出来るほか，画像のテキス
 また，下部のアイコンから背景の選択や図形の追加などの操作を行うことができます．
 
 <figure>
-<img src="pic30.png">
+<img src="pic30.png"/>
 <figcaption><a href="/en/improvement/">https://utelecon.adm.u-tokyo.ac.jp/en/improvement/</a></figcaption>
 </figure>
 

@@ -39,4 +39,4 @@ OES is managed by the Division for Quality Enhancement of Higher Education, Cent
 
 ## List of External Presentations and Interviews
 
-*  Takeuchi, A., & Chujo, R. (2021, March 19) _Expansion of On-Campus Job and Its Challenges Regarding Online Classes_. 28th [Cyber Symposium on Online Education and Digital Transformation in Universities and Other Institutions ‘Educational Institution DX Symposia’](https://www.nii.ac.jp/event/other/decs/) ([document](https://www.nii.ac.jp/event/upload/20210319-07_UT.pdf), [video](https://youtu.be/g837oBruR1U))
+* Takeuchi, A., & Chujo, R. (2021, March 19) _Expansion of On-Campus Job and Its Challenges Regarding Online Classes_. 28th [Cyber Symposium on Online Education and Digital Transformation in Universities and Other Institutions ‘Educational Institution DX Symposia’](https://www.nii.ac.jp/event/other/decs/) ([document](https://www.nii.ac.jp/event/upload/20210319-07_UT.pdf), [video](https://youtu.be/g837oBruR1U))

@@ -18,10 +18,7 @@ breadcrumb:
 * You can join the meeting by selecting "Join meeting". If you are the host, you can start the meeting.
 * If the host has not started the meeting yet, you will not be able to participate even if the time has run over the starting time (the host can change the setting to allow participants to join before the host).
 
-<br>
-<br>
-<a href="../" target="_blank">Return to How to Use WeBex</a>
+## Next steps
 
-<a href="../do_webex/" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)</a>
-<br>
-<a href="../do_webex_host/" target="_blank">Go to Things You Can Do in Webex Meetings and Webex Webinars (as Host)</a>
+- [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](../do_webex/)
+- [Things You Can Do in Webex Meetings and Webex Webinars (as Host)](../do_webex_host/)

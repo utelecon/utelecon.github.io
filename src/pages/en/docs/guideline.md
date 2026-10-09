@@ -7,7 +7,7 @@ redirect_from:
 --- 
 This is the English translation of the Japanese document.
 
-**2021/3/8 Education Commitee**
+**2021/3/8 Education Committee**
 
 ## Guideline
 1. For online classes, the online class information section in ITC-LMS should be used to notify the URL. Online class URLs are also automatically registered in UTAS Lite: [University of Tokyo Online Lecture Search](https://utelecon-directory.adm.u-tokyo.ac.jp), so that they can be communicated to students when ITC-LMS is not available. 

@@ -36,7 +36,7 @@ In addition to this, you can delete only a part of files in a particular single 
 1. A confirmation screen with the message "Move This File to Trash" will appear; then press the "Move to Trash" button.
     ![](select_each_view-confirm.png){:.medium.center}
 
-### Saving and shareing data outside of Zoom
+### Saving and sharing data outside of Zoom
 
 The following systems are available for saving and sharing video data online at the University of Tokyo.
 
@@ -59,11 +59,11 @@ The following systems are available for saving and sharing video data online at 
 ## Survey Results of Cloud Recording Usage
 
 <figure>
-    <img src="access_history.png" class="border medium center">
+    <img src="access_history.png" class="border medium center"/>
     <figcaption class="center">Figure 1: Access history of Zoom cloud recordings (by time of recording)</figcaption>
 </figure>
 
 <figure>
-    <img src="access_period.png" class="border medium center">
+    <img src="access_period.png" class="border medium center"/>
     <figcaption class="center">Figure 2: Distribution of time between recording and last access for Zoom cloud recordings</figcaption>
 </figure>

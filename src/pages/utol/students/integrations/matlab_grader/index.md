@@ -1,5 +1,5 @@
 ---
-title: UTOLからMATLAB Graderを利用する（学生向け）
+title: UTOLからMATLAB Graderを利用する（履修者向け）
 breadcrumb:
   title: MATLAB Grader
 ---

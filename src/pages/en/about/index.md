@@ -15,7 +15,7 @@ This site aims to be a one-stop source of information for online classes and web
 Although some of the content is for the students, faculty, and staff of the University of Tokyo, we also aim to provide information useful to those off campus.  
 
 Launched in March 2020, utelecon is a portal site consolidating information on online classes and web conferencing, allowing students, faculty, and staff to smoothly adopt such services.  
-The faculty and staff from the University of Tokyo's Information Technology Center, Center for Research and Development of Higher Education,  the Graduate School of Arts and Sciences, the Organization for the Advancement of Liberal Arts Education (KOMEX), the First Year Education Division, Division for Information and Communication Systems, Information Systems Department, and the Information Technology Team in the Graduate School of Science all collaborated in establishing utelecon.  
+The faculty and staff from the University of Tokyo's Information Technology Center, Center for Research and Development of Higher Education, the Graduate School of Arts and Sciences, the Organization for the Advancement of Liberal Arts Education (KOMEX), the First Year Education Division, Division for Information and Communication Systems, Information Systems Department, and the Information Technology Team in the Graduate School of Science all collaborated in establishing utelecon.  
 
 In addition, our students are involved as Online Education Supporters (OES) in writing articles published on utelecon and their translation into English. For details, please see the “[About Online Education Supporters](oes/)” section.  
 
@@ -29,7 +29,7 @@ The utelecon portal consists of the following content. All pages can be accessed
 
 ### Systems in the University of Tokyo  
 
-* This section includes information on the services and tools used for Internet-based activities at the University of Tokyo, such as a Utokyo Account and Zoom.  
+* This section includes information on the services and tools used for Internet-based activities at the University of Tokyo, such as a UTokyo Account and Zoom.  
 
 ### Online Utilization (Internet)  
 
@@ -43,7 +43,7 @@ The utelecon portal consists of the following content. All pages can be accessed
 
 * This page is for students, faculty, and staff of the University of Tokyo. Please review this section if you have any questions or problems regarding online classes or activities.  
 * The "Support" page also has a chatbot (automatic response robot) function for responding to questions. You can ask questions from the widget in the lower-right corner of the screen.  
-* Students of the University of Tokyo are working on the support team as "utelecon Support Staff" (formerly [Common Supporters](cs/) and [ECCS Tutors/Inspectors](/eccs/tutors/)). 
+* Students of the University of Tokyo are working on the support team as "utelecon Support Staff" (formerly [Common Supporters](cs/) and [ECCS Tutors/Inspectors](/en/eccs/tutors/)). 
 
 ### List of External Publications  
 
@@ -51,6 +51,14 @@ The utelecon portal consists of the following content. All pages can be accessed
 * “[UTokyo Online Classes Today](https://www.u-tokyo.ac.jp/focus/ja/features/z1304_00084.html)” (University of Tokyo, September 29, 2020)  
 * “[How UTokyo moved 5,000 classes online in a month](https://www.u-tokyo.ac.jp/focus/en/features/z0508_00181.html)” (University of Tokyo, July 20, 2020)  
 * [Documentary: “Why the University of Tokyo's online classes were a success”](https://todai-umeet.com/article/55241) (UmeeT, July 8, 2020)  
+
+## Use of Google Analytics
+
+The utelecon portal site uses Google Analytics to collect usage statistics. For information on how Google handles data, please see "[How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites)" and other relevant resources.
+
+## Use of Microsoft Clarity
+
+The utelecon portal site uses Microsoft Clarity to collect usage statistics and improve the portal site. For information on how Microsoft handles data, please see the service's terms of use "[MICROSOFT CLARITY - TERMS OF USE](https://clarity.microsoft.com/terms)" and "[Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)" and other relevant resources.
 
 ## Contribution  
 

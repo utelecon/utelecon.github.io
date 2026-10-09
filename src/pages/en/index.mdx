@@ -7,6 +7,8 @@ toc: false
 sitemap: false
 ---
 
+import { Image } from "astro:assets";
+
 import "@styles/top.scss";
 import "@styles/rss_icon.scss";
 
@@ -15,6 +17,8 @@ import Notice from '@components/pages/Notice.astro'
 import Events from '@components/pages/Events.astro'
 import FontAwesomeIcon from "@components/embed/FontAwesomeIcon.astro";
 import MaterialIcon from "@components/embed/MaterialIcon.astro";
+
+import UtoneLogo from "../_icons/utone.svg";
 
 <Emergency />
 
@@ -33,7 +37,27 @@ import MaterialIcon from "@components/embed/MaterialIcon.astro";
   </div>
 </div>
 
-<div class="systems-link">[To the list of ICT systems of UTokyo](/en/systems/){:.arrow-link}</div>
+## ICT Systems
+
+<div class="top__systems">
+  - [<MaterialIcon icon="person" />UTokyo Account](/en/utokyo_account/)
+  - [![](../_icons/utas.png)UTAS](/en/utas/)
+  - [![](../_icons/utol.png)UTOL (UTokyo LMS)](/en/utol/)
+  - [<Image src={UtoneLogo} alt=""/>UTONE (UTokyo One)](https://utone.u-tokyo.ac.jp/)
+  - [<MaterialIcon icon="wifi" />UTokyo Wi-Fi](/en/utokyo_wifi/)
+  - [![](../_icons/zoom.png)Zoom](/en/zoom/)
+  - [![](../_icons/webex.png)Webex](/en/webex/)
+  - [![](../_icons/google.png)ECCS Cloud Email<small> (Google Workspace)</small>](/en/google/)
+  - [![](../_icons/microsoft.png)UTokyo Microsoft License](/en/microsoft/)
+  - [![](../_icons/slack.png)UTokyo Slack](/en/slack/)
+  - [![](../_icons/slido.png)Slido](/en/slido/)
+  - [<MaterialIcon icon="bar_chart" />UTokyo MATLAB Campus-Wide License](/en/matlab/)
+  - [<MaterialIcon icon="vpn_lock" />UTokyo VPN](/en/utokyo_vpn/)
+  - [<MaterialIcon icon="computer" />Educational Campus-Wide Computing System (ECCS)](/en/eccs/)
+  - [![](../_icons/research_computing.png)High-performance computing and data platform](/en/research_computing/)
+  - [List](/en/systems/){:.arrow-link}
+  {:.cards}
+</div>
 
 <div class="container">
 <div class="container__column">
@@ -56,20 +80,28 @@ import MaterialIcon from "@components/embed/MaterialIcon.astro";
 */}
 
 <Events show={[
-  "2026-03-16",
+  "2026-09-11-genai-sympo-ws-ii",
+  "2026-09-09",
   "2025-04-18",
-  "2025-02-21",
   "2024-09-13",
-]} alternative={{"2024-09-13": {"href": "/en/events/2024-09-13"}}} lang="en">
-<Fragment slot="2026-03-16">Information Session on ICT Systems and Tools for UTokyo Members <small>(only in Japanese)</small></Fragment>
-<Fragment slot="2025-02-21">Information Session on UTokyo Azure <small>(only in Japanese)</small></Fragment>
+]} alternative={
+  {"2024-09-13": {"href": "/en/events/2024-09-13/"}},
+  {"2025-04-18": {"href": "/en/events/2025-04-18/"}},
+  {"2026-09-11-genai-sympo-ws-ii": {"href": "/en/events/2026-09-11-genai-sympo-ws-ii/"}}
+  } lang="en">
+<Fragment slot="2026-09-11-genai-sympo-ws-ii">Second Workshop: Reflecting on Generative AI and Education <small>(Conducted in English)</small></Fragment>
+<Fragment slot="2026-09-09">Information Session on ICT Systems and Tools for UTokyo Members <small>(only in Japanese)</small></Fragment>
+<Fragment slot="2025-04-18">Information Session on UTokyo Azure <small>(Conducted in English)</small></Fragment>
 <Fragment slot="2024-09-13">Information Session on ICT Systems and Tools for UTokyo Members</Fragment>
 </Events>
 
 ## Pickup
 
+- [Information on Generative AI](/en/online/topics/generative-ai/)
+- [Classifying and Indicating Permitted AI Use in Coursework](/en/gen-ai/education/ai-use-policy-levels/)
 - [UTokyo Azure](/en/research_computing/utokyo_azure/)
 - [Using Multi-Factor Authentication for UTokyo Accounts](/en/utokyo_account/mfa/)
+- [Change Your Display Name in Microsoft Teams Meetings](/en/articles/teams-display-name/)
 {:.cards}
 
 ### Information on Beginning of Semester
@@ -78,28 +110,8 @@ import MaterialIcon from "@components/embed/MaterialIcon.astro";
 - [Restricting Access to Zoom Meeting Rooms for Online Classes <small>(for Faculty Members)</small>](/en/faculty_members/zoom_access_control/)
 - [Additional License for Zoom <small>(Meeting over 300 participants / Webinar)</small>](/en/zoom/license/)
 - [How to Obtain the Online Class URL (for Students)](/en/oc/url/)
-- [How to join a online class <small>(for Students)</small>](/en/oc/join/)
+- [How to join an online class <small>(for Students)</small>](/en/oc/join/)
 {:.cards}
 
 </div>
-</div>
-
-## ICT Systems
-
-<div class="top__systems">
-  - [<MaterialIcon icon="person" />UTokyo Account](/en/utokyo_account/)
-  - [![](../_icons/utas.png)UTAS](/en/utas/)
-  - [![](../_icons/utol.png)UTOL (UTokyo LMS)](/en/utol/)
-  - [<MaterialIcon icon="wifi" />UTokyo Wi-Fi](/en/utokyo_wifi/)
-  - [![](../_icons/zoom.png)Zoom](/en/zoom/)
-  - [![](../_icons/webex.png)Webex](/en/webex/)
-  - [![](../_icons/google.png)ECCS Cloud Email<small> (Google Workspace)</small>](/en/google/)
-  - [![](../_icons/microsoft.png)UTokyo Microsoft License](/en/microsoft/)
-  - [![](../_icons/slack.png)UTokyo Slack](/en/slack/)
-  - [![](../_icons/slido.png)Slido](/en/slido/)
-  - [<MaterialIcon icon="bar_chart" />UTokyo MATLAB Campus-Wide License](/en/matlab/)
-  - [<MaterialIcon icon="vpn_lock" />UTokyo VPN](/en/utokyo_vpn/)
-  - [<MaterialIcon icon="computer" />ECCS Terminals](/en/eccs/)
-  - [List](/en/systems/){:.arrow-link}
-  {:.cards}
 </div>

@@ -15,13 +15,13 @@ In addition, worksheets can be saved on to the cloud to serve as a record of act
 
 ☞ Extra tip: Please refer to the following page for detailed instructions and notes on using breakout discussions.  
 
-* Zoom: [Zoom ブレークアウトルーム機能を使う (in Japanese)](/zoom/usage/breakout/)｜utelecon
+* Zoom: [How to use Breakout Rooms](/en/zoom/usage/breakout/)
 * [Problems That Tend to Arise in Online Group Discussions and Suggested Solutions](/en/articles/group-discussion/)
 
 
 ## Use the Right Cloud Tools for Your Purpose
 
-To allow multiple people to write simultaneously and have the instructor to view them in real time, we recommend using a cloud tool.  
+To allow multiple people to write simultaneously and have the instructor view them in real time, we recommend using a cloud tool.  
 
 ### Tools Suited for Recording Minutes
 
@@ -114,7 +114,7 @@ After the breakout room has started, the organizer can move to any group of his/
 
 If the worksheet is in Google Docs, the teacher can post on it at the same time as the students. This can be used as an alternative to chatting, as you can text directly to the students, make comments on the fly when you find something of interest, or offer hints or additional instructions.  
 
-〈Example of instructors's comments on worksheets〉
+〈Example of instructor's comments on worksheets〉
 ![img6](img/comment.png)
 
 ## Utilizing the Worksheet After Discussion
@@ -145,7 +145,7 @@ The format and use of the worksheet may vary depending on the content of the ass
 
 [Search Online Resources by Tool](/en/online/tools/)  
 
-[Using the Breakout Room in Zoom (in Japanese)](/zoom/usage/breakout/)  
+[How to use Breakout Rooms](/en/zoom/usage/breakout/)  
 
 [Online Class Information Exchange Session 1: Doing Groupwork (1) (in Japanese)](/events/luncheon/2020-04-22/)  
 

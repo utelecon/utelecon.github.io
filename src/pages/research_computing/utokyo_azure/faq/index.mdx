@@ -27,7 +27,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">通常のAzureサービスを利用することと機能的に何か違いがありますか．</Fragment>
-  <Fragment slot="solution">ギフトクレジットによる利用はMicrosoftの仕様で一部サービスが制限されていること，利用者に公平にギフトを配分する仕組みを東大独自に導入していること等により，通常の利用とは主に以下のような違いがあります．<p><ul><li>Marketplace（サードパーティが提供するサービス）は利用することができません．仮想マシンのイメージやAIサービスのサーバレスAPI等で多くあります．</li><li>Microsoft のギフト管理が通常の料金管理と独立しているため，Azure Portal のコスト・予算管理関係の機能が利用できません．無料分や使用した料金に関しては[UTokyo Azure 新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/)の管理ページを参照ください．</li><li>使用料は従量課金一択になります．予約プランや節約プラン等の割引プランは利用できません．</li><li>[UTokyo Azure 新規利用申請ページ](http://azure.itc.u-tokyo.ac.jp/)から申請したサブスクリプションでのみ利用可能です．その他の方法で作成されたサブスクリプションは UTokyo Azure では利用できません．</li><li>無料保証枠の約90%を利用した時点でサブスクリプションを自動停止する機能を UTokyo Azure 独自に提供しています．</li></ul></p></Fragment>
+  <Fragment slot="solution">ギフトクレジットによる利用はMicrosoftの仕様で一部サービスが制限されていること，利用者に公平にギフトを配分する仕組みを東大独自に導入していること等により，通常の利用とは主に以下のような違いがあります．<p><ul><li>Marketplace（サードパーティが提供するサービス）は利用することができません．仮想マシンのイメージやAIサービスのサーバレスAPI等で多くあります．</li><li>Microsoft のギフト管理が通常の料金管理と独立しているため，Azure Portal のコスト・予算管理関係の機能が利用できません．無料分や使用した料金に関しては[UTokyo Azure サブスクリプション管理サイト](http://azure.itc.u-tokyo.ac.jp/)の使用量ページを参照ください．</li><li>使用料は従量課金一択になります．予約プランや節約プラン等の割引プランは利用できません．</li><li>[UTokyo Azure サブスクリプション管理サイト](http://azure.itc.u-tokyo.ac.jp/)から申請したサブスクリプションでのみ利用可能です．その他の方法で作成されたサブスクリプションは UTokyo Azure では利用できません．</li><li>無料保証枠の約90%を利用した時点でサブスクリプションを自動停止する機能を UTokyo Azure 独自に提供しています．</li></ul></p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -52,7 +52,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">このサービスは誰が利用できますか</Fragment>
-  <Fragment slot="solution">東大の構成員なら誰でも使えますが, UTokyo Account をお持ちの方が [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)より利用申請を行い，[サブスクリプション](/research_computing/utokyo_azure/faq/subscription/)を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
+  <Fragment slot="solution">東大の構成員なら誰でも使えますが, UTokyo Account をお持ちの方が [UTokyo Azure サブスクリプション管理サイト（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)より利用申請を行い，[サブスクリプション](/research_computing/utokyo_azure/faq/subscription/)を開設する必要があります. 共同利用したいユーザーには，開設したサブスクリプションに後から他のユーザの権限を追加(利用権利を与える)ことも可能です</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -61,8 +61,8 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">学外の人と共同利用することはできないのでしょうか。</Fragment>
-  <Fragment slot="solution"><p>Azure Portal や UTokyo Azure 新規利用申請ページへのログインは UTokyo Account で認証するため，これらの利用はすでに UTokyo Account を保有している人に限られます．</p><p>ただし，例えば作成した仮想マシン上で動かしている OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</p></Fragment>
+  <Fragment slot="problem">学外の人と共同利用することはできないのでしょうか．</Fragment>
+  <Fragment slot="solution"><p>Azure Portal や UTokyo Azure サブスクリプション管理サイトへのログインは UTokyo Account で認証するため，これらの利用はすでに UTokyo Account を保有している人に限られます．</p><p>ただし，例えば作成した仮想マシン上で動かしている OS へのログイン認証は UTokyo Account の権限に依存しないため，学外の共同研究者を OS にアカウント登録して利用させるといったことは可能です．</p></Fragment>
 </HelpItem>
 
 ### サブスクリプション
@@ -78,11 +78,6 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">特権管理者ロールの所有者と共同作成者は何が違うのでしょうか</Fragment>
-  <Fragment slot="solution"><p>**所有者**は，自身が所有者であるサブスクリプションやリソースに対して他者アカウント（メンバー）に権限（ロール）を付与することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．</p><p>注意点として、所有者の権限にはさらに段階があり，サブスクリプションの申請者は**すべてのロールを割り当てることができる所有者**の権限が設定されます．</p></Fragment>
-</HelpItem>
-
-<HelpItem lang="ja" type="details">
   <Fragment slot="problem">すでに個人で契約しているサブスクリプションを UTokyo Azure に入れることはできますか</Fragment>
   <Fragment slot="solution">できません．</Fragment>
 </HelpItem>
@@ -93,30 +88,47 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">複数人へ一度に所有者ロールを付加したい</Fragment>
-  <Fragment slot="solution"><p>**Azure Portal から GUI で行う**には，[複数人グループでの利用](/research_computing/utokyo_azure/group/)の手順で，ロールの割り当て手順のメンバーパートでメンバーを選択する際，1人ずつ複数回検索と選択を繰り返すことで，複数人へのロール付加を一度にまとめて行えます．</p><p>**Azure Cli を利用してコマンドラインから行う**には，以下の手順でロールを付加できます．Linux 環境を想定していますが，Azure Cli がインストールされた環境であれば同じようなことが可能です．</p><ol><li>[コマンドラインインターフェースでリソースを利用する](/research_computing/utokyo_azure/virtualmachine/azcli/)を参考に，Linux 環境に Azure Cli をインストールし，ロールを割り当てたいサブスクリプションに対して既に所有者(Owner)権限がある UTokyo Account で認証してください．</li><li>ロールを付加したい UTokyo Account を箇条書きにしたテキストファイルを用意してください．</li><li>右のコマンドを実行してください． ```for i in `cat [作成したファイル名]` ; do az role assignment create --role "Owner" --scope [割り当てたいサブスクリプションやリソース等のスコープ] --assignee $i ; done```</li></ol><ul><li>補足１：所有者ロールではなく共同作成者権限を付加したい場合は，`--role` に Owner ではなく **Contributor** と指定してください．</li><li>補足２：スコープの書式については[Microsoft Learn のドキュメント](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/scope-overview#scope-format)を参照ください．</li></ul></Fragment>
-</HelpItem>
-
-<HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションIDを知りたい</Fragment>
   <Fragment slot="solution">サブスクリプションIDはサブスクリプションの詳細画面で確認できます．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションを誤って取り消した場合にサービスやデータは復旧できますか</Fragment>
-  <Fragment slot="solution">基本は取り消したサブスクリプションの復旧はできないとお考え下さい．サービスの継続利用をお考えの場合，新規申請ページのサブスクリプション管理ページからサブスクリプションの自動停止機能を必ずOFFに切り替えてください．</Fragment>
+  <Fragment slot="solution">基本は取り消したサブスクリプションの復旧はできないとお考えください．サービスの継続利用をお考えの場合，サブスクリプション管理サイトからサブスクリプションの自動停止機能を必ずOFFに切り替えてください．</Fragment>
+</HelpItem>
+
+### 権限（ロール）
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">特権管理者ロールの所有者と共同作成者は何が違うのでしょうか</Fragment>
+  <Fragment slot="solution"><p>**所有者**は，自身が所有者であるサブスクリプションやリソースに対して他者アカウント（メンバー）に権限（ロール）を付与することができますが，**共同作成者**にはその権限がありません．それ以外はほぼ所有者と同じ権限が共同作成者には与えられます．</p><p>注意点として，所有者の権限にはさらに段階があり，サブスクリプションの申請者は**すべてのロールを割り当てることができる所有者**の権限が設定されます．</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">共同作成者にもロール割り当てを許可したい</Fragment>
+  <Fragment slot="solution"><p>特権管理者ロールの１つである**アクセス管理者**を追加で割り当てると，所有者権限は無い状態で他者のアカウント（メンバー）に権限（ロール）を付与することができるようになります．</p><p>このロールを設定する場合，設定ウィザードに条件パートが追加されますので，できるだけ必要最低限を選択するようにしてください．</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">権限を設定しても反映されない，変更時にエラーになる</Fragment>
+  <Fragment slot="solution"><p>権限を設定する際に**割り当てのタイプ**で`対象（Eligible）`を選択した場合，対象者が承認するまで有効になりません．（**重要**：`対象`はライセンスが必要なため**選択しないでください．**） `アクティブ（Active）`を選択すれば即時有効になります．</p><p>`対象`による権限設定と`アクティブ`による権限設定は，同じアカウントに対してであってもシステム上別物として扱われてしまうため，既に対象またはアクティブで設定済みのアカウントに，それではないタイプで権限を追加または修正しようとすると，すでにそのアカウントにはロールが設定済みであるとしてエラーになります．もし`対象`でロール設定がされている場合は，一旦削除して`アクティブ`で設定しなおしてください．</p><p>参考：[複数人グループでの利用や権限設定](/research_computing/utokyo_azure/group/)</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">複数人へ一度に所有者ロールを付加したい</Fragment>
+  <Fragment slot="solution"><p>**Azure Portal から GUI で行う**には，[複数人グループでの利用](/research_computing/utokyo_azure/group/)の手順で，ロールの割り当て手順のメンバーパートでメンバーを選択する際，1人ずつ複数回検索と選択を繰り返すことで，複数人へのロール付加を一度にまとめて行えます．</p><p>**Azure CLI を利用してコマンドラインから行う**には，以下の手順でロールを付加できます．Linux 環境を想定していますが，Azure CLI がインストールされた環境であれば同じようなことが可能です．</p><ol><li>[コマンドラインインターフェースでリソースを利用する](/research_computing/utokyo_azure/virtualmachine/azcli/)を参考に，Linux 環境に Azure CLI をインストールし，ロールを割り当てたいサブスクリプションに対して既に所有者(Owner)権限がある UTokyo Account で認証してください．</li><li>ロールを付加したい UTokyo Account を箇条書きにしたテキストファイルを用意してください．</li><li>右のコマンドを実行してください． ```for i in `cat [作成したファイル名]` ; do az role assignment create --role "Owner" --scope [割り当てたいサブスクリプションやリソース等のスコープ] --assignee $i ; done```</li></ol><ul><li>補足１：所有者ロールではなく共同作成者権限を付加したい場合は，`--role` に Owner ではなく **Contributor** と指定してください．</li><li>補足２：スコープの書式については[Microsoft Learn のドキュメント](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/scope-overview#scope-format)を参照ください．</li></ul></Fragment>
 </HelpItem>
 
 ### 無料分と無料保証枠
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料分とはなんですか</Fragment>
-  <Fragment slot="solution"><p>ある月の利用料のうち，ギフトクレジットから支払いされ無料となる分の金額で, 月末に全ユーザの利用料を元に計算されます．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には，およそ半期毎に各月の超過分・余剰分を集計して通算の超過額を計算します．この時に超過した額を情報基盤センターより請求する予定です．詳細は [UTokyo Azure 説明会資料](/events/2025-02-21/slides/3_application_guidelines.pdf)をご参照ください．</p><p>無料分の額は毎月末に、その月の大学全体の利用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から確認できます．</p></Fragment>
+  <Fragment slot="solution"><p>ある月の利用料のうち，ギフトクレジットから支払いされ無料となる分の金額で, 月末に全ユーザの利用料を元に計算されます．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には，およそ半期毎に各月の超過分・余剰分を集計して通算の超過額を計算します．この時に超過した額を情報基盤センターより請求する予定です．詳細は [UTokyo Azure 説明会資料](/events/2025-02-21/slides/3_application_guidelines.pdf)をご参照ください．</p><p>無料分の額は毎月末に，その月の大学全体の利用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure サブスクリプション管理サイトの使用量ページ](http://azure.itc.u-tokyo.ac.jp/list/usage)から確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料保証枠とはなんですか</Fragment>
-  <Fragment slot="solution"><p>毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは確実に無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．</p><p>そこで月初めに、この額までは必ず無料になるという最低保証額を公表しています．これが無料保証枠です．月末に集計される無料分よりは少ない額になります．</p><p>無料保証枠は [UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から確認できます．</p></Fragment>
+  <Fragment slot="solution"><p>毎月の無料分は月末に計算されるので，その月に使用した分の全額あるいは何割が無料になるのかが月末になるまでわかりません．これは確実に無料の範囲内で UTokyo Azure を使いたい利用者にとっては不安かもしれません．</p><p>そこで月初めに，この額までは必ず無料になるという最低保証額を公表しています．これが無料保証枠です．月末に集計される無料分よりは少ない額になります．</p><p>無料保証枠は [UTokyo Azure サブスクリプション管理サイトの使用量ページ](http://azure.itc.u-tokyo.ac.jp/list/usage)から確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -125,18 +137,28 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
+  <Fragment slot="problem">「重み」が反映されない，または自分の計算と合わないのですが</Fragment>
+  <Fragment slot="solution"><p>重みには，サブスクリプションに有効に登録されている，ユニークかつ有効なアカウントが反映されます．ロールは Active で設定してください．</p><p>同じアカウントが同一サブスクリプション内に複数のロールで登録されている場合重複排除されます．別のサブスクリプションに登録されている場合はそれぞれ有効です．</p><p>重みの再集計は毎月1日のとあるタイミングで実施されます．ロール設定直後は反映されませんので，翌月までお待ちください．</p></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
   <Fragment slot="problem">自分の無料保証枠がどのくらい残っているか，あとどのくらい無料で使えるかを知りたい</Fragment>
-  <Fragment slot="solution"><p>所有者権限のアカウントのみ：[UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)から，ご自身のサブスクリプションが今どの程度利用されているかが表示されます．また，無料分全体を利用者全体でどの程度消費したかをグラフで表示しています．これらの情報の更新は１日単位です．</p><p>また，UTokyo Azure 独自機能として，無料保証枠の 50%, 75%, 90%, 100%, のそれぞれに達した際に，所有者の登録メールアドレス宛に通知メールを送信します．これらの情報もご活用ください．</p></Fragment>
+  <Fragment slot="solution"><p>所有者権限のアカウントのみ：[UTokyo Azure サブスクリプション管理サイトの使用量ページ](http://azure.itc.u-tokyo.ac.jp/list/usage)から，ご自身のサブスクリプションが今どの程度利用されているかが表示されます．また，無料分全体を利用者全体でどの程度消費したかをグラフで表示しています．これらの情報の更新は１日単位です．</p><p>また，UTokyo Azure 独自機能として，無料保証枠の 50%, 75%, 90%, 100%, のそれぞれに達した際に，所有者の登録メールアドレス宛に通知メールを送信します．これらの情報もご活用ください．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">特定のリソースのギフトクレジット消費量を知りたい</Fragment>
-  <Fragment slot="solution">所有者権限のアカウントのみ：[UTokyo Azure 新規利用申請ページの管理ページ](http://azure.itc.u-tokyo.ac.jp/list)の最後の方に，リソース単位での詳細情報が表形式で表示されますので，そのうちの Cost の項目を参照ください．表示される金額はその日に消費された量ですので，トータルで知りたい場合は，同じリソースの Cost について知りたい期間分合計してください．</Fragment>
+  <Fragment slot="solution">所有者権限のアカウントのみ：[UTokyo Azure サブスクリプション管理サイトの使用量ページ](http://azure.itc.u-tokyo.ac.jp/list/usage)の最後の方に**サブスクリプションの使用量内訳をCSVでダウンロード**というリンクがありますので，そこをクリックすると，利用開始からのすべての詳細情報がCSV形式でダウンロードされます．そのCSVファイルを開き Cost の項目を参照ください．1行はそのサービスをその日に消費した量ですので，トータルで知りたい場合は，同じリソースの Cost について知りたい期間分の行を合計してください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">複数人でサブスクリプションを共有していて，自分が消費した分を知りたい</Fragment>
   <Fragment slot="solution">消費量を確認できる最小単位はサブスクリプションまでで，ユーザーアカウント単位では確認できません．ただし，特定のリソースを自分だけが使っているという場合は，リソース単位での確認は可能です．詳細はFAQ：[**特定のリソースのギフトクレジット消費量を知りたい**](/research_computing/utokyo_azure/faq/#:~:text=%E3%83%98%E3%83%AB%E3%83%97%EF%BC%9A%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E3%82%AE%E3%83%95%E3%83%88%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E6%B6%88%E8%B2%BB%E9%87%8F%E3%82%92%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84)をご参照ください．</Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">どういう条件で請求が発生するのかがわからない</Fragment>
+  <Fragment slot="solution">[UTokyo Azure サブスクリプション管理サイトの使用量ページ](https://azure.itc.u-tokyo.ac.jp/list/usage)に表示される各サブスクリプションの使用量で，請求額欄に$0.0**以外**の金額が表示された場合，10月または4月にその金額の日本円換算分が請求されます．詳細は[請求の確認方法](/research_computing/utokyo_azure/faq/usage/)のページを参照ください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -162,13 +184,13 @@ import HelpItem from "@components/utils/HelpItem.astro";
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
-  <Fragment slot="problem">想定していたよりギフトクレジットの使用料が多く，原因を調べて対応したい</Fragment>
-  <Fragment slot="solution"><p>[UTokyo Azure 新規申請ページの管理画面](https://azure.itc.u-tokyo.ac.jp/list)の一番下に，使用料の内訳詳細が表になっていますので，こちらから各リソースが日毎に消費した使用料が確認いただけます．</p><p>Cost の項で降順にすると，使用料の多い内訳が上に来ますので，そのリソースについて想定通りに設定されているか等を確認ください．</p></Fragment>
+  <Fragment slot="problem">想定していたよりギフトクレジットの使用量が多く，原因を調べて対応したい</Fragment>
+  <Fragment slot="solution"><p>[UTokyo Azure サブスクリプション管理サイトの使用量ページ](https://azure.itc.u-tokyo.ac.jp/list/usage)に**サブスクリプションの使用量内訳をCSVでダウンロード**というリンクがありますので，そこをクリックすると，利用開始からのすべての詳細情報がCSV形式でダウンロードされます．そのCSVファイルに使用量の内訳詳細が表になっていますので，こちらから各リソースが日毎に消費した使用量が確認いただけます．</p><p>Cost の項で降順にすると，使用量の多い内訳が上に来ますので，そのリソースについて想定通りに設定されているか等を確認ください．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">仮想マシンを Windows OS で使いたい</Fragment>
-  <Fragment slot="solution"><p>UTokyo Azure では、Windows OS を [UTokyo Microsoft License](/microsoft/) にて認証された状態で利用できます．仮想マシンを構成する際に，**「マルチテナントをホストする権利を持つ有効な Windows 10/11 ライセンスを所有しています」**にチェックを入れてください．</p><p>Windows Server は対象外です．Server テンプレートをご利用になりたい場合は別途ライセンスを購入ください．</p></Fragment>
+  <Fragment slot="solution"><p>UTokyo Azure では，Windows OS を [UTokyo Microsoft License](/microsoft/) にて認証された状態で利用できます．仮想マシンを構成する際に，**「マルチテナントをホストする権利を持つ有効な Windows 10/11 のライセンスを所有しています」**にチェックを入れてください．</p><p>Windows 10 は 2025年10月に公式のサポートは終了しております．互換性等の事情で必須である場合以外は Windows 11 を選択してください．</p><p>Windows Server は対象外です．Server テンプレートをご利用になりたい場合は別途ライセンスを購入ください．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -179,4 +201,9 @@ import HelpItem from "@components/utils/HelpItem.astro";
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">VMサイズのクォータをリクエストする手順でエラーになるのですが</Fragment>
   <Fragment slot="solution">クォータリクエストは様々な手順から進めることができるようになっていて，その一部の手順では想定した通りに進まない，リンクがエラーになる等の不具合の問い合わせをいただいております．そのような場面に遭遇した場合は，どの手順でどのような不具合になったかを UTokyo Azure サービス担当にご連絡ください．その上で，以下の代替手順にてクォータのリクエストを進めてください．<ul><li>[VMサイズのクォータ要求でエラー表示が出る場合の代替手順](https://univtokyo.sharepoint.com/:b:/t/Teams.azure.adm/EZQGpSZd0rBGg02rzaYJabgB26SajE7VYwNiJlLBGemJOg?e=QZAldo)：要UTokyoAccount認証</li></ul></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">外部テナント（External Entra ID）を利用できますでしょうか</Fragment>
+  <Fragment slot="solution">UTokyo Azure に紐づいた外部テナントは作成しないでください．仮に作成してもサブスクリプションの作成権限は得られないので意味はありません．また，仮に何らかの方法でサブスクリプションの作成ができた場合も，そのサブスクリプションは UTokyo Azure に紐づかないので，利用料は満額ユーザーに請求されます．</Fragment>
 </HelpItem>

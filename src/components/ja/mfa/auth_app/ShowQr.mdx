@@ -16,7 +16,7 @@ import altQr from "./alt_qr.png";
 
 <If cond={props.step === "alt"}>
   <Fragment>
-    <AltAddMethod selection="「Microsoft Authenticator」" />
+    < selection="「Microsoft Authenticator」" />
     <li>
       「別の認証アプリを設定する」というリンクを探して押してください．
       <ArrowOverlay image={altMsAuth} x={680} y={800} />
@@ -25,8 +25,8 @@ import altQr from "./alt_qr.png";
   <Fragment slot="else">
     <FirstAccess />
     <li>
-      画面の中ほどにある「別の認証アプリを使用します」というリンクを探して押してください．
-      <ArrowOverlay image={firstMsAuth} x={300} y={597} />
+      「別の認証アプリを設定する」というリンクを探して押してください．
+      <ArrowOverlay image={firstMsAuth} x={460} y={565} />
     </li>
   </Fragment>
 </If>

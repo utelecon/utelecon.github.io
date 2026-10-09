@@ -9,15 +9,16 @@ breadcrumb:
 **Google Drive** is an online storage service provided by Google. It allows you to create and edit files, as well as share them with other users.
 
 ### Using Google Drive with a university account.
+{:#using_with_utokyo_account}
 
 At the University of Tokyo, Google's "Google Workspace" is provided as "**[ECCS Cloud Email](/en/google/)**". Since Google Drive is a part of this suite, members of the University of Tokyo can use Google Drive with their ECCS Cloud Email accounts.
 
 ECCS Cloud Email is provided through an organizational contract, so it has differences from personal Google accounts.
 
 - With personal Google accounts, the free storage limit is up to 15GB, but with ECCS Cloud Email, you can use up to 125GB without any cost.
-    - By paying a usage fee, it is possible to use storage capacity exceeding 100GB. For more details, please refer to the "[ECCS Storage Management System (in Japanese)](/google/drive/storage/)" page.
+    - By paying a usage fee, it is possible to use storage capacity exceeding 125GB. For more details, please refer to the "[ECCS Storage Management System (in Japanese)](/google/drive/storage/)" page.
 - When sharing files on Google Drive, it is possible to set them to be shared only with ECCS Cloud Email accounts.
-- You can use a system called "Shared Drives,", which is suitable for jointly managing files with a team or within an organization.
+- You can use a system called "Shared Drives," which is suitable for jointly managing files with a team or within an organization.
     - For details about the "Shared Drives" feature and its differences from the regular Google Drive (My Drive), please refer to “[About the "Shared Drive" of Google Drive](shared_drive/)” page.
     - Due to the storage capacity considerations, there are restrictions on the creation and management of Shared Drives. For more details, please refer to the "[ECCS Storage Management System (in Japanese)](/google/drive/storage/)" page.
   
@@ -33,7 +34,7 @@ This page also explains the basic content of Google Drive in a video format.
 
 Please access Google Drive through the following link.
 
-**[Google Drive](https://drive.google.com/drive/)**{:.box.center}
+**[Google Drive](https://drive.google.com/a/g.ecc.u-tokyo.ac.jp/drive/)**{:.box.center}
 
 When accessing Google Drive, if you are not logged in, you will be prompted to do so. Please refer to the "[Initial Setup Procedures](/en/google/#initial-setup-procedures)" section on the ECCS Cloud Email page for login instructions.
 
@@ -41,7 +42,7 @@ When accessing Google Drive, if you are not logged in, you will be prompted to d
 
 For instructions on how to create, edit, upload, and download files, please refer to the following page.
 
-**[Basic Usage of Google Drive (in Japanese)](/google/drive/basic/)**{:.box.center}
+**[Basic Usage of Google Drive](/en/google/drive/basic/)**{:.box.center}
 
 ### Sharing Files
 
@@ -51,8 +52,8 @@ For instructions on how to share files on Google Drive, please refer to the foll
 
 In addition, the following page explains the recommended settings for sharing files on Google Drive for each use case. Please refer to it as well.
 
-**[Recommended Settings for Sharing Files on Google Drive (in Japanese)
-](/google/drive/recommendation/)**{:.box.center}
+**[Recommended Settings for Sharing Files on Google Drive
+](./recommendation/)**{:.box.center}
 
 ## Others
 

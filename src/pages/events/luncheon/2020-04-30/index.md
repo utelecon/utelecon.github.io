@@ -9,7 +9,7 @@ title: オンライン授業情報交換会 第3回 動画作成
 - [**スライド**はこちら](luncheon_3_slides.pdf)
 - [**録画**はこちら](https://sites.google.com/g.ecc.u-tokyo.ac.jp/utelecon-movies/events-luncheon-2020S/2020-04-30) <small>（閲覧には[ECCSクラウドメール](/eccs_cloud_email/)が必要です）</small>
 
-<strong style="font-weight: normal; color: red;">注: 動画内で mp3 ファイルを iPhone の Chrome ブラウザで確認できたと吉田が述べていますが，Chrome ではなく，Google Drvie アプリの間違いでした．申し訳ございません．</strong>
+<strong style="font-weight: normal; color: red;">注: 動画内で mp3 ファイルを iPhone の Chrome ブラウザで確認できたと吉田が述べていますが，Chrome ではなく，Google Drive アプリの間違いでした．申し訳ございません．</strong>
 
 ---
 

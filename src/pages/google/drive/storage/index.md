@@ -157,7 +157,7 @@ breadcrumb:
 * 減らす場合，減らした後の容量が，現在のストレージ制限値をマイドライブ容量が上回らないことを確認してください．
    * ストレージ制限値を減らすには→[簡易マニュアル「ストレージ制限値追加」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.ll8bizws2imm)を参照のこと．
 * 容量が反映されるまでには1時間程度待ってください．
-   * Googleドライブの容量の反映ついては適用に要する厳密な所用時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」を参照のこと．
+   * Googleドライブの容量の反映については適用に要する厳密な所要時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」を参照のこと．
 
 ### ECCSクラウドメールの共有ドライブを新しく作りたい人 【手順の変更】
 {:#Operation-make-new-shareddrive}
@@ -174,7 +174,7 @@ breadcrumb:
 - 減らす場合，減らした後の容量が，現在の共有ドライブの使用量を上回らないことを確認してください．
   - 共有ドライブ容量を設定する．→[簡易マニュアル「共有ドライブの容量変更」](https://docs.google.com/document/d/1jnZv6sKALEXvui12y-KSTvYsu0XxG4U12q5RCD5oYB8/#heading=h.oksofpmfc5xp)を参照のこと．
 - 容量が反映されるまでには1時間程度待ってください．
-  - Googleドライブの容量の反映ついては適用に要する厳密な所用時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」を参照のこと．
+  - Googleドライブの容量の反映については適用に要する厳密な所要時間はGoogle社から明示されていませんが，数十分かかることがあるようです．→Google社のドキュメント「[4.保存容量の上限を設定する](https://support.google.com/a/answer/12033430)」を参照のこと．
 
 ### 共有ドライブの代表者を変更したい人 【手順の変更】
 {:#Operation-change-shareddrive-representative}

@@ -3,8 +3,8 @@ title: How to use UTokyo VPN on macOS devices
 breadcrumb:
   title: How to use on macOS devices
 ---
+import HelpHaveNoAccess from '@components/en/systems/utokyo_account/HelpHaveNoAccess.mdx'
 import SubpageBeginning from './_subpage_beginning.md';
-import HelpMfa from './_help_mfa.html';
 import HelpWhite from './_help_white.html';
 import HelpSecurityEducation from './_help_security_education.html';
 import HelpMultipleUsers from './_help_multiple_users.html';
@@ -21,11 +21,11 @@ Install the application “Cisco Secure Client” on your device to connect to U
 
 **Step A:** Go to [https://vpn1.adm.u-tokyo.ac.jp](https://vpn1.adm.u-tokyo.ac.jp). Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
 
-<HelpMfa />
+<HelpHaveNoAccess system="UTokyo VPN" type="details" />
 <HelpSecurityEducation />
 
 
-**Step B:** After the log-in, a download page for the Cisco Secure Client application, as illustrated below, will appear. Click “Download for macOS” to download the client application.
+**Step B:** After the sign-in, a download page for the Cisco Secure Client application, as illustrated below, will appear. Click “Download for macOS” to download the client application.
 
 After these steps, install the application as you would do for any other macOS application.
 
@@ -33,6 +33,12 @@ After these steps, install the application as you would do for any other macOS a
 ![](img/mac03-install_1-1.png){:.medium.center.border}
 
 <HelpWhite />
+<details>
+  <summary>Troubleshooting guide: When you cannot access the download page</summary>
+  <div>Please access <strong><a href="https://univtokyo.sharepoint.com/sites/utokyoaccount/Cisco_Secure_Client/macos">another distribution page</a></strong> and try downloading.</div>
+  <div>When you download the Cisco Secure Client from SharePoint, please click the download button. The download button will appear after you click the "…" button on the right side of the file name, or in the upper-left corner after you double-click the file name.</div>
+  <div>If the issue is still not resolved, please consult the <a href="/en/support/">Technical Support Desk</a>.</div>
+</details>
 
 **Step C:** During the installation of Cisco Secure Client, a window with the following message “Action Required AnyConnect VPN Service Not Enabled” may appear. Please follow the instructions to allow the system software from "Cisco Secure Client - AnyConnect VPN Service", which is displayed in the "App Background Activity" in "Login Items & Extensions" in "General" in "System Settings". When a window with the following message '"Cisco Secure Client - Socket Filter" would like to use a new network extension' appears, please click the "OK" button.
 
@@ -66,12 +72,12 @@ The following steps are required, every time to use the VPN. Please note that yo
 **Step G:** Unless you have already signed in, the UTokyo Account sign-in page will be displayed. Please sign in.
 
 <HelpMultipleUsers />
-<HelpMfa />
+<HelpHaveNoAccess system="UTokyo VPN" type="details" />
 <HelpSecurityEducation />
 <HelpCiscoSecureClient />
 
 
-**Step H:** If the window displaying “Connected to vpn1.adm.u-tokyo.ac.jp” appears as illustrated below, your device is connected to the VPN. Communication is performed via this VPN while connected to UTokyo campus network. Except for some communication platforms such as Zoom and WebEx that do not require a VPN connection and e-journal sites, all communications occur via this VPN, connecting to UTokyo campus network.
+**Step H:** If the window displaying “Connected to vpn1.adm.u-tokyo.ac.jp” appears as illustrated below, your device is connected to the VPN. Communication is performed via this VPN while connected to UTokyo campus network. Except for some communication platforms such as Zoom and Webex that do not require a VPN connection and e-journal sites, all communications occur via this VPN, connecting to UTokyo campus network.
 
 **Step I:** To view the current connection status, click on the “Cisco Secure Client” icon again. If the window displaying “Connected to vpn1.adm.u-tokyo.ac.jp” illustrated below appears, your device is connected to the UTokyo VPN.
 

@@ -1,5 +1,5 @@
 ---
-title: Slack連携機能でUTOLからUTokyo Slackのワークスペースを利用する
+title: Slack連携機能でUTOLからUTokyo Slackのワークスペースを利用する（教員・TA向け）
 breadcrumb:
   title: Slack
 ---

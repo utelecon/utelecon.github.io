@@ -8,6 +8,7 @@ import AltAddMethod from "../common/AltAddMethod.mdx";
 import firstMsAuth from "../common/first_ms_auth.png";
 import altMsAuth from "../common/alt_ms_auth.png";
 import firstLink from "./first_link.png";
+import firstNextNext from "./first_next_next.png";
 import altLink from "./alt_link.png";
 import altNextNext from "./alt_next_next.png";
 import firstQr from "./first_qr.png";
@@ -44,7 +45,7 @@ import altApproved from "./alt_approved.png";
       <FirstAccess />
       <li>
         多要素認証の本人確認方法を設定する画面になります．デフォルトでMicrosoft Authenticatorの設定をする画面になっているので，そのまま「次へ」を押してください．
-        <ArrowOverlay image={firstMsAuth} x={980} y={642} angle={180} />
+        <ArrowOverlay image={firstMsAuth} x={819} y={645} angle={180} />
       </li>
     </Fragment>
   </If>
@@ -55,13 +56,13 @@ import altApproved from "./alt_approved.png";
     - **スマホでこの作業をしている場合**：「このリンクをクリックして、アカウントをアプリにペアリングします。」を押してください．Microsoft Authenticatorアプリに移動し，自分のUTokyo Accountが表示されればOKです．元の画面に戻って「次へ」を押してください．
       <Image src={{ firstLink, altLink }[`${props.step}Link`]} class="small" alt="" />
     - **スマホ以外（パソコンなど）でこの作業をしている場合**
-      1. <If cond={props.step == "first"}><Fragment>「アカウントのセットアップ」</Fragment><Fragment slot="else">「アプリでアカウントをセットアップする」</Fragment></If>という画面が表示されるので，さらに「次へ」を押してください．QRコードが表示されます．
+      1. <If cond={props.step == "first"}><Fragment>「ここで Authenticator をアカウントとペアリングする」</Fragment><Fragment slot="else">「アプリでアカウントをセットアップする」</Fragment></If>という画面が表示されるので，さらに「次へ」を押してください．QRコードが表示されます．
           <If cond={props.step === "alt"}>
             <Fragment>
               <ArrowOverlay image={altNextNext} x={1225} y={810} angle={180} />
             </Fragment>
             <Fragment slot="else">
-              ![](./first_next_next.png)
+              <ArrowOverlay image={firstNextNext} x={819} y={645} angle={180} />
             </Fragment>
           </If>
           <Image src={{ firstQr, altQr }[`${props.step}Qr`]} alt="" />
@@ -81,7 +82,7 @@ import altApproved from "./alt_approved.png";
   </li>
 
   <li>
-    <If cond={props.step == "first"}><Fragment>「通知が承認されました」</Fragment><Fragment slot="else">「Authenticator Added」</Fragment></If>という表示に切り替わるので，「完了」を押してください．
+    「Authenticator Added」という表示に切り替わるので，「完了」を押してください．
     <Image src={{ firstApproved, altApproved }[`${props.step}Approved`]} alt="" />
   </li>
 

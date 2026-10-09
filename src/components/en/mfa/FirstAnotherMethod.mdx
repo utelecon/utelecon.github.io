@@ -1,13 +1,17 @@
+import ArrowOverlay from "@components/utils/ArrowOverlay.astro";
+
+import firstAnotherMethod from "./first_another_method.png";
+
 {/**
   * @typedef {object} Props
   * @property {string} selection
   */}
 
 <li>
-  Click "I want to use a different method" at the bottom of the setup page.
-  ![](./first_another_method.png)
+  Click "Set up a different way to sign in" at the bottom of the setup page.
+  <ArrowOverlay image={firstAnotherMethod} x={455} y={580} angle={45} />
 </li>
 <li>
-  For "Which method would you like to use?", select {props.selection}, and then click "Add".
+  For "Add a sign-in method", click {props.selection}.
   ![](./first_select.png)
 </li>

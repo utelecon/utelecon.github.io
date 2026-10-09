@@ -18,7 +18,7 @@ Zoom's screen sharing enables you to share your screen with others. You can shar
 In the "Basic" tab, choose to share your entire desktop or specific application window.  
 ![Select from "Basic" tab](02.png)
    * **[Desktop]** Share your full desktop.
-   * **[Individual application]** Share an individual application you have opened on your computer such as Word, PowerPoint, web browser, etc.. It is useful when you only want to share an individual file from a specific location.
+   * **[Individual application]** Share an individual application you have opened on your computer such as Word, PowerPoint, web browser, etc. It is useful when you only want to share an individual file from a specific location.
 
 3. Check the option at the bottom of the window if necessary. (You can also set it up during screen sharing from the "More" in the meeting controls.)
    ![Check the option if necessary](03.png)
@@ -69,7 +69,7 @@ If you want the students to use other windows other than Zoom while the teacher�
 ### Screen sharing controls
 
 #### Setting up who can annotate
-You can prevent participants from annotating l by selecting "Disable Annotation for Others" from "More" of the meeting controls.
+You can prevent participants from annotating by selecting "Disable Annotation for Others" from "More" of the meeting controls.
 
 #### Displaying names of annotators
 By selecting "Show/Hide Names of Annotators" from "More" of the meeting controls, participants’ names will appear/disappear next to their annotations on the shared screen.<br>
@@ -113,10 +113,10 @@ Click “Annotate” from the screen sharing controls to annotate the shared scr
 
 * **[Mouse]** Deactivate annotation tools and switch to your mouse pointer.
 * **[Select]** Select, move, or resize your annotations.
-* **[Text]** Insert text. Textformat can be changed from "Format".
+* **[Text]** Insert text. Text format can be changed from "Format".
 ![“Annotate” Text](14.png)  
 
-* **[Draw]** Insert lines, arrows, and shapes..
+* **[Draw]** Insert lines, arrows, and shapes.
 ![“Annotate” Draw](16.png)
 
 * **[Stamp]** Insert predefined icons like a check mark or star.

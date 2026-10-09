@@ -6,6 +6,8 @@ top: true
 toc: false
 ---
 
+import { Image } from "astro:assets";
+
 import "@styles/top.scss";
 import "@styles/rss_icon.scss";
 
@@ -14,6 +16,8 @@ import Notice from '@components/pages/Notice.astro';
 import Events from '@components/pages/Events.astro';
 import FontAwesomeIcon from "@components/embed/FontAwesomeIcon.astro";
 import MaterialIcon from "@components/embed/MaterialIcon.astro";
+
+import UtoneLogo from "./_icons/utone.svg";
 
 <Emergency />
 
@@ -32,7 +36,27 @@ import MaterialIcon from "@components/embed/MaterialIcon.astro";
   </div>
 </div>
 
-<div class="systems-link">[東京大学の情報システムの一覧はこちらから](/systems/){:.arrow-link}</div>
+## 東京大学の情報システム
+
+<div class="top__systems">
+  - [<MaterialIcon icon="person" />UTokyo Account](/utokyo_account/)
+  - [![](_icons/utas.png)UTAS](/utas/)
+  - [![](_icons/utol.png)UTOL (UTokyo LMS)](/utol/)
+  - [<Image src={UtoneLogo} alt=""/>UTONE (UTokyo One)](https://utone.u-tokyo.ac.jp/)
+  - [<MaterialIcon icon="wifi" />UTokyo Wi-Fi](/utokyo_wifi/)
+  - [![](_icons/zoom.png)Zoom](/zoom/)
+  - [![](_icons/webex.png)Webex](/webex/)
+  - [![](_icons/google.png)ECCSクラウドメール<small>(Google Workspace)</small>](/google/)
+  - [![](_icons/microsoft.png)UTokyo Microsoft License](/microsoft/)
+  - [![](_icons/slack.png)UTokyo Slack](/slack/)
+  - [![](_icons/slido.png)Slido](/slido/)
+  - [<MaterialIcon icon="bar_chart" />UTokyo MATLAB Campus-Wide License](/matlab/)
+  - [<MaterialIcon icon="vpn_lock" />UTokyo VPN](/utokyo_vpn/)
+  - [<MaterialIcon icon="computer" />教育用計算機システム (ECCS)](/eccs/)
+  - [![](_icons/research_computing.png)全学向け高速計算機・データ活用基盤](/research_computing/)
+  - [一覧](/systems/){:.arrow-link}
+  {:.cards}
+</div>
 
 <div class="container">
 <div class="container__column">
@@ -85,19 +109,19 @@ import MaterialIcon from "@components/embed/MaterialIcon.astro";
 */}
 
 <Events show={[
-  "2026-03-16",
-  "2025-04-18",
+  "2026-09-11-genai-sympo-ws-ii",
+  "2026-09-09",
   "2025-02-21",
-  "2024-09-13",
 ]} lang="ja">
 </Events>
 
 ## ピックアップ
 
+- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai/)
+- [授業課題・取り組みにおけるAI利用範囲の類型と表示](/gen-ai/education/ai-use-policy-levels/)
 - [教育用計算機システムのECCS2026への更新](/notice/2025/eccs2026-announcement/)
 - [UTokyo Azure](/research_computing/utokyo_azure/)
 - [UTokyo Accountにおける多要素認証の利用について](/utokyo_account/mfa/)
-- [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai/)
 - [Googleドライブ](/google/drive/)
 - [OneDrive](/microsoft/onedrive/)
 {:.cards}
@@ -119,24 +143,4 @@ import MaterialIcon from "@components/embed/MaterialIcon.astro";
 {:.cards}
 
 </div>
-</div>
-
-## 東京大学の情報システム
-
-<div class="top__systems">
-  - [<MaterialIcon icon="person" />UTokyo Account](/utokyo_account/)
-  - [![](_icons/utas.png)UTAS](/utas/)
-  - [![](_icons/utol.png)UTOL (UTokyo LMS)](/utol/)
-  - [<MaterialIcon icon="wifi" />UTokyo Wi-Fi](/utokyo_wifi/)
-  - [![](_icons/zoom.png)Zoom](/zoom/)
-  - [![](_icons/webex.png)Webex](/webex/)
-  - [![](_icons/google.png)ECCSクラウドメール<small>(Google Workspace)</small>](/google/)
-  - [![](_icons/microsoft.png)UTokyo Microsoft License](/microsoft/)
-  - [![](_icons/slack.png)UTokyo Slack](/slack/)
-  - [![](_icons/slido.png)Slido](/slido/)
-  - [<MaterialIcon icon="bar_chart" />UTokyo MATLAB Campus-Wide License](/matlab/)
-  - [<MaterialIcon icon="vpn_lock" />UTokyo VPN](/utokyo_vpn/)
-  - [<MaterialIcon icon="computer" />ECCS端末](/eccs/)
-  - [一覧](/systems/){:.arrow-link}
-  {:.cards}
 </div>

@@ -46,13 +46,13 @@ In the following, we propose ways to effectively utilize the ITC-LMS according t
 
 ![](pic1.jpg)
 
-The ITC-LMS has a test function that allows users to create quizzes and final exams to assess their daily learning. You can set the format of the tests to be in essay form or multiple choice questions, or allow retaking the exam, etc. For detailed instructions on how to create tests, please refer to [this page](/en/lms_lecturers/prepare_quizzes/).
+The ITC-LMS has a test function that allows users to create quizzes and final exams to assess their daily learning. You can set the format of the tests to be in essay form or multiple choice questions, or allow retaking the exam, etc. For detailed instructions on how to create tests, please refer to [this page](/en/utol/lecturers/quizzes/).
 
 For tests of high importance, it is important to set clear deadlines for answers and time limits, and enter them in the "Answer period/deadline" field. Students will often look at this field to check when they need to work on the assignment, so it is a good idea to make sure that students can confirm the deadlines via the system, in addition to announcing them verbally during class.
 
 ### Take Attendance
 
-The ITC-LMS has an attendance management function, which can be used to take attendance during classes. Attendance management can be edited from the Course Content tab on the editing screen for faculty members on ITC-LMS. Please refer to [this page](/en/lms_lecturers/view_attendances/) for detailed information on how to manage attendance.
+The ITC-LMS has an attendance management function, which can be used to take attendance during classes. Attendance management can be edited from the Course Content tab on the editing screen for faculty members on ITC-LMS. Please refer to [this page](/en/utol/lecturers/attendances/) for detailed information on how to manage attendance.
 
 ![](pic2.jpg)
 
@@ -62,7 +62,7 @@ When actually requesting attendance confirmations, the password must be presente
 
 ### Distribute Class Materials in an Easy-To-Understand Manner
 
-In ITC-LMS, you can place class materials such as slides in the "Teaching Materials" section. Please refer to [this page](/en/lms_lecturers/course_material/) for details on how to place teaching materials.
+In ITC-LMS, you can place class materials such as slides in the "Teaching Materials" section. Please refer to [this page](/en/utol/lecturers/materials/) for details on how to place teaching materials.
 
 ![](pic3.jpg)
 
@@ -72,7 +72,7 @@ The most important thing to keep in mind here is how to title the material. In a
 
 ### Set Easy-To-Read Deadlines for Assignments
 
-The ITC-LMS allows teachers to place assignments in the "Assignment" section. Please refer to [this page](/en/lms_lecturers/assignments/) for details on how to create and place assignments.
+The ITC-LMS allows teachers to place assignments in the "Assignment" section. Please refer to [this page](/en/utol/lecturers/assignments/) for details on how to create and place assignments.
 
 ![](pic5.jpg)
 

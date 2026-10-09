@@ -153,6 +153,72 @@ prop `variant`の値によって，表示する要素が切り替わります．
 - `outerClass` (`string` 型) … 描画される画像を包む `<div>` タグに適用するCSSクラスを指定します．複数指定する場合は半角スペースを空けて並べます．
   - 注：`ArrowOverlay` は内部的には `<div>` タグの中に `Image` コンポーネントと `<svg>` タグを並べた形になっており，指定したCSSクラスはこの `<div>` タグに適用されます．
 
+### [`Tabs`](utils/tabs/Tabs.tsx)
+
+タブUIのコンポーネントです．タブを選択することにより，ユーザーが表示内容を切り替えることができます．
+
+また，複数のタブUIの選択内容を同期させることができ，URLのsearch paramsを通して事前に選択内容を指定することもできます（サポート窓口で活用できると思われます）．
+
+利用するには，まず利用したいタブグループ（選択内容が同期されるタブUIの集合）ごとにAstroコンポーネントを以下のように作成してください．
+
+```astro
+---
+import Tabs from "@components/utils/tabs/Tabs";
+---
+
+<Tabs client:visible queryKey="os" defaultTab="pleaseSelect">
+  <Fragment slot="panel.pleaseSelect">
+    上のタブからOSを選択してください．
+  </Fragment>
+  <Fragment slot="tab.windows">
+    Windows
+  </Fragment>
+  <Fragment slot="panel.windows">
+    <slot name="windows" />
+  </Fragment>
+  <Fragment slot="tab.mac">
+    Mac
+  </Fragment>
+  <Fragment slot="panel.mac">
+    <slot name="mac" />
+  </Fragment>
+</Tabs>
+```
+
+主要なパラメータを以下に示します：
+
+- `client:visible`：おまじないです．
+  - 詳しくは [Astro のドキュメント](https://docs.astro.build/ja/reference/directives-reference/#クライアントディレクティブ)を参照してください．
+- `queryKey` … どのクエリパラメータを使用するか指定します．必須です．
+  - 例：`queryKey="os"` とすると，タブの選択内容がURLの `?os=windows` のようなクエリパラメータと同期します．
+- `defaultTab` … 初期状態でどのタブを選択しているかを指定します．必須です．
+- slotの名前 (`<slot name="...">`) … ドットで区切られた文字列で，タブ名などを指定します．
+  - 書式 … `tab`/`panel` + `.` + タブ名
+    - `tab`/`panel` … 当該slotがタブ本体か，タブを選択すると表示されるパネルかを指定します．
+    - タブ名 … タブとパネルの組ごとに異なるタブ名を指定してください．
+      - `camelCase` で記述してください．`kebab-case` などにすると正しく動作しません[^1]。
+  - 例：`tab.windows`を指定したタブを押すと，`panel.windows` を指定したパネルが表示されます．
+- タブが表示される順番は書いた順番に従います．
+
+[^1]: `Tabs` は React コンポーネントとして実装されています．Astro が React に名前付き slot を渡す際に `kebab-case` を `camelCase` に変換します[†](https://docs.astro.build/ja/guides/framework-components/#フレームワークコンポーネントへの子要素の受け渡し)が，HTML 生成時とクライアント側の hydrate 時で挙動が異なるようです．そのため、変換が行われないようにするために `camelCase` のみをタブ名として使います．
+
+原則としてタブとパネルはセットですが，上の例の `pleaseSelect` のように，タブを作らずにパネルだけにしておいて `defaultTab` に指定すると，何も選択されていないときのメッセージを表示できます．
+
+利用したいページでは，以下のように上で作成したAstroコンポーネントを通して使います．
+
+```mdx
+import OSTabs from "@components/ja/hogehoge/OSTabs.astro";
+
+<OSTabs>
+  <Fragment slot="windows">
+    Windowsの説明がここに入ります
+  </Fragment>
+  <Fragment slot="mac">
+    Macの説明がここに入ります
+  </Fragment>
+</OSTabs>
+```
+
 ## 複数ページで記述されている内容を共通化するコンポーネント
 
 ### 各システムの基本的な手順を説明するコンポーネント

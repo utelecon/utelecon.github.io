@@ -5,7 +5,12 @@ breadcrumb:
   title: グッドプラクティスの共有
 ---
 
-import Loader from './_Loader.astro'
+import GoodPractice from "@components/pages/GoodPractice";
+import { getCollection } from "astro:content";
+
+import ExcuseForAccuracy from "@components/ja/ExcuseForAccuracy.mdx";
+
+<ExcuseForAccuracy />
 
 ## はじめに
 
@@ -29,4 +34,12 @@ import Loader from './_Loader.astro'
 
 以下のチェックボックスを使うことで記事の絞り込みができます．
 
-<Loader />
+<GoodPractice
+  client:visible
+  interviews={(await getCollection("interviews"))
+    .sort((a, b) => a.id.localeCompare(b.id)) // interviewの.mdのアルファベット順にソート
+    .map(({ id, data }) => ({
+    path: `/${id}`,
+    ...data,
+  }))}
+/>
