@@ -34,37 +34,9 @@ Consultations are available at two locations in the Komaba area and one location
 
 Consultations are generally available on weekdays from 10:20 a.m. to 6:30 p.m. However, please note the following:
 - Services are provided only during each facility’s opening hours.
-- As student staff work on a rotating schedule, we may not be able to respond even during the above hours. The actual availability[^1] is published on the following page (scroll the table toward the right to view it):
-<b class="box center">[Consultation Schedule](https://gm.sodan.ecc.u-tokyo.ac.jp/gm/schedule/2026prea/) (only in Japanese)</b>
+- As student staff work on a rotating schedule, we may not be able to respond even during the above hours. The actual availability is published on the following page (automatically updated at least once per hour):
+    - [Information Education Building, Komaba](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?gid=1286064927#gid=1286064927)
+    - [Komaba Library, Komaba](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?gid=1282943948#gid=1282943948)
+    - [General Library, Hongo](https://docs.google.com/spreadsheets/d/1wtSMyTKbOs0gdaDnjaa0_VT65pSYeDu6GJooCMLBZic/edit?gid=944805225#gid=944805225)
+    {:.cards}
 - During Periods of particularly high demand, consultation days and hours may be extended.
-
-[^1]: The meaning of each time slot displayed on the schedule page is as shown in the following table.　Early, mid, and late: <table>
-    <tr>
-        <td>1限前 (Early 1st Period) 08:25～08:55</td>
-        <td>1限中 (Mid 1st Period) 09:00～09:45</td>
-        <td>1限後 (Late 1st Period) 09:50～10:20</td>
-    </tr>
-    <tr>
-        <td>2限前 (Early 2nd Period) 10:20～10:50</td>
-        <td>2限中 (Mid 2nd Period) 10:55～11:40</td>
-        <td>2限後 (Late 2nd Period) 11:45～12:15</td>
-    </tr>
-    <tr>
-        <td colspan="3" style="text-align:center">昼休み (Lunchtime) 12:20～12:50</td>
-    </tr>
-    <tr>
-        <td>3限前 (Early 3rd Period) 12:55～13:25</td>
-        <td>3限中 (Mid 3rd Period) 13:30～14:15</td>
-        <td>3限後 (Late 3rd Period) 14:20～14:50</td>
-    </tr>
-    <tr>
-        <td>4限前 (Early 4th Period) 14:50～15:20</td>
-        <td>4限中 (Mid 4th Period) 15:25～16:10</td>
-        <td>4限後 (Late 4th Period) 16:15～16:45</td>
-    </tr>
-    <tr>
-        <td>5限前 (Early 5th Period) 16:45～17:15</td>
-        <td>5限中 (Mid 5th Period) 17:20～18:05</td>
-        <td>5限後 (Late 5th Period) 18:10～18:40</td>
-    </tr>
-</table>
