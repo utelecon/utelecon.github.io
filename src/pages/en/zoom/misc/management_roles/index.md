@@ -64,7 +64,7 @@ For instructions, see [**Instructions for using a host key**](#host_key_instruct
 
 ### Leaving a meeting as the host
 {:#host_leave}
-When [passing host controls to leave the meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067794), the following two options may be displayed: “End meeting for all” and “Leave meeting.”
+When [the host leaves an ongoing meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067794), the following two options may be displayed: “End meeting for all” and “Leave meeting.”
 ![](img/host_leave.png)
 This is displayed because, in principle,[^3] one host must always be present for a meeting. Therefore, when the host leaves the meeting, they must either end the meeting itself or transfer the host role to another participant.
 
