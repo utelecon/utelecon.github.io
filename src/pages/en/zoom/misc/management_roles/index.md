@@ -255,7 +255,7 @@ The following explains how to schedule and edit meetings using scheduling privil
   ![](img/schedule_meetings_using_privilege_web_new_0.png){:.border}
   1. Select the parent user from the “Schedule for” drop-down menu.
   ![](img/schedule_meetings_using_privilege_web_new_1.png){:.border}
-  1. Then schedule the meeting as usual using [Scheduling a Zoom Meeting](/en/zoom/create_room/).
+  1. Then [schedule the meeting](/en/zoom/create_room/) as usual.
 
 - Procedure for editing an existing meeting
   1. Open the [Meetings](https://u-tokyo-ac-jp.zoom.us/meeting) page in the Zoom web portal.
