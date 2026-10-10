@@ -19,7 +19,7 @@ The functions for managing Zoom meetings can be broadly divided into two categor
 Specific functions for changing meeting settings and reviewing records include the following:
 - Set up [a waiting room](/en/zoom/create_room/waiting_room/) .
 - Require [authentication](/en/zoom/create_room/auth/) to join the meeting.
-- Review [Getting started with Zoom reporting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060623) for the meeting.
+- Review [meeting reports](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060623). 
 - Start the meeting.
 
 #### Functions for moderating meetings
