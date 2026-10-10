@@ -12,7 +12,7 @@ When using a University of Tokyo account, please also refer to "[Precautions for
 
 ## On Webex Services
 
-In addition to Webex Meetings, which is most commonly used, Webex offers four other services: Webex Webinars, Webex Training, and Webex Support. Each service has its advantages and disadvantages.
+In addition to Webex Meetings, which is most commonly used, Webex offers three other services: Webex Webinars, Webex Training, and Webex Support. Each service has its advantages and disadvantages.
 
 - Webex Meetings
   - The maximum number of participants is 1000 (including up to 200 participants joining via video conferencing systems).
@@ -40,7 +40,7 @@ Below, you can find out more about how to use Webex Meetings and Webex Webinars.
 1. Have your host send you the details of the meeting room (such as the URL)
     - For classes, please refer to [How to Obtain the Online Class URL (for Students)](/en/oc/url/)
 1. [Join the meeting room](join_meeting/)
-    - Depending on the meeting room, you may be required to [log in to your UTokyo Account](signin/)
+    - Depending on the meeting room, you may be required to [sign in to your UTokyo Account](signin/)
     - Other participants will not be able to join until the host presses “start” for the meeting
 1. Use the meeting room
     - [Things You Can Do in Webex Meetings and Webex Webinars (as Host/Participant)](do_webex/)

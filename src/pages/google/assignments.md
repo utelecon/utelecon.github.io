@@ -8,7 +8,7 @@ breadcrumb:
 
 ## 注意事項
 * UTOLとの連携が実現できていないため，当面はスタンドアロンサービスとして利用していただくことになります．
-* Assignmentsの機能や，使い方については，[Google社による紹介ページ](https://edu.google.com/intl/ja/assignments/?modal_active=none)をごらんください．
+* Assignmentsの機能や，使い方については，[Google社による紹介ページ](https://edu.google.com/intl/ja/assignments/?modal_active=none)をご覧ください．
 * Assignments の生徒 (student) はECCSクラウドメールのユーザ以外も登録可能ですが，instructorとして登録できるのはECCSクラウドメールのユーザのみです．
 * 契約上の制限により，[独自性レポート (originality report) は1つのクラスにつき，5回までしか使えません](https://edu.google.com/intl/ALL_jp/workspace-for-education/assignments/originality/)．
   * ただし，Google Workspace for Education Plusのライセンス付与を受ければ，制限が緩和されます．詳しくは[Google Workspace for Education Plusのライセンス付与についての説明ページ](/google/misc/education-plus/)を参照してください．

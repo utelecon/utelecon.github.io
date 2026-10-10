@@ -1,5 +1,5 @@
 ---
-title: Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors/TAs)
+title: Configuring Course Settings in UTokyo LMS (UTOL, for Course Instructors / TAs)
 redirect_from:
   - /en/lms_lecturers/course_settings
   - /en/itc_lms/lecturers/settings
@@ -115,7 +115,7 @@ To customize the display:
 #### Self-Registration and Student Range Settings
 {:#self-registration-and-content-use-scope}
 
-This section describes the settings related to **Self-registration**, which allows users to use the course content without registering for the course on UTAS (so-called *auditing*), and **Enrolled student range setting**. Note that self-registration is also necessary if you want participants to register themselves for [**courses created through request**](#course-application).
+This section describes the settings related to **Self-registration**, which allows users to use the course content without registering for the course on UTAS (so-called *auditing*), and **Enrolled student range setting**. Note that self-registration is also necessary if you want participants to register themselves for [**courses created through request**](../#course-application).
 
 First, in the **Self-registration** settings, you can choose whether or not to allow users to register themselves as *enrolled student*, by clicking the **Register for Enrollment** button on UTOL. The default setting is **Permit**.
 
@@ -227,7 +227,7 @@ This section describes the procedures for using external tools in a course. For 
    <details>
    <summary>When an external tool is not displayed</summary>
 
-   If you have a license for an LTI v1.3-compliant external tool that is not shown in the **LTI Usage Settings** and wish to use it, please contact the UTOL team via email. Please inform us of the tool, its license, and the scope of use you wish to request (i.e., whether you wish to use the tool only for a specific department or course, or for the entire university).
+  If you have a license for an LTI v1.3-compliant external tool that is not shown in the **LTI Usage Settings** and wish to use it, please contact the UTOL team (`lms-support@itc.u-tokyo.ac.jp`). Please inform us of the tool, its license, and the scope of use you wish to request (i.e., whether you wish to use the tool only for a specific department or course, or for the entire university).
    </details>
 
 1. Click the **Confirm** button, review the details, and then click **Register**.
@@ -259,10 +259,10 @@ If you are registered as an instructor in both courses (source and destination c
 
 Otherwise, ask the instructor of the source course to perform the following steps:
 
-1.  Open **Course Settings > Course Settings**[^1] in the source course.
-2.  Check the option **Allow the contents of the courses to be used (copied) for both courses you are in charge of and not in charge of**. 
+1. Open **Course Settings > Course Settings**[^1] in the source course.
+2. Check the option **Allow the contents of the courses to be used (copied) for both courses you are in charge of and not in charge of**. 
    ![](./_img/contents-reuse-step1.png){:.small}
-3.  Click the **Confirm** button, review the details, and then click **Register**.
+3. Click the **Confirm** button, review the details, and then click **Register**.
 
 #### Step 2: Actions in the Destination Course
 {:#contents-reuse-step2}

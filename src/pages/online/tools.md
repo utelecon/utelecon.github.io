@@ -82,6 +82,7 @@ Microsoft 365は，OneDriveやオンライン版のOfficeなどのMicrosoftサ�
 {:#google-forms}
 GoogleフォームはGoogle Workspaceに含まれているフォーム作成サービスです．東大のアカウントを使うと，回答できる人の範囲を東大のアカウントに限定したフォームを作成することもできます．
 
+- **[Googleフォーム](/google/forms/)**：Googleフォームの基本的な使い方や東大のアカウントで利用するメリットなどを説明しています.
 - **[Googleフォームで小テストやアンケートを実施する](/articles/google-form/)**：小テストやアンケートを想定して基本的な使い方を説明しています.
 
 ### Microsoft Forms
@@ -202,7 +203,7 @@ Slackはグループウェアと呼ばれるアプリの一種で，グループ
 - **[Slackでの授業における質問の受け付け方](/articles/question-tools/#Slack)**：実際の授業でのSlack活用例として，質問を受け付ける方法とそのコツを紹介しています．
 
 ### Discord
-Discordは，グループやチーム内でコミュニケーション用ツールです．Slackに似た「チャンネル」でテキストチャットがやり取りできるほか，ボイスチャット（音声による通話）も可能で，グループやチーム内で気軽なWeb会議のように使うこともできます．
+Discordは，グループやチーム内で使うコミュニケーション用ツールです．Slackに似た「チャンネル」でテキストチャットがやり取りできるほか，ボイスチャット（音声による通話）も可能で，グループやチーム内で気軽なWeb会議のように使うこともできます．
 
 - **[Discord（外部サイト）](https://discord.com/)**：公式ウェブサイトです．
 - **[Discordを使って交流する](/articles/online-interaction/#discord)**：Discordを含め，多人数での通話・交流に使えるツールを複数紹介・比較しています．
@@ -245,7 +246,7 @@ Slidoは，Q&Aやライブ投票・アンケートなど，授業や会議・講
 ### CommentScreen
 CommentScreenは，オンライン授業をしている画面上に，直接学生の質問やコメントを匿名・リアルタイムで表示することができるツールです．
 
-- **[CommentScreenで学生とコミュニケーションをとる](/articles/commentscreen/)**：基本的な使い方をを説明しています．
+- **[CommentScreenで学生とコミュニケーションをとる](/articles/commentscreen/)**：基本的な使い方を説明しています．
 - **[オンライン授業のグッドプラクティス／杉田直彦先生 生産システム](/good-practice/interview/sugita/)**：CommentScreenを使ってコミュニケーションをとった授業の実践例です．
 - **[CommentScreenを用いた授業における質問の受け付け方](/articles/question-tools/#CommentScreen)**：実際の授業でのCommentScreen活用例として，質問を受け付ける方法とそのコツを紹介しています．
 

@@ -30,7 +30,7 @@ Zoomを用いて質問を募集するには，基本的に発声で質問して�
 
 <figure>
 <figcaption>Zoomのチャットを用いた質疑応答の例</figcaption>
-<img src="pic01.png">
+<img src="pic01.png"/>
 </figure>
 
 （良い点）
@@ -61,7 +61,7 @@ CommentScreenは投稿されたコメントを，ZoomなどのWeb会議システ
 
 <figure>
 <figcaption>CommentScreenの使用例</figcaption>
-<img src="pic02.png">
+<img src="pic02.png"/>
 </figure>
 
 （良い点）
@@ -95,7 +95,7 @@ Slidoにはいくつかの機能がありますが，ここでは「Q&A」の機
 
 <figure>
 <figcaption>Slidoで質問を受け付けた例</figcaption>
-<img src="pic03.png">
+<img src="pic03.png"/>
 </figure>
 
 （良い点）
@@ -142,7 +142,7 @@ Slackでは，まずグループの「ワークスペース」を作り，その
 
 <figure>
 <figcaption>Slackを用いた質疑応答の例</figcaption>
-<img src="pic04.png">
+<img src="pic04.png"/>
 </figure>
 
 （良い点）
@@ -179,7 +179,7 @@ LINEオープンチャットでは，友達登録されていない人たちとU
 
 <figure>
 <figcaption>LINEオープンチャットを用いた質疑応答の例</figcaption>
-<img src="pic05.jpg">
+<img src="pic05.jpg"/>
 </figure>
 
 （良い点）  

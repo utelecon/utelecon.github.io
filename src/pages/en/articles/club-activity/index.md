@@ -45,9 +45,9 @@ In many cases, it is convenient to keep members’ profile information stored so
 
   This is the recommended profile-sharing method for clubs that mainly use platforms such as Slack, which are not suitable for pinning a large amount of information.
 
-  - **Collect responses with Google Forms and display them in a Google Spreadsheet**
+  - **Collect responses with Google Forms and display them in a Google Sheets**
 
-    Google Forms has a feature to display collected responses in a Google Spreadsheet. By using this function, you can list the responses for profile introductions collected by Google Forms in a Google Spreadsheet. Please refer to the official [help page](https://support.google.com/docs/answer/2917686?hl=en) on how to display Google Forms responses in Google Spreadsheets. We recommend that you save the Google Spreadsheets where the members’ profiles are shared in an easily accessible location on your Google Drive for easy access. You can also pin the link to the platform you mainly use.
+    Google Forms has a feature to display collected responses in a Google Sheets. By using this function, you can list the responses for profile introductions collected by Google Forms in a Google Sheets. Please refer to the official [help page](https://support.google.com/docs/answer/2917686?hl=en) on how to display Google Forms responses in Google Sheets. We recommend that you save the Google Sheets where the members’ profiles are shared in an easily accessible location on your Google Drive for easy access. You can also pin the link to the platform you mainly use.
 
   - **Use Google Drive folders**
 

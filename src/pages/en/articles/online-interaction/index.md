@@ -14,25 +14,19 @@ This article compares several online interaction tools that may be useful during
 * Want to share ideas and facilitate online meetings, but are not sure of what tool to use
 * Want to make it easier and more intuitive to divide up breakout sessions, since it currently takes a long time to assign participants to different rooms when zooming
 
-Here is a comparison of four tools for online meetings and conferencing: Discord, Gather, and Remo.
+Here is a comparison of three tools for online meetings and conferencing: Discord, Gather, and Remo.
 
 ## Discord
 
-<figure>
-<img src="pic01.png" width="200px">
-</figure>
+![](pic01.png){:.small}
 
 ### What is Discord?
 
 Discord is a tool for online voice chat (conversation through voice). It is characterized by its ability to allow for chatting not only between individuals, but also between multiple people simultaneously, exchanging text, images, and videos. It is often used as a chat application during game play, but it is also a very useful tool for general calls.
 
-<figure>
-<img src="pic02.png">
-</figure>
+![](pic02.png)
 
-<figure>
-<img src="pic03.png">
-</figure>
+![](pic03.png)
 
 ### Basic Instructions on How to Use Discord
 
@@ -57,17 +51,13 @@ Discord is a tool for online voice chat (conversation through voice). It is char
 
 ## Gather
 
-<figure>
-<img src="pic06.png" width="200px">
-</figure>
+![](pic06.png){:.small}
 
 ### What is Gather?
 
 This online communication tool features a playful UI in the style of retro games. Users can control their avatars to move freely between rooms and virtually experience going to work and working in an office. This is one of the virtual office services that create an actual office environment on the Internet.
 
-<figure>
-<img src="pic07.png">
-</figure>
+![](pic07.png)
 
 ### Basic Instructions on How to Use Gather
 
@@ -92,17 +82,13 @@ This online communication tool features a playful UI in the style of retro games
 
 ## Remo
 
-<figure>
-<img src="pic08.png" width="200px">
-</figure>
+![](pic08.png){:.small}
 
 ### What is Remo?
 
 Remo is an online communication tool that allows users to enter a virtual room with many tables, each surrounded by six chairs, and to carry on a meeting by having conversations at each table or by having the organizer address everyone.
 
-<figure>
-<img src="pic09.png">
-</figure>
+![](pic09.png)
 
 ### Basic Instructions on How to Use Remo
 
@@ -126,7 +112,7 @@ Remo is an online communication tool that allows users to enter a virtual room w
 * [Video] Join an Event: [How to Register for a Remo Event as a Guest](https://www.youtube.com/watch?v=v7HW3Emb3BA&list=PL0OTlNhIJiS2u-Csz3NoOdW8vnGDHleRR&index=1)
 * [Video] Create your event: <https://youtu.be/NP6DJodI53s> (in Japanese)
 * [Video] How to make a banner: [How to Design a Sponsor Banner in Remo Virtual Conference](https://www.youtube.com/watch?v=KSHAhr61ZJw)
-* [Video] Troubleshooting:  <https://www.youtube.com/watch?v=r5WVj07y4mU> (in Japanese)
+* [Video] Troubleshooting: <https://www.youtube.com/watch?v=r5WVj07y4mU> (in Japanese)
 
 ## Comparison of 3 Tools
 

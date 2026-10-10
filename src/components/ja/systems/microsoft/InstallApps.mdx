@@ -59,7 +59,7 @@ import HelpHaveNoAccess from '@components/ja/systems/utokyo_account/HelpHaveNoAc
 1. 表示された画面を確認して，以下の指示に従ってください．
     - 「Officeを使い始めるにはサインインしてください」などのダイアログが表示された場合：OfficeアプリにどのMicrosoftアカウントでもサインインしていない状態です．「アカウントにサインインまたはアカウントを作成」をクリックしてください．
       <If cond={props.variant == "individual"}>![](img/microsoft-install-signin-new.png){:.medium}</If>
-    - 上記のような画面が表示されず，通常の編集画面が表示された場合：OfficeアプリになんらかのMicrosoftアカウントでサインインしている状態です．Windowsの場合は右上の人型のアイコンを、macOSの場合は左上の円形のアイコンをクリックした後，現在サインインしているアカウントを確認してください．UTokyo Accountでない別のアカウントでサインインしていた場合は「アカウントを追加する」を選択してください．
+    - 上記のような画面が表示されず，通常の編集画面が表示された場合：OfficeアプリになんらかのMicrosoftアカウントでサインインしている状態です．Windowsの場合は右上の人型のアイコンを，macOSの場合は左上の円形のアイコンをクリックした後，現在サインインしているアカウントを確認してください．UTokyo Accountでない別のアカウントでサインインしていた場合は「アカウントを追加する」を選択してください．
       <If cond={props.variant == "individual"}>![](img/microsoft-install-signin-switch.png){:.small}</If>
 1. <If cond={props.variant == "individual"}>[インストール](#install)<Fragment slot="else">インストール</Fragment></If>時と同様のサインイン画面が表示されるので，サインインしてください．
 1. Windowsの場合，「すべてのアプリにサインインしたままにする」というダイアログが表示されることがあります．ここでの設定内容によっては，Officeアプリの利用中にエラーメッセージが発生しうることが確認されています．これを防ぐため，以下のように回答してください．

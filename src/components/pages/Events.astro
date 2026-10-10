@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import If from "@components/utils/If.astro";
 import type { Lang } from "@components/types";
-import { getLocaleDateString } from "src/util";
+import { getLocaleDateString } from "../../util";
 
 interface EventInformation {
   key: string;
@@ -39,7 +39,7 @@ const allEventsList: Map<string, EventInformation> = new Map(
             /^[0-9]{4}([/-])[0-9]{1,2}\1[0-9]{1,2}\s*/,
             ""
           ) ?? "",
-        href: `/${event.id}`,
+        href: `/${event.id}/`,
       },
     ];
   })

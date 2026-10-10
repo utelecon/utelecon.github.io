@@ -51,6 +51,7 @@ export const TOOLS = [
   { label: "Scrapbox", value: "scrapbox" },
   { label: "Mixlr", value: "mixlr" },
   { label: "TwitCasting", value: "twitcasting" },
+  { label: "iPad Pro", value: "ipad-pro" }
 ] satisfies (Filter | "br")[];
 
 export const KEYWORDS = [

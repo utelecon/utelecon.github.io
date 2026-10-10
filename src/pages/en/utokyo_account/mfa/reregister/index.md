@@ -8,7 +8,7 @@ This page describes the following procedures regarding [UTokyo Account Multi-Fac
 
 In case you lose access to all verification methods and are unable to sign in to the UTokyo Account, we can take measures to allow you to retry the registration process for MFA all over again and keep using MFA. Check if any of your verification methods can be used beforehand as described below. Please follow the procedures only if all verification methods are no longer available.
 
-For security reasons, UTokyo Account mandates the use of multi-factor authentication. If you have a compelling reason to use multi-factor authentication, please contact our [Support Desk](/en/support/email-form/).
+For security reasons, UTokyo Account mandates the use of multi-factor authentication. If you have a compelling reason not to use multi-factor authentication, please contact our [Support Desk](/en/support/email-form/).
 
 The "Reregistering Verification Method" procedure was renamed from the "Resetting" procedure in September 2022.
 
@@ -78,7 +78,7 @@ To use this service, you must meet all of the following conditions:
 
 At this time, we **strongly recommend registering multiple verification methods** to avoid being locked out again if one method becomes unusable.
 
-### Register by Application
+### Reregister by Application
 {:#apply-for-reregisteration}
 1. There are three ways to apply for the reregistration of your verification method. Please refer to the explanations and apply using the method available to you.
    - [Apply using the dedicated Microsoft Form (if you can sign in to your UTokyo Account)](.#ms-form)
@@ -98,7 +98,7 @@ If you can sign in to your UTokyo Account, you can apply via the Microsoft Form 
 Please note that your application will not be processed until the next business day or later if you apply at night or on weekends and holidays because your application will be reviewed by our staff before processing.
 
 <b class="box center">
-<a href="https://forms.office.com/r/NS4sh40RjR">Application form for reregisteration of verification method of MFA use</a><br />(in Japanese)
+<a href="https://forms.office.com/r/NS4sh40RjR">Application form for reregistration of verification method of MFA use</a><br />(in Japanese)
 </b>
 
 You need to sign in with MFA to access this form. If it is impossible for you, you cannot access this form. Use the other procedures described below.
@@ -110,7 +110,7 @@ You need to sign in with MFA to access this form. If it is impossible for you, y
         <li>
             If the trouble occurred during the initial setup of MFA and you need to reregister your verification method
             <ul>
-                <li>It may be possible to sign in and access Microsoft Forms during the initial setup process, as MFA is not required for sign-in until Step 4 (Apply for MFA Use) of the initial setup.</li>
+                <li>It may be possible to sign in and access Microsoft Forms during the initial setup process, as MFA is not required for sign-in until Step 4 (Apply for Starting Your UTokyo Account) of the initial setup.</li>
             </ul>
         </li>
     </ul>
@@ -128,12 +128,12 @@ You can apply for reregistration at the relevant office of your faculty/graduate
 #### Apply via the dedicated application website
 {:#dedicated-site}
 
-You can apply for reregistration via the application website. You are required to upload the photo of your student / staff ID card to verify your identity on this website.
+You can apply for reregistration via the application website. You are required to upload the photo of your student / staff ID card to verify your identity on this website. The maximum file size for photo uploads is 1.9MB. If your file exceeds this limit, an error will occur. Please reduce the image size before submitting your application.
 
 Please note that your application will not be processed until the next business day or later if you apply at night or on weekends and holidays because your application will be reviewed by our staff before processing.
 
 <b class="box center">
-<a href="https://identification.adm.u-tokyo.ac.jp/ident/">Application website for reregisteration of verification method of MFA use</a>
+<a href="https://identification.adm.u-tokyo.ac.jp/ident/">Application website for reregistration of verification method of MFA use</a>
 </b>
 
 Access the link above and sign in with your UTokyo Account. MFA is not necessary when signing in, and only the username and password are required.

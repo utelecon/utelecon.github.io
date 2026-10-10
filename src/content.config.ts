@@ -3,7 +3,7 @@ import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 import { FORMATS, NUMBERS, TOOLS, KEYWORDS } from "@components/pages/GoodPractice";
-import { getISODateString } from "src/util";
+import { getISODateString } from "./util";
 
 const emergencies = defineCollection({
   loader: glob({ pattern: "*.{md,mdx}", base: "./src/emergencies" }),
@@ -123,7 +123,7 @@ const keywordSchema = createEnumFromFilters(KEYWORDS);
 type Keyword = z.infer<typeof keywordSchema>;
 
 const interviews = defineCollection({
-  loader: glob({ pattern: "good-practice/interview/*.md", base: "./src/pages" }),
+  loader: glob({ pattern: "good-practice/interview/*.{md,mdx}", base: "./src/pages" }),
   schema: z.object({
     title: z.string(),
     filters: z.object({

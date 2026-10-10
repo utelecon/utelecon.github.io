@@ -40,8 +40,8 @@ UTokyo Accountをお持ちの方のうち，学生でも本学に雇用された
     - ※現在は上限500GBとしていますがストレージ上限の見直しを予定しています．有償で追加のストレージを利用できる方法を準備しています．
     - →[Teamsチームの作成方法について](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/IT_Tool_020.aspx)
 - ECCSクラウドメール (Google Workspace)
-    - Google WorkspaceのサービスとしてGoogleドライブを100GBまで費用負担なく利用可能
-    - 大学予算での支払いに限り有償で100GBを超えた利用も可能
+    - Google WorkspaceのサービスとしてGoogleドライブを125GBまで費用負担なく利用可能
+    - 大学予算での支払いに限り有償で125GBを超えた利用も可能
     - →[ECCSストレージ管理システムについて](https://www.ecc.u-tokyo.ac.jp/storage_mgt/index.html)
 
 ## 参考リンク

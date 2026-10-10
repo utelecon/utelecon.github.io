@@ -23,7 +23,7 @@ Take into consideration the following when selecting an access restriction metho
 * **Managing the Waiting Room**: If a Waiting Room is set up, it is necessary to manage the participant flow so that no participant is accidentally left behind in the Waiting Room.
 
 #### Pros and Cons of the Access Restriction Methods
-* Method A:  In this method, there is no risk of wrongly blocking students, including those who have not managed to set up their university accounts. However, there is a risk of unauthorized participants obtaining the meeting room URL and entering the meeting room if the URL is leaked.
+* Method A: In this method, there is no risk of wrongly blocking students, including those who have not managed to set up their university accounts. However, there is a risk of unauthorized participants obtaining the meeting room URL and entering the meeting room if the URL is leaked.
 * Method B: In this method, there is a lower risk of unauthorized participant entrance owing to the fact that unauthorized participants will be placed in the Waiting Room even if the URL is leaked. However, if a large number of UTokyo students who have no university account are placed in the Waiting Room, there is a higher risk of student flow mishandling, such as forgetting to move late students out of the Waiting Room and into the meeting room during class.
 
 Please choose the most appropriate method based on the nature of your class and student population. Kindly also check whether your department has its own policy on access restriction.
@@ -48,7 +48,7 @@ You can restrict access to a Zoom meeting room by editing the following fields (
 * Method B: Place participants entering without a university account in the Waiting Room
     * (1) Waiting Room: On
     * (2) Require authentication to join: Off
-    * (3) Who should go in the waiting room?: Select “Users who are not in your account and not part of your whitelisted domains” and input ‘*.u-tokyo.ac.jp’ in the field appears.
+    * (3) Who should go in the waiting room?: Select “Users who are not in your account and not part of your whitelisted domains” and input ‘*.u-tokyo.ac.jp’ in the field that appears.
 
 * Method C (**Not recommended**): Place all participants first in the Waiting Room
     * (1) Waiting Room: On
@@ -56,4 +56,4 @@ You can restrict access to a Zoom meeting room by editing the following fields (
     * (3) Who should go in the waiting room?: “Everyone”
 
 * Method D (**Not recommended**): Only admit participants signed in with university accounts into the meeting room
-    * (2) Require authentication to join: Turn on this option and select ”大学アカウントでサインイン”(Sign in with university account) , and confirm that the domain showing up below is ‘*.u-tokyo.ac.jp’.（[Details](/en/zoom/auth/)）
+    * (2) Require authentication to join: Turn on this option and select "大学アカウントでサインイン" (Sign in with university account), and confirm that the domain showing up below is '*.u-tokyo.ac.jp'. ([Details](/en/zoom/create_room/auth/))

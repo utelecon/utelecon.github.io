@@ -15,10 +15,10 @@ Azure サービスでは Bastion という踏み台サービスがあり，こ�
 
 ## １．Bastion 概要
 
-Bastion は Azure Portal に構成され、Web ブラウザ上で仮想マシンの操作が可能になるアクセスを提供します．
+Bastion は Azure Portal に構成され，Web ブラウザ上で仮想マシンの操作が可能になるアクセスを提供します．
 - Azure Portal 内に踏み台サーバとして構成され，仮想マシンへのアクセスは Bastion 経由で行う形になります．（下図参照）
 - ssh や RDP によるリモート接続のために，仮想マシンにパブリックアクセス用の IP を設定する必要がなくなるので，これらプロトコルの脆弱性を突いた不正アクセスの懸念が無くなります．
-- 端末から Azure Portal 間は，強固な認証を経たブラウザによる https (TLS) 接続内を通信するので、より安全に仮想マシンへのリモートアクセスが可能になります．
+- 端末から Azure Portal 間は，強固な認証を経たブラウザによる https (TLS) 接続内を通信するので，より安全に仮想マシンへのリモートアクセスが可能になります．
 - Bastion サービスは有料なのでギフトを消費します．1時間でおよそ 0.2 ドルから 0.5 ドル 程度で，5GB/月以上のデータ送受信には別途通信料がかかります．詳細は以下の URL を参照ください．
   - [Azure Bastion の価格](https://azure.microsoft.com/ja-jp/pricing/details/azure-bastion/)
 
@@ -48,7 +48,7 @@ Bastion は Azure Portal に構成され、Web ブラウザ上で仮想マシン
 2-3. 以下の設定を追加する．
   - 基本パート
     - `インスタンス詳細` の名前が空欄なので，適当な名前を入力．
-    - `インスタンス詳細` のレベルが Standard ではない場合は Standard に変更する。（通常は初期値で Standard）
+    - `インスタンス詳細` のレベルが Standard ではない場合は Standard に変更する．（通常は初期値で Standard）
   - 詳細設定パート
     - **ネイティブクライアントサポート** にチェックを入れる．
 
@@ -67,7 +67,7 @@ Bastion サービスはブラウザ上で VM のコマンドラインインタ�
 1. **2. Bastion の構成**の 2-3 までを進める．
 2. ローカル端末に Azure CLI 機能をインストールする．インストール方法は[コマンドラインインターフェースでリソースを利用する](/research_computing/utokyo_azure/virtualmachine/azcli/)を参照．
 3. 上記のリンク先にある**UTokyo Account で事前に認証する**までを実行しておく．
-3. `az network bastion ssh`コマンドを，以下の引数で実行する．
+4. `az network bastion ssh`コマンドを，以下の引数で実行する．
 ```
 $ az network bastion ssh \
     --name [Bastion のリソース名] \

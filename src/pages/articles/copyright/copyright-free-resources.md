@@ -4,6 +4,10 @@ author:
   affiliation: oes
   name: OER・著作権グループ
 ---
+<div class="box">
+
+  [お断り] 当ページは更新を停止しており，今後も更新の予定はありません．授業資料作成のための著作権と素材利用ルールに関する最新の情報は，次のリンク先ページよりご確認ください．[著作権教育教材｜報告書等｜大学ICT推進協議会 - AXIES（外部サイト）](https://axies.jp/report/copyright_education/)
+</div>
 
 ## この記事の概要
 
@@ -336,7 +340,7 @@ Old Book Illustrationsには，絵本『ピーターラビット』で有名な�
 * [コレクション（公式サイト内）](https://www.metmuseum.org/art/collection)
 * [利用規約](https://www.metmuseum.org/information/terms-and-conditions)
 
-#### シカゴ美術館｜Art Institvte of Chicago
+#### シカゴ美術館｜Art Institute of Chicago
 
 <p style="text-indent: 1em;"><code>文献</code> <code>画像</code></p>
 

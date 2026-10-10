@@ -43,7 +43,7 @@ To edit the contents of a webinar that has already been set up, select the webin
 ### Sharing Materials
 
 You can attach materials to the webinar and share them with participants.
-* You cannot share materials with participants who are joining via smarthphones and other similar devices.
+* You cannot share materials with participants who are joining via smartphones and other similar devices.
 * To upload your files, go to the edit Webinar page and click on “edit” under the “Webinar materials” section.
 ![](img/webex_webinar_material_host1.png){:.border}
 ![](img/webex_webinar_material_host2.png){:.medium.border}

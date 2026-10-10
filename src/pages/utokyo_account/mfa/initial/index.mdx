@@ -76,7 +76,7 @@ import SigninAnotherMethod from "@components/ja/mfa/common/SigninAnotherMethod.m
 1. 続いて多要素認証の本人確認が行われます．本人確認方法により手順が異なりますので，画面の指示に従って操作してください．
     - **Microsoft Authenticatorの場合**：スマホに通知が送られ，サインイン画面に表示されている2桁の数字を入力するように求められるので，そのようにしてください．
         <details>
-            <summary>※「Microsoft Autheticator アプリを現在使用できません」の表示について</summary>
+            <summary>※「Microsoft Authenticator アプリを現在使用できません」の表示について</summary>
             <CannotUseMsAuth />
             画面に「Microsoft Authenticator アプリを現在使用できません」との表示が現れますが，これは，もしあなたがMicrosoft Authenticatorを使用できない状態にある場合にはここを押してくださいという旨のヘルプメッセージであり，システムがMicrosoft Authenticatorを使用できない状態にある旨のエラーメッセージではありません．
         </details>
@@ -103,10 +103,8 @@ import SigninAnotherMethod from "@components/ja/mfa/common/SigninAnotherMethod.m
 
 最後に，UTokyo Accountの利用を開始します．この手順を行うと，以降，UTokyo Accountにサインインする際に毎回，上の手順3と同様の手順による本人確認が求められるようになります．
 
-なお，事務業務端末（職員向け）のリモートアクセス (Citrix Workspace) が接続中の場合，多要素認証の利用申請を行うと接続が強制的に切断されるため，あらかじめ接続を終了（サインアウト）してから以下の手順を行ってください．
-
 1. [UTokyo Account利用者メニュー](https://utacm.adm.u-tokyo.ac.jp/UserMenu/LoginServlet)にアクセスしてください．
-2. UTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）とパスワードを入力してログインしてください．
+2. UTokyo Account（数字10桁の共通ID + `@utac.u-tokyo.ac.jp`）とパスワードを入力してサインインしてください．
 3. 左のメニューにある「UTokyo Account利用開始」を押してください．
     ![](./user_menu_1.png)
 4. 表示されるUTokyo Accountに関する説明をよく読んでから，下の方にある「UTokyo Accountの利用を開始する」を「はい」にして，「保存」を押してください．

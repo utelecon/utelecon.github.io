@@ -1,5 +1,5 @@
 ---
-title: Using UTokyo Slack workspaces in UTOL with Slack integration
+title: Using UTokyo Slack workspaces in UTOL with Slack integration (for enrolled students)
 breadcrumb:
   title: Slack
 ---
