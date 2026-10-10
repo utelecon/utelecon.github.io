@@ -178,7 +178,7 @@ For instructions, see [**Instructions for using scheduling privilege**](#schedul
   - For meetings scheduled by the parent user, child users can freely start, edit, and delete the meeting.
     - Therefore, child users can make the following settings changes to the parent user’s existing meetings:
       - Use [Setting up a Zoom Waiting Room](/en/zoom/create_room/waiting_room/) to set up a waiting room.
-      - Use [Requiring Authentication to Join a Zoom Meeting](/en/zoom/create_room/auth/) to require authentication.
+      - Require [authentication](/en/zoom/create_room/auth/).
     - **In addition, child users can make the parent user’s meeting their own. Once a meeting becomes the child user’s meeting, the parent user cannot make it their own again, unless the two users have granted scheduling privilege to each other.**
   - Child users cannot access recorded recordings or reports.
 - Child users can use [functions for moderating meetings](#moderate) in almost the same way as [hosts](#host) and [co-hosts](#co-host).
