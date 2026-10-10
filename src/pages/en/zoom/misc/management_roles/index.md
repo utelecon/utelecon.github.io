@@ -263,7 +263,7 @@ The following explains how to schedule and edit meetings using scheduling privil
   ![](img/schedule_meetings_using_privilege_web_edit_0.png){:.border}
   1. Hover over the meeting you want to edit. The newly displayed “Edit” will appear; select it.
   ![](img/schedule_meetings_using_privilege_web_edit_1.png){:.border}
-  1. Then edit the meeting as usual using [Editing and managing Zoom meetings](/en/zoom/misc/edit_meeting/). Note that changing “Schedule for” to “Myself” on this editing screen makes it possible to transfer the meeting from the parent user to the child user.
+  1. Then [edit the meeting](/en/zoom/misc/edit_meeting/) as usual. Note that changing “Schedule for” to “Myself” on this editing screen makes it possible to transfer the meeting from the parent user to the child user.
   ![](img/change_owner_web.png){:.border}
 
 [^1]: As an exception, the person who creates a meeting using the scheduling privilege described below is not assigned the host role.
