@@ -25,7 +25,7 @@ Specific functions for changing meeting settings and reviewing records include t
 #### Functions for moderating meetings
 {:#moderate}
 Specific functions for moderating meetings include the following:
-- Use [How to use Breakout Rooms](/en/zoom/usage/breakout/) to create breakout rooms.
+- Create [breakout rooms](/en/zoom/usage/breakout/).
 - Use [Polls in Zoom](/en/zoom/usage/poll/) to create polls.
 - Mute participants.
 
