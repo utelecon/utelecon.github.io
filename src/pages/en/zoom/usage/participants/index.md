@@ -5,7 +5,7 @@ breadcrumb:
 ---
 Zoom has a feature that displays a list of the participants in a meeting. Hosts and co-hosts can use this feature to check and manage participants.
 
-The screen for this is called the "Participants panel". You can open the Participants panel by clicking "Participants" (the part outlined in the figure below) on the Zoom meeting control bar.
+The screen for this is called the "Participants panel". You can open the Participants panel by clicking "Participants" (the part outlined in white in the figure below) on the Zoom meeting control bar.
 
 ![](panel.png){:.small}
 
@@ -32,8 +32,8 @@ Note that the specific operation procedures described below are for the Zoom des
 
 Participants in a meeting can unmute themselves or mute themselves again from the Participants panel. Hosts and co-hosts can also mute the microphone of a specific participant or of all participants.
 
-- **Mute/Unmute Your Microphone**: You can unmute yourself or mute yourself again. For example, when you are asked to speak during a class, you can use this feature to turn on your microphone so that others can hear you. Click the microphone icon to the right of your name. You can also mute or unmute yourself from "Audio" (the microphone icon on the control bar). For more details, please refer to "[How to use the audio and video on Zoom](../mic_cam/)".
-- **Mute a Specific Participant's Microphone**: This feature is only available to hosts and co-hosts. By muting a participant's microphone from the host side, you can prevent unnecessary sound from entering the meeting. For example, you can use this when a participant has unintentionally left their microphone on. Click ① and then "Mute", or click the microphone icon to the right of the participant's name.
+- **Mute/Unmute Your Microphone**: You can unmute yourself or mute yourself again. For example, when you are asked to speak during a class, you can use this feature to turn on your microphone so that others can hear you. Click "Mute" or "Unmute" that appears when you hover over yourself, or click the microphone icon to the right of your name. You can also mute or unmute yourself from "Audio" (the microphone icon on the control bar). For more details, please refer to "[How to use the audio and video on Zoom](../mic_cam/)".
+- **Mute a Specific Participant's Microphone**: This feature is only available to hosts and co-hosts. By muting a participant's microphone from the host side, you can prevent unnecessary sound from entering the meeting. For example, you can use this when a participant has unintentionally left their microphone on. Click "Mute" that appears when you hover over the participant, or click the microphone icon to the right of the participant's name.
 - **Mute All Participants' Microphones at Once**: This feature is only available to hosts and co-hosts. If multiple participants have their microphones on, you can mute all participants' microphones at once. Click "Mute all" at the bottom of the Participants panel. By unchecking "Allow participants to unmute themselves" in the window that appears, you can also prevent participants from freely unmuting themselves afterwards.
 - **Mute Participants upon Entry**: This feature is only available to hosts and co-hosts. You can set participants to be muted when they join the meeting. For example, this feature is useful for meetings where only specific participants speak, such as classes or briefings. Click ② and turn on "Mute all upon entry".
 - **Ask a Specific Participant to Unmute**: This feature is only available to hosts and co-hosts. A message asking the participant to unmute is displayed on their screen. Hover over the video of the participant you want to ask, right-click, and then click "Ask to unmute", or click the microphone icon to the right of the participant's name.
