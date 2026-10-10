@@ -267,6 +267,6 @@ The following explains how to schedule and edit meetings using scheduling privil
   ![](img/change_owner_web.png){:.border}
 
 [^1]: As an exception, the person who creates a meeting using the scheduling privilege described below is not assigned the host role.
-[^2]: For participants to join a meeting before the host starts it, the detailed options [when creating the meeting](/zoom/create_room/#settings) must have “Allow participants to join anytime” enabled.
+[^2]: For participants to join a meeting before the host starts it, the detailed options [when creating the meeting](en/zoom/create_room/#settings) must have “Allow participants to join anytime” enabled.
 [^3]: If “Allow participants to join anytime” is enabled in the detailed options when creating the meeting, the meeting proceeds without a host until the host joins.
 [^4]: There are cases in which you are the host in a meeting but it is not your own meeting, for example because you were designated as an “[alternative host](#alt_host_desc).”
