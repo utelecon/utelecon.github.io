@@ -17,7 +17,7 @@ The functions for managing Zoom meetings can be broadly divided into two categor
 #### Functions for changing meeting settings and reviewing records
 {:#settings_and_records}
 Specific functions for changing meeting settings and reviewing records include the following:
-- Use [Setting up a Zoom Waiting Room](/en/zoom/create_room/waiting_room/) to set up a waiting room.
+- Set up [a waiting room](/en/zoom/create_room/waiting_room/) .
 - Use [Requiring Authentication to Join a Zoom Meeting](/en/zoom/create_room/auth/) to require authentication.
 - Review [Getting started with Zoom reporting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060623) for the meeting.
 - Start the meeting.
