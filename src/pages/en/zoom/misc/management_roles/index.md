@@ -57,7 +57,7 @@ Of the [two types of functions](#functions) available to hosts, the authority to
 
 ### Host key
 {:#host_key}
-By sharing a code called [Using your host key](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067063) with another user in advance, a host can have that user act as host in their place even if the host is absent when the meeting starts. This feature is useful, for example, when the host will join a meeting late[^2] and wants another user to act as host temporarily. In this case, when the original host joins the meeting, they are assigned as a “[co-host](#co-host),” but they can return to being the host by “[reclaiming the host role](#reclaim_host).”
+By sharing a code called a [host key](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067063) with another user in advance, a host can have that user act as host in their place even if the host is absent when the meeting starts. This feature is useful, for example, when the host will join a meeting late[^2] and wants another user to act as host temporarily. In this case, when the original host joins the meeting, they are assigned as a “[co-host](#co-host),” but they can return to being the host by “[reclaiming the host role](#reclaim_host).”
 
 **A host key is common to all meetings created by the host who issued it, so it must be handled carefully for security reasons. If the person who is to act as host temporarily uses a UTokyo Zoom account, assigning them as an “[alternative host](#alt_host)” described below may be more convenient.**
 For instructions, see [**Instructions for using a host key**](#host_key_instructions).
