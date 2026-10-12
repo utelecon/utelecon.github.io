@@ -1,9 +1,50 @@
 ---
-title: byod
+title: ECCS2026でのBYOD（持込デバイス利用席）
 breadcrumb:
-  title: byod
+  title: BYOD
 ---
 
-import InPreparation from "@components/ja/InPreparationECCS2026.mdx";
+import Tabs from "@components/utils/tabs/Tabs";
 
-<InPreparation />
+## ECCS2026でのBYOD（持込デバイス利用席）
+
+よしなに編集中
+
+## BYODデバイスが使用可能な座席種類
+
+よしなに編集中
+
+## 各座席の利用方法
+
+各座席毎に利用方法が違うのでタブ切り替えて（意訳）
+
+{/* 以下編集コメント
+componentsのreadmeを参考にTabを実装する。
+querykey=seatType, seatType = Chromebook, Chromebox, byod */}
+
+<Tabs client:visible queryKey="seatType" defaultTab="pleaseSelect">
+  <Fragment slot="panel.pleaseSelect">
+    上のタブからOSを選択してください．
+  </Fragment>
+  <Fragment slot="tab.BYOD">
+    BYOD
+  </Fragment>
+  <Fragment slot="panel.BYOD">
+    <slot name="BYOD" />
+    ここにBYODの利用方法を記載する．
+  </Fragment>
+  <Fragment slot="tab.Chromebook">
+    Chromebook
+  </Fragment>
+  <Fragment slot="panel.Chromebook">
+    <slot name="Chromebook" />
+    ここにChromebookの利用方法を記載する．
+  </Fragment>
+  <Fragment slot="tab.Chromebox">
+    Chromebox
+  </Fragment>
+  <Fragment slot="panel.Chromebox">
+    <slot name="Chromebox" />
+    ここにChromeboxの利用方法を記載する．
+  </Fragment>
+</Tabs>
