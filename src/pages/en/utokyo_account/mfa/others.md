@@ -22,7 +22,7 @@ When signing in to your UTokyo Account from abroad (e.g., during business trips)
   - You can sign in using the 6-digit code displayed in the app, provided the code can be generated.
   - Most authenticator apps should work without an Internet connection as long as you have the smartphone with the app installed, while it depends on the app's specifications. For example, Google Authenticator, which is introduced on the [Initial Setup Procedures for Multi-Factor Authentication (MFA)](/utokyo_account/mfa/initial/) page, functions offline.
 - Phone Number
-  - This method is available only if your mobile plan supports international roaming at your destination, as you must be able to receive Short Message Service (SMS) messages or voice calls at your registered phone number. Please note that international roaming usually incurs charges for incoming SMS messages and voice calls..
+  - This method is available only if your mobile plan supports international roaming at your destination, as you must be able to receive Short Message Service (SMS) messages or voice calls at your registered phone number. Please note that international roaming usually incurs charges for incoming SMS messages and voice calls.
   - Please make sure to [add another verification method](../change/#add) before leaving the country if your phone service contract does not support international roaming at your destination.
 - Fast Identity Online (FIDO) Security Key
   - You can sign in as long as you carry your FIDO security key with you.
