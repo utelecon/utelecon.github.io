@@ -16,7 +16,7 @@ When signing in to your UTokyo Account from abroad (e.g., during business trips)
 
 - Microsoft Authenticator
   - You can generally sign in as usual, provided that the smartphone on which the Microsoft Authenticator app is installed is connected to the Internet. Either mobile data or Wi-Fi can be used for the Internet connection.
-  - On Android, however, signing in via standard push notifications may fail in countries or regions where communication with Google systems is restricted, as notifications rely on Google services. In such cases, you can still sign in using the offline method: [signing in with a 6-digit verification code](#msauth-totp), provided you have your smartphone.
+  - On Android, however, signing in via standard push notifications may fail in countries or regions where communication with Google systems is restricted, as notifications are delivered using Google services. In such cases, you can still sign in using the offline method: [signing in with a 6-digit verification code](#msauth-totp), provided you have your smartphone.
   - You can still sign in even without an Internet connection by [signing in with a 6-digit verification code](#msauth-totp), as long as you have your smartphone with you.
 - Other Authenticator Apps
   - You can sign in using the 6-digit code displayed in the app, provided the code can be generated.
