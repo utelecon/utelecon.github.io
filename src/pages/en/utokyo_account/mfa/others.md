@@ -24,7 +24,7 @@ When signing in to your UTokyo Account from abroad (e.g., during business trips)
 - Phone Number
   - This method is available only if your mobile plan supports international roaming at your destination, as you must be able to receive Short Message Service (SMS) messages or voice calls at your registered phone number. Please note that international roaming usually incurs charges for incoming SMS messages and voice calls.
   - Please make sure to [add another verification method](../change/#add) before leaving the country if your phone service contract does not support international roaming at your destination.
-- Fast Identity Online (FIDO) Security Key
+- FIDO Security Key
   - You can sign in as long as you carry your FIDO security key with you.
 
 Before traveling abroad, please check your registered verification methods on the [Multi-Factor Authentication (MFA) Settings Page](https://mysignins.microsoft.com/security-info?domain_hint=univtokyo.onmicrosoft.com) in advance, and [update your registration](../change/) as necessary.
