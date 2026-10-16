@@ -1,0 +1,264 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import type { Lang } from "@components/types";
+
+interface Props {
+  lang: Lang;
+  currentUrl: string;
+}
+
+const { lang, currentUrl } = Astro.props;
+
+// ナビゲーションを取得
+const navEntry = await getEntry("nav", lang);
+
+// 現在のURLから親セクションを特定
+interface NavigationItem {
+  name?: string;
+  url?: string;
+  contents?: NavigationItem[];
+}
+
+interface CurrentSection {
+  url: string | null;
+  name: string | null;
+}
+
+function findCurrentSection(
+  navigations: NavigationItem[]
+): CurrentSection {
+  let currentSection: string | null = null;
+  let currentSectionName: string | null = null;
+
+  function searchContents(contents: NavigationItem[]) {
+    for (const content of contents) {
+      const navUrl = content.url;
+
+      if (
+        navUrl &&
+        (
+          currentUrl === navUrl ||
+          currentUrl.startsWith(
+            navUrl + (navUrl.endsWith("/") ? "" : "/")
+          )
+        )
+      ) {
+        if (
+          currentSection === null ||
+          navUrl.length > currentSection.length
+        ) {
+          currentSection = navUrl;
+          currentSectionName = content.name ?? null;
+        }
+      }
+
+      if (content.contents?.length) {
+        searchContents(content.contents);
+      }
+    }
+  }
+
+  if (navEntry?.data) {
+    searchContents(navEntry.data as NavigationItem[]);
+  }
+
+  return {
+    url: currentSection,
+    name: currentSectionName,
+  };
+}
+
+const currentSection = findCurrentSection([]);
+
+// 現在のセクション配下のすべてのページを取得
+const pages = await getCollection("pages");
+
+interface PageEntry {
+  title: string;
+  url: string;
+  depth: number;
+}
+
+const sectionPages: PageEntry[] = [];
+
+if (currentSection.url) {
+  for (const page of pages) {
+    const pageUrl = `/${page.id}`;
+
+    // 言語チェック
+    if (pageUrl.startsWith("/en/") !== (lang === "en")) {
+      continue;
+    }
+
+    // 現在のセクション配下か確認
+    const sectionPrefix =
+      currentSection.url +
+      (currentSection.url.endsWith("/") ? "" : "/");
+
+    if (!pageUrl.startsWith(sectionPrefix)) {
+      continue;
+    }
+
+    // フィルタリング
+    const {
+      layout,
+      sitemap,
+      redirect_to,
+      title,
+    } = page.data;
+
+    if (
+      layout === false ||
+      sitemap === false ||
+      redirect_to ||
+      !title
+    ) {
+      continue;
+    }
+
+    // URLの深さを計算
+    const relativePath = pageUrl.slice(
+      currentSection.url.length
+    );
+
+    const depth = relativePath
+      .split("/")
+      .filter(Boolean).length;
+
+    sectionPages.push({
+      title,
+      url: pageUrl,
+      depth,
+    });
+  }
+
+  // URLでソート
+  sectionPages.sort((a, b) =>
+    a.url.localeCompare(b.url)
+  );
+}
+
+// 最大の深さを取得
+const maxDepth =
+  sectionPages.length > 0
+    ? Math.max(...sectionPages.map((page) => page.depth))
+    : 0;
+---
+
+{
+  currentSection.url &&
+  sectionPages.length > 0 && (
+    <aside id="sidebar">
+      <nav id="sidebar-nav">
+        <b id="sidebar-title">
+          {currentSection.name.replace(/<\/?small>/g, "")}
+        </b>
+
+        <ul id="sidebar-list">
+          {sectionPages.map((page) => (
+            <li id={`sidebar-item-depth-${page.depth}`}>
+              <a
+                href={`${page.url}/`}
+                class:list={{active: page.url.replace(/\/+$/, "") === currentUrl.replace(/\/+$/, "")}}
+              >
+                {page.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </aside>
+  )
+}
+
+<style lang="scss">
+  @use "@styles/color";
+  @use "@styles/toc";
+
+  #sidebar {
+  position: sticky;
+  top: 2rem;
+  width: 288px;
+  min-width: 288px;
+  padding: 0 0.5rem;
+  height: calc(100vh - 180px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+  #sidebar-nav {
+  padding: 0;
+}
+
+  #sidebar-title {
+    margin: 0 0 0.4em 0;
+    padding: 0;
+    border: none;
+    color: color.$text-color;
+
+    &:only-child {
+      padding-bottom: 0.8em;
+    }
+
+  }
+
+  #sidebar-list {
+    position: relative;
+    margin: 0;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    list-style: none;
+  }
+
+  #sidebar-list li {
+    margin: 0;
+    padding: 0;
+  }
+
+  #sidebar-list li a,
+  #sidebar-list li a:visited {
+    display: block;
+    position: relative;
+    padding: 0.25em 0;
+    font-size: 0.75em;
+    line-height: 1.5;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+
+  #sidebar-list li a:hover,
+  #sidebar-list li a:visited:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+
+  #sidebar-list li a.active {
+    color: color.$link-color-light;
+    font-weight: 800;
+  }
+
+  #sidebar-list li[id$="-depth-1"] a {
+    padding-left: 0;
+  }
+
+  #sidebar-list li[id$="-depth-2"] a {
+    padding-left: 1em;
+    filter: saturate(0);
+  }
+
+  #sidebar-list li[id$="-depth-3"] a {
+    padding-left: 2em;
+    filter: saturate(0);
+  }
+
+  #sidebar-list li[id$="-depth-4"] a {
+    padding-left: 3em;
+    filter: saturate(0);
+  }
+</style>
