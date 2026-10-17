@@ -21,10 +21,10 @@ To create and manage breakout rooms as a host, you must first enable the breakou
 The steps required to enable the breakout room feature are as follows:
 
 1. Sign in to the Zoom web portal. For details, refer to the ["Signing in from the UTokyo Zoom Webpage" section on the "Sign-in Methods for Zoom"](/en/zoom/signin/#browser) page.
-2. Click your profile picture in the top right of Workplace, then select Settings.
+2. Click your profile picture in the top right of Workplace, then select "Settings".
 ![](zoom_breakout_workplace_settings.png){:.border}
 
-3. Go to "Settings", then from the "Meeting" tab navigate to "In Meeting (Advanced)" and turn on the toggle for "Breakout room".
+3. Then from the "Meeting" tab navigate to "In Meeting (Advanced)" and turn on the toggle for "Breakout room".
 4. Turn on the necessary items for features related to the breakout rooms.
 5. Click "Save" to save the changes.
 
@@ -33,7 +33,7 @@ The steps required to enable the breakout room feature are as follows:
 Detailed explanations for each item are located in the following places:
 
 * "Allow host to assign participants to breakout rooms when scheduling": See ["Loading a Pre-assigned Allocation"](#start-assignment-preloading).
-* "Broadcast message to participants" and "Broadcast voice to breakout rooms": See ["Broadcasting a Message or Voice to All Participants"](#host-massage).
+* "Broadcast message to participants" and "Broadcast voice to breakout rooms": See ["Broadcasting a Message or Voice to All Participants"](#host-message).
 * "Allow host to create, rename, and delete breakout rooms": See ["Adjustments for Rooms"](#start-coordination-room).
 
 ## Start a Breakout Session as a Host
@@ -48,7 +48,7 @@ To start a breakout session, first enter the number of breakout rooms needed and
 
 The steps to create breakout rooms are as follows:
 
-1. Select "Breakout rooms" from the "More" menu at the bottom of the screen. (red box in the figure).
+1. Select "Breakout rooms" from the "More" menu at the bottom of the screen (red box in the figure).
    ![](zoom_breakout_icon_breakout_room.png){:.border .small}
 2. Next, select the number of breakout rooms to create and how to assign participants.
    * The assignment methods are explained in detail in ["Assign Participants to Breakout Rooms"](#start-assignment) below.
@@ -59,23 +59,23 @@ The steps to create breakout rooms are as follows:
 
 ### Assign Participants to Breakout Rooms
 {:#start-assignment}
-When creating breakout rooms, choose how to assign participants. The three basic methods are "Assign automatically", "Assign manually", and "Let participants choose room". In addition, you can load a pre-assignment that was set up on the Zoom web portal before the meeting.
+When creating breakout rooms, choose how to assign participants. The three basic methods are "Assign automatically", "Assign manually", and "Allow participants choose room". In addition, you can load a pre-assignment that was set up on the Zoom web portal before the meeting.
 
 Regardless of the assignment method, you can move a specific participant to another room or swap them with someone else after the initial assignment.
 
-Note that when a host makes the assignments, only the participants and co-hosts can be assigned; the host cannot assign themselves. When the co-host makes the assignments, they cannot assign themselves or the host.
+Note that when a host makes the assignments, only the participants and co-hosts can be assigned; the host cannot assign themselves. When a co-host makes the assignments, they cannot assign themselves or the host.
 
 #### Assign Automatically
 {:#start-assignment-automatically}
-If you choose this assignment method, the participants are automatically assigned randomly to the number of breakout rooms specified by the host, and the participants are divided as evenly as possible among the rooms. If you check "Include co-host(s) to breakout rooms", the co-hosts will also be assigned automatically like the other participants. This is primarily useful for group work with a one-time group of members.
+If you choose this assignment method, the participants are assigned randomly to the number of breakout rooms specified by the host, and the participants are divided as evenly as possible among the rooms. If you check "Include co-host(s) to breakout rooms", the co-hosts will also be assigned automatically like the other participants. This is primarily useful for group work with a one-time group of members.
 
 <figure className="gallery">![](zoom_breakout_allocate_co_host.png){:.border .small}![](zoom_breakout_allocate_randomly.png){:.border .small}</figure>
 
-#### Assign Manually / Let Participants Choose Room
+#### Assign Manually / Allow Participants Choose Room
 {:#start-assignment-manually}
 If you choose these assignment methods, the specified number of empty breakout rooms will be created. This is mainly useful for group work with fixed members.
 
-With "Assign manually", the host or co-host assigns participants manually. With "Let participants choose room", the participants select the room they want to join themselves. However, as described later, even if you choose "Assign manually", you can also enable the "Let participants choose room" in the options, allowing the participants to select their own rooms after being assigned. Also, even if you choose "Let participants choose room", the host or co-host can still assign participants manually.
+With "Assign manually", the host or co-host assigns participants manually. With "Allow participants choose room", the participants select the room they want to join themselves. However, as described later, even if you choose "Assign manually", you can also enable the "Allow participants choose room" in the options, allowing the participants to select their own rooms after being assigned. Also, even if you choose "Allow participants choose room", the host or co-host can still assign participants manually.
 
 ![](zoom_breakout_allocate_empty-room.png){:.border .small}
 
@@ -110,23 +110,25 @@ Participant assignments for breakout rooms must be done for each meeting. Howeve
 To use this assignment method, "Allow host to assign participants to breakout rooms when scheduling" must be enabled along with the breakout room feature on the Zoom web portal. The steps to enable it are as follows:
 
 1. Sign in to the Zoom web portal. For details, refer to the ["Signing in from the UTokyo Zoom Webpage" section on the "Sign-in Methods for Zoom"](/en/zoom/signin/#browser) page.
-2. Go to "Settings" and then to "In Meeting (Advanced)".
-3. Under "Breakout room", turn on "Assign participants to breakout rooms when scheduling".
+2. Click your profile picture in the top right of Workplace, then select "Settings".
+![](zoom_breakout_workplace_settings.png){:.border}
+3. Then from the "Meeting" tab navigate to "In Meeting (Advanced)" 
+4. Under "Breakout room", turn on "Assign participants to breakout rooms when scheduling".
 
 The steps to create a meeting with a pre-set assignment on the Zoom web portal are as follows:
 
 1. Sign in to the Zoom web portal. For details, refer to the ["Signing in from the UTokyo Zoom Webpage" section on the "Sign-in Methods for Zoom"](/en/zoom/signin/#browser) page.
-2. Open "Upcoming" in the "Meetings" section.
-3. Click "Schedule a Meeting" to create a new meeting with pre-set assignments, or click "Edit" for an already scheduled meeting to load assignments into it.
-
+2. Click "Meetings" under "Zoom Products" in the upper right corner.
+![](zoom_breakout_zoom_product_meeting.png){:.border}
+3. Open "Upcoming" in the "Meetings" section.
+4. Click "Schedule a Meeting" to create a new meeting with pre-set assignments, or click "Edit" for an already scheduled meeting to load assignments into it.
 ![](zoom_breakout_allocation_preloading_choose_meeting.png){:.border}
-
-4. In "Options" click "Show" to display the options list. From there, enable "Breakout Room pre-assign" This will make "Create Rooms" and "Import from CSV" available. Choose "Create Rooms" for manual assignment or "Import from CSV" to use a CSV file with assignments.
+5. In "Options" click "Show" to display the options list. From there, enable "Breakout Room pre-assign". This will make "Create Rooms" and "Import from CSV" available. Choose "Create Rooms" for manual assignment or "Import from CSV" to use a CSV file with assignments.
   ![](zoom_breakout_allocation_preloading_check.png){:.border .small}
 
 The CSV file must contain the email address of the Zoom account the participant will use that day and the name of the breakout room they are assigned to. When using a UTokyo Zoom account, use the UTokyo Account (10-digit Common ID @utac.u-tokyo.ac.jp) as an email address. For details, see ["Pre-assigning participants to breakout rooms using a CSV file (in Japanese)"](https://www.sodan.ecc.u-tokyo.ac.jp/hack/zoom-pre-assign-breakout-rooms-with-csv/).
 
-For recurring meetings, in addition to "Create Rooms" and "Import from CSV", you can also pre-assign participants to breakout rooms using an assignment saved from a previous meeting. This method is explained later in ["Save Participant Assignments"](#host-save-allocation)
+For recurring meetings, in addition to "Create Rooms" and "Import from CSV", you can also pre-assign participants to breakout rooms using an assignment saved from a previous meeting. This method is explained later in ["Save Participant Assignments"](#host-save-allocation).
 
 ### Setting Options
 {:#start-option-settings}
@@ -144,24 +146,24 @@ Set and enable the necessary functions from the displayed options.
 Each option is explained below, categorized by when it takes effect during the meeting and its purpose. Please note that after the rooms are opened, only the "Allow participants to choose room" option can be changed.
 
 #### Settings at the Start of a Breakout Session
-{:#start-option-opning}
+{:#start-option-opening}
 ##### Move participants to breakout rooms automatically
-{:#start-option-opning-aut-move}
+{:#start-option-opening-aut-move}
 This section explains "Automatically move all assigned participants into breakout rooms". This feature allows you to control when participants move into the rooms after you open them.
 
-If the "Automatically move all assigned participants into breakout rooms" is off, the participants must click "Join" to enter the rooms once the host opens the breakout rooms. This can cause delays and disruptions when the participants move to the rooms.
+If "Automatically move all assigned participants into breakout rooms" is off, the participants must click "Join" to enter the rooms once the host opens the breakout rooms. Participants may move into the rooms at slightly different times.
 
-If the "Automatically move all assigned participants into breakout rooms" is on, all participants are automatically moved to their assigned rooms as soon as the host clicks the "Open all rooms" to start the session. This is useful when you want to prevent participants from failing to move or when conducting group work.
+If "Automatically move all assigned participants into breakout rooms" is on, all participants are automatically moved to their assigned rooms as soon as the host clicks the "Open all rooms" to start the session. This is useful when you want to prevent participants from failing to move or when conducting group work.
 
 ##### Set the session end time
-{:#start-option-opning-time}
-This section explains the "Auto close breakout rooms after () minutes". This feature allows you to set the duration of the breakout session from start to finish.
+{:#start-option-opening-time}
+This section explains "Auto close breakout rooms after () minutes". This feature allows you to set the duration of the breakout session from start to finish.
 
 If no end time is set, the only way to end the session is for the host or co-host to close the breakout rooms manually; once opened, the rooms remain open until closed.
 
-If you want the rooms to be open only for a specific amount of time, turn on the "Auto close breakout rooms after () minutes" and enter the duration. The breakout session will end automatically after the set time has passed.
+If you want the rooms to be open only for a specific amount of time, turn on "Auto close breakout rooms after () minutes" and enter the duration. The breakout session will end automatically after the set time has passed.
 
-If you set an end time but may need to extend it, turn on the "Notify me when the time is up". When the session time expires, the host and co-hosts will receive a notification. At that point, they can choose to "Keep breakout rooms open" or "Close now". This prevents the rooms from closing unexpectedly and allows for extensions.
+If you set an end time but may need to extend it, turn on "Notify me when the time is up". When the session time expires, the host and co-hosts will receive a notification. At that point, they can choose to "Keep breakout rooms open" or "Close now". This prevents the rooms from closing unexpectedly and allows for extensions.
 
 #### Settings During a Breakout Session
 {:#start-option-ongoing}
@@ -169,9 +171,9 @@ If you set an end time but may need to extend it, turn on the "Notify me when th
 {:#start-option-ongoing-move}
 Normally, when a breakout session starts, participants move to the room assigned by the host and cannot move to another room until the session ends. Similarly, they cannot return to the main meeting while the session is in progress.
 
-Turning on the "Allow participants to choose room" allows participants to select and join a breakout room themselves. This is automatically turned on if you selected "Allow participants to choose room" as the assignment method when creating the rooms. For example, if you create a breakout room for questions during a lab session, enabling this allows students to freely move into that room. However, this option alone does not allow participants to freely return to the main meeting.
+Turning on "Allow participants to choose room" allows participants to select and join a breakout room themselves. This is automatically turned on if you selected "Allow participants to choose room" as the assignment method when creating the rooms. For example, if you create a breakout room for questions during a lab session, enabling this allows students to freely move into that room. However, this option alone does not allow participants to freely return to the main meeting.
 
-Turning on the "Allow participants to return to the main session at any time" allows participants to leave their breakout room and return to the main meeting at any time. For example, this allows participants to freely return to the main meeting once their group work is finished. However, this option alone does not allow participants to move freely between rooms.
+Turning on "Allow participants to return to the main session at any time" allows participants to leave their breakout room and return to the main meeting at any time. For example, this allows participants to freely return to the main meeting once their group work is finished. However, this option alone does not allow participants to move freely between rooms.
 
 ##### Forcibly recall specific participants to the main meeting
 {:#start-option-ongoing-call-back}
@@ -185,7 +187,7 @@ By selecting "Automatically move all selected participants in breakout rooms to 
 {:#start-option-closing-auto}
 If no setting is configured, participants are immediately returned to the main meeting as soon as the breakout rooms are closed by the host or the scheduled end time is reached.
 
-By turning on the "Countdown after closing breakout room" and entering a time, you can create a grace period between the end time and when the breakout rooms actually close. This can be used, for example, as time to summarize opinions in group work.
+By turning on "Countdown after closing breakout room" and entering a time, you can create a grace period between the end time and when the breakout rooms actually close. This can be used, for example, as time to summarize opinions in group work.
 
 ### Adjusting Breakout Rooms
 {:#start-coordination}
@@ -198,14 +200,16 @@ For assigned breakout rooms, you can rename or delete rooms, add new empty rooms
 To use this function, "Create, rename, or delete breakout rooms when rooms are open" must be enabled along with the breakout room feature on the Zoom web portal. The steps to enable it are as follows:
 
 1. Sign in to the Zoom web portal. For details, refer to the ["Signing in from the UTokyo Zoom Webpage" section on the "Sign-in Methods for Zoom"](/en/zoom/signin/#browser) page.
-2. Go to "Settings" and then to "In Meeting (Advanced)".
-3. Under "Breakout room," turn on "Create, rename, or delete breakout rooms when rooms are open".
+2. Click your profile picture in the top right of Workplace, then select "Settings".
+![](zoom_breakout_workplace_settings.png){:.border}
+3. Then from the "Meeting" tab navigate to "In Meeting (Advanced)" 
+4. Under "Breakout room," turn on "Create, rename, or delete breakout rooms when rooms are open".
 
 The methods for adjusting rooms are as follows:
 
 * To rename or delete a room: Hover over the target room and click either "Rename" or "Delete room" that appears, then make the change or delete the room.
 * To add an empty room: Click "Add room" at the bottom of the window. You have to manually assign participants to the newly created room.
-* To recreate all rooms: Click on the "Recreate". The same screen as in the "Create Breakout Rooms" chapter will appear. Then, follow the steps from "Create Breakout Rooms" onward ("Create Breakout Rooms", "Assign Participants to Breakout Rooms", "Setting Options").
+* To recreate all rooms: Click "Recreate". The same screen as in the "Create Breakout Rooms" chapter will appear. Then, follow the steps from "Create Breakout Rooms" onward ("Create Breakout Rooms", "Assign Participants to Breakout Rooms", "Setting Options").
   ![](zoom_breakout_coordination_window.png){:.border .small}
 
 #### Adjustments for Participants
@@ -241,21 +245,23 @@ To return to the main meeting, click "Leave Room" in the bottom right of the mee
 
 #### Respond to Help Requests
 {:#host-participate-help}
-If any issues arise in a breakout room, participants can ask the host for help by joining their room. The host can then respond to that request and join the breakout room.
+If any issues arise in a breakout room, participants in the room can ask the host for help to request that they join the room. The host can then respond to that request and join the breakout room.
 
 When the host receives a help request, a screen like the one below will appear, showing who is asking for help and from which breakout room. To respond to the request, click "Join breakout room" to enter that room.
 
 ![](zoom_breakout_host_answer_help.png){:.border}
 
 ### Broadcasting a Message or Voice to All Participants
-{:#host-massage}
-The meetings in each breakout room are independent of each other. Therefore, you cannot send messages using the chat function or broadcast audio to the participants in the breakout rooms. Instead, a broadcast function allows the host to send instructions to all participants either in a text or voice format. For example, you can use this to remind everyone of the end time. Note that the broadcasted audio is what your microphone picks up; if you want to broadcast audio playing from your computer, use the screen sharing feature described later.
+{:#host-message}
+The meetings in each breakout room are independent of each other. Therefore, you cannot send messages using the chat function or broadcast audio to the participants in the breakout rooms. Instead, a broadcast function allows the host to send instructions to all participants either in a text or voice format. For example, you can use this to remind everyone of the end time. Note that the broadcast audio is what your microphone picks up; if you want to broadcast audio playing from your computer, use the screen sharing feature described later.
 
 To use this feature, "Broadcast message to participants" and "Broadcast voice to breakout rooms" must be enabled along with the breakout room feature in your Zoom web portal settings. The steps to enable them are as follows:
 
 1. Sign in to the Zoom web portal. For details, refer to the ["Signing in from the UTokyo Zoom Webpage" section on the "Sign-in Methods for Zoom"](/en/zoom/signin/#browser) page.
-2. Go to "Settings" and then to "In Meeting (Advanced)".
-3. Under "Breakout room", turn on "Broadcast message to participants" and "Broadcast voice to breakout rooms".
+2. Click your profile picture in the top right of Workplace, then select "Settings".
+![](zoom_breakout_workplace_settings.png){:.border}
+3. Then from the "Meeting" tab navigate to "In Meeting (Advanced)" 
+4. Under "Breakout room", turn on "Broadcast message to participants" and "Broadcast voice to breakout rooms".
 
 The steps to broadcast a message or voice are as follows:
 
@@ -276,9 +282,9 @@ The host can share their screen and computer audio to all breakout rooms similar
 The steps to share your screen to the breakout rooms are as follows:
 
 1. Similar to the regular screen share, click "Share" at the bottom of the meeting screen and select the screen you want to share.
-2. In the window's "Layouts and options" section, check "Share to breakout rooms". If you also want to share computer audio, check "Share sound".
+2. In the window's "Share options" section, check "Share to breakout rooms". If you also want to share computer audio, check "Share sound".
     ![](zoom_breakout_host_share_screen.png){:.border .small}
-3. Finally, click "Share" The screen share will begin.
+3. Finally, click "Share". The screen share will begin.
 
 ### Assigning Additional Participants
 {:#host-additional-allocation}
@@ -307,23 +313,26 @@ Previously saved breakout room assignments can be reused when creating a new mee
 
 The steps to pre-assign using a previously saved assignment are as follows:
 
+
 1. Sign in to the Zoom web portal. For details, refer to the ["Signing in from the UTokyo Zoom Webpage" section on the "Sign-in Methods for Zoom"](/en/zoom/signin/#browser) page.
-2. Open "Upcoming" in the "Meetings" section. Schedule a new meeting by clicking "Schedule a Meeting", or for an existing meeting, hover over it and click "Edit", then "Edit Entire Series".
-3. Under the "Time Zone" item, ensure "Recurring meeting" is checked.
-4. Click "Show" next to "Options" to display the options list. From there, check "Breakout Room pre-assign". In addition to "Create Rooms" and "Import from CSV", your saved assignments will be selectable.
+2. Click "Meetings" under "Zoom Products" in the upper right corner, and open "Upcoming Meetings."
+![](zoom_breakout_zoom_product_meeting.png){:.border}
+3. Schedule a new meeting by clicking "Schedule a Meeting", or for an existing meeting, hover over it and click "Edit", then "Edit Entire Series".
+4. Under the "Time Zone" item, ensure "Recurring meeting" is checked.
+5. Click "Show" next to "Options" to display the options list. From there, check "Breakout Room pre-assign". In addition to "Create Rooms" and "Import from CSV", your saved assignments will be selectable.
 
 ![](zoom_breakout_host_apply_saved_allocation_time.png){:.border}
 ![](zoom_breakout_host_apply_saved_allocation_options.png){:.border}
 
-5. Select the saved assignment you want to use. If you checked "Attach these breakout rooms to this meeting ID for future use" when you saved the assignment, it will be automatically selected.
-6. Click "Save" to save the changes.
+6. Select the saved assignment you want to use. If you checked "Attach these breakout rooms to this meeting ID for future use" when you saved the assignment, it will be automatically selected.
+7. Click "Save" to save the changes.
 
 The saved assignment can be edited or deleted after being selected in step 5.
 ![](zoom_breakout_host_manage_saved_allocation.png){:.border}
 
 ### Manually Stopping Breakout Sessions
 {:#host-stop}
-A host can stop the breakout session at any time, even before the end time set in the options. The steps to stop the breakout rooms are as follows:
+A host can close the breakout session at any time, even before the end time set in the options. The steps to close the breakout rooms are as follows:
 
 1. Select "Breakout rooms" at the bottom of the meeting screen.
 2. Click "Close all rooms" in the bottom right of the window that appears.
@@ -339,7 +348,7 @@ When the host starts a breakout session, participants join the breakout room the
 
 When joining a host-assigned breakout room, you will either be forcibly moved to that room, or a window will appear asking if you want to join the breakout room. Click "Join" to enter.
 
-In addition, if the host has enabled "Let participants choose rooms," you can move to a breakout room with the following steps:
+In addition, if the host has enabled "Allow participants choose room," you can move to a breakout room with the following steps:
 
 1. From the bottom of the meeting screen, select "Breakout Rooms".
 2. A list of currently open breakout rooms will be displayed. Select "Join" next to the room you want to join, and then click "Yes".
@@ -347,11 +356,11 @@ In addition, if the host has enabled "Let participants choose rooms," you can mo
 
 ### Recording in a Breakout Room
 {:#participants-recording}
-During a breakout session, the host's cloud recording (saving the recording to the Zoom cloud) only records the main meeting. However, with local recording (saving the recording to an individual's PC, etc.), the breakout room where a participant that is recording is located becomes the recording target. Therefore, if you want to record a meeting within a breakout room, you must use local recording. To do this, someone from the participants in each breakout room must be designated as the recorder, and the host must either make those people co-hosts or give them permission to record. Recording breakout rooms is useful if you want to review the discussion later. For details on how to give participants recording permission and recording procedures, see ["Recording Zoom Meeting"](/en/zoom/usage/recording/).
+During a breakout session, the host's cloud recording (saving the recording to the Zoom cloud) only records the main meeting. However, with local recording (saving the recording to an individual's PC, etc.), the breakout room where a participant that is recording is located becomes the recording target. Therefore, if you want to record a meeting within a breakout room, you must use local recording. To do this, someone from the participants in each breakout room must be designated as the recorder, and the host must either make those people co-hosts or give them permission to record. Recording breakout rooms is useful if you want to review the discussion later. For details on how to give participants recording permission and recording procedures, see [How to use the recording feature](/en/zoom/usage/recording/).
 
 ![](zoom_breakout_participants_recording_co_host.png){:.border .small}
 
-1. (Actions for the participant in charge of recording) After joining each breakout room, select "Record" at the bottom of the meeting screen (if not visible, click "More" to display it). Local recording will start automatically.
+(Actions for the participant in charge of recording) After joining each breakout room, select "Record" at the bottom of the meeting screen (if not visible, click "More" to display it). Local recording will start automatically.
 
 ### Asking for Help
 {:#participants-help}
@@ -359,7 +368,7 @@ If a problem occurs in a breakout room, a participant can ask the host for help 
 
 The way to ask for help is as follows:
 
-1. From the bottom of the meeting screen, click "Ask for help" (if not visible, select "More" to display it).
+1. Select "More" from the bottom of the meeting screen, then click "Ask for Help."
     ![](zoom_breakout_participants_help_button.png){:.border .small}
 2. A window like the one below will appear. Click "Invite host". A notification will then be sent to the host to join the breakout room from which the request was sent.
     ![](zoom_breakout_participants_help_window.png){:.border}
