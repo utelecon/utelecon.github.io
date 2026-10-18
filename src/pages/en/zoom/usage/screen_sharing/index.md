@@ -90,7 +90,7 @@ Use the **Share screen** toggle to allow or prevent participants from sharing th
 + When multiple screens are sharing simultaneously, participants using dual monitors will see the two most recently shared screens on each monitor.<br>
 This feature is useful when you want to compare multiple documents at the same time.<br>
 You can set it as default by checking "Dual window" in "Settings" →"Meetings & webinars" of the Zoom application.
-![Using Dual Monitors](./images/10_dualowindow.png)
+![Using Dual Monitors](./images/10_dualwindow.png)
 + Participants using a single monitor will see the most recently shared screen.<br>
 Participants can select “View Options” to change the screen they are viewing.
 
