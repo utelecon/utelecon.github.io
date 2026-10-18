@@ -69,10 +69,10 @@ If you want the students to use other windows other than Zoom while the teacher�
 ### Screen sharing controls
 
 #### Setting up who can annotate
-You can allow participants to annotate by selecting "Enable Annotation for Others" from "More" of the meeting controls.
+You can allow participants to annotate by selecting "Enable annotation for others" from "More" of the meeting controls.
 
 #### Displaying names of annotators
-By selecting "Show/Hide Names of Annotators" from "More" of the meeting controls, participants’ names will appear/disappear next to their annotations on the shared screen.<br>
+By selecting "Show/Hide names of annotators" from "More" of the meeting controls, participants’ names will appear/disappear next to their annotations on the shared screen.<br>
 ![Show names of annotators](./images/7_more.png){:.small}
 
 ### Configuring screen sharing settings
@@ -83,7 +83,7 @@ By selecting "Show/Hide Names of Annotators" from "More" of the meeting controls
 ![Share setting window](./images/9_sharesetting2.png){:.small}
 
 #### Allowing participants to share their screens
-Use the **Share screen** toggle to allow or prevent participants from sharing their screens.
+Use the "Share screen" toggle to allow or prevent participants from sharing their screens.
 
 #### Settings for sharing multiple screens simultaneously.
 + Under "How many participants can share at a time?”, you can choose between "One participant can share at a time" and "Multiple participants can share simultaneously".<br>
@@ -92,7 +92,7 @@ This feature is useful when you want to compare multiple documents at the same t
 You can set it as default by checking "Dual window" in "Settings" →"Meetings & webinars" of the Zoom application.
 ![Using Dual Monitors](./images/10_dualwindow.png)
 + Participants using a single monitor will see the most recently shared screen.<br>
-Participants can select “View Options” to change the screen they are viewing.
+Participants can select “View options” to change the screen they are viewing.
 
 ※Note <br>
 If you select "Multiple participants can share simultaneously", the option "Optimize screen sharing for video clips" will not be available when sharing the screen.<br>
