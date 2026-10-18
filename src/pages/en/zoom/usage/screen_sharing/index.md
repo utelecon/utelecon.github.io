@@ -16,7 +16,7 @@ Zoom's screen sharing enables you to share your screen with others. You can shar
 
 2. You will be given various options for sharing.<br>
 In the sharing window, select the content you want to share.
-![Sharing window](./images/2_share.png)
+![Sharing window](./images/2_share2.png)
    * **[Screens]** Share your full desktop.
    * **[Windows]** Share a specific application window, such as Word, PowerPoint, or a web browser. Other windows on your desktop will not be shared.
    * **[Files]** Select files available through Zoom or supported file services.
@@ -80,7 +80,7 @@ By selecting "Show/Hide Names of Annotators" from "More" of the meeting controls
 ![Host tools for share](./images/8_hosttool.png){:.extra-small}
 
 2. "Share" window will open. <br>
-![Share setting window](./images/9_sharesetting.png){:.small}
+![Share setting window](./images/9_sharesetting2.png){:.small}
 
 #### Allowing participants to share their screens
 Use the **Share screen** toggle to allow or prevent participants from sharing their screens.
