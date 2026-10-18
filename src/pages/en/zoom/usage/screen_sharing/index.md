@@ -104,7 +104,7 @@ If you choose "All participants", everyone can start a new share when someone is
 
 ### Screen Annotation
 You can annotate the shared screen using the horizontal or vertical annotation toolbar that appears when you click "Annotate" in the screen sharing controls.
-![Screen sharing menu "Add a comment"](./images/11_anotate.png)
+![Screen sharing menu "Add a comment"](./images/11_annotate.png)
 
 * **[Mouse]** Deactivate annotation tools and switch to your mouse pointer.
 * **[Select]** Select, move, or resize your annotations.
