@@ -1,9 +1,43 @@
 ---
-title: Restrictions and specifications regarding email addresses
+title: Email Address Restrictions and Specifications
 breadcrumb:
   title: Email address
 ---
 
-import InPreparation from "@components/en/InPreparation.mdx";
+## Email Address Restrictions and Precautions
 
-<InPreparation />
+In ECCS Cloud Email, you can [create your own](../../#configure/) email address. This section explains the restrictions and precautions for setting up your email address.
+
+### Restrictions on Usable Characters
+
+- An email address containing only numbers cannot be set.
+- For administrative reasons, specific strings such as `admin` cannot be used.
+
+### Restrictions for Available Email Addresses
+
+- Email addresses that other users are already using, or have used until recently,  cannot be set.
+  - Email addresses that were used by other users can be set after four and a half years have passed since the end of their use.
+  - An email address that you have used in the past can be set again, including cases where there was a period of absence.
+
+### Precautions for Setup
+
+- Please wait about 30 minutes until the email address change is reflected in Google's system.
+  - During peak periods, such as the new semester, it may take longer than 30 minutes.
+- The email address that you changed once cannot be changed again for 30 days after you changed.
+
+## Other Specifications
+
+- Email addresses with or without periods are treated as separate email addresses.
+  - This is different from [Dots don't matter in Gmail addresses](https://support.google.com/mail/answer/7436150?hl=en&sjid=8406968157833254533-NC) for Gmail addresses (ending in `@gmail.com`).
+- Email addresses in the format of "`0123456789@g.ecc.u-tokyo.ac.j`" (`0123456789` is the part consisting only of the first 10 digits of the UTokyo Account),  regardless of individual settings, function as email addresses for the user who holds that UTokyo Account.
+  - Although an email address in the form of  `0123456789@g.ecc.u-tokyo.ac.jp` is automatically assigned by default[^1], if you set an email address you thought of yourself, it will be changed to that email address. At this time, the email address in the form of "`0123456789@g.ecc.u-tokyo.ac.jp`" automatically becomes an alias.
+- It is not possible to log in to ECCS Cloud Email by using an email address that is set as an alias.
+- By having an email address in the form of "`0123456789@g.ecc.u-tokyo.ac.jp`" set as an alias, the following are possible:
+  - Such as sending emails, granting Google Drive permissions, inviting to Google Calendar, and adding to Google Groups for users who only know the UTokyo Account.
+    - There are many cases where they are used such as sending emails from a system.
+    - Unlike the email addresses set by users themselves, the email address will never be changed.
+    - However, please note that the other user does not necessarily use or check ECCS Cloud Email on a regular basis.
+  - Using as an email address
+    - Because email addresses in the form of "`0123456789@g.ecc.u-tokyo.ac.jp`" are always available to use independent of individual settings, even if users change their email addresses themselves, emails will not fail to arrive.
+
+[^1]: Specification since the system change in February 2024.
