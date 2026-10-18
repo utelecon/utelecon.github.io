@@ -22,7 +22,7 @@ In the sharing window, select the content you want to share.
    * **[Files]** Select files available through Zoom or supported file services.
    * **[Other]** Share other types of content, such as a browser tab, a portion of your screen, or a video file, depending on the available options.
 
-3. Check the option at the bottom of the window if necessary. 
+3. Check the option at the right of the window if necessary. 
    ![Check the option if necessary](./images/3_shareoption.png){:.extra-small}
    * **[Share sound]** If checked, you can share the sound played on your computer during screen sharing.
    * **[Optimize for video sharing]** If checked, participants can see the optimized form of video clips played in full screen during screen sharing.
@@ -46,10 +46,10 @@ Screen sharing controls are displayed at either the top or bottom of the screen 
 * **[More]** Click to display advanced options. <br>
 ![Advanced Options](./images/6_more.png){:.small}
 
-  + Advanced options available only for teachers (hosts).
-      + **[Breakout rooms]**: You can start and end breakout sessions.
-      + **[Enable annotation for others]**: You can allow participants from annotating the shared screen to use the annotation tools.
-      + **[Hide names of annotators]**: When a participant adds annotations to the shared screen, you can set it so that the participant's name does not appear on the screen.
+  + Advanced options
+      + **[Breakout rooms]** (hosts and co-hosts only): You can start and end breakout sessions.
+      + **[Enable annotation for others]**(screen sharers only): You can allow participants to annotate the shared screen using the annotation tools.
+      + **[Hide names of annotators]**(screen sharers only): When a participant adds annotations to the shared screen, you can set it so that the participant's name does not appear on the screen.
 
 
 ## (For teachers) Settings and notes for screen sharing
@@ -95,7 +95,7 @@ You can set it as default by checking "Dual window" in "Settings" →"Meetings &
 Participants can select “View Options” to change the screen they are viewing.
 
 ※Note <br>
-If you select "Multiple participants can share simultaneously", the option "Optimize screen sharing for video clips" will not be available when sharing the screen on some older versions and other platforms.<br>
+If you select "Multiple participants can share simultaneously", the option "Optimize screen sharing for video clips" will not be available when sharing the screen.<br>
 Also, when multiple participants are sharing their screens at the same time, the person sharing the screen can only see his own screen.
 
 #### Starting a new share when someone is sharing.
@@ -146,7 +146,7 @@ Click the "..." at the top of the sharing screen, to the right of "xxxx's screen
 ![Participants’ controls](./images/22_viewer.png)
 
 ### Annotation on a shared screen
-The annotation tools appear when a viewer clicks the circular pen icon in the lower-left corner of the shared screen. Details are explained in [Screen Annotation](#Screen Annotation)above. <br>
+The annotation tools appear when a viewer clicks the circular pen icon in the lower-left corner of the shared screen. Details are explained in [Screen Annotation](#Screen-Annotation)above. <br>
 However, if "Disable Annotation for Others” is enabled, no annotations can be added.
 
 ### Screen settings during sharing
