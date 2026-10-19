@@ -100,7 +100,10 @@ Here is a brief description of the menus specific to the host.
   ![](./host_main_menu.png)
   1. **Record** : You can record the state of the meeting.
      * For details, please refer to "[How to use the recording feature](./recording/)".
+  1. **Transcript** : Records spoken words as text. Once the host starts this feature, participants can display them as subtitles or view the full transcript in a side panel.
   1. **Breakout rooms (setting required)** : Participants can be divided into subgroups. You can decide the number of people and assign them automatically, or you can assign them manually.
      * For details, please refer to "[How to use Breakout Rooms](./breakout/)".
   1. **Polls/Quizzes (setting required)** : Allows participants to respond to polls. Questions must be created in advance in a web browser. Click “Add question” to create one for the first time, or “Edit” to modify an existing one.
      * For details, please refer to "[Polls in Zoom](./poll/)".
+  1. **Livestream (Configuration Required)** : Streams the meeting's video and audio in real time to external streaming services like YouTube. Advanced configuration is required before use.
+  1. **Start billable hours**: A feature used to track time spent in meetings with clients as billable work hours. This is typically not used for university classes or meetings.
