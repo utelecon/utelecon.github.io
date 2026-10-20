@@ -18,5 +18,4 @@ updates:
     open-pull-requests-limit: 0
     labels:
       - dependencies
-      - javascript
       - web_development
