@@ -105,5 +105,5 @@ Here is a brief description of the menus specific to the host.
      * For details, please refer to "[How to use Breakout Rooms](./breakout/)".
   1. **Polls/Quizzes (setting required)** : Allows participants to respond to polls. Questions must be created in advance in a web browser. Click “Add question” to create one for the first time, or “Edit” to modify an existing one.
      * For details, please refer to "[Polls in Zoom](./poll/)".
-  1. **Livestream (Configuration Required)** : Streams the meeting's video and audio in real time to external streaming services like YouTube. Advanced configuration is required before use.
+  1. **Livestream (setting required)** : Streams the meeting's video and audio in real time to external streaming services like YouTube. Advanced configuration is required before use.
   1. **Start billable hours**: A feature used to track time spent in meetings with clients as billable work hours. This is typically not used for university classes or meetings.
