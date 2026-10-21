@@ -1,103 +1,109 @@
 ---
-title: Usages in Zoom Meeting
+title: Usage in Zoom Meeting
 breadcrumb:
-  title: Usages in Meeting
+  title: Usage in Zoom Meeting
 redirect_from:
   - /en/zoom/how_to_use
   - /en/zoom/how_to_use_host
   - /en/zoom/how_to_use_in_classroom_faculty_members
 ---
 
-In this section we give concrete directions on how to use Zoom.  
+On this page, we give concrete directions on how to use Zoom.  
 
 
-The following screen is displayed when entering a meeting room (this screenshot shows a meeting room with only 1 participant).
+The following screen is displayed when entering a meeting room.
 If you move the mouse cursor over the Zoom screen, the menu bar shown in the figure below will pop up.
-  ![](main_numbering.png)  
+  ![](./main_numbering.png)
 The menu buttons are explained from left to right (some versions may not display all the buttons as here).
-  1. **Microphone mark** : Press this to mute or unmute (the screen shows "mute off" because it is currently muted). Pressing the arrow mark next to it enables you to make settings related to the microphone.
-  1. **Video mark** : Press to turn the video on or off (the screen shows "Start Video" because the camera is currently off). Pressing the up mark next to it will allow you to make video settings.
-  1. **Invitation** : You can send an invitation by e-mail. Since the organizer and participants already know the URL of the conference room, they can invite others by sharing the meeting URL.
-  1. **Screen Share** : You can share screens in your device.
-  1. **Reactions** : You can express reactions by sending "applause" or "agree" emoji.
-  1. **Details** : Menus that could not fit on the screen are included here (If the screen width is large enough, all menus will be displayed on the screen and "Details" may not be displayed).
-     * **Participants** : Displays a list of participants.  
-     * **Chat** : text chat.  
-     * **Record on this computer** : You can record if your host allows it. This button is often not used by anyone other than the organizer.  
-  1. **Leave meeting** : Leave the meeting. A confirmation screen appears after you press it, so you do not exit immediately when you press the button.
+  1. **Audio** : Press this to mute or unmute. Pressing the ^ (up arrow)  next to it enables you to make settings related to the microphone.
+  1. **Video** : Press this to turn the video on or off. Pressing the ^ (up arrow) next to it enables you to adjust video settings.
+  1. **Participants** : Displays the participant list. You can see who is attending the meeting and who has raised their hand. Clicking the ^ (up arrow) next to it allows you to send invitations via email or other methods. However, since participants typically already know the meeting URL, you will rarely need to use this invite feature.
+  1. **Chat** : Opens the text chat. 
+  1. **React** : You can express your reactions using emojis and icons like "Clap", "Thumbs up", or "Raise Hand". "Raise Hand" is often used to show that you want to speak.
+  1. **Share** : You can share your device's screen or specific windows. This feature is unavailable if the host has not granted permission.
+  1. **More** : Menus that could not fit on the screen are included here.
+     - **Record** : You can record if your host allows it. This button is often not used by anyone other than the host.  
+     - **Show captions** : Displays transcriptions of spoken words in real time at the bottom of the screen. You can change the font size and language in "Subtitle Settings". This option may not appear if the host has not enabled the caption feature.
+     - **Docs** : Creates and displays collaborative documents that all participants can edit together. Great for meeting minutes or shared notes.
+     - **Whiteboards** : Opens a whiteboard that all participants can write on. Useful when you want to share diagrams or handwritten notes.
+     - **Meeting info** : Allows you to check the meeting room URL, Meeting ID, passcode, and other details.
+     - **Transfer to room** : Transfers your ongoing meeting to a Zoom Room device installed in the conference room.
+     - **Settings** : Opens settings for audio, video, background, and more.
+
+  1. **Leave** : Leaves the meeting. A confirmation screen appears when you click it, so you will not leave the meeting immediately after you press the button. If you are the host, you can choose between "End Meeting for All" (everyone leaves) and "Leave Meeting" (only you leave). Please be careful to select the correct option.
   
-  
-The following describes the details of the menu items mostly used.
+The following describes the details of most frequently used.
 
 ## Advanced microphone settings
   
-  ![](main_mic_speaker.png)
+  ![](./main_mic_speaker.png)
   
-If you press the upper mark next to the microphone mark, an additional menu will appear. Below is a brief description of each command.
-  * **Microphone** : You can select the microphone you want to use (if you have a separate microphone, you will have multiple choices, so choose the one you wish to use).
-  * **Speaker** : You can select the speaker you want to use (if you have a separate speaker, you will have multiple choices, please select the one you wish to use)
+If you press the ^ (up arrow) next to the microphone mark, an additional menu will appear. Below is a brief description of each command.
+  * **Microphone** : You can select the microphone you want to use (if you have a separate microphone, you will have multiple choices, so choose the one you wish to use). Selecting "Same as System" uses the same microphone as your computer's audio settings. Any changes made to your computer's settings will automatically be reflected in Zoom.
+  * **Speaker** : You can select the speaker you want to use (if you have a separate speaker, you will have multiple choices, please select the one you wish to use).
   
-For details, please refer to [Using microphone and camera](mic_cam/).
+For details, please refer to "[How to use the audio and video on Zoom](./mic_cam/)". For instructions on using virtual backgrounds, please see "[Set up a virtual background to hide the background from the camera](./mic_cam/virtual_background/)".
   
 ## Advanced video settings
   
-  ![](main_camera.png)
+  ![](./main_camera.png)
   
-If you press the upper mark next to the video mark, an additional menu will appear. Below is a brief description of each option. 
+If you press the ^ (up arrow) next to the video mark, an additional menu will appear. Below is a brief description of each option. 
   * **Camera** : You can select the camera you want to use (if you have a separate camera, you will have multiple choices, please select the one you wish to use).
 
-For details, please refer to [Using microphone and camera](mic_cam/).
+For details, please refer to "[Using microphone and camera](./mic_cam/)".
 
 
 ## Participants
 
 Pressing the menu "Participants" will bring up a screen where you can see a list of participants.
-  ![](main_member.png)
+  ![](./main_member.png)
 
-  * Hover the mouse cursor over your name to turn mute on / off and change the name displayed by clicking on "details"
+  * You can mute or unmute yourself and change your name or profile picture by hovering over your name.
 
 In addition to this, the host can:
   * Mute a participant, or mute all participants
   * Prevent participants from unmuting themselves
   * Lock a meeting so that there are no more participants
 
+## Chat
+  
+If you press the menu "Chat", text chat will be available. It is important to note that if you join from the middle of a meeting, you will not be able to see past text chats. Therefore, send important messages after everyone has joined the meeting.
+  ![](./main_chat.png)  
+  
+  * By clicking the "To" button, you can change the destination of the message from "Everyone" to an individual. By default, messages are sent to everyone.
+  * By selecting "File", you can send files from your computer or files from an online drive.
+
+For details, please refer to "[Using Chat in Zoom Meetings](./chat/)".
+
+## Reactions
+
+Clicking "Reactions" in the toolbar opens a menu where you can send reactions such as "Clap", "Thumbs Up", or "Raise Hand". Select an icon to display your reaction to all participants.
+
+For details, please refer to "[Zoom’s Reactions (Raised Hand & Emoji) Feature](./reaction/)".
 
 ## Screen sharing
   
-When you press the menu "Share screen", the options of screens to be shared appear. Select the desired one and press "Share" to start sharing the screen.
-  ![](main_share_focus.png)
-  ![](main_share.png)
+When you press the menu "Share", the options of screens to be shared appear. Select the desired one and press "Share" to start sharing the screen.
+  ![](./main_share.png)
   
-  * When "Screen" is selected, the screen of the person sharing the image itself is shared with everyone (If there are multiple screens such as a multi-monitor like an image, screen 1 and screen 2 have more options).
-  * If you select "Whiteboard", a whiteboard in which you can draw freely will be shared with everyone.
-  * Selecting "iPhone / iPad" will allow you to share your iPhone / iPad screen (plug-in required). You can share via AirPlay from devices in the same Wi-Fi network.
-  * The currently open window is also displayed as an option. You can also share the screen in window units. If you don't want others to see all of your computer windows, we recommend that you select the window unit you want to share.
+  * Selecting "Screen" shares your entire screen with all participants. 
+  * The currently open window is also displayed as an option. You can also share the screen in window units. If you don't want others to see all of your computer windows, we recommend that you share a specific window.
+  * By checking "Share sound" in the bottom-right corner of the screen, audio played on your device will also be shared with all participants. If you plan to play a video during screen sharing, we recommend checking this option.
   
-  <!--About Sharing audio-->
-  
-For details, please refer to [Screen Sharing](screen_sharing/).
-
-## Chat
-  
-If you press the menu "Chat", text chat will be available. It is important to note that if you log in from the middle of a meeting, you will not be able to see past text chats. Therefore, it is important to wait and send texts after every member has joined the meeting.
-  ![](main_chat.png)  
-  
-  * By clicking the "Send to" button, you can change the destination of the message from "Everyone" to an individual. By default, messages are sent to everyone.
-  * By selecting "File", you can send files from your computer or files from an online drive.
+For details, please refer to "[Screen Sharing in Zoom](./screen_sharing/)".
 
 
-<!--
-## Reactions
--->
-
-
-## Organizer-specific menu
+## Host-specific menu
   
-Here is a brief description of the menus specific to the organizer. 
-  ![](host_main_menu.png)
-  1. **Polls(setting required)** : Allows participants to respond to polls. The questions themselves need to be created with a web browser, and you can create a question by pressing "Edit" or "Add question", when you are creating a question for the first time.
-     * For details, please refer to [Polls in Zoom](poll/).
-  1. **Breakout(setting required)** : Participants can be divided into subgroups. You can decide the number of people and assign them automatically, or you can assign them manually.
-  1. **Recording** : You can record the state of the meeting.
-     * For details, please refer to [Cloud Recording](recording/).
-  
+Here is a brief description of the menus specific to the host. 
+  ![](./host_main_menu.png)
+  1. **Record** : You can record the state of the meeting.
+     * For details, please refer to "[How to use the recording feature](./recording/)".
+  1. **Transcript** : Records spoken words as text. Once the host starts this feature, participants can display them as subtitles or view the full transcript in a side panel.
+  1. **Breakout rooms (setting required)** : Participants can be divided into subgroups. You can decide the number of people and assign them automatically, or you can assign them manually.
+     * For details, please refer to "[How to use Breakout Rooms](./breakout/)".
+  1. **Polls/Quizzes (setting required)** : Allows participants to respond to polls. Questions must be created in advance in a web browser. Click “Add question” to create one for the first time, or “Edit” to modify an existing one.
+     * For details, please refer to "[Polls in Zoom](./poll/)".
+  1. **Livestream (setting required)** : Streams the meeting's video and audio in real time to external streaming services like YouTube. Advanced configuration is required before use.
+  1. **Start billable hours**: A feature used to track time spent in meetings with clients as billable work hours. This is typically not used for university classes or meetings.
