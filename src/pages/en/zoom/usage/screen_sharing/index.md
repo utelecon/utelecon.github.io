@@ -95,7 +95,7 @@ You can set it as default by checking "Dual window" in "Settings" →"Meetings &
 Participants can select “View options” to change the screen they are viewing.
 
 ※Note <br>
-If you select "Multiple participants can share simultaneously", the option "Optimize screen sharing for video clips" will not be available when sharing the screen.<br>
+If you select "Multiple participants can share simultaneously", the option "Optimize for video sharing" which is available on the right side of the "Share" window, will not be available when sharing the screen.<br>
 Also, when multiple participants are sharing their screens at the same time, the person sharing the screen can only see his own screen.
 
 #### Starting a new share when someone is sharing.
