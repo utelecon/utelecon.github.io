@@ -1,7 +1,7 @@
 name: Review Dependabot PRs
 
-# 権限を持たない側。PR のコードをビルドするため、read-only で動かす。
-# 結果を artifact に書き出し、PR への書き込みは report-dependabot-review.yml が行う。
+# Dependabotの作成したPRによるサイト生成物を比較する．
+# 本ファイルではビルドと差分比較のみを行い，PRへのコメントや承認はreport-dependabot-review.ymlで行う．
 
 on:
   pull_request:
@@ -19,16 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.pull_request.user.login == 'dependabot[bot]'
     steps:
-      # マージ後の状態と、その計算元になった master を比較する。
-      # base.sha はイベント発生時点で固定される一方、マージ ref は別のタイミングで
-      # 再計算されるため、両者を混ぜると PR と無関係な master の変更を拾ってしまう。
       - uses: actions/checkout@v7
         with:
           ref: refs/pull/${{ github.event.pull_request.number }}/merge
           fetch-depth: 2
       - name: Move to the base parent of the merge commit
         run: git checkout HEAD^1
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: npm
@@ -47,7 +44,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           ref: refs/pull/${{ github.event.pull_request.number }}/merge
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: npm
@@ -108,7 +105,7 @@ jobs:
           } >>"$GITHUB_STEP_SUMMARY"
           exit 1
 
-      # 差分の有無にかかわらず結果を残す。report 側がこれを読む。
+      # 差分の有無にかかわらず結果を残す．
       - uses: actions/upload-artifact@v7
         if: always()
         with:
