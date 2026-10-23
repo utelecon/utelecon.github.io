@@ -1,7 +1,7 @@
 name: Report Dependabot Review
 
-# 権限を持つ側。workflow_run で発火するため master 側のこのファイルが使われ、
-# PR のコードは一切実行しない。したがって pull-requests: write を持たせても安全。
+# Review Dependabot PRs が完了したあとに実行される．
+# PRのコードは一切実行しないため pull-requests: write を持たせても安全．
 
 on:
   workflow_run:
@@ -13,20 +13,19 @@ permissions:
   pull-requests: write
 
 env:
-  # 対象とする PR の作成者。review-dependabot-prs.yml のガードと揃える。
   AUTHOR: dependabot[bot]
 
-  # 差分がなかったときの動作を切り替える。
+  # 差分がなかったときの動作を切り替える．
   #   comment  … コメントするだけ
   #   approve  … approve するだけ
   #   both     … 両方
-  # approve を使う場合、リポジトリ設定の
-  # "Allow GitHub Actions to create and approve pull requests" が有効である必要がある。
+  # approve を使う場合，リポジトリ設定の
+  # "Allow GitHub Actions to create and approve pull requests" が有効である必要がある．
   MODE: comment
 
 jobs:
   report:
-    # 比較用 workflow が skip された場合 (= Dependabot 以外の PR) は何もしない。
+    # 比較用 workflow が skip された場合 (= Dependabot 以外の PR) は何もしない．
     if: >-
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion != 'skipped'
@@ -42,8 +41,8 @@ jobs:
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 比較まで到達していれば report/ がある。ビルドが失敗した場合は無いので、
-      # その場合も PR 番号だけは特定して、古い承認やコメントを残さないようにする。
+      # 比較まで到達していれば report/ がある．ビルドが失敗した場合は無いので，
+      # その場合も PR 番号だけは特定して，古い承認やコメントを残さないようにする．
       - name: Resolve the pull request and the result
         id: result
         env:
@@ -70,7 +69,7 @@ jobs:
             echo 'Could not determine the pull request number. Nothing to do.'
             state=unknown
           else
-            # 念のため作成者も確認する。skip の判定だけに頼らないための二重の防御。
+            # 念のため作成者も確認する．skip の判定だけに頼らないための二重の防御．
             author=$(gh api "repos/$GITHUB_REPOSITORY/pulls/$pr" --jq .user.login)
             if [ "$author" != "$AUTHOR" ]; then
               echo "Not a target pull request (author: $author). Nothing to do."
@@ -125,7 +124,7 @@ jobs:
             echo "Created a new comment"
           fi
 
-      # 差分がなければ approve する。既に自分の承認があれば何もしない (冪等)。
+      # 差分がなければApproveをつける．既に自分の承認があれば何もしない．
       - name: Approve when there is no difference
         if: steps.result.outputs.state == 'compared' && steps.result.outputs.count == '0' && (env.MODE == 'approve' || env.MODE == 'both')
         env:
@@ -144,8 +143,8 @@ jobs:
             -f event=APPROVE \
             -f body='The build output is identical to the base branch.'
 
-      # 差分が出た場合と、比較まで到達しなかった場合は、過去の承認を取り消す。
-      # 取り消すのは Bot 自身の承認だけで、人によるレビューには触れない。
+      # 差分が出た場合と，比較まで到達しなかった場合は，過去の承認を取り消す．
+      # 人によるレビューは変更されない．
       - name: Dismiss a stale approval
         if: steps.result.outputs.state != 'unknown' && steps.result.outputs.count != '0' && (env.MODE == 'approve' || env.MODE == 'both')
         env:
