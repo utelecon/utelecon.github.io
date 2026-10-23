@@ -73,8 +73,15 @@ jobs:
       - name: Compare
         id: compare
         run: |
-          diff -r  dist-base/ dist-pr/ >diff.txt       || true
-          diff -rq dist-base/ dist-pr/ >diff-brief.txt || true
+          set +e
+          diff -r  dist-base/ dist-pr/ >diff.txt
+          diff_status=$?
+          diff -rq dist-base/ dist-pr/ >diff-brief.txt
+          brief_status=$?
+          set -e
+          if [ "$diff_status" -gt 1 ] || [ "$brief_status" -gt 1 ]; then
+            exit 2
+          fi
 
           count=$(wc -l <diff-brief.txt)
 
