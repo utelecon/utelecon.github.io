@@ -40,7 +40,7 @@ Zoomミーティングに参加する主な方法には，[招待用URLにアク
 - 「ミーティングパスコードを入力」という画面が表示された場合は，パスコードを入力してください．
 
 - ミーティングに入室した後でオーディオ接続を求められた場合，オーディオの設定を行い，「コンピューターオーディオで参加」を押してください．
-![](./zoom_join_app_audio_via_link){:.border .small}
+![](./zoom_join_app_audio_via_link.png){:.border .small}
 
 #### ブラウザでの操作
 {:#procedure-browser}
