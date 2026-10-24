@@ -1,0 +1,80 @@
+---
+import DemiRadioButton, {
+  type Props as DemiRadioButtonProps,
+} from "./DemiRadioButton.astro";
+
+interface Props {
+  /**
+   * 選択肢の名前
+   * ラジオボタンが1つだけの場合は`<label>`として関連付けられ，押すとそのラジオボタンが選択される
+   */
+  label: string;
+  /**
+   * 各列のラジオボタン
+   * `RadioTable`の`columns`と同じ順番・数だけ指定する
+   */
+  radios: DemiRadioButtonProps[];
+}
+
+const { label, radios } = Astro.props;
+const Label = radios.length === 1 ? "label" : "p";
+---
+
+<Label class="label" for={radios.length === 1 ? radios[0].id : undefined}>
+  {label}
+</Label>
+{
+  radios.map((radio) => (
+    <span class="radio">
+      <DemiRadioButton {...radio} />
+    </span>
+  ))
+}
+<div class="description">
+  <slot />
+</div>
+
+<style lang="scss">
+  @use "@styles/color";
+
+  .label {
+    grid-column-start: 1;
+    margin: 0;
+    padding: 0.1rem 0.5rem;
+    font-weight: bold;
+    background-color: color.$white-gray-light;
+  }
+
+  .radio {
+    position: relative;
+    background-color: color.$white-gray-dark;
+    border-inline-start: 1px solid color.$white-gray-light;
+    border-inline-end: 1px solid color.$white-gray-light;
+
+    &:has(input[type="radio"]:disabled) {
+      background-color: color.$white-gray-light;
+    }
+
+    & > input[type="radio"] {
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+
+      &:disabled {
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .description {
+    grid-column: 1 / -1;
+    padding: 0.3rem 0.5rem 1rem;
+
+    &:last-child {
+      padding-bottom: 0.5rem;
+    }
+  }
+</style>
