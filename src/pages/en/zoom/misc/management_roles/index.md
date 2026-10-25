@@ -85,7 +85,7 @@ Under this behavior, if a host unintentionally leaves while the meeting has no c
 {:#reclaim_host}
 After the host role has been transferred to another participant (for example, through [transferring the host role](#transfer_host), [using a host key](#host_key), [leaving the meeting as the host](#host_leave), or [the host unintentionally leaving a meeting](#host_accidental_leave)), the original host can reclaim the host role by following the procedure below. This function can be used only for meetings that you own. For example, you cannot use it when you are the host of someone else’s meeting because you were assigned as an “[alternative host](#alt_host_desc).”
 ![](img/reclaim.png)
-In the “Participants” panel during the meeting, hover over your name, click the displayed “More,” and select “Reclaim host” to become the host again.
+In the “Participants” panel during the meeting, select “Reclaim host” to become the host again.
 
 ## Co-host
 {:#co-host}
