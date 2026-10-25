@@ -12,6 +12,7 @@ import remarkImageClasslist from "./integrations/remark-image-classlist.js";
 import remarkDefaultFrontmatter from "./integrations/remark-default-frontmatter.js";
 import remarkCjkFriendly from "remark-cjk-friendly";
 import remarkCjkFriendlyGfmStrikethrough from "remark-cjk-friendly-gfm-strikethrough";
+import { unified } from "@astrojs/markdown-remark";
 
 const ASSET_EXTENSIONS = [
   ".avif",
@@ -51,24 +52,26 @@ export default defineConfig({
   },
   trailingSlash: "always",
   markdown: {
-    remarkPlugins: [
-      [remarkDefaultFrontmatter, { layout: "@layouts/Layout.astro" }],
-      [
-        remarkAttributeList,
-        {
-          allowNoSpaceBeforeName: true,
-          allowUnderscoreInId: true,
-          allowNoPosition: true,
-        },
+    processor: unified({
+      remarkPlugins: [
+        [remarkDefaultFrontmatter, { layout: "@layouts/Layout.astro" }],
+        [
+          remarkAttributeList,
+          {
+            allowNoSpaceBeforeName: true,
+            allowUnderscoreInId: true,
+            allowNoPosition: true,
+          },
+        ],
+        remarkImageClasslist,
+        remarkCjkFriendly,
+        remarkCjkFriendlyGfmStrikethrough,
       ],
-      remarkImageClasslist,
-      remarkCjkFriendly,
-      remarkCjkFriendlyGfmStrikethrough,
-    ],
-    remarkRehype: {
-      footnoteLabelProperties: { className: ["visually-hidden"] },
-      footnoteLabelTagName: "b",
-    },
+      remarkRehype: {
+        footnoteLabelProperties: { className: ["visually-hidden"] },
+        footnoteLabelTagName: "b",
+      },
+    }),
     shikiConfig: {
       theme: "min-light",
     },
