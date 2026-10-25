@@ -12,8 +12,9 @@ import yaml from "js-yaml";
 import { pathToFileURL } from "node:url";
 import { readFile, copyFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
+import { unified } from "unified";
 import {
-  unified,
+  unified as astroUnified,
   type UnifiedProcessorOptions,
 } from "@astrojs/markdown-remark";
 import remarkParse from "remark-parse";
@@ -58,7 +59,7 @@ export default function assetColocation(
         updateConfig({
           // アセットのパスを収集するための remarkPlugin と rehypePlugin を追加
           markdown: {
-            processor: unified({
+            processor: astroUnified({
               ...options,
               remarkPlugins: [
                 ...(options.remarkPlugins ?? []),
