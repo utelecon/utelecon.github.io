@@ -216,13 +216,15 @@ redirect_to: "/oc/join#form"
 
 #### 緊急度が高いお知らせの場合，または広く告知したい場合
 
-`src/components/Emergency.mdx`を利用することで，トップページと/support/にお知らせを出し，広く告知することができます．
+`src/components/Emergency.mdx`を利用することで，トップページと/support/にお知らせを掲載し，広く告知することができます．
+
+その上で，関連ページにもお知らせを掲載したい場合は，次の方法も使用してください．
 
 #### 特定ページにのみお知らせを掲載したい場合
 
-`src/emergencies`内に以下のようなMarkdownファイルを配置することで，複数のページにまとめてお知らせを掲載することができます．掲載したいページのパスにマッチする正規表現を`pattern`に指定します．
+`src/notice-banners`内に以下のようなMarkdownファイルを配置することで，複数のページにまとめてお知らせを掲載することができます．掲載したいページのパスにマッチする正規表現を`pattern`に指定します．
 
-例：`src/emergencies/LmsFailure.mdx`を作成して，`/utol/`以下のページにお知らせを掲載する
+例：`src/notice-banners/LmsFailure.mdx`を作成して，`/utol/`以下のページにお知らせを掲載する
 ```md
 ---
 pattern: "^\/utol\/"
