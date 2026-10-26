@@ -5,8 +5,8 @@ import { glob } from "astro/loaders";
 import { FORMATS, NUMBERS, TOOLS, KEYWORDS } from "@components/pages/GoodPractice";
 import { getISODateString } from "./util";
 
-const emergencies = defineCollection({
-  loader: glob({ pattern: "*.{md,mdx}", base: "./src/emergencies" }),
+const noticeBanners = defineCollection({
+  loader: glob({ pattern: "*.{md,mdx}", base: "./src/notice-banners" }),
   schema: z.object({
     pattern: z.string().refine((v) => {
       try {
@@ -140,5 +140,5 @@ const interviews = defineCollection({
   })
 })
 
-export const collections = { emergencies, events, notices, nav, pages, interviews };
+export const collections = { noticeBanners, events, notices, nav, pages, interviews };
 export type { Format, Number, Tool, Keyword };
