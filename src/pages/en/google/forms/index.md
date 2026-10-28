@@ -4,7 +4,7 @@ breadcrumb:
   title: Google Forms
 ---
 
-This page explains how to use Google Forms. It also includes examples of anticipated case of use when used at the University of Tokyo.
+This page explains how to use Google Forms. It also includes examples of anticipated use cases at the University of Tokyo.
 
 ## What is Google Forms?
 
@@ -20,7 +20,7 @@ This page introduces the basic workflow for creating and responding to forms, as
 
 You can access Google Forms by using your ECCS Cloud Email account (the University of Tokyo's Google account). By using your ECCS Cloud Email account, you can restrict form access to UTokyo members only.
 
-## Cases of Use
+## Use Cases
 
 ### Using as a Survey Form
 
@@ -83,7 +83,7 @@ A form consists of any number of questions. The following explains how to create
 2. Enter the content of the question.
 3. Set the question format.
    * For more specific instructions, see "[Choose a type of question for your form](https://support.google.com/docs/answer/7322334?hl=en)" (official help).
-   * Please note that the file upload answer options cannot be used in forms stored on shared drives.
+   * Please note that file upload questions cannot be used in forms stored on shared drives.
 4. For multiple-choice answer formats, configure the answer options.
 
 ### Step 3: Publish & Share
@@ -97,7 +97,7 @@ Please note that there are settings you should configure before publishing the f
 
 You can publish the form to accept responses by clicking the "Publish" button in the upper right of the page.
 
-![](./publishing-form.jpg){:.medium}
+![](./publishing-form.png){:.medium}
 
 After publishing, you can stop accepting responses using the "Accepting responses" button. Simply publishing the form does not allow anyone to respond. Responses can only be collected after completing the steps described in "[Sharing with Respondents](#sharing_with_respondents)" step below.
 
@@ -120,7 +120,7 @@ To have others respond to your form, share the response link by following these 
 2. Copy the response link.
    * You can also share a shortened link by turning on "Shorten URL".
 
-![](./sharing-form-link.jpg)
+![](./sharing-form-link.png)
 
 ##### Sharing with Editors
 {:#sharing_with_editors}
@@ -172,7 +172,7 @@ There are two main possible causes. Please also refer to "[Get permission to ope
 * You do not have permission to open the form.
   * You need to obtain permission.
   * You can optionally enter a message and request access via the "Request access" button, which will notify the form owner.
-   ![](./access-trouble.jpg){:.small}
+   ![](./access-trouble.png){:.small}
 * You are signed in to a Google account that does not have access.
   * You need to sign in with a different Google account that has access.
   * For example, if a form is restricted to "The University of Tokyo ECCS Cloud Email" accounts, signing in with any other account will result in the above error.
@@ -218,7 +218,7 @@ This section introduces features that are particularly useful when editing indiv
    * When processing collected responses, having a consistent format often makes data management easier. For example, if you require "half-width numbers" for an age question, respondents will be blocked from entering kanji numerals or full-width numbers, making response management far more efficient.
 5. Add Images
    ![](./editing-question-photo.jpg)
-   * To provide additional context for your questions, you can attach images to a question using the button on the right of the question text (a.), or to an answer option using the button on the right of the each option (b.).
+   * To provide additional context for your questions, you can attach images to a question using the button on the right of the question text (a.), or to an answer option using the button on the right of each option (b.).
    * When you insert images, the respondent view will look like this: images added next to the question text appear below the question, while images added next to an option appear above that option.
       ![](./editing-question-photo-result.jpg)
 
