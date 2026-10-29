@@ -5,6 +5,7 @@ import MicrosoftClarity from "./MicrosoftClarity.astro";
 import Header from "./Header/index.astro";
 import Footer from "./Footer/index.astro";
 import Toc from "./Toc.astro";
+import Navigationbar from "./Navigationbar.astro";
 import "@styles/layout.scss";
 import type { MDXLayoutProps, MarkdownHeading } from "astro";
 import Author, { type Author as AuthorProps } from "./Author.astro";
@@ -159,16 +160,16 @@ const resolvedBreadcrumb =
           <Breadcrumb breadcrumb={resolvedBreadcrumb} />
         )
       }
-      {
-        !top && (
-          <h1 class="title">
-            <Markdown content={h1 ?? title} />
-          </h1>
-        )
-      }
       <div id="article">
         {displayToc && <Toc headings={headings} lang={lang} />}
         <div id="content">
+        {
+          !top && (
+            <h1 class="title">
+              <Markdown content={h1 ?? title} />
+            </h1>
+          )
+        }
           <Emergency />
           <slot />
           {
@@ -180,6 +181,7 @@ const resolvedBreadcrumb =
             )
           }
         </div>
+        <Navigationbar lang={lang} currentUrl={Astro.url.pathname} />
       </div>
     </main>
     <Footer lang={lang} support={support} />
@@ -202,6 +204,7 @@ const resolvedBreadcrumb =
       display: flex;
       flex-direction: row-reverse;
       gap: toc.$article-gap;
+      align-items: stretch;
     }
     #content {
       /* so that the content does not overflow the viewport */
