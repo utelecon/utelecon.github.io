@@ -16,7 +16,7 @@ For recommendations on meeting room settings for online classes, please see [Res
 
 ## Setup Procedure
 1. In your web browser, go to the [Zoom Settings page](https://u-tokyo-ac-jp.zoom.us/profile/setting).
-![](../auth/setting_1.png){:.medium}
+![](../auth/zoom_auth_meeting_page.png){:.medium}
 2. In the “Waiting Room Options”, click “Edit Options”.
 ![](1.png){:.medium}
 3. Select the appropriate option for “Who should go into the waiting room?”
