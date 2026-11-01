@@ -7,7 +7,7 @@ breadcrumb:
 ## Introduction
 {:#introduction}
 This page explains how to create a Zoom meeting in a web browser and provides an overview of the settings available when creating a meeting.
-For information on creating Zoom meetings using the app, please refer to [Scheduling a Zoom Meeting (Zoom App)](/en/zoom/misc/app/). Be sure to check it out as well.
+For information on creating Zoom meetings using the app, please refer to [Scheduling a Zoom Meeting (Zoom App)](../misc/app/). Be sure to check it out as well.
 
 ## Scheduling Meetings
 {:#steps-to-create}
@@ -22,7 +22,7 @@ Alternatively, you can navigate directly to the screen shown in Step 4 by clicki
 ![](./images/meeting-menu.png){:.border}
 4. On the displayed screen, please set the required fields. For detailed explanations of each setting, refer to the “[Zoom Meeting Options](#settings)" section below.
 ![](./images/schedule.png){:.border}
-5. Once you click on the "Save" button, your Zoom meeting will be created.
+5. Once you click the "Save" button, your Zoom meeting will be created.
 ![](./images/schedule-save.png){:.border}
 6. The details of the meeting created will be displayed. Verify that it has been set up according to the settings you configured earlier.
 ![](./images/confirmation.png){:.border}
@@ -50,7 +50,7 @@ By clicking "Add Description", you can enter a detailed description of the topic
 
 ### Settings for the Meeting Date and Time
 {:#settings-date_and_time}
-For more details, please refer to "[Scheduling Recurring Zoom Meetings](/en/zoom/create_room/date_and_time/)".
+For more details, please refer to "[Scheduling Recurring Zoom Meetings](./date_and_time/)".
 
 #### Date and Time of the Meeting
 
@@ -96,23 +96,23 @@ A document creation tool available in Zoom.
 {:#settings-security}
 Zoom meeting IDs are typically 10-digit numbers, and without any security measures in place, there is a risk that someone who shouldn't have the ID could guess the numbers and join the meeting. To enhance security, please use these features.
 
-For more details, refer to the page "[Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control/)." The article focuses on the settings recommended for use in classes, but the content is also applicable to general meetings and other events.
+For more details, refer to the page "[Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control/)". The article focuses on the settings recommended for use in classes, but the content is also applicable to general meetings and other events.
 
 * Passcode
   * When enabled, participants will be required to enter a passcode in addition to the meeting ID when joining the meeting. It is very difficult to randomly guess both the passcode and the meeting ID, which significantly reduces the risk of unauthorized third parties joining the meeting. By default, this setting is enabled, so unless you have a specific reason, it is recommended to leave it on. You can either specify your own passcode or use an automatically generated one.
   * In the default settings, the invite link for the meeting includes both the meeting ID and passcode information. Therefore, even if the passcode feature is enabled, participants only need to be provided with the invite link, and there is no need to separately inform them of the passcode. However, there may be cases where it is useful to share both the meeting ID and passcode in addition to the invite link (for more details, please refer to the notice “[how to announce online class URL](/en/faculty_members/url/#use-online-class-info-in-general)”). If you do not want the passcode information to be embedded in the invite link, it can be changed from the settings page. For more information, please refer to the "[How to Set Up Commonly Used Features](#popular_functions)" section below.
 * Waiting Room
   * When enabled, participants will not be able to join the meeting directly until the host individually approves their entry, and they will remain in the waiting room. This feature is useful if you want to allow only approved participants to attend the meeting.
-  * For more details, please refer to "[Setting up a Zoom Waiting Room](/en/zoom/create_room/waiting_room/)".
+  * For more details, please refer to "[Setting up a Zoom Waiting Room](./waiting_room/)".
 * Only Authenticated Users Can Join Meetings
   * This feature controls whether or not participants can join the meeting based on the type of account they use to sign in to Zoom.
   * When enabled and "Sign in with University Account" is selected, only users signed in to Zoom with a UTokyo Account can join the meeting.
   * When enabled and "Sign in to Zoom" is selected, only users signed in to Zoom, regardless of account type, can join the meeting.
-  * For more details, please refer to “[Requiring Authentication to Join a Zoom Meeting](/en/zoom/create_room/auth/)”.
+  * For more details, please refer to “[Requiring Authentication to Join a Zoom Meeting](./auth/)”.
 
 #### Zoom AI
 {:#settings-ai}
-You can choose whether to automatically start Zoom AI when a meeting begins. For more information about the generative AI features available in Zoom, see "[Using Zoom AI Companion](/zoom/ai-companion/)(in Japanese)".
+You can choose whether to automatically start Zoom AI when a meeting begins. For more information about the generative AI features available in Zoom, see "[Using Zoom AI Companion (in Japanese)](/zoom/ai-companion/)".
 
 #### Workflow
 {:#settings-workflow}
@@ -136,7 +136,7 @@ This setting controls the types of audio participants can use during the meeting
 
 #### Options
 {:#settings-options}
-* <span id='allow-entrance'>Allow Participants to Join Anytime</span>
+* <span id="allow-entrance">Allow Participants to Join Anytime</span>
   * This feature allows participants to enter the meeting before the host joins. You can change the number of minutes before the host opens the meeting that participants are allowed to enter from the settings page. For more details, please refer to the section below, "[How to Set Up Commonly Used Features](#popular_functions)".
 * Q&A
   * This is a feature designed to make it easier to manage questions from participants.
@@ -144,16 +144,16 @@ This setting controls the types of audio participants can use during the meeting
   * This feature mutes participants when they join the meeting. It only controls whether or not participants are muted upon entry and does not affect their ability to switch their microphone on or off during the meeting.
 * Pre-Assign Breakout Rooms
   * By using the breakout room feature, you can split participants from the main meeting room into multiple breakout rooms. This feature allows you to pre-assign participants to specific rooms in advance.
-  * For more details, please refer to "[How to use Breakout Rooms](/en/zoom/usage/breakout/)".
+  * For more details, please refer to "[How to use Breakout Rooms](../usage/breakout/)".
 * Automatically Record Meeting
   * This feature automatically starts recording as soon as the meeting begins. You can choose to save the recording either on your local computer (your PC) or on the cloud. Even if this option is turned off, you can manually start recording during the meeting.
-  * For more details, please refer to “[Recording Zoom Meetings](/en/zoom/usage/recording/)”.
+  * For more details, please refer to “[Recording Zoom Meetings](../usage/recording/)”.
 * Approve or Block Entry to Users from Specific Regions/Countries
   * This setting allows you to permit or deny participation from specific regions or countries. When enabled, you can select the regions or countries and specify whether to allow or block participation from those locations.
 * Alternative Hosts
   * An "Alternative Host" is a user who can start the meeting on behalf of the host. You can designate an alternative host using this field.
   * However, only users with a UTokyo Account can be designated. To assign someone, enter their UTokyo Account (10-digit Common ID + `@utac.u-tokyo.ac.jp`).
-  * For more details, please refer to the section on "Alternative Host" in "[Host and Co-host Controls in a Zoom Meeting](/zoom/misc/management_roles/#alt_host)" (in Japanese).
+  * For more details, please refer to the section on "Alternative Host" in "[Host and Co-host Controls in a Zoom Meeting (in Japanese)](/zoom/misc/management_roles/#alt_host)".
 
 ## How to Set Up Commonly Used Features
 {:#popular_functions}
@@ -163,7 +163,7 @@ This section will explain how to open "My Settings" and introduce some commonly 
 
 ### How to Open the "My Settings" Page
 
-1. Access your [Zoom My profile](https://u-tokyo-ac-jp.zoom.us/profile) through a web browser.
+1. Access your [Zoom My Profile](https://u-tokyo-ac-jp.zoom.us/profile) through a web browser.
 2. Select "Settings" from the side menu.
 ![](./images/settings.png){:.border}
 
@@ -184,16 +184,16 @@ The settings for these features can be accessed by selecting "Meetings" from the
   * For more details, please refer to "[Using Chat in Zoom Meetings (in Japanese)](/zoom/usage/chat/)".
 * Co-Host
   * A co-host is a role that the host can assign to others during the meeting, and the co-host has access to almost the same functions as the host. If this option is enabled, you can assign co-hosts during the meeting, so it is recommended to leave this on unless there is a specific reason to disable it.
-  * For more details, please refer to “[Host and Co-host Controls in a Zoom Meeting](/en/zoom/misc/management_roles/)”.
+  * For more details, please refer to “[Host and Co-host Controls in a Zoom Meeting](../misc/management_roles/)”.
 * Meeting Polls / Quizzes
   * This is a useful feature for collecting responses to questions from all participants during the meeting. It is recommended to leave it enabled unless there is a specific reason to disable it.
-  * For more details, please refer to "[Polls in Zoom](/en/zoom/usage/poll/)".
+  * For more details, please refer to "[Polls in Zoom](../usage/poll/)".
 * Screen Sharing
   * This feature allows you to share the content displayed on your screen with participants during the meeting.
   * When this option is enabled, you can further specify who is allowed to share their screen (whether only the host can share, or if participants other than the host can also share their screen).
   * It is recommended to leave this enabled unless there is a specific reason to disable it.
-  * For more details, please refer to “[Screen Sharing in Zoom](/en/zoom/usage/screen_sharing/)”.
+  * For more details, please refer to “[Screen Sharing in Zoom](../usage/screen_sharing/)”.
 * Breakout Room - Meetings
-  * For an explanation of Breakout Rooms, please refer to "[How to use Breakout Rooms](/en/zoom/usage/breakout/)".
+  * For an explanation of Breakout Rooms, please refer to "[How to use Breakout Rooms](../usage/breakout/)".
 * Automated Captions
   * When enabled, the content spoken by participants is automatically transcribed and displayed as captions on the Zoom screen.
