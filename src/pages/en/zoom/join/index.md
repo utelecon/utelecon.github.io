@@ -26,7 +26,7 @@ Note: While the steps described here are primarily for joining from a PC, they a
 {:#procedure-url}
 
 1. Open the invitation URL in your browser. For example, a Zoom meeting URL created with a UTokyo account typically looks like `https://u-tokyo-ac-jp.zoom.us/j/99999999999?pwd=xxx...`. The `99999999999` part represents the meeting ID, and the `xxx...` part represents the passcode.
-2. A page titled "Join Meeting" will appear in your browser.
+2. A page titled "Join meeting" will appear in your browser.
     - If the Zoom app is installed, a pop-up may appear asking for permission to launch the app. In that case, please follow the instructions in the pop-up to allow the app to launch. For instructions after launching the app, see the "[Using the App](.#procedure-app)" section.
     
     - If the Zoom app is not installed, the pop-up will not appear. How to join a Zoom meeting without the app is detailed later in the "[Using the Browser](.#procedure-browser)" section.
