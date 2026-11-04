@@ -63,7 +63,7 @@ If you haven't installed the app, or if the app is installed but won't open, con
 
 1. Launch the Zoom app and click the "Join" button.
 ![](./zoom_join_app.png)
-2. A "Join Meeting" screen will appear. Enter the meeting ID in the "Meeting ID or personal link name" field. If you are not signed in, enter the name that you want displayed to participants in the meeting. When finished, click "Join".
+2. A "Join meeting" screen will appear. Enter the meeting ID in the "Meeting ID or personal link name" field. If you are not signed in, enter the name that you want displayed to participants in the meeting. When finished, click "Join".
 ![](./zoom_join_app_setup.png){:.small}
 3. After clicking "Join", you may enter the meeting immediately, or additional steps may be required. If you cannot enter the meeting directly, complete the following steps based on which screen appears.
     - You may see a screen that states "The Zoom account isn't authorized for this meeting". If this screen appears, click "Switch account" and sign in to Zoom with your UTokyo Account. For sign-in instructions, refer to "[Sign-in Methods for Zoom](./../signin/)".
