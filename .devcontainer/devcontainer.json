@@ -1,7 +1,8 @@
+//ウェブで記事を書くためのCodespaces
 {
   "name": "utelecon",
 
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
 
   "features": {
     "ghcr.io/devcontainers/features/git:1": {
@@ -28,7 +29,7 @@
     }
   },
 
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "npm ci",
 
   "remoteUser": "node"
 }
