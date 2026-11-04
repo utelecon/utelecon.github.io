@@ -51,7 +51,7 @@ If you haven't installed the app, or if the app is installed but won't open, con
 1. At the bottom of the screen shown below, click "Join from browser".
 ![](./zoom_join_browser.png){:.border}
     - You may see a screen that states "Sign in to join this meeting". If this screen appears, click "Sign in" and sign in to Zoom with your UTokyo Account. For sign-in instructions, refer to "[Sign-in Methods for Zoom](./../signin/)".
-    ![](zoom_join_browser_signin.png){:.border}
+    ![](./zoom_join_browser_signin.png){:.border}
     - If a screen prompting "Enter meeting passcode" appears, enter the passcode.
 2. You will see a screen to configure your display name, audio, and video for the meeting. If you are not signed in, enter the name that you wish to be displayed to participants in the meeting. If you are signed in, your name will be entered automatically. Set your audio device and toggle the mute and video buttons on/off, then click "Join".
 ![](./zoom_join_browser_setup.png){:.border}
