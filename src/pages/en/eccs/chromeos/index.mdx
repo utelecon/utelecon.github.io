@@ -1,9 +1,218 @@
 ---
-title: chromeos
+title: ChromeOS
 breadcrumb:
-  title: chromeos
+  title: ChromeOS
 ---
 
-import InPreparationECCS2026 from "@components/en/InPreparationECCS2026.mdx";
+## Overview
 
-<InPreparationECCS2026 />
+ECCS provides devices running ChromeOS (hereinafter referred to as "ChromeOS devices"). If you have an ECCS Cloud Email account, you can use these devices to browse the web, join Zoom meetings, and more.
+
+The device provided varies by seat, but each seat is equipped with either a Chromebook or a Chromebox. For locations, see the [ECCS page](../#location_and_business_hours).
+
+You can also connect your own device and use only the peripherals, such as the monitor and camera, without using the ChromeOS device provided at the seat.[^1] For instructions, see [Seats for Using Your Own Device](/eccs/byod/)(in Japanese).
+
+[^1]: You don't need to have an ECCS Cloud Email account if you use only the peripherals.
+
+### Specifications
+
+For detailed specifications and instructions on using the equipment, see [Hardware Usage and Configuration](./hardware/).
+
+There are two types of devices: Chromebook and Chromebox. Both run ChromeOS, and there is no difference in the software available on either type.
+
+- Chromebook
+  - Acer Chromebook Plus Spin 514
+    - Intel(R) Core(TM) 5 120U, SSD 128GB, memory 16GB
+- Chromebox
+  - Acer Chromebox CXI3
+    - Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, SSD 64GB, memory 8GB
+  - ASUS Chromebox 4
+    - Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz, SSD 256GB, memory 16GB
+  - ASUS Chromebox 4
+    - Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz, SSD 128GB, memory 8GB
+
+Bluetooth 5.2 is supported and has been confirmed to work on the Chromebook. For details, see [Hardware Usage and Configuration](./hardware/).
+
+Although these devices have internal storage, there is no guarantee that your data will still be there when you sign in again. **Always save any data you need somewhere outside the device.**
+
+## Important Precautions
+
+This section covers only the most important precautions.
+
+- As a rule, do not disconnect any cables.
+  - Chromebook
+    ![Two USB Type-C cables are connected to the Chromebook. One is secured to the Chromebook and cannot be unplugged, while the other connects to the dock and can be freely plugged in and unplugged. Several cables are connected to the dock. Labels bearing matching numbers are attached to the cables and the corresponding ports on the dock. There are also unused Type-C, Type-A, and SD card ports, which can be used freely.](./img/cables.drawio.png)
+
+    - **The following cables and ports may be disconnected or used** (highlighted with light blue boxes in the image):
+      - The USB Type-C cable connecting the Chromebook to the dock: You may disconnect it and connect it to your own device.
+      - Among the cables connected to the dock, the unused ports labeled "SD card", "Type-A", and "Type-C" on the back: You may connect your own device to these ports.
+    - **Do not disconnect or unplug the following cables or ports** (highlighted with red boxes in the image):
+      - The USB Type-C cable that is not connected to the dock (it is secured to the Chromebook).
+      - Among the cables connected to the dock, those with numbers written on the back.
+    {/*- ケーブルが外れている場合の対応については，[ケーブルの接続TODO](./hardware/#cables)を参照してください．*/}
+    - Chromebox
+      - Do not disconnect the cables attached to the Chromebox or the monitor.
+- Do not connect to Wi-Fi.
+  - ChromeOS devices are connected to the network via Ethernet, so you can access the internet and other services without connecting to Wi-Fi. If you accidentally connect to a Wi-Fi network, see [If You Have Connected to Wi-Fi](#disconnect-wifi) and delete the saved connection information.
+- When you finish using the device or leave your seat for an extended period, **make sure to save any necessary files before logging out**. Do not leave the device signed in, as this will inconvenience the next person who wants to use it.
+
+## How to Use the Devices
+
+This page focuses on aspects specific to ECCS ChromeOS devices. For general instructions on using ChromeOS, see [Google Help](https://support.google.com).
+
+On ECCS ChromeOS devices, **data saved on the device is not guaranteed to be retained, so you must save your files to cloud storage such as Google Drive or OneDrive**. For details, see [Storage](./storage/).
+
+This page explains how to start and end a session. For other topics, see the following pages.
+
+- [Restart](./restart/)
+- [Applications](./apps/)
+- [Storage](./storage/)
+- [Languages](./languages/)
+- [Accessibility](./accessibility/)
+- [Linux](./linux/)
+- [the Remote Windows Environment](../vdi-windows/usage/#eccs-chromeos)
+- [Hardware](./hardware/)
+
+### Startup and Shutdown
+
+#### Sign In
+{:#signin}
+
+1. Turn on the device or wake it from sleep.
+  - (For Chromebooks) Open the Chromebook screen once.
+     <details>
+       <summary>When the external display does not turn on</summary>
+         1. Check whether the USB Type-C cable connected to the dock is disconnected. If it has, reconnect it.
+         ![](./img/display-troubleshooting-dock.drawio.png){:.small}
+         2. Check whether the power indicator at the bottom-right corner of the display is lit. If it is not lit, the display is turned off. Press the power button to turn it on.
+         ![](./img/display-troubleshooting-display.drawio.png){:.small}
+        3. If the display still does not turn on, the dock may not have been recognized during startup due to a known issue. For instructions on how to resolve this issue, see [Dock Not Recognized When Starting Up the Chromebook](../defects/chromebook-dock-recognition/).
+     </details>
+  - (For Chromebox) First, press the Ctrl key on the keyboard.[^2]
+
+    [^2]: You can press any key, but it is best to avoid keys such as Enter, as they may trigger an unintended action.
+
+    - If the display is off (the power indicator at the bottom right is not lit), press the power button at the bottom right of the display to turn it on.
+    - If the Chromebox itself is off, press the power button on the back of the display, where the Chromebox is located.
+2. You may be prompted to connect to Wi-Fi, but **ignore this screen and wait for it to change.**
+
+  <details id="disconnect-wifi">
+    <summary>If You Have Connected to Wi-Fi</summary>
+
+     If you have connected to Wi-Fi, delete the saved connection so that others cannot use the connection information. You can remove it from the sign-in screen, but networks that are not currently available or cannot be connected to can only be removed after signing in.
+
+     **To Remove the Network from the Sign-In Screen**
+
+     1. Click the time display in the bottom-right corner, then click the button labeled "Ethernet".
+        ![](./img/wifi-disconnect-signin-1.drawio.png)
+     2. Select the Wi-Fi network you connected to.
+        ![](./img/wifi-disconnect-signin-2.drawio.png)
+     3. Click "Forget".
+        ![](./img/wifi-disconnect-signin-3.drawio.png)
+
+     **To Remove the Network After Sign In**
+
+     1. Open "Settings" and select "Network" from the tabs on the left.
+     2. Open "Wi-Fi", then open "Known networks".
+        ![](./img/wifi-disconnect-settings-1.drawio.png)
+     3. Select the network you want to remove, then click "Forget".
+        ![](./img/wifi-disconnect-settings-2.drawio.png)
+  </details>
+
+   In the "Enter your email" field, enter your [ECCS Cloud Email](/en/google/) address (the address ending in `@g.ecc.u-tokyo.ac.jp`), then click "Next".
+
+  <details>
+    <summary>If “Couldn't find your Google Account” Appears</summary>
+    Go to the [UTokyo Account User Menu](https://utacm.adm.u-tokyo.ac.jp/UserMenu/LoginServlet), select "ECCS Cloud Email", and enter the address shown in the "Current Email Address" field. Email addresses configured as [aliases](/en/google/misc/localpart/) for your ECCS Cloud Email account cannot be used.
+  </details>
+
+4. You will be prompted to sign in with your UTokyo Account. Complete the sign-in process.
+  - You can also sign in without a password using a FIDO security key. Connect the security key to a USB Type-A or USB Type-C port on the dock, click "Sign-in Options", and select "Face, fingerprint, PIN or security key".
+    - If the key is not recognized, unplug it and reconnect it.
+  - If you are asked "Stay signed in?", it doesn't matter whether you select Yes or No.
+
+  <details>
+     <summary>If "2-Step Verification" Appears at the Next Step</summary>
+     Complete two-step verification using one of the methods shown.
+  </details>
+
+5. If you signed in without a password, you will be prompted to set one ("Please create a password to protect your local data").
+  - Choose a password and enter it.
+  - You will need this password to sign in again after locking the device. You will also need to enter this password if data from your previous session remains on the device when you sign in next time.
+6. If data from your previous session remains on the device, you may be asked to enter the password you used or set during that session ("Your password has changed since the last time you signed in").
+  - This message appears if the password you used or set for the current sign-in differs from the one you used the last time you signed in to that device.
+  - Enter the password you used the last time you used that device.
+    - If you signed in to your UTokyo Account using a password last time, enter your UTokyo Account password. If you have changed your password since then, use the old password.
+    - If you signed in without a password last time, enter the password you set during that session.
+
+  <details>
+     <summary>If You Have Forgotten Your Password</summary>
+
+     Data stored on the device is encrypted, so you cannot recover it if you forget the password. However, you can still start using the device by deleting the stored data.
+
+     Only data stored on the device will be deleted. This will not affect Google Drive or other services associated with ECCS Cloud Email.
+
+     1. Click "Forgot old password".
+     2. A warning stating "Local data will be deleted" will appear. Click "Continue anyway".
+  </details>
+
+7. The "Control your data" / "データの管理" screen will appear. Select your preferred options, use the "↓" button to scroll to the bottom, and then click "Accept and continue" / "同意して続行".
+  - You cannot turn off the sending of diagnostic and usage data.
+  - If a "Switch device language?" notification appears in the bottom-right corner, click "Switch" to change the device language to the one set in your Google Account.
+8. The device will finish starting up.
+
+  You may see the following notifications when the device starts up.
+
+  - "OneDrive setup failed" / "OneDriveを設定できませんでした"
+    - If you want to connect to OneDrive, click "Connect to OneDrive manually". For details, see [Storage](./storage/#onedrive).
+  - "言語が変更されました"
+    - To switch back to English, click "Switch back to English (United States) (restart required)". You will be logged out automatically and returned to the sign-in screen. Sign in again.
+    - Note that if you select "Forgot old password" in Step 6 when signing in again, the language setting will not take effect.
+    - If you want to switch to a language other than English, or if the notification has disappeared, see [Language and Keyboard Layout Settings](./languages).
+  - "Update ChromeOS"
+    - ECCS ChromeOS devices are updated regularly. No action is required.
+
+#### Locking the Screen
+{:#lock}
+
+Always lock the device if you leave your seat temporarily. The device also locks automatically after 15 minutes of inactivity.
+
+This is intended only for brief absences, such as going to the restroom. If you will be away for an extended period, please [sign out](#logout), as leaving the seat occupied may inconvenience other users. Please also note that the Information Technology Center does not guarantee that your session will remain signed in if you leave for a long time.
+
+To lock the device, use one of the following keyboard shortcuts: 🔍+L or ◉+L (on a Chromebook), or Windows+L (on a Chromebox). Alternatively, click the time display in the bottom-right corner, click the power icon, and select "Lock".
+
+![](./img/lock.drawio.png){:.small}
+
+When signing in again after locking the device, you will be asked to enter a password. The password required depends on how you signed in:
+
+- If you did not use passwordless sign-in (that is, you entered a password when you first signed in): your UTokyo Account password.
+- If you used passwordless sign-in: the password you entered or set during sign-in.
+
+#### Ending a Session (Sign Out)
+{:#logout}
+
+Always sign out when you have finished using the device.
+
+To sign out, click the time display in the bottom-right corner, then click "Sign out".
+
+![](./img/logout.drawio.png){:.small}
+
+To avoid the [issue where the dock is not recognized when a Chromebook starts up](../defects/chromebook-dock-recognition/), the devices are configured so that they cannot be shut down. (Although Chromebox devices are not affected by this issue, they likewise cannot be shut down.)
+
+## Additional Notes
+
+You can use a Chromebook with its lid either open or closed. Either is fine.
+
+## Handling Malfunctions and Problems
+
+### Known Issues
+
+For known issues with ChromeOS devices, see [Known Issues with ChromeOS Devices](../defects/#chromeos).
+
+{/*また，ケーブルが外れている場合の対応については，[ケーブルTODO](./hardware/#cable)を参照してください．*/}
+
+### Contact for Reporting Problems
+
+If a cable has come loose and you cannot reconnect it yourself, or if you discover a bug or hardware failure, contact the support desk listed on the [ECCS Usage Support](../support/) page.
+
+When contacting support, it will help to provide the building name, floor, room number, and the identifier attached to the device or display (e.g., `cbh*****` or `cbx***`).
