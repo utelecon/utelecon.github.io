@@ -1,9 +1,117 @@
 ---
-title: storage
+title: Saving Data (Storage) on ChromeOS Devices
 breadcrumb:
   title: storage
 ---
 
-import InPreparationECCS2026 from "@components/en/InPreparationECCS2026.mdx";
+## Overview
 
-<InPreparationECCS2026 />
+On ChromeOS devices under ECCS2026, you can save data to [Google Drive](#google-drive), [OneDrive](#onedrive), or [external storage connected via USB or other interfaces](#external-storage).
+
+Please note that data saved locally on a ChromeOS device will be deleted in order of age when local storage runs low. Even if you plan to use the same device next time, there is no guarantee that data saved to local storage will remain. Please make sure to **save any necessary data** to one of the above locations.
+
+Additionally, the "Files" app on ChromeOS devices can only access Google Drive associated with an ECCS Cloud Email account, OneDrive associated with a UTokyo Microsoft License, and external storage. If you wish to use other cloud storage services (including personal accounts), you can only access them via a web browser.
+
+## Using Google Drive
+{:#google-drive}
+
+### Using with an ECCS Cloud Email Account
+
+If you use the Google Drive associated with your ECCS Cloud Email account (UTokyo's Google Account), signing in to the device will automatically sign you in to Drive as well, making it easy to use. You can access it via both the ["Files" app](#google-drive-eccs-files-app) and a [web browser](#google-drive-eccs-browser).
+
+#### Steps for Using via the "Files" App
+{:#google-drive-eccs-files-app}
+
+1. Open the "Files" app from the menu.
+1. Select "Google Drive" in the left sidebar.
+   <details>
+   <summary>If Data Saved in Google Drive Does Not Display Properly in the "Files" App</summary>
+   * Immediately after signing in, files may be set to read-only. In this case, please wait a while and try opening them again.
+   * If a message such as "Because there is not enough free space on the device..." is displayed, the system is unable to download (sync) Google Drive data to the local device. In this case, [using Google Drive via a web browser](#google-drive-eccs-browser) is recommended.
+     ![](drive-insufficient-space.png){:.small.border}
+   </details>
+
+#### Steps for Using via a Web Browser
+{:#google-drive-eccs-browser}
+
+Since you are already signed in with your ECCS Cloud Email account, select "Google Drive" from the menu or open Google Drive in a web browser.
+
+### Using with Accounts Other Than ECCS Cloud Email
+
+You can also use Google accounts other than your ECCS Cloud Email account (UTokyo's Google Account). However, these can only be accessed via a web browser.
+
+1. Select "Add Google Account" from Menu > Settings app > Accounts, or select "Add another account" in your web browser.
+  <figure class="gallery">![](add-google-account-settings.png){:.medium.border}![](add-google-account-browser.png){:.medium.border}</figure>
+1. Select "OK".
+  ![](add-google-account-confirm.png){:.small.border}
+1. Sign in with the Google account you wish to use for Google Drive.
+  <figure class="gallery">![](google-signin-email.png){:.medium.border}![](google-signin-password.png){:.medium.border}![](google-signin-2fa.png){:.medium.border}</figure>
+1. Review the terms and select "Agree".
+  ![](google-signin-agree.png){:.small.border}
+1. [Access Google Drive](../google/drive/basic/) via the web browser.
+
+## Using OneDrive
+{:#onedrive}
+
+You can easily access [OneDrive](../microsoft/onedrive) under the UTokyo Microsoft License directly from the "Files" app. Naturally, as with other operating systems, you can also access it [via a web browser](../microsoft/onedrive/#signin). (If you wish to use OneDrive with an account other than your UTokyo Microsoft License, it can only be accessed via a web browser.)
+
+### Using OneDrive with a UTokyo Microsoft License
+
+1. Open the "Files" app from the menu.
+1. Select "Microsoft OneDrive" in the left sidebar.
+
+#### If You Receive the Notification "OneDrive setup failed" / "OneDriveを設定できませんでした"
+
+Upon startup, a notification such as "OneDrive setup failed" or "OneDriveを設定できませんでした" may appear.
+
+![](onedrive-setup-failed.png){:.medium.border}
+
+If you receive this notification and wish to connect to OneDrive under your UTokyo Microsoft License, please follow the steps below:
+
+1. Click "Set up OneDrive manually" (or "OneDriveに手動で接続") on the notification.
+1. In the "Files" app, select "Microsoft OneDrive" and click "Log in".
+  ![](onedrive-files-app.png){:.medium.border}
+1. Follow the on-screen prompts to sign in or select your account.
+  ![](onedrive-signin-select-account.png){:.small.border}
+1. Review the requested permissions and click "Accept".
+  ![](onedrive-signin-permission.png){:.small.border}
+1. Once the connection is complete, you will be able to access your OneDrive files from the "Files" app.
+  ![](onedrive-signed-in.png){:.small.border}
+
+## Using USB Flash Drives, SD Cards, etc.
+{:#external-storage}
+
+External storage devices such as USB flash drives and SD cards can be used.
+
+When you finish using an external storage device, always perform the "[Ejection Instructions](#eject)." Failing to do so may result in data loss or damage to the external storage device.
+
+### Instructions for Use
+
+1. Insert your USB flash drive or other storage device.
+   * For Chromebooks, connect it to a USB hub or the USB-A port on the right side of the device. For details, refer to "[Hardware](../hardware/)."
+1. Open the "Files" app from the menu.
+   * You can also open it from the pop-up that appears.
+     ![](removable-device-notification.png){:.medium.border}
+
+### Ejection Instructions
+{:#eject}
+
+1. Open the "Files" app.
+1. In the left sidebar, select the eject icon (⏏) located to the right of the external media name.
+  ![](usb-eject.png){:.medium.border}
+1. Wait until the name of the external media disappears from the sidebar before unplugging it.
+
+## Miscellaneous
+
+* You can check the settings for Google Drive and OneDrive in "Settings > System Preferences > Files."
+* To connect to an external SSH server, you can use the "[Linux development environment](../linux/)."
+  * Network file sharing ("Settings > System Preferences > Files") is not available.
+* To enable reading and writing to external storage (such as USB flash drives or SD cards) from Google Play apps, enable the use of external storage under "Settings > System Preferences > Storage Management > External Storage Settings."
+  ![](external-storage-settings.png){:.medium.border}
+* [File sharing via Nearby Share](https://support.google.com/chromebook/answer/10751738?hl=en) and [photo synchronization via connection with Android smartphones](https://support.google.com/chromebook/answer/9094445?hl=en) are disabled by administrator settings.
+
+## Reference Information
+
+* [Open, save, or delete files on your Chromebook](https://support.google.com/chromebook/answer/1700055?hl=en) (Official Help)
+* [Share files with nearby devices](https://support.google.com/chromebook/answer/10751738?hl=en) (Official Help)
+
