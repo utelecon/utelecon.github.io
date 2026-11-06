@@ -1,0 +1,42 @@
+//ウェブで記事を書くためのCodespaces
+{
+  "name": "utelecon",
+
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest",
+      "ppa": "false"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "unifiedjs.vscode-mdx",
+        "esbenp.prettier-vscode",
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "mushan.vscode-paste-image",
+        "shd101wyy.markdown-preview-enhanced",
+        "streetsidesoftware.code-spell-checker"
+      ]
+      //"settings":[]
+    }
+  },
+
+  "forwardPorts": [4321],
+
+  "portsAttributes": {
+    "4321": {
+      "label": "Astro Preview",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "postCreateCommand": "npm ci",
+
+  "remoteUser": "node"
+}
