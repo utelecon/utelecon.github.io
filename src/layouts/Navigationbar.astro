@@ -1,0 +1,604 @@
+
+---
+import { getCollection, getEntry } from "astro:content";
+import type { Lang } from "@components/types";
+
+interface Props {
+  lang: Lang;
+  currentUrl: string;
+}
+
+const { lang, currentUrl } = Astro.props;
+
+// ナビゲーションを取得
+const navEntry = await getEntry("nav", lang);
+
+// ナビゲーションの型定義
+interface NavigationItem {
+  name?: string;
+  url?: string;
+  contents?: NavigationItem[];
+}
+
+interface CurrentSection {
+  url: string | null;
+  name: string | null;
+}
+
+// 現在のセクションを特定
+function findCurrentSection(): CurrentSection {
+  let currentSection: string | null = null;
+  let currentSectionName: string | null = null;
+
+  function searchContents(contents: NavigationItem[]) {
+    for (const content of contents) {
+      const navUrl = content.url;
+
+      if (
+        navUrl &&
+        (
+          currentUrl === navUrl ||
+          currentUrl.startsWith(
+            navUrl + (navUrl.endsWith("/") ? "" : "/")
+          )
+        )
+      ) {
+        if (
+          currentSection === null ||
+          navUrl.length > currentSection.length
+        ) {
+          currentSection = navUrl;
+          currentSectionName = content.name ?? null;
+        }
+      }
+
+      if (content.contents?.length) {
+        searchContents(content.contents);
+      }
+    }
+  }
+
+  if (navEntry?.data) {
+    searchContents(navEntry.data as NavigationItem[]);
+  }
+
+  return {
+    url: currentSection,
+    name: currentSectionName,
+  };
+}
+
+const currentSection = findCurrentSection();
+
+// ページ一覧を取得
+const pages = await getCollection("pages");
+
+interface PageEntry {
+  title: string;
+  url: string;
+  depth: number;
+  parentUrl: string | null;
+  hasChildren: boolean;
+  expanded: boolean;
+}
+
+const sectionPages: PageEntry[] = [];
+
+// URL末尾のスラッシュを統一
+function normalizeUrl(url: string): string {
+  return url.replace(/\/+$/, "");
+}
+
+const normalizedCurrentUrl = normalizeUrl(currentUrl);
+
+// 現在のセクション配下のページを取得
+if (currentSection.url) {
+  for (const page of pages) {
+    const pageUrl = `/${page.id}`;
+
+    // 言語チェック
+    if (pageUrl.startsWith("/en/") !== (lang === "en")) {
+      continue;
+    }
+
+    // 現在のセクション配下か確認
+    const sectionPrefix =
+      currentSection.url +
+      (currentSection.url.endsWith("/") ? "" : "/");
+
+    if (!pageUrl.startsWith(sectionPrefix)) {
+      continue;
+    }
+
+    // フィルタリング
+    const {
+      layout,
+      sitemap,
+      redirect_to,
+      title,
+    } = page.data;
+
+    if (
+      layout === false ||
+      sitemap === false ||
+      redirect_to ||
+      !title
+    ) {
+      continue;
+    }
+
+    // URLの深さを計算
+    const relativePath = pageUrl.slice(
+      currentSection.url.length
+    );
+
+    const depth = relativePath
+      .split("/")
+      .filter(Boolean).length;
+
+    sectionPages.push({
+      title,
+      url: pageUrl,
+      depth,
+      parentUrl: null,
+      hasChildren: false,
+      expanded: false,
+    });
+  }
+
+  // URLでソート
+  sectionPages.sort((a, b) =>
+    a.url.localeCompare(b.url)
+  );
+
+  // 親ページを特定
+  for (const page of sectionPages) {
+    const normalizedPageUrl = normalizeUrl(page.url);
+
+    let parent: PageEntry | undefined;
+
+    for (const candidate of sectionPages) {
+      if (
+        candidate.url === page.url ||
+        candidate.depth >= page.depth
+      ) {
+        continue;
+      }
+
+      const normalizedCandidateUrl =
+        normalizeUrl(candidate.url);
+
+      if (
+        normalizedPageUrl.startsWith(
+          normalizedCandidateUrl + "/"
+        )
+      ) {
+        if (
+          !parent ||
+          candidate.depth > parent.depth
+        ) {
+          parent = candidate;
+        }
+      }
+    }
+
+    page.parentUrl = parent?.url ?? null;
+
+    if (parent) {
+      parent.hasChildren = true;
+    }
+
+    // 現在のページが配下にある場合は自動展開
+    page.expanded =
+      normalizedCurrentUrl.startsWith(
+        normalizedPageUrl + "/"
+      );
+  }
+}
+---
+
+{
+  currentSection.url &&
+  sectionPages.length > 0 && (
+    <div id="sidebar-container" class="is-open">
+
+      <!-- サイドバー開閉ボタン -->
+      <button
+        id="sidebar-toggle"
+        type="button"
+        aria-label="サイドバーを閉じる"
+        aria-expanded="true"
+        aria-controls="sidebar"
+      >
+        <span class="toggle-icon">‹</span>
+      </button>
+
+      <!-- サイドバー -->
+      <aside id="sidebar">
+        <nav id="sidebar-nav">
+
+          <b id="sidebar-title">
+            {currentSection.name?.replace(/<\/?small>/g, "")}
+          </b>
+
+          <ul id="sidebar-list">
+
+            {sectionPages.map((page) => (
+              <li
+                class:list={{
+                  "sidebar-item": true,
+                  "has-children": page.hasChildren,
+                }}
+                data-url={page.url}
+                data-parent-url={page.parentUrl ?? ""}
+                data-depth={page.depth}
+                data-expanded={page.expanded ? "true" : "false"}
+                hidden={false}
+              >
+
+                <div class="sidebar-item-content">
+
+                  {page.hasChildren ? (
+                    <button
+                      type="button"
+                      class="sidebar-expand"
+                      aria-label={`${page.title}を展開`}
+                      aria-expanded={page.expanded ? "true" : "false"}
+                    >
+                      <span class="expand-icon">›</span>
+                    </button>
+                  ) : (
+                    <span class="sidebar-expand-placeholder"></span>
+                  )}
+
+                  <a
+                    href={`${page.url}/`}
+                    class:list={{
+                      active:
+                        normalizeUrl(page.url) === normalizedCurrentUrl,
+                    }}
+                  >
+                    {page.title}
+                  </a>
+
+                </div>
+
+              </li>
+            ))}
+
+          </ul>
+        </nav>
+      </aside>
+    </div>
+  )
+}
+
+<script>
+  // DOM取得
+  const sidebarContainer = document.getElementById(
+    "sidebar-container"
+  );
+
+  const sidebarToggle = document.getElementById(
+    "sidebar-toggle"
+  );
+
+  const sidebarItems = Array.from(
+    document.querySelectorAll<HTMLElement>(".sidebar-item")
+  );
+
+  if (sidebarContainer && sidebarToggle) {
+
+    // サイドバー全体の開閉
+    sidebarToggle.addEventListener("click", () => {
+      const isOpen =
+        sidebarContainer.classList.contains("is-open");
+
+      sidebarContainer.classList.toggle("is-open", !isOpen);
+      sidebarContainer.classList.toggle("is-collapsed", isOpen);
+
+      sidebarToggle.setAttribute(
+        "aria-expanded",
+        String(!isOpen)
+      );
+
+      sidebarToggle.setAttribute(
+        "aria-label",
+        isOpen
+          ? "サイドバーを開く"
+          : "サイドバーを閉じる"
+      );
+
+      sidebarToggle.querySelector(".toggle-icon")!.textContent =
+        isOpen ? "›" : "‹";
+    });
+
+    // URLから項目を取得
+    const itemMap = new Map<string, HTMLElement>();
+
+    sidebarItems.forEach((item) => {
+      itemMap.set(item.dataset.url!, item);
+    });
+
+    // 各項目の開閉状態を初期化
+    function initializeItems() {
+      sidebarItems.forEach((item) => {
+        const toggle = item.querySelector<HTMLButtonElement>(
+          ".sidebar-expand"
+        );
+
+        if (!toggle) return;
+
+        const isExpanded =
+          item.dataset.expanded === "true";
+
+        toggle.setAttribute(
+          "aria-expanded",
+          String(isExpanded)
+        );
+      });
+
+      updateVisibility();
+    }
+
+    // 親階層の状態に応じて表示・非表示を更新
+    function updateVisibility() {
+      sidebarItems.forEach((item) => {
+        let parentUrl = item.dataset.parentUrl ?? "";
+        let visible = true;
+
+        while (parentUrl) {
+          const parent = itemMap.get(parentUrl);
+
+          if (!parent) break;
+
+          const parentToggle =
+            parent.querySelector<HTMLButtonElement>(
+              ".sidebar-expand"
+            );
+
+          if (
+            !parentToggle ||
+            parentToggle.getAttribute("aria-expanded") !== "true"
+          ) {
+            visible = false;
+            break;
+          }
+
+          parentUrl = parent.dataset.parentUrl ?? "";
+        }
+
+        item.hidden = !visible;
+      });
+    }
+
+    // 各階層の開閉
+    sidebarItems.forEach((item) => {
+      const toggle = item.querySelector<HTMLButtonElement>(
+        ".sidebar-expand"
+      );
+
+      if (!toggle) return;
+
+      toggle.addEventListener("click", () => {
+        const isExpanded =
+          toggle.getAttribute("aria-expanded") === "true";
+
+        toggle.setAttribute(
+          "aria-expanded",
+          String(!isExpanded)
+        );
+
+        updateVisibility();
+      });
+    });
+
+    initializeItems();
+  }
+</script>
+
+<style lang="scss">
+  @use "@styles/color";
+  @use "@styles/toc";
+
+  // サイドバー全体
+  #sidebar-container {
+  position: sticky;
+  top: 2rem;
+  flex: 0 0 288px;
+  width: 288px;
+  min-width: 0;
+  height: calc(100vh - 180px);
+  transition:
+    width 0.2s ease,
+    flex-basis 0.2s ease;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+#sidebar-container.is-collapsed {
+  width: 32px;
+  flex-basis: 32px;
+}
+
+#sidebar {
+  width: 288px;
+  height: 100%;
+  padding: 2rem 0.5rem 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+#sidebar-container.is-collapsed #sidebar {
+  display: none;
+}
+
+  // サイドバー全体の開閉ボタン
+  #sidebar-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 28px;
+  height: 28px;
+  padding: 0;
+
+  border: none;
+  border-radius: 3px;
+  background: transparent;
+
+  color: color.$text-color;
+  font-size: 1.4rem;
+  cursor: pointer;
+
+  &:hover {
+    background: #eee;
+  }
+}
+
+// 閉じているとき
+#sidebar-container.is-collapsed #sidebar-toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+}
+
+  // ナビゲーション
+  #sidebar-nav {
+    padding: 0;
+  }
+
+  #sidebar-title {
+    display: block;
+    margin: 0 0 0.4em;
+    padding: 0;
+    border: none;
+    color: color.$text-color;
+  }
+
+  // ページ一覧
+  #sidebar-list {
+    position: relative;
+    margin: 0;
+    padding: 0 0 16px;
+    list-style: none;
+  }
+
+  #sidebar-list li {
+    margin: 0;
+    padding: 0;
+  }
+
+  // 階層に応じたインデント
+  .sidebar-item-content {
+    display: flex;
+    align-items: baseline;
+    gap: 0.15em;
+    padding-left: calc((var(--depth, 1) - 1) * 1em);
+  }
+
+  .sidebar-item {
+    --depth: 1;
+  }
+
+  .sidebar-item[data-depth="2"] {
+    --depth: 2;
+  }
+
+  .sidebar-item[data-depth="3"] {
+    --depth: 3;
+  }
+
+  .sidebar-item[data-depth="4"] {
+    --depth: 4;
+  }
+
+  .sidebar-item[data-depth="5"] {
+    --depth: 5;
+  }
+
+  .sidebar-item[data-depth="6"] {
+    --depth: 6;
+  }
+
+  // 各階層の開閉ボタン
+  .sidebar-expand,
+  .sidebar-expand-placeholder {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 0 0 1.2em;
+    width: 1.2em;
+    height: 1.5em;
+
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #555;
+
+    font-size: 0.9em;
+  }
+
+  .sidebar-expand {
+    cursor: pointer;
+
+    &:hover {
+      color: color.$link-color-light;
+    }
+  }
+
+  // 開閉アイコン
+  .expand-icon {
+    display: inline-block;
+    transition: transform 0.15s ease;
+  }
+
+  .sidebar-expand[aria-expanded="true"] .expand-icon {
+    transform: rotate(90deg);
+  }
+
+  // ページリンク
+  #sidebar-list li a,
+  #sidebar-list li a:visited {
+    display: block;
+    flex: 1;
+    min-width: 0;
+
+    padding: 0.25em 0;
+
+    font-size: 0.75em;
+    line-height: 1.5;
+
+    color: #333;
+    text-decoration: none;
+
+    transition: color 0.15s ease;
+  }
+
+  #sidebar-list li a:hover,
+  #sidebar-list li a:visited:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+
+  // 現在のページ
+  #sidebar-list li a.active {
+    color: color.$link-color-light;
+    font-weight: 800;
+  }
+
+  // 非表示項目
+  #sidebar-list li[hidden] {
+    display: none;
+  }
+</style>
+
