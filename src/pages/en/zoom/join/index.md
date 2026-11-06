@@ -20,7 +20,7 @@ At the same time, many meetings have additional security settings that make simp
 
 There are two main methods to join a Zoom meeting: [by accessing the invitation URL](.#procedure-url) or [by entering the meeting ID and passcode directly into the app](.#procedure-id-passward). This section explains the specific steps for each method.
 
-Note: While the steps described here are primarily for joining from a PC, they are largely the same for smartphones and other devices. If you do not have the Zoom app installed, please install it. For app installation instructions, refer to "[Zoom App Features and Usage](./../misc/app/#install)".
+Note: While the steps described here are primarily for joining from a PC, they are largely the same for smartphones and other devices. If you do not have the Zoom app installed, please install it. For app installation instructions, refer to "[How to Use the Zoom App and its Features](./../misc/app/#install)".
 
 ### Joining a Meeting by Accessing an Invitation URL
 {:#procedure-url}
