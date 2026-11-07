@@ -14,10 +14,11 @@
     "broken-link": "node scripts/broken-link.js"
   },
   "dependencies": {
-    "@astrojs/mdx": "4.3.14",
-    "@astrojs/partytown": "^2.1.5",
-    "@astrojs/react": "4.4.2",
-    "@astrojs/rss": "^4.0.18",
+    "@astrojs/markdown-remark": "^7.3.4",
+    "@astrojs/mdx": "^8.1.1",
+    "@astrojs/partytown": "^2.1.9",
+    "@astrojs/react": "^7.1.1",
+    "@astrojs/rss": "^4.0.19",
     "@fontsource-variable/open-sans": "^5.2.7",
     "@fontsource/material-icons": "^5.2.7",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -25,7 +26,7 @@
     "@fortawesome/react-fontawesome": "^3.3.0",
     "@material-design-icons/svg": "^0.14.15",
     "@rollup/plugin-yaml": "4.1.2",
-    "astro": "5.18.1",
+    "astro": "^7.4.2",
     "astro-seo": "0.8.4",
     "estree-util-visit": "2.0.0",
     "github-slugger": "^2.0.0",
@@ -62,7 +63,7 @@
     "vfile": "6.0.3"
   },
   "devDependencies": {
-    "@types/hast": "3.0.4",
+    "@types/hast": "3.0.5",
     "@types/js-yaml": "^4.0.9",
     "@types/mdast": "4.0.4",
     "@types/node": "^24.12.0",
