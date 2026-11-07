@@ -2,7 +2,7 @@
 title: Major Update to NII FileSender
 ---
 
-[NII FileSender](/filesender/) is scheduled to undergo a major system update (migration from version 2.x to version 3.x). The new version 3.x system is built and operated entirely separately from the current version 2.x system, and files cannot be transferred between the two versions.
+[NII FileSender](/en/filesender/) is scheduled to undergo a major system update (migration from version 2.x to version 3.x). The new version 3.x system is built and operated entirely separately from the current version 2.x system, and files cannot be transferred between the two versions.
 
 Starting December 1, 2026, new file uploads to version 2.x will no longer be possible. In addition, users accessing the existing NII FileSender URL(`https://filesender.nii.ac.jp/`) will be redirected to the new version 3.x URL (`https://filesender.nii.ac.jp/3/`).
 
