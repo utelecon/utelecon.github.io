@@ -7,6 +7,7 @@ breadcrumb:
 ## Introduction
 {:#introduction}
 This page explains how to create a Zoom meeting in a web browser and provides an overview of the settings available when creating a meeting.
+
 For information on creating Zoom meetings using the app, please refer to [Scheduling a Zoom Meeting (Zoom App)](../misc/app/). Be sure to check it out as well.
 
 ## Scheduling Meetings
@@ -66,13 +67,13 @@ This field sets "the region for the meeting date and time".
 
 #### Recurring Meeting
 
-If you are holding recurring classes or meetings with the same topic and participants, creating a Zoom meeting each time can be time-consuming. It is also more convenient for participants to join from the same URL each time. In such cases, please place a check mark in the "Recurring Meeting" option.
+If you are holding recurring classes or meetings with the same topic and participants, creating a Zoom meeting each time can be time-consuming. It is also more convenient for participants to join from the same URL each time. In such cases, please place a check mark in the "Recurring meeting" option.
 
 ### Other Various Settings
 {:#settings-misc}
 #### Registration
 {:#settings-registration}
-This feature is used when you want participants to register in advance with details such as their name and contact information. It can be useful for tracking participants for large events. For more details, please refer to "[Requesting Participant Registration in Zoom Meetings (in Japanese)](/zoom/create_room/registration/)".
+This feature is used when you want participants to register in advance with details such as their name and contact information. It can be useful for tracking participants for large events. For more details, please refer to "[Requesting Participant Registration in Zoom Meetings](./registration/)".
 
 #### Meeting ID
 {:#settings-meetingid}
