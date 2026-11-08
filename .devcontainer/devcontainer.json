@@ -14,16 +14,27 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "astro-build.astro-vscode",
         "unifiedjs.vscode-mdx",
         "esbenp.prettier-vscode",
         "yzhang.markdown-all-in-one",
-        "DavidAnson.vscode-markdownlint",
         "mushan.vscode-paste-image",
         "shd101wyy.markdown-preview-enhanced",
         "streetsidesoftware.code-spell-checker"
-      ]
-      //"settings":[]
+      ],
+      "settings":{
+        "cSpell.ignoreWords": [
+          "eccs",
+          "ECCS",
+          "frontmatter",
+          "utas",
+          "UTAS",
+          "utelecon",
+          "utone",
+          "UTONE",
+          "utol",
+          "UTOL"
+        ]
+      }
     }
   },
 
