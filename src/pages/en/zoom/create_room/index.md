@@ -36,7 +36,7 @@ There are two main ways to share the "Invite Link" or "Meeting ID and Passcode" 
 ![](./images/invitation-copy.png){:.border}
 ![](./images/invitation-copy-detail.png){:.border}
 
-## Meeting Settings Items
+## Zoom Meeting Options
 {:#settings}
 This section provides an overview of the settings for creating a meeting.
 
@@ -50,9 +50,9 @@ By clicking "Add Description", you can enter a detailed description of the topic
 
 ### Settings for the Meeting Date and Time
 {:#settings-date_and_time}
-For more details, please refer to "[Scheduling Recurring Zoom Meetings](./date_and_time/)".
+For more details, please refer to "[Detailed Date and Time Settings for Zoom Meetings](./date_and_time/)".
 
-#### Date and Time of the Meeting
+#### When
 
 This allows you to set an estimated start time. It is only an estimate, and you can begin the meeting earlier than the set start time. The meeting will not automatically start once the set time has passed.
 
@@ -100,11 +100,11 @@ For more details, refer to the page "[Restricting Access to Zoom Meeting Rooms f
 
 * Passcode
   * When enabled, participants will be required to enter a passcode in addition to the meeting ID when joining the meeting. It is very difficult to randomly guess both the passcode and the meeting ID, which significantly reduces the risk of unauthorized third parties joining the meeting. By default, this setting is enabled, so unless you have a specific reason, it is recommended to leave it on. You can either specify your own passcode or use an automatically generated one.
-  * In the default settings, the invite link for the meeting includes both the meeting ID and passcode information. Therefore, even if the passcode feature is enabled, participants only need to be provided with the invite link, and there is no need to separately inform them of the passcode. However, there may be cases where it is useful to share both the meeting ID and passcode in addition to the invite link (for more details, please refer to the notice “[how to announce online class URL](/en/faculty_members/url/#use-online-class-info-in-general)”). If you do not want the passcode information to be embedded in the invite link, it can be changed from the settings page. For more information, please refer to the "[How to Set Up Commonly Used Features](#popular_functions)" section below.
+  * In the default settings, the invite link for the meeting includes both the meeting ID and passcode information. Therefore, even if the passcode feature is enabled, participants only need to be provided with the invite link, and there is no need to separately inform them of the passcode. However, there may be cases where it is useful to share both the meeting ID and passcode in addition to the invite link (for more details, please refer to the notice “[How to Announce Online Class URL (for Faculty Members)](/en/faculty_members/url/#use-online-class-info-in-general)”). If you do not want the passcode information to be embedded in the invite link, it can be changed from the settings page. For more information, please refer to the "[How to Set Up Commonly Used Features](#popular_functions)" section below.
 * Waiting Room
   * When enabled, participants will not be able to join the meeting directly until the host individually approves their entry, and they will remain in the waiting room. This feature is useful if you want to allow only approved participants to attend the meeting.
   * For more details, please refer to "[Setting up a Zoom Waiting Room](./waiting_room/)".
-* Only Authenticated Users Can Join Meetings
+* Require Authentication to Join
   * This feature controls whether or not participants can join the meeting based on the type of account they use to sign in to Zoom.
   * When enabled and "Sign in with University Account" is selected, only users signed in to Zoom with a UTokyo Account can join the meeting.
   * When enabled and "Sign in to Zoom" is selected, only users signed in to Zoom, regardless of account type, can join the meeting.
@@ -142,12 +142,12 @@ This setting controls the types of audio participants can use during the meeting
   * This is a feature designed to make it easier to manage questions from participants.
 * Mute Participants Upon Entry
   * This feature mutes participants when they join the meeting. It only controls whether or not participants are muted upon entry and does not affect their ability to switch their microphone on or off during the meeting.
-* Pre-Assign Breakout Rooms
+* Breakout Room Pre-assign
   * By using the breakout room feature, you can split participants from the main meeting room into multiple breakout rooms. This feature allows you to pre-assign participants to specific rooms in advance.
   * For more details, please refer to "[How to use Breakout Rooms](../usage/breakout/)".
 * Automatically Record Meeting
   * This feature automatically starts recording as soon as the meeting begins. You can choose to save the recording either on your local computer (your PC) or on the cloud. Even if this option is turned off, you can manually start recording during the meeting.
-  * For more details, please refer to “[Recording Zoom Meetings](../usage/recording/)”.
+  * For more details, please refer to “[How to use the recording feature](../usage/recording/)”.
 * Approve or Block Entry to Users from Specific Regions/Countries
   * This setting allows you to permit or deny participation from specific regions or countries. When enabled, you can select the regions or countries and specify whether to allow or block participation from those locations.
 * Alternative Hosts
@@ -171,17 +171,17 @@ This section will explain how to open "My Settings" and introduce some commonly 
 
 #### Meeting Tab
 {:#meeting_tab}
-The settings for these features can be accessed by selecting "Meetings" from the side menu on the left side of the "My Settings" page.
+The settings for these features can be accessed by selecting "Meeting" from the side menu on the left side of the "My Settings" page.
 ![](./images/settings-meeting.png){:.border}
 
-* Embed Passcode in invite Link for One-click Join
+* Embed Passcode in Invite Link for One-click Join
   * When enabled, the passcode is embedded in the invite link, eliminating the need to separately inform participants of the passcode. Unless there is a specific reason, it is recommended to keep this setting on.
 * Allow Participants to Join Before Host
   * Normally, a meeting does not start until the host joins. However, if this option is enabled, participants can join the meeting and wait even before the host enters. Additionally, you can configure specific details about when participants are allowed to join before the host. Enabling this option can be convenient.
   * Even if this option is turned off, you can still allow participants to join before the host when creating each meeting (see "[Allow Participants to Join Anytime](#allow-entrance)" above). However, detailed control will not be available.
 * Meeting Chat - Auto-Save
   * When enabled, the chat will be automatically saved at the end of the meeting.
-  * For more details, please refer to "[Using Chat in Zoom Meetings (in Japanese)](/zoom/usage/chat/)".
+  * For more details, please refer to "[Using Chat in Zoom Meetings](../usage/chat/)".
 * Co-Host
   * A co-host is a role that the host can assign to others during the meeting, and the co-host has access to almost the same functions as the host. If this option is enabled, you can assign co-hosts during the meeting, so it is recommended to leave this on unless there is a specific reason to disable it.
   * For more details, please refer to “[Host and Co-host Controls in a Zoom Meeting](../misc/management_roles/)”.
