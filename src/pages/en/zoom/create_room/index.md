@@ -158,7 +158,7 @@ This setting controls the types of audio participants can use during the meeting
 
 ## How to Set Up Commonly Used Features
 {:#popular_functions}
-By selecting "Settings" in the side menu of your Zoom myprofile page, you will open the "My Settings" page. Features such as "Breakout Rooms" (to divide participants into separate rooms) and "Screen Sharing" (to share your screen with other participants) are not included in the meeting creation settings and must be configured from this separate "My Settings" page. Please note that settings made in "My Settings" will apply to all meetings you create.
+By selecting "Settings" in the side menu of your Zoom My Profile page, you will open the "My Settings" page. Features such as "Breakout Rooms" (to divide participants into separate rooms) and "Screen Sharing" (to share your screen with other participants) are not included in the meeting creation settings and must be configured from this separate "My Settings" page. Please note that settings made in "My Settings" will apply to all meetings you create.
 
 This section will explain how to open "My Settings" and introduce some commonly used features that can be configured from there.
 
