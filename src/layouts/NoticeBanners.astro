@@ -1,0 +1,13 @@
+---
+import { getCollection, render } from "astro:content";
+
+const noticeBanners = await getCollection("noticeBanners");
+const filtered = noticeBanners.filter((noticeBanner) =>
+  noticeBanner.data.pattern.test(Astro.url.pathname),
+);
+---
+
+{filtered.map(async (noticeBanner) => {
+  const { Content } = await render(noticeBanner);
+  return <Content />;
+})}
