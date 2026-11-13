@@ -48,7 +48,7 @@ title: 生成AI関連情報
 - [Slido](/slido/)における**[Slido AI](https://www.slido.com/ai)**
 - [Microsoft Teams](/microsoft#teams)(教職員のみに提供)における**[Copilot in Teams](https://www.microsoft.com/ja-jp/microsoft-teams/teams-ai)**
     - [Microsoft Teams 会議で Copilot を使用する(Microsoft公式ヘルプ)](https://support.microsoft.com/ja-jp/office/0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
-    - 一部の教職員を対象として提供されています．2026年3月現在，「生成AIの活用による業務改革の推進」の一環として，少人数ではありますが一定の条件のもとで[検証](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981)に参加している教職員のみが利用できます(UTokyo Accountでのサインインが必要，教職員のみアクセス可能)．
+    - 一部の教職員を対象として提供されています．2026年3月現在，「生成AIの活用による業務改革の推進」の一環として，少人数ではありますが一定の条件のもとで[検証](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=9682)に参加している教職員のみが利用できます(UTokyo Accountでのサインインが必要，教職員のみアクセス可能)．
 - [ECCSクラウドメール(Google Workspace for Education)](/google/)における**[Gemini for Google Workspace](https://knowledge.workspace.google.com/admin/gemini/google-workspace-with-gemini?hl=ja-#education)**
     - 利用には，[Google Workspace for Education Plusライセンス](/google/misc/education-plus/)の申請が必要です．詳細は「[Googleドキュメント, Googleスライド, GoogleフォームでGeminiが使えるようになりました](/notice/2026/0302-gemini-gws/)」をご覧ください．
 
@@ -60,7 +60,7 @@ title: 生成AI関連情報
     - GeminiのAIモデルを用いて，指定した資料等（PDF，Googleドキュメント，YouTubeの動画，ウェブページなど）を分析させ，要約，整理，質問応答，資料作成などができる，アシスタントツールです．
 - **[Microsoft 365 Copilot](https://m365.cloud.microsoft/chat/)**の**エージェント**機能，**ノートブック**機能
     - Microsoft 365 Copilot Chatで利用できるのとおおむね同様のAIモデルを用いて，指定した資料等を分析させたり，特定のタスクをある程度自律的に遂行させたりできる，アシスタントツールです．
-    - 一部の教職員を対象として提供されています．2026年3月現在，「生成AIの活用による業務改革の推進」の一環として，少人数ではありますが一定の条件のもとで[検証](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=7981)に参加している教職員のみが利用できます(UTokyo Accountでのサインインが必要，教職員のみアクセス可能)．
+    - 一部の教職員を対象として提供されています．2026年3月現在，「生成AIの活用による業務改革の推進」の一環として，少人数ではありますが一定の条件のもとで[検証](https://univtokyo.sharepoint.com/sites/utokyoportal/Lists/ListNotification/DispForm.aspx?ID=9682)に参加している教職員のみが利用できます(UTokyo Accountでのサインインが必要，教職員のみアクセス可能)．
 - [**TREE Summon Research Assistant beta**](https://tokyo-summon-serialssolutions-com.utokyo.idm.oclc.org/#!/research_assistant)
     - 詳しくは「[TREE新機能：生成AIツール「Summon Research Assistant（BETA版)」の提供開始](https://www.lib.u-tokyo.ac.jp/ja/library/literacy/news/20250828)」をご覧ください．
 
