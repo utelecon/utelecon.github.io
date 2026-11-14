@@ -90,8 +90,8 @@ for (const heading of Astro.props.headings) {
     flex-direction: column;
     position: sticky;
     top: 2rem;
-    max-height: calc(100vh - 12rem);
-    max-height: calc(100svh - 12rem);
+    max-height: calc(100vh - 4rem);
+    max-height: calc(100dvh - 4rem);
     text-align: left;
 
     & > b {
@@ -244,10 +244,12 @@ for (const heading of Astro.props.headings) {
       position: absolute;
       top: 1rem;
       right: 0px;
+      background: #fff;
       border: 1px solid #ccc;
       box-shadow: rgba(0, 0, 0, 0.2) 0 0.25rem 0.5rem 0;
       height: unset;
       border-radius: 1em;
+      padding: 2rem 1rem;
     }
 
     .toc-open #toc {
@@ -362,4 +364,3 @@ for (const heading of Astro.props.headings) {
     });
   }
 </script>
-

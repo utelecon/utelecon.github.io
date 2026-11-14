@@ -1,4 +1,3 @@
-
 ---
 import { getCollection, getEntry } from "astro:content";
 import type { Lang } from "@components/types";
@@ -210,7 +209,7 @@ if (currentSection.url) {
         aria-expanded="true"
         aria-controls="sidebar"
       >
-        <span class="toggle-icon">‹</span>
+        <span class="toggle-icon">‹‹</span>
       </button>
 
       <!-- サイドバー -->
@@ -310,7 +309,7 @@ if (currentSection.url) {
       );
 
       sidebarToggle.querySelector(".toggle-icon")!.textContent =
-        isOpen ? "›" : "‹";
+        isOpen ? "››" : "‹‹";
     });
 
     // URLから項目を取得
@@ -403,73 +402,76 @@ if (currentSection.url) {
 
   // サイドバー全体
   #sidebar-container {
-  position: sticky;
-  top: 2rem;
-  flex: 0 0 288px;
-  width: 288px;
-  min-width: 0;
-  height: calc(100vh - 180px);
-  transition:
-    width 0.2s ease,
-    flex-basis 0.2s ease;
+    position: sticky;
+    top: 2rem;
+    align-self: flex-start;
+    flex: 0 0 288px;
+    width: 288px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 4rem);
+    max-height: calc(100dvh - 4rem);
+    transition:
+      width 0.2s ease,
+      flex-basis 0.2s ease;
 
-  @media (max-width: 1200px) {
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  #sidebar-container.is-collapsed {
+    width: 32px;
+    flex-basis: 32px;
+  }
+
+  #sidebar {
+    flex: 1;
+    min-height: 0;
+    width: 288px;
+    padding: 2rem 0.5rem 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+
+  #sidebar-container.is-collapsed #sidebar {
     display: none;
   }
-}
-
-#sidebar-container.is-collapsed {
-  width: 32px;
-  flex-basis: 32px;
-}
-
-#sidebar {
-  width: 288px;
-  height: 100%;
-  padding: 2rem 0.5rem 0;
-  overflow-y: auto;
-  scrollbar-width: thin;
-}
-
-#sidebar-container.is-collapsed #sidebar {
-  display: none;
-}
 
   // サイドバー全体の開閉ボタン
   #sidebar-toggle {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 10;
+    position: absolute;
+    top: 0;
+    right: -18px;
+    z-index: 10;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  width: 28px;
-  height: 28px;
-  padding: 0;
+    width: 36px;
+    height: 36px;
+    padding: 0;
 
-  border: none;
-  border-radius: 3px;
-  background: transparent;
+    border: 1px solid color.$white-gray-dark;
+    border-radius: 999px;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
 
-  color: color.$text-color;
-  font-size: 1.4rem;
-  cursor: pointer;
+    color: color.$text-color;
+    cursor: pointer;
 
-  &:hover {
-    background: #eee;
+    &:hover {
+      background: #eee;
+    }
   }
-}
 
-// 閉じているとき
-#sidebar-container.is-collapsed #sidebar-toggle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: auto;
-}
+  #sidebar-toggle .toggle-icon {
+    font-size: 1.1rem;
+    line-height: 1;
+    letter-spacing: -0.12em;
+  }
 
   // ナビゲーション
   #sidebar-nav {
@@ -601,4 +603,3 @@ if (currentSection.url) {
     display: none;
   }
 </style>
-

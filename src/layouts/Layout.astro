@@ -210,9 +210,7 @@ const resolvedBreadcrumb =
       /* so that the content does not overflow the viewport */
       min-width: 0;
       flex-grow: 1;
-      padding: 0 12px;
-      border-style: none solid;
-      border-color:color.$white-gray-dark;
+      padding: 0 3rem;
       border-width:1px;
     }
   }
@@ -220,6 +218,10 @@ const resolvedBreadcrumb =
     main[data-toc="true"] {
       #article {
         flex-direction: column;
+      }
+      #content {
+        border-style:none;
+        padding:0 1rem;
       }
     }
   }
