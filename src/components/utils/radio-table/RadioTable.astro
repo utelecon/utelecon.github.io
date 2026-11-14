@@ -1,0 +1,34 @@
+---
+interface Props {
+  columns: string[];
+}
+
+const { columns } = Astro.props;
+---
+
+<div class="radio-table" style={`--column-count: ${columns.length}`}>
+  {columns.map((column) => <p class="column">{column}</p>)}
+  <slot />
+</div>
+
+<style lang="scss">
+  @use "@styles/color";
+
+  .radio-table {
+    display: grid;
+    grid-template-columns: auto repeat(var(--column-count), 4rem);
+    border: 1px solid color.$white-gray-dark;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+  }
+
+  .column {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+
+    &:first-child {
+      grid-column-start: 2;
+    }
+  }
+</style>
