@@ -5,6 +5,7 @@ import If from "@components/utils/If.astro";
   * @typedef {object} Props
   * @property {boolean} support
   * @property {import("@components/types").Variant} variant
+  * @property {"windows" | "mac"} [os]
   */}
 
 <If cond={props.variant === "oc"}>
@@ -13,14 +14,20 @@ import If from "@components/utils/If.astro";
 
 1. Zoomの「[ダウンロードセンター](https://zoom.us/download)」にアクセスしてください．
 2. 「Zoom Workplace」の「ダウンロード」ボタンを押してください．Zoom Workplaceのインストーラーがダウンロードされます．（※「Zoom Workplace」とは，Zoomを利用するためのアプリの名称です．）
-    <If cond={props.variant !== "oc"}>
+    <If cond={props.variant !== "oc" && props.os !== "mac"}>
     ![](./ZoomApps_download_windows.PNG){:.border .medium}
+    </If>
+    <If cond={props.variant !== "oc" && props.os !== "windows"}>
     ![](./ZoomApps_download_mac.PNG){:.border .medium}
     </If>
 3. 以後の手順は場合によって異なります．インストールの完了まで自動で進むこともあれば，確認ボタンを押したり，ダウンロードしたファイルを自分で開いたりといった操作の必要があるかもしれません．
+<If cond={props.os !== "windows"}>
+
 4. （macOSを利用している場合のみ）必要に応じて，画面共有に必要な権限を許可するため，「システム環境設定」>「プライバシーとセキュリティ」>「画面収録とシステムオーディオ録音」から「zoom.us」（あるいは「zoom」「zoom.us.app」）のトグルをオンにしてください．
     <If cond={props.variant === "oc"}>
     - オンライン授業での発表時などに，Zoomで画面共有をすることがあるので，インストールしたタイミングで画面共有の権限を許可しておくことをおすすめします．
     </If>
+
+</If>
 
 <Support lang="ja" show={props.support} />
