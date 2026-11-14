@@ -1,9 +1,188 @@
 ---
-title: linux
+title: Using the Linux Development Environment
 breadcrumb:
-  title: linux
+  title: Linux
 ---
 
-import InPreparationECCS2026 from "@components/en/InPreparationECCS2026.mdx";
+## Overview
 
-<InPreparationECCS2026 />
+ChromeOS provides a Linux virtual environment called the "Linux development environment." The environment runs Debian Linux, and the standard setup does not support other Linux distributions. Since root privileges are available, you can install and use a wide range of applications with relatively few restrictions.
+
+![](img/setup-debian-version.png){:.medium}
+
+The versions of the environment and applications described on this page are those available at the time of writing (October 2026). Versions may vary depending on when you set up the environment.
+
+## Important Notes
+
+- The Linux development environment is stored locally on each device. It may be deleted if the device runs low on storage space or for other reasons, so be sure to back up your environment.
+- If you plan to use the Linux development environment in a class, please consider that some students may use their own devices. You may also want to consider alternatives such as Google Colab, which is available through a web browser, Windows Subsystem for Linux (WSL), or macOS.
+- The Linux development environment is not identical to a standard Linux installation and has certain limitations, including the following:
+    - Hardware-accelerated video processing, such as hardware encoding and decoding, is not available.
+    - Camera input cannot be accessed.
+    - Support for USB devices is limited. Many USB devices, including security keys, may not work, although some Android devices are supported.
+
+## How to Use
+
+### Starting
+
+#### Initial Setup
+{:#first-setup}
+
+1. Click the Terminal icon on the shelf (taskbar).
+  ![](img/setup-01-shelf-terminal.drawio.png){:.medium}
+2. In the "Linux" section of Terminal, click "Set up."
+  ![](img/setup-02-terminal-linux-settings.drawio.png){:.medium}
+3. In the window that opens, click "Set up" under "Linux development environment."
+  ![](img/setup-03-settings-developer.drawio.png){:.medium}
+4. Click "Next."
+  ![](img/setup-04-welcome.drawio.png){:.medium}
+5. Choose a Linux username and disk size, then click "Install."
+    - By default, the username is set to the local part of your ECCS Cloud Email address (the part before @).
+    - The default disk size is 10 GB, but you can change it later in Settings.
+  ![](img/setup-05-username-disk.drawio.png){:.medium}
+6. Wait for the installation to complete (approximately one minute). Once the installation is complete, Terminal will open automatically, and the Linux development environment will be ready to use.
+  <figure class="gallery">![](img/setup-06-installing.png){:.medium}![](img/setup-07-terminal-ready.png){:.medium}</figure>
+
+#### Subsequent Use
+
+1. Click the Terminal icon on the shelf to open Terminal.
+2. Click "penguin." The Linux development environment you previously set up will start.
+  ![](img/relaunch-terminal-penguin.png){:.medium}
+
+Once you have set up the Linux development environment on a device, you can use it again without repeating the setup process. However, if you use a different device or remove the environment from the same device, you will need to set it up again. You can restore your previous environment if you have saved a backup using the procedure described in [Backup and Restore](#backup-and-restore).
+
+### Shutting Down
+{:#shutdown}
+
+Right-click the Terminal icon on the shelf and select "Shut down Linux."
+
+![](img/shutdown-menu-shutdown.drawio.png){:.medium}
+
+Shutting down the Linux development environment does not delete it. However, the environment may be deleted if the device runs low on storage space due to use by other users.
+
+Note that running `sudo shutdown -h now` in Terminal does not shut down the Linux development environment properly. We recommend using the procedure described above.
+
+### Restarting
+
+To restart the Linux development environment, shut it down and then start it again.
+
+Running `sudo reboot` in Terminal does not restart the Linux development environment properly. We recommend using the procedure described above.
+
+### Removing
+
+The Linux development environment may be automatically deleted if the device runs low on storage space or for other reasons. You can also remove it manually if you no longer need it, by following these steps:
+
+1. Click the Terminal icon on the shelf.
+2. In the "Linux" section, click "Manage."
+  ![](img/uninstall-01-settings.drawio.png){:.medium}
+3. At the bottom of the Settings page, click "Remove" under "Remove Linux development environment."
+4. Click "Remove" again in the confirmation dialog.
+  ![](img/uninstall-02-confirm.drawio.png){:.medium}
+
+### Backup and Restore
+{:#backup-and-restore}
+
+You can back up your Linux development environment to Google Drive or another storage location. Backups can be used to restore the environment on a different device or to share the same environment with other users.
+
+#### Backing Up
+
+You can create a backup of your Linux development environment and save it to Google Drive, OneDrive, or local storage. Even a newly installed environment requires approximately 600 MB of storage for a backup, so make sure the destination has sufficient free space.
+
+1. Click the Terminal icon on the shelf.
+2. In the "Linux" section, click "Manage."
+  ![](img/backup-01-linux-settings.drawio.png){:.medium}
+3. Click "Backup and restore."
+  ![](img/backup-02-backup-restore.drawio.png){:.medium}
+4. Click "Back up."
+5. In the window that opens, select a destination for the backup file and click "Save."
+  ![](img/backup-03-save-dialog.drawio.png){:.medium}
+6. Wait for the backup to complete. An indicator next to the backup file shows the progress.
+  ![](img/backup-05-saved-file.png){:.medium}
+
+#### Restoring
+
+You can restore your Linux development environment from a backup. Note that restoring a backup will replace your existing Linux development environment, deleting its current contents. If the Linux development environment has not yet been set up on the device, you must complete the [initial setup](#first-setup) first.
+
+1. Click the Terminal icon on the shelf.
+2. In the "Linux" section, click "Manage."
+3. Click "Backup and restore."
+4. Click "Restore."
+5. In the window that opens, select the backup file and click "Open."
+  ![](img/backup-06-restore-pick-file.drawio.png){:.medium}
+6. Click "Restore" again in the confirmation dialog.
+  ![](img/backup-07-restore-confirm.drawio.png){:.medium}
+7. Wait for the restoration to complete. A notification in the bottom-right corner of the screen shows the progress.
+  - Do not use the existing Linux development environment while the restoration is in progress, as doing so may cause the restoration to fail.
+
+### Sharing Folders
+
+You can share folders between ChromeOS and the Linux development environment to transfer files between them.
+
+#### Accessing Linux Folders from ChromeOS
+
+You can access the home directory (`/home/username`) of your Linux development environment through the ChromeOS Files app. No additional setup is required, but the Linux development environment must be running to access its files.
+
+![](img/share-from-chromeos-01-linux-files.drawio.png){:.medium}
+
+To display hidden files, such as those whose names begin with a period (`.`), click the three-dot menu (⋮) in the upper-right corner of the Files app and enable "Show hidden files."
+
+![](img/share-from-chromeos-02-show-hidden.drawio.png){:.medium}
+
+#### Accessing ChromeOS Folders from Linux
+
+You can access ChromeOS folders from the Linux development environment by sharing them through the Files app. You can share not only local folders but also folders stored in Google Drive or OneDrive. Follow these steps:
+
+1. In the Files app, right-click the folder you want to share with Linux and select "Share with Linux."
+  ![](img/share-from-linux-01-share-folder.drawio.png){:.medium}
+2. The shared folder will be mounted under `/mnt/chromeos` in the Linux development environment and will become accessible from Linux.
+  ![](img/share-from-linux-02-manage-share.drawio.png){:.medium}
+3. To stop sharing a folder, open the Settings app, go to "Linux development environment" > "Manage shared folders," and click the "×" button next to the folder you want to stop sharing.
+  ![](img/share-from-linux-03-shared-folders-settings.png){:.medium}
+
+### Using GUI Applications
+
+You can also use graphical user interface (GUI) applications in the Linux development environment. Both Wayland and X Window System are supported for graphical display, although some applications may not work properly.
+
+### Installing Applications
+
+#### Using the Command Line
+
+You can use the `sudo apt install` command to install packages available for Debian, including applications distributed as `.deb` files.
+
+For example, to install Visual Studio Code, download the `.deb` file from the official website and run the following command:
+
+```sh
+sudo apt install ./code_1.114.0-1775036290_amd64.deb
+```
+
+You can also download Linux binaries directly and place them in the Linux development environment to run applications. However, some applications may require additional libraries, and others may not work because of differences in system architecture.
+
+#### Using a GUI
+
+You can install applications through a GUI by installing the GNOME Software application and PackageKit.
+
+1. First, run the following command to install GNOME Software and PackageKit:
+
+    ```sh
+    sudo apt install -y gnome-software gnome-packagekit && sudo apt update
+    ```
+2. Once the installation is complete, "Software," "Packages," and "Package Updater" will appear under "Linux apps."
+  ![](img/apps-01-launcher-linux-apps.png){:.medium}
+3. When you launch the "Software" application, a window similar to the one shown below will appear.
+  <figure class="gallery">![](img/apps-02-gnome-software.png){:.medium}![](img/apps-03-software-categories.png){:.medium}</figure>
+  - You can browse and install a variety of applications by category.
+
+### Network Access
+
+The Linux development environment can access the internet through ChromeOS. You can also access development web servers running in Linux from ChromeOS by opening an address such as `http://localhost:8000/` in your browser.
+
+## If the Linux Development Environment Fails to Start
+
+The Linux development environment may fail to start if you try to launch it while a restoration is in progress or if it was not shut down properly. If this happens, try shutting down the environment using the procedure described in [Shutting Down](#shutdown), then start it again. This may resolve the issue.
+
+## References
+
+For more information about how the Linux development environment works and its technical specifications, see the official documentation below.
+
+- [Linux on ChromeOS | Google for Developers](https://developers.google.com/chromeos/app-development/develop?hl=en)
+- [Add apps and extensions - Chromebook Help](https://support.google.com/chromebook/topic/3415446?hl=en)
