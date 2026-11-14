@@ -13,6 +13,10 @@ import { pathToFileURL } from "node:url";
 import { readFile, copyFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { unified } from "unified";
+import {
+  unified as astroUnified,
+  type UnifiedProcessorOptions,
+} from "@astrojs/markdown-remark";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
@@ -50,18 +54,25 @@ export default function assetColocation(
 
         noticeYmlUrl = new URL("./src/data/notice.yml", config.root);
 
+        const options = config.markdown.processor
+          .options as UnifiedProcessorOptions;
         updateConfig({
           // アセットのパスを収集するための remarkPlugin と rehypePlugin を追加
           markdown: {
-            remarkPlugins: [
-              [collectImagePaths, { usedImages }],
-              [collectReferredPaths, { pagesDirUrl, referredPaths }],
-            ],
-            rehypePlugins: [
-              rehypeRaw,
-              [rehypeCollectImagePaths, { usedImages }],
-              [rehypeCollectReferredPaths, { pagesDirUrl, referredPaths }],
-            ],
+            processor: astroUnified({
+              ...options,
+              remarkPlugins: [
+                ...(options.remarkPlugins ?? []),
+                [collectImagePaths, { usedImages }],
+                [collectReferredPaths, { pagesDirUrl, referredPaths }],
+              ],
+              rehypePlugins: [
+                ...(options.rehypePlugins ?? []),
+                rehypeRaw,
+                [rehypeCollectImagePaths, { usedImages }],
+                [rehypeCollectReferredPaths, { pagesDirUrl, referredPaths }],
+              ],
+            }),
           },
         });
       },
