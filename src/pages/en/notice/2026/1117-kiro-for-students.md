@@ -6,6 +6,8 @@ The University of Tokyo has been selected as a participating institution in the 
 
 Kiro is an agentic development tool used for building software. For class projects, hackathons, startup MVPs and more, tell Kiro what you want to build, and it turns your idea into specs and working applications.
 
+Please refer to the [Kiro for Students Terms and Conditions](https://kiro.dev/students/terms-2026/) for the terms of use.
+
 ## Eligibility
 
 Only those who meet all four of the following requirements are eligible for this benefit:
@@ -16,8 +18,6 @@ Only those who meet all four of the following requirements are eligible for this
 - Be able to provide proof of enrollment upon request
 
 This benefit can be used only once per person (you cannot reapply after the 12-month period ends). The benefit cannot be transferred to others or re-issued.
-
-Please also refer to the [Kiro for Students Terms and Conditions](https://kiro.dev/students/terms-2026/).
 
 ## Benefits
 
@@ -62,14 +62,15 @@ Even after opting out, your content is still sent to AWS. Do not enter informati
 
 ## Getting Started
 
-Please use your **[ECCS Cloud Email](/en/google/) address (`@g.ecc.u-tokyo.ac.jp`)** for student verification.
+Student verification can be done only once. Please make sure your information is correct.
 
 1. Sign up or sign in to Kiro (IDE / CLI / Web / Crew).
 2. Open Settings, go to "Students," select The University of Tokyo, and click "verify."
-3. On the SheerID screen, enter your name, date of birth, and university email address (`@g.ecc.u-tokyo.ac.jp`). Additional documents may be requested.
+3. On the SheerID screen, enter your name, date of birth, and **[ECCS Cloud Email](/en/google/) address** (`@g.ecc.u-tokyo.ac.jp`).
+   - Additional documents may be requested.
 4. Once verified, your plan name changes to "Kiro Students" and you can start using it immediately.
 
-Student verification can be done only once. Please make sure your information is correct. For the sign-up page and detailed instructions, please refer to the official Kiro pages:
+For the sign-up page and detailed instructions, please refer to the official Kiro pages:
 
 - [Kiro for Students](https://kiro.dev/students/)
 - [Detailed instructions](https://kiro.dev/students/#instructions)

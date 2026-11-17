@@ -6,6 +6,8 @@ title: 学生向け「Kiro for Students」プログラムによるKiroの無償�
 
 Kiroは，ソフトウェア開発に用いられるAIエージェント型の開発ツールです．授業の課題，ハッカソン，スタートアップのMVPなど，作りたいものを伝えると，Kiroが仕様書（spec）と動作するアプリケーションを作成します．
 
+利用規約は[Kiro for Students Terms and Conditions](https://kiro.dev/students/terms-2026/)（英語）を確認してください．
+
 ## 提供対象
 
 次の4つの条件をすべて満たす方のみが，特典の提供対象です．
@@ -16,8 +18,6 @@ Kiroは，ソフトウェア開発に用いられるAIエージェント型の�
 - 求められたときに在籍を証明できること
 
 この特典の利用は1人1回のみです（12か月の期間終了後に，再度申し込むことはできません）．また，特典を他者に譲渡すること，再発行を受けることはできません．
-
-利用規約は[Kiro for Students Terms and Conditions](https://kiro.dev/students/terms-2026/)（英語）を確認してください．
 
 ## 特典内容
 
@@ -62,14 +62,15 @@ Kiroは東京大学が組織として契約しているサービスではなく�
 
 ## 利用開始の手順
 
-学生認証には，**[ECCSクラウドメール](/google/)のメールアドレス（`@g.ecc.u-tokyo.ac.jp`）** を利用してください．
+学生認証は1回のみ可能です．入力内容に誤りがないよう注意してください．
 
-1. Kiro（IDE / CLI / Web / Crew）にサインアップ，またはサインインします．
-2. Settingsを開き，「Students」で東京大学（The University of Tokyo）を選択して「verify」を押します．
-3. SheerIDの画面で，氏名・生年月日・大学のメールアドレス（`@g.ecc.u-tokyo.ac.jp`）を入力します．追加の書類の提出を求められる場合があります．
+1. Kiro（IDE / CLI / Web / Crew）にサインアップ，またはサインインしてください．
+2. Settingsを開き，「Students」で東京大学（The University of Tokyo）を選択し，「verify」を押してください．
+3. SheerIDの画面で，氏名・生年月日・**[ECCSクラウドメール](/google/)のメールアドレス**（`@g.ecc.u-tokyo.ac.jp`）を入力してください．
+   - 追加の書類の提出を求められる場合があります．
 4. 認証が完了すると，プラン名が「Kiro Students」に変わり，すぐに利用できます．
 
-学生認証は1回のみです．入力内容に誤りがないよう確認してください．申し込みページおよび手順の詳細は，Kiroの公式ページを参照してください．
+申し込みページおよび手順の詳細は，Kiroの公式ページを参照してください．
 
 - [Kiro for Students](https://kiro.dev/students/)（英語）
 - [手順の詳細](https://kiro.dev/students/#instructions)（英語）
