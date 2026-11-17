@@ -1,0 +1,19 @@
+---
+// 利用するマイナンバーカードの種別（実物のカード／スマートフォンのマイナンバーカード）を切り替えるタブ
+// queryKey="card" で同一ページ内の CardTabs の選択状態が同期される
+import Tabs from "@components/utils/tabs/Tabs";
+---
+
+<Tabs
+  client:visible
+  queryKey="card"
+  defaultTab="physicalCard"
+  tabs={{ physicalCard: "実物のカード", smartphoneCard: "スマートフォンのマイナンバーカード" }}
+>
+  <Fragment slot="panel.physicalCard">
+    <slot name="physicalCard" />
+  </Fragment>
+  <Fragment slot="panel.smartphoneCard">
+    <slot name="smartphoneCard" />
+  </Fragment>
+</Tabs>
