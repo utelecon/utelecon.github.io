@@ -8,14 +8,14 @@ Kiro is an agentic development tool used for building software. For class projec
 
 ## Eligibility
 
-Only currently enrolled students are eligible. Faculty and staff are not eligible. You must meet all four of the following requirements:
+Only those who meet all four of the following requirements are eligible for this benefit:
 
 - Be 18 years of age or older
-- Be currently enrolled at The University of Tokyo
+- Be a student currently enrolled at The University of Tokyo (faculty and staff are not eligible)
 - Have a Kiro account created with your University of Tokyo email address
 - Be able to provide proof of enrollment upon request
 
-Benefits are limited to one per person (you cannot reapply after the 12-month period ends). Benefits cannot be transferred or re-issued.
+This benefit can be used only once per person (you cannot reapply after the 12-month period ends). The benefit cannot be transferred to others or re-issued.
 
 Please also refer to the [Kiro for Students Terms and Conditions](https://kiro.dev/students/terms-2026/).
 
