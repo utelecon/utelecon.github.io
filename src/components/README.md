@@ -166,18 +166,17 @@ prop `variant`の値によって，表示する要素が切り替わります．
 import Tabs from "@components/utils/tabs/Tabs";
 ---
 
-<Tabs client:visible queryKey="os" defaultTab="pleaseSelect">
+<Tabs
+  client:visible
+  queryKey="os"
+  defaultTab="pleaseSelect"
+  tabs={{ windows: "Windows", mac: "Mac" }}
+>
   <Fragment slot="panel.pleaseSelect">
     上のタブからOSを選択してください．
   </Fragment>
-  <Fragment slot="tab.windows">
-    Windows
-  </Fragment>
   <Fragment slot="panel.windows">
     <slot name="windows" />
-  </Fragment>
-  <Fragment slot="tab.mac">
-    Mac
   </Fragment>
   <Fragment slot="panel.mac">
     <slot name="mac" />
@@ -192,17 +191,18 @@ import Tabs from "@components/utils/tabs/Tabs";
 - `queryKey` … どのクエリパラメータを使用するか指定します．必須です．
   - 例：`queryKey="os"` とすると，タブの選択内容がURLの `?os=windows` のようなクエリパラメータと同期します．
 - `defaultTab` … 初期状態でどのタブを選択しているかを指定します．必須です．
-- slotの名前 (`<slot name="...">`) … ドットで区切られた文字列で，タブ名などを指定します．
-  - 書式 … `tab`/`panel` + `.` + タブ名
-    - `tab`/`panel` … 当該slotがタブ本体か，タブを選択すると表示されるパネルかを指定します．
-    - タブ名 … タブとパネルの組ごとに異なるタブ名を指定してください．
-      - `camelCase` で記述してください．`kebab-case` などにすると正しく動作しません[^1]。
-  - 例：`tab.windows`を指定したタブを押すと，`panel.windows` を指定したパネルが表示されます．
-- タブが表示される順番は書いた順番に従います．
+- `tabs` … 表示するタブを，タブ名をキー，タブのラベル（文字列）を値とするオブジェクトで指定します．必須です．
+  - タブは**このオブジェクトに書いた順番**に表示されます．
+  - タブ名 … タブごとに異なる名前を指定してください．
+    - `camelCase` で記述してください．`kebab-case` などにすると正しく動作しません[^1]。
+    - 数字のみのタブ名（`"1"` など）は使わないでください．JavaScript のオブジェクトでは整数とみなせるキーが先頭に昇順で並べ替えられるため，書いた順番が保たれません．
+- slotの名前 (`<slot name="...">`) … `panel.` + タブ名 の形式で，タブを選択したときに表示されるパネルを指定します．
+  - 例：`tabs` の `windows` のタブを押すと，`panel.windows` を指定したパネルが表示されます．
+  - タブの表示順を slot で指定しない理由 … Astro のコンパイラは，コンポーネントに渡す slot を名前の辞書順に並べ替えて出力します．そのため slot の記述順はコンポーネント側に伝わらず，表示順の指定には使えません．
 
 [^1]: `Tabs` は React コンポーネントとして実装されています．Astro が React に名前付き slot を渡す際に `kebab-case` を `camelCase` に変換します[†](https://docs.astro.build/ja/guides/framework-components/#フレームワークコンポーネントへの子要素の受け渡し)が，HTML 生成時とクライアント側の hydrate 時で挙動が異なるようです．そのため、変換が行われないようにするために `camelCase` のみをタブ名として使います．
 
-原則としてタブとパネルはセットですが，上の例の `pleaseSelect` のように，タブを作らずにパネルだけにしておいて `defaultTab` に指定すると，何も選択されていないときのメッセージを表示できます．
+原則としてタブとパネルはセットですが，上の例の `pleaseSelect` のように，`tabs` に含めずにパネルだけを用意して `defaultTab` に指定すると，何も選択されていないときのメッセージを表示できます．
 
 利用したいページでは，以下のように上で作成したAstroコンポーネントを通して使います．
 

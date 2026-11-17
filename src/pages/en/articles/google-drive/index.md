@@ -30,9 +30,7 @@ Then, the following screen will be displayed.
 
 The account holder can add, edit, move, and delete files, as well as share files and folders.
 
-<figure>
-<img src="pic1.png">
-</figure>
+![](pic1.png)
 
 * **(1) Candidate List**: This shows shared items and files in shared drives in addition to files in My Drive. Information on when the file was last edited and the editor is shown below the file name.
 * **(2) Folders**: A list of folders that you have created will be displayed here. However, even if you are not the creator, files uploaded through other Google applications (e.g. Google Classroom) may be automatically grouped into folders.
@@ -52,9 +50,7 @@ For more details about the use of Google Drive, please refer to the official sup
 
 With a shared drive, you can manage files in the drive within your organization. The administrator can grant 5 levels of permissions to members, and can set permissions based on the user's affiliation and job description. If you log in with your ECCS Cloud Email Account, you can use the university shared drive. However, if you log in with your personal account, you are restricted from accessing it.
 
-<figure>
-<img src="pic2.png">
-</figure>
+![](pic2.png)
 
 Shared drives access levels:
 

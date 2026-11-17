@@ -1,0 +1,16 @@
+# Dependabot settings
+#
+# open-pull-requests-limit を 0 にすると version updates の PR は作成されず、
+# security updates の PR のみが作成される。
+#
+
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    labels:
+      - dependencies
+      - web_development
