@@ -4,6 +4,12 @@ import styles from "./Tabs.module.scss"
 export default function Tabs(props: {
   queryKey: string;
   defaultTab: string;
+  /**
+   * タブの表示順（タブ名の配列）．
+   * Astro は slot をレンダリング完了順に props へ格納するため，記述順が保持されない場合がある．
+   * 指定した場合はこの順に並べ替える（未指定のタブは末尾に元の順で並ぶ）．
+   */
+  order?: string[];
   [key: `tab.${string}`]: React.ReactNode;
   [key: `panel.${string}`]: React.ReactNode;
 }) {
@@ -14,7 +20,16 @@ export default function Tabs(props: {
   const [selectedTab, setSelectedTab] = useSearchParamsState(props.queryKey);
   const selectedTabWithDefault = selectedTab ?? props.defaultTab;
 
-  const tabs = Object.entries(props).filter(([key]) => key.startsWith("tab."));
+  const rank = (name: string) => {
+    const i = props.order?.indexOf(name) ?? -1;
+    return i === -1 ? Number.MAX_SAFE_INTEGER : i;
+  };
+  const tabs = Object.entries(props)
+    .filter(([key]) => key.startsWith("tab."))
+    .sort(
+      ([a], [b]) =>
+        rank(a.replace(/^tab\./, "")) - rank(b.replace(/^tab\./, "")),
+    );
   const panels = Object.entries(props).filter(([key]) =>
     key.startsWith("panel."),
   );
