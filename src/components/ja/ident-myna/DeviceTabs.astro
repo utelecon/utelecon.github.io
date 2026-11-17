@@ -1,0 +1,19 @@
+---
+// UTokyo Account本人確認サービスにアクセスする端末（スマートフォンのみ／PCとスマートフォンの併用）を切り替えるタブ
+// queryKey="device" で同一ページ内の DeviceTabs の選択状態が同期される
+import Tabs from "@components/utils/tabs/Tabs";
+---
+
+<Tabs
+  client:visible
+  queryKey="device"
+  defaultTab="smartphone"
+  tabs={{ smartphone: "スマートフォンのみ", pc: "PCとスマートフォンを併用" }}
+>
+  <Fragment slot="panel.smartphone">
+    <slot name="smartphone" />
+  </Fragment>
+  <Fragment slot="panel.pc">
+    <slot name="pc" />
+  </Fragment>
+</Tabs>

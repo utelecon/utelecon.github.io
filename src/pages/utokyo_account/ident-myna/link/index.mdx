@@ -6,6 +6,10 @@ breadcrumb:
 
 import CheckStatus from "../_CheckStatus.mdx"
 import IdentMynaRequiredThings from "@components/ja/IdentMynaRequiredThings.mdx"
+import DeviceTabs from "@components/ja/ident-myna/DeviceTabs.astro"
+import CardTabs from "@components/ja/ident-myna/CardTabs.astro"
+import AppTroubleshooting from "./_AppTroubleshooting.mdx"
+import CancelPopup from "./_CancelPopup.mdx"
 
 ## はじめに
 このページでは，UTokyo Account本人確認サービスを利用するために，あらかじめ済ませておく必要がある，「事前連携」の手続きについて説明します．
@@ -17,7 +21,7 @@ import IdentMynaRequiredThings from "@components/ja/IdentMynaRequiredThings.mdx"
 - 手順3:[UTokyo Accountでサインインしてひも付けを行う](#signin)
 - 手順4:[連携状況を確認する](#statuscheck)
 
-UTokyo Account本人確認サービスにアクセスする際に，PCを用いる(PCとスマートフォンと併用して作業を行う)か，スマートフォンを用いる(スマートフォンのみで作業を行う)かにより，手順2での作業が異なります．手順が簡潔であるため，スマートフォンのみで完結する方法を推奨します．
+UTokyo Account本人確認サービスにアクセスする端末（スマートフォンのみ／PCとスマートフォンを併用）と，利用するマイナンバーカード（実物のカード／スマートフォンのマイナンバーカード）により，手順2での作業が異なります．端末については，手順が簡潔であるため，スマートフォンのみで完結する方法を推奨します．
 
 ## 必要なもの
 
@@ -35,127 +39,104 @@ UTokyo Account本人確認サービスにアクセスする際に，PCを用い�
 ## 手順2: アプリとマイナンバーカードで本人認証する
 {:#auth}
 
-続いて，マイナンバーカードとマイナアプリを用いた本人認証を行います．UTokyo Account本人確認サービスに[スマートフォンのみで認証する場合](#auth-smartphone)と，[PCとスマートフォンを併用して認証する場合](#auth-pc)で手順が少し異なります．なお，スマートフォンのみで行う方が簡便です．それぞれ対応する手順を参照し，作業を進めてください．
+続いて，マイナンバーカードとマイナアプリを用いた本人認証を行います．以下の2点によって手順が異なるため，該当するタブを選択して作業を進めてください（同じ種類のタブは，ページ内で選択内容が連動します）．
 
-### スマートフォンのみで認証する場合
-{:#auth-smartphone}
+- **UTokyo Account本人確認サービスにアクセスする端末**：スマートフォンのみ／PCとスマートフォンを併用
+  - スマートフォンのみで行う方が簡便です．
+- **利用するマイナンバーカード**：実物のカード／スマートフォンのマイナンバーカード（iPhoneのマイナンバーカード，Androidのマイナンバーカード）
+
+### 2-1. UTokyo Account本人確認サービスからマイナアプリを起動する
+{:#auth-start}
+
+<DeviceTabs>
+<Fragment slot="smartphone">
 
 1. [UTokyo Account本人確認サービス](https://identification.adm.u-tokyo.ac.jp/verify/)にスマートフォンでアクセスしてください．
 1. 「マイナンバーカードで本人確認」ボタンを押してください．マイナアプリの画面に遷移します．
     ![](service_step1.png){:.border}{:.medium}
 
-    {/* ここから共通 */}
-    <details>
-    <summary>マイナアプリが開かず別の画面が表示された場合</summary>
+    <AppTroubleshooting />
 
-    マイナアプリがインストールされていない場合は，以下のようにアプリのインストールを促す画面が表示されます．またブラウザの表示倍率の設定によっては，PCからのアクセスと判定され，画面にQRコードが表示されることもあります．いずれの場合も，[手順1](#app-setup)に従って，マイナアプリのインストールと利用登録を行ってください．
-    ![](promote_install.png){:.border}{:.small}
-    </details>
-
-    <details>
-    <summary>マイナアプリが開いたが別の画面が表示された場合</summary>
-
-    マイナアプリはインストールされているが，利用登録が行われていない状態であるため，利用登録手続きが開始された可能性があります．[手順1](#app-setup)に示す手順により，マイナアプリの利用登録を行ってください．
-    </details>
-    {/* ここまで共通 */}
-
-    {/* ここから共通 */}
-1. マイナアプリ上の案内に従って，生体情報・パスコード等による認証を行ってください．
-1. 「はじめる」ボタンを押して認証手順をすすめてください．
-    ![](auth_app_initial_1.png){:.border}
-1. マイナンバーカードの利用者証明用電子証明書の暗証番号を入力してください．
-    ![](auth_app_real_card_pass1.png){:.border}
-1. 券面事項入力補助用の暗証番号を入力してください．利用者証明用電子証明書の暗証番号と同じ物を使用している場合は「直前と同じ番号を入力」ボタンを押すことで省略できます．
-    ![](auth_app_real_card_pass2.png){:.border}
-1. アプリの案内に従い，「読み取り開始」ボタンを押し，マイナンバーカードをスマートフォンで読み取ってください．
-    - 「カードを読み取っています…」と表示されている間は，マイナンバーカードをスマートフォンから離さないでください．
-    - 読み取りが完了すると，データが自動的にサーバーに送信されます．
-    
-    <figure class="gallery">![](auth_app_read1.png){:.border} ![](auth_app_read2.png){:.border} ![](auth_app_read3.png){:.border}</figure>
-1. UTokyo Account本人確認サービスへの認証の許可を求める画面が表示されます．プライバシーポリシーや利用規約を確認の上，「許可」ボタンを押してください．
-    ![](auth_app_permission1.png){:.border}
-
-    <details>
-    <summary>「認証と情報提供を中止しますか」という選択ボタンが出た場合</summary>
-    
-    AndroidとiOSで少し形式が異なりますが「認証と情報提供を中止しますか」という選択ボタンが出現します．「中止」を選択した場合，UTokyo Account本人確認サービス側が対応していないためBad Requestと表示されるページに移動します．UTokyo Account本人確認サービスのページにアクセスし直し，[手順2](#auth-smartphone)の最初からやり直してください．このポップアップのキャンセルを押した場合は元の画面に戻るので，続きの手順を進めてください．
-    
-    <figure class="gallery">![](auth_app_cancelpop_android.png){:.border}{:.small} ![](auth_app_cancelpop_iOS.png){:.border}{:.small}</figure>
-
-    ![](badrequest.png){:.border}{:.small}
-
-    </details>
-
-    {/* ここまで共通 */}
-1. マイナアプリの「利用中のサービスへ戻る」を押すか，画面遷移後10秒経過するのを待ってください．UTokyo Account本人確認サービスへ戻ります．
-    ![](auth_app_end.png){:.border}
-
-<div class="box">
-初期設定はまだ完了していません．[手順3](#signin)に進んでください．
-</div>
-
-### PCとスマートフォンを併用して認証する場合
-{:#auth-pc}
+</Fragment>
+<Fragment slot="pc">
 
 1. [UTokyo Account本人確認サービス](https://identification.adm.u-tokyo.ac.jp/verify/)にPCでアクセスしてください．
 1. 「マイナンバーカードで本人確認」ボタンを押してください．
     ![](service_step1.png){:.border}{:.medium}
-
-1. 画面上に表示された大きなQRコードを，手順1でセットアップを済ませたスマートフォンで読み込んでください．QRコードが無効になった場合は，下にでる「二次元コードを更新」を押してQRコードを更新してください．以降**PCのページは閉じないでください**．
+1. 画面上に表示された大きなQRコードを，手順1でセットアップを済ませたスマートフォンで読み込んでください．QRコードが無効になった場合は，下に表示される「二次元コードを更新」を押してQRコードを更新してください．以降，**PCのページは閉じないでください**．
 
     <figure class="gallery"> ![](auth_pc_qr.png){:.border}{:.medium} ![](auth_pc_qr_invalid.png){:.border}{:.medium}</figure>
-    
+
     <details>
     <summary>PCのページを閉じてしまった場合</summary>
-    [手順2](#auth-pc)の最初からやり直してください．
-    </details>
-    {/* ここから共通 */}
-    <details>
-    <summary>マイナアプリが開かず別の画面が表示された場合</summary>
-
-    マイナアプリがインストールされていない場合は，以下のようにアプリのインストールを促す画面が表示されます．またブラウザの表示倍率の設定によっては，PCからのアクセスと判定され，画面にQRコードが表示されることもあります．いずれの場合も，[手順1](#app-setup)に従って，マイナアプリのインストールと利用登録を行ってください．
-    ![](promote_install.png){:.border}{:.small}
+    [手順2](#auth)の最初からやり直してください．
     </details>
 
-    <details>
-    <summary>マイナアプリが開いたが別の画面が表示された場合</summary>
-
-    マイナアプリはインストールされているが，利用登録が行われていない状態であるため，利用登録手続きが開始された可能性があります．[手順1](#app-setup)に示す手順により，マイナアプリの利用登録を行ってください．
-    </details>
-    {/* ここまで共通 */}
-
+    <AppTroubleshooting />
 1. スマートフォンに表示される6桁の数字をPCに入力してください．有効期限が切れた場合は6桁の数字を更新してください．
 
-    {/* ここから共通 */}
-1.  マイナアプリ上の案内に従って，生体情報・パスコード等による認証を行ってください．
-1. 「次へ」ボタンを押して認証手順をすすめてください．
-    ![](auth_app_initial_2.png){:.border}
+</Fragment>
+</DeviceTabs>
+
+### 2-2. マイナアプリでマイナンバーカードを用いて認証する
+{:#auth-card}
+
+以降の操作は，すべてスマートフォン上のマイナアプリで行います．
+
+<CardTabs>
+<Fragment slot="physicalCard">
+
+1. マイナアプリ上の案内に従って，生体情報・パスコード等による認証を行ってください．
+1. 「はじめる」ボタン（PCとスマートフォンを併用する場合は「次へ」ボタン）を押して認証手順をすすめてください．
+    <figure class="gallery">![](auth_app_initial_1.png){:.border} ![](auth_app_initial_2.png){:.border}</figure>
 1. マイナンバーカードの利用者証明用電子証明書の暗証番号を入力してください．
     ![](auth_app_real_card_pass1.png){:.border}
-1. 券面事項入力補助用の暗証番号を入力してください．利用者証明用電子証明書の暗証番号と同じ物を使用している場合は「直前と同じ番号を入力」ボタンを押すことで省略できます．
+1. 券面事項入力補助用の暗証番号を入力してください．利用者証明用電子証明書の暗証番号と同じものを使用している場合は「直前と同じ番号を入力」ボタンを押すことで省略できます．
     ![](auth_app_real_card_pass2.png){:.border}
 1. アプリの案内に従い，「読み取り開始」ボタンを押し，マイナンバーカードをスマートフォンで読み取ってください．
     - 「カードを読み取っています…」と表示されている間は，マイナンバーカードをスマートフォンから離さないでください．
     - 読み取りが完了すると，データが自動的にサーバーに送信されます．
-    
+
     <figure class="gallery">![](auth_app_read1.png){:.border} ![](auth_app_read2.png){:.border} ![](auth_app_read3.png){:.border}</figure>
+
+</Fragment>
+<Fragment slot="smartphoneCard">
+
+{/* TODO: 実機で画面遷移を確認し，スクリーンショットを追加する（iPhone／Androidで画面が異なる可能性あり） */}
+1. マイナアプリ上の案内に従って，生体情報・パスコード等による認証を行ってください．
+1. 「はじめる」ボタン（PCとスマートフォンを併用する場合は「次へ」ボタン）を押して認証手順をすすめてください．
+    <figure class="gallery">![](auth_app_initial_1.png){:.border} ![](auth_app_initial_2.png){:.border}</figure>
+1. アプリの案内に従い，スマートフォンのマイナンバーカードを利用する方法を選択してください．
+1. スマートフォンの生体認証（顔認証・指紋認証など）を行ってください．暗証番号の入力や，実物のカードの読み取りは不要です．
+    - 認証が完了すると，データが自動的にサーバーに送信されます．
+
+</Fragment>
+</CardTabs>
+
+### 2-3. 認証を許可する
+{:#auth-permit}
+
+<DeviceTabs>
+<Fragment slot="smartphone">
+
 1. UTokyo Account本人確認サービスへの認証の許可を求める画面が表示されます．プライバシーポリシーや利用規約を確認の上，「許可」ボタンを押してください．
     ![](auth_app_permission1.png){:.border}
 
-    <details>
-    <summary>「認証と情報提供を中止しますか」という選択ボタンが出た場合</summary>
-    
-    AndroidとiOSで少し形式が異なりますが「認証と情報提供を中止しますか」という選択ボタンが出現します．「中止」を選択した場合，UTokyo Account本人確認サービス側が対応していないためBad Requestと表示されるページに移動します．UTokyo Account本人確認サービスのページにアクセスし直し，[手順2](#auth-smartphone)の最初からやり直してください．このポップアップのキャンセルを押した場合は元の画面に戻るので，続きの手順を進めてください．
-    
-    <figure class="gallery">![](auth_app_cancelpop_android.png){:.border}{:.small} ![](auth_app_cancelpop_iOS.png){:.border}{:.small}</figure>
+    <CancelPopup />
+1. マイナアプリの「利用中のサービスへ戻る」を押すか，画面遷移後10秒経過するのを待ってください．UTokyo Account本人確認サービスへ戻ります．
+    ![](auth_app_end.png){:.border}
 
-    ![](badrequest.png){:.border}{:.small}
+</Fragment>
+<Fragment slot="pc">
 
-    </details>
+1. UTokyo Account本人確認サービスへの認証の許可を求める画面が表示されます．プライバシーポリシーや利用規約を確認の上，「許可」ボタンを押してください．
+    ![](auth_app_permission1.png){:.border}
 
-    {/* ここまで共通 */}
-
+    <CancelPopup />
 1. スマートフォンでの作業は終了です．PCの画面に戻ってください．
+
+</Fragment>
+</DeviceTabs>
 
 <div class="box">
 初期設定はまだ完了していません．[手順3](#signin)に進んでください．
