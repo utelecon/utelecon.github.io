@@ -6,6 +6,7 @@ breadcrumb:
 
 import FreeSlotNote from "./_FreeSlotNote.mdx";
 import FreeSlotSetupNote from "./_FreeSlotSetupNote.mdx";
+import OSTabs from "./_OSTabs.astro";
 
 ## 概要
 {:#introduction}
@@ -34,8 +35,8 @@ Windows Appを利用する場合は，あらかじめアプリのインストー
 
 なお，以下の手順の途中で，アプリの紹介画面（「Skip」や「Next」で進む画面）や，利用状況の送信に同意するかどうかを尋ねる画面が表示されることがあります．これらはどちらを選んでも利用に影響しませんので，適宜選択して進めてください．
 
-### Windows
-{:#setup-windows}
+<OSTabs>
+<Fragment slot="windows">
 
 お手元のPCがWindowsの場合，そのPCの環境をそのまま利用する方が快適に作業できることが多いため，**まずはお手元のPCの利用をご検討ください**．その上でWindowsリモート環境を利用する場合は，以下の手順でWindows Appをインストールできます．
 
@@ -48,8 +49,8 @@ Windows Appを利用する場合は，あらかじめアプリのインストー
     ![](img/windows06-devices.png){:.medium}
     <FreeSlotSetupNote />
 
-### macOS
-{:#setup-macos}
+</Fragment>
+<Fragment slot="macos">
 
 Windows Appには日本語版がなく，英語版と中国語版のみが提供されています．そのため，以下の手順では英語版で説明します．
 
@@ -66,8 +67,8 @@ Windows Appには日本語版がなく，英語版と中国語版のみが提供
 1. しばらく待ち，クラウドPC（「ECCS-FREE」などの名前のもの）の一覧が表示されれば，初期設定は完了です．
     <FreeSlotSetupNote />
 
-### ChromeOS・Android
-{:#setup-chromeos}
+</Fragment>
+<Fragment slot="chromeos">
 
 Windows Appを利用する場合は，以下の手順でインストールしてください．なおChromeOSから利用する場合は，ブラウザ版の方が快適に利用できることが多いため，まずはブラウザ版の利用をご検討ください．
 
@@ -85,8 +86,8 @@ Windows Appを利用する場合は，以下の手順でインストールして
 
     <FreeSlotSetupNote />
 
-### iPadOS・iOS
-{:#setup-ipados}
+</Fragment>
+<Fragment slot="ipados">
 
 1. [App Store](https://apps.apple.com/jp/app/windows-app-mobile/id714464092)からWindows App Mobileをインストールしてください．
 1. アプリを起動し，右上の「+」から「職場アカウントまたは学校アカウント」を選択してください．
@@ -96,6 +97,9 @@ Windows Appを利用する場合は，以下の手順でインストールして
     ![](img/ipados04-devices.png){:.small}
 
     <FreeSlotSetupNote />
+
+</Fragment>
+</OSTabs>
 
 ## 接続方法
 {:#connect}
