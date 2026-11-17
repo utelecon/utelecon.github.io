@@ -1,5 +1,5 @@
 ---
-title: 情報システム本部が管理・運用する外部サービスの利用にあたっての注意事項
+title: 情報システム本部・情報基盤センターが管理・運用する外部サービスの利用にあたっての注意事項
 toc: false
 redirect_from:
   - /slack/terms
@@ -7,22 +7,34 @@ redirect_from:
 
 ## この注意事項について
 
-この注意事項は，情報システム本部が管理・運用する次の外部サービスを対象としています．
+この注意事項は，情報システム本部・情報基盤センターが管理・運用する次の外部サービスを対象としています．
+
+基本的な提供条件は政府情報システムのためのセキュリティ評価制度（Information system Security Management and Assessment Program: 通称、ISMAP（イスマップ））に基づいています。ISMAP対応のサービスについてはISMAPクラウドサービスリストから該当の製品の提供条件を確認してください。そのほかのサービスについては情報セキュリティポリシーに基づき学認クラウドチェックリストを確認しております。サービスの提供内容の詳細は利用規約等からご確認ください。
 
 - [Zoom](/zoom/)
     - 提供事業者：Zoom Video Communications, Inc.
+    - 提供条件：[ISMAP対応](https://www.ismap.go.jp/csm?id=cloud_service_list)
 - [Webex](/webex/)（Webexアカウントで利用できる[Slido](/slido/)を含む）
     - 提供事業者：Cisco Systems, Inc.
+    - 提供条件：[ISMAP対応](https://www.ismap.go.jp/csm?id=cloud_service_list)
 - [UTokyo Microsoft License](/microsoft/)（Teamsおよび[職員メール](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx)を含む）
     - 提供事業者：Microsoft Corporation
+    - 提供条件：[ISMAP対応](https://www.ismap.go.jp/csm?id=cloud_service_list)
+- [ECCS クラウドメール](/google/)
+    - 提供事業者：Google LLC
+    - 提供条件：[ISMAP対応](https://www.ismap.go.jp/csm?id=cloud_service_list)
 - [UTokyo Slack](/slack/)
     - 提供事業者：Slack Technologies, LLC
+    - 提供条件：[ISMAP対応](https://www.ismap.go.jp/csm?id=cloud_service_list)
 - [UTokyo MATLAB Campus-Wide License](/matlab/)
     - 提供事業者：The MathWorks, Inc.
+    - 提供条件：[トラストセンター](https://jp.mathworks.com/company/trust-center.html?s_tid=gf_tc)
 - [UTokyo Account 本人確認サービス](/utokyo_account/)
     - 提供事業者：東京大学情報システム本部
+    - 提供条件：[UTokyo Account の管理及び運用に関する細則](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/UTokyoAccountsaisoku.pdf)
 - [LinkedIn Learning](/lil/)
     - 提供事業者：LinkedIn Corporation
+    - 提供条件：[利用規約](https://jp.linkedin.com/legal/user-agreement?trk=homepage-learning_footer-user-agreement)
 
 これらのサービスを利用するにあたっては，以下の事項に注意してください．
 
