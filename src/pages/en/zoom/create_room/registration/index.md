@@ -28,12 +28,12 @@ Here, we will explain how the host creates a meeting where the participant regis
 1. On the next screen, please switch on  the "Required" checkbox for "Registration".
    ![](./MustRegisterCheckOn.png){:.medium} 
 1. Please click on the "Save" button at the bottom.
-1. Please inform prospective participants of the "Registration Link" shown below.
+1. Please inform prospective participants of the "Registration Link" shown on the next screen.
    ![](./RegisterLink.png){:.medium}
 1. Prospective participants can perform the necessary registration procedures through the "Registration Link".
    Participants who have completed the registration procedure will automatically receive a confirmation email containing the individualized link.
 
-※To individually decide whether a prospective participant will receive a confirmation email or not, please use the "[Manual Approval](#manual-approval)" option mentioned below.
+※To individually decide whether to approve a prospective participant or not, please use the "[Manual Approval](#manual-approval)" option mentioned below.
 
 ### Enabling the Participant Registration Feature in an Already Created Meeting (Not Recommended)
 {:#change-to-register}
@@ -57,7 +57,7 @@ If you want to require registration, please create a new meeting by following th
    In the email address field, enter your own email address. 
    Members of the University of Tokyo should enter their UTokyo Account (10-digit Common ID) followed by @utac.u-tokyo.ac.jp, e.g. `0123456789@utac.u-tokyo.ac.jp`.
    ![](./RegistrationForm_new.png){:.medium}
-1. Once approved by the host, a confirmation email will be sent to the entered email address. 
+1. Once you complete registration (or, if manual approval is enabled, once the host approves you), a confirmation email will be sent to the entered email address. 
    An individualized link required to attend the meeting will be provided in the confirmation email. 
    Since this link is assigned individually to registered prospective participants, please make sure not to leak it to others or lose it.
 1. On the day of the meeting, please click on the join link to attend the meeting.
@@ -67,7 +67,7 @@ If you want to require registration, please create a new meeting by following th
 In spite of being a member of the University of Tokyo, if you cannot register for a meeting restricted to UTokyo members, please check the following. 
 If participant registration is open to external participants as well, this step is not necessary.
 
--  **You have not entered your email address in the format `0123456789@utac.u-tokyo.ac.jp`**: Please enter your UTokyo Account (10-digit Common ID＋`@utac.u-tokyo.ac.jp`).
+-  **You have not entered your email address in the format `0123456789@utac.u-tokyo.ac.jp`**: Please enter your UTokyo Account (10-digit Common ID+ `@utac.u-tokyo.ac.jp`).
 -  **You have never signed in to Zoom with your Zoom account of the University of Tokyo**： 
    If you have never logged into your account of the University of Tokyo before, it is possible that you cannot register for Zoom meetings restricted to UTokyo Member. 
    In such cases, please perform the registration procedure again after signing in following the [Sign-in Methods for Zoom](./../../signin/).
@@ -77,22 +77,21 @@ If participant registration is open to external participants as well, this step 
 ## "Require authentication to join" Option
 
 Here, we will explain the "**Require authentication to join**" option, which allows you to restrict registration in advance to UTokyo members. 
-This is an option that only prospective participants having specific email addresses can register in advance. 
-By setting so that only participants who have a UTokyo Account which have `u-tokyo.ac.jp` at the end, assigned to members of the University of Tokyo, can attend, you can restrict "Participant Registration" to UTokyo members only.
+When this option is enabled, prospective participants who open the registration link must be signed in to a Zoom account with the specified domain. If you set the domain to `u-tokyo.ac.jp`, only UTokyo members can register.
 
 1. Please go to the [Zoom meeting page](https://u-tokyo-ac-jp.zoom.us/meeting/) in your web browser and click on "Schedule a Meeting".
 1. On the following screen, please switch on the "Required" checkbox for "Registration".
 1. Then, on the same screen, please switch on the "Require authentication to join" checkbox.
    ![](./OnlyVerifiedUserCheckOn.png){:.medium}
 1. Then select "大学のアカウントでサインインする / Sign-in with University Account" from the dropdown menu just below.
-1. Please ensure that the field further down in the menu is "*.u-tokyo.ac.jp". If not, please click on next "Edit" to change it.
+1. Please ensure that the field further down in the menu is "*.u-tokyo.ac.jp". If not, please click “Edit” next to it to change it.
    ![](./OnlyVerifiedUserDomain.png){:.medium}
 1. Click on the "Save" button at the bottom.
-1.	Please inform the prospective participants of the "Registration Link" displayed on the next screen and guide prospective participants to enter their UTokyo Account (10-digit Common ID+ `@utac.u-tokyo.ac.jp`), e.g.`0123456789@utac.u-tokyo.ac.jp` in the email address field.
+1.	Please inform the prospective participants of the "Registration Link" displayed on the next screen and guide prospective participants to enter their UTokyo Account (10-digit Common ID+ `@utac.u-tokyo.ac.jp`), e.g. `0123456789@utac.u-tokyo.ac.jp` in the email address field.
    ![](./RegisterLink.png){:.medium}
 
 ※If the email addresses of prospective participants are not in the format of `0123456789@utac.u-tokyo.ac.jp`, you may still be able to register in the Zoom system (if you have the Zoom account with `u-tokyo.ac.jp` at the end). 
-However, because using the UTokyo Account (10-digit Common ID+`@utac.u-tokyo.ac.jp`) as the Zoom account is standard at the University of Tokyo, please enter it in the format of `0123456789@utac.u-tokyo.ac.jp`.
+However, because using the UTokyo Account (10-digit Common ID+ `@utac.u-tokyo.ac.jp`) as the Zoom account is standard at the University of Tokyo, please enter it in the format of `0123456789@utac.u-tokyo.ac.jp`.
 
 ## Resending Confirmation Email
 
@@ -100,7 +99,7 @@ Here, we will explain how to resend a confirmation email to registered prospecti
 This is useful when you receive inquiries from prospective participants who have completed the registration procedure, such as "I lost the confirmation email" or "Please send the confirmation email again".
 
 1. Please go to [Zoom meeting page](https://u-tokyo-ac-jp.zoom.us/meeting/) in your web browser.
-1. Your scheduled meetings will be displayed as a list. Please click on the name of the meeting registered by the prospective participants to whom you want to resend the confirmation email.
+1. Your scheduled meetings will be displayed as a list. Click the name of the meeting for which you want to resend the confirmation email.
    ![](./ResendMailChooseMeeting.png){:.medium}
 1. The meeting information will be displayed. You will see a row of tabs at the top, such as "Registration", "Email Settings", etc. Please select the "Registration" tab.
    ![](./ResendMailRegisterTab.png){:.medium}
@@ -120,7 +119,7 @@ Using Zoom's participant registration feature allows you to accomplish the follo
 -  Customize the fields in the form that prospective participants fill out on the registration page.
 -  View the information entered on the registration page by prospective participants.
 -  Ask for registration in advance for recurring meetings.
--  Close registration after the scheduled end time has passed.
+-  Close registration after the scheduled end date has passed.
 -  Display original banners or logos on the registration website.
 
 ### Manual Approval
@@ -187,7 +186,7 @@ The denied prospective participants will receive a "Registration Denial Email" i
 ※The list of rejected prospective participants can be viewed in the "Denied" list.
 
 ##### Approval Procedure for Accidentally Denied Registrants
-If you accidentally refused a prospective participant whom you wished to approve, you can undo the denial procedure by following steps and approve their participation.
+If you accidentally refused a prospective participant whom you wished to approve, you can undo the denial procedure by following the steps and approve their participation.
 
 1. Please open the "Denied" list.
    ![](./ManualRejectedList.png){:.medium}
@@ -234,7 +233,7 @@ This can be useful for conducting surveys with prospective participants in advan
 
 Here, we will explain how to view and confirm the information that prospective participants entered in the form on the registration page.
 
-#### How to confirm the answers for each Registered Prospective Participants
+#### How to confirm the answers for each Registered Prospective Participant
 
 Here, we will explain how to view the answers provided by a specific participant
 
@@ -249,9 +248,9 @@ Here, we will explain how to view the answers provided by a specific participant
 1. Click on the name of the prospective participant whose answers you wish to view and confirm.
 1. The information entered by the prospective participant will be displayed.
 
-#### How to Retrieve a List of Answers
+#### How to Retrieve a Registrant Report
 
-Here, we will explain how to retrieve a list of answers.
+Here, we will explain how to retrieve a registrant report.
 
 1. Open the [Zoom Profile page](https://u-tokyo-ac-jp.zoom.us/profile) in your web browser.
 2. Go to "Reports" and select the "Usage reports" tab.
@@ -270,7 +269,7 @@ Here, we will explain how to retrieve a list of answers.
 
 Here, we will explain how to use the registration feature for recurring meetings. 
 If you use the registration feature for an already created recurring meeting, please follow the steps from Step 1. 
-If you are creating a new recurring meeting, stay on the meeting creation screen and continue from Step 5. 
+If you are creating a new recurring meeting, stay on the meeting creation screen and continue from Step 4. 
 For more information on how to create a recurring meeting, please refer to "[Detailed Date and Time Settings for Zoom Meetings](./../date_and_time/)".
 
 1. Please go to [Zoom meeting page](https://u-tokyo-ac-jp.zoom.us/meeting/) in your web browser.
@@ -286,12 +285,12 @@ For more information on how to create a recurring meeting, please refer to "[Det
    -  **Attendees register once and can choose one or more occurrences to attend** – prospective participants can select which session they want to register for.
 1. Click on the "Save" button.
 
-### Close Registration After the Scheduled End Time
+### Close Registration After the Scheduled End Date
 
-Here, we will explain how to prevent accepting registrations after the scheduled end time has passed.
+Here, we will explain how to prevent accepting registrations after the scheduled end date has passed.
 
 1. Please go to the [Zoom meeting page](https://u-tokyo-ac-jp.zoom.us/meeting/) in your web browser.
-1. Your scheduled meetings will be displayed as a list. Please click on the name of the meeting for which you want to prevent accepting the registration procedure after the scheduled end time has passed. 
+1. Your scheduled meetings will be displayed as a list. Please click on the name of the meeting for which you want to prevent accepting the registration procedure after the scheduled end date has passed. 
    ![](./DeadlineChooseMeeting.png){:.medium}
 1. The meeting information will be displayed.  You will see a row of tabs at the top, such as "Registration", "Email Settings", etc. Please select the "Registration" tab.
    ![](./DeadlineRegisterTab.png){:.medium}
@@ -310,5 +309,5 @@ Here, we will explain how to add original banners and logos to the registration 
    ![](./DesignChooseMeeting.png){:.medium}
 1. The meeting information will be displayed.  You will see a row of tabs at the top, such as "Registration", "Email Settings", etc. Select the "Branding" tab.
    ![](./DesignBrandingTab.png){:.medium}
-1. Please upload images for the banner and/or the logo. If they are uploaded normally, the banner images will be displayed.
+1. Please upload images for the banner and/or the logo. If they are uploaded normally, the images of the banner and/or the logo will be displayed.
 1. The banner and/or the logo will be displayed on the registration page.
