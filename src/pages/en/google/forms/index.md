@@ -4,7 +4,7 @@ breadcrumb:
   title: Google Forms
 ---
 
-This page explains how to use Google Forms. It also includes examples of anticipated case of use when used at the University of Tokyo.
+This page explains how to use Google Forms. It also includes examples of anticipated use cases at the University of Tokyo.
 
 ## What is Google Forms?
 
@@ -20,7 +20,7 @@ This page introduces the basic workflow for creating and responding to forms, as
 
 You can access Google Forms by using your ECCS Cloud Email account (the University of Tokyo's Google account). By using your ECCS Cloud Email account, you can restrict form access to UTokyo members only.
 
-## Cases of Use
+## Use Cases
 
 ### Using as a Survey Form
 
@@ -53,7 +53,7 @@ This is intended for instructors to check students' understanding of the lecture
   * You can immediately check the response status of registered students.
   * You can immediately download grading data.
 
-If you wish to use grading features, please refer to the [Quiz Settings](#test-settings) section described later in this page.
+If you wish to use grading features, please refer to the [Quiz Settings](#quiz_settings) section described later in this page.
 
 ## Basic Flow for Creating a Form
 
@@ -83,7 +83,7 @@ A form consists of any number of questions. The following explains how to create
 2. Enter the content of the question.
 3. Set the question format.
    * For more specific instructions, see "[Choose a type of question for your form](https://support.google.com/docs/answer/7322334?hl=en)" (official help).
-   * Please note that the file upload answer options cannot be used in forms stored on shared drives.
+   * Please note that file upload questions cannot be used in forms stored on shared drives.
 4. For multiple-choice answer formats, configure the answer options.
 
 ### Step 3: Publish & Share
@@ -91,13 +91,13 @@ A form consists of any number of questions. The following explains how to create
 
 This section explains how to publish a completed form so that others can respond, and how to share it for collaborative editing. Please also refer to "[Publish & share your form with responders](https://support.google.com/docs/answer/2839588?hl=en)" (official help).
 
-Please note that there are settings you should configure before publishing the form, such as settings for use as a test and for recording responses. Check the "[Form Settings](#form_settings)" section at the bottom of this page and configure as needed.
+Please note that there are settings you should configure before publishing the form, such as settings for use as a quiz and for recording responses. Check the "[Form Settings](#form_settings)" section at the bottom of this page and configure as needed.
 
 #### Publishing the Form
 
 You can publish the form to accept responses by clicking the "Publish" button in the upper right of the page.
 
-![](./publishing-form.jpg){:.medium}
+![](./publishing-form.png){:.medium}
 
 After publishing, you can stop accepting responses using the "Accepting responses" button. Simply publishing the form does not allow anyone to respond. Responses can only be collected after completing the steps described in "[Sharing with Respondents](#sharing_with_respondents)" step below.
 
@@ -120,7 +120,7 @@ To have others respond to your form, share the response link by following these 
 2. Copy the response link.
    * You can also share a shortened link by turning on "Shorten URL".
 
-![](./sharing-form-link.jpg)
+![](./sharing-form-link.png)
 
 ##### Sharing with Editors
 {:#sharing_with_editors}
@@ -172,7 +172,7 @@ There are two main possible causes. Please also refer to "[Get permission to ope
 * You do not have permission to open the form.
   * You need to obtain permission.
   * You can optionally enter a message and request access via the "Request access" button, which will notify the form owner.
-   ![](./access-trouble.jpg){:.small}
+   ![](./access-trouble.png){:.small}
 * You are signed in to a Google account that does not have access.
   * You need to sign in with a different Google account that has access.
   * For example, if a form is restricted to "The University of Tokyo ECCS Cloud Email" accounts, signing in with any other account will result in the above error.
@@ -211,14 +211,14 @@ This section introduces features that are particularly useful when editing indiv
    * You can automatically display different questions based on the respondent's answers. Questions to be shown for each answer must be created in separate sections.
    * For detailed setup instructions, refer to "[Show questions based on answers](https://support.google.com/docs/answer/141062?hl=en)" (official help).
 3. Shuffle Option Order
-   * The "Shuffle option order" button randomizes the order in which answer options are displayed. This can be useful for tests, where you may want different respondents to see options in a different order.
+   * The "Shuffle option order" button randomizes the order in which answer options are displayed. This can be useful for quizzes, where you may want different respondents to see options in a different order.
 4. Response Validation
    ![](./editing-question-setting.jpg)
    * For short answer or checkboxes questions, the "Response validation" button lets you set rules for responses (e.g., "Show an error if the value is not an integer").
    * When processing collected responses, having a consistent format often makes data management easier. For example, if you require "half-width numbers" for an age question, respondents will be blocked from entering kanji numerals or full-width numbers, making response management far more efficient.
 5. Add Images
    ![](./editing-question-photo.jpg)
-   * To provide additional context for your questions, you can attach images to a question using the button on the right of the question text (a.), or to an answer option using the button on the right of the each option (b.).
+   * To provide additional context for your questions, you can attach images to a question using the button on the right of the question text (a.), or to an answer option using the button on the right of each option (b.).
    * When you insert images, the respondent view will look like this: images added next to the question text appear below the question, while images added next to an option appear above that option.
       ![](./editing-question-photo-result.jpg)
 
@@ -227,14 +227,15 @@ This section introduces features that are particularly useful when editing indiv
 
 This section introduces the settings available for your form.
 
-Switching to the "Settings" tab allows you to configure settings related to tests, responses, and question display.
+Switching to the "Settings" tab allows you to configure settings related to quizzes, responses, and question display.
 
-### Test Settings
+### Quiz Settings
+{:#quiz_settings}
 
 ![](./form-setting-test.jpg)
 
-1. Use as a Test
-   * If you want to use Google Forms for tests, you can enable this by turning on the "Make this a quiz" option. By using the quiz feature, you can assign point values and correct answers for each question. This allows you to utilize the grading functionality to share scores with respondents based on their answers.
+1. Use as a Quiz
+   * If you want to use Google Forms for quizzes, you can enable this by turning on the "Make this a quiz" option. By using the quiz feature, you can assign point values and correct answers for each question. This allows you to utilize the grading functionality to share scores with respondents based on their answers.
    * Depending on your needs, you can customize the grading options, such as choosing whether to release scores immediately after each submission or at a later time.
    * For more information, please refer to the following resources as needed.
       * [Create & grade quizzes with Google Forms](https://support.google.com/docs/answer/7032287?hl=en) (official help)
@@ -262,7 +263,7 @@ Switching to the "Settings" tab allows you to configure settings related to test
 6. Show Progress Bar
    * Turning on "Show progress bar" displays a visual indicator of which section the respondent is currently on.
 7. Shuffle Question Order
-   * Turning on "Shuffle question order" displays questions in a different order for each respondent, which can be useful for tests. Only questions within the same section are shuffled.
+   * Turning on "Shuffle question order" displays questions in a different order for each respondent, which can be useful for quizzes. Only questions within the same section are shuffled.
    * When editors review recorded responses, questions appear in their original order.
 8. Show Summary of Responses
    * Turning on "Show summary of responses" shares the already-collected results with respondents after they complete the form.
