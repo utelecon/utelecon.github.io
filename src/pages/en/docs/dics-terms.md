@@ -1,5 +1,5 @@
 ---
-title: Precautions for using external services managed and operated by Division for Information and Communication Systems
+title: Precautions for using external services provided university-wide
 toc: false
 redirect_from:
   - /en/slack/terms
@@ -7,22 +7,33 @@ redirect_from:
 
 ## About this document
 
-This document applies to the following external services managed and operated by Division for Information and Communication Systems.
+This document applies to the following external services provided university-wide.
+The basic terms of service are based on the Information system Security Management and Assessment Program (ISMAP). For ISMAP-compliant services, please check the ISMAP Cloud Service List. For other services, we have reviewed the GakuNin Cloud Checklist based on the Information Security Policy. Please check the terms of use and other relevant documents for details on the services provided.
 
 - [Zoom](/en/zoom/)
     - External service provider: Zoom Video Communications, Inc.
+    - Terms of service: [ISMAP-compliant](https://www.ismap.go.jp/csm?id=cloud_service_list)
 - [Webex](/en/webex/) (including [Slido](/en/slido/) available with a Webex account)
     - External service provider: Cisco Systems, Inc.
+    - Terms of service: [ISMAP-compliant](https://www.ismap.go.jp/csm?id=cloud_service_list)
 - [UTokyo Microsoft License](/en/microsoft/) (including Teams and [Email System for Staff](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/Email_System_for_staff.aspx))
     - External service provider: Microsoft Corporation
+    - Terms of service: [ISMAP-compliant](https://www.ismap.go.jp/csm?id=cloud_service_list)
+- [ECCS Cloud Email](/en/google/)
+    - External service provider: Google LLC
+    - Terms of service: [ISMAP-compliant](https://www.ismap.go.jp/csm?id=cloud_service_list)
 - [UTokyo Slack](/en/slack/)
     - External service provider: Slack Technologies, LLC
+    - Terms of service: [ISMAP-compliant](https://www.ismap.go.jp/csm?id=cloud_service_list)
 - [UTokyo MATLAB Campus-Wide License](/en/matlab/)
     - External service provider: The MathWorks, Inc.
+    - Terms of service: [Trust Center](https://www.mathworks.com/company/trust-center.html?s_tid=gf_tc) 
 - [UTokyo Account Identity Verification Service](/en/utokyo_account)
     - External service provider: Division for Information and Communication Systems, UTokyo
+    - Terms of service: [UTokyo Account の管理及び運用に関する細則](https://utelecon.adm.u-tokyo.ac.jp/utokyo_account/UTokyoAccountsaisoku.pdf) (in Japanese)
 - [LinkedIn Learning](/en/lil/)
     - External service provider: LinkedIn Corporation
+    - Terms of service: [User Agreement](https://www.linkedin.com/legal/user-agreement?trk=homepage-basic_footer-user-agreement) 
 
 When using these services, please follow the terms below.
 
