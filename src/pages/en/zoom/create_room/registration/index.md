@@ -40,7 +40,7 @@ Here, we will explain how the host creates a meeting where the participant regis
 
 You can change a meeting that did not require participant registration to one that requires after it has been scheduled. However, this is not recommended because if the participants have the original link instead of the registration link created after the host has applied this change, they will be able to attend the meeting without completing the registration procedure.
 
-If you want to require registration, please create a new meeting by following the steps in "[Creating a New Meeting with Required Registration](#create-must-register-meeting)" and share the new registration link.
+If you want to require registration, please create a new meeting by following the steps in "[When Creating a New Meeting Requiring Participant Registration](#create-must-register-meeting)" and share the new registration link.
 
 1. Please go to the [Zoom meeting page](https://u-tokyo-ac-jp.zoom.us/meeting/) in your web browser.
 1. When you hover the mouse over the meeting which you wish to enable the participant registration feature, the "Edit" button will be displayed on the right side. Please click on this button.
@@ -106,7 +106,7 @@ This is useful when you receive inquiries from prospective participants who have
 1. Please click on the "View" button located to the right of "Manage Registrants".
    ![](./ResendMailShowList.png){:.medium}
 1. The list of the meeting registrants will be displayed.
-1. Click on the checkbox for the registrant to whom you want to resend the confirmation email, and click on the "Resend Confirmation Email" button.
+1. Click on the checkbox for the registrants to whom you want to resend the confirmation email, and click on the "Resend Confirmation Email" button.
    ![](./ResendMailResend.png){:.medium}
 
 ※If you have set up [manual approval](#manual-approval), you can only resend the confirmation email to prospective participants who are listed in the "Approved" list.
@@ -180,7 +180,7 @@ The denied prospective participants will receive a "Registration Denial Email" i
    ![](./ManualApplied.png){:.medium}
 1. Click on the checkbox on the left of the prospective participants you want to reject and click on the "Deny" button.
    ![](./ManualRejected.png){:.medium}
-1. The screen for "Send Registration Denial Email" will be displayed. Enter the message you want to convey to the rejected prospective participant, and click on "Send". The rejected prospective participant will receive the registration rejection email that contains what you enter here.
+1. The screen for "Send Registration Denial Email" will be displayed. Enter the message you want to convey to the rejected prospective participant, and click on "Send" button. The rejected prospective participant will receive the registration rejection email that contains what you enter here.
    ![](./ManualRejectedMessage.png){:.medium}
 
 ※The list of rejected prospective participants can be viewed in the "Denied" list.
@@ -255,7 +255,7 @@ Here, we will explain how to retrieve a registrant report.
 1. Open the [Zoom Profile page](https://u-tokyo-ac-jp.zoom.us/profile) in your web browser.
 2. Go to "Reports" and select the "Usage reports" tab.
    ![](./ViewReportStatus.png){:.medium}
-1. Click "Meeting and webinar registration".
+1. Click "Meeting and webinar registrations".
    ![](./ViewReportMeeting.png){:.medium}
 1. A list of meetings will be displayed. Find the meeting you want to view the report for, and click "Generate" on the right. Next, select the registrants you want to include in the report from "All registrants", "Approved registrants", or "Denied registrants".
    ![](./ViewReportWho.png){:.medium}
