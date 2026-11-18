@@ -53,7 +53,7 @@ This is intended for instructors to check students' understanding of the lecture
   * You can immediately check the response status of registered students.
   * You can immediately download grading data.
 
-If you wish to use grading features, please refer to the [Quiz Settings](#test-settings) section described later in this page.
+If you wish to use grading features, please refer to the [Quiz Settings](#Quiz-settings) section described later in this page.
 
 ## Basic Flow for Creating a Form
 
@@ -91,7 +91,7 @@ A form consists of any number of questions. The following explains how to create
 
 This section explains how to publish a completed form so that others can respond, and how to share it for collaborative editing. Please also refer to "[Publish & share your form with responders](https://support.google.com/docs/answer/2839588?hl=en)" (official help).
 
-Please note that there are settings you should configure before publishing the form, such as settings for use as a test and for recording responses. Check the "[Form Settings](#form_settings)" section at the bottom of this page and configure as needed.
+Please note that there are settings you should configure before publishing the form, such as settings for use as a quiz and for recording responses. Check the "[Form Settings](#form_settings)" section at the bottom of this page and configure as needed.
 
 #### Publishing the Form
 
@@ -211,7 +211,7 @@ This section introduces features that are particularly useful when editing indiv
    * You can automatically display different questions based on the respondent's answers. Questions to be shown for each answer must be created in separate sections.
    * For detailed setup instructions, refer to "[Show questions based on answers](https://support.google.com/docs/answer/141062?hl=en)" (official help).
 3. Shuffle Option Order
-   * The "Shuffle option order" button randomizes the order in which answer options are displayed. This can be useful for tests, where you may want different respondents to see options in a different order.
+   * The "Shuffle option order" button randomizes the order in which answer options are displayed. This can be useful for quizzes, where you may want different respondents to see options in a different order.
 4. Response Validation
    ![](./editing-question-setting.jpg)
    * For short answer or checkboxes questions, the "Response validation" button lets you set rules for responses (e.g., "Show an error if the value is not an integer").
@@ -227,14 +227,14 @@ This section introduces features that are particularly useful when editing indiv
 
 This section introduces the settings available for your form.
 
-Switching to the "Settings" tab allows you to configure settings related to tests, responses, and question display.
+Switching to the "Settings" tab allows you to configure settings related to quizzes, responses, and question display.
 
-### Test Settings
+### Quiz Settings
 
 ![](./form-setting-test.jpg)
 
-1. Use as a Test
-   * If you want to use Google Forms for tests, you can enable this by turning on the "Make this a quiz" option. By using the quiz feature, you can assign point values and correct answers for each question. This allows you to utilize the grading functionality to share scores with respondents based on their answers.
+1. Use as a Quiz
+   * If you want to use Google Forms for quizzes, you can enable this by turning on the "Make this a quiz" option. By using the quiz feature, you can assign point values and correct answers for each question. This allows you to utilize the grading functionality to share scores with respondents based on their answers.
    * Depending on your needs, you can customize the grading options, such as choosing whether to release scores immediately after each submission or at a later time.
    * For more information, please refer to the following resources as needed.
       * [Create & grade quizzes with Google Forms](https://support.google.com/docs/answer/7032287?hl=en) (official help)
@@ -262,7 +262,7 @@ Switching to the "Settings" tab allows you to configure settings related to test
 6. Show Progress Bar
    * Turning on "Show progress bar" displays a visual indicator of which section the respondent is currently on.
 7. Shuffle Question Order
-   * Turning on "Shuffle question order" displays questions in a different order for each respondent, which can be useful for tests. Only questions within the same section are shuffled.
+   * Turning on "Shuffle question order" displays questions in a different order for each respondent, which can be useful for quizzes. Only questions within the same section are shuffled.
    * When editors review recorded responses, questions appear in their original order.
 8. Show Summary of Responses
    * Turning on "Show summary of responses" shares the already-collected results with respondents after they complete the form.
