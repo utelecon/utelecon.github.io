@@ -53,7 +53,7 @@ This is intended for instructors to check students' understanding of the lecture
   * You can immediately check the response status of registered students.
   * You can immediately download grading data.
 
-If you wish to use grading features, please refer to the [Quiz Settings](#quiz-settings) section described later in this page.
+If you wish to use grading features, please refer to the [Quiz Settings](#quiz_settings) section described later in this page.
 
 ## Basic Flow for Creating a Form
 
