@@ -1,5 +1,5 @@
 ---
-title: Precautions for using external services provided university-wide
+title: Precautions for Using Cloud Services Provided University-Wide
 toc: false
 redirect_from:
   - /en/slack/terms
@@ -7,8 +7,9 @@ redirect_from:
 
 ## About this document
 
-This document applies to the following external services provided university-wide.
-The basic terms of service are based on the Information system Security Management and Assessment Program (ISMAP). For ISMAP-compliant services, please check the ISMAP Cloud Service List. For other services, we have reviewed the GakuNin Cloud Checklist based on the Information Security Policy. Please check the terms of use and other relevant documents for details on the services provided.
+This notice applies to the services listed below, among the cloud services provided university-wide.
+
+The basic terms of provision are based on the Information System Security Management and Assessment Program (ISMAP). For ISMAP-compliant services, please check the terms of provision for the relevant product on the ISMAP Cloud Service List. For other services, we verify their compliance using the "GakuNin Cloud Checklist" in accordance with our Information Security Policy. For specific details on the services provided, please refer to the terms of use and related documentation for each service.
 
 - [Zoom](/en/zoom/)
     - External service provider: Zoom Video Communications, Inc.
