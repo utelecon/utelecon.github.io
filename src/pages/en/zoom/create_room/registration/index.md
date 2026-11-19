@@ -83,7 +83,7 @@ When this option is enabled, prospective participants who open the registration 
 1. On the following screen, please switch on the "Required" checkbox for "Registration".
 1. Then, on the same screen, please switch on the "Require authentication to join" checkbox.
    ![](./OnlyVerifiedUserCheckOn.png){:.medium}
-1. Then select "Sing-in with UTokyo Account" from the dropdown menu just below.
+1. Then select "Sign-in with UTokyo Account" from the dropdown menu just below.
 1. Please ensure that the field further down in the menu is "*.u-tokyo.ac.jp". If not, please click “Edit” next to it to change it.
    ![](./OnlyVerifiedUserDomain.png){:.medium}
 1. Click on the "Save" button at the bottom.
