@@ -1,0 +1,25 @@
+---
+import Tabs from "@components/utils/tabs/Tabs";
+---
+
+<Tabs
+  client:load
+  queryKey="os"
+  defaultTab="pleaseSelect"
+  tabOrder={["windows", "mac"]}
+  externalPanelSelector="[data-new-pc-os]"
+  externalPanelAttribute="data-new-pc-os"
+  externalPanelControllerSelector="[data-new-pc-os-selector]"
+>
+  <Fragment slot="panel.pleaseSelect">
+    上のタブからOSを選ぶと，この後の案内が選択したOS向けの内容に切り替わります．
+  </Fragment>
+  <Fragment slot="tab.windows">Windows</Fragment>
+  <Fragment slot="panel.windows">
+    Windows向けの案内を表示しています．
+  </Fragment>
+  <Fragment slot="tab.mac">Mac</Fragment>
+  <Fragment slot="panel.mac">
+    Mac向けの案内を表示しています．
+  </Fragment>
+</Tabs>
