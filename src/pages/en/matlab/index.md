@@ -26,7 +26,7 @@ The University of Tokyo has a comprehensive license agreement that allows **all 
 
 The purpose of use is limited to educational and research activities and related work. The use of the service for commercial purposes is not permitted. If you are considering commercial use, please contact MathWorks.
 
-Also, please refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms/)".
+Also, please refer to "[Precautions for Using Cloud Services Provided University-Wide](/en/docs/dics-terms/)".
 
 ## How to start using MATLAB
 {:#how-to-start}

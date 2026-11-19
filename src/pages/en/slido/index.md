@@ -43,7 +43,7 @@ Slido can be used for free. However, you can use the paid features below by sign
 * **Poll/Survey**: You can embed polls in images and conduct polls with multiple questions.
 * **Export**: You can export (download) question data.
 
-It is recommended to [sign in with a UTokyo Account](login/) when using Slido in class. Please also refer to "[Precautions for using external services managed and operated by Division for Information and Communication Systems](/en/docs/dics-terms/)" when using an account at the University of Tokyo.
+It is recommended to [sign in with a UTokyo Account](login/) when using Slido in class. Please also refer to "[Precautions for Using Cloud Services Provided University-Wide](/en/docs/dics-terms/)" when using an account at the University of Tokyo.
 
 
 ## Implementation and Practices
