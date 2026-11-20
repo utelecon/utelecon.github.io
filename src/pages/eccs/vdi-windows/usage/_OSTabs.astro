@@ -1,0 +1,31 @@
+---
+import Tabs from "@components/utils/tabs/Tabs";
+---
+
+<Tabs
+  client:visible
+  queryKey="os"
+  defaultTab="pleaseSelect"
+  tabs={{
+    windows: "Windows",
+    macos: "macOS",
+    chromeos: "ChromeOS・Android",
+    ipados: "iPadOS・iOS",
+  }}
+>
+  <Fragment slot="panel.pleaseSelect">
+    上のタブから，お使いの端末のOSを選択してください．
+  </Fragment>
+  <Fragment slot="panel.windows">
+    <slot name="windows" />
+  </Fragment>
+  <Fragment slot="panel.macos">
+    <slot name="macos" />
+  </Fragment>
+  <Fragment slot="panel.chromeos">
+    <slot name="chromeos" />
+  </Fragment>
+  <Fragment slot="panel.ipados">
+    <slot name="ipados" />
+  </Fragment>
+</Tabs>
