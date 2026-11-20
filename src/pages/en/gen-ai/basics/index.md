@@ -2,16 +2,14 @@
 title: What is Generative AI?
 ---
 
-<font color="red" size=-1>This page is under construction. Both its content and its URL are subject to change.</font>
-
 ## Basics: What is Generative AI?
 
 - Generative AI is the general term for AI systems that understand simple instructions or questions given in words and respond with text, program code, images, audio, video, and so on. In academic contexts the term covers something broader, but for most users this understanding is sufficient.
-- Besides instructions and questions, input can also be given by having the AI read files (PDFs, image files, audio files, and so on).
+- Besides instructions and questions, input can also be given as files (PDFs, image files, audio files, and so on).
 - AI is also built into other software, such as the office tools of Microsoft and Google, and Zoom. In those cases the contents of the file you have open, or the conversation in a meeting, become implicit input.
 - There are also systems (agents) that read many files on your own PC or in the cloud on their own (that is, without your explicitly uploading and supplying each one), produce files as output on their own (that is, without your explicitly downloading anything), and carry out other work as well.
 
-Today's generative AI not only understands instructions given in ordinary language with considerable accuracy but is also highly versatile, able to handle many kinds of work: translation, summarization, reading text out of images (an OCR-like function), transcribing audio, searching for and extracting information from large volumes of documents, reasoning, writing programs, and more. Used correctly, it therefore contributes greatly to making work more efficient. It also brings together knowledge across an extremely wide range of fields, and so helps make research and study more efficient as well.
+Today's generative AI not only understands instructions given in natural language with considerable accuracy but is also highly versatile, able to handle many kinds of work: translation, summarization, reading text out of images (an OCR-like function), transcribing audio, searching for and extracting information from large volumes of documents, reasoning, writing programs, and more. Used correctly, it therefore contributes greatly to making work more efficient. It also brings together knowledge across an extremely wide range of fields, and so helps make research and study more efficient as well.
 
 ## Services Available at UTokyo
 

@@ -2,8 +2,6 @@
 title: Talking with AI
 ---
 
-<font color="red" size=-1>This page is under construction. Both its content and its URL are subject to change.</font>
-
 ## Starting a Conversation
 
 From the menu on the left, choose "New chat", "Create new chat" or similar.
@@ -16,7 +14,7 @@ From the menu on the left, choose "New chat", "Create new chat" or similar.
 
 ## Asking Questions
 
-We give a few examples below, but the point is that you can ask anything, so there is no need to learn what sorts of things to ask. Just try asking about whatever you do not know or are wondering about. The examples below are questions that it was hard to find answers to with conventional search engines.
+We give a few examples below, but the point is that you can ask anything, so there is no need to "learn" what sorts of things to ask. Just try asking about whatever you do not know or are wondering about. The examples below are questions that it was hard to find answers to with conventional search engines.
 
 Examples:
 
@@ -24,7 +22,7 @@ Examples:
   - "**In the context of studying abroad**, someone said LoR to me. What is it?"
 - Asking about something you cannot recall (when the search keyword _is_ the answer itself)
   - "You know, **what's the name of that university in Akita that's famous for internationalization?**"
-- Wanting an explanation suited for you (ordinary searching turns up only long explanations you do not want to read)
+- Explanation suited for you (ordinary searching turns up only long explanations you do not want to read)
   - "What is this 'user list' everyone mentions when we take in international students?"
 
 |                                                                                          |                                                                          |
@@ -34,7 +32,7 @@ Examples:
 
 ## Research and Summarizing
 
-With a single instruction you can have AI look up many things and go as far as pulling them together for you. Where ordinary searching would mean searching here and there and doing the summarizing yourself, AI does that summarizing too. If you notice that you are repeating similar searches, it is worth trying whether AI can pull it all together in one go.
+With a single instruction you can have AI look up many things and pull them together for you. Whereas ordinary searching requires you to search here and there and summarize yourself, AI does that summarizing too. If you notice that you are repeating similar searches, it is worth trying whether AI can pull it all together in one go.
 
 Caution:
 
@@ -49,7 +47,7 @@ Examples:
 
 ## Discussion and Bouncing Ideas
 
-You put your own thinking to the AI and have it respond, in a conversation that goes back and forth many times.  You can continue as long as you want, without a fear of being perceived as a sticky person if it were human. Here too the topic is entirely up to you. Just put to it whatever you are thinking about or wondering about.
+You put your own thinking to the AI and have it respond, going back and forth many times.  You can continue as long as you want, without a fear of being perceived as a sticky person if it were human. Here too the topic is entirely up to you. Just put to it whatever you are thinking about or wondering about.
 
 Examples:
 

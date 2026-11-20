@@ -2,8 +2,7 @@
 title: Handbook on Using Generative AI (in preparation)
 ---
 
-<font color="red" size=-1>This page is under construction. Both its content and its URL are subject to change.</font>
-
+<font size=-1>Content will continue to be added and updated.</font>
 
 ## Contents
 
