@@ -13,6 +13,7 @@ breadcrumb:
 
 ## Other
 
+- [Precautions for Using Cloud Services Provided University-Wide](./dics-terms/)
 - [The University of Tokyo BYOD Policy](./byod/)
 - [Information on Generative AI (ChatGPT, etc.)](/online/topics/generative-ai/) (in Japanese)
     - [Notification to Students on the Use of AI Tools in Classes (ver. 1.0)](./ai-tools-in-classes-students/)

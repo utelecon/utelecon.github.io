@@ -13,6 +13,7 @@ Below is the announcement method based on the aforementioned guideline. Your coo
 For students, please refer to "[How to Obtain the Online Class URL (for Students)](/en/oc/url/)". 
 
 ## Important Rule: Use the UTOL's "Online course information" section
+{:#use-online-class-info-in-general}
 
 - Add/edit the online class URL **only on the UTOL course page** and **only under the "Online course information" section**. ([Example of a UTOL course page](https://utol.ecc.u-tokyo.ac.jp/lms/course?idnumber=2020FEN-EE3d16L10J01))
     - Please note that only entering the URL will not create a link. Click the ![](./url_button.png){:.inline} icon on the "Online Course Update" screen and bring up the "Create Link" screen to complete the link creation process.
