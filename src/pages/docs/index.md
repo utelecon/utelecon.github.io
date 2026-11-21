@@ -13,6 +13,7 @@ breadcrumb:
 
 ## その他
 
+- [全学共通に提供しているクラウドサービスの利用にあたっての注意事項](./dics-terms/)
 - [東京大学のBYOD方針](/docs/byod/)
 - [生成AI（ChatGPT等）関連情報](/online/topics/generative-ai/)
     - [東京大学の学生の皆さんへ：AIツールの授業における利用について](/docs/ai-tools-in-classes-students/)

@@ -1,18 +1,51 @@
 ---
-title: Scheduling Recurring Zoom Meetings
+title: Detailed Date and Time Settings for Zoom Meetings
 breadcrumb:
-  title: Scheduling Recurring Meetings
+  title: Detailed Date and Time Settings for Zoom Meetings
 redirect_from:
   - /en/zoom/how/faculty_members/schedule
 ---
 
-import YouTube from "@components/embed/YouTube.astro";
+This page explains the different types of detailed date and time settings for Zoom meetings and the features of each type. Configuring detailed date and time settings, or setting up a recurring meeting, can make a meeting easier to reuse, both in terms of URL expiration and how the date and time are displayed. For basic procedures on how to schedule a Zoom meeting, please refer to [Scheduling a Zoom Meeting](./../).
 
-By scheduling recurring meetings, you can use a fixed meeting URL with all 13 class occurrences. 
-Note that the advanced settings of recurring meetings can be configured only in the Zoom Meetings page **on your web browser**.
-First, open <a href="https://zoom.us/profile" target="_blank">the Zoom profile page</a> and sign into your Zoom account. Click “SCHEDULE” in the upper right corner.
-In the meeting settings page, you will see the option “Recurring meeting”. If this option is selected, you can hold recurring meetings with the same meeting URL.
+## Three Types of Date and Time Settings
+When scheduling a meeting, you can choose whether to set it as a one-time meeting or a meeting that is held multiple times (recurring meeting). Furthermore, for meetings held multiple times, you can select whether or not to specify the date, time, and recurrence pattern.
+- A one-time meeting
+- A recurring meeting with a specified date, time, and recurrence pattern
+- A recurring meeting with no fixed date or time
 
-Please refer to the following video (Japanese only) for detailed instructions.
+The following sections explain the features of each setting and how to configure it.
 
-<YouTube src="https://www.youtube.com/embed/rf_Tw0L5PLs" />
+## How to Set Up a One-time Meeting
+This section explains how to set up a one-time meeting by specifying the date and time.
+
+1. Open [Zoom’s “Meetings” page](https://u-tokyo-ac-jp.zoom.us/meeting) in your web browser, and click "Schedule a Meeting" in the upper right corner to open the meeting schedule screen. 
+![](./meeting_schedule.png)
+
+1. If you leave the "Recurring meeting" checkbox unchecked on this screen, it will be a one-time meeting. For a one-time meeting, you only need to decide the date and time in the "When" field.
+![](./schedule_date.png)
+
+Note that you can start the meeting at a time different from the one specified. Also, the meeting will not be forcibly terminated even if it continues past the specified end time.
+
+In fact, even a one-time meeting can be used to hold multiple meetings using the same URL. However, the URL for a one-time meeting expires 30 days after the scheduled date (or after the date it was last started, if that is later). Therefore, if you would like to use the same meeting URL multiple times, it is better to set it as a **recurring meeting** as shown below.
+
+Note that you can also change a meeting that has already been scheduled from a one-time meeting to a recurring meeting. For details, please refer to [Editing and Managing Zoom Meetings](./../../misc/edit_meeting/).
+
+## How to Set Up a Recurring Meeting with a Specified Date, Time, and Recurrence Pattern
+This section explains a recurring meeting with a specified date, time, and recurrence pattern.
+
+When setting up a meeting, checking the "Recurring meeting" box turns it into a recurring meeting. A recurring meeting takes the date and time specified in the "When" field as the first session, and by also setting a recurrence pattern, you can make it a regularly scheduled meeting.
+
+First, under the "Recurrence" field that appears after checking "Recurring meeting", you can choose the recurrence unit for subsequent meetings from "Daily", "Weekly", or "Monthly". (If you select "No Fixed Time", it becomes a recurring meeting without specifying a date and time, as described later.) Furthermore, you can configure more detailed settings by specifying "Repeat every" and "End date". For example, if you set the date and time to "11/02/2026 5:00 PM", the recurrence unit to "Weekly", the "Repeat every" to "1 week", the day to "Monday", and the end date to "12/14/2026", you can set up a meeting every Monday at 5:00 PM from November 2 to December 14, 2026.
+
+![](./schedule_recurring_check.png)
+
+Even when you specify a date, time, and recurrence pattern for a meeting, you can still hold the meeting at other times.
+However, if you wish to hold multiple meetings without a fixed recurrence pattern, the "**No Fixed Time**" setting explained in the next section is suitable.
+
+## How to Set Up a Recurring Meeting with No Fixed Date or Time
+After checking "Recurring meeting", by selecting "No Fixed Time" in the "Recurrence" field, you can set up a meeting that does not have a specified date and time.
+
+Even with a one-time meeting or a recurring meeting with a specified date, time, and recurrence pattern, you can hold multiple meetings using the same URL. However, there are inconvenient aspects: each has limitations on the period and number of times it can be held, and when holding a meeting outside the scheduled time, the pre-specified date and time will still be displayed, which may cause confusion. Therefore, if you plan to hold meetings at irregular intervals, it would be appropriate to set the recurrence to "No Fixed Time".
+
+![](./schedule_recurring_no_fixed_time.png)

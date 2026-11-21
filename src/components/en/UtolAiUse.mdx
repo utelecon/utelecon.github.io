@@ -1,0 +1,22 @@
+import If from "@components/utils/If.astro";
+
+{/**
+  * @typedef {object} Props
+  * @property {"lecturer" | "student"} [variant] defaults to `"lecturer"`
+  */}
+
+<div class="box--important">
+
+<If cond={props.variant === "student"}>
+
+From September 29, 2026, course instructors will set the **Permitted AI Use** for each "Assignment". For assignments with this setting, the permitted use is shown on the submission screen, so please check it before working on the assignment. For more details, please see “[Setting “Permitted AI Use” Will Become Required in UTOL Assignments](/en/notice/2026/0928-utol-ai/)”.
+
+<Fragment slot="else">
+
+From September 29, 2026, setting the **Permitted AI Use** will be required for "Assignments" created in UTOL. For more details, please see “[Setting “Permitted AI Use” Will Become Required in UTOL Assignments](/en/notice/2026/0928-utol-ai/)”.
+
+</Fragment>
+
+</If>
+
+</div>

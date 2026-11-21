@@ -14,16 +14,16 @@ import altAddMethodWindow from "./alt_add_method_window.png";
 </li>
 <li>
   「サインイン方法の追加」を押してください．
-  <ArrowOverlay image={altAddMethod} x={750} y={325} angle={180} />
+  <ArrowOverlay image={altAddMethod} x={1000} y={450} angle={180} />
 </li>
 <li>
   「サインイン方法の追加」欄で{props.selection}を押してください．
   {props.methodSupplement}
   <If cond={props.selection === "「Microsoft Authenticator」"}>
-    <ArrowOverlay image={altAddMethodWindow} x={630} y={460} />
+    <ArrowOverlay image={altAddMethodWindow} x={1050} y={250} />
   </If>
   <If cond={props.selection === "「パスキー」"}>
-    <ArrowOverlay image={altAddMethodWindow} x={630} y={340} />
+    <ArrowOverlay image={altAddMethodWindow} x={1050} y={410} />
   </If>
   <If cond={props.selection === "登録したい種類の電話番号"}>
     <Image src={altAddMethodWindow} alt="" />

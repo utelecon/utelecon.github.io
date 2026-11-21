@@ -4,6 +4,10 @@ author:
   affiliation: oes
   name: OER・著作権グループ
 ---
+<div class="box">
+
+  [お断り] 当ページは更新を停止しており，今後も更新の予定はありません．授業資料作成のための著作権と素材利用ルールに関する最新の情報は，次のリンク先ページよりご確認ください．[著作権教育教材｜報告書等｜大学ICT推進協議会 - AXIES（外部サイト）](https://axies.jp/report/copyright_education/)
+</div>
 
 ## この記事の概要
 

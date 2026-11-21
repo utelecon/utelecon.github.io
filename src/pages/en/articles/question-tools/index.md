@@ -33,7 +33,7 @@ Using the Chat feature allows participants to ask questions whenever they want, 
 
 <figure>
 <figcaption>Example of Q&A using Zoom’s Chat feature</figcaption>
-<img src="pic01.png">
+<img src="pic01.png"/>
 </figure>
 
 (Advantages)
@@ -64,7 +64,7 @@ Since you can have the posted questions flow across your screen, you can read an
 
 <figure>
 <figcaption>An example of using CommentScreen</figcaption>
-<img src="pic02.png">
+<img src="pic02.png"/>
 </figure>
 
 (Advantages)
@@ -100,7 +100,7 @@ Although Slido has several features, we will focus on examples of how to collect
 
 <figure>
 <figcaption>Examples of Questions Collected Using Slido</figcaption>
-<img src="pic03.png">
+<img src="pic03.png"/>
 </figure>
 
 (Advantages)
@@ -150,7 +150,7 @@ You can collect and respond to questions by creating a workspace for your class 
 
 <figure>
 <figcaption>An example of Q&A using Slack</figcaption>
-<img src="pic04.png">
+<img src="pic04.png"/>
 </figure>
 
 (Advantages)
@@ -187,7 +187,7 @@ You can set up a room for the class and host Q&A sessions by inviting participan
 
 <figure>
 <figcaption>Example of Q&A conducted using LINE Open Chat</figcaption>
-<img src="pic05.jpg">
+<img src="pic05.jpg"/>
 </figure>
 
 (Advantages)
