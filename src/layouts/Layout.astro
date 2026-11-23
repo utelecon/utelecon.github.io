@@ -146,6 +146,31 @@ const resolvedBreadcrumb =
 
     <link rel="icon" href="/assets/images/favicon.png" />
 
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+
+      window.gtag = window.gtag || function () {
+        window.dataLayer.push(arguments);
+      };
+
+      window.__gcse = window.__gcse || {};
+      window.__gcse.searchCallbacks = {
+        web: {
+          starting: function (_gname, query) {
+            const trimmedQuery = query?.trim();
+
+            if (!trimmedQuery) return query;
+
+            window.gtag("event", "search", {
+              search_term: trimmedQuery,
+            });
+
+            return query;
+          },
+        },
+      };
+    </script>
+
     <script
       async
       src="https://cse.google.com/cse.js?cx=000989064976317806194:6h5uropjuyu"
