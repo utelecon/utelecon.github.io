@@ -4,6 +4,7 @@ interface Props {
 }
 
 const { id } = Astro.props;
+const isDev = import.meta.env.DEV;
 ---
 
 <script
@@ -11,11 +12,11 @@ const { id } = Astro.props;
   async
   type="text/partytown"
   src=`https://www.googletagmanager.com/gtag/js?id=${id}`></script>
-<script is:inline define:vars={{ id }} type="text/partytown">
+<script is:inline define:vars={{ id, isDev}} type="text/partytown">
   window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
+  window.gtag = function (){
+    window.dataLayer.push(arguments);
   }
   gtag("js", new Date());
-  gtag("config", id);
+  gtag("config", id, isDev ? { debug_mode: true } : {});
 </script>

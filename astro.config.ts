@@ -80,7 +80,7 @@ export default defineConfig({
     redirect(),
     partytown({
       config: {
-        forward: ["dataLayer.push"],
+        forward: ["dataLayer.push", "gtag"],
       },
     }),
     ignoreAssets(ASSET_EXTENSIONS),
