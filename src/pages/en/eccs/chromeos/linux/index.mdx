@@ -29,17 +29,17 @@ The versions of the environment and applications described on this page are thos
 {:#first-setup}
 
 1. Click the Terminal icon on the shelf (taskbar).
-  ![](img/setup-01-shelf-terminal.drawio.png){:.medium}
+  ![](img/setup-01-shelf-terminal.png){:.medium}
 2. In the "Linux" section of Terminal, click "Set up."
-  ![](img/setup-02-terminal-linux-settings.drawio.png){:.medium}
+  ![](img/setup-02-terminal-linux-settings.png){:.medium}
 3. In the window that opens, click "Set up" under "Linux development environment."
-  ![](img/setup-03-settings-developer.drawio.png){:.medium}
+  ![](img/setup-03-settings-developer.png){:.medium}
 4. Click "Next."
-  ![](img/setup-04-welcome.drawio.png){:.medium}
+  ![](img/setup-04-welcome.png){:.medium}
 5. Choose a Linux username and disk size, then click "Install."
     - By default, the username is set to the local part of your ECCS Cloud Email address (the part before @).
     - The default disk size is 10 GB, but you can change it later in Settings.
-  ![](img/setup-05-username-disk.drawio.png){:.medium}
+  ![](img/setup-05-username-disk.png){:.medium}
 6. Wait for the installation to complete (approximately one minute). Once the installation is complete, Terminal will open automatically, and the Linux development environment will be ready to use.
   <figure class="gallery">![](img/setup-06-installing.png){:.medium}![](img/setup-07-terminal-ready.png){:.medium}</figure>
 
@@ -56,7 +56,7 @@ Once you have set up the Linux development environment, you can immediately reus
 
 Right-click the Terminal icon on the shelf and select "Shut down Linux."
 
-![](img/shutdown-menu-shutdown.drawio.png){:.medium}
+![](img/shutdown-menu-shutdown.png){:.medium}
 
 Shutting down the Linux development environment does not delete it. However, the environment may be deleted if the device runs low on storage space due to use by other users.
 
@@ -74,10 +74,10 @@ The Linux development environment may be automatically deleted if the device run
 
 1. Click the Terminal icon on the shelf.
 2. In the "Linux" section, click "Manage."
-  ![](img/uninstall-01-settings.drawio.png){:.medium}
+  ![](img/uninstall-01-settings.png){:.medium}
 3. At the bottom of the Settings page, click "Remove" under "Remove Linux development environment."
 4. Click "Delete" again in the confirmation dialog.
-  ![](img/uninstall-02-confirm.drawio.png){:.medium}
+  ![](img/uninstall-02-confirm.png){:.medium}
 
 ### Backup and Restore
 {:#backup-and-restore}
@@ -90,12 +90,12 @@ You can create a backup of your Linux development environment and save it to Goo
 
 1. Click the Terminal icon on the shelf.
 2. In the "Linux" section, click "Manage."
-  ![](img/backup-01-linux-settings.drawio.png){:.medium}
+  ![](img/backup-01-linux-settings.png){:.medium}
 3. Click "Backup & restore."
-  ![](img/backup-02-backup-restore.drawio.png){:.medium}
+  ![](img/backup-02-backup-restore.png){:.medium}
 4. Click "Backup."
 5. In the window that opens, select a destination for the backup file and click "Save."
-  ![](img/backup-03-save-dialog.drawio.png){:.medium}
+  ![](img/backup-03-save-dialog.png){:.medium}
 6. Wait for the backup to complete. An indicator next to the backup file shows the progress.
   ![](img/backup-05-saved-file.png){:.medium}
 
@@ -108,9 +108,9 @@ You can restore your Linux development environment from a backup. Note that rest
 3. Click "Backup & restore."
 4. Click "Restore."
 5. In the window that opens, select the backup file and click "Open."
-  ![](img/backup-06-restore-pick-file.drawio.png){:.medium}
+  ![](img/backup-06-restore-pick-file.png){:.medium}
 6. Click "Restore" again in the confirmation dialog.
-  ![](img/backup-07-restore-confirm.drawio.png){:.medium}
+  ![](img/backup-07-restore-confirm.png){:.medium}
 7. Wait for the restoration to complete. A notification in the bottom-right corner of the screen shows the progress.
   - Do not use the existing Linux development environment while the restoration is in progress, as doing so may cause the restoration to fail.
 
@@ -122,20 +122,20 @@ You can share folders between ChromeOS and the Linux development environment to 
 
 You can access the home directory (`/home/username`) of your Linux development environment through the ChromeOS Files app. No additional setup is required, but the Linux development environment must be running to access its files.
 
-![](img/share-from-chromeos-01-linux-files.drawio.png){:.medium}
+![](img/share-from-chromeos-01-linux-files.png){:.medium}
 
 To display hidden files, such as those whose names begin with a period (`.`), click the three-dot menu (⋮) in the upper-right corner of the Files app and enable "Show hidden files."
 
-![](img/share-from-chromeos-02-show-hidden.drawio.png){:.medium}
+![](img/share-from-chromeos-02-show-hidden.png){:.medium}
 
 #### Accessing ChromeOS Folders from Linux
 
 You can access ChromeOS folders from the Linux development environment by sharing them through the Files app. You can share not only local folders but also folders stored in Google Drive or OneDrive. Follow these steps:
 
 1. In the Files app, right-click the folder you want to share with Linux and select "Share with Linux."
-  ![](img/share-from-linux-01-share-folder.drawio.png){:.medium}
+  ![](img/share-from-linux-01-share-folder.png){:.medium}
 2. The shared folder will be mounted under `/mnt/chromeos` in the Linux development environment and will become accessible from Linux.
-  ![](img/share-from-linux-02-manage-share.drawio.png){:.medium}
+  ![](img/share-from-linux-02-manage-share.png){:.medium}
 3. To stop sharing a folder, open the Settings app, go to "Linux development environment" > "Manage shared folders," and click the "×" button next to the folder you want to stop sharing.
   ![](img/share-from-linux-03-shared-folders-settings.png){:.medium}
 
