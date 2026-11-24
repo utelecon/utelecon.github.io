@@ -15,7 +15,7 @@ Copilot Chatでは，次のようなことができます．
  - アップロードしたファイルの内容の分析
  - 画像の作成
 
-詳しくは[公式のサイト](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat#Features)をご覧ください．
+詳しくは[公式サイト](https://www.microsoft.com/ja-jp/microsoft-365-copilot/chat#Features)をご覧ください．
 
 大学のアカウントで利用することで，エンタープライズデータ保護が適用されます．ただし，送信したデータは Microsoft のサービス上で処理されるため，機密情報や未公開情報の入力には十分注意してください．
 
@@ -44,27 +44,34 @@ Copilotは名前が似たサービスが複数あり，混同しやすいため�
 
 ※②組織向けMicrosoft Copilotも③個人向けMIcrosoft Copilotも同じ名称になっています．名前だけで判断せず，どのアカウントでサインインしているかで見分けてください．
 
-※右上に![](./green_shield_icon.png){:.icon}が表示されない場合は，大学の契約の下での「エンタープライズデータ保護が適用されたMicrosoft Copilot」ではなく，個人向けのMicrosoft Copilotを利用している可能性があります．個人向けサービスでは利用条件やデータの取り扱いが異なるため，注意してください．
-
 ## 利用手順
 ### サインイン方法
 #### Web版
 1. Webブラウザで[Copilotのページ](https://copilot.cloud.microsoft)にアクセスしてください．
 1. 「サインイン」をクリックし，UTokyo Accountでサインインしてください．
 1. Copilot Chatの画面が開きます．
-1. 画面（右上または左下）に表示されているアカウントアイコンをクリックしてください．
-1. 表示されたメニュー内に，自身のUTokyo Account（`10桁の共通ID + @utac.u-tokyo.ac.jp` ） が表示されていることを確認してください．個人のメールアドレスや他機関のアカウントが表示されている場合は，アカウントを切り替えてください。切り替えた後に![](./green_shield_icon.png){:.icon}が表示され，カーソルを合わせた際に「このチャットにはエンタープライズデータ保護が適用されます」と表示されていれば，保護が有効な状態です．詳しくは[Copilotの種類と違い](#copilot-types)を参照してください．
+1. 必要に応じて，[データの保護がかかっているか](#check-data-protect)確認してください．
 
 #### アプリ
 Windows，Mac，iOS，Androidでは，「Microsoft Copilot」アプリからもCopilot Chatを利用できます．
 
 1. アプリを立ち上げ，UTokyo Accountを使ってサインインしてください．
-1. 個人のMicrosoftアカウントでもサインインしている場合は，アプリ内のアカウント切り替えでUTokyo Accountを選んでください．
-1. 画面（右上または左下）に表示されているアカウントアイコンをクリックしてください．
-1. 表示されたメニュー内に，自身のUTokyo Account（`10桁の共通ID + @utac.u-tokyo.ac.jp` ） が表示されていることを確認してください．個人のメールアドレスや他機関のアカウントが表示されている場合は，アカウントを切り替えてください。切り替えた後に(./green_shield_icon.png){:.icon}が表示され，カーソルを合わせた際に「このチャットにはエンタープライズデータ保護が適用されます」と表示されていれば，保護が有効な状態です．詳しくは[Copilotの種類と違い](#copilot-types)を参照してください．
+   - 個人のMicrosoftアカウントでもサインインしている場合は，アプリ内のアカウント切り替えでUTokyo Accountを選んでください．
+1. Copilot Chatの画面が開きます．
+1. 必要に応じて，[データの保護がかかっているか](#check-data-protect)確認してください．
 
 ### 基本的な使い方
 基本的な使い方に関しては，[公式ヘルプ](https://support.microsoft.com/ja-jp/microsoft-365-copilot/get-started-with-microsoft-365-copilot-chat)を参照してください．Webページの情報にもとづく回答には，出典へのリンクが付くことがあります．AIの回答を鵜呑みにするのではなく，出典も確認してください．
+
+### データ保護の適用を確認する方法
+{:#check-data-protect}
+
+右上に![](./green_shield_icon.png){:.icon}が表示されない場合は，大学の契約の下での「エンタープライズデータ保護が適用されたMicrosoft Copilot」ではなく，個人向けのMicrosoft Copilotを利用している可能性があります．個人向けサービスでは利用条件やデータの取り扱いが異なるため，注意してください．以下の方法でデータ保護が適用されているか確認することができます．
+
+1. 画面（右上または左下）に表示されているアカウントアイコンをクリックしてください．
+1. 表示されたメニュー内に，自身のUTokyo Account（`10桁の共通ID@utac.u-tokyo.ac.jp` ） が表示されていることを確認してください．個人のメールアドレスや他機関のアカウントが表示されている場合は，アカウントを切り替えてください．切り替えた後に![](./green_shield_icon.png){:.icon}が表示され，カーソルを合わせた際に「このチャットにはエンタープライズデータ保護が適用されます」と表示されていれば，保護が有効な状態です．詳しくは[Copilotの種類と違い](#copilot-types)を参照してください
+
+なお，エンタープライズデータ保護の詳細については，[公式のページ](https://learn.microsoft.com/ja-jp/copilot/plan/enterprise-data-protection)をご覧ください．
 
 ## 情報共有・問い合わせ先
 本サービスを含む生成AIチャットに関する情報共有のため，UTokyo Slack内に設けられている「UTokyo ARC」ワークスペースに専用のチャンネル #arc-aichat-users を作成しています．「[UTokyo Slackに自由に参加できるワークスペースの中から選んで参加する](/slack/join/)」ページの手順に従って自身で参加してください．
