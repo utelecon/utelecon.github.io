@@ -45,7 +45,6 @@ In the displayed participant list, the person who is the host has “Host” sho
 ### What a host can do
 {:#host_authority}
 Hosts can use both [functions for changing meeting settings and reviewing records](#settings_and_records) and [functions for moderating meetings](#moderate). Of the roles involved in meeting management, hosts can use the widest range of functions.
-
 ### Transferring the host role
 {:#transfer_host}
 Of the [two types of functions](#functions) available to hosts, the authority to perform [functions for moderating meetings](#moderate) can be transferred to another participant while the meeting is in progress. [Functions for changing meeting settings and reviewing records](#settings_and_records) cannot be transferred.
