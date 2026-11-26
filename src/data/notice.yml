@@ -21,6 +21,11 @@
 #   - お知らせを編集しても，Twitterに投稿した内容には反映されません．
 #   - 「一番上のお知らせのタイトル，リンク，日付のうち，2個以上を編集」すると，再投稿されます．したがって，一番上のお知らせを編集する場合は1項目までの変更とし，2個以上の項目を編集する必要がある場合には，Slackでご相談ください．
 -
+  date: 2026-11-17
+  content:
+    ja: "[学生向け「Kiro for Students」プログラムによるKiroの無償提供について](/notice/2026/1117-kiro-for-students/)"
+    en: "[Free Access to Kiro for Students through the \"Kiro for Students\" Program](/en/notice/2026/1117-kiro-for-students/)"
+-
   date: 2026-11-09
   content:
     ja: "[NII FileSenderのメジャーアップデートについて](/notice/2026/1110-filesender/)"
