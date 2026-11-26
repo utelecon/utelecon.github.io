@@ -11,13 +11,13 @@ Below are some options.
 * Admit all participants in the Waiting Room before entering the meeting room
 * Allow participants with UTokyo Zoom Account domains to bypass the Waiting Room. Such settings are shared among all meetings. Please double check if the settings are in place before starting a meeting.
 
-For details on how to set up a Zoom meeting, please refer to [Scheduling a Zoom Meeting (Web Portal)](../).
+For details on how to set up a Zoom meeting, please refer to [Scheduling a Zoom Meeting (Web Portal)](./../).
 For recommendations on meeting room settings for online classes, please see [Restricting Access to Zoom Meeting Rooms for Online Classes](/en/faculty_members/zoom_access_control/).
 
 ## Setup Procedure
 1. In your web browser, go to the [Zoom Settings page](https://u-tokyo-ac-jp.zoom.us/profile/setting).
 ![](./waiting_roomEN1.png){:.medium}
-2. Select “Meetings” from the menu on the left. Scroll down to “Waiting Room Options” under “Security,” and click “Edit Options.”
+2. Select “Meetings” from the menu on the left. Scroll down to “Waiting Room Options” under “Security", and click “Edit Options".
 ![](./waiting_roomEN2.png){:.medium}
 3. Select the appropriate option for “Who should go into the waiting room?”
     * **”Everyone”**: All participants will be placed in the Waiting Room before entering the meeting room. This option is best for interviews, examinations, and one-on-one meetings.
