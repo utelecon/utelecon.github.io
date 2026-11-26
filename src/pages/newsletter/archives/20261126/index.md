@@ -7,12 +7,12 @@ breadcrumb:
 <pre>
 ●---------------------------------------------------------------------------------------●
                                [u] uteleconメールマガジン
-                                   2026/11/26  vol.8
+                                   2026/11/28  vol.8
                            発行：東京大学uteleconプロジェクト
 ●---------------------------------------------------------------------------------------●
 
 ★本メールマガジンはこちらからもご覧いただけます：
-<a href="/newsletter/archives/20261126/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20261126/</a>
+<a href="/newsletter/archives/20261128/">https://utelecon.adm.u-tokyo.ac.jp/newsletter/archives/20261128/</a>
 
 ★最新情報はuteleconポータルサイトでご確認ください
 ポータルサイト：<a href="/">https://utelecon.adm.u-tokyo.ac.jp/</a>
