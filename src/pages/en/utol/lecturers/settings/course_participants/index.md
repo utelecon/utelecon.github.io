@@ -96,7 +96,7 @@ Please pay attention to the following points when registering course participant
 
     * When adding a user with a UTokyo Account categorized as a student, select “Search students”. When adding a faculty or a staff member, select “Search a faculty and staff”.
     * A user whose UTokyo Account has the status of both “Faculty staff” and “Student” can be searched with both “Search student” and “Search a faculty and staff”.
-4. Enter the information of the user you wish to add, and search.
+4. Enter the information of the user you wish to add, and search. (When searching by name, please insert a half-width space between the first and last name.)
     * Search Students: You can search students by User ID, Student ID or Name.
     * Search faculty and staff: You can search faculty and staff by User ID and Name.
 5. Select the users you would like to add, shown in the search result, by ticking the boxes in the checkbox on the left side of the list.
