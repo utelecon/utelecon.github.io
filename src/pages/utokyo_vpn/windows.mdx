@@ -31,7 +31,13 @@ import HelpDownloadError from './_help_download_error_link_windows.html';
 
 <HelpWhite />
 
-その後はダウンロードしたインストーラを開き，他のWindows用アプリケーションと同様にインストールします．もし以下のようなMicrosoft Storeの画面が開いたら，「Microsoft Store 以外からのインストールを続行する」を選択してください．  
+<div class="box">
+**ARM64版Windowsをご利用の場合**
+
+ARM64版Windows用のインストーラをzipファイルでダウンロードした場合は，zipファイルを展開した後，展開先のファイル名が**core-vpn-predeploy-k9.msi**で終わるファイルのみを実行してください．展開先に他の実行ファイルやインストーラが含まれていても，それらは実行しないでください．
+</div>
+
+ダウンロードしたインストーラを開き，他のWindows用アプリケーションと同様にインストールします．もし以下のようなMicrosoft Storeの画面が開いたら，「Microsoft Store 以外からのインストールを続行する」を選択してください．
 
 ![](img/win03-install-0.png){:.small.center.border}
 
@@ -52,7 +58,7 @@ import HelpDownloadError from './_help_download_error_link_windows.html';
 
 以下の手順はVPNを利用するたびに必要です．特にPCを起動した直後に自動的にVPNに接続されるわけではありませんので，ご注意ください．
 
-**手順E:** 準備編でインストールしたCisco Secure Clientを起動すると，以下のような画面が出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「接続」ボタンをクリックします．
+**手順E:** 準備編でインストールしたCisco Secure Clientを起動すると，以下のような画面が出てきます．VPN接続先として **vpn1.adm.u-tokyo.ac.jp** と入力し，「接続」ボタンをクリックします．接続先が表示されない場合や空欄になっている場合も，手動で **vpn1.adm.u-tokyo.ac.jp** と入力してください．
 
 ![](img/win08-app-window-connect.png){:.medium.center.border}
 
