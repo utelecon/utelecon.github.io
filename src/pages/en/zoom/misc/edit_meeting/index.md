@@ -5,7 +5,7 @@ breadcrumb:
   parent: ../..
 ---
 
-When scheduling a Zoom meeting, you can configure various items such as the meeting name and date/time. These settings can also be reviewed and changed after the meeting has been created. You can even delete a meeting entirely. However, **the screen you use differs depending on whether you are reviewing, editing, or deleting a meeting. Because several similar-looking screens exist**, please be careful.
+When scheduling a Zoom meeting, you can configure various items such as the meeting name and date/time. These settings can also be reviewed and changed after the meeting has been created. You can even delete a meeting entirely. However, **the screen you use differs depending on whether you are reviewing, editing, or deleting a meeting**. Because several similar-looking screens exist, please be careful.
 
 This page explains in detail how to review and change meeting settings and how to delete meetings. Some operations can also be performed through the Zoom app, but others require the web browser. Here, we primarily describe how to operate from the browser.
 
@@ -17,7 +17,7 @@ You can open the screens for editing and managing meetings as follows.
 - Hover over the meeting you want to edit, and select the Edit button that appears. This opens the Edit "My Meeting (*This is where the name of the meeting you scheduled will be inserted*)" screen. 
   - In this article, we will call this the Meeting Edit screen.
 ![](./how-to-enter-edit.png){:.medium}
-- On the other hand, if you click the meeting title itself, the Manage “My Meeting(*This is where the name of the meeting you scheduled will be inserted*)” screen appears. 
+- On the other hand, if you click the meeting title itself, the Manage “My Meeting (*This is where the name of the meeting you scheduled will be inserted*)” screen appears. 
   - In this article, we call this the Meeting Management screen.
 ![](./how-to-enter-manage.png){:.medium}
 
@@ -29,7 +29,7 @@ As noted above, this article distinguishes between the **Meeting Edit screen** a
 On the Meeting Edit screen, you can review and change the basic items that were set when creating the meeting, such as the meeting name (topic) and the date/time. For detailed explanations of these items, see [Scheduling a Zoom Meeting](./../../create_room/).
 ![](./edit.png){:.medium}
 
-For recurring meetings, selecting Edit Entire Occurrences allows you to review and change settings for all instances at once. Selecting Edit This Occurrence lets you edit only a specific instance, but the items that can be reviewed or changed are limited.
+For recurring meetings, selecting Edit Entire Series allows you to review and change settings for all instances at once. Selecting Edit This Occurrence lets you edit only a specific instance, but the items that can be reviewed or changed are limited.
 ![](./edit-bulk.png){:.medium}
 
 These operations can be performed not only from the browser but also from the app. Select the Meetings tab, click the … icon for the relevant meeting, and then select Edit.
@@ -38,28 +38,28 @@ These operations can be performed not only from the browser but also from the ap
 ## Operations on the Meeting Management Screen
 {:#manage}
 
-On the meeting management screen, you can review basic items such as the meeting name and date/time. Unlike on the Meeting Edit screen, you can only review these items but you cannot change them.
+On the Meeting Management screen, you can review basic items such as the meeting name and date/time. Unlike on the Meeting Edit screen, you can only review these items but you cannot change them.
 ![](./manage.png){:.medium}
 
 On the other hand, for features such as polls/quizzes, surveys, live streaming, and Q&A, you can both review and change the settings. Each of these can be managed from its respective tab.
 
-In addition, you can convert a meeting into a webinar (up to 500 participants; available only to "faculty and staff employed by the University of Tokyo") or add it to your calendar. These actions can be performed from the **Details** tab. For more information about webinars, please refer to the [Additional Licenses](./../../license/) page and the [Changes to Zoom Services Provided at the University of Tokyo](/en/notice/2026/0801-zoom-contract-renewal/) page.
+In addition, you can convert a meeting into a webinar (up to 500 participants; available only to "faculty or staff members employed by the university") or add it to your calendar. These actions can be performed from the Details tab. For more information about webinars, please refer to the [Additional licenses for Zoom (Large Meetings)](./../../license/) page and the [Changes to the Zoom Service Provided at the University of Tokyo](/en/notice/2026/0801-zoom-contract-renewal/) page.
 
 ## Delete a Meeting
 {:#delete}
 
-You can delete a meeting from the [meeting list screen](https://u-tokyo-ac-jp.zoom.us/meeting) in the web portal or from the meeting management screen. Note that you cannot delete a meeting from the Meeting Edit screen.
+You can delete a meeting from the [Meeting List screen](https://u-tokyo-ac-jp.zoom.us/meeting/) in the web portal or from the Meeting Management screen. Note that you cannot delete a meeting from the Meeting Edit screen.
 
 ### How to Delete from the Meeting List Screen
 
-1. On the meeting list screen, hover over the meeting you want to delete and select the Delete button that appears. A Delete Meeting dialog will be displayed.
+1. On the Meeting List screen, hover over the meeting you want to delete and select the Delete button that appears. A Delete Meeting dialog will be displayed.
     ![](./how-to-enter-delete.png){:.medium}
 2. Click Delete to delete the meeting.
     ![](./delete.png){:.medium}
 
 ### How to Delete from the Meeting Management Screen
 
-1. On the meeting management screen, scroll to the bottom of the Details tab and click Delete.
+1. On the Meeting Management screen, scroll to the bottom of the Details tab and click Delete.
 2. When the Delete Meeting dialog appears, click Delete again.
 
 ### How to Delete from the App
